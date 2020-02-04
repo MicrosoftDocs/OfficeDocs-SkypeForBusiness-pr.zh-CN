@@ -13,17 +13,17 @@ ms.collection:
 ms.reviewer: lolaj
 search.appverid: MET150
 description: 培训视频、教程和其他资源，供组织中的用户学习和使用 Teams。
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8379e81038882a4aab99ef943c10952b47f62e12
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
-ms.translationtype: HT
+ms.openlocfilehash: eb5a1bb679c964fb7fd735c28576466b26f2f0a0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37567465"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695887"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 下面是适用于韩国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: f9f04687aa57fc17e7889e25f6489257f58731d5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 63009e4e1e517c5d3ae41832de22e40eb70d8451
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572362"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694607"
 ---
 # <a name="availability-in-south-korea"></a>在韩国的可用性
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: 会议配置设置定义用户可以创建的会议类型 (也 calledmeetings), 并控制匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于计划的会议。 它们不适用于通过单击客户端中的 "立即开会" 选项创建的临时会议。
-ms.openlocfilehash: 82619b255f99dc5a82d6a9cb704fe5443fe83d23
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 会议配置设置定义用户可以创建的会议类型（也 calledmeetings），并控制匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于计划的会议。 它们不适用于通过单击客户端中的 "立即开会" 选项创建的临时会议。
+ms.openlocfilehash: 5e4d0b11bc169b7658061e33fdfb8ddf0bd4b044
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293422"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700037"
 ---
 # <a name="meeting-configuration"></a>会议配置
 
@@ -26,11 +26,11 @@ ms.locfileid: "34293422"
 
 在全局级、站点级或池级上应用会议配置：
 
-- **全局会议配置:** 默认情况下, 将创建全局会议配置。 可以编辑全局会议配置，但无法将其删除。 如果您尝试删除全局会议配置，则所有设置将重置为默认值。
+- **全局会议配置：** 默认情况下，将创建全局会议配置。 可以编辑全局会议配置，但无法将其删除。 如果您尝试删除全局会议配置，则所有设置将重置为默认值。
 
-- **网站会议配置 (可选):** 你可以创建一个或多个网站会议配置, 每个配置都适用于特定网站。 站点配置会覆盖全局配置。
+- **网站会议配置（可选）：** 你可以创建一个或多个网站会议配置，每个配置都适用于特定网站。 站点配置会覆盖全局配置。
 
-- **池会议配置 (可选):** 你可以创建一个或多个池会议配置, 每个配置都适用于特定的池。 池配置会覆盖全局配置和站点配置。
+- **池会议配置（可选）：** 你可以创建一个或多个池会议配置，每个配置都适用于特定的池。 池配置会覆盖全局配置和站点配置。
 
 “**会议配置**”页显示一个为组织定义的所有会议配置的列表。
 
@@ -50,7 +50,7 @@ ms.locfileid: "34293422"
 
 - **新**启动新的网站会议配置或池会议配置。
 
-- **编辑**打开所选会议配置以对其进行编辑, 选择列表中的所有会议配置, 或删除所选网站配置或池配置。
+- **编辑**打开所选会议配置以对其进行编辑，选择列表中的所有会议配置，或删除所选网站配置或池配置。
 
     > [!NOTE]
     > 对于全局会议配置，“**删除**”会将设置重置为默认值。
@@ -61,7 +61,7 @@ ms.locfileid: "34293422"
 
 - **名称**标识会议配置。
 
-- **范围**标识会议配置的范围: "全局"、"网站" 或 "池"。
+- **范围**标识会议配置的范围： "全局"、"网站" 或 "池"。
 
 有关使用会议配置的详细信息，请参阅操作文档中的[Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)。
 

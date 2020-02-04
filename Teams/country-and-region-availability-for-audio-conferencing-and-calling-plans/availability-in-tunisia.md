@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 下面是适用于突尼斯的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 2a5f9085dee44b263c7222cfdab6bfb56f8f2ef9
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 5dde4e0deea88f452a1ef2fb82c9b0fe72c5f8d9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952865"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694457"
 ---
 # <a name="availability-in-tunisia"></a>突尼斯中的可用性
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.TrunkSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 若要编辑或修改 SIP 中继的设置，请执行下列操作：
-ms.openlocfilehash: 5b6c0384e2297f8bfd93ea493416fc7eea271033
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 119bd77b55ef616d3441c3432f238aa274de4e71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282215"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696547"
 ---
 # <a name="trunk-settings-expander"></a>中继设置扩展器
 
@@ -32,12 +32,12 @@ ms.locfileid: "34282215"
 
  **SIP 传输协议**：使用的协议可以是 TCP，也可以是 TLS。TLS 为默认选项。有关网关所支持的选项，请参考网关供应商文档。默认为 TLS，且如果网关支持 TLS，则应将其视为更安全的选择。
 
- **关联的中介服务器**: 从部署中选择现有中介服务器以与 SIP 主干相关联。
+ **关联的中介服务器**：从部署中选择现有中介服务器以与 SIP 主干相关联。
 
 > [!NOTE]
 > 只有根干线才能与 Lync Server 2010 或 Lync Server 2013 中介服务器相关联。
 
- **关联的中介服务器端口**: 一个必需值, 它设置为中介服务器配置为侦听的值。
+ **关联的中介服务器端口**：一个必需值，它设置为中介服务器配置为侦听的值。
 
 ![中继设置扩展器](../../media/Trunk_Settings_Expander.jpg)
 

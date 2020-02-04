@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于卢森堡的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 4be11f89c6fc5db8288aec97abc1a7c7cb9caf83
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1246fd23c698dc964faff346d211bcb515016e85
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571465"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694927"
 ---
 # <a name="availability-in-luxembourg"></a>在卢森堡的可用性
 

@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 下面是可用于牙买加的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 2860d014eeca08627e8eb51e168eb593767291fb
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 1145bb4d1aa4cbfdc4e59218f9f0d602570ea470
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741499"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695017"
 ---
 # <a name="availability-in-jamaica"></a>牙买加中的可用性
 

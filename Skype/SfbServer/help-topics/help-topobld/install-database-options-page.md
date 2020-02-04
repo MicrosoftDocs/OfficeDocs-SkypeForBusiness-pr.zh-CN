@@ -7,40 +7,40 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
-description: '在 SQL Server 上配置数据库和日志文件的位置的高级选项。 可用选项包括:'
-ms.openlocfilehash: 5a2aa6bffc5424c10ed752c7c3d2ac28cfba1684
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在 SQL Server 上配置数据库和日志文件的位置的高级选项。 可用选项包括：
+ms.openlocfilehash: 0abcf0be4c6e7a4d808a7abaaad713c1b35cd37e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284275"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697197"
 ---
 # <a name="install-database-options-page"></a>安装数据库选项页面
 
-在 SQL Server 上配置数据库和日志文件的位置的高级选项。 可用选项包括:
+在 SQL Server 上配置数据库和日志文件的位置的高级选项。 可用选项包括：
 
 > [!IMPORTANT]
-> 选择最适合你的要求和策略的选项, 这些选项与你的 SQL Server 计算机上的数据和日志文件的位置有关。
+> 选择最适合你的要求和策略的选项，这些选项与你的 SQL Server 计算机上的数据和日志文件的位置有关。
 
- **自动确定数据库文件位置**: 默认选项使用一个算法来确定 SQL Server 上的可用空间, 并分发数据库和日志文件以获得最佳性能。
+ **自动确定数据库文件位置**：默认选项使用一个算法来确定 SQL Server 上的可用空间，并分发数据库和日志文件以获得最佳性能。
 
- **使用 Sql server 实例默认值**: 选择此选项可根据 SQL Server 上的实例设置放置数据库文件和日志文件。 选项通常由数据库管理员管理和配置。
+ **使用 Sql server 实例默认值**：选择此选项可根据 SQL Server 上的实例设置放置数据库文件和日志文件。 选项通常由数据库管理员管理和配置。
 
- **我们在目标 SQL Server 上的这些路径**: 选择此选项可通过键入要在其中放置数据库和日志文件的驱动器和文件夹的完整路径来定义你自己的 SQL Server 数据库和日志文件的路径。
+ **我们在目标 SQL Server 上的这些路径**：选择此选项可通过键入要在其中放置数据库和日志文件的驱动器和文件夹的完整路径来定义你自己的 SQL Server 数据库和日志文件的路径。
 
 > [!IMPORTANT]
-> 你输入的路径可能会根据安装中的性能优化算法进行修改。 有关详细信息, 请参阅[使用 Lync Server 命令行管理程序进行数据库安装](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)。
+> 你输入的路径可能会根据安装中的性能优化算法进行修改。 有关详细信息，请参阅[使用 Lync Server 命令行管理程序进行数据库安装](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)。
 
- **确定**: 单击 "确定" 按钮提交所做的更改。
+ **确定**：单击 "确定" 按钮提交所做的更改。
 
- **取消**: 单击 "取消" 放弃任何更改并返回到 "安装数据库" 屏幕。
+ **取消**：单击 "取消" 放弃任何更改并返回到 "安装数据库" 屏幕。
 
- **帮助**: 单击 "帮助" 按钮以访问此帮助页面。
+ **帮助**：单击 "帮助" 按钮以访问此帮助页面。
 
 ## <a name="see-also"></a>另请参阅
 

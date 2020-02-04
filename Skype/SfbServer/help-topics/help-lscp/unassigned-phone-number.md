@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaVacantNumMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: 未分配号码是指对于组织有效但尚未分配给用户或电话的电话号码。未分配号码表标识您希望如何处理对未分配号码的调用。
-ms.openlocfilehash: 88852088b4b664665750ef0e6167ba98b506a501
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 47b3e424bee6405def80874d4cb74c20c8051c36
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307194"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699297"
 ---
 # <a name="unassigned-phone-number"></a>未分配电话号码
 
@@ -49,14 +49,14 @@ ms.locfileid: "34307194"
 
 - **新**启动新的未分配的号码范围。
 
-- **编辑**打开所选的未分配的号码范围进行编辑, 选择列表中的所有未分配号码范围, 或删除所选的未分配号码范围。
+- **编辑**打开所选的未分配的号码范围进行编辑，选择列表中的所有未分配号码范围，或删除所选的未分配号码范围。
 
-- **上移**将所选的未分配的号码范围在列表中上移, 以便 Skype for Business 服务器更快地发现它, 并在应用为列表中的其他范围指定的操作之前应用指定的操作。
+- **上移**将所选的未分配的号码范围在列表中上移，以便 Skype for Business 服务器更快地发现它，并在应用为列表中的其他范围指定的操作之前应用指定的操作。
 
     > [!NOTE]
-    > Skype for Business 服务器从上到下搜索 "未分配的号码" 表, 并使用与未分配号码匹配的第一个区域。 例如，如果有一个范围指定了最后一种操作，请确保将该范围置于列表底部。
+    > Skype for Business 服务器从上到下搜索 "未分配的号码" 表，并使用与未分配号码匹配的第一个区域。 例如，如果有一个范围指定了最后一种操作，请确保将该范围置于列表底部。
 
-- **** 下移将选定的未分配的号码范围向下移动到列表中。
+- **下移**将选定的未分配的号码范围向下移动到列表中。
 
 - **全部提交**保存对未分配的号码范围所做的所有更改。
 
@@ -69,7 +69,7 @@ ms.locfileid: "34307194"
 
 - **名称**标识未分配的号码范围的唯一名称。
 
-- **状态**显示已将哪些数字范围保存到数据库中, 哪些尚未保存。
+- **状态**显示已将哪些数字范围保存到数据库中，哪些尚未保存。
 
 - **开始范围**未分配的号码范围的起始编号。
 
@@ -79,6 +79,6 @@ ms.locfileid: "34307194"
 
 - **公告**将为此未分配号码范围播放的公告。
 
-有关发布功能和功能的详细信息, 请参阅规划文档中的[Skype For business 2015 中的 "发布" 应用计划](../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
+有关发布功能和功能的详细信息，请参阅规划文档中的[Skype For business 2015 中的 "发布" 应用计划](../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 有关使用未分配号码范围的详细信息，请参阅操作文档中的[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)。
 
 

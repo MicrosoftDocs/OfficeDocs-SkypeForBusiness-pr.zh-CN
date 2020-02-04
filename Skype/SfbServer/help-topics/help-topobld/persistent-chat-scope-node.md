@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
-description: 若要开始创建新的持久聊天服务器或持久聊天服务器池, 请在拓扑生成器中右键单击永久聊天池, 然后选择 "新建持久聊天" 池
-ms.openlocfilehash: b4f4ac70fa28f5c2148be2138cf713769e993046
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 若要开始创建新的持久聊天服务器或持久聊天服务器池，请在拓扑生成器中右键单击永久聊天池，然后选择 "新建持久聊天" 池
+ms.openlocfilehash: 4a96bd2236c98325fad75032e4cc39c85e587297
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289914"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696857"
 ---
 # <a name="persistent-chat-scope-node"></a>持久聊天范围节点
  
-若要开始创建新的持久聊天服务器或持久聊天服务器池, 请在拓扑生成器中右键单击**永久聊天池**, 然后选择 "**新建持久聊天" 池**
+若要开始创建新的持久聊天服务器或持久聊天服务器池，请在拓扑生成器中右键单击**永久聊天池**，然后选择 "**新建持久聊天" 池**
   
-- **拓扑**。 你可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑的副本、发布拓扑、安装数据库、合并以前版本的 Office 通信服务器中的组件, 或删除部署.
+- **拓扑**。 你可以使用此选项来定义新的拓扑、打开现有拓扑、下载当前拓扑、保存拓扑的副本、发布拓扑、安装数据库、合并以前版本的 Office 通信服务器中的组件，或删除部署.
     
 - **帮助**。 可以使用此选项访问活动节点的“帮助”。
     

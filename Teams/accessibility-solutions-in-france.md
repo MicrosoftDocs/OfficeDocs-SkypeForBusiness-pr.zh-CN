@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessibles à tous est au cœur de-qui consiste à permettre à chaque personne à chaque planète d'accomplir davantage。 Microsoft offre 取消 fonctionnalités d'accessibilité浇筑 Skype Entreprise Microsoft 团队 qui s'inscrivent dans 韦恩 faveur。
-ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2f2218c9439a0fa0e6ea20889ee905d2fbadef77
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516838"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695877"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>适用于法国的 Skype for business Online 和 Microsoft 团队的辅助功能解决方案
 
@@ -68,13 +69,13 @@ Microsoft 团队 fournit des 页面 d'aide avec des raccourcis clavier et des �
 
 - 批注 utiliser 未 lecteur d'écran 浇筑 rechercher des alertes et y répondre dans Microsoft 团队（[https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)） 
 
-Microsoft 团队 permet maintenant aux utilisateurs leur arrière pendant 果 réunions qui peut être utile 果 personnes malentendantes qui 功能 difficultés lire des 见果 lèvres celles qui peuvent brouiller être facilement distraitesenvironnement actif： [ https://support.office.com/fr-fr/article/rendre-votre-arrière-flou-dans-une = fr-fr&ui = fr-fr = fr-fr&rs = fr&ad = fr](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。 |-fr。
+Microsoft 团队 permet maintenant brouiller leur arrière pendant 果 réunions qui peut être utile 果 personnes malentendantes qui des 功能 difficultés lire 见果 lèvres celles qui peuvent être facilement distraites environnement actif ère flou dans une réunion équipe f77a2381-443a-499d-825e-509a140f4780 [ https://support.office.com/fr-fr/article/rendre-votre-arri？ omkt = fr-fr&ui = fr-fr&rs = fr&ad = fr](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。
 
-De +、la fonction de 聊天 Microsoft 团队 inclut désormais "沉浸式阅读器"、ce qui permet aux utilisateurs ayant des difficultés "visuelles taille de texte d'augmenter 策略 et l'espacement，果果，de thèmesréduire le champ de l'expérience de 讲座： [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。 
+De +、la fonction 解除聊天 Microsoft 团队 inclut désormais "沉浸式阅读器"、ce qui permet aux utilisateurs ayant des difficultés "visuelles taille"、"texte" d'augmenter 策略 et l'espacement "果"、"解除修改" 果策略 et thèmes réduire、champ le l'expérience de 讲座： [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。 
 
 Skype Entreprise permet le réglage de taille du texte messagerie 讲座 plus instantanée，Microsoft 团队 une le 缩放。 Skype Entreprise et 果équipes Microsoft fournissent une 协助浇筑 TTY。 Lorsque vous utilisez Skype Entreprise，果菜单 de réponse vocale peuvent être ralentis accélérés redémarrés，et 果 utilisateurs peuvent choisir de pas afficher 果说明。 Microsoft 团队 permet le réglage de la vitesse de la messagerie vocale。
 
-果 utilisateurs peuvent également choisir recevoir leurs vocaux sous forme texte qui particulièrement bénéfique 果 personnes malentendantes sourdes qu'ils utilisent 2010 ouplus récentes： [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。 果 administrateurs informatiques Microsoft 团队 peuvent gérer la leurs 客户端。 
+果 utilisateurs également choisir recevoir peuvent leurs vocaux sous forme texte qui particulièrement bénéfique 果 personnes malentendantes sourdes qu'ils utilisent récentes 2010 [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)，ou 果 administrateurs informatiques Microsoft 团队 peuvent gérer la leurs 客户端。 
 
 La 侦测 Vocale Windows peut également aider 果 personnes à mobilité réduite en leur faisant bénéficier de l'utilisation des commandes vocales plutôt que clavier souris ou de。 Des 说明浇筑 savoir 注释 activer la vocale 见 ordinateur fonctionnant sous Windows 10 sont disponibles ici： [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition)。 
   

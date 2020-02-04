@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectCreators
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
-description: 使用正确的类别, 创建和管理持久的聊天室更容易。 持续聊天管理员可以为每个类别定义 AllowedMembers 和创建者, 还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用 Skype for Business 服务器控制面板或 Windows PowerShell cmdlet 创建和管理类别。
-ms.openlocfilehash: 6fc3feb4465f1ad55d369ed736ea277853aadc13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 使用正确的类别，创建和管理持久的聊天室更容易。 持续聊天管理员可以为每个类别定义 AllowedMembers 和创建者，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用 Skype for Business 服务器控制面板或 Windows PowerShell cmdlet 创建和管理类别。
+ms.openlocfilehash: cfaa7531f4f2a401dd90dc9473409d301a2fbfa6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294107"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699637"
 ---
 # <a name="select-creators"></a>选择创建者
 
-使用正确的类别, 创建和管理持久的聊天室更容易。 持续聊天管理员可以为每个类别定义**AllowedMembers**和**创建者**, 还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用 Skype for Business 服务器控制面板或 Windows PowerShell cmdlet 创建和管理类别。
+使用正确的类别，创建和管理持久的聊天室更容易。 持续聊天管理员可以为每个类别定义**AllowedMembers**和**创建者**，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用 Skype for Business 服务器控制面板或 Windows PowerShell cmdlet 创建和管理类别。
 
 ## <a name="tasks-that-you-can-perform"></a>可执行的任务
 
@@ -32,15 +32,15 @@ ms.locfileid: "34294107"
 
 - [New Persistent Chat Server Features](https://technet.microsoft.com/library/c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8.aspx)
 
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>配置聊天室的类别
 
-在 "**成员资格**" 部分中, 在 "**创建者**" 部分中, 添加或删除与类别的 "创建者" 关联的用户和其他 Active Directory 主体。 创建者是有权创建聊天室并指定聊天室管理员和成员的用户。
+在 "**成员资格**" 部分中，在 "**创建者**" 部分中，添加或删除与类别的 "创建者" 关联的用户和其他 Active Directory 主体。 创建者是有权创建聊天室并指定聊天室管理员和成员的用户。
 
 
 
-有关持久聊天服务器功能和功能的详细信息, 请参阅规划文档中[持久聊天服务器概述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。 有关使用持久聊天服务器配置的详细信息, 请参阅在部署文档中[配置持久聊天服务器](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)和在操作文档中[管理 Lync Server 2013 持久聊天服务器](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)。
+有关持久聊天服务器功能和功能的详细信息，请参阅规划文档中[持久聊天服务器概述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。 有关使用持久聊天服务器配置的详细信息，请参阅在部署文档中[配置持久聊天服务器](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)和在操作文档中[管理 Lync Server 2013 持久聊天服务器](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)。
 
 ## <a name="see-also"></a>另请参阅
 

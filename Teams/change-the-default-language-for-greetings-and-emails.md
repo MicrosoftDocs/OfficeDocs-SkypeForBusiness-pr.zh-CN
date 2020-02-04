@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: '了解如何设置 Skype for Business，以便为您的组织的默认语音邮件问候语使用另一种语言。 '
-ms.openlocfilehash: 85631b9f8b1ecbc070bb2c5cc986978236828a52
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 39c790a4a2e1085b20a3aed82d7f971e4fad6694
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516970"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695517"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 

@@ -7,28 +7,28 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 为了最大程度地利用 Skype for Business Server 2015 中包含的功能并改善用户的总体体验, 你可以使用客户端版本筛选器来限制你的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
-ms.openlocfilehash: 50687531fe9622240b8caeb75a61c3ac705fe84a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 为了最大程度地利用 Skype for Business Server 2015 中包含的功能并改善用户的总体体验，你可以使用客户端版本筛选器来限制你的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
+ms.openlocfilehash: 53fe5e7636d95dcbb620b2d89714d8e6609ffaa4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300005"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700397"
 ---
 # <a name="client-version-policy"></a>客户端版本策略
 
-可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 为了最大程度地利用 Skype for Business Server 2015 中包含的功能并改善用户的总体体验, 你可以使用客户端版本筛选器来限制你的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
+可以指定环境中支持的客户端版本。 当两个不同版本的客户端交互时，其中一个客户端的可用功能会受到另一个客户端的功能的限制。 为了最大程度地利用 Skype for Business Server 2015 中包含的功能并改善用户的总体体验，你可以使用客户端版本筛选器来限制你的环境中使用的客户端版本。 使用客户端版本筛选器还有助于降低支持多个客户端版本的相关成本。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
 您可以在“**客户端版本策略**”页上执行以下任务：
 
-- 编辑默认 (**全局**) 客户端版本策略。
+- 编辑默认（**全局**）客户端版本策略。
 
 - 为特定站点或池创建客户端版本策略。
 
@@ -41,7 +41,7 @@ ms.locfileid: "34300005"
 
 下表介绍了该页上的菜单、命令、字段和属性。
 
-- **新**你可以创建以下每个客户端版本策略中的一个或多个:
+- **新**你可以创建以下每个客户端版本策略中的一个或多个：
 
   - 站点策略
 
@@ -49,9 +49,9 @@ ms.locfileid: "34300005"
 
   - 用户策略
 
-- **编辑**你可以更改任何客户端版本策略的选项。 使用此选项, 您可以执行以下操作:
+- **编辑**你可以更改任何客户端版本策略的选项。 使用此选项，您可以执行以下操作：
 
-  - **显示详细信息**此选项将打开一个对话框, 您可以在其中更改客户端版本策略的选项。
+  - **显示详细信息**此选项将打开一个对话框，您可以在其中更改客户端版本策略的选项。
 
   - **全选**此选项选择列表中的所有客户端版本策略。
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于拉脱维亚的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: d58ef8c99bf34fd7e2005e760e7127a836b875a9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1099285a6e5cac2152e592dafbc43d87eb16716b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571476"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694937"
 ---
 # <a name="availability-in-latvia"></a>在拉脱维亚的可用性
 

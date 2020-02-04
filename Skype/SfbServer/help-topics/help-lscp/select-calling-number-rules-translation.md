@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTrunkSelCallingRule
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: “选择呼叫号码转换规则”对话框显示为部署配置的转换规则。 有关转换规则的详细信息，请参阅以下主题：
-ms.openlocfilehash: 7e470617c452056f78cf8941589f554462cc5541
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 95f22e8a58eaf54627eff1c2d57b03adca4b7d03
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294121"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699657"
 ---
 # <a name="select-calling-number-rules-translation"></a>选择呼叫号码规则转换
 

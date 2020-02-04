@@ -7,29 +7,29 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
-description: '在此对话框中编辑中介服务器 PSTN 网关设置的属性。 定义以下设置:'
-ms.openlocfilehash: b57ca675d3681886ea2a2853aa1357b394fda4c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在此对话框中编辑中介服务器 PSTN 网关设置的属性。 定义以下设置：
+ms.openlocfilehash: bd24c24d14e24ed7e4ce53bc30d01b2e955be6cf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284387"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697277"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>适合于 Lync Server 2010 的前端中介服务设置扩展器
  
-在此对话框中编辑**中介服务器 PSTN 网关**设置的属性。 定义以下设置:
+在此对话框中编辑**中介服务器 PSTN 网关**设置的属性。 定义以下设置：
   
-- 如果想要通过此前端服务器或前端池 collocate 中介服务器, 请选择 "**启用的 Collocated 中介服务器**"。
+- 如果想要通过此前端服务器或前端池 collocate 中介服务器，请选择 "**启用的 Collocated 中介服务器**"。
     
-- **侦听端口**: 定义中介服务器将侦听的端口。 你可以为**TLS**或传输层安全性、 **TCP**或传输控制协议定义端口。 若要使 TCP 的端口项可用, 必须选中 "**启用 tcp 端口**" 复选框。 
+- **侦听端口**：定义中介服务器将侦听的端口。 你可以为**TLS**或传输层安全性、 **TCP**或传输控制协议定义端口。 若要使 TCP 的端口项可用，必须选中 "**启用 tcp 端口**" 复选框。 
     
     > [!IMPORTANT]
-    > 请参阅公共交换电话网络 (PSTN) 网关的文档和配置设置, 确定是否需要启用和定义 TLS、TCP 或两者的端口值。 TLS 是一种更安全的协议, 使用证书加密中介服务器和 PSTN 网关之间的流量。 并非所有 PSTN 网关都支持 TLS。 
+    > 请参阅公共交换电话网络（PSTN）网关的文档和配置设置，确定是否需要启用和定义 TLS、TCP 或两者的端口值。 TLS 是一种更安全的协议，使用证书加密中介服务器和 PSTN 网关之间的流量。 并非所有 PSTN 网关都支持 TLS。 
   
 - 当前关联的和现有的“**中继**”（即会话初始协议 (SIP) 中继）、“**网关**”（PSTN 网关或 IP-PBX）和“**站点**”（针对中继和网关配置的站点）的列表。
     

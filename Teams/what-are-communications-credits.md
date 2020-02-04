@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568571"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694277"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -55,7 +56,7 @@ ms.locfileid: "37568571"
   
 ## <a name="what-is-it"></a>它是什么？
 
-若要在 Skype for Business 中使用免费电话号码，需要通讯信用点数，因为这些通话按分钟计费。 此外，我们建议你为你的呼叫计划和音频会议用户设置通信信用点数，这些用户需要能够拨出到**任何 PSTN 目标**。 包括许多国家/地区，但某些目的地可能不包括在您的通话计划或音频会议套餐中。 如果您不设置通讯信用点数或为您的用户分配许可证，而您的组织的分钟数（取决于您的通话计划、音频会议计划或您所在的国家/地区），这些用户将无法进行呼叫或从联机拨出音频会议会议。
+若要在 Skype for Business 中使用免费电话号码，需要通讯信用点数，因为这些通话按分钟计费。 此外，我们建议你为你的呼叫计划和音频会议用户设置通信信用点数，这些用户需要能够拨出到**任何 PSTN 目标**。 包括许多国家/地区，但某些目的地可能不包括在您的通话计划或音频会议套餐中。 如果您不设置通讯信用点数或为您的用户分配许可证，而您的组织的分钟数（取决于您的通话计划、音频会议计划或您所在的国家/地区），这些用户将无法通过联机音频会议会议进行呼叫或拨出。
   
 > [!NOTE]
 > 必须为**Microsoft 365 管理中心** > **用户** > **活动用户**中的每个用户设置通讯信用点数，然后为每位用户分配通讯信用许可证。 
@@ -71,7 +72,7 @@ ms.locfileid: "37568571"
   
 ## <a name="communications-credits"></a>通信点数
 
-每个组织都将有不同的通话计划的使用量和费率。 You will need to get this type of usage data from your current service provider. 对于使用 Skype for business 的组织已成为其服务提供商，您可以通过在**Microsoft 365 管理中心** > **报告**或**Skype for business 管理中心** > 报告中查看使用情况数据获取使用情况数据**** PSTN 使用**详细信息。**  > 
+每个组织都将有不同的通话计划的使用量和费率。 You will need to get this type of usage data from your current service provider. 对于使用 Skype for business 的组织已成为其服务提供商，您可以通过在**Microsoft 365 管理中心** > **报告**或**Skype for business 管理中心** > **报告** > **PSTN 使用详细信息**来获取使用情况数据。
   
 设置通讯信用点数时，您需要调查组织的通话使用情况，以确定需要投入的金额。 你可以通过查看" **PSTN 使用详细信息**"报告获取呼叫使用信息。 此报表允许你将调用数据记录导出到 Excel 并创建自定义报表。
 

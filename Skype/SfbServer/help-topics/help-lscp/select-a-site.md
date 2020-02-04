@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectSite
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: 使用“选择站点”对话框查找环境中可用的站点。 若要使用现有站点，请单击列表中的某个站点，然后单击“确定”。
-ms.openlocfilehash: cb70574d19d186042806665bba9305ad47ead2c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8ca8b8df7564dc491a0160786868014a5713a7bb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291016"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699717"
 ---
 # <a name="select-a-site"></a>选择站点
 
@@ -27,7 +27,7 @@ ms.locfileid: "34291016"
 > [!NOTE]
 > 要检索所有可用的站点，请不要在搜索框中键入任何内容，然后单击搜索图标。
 
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
@@ -37,15 +37,15 @@ ms.locfileid: "34291016"
 
 - [Create a Site Policy for Persistent Chat](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
 
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息, 请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
+有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅[管理 skype for Business server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>全局配置持久聊天选项
 
-在 "**选择网站**" 中, 选择要为持久聊天服务器网站配置配置的网站。
+在 "**选择网站**" 中，选择要为持久聊天服务器网站配置配置的网站。
 
 ## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>为网站创建持久聊天策略
 
 在“**选择站点**”中，单击要应用此策略的站点。
 
-有关持久聊天服务器功能和功能的详细信息, 请参阅规划文档中[持久聊天服务器概述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。 有关使用持久聊天服务器配置的详细信息, 请参阅在部署文档中[配置持久聊天服务器](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)和在操作文档中[管理 Lync Server 2013 持久聊天服务器](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)。
+有关持久聊天服务器功能和功能的详细信息，请参阅规划文档中[持久聊天服务器概述](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx)。 有关使用持久聊天服务器配置的详细信息，请参阅在部署文档中[配置持久聊天服务器](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx)和在操作文档中[管理 Lync Server 2013 持久聊天服务器](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx)。
 

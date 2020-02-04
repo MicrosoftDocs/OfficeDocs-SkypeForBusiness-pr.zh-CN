@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 下面列出了我们的客户希望使用音频会议的一些主要问题。
-ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2dd772a9a6488b09092ac0687ca125409accf85b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516984"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695717"
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议常见问题
 
@@ -90,7 +91,7 @@ ms.locfileid: "37516984"
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>用户为什么要开始接收带有音频会议信息的电子邮件？
 
-我们添加了一项新功能，使你能够使用[管理员的身份](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)发送和更新音频会议信息和在电子邮件中 PIN。 若要了解有关它的详细信息，包括如何禁用它，请参阅在[Microsoft 团队中更改音频会议设置时启用或禁用发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)，或者在[Skype for Business 中的音频会议设置发生更改时启用或禁用发送电子邮件在线](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)。
+我们添加了一项新功能，使你能够使用[管理员的身份](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)发送和更新音频会议信息和在电子邮件中 PIN。 若要了解有关它的详细信息（包括如何禁用它），请参阅在[Microsoft 团队中更改音频会议设置时启用或禁用发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)，或者[启用或禁用当 Skype for business Online 中的音频会议设置更改时](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)发送电子邮件。
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>是否可以将音频会议用于 Skype for Business Server 的本地部署中的用户？
 
@@ -146,7 +147,7 @@ Skype for Business 或 Microsoft 团队用户可以在设置电子邮件后找�
 
 - **选项 #1**：默认情况下，如果会议组织者和所有参与者使用手机加入会议，则会议组织者需要输入他或她的音频会议 PIN 才能开始会议。 当呼叫者拨打联机会议的电话号码时，系统会询问他们是否希望作为给定会议的组织者进行身份验证。 在启动组织者之前通过拨入加入会议的所有参与者都将放置在大厅中，并且将在保持状态时收听音乐。 对于 Skype for business 会议，一旦组织者通过输入他或她的音频会议 PIN 启动它，会议厅中的所有参与者都将自动加入会议。 对于 Microsoft 团队会议，参与者将根据组织者的会议策略中的 "自动允许人员" 设置的值加入会议。
 
-- **选项 #2**：如果为给定的组织者启用 "允许未经身份验证的呼叫者成为会议中的第一人" 设置（默认情况下为 "已禁用"），则该用户计划的所有会议都将能够启动，而无需让组织者输入他或她的音频会议 PIN。 如果启用此设置，当第一个参与者通过拨入电话号码加入会议时，会议将立即开始，他或她将不会被放入会议厅。 有关详细信息，请参阅[在 Microsoft 团队中管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)或[在 Skype for Business Online 中管理用户的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)设置。
+- **选项 #2**：如果为给定的组织者启用 "允许未经身份验证的呼叫者成为会议中的第一人" 设置（默认情况下为 "已禁用"），则该用户安排的所有会议都将能够在没有组织者输入其音频会议 PIN 的情况下启动。 如果启用此设置，当第一个参与者通过拨入电话号码加入会议时，会议将立即开始，他或她将不会被放入会议厅。 有关详细信息，请参阅[在 Microsoft 团队中管理用户的音频会议设置](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)或[在 Skype for Business Online 中管理用户的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)设置。
    
 ## <a name="related-topics"></a>相关主题
 

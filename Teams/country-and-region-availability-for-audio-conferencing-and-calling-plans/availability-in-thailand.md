@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于泰国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: f0d757419d4a1ab6dc1966ca915c4476061d67cb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fc103c33145e33f197ba2e93c4e20a409ebeeca4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570957"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694557"
 ---
 # <a name="availability-in-thailand"></a>在泰国的可用性
 

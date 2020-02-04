@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 以下是适用于新西兰的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 3b74c16c73aad51519c0f5eba3ba11464e5a081d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c63a50dab11fc7ab42e038a834c183fa8d216465
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571028"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694857"
 ---
 # <a name="availability-in-new-zealand"></a>在新西兰的可用性
 

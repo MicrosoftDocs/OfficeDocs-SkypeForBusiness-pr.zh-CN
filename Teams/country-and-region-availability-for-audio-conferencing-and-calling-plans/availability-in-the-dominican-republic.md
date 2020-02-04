@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 下面是用于 Skype for business 的 Office 365 服务和可用于多米尼加共和国的 Microsoft 团队。
-ms.openlocfilehash: 704d2ccd56863030896b0a034f04a6b1badab263
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 451970f70b2cee81b851b52bbd9c62ab58eb74fd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571443"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694527"
 ---
 # <a name="availability-in-the-dominican-republic"></a>在多米尼加共和国的可用性
 

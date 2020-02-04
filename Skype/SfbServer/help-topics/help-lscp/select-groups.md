@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
-description: 响应组队列在工程师应答呼叫之前, 请将呼叫一直保留到响应组。 队列已分配代理组。 创建或编辑队列时, 可使用 "选择组" 对话框选择要分配给队列的一个或多个代理组。
-ms.openlocfilehash: 0d3871f7f3e9ce02766c6e4b282bf10fa093c010
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 响应组队列在工程师应答呼叫之前，请将呼叫一直保留到响应组。 队列已分配代理组。 创建或编辑队列时，可使用 "选择组" 对话框选择要分配给队列的一个或多个代理组。
+ms.openlocfilehash: ea097fcda4023b307eb3649eb5dcf12494791e59
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294029"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699577"
 ---
 # <a name="select-groups"></a>选择组
 
-响应组队列在工程师应答呼叫之前, 请将呼叫一直保留到响应组。 队列已分配代理组。 创建或编辑队列时, 可使用 "**选择组**" 对话框选择要分配给队列的一个或多个代理组。
+响应组队列在工程师应答呼叫之前，请将呼叫一直保留到响应组。 队列已分配代理组。 创建或编辑队列时，可使用 "**选择组**" 对话框选择要分配给队列的一个或多个代理组。
 
 ## <a name="ui-reference"></a>用户界面参考
 
@@ -32,7 +32,7 @@ ms.locfileid: "34294029"
 
 - **名称**显示返回的代理组的名称。
 
-- **参与政策**显示为代理组定义的参与策略: 正式或非正式。
+- **参与政策**显示为代理组定义的参与策略：正式或非正式。
 
 - **路由方法**显示为代理组定义的路由类型。
 

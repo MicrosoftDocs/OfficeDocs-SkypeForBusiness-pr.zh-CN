@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 响应组由代理组、队列和工作流组成。 响应组工作流定义响应组应用程序接收电话呼叫时执行的操作。
-ms.openlocfilehash: 5ce7d302063750a2fe316b7986c47bb6e08bb63f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2d32ed7ca2cc793603b0d426bc8b223075d086a4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273992"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699747"
 ---
 # <a name="response-groups-workflow"></a>响应组工作流
 
@@ -28,7 +28,7 @@ ms.locfileid: "34273992"
 
 ## <a name="tasks-you-can-perform"></a>可执行的任务
 
-可以从 "**响应组** - **工作流**" 页面执行以下任务:
+可以从 "**响应组** - **工作流**" 页面执行以下任务：
 
 - 创建或更改查寻组工作流
 
@@ -58,6 +58,6 @@ ms.locfileid: "34273992"
 
 - **已启用**指示是否已激活工作流以接收呼叫。
 
-有关响应组功能和功能的详细信息, 请参阅规划文档中的[Skype For Business Server 2015 中的 "响应组" 应用计划](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用响应组工作流的详细信息, 请参阅操作文档中的[管理响应组工作流](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)。
+有关响应组功能和功能的详细信息，请参阅规划文档中的[Skype For Business Server 2015 中的 "响应组" 应用计划](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 有关使用响应组工作流的详细信息，请参阅操作文档中的[管理响应组工作流](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx)。
 
 

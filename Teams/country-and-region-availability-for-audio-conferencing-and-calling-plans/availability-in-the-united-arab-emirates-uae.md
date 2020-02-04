@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: 下面是适用于阿拉伯联合酋长国的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 0dbc64e623bde870b4a694012b76202ec7de1225
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3cae97046c5100eed666197de8019918716fdd80
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572528"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694467"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>在阿拉伯联合酋长国 (UAE) 的可用性
 
