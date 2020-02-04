@@ -3,6 +3,8 @@ title: Lync Server 2013：规划紧急服务 (E9-1-1)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for emergency services (E9-1-1)
 ms:assetid: 0a76f97b-474a-4bc1-8cd3-28c7e2bb57b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398154(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183363
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98479ec674627cd663eb0d83fc670eb3feb5a8b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11c6116cc3ad63674acd65e7d2de863e7911bcf8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824825"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34824825"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-17_
+_**主题上次修改时间：** 2012-10-17_
 
-Lync Server 2013 支持在美国内增强的 9-1-1 (E9) 服务作为企业语音部署的一部分。 E9-1-1 是一项紧急派发功能，对于来自办公楼和其他多租户设施的呼叫，该功能可将 9-1-1 呼叫与紧急响应位置 (ERL) 相关联，紧急响应位置包含市政（即街道）地址和其他更具体的位置信息，例如楼层号。 通过使用提供的 ERL，公共安全应答点 (PSAP) 可以立即向需要帮助的呼叫者派遣第一批响应者，从而降低因疏忽而将响应者指向不正确或模糊不清的位置的风险。
+Lync Server 2013 支持在美国内增强的9-1-1 （E9）服务作为企业语音部署的一部分。 E9-1-1 是一项紧急派发功能，对于来自办公楼和其他多租户设施的呼叫，该功能可将 9-1-1 呼叫与紧急响应位置 (ERL) 相关联，紧急响应位置包含市政（即街道）地址和其他更具体的位置信息，例如楼层号。 通过使用提供的 ERL，公共安全应答点 (PSAP) 可以立即向需要帮助的呼叫者派遣第一批响应者，从而降低因疏忽而将响应者指向不正确或模糊不清的位置的风险。
 
 <div>
 
 
 > [!NOTE]  
-> Lync 服务器具有三个高级的企业语音功能: 呼叫许可控制、紧急服务 (E9-1) 和媒体旁路。 有关所有三种功能通用的计划信息的概述, 请参阅<A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 中的高级企业语音功能的网络设置</A>。
+> Lync 服务器具有三个高级的企业语音功能：呼叫许可控制、紧急服务（E9-1）和媒体旁路。 有关所有三种功能通用的计划信息的概述，请参阅<A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Lync Server 2013 中的高级企业语音功能的网络设置</A>。
 
 
 

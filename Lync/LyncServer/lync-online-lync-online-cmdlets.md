@@ -3,6 +3,8 @@ title: Lync Online：Lync Online cmdlet
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Online cmdlets
 ms:assetid: 1d85a61f-80e5-49c6-be7f-971ff5fe4dbe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994021(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2892177104c9361e788ea94c9cb0960140cdb23
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cc8a5c1868620446af3fe574db7af10aa8b34785
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837983"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837983"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-07_
+_**主题上次修改时间：** 2014-02-07_
 
 此页面列出了 Microsoft Lync Online 租户的管理员可用的所有 Windows PowerShell cmdlet。
 
@@ -41,7 +43,7 @@ _**主题上次修改时间:** 2014-02-07_
 
 ## <a name="cmdlets-available-only-to-lync-online-administrators"></a>仅适用于 Lync Online 管理员的 cmdlet
 
-以下 cmdlet 只能与 Lync Online 一起使用:
+以下 cmdlet 只能与 Lync Online 一起使用：
 
   - [Get-CsAudioConferencingProvider](https://technet.microsoft.com/en-us/library/JJ994030(v=OCS.15))
 
@@ -71,7 +73,7 @@ _**主题上次修改时间:** 2014-02-07_
 
   - [Update-CsTenantMeetingUrl](https://technet.microsoft.com/en-us/library/Dn424754(v=OCS.15))
 
-有关如何将计算机配置为使用 Windows PowerShell 管理 Lync Online 的信息, 请参阅[使用 Windows Powershell 管理 Lync online](https://technet.microsoft.com/en-us/library/Dn362831(v=OCS.15))中的帮助主题。
+有关如何将计算机配置为使用 Windows PowerShell 管理 Lync Online 的信息，请参阅[使用 Windows Powershell 管理 Lync online](https://technet.microsoft.com/en-us/library/Dn362831(v=OCS.15))中的帮助主题。
 
 </div>
 
@@ -79,7 +81,7 @@ _**主题上次修改时间:** 2014-02-07_
 
 ## <a name="other-cmdlets-available-to-lync-online-administrators"></a>Lync Online 管理员可用的其他 Cmdlet
 
-这些 cmdlet 既可以与 Lync Online 一起使用, 也可以与 Lync Server 2013 的本地版本一起使用:
+这些 cmdlet 既可以与 Lync Online 一起使用，也可以与 Lync Server 2013 的本地版本一起使用：
 
   - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/JJ204723(v=OCS.15))
 

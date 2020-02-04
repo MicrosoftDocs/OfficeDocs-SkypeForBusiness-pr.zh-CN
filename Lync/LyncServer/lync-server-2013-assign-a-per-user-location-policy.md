@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 分配每用户位置策略'
+title: Lync Server 2013：分配每用户位置策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user location policy
 ms:assetid: 343f2de3-a0ae-4403-8456-6e520b579d32
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520974(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a387d0f603addea31bd1e3ee6b591e06a26b2c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d3a53ae779ccc6fb19bb2d16274e007b8fc405c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845987"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739392"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户位置策略
 
@@ -24,19 +26,19 @@ ms.locfileid: "34845987"
 
 位置策略是您可以在 Lync Server 控制面板中配置的用户帐户的个人设置之一。
 
-部署一个或多个每用户位置策略是可选的。 你还可以仅部署全局级别的位置策略或子网级位置策略。 如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。 如果未分配特定子网级或每用户策略, 则增强 9-1-1 (E9-1) 设置将自动默认为全局级别位置策略中定义的设置。
+部署一个或多个每用户位置策略是可选的。 你还可以仅部署全局级别的位置策略或子网级位置策略。 如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。 如果未分配特定子网级或每用户策略，则增强9-1-1 （E9-1）设置将自动默认为全局级别位置策略中定义的设置。
 
-创建了至少一个每用户位置策略后, 请使用本主题中的过程来分配策略, 该策略指定你希望服务器为特定用户发出的紧急呼叫所应用的设置。
+创建了至少一个每用户位置策略后，请使用本主题中的过程来分配策略，该策略指定你希望服务器为特定用户发出的紧急呼叫所应用的设置。
 
-有关所有可用位置策略设置的列表, 请参阅[定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。
+有关所有可用位置策略设置的列表，请参阅[定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。
 
-有关创建位置策略的详细信息, 请参阅[在 Lync Server 2013 中创建位置策略](lync-server-2013-create-location-policies.md)。
+有关创建位置策略的详细信息，请参阅[在 Lync Server 2013 中创建位置策略](lync-server-2013-create-location-policies.md)。
 
 ## <a name="to-assign-a-per-user-location-policy-with-the-lync-server-control-panel"></a>使用 Lync Server "控制面板" 分配每用户位置策略
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左导航栏中，单击“用户”****。
 
@@ -67,24 +69,24 @@ ms.locfileid: "34845987"
     
 
     > [!TIP]  
-    > 如果希望同一每用户位置策略应用于多个用户, 请在搜索结果中选择 "多个用户", 然后单击 "<STRONG>操作</STRONG>", 然后单击 "<STRONG>分配策略</STRONG>"。
+    > 如果希望同一每用户位置策略应用于多个用户，请在搜索结果中选择 "多个用户"，然后单击 "<STRONG>操作</STRONG>"，然后单击 "<STRONG>分配策略</STRONG>"。
 
 
 
-7.  在 "**分配策略**" 下的 "**位置策略**" 下, 执行下列操作之一:
+7.  在 "**分配策略**" 下的 "**位置策略**" 下，执行下列操作之一：
     
 
     > [!NOTE]  
-    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置, 因此默认情况下为对话框中的每个策略选中 " <STRONG> &lt;保持&gt; </STRONG>原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于有多个策略可以使用 "<STRONG>分配策略</STRONG>" 对话框进行配置，因此默认情况下为对话框中的每个策略选中 " <STRONG> &lt;保持&gt; </STRONG>原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
 
     
-      - 允许 Lync Server 2013 自动选择全局级别策略或子网级策略 (如果已定义)。
+      - 允许 Lync Server 2013 自动选择全局级别策略或子网级策略（如果已定义）。
     
       - 单击你以前通过运行**CsLocationPolicy** cmdlet 定义的每用户位置策略的名称。
         
 
         > [!TIP]  
-        > 若要帮助你确定要分配的策略, 请在单击策略名称后单击 "<STRONG>查看</STRONG>" 以查看策略中定义的用户权利和权限。
+        > 若要帮助你确定要分配的策略，请在单击策略名称后单击 "<STRONG>查看</STRONG>" 以查看策略中定义的用户权利和权限。
 
 
 
@@ -92,7 +94,7 @@ ms.locfileid: "34845987"
 
 ## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>使用 Lync Server Management Shell Cmdlet 分配每用户位置策略
 
-你可以使用 CsLocationPolicy cmdlet 分配每用户位置策略。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+你可以使用 CsLocationPolicy cmdlet 分配每用户位置策略。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 ## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>将每用户位置策略分配给单个用户
 
@@ -102,7 +104,7 @@ ms.locfileid: "34845987"
 
 ## <a name="to-assign-a-per-user-location-policy-to-multiple-users"></a>将每用户位置策略分配给多个用户
 
-  - 此命令将每用户位置策略 AccountingDepartmentLocationPolicy 分配给所有适用于该会计部门的用户。 有关此命令中使用的 LdapFilter 参数的详细信息, 请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
+  - 此命令将每用户位置策略 AccountingDepartmentLocationPolicy 分配给所有适用于该会计部门的用户。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
@@ -112,5 +114,5 @@ ms.locfileid: "34845987"
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-有关详细信息, 请参阅[CsLocationPolicy](https://technet.microsoft.com/en-us/library/gg413049\(v=ocs.15\)) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsLocationPolicy](https://technet.microsoft.com/en-us/library/gg413049\(v=ocs.15\)) cmdlet 的帮助主题。
 

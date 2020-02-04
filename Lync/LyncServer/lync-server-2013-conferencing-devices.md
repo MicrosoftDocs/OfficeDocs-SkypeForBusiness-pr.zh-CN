@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 会议设备'
+title: Lync Server 2013：会议设备
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing devices
 ms:assetid: 8a317568-073b-49a9-a06b-02dc56b2c8f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994050(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803961
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 066b0ba4fede67a27c3cd8b6ab76ba7d09afd8fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a1fbe13b788b8add2f609cc59ed832e6bd67dc1d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837469"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837469"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-02-05_
+_**主题上次修改时间：** 2014-02-05_
 
-会议设备将 Lync Phone Edition 功能带入会议室, 使聊天室中的人能够听到, 并且根据设备, 查看其他位置中的人员。
+会议设备将 Lync Phone Edition 功能带入会议室，使聊天室中的人能够听到，并且根据设备，查看其他位置中的人员。
 
 使用本部分中的主题了解如何设置和管理您的会议设备。
 
@@ -43,7 +45,7 @@ _**主题上次修改时间:** 2014-02-05_
 
 
 > [!NOTE]  
-> 有关支持用于 Lync Server 2013 的会议设备的详细信息, 请参阅适用<A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">于 Microsoft Lync 的网页电话和设备</A>。
+> 有关支持用于 Lync Server 2013 的会议设备的详细信息，请参阅适用<A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">于 Microsoft Lync 的网页电话和设备</A>。
 
 
 

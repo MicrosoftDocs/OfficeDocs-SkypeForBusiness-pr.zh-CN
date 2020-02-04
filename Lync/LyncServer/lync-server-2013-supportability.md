@@ -3,6 +3,8 @@ title: Lync Server 2013 可支持性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supportability
 ms:assetid: 3af43205-09dc-465d-ad64-3621f5622d52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425877(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7ffd59e7ae9ec4f9244456e08923d31c1fa2ecb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5c2829ff9869287a08532584e318362ba57e51d6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845789"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731752"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845789"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-04-23_
+_**主题上次修改时间：** 2012-04-23_
 
-Microsoft Lync Server 2013 通信软件支持拓扑, 这些拓扑旨在满足小型、中型或大型组织的需求, 这些拓扑对性能、高可用性和可伸缩性有不同的要求。
+Microsoft Lync Server 2013 通信软件支持拓扑，这些拓扑旨在满足小型、中型或大型组织的需求，这些拓扑对性能、高可用性和可伸缩性有不同的要求。
 
 <div>
 

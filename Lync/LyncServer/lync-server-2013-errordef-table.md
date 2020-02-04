@@ -3,6 +3,8 @@ title: Lync Server 2013：ErrorDef 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ErrorDef table
 ms:assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398503(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef21484d564419a5ab5cce7373ceb0b0b71e4a29
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55a6ab9a8bf50639267824c8330701ee74cb3f5a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830199"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830199"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-05-25_
+_**主题上次修改时间：** 2012-05-25_
 
 ErrorDef 表存储可能出现的每种类型的错误的相关信息。 每条记录是一种类型的错误。
 
@@ -76,22 +78,22 @@ ErrorDef 表存储可能出现的每种类型的错误的相关信息。 每条�
 <td><p><strong>CallTypeId</strong></p></td>
 <td><p>整形</p></td>
 <td><p>外表</p></td>
-<td><p>通话的类型。 有关详细信息, 请参阅<a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a>。</p></td>
+<td><p>通话的类型。 有关详细信息，请参阅<a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>
-<td><p>varbinary (33)</p></td>
+<td><p>varbinary （33）</p></td>
 <td><p> </p></td>
 <td><p>失败的请求类型。</p>
-<p>可以使用以下语法将此数据转换为文本格式:</p>
+<p>可以使用以下语法将此数据转换为文本格式：</p>
 <p><code>cast(cast(RequestType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>varbinary (257)</p></td>
+<td><p>varbinary （257）</p></td>
 <td><p> </p></td>
 <td><p>失败的请求的内容类型。</p>
-<p>可使用此 syntaxt 将此数据转换为文本格式:</p>
+<p>可使用此 syntaxt 将此数据转换为文本格式：</p>
 <p><code>cast(cast(ContentType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>

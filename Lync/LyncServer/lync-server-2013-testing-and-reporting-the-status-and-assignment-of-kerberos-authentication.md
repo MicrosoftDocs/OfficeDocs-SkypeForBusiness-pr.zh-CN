@@ -3,6 +3,8 @@ title: 测试和报告 Kerberos 身份验证的状态和分配
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing and reporting the status and assignment of Kerberos authentication
 ms:assetid: 86fc3407-1604-4230-ad04-99aaadcf4e07
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398683(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2c1a0506a31984b1c44ef3afcc481f522520619
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4aeeff884decf5d94ba15eecd5f49c87baece99
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845597"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845597"
 
 <span> </span>
 
-_**主题上次修改时间:** 2010-11-03_
+_**主题上次修改时间：** 2010-11-03_
 
-如果需要测试 Kerberos 分配或确定 Kerberos 身份验证的状态, 则可以使用 Windows PowerShell cmdlet。
+如果需要测试 Kerberos 分配或确定 Kerberos 身份验证的状态，则可以使用 Windows PowerShell cmdlet。
 
 <div>
 

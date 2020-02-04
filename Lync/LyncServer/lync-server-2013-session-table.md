@@ -3,6 +3,8 @@ title: Lync Server 2013：Session 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Session table
 ms:assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398635(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ab4eb63b95ecdf08c1967babba39cff2b2abf19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 81b97d6a7521add62817147ae87995508b841f2d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822046"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34822046"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-09-09_
+_**主题上次修改时间：** 2013-09-09_
 
-每条记录表示一个包含音频或音频和视频的会话。 它包含有关会话的整体信息。 会话在两个终结点之间定义为音频或视频会话初始协议 (SIP) 对话框。
+每条记录表示一个包含音频或音频和视频的会话。 它包含有关会话的整体信息。 会话在两个终结点之间定义为音频或视频会话初始协议（SIP）对话框。
 
 
 <table>
@@ -94,7 +96,7 @@ _**主题上次修改时间:** 2013-09-09_
 <td><p><strong>MediaBypassWarningFlag</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>此字段 (如果存在) 指示无法跳过呼叫的原因, 即使旁路 Id 匹配也是如此。 对于 Lync Server, 只定义一个值。</p>
+<td><p>此字段（如果存在）指示无法跳过呼叫的原因，即使旁路 Id 匹配也是如此。 对于 Lync Server，只定义一个值。</p>
 <p>0x0001-默认网络适配器的旁路 ID 未知。</p></td>
 </tr>
 <tr class="even">
@@ -125,7 +127,7 @@ _**主题上次修改时间:** 2013-09-09_
 <td><p><strong>CalleePAI</strong></p></td>
 <td><p>int</p></td>
 <td><p>外表</p></td>
-<td><p>接收终结点的 SIP p 声明标识 (PAI) 中的 SIP URI。 从<a href="lync-server-2013-user-table.md">Lync Server 2013 中的用户表中</a>引用。</p></td>
+<td><p>接收终结点的 SIP p 声明标识（PAI）中的 SIP URI。 从<a href="lync-server-2013-user-table.md">Lync Server 2013 中的用户表中</a>引用。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerURI</strong></p></td>
@@ -155,13 +157,13 @@ _**主题上次修改时间:** 2013-09-09_
 <td><p><strong>ClassifiedPoorCall</strong></p></td>
 <td><p>bit</p></td>
 <td></td>
-<td><p>此列已弃用, 并且未在 Microsoft Lync Server 2013 中使用。 而是报告每个媒体行基础上的此信息。 有关详细信息, 请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p>此列已弃用，并且未在 Microsoft Lync Server 2013 中使用。 而是报告每个媒体行基础上的此信息。 有关详细信息，请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerPAI</strong></p></td>
 <td><p>int</p></td>
 <td><p>外表</p></td>
-<td><p>P-声明-发出呼叫的用户的标识。 P 声明的标识 (PAI) 用于传达发出呼叫的用户的真实标识。</p></td>
+<td><p>P-声明-发出呼叫的用户的标识。 P 声明的标识（PAI）用于传达发出呼叫的用户的真实标识。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeEndpoint</strong></p></td>

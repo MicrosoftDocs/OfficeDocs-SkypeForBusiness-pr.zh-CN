@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 会议活动报告'
+title: Lync Server 2013：会议活动报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Activity Report
 ms:assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558627(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f96ddc5dfda18fa1d96903eb5755481f76853c06
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c098bc3a1c8b937b72707c76a3943866ad7b9fbb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837504"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837504"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-22_
+_**主题上次修改时间：** 2012-10-22_
 
-会议活动报表使你可以轻松地回答以下问题: 每天保持多少个会议以及何时保留这些会议？ 此类信息不仅非常有用, 还可以作为疑难解答工具使用。 例如, 假设用户抱怨, 网络在一天的中间似乎非常慢。 快速浏览会议活动报表可能会提出一个可能的原因: 在 10:00 AM 和 2:00 PM 之间安排的会议时间比现在更多。
+会议活动报表使你可以轻松地回答以下问题：每天保持多少个会议以及何时保留这些会议？ 此类信息不仅非常有用，还可以作为疑难解答工具使用。 例如，假设用户抱怨，网络在一天的中间似乎非常慢。 快速浏览会议活动报表可能会提出一个可能的原因：在 10:00 AM 和 2:00 PM 之间安排的会议时间比现在更多。
 
 如果因网速慢而导致出现问题，您可以鼓励用户将他们的一些会议重新安排在一天中流量较少的时段。
 
@@ -43,7 +45,7 @@ _**主题上次修改时间:** 2012-10-22_
 
 ## <a name="accessing-the-conference-activity-report"></a>访问会议活动报告
 
-通过单击以下任一指标, 可从[Lync Server 2013 中的 "会议摘要" 报告](lync-server-2013-conference-summary-report.md)访问会议活动报告:
+通过单击以下任一指标，可从[Lync Server 2013 中的 "会议摘要" 报告](lync-server-2013-conference-summary-report.md)访问会议活动报告：
 
   - 会议总数
 
@@ -114,7 +116,7 @@ _**主题上次修改时间:** 2012-10-22_
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如, 如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔", 则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据 (即, 总共31天的数据)。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>报告依据</strong></p></td>

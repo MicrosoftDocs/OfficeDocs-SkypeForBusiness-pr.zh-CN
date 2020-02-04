@@ -3,6 +3,8 @@ title: Lync Server 2013：tblEnumValue
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblEnumValue
 ms:assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615025(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185040
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1758daf16575491960415647e4c9bc4b43920d26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2c09c5e911dcd63f50d8b15343075c5b3e05e631
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845747"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34845747"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-06-28_
+_**主题上次修改时间：** 2012-06-28_
 
-tblEnumValue 是一个硬编码表, 其中包含在节点表中使用的属性的可见性和行为值。
+tblEnumValue 是一个硬编码表，其中包含在节点表中使用的属性的可见性和行为值。
 
 ### <a name="columns"></a>多
 
@@ -55,17 +57,17 @@ tblEnumValue 是一个硬编码表, 其中包含在节点表中使用的属性�
 <tbody>
 <tr class="odd">
 <td><p>valueID</p></td>
-<td><p>smallint, not null</p></td>
+<td><p>smallint，not null</p></td>
 <td><p>值的 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeID</p></td>
-<td><p>smallint, not null</p></td>
+<td><p>smallint，not null</p></td>
 <td><p>属性的 ID。</p></td>
 </tr>
 <tr class="odd">
 <td><p>attributeValue</p></td>
-<td><p>nvarchar (256), not null</p></td>
+<td><p>nvarchar （256），not null</p></td>
 <td><p>值的名称。</p></td>
 </tr>
 </tbody>
@@ -115,7 +117,7 @@ tblEnumValue 是一个硬编码表, 其中包含在节点表中使用的属性�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>ppls-2</p></td>
 <td><p>1</p></td>
 <td><p>专用</p></td>
 </tr>
@@ -126,12 +128,12 @@ tblEnumValue 是一个硬编码表, 其中包含在节点表中使用的属性�
 </tr>
 <tr class="odd">
 <td><p>4</p></td>
-<td><p>2</p></td>
+<td><p>ppls-2</p></td>
 <td><p>垂直</p></td>
 </tr>
 <tr class="even">
 <td><p>5</p></td>
-<td><p>2</p></td>
+<td><p>ppls-2</p></td>
 <td><p>auditorium</p></td>
 </tr>
 <tr class="odd">

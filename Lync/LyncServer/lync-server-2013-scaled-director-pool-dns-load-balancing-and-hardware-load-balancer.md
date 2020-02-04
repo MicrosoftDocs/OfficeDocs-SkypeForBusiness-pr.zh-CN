@@ -3,6 +3,8 @@ title: 扩展的控制器池 - DNS 负载平衡和硬件负载平衡器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled Director pool - DNS load balancing and hardware load balancer
 ms:assetid: a1f6ffc0-9e6e-4217-a923-025c9679e154
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205142(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cd92304ca3a1147737958ad9d9fc94a49b2e5e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16203f7e291b7957793e71872483c93f2d1d04d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822179"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,11 +35,11 @@ ms.locfileid: "34822179"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-22_
+_**主题上次修改时间：** 2012-10-22_
 
-一个缩放的控制器池, 为处理更多容量和提供高可用性而部署了多个控制器, 需要负载平衡才能将客户端和服务器通信分配给该池的所有成员。 控制器承载 web 服务的方式非常类似于前端池。 若要提供负载平衡, 可以使用硬件负载平衡或域名系统 (DNS) 负载平衡和硬件负载平衡。 对于 web 服务, 硬件负载平衡是必需的, 并且 DNS 负载平衡本身不提供 web 服务所需的功能。
+一个缩放的控制器池，为处理更多容量和提供高可用性而部署了多个控制器，需要负载平衡才能将客户端和服务器通信分配给该池的所有成员。 控制器承载 web 服务的方式非常类似于前端池。 若要提供负载平衡，可以使用硬件负载平衡或域名系统（DNS）负载平衡和硬件负载平衡。 对于 web 服务，硬件负载平衡是必需的，并且 DNS 负载平衡本身不提供 web 服务所需的功能。
 
-以下主题介绍了使用 DNS 负载平衡结合硬件负载平衡来部署控制器池的规划注意事项。 如果你打算使用硬件负载平衡, 而不是控制器池的 DNS 负载平衡, 请参阅[Lync Server 2013 中的主题缩放的控制器池-硬件负载平衡器](lync-server-2013-scaled-director-pool-hardware-load-balancer.md), 描述该拓扑的规划要求。
+以下主题介绍了使用 DNS 负载平衡结合硬件负载平衡来部署控制器池的规划注意事项。 如果你打算使用硬件负载平衡，而不是控制器池的 DNS 负载平衡，请参阅[Lync Server 2013 中的主题缩放的控制器池-硬件负载平衡器](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)，描述该拓扑的规划要求。
 
 ![缩放的控制器池](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "缩放的控制器池")
 

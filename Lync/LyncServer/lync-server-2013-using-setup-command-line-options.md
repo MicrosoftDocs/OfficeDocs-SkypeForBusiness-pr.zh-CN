@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 使用设置命令行选项'
+title: Lync Server 2013：使用设置命令行选项
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Setup command-line options
 ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5087c8ac777e5e2fd3259f925a4217a4d47dd800
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fcf3637ac0d334c2d22ef714891ea0544ee1a6d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845414"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34845414"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-03_
+_**主题上次修改时间：** 2012-10-03_
 
 Setup.exe 命令行用于 Office 安装中的几个操作。您通常将使用 Office 自定义工具和 Config.xml 文件（而非安装程序命令行选项）来进行产品安装和功能自定义。
 
@@ -63,11 +65,11 @@ Office Setup.exe 命令行识别下表中介绍的命令行选项。
 </tr>
 <tr class="odd">
 <td><p>/config [path]</p></td>
-<td><p>指定安装程序在安装过程中使用的 Config.xml 文件。 使用/config 选项指定为 Lync 2013 安装自定义的 Config.xml 文件, 例如:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>指定安装程序在安装过程中使用的 Config.xml 文件。 使用/config 选项指定为 Lync 2013 安装自定义的 Config.xml 文件，例如：<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
 <td><p>/modify Lync</p></td>
-<td><p>用于修改后的 Config.xml 文件可在维护模式下运行安装程序并对现有 Office 安装进行更改。 例如, 你可以使用/modify 选项添加或删除 Lync 功能。</p></td>
+<td><p>用于修改后的 Config.xml 文件可在维护模式下运行安装程序并对现有 Office 安装进行更改。 例如，你可以使用/modify 选项添加或删除 Lync 功能。</p></td>
 </tr>
 <tr class="odd">
 <td><p>/repair Lync</p></td>
@@ -81,7 +83,7 @@ Office Setup.exe 命令行识别下表中介绍的命令行选项。
 </table>
 
 
-有关使用设置命令行选项的详细信息, 请参阅<http://go.microsoft.com/fwlink/p/?linkid=267515>。
+有关使用设置命令行选项的详细信息，请参阅<http://go.microsoft.com/fwlink/p/?linkid=267515>。
 
 </div>
 

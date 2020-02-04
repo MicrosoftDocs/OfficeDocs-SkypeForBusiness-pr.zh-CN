@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 为高性能配置移动服务'
+title: Lync Server 2013：为高性能配置移动服务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Mobility Service for high performance
 ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690042(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54a1c9b901e9a861b40a5cfa8c2642e3e3e41ffe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29eaea1e45c5d3b745debbc2f97370a76e6d16db
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837201"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730702"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,19 +35,19 @@ ms.locfileid: "34837201"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-17_
+_**主题上次修改时间：** 2013-02-17_
 
 <div>
 
 
 > [!IMPORTANT]  
-> 本主题仅适用于 Lync Server 2013 移动服务 (Mcx), 不适用于在 Lync Server 2013 的累积更新中提供的统一通信 Web API (UCWA): 2 月2013。
+> 本主题仅适用于 Lync Server 2013 移动服务（Mcx），不适用于在 Lync Server 2013 的累积更新中提供的统一通信 Web API （UCWA）：2月2013。
 
 
 
 </div>
 
-在 Internet Information Services (IIS) 7.5 上安装移动服务 (Mcx) 时, 移动服务安装程序将在前端服务器上配置某些性能设置。 建议您使用 IIS 7.5 以实现移动功能。 这些设置会影响 Mobility Service 允许的最大并发用户请求数和最大线程数。
+在 Internet Information Services （IIS）7.5 上安装移动服务（Mcx）时，移动服务安装程序将在前端服务器上配置某些性能设置。 建议您使用 IIS 7.5 以实现移动功能。 这些设置会影响 Mobility Service 允许的最大并发用户请求数和最大线程数。
 
 以下是性能设置：
 

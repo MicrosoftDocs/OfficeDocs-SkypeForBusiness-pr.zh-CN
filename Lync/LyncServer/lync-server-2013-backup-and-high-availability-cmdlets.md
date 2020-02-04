@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 备份和高可用性 cmdlet'
+title: Lync Server 2013：备份和高可用性 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup and high availability cmdlets
 ms:assetid: 5aff41a3-7a0e-4c51-9d5f-7f08e36bf046
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204925(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184236
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc28cf323db57623d120b792384074a4b09d3558
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b730d265d32341b329bf5ba3a1055b37bd240a55
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837889"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837889"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-09_
+_**主题上次修改时间：** 2012-10-09_
 
 "备份" 和 "高可用性" cmdlet 使管理员能够管理 Microsoft Lync Server 2013 中引入的池备份、还原和高可用性功能。
 
@@ -41,7 +43,7 @@ _**主题上次修改时间:** 2012-10-09_
 
 ## <a name="backup-and-high-availability-cmdlets"></a>备份和高可用性 Cmdlet
 
-以下是与备份和配置 Lync Server 拓扑的可用性直接相关的 cmdlet 的列表:
+以下是与备份和配置 Lync Server 拓扑的可用性直接相关的 cmdlet 的列表：
 
 **备份和高可用性 Cmdlet**
 

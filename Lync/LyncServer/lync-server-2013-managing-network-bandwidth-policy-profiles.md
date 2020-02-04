@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 管理网络带宽策略配置文件'
+title: Lync Server 2013：管理网络带宽策略配置文件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing network bandwidth policy profiles
 ms:assetid: bc7b1a8a-5dce-425f-a84d-6a9aff569c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721867(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a7828c8895ef056c800547ec9e8247956421459
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3bd960561309bf8d7e82b028b5a2314400763dc4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827884"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34827884"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-15_
+_**主题上次修改时间：** 2012-10-15_
 
-使用本部分中的过程管理您的网络带宽策略配置文件。 有关媒体流量的网络带宽要求的详细信息, 请参阅[Lync Server 2013 中媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。
+使用本部分中的过程管理您的网络带宽策略配置文件。 有关媒体流量的网络带宽要求的详细信息，请参阅[Lync Server 2013 中媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。
 
 <div>
 

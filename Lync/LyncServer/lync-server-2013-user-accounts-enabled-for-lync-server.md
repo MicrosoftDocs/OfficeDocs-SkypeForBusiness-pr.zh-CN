@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 为 Lync Server 启用的用户帐户'
+title: Lync Server 2013：为 Lync Server 启用的用户帐户
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User accounts enabled for Lync Server 2013
 ms:assetid: 8021087e-5084-4a39-9fef-ab9376c6d371
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182543(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b7a8935e83b79cfac1c4d3283fe0011a72aa3ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 613d6350fcb405b1ae8beef78c3ee8c8a64a084c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845508"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744652"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,21 +35,21 @@ ms.locfileid: "34845508"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-04-18_
+_**主题上次修改时间：** 2014-04-18_
 
-本部分中的主题提供了配置用户设置的分步过程, 这些设置可使用 Lync Server 2013 控制面板执行。
+本部分中的主题提供了配置用户设置的分步过程，这些设置可使用 Lync Server 2013 控制面板执行。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 无法使用 Lync Server 控制面板管理属于 Active Directory 域管理员组成员的用户。 对于域管理员用户, 您只能使用 Lync Server "控制面板" 执行只读搜索操作。 若要对域管理员用户执行写操作 (例如, 启用或禁用 Lync Server 控制面板、更改池或策略分配、电话设置、SIP 地址), 则必须在以域管理员用户身份登录时使用 Windows PowerShell cmdlet。 有关使用 Windows PowerShell cmdlet 管理用户的详细信息, 请参阅<A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 命令行管理</A>程序。
+> 无法使用 Lync Server 控制面板管理属于 Active Directory 域管理员组成员的用户。 对于域管理员用户，您只能使用 Lync Server "控制面板" 执行只读搜索操作。 若要对域管理员用户执行写操作（例如，启用或禁用 Lync Server 控制面板、更改池或策略分配、电话设置、SIP 地址），则必须在以域管理员用户身份登录时使用 Windows PowerShell cmdlet。 有关使用 Windows PowerShell cmdlet 管理用户的详细信息，请参阅<A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 命令行管理</A>程序。
 
 
 
 </div>
 
-当你执行涉及搜索用户或筛选用户搜索结果的任何 Lync Server 2013 管理任务时, 有一些用户属性作为属性存在于 Active Directory 域服务中, 但未复制到全局编录在部署 Microsoft Exchange Server 之前。 Microsoft Exchange (而不是 Lync 服务器) 在安装时标记用于复制到全局编录的以下属性:
+当你执行涉及搜索用户或筛选用户搜索结果的任何 Lync Server 2013 管理任务时，有一些用户属性作为属性存在于 Active Directory 域服务中，但未复制到全局编录在部署 Microsoft Exchange Server 之前。 Microsoft Exchange （而不是 Lync 服务器）在安装时标记用于复制到全局编录的以下属性：
 
 
 <table>

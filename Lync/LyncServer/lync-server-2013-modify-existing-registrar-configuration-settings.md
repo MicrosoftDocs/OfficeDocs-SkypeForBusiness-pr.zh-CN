@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 修改现有注册机构配置设置'
+title: Lync Server 2013：修改现有注册机构配置设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify existing Registrar configuration settings
 ms:assetid: a8931511-3e66-49ed-a3ec-03bcd61ce1f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182566(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42629c027157c33bc9431d04d493019e4907d87b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fe12f85f7ea8501f478d570612ad52cd350fdca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827002"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34827002"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-11-01_
+_**主题上次修改时间：** 2012-11-01_
 
-可以使用注册器配置代理服务器身份验证协议。 有关可用协议的信息, 请参阅[在 Lync Server 2013 中创建注册机构配置设置](lync-server-2013-create-registrar-configuration-settings.md)。
+可以使用注册器配置代理服务器身份验证协议。 有关可用协议的信息，请参阅[在 Lync Server 2013 中创建注册机构配置设置](lync-server-2013-create-registrar-configuration-settings.md)。
 
 <div>
 
@@ -53,9 +55,9 @@ _**主题上次修改时间:** 2012-11-01_
 
 ## <a name="to-modify-existing-registrar-configuration-settings"></a>修改现有的注册器配置设置
 
-1.  从 RTCUniversalServerAdmins 组的成员 (或具有等效用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户, 登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左侧导航栏中，单击“安全性”****，然后单击“注册器”****。
 

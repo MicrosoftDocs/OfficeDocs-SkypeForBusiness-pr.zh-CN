@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 查看用户 PIN 信息'
+title: Lync Server 2013：查看用户 PIN 信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View user PIN information
 ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688067(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb3d854f68e9e22e8d8fb1fa0d26f555f09af1ae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1e6f8e12e7b6d2dde684a4cf558eec0ece216a9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845324"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845324"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-23_
+_**主题上次修改时间：** 2013-02-23_
 
-若要将电话拨入式会议作为经过身份验证的用户加入, 使用 Active Directory 域服务 (AD DS) 凭据的 Lync Server 2013 用户需要一个个人识别码 (PIN)。 您可以从 Lync Server 2013 控制面板查看用户的 PIN 信息。
+若要将电话拨入式会议作为经过身份验证的用户加入，使用 Active Directory 域服务（AD DS）凭据的 Lync Server 2013 用户需要一个个人识别码（PIN）。 您可以从 Lync Server 2013 控制面板查看用户的 PIN 信息。
 
 <div>
 
 
 > [!NOTE]  
-> 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。 如果用户已丢失 PIN, 则可以按照在<A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Lync Server 2013 中设置用户的电话拨入式会议 PIN</A>中的过程重置它。
+> 您可以查看 PIN 状态信息（如是否已设置 PIN 或上次更改 PIN 的时间），但无法通过查看 PIN 状态来查看当前 PIN。 如果用户已丢失 PIN，则可以按照在<A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Lync Server 2013 中设置用户的电话拨入式会议 PIN</A>中的过程重置它。
 
 
 
@@ -53,7 +55,7 @@ _**主题上次修改时间:** 2013-02-23_
 
 1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口, 然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息, 请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
 
 3.  在左导航栏中，单击“用户”****。
 
@@ -101,13 +103,13 @@ _**主题上次修改时间:** 2013-02-23_
 
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 查看用户 PIN 信息
 
-您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行, 也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息, 请参阅 Lync Server Windows PowerShell 博客文章 "快速入门: 使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Get-CsClientPinInfo cmdlet 查看用户 PIN 信息。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
 
 <div>
 
 ## <a name="to-view-user-pin-information"></a>查看用户 PIN 信息
 
-  - 若要查看用户的 PIN 信息, 请在 Lync Server 命令行管理程序中键入类似于以下内容的命令, 然后按 ENTER:
+  - 若要查看用户的 PIN 信息，请在 Lync Server 命令行管理程序中键入类似于以下内容的命令，然后按 ENTER：
     
         Get-CsClientPinInfo -Identity "Ken Myer"
     
@@ -121,7 +123,7 @@ _**主题上次修改时间:** 2013-02-23_
 
 </div>
 
-有关详细信息, 请参阅[CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer) cmdlet 的帮助主题。
+有关详细信息，请参阅[CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer) cmdlet 的帮助主题。
 
 </div>
 

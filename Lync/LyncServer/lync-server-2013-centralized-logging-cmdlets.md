@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 集中式日志记录 cmdlet'
+title: Lync Server 2013：集中式日志记录 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Centralized Logging cmdlets
 ms:assetid: 8ba5bcae-8b99-489c-9355-6e77d4ad9100
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205064(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184743
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01087b335098e34dc3066fbee31c5e6ec7995698
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 05bdedc57fca4c51351bcee351c7774c471cc821
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837666"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34837666"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-08_
+_**主题上次修改时间：** 2012-10-08_
 
 集中式日志记录 cmdlet 为管理员提供了一种管理和配置 Microsoft Lync Server 2013 中引入的集中式日志记录功能的方法。 集中式日志记录允许管理员同时在多台计算机上启用或禁用事件跟踪。
 
@@ -41,7 +43,7 @@ _**主题上次修改时间:** 2012-10-08_
 
 ## <a name="centralized-logging-cmdlets"></a>集中式日志记录 Cmdlet
 
-集中式日志记录 cmdlet 使你能够管理 Lync Server 2013 中引入的集中式日志记录服务:
+集中式日志记录 cmdlet 使你能够管理 Lync Server 2013 中引入的集中式日志记录服务：
 
 **集中式日志记录 Cmdlet**
 

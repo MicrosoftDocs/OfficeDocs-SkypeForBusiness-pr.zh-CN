@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 为用户分配组呼叫装货号码'
+title: Lync Server 2013：为用户分配组呼叫装货号码
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign Group Call Pickup numbers to users
 ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945647(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e919b1fb4ee225eba1c5317ff1f3049791075bcc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e65eef9fcf425ad8ea9f36dc57899bb6af924bf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845941"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734052"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34845941"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-01-30_
+_**主题上次修改时间：** 2013-01-30_
 
-将组呼叫挑选组号码添加到 "呼叫公园轨道" 表后, 您可以将组分配给用户。 使用辅助扩展功能激活 (SEFAUtil) 资源工具包工具向用户分配呼叫装货组。
+将组呼叫挑选组号码添加到 "呼叫公园轨道" 表后，您可以将组分配给用户。 使用辅助扩展功能激活（SEFAUtil）资源工具包工具向用户分配呼叫装货组。
 
 <div>
 
 
 > [!NOTE]  
-> 在混合部署中, 不要向处于联机状态的用户分配组呼叫装货组。 处于联机状态的用户不能参与组呼叫装货。 也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。
+> 在混合部署中，不要向处于联机状态的用户分配组呼叫装货组。 处于联机状态的用户不能参与组呼叫装货。 也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。
 
 
 

@@ -3,6 +3,8 @@ title: Lync Server 2013：病毒扫描排除
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Antivirus scanning exclusions for Lync Server 2013
 ms:assetid: 71e1f1cc-2d16-4111-9864-9276bf24dfe0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440138(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6f354b93bf21f054e9b5b24e3befd1787279bbe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 90847830d9f2586e0d111846f2867400c52fc940
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34838038"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34838038"
 
 <span> </span>
 
-_**主题上次修改时间:** 2015-11-02_
+_**主题上次修改时间：** 2015-11-02_
 
-为确保防病毒扫描程序不会干扰 Lync Server 2013 的操作, 必须排除运行防病毒扫描程序的每个 Lync Server 2013 服务器或服务器角色的特定进程和目录。 应排除以下进程和目录：
+为确保防病毒扫描程序不会干扰 Lync Server 2013 的操作，必须排除运行防病毒扫描程序的每个 Lync Server 2013 服务器或服务器角色的特定进程和目录。 应排除以下进程和目录：
 
 <div>
 
@@ -57,7 +59,7 @@ _**主题上次修改时间:** 2015-11-02_
 
 </div>
 
-  - Lync Server 2013 进程:
+  - Lync Server 2013 进程：
     
       - ABServer.exe
     
@@ -151,9 +153,9 @@ _**主题上次修改时间:** 2015-11-02_
     
       - 文件共享存储（在拓扑生成器中指定）。 文件存储在拓扑生成器中指定。
     
-      - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。 可以在拓扑生成器中指定数据库和日志文件。 有关每个数据库的数据和日志文件 (包括默认名称) 的详细信息, 请参阅部署文档中[Lync server 2013 的 SQL Server 数据和日志文件放置](lync-server-2013-sql-server-data-and-log-file-placement.md)。
+      - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。 可以在拓扑生成器中指定数据库和日志文件。 有关每个数据库的数据和日志文件（包括默认名称）的详细信息，请参阅部署文档中[Lync server 2013 的 SQL Server 数据和日志文件放置](lync-server-2013-sql-server-data-and-log-file-placement.md)。
     
-      - SQL Server 数据和日志文件, 包括前端数据库、Lync 应用商店和 RtcDatabase 应用商店的文件。 它们通常位于% localdrive%\\CSData。
+      - SQL Server 数据和日志文件，包括前端数据库、Lync 应用商店和 RtcDatabase 应用商店的文件。 它们通常位于% localdrive%\\CSData。
 
 </div>
 

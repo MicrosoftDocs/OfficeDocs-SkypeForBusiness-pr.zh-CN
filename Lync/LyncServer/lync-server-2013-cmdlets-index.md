@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: cmdlet 索引'
+title: Lync Server 2013： cmdlet 索引
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 cmdlets index
 ms:assetid: cd37aba7-3d27-4db9-b69f-3a6da1fb4b4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398867(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185661
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d18b599792d2599d96b4775aa37a4178f99d1e47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 64dd8edcb3f21cbdbdaf2b5a29c7e813675c9136
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837616"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742802"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,25 +35,25 @@ ms.locfileid: "34837616"
 
 <span> </span>
 
-_**主题上次修改时间:** 2016-04-12_
+_**主题上次修改时间：** 2016-04-12_
 
-Microsoft Lync Server 2013 随附超过700个 cmdlet, 使管理员能够从命令行管理 Lync Server 2013。 Lync Server cmdlet 通常与 Lync Server 命令行管理器一起使用。 使用 Lync Server 命令行管理程序的一种方法是登录到运行 Lync Server 服务或服务器角色的计算机, 单击 "**开始**", 单击 "**所有程序**", 单击 " **Microsoft Lync server 2013**", 然后单击 " **Lync server Management Shell"**. 打开管理外壳程序后, 您可以直接从命令行检索有关 cmdlet 的帮助, 方法是键入类似于以下内容的命令:
+Microsoft Lync Server 2013 随附超过700个 cmdlet，使管理员能够从命令行管理 Lync Server 2013。 Lync Server cmdlet 通常与 Lync Server 命令行管理器一起使用。 使用 Lync Server 命令行管理程序的一种方法是登录到运行 Lync Server 服务或服务器角色的计算机，单击 "**开始**"，单击 "**所有程序**"，单击 " **Microsoft lync server 2013**"，然后单击 " **Lync server Management Shell**"。 打开管理外壳程序后，您可以直接从命令行检索有关 cmdlet 的帮助，方法是键入类似于以下内容的命令：
 
     Get-Help New-CsVoicePolicy -Full
 
 上述命令检索有关 **New-CsVoicePolicy** cmdlet 的可用完整帮助。 要查看其他 cmdlet 的帮助，请将 **New-CsVoicePolicy** 替换为要检索其帮助信息的 cmdlet 的名称。
 
-若要检索可用于管理 Lync Server 的 cmdlet 的完整列表, 请在 Lync Server Management Shell 命令提示符处键入以下内容:
+若要检索可用于管理 Lync Server 的 cmdlet 的完整列表，请在 Lync Server Management Shell 命令提示符处键入以下内容：
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-有关使用 Lync Server 命令行管理程序的详细信息, 请参阅 Lync Server Windows PowerShell [http://go.microsoft.com/fwlink/p/?linkId=203150](http://go.microsoft.com/fwlink/p/?linkid=203150)博客。
+有关使用 Lync Server 命令行管理程序的详细信息，请参阅 Lync Server Windows PowerShell [http://go.microsoft.com/fwlink/p/?linkId=203150](http://go.microsoft.com/fwlink/p/?linkid=203150)博客。
 
 <div>
 
 ## <a name="lync-server-2013-cmdlets"></a>Lync Server 2013 Cmdlet
 
-下面是 Lync Server 2013 附带的 cmdlet 的列表:
+下面是 Lync Server 2013 附带的 cmdlet 的列表：
 
   - [Add-CsSlaDelegates](https://technet.microsoft.com/en-us/library/Mt703199(v=OCS.15))
 

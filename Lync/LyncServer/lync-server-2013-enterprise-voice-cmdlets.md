@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 企业语音 cmdlet'
+title: Lync Server 2013：企业语音 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enterprise Voice cmdlets
 ms:assetid: 7d7c6d94-3ead-4d99-95f7-c31b448ab9e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415658(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf902a7711625121335bc2f387301b8b9457a73c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc1c5516c80ed38839b795c92a5521be93711cad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830219"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,15 +35,15 @@ ms.locfileid: "34830219"
 
 <span> </span>
 
-_**主题上次修改时间:** 2014-03-19_
+_**主题上次修改时间：** 2014-03-19_
 
-企业语音是 Microsoft 通过 IP 语音 (VoIP) 实现的。 可用于在 Microsoft Lync Server 2013 中管理企业语音的 cmdlet 允许你创建和修改拨号计划 (以前称为位置配置文件)、语音策略、路由和规范化规则。
+企业语音是 Microsoft 通过 IP 语音（VoIP）实现的。 可用于在 Microsoft Lync Server 2013 中管理企业语音的 cmdlet 允许你创建和修改拨号计划（以前称为位置配置文件）、语音策略、路由和规范化规则。
 
 <div>
 
 ## <a name="enterprise-voice-cmdlets"></a>企业语音 Cmdlet
 
-大多数适用于企业语音的管理任务都可以从 Lync Server 控制面板执行。 可以使用 Lync Server Management Shell 或脚本中的 cmdlet 执行这些相同的任务, 从而使你能够自动执行某些任务。 以下是直接与管理企业语音相关的 cmdlet 的列表:
+大多数适用于企业语音的管理任务都可以从 Lync Server 控制面板执行。 可以使用 Lync Server Management Shell 或脚本中的 cmdlet 执行这些相同的任务，从而使你能够自动执行某些任务。 以下是直接与管理企业语音相关的 cmdlet 的列表：
 
 **[Lync Server 2013 中的企业语音 cmdlet 疑难解答](lync-server-2013-troubleshooting-enterprise-voice-cmdlets.md)**
 

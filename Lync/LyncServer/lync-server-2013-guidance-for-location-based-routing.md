@@ -3,6 +3,8 @@ title: Lync Server 2013：基于位置的路由指南
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Guidance for Location-Based Routing
 ms:assetid: ce88cb39-f486-46d4-af48-cdf047ad3444
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994074(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d7da21146107f8f5f9940813ffd9f517ea2ba4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a61478fcfffd182517a1045b041c51abb5efe7e0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34830106"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,7 +35,7 @@ ms.locfileid: "34830106"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-02-21_
+_**主题上次修改时间：** 2013-02-21_
 
 基于位置的路由可应用于用户的终结点网络网站位置或 PSTN 网关的网络网站位置。 本主题提供有关如何应用基于位置的路由的指南。
 

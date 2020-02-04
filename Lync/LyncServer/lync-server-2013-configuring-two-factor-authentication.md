@@ -1,8 +1,10 @@
 ---
-title: 'Lync Server 2013: 配置双因素身份验证'
+title: Lync Server 2013：配置双因素身份验证
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring two-factor authentication
 ms:assetid: 66cfa755-fe79-4d0f-b267-c3fa3c8f1c74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308567(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4f3793f51b84c61fe50956d0d2f47303ed8904e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ee6bc90743e20f69579c86c565395e0375c8bb0b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837164"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,9 +35,9 @@ ms.locfileid: "34837164"
 
 <span> </span>
 
-_**主题上次修改时间:** 2013-07-03_
+_**主题上次修改时间：** 2013-07-03_
 
-以下部分介绍了为您的部署配置双重身份验证所需的步骤。 有关双因素身份验证的详细信息, 请参阅[为联机管理员网格用户发布启用 Office 365 多重身份验证](http://go.microsoft.com/fwlink/p/?linkid=313332)。
+以下部分介绍了为您的部署配置双重身份验证所需的步骤。 有关双因素身份验证的详细信息，请参阅[为联机管理员网格用户发布启用 Office 365 多重身份验证](http://go.microsoft.com/fwlink/p/?linkid=313332)。
 
 <div>
 
@@ -47,7 +49,7 @@ _**主题上次修改时间:** 2013-07-03_
 
 [在 Lync Server 2013 中注册智能卡身份验证的用户](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
 
-[为 Lync Server 2013 配置 Active Directory 联合身份验证服务 (AD FS 2.0)](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
+[为 Lync Server 2013 配置 Active Directory 联合身份验证服务（AD FS 2.0）](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
 
 [配置 AD FS 2.0 以支持 Lync Server 2013 中的客户端身份验证](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
 

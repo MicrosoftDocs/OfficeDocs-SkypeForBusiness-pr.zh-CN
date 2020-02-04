@@ -3,6 +3,8 @@ title: Lync Server 2013：配置语音邮件重新路由设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure voice mail rerouting settings
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398606(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73aa16f7c18665c0b74c1e31e2ce888abdbe1c5a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b4ea243e87490bcabd48c866cce525d6bbd17077
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837307"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733842"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -33,25 +35,25 @@ ms.locfileid: "34837307"
 
 <span> </span>
 
-_**主题上次修改时间:** 2012-10-18_
+_**主题上次修改时间：** 2012-10-18_
 
-Survivable 分支装置和 Survivable 分支服务器可在 WAN 中断期间为分支用户提供语音邮件功能, 前提是 Exchange 统一消息 (UM) 已在中心网站安装, 并且已部署 Exchange UM 消息自动助理 (AA)。 我们建议你的 Exchange 管理员将 AA 配置为仅接受消息, 这将禁用其他常规功能, 例如, 转移到用户或转移到操作员。 或者, 你可以使用自定义的通用 AA 或 AA 来路由呼叫。
+Survivable 分支装置和 Survivable 分支服务器可在 WAN 中断期间为分支用户提供语音邮件功能，前提是 Exchange 统一消息（UM）已在中心网站安装，并且已部署 Exchange UM 消息自动助理（AA）。 我们建议你的 Exchange 管理员将 AA 配置为仅接受消息，这将禁用其他常规功能，例如，转移到用户或转移到操作员。 或者，你可以使用自定义的通用 AA 或 AA 来路由呼叫。
 
-有关详细信息, 请参阅规划文档中的[Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)的 "准备语音邮件留存性" 部分。
+有关详细信息，请参阅规划文档中的[Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)的 "准备语音邮件留存性" 部分。
 
 <div>
 
 ## <a name="to-configure-voice-mail-survivability"></a>配置语音邮件留存能力
 
-1.  请求 Exchange 管理员将 AA 配置为仅接受消息 (在 Exchange Shell 中使用以下 cmdlet: **UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**。 默认情况下, 指定允许离开邮件的参数 (*SendVoiceMsgEnabled*) 为 true。
+1.  请求 Exchange 管理员将 AA 配置为仅接受消息（在 Exchange Shell 中使用以下 cmdlet： **UMAutoAttendant \<AA name\> -CallSomeoneEnabled $false**。 默认情况下，指定允许离开邮件的参数（*SendVoiceMsgEnabled*）为 true。
 
-2.  在 Lync Server Management Shell 中, 使用**CSVoiceMailReroutingConfiguration** CMDLET 将 AA 电话号码设置为 Survivable 分支装置上的 "语音邮件重新路由" 配置中的 Exchange UM 自动助理电话号码, 或者Survivable 分支服务器。
+2.  在 Lync Server Management Shell 中，使用**CSVoiceMailReroutingConfiguration** CMDLET 将 AA 电话号码设置为 Survivable 分支装置或 Survivable 分支服务器上的 "语音邮件重新路由" 配置中的 Exchange UM 自动助理电话号码。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果你需要稍后修改语音邮件重新路由设置, 请使用<STRONG>CsVoiceMailReRoutingConfiguration</STRONG> cmdlet 执行此操作。 有关 Shell 帮助主题<STRONG></STRONG>中的详细信息, 请查阅<STRONG>CSVoiceMailReroutingConfiguration 和 Set-</STRONG>。
+    > 如果你需要稍后修改语音邮件重新路由设置，请使用<STRONG>CsVoiceMailReRoutingConfiguration</STRONG> cmdlet 执行此操作。 有关 Shell 帮助主题中的详细信息，<STRONG>请查阅</STRONG> <STRONG>CSVoiceMailReroutingConfiguration 和 Set-</STRONG>。
 
     
     </div>
@@ -62,12 +64,12 @@ Survivable 分支装置和 Survivable 分支服务器可在 WAN 中断期间为�
     
 
     > [!NOTE]  
-    > 配置 Exchange UM 用户的拨号计划, 以便在 WAN 中断期间需要访问 "获取语音邮件" 功能的所有分支用户仅有一个拨号计划。
+    > 配置 Exchange UM 用户的拨号计划，以便在 WAN 中断期间需要访问 "获取语音邮件" 功能的所有分支用户仅有一个拨号计划。
 
     
     </div>
 
-Survivable 分支装置或 Survivable 分支服务器的**下一步**:[在 Lync Server 2013 中的 Survivable 分支装置或服务器上家庭用户](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)。
+Survivable 分支装置或 Survivable 分支服务器的**下一步**：[在 Lync Server 2013 中的 Survivable 分支装置或服务器上家庭用户](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)。
 
 </div>
 
