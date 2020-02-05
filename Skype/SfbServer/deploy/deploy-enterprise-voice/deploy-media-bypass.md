@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: 在 Skype for Business Server Enterprise Voice 中部署媒体旁路。 包括先决条件和部署过程清单。
-ms.openlocfilehash: 2cbb57499a4cdb38a83424b3c86445817b18b4c5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 744fe56b554bd6b97171798e5dcc7baab69b6dbf
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233265"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767535"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署媒体旁路
  
 在 Skype for Business Server Enterprise Voice 中部署媒体旁路。 包括先决条件和部署过程清单。
   
-本主题假定你已发布和配置至少一个中介服务器和至少一个网关对等, 以便提供 PSTN 连接。 有关这些任务的更多详细信息, 请参阅在[skype for Business server 的拓扑生成器中部署中介服务器](deploy-a-mediation-server.md)和在[Skype for Business 服务器的拓扑生成器中定义网关](define-a-gateway.md)。
+本主题假定你已发布和配置至少一个中介服务器和至少一个网关对等，以便提供 PSTN 连接。 有关这些任务的更多详细信息，请参阅在[skype for Business server 的拓扑生成器中部署中介服务器](deploy-a-mediation-server.md)和在[Skype for Business 服务器的拓扑生成器中定义网关](define-a-gateway.md)。
   
  如果您连接到的对等方是 SIP 中继提供商的 SBC，请确保该提供商是合格的提供商，且支持媒体旁路。例如，很多 SIP 中继提供商仅允许其 SBC 接收来自中介服务器的流量。如果这样，则不得为出现故障的中继启用旁路。同时，只有您的组织向 SIP 中继提供商显示其内部网络 IP 地址后，您才能启用媒体旁路。
   

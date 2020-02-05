@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 在 Skype for Business 服务器中创建或修改网络区域、网络站点和关联网络子网。 所有这些都用于高级企业语音功能： "绕过媒体"、"呼叫许可控制" 和 "基于位置的路由"。
-ms.openlocfilehash: 90410338d13ae8109e4a090bade739add32846b6
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e181e8fffc431db67e0e597f3e8dccba710efdd5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001932"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767515"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>在 Skype for Business 中部署网络区域、网站和子网
 

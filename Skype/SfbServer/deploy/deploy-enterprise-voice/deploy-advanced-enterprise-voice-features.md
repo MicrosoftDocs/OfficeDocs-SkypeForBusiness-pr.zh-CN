@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: 在 Skype for Business 服务器中部署高级企业语音功能。
-ms.openlocfilehash: 9b711c7258abb1ceb479f379aebe677edbdef042
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 27d09f842555d008edc96d5b61838508df6836a8
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245499"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767675"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署高级企业语音功能
  

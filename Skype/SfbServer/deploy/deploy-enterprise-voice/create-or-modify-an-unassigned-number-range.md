@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 在 Skype for business Server 企业版中创建、修改或删除用于公告应用的未分配号码范围。 这将影响如何处理打给未分配号码的呼叫。
-ms.openlocfilehash: c52cbf8e281307ad75023f3edc8b4ec1d77f4b42
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: d357a97bffda50d6d387ba40a12f62dacac5ce31
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767745"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建或修改未分配的号码范围
  

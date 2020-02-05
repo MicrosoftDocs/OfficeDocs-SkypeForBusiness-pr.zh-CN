@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,22 +16,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Skype for business Server 企业版中发布应用程序的部署过程和步骤。
-ms.openlocfilehash: 2edb9364408658e9a164210a9fcd5a0196b10da7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 89f01ed4c9488aa74b07bfae41f3bf27032b552e
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245309"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767395"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Skype for Business Server 中的发布应用程序的部署过程
  
 Skype for business Server 企业版中发布应用程序的部署过程和步骤。
   
-"发布" 应用程序是一种企业语音功能, 可让你配置调用未分配的扩展 (对你的组织有效, 但未分配给某个人或手机的扩展) 所发生的情况。 例如，可以将对未分配号码的呼叫配置为播放消息或转接至其他目标，或者同时执行这两种操作。
+"发布" 应用程序是一种企业语音功能，可让你配置调用未分配的扩展（对你的组织有效，但未分配给某个人或手机的扩展）所发生的情况。 例如，可以将对未分配号码的呼叫配置为播放消息或转接至其他目标，或者同时执行这两种操作。
   
-在部署企业语音时, "发布" 应用程序作为 "响应组应用程序" 的一项功能安装在前端服务器或标准版服务器上。 需要上载音频文件或配置文本到语音转换 (TTS)，并配置未分配号码表来配置通知。
+在部署企业语音时，"发布" 应用程序作为 "响应组应用程序" 的一项功能安装在前端服务器或标准版服务器上。 需要上载音频文件或配置文本到语音转换 (TTS)，并配置未分配号码表来配置通知。
   
-本部分概述了部署公告应用程序所涉及的步骤。 您必须先部署企业语音, 然后才能配置公告。 部署 "企业语音" 时, 安装并启用公告应用程序所需的组件。
+本部分概述了部署公告应用程序所涉及的步骤。 您必须先部署企业语音，然后才能配置公告。 部署 "企业语音" 时，安装并启用公告应用程序所需的组件。
   
 **通知部署过程**
 

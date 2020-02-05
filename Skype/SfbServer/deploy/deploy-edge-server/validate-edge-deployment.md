@@ -7,34 +7,36 @@ audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: '摘要: 了解如何验证 Edge 服务器或 Edge 服务器池的部署是否在 Skype for Business 服务器中工作。'
-ms.openlocfilehash: 57994e4583a3424fc680c8dfb220aeb11668c6fc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：了解如何验证 Edge 服务器或 Edge 服务器池的部署是否在 Skype for Business 服务器中工作。
+ms.openlocfilehash: c73b77fd0171afe20f9e40b48c47ef4304df4c66
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233872"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768295"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>在 Skype for Business 服务器中验证 Edge 部署
  
-**摘要:** 了解如何验证 Edge 服务器或 Edge 服务器池的部署是否在 Skype for Business 服务器中工作。
+**摘要：** 了解如何验证 Edge 服务器或 Edge 服务器池的部署是否在 Skype for Business 服务器中工作。
   
-部署 Edge 服务器或边缘服务器池后, 您需要知道它是否正常工作。 下面是一些可帮助确保你的边缘环境已连接到内部服务器, 并且你的外部用户可以通过你的边缘连接到 Skype for Business 服务器环境的一些内容。
+部署 Edge 服务器或边缘服务器池后，您需要知道它是否正常工作。 下面是一些可帮助确保你的边缘环境已连接到内部服务器，并且你的外部用户可以通过你的边缘连接到 Skype for Business 服务器环境的一些内容。
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>验证内部服务器与边缘服务器之间的连接
 
-在安装边缘服务器时自动在边缘服务器或边缘服务器池中完成连接验证时, 你仍然可以通过 Windows PowerShell 确认此操作。 在具有中央管理存储的内部服务器上运行 CsManagementStoreReplicationStatus cmdlet, 或在已安装 Skype for business Server Core 组件 (OcsCore) 的任何加入域的计算机上运行。
+在安装边缘服务器时自动在边缘服务器或边缘服务器池中完成连接验证时，你仍然可以通过 Windows PowerShell 确认此操作。 在具有中央管理存储的内部服务器上运行 CsManagementStoreReplicationStatus cmdlet，或在已安装 Skype for business Server Core 组件（OcsCore）的任何加入域的计算机上运行。
   
 初次运行此命令的结果可能给出复制状态为 False，而不是 True。如果发生这种情况，请运行 Invoke-CsManagementStoreReplication cmdlet。留些时间让其完成复制，然后再次运行 Get-CsManagementStoreReplicationStatus cmdlet。
   
 ## <a name="verify-connectivity-for-your-external-users"></a>验证外部用户连接
 
-我们确实有一个很好的工具可用于确认你的 Edge 服务器配置, 并且能够为 Edge 服务器方案连接、发送和接收正确的消息。 这是[远程连接 Anaylzer 网站](https://testconnectivity.microsoft.com/)。 这是由 Microsoft 管理和维护的站点。 若要使用此工具，请通过浏览找到该网站，然后按照指示选择适合你的正确方案。
+我们确实有一个很好的工具可用于确认你的 Edge 服务器配置，并且能够为 Edge 服务器方案连接、发送和接收正确的消息。 这是[远程连接 Anaylzer 网站](https://testconnectivity.microsoft.com/)。 这是由 Microsoft 管理和维护的站点。 若要使用此工具，请通过浏览找到该网站，然后按照指示选择适合你的正确方案。
   
 ### <a name="things-to-consider-when-testing-external-user-connectivity"></a>测试外部用户连接时应考虑的事项
 
@@ -46,16 +48,16 @@ ms.locfileid: "36233872"
     
 - 您的组织中远程登录到 Skype for Business 但没有使用 VPN 的用户。
     
-这些测试将确定你的边缘服务器是否:
+这些测试将确定你的边缘服务器是否：
   
 - 使用 Telnet 客户端从网络外侦听所需端口。
     
   - 例如：telnet sip.contoso.com 443
     
-  - 你应该针对你在 Edge 服务器或 Edge 服务器池中使用的端口执行上述测试, 具体取决于你的部署。
+  - 你应该针对你在 Edge 服务器或 Edge 服务器池中使用的端口执行上述测试，具体取决于你的部署。
     
 - 执行准确的外部 DNS 解析。
     
-  - 从您的网络外部, ping 一下 Edge 服务器或边缘服务器池中的每个外部 Fqdn。 即使 ping 失败, 您也可以看到 IP 地址, 您可以比较以前分配的 IP 地址。
+  - 从您的网络外部，ping 一下 Edge 服务器或边缘服务器池中的每个外部 Fqdn。 即使 ping 失败，您也可以看到 IP 地址，您可以比较以前分配的 IP 地址。
     
 

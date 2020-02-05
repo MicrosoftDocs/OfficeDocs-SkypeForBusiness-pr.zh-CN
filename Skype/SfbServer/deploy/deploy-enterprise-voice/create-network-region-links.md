@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 创建或修改网络区域链接，这些链接由 Skype for Business Server 中的 "企业语音呼叫许可控制" 使用。
-ms.openlocfilehash: 3c40488c3cbb4d5116f9b242bb198ba20f13bd58
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 20fdbca9eb56fad9b69c6299177301e82fbf115a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001732"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767905"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建网络区域链接
  

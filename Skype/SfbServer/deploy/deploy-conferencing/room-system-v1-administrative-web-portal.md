@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype for business Server Skype 会议室系统 v1 （SRS v1，以前称为 Lync 房间系统）管理 Web 门户是一种 Web 门户，组织可以使用该门户维护其 Skype 会议室系统会议室。 管理员可以使用 SRS v1 管理 Web 门户监视设备运行状况，例如通过监视音频/视频设备进行监视。 通过此门户，管理员可以远程收集诊断信息以监控会议室的运行状况。
-ms.openlocfilehash: 4c05b558176b92358206e7cee2355ff82683ed45
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 558baac64bdb1e21ed710cb4dafb063ce75a62de
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002882"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768515"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署 SRS v1 管理 Web 门户
 

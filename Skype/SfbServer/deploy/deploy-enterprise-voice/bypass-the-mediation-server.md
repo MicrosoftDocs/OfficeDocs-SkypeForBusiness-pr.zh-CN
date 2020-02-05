@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: 在 Skype for Business Server Enterprise Voice 中启用 "绕过媒体" 以始终绕过中介服务器。
-ms.openlocfilehash: dfffda1130fc1fb119e6cbf5d9b12af766b9c038
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cde2a1bff41016e05ac6c74978fa65b45f11a1e7
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233835"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768265"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>在 Skype for Business 服务器中配置 "绕过媒体" 服务器以始终绕过中介服务器
  
 在 Skype for Business Server Enterprise Voice 中启用 "绕过媒体" 以始终绕过中介服务器。 
   
- 如果你使用本主题中的步骤来配置媒体绕过的全局设置, 则假设你在 Skype for Business 终结点和任何对等客户之间具有良好的连接, 你可以在中继连接上配置了媒体旁路。
+ 如果你使用本主题中的步骤来配置媒体绕过的全局设置，则假设你在 Skype for Business 终结点和任何对等客户之间具有良好的连接，你可以在中继连接上配置了媒体旁路。
   
-如果您在 Skype for Business 终结点和所有对等的外部服务器之间没有良好的连接, 并且其各自的干线连接已启用媒体旁路, 则必须将全局媒体绕过设置配置为使用网站和区域信息采用媒体旁路时。 这允许在确定媒体绕过中介服务器时提供更多控制。 若要执行此操作, 请使用 "在[Skype For Business 服务器中配置媒体绕过全局设置" 中的步骤使用网站和区域信息](use-site-and-region-information.md), 而[将子网与网络网站相关联](deploy-network.md#BKMK_AssociateSubnets)。
+如果您在 Skype for Business 终结点和所有对等的外部服务器之间没有良好的连接，并且其各自的干线连接已启用媒体旁路，则必须将全局媒体绕过设置配置为使用网站和区域信息采用媒体旁路时。 这允许在确定媒体绕过中介服务器时提供更多控制。 若要执行此操作，请使用 "在[Skype For Business 服务器中配置媒体绕过全局设置" 中的步骤使用网站和区域信息](use-site-and-region-information.md)，而[将子网与网络网站相关联](deploy-network.md#BKMK_AssociateSubnets)。
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>在全局范围启用媒体旁路以始终绕过中介服务器
 

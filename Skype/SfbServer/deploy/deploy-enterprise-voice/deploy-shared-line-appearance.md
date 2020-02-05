@@ -8,6 +8,8 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 阅读本主题，了解如何在 Skype for Business Server 2015 的 2015 年 11 月累积更新中部署共享线路外观 (SLA)。SLA 是用于处理对特定号码（称为“共享号码”）的多个呼叫的功能。
-ms.openlocfilehash: 684d5fe7b65308c19b56039f2ad4f8ddd6752bbd
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c9c4eef43de2f03be32e92c23e8384020e24b099
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001902"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767505"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中部署共享线路外观
 
