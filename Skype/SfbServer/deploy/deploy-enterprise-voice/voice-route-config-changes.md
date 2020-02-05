@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: '摘要: 了解如何使用 Skype for business 服务器控制面板查看、发布或取消 Skype for Business 服务器中的语音路由配置更改。'
-ms.openlocfilehash: 6a13c2a2b2b1221203fbed84948b803a6c2ea1db
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：了解如何使用 Skype for business 服务器控制面板查看、发布或取消 Skype for Business 服务器中的语音路由配置更改。
+ms.openlocfilehash: 12cf80c2a14d3bad532aaf21a942536f44537300
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239920"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766955"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>发布 Skype for Business 中的语音路由配置的待处理更改
  
-**摘要:** 了解如何使用 Skype for business Server 控制面板查看、发布或取消 Skype for Business 服务器中的语音路由配置更改。
+**摘要：** 了解如何使用 Skype for business Server 控制面板查看、发布或取消 Skype for Business 服务器中的语音路由配置更改。
   
 在“语音路由”**** 组的页面中对任何配置设置做出更改后，执行此过程以查看、发布或取消待处理的更改。
   
@@ -34,7 +36,7 @@ ms.locfileid: "36239920"
 > 必须通过运行“全部提交”**** 命令，同时发布所有待处理的更改。不能选择性地发布待处理的更改。发布待处理的更改前，运行“查看未提交的更改”**** 命令并取消任何不希望发布的配置更改。
   
 > [!NOTE]
-> 如果在提交待处理更改前离开“语音路由”**** 组中的页面，所有待处理更改都将丢失。 但是，可以将当前配置（包括所有待处理的更改）导出至语音配置文件，然后导入并发布已更新的配置。 有关详细信息, 请参阅[在 Skype For business 中导出或导入语音路线配置文件](voice-route-configuration-import-export.md)。 
+> 如果在提交待处理更改前离开“语音路由”**** 组中的页面，所有待处理更改都将丢失。 但是，可以将当前配置（包括所有待处理的更改）导出至语音配置文件，然后导入并发布已更新的配置。 有关详细信息，请参阅[在 Skype For business 中导出或导入语音路线配置文件](voice-route-configuration-import-export.md)。 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>查看、发布或取消语音路由配置更改
 
@@ -58,6 +60,6 @@ ms.locfileid: "36239920"
     
 8. 在“未提交的语音配置设置”**** 对话框（其中显示所有待处理更改的列表）中，单击“确定”****。 
     
-    当 Skype for Business 服务器控制面板提交更改后, 将显示 "**成功发布的语音路由配置**" 消息。
+    当 Skype for Business 服务器控制面板提交更改后，将显示 "**成功发布的语音路由配置**" 消息。
     
 

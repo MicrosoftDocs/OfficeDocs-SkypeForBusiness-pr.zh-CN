@@ -5,6 +5,8 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：了解如何在本地部署和 Skype for business Online 之间配置互操作性。
-ms.openlocfilehash: c451224e7f421b4505560533b2880a14cc04e1a9
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 1b36a25674c3d6690b7490d0cd0793f05131cc12
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963030"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726782"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>配置 Skype for Business 混合
 

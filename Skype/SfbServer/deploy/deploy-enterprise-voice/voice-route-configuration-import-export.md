@@ -7,29 +7,31 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: '摘要: 了解如何使用 Skype for business Server 控制面板导出或导入 Skype for Business 服务器中的语音路由配置文件。'
-ms.openlocfilehash: ec5a3d0c7f14d85a7b64eaad1edc73ebe4e24cd2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：了解如何使用 Skype for business Server 控制面板导出或导入 Skype for Business 服务器中的语音路由配置文件。
+ms.openlocfilehash: b980aa26f4d67cd1697ec17286e6af7d9e657e15
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239913"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766875"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>在 Skype for Business 中导出或导入语音路线配置文件
  
-**摘要:** 了解如何使用 Skype for business Server 控制面板导出或导入 Skype for Business 服务器中的 "语音路由配置" 文件。
+**摘要：** 了解如何使用 Skype for business Server 控制面板导出或导入 Skype for Business 服务器中的 "语音路由配置" 文件。
   
 如果要在未发布语音路由配置的情况下保存该配置，请按照以下步骤保存和检索语音路由配置的快照。 
   
-当您导入一个语音路由配置文件 (vcfg), 但同时在服务器上对语音路由配置进行了更改时, Skype for Business Server 控制面板中的 "**语音路由**" 组中的页面将显示有未提交的语音路由更改。 这些未提交的更改是两种需要调节的配置之间的差异。
+当您导入一个语音路由配置文件（vcfg），但在此期间对服务器上的语音路由配置进行了更改时，Skype for Business Server 控制面板中的 "**语音路由**" 组中的页面将指示有未提交的语音路由更改。 这些未提交的更改是两种需要调节的配置之间的差异。
   
-如果你对组内任何页面上的设置进行了任何未提交的更改, 则所做的更改将保存在导出的语音配置文件 (vcfg) 中。 这使你可以在发布更改之前在多个会话期间进行语音路由配置更改。 
+如果你对组内任何页面上的设置进行了任何未提交的更改，则所做的更改将保存在导出的语音配置文件（vcfg）中。 这使你可以在发布更改之前在多个会话期间进行语音路由配置更改。 
   
 ### <a name="to-export-a-voice-routing-configuration"></a>导出语音路由配置
 
@@ -58,6 +60,6 @@ ms.locfileid: "36239913"
 6. 单击“提交”****，然后单击“全部提交”****。
     
     > [!NOTE]
-    > 任何时候导入语音配置文件，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息, 请参阅操作文档中的[Skype For business 中的 "发布待处理的语音路由配置更改"](voice-route-config-changes.md) 。
+    > 任何时候导入语音配置文件，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Skype For business 中的 "发布待处理的语音路由配置更改"](voice-route-config-changes.md) 。
   
 

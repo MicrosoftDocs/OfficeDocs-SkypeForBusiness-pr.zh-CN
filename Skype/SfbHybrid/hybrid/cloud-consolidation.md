@@ -14,17 +14,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 description: 本文介绍了如何通过要移动到团队和/或 Skype for business Online 的 Skype for Business （或 Lync）的内部部署（即 Lync）组织实现该合并。
-ms.openlocfilehash: 33cbc823fd7aeece1591810d63d2ebf4a348237a
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 7f3ad27404ec80e0592baa7174b01363f1aa0ed1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018841"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726952"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>针对团队和 Skype for Business 的云整合
 
@@ -130,7 +132,7 @@ ms.locfileid: "37018841"
         - 如果需要在完成混合组织的迁移之前将任何其他 Skype for business 林同步到 AAD，则组织必须执行步骤7（在任何其他本地 Skype for Business 部署中禁用所有联机 SIP 域，这些部署将同步到 AAD），然后启用 AAD Connect，仅继续执行步骤10（停止原始混合部署）。       
                 **图 E**<br>
                 ![图 E 图表](../media/cloudconsolidationfige.png)
-- 纯 Skype for business Online 组织（可能会，也可能不会使用团队）与独立的本地 Skype for business 组织联合。 一旦此组织禁用内部部署组织的联机 SIP 域并为本地 Skype for Business 组织启用 AAD 连接，它就类似于**[图 C](#figure-c)** 中已完成步骤的假想组织1-11。
+- 纯 Skype for business Online 组织（可能会，也可能不会使用团队）与独立的本地 Skype for business 组织联合。 一旦此组织禁用内部部署组织的联机 SIP 域并为本地 Skype for Business 组织启用 AAD 连接，它就会与**[图 C](#figure-c)** 中所示的假设组织（已完成步骤1-11）类似。
 
 ## <a name="limitations"></a>限制
 

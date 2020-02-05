@@ -14,17 +14,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括将混合禁用作为团队和 Skype for Business 的云整合的一部分的详细步骤。
-ms.openlocfilehash: d3420c1bd40bbdeeff25747153210c2600d929f6
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 8fc9745c75f9b449751164065f974ccd8088218f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963070"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726972"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>禁用混合以完成到云的迁移
 
@@ -45,7 +47,7 @@ ms.locfileid: "40963070"
 1.  *更新 DNS 以指向 Office 365。*
 组织的内部部署组织的外部 DNS 需要更新，以便 Skype for Business 记录指向 Office 365 而不是本地部署。 具体来说：
 
-    |记录类型|名称|TTL|值|
+    |记录类型|姓名|TTL|值|
     |---|---|---|---|
     |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed.online.lync.com>。<span>com|
     |SRV|_sip _tls|3600|100 1 443 sipdir.online.lync.com>。<span>com|

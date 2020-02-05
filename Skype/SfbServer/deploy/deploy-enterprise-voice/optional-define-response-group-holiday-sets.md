@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 在 Skype for Business Server 企业版中创建或修改响应组假日集。
-ms.openlocfilehash: 9dd9467a40f45d7252e92d9628d8678adbce3184
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 5d38814a8e4e9e50634b6d63b1db4c8230c496ea
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003092"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767315"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>可选在 Skype for Business 中定义响应组假日集
  

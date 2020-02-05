@@ -14,17 +14,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 description: 本附录包括更新边缘证书的详细步骤，作为团队和 Skype for business 的云合并的一部分。
-ms.openlocfilehash: 52ab646387acb6901798f215f9677f16978e87fb
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: c4339eec5fa303429fdf8f42a7273c8f20f94e5b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963050"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762850"
 ---
 # <a name="update-the-edge-certificate"></a>更新边缘证书
 

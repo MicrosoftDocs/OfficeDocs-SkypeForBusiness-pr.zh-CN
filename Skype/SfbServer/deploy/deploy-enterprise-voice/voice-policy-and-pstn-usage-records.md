@@ -7,26 +7,28 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
-description: '摘要: 使用 Skype for Business 服务器控制面板创建或修改语音策略和配置 PSTN 使用记录。'
-ms.openlocfilehash: 76ce531eab2eb88b9a62c4bc38aae1e899802084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：使用 Skype for Business 服务器控制面板创建或修改语音策略和配置 PSTN 使用记录。
+ms.openlocfilehash: 6fe67c9c3764196559740e114419dc427cdeadf3
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239927"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766965"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>在 Skype for Business 中创建或修改语音策略和配置 PSTN 使用记录
 
-**摘要:** 使用 Skype for Business 服务器控制面板创建或修改语音策略和配置 PSTN 使用记录。
+**摘要：** 使用 Skype for Business 服务器控制面板创建或修改语音策略和配置 PSTN 使用记录。
 
 > [!NOTE]
-> 每个语音策略必须至少具有一条关联的公用电话交换网 (PSTN) 用法记录。 若要查看企业语音部署中可用的所有 PSTN 使用记录的列表, 并查看其属性, 请参阅[在 Skype For business 中查看 pstn 使用记录](view-pstn-usage-records.md)。
+> 每个语音策略必须至少具有一条关联的公用电话交换网 (PSTN) 用法记录。 若要查看企业语音部署中可用的所有 PSTN 使用记录的列表，并查看其属性，请参阅[在 Skype For business 中查看 pstn 使用记录](view-pstn-usage-records.md)。
 
 ### <a name="to-create-a-voice-policy"></a>创建语音策略
 
@@ -49,14 +51,14 @@ ms.locfileid: "36239927"
 
 6. 选中或清除以下复选框以启用或禁用该语音策略的每种“呼叫功能”****：
 
-   - **语音邮件转义**可防止呼叫直接路由到用户的移动电话语音邮件系统, 同时拨打同时拨打的电话、关闭电池或超出范围。
+   - **语音邮件转义**可防止呼叫直接路由到用户的移动电话语音邮件系统，同时拨打同时拨打的电话、关闭电池或超出范围。
 
      > [!NOTE]
      > 此功能只能通过 Skype for Business Server Management Shell 进行配置
 
    - 通过**呼叫转接**，用户可以将呼叫转接到其他电话或客户端设备。 Skype for business 服务器为呼叫转接提供了一系列更广泛的配置选项。 例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。 默认为启用。
 
-   - 通过**委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在 Skype for Business 服务器中, 代理人可以配置同时拨打的电话, 让他/她的经理拨出所有代理人同时拨打的目标电话。 这会向委派提供极大的灵活性以响应直接传到经理的呼叫。 默认为启用。
+   - 通过**委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在 Skype for Business 服务器中，代理人可以配置同时拨打的电话，让他/她的经理拨出所有代理人同时拨打的目标电话。 这会向委派提供极大的灵活性以响应直接传到经理的呼叫。 默认为启用。
 
    - 通过**呼叫转移**，用户可以将呼叫转移到其他用户。 默认为启用。
 
@@ -75,7 +77,7 @@ ms.locfileid: "36239927"
 
    - 通过**恶意呼叫跟踪**，用户可以通过使用客户端 UI 报告恶意呼叫（如威胁），接下来在呼叫详细记录 (CDR) 中标记呼叫。默认为禁用。
 
-   - "**忙碌" 选项**启用或禁用指定语音策略的 "忙" 选项。 如果呼叫的目标用户在手机上, 则 "忙碌" 选项允许将传入呼叫路由到语音邮件或使用占线信号拒绝传入呼叫。 "忙碌" 选项是2016年7月累积更新中引入的新语音策略。 选中此参数可启用 Busy 选项, 并且取消选中它将禁用 "忙" 选项。 有关详细信息, 请参阅为 Skype for business[服务器计划 "忙碌选项](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)" 和 "为[Skype For business 服务器安装和配置 busy 选项](install-and-configure-busy-options.md)"。
+   - "**忙碌" 选项**启用或禁用指定语音策略的 "忙" 选项。 如果呼叫的目标用户在手机上，则 "忙碌" 选项允许将传入呼叫路由到语音邮件或使用占线信号拒绝传入呼叫。 "忙碌" 选项是2016年7月累积更新中引入的新语音策略。 选中此参数可启用 Busy 选项，并且取消选中它将禁用 "忙" 选项。 有关详细信息，请参阅为 Skype for business[服务器计划 "忙碌选项](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)" 和 "为[Skype For business 服务器安装和配置 busy 选项](install-and-configure-busy-options.md)"。
 
 7. 要为此语音策略关联和配置 PSTN 用法记录，请执行以下任意操作：
 
@@ -87,7 +89,7 @@ ms.locfileid: "36239927"
 
      a. 单击“新建”****。
 
-     b. 在“名称”**** 字段中，输入记录的唯一描述性名称。 例如, 你可能希望为位于 Redmond 的全职员工创建 PSTN 使用记录 namedRedmond, 并为临时员工创建另一个 namedRedmondTemps。
+     b. 在“名称”**** 字段中，输入记录的唯一描述性名称。 例如，你可能希望为位于 Redmond 的全职员工创建 PSTN 使用记录 namedRedmond，并为临时员工创建另一个 namedRedmondTemps。
 
      > [!NOTE]
      > PSTN 用法记录名称在企业语音部署中必须是唯一的。保存记录后，将无法编辑“名称”**** 字段。
@@ -98,7 +100,7 @@ ms.locfileid: "36239927"
 
    - 要删除 PSTN 用法记录中的某个路由，请突出显示该路由，然后单击“删除”****。
 
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息, 请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
 
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。
 
@@ -114,13 +116,13 @@ ms.locfileid: "36239927"
 
    - 要删除 PSTN 用法记录中的某个路由，请突出显示该路由，然后单击“删除”****。
 
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息, 请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
 
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。
 
      c. 单击“**确定**”。
 
-8. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置, 请突出显示记录名称, 然后单击向上或向下箭头。
+8. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置，请突出显示记录名称，然后单击向上或向下箭头。
 
     > [!IMPORTANT]
     > PSTN 用法记录在语音策略中的列出顺序十分重要。 Skype for Business 服务器从上到下遍历列表。 建议按使用频率来组织该列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。
@@ -129,7 +131,7 @@ ms.locfileid: "36239927"
 
    - 要作为此语音策略将相同的 PSTN 用法记录用于呼叫转接和同时响铃，请从下拉菜单选择“使用呼叫 PSTN 用法进行路由”****。
 
-   - 若要允许呼叫转接和同时拨打内部 Skype for Business 用户, 请从下拉菜单中选择**仅限内部 skype for business 用户**的 "发送" 选项。 Calls will not be forwarded to external PSTN numbers.
+   - 若要允许呼叫转接和同时拨打内部 Skype for Business 用户，请从下拉菜单中选择**仅限内部 skype for business 用户**的 "发送" 选项。 Calls will not be forwarded to external PSTN numbers.
 
    - 要为呼叫转接和同时响铃指定不同的 PSTN 用法记录，而不是用于此语音策略，请从下拉菜单选择选项“使用自定义 PSTN 用法路由”****。此选项显示控制来选择现有的 PSTN 用法记录或创建专门用于呼叫转接和同时响铃的新 PSTN 用法记录。
 
@@ -152,7 +154,7 @@ ms.locfileid: "36239927"
 
    - 要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
 
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息, 请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
 
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。
 
@@ -168,7 +170,7 @@ ms.locfileid: "36239927"
 
    - 要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
 
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息, 请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
 
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。
 
@@ -181,9 +183,9 @@ ms.locfileid: "36239927"
 12. 在“语音策略”**** 页上，单击“提交”****，然后单击“全部提交”****。
 
     > [!NOTE]
-    > 任何时候创建或修改语音策略，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息, 请参阅操作文档中的[Skype For business 中的 "发布待处理的语音路由配置更改"](voice-route-config-changes.md) 。
+    > 任何时候创建或修改语音策略，都必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Skype For business 中的 "发布待处理的语音路由配置更改"](voice-route-config-changes.md) 。
 
-13. 可选语音邮件 Escape 检测到呼叫已由用户的移动电话语音邮件立即应答, 并断开与移动电话语音邮件的通话。 这允许呼叫继续拨打用户的其他终结点, 让用户有机会接听呼叫。 有关如何配置语音邮件策略的详细信息, 请参阅[在 Skype For business 中配置语音邮件转义](configure-voice-mail-escape.md)。
+13. 可选语音邮件 Escape 检测到呼叫已由用户的移动电话语音邮件立即应答，并断开与移动电话语音邮件的通话。 这允许呼叫继续拨打用户的其他终结点，让用户有机会接听呼叫。 有关如何配置语音邮件策略的详细信息，请参阅[在 Skype For business 中配置语音邮件转义](configure-voice-mail-escape.md)。
 
 ### <a name="to-modify-a-voice-policy"></a>修改语音策略
 
@@ -200,14 +202,14 @@ ms.locfileid: "36239927"
 
 5. 选中或清除以下复选框以启用或禁用每种“呼叫功能”****：
 
-   - **语音邮件转义**可防止呼叫直接路由到用户的移动电话语音邮件系统, 同时拨打同时拨打的电话、关闭电池或超出范围。
+   - **语音邮件转义**可防止呼叫直接路由到用户的移动电话语音邮件系统，同时拨打同时拨打的电话、关闭电池或超出范围。
 
      > [!NOTE]
      > 此功能只能通过 Skype for Business Server Management Shell 进行配置
 
    - 通过**呼叫转接**，用户可以将呼叫转接到其他电话或客户端设备。 Skype for business 服务器为呼叫转接提供了一系列更广泛的配置选项。 例如，如果组织不允许将传入呼叫外部转接到 PSTN，则管理员可应用特定语音策略来部署此限制。 默认为启用。
 
-   - 通过**委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在 Skype for Business 服务器中, 代理人可以配置同时拨打的电话, 让他/她的经理拨出所有代理人同时拨打的目标电话。 这会向委派提供极大的灵活性以响应直接传到经理的呼叫。 默认为启用。
+   - 通过**委派**，用户可以指定其他用户代表他们发送和接收呼叫。 在 Skype for Business 服务器中，代理人可以配置同时拨打的电话，让他/她的经理拨出所有代理人同时拨打的目标电话。 这会向委派提供极大的灵活性以响应直接传到经理的呼叫。 默认为启用。
 
    - 通过**呼叫转移**，用户可以将呼叫转移到其他用户。默认为启用。
 
@@ -236,7 +238,7 @@ ms.locfileid: "36239927"
 
      a. 单击“新建”****。
 
-     b. 在“名称”**** 字段中，输入记录的唯一描述性名称。 例如, 你可能希望为位于 Redmond 的全职员工创建 PSTN 使用记录 namedRedmond, 并为临时员工创建另一个记录 namedRedmondTemps。
+     b. 在“名称”**** 字段中，输入记录的唯一描述性名称。 例如，你可能希望为位于 Redmond 的全职员工创建 PSTN 使用记录 namedRedmond，并为临时员工创建另一个记录 namedRedmondTemps。
 
      > [!NOTE]
      > PSTN 用法记录名称在企业语音部署中必须是唯一的。保存记录后，将无法编辑“名称”**** 字段。
@@ -247,7 +249,7 @@ ms.locfileid: "36239927"
 
    - 要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
 
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息, 请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
 
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。
 
@@ -263,13 +265,13 @@ ms.locfileid: "36239927"
 
    - 要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
 
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息, 请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
 
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。
 
      c. 单击“**确定**”。
 
-7. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置, 请突出显示记录名称, 然后单击向上或向下箭头。
+7. 排列 PSTN 用法记录以获得最佳性能。 若要更改记录在列表中的位置，请突出显示记录名称，然后单击向上或向下箭头。
 
     > [!NOTE]
     > PSTN 用法记录在语音策略中的列出顺序十分重要。 Skype for Business 服务器从上到下遍历列表。 建议按使用频率来组织该列表，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。
@@ -278,7 +280,7 @@ ms.locfileid: "36239927"
 
    - 要作为此语音策略将相同的 PSTN 用法记录用于呼叫转接和同时响铃，请从下拉菜单选择“使用呼叫 PSTN 用法进行路由”****。
 
-   - 若要允许呼叫转接和同时拨打内部 Skype for Business 用户, 请选择 "仅从下拉菜单**传送到内部 skype for business 用户**"。 Calls will not be forwarded to external PSTN numbers.
+   - 若要允许呼叫转接和同时拨打内部 Skype for Business 用户，请选择 "仅从下拉菜单**传送到内部 skype for business 用户**"。 Calls will not be forwarded to external PSTN numbers.
 
    - 若要为呼叫转接和同时响铃指定与此语音策略所用的 PSTN 用法记录不同的 PSTN 用法记录，请从下拉菜单中选择“使用自定义 PSTN 用法进行路由”****。此选项显示一个控件，此控件专用于为呼叫转接和同时响铃选择现有 PSTN 用法记录或创建新的 PSTN 用法记录。
 
@@ -301,7 +303,7 @@ ms.locfileid: "36239927"
 
    - 要删除 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
 
-   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息, 请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
+   - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
 
    - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。有关详细信息，请参阅[Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)。
 
@@ -317,7 +319,7 @@ ms.locfileid: "36239927"
 
      - 要删除此 PSTN 用法记录中的某个路由，请突出显示相应的路由，然后单击“删除”****。
 
-     - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息, 请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
+     - 要定义新路由并将其与此 PSTN 用法记录关联，请单击“新建”****。 有关详细信息，请参阅[在 Skype For business 中创建或修改语音路线](create-or-modify-a-voice-route.md)。
 
      - 要编辑已经与此 PSTN 用法记录相关联的路由，请突出显示相应的路由，然后单击“显示详细信息”****。有关详细信息，请参阅[Modify a Voice Route](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)。
 
@@ -330,9 +332,9 @@ ms.locfileid: "36239927"
 11. 在“语音策略”**** 页上，单击“提交”****，然后单击“全部提交”****。
 
     > [!NOTE]
-    > 只要创建或修改语音策略，就必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息, 请参阅操作文档中的[Skype For business 中的 "发布待处理的语音路由配置更改"](voice-route-config-changes.md) 。
+    > 只要创建或修改语音策略，就必须运行“全部提交”**** 命令以发布配置更改。 有关详细信息，请参阅操作文档中的[Skype For business 中的 "发布待处理的语音路由配置更改"](voice-route-config-changes.md) 。
 
-12. 可选语音邮件 Escape 检测到呼叫已由用户的移动电话语音邮件立即应答, 并断开与移动电话语音邮件的通话。 这允许呼叫继续拨打用户的其他终结点, 让用户有机会接听呼叫。 有关如何配置语音邮件策略的详细信息, 请参阅[在 Skype For business 中配置语音邮件转义](configure-voice-mail-escape.md)。
+12. 可选语音邮件 Escape 检测到呼叫已由用户的移动电话语音邮件立即应答，并断开与移动电话语音邮件的通话。 这允许呼叫继续拨打用户的其他终结点，让用户有机会接听呼叫。 有关如何配置语音邮件策略的详细信息，请参阅[在 Skype For business 中配置语音邮件转义](configure-voice-mail-escape.md)。
 
 ## <a name="see-also"></a>另请参阅
 

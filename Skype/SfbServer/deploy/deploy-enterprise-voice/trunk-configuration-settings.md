@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-description: '摘要: 了解如何使用 Skype for Business Server 控制面板创建新的主干配置设置集合。'
-ms.openlocfilehash: f724526f35a530c19e709e7faa62369e454ea6a4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：了解如何使用 Skype for Business Server 控制面板创建新的主干配置设置集合。
+ms.openlocfilehash: 9e208355f02d97802b2e1de2457e542fc0bb12c3
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240099"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766945"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建新的主干配置设置集合 
 
-**摘要:** 了解如何使用 Skype for Business Server 控制面板创建新的主干配置设置集合。
+**摘要：** 了解如何使用 Skype for Business Server 控制面板创建新的主干配置设置集合。
   
 SIP 中继配置设置可定义中介服务器与服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。这些设置可执行如下所指定内容的操作：
   
@@ -33,9 +35,9 @@ SIP 中继配置设置可定义中介服务器与服务提供商的公用电话�
     
 - 在每个中继上是否需要安全实时传输协议 (SRTP) 加密。
     
-安装 Skype for Business 服务器时, 将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
+安装 Skype for Business 服务器时，将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
   
-使用 Skype for Business Server 控制面板创建 SIP 中继配置设置时, 可以使用以下选项。
+使用 Skype for Business Server 控制面板创建 SIP 中继配置设置时，可以使用以下选项。
   
 |**UI 设置**|**PowerShell 参数**|**说明**|
 |:-----|:-----|:-----|
@@ -59,11 +61,11 @@ SIP 中继配置设置可定义中介服务器与服务提供商的公用电话�
 |被叫号码  <br/> |不适用  <br/> |指示要测试的电话号码是被呼叫的人员的电话号码。  <br/> |
    
 > [!NOTE]
-> Skype for business Server New-cstrunkconfiguration cmdlet 支持 Skype for Business Server 控制面板中未显示的其他属性。 有关详细信息, 请参阅[new-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/new-cstrunkconfiguration?view=skype-ps) cmdlet 的帮助主题。
+> Skype for business Server New-cstrunkconfiguration cmdlet 支持 Skype for Business Server 控制面板中未显示的其他属性。 有关详细信息，请参阅[new-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/new-cstrunkconfiguration?view=skype-ps) cmdlet 的帮助主题。
   
 ### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用 Skype for Business 服务器控制面板创建新的主干配置设置
 
-1. 在 "Skype for Business 服务器控制面板" 中, 单击 "**语音路由**", 然后单击 "**中继配置**"。
+1. 在 "Skype for Business 服务器控制面板" 中，单击 "**语音路由**"，然后单击 "**中继配置**"。
     
 2. 在“Trunk 配置”**** 选项卡上，单击“新建”****，然后单击“站点 Trunk”**** 以创建站点作用域的新设置，或“池 Trunk”**** 创建服务作用域的新设置。
     
@@ -75,6 +77,6 @@ SIP 中继配置设置可定义中介服务器与服务提供商的公用电话�
     
 6. 在“未提交的语音配置设置”**** 对话框中，单击“确定”****。
     
-7. 在 " **Skype For Business 服务器控制面板**" 对话框中, 单击 **"确定"**。
+7. 在 " **Skype For Business 服务器控制面板**" 对话框中，单击 **"确定"**。
     
 

@@ -5,17 +5,19 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 概述如何使用 Skype for Business Online 遥测工具监视混合方案中的本地实现。
-ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328424"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765230"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 
@@ -52,7 +54,7 @@ ms.locfileid: "37328424"
 
 ![SfB 云语音邮件](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
 以下要求假定您已在受支持的拓扑中部署了 Skype for Business 服务器。  有关部署 Skype for Business Server 和受支持的拓扑的详细信息，请参阅[拓扑基础](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics)。 若要配置呼叫数据连接器，必须执行以下操作：
 

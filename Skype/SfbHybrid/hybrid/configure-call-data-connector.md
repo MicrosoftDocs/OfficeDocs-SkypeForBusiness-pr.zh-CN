@@ -5,17 +5,19 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关配置呼叫数据连接器的说明，允许使用 Skype for business Online 工具查看本地 Skype for business 中的遥测。
-ms.openlocfilehash: 4d472ce49a3059df7286c647b013abe321b9fd15
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 0354f5a1fd1b4794af29d23e0a0fc1bf49dfebd2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963040"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726922"
 ---
 # <a name="configure-call-data-connector"></a>配置呼叫数据连接器
 
@@ -34,7 +36,7 @@ ms.locfileid: "40963040"
 
 若要配置和启用呼叫数据连接器，您将使用以下 cmdlet：
 
-| Cmdlet| 描述|
+| Cmdlet| 说明|
 | :-----------------|---------------:|
 | 新 CsCloudCallDataConnection | 建立联机数据收集器的联机 cmdlet。|
 | CsCloudCallDataConnection | 一个用于检索现有联机数据收集器的联机 cmdlet。|  
@@ -138,7 +140,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
  启用呼叫数据连接器后，您可以在 "呼叫分析" 仪表板或 "呼叫质量" 仪表板上查看本地呼叫数据，如[使用呼叫分析来解决质量较差](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)和[打开和使用 Microsoft 团队和 Skype for Business Online 的呼叫质量仪表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)中所述。
 
-## <a name="for-more-information"></a>有关详细信息
+## <a name="for-more-information"></a>更多详细信息
 
 有关 cmdlet 的详细信息，可以使用 Skype for Business Server 命令行管理程序中的 Get-Help 命令。 例如：
 

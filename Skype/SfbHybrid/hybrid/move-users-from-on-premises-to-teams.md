@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：了解如何迁移用户设置并将用户移动到团队。
-ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010615"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726742"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>将用户从本地移动到团队
 
@@ -59,7 +61,7 @@ Skype for business Server 2015 中的本地管理员工具使用 CU8 以及 Skyp
 
 Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell PowerShell PowerShell 窗口中获取。 以下步骤和所需的权限与将用户移动到 Skype for business Online 相同，不同之处在于，您还必须指定 MoveToTeams 开关，并且必须确保用户也已为团队授予许可证（除了 Skype for Business）。Online）。
 
-在本地环境和 Office 365 租户中，您必须具有足够的权限，如[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用在两个环境中具有权限的单个帐户，也可以使用本地凭据启动本地 Skype for Business Server Management Shell 窗口，并使用`-Credential`参数指定 Office 365 的凭据具有必要的 Office 365 管理角色的帐户。
+在本地环境和 Office 365 租户中，您必须具有足够的权限，如[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用在两个环境中具有权限的单个帐户，也可以使用本地凭据启动本地 Skype for Business Server Management Shell 窗口，并使用`-Credential`参数指定具有必要的 office 365 管理角色的 office 365 帐户的凭据。
 
 使用 Get-csuser 将用户移动到仅限工作组模式的步骤：
 
