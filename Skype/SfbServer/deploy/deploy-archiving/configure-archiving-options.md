@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
-description: '摘要: 阅读本主题, 了解如何配置 Skype for business Server 的初始存档选项。 你在部署存档时开始设置存档配置, 但你可以在部署后更改、添加和删除配置。'
-ms.openlocfilehash: 76611d5b475c66bc6546bfe1c340f729f281a4fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：阅读本主题，了解如何配置 Skype for business Server 的初始存档选项。 你在部署存档时开始设置存档配置，但你可以在部署后更改、添加和删除配置。
+ms.openlocfilehash: f663b310d4c82594976f2f0fc99b8ddd9baf035f
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234557"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769195"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>配置 Skype for Business 服务器的存档选项
  
-**摘要:** 阅读本主题, 了解如何配置 Skype for Business Server 的初始存档选项。 你在部署存档时开始设置存档配置, 但你可以在部署后更改、添加和删除配置。
+**摘要：** 阅读本主题，了解如何配置 Skype for Business Server 的初始存档选项。 你在部署存档时开始设置存档配置，但你可以在部署后更改、添加和删除配置。
   
-若要配置初始存档配置, 请使用 Skype for Business 服务器控制面板指定以下内容:
+若要配置初始存档配置，请使用 Skype for Business 服务器控制面板指定以下内容：
   
 - 部署 Skype for Business 服务器时默认创建的全局级别配置
     
@@ -46,17 +48,17 @@ ms.locfileid: "36234557"
 > [!NOTE]
 > 在启用存档之前，应指定所有适当选项。 
   
-有关如何实现存档配置的详细信息, 包括可以指定哪些选项和存档配置的层次结构, 请参阅[在 Skype For Business 服务器中规划存档](../../plan-your-deployment/archiving/archiving.md)。 有关如何使用控制面板或使用 Windows PowerShell 在部署后管理配置的详细信息, 请参阅[管理 Skype For Business 服务器中的存档选项](../../manage/archiving/options.md)。
+有关如何实现存档配置的详细信息，包括可以指定哪些选项和存档配置的层次结构，请参阅[在 Skype For Business 服务器中规划存档](../../plan-your-deployment/archiving/archiving.md)。 有关如何使用控制面板或使用 Windows PowerShell 在部署后管理配置的详细信息，请参阅[管理 Skype For Business 服务器中的存档选项](../../manage/archiving/options.md)。
   
 ## <a name="configure-global-level-archiving-options"></a>配置全局级别存档选项
 
-将存档添加到拓扑并发布拓扑时, Skype for Business 服务器将为存档创建全局配置。 默认情况下，不会在全局配置中启用任何存档选项。 除非您自己设置站点或池配置（这将重写全局配置），否则全局配置将控制要为整个部署启用的选项。
+将存档添加到拓扑并发布拓扑时，Skype for Business 服务器将为存档创建全局配置。 默认情况下，不会在全局配置中启用任何存档选项。 除非您自己设置站点或池配置（这将重写全局配置），否则全局配置将控制要为整个部署启用的选项。
   
 在全局级别配置存档选项：
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
@@ -70,11 +72,11 @@ ms.locfileid: "36234557"
     
    - **存档 IM 和 Web 会议会话**
     
-6. 此外, 在 "**编辑存档设置-全局**" 页面上, 执行下列操作:
+6. 此外，在 "**编辑存档设置-全局**" 页面上，执行下列操作：
     
    - 要在存档不可用时阻止活动，请选中“**存档失败时阻止即时消息 (IM) 或 Web 会议会话**”复选框。
     
-   - 若要使用 Microsoft Exchange Server 存储存档数据, 请单击 " **Microsoft exchange 集成**" 复选框。
+   - 若要使用 Microsoft Exchange Server 存储存档数据，请单击 " **Microsoft exchange 集成**" 复选框。
     
    - 若要启用数据清除，请选中“**启用存档数据清除**”复选框，然后执行下列操作之一：
     
@@ -90,7 +92,7 @@ ms.locfileid: "36234557"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
@@ -110,7 +112,7 @@ ms.locfileid: "36234557"
     
    - 要在存档不可用时阻止活动，请选中“**存档失败时阻止即时消息 (IM) 或 Web 会议会话**”复选框。
     
-   - 若要使用 Microsoft Exchange Server 存储存档数据, 请单击 " **Microsoft exchange 集成**" 复选框。
+   - 若要使用 Microsoft Exchange Server 存储存档数据，请单击 " **Microsoft exchange 集成**" 复选框。
     
    - 若要启用数据清除，请选中“**启用存档数据清除**”复选框，然后执行下列操作之一：
     
@@ -126,7 +128,7 @@ ms.locfileid: "36234557"
   
 1. 使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
-2. 打开一个浏览器窗口, 然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。 
     
 3. 在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
     
@@ -146,7 +148,7 @@ ms.locfileid: "36234557"
     
    - 要在存档不可用时阻止活动，请选中“**存档失败时阻止即时消息 (IM) 或 Web 会议会话**”复选框。
     
-   - 若要使用 Microsoft Exchange Server 存储存档数据, 请单击 " **Microsoft exchange 集成**" 复选框。
+   - 若要使用 Microsoft Exchange Server 存储存档数据，请单击 " **Microsoft exchange 集成**" 复选框。
     
    - 若要启用数据清除，请选中“**启用存档数据清除**”复选框，然后执行下列操作之一：
     

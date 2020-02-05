@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: 阅读本主题，了解如何在具有多个版本的 Skype for Business Server 和 Lync Server 的环境中部署 Skype 会议室系统。
-ms.openlocfilehash: 6524a7312644ec306185b952caf17818d29344af
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: a4856977931d459fba3b11a65b21e49a25cc418b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774670"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768835"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype 会议室系统迁移注意事项
  

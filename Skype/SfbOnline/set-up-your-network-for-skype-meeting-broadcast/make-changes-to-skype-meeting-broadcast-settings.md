@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.BroadcastMeetings
+- CSH
 ms.custom:
 - SMB
+- ms.lync.lac.BroadcastMeetings
 description: 您可以启用 Skype 会议直播，并对这些会议的设置和策略进行更改。
-ms.openlocfilehash: 5f3004d44522385e818b130acc74479bb4218bc7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c1831afd3a8c15f4635f5c09359fc7393b1fdae5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692607"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769475"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>对您的组织的 Skype 会议直播设置进行更改
 

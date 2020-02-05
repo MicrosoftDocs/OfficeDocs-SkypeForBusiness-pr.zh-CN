@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 阅读本主题，了解适用于 Skype 会议室系统的管理工具。
-ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: 74c484b321312fc77c7a1e892f41bdeac8af49ff
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547255"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768855"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype 会议室系统可管理性和工具
  

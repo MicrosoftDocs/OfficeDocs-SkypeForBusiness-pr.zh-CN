@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 了解如何配置一个会话边界控制器（SBC）来为多个租户提供服务。
-ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c58a6f264910e0d916d5d338598b58e132f2c413
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572131"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769825"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -57,7 +57,7 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone
 
 - **AudioCodes：** [直接路由配置说明](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)，在 "将 AudioCodes SBC 连接到 Microsoft 团队直接路由托管模型配置说明" 中所述的 SBC 托管方案的配置。 
 - **Oracle：** [直接路由配置说明](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，在 "Microsoft" 部分中介绍了 SBC 托管方案的配置。 
-- **功能区通信：** 请参阅[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)，了解有关如何配置功能区内核系列 SBCs 和此页面[功能区的文档最佳做法-配置 Microsoft 团队直接路由 SBC 的运营商边缘](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **功能区通信：** 请参阅[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)有关如何配置功能区核心序列的文档，以及如何在此页面[功能区中配置运营商最佳做法-为 Microsoft 团队直接路由 SBC Edge 配置运营商](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE-系统（anynode）：** 请在[TE 系统社区页面](https://community.te-systems.de/)上注册，了解有关如何为多个租户配置 anynode SBC 的文档和示例。
 
 > [!NOTE]
@@ -83,7 +83,7 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone
 
 ![显示域和联系人标题要求的图表](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，运营商需要使用* \*base_domain （例如\*customers.adatum.biz）* 申请一个证书。 此证书可用于对从单个 SBC 提供服务的多个租户的连接进行身份验证。
+SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，运营商需要使用* \*base_domain （例如\*customers.adatum.biz）* 申请证书。 此证书可用于对从单个 SBC 提供服务的多个租户的连接进行身份验证。
 
 
 下表是一个配置示例。
@@ -217,7 +217,7 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 根据此反馈，Microsoft 将引入新的逻辑来为客户租户设置中继。
 
 引入了两个新实体：
--   使用命令 New-CSOnlinePSTNGateway 在运营商租户中注册的运营商中继，例如，CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true。
+-   使用命令 New-CSOnlinePSTNGateway 在运营商租户中注册的运营商中继，例如，CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true。
 
 -   派生的主干，不需要注册。 它只是从运营商主干中添加的所需主机名。 它从载波主干派生其所有配置参数。 派生的主干不需要在 PowerShell 中创建，并且与运营商主干的关联基于 FQDN 名称（请参阅下面的详细信息）。
 

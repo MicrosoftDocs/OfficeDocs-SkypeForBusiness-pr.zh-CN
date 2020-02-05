@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderFinish
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderFinish
 description: 查看将电话号码移植到 Skype for Business 后需要执行的下一步操作。
-ms.openlocfilehash: effddc74a74f72b4f167b793a09b8ee903fc0d2a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b96a0f62dc6c31de744786a47a7a7ef6d26c0937
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692287"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769225"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>通过电话号码移植后需要执行哪些操作？
 

@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.OrgPresencePrivacy
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.OrgPresencePrivacy
 description: '了解如何为你的用户设置隐私模式，以便他们能够更好地控制用户查看其可用性的方式。 '
-ms.openlocfilehash: e55d1533c8889801eaaf9fc4ba09716b12334b04
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6ad7485d24854bfdb9aef9244164bf5180e8c7d2
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692927"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769715"
 ---
 # <a name="configure-presence-privacy-mode"></a>配置状态隐私模式
 

@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.CivicAddressGBSyntaxError
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.CivicAddressGBSyntaxError
 description: 下面是当您的地址或地址无法在英国（英国）正确验证时遇到问题的一些原因。
-ms.openlocfilehash: 0d854f41c13f2f34a0582b70d85ca841b4ccc53a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac8a5382d508d683f0467dd77742f19999628976
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705857"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769155"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>为什么我在输入英国时遇到问题 地址信息？
 

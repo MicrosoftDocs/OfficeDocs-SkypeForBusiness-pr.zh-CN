@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 摘要：阅读本主题，了解如何配置 Skype for Business 服务器的存档免责声明。
-ms.openlocfilehash: d6c08b6fe2eaa6c74231b96346661488c3f8e2b0
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a9ffece1cefbf58b5731ce37f209733454ed1eee
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001052"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769035"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>为 Skype for Business Server 中的外部用户配置存档免责声明
  

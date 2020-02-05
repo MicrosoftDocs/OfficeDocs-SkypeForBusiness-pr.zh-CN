@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStatePending
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStatePending
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: 7e4d9faa9a58469c2be751a0cb724650f544d077
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12cd21d0be899b69abeeb787759fea702a98791c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705827"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769135"
 ---
 # <a name="why-is-number-activation-just-pending"></a>为什么数字激活仅待处理？
 

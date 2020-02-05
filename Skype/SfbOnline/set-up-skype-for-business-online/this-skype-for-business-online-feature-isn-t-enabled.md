@@ -16,16 +16,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.FeatureNotEnabled
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.FeatureNotEnabled
 description: '获取未启用 Skype for Business Online 功能时的可能原因和操作建议。 '
-ms.openlocfilehash: 50f34093e72765b4b3c9dc9080639e3046c4f34c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7084af14acf32beb102ff7767d3825b1e41a3e20
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692797"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769555"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>未启用此 Skype for Business Online 功能
 

@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStateUpdating
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStateUpdating
 description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: 624c222123a1ec346b0624e5f39bf972a4257d99
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0de8fb57f8c5471087c5b1c157f8314d3a80adf5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705817"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769055"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>为什么将数字激活列为更新？
 
