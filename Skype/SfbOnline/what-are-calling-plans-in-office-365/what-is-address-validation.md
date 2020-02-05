@@ -15,35 +15,36 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.CivicAddressValidation
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.CivicAddressValidation
 description: '了解地址验证是什么、它很重要的原因以及它与紧急地址和服务的关联关系。 '
-ms.openlocfilehash: ad555792bf6951e8de5fb746546aec40e05b0eba
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 695698f8d1b6a466829174802f2ece0b92398f7e
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705867"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769245"
 ---
-# <a name="what-is-address-validation"></a><span data-ttu-id="e3bf9-103">什么是地址验证？</span><span class="sxs-lookup"><span data-stu-id="e3bf9-103">What is address validation?</span></span>
+# <a name="what-is-address-validation"></a><span data-ttu-id="1c1d7-103">什么是地址验证？</span><span class="sxs-lookup"><span data-stu-id="1c1d7-103">What is address validation?</span></span>
 
-<span data-ttu-id="e3bf9-104">在 Office 365 中设置通话套餐时，需要为每个用户分配一个电话号码和紧急地址。</span><span class="sxs-lookup"><span data-stu-id="e3bf9-104">When you set up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span>
+<span data-ttu-id="1c1d7-104">在 Office 365 中设置通话套餐时，需要为每个用户分配一个电话号码和紧急地址。</span><span class="sxs-lookup"><span data-stu-id="1c1d7-104">When you set up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span>
   
-<span data-ttu-id="e3bf9-105">验证街道或市镇地址是为了确保地址本身正确以及它的格式正确。</span><span class="sxs-lookup"><span data-stu-id="e3bf9-105">Validating a street or civic address involves making sure that it is correct and also correctly formatted.</span></span> <span data-ttu-id="e3bf9-106">部分正确的紧急地址（如城市名称错误）可能仍通过验证。</span><span class="sxs-lookup"><span data-stu-id="e3bf9-106">It is possible that a partially correct emergency address, such as a mistyped name of the city, may still pass validation.</span></span> <span data-ttu-id="e3bf9-107">验证过程使用给定地址的所有部分来确定其是否包含足够的信息以将呼叫路由至正确的紧急服务中心。</span><span class="sxs-lookup"><span data-stu-id="e3bf9-107">The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency services center.</span></span> <span data-ttu-id="e3bf9-108">如果是，则为其返回已验证，之后该地址可以分配给某个电话号码。</span><span class="sxs-lookup"><span data-stu-id="e3bf9-108">If so, it will be returned as validated and can then be assigned to a phone number.</span></span>
+<span data-ttu-id="1c1d7-105">验证街道或市镇地址是为了确保地址本身正确以及它的格式正确。</span><span class="sxs-lookup"><span data-stu-id="1c1d7-105">Validating a street or civic address involves making sure that it is correct and also correctly formatted.</span></span> <span data-ttu-id="1c1d7-106">部分正确的紧急地址（如城市名称错误）可能仍通过验证。</span><span class="sxs-lookup"><span data-stu-id="1c1d7-106">It is possible that a partially correct emergency address, such as a mistyped name of the city, may still pass validation.</span></span> <span data-ttu-id="1c1d7-107">验证过程使用给定地址的所有部分来确定其是否包含足够的信息以将呼叫路由至正确的紧急服务中心。</span><span class="sxs-lookup"><span data-stu-id="1c1d7-107">The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency services center.</span></span> <span data-ttu-id="1c1d7-108">如果是，则为其返回已验证，之后该地址可以分配给某个电话号码。</span><span class="sxs-lookup"><span data-stu-id="1c1d7-108">If so, it will be returned as validated and can then be assigned to a phone number.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e3bf9-109">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="e3bf9-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="1c1d7-109">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="1c1d7-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="e3bf9-110">相关主题</span><span class="sxs-lookup"><span data-stu-id="e3bf9-110">Related topics</span></span>
-[<span data-ttu-id="e3bf9-111">什么是紧急位置、地址和呼叫路由？</span><span class="sxs-lookup"><span data-stu-id="e3bf9-111">What are emergency locations, addresses, and call routing?</span></span>](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+## <a name="related-topics"></a><span data-ttu-id="1c1d7-110">相关主题</span><span class="sxs-lookup"><span data-stu-id="1c1d7-110">Related topics</span></span>
+[<span data-ttu-id="1c1d7-111">什么是紧急位置、地址和呼叫路由？</span><span class="sxs-lookup"><span data-stu-id="1c1d7-111">What are emergency locations, addresses, and call routing?</span></span>](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[<span data-ttu-id="e3bf9-112">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="e3bf9-112">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="1c1d7-112">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="1c1d7-112">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="e3bf9-113">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="e3bf9-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="1c1d7-113">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="1c1d7-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="e3bf9-114">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="e3bf9-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="1c1d7-114">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="1c1d7-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  

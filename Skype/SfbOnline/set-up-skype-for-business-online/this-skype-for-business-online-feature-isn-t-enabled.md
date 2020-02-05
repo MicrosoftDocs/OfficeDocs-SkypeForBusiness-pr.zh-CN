@@ -16,31 +16,32 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.FeatureNotEnabled
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.FeatureNotEnabled
 description: '获取未启用 Skype for Business Online 功能时的可能原因和操作建议。 '
-ms.openlocfilehash: 50f34093e72765b4b3c9dc9080639e3046c4f34c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7084af14acf32beb102ff7767d3825b1e41a3e20
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692797"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769555"
 ---
-# <a name="this-skype-for-business-online-feature-isnt-enabled"></a><span data-ttu-id="d7b3f-103">未启用此 Skype for Business Online 功能</span><span class="sxs-lookup"><span data-stu-id="d7b3f-103">This Skype for Business Online feature isn't enabled</span></span>
+# <a name="this-skype-for-business-online-feature-isnt-enabled"></a><span data-ttu-id="82789-103">未启用此 Skype for Business Online 功能</span><span class="sxs-lookup"><span data-stu-id="82789-103">This Skype for Business Online feature isn't enabled</span></span>
 
-<span data-ttu-id="d7b3f-104">抱歉，该用户似乎未获得此功能的许可。</span><span class="sxs-lookup"><span data-stu-id="d7b3f-104">Sorry, it looks like the user isn't licensed for this feature.</span></span>
+<span data-ttu-id="82789-104">抱歉，该用户似乎未获得此功能的许可。</span><span class="sxs-lookup"><span data-stu-id="82789-104">Sorry, it looks like the user isn't licensed for this feature.</span></span>
   
-|<span data-ttu-id="d7b3f-105">**可能的原因**</span><span class="sxs-lookup"><span data-stu-id="d7b3f-105">**Possible cause**</span></span>|<span data-ttu-id="d7b3f-106">**建议的操作**</span><span class="sxs-lookup"><span data-stu-id="d7b3f-106">**Suggested action**</span></span>|
+|<span data-ttu-id="82789-105">**可能的原因**</span><span class="sxs-lookup"><span data-stu-id="82789-105">**Possible cause**</span></span>|<span data-ttu-id="82789-106">**建议的操作**</span><span class="sxs-lookup"><span data-stu-id="82789-106">**Suggested action**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="d7b3f-107">您有可用的许可证，但尚未启用此用户的功能。</span><span class="sxs-lookup"><span data-stu-id="d7b3f-107">You have licenses available, but you haven't turned on the feature for this user.</span></span>  <br/> |<span data-ttu-id="d7b3f-108">转到**Microsoft 365 管理中心** > **活动用户**以授权此用户。</span><span class="sxs-lookup"><span data-stu-id="d7b3f-108">Go to the **Microsoft 365 admin center** > **Active users** to license this user.</span></span> <br/> |
-|<span data-ttu-id="d7b3f-109">用户所在的位置无法使用此功能。</span><span class="sxs-lookup"><span data-stu-id="d7b3f-109">The user is in a location where this feature isn't available.</span></span>  <br/> |<span data-ttu-id="d7b3f-110">如果可能，请转到**Microsoft 365 管理中心** > **活动用户**并将此用户分配到该功能可用的位置。</span><span class="sxs-lookup"><span data-stu-id="d7b3f-110">If possible, go to **Microsoft 365 admin center** > **Active users** and assign this user to a location where the feature is available.</span></span> <br/> |
-|<span data-ttu-id="d7b3f-111">尚未为你的组织启用该功能。</span><span class="sxs-lookup"><span data-stu-id="d7b3f-111">The feature hasn't been turned on for your organization.</span></span>  <br/> |<span data-ttu-id="d7b3f-112">转到**Microsoft 365 管理中心** > **Skype for** business，并为您的整个组织启用该功能。</span><span class="sxs-lookup"><span data-stu-id="d7b3f-112">Go to **Microsoft 365 admin center** > **Skype for Business** and turn on the feature for your entire organization.</span></span> <br/> |
+|<span data-ttu-id="82789-107">您有可用的许可证，但尚未启用此用户的功能。</span><span class="sxs-lookup"><span data-stu-id="82789-107">You have licenses available, but you haven't turned on the feature for this user.</span></span>  <br/> |<span data-ttu-id="82789-108">转到**Microsoft 365 管理中心** > **活动用户**以授权此用户。</span><span class="sxs-lookup"><span data-stu-id="82789-108">Go to the **Microsoft 365 admin center** > **Active users** to license this user.</span></span> <br/> |
+|<span data-ttu-id="82789-109">用户所在的位置无法使用此功能。</span><span class="sxs-lookup"><span data-stu-id="82789-109">The user is in a location where this feature isn't available.</span></span>  <br/> |<span data-ttu-id="82789-110">如果可能，请转到**Microsoft 365 管理中心** > **活动用户**并将此用户分配到该功能可用的位置。</span><span class="sxs-lookup"><span data-stu-id="82789-110">If possible, go to **Microsoft 365 admin center** > **Active users** and assign this user to a location where the feature is available.</span></span> <br/> |
+|<span data-ttu-id="82789-111">尚未为你的组织启用该功能。</span><span class="sxs-lookup"><span data-stu-id="82789-111">The feature hasn't been turned on for your organization.</span></span>  <br/> |<span data-ttu-id="82789-112">转到**Microsoft 365 管理中心** > **Skype for** business，并为您的整个组织启用该功能。</span><span class="sxs-lookup"><span data-stu-id="82789-112">Go to **Microsoft 365 admin center** > **Skype for Business** and turn on the feature for your entire organization.</span></span> <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="d7b3f-113">相关主题</span><span class="sxs-lookup"><span data-stu-id="d7b3f-113">Related topics</span></span>
-[<span data-ttu-id="d7b3f-114">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d7b3f-114">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="82789-113">相关主题</span><span class="sxs-lookup"><span data-stu-id="82789-113">Related topics</span></span>
+[<span data-ttu-id="82789-114">设置 Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="82789-114">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="d7b3f-115">允许 Skype for Business 用户添加 Skype 联系人</span><span class="sxs-lookup"><span data-stu-id="d7b3f-115">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="82789-115">允许 Skype for Business 用户添加 Skype 联系人</span><span class="sxs-lookup"><span data-stu-id="82789-115">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

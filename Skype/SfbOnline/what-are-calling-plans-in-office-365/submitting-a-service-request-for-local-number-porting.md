@@ -17,34 +17,35 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderQuickViewPanelO365Support
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
-ms.openlocfilehash: d7a19608700a0ecd85880ad880031aa2e21409ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a8260308d5072478dba4ff054bb54e841bacfdda
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705877"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769305"
 ---
-# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="6ace4-103">提交本地号码移植的服务请求</span><span class="sxs-lookup"><span data-stu-id="6ace4-103">Submitting a service request for local number porting</span></span>
+# <a name="submitting-a-service-request-for-local-number-porting"></a><span data-ttu-id="55f0a-103">提交本地号码移植的服务请求</span><span class="sxs-lookup"><span data-stu-id="55f0a-103">Submitting a service request for local number porting</span></span>
 
-<span data-ttu-id="6ace4-104">如果您需要将超过999的电话号码（对于用户或服务号码，包括收费电话或免费电话）转移到 Skype for business Online，请参阅[管理您的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。</span><span class="sxs-lookup"><span data-stu-id="6ace4-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
+<span data-ttu-id="55f0a-104">如果您需要将超过999的电话号码（对于用户或服务号码，包括收费电话或免费电话）转移到 Skype for business Online，请参阅[管理您的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。</span><span class="sxs-lookup"><span data-stu-id="55f0a-104">If you need to transfer more than 999 phone numbers (for users, or service numbers including toll or toll-free) to Skype for Business Online, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6ace4-105">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="6ace4-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="55f0a-105">如果需要获取更多电话号码，请[联系商业版产品支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="55f0a-105">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="6ace4-106">相关主题</span><span class="sxs-lookup"><span data-stu-id="6ace4-106">Related topics</span></span>
-[<span data-ttu-id="6ace4-107">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="6ace4-107">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="55f0a-106">相关主题</span><span class="sxs-lookup"><span data-stu-id="55f0a-106">Related topics</span></span>
+[<span data-ttu-id="55f0a-107">关于转移电话号码的常见问题</span><span class="sxs-lookup"><span data-stu-id="55f0a-107">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="6ace4-108">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="6ace4-108">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="55f0a-108">用于通话套餐的不同类型的电话号码</span><span class="sxs-lookup"><span data-stu-id="55f0a-108">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="6ace4-109">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="6ace4-109">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="55f0a-109">管理你的组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="55f0a-109">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="6ace4-110">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="6ace4-110">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="55f0a-110">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="55f0a-110">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="6ace4-111">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="6ace4-111">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="55f0a-111">[Skype for Business Online：紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="55f0a-111">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
   
   
  
