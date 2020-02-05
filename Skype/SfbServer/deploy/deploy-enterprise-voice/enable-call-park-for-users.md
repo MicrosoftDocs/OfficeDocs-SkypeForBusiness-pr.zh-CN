@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,58 +16,58 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 在 Skype for business Server Enterprise Voice 中启用呼叫寄存的用户。
-ms.openlocfilehash: c3ad2bcf70c7b175ba372ba2834e56209de9f664
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 6642af2a7af698a1127ff2a9bb4e45df73d18c50
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002552"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767275"
 ---
-# <a name="enable-call-park-for-users-in-skype-for-business"></a><span data-ttu-id="12ef5-103">为 Skype for Business 中的用户启用呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="12ef5-103">Enable Call Park for users in Skype for Business</span></span>
+# <a name="enable-call-park-for-users-in-skype-for-business"></a><span data-ttu-id="76662-103">为 Skype for Business 中的用户启用呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="76662-103">Enable Call Park for users in Skype for Business</span></span>
  
-<span data-ttu-id="12ef5-104">在 Skype for business Server Enterprise Voice 中启用呼叫寄存的用户。</span><span class="sxs-lookup"><span data-stu-id="12ef5-104">Enable users for Call Park in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="76662-104">在 Skype for business Server Enterprise Voice 中启用呼叫寄存的用户。</span><span class="sxs-lookup"><span data-stu-id="76662-104">Enable users for Call Park in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="12ef5-105">默认情况下，将对所有用户禁用 "呼叫寄存"。</span><span class="sxs-lookup"><span data-stu-id="12ef5-105">By default, Call Park is disabled for all users.</span></span> <span data-ttu-id="12ef5-106">用户不能寄存通话或检索寄存的呼叫，直到它们在语音策略中被启用呼叫寄存。</span><span class="sxs-lookup"><span data-stu-id="12ef5-106">Users cannot park calls or retrieve parked calls until they are enabled for Call Park in voice policy.</span></span>
+<span data-ttu-id="76662-105">默认情况下，将对所有用户禁用 "呼叫寄存"。</span><span class="sxs-lookup"><span data-stu-id="76662-105">By default, Call Park is disabled for all users.</span></span> <span data-ttu-id="76662-106">用户不能寄存通话或检索寄存的呼叫，直到它们在语音策略中被启用呼叫寄存。</span><span class="sxs-lookup"><span data-stu-id="76662-106">Users cannot park calls or retrieve parked calls until they are enabled for Call Park in voice policy.</span></span>
   
-<span data-ttu-id="12ef5-107">你可以在全局范围内或在网站范围或用户范围内启用呼叫寄存。</span><span class="sxs-lookup"><span data-stu-id="12ef5-107">You can enable Call Park at the global scope, or at the site scope or user scope.</span></span> <span data-ttu-id="12ef5-108">用户作用域优先于站点作用域，而站点作用域又优先于全局作用域。</span><span class="sxs-lookup"><span data-stu-id="12ef5-108">User scope takes precedence over site scope, and site scope takes precedence over global scope.</span></span> <span data-ttu-id="12ef5-109">如果你有多个语音策略，请查看所有策略以启用呼叫寄存，而不仅仅是全局策略。</span><span class="sxs-lookup"><span data-stu-id="12ef5-109">If you have multiple voice policies, review all the policies to enable Call Park, not just the global policy.</span></span>
+<span data-ttu-id="76662-107">你可以在全局范围内或在网站范围或用户范围内启用呼叫寄存。</span><span class="sxs-lookup"><span data-stu-id="76662-107">You can enable Call Park at the global scope, or at the site scope or user scope.</span></span> <span data-ttu-id="76662-108">用户作用域优先于站点作用域，而站点作用域又优先于全局作用域。</span><span class="sxs-lookup"><span data-stu-id="76662-108">User scope takes precedence over site scope, and site scope takes precedence over global scope.</span></span> <span data-ttu-id="76662-109">如果你有多个语音策略，请查看所有策略以启用呼叫寄存，而不仅仅是全局策略。</span><span class="sxs-lookup"><span data-stu-id="76662-109">If you have multiple voice policies, review all the policies to enable Call Park, not just the global policy.</span></span>
   
-### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a><span data-ttu-id="12ef5-110">使用 Skype for Business 服务器 "控制面板" 为用户启用呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="12ef5-110">To Use Skype for Business Server Control Panel to Enable Call Park for Users</span></span>
+### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a><span data-ttu-id="76662-110">使用 Skype for Business 服务器 "控制面板" 为用户启用呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="76662-110">To Use Skype for Business Server Control Panel to Enable Call Park for Users</span></span>
 
-1. <span data-ttu-id="12ef5-111">以 **RTCUniversalServerAdmins** 组成员或者 **CsVoiceAdministrator**、**CsServerAdministrator** 或 **CsAdministrator** 管理角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="12ef5-111">Log on to the computer as a member of the **RTCUniversalServerAdmins** group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
+1. <span data-ttu-id="76662-111">以 **RTCUniversalServerAdmins** 组成员或者 **CsVoiceAdministrator**、**CsServerAdministrator** 或 **CsAdministrator** 管理角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="76662-111">Log on to the computer as a member of the **RTCUniversalServerAdmins** group, or as a member of the **CsVoiceAdministrator**, **CsServerAdministrator**, or **CsAdministrator** administrative role.</span></span>
     
-2. <span data-ttu-id="12ef5-112">打开 "Skype for Business 服务器" 控制面板。</span><span class="sxs-lookup"><span data-stu-id="12ef5-112">Open Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="76662-112">打开 "Skype for Business 服务器" 控制面板。</span><span class="sxs-lookup"><span data-stu-id="76662-112">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="12ef5-113">在左侧导航栏中，单击“语音路由”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="12ef5-113">In the left navigation bar, click **Voice Routing**.</span></span>
+3. <span data-ttu-id="76662-113">在左侧导航栏中，单击“语音路由”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="76662-113">In the left navigation bar, click **Voice Routing**.</span></span>
     
-4. <span data-ttu-id="12ef5-114">单击“语音策略”\*\*\*\* 选项卡。</span><span class="sxs-lookup"><span data-stu-id="12ef5-114">Click the **Voice Policy** tab.</span></span>
+4. <span data-ttu-id="76662-114">单击“语音策略”\*\*\*\* 选项卡。</span><span class="sxs-lookup"><span data-stu-id="76662-114">Click the **Voice Policy** tab.</span></span>
     
-5. <span data-ttu-id="12ef5-115">双击现有语音策略以打开“编辑语音策略”\*\*\*\* 对话框。</span><span class="sxs-lookup"><span data-stu-id="12ef5-115">Double-click an existing voice policy to open the **Edit Voice Policy** dialog box.</span></span>
+5. <span data-ttu-id="76662-115">双击现有语音策略以打开“编辑语音策略”\*\*\*\* 对话框。</span><span class="sxs-lookup"><span data-stu-id="76662-115">Double-click an existing voice policy to open the **Edit Voice Policy** dialog box.</span></span>
     
-6. <span data-ttu-id="12ef5-116">在“呼叫功能”\*\*\*\* 下，选择“启用呼叫寄存”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="12ef5-116">Under **Calling features**, select **Enable call park**.</span></span>
+6. <span data-ttu-id="76662-116">在“呼叫功能”\*\*\*\* 下，选择“启用呼叫寄存”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="76662-116">Under **Calling features**, select **Enable call park**.</span></span>
     
-7. <span data-ttu-id="12ef5-117">单击“确定”\*\*\*\* 保存语音策略。</span><span class="sxs-lookup"><span data-stu-id="12ef5-117">Click **OK** to save the voice policy</span></span>
+7. <span data-ttu-id="76662-117">单击“确定”\*\*\*\* 保存语音策略。</span><span class="sxs-lookup"><span data-stu-id="76662-117">Click **OK** to save the voice policy</span></span>
     
-### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a><span data-ttu-id="12ef5-118">使用 Cmdlet 为用户启用呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="12ef5-118">To Use Cmdlets to Enable Call Park for Users</span></span>
+### <a name="to-use-cmdlets-to-enable-call-park-for-users"></a><span data-ttu-id="76662-118">使用 Cmdlet 为用户启用呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="76662-118">To Use Cmdlets to Enable Call Park for Users</span></span>
 
-1. <span data-ttu-id="12ef5-119">以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 管理角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="12ef5-119">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator administrative role.</span></span>
+1. <span data-ttu-id="76662-119">以 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 管理角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="76662-119">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator administrative role.</span></span>
     
-2. <span data-ttu-id="12ef5-120">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="12ef5-120">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="76662-120">启动 Skype for Business Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\* 和“Skype for Business 2015”\*\*\*\*，然后单击“Skype for Business Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="76662-120">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="12ef5-121">运行：</span><span class="sxs-lookup"><span data-stu-id="12ef5-121">Run:</span></span>
+3. <span data-ttu-id="76662-121">运行：</span><span class="sxs-lookup"><span data-stu-id="76662-121">Run:</span></span>
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
-    <span data-ttu-id="12ef5-122">例如，若要为默认全局语音策略启用呼叫寄存，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="12ef5-122">For example, to enable Call Park for the default global voice policy:</span></span>
+    <span data-ttu-id="76662-122">例如，若要为默认全局语音策略启用呼叫寄存，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="76662-122">For example, to enable Call Park for the default global voice policy:</span></span>
     
    ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 
-## <a name="see-also"></a><span data-ttu-id="12ef5-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="12ef5-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="76662-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="76662-123">See also</span></span>
 
 
 
-[<span data-ttu-id="12ef5-124">在 Skype for Business 中创建或修改语音策略和配置 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="12ef5-124">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](voice-policy-and-pstn-usage-records.md)
+[<span data-ttu-id="76662-124">在 Skype for Business 中创建或修改语音策略和配置 PSTN 使用记录</span><span class="sxs-lookup"><span data-stu-id="76662-124">Create or modify a voice policy and configure PSTN usage records in Skype for Business</span></span>](voice-policy-and-pstn-usage-records.md)
 
