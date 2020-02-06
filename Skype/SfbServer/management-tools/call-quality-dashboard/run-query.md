@@ -7,37 +7,39 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 摘要：了解 "运行查询" 操作，该操作是 "调用质量" 仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: 8d31ea4c597ea3353fdd5da3e863938aababe819
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4e520921496a1650af12b342fd5a0244fe9eb7a5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991397"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816681"
 ---
-# <a name="run-query"></a><span data-ttu-id="0f496-104">运行查询</span><span class="sxs-lookup"><span data-stu-id="0f496-104">Run Query</span></span>
+# <a name="run-query"></a><span data-ttu-id="b2d36-104">运行查询</span><span class="sxs-lookup"><span data-stu-id="b2d36-104">Run Query</span></span>
 
-<span data-ttu-id="0f496-105">**摘要：** 了解 "运行查询" 操作，该操作是 "调用质量" 仪表板的数据 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="0f496-105">**Summary:** Learn about the Run Query operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="0f496-106">通话质量仪表板是 Skype for business 服务器的工具。</span><span class="sxs-lookup"><span data-stu-id="0f496-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="b2d36-105">**摘要：** 了解 "运行查询" 操作，该操作是 "调用质量" 仪表板的数据 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="b2d36-105">**Summary:** Learn about the Run Query operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="b2d36-106">通话质量仪表板是 Skype for business 服务器的工具。</span><span class="sxs-lookup"><span data-stu-id="b2d36-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
 
-<span data-ttu-id="0f496-107">"运行查询" 操作是 "调用质量" 仪表板的数据 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="0f496-107">The Run Query operation is part of the Data API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="b2d36-107">"运行查询" 操作是 "调用质量" 仪表板的数据 API 的一部分。</span><span class="sxs-lookup"><span data-stu-id="b2d36-107">The Run Query operation is part of the Data API for Call Quality Dashboard.</span></span>
 
-## <a name="run-query"></a><span data-ttu-id="0f496-108">运行查询</span><span class="sxs-lookup"><span data-stu-id="0f496-108">Run Query</span></span>
+## <a name="run-query"></a><span data-ttu-id="b2d36-108">运行查询</span><span class="sxs-lookup"><span data-stu-id="b2d36-108">Run Query</span></span>
 
-<span data-ttu-id="0f496-109">"运行查询" 操作提供基于指定的维度、度量和筛选器对多维数据集运行查询并返回数据的功能。</span><span class="sxs-lookup"><span data-stu-id="0f496-109">Run Query operation provides the ability to run a query on the cube based on specified dimensions, measurements, and filters and return back the data.</span></span>
+<span data-ttu-id="b2d36-109">"运行查询" 操作提供基于指定的维度、度量和筛选器对多维数据集运行查询并返回数据的功能。</span><span class="sxs-lookup"><span data-stu-id="b2d36-109">Run Query operation provides the ability to run a query on the cube based on specified dimensions, measurements, and filters and return back the data.</span></span>
 
 
-|<span data-ttu-id="0f496-110">**种**</span><span class="sxs-lookup"><span data-stu-id="0f496-110">**Method**</span></span>|<span data-ttu-id="0f496-111">**请求 URI**</span><span class="sxs-lookup"><span data-stu-id="0f496-111">**Request URI**</span></span>|<span data-ttu-id="0f496-112">**HTTP 版本**</span><span class="sxs-lookup"><span data-stu-id="0f496-112">**HTTP Version**</span></span>|
+|<span data-ttu-id="b2d36-110">**种**</span><span class="sxs-lookup"><span data-stu-id="b2d36-110">**Method**</span></span>|<span data-ttu-id="b2d36-111">**请求 URI**</span><span class="sxs-lookup"><span data-stu-id="b2d36-111">**Request URI**</span></span>|<span data-ttu-id="b2d36-112">**HTTP 版本**</span><span class="sxs-lookup"><span data-stu-id="b2d36-112">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="0f496-113">发布</span><span class="sxs-lookup"><span data-stu-id="0f496-113">POST</span></span>  <br/> |<span data-ttu-id="0f496-114">https://\<portal\>/QoEDataService/RunQuery</span><span class="sxs-lookup"><span data-stu-id="0f496-114">https://\<portal\>/QoEDataService/RunQuery</span></span>  <br/> |<span data-ttu-id="0f496-115">HTTP/1。1</span><span class="sxs-lookup"><span data-stu-id="0f496-115">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="b2d36-113">发布</span><span class="sxs-lookup"><span data-stu-id="b2d36-113">POST</span></span>  <br/> |<span data-ttu-id="b2d36-114">https://\<portal\>/QoEDataService/RunQuery</span><span class="sxs-lookup"><span data-stu-id="b2d36-114">https://\<portal\>/QoEDataService/RunQuery</span></span>  <br/> |<span data-ttu-id="b2d36-115">HTTP/1。1</span><span class="sxs-lookup"><span data-stu-id="b2d36-115">HTTP/1.1</span></span>  <br/> |
 
- <span data-ttu-id="0f496-116">**URI 参数**-无。</span><span class="sxs-lookup"><span data-stu-id="0f496-116">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="b2d36-116">**URI 参数**-无。</span><span class="sxs-lookup"><span data-stu-id="b2d36-116">**URI Parameters** - None.</span></span>
 
- <span data-ttu-id="0f496-117">**请求标题**-无其他标题。</span><span class="sxs-lookup"><span data-stu-id="0f496-117">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="b2d36-117">**请求标题**-无其他标题。</span><span class="sxs-lookup"><span data-stu-id="b2d36-117">**Request Headers** - No additional headers.</span></span>
 
- <span data-ttu-id="0f496-118">**请求正文**-以下是 JSON 中的示例请求负载。</span><span class="sxs-lookup"><span data-stu-id="0f496-118">**Request Body** - Here is a sample request payload in JSON.</span></span> <span data-ttu-id="0f496-119">它包含查询所需的维度、筛选器和度量。</span><span class="sxs-lookup"><span data-stu-id="0f496-119">It contains dimensions, filters, and measurement required for a query.</span></span>
+ <span data-ttu-id="b2d36-118">**请求正文**-以下是 JSON 中的示例请求负载。</span><span class="sxs-lookup"><span data-stu-id="b2d36-118">**Request Body** - Here is a sample request payload in JSON.</span></span> <span data-ttu-id="b2d36-119">它包含查询所需的维度、筛选器和度量。</span><span class="sxs-lookup"><span data-stu-id="b2d36-119">It contains dimensions, filters, and measurement required for a query.</span></span>
 
 ```json
 {
@@ -72,21 +74,21 @@ ms.locfileid: "40991397"
 }
 ```
 
- <span data-ttu-id="0f496-120">*筛选器*-要应用的筛选器表达式的列表，以便生成的数据集将仅反映感兴趣的数据子集。</span><span class="sxs-lookup"><span data-stu-id="0f496-120">*Filters*  - A list of filter expressions to be applied such that the resulting data set will reflect only the subset of the data that are of interest.</span></span>
+ <span data-ttu-id="b2d36-120">*筛选器*-要应用的筛选器表达式的列表，以便生成的数据集将仅反映感兴趣的数据子集。</span><span class="sxs-lookup"><span data-stu-id="b2d36-120">*Filters*  - A list of filter expressions to be applied such that the resulting data set will reflect only the subset of the data that are of interest.</span></span>
 
- <span data-ttu-id="0f496-121">*维度*-将用于聚合数据的维度的列表。</span><span class="sxs-lookup"><span data-stu-id="0f496-121">*Dimensions*  - A list of dimensions that will be used for aggregating the data.</span></span> <span data-ttu-id="0f496-122">至少需要一个维度，但可以指定多个维度以获取其他级别的子聚合。</span><span class="sxs-lookup"><span data-stu-id="0f496-122">At least one dimension is required but multiple dimensions may be specified to obtain additional level of sub-aggregations.</span></span>
+ <span data-ttu-id="b2d36-121">*维度*-将用于聚合数据的维度的列表。</span><span class="sxs-lookup"><span data-stu-id="b2d36-121">*Dimensions*  - A list of dimensions that will be used for aggregating the data.</span></span> <span data-ttu-id="b2d36-122">至少需要一个维度，但可以指定多个维度以获取其他级别的子聚合。</span><span class="sxs-lookup"><span data-stu-id="b2d36-122">At least one dimension is required but multiple dimensions may be specified to obtain additional level of sub-aggregations.</span></span>
 
- <span data-ttu-id="0f496-123">*度量*-根据你指定的维度聚合所需指标的度量（也称为事实）的列表。</span><span class="sxs-lookup"><span data-stu-id="0f496-123">*Measurements*  - A list of measurements, also known as facts, that are the desired metrics to be aggregated based on the dimensions you specified.</span></span>
+ <span data-ttu-id="b2d36-123">*度量*-根据你指定的维度聚合所需指标的度量（也称为事实）的列表。</span><span class="sxs-lookup"><span data-stu-id="b2d36-123">*Measurements*  - A list of measurements, also known as facts, that are the desired metrics to be aggregated based on the dimensions you specified.</span></span>
 
- <span data-ttu-id="0f496-124">*趋势*线-其他控制说明，用于自定义结果数据。</span><span class="sxs-lookup"><span data-stu-id="0f496-124">*Trend*  - Additional control instructions to customize the result data.</span></span>
+ <span data-ttu-id="b2d36-124">*趋势*线-其他控制说明，用于自定义结果数据。</span><span class="sxs-lookup"><span data-stu-id="b2d36-124">*Trend*  - Additional control instructions to customize the result data.</span></span>
 
- <span data-ttu-id="0f496-125">**响应**-响应包括 HTTP 状态代码和一组响应标头。</span><span class="sxs-lookup"><span data-stu-id="0f496-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="b2d36-125">**响应**-响应包括 HTTP 状态代码和一组响应标头。</span><span class="sxs-lookup"><span data-stu-id="b2d36-125">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
 
- <span data-ttu-id="0f496-126">**状态代码**-成功的操作返回状态代码200（OK）。</span><span class="sxs-lookup"><span data-stu-id="0f496-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="b2d36-126">**状态代码**-成功的操作返回状态代码200（OK）。</span><span class="sxs-lookup"><span data-stu-id="b2d36-126">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
 
- <span data-ttu-id="0f496-127">**响应标题**-无其他标题。</span><span class="sxs-lookup"><span data-stu-id="0f496-127">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="b2d36-127">**响应标题**-无其他标题。</span><span class="sxs-lookup"><span data-stu-id="b2d36-127">**Response Headers** - No additional headers.</span></span>
 
- <span data-ttu-id="0f496-128">**响应正文**-下面是 JSON 中的示例响应负载。</span><span class="sxs-lookup"><span data-stu-id="0f496-128">**Response Body** - Below is a sample response payload in JSON.</span></span> <span data-ttu-id="0f496-129">它包含包含数据的数据表，还将包含元数据，其中显示查询执行时间以及数据是否来自缓存。</span><span class="sxs-lookup"><span data-stu-id="0f496-129">It contains a data table which contains the data, also it will contain a meta data, which shows query execution time and whether or not the data is from the cache.</span></span>
+ <span data-ttu-id="b2d36-128">**响应正文**-下面是 JSON 中的示例响应负载。</span><span class="sxs-lookup"><span data-stu-id="b2d36-128">**Response Body** - Below is a sample response payload in JSON.</span></span> <span data-ttu-id="b2d36-129">它包含包含数据的数据表，还将包含元数据，其中显示查询执行时间以及数据是否来自缓存。</span><span class="sxs-lookup"><span data-stu-id="b2d36-129">It contains a data table which contains the data, also it will contain a meta data, which shows query execution time and whether or not the data is from the cache.</span></span>
 
 ```json
 {
@@ -121,8 +123,8 @@ ms.locfileid: "40991397"
 }
 ```
 
- <span data-ttu-id="0f496-130">*执行时间*-服务器返回数据所花费的总时间。</span><span class="sxs-lookup"><span data-stu-id="0f496-130">*Execution Time*  - The total time it took for the server to return the data.</span></span> <span data-ttu-id="0f496-131">这可能会也可能不会涉及缓存。</span><span class="sxs-lookup"><span data-stu-id="0f496-131">This may or may not involve cache.</span></span>
+ <span data-ttu-id="b2d36-130">*执行时间*-服务器返回数据所花费的总时间。</span><span class="sxs-lookup"><span data-stu-id="b2d36-130">*Execution Time*  - The total time it took for the server to return the data.</span></span> <span data-ttu-id="b2d36-131">这可能会也可能不会涉及缓存。</span><span class="sxs-lookup"><span data-stu-id="b2d36-131">This may or may not involve cache.</span></span>
 
- <span data-ttu-id="0f496-132">*数据结果*-查询的结果。</span><span class="sxs-lookup"><span data-stu-id="0f496-132">*Data Result*  - The result of the query.</span></span> <span data-ttu-id="0f496-133">它是一个二维数组，包含维度成员的所有排列，每个元素包含维度的成员名称以及指定度量值的聚合值。</span><span class="sxs-lookup"><span data-stu-id="0f496-133">It is a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names as well as the aggregated values of the specified Measurements.</span></span>
+ <span data-ttu-id="b2d36-132">*数据结果*-查询的结果。</span><span class="sxs-lookup"><span data-stu-id="b2d36-132">*Data Result*  - The result of the query.</span></span> <span data-ttu-id="b2d36-133">它是一个二维数组，包含维度成员的所有排列，每个元素包含维度的成员名称以及指定度量值的聚合值。</span><span class="sxs-lookup"><span data-stu-id="b2d36-133">It is a two-dimensional array containing all permutations of the dimensions' members, and each element containing the dimensions' member names as well as the aggregated values of the specified Measurements.</span></span>
 
- <span data-ttu-id="0f496-134">*来自缓存的结果*，用于诊断。</span><span class="sxs-lookup"><span data-stu-id="0f496-134">*Result is From Cache*  - For diagnostics.</span></span> <span data-ttu-id="0f496-135">指示结果来自缓存还是 QoE 多维数据集。</span><span class="sxs-lookup"><span data-stu-id="0f496-135">Indicates whether the result came from the cache or from the QoE Cube.</span></span>
+ <span data-ttu-id="b2d36-134">*来自缓存的结果*，用于诊断。</span><span class="sxs-lookup"><span data-stu-id="b2d36-134">*Result is From Cache*  - For diagnostics.</span></span> <span data-ttu-id="b2d36-135">指示结果来自缓存还是 QoE 多维数据集。</span><span class="sxs-lookup"><span data-stu-id="b2d36-135">Indicates whether the result came from the cache or from the QoE Cube.</span></span>
