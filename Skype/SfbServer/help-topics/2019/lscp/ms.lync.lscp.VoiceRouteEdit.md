@@ -6,27 +6,29 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceRouteEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 4cf21eb9ecf89df312dfee9e784d04ab10e33bfd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 187a8d9eb4696bb37ee9854b9b5134349a35ea31
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703857"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791770"
 ---
-# <a name="voice-route-create-new-or-edit-existing"></a><span data-ttu-id="982d7-104">语音路由：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="982d7-104">Voice Route: Create New or Edit Existing</span></span>
+# <a name="voice-route-create-new-or-edit-existing"></a><span data-ttu-id="79c68-104">语音路由：创建新的或编辑现有的</span><span class="sxs-lookup"><span data-stu-id="79c68-104">Voice Route: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="982d7-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="982d7-105">What do you want to do?</span></span> <span data-ttu-id="982d7-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="982d7-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="79c68-105">您希望执行什么操作？</span><span class="sxs-lookup"><span data-stu-id="79c68-105">What do you want to do?</span></span> <span data-ttu-id="79c68-106">单击您要执行的任务所对应的链接。</span><span class="sxs-lookup"><span data-stu-id="79c68-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="982d7-107">在 Skype for Business 中创建或修改语音路线</span><span class="sxs-lookup"><span data-stu-id="982d7-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [<span data-ttu-id="79c68-107">在 Skype for Business 中创建或修改语音路线</span><span class="sxs-lookup"><span data-stu-id="79c68-107">Create or modify a voice route in Skype for Business</span></span>](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
-- [<span data-ttu-id="982d7-108">修改语音路线</span><span class="sxs-lookup"><span data-stu-id="982d7-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
+- [<span data-ttu-id="79c68-108">修改语音路线</span><span class="sxs-lookup"><span data-stu-id="79c68-108">Modify a Voice Route</span></span>](https://technet.microsoft.com/library/afc562cc-8807-489b-8850-dbbe1c1ab9f5.aspx)
 
 
 
