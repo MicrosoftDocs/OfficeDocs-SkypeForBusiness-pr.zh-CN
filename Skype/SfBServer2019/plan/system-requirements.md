@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：利用本主题准备 Skype for Business Server 2019 服务器和域基础结构。 这里提供了硬件、OS、数据库、软件、所有系统要求和建议以及证书 DNS、文件共享和 Active Directory 信息，可帮助确保服务器场的安装和部署获得成功。
-ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: c6f30ad4caa8dcb31cf035c3f82de4ab87c41f3d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111376"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812590"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 的系统要求
  

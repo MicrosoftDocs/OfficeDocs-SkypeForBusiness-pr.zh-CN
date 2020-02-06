@@ -8,18 +8,20 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: 有了企业语音，Skype for business Server 2015 提供了一种独立的互联网协议（VoIP）产品，用于增强或更换传统专用分支 exchange （PBX）系统。 企业语音用户可以通过您的组织的 VoIP 网络或 PBX 呼叫同事，并且他们可以拨打您的组织外部的传统电话号码。 企业语音解决方案包括常见呼叫功能，如 "应答"、"转发"、"转移"、"保持"、"转移"、"发布和寄存" 以及 "增强9-1-1 （E9）" （E9-1-1 仅在美国可用）。）企业语音还支持一系列最新的和较旧的 IP 和 USB 设备。
-ms.openlocfilehash: 0af20c421e1b5238fda73b3d57f12e43b5afa1a8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: edb2485fc8519da7b2b6fc2dabab27219e3b6020
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698647"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41809800"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  
