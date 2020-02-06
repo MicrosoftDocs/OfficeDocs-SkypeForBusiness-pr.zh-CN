@@ -6,23 +6,25 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoicePublishSum
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果更改未完成，请查看此对话框中的邮件，更改您的 "语音路由配置"，然后重试。
-ms.openlocfilehash: c9c8009d85620279afd408757891ce2d85c72b42
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 22f20a75666c0eea05b75a1a53ee39cd04434545
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690187"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797789"
 ---
-# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="52e18-103">语音策略：语音路由配置的提交更改状态</span><span class="sxs-lookup"><span data-stu-id="52e18-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
+# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a><span data-ttu-id="937db-103">语音策略：语音路由配置的提交更改状态</span><span class="sxs-lookup"><span data-stu-id="937db-103">Voice Routing: Status of Commit Changes for Voice Routing Configuration</span></span>
  
-<span data-ttu-id="52e18-104">如果更改未完成，请查看此对话框中的邮件，更改您的 "语音路由配置"，然后重试。</span><span class="sxs-lookup"><span data-stu-id="52e18-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
+<span data-ttu-id="937db-104">如果更改未完成，请查看此对话框中的邮件，更改您的 "语音路由配置"，然后重试。</span><span class="sxs-lookup"><span data-stu-id="937db-104">If the changes were not completed, review the messages in this dialog box, change your voice routing configuration, and try again.</span></span>
   
  
   

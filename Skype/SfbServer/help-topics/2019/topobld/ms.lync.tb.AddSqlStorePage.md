@@ -7,27 +7,29 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定义新的 SQL 应用商店，这意味着你指定基于 SQL Server 的数据库和 SQL Server 实例（默认实例或命名实例），请指定以下项。
-ms.openlocfilehash: 78d58de8aad06062bf7f105353c0ded58c8e6df7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 80fb2fbbf1bad7a160df087969c9820ed05ebeea
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702637"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794321"
 ---
-# <a name="add-sql-store"></a><span data-ttu-id="ef369-103">添加 SQL 存储</span><span class="sxs-lookup"><span data-stu-id="ef369-103">Add SQL Store</span></span>
+# <a name="add-sql-store"></a><span data-ttu-id="3d579-103">添加 SQL 存储</span><span class="sxs-lookup"><span data-stu-id="3d579-103">Add SQL Store</span></span>
 
-<span data-ttu-id="ef369-104">若要定义新的 SQL 应用商店，这意味着你指定基于 SQL Server 的数据库和 SQL Server 实例（默认实例或命名实例），请指定以下项。</span><span class="sxs-lookup"><span data-stu-id="ef369-104">To define a new SQL Store, which means that you are specifying a SQL Server-based database and an instance of SQL Server—either a default instance or a named instance—you specify the following.</span></span>
+<span data-ttu-id="3d579-104">若要定义新的 SQL 应用商店，这意味着你指定基于 SQL Server 的数据库和 SQL Server 实例（默认实例或命名实例），请指定以下项。</span><span class="sxs-lookup"><span data-stu-id="3d579-104">To define a new SQL Store, which means that you are specifying a SQL Server-based database and an instance of SQL Server—either a default instance or a named instance—you specify the following.</span></span>
 
-<span data-ttu-id="ef369-105">指定将承载你定义的数据库实例的 SQL Server 的完全限定的域名（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="ef369-105">Specify the fully qualified domain name (FQDN) of the SQL Server that will host the database instance that you are defining.</span></span>
+<span data-ttu-id="3d579-105">指定将承载你定义的数据库实例的 SQL Server 的完全限定的域名（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="3d579-105">Specify the fully qualified domain name (FQDN) of the SQL Server that will host the database instance that you are defining.</span></span>
 
-<span data-ttu-id="ef369-106">指定将托管数据的 SQL Server 实例。</span><span class="sxs-lookup"><span data-stu-id="ef369-106">Specify the instance of SQL Server that will host the data.</span></span> <span data-ttu-id="ef369-107">你可以指定默认实例，也可以指定命名实例。</span><span class="sxs-lookup"><span data-stu-id="ef369-107">You can specify the default instance, or you can specify a named instance.</span></span>
+<span data-ttu-id="3d579-106">指定将托管数据的 SQL Server 实例。</span><span class="sxs-lookup"><span data-stu-id="3d579-106">Specify the instance of SQL Server that will host the data.</span></span> <span data-ttu-id="3d579-107">你可以指定默认实例，也可以指定命名实例。</span><span class="sxs-lookup"><span data-stu-id="3d579-107">You can specify the default instance, or you can specify a named instance.</span></span>
 
-<span data-ttu-id="ef369-108">在特定实例中 Collocation 的数据库应非常清楚地理解。</span><span class="sxs-lookup"><span data-stu-id="ef369-108">Collocation of databases in specific instances should be very clearly understood.</span></span> <span data-ttu-id="ef369-109">有关服务器 collocation 和数据库实例 collocation 的详细信息，请参阅[在标准版服务器部署](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx)中[的前端池部署](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx)和服务器 Collocation 中的服务器 collocation。</span><span class="sxs-lookup"><span data-stu-id="ef369-109">For details about server collocation and database instance collocation, see [Server Collocation in a Front End Pool Deployment](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) and [Server Collocation in a Standard Edition Server Deployment](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).</span></span>
+<span data-ttu-id="3d579-108">在特定实例中 Collocation 的数据库应非常清楚地理解。</span><span class="sxs-lookup"><span data-stu-id="3d579-108">Collocation of databases in specific instances should be very clearly understood.</span></span> <span data-ttu-id="3d579-109">有关服务器 collocation 和数据库实例 collocation 的详细信息，请参阅[在标准版服务器部署](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx)中[的前端池部署](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx)和服务器 Collocation 中的服务器 collocation。</span><span class="sxs-lookup"><span data-stu-id="3d579-109">For details about server collocation and database instance collocation, see [Server Collocation in a Front End Pool Deployment](https://technet.microsoft.com/library/0516b18d-14c0-4237-9279-0f92e341b1bd.aspx) and [Server Collocation in a Standard Edition Server Deployment](https://technet.microsoft.com/library/0763ffab-4fd6-463a-8e62-d97876b376d3.aspx).</span></span>
 
 

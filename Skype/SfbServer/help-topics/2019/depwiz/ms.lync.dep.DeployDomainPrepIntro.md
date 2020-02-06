@@ -6,22 +6,24 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployDomainPrepIntro
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: "\"准备域\" 页面开始为 Skype for business 服务器准备域的过程。 单击“下一步”开始准备域。"
-ms.openlocfilehash: fb4329868f99b791d4f9fc44c390de2b410f71ac
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5774d5d1bc99856877d0497436ada32b98f4c2cd
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691937"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795623"
 ---
-# <a name="prepare-current-domain-intro"></a><span data-ttu-id="08295-104">准备当前域（简介）</span><span class="sxs-lookup"><span data-stu-id="08295-104">Prepare Current Domain (Intro)</span></span>
+# <a name="prepare-current-domain-intro"></a><span data-ttu-id="1f467-104">准备当前域（简介）</span><span class="sxs-lookup"><span data-stu-id="1f467-104">Prepare Current Domain (Intro)</span></span>
  
-<span data-ttu-id="08295-105">"**准备域**" 页面开始为 Skype For business 服务器准备域的过程。</span><span class="sxs-lookup"><span data-stu-id="08295-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="08295-106">单击“**下一步**”开始准备域。</span><span class="sxs-lookup"><span data-stu-id="08295-106">Click **Next** to begin preparing the domain.</span></span>
+<span data-ttu-id="1f467-105">"**准备域**" 页面开始为 Skype For business 服务器准备域的过程。</span><span class="sxs-lookup"><span data-stu-id="1f467-105">The **Prepare Domain** page begins the process of preparing the domain for Skype for Business Server.</span></span> <span data-ttu-id="1f467-106">单击“**下一步**”开始准备域。</span><span class="sxs-lookup"><span data-stu-id="1f467-106">Click **Next** to begin preparing the domain.</span></span>
   
 
