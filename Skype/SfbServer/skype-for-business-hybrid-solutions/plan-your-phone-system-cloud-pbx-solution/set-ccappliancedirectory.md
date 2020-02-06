@@ -8,15 +8,17 @@ ms.date: 3/21/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: Set-CcApplianceDirectory cmdlet 用于设置 Skype for Business 云连接器版本主机服务器上的工作目录。所有部署文件都存储在此目录中。
-ms.openlocfilehash: 1dfc85a08709fd550b91dbecdb5d4186f265ca67
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a410d20c41fbb0bfef88449aaac96be727218add
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003222"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824218"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  

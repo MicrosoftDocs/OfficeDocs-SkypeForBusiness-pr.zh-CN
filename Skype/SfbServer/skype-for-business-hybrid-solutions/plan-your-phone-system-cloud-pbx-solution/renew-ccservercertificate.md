@@ -8,15 +8,17 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: 'Renew-CcServerCertificate cmdlet 用于在 Skype for Business 云连接器版本的证书即将过期或已过期时续订这些证书。 在云连接器 2.0 版和更高版本中，此命令已更改为 Update-CcServerCertificate。 '
-ms.openlocfilehash: 47f2bbefa6510ae49e2e4a3ddc321e288dee266e
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e4f3f4bbf0904733cf39f71534115543ff15fa65
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003262"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824258"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  

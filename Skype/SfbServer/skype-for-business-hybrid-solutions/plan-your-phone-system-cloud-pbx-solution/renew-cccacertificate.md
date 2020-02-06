@@ -8,15 +8,17 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
 description: Renew-CcCACertificate cmdlet 可续订即将过期或已过期的 Skype for Business 云连接器版本根 CA 证书。 在云连接器2.0 和更高版本中，此命令已更改为更新-CcCACertificate。
-ms.openlocfilehash: 493b733eab9cbd8331a93d72dc4a865f3574fbe8
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003272"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824268"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  

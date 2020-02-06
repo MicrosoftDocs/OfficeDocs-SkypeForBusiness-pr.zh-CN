@@ -8,15 +8,17 @@ ms.date: 07/23/2018
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 查找并管理 Skype for Business Server 或 Lync 2013 的更新。 使用链接获取详细信息，然后下载更新。
-ms.openlocfilehash: 858ea89d70e52a78e1750c2036a229deef828f13
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: 1cae70bec8e6bdae88e945e035844ce1186c6454
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746435"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824086"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Skype for Business 下载和更新
 

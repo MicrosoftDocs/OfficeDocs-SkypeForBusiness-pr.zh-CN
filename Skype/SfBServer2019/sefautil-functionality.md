@@ -8,15 +8,17 @@ ms.date: 07/22/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：在安装累积更新1之后，了解如何使用 PowerShell 获取 Skype for Business Server 2019 中的 SEFAUtil 功能。
-ms.openlocfilehash: 6652e3b76a31ac4b315c70498ac2b01d4467b70e
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 91958d466a2f51b45ef933d21bfce10f5c61790d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838095"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824016"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>在 Skype for business Server 2019 中通过 PowerShell 使用 SEFAUtil 功能
 
@@ -92,7 +94,7 @@ SEFAUtil （辅助扩展功能激活）使 Skype for Business 服务器管理员
 
 此 cmdlet 将团队列表设置为特定成员。
 
-## <a name="more-information"></a>详细信息
+## <a name="more-information"></a>更多信息
 
 对于本地部署，此功能中引入的 cmdlet 只能由下列组的成员根据以下指定的访问级别来运行：
 

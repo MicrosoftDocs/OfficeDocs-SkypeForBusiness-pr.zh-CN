@@ -7,14 +7,16 @@ ms.reviewer: waseemh, dstrome, balinger
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Microsoft 将在2020年2月停用 Exchange 统一消息服务联机（ExchUMO）服务。 本文概述了哪些受影响的客户应了解哪些内容，并针对其业务连续性进行规划。
-ms.openlocfilehash: 1518bf9d5c45b4d53ee2934bb996978b82159617
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aee9441a6da436728e9d6add1cc67b9af7967439
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737122"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824036"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 

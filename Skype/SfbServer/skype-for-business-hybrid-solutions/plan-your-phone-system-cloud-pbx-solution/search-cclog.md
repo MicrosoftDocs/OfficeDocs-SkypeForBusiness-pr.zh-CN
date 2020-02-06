@@ -8,15 +8,17 @@ ms.date: 3/20/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: Search-CcLog cmdlet 用于在 Skype for Business 云连接器版本设备日志目录中搜索传入和传出呼叫日志。
-ms.openlocfilehash: c248720931ef1c15d633c51bb6daa6c414631a18
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003232"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824228"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  

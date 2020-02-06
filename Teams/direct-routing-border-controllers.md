@@ -13,13 +13,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+hideEdit: true
 description: Microsoft 合作伙伴与选定的 SBC 供应商认证其 SBC 可用于直接路由。
-ms.openlocfilehash: a63a9d11e21d477bbb1e6c9e9872fff526046475
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: dfd5474ac0e70353823be48b44e0d5e2e2f39f1d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634865"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823986"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
