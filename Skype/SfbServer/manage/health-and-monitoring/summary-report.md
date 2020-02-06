@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: '摘要: 了解 Skype for Business 服务器中使用的呼叫诊断摘要报告。'
-ms.openlocfilehash: baa34340214b1eb905777c977c0e9fa8ebaea788
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中使用的呼叫诊断摘要报告。
+ms.openlocfilehash: 00925ca15ca053fc85ee5719c8154a92cfb35fb4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279738"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817661"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Skype for Business 服务器中的呼叫诊断摘要报告
  
-**摘要:** 了解 Skype for Business 服务器中使用的呼叫诊断摘要报告。
+**摘要：** 了解 Skype for Business 服务器中使用的呼叫诊断摘要报告。
   
 呼叫诊断摘要报告提供失败的对等会话和会议会话的整体情况。该报告显示了两种类型的会话的整体故障率，并按以下会话形式类型进一步为故障信息分类：
   
@@ -35,7 +37,7 @@ ms.locfileid: "34279738"
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>访问呼叫诊断摘要报告
 
-呼叫诊断摘要报告是从监控报告主页访问的。 从 "呼叫诊断摘要" 报告中, 您可以通过单击报告的对等会话摘要部分中的 "失败率" 指标来访问[Skype For Business 服务器中的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)。 您也可以通过单击以下任一会议指标,[在 Skype For Business 服务器中访问会议诊断报告](conference-diagnostic-report.md):
+呼叫诊断摘要报告是从监控报告主页访问的。 从 "呼叫诊断摘要" 报告中，您可以通过单击报告的对等会话摘要部分中的 "失败率" 指标来访问[Skype For Business 服务器中的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)。 您也可以通过单击以下任一会议指标，[在 Skype For Business 服务器中访问会议诊断报告](conference-diagnostic-report.md)：
   
 - 总体会话故障率
     
@@ -45,7 +47,7 @@ ms.locfileid: "34279738"
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>充分利用呼叫诊断摘要报告
 
-"呼叫诊断" 摘要报告包含的图表用于比较 Skype for Business 服务器中使用的各种形式的故障率。 这些图表中的列实际上是 hotlinks;例如, 如果单击对等会话的 "即时消息" 列, 您将向下钻取到[Skype For Business Server 中对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)的实例, 该报告提供有关所有"呼叫诊断" 摘要报告中包含的即时消息会话。
+"呼叫诊断" 摘要报告包含的图表用于比较 Skype for Business 服务器中使用的各种形式的故障率。 这些图表中的列实际上是 hotlinks;例如，如果单击对等会话的 "即时消息" 列，您将向下钻取到[Skype For Business Server 中的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)的实例，该报告提供有关 "呼叫诊断摘要" 报告中包含的所有即时消息会话的其他详细信息。
   
 ## <a name="filters"></a>筛选器
 

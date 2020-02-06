@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
-description: 在 Skype for Business Server Enterprise Voice 中规划专用 (辅助) 电话线路。
-ms.openlocfilehash: 38dd81bb0fae9f7edd062e111db462d264dda1d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 在 Skype for Business Server Enterprise Voice 中规划专用（辅助）电话线路。
+ms.openlocfilehash: 001a83e4bd81f0f47546f51f1d4993c6b1cec4bf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276558"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802562"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>通过 Skype for Business 规划私人电话线
  
-在 Skype for Business Server Enterprise Voice 中规划专用 (辅助) 电话线路。
+在 Skype for Business Server Enterprise Voice 中规划专用（辅助）电话线路。
   
 Skype for business 服务器使您可以除主要电话线之外为用户提供第二条专用电话线路。 专用电话线路通常分配给需要一个未列出的电话号码以便他人直接与其取得联系的高管和其他人员。
   
@@ -31,7 +33,7 @@ Skype for business 服务器使您可以除主要电话线之外为用户提供�
   
 ## <a name="characteristics-of-private-telephone-lines"></a>专用电话线路的特征
 
-虽然第二条专用电话线的概念基本很简单, 但重要的是了解专用线路的特性以及它们与用户的主要电话线有类似的方式和不同之处。
+虽然第二条专用电话线的概念基本很简单，但重要的是了解专用线路的特性以及它们与用户的主要电话线有类似的方式和不同之处。
   
 ### <a name="general-characteristics-of-private-telephone-lines"></a>专用电话线路的常规特征
 
@@ -53,7 +55,7 @@ Skype for business 服务器使您可以除主要电话线之外为用户提供�
     
 - 对专用电话线路的呼叫始终会发出响铃。它们不会遵循“请勿打扰”规则。
     
-- 专用电话线路仅限于入站呼叫，不能用于进行传出呼叫。 当具有专用电话线的用户进行呼叫时, 该呼叫来自用户的主电话线, 并且不会隐藏用户的姓名或用户的主要电话号码 (来自呼叫者)。
+- 专用电话线路仅限于入站呼叫，不能用于进行传出呼叫。 当具有专用电话线的用户进行呼叫时，该呼叫来自用户的主电话线，并且不会隐藏用户的姓名或用户的主要电话号码（来自呼叫者）。
     
 ### <a name="how-private-telephone-lines-are-similar-to-primary-telephone-lines"></a>专用电话线路与主要电话线路的相似之处
 
@@ -61,11 +63,11 @@ Skype for business 服务器使您可以除主要电话线之外为用户提供�
     
 - 呼叫寄存和呼叫装货使用专用电话线的方式与使用用户的主要电话线完全相同。
     
-- 在用户的主电话线上启用同时拨打时, 它也会在专用电话线上启用。
+- 在用户的主电话线上启用同时拨打时，它也会在专用电话线上启用。
     
-- 专用电话线的电话号码以与用户的主要电话线的电话号码相同的方式记录在呼叫详细记录中, 但表明它是专用电话号码。
+- 专用电话线的电话号码以与用户的主要电话线的电话号码相同的方式记录在呼叫详细记录中，但表明它是专用电话号码。
     
-- 用户使用专用电话线应答呼叫后, 呼叫将被视为用户的主电话线上的呼叫。 例如, 如果通过专用电话线接收呼叫的用户转发呼叫或邀请其他人加入电话会议, 则用户名将显示在 Skype for Business 中, 用户的主电话线的电话号码将显示在 "来电显示" 中。
+- 用户使用专用电话线应答呼叫后，呼叫将被视为用户的主电话线上的呼叫。 例如，如果通过专用电话线接收呼叫的用户转发呼叫或邀请其他人加入电话会议，则用户名将显示在 Skype for Business 中，用户的主电话线的电话号码将显示在 "来电显示" 中。
     
 - 用户可以转接来自于专用电话线路的呼叫（应答前，将呼叫重定向到其他目标，如移动电话或家庭电话），方式与主要电话线路相同。 
     
@@ -84,16 +86,16 @@ Skype for business 服务器使您可以除主要电话线之外为用户提供�
   
 ### <a name="assigning-telephone-numbers"></a>分配电话号码
 
- 对于需要私人电话线的新用户, 其帐户的创建方式与没有私人电话线的帐户相同, 使用 Skype for Business 服务器控制面板或 Skype for business Server 命令行管理程序。
+ 对于需要私人电话线的新用户，其帐户的创建方式与没有私人电话线的帐户相同，使用 Skype for Business 服务器控制面板或 Skype for business Server 命令行管理程序。
   
-使用 Skype for Business Server Management Shell 中的**move-csuser** cmdlet 为用户将电话号码分配给专用电话线, 例如, **move-csuser-Identity "Sip:joe@contoso.com"-PrivateLine "电话: + 14255551212"**。
+使用 Skype for Business Server Management Shell 中的**move-csuser** cmdlet 为用户将电话号码分配给专用电话线，例如， **move-csuser-Identity "Sip:joe@contoso.com"-PrivateLine "电话： + 14255551212"**。
   
-专用电话线的电话号码长度可以介于3到15个号码之间, 并且前面必须带有 "电话:" 前缀。 这些号码可以具有任何区号和国家/地区代码，前提是您的组织有该区号和国家/地区代码的外线直拨分机。 
+专用电话线的电话号码长度可以介于3到15个号码之间，并且前面必须带有 "电话：" 前缀。 这些号码可以具有任何区号和国家/地区代码，前提是您的组织有该区号和国家/地区代码的外线直拨分机。 
   
-有关 cmdlet 和 Skype for business Server 命令行管理程序的详细信息, 请参阅 Skype for Business 服务器管理外壳文档。
+有关 cmdlet 和 Skype for business Server 命令行管理程序的详细信息，请参阅 Skype for Business 服务器管理外壳文档。
   
 ### <a name="private-telephone-lines-in-mixed-deployments"></a>混合部署中的专用电话线路
 
-专用电话线应仅针对 Skype for business Server 或 Lync Server 2013 的部署进行配置。 在其中有运行早期版本的 Lync Server 的服务器的部署中, 当较早版本的用户尝试呼叫专用电话线时, 呼叫路由失败的原因是服务器无法在专用电话线上执行反向号码查找。
+专用电话线应仅针对 Skype for business Server 或 Lync Server 2013 的部署进行配置。 在其中有运行早期版本的 Lync Server 的服务器的部署中，当较早版本的用户尝试呼叫专用电话线时，呼叫路由失败的原因是服务器无法在专用电话线上执行反向号码查找。
   
 

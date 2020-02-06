@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: PurgeSettings 表包含用于指定是否会自动从 QoE 数据库中删除过时的体验记录质量的信息。 请注意，通过运行以下命令，还可以从 Skype for Business 服务器管理外壳程序内获取清除相关信息：
-ms.openlocfilehash: db102a84d58f03fb92a69a301b6906c4b146602c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: dab1b2ffeab5882d0e459d7957b2817e780fc3a4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992137"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41807329"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings table （QoE）
  

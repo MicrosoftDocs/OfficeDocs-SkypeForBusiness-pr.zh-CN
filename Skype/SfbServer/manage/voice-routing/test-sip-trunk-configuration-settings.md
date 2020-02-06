@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。 '
-ms.openlocfilehash: bfb09511c8d074555c0b84d2da141a029f63a01a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 911947b33f0e609b4dd532ec5cc2c3d56a08618c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992559"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816932"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中测试 SIP 中继配置设置
 

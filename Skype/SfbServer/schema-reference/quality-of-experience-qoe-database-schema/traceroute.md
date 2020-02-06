@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 description: TraceRoute 表包含来自呼叫的路由信息。 此表是在 Microsoft Lync Server 2013 中引入的。
-ms.openlocfilehash: 323f8160e7543c2fa08bebe9d1805355469acfd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e257bf6d89d04cd0f4784e62e7ac2876b6ede7e5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294626"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805110"
 ---
 # <a name="traceroute-table"></a>TraceRoute 表
  
@@ -30,6 +32,6 @@ TraceRoute 表包含来自呼叫的路由信息。 此表是在 Microsoft Lync S
 |**FromCaller** <br/> |bit  <br/> |Primary  <br/> |发出呼叫的终结点。  <br/> |
 |**跳** <br/> |int  <br/> ||网络跃点/  <br/> |
 |**IPAddressKey** <br/> |int  <br/> |外表  <br/> |IP 地址的唯一标识符。 IP 地址信息存储在 "ip 地址"[表](ipaddress.md)中。  <br/> |
-|**RTT** <br/> |int  <br/> ||往返时间。 往返时间测量语音数据包到达其目标所需的时间量, 然后发送发送回收到通知的时间。  <br/> |
+|**RTT** <br/> |int  <br/> ||往返时间。 往返时间测量语音数据包到达其目标所需的时间量，然后发送发送回收到通知的时间。  <br/> |
    
 

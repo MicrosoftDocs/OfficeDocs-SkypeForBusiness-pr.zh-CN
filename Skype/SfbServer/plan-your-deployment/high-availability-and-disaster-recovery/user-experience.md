@@ -7,22 +7,24 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: 了解在 Skype for business 服务器的灾难恢复期间, 前端池故障转移或故障转移失败的用户体验。
-ms.openlocfilehash: cc8ea8c51bebcffdbf0873f2f1a355cd648b6df0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 了解在 Skype for business 服务器的灾难恢复期间，前端池故障转移或故障转移失败的用户体验。
+ms.openlocfilehash: 892601267f897050cff635d4d87bb4270e2e0e83
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297230"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802322"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Skype for Business 服务器的池故障期间的用户体验
  
-了解在 Skype for business 服务器的灾难恢复期间, 前端池故障转移或故障转移失败的用户体验。
+了解在 Skype for business 服务器的灾难恢复期间，前端池故障转移或故障转移失败的用户体验。
   
-如果对池进行故障转移，则会强制受影响池中的所有用户注销后登录备份池。 登录到备份池的用户在短时间内可能会处于恢复能力模式。 在复原模式下, 用户无法执行会导致 Skype for Business 服务器 (如添加联系人) 的持久更改。 故障转移完成后，所有用户均可从备份池获得所有服务。
+如果对池进行故障转移，则会强制受影响池中的所有用户注销后登录备份池。 登录到备份池的用户在短时间内可能会处于恢复能力模式。 在复原模式下，用户无法执行会导致 Skype for Business 服务器（如添加联系人）的持久更改。 故障转移完成后，所有用户均可从备份池获得所有服务。
   
 池失败时，将中断用户具有的任何呼叫、会议或对话，用户必须在故障转移后重新建立这些会话才能继续。
   

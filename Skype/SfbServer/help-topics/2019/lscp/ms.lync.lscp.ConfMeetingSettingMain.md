@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会议配置设置定义用户可以创建的会议类型（也 calledmeetings），并控制匿名用户和电话拨入式会议用户是否可以加入这些会议。 这些设置仅适用于计划的会议。 它们不适用于通过单击客户端中的 "立即开会" 选项创建的临时会议。
-ms.openlocfilehash: 15dfed475928fe56b42e7a47522c911256b0f033
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 66a1ff8134eec701cd3bd11b305c4e04e18ef99a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705007"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798579"
 ---
 # <a name="meeting-configuration"></a>会议配置
 

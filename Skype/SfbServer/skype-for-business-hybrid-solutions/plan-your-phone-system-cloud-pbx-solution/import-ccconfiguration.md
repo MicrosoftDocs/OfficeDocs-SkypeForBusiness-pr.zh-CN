@@ -8,15 +8,17 @@ ms.date: 10/11/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
 description: 将 Skype for Business Cloud Connector Edition 配置从本地文件导入到云连接器主机服务器。
-ms.openlocfilehash: c72a72351ecb6936832bc5d6a2493c5fa8dfe324
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 626ba52d4d67f99dd67d3d1f91d26d6e6d03f95e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003332"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799852"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  

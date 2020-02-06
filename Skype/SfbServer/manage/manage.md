@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
-description: '摘要: 浏览这些链接以了解如何管理和维护 Skype for business 服务器。'
-ms.openlocfilehash: 2199762872b638b6a141c6dc48827580b00c6233
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：浏览这些链接以了解如何管理和维护 Skype for business 服务器。
+ms.openlocfilehash: b02fba1db57498b0cda6b8d50e4ac631b82755ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279639"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817561"
 ---
 # <a name="manage-skype-for-business-server"></a>管理 Skype for Business Server 
 
-**摘要:** 浏览这些链接以了解如何管理和维护 Skype for business 服务器。
+**摘要：** 浏览这些链接以了解如何管理和维护 Skype for business 服务器。
   
 Skype for Business Server 提供了可支持企业级协作要求的即时消息 (IM)、出席、会议、视频和电话解决方案。 本主题提供了有关如何配置、监视和维护 Skype for Business 服务器部署的信息的链接。 
   
@@ -28,12 +30,12 @@ Skype for Business Server 提供了可支持企业级协作要求的即时消息
 
 ## <a name="visual-resources-about-how-to-manage-skype-for-business-server"></a>有关如何管理 Skype for Business 服务器的视觉资源
 
-查看以下资源, 了解有关如何管理 Skype for Business 服务器的信息。
+查看以下资源，了解有关如何管理 Skype for Business 服务器的信息。
   
 ||**内容**|**说明**|
 |:-----|:-----|:-----|
 |![技术图表图标](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |通过这些大尺寸图表概览体系结构选项。  <br/> |
-|![视频图标](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|视频演示和培训-即将*推出!*  <br/> |浏览 Skype for Business Server 的视频演示和培训。  <br/> |
+|![视频图标](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|视频演示和培训-即将*推出！*  <br/> |浏览 Skype for Business Server 的视频演示和培训。  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>有关管理 Skype for Business 服务器的文章
 
@@ -44,7 +46,7 @@ Skype for Business Server 提供了可支持企业级协作要求的即时消息
 |![数字指导图标](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在 Skype for Business 服务器中管理拓扑](topology/topology.md) <br/> |本部分中的主题提供了通过使用 Skype for Business 服务器控制面板和 Skype for business Server Management Shell 升级、更新、添加和删除服务器的分步过程。  <br/> |
 |![数字指导图标](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在 Skype for Business 服务器中管理运行状况和监视](health-and-monitoring/health-and-monitoring.md) <br/> |本部分中的主题提供了通过使用 Skype for Business 服务器控制面板和 Skype for business 服务器管理外壳程序来执行监视和运行状况配置任务的分步过程。  <br/> |
 |![数字指导图标](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[管理 Skype for Business 服务器中的存档](archiving/archiving.md) <br/> |本部分中的主题提供了使用 Skype for business 服务器控制面板和 Skype for business Server Management Shell 配置用于 Skype for business 服务器的存档选项和用户策略的分步过程。  <br/> |
-|![数字指导图标](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[管理 Skype for Business Server 2015 中的持久聊天服务器](persistent-chat/persistent-chat.md) <br/> |本部分中的主题提供了通过使用 Skype for Business 服务器控制面板和 Skype for business Server 命令行管理程序管理持久聊天服务器的分步过程。  <br/> **注意:** 此功能仅适用于 Skype for Business 2015。|
+|![数字指导图标](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[管理 Skype for Business Server 2015 中的持久聊天服务器](persistent-chat/persistent-chat.md) <br/> |本部分中的主题提供了通过使用 Skype for Business 服务器控制面板和 Skype for business Server 命令行管理程序管理持久聊天服务器的分步过程。  <br/> **注意：** 此功能仅适用于 Skype for Business 2015。|
 |![数字指导图标](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 管理程序](management-shell.md) <br/> |本部分中的主题介绍如何使用 Skype for business Server 命令行管理程序管理 Skype for Business 服务器。  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有关规划 Skype for Business Server 的其他资源

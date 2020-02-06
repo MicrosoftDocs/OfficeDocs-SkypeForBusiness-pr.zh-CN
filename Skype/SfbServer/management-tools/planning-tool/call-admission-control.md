@@ -8,18 +8,17 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.CallAdmissionControl
-- ms.lync.plan.CallAdmissionControl
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: 呼叫允许控制 (CAC) 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。
-ms.openlocfilehash: 9ecd73a478064449f1956e57f13eeb3abf0f3287
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 06cfd3fe27fdcd47e21e02d421ef08e69c0b6c68
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681569"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804422"
 ---
 # <a name="call-admission-control-planning-tool"></a>Call Admission Control (Planning Tool)
  

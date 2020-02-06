@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要：阅读本主题，了解在 Skype for Business 服务器中实施和管理大型会议的最佳做法。
-ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 615b34158ebbd8985610d704fd4d6605c762ab3e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34696041"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815970"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>在 Skype for Business 服务器中规划大型会议
  
@@ -57,7 +59,7 @@ Skype for Business 服务器可以支持的会议的大小取决于会议是否�
   
 专用于托管大型会议的 Skype for business Server 池应同时托管一个会议和最多1000个用户，因此需要通过带外计划流程提前保留会议时间，以确保从前端服务器。 若要同时支持多个大型会议，应设置多个专用的大型会议池。
   
-有关硬件和软件要求以及规划支持大型会议的拓扑的详细信息，请参阅[Skype For Business 服务器中的会议硬件和软件要求](hardware-and-software-requirements.md)和[规划你的会议拓扑Skype for Business 服务器](conferencing-topology.md)。
+有关硬件和软件要求以及规划支持大型会议的拓扑的详细信息，请参阅[skype for Business 服务器中的会议硬件和软件要求](hardware-and-software-requirements.md)和[规划 Skype for business 服务器的会议拓扑](conferencing-topology.md)。
   
 ## <a name="implement-best-practices-for-large-meetings"></a>实施大型会议的最佳做法
 

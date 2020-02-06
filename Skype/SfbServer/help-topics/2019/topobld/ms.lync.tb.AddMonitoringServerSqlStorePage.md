@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddMonitoringServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 监视服务器需要支持的 SQL Server 数据库软件的64位版本才能存储监视数据。 你可以选择用于监视的以前定义的 SQL Server 数据库，或者通过指定 sql Server 数据库将驻留的服务器的完全限定的域名（FQDN）来定义新的 SQL Server 数据库，以及 SQL 实例要用于新 SQL Server 数据库的服务器（可以是默认实例或你指定的命名实例）。
-ms.openlocfilehash: 2ce8127165d37fd34d792b26fc41a1424569eaf5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b51d4802d67175177ca48419f495cbbccf981f4f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689131"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798459"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>添加监控服务器 SQL Server 存储
 

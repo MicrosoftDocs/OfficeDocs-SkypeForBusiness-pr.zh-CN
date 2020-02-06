@@ -8,18 +8,17 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.DisasterRecovery
-- ms.lync.plan.DisasterRecovery
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype for Business Server 2015 包括灾难恢复措施，使你能够对位于两个数据中心的前端池进行配对。
-ms.openlocfilehash: 78abad6c8c7baa12ca1162ddfa5b5db6773d7e03
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 155dc06d8af45f795132cd6aaaf4080bda769165
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696369"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816461"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)
  

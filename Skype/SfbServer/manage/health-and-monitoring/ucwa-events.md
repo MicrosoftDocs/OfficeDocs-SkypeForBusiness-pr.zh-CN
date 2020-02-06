@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: '摘要: 了解 Skype for Business 服务器中的统一通信 Web API (UCWA)。'
-ms.openlocfilehash: bbded70318190fb4fa68ab524a696183c97ff07d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的统一通信 Web API （UCWA）。
+ms.openlocfilehash: db6aee15564fe9fca05c33ec5a6dd37988195956
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279695"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817621"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>Skype for Business 服务器中的 UCWA 事件
  
-**摘要:** 了解 Skype for Business 服务器中的统一通信 Web API (UCWA)。
+**摘要：** 了解 Skype for Business 服务器中的统一通信 Web API （UCWA）。
   
-Skype for business 服务器使用统一通信 Web API (UCWA) 来实现许多用途, 从访问 Microsoft Exchange 到联系人搜索以更新移动客户端的状态。
+Skype for business 服务器使用统一通信 Web API （UCWA）来实现许多用途，从访问 Microsoft Exchange 到联系人搜索以更新移动客户端的状态。
   
 UCWA 将运行行为的记录编写成“信息”、“警告”和“错误”事件类型。下表介绍了可由 UCWA 组件编写的事件。
   

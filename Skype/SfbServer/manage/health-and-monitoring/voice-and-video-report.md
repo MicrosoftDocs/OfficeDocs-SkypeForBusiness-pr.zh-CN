@@ -7,25 +7,27 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: '摘要: 了解 Skype for Business 服务器中的对等语音和视频报告。'
-ms.openlocfilehash: 8ba665886e91371373358f98f69fa15b8d62a9dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的对等语音和视频报告。
+ms.openlocfilehash: 1f67cb4de6f5980afa2fc2393160ffc854a7e94f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279632"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817581"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Skype for Business 服务器中的对等语音和视频报告
  
-**摘要:** 了解 Skype for Business 服务器中的对等语音和视频报告。
+**摘要：** 了解 Skype for Business 服务器中的对等语音和视频报告。
   
 对等语音和视频报告提供了指定时间段的语音和视频呼叫分布的详细信息（例如，按小时的呼叫或按每天的呼叫）。该报告还为您提供查看所有执行的语音和视频呼叫的选项或仅查看成功或失败呼叫的选项。这些报告显示细分为下列组的呼叫信息：
   
 - 按池的呼叫
     
-- 按呼叫类型拨打的电话 (例如, skype for business 与 Skype for business 通话, 与 PSTN 网络上的人员进行 skype for business 通话)
+- 按呼叫类型拨打的电话（例如，skype for business 与 Skype for business 通话，与 PSTN 网络上的人员进行 skype for business 通话）
     
 - 按访问类型的呼叫（登录到内部网络上的用户与登录到外部网络上的用户）
     

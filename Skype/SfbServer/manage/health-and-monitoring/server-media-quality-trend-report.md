@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: '摘要: 了解 Skype for Business 服务器中的服务器媒体质量趋势报表。'
-ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的服务器媒体质量趋势报表。
+ms.openlocfilehash: eca6aa75d7b831356da15a86692658019b3c0d54
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279828"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817711"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Skype for Business Server 中的服务器媒体质量趋势报表
  
-**摘要:** 了解 Skype for Business 服务器中的服务器媒体质量趋势报表。
+**摘要：** 了解 Skype for Business 服务器中的服务器媒体质量趋势报表。
   
 利用服务器媒体质量趋势报告的方式，你可以图形方式比较多达 5 台服务器的用户体验质量指标（如呼叫量、质量欠佳的呼叫百分比、数据包丢失和抖动）。这使得执行标识性能不佳的服务器、未充分利用的服务器或使用过度的服务器之类的操作变得更简单。
   
@@ -27,15 +29,15 @@ ms.locfileid: "34279828"
 
 服务器媒体质量趋势报告可从下列任一报告进行访问：
   
-- [Skype For Business 服务器中的服务器性能报告](server-performance.md)(通过单击趋势指标)
+- [Skype For Business 服务器中的服务器性能报告](server-performance.md)（通过单击趋势指标）
     
-- [Skype For Business 服务器中的呼叫详细报告](call-detail-report.md)(通过单击 A/V 边缘服务器指标。 如果呼叫者或被叫方是服务器, 您也可以通过单击终结点名称来到达 "服务器质量" 媒体趋势报告。
+- [Skype For Business 服务器中的呼叫详细报告](call-detail-report.md)（通过单击 A/V 边缘服务器指标）。 如果呼叫者或被叫方是服务器，您也可以通过单击终结点名称来到达 "服务器质量" 媒体趋势报告。
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>充分利用服务器媒体质量趋势报告
 
-单击特定服务器的 " [Skype For Business 服务器" 中的 "服务器性能报告](server-performance.md)" 上的 "趋势指标" 时, 将会打开 "服务器媒体质量" 趋势报告。 但是，您只会看到该报告的一个空白实例；您在服务器性能报告上选择的服务器将不会显示在屏幕上。 相反，您需要从“服务器”下拉列表中选择服务器。 还要注意，“服务器”下拉列表包含“全选”选项。 此选项在您具有 5 台以上的服务器时不起作用；服务器媒体质量趋势报告一次最多只能显示 5 台服务器的数据。
+单击特定服务器的 " [Skype For Business 服务器" 中的 "服务器性能报告](server-performance.md)" 上的 "趋势指标" 时，将会打开 "服务器媒体质量" 趋势报告。 但是，您只会看到该报告的一个空白实例；您在服务器性能报告上选择的服务器将不会显示在屏幕上。 相反，您需要从“服务器”下拉列表中选择服务器。 还要注意，“服务器”下拉列表包含“全选”选项。 此选项在您具有 5 台以上的服务器时不起作用；服务器媒体质量趋势报告一次最多只能显示 5 台服务器的数据。
   
-在 "服务器媒体质量趋势" 报表显示的图形上, 标记为 "呼叫音量" 和 "差通话百分比" 的点为 hotlinks。单击图表上的某个点将[在 "Skype For business" 服务器中打开 "呼叫列表" 报表](call-list-report-0.md)的一个实例, 显示指定时间段内的总通话 (或较差的通话)。
+在 "服务器媒体质量趋势" 报表显示的图形上，标记为 "呼叫音量" 和 "差通话百分比" 的点为 hotlinks。单击图表上的某个点将[在 "Skype For business" 服务器中打开 "呼叫列表" 报表](call-list-report-0.md)的一个实例，显示指定时间段内的总通话（或较差的通话）。
   
 ## <a name="filters"></a>筛选器
 

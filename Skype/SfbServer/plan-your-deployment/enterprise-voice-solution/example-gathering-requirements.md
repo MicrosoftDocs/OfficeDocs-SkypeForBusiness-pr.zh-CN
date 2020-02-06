@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: 提供有关在 Skype for Business Server Enterprise Voice 中规划呼叫许可控制的详细示例, 包括收集有关网络的网站、区域和带宽的信息。
-ms.openlocfilehash: 73a1a75f8619877d2c9228f910aa747aee36a8e0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 提供有关在 Skype for Business Server Enterprise Voice 中规划呼叫许可控制的详细示例，包括收集有关网络的网站、区域和带宽的信息。
+ms.openlocfilehash: bf33c70120adb65c88a6be05d2c04bf55e989b72
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276878"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802882"
 ---
-# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>示例: 在 Skype for Business 服务器中收集呼叫许可控制的要求
+# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>示例：在 Skype for Business 服务器中收集呼叫许可控制的要求
 
-提供有关在 Skype for Business Server Enterprise Voice 中规划呼叫许可控制的详细示例, 包括收集有关网络的网站、区域和带宽的信息。
+提供有关在 Skype for Business Server Enterprise Voice 中规划呼叫许可控制的详细示例，包括收集有关网络的网站、区域和带宽的信息。
 
 此示例显示如何规划和实现呼叫允许控制 (CAC)。总体来说，包括以下活动：
 
@@ -33,11 +35,11 @@ ms.locfileid: "34276878"
 
 3. 标识并定义连接到每个网络区域的网络站点。
 
-4. 对于与 WAN 的连接受带宽限制的每个网络站点, 请描述 WAN 连接的带宽容量和网络管理员为 Skype for business 服务器媒体流量设置的带宽限制 (如果适用)。 不需要包括与 WAN 的连接不受带宽限制的站点。
+4. 对于与 WAN 的连接受带宽限制的每个网络站点，请描述 WAN 连接的带宽容量和网络管理员为 Skype for business 服务器媒体流量设置的带宽限制（如果适用）。 不需要包括与 WAN 的连接不受带宽限制的站点。
 
 5. 将网络中的每个子网与一个网络站点相关联。
 
-6. 映射网络区域之间的链路。 对于每个链接, 描述其带宽容量和网络管理员在 Skype for Business 服务器媒体流量上所放置的任何限制。
+6. 映射网络区域之间的链路。 对于每个链接，描述其带宽容量和网络管理员在 Skype for Business 服务器媒体流量上所放置的任何限制。
 
 7. 定义每对网络区域之间的路由。
 
@@ -51,18 +53,18 @@ ms.locfileid: "34276878"
 
     示例拓扑具有三个网络区域：北美、EMEA 和 APAC。网络区域包含网络站点的集合。与网络管理员合作以定义企业的网络区域。
 
-2. 标识每个网络区域的关联中心网站。 中心网站包含至少一个前端服务器, 并且是用于管理通过网络区域的 WAN 连接传递的所有媒体流量的 CAC 的 Skype for business 服务器部署。
+2. 标识每个网络区域的关联中心网站。 中心网站包含至少一个前端服务器，并且是用于管理通过网络区域的 WAN 连接传递的所有媒体流量的 CAC 的 Skype for business 服务器部署。
 
    **分为三个网络区域的企业网络示例**
 
      ![包含 3 个网络区域的网络拓扑的示例](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > 多协议标签交换 (MPLS) 网络应代表一个网络区域，在该网络区域中，每个物理位置都具有一个相应的网络站点。 有关详细信息, 请参阅[Skype For business 中的 "呼叫许可控制" 组件和拓扑](components-and-topologies.md)。 
+    > 多协议标签交换 (MPLS) 网络应代表一个网络区域，在该网络区域中，每个物理位置都具有一个相应的网络站点。 有关详细信息，请参阅[Skype For business 中的 "呼叫许可控制" 组件和拓扑](components-and-topologies.md)。 
 
-    在上面的网络拓扑示例中, 有三个网络区域, 每个区域都有一个管理 CAC 的 Skype for business 服务器中央站点。 按地理距离选择网络区域相应的中央站点。 由于网络区域内的媒体流量最多，按地理距离选择中央站点使网络区域能够独立运行，因此即使其他中央站点不可用，网络区域也可以继续正常工作。 
+    在上面的网络拓扑示例中，有三个网络区域，每个区域都有一个管理 CAC 的 Skype for business 服务器中央站点。 按地理距离选择网络区域相应的中央站点。 由于网络区域内的媒体流量最多，按地理距离选择中央站点使网络区域能够独立运行，因此即使其他中央站点不可用，网络区域也可以继续正常工作。 
 
-    在此示例中, 名为芝加哥的 Skype for Business 部署是北美地区的中心网站。
+    在此示例中，名为芝加哥的 Skype for Business 部署是北美地区的中心网站。
 
     北美的所有 Skype for Business 用户均驻留在芝加哥部署中的服务器上。 下表显示了所有三个网络区域的中央站点。
 
@@ -75,7 +77,7 @@ ms.locfileid: "34276878"
     |APAC  <br/> |北京  <br/> |
 
     > [!NOTE]
-    > 根据您的 Skype for Business 服务器拓扑, 同一中心网站可以分配给多个网络区域。 
+    > 根据您的 Skype for Business 服务器拓扑，同一中心网站可以分配给多个网络区域。 
 
 3. 对于每个网络区域，标识其 WAN 连接不受带宽限制的所有网络站点（办公室或位置）。由于这些站点不受带宽限制，因此无需对其应用 CAC 带宽策略。
 
@@ -111,11 +113,11 @@ ms.locfileid: "34276878"
 
 5. 对于每个受带宽限制的 WAN 链路，需确定以下事项：
 
-   - 要为所有并发音频会话设置的总体带宽限制。 如果新的音频会话将导致超过此限制, 则 Skype for Business 服务器不允许会话启动。
+   - 要为所有并发音频会话设置的总体带宽限制。 如果新的音频会话将导致超过此限制，则 Skype for Business 服务器不允许会话启动。
 
    - 要为每个单独的音频会话设置的带宽限制。默认 CAC 带宽限制是 175 kbps，但是管理员可修改该值。
 
-   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超过此限制, 则 Skype for Business 服务器不允许会话启动。
+   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超过此限制，则 Skype for Business 服务器不允许会话启动。
 
    - 要为每个单独的视频会话设置的带宽限制。默认 CAC 带宽限制是 700 kbps，但是管理员可修改该值。
 
@@ -148,7 +150,7 @@ ms.locfileid: "34276878"
 
     **级别**：2
 
-    **说明**: 以下 ip 地址的子网: \<ip 地址\>列表未配置或子网未与网络站点关联。 
+    **说明**：以下 ip 地址的子网： \<ip 地址\>列表未配置或子网未与网络站点关联。 
 
     **原因**：网络配置设置中缺少相应 IP 地址的子网，或子网未与网络站点相关联。 
 
@@ -167,19 +169,19 @@ ms.locfileid: "34276878"
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
    | 阿尔伯克基  <br/> | 北美  <br/> | 5,000  <br/>      | 2,000  <br/>      | 175  <br/>              | 1,400  <br/>      | 700  <br/>              | 172.29.79.0/23、157.57.215.0/25、172.29.90.0/23、172.29.80.0/24  <br/> |
    | 里诺  <br/>        | 北美  <br/> | 10,000  <br/>     | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 157.57.210.0/23、172.28.151.128/25  <br/>                              |
-   | 波特兰  <br/>    | 北美  <br/> | 5,000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
+   | 波特兰  <br/>    | 北美  <br/> | 5,000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24，157.57.208.0/23  <br/>                  |
    | 纽约  <br/>    | 北美  <br/> | （没有限制）  <br/> | （没有限制）  <br/> | （没有限制）  <br/>       | （没有限制）  <br/> | （没有限制）  <br/>       | 172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24  <br/> |
    | 芝加哥  <br/>     | 北美  <br/> | （没有限制）  <br/> | （没有限制）  <br/> | （没有限制）  <br/>       | （没有限制）  <br/> | （没有限制）  <br/>       | 157.57.211.0/23、172.28.152.128/25  <br/>                              |
-   | 底特律  <br/>     | 北美  <br/> | （没有限制）  <br/> | （没有限制）  <br/> | （没有限制）  <br/>       | （没有限制）  <br/> | （没有限制）  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
+   | 底特律  <br/>     | 北美  <br/> | （没有限制）  <br/> | （没有限制）  <br/> | （没有限制）  <br/>       | （没有限制）  <br/> | （没有限制）  <br/>       | 172.29.78.0/24 10.71.109.0/24，157.57.209.0/23  <br/>                  |
 
 
-7. 在 Skype for Business 服务器呼叫许可控制中, 网络区域之间的连接称为区域链接。 对于每个区域链路，按照对网络站点执行的操作，确定以下事项：
+7. 在 Skype for Business 服务器呼叫许可控制中，网络区域之间的连接称为区域链接。 对于每个区域链路，按照对网络站点执行的操作，确定以下事项：
 
-   - 要为所有并发音频会话设置的总体带宽限制。 如果新的音频会话将导致超过此限制, 则 Skype for Business 服务器不允许会话启动。
+   - 要为所有并发音频会话设置的总体带宽限制。 如果新的音频会话将导致超过此限制，则 Skype for Business 服务器不允许会话启动。
 
    - 要为每个单独的音频会话设置的带宽限制。默认 CAC 带宽限制是 175 kbps，但是管理员可修改该值。
 
-   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超过此限制, 则 Skype for Business 服务器不允许会话启动。
+   - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超过此限制，则 Skype for Business 服务器不允许会话启动。
 
    - 要为每个单独的视频会话设置的带宽限制。默认 CAC 带宽限制是 700 kbps，但是管理员可修改该值。
 
@@ -213,11 +215,11 @@ ms.locfileid: "34276878"
 
 9. 对于通过单链路（称为站点间链路）直接进行连接的每对网络站点，需确定以下事项：
 
-     - 要为所有并发音频会话设置的总体带宽限制。 如果新的音频会话将导致超过此限制, 则 Skype for Business 服务器不允许会话启动。
+     - 要为所有并发音频会话设置的总体带宽限制。 如果新的音频会话将导致超过此限制，则 Skype for Business 服务器不允许会话启动。
 
      - 要为每个单独的音频会话设置的带宽限制。默认 CAC 带宽限制是 175 kbps，但是管理员可修改该值。
 
-     - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超过此限制, 则 Skype for Business 服务器不允许会话启动。
+     - 要为所有并发视频会话设置的总体带宽限制。 如果新的视频会话将导致超过此限制，则 Skype for Business 服务器不允许会话启动。
 
      - 要为每个单独的视频会话设置的带宽限制。默认 CAC 带宽限制是 700 kbps，但是管理员可修改该值。
 
@@ -233,9 +235,9 @@ ms.locfileid: "34276878"
 
 ### <a name="next-steps"></a>后续步骤
 
-收集所需信息后, 您可以使用 Skype for Business Server Management Shell 或 Skype for business Server 控制面板执行 CAC 部署。
+收集所需信息后，您可以使用 Skype for Business Server Management Shell 或 Skype for business Server 控制面板执行 CAC 部署。
 
 > [!NOTE]
-> 虽然您可以使用 Skype for Business Server 控制面板执行大多数网络配置任务, 但要创建子网和站点间链接, 则必须使用 Skype for Business Server 命令行管理程序。 有关详细信息，请参阅 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 和 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。 
+> 虽然您可以使用 Skype for Business Server 控制面板执行大多数网络配置任务，但要创建子网和站点间链接，则必须使用 Skype for Business Server 命令行管理程序。 有关详细信息，请参阅 [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 和 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。 
 
 

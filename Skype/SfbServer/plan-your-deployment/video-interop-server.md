@@ -7,17 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 f1.keywords:
-- ms.lync.plan.VideoInterop
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 摘要：在计划将 Skype for Business 服务器与第三方 teleconferencing 设备集成时，请查看本主题。
-ms.openlocfilehash: 5531fd60cc2aa28202903fcc4392fe7830bcdfa0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: af7618efa0b5f13419be216b37a4f1e7d4065e97
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684185"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815560"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Skype for business Server 中的视频互操作服务器计划
  

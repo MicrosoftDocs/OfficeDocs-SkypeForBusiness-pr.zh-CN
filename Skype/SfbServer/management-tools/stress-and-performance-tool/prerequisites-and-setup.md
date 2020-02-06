@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Skype for Business Server 2015 Stress and Performance Tool 的要求或先决条件。 如何安装或设置 Stress and Performance Tool。
-ms.openlocfilehash: 37aa89a0e6158b4623711ded8752eab2eb9d77ab
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f52d92022e09314a8f9467cd939f67b2827cc153
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299728"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816171"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Skype for Business Stress and Performance Tool 的先决条件和设置
  
@@ -81,6 +83,6 @@ Stress and Performance Tool 支持的操作系统有：
 
 安装非常简单。 你需要在要用来模拟用户流量的每台客户端计算机上以及要创建用户和联系人的每个池中的前端服务器上运行 Windows 安装程序文件 **CapacityPlanningTool.msi**。
   
-若要下载 .msi, 以及其他文章中提及的示例脚本, 请转到下载中心链接: Skype for business [Server 2015、应力和性能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
+若要下载 .msi，以及其他文章中提及的示例脚本，请转到下载中心链接： Skype for business [Server 2015、应力和性能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
   
 

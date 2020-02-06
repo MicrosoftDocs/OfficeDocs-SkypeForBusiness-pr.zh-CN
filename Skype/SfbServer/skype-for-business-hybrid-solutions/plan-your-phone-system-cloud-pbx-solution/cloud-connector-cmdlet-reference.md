@@ -8,31 +8,33 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: 下表列出了 Skype for Business 云连接器版本 cmdlet，并带有简要说明和指向详细信息的链接。
-ms.openlocfilehash: 58fed82857138bf9716db88648344e9140b29d6f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c82d81fe19af7c0f305ce18e0bbce83f944b5d73
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294379"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803712"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Cloud Connector cmdlet reference
  
 下表列出了 Skype for Business 云连接器版本 cmdlet，并带有简要说明和指向详细信息的链接。
   
 > [!NOTE]
-> 必须在云连接器主机计算机上运行所有 cmdlet, 并且必须以管理员身份运行 PowerShell 会话。 
+> 必须在云连接器主机计算机上运行所有 cmdlet，并且必须以管理员身份运行 PowerShell 会话。 
   
 |**Cmdlet 名称**|**说明**|
 |:-----|:-----|
 |[Backup-CcCertificationAuthority](backup-cccertificationauthority.md) <br/> 1.4.2 版及更高版本  <br/> |将证书颁发机构服务备份到一个文件中并将该文件保存到站点共享目录下的 CA 文件夹。     <br/> |
 |[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |使用客户提供的 Windows Server 2012 R2 ISO 文件创建基本虚拟硬盘文件 (VHDX)。该 VHDX 文件将在部署云连接器的过程中使用。  <br/> |
-|[Enter-CcUpdate](enter-ccupdate.md) <br/> |通过将更新过程置于维护模式来为其准备云连接器主机服务器。 装置已 "排放";也就是说, 所有现有通话都将完成, 但新通话将被拒绝。  <br/> |
+|[Enter-CcUpdate](enter-ccupdate.md) <br/> |通过将更新过程置于维护模式来为其准备云连接器主机服务器。 装置已 "排放";也就是说，所有现有通话都将完成，但新通话将被拒绝。  <br/> |
 |[Exit-CcUpdate](exit-ccupdate.md) <br/> |退出云连接器主机服务器上的 "更新维护模式"。  <br/> |
 |[Export-CcConfiguration](export-ccconfiguration.md) <br/> | 用于将 Skype for Business 云连接器版本配置导出到 Skype for Business 云连接器版本主机服务器上的一个本地文件。 <br/> |
-|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |将云连接器示例配置文件 (.ini) 导出到云连接器装置的装置目录中。 你可以修改和重命名该文件以用于你的部署。  <br/> |
+|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |将云连接器示例配置文件（.ini）导出到云连接器装置的装置目录中。 你可以修改和重命名该文件以用于你的部署。  <br/> |
 |[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> 1.4.2 版及更高版本   <br/> |将根 CA 证书导出到云连接器主机服务器上的本地文件。  <br/> |
 |[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |检索云连接器主机服务器上的工作目录。 所有部署文件都存储在此目录中。  <br/> |
 |[Get-CcApplianceLogDirectory](get-ccappliancelogdirectory.md) <br/> |显示用于存储云连接器装置日志的当前目录。  <br/> |
@@ -43,9 +45,9 @@ ms.locfileid: "34294379"
 |[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |显示存储云连接器的网站级日志的当前目录。  <br/> |
 |[Get-CcVersion](get-ccversion.md) <br/> 2.0 版及更高版本  <br/> |返回云连接器实例上的版本。Get-CCVersion 只能用于云连接器的主机。  <br/> |
 |[Import-CcConfiguration](import-ccconfiguration.md) <br/> 2.0 版及更高版本  <br/> |将 Skype for Business Cloud Connector Edition 配置从本地文件导入到云连接器主机服务器。  <br/> |
-|[Install-CcAppliance](install-ccappliance.md) <br/> |在主机服务器上安装云连接器设备 (包括广告、中央管理存储、中介服务器和边缘服务器虚拟机)。  <br/> |
-|[Publish-CcAppliance](publish-ccappliance.md) <br/> | 从联机租户配置获取高可用性信息, 并将其发布到主机服务器上的云连接器设备。 <br/> |
-|[Register-CcAppliance](register-ccappliance.md) <br/> | 将设备信息注册到联机租户配置中的 PSTN 站点。 必须先注册装置, 然后才能通过云连接器管理服务部署和管理该装置。 <br/> |
+|[Install-CcAppliance](install-ccappliance.md) <br/> |在主机服务器上安装云连接器设备（包括广告、中央管理存储、中介服务器和边缘服务器虚拟机）。  <br/> |
+|[Publish-CcAppliance](publish-ccappliance.md) <br/> | 从联机租户配置获取高可用性信息，并将其发布到主机服务器上的云连接器设备。 <br/> |
+|[Register-CcAppliance](register-ccappliance.md) <br/> | 将设备信息注册到联机租户配置中的 PSTN 站点。 必须先注册装置，然后才能通过云连接器管理服务部署和管理该装置。 <br/> |
 |[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md) <br/> 1.4.2 版及更高版本  <br/> |删除云连接器的网站共享目录下\<的\>CA 文件夹中的证书颁发机构服务备份文件 "SiteRootDirectory \CA\SfB CCE 根类"。  <br/> |
 |[Remove-CcLegacyServerCertificate](remove-cclegacyservercertificate.md) <br/> 1.4.2 版及更高版本  <br/> |在执行 Renew-CcCACertificate 或 Renew CcServerCertificate cmdlet 后，删除中央管理存储、中介服务器和边缘服务器上的旧服务器证书。  <br/> |
 |[Renew-CcCACertificate](renew-cccacertificate.md) <br/> 仅限于版本 1.4.2  <br/> |重新安装证书颁发机构服务 AD 服务器以创建新的根 CA 证书。  <br/> |

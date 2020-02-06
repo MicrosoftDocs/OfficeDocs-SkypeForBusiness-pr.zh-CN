@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要：了解如何在 Skype for Business 服务器中添加、删除、修补或更新前端服务器。
-ms.openlocfilehash: 3689b869ba715f431ebcf0b537b4106a66177c62
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: bc97faaf3ac36ff5cb74d6286aa7e75facbd98cb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991527"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817258"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>在 Skype for Business 服务器中管理前端服务器
  

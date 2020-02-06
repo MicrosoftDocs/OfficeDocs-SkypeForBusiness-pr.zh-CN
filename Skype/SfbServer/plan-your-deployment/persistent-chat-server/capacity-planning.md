@@ -8,32 +8,34 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-description: '摘要: 阅读本主题, 了解 Skype for business Server 2015 中持久聊天服务器的容量规划。'
-ms.openlocfilehash: 7aa76aecf183fc0872adf6f6040132310d54a989
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+description: 摘要：阅读本主题，了解 Skype for business Server 2015 中持久聊天服务器的容量规划。
+ms.openlocfilehash: 9f5571be81fbda47150bbde7edf5757ebdea8a4c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418489"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815770"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中持久聊天服务器的容量规划
  
-**摘要:** 阅读本主题, 了解 Skype for business Server 2015 中持久聊天服务器的容量规划。
+**摘要：** 阅读本主题，了解 Skype for business Server 2015 中持久聊天服务器的容量规划。
   
-持久聊天服务器可以执行可持续进行的多用户实时聊天, 以便将来检索和搜索。 与保存在用户邮箱中的组即时消息 (IM) 不同, 如果已配置对话历史记录, 持久聊天服务器会话将保持打开状态, 并将内容保存在服务器上, 以及邮件、文件、Url 和其他属于正在进行的对话。
+持久聊天服务器可以执行可持续进行的多用户实时聊天，以便将来检索和搜索。 与保存在用户邮箱中的组即时消息（IM）不同，如果已配置对话历史记录，持久聊天服务器会话将保持打开状态，并将内容保存在服务器上，以及邮件、文件、Url 和其他属于正在进行的对话。
   
 容量规划是准备部署持久聊天服务器的重要部分。 本主题提供了可用于为部署确定最佳配置的容量规划表。 它还介绍了如何最好地管理在高峰时段需要更大容量的持久聊天服务器部署。
   
 在阅读本节之前，应熟悉持久聊天拓扑。 如需了解详细信息，请参阅[Plan Persistent Chat Server topology](topology.md)。
 
 > [!NOTE] 
-> Skype for business Server 2015 中提供了持久聊天, 但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息, 请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天, 您可以选择将需要此功能的用户迁移到团队, 或继续使用 Skype for Business Server 2015。 
+> Skype for business Server 2015 中提供了持久聊天，但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息，请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天，您可以选择将需要此功能的用户迁移到团队，或继续使用 Skype for Business Server 2015。 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>持久聊天服务器容量规划
 
-下表通过建模各种持久聊天服务器设置对容量的影响, 可帮助你进行持久聊天服务器的容量规划。
+下表通过建模各种持久聊天服务器设置对容量的影响，可帮助你进行持久聊天服务器的容量规划。
   
 - 用户数量容量规划
     
@@ -57,7 +59,7 @@ ms.locfileid: "35418489"
 |设置的用户总数  <br/> |150,000  <br/> |
 |终结点数量  <br/> |120,000  <br/> |
    
-在前面的示例中, 计划支持持久聊天服务器允许的最大用户数: 四个服务器/持久聊天服务实例 (可以有四个更多的被动服务器, 运行持久聊天服务器以获得高可用性和灾难恢复) 和每台服务器20000用户, 共80000个活动用户。
+在前面的示例中，计划支持持久聊天服务器允许的最大用户数： "持久聊天" 服务的四个服务器/实例（可以有4个以上的被动服务器）和每台服务器的20000用户，共80000个活动用户。
   
 ### <a name="plan-capacity-for-chat-room-access"></a>聊天室访问容量规划
 
@@ -86,7 +88,7 @@ ms.locfileid: "35418489"
 |所有大会堂聊天室中基于用户和用户组的实体数量  <br/> |0  <br/> |192  <br/> |50  <br/> ||
 |所有聊天室管理者列表中基于用户和用户组的管理者实体数量  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |每个聊天室的活动用户数量  <br/> |大约  <br/> |150  <br/> |16,000  <br/> ||
-|每个用户的聊天室数量  <br/> |至  <br/> |2  <br/> |2  <br/> |utf-16  <br/> |
+|每个用户的聊天室数量  <br/> |至  <br/> |2  <br/> |ppls-2  <br/> |utf-16  <br/> |
 |每个聊天室的成员身份列表中的用户组  <br/> |10  <br/> |10  <br/> |岁  <br/> ||
 |用户组管理的聊天室比率  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |所有聊天室中基于用户组的成员实体数量  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
@@ -96,7 +98,7 @@ ms.locfileid: "35418489"
 |访问控制项数量  <br/> |704,160  <br/> |26,768  <br/> |160  <br/> |731,088  <br/> |
 |最大访问控制项数量  <br/> ||||2,000,000  <br/> |
    
-在前面的示例中, 当你根据推荐的指南部署持久聊天服务器时, 他们最多可以在启用了合规性的四个服务器池中处理最多80000个活动用户。
+在前面的示例中，当你根据推荐的指南部署持久聊天服务器时，他们最多可以在启用了合规性的四个服务器池中处理最多80000个活动用户。
   
 该示例显示按小（在任何给定时间具有 30 个活动用户）、中（150 个活动用户）和大（16,000 个活动用户）进行分类的聊天室。根据以下总数计算所支持的上表指定大小的聊天室数量：
   
@@ -113,12 +115,12 @@ ms.locfileid: "35418489"
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>管理邀请的聊天室访问的容量规划
 
-当配置为发送邀请时, 可以使用以下容量规划表了解持久聊天服务器在持久聊天数据库中创建和存储的邀请数。 通过使用 Skype for Business Server 控制面板中的 "**聊天室类别设置**" 页面或使用 Windows PowerShell cmdlet **csPersistentChatCategory**, 可在类别上管理邀请。 通过使用从 Skype for Business 客户端启动的 "**会议室管理**" 页面, 或者使用 Windows PowerShell cmdlet **csPersistentChatRoom**, 您可以在聊天室 (使用类别允许的方式) 管理邀请。
+当配置为发送邀请时，可以使用以下容量规划表了解持久聊天服务器在持久聊天数据库中创建和存储的邀请数。 通过使用 Skype for Business Server 控制面板中的 "**聊天室类别设置**" 页面或使用 Windows PowerShell cmdlet **csPersistentChatCategory**，可在类别上管理邀请。 通过使用从 Skype for Business 客户端启动的 "**会议室管理**" 页面，或者使用 Windows PowerShell cmdlet **csPersistentChatRoom**，您可以在聊天室（使用类别允许的方式）管理邀请。
   
 下表中的示例数据假定在 50% 聊天室的“**聊天室设置**”页面上，“**邀请**”选项设置为“**是**”。
   
 > [!IMPORTANT]
-> 如果计算出的服务器生成的邀请数量超过 100 万，服务器性能可能会显著降低。 若要避免此问题, 请确保将配置为发送邀请的聊天室的数量减到最少, 或者限制可加入聊天室的用户数, 这些聊天室已配置为发送邀请。 
+> 如果计算出的服务器生成的邀请数量超过 100 万，服务器性能可能会显著降低。 若要避免此问题，请确保将配置为发送邀请的聊天室的数量减到最少，或者限制可加入聊天室的用户数，这些聊天室已配置为发送邀请。 
   
 **邀请的聊天室访问示例**
 
@@ -157,8 +159,8 @@ ms.locfileid: "35418489"
 |大聊天室的数量  <br/> |10  <br/> |
 |每个用户的聊天室总数  <br/> |utf-16  <br/> |
 |每个用户的小聊天室数量  <br/> |至  <br/> |
-|每个用户的中聊天室数量  <br/> |2  <br/> |
-|每个用户的大聊天室数量  <br/> |2  <br/> |
+|每个用户的中聊天室数量  <br/> |ppls-2  <br/> |
+|每个用户的大聊天室数量  <br/> |ppls-2  <br/> |
 |每个用户加入的聊天室数  <br/> |全  <br/> |
 |峰值加入速率  <br/> |10 个/秒  <br/> |
 |总聊天速率  <br/> |24 个/秒  <br/> |

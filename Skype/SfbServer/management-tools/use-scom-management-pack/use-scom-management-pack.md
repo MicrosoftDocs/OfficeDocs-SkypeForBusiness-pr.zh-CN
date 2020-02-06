@@ -8,16 +8,18 @@ ms.date: 2/13/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 摘要：了解如何配置 Skype for Business Server 2015 基础结构以与 System Center Operations Manager 配合使用。
-ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 7982cd26b512574864e2d53d9c8ef771781348f7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "36824545"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816101"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>使用 SCOM 管理包管理 Skype for Business Server 2015
  

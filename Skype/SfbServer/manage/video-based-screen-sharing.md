@@ -8,15 +8,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: 基于视频的屏幕共享的 Skype for business 服务器规划和配置信息（VbSS）
-ms.openlocfilehash: 00c699f9a26d82506bd13fefe0e6f3e53f7b86bf
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: f0d474772b94389c1d69264be61b3bee2b46a385
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992389"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817042"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>适用于 Skype for Business Server 的基于视频的屏幕共享 
  

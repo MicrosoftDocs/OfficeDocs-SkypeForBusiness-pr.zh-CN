@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 管理员报告是有关部署和操作的详细信息。 这些报告是基于“设计站点”中标记的选择而生成的。 设计师可以通过编辑网络图并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定的域名 (FQDN)，来进一步向管理员报告中添加值。
-ms.openlocfilehash: 22b3628c5c2a499d57a6bfdd1d90fe3b79b90e85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae6dba3f5967fcd10618a8ab53c754a4f38da748
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288983"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816291"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
@@ -59,16 +61,16 @@ Skype for Business 管理员报告是记录你的设计详细信息的四个有�
 
 ![证书管理报告](../../media/Certificates_Report_Admin_Report.png)
 
-仔细阅读并确保了解部署中每个证书的用法和用途。 如果对证书用途有疑问，请确定是何种服务器或服务在与何种对象通信。 Skype for Business Server 2015 中的证书用于两个主要用途:
+仔细阅读并确保了解部署中每个证书的用法和用途。 如果对证书用途有疑问，请确定是何种服务器或服务在与何种对象通信。 Skype for Business Server 2015 中的证书用于两个主要用途：
 
-- 相互传输层安全性 (MTLS)-通信中涉及的计算机都提供了向其他计算机证明其身份的证书。 这称为服务器身份验证。 通信无法开始, 直到每台计算机都信任另一台计算机的标识。
+- 相互传输层安全性（MTLS）-通信中涉及的计算机都提供了向其他计算机证明其身份的证书。 这称为服务器身份验证。 通信无法开始，直到每台计算机都信任另一台计算机的标识。
 
-- 加密加密 (安全套接字层或 SSL, 以及传输层安全性或 TLS) 是一种有助于确保通信安全、帮助确保隐私以及创建受信任的通信和协作系统的关键方法。
+- 加密加密（安全套接字层或 SSL，以及传输层安全性或 TLS）是一种有助于确保通信安全、帮助确保隐私以及创建受信任的通信和协作系统的关键方法。
 
 ## <a name="review-the-firewall-report"></a>查看防火墙报告
 <a name="Firewall_report"> </a>
 
-Skype for Business 服务器2015具有一组可能复杂的防火墙规则。 计划工具通过生成基于设计器的输入条件来详细定义所有防火墙要求的报表, 降低了这种复杂性。 IT 防火墙管理员将能够使用此报告配置和定义所需的规则。
+Skype for Business 服务器2015具有一组可能复杂的防火墙规则。 计划工具通过生成基于设计器的输入条件来详细定义所有防火墙要求的报表，降低了这种复杂性。 IT 防火墙管理员将能够使用此报告配置和定义所需的规则。
 
 从防火墙管理的角度考虑，应仔细查看此报告以确保与现有防火墙规则没有冲突，并且没有违反任何策略或过程。
 

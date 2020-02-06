@@ -8,15 +8,17 @@ ms.date: 8/8/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: Get-CcCredential cmdlet 用于返回当前 Skype for Business 云连接器版本部署的凭据。
-ms.openlocfilehash: 46c51783361ad6613d1e2971600969b324f0f350
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c4e2d47ffc31eb7afef76c710fc93024ce2c593e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003382"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41800392"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  

@@ -8,18 +8,17 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.MediationCollocation
-- ms.lync.plan.MediationCollocation
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 默认情况下，中介服务器与前端服务器 collocated。 由于性能原因，中介服务器也可以部署在独立的池中，或者，如果你部署 SIP 中继，强烈建议使用独立池。 Skype for business Server 中的 Collocation 功能与 Lync Server 2013 中的功能一样。 有关详细信息，请参阅以下主题：
-ms.openlocfilehash: 9e5d4df566e86473d132ddd7c3c112d7399bedde
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fa759b18a358858309b081e8f533240f87bff7fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696247"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816351"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  

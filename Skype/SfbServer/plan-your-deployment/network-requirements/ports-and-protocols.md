@@ -8,41 +8,43 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
-description: '摘要: 在实施 Skype for Business 服务器之前, 请查看端口使用注意事项。'
-ms.openlocfilehash: 613067d90da4fb06811ca1497c83237019b3c021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：在实施 Skype for Business 服务器之前，请查看端口使用注意事项。
+ms.openlocfilehash: ca790f2ca4ff1504ab4851fedfbba086e251d91a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297020"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802012"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  
-**摘要:** 在实施 Skype for Business 服务器之前, 请查看端口使用注意事项。
+**摘要：** 在实施 Skype for Business 服务器之前，请查看端口使用注意事项。
   
 Skype for business 服务器要求外部防火墙和内部防火墙上的特定端口处于打开状态。 此外，如果在您的组织中部署了 Internet 协议安全性 (IPsec)，则必须在用于传送音频、视频和全景视频的端口范围内禁用 IPSec。 
   
-虽然这看起来可能有点令人望而生畏, 但这可能会使规划的工作量非常繁重, 因为它可以使用[Skype For Business Server 2015 规划工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)完成。 完成了向导的有关计划使用哪些功能的问题后, 对于你定义的每个网站, 你可以在 Edge 管理报表内查看防火墙报表, 并使用其中列出的信息创建 yourfirewall 规则。 您还可以调整所使用的许多名称和 IP 地址, 有关详细信息, 请参阅[查看防火墙报告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 请记住, 你可以将 Edge 管理员报表导出为 Excel 电子表格, 并且防火墙报表将是文件中的工作表之一。 
+虽然这看起来可能有点令人望而生畏，但这可能会使规划的工作量非常繁重，因为它可以使用[Skype For Business Server 2015 规划工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)完成。 完成了向导的有关计划使用哪些功能的问题后，对于你定义的每个网站，你可以在 Edge 管理报表内查看防火墙报表，并使用其中列出的信息创建 yourfirewall 规则。 您还可以调整所使用的许多名称和 IP 地址，有关详细信息，请参阅[查看防火墙报告](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 请记住，你可以将 Edge 管理员报表导出为 Excel 电子表格，并且防火墙报表将是文件中的工作表之一。 
   
-您还可以通过查看与[Skype For Business Server 2015 文章的技术图表](../../technical-diagrams.md)相关联的协议工作负荷海报, 在 "图表" 窗体中查找这些表中的信息。
+您还可以通过查看与[Skype For Business Server 2015 文章的技术图表](../../technical-diagrams.md)相关联的协议工作负荷海报，在 "图表" 窗体中查找这些表中的信息。
 > [!NOTE]
-> - 如果你要实现 Skype for Business Online (O365), 请参阅[Office 365 url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境将需要参考本主题, 还需要[规划混合连接](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)。
-> - 你可以拥有硬件或软件防火墙, 我们不需要特定的模型或版本。 重要的是哪些端口是白名单, 因此防火墙不会影响 Skype for Business 服务器的功能。
+> - 如果你要实现 Skype for Business Online （O365），请参阅[Office 365 url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境将需要参考本主题，还需要[规划混合连接](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)。
+> - 你可以拥有硬件或软件防火墙，我们不需要特定的模型或版本。 重要的是哪些端口是白名单，因此防火墙不会影响 Skype for Business 服务器的功能。
   
 ## <a name="port-and-protocol-details"></a>端口和协议详细信息
 
 本部分概述了 Skype for Business Server 部署中的服务器、负载平衡器和客户端使用的端口和协议。
   
 > [!NOTE]
-> 当 Skype for Business 服务器启动时, 它将在 Windows 防火墙中打开所需的端口。 Windows 防火墙应该已在大多数普通应用程序中运行, 但如果未使用 Skype for Business 服务器, 则不能正常运行。 
+> 当 Skype for Business 服务器启动时，它将在 Windows 防火墙中打开所需的端口。 Windows 防火墙应该已在大多数普通应用程序中运行，但如果未使用 Skype for Business 服务器，则不能正常运行。 
   
-有关 edge 组件的防火墙配置的详细信息, 请参阅[Skype For Business server 2015 中的边缘服务器方案](../../plan-your-deployment/edge-server-deployments/scenarios.md)。 
+有关 edge 组件的防火墙配置的详细信息，请参阅[Skype For Business server 2015 中的边缘服务器方案](../../plan-your-deployment/edge-server-deployments/scenarios.md)。 
   
 下表依据每个内部服务器角色列出了需要打开的端口。 
   
@@ -53,11 +55,11 @@ Skype for business 服务器要求外部防火墙和内部防火墙上的特定�
 |所有服务器  |SQL 浏览器  |1434  |UDP  |中央管理存储数据库的本地复制副本的 SQL 浏览器。  |
 |前端服务器  |Skype for Business 服务器前端服务  |5060  |TCP  |（可选）Standard Edition Server 和前端服务器用于静态路由到受信任服务，例如，远程呼叫控制服务器。  |
 |前端服务器  |Skype for Business 服务器前端服务  |5061  | TCP (TLS) |Standard Edition Server 和前端池用于在服务器 (MTLS) 之间进行所有的内部 SIP 通信、在服务器和客户端 (TLS) 之间进行 SIP 通信，以及在前端服务器和中介服务器 (MTLS) 之间进行 SIP 通信。还用于与监控服务器进行通信。  |
-| 前端服务器 |Skype for Business 服务器前端服务  |444  | HTTPS <br/> TCP  |用于关注焦点 (管理会议状态的 Skype for business 服务器组件) 和各个服务器之间的 HTTPS 通信。  <br/> 此端口还用于 Survivable 分支装置和前端服务器之间的 TCP 通信。  |
+| 前端服务器 |Skype for Business 服务器前端服务  |444  | HTTPS <br/> TCP  |用于关注焦点（管理会议状态的 Skype for business 服务器组件）和各个服务器之间的 HTTPS 通信。  <br/> 此端口还用于 Survivable 分支装置和前端服务器之间的 TCP 通信。  |
 |前端服务器  |Skype for Business 服务器前端服务  |135  |DCOM 和远程过程调用 (RPC)  |用于基于 DCOM 的操作，例如，移动用户、用户复制程序同步和通讯簿同步。  |
 |前端服务器  |Skype for Business 服务器 IM 会议服务  |5062  |TCP  |用于即时消息 (IM) 会议的传入 SIP 请求。  |
 |前端服务器  |Skype for Business 服务器 Web 会议服务  |8057  |TCP (TLS)  |用于侦听来自客户端的持续性共享对象模型 (PSOM) 连接。  |
-|前端服务器  |Skype for Business 服务器 Web 会议兼容性服务  |8058  |TCP (TLS)  |用于从 Live Meeting 客户端和以前版本的 Skype for Business 服务器侦听永久共享对象模型 (PSOM) 连接。  |
+|前端服务器  |Skype for Business 服务器 Web 会议兼容性服务  |8058  |TCP (TLS)  |用于从 Live Meeting 客户端和以前版本的 Skype for Business 服务器侦听永久共享对象模型（PSOM）连接。  |
 |前端服务器  |Skype for Business 服务器音频/视频会议服务  |5063  |TCP  |用于音频/视频 (A/V) 会议的传入 SIP 请求。  |
 |前端服务器  |Skype for Business 服务器音频/视频会议服务  |57501-65535  |TCP/UDP  |用于视频会议的媒体端口范围。  |
 |前端服务器  |Skype for Business 服务器 Web 兼容性服务  |80  |HTTP  |用于未使用 HTTPS 时从前端服务器到 Web 场 FQDN（IIS Web 组件使用的 URL）的通信。  |
@@ -69,8 +71,8 @@ Skype for business 服务器要求外部防火墙和内部防火墙上的特定�
 |前端服务器  |Mobility Service 组件  |5086  |TCP (MTLS)  |Mobility Service 内部过程所使用的 SIP 端口。  |
 |前端服务器  |Mobility Service 组件  |5087  |TCP (MTLS)  |Mobility Service 内部过程所使用的 SIP 端口。  |
 |前端服务器  |Mobility Service 组件  |443  |HTTPS  ||
-|前端服务器  |Skype for Business 服务器会议助理服务 (电话拨入式会议)  |5064  |TCP  |用于电话拨入式会议的传入 SIP 请求。  |
-|前端服务器  |Skype for Business 服务器会议助理服务 (电话拨入式会议)  |5072  |TCP  |用于对助理 (拨入式会议) 的传入 SIP 请求。  |
+|前端服务器  |Skype for Business 服务器会议助理服务（电话拨入式会议）  |5064  |TCP  |用于电话拨入式会议的传入 SIP 请求。  |
+|前端服务器  |Skype for Business 服务器会议助理服务（电话拨入式会议）  |5072  |TCP  |用于对助理（拨入式会议）的传入 SIP 请求。  |
 |也运行并置中介服务器的前端服务器  |Skype for Business Server 中介服务  |5070  |TCP  |中介服务器用于从前端服务器到中介服务器的传入请求。  |
 |也运行并置中介服务器的前端服务器  |Skype for Business Server 中介服务  |5067  |TCP (TLS)  |用于从 PSTN 网关到中介服务器的传入 SIP 请求。  |
 |也运行并置中介服务器的前端服务器  |Skype for Business Server 中介服务  |5068  |TCP  |用于从 PSTN 网关到中介服务器的传入 SIP 请求。  |
@@ -78,7 +80,7 @@ Skype for business 服务器要求外部防火墙和内部防火墙上的特定�
 |也运行并置中介服务器的前端服务器  |Skype for Business Server 中介服务  |5082  |TCP (TLS)  |用于从中介服务器到 PSTN 网关的传出 SIP 请求。  |
 |前端服务器  |Skype for Business 服务器应用程序共享服务  |5065  |TCP  |用于应用程序共享的传入 SIP 侦听请求。  |
 |前端服务器  |Skype for Business 服务器应用程序共享服务  |49152-65535  |TCP  |用于应用程序共享的媒体端口范围。  |
-|前端服务器  |Skype for Business Server 会议公告服务  |5073  |TCP  |用于 Skype for Business Server 会议公告服务 (即电话拨入式会议) 的传入 SIP 请求。  |
+|前端服务器  |Skype for Business Server 会议公告服务  |5073  |TCP  |用于 Skype for Business Server 会议公告服务（即电话拨入式会议）的传入 SIP 请求。  |
 |前端服务器  |Skype for Business 服务器呼叫寄存服务  |5075  |TCP  |用于呼叫寄存应用程序的传入 SIP 请求。  |
 |前端服务器  |Skype for Business 服务器音频测试服务  |5076  |TCP  |用于音频测试服务的传入 SIP 请求。  |
 |前端服务器  |不适用  |5066  |TCP  |用于出站增强型 9-1-1 (E9-1-1) 网关。  |
@@ -89,10 +91,10 @@ Skype for business 服务器要求外部防火墙和内部防火墙上的特定�
 |前端服务器  |Skype for Business 服务器带宽策略服务  |448  |TCP  |用于 Skype for Business Server 带宽策略服务的呼叫许可控制。  |
 |中央管理存储所在的前端服务器  | Skype for Business 服务器主复制程序代理服务 |445  |TCP  |用于将配置数据从中央管理存储推送到运行 Skype for business Server 的服务器。  |
 |所有服务器  |SQL 浏览器  |1434  |UDP  |本地 SQL Server 实例中中央管理存储数据的本地复制副本的 SQL 浏览器  |
-|所有内部服务器  |各种  |49152-57500  |TCP/UDP  |用于所有内部服务器上的音频会议的媒体端口范围。 由终止音频的所有服务器使用: 前端服务器 (适用于 Skype for business Server 会议助理服务、Skype for business Server 会议公告服务和 Skype for Business Server 音频/视频会议服务) 和中介服务器。  |
+|所有内部服务器  |各种  |49152-57500  |TCP/UDP  |用于所有内部服务器上的音频会议的媒体端口范围。 由终止音频的所有服务器使用：前端服务器（适用于 Skype for business 服务器会议助理服务、Skype for business Server 会议公告服务和 Skype for Business Server 音频/视频会议服务）和中介服务器。  |
 |Office Web Apps Servers  ||443  ||供 Skype for Business 服务器用于连接到 Office Web Apps 服务器。  |
 |控制器  |Skype for Business 服务器前端服务  |5060  |TCP  |（可选）用于静态路由到受信任服务，例如，远程呼叫控制服务器。  |
-|控制器  |Skype for Business 服务器前端服务  |444  |HTTPS  <br/> TCP  |前端与控制器之间的服务器间通信。 此外, 客户端证书发布 (到前端服务器) 或验证客户端证书是否已发布。  |
+|控制器  |Skype for Business 服务器前端服务  |444  |HTTPS  <br/> TCP  |前端与控制器之间的服务器间通信。 此外，客户端证书发布（到前端服务器）或验证客户端证书是否已发布。  |
 |控制器  |Skype for Business 服务器 Web 兼容性服务  |80  |TCP  |用于从控制器到 Web 场 FQDN（IIS Web 组件使用的 URL）的初始通信。在常规操作中，将使用端口 443 和协议类型 TCP 切换到 HTTPS 通信。  |
 |控制器  |Skype for Business 服务器 Web 兼容性服务  |443  |HTTPS  |用于从控制器到 Web 场 FQDN（IIS Web 组件使用的 URL）之间的通信。  |
 |控制器  |Skype for Business 服务器前端服务  |5061  |TCP  |用于服务器之间的内部通信和客户端连接。  |
@@ -105,7 +107,7 @@ Skype for business 服务器要求外部防火墙和内部防火墙上的特定�
 |持久聊天前端服务器  |持久聊天文件传输服务  |443  |TCP (TLS)  ||
    
 > [!NOTE]
-> 某些远程呼叫控制方案需要前端服务器或控制器与 PBX 之间的 TCP 连接。 虽然 Skype for Business 服务器不再使用 TCP 端口 5060, 但在远程呼叫控制部署期间, 你可以创建受信任的服务器配置, 这会将 RCC 线路服务器 FQDN 与前端服务器或控制器用于连接的 TCP 端口相关联PBX 系统。 有关详细信息, 请参阅 Skype for Business 服务器管理外壳文档中的**CsTrustedApplicationComputer** cmdlet。
+> 某些远程呼叫控制方案需要前端服务器或控制器与 PBX 之间的 TCP 连接。 虽然 Skype for Business 服务器不再使用 TCP 端口5060，但在远程呼叫控制部署期间，你可以创建受信任的服务器配置，这会将 RCC 线路服务器 FQDN 与前端服务器或控制器用于连接的 TCP 端口相关联PBX 系统。 有关详细信息，请参阅 Skype for Business 服务器管理外壳文档中的**CsTrustedApplicationComputer** cmdlet。
   
 对于仅使用硬件负载平衡（不是 DNS 负载平衡）的池，下表显示了需要打开硬件负载平衡器的端口。
   
@@ -151,7 +153,7 @@ Skype for business 服务器要求外部防火墙和内部防火墙上的特定�
 
 |组件|端口|协议|备注|
 |:-----|:-----|:-----|:-----|
-|客户端  |67/68  |DHCP  |由 Skype for Business 服务器用于查找注册机构 FQDN (即, 如果 DNS SRV 失败, 并且未配置手动设置)。  |
+|客户端  |67/68  |DHCP  |由 Skype for Business 服务器用于查找注册机构 FQDN （即，如果 DNS SRV 失败，并且未配置手动设置）。  |
 |客户端  |443  |TCP (TLS)  |用于外部用户访问的客户端到服务器 SIP 通信。  |
 |客户端  |443  |TCP (PSOM/TLS)  |用于外部用户访问 Web 会议会话。  |
 |客户端  |443  |TCP (STUN/MSTURN)  |用于外部用户访问 A/V 会话和媒体 (TCP)。  |
@@ -164,13 +166,13 @@ Skype for business 服务器要求外部防火墙和内部防火墙上的特定�
 |客户端  |1024-65535\*  |TCP  |应用程序共享。  |
 |Aastra 6721ip 公用区域电话  <br/> Aastra 6725ip 桌面电话  <br/> HP 4110 IP Phone（公用区域电话）  <br/> HP 4120 IP Phone（桌面电话）  <br/> Polycom CX500 IP 公用区域电话  <br/> Polycom CX600 IP 桌面电话  <br/> Polycom CX700 IP 桌面电话  <br/> Polycom CX3000 IP 会议电话  |67/68  |DHCP  |由列出的设备用于查找 Skype for Business 服务器证书、配置 FQDN 和注册机构 FQDN。  |
    
-\*若要为这些媒体类型配置特定端口, 请使用 CsConferencingConfiguration cmdlet (ClientMediaPortRangeEnabled、ClientMediaPort 和 ClientMediaPortRange 参数)。
+\*若要为这些媒体类型配置特定端口，请使用 CsConferencingConfiguration cmdlet （ClientMediaPortRangeEnabled、ClientMediaPort 和 ClientMediaPortRange 参数）。
   
 > [!NOTE]
 > Skype for business 客户端的安装程序会自动在客户端计算机上创建所需的操作系统防火墙例外。 
 
 > [!NOTE]
-> 客户端必须遍历组织的防火墙 (例如, 任何外部通信或其他组织托管的会议) 的情况下, 需要用于外部用户访问的端口。 
+> 客户端必须遍历组织的防火墙（例如，任何外部通信或其他组织托管的会议）的情况下，需要用于外部用户访问的端口。 
   
 ## <a name="ipsec-exceptions"></a>IPsec 例外
 

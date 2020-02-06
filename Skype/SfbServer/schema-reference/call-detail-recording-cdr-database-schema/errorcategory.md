@@ -8,19 +8,21 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
-description: 'ErrorCategory 表包含每个 Skype for Business Server 2015 诊断分类的友好名称。 默认情况下, Skype for business Server 2015 使用以下分类:'
-ms.openlocfilehash: bafeb75ee9e6ae0f96b08e26909828f1b36f7e7b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: ErrorCategory 表包含每个 Skype for Business Server 2015 诊断分类的友好名称。 默认情况下，Skype for business Server 2015 使用以下分类：
+ms.openlocfilehash: f3ad3f86a382b900d53c5e86140a46d7f32ca1c1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296285"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815250"
 ---
 # <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 中的 ErrorCategory 表
  
-ErrorCategory 表包含每个 Skype for Business Server 2015 诊断分类的友好名称。 默认情况下, Skype for business Server 2015 使用以下分类:
+ErrorCategory 表包含每个 Skype for Business Server 2015 诊断分类的友好名称。 默认情况下，Skype for business Server 2015 使用以下分类：
   
 - 0--成功
     

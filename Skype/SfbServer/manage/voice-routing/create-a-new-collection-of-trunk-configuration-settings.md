@@ -7,32 +7,34 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
-description: SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络 (PSTN) 网关、IP 公共分支 exchange (PBX) 或会话边界控制器 (SBC) 之间的关系和能力。
-ms.openlocfilehash: 884116e8ac6cb5818c026123c652f439f44dc374
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。
+ms.openlocfilehash: 6db4978151bf9b649375adb7a2200710a1a503c3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275036"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817002"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建新的主干配置设置集合
 
-SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络 (PSTN) 网关、IP 公共分支 exchange (PBX) 或会话边界控制器 (SBC) 之间的关系和能力。 这些设置可执行如下所指定内容的操作：
+SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。 这些设置可执行如下所指定内容的操作：
 - 是否在中继上启用媒体旁路功能。
-- 发送实时传输控制协议 (RTCP) 数据包的条件。
-- 每个主干上是否需要安全的实时协议 (SRTP) 加密。
+- 发送实时传输控制协议（RTCP）数据包的条件。
+- 每个主干上是否需要安全的实时协议（SRTP）加密。
 
-安装 Skype for Business 服务器时, 将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
+安装 Skype for Business 服务器时，将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。
 
-创建 SIP 中继配置设置 usingSkype for Business Server 控制面板时, 可以使用以下选项:
+创建 SIP 中继配置设置 usingSkype for Business Server 控制面板时，可以使用以下选项：
 
 |UI 设置 | PowerShell 参数 | 说明 |
 |--|--|--|
 |名称|Identity|集合的唯一标识符。此属性为只读；您无法更改中继配置设置集合的标识。|
 |描述|描述|为管理员提供了存储有关设置的附加信息（例如，中继配置的用途）的方法。|
 |支持的最大早期对话数|MaxEarlyDialogs|服务提供商的 PSTN 网关、IP-PBX 或 SBC 可以接收的分叉响应的最大数目，这些响应是针对发送到中介服务器的邀请的。|
-|加密支持级别|SRTPMode|指示用于保护中介服务器与服务提供商的 PSTN 网关、IP-PBX 或 SBC 之间的媒体流量的支持级别。 对于媒体旁路情况，该值必须与媒体配置中的 EncryptionLevel 设置兼容。 通过使用[CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration)和[CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration) cmdlet 设置媒体配置。<br/>允许的值包括：<br/><br/>**必需**: 必须使用 SRTP 加密。<br/>**可选**: 如果网关支持, 则使用 SRTP。<br/>**不支持**: SRTP 加密不受支持, 因此不会使用。<br/><br/>仅当网关配置为使用传输层安全性 (TLS) 时，才会使用 SRTPMode。如果将网关配置为使用传输控制协议 (TCP)，则 SRTPMode 会在内部设置为“Not Supported”。|
+|加密支持级别|SRTPMode|指示用于保护中介服务器与服务提供商的 PSTN 网关、IP-PBX 或 SBC 之间的媒体流量的支持级别。 对于媒体旁路情况，该值必须与媒体配置中的 EncryptionLevel 设置兼容。 通过使用[CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration)和[CsMediaConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration) cmdlet 设置媒体配置。<br/>允许的值包括：<br/><br/>**必需**：必须使用 SRTP 加密。<br/>**可选**：如果网关支持，则使用 SRTP。<br/>**不支持**： SRTP 加密不受支持，因此不会使用。<br/><br/>仅当网关配置为使用传输层安全性 (TLS) 时，才会使用 SRTPMode。如果将网关配置为使用传输控制协议 (TCP)，则 SRTPMode 会在内部设置为“Not Supported”。|
 |引用支持|Enable3pccRefer<br/>EnableReferSupport|如果设置为“允许将引用发送到网关”****，则指示中继支持接收来自中介服务器的引用请求。<br/>如果设置为“允许使用第三方呼叫控制的引用”****，则指示 3pcc 协议可用于允许转接的呼叫绕过宿主网站。3pcc 也称为“第三方协议”，当使用第三方连接一对呼叫者时将会出现（例如，运营商发出从人员 A 到人员 B 的呼叫）。|
 |启用媒体旁路|EnableBypass|指示是否为此中继启用媒体旁路。仅当启用了“集中式媒体处理”**** 时才能启用媒体旁路。|
 |集中式媒体处理|ConcentratedTopology|指示是否有已知的媒体终结点。（例如，PSTN 网关就是一个已知的媒体端点，其中媒体终端与信号终端具有相同的 IP。）|
@@ -50,14 +52,14 @@ SIP 中继配置设置定义了在服务提供商处中介服务器和公共交�
 ||||
 
 > [!Note]
-> Skype for business Server New-cstrunkconfiguration cmdlet 支持 Skype for Business Server 控制面板中未显示的其他属性。 有关详细信息, 请参阅[new-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration) cmdlet 的帮助主题。 
+> Skype for business Server New-cstrunkconfiguration cmdlet 支持 Skype for Business Server 控制面板中未显示的其他属性。 有关详细信息，请参阅[new-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTrunkConfiguration) cmdlet 的帮助主题。 
 
 **使用 Skype for Business 服务器控制面板创建新的主干配置设置**
 
-1. 在 "Skype for Business 服务器" 控制面板中, 单击 "**语音路由**", 然后单击 "**中继配置**"。
+1. 在 "Skype for Business 服务器" 控制面板中，单击 "**语音路由**"，然后单击 "**中继配置**"。
 2. 在“Trunk 配置”**** 选项卡上，单击“新建”****，然后单击“站点 Trunk”**** 以创建站点作用域的新设置，或“池 Trunk”**** 创建服务作用域的新设置。
-3. 在 "**选择网站**" 或 "**选择服务**" 对话框中 (出现的对话框将取决于你是创建网站范围的设置还是服务范围设置), 选择新配置设置的位置, 然后单击 **"确定"。**. 如果该对话框为空, 则意味着没有位置创建新设置;例如, 如果 "**选择网站**" 对话框为空, 则表示你的所有网站都已分配有一组中继配置网站, 并且每个网站 (和每个服务) 只能托管一个此类集合。 在此情况下，您可删除现有集合并创建新的集合，或只修改现有集合。
+3. 在 "**选择网站**" 或 "**选择服务**" 对话框中（出现的对话框将取决于你是创建网站范围的设置还是服务范围设置），选择新配置设置的位置，然后单击 **"确定"**。 如果该对话框为空，则意味着没有位置创建新设置;例如，如果 "**选择网站**" 对话框为空，则表示你的所有网站都已分配有一组中继配置网站，并且每个网站（和每个服务）只能托管一个此类集合。 在此情况下，您可删除现有集合并创建新的集合，或只修改现有集合。
 4. 在“新建 Trunk 配置”**** 对话框中，进行适当的选择，然后单击“确定”****。
 5. 集合的“状态”**** 属性将更新为“未提交”****。若要提交更改和删除集合，请单击“提交”****，然后单击“全部提交”****。
 6. 在“未提交的语音配置设置”**** 对话框中，单击“确定”****。
-7. 在 " **Skype For Business 控制面板**" 对话框中, 单击 **"确定"**。
+7. 在 " **Skype For Business 控制面板**" 对话框中，单击 **"确定"**。

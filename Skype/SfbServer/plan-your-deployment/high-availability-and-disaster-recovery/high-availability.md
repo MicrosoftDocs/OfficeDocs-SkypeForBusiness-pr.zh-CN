@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 了解 Skype for Business 服务器中的前端池管理，包括管理池、仲裁损失以及仅有两个前端服务器的池的特殊步骤。
-ms.openlocfilehash: d54474b6e3013b2d092f55b80000f5578e266f81
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 731284d6df761b7fb023c92c656cae5cd6d0ed77
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435175"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815910"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端池高可用性和管理
  

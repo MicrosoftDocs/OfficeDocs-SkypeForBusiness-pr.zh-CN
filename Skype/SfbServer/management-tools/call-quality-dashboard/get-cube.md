@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: '摘要: 了解有关 "获取多维数据集" 操作 (这是 "调用质量" 仪表板的数据 API 的一部分) 的信息。 通话质量仪表板是 Skype for business 服务器的工具。'
-ms.openlocfilehash: 970187ce9f95700185ab09bd7aadf9045575b393
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解有关 "获取多维数据集" 操作（这是 "调用质量" 仪表板的数据 API 的一部分）的信息。 通话质量仪表板是 Skype for business 服务器的工具。
+ms.openlocfilehash: 7ae24309ea49d8f7d8d2684c141adb44c5bff2b5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274770"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816831"
 ---
 # <a name="get-cube"></a>获取多维数据集
  
-**摘要:** 了解 "获取多维数据集" 操作, 该操作是 "调用质量" 仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
+**摘要：** 了解 "获取多维数据集" 操作，该操作是 "调用质量" 仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
   
 "获取多维数据集" 操作是 "调用质量" 仪表板的数据 API 的一部分。
   
@@ -41,7 +43,7 @@ ms.locfileid: "34274770"
   
  **响应**-响应包括 HTTP 状态代码和一组响应标头。
   
- **状态代码**-成功的操作返回状态代码 200 (OK)。
+ **状态代码**-成功的操作返回状态代码200（OK）。
   
  **响应标题**-无其他标题。
   
@@ -93,7 +95,7 @@ ms.locfileid: "34274770"
 
  *Kpi* -已保留。 请求负载的 "Kpi" 部分允许运行查询操作为多维数据集中定义的 Kpi 返回值。 QoE 多维数据集中尚无 Kpi。
   
- *维度*-可用于运行查询操作的请求负载的筛选器和维度部分中的维度列表。 若要在筛选表达式中使用维度, 需要指定维度成员, 该成员可使用 "获取维度成员" 操作获取。
+ *维度*-可用于运行查询操作的请求负载的筛选器和维度部分中的维度列表。 若要在筛选表达式中使用维度，需要指定维度成员，该成员可使用 "获取维度成员" 操作获取。
   
  *度量*-可在运行查询操作的请求负载的度量部分中使用的度量的列表。
   

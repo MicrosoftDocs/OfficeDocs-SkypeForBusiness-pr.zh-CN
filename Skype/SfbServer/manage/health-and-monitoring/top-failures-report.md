@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: '摘要: 了解 Skype for Business 服务器中的热门故障报告。'
-ms.openlocfilehash: a1b3337a65e3193324b30f5d83f6858ef996111a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的热门故障报告。
+ms.openlocfilehash: c1c7d5617581a004501568edc995871032e5cb5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279716"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817631"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Skype for Business 服务器中的热门失败报告
  
-**摘要:** 了解 Skype for Business 服务器中的热门故障报告。
+**摘要：** 了解 Skype for Business 服务器中的热门故障报告。
   
 主要故障报告说明了最常报告的故障及其在一段时间内的趋势。故障基于以下两项指标的组合：
   
@@ -35,7 +37,7 @@ ms.locfileid: "34279716"
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>最充分地利用主要故障报告
 
-主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。 (通常, 一次只能筛选一个项目-例如一个用户 SIP 地址。)若要筛选多个诊断 Id, 只需在 "诊断 Id" 框中输入每个 ID, 使用逗号分隔 Id。 (如果需要, 您可以在每个逗号后保留空白区域。)例如:
+主要故障报告有一个与众不同的方面：它允许您一次性对最多 5 个诊断 ID 进行筛选。 （通常，一次只能筛选一个项目-例如一个用户 SIP 地址。）若要筛选多个诊断 Id，只需在 "诊断 Id" 框中输入每个 ID，使用逗号分隔 Id。 （如果需要，您可以在每个逗号后保留空白区域。）例如：
   
 1011, 2412, 1033, 52116, 1008
   

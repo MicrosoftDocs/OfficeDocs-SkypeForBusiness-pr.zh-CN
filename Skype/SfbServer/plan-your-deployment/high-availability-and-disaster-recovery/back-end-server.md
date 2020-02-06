@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 了解 Skype for Business 服务器支持的后端服务器高可用性选项，包括 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例、数据库镜像和 SQL 故障转移群集。
-ms.openlocfilehash: 3a92c7ee8cbada8ce678e53e3aacff0aa562fca5
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991487"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815950"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype for Business 服务器中的后端服务器高可用性
  

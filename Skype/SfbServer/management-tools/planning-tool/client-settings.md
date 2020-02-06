@@ -8,18 +8,17 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.ClientCapacity
-- ms.lync.plan.ClientCapacity
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: Skype for Business Server 2015 中的移动功能支持移动设备上的 Skype for business 功能。 有关详细信息，请参阅Planning for Mobility。
-ms.openlocfilehash: 0d615f6b66729c3fe4650496163bf126a47d16e8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d6bde873eedb051ccde9fedf11fcaff2415a15ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696387"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816501"
 ---
 # <a name="client-settings-planning-tool"></a>Client Settings (Planning Tool)
 

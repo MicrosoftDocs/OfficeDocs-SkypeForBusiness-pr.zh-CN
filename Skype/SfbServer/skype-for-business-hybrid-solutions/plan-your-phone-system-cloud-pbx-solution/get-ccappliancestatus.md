@@ -8,15 +8,17 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
 description: CcApplianceStatus cmdlet 提供 Skype for Business 云连接器版设备的诊断信息。
-ms.openlocfilehash: b728ae51fba1b8f448cc161f3ea3fe5b89297488
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 65fc14301d85fd4826479eabcdf238b85dff54ab
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287340"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41800582"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
@@ -30,7 +32,7 @@ CcApplianceStatus cmdlet 提供 Skype for Business 云连接器版设备的诊�
 
 ## <a name="detailed-description"></a>详细说明
 
-CcApplianceStatus cmdlet 在云连接器主机上运行时, 提供 Skype for business 云连接器装置的诊断信息。
+CcApplianceStatus cmdlet 在云连接器主机上运行时，提供 Skype for business 云连接器装置的诊断信息。
   
 ## <a name="parameters"></a>参数
 

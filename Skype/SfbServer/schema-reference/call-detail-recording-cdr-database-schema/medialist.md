@@ -8,15 +8,17 @@ ms.date: 7/12/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList 表是一个静态表，用于存储各种媒体类型的列表。
-ms.openlocfilehash: 243fd3fb705826584f4e786441cdc1faa9075777
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7742baf17240ca810268721c0e47e37f17e555cd
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992922"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815030"
 ---
 # <a name="medialist-table"></a>MediaList 表
  

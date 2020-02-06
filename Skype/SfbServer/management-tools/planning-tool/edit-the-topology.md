@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 完成初始的访谈式问题后，即可编辑站点的完全限定的域名 (FQDN) 和 IP 地址。 为此，请在“全局拓扑”页上双击要编辑的站点。
-ms.openlocfilehash: 91a7ad51c66d810255fcc3239d25298bd370501f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dae99620f34b832dd4abe0baf83d6df11b388750
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274287"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816441"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
@@ -27,11 +29,11 @@ ms.locfileid: "34274287"
 
 ![规划工具 - 站点拓扑](../../media/Planning_Tool_Site_Topology.png)
 
-- 站点拓扑-当前显示的页面, 其中包含拓扑的可视概述 (如推荐)。
+- 站点拓扑-当前显示的页面，其中包含拓扑的可视概述（如推荐）。
 
-- 边缘网络图-"边缘网络图" 页面是设计人员在规划工具中执行大部分工作的地方。 该图显示了推荐的 Skype for business Server 2015 拓扑的网络配置, 其中包含用于服务器、池以及硬件和域名系统 (DNS) 负载平衡器的 "IP 地址" 和 "Fqdn" 的可编辑条目。
+- 边缘网络图-"边缘网络图" 页面是设计人员在规划工具中执行大部分工作的地方。 该图显示了推荐的 Skype for business Server 2015 拓扑的网络配置，其中包含用于服务器、池以及硬件和域名系统（DNS）负载平衡器的 "IP 地址" 和 "Fqdn" 的可编辑条目。
 
-- Edge 管理员报告-Edge 管理员报告总共包含四个报告:
+- Edge 管理员报告-Edge 管理员报告总共包含四个报告：
 
      ![“边缘管理报告”页](../../media/Planning_Tool_Summary_Report.png)
 
@@ -51,7 +53,7 @@ ms.locfileid: "34274287"
 ## <a name="edit-the-network-configuration-diagram"></a>编辑网络配置图
 <a name="Edit_Network_diagram"> </a>
 
-设计器在 Skype for Business Server 2015 规划工具中执行的大部分工作包括定义 IP 地址的条目和网络图中条目的完全限定的域名 (Fqdn)。 在此页面上输入的信息将传递到 "规划工具" 中包含的报表和其他信息中。
+设计器在 Skype for Business Server 2015 规划工具中执行的大部分工作包括定义 IP 地址的条目和网络图中条目的完全限定的域名（Fqdn）。 在此页面上输入的信息将传递到 "规划工具" 中包含的报表和其他信息中。
 
 ![规划工具 - 网络图](../../media/Planning_Tool_Network_Diagram.png)
 
@@ -77,7 +79,7 @@ ms.locfileid: "34274287"
 
 完成所有编辑后，执行以下步骤以保存拓扑：
 
-若要保存规划工具设计, 请单击 "**文件**", 然后单击 "**保存拓扑**" 或 "**将拓扑另存为**"。 如果出现“**将规划工具另存为**”对话框，请在“**文件名**”中键入文件的名称，然后单击“**保存**”。
+若要保存规划工具设计，请单击 "**文件**"，然后单击 "**保存拓扑**" 或 "**将拓扑另存为**"。 如果出现“**将规划工具另存为**”对话框，请在“**文件名**”中键入文件的名称，然后单击“**保存**”。
 
 ## <a name="see-also"></a>另请参阅
 <a name="Edit_Network_diagram"> </a>

@@ -8,16 +8,18 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 摘要：了解如何在 Skype for business Server 2015 中检索、更新和创建集中日志记录服务的配置设置。
-ms.openlocfilehash: 20f62a5568bef6f11eab35e13fa4e4f7adf8102e
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 95aa05cfcd31acda8e78927d674f3a19dff7ef56
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991457"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816581"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中管理集中日志记录服务配置设置
 

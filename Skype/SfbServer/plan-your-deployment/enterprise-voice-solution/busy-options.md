@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: 阅读有关 Skype for Business 服务器中的 "忙碌选项" 功能的信息。
-ms.openlocfilehash: 8e88b4bf3b92c7fea9bcf79822e2711ff3bee7de
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf9ee9dbb3785804b1bb63f4118a29d29cf7715c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277102"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803242"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>规划适用于 Skype for Business Server 的忙碌选项
  
@@ -38,15 +40,15 @@ ms.locfileid: "34277102"
     
 - Voicemail on Busy - 如果用户忙碌，新的传入呼叫会转接到语音邮件。
     
-忙碌选项功能可提供故障转移功能。 如果出现问题, 并且用户故障转移到另一台前端服务器或 Skype for Business Server 中的另一个池, 则将保留其 "忙碌" 选项设置。
+忙碌选项功能可提供故障转移功能。 如果出现问题，并且用户故障转移到另一台前端服务器或 Skype for Business Server 中的另一个池，则将保留其 "忙碌" 选项设置。
   
 无论其忙碌选项如何配置，都不会阻止通话或会议中的用户或将呼叫置于等待状态的用户发起新呼叫或会议。   
   
-配置完成后, "忙碌选项" 设置将对所有用户的 Skype for Business 呼叫设备和客户端生效。 基于用户的忙碌选项设置，被拒绝或发送至语言邮件的呼叫不会在用户已登录的任何呼叫设备（包括 Macintosh、Windows 桌面、移动客户端或 IP 电话）上响铃。 
+配置完成后，"忙碌选项" 设置将对所有用户的 Skype for Business 呼叫设备和客户端生效。 基于用户的忙碌选项设置，被拒绝或发送至语言邮件的呼叫不会在用户已登录的任何呼叫设备（包括 Macintosh、Windows 桌面、移动客户端或 IP 电话）上响铃。 
   
-用户将在其 Skype for Business 客户端和设备上看到错过的通话通知, 这些通知也将通过电子邮件通知。 由于 Busy on Busy 而被拒绝的呼叫的呼叫者将在其 Skype for Business 客户端中看到一个通知，表明他们尝试联系的用户正在通话中。
+用户将在其 Skype for Business 客户端和设备上看到错过的通话通知，这些通知也将通过电子邮件通知。 由于 Busy on Busy 而被拒绝的呼叫的呼叫者将在其 Skype for Business 客户端中看到一个通知，表明他们尝试联系的用户正在通话中。
   
-你可以使用 Skype for Business PowerShell cmdlet 配置 "忙碌选项" 功能, 以便:
+你可以使用 Skype for Business PowerShell cmdlet 配置 "忙碌选项" 功能，以便：
   
 - 为企业启用或禁用忙碌选项语言策略。
     
@@ -60,7 +62,7 @@ ms.locfileid: "34277102"
     
 ## <a name="interoperability-with-voice-applications"></a>与语音应用程序的互操作性
 
-在 Skype for Business 中, 繁忙选项提供与以下语音应用程序的互操作性:
+在 Skype for Business 中，繁忙选项提供与以下语音应用程序的互操作性：
   
 - 响应组 (RGS)
     

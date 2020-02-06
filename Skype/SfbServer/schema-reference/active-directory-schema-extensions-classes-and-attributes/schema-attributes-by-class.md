@@ -8,19 +8,21 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: 此部分列出了可包含在每个 Skype for Business 服务器类中的架构属性和可包含在其他类中的类。 有关所有类及其说明的列表, 请参阅 Skype for Business 服务器中的架构类和说明。 有关所有属性及其说明的列表, 请参阅 Skype for Business 服务器中的架构属性和说明。
-ms.openlocfilehash: 457b66b5b4b09bd610686bfdfb42af30b420930f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 此部分列出了可包含在每个 Skype for Business 服务器类中的架构属性和可包含在其他类中的类。 有关所有类及其说明的列表，请参阅 Skype for Business 服务器中的架构类和说明。 有关所有属性及其说明的列表，请参阅 Skype for Business 服务器中的架构属性和说明。
+ms.openlocfilehash: 93598f1cc54ec76ccc59649ec97fd7ac57cd39f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296642"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815490"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Skype for Business Server 中按类分类的架构属性
  
-此部分列出了可包含在每个 Skype for Business 服务器类中的架构属性和可包含在其他类中的类。 有关所有类及其说明的列表, 请参阅[Skype For Business 服务器中的架构类和说明](schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表, 请参阅[Skype For Business 服务器中的架构属性和说明](schema-attributes-and-descriptions.md)。
+此部分列出了可包含在每个 Skype for Business 服务器类中的架构属性和可包含在其他类中的类。 有关所有类及其说明的列表，请参阅[Skype For Business 服务器中的架构类和说明](schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表，请参阅[Skype For Business 服务器中的架构属性和说明](schema-attributes-and-descriptions.md)。
   
 ## <a name="attributes-by-class"></a>按类分类的属性
 

@@ -1,5 +1,5 @@
 ---
-title: UserAgentDef table (QoE)
+title: UserAgentDef table （QoE）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,24 +8,26 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用于连接到 Skype for Business 服务器的软件客户端。
-ms.openlocfilehash: 1cb64834cf9a68536dab9a5f5f90cf1189dff7e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 515795ceed159d34a9b776e81b7f00b112ef29b8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294554"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805010"
 ---
-# <a name="useragentdef-table-qoe"></a>UserAgentDef table (QoE)
+# <a name="useragentdef-table-qoe"></a>UserAgentDef table （QoE）
  
 UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用于连接到 Skype for Business 服务器的软件客户端。
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
 |1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|ppls-2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4  <br/> |OC  <br/> |OC  <br/> |
 |个  <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |utf-16  <br/> |LMC  <br/> |LMC  <br/> |
@@ -33,11 +35,11 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 |64  <br/> |分钟  <br/> |分钟  <br/> |
 |64  <br/> |MC  <br/> |分钟  <br/> |
 |128  <br/> |助理  <br/> |助理  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_ 1。0  <br/> |而言  <br/> |
-|512  <br/> |Conferencing_Attendant_ 1。0  <br/> |CAA  <br/> |
-|512  <br/> |Conference_Auto_Attendant_ 1。0  <br/> |CAA  <br/> |
+|256  <br/> |Conferencing_Announcement_Service_1 0  <br/> |而言  <br/> |
+|512  <br/> |Conferencing_Attendant_1 0  <br/> |CAA  <br/> |
+|512  <br/> |Conference_Auto_Attendant_1 0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RG  <br/> |
-|1032  <br/> |Call_Park_Service_ 1。0  <br/> |方面  <br/> |
+|1032  <br/> |Call_Park_Service_1 0  <br/> |方面  <br/> |
 |1040  <br/> |Response_Group_Service Announcement_Service  <br/> |方式  <br/> |
 |2048  <br/> |Microsoft Ccs  <br/> |CCS  <br/> |
 |16386  <br/> |CoMo  <br/> |CoMo  <br/> |

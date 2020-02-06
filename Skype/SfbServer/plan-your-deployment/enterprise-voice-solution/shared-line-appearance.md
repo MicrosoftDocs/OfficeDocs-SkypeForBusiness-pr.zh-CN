@@ -8,27 +8,29 @@ ms.date: 3/21/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: 阅读本主题, 了解如何规划 Skype for Business Server 2015 中的共享行外观 (SLA), 2015 累积更新。
-ms.openlocfilehash: 966c9f32a27ba936e880bdb51690bcefed4ffbe4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 阅读本主题，了解如何规划 Skype for Business Server 2015 中的共享行外观（SLA），2015累积更新。
+ms.openlocfilehash: 14f0f6cbd163ecff42543d3ad57bed0020434cfb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276445"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802432"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>在 Skype for Business Server 2015 中规划共享线路外观
  
-阅读本主题, 了解如何规划 Skype for Business Server 2015 中的共享行外观 (SLA), 2015 累积更新。 
+阅读本主题，了解如何规划 Skype for Business Server 2015 中的共享行外观（SLA），2015累积更新。 
   
-共享线路的外观是 Skype for Business 中的一项功能, 用于处理特定号码 (称为共享号码) 的多个呼叫。 SLA 可以将任何企业语音启用的 Skype for business 用户配置为具有多个线路的共享号码, 以响应多个呼叫。 这些呼叫实际上并不是通过共享号码接收的，而是转接给担任共享号码的代理人的用户。 其中任何一个代理人都可以接听呼叫，而其余代理人的电话上将收到一个通知，说明已接听呼叫的代理人和哪条线路非常忙碌。 共享号码的线路数和代理人可以在 SLA 中配置。 此外，也可以为共享号码配置高级选项，例如 BusyOption（所有线路都忙碌时发生的情况）和 MissedCallOption（没有人接听呼叫）。
+共享线路的外观是 Skype for Business 中的一项功能，用于处理特定号码（称为共享号码）的多个呼叫。 SLA 可以将任何企业语音启用的 Skype for business 用户配置为具有多个线路的共享号码，以响应多个呼叫。 这些呼叫实际上并不是通过共享号码接收的，而是转接给担任共享号码的代理人的用户。 其中任何一个代理人都可以接听呼叫，而其余代理人的电话上将收到一个通知，说明已接听呼叫的代理人和哪条线路非常忙碌。 共享号码的线路数和代理人可以在 SLA 中配置。 此外，也可以为共享号码配置高级选项，例如 BusyOption（所有线路都忙碌时发生的情况）和 MissedCallOption（没有人接听呼叫）。
   
-仅在以下电话设备上支持 SLA (计算机、移动电话或其他设备上的 Skype for business 客户端不支持): 
+仅在以下电话设备上支持 SLA （计算机、移动电话或其他设备上的 Skype for business 客户端不支持）： 
   
 - 具有固件更新 5.4.1 的 Polycom VVX300
     
@@ -38,7 +40,7 @@ ms.locfileid: "34276445"
     
 - 具有固件更新 5.4.1 的 Polycom VVX600
     
-SLA 是 Skype for Business 服务器中的新功能, 2015 年11月累积更新。 
+SLA 是 Skype for Business 服务器中的新功能，2015年11月累积更新。 
   
 有关部署 SLA 的信息，请参阅[Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)。
   

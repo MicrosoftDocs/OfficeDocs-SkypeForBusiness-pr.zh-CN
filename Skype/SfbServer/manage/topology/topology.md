@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
-description: '摘要: 了解在 Skype for Business 服务器中管理拓扑的步骤。'
-ms.openlocfilehash: 402e8e725aeb92d7b80f87c9b9d1c6f7d66fc807
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解在 Skype for Business 服务器中管理拓扑的步骤。
+ms.openlocfilehash: 42058c3263cfebfe1341d0b7249bb0ba5ef5a368
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275113"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817083"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>在 Skype for Business 服务器中管理拓扑 
  
-**摘要:** 了解在 Skype for Business 服务器中管理拓扑的步骤。
+**摘要：** 了解在 Skype for Business 服务器中管理拓扑的步骤。
   
 以下主题提供有关管理 Skype for Business 服务器拓扑和前端服务器所涉及的任务的分步说明。
   

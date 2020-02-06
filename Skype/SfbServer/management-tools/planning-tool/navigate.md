@@ -8,32 +8,34 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: 通过使用工具栏、特定于页面的按钮和链接以及上下文特定的窗格的组合, 可导航 Skype for Business Server 2015 规划工具。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
-ms.openlocfilehash: efb0f8ab745b2ce2fe4490dccaf58b79a1c1bf50
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 通过使用工具栏、特定于页面的按钮和链接以及上下文特定的窗格的组合，可导航 Skype for Business Server 2015 规划工具。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
+ms.openlocfilehash: 5e502f1bf068aef162befadddb9bef63cecffddc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288990"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816321"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigate the Planning Tool in Skype for Business Server 2015
 
-通过使用工具栏、特定于页面的按钮和链接以及上下文特定的窗格的组合, 可导航 Skype for Business Server 2015 规划工具。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
+通过使用工具栏、特定于页面的按钮和链接以及上下文特定的窗格的组合，可导航 Skype for Business Server 2015 规划工具。 特定于上下文的窗格提供与特定页上的选项相关的规划和容量的设计信息。
 
-启动规划工具时, 设计器首先看到 **"欢迎使用 Skype for Business Server 2015 的规划工具"** 页面。
+启动规划工具时，设计器首先看到 **"欢迎使用 Skype for Business Server 2015 的规划工具"** 页面。
 
 ![“欢迎使用规划工具”页](../../media/Planning_Tool_Welcome.png)
 
-在“欢迎”页上，设计人员可选择“**开始**”、“**设计站点**”或“**显示**”。 有关详细信息, 请参阅[创建 Skype for Business Server 2015 的初始拓扑设计](create-the-initial-design.md)。
+在“欢迎”页上，设计人员可选择“**开始**”、“**设计站点**”或“**显示**”。 有关详细信息，请参阅[创建 Skype for Business Server 2015 的初始拓扑设计](create-the-initial-design.md)。
 
-在规划工具的顶部是一个工具栏, 可轻松访问常用功能。 此处显示的工具栏仅供参考，各项功能将在相关主题中讨论。
+在规划工具的顶部是一个工具栏，可轻松访问常用功能。 此处显示的工具栏仅供参考，各项功能将在相关主题中讨论。
 
 ![规划工具 - 工具栏](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
-规划工具的左侧有一个 "外部链接" 部分。 在此处，设计师可轻松访问规划和部署信息，以及其他技术资源（如培训、技术博客、论坛及其他可下载的资源）。 此外, 在 "外部链接" 部分中, 还提供了一个指向 Skype for Business Server 2015 规划工具团队的反馈链接。
+规划工具的左侧有一个 "外部链接" 部分。 在此处，设计师可轻松访问规划和部署信息，以及其他技术资源（如培训、技术博客、论坛及其他可下载的资源）。 此外，在 "外部链接" 部分中，还提供了一个指向 Skype for Business Server 2015 规划工具团队的反馈链接。
 
 ![规划工具 -“外部链接”对话框](../../media/Planning_Tool_External_Links_Dialog.jpg)
 

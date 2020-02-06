@@ -7,27 +7,29 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
-description: '摘要: 了解 Skype for Business 服务器中的系统使用情况报告。'
-ms.openlocfilehash: daa5991f45a8fc84b9904ac21ef73646377a6e72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的系统使用情况报告。
+ms.openlocfilehash: c5fc4e59de4dd66da40d07c17bb615e5abc697a2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279741"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817641"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Skype for Business 服务器中的系统使用情况报告
  
-**摘要:** 了解 Skype for Business 服务器中的系统使用情况报告。
+**摘要：** 了解 Skype for Business 服务器中的系统使用情况报告。
   
-系统使用情况报告提供基于 Skype for Business 服务器收集的呼叫详细记录 (CDR) 数据的系统使用信息。
+系统使用情况报告提供基于 Skype for Business 服务器收集的呼叫详细记录（CDR）数据的系统使用信息。
   
 ## <a name="in-this-section"></a>本节内容
 
 - [Skype for Business 服务器中的用户注册报告](user-registration-report.md)
     
-    提供基于注册事件 (如用户登录) 的 Skype for Business 服务器部署的用户连接摘要。 报表提供一种查看内部和外部登录的方式, 并将登录到 Skype for business 服务器的用户数与在登录时实际使用该服务的用户数进行比较。
+    提供基于注册事件（如用户登录）的 Skype for Business 服务器部署的用户连接摘要。 报表提供一种查看内部和外部登录的方式，并将登录到 Skype for business 服务器的用户数与在登录时实际使用该服务的用户数进行比较。
     
 - [Skype for Business Server 中的对等活动摘要报告](peer-to-peer-activity-summary-report.md)
     
@@ -47,7 +49,7 @@ ms.locfileid: "34279741"
     
 - [Skype for Business 服务器中的 IP 电话清单报告](ip-phone-inventory-report.md)
     
-    提供有关当前在组织中使用的 IP 电话的信息。 报表基于电话注册和登录。 不应将其视为完整库存。 例如, 您可能已删除了仍在报告中列出的手机, 因为他们至少登录过一次。 同样, 您还可能有新的手机不会显示在报告中, 只是因为用户尚未登录到 Skype for business 服务器以及他们的新电话。
+    提供有关当前在组织中使用的 IP 电话的信息。 报表基于电话注册和登录。 不应将其视为完整库存。 例如，您可能已删除了仍在报告中列出的手机，因为他们至少登录过一次。 同样，您还可能有新的手机不会显示在报告中，只是因为用户尚未登录到 Skype for business 服务器以及他们的新电话。
     
 - [Skype for Business 服务器中的呼叫许可控制报告](call-admission-control-report.md)
     

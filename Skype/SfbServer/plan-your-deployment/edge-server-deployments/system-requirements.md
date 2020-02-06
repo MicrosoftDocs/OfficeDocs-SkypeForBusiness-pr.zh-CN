@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要：了解 Skype for Business Server 中 Edge 服务器的系统要求。
-ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 4ef2feeb2b486bc9be9f4eb59136d74ef542dd31
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34277144"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803312"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Skype for Business Server 中的边缘服务器系统要求
  
@@ -193,7 +195,7 @@ Skype for Business 服务器没有许多基于 cookie 的相关性要求。 因�
   
 以下是（可选）董事和（必需）前端池 Web 服务的 HLB 要求：
   
-- 对于内部 Web 服务 Vip，请在 HLB 上设置 Source_addr 持久性（内部端口80、443）。 对于 Skype for business 服务器，Source_addr 持久性意味着来自单个 IP 地址的多个连接始终发送到一台服务器，以维护会话状态。
+- 对于内部 Web 服务 Vip，请在 HLB 上设置 Source_addr 持久性（内部端口80、443）。 对于 Skype for Business 服务器，Source_addr 持久性意味着来自单个 IP 地址的多个连接始终发送到一台服务器，以维护会话状态。
     
 - 使用 TCP 空闲超时 1800 秒。
     
@@ -213,8 +215,8 @@ Skype for Business 服务器没有许多基于 cookie 的相关性要求。 因�
   
 |**虚拟 IP/端口**|**节点端口**|**节点计算机/监视器**|**持久性配置文件**|**注释**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTPS  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTP  <br/> |
+|\<池\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTPS  <br/> |
+|\<池\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |无  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>硬件和软件要求
 

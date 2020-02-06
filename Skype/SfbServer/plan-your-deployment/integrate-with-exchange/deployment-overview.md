@@ -8,22 +8,24 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: 摘要：在计划将 Skype for business 服务器与 Exchange 2013 或2016集成时，请查看本主题。
-ms.openlocfilehash: dfb9eb926cb1ebd046f06597eecc0c2204fea97b
-ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
+ms.openlocfilehash: db6cdbf5297c2397acadcb65ad615533ae6dbe2f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37547265"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815890"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>集成本地统一消息与 Skype for Business 的部署过程概述
  
 **摘要：** 在计划将 Skype for business 服务器与 Exchange 2013 或2016集成时，请查看此主题。
   
- 如果要将 Exchange 统一消息（UM）与 Skype for Business 服务器集成，则必须执行本主题中所述的任务。 此外，请确保查看在[Skype For business 中规划 Exchange 统一消息集成](unified-messaging.md)中介绍的规划和部署最佳做法。 本主题假定你已使用 collocated 中介服务器部署了 Skype for Business 服务器，并且已启用 Skype for business Server 的用户，但你可能尚未执行所有部署和配置步骤来启用企业语音，如介绍如何在部署文档中的[Skype for Business 服务器中部署企业语音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)。
+ 如果要将 Exchange 统一消息（UM）与 Skype for Business 服务器集成，则必须执行本主题中所述的任务。 此外，请确保查看在[Skype For business 中规划 Exchange 统一消息集成](unified-messaging.md)中介绍的规划和部署最佳做法。 本主题假定你已使用 collocated 中介服务器部署了 Skype for business 服务器，并且已启用 Skype for business Server 的用户，但你可能尚未执行所有部署和配置步骤来启用企业语音，如在部署文档中的[Skype for Business 服务器中部署企业语音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)时所述。
  
 > [!NOTE]
 > Skype for Business Server 2019 中不再提供 Exchange 统一消息，它使用电话系统录制语音邮件，然后将录制内容保留在用户的 Exchange 邮箱中。 有关详细信息，请参阅[规划云语音邮件服务](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)。

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: 本部分概述了构成 Skype for business 服务器安全框架的基本元素。 了解这些元素如何协同工作对于做出有关保护特定 Skype for Business 服务器部署的明智决策至关重要。
-ms.openlocfilehash: 8b82b09a8220139abe62ac4503ad8a7eddc28e99
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 432d4cda013e5bdec2613e3c9052f10b7d619302
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296873"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815610"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Skype for business Server 的安全框架
  
@@ -24,7 +26,7 @@ ms.locfileid: "34296873"
   
 这些要素如下所示：
   
-- Active Directory 域服务 (AD DS) 为用户帐户和网络资源提供单个受信任的后端存储库。
+- Active Directory 域服务（AD DS）为用户帐户和网络资源提供单个受信任的后端存储库。
     
 - 通过基于角色的访问控制 (RBAC)，您能够在保持高标准安全性的同时委派管理任务。
     
@@ -34,9 +36,9 @@ ms.locfileid: "34296873"
     
 - 用于用户身份验证的行业标准协议，如果可能。
     
-- Windows PowerShell 提供默认启用的安全功能, 以便用户无法轻松或不知不觉地运行脚本。
+- Windows PowerShell 提供默认启用的安全功能，以便用户无法轻松或不知不觉地运行脚本。
     
-这些基本的安全元素协同工作以定义受信任的用户、服务器、连接和操作, 以帮助确保 Skype for business 服务器的安全基础。
+这些基本的安全元素协同工作以定义受信任的用户、服务器、连接和操作，以帮助确保 Skype for business 服务器的安全基础。
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -44,7 +46,7 @@ ms.locfileid: "34296873"
   
 - [适用于 Skype for business 服务器的 Active Directory 域服务](active-directory-domain-services.md)
     
-- [Skype for business Server 的基于角色的访问控制 (RBAC)](role-based-access-control-rbac.md)
+- [Skype for business Server 的基于角色的访问控制（RBAC）](role-based-access-control-rbac.md)
     
 - [Skype for business 服务器的公共密钥基础结构](public-key-infrastructure-for-skype.md)
     

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 摘要：了解 Skype for Business 服务器中的用户注册报告。
-ms.openlocfilehash: 721d0b814a970ccb32df8eb83251099d8cb4801d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7923db1ceac936825508f438d5d0437071e89c62
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991687"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817601"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Skype for Business 服务器中的用户注册报告
  

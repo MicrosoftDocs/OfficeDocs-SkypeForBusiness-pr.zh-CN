@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerIPOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business 服务器允许你为 Edge 服务器和边缘池的每个接口配置 IPv4 和 IPv6 地址。 为此，请执行以下操作：
-ms.openlocfilehash: 8352826fff371e4d59a4cf915d034465ac1aee7f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5b63847f3044411dcb8e04e29eea21492597993d
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703047"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798199"
 ---
 # <a name="add-edge-server-ip-options"></a>添加 Edge Server IP 选项
  

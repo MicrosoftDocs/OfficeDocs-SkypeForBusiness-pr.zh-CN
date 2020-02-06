@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Skype for business 服务器的参考拓扑，包括为大型、中型和小型组织制定的图表和决策。
-ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: f207e69dceea4c2959e5cf81ddcf359266ed1604
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37028279"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801702"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Skype for Business 服务器的参考拓扑
 
@@ -134,7 +136,7 @@ Skype for business 服务器的参考拓扑，包括为大型、中型和小型�
     > [!NOTE]
     > Skype for business Server 2015 中提供了持久聊天，但 Skype for business Server 2019 不再支持此功能。 团队中提供了相同的功能。 有关详细信息，请参阅[Microsoft 团队升级](/microsoftteams/upgrade-start-here)入门。 如果需要使用持久聊天，您可以选择将需要此功能的用户迁移到团队，或继续使用 Skype for Business Server 2015。
 
-- **DNS 负载平衡。** 前端池和边缘服务器池使用 DNS 负载平衡。 这就无需为边缘服务器内部接口部署硬件负载平衡器，并可以显著减少为其他池设置和维护硬件负载平衡器必须花费的时间，因为只有 HTTP 流量需要使用硬件负载平衡器。 有关详细信息，请参阅（.。。/../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **DNS 负载平衡。** 前端池和边缘服务器池使用 DNS 负载平衡。 这就无需为边缘服务器内部接口部署硬件负载平衡器，并可以显著减少为其他池设置和维护硬件负载平衡器必须花费的时间，因为只有 HTTP 流量需要使用硬件负载平衡器。 有关详细信息，请参阅（.。。/../plan-your-deployment/network-requirements/load-balancing.md # BKMK_DNSLoadBalancing）。
 
 - **Exchange UM 部署。** Skype for business 服务器适用于 Exchange 统一消息（UM）和托管 Exchange UM 的本地部署。 中心站点 A 包含 Exchange 统一消息（UM）服务器，该服务器运行 Microsoft Exchange Server，而不是 Skype for Business 服务器。 Skype for Business 服务器的 Exchange UM 功能在前端池上运行。
 

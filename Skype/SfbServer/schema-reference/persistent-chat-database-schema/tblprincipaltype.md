@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主体类型。
-ms.openlocfilehash: 473b718a8a863432a71ff04d709bef4c0ac1327f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1aacfdf34689bebc2c7e012c926731ae1f4a8349
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295242"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812930"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -26,12 +28,12 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 
 |**列**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|ptypeID  <br/> |smallint, not null  <br/> |主体类型 ID。  <br/> |
-|ptypeDesc  <br/> |nvarchar (256), not null  <br/> |类型的说明。  <br/> |
-|ptypeIsSystemUser  <br/> |位, not null  <br/> |如果类型对应于用于内部用途的主体, 则为 True。  <br/> |
-|ptypeIsUser  <br/> |位, not null  <br/> |如果类型为用户类型, 则为 True。  <br/> |
+|ptypeID  <br/> |smallint，not null  <br/> |主体类型 ID。  <br/> |
+|ptypeDesc  <br/> |nvarchar （256），not null  <br/> |类型的说明。  <br/> |
+|ptypeIsSystemUser  <br/> |位，not null  <br/> |如果类型对应于用于内部用途的主体，则为 True。  <br/> |
+|ptypeIsUser  <br/> |位，not null  <br/> |如果类型为用户类型，则为 True。  <br/> |
    
-**关键字**
+**Key**
 
 |**列**|**说明**|
 |:-----|:-----|
@@ -42,7 +44,7 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 |**ID**|**角色**|**说明**|**User**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |任意  <br/> |没有已知类型的泛型主体。 未在 tblPrincipal 表中使用。  <br/> ||
-|2  <br/> |AnyUser  <br/> |用户类型的一般主体。 未在 tblPrincipal 表中使用。  <br/> |是  <br/> |
+|ppls-2  <br/> |AnyUser  <br/> |用户类型的一般主体。 未在 tblPrincipal 表中使用。  <br/> |是  <br/> |
 |3  <br/> |AnyGroup  <br/> |具有组语义的常规主体。 未在 tblPrincipal 表中使用。  <br/> ||
 |4  <br/> |SystemUser  <br/> |持久聊天服务器在内部使用的主体。  <br/> ||
 |5  <br/> |用户  <br/> |普通用户。  <br/> |是  <br/> |

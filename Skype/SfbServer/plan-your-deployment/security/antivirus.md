@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Skype for business Server 的防病毒扫描程序互操作概述。
-ms.openlocfilehash: 69fb02d04f27b7444a3b8cadaacafc05654a1c9f
-ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
+ms.openlocfilehash: 10d296e36324fdbc8bca8f7da48370d619774501
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074624"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815690"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Skype for business 服务器的防病毒扫描排除项
 

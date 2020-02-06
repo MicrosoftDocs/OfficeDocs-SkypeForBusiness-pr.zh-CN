@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
-description: 你可能已经着手设计系统容错能力，做法有：确保硬件冗余、防止断电、例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅受益于您的 Skype for Business 服务器基础结构, 还受益于您的整个网络。 如果尚未实施这些做法, 建议在部署 Skype for Business 服务器之前执行此操作。
-ms.openlocfilehash: c1f6a6ebe31276b8dbcd9037fa373baffc055fde
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 你可能已经着手设计系统容错能力，做法有：确保硬件冗余、防止断电、例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅受益于您的 Skype for Business 服务器基础结构，还受益于您的整个网络。 如果尚未实施这些做法，建议在部署 Skype for Business 服务器之前执行此操作。
+ms.openlocfilehash: 62200fc1ac45e1d647761af24d176a00d18693e4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296964"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815680"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Skype for Business Server 中的核心基础结构的最佳做法
  
-你可能已经着手设计系统容错能力，做法有：确保硬件冗余、防止断电、例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅受益于您的 Skype for Business 服务器基础结构, 还受益于您的整个网络。 如果尚未实施这些做法, 建议在部署 Skype for Business 服务器之前执行此操作。
+你可能已经着手设计系统容错能力，做法有：确保硬件冗余、防止断电、例行安装安全更新和防病毒措施，以及监控服务器活动等。 这些做法不仅受益于您的 Skype for Business 服务器基础结构，还受益于您的整个网络。 如果尚未实施这些做法，建议在部署 Skype for Business 服务器之前执行此操作。
   
-若要帮助保护 Skype for Business Server 部署中的服务器, 避免意外或针对性损害可能导致停机的情况, 请采取以下预防措施:
+若要帮助保护 Skype for Business Server 部署中的服务器，避免意外或针对性损害可能导致停机的情况，请采取以下预防措施：
   
-- 使用安全更新使服务器保持最新状态。 订阅 Microsoft 安全性通知服务来帮助你确保收到关于任何 Microsoft 产品的安全公告发布的最新通知。 若要订阅, 请转到[Microsoft 技术安全通知网站](https://go.microsoft.com/fwlink/p/?LinkId=145202)。
+- 使用安全更新使服务器保持最新状态。 订阅 Microsoft 安全性通知服务来帮助你确保收到关于任何 Microsoft 产品的安全公告发布的最新通知。 若要订阅，请转到[Microsoft 技术安全通知网站](https://go.microsoft.com/fwlink/p/?LinkId=145202)。
     
 - 确保正确设置访问权限。
     

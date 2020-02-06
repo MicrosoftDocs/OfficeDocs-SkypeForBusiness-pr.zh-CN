@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-description: '摘要: 了解 Skype for Business 服务器中的 "媒体质量摘要" 报表。'
-ms.openlocfilehash: 49c4aba8e5eb69c50282f4c9a1c77027f1a0210d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的 "媒体质量摘要" 报表。
+ms.openlocfilehash: a1c29eaa9d7c3ae394e40b089c4e38efe0802802
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279751"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817651"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>Skype for Business 服务器中的 "媒体质量摘要" 报表
  
-**摘要:** 了解 Skype for Business 服务器中的 "媒体质量摘要" 报表。
+**摘要：** 了解 Skype for Business 服务器中的 "媒体质量摘要" 报表。
   
 媒体质量摘要报告可能最适合用来分析组织内部的呼叫质量，此报告提供了分为以下几个类别的详细的用户体验质量 (QoE) 呼叫指标：
   
-- UC 对等呼叫 (如 Skype for business 到 Skype for business 呼叫)
+- UC 对等呼叫（如 Skype for business 到 Skype for business 呼叫）
     
 - UC 会议会话
     
@@ -37,15 +39,15 @@ ms.locfileid: "34279751"
     
 - 其他呼叫类型
     
-只要打开报告时，您就会看到有关所有这些类别的摘要信息。 无需离开报表, 您可以展开每个类别以查看子类别, 例如从 Office Communicator 2007 R2 向 Skype for business 发出的呼叫。 此外，您还可以向下钻取这些子类别，以查看各子类别下进行的每个呼叫的详细信息。
+只要打开报告时，您就会看到有关所有这些类别的摘要信息。 无需离开报表，您可以展开每个类别以查看子类别，例如从 Office Communicator 2007 R2 向 Skype for business 发出的呼叫。 此外，您还可以向下钻取这些子类别，以查看各子类别下进行的每个呼叫的详细信息。
   
-在 Skype for Business 服务器中, "媒体质量摘要" 报表会进一步将数据分解为三种呼叫类型: 音频通话、视频通话和应用程序共享呼叫。 每种呼叫类型在报告中都具有自己对应的部分，并具有自己的自定义呼叫指标集。
+在 Skype for Business 服务器中，"媒体质量摘要" 报表会进一步将数据分解为三种呼叫类型：音频通话、视频通话和应用程序共享呼叫。 每种呼叫类型在报告中都具有自己对应的部分，并具有自己的自定义呼叫指标集。
   
 此外，可利用媒体质量摘要报告来应用一些筛选器，以便能够比较有线呼叫与无线呼叫的呼叫质量、内部呼叫与外部呼叫的呼叫质量以及 VPN 呼叫与非 VPN 呼叫的呼叫质量。
   
 ## <a name="accessing-the-media-quality-summary-report"></a>访问媒体质量摘要报告
 
-可从监控报告主页访问媒体质量摘要报告。 您可以通过单击以下任一指标, 向下钻取到[Skype For Business 服务器中的通话清单报告](call-list-report-0.md):
+可从监控报告主页访问媒体质量摘要报告。 您可以通过单击以下任一指标，向下钻取到[Skype For Business 服务器中的通话清单报告](call-list-report-0.md)：
   
 - 呼叫量
     
@@ -98,7 +100,7 @@ ms.locfileid: "34279751"
 |**呼叫量（VPN 呼叫）** <br/> |否  <br/> |使用了 VPN 连接的呼叫的总数。  <br/> |
 |**呼叫量（外部呼叫）** <br/> |否  <br/> |使用了外部连接（即内部网络外部的连接）的呼叫的总数。  <br/> |
 |**来回行程（毫秒）** <br/> |否  <br/> |实时传输协议 (RTP) 数据包来往于另一个终结点所需的平均时间量（以毫秒为单位）。来回行程的时间小于或等于 100 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
-|**性能降低 (MOS)** <br/> |否  <br/> |呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Skype for Business 服务器中, 一组算法预测用户对呼叫进行评分的方式。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
+|**性能降低 (MOS)** <br/> |否  <br/> |呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Skype for Business 服务器中，一组算法预测用户对呼叫进行评分的方式。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
 |**数据包丢失** <br/> |否  <br/> |平均 RTP 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时将发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**抖动（毫秒）** <br/> |否  <br/> |在 RTP 数据包到达之间检测到的平均抖动率。（抖动是针对呼叫的“不稳定性”的度量。）高抖动值通常是由拥塞或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**修复程序隐藏比率** <br/> |否  <br/> |隐藏的音频样本与样本总数的平均比率。（隐藏的音频样本是一项技术，用于消除通常由丢弃的网络数据包造成的意外转换。）高值指示数据包丢失或抖动造成的显著的丢失隐藏级别，从而导致音频失真或丢失。  <br/> |

@@ -8,16 +8,18 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要：在计划将 Skype for business 服务器与 Exchange 2013 或2016集成时，请查看本主题。
-ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 1ae6ad10f1e817b9ace0240c79d09251a23dd61c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772615"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815860"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>在 Skype for Business 中规划 Exchange 统一消息集成
 
@@ -61,7 +63,7 @@ Skype for Business 服务器，企业语音使用 Exchange 统一消息（UM）�
 
 ### <a name="exchange-server-components"></a>Exchange Server 组件
 
-若要向组织中的企业语音用户提供[集成统一消息和 Skype for Business 服务器功能](#features-of-integrated-unified-messaging-and-skype-for-business-server)中介绍的 Exchange UM 功能和服务，必须部署 Microsoft Exchange 邮箱服务器和客户端访问服务器，它托管用户邮箱并为电子邮件和语音邮件提供单个存储位置。 Exchange UM 在 Exchange 邮箱和客户端访问服务器上作为服务运行。
+若要向组织中的企业语音用户提供[集成的统一消息和 Skype for Business 服务器功能](#features-of-integrated-unified-messaging-and-skype-for-business-server)中所述的 Exchange UM 功能和服务，必须部署 Microsoft Exchange 邮箱服务器和客户端访问服务器（托管用户邮箱），并为电子邮件和语音邮件提供单个存储位置。 Exchange UM 在 Exchange 邮箱和客户端访问服务器上作为服务运行。
 
 有关 Microsoft Exchange Server 2010 中 Exchange UM 组件的详细信息，请参阅[部署本地 EXCHANGE um 以提供 Lync Server 2013 预览版语音邮件](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx)。
 
