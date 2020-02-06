@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 摘要：了解如何在 Skype for Business 服务器中测试电话拨入式会议。
-ms.openlocfilehash: a19adba9d36fd7f862b9b40d3c7c239933fa7847
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 838e04d7cb6d17e98df2b6fa0dbe3f3d46a5ecad
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992269"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818463"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business 服务器中测试电话拨入式会议
  

@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 部署一个或多个边缘服务器后，必须启用组织支持的外部访问类型。
-ms.openlocfilehash: f1f9798907f70893601a5dfe05b5045e484911e0
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: e4405585da71dc48f5fa1790f83938a814270d84
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991747"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818273"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>管理组织的外部访问策略
 

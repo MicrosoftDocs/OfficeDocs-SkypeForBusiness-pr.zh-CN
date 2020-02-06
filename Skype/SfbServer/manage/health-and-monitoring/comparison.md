@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-description: '摘要: 了解 Skype for Business 服务器中的媒体质量比较报告。'
-ms.openlocfilehash: d665c568bcda1be6124b30f5f2907447fa585343
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的媒体质量比较报告。
+ms.openlocfilehash: 6ba62abcef7abf9e8702a4b51582a434fdd57df6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289305"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818093"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Skype for Business Server 中的媒体质量比较报告
  
-**摘要:** 了解 Skype for Business 服务器中的媒体质量比较报告。
+**摘要：** 了解 Skype for Business 服务器中的媒体质量比较报告。
   
 媒体质量比较报告使您能够比较不同类型的音频呼叫（例如，通过无线网络发出的呼叫与通过有线连接发出的呼叫）的呼叫质量值。
   

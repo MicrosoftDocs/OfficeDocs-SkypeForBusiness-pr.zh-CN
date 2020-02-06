@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: '摘要: 了解有关在 Skype for Business 服务器中监视报表的信息。'
-ms.openlocfilehash: ea984a27e2322b08357719e41892fa65892b550a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解有关在 Skype for Business 服务器中监视报表的信息。
+ms.openlocfilehash: 1468a012501753a720807f1b1ec609ff187ffc1c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279884"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817801"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>在 Skype for Business 服务器中使用监视报告 
  
-**摘要:** 了解有关在 Skype for Business 服务器中监视报告的信息。
+**摘要：** 了解有关在 Skype for Business 服务器中监视报告的信息。
   
 Skype for business 服务器包含一组由 Microsoft SQL Server Reporting Service 发布的标准报表。 这些报告可通过 Web 浏览器进行访问，它们提供了使用情况、呼叫诊断信息和媒体质量信息，所有这些信息全部基于呼叫详细记录 (CDR) 和用户体验质量 (QoE) 数据库中存储的 CDR 和 QoE 记录。
   
-若要使用这些报表, 必须在运行 SQL Server 实例的计算机上安装监视报告。
+若要使用这些报表，必须在运行 SQL Server 实例的计算机上安装监视报告。
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -31,7 +33,7 @@ Skype for business 服务器包含一组由 Microsoft SQL Server Reporting Servi
     
 - [Skype For Business 服务器中的系统使用情况报告](system-usage-reports.md)提供基于 Skype for Business Server 收集的 CDR 数据的系统使用信息。
     
-- [在 Skype For Business 服务器中呼叫诊断报告 (每用户)](call-diagnostic-reports-per-user.md)提供有关失败的对等和会议会话的每用户信息。
+- [在 Skype For Business 服务器中呼叫诊断报告（每用户）](call-diagnostic-reports-per-user.md)提供有关失败的对等和会议会话的每用户信息。
     
 - [在 Skype For Business 服务器中呼叫诊断报告](call-diagnostic-reports.md)提供失败的对等和会议会话的摘要信息和诊断数据。
     
@@ -39,7 +41,7 @@ Skype for business 服务器包含一组由 Microsoft SQL Server Reporting Servi
     
 ## <a name="locating-records"></a>查找记录
 
-监控报告在任一时刻仅在屏幕上显示有限数量的记录。 屏幕上显示的实际记录数因报告而异。 若要查看当前未显示在屏幕上的记录, 您可以使用标准向前和向后控件 (位于每个报表的工具栏上), 使您可以逐页浏览数据。 您还可以快速跳转到数据集的第一页或最后一页。
+监控报告在任一时刻仅在屏幕上显示有限数量的记录。 屏幕上显示的实际记录数因报告而异。 若要查看当前未显示在屏幕上的记录，您可以使用标准向前和向后控件（位于每个报表的工具栏上），使您可以逐页浏览数据。 您还可以快速跳转到数据集的第一页或最后一页。
   
 除了使用前进和后退控件，您还可以通过在“**当前页**”框中键入页码，然后按 Enter 来跳转到数据集中的任一页。
   
@@ -47,7 +49,7 @@ Skype for business 服务器包含一组由 Microsoft SQL Server Reporting Servi
   
 如前所述，监控报告仅提供最基本的搜索功能。例如，您无法指定应在哪个字段中查找值。搜索机制自动在每条记录中的每个字段中搜索匹配值。您无法在搜索中使用通配符，所有搜索都将查找部分值。这意味着，如果您搜索 111，则搜索不仅将返回值 111，还返回值 11100、811、3112、611A5B 以及在字段中的任何位置包含值 111 的任何其他字段。
   
-每个报告配置为显示一组默认记录。 例如，默认情况下，用户注册报告显示上周的用户注册活动。 有些情况下，这可能生成不返回任何记录的报告。 在这种情况下，意味着上周没有发生任何用户注册。 如果看到消息 "没有匹配报表筛选器的结果", 请尝试更改筛选值 (例如, 将时间段更改为上个月, 而不是上一周), 然后重新运行查询。 有关详细信息，请参阅本主题后面的“筛选数据”一节。
+每个报告配置为显示一组默认记录。 例如，默认情况下，用户注册报告显示上周的用户注册活动。 有些情况下，这可能生成不返回任何记录的报告。 在这种情况下，意味着上周没有发生任何用户注册。 如果看到消息 "没有匹配报表筛选器的结果"，请尝试更改筛选值（例如，将时间段更改为上个月，而不是上一周），然后重新运行查询。 有关详细信息，请参阅本主题后面的“筛选数据”一节。
   
 ## <a name="filtering-data"></a>筛选数据
 

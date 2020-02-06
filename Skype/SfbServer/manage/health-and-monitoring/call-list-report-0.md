@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: '摘要: 了解 Skype for Business 服务器中使用的通话清单报告。'
-ms.openlocfilehash: fcf7f0e5f34a48644c8bd3bad3f1f2267afeb63d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中使用的通话清单报告。
+ms.openlocfilehash: 3013dcce34804c7afb4c0d1ca7a211f8decf56ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289327"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818113"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Skype for Business 服务器中的通话清单报告
  
-**摘要:** 了解 Skype for Business 服务器中使用的通话清单报告。
+**摘要：** 了解 Skype for Business 服务器中使用的通话清单报告。
   
-呼叫列表报告提供了针对您组织中发出和接收的单个呼叫的用户体验质量 (QoE) 指标。 请注意，报告的实际指标将取决于您访问呼叫列表报告的方式。 例如, 如果在[Skype For Business Server 的设备报表中](device-report.md)打开报表, 你将看到以下指标, 这些指标也在设备报表上报告:
+呼叫列表报告提供了针对您组织中发出和接收的单个呼叫的用户体验质量 (QoE) 指标。 请注意，报告的实际指标将取决于您访问呼叫列表报告的方式。 例如，如果在[Skype For Business Server 的设备报表中](device-report.md)打开报表，你将看到以下指标，这些指标也在设备报表上报告：
   
 - 呼叫者的麦克风
     
@@ -33,7 +35,7 @@ ms.locfileid: "34289327"
     
 - 语音切换时间比率 
     
-但是, 如果在[Skype For Business Server 的 "位置" 报表中](location-report.md)打开 "呼叫列表" 报表, 则将看不到任何这些指标。相反, 你将看到如下所示的指标:
+但是，如果在[Skype For Business Server 的 "位置" 报表中](location-report.md)打开 "呼叫列表" 报表，则将看不到任何这些指标。相反，你将看到如下所示的指标：
   
 - 来回行程（毫秒）
     
@@ -49,15 +51,15 @@ ms.locfileid: "34289327"
 
 可从以下任一报告访问呼叫列表报告：
   
-- [Skype For Business 服务器中的位置报告](location-report.md)(通过单击呼叫音量或较差的通话百分比跃点数)
+- [Skype For Business 服务器中的位置报告](location-report.md)（通过单击呼叫音量或较差的通话百分比跃点数）
     
-- [Skype For Business 服务器中的设备报告](device-report.md)(通过单击呼叫音量或较差的通话百分比跃点数)
+- [Skype For Business 服务器中的设备报告](device-report.md)（通过单击呼叫音量或较差的通话百分比跃点数）
     
-- [Skype For Business 服务器中的 "媒体质量摘要" 报表](summary.md)(通过单击呼叫音量或较差的通话百分比跃点数)
+- [Skype For Business 服务器中的 "媒体质量摘要" 报表](summary.md)（通过单击呼叫音量或较差的通话百分比跃点数）
     
-- [Skype For Business 服务器中的服务器性能报告](server-performance.md)(通过单击呼叫音量或较差的通话百分比跃点数)
+- [Skype For Business 服务器中的服务器性能报告](server-performance.md)（通过单击呼叫音量或较差的通话百分比跃点数）
     
-从通话列表报告中, 您可以通过单击详细信息指标来访问[Skype For Business 服务器中的呼叫详细信息报告](call-detail-report.md)。
+从通话列表报告中，您可以通过单击详细信息指标来访问[Skype For Business 服务器中的呼叫详细信息报告](call-detail-report.md)。
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>最充分地利用呼叫列表报告
 
@@ -83,7 +85,7 @@ ms.locfileid: "34289327"
 |**呼叫者用户代理** <br/> |是  <br/> |发出呼叫的人的终结点使用的软件。  <br/> |
 |**被叫方用户代理** <br/> |是  <br/> |被呼叫的人的终结点使用的软件。  <br/> |
 |**来回行程（毫秒）** <br/> |是  <br/> |实时传输协议 (RTP) 数据包来往于另一个终结点所需的平均时间量（以毫秒为单位）。来回行程的时间小于或等于 100 毫秒被视为质量可接受。  <br/> 高来回行程时间值可能是由国际呼叫路由、路由配置错误或媒体服务器超载造成的，从而导致双向实时音频对话存在问题。  <br/> |
-|**性能降低 (MOS)** <br/> |是  <br/> |呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Skype for Business 服务器中, 一组算法预测用户对呼叫进行评分的方式。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
+|**性能降低 (MOS)** <br/> |是  <br/> |呼叫过程中遇到的性能降低的平均意见得分 (MOS) 的平均值。 性能降低值的范围介于 0.0 和 5.0 之间。 该值小于或等于 0.5 表示可接受的性能降低。 过去，平均意见得分是通过让用户对呼叫质量进行评级（范围为 1 到 5）来计算得出的。 在 Skype for Business 服务器中，一组算法预测用户对呼叫进行评分的方式。  <br/> 高性能降低值可能是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器或终结点超载造成的，从而导致音频失真或丢失。  <br/> |
 |**数据包丢失** <br/> |是  <br/> |平均 RTP 数据包丢失率。（当 RTP 数据包（一项用于在 Internet 中传输音频和视频的协议）无法到达其目标位置时将发生数据包丢失。）高丢失率通常是由拥塞、带宽不足、无线拥塞/干扰或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**抖动** <br/> |是  <br/> |在 RTP 数据包到达之间检测到的平均抖动率。（抖动是针对呼叫的“不稳定性”的度量。）高抖动值通常是由拥塞或媒体服务器超载造成的，从而导致音频失真或丢失。  <br/> |
 |**修复程序隐藏比率** <br/> |是  <br/> |隐藏的音频样本与样本总数的平均比率。（隐藏的音频样本是一项技术，用于消除通常由丢弃的网络数据包造成的意外转换。）高值指示数据包丢失或抖动造成的显著的丢失隐藏级别，从而导致音频失真或丢失。  <br/> |

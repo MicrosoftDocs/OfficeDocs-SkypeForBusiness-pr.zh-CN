@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
-description: '摘要: 了解 Skype for Business 服务器中的 "会议摘要" 报表。'
-ms.openlocfilehash: 7bc3c1c33f50d53b0243060cd84b823e0734afb9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的 "会议摘要" 报表。
+ms.openlocfilehash: 13480a3f96ebc6375d5cb0f0e131b0ff10505fad
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305873"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818073"
 ---
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Skype for Business 服务器中的会议摘要报告
  
-**摘要:** 了解 Skype for Business 服务器中的 "会议摘要" 报表。
+**摘要：** 了解 Skype for Business 服务器中的 "会议摘要" 报表。
   
-会议摘要报告提供了联机会议会话的整体视图。 会议通常涉及超过2个用户, 需要使用会议服务。 相比之下, 对等会话通常只涉及2个用户, 不需要使用 Skype for Business Server 会议服务。 [在 Skype For Business 服务器的对等活动摘要报告](peer-to-peer-activity-summary-report.md)上报告对等活动。
+会议摘要报告提供了联机会议会话的整体视图。 会议通常涉及超过2个用户，需要使用会议服务。 相比之下，对等会话通常只涉及2个用户，不需要使用 Skype for Business Server 会议服务。 [在 Skype For Business 服务器的对等活动摘要报告](peer-to-peer-activity-summary-report.md)上报告对等活动。
   
-"会议摘要" 报表不仅告诉你在给定时间段内 (每小时、每天、每周、每月) 举行的会议数, 还会告诉你参与这些会议的人员总数以及唯一会议的总数组织.
+"会议摘要" 报表不仅告诉你在给定时间段内（每小时、每天、每周、每月）举行的会议数，还会告诉你参与这些会议的人员总数以及唯一会议的总数组织.
   
 "唯一" 组织者是指至少安排一次会议的人。 例如，如果 Pilar Ackerman 计划了一场会议，则她将算为一个唯一组织者。 如果 Ken Myer 计划了 148 场会议，则他也将算为一个唯一组织者。 例如，下表显示了计划的 8 场会议，但仅 3 个唯一组织者（Ken Myer、Pilar Ackerman 和 David Ahs）。
   
@@ -92,7 +94,7 @@ ms.locfileid: "34305873"
 |**参与者总数** <br/> |否  <br/> |参与会议的总人数。单击此项时，报告将显示所选时间段的会议活动报告。  <br/> |
 |**每个会议的平均参与者数** <br/> |否  <br/> |参与给定会议的平均人数。计算方法是参与者总数除以会议总数。  <br/> |
 |**A/V 会议总数** <br/> |否  <br/> |使用了音频或视频的会议总数。  <br/> |
-|**A/V 会议总分钟数** <br/> |否  <br/> |音频/视频会议的总分钟数。  <br/> Total A/V 会议分钟跃点数汇总了所有音频/视频会议类型, 包括: A/V 会议;IM 会议;应用程序共享会议;数据会议;和 PSTN 会议。  <br/> |
+|**A/V 会议总分钟数** <br/> |否  <br/> |音频/视频会议的总分钟数。  <br/> Total A/V 会议分钟跃点数汇总了所有音频/视频会议类型，包括： A/V 会议;IM 会议;应用程序共享会议;数据会议;和 PSTN 会议。  <br/> |
 |**A/V 会议参与者总分钟数** <br/> |否  <br/> |音频/视频会议的参与者总分钟数。例如，假定一个用户在音频/视频会议中花费了 5 分钟时间，另一个用户在同一会议中花费了 3 分钟时间，则参与者总分钟数为 8：5 分钟加上 3 分钟。  <br/> |
 |**A/V 会议平均分钟数** <br/> |否  <br/> |每个音频/视频会议的平均分钟数。  <br/> |
 |**唯一会议组织者总数** <br/> |否  <br/> |至少组织过一次会议的用户总数。与仅组织过一次会议的用户一样，组织过多次会议的用户算作一个唯一组织者。  <br/> |

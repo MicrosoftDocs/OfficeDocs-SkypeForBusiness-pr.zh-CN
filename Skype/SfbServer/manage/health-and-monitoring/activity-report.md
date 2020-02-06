@@ -7,27 +7,29 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: '摘要: 了解 Skype for Business 服务器中使用的会议活动报表。'
-ms.openlocfilehash: 790a9d5076a371dda7c8862a74f253fdb8508296
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中使用的会议活动报表。
+ms.openlocfilehash: b9ea4112d144bff88ae72e5805d79f17e655d8f3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303875"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818173"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Skype for Business 服务器中的会议活动报告
  
-**摘要:** 了解 Skype for Business 服务器中使用的会议活动报表。
+**摘要：** 了解 Skype for Business 服务器中使用的会议活动报表。
   
-会议活动报表使你可以轻松地回答以下问题: 每天保持多少个会议以及何时保留这些会议？ 此类信息不仅非常有用, 还可以作为疑难解答工具使用。 例如, 假设用户抱怨, 网络在一天的中间似乎非常慢。 快速浏览会议活动报表可能会提出一个可能的原因: 在 10:00 AM 和 2:00 PM 之间安排的会议时间比现在更多。
+会议活动报表使你可以轻松地回答以下问题：每天保持多少个会议以及何时保留这些会议？ 此类信息不仅非常有用，还可以作为疑难解答工具使用。 例如，假设用户抱怨，网络在一天的中间似乎非常慢。 快速浏览会议活动报表可能会提出一个可能的原因：在 10:00 AM 和 2:00 PM 之间安排的会议时间比现在更多。
   
 如果因网速慢而导致出现问题，您可以鼓励用户将他们的一些会议重新安排在一天中流量较少的时段。
   
 ## <a name="accessing-the-conference-activity-report"></a>访问会议活动报告
 
-通过单击以下任一指标, 可从[Skype For Business Server 中的 "会议摘要" 报告](conference-summary-report.md)访问会议活动报告:
+通过单击以下任一指标，可从[Skype For Business Server 中的 "会议摘要" 报告](conference-summary-report.md)访问会议活动报告：
   
 - 会议总数
     

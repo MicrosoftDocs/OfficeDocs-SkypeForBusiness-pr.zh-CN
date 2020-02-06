@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.PublishTopologyResetPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 description: 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: 380ac0b76aaf8195a09dea856b7c54eda3644bb5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3ebf1094151d4a2ee48bd23e51e09a61ad650119
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684435"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819374"
 ---
 # <a name="publish-topology-reset-pool-page"></a>发布拓扑重置池页
  

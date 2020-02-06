@@ -8,15 +8,17 @@ ms.date: 8/30/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果你需要删除当前充当 Skype for Business Server 2015 部署的文件存储的文件服务器，或者你需要进行其他更改以使当前文件存储不可用，则首先需要创建新的共享。 然后需要执行以下步骤：
-ms.openlocfilehash: 3ac6def729cbbf41f74d9a9b19352190f2ff2f1b
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7334246f4de6a820339e3fff5f9c19cb86a74422
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988917"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819514"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Move File Store Data to a New File Store in Skype for Business Server 2015
 

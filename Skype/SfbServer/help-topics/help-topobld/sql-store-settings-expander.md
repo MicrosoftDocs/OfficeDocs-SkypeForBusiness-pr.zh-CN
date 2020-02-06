@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: 若要编辑 SQL Server 数据库的属性，必须更改 SQL Server 数据库实例。 不能使用 "编辑属性" 对话框执行任务，例如将存档服务器数据库从一台计算机移动到另一台计算机。 此外，您不能使用 "编辑属性" 对话框更改承载中央管理存储的 SQL Server 实例。
-ms.openlocfilehash: 2d9f03f7aed8aecc591a3f7c9177b5286fb3772b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 654b1727badf9c0f08bcab9e181b301b72bd1299
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684345"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819194"
 ---
 # <a name="sql-store-settings-expander"></a>SQL 存储设置扩展器
  

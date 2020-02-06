@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: '摘要: 了解 Skype for Business 服务器中使用的呼叫许可控制报告。'
-ms.openlocfilehash: efa632aa4a7fb5793694363d958a31e8a066a9b5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中使用的呼叫许可控制报告。
+ms.openlocfilehash: 5a8df542e666975e207bd5a105cb4c1d7261b51f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289432"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818163"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Skype for Business 服务器中的呼叫许可控制报告
  
-**摘要:** 了解 Skype for Business 服务器中使用的呼叫许可控制报告。
+**摘要：** 了解 Skype for Business 服务器中使用的呼叫许可控制报告。
   
 呼叫允许控制报告提供有关对等和由呼叫允许控制设置限制下举行的会议会话的信息。呼叫允许控制为管理员提供一种方法，以允许（或不允许）基于带宽限制的通信会话。例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
   
@@ -27,9 +29,9 @@ ms.locfileid: "34289432"
 
 从监控报告主页可访问呼叫允许控制报告。从呼叫允许控制报告可深入到下列任何报告：
   
-- 会议详细信息报表-若要访问此报表, 请单击会议会话中的详细信息指标。 
+- 会议详细信息报表-若要访问此报表，请单击会议会话中的详细信息指标。 
     
-- 对等会话详细信息报表-若要访问此报表, 请单击对等会话的详细信息指标。
+- 对等会话详细信息报表-若要访问此报表，请单击对等会话的详细信息指标。
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>充分利用呼叫允许控制报告
 

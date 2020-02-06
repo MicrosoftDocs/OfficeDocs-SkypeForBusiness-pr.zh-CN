@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 摘要：了解如何在 Skype for Business Server 中管理会议服务器配置设置。
-ms.openlocfilehash: be6ccb094cc19a29534d1ca78eb2cae1457d6512
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c43734a2d79bf07023486eb163fff7bbef56e73f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991897"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818633"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中管理会议服务器配置设置
  

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 摘要：查看 Skype for business 服务器的用户 PIN 策略信息。
-ms.openlocfilehash: c61c55f97abc661558089c1d26ee4f5537fcf36b
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 57a54e960a0c89408f173567a78449cad21de9ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991947"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818694"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>查看 Skype for Business 服务器中的 PIN 策略信息
  

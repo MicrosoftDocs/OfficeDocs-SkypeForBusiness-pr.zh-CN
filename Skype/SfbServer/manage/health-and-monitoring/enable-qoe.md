@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 摘要：了解如何在 Skype for Business 服务器中启用体验质量（QoE）。
-ms.openlocfilehash: 0a05266ed88b9d476ca787f1d32b91727e90475c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: bc757748e9d95c92405a7dc9a72f87b869165825
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992932"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817962"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>在 Skype for Business 服务器中启用体验质量
 

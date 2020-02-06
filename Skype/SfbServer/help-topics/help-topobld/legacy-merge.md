@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: Web 会议外部 FQDN 允许外部用户加入本地会议。 输入旧版 Edge 服务器的 web 会议外部接口的完全限定的域名（FQDN）。
-ms.openlocfilehash: bb059855f7893ef7b2b9c601835bb53e6f0d280b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19e508bdaaf44f64b3d907070d96a3691ce611c0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697087"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819684"
 ---
 # <a name="legacy-merge"></a>旧版合并
 

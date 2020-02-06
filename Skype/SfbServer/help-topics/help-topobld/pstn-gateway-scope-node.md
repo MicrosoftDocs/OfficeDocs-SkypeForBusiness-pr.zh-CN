@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: 此节点显示完全限定的域名（FQDN）、关联的中介服务器以及有关此公共交换电话网络（PSTN）网关的其他基本信息。 可以执行以下操作：
-ms.openlocfilehash: 54fe5e2f5d366fabf9e35ce94d514239c6d81c8d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a67af588713cafe50b5b0849eb444afbafb791c2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696807"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819424"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 网关范围节点
  

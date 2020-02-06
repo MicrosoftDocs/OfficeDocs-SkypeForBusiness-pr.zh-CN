@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 在 SQL Server 上配置数据库和日志文件的位置的高级选项。 可用选项包括：
-ms.openlocfilehash: 0abcf0be4c6e7a4d808a7abaaad713c1b35cd37e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b24e79a837265930dd853590c9c3139c60a7abd4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697197"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819804"
 ---
 # <a name="install-database-options-page"></a>安装数据库选项页面
 

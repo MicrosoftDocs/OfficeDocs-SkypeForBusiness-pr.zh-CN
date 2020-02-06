@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 摘要：了解 Skype for Business 服务器中的呼叫详细记录（CDR）。
-ms.openlocfilehash: 52c5f3de5b3c83fe5701b339ecf45ed7f80a0988
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 88e86aaec7ca922db39b8c74dc1b354ab0389ba7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992519"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818042"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中创建或修改 CDR 配置设置的集合
  

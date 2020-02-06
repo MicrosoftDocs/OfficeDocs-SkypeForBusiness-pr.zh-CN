@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 摘要：了解如何在 Skype for Business 服务器中欢迎用户拨入式会议。
-ms.openlocfilehash: d9f0740128a8790052534e63c95a8305f65bb96d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6228d0636e878ccf9a208edf9afeee3fe1e808f3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992829"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818433"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>在 Skype for business Server 中向拨入用户发送欢迎电子邮件
  

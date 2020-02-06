@@ -7,20 +7,22 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
-description: '摘要: 在 Skype for Business 服务器中管理 PIN 设置。'
-ms.openlocfilehash: 70a55c99ccb7f18820321af2ff31db7fbfd0818f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：在 Skype for Business 服务器中管理 PIN 设置。
+ms.openlocfilehash: cea16a42459f15a3d87df7e2b78779e67c4502bc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289810"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818764"
 ---
 # <a name="manage-pin-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中管理 PIN 设置
  
-**摘要:** 管理 Skype for Business 服务器中的 PIN 设置。
+**摘要：** 管理 Skype for Business 服务器中的 PIN 设置。
   
 使用以下部分中的过程管理 Skype for Business 服务器中的 Pin。
   

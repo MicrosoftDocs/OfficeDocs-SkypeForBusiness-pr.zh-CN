@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 摘要：了解如何在 Skype for Business Server 中删除会议配置设置。
-ms.openlocfilehash: cbf63ba635077dd61599d4bc84a740906b662a6c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: dd07d3239b212f09391e9bc8c66f29bca62b2c3f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991857"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818583"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>删除 Skype for Business 服务器中的会议配置设置
  

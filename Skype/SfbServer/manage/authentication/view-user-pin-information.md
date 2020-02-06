@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 摘要：查看 Skype for Business 服务器中的用户 PIN 信息。
-ms.openlocfilehash: e0a74d980be4c77c5fe92f9e0d871f238a7271f5
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 236148de5b100220731d723df3217205b258879e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991937"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818684"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>查看 Skype for Business 服务器中的用户 PIN 信息
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 摘要：了解如何在 Skype for Business Server 中管理电话拨入式会议的 PIN 策略。
-ms.openlocfilehash: f5ffef4af17a4337fe600b2059aab1ea106235ae
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 567d57edc4db5bae87653d8d3e11e44054efc0cd
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992289"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818473"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for business Server 中管理电话拨入式会议的 PIN 策略
  

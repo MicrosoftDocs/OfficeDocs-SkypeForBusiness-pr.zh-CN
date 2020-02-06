@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 description: 此节点显示该前端池或 Standard Edition Server 的配置信息。 可以执行以下操作：
-ms.openlocfilehash: 9e85314f2ac5ca7a0e148dcaa95ce80d32b45fe0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 83cbc7b9dfa165f3ab067a202a7c34b23e5937be
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684665"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819864"
 ---
 # <a name="front-end-server-scope-node"></a>前端服务器范围节点
  

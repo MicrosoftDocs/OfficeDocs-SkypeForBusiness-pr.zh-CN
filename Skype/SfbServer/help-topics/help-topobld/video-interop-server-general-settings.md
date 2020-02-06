@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.VideoInteropServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 Skype for Business Server 2015 中的 "创建 VIS" 池进行联机描述。
-ms.openlocfilehash: f6326469db5ccca3ecb641c8efefc155c1f0d494
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8569bc112c7bff0c6f6382cefbfa63e38ba07f43
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696487"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819084"
 ---
 # <a name="video-interop-server-general-settings"></a>视频互操作服务器常规设置
  

@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: '摘要: 了解 Skype for Business 服务器中使用的通话详细信息报告。'
-ms.openlocfilehash: 8ced1a93f32f5f62ad33563e295ec456303232fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中使用的通话详细信息报告。
+ms.openlocfilehash: a700bf9969c921db2d36a816579ee36ff59cb3b3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289369"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818143"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Skype for Business 服务器中的呼叫详细报告
  
-**摘要:** 了解 Skype for Business 服务器中使用的通话详细信息报告。
+**摘要：** 了解 Skype for Business 服务器中使用的通话详细信息报告。
   
-通话详细信息报告提供单个通话的详细信息, 请参阅。此报告包括 Skype for Business Server 收集的几乎所有经验指标和统计信息, 划分为报表部分, 如:
+通话详细信息报告提供单个通话的详细信息，请参阅。此报告包括 Skype for Business Server 收集的几乎所有经验指标和统计信息，划分为报表部分，如：
   
 - 呼叫信息 
     
@@ -49,17 +51,17 @@ ms.locfileid: "34289369"
 
 可以从下列任意报告中访问呼叫详情报告：
   
-- [Skype for Business 服务器 (location-report.md) 中的 "位置报告" (通过单击 "呼叫" 音量或 "不良呼叫百分比" 指标)
+- [Skype for Business 服务器（location-report.md）中的 "位置报告" （通过单击 "呼叫" 音量或 "不良呼叫百分比" 指标）
     
-- "Skype for Business 服务器 (summary.md)" 中的 "媒体质量摘要报告" (通过单击 "呼叫" 音量或 "不良呼叫百分比" 指标)
+- "Skype for Business 服务器（summary.md）" 中的 "媒体质量摘要报告" （通过单击 "呼叫" 音量或 "不良呼叫百分比" 指标）
     
-- [Skype For Business 服务器中的 "媒体质量比较" 报表](comparison.md)(单击[Skype for business 服务器中的 "通话清单" 报表](call-list-report-0.md), 然后单击 "详细信息指标")。
+- [Skype For Business 服务器中的 "媒体质量比较" 报表](comparison.md)（单击[Skype for business 服务器中的 "通话清单" 报表](call-list-report-0.md)，然后单击 "详细信息指标"）。
     
-- [Skype For Business 服务器中的服务器性能报告](server-performance.md)(通过单击 "呼叫" 音量或 "不当通话百分比" 指标)
+- [Skype For Business 服务器中的服务器性能报告](server-performance.md)（通过单击 "呼叫" 音量或 "不当通话百分比" 指标）
     
-- [Skype For Business 服务器中的通话清单报告](call-list-report-0.md)(通过单击详细信息指标)
+- [Skype For Business 服务器中的通话清单报告](call-list-report-0.md)（通过单击详细信息指标）
     
-从 "呼叫详细信息" 报告中, 您可以通过单击以下任一指标,[在 Skype For Business 服务器中访问设备报告](device-report.md):
+从 "呼叫详细信息" 报告中，您可以通过单击以下任一指标，[在 Skype For Business 服务器中访问设备报告](device-report.md)：
   
 - 捕获设备
     

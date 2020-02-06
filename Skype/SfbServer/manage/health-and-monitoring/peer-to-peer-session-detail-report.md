@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: '摘要: 了解 Skype for Business 服务器中的对等会话详细信息报表。'
-ms.openlocfilehash: 768609c68e37eebf46c350009638b960066f9456
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的对等会话详细信息报表。
+ms.openlocfilehash: 4c6b05e6e4e4110a43c21dbdbbc7f190ecae98ac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279877"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817771"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等会话详细信息报告
  
-**摘要:** 了解 Skype for Business 服务器中的对等会话详细信息报表。
+**摘要：** 了解 Skype for Business 服务器中的对等会话详细信息报表。
   
 对等会话详细信息报告返回有关对等会话的详细信息。例如，如果您选择即时消息会话，则此报告将告知您会话中两个用户各自发送的消息数。
   
@@ -35,7 +37,7 @@ ms.locfileid: "34279877"
     
 - 故障列表报告 
     
-从对等会话详细信息报告中, 您可以通过单击诊断报告 (详细信息) 指标来访问[Skype For Business 服务器中的诊断报告](diagnostic-report.md)。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
+从对等会话详细信息报告中，您可以通过单击诊断报告（详细信息）指标来访问[Skype For Business 服务器中的诊断报告](diagnostic-report.md)。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
   
 - 响应
     

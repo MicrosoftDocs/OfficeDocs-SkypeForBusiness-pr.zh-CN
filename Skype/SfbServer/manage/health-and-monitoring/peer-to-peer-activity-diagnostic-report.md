@@ -7,25 +7,27 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-description: '摘要: 了解 Skype for Business 服务器中的对等活动诊断报告。'
-ms.openlocfilehash: 37773edc939787eff034d8dd6d001e3529c0db91
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的对等活动诊断报告。
+ms.openlocfilehash: 7491fc6752bbf7c08c7433f83ea58fcd1a2ba86c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279895"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817811"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等活动诊断报告
  
-**摘要:** 了解 Skype for Business 服务器中的对等活动诊断报告。
+**摘要：** 了解 Skype for Business 服务器中的对等活动诊断报告。
   
-对等活动诊断报告提供有关成功和失败的对等通信会话的信息。 请注意, Skype for Business 服务器将区别不同类型的故障:
+对等活动诊断报告提供有关成功和失败的对等通信会话的信息。 请注意，Skype for Business 服务器将区别不同类型的故障：
   
-- **预期失败**。 预期失败通常指纯技术意义上的失败。 例如，假设您呼叫某人，但他或她不在办公室，因此无法接听电话。 此呼叫未被应答，因而在技术上视为失败。 另一方面, 这是预期的故障: Skype for Business 服务器不希望您接听电话 (如果您不能接听电话)。 同样地，如果您尝试发送一条即时消息给某人，而对方处于脱机状态，或者对方只登录到不支持即时消息的电话时，也会发生预期失败。
+- **预期失败**。 预期失败通常指纯技术意义上的失败。 例如，假设您呼叫某人，但他或她不在办公室，因此无法接听电话。 此呼叫未被应答，因而在技术上视为失败。 另一方面，这是预期的故障： Skype for Business 服务器不希望您接听电话（如果您不能接听电话）。 同样地，如果您尝试发送一条即时消息给某人，而对方处于脱机状态，或者对方只登录到不支持即时消息的电话时，也会发生预期失败。
     
-- **意外失败**。 意外错误完全可顾名思义为：您预期不会发生的一种基于环境的错误。 例如, 假设您呼叫某人, 并且该人可以接听呼叫;但是, 当 Skype for Business 服务器尝试将呼叫路由到语音邮件时, 呼叫将失败, 因为与 Exchange 统一消息的连接已丢失。 这是一个意外错误：你原以为呼叫总是能路由到语音邮件。 一般说来，意外失败是真正意义上的失败：不能通过用户培训或类似措施加以补救。
+- **意外失败**。 意外错误完全可顾名思义为：您预期不会发生的一种基于环境的错误。 例如，假设您呼叫某人，并且该人可以接听呼叫;但是，当 Skype for Business 服务器尝试将呼叫路由到语音邮件时，呼叫将失败，因为与 Exchange 统一消息的连接已丢失。 这是一个意外错误：你原以为呼叫总是能路由到语音邮件。 一般说来，意外失败是真正意义上的失败：不能通过用户培训或类似措施加以补救。
     
 请注意，“成功”、“预期失败”、“意外失败”度量值加起来可能并不等于“会话总数”度量值。例如，在前面的说明中，我们获得以下值：
   
@@ -33,11 +35,11 @@ ms.locfileid: "34279895"
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |utf-16  <br/> |2521  <br/> |
    
-2024 + 469 + 16 将获得总共 2,509 个会话，而“会话总数”列显示总共 2,521 个会话。 “丢失的”12 个会话是系统无法归类为是成功还是失败的会话。 在第三方产品引入了不熟悉的 Skype for Business 服务器的新诊断代码时, 有时会出现这种情况。 这时，使用该产品并报告该诊断代码的呼叫并非总是能归类为“成功”、“预期失败”或“意外失败”。
+2024 + 469 + 16 将获得总共 2,509 个会话，而“会话总数”列显示总共 2,521 个会话。 “丢失的”12 个会话是系统无法归类为是成功还是失败的会话。 在第三方产品引入了不熟悉的 Skype for Business 服务器的新诊断代码时，有时会出现这种情况。 这时，使用该产品并报告该诊断代码的呼叫并非总是能归类为“成功”、“预期失败”或“意外失败”。
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>访问对等活动诊断报告
 
-可以从“监控报告”主页访问对等诊断报告。 您可以通过单击以下任一指标来访问[Skype For Business 服务器中的失败分发报告](failure-distribution-report.md):
+可以从“监控报告”主页访问对等诊断报告。 您可以通过单击以下任一指标来访问[Skype For Business 服务器中的失败分发报告](failure-distribution-report.md)：
   
 - 意外失败量
     

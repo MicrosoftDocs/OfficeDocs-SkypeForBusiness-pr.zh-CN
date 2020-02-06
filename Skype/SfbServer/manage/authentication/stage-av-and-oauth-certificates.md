@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要：暂存 Skype for business 服务器的 AV 和 OAuth 证书。
-ms.openlocfilehash: 37edb6843d420ca3387958c54b3db8c72a28be92
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 530e8f603d2c5be368df37354c3974e2b5abeb5a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991957"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818724"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>在 CsCertificate 中使用-滚在 Skype for Business 服务器中暂存 AV 和 OAuth 证书
  

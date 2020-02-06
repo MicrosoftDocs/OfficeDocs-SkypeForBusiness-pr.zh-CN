@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
-description: '摘要: 了解如何在 Skype for Business Server 中管理会议策略。'
-ms.openlocfilehash: d835c4760ef3e77bc36f21e64cb80aeb618526ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解如何在 Skype for Business Server 中管理会议策略。
+ms.openlocfilehash: fc069093b9cc7cf5ce0e1e1f1efc0ee9e18e335d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289053"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818643"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>在 Skype for Business 服务器中管理会议策略
  
-**摘要:** 了解如何在 Skype for Business Server 中管理会议策略。
+**摘要：** 了解如何在 Skype for Business Server 中管理会议策略。
   
-本主题描述如何管理会议策略。 有关如何规划和部署会议的详细信息, 请参阅在 skype for business[服务器中规划会议](../../plan-your-deployment/conferencing/conferencing.md)和[在 Skype for Business 服务器中部署会议](../../deploy/deploy-conferencing/deploy-conferencing.md)。
+本主题描述如何管理会议策略。 有关如何规划和部署会议的详细信息，请参阅在 skype for business[服务器中规划会议](../../plan-your-deployment/conferencing/conferencing.md)和[在 Skype for Business 服务器中部署会议](../../deploy/deploy-conferencing/deploy-conferencing.md)。
   
 会议策略允许你定义各种安排和参与选项，包括从会议能否包括 IP 音频和视频，到可参与会议的最大人数。可以使用会议策略管理会议的安全性、带宽以及法律发面的问题。
   
@@ -31,7 +33,7 @@ ms.locfileid: "34289053"
   
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用 "Skype for Business 服务器" 控制面板管理会议策略
 
-要使用 Skype for Business 服务器控制面板管理会议策略, 请执行以下操作:
+要使用 Skype for Business 服务器控制面板管理会议策略，请执行以下操作：
   
 1. 使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
     
@@ -41,7 +43,7 @@ ms.locfileid: "34289053"
     
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用 Skype for Business Server 命令行管理程序管理会议策略
 
-若要使用 Skype for Business Server Management Shell 管理会议, 请使用以下 cmdlet:
+若要使用 Skype for Business Server Management Shell 管理会议，请使用以下 cmdlet：
   
 **会议策略设置**
 

@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: '摘要: 了解 Skype for Business 服务器中使用的会议诊断报告。'
-ms.openlocfilehash: bfe84c50b3aaee53da1dc460f501e3c9a82528af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中使用的会议诊断报告。
+ms.openlocfilehash: dd36fa61cf3f1d9beb7f7db4702e740761af6b21
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289298"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818083"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Skype for Business 服务器中的会议诊断报告
  
-**摘要:** 了解 Skype for Business 服务器中使用的会议诊断报告。
+**摘要：** 了解 Skype for Business 服务器中使用的会议诊断报告。
   
-会议诊断报告提供有关所有会议会话成功和失败的信息。 请注意, Skype for Business 服务器将区别不同类型的故障:
+会议诊断报告提供有关所有会议会话成功和失败的信息。 请注意，Skype for Business 服务器将区别不同类型的故障：
   
 - **预期失败**。预期失败通常仅是大多数技术意义上的失败。例如，假定有人启动会议，但在任何人可加入前挂起。技术上的失败：会议已启动，但没有完成。但是，以下是预期发生的失败：如果任何人可加入前组织取消会议，则将不会预期会议要完成。
     
@@ -33,11 +35,11 @@ ms.locfileid: "34289298"
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |utf-16  <br/> |2521  <br/> |
    
-如果 2024 + 469 + 16 得到 2,509 个会话，而总会话列显示 2,521 个总会话数。 “丢失的”12 个会话是系统无法作为成功或失败进行分类的会话。 在第三方产品引入了监视服务器不熟悉的新诊断代码时, 有时会出现这种情况。 如果发生这种情况，使用该产品制定的呼叫和报告该诊断代码的呼叫无法总是作为成功、预期失败或意外失败进行分类。
+如果 2024 + 469 + 16 得到 2,509 个会话，而总会话列显示 2,521 个总会话数。 “丢失的”12 个会话是系统无法作为成功或失败进行分类的会话。 在第三方产品引入了监视服务器不熟悉的新诊断代码时，有时会出现这种情况。 如果发生这种情况，使用该产品制定的呼叫和报告该诊断代码的呼叫无法总是作为成功、预期失败或意外失败进行分类。
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>访问会议诊断报告
 
-可从监控报告主页访问会议诊断报告。 您可以通过单击以下任一指标来访问[Skype For Business 服务器中的失败分发报告](failure-distribution-report.md):
+可从监控报告主页访问会议诊断报告。 您可以通过单击以下任一指标来访问[Skype For Business 服务器中的失败分发报告](failure-distribution-report.md)：
   
 - 意外失败量
     
@@ -45,7 +47,7 @@ ms.locfileid: "34289298"
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>充分利用会议诊断报告
 
-会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某一列, 您将向下钻取到该时间段的[Skype For Business 服务器中的失败分发报告](failure-distribution-report.md)以及该会议类型。
+会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某一列，您将向下钻取到该时间段的[Skype For Business 服务器中的失败分发报告](failure-distribution-report.md)以及该会议类型。
   
 ## <a name="filters"></a>筛选器
 

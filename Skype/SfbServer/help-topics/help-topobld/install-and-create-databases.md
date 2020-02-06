@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: 选择要为你的部署创建的数据库。 默认情况下，将在定义的网站中定义的 SQL Server 上创建数据库，并基于你将数据库置于的 SQL Server 自动部署和配置数据库文件。
-ms.openlocfilehash: cf3493932fc699751cb31e1ab6f76312195b4e0a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 72eebc4523eb538762adcfd3c2ee7138853a80ac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697207"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819824"
 ---
 # <a name="install-and-create-databases"></a>安装和创建数据库
 

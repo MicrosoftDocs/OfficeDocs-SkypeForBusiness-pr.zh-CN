@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: 从拓扑生成器内，你可以修改用于内部和外部 web 服务的端口设置。 此外，如果你要部署域名系统（DNS）负载平衡，可以使用拓扑生成器来配置池的完全限定的域名（FQDN），该域名解析为该池中所有服务器的物理 IP 地址。
-ms.openlocfilehash: 3304be3e4e8442e3ce100bd57c8ea75bd8a6c7ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ab2a93bab1717bc34e0df42fb7f4a9ed5298166c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684265"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819024"
 ---
 # <a name="web-services-settings-expander"></a>Web 服务设置扩展器
  

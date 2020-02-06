@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.VideoGatewayGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 Skype for Business Server 2015 中的 "创建 VIS" 池进行联机描述。
-ms.openlocfilehash: a8e004b98303b8c28d3ae4829e0604b223b7b69a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 520fdb40ee327c528c53b4e099ff89804bb074a2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696537"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819124"
 ---
 # <a name="video-gateway-general-settings"></a>视频网关常规设置
  

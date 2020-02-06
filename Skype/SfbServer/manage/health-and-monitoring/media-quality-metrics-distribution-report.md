@@ -7,26 +7,28 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
-description: '摘要: 了解 Skype for Business 服务器中的媒体质量指标分布报告。'
-ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的媒体质量指标分布报告。
+ms.openlocfilehash: f656a44ac1437a9c57cb5efe757757e7d695c2a5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280038"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817851"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Skype for Business 服务器中的媒体质量指标分布报告 
  
-**摘要:** 了解 Skype for Business 服务器中的媒体质量指标分布报告。
+**摘要：** 了解 Skype for Business 服务器中的媒体质量指标分布报告。
   
 通过媒体质量指标分布报告可以查看显示用户体验质量指标（如抖动或数据包丢失）分布值的图形。例如，假设您的用户总共进行 10 次电话呼叫；这 10 次呼叫报告以下往返时间：
   
 |**呼叫编号**|**往返时间（毫秒）**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
-|2  <br/> |50  <br/> |
+|ppls-2  <br/> |50  <br/> |
 |3  <br/> |50  <br/> |
 |4  <br/> |50  <br/> |
 |5  <br/> |50  <br/> |

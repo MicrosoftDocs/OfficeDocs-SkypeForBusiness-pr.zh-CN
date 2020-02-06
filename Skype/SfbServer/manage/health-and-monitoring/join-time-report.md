@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: '摘要: 了解 Skype for Business 服务器中的会议加入时间摘要报告。'
-ms.openlocfilehash: a6ded5dad2d55c6c629cd61809c803ee40de862a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的会议加入时间摘要报告。
+ms.openlocfilehash: 057d2bd756b866c1a01dd5fcd363a205deb8ecb8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305638"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817902"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>Skype for Business Server 中的会议加入时间报表
  
-**摘要:** 了解 Skype for Business 服务器中的会议加入时间摘要报告。
+**摘要：** 了解 Skype for Business 服务器中的会议加入时间摘要报告。
   
 会议加入时间摘要可使您确定用户要花多长时间才能加入会议。该报告显示平均加入时间（以毫秒计），同时提供一个细目，让您知道有多少用户在 2 秒或更少时间内加入了会议，有多少用户要求在 2 秒和 5 秒间加入会议等。
   
@@ -52,13 +54,13 @@ ms.locfileid: "34305638"
 |**日期** <br/> 此指标的实际标题完全取决于所选的间隔。  <br/> |否  <br/> |会议发生的日期和时间。  <br/> |
 |**会话总数** <br/> |否  <br/> |会话的总数，包括成功的会话、失败的会话（预期失败和意外失败）及未归类的会话。  <br/> |
 |**平均 (ms)** <br/> |否  <br/> |参与者加入会议花费的平均时间量（以毫秒计）。  <br/> |
-|**会话\< 2 秒, 卷** <br/> |否  <br/> |在不到 2 秒的时间内加入会议的参与者的人数。  <br/> |
-|**会话\< 2 秒, 百分比** <br/> |否  <br/> ||
+|**会话\< 2 秒，卷** <br/> |否  <br/> |在不到 2 秒的时间内加入会议的参与者的人数。  <br/> |
+|**会话\< 2 秒，百分比** <br/> |否  <br/> ||
 |**会话 2-5 秒，量** <br/> |否  <br/> |在 2 秒到 5 秒之间加入到会议参与者的人数。  <br/> |
 |**会话 2-5 秒，百分比** <br/> |否  <br/> |在 2 秒到 5 秒间加入会议的总呼叫参与者的百分比。  <br/> |
 |**会话 5-10 秒，量** <br/> |否  <br/> |在 5 秒到 10 秒之间加入到会议参与者的人数。  <br/> |
 |**会话 5-10 秒，百分比** <br/> |否  <br/> |在 5 秒到 10 秒间加入会议的总呼叫参与者的百分比。  <br/> |
-|**会话\> 10 秒, 卷** <br/> |否  <br/> |需要 10 秒之上加入会议的参与者人数。  <br/> |
-|**会话\> 10 秒, 百分比** <br/> |否  <br/> |需要 10 秒之上加入会议的总呼叫参与者百分比。  <br/> |
+|**会话\> 10 秒，卷** <br/> |否  <br/> |需要 10 秒之上加入会议的参与者人数。  <br/> |
+|**会话\> 10 秒，百分比** <br/> |否  <br/> |需要 10 秒之上加入会议的总呼叫参与者百分比。  <br/> |
    
 

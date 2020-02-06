@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: 摘要：了解如何在 Skype for Business Server 中删除 CDR 配置设置。
-ms.openlocfilehash: 16b797fb59e16038411c722ce064e14ab756cdfa
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: d9e990018d97f8e631f3a95718a76aa83d7d619e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992429"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818022"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中删除 CDR 配置设置的现有集合
  

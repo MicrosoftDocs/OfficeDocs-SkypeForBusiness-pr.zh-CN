@@ -7,19 +7,21 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: '摘要: 了解 Skype for Business 服务器中的失败分发报告。'
-ms.openlocfilehash: d9e7d2ac0ff10743c69bee665be3878ac9009933
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的失败分发报告。
+ms.openlocfilehash: cc5f0747a5e1f1dd3be913c43fbc286bf95778a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305694"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817952"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Skype for Business 服务器中的失败分配报告
  
-**摘要:** 了解 Skype for Business 服务器中的失败分发报告。
+**摘要：** 了解 Skype for Business 服务器中的失败分发报告。
   
 故障分布报告按以下类别对失败会话进行分级：
   
@@ -51,7 +53,7 @@ ms.locfileid: "34305694"
     
 - [Skype for Business Server 中的对等活动诊断报告](peer-to-peer-activity-diagnostic-report.md)
     
-在 "失败分发" 报表中, 可以单击以下任一指标, 以查看[Skype For Business 服务器中的 "故障列表" 报表](failure-list-report.md):
+在 "失败分发" 报表中，可以单击以下任一指标，以查看[Skype For Business 服务器中的 "故障列表" 报表](failure-list-report.md)：
   
 - 主要诊断原因（会话）
     
@@ -152,7 +154,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
-|**等级** <br/> |否  <br/> |基于组件 (例如, ExumRouting、GroupChat 或 MediationServer) 的失败会话的相对级别。  <br/> |
+|**等级** <br/> |否  <br/> |基于组件（例如，ExumRouting、GroupChat 或 MediationServer）的失败会话的相对级别。  <br/> |
 |**主要组件** <br/> |否  <br/> |失败会话所涉及的组件的名称。  <br/> |
 |**会话数** <br/> |否  <br/> |每个组件的失败会话总数。  <br/> |
    

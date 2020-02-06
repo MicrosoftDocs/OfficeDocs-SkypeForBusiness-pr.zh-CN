@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: '摘要: 了解 Skype for Business 服务器中的对等活动摘要报告。'
-ms.openlocfilehash: dd11e5d998c8aef779b98cc0a74ba83a4dc70d84
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的对等活动摘要报告。
+ms.openlocfilehash: 001298b948f3a3b8b9b404387fe4d93843297c8a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279892"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817781"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等活动摘要报告
  
-**摘要:** 了解 Skype for Business 服务器中的对等活动摘要报告。
+**摘要：** 了解 Skype for Business 服务器中的对等活动摘要报告。
   
-对等活动摘要报告提供对等通信会话的整体视图。 对等会话通常只涉及两个用户, 不需要使用 Skype for Business Server 会议服务。 通过比较, 会议通常涉及两个以上的用户, 并且需要使用 Skype for Business Server 会议服务。 会议活动在会议摘要报告上进行报告。
+对等活动摘要报告提供对等通信会话的整体视图。 对等会话通常只涉及两个用户，不需要使用 Skype for Business Server 会议服务。 通过比较，会议通常涉及两个以上的用户，并且需要使用 Skype for Business Server 会议服务。 会议活动在会议摘要报告上进行报告。
   
 对等活动摘要报告帮助您回答诸如下列问题：
   
@@ -33,7 +35,7 @@ ms.locfileid: "34279892"
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>访问对等活动摘要报告
 
-可从监视报告主页访问对等活动摘要报告。 通过单击以下任一指标,[在 Skype For Business 服务器中打开对等 IM 报告](im-report.md):
+可从监视报告主页访问对等活动摘要报告。 通过单击以下任一指标，[在 Skype For Business 服务器中打开对等 IM 报告](im-report.md)：
   
 - 对等 IM 会话总数
     

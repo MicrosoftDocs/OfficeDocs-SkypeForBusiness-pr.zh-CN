@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.FileStoreScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 此节点显示该文件存储的完全限定域名 (FQDN) 和相关池。 可以执行以下操作：
-ms.openlocfilehash: 2a623e29f199c9663e72f4fb6e1fe267cf48dd6d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ef083500cda45d1a7f520119b1c48c95bb79d685
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684695"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819934"
 ---
 # <a name="file-store-scope-node"></a>文件存储范围节点
  

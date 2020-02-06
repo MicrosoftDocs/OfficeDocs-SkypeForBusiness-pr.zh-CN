@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: '配置策略以支持与联盟伙伴的通信时，这些策略适用于联盟域的用户。 '
-ms.openlocfilehash: d9192589191590cd96f72323681ef4df6513e36d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2e9385436427fd73f90e308d7747cf304bf37501
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991757"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818313"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>在 Skype for Business Server 中配置用于控制联盟用户访问的策略
 

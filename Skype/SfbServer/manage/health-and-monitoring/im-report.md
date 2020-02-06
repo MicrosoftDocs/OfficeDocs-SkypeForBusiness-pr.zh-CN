@@ -7,25 +7,27 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: '摘要: 了解 Skype for Business 服务器中的对等 IM 报表。'
-ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 摘要：了解 Skype for Business 服务器中的对等 IM 报表。
+ms.openlocfilehash: 7775e7dc4a6fc3cd36283decd12971ac0e0f780a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305652"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817912"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Skype for Business Server 中的对等 IM 报表
  
-**摘要:** 了解 Skype for Business 服务器中的对等 IM 报表。
+**摘要：** 了解 Skype for Business 服务器中的对等 IM 报表。
   
 对等 IM 报告提供了有关按池和身份验证类型分类的对等即时消息 (IM) 会话的趋势信息。该报告可以显示在指定时间段内（例如，每天或每小时）进行的会话总数或显示在该时间段内发送的即时消息总数。
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>访问对等 IM 报告
 
-只有[在 Skype For Business Server 中打开对等活动摘要报告](peer-to-peer-activity-summary-report.md), 然后单击以下任一指标, 才能访问对等 IM 报告:
+只有[在 Skype For Business Server 中打开对等活动摘要报告](peer-to-peer-activity-summary-report.md)，然后单击以下任一指标，才能访问对等 IM 报告：
   
 - 对等 IM 会话总数
     

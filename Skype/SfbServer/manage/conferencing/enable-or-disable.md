@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 摘要：了解如何使用 "控制面板" 或 "管理外壳" 在 Skype for Business 服务器中启用或禁用电话拨入式会议。
-ms.openlocfilehash: aed5f82678dce89190ba5449ada8eb988e1a1864
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8ce0fcfb4f785397075aa9d7b89b94eacb096167
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991837"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818553"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for Business 服务器中启用或禁用电话拨入式会议
  

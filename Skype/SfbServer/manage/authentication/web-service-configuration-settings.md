@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 摘要：管理 Skype for Business 服务器中的 Web 服务配置设置。
-ms.openlocfilehash: 383b85e156dfdbc6af7606da49d4cf89bf655698
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2ab23e499cff7678ddb50c57cdc6f396a3c4203c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991927"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818674"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>管理 Skype for Business 服务器中的 Web 服务配置设置
  

@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 在 Lync Server 2013 拓扑生成器中，你可以执行与运行监视的单个服务器相关的任务，方法是右键单击控制台树中运行监视的服务器，单击工具栏中的 "操作"，或单击 "操作" 窗格中的任务，然后对于运行监视的服务器，单击以下选项之一：
-ms.openlocfilehash: 7fc5905ba8a0f98df0ee548642050806b4b801dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dbdc131eab19f36e84d576c31a3a0b8274aa4bea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696947"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819544"
 ---
 # <a name="monitoring-scope-node"></a>监控范围节点
  

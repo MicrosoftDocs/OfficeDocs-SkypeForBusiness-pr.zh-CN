@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.PublishTopologySelectCmsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: 你可以使用拓扑生成器发布已配置的拓扑。 系统将要求你从列表中选择前端服务器或前端池将承担拥有中央管理存储的角色。 在任何给定时间，只有一个前端服务器或前端池可以持有此角色。
-ms.openlocfilehash: a5078389b1489f6b690b324b72cdf2808822554f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cf6e0adba8870fc465049f93f88551fbc318842a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696767"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819364"
 ---
 # <a name="publish-topology-select-cms-page"></a>发布拓扑选择 CMS 页面
 

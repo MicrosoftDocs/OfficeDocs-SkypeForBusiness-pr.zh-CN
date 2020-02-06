@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.OfficeWebAppsServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: 右键单击 "Office Web Apps 服务器"，然后选择 "新建 Office Web Apps 服务器" 以打开该向导。
-ms.openlocfilehash: dae79cd222e7de0a7b645d674841cf78bac2c4e7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b6a0a5253fdd0e121f010a75489b75b4a7cf5e12
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696887"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819484"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Servers 范围节点
 
