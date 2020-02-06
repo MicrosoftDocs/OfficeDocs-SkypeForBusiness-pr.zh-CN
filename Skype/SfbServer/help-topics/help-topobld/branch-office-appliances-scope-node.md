@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 description: Survivable 分支装置节点列出了此分支站点上的 Survivable 分支装置。 可以执行以下操作：
-ms.openlocfilehash: a08e037c1669150bc23e03e53d42bd80560e0b72
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 56fae9b63dda3967b6060b99b8f369eab9adfe49
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684865"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820274"
 ---
 # <a name="branch-office-appliances-scope-node"></a>分支机构设备范围节点
  

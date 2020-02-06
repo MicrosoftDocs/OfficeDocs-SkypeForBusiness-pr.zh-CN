@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddVideoGatewayIPPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 Skype for Business Server 2015 中的 "创建 VIS" 池进行联机描述。
-ms.openlocfilehash: fb59c0d551eb4232b8ff7ec45e86d951e6e1306b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f6b39e2eba098f77905760f2d3a877139dda1cf7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697937"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820544"
 ---
 # <a name="add-video-gateway-ip"></a>添加视频网关 IP
  

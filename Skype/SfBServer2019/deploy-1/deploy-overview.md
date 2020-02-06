@@ -8,23 +8,25 @@ ms.date: 7/9/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: '摘要: 浏览这些链接以了解如何安装和配置 Skype for Business Server 2019。'
-ms.openlocfilehash: 302b2a7be850e434bbf705e38d6671cdc580b3e0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：浏览这些链接以了解如何安装和配置 Skype for Business Server 2019。
+ms.openlocfilehash: 419155b0cce38c9e212af3ebc47bc5dd9a5ba0e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242002"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814050"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>部署 Skype for Business Server 2019
  
-**摘要:** 浏览这些链接以了解如何安装和配置 Skype for Business Server 2019 和从早期版本迁移。
+**摘要：** 浏览这些链接以了解如何安装和配置 Skype for Business Server 2019 和从早期版本迁移。
   
 Skype for Business Server 提供了可支持企业级协作要求的即时消息 (IM)、出席、会议、视频和电话解决方案。 本主题提供了有关如何部署和配置 Skype for Business Server 的信息链接。 
   
@@ -36,7 +38,7 @@ Skype for Business Server 提供了可支持企业级协作要求的即时消息
   
 ||内容|说明|
 |:-----|:-----|:-----|
-|![文档图标](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype for business Server 2019 的系统要求](../plan/system-requirements.md)  <br/> |了解有关 Skype for Business Server 的服务器和环境要求。  <br/> |
+|![文档图标](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server 2019 的系统要求](../plan/system-requirements.md)  <br/> |了解有关 Skype for Business Server 的服务器和环境要求。  <br/> |
 |![文档图标](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business 服务器的拓扑基础知识](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |了解有关 Skype for Business Server 的拓扑选项和服务器并置方案。  <br/> |
 |![数字指导图标](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[安装 Skype for Business Server](../../SfbServer/deploy/install/install.md)<br/> |了解如何在各种拓扑中安装 Skype for Business Server（实体和虚拟环境中）。  <br/> |
 |![数字指导图标](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [迁移到 Skype for Business 服务器2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |了解如何从以前版本的 Skype for Business 或 Lync Server 进行迁移。  <br/> |

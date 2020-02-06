@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: 对于企业版部署，你可以在前端池上 collocate "A/V" 会议服务、中介服务器或同时使用这两者，也可以将它们作为独立服务器进行部署。 对于标准版服务器部署，如果已启用会议，则始终 collocated A/V 会议服务。
-ms.openlocfilehash: 371643491438b7f1711c2a023f1b8a6d7a39525c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4a488aeca543d95042f9dfeec860934f472b94c3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685145"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820834"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>添加前端服务器并置 2010
 

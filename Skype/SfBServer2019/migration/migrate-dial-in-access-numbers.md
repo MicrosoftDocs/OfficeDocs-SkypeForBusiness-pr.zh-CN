@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 将拨入访问号码迁移到 Skype for business 服务器2019需要运行 CsApplicationEndpoint cmdlet 以迁移联系人对象。 在旧式安装和 Skype for business Server 2019 共存期间，您在 Skype for Business Server 2019 中创建的拨入访问号码与您在旧安装中创建的拨入访问号码类似，如下所述：顶部.
-ms.openlocfilehash: 35c1e665f8affdbf84628f9a7d532405779648f0
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 5333cc7cb835fc6bf324de9ab12a868f95b72972
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991137"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813500"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>迁移拨入访问号码
 

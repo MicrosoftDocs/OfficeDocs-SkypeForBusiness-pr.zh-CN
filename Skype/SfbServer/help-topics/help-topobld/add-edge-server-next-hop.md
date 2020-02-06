@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: 第二个跃点池的跃点是前端池（可以是企业版池或标准版服务器），或者，如果你的部署包含控制器，则下一个跃点是控制器。
-ms.openlocfilehash: 21dcee7314d7e6cfd17d7c7c4d8e577bcb1edf2d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3714e2f4ae3f9731254a8f7d028f0c3b7cc0d3a7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685225"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820994"
 ---
 # <a name="add-edge-server-next-hop"></a>添加 Edge Server 下一个跃点
 

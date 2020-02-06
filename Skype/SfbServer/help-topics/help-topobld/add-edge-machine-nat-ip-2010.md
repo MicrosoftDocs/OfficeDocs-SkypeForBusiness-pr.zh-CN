@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeMachineNatIpPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 592496a5-4e03-496e-9b54-2ce3e4ce6733
 description: 如果此边缘池的公共 IP 地址由网络地址转换（NAT）转换，则必须指定要转换的公共 IP 地址。 这应该是 A/V 边缘服务的外部 IP 地址。
-ms.openlocfilehash: d4184aaeb34e2caeccfb28f1195dd6b0511bcb98
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 293bbba7d327ede3216aaf3b73563c2af8fac12b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685285"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821114"
 ---
 # <a name="add-edge-machine-nat-ip-2010"></a>添加 Edge 机器 NAT IP 2010
  

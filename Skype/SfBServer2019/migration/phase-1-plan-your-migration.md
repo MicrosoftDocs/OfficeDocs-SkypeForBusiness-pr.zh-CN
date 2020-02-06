@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 本部分介绍了迁移到 Skype for Business Server 2019 的计划主题。
-ms.openlocfilehash: a6ad11da076decd447d337c6ece6cd93709f32b2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bf8ad0ccd11ffff4a09b39cba05eff7b1559470
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244473"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813230"
 ---
 # <a name="phase-1-plan-your-migration"></a>第 1 阶段：规划迁移
 

@@ -7,14 +7,16 @@ manager: serdars
 audience: End User
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 当用户单击会议请求中的会议链接时，"会议加入" 页面将检测用户计算机上已安装的客户端。 如果已安装客户端，该客户端将打开并加入会议。 如果未安装客户端，则默认情况下将打开 Web 应用。
-ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 35b8b816d5c01f3061dc697cf7f37a4314a5f083
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989557"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813790"
 ---
 # <a name="configure-the-meeting-join-page"></a>配置与会页面
 

@@ -8,18 +8,20 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.IPVersion
 - ms.lync.plan.IPVersion
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: 在 Skype for Business Server 2015 中配置 IP 地址时，你有三个选项。 你可以将 Skype for business Server 2015 配置为仅支持 IP 版本4（IPv4）、仅支持 IP 版本6（IPv6）或二者（称为双重堆栈）的组合。
-ms.openlocfilehash: 759f26f5b8ec282e033fafd6687bc838b2a9517c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9579a1696d9e1b5d7709102c2b8bf1660096a4ad
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685425"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821424"
 ---
 # <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
  

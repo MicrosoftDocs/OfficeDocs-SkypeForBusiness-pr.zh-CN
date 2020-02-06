@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddVisNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 Skype for Business Server 2015 中的 "创建 VIS" 池进行联机描述。
-ms.openlocfilehash: 46cebb944eb3048ad0ee8acfe13672fff06d4966
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 75a7666e09e10e161cf052323e0e1accae821dcf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697887"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820504"
 ---
 # <a name="add-vis-next-hop"></a>添加 VIS 下一跃点
  

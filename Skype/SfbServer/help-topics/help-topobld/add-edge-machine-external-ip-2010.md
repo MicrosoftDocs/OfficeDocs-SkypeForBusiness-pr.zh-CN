@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIpPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: 你可以在此页面上配置属性，以将 Edge 服务器指向 "访问边缘服务"、"Web 会议边缘服务" 和 "A/V 边缘" 服务的外部位置。
-ms.openlocfilehash: e15d2f0a514cd7e854ebd76290ff8bc53bd2146d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a278ed44280b6bdcfd4bb50f4d8637f7c91d40fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698559"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821164"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>添加 Edge 机器外部 IP 2010
 

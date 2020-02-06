@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AvMcuSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 若要编辑已定义的 A/V 会议服务器池的属性，请执行下列操作：
-ms.openlocfilehash: 056046eb8351d3b9b4c6e9422b6312c0be6eed78
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 81746baeec304fd04cb612144ad0aaafb04e07dc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697697"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820324"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 设置扩展器
  

@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 本节中的主题介绍完成迁移到 Skype for business Server 2019 后需要执行的任务。
-ms.openlocfilehash: 9ac11178132ef08157e08bec63cd20127e9582b1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 72b89831f2b3e0811e4dce810ccad9f02e35424f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244387"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813110"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>第 7 阶段：完成迁移后任务
 

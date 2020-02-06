@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: 若要定义新的 SQL 应用商店，这意味着你指定基于 SQL Server 的数据库和 SQL Server 实例（默认实例或命名实例），请指定以下项。
-ms.openlocfilehash: 10fca86e0d132a482636cd9f83f3a893f8380b4a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f65eb47327df45b7b1bd5c5a0c2a5bb8173d8bc9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697967"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820604"
 ---
 # <a name="add-sql-store"></a>添加 SQL 存储
 

@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 description: 存档服务器需要支持的 SQL Server 数据库软件的64位版本才能存储存档数据。 你可以选择要用于存档的以前定义的 SQL Server 数据库，也可以通过指定 SQL Server 数据库将驻留的服务器的完全限定的域名（FQDN）和 SQL Server 实例（该 sql Server 的 SQL Server 实例）来定义新的 sql server 数据库。你想要用于新的 SQL Server 数据库（它可以是你指定的默认实例或命名实例）。
-ms.openlocfilehash: 232b363e3a43f0cd58783a829bfe672434385fa8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d4fcb526abf0eb1ef961f5790b574a9f30a80b87
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698667"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821284"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>添加存档服务器 SQL Server 存储
 
