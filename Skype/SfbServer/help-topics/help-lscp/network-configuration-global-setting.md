@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.NcsGlobalMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: ec3482cbd25d7adf005d1dd23c85557e91cd8054
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f9be56458873fb869191cc32b823fd4f76efc515
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699988"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822615"
 ---
 # <a name="network-configuration-global-setting"></a>网络配置：全局设置
 

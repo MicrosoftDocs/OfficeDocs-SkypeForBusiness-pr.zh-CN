@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.NcsRegionLinkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: f722b62d8a6b10cbb4130d385443730a657ea580
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 59468eda88c8e5a1eb9a52b5f4ac5db678c33734
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686885"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822995"
 ---
 # <a name="configure-a-network-region-link"></a>配置网络区域链接
 

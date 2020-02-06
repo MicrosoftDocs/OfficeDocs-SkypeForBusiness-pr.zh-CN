@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainVerifyDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 若要验证在步骤1：准备架构中完成的域准备的复制，必须从 Skype for Business Server Management Shell Lync Server Management Shell 运行 cmdlet。 若要运行 Windows PowerShell cmdlet，请登录到属于你已准备的域成员的计算机，以及作为域管理员组的成员。 请执行下列操作：
-ms.openlocfilehash: add0434223dcd4f08256adbdcc207ee6be4df1b8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: da61941bacd1d5463c11cf044d9ce8a6442ef9d4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687365"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823286"
 ---
 # <a name="verify-replication-in-the-domain"></a>验证域中的复制
  

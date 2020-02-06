@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestSanDesc
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 description: "\"主题名称/主题备用名称\" 页面显示主题名称和将填充证书的所有使用者替换名称的摘要。 为 \"主题名称\" 和 \"主题备用名称\" 显示的名称是从定义文档中收集的，因为它是在拓扑生成器中定义部署时创建的。"
-ms.openlocfilehash: b25cc163b36e4784ec2a9a5a9c314e17e7dddd8d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ff4bc38391704a3faaa9673908b6c1fef5bd65e8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701127"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823776"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>证书请求（使用者替代名称）
  

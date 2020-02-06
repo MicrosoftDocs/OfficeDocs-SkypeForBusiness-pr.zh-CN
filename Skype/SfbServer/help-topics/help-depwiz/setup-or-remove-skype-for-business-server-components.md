@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainBootstrap
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 description: 若要安装和激活、停用或卸载 Skype for Business Server 2015 组件，请使用步骤2：设置或删除 Skype 服务器组件。 你必须以你正在安装或修改的计算机上的本地管理员身份登录，并且必须能够读取当前域中的 Active Directory 域服务用户和组。 要开始，请单击“运行”。 执行此操作时，会读取基于中央管理存储的拓扑定义。 需要根据中央管理存储中定义的角色来安装和配置必需的软件组件。 安装完成后，请检查摘要，然后单击“完成”。
-ms.openlocfilehash: cc500b6fb271b628726babf91eaa86ec08f07547
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b9fbdf7960c9d3fc8e11e9064ef6ca1b7f23b308
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700787"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823376"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>安装或删除 Skype for Business Server 组件
  

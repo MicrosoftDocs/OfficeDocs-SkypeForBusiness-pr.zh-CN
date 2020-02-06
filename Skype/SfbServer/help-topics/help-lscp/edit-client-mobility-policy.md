@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: 在 "编辑移动策略" 对话框中，您可以编辑移动策略的详细信息。
-ms.openlocfilehash: 4a765125023af51b1e54d6af50901e54836cca34
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: eaa9d33ec9bc5078358523704b3a51e8cc4f0870
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686771"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822835"
 ---
 # <a name="edit-client-mobility-policy"></a>编辑客户端移动策略
 

@@ -8,17 +8,19 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeploySSRSCredentials
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: 若要指定用于访问监视数据库的 SQL Server Reporting Services （SSRS）的凭据，请执行下列操作：
-ms.openlocfilehash: eb93268d8e222d36bf0f921abc96535e98635f2a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7e2576232946e7c4f37fbb7e1af01f21030a9921
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687325"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823366"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services（凭据）
  

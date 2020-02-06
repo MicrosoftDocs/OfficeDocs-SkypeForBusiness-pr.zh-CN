@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientDeviceTestEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: 测试设备功能与设备更新功能结合使用。 可将测试设备添加到“测试设备”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 可以在全局范围（在整个环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在 "Skype for Business 服务器" 控制面板的 "测试设备" 页面上的列表中。
-ms.openlocfilehash: 56f5c7b43f55f50c5fa5e73cade3f74bea752778
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e34a70091e4558db4c2e201f86c9aa81d50f3dda
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699458"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822054"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>测试设备：创建新的或编辑现有的
 

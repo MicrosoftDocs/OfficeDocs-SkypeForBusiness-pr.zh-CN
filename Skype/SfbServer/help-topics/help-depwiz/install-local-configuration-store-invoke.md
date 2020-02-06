@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployReplicaInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 description: "\"执行命令\" 窗格显示用于安装中央管理存储的本地只读副本的任务的状态。 任务运行时，将在运行命令时更新任务窗格。 你应该查看任务状态并记下显示的任何错误或警告。 完成任务后，将显示 \"邮件任务状态：已完成\"，并且日志文件的下拉列表显示日志文件的名称。 若要查看已创建的日志文件，请选择要查看的日志文件，然后单击 \"查看日志\"。 查看所有日志文件，获取成功、错误和警告消息。"
-ms.openlocfilehash: 0a2d934d9b7b689feca6a9bc261e908b79773a0b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c6e23072b4734db783dff3d82da9cf6ac43233b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701047"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823626"
 ---
 # <a name="install-local-configuration-store-invoke"></a>安装本地配置存储（调用）
  

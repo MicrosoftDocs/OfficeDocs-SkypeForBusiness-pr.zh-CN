@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientCVPolicyRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: 客户端版本策略由一组客户端版本规则组成。这些规则定义在用户尝试使用特定客户端和客户端版本登录时应采取的操作。
-ms.openlocfilehash: 4ac3174c367b4c6b23ab224a6eedf20399136302
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 870f0d46ff50b4fabab9b4f098cb569ae2c9ee82
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686935"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823055"
 ---
 # <a name="client-version-rule"></a>客户端版本规则
 

@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceUsageSelRoute
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: 使用 "选择路由" 对话框查找您可以使用的现有语音路由。
-ms.openlocfilehash: dc6f639dde0473f6a210c51ad45373ad513d067d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ace250fab09bf6d4ada34d94bdd531a10a12ae74
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685825"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822125"
 ---
 # <a name="select-routes"></a>选择路由
  

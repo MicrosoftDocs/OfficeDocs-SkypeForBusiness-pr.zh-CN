@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: "\"名称和安全设置\" 页面提供一个文本框，用于定义友好名称、用于私钥和公钥对的位长的下拉列表，以及使你能够将证书的专用密钥标记为可导出的复选框。"
-ms.openlocfilehash: e3ee374ad9a1fc29f67b7f756dcb2fd0384bcabc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 182edc086863b7fb2ffbbb67cc041434fa9df672
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687785"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823906"
 ---
 # <a name="certificate-request-basic"></a>证书请求（基本）
  

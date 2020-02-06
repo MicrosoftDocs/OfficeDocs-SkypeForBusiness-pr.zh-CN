@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: 若要配置 Microsoft 推送通知和 Apple 推送通知，必须创建一个策略来定义所需的推送通知类型。
-ms.openlocfilehash: 36cf19d42a2378e024f90d3dbe60123b3d5473fa
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3fde99c3f026f87197492417cd10611d96f7e20e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700027"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822655"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>移动客户端：推送通知配置
  

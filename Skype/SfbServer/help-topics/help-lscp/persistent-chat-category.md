@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.PersistentChatCategory
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: 您可以使用“持久聊天”页的“类别”部分配置类别。 持久的聊天室类别是用于组织聊天室的逻辑结构。 类别定义一组默认的访问控制列表 (ACL)，以便控制可以创建或加入聊天室的用户和用户组。 您还可以使用类别强制在组织中不同部门之间使用信息隔离墙。
-ms.openlocfilehash: f7a87e45bc7f337fc86e1617bf17ffb4c9b5715e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: de0a638da6de622b9646347c4eaa733deecdd2ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686249"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822545"
 ---
 # <a name="persistent-chat-category"></a>持久聊天类别
  

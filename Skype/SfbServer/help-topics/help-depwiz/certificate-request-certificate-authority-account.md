@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestCAAccount
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: 若要提交请求，您的证书颁发机构（CA）可能需要您当前登录的用户以外的凭据。 若要允许证书请求作为其他用户，请选中 "为证书颁发机构指定备用凭据" 复选框，然后为可以申请证书的用户键入用户名或域 \ 用户名。 在 "密码" 文本框中，键入您指定的用户的密码。 然后，将用户名和密码作为证书请求过程的一部分（而不是在实际证书请求中）发送到联机 CA。
-ms.openlocfilehash: 91dfba477599bc32547150702db7646fc2049893
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 53176cf825b7a4be02a3f4709aefe2aa83515984
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701227"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823896"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>证书请求（证书颁发机构帐户）
  

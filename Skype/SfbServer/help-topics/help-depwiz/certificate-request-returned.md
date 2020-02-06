@@ -8,17 +8,19 @@ ms.date: 4/1/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: "\"联机证书请求状态\" 页面向你显示成功创建和发出在线证书请求所产生的重要信息。 此页面提供唯一标识证书的证书指纹。 默认情况下，将选中 \"将此证书分配给 Skype for business 服务器证书使用情况\" 复选框。 如果单击 \"完成\"，则证书将自动分配给 Lync Server 2013，目的是在证书请求的创建步骤中定义。 默认情况下，将分配证书的目的是："
-ms.openlocfilehash: 885de54ec8deeef1d326e39b5a35e7b08c633973
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7b4ee3d615de0d0d58e041ba1860cc1cd2d34219
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687745"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823806"
 ---
 # <a name="certificate-request-returned"></a>证书请求（已返回）
  

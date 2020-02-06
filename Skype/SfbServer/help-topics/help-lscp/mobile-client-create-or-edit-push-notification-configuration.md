@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: 推送通知和推送通知交换所 (PNCH) 是移动功能的主要组成部分。推送通知是将消息发送到 PNCH 的过程。消息将保留在此处，直到它能发往移动客户端或超时段过期为止。
-ms.openlocfilehash: c4a149588abd9e741ae934d73ec23ad2355e772c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ca302e0dbdde2c1628abc6c0257ee807f6f152a8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686285"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822665"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>移动客户端：创建或编辑推送通知配置
  

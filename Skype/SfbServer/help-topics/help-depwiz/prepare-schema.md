@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: 若要准备 Active Directory 域服务的架构，请在 "Skype for Business 服务器部署" 向导中运行 "准备架构" 步骤。 单击“运行”可开始准备架构。 准备架构步骤将在运行部署向导的系统上的/Program 文件/Microsoft Lync Server 2013/部署/安装目录中读取所提供的架构定义文件。 这些文件也可在支持/架构目录中的安装媒体上使用。 “准备架构”步骤将扩展架构并报告准备过程的状态。 还将在完成准备过程时通知您。 通过摘要屏幕可以查看该过程的日志。 查看日志以确保准备工作已成功完成。
-ms.openlocfilehash: fd1e79411c9820013954be0add7b68c326188e9e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ae4c44adf8c94efa7b87c9f1a4f5f142a7117276
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700817"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823476"
 ---
 # <a name="prepare-schema"></a>准备架构
  

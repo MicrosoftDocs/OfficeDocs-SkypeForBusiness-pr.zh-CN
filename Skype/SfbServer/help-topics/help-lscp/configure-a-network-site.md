@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.NcsSiteMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 description: 您希望执行什么操作？ 单击您要执行的任务所对应的链接。
-ms.openlocfilehash: 03cf6e4c838bd046541659b045d54d991e19e1b6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b8ec6cc2f55eef4bdc53d7f88d1660869e9ce23
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700337"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822945"
 ---
 # <a name="configure-a-network-site"></a>配置网络站点
 

@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Microsoft 定期为 Skype for business Phone Edition 发布一组新的设备固件更新，您可以将其导入到服务器并分发给用户。 通过转到 Microsoft 网站上的 "帮助和支持" 页面并搜索 forPhone 版本，你可以获取最新的设备更新规则集。下载最新的更新程序包，并将文件解压缩到要上载更新的计算机上的某个文件夹中。 解压缩文件后，可以使用 Import-CsDeviceUpdate cmdlet 导入解压缩后的 .CAB 文件（其名称为 UCUpdates.cab）中包含的设备更新规则。 有关详细信息，请参阅导入-CsDeviceUpdate。
-ms.openlocfilehash: 066564a315fdda57e33ad62f8abfe8e5dbe931e1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ad296ebc3b8ade977884a925180dbb3639855f76
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700237"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822885"
 ---
 # <a name="device-update"></a>设备更新
 

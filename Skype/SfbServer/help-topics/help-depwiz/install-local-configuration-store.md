@@ -8,17 +8,19 @@ ms.date: 4/13/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: 若要开始安装新的 Skype for Business Server 2015 角色服务器，必须首先安装将托管本地配置存储的本地 SQL Server。 本地配置存储将充当 Skype for Business Server 中央管理存储（CMS）的只读副本。 必须以计算机本地管理员的身份登录运行“安装本地配置存储”步骤的服务器，并具有 RTCUniversalServerAdmins 或 RTCUniversalGlobalReadOnlyGroup 组成员身份。 如果在边缘服务器上执行安装，则不需要具有 RTCUniversalServerAdmins 或 RTCUniversalGlobalReadOnlyGroup 组成员身份。 将从导出的定义文档（而不是从中央管理存储）读取拓扑生成器定义文档。 若要导出拓扑生成器定义文档并将其提供给边缘服务器，请参阅主题导出拓扑并将其复制到外部媒体以进行边缘安装。
-ms.openlocfilehash: 83412bbef1305dab51cbb35ad9044f756154905c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7908a862a01871988d6afe6ae1b0cf9c752e9d30
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687636"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823616"
 ---
 # <a name="install-local-configuration-store"></a>安装本地配置存储
 

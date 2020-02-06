@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertImportBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 description: 若要导入证书，必须提供证书文件的路径。 在 "选择证书文件" 文本框中，你可以键入完整路径和文件名，或单击 "浏览" 按钮并导航到路径位置和文件名（通常为. p7b、.pfx 或 .cer 文件）。
-ms.openlocfilehash: 13cca7735ce3bd51bea2438db8688b348d729f51
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 63420dad20e5174cb41f9fc00d63a1f7c25763a2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687669"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823666"
 ---
 # <a name="import-certificate-intro"></a>导入证书（简介）
  

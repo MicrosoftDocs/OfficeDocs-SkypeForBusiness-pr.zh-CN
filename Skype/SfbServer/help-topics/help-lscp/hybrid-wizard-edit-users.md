@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.HybridEditUser
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 description: 使用“编辑用户”向导修改您的部署中的用户帐户。 有关更多信息，请参阅Use the Hybrid Manageability wizard。
-ms.openlocfilehash: 112736950799b6c29f71fcffc133d2da444e9ec0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 67c067d10cdc829838e7b0f57e3c6a5f6032b333
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686795"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822735"
 ---
 # <a name="hybrid-wizard-edit-users"></a>混合向导：编辑用户
 

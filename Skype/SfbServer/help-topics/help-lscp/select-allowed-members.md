@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.SelectAllowedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 使用正确的类别，创建和管理持久的聊天室更容易。 持续聊天管理员可以为每个类别定义 AllowedMembers 和创建者，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用控制面板或 Windows PowerShell cmdlet 创建和管理类别。
-ms.openlocfilehash: 916077fe25e1616888dd58dc40f0ef0f14c61e7a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ad371fada6bbb7e8c9a2620eb5ec533cc60a0673
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699697"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822295"
 ---
 # <a name="select-allowed-members"></a>选择允许的成员
 

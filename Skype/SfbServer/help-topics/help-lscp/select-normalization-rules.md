@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceDialPlanSelNormRule
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 description: 规范化规则使用 .NET Framework 正则表达式将拨打的电话号码转换为 E.164 格式。必须将每个拨号计划分配给一个或多个规范化规则。
-ms.openlocfilehash: eea9b39b4453dceccf3f75adad48bae3dffad49c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3f3d20f34517c34734f86b398572dff9e23d14a0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685841"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822165"
 ---
 # <a name="select-normalization-rules"></a>选择规范化规则
  

@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: 使用 "选择企业语音用户" 对话框查找已启用企业语音的用户。 在 "搜索" 框中，键入要查找的用户的 SIP 地址或显示名称，然后单击 "查找"。 若要选择用户，请在搜索结果列表中单击用户，然后单击 "确定"。 如果找不到要查找的用户，则可能不会为企业语音启用该用户。
-ms.openlocfilehash: e32b80403f318ec02068471a9dd455dd45269262
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c4976d03f716044ee5a8c518ef32f6e7d90c0720
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699627"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822235"
 ---
 # <a name="select-enterprise-voice-users"></a>选择企业语音用户
  

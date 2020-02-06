@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.PersistentChatConfigMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 description: 持久聊天服务器部署可以托管多个并发的持久聊天室。 聊天室可以组织到服务器上的一组类别中。 每个聊天室属于一个类别，并继承该类别的一些设置。 这种组织方式可创建一种非常有用的结构以基于对话的业务目的识别对话，并有助于委托管理和简化控制。
-ms.openlocfilehash: 2de93fc5dfe85f9ab6b16d66f62df12faccde5e2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 077ee0fe1058abc54568b47ea55af3c7d9238c7d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699937"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822535"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>持久聊天配置主页
  

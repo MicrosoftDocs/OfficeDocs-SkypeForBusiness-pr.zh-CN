@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.PersistentChatAddinMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: 你可以使用持久聊天页面的加载项部分将 Url 与持久聊天室相关联。 这些 URL 将显示在对话可扩展性窗格的聊天室中的客户端中。 管理员必须将外接程序添加到注册的外接程序列表中，且聊天室管理员/创建者必须将聊天室与其中一个注册的外接程序相关联，这样用户才能在其客户端中看到此升级。
-ms.openlocfilehash: 0fe522b440a3f99973ecafa04a9ef7a7cbc3962a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 60cf60c6f6691725161182c5cc4e5c2fd38a0576
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699967"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822575"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>持久聊天外接程序主页
 

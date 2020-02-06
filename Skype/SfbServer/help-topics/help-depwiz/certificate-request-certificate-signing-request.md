@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestCSRFile
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: 若要创建脱机请求，必须首先创建证书签名请求（CSR）。 在 "文件名" 文本框中键入 CSR 的路径和文件名。 你可以单击 "浏览" 以选择创建 CSR 的位置。 单击 "下一步" 继续。
-ms.openlocfilehash: a62f93755d8e7898d2555c39f61b198903459c1e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 951275f697b8804d389ce5841881a40903d8e039
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687775"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823866"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>证书请求（证书签名请求）
  
