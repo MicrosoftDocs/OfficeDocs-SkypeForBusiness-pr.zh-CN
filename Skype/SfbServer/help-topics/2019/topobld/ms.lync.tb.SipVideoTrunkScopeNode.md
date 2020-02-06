@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SipVideoTrunkScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1dc894e5-e2db-4c4d-9946-1d5f92090113
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 "拓扑生成器" 中定义新的 VIS 或视频网关所需的步骤在 Skype for Business 服务器的 "创建 VIS" 池中进行联机描述。
-ms.openlocfilehash: 1a155bf713eccda06e5157857a178b2365dcd7ac
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fe0170c44e99e5db241f4df44daa370e117c00c7
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687985"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796501"
 ---
 # <a name="sip-video-trunk-scope-node"></a>SIP 视频中继范围节点
  

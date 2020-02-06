@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server 中大多数服务器角色的主高可用性方案基于服务器冗余（通过池划分）。 如果运行特定服务器角色的服务器发生故障，池中运行同一角色的其他服务器将接手该服务器的负载。
-ms.openlocfilehash: dc438d5b46f54f7526b0d1327a3263d9e334b68d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 328d269e6d6694dc26be66bd3894094770562726
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689817"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797173"
 ---
 # <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  

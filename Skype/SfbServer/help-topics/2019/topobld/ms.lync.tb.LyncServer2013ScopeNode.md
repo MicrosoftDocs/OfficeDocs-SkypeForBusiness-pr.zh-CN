@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.LyncServer2013ScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 "拓扑生成器" 中定义新的 VIS 或视频网关所需的步骤在 Skype for Business 服务器的 "创建 VIS" 池中进行联机描述。
-ms.openlocfilehash: 8519e5358a2af47e62d342a3225a91c41393a50b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8e9ad542f576f9532c4f319e53cdba468011a51d
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688215"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796271"
 ---
 # <a name="skype-for-business-server-scope-node"></a>Skype for Business 服务器范围节点
  

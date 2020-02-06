@@ -7,22 +7,24 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
-description: '摘要: 将 VTC 设备配置为与 Skype for Business 服务器配合使用。'
-ms.openlocfilehash: 8c5310479aea38f5623f8ac2e10ef64978aa4aee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：将 VTC 设备配置为与 Skype for Business 服务器配合使用。
+ms.openlocfilehash: b266c8cc97898fe192ec023183a565b921d86949
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235668"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798079"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>为与 Skype for Business 服务器的互操作配置 VTC
  
-**摘要:** 将 VTC 设备配置为与 Skype for Business 服务器配合使用。
+**摘要：** 将 VTC 设备配置为与 Skype for Business 服务器配合使用。
   
-对于将通过 SIP 主干和 Cisco 统一通信管理器 (CallManager 或 CUCM) 视频网关连接到 Skype for Business VIS 服务器的每个 VTC, 你将需要执行以下配置自定义过程。
+对于将通过 SIP 主干和 Cisco 统一通信管理器（CallManager 或 CUCM）视频网关连接到 Skype for Business VIS 服务器的每个 VTC，你将需要执行以下配置自定义过程。
   
 此处所述的设置仅用作如何配置 CUCM 以使用 VIS 的示例。 也可使用其他设置和/或备选 CUCM 功能来实现同样的结果。 示例中不对适用于特定场景的最佳配置作任何推荐暗示。
   
@@ -103,8 +105,8 @@ VTC 现已配置为可进行互操作。在开始服务前，还需在 CUCM 端�
    | 目录号码信息 - 重新路由分区 <br/> | SfBVideoInterop_RoutePartition <br/> |
    |目录号码设置 - 呼叫搜索空间  <br/> | CSS_SfBVideoInterop <br/> |
    |MLPP 备选方和机密访问级别设置 - MLPP 呼叫搜索空间  <br/> | CSS_SfBVideoInterop <br/> |
-   |设备上的第1行 (来电显示)  <br/> | 根据需要 <br/> |
-   |设备上的第1行-ASCII 显示 (来电显示)  <br/> | 根据需要 <br/> |
+   |设备上的第1行（来电显示）  <br/> | 根据需要 <br/> |
+   |设备上的第1行-ASCII 显示（来电显示）  <br/> | 根据需要 <br/> |
    
 5. 完成时，滚动至屏幕顶部并单击“**保存**”。 
     

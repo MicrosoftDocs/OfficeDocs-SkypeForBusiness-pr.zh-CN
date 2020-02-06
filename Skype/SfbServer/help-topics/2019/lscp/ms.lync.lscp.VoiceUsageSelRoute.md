@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceUsageSelRoute
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 "选择路由" 对话框查找您可以使用的现有语音路由。
-ms.openlocfilehash: 9374dffce055d69b2955b860357a1211b7f5e25e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9a1d3352abf293a8d5b84adfc2582cdba8ddbed0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689977"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794200"
 ---
 # <a name="select-routes"></a>选择路由
  

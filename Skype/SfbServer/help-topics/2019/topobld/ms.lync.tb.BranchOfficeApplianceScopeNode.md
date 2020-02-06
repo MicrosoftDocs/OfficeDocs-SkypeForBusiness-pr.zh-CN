@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示完全限定的域名（FQDN）、关联的池和服务器以及有关此 Survivable 分支装置的复原信息。 可以执行以下操作：
-ms.openlocfilehash: f03b6984f6409201c74432772aab4e317407431c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cfc1874a3713055d03a3c01c4afef251f16c8205
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688675"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793890"
 ---
 # <a name="branch-office-appliance-scope-node"></a>分支机构设备范围节点
  

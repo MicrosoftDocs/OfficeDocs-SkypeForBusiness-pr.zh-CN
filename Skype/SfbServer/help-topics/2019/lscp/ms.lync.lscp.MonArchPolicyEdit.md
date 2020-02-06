@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 对于托管在 Skype for business 服务器上的用户，使用存档策略控制部署内部和外部通信的存档。 存档策略包括全局策略以及可选的一个或多个站点和用户策略：
-ms.openlocfilehash: 1eb1f0060e80fbb7d325f5fbe1b7a247d6d006b6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 162266ebdb3a59148b539d6681930698e30426c7
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691215"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796371"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>存档策略：创建新的或编辑现有的
  

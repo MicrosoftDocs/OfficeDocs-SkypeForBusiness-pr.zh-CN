@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsSelOverflowQueue
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 "选择溢出队列" 对话框选择当响应组队列已满时将调用转发到的队列。
-ms.openlocfilehash: f74aed9163a6ca8dfabbec50b77137985134f98d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dddd982a2a08aae0e3b2f22f2365f7fa9cc46e3f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690757"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793450"
 ---
 # <a name="select-overflow-queue"></a>选择溢出队列
  

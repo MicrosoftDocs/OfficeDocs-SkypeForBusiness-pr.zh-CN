@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该控制器池的完全限定域名 (FQDN)、端口和关联的文件存储。可以执行以下操作：
-ms.openlocfilehash: 512154d7b38edf2b79f09af1d58495d0009ee88b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4f86767d92552f2651a44c9e439b6d7efdceadfe
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688605"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793840"
 ---
 # <a name="director-scope-node"></a>控制器范围节点
  

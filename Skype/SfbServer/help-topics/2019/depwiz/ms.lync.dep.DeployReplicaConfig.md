@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployReplicaConfig
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始安装保存中央管理存储的本地只读副本的数据库，您可以选择从已安装和已配置的中心中使用拓扑生成器检索已发布的配置管理存储或从其他媒体中读取已定义的配置。 对于组织内部网络上的计算机，请选择 "从中央管理存储自动检索配置"。
-ms.openlocfilehash: a689d8cd7926cca109b808f8a186396dd48caaf8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4cc16b26e40b0215a72917c5cab47de8bce5e1b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705297"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794721"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>安装本地配置存储调用（配置）
  

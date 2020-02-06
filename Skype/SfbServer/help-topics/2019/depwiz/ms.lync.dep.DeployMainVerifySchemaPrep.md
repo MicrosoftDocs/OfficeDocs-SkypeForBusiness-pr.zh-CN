@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要验证架构扩展是否已成功复制到你的 Active Directory 域服务林中，请执行下列操作：
-ms.openlocfilehash: 2d739bece89d43d5d3be289be55c90c2a63b49fe
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9a4b5ecde4b1f8912af12fb736858879e5f458ba
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705337"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794741"
 ---
 # <a name="verify-replication-of-schema-partition"></a>验证架构分区的复制
  

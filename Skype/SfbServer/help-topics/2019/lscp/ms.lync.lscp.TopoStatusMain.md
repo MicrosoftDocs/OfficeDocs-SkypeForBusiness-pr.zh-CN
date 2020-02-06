@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
 description: '“拓扑: 状态”页将显示 Skype for Business 拓扑中服务器的状态。'
-ms.openlocfilehash: f7f9f2206aee103ab3fc2c52e8c3c9999e53bd3b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f8c2461cd007415c7630e40b9351679dd28b67a5
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704177"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794220"
 ---
 # <a name="topology-status"></a>拓扑：状态
 

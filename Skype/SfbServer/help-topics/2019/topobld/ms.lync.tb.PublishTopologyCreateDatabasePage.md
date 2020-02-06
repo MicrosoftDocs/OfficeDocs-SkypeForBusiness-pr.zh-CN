@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.PublishTopologyCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓扑生成器提供了在 SQL Server 应用商店上安装数据库的方法。 使用拓扑生成器安装数据库时，应用程序读取拓扑中的信息，然后在指定的 SQL Server 计算机或 SQL Server 群集上安装所需的数据库。 这是唯一可以使用拓扑生成器进行的数据库安装类型。 如果需要在特定计算机上安装特定数据库，或者必须安装 collocated 数据库，则必须改为使用 Windows PowerShell 命令行接口和 CsDatabase cmdlet。
-ms.openlocfilehash: b10fe3c476fe4519e425b6990f32302df61758c3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b31d970338848a2fb39d3d41b1ecdcc550efe277
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701649"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795453"
 ---
 # <a name="create-database"></a>创建数据库
  

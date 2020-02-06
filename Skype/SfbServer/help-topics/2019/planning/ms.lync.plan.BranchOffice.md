@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.BranchOffice
 - ms.lync.plan.BranchOffice
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 有关分支站点复原的详细信息，请参阅规划分支站点语音复原。
-ms.openlocfilehash: b671e962c5faceb14842aa94dda76925a917d614
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3d25f86086f305de3aba7e57682539c859a3ad09
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689997"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797373"
 ---
 # <a name="branch-sites-planning-tool"></a>Branch Sites (Planning Tool)
 

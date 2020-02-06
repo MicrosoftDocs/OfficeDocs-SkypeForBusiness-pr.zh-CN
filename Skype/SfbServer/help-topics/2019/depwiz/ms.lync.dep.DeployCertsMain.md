@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要“请求”、“分配”、“删除”或“查看”证书，可使用证书向导。 必须以 RTCUniversalServerAdmins 组成员的身份登录。 要向公共证书颁发机构 (CA) 请求证书，无需具备其他任何组成员身份。 若要向你的组织的公钥基础结构（PKI）申请证书，你需要确认需要的其他（如果有）组成员身份。 在请求任务期间，你可以输入将用于从你的 PKI 颁发 CA 申请证书的备用凭据。
-ms.openlocfilehash: 7bb6cd04687bab6cfad14a6f71a673adf06da4e7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4a36026f1dd79bbee591ba48158675adfc9455f5
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705557"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796101"
 ---
 # <a name="certificate-wizard"></a>证书向导
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 摘要：在 Skype for Business 服务器中启用统一联系人存储。
-ms.openlocfilehash: 6cadba38f40a8ff12501e0fe73f4243dc96a5831
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 382b4ed059c4066ae862bb3fe24b98b4bdde2a18
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003062"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798089"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署统一联系人存储
  

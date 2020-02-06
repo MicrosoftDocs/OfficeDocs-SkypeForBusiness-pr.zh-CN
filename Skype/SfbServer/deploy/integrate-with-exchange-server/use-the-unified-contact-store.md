@@ -8,16 +8,18 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 摘要：配置 Exchange Server 和 Skype for business 服务器的统一联系人存储。
-ms.openlocfilehash: 7a52a6bf648632daac416dcf6ffd4fd4149804c0
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 1719b8e8e5d99b8ef24da32111b69b1f9f847538
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003552"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796993"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>配置 Skype for Business Server 以使用统一联系人存储
  

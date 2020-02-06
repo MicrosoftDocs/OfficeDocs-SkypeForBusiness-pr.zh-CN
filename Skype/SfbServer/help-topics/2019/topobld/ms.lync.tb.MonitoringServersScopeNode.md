@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MonitoringServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: "\"监视服务器\" 节点将列出拓扑中的监视服务器。 可以执行以下操作："
-ms.openlocfilehash: c6b328d96605c28fc847b65ed134f08adc1de3e2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 01e93df586ffc422ea86f635b0829652108cba1e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701817"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796161"
 ---
 # <a name="monitoring-servers-scope-node"></a>监控服务器范围节点
  

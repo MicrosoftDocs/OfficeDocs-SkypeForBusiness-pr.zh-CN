@@ -7,22 +7,24 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
-description: '摘要: 在 Skype for Business 服务器中部署 VIS 服务器角色。'
-ms.openlocfilehash: 790030e3ef0b88473f6fc1750c054db5cdd74b4a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：在 Skype for Business 服务器中部署 VIS 服务器角色。
+ms.openlocfilehash: 51db16a115871f7720379157aa1b97ae89e9031f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235583"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798029"
 ---
 # <a name="deploy-video-interop-server-in-skype-for-business-server"></a>在 Skype for Business 服务器中部署视频互操作服务器
  
-**摘要:** 在 Skype for Business 服务器中部署 VIS 服务器角色。
+**摘要：** 在 Skype for Business 服务器中部署 VIS 服务器角色。
   
-现在, Skype for Business 服务器可以直接与 Cisco teleconferencing 系统 (VTCs) (如 Cisco C60 或 Cisco MX300) 集成。 这需要引入一个名为视频互操作服务器 (VIS) 的新服务器角色, 以及正确配置它将与之互操作的 VIS 和设备。 VTC 注册现有 Cisco 基础结构（比如 Cisco Unified Communication Manager (CUCM)），在 CUCM 和 VIS 池之间使用视频 SIP 中继。
+现在，Skype for Business 服务器可以直接与 Cisco teleconferencing 系统（VTCs）（如 Cisco C60 或 Cisco MX300）集成。 这需要引入一个名为视频互操作服务器（VIS）的新服务器角色，以及正确配置它将与之互操作的 VIS 和设备。 VTC 注册现有 Cisco 基础结构（比如 Cisco Unified Communication Manager (CUCM)），在 CUCM 和 VIS 池之间使用视频 SIP 中继。
   
 ## <a name="in-this-section"></a>本节内容
 

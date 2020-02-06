@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: 你可以将设备日志配置添加到 "编辑日志" 设置页面，该页面确定日志文件的最大日志大小、最大日志文件大小或在清除之前保留日志文件的时间长度。 您可以根据组织的要求更改这些设置。
-ms.openlocfilehash: 6c448b886b14397f65d7ebeb5a52b90a38c7b320
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f2c169038b69fbbb3e68838827a9a77d472c87e4
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691537"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794521"
 ---
 # <a name="device-log-configuration-edit"></a>设备日志配置：编辑
  

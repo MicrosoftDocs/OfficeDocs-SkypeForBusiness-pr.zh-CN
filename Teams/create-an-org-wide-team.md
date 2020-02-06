@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: f291e0c2902754f346dfadb855e4e6bc6fbd573c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871718"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795151"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
@@ -27,7 +27,7 @@ ms.locfileid: "39871718"
 
 有了组织范围的团队，全局管理员可以轻松地创建一个公共团队，在组织中的每个用户中提取，并在用户加入和离开组织时保持与 Active Directory 的成员身份保持最新。 只有全局管理员可以创建组织范围的团队，并且当前组织范围的团队仅限于不超过5000用户的组织。 每个租户也有五个组织范围的团队限制。 如果满足这些要求，当创建团队时，全局管理员会在选择 "**从头开始构建团队**" 时看到**组织范围**。 
 
-![组织范围选项的屏幕截图，用于创建组织范围的团队](media/create-org-wide-team.png "组织范围选项的屏幕截图，用于创建组织范围的团队")
+![用于创建组织范围的团队的组织范围选项的屏幕截图](media/create-org-wide-team.png "组织范围选项的屏幕截图，用于创建组织范围的团队")
 
 创建组织范围的团队后，所有全局管理员都将添加为团队所有者，并将所有活动用户添加为团队成员。 未经授权的用户也将添加到团队。 当未经授权的用户第一次登录团队时，将为用户分配 Microsoft 团队商业云试用版许可证。 若要了解有关试用许可证的详细信息，请查看[管理团队商业云试用版优惠](iw-trial-teams.md)。 
 
@@ -58,9 +58,9 @@ ms.locfileid: "39871718"
 
  减少 @mentions 使其避免整个组织的过载。 转到团队，然后单击 " **̇̇̇更多选项** > "**管理团队**。 在 "**设置**" 选项卡上，单击 " <strong>@mentions</strong> " > 关闭 **"显示成员" 选项 @team 或 @ [团队名称]**。 
 
-### <a name="automatically-favorite-important-channels"></a>自动收藏重要频道
+### <a name="automatically-show-important-channels"></a>自动显示重要频道
 
-收藏的重要频道，确保您的组织中的每个人都参与特定对话。 若要了解详细信息，请参阅[整个团队的自动常用频道](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)。
+显示重要频道以确保组织中的每个人都参与特定对话。 若要了解详细信息，请参阅[整个团队的自动常用频道](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6)。 
 
 ### <a name="set-up-channel-moderation"></a>设置频道裁决
 

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档策略为驻留在 Skype for business 服务器上的用户启用和禁用存档。 在每个存档策略中，您可以对以下任一项或者两项启用或禁用存档：
-ms.openlocfilehash: 63d1001a972b185fd8e36596798bc23e36a6ca3a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cbd15a7ea1f183a90d30fac8f44fae46edc1610e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704787"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795051"
 ---
 # <a name="archiving-policy"></a>存档策略
  

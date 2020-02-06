@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组由代理组、队列和工作流组成。 响应组队列将呼叫保留到响应组，直到工程师应答呼叫。
-ms.openlocfilehash: fcd0e916cf57fa1ee1830e9d64c540b2dca3a20d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 882a8f963433471e0974efe79831b1384b659df0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704381"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793480"
 ---
 # <a name="response-groups-queue"></a>响应组队列
 

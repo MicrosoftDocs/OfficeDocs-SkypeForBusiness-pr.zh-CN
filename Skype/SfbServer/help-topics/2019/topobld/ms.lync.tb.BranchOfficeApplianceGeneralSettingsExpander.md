@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要编辑现有 Survivable 分支装置或 Survivable 分支服务器的设置，您将看到以下部分：
-ms.openlocfilehash: 97f12828a8513ce284f4cd14c06de3496100c313
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 262a4c54b571d0b0232a66d0f996af96931515b1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702387"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793900"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>分支机构设备常规设置扩展器
 

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AssociateVisWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 "拓扑生成器" 中定义新的 VIS 或视频网关所需的步骤在 Skype for Business 服务器的 "创建 VIS" 池中进行联机描述。
-ms.openlocfilehash: c716c8e24db4b1def96010758748b95154f54783
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8a7f24aa5d23182fdb35b977b2dde5eda8838a12
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688815"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793950"
 ---
 # <a name="associate-vis-with-edge"></a>将 VIS 与边缘关联
  

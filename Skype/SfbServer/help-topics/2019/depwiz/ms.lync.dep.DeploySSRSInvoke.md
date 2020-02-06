@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeploySSRSInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在为将监视服务器报告部署到 Microsoft SQL Server 2008 R2 或 Microsoft SQL Server 2012 报表服务提供所需的信息后，"执行页面" 命令将显示为安装该程序所发出命令的摘要报告到 SQL Server Reporting Services。
-ms.openlocfilehash: 970b570c2fba75cf1afe4f4a217e809eb62a7411
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 30e97757c8ad66df9f706b6bf74549e8f1eec65f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691667"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794671"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services（调用）
  

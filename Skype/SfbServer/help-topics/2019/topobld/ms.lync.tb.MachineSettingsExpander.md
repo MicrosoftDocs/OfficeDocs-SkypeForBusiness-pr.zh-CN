@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示该服务器的完全限定域名 (FQDN) 和 IP 地址配置。 可以执行以下操作：
-ms.openlocfilehash: b1da724853fe096793933984d4920d0f1b91e225
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 973324fc83db3a111707a19c15087fac057c7dc0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701917"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796241"
 ---
 # <a name="server-settings-expander"></a>服务器设置扩展器
  

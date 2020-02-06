@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.UserPinNum
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要使用电子邮件向用户发送 PIN，请单击 "打开我的电子邮件应用程序" 以向用户发送新的 PIN。 若要将 PIN 复制到电子邮件中，请选择 "显示 PIN"。
-ms.openlocfilehash: 35b19b79b275d46a111a4686553bbcd418f27f9e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c55f89304168e12e63477e234b7f2a7fa7c60104
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690517"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794941"
 ---
 # <a name="pin-set-successfully"></a>PIN 设置成功
  

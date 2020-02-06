@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.HybridMoveUser
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用移动用户向导将驻留在本地池中的用户帐户移动到 Skype for business Online 上。 有关更多信息，请参阅Use the Hybrid Manageability wizard。
-ms.openlocfilehash: 73dbf588106abecbfffea7c198759e0c2e20380f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 970ed06364ae5396ce717d0662cb9ed8ea41ceed
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704887"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796461"
 ---
 # <a name="hybrid-wizard-move-user"></a>混合向导：移动用户
 

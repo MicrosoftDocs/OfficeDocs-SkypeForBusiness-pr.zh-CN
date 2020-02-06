@@ -8,17 +8,19 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 摘要：了解如何为 Skype for Business Server 的安装准备环境。 从 Microsoft 评估中心的以下位置下载 Skype for Business Server 的免费试用版：https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。
-ms.openlocfilehash: f15a305a660586e017984a171db217636e2e09ff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: cac618aba9f97237e585ffc57b99c71a8a5c8645
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244333"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797083"
 ---
 # <a name="install-skype-for-business-server"></a>安装 Skype for Business Server
  
@@ -35,7 +37,7 @@ Skype for Business Server 提供标准版和企业版。 主要区别在于，�
 Skype for Business Server 是一款高级产品，具体的安装流程很大程度上取决于你的具体环境。 本节概述了该产品的一般安装步骤。 但是，每个过程可能都有所不同，具体取决于您的环境和规划决策。 例如，对于小型组织而言，运行 Skype for Business Server 标准版的单台服务器可能比较合适，而对于大型跨国组织而言，可能会在全球范围内设立 50 台服务器来专为该产品服务。
   
 > [!NOTE]
-> 要了解最新的累积更新，请参阅 [Skype for Business Server 的更新](https://support.microsoft.com/zh-CN/kb/3061064)。 在安装 CU1 修补程序之后，管理员需要执行 `Update-CsAdminRole` cmdlet。 需要此 cmdlet 才能通过远程 PowerShell 访问新的 GCP cmdlet。
+> 要了解最新的累积更新，请参阅 [Skype for Business Server 的更新](https://support.microsoft.com/en-us/kb/3061064)。 在安装 CU1 修补程序之后，管理员需要执行 `Update-CsAdminRole` cmdlet。 需要此 cmdlet 才能通过远程 PowerShell 访问新的 GCP cmdlet。
   
 > [!IMPORTANT]
 > 本节中的过程仅用作示例，其定义了一组狭窄的要求，并且假定已制定了特定的决策。 安装 Skype for Business Server 所需的实际过程很可能极为不同。 请仅将本节中的过程用作示例，而非在每个环境中安装 Skype for Business Server 的逐步指南。 

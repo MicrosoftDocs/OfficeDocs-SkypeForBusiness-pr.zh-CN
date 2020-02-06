@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddAvMcuPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 没有 collocated A/V 会议服务的中心网站的所有企业版前端服务器都可以使用相同的独立 A/V 会议池。 对于每个 A/V 会议池，你必须为该池指定完全限定的域名（FQDN），以及它将仅具有单个 A/V 会议服务器还是具有多个负载平衡的 A/V 会议服务器。
-ms.openlocfilehash: 0cef8dd5c99859f03018d959f0d2d5a9d0523681
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b2fd57f0a6c9f39638f62a9bae7c9ed29a73a779
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689678"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794831"
 ---
 # <a name="add-av-mcu-pool"></a>添加 A/V MCU 池
  

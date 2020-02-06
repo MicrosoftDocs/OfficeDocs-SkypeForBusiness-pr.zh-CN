@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.HomeRole
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 为了使你能够在维护高安全性的高标准的同时委派管理任务，Skype for business 服务器支持基于角色的访问控制（RBAC）。
-ms.openlocfilehash: c0693c65f747ce25977b2b8cdd3c6c5361baf76c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 172e88cfcf15872552baf1ef6fdb75bcf07ce252
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704937"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797623"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>"管理角色" 和 "Skype for business 服务器" 控制面板
 

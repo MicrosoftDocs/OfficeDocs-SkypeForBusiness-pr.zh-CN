@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployAIOIntro
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 要开始安装包含中央管理存储和你选择的其他 collocated 服务的 Skype for Business Server 标准版服务器，你必须作为将成为的服务器上本地管理员组的成员登录标准版服务器。 “准备单个 Standard Edition Server”页将详细阐述初始安装要求。 计算机必须是要部署在其中的域的成员，并且必须已成功为林完成架构、林和域准备。
-ms.openlocfilehash: e1d9119e07a813476fddf39ee46e43bc686cab45
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 437f90fa99efa920479e7c0dc966c3c63fd5eed1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692227"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796973"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>准备单个 Standard Edition Server（简介）
  

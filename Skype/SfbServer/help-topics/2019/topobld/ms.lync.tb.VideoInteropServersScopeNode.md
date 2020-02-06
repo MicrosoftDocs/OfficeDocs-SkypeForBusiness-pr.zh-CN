@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.VideoInteropServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 "拓扑生成器" 中定义新的 VIS 或视频网关所需的步骤在 Skype for Business 服务器的 "创建 VIS" 池中进行联机描述。
-ms.openlocfilehash: 09044b762f8d90dfd8aada6acade7a9b2b9daab5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: da95d6f78c81164edc591534a4bdafa6ef0c4aff
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687875"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795233"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>视频互操作服务器 - 界定节点范围
  

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertPendingReturned
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: "\"联机证书请求状态\" 页面返回证书的当前状态。 如果证书仍与证书颁发机构管理员处于挂起的审批状态（即，如果尚未获得批准），则状态将指示证书仍在处理。"
-ms.openlocfilehash: 4505258bb46f2475dc43bc3b3446e04ccfac1a86
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 16950c61193051b9ae590ef3bc61c40b298cdb21
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705737"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796803"
 ---
 # <a name="pending-certificate-returned"></a>待处理的证书请求（已返回）
  

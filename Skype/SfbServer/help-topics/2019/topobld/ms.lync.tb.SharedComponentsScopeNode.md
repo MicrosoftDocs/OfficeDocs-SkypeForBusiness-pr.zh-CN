@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 右键单击拓扑生成器层次结构树中的共享组件以创建新的共享组件或访问拓扑级别选项。
-ms.openlocfilehash: 912d85b6dd05a583015ff6a0d67e57455be5a057
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 92562bc41967d80e1db74ce391cd6b8f8cc0e4cf
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687995"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796521"
 ---
 # <a name="shared-components-scope-node"></a>共享组件范围节点
  

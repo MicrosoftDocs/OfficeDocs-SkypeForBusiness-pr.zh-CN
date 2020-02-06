@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 响应组队列在工程师应答呼叫之前，请将呼叫一直保留到响应组。 队列已分配代理组。 创建或编辑队列时，可使用 "选择组" 对话框选择要分配给队列的一个或多个代理组。
-ms.openlocfilehash: fd27a776b17985fa9fee85ec536ff9f0ae56f8a7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6439a501f48a67df56d37a4435c15a3c284c347f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704357"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793460"
 ---
 # <a name="select-groups"></a>选择组
 

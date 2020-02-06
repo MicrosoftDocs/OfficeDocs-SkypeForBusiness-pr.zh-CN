@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployStartServicesInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: "\"执行命令\" 窗格上的 \"摘要\" 窗格显示为启动要部署的 Skype for business 服务器角色服务器的服务而发出的任务的状态。"
-ms.openlocfilehash: 3f1f19de0e591b23181c9e711991a2b9d99f9b4a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 50d161c024b7e85e995cdde407ec380125e5b318
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705277"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794621"
 ---
 # <a name="start-services-invoke"></a>启动服务（调用）
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.CmsSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以将中央管理服务器从一个定义的前端池更改为另一个定义的前端池。 要更改中央管理服务器的位置，请从“要安装中央管理服务器的前端服务器位置”下的下拉列表中选择前端池。 前端服务器可以是 Enterprise Edition 前端池或 Standard Edition 前端服务器。
-ms.openlocfilehash: 2377b671af5bf1cef3244c0e47d908f7589edfb9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: da84462eeb9e9823c3376107b40991ecf74f8e49
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702367"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793860"
 ---
 # <a name="cms-settings-expander"></a>CMS 设置扩展器
  

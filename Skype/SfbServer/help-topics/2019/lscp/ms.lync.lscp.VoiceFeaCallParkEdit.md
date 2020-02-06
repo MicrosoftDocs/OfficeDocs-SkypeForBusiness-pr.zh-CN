@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 呼叫寄存号码范围定义了停用通话的临时号码，直到有人检索它们或超时。
-ms.openlocfilehash: 5f32cccf70593ffe480cbcba028974cc1dc91046
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 252d0ab604eb733ddbe3ea79fc27e29f8e3c8035
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703927"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797819"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>呼叫寄存：创建新的或编辑现有的
 

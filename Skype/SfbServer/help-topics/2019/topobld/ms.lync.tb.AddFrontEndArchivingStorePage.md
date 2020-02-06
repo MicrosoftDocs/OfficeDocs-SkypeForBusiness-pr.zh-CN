@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddFrontEndArchivingStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 存档需要支持的 Microsoft SQL Server 数据库软件的64位版本才能存储存档数据。 你可以选择用于存档的以前定义的 SQL Server 数据库，也可以通过指定 sql Server 数据库所驻留的服务器的完全限定的域名（FQDN），以及 SQL Se 的实例来定义新的 SQL Server 数据库。要用于新 SQL Server 数据库的 rver （可以是默认实例或你指定的命名实例）。
-ms.openlocfilehash: d5ef47dd0df4063ce92b7c4adad955596e776f50
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 234d0a2d4ef14aa969b8ef8c7445558e53ca2fee
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702937"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794901"
 ---
 # <a name="add-front-end-archiving-store"></a>添加前端存档存储
 

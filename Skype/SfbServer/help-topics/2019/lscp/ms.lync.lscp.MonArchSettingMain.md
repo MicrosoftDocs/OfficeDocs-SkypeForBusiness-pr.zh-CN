@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用存档配置控制 Skype for Business Server 部署的存档选项，包括启用和禁用以下选项：
-ms.openlocfilehash: 1222e5e4c848f7ce0f3ca05943aa5b5acf4d365a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 35ef51f9e67b42624dbf106037ae6a57343c21c1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704697"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795011"
 ---
 # <a name="archiving-configuration"></a>存档配置
  

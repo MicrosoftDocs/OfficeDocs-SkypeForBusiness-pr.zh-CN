@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeploySchemaPrepInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: "\"执行命令\" 页面显示为扩展 Skype for business 服务器的架构而发出的命令摘要。"
-ms.openlocfilehash: 230e606c8ee574052fd351fa3b25525d5f11856f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a7d6f6d609222e692334dec7d1ec778a37aa4e1b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705327"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794641"
 ---
 # <a name="prepare-schema-invoke"></a>准备架构（调用）
  

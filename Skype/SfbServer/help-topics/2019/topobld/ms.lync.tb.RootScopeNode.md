@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lync 服务器节点列出拓扑中的中心网站。 可以执行以下操作：
-ms.openlocfilehash: 7deac280f0de13dc5f199347190a28a1ad64d0dc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 88d134879e98cf0e17589eb86ede4c88d58a8950
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701567"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795273"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server 根范围节点
  

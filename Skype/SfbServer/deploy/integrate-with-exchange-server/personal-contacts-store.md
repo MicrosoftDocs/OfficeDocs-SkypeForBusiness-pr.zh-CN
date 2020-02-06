@@ -8,23 +8,25 @@ ms.date: 1/29/2019
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
-description: '摘要: 配置旧版客户端使用的个人联系人存储。'
-ms.openlocfilehash: 26352517ea31b5556784f6f1ea8d1ce661cfe184
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：配置旧版客户端使用的个人联系人存储。
+ms.openlocfilehash: a80af6ca575b53e5a2b8f77a109fd6929f0db704
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244189"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797023"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>在 Lync 2010 客户端计算机上配置个人联系人存储
   
-如果你要集成 Skype for Business Server 2015 和 Exchange Server 2016 或 Exchange Server 2013, 则应配置客户端使用的个人联系人存储。 尤其是, 你应该配置 Skype for Business 以将 Exchange 用作个人联系人存储, 同时确保用户无法覆盖该决策。 这可以通过在各客户端计算机上创建和配置注册表值来完成。
+如果你要集成 Skype for Business Server 2015 和 Exchange Server 2016 或 Exchange Server 2013，则应配置客户端使用的个人联系人存储。 尤其是，你应该配置 Skype for Business 以将 Exchange 用作个人联系人存储，同时确保用户无法覆盖该决策。 这可以通过在各客户端计算机上创建和配置注册表值来完成。
   
 > [!NOTE]
-> 仅对于使用 Lync 2010 客户端或更早版本的客户端, 以下过程才是必需的。 Lync 2013 客户端和所有 Skype for business 客户端将无法选择替代联系人存储设置。
+> 仅对于使用 Lync 2010 客户端或更早版本的客户端，以下过程才是必需的。 Lync 2013 客户端和所有 Skype for business 客户端将无法选择替代联系人存储设置。
   
 要在单个计算机上配置此值，请完成下列过程：
   
@@ -35,5 +37,5 @@ ms.locfileid: "36244189"
 5. 创建新值后，键入 PersonalContactStoreOverride，然后按 Enter 来重命名该值。
 6. 验证将 PersonalContactStoreOverride 的值设置为 0，然后关闭注册表编辑器。
 
-如果您要在多台计算机上执行相同的更改，则可以通过创建自定义组策略对象执行此操作。 有关在 Windows 10 中执行此操作的详细信息, 请参阅[创建组策略对象一](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)文。
+如果您要在多台计算机上执行相同的更改，则可以通过创建自定义组策略对象执行此操作。 有关在 Windows 10 中执行此操作的详细信息，请参阅[创建组策略对象一](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)文。
   

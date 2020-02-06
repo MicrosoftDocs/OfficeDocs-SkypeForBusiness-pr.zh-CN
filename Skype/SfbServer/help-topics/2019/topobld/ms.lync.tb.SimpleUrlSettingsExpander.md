@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要指定 "新建"、"删除现有" 或更改活动的简单 Url，请执行下列操作：
-ms.openlocfilehash: 322df108288c6aad8b8f6f65867e84ec5cbc789c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: dcd761b641a3580c13083ea03c7de48185076f84
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701547"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796511"
 ---
 # <a name="simple-url-settings-expander"></a>简单 URL 设置扩展器
 

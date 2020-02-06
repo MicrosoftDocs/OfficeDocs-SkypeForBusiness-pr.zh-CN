@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.Federation
 - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 可以将 Edge 服务器配置为允许内部和外部用户访问合作伙伴组织或服务的联系人。
-ms.openlocfilehash: 854b092e2317b7933e8f415ce3b91424257e8aa5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 607b3ff60d0d46f7e61579126e0e782bf382a28e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703677"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797183"
 ---
 # <a name="federation-planning-tool"></a>Federation (Planning Tool)
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AssociateFrontEndWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: 每个前端池只能拥有一个关联的边缘服务器或边缘池。为站点启用外部用户访问时，可提供对远程用户的支持。还可以启用对联盟用户的支持，包括对特定公共即时消息 (IM) 连接提供商（如 Windows Live）用户的支持，以及对匿名用户的支持。
-ms.openlocfilehash: 3179b744606a0e6a1538803d112fcf65d9d0a071
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8c59423562ebc511e8947d9448010b1f097df96d
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688825"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793990"
 ---
 # <a name="associate-front-end-with-edge"></a>将前端与边缘关联
 

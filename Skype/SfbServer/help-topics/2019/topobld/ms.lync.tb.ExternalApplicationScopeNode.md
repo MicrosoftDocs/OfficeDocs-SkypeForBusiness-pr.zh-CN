@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此节点显示此受信任应用程序池的池完全限定域名 (FQDN)、复制设置和下一跃点池。可以执行以下操作：
-ms.openlocfilehash: 61f10cc9fdbb7b8af83d7f8742ed0675d887ad56
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f96eb641ea09c9b7a61602b6b7c070e9a67eb73b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702187"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793720"
 ---
 # <a name="external-application-scope-node"></a>外部应用程序范围节点
  

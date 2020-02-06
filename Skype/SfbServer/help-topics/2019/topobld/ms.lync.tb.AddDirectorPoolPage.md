@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定义控制器池 FQDN，请选择将由负载平衡的池中的两个或多个控制器（或单个计算机池）组成的多台计算机池。 还必须键入将用于连接到控制器池或单个控制器的 FQDN 的完全限定的域名（FQDN）。 对于 Director 计算机池，这将是用于硬件负载平衡器的虚拟 IP 或用于 DNS 负载平衡的共享 DNS 条目的域名系统（DNS）条目。
-ms.openlocfilehash: fa9c6851f1131df05e9f023549d42d4dcfc784f7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 491d50c733314e1811aac38c556a6d4683b6956b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689482"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796571"
 ---
 # <a name="add-director-pool"></a>添加控制器池
  

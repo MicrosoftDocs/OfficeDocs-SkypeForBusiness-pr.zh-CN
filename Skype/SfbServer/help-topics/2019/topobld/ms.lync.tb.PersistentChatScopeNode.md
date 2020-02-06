@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要开始创建新的持久聊天服务器或持久聊天服务器池，请在拓扑生成器中右键单击永久聊天池，然后选择 "新建持久聊天" 池
-ms.openlocfilehash: a8ae9d26951fa60d3fd4d8ea83a803c059ec4d81
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e5e280961dbbe8a26db295c3c954ba47e837ebd1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701737"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795111"
 ---
 # <a name="persistent-chat-scope-node"></a>持久聊天范围节点
 
