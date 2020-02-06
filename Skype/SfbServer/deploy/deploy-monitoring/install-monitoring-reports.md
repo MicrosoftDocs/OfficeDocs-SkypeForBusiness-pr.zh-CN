@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 摘要：了解如何安装将在 Skype for Business 服务器中生成监视报告的服务。
-ms.openlocfilehash: 4a2d10e8025b2107da8a0b5c3866faf210b77ada
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 6c8b7089a66abc3e0b1dcacb4bfa5c840f57ed36
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001162"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41789990"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>在 Skype for Business 服务器中安装监视报告
  

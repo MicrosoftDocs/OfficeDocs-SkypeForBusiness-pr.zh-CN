@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 访问边缘池内部 FQDN 用于各种方案，其中内部用户与外部用户进行联盟、远程用户访问和公共 IM 连接。 如果在您的旧环境中部署了负载平衡的边缘服务器，请输入内部负载平衡器的完全限定的域名（FQDN）。
-ms.openlocfilehash: 324f82f31e2f0e49b77ca063f9eba162dad7e108
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 40af6b5ffa57df56f1b41760435b3d8b9f13715e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688305"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41787702"
 ---
 # <a name="legacy-merge-fqdn"></a>旧版合并 FQDN
  

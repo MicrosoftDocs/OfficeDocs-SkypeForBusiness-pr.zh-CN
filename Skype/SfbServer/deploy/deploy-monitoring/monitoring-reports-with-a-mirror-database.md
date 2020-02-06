@@ -7,23 +7,25 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: '摘要: 了解如何将监视报告与 Skype for business Server 使用的镜像数据库相关联。'
-ms.openlocfilehash: 522ed5f9bd6e437a83e9cb3575ca92c0bd049e44
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: 摘要：了解如何将监视报告与 Skype for business Server 使用的镜像数据库相关联。
+ms.openlocfilehash: 77e852860239ae6f87fce2b49fb6fa9f9d7c0834
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239883"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41789930"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>将监视报告与 Skype for Business 服务器中的镜像数据库相关联 
  
-**摘要:** 了解如何将监视报告与 Skype for business 服务器使用的镜像数据库相关联。
+**摘要：** 了解如何将监视报告与 Skype for business 服务器使用的镜像数据库相关联。
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>监控报告与镜像数据库
 
-如果您为监控数据库配置了镜像，该镜像数据库将在发生故障转移时接任主数据库。 但是, 如果你使用 Skype for Business 服务器监视报告, 并且发生故障转移, 你可能会发现你的监视报告未连接到镜像数据库。 这是因为在安装监控报告时，您仅指定了主数据库的位置，未指定镜像数据库的位置。
+如果您为监控数据库配置了镜像，该镜像数据库将在发生故障转移时接任主数据库。 但是，如果你使用 Skype for Business 服务器监视报告，并且发生故障转移，你可能会发现你的监视报告未连接到镜像数据库。 这是因为在安装监控报告时，您仅指定了主数据库的位置，未指定镜像数据库的位置。
   
 要使监控报告自动故障转移到镜像数据库，您必须将镜像数据库作为“故障转移合作伙伴”添加到监控报告使用的两个数据库（一个数据库用于存放呼叫详细信息记录数据，另一个用于存放用户体验质量 (QoE) 数据）。（注意，此步骤应在安装监控报告后执行。）您可以通过手动编辑这两个数据库使用的连接字符串值来添加故障转移伙伴信息。为此，请完成以下过程：
   
@@ -41,7 +43,7 @@ ms.locfileid: "36239883"
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. 访问 Reporting Services 主页后，单击“**ServerReports**”，然后单击“**Reports_Content**”。 将转到 Skype for Business 服务器监视报告的**Reports_Content**页面。
+2. 访问 Reporting Services 主页后，单击“**ServerReports**”，然后单击“**Reports_Content**”。 将转到 Skype for Business Server Monitoring Reports 的**Reports_Content**页面。
     
 3. 在“**Reports_Content**”页上，单击“**CDRDB**”数据源。
     

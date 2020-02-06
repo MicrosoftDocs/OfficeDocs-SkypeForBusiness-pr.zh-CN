@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解部署步骤以获取正确的固件、根据需要更新、分配许可证以及配置 Skype for Business online 手机的设置
-ms.openlocfilehash: 5eda8c9e21ed93b09b9033c5b70bb359894330f7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705807"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784749"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -40,7 +40,7 @@ In all types of businesses, having a phone number allows users to make and get v
 
 开始之前，最好先下载电话制造商的管理指南和电话用户手册。
   
-- 对于 Polycom 电话，请参阅 [Polycom 部署指南](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html)。
+- 对于 Polycom 电话，请参阅[Poly 文档库](https://documents.polycom.com/category/voice)。
     
 - 对于 Yealink 电话，请参阅[Yealink Skype for BUSINESS HD SIP 手机解决方案](http://www.yealink.com/products_top_2.html)。
     
