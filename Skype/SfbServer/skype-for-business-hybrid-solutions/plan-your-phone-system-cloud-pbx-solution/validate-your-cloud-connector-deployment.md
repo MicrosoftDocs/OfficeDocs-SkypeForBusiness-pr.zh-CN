@@ -8,32 +8,34 @@ ms.date: 3/2/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: 完成部署和配置 Skype for business 云连接器版本的步骤后, 请验证您是否可以拨打和接听电话。
-ms.openlocfilehash: 9c8cc28249b6a9b1d98ff51352abbdd4888882bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 完成部署和配置 Skype for business 云连接器版本的步骤后，请验证您是否可以拨打和接听电话。
+ms.openlocfilehash: 24dfedc2178fb45ecd21cfc7d410f8772d022c16
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286618"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814130"
 ---
-# <a name="validate-your-cloud-connector-deployment"></a><span data-ttu-id="a7ad2-103">Validate your Cloud Connector deployment</span><span class="sxs-lookup"><span data-stu-id="a7ad2-103">Validate your Cloud Connector deployment</span></span>
+# <a name="validate-your-cloud-connector-deployment"></a><span data-ttu-id="ac4f5-103">Validate your Cloud Connector deployment</span><span class="sxs-lookup"><span data-stu-id="ac4f5-103">Validate your Cloud Connector deployment</span></span>
  
-<span data-ttu-id="a7ad2-104">完成部署和配置 Skype for business 云连接器版本的步骤后, 请验证您是否可以拨打和接听电话。</span><span class="sxs-lookup"><span data-stu-id="a7ad2-104">After you've completed the steps to deploy and configure Skype for Business Cloud Connector Edition, verify that you can make and receive calls.</span></span>
+<span data-ttu-id="ac4f5-104">完成部署和配置 Skype for business 云连接器版本的步骤后，请验证您是否可以拨打和接听电话。</span><span class="sxs-lookup"><span data-stu-id="ac4f5-104">After you've completed the steps to deploy and configure Skype for Business Cloud Connector Edition, verify that you can make and receive calls.</span></span>
   
-## <a name="validate-the-deployment"></a><span data-ttu-id="a7ad2-105">验证部署</span><span class="sxs-lookup"><span data-stu-id="a7ad2-105">Validate the deployment</span></span>
+## <a name="validate-the-deployment"></a><span data-ttu-id="ac4f5-105">验证部署</span><span class="sxs-lookup"><span data-stu-id="ac4f5-105">Validate the deployment</span></span>
 
-1. <span data-ttu-id="a7ad2-106">使用刚刚设置的用户帐户登录到 Skype for Business 客户端。</span><span class="sxs-lookup"><span data-stu-id="a7ad2-106">Log in to your Skype for Business client with a user account you just set up.</span></span>
+1. <span data-ttu-id="ac4f5-106">使用刚刚设置的用户帐户登录到 Skype for Business 客户端。</span><span class="sxs-lookup"><span data-stu-id="ac4f5-106">Log in to your Skype for Business client with a user account you just set up.</span></span>
     
-2. <span data-ttu-id="a7ad2-107">从客户端呼叫 PSTN 号码并确认呼叫成功。</span><span class="sxs-lookup"><span data-stu-id="a7ad2-107">Call a PSTN number from the client and confirm that the call succeeds.</span></span>
+2. <span data-ttu-id="ac4f5-107">从客户端呼叫 PSTN 号码并确认呼叫成功。</span><span class="sxs-lookup"><span data-stu-id="ac4f5-107">Call a PSTN number from the client and confirm that the call succeeds.</span></span>
     
-3. <span data-ttu-id="a7ad2-108">使用与 PSTN 号码关联的电话或其他设备呼叫 Skype for Business 客户端，确认呼叫成功。</span><span class="sxs-lookup"><span data-stu-id="a7ad2-108">Use your phone or other device associated with the PSTN number to call your Skype for Business client and confirm that the call succeeds.</span></span>
+3. <span data-ttu-id="ac4f5-108">使用与 PSTN 号码关联的电话或其他设备呼叫 Skype for Business 客户端，确认呼叫成功。</span><span class="sxs-lookup"><span data-stu-id="ac4f5-108">Use your phone or other device associated with the PSTN number to call your Skype for Business client and confirm that the call succeeds.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="a7ad2-109">确认在添加其他站点或转换站点以启用 HA 支持后可以成功进行呼叫。</span><span class="sxs-lookup"><span data-stu-id="a7ad2-109">You should confirm that you can successfully make calls after adding additional sites or converting sites to enable HA support.</span></span> 
+    > <span data-ttu-id="ac4f5-109">确认在添加其他站点或转换站点以启用 HA 支持后可以成功进行呼叫。</span><span class="sxs-lookup"><span data-stu-id="ac4f5-109">You should confirm that you can successfully make calls after adding additional sites or converting sites to enable HA support.</span></span> 
   
 
