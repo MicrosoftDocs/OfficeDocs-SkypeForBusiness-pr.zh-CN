@@ -8,72 +8,74 @@ ms.date: 3/20/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: Search-CcLog cmdlet 用于在 Skype for Business 云连接器版本设备日志目录中搜索传入和传出呼叫日志。
-ms.openlocfilehash: c248720931ef1c15d633c51bb6daa6c414631a18
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003232"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824228"
 ---
-# <a name="search-cclog"></a><span data-ttu-id="66603-103">Search-CcLog</span><span class="sxs-lookup"><span data-stu-id="66603-103">Search-CcLog</span></span>
+# <a name="search-cclog"></a><span data-ttu-id="c623b-103">Search-CcLog</span><span class="sxs-lookup"><span data-stu-id="c623b-103">Search-CcLog</span></span>
  
-<span data-ttu-id="66603-104">Search-CcLog cmdlet 用于在 Skype for Business 云连接器版本设备日志目录中搜索传入和传出呼叫日志。</span><span class="sxs-lookup"><span data-stu-id="66603-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
+<span data-ttu-id="c623b-104">Search-CcLog cmdlet 用于在 Skype for Business 云连接器版本设备日志目录中搜索传入和传出呼叫日志。</span><span class="sxs-lookup"><span data-stu-id="c623b-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
   
 ```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
 ```
 
-## <a name="examples"></a><span data-ttu-id="66603-105">示例</span><span class="sxs-lookup"><span data-stu-id="66603-105">Examples</span></span>
-<span data-ttu-id="66603-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="66603-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="c623b-105">示例</span><span class="sxs-lookup"><span data-stu-id="c623b-105">Examples</span></span>
+<span data-ttu-id="c623b-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="c623b-106"><a name="Examples"> </a></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="66603-107">示例 1</span><span class="sxs-lookup"><span data-stu-id="66603-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="c623b-107">示例 1</span><span class="sxs-lookup"><span data-stu-id="c623b-107">Example 1</span></span>
 
-<span data-ttu-id="66603-108">以下示例使用默认文件名在设备日志目录中搜索传入和传出呼叫日志：</span><span class="sxs-lookup"><span data-stu-id="66603-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
+<span data-ttu-id="c623b-108">以下示例使用默认文件名在设备日志目录中搜索传入和传出呼叫日志：</span><span class="sxs-lookup"><span data-stu-id="c623b-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 ```
 
-### <a name="example-2"></a><span data-ttu-id="66603-109">示例 2</span><span class="sxs-lookup"><span data-stu-id="66603-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="c623b-109">示例 2</span><span class="sxs-lookup"><span data-stu-id="c623b-109">Example 2</span></span>
 
-<span data-ttu-id="66603-110">以下示例使用给定文件路径和名称搜索传入和传出呼叫日志：</span><span class="sxs-lookup"><span data-stu-id="66603-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
+<span data-ttu-id="c623b-110">以下示例使用给定文件路径和名称搜索传入和传出呼叫日志：</span><span class="sxs-lookup"><span data-stu-id="c623b-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="66603-111">详细说明</span><span class="sxs-lookup"><span data-stu-id="66603-111">Detailed Description</span></span>
-<span data-ttu-id="66603-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="66603-112"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="c623b-111">详细说明</span><span class="sxs-lookup"><span data-stu-id="c623b-111">Detailed Description</span></span>
+<span data-ttu-id="c623b-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="c623b-112"><a name="DetailedDescription"> </a></span></span>
 
-<span data-ttu-id="66603-113">Search-CsClsLogging cmdlet 提供用于搜索集中日志记录服务所生成的日志文件的命令行选项。</span><span class="sxs-lookup"><span data-stu-id="66603-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
+<span data-ttu-id="c623b-113">Search-CsClsLogging cmdlet 提供用于搜索集中日志记录服务所生成的日志文件的命令行选项。</span><span class="sxs-lookup"><span data-stu-id="c623b-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="66603-114">参数</span><span class="sxs-lookup"><span data-stu-id="66603-114">Parameters</span></span>
-<span data-ttu-id="66603-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="66603-115"></span></span>
+## <a name="parameters"></a><span data-ttu-id="c623b-114">参数</span><span class="sxs-lookup"><span data-stu-id="c623b-114">Parameters</span></span>
+<span data-ttu-id="c623b-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="c623b-115"><a name="DetailedDescription"> </a></span></span>
 
-|<span data-ttu-id="66603-116">**参数**</span><span class="sxs-lookup"><span data-stu-id="66603-116">**Parameter**</span></span>|<span data-ttu-id="66603-117">**必需**</span><span class="sxs-lookup"><span data-stu-id="66603-117">**Required**</span></span>|<span data-ttu-id="66603-118">**类型**</span><span class="sxs-lookup"><span data-stu-id="66603-118">**Type**</span></span>|<span data-ttu-id="66603-119">**说明**</span><span class="sxs-lookup"><span data-stu-id="66603-119">**Description**</span></span>|
+|<span data-ttu-id="c623b-116">**参数**</span><span class="sxs-lookup"><span data-stu-id="c623b-116">**Parameter**</span></span>|<span data-ttu-id="c623b-117">**必需**</span><span class="sxs-lookup"><span data-stu-id="c623b-117">**Required**</span></span>|<span data-ttu-id="c623b-118">**类型**</span><span class="sxs-lookup"><span data-stu-id="c623b-118">**Type**</span></span>|<span data-ttu-id="c623b-119">**说明**</span><span class="sxs-lookup"><span data-stu-id="c623b-119">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="66603-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="66603-120">StartTime</span></span>  <br/> | <span data-ttu-id="66603-121">必需</span><span class="sxs-lookup"><span data-stu-id="66603-121">Required</span></span> <br/> |<span data-ttu-id="66603-122">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="66603-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="66603-p101">要搜索的日志条目的开始日期和时间。指定本地时区。</span><span class="sxs-lookup"><span data-stu-id="66603-p101">Beginning date and time for the log entries to be searched. Specified in local time zone.</span></span> <br/> |
-|<span data-ttu-id="66603-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="66603-125">EndTime</span></span>  <br/> |<span data-ttu-id="66603-126">必需</span><span class="sxs-lookup"><span data-stu-id="66603-126">Required</span></span>  <br/> |<span data-ttu-id="66603-127">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="66603-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="66603-p102">要搜索的日志条目的结束日期和时间。指定本地时区。</span><span class="sxs-lookup"><span data-stu-id="66603-p102">Ending date and time for the log entries to be searched. Specified in local time zone.</span></span>  <br/> |
-|<span data-ttu-id="66603-130">FileName</span><span class="sxs-lookup"><span data-stu-id="66603-130">FileName</span></span>  <br/> |<span data-ttu-id="66603-131">必需</span><span class="sxs-lookup"><span data-stu-id="66603-131">Required</span></span>  <br/> |<span data-ttu-id="66603-132">System.String</span><span class="sxs-lookup"><span data-stu-id="66603-132">System.String</span></span>  <br/> |<span data-ttu-id="66603-133">指定包含搜索结果的文本文件的完整路径。</span><span class="sxs-lookup"><span data-stu-id="66603-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
+|<span data-ttu-id="c623b-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="c623b-120">StartTime</span></span>  <br/> | <span data-ttu-id="c623b-121">必需</span><span class="sxs-lookup"><span data-stu-id="c623b-121">Required</span></span> <br/> |<span data-ttu-id="c623b-122">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="c623b-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="c623b-p101">要搜索的日志条目的开始日期和时间。指定本地时区。</span><span class="sxs-lookup"><span data-stu-id="c623b-p101">Beginning date and time for the log entries to be searched. Specified in local time zone.</span></span> <br/> |
+|<span data-ttu-id="c623b-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="c623b-125">EndTime</span></span>  <br/> |<span data-ttu-id="c623b-126">必需</span><span class="sxs-lookup"><span data-stu-id="c623b-126">Required</span></span>  <br/> |<span data-ttu-id="c623b-127">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="c623b-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="c623b-p102">要搜索的日志条目的结束日期和时间。指定本地时区。</span><span class="sxs-lookup"><span data-stu-id="c623b-p102">Ending date and time for the log entries to be searched. Specified in local time zone.</span></span>  <br/> |
+|<span data-ttu-id="c623b-130">FileName</span><span class="sxs-lookup"><span data-stu-id="c623b-130">FileName</span></span>  <br/> |<span data-ttu-id="c623b-131">必需</span><span class="sxs-lookup"><span data-stu-id="c623b-131">Required</span></span>  <br/> |<span data-ttu-id="c623b-132">System.String</span><span class="sxs-lookup"><span data-stu-id="c623b-132">System.String</span></span>  <br/> |<span data-ttu-id="c623b-133">指定包含搜索结果的文本文件的完整路径。</span><span class="sxs-lookup"><span data-stu-id="c623b-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="66603-134">输入类型</span><span class="sxs-lookup"><span data-stu-id="66603-134">Input Types</span></span>
-<span data-ttu-id="66603-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="66603-135"></span></span>
+## <a name="input-types"></a><span data-ttu-id="c623b-134">输入类型</span><span class="sxs-lookup"><span data-stu-id="c623b-134">Input Types</span></span>
+<span data-ttu-id="c623b-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="c623b-135"><a name="InputTypes"> </a></span></span>
 
-<span data-ttu-id="66603-p103">无。Search-CcLog cmdlet 不接受主线输入。</span><span class="sxs-lookup"><span data-stu-id="66603-p103">None. The Search-CcLog cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="c623b-p103">无。Search-CcLog cmdlet 不接受主线输入。</span><span class="sxs-lookup"><span data-stu-id="c623b-p103">None. The Search-CcLog cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="66603-138">返回类型</span><span class="sxs-lookup"><span data-stu-id="66603-138">Return Types</span></span>
-<span data-ttu-id="66603-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="66603-139"></span></span>
+## <a name="return-types"></a><span data-ttu-id="c623b-138">返回类型</span><span class="sxs-lookup"><span data-stu-id="c623b-138">Return Types</span></span>
+<span data-ttu-id="c623b-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="c623b-139"><a name="ReturnTypes"> </a></span></span>
 
-<span data-ttu-id="66603-140">无</span><span class="sxs-lookup"><span data-stu-id="66603-140">None</span></span>
+<span data-ttu-id="c623b-140">无</span><span class="sxs-lookup"><span data-stu-id="c623b-140">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="66603-141">另请参阅</span><span class="sxs-lookup"><span data-stu-id="66603-141">See also</span></span>
-<span data-ttu-id="66603-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="66603-142"></span></span>
+## <a name="see-also"></a><span data-ttu-id="c623b-141">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c623b-141">See also</span></span>
+<span data-ttu-id="c623b-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="c623b-142"><a name="ReturnTypes"> </a></span></span>
 
-[<span data-ttu-id="66603-143">Start-CcLogging</span><span class="sxs-lookup"><span data-stu-id="66603-143">Start-CcLogging</span></span>](start-cclogging.md)
+[<span data-ttu-id="c623b-143">Start-CcLogging</span><span class="sxs-lookup"><span data-stu-id="c623b-143">Start-CcLogging</span></span>](start-cclogging.md)
   
-[<span data-ttu-id="66603-144">Stop-CcLogging</span><span class="sxs-lookup"><span data-stu-id="66603-144">Stop-CcLogging</span></span>](stop-cclogging.md)
+[<span data-ttu-id="c623b-144">Stop-CcLogging</span><span class="sxs-lookup"><span data-stu-id="c623b-144">Stop-CcLogging</span></span>](stop-cclogging.md)
   
 

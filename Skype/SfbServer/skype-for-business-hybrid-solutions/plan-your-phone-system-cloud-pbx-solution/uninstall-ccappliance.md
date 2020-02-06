@@ -8,84 +8,86 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: Uninstall-CcAppliance cmdlet 用于从主机服务器中卸载正在运行的 Skype for Business 云连接器版本设备。
-ms.openlocfilehash: f37c3092103832c9efd3b24d2efbedf00e8f54ac
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c92ad5c31e2e254e4f10511835b6cc9f60c7c43c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003142"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824136"
 ---
-# <a name="uninstall-ccappliance"></a><span data-ttu-id="8deae-103">Uninstall-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="8deae-103">Uninstall-CcAppliance</span></span>
+# <a name="uninstall-ccappliance"></a><span data-ttu-id="4fd36-103">Uninstall-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="4fd36-103">Uninstall-CcAppliance</span></span>
  
-<span data-ttu-id="8deae-104">Uninstall-CcAppliance cmdlet 用于从主机服务器中卸载正在运行的 Skype for Business 云连接器版本设备。</span><span class="sxs-lookup"><span data-stu-id="8deae-104">The Uninstall-CcAppliance cmdlet uninstalls the running Skype for Business Cloud Connector Edition appliance from the host server.</span></span> 
+<span data-ttu-id="4fd36-104">Uninstall-CcAppliance cmdlet 用于从主机服务器中卸载正在运行的 Skype for Business 云连接器版本设备。</span><span class="sxs-lookup"><span data-stu-id="4fd36-104">The Uninstall-CcAppliance cmdlet uninstalls the running Skype for Business Cloud Connector Edition appliance from the host server.</span></span> 
   
 ```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
 ```
 
-## <a name="examples"></a><span data-ttu-id="8deae-105">示例</span><span class="sxs-lookup"><span data-stu-id="8deae-105">Examples</span></span>
-<span data-ttu-id="8deae-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="8deae-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="4fd36-105">示例</span><span class="sxs-lookup"><span data-stu-id="4fd36-105">Examples</span></span>
+<span data-ttu-id="4fd36-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="4fd36-106"><a name="Examples"> </a></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="8deae-107">示例 1</span><span class="sxs-lookup"><span data-stu-id="8deae-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="4fd36-107">示例 1</span><span class="sxs-lookup"><span data-stu-id="4fd36-107">Example 1</span></span>
 
-<span data-ttu-id="8deae-108">下面的示例从主服务器中耗尽和卸载云连接器装置：</span><span class="sxs-lookup"><span data-stu-id="8deae-108">The following example drains and uninstalls the Cloud Connector appliance from the host server:</span></span>
+<span data-ttu-id="4fd36-108">下面的示例从主服务器中耗尽和卸载云连接器装置：</span><span class="sxs-lookup"><span data-stu-id="4fd36-108">The following example drains and uninstalls the Cloud Connector appliance from the host server:</span></span>
   
 ```powershell
 Uninstall-CcAppliance
 ```
 
-### <a name="example-2"></a><span data-ttu-id="8deae-109">示例 2</span><span class="sxs-lookup"><span data-stu-id="8deae-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="4fd36-109">示例 2</span><span class="sxs-lookup"><span data-stu-id="4fd36-109">Example 2</span></span>
 
-<span data-ttu-id="8deae-110">下一个示例将排出并强制卸载主机服务器上正在运行的云连接器装置，即使排出过程失败：</span><span class="sxs-lookup"><span data-stu-id="8deae-110">The next example drains and forcibly uninstalls the running Cloud Connector appliance on the host server even if the drain process failed:</span></span>
+<span data-ttu-id="4fd36-110">下一个示例将排出并强制卸载主机服务器上正在运行的云连接器装置，即使排出过程失败：</span><span class="sxs-lookup"><span data-stu-id="4fd36-110">The next example drains and forcibly uninstalls the running Cloud Connector appliance on the host server even if the drain process failed:</span></span>
   
 ```powershell
 Uninstall-CcAppliance -Force
 ```
 
-### <a name="example-3"></a><span data-ttu-id="8deae-111">示例 3</span><span class="sxs-lookup"><span data-stu-id="8deae-111">Example 3</span></span>
+### <a name="example-3"></a><span data-ttu-id="4fd36-111">示例 3</span><span class="sxs-lookup"><span data-stu-id="4fd36-111">Example 3</span></span>
 
-<span data-ttu-id="8deae-112">下一示例在没有用户确认的情况下卸载云连接器备份版本：</span><span class="sxs-lookup"><span data-stu-id="8deae-112">The next example uninstalls a Cloud Connector backup version without the user's confirmation:</span></span>
+<span data-ttu-id="4fd36-112">下一示例在没有用户确认的情况下卸载云连接器备份版本：</span><span class="sxs-lookup"><span data-stu-id="4fd36-112">The next example uninstalls a Cloud Connector backup version without the user's confirmation:</span></span>
   
 ```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="8deae-113">详细说明</span><span class="sxs-lookup"><span data-stu-id="8deae-113">Detailed Description</span></span>
-<span data-ttu-id="8deae-114"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="8deae-114"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="4fd36-113">详细说明</span><span class="sxs-lookup"><span data-stu-id="4fd36-113">Detailed Description</span></span>
+<span data-ttu-id="4fd36-114"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="4fd36-114"><a name="DetailedDescription"> </a></span></span>
 
-<span data-ttu-id="8deae-115">如果你卸载的是当前运行的云连接器版本，将首先在中介服务器和 Edge 服务器上运行排水管服务，以便在卸载虚拟机之前，让并发调用完成。</span><span class="sxs-lookup"><span data-stu-id="8deae-115">If you are uninstalling the current running version of Cloud Connector, drain services are first run on the Mediation Server and Edge Server to let concurrent calls finish before uninstalling the virtual machines.</span></span> <span data-ttu-id="8deae-116">如果你要卸载备份版本，则不执行排出操作。</span><span class="sxs-lookup"><span data-stu-id="8deae-116">If you are uninstalling a backup version, draining is not performed.</span></span>
+<span data-ttu-id="4fd36-115">如果你卸载的是当前运行的云连接器版本，将首先在中介服务器和 Edge 服务器上运行排水管服务，以便在卸载虚拟机之前，让并发调用完成。</span><span class="sxs-lookup"><span data-stu-id="4fd36-115">If you are uninstalling the current running version of Cloud Connector, drain services are first run on the Mediation Server and Edge Server to let concurrent calls finish before uninstalling the virtual machines.</span></span> <span data-ttu-id="4fd36-116">如果你要卸载备份版本，则不执行排出操作。</span><span class="sxs-lookup"><span data-stu-id="4fd36-116">If you are uninstalling a backup version, draining is not performed.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="8deae-117">参数</span><span class="sxs-lookup"><span data-stu-id="8deae-117">Parameters</span></span>
-<span data-ttu-id="8deae-118"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="8deae-118"></span></span>
+## <a name="parameters"></a><span data-ttu-id="4fd36-117">参数</span><span class="sxs-lookup"><span data-stu-id="4fd36-117">Parameters</span></span>
+<span data-ttu-id="4fd36-118"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="4fd36-118"><a name="DetailedDescription"> </a></span></span>
 
-|<span data-ttu-id="8deae-119">**参数**</span><span class="sxs-lookup"><span data-stu-id="8deae-119">**Parameter**</span></span>|<span data-ttu-id="8deae-120">**必需**</span><span class="sxs-lookup"><span data-stu-id="8deae-120">**Required**</span></span>|<span data-ttu-id="8deae-121">**类型**</span><span class="sxs-lookup"><span data-stu-id="8deae-121">**Type**</span></span>|<span data-ttu-id="8deae-122">**说明**</span><span class="sxs-lookup"><span data-stu-id="8deae-122">**Description**</span></span>|
+|<span data-ttu-id="4fd36-119">**参数**</span><span class="sxs-lookup"><span data-stu-id="4fd36-119">**Parameter**</span></span>|<span data-ttu-id="4fd36-120">**必需**</span><span class="sxs-lookup"><span data-stu-id="4fd36-120">**Required**</span></span>|<span data-ttu-id="4fd36-121">**类型**</span><span class="sxs-lookup"><span data-stu-id="4fd36-121">**Type**</span></span>|<span data-ttu-id="4fd36-122">**说明**</span><span class="sxs-lookup"><span data-stu-id="4fd36-122">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="8deae-123">版本</span><span class="sxs-lookup"><span data-stu-id="8deae-123">Version</span></span> <br/> | <span data-ttu-id="8deae-124">可选</span><span class="sxs-lookup"><span data-stu-id="8deae-124">Optional</span></span> <br/> |<span data-ttu-id="8deae-125">System.String</span><span class="sxs-lookup"><span data-stu-id="8deae-125">System.String</span></span>  <br/> | <span data-ttu-id="8deae-126">将从主机服务器卸载的云连接器的版本。</span><span class="sxs-lookup"><span data-stu-id="8deae-126">The version of Cloud Connector that will be uninstalled from the host server.</span></span> <span data-ttu-id="8deae-127">如果未指定，将卸载当前正在运行的版本。</span><span class="sxs-lookup"><span data-stu-id="8deae-127">If not specified, uninstall the current running version.</span></span> <br/> |
-|<span data-ttu-id="8deae-128">强制</span><span class="sxs-lookup"><span data-stu-id="8deae-128">Force</span></span>  <br/> |<span data-ttu-id="8deae-129">可选</span><span class="sxs-lookup"><span data-stu-id="8deae-129">Optional</span></span>  <br/> |<span data-ttu-id="8deae-130">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="8deae-130">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="8deae-p103">如果卸载当前正在运行的版本，将先尝试在中介服务器和边缘服务器上排出服务，然后卸载虚拟机。如果指定“Force”开关，即使排出服务失败，也会卸载虚拟机。此参数仅用于卸载当前正在运行的版本。</span><span class="sxs-lookup"><span data-stu-id="8deae-p103">If uninstalling the current running version, attempt to drain servers on Mediation Server and Edge Server before uninstalling the virtual machines. If you specify the "Force" switch, even if the drain services fail, the virtual machines will be uninstalled. This parameter is only used to uninstall the current running version.</span></span>  <br/> |
-|<span data-ttu-id="8deae-134">确认</span><span class="sxs-lookup"><span data-stu-id="8deae-134">Confirm</span></span>  <br/> |<span data-ttu-id="8deae-135">可选</span><span class="sxs-lookup"><span data-stu-id="8deae-135">Optional</span></span>  <br/> |<span data-ttu-id="8deae-136">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="8deae-136">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="8deae-137">询问用户确认以卸载虚拟机。</span><span class="sxs-lookup"><span data-stu-id="8deae-137">Ask user's confirmation to uninstall the virtual machines.</span></span> <span data-ttu-id="8deae-138">默认值为 TRUE。</span><span class="sxs-lookup"><span data-stu-id="8deae-138">Default value is TRUE.</span></span>  <br/> |
+| <span data-ttu-id="4fd36-123">版本</span><span class="sxs-lookup"><span data-stu-id="4fd36-123">Version</span></span> <br/> | <span data-ttu-id="4fd36-124">可选</span><span class="sxs-lookup"><span data-stu-id="4fd36-124">Optional</span></span> <br/> |<span data-ttu-id="4fd36-125">System.String</span><span class="sxs-lookup"><span data-stu-id="4fd36-125">System.String</span></span>  <br/> | <span data-ttu-id="4fd36-126">将从主机服务器卸载的云连接器的版本。</span><span class="sxs-lookup"><span data-stu-id="4fd36-126">The version of Cloud Connector that will be uninstalled from the host server.</span></span> <span data-ttu-id="4fd36-127">如果未指定，将卸载当前正在运行的版本。</span><span class="sxs-lookup"><span data-stu-id="4fd36-127">If not specified, uninstall the current running version.</span></span> <br/> |
+|<span data-ttu-id="4fd36-128">强制</span><span class="sxs-lookup"><span data-stu-id="4fd36-128">Force</span></span>  <br/> |<span data-ttu-id="4fd36-129">可选</span><span class="sxs-lookup"><span data-stu-id="4fd36-129">Optional</span></span>  <br/> |<span data-ttu-id="4fd36-130">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="4fd36-130">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="4fd36-p103">如果卸载当前正在运行的版本，将先尝试在中介服务器和边缘服务器上排出服务，然后卸载虚拟机。如果指定“Force”开关，即使排出服务失败，也会卸载虚拟机。此参数仅用于卸载当前正在运行的版本。</span><span class="sxs-lookup"><span data-stu-id="4fd36-p103">If uninstalling the current running version, attempt to drain servers on Mediation Server and Edge Server before uninstalling the virtual machines. If you specify the "Force" switch, even if the drain services fail, the virtual machines will be uninstalled. This parameter is only used to uninstall the current running version.</span></span>  <br/> |
+|<span data-ttu-id="4fd36-134">确认</span><span class="sxs-lookup"><span data-stu-id="4fd36-134">Confirm</span></span>  <br/> |<span data-ttu-id="4fd36-135">可选</span><span class="sxs-lookup"><span data-stu-id="4fd36-135">Optional</span></span>  <br/> |<span data-ttu-id="4fd36-136">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="4fd36-136">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="4fd36-137">询问用户确认以卸载虚拟机。</span><span class="sxs-lookup"><span data-stu-id="4fd36-137">Ask user's confirmation to uninstall the virtual machines.</span></span> <span data-ttu-id="4fd36-138">默认值为 TRUE。</span><span class="sxs-lookup"><span data-stu-id="4fd36-138">Default value is TRUE.</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="8deae-139">输入类型</span><span class="sxs-lookup"><span data-stu-id="8deae-139">Input Types</span></span>
-<span data-ttu-id="8deae-140"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="8deae-140"></span></span>
+## <a name="input-types"></a><span data-ttu-id="4fd36-139">输入类型</span><span class="sxs-lookup"><span data-stu-id="4fd36-139">Input Types</span></span>
+<span data-ttu-id="4fd36-140"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="4fd36-140"><a name="InputTypes"> </a></span></span>
 
-<span data-ttu-id="8deae-p105">无。Uninstall-CcAppliance cmdlet 不接受主线输入。</span><span class="sxs-lookup"><span data-stu-id="8deae-p105">None. The Uninstall-CcAppliance cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="4fd36-p105">无。Uninstall-CcAppliance cmdlet 不接受主线输入。</span><span class="sxs-lookup"><span data-stu-id="4fd36-p105">None. The Uninstall-CcAppliance cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="8deae-143">返回类型</span><span class="sxs-lookup"><span data-stu-id="8deae-143">Return Types</span></span>
-<span data-ttu-id="8deae-144"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="8deae-144"></span></span>
+## <a name="return-types"></a><span data-ttu-id="4fd36-143">返回类型</span><span class="sxs-lookup"><span data-stu-id="4fd36-143">Return Types</span></span>
+<span data-ttu-id="4fd36-144"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="4fd36-144"><a name="ReturnTypes"> </a></span></span>
 
-<span data-ttu-id="8deae-145">无</span><span class="sxs-lookup"><span data-stu-id="8deae-145">None</span></span>
+<span data-ttu-id="4fd36-145">无</span><span class="sxs-lookup"><span data-stu-id="4fd36-145">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8deae-146">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8deae-146">See also</span></span>
-<span data-ttu-id="8deae-147"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="8deae-147"></span></span>
+## <a name="see-also"></a><span data-ttu-id="4fd36-146">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4fd36-146">See also</span></span>
+<span data-ttu-id="4fd36-147"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="4fd36-147"><a name="ReturnTypes"> </a></span></span>
 
-[<span data-ttu-id="8deae-148">Install-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="8deae-148">Install-CcAppliance</span></span>](install-ccappliance.md)
+[<span data-ttu-id="4fd36-148">Install-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="4fd36-148">Install-CcAppliance</span></span>](install-ccappliance.md)
   
-[<span data-ttu-id="8deae-149">Publish-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="8deae-149">Publish-CcAppliance</span></span>](publish-ccappliance.md)
+[<span data-ttu-id="4fd36-149">Publish-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="4fd36-149">Publish-CcAppliance</span></span>](publish-ccappliance.md)
   
-[<span data-ttu-id="8deae-150">Register-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="8deae-150">Register-CcAppliance</span></span>](register-ccappliance.md)
+[<span data-ttu-id="4fd36-150">Register-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="4fd36-150">Register-CcAppliance</span></span>](register-ccappliance.md)
   
-[<span data-ttu-id="8deae-151">Unregister-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="8deae-151">Unregister-CcAppliance</span></span>](unregister-ccappliance.md)
+[<span data-ttu-id="4fd36-151">Unregister-CcAppliance</span><span class="sxs-lookup"><span data-stu-id="4fd36-151">Unregister-CcAppliance</span></span>](unregister-ccappliance.md)
   
 
