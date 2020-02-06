@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
-ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
+ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678966"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790610"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式验证登录 Microsoft Teams
 ==========================
@@ -54,6 +54,9 @@ Microsoft 团队使用新式身份验证来保持登录体验简单而又安全�
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>在完成新式身份验证后注销 Microsoft 团队
 若要注销团队，用户可以单击应用顶部的个人资料图片，然后选择 "**注销**"。他们还可以右键单击任务栏中的应用程序图标，然后选择 "**注销**"。注销团队后，他们需要再次输入其凭据以启动该应用。
+
+## <a name="urls-and-ip-address-ranges"></a>Url 和 IP 地址范围
+团队需要连接到 Internet。 若要了解在 Office 365 计划、政府和其他云中使用团队的客户应可访问的终结点，请阅读[此处的指南](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 此外，你还需要允许访问https://ssl.gstatic.com。
 
 ## <a name="troubleshooting-modern-authentication"></a>新式验证疑难解答
 
