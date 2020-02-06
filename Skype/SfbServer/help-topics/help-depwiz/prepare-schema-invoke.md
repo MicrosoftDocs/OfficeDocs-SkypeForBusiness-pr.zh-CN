@@ -8,22 +8,24 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeploySchemaPrepInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 description: "\"执行命令\" 页面显示为扩展 Skype for business Server 2015 的架构而发出的命令摘要。 任务完成后，摘要窗格将指示任务成功还是失败。 检查摘要屏幕，确保在摘要窗格下显示“任务状态：已完成”。 在摘要窗格下的下拉列表中，可以选择和查看“准备架构”日志文件。 单击“查看日志”检查日志文件。 如果在架构准备期间收到错误，会将任务遇到的错误记录在此处。 然后可以通过执行操作来更正任何错误，并重新运行架构准备操作。"
-ms.openlocfilehash: 9573388159d29459942ff7fd8717fe6db304fb54
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1a7d4783fd6123a5be60707b42be1e1e1bc69b6d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687375"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823486"
 ---
-# <a name="prepare-schema-invoke"></a><span data-ttu-id="1e781-109">准备架构（调用）</span><span class="sxs-lookup"><span data-stu-id="1e781-109">Prepare Schema (Invoke)</span></span>
+# <a name="prepare-schema-invoke"></a><span data-ttu-id="8650f-109">准备架构（调用）</span><span class="sxs-lookup"><span data-stu-id="8650f-109">Prepare Schema (Invoke)</span></span>
  
-<span data-ttu-id="1e781-110">"**执行命令**" 页面显示为扩展 Skype For business Server 2015 的架构而发出的命令摘要。</span><span class="sxs-lookup"><span data-stu-id="1e781-110">The **Executing Commands** page displays a summary of the commands that are issued to extend the schema for Skype for Business Server 2015.</span></span> <span data-ttu-id="1e781-111">任务完成后，摘要窗格将指示任务成功还是失败。</span><span class="sxs-lookup"><span data-stu-id="1e781-111">When the tasks are complete, the summary pane will indicate if the tasks were successful or if they failed.</span></span> <span data-ttu-id="1e781-112">检查摘要屏幕，确保在摘要窗格下显示“**任务状态：已完成**”。</span><span class="sxs-lookup"><span data-stu-id="1e781-112">Review the summary screen, and make sure that **Task status: Completed** is displayed under the summary pane.</span></span> <span data-ttu-id="1e781-113">在摘要窗格下的下拉列表中，可以选择和查看“准备架构”日志文件。</span><span class="sxs-lookup"><span data-stu-id="1e781-113">The drop-down list under the summary pane enables you to select and view the log file, Prepare Schema.</span></span> <span data-ttu-id="1e781-114">单击“**查看日志**”检查日志文件。</span><span class="sxs-lookup"><span data-stu-id="1e781-114">Click **View Log** to review the log file.</span></span> <span data-ttu-id="1e781-115">如果在架构准备期间收到错误，会将任务遇到的错误记录在此处。</span><span class="sxs-lookup"><span data-stu-id="1e781-115">If you received errors during the schema preparation, the errors that the task encountered are logged here.</span></span> <span data-ttu-id="1e781-116">然后可以通过执行操作来更正任何错误，并重新运行架构准备操作。</span><span class="sxs-lookup"><span data-stu-id="1e781-116">You can then take action to correct any error and re-run the schema preparation.</span></span>
+<span data-ttu-id="8650f-110">"**执行命令**" 页面显示为扩展 Skype For business Server 2015 的架构而发出的命令摘要。</span><span class="sxs-lookup"><span data-stu-id="8650f-110">The **Executing Commands** page displays a summary of the commands that are issued to extend the schema for Skype for Business Server 2015.</span></span> <span data-ttu-id="8650f-111">任务完成后，摘要窗格将指示任务成功还是失败。</span><span class="sxs-lookup"><span data-stu-id="8650f-111">When the tasks are complete, the summary pane will indicate if the tasks were successful or if they failed.</span></span> <span data-ttu-id="8650f-112">检查摘要屏幕，确保在摘要窗格下显示“**任务状态：已完成**”。</span><span class="sxs-lookup"><span data-stu-id="8650f-112">Review the summary screen, and make sure that **Task status: Completed** is displayed under the summary pane.</span></span> <span data-ttu-id="8650f-113">在摘要窗格下的下拉列表中，可以选择和查看“准备架构”日志文件。</span><span class="sxs-lookup"><span data-stu-id="8650f-113">The drop-down list under the summary pane enables you to select and view the log file, Prepare Schema.</span></span> <span data-ttu-id="8650f-114">单击“**查看日志**”检查日志文件。</span><span class="sxs-lookup"><span data-stu-id="8650f-114">Click **View Log** to review the log file.</span></span> <span data-ttu-id="8650f-115">如果在架构准备期间收到错误，会将任务遇到的错误记录在此处。</span><span class="sxs-lookup"><span data-stu-id="8650f-115">If you received errors during the schema preparation, the errors that the task encountered are logged here.</span></span> <span data-ttu-id="8650f-116">然后可以通过执行操作来更正任何错误，并重新运行架构准备操作。</span><span class="sxs-lookup"><span data-stu-id="8650f-116">You can then take action to correct any error and re-run the schema preparation.</span></span>
   
-<span data-ttu-id="1e781-117">单击“**完成**”完成任务。</span><span class="sxs-lookup"><span data-stu-id="1e781-117">Click **Finish** to complete the task.</span></span>
+<span data-ttu-id="8650f-117">单击“**完成**”完成任务。</span><span class="sxs-lookup"><span data-stu-id="8650f-117">Click **Finish** to complete the task.</span></span>
   
 

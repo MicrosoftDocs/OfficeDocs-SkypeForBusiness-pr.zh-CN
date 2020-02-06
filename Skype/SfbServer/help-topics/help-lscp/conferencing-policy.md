@@ -8,73 +8,75 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ConfMeetingPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 会议策略定义用户在会议（也称为会议）期间可用的功能和功能。
-ms.openlocfilehash: 6649471efd9d8d592de1e9395fd6eba8eadb9e23
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ff058057300dfa21013f3f6bf3784ab64d5032f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700417"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823025"
 ---
-# <a name="conferencing-policy"></a><span data-ttu-id="ff9cb-103">会议策略</span><span class="sxs-lookup"><span data-stu-id="ff9cb-103">Conferencing Policy</span></span>
+# <a name="conferencing-policy"></a><span data-ttu-id="f2269-103">会议策略</span><span class="sxs-lookup"><span data-stu-id="f2269-103">Conferencing Policy</span></span>
 
-<span data-ttu-id="ff9cb-104">会议策略定义用户在会议（也称为会议）期间可用的功能和功能。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-104">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).</span></span>
+<span data-ttu-id="f2269-104">会议策略定义用户在会议（也称为会议）期间可用的功能和功能。</span><span class="sxs-lookup"><span data-stu-id="f2269-104">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).</span></span>
 
-<span data-ttu-id="ff9cb-105">会议策略包括全局策略和一个或多个网站和用户策略（可选）：</span><span class="sxs-lookup"><span data-stu-id="ff9cb-105">Conferencing policies include the global policy and, optionally, one or more site and user policies:</span></span>
+<span data-ttu-id="f2269-105">会议策略包括全局策略和一个或多个网站和用户策略（可选）：</span><span class="sxs-lookup"><span data-stu-id="f2269-105">Conferencing policies include the global policy and, optionally, one or more site and user policies:</span></span>
 
-- <span data-ttu-id="ff9cb-106">**全球政策：** 默认情况下会创建全局策略。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="ff9cb-107">可以编辑全局策略，但无法将其删除。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="ff9cb-108">如果您尝试删除全局策略，则所有设置将重置为默认值。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
+- <span data-ttu-id="f2269-106">**全球政策：** 默认情况下会创建全局策略。</span><span class="sxs-lookup"><span data-stu-id="f2269-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="f2269-107">可以编辑全局策略，但无法将其删除。</span><span class="sxs-lookup"><span data-stu-id="f2269-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="f2269-108">如果您尝试删除全局策略，则所有设置将重置为默认值。</span><span class="sxs-lookup"><span data-stu-id="f2269-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
 
-- <span data-ttu-id="ff9cb-109">**网站策略（可选）：** 你可以创建一个或多个网站会议策略，每个策略都适用于特定网站。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-109">**Site policies (optional):** You can create one or more site conferencing policies, each of which applies to a specific site.</span></span> <span data-ttu-id="ff9cb-110">站点策略会覆盖全局策略。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-110">Site policies override the global policy.</span></span>
+- <span data-ttu-id="f2269-109">**网站策略（可选）：** 你可以创建一个或多个网站会议策略，每个策略都适用于特定网站。</span><span class="sxs-lookup"><span data-stu-id="f2269-109">**Site policies (optional):** You can create one or more site conferencing policies, each of which applies to a specific site.</span></span> <span data-ttu-id="f2269-110">站点策略会覆盖全局策略。</span><span class="sxs-lookup"><span data-stu-id="f2269-110">Site policies override the global policy.</span></span>
 
-- <span data-ttu-id="ff9cb-111">**用户策略（可选）：** 你可以创建一个或多个用户会议策略，每个策略都适用于特定用户或用户组。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-111">**User policies (optional):** You can create one or more user conferencing policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="ff9cb-112">用户策略会覆盖全局策略和站点策略。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-112">User policies override the global policy and site policies.</span></span>
+- <span data-ttu-id="f2269-111">**用户策略（可选）：** 你可以创建一个或多个用户会议策略，每个策略都适用于特定用户或用户组。</span><span class="sxs-lookup"><span data-stu-id="f2269-111">**User policies (optional):** You can create one or more user conferencing policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="f2269-112">用户策略会覆盖全局策略和站点策略。</span><span class="sxs-lookup"><span data-stu-id="f2269-112">User policies override the global policy and site policies.</span></span>
 
-<span data-ttu-id="ff9cb-113">"**会议策略**" 页面显示为你的组织定义的所有会议策略的列表。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-113">The **Conferencing Policy** page displays a list of all the conferencing policies that are defined for your organization.</span></span>
+<span data-ttu-id="f2269-113">"**会议策略**" 页面显示为你的组织定义的所有会议策略的列表。</span><span class="sxs-lookup"><span data-stu-id="f2269-113">The **Conferencing Policy** page displays a list of all the conferencing policies that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="ff9cb-114">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="ff9cb-114">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="f2269-114">可执行的任务</span><span class="sxs-lookup"><span data-stu-id="f2269-114">Tasks you can perform</span></span>
 
-<span data-ttu-id="ff9cb-115">您可以在“**位置策略**”页上执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="ff9cb-115">You can perform the following tasks from the **Location Policy** page:</span></span>
+<span data-ttu-id="f2269-115">您可以在“**位置策略**”页上执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="f2269-115">You can perform the following tasks from the **Location Policy** page:</span></span>
 
-- <span data-ttu-id="ff9cb-116">创建新的网站会议策略或用户会议策略</span><span class="sxs-lookup"><span data-stu-id="ff9cb-116">Create a new site conferencing policy or user conferencing policy</span></span>
+- <span data-ttu-id="f2269-116">创建新的网站会议策略或用户会议策略</span><span class="sxs-lookup"><span data-stu-id="f2269-116">Create a new site conferencing policy or user conferencing policy</span></span>
 
-- <span data-ttu-id="ff9cb-117">更改全局策略或现有站点策略或用户策略</span><span class="sxs-lookup"><span data-stu-id="ff9cb-117">Change the global policy or an existing site policy or user policy</span></span>
+- <span data-ttu-id="f2269-117">更改全局策略或现有站点策略或用户策略</span><span class="sxs-lookup"><span data-stu-id="f2269-117">Change the global policy or an existing site policy or user policy</span></span>
 
-- <span data-ttu-id="ff9cb-118">删除站点策略或用户策略</span><span class="sxs-lookup"><span data-stu-id="ff9cb-118">Delete a site policy or user policy</span></span>
+- <span data-ttu-id="f2269-118">删除站点策略或用户策略</span><span class="sxs-lookup"><span data-stu-id="f2269-118">Delete a site policy or user policy</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="ff9cb-119">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="ff9cb-119">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="f2269-119">用户界面参考</span><span class="sxs-lookup"><span data-stu-id="f2269-119">UI Reference</span></span>
 
-<span data-ttu-id="ff9cb-120">下表介绍了该页上的各个命令。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-120">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="f2269-120">下表介绍了该页上的各个命令。</span><span class="sxs-lookup"><span data-stu-id="f2269-120">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="ff9cb-121">**新**启动新的 "网站会议策略" 或 "用户会议策略"。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-121">**New** Starts a new site conferencing policy or user conferencing policy.</span></span>
+- <span data-ttu-id="f2269-121">**新**启动新的 "网站会议策略" 或 "用户会议策略"。</span><span class="sxs-lookup"><span data-stu-id="f2269-121">**New** Starts a new site conferencing policy or user conferencing policy.</span></span>
 
-- <span data-ttu-id="ff9cb-122">**编辑**打开所选的会议策略以对其进行编辑，选择列表中的所有会议策略，或删除所选网站策略或用户策略。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-122">**Edit** Opens the selected conferencing policy to edit it, selects all conferencing policies in the list, or deletes the selected site policy or user policy.</span></span>
+- <span data-ttu-id="f2269-122">**编辑**打开所选的会议策略以对其进行编辑，选择列表中的所有会议策略，或删除所选网站策略或用户策略。</span><span class="sxs-lookup"><span data-stu-id="f2269-122">**Edit** Opens the selected conferencing policy to edit it, selects all conferencing policies in the list, or deletes the selected site policy or user policy.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="ff9cb-123">对于全局策略，“**删除**”会将设置重置为默认值。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-123">For the global policy, **Delete** resets the settings to the default values.</span></span>
+    > <span data-ttu-id="f2269-123">对于全局策略，“**删除**”会将设置重置为默认值。</span><span class="sxs-lookup"><span data-stu-id="f2269-123">For the global policy, **Delete** resets the settings to the default values.</span></span>
 
-- <span data-ttu-id="ff9cb-124">**刷新**刷新会议策略列表。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-124">**Refresh** Refreshes the list of conferencing policies.</span></span>
+- <span data-ttu-id="f2269-124">**刷新**刷新会议策略列表。</span><span class="sxs-lookup"><span data-stu-id="f2269-124">**Refresh** Refreshes the list of conferencing policies.</span></span>
 
-<span data-ttu-id="ff9cb-125">下表介绍了该页上的各个字段。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-125">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="f2269-125">下表介绍了该页上的各个字段。</span><span class="sxs-lookup"><span data-stu-id="f2269-125">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="ff9cb-126">**名称**标识会议策略。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-126">**Name** Identifies the conferencing policy.</span></span>
+- <span data-ttu-id="f2269-126">**名称**标识会议策略。</span><span class="sxs-lookup"><span data-stu-id="f2269-126">**Name** Identifies the conferencing policy.</span></span>
 
-- <span data-ttu-id="ff9cb-127">**范围**标识会议策略的范围：全局、网站或用户。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-127">**Scope** Identifies the scope of the conferencing policy: global, site, or user.</span></span>
+- <span data-ttu-id="f2269-127">**范围**标识会议策略的范围：全局、网站或用户。</span><span class="sxs-lookup"><span data-stu-id="f2269-127">**Scope** Identifies the scope of the conferencing policy: global, site, or user.</span></span>
 
-- <span data-ttu-id="ff9cb-128">**数据协作**已检查会议策略是否指定允许在会议中使用数据协作。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-128">**Data collaboration** Checked if the conferencing policy specifies that data collaboration is allowed in conferences.</span></span>
+- <span data-ttu-id="f2269-128">**数据协作**已检查会议策略是否指定允许在会议中使用数据协作。</span><span class="sxs-lookup"><span data-stu-id="f2269-128">**Data collaboration** Checked if the conferencing policy specifies that data collaboration is allowed in conferences.</span></span>
 
-- <span data-ttu-id="ff9cb-129">**应用程序共享**已检查会议策略是否指定允许在会议中使用应用程序共享。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-129">**Application sharing** Checked if the conferencing policy specifies that application sharing is allowed in conferences.</span></span>
+- <span data-ttu-id="f2269-129">**应用程序共享**已检查会议策略是否指定允许在会议中使用应用程序共享。</span><span class="sxs-lookup"><span data-stu-id="f2269-129">**Application sharing** Checked if the conferencing policy specifies that application sharing is allowed in conferences.</span></span>
 
-- <span data-ttu-id="ff9cb-130">**音频**已检查会议策略是否指定允许在会议中使用音频。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-130">**Audio** Checked if the conferencing policy specifies that audio is allowed in conferences.</span></span>
+- <span data-ttu-id="f2269-130">**音频**已检查会议策略是否指定允许在会议中使用音频。</span><span class="sxs-lookup"><span data-stu-id="f2269-130">**Audio** Checked if the conferencing policy specifies that audio is allowed in conferences.</span></span>
 
-- <span data-ttu-id="ff9cb-131">**视频**已检查会议策略是否指定会议中允许视频。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-131">**Video** Checked if the conferencing policy specifies that video is allowed in conferences.</span></span>
+- <span data-ttu-id="f2269-131">**视频**已检查会议策略是否指定会议中允许视频。</span><span class="sxs-lookup"><span data-stu-id="f2269-131">**Video** Checked if the conferencing policy specifies that video is allowed in conferences.</span></span>
 
-- <span data-ttu-id="ff9cb-132">**PSTN**已检查会议策略是否指定允许 PSTN 电话拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-132">**PSTN** Checked if the conferencing policy specifies that PSTN dial-in conferencing is allowed.</span></span>
+- <span data-ttu-id="f2269-132">**PSTN**已检查会议策略是否指定允许 PSTN 电话拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="f2269-132">**PSTN** Checked if the conferencing policy specifies that PSTN dial-in conferencing is allowed.</span></span>
 
-- <span data-ttu-id="ff9cb-133">**录制**已检查会议策略是否指定允许在会议中录制。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-133">**Recording** Checked if the conferencing policy specifies that recording is allowed in conferences.</span></span>
+- <span data-ttu-id="f2269-133">**录制**已检查会议策略是否指定允许在会议中录制。</span><span class="sxs-lookup"><span data-stu-id="f2269-133">**Recording** Checked if the conferencing policy specifies that recording is allowed in conferences.</span></span>
 
-<span data-ttu-id="ff9cb-p104">有关会议特性和功能的详细信息，请参阅规划文档中的[Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx)。有关使用会议策略的详细信息，请参阅操作文档中的[Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx)。</span><span class="sxs-lookup"><span data-stu-id="ff9cb-p104">For details about conferencing features and capabilities, see [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in the Planning documentation. For details about working with conferencing policies, see [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in the Operations documentation.</span></span>
+<span data-ttu-id="f2269-p104">有关会议特性和功能的详细信息，请参阅规划文档中的[Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx)。有关使用会议策略的详细信息，请参阅操作文档中的[Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx)。</span><span class="sxs-lookup"><span data-stu-id="f2269-p104">For details about conferencing features and capabilities, see [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in the Planning documentation. For details about working with conferencing policies, see [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in the Operations documentation.</span></span>
 
 

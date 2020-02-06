@@ -8,20 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRequestIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 description: 若要继续证书请求过程，请单击 "下一步"。 若要退出不更改系统的过程，请单击 "取消"。
-ms.openlocfilehash: 51df5af50ca5af4eda654d4302085e7356196749
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 185a28e7f568deac6418c8aad0f5682eac7dd756
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687765"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823846"
 ---
-# <a name="certificate-request-intro"></a><span data-ttu-id="d2f9a-104">证书请求（简介）</span><span class="sxs-lookup"><span data-stu-id="d2f9a-104">Certificate Request (Intro)</span></span>
+# <a name="certificate-request-intro"></a><span data-ttu-id="f5325-104">证书请求（简介）</span><span class="sxs-lookup"><span data-stu-id="f5325-104">Certificate Request (Intro)</span></span>
  
-<span data-ttu-id="d2f9a-105">若要继续证书请求过程，请单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="d2f9a-105">To continue with the certificate request process, click **Next**.</span></span> <span data-ttu-id="d2f9a-106">若要退出不更改系统的过程，请单击 "**取消**"。</span><span class="sxs-lookup"><span data-stu-id="d2f9a-106">To exit the process with no changes to the system, click **Cancel**.</span></span>
+<span data-ttu-id="f5325-105">若要继续证书请求过程，请单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="f5325-105">To continue with the certificate request process, click **Next**.</span></span> <span data-ttu-id="f5325-106">若要退出不更改系统的过程，请单击 "**取消**"。</span><span class="sxs-lookup"><span data-stu-id="f5325-106">To exit the process with no changes to the system, click **Cancel**.</span></span>
   
 
