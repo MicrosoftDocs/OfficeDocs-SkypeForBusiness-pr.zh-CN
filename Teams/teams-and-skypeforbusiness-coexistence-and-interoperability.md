@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: Skype for business 和 Microsoft 团队共存选项以及 Skype for Business 和团队之间的互操作性的详细信息。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16defcd2cd5a855cbc3713f5a35886bb936c5a45
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: adadf5bbc4ad8ea177e194c699eff7bd08384b87
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062968"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837412"
 ---
 ![升级旅行图，强调项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段，重点关注项目定义阶段")
 
@@ -43,7 +45,7 @@ ms.locfileid: "37062968"
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>团队和 Skype for business 的共存
 
-除了协作功能之外，团队还提供聊天、通话和会议功能。 根据你选择的部署团队的方式，这些功能可能与特定用户的 Skype for Business 所提供的功能重叠。 默认模式是与 Skype for Business 一起运行具有这些功能重叠的团队;但是，可以为用户分配几种共存模式（也称为升级模式）之一，以确保这些功能不会与该用户重叠（在这种情况下，团队和 Skype for business 之间有互操作）。 例如，如果您的 Skype for Business 服务器本地资源有复杂的企业语音部署，但希望您的用户尽可能快地体验新式会议，您可能希望[先将会议](meetings-first.md)评估为备用会议路径.
+除了协作功能之外，团队还提供聊天、通话和会议功能。 根据你选择的部署团队的方式，这些功能可能与特定用户的 Skype for Business 所提供的功能重叠。 默认模式是与 Skype for Business 一起运行具有这些功能重叠的团队;但是，可以为用户分配几种共存模式（也称为升级模式）之一，以确保这些功能不会与该用户重叠（在这种情况下，团队和 Skype for business 之间有互操作）。 例如，如果您有大量的 Skype for Business 服务器内部部署资源和复杂的企业语音部署，但希望您的用户尽可能快地体验新式会议，则您可能希望首先将[会议](meetings-first.md)作为备用路径进行评估。
 
 我们建议你查看以下共存模式，以帮助确定哪种路径适合你的组织。
 
@@ -56,15 +58,15 @@ ms.locfileid: "37062968"
 
 在此共存模式（名为 "**岛**"）中，每个客户端应用程序都作为单独的岛运行。 Skype for business 与 Skype for Business 交谈，团队与团队进行协作。 用户应始终运行这两个客户端，并且可以在发起通信的客户端中以本机方式进行通信。 因此，无需在**孤岛**模式下实现互操作。
 
-为避免令人困惑或 regressed 的 Skype for business 体验、外部（联合）通信、PSTN 语音服务和语音应用、Office 集成、USB 设备的 HID 控件以及其他一些其他集成将继续由 Skype 处理适用于企业，并且在**孤岛**模式下的团队中不可用。 在**孤岛**模式下，团队不支持电话系统。在此模式下，唯一的企业语音客户端是 Skype for business。
+为避免令人困惑或 regressed 的 Skype for business 体验、外部（联合）通信、PSTN 语音服务和语音应用程序、Office 集成、USB 设备的 HID 控件以及其他一些集成将继续由 Skype for Business 处理，并且在以**孤岛**模式使用的团队中不可用。 在**孤岛**模式下，团队不支持电话系统。在此模式下，唯一的企业语音客户端是 Skype for business。
 
 > [!Important]
 > 在 "**孤岛**" 模式下，来自联盟用户（组织外部的人员）的所有消息和呼叫都将发送到 Skype for business。 升级到 "**仅限团队**" 模式后，您的组织外部的所有消息和呼叫都将发送给团队。
 
 > [!Tip]
-> Skype for Business Online 客户推荐的路径是从默认的**孤岛**模式开始，推动团队在组织中采用饱和，然后快速转到 "**仅团队**" 模式。 在本地和混合客户（尤其是复杂的客户）中，**使用团队协作模式将 Skype For business**部署为一个起点，而不是**孤岛**模式，并通过 skype for business 进行**团队协作和会议**模式（即 "首先会议"），如果需要，和 "**仅限团队**" 模式，而组织准备好采纳团队。
+> Skype for Business Online 客户推荐的路径是从默认的**孤岛**模式开始，推动团队在组织中采用饱和，然后快速转到 "**仅团队**" 模式。 在本地和混合客户（尤其是复杂的客户）中，**使用团队协作模式将 Skype For business**部署为一个起点（而不是 "**岛**模式"），并通过**使用团队协作和会议**模式（即 "会议优先"）和 "**仅限团队**" 模式（在组织准备好使用团队时）将 skype for business 部署到 skype for business。
 
-### <a name="skype-for-business-only"></a>仅限 Skype for business
+### <a name="skype-for-business-only"></a>仅 Skype for Business
 
 在此共存模式下，用户将保留在 Skype for Business 中，而不是团队-用于聊天、会议和呼叫功能，并且不使用团队和频道团队。 目前可以使用此模式;但是，在当前实现中，团队和频道不会自动为用户关闭。 可通过使用应用权限策略隐藏团队和频道来实现此目的。
 
@@ -74,22 +76,22 @@ ms.locfileid: "37062968"
 
 
 > [!IMPORTANT]
-> 如果你在将用户移动到 "**仅团队**" 模式后卸载 Skype for business 客户端，联机状态将在 Outlook 和其他 Office 应用中停止工作。 联机状态在团队中可以正常工作。 解决方法：若要在 Outlook （以及其他 Office 应用）中查看状态，必须安装 Skype for business，即使你是在 "**仅团队**" 模式下运行团队也是如此。 Microsoft 已意识到此问题，正在努力解决问题。
+> 如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。 解决方法：若要在 Outlook （以及其他 Office 应用）中查看状态，必须安装 Skype for business，即使你是在 "**仅团队**" 模式下运行团队也是如此。 Microsoft 已发现此问题且正在开发修补程序。
 
 
-**只有团队**用户（也称为已*升级*用户）可以访问团队中的所有功能。 他们可以保留 Skype for Business 客户端，以便在已由非升级用户或外部团体组织的 Skype for business 上加入会议。 通过使用团队和 Skype for business 之间的互操作性功能，已升级的用户可以继续与仍在使用 Skype for business 的组织中的其他用户通信（前提是这些 Skype for business 用户不在孤岛中）。 **** 模式）。 但是，升级后的用户无法启动 Skype for Business 聊天、通话或会议。
+**只有团队**用户（也称为已*升级*用户）可以访问团队中的所有功能。 他们可以保留 Skype for Business 客户端，以便在已由非升级用户或外部团体组织的 Skype for business 上加入会议。 通过使用团队和 Skype for business 之间的互操作性功能（前提是这些 Skype for business 用户未处于**孤岛**模式），升级后的用户可以继续与仍在使用 Skype for business 的组织中的其他用户进行通信。 但是，升级后的用户无法启动 Skype for Business 聊天、通话或会议。
 
 一旦你的组织准备好让部分或所有用户使用团队作为唯一的通信和协作工具，你可以将这些用户升级到 "**仅团队**" 模式。 如果你从**孤岛**模式升级，我们建议你首先让团队在开始升级过程之前饱和整个组织中的团队。 这可避免由于**孤岛**模式不提供互操作而导致的通信方案中断。
 
 有关移动到 "**仅团队**" 模式的其他注意事项，请参阅[仅团队模式注意事项](teams-only-mode-considerations.md)。
 
-![团队确认消息的屏幕截图](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "在用户作为仅团队用户升级后，在特殊模式下运行的 Skype For business 客户端")
+![团队确认消息的屏幕截图](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "在用户作为仅团队用户升级后，在特殊模式下运行的 Skype for Business 客户端")
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>具有团队协作的 Skype for Business
 
 使用此模式可在你的环境中引入团队，同时继续利用 Skype for Business 中的现有投资。 在此模式下，你可以让 Skype for Business 保持不变，以便聊天、通话和会议功能，并添加团队协作功能-团队和频道，在 Office 365 和应用程序中访问文件。 团队通信功能（私人聊天、通话和安排会议）在此模式下默认情况下处于关闭状态。
 
-在本地或混合使用 Skype for business Server 起点的组织，如果他们希望为其用户提供其通信的互操作性和可预测性，则应将此模式视为**孤岛**模式的备用模式，以及具有可预测的日程表，可预测其升级到团队（而不是在**岛**模式下依赖采纳饱和）。
+在本地或混合使用 Skype for business Server 起点的组织应将此模式视为**孤岛**模式的备用模式（如果他们希望为其用户提供其通信的互操作性和可预见性），以及为团队升级的可预测时间线（而不是在**岛**模式下依赖采纳的饱和度）。
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>具有团队协作和会议的 Skype for business，也称为会议优先
 
@@ -100,7 +102,7 @@ ms.locfileid: "37062968"
 此共存模式对于具有企业语音的 Skype for Business 本地部署的组织非常有用，他们很可能需要花费一些时间来升级到团队，并且希望尽快获得高级团队会议。
 
 > [!Note]
-> 在除**孤岛**之外的任何共存模式下部署时，团队和 Skype for business 可以进行[互操作](#interoperability-of-teams-and-skype-for-business)，使用户能够与他人聊天和相互通话，并确保在你的组织中进行升级迁移到团队。 共存模式控制互操作性。 接收方的共存模式确定互操作是否可用。 例如，如果接收器处于一种模式下，聊天仅在一台客户端（如团队）中可用，则在发起方使用其他客户端（在此情况下为 Skype for Business）开始聊天时，聊天互操作性通常将可用。 另一方面，如果接收器处于可在两个客户端（即孤岛模式）中提供聊天的模式，则不能对聊天提供互操作。 接收方将在发起聊天的同一客户端中接收消息。 因此，在 "**孤岛**" 模式下正确通信需要团队采用饱和。也就是说，所有用户主动使用和监视这两个客户端。
+> 在除**孤岛**之外的任何共存模式下部署时，团队和 Skype for business 可以[互操作](#interoperability-of-teams-and-skype-for-business)，使用户能够与他人进行聊天，并确保在升级到团队期间通信在整个组织内保持流畅。 共存模式控制互操作性。 接收方的共存模式确定互操作是否可用。 例如，如果接收器处于一种模式下，聊天仅在一台客户端（如团队）中可用，则在发起方使用其他客户端（在此情况下为 Skype for Business）开始聊天时，聊天互操作性通常将可用。 另一方面，如果接收器处于可在两个客户端（即孤岛模式）中提供聊天的模式，则不能对聊天提供互操作。 接收方将在发起聊天的同一客户端中接收消息。 因此，在 "**孤岛**" 模式下正确通信需要团队采用饱和。也就是说，所有用户主动使用和监视这两个客户端。
 
 > [!TIP]
 > 若要帮助在 Skype for Business 仍在使用时根据希望在团队中启用的功能确定推荐的升级模式，请利用[skype To 团队升级向导](https://aka.ms/SkypeToTeamsWizard)。
@@ -140,7 +142,7 @@ Skype for Business 用户可以与团队用户进行一对一的语音和视频�
 > [!Important]
 > 使用 Skype for Business 的本地部署的互操作体验要求本地环境处于 Office 365 Skype for Business 的混合模式中。 有关详细信息，请参阅[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)。
 
-这些互操作体验在以下情况下适用于已分配以下共存模式之一的用户： **skype for business 与团队协作**、**使用团队协作和会议的 skype**for business、skype for business、skype for business **** 仅限企业或**团队**。 在**孤岛**模式下不存在与用户的互操作性。
+这些互操作体验在以下情况下适用于已分配以下共存模式之一的用户： **skype for business 与团队协作**、**使用团队协作和会议的 skype**for business、**仅 Skype**for business 或**仅限团队**。 在**孤岛**模式下不存在与用户的互操作性。
 
 ### <a name="native-interop-experience-limitations"></a>本机互操作体验限制
 
@@ -204,7 +206,7 @@ Skype for Business 中的互操作性和互操作性升级已于7月2019日的 C
 
 此向团队会议的升级适用于租户互操作和跨租户联合呼叫和聊天。 它在默认情况下处于打开状态，并且管理员尚未提供任何设置。 但是，如果管理员设置``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy``为``$false``，将对用户关闭该功能。
 
-查看本文后，请参阅[选择升级旅行](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)、[与 Skype for business 共存](coexistence-chat-calls-presence.md)，以及为实施[设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)更多信息.
+查看本文后，请参阅[选择升级旅行](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)、[与 Skype for business 共存](coexistence-chat-calls-presence.md)，以及为实施详细信息[设置你的共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)。
 
 ## <a name="related-links"></a>相关链接
 

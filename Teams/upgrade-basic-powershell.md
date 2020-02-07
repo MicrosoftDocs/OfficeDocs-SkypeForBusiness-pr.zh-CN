@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: 如果管理中心未在你的租户中亮起，则为升级到团队的 Stopgap
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 397cabcbba35c153d234bc4355d12e4eb44b5c57
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 20864b6b0a4be8cf9a0a88c6f3ce63c18687f2af
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435085"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837232"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>将用户从 Skype for Business Online 升级到 Microsoft 团队
 

@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: 使用本指南了解有关正确评估当前环境以便升级到团队的要求。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772316"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837122"
 ---
 ![升级旅行图，强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段，重点介绍技术准备阶段")
 

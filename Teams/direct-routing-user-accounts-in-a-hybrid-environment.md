@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 了解用户创建的不同组合以及支持或不支持的组合。
-ms.openlocfilehash: bf2fee0646e5230964673af4dbfa4fed22086cdc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572109"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837282"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>采用 PSTN 连接的混合环境中的用户帐户
 

@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策略和权限、确定哪些用户可以邀请来宾以及获取有关来宾用户活动的报告。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42910da02c55866e0ce4e04a099b60e55577ab8c
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111356"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834772"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================

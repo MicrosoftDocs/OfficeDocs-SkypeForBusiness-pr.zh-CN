@@ -8,6 +8,8 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: 如何在计划从 Skype for Business 迁移到 Microsoft 团队时执行详细的环境发现。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 029d4870a6826866ddff9b712c5acd2b59897b75
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772396"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834522"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 团队推出环境发现
 ===================================================

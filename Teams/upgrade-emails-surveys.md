@@ -7,21 +7,23 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 在 conjunciton 中使用的电子邮件和调查示例, 以及从 Skype for Business 升级到团队的加速10步行动计划
+description: 在 conjunciton 中使用的电子邮件和调查示例，以及从 Skype for Business 升级到团队的加速10步行动计划
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236383"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837222"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的电子邮件和调查示例
 
@@ -29,15 +31,15 @@ ms.locfileid: "36236383"
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>利益干系人电子邮件, 适用于步骤1
+### <a name="stakeholder-email-for-step-1"></a>利益干系人电子邮件，适用于步骤1
 
-主题行:
+主题行：
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-电子邮件正文:
+电子邮件正文：
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -53,13 +55,13 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 ### <a name="notify-users-email-for-step-4"></a>在步骤4中通知用户电子邮件
 
-主题行:
+主题行：
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-电子邮件正文:
+电子邮件正文：
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -82,13 +84,13 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>在步骤6中提醒用户电子邮件
 
-主题行: 提醒: 准备好升级到团队
+主题行：提醒：准备好升级到团队
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-电子邮件正文:
+电子邮件正文：
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -111,15 +113,15 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>欢迎用户从总经理主办方发送电子邮件, 步骤7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>欢迎用户从总经理主办方发送电子邮件，步骤7
 
-主题行:
+主题行：
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-电子邮件正文:
+电子邮件正文：
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -148,13 +150,13 @@ Regards,
 
 ### <a name="check-in-email-for-step-9"></a>步骤9的签入电子邮件
 
-主题行:
+主题行：
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-电子邮件正文:
+电子邮件正文：
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -168,15 +170,15 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>通过电子邮件向用户提供团队和频道 a 试用, 步骤10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>通过电子邮件向用户提供团队和频道 a 试用，步骤10
 
-主题行:
+主题行：
 
 ```
 CALL TO ACTION: Give teams and channels a try
 ```
 
-电子邮件正文:
+电子邮件正文：
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -205,10 +207,10 @@ Should you have questions, contact <<insert alias or contact info>>.
 |---|---|---|---|---|---|---|---|---|---|---|
 | 使用团队进行 IM 通话/与他人聊天 | | | | | | | | | | |
 | 为联机会议使用团队 | | | | | | | | | | |
-| 使用团队协作 (团队和频道) | | | | | | | | | | |
+| 使用团队协作（团队和频道） | | | | | | | | | | |
 | 在我的移动设备上使用团队 | | | | | | | | | | |
 
-| **如果有任何内容, 将阻止你使用 Microsoft 团队？** | **选择所有适用的** |
+| **如果有任何内容，将阻止你使用 Microsoft 团队？** | **选择所有适用的** |
 |---|---|
 | 我从未听说过它 | &#9744; |
 | 我的计算机上没有安装它 | &#9744; |
@@ -216,14 +218,14 @@ Should you have questions, contact <<insert alias or contact info>>.
 | 我没有时间针对我的需求进行评估 | &#9744; |
 | 我已经使用了其他满足通信和协作需求的应用程序 | &#9744; |
 | 我需要培训才能使用 | &#9744; |
-| 我尝试使用它, 但遇到技术问题或不好的体验 | &#9744; |
+| 我尝试使用它，但遇到技术问题或不好的体验 | &#9744; |
 | 我们的支持台无法帮助我解决问题 | &#9744; |
 | 我目前没有使用它 | &#9744; |
-| 其他 (请注明) | &#9744; |
+| 其他（请注明） | &#9744; |
 
-**你向朋友/同事推荐 Microsoft 团队的可能性有多大？(0 = 根本不可能 .。。10 = 极有可能)**
+**你向朋友/同事推荐 Microsoft 团队的可能性有多大？（0 = 根本不可能 .。。10 = 极有可能）**
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 个 | db-9 | 10 |
+| 0 | 1 | ppls-2 | 3 | 4 | 5 | 6 | 7 | 个 | db-9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

@@ -7,18 +7,20 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 description: 了解如何使用 Ringback 机器人进行直接路由，以防止在建立通话时可能出现的意外 silences。
 localization_priority: Normal
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fcb69ba1bc612fe940054ec982eb7462c6679be
-ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
+ms.openlocfilehash: 2a9ee3f227faa736d7fdda3ebedc755c8ac5049d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962499"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834992"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>设置用于直接路由的 Ringback bot
 

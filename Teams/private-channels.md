@@ -11,17 +11,19 @@ audience: Admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理专用频道。
-ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
-ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
+ms.openlocfilehash: 45d05f2dd726b340ac79ac11810d23d00c8b3e9d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "40929558"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837312"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 团队中的专用频道
 
@@ -101,7 +103,7 @@ Microsoft 团队中的专用频道为团队内的协作创建了重点空间。 
 
 下表概述了哪些操作所有者、成员和来宾可以在专用频道中执行的操作。
 
-|Action  |团队所有者|工作组成员|团队访客|专用频道所有者|专用频道成员|专用频道来宾|
+|操作  |团队所有者|工作组成员|团队访客|专用频道所有者|专用频道成员|专用频道来宾|
 |---------|---------|---------|---------|---------|---------|---------|
 |创建专用频道|是<sup>1</sup>|是<sup>1，2</sup>|否|不适用|不适用|不适用|
 |删除专用频道|是|否|否|是|否|否|

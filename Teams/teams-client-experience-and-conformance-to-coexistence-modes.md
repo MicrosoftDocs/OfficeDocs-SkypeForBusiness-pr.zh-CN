@@ -10,18 +10,20 @@ audience: admin
 description: Teams 客户端体验和共存模式的一致性
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e05a95871dbe36f969c048f32d9bca99fec5d45
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eea9d83a582bfe463233cfafe9564a238e00e198
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435235"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837372"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -76,7 +78,7 @@ Skype for Business 共存模式（SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCol
 |SfBWithTeamsCollab 或 SfBOnly|已禁用|已禁用|已禁用|已禁用|
 ||||||
 
-使用 PowerShell 时， `Grant-CsTeamsUpgradePolicy` Cmdlet 检查 TeamsMessagingPolicy、TeamsCallingPolicy 和 TeamsMeetingPolicy 中的相应设置的配置，以确定这些设置是否将被 TeamsUpgradePolicy 取代，如果是，则PowerShell 中提供了信息性消息。  如上所述，不需要再设置其他策略设置。 下面是 PowerShell 警告的示例：
+使用 PowerShell 时， `Grant-CsTeamsUpgradePolicy` Cmdlet 检查 TeamsMessagingPolicy、TeamsCallingPolicy 和 TeamsMeetingPolicy 中的相应设置的配置，以确定这些设置是否将被 TeamsUpgradePolicy 取代，如果是，则会在 PowerShell 中提供一条信息性消息。  如上所述，不需要再设置其他策略设置。 下面是 PowerShell 警告的示例：
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

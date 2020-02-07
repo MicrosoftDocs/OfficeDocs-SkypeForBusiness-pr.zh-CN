@@ -8,18 +8,20 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: 了解 Microsoft Teams 与各种 Exchange 设置之间存在哪些功能，例如，创建和加入团队、创建频道等。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c3f0b5c545f1a7e8900c01a79544079ea4fedcc
-ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
+ms.openlocfilehash: 4bc03a292614b6ae5888e6334e37a3b417bcacde
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41230312"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834502"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 

@@ -7,8 +7,10 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 通过首先登记利益干系人来规划升级, 然后设置项目范围。
+description: 通过首先登记利益干系人来规划升级，然后设置项目范围。
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 ms.collection:
@@ -16,24 +18,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a3226dd3887a4d289b810bb866d96dba704dd448
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236055"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837112"
 ---
 ![团队升级旅程的示意图](media/upgrade-banner-main.png "确保您的项目已针对合适的项目团队进行了成功设置。定义项目范围、目标和日程表。确认技术和用户准备情况。执行推出计划。保持动量以最大化结果。")
 
 # <a name="plan-for-your-upgrade"></a>规划升级
 
-正常的技术环境、持续的用户使用情况以及所有业务目标的实现均以正确的规划开始。 实体计划为你的升级项目提供了一个框架, 确保所有利益干系人都能达到相同的目标。 通过花费时间来正确定义成功, 你可以在你的部署过程中测量结果, 并验证你是否正在获得所需的结果。 规划旅行包括:
+正常的技术环境、持续的用户使用情况以及所有业务目标的实现均以正确的规划开始。 实体计划为你的升级项目提供了一个框架，确保所有利益干系人都能达到相同的目标。 通过花费时间来正确定义成功，你可以在你的部署过程中测量结果，并验证你是否正在获得所需的结果。 规划旅行包括：
 
 - [登记项目利益干系人](upgrade-enlist-stakeholders.md)。
 - [定义项目的范围](https://aka.ms/SkypetoTeams-Scope)。
 - [了解 Skype For business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)。
 
 > [!TIP]
-> 加入我们的现场互动式研讨会, 我们将分享指导、最佳做法和资源, 旨在开始升级规划和实施。
+> 加入我们的现场互动式研讨会，我们将分享指导、最佳做法和资源，旨在开始升级规划和实施。
 >
 > 首先加入[升级](https://aka.ms/SkypeToTeamsPlanning)会话的计划以开始使用。

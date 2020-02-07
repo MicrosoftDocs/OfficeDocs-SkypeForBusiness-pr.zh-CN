@@ -10,30 +10,32 @@ ms.reviewer: dearbeen
 description: 监视 Microsoft 团队的质量和使用所需的任务和活动
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecc3781f3190b7c7e5f52aec7ecf9dbae0894886
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236424"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837172"
 ---
-![图表突出显示升级旅程的操作卓越阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段, 重点关注运营卓越阶段")
+![图表突出显示升级旅程的操作卓越阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段，重点关注运营卓越阶段")
 
-本文是升级过程的 "卓越运营" 阶段的一部分, 在您从 Skype for Business 升级到团队后立即开始。
+本文是升级过程的 "卓越运营" 阶段的一部分，在您从 Skype for Business 升级到团队后立即开始。
 
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
-[体验质量检查指南](https://aka.ms/qerguide)包括一组活动, 这些活动在对改善用户体验有最大影响的关键领域中评估和提供补救指南, 如下所示。
+[体验质量检查指南](https://aka.ms/qerguide)包括一组活动，这些活动在对改善用户体验有最大影响的关键领域中评估和提供补救指南，如下所示。
 
-![查看过程中要检查的关键区域的插图。]在(media/plan-my-service-management-image2.png "体验质量评审期间要检查的关键方面: 音频、可靠性和用户调查结果。")
+![查看过程中要检查的关键区域的插图。](media/plan-my-service-management-image2.png "在体验质量评审期间要检查的关键方面：音频、可靠性和用户调查结果。")
 
-通过不断评估和修正指南中所述的区域, 你可以降低对用户体验产生负面影响的可能性。 在部署中遇到的大多数用户体验问题可以分为以下类别：
+通过不断评估和修正指南中所述的区域，你可以降低对用户体验产生负面影响的可能性。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 
 - 防火墙或代理配置不完整
 
@@ -47,8 +49,8 @@ ms.locfileid: "36236424"
 
 - 子网或网络设备存在问题
 
-体验质量评审指南中提供的指南重点介绍如何使用呼叫质量仪表板 (CQD) 作为主要工具来报告和调查所述的每个区域, 并重点关注音频以最大程度地提高采纳和影响。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
+体验质量评审指南中提供的指南重点介绍如何使用呼叫质量仪表板（CQD）作为主要工具来报告和调查所述的每个区域，并重点关注音频以最大程度地提高采纳和影响。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
-我们强烈建议您提前提名本《质量专家提名。 在进行命名后, 他们应开始熟悉[体验质量审核指南](https://aka.ms/qerguide)中的内容。
+我们强烈建议您提前提名本《质量专家提名。 在进行命名后，他们应开始熟悉[体验质量审核指南](https://aka.ms/qerguide)中的内容。
 
 <!--ENDOFSECTION-->
