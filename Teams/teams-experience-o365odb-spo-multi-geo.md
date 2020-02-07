@@ -13,14 +13,16 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - SPO_Content
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe181e7ef55b386d4a6eb40bb7e383ca89a956d9
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: de798e3e76b4c826cf5b235b61b3fe88e94ea1c7
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231243"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837692"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Office 365 OneDrive 和 SharePoint Online 支持多地理位置的租户中的 Teams 体验
 ===========================================

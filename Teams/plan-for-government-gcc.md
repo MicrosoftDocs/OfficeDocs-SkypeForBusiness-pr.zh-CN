@@ -10,17 +10,19 @@ audience: admin
 description: IT 专业人士在处理由美国政府法规制约的数据的实体中驱动 Office 365 部署的指南
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4228210fa7b6d9518fa060b2bdd555f434ed6f2
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 3f03c4cdd13ea63dfee6470843fea5e2dafeab7c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069303"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837442"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>规划 Microsoft 365 政府版-GCC 部署
 

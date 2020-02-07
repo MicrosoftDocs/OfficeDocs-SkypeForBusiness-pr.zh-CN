@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 了解如何衡量团队规模广泛启用的成果和成功。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749270"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837852"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用定义结果和成功
 
@@ -85,7 +87,7 @@ ms.locfileid: "37749270"
 
     团队规模较大也是适用于1000员工的团队的首选支持策略，这些组织希望简化员工的沟通和接洽。 使用组织范围的团队可以让多人共同查看任何设备上的常见任务和计划。 
 
-- 并排**选择**：对于使用 Skype for business 进行音频会议、支持会议室设备或云语音功能的组织而言，我们建议并排运行团队和 Skype，让员工熟悉核心协作功能，同时从 Skype for business 中规划迁移，您可以方便地向公司进行迁移。 请注意，并行运行这两个客户端可能会引起用户对要使用的工具的混淆，因此我们建议你在采纳过程中将此阶段保持简短。 
+- 并排**选择**"并排"：对于使用 Skype for business 进行音频会议、支持会议室设备或云语音功能的组织，我们建议并排运行团队和 skype，以让你的员工熟悉核心协作功能，同时在你的公司方便的时候计划从 Skype for business 迁移。 请注意，并行运行这两个客户端可能会引起用户对要使用的工具的混淆，因此我们建议你在采纳过程中将此阶段保持简短。 
 
 - **选择迁移**：从 Skype for business 迁移到团队包含从技术角度来看的其他组件，但用户采纳的使用方式与团队更大的实现具有相同的组件。 此外，你将向人们介绍团队会议体验和界面、新的持久聊天行为以及与 Skype for Business 不同的体验的其他元素。
 

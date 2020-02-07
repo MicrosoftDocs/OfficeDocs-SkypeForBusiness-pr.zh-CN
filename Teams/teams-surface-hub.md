@@ -11,18 +11,20 @@ ms.reviewer: jatpatel
 description: 配置 Microsoft 团队 Surface Hub 的管理员设置。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom:
 - Devices
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c38577fe3bda9ed2a1c2e224390e89f44de96b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570098"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836932"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>为 Surface Hub 部署 Microsoft Teams
 ======================================
@@ -88,7 +90,7 @@ ms.locfileid: "37570098"
 |设置   |值    |
 |----------|---------|
 |路径      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|数据类型 | 字符串-将团队应用程序包 ID 的字符串设置为**MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe！团队** |
+|数据类型 | 字符串-将团队应用程序包 ID 的字符串设置为**Microsoft MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe！团队** |
 |运营| 获取、设置        |
 
 重新启动 Surface Hub 设备。 重新启动设备后，你应该能够从 "开始" 屏幕启动 "团队" 应用，并从日历中加入会议。

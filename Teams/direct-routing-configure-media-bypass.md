@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 阅读本主题，了解如何使用 "电话系统直接路由" 配置 "绕过媒体"。
-ms.openlocfilehash: 2931194783e2055c468ec2d7ad1286b9fe1940ae
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572230"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837602"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>使用直接路由配置媒体旁路
 

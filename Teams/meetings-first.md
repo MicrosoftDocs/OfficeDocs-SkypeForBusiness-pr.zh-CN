@@ -10,17 +10,19 @@ ms.reviewer: francoid
 description: 首先了解会议，用户可在其中在团队中创建会议，同时继续使用 Skype for Business 进行聊天、通话和联机状态。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 10321d02398c6c2b0ffc2143a9bafa406fbec637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564902"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836452"
 ---
 # <a name="meetings-first"></a>会议优先
 
@@ -103,7 +105,7 @@ ms.locfileid: "37564902"
 
 一旦您的用户已获得授权，并且为团队会议准备好组织后，就可以先为您的用户启用会议。 我们做得非常简单：一种单一的设置即可完成所有任务！
 
-首先，会议中的所有功能和用户体验，包括团队客户端配置和用户体验的[自动一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)、会议迁移服务以及更好的功能。可通过授予用户（或用户组或租户默认值）在[Microsoft 团队管理中心](manage-teams-in-modern-portal.md)或使用[PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)的[SfBWithTeamsCollabAndMeetings 共存模式](setting-your-coexistence-and-upgrade-settings.md)。
+首先，会议中的所有功能和用户体验（包括团队客户端配置和用户体验的[自动一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)、会议迁移服务以及更好的功能）通过在[Microsoft 团队管理中心](manage-teams-in-modern-portal.md)或使用[PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)授予用户（或用户组或租户默认值）的[SfBWithTeamsCollabAndMeetings 共存模式](setting-your-coexistence-and-upgrade-settings.md)进行配置。
 
 ![用于首先启用会议的管理员设置的屏幕截图](media/teams-meeting-admin-settings.png)
 

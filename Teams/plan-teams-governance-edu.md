@@ -10,16 +10,18 @@ audience: admin
 description: 对使用团队的 Microsoft 教育组的管理员提出的常见问题的解答。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4faddea2a6d0366a45fab3667b781d9d1fe81f0b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 719f9429d49dfef7a21670c67bad96c9e26c993e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573258"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837432"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>面向管理员的 Microsoft 教育版管理常见问题解答
 

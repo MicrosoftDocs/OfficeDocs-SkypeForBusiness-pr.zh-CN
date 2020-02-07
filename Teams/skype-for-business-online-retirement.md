@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online 退休
+title: Skype for Business Online 停用
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0d278955f6935b55fda9b0e2dc3b13503b1f77
-ms.sourcegitcommit: 8cfb6bd11706ac3f0da93382359d5231e16e9234
+ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36849837"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837942"
 ---
-# <a name="skype-for-business-online-retirement"></a>Skype for Business Online 退休
+# <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 
 2021将于年7月31日停用 Skype for business Online。 本文提供了有关停用计划的详细信息，简要说明了为什么要立即进行本次发布，以及我们正在执行的操作摘要，以帮助客户迁移到团队。
  
@@ -45,6 +47,6 @@ Skype for Business Online 将于2021年7月31日停用，在该日期之后，�
 - **团队和 Skype 消费者互操作**。 团队和 Skype 消费者之间的互操作将允许两个服务上的用户使用聊天和通话进行通信。  团队和 Skype 消费者互操作将在第一季度的日历年度2020中提供。
 - **联系中心集成和合规性录制**。 在本月早些时候，我们已宣布团队与 Five9、Genesys 和的合作关系，从而实现联系中心解决方案-以及 ASC、漂亮和 Verint，以提供合规性录制。   我们还与其他 Skype for Business Online 认证合作伙伴协作，为团队市场提供其他联系中心和合规性录制解决方案。
  
-当您准备好开始使用时，我们将提供[一组全面的技术指南和规划资源](https://aka.ms/SkypeToTeams)，包括经验证的成功框架、最佳做法、规划文档、[免费的讲师指导培训](instructor-led-training-teams-landing-page.md)和[FastTrack](https://www.microsoft.com/FastTrack)适用于符合条件的订阅的 "加入帮助"。
+当您准备好开始使用时，我们将提供[一组全面的技术指南和规划资源](https://aka.ms/SkypeToTeams)，包括经验证的成功框架、最佳做法、计划文档、[免费的讲师指导培训](instructor-led-training-teams-landing-page.md)和[FastTrack](https://www.microsoft.com/FastTrack)为符合资格的订阅提供帮助。
  
 由于2014的推出，Skype for Business 已成为世界各地数百万人的重要工具。  通过将即时消息、通话和视频合并到单个应用中，产品建立了激动人心的新商业通信愿景。 Microsoft 团队是该愿景的下一章，目前我们的消息不仅宣布停用 Skype for Business Online 服务，我们还会在团队中沟通信心。  在市场上超过两年后，团队可为我们最苛刻的客户做好准备———我们确信你将愿意喜欢！  如果您是当前的 Skype for Business Online 客户，请立即开始规划迁移。  我们将致力于帮助你解决每个步骤，我们无法等待你体验新的工作方式。 

@@ -14,18 +14,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: 了解如何在团队中管理会议策略设置。
-ms.openlocfilehash: 2223882020bf9ea045e18d42c6591eceba628999
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 142152aaa0c47adea7f680b33fa4c9c59441e6eb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708838"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836472"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 

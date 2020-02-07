@@ -13,16 +13,18 @@ ms.reviewer: salilda
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用内联翻译
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f6c6a2eca313b70640dbf61a87c6c5742ea318
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1926f574977f65181f12ddbb9f0239ad1547d1e5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570731"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836632"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>在 Microsoft 团队中启用内联邮件翻译 
 =================================================

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队如何使用内存
+title: Microsoft Teams 如何使用内存
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -12,16 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6dcbe03851b8dbb31cd0bd6f1b580913d4dc683d
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506889"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836982"
 ---
-# <a name="how-microsoft-teams-uses-memory"></a>Microsoft 团队如何使用内存
+# <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams 如何使用内存
 
 某些 Microsoft 团队用户对团队使用内存的方式有疑问。 本文介绍团队如何使用内存，以及团队桌面应用程序（应用）和团队 web 应用不阻止同一台计算机上的其他应用和工作负荷以最佳运行的内存。 团队设计为使用新式 web 技术。 为了实现此目的，已在电子上开发了团队桌面客户端，该客户端使用 Chromium 进行呈现。 这是当今大多数最热门的浏览器（包括边缘和 Chrome）中的相同呈现引擎。
 

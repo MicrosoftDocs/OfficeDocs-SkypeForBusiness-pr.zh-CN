@@ -13,14 +13,16 @@ description: 如何使用新式身份验证登录到 Microsoft 团队。
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+ms.openlocfilehash: 79f04161c070ff4818fdb2dfc212e5c3fc98b2b0
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41790610"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845133"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式验证登录 Microsoft Teams
 ==========================
@@ -39,9 +41,14 @@ Microsoft 团队使用新式身份验证来保持登录体验简单而又安全�
 
 - 如果用户登录到加入域的计算机，则当用户启动团队时，可能会要求他们执行一个更多身份验证步骤，具体取决于你的组织选择是需要 MFA 还是计算机已要求进行 MFA 登录。 如果其计算机已要求进行 MFA 登录，则当用户打开团队时，应用会自动启动。
 
-- 如果用户登录到加入域的计算机，并且不希望其用户名预填充到团队登录屏幕上，则管理员可以将以下 Windows 注册表设置为关闭用户名的预填充：计算机 \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams DisableUpnSuffixCheck （REG_DWORD）0x00000001 （1）
+- 如果用户登录到加入域的计算机，并且不希望其用户名预填充到团队登录屏幕上，则管理员可以将以下 Windows 注册表设置为关闭用户名（UPN）的预填充：
 
-  注意：在默认情况下，跳过以 "本地" 或 "corp" 结尾的用户名的用户名预填。因此无需设置注册表项即可将其关闭。 
+  计算机 \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill （REG_DWORD）<br/>
+  0x00000001 （1）
+
+    > [!NOTE]
+    > 默认情况下，跳过用户姓名预填的用户姓名以 "本地" 或 ". corp" 为默认值，因此无需设置注册表项即可将其关闭。 
 
 
 ### <a name="mac-users"></a>Mac 用户 
@@ -62,5 +69,5 @@ Microsoft 团队使用新式身份验证来保持登录体验简单而又安全�
 
 现代身份验证适用于使用团队的每个组织，因此，如果用户无法完成此过程，则您的域或组织的 Office 365 企业帐户可能有问题。 
 
-有关详细信息，请参阅[为什么我在登录 Microsoft 团队时遇到问题？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)。
+有关详细信息，请参阅[为什么我在登录 Microsoft 团队时遇到问题？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 

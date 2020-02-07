@@ -10,15 +10,17 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 description: 了解如何使用 PowerShell 控件管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a83e8114020ef400ba983f483727436bbd383736
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570120"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836952"
 ---
 # <a name="teams-powershell-overview"></a>Teams PowerShell 概览
 
@@ -120,7 +122,7 @@ PowerShell 控件的参考文档将告诉你你正在调查的 cmdlet 所在的�
 
 ## <a name="other-powershell-tools"></a>其他 PowerShell 工具
 
-你可以在[Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)和 Skype for business 中查找有关如何使用用于管理 Microsoft 团队和 skype for business 的所有 PowerShell 控件的详细说明，包括每个策略中的设置的详细说明[商业 cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
+有关如何使用用于管理 Microsoft 团队和 Skype for business 的所有 PowerShell 控件的详细说明，包括每个策略中的设置的详细说明，请参阅[Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)和[Skype for business cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
 
 ## <a name="learn-more"></a>了解更多信息
 

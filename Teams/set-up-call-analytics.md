@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Reporting
 description: 设置和使用呼叫分析来识别 Skype for Business 和 Microsoft 团队通话质量问题，并对其进行故障排除。
-ms.openlocfilehash: 4b4ab2b60025169351e10a5a8cc3938d146e4f2d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fe46ee580554969d26395b26117649ab8ada2ea0
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693937"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838052"
 ---
 # <a name="set-up-call-analytics"></a>设置通话分析
 

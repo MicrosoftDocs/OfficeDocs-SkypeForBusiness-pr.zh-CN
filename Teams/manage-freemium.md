@@ -11,18 +11,20 @@ ms.reviewer: daryav
 search.appverid: MET150
 description: 了解团队中的管理员功能免费。
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2a1d22b5e19a89b873e8961676274f655f35738
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 046a1e0a728b0b92a90c00ee51b1130708aa3cfb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570618"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837532"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>管理 Microsoft Teams 的免费版本
 ==========================================

@@ -12,15 +12,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08b022799b2c8bf80ee30cbb0a5ef3e74f0a29e1
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 3f21a4532a841a23f6bbb78a57e223616ae539fa
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40065662"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835132"
 ---
 # <a name="overview"></a>概述
 

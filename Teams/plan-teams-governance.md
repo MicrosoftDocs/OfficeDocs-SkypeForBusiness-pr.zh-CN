@@ -11,16 +11,18 @@ audience: admin
 description: 了解如何规划团队中实施管理功能。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913036"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836184"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -133,7 +135,7 @@ ms.locfileid: "37913036"
 
 ## <a name="related-topics"></a>相关主题
 
-[团队的管理快速入门](teams-adoption-governance-quick-start.md)
+[Teams 的管控快速入门](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management

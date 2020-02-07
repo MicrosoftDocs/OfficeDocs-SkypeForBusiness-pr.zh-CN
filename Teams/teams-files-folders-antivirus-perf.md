@@ -1,5 +1,5 @@
 ---
-title: 要从防病毒扫描中排除的团队文件和文件夹
+title: 要从防病毒扫描中排除的 Teams 文件和文件夹
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -10,18 +10,20 @@ audience: admin
 description: 通过从常规防病毒扫描中排除某些文件和文件夹，提高团队性能。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b4a4591bf25d7ef1a5b6efb9ab83c4508e26110
-ms.sourcegitcommit: bcebe833d5ff4fcd3d6246fc5ed80980c6f31d0c
+ms.openlocfilehash: 2dbb4b31fc3cddd8c434eb5c94e4f8801ff0633b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37578804"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837672"
 ---
-<a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>要从防病毒扫描中排除的团队文件和文件夹
+<a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>要从防病毒扫描中排除的 Teams 文件和文件夹
 =================================
 
 你可以通过阻止防病毒程序扫描特定团队文件和文件夹来提高团队部署的整体性能。 这将避免扫描不需要扫描的文件和文件夹的系统资源的支出。

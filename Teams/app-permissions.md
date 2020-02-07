@@ -13,15 +13,17 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: rowille
 description: 了解贵组织要求的数据和权限应用。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516780"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845223"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -70,15 +72,15 @@ ms.locfileid: "37516780"
 
 - 3x3. 当它在频道中使用时，应用的智能机器人可以访问团队成员的基本标识信息（名字、姓氏、用户主体名称 [UPN]、电子邮件地址）;在个人或群组聊天中使用时，机器人可以访问这些用户的相同信息。
 
-- POST_MESSAGE_TEAM. 允许应用的 bot 随时向任何团队成员发送（主动）消息，即使用户以前从未与 bot 聊天。
+- POST_MESSAGE_TEAM。 允许应用的 bot 随时向任何团队成员发送（主动）消息，即使用户以前从未与 bot 聊天。
 
-- 以下内容不是显式权限，而是由 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 以及可以使用机器人的范围（在清单中声明）中隐含的。
+- 以下内容不是显式权限，而是通过 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE 以及可以使用机器人的范围（在清单中声明）进行隐含：
  
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+    - RECEIVE_MESSAGE_PERSONAL，REPLYTO_MESSAGE_PERSONAL
+    - RECEIVE_MESSAGE_GROUPCHAT，REPLYTO_MESSAGE_GROUPCHAT
+    - RECEIVE_MESSAGE_TEAM，REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES, RECEIVE_FILES.<sup>2</sup>控制机器人是否可以在个人聊天中发送和接收文件（对于群组聊天或频道尚不支持）。
+- SEND_FILES，RECEIVE_FILES。<sup>2</sup>控制机器人是否可以在个人聊天中发送和接收文件（对于群组聊天或频道尚不支持）。
 
 ### <a name="considerations"></a>考虑事项
 
@@ -106,7 +108,7 @@ ms.locfileid: "37516780"
 
 - 另一方面，邮件扩展功能请参阅用户的 IP 地址和引用信息。
 
-- 应用指南（和我们的 AppSource 审查流程）需要在向用户（通过 POST_MESSAGE_TEAM 权限）发布个人聊天消息时决定是否有效。 在滥用的情况下，用户可以阻止机器人，租户管理员可以阻止该应用，并且 Microsoft 可以在必要时集中阻止机器人。
+- 应用指南（和我们的 AppSource 审查流程）需要在向用户发布个人聊天消息（通过 POST_MESSAGE_TEAM 权限）时决定是否有效。 在滥用的情况下，用户可以阻止机器人，租户管理员可以阻止该应用，并且 Microsoft 可以在必要时集中阻止机器人。
 
 <sup>1</sup>某些机器人仅发送邮件（POST_MESSAGE_USER）。 它们称为 "仅通知" 功能人员，但术语没有指允许或不允许机器人执行的操作，这意味着机器人不希望公开会话体验。 团队使用此字段在 UI 中禁用通常启用的功能;与确实公开会话体验的 bot 相比，机器人不受允许的功能。
 
@@ -145,7 +147,7 @@ POST_MESSAGE_CHANNEL
 
 ### <a name="optional-permissions"></a>可选权限
 
-REPLYTO_CONNECTOR_MESSAGE. 某些连接器支持可操作的消息，这些消息允许用户将目标回复发布到连接器消息，例如，将响应添加到 GitHub 问题或将日期添加到 Trello 卡。
+REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，这些消息允许用户将目标回复发布到连接器消息，例如，将响应添加到 GitHub 问题或将日期添加到 Trello 卡。
 
 ### <a name="considerations"></a>考虑事项
 
@@ -153,7 +155,7 @@ REPLYTO_CONNECTOR_MESSAGE. 某些连接器支持可操作的消息，这些消�
 
 - 将连接器消息发送到频道时，任何数据都不会离开公司网络。
 
-- 支持可操作消息（REPLYTO_CONNECTOR_MESSAGE 权限）的连接器也看不到 IP 地址和引用信息;此信息将发送到 Microsoft，然后路由到以前在连接器门户中注册到 Microsoft 的 HTTP 终结点。
+- 支持可操作消息的连接器（REPLYTO_CONNECTOR_MESSAGE 权限）也看不到 IP 地址和引用信息;此信息将发送到 Microsoft，然后路由到以前在连接器门户中注册到 Microsoft 的 HTTP 终结点。
 
 - 每次为通道配置连接器时，都会创建该连接器实例的唯一 URL。 如果该连接器实例已删除，则无法再使用该 URL。
 
@@ -164,15 +166,15 @@ REPLYTO_CONNECTOR_MESSAGE. 某些连接器支持可操作的消息，这些消�
 - 如果发送连接器消息的服务遭到破坏并开始发送垃圾邮件/网络钓鱼/恶意软件链接，租户管理员可以阻止创建新的连接器实例，并且 Microsoft 可以集中阻止它们。
 
 > [!NOTE]
-> 目前不能知道哪些连接器支持可操作的消息（REPLYTO_CONNECTOR_MESSAGE 权限）。
+> 目前尚不能知道哪些连接器支持可操作的消息（REPLYTO_CONNECTOR_MESSAGE 权限）。
 
 ## <a name="outgoing-webhooks"></a>传出 webhooks
 
-如果为租户启用旁加载，则由团队所有者或团队成员实时创建*传出 webhooks* 。 它们不是团队应用的功能;包含此信息是为了实现完整性。
+*传出 webhooks*由团队所有者或团队成员动态创建。 它们不是团队应用的功能;包含此信息是为了实现完整性。
 
 ### <a name="required-permissions"></a>所需权限
 
-RECEIVE_MESSAGE, REPLYTO_MESSAGE. 可接收来自用户的消息并答复他们。
+RECEIVE_MESSAGE，REPLYTO_MESSAGE。 可接收来自用户的消息并答复他们。
 
 ### <a name="optional-permissions"></a>可选权限
 

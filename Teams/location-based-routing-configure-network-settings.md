@@ -10,16 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 description: 了解如何创建和设置用于直接路由的基于位置的路由的网络区域、站点和子网。
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18df741dad691ba24d6950f132086b1f49b40684
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: bfa81c0d5856ba97b60f3183ff282bef8c911fda
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615842"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836562"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>为基于位置的路由配置网络设置
 

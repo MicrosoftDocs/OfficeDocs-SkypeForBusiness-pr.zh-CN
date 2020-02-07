@@ -17,16 +17,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.autoattendants.overview
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.autoattendants.overview
 - Phone System
 description: 了解什么是云自动助理以及如何使用它们。
-ms.openlocfilehash: ab88eb27eb12e8de119b90c7d53de750384afcea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d9f108acd4c1ebe3c275d79555145c6c92a78737
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694297"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836662"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 

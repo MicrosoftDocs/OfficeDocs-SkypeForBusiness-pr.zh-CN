@@ -10,15 +10,17 @@ ms.reviewer: rowille
 audience: admin
 description: 在配置团队时，请按照此清单中的核心、待办任务和活动进行操作。
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6f0f3482258af46b049f22af73e0efe4bc463a6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba9a3233ac762c28904b44275a8b653c56bf918a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567919"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835982"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>配置 Microsoft 团队核心功能
 

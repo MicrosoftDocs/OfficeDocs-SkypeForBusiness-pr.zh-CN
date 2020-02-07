@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: 阅读本文，查找用于直接路由的媒体路径国家代码。
-ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837564"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836092"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒体路径国家代码
 

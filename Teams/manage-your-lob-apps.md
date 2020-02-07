@@ -12,15 +12,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何让自定义团队应用从开发到部署。
-ms.openlocfilehash: 6064c4408fba367d0623f4b4dec85800d33718f9
-ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
+ms.openlocfilehash: 3369371de34cd1346e81be8ea57bb3f5675864c5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37962066"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837502"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>管理 Microsoft 团队中的业务线应用
 

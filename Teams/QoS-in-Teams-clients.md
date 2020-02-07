@@ -11,16 +11,18 @@ audience: admin
 description: 为 Microsoft 团队客户端实施服务质量（QoS）。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3447f86be825099b7fada63fecd1b106f94cd80a
-ms.sourcegitcommit: 2b76e6a9a6ba0eb391e4adba5402eb572d1dc61f
+ms.openlocfilehash: 43a4c7ea45fe0feabbe8851cde944a70994829da
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40303864"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836482"
 ---
 # <a name="set-qos-on-windows-clients"></a>在 Windows 客户端上设置 QoS
 

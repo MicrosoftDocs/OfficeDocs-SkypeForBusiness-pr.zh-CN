@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: 了解如何搜索可分配给用户的电话号码、国家或地区和城市，并指定所需的号码数量。
-ms.openlocfilehash: 1229f74473ff5f12bf137011dcdc9ad6a87d44f0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 14098f2fa769040bfe3224711f1927d84fb5a90d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694197"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838172"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>为用户搜索电话号码
 
