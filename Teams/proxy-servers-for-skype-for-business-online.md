@@ -17,50 +17,50 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Optimization
 description: 本文提供有关将代理服务器与团队或 Skype for Business 配合使用的信息。
-ms.openlocfilehash: e71dd21d8d359093b5dada84a8d0788e8dff6af3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7eeb319c9c352f4f04abef581b88c1eddf46951d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708828"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837302"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a><span data-ttu-id="e4dea-103">Teams 或 Skype for Business Online 的代理服务器</span><span class="sxs-lookup"><span data-stu-id="e4dea-103">Proxy servers for Teams or Skype for Business Online</span></span>
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a><span data-ttu-id="9b437-103">Teams 或 Skype for Business Online 的代理服务器</span><span class="sxs-lookup"><span data-stu-id="9b437-103">Proxy servers for Teams or Skype for Business Online</span></span>
 
-<span data-ttu-id="e4dea-104">本文提供有关将代理服务器与团队或 Skype for Business 配合使用的指南。</span><span class="sxs-lookup"><span data-stu-id="e4dea-104">This article provides guidance about using a proxy server with Teams or Skype for Business.</span></span>
+<span data-ttu-id="9b437-104">本文提供有关将代理服务器与团队或 Skype for Business 配合使用的指南。</span><span class="sxs-lookup"><span data-stu-id="9b437-104">This article provides guidance about using a proxy server with Teams or Skype for Business.</span></span>
   
-## <a name="not-using-a-proxy-server-is-recommended"></a><span data-ttu-id="e4dea-105">建议不使用代理服务器</span><span class="sxs-lookup"><span data-stu-id="e4dea-105">Not using a proxy server is recommended</span></span>
+## <a name="not-using-a-proxy-server-is-recommended"></a><span data-ttu-id="9b437-105">建议不使用代理服务器</span><span class="sxs-lookup"><span data-stu-id="9b437-105">Not using a proxy server is recommended</span></span>
 
-<span data-ttu-id="e4dea-p101">当来自代理的团队或 Skype for business 通信流时，Microsoft 建议绕过代理。代理不会使团队或 Skype for business 更加安全，因为通信已加密。</span><span class="sxs-lookup"><span data-stu-id="e4dea-p101">When it comes to Teams or Skype for Business traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams or Skype for Business more secure because the traffic is already encrypted.</span></span>
+<span data-ttu-id="9b437-p101">当来自代理的团队或 Skype for business 通信流时，Microsoft 建议绕过代理。代理不会使团队或 Skype for business 更加安全，因为通信已加密。</span><span class="sxs-lookup"><span data-stu-id="9b437-p101">When it comes to Teams or Skype for Business traffic over proxies, Microsoft recommends bypassing proxies. Proxies don't make Teams or Skype for Business more secure because the traffic is already encrypted.</span></span>
   
-<span data-ttu-id="e4dea-p102">并且拥有代理可能会导致问题。与性能相关的问题可通过延迟和数据包丢失引入环境。此类问题将在此类团队或 Skype for Business 方案中产生消极的体验，因为实时流非常重要。</span><span class="sxs-lookup"><span data-stu-id="e4dea-p102">And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.</span></span>
+<span data-ttu-id="9b437-p102">并且拥有代理可能会导致问题。与性能相关的问题可通过延迟和数据包丢失引入环境。此类问题将在此类团队或 Skype for Business 方案中产生消极的体验，因为实时流非常重要。</span><span class="sxs-lookup"><span data-stu-id="9b437-p102">And having a proxy can cause issues. Performance-related problems can be introduced to the environment through latency and packet loss. Issues such as these will result in a negative experience in such Teams or Skype for Business scenarios as audio and video, where real-time streams are essential.</span></span>
   
-## <a name="if-you-need-to-use-a-proxy-server"></a><span data-ttu-id="e4dea-111">如果需要使用代理服务器</span><span class="sxs-lookup"><span data-stu-id="e4dea-111">If you need to use a proxy server</span></span>
+## <a name="if-you-need-to-use-a-proxy-server"></a><span data-ttu-id="9b437-111">如果需要使用代理服务器</span><span class="sxs-lookup"><span data-stu-id="9b437-111">If you need to use a proxy server</span></span>
 
-<span data-ttu-id="e4dea-p103">某些组织没有为团队或 Skype for business 流量绕过代理的选项。如果这是你所说的情况，上述问题需要牢记。</span><span class="sxs-lookup"><span data-stu-id="e4dea-p103">Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.</span></span>
+<span data-ttu-id="9b437-p103">某些组织没有为团队或 Skype for business 流量绕过代理的选项。如果这是你所说的情况，上述问题需要牢记。</span><span class="sxs-lookup"><span data-stu-id="9b437-p103">Some organizations have no option to bypass a proxy for Teams or Skype for Business traffic. If that's the case for you, the problems mentioned above need to be kept in mind.</span></span>
   
-<span data-ttu-id="e4dea-114">Microsoft 还强烈建议：</span><span class="sxs-lookup"><span data-stu-id="e4dea-114">Microsoft also strongly recommends:</span></span>
+<span data-ttu-id="9b437-114">Microsoft 还强烈建议：</span><span class="sxs-lookup"><span data-stu-id="9b437-114">Microsoft also strongly recommends:</span></span>
   
-- <span data-ttu-id="e4dea-115">使用外部 DNS 解析</span><span class="sxs-lookup"><span data-stu-id="e4dea-115">Using external DNS resolution</span></span>
+- <span data-ttu-id="9b437-115">使用外部 DNS 解析</span><span class="sxs-lookup"><span data-stu-id="9b437-115">Using external DNS resolution</span></span>
     
-- <span data-ttu-id="e4dea-116">使用基于直接 UDP 的路由</span><span class="sxs-lookup"><span data-stu-id="e4dea-116">Using direct UDP based routing</span></span>
+- <span data-ttu-id="9b437-116">使用基于直接 UDP 的路由</span><span class="sxs-lookup"><span data-stu-id="9b437-116">Using direct UDP based routing</span></span>
     
-- <span data-ttu-id="e4dea-117">允许 UDP 流量</span><span class="sxs-lookup"><span data-stu-id="e4dea-117">Allowing UDP traffic</span></span>
+- <span data-ttu-id="9b437-117">允许 UDP 流量</span><span class="sxs-lookup"><span data-stu-id="9b437-117">Allowing UDP traffic</span></span>
     
-- <span data-ttu-id="e4dea-118">按照我们的网络指南中的其他建议操作：</span><span class="sxs-lookup"><span data-stu-id="e4dea-118">Following the other recommendations in our networking guidelines:</span></span>
+- <span data-ttu-id="9b437-118">按照我们的网络指南中的其他建议操作：</span><span class="sxs-lookup"><span data-stu-id="9b437-118">Following the other recommendations in our networking guidelines:</span></span>
     
-  - [<span data-ttu-id="e4dea-119">Skype for Business Online 中的媒体质量和网络连接性能</span><span class="sxs-lookup"><span data-stu-id="e4dea-119">Media Quality and Network Connectivity Performance in Skype for Business Online</span></span>](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
+  - [<span data-ttu-id="9b437-119">Skype for Business Online 中的媒体质量和网络连接性能</span><span class="sxs-lookup"><span data-stu-id="9b437-119">Media Quality and Network Connectivity Performance in Skype for Business Online</span></span>](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
     
-  - [<span data-ttu-id="e4dea-120">为 Skype for Business Online 优化网络</span><span class="sxs-lookup"><span data-stu-id="e4dea-120">Optimizing your network for Skype for Business Online</span></span>](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+  - [<span data-ttu-id="9b437-120">为 Skype for Business Online 优化网络</span><span class="sxs-lookup"><span data-stu-id="9b437-120">Optimizing your network for Skype for Business Online</span></span>](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
     
-<span data-ttu-id="e4dea-121">遵循本指南应尽可能减少潜在问题。</span><span class="sxs-lookup"><span data-stu-id="e4dea-121">Following this guidance should minimize potential problems.</span></span>
+<span data-ttu-id="9b437-121">遵循本指南应尽可能减少潜在问题。</span><span class="sxs-lookup"><span data-stu-id="9b437-121">Following this guidance should minimize potential problems.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="e4dea-122">相关主题</span><span class="sxs-lookup"><span data-stu-id="e4dea-122">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9b437-122">相关主题</span><span class="sxs-lookup"><span data-stu-id="9b437-122">Related topics</span></span>
 
-[<span data-ttu-id="e4dea-123">为 Skype for Business Online 优化网络</span><span class="sxs-lookup"><span data-stu-id="e4dea-123">Optimizing your network for Skype for Business Online</span></span>](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
+[<span data-ttu-id="9b437-123">为 Skype for Business Online 优化网络</span><span class="sxs-lookup"><span data-stu-id="9b437-123">Optimizing your network for Skype for Business Online</span></span>](https://support.office.com/en-us/article/Optimizing-your-network-for-Skype-for-Business-Online-b363bdca-b00d-4150-96c3-ec7eab5a8a43)
 
   
  
