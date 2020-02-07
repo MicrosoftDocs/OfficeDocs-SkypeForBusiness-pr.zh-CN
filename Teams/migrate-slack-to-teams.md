@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.custom: ''
+f1.keywords:
+- NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793468"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845205"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 
@@ -43,7 +44,7 @@ Slack 服务计划将明确可以迁移和无法迁移的内容。 例如，某�
 
 下图概略描述了 Slack 迁移过程，我们将在本文中对此过程进行说明。 
 
-:::image type="content" source="media/migrate-slack-to-teams-image2.png" alt-text="展示 Slack 导出过程的图表。":::
+![展示 Slack 导出过程的图表。](media/migrate-slack-to-teams-image2.png)
 
 完成本部分后，你应该会了解以下内容：
 - 你的 Slack 工作区的服务级别
@@ -80,7 +81,7 @@ Slack 中的应用与 Teams 中的应用相差无几。 获得工作区中的应
 
 转至 <your Slack workspace>.slack.com/apps/manage，获取应用和自定义集成的列表。 此页面还显示了使用每个应用的配置数目。 自定义集成的“迁移能力”各不相同。 如果是 Webhook，你通常可以将其发送到 Office 365 连接器，将工作流转入 Teams。 逐个评估机器人和其他应用，做好将其迁移到 Teams 的规划。
 
-*如果管理员限制了应用使用，则你可能无法查看可用应用的完整列表。
+\* 如果管理员限制了应用使用，则你可能无法查看可用应用的完整列表。
 
 ### <a name="users"></a>用户
 你在 Slack 中使用的身份方案可能不会直接映射到 Office 365。 例如，Slack 用户的电子邮件地址可能不会映射到 Office 365 的工作或学校帐户。 开始规划 Teams 部署之前，你应创建用户 ID 映射。
@@ -162,10 +163,10 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 ```
 
 完成本部分后，你应该拥有以下内容并完成以下事项：
-- 包含每个工作区频道及其使用情况统计信息的列表
-- 每个频道的 Slack 应用及配置列表
-- 确定了要导出的 Slack 消息历史记录类型（如有）
-- 包含 Slack 帐户映射到 Microsoft 工作或学校帐户的用户及其拥有的 Teams 许可的列表
+- 包含每个工作区频道及其使用情况统计信息的列表。
+- 每个频道的 Slack 应用及配置列表。
+- 确定了要导出的 Slack 消息历史记录类型（如有）。
+- 包含 Slack 帐户映射到 Microsoft 工作或学校帐户的用户及其拥有的 Teams 许可的列表。
 
 ## <a name="plan-your-teams-deployment"></a>规划 Teams 部署
 你已从 Slack 中导出了所需的内容（并留下了不需要的内容）。 现在可以规划 Teams 部署方式并导入 Slack 数据了。 此时是根据使用情况评估哪些内容适合团队，以及将这些元素纳入 Teams 部署计划的绝佳时机。 本部分结束时，你将获得涉及 Teams 用户、频道和应用的蓝图。 

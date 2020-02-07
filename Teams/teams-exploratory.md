@@ -10,16 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
 description: 未获得 Microsoft Teams 许可的 Office 365 用户可以启动 Exploratory Teams 许可证。
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6777dfbafac89c798955245b93f1e4537093b0cf
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 7aa3969d3943598c8e5657e1fcb94730179f57fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871779"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837682"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -79,15 +81,16 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 可以关闭用户安装试用版应用和服务的功能，这将阻止用户运行 Teams Exploratory 体验。
 
-1. 从“[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)”，转到“**设置**” > “**服务和外接程序**” > “**用户拥有的应用和服务**”。
+1. 从 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **设置**，选择**服务**，然后选择**用户自有应用和服务**。
 
-    ![管理中心中“服务和加载项”页面的屏幕截图](media/iw-trial-enable-1.png)
+    ![管理中心中“服务”页面的屏幕截图](media/iw-trial-services.png)
 
-2. 关闭**让用户安装试用版应用和服务**。
+2. 清除**允许用户安装试用版应用和服务**复选框。
 
-    ![管理中心中“用户拥有的应用和服务”页面的屏幕截图](media/iw-trial-enable-2.png)
-> [!NOTE]
-> 如果你的组织不符合获取 Teams Exploratory 的条件，你将看不到**让用户安装试用版应用和服务**的开关。
+    ![管理中心中“用户自有应用和服务”页面的屏幕截图](media/iw-trial-user-owned-apps-services.png)
+
+    > [!NOTE]
+    > 如果你的组织不符合获取 Teams Exploratory 的条件，你将看不到“**允许用户安装试用版应用和服务**”选项。
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>为拥有包含 Teams 的许可证的用户管理可用性
 
@@ -118,10 +121,9 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 3. 在右侧的“**产品许可证**”行中，选择“**编辑**”。
 
 4. 在“**产品许可证**”窗格中，将此 Exploratory 许可证的开关切换为“**关**”。
-
-    
->[!Note]
->组织中的第一位用户启动 Teams Exploratory 体验后，将显示 Teams Exploratory 切换开关。
+   
+    >[!Note]
+    >组织中的第一位用户启动 Teams Exploratory 体验后，将显示 Teams Exploratory 切换开关。
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>为拥有 Teams Exploratory 许可证的用户管理 Teams
 

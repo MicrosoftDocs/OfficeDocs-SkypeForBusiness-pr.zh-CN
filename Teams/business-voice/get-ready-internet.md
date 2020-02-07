@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17eca42d01bcfb8a6b440c16408f31f6301b0338
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 473c053036b766ef475c3aed5f0bba2d24dd9e6c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268708"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824880"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>检查用于企业语音的 Internet 连接
 

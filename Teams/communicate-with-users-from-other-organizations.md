@@ -11,16 +11,18 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 了解如何使用外部访问（联合身份验证）和来宾访问，与 Microsoft Teams 中其他组织的用户进行通信。
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 4d5ed9c5a5a671b3461761ea206edd109df73f22
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966765"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824920"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>与 Microsoft Teams 中其他组织的用户通信
 ======================================================

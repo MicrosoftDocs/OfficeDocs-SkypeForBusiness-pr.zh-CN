@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 商业语音的概述，并介绍它如何帮助中小型企业更高效地沟通。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea9e199125357d7038429389da82a42992463073
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 1b9093fe2fd7050e582132c79a932b4b6fd4925d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268638"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824560"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什么是 Microsoft 365 商务语音？
 

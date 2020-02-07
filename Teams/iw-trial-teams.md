@@ -10,16 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
 description: 未获得 Microsoft Teams 许可的 Office 365 用户可以启动 Teams 的 1 年期试用版。
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaf2a4aeeb5a3320d30ed261307aa074defecb84
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554219"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836592"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================

@@ -11,16 +11,18 @@ ms.reviewer: lolaj
 description: 通过推出你的第一个团队和频道来开始使用 Microsoft Teams，以便能够在组织中广泛部署之前建立你的 Teams 体验。
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62e7b361f47c802e626821a2d3c97bc20e7c933f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cd2c2918b2b65e33f1fa4afc7bfb61a28abb08e6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569571"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837032"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 

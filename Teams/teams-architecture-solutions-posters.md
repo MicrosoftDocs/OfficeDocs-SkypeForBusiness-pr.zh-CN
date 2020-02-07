@@ -13,13 +13,15 @@ appliesto:
 - Microsoft Teams
 search.appverid:
 - MET150
+f1.keywords:
+- NOCSH
 description: '总结：了解 Microsoft 365 中生产力服务的逻辑体系结构，以 Microsoft Teams 为主导。 此外，了解用于 Teams 的电话解决方案。 '
-ms.openlocfilehash: 88fcb0e06fe642541421f0ba03c65b50bf9938ba
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3b55f24d720174d2b50dddea64b0adea5fd07596
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570277"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837382"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Microsoft Teams IT 体系结构和电话解决方案海报
 

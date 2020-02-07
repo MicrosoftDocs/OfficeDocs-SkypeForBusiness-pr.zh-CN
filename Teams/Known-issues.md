@@ -13,15 +13,17 @@ ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1f18bd8fa85ce07596fe36106ea97ef36e698a78
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628528"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845143"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -42,6 +44,10 @@ ms.locfileid: "41628528"
 |以管理员身份对租户范围的连接器进行管理的功能不再可用。  <br/> |尝试在客户端和联机版本中添加连接器时，显示错误：发生意外错误。请重试。Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |通过 Teams 设置禁用。请参阅此支持文章： https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017 年 6 月 21 日  <br/> |
 
 ## <a name="apps"></a>应用
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
+|Chrome 版本 80 用户无法登录 Teams 平台上的某些应用。<br/>|用户向应用的登录页面中正确输入密码凭据后，将启动一个持续循环，在此循环中用户不会被应用识别并重定向回应用的登录页面。 <br/>|指导用户使用 Teams 桌面客户端。 |2019 年 11 月 15 日<br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -318,7 +324,7 @@ ms.locfileid: "41628528"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Teams Planner 与 Planner online 集成 <br/> |所有者无法从现有 office 365 组创建的团队中创建计划。  <br/> |向组所有者授予成员权限。 <br/> |2020 年 1 月 14 日  <br/>|
+|Teams Planner 与 Planner online 集成 <br/> |所有者无法为从现有 Office 365 组创建的团队创建计划。  <br/> |向组所有者授予成员权限。 <br/> |2020 年 1 月 14 日  <br/>|
 
 
 
