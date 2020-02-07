@@ -11,6 +11,8 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: jastark
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.assignments.overview
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
@@ -19,12 +21,12 @@ description: 了解如何在 "团队教育版" 的 "Microsoft 团队管理中心
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8d62d32aae46714c592200432cf1220e56e9fb7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1fb811540fc4e79c65d93eefb993fa7523a39aff
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693797"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827820"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
 

@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: 了解在使用 "新的本地号码" 外接程序时，为什么需要添加可对帐户进行更改的授权人员。
-ms.openlocfilehash: a687bc1aca8a47b349415d4a0cc2dc9f61f81884
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2e6911179b3a973b0d966867ca5186fc0e21ae8a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708798"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832652"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>更多关于呼叫线路 ID 和主叫方名称的信息
 

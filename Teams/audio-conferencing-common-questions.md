@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 下面列出了我们的客户希望使用音频会议的一些主要问题。
-ms.openlocfilehash: 2dd772a9a6488b09092ac0687ca125409accf85b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bc8ec039cff2be47f0912f2e52bbdb56ce694a4e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695717"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826300"
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议常见问题
 

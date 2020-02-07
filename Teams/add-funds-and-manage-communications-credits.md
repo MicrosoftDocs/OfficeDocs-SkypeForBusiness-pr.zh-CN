@@ -17,6 +17,8 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
 - O365M_SFBVoiceCredit
@@ -25,15 +27,14 @@ f1.keywords:
 - O365E_SFBVoiceCreditAether
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
-ms.custom:
 - Licensing
 description: '了解如何为 Skype for business 服务支付通信信用点数（PSTN 使用），并查看计划，让你的用户拥有连续的电话系统访问权限。 '
-ms.openlocfilehash: 76b1281c69968164091daebff035a4c2b9bc75e1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695819"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827210"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 

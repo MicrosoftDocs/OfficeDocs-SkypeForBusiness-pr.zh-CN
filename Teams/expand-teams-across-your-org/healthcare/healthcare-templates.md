@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适用于医疗保健组织的 Teams 模板入门
-ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
-ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
+ms.openlocfilehash: d2e22b47fbb0e6387a183fc12da70f7729af9172
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38702313"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827760"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 模板入门
 
@@ -36,7 +38,7 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 |基本模板类型 |baseTemplateId |基线模板通道|
 |:--- |:---|:---|
-|医疗保健-拖动 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 宣告\* <br> Huddles\* <br> 轮\* <br> 调配\* <br> 培训班\* |
+|医疗保健-拖动 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 宣告\* <br> Huddles\* <br> 轮\* <br> 调配\* <br> 培训\* |
 |     | |         |
 
 \*自动收藏

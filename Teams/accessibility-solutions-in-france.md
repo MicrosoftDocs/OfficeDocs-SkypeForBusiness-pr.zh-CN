@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessibles à tous est au cœur de-qui consiste à permettre à chaque personne à chaque planète d'accomplir davantage。 Microsoft offre 取消 fonctionnalités d'accessibilité浇筑 Skype Entreprise Microsoft 团队 qui s'inscrivent dans 韦恩 faveur。
-ms.openlocfilehash: 2f2218c9439a0fa0e6ea20889ee905d2fbadef77
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9d7e7ff471bdd2c88ff1527f224f43e6f7e30b16
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695877"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825630"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>适用于法国的 Skype for business Online 和 Microsoft 团队的辅助功能解决方案
 

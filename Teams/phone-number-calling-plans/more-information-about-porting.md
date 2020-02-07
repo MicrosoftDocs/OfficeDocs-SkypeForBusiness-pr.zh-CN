@@ -15,14 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 获得将电话号码移植到 Microsoft 团队所需的指南。
-ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 2c84b8bcba4b41488db64cbda42c9162daaf268d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925193"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827960"
 ---
 # <a name="more-information-about-porting"></a>有关移植的详细信息
 
@@ -110,7 +112,7 @@ ms.locfileid: "37925193"
 
 ## <a name="related-topics"></a>相关主题
 
-- [什么是端口订单？](port-order-overview.md)
+- [什么是转网订单？](port-order-overview.md)
 - [用于通话套餐的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理你的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)

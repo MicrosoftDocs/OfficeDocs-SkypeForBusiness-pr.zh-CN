@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 选择部署模型，开发有责任的、有责任的（RACI）矩阵，创建执行和管理计划。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ef741290a4d669084ad55335d0a08ec1c9ffd5c
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515989"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825130"
 ---
 # <a name="document-my-success-plan"></a>记录成功计划
 

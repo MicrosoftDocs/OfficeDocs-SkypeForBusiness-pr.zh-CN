@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 团队患者应用 EHR 集成
-ms.openlocfilehash: d3869d8646a417ec681a48321610b7cfffd50e5a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8d5723f90fe56c2af342f1cfd76e3ab9bde04c60
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569286"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827650"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>将电子医疗记录集成到 Microsoft Teams 中
 
@@ -61,13 +63,13 @@ ms.locfileid: "37569286"
 
 ### <a name="authentication"></a>身份验证  
 
-*使用不支持用户级授权*的应用级授权是更常用的方法来执行数据转换并通过 FHIR 公开连接来 EHR 数据，即使 EHR 系统可能会实现用户级授权. 互操作服务（合作伙伴）获取对 EHR 数据的提升访问权限，并且当它们公开与相应的 FHIR 资源相同的数据时，不会将授权上下文传递到与互操作集成的互操作服务使用者（患者应用）服务或平台。 患者应用将不能强制实施用户级授权，但支持应用程序进行患者应用和互操作合作伙伴的服务之间的应用程序身份验证。
+*使用不支持用户级授权*的应用级授权是更常用的方法来执行数据转换并通过 FHIR 公开连接来 EHR 数据，即使 EHR 系统可能会实现用户级授权。 互操作服务（合作伙伴）获取对 EHR 数据的提升访问权限，并且当它们公开与相应的 FHIR 资源相同的数据时，不会将授权上下文传递到与互操作集成的互操作服务使用者（患者应用）服务或平台。 患者应用将不能强制实施用户级授权，但支持应用程序进行患者应用和互操作合作伙伴的服务之间的应用程序身份验证。
 
 应用程序身份验证模型如下所述：
 
 应通过 OAuth 2.0[客户端凭据流](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)执行服务身份验证。 合作伙伴服务需要提供以下内容：
 
-1. 合作伙伴服务使患者应用可以创建合作伙伴的帐户，从而使患者应用能够生成并拥有自己的 client_id 和 client_secret，通过合作伙伴身份验证服务器上的身份验证注册门户进行管理。
+1. 合作伙伴服务使患者应用可以创建合作伙伴的帐户，从而使患者应用能够生成并拥有 client_id 和 client_secret，通过合作伙伴身份验证服务器上的身份验证注册门户进行管理。
 2. 合作伙伴服务拥有身份验证/授权系统，该系统接受和验证（身份验证）提供的客户端凭据，并在范围内向后提供租户提示的访问令牌，如下所述。
 3. 出于安全原因或在机密遭到破坏的情况下，患者应用可以重新生成机密并使旧机密无效（在 Azure 门户中提供相同的示例-AAD 应用注册）
 4. 托管一致性语句的元数据终结点应取消身份验证，它应该在没有身份验证令牌的情况下可以访问。
@@ -77,7 +79,7 @@ ms.locfileid: "37569286"
     {"resourceType"： "CapabilityStatement"，。
         .
         .
-        "剩余"： [{"模式"： "服务器"，"安全"： {"extension"： [{"扩展"： [{"url"： "令牌"，"valueUrihttps://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"： ""}，{"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorizeurl"： "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris" "}]，" 服务 "： [{' 编码"： [{"系统"： "http://hl7.org/fhir/ValueSet/restful-security-service"，"代码"： "OAuth"} ] } ] }, .
+        "剩余"： [{"模式"： "服务器"，"安全性"： {"extension"： [{"extension"： [{"扩展名"： [{"" url "：" 标记https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"，" valueUri "：" "}，{" url "：" 授权https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"，" valueUri "：" "}http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris]，" url "：" "}]，" 服务 "： [{" 系统 "：http://hl7.org/fhir/ValueSet/restful-security-service" ""，"代码"： "OAuth"}]}]}。
                 .
                 .
             } ] }
@@ -164,6 +166,6 @@ ms.locfileid: "37569286"
 
     ![患者应用服务器设置的屏幕截图](../../media/patients-server.png)
 
-5. 开始使用应用从 FHIR 服务器/EHR 搜索病人，并将其添加到列表中，如果不起作用，请[向我们提供反馈](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)。 此外，若要建立患者应用的经过完全验证的版本，> FHIR 服务器流，请通过之前提及的电子邮件请求来与 Microsoft 团队协作处理医疗保健产品工程，并将根据上述 FHIR 界面文档中所述的身份验证要求，帮助为你启用此项。  
+5. 开始使用应用从 FHIR 服务器/EHR 搜索病人，并将其添加到列表中，如果不起作用，请[向我们提供反馈](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)。 此外，若要建立患者应用 > FHIR 服务器流的经完全验证的版本，请使用 Microsoft 团队 for 医疗保健产品工程（如前面所述的电子邮件请求来明确要求），与 Microsoft 团队保持脱机对话，我们将根据上述 FHIR 界面文档中所述的身份验证要求为你提供帮助。  
 
 

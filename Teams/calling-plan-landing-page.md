@@ -9,17 +9,19 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-voice
+f1.keywords:
+- NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
 description: 通话计划登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d27169d5f65fb693ce49453f7e7c965f867198ad
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: c62ce8a891244920257623aea9a62859161a129f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925583"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825190"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>哪种通话套餐适合你？ 
 

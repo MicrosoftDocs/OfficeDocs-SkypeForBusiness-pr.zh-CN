@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 下载网站支持行动手册以规划团队推出并加速和优化用户的采纳、质量和满意度的理解。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 760beb6b5f786367c76ce9ac2b66d808fa10c6de
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515997"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825170"
 ---
 # <a name="deploy-my-service"></a>部署服务
 
@@ -42,7 +44,7 @@ ms.locfileid: "37515997"
 -   减少支持需求并提高用户满意度。
 
 > [!NOTE]
-> 本文和关联的操作手册不用于描述服务启用所需的每个技术配置步骤或向特定网站提供拨号音。 而是将重点放在最适合于板载用户的活动和任务，并让他们通过快速平稳过渡来开始使用团队语音工作负载，同时将支持需求降至最低。 有关如何最佳配置团队语音环境的技术指导，请参阅用于[配置团队语音工作负载](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)的加入清单、[配置团队中的直接路由](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[团队核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[网络对于团队](onboarding-checklist-configure-networking.md)和[启用 Office 365](onboarding-checklist-enable-office-365.md)。
+> 本文和关联的操作手册不用于描述服务启用所需的每个技术配置步骤或向特定网站提供拨号音。 而是将重点放在最适合于板载用户的活动和任务，并让他们通过快速平稳过渡来开始使用团队语音工作负载，同时将支持需求降至最低。 有关如何为团队语音配置你的环境的技术指导，请参阅用于[配置团队语音工作负荷](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)、[配置团队中的直接路由](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[团队核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[团队网络](onboarding-checklist-configure-networking.md)以及[启用 Office 365](onboarding-checklist-enable-office-365.md)的加入清单。
 
 <!--ENDOFSECTION-->
 
@@ -65,7 +67,7 @@ ms.locfileid: "37515997"
 
 [适用于语音（行动手册）的网站支持行动手册](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)是 Microsoft Excel 工作簿。 这五个焦点区域中的每一个都是工作簿中的单独工作表，每个部署任务和活动都分组到其中一个工作表中。
 
-![网站支持行动手册的屏幕截图](media/deploy-my-service-image1.png "屏幕截图")
+![网站支持行动手册的屏幕截图](media/deploy-my-service-image1.png "行动手册的屏幕截图")
 
 > [!NOTE]
 > 你将为团队推出的范围内的每个网站创建一个单独的 "行动手册" 实例。
@@ -84,7 +86,7 @@ ms.locfileid: "37515997"
 
 4. 输入**网站名称、网站代码**和**计划启动日期**，如下所示。 这是一个关键步骤，因为它可调整行动手册中每个活动的建议截止时间。
 
-   ![包含 "网站名称"、"网站代码" 和 "计划启动日期]" 示例的示例(media/deploy-my-service-image2.png "，其中包含 \"纽约\"、\"站点代码 NY01\" 和 \"计划开始日期\" 为 20-3 月 18")日
+   ![包含网站名称、网站代码和计划启动日期的示例](media/deploy-my-service-image2.png "示例，包含纽约的网站名、网站代码 NY01 和计划开始日期 20-3 月18日")
 
 5. 检查每个活动，执行必要的操作，并在遍历日程表时更新状态。 状态以图形形式表示，如下所述：
   
@@ -94,7 +96,7 @@ ms.locfileid: "37515997"
 
 6. 状态将在每个分区内进行汇总，分区标题将设置为这些状态标记之一。 **每周状态**也会自动更新。
 
-(media/deploy-my-service-image6.png "行动手册的 \"每周状态\" 滚动")的!["行动手册" 屏幕截图中每周状态汇总的屏幕截图]
+![行动手册中的 "每周状态" 滚动屏幕截图](media/deploy-my-service-image6.png "行动手册中的 "每周状态" 滚动屏幕截图")
 
 > [!TIP]
 > 对您拥有的所有位置重复上述步骤。

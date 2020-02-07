@@ -9,16 +9,18 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: 确定关键利益干系人和项目负责人的管理组，以确定部署目标、跟踪进度和删除阻止程序。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 482779904ba49e945f6b071b3be17fe0a6f290dd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a4ab037b416ab7a197f15729c73d8c1b9e107e50
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564559"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832792"
 ---
 # <a name="steering-committee"></a>指导委员会
 

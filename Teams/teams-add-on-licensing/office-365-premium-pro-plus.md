@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解加载项许可证、功能以及如何购买 Office 365 专业增强版。
-ms.openlocfilehash: 99fbbe549a41ed139dbf044e93f065bf1412b023
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 06281461de1a36e1eced52e03e4ae5019e742129
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572450"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826490"
 ---
 # <a name="office-365-proplus"></a>Office 365 专业增强版
 

@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 使用角色和网络分析来评估组织的准备情况，打开正确的 TCP 和 UDP 端口，然后执行任何网络修正。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3efb5a58c36a38757b2f6046ca8c8c42ab80f6ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925073"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825070"
 ---
 # <a name="evaluate-my-environment"></a>评估环境
 
@@ -170,7 +172,7 @@ Microsoft 团队连接到 Microsoft Online 服务，并且需要 internet 连接
 打开命令提示符窗口，然后导航到 "网络评估" 工具目录，方法是输入**Cd\\C\\： Program Files Microsoft Skype for business 网络评估工具**。 在命令提示符处，通过输入**networkassessmenttool/connectivitycheck**开始测试已打开的端口
 
 运行检查后，该工具将显示消息 "验证已成功完成" 或报告已阻止的端口。
-它还会生成一个名为 Connectivity_results 的文件，其中包含该工具的输出，并将其存储在% userprofile\\%\\appdata\\本地 microsoft skype for business 网络评估\\工具目录中。
+它还会生成一个名为 Connectivity_results .txt 的文件，其中包含该工具的输出，并将其存储在%\\userprofile\\%\\appdata 本地 microsoft skype for business 网络\\评估工具目录中。
 
 我们建议你定期运行连接检查，以确保端口已打开并正常运行。
 

@@ -9,18 +9,20 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: 本文档介绍了在团队和 Skype for business （基于已分配的 TeamsUpgrade 模式）的情况下，在团队和 Skype for business 的用户之间进行呼叫的传送和状态。 它包括路由优化、状态行为以及从*旧版*到*孤岛*的默认 TeamsUpgrade 模式以及即将停用*旧版*的更改。
-ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515858"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824930"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 

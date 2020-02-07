@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 了解如何在组织中的一线工作人员的团队中设置和管理倒班应用。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992539"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831164"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
@@ -77,11 +79,11 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 2. 在 "**分配的策略**" 旁边，选择 "**编辑**"。
 3. 在 "**团队应用设置策略**" 下，选择 " **FirstlineWorker**"，然后选择 "**保存**"。
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>将 FirstlineWorker 应用设置策略分配给组中的用户
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>将 FirstlineWorker 应用设置策略分配给组的用户成员
 
-你可以通过连接到 Azure Active Directory PowerShell for Graph 模块和 Skype for Business PowerShell 模块，将 FirstlineWorker 应用设置策略分配给组中的用户（如安全组）。 有关使用 PowerShell 管理团队的详细信息，请参阅[团队 PowerShell 概述](../../teams-powershell-overview.md)。
+你可以通过连接到 Azure Active Directory PowerShell for Graph 模块和 Skype for Business PowerShell 模块，将 FirstlineWorker 应用设置策略分配给组的用户成员（如安全组）。 有关使用 PowerShell 管理团队的详细信息，请参阅[团队 PowerShell 概述](../../teams-powershell-overview.md)。
 
-在此示例中，我们将 FirstlineWorker 应用设置策略分配给 Contoso 一线团队组中的所有用户。
+在此示例中，我们将 FirstlineWorker 应用设置策略分配给 Contoso 一线团队组的所有用户成员。
 
 > [!NOTE]
 > 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
@@ -94,9 +96,9 @@ $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-将组中的所有用户分配到 FirstlineWorker 应用设置策略。
+将 FirstlineWorker 应用设置策略分配给该组的所有用户成员。
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
 

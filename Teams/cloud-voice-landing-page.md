@@ -12,17 +12,19 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: 用于在团队中部署云语音的登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1c172de4e29b5246e17bd6cd280679b7f3ef8a2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c8498d8d4f6336bf54f6ae7f9c96540783b54dd1
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695477"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825050"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams
 
@@ -57,7 +59,7 @@ ms.locfileid: "41695477"
 电话系统是 Microsoft 在 Office 365 云中启用呼叫控制和专用分支交换（PBX）功能的技术。 电话系统允许你将现有的专用分支 Exchange （PBX）系统替换为直接从 Office 365 提供的一组功能，并紧密集成到公司的云生产效率体验中。
 
 
-|询问你自己|Action |
+|询问你自己|操作 |
 |:------------|:-------|
 |哪些用户位置或办公室将实施电话系统？ |有关电话系统的详细信息，请参阅[Office 365 中的 "什么是电话系统](what-is-phone-system-in-office-365.md)"。</li></ul>|
 |||
@@ -67,7 +69,7 @@ ms.locfileid: "41695477"
 若要将电话系统连接到公共交换电话网络（PSTN），以便用户可以拨打世界各地的电话，您可以选择基于业务需求。  询问自己以下事项：
 
 
-|询问你自己|Action |
+|询问你自己|操作 |
 | :------------|:-------|
 | 我是否希望使用 Microsoft 通话计划作为我的电话运营商？ | 有关详细信息，请参阅[带有通话计划的电话系统](calling-plan-landing-page.md)。|
 | 我是否需要使用自己的电话运营商？ | 有关详细信息，请参阅[带有直接路由的电话系统](direct-routing-landing-page.md)。
@@ -89,7 +91,7 @@ ms.locfileid: "41695477"
 
 云语音邮件（由 Azure 语音邮件服务提供支持）仅支持 Exchange 邮箱的语音邮件存款，不支持第三方电子邮件系统。 云语音邮件包括语音邮件脚本，默认情况下为组织中的所有用户启用。 您的业务需求可能要求您为整个组织中的特定用户或所有人禁用语音邮件脚本。
 
-|询问你自己|Action |
+|询问你自己|操作 |
 |:------------|:-------|
 | 是否要启用云语音邮件？ | 有关语音邮件设置过程，请参阅[设置云语音邮件](set-up-phone-system-voicemail.md)。
 | 我是否希望为部分或全部用户启用语音邮件功能？ | 要关闭语音邮件脚本，请参阅在[组织中设置语音邮件策略](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)。</li></ul>|
@@ -99,7 +101,7 @@ ms.locfileid: "41695477"
 
 默认情况下，所有出站呼叫均使用分配的电话号码作为呼叫标识（呼叫者 ID）。 呼叫接收人可以快速识别呼叫方，并决定是接收还是拒绝呼叫。
 
-|询问你自己|Action |
+|询问你自己|操作 |
 |:------------|:-------|
 |我是否希望屏蔽或禁用来电显示？ | 若要更改或阻止呼叫方 ID，请参阅[为用户设置来电显示](set-the-caller-id-for-a-user.md)。 |
 |||
@@ -108,7 +110,7 @@ ms.locfileid: "41695477"
 
 Microsoft 有两种类型的电话*号码：可*分配给您组织中的用户的电话号码，以及*服务*号码，可用作收费电话和免费服务号码，这些号码具有比用户号码更高的并发通话能力，并且可以分配给诸如音频会议、自动助理或呼叫队列等服务。
 
-|询问你自己|Action |
+|询问你自己|操作 |
 | :------------|:-------|
 | 哪些用户位置需要来自 Microsoft 的新电话号码？ | 有关获取电话号码的信息，请参阅[管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)和[获取用户的电话号码](getting-phone-numbers-for-your-users.md)。 
 | 我需要哪种类型的电话号码（订阅者或服务）？ | 为帮助您选择所需的电话号码类型，请参阅[用于通话计划的不同类型的电话号码](different-kinds-of-phone-numbers-used-for-calling-plans.md)。
@@ -132,7 +134,7 @@ Office 365 的电话系统功能中的拨号计划是一组规范化规则，可
 云呼叫队列包括当某人拨打您的组织的电话号码时使用的问候语、自动保持通话的功能，以及搜索下一个可用的呼叫代理以处理呼叫，而通话的人员在保持状态时收听音乐。 您可以为您的组织创建单个或多个通话队列。 
 
 
-|询问你自己|Action |
+|询问你自己|操作 |
 |:------------|:-------|
 | 我的组织是否需要呼叫队列？ | 有关详细信息，请参阅[创建云呼叫队列](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)和[设置电话系统](setting-up-your-phone-system.md)。 |
 
@@ -140,7 +142,7 @@ Office 365 的电话系统功能中的拨号计划是一组规范化规则，可
 
 云自动助理可用于为你的组织创建菜单系统，该系统允许外部和内部调用方在菜单系统中移动到你的组织中的公司用户或部门查找和放置或转移呼叫。
 
-|询问你自己|Action |
+|询问你自己|操作 |
 |:------------|:-------|
 | 我的组织是否需要自动助理？ | 有关详细信息，请参阅[什么是云自动](what-are-phone-system-auto-attendants.md)助理以及如何[设置云自动助理](create-a-phone-system-auto-attendant.md)。 |
 

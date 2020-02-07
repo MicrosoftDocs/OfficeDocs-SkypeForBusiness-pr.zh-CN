@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 获取有关如何计划将 StaffHub 团队移动到 Microsoft 团队倒班的指南。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78b31bb0c17db9ef379b54c02433569ba4d46aff
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b5a6079924803f7dbdde0c49bb5bd5d1f1aa2c4b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569670"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825700"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>计划将 StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -36,7 +38,7 @@ ms.locfileid: "37569670"
 |步骤 |指引  |源 |
 |---------|---------|---------|
 |1    |准备和识别利益干系人         |         |
-|ppls-2     |查看有关从 StaffHub 切换到团队和团队成员的文档         |[StaffHub 已停用](microsoft-staffhub-to-be-retired.md)<br><br>[将 StaffHub 团队移动到团队中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[团队入门](../../get-started-with-teams-quick-start.md)         |
+|ppls-2     |查看有关从 StaffHub 切换到团队和团队成员的文档         |[StaffHub 已停用](microsoft-staffhub-to-be-retired.md)<br><br>[将 StaffHub 团队移动到团队中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[开始使用 Teams](../../get-started-with-teams-quick-start.md)         |
 |3    |为你的组织启用 Office 365 组        |[Office 365 组和团队](../../Office-365-groups.md)      |
 |4    |请确保满足先决条件         |[检查是否满足先决条件](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |将团队许可证分配给组织中的 StaffHub 用户|[分配 Teams 许可证](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[管理对 Teams 的用户访问](../../user-access.md)      |

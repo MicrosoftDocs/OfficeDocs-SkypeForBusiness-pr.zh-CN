@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: 了解来宾用户可用的 Microsoft Teams 功能。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b923a92c9fb8a7475d9424861a7204da7f19780
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753427"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833232"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -91,7 +93,7 @@ ms.locfileid: "37753427"
 > [!NOTE]
 > 由 Office 365 管理员控制可供来宾使用的功能。 
 
-## <a name="frequently-asked-questions"></a>常见问题
+## <a name="frequently-asked-questions"></a>常见问题解答
 
 ### <a name="how-do-i-leave-an-organization-that-ive-been-invited-to"></a>如何离开已被邀请的组织？
 如果您已被邀请到您不希望作为其来宾的组织，您可以选择离开该组织。 有关详细信息，请转到[将组织作为来宾用户退出](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)。 或者，您可以要求组织的管理员将您从其租户中删除。 请注意，在这两种情况下，如果你想要在将来访问组织，则需要重新邀请租户。

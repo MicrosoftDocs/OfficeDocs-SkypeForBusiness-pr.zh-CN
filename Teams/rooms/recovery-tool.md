@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 本文介绍了如何使用 Microsoft 团队聊天室的恢复工具，使用该工具可以将过时系统置于受支持状态。
-ms.openlocfilehash: 3a62256a5e39d93033588ca2be779e9c3b76a4f5
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268785"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831174"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 会议室恢复工具
 
@@ -27,7 +29,7 @@ ms.locfileid: "41268785"
 下载最新的[Microsoft 团队聊天室安装包](https://go.microsoft.com/fwlink/?linkid=851168)，并将其解压缩到 Microsoft 团队聊天室设备可访问的 USB 记忆棒或网络共享。
 
 > [!NOTE]
-> 从 MSI 中提取文件可以通过多种方式完成。 提取所有文件并保留其目录结构的任何机制都是可接受的。 其中一种方法是使用该命令`msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` ， `PathToMsi`其中表示 Microsoft 团队聊天室安装包的完整路径，并`PathToTarget`表示你希望将文件提取到的文件夹的完整路径。
+> 从 MSI 中提取文件可以通过多种方式完成。 提取所有文件并保留其目录结构的任何机制都是可接受的。 其中一种方法是使用该命令`msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` ， `PathToMsi`其中表示 Microsoft 团队聊天室安装包的完整路径，并`PathToTarget`表示你希望将文件提取到的文件夹的完整路径。
 
 ## <a name="running-the-tool"></a>运行工具
 

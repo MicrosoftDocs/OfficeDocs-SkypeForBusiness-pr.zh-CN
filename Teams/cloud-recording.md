@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 在 Microsoft Teams 中部署云语音功能实践指导
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c2a3cac9c61851f9b4c7a6026d94058568b1667
-ms.sourcegitcommit: f1df996a7368fb8f447af877bc2e9f4d4d925f2c
+ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41217695"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825600"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 

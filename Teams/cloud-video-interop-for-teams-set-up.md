@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: 本文介绍如何为组织中的用户规划和设置云视频互操作。
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 1e937e7825000d02156c1f5ede2671711006cbdd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516657"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825100"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft Teams 的云视频互操作性
 
@@ -100,10 +102,10 @@ ms.locfileid: "37516657"
 你可以通过以下方式与你的 VTC 设备加入团队会议：
  
 - IVR （交互式语音响应）
-    - 您可以使用 tenantkey @ 域拨入合作伙伴的 IVR。 
+    - 您可以使用 tenantkey@domain 拨入合作伙伴的 IVR。 
     - 在合作伙伴 IVR 中，系统将提示你输入 VTC conferenceId，然后该将把你连接到团队会议。
 - 直接拨号
-    - 通过使用直接拨号功能 tenantkey 的完整字符串，您可以直接拨入团队会议，而无需使用直接拨号功能与合作伙伴的 IVR 进行交互。VTC ConferenceId @ domain。
+    - 通过使用直接拨号功能 tenantkey 的完整字符串，您可以直接拨入团队会议，而无需使用直接拨号功能与合作伙伴的 IVR 进行交互。VTC ConferenceId@domain。
 - 单点触控拨号
     - 如果您有一个集成的团队聊天室，则可以使用合作伙伴提供的一种触摸式拨号功能（无需键入任何拨号字符串）。
 

@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解团队消息中的优先级通知。
-ms.openlocfilehash: 4e39af4c400fef5b44e0994d95821ea9005edbba
-ms.sourcegitcommit: 1329ddd54d2a22c493677581c838eb6b3456bacc
+ms.openlocfilehash: fd3808997400e84febac66e5f8e22c91009c527d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "40947072"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826500"
 ---
 # <a name="messaging-policies-licensing"></a>消息策略许可
 

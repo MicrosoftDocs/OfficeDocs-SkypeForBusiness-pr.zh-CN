@@ -13,15 +13,17 @@ description: 测量音频会议的结果，包含呼叫计划的电话系统，�
 ms.collection:
 - M365-voice
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517071"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825420"
 ---
 # <a name="define-my-success"></a>定义成功
 
@@ -29,7 +31,7 @@ ms.locfileid: "37517071"
 
 <!--ENDOFSECTION-->
 
-**音频会议**通过使用传统的座机（私密）通过拨打电话，允许会议参与者通过公共交换电话网络（PSTN）加入到任何会议（临时或计划）的其他入口点，从而为组织提供其他入口点分支交换（PBX）或移动电话。 当组织者或参与者不在计算机前面，或者当数据连接不可用或太不可靠以支持语音通信时（例如，在具有 spotty 移动数据覆盖率的远程区域中，或者连接到免费的公共 Wi-fi）时，此功能非常有用。带宽有限的服务，或者当会议参与者希望使用随时易于访问的电话终结点拨入会议时。
+**音频会议**通过使用传统的座机、专用分支交换（PBX）或移动电话，允许会议参与者通过公共交换式电话网络（PSTN）加入，从而为组织提供对任何会议（临时或计划）的其他入口点。 当组织者或参与者不在计算机前面，或者当数据连接不可用或太不可靠以支持语音通信时（例如，在具有 spotty 移动数据覆盖率的远程区域中，或者连接到免费的公共 Wi-fi）时，此功能非常有用。带宽有限的服务，或者当会议参与者希望使用随时易于访问的电话终结点拨入会议时。
 
 **带有呼叫计划的电话系统（"通话计划"）** 使组织可以通过使用户可以从其计算机和移动设备进行与业务相关的电话通话，从而使其工作场所更加现代化。 工作场所的现代化可以是任何数量的方案的一部分-基于活动的工作实现、主要的 office 移动、office 的一次性刷新、淘汰旧版 PBX 解决方案、PSTN 服务提供商合同的结论等。 通过呼叫计划，Microsoft 可帮助连接到 PSTN。
 

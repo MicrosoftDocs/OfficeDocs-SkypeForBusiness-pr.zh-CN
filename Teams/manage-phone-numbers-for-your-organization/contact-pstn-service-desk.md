@@ -16,18 +16,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.voice.pstnservicedesk
 - ms.teamsadmincenter.voice.contactPSTNsupport
-ROBOTS: NOINDEX, NOFOLLOW
-ms.custom:
 - Calling Plans
+ROBOTS: NOINDEX, NOFOLLOW
 description: 当您获得您的组织的电话号码或移植（转移）号码时，您可能需要在 PSTN 服务支持处获得帮助和支持。
-ms.openlocfilehash: 69e3d8dfc3d4568ca4801105459580b5f108e5a0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707237"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825708"
 ---
 # <a name="pstn-service-desk-help"></a>PSTN 服务支持帮助
 

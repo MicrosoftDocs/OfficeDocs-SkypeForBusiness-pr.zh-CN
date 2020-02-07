@@ -12,18 +12,20 @@ search.appverid: MET150
 description: 了解如何在 Microsoft 团队管理中心中批量管理 Microsoft 团队用户设置。
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fec2338e1a7e518e90b2a5fbed716a01782bbb8c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6177a463bee481812323b2334461f20e7021af84
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693287"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832642"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>批量编辑 Microsoft 团队用户设置
 

@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适用于医疗保健组织的 Teams 入门
-ms.openlocfilehash: e8c41249da52ce9a5e19471954de6d71db3df1b3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f246e0ab5abd412947ceeb871b16f464001b89bb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569228"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827620"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -38,7 +40,7 @@ Microsoft 团队提供了许多适用于医院和其他医疗保健组织的功�
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft 团队现在具有特定于医疗保健组织的护理协调解决方案，可帮助他们提供最佳的患者护理。 护理协调解决方案的 crux （Microsoft 团队患者应用）是第一方选项卡应用，它与使用快速医疗保健互操作性资源（FHIR）接口的电子医疗记录（[](https://www.hl7.org/fhir/)）接口集成，以带来宝贵的将医疗信息插入到 Microsoft 团队的上下文中，以实现临床协作和通信。  
+Microsoft 团队现在具有特定于医疗保健组织的护理协调解决方案，可帮助他们提供最佳的患者护理。 护理协调解决方案的 crux （Microsoft 团队患者应用）是第一方选项卡应用，它与使用快速医疗保健互操作性资源（[FHIR](https://www.hl7.org/fhir/)）接口的电子医疗记录（EHR）系统集成，以将宝贵的医疗信息引入 Microsoft 团队，以实现临床协作和通信。  
 
 "护理协调" 解决方案可以与主要独立软件供应商（Isv）进行交互，这些供应商（Isv）可以使用现有的运行状况数据标准（如 HL7v2 和 FHIR）将患者应用连接到 EHR 系统。 与以下行业领导人的 Microsoft 合作伙伴建立与团队的电子健康记录集成：
 

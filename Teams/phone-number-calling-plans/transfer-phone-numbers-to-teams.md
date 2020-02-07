@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,18 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 9794a1690fb0cbbe529816c9d8a5f855d393c6f2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925619"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827930"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>将电话号码转移到 Microsoft 团队
 
 使用 Microsoft 团队管理中心中的移植向导，将您的电话号码从当前服务提供商转移到团队。 将您的电话号码移植到团队后，Microsoft 将成为您的服务提供商，并向您收取这些电话号码。
 
-在开始之前，我们建议您查看 "[什么是端口订单](port-order-overview.md)" 中的信息？。 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码，或者您需要转移到团队的超过999用户（订阅者）电话号码，请参阅[管理您的电话号码组织](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)下载正确的表单并将其发送给我们。
+在开始之前，我们建议您查看 "[什么是端口订单](port-order-overview.md)" 中的信息？。 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码，或者拥有要转移到团队的超过999用户（订阅者）电话号码，请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以下载正确的表单并将其发送给我们。
 
   > [!NOTE]
   > 我们只在美国营业日（而不是在公共假日或周末）处理用于转移电话号码的港口订单。
@@ -89,7 +91,7 @@ ms.locfileid: "37925619"
 
 ## <a name="related-topics"></a>相关主题
 
-- [什么是端口订单？](port-order-overview.md)
+- [什么是转网订单？](port-order-overview.md)
 - [用于通话套餐的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理你的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [紧急呼叫条款和条件](../emergency-calling-terms-and-conditions.md)

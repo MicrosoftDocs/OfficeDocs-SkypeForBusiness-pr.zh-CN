@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: '客户已提供一项免费拨出功能，该功能将于2019年11月30日结束。  从2019年12月1日起，每个音频会议套餐将每月每个用户的60分钟数提供给本文档中所述的任何国家/地区。 '
-ms.openlocfilehash: 6309bc48d07c767aa9babb9139f6ad885689cb38
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5e10f50a5b11ce6c490a4bd4e195709425ca8e33
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695647"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826240"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>音频会议订阅 "拨出"/"呼叫我" 分钟数的好处
 

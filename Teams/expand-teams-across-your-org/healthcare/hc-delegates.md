@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: 用户可以在其状态消息中将另一用户显式设置为代理人。
-ms.openlocfilehash: 56c0e9bd5394e738170130bab15803e5cb4d741c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ec1f590cad4ada605b4a487d982b3a2459ecb5f2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570354"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827780"
 ---
 # <a name="message-delegation"></a>消息委派
 

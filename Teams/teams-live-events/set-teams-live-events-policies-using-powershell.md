@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 有关如何使用 PowerShell 设置团队中的策略以控制哪些人可以在你的组织中拥有实时事件以及他们创建的事件中可用的功能的示例
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d734cd4a92f3ebd32e2d0e6a24292ae50b456e7
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 46c3522cc428ec04d830d8bdb02bad56f5dfd437
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952875"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827110"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 

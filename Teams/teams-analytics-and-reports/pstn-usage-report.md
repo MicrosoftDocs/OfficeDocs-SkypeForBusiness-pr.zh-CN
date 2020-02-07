@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队 PSTN 使用情况" 报表大致了解组织中的通话和音频会议使用情况。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c91530af745a287198e99dbb83cd39257d978452
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 430ef53d5739a79644a57dbee1c0a30b0ab26852
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257431"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827280"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 团队 PSTN 使用报告
 

@@ -8,17 +8,19 @@ ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
 description: 使用此 PowerShell 脚本在团队中创建邮件策略，并将其分配给组织中的用户。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c8f58e4fbfa7629f9e5c59c41e0100263c29d4e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 06f2dee7e7dbc4e15d544433057a8bb12b75b7c4
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573444"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827410"
 ---
 <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 脚本示例 - 创建和分配消息传递策略
 -------------------------------------------------------------------------

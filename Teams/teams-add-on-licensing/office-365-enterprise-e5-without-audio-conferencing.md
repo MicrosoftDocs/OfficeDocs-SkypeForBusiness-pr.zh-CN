@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解加载项许可证、功能以及如何购买 Office 365 企业版（无音频会议）计划。 '
-ms.openlocfilehash: be29ff82691f8c9aa5c5a3074ae02e6f938f8bc6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 82043031ea27c3f197d6061b69c5d19bb369e4b0
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572461"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826480"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 企业版 E5 （不带音频会议）
 

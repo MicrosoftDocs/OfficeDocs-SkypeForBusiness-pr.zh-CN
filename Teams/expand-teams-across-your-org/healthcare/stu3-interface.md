@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 团队患者应用 EHR 集成
-ms.openlocfilehash: 836c28f339a3936f03315b005c0eedfc49e0f2ba
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569239"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827630"
 ---
 # <a name="stu3-interface-specification"></a>STU3 接口规范
 
@@ -71,7 +73,7 @@ ms.locfileid: "37569239"
 2. 名称。前缀
 3. [GeneralPractitioner]-GeneralPractitioner 参考应包括在患者资源中（仅显示字段）
 
-资源搜索在/Patient/_search 和以下参数中使用 POST 方法：
+资源搜索在/Patient/_search 使用 POST 方法，并使用以下参数：
 
 1. 标识号
 2. 系列 = （搜索其系列名称包含该值的所有患者）
@@ -92,16 +94,16 @@ ms.locfileid: "37569239"
 
 * * *
 
-    请求： POST <fhir-server>/Patient/_search 请求正文：给定 = ruth&系列 = 黑色
+    请求： POST <fhir-server>/Patient/_search 请求正文：给定 = ruth&家族 = 黑色
     
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"meta"： {"lastUpdated"： "2019-01-" type "：" searchset "，" total "：1，" link "： [{" relation "：" self "，" url "： <fhir-服务器>/Patient/_search"}]，"entry"： [{"fullUrl "： <fhir-server>/Patient/<患者 id>"，"资源"： {"resourceType"： "病人"，"id"： "<病人 id>"，"meta"： {"versionId"： "1"，"lastUpdated"： "2017-10-18T18：32： 37.000 + 00： 00"}，"文本"： {"status"，"div"： "<div>\n        <p>Ruth 黑</p>\n      </div>"}，" 标识符 "： [{" 使用 "：" 常规 "，" 键入 "： {" 编码 "： [{" system "："http://hl7.org/fhir/v2/0203"，" 代码 "：" MR "，" 显示 "：" 医学记录编号 "，" userSelected "： false}]，" 文本 "：" 医学记录号 "}，" 系统 "："http://hospital.smarthealthit.org""，"1234567"}]，"active"： true，"名称 "： [{" 使用 "：" 官方 "，" 族 "：" 黑色 "，" 给定 "： [" Ruth "，" C "。
-    ]}]，"电信"： [{"系统"： "电话"，"值"： "800-599-2739"，"使用"： "home"}，{"system"： "phone"，""： "：" 手机 "，" "。"： "ruth.black@example.com"}]，"性别 800-808-7785"： "女"，"出生日期"： "1951-08-23"，"地址 "： [{" 使用 "：" 主页 "，" 行 "： [" 26 RdApt： "Sapulpa"，"省/市/自治区"： "OK"，"邮政编码"： "74066"，"美国"： "美国"}]}，"搜索"： {"mode"}}]}
+    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"meta"： {"lastUpdated"： "2019-01-" type "：" searchset "，" total "：1，" link "： [{" relation "：" self "，" url "： <fhir-服务器>/Patient/_search"}]，"entry"： [{"fullUrl"： <fhir-server>/Patient/<患者 id> "，" 资源 "： {" resourceType "：" 患者 "，" id "：" <患者 id> "，" meta "： {" versionId "：" 1 "，" lastUpdated "：" 2017-18T18：32： 37.000 + 00： 00 "}，" text "： {" status "：" 已生成 "，" div "："<div>\n        <p>Ruth 黑</p>\n      </div>"}，" 标识符 "： [{" 使用 "：" 常规 "，" 键入 "： {" 编码 "： [{" 系统 "："http://hl7.org/fhir/v2/0203"，" 代码 "：" "MR"，"代码"： "MR"，"显示"： "userSelected"： false}]，"文本"： "医学记录编号"}，"systemhttp://hospital.smarthealthit.org"： "1234567"，"name"： [{"：" ""，"name"： [{"：" 官方 "，" 系列 "：" 黑色 "，" 第一个 "： [" Ruth "，" C "。
+    ]}]，"电信"： [{"系统"： "电话"，"值"： "800-599-2739"，"使用"： "手机"}，{"系统"： "800-808-7785"，"值"： "ruth.black@example.com"，"使用"： "mobile"}，{"系统"： "电子邮件"，"值"： ""}]，"性别"： "女"，"出生日期"： "1951-08-23"，"地址"： [{"使用"： "开始"，"行"： ["26 RdApt 22"]，"城市"： "Sapulpa"，"状态"： "确定"，"邮政编码"： "74066"，"国家/地区"： "美国"}]}，"search"： {"mode"： "match"}}]}
 
 * * *
 
     请求：获取 <fhir-服务器>/Patient/<患者 id>
     
-    回复： {"resourceType"： "患者"，"id"： "<患者 id>"，"标识符"： [{"使用"： "常用"，"键入"： {"编码"： [{"systemhttp://hl7.org/fhir/v2/0203"： "？"，"文本"，""，"文本"： "医学记录数字"}，"值"： "1234567"}]，"名称"： [{"，" 官方 "，"。family "：" Adams "，" 给定 "： [" Daniel "，" X "。 ]}]，"性别"： "男"，"出生日期"： "1925-12-23"，}
+    回复： {"resourceType"： "患者"，"id"： "<患者 id>"，"标识符"： [{"使用"： "常规"，"键入"： {"编码"： [{"系统"： "http://hl7.org/fhir/v2/0203"，"代码"： "MR"，}]，"文本"： "医学记录数字"}，"值"： "1234567"}]，"名称"： [{"：" "}]，" 名称 "： [{" "Adams"，"family"： "Daniel"，"X"。 ]}]，"性别"： "男"，"出生日期"： "1925-12-23"，}
 
 * * *
 
@@ -123,7 +125,7 @@ ms.locfileid: "37569239"
 资源搜索使用 GET 方法和以下参数：
 
 1. 患者 =\<患者 id>
-2. _sort =-date
+2. _sort =-日期
 3. 类别（我们将查询 "category = 重要标志"）以检索关键签名列表。
 
 请参阅此通话示例：
@@ -132,7 +134,7 @@ ms.locfileid: "37569239"
 
     请求：获取 <fhir-服务器>/Observation？患者 =<患者 id>&类别 = "重要签名"
     
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"类型"： "searchset"，"total"：20，"entry"： [{"resource"，"id"： ">"，"id"： "<资源 id"，"类别"： [{"编码"： [{"系统"： "http://hl7.org/fhir/observation-category"，"代码"： ""关键签名 "}]，}]，" 代码 "： {" 编码 "： [{" 系统 "："http://loinc.org"，" 代码 "：" 8867-4 "，" display "：" heart_rate "}]}，" effectiveDateTime "：" 2009 年08T00：00：00： 00 "，" valueQuantity "： {" 值 "：72.0，" unit "：" {节拍} ¢ "，" system "："http://unitsofmeasure.org"，}}}。
+    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"键入"： "searchset"，"total"：20，"entry"： [{"resource"： {""： "观察"，"id"： "<资源 id>"，"类别"： [{"编码"： [{"系统"：http://hl7.org/fhir/observation-category"" "，" 代码 "：" 重要签名 "}]，}]，" 代码 "： {" code "： [{" system "：http://loinc.org" ""，"code"： "8867-4"，"显示"： "heart_rate"}]}，"effectiveDateTime"： "2009 年08T00：00： 00-06： 00"，"valueQuantity"： {"value"：72.0，"unit"： "{节拍} ¢"，"system"： "http://unitsofmeasure.org"，"
         .
         .
       ] }
@@ -163,7 +165,7 @@ ms.locfileid: "37569239"
 
     请求：获取 <fhir-服务器>/Condition？患者 =<患者 id>&_count = 10
     
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"键入"： "searchset"，"total"：2，"entry"： [{"资源"： "Condition"，"id"： "<资源 id>"，"代码"： {"编码"： [{"系统"： "http://snomed.info/sct"，"代码"： "185903001"，"显示 "：" 需要 influenza 免疫接种 "，}]}，" 严重度 "： {" 编码 "： [{" system "http://snomed.info/sct：" 24484000 "，" 显示 "：" 严重 "}]}，" assertedDate "：" 2018-04-04 "}}。
+    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"类型"： "searchset"，"total"：2，"entry"： [{"resource"： {"resourceType"： "Condition"，"id"： "<资源 id>"，"代码"： {"编码"： [{"system"：http://snomed.info/sct""，"代码"： "185903001"，"display"： "需要 influenza 免疫接种"、}]}、"严重性"： {"编码"： [{"system"http://snomed.info/sct： ""，"代码"： "24484000"，"显示"： "严重"}]}，"assertedDate"： "2018-04-04"}}。
         .
         .
       ] }
@@ -219,7 +221,7 @@ ms.locfileid: "37569239"
 
     请求：获取 <fhir-服务器>/AllergyIntolerance？患者 =<患者 id>
     
-    响应： {"resourceType"： "捆绑包"，"id"> <： "searchset"： ""，"total"：1，"entry"： [{"资源"： {""： "AllergyIntolerance"，"id"： "<资源 id>"，"clinicalStatus"： "active"，"verificationStatus "：" 已确认 "，" 代码 "： {" 编码 "： [{" systemhttp://rxnav.nlm.nih.gov/REST/Ndfrt"：" N0000175503 "、" code "：" "、" display "：" sulfonamide antibacterial "，}]，" 文本 "：" sulfonamide antibacterial "}"，"assertedDate"： "2018 日-01： 00"，"反应"： [{"形式"： [{"代码"： [{"系统"： "http://snomed.info/sct"，"代码"： "271807003"，"display"： "皮肤 rash"，}]，"text"： "皮肤 rash"}]，}]}}
+    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"type"： "searchset"，"total"：1，"entry"： [{"资源"： {"resourceType"： "AllergyIntolerance"，"id"： "<资源 id>"，"clinicalStatus"： "active"，"verificationStatus"： "已确认"，"代码"： {"编码"： [{"系统"http://rxnav.nlm.nih.gov/REST/Ndfrt： "" "，" 代码 "：" N0000175503 "，" display "：" sulfonamide antibacterial "，}]，" text "：" sulfonamide antibacterial "}，" assertedDate "：" 2018 日-01-01T00：00： 00-07： [{"code"： [{"系统"： "271807003"，"： [{" 系统http://snomed.info/sct： "外观 rash"，}]，"text"： "外观 rash"}]，}]}
 
 * * *
 

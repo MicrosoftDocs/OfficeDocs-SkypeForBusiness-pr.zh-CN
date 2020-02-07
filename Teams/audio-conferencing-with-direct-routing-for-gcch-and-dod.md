@@ -15,14 +15,16 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 了解如何在 GCCH 和 DoD 环境中通过直接路由使用音频会议。
-ms.openlocfilehash: 6c1403fedbbb47231780916eb8c7acb8014539e9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8304d18777739b4667c0f47b9dee3e9f8f6dcc38
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992892"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825650"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>适用于 GCC High 和 DoD 且含直接路由的音频会议
 

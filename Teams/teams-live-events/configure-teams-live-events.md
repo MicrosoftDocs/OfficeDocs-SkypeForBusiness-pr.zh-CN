@@ -13,15 +13,18 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 了解如何管理组织中保留的团队实时事件的设置。
-f1.keywords: ms.teamsadmincenter.liveevents.settings
+f1.keywords:
+- CSH
+ms.custom:
+- ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f12432bb7932d7ab974f229344b5b5be51a1cb74
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1cdfd1bc832827dbcf48e82a49ed4d02c38116bb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708348"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827140"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 

@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 团队患者应用 EHR 集成
-ms.openlocfilehash: 179cd031b6e32ee3ed32a6d3be1fa4afaae68cc2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570365"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827800"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 接口规范
 
@@ -80,11 +82,11 @@ ms.locfileid: "37570365"
     回复： {"resourceType"： "患者"，"id"： "<患者 id>"，。
       .
       .
-      "名称"： [{"使用"： "官方"，"prefix"： ["Mr"]，"系列"： ["Chau"]，"给定"： ["Hugh"]}]，"标识符"： [{"官方"，"键入"： {"编码"： [{"system"http://hl7.org/fhir/v2/0203： "" 先生/女士 "}]}，" 值 "：" 1234567 "}]，" 性别 "：" 男 "，" 出生日期 "：" 1957-06-05"，" careProvider "： [{" 显示 "：" Jane Doe "}]，}
+      "名称"： [{"使用"： "官方"，"prefix"： ["Mr"]，"family"： ["Chau"]，"Hugh"： [""]}]，"标识符"： [{"使用"： "官方"，"类型"： {"编码"： [{"systemhttp://hl7.org/fhir/v2/0203"： "？"，"1234567"}]，"性别"： "男"，"出生日期"： "1957-06-05"，"careProvider"： [{"显示"： "Jane Doe"}]，}
 
 * * *
 
-资源搜索在/Patient/_search 和以下参数中使用 POST 方法：
+资源搜索在/Patient/_search 使用 POST 方法，并使用以下参数：
 
 1. 标识号
 2. 系列：包含 = （搜索其系列名称包含该值的所有患者。）
@@ -105,7 +107,7 @@ ms.locfileid: "37570365"
 
 * * *
 
-    请求： POST <fhir-server>/Patient/_search 请求正文：给定 = hugh&系列 = chau
+    请求： POST <fhir-server>/Patient/_search 请求正文：给定 = hugh&家族 = chau
     
     响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，。
       .
@@ -142,7 +144,7 @@ ms.locfileid: "37570365"
 
     请求：获取 <fhir-服务器>/Observation？患者 =<患者 id>&_sort:d esc = 日期&category = 重要标志
     
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"键入"： "searchset"，"total"：20，"entry"： [{"resource"： "<资源 id>"，"类别"： {"编码"： [{code "：" 重要签名 "}]，}，" 代码 "： {" 编码"： [{" 系统 "："http://loinc.org"，" 代码 "：" 39156-5 "，" display "：" bmi "}]，}，" effectiveDateTime "：" 2009-12-01 "，" valueQuantity "： {" value "：34.4，" unit "：" 公斤/m2 "，" 系统 "："http://unitsofmeasure.org"公斤/m2"，"系统"： ""
+    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"键入"： "searchset"，"total"：20，"entry"： [{"resource"： "<资源 id>"，"类别"： {"编码"： [{code "：" 关键签名 "}]，}，" code "： {" 编码 "： [{" system "："http://loinc.org"，" 代码 "：" 39156-5 "，" display "：" bmi "}]，}，" effectiveDateTime "：" 2009-12-01 "，" valueQuantity "： {" 值 "：34.4，" unit "：" 公斤/m2 "，" system "："http://unitsofmeasure.org"，" 代码 "：" 公斤/m2 "}}，}。
         .
         .
       ] }
@@ -173,7 +175,7 @@ ms.locfileid: "37570365"
 
     请求：获取 <fhir-服务器>/Condition？患者 =<患者 id>&_count = 10
     
-    回复： {"resourceType"： "捆绑包"，"id"： "<捆绑包 id>"，"type"： "searchset"、"total"：1，"entry"： [{"资源"： {"resourceType"： "Condition"，"id"： "<资源 id>"，"代码"： {"编码"： [{              "系统"： "http://snomed.info/sct"，"代码"： "386033004"，"display"： "Neuropathy （nerve 受损）"}]}，"dateRecorded"： "2018-09-17"，"严重性"： {"编码"： [{"system "："http://snomed.info/sct，"代码"： "24484000"，"display"： "严重"}]}}
+    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"type"： "searchset"，"total"：1，"entry"： [{"资源"： {"resourceType"： "条件"，"id"： "<资源 id>"，"代码"： {"code"： [{"http://snomed.info/sctNeuropathy （nerve 受损）"}]}，"dateRecorded"： "2018-09-17"，"严重性"： {"编码"： [{"syst 386033004em "："http://snomed.info/sct，"代码"： "24484000"，"display"： "严重"}]}}
 
 * * *
 
@@ -202,7 +204,7 @@ ms.locfileid: "37570365"
 
     请求：获取 <fhir-服务器>/Encounter？患者 =<患者 id>&_sort:d esc = 日期&_count = 1
     
-    响应： {"resourceType"： "捆绑包"，"类型"： "searchset"，"total"：1，"entry"： [{""： "遇到" "，" id "：" <资源 id> "，" 标识符 "： [{" 使用 "：" 官方 "，" 值 "："<id>"}]，" 状态 "： "到货"，"类型"： [{"编码"： [{"显示"： "约会"}]，} "，" 患者 "： {" 病人 "：" 病人/<患者-id> "}，" 周期 "： {" start "：" 09/17/2018 1:00:00 PM "}，" location "： [{             "位置"： {"display"： "诊所-ENT"}，}]}}]}
+    响应： {"resourceType"： "捆绑包"，"类型"： "searchset"，"total"：1，"entry"： [{"id"： "遇到了" "，" id "：" <资源 id> "，" 标识符 "： [{" 使用 "：" 官方 "，" 值 "："<id>"}]，" 状态 "：" 已到达 "，" 键入 "： [{" 编码 "： [{"： "会议"}]，}]，"患者"： {"参考"： "患者/<患者 id>"}，"周期"： {"start"： "09/17/2018 1:00:00 PM"}，"位置"： [{             "位置"： {"display"： "诊所-ENT"}，}]}}]}
 
 * * *
 
@@ -234,7 +236,7 @@ ms.locfileid: "37570365"
 
     请求：获取 <fhir-服务器>/AllergyIntolerance？患者 =<患者 id>
     
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"type"： "searchset"，"total"：1，"entry"： [{"resource"： {"resourceType"： "AllergyIntolerance"，"id"： "<资源 id>"，"recordedDate"： "2018 日-17T07：00：00.000Z "，" 物质 "： {" 文本 "：" Cashew 螺母 "}，" 状态 "：" 已确认 "，" 反应 "： [{" 物质 "： {" text "：" Cashew 螺母 allergenic 提取 Injectable 产品 "}，" manifestati在 "： [{" 文本 "：" Anaphylactic 反应 "}]}]}
+    响应： {"resourceType"： "捆绑包"，"id"> <： "searchset"： ""，"total"：1，"entry"： [{"资源"： {"resourceType"： "AllergyIntolerance"，"id"： "<的资源 id>"，"recordedDate"： "2018 日-09-17T07："，""，"Cashew"： "Cashew 螺母"}，"反应"： "allergenic"，"螺母"： {"text"： "Injectable 螺母 manifestati 提取产品"}，"在 "： [{" 文本 "：" Anaphylactic 反应 "}]}]}
 
 * * *
 
@@ -266,7 +268,7 @@ ms.locfileid: "37570365"
 
     请求：获取 <fhir-服务器>/MedicationOrder？患者 =<患者 id>&_count = 10
     
-    响应： {"resourceType"： "捆绑包"，"id"> <： "searchset"： ""，"total"：1，"entry"： [{"资源"： {"resourceType"： "MedicationOrder"，"id"： "<资源 id>"，"dateWritten"： "2018-09-17"，"medicationCodeableConcept "： {" 文本 "：" Lisinopril 20 MG 口头平板电脑 "}，" prescriber "： {" display "：" Jane Doe "}，" dosageInstruction "： [{" text "：" 1 天 "}]}}]}
+    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"type"： "searchset"，"total"：1，"entry"： [{"资源"： {"resourceType"： "MedicationOrder"，"id"： "<资源 id>"，"dateWritten"： "2018-09-17"，"medicationCodeableConcept"： {"text"： "Lisinopril 20 MG 平板电脑"}，"prescriber"： {"display"： "Jane Doe"}，"dosageInstruction"： [{"文本"： "1 天"}]}}]}
 
 * * *  
 
@@ -288,7 +290,7 @@ ms.locfileid: "37570365"
 
     请求：获取 <fhir-服务器>/Coverage？患者 =<患者 id>
     
-    响应： {"resourceType"： "捆绑包"，"type"：1，"entry"： [{"searchset"： "覆盖率"，"id"： "<资源 id>"，"计划"： "没有主要保险"，"订阅者"： {"参考"： "患者/<患者-id> "}}"}
+    响应： {"resourceType"： "捆绑包"，"键入"： "searchset"，"total"：1，"entry"： [{"resource"： "<资源 id>"，"计划"： "没有主保险"，"订阅"： {"reference"： "患者/<患者 id>"}}]}
 
 * * *
 

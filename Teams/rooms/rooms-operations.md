@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 阅读本主题，了解 Microsoft 球队会议室的管理、下一代 Skype 会议室系统的管理。
-ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 5368df53e7617f602265071a66f7b871c6b88f66
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628658"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825862"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 团队会议室维护和操作 
  

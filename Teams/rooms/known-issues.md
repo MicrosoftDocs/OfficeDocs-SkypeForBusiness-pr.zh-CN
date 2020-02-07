@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文按功能区域介绍 Microsoft Teams 会议室的已知问题。
-ms.openlocfilehash: ce71a5e9171d9005f6950e2c91ea89ed552f434f
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3fedfbb4fdce0626783d285825eb75c22e2e7a78
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268787"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826060"
 ---
 # <a name="known-issues"></a>已知问题 
  

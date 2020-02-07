@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: 38750974ce2d4763cad79b9b4cf50a32f403c7a8
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: dd27fc5deb0b352467a0857448cf925228780579
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634835"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827664"
 ---
 # <a name="patients-app-overview"></a>患者应用概述
 

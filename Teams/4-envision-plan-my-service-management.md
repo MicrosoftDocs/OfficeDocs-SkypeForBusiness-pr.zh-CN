@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 通过规划运营角色和分配质量支持者来交付和维护高质量的部署。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bab0026b14514114f9c6e975046ee561dade6f40
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516005"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825150"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
@@ -36,7 +38,7 @@ ms.locfileid: "37516005"
 服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的一些组件（构成 Office 365 服务自身的基础结构组件）属于 Microsoft 的职责范围，而客户负责为其用户管理自己提供的 Teams、网络和终结点的各个方面。
 有关客户的 Teams 服务管理职责及其与用户体验质量所基于的主要组件的相关程度的详细讨论，请参阅[规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)。
 
-(media/plan-my-service-management-image1.png "三个质量组件（即 Office 365 服务、网络和终结点")）的质量图的![三个部分的图表]，以及服务管理与这三个部分重叠的方式。
+![三个质量组件的图表](media/plan-my-service-management-image1.png "三个质量组件（即 Office 365 服务、网络和终结点）的图表，以及服务管理与所有三方重叠的方式。")
 
 <!--ENDOFSECTION-->
 
@@ -91,7 +93,7 @@ ms.locfileid: "37516005"
 
 质量体验审阅指南包含一组活动，这些活动在对改善用户体验产生影响的关键区域中具有评估和提供补救指南，如下图所示。
 
-![在质量体验期间检查要检查的关键区域的插图查看](media/plan-my-service-management-image2.png "质量体验评审期间要检查的关键区域：音频、可靠性和用户调查结果。")
+![在质量体验评审期间要检查的关键区域的插图](media/plan-my-service-management-image2.png "在质量体验审核期间要检查的关键方面：音频、可靠性和用户调查结果。")
 
 通过持续评估并修正本文档中所述的方面，你可以降低其对用户体验的潜在负面影响。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 

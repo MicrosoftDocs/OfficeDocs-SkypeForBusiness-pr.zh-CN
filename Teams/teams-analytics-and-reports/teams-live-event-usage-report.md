@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队实时事件使用率" 报表大致了解组织中的团队活动事件活动。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571143"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827240"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 团队实时事件使用率报告
 

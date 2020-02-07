@@ -12,14 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-voice
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19e97053120f5f28dcd634fd2047fed0abd2dd57
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8899316d24616bf61918b93c9edd7118b89f5347
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573386"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832666"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>在 Microsoft 团队中实施 QoS 和监控通话质量
 
@@ -27,7 +29,7 @@ ms.locfileid: "37573386"
 
 当用户开始使用团队进行呼叫和召开会议时，他们可能会遇到呼叫或会议的呼叫者语音或 chopping。 共享视频可能冻结或像素化，或者完全失败。 这是由于表示语音和视频流量导致网络拥塞的 IP 数据包，或者根本就不在序列中。 有多种方法可在它们表面上发现这些问题并防止其返回，主要是服务质量（QoS）。
 
-**服务质量（QoS）** 是一种允许实时网络流量（如语音或视频流）的一种方式，这种功能对网络延迟非常敏感（如下载新应用（如下载新应用程序），在这种情况下需要花费更长的时间来下载不大交易）。 QoS 使用 Windows 组策略对象和一个名为基于端口的访问控制列表的路由功能在实时流中标识和标记所有数据包，这样就可以帮助您的网络提供语音、视频和屏幕共享流其自己的专用部分网络带宽。
+**服务质量（QoS）** 是一种允许实时网络流量（如语音或视频流）的一种方法，该功能对网络延迟非常敏感（如下载新应用程序，这种情况下，下载不太多的情况）。 QoS 使用 Windows 组策略对象和一个名为基于端口的访问控制列表的路由功能在实时流中标识和标记所有数据包，这样就可以帮助您的网络提供语音、视频和屏幕共享流其自己的专用部分网络带宽。
 
  现在，我们将只是说它非常喜欢通过邮件发送信件：如果你向其发送一条短信，那么，如果你将其发送到第一类，它获得的速度会更快，并且如果你发送 it 优先邮件，它将在两天内收到。 当然，网络比邮件运行速度更快，但它仍会运行，速度对某些应用程序至关重要，对其他应用不太重要。 这种主题在最初的理解中很难理解，但它在用户体验方面的差异非常大，因此需要提前投入大量时间和精力。 阅读[Microsoft 团队中的实施服务质量（QoS）](QoS-in-Teams.md) ，以便更详细地讨论。
 

@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 团队服务管理所需的任务和活动，包括监视服务运行状况，以及评估和确保网络质量和使用情况。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a63ce726a3a09fb820a6008aa0edf50a0e88ea95
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516616"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826980"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -39,7 +41,7 @@ ms.locfileid: "37516616"
 
 本指南中的任务和活动按下图所示分为八个类别。 这些类别中的每一个都将在以下部分展开。
 
-![描述任务和活动类别列表的图表]，该(media/operate-my-service-image1.png "图表描绘团队服务管理所包含的任务和活动类别。图表还描绘服务管理主要是客户任务。")
+![描述任务和活动类别列表的图表](media/operate-my-service-image1.png "描述团队服务管理所包含的任务和活动类别列表的图表。图表还描绘服务管理主要是客户任务。")
 
 
 <table>
@@ -251,7 +253,7 @@ Microsoft 团队是基于云的服务。 这使您能够以快速的步调提供
 
 #### <a name="required-permissions"></a>所需权限
 
-管理员中心中的使用情况报告可由分配有**全局管理员**角色的人员或特定于产品的管理员角色（**Exchange 管理员**、 **Skype for business 管理员**和 SharePoint）访问。 **管理员**）。
+管理员中心中的使用情况报告可由分配有**全局管理员**角色的人员或特定于产品的管理员角色（**Exchange 管理员**、 **Skype for business 管理员**、 **SharePoint 管理员**）访问。
 
 此外，**报表读者**角色适用于需要访问报表的用户，但不执行需要管理员级别权限的任何任务。 分配此角色以向任何有利益干系人的人员提供使用情况报告，以监视和推动采纳。 有关可用的不同角色的详细信息，请参阅[关于 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
@@ -316,7 +318,7 @@ NPS 是一个索引，范围从-100 到100，用于衡量客户推荐公司产�
 
 -   从1到6的 Detractors：不满意的客户可能会损害您的服务并妨碍增长。
 
-![演示 nps 缩放](media/operate-my-service-image2.png "此图的图表演示了 nps 缩放。它显示0到6的排名是 detractors，7到8是被动的，9到10是 promoters。")
+![演示 NPS 缩放的图表](media/operate-my-service-image2.png "此图演示了 NPS 的缩放。它显示0到6的排名是 detractors，7到8是被动的，9到10是 promoters。")
 
 虽然基本 NPS 编号非常有用，但你将获得分析用户意见的最大价值。 他们将帮助你了解用户为什么（或不）向其他人推荐团队的原因。 这些评论可提供有价值的反馈，以帮助项目或服务管理团队了解提供优质服务所需的调整。
 
@@ -454,7 +456,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 
 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)
 
-[获取 Microsoft Teams 的客户端](get-clients.md)
+[获取 Microsoft Teams 客户端](get-clients.md)
 
 [Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
@@ -548,7 +550,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 
 [体验质量检查指南](https://aka.ms/qerguide)包括一组活动，这些活动在对改善用户体验有最大影响的关键领域中评估和提供补救指南，如下所示。
 
-在![体验质量期间检查要检查的区域的图表查看](media/plan-my-service-management-image2.png "体验质量评审期间要检查的关键区域：音频、可靠性和用户调查结果。")
+![在体验质量评审期间要检查的区域示意图](media/plan-my-service-management-image2.png "在体验质量评审期间要检查的关键方面：音频、可靠性和用户调查结果。")
 
 通过不断评估和修正指南中所述的区域，你可以降低对用户体验产生负面影响的可能性。 在部署中遇到的大多数用户体验问题可以分为以下类别：
 

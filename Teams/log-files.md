@@ -8,18 +8,20 @@ ms.date: 09/25/2017
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba40d1d3694666f8fd0b4612ffe53c49808f7297
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2c8da7e60e785d765e77e17935b60382e864a83b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564921"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833372"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================

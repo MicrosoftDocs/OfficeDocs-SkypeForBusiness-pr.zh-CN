@@ -12,16 +12,18 @@ ms.collection:
 - M365-collaboration
 ms.reviwer: sbhatta
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
 description: 了解管理员如何在 Microsoft Teams 中查看有关来宾用户的信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8724343fed602b33160798fd5badf707cb0b7dec
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5a499d1f5317f06ff09bd54697b128488c423d08
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694107"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833612"
 ---
 <a name="view-guest-users-in-a-team"></a>在团队中查看来宾用户
 ==========================

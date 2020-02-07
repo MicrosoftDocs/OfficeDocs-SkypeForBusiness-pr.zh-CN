@@ -11,15 +11,17 @@ audience: admin
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 解决 Microsoft 团队客户端的连接问题，主要由防火墙或代理连接引起，并了解如何修复它。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7779e46fc0a1c8a282c5cde38ecac6389824a268
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516458"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825350"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 ==============================================================

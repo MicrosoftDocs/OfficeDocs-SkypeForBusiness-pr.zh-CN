@@ -11,15 +11,17 @@ ms.collection:
 - SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 了解 Microsoft 团队中的内容搜索以及如何搜索来自 Exchange 的频道对话、来自 SharePoint 的文件上载和修改以及 OneNote 更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fea6e671a84eec6f064a7ccc1f7f9b3f237a220d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 222b57021a259795823031d9855304d1ecf27f4f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991077"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825340"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 =====================================

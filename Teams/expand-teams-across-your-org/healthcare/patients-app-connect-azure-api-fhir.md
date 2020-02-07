@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 了解如何将 Microsoft 团队中的患者应用连接到 FHIR （快速医疗保健互操作性资源）的 Azure API。
-ms.openlocfilehash: e532aa9f9fbecb472db63a1ddad4cd71518a8041
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 92c5b033215b0e5520b0321042d52579dfb019bf
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259079"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827720"
 ---
 # <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>将患者应用连接到 Azure API for FHIR
 

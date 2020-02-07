@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 description: 客户可以使用 Skype for Business Online 中允许的 Office 365 呼叫计划和 Office 365 音频会议，并且 Microsoft 团队 PSTN 服务使用条款和客户批量许可协议。
-ms.openlocfilehash: 65d1426fd74a219206a725a33a52646ab6058337
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695437"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825500"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 

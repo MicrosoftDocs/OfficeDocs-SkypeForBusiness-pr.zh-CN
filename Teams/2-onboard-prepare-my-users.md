@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 通过定义目标、了解所需的验收以及提供培训和支持，创建一个计划来推动用户使用。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516270"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825080"
 ---
 # <a name="prepare-my-users"></a>准备用户
 
@@ -46,7 +48,7 @@ ms.locfileid: "37516270"
 
 下图是从 Skype for Business 升级到团队客户的远景描述的示例。
 
-![两列表，显示远景和值](media/prepare-my-users-new-image1.png "两个柱形图-为什么要执行此操作？（组织级别）左侧和价值-这是我的用途？（用户级别）位于右侧")
+![显示远景和价值的两栏表](media/prepare-my-users-new-image1.png "有两列的表格（有视觉意义）-为什么要执行此操作？（组织级别）左侧和价值-这是我的用途？（用户级别）位于右侧")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>您是否为您的用户表述了好处和价值，其购买方式可用于获得此新解决方案的购买产品？</li></ul></td></tr>
@@ -126,7 +128,7 @@ ms.locfileid: "37516270"
 
 下图是一个角色表的示例。
 
-"![值" 表，列出角色详细信息](media/prepare-my-users-image2.png "表，其中列出了角色及其共同角色以及通信和协作解决方案依赖关系。将突出显示 \"执行官\" 角色，其中包含有关配置文件的详细信息（一天在生命中），以及功能、设备和培训的管理需求。")
+![列出角色详细信息的值表](media/prepare-my-users-image2.png "列出角色及其共同角色以及通信和协作解决方案相关性的表。将突出显示 "执行官" 角色，其中包含有关配置文件的详细信息（一天在生命中），以及功能、设备和培训的管理需求。")
 
 对于每个用例，请与你的项目团队讨论以下内容：
 
@@ -154,5 +156,5 @@ ms.locfileid: "37516270"
 
 <table>
 <tr><th>通信</th><th>培训</th><th>支持</th></tr>
-<tr><td><ul><li>通过&mdash;电子邮件个性化我们的<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">语音电子邮件模板</a></li><li>海报和数字告示 </li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队和频道</li><li>Gamification</li></ul></td><td><ul><li>Microsoft 中的文章和视频：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">从 Skype for Business 切换到团队</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">团队视频培训</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会议和通话</a></li></li></ul><li>内部协助（帮助）</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部支持人员</li><li>外包支持台</li><li>自助式帮助（intranet 网站）</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>地面-walkers 和拥护方</li><li>反馈循环&mdash;请参阅<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">示例用户反馈调查</a></li></td></tr>
+<tr><td><ul><li>通过&mdash;电子邮件个性化我们的<a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">语音电子邮件模板</a></li><li>海报和数字告示 </li><li>启动事件</li><li>部门经理</li><li>支持者</li><li>团队和频道</li><li>Gamification</li></ul></td><td><ul><li>Microsoft 中的文章和视频：<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">从 Skype for Business 切换到 Teams</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">团队视频培训</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">会议和通话</a></li></li></ul><li>内部协助（帮助）</li><li>内部培训团队</li><li>合作伙伴培训团队</li></ul></td><td><ul><li>内部支持人员</li><li>外包支持台</li><li>自助式帮助（intranet 网站）</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">联机帮助和操作方法</a></li><li>地面-walkers 和拥护方</li><li>反馈循环&mdash;请参阅<a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">示例用户反馈调查</a></li></td></tr>
 </table>

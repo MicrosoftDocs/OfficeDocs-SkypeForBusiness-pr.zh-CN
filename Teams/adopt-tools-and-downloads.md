@@ -10,6 +10,8 @@ layout: LandingPage
 ms.date: 11/20/2018
 audience: admin
 ms.service: msteams
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
@@ -17,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 211ea38343c2bb62a8dec479c62a2c8c4d1ace9d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a4de926de9fe56bb4ca5c5068a3b5dcb335e09f2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236650"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827130"
 ---
 # <a name="tools-for-driving-adoption"></a>促进采纳的工具 
 
@@ -147,10 +149,10 @@ ms.locfileid: "36236650"
 
 
 ### <a name="office-365-champions-program"></a>Office 365 拥护程序程序
-Office 365 拥护者程序是一个免费计划, 可帮助希望从 Microsoft 团队和其他 Office 365 服务获取更多信息的用户。 我们在[Microsoft 技术社区](https://aka.ms/DriveAdoption)中将我们的在线社区与每月社区通话结合起来, 重点介绍了推动采用从管理到最佳做法到新功能的所有组件。 加入我们的社区https://aka.ms/O365Champions , 获取早期版本的访问权限, 从其他客户处收听, 并从 Microsoft 专家中学。  
+Office 365 拥护者程序是一个免费计划，可帮助希望从 Microsoft 团队和其他 Office 365 服务获取更多信息的用户。 我们在[Microsoft 技术社区](https://aka.ms/DriveAdoption)中将我们的在线社区与每月社区通话结合起来，重点介绍了推动采用从管理到最佳做法到新功能的所有组件。 加入我们的社区https://aka.ms/O365Champions ，获取早期版本的访问权限，从其他客户处收听，并从 Microsoft 专家中学。  
 
 ### <a name="teams-adoption-guide"></a>团队采纳指南
-查看[团队采纳 flipbook](https://aka.ms/teamstoolkit), 这是一个可帮助你在公司中推广团队的在线指南。 它包含许多可下载的工具、模板和其他资源, 可帮助您在团队中采纳旅行。
+查看[团队采纳 flipbook](https://aka.ms/teamstoolkit)，这是一个可帮助你在公司中推广团队的在线指南。 它包含许多可下载的工具、模板和其他资源，可帮助您在团队中采纳旅行。
 
 ### <a name="teams-customer-success-kit"></a>团队客户成功工具包
 "[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)" 提供了帮助您在组织中部署团队的工具。 它包括通知、传单海报、倒计时和提示 & 技巧的电子邮件模板。 它还包括团队领导和 IT 管理员入门指南。

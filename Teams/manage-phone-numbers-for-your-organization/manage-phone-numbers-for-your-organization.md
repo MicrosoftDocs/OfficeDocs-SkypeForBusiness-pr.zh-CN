@@ -17,19 +17,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.overview
 - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
-ms.custom:
 - Calling Plans
 description: 了解如何为你的组织获取和管理 Microsoft 团队的电话号码。
-ms.openlocfilehash: 597003e05ac467b51a0901f0c8daec498041c70a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 44d488cfe21410783691c69a8779470d6dd71781
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707187"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825690"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理组织的电话号码
 

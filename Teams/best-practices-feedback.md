@@ -9,18 +9,20 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: 了解 Microsoft Teams 中用户反馈方法的最佳做法以确保获得可能的最佳团队体验。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 553d7e0ced2ac6f031018e6ccb640fcf27deade0
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ac158a5d90c1a1cbe5e4dad5d6c5f894054e72ad
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515746"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826200"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft Teams 中用户反馈方法的最佳做法
 ===========================================================

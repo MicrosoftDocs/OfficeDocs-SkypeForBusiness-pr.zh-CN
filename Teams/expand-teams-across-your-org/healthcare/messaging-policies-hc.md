@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: 适用于医疗保健组织的安全邮件入门
-ms.openlocfilehash: 1b4048dc168de0c36c3c322cc9bb7d4e2d9c3958
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ff4f9089d7fba87678345d37f8c9d85949fb478e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570332"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827730"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>适用于医疗保健组织的安全邮件入门
 
@@ -28,7 +30,7 @@ ms.locfileid: "37570332"
 
 你可以使用默认策略或为组织中的人员创建一个或多个自定义消息策略。 创建策略后，您将为其分配您的组织中的一个或多个用户组。 例如，您可以选择仅允许特定工作角色（如医生和护士）和其他工作人员（如医生和护士）和其他工作人员（如医生和护士）和其他工作人员（如 janitorial 或厨房员工）获取更有限的一组功能。 确定你的组织需要哪些内容，此处的指南最多仅有一个建议。
 
-通过使用管理员凭据登录并在左侧导航窗格中选择**消息策略**，可以轻松地在[Microsoft 团队管理中心](http://admin.teams.microsoft.com)中管理策略。
+通过使用管理员凭据登录并在左侧导航窗格中选择**消息策略**，可以轻松地在[Microsoft 团队管理中心](https://admin.teams.microsoft.com)中管理策略。
 
  ![邮件策略页面的屏幕截图](../../media/messaging-policies-image1.png)
 
@@ -42,7 +44,7 @@ ms.locfileid: "37570332"
 
 - ![数字1的图标，引用上一个屏幕截图](../../media/sfbcallout1.png)中的标注已读**回执**已读回执允许收到聊天消息的发件人在1:1 和群组聊天20人或更少20人的邮件被收件人阅读。 使用此设置可指定 "已读" 回执是由用户控制、针对所有人还是 "关闭"。 邮件已读回执在医疗保健组织中很重要，因为他们删除了有关是否已阅读邮件的 uncertainly。
 
-  对于医疗保健应用程序，请选择 "**由用户控制**" 或 **"针对所有人"**。 请注意 **，为整个**租户设置收据的唯一方式是仅为整个租户设置一个消息策略（名为 "Global （组织范围默认）" 的默认策略），或在所有邮件策略中使用租户对收据使用相同的设置。 当**为所有人**启用该功能时，"已读回执" 功能最有效。
+  对于医疗保健应用程序，请选择 "**由用户控制**" 或 **"针对所有人"**。 请注意 **，为整个**租户设置回执的唯一方式是仅为整个租户设置一个消息策略（名为 "Global （组织范围默认）" 的默认策略），或者让租户中的所有消息策略对收据使用相同的设置。 当**为所有人**启用该功能时，"已读回执" 功能最有效。
 
     *没有已读回执的用法示例：* Dewei Roth （一种高风险患者）获准给医院。Sofia Krause 是一位护士，其中包括不同专业团队的专业团队（IDT）（包括不同的专业人员），作为本患者的主要护理协调员分配。  Sofia 将电子邮件和其他即时消息发送给使用各种邮件客户端和应用的护士和医生组，并且通常不会收到任何答复或指示邮件是否由团队成员阅读。 由于 tangled 的通信流程，Dewei 的药物受到 misapplied，其医院将持续扩展。
 

@@ -11,16 +11,18 @@ audience: admin
 description: 了解在规划 Office 365 组时应做出的决策，例如选择 "公共" 和 "专用组"，使用 "团队客户端" 或 "Office 365 管理" web 控制台，以及如何指导团队使用对话。
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 741ed07971d4db69e8cd05581082f0b041cc2ac7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 092a30be3fb8cffce8abfc9b885e3de3caa8bed4
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567840"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833832"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建团队时规划 Office 365 组
 ==========================================================

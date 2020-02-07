@@ -9,17 +9,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 管理员可以使用 Microsoft 团队管理中心将 Skype 会议应用配置为与团队协作
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516918"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825520"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>将 Skype 会议应用配置为与 Teams 配合使用
 ===================================================
@@ -41,7 +43,7 @@ ms.locfileid: "37516918"
 - 用户没有更改视频设备的选项。
 - 将用户升级到团队后，如果用户正在使用 Skype 会议应用加入会议，然后在团队中接收呼叫，则 Skype 会议应用中的会议不会置于保持状态。 而是将用户连接到这两个呼叫。
 
-## <a name="more-information"></a>详细信息
+## <a name="more-information"></a>更多信息
 
 - [什么是 Skype 会议应用（Skype for Business Web 应用）](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
 - [Skype 会议应用最低网络要求](https://technet.microsoft.com/library/mt845808.aspx)

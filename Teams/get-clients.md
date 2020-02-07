@@ -13,16 +13,18 @@ ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用适用于 Microsoft 团队的各种客户端，其中包括 web、桌面（Windows 和 Mac）和移动设备（Android 和 iOS）。
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6b86aacf13b577d45ee982d32fae7565d37314
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628538"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833762"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 

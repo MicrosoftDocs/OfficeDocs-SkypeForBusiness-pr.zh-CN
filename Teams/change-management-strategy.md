@@ -9,15 +9,17 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: 了解如何通过确定推行活动的关键利益干系人、业务成果、成功量度标准和管理，为 Microsoft Teams 制定变更管理策略。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c2a01203246f56984f001acbfb4cb889e969c8f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516319"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824970"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================

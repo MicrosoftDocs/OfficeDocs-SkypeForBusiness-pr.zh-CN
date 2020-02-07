@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: Microsoft 团队聊天室的管理概述。
-ms.openlocfilehash: 6b42f9aa34acf14749a3674e975d15292f363cf0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268774"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825880"
 ---
 # <a name="management-overview"></a>管理概述
 

@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: 了解团队中的跨团队分析和每个团队分析，这使用户可以查看他们是其成员的团队的使用数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6914d391d8dfdd1e5a5b5e0e7f826bef78e67678
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 436d78bc52fae316a7c5ac61a7f42d7d74988ee0
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069443"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827370"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>查看 Teams 中的跨团队和每团队分析
 

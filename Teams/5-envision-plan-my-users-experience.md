@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: 选择 "团队客户端应用"，规划终结点质量，获取有关部署 Wi-fi 终结点和选择音频设备的建议。
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069193"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825180"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
