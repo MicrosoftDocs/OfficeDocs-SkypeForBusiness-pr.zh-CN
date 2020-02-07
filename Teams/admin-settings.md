@@ -11,57 +11,57 @@ ms.reviewer: ritikag, rarang
 description: 了解可用于管理 Microsoft 团队中的组织应用的策略和设置。
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
-f1.keywords:
 - ms.teamsadmincenter.apppermspolicies.adminsettings
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.thirdpartyapps
 - ms.teamsadmincenter.apppolicies.adminsettings
+f1.keywords:
+- CSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b857d0b1c0ded68bc74831d1596c78ff1d8e5907
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d85aa5435d05d5f296b06e56841a2e10c7ddd413
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695487"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826870"
 ---
-<a name="admin-settings-for-apps-in-microsoft-teams"></a><span data-ttu-id="15a68-103">Microsoft Teams 中适用于应用的管理设置</span><span class="sxs-lookup"><span data-stu-id="15a68-103">Admin settings for apps in Microsoft Teams</span></span>
+<a name="admin-settings-for-apps-in-microsoft-teams"></a><span data-ttu-id="73c9f-103">Microsoft Teams 中适用于应用的管理设置</span><span class="sxs-lookup"><span data-stu-id="73c9f-103">Admin settings for apps in Microsoft Teams</span></span>
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-<span data-ttu-id="15a68-104">应用为你的组织提供现成的工具，以充分利用团队。</span><span class="sxs-lookup"><span data-stu-id="15a68-104">Apps provide out-of-the-box tools for your organization to get more out of Teams.</span></span> <span data-ttu-id="15a68-105">这些应用结合由 Microsoft （由第三方构建）或您的组织中的开发人员提供的选项卡、消息扩展、连接器和 bot 的功能。</span><span class="sxs-lookup"><span data-stu-id="15a68-105">These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.</span></span>
+<span data-ttu-id="73c9f-104">应用为你的组织提供现成的工具，以充分利用团队。</span><span class="sxs-lookup"><span data-stu-id="73c9f-104">Apps provide out-of-the-box tools for your organization to get more out of Teams.</span></span> <span data-ttu-id="73c9f-105">这些应用结合由 Microsoft （由第三方构建）或您的组织中的开发人员提供的选项卡、消息扩展、连接器和 bot 的功能。</span><span class="sxs-lookup"><span data-stu-id="73c9f-105">These apps combine the functionality of tabs, messaging extensions, connectors, and bots provided by Microsoft, built by a third-party, or by developers in your organization.</span></span>
 
-<span data-ttu-id="15a68-106">在 Microsoft 团队管理中心的**团队应用**中，你可以设置策略以管理你的组织的应用。</span><span class="sxs-lookup"><span data-stu-id="15a68-106">In **Teams apps** in the Microsoft Teams admin center, you can set policies to manage apps for your organization.</span></span> <span data-ttu-id="15a68-107">例如，你可以设置策略来控制团队用户可用的应用，并且你可以通过固定最重要的应用对你的用户自定义团队。</span><span class="sxs-lookup"><span data-stu-id="15a68-107">For example, you can set policies to control what apps are available to Teams users and you can customize Teams by pinning the apps that are most important for your users.</span></span>
+<span data-ttu-id="73c9f-106">在 Microsoft 团队管理中心的**团队应用**中，你可以设置策略以管理你的组织的应用。</span><span class="sxs-lookup"><span data-stu-id="73c9f-106">In **Teams apps** in the Microsoft Teams admin center, you can set policies to manage apps for your organization.</span></span> <span data-ttu-id="73c9f-107">例如，你可以设置策略来控制团队用户可用的应用，并且你可以通过固定最重要的应用对你的用户自定义团队。</span><span class="sxs-lookup"><span data-stu-id="73c9f-107">For example, you can set policies to control what apps are available to Teams users and you can customize Teams by pinning the apps that are most important for your users.</span></span>
 
-<span data-ttu-id="15a68-108">我们正在不断改进团队中的应用体验，并添加功能和功能。</span><span class="sxs-lookup"><span data-stu-id="15a68-108">We're continually improving the app experience in Teams and adding features and functionality.</span></span> <span data-ttu-id="15a68-109">随着时间的推移，我们将构建其他应用管理功能，请查看有关应用策略的最新信息。</span><span class="sxs-lookup"><span data-stu-id="15a68-109">Over time, we'll be building additional app management capabilities, so check back for the most up-to-date information on app policies.</span></span>
+<span data-ttu-id="73c9f-108">我们正在不断改进团队中的应用体验，并添加功能和功能。</span><span class="sxs-lookup"><span data-stu-id="73c9f-108">We're continually improving the app experience in Teams and adding features and functionality.</span></span> <span data-ttu-id="73c9f-109">随着时间的推移，我们将构建其他应用管理功能，请查看有关应用策略的最新信息。</span><span class="sxs-lookup"><span data-stu-id="73c9f-109">Over time, we'll be building additional app management capabilities, so check back for the most up-to-date information on app policies.</span></span>
 
-## <a name="app-permission-policies"></a><span data-ttu-id="15a68-110">应用权限策略</span><span class="sxs-lookup"><span data-stu-id="15a68-110">App permission policies</span></span>
+## <a name="app-permission-policies"></a><span data-ttu-id="73c9f-110">应用权限策略</span><span class="sxs-lookup"><span data-stu-id="73c9f-110">App permission policies</span></span>
 
-<span data-ttu-id="15a68-111">通过应用权限策略，你可以阻止或允许应用（组织范围内或特定用户）应用。</span><span class="sxs-lookup"><span data-stu-id="15a68-111">With app permission policies, you can block or allow apps, either org-wide or for specific users.</span></span>  <span data-ttu-id="15a68-112">阻止应用时，将禁用与该应用的所有交互，并且应用不会在团队中显示为用户。</span><span class="sxs-lookup"><span data-stu-id="15a68-112">When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.</span></span>
+<span data-ttu-id="73c9f-111">通过应用权限策略，你可以阻止或允许应用（组织范围内或特定用户）应用。</span><span class="sxs-lookup"><span data-stu-id="73c9f-111">With app permission policies, you can block or allow apps, either org-wide or for specific users.</span></span>  <span data-ttu-id="73c9f-112">阻止应用时，将禁用与该应用的所有交互，并且应用不会在团队中显示为用户。</span><span class="sxs-lookup"><span data-stu-id="73c9f-112">When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for users.</span></span>
 
-<span data-ttu-id="15a68-113">例如，你可以使用应用权限策略执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="15a68-113">For example, you can use app permission policies to:</span></span>
+<span data-ttu-id="73c9f-113">例如，你可以使用应用权限策略执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="73c9f-113">For example, you can use app permission policies to:</span></span>
 
-- <span data-ttu-id="15a68-114">禁用向你的组织带来权限或数据丢失风险的应用。</span><span class="sxs-lookup"><span data-stu-id="15a68-114">Disable an app that poses a permission or data loss risk to your organization.</span></span>
-- <span data-ttu-id="15a68-115">向特定用户逐步推出新的第三方或自定义生成的应用。</span><span class="sxs-lookup"><span data-stu-id="15a68-115">Gradually roll out new third-party or custom built apps to specific users.</span></span>
-- <span data-ttu-id="15a68-116">简化用户体验，尤其是当您开始在整个组织中推出团队时。</span><span class="sxs-lookup"><span data-stu-id="15a68-116">Simplify the user experience, especially when you start rolling out Teams across your organization.</span></span>
+- <span data-ttu-id="73c9f-114">禁用向你的组织带来权限或数据丢失风险的应用。</span><span class="sxs-lookup"><span data-stu-id="73c9f-114">Disable an app that poses a permission or data loss risk to your organization.</span></span>
+- <span data-ttu-id="73c9f-115">向特定用户逐步推出新的第三方或自定义生成的应用。</span><span class="sxs-lookup"><span data-stu-id="73c9f-115">Gradually roll out new third-party or custom built apps to specific users.</span></span>
+- <span data-ttu-id="73c9f-116">简化用户体验，尤其是当您开始在整个组织中推出团队时。</span><span class="sxs-lookup"><span data-stu-id="73c9f-116">Simplify the user experience, especially when you start rolling out Teams across your organization.</span></span>
 
-<span data-ttu-id="15a68-117">若要了解详细信息，请转到[管理团队中的应用权限策略](teams-app-permission-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="15a68-117">To learn more, go to [Manage app permission policies in Teams](teams-app-permission-policies.md).</span></span>
+<span data-ttu-id="73c9f-117">若要了解详细信息，请转到[管理团队中的应用权限策略](teams-app-permission-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="73c9f-117">To learn more, go to [Manage app permission policies in Teams](teams-app-permission-policies.md).</span></span>
 
-## <a name="app-setup-policies"></a><span data-ttu-id="15a68-118">应用设置策略</span><span class="sxs-lookup"><span data-stu-id="15a68-118">App setup policies</span></span>
+## <a name="app-setup-policies"></a><span data-ttu-id="73c9f-118">应用设置策略</span><span class="sxs-lookup"><span data-stu-id="73c9f-118">App setup policies</span></span>
 
-<span data-ttu-id="15a68-119">应用设置策略允许你为你的用户自定义应用体验。</span><span class="sxs-lookup"><span data-stu-id="15a68-119">App setup policies let you customize the app experience for your users.</span></span> <span data-ttu-id="15a68-120">选择要固定到团队客户端中的应用栏的应用，以及这些应用在 web、桌面和移动客户端上的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="15a68-120">You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients.</span></span>
+<span data-ttu-id="73c9f-119">应用设置策略允许你为你的用户自定义应用体验。</span><span class="sxs-lookup"><span data-stu-id="73c9f-119">App setup policies let you customize the app experience for your users.</span></span> <span data-ttu-id="73c9f-120">选择要固定到团队客户端中的应用栏的应用，以及这些应用在 web、桌面和移动客户端上的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="73c9f-120">You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients.</span></span>
 
-<span data-ttu-id="15a68-121">下面是有关如何使用应用设置策略的一些示例：</span><span class="sxs-lookup"><span data-stu-id="15a68-121">Here's some examples of how you can use app setup policies:</span></span>
-- <span data-ttu-id="15a68-122">促进核心应用的认识和采纳。</span><span class="sxs-lookup"><span data-stu-id="15a68-122">Drive awareness and adoption of core apps.</span></span> <span data-ttu-id="15a68-123">例如，将自定义招聘和人才管理应用固定到 HR 团队的用户。</span><span class="sxs-lookup"><span data-stu-id="15a68-123">For example, pin a custom recruiting and talent management app for users on your HR team.</span></span>
-- <span data-ttu-id="15a68-124">有选择地固定核心团队功能，如聊天、团队和通话。</span><span class="sxs-lookup"><span data-stu-id="15a68-124">Selectively pin core Teams features, such as Chat, Teams, and Calling.</span></span> <span data-ttu-id="15a68-125">这样做有助于确保用户参与团队中的特定活动。</span><span class="sxs-lookup"><span data-stu-id="15a68-125">Doing so can help ensure users are engaged in specific activities within Teams.</span></span>
+<span data-ttu-id="73c9f-121">下面是有关如何使用应用设置策略的一些示例：</span><span class="sxs-lookup"><span data-stu-id="73c9f-121">Here's some examples of how you can use app setup policies:</span></span>
+- <span data-ttu-id="73c9f-122">促进核心应用的认识和采纳。</span><span class="sxs-lookup"><span data-stu-id="73c9f-122">Drive awareness and adoption of core apps.</span></span> <span data-ttu-id="73c9f-123">例如，将自定义招聘和人才管理应用固定到 HR 团队的用户。</span><span class="sxs-lookup"><span data-stu-id="73c9f-123">For example, pin a custom recruiting and talent management app for users on your HR team.</span></span>
+- <span data-ttu-id="73c9f-124">有选择地固定核心团队功能，如聊天、团队和通话。</span><span class="sxs-lookup"><span data-stu-id="73c9f-124">Selectively pin core Teams features, such as Chat, Teams, and Calling.</span></span> <span data-ttu-id="73c9f-125">这样做有助于确保用户参与团队中的特定活动。</span><span class="sxs-lookup"><span data-stu-id="73c9f-125">Doing so can help ensure users are engaged in specific activities within Teams.</span></span>
 
-<span data-ttu-id="15a68-126">若要了解详细信息，请参阅[管理团队中的应用设置策略](teams-app-setup-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="15a68-126">To learn more, check out [Manage app setup policies in Teams](teams-app-setup-policies.md).</span></span>
+<span data-ttu-id="73c9f-126">若要了解详细信息，请参阅[管理团队中的应用设置策略](teams-app-setup-policies.md)。</span><span class="sxs-lookup"><span data-stu-id="73c9f-126">To learn more, check out [Manage app setup policies in Teams](teams-app-setup-policies.md).</span></span>
 
-## <a name="custom-app-policies-and-settings"></a><span data-ttu-id="15a68-127">自定义应用策略和设置</span><span class="sxs-lookup"><span data-stu-id="15a68-127">Custom app policies and settings</span></span>
+## <a name="custom-app-policies-and-settings"></a><span data-ttu-id="73c9f-127">自定义应用策略和设置</span><span class="sxs-lookup"><span data-stu-id="73c9f-127">Custom app policies and settings</span></span>
 
-<span data-ttu-id="15a68-128">团队允许组织中的开发人员生成、测试并将自定义应用部署到其他用户。</span><span class="sxs-lookup"><span data-stu-id="15a68-128">Teams allows developers in your organization to build, test, and deploy custom apps to other users.</span></span> <span data-ttu-id="15a68-129">通过直接将 .zip 文件中的应用包上载到团队或个人上下文中，可以将自定义应用添加到团队。</span><span class="sxs-lookup"><span data-stu-id="15a68-129">Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context.</span></span> <span data-ttu-id="15a68-130">你可以使用应用设置策略控制你的组织中可以上载自定义应用的人员。</span><span class="sxs-lookup"><span data-stu-id="15a68-130">You can use app setup policies to control who in your organization can upload custom apps.</span></span> <span data-ttu-id="15a68-131">你还可以设置组织范围的设置，以控制用户是否可以与特定的自定义应用交互。</span><span class="sxs-lookup"><span data-stu-id="15a68-131">You can also set org-wide settings to control whether users can interact with specific custom  apps.</span></span>
+<span data-ttu-id="73c9f-128">团队允许组织中的开发人员生成、测试并将自定义应用部署到其他用户。</span><span class="sxs-lookup"><span data-stu-id="73c9f-128">Teams allows developers in your organization to build, test, and deploy custom apps to other users.</span></span> <span data-ttu-id="73c9f-129">通过直接将 .zip 文件中的应用包上载到团队或个人上下文中，可以将自定义应用添加到团队。</span><span class="sxs-lookup"><span data-stu-id="73c9f-129">Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context.</span></span> <span data-ttu-id="73c9f-130">你可以使用应用设置策略控制你的组织中可以上载自定义应用的人员。</span><span class="sxs-lookup"><span data-stu-id="73c9f-130">You can use app setup policies to control who in your organization can upload custom apps.</span></span> <span data-ttu-id="73c9f-131">你还可以设置组织范围的设置，以控制用户是否可以与特定的自定义应用交互。</span><span class="sxs-lookup"><span data-stu-id="73c9f-131">You can also set org-wide settings to control whether users can interact with specific custom  apps.</span></span>
 
-<span data-ttu-id="15a68-132">若要了解详细信息，请转到[管理团队中的自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。</span><span class="sxs-lookup"><span data-stu-id="15a68-132">To learn more, go to [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).</span></span>
+<span data-ttu-id="73c9f-132">若要了解详细信息，请转到[管理团队中的自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。</span><span class="sxs-lookup"><span data-stu-id="73c9f-132">To learn more, go to [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings.md).</span></span>

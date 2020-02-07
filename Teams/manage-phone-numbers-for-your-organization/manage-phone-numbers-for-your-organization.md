@@ -17,34 +17,35 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.overview
 - ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
-ms.custom:
 - Calling Plans
 description: 了解如何为你的组织获取和管理 Microsoft 团队的电话号码。
-ms.openlocfilehash: 597003e05ac467b51a0901f0c8daec498041c70a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 44d488cfe21410783691c69a8779470d6dd71781
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707187"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825690"
 ---
-# <a name="manage-phone-numbers-for-your-organization"></a><span data-ttu-id="e389f-103">管理组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="e389f-103">Manage phone numbers for your organization</span></span>
+# <a name="manage-phone-numbers-for-your-organization"></a><span data-ttu-id="cd2e7-103">管理组织的电话号码</span><span class="sxs-lookup"><span data-stu-id="cd2e7-103">Manage phone numbers for your organization</span></span>
 
-<span data-ttu-id="e389f-104">有三种方法可以为您的组织获取用户和服务（收费和免费）号码。</span><span class="sxs-lookup"><span data-stu-id="e389f-104">There are three ways to get both user and service (toll and toll-free) numbers for your organization.</span></span>
-- <span data-ttu-id="e389f-105">在 Microsoft 团队管理中心中获取数字。</span><span class="sxs-lookup"><span data-stu-id="e389f-105">Get numbers in the Microsoft Teams admin center.</span></span>
-- <span data-ttu-id="e389f-106">把您现有的号码转移或“迁移”给我们。</span><span class="sxs-lookup"><span data-stu-id="e389f-106">Transfer or "port" your existing numbers over to us.</span></span>
-- <span data-ttu-id="e389f-107">对未在 Microsoft 团队管理中心中列出的新号码使用请求表单。</span><span class="sxs-lookup"><span data-stu-id="e389f-107">Use a request form for new numbers that aren't listed in the Microsoft Teams admin center.</span></span>
+<span data-ttu-id="cd2e7-104">有三种方法可以为您的组织获取用户和服务（收费和免费）号码。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-104">There are three ways to get both user and service (toll and toll-free) numbers for your organization.</span></span>
+- <span data-ttu-id="cd2e7-105">在 Microsoft 团队管理中心中获取数字。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-105">Get numbers in the Microsoft Teams admin center.</span></span>
+- <span data-ttu-id="cd2e7-106">把您现有的号码转移或“迁移”给我们。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-106">Transfer or "port" your existing numbers over to us.</span></span>
+- <span data-ttu-id="cd2e7-107">对未在 Microsoft 团队管理中心中列出的新号码使用请求表单。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-107">Use a request form for new numbers that aren't listed in the Microsoft Teams admin center.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e389f-108">在比利时、法国、德国、爱尔兰、荷兰和西班牙，您不能使用 Microsoft 团队管理中心获取电话新电话号码。</span><span class="sxs-lookup"><span data-stu-id="e389f-108">In Belgium, France, Germany, Ireland, the Netherlands, and Spain, you can't get phone new phone numbers using the Microsoft Teams admin center.</span></span> <span data-ttu-id="e389f-109">您必须下载并填写表单。</span><span class="sxs-lookup"><span data-stu-id="e389f-109">You have to download and fill out a form.</span></span> <span data-ttu-id="e389f-110">在澳大利亚的新电话号码，请参阅[Telstra 语音服务](https://aka.ms/TelstraVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="e389f-110">For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).</span></span>
+> <span data-ttu-id="cd2e7-108">在比利时、法国、德国、爱尔兰、荷兰和西班牙，您不能使用 Microsoft 团队管理中心获取电话新电话号码。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-108">In Belgium, France, Germany, Ireland, the Netherlands, and Spain, you can't get phone new phone numbers using the Microsoft Teams admin center.</span></span> <span data-ttu-id="cd2e7-109">您必须下载并填写表单。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-109">You have to download and fill out a form.</span></span> <span data-ttu-id="cd2e7-110">在澳大利亚的新电话号码，请参阅[Telstra 语音服务](https://aka.ms/TelstraVoicePlan)。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-110">For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).</span></span>
 
 ***
-<span data-ttu-id="e389f-111">如果你知道要查找的表单类型，请使用下拉列表选择你要获取数字的国家/地区。</span><span class="sxs-lookup"><span data-stu-id="e389f-111">If you know what kind of forms you are looking for use the drop-down to select the country/region where you're getting numbers.</span></span>
+<span data-ttu-id="cd2e7-111">如果你知道要查找的表单类型，请使用下拉列表选择你要获取数字的国家/地区。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-111">If you know what kind of forms you are looking for use the drop-down to select the country/region where you're getting numbers.</span></span>
 
-<span data-ttu-id="e389f-112">**选择您的国家或地区以查找您需要的可下载表单**</span><span class="sxs-lookup"><span data-stu-id="e389f-112">**Select your country or region to find the downloadable forms you need**</span></span>
+<span data-ttu-id="cd2e7-112">**选择您的国家或地区以查找您需要的可下载表单**</span><span class="sxs-lookup"><span data-stu-id="cd2e7-112">**Select your country or region to find the downloadable forms you need**</span></span>
 > [!div class="op_single_selector"]
 > - [澳大利亚](phone-number-management-for-australia.md)
 > - [Belgium（比利时）](phone-number-management-for-belgium.md)
@@ -59,41 +60,41 @@ ms.locfileid: "41707187"
 > - [美国（波多黎各）](phone-number-management-for-the-u-s.md)
 
 ***
-## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a><span data-ttu-id="e389f-124">下面是有关这些号码申请表的更多信息</span><span class="sxs-lookup"><span data-stu-id="e389f-124">Here's a bit more information about these number request forms</span></span>
+## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a><span data-ttu-id="cd2e7-124">下面是有关这些号码申请表的更多信息</span><span class="sxs-lookup"><span data-stu-id="cd2e7-124">Here's a bit more information about these number request forms</span></span>
 
-### <a name="request-forms-for-new-phone-numbers"></a><span data-ttu-id="e389f-125">新电话号码的申请表</span><span class="sxs-lookup"><span data-stu-id="e389f-125">Request forms for new phone numbers</span></span>
+### <a name="request-forms-for-new-phone-numbers"></a><span data-ttu-id="cd2e7-125">新电话号码的申请表</span><span class="sxs-lookup"><span data-stu-id="cd2e7-125">Request forms for new phone numbers</span></span>
 
-<span data-ttu-id="e389f-126">每个国家或地区都有不同的说明、不同类型的号码（地理/非地域和服务（收费/免费电话）和用于获取电话号码的规则/规章，以便在团队中使用。</span><span class="sxs-lookup"><span data-stu-id="e389f-126">Each country or region has different instructions, different types of numbers (geographic/non-geographic and service (toll/toll-free) and rules/regulations for getting phone numbers so they can be used in Teams.</span></span>
+<span data-ttu-id="cd2e7-126">每个国家或地区都有不同的说明、不同类型的号码（地理/非地域和服务（收费/免费电话）和用于获取电话号码的规则/规章，以便在团队中使用。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-126">Each country or region has different instructions, different types of numbers (geographic/non-geographic and service (toll/toll-free) and rules/regulations for getting phone numbers so they can be used in Teams.</span></span>
 
-<span data-ttu-id="e389f-127">有时（取决于您所在的国家/地区）您将无法使用 Microsoft 团队管理中心获取新用户（订阅者）或服务（收费或免费）号码，或者您可能需要特定的电话号码或区号。</span><span class="sxs-lookup"><span data-stu-id="e389f-127">Sometimes (depending on your country/region) you won't be able to get new user (subscriber) or service (toll or toll-free) numbers using the Microsoft Teams admin center, or you might need specific phone numbers or area codes.</span></span>
+<span data-ttu-id="cd2e7-127">有时（取决于您所在的国家/地区）您将无法使用 Microsoft 团队管理中心获取新用户（订阅者）或服务（收费或免费）号码，或者您可能需要特定的电话号码或区号。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-127">Sometimes (depending on your country/region) you won't be able to get new user (subscriber) or service (toll or toll-free) numbers using the Microsoft Teams admin center, or you might need specific phone numbers or area codes.</span></span>
 
-<span data-ttu-id="e389f-128">如果是这样，您将需要下载正确的 PDF 表单（每个国家/地区和号码的类型），并将其发送给我们。</span><span class="sxs-lookup"><span data-stu-id="e389f-128">If so, you'll need to download the correct PDF form (per country/region and the type of numbers) and send it back to us.</span></span> <span data-ttu-id="e389f-129">我们的服务台将从这里获取，并将让你了解进度或你的订单。</span><span class="sxs-lookup"><span data-stu-id="e389f-129">Our service desk will take it from there and will let you know about the progress or your order.</span></span>
+<span data-ttu-id="cd2e7-128">如果是这样，您将需要下载正确的 PDF 表单（每个国家/地区和号码的类型），并将其发送给我们。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-128">If so, you'll need to download the correct PDF form (per country/region and the type of numbers) and send it back to us.</span></span> <span data-ttu-id="cd2e7-129">我们的服务台将从这里获取，并将让你了解进度或你的订单。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-129">Our service desk will take it from there and will let you know about the progress or your order.</span></span>
 
-### <a name="letters-of-authorization-loas-for-transferring-numbers"></a><span data-ttu-id="e389f-130">转让号码的授权书（LOAs）</span><span class="sxs-lookup"><span data-stu-id="e389f-130">Letters of Authorization (LOAs) for transferring numbers</span></span>
+### <a name="letters-of-authorization-loas-for-transferring-numbers"></a><span data-ttu-id="cd2e7-130">转让号码的授权书（LOAs）</span><span class="sxs-lookup"><span data-stu-id="cd2e7-130">Letters of Authorization (LOAs) for transferring numbers</span></span>
 
-<span data-ttu-id="e389f-131">如果您需要转移电话号码，您将下载  **授权书（LOA）**   ，这使我们可以代表您请求在发生争议时从不同的服务提供商处转移现有号码。</span><span class="sxs-lookup"><span data-stu-id="e389f-131">If you need to transfer phone numbers, you'll to download a **Letter of Authorization (LOA)**, which gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute.</span></span> <span data-ttu-id="e389f-132">请使用 LOA 如果有以下情况：</span><span class="sxs-lookup"><span data-stu-id="e389f-132">Use an LOA if you have:</span></span>
-- <span data-ttu-id="e389f-133">您已从其他运营商那里获得用户号码。</span><span class="sxs-lookup"><span data-stu-id="e389f-133">User numbers that you already have from another carrier.</span></span>
-- <span data-ttu-id="e389f-134">音频会议网桥、自动助理或呼叫队列服务 （收费）号码。</span><span class="sxs-lookup"><span data-stu-id="e389f-134">Service (toll) numbers for audio conferencing bridges, auto attendants or call queues.</span></span>
-- <span data-ttu-id="e389f-135">服务 （免费）电话号码。</span><span class="sxs-lookup"><span data-stu-id="e389f-135">Service (toll-free) phone numbers.</span></span>
-- <span data-ttu-id="e389f-136">您需要获得超过999个用户电话号码，但无法使用 "使用本地号码移植向导" 访问 Microsoft 团队管理中心。</span><span class="sxs-lookup"><span data-stu-id="e389f-136">You have more than 999 user phone numbers that you need to get but can't get in the Microsoft Teams admin center using the use the Local Number Porting wizard.</span></span>
+<span data-ttu-id="cd2e7-131">如果您需要转移电话号码，您将下载  **授权书（LOA）**   ，这使我们可以代表您请求在发生争议时从不同的服务提供商处转移现有号码。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-131">If you need to transfer phone numbers, you'll to download a **Letter of Authorization (LOA)**, which gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute.</span></span> <span data-ttu-id="cd2e7-132">请使用 LOA 如果有以下情况：</span><span class="sxs-lookup"><span data-stu-id="cd2e7-132">Use an LOA if you have:</span></span>
+- <span data-ttu-id="cd2e7-133">您已从其他运营商那里获得用户号码。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-133">User numbers that you already have from another carrier.</span></span>
+- <span data-ttu-id="cd2e7-134">音频会议网桥、自动助理或呼叫队列服务 （收费）号码。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-134">Service (toll) numbers for audio conferencing bridges, auto attendants or call queues.</span></span>
+- <span data-ttu-id="cd2e7-135">服务 （免费）电话号码。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-135">Service (toll-free) phone numbers.</span></span>
+- <span data-ttu-id="cd2e7-136">您需要获得超过999个用户电话号码，但无法使用 "使用本地号码移植向导" 访问 Microsoft 团队管理中心。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-136">You have more than 999 user phone numbers that you need to get but can't get in the Microsoft Teams admin center using the use the Local Number Porting wizard.</span></span>
 
-## <a name="if-you-still-need-help-and-arent-sure-what-to-do"></a><span data-ttu-id="e389f-137">如果你仍然需要帮助并且不知道该怎么办……。</span><span class="sxs-lookup"><span data-stu-id="e389f-137">If you still need help and aren't sure what to do....</span></span>
+## <a name="if-you-still-need-help-and-arent-sure-what-to-do"></a><span data-ttu-id="cd2e7-137">如果你仍然需要帮助并且不知道该怎么办……。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-137">If you still need help and aren't sure what to do....</span></span>
 
-<span data-ttu-id="e389f-138">如果您仍然需要帮助，请告诉我们我们可以为您提供哪些帮助。</span><span class="sxs-lookup"><span data-stu-id="e389f-138">If you still need help, let us know how we can help you.</span></span> <span data-ttu-id="e389f-139">在您的帮助请求中，包括您的组织 ID、域、您需要帮助的号码类型、所需数量、授权人帐户上以及有关您的问题的其他重要详细信息。</span><span class="sxs-lookup"><span data-stu-id="e389f-139">In your Help request, include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.</span></span>
-- <span data-ttu-id="e389f-140">有关美国内部电话号码的帮助， [发送您的请求](mailto:ptn@microsoft.com)  。</span><span class="sxs-lookup"><span data-stu-id="e389f-140">For help with phone numbers inside the U.S., [send your request](mailto:ptn@microsoft.com).</span></span>
-- <span data-ttu-id="e389f-141">有关欧洲电话号码的帮助，请[发送您的请求](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="e389f-141">For help with phone numbers in Europe, [send your request](mailto:ptneu@microsoft.com).</span></span>
-- <span data-ttu-id="e389f-142">有关亚洲电话号码的帮助，请[发送您的请求](mailto:ptnapac@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="e389f-142">For help with phone number in Asia, [send your request](mailto:ptnapac@microsoft.com).</span></span>
+<span data-ttu-id="cd2e7-138">如果您仍然需要帮助，请告诉我们我们可以为您提供哪些帮助。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-138">If you still need help, let us know how we can help you.</span></span> <span data-ttu-id="cd2e7-139">在您的帮助请求中，包括您的组织 ID、域、您需要帮助的号码类型、所需数量、授权人帐户上以及有关您的问题的其他重要详细信息。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-139">In your Help request, include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.</span></span>
+- <span data-ttu-id="cd2e7-140">有关美国内部电话号码的帮助， [发送您的请求](mailto:ptn@microsoft.com)  。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-140">For help with phone numbers inside the U.S., [send your request](mailto:ptn@microsoft.com).</span></span>
+- <span data-ttu-id="cd2e7-141">有关欧洲电话号码的帮助，请[发送您的请求](mailto:ptneu@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-141">For help with phone numbers in Europe, [send your request](mailto:ptneu@microsoft.com).</span></span>
+- <span data-ttu-id="cd2e7-142">有关亚洲电话号码的帮助，请[发送您的请求](mailto:ptnapac@microsoft.com)。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-142">For help with phone number in Asia, [send your request](mailto:ptnapac@microsoft.com).</span></span>
 
-#### <a name="additional-resources"></a><span data-ttu-id="e389f-143">附加资源</span><span class="sxs-lookup"><span data-stu-id="e389f-143">Additional resources</span></span>
+#### <a name="additional-resources"></a><span data-ttu-id="cd2e7-143">附加资源</span><span class="sxs-lookup"><span data-stu-id="cd2e7-143">Additional resources</span></span>
 
-- <span data-ttu-id="e389f-144">若要查看您所在的国家或地区是否有通话计划，请参阅[音频会议和通话计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)</span><span class="sxs-lookup"><span data-stu-id="e389f-144">To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)</span></span>
-- <span data-ttu-id="e389f-145">为帮助您选择所需的电话号码类型，请阅读[用于通话计划的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。</span><span class="sxs-lookup"><span data-stu-id="e389f-145">To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).</span></span>
-- <span data-ttu-id="e389f-146">要了解如何在管理中心获取用户电话号码，请阅读 [获取用户电话号码](/microsoftteams/getting-phone-numbers-for-your-users) 。</span><span class="sxs-lookup"><span data-stu-id="e389f-146">To learn about getting user phone numbers in the admin center, read [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).</span></span>
-- <span data-ttu-id="e389f-147">若要获取有关为你的组织设置电话号码的帮助，请[联系 PSTN 服务支持人员](contact-pstn-service-desk.md)。</span><span class="sxs-lookup"><span data-stu-id="e389f-147">To get help setting up phone numbers for your organization, [contact the PSTN service desk](contact-pstn-service-desk.md).</span></span>
+- <span data-ttu-id="cd2e7-144">若要查看您所在的国家或地区是否有通话计划，请参阅[音频会议和通话计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)</span><span class="sxs-lookup"><span data-stu-id="cd2e7-144">To see if Calling Plans are available in your country or region, see [Countries and region availability for Audio Conferencing and Calling Plans](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)</span></span>
+- <span data-ttu-id="cd2e7-145">为帮助您选择所需的电话号码类型，请阅读[用于通话计划的不同类型的电话号码](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-145">To help you pick the type of phone number you need, read [Different kinds of phone numbers used for Calling Plans](../different-kinds-of-phone-numbers-used-for-calling-plans.md).</span></span>
+- <span data-ttu-id="cd2e7-146">要了解如何在管理中心获取用户电话号码，请阅读 [获取用户电话号码](/microsoftteams/getting-phone-numbers-for-your-users) 。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-146">To learn about getting user phone numbers in the admin center, read [Getting phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users).</span></span>
+- <span data-ttu-id="cd2e7-147">若要获取有关为你的组织设置电话号码的帮助，请[联系 PSTN 服务支持人员](contact-pstn-service-desk.md)。</span><span class="sxs-lookup"><span data-stu-id="cd2e7-147">To get help setting up phone numbers for your organization, [contact the PSTN service desk](contact-pstn-service-desk.md).</span></span>
   
     
-## <a name="related-topics"></a><span data-ttu-id="e389f-148">相关主题</span><span class="sxs-lookup"><span data-stu-id="e389f-148">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="cd2e7-148">相关主题</span><span class="sxs-lookup"><span data-stu-id="cd2e7-148">Related topics</span></span>
 
-[<span data-ttu-id="e389f-149">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="e389f-149">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
+[<span data-ttu-id="cd2e7-149">紧急呼叫条款和条件</span><span class="sxs-lookup"><span data-stu-id="cd2e7-149">Emergency calling terms and conditions</span></span>](../emergency-calling-terms-and-conditions.md)
 
-<span data-ttu-id="e389f-150">[紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="e389f-150">[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span> 
+<span data-ttu-id="cd2e7-150">[紧急呼叫免责声明标签](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="cd2e7-150">[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span> 
