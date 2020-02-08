@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825150"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862712"
 ---
 # <a name="plan-my-service-management"></a>规划服务管理
 
@@ -36,7 +36,7 @@ ms.locfileid: "41825150"
 对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实施了与现有服务关联的流程和任务。 尽管如此，当你现在规划服务管理以在将来支持 Microsoft Teams 时，你可能会扩大已实施的方面。
 
 服务管理包含管理 Microsoft Teams 端到端时涉及的所有活动和流程。 服务管理的一些组件（构成 Office 365 服务自身的基础结构组件）属于 Microsoft 的职责范围，而客户负责为其用户管理自己提供的 Teams、网络和终结点的各个方面。
-有关客户的 Teams 服务管理职责及其与用户体验质量所基于的主要组件的相关程度的详细讨论，请参阅[规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide)。
+有关客户的 Teams 服务管理职责及其与用户体验质量所基于的主要组件的相关程度的详细讨论，请参阅[规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/prepare-network)。
 
 ![三个质量组件的图表](media/plan-my-service-management-image1.png "三个质量组件（即 Office 365 服务、网络和终结点）的图表，以及服务管理与所有三方重叠的方式。")
 

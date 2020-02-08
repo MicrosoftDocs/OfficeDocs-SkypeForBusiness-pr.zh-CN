@@ -1,11 +1,11 @@
 ---
 title: Microsoft Teams 体验质量概述指南
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies
 audience: admin
 description: 有关使用呼叫质量仪表板（CQD）分析 Microsoft 团队的实时媒体性能的指南。
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff4fe3a0a8a43c23978345461b0d32fe5182a6dd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838252"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863393"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
@@ -1141,8 +1141,6 @@ _图29–通过构建和子网进行的 HTTP 代理使用_
 HTTP 使用的最常见原因是代理中缺少异常规则。 通过使用提供的建筑物或子网，你可以快速确定需要为媒体绕过配置的代理。
 
 验证代理中是否列入白名单中所需的[Office 365 fqdn](https://aka.ms/o365ips) 。
-
-有关将代理用于 Skype for Business Online 和团队的详细信息，请参阅[本文](proxy-servers-for-skype-for-business-online.md)。
 
 ## <a name="endpoint-investigations"></a>终结点调查
 

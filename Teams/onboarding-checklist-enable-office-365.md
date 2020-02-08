@@ -15,12 +15,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b207d5b7eafc7574daa454dbca6d9761f7375c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 646a820888c47b0e5ecd8cd491fb9949160cb42c
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835932"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862872"
 ---
 # <a name="enable-office-365"></a>启用 Office 365
  
@@ -34,5 +34,5 @@ ms.locfileid: "41835932"
 | 6 Mb  | 为你的环境配置身份。 | 可以直接在 Office 365 中创建用户（在在线部署模式中），也可以将本地 Active Directory 中的用户同步到你的 Office 365 租户。 <br/><br/>确定应使用云身份、同步的身份还是联合身份。 确定合适的身份类型不属于此清单的内容范围，但是，**其他信息**列中提供了有关这些选项的信息的链接。 <br/><br/>**注意：** 如果你要使用同步的身份或联合身份，请确保本地用户主体名称 (UPN) 匹配 Office 365 UPN，并且配置了所有所需的属性以与 Azure AD Connect 同步。 有关 Teams 所需的属性，请使用 Skype for Business Online 的属性列表。 | | [了解 Office 365 身份和 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9) <br/><br/>[通过向 Office 365 进行目录同步来准备预配用户](https://support.office.com/article/Prepare-to-provision-users-through-directory-synchronization-to-Office-365-01920974-9e6f-4331-a370-13aea4e82b3e) <br/><br/>[Azure AD Connect 同步：同步到 Azure Active Directory 的属性](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-attributes-synchronized) |
 | 示例 7  | 确认租户管理员 | 与你的安全团队合作开发 Office 365 管理模型。 <br/><br/>务必确定并记录所有租户和服务管理员。 | | [关于 Office 365 管理角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8 Mb  | 为你的租户实施管理角色 | 验证你的管理模型满足贵组织的需求，并为你的管理员分配 Office 365 管理角色。 | | [在 Office 365 商业版中分配管理角色](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
-| 步骤 9  | 登录通话质量仪表板 (CQD) 以上载你的构建信息。 | 每个 Teams 部署都应利用 CQD 来了解使用 Teams 的所有通话的质量和可靠性。 <br><br>使用**其他信息**列中所列的 CQD 指导以充分利用此工具。 | | [规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide) <br/><br/>[《体验质量评审指南》](https://aka.ms/qerguide) <br/><br/>[体验质量评审模板](https://aka.ms/qertemplates) <br/><br/>[为 Microsoft Teams 和 Skype for Business Online 中启用和使用通话质量仪表板](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
+| 步骤 9  | 登录通话质量仪表板 (CQD) 以上载你的构建信息。 | 每个 Teams 部署都应利用 CQD 来了解使用 Teams 的所有通话的质量和可靠性。 <br><br>使用**其他信息**列中所列的 CQD 指导以充分利用此工具。 | | [规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[《体验质量评审指南》](https://aka.ms/qerguide) <br/><br/>[体验质量评审模板](https://aka.ms/qertemplates) <br/><br/>[为 Microsoft Teams 和 Skype for Business Online 中启用和使用通话质量仪表板](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
 | 10%  | 验证已处理构建信息，并且通话质量仪表板 (CQD) 可用于你的租户。 | | | [通话质量仪表板](https://cqd.lync.com) |

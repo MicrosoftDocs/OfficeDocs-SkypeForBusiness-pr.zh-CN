@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是适用于百慕大的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 422fcb988140a272619f00174c29715ed5c99b37
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1854e36af029b003550aa4d595bc149c9ce8b1e5
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695338"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853847"
 ---
 # <a name="availability-in-bermuda"></a>百慕大的可用性
 
@@ -61,6 +61,8 @@ ms.locfileid: "41695338"
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
+
+如果通话计划不能购买，请考虑使用[电话系统直接路由](../direct-routing-landing-page.md)。 通过直接路由，您可以在任何电话运营商处使用电话系统。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>适用于服务的免费电话号码和免费电话号码
 

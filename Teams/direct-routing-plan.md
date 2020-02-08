@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本主题，了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: f1d6c914a2ed95a073fdf900628ad96fa10b7428
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4e6e26f0beaa74806ebc52ca31c007f5ec085fdc
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835142"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863173"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -249,17 +249,15 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 将解析为下列 IP 地址之一：
 
 ## <a name="sip-signaling-ports"></a>SIP 信号：端口
 
-对于提供直接路由的所有 Office 365 环境，端口要求是相同的：
+对于 Office 365 环境，您必须使用以下端口，即提供直接路由：
 - Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
 
-您必须使用以下端口：
-
 |**流量**|**从**|**到**|**源端口**|**目标端口**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP 代理|SBC|1024-65535|在 SBC 上定义|
+|SIP/TLS|SIP 代理|SBC|1024-65535 （For Office 365 仅限使用 GCC 高/DoD 的端口5061和5062）|在 SBC 上定义|
 SIP/TLS|SBC|SIP 代理|在 SBC 上定义|5061|
 ||||||
 

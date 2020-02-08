@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于南非的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 64f4a5c9f461f5fb1594b47736990f2f74ec1a26
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 55783d94ced555f519d19dbc7085e936a652b3f2
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683555"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852399"
 ---
 # <a name="availability-in-south-africa"></a>在南非的可用性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683555"
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
+
+如果通话计划不能购买，请考虑使用[电话系统直接路由](../direct-routing-landing-page.md)。 通过直接路由，您可以在任何电话运营商处使用电话系统。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

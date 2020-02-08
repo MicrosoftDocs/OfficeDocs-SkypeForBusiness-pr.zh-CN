@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于葡萄牙语的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: c12f64899b9c7343116b71b1ea7ed46e89bef51d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a7a29d9257da74f66460ef5065203c6d80ce50cf
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683625"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852739"
 ---
 # <a name="availability-in-portugal"></a>在葡萄牙的可用性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41683625"
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
+
+如果通话计划不能购买，请考虑使用[电话系统直接路由](../direct-routing-landing-page.md)。 通过直接路由，您可以在任何电话运营商处使用电话系统。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

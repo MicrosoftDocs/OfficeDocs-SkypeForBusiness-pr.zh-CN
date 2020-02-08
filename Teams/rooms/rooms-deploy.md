@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft 团队聊天室。
-ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825960"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863343"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -45,7 +45,7 @@ AV techs 可用于最后一项任务，但你所在组织的 IT 部门将需要�
 -   [证书](rooms-prep.md#certificates)
 -   [代理](rooms-prep.md#proxy)
 
-**Pro 提示**-如果你打算使用代理服务器提供对 Microsoft 团队或 Skype For business Online 的访问权限，请先[查看本文](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online)。 请注意，当通过代理服务器上的 Skype for business 通信时，我们建议完全跳过代理服务器。 Skype for business 通信已加密，因此代理服务器不会使其更安全。 作为更宽部署的一部分，我们建议你遵循[评估我的环境](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness)以进行带宽规划和评估网络对实时流量的适用性的指南。
+**Pro 提示**-如果你打算使用代理服务器提供对团队或 Skype For business Online 的访问权限，请先[查看本文](../proxy-servers-for-skype-for-business-online.md)。 请注意，当通过代理服务器上的 Skype for business 通信时，我们建议完全跳过代理服务器。 Skype for business 通信已加密，因此代理服务器不会使其更安全。 作为更宽部署的一部分，我们建议你按照为[团队](../prepare-network.md)进行带宽规划和评估你的网络对实时流量的适用性中的指南进行操作。
 
 |    |     |
 |-----------|------------|

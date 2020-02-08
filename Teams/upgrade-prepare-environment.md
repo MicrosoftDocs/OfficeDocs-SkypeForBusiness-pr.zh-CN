@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c5287db10067ad26feac8b3074de97a977646cf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 82b9418f2e87550667cbc163f8f37a0989ec2b30
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837092"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863433"
 ---
 ![升级旅行图，强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段，重点介绍技术准备阶段")
 
@@ -43,5 +43,5 @@ ms.locfileid: "41837092"
 - 让[您的 IT 员工做好准备](upgrade-prepare-IT-pros.md)，帮助确保他们有成功升级旅行所需的内容。
 - 验证你的环境是否满足所有[先决条件](upgrade-plan-journey-prerequisites.md)，并了解 Office 365 服务和团队之间的依赖关系。
 - 通过使用示例调查表来执行环境发现来[评估你的环境](upgrade-plan-journey-evaluate-environment.md)，以确认你的组织准备成功升级到团队。
-- 通过规划、准备和采取任何必要的补救步骤来为你的网络[准备](upgrade-prepare-environment-prepare-network.md)支持团队工作负荷。
+- 通过规划、准备和采取任何必要的补救步骤来为你的网络[准备](prepare-network.md)支持团队工作负荷。
 - 通过使用 "加入" 检查表确保你的团队配置准备好支持将你的用户从 Skype for Business 迁移到团队，准备要推出的[服务](upgrade-prepare-environment-prepare-service.md)。

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5bf036a3f613fff4af5cd97044bf8beebe7fa
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 74b5679805b325250a1c29e01a436738747dc49f
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824840"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862842"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Microsoft 365 Business Voice 合作伙伴资源
 
@@ -34,9 +34,9 @@ ms.locfileid: "41824840"
 
 - [团队实践指南](../cloud-voice-landing-page.md)
 - [预评估和规划](../3-envision-evaluate-my-environment.md)
-- [Deployment](../3-onboard-deploy-my-service.md)
-- [操作](../1-drive-value-operate-my-service.md)
-- [支持](../envision-planning-for-service-management-and-quality-complete-guide.md#plan-for-service-management)
+- [部署](../3-onboard-deploy-my-service.md)
+- [处理](../1-drive-value-operate-my-service.md)
+- [支持](../prepare-network.md)
 - [过程](../connectivity-issues.md)
 - [合作伙伴支持计划](https://partner.microsoft.com/support/partnersupport)
 - [团队服务提供商指南](https://aka.ms/teamsserviceproviderguide)

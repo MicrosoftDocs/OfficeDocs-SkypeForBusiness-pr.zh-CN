@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bbf0ae0c104989c63315b42d3aaa08985da637
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1258138ce6f57dfb0284e030f7a813acf8b94a62
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834382"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862792"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 和 IP 地址范围
 =====================================
@@ -32,6 +32,6 @@ ms.locfileid: "41834382"
 
 Teams 通话和会议体验建立在下一代基于云的基础结构之上，而 Skype 和 Skype for Business 也使用该基础结构。 这些技术投资包括基于 Azure 的云服务，用于媒体处理和信号传输、H-p 视频编解码器、绞 Opus 音频编解码器、网络复原、遥测和质量诊断。 因此，需要的 URL 和 IP 可能与 Skype 和 Skype for Business 关联。
 
-对于所有 Office 365 工作负荷，建议的 Teams 服务连接方法是尽可能不使用正向代理。 客户端与 Office 365 数据中心之间存在代理服务器时，可能会强制采用 TCP 而非 UDP 传输媒体，这可能会影响媒体质量。 可以从[管理 Office 365 终结点](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)下载可用于配置流量旁路的示例代理 PAC 文件。
+对于所有 Office 365 工作负荷，建议的 Teams 服务连接方法是尽可能不使用正向代理。 客户端与 Office 365 数据中心之间存在代理服务器时，可能会强制采用 TCP 而非 UDP 传输媒体，这可能会影响媒体质量。 可以从[管理 Office 365 终结点](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints)下载可用于配置流量旁路的示例代理 PAC 文件。
 
-如果你的网络和安全策略需要 Office 365 流量以流过代理服务器，请确保在将团队部署到生产之前已满足上述要求（查看[团队或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)的指南）。
+如果你的网络和安全策略需要 Office 365 流量以流过代理服务器，请确保在将团队部署到生产之前已满足上述要求。 有关详细信息，请阅读[团队或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)。

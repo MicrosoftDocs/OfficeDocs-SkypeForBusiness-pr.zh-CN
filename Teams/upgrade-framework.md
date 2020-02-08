@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837182"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863523"
 ---
 # <a name="about-the-upgrade-framework"></a>关于升级框架
 
@@ -68,7 +68,7 @@ ms.locfileid: "41837182"
 | 步骤 |  | 摘要 | 源 |
 |------|--|---------|----------|
 | **1** | **评估你的环境和完整的团队技术加入** | 确保你的环境做好准备，让团队能够优化用户体验，并在一段时间内帮助你的升级。 | [升级到团队之前先评估你的环境](upgrade-plan-journey-evaluate-environment.md)。<br><br> [准备要升级到团队的服务](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **为团队优化网络，尤其适用于实时媒体方案** | 如果你要部署音频、视频或会议，请执行以下附加步骤以针对该功能优化你的网络。 | [准备要升级到团队的网络](upgrade-prepare-environment-prepare-network.md) |
+| **2** | **为团队优化网络，尤其适用于实时媒体方案** | 如果你要部署音频、视频或会议，请执行以下附加步骤以针对该功能优化你的网络。 | [准备要升级到团队的网络](prepare-network.md) |
 | **3** | **评估组织更改准备情况和定义团队协作方案** | 了解你的用户群体以准备合适的价值消息传递和教育级别，以促进和加速用户采纳。 | [组织更改准备情况](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **准备用户准备情况计划以定义您将如何交流、培训和支持用户** | 个性化您的通信、培训和支持计划，确保新技术的最佳 receptiveness。 | [准备用户就绪性计划](upgrade-user-readiness.md)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **通知 Microsoft 团队的挂起启动** | 及早交流以帮助用户感觉，减少混乱和产生兴奋。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |

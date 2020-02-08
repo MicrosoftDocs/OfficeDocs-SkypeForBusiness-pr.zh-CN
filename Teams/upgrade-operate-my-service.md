@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837142"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863513"
 ---
 ![升级旅行图，强调卓越运营阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段，重点关注运营卓越阶段")
 
@@ -345,7 +345,7 @@ NPS 是一个介于-100 到100之间的索引，用于衡量客户推荐公司�
 
 ## <a name="manage-network-quality"></a>管理网络质量
 
-许多核心计划元素将进入优化、调整大小和修正你的网络基础结构，以确保 Microsoft 团队服务的高质量、高效的路径。 规划任务和要求在我们的[网络准备](upgrade-prepare-environment-prepare-network.md)指南中介绍。 由于升级、扩展或其他业务要求，网络经常随着时间的推移而演化。 请务必考虑您的网络规划活动中团队的要求。
+许多核心计划元素将进入优化、调整大小和修正你的网络基础结构，以确保 Microsoft 团队服务的高质量、高效的路径。 规划任务和要求在我们的[网络准备](prepare-network.md)指南中介绍。 由于升级、扩展或其他业务要求，网络经常随着时间的推移而演化。 请务必考虑您的网络规划活动中团队的要求。
 
 虽然网络规划是团队部署的一个重要方面，但确保网络保持良好状态并保持最新是同等重要的，具体取决于不断变化的业务或技术要求。
 
@@ -431,7 +431,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 
 1. **验证服务运行状况：** 用户可能遇到的问题可能与对团队服务或 itsdependent 服务产生负面影响的事件相关。 第一步，我们建议您确认没有活动的服务问题。 请参阅[如何检查 Office 365 服务运行状况](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)。 请记住检查从属服务（例如，Exchange、SharePoint、OneDrive for business）的状态。 "监视服务运行状况" 将在上一节 "[监视服务运行状况](#monitor-service-health)" 中更详细地讨论。
 
-2. **验证客户端连接：** 连接问题导致团队中的功能或登录问题。 我们建议（特别是对于新网站或位置）验证与该服务的连接。 确保为每个网站遵循以下[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)指南。 你可以利用[Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)执行连接测试，以验证是否已正确打开团队功能的媒体端口。 有关如何运行连接测试的详细步骤在[网络准备情况](upgrade-prepare-environment-prepare-network.md)指南中提供。
+2. **验证客户端连接：** 连接问题导致团队中的功能或登录问题。 我们建议（特别是对于新网站或位置）验证与该服务的连接。 确保为每个网站遵循以下[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)指南。 你可以利用[Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)执行连接测试，以验证是否已正确打开团队功能的媒体端口。 有关如何运行连接测试的详细步骤在[网络准备情况](prepare-network.md)指南中提供。
 
 3. **检查已知问题列表：** 查看[团队的已知问题列表](known-issues.md)，以确定用户是否已受到这些问题中的任何一项的不良影响。 按照提供的解决方法（如果有）解决问题。
 

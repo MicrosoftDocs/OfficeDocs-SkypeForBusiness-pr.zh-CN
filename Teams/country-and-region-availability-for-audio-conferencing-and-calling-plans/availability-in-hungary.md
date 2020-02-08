@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是适用于匈牙利的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 377015440d921d4c9bf5a0525b010486db01523b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 949d912c23c0830a159aef2d49b47917fad05b1f
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695047"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853377"
 ---
 # <a name="availability-in-hungary"></a>在匈牙利的可用性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41695047"
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
+
+如果通话计划不能购买，请考虑使用[电话系统直接路由](../direct-routing-landing-page.md)。 通过直接路由，您可以在任何电话运营商处使用电话系统。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

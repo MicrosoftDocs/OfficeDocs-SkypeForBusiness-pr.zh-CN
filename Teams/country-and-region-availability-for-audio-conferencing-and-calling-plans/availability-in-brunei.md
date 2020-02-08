@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于文莱的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 2e4167ee0ac58a035d13f9be51450b8a6067c79a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 62952a0f917111c7535e822e656ddbe31f5d142e
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684005"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853777"
 ---
 # <a name="availability-in-brunei"></a>在文莱的可用性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41684005"
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
+
+如果通话计划不能购买，请考虑使用[电话系统直接路由](../direct-routing-landing-page.md)。 通过直接路由，您可以在任何电话运营商处使用电话系统。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

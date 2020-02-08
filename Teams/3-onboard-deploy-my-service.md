@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825170"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862812"
 ---
 # <a name="deploy-my-service"></a>部署服务
 
@@ -44,7 +44,7 @@ ms.locfileid: "41825170"
 -   减少支持需求并提高用户满意度。
 
 > [!NOTE]
-> 本文和关联的操作手册不用于描述服务启用所需的每个技术配置步骤或向特定网站提供拨号音。 而是将重点放在最适合于板载用户的活动和任务，并让他们通过快速平稳过渡来开始使用团队语音工作负载，同时将支持需求降至最低。 有关如何为团队语音配置你的环境的技术指导，请参阅用于[配置团队语音工作负荷](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)、[配置团队中的直接路由](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[团队核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[团队网络](onboarding-checklist-configure-networking.md)以及[启用 Office 365](onboarding-checklist-enable-office-365.md)的加入清单。
+> 本文和关联的操作手册不用于描述服务启用所需的每个技术配置步骤或向特定网站提供拨号音。 而是将重点放在最适合于板载用户的活动和任务，并让他们通过快速平稳过渡来开始使用团队语音工作负载，同时将支持需求降至最低。 有关如何为团队语音配置你的环境的技术指导，请参阅用于[配置团队语音工作负荷](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)、[配置团队中的直接路由](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[团队核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[团队网络](prepare-network.md)以及[启用 Office 365](onboarding-checklist-enable-office-365.md)的加入清单。
 
 <!--ENDOFSECTION-->
 

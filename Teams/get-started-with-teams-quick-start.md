@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2c2918b2b65e33f1fa4afc7bfb61a28abb08e6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e07ec04ba567963662d7f83bdba3fe9f788abd9e
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837032"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862832"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -48,7 +48,6 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
 
 开始之前，你想要通过检查以下内容来规划 Teams 推广：
 
-- [检查 Teams 的环境准备情况](environment-readiness.md)
 - [为 Teams 准备贵组织的网络](prepare-network.md)
 - [了解安装桌面、网页和移动版客户端的好处](get-clients.md)
 

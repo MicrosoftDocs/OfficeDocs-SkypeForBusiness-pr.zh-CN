@@ -14,33 +14,32 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 本文提供有关将代理服务器与团队或 Skype for Business 配合使用的信息。
-ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
+description: 本文提供有关将代理服务器与 Skype for Business 配合使用的信息。
+ms.openlocfilehash: a154b36fc03dc84916d5cb4bd383ff80bef901cd
 ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863183"
+ms.locfileid: "41863744"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>团队或 Skype for business Online 的代理服务器
+# <a name="proxy-servers-for-skype-for-business-online"></a>Skype for business Online 的代理服务器
 
-本文提供有关将代理服务器与团队或 Skype for Business 配合使用的指南。
+本文提供有关将代理服务器与 Skype for Business 配合使用的指南。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>建议不使用代理服务器
 
-当来自代理的团队或 Skype for business 通信流时，Microsoft 建议绕过代理。代理不会使团队或 Skype for business 更加安全，因为通信已加密。
+当需要通过代理的 Skype for business 通信时，Microsoft 建议绕过代理。由于流量已加密，因此代理不会使 Skype for business 更安全。
   
 并且拥有代理可能会导致问题。与性能相关的问题可通过延迟和数据包丢失引入环境。此类问题将在此类团队或 Skype for Business 方案中产生消极的体验，因为实时流非常重要。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>如果需要使用代理服务器
 
-某些组织没有为团队或 Skype for business 流量绕过代理的选项。如果这是你所说的情况，上述问题需要牢记。
+有些组织无法为 Skype for Business 流量绕过代理。如果你是这种情况，需要留意上面提到的问题。
   
 Microsoft 还强烈建议：
   
@@ -50,13 +49,15 @@ Microsoft 还强烈建议：
     
 - 允许 UDP 流量
     
-- 按照我们的网络指南中的其他建议操作：[为团队准备组织的网络](prepare-network.md)
-  
+- 按照我们的网络指南中的其他建议操作：
+    
+  - [Skype for Business Online 中的媒体质量和网络连接性能](media-quality-and-network-connectivity-performance.md)
+    
+  - [为 Skype for Business Online 优化网络](optimizing-your-network.md)
     
 遵循本指南应尽可能减少潜在问题。
   
 ## <a name="related-topics"></a>相关主题
 
-[Office 365 网络连接原则](https://aka.ms/pnc)
-
-[为 Teams 准备贵组织的网络](prepare-network.md)
+[为 Skype for Business Online 优化网络](optimizing-your-network.md)
+ 

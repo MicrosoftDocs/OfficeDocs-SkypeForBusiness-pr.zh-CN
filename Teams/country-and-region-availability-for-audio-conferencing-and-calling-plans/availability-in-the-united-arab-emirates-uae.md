@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是适用于阿拉伯联合酋长国的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 3cae97046c5100eed666197de8019918716fdd80
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5b414f65a03ff2f37d3cac3988213e355e5c8895
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694467"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852160"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>在阿拉伯联合酋长国 (UAE) 的可用性
 
@@ -62,6 +62,8 @@ ms.locfileid: "41694467"
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
+
+如果通话计划不能购买，请考虑使用[电话系统直接路由](../direct-routing-landing-page.md)。 通过直接路由，您可以在任何电话运营商处使用电话系统。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 

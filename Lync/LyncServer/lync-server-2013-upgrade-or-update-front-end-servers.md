@@ -7,23 +7,23 @@ f1.keywords:
 - NOCSH
 TOCTitle: Upgrade or update Front End Servers
 ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204736(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204736(v=OCS.15)
 ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af1680da68299881fe94244969d44fce1900532b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14a4c5f81b88db33ba86c4410109a0943b81cb87
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744632"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852001"
 ---
-<div data-xmlns="http://www.w3.org/1999/xhtml">
+<div data-xmlns="https://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="upgrade-or-update-front-end-servers-in-lync-server-2013"></a>Upgrade or update Front End Servers in Lync Server 2013
 
@@ -41,7 +41,7 @@ _**主题上次修改时间：** 2013-06-28_
 
 升级服务器时，必须一次升级域。 将每台服务器放在一个升级域中，升级它，然后重新启动它，然后再转到另一个升级域。 请务必跟踪目前升级的升级域和服务器。 升级每台服务器时，请使用以下流程图图。
 
-:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="升级或更新前端服务器":::
+![升级或更新前端服务器](images/upgradeupdatefrontendserverslync2013.png)
 
 <div>
 
