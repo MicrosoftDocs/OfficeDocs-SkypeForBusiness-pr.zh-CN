@@ -480,7 +480,6 @@
 ### [针对 Teams 准备 IT 员工](upgrade-prepare-IT-pros.md)
 ### [先决条件](upgrade-plan-journey-prerequisites.md)
 ### [评估环境](upgrade-plan-journey-evaluate-environment.md)
-### [准备网络](upgrade-prepare-environment-prepare-network.md)
 ### [准备服务](upgrade-prepare-environment-prepare-service.md)
 
 ## 让贵组织做好部署 Teams 的准备
@@ -673,7 +672,6 @@
 # 参考
 
 ## 准备好推广 Teams
-### [检查你的环境是否已为 Teams 准备就绪](environment-readiness.md)
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
 ### [使用适于 Teams 的顾问来推出 Teams](use-advisor-teams-roll-out.md)
 ### [使用适用于 Teams 的 网络规划器](network-planner.md)

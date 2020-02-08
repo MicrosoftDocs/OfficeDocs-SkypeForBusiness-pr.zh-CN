@@ -268,7 +268,7 @@
 ### [使用 ExpressRoute 的呼叫流](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [Skype for Business Online 中的 ExpressRoute 和 QoS](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [媒体质量和网络连接性能](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Skype for Business Online 的代理服务器](/microsoftteams/proxy-servers-for-skype-for-business-online?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Skype for Business Online 的代理服务器](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 ### [使用网络测试助理](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [通话分析和通话质量仪表板](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
