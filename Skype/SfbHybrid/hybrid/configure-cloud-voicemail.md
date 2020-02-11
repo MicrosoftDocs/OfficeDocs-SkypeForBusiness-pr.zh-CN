@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关为驻留在 Skype for business Server 上的用户实施基于云的语音邮件的说明。
-ms.openlocfilehash: df76051081baaae412c36acf4e73171f2ebce220
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726912"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888531"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>为本地用户配置云语音邮件服务
 
@@ -102,7 +102,7 @@ Get-CsHostedVoicemailPolicy
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>为用户启用云语音邮件
@@ -111,13 +111,17 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:Cl
 
 例如，以下命令将为云语音邮件启用用户帐户： 
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $True```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $True
+```
 
 Cmdlet 验证云语音邮件策略--在全局、站点或用户级别--适用于此用户。 如果没有适用的策略，该 cmdlet 将失败。  
 
 下一个示例为云语音邮件禁用用户帐户：
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $False
+```
 
 此 cmdlet 在全局、站点或用户级别验证没有托管的语音邮件策略--适用于此用户。 如果有适用的策略，该 cmdlet 将失败。
 

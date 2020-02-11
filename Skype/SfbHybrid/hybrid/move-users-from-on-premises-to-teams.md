@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：了解如何迁移用户设置并将用户移动到团队。
-ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af5281faffa9bd9439e045dc40f67283bb740cb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726742"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888771"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>将用户从本地移动到团队
 
@@ -73,11 +73,11 @@ Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell Powe
 
 可以使用以下 cmdlet 序列将用户移动到 TeamsOnly，并假定 Office 365 凭据是单独的帐户并作为 Get Credential 提示的输入提供。
 
-    ```
-    $cred=Get-Credential
-    $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
-    ```
+  ```powershell
+  $cred=Get-Credential
+  $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+  Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
+  ```
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>移动到使用 Skype for Business Server 控制面板的团队
 
@@ -101,14 +101,16 @@ Skype for business Server 2015 中的本地管理员工具使用 CU8 以及 Skyp
 
 若要通知本地用户他们很快将升级到团队，请创建一个新的 TeamsUpgradePolicy 实例，并 NotifySfBUsers = true。 然后，通过将策略直接分配给用户或在站点、池或全局级别设置策略，将该策略分配给要通知的用户。 以下 cmdlet 创建并授予用户级策略：
 
-```
+```powershell
 New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
 通过 Skype for Business Win32 客户端自动下载团队是通过内部部署 TeamsUpgradeConfiguration cmdlet 和 DownloadTeams 参数进行控制的。 您可以在全局、站点和池级别上创建此配置。 例如，以下命令将创建网站 Redmond1 的配置：
 
-`New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
+```powershell
+New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
+```
 
 默认情况下，DownloadTeams 的值为 True;但是，仅当给定用户的 NotifySfbUser = True 时*才*会生效。
 

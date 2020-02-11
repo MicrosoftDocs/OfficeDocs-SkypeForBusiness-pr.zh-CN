@@ -12,18 +12,18 @@ ms:contentKeyID: 49733583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ba55ec7ff54858d3324df2ab8794176a5dc7a10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee1afd2e53bd29571818b9194fe77d3d350386f1
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762960"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrate-call-park-application-settings"></a>迁移呼叫寄存应用程序设置
 
@@ -39,11 +39,11 @@ _**主题上次修改时间：** 2012-10-19_
 
 将 Lync Server 2010 中的呼叫驻留应用程序迁移到 Lync Server 2013 包括预配 Lync Server 2013 池，其中包含已在 Lync Server 2010 中上载的任何自定义音乐暂停文件，还原服务级别设置和 retargeting所有呼叫公园轨道式到 Lync Server 2013 池。 如果已在 Lync Server 2010 池中配置了自定义的 "已保留的音乐" 文件，则需要将这些文件复制到新的 Lync Server 2013 池。 此外，建议您将任何呼叫寄存自定义的 "Lync Server 2010" 文件从 Lync Server 备份到另一个目的地，以保留针对呼叫寄存上载的任何自定义的已保留音乐文件的单独备份副本。 用于呼叫寄存应用程序的自定义的 "保留式音乐" 文件存储在该池的文件存储中。 若要将音频文件从 Lync Server 2010 池文件存储复制到 Lync Server 2013 文件存储，请使用带有以下参数的**Xcopy**命令：
 
-   ```
+   ```console
     Xcopy <Source: Lync Server 2010 Pool CPS File Store Path> <Destination: Lync Server 2013 Pool CPS File Store Path>
    ```
 
-   ```
+   ```console
     Example usage:  Xcopy "<Lync Server 2010 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Lync Server 2013 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
    ```
 
@@ -65,8 +65,8 @@ _**主题上次修改时间：** 2012-10-19_
 
     
     </div>
-    
-        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
+    ```powershell
+        Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>"-CallPickupTimeoutThreshold"<LS2010 CPS TimeSpan>"-EnableMusicOnHold"<LS2010 CPS value>"-MaxCallPickupAttempts"<LS2010 CPS pickup attempts>"-OnTimeoutURI"<LS2010 CPS timeout URI>"```
 
 要将所有呼叫公园轨道范围从 Lync Server 2010 池中重新分配到 Lync Server 2013 池，您可以使用 Lync Server 控制面板或 Lync Server 命令行管理程序。
 
@@ -87,14 +87,17 @@ _**主题上次修改时间：** 2012-10-19_
 1.  打开 Lync Server 命令行管理程序。
 
 2.  在命令行中键入：
-    
-        Get-CsCallParkOrbit
+    ```powershell
+    Get-CsCallParkOrbit
+    ```
     
     此 cmdlet 列出部署中的所有呼叫寄存轨道范围。 必须重新分配将**CallParkServiceId**和**CallParkServerFqdn**参数设置为 Lync Server 2010 池的所有呼叫寄存 "轨道式"。
     
     若要将 Lync Server 2010 调用寄存轨道范围重新分配给 Lync Server 2013 池，请在命令行键入以下命令：
     
-        Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Lync Server 2013 Pool FQDN>"
+    ```powershell
+    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Lync Server 2013 Pool FQDN>"
+    ```
 
 将所有调用寄存轨道范围重新分配给 Lync Server 2013 池后，将完成呼叫寄存应用程序的迁移过程，并且 Lync Server 2013 池将处理所有未来呼叫驻留请求。
 
