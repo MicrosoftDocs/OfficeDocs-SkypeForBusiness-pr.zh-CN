@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为你的组织设置电话系统（云 PBX）。 '
-ms.openlocfilehash: 71e12447d0a6951ef787bf7c7cd82024375e11fd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837982"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888721"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在组织中设置电话系统
 
@@ -116,7 +116,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>步骤8：如果要设置云自动助理
 
-自动助理允许与你的组织进行通话的人员，并导航到相应的菜单系统以将其转到相应的部门、呼叫队列、人员或运营商。 您可以使用 Skype for Business 管理中心为您的组织创建自动助理。
+自动助理允许与你的组织进行通话的人员，并导航到相应的菜单系统以将其转到相应的部门、呼叫队列、人员或运营商。 您可以使用 "团队管理中心" 为您的组织创建自动助理。
 
 有关设置云自动 attendendant 的信息，请参阅[设置云自动助理](create-a-phone-system-auto-attendant.md)。
 

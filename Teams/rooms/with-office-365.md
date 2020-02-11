@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何在 Office 365 中部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: d3fcfdd0b2aabc5d69946ba60b5b8c6fbc73f713
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827440"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888751"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Office 365 部署 Microsoft Teams 会议室
 
@@ -36,7 +36,7 @@ ms.locfileid: "41827440"
 
 - Office 365 计划中的 Skype for business Online （计划2或基于企业的计划）或更高版本。 该计划需要允许电话拨入式会议功能。
 
-- 如果需要来自会议的电话拨入式功能，您需要音频会议和电话系统许可证。  如果需要来自会议的拨出功能，您将需要国内或国内和国际通话计划。
+- 如果需要来自会议的电话拨入式功能，您需要音频会议和电话系统许可证。  如果需要来自会议的拨出功能，您将需要音频会议许可证。
 
 - 租户用户必须具有 Exchange 邮箱。
 

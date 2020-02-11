@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5fc90ace7a2b1bd8a6984c7268903a1a6063e137
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6b93ea469a1a27e796b5cc2016fd63c9cfd3acdd
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835032"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888561"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由-SIP 协议
 
@@ -92,7 +92,7 @@ ms.locfileid: "41835032"
 
 当前电话号码必须包含加号（+），如以下示例中所示。 
 
-```
+```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
 
@@ -204,7 +204,7 @@ SIP 代理根据 SBC 所报告的功能选择该方法。 如果 SBC 指示它�
 
 下面是一个 SBC 的示例，该示例发送消息指出支持引用方法：
 
-```
+```console
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
@@ -212,7 +212,7 @@ ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE,
 
 SBC 的示例（指示不支持参考方法）：
 
-```
+```console
 ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 ```
 
@@ -292,7 +292,7 @@ Microsof 建议始终应用 user = phone 参数以简化呼叫设置过程。
 
 以下是 SIP 代理发送的历史记录信息头的格式：
 
-```
+```console
 <sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3B\cause%3D486>;index=1.2,
 ```
 
@@ -301,7 +301,7 @@ Microsof 建议始终应用 user = phone 参数以简化呼叫设置过程。
 
 页眉示例：
 
-```
+```console
 History-info: 
 <sip:+14257123456@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=302;text=”Move Temporarily”>;index=1
 <sip:+14257123457@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=496;text=”User Busy”>;index=1.1

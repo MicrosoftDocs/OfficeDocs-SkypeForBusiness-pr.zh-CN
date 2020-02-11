@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 了解如何为音频会议、电话系统和通话计划等功能分配许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826310"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888681"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>分配 Microsoft 团队许可证
 
@@ -58,7 +58,7 @@ ms.locfileid: "41826310"
 
 脚本中的许可证或产品名称的名称以斜体列出（请参阅在示例之后[使用的电话系统和通话计划产品名称或 sku](#phone-system-and-calling-plans-product-names-or-skus-used-for-scripting)）。
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
 #Example of text file:
@@ -93,6 +93,7 @@ for each ($user in $users)
  }
 
 ```
+
 ## <a name="phone-system-and-calling-plans-product-names-or-skus-used-for-scripting"></a>电话系统和通话计划用于脚本的产品名称或 Sku
 
 | 产品名称 | SKU 部件名称 |
@@ -131,7 +132,7 @@ for each ($user in $users)
 
 此示例分配了一个企业版 E3 许可证和一个音频会议许可证。
 
-```
+```powershell
 #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 #Example of text file:
 #user1@domain.com
@@ -165,6 +166,7 @@ foreach ($user in $users)
     Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
     }
 ```
+
 ## <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>用于脚本的音频会议产品名称或 SKU
 
 | 产品名称 | SKU 部件名称 |

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 426ca88cb25aad988960add812595f89eed17595
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838022"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889411"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -58,9 +58,9 @@ ms.locfileid: "41838022"
 
 1. 使用你的工作或学校帐户登录到新的 Office 365 门户。
     
-2. 在 Microsoft 365 管理中心的左侧导航中，转到 "**帐单** > **订阅** > "**添加订阅**。
+2. 在 Microsoft 365 管理中心的左侧导航中，转到 "**帐单** > **购买服务**"。 向下滚动，然后选择 "**加载项**"。
 
-3. 展开 "**加载项订阅**"，然后选择 "**通信信用点数** > **立即购买**"。
+3. 选择 "**通讯信用点数**"。
     
 4. 在 "**通信信用点数**订阅" 页面上，填写您的信息，然后单击 "**下一步**"：
     
@@ -93,9 +93,9 @@ ms.locfileid: "41838022"
     
 2. 在 Microsoft 365 管理中心的左侧导航中，转到 "**用户** > **活动用户**"，然后从列表中选择一个或一个用户。
     
-3. 在"操作"窗格中的" **产品许可证**"下，单击" **编辑**"。
+3. 选择 "**许可证和应用**"。
     
-4. 在 "**产品许可证**" 页面上，将 "**通信信用点数**" 切换到 **"开"** 以分配此许可证，然后单击 "**保存**"。
+4. 将**通讯信用点数**切换到 **"开"** 以分配此许可证，然后选择 "**保存**"。
     
     > [!NOTE]
     > 即使你有分配了**企业版 E5**许可证的用户，仍建议你执行此操作。

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中定义和使用敏感度标签。
-ms.openlocfilehash: 446bd222ce29ed627eb3229b244228665bbff6c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e9f007fd174027443191cd7d2dbb8f8321c7424f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838112"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888731"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 团队的灵敏度标签
 
@@ -68,9 +68,9 @@ ms.locfileid: "41838112"
 
 请注意，EnableMIPLabels 设置必须设置为 false，如下所示：
 
-```
+```console
 $setting["EnableMIPLabels"] = "False"
- ```
+```
 
 ## <a name="using-sensitivity-labels-with-teams"></a>将灵敏度标签与团队配合使用
 

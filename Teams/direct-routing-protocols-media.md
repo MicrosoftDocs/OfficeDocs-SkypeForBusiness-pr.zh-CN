@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f21a4532a841a23f6bbb78a57e223616ae539fa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 43673c2b6a1928ab2ca21579339324f01d5ada9e
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835132"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888571"
 ---
 # <a name="overview"></a>概述
 
@@ -105,13 +105,13 @@ SBC 必须响应从完全 ICE 终结点收到的所有有效连接检查请求�
 
 SBC 必须支持 SRTP 加密密码 AES_CM_128_HMAC_SHA1_80 以以下格式提供和应答：
 
-```
+```console
 "inline:" <key||salt> ["|" lifetime]
 ```
 
 下面是来自 SBC 的 SDP 提供的加密属性的示例：
 
-```
+```console
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:V/Lr6Lsvhad/crSB9kCQ28jrYDxR2Yfk5bXryH5V|2^31
 ```
 
@@ -133,7 +133,7 @@ MKI 和 Length 参数不是必需的。
 
 优惠必须包含 SDES，并且可以包含以下格式的 DTLS：
 
-```
+```console
 m=audio 54056 UDP/TLS/RTP/SAVP 0 8 76 77 18 9 101 13
 a=rtcp:54056
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:krXco0QRglwErMqtbMs2zSw29tBdmdgXpEYZhQmp|2^31
@@ -144,7 +144,7 @@ a=rtcp-mux
 
 ### <a name="format-for-answer-containing-sdes-to-sbc"></a>对 SBC 包含 SDES 的答案的格式
 
-```
+```console
 m=audio 54056 RTP/SAVP 111 103 104 9 0 8 description 106 13 110 112 113 126
 a=rtcp:54056
 a=crypto:2 AES_CM_128_HMAC_SHA1_80 inline:fBc61ikv1kMy0sF85DblNqTzVAbFa7hJQ9GKb6Yj|2^31|1:1
@@ -157,7 +157,7 @@ a=rtcp-mux
 
 ### <a name="format-for-sdes-only-offer-to-sbc"></a>SDES 的格式仅向 SBC 提供
 
-```
+```console
 m=audio 52884 RTP/SAVP 111 103 104 9 0 8 106 13 110 112 113 126
 a=crypto:0 AES_CM_128_HMAC_SHA1_32 inline:Hr4D2cgUu9+Uza5Igz/JkVx59DAxDbaxJg862ibQ|2^31
 a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:JPEaIxHegfuv53ykBPZk8hV0GO8kTiiqRMfHimEE|2^31

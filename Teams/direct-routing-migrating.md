@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 从 Skype for Business Online 和 Teams 配置角度了解迁移到直接路由所需的内容。
-ms.openlocfilehash: 85b53bf33cd8f9015ea9294876a06da3532ad085
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836052"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888581"
 ---
 # <a name="migrate-to-direct-routing"></a>迁移到直接路由
 
@@ -33,7 +33,7 @@ ms.locfileid: "41836052"
 - 通过使用云连接器版本使用本地 PSTN 连接的 Office 365 电话系统（适用于 Skype for Business Online）
 
 
-  
+
 除了这些配置步骤外，还需要在会话边界控制器 (SBC) 上进行配置，才能将通话转接到新的路由。 那超出了本文档的范畴。 有关详细信息，请参阅 SBC 供应商文档。  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>用于各种 PSTN 连接选项的用户预配结束状态 
@@ -58,7 +58,7 @@ OnPremLineURI |不适用|电话号码必须与本地 AD 同步。 |可在本地 
 |TeamsCallingPolicy</br>AllowGroupCalling|True|不适用|不适用|True|
 ||||||
 
-<sup>1</sup>选择合适的 TeamsUpgradePolicy 模式取决于场景。 请阅读了解[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md)中各种模式的语音体验。
+<sup>1</sup>选择 TeamsUpgradePolicy 的正确模式取决于方案。 请阅读了解[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md)中各种模式的语音体验。
 
 作为此工作的一部分，Microsoft 最近更新了“Microsoft Teams 管理中心”（也称为“新式门户”），以反映基于共存模式的新管理模型。 在新式门户中，配置 TeamsUpgradePolicy 也会立即将 TeamsInteropPolicy 自动设置为一致的值，因此不会再在用户界面中公开 TeamsInteropPolicy。 但是，使用 PowerShell 的管理员仍然必须同时设置 TeamsUpgradePolicy 和 TeamsInteropPolicy，以确保正确转接。 完成到 TeamsUpgradePolicy 的转换后，将不再需要设置 TeamsInteropPolicy。
 
@@ -75,7 +75,7 @@ OnPremLineURI |不适用|电话号码必须与本地 AD 同步。 |可在本地 
  
 建议删除以前配置的许可证计划信息，如下所示：
  
-```
+```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
@@ -96,6 +96,7 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> [!NOTE]
 > 如果配置了全局 CsVoiceRoutingPolicy，建议你删除与此全局策略关联的任何 PSTN 用法。 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>通过云连接器版本使用本地 PSTN 连接从 Office 365 电话系统迁移
