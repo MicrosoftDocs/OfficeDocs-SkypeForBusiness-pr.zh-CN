@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：阅读本主题，了解如何为 Skype for Business Server 部署统计信息管理器。
-ms.openlocfilehash: 44aad14970716f00550255855d251919a767a268
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 008e9d56dd4c795f7e524ac927402d99261f3e75
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803962"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888421"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署 Skype for Business Server 的统计信息管理器
  
@@ -100,9 +100,9 @@ ms.locfileid: "41803962"
     
      可以通过使用证书管理器或通过使用以下 PowerShell 命令来查找证书指纹：
     
-   ```PowerShell
-   Get-ChildItem -path cert:\LocalMachine\My
-   ```
+       ```PowerShell
+       Get-ChildItem -path cert:\LocalMachine\My
+       ```
 
    - **安装目录：** 这是将安装二进制文件的目录。 你可以使用**浏览...** 按钮将其默认值更改为其他目录。
     
@@ -172,7 +172,7 @@ Web 安装程序会添加名为 StatsManWebSiteUsers 的本地安全组。 你�
     
 如果你要在多台计算机上安装代理，你可能想以无人参与模式进行。例如： 
   
-```
+```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
 ```
 
@@ -198,25 +198,25 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
     
    b. 导航到安装侦听器的目录。 默认值为： 
     
-   ```PowerShell
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. 要确认添加和更新哪些服务器，请运行以下命令：
     
-   ```PowerShell
+   ```console
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 使用以下命令可以查看所有选项：
   
-```PowerShell
+```powershell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 要查看你当前导入的服务器信息，请运行以下脚本： 
   
-```PowerShell
+```powershell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -224,13 +224,13 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   
 1. 导航到安装侦听器的目录。 默认值为： 
     
-   ```
+   ```console
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 2. 运行以下命令：
     
-   ```
+   ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
    ```
 
@@ -241,29 +241,29 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   
 - 是否在统计信息管理器中注册了代理？
     
-1. 	确保遵循导入拓扑的说明。请参阅[导入拓扑](deploy.md#BKMK_ImportTopology)。  
-    
-2. 如果代理位于拓扑中未列出的服务器上（例如，SQL AlwaysOn 群集内的节点），你将需要按照[导入拓扑](deploy.md#BKMK_ImportTopology)中的说明手动添加代理。
+    1. 	确保遵循导入拓扑的说明。请参阅[导入拓扑](deploy.md#BKMK_ImportTopology)。  
+        
+    2. 如果代理位于拓扑中未列出的服务器上（例如，SQL AlwaysOn 群集内的节点），你将需要按照[导入拓扑](deploy.md#BKMK_ImportTopology)中的说明手动添加代理。
     
 - 代理是否可以联系侦听器？
     
-1. 确保侦听器服务正在运行。 
-    
-    如果侦听器服务未运行，请确保 Redis 正在运行，然后尝试重新启动侦听器。
-    
-2. 确保端口向侦听器服务开放，且代理计算机可以与该端口通信。
+    1. 确保侦听器服务正在运行。 
+        
+        如果侦听器服务未运行，请确保 Redis 正在运行，然后尝试重新启动侦听器。
+        
+    2. 确保端口向侦听器服务开放，且代理计算机可以与该端口通信。
     
 - 确保统计信息管理器在收集数据，你可以按如下所示检查 CSV 文件。 
     
     以下命令检索计数器存储名称： 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=listcounterstoragenames -mode=verbose | findstr /i processor
   ```
 
     下一个命令检索指定计数器的值： 
     
-  ```
+  ```console
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
@@ -276,7 +276,7 @@ Microsoft 强烈建议你使用受信任的证书颁发机构签发的证书。 
   
 1. 以管理员身份登录时，在 PowerShell 控制台中键入以下内容：
     
-   ```PowerShell
+   ```powershell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 摘要：查看 Skype for business 服务器部署选项的方案。 无论您是需要单个服务器，还是希望使用 DNS 或 HLB 的服务器池，本主题都应有所帮助。
-ms.openlocfilehash: 098d25a23745c035813cfc5c0ea6d291999c3704
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: c1a5cc793cde46c1334d88dfcbd430922f0b7c32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803382"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887641"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Skype for Business Server 的高级边缘服务器 DNS 规划
  
@@ -172,7 +172,7 @@ Skype for business 客户端与以前版本的 Lync 客户端类似于他们在 
     
     例如，如果你的 SIP 域是 contoso.com，而你有一个名为 pool01 的前端池，其中包含两个前端服务器，则你需要在内部 DNS 中具有以下 pin 点区域和记录：
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
   dnscmd . /zoneadd pool01.contoso.com. /dsprimary
@@ -184,7 +184,7 @@ Skype for business 客户端与以前版本的 Lync 客户端类似于他们在 
 
     环境中可能还有第二个 SIP 域。这种情况下，内部 DNS 中需要以下精确区域和 A 记录：
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
   dnscmd . /zoneadd pool01.fabrikam.com. /dsprimary

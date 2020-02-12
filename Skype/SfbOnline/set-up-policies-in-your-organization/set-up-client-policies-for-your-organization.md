@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 客户端策略帮助确定可供用户使用的 Skype for Business Online 功能；例如，你可以为一些用户提供传输文件的权限，但拒绝其他用户拥有此权限。
-ms.openlocfilehash: 0d92e9d4aab477cdcb010b4840d43a622f28b8cf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4c3434a1649c7bce01557ab97c6c6d9f977c0ab4
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692997"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887901"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>为你的组织设置客户端策略
 
@@ -41,51 +41,50 @@ ms.locfileid: "41692997"
 
 - **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
     
-1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
-    
-2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
-    
-3. 如果你没有版本3.0 或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。出现提示时，请重新启动计算机。
-    
-4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
+    1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
+        
+    2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
+        
+    3. 如果你没有版本3.0 或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。出现提示时，请重新启动计算机。
+        
+    4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     
     如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **启动 Windows PowerShell 会话**
     
-1. From the **Start Menu** > **Windows PowerShell**.
+    1. From the **Start Menu** > **Windows PowerShell**.
+        
+    2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
-2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
-    
-    > [!NOTE]
-    > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
+        > [!NOTE]
+        > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
-
-   如果需要有关启动 Windows PowerShell 的详细信息，请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+       ```powershell
+        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        $credential = Get-Credential
+        $session = New-CsOnlineSession -Credential $credential
+        Import-PSSession $session
+       ```
+如果需要有关启动 Windows PowerShell 的详细信息，请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>禁用表情符和状态通知并阻止保存 Im
 
 - 若要为这些设置创建新的策略，请运行：
     
-> 
->   ```PowerShell
->   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
->   ```
+ 
+   ```powershell
+   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
+   ```
 
   有关[set-csclientpolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet 的详细信息，请参阅。
     
 - 若要为你的组织中的所有用户授予你创建的新策略，请运行：
     
-> 
->   ```PowerShell
->   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
+   ```
 
   有关[set-csclientpolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet 的详细信息，请参阅。
     
@@ -95,19 +94,19 @@ ms.locfileid: "41692997"
 
 - 若要为这些设置创建新的策略，请运行：
     
-> 
->   ```PowerShell
->   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
->   ```
+ 
+   ```powershell
+   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
+   ```
 
   有关[set-csclientpolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet 的详细信息，请参阅。
     
 - 若要为你的组织中的所有用户授予你创建的新策略，请运行：
     
-> 
->   ```PowerShell
->   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
+   ```
 
   有关[set-csclientpolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet 的详细信息，请参阅。
     
@@ -116,18 +115,18 @@ ms.locfileid: "41692997"
 ### <a name="prevent-showing-recent-contacts"></a>禁止显示最近的联系人
 
 - 若要为这些设置创建新的策略，请运行：
-  > 
-  > ```PowerShell
-  > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
-  > ```
+   
+   ```powershell
+   New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
+   ```
 
   有关[set-csclientpolicy](https://technet.microsoft.com/library/mt779155.aspx) cmdlet 的详细信息，请参阅。
     
 - 若要将您创建的新策略授予 Amos 大理石，请运行：
-  > 
-  > ```PowerShell
-  > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
-  > ```
+   
+   ```powershell
+   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
+   ```
 
   有关[set-csclientpolicy](https://technet.microsoft.com/library/mt779152.aspx) cmdlet 的详细信息，请参阅。
     

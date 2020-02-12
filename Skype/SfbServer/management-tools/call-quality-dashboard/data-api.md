@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 摘要：了解通话质量仪表板的数据 API。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: e302c04dee298f9e5d2f33c908b5421ecff4de9a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b8ff4823fad320ae57b8f06104afbb354c09b4eb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816861"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888431"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Skype for Business Server 中的呼叫质量仪表板（CQD）的数据 API
  
@@ -52,7 +52,7 @@ ms.locfileid: "41816861"
   
 切记要包括确切的协议、主机名和端口（如果有）。 不要在结尾处放置任何正斜杠字符（/）。 可以通过使用逗号分隔来指定多个条目。
   
-```
+```xml
 <configuration>
   <appSettings>
     <add key="corsTrustedOrigin" value="https://<trusted-server>,http://<another-trusted-domain>:8080" /> <!-- Domains which are trusted to get the data -->

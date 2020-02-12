@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：利用本主题准备 Skype for Business Server 2019 服务器和域基础结构。 这里提供了硬件、OS、数据库、软件、所有系统要求和建议以及证书 DNS、文件共享和 Active Directory 信息，可帮助确保服务器场的安装和部署获得成功。
-ms.openlocfilehash: c6f30ad4caa8dcb31cf035c3f82de4ab87c41f3d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: fbfb66d24b3e3fbc07ac5fa798b372cc1bf4a268
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812590"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889371"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 的系统要求
  
@@ -265,8 +265,6 @@ Microsoft SQL Server 2016（64 位版本），并且必须运行最新更新。|
     
 部署 Skype for Business Server 2019 的任何域的域功能级别，以及部署 Skype for Business Server 2019 的任何林的林功能级别都必须使用以下操作系统之一：
   
-- Windows Server 2019
-
 - Windows Server 2016
     
 - Windows Server 2012 R2

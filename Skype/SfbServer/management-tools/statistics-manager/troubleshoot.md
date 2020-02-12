@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要：阅读本主题以对 Skype for business 服务器的统计信息管理器部署进行故障排除。
-ms.openlocfilehash: a787297b25b983303e65f398dfb7b275ae044944
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 12b6176e64d034d94e8a6ad86e748c1906f9c0c5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816211"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888871"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>对 Skype for Business Server 的统计信息管理器进行故障排除
  
@@ -47,7 +47,7 @@ ms.locfileid: "41816211"
 
     搜索 "MaxProcessMemoryMB" 并将值更改为 "0"，如下所示：
     
-  ```console
+  ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
@@ -60,13 +60,13 @@ ms.locfileid: "41816211"
     
     如果代理无法连接到侦听器计算机，请检查以下各项：
     
-1. 确保侦听器服务正在侦听器计算机上运行。 否则，请确保 Redis 正在服务器上运行，然后重新启动侦听器服务。
-    
-    检查侦听器计算机上的统计信息管理器事件日志，以确保统计信息管理器服务本身没有问题。
-    
-2. 使用连接工具（例如 telnet）验证正确端口上从代理计算机到侦听器的连接。
-    
-    否则，请确保根据侦听器计算机连接到的网络类型（专用/公共/域）在侦听器计算机上启用传入防火墙规则。 如果监听器计算机未加入域，则网络可能被列为 public，并且在这种情况下，使用 "统计信息管理器" 安装的防火墙规则默认情况下不会应用。
+    1. 确保侦听器服务正在侦听器计算机上运行。 否则，请确保 Redis 正在服务器上运行，然后重新启动侦听器服务。
+        
+        检查侦听器计算机上的统计信息管理器事件日志，以确保统计信息管理器服务本身没有问题。
+        
+    2. 使用连接工具（例如 telnet）验证正确端口上从代理计算机到侦听器的连接。
+        
+        否则，请确保根据侦听器计算机连接到的网络类型（专用/公共/域）在侦听器计算机上启用传入防火墙规则。 如果监听器计算机未加入域，则网络可能被列为 public，并且在这种情况下，使用 "统计信息管理器" 安装的防火墙规则默认情况下不会应用。
     
 - **4000** - 无法从侦听器下载服务器信息（未知原因）
     

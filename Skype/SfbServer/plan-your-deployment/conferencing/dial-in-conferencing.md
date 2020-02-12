@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 摘要：阅读本主题，了解如何规划 Skype for Business 服务器中的电话拨入式会议。
-ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f78f5dcea5ce26bdfeb0ba52a6eeaf046ae6965b
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815990"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888541"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>在 Skype for business 服务器中规划电话拨入式会议
  
@@ -92,9 +92,9 @@ ms.locfileid: "41815990"
 
 会议目录在使用 Skype for Business 时，在参与者用于加入会议的字母数字会议 ID 之间保留一个映射，以及电话拨入式会议参与者用于加入会议的仅限数字的会议 ID。 会议 ID 的格式如下：
   
-```
-<housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
-```
+
+\<内务处理数字（1位\>\<）会议目录（通常为 1-2\>\<位）会议号码（可变数字\>\<的数字检查数字（1位）\>
+
 
 创建多个会议目录将确保会议 ID 将短暂停留，直到创建了大量会议。在每个用户需要参与典型数量会议的组织中，建议您为池中的每 999 个用户创建一个会议目录。使用此指南，通常可使会议 ID 保持较小数目。但是，一旦会议目录的数目（在池中）超过 9，则会议 ID 号将增大以支持其他会议。
   

@@ -20,18 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
-ms.openlocfilehash: 20ea88b230fe0fd9a590c489cb6f0017a2c27209
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 966c295692dcc176a9003d134a161c45e90d47e6
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814460"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887731"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
 
 查找有关 Skype for Business 云连接器版本的信息，云连接器是一组打包的虚拟机 (Vm)，这些虚拟机负责通过 Office 365 中的电话系统（云 PBX）实施本地 PSTN 连接。
 
-如果尚未安装现有 Lync 服务器或 Skype for Business Server 部署，则云连接器版本可能是你的组织的合适解决方案。 如果您仍在调查 Office 365 解决方案中的哪些电话系统适合您的企业，请参阅[Microsoft 电话解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+如果尚未安装现有 Lync 服务器或 Skype for Business Server 部署，则云连接器版本可能是你的组织的合适解决方案。 如果您仍在调查 Office 365 解决方案中的哪些电话系统适合您的企业，请参阅[Microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
 
 本文档介绍了云连接器版本要求和受支持的拓扑，并帮助你规划云连接器版本部署。 请务必阅读本主题，然后再配置你的云连接器环境。 准备好部署和配置云连接器版本时，请参阅[配置和管理 Skype For Business 云连接器版本](configure-skype-for-business-cloud-connector-edition.md)。
 
@@ -429,7 +429,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - [Office 365 url 和 IP 地址范围](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中的[证书吊销列表 url](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
-- Windows 更新：[如何为软件更新配置防火墙](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows 更新：[如何为软件更新配置防火墙](https://technet.microsoft.com/library/bb693717.aspx)
 
 - Skype for Business Online 管理员 PowerShell： \*online.lync.com
 
@@ -545,14 +545,14 @@ Edge 组件需要解析 Office 365 服务的外部名称以及其他云连接器
 
 - **选项 1.** 使用者名称应包含你为边缘组件分配的池名称。 请注意，由于此名称已保留给联机 Skype for Business Edge 组件，因此无法 sip.sipdomain.com 使用者名称。 SAN 应包含 sip.sipdomain.com 和访问边缘池名称：
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
 - **选项 2.** 如果想要在部署的所有边缘池服务器上使用单个通配符证书，则可以使用 sipdomain.com 中的通配符 SAN 条目\*，而不是证书中的边缘池名称。 使用者名称可以是你部署的任何一个边缘池的访问边缘池名称：
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
@@ -568,14 +568,14 @@ Edge 组件需要解析 Office 365 服务的外部名称以及其他云连接器
 
 - **选项 1.** 主题名称必须包含你为 Edge 组件分配的池名称。 请注意，由于此名称已保留给联机 Skype for Business Edge 组件，因此无法 sip.sipdomain.com 使用者名称。 SAN 应包含 sip.sipdomain.com 和访问边缘池名称：
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
 - <strong>选项2。</strong>如果想要在部署的所有边缘池服务器上使用单个通配符证书，则可以使用 sipdomain.com 中的通配符 SAN 条目\*，而不是证书中的边缘池名称。 使用者名称可以是你部署的任何一个边缘池的访问边缘池名称：
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   SAN = *.sipdomain1.com
   ```
@@ -708,7 +708,7 @@ Edge 组件需要解析 Office 365 服务的外部名称以及其他云连接器
 
 有关详细信息，请参阅：
 
-- [Microsoft 电话解决方案](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [配置和管理 Skype for Business 云连接器版本](configure-skype-for-business-cloud-connector-edition.md)
 

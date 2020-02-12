@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果你需要删除当前充当 Skype for Business Server 部署的文件存储的文件服务器，或者你需要进行其他更改以使当前文件存储不可用，你首先需要创建新的共享。 然后需要执行以下步骤：
-ms.openlocfilehash: e1c4338e33e736c04dbb1a2a2e81a7233df65763
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 91ba8393a958188e368ff3f8f5d2a85bcfcc1396
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817103"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888451"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>将文件存储数据移动到 Skype for Business 服务器中的新文件存储
 
@@ -37,7 +37,7 @@ ms.locfileid: "41817103"
 
 1. 以 RTCUniversersalServerAdmins 或 CsServerAdministrator 组成员的身份登录到计算机，其中安装了 Skype for Business 服务器、管理工具。
 
-2.  打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。
+2. 打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。
 
 3. 在左侧导航栏中，单击“**拓扑**”，然后单击“**状态**”。
 
@@ -55,8 +55,8 @@ ms.locfileid: "41817103"
 
    c. 在“**定义新文件存储**”中的“**文件服务器 FQDN**”下，键入文件服务器的完全限定域名 (FQDN)。 在“**文件共享**”下，键入新文件共享的文件夹名称，然后单击“**确定**”。
 
-    > [!IMPORTANT]
-    > 此步骤定义要在拓扑生成器中使用的新文件存储。 只需定义一次，无需针对每台服务器定义。 发布拓扑之前，必须在定义的文件服务器上创建定义的文件共享。 有关详细信息，请参阅[Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)。
+     > [!IMPORTANT]
+     > 此步骤定义要在拓扑生成器中使用的新文件存储。 只需定义一次，无需针对每台服务器定义。 发布拓扑之前，必须在定义的文件服务器上创建定义的文件共享。 有关详细信息，请参阅[Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx)。
 
 8. 对于每个使用文件存储的服务器或池，执行以下操作：
 
@@ -70,10 +70,9 @@ ms.locfileid: "41817103"
 
 11. 在命令行中键入：
 
-     ```console
-     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
-     ```
+    ```console
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > /S 开关复制文件、目录和子目录。 /XF 开关跳过名为 Meeting.Active 的所有文件。 带有 /MT 开关的 robocopy.exe 的当前版本通过使用多个线程大大提高了复制速度。 对于/LOG 开关，使用 C:\Logfiles\log.txt. 形式的目录路径和日志文件名 该开关可在指定位置创建操作的日志文件。
@@ -88,8 +87,6 @@ ms.locfileid: "41817103"
 
 ## <a name="see-also"></a>另请参阅
 
-
 [将服务器重新分配到其他文件存储](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [删除文件存储](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

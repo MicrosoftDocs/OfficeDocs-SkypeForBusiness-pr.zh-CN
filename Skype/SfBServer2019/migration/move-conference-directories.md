@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 在取消池之前，必须针对旧版池中的每个会议目录执行以下过程。
-ms.openlocfilehash: bdcb816a91f6bc4a4372141595e46ba2369618a6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 339b2e31867b215c12c2422fd50b94cc42e625c7
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813280"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888071"
 ---
 # <a name="move-conference-directories"></a>移动会议目录
 
@@ -62,7 +62,7 @@ ms.locfileid: "41813280"
   
 移动会议目录时，可能会遇到以下错误：
   
-```
+```console
 WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
 WARNING: Before using the -Force parameter, ensure that you have exported the conference directory data using DBImpExp.exe and imported the data on the target pool. Refer to the DBImpExp-Readme.htm file for more information.
 Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObject' to interface type 'Microsoft.Rtc.Interop.User.IRtcConfDirManagement'. 

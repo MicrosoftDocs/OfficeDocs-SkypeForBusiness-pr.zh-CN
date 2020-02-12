@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 摘要：在为 Skype for business 服务器实施 DNS 记录之前，请查看本主题中的简单 URL 注意事项。
-ms.openlocfilehash: 7eb734fb4a9005f833f27efd3b0d180593155f39
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3296e3678d1d38f021b792a2362f61de66796d0f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815780"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888471"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype for Business 服务器中的简单 Url 的 DNS 要求
 
@@ -102,13 +102,13 @@ Skype for Business 服务器支持以下三个简单的 Url： "开会"、"拨�
 
 若要配置此设置，请创建两个 GeoDNS 地址。 每个地址都有两个 DNS A 或 CNAME 记录，它们可解析为两个池，这些记录结合在一起以供灾难恢复之用。 一个 GeoDNS 地址用于内部访问，并解析为两个池的内部 web FQDN 或负载平衡器 IP 地址。 其他 GeoDNS 地址用于外部访问，并解析为两个池的外部 web FQDN 或负载平衡器 IP 地址。 下面是使用池的 Fqdn 的 "满足简单 URL" 的示例。 
 
-```
+```console
 Meet-int.geolb.contoso.com
      Pool1InternalWebFQDN.contoso.com
      Pool2InternalWebFQDN.contoso.com
 ```
 
-```
+```console
 Meet-ext.geolb.contoso.com
      Pool1ExternalWebFQDN.contoso.com
      Pool2ExternalWebFQDN.contoso.com
@@ -125,7 +125,7 @@ Meet-ext.geolb.contoso.com
 
 设置此配置后，必须使用监视应用程序设置 HTTP 监视以监视失败。 对于外部访问，请进行监视以确保 HTTPS 获取 lyncdiscover。<sipdomain> 对两个池的外部 web FQDN 或负载平衡器 IP 地址的请求成功。 例如，以下请求不得包含任何**ACCEPT**标头，并且必须返回**200 OK**。
 
-```
+```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```

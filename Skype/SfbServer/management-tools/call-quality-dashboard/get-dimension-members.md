@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 摘要：了解 "获取维度成员" 操作。 "获取维度成员" 操作是 "调用质量" 仪表板的数据 API 的一部分。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: ba80e14c011d6cecb9b70f8a8faf32764b5b433d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 40e5ac8b95c24c3a8cb759da99f7d7aeaa391576
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816821"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888811"
 ---
 # <a name="get-dimension-members"></a>获取维度成员
  
@@ -41,7 +41,7 @@ ms.locfileid: "41816821"
   
  **请求正文**-此项包含我们想要成员的维度的名称。 同样，返回的最大成员数，您可以指定一些筛选来限制返回的成员。
   
-```
+```json
 {
 "ByPassCache": false,
 "DataModelName": "[StartDate].[Month]",
@@ -63,7 +63,7 @@ ms.locfileid: "41816821"
 > [!NOTE]
 > 列表仅显示列表的一小部分。 
   
-```
+```json
 {
 "MembersCount": 493,
 "Members": [["[1990-01-01T00:00:00]",

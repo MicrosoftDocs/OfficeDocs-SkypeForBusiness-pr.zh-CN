@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 了解 Skype for Business 服务器支持的后端服务器高可用性选项，包括 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例、数据库镜像和 SQL 故障转移群集。
-ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4c814e525b3a1d0900e7162255ec4d7e86d79605
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815950"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888611"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Skype for Business 服务器中的后端服务器高可用性
  
@@ -56,7 +56,7 @@ Skype for Business 服务器支持与以下数据库软件进行镜像：
     
 
 > [!NOTE]
-> 在 Skype for Business Server 2015 中可以使用 SQL 镜像，但 Skype for Business Server 2019 不再支持该功能。 对于 Skype for Business Server 2019，首选 AlwaysOn 可用性组、AlwaysOn 故障转移群集实例 (FCI) 和 SQL 故障转移群集方法。
+> 在 Skype for Business Server 2015 中可以使用 SQL 镜像，但 Skype for Business Server 2019 不再支持该功能。 "AlwaysOn 可用性组"、"AlwaysOn 故障转移群集实例" （FCI）和 "SQL 故障转移群集" 方法是 Skype for Business Server 2019 的唯一受支持的选项。
     
 Skype for business Server 中的后端服务器高可用性不支持异步数据库镜像。 在本文档的后续部分中，除非另有说明，否则数据库镜像即表示同步数据库镜像。 
   

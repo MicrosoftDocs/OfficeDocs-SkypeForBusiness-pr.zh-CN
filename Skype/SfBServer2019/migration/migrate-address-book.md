@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 通常，通讯簿与拓扑的其余部分一起迁移。 但是，如果你在旧环境中自定义以下迁移步骤，你可能需要执行一些迁移后步骤：
-ms.openlocfilehash: 73c491a538e6bce95779533b88513321c674f018
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 976717679a5a2f1dbdd1e2045cc5d5dfe43911e3
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813600"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888161"
 ---
 # <a name="migrate-address-book"></a>迁移通讯簿
 
@@ -51,13 +51,13 @@ ms.locfileid: "41813600"
 
     包含所需的空格或标点的字符串将导致规范化规则失败，因为这些字符将从输入到规范化规则的字符串中去除。 如果你有包含必需的空格或标点的字符串，则需要修改这些字符串。 例如，以下字符串将导致规范化规则失败：
 
-   ```
+   ```console
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
    ```
 
     以下字符串不会导致规范化规则失败：
 
-   ```
+   ```console
    \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
    ```
 

@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 阅读本主题，了解如何使用 Microsoft Operations Management Suite （OMS）监视你的云连接器版本2.1 和更高版本的部署。
-ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 6c63baf078dc865a4e3aef574cff30bedabf3819
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799622"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888631"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>使用 Operations Management Suite (OMS) 监视云连接器
 
 阅读本主题，了解如何使用 Microsoft Operations Management Suite （OMS）监视你的云连接器版本2.1 和更高版本的部署。
 
-现在，你可以使用 Operations Management Suite （OMS）（Microsoft 云 IT 管理解决方案）监视你的云连接器版本2.1 和更高版本的部署。 OMS 日志分析使你能够监视和分析资源（包括物理和虚拟机）的可用性和性能。 有关 OMS 和 Log Analytics 的详细信息，请参阅[什么是操作管理套件（OMS）？](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)。
+现在，你可以使用 Operations Management Suite （OMS）（Microsoft 云 IT 管理解决方案）监视你的云连接器版本2.1 和更高版本的部署。 OMS 日志分析使你能够监视和分析资源（包括物理和虚拟机）的可用性和性能。 有关 OMS 和 Log Analytics 的详细信息，请参阅[什么是操作管理套件（OMS）？](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
 
 本主题包括以下部分：
 
@@ -58,28 +58,28 @@ ms.locfileid: "41799622"
 
 - **如果要安装新的云连接器装置或想要重新部署装置**，请在运行 CcAppliance 之前执行以下步骤：
 
-1. 在 "CloudConnector file [Common]" 部分中，将 OMSEnabled 参数设置为 True。
+    1. 在 "CloudConnector file [Common]" 部分中，将 OMSEnabled 参数设置为 True。
 
-    每当部署或升级云连接器时，它都将尝试将 OMS 代理自动安装到 Vm。 启用此功能，以便 OMS 代理可以在云连接器自动更新后继续使用。
+        每当部署或升级云连接器时，它都将尝试将 OMS 代理自动安装到 Vm。 启用此功能，以便 OMS 代理可以在云连接器自动更新后继续使用。
 
-2. 若要配置 OMS ID 和 key，请运行 CcCredential-AccountType OMSWorkspace。 
+    2. 若要配置 OMS ID 和 key，请运行 CcCredential-AccountType OMSWorkspace。 
 
 - **如果要将 OMS 代理安装到现有云连接器设备上**，请执行以下步骤：
 
-1. 在 "CloudConnector file [Common]" 部分中，设置 OMSEnabled = true。 
+    1. 在 "CloudConnector file [Common]" 部分中，设置 OMSEnabled = true。 
 
-2. 运行导入-CcConfiguration。 
+    2. 运行导入-CcConfiguration。 
 
-3. 运行安装-CcOMSAgent。 
+    3. 运行安装-CcOMSAgent。 
 
-    > [!NOTE]
-    > 如果从未设置 OMSWorkspace 凭据，则当你运行 install-CcOMSAgent 时，系统会提示你提供凭据。 
+        > [!NOTE]
+        > 如果从未设置 OMSWorkspace 凭据，则当你运行 install-CcOMSAgent 时，系统会提示你提供凭据。 
 
 - **如果要在已安装 OMS 代理的云连接器装置中更新 OMS 工作区 ID 或密钥，请执行以下操作：**
 
-1. 若要配置 OMS ID 和 key，请运行 CcCredential-AccountType OMSWorkspace。 
+    1. 若要配置 OMS ID 和 key，请运行 CcCredential-AccountType OMSWorkspace。 
 
-2. 若要应用更新，请运行安装-CcOMSAgent。 
+    2. 若要应用更新，请运行安装-CcOMSAgent。 
 
 - **对于所有方案，请验证代理是否已连接，如下所示：**
 
@@ -116,15 +116,15 @@ ms.locfileid: "41799622"
 
      活动呼叫总数：
 
-   - LS： MediationServer-入站通话（_Total\- ）电流 
+       - LS： MediationServer-入站通话（_Total\- ）电流 
 
-   - LS： MediationServer-拨出电话（_Total\- ）电流 
+       - LS： MediationServer-拨出电话（_Total\- ）电流 
 
      总活动媒体绕过通话：
 
-   - LS： MediationServer-入站呼叫（_Total\- ）主动媒体绕过呼叫 
+       - LS： MediationServer-入站呼叫（_Total\- ）主动媒体绕过呼叫 
 
-   - LS： MediationServer-出站呼叫（_Total\- ）主动媒体绕过呼叫 
+       - LS： MediationServer-出站呼叫（_Total\- ）主动媒体绕过呼叫 
 
      > [!NOTE]
      > 必须在文本框中手动输入性能计数器。 它们不会显示为下拉列表中的选项。 
@@ -155,7 +155,7 @@ OMS 中有两种类型的警报： "结果" 警报和 "指标度量" 警报的�
 
 - 针对错误警报的查询是：
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
@@ -167,19 +167,19 @@ OMS 中有两种类型的警报： "结果" 警报和 "指标度量" 警报的�
 
 - 重置警报的查询是：
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     重置查询与错误查询的内容完全相反。 对于每台计算机，如果最后一个事件是服务启动事件，它将返回一个，否则返回如果最后一个事件是服务停止事件，它将返回 nothing。
 
-  **创建通知对： "中介服务器中的并发呼叫过多" 和 "并发呼叫回退到正常负载"**
+**创建通知对： "中介服务器中的并发呼叫过多" 和 "并发呼叫回退到正常负载"**
 
 要创建此警报，请执行以下操作：
 
 - 针对错误警报的查询是：
 
-  ```
+  ```Kusto
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
@@ -187,17 +187,17 @@ OMS 中有两种类型的警报： "结果" 警报和 "指标度量" 警报的�
 
 - 重置警报的查询是：
 
-  ```
+  ```Kusto
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     重置查询与错误查询的内容完全相反。 对于每台计算机，查询将获取入站呼叫和出站呼叫的最后计数器，并对这两个值求和。 如果 sum 值小于500，它将返回一个日志;否则，它将返回 nothing。
 
-  **创建通知： "CPU 使用率\> 90 或 RTCMEDIARELAY 已停止在服务器中" 警报**
+**创建通知： "CPU 使用率\> 90 或 RTCMEDIARELAY 已停止在服务器中" 警报**
 
 若要创建此警报，查询是：
 
-```
+```Kusto
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 

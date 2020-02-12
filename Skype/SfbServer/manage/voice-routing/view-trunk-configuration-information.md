@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。
-ms.openlocfilehash: 0ccbf86891d6265298411ad2f90988123529b614
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 40820729727ec02e5494e69c773d7fbd3d7b1154
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816901"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888480"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>在 Skype for Business 服务器中查看中继配置信息
 
@@ -35,14 +35,16 @@ SIP 中继配置设置定义了在服务提供商处中介服务器和公共交�
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 查看 SIP 中继配置信息
 
-可以使用 Skype for Business Server PowerShell 和 New-cstrunkconfiguration cmdlet 查看 SIP 中继配置设置。 此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行，也可以从远程会话 Windows PowerShell 运行。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" http://go.microsoft.com/fwlink/p/?linkId=255876。 替换或删除此链接。
+可以使用 Skype for Business Server PowerShell 和 New-cstrunkconfiguration cmdlet 查看 SIP 中继配置设置。 此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行，也可以从远程会话 Windows PowerShell 运行。 有关使用远程 Windows PowerShell 连接到 Skype for Business 服务器的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" https://go.microsoft.com/fwlink/p/?linkId=255876。 替换或删除此链接。
 
 
 **查看 SIP 中继配置信息**
 
 若要查看有关所有 SIP 中继配置设置的信息，请在 Skype for Business Server 命令行管理程序中键入以下命令，然后按 ENTER：
 
-`Get-CsTrunkConfiguration`
+```powershell
+Get-CsTrunkConfiguration
+```
 
 这将返回与以下类似的信息：
 
@@ -72,7 +74,7 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-有关详细信息，请参阅[new-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet 的帮助主题。
+有关详细信息，请参阅[new-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet 的帮助主题。
 
 
 

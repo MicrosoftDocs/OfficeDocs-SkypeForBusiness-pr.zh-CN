@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Skype for Business Online 中向用户分配会议 ID，以及会议 Id 参数应该是什么。 '
-ms.openlocfilehash: 84218fefb831e37255e7049e082f7fe715dc0eb4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680449"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888061"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>查看和重置 Skype for Business Online​  中分配给用户的会议 ID
 
@@ -65,11 +65,11 @@ An email will be sent to the user with the conference ID and the default audio c
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
 
-  ```PowerShell
+  ```powershell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
-    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
+请参阅[get-csonlinedialinconferencinguser](https://go.microsoft.com/fwlink/?LinkId=617693 )以了解有关 cmdlet 的详细信息。
 
 
 ### <a name="to-reset-the-conference-id"></a>重置会议 ID
@@ -84,11 +84,11 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 3. 在**Skype for business 管理中心**> **音频会议** > **用户**的 "操作" 窗格中的 "**会议 ID**" 下，单击 "**重置**"。
 
-4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
+4. 在 "**重置会议 ID？** " 窗口中，单击 **"是"**。 A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
 **使用 Windows PowerShell**
 
-You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
+可以通过使用 Windows PowerShell 重置用户的会议 ID。 若要执行此操作，请运行：
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
@@ -97,11 +97,11 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
    > [!IMPORTANT]
-   >  After a new conference ID is created or one is reset, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+   >  在创建新的会议 ID 或重置一个会议 ID 后，呼叫者无法使用旧的会议 id。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype for Business 会议迁移工具更新其现有会议。 若要了解如何下载、安装和运行该工具，请参阅：[适用于 skype for business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、skype For business [Online、会议迁移工具（64位）](https://go.microsoft.com/fwlink/?LinkID=626047)和[Skype For Business online、会议迁移工具（32位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
 
 - 请参阅 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) 以了解有关 cmdlet 的更多信息。
 
-- The conference ID must meet the length in digits set on the audio conferencing bridge. You can't use alphabetic or special characters in conference IDs; only numbers can be used.
+- 会议 ID 必须满足在音频会议网桥上设置的数字长度。 您不能在会议 Id 中使用字母或特殊字符;只能使用数字。
 
 - 默认情况下，所有音频会议用户的会议 ID 都是7位数字，并且位数不能更改。
 
@@ -114,7 +114,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
 
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
 

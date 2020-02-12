@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Skype for business Online 允许您创建其他外部访问策略。 与客户端或会议策略（你可以有多个组合）不同，有三个预定义的外部访问策略可涵盖大多数方案。
-ms.openlocfilehash: 49572dc1aaef3d595bd0de41fd6359d90e8d803a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19b022bac8a43c595b07085db921da6a404d9ac7
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706657"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887911"
 ---
 # <a name="create-custom-external-access-policies"></a>创建自定义外部访问策略
 
@@ -85,15 +85,15 @@ Skype for business Online 允许您创建其他外部访问策略。 与客户�
 
 若要执行此操作，请运行：
   
-> 
->   ```PowerShell
->   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
->   ```
-> 
-> 
->   ```PowerShell
->   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
->   ```
+ 
+```powershell
+New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
+```
+
+
+```powershell
+Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
+```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 

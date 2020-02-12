@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本主题介绍 Skype for Business Server 2015 资源工具包中的工具，包括每个工具的用途以及它的使用示例。 Skype for Business Server 2015 资源工具包可帮助部署和管理 Skype for business Server 2015 的 IT 管理员更轻松地执行日常任务。 例如，Web Conf Data 工具可用于轻松控制召开联机会议期间用户上载的数据。 SEFAUtil 工具可用于为用户设置代理人呼叫转接和应答。 我们鼓励 IT 管理员使用这些工具更有效地管理 Skype for Business Server 2015。
-ms.openlocfilehash: c4fb43d7996133f5608b13a3fea693665ebd3e4b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1a0b787f8cd82291d408e3e3ad30e58e0b8a3627
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816251"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888881"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 资源管理包工具文档
 
@@ -94,7 +94,7 @@ ABSConfig 是一种图形用户界面应用程序，使管理员能够配置与�
 
 ABSConfig 将通讯簿服务配置存储在数据库中。
 
-```PowerShell
+```console
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
@@ -231,8 +231,8 @@ ABSConfig 工具为管理员提供了一种快速易用的工具，可用于自�
 
 - 自定义报告，使用 BandwidthUtilizationAnalyzer.xlsm 执行
 
-> [!IMPORTANT]
-> 强烈建议最终用户不要手动启动 BandwidthUtilizationAnalyzer.xlsm。
+    > [!IMPORTANT]
+    > 强烈建议最终用户不要手动启动 BandwidthUtilizationAnalyzer.xlsm。
 
 #### <a name="starting-bandwidth-utilization-analyzer"></a>启动带宽用量分析器
 
@@ -266,10 +266,10 @@ ABSConfig 工具为管理员提供了一种快速易用的工具，可用于自�
 
 - **临时文件存储位置**生成报表时存储中间文件的临时文件位置。
 
-![带宽用量分析中的文件目录](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+    ![带宽用量分析中的文件目录](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
-> [!NOTE]
-> 确保向工具用户提供对服务器日志和临时文件存储文件夹足够的文件访问权限。
+    > [!NOTE]
+    > 确保向工具用户提供对服务器日志和临时文件存储文件夹足够的文件访问权限。
 
 #### <a name="step-3---collect-the-logs-and-start-the-report-viewer"></a>步骤 3 - 收集日志并启动报告查看器
 
@@ -517,7 +517,7 @@ DBAnalyze 是一种命令行工具，可帮助管理员收集有关 Skype for Bu
 
 以下是有效 Dbanalyze.exe 命令的示例：
 
-```
+```console
 dbanalyze.exe /report:diag
 dbanalyze.exe /report:user /user:usera@domainb.com
 dbanalyze.exe /report:conf /user:bob@example.com /conf:1W9J71SKSX2X
@@ -558,7 +558,7 @@ ImportStorageServiceData 资源管理包工具允许将已从存储服务 (LYSS)
 
 ### <a name="examples"></a>示例
 
-```
+```console
 >  C:\StorageService>ImportStorageServiceData.exe
 Description:
 This tool will re-import Storage Service (LYSS) flushed queue data back in.  For a pool: you are required to run this tool on a machine inside the pool which has the Lync Server Management Shell installed.  Additionally, all front end machines need to have Windows Powershell Remoting enabled before executing this tool by executing Enable-PSRemoting.  Also, please ensure that all Storage Service instance DB Size are at the 'Normal' level (verify this by viewing Eventlog events). Otherwise re-importing may cause data to be flushed out again if any Storage Service instance DB size level goes above 'Normal'.
@@ -746,7 +746,7 @@ LookupUserConsole 工具显示有关特定用户的内部 Skype for business 服
 
 C:\Program Files\Skype for Business Server 2015 \ ResKit\>LookupUserConsole
 
-```
+```console
 > sip:john.doe@vdomain.com
 
   Execution time (ms):                            171.094
@@ -835,7 +835,7 @@ MSTurnPing 工具允许 Skype for Business Server 2015 通信软件的管理员�
 
 以下是工具输入的示例。
 
-```
+```console
 MsTurnPing -ServerRole AudioVideoEdgeServer
 
 MsTurnPing -ServerRole BandwidthPolicyServer
@@ -1047,7 +1047,7 @@ SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机�
 
 1. SEFAUTil 工具只能在属于受信任应用程序池的一部分的计算机上运行。 如果需要，可以通过 Skype for Business Server Management Shell 使用以下 cmdlet，将池添加为新的受信任的应用程序池：
 
-   ```PowerShell
+   ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
 
@@ -1056,7 +1056,7 @@ SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机�
 
 2. 需要在拓扑中为 SEFAUtil 工具定义受信任的应用程序。 若要将 SEFAUtil 定义为新的受信任的应用程序，请使用 Skype for Business Server 命令行管理程序并执行以下 cmdlet：
 
-   ```PowerShell
+   ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
@@ -1070,7 +1070,7 @@ SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机�
 
 3. 需要启用拓扑更改。 通过执行以下 cmdlet，启用拓扑更改可通过 Skype for Business Server Management Shell 执行：
 
-   ```PowerShell
+   ```powershell
    Enable-CsToplogy
    ```
 
@@ -1099,7 +1099,7 @@ SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机�
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1112,13 +1112,13 @@ Call Forward No Answer to: voicemail
 
 此示例设置呼叫转接/无应答目标和响铃延迟。 此处未提供/server 开关;SEFAUtil 将尝试自动发现 Skype for Business Server 2015。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+1425555 0126@contoso.com;user=phone
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1131,13 +1131,13 @@ Call Forward No Answer to: sip:+14255550126@contoso.com;user=phone
 
 此示例立即启用至其他用户的呼叫转接。
 
-```
+```console
 SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:anders@contoso.com
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1149,13 +1149,13 @@ Forward immediate to: sip:anders@contoso.com
 
 此示例立即禁用呼叫转接。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimmediate
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1168,13 +1168,13 @@ Call Forward No Answer to: voicemail
 
 此示例将用户添加为代理人并设置代理人的同时响铃。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:joe@contoso.com /simulringdelegates
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1185,13 +1185,13 @@ Simultaneously Ringing Delegates: sip:joe@contoso.com
 
 此示例将上一示例中设置的同时响铃规则更改为延迟的响铃规则。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringdelegates:10
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1206,13 +1206,13 @@ Delay Ringing Delegates (delay:10 seconds): sip:joe@contoso.com
 > [!NOTE]
 > 删除了最后一个代理人后，代理人响铃将自动禁用。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removedelegate:joe@contoso.com
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1225,13 +1225,13 @@ Call Forward No Answer to: voicemail
 
 此示例将添加代理人并设置代理人呼叫转接规则。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate:anders@contoso.com /fwdtodelegates
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1242,7 +1242,7 @@ Forwarding calls to Delegates: sip:anders@contoso.com
 
 此示例将启用同时响铃并设置同时响铃目标号码。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulringdestination:+14255550126 /enablesimulring
 ```
 
@@ -1251,7 +1251,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulrin
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1263,13 +1263,13 @@ Simul_Ringing to: sip:+14255550126@contoso.com;user=phone
 
 此示例将禁用同时响铃。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimulring
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1282,7 +1282,7 @@ Call Forward No Answer to: voicemail
 
 此示例向用户的团队呼叫组添加团队成员，并启用团队呼叫组同时响铃。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammember:anders@contoso.com /simulringteam
 ```
 
@@ -1291,7 +1291,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1302,7 +1302,7 @@ Team ringing enabled. Team: sip:anders@contoso.com
 
 此示例将删除用户的团队呼叫组的团队成员。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteammember:anders@contoso.com
 ```
 
@@ -1311,7 +1311,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteamm
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1323,13 +1323,13 @@ Call Forward No Answer to: voicemail
 
 此示例将延迟响铃更改为团队呼叫组时间设置。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringteam:5
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1340,7 +1340,7 @@ Delay Ringing Team (delay:5 seconds). Team: sip:anders@contoso.com
 
 此示例为给定用户启用团队呼叫。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringteam
 ```
 
@@ -1353,13 +1353,13 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /simulringte
 
 此示例为给定用户禁用团队呼叫。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteamcall
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1371,13 +1371,13 @@ Call Forward No Answer to: voicemail
 
 此示例为用户分配应答组并启用组呼叫应答。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegrouppickup:199
 ```
 
  **输出**
 
-```output
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1388,14 +1388,14 @@ Group Pickup Orbit: sip:199;phone-context=user-default@ contoso.com;user=phone
 
 此示例为给定用户禁用组呼叫应答。
 
-```
+```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablegrouppickup
 ```
 
 > [!NOTE]
 > 当为某个用户禁用组呼叫应答时，分配给该用户的组号码不再保留。如果你随后想为该用户重新启用组呼叫应答，必须使用 /enablegrouppickup 开关再次分配组号码。
 
-```
+```console
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1509,7 +1509,7 @@ Move-CsAnnouncementConfiguration 脚本需要下表所述的两个参数。
 
 此示例将源池（Lync Server 2013）的未分配数字公告移动到目标池（Skype for business Server 2015）。
 
-```PowerShell
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
@@ -1517,7 +1517,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination
 
 此示例将 "源池" （Skype for business Server 2015）的 "未分配的号码" 通知移动到目标池（Lync Server 2013）。
 
-```PowerShell
+```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
 ```
 
@@ -1538,8 +1538,8 @@ Web 会议数据工具允许 Skype for business Server 2015 通信软件的管�
 
 4. 当单个用户从一个池移动到另一个池时，移动与该用户相关联的所有 Web 会议数据。
 
-> [!NOTE]
-> 当用户从一个池移动到另一个时，Lync Server 2010 的资源工具包工具支持移动与单个用户关联的所有 Web 会议数据。 此工具现已弃用该功能，改为使用 **MoveConferenceData** 参数。 有关此参数的详细信息，请参阅[move-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) cmdlet。
+    > [!NOTE]
+    > 当用户从一个池移动到另一个时，Lync Server 2010 的资源工具包工具支持移动与单个用户关联的所有 Web 会议数据。 此工具现已弃用该功能，改为使用 **MoveConferenceData** 参数。 有关此参数的详细信息，请参阅[move-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser.md?view=skype-ps) cmdlet。
 
 该工具仅删除处于非活动状态的会议的会议数据。无法删除活动会议（或正在进行会话的会议）。
 
@@ -1565,13 +1565,13 @@ Web 会议数据工具允许 Skype for business Server 2015 通信软件的管�
 
 ![Web 会议数据工具参数。](../media/Reskit_2012_Tools_Documentation_Image51.JPG)
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
 ```
 
 上述示例介绍了查询命令如何工作。此类命令的输出是受此工具影响的所有会议内容文件夹的列表。
 
-```
+```console
 WebConfDataTool.exe /User:user0@contoso.com /Action:delete
 ```
 

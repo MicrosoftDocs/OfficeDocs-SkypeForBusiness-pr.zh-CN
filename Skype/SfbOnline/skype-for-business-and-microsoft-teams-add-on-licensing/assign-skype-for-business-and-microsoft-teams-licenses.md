@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '了解如何为电话系统、音频会议、通话套餐和通信点数分配 Skype for Business 许可证。 '
-ms.openlocfilehash: 9aa423683160c064b13be140c4226b2327dd9b69
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f2b2e2ad4952b55fade7e0b8eddb1755ea3f2cea
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692517"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887811"
 ---
 # <a name="assign-skype-for-business-licenses"></a>分配 Skype for Business 许可证
 
@@ -64,7 +64,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
    脚本中的许可证或产品名称的名称以斜体文本列出（请参阅在此示例之后的**电话系统和通话计划产品名称或用于脚本的 sku**）。
 
-   ```
+   ```powershell
    #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
 
    #Example of text file:
@@ -137,40 +137,40 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
     此示例分配了一个企业版 E3 许可证和一个音频会议许可证。
 
-```
-#Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
-#Example of text file:
-#user1@domain.com
-#user2@domain.com
+    ```powershell
+    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+    #Example of text file:
+    #user1@domain.com
+    #user2@domain.com
 
-#Import Module
-ipmo MSOnline
+    #Import Module
+    ipmo MSOnline
 
-#Authenticate to MSOLservice
-Connect-MSOLService
-#File prompt to select the userlist txt file
-[System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
-  $OFD = New-Object System.Windows.Forms.OpenFileDialog
-  $OFD.filter = "text files (*.*)| *.txt"
-  $OFD.ShowDialog() | Out-Null
-  $OFD.filename
+    #Authenticate to MSOLservice
+    Connect-MSOLService
+    #File prompt to select the userlist txt file
+    [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+      $OFD = New-Object System.Windows.Forms.OpenFileDialog
+      $OFD.filter = "text files (*.*)| *.txt"
+      $OFD.ShowDialog() | Out-Null
+      $OFD.filename
 
-If ($OFD.filename -eq '')
-{
-Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
-}
-
-#Create a variable of all users
-$users = Get-Content $OFD.filename
-
-#License each user in the $users variable
-foreach ($user in $users)
+    If ($OFD.filename -eq '')
     {
-    Write-host "Assigning License: $user"
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
-    Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
+    Write-Host "You did not choose a file. Try again" -ForegroundColor White -BackgroundColor Red
     }
-```
+
+    #Create a variable of all users
+    $users = Get-Content $OFD.filename
+
+    #License each user in the $users variable
+    foreach ($user in $users)
+        {
+        Write-host "Assigning License: $user"
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:ENTERPRISEPACK " -ErrorAction SilentlyContinue
+        Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "companyname:MCOMEETADV " -ErrorAction SilentlyContinue
+        }
+    ```
 
 ### <a name="audio-conferencing-product-names-or-skus-used-for-scripting"></a>用于脚本的音频会议产品名称或 Sku
 <a name="sku"> </a>

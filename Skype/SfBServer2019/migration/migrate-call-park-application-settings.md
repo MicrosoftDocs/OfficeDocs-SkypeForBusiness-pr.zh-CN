@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 此呼叫驻留应用程序的迁移包括预配 Skype for Business Server 2019 池，其中包含已在旧安装中上载的任何自定义音乐 "暂停" 文件，还原服务级别设置和 retargeting 所有呼叫公园轨道式Skype for Business Server 2019 池。 如果已在池中配置了自定义的 "已保留的音乐" 文件，则需要将这些文件复制到新的 Skype for Business Server 2019 池。 此外，建议将任何呼叫寄存自定义的 "外出时" 文件从另一个目的地备份到另一个目的地，以保留为呼叫寄存上载的任何自定义的已保留音乐文件的单独备份副本。 用于呼叫寄存应用程序的自定义的 "保留式音乐" 文件存储在该池的文件存储中。 若要将音频文件从池文件存储复制到 Skype for business Server 2019 文件存储，请使用 Xcopy 命令和以下参数：
-ms.openlocfilehash: b9e55bc76e718d499482fb21e029a0a74e8f207f
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 058f2f1652dcb7c05730fd058e9867a4c2dee8af
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813580"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888131"
 ---
 # <a name="migrate-call-park-application-settings"></a>迁移呼叫寄存应用程序设置
 
 呼叫驻留应用程序的迁移包括预配 Skype for Business Server 2019 池，其中包含已在旧安装中上载的任何自定义的音乐暂停文件，还原服务级别设置并重新定向所有呼叫寄存的轨道式Skype for business Server 2019 池。 如果已在池中配置了自定义的 "已保留的音乐" 文件，则需要将这些文件复制到新的 Skype for Business Server 2019 池。 此外，建议您将任何呼叫寄存自定义的 "已保留的音乐" 文件备份到另一个目的地，以保留为呼叫寄存上载的任何自定义的已保留音乐文件的单独备份副本。 用于呼叫寄存应用程序的自定义的 "保留式音乐" 文件存储在该池的文件存储中。 若要将音频文件从池文件存储复制到 Skype for business Server 2019 文件存储，请使用**Xcopy**命令和以下参数： 
 
-```
+```console
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
 ```
 
-```
+```console
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 

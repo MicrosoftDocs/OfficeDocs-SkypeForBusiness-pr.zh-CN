@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 摘要：了解有关 "获取集成日志" 操作（这是 "调用质量" 仪表板的数据 API 的一部分）的信息。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: 9caa909e80a0bab5257af16fe77e9d154947a56e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e1d790f4723eaaf716482143f08c78624db47433
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816811"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888801"
 ---
 # <a name="get-integration-log"></a>获取集成日志
  
@@ -51,7 +51,7 @@ ms.locfileid: "41816811"
   
  **响应正文**-下面是日志条目的示例结构。
   
-```
+```json
 [
 {"LogCategory":"<category>","LogTime":"2015-03-18T10:28:29.10","LogDescription":"<log description>"}
 ]

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要：了解呼叫质量仪表板的部署过程。 通话质量仪表板是 Skype for business 服务器的工具。
-ms.openlocfilehash: ccfb19bf8069bf72d52d7399b012d81af72e4110
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3ab7ea5130b33578169505969ee8f43a73a2ac32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816851"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888831"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>部署 Skype for business 服务器的通话质量仪表板
  
@@ -88,7 +88,7 @@ QoE 存档的设置过程涉及创建 QoE 存档数据库、部署 SQL Server �
    - **SQL 代理作业用户用户名&amp;密码：** 将用于运行 SQL Server 代理作业的 "QoE 存档数据" 步骤的域服务帐户名称和密码（将运行存储过程以从 QoE 指标数据库提取数据到存档数据库中，因此，此帐户必须具有对 QoE 指标 DB 的读取访问权限，如 "帐户" 部分中所示。 此帐户还需要在 QoE 存档 SQL Server 实例中具有登录名。
     
      > [!NOTE]
-     > 运行 SQL Server 实例的帐户（如 NT SERVICE\MSSQLSERVER）必须具有上述目录的访问权限/权限才能成功安装。 有关详细信息，请参阅为[数据库引擎访问配置文件系统权限](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > 运行 SQL Server 实例的帐户（如 NT SERVICE\MSSQLSERVER）必须具有上述目录的访问权限/权限才能成功安装。 有关详细信息，请参阅为[数据库引擎访问配置文件系统权限](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx)
   
 7. 单击 "下一步" 后，如果遇到任何问题，安装程序将执行先决条件检查并报告。 当所有先决条件检查均通过时，安装程序将转到 "多维数据集配置" 页面。 
     
@@ -104,7 +104,7 @@ QoE 存档的设置过程涉及创建 QoE 存档数据库、部署 SQL Server �
    - **多维数据集分析服务器：** 要在其中创建多维数据集的 SQL Server Analysis 服务实例名称。 这可以是不同的计算机，但安装用户必须是目标 SQL Server Analysis Service 实例的服务器管理员的成员。
     
      > [!NOTE]
-     >  有关配置 Analysis Services 服务器管理员权限的详细信息，请参阅[授予服务器管理员权限（Analysis Services）](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+     >  有关配置 Analysis Services 服务器管理员权限的详细信息，请参阅[授予服务器管理员权限（Analysis Services）](https://msdn.microsoft.com/library/ms174561.aspx)
   
    - **使用多个分区：** 默认设置为 "多个分区"，这需要 SQL Server 的商业智能版本或企业版。 对于标准版，请选择 "单分区" 选项。 请注意，如果使用单个分区，则多维数据集处理性能可能会受到影响。
     
@@ -135,7 +135,7 @@ QoE 存档的设置过程涉及创建 QoE 存档数据库、部署 SQL Server �
   
 如果启用了调试模式，将显示详细日志消息。 若要启用调试模式，请转到 **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**，并更新以下行，以便将该值设置为**True**：
 
-```
+```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
@@ -161,7 +161,7 @@ QoE 存档的设置过程涉及创建 QoE 存档数据库、部署 SQL Server �
   
 配置详细信息存储在位于门户的物理目录中的 web.config 中。
   
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -233,7 +233,7 @@ QoE 存档的设置过程涉及创建 QoE 存档数据库、部署 SQL Server �
   
 在 IIS 中启用 SSL/TLS，并强制用户通过安全的 HTTPS （而不是 HTTP）进行连接：
   
-1. 在 IIS 中配置安全套接字层，请参阅[在 iis 7 中配置安全套接字层](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx)。 完成后，将`http`替换`https`为。
+1. 在 IIS 中配置安全套接字层，请参阅[在 iis 7 中配置安全套接字层](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx)。 完成后，将`http`替换`https`为。
     
 2. 有关在 SQL Server 连接中启用 TLS 的说明，请参阅[如何使用 Microsoft 管理控制台为 SQL server 实例启用 SSL 加密](https://support.microsoft.com/en-us/kb/316898/)。
     
