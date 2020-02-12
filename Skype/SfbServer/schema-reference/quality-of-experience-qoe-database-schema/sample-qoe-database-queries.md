@@ -13,26 +13,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: 本部分包含适用于体验质量（QoE）数据库的示例查询。
-ms.openlocfilehash: 46286f23a2f687d8c7464c2e131e4cef943a57c2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 099e0ed179ab22e3610aaf8b00d3745a315bb734
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41806200"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888651"
 ---
-# <a name="sample-qoe-database-queries"></a><span data-ttu-id="39d34-103">示例 QoE 数据库查询</span><span class="sxs-lookup"><span data-stu-id="39d34-103">Sample QoE database queries</span></span>
+# <a name="sample-qoe-database-queries"></a><span data-ttu-id="edb9c-103">示例 QoE 数据库查询</span><span class="sxs-lookup"><span data-stu-id="edb9c-103">Sample QoE database queries</span></span>
  
-<span data-ttu-id="39d34-104">本部分包含适用于体验质量（QoE）数据库的示例查询。</span><span class="sxs-lookup"><span data-stu-id="39d34-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
+<span data-ttu-id="edb9c-104">本部分包含适用于体验质量（QoE）数据库的示例查询。</span><span class="sxs-lookup"><span data-stu-id="edb9c-104">This section contains sample queries for the Quality of Experience (QoE) database.</span></span> 
   
-<span data-ttu-id="39d34-105">使用以下示例获取所有音频流的抖动和数据包平均损失。</span><span class="sxs-lookup"><span data-stu-id="39d34-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
+<span data-ttu-id="edb9c-105">使用以下示例获取所有音频流的抖动和数据包平均损失。</span><span class="sxs-lookup"><span data-stu-id="edb9c-105">Use the following example to get the jitter and packet loss average for all audio streams.</span></span>
   
-```
+```SQL
 select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 ```
 
-<span data-ttu-id="39d34-106">使用以下示例查找使用会议控制台的会议总数。</span><span class="sxs-lookup"><span data-stu-id="39d34-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
+<span data-ttu-id="edb9c-106">使用以下示例查找使用会议控制台的会议总数。</span><span class="sxs-lookup"><span data-stu-id="edb9c-106">Use the following example to find the total numbers of conferences that used Meeting Console.</span></span>
   
-```
+```SQL
 select avg(ConversationalMOS)
 from SessionView s
 inner join MediaLineView m
@@ -43,9 +43,9 @@ on s.ConferenceDateTime = m.ConferenceDateTime
    and s.CalleeUserAgentType = 4 -- Lync
 ```
 
-<span data-ttu-id="39d34-107">使用以下示例获取每个捕获设备的 ConversstionalMOS、SendingMOS 和 ListendingMOS。</span><span class="sxs-lookup"><span data-stu-id="39d34-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
+<span data-ttu-id="edb9c-107">使用以下示例获取每个捕获设备的 ConversstionalMOS、SendingMOS 和 ListendingMOS。</span><span class="sxs-lookup"><span data-stu-id="edb9c-107">Use the following example to get ConversstionalMOS, SendingMOS and ListendingMOS per capture device.</span></span>
   
-```
+```SQL
 select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
 from
 (
