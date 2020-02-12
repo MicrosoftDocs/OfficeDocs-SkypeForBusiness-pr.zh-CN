@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本主题，了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: 4e6e26f0beaa74806ebc52ca31c007f5ec085fdc
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: d279792315aec17df10f5c1335306147c7080287
+ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863173"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41953773"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -257,7 +257,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 将解析为下列 IP 地址之一：
 
 |**流量**|**从**|**到**|**源端口**|**目标端口**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP 代理|SBC|1024-65535 （For Office 365 仅限使用 GCC 高/DoD 的端口5061和5062）|在 SBC 上定义|
+|SIP/TLS|SIP 代理|SBC|1024-65535|在 SBC 上定义（对于 Office 365，必须使用仅限适用于 Office 的 GCC 5061 和5062）|
 SIP/TLS|SBC|SIP 代理|在 SBC 上定义|5061|
 ||||||
 

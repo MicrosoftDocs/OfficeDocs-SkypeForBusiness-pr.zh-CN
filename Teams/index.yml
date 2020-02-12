@@ -1,53 +1,77 @@
 ### YamlMime:Hub
-title: Microsoft Teams 技术文档
-summary: Microsoft Teams 技术文档
+title: Microsoft 团队管理员文档
+summary: 了解如何向团队推出和管理团队和为团队准备用户
 brand: teams
 metadata:
-  title: Microsoft Teams 技术文档
-  description: Microsoft Teams 技术文档
+  title: Microsoft 团队管理员文档
+  description: 了解如何向团队推出和管理团队和为团队准备用户
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
-  ms.date: 07/03/2019
+  ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: 6c588d03d27d0f4c6641546a75e9e371b2b8c04b
-  ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+  ms.openlocfilehash: aaa60d789f5048c11647460dccb636da8c519e62
+  ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/11/2020
-  ms.locfileid: "41889421"
+  ms.lasthandoff: 02/12/2020
+  ms.locfileid: "41953793"
+highlightedContent:
+  items:
+  - title: 如何推广 Teams
+    itemType: deploy
+    url: /MicrosoftTeams/how-to-roll-out-teams
+  - title: 查找你和你的用户的培训
+    itemType: learn
+    url: /MicrosoftTeams/training-microsoft-teams-landing-page
+  - title: 从 Skype for Business 升级到 Teams
+    itemType: overview
+    url: /MicrosoftTeams/upgrade-start-here
+  - title: 采用中心
+    itemType: get-started
+    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+  - title: IT 体系结构海报和解决方案
+    itemType: architecture
+    url: /MicrosoftTeams/teams-architecture-solutions-posters
+  - title: 如果您不熟悉团队，请从这里开始
+    itemType: quickstart
+    url: /MicrosoftTeams/teams-overview
 additionalContent:
   sections:
-  - title: 面向 IT 专业人士
-    items:
-    - title: 欢迎使用 Teams
-      summary: 大致了解团队，并以团队管理员或 IT 专业人员的身份找到所需的技术指南。
-      url: /MicrosoftTeams/teams-overview
-    - title: 从 Skype for Business 升级到 Teams
-      summary: 查找探索 Teams 的最佳路径的指南和工具。
-      url: /MicrosoftTeams/upgrade-start-here
-    - title: 采用中心
-      summary: 获取支持团队推出的工具。
-      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-    - title: 查找培训和视频
-      summary: 获取团队培训-适用于你和你的用户。
-      url: /MicrosoftTeams/training-microsoft-teams-landing-page
-    - title: 海报：Teams 体系结构、电话解决方案
-      summary: 获取团队 IT 体系结构和电话解决方案的可打印图。
-      url: /microsoftteams/teams-architecture-solutions-posters
-    - title: 在组织中推广 Teams
-      summary: 查找适用于您的行业的自定义解决方案-包括医疗保健、一线工作者、零售、政府和教育。
-      url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
-  - title: 对于其他受众
-    items:
-    - title: Teams 技术社区
-      summary: 加入团队技术社区以提出问题和获取答案，并阅读团队博客。
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-    - title: 最终用户 Teams 帮助
-      summary: 转到帮助、培训和最终用户的新增内容。
-      url: https://support.office.com/Teams
-    - title: Teams 开发人员平台
-      summary: 了解团队开发人员平台以及它如何使你构建有用且功能强大的应用。
-      url: /microsoftteams/platform/overview
+  - items:
+    - title: 热门文章
+      links:
+      - text: 为团队准备网络
+        url: /MicrosoftTeams/prepare-network
+      - text: 为团队使用顾问帮助您推广团队
+        url: /MicrosoftTeams/use-advisor-teams-roll-out
+      - text: 团队如何使用内存
+        url: /MicrosoftTeams/teams-memory-usage-perf
+      - text: 与其他组织中的用户通信（来宾/外部访问）
+        url: /MicrosoftTeams/communicate-with-users-from-other-organizations
+      - text: 团队中的安全和合规性
+        url: /MicrosoftTeams/security-compliance-overview
+    - title: 与团队进行语音通话
+      links:
+      - text: Cloud voice in Microsoft Teams
+        url: /MicrosoftTeams/cloud-voice-landing-page
+      - text: Microsoft 365 商务语音
+        url: /MicrosoftTeams/business-voice/whats-business-voice
+      - text: 电话系统直接路由
+        url: /MicrosoftTeams/direct-routing-landing-page
+      - text: 设置公共区域电话
+        url: /MicrosoftTeams/set-up-common-area-phones
+    - title: 更多团队内容
+      links:
+      - text: 最终用户的帮助内容
+        url: https://support.office.com/Teams
+      - text: Teams 技术社区
+        url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+      - text: 团队用户反馈论坛
+        url: https://microsoftteams.uservoice.com/
+      - text: 团队产品信息
+        url: https://products.office.com/microsoft-teams/group-chat-software
+      - text: Teams 开发人员平台
+        url: https://docs.microsoft.com/microsoftteams/platform/overview
