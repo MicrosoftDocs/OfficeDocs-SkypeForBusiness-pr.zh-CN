@@ -18,12 +18,12 @@ f1.keywords:
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b90c2ab7b204964082c05cbc657c4945f5730fde
-ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889445"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962091"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -78,7 +78,7 @@ ms.locfileid: "41889445"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Teams 需要访问 Google Gstatic <br/> |目前，Teams 需要访问（TCP 端口 443）Google ssl.gstatic.com 服务（https://ssl.gstatic.com) 适用于所有用户；即使你不使用 Gstatic，也是如此。 团队将很快删除此要求（2020 年初）。 <br/> | 无解决方法。 <br/> |2020/2/10  <br/> |
+|Teams 需要访问 Google Gstatic <br/> |目前，Teams 要求所有用户都能访问（TCP 端口 443）Google ssl.gstatic.com 服务（即使你不使用 Gstatic，也是如此）。 团队将很快删除此要求（2020 年初）。 <br/> | 无解决方法。 <br/> |2020/1/30  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|

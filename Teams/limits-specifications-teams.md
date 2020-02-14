@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea50a504aa43c9df333a077c7f866a487f544a04
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833452"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962081"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -42,12 +42,15 @@ ms.locfileid: "41833452"
 |Office 365 租户可拥有的团队数    | 500,000&sup2;     |
 |每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
 |各团队专用频道数    |30|
+|频道对话文章大小 | 每篇文章约 28 KB<sup>4</sup> |
 
 &sup1; Azure Active Directory 中的目录对象均计入此限额。 如同使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
 
 &sup2; 此限制涵盖已存档的团队。
 
 &sup3; 已删除的频道可在删除后 30 天内还原。 在该等 30 天，已删除的频道仍然计入每个团队 200 个频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队 200 个频道这一限额内。
+
+<sup>4</sup> 28 KB 是一个近似限制，因为它包含消息本身（文本和图像链接等）、@提及、连接器数量和回应。
 
 ## <a name="messaging"></a>消息传递
 
@@ -61,10 +64,13 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |---------|---------|
 |私人聊天中的人员数<sup>1</sup>  | 100    |
 |文件附件数<sup>2</sup>  |10     |
+|聊天大小 | 每篇文章约 28 KB<sup>3</sup> |
 
 <sup>1</sup>如果参与某次聊天的人数超过 20 人，则禁用以下聊天功能：Outlook 自动答复和 Teams 状态消息、键入指示器、视频和音频呼叫、共享、已读回执。
 
 <sup>2</sup>如果附件数超过此限制，你将看到一条错误消息。
+
+<sup>3</sup> 28 KB 是一个近似限制，因为它包含消息本身（文本和图像链接等）、@提及和回应。
 
 ### <a name="emailing-a-channel"></a>向频道发送电子邮件
 
