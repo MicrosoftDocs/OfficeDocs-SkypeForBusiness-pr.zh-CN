@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4944dd2f48f56032a0c3a54e3c2cacabd210520d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 11700a772cbc961567bf06707244ea67cc0b1406
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826660"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008114"
 ---
 # <a name="teams-for-healthcare"></a>适用于医疗保健业的 Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "41826660"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -54,7 +54,7 @@ ms.locfileid: "41826660"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
+                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -72,7 +72,7 @@ ms.locfileid: "41826660"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
+                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
                         </div>
                     </div>
                     <div class="cardText">

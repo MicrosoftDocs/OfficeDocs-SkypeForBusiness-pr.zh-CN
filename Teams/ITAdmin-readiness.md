@@ -18,12 +18,12 @@ ms.custom:
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a602aef5d817e3d7aecae95491f7de559598570b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9cf627c21e98f64f14a8a925fa615f02b38fae28
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834463"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048803"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 
@@ -90,17 +90,18 @@ ms.locfileid: "41834463"
 
 <h2>技术培训</h2>
 
-| 模块 | 视频 | PowerPoint 幻灯片 |
+| 模块 | 视频 | PowerPoint 幻灯片  |
 | ------------ | -------------------- | -------------------- |
 | [Microsoft 结构-IT YouTube 频道的团队基础](https://aka.ms/MicrosoftTeamsforIT) | [视频：团队重点适用于 IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) （10:13 分钟）<br>[视频：部署 & 配置团队-简介](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2)（8:22 分钟）  <br>[视频：安全和合规性](https://youtu.be/91lHNKVVvQ4)（12:42 分钟）<br>[视频：针对安全和合规性的团队控制](https://www.youtube.com/watch?v=Km4T4hMM__k)（10:54 分钟）||
 | 基础-核心组件 | [视频](https://aka.ms/teams-foundations) | [幻灯片](https://aka.ms/teams-foundations-deck) |
 | Windows 桌面客户端 | [视频](https://aka.ms/teams-clients) | [幻灯片](https://aka.ms/teams-clients-deck) |
 | 管理、管理和生命周期 | [视频](https://aka.ms/teams-governance) | [幻灯片](https://aka.ms/teams-governance-deck) |
 | 安全 & 合规性 | [视频](https://aka.ms/teams-security-compliance) | [幻灯片](https://aka.ms/teams-security-compliance-deck) |
-| 网络规划 | [视频](https://aka.ms/teams-networking) | [幻灯片](https://aka.ms/teams-networking-deck) |
 | 通话质量概述 | [视频](https://aka.ms/teams-quality) | [幻灯片](https://aka.ms/teams-quality-deck) |
 | 会议简介 | [视频](https://aka.ms/teams-meetings-intro) | [幻灯片](https://aka.ms/teams-meetings-intro-deck) |
-| 媒体 |[视频](https://aka.ms/media-in-teams)  | [幻灯片](https://aka.ms/media-in-teams-deck)|
+| 媒体-为什么会议很简单|[视频](https://aka.ms/media-in-teams)  | [幻灯片](https://aka.ms/media-in-teams-deck)|
+| 媒体-媒体流 | [视频](https://aka.ms/teams-media-flows) | [幻灯片](https://aka.ms/teams-media-flows-deck)  |
+| 动态紧急电话 | [视频](https://aka.ms/teams-dec) |  [幻灯片](https://aka.ms/teams-dec-deck) |
 | 实时事件 | [视频](https://aka.ms/teams-live-events-session) | [幻灯片](https://aka.ms/teams-live-events-deck) |
 | 电话系统简介 | [视频](https://aka.ms/teams-phone-system) | [幻灯片](https://aka.ms/teams-phone-system-deck) |
 | 直接路由 | [视频](https://aka.ms/teams-direct-routing) | [幻灯片](https://aka.ms/teams-direct-routing-deck) |
