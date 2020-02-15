@@ -12,16 +12,16 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88de2c999b82621ddb0b176b49fc74dfac4a6371
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 442d94cbaf9ad7c3352cbd17ad88f3d84e716b61
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763626"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41763626"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-03-14_
+_**上次修改的主题：** 2014-03-14_
 
-Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的即时消息（IM）、状态、会议和电话解决方案。
+Microsoft Lync Server 2013 通信软件提供了即时消息（IM）、状态、会议和电话解决方案，可支持企业级协作要求。
 
-想要下载 Lync Server 2013 文档的副本？ 您可以从 Microsoft 下载中心下载**LyncServer2013\_ITPro**编译的帮助（.chm）文件。 [http://go.microsoft.com/fwlink/p/?LinkID=331103](http://go.microsoft.com/fwlink/p/?linkid=331103)
+想要下载 Lync Server 2013 文档的副本？ 您可以从 Microsoft 下载中心下载**LyncServer2013\_it 专业**编译帮助（.chm）文件。 [http://go.microsoft.com/fwlink/p/?LinkID=331103](http://go.microsoft.com/fwlink/p/?linkid=331103)
 
 下表列出了 Lync Server 2013 文档库中的主题。
 
 <div>
 
-## <a name="technical-diagrams"></a>技术图
+## <a name="technical-diagrams"></a>技术图表
 
 
 <table>
@@ -73,7 +73,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>联机查看： <a href="lync-server-2013-getting-started.md">Lync Server 2013 入门</a></p></td>
+<td><p>联机查看： <a href="lync-server-2013-getting-started.md">Lync Server 2013</a>入门</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +102,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 
 <div>
 
-## <a name="planning"></a>规划
+## <a name="planning"></a>计划
 
 
 <table>
@@ -117,13 +117,13 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看： <a href="lync-server-2013-planning-for-your-organization.md">Lync Server 2013 的组织规划</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看：<a href="lync-server-2013-determining-your-infrastructure-requirements.md">确定 Lync Server 2013 的基础结构要求</a></p></td>
+<td><p>查看 online：<a href="lync-server-2013-determining-your-infrastructure-requirements.md">确定 Lync Server 2013 的基础结构要求</a></p></td>
 </tr>
 <tr class="even">
 <td><p>联机查看： <a href="lync-server-2013-network-planning.md">Lync Server 2013 的网络规划</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看： <a href="lync-server-2013-capacity-planning.md">Lync Server 2013 的容量规划</a></p></td>
+<td><p>View online： <a href="lync-server-2013-capacity-planning.md">Lync Server 2013 的容量规划</a></p></td>
 </tr>
 <tr class="even">
 <td><p>联机查看：<a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">在 Lync Server 2013 中规划高可用性和灾难恢复</a></p></td>
@@ -141,10 +141,10 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看：<a href="lync-server-2013-planning-for-external-user-access.md">在 Lync Server 2013 中规划外部用户访问</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看：<a href="lync-server-2013-planning-for-enterprise-voice.md">在 Lync Server 2013 中规划企业语音</a></p></td>
+<td><p>View online：<a href="lync-server-2013-planning-for-enterprise-voice.md">在 Lync Server 2013 中规划企业语音</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-planning-for-monitoring.md">在 Lync Server 2013 中进行监视规划</a></p></td>
+<td><p>View online：<a href="lync-server-2013-planning-for-monitoring.md">在 Lync Server 2013 中规划监视</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>联机查看：<a href="lync-server-2013-planning-for-archiving.md">在 Lync Server 2013 中规划存档</a></p></td>
@@ -156,7 +156,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看：<a href="lync-server-2013-planning-for-persistent-chat-server.md">在 Lync server 2013 中规划持久聊天服务器</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-planning-for-exchange-server-integration.md">规划 Exchange server 与 Lync server 2013 的集成</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-planning-for-exchange-server-integration.md">规划 Exchange server 与 Lync server 的集成 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>联机查看：<a href="lync-server-2013-planning-for-clients-and-devices.md">在 Lync Server 2013 中规划客户端和设备</a></p></td>
@@ -165,10 +165,10 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看：<a href="lync-server-2013-planning-for-remote-call-control.md">在 Lync Server 2013 中规划远程呼叫控制</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看：<a href="lync-server-2013-planning-for-mobility.md">在 Lync Server 2013 中规划移动</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-planning-for-mobility.md">在 Lync Server 2013 中规划移动</a>功能</p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看： <a href="lync-server-2013-planning-for-security.md">Lync Server 2013 中的安全规划</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-planning-for-security.md">在 Lync Server 2013 中规划安全性</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -187,7 +187,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>联机查看： <a href="lync-server-2013-deployment.md">Lync Server 2013 的部署</a></p></td>
+<td><p>联机查看： <a href="lync-server-2013-deployment.md">Lync Server 2013 部署</a></p></td>
 </tr>
 <tr class="even">
 <td><p>联机查看：<a href="lync-server-2013-deploying-lync-server.md">部署 Lync Server 2013</a></p></td>
@@ -202,7 +202,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看：<a href="lync-server-2013-deploying-conferencing.md">在 Lync Server 2013 中部署会议</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-deploying-monitoring.md">在 Lync Server 2013 中部署监视</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-deploying-monitoring.md">在 Lync Server 2013 中部署监控</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>联机查看：<a href="lync-server-2013-deploying-archiving.md">在 Lync Server 2013 中部署存档</a></p></td>
@@ -223,22 +223,22 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看：<a href="lync-server-2013-planning-and-deploying-unified-contact-store.md">在 Lync Server 2013 中规划和部署统一联系人存储</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看：<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">在 Lync server 2013 中管理服务器到服务器的身份验证（OAuth）和合作伙伴应用程序</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">在 Lync server 2013 中管理服务器到服务器身份验证（OAuth）和合作伙伴应用程序</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-updating-from-the-evaluation-version.md">从 Lync Server 2013 的评估版本更新</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-updating-from-the-evaluation-version.md">从评估版本的 Lync Server 2013 更新</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>联机查看：<a href="lync-server-2013-deploying-remote-call-control.md">在 Lync Server 2013 中部署远程呼叫控制</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-deploying-mobility.md">在 Lync Server 2013 中部署移动性</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-deploying-mobility.md">在 Lync Server 2013 中部署移动</a>功能</p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看： <a href="lync-server-2013-health-configuration-in-lync-server.md">Lync Server 2013 中的健康配置</a></p></td>
+<td><p>联机查看： <a href="lync-server-2013-health-configuration-in-lync-server.md">Lync Server 2013 中的运行状况配置</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">集成 Microsoft Lync server 2013 和 Microsoft Exchange Server 2013</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -285,7 +285,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看：<a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md">从 Lync server 2010、群组聊天或 Office 通信服务器 2007 R2 组聊天到 Lync server 2013、持久聊天服务器的迁移</a></p></td>
+<td><p>联机查看：<a href="migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md">从 Lync server 2010、组聊天或 Office 通信服务器 2007 R2 组聊天迁移到 Lync server 2013、持久聊天服务器</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -295,7 +295,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 
 <div>
 
-## <a name="operations"></a>运营
+## <a name="operations"></a>操作
 
 
 <table>
@@ -316,7 +316,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看：<a href="lync-server-2013-managing-the-lync-server-topology.md">管理 Lync Server 2013 拓扑</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看：<a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">委派 Lync Server 2013 的管理控制权</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">委派 Lync Server 2013 的管理控制</a></p></td>
 </tr>
 <tr class="even">
 <td><p>联机查看：<a href="lync-server-2013-managing-im-and-presence-settings.md">在 Lync Server 2013 中管理 IM 和状态设置</a></p></td>
@@ -325,10 +325,10 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看：<a href="managing-lync-server-2013-persistent-chat-server.md">管理 Lync server 2013、持久聊天服务器</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-managing-voice-routing.md">在 Lync Server 2013 中管理语音路由</a></p></td>
+<td><p>在线查看：<a href="lync-server-2013-managing-voice-routing.md">在 Lync Server 2013 中管理语音路由</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看：<a href="lync-server-2013-managing-call-management-features.md">管理 Lync Server 2013 中的呼叫管理功能</a></p></td>
+<td><p>在线查看：<a href="lync-server-2013-managing-call-management-features.md">在 Lync Server 2013 中管理呼叫管理功能</a></p></td>
 </tr>
 <tr class="even">
 <td><p>联机查看：<a href="lync-server-2013-managing-meetings-and-conferences.md">在 Lync Server 2013 中管理会议和会议</a></p></td>
@@ -349,13 +349,13 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看：<a href="lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md">管理 Lync Server 2013 网络基础结构</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md">在 Lync Server 2013 中管理增强的9-1-1 和位置服务</a></p></td>
+<td><p>在线查看：<a href="lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md">在 Lync Server 2013 中管理增强型9-1-1 和位置服务</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>联机查看：<a href="lync-server-2013-managing-lync-server-services-and-server-roles.md">管理 Lync Server 2013 服务和服务器角色</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-managing-applications.md">管理 Lync Server 2013 中的应用程序</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-managing-applications.md">在 Lync Server 2013 中管理应用程序</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>联机查看：<a href="lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md">管理 Lync Server 2013 灾难恢复、高可用性和备份服务</a></p></td>
@@ -370,7 +370,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看： <a href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 命令行管理</a>程序</p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看： <a href="lync-server-2013-lync-server-best-practices-analyzer.md">Lync Server 2013 最佳做法分析器</a></p></td>
+<td><p>联机查看： <a href="lync-server-2013-lync-server-best-practices-analyzer.md">Lync Server 2013 最佳实践分析工具</a></p></td>
 </tr>
 <tr class="even">
 <td></td>
@@ -392,7 +392,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>联机查看： <a href="lync-server-2013-planning-for-security.md">Lync Server 2013 中的安全规划</a></p></td>
+<td><p>联机查看：<a href="lync-server-2013-planning-for-security.md">在 Lync Server 2013 中规划安全性</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -414,10 +414,10 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 <td><p>联机查看： <a href="lync-server-2013-schema-reference.md">Lync Server 2013 的架构参考</a></p></td>
 </tr>
 <tr class="even">
-<td><p>联机查看：<a href="lync-server-2013-call-detail-recording-cdr-database-schema.md">在 Lync Server 2013 中呼叫详细记录（CDR）数据库架构</a></p></td>
+<td><p>联机查看： <a href="lync-server-2013-call-detail-recording-cdr-database-schema.md">Lync Server 2013 中的呼叫详细信息记录（CDR）数据库架构</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>联机查看： <a href="lync-server-2013-quality-of-experience-qoe-database-schema.md">Lync Server 2013 中的体验质量（QoE）数据库架构</a></p></td>
+<td><p>View online： <a href="lync-server-2013-quality-of-experience-qoe-database-schema.md">Lync Server 2013 中的体验质量（QoE）数据库架构</a></p></td>
 </tr>
 <tr class="even">
 <td><p>联机查看： <a href="lync-server-2013-persistent-chat-database-schema.md">Lync Server 2013 中的持久聊天数据库架构</a></p></td>
@@ -433,7 +433,7 @@ Microsoft Lync Server 2013 通信软件提供可支持企业级协作要求的�
 
 <div>
 
-## <a name="glossary"></a>词条
+## <a name="glossary"></a>术语表
 
 
 <table>

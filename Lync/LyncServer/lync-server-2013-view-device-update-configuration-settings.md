@@ -12,20 +12,20 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01edeb2d40fae7b82ac35fb5561a1332f67c9e11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7cf34d5f8241735263547fe64dc0f3e3b124bb10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731092"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>查看 Lync Server 2013 中的设备更新配置设置
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中查看设备更新配置设置
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41731092"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-20_
+_**上次修改的主题：** 2013-02-20_
 
-你可以使用 Lync Server Management Shell 和**CsDeviceUpdateConfiguration** Cmdlet 查看设备更新服务配置设置，该 cmdlet 可以从 Lync Server 2013 管理程序外壳或 Windows PowerShell 的远程会话中运行
+您可以使用 Lync Server 命令行管理程序和**CsDeviceUpdateConfiguration** cmdlet （可从 Lync server 2013 命令行管理程序或从 Windows PowerShell 的远程会话运行）来查看设备更新服务配置设置
 
 <div>
 
 
 > [!NOTE]  
-> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。
+> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 
 
@@ -59,7 +59,7 @@ _**主题上次修改时间：** 2013-02-20_
     
         Get-CsDeviceUpdateConfiguration
     
-    此命令会返回类似下列信息：
+    此命令返回与以下内容类似的信息：
     
         Identity               : Global
         ValidLogFileTypes      : {Watson, Config, Diaglog, CELog}

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：规划共享行的外观
+title: Lync Server 2013：规划共享线路外观
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 72522136
 ms.date: 03/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 755bff84b8902e346135139d1c8c5b26c55605c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fdb4f8ad407950f8d3180d030ede03a1e93cf0b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755162"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="plan-for-shared-line-appearance-in-lync-server-2013"></a>在 Lync Server 2013 中规划共享行外观
+# <a name="plan-for-shared-line-appearance-in-lync-server-2013"></a>在 Lync Server 2013 中规划共享线路外观
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41755162"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-03-21_
+_**上次修改的主题：** 2016-03-21_
 
-阅读本主题，了解如何在 Lync Server 2013 中规划共享行外观（SLA），累积更新4月2016。
+阅读本主题，了解如何在 Lync Server 2013 中规划共享线路外观（SLA）、累积更新4月2016。
 
-共享行的外观是 Lync Server 2013 中的一项功能，累积更新年 4 2016 月用于处理特定号码（称为共享号码）的多个呼叫。 SLA 可以将任何企业语音启用的 Lync 用户配置为具有多个线路的共享号码，以响应多个呼叫。 这些呼叫实际上并不是通过共享号码接收的，而是转接给担任共享号码的代理人的用户。 其中任何一个代理人都可以接听呼叫，而其余代理人的电话上将收到一个通知，说明已接听呼叫的代理人和哪条线路非常忙碌。 共享号码的线路数和代理人可以在 SLA 中配置。 此外，也可以为共享号码配置高级选项，例如 BusyOption（所有线路都忙碌时发生的情况）和 MissedCallOption（没有人接听呼叫）。
+共享线路外观是 Lync Server 2013 中的一项功能，累积更新4月2016，用于处理对特定号码（称为共享号码）的多个呼叫。 SLA 可以将任何已启用企业语音的 Lync 用户配置为具有多个线路的共享号码，以响应多个呼叫。 实际上不会在共享号码上接收呼叫，而是将其转发给充当共享号码的代理人的用户。 任何一个代理都可以接听呼叫，而代理的其余部分会在他们的电话上收到通知，告知他们接听呼叫的人以及哪些线路因结果而变得占线。 可以为 SLA 中的共享号码配置行数和代理人。 此外，还可以为共享号码配置高级选项（如 BusyOption （所有线路忙时出现的情况）和 MissedCallOption （不是任何代理都不能接听呼叫的情况）。
 
 仅在以下电话设备上支持 SLA （计算机、移动电话或其他设备上的 Lync 客户端不支持）：
 
-  - 具有固件更新 5.4.1 的 Polycom VVX300
+  - 带有固件更新5.4.1 的 Polycom VVX300
 
-  - 具有固件更新 5.4.1 的 Polycom VVX400
+  - 带有固件更新5.4.1 的 Polycom VVX400
 
-  - 具有固件更新 5.4.1 的 Polycom VVX500
+  - 带有固件更新5.4.1 的 Polycom VVX500
 
-  - 具有固件更新 5.4.1 的 Polycom VVX600
+  - 带有固件更新5.4.1 的 Polycom VVX600
 
 SLA 是 Lync Server 2013 中的一项新功能，累积更新4月2016。
 
-有关部署 SLA 的信息，请参阅[在 Lync Server 2013 中部署共享行外观](lync-server-2013-deploy-shared-line-appearance.md)。
+有关部署 SLA 的信息，请参阅[在 Lync Server 2013 中部署共享线路外观](lync-server-2013-deploy-shared-line-appearance.md)。
 
 <div>
 
 ## <a name="feature-list"></a>功能列表
 
-设置 SLA 组可以实现以下功能：
+设置 SLA 组可实现以下功能：
 
-  - 组中的所有代理人都可以应答拨打同一共享号码的入站呼叫。呼叫可以是基于 PSTN 的也可以是基于 SIP 的。
+  - 组中的所有代理都可以将入站呼叫应答为相同的共享号码。 呼叫可以是基于 PSTN 的，也可以是基于 SIP 的。
 
-  - 代理人可以保持和接听呼叫。
+  - 代理人可以保留和接听呼叫。
 
-  - 代理人可以将呼叫转接到 SLA 组外部的号码。
+  - 代理可以将呼叫转移到 SLA 组之外的号码。
 
-  - 代理人可以查看共享号码上当前存在的呼叫数，并查看每个呼叫的状态。
+  - 代理可以查看共享号码上当前有多少呼叫，并查看每个呼叫的状态。
 
-  - 您可以为共享号码配置最大并发呼叫数。还可以设置在达到此最大数之后如何处理其他呼叫。额外呼叫可能会被忙音信号拒绝、转接到备用号码或者转接到语音邮件。
+  - 您可以为共享号码配置最大并发呼叫数。 您还可以设置在达到此最大值后您希望如何处理其他呼叫。 多余的呼叫可以通过占线信号被拒绝，将其转发到备用号码，或转发到语音邮件。
 
-  - 可以配置如何处理未接来电（在特定时间后未接听的呼叫）。如果为组标识启用语音邮件，未接来电将自动转到语音邮件。如果没有为组标识（共享号码）启用语音邮件，则可以选择通过忙音信号拒绝未接来电、将未接来电转接到备用号码或者断开连接。
+  - 您可以配置要处理的未接来电（在特定时间之后未选取的呼叫）的处理方式。 如果为组标识启用语音邮件，则未接来电将自动转到语音邮件。 如果没有为组标识（共享号码）启用语音邮件，则可以选择将未接来电拒绝为占线信号，将其转发给备用号码或断开连接。
 
 </div>
 

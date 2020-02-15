@@ -12,20 +12,20 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7f1214cc4296e01e5cd9018c5dedb0141ca0365
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 493700372ce7cf2b27b40ff67896767425fd36b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765773"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-conferencing-features-in-lync-server-2013"></a>Lync Server 2013 中新的会议功能
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Lync Server 2013 中的新会议功能
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765773"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-08_
+_**上次修改的主题：** 2012-11-08_
 
-Lync Server 2013 引入了一些新功能，可增强会议，如下表所述。
+Lync Server 2013 引入了一些新功能，可增强会议，如以下列表所述。
 
   - **加入启动器**
     
@@ -53,46 +53,46 @@ Lync Server 2013 引入了一些新功能，可增强会议，如下表所述。
     
       - Internet Explorer 10
 
-  - **更新的 PowerPoint 共享**
+  - **已更新的 PowerPoint 共享**
     
-    Lync Server 2013 现在使用 Office Web Apps 和 Office Web Apps 服务器（以前称为 WAC Server）处理 PowerPoint 演示文稿。 Office Web Apps 服务器的使用允许高分辨率显示和更好地支持 PowerPoint 功能、访问更多类型的移动设备（Lync Server 2013 使用标准 DHTML 和 JavaScript 广播 PowerPoint 演示文稿），以及具有相应权限的用户能够在与演示文稿本身无关的 PowerPoint 演示文稿之间滚动。
+    Lync Server 2013 现在使用 Office Web Apps 和 Office Web Apps Server （以前称为 WAC Server）来处理 PowerPoint 演示文稿。 Office Web Apps Server 的使用允许更高分辨率显示和更好地支持 PowerPoint 功能，访问更多类型的移动设备（Lync Server 2013 使用标准 DHTML 和 JavaScript 广播 PowerPoint 演示文稿），具有适当权限的用户能够独立于演示文稿本身滚动 PowerPoint 演示文稿。
 
-  - **库视图和 HD 视频会议**
+  - **图库视图和 HD 视频会议**
     
-    在视频会议中，用户可以同时查看多达五个会议参与者的视频。
+    在视频会议中，用户可以同时看到多达 5 个会议参与者的视频。
     
     <div>
     
 
     > [!NOTE]  
-    > 与最多75个参与者的会议中，库视图很有经验。 当会议的参与者大于75时，体验将恢复为单视图。
+    > 图库视图经历过有高达 75 个参与者的会议。当会议增加到超过 75 个参与者时，会经历回复到单个视图。
 
     
     </div>
 
   - **HD 视频**
     
-    用户可以在两方呼叫和多方会议中体验高达 HD 1080P 的分辨率。
+    用户在双方呼叫和多方会议中可遇到分辨率高达 HD 1080P 的情况。
 
-  - **仅演示者视频模式**
+  - **演示者仅视频模式**
     
-    演示者可以配置会议，以便仅显示演示者的视频。 当多个视频流可用且锁定到不同的源时，此模式可防止大型会议中的干扰。 此模式也适用于由会议设备捕获和提供的视频。
+    演示者可配置会议，以便仅显示演示者的视频。当多个视频流可用并锁定到不同源时此模式在大型会议中可起到防止干扰的作用。此模式还应用于由会议设备捕获和提供的视频。
 
   - **视频聚焦**
     
-    演示者可以配置会议，以便会议中的每个人只能看到来自所选参与者的视频。 此模式还适用于通过全景视频的会议设备捕获和提供的视频。
+    演示者可配置会议，以便会议中的每个人仅能看到来自其为视频源的选定参与者的视频。此模式还应用于由会议设备为全景视频捕获和提供的视频。
 
-  - **非企业语音用户拨出式会议**
+  - **用于非企业语音用户的拨出式会议**
     
-    Lync Server 2013 现允许未启用企业语音的参与者从会议会议启动拨出呼叫。 管理员可对此功能进行配置。
+    Lync Server 2013 现在允许未启用企业语音的参与者启动来自会议会议的拨出呼叫。 此功能由管理员配置。
 
   - **存档**
     
-    如果 Exchange Server 集成已启用存档，则在会议期间共享的任何文档将存档到 Exchange 2013 数据存储中。 这包括 PowerPoint 演示文稿、附件、白板和投票。
+    如果 Exchange Server 集成已启用存档，则在会议过程中共享的任何文档都会存档到 Exchange 2013 数据存储中。 这包括 PowerPoint 演示文稿、附件、白板和投票。
 
   - **会议邀请自定义**
     
-    管理员可使用 Lync Server 控制面板或 Lync Server 命令行管理程序自定义联机会议的电子邮件邀请。 自定义项可以包括徽标、帮助文本、法律文本和页脚文本的 Url。 所有后续邀请将包含自定义设置。
+    管理员可以使用 Lync Server 控制面板或 Lync Server 命令行管理程序自定义联机会议的电子邮件邀请。 自定义可包括用于徽标的 URL、帮助文本、合法文本和脚本文本。 所有后续邀请都将包括自定义。
 
 <div>
 

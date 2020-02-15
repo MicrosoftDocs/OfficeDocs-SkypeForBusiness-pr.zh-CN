@@ -12,20 +12,20 @@ ms:contentKeyID: 48185415
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0932eb97ee276368ee7b4479d17100b00af29d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cccae79c64205ece3256851a19e54dce8582f9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755686"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a>（可选）在 Lync Server 2013 中验证 PIN 策略设置
+# <a name="optional-verify-pin-policy-settings-in-lync-server-2013"></a>Optional验证 Lync Server 2013 中的 PIN 策略设置
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755686"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-20_
+_**上次修改的主题：** 2012-06-20_
 
-具有 Active Directory 域服务凭据的 Lync Server 2013 用户可以输入个人识别码（PIN）以将电话拨入式会议作为经过身份验证的用户加入。 PIN 策略定义电话拨入式会议 Pin 如何工作的规则。
+Lync Server 2013 具有 Active Directory 域服务凭据的用户可以输入个人标识号（PIN），以将电话拨入式会议作为已验证用户加入。 PIN 策略定义电话拨入式会议 Pin 工作方式的规则。
 
-当你部署电话拨入式会议时，应验证默认全局 PIN 策略是否满足你的要求。 如果需要进行更改，可以修改默认全局策略，也可以创建新的 PIN 策略。 你可以创建适用于特定网站、特定用户或特定用户组的 PIN 策略。
+当您部署电话拨入式会议时，应验证默认的全局 PIN 策略是否符合您的要求。 如果需要进行更改，可以修改默认全局策略，也可以创建新的 PIN 策略。 您可以创建适用于特定网站、特定用户或特定用户组的 PIN 策略。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中修改默认电话拨入式会议 PIN 设置](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
 
-  - [在 Lync Server 2013 中创建或修改站点或用户组的电话拨入式会议 PIN 设置](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [在 Lync Server 2013 中为一个站点或一组用户创建或修改电话拨入式会议 PIN 设置](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e6751a5f5915e73d181efba40976640c65e0909
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 615b76657b8a7045c99d17f523aa73b0ee79a807
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755756"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>可选在 Lync Server 2013 中定义 "响应组" 假日集
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>Optional在 Lync Server 2013 中定义响应组假日集
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755756"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-07_
+_**上次修改的主题：** 2014-02-07_
 
 假日设置定义响应组停止办公的日期并指定在这些日期采取的操作。假日集是指适用于响应组的假日的集合。
 
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2014-02-07_
 
 ## <a name="to-create-a-holiday-set"></a>创建假日集
 
-1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 3.  对于要定义的每个假日，请运行：
     
@@ -78,12 +78,12 @@ _**主题上次修改时间：** 2014-02-07_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中创建或修改查寻组工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
-[在 Lync Server 2013 中创建或修改互动工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
+[在 Lync Server 2013 中创建或修改智能寻线工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[在 Lync Server 2013 中创建或修改交互式工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[新-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
-[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
+[新 CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[新 CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Enterprise Edition 前端池部署中的 Lync Server 2013 服务器并置
+title: Lync Server 2013 Server 并置 in Enterprise Edition 前端池部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad549c614fc14b74126a7e81e0223ad584e68141
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74afcdd9212ebced9d93f0f699b90dd7a89edefd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732482"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>Lync Server 2013 的 Enterprise Edition 前端池部署中的服务器并置
+# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>适用于 Lync Server 2013 的 Enterprise Edition 前端池部署中的服务器并置
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41732482"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-11-11_
+_**上次修改的主题：** 2013-11-11_
 
-本部分介绍了可在 Lync Server 2013 前端池部署中 collocate 的服务器角色、数据库和文件共享。
+本节介绍可以在 Lync Server 2013 前端池部署中并置的服务器角色、数据库和文件共享。
 
 <div>
 
 ## <a name="server-roles"></a>服务器角色
 
-在 Lync Server 2013 中，A/V 会议服务、中介服务、监视和存档都在前端服务器上 collocated，但需要进行其他配置才能启用它们。 如果您不想 collocate 前端服务器的中介服务器，则可以在单独的计算机上将其作为独立中介服务器进行部署。
+在 Lync Server 2013 中，A/V 会议服务、中介服务、监控和存档在前端服务器上是并置，但需要进行其他配置才能启用它们。 如果您不想将中介服务器与前端服务器并置，则可以在单独的计算机上将其作为独立中介服务器进行部署。
 
-你可以使用前端服务器 collocate 受信任的应用服务器。
+您可以使用前端服务器并置受信任的应用程序服务器。
 
-以下服务器角色必须分别部署在单独的计算机上：
+必须在单独的计算机上部署以下服务器角色：
 
   - 控制器
 
   - 边缘服务器
 
-  - 中介服务器（如果未与前端服务器 collocated）
+  - 中介服务器（如果未与前端服务器并置）
 
   - Office Web Apps Server
 
-您不能与前端服务器 collocate 持久聊天服务器角色。
+您不能并置持久聊天服务器角色与前端服务器。
 
 </div>
 
 <div>
 
-## <a name="databases"></a>数据库
+## <a name="databases"></a>Databases
 
-你可以在同一个数据库服务器上 collocate 以下每个数据库：
+您可以在同一个数据库服务器上并置以下每个数据库：
 
   - 后端数据库
 
@@ -77,19 +77,19 @@ _**主题上次修改时间：** 2013-11-11_
 
   - 持久聊天合规性数据库
 
-你可以在 SQL Server 的单个实例中 collocate 任何或所有或所有这些数据库，或者对每个实例使用单独的 SQL Server 实例，但具有以下限制：
+可以在一个 SQL Server 实例中并置任何或全部或所有这些数据库，也可以为每个数据库使用单独的 SQL Server 实例，但具有以下限制：
 
-  - SQL Server 的每个实例只能包含单个后端数据库、单个监视数据库、单个存档数据库、单个持久聊天数据库和单个持久聊天合规性数据库。
+  - 每个 SQL Server 实例只能包含一个后端数据库、一个监视数据库、一个存档数据库、一个持久聊天数据库和一个持久聊天合规性数据库。
 
-  - 数据库服务器无法支持多个前端池、一个存档部署和一个监视部署，但它可以支持其中一个，而不管数据库使用的是相同的 SQL Server 实例还是 SQL Server 的单独实例。
+  - 数据库服务器无法支持多个前端池、一个存档部署和一个监视部署，但它可以支持其中一个，而不管数据库是使用相同的 SQL Server 实例还是使用单独的 SQL Server 实例。
 
-你可以将文件共享与数据库 collocate，如本节后面部分所述。
+还可以将文件共享与数据库并置，如本节后面所述。
 
 <div>
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 中，你可以选择将存档存储与部署中的部分或所有用户的 Exchange 2013 存储进行集成。 不能在 Exchange 存储所在的服务器上部署任何运行 Lync Server 或组件的服务器。
+> 在 Lync Server 2013 中，可以选择将存档存储与部署中的部分或所有用户的 Exchange 2013 存储集成。 您不能在与 Exchange 存储相同的服务器上部署任何运行 Lync Server 或组件的服务器。
 
 
 
@@ -99,7 +99,7 @@ _**主题上次修改时间：** 2013-11-11_
 
 
 > [!IMPORTANT]  
-> 尽管支持 collocation 数据库，但数据库的大小可以快速增长。 例如，当你考虑将存档数据库与其他数据库 collocating 时，请注意，如果你要对超过几个用户的邮件进行存档，则存档数据库所需的磁盘空间可能会变得非常大。 出于此原因，我们不建议 collocating 多个数据库，尤其是存档数据库、持久聊天数据库或与后端数据库的持久聊天合规性数据库。
+> 尽管支持并置数据库，但数据库的大小增长非常快。 例如，当您考虑将存档数据库与其他数据库并置时，您应了解，如果您要对多个用户的消息进行存档，则存档数据库所需的磁盘空间会变得很大。 因此，我们不建议并置多个数据库（尤其是存档数据库、持久聊天数据库或与后端数据库的持久聊天合规性数据库）。
 
 
 
@@ -111,9 +111,9 @@ _**主题上次修改时间：** 2013-11-11_
 
 ## <a name="file-share"></a>文件共享
 
-文件共享可以是单独的服务器，也可以在同一台服务器上 collocated，如下所示：
+文件共享可以配置为一台单独的服务器，也可以并置以下任意服务器或所有服务器上：
 
-  - 数据库服务器，包括企业版前端池的后端服务器
+  - 数据库服务器，包括 Enterprise Edition 前端池的后端服务器
 
   - 存档数据库
 
@@ -123,7 +123,7 @@ _**主题上次修改时间：** 2013-11-11_
 
   - 持久聊天合规性数据库
 
-单个文件共享可用于多个前端池，标准版服务器（所有位于同一网站中）。
+单个文件共享可用于多个前端池、Standard Edition 服务器（均位于同一站点）。
 
 <div>
 
@@ -141,9 +141,9 @@ _**主题上次修改时间：** 2013-11-11_
 
 ## <a name="other-components"></a>其他组件
 
-不能 collocate 不是 Lync Server 2013 组件的反向代理服务器，但如果你希望支持使用任何 Lync Server 2013 服务器角色的联盟用户共享 web 内容，则你的部署中需要使用该服务器。 但是，你可以通过在你的组织中针对其他应用程序使用的现有反向代理服务器上配置支持，从而实现 Lync Server 2013 部署的反向代理支持。
+您不能并置不是 Lync Server 2013 组件的反向代理服务器，但如果您想要支持使用任何 Lync Server 2013 服务器角色的联合用户共享 web 内容，则您的部署中也是必需的。 不过，您可以通过在组织中对其他应用程序使用的现有反向代理服务器上配置支持，来实现对 Lync Server 2013 部署的反向代理支持。
 
-不能 collocate 任何 Exchange 统一消息（UM）组件或具有任何 SharePoint Server 角色的 SharePoint 组件。
+您不能并置任何 Exchange 统一消息（UM）组件或 SharePoint 组件与任何 SharePoint Server 角色。
 
 </div>
 

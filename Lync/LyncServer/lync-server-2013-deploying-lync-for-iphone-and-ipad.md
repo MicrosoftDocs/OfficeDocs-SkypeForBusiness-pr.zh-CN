@@ -12,16 +12,16 @@ ms:contentKeyID: 51541511
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3cf86aa601d17301b261ae8144c0b911672a0bd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 888fdd0a34973d5b7c7b6063056c98d4426a2f1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758026"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758026"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-19_
+_**上次修改的主题：** 2013-02-19_
 
-本部分介绍如何为你的移动用户部署适用于 iPhone 和 Lync 2013 for iPad 的 Lync 2013。
+本节介绍如何为您的移动用户部署 Lync 2013 for iPhone 和 Lync 2013 for iPad。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中安装 Lync for iPhone 和 iPad](lync-server-2013-installing-lync-for-iphone-and-ipad.md)
+  - [在 Lync Server 2013 中安装适用于 iPhone 和 iPad 的 Lync](lync-server-2013-installing-lync-for-iphone-and-ipad.md)
 
-  - [在 Lync Server 2013 中删除 Lync for iPhone 和 iPad](lync-server-2013-removing-lync-for-iphone-and-ipad.md)
+  - [在 Lync Server 2013 中删除适用于 iPhone 和 iPad 的 Lync](lync-server-2013-removing-lync-for-iphone-and-ipad.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184127
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f9b7ef52da78219f66df79d9e02bc67786b76d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad3368748f7cbfa1c8ca41e1c563283ef5a390bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764840"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051304"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764840"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-29_
+_**上次修改的主题：** 2012-06-29_
 
-服务器组件的软件支持，包括所有 Lync Server 2013 服务器角色和存储，包括支持的操作系统、数据库软件、基础结构软件和支持特定功能所需的其他软件。 它还包括服务器组件的虚拟化。
+服务器组件的软件支持，包括所有 Lync Server 2013 服务器角色和存储，其中包括支持的操作系统、数据库软件、基础结构软件以及支持特定功能所需的其他软件。 还包括服务器组件的虚拟化。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)
 

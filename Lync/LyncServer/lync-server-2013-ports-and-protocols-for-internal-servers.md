@@ -12,16 +12,16 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1001cce83d9b23125b177725c77715bd19a00e03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c748a79fe118c9b1d233a7a276bd8298a0e1c3e4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724992"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050284"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41724992"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-04-06_
+_**上次修改的主题：** 2016-04-06_
 
-本部分概述了 Lync Server 部署中的服务器、负载平衡器和客户端使用的端口和协议。
+本节总结了 Lync Server 部署中的服务器、负载平衡器和客户端使用的端口和协议。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync 和 Communicator 客户参与一次通信时，通常称为对等。 从技术上讲，两个客户在一次对话中进行通信，中间有即时消息 multipoint control 单元（IMMCU）。 IMMCU 是前端服务器的组件。 将 IMMCU 放入所需的通信工作流中，可使呼叫详细记录和前端服务器启用的其他功能。 通信来自客户端上的动态源端口到前端服务器端口 TLS/TCP/5061 （假设使用了推荐的传输层安全性）。 根据设计，仅当 Lync Server 和 IMMCU 处于活动状态且可用时，才能使用对等通信（以及多方 IM）。
+> Lync 和 Communicator 客户端参与一次通信时，通常称为对等。 从技术上讲，两个客户端在一次对话中进行通信，中间是即时消息 multipoint 控制单元（IMMCU）。 IMMCU 是前端服务器的组件。 将 IMMCU 置于所需的通信工作流中可允许呼叫详细记录和前端服务器启用的其他功能。 从客户端上的动态源端口到前端服务器端口 TLS/TCP/5061 的通信（假设使用建议的传输层安全性）。 根据设计，仅当 Lync Server 和 IMMCU 处于活动状态且可用时，才可以使用对等通信（以及多方 IM）。
 
 
 
@@ -57,13 +57,13 @@ _**主题上次修改时间：** 2016-04-06_
 
 
 > [!NOTE]  
-> 在服务器上启动 Lync Server 服务之前，Windows 防火墙必须运行，因为这是 Lync 服务器在防火墙中打开所需端口的时候。
+> 在服务器上启动 Lync Server 服务之前，必须运行 Windows 防火墙，这是因为当 Lync Server 在防火墙中打开所需端口时。
 
 
 
 </div>
 
-有关 edge 组件的防火墙配置的详细信息，请参阅[确定 Lync Server 2013 的外部 A/V 防火墙和端口要求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)。
+有关边缘组件的防火墙配置的详细信息，请参阅[确定 Lync Server 2013 的外部 A/V 防火墙和端口要求](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)。
 
 下表依据每个内部服务器角色列出了需要打开的端口。
 
@@ -92,7 +92,7 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>SQL 浏览器</p></td>
 <td><p>1434</p></td>
 <td><p>UDP</p></td>
-<td><p>中央管理存储数据库的本地复制副本的 SQL 浏览器。</p></td>
+<td><p>用于中央管理存储数据库的本地复制副本的 SQL 浏览器。</p></td>
 </tr>
 <tr class="even">
 <td><p>前端服务器</p></td>
@@ -106,16 +106,16 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>Lync Server 前端服务</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (TLS)</p></td>
-<td><p>Standard Edition Server 和前端池用于在服务器 (MTLS) 之间进行所有的内部 SIP 通信、在服务器和客户端 (TLS) 之间进行 SIP 通信，以及在前端服务器和中介服务器 (MTLS) 之间进行 SIP 通信。 也用于与监视服务器的通信。</p></td>
+<td><p>Standard Edition Server 和前端池用于在服务器 (MTLS) 之间进行所有的内部 SIP 通信、在服务器和客户端 (TLS) 之间进行 SIP 通信，以及在前端服务器和中介服务器 (MTLS) 之间进行 SIP 通信。还用于与监控服务器进行通信。</p></td>
 </tr>
 <tr class="even">
 <td><p>前端服务器</p></td>
 <td><p>Lync Server 前端服务</p></td>
 <td><p>444</p></td>
-<td><p>HTTPS</p>
+<td><p>IP-HTTPS</p>
 <p>TCP</p></td>
-<td><p>用于焦点（管理会议状态的 Lync 服务器组件）和单个服务器之间的 HTTPS 通信。</p>
-<p>此端口还用于 Survivable 分支装置和前端服务器之间的 TCP 通信。</p></td>
+<td><p>用于焦点（管理会议状态的 Lync Server 组件）和各个服务器之间的 HTTPS 通信。</p>
+<p>此端口还用于 Survivable 分支机构和前端服务器之间的 TCP 通信。</p></td>
 </tr>
 <tr class="odd">
 <td><p>前端服务器</p></td>
@@ -143,7 +143,7 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>Lync Server Web 会议兼容性服务</p></td>
 <td><p>8058</p></td>
 <td><p>TCP (TLS)</p></td>
-<td><p>用于从 Live Meeting 客户端和早期版本的 Lync Server 中侦听永久共享对象模型（PSOM）连接。</p></td>
+<td><p>用于侦听来自 Live Meeting 客户端和早期版本的 Lync Server 的永久共享对象模型（PSOM）连接。</p></td>
 </tr>
 <tr class="odd">
 <td><p>前端服务器</p></td>
@@ -170,7 +170,7 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>前端服务器</p></td>
 <td><p>Lync Server Web 兼容性服务</p></td>
 <td><p>443</p></td>
-<td><p>HTTPS</p></td>
+<td><p>IP-HTTPS</p></td>
 <td><p>用于从前端服务器到 Web 场 FQDN（IIS Web 组件使用的 URL）的通信。</p></td>
 </tr>
 <tr class="odd">
@@ -178,14 +178,14 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>Lync Server Web 兼容性服务</p></td>
 <td><p>8080</p></td>
 <td><p>TCP 和 HTTP</p></td>
-<td><p>用于 Web 组件供外部访问。</p></td>
+<td><p>供用于外部访问的 web 组件使用。</p></td>
 </tr>
 <tr class="even">
 <td><p>前端服务器</p></td>
 <td><p>Web 服务器组件</p></td>
 <td><p>4443</p></td>
-<td><p>HTTPS</p></td>
-<td><p>HTTPS（从反向代理）和 HTTPS 前端池间通信，用于自动发现登录。</p></td>
+<td><p>IP-HTTPS</p></td>
+<td><p>HTTPS （来自反向代理）和 HTTPS 前端池之间的通信，用于自动发现登录。</p></td>
 </tr>
 <tr class="odd">
 <td><p>前端服务器</p></td>
@@ -203,23 +203,23 @@ _**主题上次修改时间：** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>前端服务器</p></td>
-<td><p>Mobility Service 组件</p></td>
+<td><p>移动服务组件</p></td>
 <td><p>5086</p></td>
 <td><p>TCP (MTLS)</p></td>
-<td><p>Mobility Service 内部过程所使用的 SIP 端口。</p></td>
+<td><p>移动服务内部进程使用的 SIP 端口</p></td>
 </tr>
 <tr class="even">
 <td><p>前端服务器</p></td>
-<td><p>Mobility Service 组件</p></td>
+<td><p>移动服务组件</p></td>
 <td><p>5087</p></td>
 <td><p>TCP (MTLS)</p></td>
-<td><p>Mobility Service 内部过程所使用的 SIP 端口。</p></td>
+<td><p>移动服务内部进程使用的 SIP 端口</p></td>
 </tr>
 <tr class="odd">
 <td><p>前端服务器</p></td>
-<td><p>Mobility Service 组件</p></td>
+<td><p>移动服务组件</p></td>
 <td><p>443</p></td>
-<td><p>HTTPS</p></td>
+<td><p>IP-HTTPS</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -234,7 +234,7 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>Lync Server 会议助理服务（电话拨入式会议）</p></td>
 <td><p>5072</p></td>
 <td><p>TCP</p></td>
-<td><p>用于对助理（拨入式会议）的传入 SIP 请求。</p></td>
+<td><p>用于助理的传入 SIP 请求（电话拨入式会议）。</p></td>
 </tr>
 <tr class="even">
 <td><p>也运行并置中介服务器的前端服务器</p></td>
@@ -287,10 +287,10 @@ _**主题上次修改时间：** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>前端服务器</p></td>
-<td><p>Lync Server 会议公告服务</p></td>
+<td><p>Lync Server 会议通知服务</p></td>
 <td><p>5073</p></td>
 <td><p>TCP</p></td>
-<td><p>用于 Lync Server 会议公告服务的传入 SIP 请求（即电话拨入式会议）。</p></td>
+<td><p>用于 Lync Server 会议通知服务（即，电话拨入式会议）的传入 SIP 请求。</p></td>
 </tr>
 <tr class="even">
 <td><p>前端服务器</p></td>
@@ -339,7 +339,7 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>Lync Server 带宽策略服务</p></td>
 <td><p>448</p></td>
 <td><p>TCP</p></td>
-<td><p>由 Lync Server 带宽策略服务用于呼叫许可控制。</p></td>
+<td><p>用于 Lync Server 带宽策略服务的呼叫允许控制。</p></td>
 </tr>
 <tr class="odd">
 <td><p>中央管理存储所在的前端服务器</p></td>
@@ -353,21 +353,21 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>SQL 浏览器</p></td>
 <td><p>1434</p></td>
 <td><p>UDP</p></td>
-<td><p>本地 SQL Server 实例中中央管理存储数据的本地复制副本的 SQL 浏览器</p></td>
+<td><p>本地 SQL Server 实例中的中央管理存储数据的本地复制副本的 SQL 浏览器</p></td>
 </tr>
 <tr class="odd">
 <td><p>所有内部服务器</p></td>
 <td><p>各种</p></td>
 <td><p>49152-57500</p></td>
 <td><p>TCP/UDP</p></td>
-<td><p>用于所有内部服务器上的音频会议的媒体端口范围。 由终止音频的所有服务器使用：前端服务器（适用于 Lync Server 会议助理服务、Lync Server 会议公告服务和 Lync Server 音频/视频会议服务）和中介服务器。</p></td>
+<td><p>用于所有内部服务器上的音频会议的媒体端口范围。 由终止音频的所有服务器使用：前端服务器（适用于 Lync Server 会议助理服务、Lync Server 会议通知服务和 Lync Server 音频/视频会议服务）和中介服务器。</p></td>
 </tr>
 <tr class="even">
-<td><p>Office Web Apps Servers</p></td>
+<td><p>Office Web Apps Server</p></td>
 <td></td>
 <td><p>443</p></td>
 <td></td>
-<td><p>由 Lync Server 2013 用于连接到 Office Web Apps 服务器。</p></td>
+<td><p>由 Lync Server 2013 用于连接到 Office Web Apps Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p>控制器</p></td>
@@ -380,9 +380,9 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>控制器</p></td>
 <td><p>Lync Server 前端服务</p></td>
 <td><p>444</p></td>
-<td><p>HTTPS</p>
+<td><p>IP-HTTPS</p>
 <p>TCP</p></td>
-<td><p>前端与控制器之间的服务器间通信。 此外，客户端证书发布（到前端服务器）或验证客户端证书是否已发布。</p></td>
+<td><p>前端和控制器之间的服务器间通信。 此外，客户端证书发布（到前端服务器）或验证客户端证书是否已发布。</p></td>
 </tr>
 <tr class="odd">
 <td><p>控制器</p></td>
@@ -395,7 +395,7 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>控制器</p></td>
 <td><p>Lync Server Web 兼容性服务</p></td>
 <td><p>443</p></td>
-<td><p>HTTPS</p></td>
+<td><p>IP-HTTPS</p></td>
 <td><p>用于从控制器到 Web 场 FQDN（IIS Web 组件使用的 URL）之间的通信。</p></td>
 </tr>
 <tr class="odd">
@@ -442,9 +442,9 @@ _**主题上次修改时间：** 2016-04-06_
 </tr>
 <tr class="odd">
 <td><p>持久聊天前端服务器</p></td>
-<td><p>持久聊天 Windows Communication Foundation (WCF)</p></td>
+<td><p>持久聊天 Windows Communication Foundation （WCF）</p></td>
 <td><p>881</p></td>
-<td><p>TCP (TLS) 和 TCP (MTLS)</p></td>
+<td><p>TCP （TLS）和 TCP （MTLS）</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -462,7 +462,7 @@ _**主题上次修改时间：** 2016-04-06_
 
 
 > [!NOTE]  
-> 某些远程呼叫控制方案需要前端服务器或控制器与 PBX 之间的 TCP 连接。 虽然 Lync Server 不再使用 TCP 端口5060，但在远程呼叫控制部署期间，你创建了一个受信任的服务器配置，该配置将 RCC 线路服务器 FQDN 与前端服务器或控制器用于连接到 PBX 系统的 TCP 端口相关联。 有关详细信息，请参阅 Lync Server Management Shell 文档中的<STRONG>CsTrustedApplicationComputer</STRONG> cmdlet。
+> 某些远程呼叫控制方案需要前端服务器或控制器与 PBX 之间的 TCP 连接。 尽管 Lync Server 不再使用 TCP 端口5060，但在远程呼叫控制部署期间，您可以创建一个受信任的服务器配置，该配置将 RCC 线路服务器 FQDN 与前端服务器或控制器用于连接 PBX 系统的 TCP 端口相关联。 有关详细信息，请参阅 Lync Server 命令行管理程序文档中的<STRONG>CsTrustedApplicationComputer</STRONG> cmdlet。
 
 
 
@@ -494,7 +494,7 @@ _**主题上次修改时间：** 2016-04-06_
 <tr class="even">
 <td><p>前端服务器负载平衡器</p></td>
 <td><p>444</p></td>
-<td><p>HTTPS</p></td>
+<td><p>IP-HTTPS</p></td>
 </tr>
 <tr class="odd">
 <td><p>前端服务器负载平衡器</p></td>
@@ -514,7 +514,7 @@ _**主题上次修改时间：** 2016-04-06_
 <tr class="even">
 <td><p>前端服务器负载平衡器</p></td>
 <td><p>443</p></td>
-<td><p>HTTPS</p></td>
+<td><p>IP-HTTPS</p></td>
 </tr>
 <tr class="odd">
 <td><p>前端服务器负载平衡器</p></td>
@@ -569,12 +569,12 @@ _**主题上次修改时间：** 2016-04-06_
 <tr class="odd">
 <td><p>控制器负载平衡器</p></td>
 <td><p>443</p></td>
-<td><p>HTTPS</p></td>
+<td><p>IP-HTTPS</p></td>
 </tr>
 <tr class="even">
 <td><p>控制器负载平衡器</p></td>
 <td><p>444</p></td>
-<td><p>HTTPS</p></td>
+<td><p>IP-HTTPS</p></td>
 </tr>
 <tr class="odd">
 <td><p>控制器负载平衡器</p></td>
@@ -616,7 +616,7 @@ _**主题上次修改时间：** 2016-04-06_
 <tr class="even">
 <td><p>前端服务器负载平衡器</p></td>
 <td><p>443</p></td>
-<td><p>HTTPS</p></td>
+<td><p>IP-HTTPS</p></td>
 </tr>
 <tr class="odd">
 <td><p>前端服务器负载平衡器</p></td>
@@ -631,7 +631,7 @@ _**主题上次修改时间：** 2016-04-06_
 <tr class="odd">
 <td><p>控制器负载平衡器</p></td>
 <td><p>443</p></td>
-<td><p>HTTPS</p></td>
+<td><p>IP-HTTPS</p></td>
 </tr>
 <tr class="even">
 <td> </td>
@@ -668,14 +668,14 @@ _**主题上次修改时间：** 2016-04-06_
 <tr class="odd">
 <td><p>客户端</p></td>
 <td><p>67/68</p></td>
-<td><p>DHCP</p></td>
-<td><p>由 Lync Server 用于查找注册机构 FQDN （即，如果 DNS SRV 失败，并且未配置手动设置）。</p></td>
+<td><p>LDHCP</p></td>
+<td><p>由 Lync Server 用于查找注册器 FQDN （即，如果 DNS SRV 失败，且未配置手动设置）。</p></td>
 </tr>
 <tr class="even">
 <td><p>客户端</p></td>
 <td><p>443</p></td>
 <td><p>TCP (TLS)</p></td>
-<td><p>用于外部用户访问的客户端到服务器 SIP 通信。</p></td>
+<td><p>用于外部用户访问的客户端到服务器 SIP 流量。</p></td>
 </tr>
 <tr class="odd">
 <td><p>客户端</p></td>
@@ -687,31 +687,31 @@ _**主题上次修改时间：** 2016-04-06_
 <td><p>客户端</p></td>
 <td><p>443</p></td>
 <td><p>TCP (STUN/MSTURN)</p></td>
-<td><p>用于外部用户访问 A/V 会话和媒体 (TCP)。</p></td>
+<td><p>用于外部用户访问 A/V 会话和媒体 (TCP)</p></td>
 </tr>
 <tr class="odd">
 <td><p>客户端</p></td>
 <td><p>3478</p></td>
 <td><p>UDP (STUN/MSTURN)</p></td>
-<td><p>用于外部用户访问 A/V 会话和媒体 (UDP)。</p></td>
+<td><p>用于外部用户访问 A/V 会话和媒体（UDP）</p></td>
 </tr>
 <tr class="even">
 <td><p>客户端</p></td>
 <td><p>5061</p></td>
 <td><p>TCP (MTLS)</p></td>
-<td><p>用于外部用户访问的客户端到服务器 SIP 通信。</p></td>
+<td><p>用于外部用户访问的客户端到服务器 SIP 流量。</p></td>
 </tr>
 <tr class="odd">
 <td><p>客户端</p></td>
 <td><p>6891-6901</p></td>
 <td><p>TCP</p></td>
-<td><p>用于 Lync 客户端和以前的客户端（Microsoft Office 通信服务器 2007 R2、Microsoft Office 通信服务器2007和实时通信服务器2005）之间的文件传输。</p></td>
+<td><p>用于 Lync 客户端与以前的客户端之间的文件传输（Microsoft Office 通信服务器 2007 R2、Microsoft Office 通信服务器2007和 Live 通信服务器2005）。</p></td>
 </tr>
 <tr class="even">
 <td><p>客户端</p></td>
 <td><p>1024-65535 *</p></td>
 <td><p>TCP/UDP</p></td>
-<td><p>音频端口范围（最少需要 20 个端口）。</p></td>
+<td><p>音频端口范围（最少需要 20 个端口）</p></td>
 </tr>
 <tr class="odd">
 <td><p>客户端</p></td>
@@ -741,20 +741,20 @@ _**主题上次修改时间：** 2016-04-06_
 <p>Polycom CX700 IP 桌面电话</p>
 <p>Polycom CX3000 IP 会议电话</p></td>
 <td><p>67/68</p></td>
-<td><p>DHCP</p></td>
-<td><p>由列出的设备用于查找 Lync 服务器证书、配置 FQDN 和注册机构 FQDN。</p></td>
+<td><p>LDHCP</p></td>
+<td><p>由列出的设备用来查找 Lync Server 证书、设置 FQDN 和注册器 FQDN。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**\*** 若要为这些媒体类型配置特定端口，请使用 CsConferencingConfiguration cmdlet （ClientMediaPortRangeEnabled、ClientMediaPort 和 ClientMediaPortRange 参数）。
+**\*** 若要配置这些媒体类型的特定端口，请使用 CsConferencingConfiguration cmdlet （ClientMediaPortRangeEnabled、ClientMediaPort 和 ClientMediaPortRange 参数）。
 
 <div>
 
 
 > [!NOTE]  
-> 为 Lync 客户端设置的程序在客户端计算机上自动创建所需的操作系统防火墙例外。
+> 为 Lync 客户端设置的程序会自动在客户端计算机上创建所需的操作系统防火墙例外。
 
 
 

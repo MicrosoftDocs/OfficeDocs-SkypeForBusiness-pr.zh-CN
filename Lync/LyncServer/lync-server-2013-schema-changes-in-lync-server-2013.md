@@ -12,16 +12,16 @@ ms:contentKeyID: 48185575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54a3fd5f18785a649803cc6f9a0a56d7b98a2ee6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 789a6a67b1794eee5f01e8672f9aeb1076646ecf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732592"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,41 +35,41 @@ ms.locfileid: "41732592"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-18_
+_**上次修改的主题：** 2012-10-18_
 
-在部署和操作 Lync Server 2013 之前，必须通过扩展架构来准备 Active Directory 域服务。 架构扩展添加 Lync Server 2013 所需的类和属性。
+在部署和操作 Lync Server 2013 之前，必须通过扩展架构来准备 Active Directory 域服务。 架构扩展添加了 Lync Server 2013 所需的类和属性。
 
-Lync Server 2013 需要多个新的类和属性，并修改一些现有的类和属性。 此外，Lync Server 2013 的许多配置信息存储在中央管理存储中，而不是在 AD DS 中，就像在以前的版本中一样。 以下信息仍存储在 Lync Server 2013 中的 AD DS 中：
+Lync Server 2013 需要几个新的类和属性，并修改一些现有的类和属性。 此外，Lync Server 2013 的很多配置信息存储在中央管理存储中，而不是在 AD DS 中，就像在以前的版本中一样。 以下信息仍存储在 Lync Server 2013 中的 AD DS 中：
 
   - **架构扩展**：
     
       - 用户对象扩展
     
-      - Office 通信服务器2007和 Office 通信服务器 2007 R2 类的扩展，以保持受支持的早期版本的向后兼容性
+      - Office 通信服务器2007和 Office 通信服务器 2007 R2 类的扩展，以保持与受支持的早期版本的向后兼容
 
 <!-- end list -->
 
   - **数据**（存储在 Lync Server 扩展架构和现有架构类中）：
     
-      - 用户 SIP 统一资源标识符（URI）和其他用户设置
+      - 用户 SIP 统一资源标识符 (URI) 和其他用户设置
     
-      - 响应组和会议助理等应用程序的联系人对象
+      - 应用程序（如响应组和会议助理）的联系人对象
     
       - 指向中央管理存储的指针
     
       - Kerberos 身份验证帐户（可选计算机对象）
 
-本主题介绍 Lync Server 2013 所需的 Active Directory 架构更改。 它不会描述以前版本的 Office 通信服务器引入的架构更改。 有关类及其说明的列表，请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关属性及其说明的列表，请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。 有关它们可能包含的属性的类的列表，请参阅[Lync Server 2013 中按类列出的架构属性](lync-server-2013-schema-attributes-by-class.md)。
+本主题介绍 Lync Server 2013 所需的 Active Directory 架构更改。 它不会描述由早期版本的 Office 通信服务器引入的架构更改。 有关类及其说明的列表，请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关属性及其说明的列表，请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。 有关它们可能包含的属性的类的列表，请参阅[在 Lync Server 2013 中按类列出的架构属性](lync-server-2013-schema-attributes-by-class.md)。
 
 MsRTCSIP 前缀标识特定于 Lync Server 的类和属性。
 
 <div>
 
-## <a name="new-active-directory-attributes"></a>新的 Active Directory 属性
+## <a name="new-active-directory-attributes"></a>新增 Active Directory 属性
 
-下表描述了 Lync Server 2013 添加的 Active Directory 属性。
+下表介绍了由 Lync Server 2013 添加的 Active Directory 属性。
 
-### <a name="attributes-added-by-lync-server-2013"></a>Lync Server 2013 添加的属性
+### <a name="attributes-added-by-lync-server-2013"></a>由 Lync Server 2013 添加的属性
 
 <table>
 <colgroup>
@@ -79,17 +79,17 @@ MsRTCSIP 前缀标识特定于 Lync Server 的类和属性。
 <thead>
 <tr class="header">
 <th>属性</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>msExchUserHoldPolicies</p></td>
-<td><p>此多值属性包含适用于用户的保留策略的标识符。 保留策略在保留期间保留用户的邮箱项目。 此属性是与 Exchange 2013 共享的。</p></td>
+<td><p>此多值属性可保存应用于用户的保留策略的标识符。 保留策略会在保留持续时间内保留用户的邮箱项目。 此属性与 Exchange 2013 共享。</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-UserRoutingGroupId</p></td>
-<td><p>这是 SIP 路由组 ID。 同一组中的用户将注册到同一前端服务器。</p></td>
+<td><p>这是 SIP 路由组 ID。同一组中的用户将注册到同一前端服务器。</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MirrorBackEndServer</p></td>
@@ -103,11 +103,11 @@ MsRTCSIP 前缀标识特定于 Lync Server 的类和属性。
 
 <div>
 
-## <a name="modified-active-directory-classes"></a>已修改的 Active Directory 类
+## <a name="modified-active-directory-classes"></a>修改的 Active Directory 类
 
 下表介绍了由 Lync Server 2013 修改的 Active Directory 类。
 
-### <a name="classes-modified-by-lync-server-2013"></a>Lync Server 2013 修改的类
+### <a name="classes-modified-by-lync-server-2013"></a>由 Lync Server 2013 修改的类
 
 <table>
 <colgroup>
@@ -117,7 +117,7 @@ MsRTCSIP 前缀标识特定于 Lync Server 的类和属性。
 </colgroup>
 <thead>
 <tr class="header">
-<th>种类</th>
+<th>Class</th>
 <th>更改</th>
 <th>类或属性</th>
 </tr>
@@ -125,26 +125,26 @@ MsRTCSIP 前缀标识特定于 Lync Server 的类和属性。
 <tbody>
 <tr class="odd">
 <td><p>用户</p></td>
-<td><p>add： mayContain</p>
-<p>add： mayContain</p></td>
+<td><p>add:mayContain</p>
+<p>add:mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="even">
-<td><p>联系人</p></td>
-<td><p>add： mayContain</p>
-<p>add： mayContain</p></td>
+<td><p>Contact</p></td>
+<td><p>add:mayContain</p>
+<p>add:mayContain</p></td>
 <td><p>ProxyAddresses</p>
 <p>msRTCSIP-UserRoutingGroupId</p></td>
 </tr>
 <tr class="odd">
-<td><p>邮件-收件人</p></td>
-<td><p>add： mayContain</p></td>
+<td><p>Mail-Recipient</p></td>
+<td><p>add:mayContain</p></td>
 <td><p>msExchUserHoldPolicies</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>add： mayContain</p></td>
+<td><p>add:mayContain</p></td>
 <td><p>msRTCSIP-MirrorBackEndServer</p></td>
 </tr>
 </tbody>

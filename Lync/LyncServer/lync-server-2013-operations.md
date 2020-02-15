@@ -12,16 +12,16 @@ ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e99c56ae8c7699b3e19f18ef057b194539b75e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0726a1c7893a2411ed1fc1ad8981349b8cc9add
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755776"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755776"
 
 <span> </span>
 
-_**主题上次修改时间：** 2015-01-26_
+_**上次修改的主题：** 2015-01-26_
 
-本部分中的主题介绍了如何使用管理工具配置和管理 Lync Server 2013 部署。
+本节中的主题介绍如何使用管理工具来配置和管理 Lync Server 2013 部署。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
+  - [Lync Server 2013 的操作指南](lync-server-2013-operations-guide.md)
 
   - [Lync Server 2013 管理工具](lync-server-2013-lync-server-administrative-tools.md)
 
@@ -61,7 +61,7 @@ _**主题上次修改时间：** 2015-01-26_
 
   - [在 Lync Server 2013 中管理呼叫管理功能](lync-server-2013-managing-call-management-features.md)
 
-  - [在 Lync Server 2013 中管理会议](lync-server-2013-managing-meetings-and-conferences.md)
+  - [在 Lync Server 2013 中管理会议和会议](lync-server-2013-managing-meetings-and-conferences.md)
 
   - [在 Lync Server 2013 中管理设备、电话和客户端应用程序](lync-server-2013-managing-devices-phones-and-client-applications.md)
 
@@ -73,7 +73,7 @@ _**主题上次修改时间：** 2015-01-26_
 
   - [管理 Lync Server 2013 网络基础结构](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)
 
-  - [在 Lync Server 2013 中管理增强型 9-1-1 和位置服务](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
+  - [在 Lync Server 2013 中管理增强型9-1-1 和位置服务](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
 
   - [管理 Lync Server 2013 服务和服务器角色](lync-server-2013-managing-lync-server-services-and-server-roles.md)
 
@@ -83,7 +83,7 @@ _**主题上次修改时间：** 2015-01-26_
 
   - [备份和还原 Lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)
 
-  - [Lync Server 2013 中的监视和运行状况配置](lync-server-2013-monitoring-and-health-configuration.md)
+  - [Lync Server 2013 中的监控和运行状况配置](lync-server-2013-monitoring-and-health-configuration.md)
 
   - [Lync Server 2013 命令行管理程序](lync-server-2013-lync-server-management-shell.md)
 

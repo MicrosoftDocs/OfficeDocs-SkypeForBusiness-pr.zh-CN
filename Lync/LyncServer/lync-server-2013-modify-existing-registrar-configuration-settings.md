@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：修改现有注册机构配置设置
+title: Lync Server 2013：修改现有注册器配置设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fe12f85f7ea8501f478d570612ad52cd350fdca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d7297ed0df352090f08b90475778f1bde788c8e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737143"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-existing-registrar-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中修改现有注册机构配置设置
+# <a name="modify-existing-registrar-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中修改现有的注册器配置设置
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737143"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-可以使用注册器配置代理服务器身份验证协议。 有关可用协议的信息，请参阅[在 Lync Server 2013 中创建注册机构配置设置](lync-server-2013-create-registrar-configuration-settings.md)。
+您可以使用注册器配置代理服务器身份验证协议。 有关可用协议的信息，请参阅[Lync Server 2013 中的创建注册器配置设置](lync-server-2013-create-registrar-configuration-settings.md)。
 
 <div>
 
@@ -53,17 +53,17 @@ _**主题上次修改时间：** 2012-11-01_
 
 <div>
 
-## <a name="to-modify-existing-registrar-configuration-settings"></a>修改现有的注册器配置设置
+## <a name="to-modify-existing-registrar-configuration-settings"></a>修改现有注册器配置设置
 
-1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“安全性”****，然后单击“注册器”****。
 
-4.  在“注册器”**** 页上，单击某个服务，再单击“编辑”****，然后单击“显示详细信息”****。
+4.  在 "**注册**器" 页上，单击某个服务，再单击 "**编辑**"，然后单击 "**显示详细信息**"。
 
-5.  在“编辑注册器设置”**** 中，根据环境中的客户端功能和支持情况，选择下列一项或多项：
+5.  在 "**编辑注册器设置**" 中，根据客户端的功能和环境中支持的功能选择以下一个或多个选项：
     
       - **启用 Kerberos 身份验证**，可使池中的服务器使用 Kerberos 身份验证发出质询。
     
@@ -71,7 +71,7 @@ _**主题上次修改时间：** 2012-11-01_
     
       - **启用证书身份验证**，可使池中的服务器向客户端颁发证书。
 
-6.  单击“**提交**”。
+6.  单击“提交”****。
 
 </div>
 

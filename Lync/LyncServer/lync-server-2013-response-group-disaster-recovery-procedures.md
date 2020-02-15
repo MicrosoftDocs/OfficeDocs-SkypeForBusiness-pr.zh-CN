@@ -12,16 +12,16 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5325f84ff5bf5a0f8d9d1a856110e0ac18b37d93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73b5dba010da09fb20c96ca6b14de2f881e32b60
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723622"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41723622"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-在灾难恢复的故障转移阶段，响应组位于多个池中：在主池（不可用）和备份池中。 两个池中的响应组具有相同的名称和相同的所有者（主池），但它们具有不同的父池。 在这段时间内，响应组 cmdlet 的工作方式略有不同。 请确保使用以下过程中指定的参数。 有关 cmdlet 在故障转移阶段的工作原理的详细信息，请参阅 NextHop 博客文章 "Lync Server 2013：在[http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)灾难恢复期间恢复响应组"。 此博客文章还适用于 Lync Server 2013 的已发布版本。
+在灾难恢复的故障转移阶段内，响应组位于多个池中：主池（无法使用）和备份池。 这两个池中的响应组具有相同的名称和相同的所有者（主池），但是它们具有不同的父项。 在这段时间内，响应组 cmdlet 的工作方式略有不同。 请务必使用以下过程中指定的参数。 有关在故障转移阶段中 cmdlet 的工作原理的详细信息，请参阅 NextHop 博客文章 "Lync Server 2013：在灾难恢复过程[http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)中恢复响应组"，时间为。 此博客文章也适用于 Lync Server 2013 的已发布版本。
 
-使用以下过程中的步骤为 Lync Server 响应组服务准备和执行灾难恢复。
+使用以下过程中的步骤来准备和执行 Lync Server 响应组服务的灾难恢复。
 
 <div>
 
-## <a name="to-fail-over-and-fail-back-response-group"></a>故障转移和故障回复响应组
+## <a name="to-fail-over-and-fail-back-response-group"></a>对响应组进行故障转移和故障回复
 
-1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-2.  定期执行备份。 在命令行中键入：
+2.  定期执行备份。在命令行中键入：
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>"
     
@@ -55,11 +55,11 @@ _**主题上次修改时间：** 2012-11-01_
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimary.zip"
 
-3.  在中断期间，在故障转移到备份池后，将响应组导入到备份池。 在命令行中键入：
+3.  在中断期间，在故障转移到备份池后，将响应组导入备份池。在命令行中键入：
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<backup pool FQDN>" -FileName "<backup path and file name>"
     
-    如果要将备份池中的应用程序级设置替换为主池中的设置，请包括-ReplaceExistingSettings 参数。 例如：
+    如果您想要将备份池中的应用程序级别设置替换为主池中的设置，请包括 –ReplaceExistingSettings 参数。例如：
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
@@ -67,14 +67,14 @@ _**主题上次修改时间：** 2012-11-01_
     
 
     > [!WARNING]  
-    > 如果不替换备份池中的设置，并且无法恢复主池，则主池设置将丢失。 有关详细信息，请参阅<A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">在 Lync Server 2013 中规划响应组灾难恢复</A>。
+    > 如果您未替换备份池中的设置，并且无法恢复主池，则主池设置将会丢失。 有关详细信息，请参阅<A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">在 Lync Server 2013 中规划响应组灾难恢复</A>。
 
     
     </div>
 
-4.  通过显示导入的响应组来验证导入是否成功。 导入的响应组仍由主池拥有。 请执行下列操作：
+4.  通过显示导入的响应组来验证导入是否成功。导入的响应组仍归主池所有。请执行以下操作：
     
-      - 显示由主池拥有的备份池中的所有工作流，并验证是否包含所有主池工作流。 在命令行中键入：
+      - 显示备份池中归主池所有的全部工作流，并验证是否包含所有主池工作流。在命令行中键入：
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -82,7 +82,7 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com"
     
-      - 显示由主池拥有的备份池中的所有队列，并验证是否包含所有主池队列。 在命令行中键入：
+      - 显示备份池中归主池所有的全部队列，并验证是否包含所有主池队列。在命令行中键入：
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -90,7 +90,7 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - 显示由主池拥有的备份池中的所有代理组，并验证是否包含所有主池代理组。 在命令行中键入：
+      - 显示备份池中归主池所有的全部代理组，并验证是否包含所有主池代理组。在命令行中键入：
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -98,7 +98,7 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - 显示由主池拥有的备份池中的所有工作时间，并验证是否包括所有主池的工作时间。 在命令行中键入：
+      - 显示备份池中归主池所有的全部工作时间，并验证是否包含所有主池工作时间。在命令行中键入：
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -106,7 +106,7 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - 显示由主池拥有的备份池中的所有假日集，并验证是否包含所有主池假日集。 在命令行中键入：
+      - 显示备份池中归主池所有的全部假日集，并验证是否包含所有主池假日集。在命令行中键入：
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
@@ -114,7 +114,7 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-    或者，你可以显示备份池中的所有响应组，包括由主池拥有的所有响应组以及由备份池拥有的所有响应组，方法是使用– ShowAll 参数而不是-Owner 参数。 例如：
+    或者，您可以使用 –ShowAll 参数而不是 –Owner 参数来显示备份池中的所有响应组，包括主池所拥有的响应组和备份池所拥有的响应组。例如：
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
@@ -122,31 +122,31 @@ _**主题上次修改时间：** 2012-11-01_
     
 
     > [!IMPORTANT]  
-    > 你必须使用– ShowAll 参数或– Owner 参数。 如果不使用这两个参数中的任何一个，则导入到备份池的响应组将不会在 cmdlet 返回的结果中列出。
+    > 您必须使用 –ShowAll 参数或 –Owner 参数。如果没有使用其中任一参数，则导入到备份池的响应组不会在 cmdlet 返回的结果中列出。
 
     
     </div>
 
-5.  通过在导入的响应组中拨打电话并验证是否正确处理了呼叫，验证导入是否成功。
+5.  通过呼叫导入的响应组并验证呼叫是否正确处理来验证导入是否成功。
 
-6.  请求代理是正式代理组的成员，以登录到备份池中的代理组。
+6.  请求属于正式代理组的成员的代理登录到其在备份池中的代理组。
 
-7.  照常管理和修改导入的响应组。
+7.  像往常一样管理和修改导入的响应组。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 当响应组位于备份池中时，你需要使用 Lync Server Management Shell 管理它们。 无法使用 Lync Server "控制面板" 管理导入到备份池中的响应组。
+    > 当响应组位于备份池中时，您需要使用 Lync Server 命令行管理程序来管理它们。 您不能使用 Lync Server 控制面板管理导入到备份池中的响应组。
 
     
     </div>
 
-8.  在还原主池并完成故障回复后，请导出已导入到备份池中的主要池响应组。 在命令行中键入：
+8.  在恢复主池并完成故障回复之后，导出已导入备份池的主池响应组。在命令行中键入：
     
         Export-CsRgsConfiguration -Source ApplicationServer:<backup pool FQDN> -Owner ApplicationServer:<primary pool FQDN> -FileName "<backup path and file name>"
 
-9.  将响应组导入回主池。 在命令行中键入：
+9.  将响应组重新导入到主池。在命令行中键入：
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>"
     
@@ -158,12 +158,12 @@ _**主题上次修改时间：** 2012-11-01_
     
 
     > [!NOTE]  
-    > 如果你在恢复期间重新生成池，而不是使用相同或不同的完全限定的域名（FQDN），则需要使用-OverwriteOwner 参数。 根据经验法则，将响应组导入到主池时，始终可以使用– OverwriteOwner 参数。
+    > 如果在恢复期间重建池，则无论完全限定域名 (FQDN) 相同还是不同，您都需要使用 –OverwriteOwner 参数。根据经验法则，在将响应组导回到主池时，您可以始终使用 –OverwriteOwner 参数。
 
     
     </div>
     
-    如果你部署了新池（具有相同或不同的 FQDN）来替换主池，并且希望使用新池的备份池中的应用程序级别设置，请包含-ReplaceExistingSettings 参数。 在命令行中键入：
+    如果您部署一个新池（具有相同或不同的 FQDN）来替换主池，并且想要针对新池使用备份池中的应用程序级别设置，请包括 –ReplaceExistingSettings 参数。在命令行中键入：
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
     
@@ -175,14 +175,14 @@ _**主题上次修改时间：** 2012-11-01_
     
 
     > [!IMPORTANT]  
-    > 如果您不想将新池的应用程序级设置和默认的音乐保留音频文件替换为具有备份池中的设置，则新池将使用默认的应用程序级设置。
+    > 如果您不想将新池的应用程序级别设置和默认保持音乐音频文件替换为备份池中的设置，则新池将使用默认应用程序级别设置。
 
     
     </div>
 
-10. 通过显示导入的响应组配置来验证是否已成功导入到主池。 请执行下列操作：
+10. 通过显示导入的响应组配置来验证导回至主池是否成功。请执行以下操作：
     
-      - 显示主池中的所有工作流，并验证是否包含所有导入的工作流。 在命令行中键入：
+      - 显示主池中的所有工作流，并验证是否包含所有导入的工作流。在命令行中键入：
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -190,7 +190,7 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer: primary.contoso.com" -ShowAll
     
-      - 显示主池中的所有队列，并验证是否包含所有导入的队列。 在命令行中键入：
+      - 显示主池中的所有队列，并验证是否包含所有导入的队列。在命令行中键入：
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -198,7 +198,7 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - 显示主池中的所有代理组，并验证是否包含所有导入的代理组。 在命令行中键入：
+      - 显示主池中的所有代理组，并验证是否包含所有导入的代理组。在命令行中键入：
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer: <primary pool FQDN>" -ShowAll
         
@@ -206,7 +206,7 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - 显示主池中的所有工作时间，并验证是否包括所有导入的公司工时。 在命令行中键入：
+      - 显示主池中的所有工作时间，并验证是否包含所有导入的工作时间。在命令行中键入：
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -214,7 +214,7 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - 显示主池中的所有假日集，并验证是否包含所有导入的假日集。 在命令行中键入：
+      - 显示主池中的所有假日集，并验证是否包含所有导入的假日集。在命令行中键入：
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
@@ -222,9 +222,9 @@ _**主题上次修改时间：** 2012-11-01_
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
 
-11. 通过在导入的响应组中拨打电话并验证是否正确处理了呼叫，验证导入是否成功。
+11. 通过呼叫导入的响应组并验证呼叫是否正确处理来验证导入是否成功。
 
-12. （可选）从备份池中删除主池拥有的响应组。 在命令行中键入：
+12. 或者，从备份池中删除主池拥有的响应组。在命令行中键入：
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>" -RemoveExportedConfiguration
     
@@ -236,7 +236,7 @@ _**主题上次修改时间：** 2012-11-01_
     
 
     > [!NOTE]  
-    > 此步骤将使用导出的配置创建一个新文件，然后将其从备份池中删除。
+    > 此步骤将使用导出的配置创建新文件，然后将该文件从备份池中删除。
 
     
     </div>

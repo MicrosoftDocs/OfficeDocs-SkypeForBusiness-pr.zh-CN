@@ -12,20 +12,20 @@ ms:contentKeyID: 48185277
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed681497eee3033ea18cdac0487257f02052491c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38053645858c2fcec52f94259485184801236240
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765803"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-call-park-application-features-in-lync-server-2013"></a>Lync Server 2013 中新的呼叫寄存应用程序功能
+# <a name="new-call-park-application-features-in-lync-server-2013"></a>Lync Server 2013 中的新呼叫寄存应用程序功能
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765803"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-17_
+_**上次修改的主题：** 2012-10-17_
 
-"呼叫驻留" 应用程序使企业语音用户可以将呼叫置于保持状态，然后在以后通过任何电话取回呼叫。 停用呼叫的用户可以拨打由呼叫公园提供的 "轨道" 编号以检索寄存的呼叫，或使用外部机制（如即时消息（IM）或寻呼系统）让其他人检索呼叫。
+呼叫寄存应用程序使企业语音用户可以将呼叫置于保持状态，然后在以后从任何电话检索呼叫。 停用呼叫的用户可以拨打呼叫寄存提供的通道号码以检索寄存的呼叫，或使用外部机制（如即时消息（IM）或寻呼系统）来请求其他人检索呼叫。
 
-Lync Server 2013 以故障转移和故障回复进程的形式提供了新的灾难恢复机制。 这些故障转移和故障回复进程支持通过主池中托管的用户在主池中出现中断时利用备份池的调用寄存应用程序，从而支持呼叫寄存功能的恢复。 对调用寄存应用程序进行灾难恢复的支持作为成对的前端池配置和部署的一部分启用。
+Lync Server 2013 以故障转移和故障回复进程的形式提供了新的灾难恢复机制。 这些故障转移和故障回复进程通过允许驻留在主池中的用户在主池中发生中断时利用备份池的呼叫寄存应用程序，来支持呼叫寄存功能的恢复。 对呼叫寄存应用程序的灾难恢复的支持作为成对前端池的配置和部署的一部分进行启用。
 
 <div>
 

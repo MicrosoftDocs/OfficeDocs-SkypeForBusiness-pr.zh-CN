@@ -12,16 +12,16 @@ ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1772a538330c897cdcc77e75e7ad796792c1d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 25a9de5a754545aa49c4a7d9dda6b8378f448eab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724232"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,52 +35,52 @@ ms.locfileid: "41724232"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-09_
+_**上次修改的主题：** 2012-10-09_
 
-复制 cmdlet 提供了一种监视和管理 Lync Server 复制的方式。 你可以使用这些 cmdlet 配置复制设置;监视复制进度;并在服务器上手动强制执行复制。
+复制 cmdlet 提供了一种监视和管理 Lync Server 复制的方法。 您可以使用这些 cmdlet 来配置复制设置;监视复制进度;并在服务器上手动强制执行复制。
 
 <div>
 
-## <a name="replication-cmdlets"></a>复制 Cmdlet
+## <a name="replication-cmdlets"></a>Replication Cmdlets
 
 以下是与管理复制直接相关的 cmdlet 的列表：
 
 **复制**
 
   - <span></span>  
-    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
+    [调试-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
+    [调用 CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsManagementStoreReplicationStatus](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
+    [Get-csmanagementstorereplicationstatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-CsReplica](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
+    [Enable-CsReplica](https://technet.microsoft.com/library/Gg425965(v=OCS.15))
 
   - <span></span>  
-    [Test-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
+    [Test-CsReplica](https://technet.microsoft.com/library/JJ205289(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
+    [CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))
 
   - <span></span>  
-    [新-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
+    [新 CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+    [CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+    [CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))
 
 </div>
 

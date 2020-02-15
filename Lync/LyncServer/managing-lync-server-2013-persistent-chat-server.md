@@ -12,16 +12,16 @@ ms:contentKeyID: 48184672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 067e24a7e1534e355e39f80b6a3fda90e059be14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bdbf0c6e28cfefa46eb55a66446bf5e3adec3e36
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757146"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,39 +35,39 @@ ms.locfileid: "41757146"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-11_
+_**上次修改的主题：** 2012-10-11_
 
-你可以使用 Lync Server 2013 的持久聊天服务器，使多个用户能够参与对话，在其中发布和访问有关特定主题（包括文本、链接和文件）的内容。 虽然用户可以在会话期间实时进行通信，但每个会话的内容都是持久的，这意味着它在会话结束后仍然可用。
+您可以使用 Lync Server 2013 和持久聊天服务器，使多个用户可以参与对话，在其中发布和访问有关特定主题（包括文本、链接和文件）的内容。 尽管用户可以在会话期间实时进行通信，但每个会话的内容都可以持久保存，也就是说，在会话结束后依然可以获得这些内容。
 
-持久聊天室的内容主要包含短文本消息，尽管它可以包含较长的消息（称为*情景*），还包括超链接、表情符和上载的文档。
+持久聊天室的内容主要由简短的短信组成，尽管它可以包含更长的邮件（称为*文章*），也可以是超链接、图释和上载的文档。
 
 <div>
 
 
 > [!NOTE]  
-> Lync 2013 客户端不支持文件上载和下载;但是，它仍然受 Lync Server 2013、持久聊天服务器的支持。 旧式群组聊天客户端可以发布和查看文件，但如果同一聊天室是通过 Lync 2013 客户端访问的，它将无法访问文件。
+> Lync 2013 客户端不支持文件上载和下载;但是，它仍然受 Lync Server 2013、持久聊天服务器支持。 旧式组聊天客户端可以发布和查看文件，但是，如果通过 Lync 2013 客户端访问相同的聊天室，它将无法访问这些文件。
 
 
 
 </div>
 
-对聊天室的访问权限由成员身份列表控制。 整个聊天室历史记录可供任何成员进行按时间查看或全文搜索。 有关使用持久聊天客户端的详细信息，请参阅规划文档中的 "[规划 Lync server 2013 中的客户端](lync-server-2013-planning-for-clients.md)" 和 "部署文档" 中[lync server 2013 中的客户端和设备](lync-server-2013-deploying-clients-and-devices.md)。
+聊天室的访问由成员身份列表控制。 完整聊天室历史记录可供任何成员按时间顺序查阅或进行全文搜索。 有关使用持久聊天客户端的详细信息，请参阅部署文档中的规划文档中的[在 Lync server 2013 中规划客户端](lync-server-2013-planning-for-clients.md)和在[lync Server 2013 中部署客户端和设备](lync-server-2013-deploying-clients-and-devices.md)。
 
-为您的组织设置持久聊天服务器时，请在部署期间指定初始配置。 但是，有时你可能需要更改实现持久聊天服务器支持的方式。 例如，你可能需要为组织内的特定团队或组设置持续聊天服务器支持和控件的方式不同。 本部分提供了可帮助您自定义持久聊天服务器部署的信息和过程。 有关可针对持久聊天服务器配置的功能和功能的详细信息，请参阅在计划文档中[定义组织的持久聊天2013服务器的要求](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)，以及在规划文档、部署文档或操作文档中的[lync server 2013 中的持久聊天服务器的工作方式](lync-server-2013-how-persistent-chat-server-works.md)。 有关为 Lync Server 2013 部署持久聊天服务器的详细信息，请参阅部署文档中[Lync server 2013 中的 "部署持久聊天服务器](lync-server-2013-deploying-persistent-chat-server.md)"。
+为组织设置持久聊天服务器时，请在部署过程中指定初始配置。 但是，有时您可能需要更改实现持久聊天服务器支持的方式。 例如，您可能需要为组织内的特定团队或组设置与之不同的持久聊天服务器支持和控件。 本节提供可帮助您自定义持久聊天服务器部署的信息和过程。 有关可为持久聊天服务器配置的特性和功能的详细信息，请参阅规划文档中的在[Lync server 2013 中定义组织的持久聊天服务器要求](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md)，以及在规划文档、部署文档或操作文档中的[持久聊天服务器在 lync server 2013 中的工作方式](lync-server-2013-how-persistent-chat-server-works.md)。 有关为 Lync Server 2013 部署持久聊天服务器的详细信息，请参阅部署文档中的在[Lync Server 2013 中部署持久聊天服务器](lync-server-2013-deploying-persistent-chat-server.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中持久聊天服务器的工作方式](lync-server-2013-how-persistent-chat-server-works.md)
+  - [Lync Server 2013 中持久聊天服务器的工作原理](lync-server-2013-how-persistent-chat-server-works.md)
 
   - [使用类别管理持久聊天服务器](using-categories-to-administer-persistent-chat-server.md)
 
   - [了解持久聊天成员身份](understanding-persistent-chat-membership.md)
 
-  - [持久聊天服务器最佳做法](persistent-chat-server-best-practices.md)
+  - [持久聊天服务器最佳实践](persistent-chat-server-best-practices.md)
 
-  - [在 Lync Server 2013 中管理类别、聊天室和加载项](lync-server-2013-managing-categories-rooms-and-add-ins.md)
+  - [在 Lync Server 2013 中管理类别、聊天室和外接程序](lync-server-2013-managing-categories-rooms-and-add-ins.md)
 
   - [在 Lync Server 2013 中管理持久聊天用户访问](lync-server-2013-managing-persistent-chat-user-access.md)
 

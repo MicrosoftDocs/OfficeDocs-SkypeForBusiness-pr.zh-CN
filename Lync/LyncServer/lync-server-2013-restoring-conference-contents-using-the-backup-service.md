@@ -12,16 +12,16 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 873ca354ca592eb6bc317b579a0a6f5008e6a172
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8fb791362718b2bce5e7c13c0cc6aab779d954f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733192"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-如果在前端池的文件存储中存储的会议信息不可用。 您必须还原此信息，以便驻留在该池中的用户保留其会议数据。 如果已丢失会议数据的前端池与另一个前端池配对，则可以使用备份服务还原数据。
+如果存储在前端池的文件存储中的会议信息变得不可用，则您必须还原此信息，以便驻留在池中的用户能够保留其会议数据。如果丢失了会议数据的前端池与另一个前端池配对，您可以使用备份服务还原数据。
 
-如果整个池出现故障，并且你必须将其用户故障转移到备份池，还必须执行此任务。 当这些用户故障恢复到其原始池时，必须使用此过程将其会议内容复制回其原始池。
+此外，如果整个池已失败并且您必须将其用户故障转移到备份池，则也必须执行此任务。在将这些用户故障转移回其原始池时，您也必须使用此过程将其会议内容复制回其原始池。
 
-假设 Pool1 与 Pool2 配对，并且 Pool1 中的会议数据丢失。 你可以使用以下 cmdlet 调用备份服务来还原内容：
+假定将 Pool1 与 Pool2 配对且 Pool1 中的会议数据已丢失。 您可以使用以下 cmdlet 调用备份服务以还原内容：
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-还原会议内容可能需要一些时间，具体取决于它们的大小。 你可以使用以下 cmdlet 检查进程状态：
+还原会议内容可能需要一些时间，具体取决于该内容的大小。您可以使用以下 cmdlet 检查过程状态：
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-当此 cmdlet 为数据会议模块返回稳定状态的值时，将执行此过程。
+当此 cmdlet 为数据会议模块返回值“稳定状态”时，表示此过程已完成。
 
 </div>
 

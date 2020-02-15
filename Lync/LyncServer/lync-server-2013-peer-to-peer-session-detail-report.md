@@ -12,20 +12,20 @@ ms:contentKeyID: 48184416
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bff140db52a98e0b442ca65bbbb8b148282c5755
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c977b2f9f9a6248ab7ba5d5391397d4cd4326a18
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755292"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的对等会话详细信息报表
+# <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的对等会话详细信息报告
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755292"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-06_
+_**上次修改的主题：** 2012-06-06_
 
-对等会话详细信息报告返回有关对等会话的详细信息。例如，如果您选择即时消息会话，则此报告将告知您会话中两个用户各自发送的消息数。
+点对点会话详细信息报告返回有关点对点会话的详细信息。例如，如果您选择即时消息会话，则此报告将告知您会话中两个用户各自发送的消息数。
 
 <div>
 
-## <a name="accessing-the-peer-to-peer-session-detail-report"></a>访问对等会话详细信息报告
+## <a name="accessing-the-peer-to-peer-session-detail-report"></a>访问点对点会话详细信息报告
 
-可以从下列任一报告（可从监控报告主页中访问所有这些报告）访问对等会话详细信息报告：
+可以从下列任一报告（可从监控报告主页中访问所有这些报告）访问点对点会话详细信息报告：
 
   - IP 电话清单报告
 
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2012-06-06_
 
   - 故障列表报告
 
-从对等会话详细信息报告中，可以通过单击诊断报告（详细信息）指标来访问[Lync Server 2013 中的诊断报告](lync-server-2013-diagnostic-report.md)。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
+在对等会话详细信息报告中，可通过单击 "诊断报告（详细信息）" 指标来访问[Lync Server 2013 中的诊断报告](lync-server-2013-diagnostic-report.md)。 此外，还可以通过单击这两个指标之一来访问主要故障报告：
 
   - 响应
 
@@ -63,11 +63,11 @@ _**主题上次修改时间：** 2012-06-06_
 
 <div>
 
-## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>最充分地利用对等会话详细信息报告
+## <a name="making-the-best-use-of-the-peer-to-peer-session-detail-report"></a>最充分地利用点对点会话详细信息报告
 
-对等会话详细信息报告包括大量指标，其中有许多指标是系统管理员所不熟悉的。不过，通常您只需将鼠标指针悬停在指标标签的上方即可查看提供了指标的简要说明的工具提示。
+点对点会话详细信息报告包括大量指标，其中有许多指标是系统管理员所不熟悉的。不过，通常您只需将鼠标指针悬停在指标标签的上方即可查看提供了指标的简要说明的工具提示。
 
-请注意，给定报告上显示的实际指标将取决于您所选的对等会话的类型。音频/视频会话将报告一组与即时消息会话不同的指标。
+请注意，给定报告上显示的实际指标将取决于您所选的点对点会话的类型。音频/视频会话将报告一组与即时消息会话不同的指标。
 
 还可以将鼠标指针悬停在响应代码和诊断 ID 指标的上方来获取这些值的描述：
 
@@ -77,7 +77,7 @@ _**主题上次修改时间：** 2012-06-06_
 
 ## <a name="filters"></a>筛选器
 
-无。无法筛选对等会话详细信息报告。
+无。无法筛选点对点会话详细信息报告。
 
 </div>
 
@@ -85,7 +85,7 @@ _**主题上次修改时间：** 2012-06-06_
 
 ## <a name="session-information-metrics"></a>会话信息指标
 
-下表列出了每个会话的对等会话详细信息报告中提供的信息。
+下表列出了每个会话的点对点会话详细信息报告中提供的信息。
 
 ### <a name="session-information-metrics"></a>会话信息指标
 
@@ -183,7 +183,7 @@ _**主题上次修改时间：** 2012-06-06_
 
 ## <a name="metrics-for-modalities"></a>形式指标
 
-下表列出了每种会话形式的对等会话详细信息报告中提供的信息。
+下表列出了每种会话形式的点对点会话详细信息报告中提供的信息。
 
 ### <a name="metrics-for-modalities"></a>形式指标
 
@@ -197,7 +197,7 @@ _**主题上次修改时间：** 2012-06-06_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -226,7 +226,7 @@ _**主题上次修改时间：** 2012-06-06_
 
 ## <a name="metrics-for-diagnostic-reports"></a>诊断报告指标
 
-下表列出了每个诊断报告的对等会话详细信息报告中提供的信息。
+下表列出了每个诊断报告的点对点会话详细信息报告中提供的信息。
 
 ### <a name="metrics-for-diagnostic-reports"></a>诊断报告指标
 
@@ -240,12 +240,12 @@ _**主题上次修改时间：** 2012-06-06_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>详情</strong></p></td>
+<td><p><strong>详细信息</strong></p></td>
 <td><p>否</p></td>
 <td><p>当您单击此项时，报告显示会话的诊断报告。</p></td>
 </tr>

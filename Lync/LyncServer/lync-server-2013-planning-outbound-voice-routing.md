@@ -12,16 +12,16 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1fbcb976ed4f3d1464b6b956ef60dc1d00bd6907
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747662"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747662"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-21_
+_**上次修改的主题：** 2012-09-21_
 
-出站呼叫路由适用于发往公共交换电话网络（PSTN）网关、主干或专用分支 exchange （PBX）的呼叫。 当用户发出呼叫时，服务器会将电话号码标准化为164格式（如有必要），并尝试将其与 SIP URI 匹配。 如果服务器无法进行匹配，则会根据提供的拨号串应用出站呼叫路由逻辑。 通过配置下表中所述的服务器设置定义该逻辑。
+出站呼叫路由适用于发往公用电话交换网 (PSTN) 网关、中继或专用交换机 (PBX) 的呼叫。当用户发出呼叫时，服务器会在必要时将电话号码规范化为 E.164 格式，并尝试将其与 SIP URI 进行匹配。如果服务器无法进行匹配，则会根据提供的拨号串应用出站呼叫路由逻辑。通过配置下表中所述的服务器设置定义该逻辑。
 
 ### <a name="lync-server-outbound-call-routing-settings"></a>Lync Server 出站呼叫路由设置
 
@@ -49,13 +49,13 @@ _**主题上次修改时间：** 2012-09-21_
 <thead>
 <tr class="header">
 <th>对象</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>拨号计划</p></td>
-<td><p>拨号计划是一组指定的规范化规则，可将指定位置、单个用户或联系人对象的电话号码转换为统一标准 (E.164) 格式，以进行电话授权和呼叫路由。</p></td>
+<td><p>拨号计划是一组指定的规范化规则，可将指定位置、单个用户或联系对象的电话号码转换为统一标准 (E.164) 格式，以进行电话授权和呼叫路由。</p></td>
 </tr>
 <tr class="even">
 <td><p>规范化规则</p></td>
@@ -79,9 +79,9 @@ _**主题上次修改时间：** 2012-09-21_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-本部分提供了配置以下出站呼叫路由服务器设置的指南：
+本节提供配置以下出站呼叫路由服务器设置的指南：
 
   - <span></span>  
     [Lync Server 2013 中的拨号计划和规范化规则](lync-server-2013-dial-plans-and-normalization-rules.md)

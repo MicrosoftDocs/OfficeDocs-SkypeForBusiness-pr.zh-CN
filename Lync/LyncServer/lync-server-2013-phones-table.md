@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Phones 表
+title: Lync Server 2013：电话表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cddf5eac7cc85852f4a7f61f4b746091158257e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53c3a67381a101bd9aecc4872d4e08b4fb8daea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phones-table-in-lync-server-2013"></a>Lync Server 2013 中的 Phones 表
+# <a name="phones-table-in-lync-server-2013"></a>Lync Server 2013 中的电话表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755182"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-20_
+_**上次修改的主题：** 2012-08-20_
 
-"电话" 表是支持表。 表中的每条记录存储了在具有数据库中的记录的 VoIP 呼叫中涉及的一个电话号码的相关信息。
+电话表是支持表格。 表中的每条记录存储在包含数据库中的记录的 VoIP 呼叫中涉及的一个电话号码的相关信息。
 
 
 <table>
@@ -59,7 +59,7 @@ _**主题上次修改时间：** 2012-08-20_
 <tr class="odd">
 <td><p><strong>PhoneId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td><p>标识此电话的唯一号码。</p></td>
 </tr>
 <tr class="even">
@@ -70,7 +70,7 @@ _**主题上次修改时间：** 2012-08-20_
 </tr>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>从中</p></td>
+<td><p>dateTime</p></td>
 <td></td>
 <td><p>时间戳（仅供内部使用）。</p>
 <p>此字段是在 Microsoft Lync Server 2013 中引入的。</p></td>

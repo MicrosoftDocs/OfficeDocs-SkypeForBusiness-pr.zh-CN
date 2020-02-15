@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：监视群组聊天
+title: Lync Server 2013：监视组聊天
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa350924503f430ec0494cc5e1eb17f7878084a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb82eedd9d9578aeb4120136c1896267cde35392
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756846"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-group-chat-in-lync-server-2013"></a>在 Lync Server 2013 中监视群组聊天
+# <a name="monitoring-group-chat-in-lync-server-2013"></a>在 Lync Server 2013 中监视组聊天
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41756846"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-08-04_
+_**上次修改的主题：** 2014-08-04_
 
 强烈建议运行 Microsoft 下载中心提供的最新[累积服务器更新安装程序](http://support.microsoft.com/kb/968802)，以提高性能。
 
-假设你正在运行最新的累积更新，请使用以下压力测试表来了解你的群组聊天服务器是否在最佳运行状况下运行。
+如果你正在运行最新的累积更新，请使用以下压力测试表来了解你的组聊天服务器是否以最佳运行状况运行的指标。
 
 ### <a name="test-environment-and-user-model"></a>测试环境和用户模型
 
@@ -54,31 +54,31 @@ _**主题上次修改时间：** 2014-08-04_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>群组聊天池中的三个群组聊天服务器，每个服务器都有 8 GB 内存和8个处理器。</p></td>
+<td><p>组聊天池中的三组聊天服务器，每个服务器具有 8 GB 内存和8个处理器。</p></td>
 </tr>
 <tr class="even">
 <td><p>企业版中的两个 Lync Server 2013 前端。</p></td>
 </tr>
 <tr class="odd">
-<td><p>60000多个群组聊天服务器上的并行用户。</p></td>
+<td><p>在三个组聊天服务器上为60000个并发用户。</p></td>
 </tr>
 <tr class="even">
-<td><p>25000通道由群组聊天池托管。</p></td>
+<td><p>25000通道由组聊天池承载。</p></td>
 </tr>
 <tr class="odd">
 <td><p>频道大小：</p>
 <ul>
 <li><p>小频道大小：30</p></li>
 <li><p>中等频道大小：150</p></li>
-<li><p>大频道大小：2500</p></li>
+<li><p>大型频道大小：2500</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>频道计数：</p>
 <ul>
-<li><p>数字小型频道：24000</p></li>
+<li><p>数字小通道：24000</p></li>
 <li><p>数字中等通道800</p></li>
-<li><p>大量频道24</p></li>
+<li><p>大型频道数24</p></li>
 <li><p>通道24824总数</p></li>
 </ul></td>
 </tr>
@@ -89,29 +89,29 @@ _**主题上次修改时间：** 2014-08-04_
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>用户加入的频道数：</p>
+<td><p>用户加入的通道数：</p>
 <ul>
 <li><p>小：12</p></li>
-<li><p>中等：2</p></li>
-<li><p>大：1</p></li>
+<li><p>中：2</p></li>
+<li><p>大型：1</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>联接费率：</p>
+<td><p>联接率：</p>
 <ul>
-<li><p>每台服务器10个总/秒、3.33/秒</p></li>
+<li><p>每台服务器总共10次，每个服务器 3.33/秒</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>注销费率：</p>
+<td><p>注销率：</p>
 <ul>
-<li><p>每台服务器10个总/秒、3.33/秒</p></li>
+<li><p>每台服务器总共10次，每个服务器 3.33/秒</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>聊天费率：</p>
+<td><p>聊天速度：</p>
 <ul>
-<li><p>每个服务器20总/秒、每个服务器 6.66/秒</p></li>
+<li><p>每个服务器总共20个，每秒 6.66/秒</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -122,7 +122,7 @@ _**主题上次修改时间：** 2014-08-04_
 
 
 > [!IMPORTANT]  
-> 当使用不同的硬件规范或用户配置文件时，以下性能计数器数值可能会有所不同。
+> 使用不同的硬件规范或用户配置文件时，以下性能计数器数可能会有所不同。
 
 
 
@@ -138,13 +138,13 @@ _**主题上次修改时间：** 2014-08-04_
 <thead>
 <tr class="header">
 <th>性能计数器</th>
-<th>01b</th>
+<th>阙</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Process （ChannelService）-&gt;处理器时间百分比</p></td>
-<td><p>分钟：0</p></td>
+<td><p>最小值：0</p></td>
 </tr>
 </tbody>
 </table>

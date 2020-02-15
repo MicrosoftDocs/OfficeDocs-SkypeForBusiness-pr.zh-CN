@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新的呼叫功能
+title: Lync Server 2013：新呼叫功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dad938bf47292b74b451cefb32b0c5345d03e284
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47482eade227c55091fd5d3ca0f7b5d58123fa91
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765823"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-call-features-in-lync-server-2013"></a>Lync Server 2013 中新的呼叫功能
+# <a name="new-call-features-in-lync-server-2013"></a>Lync Server 2013 中的新呼叫功能
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765823"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-10_
+_**上次修改的主题：** 2012-10-10_
 
-Lync Server 2013 为呼叫转接和同时拨打的配置选项提供了极其广泛的配置选项。 例如，如果组织不希望将来电转发到外部交换电话网络（PSTN），管理员可以应用特殊的语音策略来部署此限制。
+Lync Server 2013 为呼叫转接和同时响铃提供了更为广泛的配置选项。 例如，如果某个组织不想将传入呼叫向外转移到公用电话交换网 (PSTN)，则管理员可应用特殊语音策略来部署此限制。
 
-此外，代理人现在可以将传入呼叫的移动设备同时拨打给其经理。 这为代理人提供了更多灵活性，使他们能够代表其经理接听呼叫，而无需联系桌面电话。
+另外，现在代理人可为向经理的传入呼叫将同时响铃设置到其移动设备。这为代理人提供了更大的灵活性，使其可代表其经理应答呼叫，而不必绑定到桌面电话。
 
 <div>
 

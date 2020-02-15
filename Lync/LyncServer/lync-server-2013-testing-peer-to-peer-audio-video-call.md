@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：测试对等音频/视频通话
+title: Lync Server 2013：测试对等音频/视频呼叫
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e319ace4ee4cc6613ac5ed29659ac14c5853d7b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 462442b7afea193866dc96aaf57085d780f43a39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745632"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050274"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745632"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-06-05_
+_**上次修改的主题：** 2014-06-05_
 
 
 <table>
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2014-06-05_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要权限</p></td>
-<td><p>当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行 CsP2PAV cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<td><p>所需的权限</p></td>
+<td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsP2PAV cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsP2PAV&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**主题上次修改时间：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-Test-CsP2PAV 用于确定一对测试用户是否可以参与对等 A/V 对话。 若要测试此方案，cmdlet 将通过登录到 Lync Server 的两个用户开始。 假设两次登录成功，第一位用户邀请第二位用户加入 A/V 呼叫。 第二个用户接受呼叫，将测试两个用户之间的连接，然后结束呼叫并从系统中注销测试用户。
+CsP2PAV 用于确定一对测试用户是否可以参与对等 A/V 会话对话。 若要测试此方案，cmdlet 将通过在两个用户上登录到 Lync Server 来启动。 假设这两个用户登录成功，然后第一个用户邀请第二个用户加入 A/V 呼叫。 第二个用户接受呼叫，将测试两个用户之间的连接；然后呼叫结束，测试用户从系统中注销。
 
-测试 CsP2PAV 实际上不执行 A/V 调用。 不会在测试用户之间交换多媒体信息。 相反，cmdlet 仅验证是否可以建立合适的连接，以及两个用户是否可以进行此类呼叫。
+CsP2PAV 不会实际执行 A/V 调用。 不会在测试用户之间交换多媒体信息。 相反，cmdlet 仅验证是否可以建立适当的连接，以及两个用户是否可以执行此类调用。
 
 有关详细信息，请参阅[CsP2PAV](https://docs.microsoft.com/powershell/module/skype/Test-CsP2PAV) Cmdlet 的帮助文档。
 
@@ -78,11 +78,11 @@ Test-CsP2PAV 用于确定一对测试用户是否可以参与对等 A/V 对话�
 
 ## <a name="running-the-test"></a>运行测试
 
-CsP2PAV cmdlet 可以使用一对预配置的测试帐户运行（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何两个用户的帐户。 若要使用测试帐户运行此检查，只需指定正在测试的 Lync Server 池的 FQDN。 例如：
+CsP2PAV cmdlet 可使用一对预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或任何两个已启用 Lync Server 的用户的帐户运行。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsP2PAV -TargetFqdn "atl-cs-001.litwareinc.com"
 
-若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Lync Server 凭据对象（包含帐户名和密码的对象）。 然后，当你调用 Test-CsP2PAV 时，你必须包含这些凭据对象和两个帐户的 SIP 地址：
+若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Lync Server 凭据对象（包含帐户名和密码的对象）。 在调用 CsP2PAV 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -92,9 +92,9 @@ CsP2PAV cmdlet 可以使用一对预配置的测试帐户运行（请参阅设�
 
 <div>
 
-## <a name="determining-success-or-failure"></a>确定成功还是失败
+## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果两个测试用户可以完成对等 A/V 调用，则会收到与以下内容类似的输出：结果属性标记为**成功：**
+如果两个测试用户可以完成对等 A/V 呼叫，则会收到类似于以下内容的输出，并将 Result 属性标记为**成功：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -102,11 +102,11 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延迟：00：00：06.8630376
 
-时发生
+误差
 
-自检
+诊断
 
-如果测试用户无法完成呼叫，则结果将显示为 "失败"，并且将在 "错误" 和 "诊断" 属性中记录其他信息：
+如果测试用户无法完成该调用，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -116,39 +116,39 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 错误：480，暂时不可用
 
-诊断： ErrorCode = 15030，Source = atl-litwareinc，Reason = Failed
+诊断： ErrorCode = 15030，Source = atl-cs-001，Reason = Failed
 
 路由到 Exchange Server
 
 Microsoft DiagnosticHeader
 
-例如，以前的输出表明由于无法联系 Microsoft Exchange Server，测试失败。 此错误消息通常表示 Exchange 统一消息的配置出现问题。
+例如，以前的输出表明由于无法联系 Microsoft Exchange Server 而导致测试失败。 此错误消息通常表明 Exchange 统一消息的配置存在问题。
 
-如果测试 CsP2PAV 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 CsP2PAV 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：
 
-Test-CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
+CsP2PAV-TargetFqdn "atl-cs-001.litwareinc.com"-Verbose
 
-当包含 Verbose 参数时，CsP2PAV 将返回它尝试的每个操作的分步帐户，因为它检查指定用户登录到 Lync 服务器的能力。 例如，假设测试未通过以下诊断：
+包含 Verbose 参数时，CsP2PAV 将返回其尝试的每个操作的分步帐户，因为它检查指定用户登录到 Lync Server 的能力。 例如，假设测试因以下诊断而失败：
 
-ErrorCode = 6003，Source = atl-ws-01-litwareinc，Reason = 不支持的对话框外请求
+ErrorCode = 6003，Source = atl-cs-001，Reason = 不支持的对话框请求 litwareinc
 
-如果重新运行 Test CsP2PAV 并包含 Verbose 参数，将获得如下输出：
+如果重新运行 Test-CsP2PAV 并包含 Verbose 参数，您将获得如下输出：
 
-详细： "注册" 活动已开始。
+详细： "注册" 活动已启动。
 
-正在发送注册请求：
+发送注册请求：
 
 目标 Fqdn = atl-cs-011.litwareinc.com
 
 用户 Sip 地址 = sip:kenmyer@litwareinc.com
 
-注册机构端口 = 5062。
+注册器端口 = 5062。
 
 已选择身份验证类型 "IWA"。
 
-"终结点无法注册" 异常。 有关特定原因，请参阅错误代码。 ' 在 STP2PAVWorkflow 执行工作流期间发生。
+"终结点无法注册" 异常。 有关具体原因，请参阅错误代码。 在工作流 STP2PAVWorkflow 执行过程中发生。
 
-尽管这可能不会很明显，但如果你仔细检查输出，你将看到指定的注册器端口（端口5062）不正确。 进而导致测试失败。
+虽然这可能不是显而易见的，但如果仔细检查输出，将会发现指定了不正确的注册器端口（端口5062）。 进而导致测试失败。
 
 </div>
 
@@ -156,13 +156,13 @@ ErrorCode = 6003，Source = atl-ws-01-litwareinc，Reason = 不支持的对话�
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-下面是测试 CsP2PAV 可能失败的一些常见原因：
+以下是测试 CsP2PAV 可能失败的一些常见原因：
 
-  - 您指定的用户帐户无效。 你可以通过运行类似如下所示的命令来验证用户帐户是否存在：
+  - 您指定的用户帐户无效。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     
-    Move-csuser "sip:kenmyer@litwareinc.com"
+    Get-csuser "sip:kenmyer@litwareinc.com"
 
-  - 用户帐户有效，但当前没有为 Lync Server 启用该帐户。 若要验证是否已启用 Lync Server 的用户帐户，请运行类似如下的命令：
+  - 用户帐户有效，但当前未对 Lync Server 启用该帐户。 若要验证是否已为 Lync Server 启用用户帐户，请运行与以下内容类似的命令：
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     

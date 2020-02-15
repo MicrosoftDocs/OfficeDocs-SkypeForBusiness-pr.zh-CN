@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：IP 地址类型概述
+title: Lync Server 2013： IP 地址类型概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d1172fc7da9600de036312adb05548b51dea6b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: feb900c6f3d2ac426c184048986a7a751a205874
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755526"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41755526"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-01-29_
+_**上次修改的主题：** 2013-01-29_
 
-在 Lync Server 2013 中配置 IP 地址时，有三个选项。 你可以将 Lync Server 2013 配置为仅支持 IP 版本4（IPv4）、仅限 IP 版本6（IPv6）或二者（称为*双重堆栈*）的组合。 对于每种类型的配置，都需要考虑一些问题：
+在 Lync Server 2013 中配置 IP 地址时有三个选项。 您可以将 Lync Server 2013 配置为仅支持 IP 版本4（IPv4）、仅支持 IP 版本6（IPv6）或二者的组合（称为*双栈*）。 对于每种类型的配置，都需要考虑一些问题：
 
-  - ****   已创建仅 ipv4 IPv6，因为全世界的 ipv4 地址不足。 最终，IPv6 将在全球范围内获得全面支持，但就目前而言，您的企业需要与之通信的很多公司和设备可能尚不支持 IPv6，并且在一段时间内可能也不会提供相应支持。 仅 IPv4 配置将有助于确保 Lync 服务器实现可以与大多数现有设备进行通信。
+  - ****   已创建仅 ipv4 IPv6，因为世界上的 ipv4 地址不足。 最终，IPv6 将会在世界范围内得到完全支持，但现在有很多您的企业可能需要与之通信的公司和设备尚不支持 IPv6，并且在一段时间内可能也不会支持。 仅 IPv4 配置将有助于确保你的 Lync Server 实现能够与大多数现有设备通信。
 
   - **仅 IPv6 反过来**   ，完全 ipv6 实现此时将排除与许多现有设备的通信。
 
-  - **双堆栈**   双堆栈是启用 IPv4 和 IPv6 地址的网络。 Lync Server 2013 支持此配置，因为在大多数情况下，从完整 IPv4 到完整 IPv6 的转换将需要几年。
+  - **双栈**   双堆栈是一个网络，其中同时启用 IPv4 和 IPv6 地址。 Lync Server 2013 支持此配置，因为在大多数情况下，从完整 IPv4 到完整 IPv6 的转换需要几年时间。
 
-以下部分概述了各种 Lync Server 功能的这三种配置之间的兼容性。
+以下各节概述了各种 Lync Server 功能在这三种配置中的兼容性。
 
 <div>
 
@@ -157,7 +157,7 @@ _**主题上次修改时间：** 2013-01-29_
 
 ## <a name="conferencing"></a>会议
 
-会议包括音频/视频、应用程序共享和数据协作（whiteboarding 和文件共享）。
+会议包括音频/视频、应用程序共享和数据协作（白板和文件共享）。
 
 
 <table>
@@ -210,7 +210,7 @@ _**主题上次修改时间：** 2013-01-29_
 
 ## <a name="mediation-serverpstn"></a>中介服务器/PSTN
 
-如果流量通过 IPv6 接口，则 Lync Server 2013 不支持公共交换电话网络（PSTN）呼叫的媒体旁路。 如果需要媒体旁路，则我们建议将 PSTN 网关配置为 IPv4。
+如果流量通过 IPv6 接口，Lync Server 2013 不支持公用交换电话网络（PSTN）呼叫的媒体旁路。 如果需要媒体旁路，则我们建议将 PSTN 网关配置为 IPv4。
 
 
 <table>
@@ -246,7 +246,7 @@ _**主题上次修改时间：** 2013-01-29_
 </table>
 
 
-\*主界面是与 Lync Server 组件进行通信的接口。
+\*主接口是与 Lync Server 组件进行通信的接口。
 
 </div>
 
@@ -325,7 +325,7 @@ _**主题上次修改时间：** 2013-01-29_
 </tr>
 <tr class="odd">
 <td><p><strong>前端池：双协议栈</strong></p></td>
-<td><p>必需</p></td>
+<td><p>是</p></td>
 <td><p>是</p></td>
 <td><p>否</p></td>
 </tr>
@@ -368,7 +368,7 @@ _**主题上次修改时间：** 2013-01-29_
 <tr class="odd">
 <td><p><strong>边缘池（内部边缘）：双协议栈</strong></p></td>
 <td><p>否</p></td>
-<td><p>是</p></td>
+<td><p>必需</p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
@@ -389,19 +389,19 @@ _**主题上次修改时间：** 2013-01-29_
 
 ## <a name="advanced-enterprise-voice-support-for-ipv6"></a>IPv6 的高级企业语音支持
 
-包括呼叫许可控制 (CAC)、增强型 9-1-1 (E9-1-1) 或媒体旁路的部署必须配置为仅 IPv4 或双协议栈实施。
+包括呼叫许可控制 (CAC)、增强型 9-1-1 (E9-1-1) 或媒体旁路的部署必须配置为仅 IPv4 或双协议栈实现。
 
 <div>
 
 
 > [!NOTE]  
-> 在双堆栈部署中，即使 Lync 客户端通过使用 IPv6 连接到 Lync 服务器，Lync 也将尽力映射合适的 IPv4 地址以支持 E9-1。
+> 在双堆栈部署中，即使 Lync 客户端使用 IPv6 连接到 Lync Server，Lync 也将尽力映射合适的 IPv4 地址以支持 E9-1-1。
 
 
 
 </div>
 
-不支持具有 IPv6 地址的位置信息服务。
+不支持使用 IPv6 地址的位置信息服务。
 
 Exchange 统一消息 (UM) 不支持 IPv6。对于 Exchange UM，请确保 DNS 解析不会返回 IPv6 地址。使用 IPv6 可能会在将呼叫发送至语音信箱时导致失败。
 
@@ -411,11 +411,11 @@ Exchange 统一消息 (UM) 不支持 IPv6。对于 Exchange UM，请确保 DNS �
 
 ## <a name="other-lync-server-2013-feature-support-for-ipv6"></a>适用于 IPv6 的其他 Lync Server 2013 功能支持
 
-除了之前提到的功能和组件，Lync Server 2013 支持针对以下功能的 IPv6：
+除了前面提到的功能和组件，Lync Server 2013 还支持 IPv6 以实现以下功能：
 
   - **持久聊天**
     
-    可使用拓扑生成器为持久聊天配置 IPv6。 有关配置持久聊天的详细信息，请参阅部署持久聊天服务器文档。
+    您可以使用拓扑生成器为持久聊天配置 IPv6。 有关配置持久聊天的详细信息，请参阅部署持久聊天服务器文档。
 
   - **用户体验质量 (QoE) 和呼叫详细信息记录 (CDR) 报告**
     

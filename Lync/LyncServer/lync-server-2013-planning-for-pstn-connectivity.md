@@ -12,16 +12,16 @@ ms:contentKeyID: 48183684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec12aa5e579aed30e61c7cd34eab444e807c628f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811f69e8286e341b7769a58d03c42d0a43e63075
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725252"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725252"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-21_
+_**上次修改的主题：** 2012-09-21_
 
-企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。 发出和接收呼叫的用户不应知道基础技术：从用户的角度看，企业语音基础结构和 PSTN 之间的通话似乎只是另一次电话呼叫。
+企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。 发出和接收呼叫的用户不应了解基础技术：从用户的角度来看，企业语音基础结构与 PSTN 之间的呼叫似乎只是另一个电话呼叫。
 
 Lync Server 2013 通过使用以下选项提供可靠、可扩展的 PSTN 连接：
 
@@ -47,19 +47,19 @@ Lync Server 2013 通过使用以下选项提供可靠、可扩展的 PSTN 连接
 
   - 到 PBX 的**直接 SIP 连接**
 
-根据企业规模、地理范围和现有语音基础结构，企业可能会在不同位置使用一个、两个甚至所有三个选项。
+根据企业大小、地理范围和现有语音基础结构，企业可能会在不同位置使用一个、两个甚至所有三个选项。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的 SIP 中继](lync-server-2013-sip-trunking.md)
 
   - [Lync Server 2013 中的直接 SIP 连接](lync-server-2013-direct-sip-connections.md)
 
-  - [Lync Server 2013 中的 M:N 主干](lync-server-2013-m-n-trunk.md)
+  - [Lync Server 2013 中的 M:N 中继](lync-server-2013-m-n-trunk.md)
 
-  - [Lync Server 2013 中的翻译规则](lync-server-2013-translation-rules.md)
+  - [Lync Server 2013 中的转换规则](lync-server-2013-translation-rules.md)
 
   - [在 Lync Server 2013 中规划出站语音路由](lync-server-2013-planning-outbound-voice-routing.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183236
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05ca3b20d78d20f4c442edcb3a5722700c3e14a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2c706503ac334e6af3077e1f64418962bc825718
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725594"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050514"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41725594"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-14_
+_**上次修改的主题：** 2012-06-14_
 
-Lync Server 2013 包括对 ip 版本6（IPv6）地址的支持，以及对 IP 版本4（IPv4）地址的连续支持。 IPv4 地址是 32 位地址，允许计算机通过 Internet 进行通信。 由于世界各地的设备数量不断增加，可用的 IPv4 地址已用尽。因此，许多新设备将移动到使用 IPv6 地址。 IPv6 地址执行与 IPv4 地址相同的功能（并另外增加了一些功能），只不过 IPv6 地址不是使用 32 位，而是使用 128 位。 这不仅提供了一组新的地址，而且数量远远超过原来的地址集。 传统 IPv4 地址看起来类似于：192.0.2.235，而 IPv6 地址看起来类似于：2001:0db8:85a3:0000:0000:8a2e:0370:7334。 在 Lync Server 2013 安装中，使用 IPv6 地址的设备的格式设置和功能的更改需要多个部署和配置注意事项。
+Lync Server 2013 包括对 IP 版本6（IPv6）地址的支持，以及对 IP 版本4（IPv4）地址的连续支持。 IPv4 地址是 32 位地址，允许计算机通过 Internet 进行通信。 由于世界范围内的设备数量不断增加，可用的 IPv4 地址已用完。因此，许多新设备将移动到使用 IPv6 地址。 IPv6 地址执行与 IPv4 地址相同的功能（另外还有一些附加功能），但 IPv6 地址不仅使用 32 位，而且还使用 128 位。 这不仅提供了一组新的地址，而且数量远远超过原来的地址集。 传统 IPv4 地址看起来类似于：192.0.2.235，而 IPv6 地址看起来类似于：2001:0db8:85a3:0000:0000:8a2e:0370:7334。 在使用 IPv6 地址的设备的格式和功能方面的更改需要在 Lync Server 2013 安装中进行几个部署和配置注意事项。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 的 IP 地址类型概述](lync-server-2013-overview-of-ip-address-types.md)
 

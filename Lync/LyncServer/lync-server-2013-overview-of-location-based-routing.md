@@ -12,16 +12,16 @@ ms:contentKeyID: 51803941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07a7db57d506b892fd030efccfb304c7103e1e9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7bc7320ffd8bb4d12483a882b588205d26e7e164
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755506"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755506"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-基于位置的路由引入了一组新规则，它们可修改国内和国际 PSTN 呼叫的路由以防止收费绕路情形。使用基于位置的路由可灵活地将这些规则限定为仅特定区域、特定网关或特定用户集。
+基于位置的路由引入了一组新的规则，这些规则可修改国内和国际 PSTN 呼叫的路由以防止收费绕过。 基于位置的路由可以灵活地将这些规则限定为特定区域、特定网关或仅特定用户集。
 
-以下方案说明了基于位置的主要路由可强制执行的主要类型：
+以下方案说明了可以强制实施基于位置的限制的主要路由类型：
 
-  - 外出呼叫–基于位置的路由可以强制传出调用来自与呼叫者在同一区域中的传出呼叫，该网关位于与呼叫者阻止 PSTN 免绕过的位置，从而阻止从其他区域中的 PSTN 网关传出的传出呼叫程序.
+  - 出局呼叫–基于位置的路由可以强制传出呼叫从位于与呼叫者阻止 PSTN 收费旁路的 PSTN 网关传出的传出呼叫，这样可以防止从位于不同区域的 PSTN 网关传出的传出呼叫者.
 
-  - 入站呼叫-基于位置的路由可以阻止传入的 PSTN 呼叫拨打 Lync 终结点，前提是传入呼叫与被呼叫的 Lync 用户没有位于同一区域。
+  - 入站呼叫–基于位置的路由可以阻止传入 PSTN 呼叫拨打 Lync 终结点，如果传入呼叫与被呼叫 Lync 用户不在同一区域中。
 
-  - 未知区域-基于位置的路由对位于不确定位置（即从 Internet 连接或位于未知区域中的远程用户）的用户限制传入和传出 PSTN 呼叫。
+  - 未知区域–基于位置的路由将传入和传出 PSTN 呼叫限制在不确定位置（即从 Internet 连接或位于未知区域的远程用户）中的用户。
 
-  - 国际区域-基于位置的路由通过国际 PSTN 网关（如果找不到用户位置的本地网关）来强制路由传出呼叫。
+  - 国际区域–如果找不到用户所在位置的网关，则基于位置的路由会强制通过国际 PSTN 网关路由传出呼叫。
 
 <div>
 

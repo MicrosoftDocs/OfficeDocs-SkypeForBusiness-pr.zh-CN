@@ -12,16 +12,16 @@ ms:contentKeyID: 51541450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad04e03571f228fd83339dbc1c36be07d32f0962
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ffa9418b0b4ed2d9571a409faaad6948c9bbf01f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733022"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41733022"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-管理员报告是有关部署和操作的详细信息。这些报告是基于“**设计站点**”中标记的选择而生成的。设计师可以通过编辑网络图并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定的域名 (FQDN)，来进一步向管理员报告中添加值。
+管理员报告是有关部署和操作的详细信息。 将根据**设计网站**中标记的选择生成报告。 设计师可通过编辑网络图，并为服务器、池和负载平衡器定义完整的 IP 地址和完全限定域名 (FQDN)，来进一步向管理报告中添加值。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看摘要报告](lync-server-2013-reviewing-the-summary-report.md)
 
@@ -49,7 +49,7 @@ _**主题上次修改时间：** 2013-02-21_
 
   - [在 Lync Server 2013 中查看防火墙报告](lync-server-2013-reviewing-the-firewall-report.md)
 
-  - [在 Lync Server 2013 中查看 DNS 报表](lync-server-2013-reviewing-the-dns-report.md)
+  - [在 Lync Server 2013 中查看 DNS 报告](lync-server-2013-reviewing-the-dns-report.md)
 
 </div>
 

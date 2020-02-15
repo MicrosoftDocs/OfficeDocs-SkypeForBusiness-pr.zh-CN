@@ -12,16 +12,16 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a90b1e2b79532273b9035bc6614aa5bdd2ff96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5446972b10bd761cb5958dbfc2a3762698e4311
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762460"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41762460"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-10_
+_**上次修改的主题：** 2012-09-10_
 
-你需要确定并了解你的部署的基础结构要求，以便你可以在部署 Lync Server 之前规划如何满足这些要求。
+您需要确定和理解您的部署的基础结构要求，以便您可以在部署 Lync Server 之前规划如何满足这些要求。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [确定 Lync Server 2013 的系统要求](lync-server-2013-determining-your-system-requirements.md)
 
@@ -49,7 +49,7 @@ _**主题上次修改时间：** 2012-09-10_
 
   - [Lync Server 2013 的证书基础结构要求](lync-server-2013-certificate-infrastructure-requirements.md)
 
-  - [Lync Server 2013 中的 Internet Information Services (IIS) 要求](lync-server-2013-internet-information-services-iis-requirements.md)
+  - [Lync Server 2013 中的 Internet 信息服务（IIS）要求](lync-server-2013-internet-information-services-iis-requirements.md)
 
 </div>
 

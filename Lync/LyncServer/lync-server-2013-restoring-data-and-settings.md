@@ -12,16 +12,16 @@ ms:contentKeyID: 51541503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2a5cf57672126f47089b22d4a5d74381fc46e6e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e5b8575ee1362b240df0bfc0a1a1a6b27afde268
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733182"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-17_
+_**上次修改的主题：** 2013-02-17_
 
-如果你已使用配对池实现灾难恢复拓扑，并且其中一个前端池已关闭，并且你需要快速将服务还原到你的用户，请参阅[在 Lync Server 2013 中故障转移池](lync-server-2013-failing-over-a-pool.md)。 否则，请使用以下主题中的信息以及[Lync server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中的工作表，以在出现故障或中断后还原 Lync Server。
+如果已通过配对池实施了灾难恢复拓扑，并且其中一个前端池已关闭，需要快速将服务还原到用户，请参阅[在 Lync Server 2013 中通过池进行故障转移](lync-server-2013-failing-over-a-pool.md)。 否则，请使用以下主题中的信息以及[Lync server 2013 备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中的工作表，以便在发生故障或中断后还原 Lync server。
 
 <div>
 
 
 > [!NOTE]  
-> 若要减少停机时间和潜在的数据丢失，请仅在故障排除过程无法有效识别和更正问题时执行本文档中所述的还原过程。 在故障排除过程中，请尝试在关闭并重新启动服务器时尽量减少对其他服务器和组件的影响。
+> 若要减少停机时间和潜在的数据丢失，请仅在故障排除过程不能有效确定和更正问题时执行本文档中所述的还原过程。 在故障排除过程中，在关闭并重新启动服务器时，请尽量减少对其他服务器和组件的影响。
 
 
 
@@ -51,19 +51,19 @@ _**主题上次修改时间：** 2013-02-17_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [准备还原 Lync Server 2013](lync-server-2013-preparing-to-restore-lync-server.md)
 
-  - [在 Lync Server 2013 中还原标准版服务器](lync-server-2013-restoring-a-standard-edition-server.md)
+  - [在 Lync Server 2013 中还原 Standard Edition 服务器](lync-server-2013-restoring-a-standard-edition-server.md)
 
-  - [在 Lync Server 2013 中还原托管中央管理存储的服务器](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)
+  - [在 Lync Server 2013 中还原承载中央管理存储的服务器](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md)
 
   - [在 Lync Server 2013 中还原企业版后端服务器](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md)
 
   - [在 Lync Server 2013 中还原企业版成员服务器](lync-server-2013-restoring-an-enterprise-edition-member-server.md)
 
-  - [在 Lync Server 2013 中还原 Lync 服务器池](lync-server-2013-restoring-a-lync-server-pool.md)
+  - [在 Lync Server 2013 中还原 Lync Server 池](lync-server-2013-restoring-a-lync-server-pool.md)
 
   - [在 Lync Server 2013 中执行 ABC 前端池故障转移](lync-server-2013-performing-an-abc-front-end-pool-failover.md)
 
@@ -71,7 +71,7 @@ _**主题上次修改时间：** 2013-02-17_
 
   - [在 Lync Server 2013 中还原监视或存档数据](lync-server-2013-restoring-monitoring-or-archiving-data.md)
 
-  - [在 Lync Server 2013 中还原永久聊天数据](lync-server-2013-restoring-persistent-chat-data.md)
+  - [在 Lync Server 2013 中还原持久聊天数据](lync-server-2013-restoring-persistent-chat-data.md)
 
 </div>
 

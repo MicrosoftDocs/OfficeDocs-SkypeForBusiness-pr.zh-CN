@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：监控的部署清单
+title: Lync Server 2013：用于监视的部署清单
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184080
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71b7d69054df266139f3f13ca0ca53e1803f44b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26fd0c34d51445902e7f00439dd210ddfd64f392
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762710"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 中监控的部署清单
+# <a name="deployment-checklist-for-monitoring-in-lync-server-2013"></a>Lync Server 2013 中用于监视的部署清单
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762710"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-05_
+_**上次修改的主题：** 2012-09-05_
 
-虽然已安装并在每个前端服务器上激活了监视，但必须先执行几个步骤，然后才能实际收集 Microsoft Lync Server 2013 的监视数据。 以下清单中概述了这些步骤：
+虽然已在每台前端服务器上安装并激活了监视，但在实际准备收集 Microsoft Lync Server 2013 的监视数据之前，您必须执行几个步骤。 以下清单中概述了这些步骤：
 
 
 <table>
@@ -55,11 +55,11 @@ _**主题上次修改时间：** 2012-09-05_
 <td><p>文档</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>安装必备硬件和软件</strong></p></td>
+<td><p><strong>安装必备软硬件</strong></p></td>
 <td><p>在将充当要进行监视的后端数据存储的计算机上安装受支持版本的 Microsoft SQL Server。</p></td>
 <td><p>还是本地管理员组的成员的域用户。</p></td>
-<td><p>可支持指南中的<a href="lync-server-2013-supported-hardware.md">Lync Server 2013 支持的硬件</a></p>
-<p>支持指南中的<a href="lync-server-2013-server-software-and-infrastructure-support.md">Lync server 2013 中的服务器软件和基础结构支持</a></p></td>
+<td><p>可支持性指南中的<a href="lync-server-2013-supported-hardware.md">Lync Server 2013 支持的硬件</a></p>
+<p>可支持性指南中的<a href="lync-server-2013-server-software-and-infrastructure-support.md">Lync server 2013 中的服务器软件和基础结构支持</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>创建相应的内部拓扑以支持监控</strong></p></td>
@@ -70,9 +70,9 @@ _**主题上次修改时间：** 2012-09-05_
 </tr>
 <tr class="even">
 <td><p><strong>启用相应的监控设置</strong></p></td>
-<td><p>在全局和/或网站范围内启用呼叫详细记录（CDR）和/或体验的质量（QoE）监视。</p></td>
+<td><p>启用全局和/或站点作用域的呼叫详细信息记录 (CDR) 和/或用户体验质量 (QoE) 监视。</p></td>
 <td><p>为 RTCUniversalServerAdmins 组的用户，或分配有提供对 CsCdrConfiguration 和 CsQoEConfiguration cmdlet 的访问权限的 RBAC 角色的用户。</p></td>
-<td><p>在 "操作指南" 中<a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">配置 Lync Server 2013 中的 "呼叫详细信息记录" 和 "体验质量" 设置</a></p></td>
+<td><p>在操作指南中<a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">配置 Lync Server 2013 中的呼叫详细信息记录和体验质量设置</a></p></td>
 </tr>
 </tbody>
 </table>

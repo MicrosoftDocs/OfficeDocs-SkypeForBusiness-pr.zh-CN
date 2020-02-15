@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：从集中式日志记录服务读取捕获日志
+title: Lync Server 2013：从集中日志记录服务读取捕获日志
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2713c9a1209aad4a96fcb3a76afaf7c2bc61c0dc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5abf7b2f6962dbf38f90f52ff82c54b035d9aa0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724552"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>从 Lync Server 2013 中的集中式日志记录服务读取捕获日志
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>从 Lync Server 2013 中的集中日志记录服务读取捕获日志
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41724552"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-12-28_
+_**上次修改的主题：** 2016-12-28_
 
-在运行搜索并拥有可用于跟踪报告的问题的文件后，您就能充分利用集中式日志记录服务的真正优势。 读取该文件有多种方法。 输出文件为标准文本格式，可以使用 Notepad.exe 或任何其他可以打开和读取文本文件的程序。 对于较大的文件和更复杂的问题，你可以使用 Snooper 之类的工具，它旨在从集中式日志记录服务读取和分析日志记录输出。 Snooper 包含在 Lync Server 2013 调试工具中，可单独下载。 可在此处下载 Lync Server 2013 调试工具： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)。 安装 Lync Server 2013 调试工具时，不会创建短剪切和菜单项。 安装 Lync Server 2013 调试工具后，打开 Windows 资源管理器、命令行窗口或 Lync Server 命令行管理程序，然后转到目录（默认位置） C：\\程序文件\\Microsoft Lync Server 2013\\调试工具。 双击 Snooper 或键入 Snooper，如果使用的是命令行或 Lync Server 命令行管理程序，请按 ENTER。
+在运行搜索并拥有可用于跟踪报告的问题的文件后，可以充分利用集中日志记录服务的真正优势。 读取该文件有多种方法。 输出文件为标准文本格式，可以使用 Notepad.exe 或任何其他可以打开和读取文本文件的程序。 对于较大的文件和更复杂的问题，您可以使用 Snooper.exe 的工具，该工具旨在读取和分析集中日志记录服务的日志记录输出。 Snooper 包含在可单独下载的 Lync Server 2013 调试工具中。 您可以在此处下载 Lync Server 2013 调试工具： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)。 当您安装 Lync Server 2013 调试工具时，不会创建短时间的剪切和菜单项。 安装 Lync Server 2013 调试工具后，打开 Windows 资源管理器、命令行窗口或 Lync Server 命令行管理程序，然后转到目录（默认位置） C：\\Program Files\\Microsoft Lync Server 2013\\调试工具。 双击 "Snooper.exe" 或键入 Snooper.exe，然后按 ENTER （如果使用的是命令行或 Lync Server 命令行管理程序）。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 本主题的目的不是详细介绍和讨论疑难解答技术。 疑难解答及其相关过程是一个复杂的主题。 有关疑难解答基础知识和特定工作负荷疑难解答的详细信息，请参阅 Microsoft Lync Server 2010 资源<A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>工具包手册。 流程和过程仍适用于 Lync Server 2013。
+> 本主题的目的不是详细介绍和讨论疑难解答技术。 疑难解答及其相关过程是一个复杂的主题。 有关疑难解答基础知识和特定工作负荷故障排除的详细信息，请参阅 Microsoft Lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>资源工具包书籍。 这些过程和过程仍适用于 Lync Server 2013。
 
 
 
 </div>
 
-Lync Server 2013 引入了 Snooper 的更新版本，其中包含一些新功能。 以下屏幕截图显示了 Office 通信服务器2007中的 Snooper 版本。
+Lync Server 2013 引入了更新版本的 Snooper.exe，其中包含一些新功能。 以下屏幕截图显示了 Office 通信服务器2007中的 Snooper.exe 版本。
 
-![Office 通信2007版本的 Snooper。](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office 通信2007版本的 Snooper。")
+![Office 通信2007版本的 Snooper.exe。](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office 通信2007版本的 Snooper.exe。")
 
-以下屏幕截图显示了 Lync Server 2013 调试工具中包含的新 Snooper 版本。
+以下屏幕截图显示了新版本的 Snooper.exe，其中包含在 Lync Server 2013 调试工具中。
 
-![Lync Server 2013 版本的 Snooper。](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 版本的 Snooper。")
+![Lync Server 2013 版本的 Snooper.exe。](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 版本的 Snooper.exe。")
 
-下面的屏幕截图显示了具有常用功能的工具栏。
+以下屏幕快照显示了含有常用功能的工具栏。
 
-![Snooper 2013 工具栏。](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013 工具栏。")
+![Snooper.exe 2013 工具栏。](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper.exe 2013 工具栏。")
 
-而且，添加值的最新功能是流程图（"调用流程"）图表视图。 在 "**邮件**" 选项卡中选择邮件流，然后单击 "**呼叫流**" 按钮。 在邮件中执行操作时，将使用新数据更新调用流程图表。
+此外，具有附加值的最新功能是流程图（呼叫流）视图。可以在“消息”**** 选项卡中选择消息流，然后单击“呼叫流”**** 按钮。当您继续浏览消息时，呼叫流视图将用新数据更新。
 
-![Snooper 2013 通话流程图表。](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013 通话流程图表。")
+![Snooper.exe 2013 呼叫流示意图。](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper.exe 2013 呼叫流示意图。")
 
-你可以将鼠标悬停在关系图视图上，获取有关流和消息以及服务器元素的消息和内容的详细信息。 单击任意 "调用流" 箭头，转到 "邮件" 视图中的邮件。
+您可以悬停在视图上并获得消息的详细信息以及流、消息和服务器元素的内容。单击任意呼叫流箭头可转到“消息”视图中的相应消息。
 
-![通话流程图表消息详细信息。](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "通话流程图表消息详细信息。")
+![呼叫流图表消息详细信息。](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "呼叫流图表消息详细信息。")
 
 <div>
 
@@ -75,11 +75,11 @@ Lync Server 2013 引入了 Snooper 的更新版本，其中包含一些新功能
 
 1.  要使用 Snooper 并打开日志文件，您需要具有日志文件的读取权限。要使用 Snooper 并访问日志文件，您必须是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。
 
-2.  安装 Lync Server 调试工具（LyncDebugTools）后，使用 Windows 资源管理器或从命令行将目录更改为 Snooper 的位置。 默认情况下，调试工具位于 C：\\Program 文件\\中 Microsoft Lync Server 2013\\调试工具中。 双击或运行 Snooper.exe。
+2.  安装 Lync Server 调试工具（LyncDebugTools）后，使用 Windows 资源管理器或从命令行将目录更改为 Snooper.exe 的位置。 默认情况下，调试工具位于 C：\\Program Files\\Microsoft Lync Server 2013\\调试工具中。 双击或运行 Snooper.exe。
 
-3.  打开 Snooper 后，右键单击“**文件**”，单击“**打开文件**”，查找日志文件，在“**打开**”对话框中选择文件，然后单击“**打开**”。
+3.  打开 Snooper 后，右键单击“文件”****，单击“打开文件”****，查找日志文件，在“打开”**** 对话框中选择文件，然后单击“打开”****。
 
-4.  日志文件的“**跟踪**”消息显示在“**跟踪**”选项卡上。单击“**消息**”选项卡可查看所收集跟踪的消息内容。
+4.  日志文件的“跟踪”**** 消息显示在“跟踪”**** 选项卡上。单击“消息”**** 选项卡可查看所收集跟踪的消息内容。
 
 </div>
 
@@ -89,9 +89,9 @@ Lync Server 2013 引入了 Snooper 的更新版本，其中包含一些新功能
 
 1.  要使用 Snooper 并打开日志文件，您需要具有日志文件的读取权限。要使用 Snooper 并访问日志文件，您需要是基于 CsAdministrator 或 CsServerAdministrator 角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组之一的自定义 RBAC 角色。
 
-2.  打开日志文件并单击“**消息**”选项卡，在消息视图中选择对话或在“**跟踪**”选项卡上选择跟踪组件。
+2.  打开日志文件并单击“消息”**** 选项卡，在消息视图中选择对话或在“跟踪”**** 选项卡上选择跟踪组件。
 
-3.  单击“**呼叫流**”。
+3.  单击“呼叫流”****。
     
     <div>
     

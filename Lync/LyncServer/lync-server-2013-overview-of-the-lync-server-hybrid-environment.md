@@ -12,16 +12,16 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0594ddc0433bdcc227c693c4842c08bf7d05989f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e32132faee3b52140d20a7f01e6a0bad0e88c620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755426"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755426"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-05-28_
+_**上次修改的主题：** 2014-05-28_
 
-Lync Server 2013 混合环境指的是一个部署，其中有一些用户驻留在本地 Lync Server 2013 和其他托管到 Lync Online 的用户，但用户共享相同的域，如 user@contoso.com。
+Lync Server 2013 混合环境指的是部署中有一些用户驻留在本地 Lync Server 2013 中，其他用户驻留在 Lync Online 中，但用户共享相同的域，如 user@contoso.com。
 
 <div>
 
 ## <a name="about-this-guide"></a>关于本指南
 
-本指南介绍了配置 Lync Server 2013 环境以实现与 Lync Online 的互操作性所必需的任务，然后将用户从本地部署移动到使用 Lync Online。
+本指南介绍了配置 Lync Server 2013 环境以实现与 Lync Online 的互操作性所需的任务，然后将用户从本地部署迁移到使用 Lync Online。
 
 </div>
 
@@ -51,15 +51,15 @@ Lync Server 2013 混合环境指的是一个部署，其中有一些用户驻留
 
 ## <a name="prerequisites"></a>先决条件
 
-您需要安装下列应用程序和实用程序才能完成配置混合部署的任务。 这些文件的安装程序包括在为你的部署提供的安装媒体以及下表中包含的链接中。
+您需要安装以下应用程序和实用程序，才能完成配置混合部署的任务。 这些文件的安装程序位于针对您的部署提供的安装介质上，以及下表提供的链接中。
 
-  - [Active Directory 联合身份验证服务（AD FS）2。0](http://go.microsoft.com/fwlink/p/?linkid=257305)
+  - [Active Directory 联合身份验证服务 (AD FS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=257305)
 
-  - [Microsoft 目录同步工具9。1](http://go.microsoft.com/fwlink/p/?linkid=257307)
+  - [Microsoft Directory 同步工具9。1](http://go.microsoft.com/fwlink/p/?linkid=257307)
 
-  - [安装 Windows PowerShell 以通过 AD FS 进行单一登录](http://go.microsoft.com/fwlink/p/?linkid=398710)
+  - [安装 Windows PowerShell 以使用 AD FS 进行单一登录](http://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services 登录助手（msoidcli-7.0）包含在 Office 365 的桌面设置中，可从 Office 365 管理门户中链接到的下载页面获取。
+  - Microsoft Online Services 登录助手（msoidcli-7.0）包含在 Office 365 的桌面安装程序中，可从 Office 365 管理门户链接到的下载页面获取。
 
 </div>
 
@@ -67,7 +67,7 @@ Lync Server 2013 混合环境指的是一个部署，其中有一些用户驻留
 
 ## <a name="administrator-credentials"></a>管理员凭据
 
-当系统要求你提供管理员凭据时，请使用适用于你的 Office 365 租户的管理员帐户的用户名和密码。 将 Active Directory 联合身份验证服务（AD FS）2.0、目录同步、单一登录、联盟以及将用户移动到 Lync Online 时，你也将使用这些凭据。
+当系统询问你是否提供管理员凭据时，请使用适用于 Office 365 租户的管理员帐户的用户名和密码。 在将 Active Directory 联合身份验证服务（AD FS）2.0、目录同步、单一登录、联合和移动用户配置为 Lync Online 时，也将使用这些凭据。
 
 </div>
 
@@ -75,7 +75,7 @@ Lync Server 2013 混合环境指的是一个部署，其中有一些用户驻留
 
 ## <a name="connecting-to-lync-online-powershell"></a>连接到 Lync Online PowerShell
 
-管理员现在能够使用 Windows PowerShell 管理 Lync Online 及其 Lync Online 用户帐户。 若要执行此操作，必须首先从 Microsoft 下载中心下载并安装 Lync Online Connector 模块（http://go.microsoft.com/fwlink/?LinkId=294688)。 有关下载、安装和使用 Lync Online 连接器模块的详细信息，以及有关使用 Windows PowerShell 管理 Lync Online 的详细信息，请参阅[使用 Windows powershell 管理 Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+管理员现在能够使用 Windows PowerShell 管理 Lync Online 及其 Lync Online 用户帐户。 若要执行此操作，必须首先从 Microsoft 下载中心（http://go.microsoft.com/fwlink/?LinkId=294688)）下载并安装 Lync Online 连接器模块。 有关下载、安装和使用 Lync Online 连接器模块的详细信息，以及有关使用 Windows PowerShell 管理 Lync Online 的详细信息，请参阅[Using Windows powershell to Manage Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38b4ebc83a96c2bc7da2b71a8a817f949e745d21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37583937a1cc1c17fac55ac5185a4cd793b7f5bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723722"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41723722"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-如果您已创建或配置了不希望再使用的外部用户访问策略，则可以执行以下操作：
+如果创建或配置了不想再使用的外部用户访问策略，可以执行以下操作：
 
-  - 删除您创建的任何网站或用户策略。
+  - 删除已创建的任何站点策略或用户策略。
 
-  - 将全局策略重置为默认设置。 默认全局策略设置拒绝任何外部用户访问。 无法删除全局策略。
+  - 将全局策略重置为默认设置。默认的全局策略设置拒绝任何外部用户访问。无法删除全局策略。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中删除外部用户访问的站点或用户策略](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
+  - [在 Lync Server 2013 中删除用于外部用户访问的站点或用户策略](lync-server-2013-delete-a-site-or-user-policy-for-external-user-access.md)
 
   - [在 Lync Server 2013 中重置外部用户访问的全局策略](lync-server-2013-reset-the-global-policy-for-external-user-access.md)
 

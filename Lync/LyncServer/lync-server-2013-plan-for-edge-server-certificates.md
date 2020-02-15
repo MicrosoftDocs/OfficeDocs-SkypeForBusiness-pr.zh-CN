@@ -12,16 +12,16 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faad6dba610df8033b75b0c87c52fbb065dc5dcb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b70d9635b253c793170ff11373f6d063f0f46c81
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755172"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41755172"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-05_
+_**上次修改的主题：** 2012-11-05_
 
-在 Lync Server 2013 中简化了为 Edge 创建证书。
+在 Lync Server 2013 中简化了为边缘创建证书。
 
-**边缘服务器的流程图**
+**边缘服务器的证书流程图**
 
 ![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
 
-创建单个公共证书，确保你具有为证书定义的可导出私钥，并使用证书向导将其分配给以下 Edge 服务器外部接口：
+使用证书向导创建单个公共证书，确保有一个证书定义的可导出私钥并将其分配到以下边缘服务器外部接口：
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server 不支持通配符证书，除非使用反向代理汇总简单的 Url。 你必须为你的部署提供的每个 SIP 域名、Web 会议边缘服务、A/V 边缘服务和 XMPP 域定义不同的主题备用名称（San）。
+> Lync Server 不支持通配符证书，除非使用反向代理汇总简单 Url。 您必须为您的部署提供的每个 SIP 域名、Web 会议边缘服务、A/V 边缘服务和 XMPP 域定义不同的主题备用名称（San）。
 
 
 
@@ -59,7 +59,7 @@ _**主题上次修改时间：** 2012-11-05_
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 中引入，在当前证书过期时间之前暂存音频/视频身份验证证书需要额外的计划。 对于外部边缘接口，而不是一个具有多个用途的证书，你将需要两个证书，一个证书分配给 "访问边缘服务" 和 "Web 会议边缘" 服务，另一个证书用于 A/V 边缘服务。 有关其他详细信息，请参阅<A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">在 CsCertificate 中使用-滚在 Lync Server 2013 中暂存 AV 和 OAuth 证书</A>
+> 在 Lync Server 2013 中引入，在当前证书的过期时间之前暂存音频/视频身份验证证书需要进行一些额外的规划。 对于外部边缘接口，而不是一个具有多个用途的证书，您将需要两个证书，一个证书分配给访问边缘服务和 Web 会议边缘服务，另一个证书用于 A/V 边缘服务。 有关更多详细信息，请参阅<A href="lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate">set-cscertificate 中的使用中的暂存 AV 和 OAuth 证书在 Lync Server 2013</A>中
 
 
 
@@ -69,29 +69,29 @@ _**主题上次修改时间：** 2012-11-05_
 
 
 > [!IMPORTANT]  
-> 在边缘服务器池的事件中，将带有私钥的证书导出到每个边缘服务器，并将证书分配给每个 Edge 服务器服务。 对内部边缘服务器证书执行相同操作，导出具有私钥的证书并分配给每个内部边缘接口。
+> 在边缘服务器池的事件中，可以将具有私钥的证书导出到每台边缘服务器，并将证书分配给每个边缘服务器服务。 对内部边缘服务器证书执行相同操作，使用私钥导出证书，并将其分配给每个内部边缘接口。
 
 
 
 </div>
 
-  - 确保为证书分配了可导出的私钥
+  - 确保有一个分配到该证书的可导出私钥
 
-  - Access Edge 服务（在证书向导中称为**SIP 访问边缘**）
+  - 访问边缘服务（在证书向导中称为 "**外部 SIP 访问边缘**"）
 
-  - 网络会议边缘服务（在证书向导中称为 " **Web 会议边缘**"）
+  - Web 会议边缘服务（称为证书向导中的 " **Web 会议边缘外部**"）
 
-  - A/V 身份验证服务（在证书向导中称为**a/v Edge 外部**）
+  - A/V 身份验证服务（在证书向导中称为“A/V 边缘外部”****）
 
-创建具有可导出私钥的单个内部证书，将其复制并分配给每个边缘服务器内部接口：
+使用可导出的私钥创建单个内部证书，并将其复制和分配到每个边缘服务器内部接口：
 
-  - 边缘服务器（在证书向导中称为 "**边缘内部**"）
+  - 边缘服务器（在证书向导中称为“边缘内部”****）
 
 <div>
 
 
 > [!IMPORTANT]  
-> 可以为每个 Edge 服务器服务使用单独和不同的证书。 选择单独的证书的一个好理由是您想要对 A/V 边缘服务证书使用新的滚动证书功能。 在此功能的情况下，建议将 A/V 边缘服务证书与 "访问边缘" 服务分离，并建议使用网络会议边缘服务。 如果你选择请求、为每项服务获取和分配单独的证书，则必须请求为 A/V 边缘服务导出私钥，这同样是在每台 Edge 服务器上进行的 A/V 边缘外部接口的相同证书。
+> 可以对每个边缘服务器服务使用单独和不同的证书。 选择单独的证书的最佳原因是要对 A/V 边缘服务证书使用新的滚动证书功能。 在此功能的情况下，建议将 A/V 边缘服务证书与访问边缘服务和 Web 会议边缘服务相分离。 如果您选择请求、获取并为每个服务分配单独的证书，则必须请求为 A/V 边缘服务导出私钥（同样，这实际上是 A/V 身份验证服务），并将同一证书分配给每台边缘服务器上的 A/V 边缘外部接口。
 
 
 
@@ -102,7 +102,7 @@ _**主题上次修改时间：** 2012-11-05_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 CsCertificate 中使用-滚在 Lync Server 2013 中暂存 AV 和 OAuth 证书](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+[使用-Set-cscertificate 中的 Lync Server 2013 暂存 AV 和 OAuth 证书](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
 
 
 [Lync Server 2013 中影响边缘服务器规划的更改](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md)  

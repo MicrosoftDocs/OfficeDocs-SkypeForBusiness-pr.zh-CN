@@ -12,16 +12,16 @@ ms:contentKeyID: 49733564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a58450b1d69ce757f40194d179606f332e152d7d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 509bc25e6466e4e6f90271645b2a3a8ff271bd84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765633"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41765633"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-你可以查看有关运行 Lync Phone Edition 的设备的配置信息。 信息组织到集合中。 安装 Lync Server 时，将获得适用于部署中所有运行 Lync Phone Edition 的设备的 Lync 手机版设置的集合。 您还可以为特定网站创建新的设置集合。 网站设置优先于全局设置。 每个设置集合均包括名称、范围（全局或网站）、SIP 安全设置、日志记录级别、语音服务质量（QoS）级别、电话锁定设置和电话锁定详细信息，即解锁个人标识的最小长度电话锁定自身之前的数字（PIN）和时间。
+您可以查看有关运行 Lync Phone Edition 的设备的配置信息。 信息以集合的形式来组织。 当您安装 Lync Server 时，将获取一组 Lync Phone Edition 设置，这些设置适用于部署中运行 Lync Phone Edition 的所有设备。 还可以为特定站点创建新的设置集合。 站点设置优先于全局设置。 每个设置集合都包含名称、范围（全局或站点）、SIP 安全设置、日志记录级别、语音服务质量 (QoS) 级别、电话锁定设置和电话锁定详细信息，即解锁个人标识号 (PIN) 的最小长度和电话自行锁定之前的时间。
 
 <div>
 
 ## <a name="to-view-configuration-information-about-devices-running-lync-phone-edition"></a>查看有关运行 Lync Phone Edition 的设备的配置信息
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击 "**客户端**"，然后单击 "**设备配置**" 导航按钮。
+3.  在左侧导航栏中，单击“客户端”****，然后单击“设备配置”**** 导航按钮。
 
-4.  在 "**设备配置**" 页面上，单击要查看其相关信息的设置的集合。 主页面上列出了名称、范围、SIP 安全设置、语音质量级别和电话锁定设置。 若要查看日志记录级别和电话锁定的详细信息，请单击 "**编辑**" 菜单，然后单击 "**显示详细信息**"。
+4.  在“设备配置”**** 页上，单击要查看相关信息的设置的集合。主页中会列出名称、范围、SIP 安全设置、语音质量级别和电话锁定设置。若要查看日志记录级别和电话锁定详细信息，请单击“编辑”**** 菜单，然后单击“显示详细信息”****。
 
 </div>
 
 <div>
 
-## <a name="viewing-lync-phone-edition-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看 Lync 手机版配置信息
+## <a name="viewing-lync-phone-edition-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看 Lync Phone Edition 配置信息
 
-你可以使用 Lync Server 命令行管理程序和**CsUCPhoneConfiguration** Cmdlet 查看 Lync 手机版配置设置。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以通过使用 Lync Server 命令行管理程序和**CsUCPhoneConfiguration** cmdlet 来查看 Lync Phone Edition 配置设置。 可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
@@ -67,7 +67,7 @@ _**主题上次修改时间：** 2013-02-23_
     
         Get-CsUCPhoneConfiguration
     
-    该命令将返回类似于以下内容的信息：
+    该命令将返回类似如下的信息：
     
         Identity             : Global
         CalendarPollInterval : 00:03:00
@@ -91,7 +91,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 
 [在 Lync Server 2013 中创建或修改 Lync Phone Edition 配置设置的集合](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)  
-[删除 Lync Server 2013 中的现有 Lync Phone Edition 配置设置集合](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
+[在 Lync Server 2013 中删除 Lync Phone Edition 配置设置的现有集合](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
 [在 Lync Server 2013 中配置 Lync Phone Edition 的安全设置](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)  
 [在 Lync Server 2013 中强制执行电话锁定](lync-server-2013-enforce-phone-locking.md)  
   

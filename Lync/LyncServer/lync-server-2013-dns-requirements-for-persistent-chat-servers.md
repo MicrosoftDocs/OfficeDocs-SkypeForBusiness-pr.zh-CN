@@ -12,16 +12,16 @@ ms:contentKeyID: 48185857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b97d3238c64173cb5f9bfcfc12dce40f987da123
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc401fa844c750e57c870ad64ebd919c9b673d0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737392"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049694"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737392"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-28_
+_**上次修改的主题：** 2012-06-28_
 
-本部分介绍部署持久聊天服务器时所需的域名系统（DNS）记录。
+本节介绍部署持久聊天服务器所需的域名系统（DNS）记录。
 
 <div>
 
@@ -60,16 +60,16 @@ _**主题上次修改时间：** 2012-06-28_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>一个持久聊天服务器</p></td>
-<td><p>将服务器的完全限定的域名（FQDN）解析为其 IP 地址的内部 A 记录。</p></td>
+<td><p>一台持久聊天服务器</p></td>
+<td><p>将服务器的完全限定的域名 (FQDN) 解析为其 IP 地址的内部 A 记录。</p></td>
 </tr>
 <tr class="even">
 <td><p>持久聊天池</p></td>
-<td><p>将服务器的完全限定的域名（FQDN）解析为其 IP 地址的内部 A 记录。</p>
+<td><p>将服务器的完全限定的域名 (FQDN) 解析为其 IP 地址的内部 A 记录。</p>
 <p><strong>示例</strong></p>
 <p>PersistentChatServer01.contoso.com 10.10.10。1</p>
 <p>PersistentChatServer02.contoso.com 10.10.10。2</p>
-<p>将服务器的完全限定的域名（FQDN）解析为其 IP 地址的内部 A 记录。</p>
+<p>将服务器的完全限定的域名 (FQDN) 解析为其 IP 地址的内部 A 记录。</p>
 <p><strong>示例</strong></p>
 <p>PersistentChatPool.contoso.com 10.10.10。1</p>
 <p>PersistentChatPool.contoso.com 10.10.10。2</p></td>

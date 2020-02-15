@@ -12,16 +12,16 @@ ms:contentKeyID: 48184468
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 160a148705ececfcbe105dcbc3fca819d4790a0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8394a1333cff66b076612ed197fa2a6a7af12ec6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764940"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764940"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-29_
+_**上次修改的主题：** 2012-08-29_
 
-此部分列出了可以包含在每个 Lync Server 2013 类中的架构属性以及可以包含在其他类中的类。 有关所有类及其说明的列表，请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表，请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。
+本节列出了可包含在每个 Lync Server 2013 类和可包含在其他类中的类中的架构属性。 有关所有类及其说明的列表，请参阅[Lync Server 2013 中的架构类和说明](lync-server-2013-schema-classes-and-descriptions.md)。 有关所有属性及其说明的列表，请参阅[Lync Server 2013 中的架构属性和说明](lync-server-2013-schema-attributes-and-descriptions.md)。
 
 <div>
 
-## <a name="attributes-by-class"></a>按类分类的属性
+## <a name="attributes-by-class"></a>按类分组的属性
 
 
 <table>
@@ -51,13 +51,13 @@ _**主题上次修改时间：** 2012-08-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>种类</th>
-<th>可能包含这些属性</th>
+<th>Class</th>
+<th>可包含以下属性</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>联系人</p></td>
+<td><p>Contact</p></td>
 <td><p>SourceObjectDN</p>
 <p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationDestination</p>
@@ -67,7 +67,7 @@ _**主题上次修改时间：** 2012-08-29_
 <p>msRTCSIP-ArchivingEnabled</p>
 <p>msRTCSIP-DeploymentLocator</p>
 <p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
+<p>msRTCSIP-Msrtcsip-groupingid</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
 <p>msRTCSIP-行</p>
 <p>msRTCSIP-LineServer</p>
@@ -82,7 +82,7 @@ _**主题上次修改时间：** 2012-08-29_
 <p>msRTCSIP-TargetHomeServer</p>
 <p>msRTCSIP-TargetUserPolicies</p>
 <p>msRTCSIP-TenantId</p>
-<p>msRTCSIP-UserEnabled</p>
+<p>msRTCSIP-Msrtcsip-userenabled</p>
 <p>msRTCSIP-UserExtension</p>
 <p>msRTCSIP-UserLocationProfile</p>
 <p>msRTCSIP-UserPolicies</p>
@@ -91,7 +91,7 @@ _**主题上次修改时间：** 2012-08-29_
 <p>ProxyAddresses</p></td>
 </tr>
 <tr class="even">
-<td><p>邮件-收件人</p></td>
+<td><p>Mail-Recipient</p></td>
 <td><p>msExchUCVoiceMailSettings</p>
 <p>msExchUserHoldPolicies</p></td>
 </tr>
@@ -241,7 +241,7 @@ _**主题上次修改时间：** 2012-08-29_
 <tr class="even">
 <td><p>msRTCSIP-TrustedService</p></td>
 <td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-可路由</p>
+<p>msRTCSIP</p>
 <p>msRTCSIP-RoutingPoolDN</p>
 <p>msRTCSIP-ServerBL</p>
 <p>msRTCSIP-TrustedServerFQDN</p>
@@ -273,7 +273,7 @@ _**主题上次修改时间：** 2012-08-29_
 <p>msRTCSIP-ArchivingEnabled</p>
 <p>msRTCSIP-DeploymentLocator</p>
 <p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
+<p>msRTCSIP-Msrtcsip-groupingid</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
 <p>msRTCSIP-行</p>
 <p>msRTCSIP-LineServer</p>
@@ -286,7 +286,7 @@ _**主题上次修改时间：** 2012-08-29_
 <p>msRTCSIP-TargetHomeServer</p>
 <p>msRTCSIP-TargetUserPolicies</p>
 <p>msRTCSIP-TenantId</p>
-<p>msRTCSIP-UserEnabled</p>
+<p>msRTCSIP-Msrtcsip-userenabled</p>
 <p>msRTCSIP-UserExtension</p>
 <p>msRTCSIP-UserLocationProfile</p>
 <p>msRTCSIP-UserPolicies</p>
@@ -310,8 +310,8 @@ _**主题上次修改时间：** 2012-08-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>种类</th>
-<th>可能包含此类</th>
+<th>Class</th>
+<th>可包含以下类</th>
 </tr>
 </thead>
 <tbody>
@@ -340,7 +340,7 @@ _**主题上次修改时间：** 2012-08-29_
 <p>msRTCSIP-TrustedServices</p>
 <p>msRTCSIP-ApplicationContacts</p>
 <p>msRTCSIP-LocationContactMappings</p>
-<p>msRTCSIP-ConferenceDirectories</p>
+<p>msRTCSIP-Microsoft.rtc.management.writableconfig.settings.pstnconf.conferencedirectories</p>
 <p>msRTCSIP-GlobalTopologySettings</p></td>
 </tr>
 <tr class="odd">
@@ -379,7 +379,7 @@ _**主题上次修改时间：** 2012-08-29_
 <td><p>msRTCSIP-LocationContactMapping</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-ConferenceDirectories</p></td>
+<td><p>msRTCSIP-Microsoft.rtc.management.writableconfig.settings.pstnconf.conferencedirectories</p></td>
 <td><p>msRTCSIP-ConferenceDirectory</p></td>
 </tr>
 <tr class="even">

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97b28559ea58439d370042d54ab7ef58943bc594
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0bb4d495637cd78e430e975e9831421906bfbf6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751152"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41751152"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-21_
+_**上次修改的主题：** 2012-09-21_
 
-媒体绕过指信号遍历中介服务器的呼叫可以从媒体路径中删除中介服务器。
+媒体旁路功能是指在可能的情况下，从信号遍历中介服务器的呼叫的媒体路径中删除中介服务器。
 
-媒体旁路功能可通过减少延迟、不必要的转换、可能的数据包丢失和潜在的故障点数来提高语音质量。 可伸缩性得到改进，因为消除绕过通话的媒体处理会减少中介服务器上的负载。 负载的减少使中介服务器控制多个网关的能力有所补充。
+媒体旁路功能可通过减少延迟、不必要的转换、可能的数据包丢失和潜在的故障点数来提高语音质量。 由于绕过的呼叫无需媒体处理操作，这可减少中介服务器上的负载，从而提高可伸缩性。 这种负载降低补充了中介服务器控制多个网关的能力。
 
-如果没有中介服务器的分支站点通过受限制带宽的一个或多个 WAN 链接连接到中心站点，则媒体绕过会允许来自分支站点的客户端的媒体直接流向本地网关，而不首先必须跨 WAN 链接流过中央站点的中介服务器。
+如果没有中介服务器的分支站点通过受限制带宽的一个或多个 WAN 链路连接到中央站点，则媒体旁路降低了带宽需求，因为允许来自分支站点的客户端的媒体直接流向本地网关，而不首先必须跨 WAN 链路传递到位于中央站点的中介服务器和背面。
 
-通过从媒体处理中免除中介服务器，媒体绕过可能还会减少企业语音基础结构所需的中介服务器的数量。
+通过从媒体处理中免除中介服务器，媒体旁路也可能会减少企业语音基础结构所需的中介服务器的数量。
 
 下图显示了具有和没有媒体旁路功能的拓扑中的基本媒体和信号路径。
 
@@ -55,13 +55,13 @@ _**主题上次修改时间：** 2012-09-21_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中绕过媒体的概述](lync-server-2013-overview-of-media-bypass.md)
+  - [Lync Server 2013 中的媒体旁路概述](lync-server-2013-overview-of-media-bypass.md)
 
-  - [Lync Server 2013 中的媒体绕过模式](lync-server-2013-media-bypass-modes.md)
+  - [Lync Server 2013 中的媒体旁路模式](lync-server-2013-media-bypass-modes.md)
 
-  - [Lync Server 2013 中的媒体绕过和呼叫允许控制](lync-server-2013-media-bypass-and-call-admission-control.md)
+  - [Lync Server 2013 中的媒体旁路和呼叫允许控制](lync-server-2013-media-bypass-and-call-admission-control.md)
 
   - [Lync Server 2013 中媒体旁路的技术要求](lync-server-2013-technical-requirements-for-media-bypass.md)
 
@@ -80,10 +80,10 @@ _**主题上次修改时间：** 2012-09-21_
 ## <a name="see-also"></a>另请参阅
 
 
-[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[在 Lync Server 2013 中配置具有媒体旁路功能的中继](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 
 
-[Lync Server 2013 中的全局媒体绕过选项](lync-server-2013-global-media-bypass-options.md)  
+[Lync Server 2013 中的全局媒体旁路选项](lync-server-2013-global-media-bypass-options.md)  
   
 
 </div>

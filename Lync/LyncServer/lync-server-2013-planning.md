@@ -12,16 +12,16 @@ ms:contentKeyID: 48184302
 ms.date: 12/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eba5a563612a395a7f252aecb5992a64d04b5221
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b60f2cb767dc37d06c2c55547b0bf8cfae366cc4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725162"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41725162"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-12-09_
+_**上次修改的主题：** 2014-12-09_
 
-本部分中的主题介绍了如何为成功的 Lync 服务器部署进行规划。
+本节中的主题介绍如何规划成功的 Lync Server 部署。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 的组织规划](lync-server-2013-planning-for-your-organization.md)
 
@@ -63,7 +63,7 @@ _**主题上次修改时间：** 2014-12-09_
 
   - [在 Lync Server 2013 中规划企业语音](lync-server-2013-planning-for-enterprise-voice.md)
 
-  - [在 Lync Server 2013 中规划监控](lync-server-2013-planning-for-monitoring.md)
+  - [在 Lync Server 2013 中规划监视](lync-server-2013-planning-for-monitoring.md)
 
   - [在 Lync Server 2013 中规划存档](lync-server-2013-planning-for-archiving.md)
 
@@ -75,9 +75,9 @@ _**主题上次修改时间：** 2014-12-09_
 
   - [在 Lync Server 2013 中规划远程呼叫控制](lync-server-2013-planning-for-remote-call-control.md)
 
-  - [在 Lync Server 2013 中规划移动功能](lync-server-2013-planning-for-mobility.md)
+  - [在 Lync Server 2013 中规划移动性](lync-server-2013-planning-for-mobility.md)
 
-  - [规划 Lync Server 2013 的安全性](lync-server-2013-planning-for-security.md)
+  - [在 Lync Server 2013 中规划安全性](lync-server-2013-planning-for-security.md)
 
 </div>
 

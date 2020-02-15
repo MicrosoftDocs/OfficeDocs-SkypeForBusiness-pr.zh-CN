@@ -12,16 +12,16 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2e6516ee1162c02f2bebc8c385c2f41e87d7781
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 70a011109c985f126c591698f3ea572242498771
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724892"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41724892"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-在出现故障后开始还原服务器和数据库之前，需要确定以下事项：
+在出现故障后开始还原服务器和数据库之前，您需要确定以下内容：
 
-  - 需要还原哪些内容。
+  - 需要还原的内容。
 
-  - 您需要恢复的硬件、软件、数据和工具。
+  - 您需要还原的硬件、软件、数据和工具。
 
 <div>
 
-## <a name="determining-what-to-restore"></a>确定要还原的内容
+## <a name="determining-what-to-restore"></a>确定还原内容
 
-本主题介绍如何还原在服务器、池或中央管理存储级别发生的 Lync 服务器中断。 如果中央管理存储失败，则 Lync Server 部署将继续正常运行，但不能更改任何配置。 如果后端服务器或标准版服务器出现故障，用户池将停止运行。 如果任何其他服务器出现故障，则故障的大小取决于服务器运行的服务器角色以及服务器托管一个还是多个数据库。
+本主题介绍如何还原在服务器、池或中央管理存储级别发生的 Lync Server 中断。 如果中央管理存储失败，Lync Server 部署将继续正常运行，但不能进行任何配置更改。 如果后端服务器或 Standard Edition Server 出现故障，则用户池将停止运行。 如果任何其他服务器出现故障，则故障的程度取决于服务器运行的服务器角色以及服务器是否承载了一个或多个数据库。
 
-### <a name="what-to-restore"></a>还原内容
+### <a name="what-to-restore"></a>要还原的内容
 
 <table>
 <colgroup>
@@ -58,18 +58,18 @@ _**主题上次修改时间：** 2013-02-21_
 </colgroup>
 <thead>
 <tr class="header">
-<th>如果此操作失败</th>
-<th>请参阅以下部分：</th>
+<th>如果此项发生故障</th>
+<th>请参阅此节：</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Standard Edition Server</p></td>
-<td><p><a href="lync-server-2013-restoring-a-standard-edition-server.md">在 Lync Server 2013 中还原标准版服务器</a></p></td>
+<td><p><a href="lync-server-2013-restoring-a-standard-edition-server.md">在 Lync Server 2013 中还原 Standard Edition 服务器</a></p></td>
 </tr>
 <tr class="even">
 <td><p>中央管理存储</p></td>
-<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">在 Lync Server 2013 中还原托管中央管理存储的服务器</a></p></td>
+<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">在 Lync Server 2013 中还原承载中央管理存储的服务器</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>企业版后端</p></td>
@@ -81,27 +81,27 @@ _**主题上次修改时间：** 2013-02-21_
 </tr>
 <tr class="odd">
 <td><p>企业版镜像后端辅助服务器</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">在 Lync Server 2013 中还原镜像的企业版后端服务器-镜像</a></p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">在 Lync Server 2013-镜像中还原镜像的企业版后端服务器</a></p></td>
 </tr>
 <tr class="even">
-<td><p>任何运行服务器角色的企业版服务器，如前端服务器、边缘服务器、控制器、中介服务器、或持久聊天服务器。</p></td>
+<td><p>运行服务器角色的任何企业版服务器，如前端服务器、边缘服务器、控制器、中介服务器、或持久聊天服务器。</p></td>
 <td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">在 Lync Server 2013 中还原企业版成员服务器</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>整个 Lync 服务器池</p></td>
-<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">在 Lync Server 2013 中还原 Lync 服务器池</a></p></td>
+<td><p>整个 Lync Server 池</p></td>
+<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">在 Lync Server 2013 中还原 Lync Server 池</a></p></td>
 </tr>
 <tr class="even">
-<td><p>企业版文件存储</p></td>
+<td><p>Enterprise Edition 文件存储</p></td>
 <td><p><a href="lync-server-2013-restoring-a-file-store.md">在 Lync Server 2013 中还原文件存储</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>独立监视数据库或存档数据库</p></td>
+<td><p>独立监控数据库或存档数据库</p></td>
 <td><p><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">在 Lync Server 2013 中还原监视或存档数据</a></p></td>
 </tr>
 <tr class="even">
 <td><p>独立的持久聊天数据库</p></td>
-<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">在 Lync Server 2013 中还原永久聊天数据</a></p></td>
+<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">在 Lync Server 2013 中还原持久聊天数据</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -113,50 +113,50 @@ _**主题上次修改时间：** 2013-02-21_
 
 ## <a name="gathering-hardware-software-and-tools"></a>收集硬件、软件和工具
 
-还原服务器时，需要从新的或全新的计算机开始。 此外，你必须具有以下可用硬件和软件：
+在还原服务器时，您需要从新的或干净的计算机开始。 此外，还必须具有以下可用的硬件和软件：
 
-  - 具有与失败的服务器相同的完全限定的域名（FQDN）的全新服务器或新服务器。
+  - 具有与发生故障的服务器相同的完全限定域名 (FQDN) 的干净或新服务器。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 在安装操作系统时，请确保不要删除 Active Directory 域服务中的计算机帐户，并验证是否保留帐户的组权限。
+    > 安装操作系统时，请确保不删除 Active Directory 域服务中的计算机帐户，并验证是否保留了帐户的组权限。
 
     
     </div>
 
-  - 操作系统的安装软件。 若要安装操作系统，请使用服务器部署过程和由你的组织建立的配置。 还原服务时，应具备这些过程和配置要求。
+  - 操作系统的安装软件。 若要安装操作系统，请使用组织确定的服务器部署过程和配置。 还原服务时，应具有这些过程和配置要求。
 
-  - SQL Server 2012 或 SQL Server 2008 R2 的安装软件。 若要安装数据库服务器，请使用相应版本的 SQL Server 和由你的组织建立的数据库服务器部署过程和配置。 还原服务时，应具备这些过程和配置要求。
+  - 适用于 SQL Server 2012 或 SQL Server 2008 R2 的安装软件。 若要安装数据库服务器，请使用组织确定的适当版本的 SQL Server 和数据库服务器部署过程和配置。 还原服务时，应具有这些过程和配置要求。
     
     <div>
     
 
     > [!NOTE]  
-    > 在安装本地配置存储时，Lync Server 部署向导会在每个标准版服务器和任何其他 Lync Server 服务器上自动安装 SQL Server 2012 Express，除非已预安装 SQL Server 2012 或 SQL Server 2008 R2服务器。
+    > 安装本地配置存储时，Lync Server 部署向导会自动在每个 Standard Edition 服务器和任何其他 Lync Server 服务器上安装 SQL Server 2012 Express，除非您已预安装 SQL Server 2012 或 SQL Server 2008 R2服务器。
 
     
     </div>
 
-  - 用于拍摄系统映像的软件。
+  - 用于生成系统映像的软件。
     
     <div>
     
 
     > [!TIP]  
-    > 我们建议你在安装操作系统和 SQL Server 之后以及开始还原之前获取系统的映像副本，以便你可以将此映像用作回退点，以防还原过程中出现错误。
+    > 我们建议您在安装操作系统和 SQL Server 后，以及在开始还原之前，获取系统的图像副本，以便您可以将此映像用作回滚点，以防还原过程中出现问题。
 
     
     </div>
 
-  - Lync Server 2013 安装软件。 Lync Server 部署向导位于 Lync Server 安装文件夹或位于\\安装\\amd64\\setup.exe 的媒体中。
+  - Lync Server 2013 安装软件。 Lync Server 部署向导位于 Lync Server 安装文件夹或位于\\安装程序\\amd64\\setup.exe 的媒体中。
 
-在还原期间，你可以使用以下工具：
+还原期间，使用以下工具：
 
-  - Lync Server Management Shell cmdlet
+  - Lync Server 命令行管理程序 cmdlet
 
-  - Import-CsUserData
+  - Import-Export-csuserdata
 
   - 用于还原 Windows 文件夹的工具
 
@@ -178,21 +178,21 @@ _**主题上次修改时间：** 2013-02-21_
 
 3.  还原或重新注册证书。 有关证书的详细信息，请参阅[Lync Server 2013： data 中的 "备份和还原要求](lync-server-2013-backup-and-restoration-requirements-data.md)" 中的 "其他备份要求"。
 
-4.  在启动还原之前获取系统的映像，以用作回滚点，以防还原过程中出现问题。
+4.  在开始还原之前获取系统的映像以用作回滚点，以防还原过程中出现问题。
 
 <div>
 
 
 > [!NOTE]  
-> 在本主题的过程中介绍的 Lync Server 部署向导和 cmdlet 以及相关主题，设置所有所需的访问控制列表（Acl）。
+> 本主题中的过程中描述的 Lync Server 部署向导和 cmdlet 以及相关主题设置所有必需的访问控制列表（Acl）。
 
 
 
 </div>
 
-验证在开始还原之前，验证你要还原的组件是否可用所需的硬件和软件。 安装操作系统和 SQL Server 后，可以远程运行以下还原过程中的大部分步骤。 这些过程中将注明异常。
+验证您计划还原的组件所需的硬件和软件在开始还原之前是否可用。 在安装操作系统和 SQL Server 后，以下还原过程中的大多数步骤都可以远程运行。 过程中注明的例外情况除外。
 
-你还应了解你的组织的备份和还原计划以及上次备份中的信息，例如此文档中的工作表中的信息（有关详细信息，请参阅[Lync Server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)），在开始还原之前可用。
+您还应了解您的组织的备份和还原计划以及上一次备份中的信息，如本文档中的工作表中的信息（有关详细信息，请参阅[Lync Server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)），以便在开始还原之前使用。
 
 </div>
 

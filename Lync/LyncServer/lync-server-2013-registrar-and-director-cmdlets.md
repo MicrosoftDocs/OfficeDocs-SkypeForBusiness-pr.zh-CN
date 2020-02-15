@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：注册机构和控制器 cmdlet
+title: Lync Server 2013：注册器和控制器 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5512b80d5860c94d379c5c5d43e51cdb8ac5177
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc457a8b37f515a85ff9de32ab8922e8dd6ac93b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746852"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="registrar-and-director-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的注册机构和主管 cmdlet
+# <a name="registrar-and-director-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的注册器和控制器 cmdlet
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41746852"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-09_
+_**上次修改的主题：** 2012-10-09_
 
-注册机构和控制器用于对登录请求进行身份验证，并维护有关用户状态和可用性的信息。 注册机构和控制器 cmdlet 使你能够管理这些服务器的配置设置。
+注册器和控制器用于对登录请求进行身份验证并维护有关用户状态和可用性的信息。通过注册器和控制器 cmdlet，可以管理这些服务器的配置设置。
 
 <div>
 
-## <a name="registrar-and-director-cmdlets"></a>注册机构和控制器 Cmdlet
+## <a name="registrar-and-director-cmdlets"></a>注册器和控制器 Cmdlet
 
-以下是与管理注册机构和董事直接相关的 cmdlet 的列表：
+以下是与管理注册器和控制器直接相关的 cmdlet 列表：
 
-**注册机构和董事**
+**注册器和控制器**
 
   - <span></span>  
-    [Set-CsDirector](https://technet.microsoft.com/en-us/library/Gg398565(v=OCS.15))
+    [CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Reset-CsPoolRegistrarState](https://technet.microsoft.com/en-us/library/JJ619172(v=OCS.15))
+    [Reset-CsPoolRegistrarState](https://technet.microsoft.com/library/JJ619172(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsRegistrar](https://technet.microsoft.com/en-us/library/Gg398993(v=OCS.15))
+    [CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg398483(v=OCS.15))
+    [CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))
 
   - <span></span>  
-    [新-CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg425893(v=OCS.15))
+    [新 CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg398482(v=OCS.15))
+    [CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398482(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg398764(v=OCS.15))
+    [CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsRegistration](https://technet.microsoft.com/en-us/library/Gg412737(v=OCS.15))
+    [Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))
 
 </div>
 

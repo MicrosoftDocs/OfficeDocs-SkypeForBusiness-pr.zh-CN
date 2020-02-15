@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Region 表
+title: Lync Server 2013：区域表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 005722b28b6ea93d89873d45e7a9284f44643bde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1099be5a6cc8d3fa0b40fa20cde23ebaa02d64c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724422"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="region-table-in-lync-server-2013"></a>Lync Server 2013 中的 Region 表
+# <a name="region-table-in-lync-server-2013"></a>Lync Server 2013 中的区域表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724422"
 
 <span> </span>
 
-_**主题上次修改时间：** 2010-11-09_
+_**上次修改的主题：** 2010-11-09_
 
-区域表是支持表。 每条记录表示在 "网络配置" 设置中定义的一个国家/地区。
+区域表是一个支持表。每条记录代表网络配置设置中定义的一个国家/区域。
 
 
 <table>
@@ -52,21 +52,21 @@ _**主题上次修改时间：** 2010-11-09_
 <th><strong>列</strong></th>
 <th><strong>数据类型</strong></th>
 <th><strong>键/索引</strong></th>
-<th><strong>详细信息</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>RegionKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识国家/地区的唯一号码。</p></td>
+<td><p>主</p></td>
+<td><p>标识国家/区域的唯一编号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RegionName</strong></p></td>
 <td><p>nvarchar</p></td>
-<td><p>唯一</p></td>
-<td><p>国家/地区的名称。</p></td>
+<td><p>独特</p></td>
+<td><p>国家/区域的名称。</p></td>
 </tr>
 </tbody>
 </table>

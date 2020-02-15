@@ -12,20 +12,20 @@ ms:contentKeyID: 48184055
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93c3147f9397db444e816dea433fbe5478c8e87a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a2ddb19bab0ab47d1afe0014e06aad6189259b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764980"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool-in-lync-server-2013"></a>Lync Server 2013 中扩展的控制器池
+# <a name="scaled-director-pool-in-lync-server-2013"></a>Lync Server 2013 中的扩展控制器池
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41764980"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-Director 可以部署在单个控制器配置中，也可以部署为控制器池。 本部分为两个共用控制器拓扑定义拓扑和配置。 如果你计划部署单个控制器，请参阅[Lync Server 2013 中](lync-server-2013-single-director.md)的 "主题单控制器" 以规划该拓扑的注意事项。
+控制器可以部署在单个控制器配置中，也可以部署为控制器池。 本部分定义了两个共用控制器拓扑的拓扑和配置。 如果要规划部署单个控制器，请参阅[Lync Server 2013 中的 "单个控制器](lync-server-2013-single-director.md)"，以了解该拓扑的规划注意事项。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中扩展的控制器池 - DNS 负载平衡和硬件负载平衡器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+  - [Lync Server 2013 中的扩展控制器池-DNS 负载平衡和硬件负载平衡器](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
-  - [Lync Server 2013 中扩展的控制器池 - 硬件负载平衡器](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+  - [Lync Server 2013 中的扩展控制器池-硬件负载平衡器](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

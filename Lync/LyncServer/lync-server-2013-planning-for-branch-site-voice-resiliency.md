@@ -12,20 +12,20 @@ ms:contentKeyID: 48184351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 004790da7562374284e11e28c6e89836a924f654
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 310197cac1f7d75d84cc7c978f9aa7a6f6c66dc9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754752"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中规划分支站点语音恢复能力
+# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a>在 Lync Server 2013 中规划分支站点语音恢复
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41754752"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-21_
+_**上次修改的主题：** 2012-09-21_
 
-如果你想要提供分支站点弹性（即高可用性企业语音服务），你有三种方法可用于执行此操作：
+如果要提供分支站点恢复能力（即高可用性企业语音服务），可以使用三种方法执行此操作：
 
   - Survivable Branch Appliance
 
-  - Survivable Branch Server
+  - 自动恢复分支服务器
 
-  - 分支站点上的完整 Lync 服务器部署
+  - 分支站点上的完整 Lync Server 部署
 
 本指南将帮助您评估最适合组织的恢复能力解决方案，并基于您的恢复能力解决方案选择要使用的 PSTN 连接解决方案。还将通过介绍先决条件和其他规划注意事项来帮助您准备部署所选择的解决方案。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的分支站点恢复能力功能](lync-server-2013-branch-site-resiliency-features.md)
+  - [Lync Server 2013 中的分支站点恢复功能](lync-server-2013-branch-site-resiliency-features.md)
 
-  - [Lync Server 2013 中的分支站点恢复能力解决方案](lync-server-2013-branch-site-resiliency-solutions.md)
+  - [Lync Server 2013 中的分支站点恢复解决方案](lync-server-2013-branch-site-resiliency-solutions.md)
 
-  - [Lync Server 2013 的分支站点恢复能力要求](lync-server-2013-branch-site-resiliency-requirements.md)
+  - [Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)
 
 </div>
 

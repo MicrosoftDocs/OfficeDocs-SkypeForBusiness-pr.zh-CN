@@ -1,5 +1,5 @@
 ---
-title: 扩展的控制器池 - DNS 负载平衡和硬件负载平衡器
+title: 扩展的控制器池-DNS 负载平衡和硬件负载平衡器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16203f7e291b7957793e71872483c93f2d1d04d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af050cbef7c75bb7b403dc4ef74c4750a9e8b3c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764990"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中扩展的控制器池 - DNS 负载平衡和硬件负载平衡器
+# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的扩展控制器池-DNS 负载平衡和硬件负载平衡器
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764990"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-22_
+_**上次修改的主题：** 2012-10-22_
 
-一个缩放的控制器池，为处理更多容量和提供高可用性而部署了多个控制器，需要负载平衡才能将客户端和服务器通信分配给该池的所有成员。 控制器承载 web 服务的方式非常类似于前端池。 若要提供负载平衡，可以使用硬件负载平衡或域名系统（DNS）负载平衡和硬件负载平衡。 对于 web 服务，硬件负载平衡是必需的，并且 DNS 负载平衡本身不提供 web 服务所需的功能。
+一个扩展的控制器池，在其中部署了多个控制器以处理更多容量并提供高可用性时，需要使用负载平衡将客户端和服务器通信分发到池的所有成员。 控制器承载 web 服务的方式与前端池非常相似。 若要提供负载平衡，可以使用硬件负载平衡或域名系统 (DNS) 负载平衡和硬件负载平衡。 Web 服务需要硬件负载平衡，单独的 DNS 负载平衡无法提供 Web 服务所需的功能。
 
-以下主题介绍了使用 DNS 负载平衡结合硬件负载平衡来部署控制器池的规划注意事项。 如果你打算使用硬件负载平衡，而不是控制器池的 DNS 负载平衡，请参阅[Lync Server 2013 中的主题缩放的控制器池-硬件负载平衡器](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)，描述该拓扑的规划要求。
+以下主题介绍了在结合使用 DNS 负载平衡和硬件负载平衡时部署控制器池的规划注意事项。 如果打算使用硬件负载平衡，但不是控制器池的 DNS 负载平衡，请参阅[Lync Server 2013 中的主题扩展的控制器池-硬件负载平衡器](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)，用于描述该拓扑的规划要求。
 
-![缩放的控制器池](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "缩放的控制器池")
+![扩展的控制器池](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "扩展的控制器池")
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的证书摘要 - 已进行 DNS 和 HLB 负载平衡](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [Lync Server 2013 中的证书摘要-DNS 和 HLB 负载平衡](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [Lync Server 2013 中的端口摘要 - 已进行 DNS 和 HLB 负载平衡](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
+  - [Lync Server 2013 中的端口摘要-DNS 和 HLB 负载平衡](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
 
-  - [Lync Server 2013 中的 DNS 摘要 - 已进行 DNS 和 HLB 负载平衡](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
+  - [Lync Server 2013 中的 DNS 摘要-DNS 和 HLB 负载平衡](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
 
 </div>
 
