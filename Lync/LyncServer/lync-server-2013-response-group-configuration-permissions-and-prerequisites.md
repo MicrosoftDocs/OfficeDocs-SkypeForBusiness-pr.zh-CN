@@ -12,16 +12,16 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcf10a61ed5285fe5cfc907c2624a14112d96eae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9712d196f485c51d720245903739387befb49dd3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723632"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051818"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41723632"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-05_
+_**上次修改的主题：** 2012-10-05_
 
-响应组是企业语音呼叫管理功能。 本主题介绍了在可以配置响应组以及执行配置任务所需的管理凭据和权限之前需要具备的准备工作。
+响应组是一种企业语音呼叫管理功能。本主题介绍配置响应组、管理凭据和执行配置任务所需权限之前的准备事项。
 
-本部分假设你已阅读与响应组相关的计划文档。 有关详细信息，请参阅规划文档中[Lync Server 2013 中的 "规划呼叫管理功能](lync-server-2013-planning-for-call-management-features.md)"。
+本节假定您已经阅读过与响应组相关的规划文档。 有关详细信息，请参阅规划文档中的在[Lync Server 2013 中规划呼叫管理功能](lync-server-2013-planning-for-call-management-features.md)。
 
 <div>
 
@@ -47,7 +47,7 @@ _**主题上次修改时间：** 2012-10-05_
 
 可以使用以下管理工具配置响应组：
 
-  - Lync Server 控制面板
+  - Lync 服务器控制面板
 
   - 响应组配置工具
 
@@ -88,11 +88,11 @@ _**主题上次修改时间：** 2012-10-05_
 <tr class="odd">
 <td><p><strong>CsResponseGroupManager</strong></p></td>
 <td> </td>
-<td><p>√(2)</p></td>
-<td><p>√(3)</p></td>
-<td><p>√(3)</p></td>
-<td><p>√(3)</p></td>
-<td><p>√(3)</p></td>
+<td><p>√（2）</p></td>
+<td><p>√（3）</p></td>
+<td><p>√（3）</p></td>
+<td><p>√（3）</p></td>
+<td><p>√（3）</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CsVoiceAdministrator</strong></p></td>
@@ -123,12 +123,12 @@ _**主题上次修改时间：** 2012-10-05_
 </tr>
 <tr class="odd">
 <td><p><strong>CsViewOnlyAdministrator</strong></p></td>
-<td><p>√(4)</p></td>
-<td><p>√(4)</p></td>
-<td><p>√(4)</p></td>
-<td><p>√(4)</p></td>
-<td><p>√(4)</p></td>
-<td><p>√(4)</p></td>
+<td><p>√（4）</p></td>
+<td><p>√（4）</p></td>
+<td><p>√（4）</p></td>
+<td><p>√（4）</p></td>
+<td><p>√（4）</p></td>
+<td><p>√（4）</p></td>
 </tr>
 </tbody>
 </table>
@@ -138,7 +138,7 @@ _**主题上次修改时间：** 2012-10-05_
 
 
 > [!NOTE]  
-> <STRONG>（1）</STRONG> Active Directory 域服务用户对象必须是所列的指定 Active directory 安全组的成员。 具有将用户添加到安全组的相应权限的管理员或其他委派的 Active Directory 组成员（例如管理员、帐户操作员）必须将用户对象添加到列出的安全组或组中，以便用户能够执行列出的函数。 <STRONG>（2）</STRONG>仅适用于 CsResponseGroupAdministrator 分配给 CsResponseGroupManager 的工作流。 <STRONG>（3）</STRONG>响应组管理器可以将 CsResponseGroupManager 的另一个成员分配给当前管理器已管理的工作流。 <STRONG>（4）</STRONG> CsViewOnlyAdministrator 仅可运行动词 "Get" Lync Server Management Shell cmdlet。
+> <STRONG>（1）</STRONG> Active Directory 域服务用户对象必须是列出的指定 Active directory 安全组的成员。 管理员或其他委派的 Active Directory 组成员若要将用户添加到安全组（例如，管理员、帐户操作员），必须将用户对象添加到列出的安全组或组中，这样用户才能执行列出的函数。 <STRONG>（2）</STRONG>仅适用于 CsResponseGroupAdministrator 已分配给 CsResponseGroupManager 的工作流。 <STRONG>（3）</STRONG>响应组管理器可以将 CsResponseGroupManager 的另一个成员分配给当前管理者已管理的工作流。 <STRONG>（4）</STRONG> CsViewOnlyAdministrator 只能运行动词 "Get" Lync Server Management Shell cmdlet。
 
 
 
@@ -148,7 +148,7 @@ _**主题上次修改时间：** 2012-10-05_
 
 <div>
 
-## <a name="response-group-configuration-prerequisites"></a>响应组配置先决条件
+## <a name="response-group-configuration-prerequisites"></a>响应组配置的先决条件
 
 响应组需要以下组件：
 
@@ -162,11 +162,11 @@ _**主题上次修改时间：** 2012-10-05_
 
   - Web 服务（包括响应组配置工具和代理的登录和注销控制台）
 
-在部署企业语音时，默认情况下会安装所有这些组件。
+部署企业语音时，默认安装上述所有组件。
 
 在配置响应组之前，可能需要执行以下任务：
 
-  - 为 Lync Server 2013 和企业语音启用用户。
+  - 为用户启用 Lync Server 2013 和企业语音。
 
   - 修改配置文件以符合联邦信息处理标准 (FIPS)。
 
@@ -176,7 +176,7 @@ _**主题上次修改时间：** 2012-10-05_
 
 ## <a name="enabling-users"></a>启用用户
 
-配置响应组的第一步是创建代理组。 在创建代理组之前，必须启用将用作 Lync Server 2013 和企业语音的 "响应" 组的代理用户。 为 Lync Server 2013 启用用户通常是企业版 server 或标准版服务器部署中的一个步骤。 有关为 Lync Server 2013 启用用户的详细信息，请参阅[禁用或重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 为企业语音启用用户通常是企业语音部署中的一个步骤。 有关详细信息，请参阅[在 Lync Server 2013 中启用企业语音用户](lync-server-2013-enable-users-for-enterprise-voice.md)。
+配置响应组的第一步是创建代理组。 在创建代理组之前，必须为将成为 Lync Server 2013 和企业语音的响应组的代理启用这些用户。 为 Lync Server 2013 启用用户通常是企业版 server 或 Standard Edition server 部署中的一个步骤。 有关为用户启用 Lync Server 2013 的详细信息，请参阅[Disable or 重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 为用户启用企业语音通常是企业语音部署中的一个步骤。 有关详细信息，请参阅[在 Lync Server 2013 中为用户启用企业语音](lync-server-2013-enable-users-for-enterprise-voice.md)。
 
 </div>
 
@@ -186,21 +186,21 @@ _**主题上次修改时间：** 2012-10-05_
 
 仅当您的组织需要符合联邦信息处理标准 (FIPS) 时，本节才适用。
 
-要符合 FIPS，安装 Web 服务后需要修改应用程序级别 Web.config 文件，以使用不同的加密算法。 需要指定 ASP.NET 使用三重数据加密标准 (3DES) 算法，来处理视图状态数据。 对于响应组应用程序，此要求适用于响应组配置工具和代理登录和注销控制台。 有关此要求的详细信息，请参阅 Microsoft 知识库文章911722，当你访问在从 ASP.NET 1.1 升级到 ASP.NET 2.0 后启用了 ViewState 的 ASP.NET 网页时，你可能会收到错误消息[http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183)。
+要符合 FIPS，安装 Web 服务后需要修改应用程序级别 Web.config 文件，以使用不同的加密算法。 需要指定 ASP.NET 使用三重数据加密标准 (3DES) 算法，来处理视图状态数据。 对于响应组应用程序，此要求适用于响应组配置工具和代理登录和注销控制台。 有关此要求的详细信息，请参阅 Microsoft 知识库文章911722。当您访问在从 ASP.NET 1.1 升级到 ASP.NET 2.0 之后启用了 ViewState 的 ASP.NET 网页时，您可能会收到错误消息， [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183)"at"。
 
-若要修改 Web.config 文件，请执行以下操作：
+要修改 Web.config 文件，请执行以下操作：
 
 1.  在文本编辑器（如记事本）中，打开应用程序级别 Web.config 文件。
 
 2.  在 web.config 文件中，找到相应的`<system.web>`部分。
 
-3.  将以下`<machineKey>`部分添加到 "" `<system.web>`部分中：
+3.  将以下`<machineKey>`部分添加到 "" `<system.web>`部分中的 "" 部分：
     
         <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
 
 4.  保存 Web.config 文件。
 
-5.  通过在命令提示符处运行以下命令，重启 Internet 信息服务（IIS）服务：
+5.  通过在命令提示符处运行以下命令来重新启动 Internet Information Services （IIS）服务：
     
         iisreset
 
@@ -216,35 +216,35 @@ _**主题上次修改时间：** 2012-10-05_
 
 
 > [!NOTE]  
-> 有关 Yi、Meng 和 Zang 字符的内容以及它们对部署很重要的原因的信息，请参阅 GB18030 字符集<A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>的相关信息。
+> 若要了解什么是 Yi、Meng 和 Zang 字符以及它们可能对您的部署很重要的原因，请参阅 GB18030 字符集的相关信息<A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>。
 
 
 
 </div>
 
-要支持 Yi、Meng 或 Zang 字符，需要修改 Rgsconfig 数据库的排序规则。在每个 Rgsconfig 数据库的下列各表中更改“Name”**** 列的排序规则：
+要支持 Yi、Meng 或 Zang 字符，需要修改 Rgsconfig 数据库的排序规则。在每个 Rgsconfig 数据库的下列各表中更改 **“Name”** 列的排序规则：
 
-  - dbo.AgentGroups
+  - 所有者.AgentGroups
 
-  - dbo.BusinessHours
+  - 所有者.BusinessHours
 
-  - dbo.HolidaySets
+  - 所有者.HolidaySets
 
-  - dbo.Queues
+  - 所有者.队列
 
-  - dbo.Workflows
+  - 所有者.流会
 
-对于 SQL Server 2008 R2 和 SQL Server 2012，请使用拉丁文\_常规\_100 （区分重音）排序规则。 如果使用此排序规则，则所有对象名称不区分大小写。
+对于 SQL Server 2008 R2 和 SQL Server 2012，请使用拉丁语\_通用\_100 （区分重音）排序规则。 如果使用此排序规则，则所有对象名称不区分大小写。
 
-可以使用 Microsoft SQL Server Management Studio 来更改排序规则。 有关使用此工具的详细信息，请参阅 "使用 SQL Server Management Studio [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184)"。 执行下列步骤可更改排序规则：
+可以使用 Microsoft SQL Server Management Studio 来更改排序规则。 有关使用此工具的详细信息，请参阅中的 "Using SQL Server [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184)Management Studio"。 执行下列步骤可更改排序规则：
 
-1.  确保 SQL Server Management Studio 配置为允许要求重新创建表的更改。 有关详细信息，请参阅 "保存（不允许）" 对话框[http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186)。 有关设置列排序规则的详细信息，请参阅 "如何：设置列排序规则（可视化数据库工具） [http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185)"。
+1.  确保 SQL Server Management Studio 配置为允许要求重新创建表的更改。 有关详细信息，请参阅中[http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186)的 "保存（不允许）" 对话框。 有关设置列排序规则的详细信息，请参阅中[http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185)的 "如何：设置列排序规则（可视化数据库工具）"。
 
 2.  使用 Microsoft SQL Server Management Studio 连接到 Rgsconfig 数据库。
 
-3.  在 Rgsconfig 数据库中查找要更改的表，右键单击该表，然后单击“设计”****。
+3.  在 Rgsconfig 数据库中查找要更改的表，右键单击该表，然后单击 **“设计”**。
 
-4.  更改“名称”列**** 的排序规则并保存该表。
+4.  更改****“名称”列的排序规则并保存该表。
 
 </div>
 

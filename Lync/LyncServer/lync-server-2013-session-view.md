@@ -12,20 +12,20 @@ ms:contentKeyID: 49733641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a153899fd484da861088a8e7672a69707e46a59
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7d20d748f9c9754efab768a702f1272bc70d889e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764810"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="session-view-in-lync-server-2013"></a>Lync Server 2013 中的 "会话" 视图
+# <a name="session-view-in-lync-server-2013"></a>Lync Server 2013 中的会话视图
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764810"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-03_
+_**上次修改的主题：** 2012-10-03_
 
-"会话" 视图存储有关具有数据库中的记录的会话的信息。 此视图已在 Microsoft Lync Server 2013 中引入。
+会话视图存储有关在数据库中具有记录的会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 
 
 <table>
@@ -57,118 +57,118 @@ _**主题上次修改时间：** 2012-10-03_
 <tr class="odd">
 <td><p>ConferenceDateTime</p></td>
 <td><p>datetime</p></td>
-<td><p>从 MediaLine 表中引用。</p></td>
+<td><p>引用自 MediaLine 表。</p></td>
 </tr>
 <tr class="even">
 <td><p>ConferenceURI</p></td>
 <td><p>nvarchar （450）</p></td>
-<td><p>会议 URI （如果这是会议）或 DialogID （如果这是对等会话）。</p></td>
+<td><p>如果是会议，则是会议 URI；如果是点对点会话，则是 DialogID。</p></td>
 </tr>
 <tr class="odd">
-<td><p>关系</p></td>
+<td><p>相关性</p></td>
 <td><p>varchar （max）</p></td>
-<td><p>会话的相关 ID。</p></td>
+<td><p>会话的关联 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>DialogCategory</p></td>
-<td><p>bit</p></td>
-<td><p>对话框类别;0是 Lync 服务器以中介服务器腿;1是中介服务器到 PSTN 网关腿。</p></td>
+<td><p>位</p></td>
+<td><p>对话框类别;0是 Lync Server 以进行中介服务器腿;1是中介服务器到 PSTN 网关腿。</p></td>
 </tr>
 <tr class="odd">
 <td><p>MediationServerBypassFlag</p></td>
-<td><p>bit</p></td>
-<td><p>指示是否跳过呼叫。</p></td>
+<td><p>位</p></td>
+<td><p>指示是否旁路了呼叫。</p></td>
 </tr>
 <tr class="even">
 <td><p>MediaBypassWarningFlag</p></td>
 <td><p>int</p></td>
-<td><p>此字段（如果存在）指示无法跳过呼叫的原因，即使旁路 Id 匹配也是如此。 对于 Lync Server，只定义一个值：</p>
-<p>0x0001-默认网络适配器的未知旁路 ID</p></td>
+<td><p>如果存在，此字段指示即使绕过 ID 相匹配也没有绕过呼叫的原因。 对于 Lync Server，仅定义了一个值：</p>
+<p>0x0001 – 默认网络适配器的未知旁路 ID</p></td>
 </tr>
 <tr class="odd">
 <td><p>StartTime</p></td>
 <td><p>datetime</p></td>
-<td><p>通话开始时间。</p></td>
+<td><p>呼叫开始时间。</p></td>
 </tr>
 <tr class="even">
 <td><p>EndTime</p></td>
 <td><p>datetime</p></td>
-<td><p>通话结束时间。</p></td>
+<td><p>呼叫结束时间。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerPool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>呼叫方池 FQDN。</p></td>
+<td><p>nvarchar （256）</p></td>
+<td><p>呼叫者池 FQDN。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleePool</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>被调用池 FQDN。</p></td>
+<td><p>nvarchar （256）</p></td>
+<td><p>被叫方池 FQDN。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerPAI</p></td>
 <td><p>nvarchar （450）</p></td>
-<td><p>调用方的 p 声明标识 URI。</p></td>
+<td><p>呼叫者的 p 已断言标识 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleePAI</p></td>
 <td><p>nvarchar （450）</p></td>
-<td><p>被调用方的 p 声明标识 URI。</p></td>
+<td><p>被叫方的 p 已断言标识 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>调用方的终结点名称。</p></td>
+<td><p>nvarchar （256）</p></td>
+<td><p>呼叫者的终结点名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeEndpoint</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>调用方的终结点名称。</p></td>
+<td><p>nvarchar （256）</p></td>
+<td><p>呼叫者的终结点名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>呼叫方的用户代理字符串。</p></td>
+<td><p>nvarchar （256）</p></td>
+<td><p>呼叫者的用户代理字符串。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>呼叫方的用户代理的类型。 有关详细信息，请参阅<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
+<td><p>呼叫者的用户代理类型。 有关详细信息，请参阅<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgentCategory</p></td>
-<td><p>nvarchar （64）</p></td>
-<td><p>呼叫者的用户代理类别。 有关详细信息，请参阅<a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表（QoE）</a> 。</p></td>
+<td><p>nvarchar (64)</p></td>
+<td><p>呼叫者的用户代理的类别。 有关详细信息，请参阅<a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表（QoE）</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>被呼叫方的用户代理字符串。</p></td>
+<td><p>nvarchar （256）</p></td>
+<td><p>被叫方的用户代理字符串。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>被呼叫方的用户代理类型。 有关详细信息，请参阅<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
+<td><p>被叫方的用户代理的类型。 有关详细信息，请参阅<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgentCategory</p></td>
-<td><p>nvarchar （64）</p></td>
-<td><p>被呼叫方的用户代理类别。 有关详细信息，请参阅<a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表（QoE）</a> 。</p></td>
+<td><p>nvarchar (64)</p></td>
+<td><p>被叫方的用户代理类别。 有关详细信息，请参阅<a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表（QoE）</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerURI</p></td>
 <td><p>nvarchar （450）</p></td>
-<td><p>调用方的 URI。</p></td>
+<td><p>呼叫者的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeURI</p></td>
 <td><p>nvarchar （450）</p></td>
-<td><p>被调用方的 URI。</p></td>
+<td><p>被叫方的 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallPrioirty</p></td>
 <td><p>int</p></td>
-<td><p>通话的优先级。</p></td>
+<td><p>呼叫的优先级。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56539fd8afcfe934aa6a3850ae6869cf08d64802
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7b3e2592c088c03b0a597bf285ae04891d8a07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765080"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051526"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765080"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-Lync Server 2013 具有一组可能复杂的防火墙规则。 计划工具通过生成基于设计器的输入条件来详细定义所有防火墙要求的报表，降低了这种复杂性。 IT 防火墙管理员将能够使用此报告配置和定义所需的规则。
+Lync Server 2013 具有一组可能复杂的防火墙规则。 规划工具通过生成一个报告，该报告根据设计器的输入条件来定义详细说明所有的防火墙要求，从而降低了这种复杂性。 IT 防火墙管理员将可以使用此报告配置和定义所需的规则。
 
-从防火墙管理的角度考虑，应仔细查看此报告以确保与现有防火墙规则没有冲突，并且没有违反任何策略或过程。
+从防火墙管理的角度来看，应仔细检查报告，以确保现有防火墙规则没有冲突，并且没有可能违反的策略或过程。
 
 ![防火墙管理报告](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "防火墙管理报告")
 

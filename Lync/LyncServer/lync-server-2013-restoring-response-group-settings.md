@@ -12,16 +12,16 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64bc766cf970e95ad03be65c490882dd3471955b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1557640fa021faf7313af834eb06f94f1c7432a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733052"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-18_
+_**上次修改的主题：** 2013-02-18_
 
-如果你部署了响应组应用程序，并且需要还原后端服务器或标准版服务器，你还需要还原响应组配置设置。
+如果部署了响应组应用程序，并且需要还原后端服务器或 Standard Edition 服务器，则还需要还原响应组配置设置。
 
 <div>
 

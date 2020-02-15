@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：针对通讯簿管理的新 Set-csclientpolicy
+title: Lync Server 2013： Set-csclientpolicy for Address Book management
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68f6cfa2fde4d1e5a2bc58a36478a60060dd5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f84ef03f782263ed9f82b1667418c907087f5d5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765753"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的通讯簿管理的新 Set-csclientpolicy
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的 Set-csclientpolicy for Address Book management
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765753"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-哪些人可以运行此 cmdlet：默认情况下，授予以下组的成员运行 Set-csclientpolicy cmdlet： RTCUniversalServerAdmins。 若要返回此 cmdlet 已分配到的所有基于角色的访问控制（RBAC）角色的列表（包括你自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：
+谁能运行此 cmdlet：默认情况下，以下各组的成员有权运行 New-CsClientPolicy cmdlet：RTCUniversalServerAdmins。 要返回分配了此 cmdlet 的所有基于角色的访问控制 (RBAC) 角色的列表（包括您自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-Cmdlet Set-csclientpolicy 定义了大量设置，可用于为 Lync Server 2013 中提供的功能设置客户端。 对于通讯簿服务，参数 AddressBookAvailability 是重要的。 此参数直接影响客户端可用的选项，有三种可能的选项：
+Cmdlet Set-csclientpolicy 定义了大量设置，用于为 Lync Server 2013 中提供的功能设置客户端。 对于通讯簿服务，参数 AddressBookAvailability 很重要。 此参数会直接影响可用于客户端的选项，具有三个可能的选项：
 
   - WebSearchAndFileDownload
 
@@ -49,7 +49,7 @@ Cmdlet Set-csclientpolicy 定义了大量设置，可用于为 Lync Server 2013 
 
   - FileDownloadOnly
 
-定义后，它决定了客户端如何访问通讯簿。 如果定义此参数，则必须定义其中一个选项。 如果不修改此设置，则默认 WebSearchAndFileDownload 保持有效。
+在定义此参数时，便确定了客户端访问通讯簿的方式。如果定义此参数，必须定义以上选项之一。如果不修改此设置，则仍将使用默认值 WebSearchAndFileDownload。
 
 例如：
 
@@ -57,10 +57,10 @@ Cmdlet Set-csclientpolicy 定义了大量设置，可用于为 Lync Server 2013 
 
 <div>
 
-## <a name="see-also"></a>另请参阅
+## <a name="see-also"></a>请参阅
 
 
-[New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
+[新 Set-csclientpolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
   
 
 </div>

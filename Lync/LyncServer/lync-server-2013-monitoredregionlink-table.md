@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：MonitoredRegionLink 表
+title: Lync Server 2013： MonitoredRegionLink 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5608aa36a76fe59743ed8bb24e88514822a893e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 521996e17c3827b0d2c7e7796a8e95b73f805a04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765993"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765993"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
-MonitoredRegionLink 表是支持表。 每条记录表示两个国家/地区之间的一个链接。
+MonitoredRegionLink 表是一个支持表格。 每个记录表示两个国家/地区之间的一个链接。
 
 
 <table>
@@ -52,20 +52,20 @@ MonitoredRegionLink 表是支持表。 每条记录表示两个国家/地区之�
 <th><strong>列</strong></th>
 <th><strong>数据类型</strong></th>
 <th><strong>键/索引</strong></th>
-<th><strong>详细信息</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Region1Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>主、外部</p></td>
+<td><p>主、外</p></td>
 <td><p>从<a href="lync-server-2013-region-table.md">Lync Server 2013 中的区域表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Region2Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>主、外部</p></td>
+<td><p>主、外</p></td>
 <td><p>从<a href="lync-server-2013-region-table.md">Lync Server 2013 中的区域表中</a>引用。</p></td>
 </tr>
 </tbody>

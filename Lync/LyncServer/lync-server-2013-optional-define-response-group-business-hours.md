@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：（可选）定义响应组的工作时间
+title: Lync Server 2013：（可选）定义响应组工作时间
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5829ca56c2a06f54ba19064a5b24caad2aa7ed25
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 62fe312c08c639293dbd35623d10b58f3e51fe14
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755766"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>可选在 Lync Server 2013 中定义响应组工作时间
+# <a name="optional-define-response-group-business-hours-in-lync-server-2013"></a>Optional在 Lync Server 2013 中定义响应组工作时间
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755766"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
 <div>
 
@@ -47,7 +47,7 @@ _**主题上次修改时间：** 2012-11-01_
 
 
 > [!TIP]  
-> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息，请参阅<A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">在 Lync server 2013 中创建或修改查寻组工作流</A>或<A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">在 lync Server 2013 中创建或修改交互式工作流</A>。
+> 创建或修改工作流时，可以指定仅适用于该工作流的自定义日程表。 有关详细信息，请参阅<A href="lync-server-2013-create-or-modify-a-hunt-group-workflow.md">在 lync server 2013 中创建或修改智能寻线工作流</A>或<A href="lync-server-2013-create-or-modify-an-interactive-workflow.md">在 lync Server 2013 中创建或修改交互式工作流</A>。
 
 
 
@@ -77,9 +77,9 @@ _**主题上次修改时间：** 2012-11-01_
 
 ## <a name="to-create-a-predefined-business-hours-collection"></a>创建预定义工作时间集合
 
-1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 3.  对于要定义的每个唯一时间范围，请运行：
     
@@ -105,12 +105,12 @@ _**主题上次修改时间：** 2012-11-01_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中创建或修改查寻组工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
-[在 Lync Server 2013 中创建或修改互动工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
+[在 Lync Server 2013 中创建或修改智能寻线工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[在 Lync Server 2013 中创建或修改交互式工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[新-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
-[新-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
+[新 CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/New-CsRgsTimeRange)  
+[新 CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoursOfBusiness)  
   
 
 </div>

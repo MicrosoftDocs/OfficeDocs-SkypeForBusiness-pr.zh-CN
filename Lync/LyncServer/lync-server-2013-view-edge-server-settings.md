@@ -12,16 +12,16 @@ ms:contentKeyID: 63969612
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eaab70f2f6d651d6446aaa4a569277494b7a9ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e978e28ea2c9d64a842c40237f1e5943c30d0a41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738733"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41738733"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-05-20_
+_**上次修改的主题：** 2014-05-20_
 
-应对照配置管理数据库中的数据检查常规边缘服务器配置，以帮助确保按照定义的更改控制过程记录所有更改。
+应对照配置管理数据库中的数据检查常规边缘服务器配置，以帮助确保根据定义的更改控制过程记录所有更改。
 
-其他检查可能包含以下部分中介绍的内容：
+其他检查可能包含以下各节所述的内容：
 
 <div>
 
-## <a name="verify-the-allow-and-block-lists"></a>验证允许和阻止列表
+## <a name="verify-the-allow-and-block-lists"></a>验证允许和阻止名单
 
 验证联盟域的 SIP URI "Allow" 和 "Block" 列表，以确定列出的命名空间是否仍然有效。
 
-你可以使用 Windows PowerShell 查看允许和阻止的列表。 若要查看 "允许的域" 列表中的域，请运行以下 Windows PowerShell 命令：
+您可以使用 Windows PowerShell 查看允许和阻止的列表。 若要查看 "允许的域" 列表中的域，请运行以下 Windows PowerShell 命令：
 
 `Get-CsAllowedDomain`
 
@@ -57,29 +57,29 @@ _**主题上次修改时间：** 2014-05-20_
 
 域： contoso.com
 
-ProxyFqdn :
+ProxyFqdn
 
-备注
+注释
 
 MarkForMonitoring： False
 
-备注
+注释
 
-若要查看 "阻止的域" 列表中的域，请使用以下命令：
+若要查看阻止的域列表中的域，请使用以下命令：
 
 `Get-CsBlockedDomain`
 
-然后，你将收到有关每个被阻止域的以下信息：
+反过来，你将收到有关每个被阻止的域的信息，例如：
 
 标识： tailspintoys.com
 
 域： tailspintoys.com
 
-Windows PowerShell 还允许你验证是否可以连接到 "允许的域" 列表中的域。 例如，此命令将验证 Edge 服务器（TargetFqdn）与联盟域 contoso.com 之间的连接：
+Windows PowerShell 还允许您验证是否可以连接到允许的域列表中的域。 例如，以下命令将验证您的边缘服务器（TargetFqdn）与联盟域 contoso.com 之间的连接：
 
 `Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"`
 
-此命令将验证你的 Edge 服务器与你的允许域列表上的所有域之间的连接：
+此命令将验证您的边缘服务器与您在允许的域列表中找到的所有域之间的连接：
 
 `Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Domain}`
 
@@ -89,9 +89,9 @@ Windows PowerShell 还允许你验证是否可以连接到 "允许的域" 列表
 
 ## <a name="verify-multiple-edge-servers-are-identical"></a>验证多个边缘服务器是否相同
 
-如果多个边缘服务器部署在负载平衡的数组中，我们建议验证阵列中的所有边缘服务器是否以相同的方式进行配置。
+如果在负载平衡阵列中部署多台边缘服务器，我们建议验证是否以相同方式配置了阵列中的所有边缘服务器。
 
-可以在 "计算机管理" 管理单元的 Lync Server 2013 扩展的详细信息窗格中查看边缘服务器的设置。
+您可以在 "计算机管理" 管理单元的 Lync Server 2013 扩展的详细信息窗格中查看边缘服务器的设置。
 
 </div>
 

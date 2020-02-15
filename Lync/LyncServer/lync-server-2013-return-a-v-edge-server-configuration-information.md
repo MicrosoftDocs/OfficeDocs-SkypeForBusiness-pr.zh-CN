@@ -12,20 +12,20 @@ ms:contentKeyID: 49733783
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ea7d7ed1ef74c092dac60ecfb2f009219564455
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0d301febef9454a6f43362c245324b019aa60ea1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733072"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>返回 Lync Server 2013 中的 A/V 边缘服务器配置信息
+# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a>在 Lync Server 2013 中返回 A/V 边缘服务器配置信息
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41733072"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-A/V 边缘服务为内部用户（登录到你的组织网络的用户）提供一种方法，以便与外部用户（未登录到你的组织网络的用户）共享音频和视频。 A/V 边缘服务主要通过使用 A/V 边缘配置设置进行管理，可在网站范围或在服务范围内配置的设置（即，可针对单个 A/V 边缘服务器进行配置）。
+A/V 边缘服务为您的内部用户（已登录到您的组织网络的用户）提供一种与外部用户（未登录到您的组织网络的用户）共享音频和视频的方法。A/V 边缘服务主要通过使用 A/V 边缘配置设置进行管理，即可在站点范围或服务范围进行配置（也就是，可以针对个别 A/V 边缘服务器进行配置）的设置。
 
-若要返回有关在你的组织中使用的 A/V 边缘配置设置的信息，必须使用 Windows PowerShell 和 CsAVEdgeConfiguration cmdlet。 有关详细信息，请参阅[CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) cmdlet 的帮助主题。
+若要返回有关组织中使用的 A/V 边缘配置设置的信息，必须使用 Windows PowerShell 和 CsAVEdgeConfiguration cmdlet。 有关详细信息，请参阅[CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) cmdlet 的帮助主题。
 
-从 CsAVEdgeConfiguration cmdlet 返回的信息将如下所示：
+从 Get-CsAVEdgeConfiguration cmdlet 返回的信息将看起来与以下类似：
 
     Identity              : Global
     MaxTokenLifetime      : 08:00:00
@@ -52,7 +52,7 @@ A/V 边缘服务为内部用户（登录到你的组织网络的用户）提供�
 
 ## <a name="to-return-information-for-all-your-av-edge-configuration-settings"></a>返回所有 A/V 边缘配置设置的信息
 
-  - 以下命令将返回你的组织中当前使用的所有 A/V 边缘配置设置的相关信息：
+  - 以下命令会返回有关您的组织中使用的所有 A/V 边缘配置设置的信息：
     
         Get-CsAVEdgeConfiguration
 
@@ -60,9 +60,9 @@ A/V 边缘服务为内部用户（登录到你的组织网络的用户）提供�
 
 <div>
 
-## <a name="to-return-information-for-site-scoped-av-edge-configuration-settings"></a>返回网站范围的 A/V 边缘配置设置的信息
+## <a name="to-return-information-for-site-scoped-av-edge-configuration-settings"></a>返回网站范围内的 A/V 边缘配置设置的信息
 
-  - 若要返回有关 A/V 边缘配置设置的特定集合的信息，请在运行 CsAVEdgeConfiguration cmdlet 时指定该集合的标识。 例如，此命令仅返回对雷德蒙站点应用的设置的信息：
+  - 要返回有关特定的 A/V 边缘配置设置集合的信息，请在运行 Get-CsAVEdgeConfiguration cmdlet 时指定该集合的 Identity。例如，以下命令仅返回应用到 Redmond 站点的设置的信息：
     
         Get-CsAVEdgeConfiguration -Identity "site:Redmond"
 
@@ -70,9 +70,9 @@ A/V 边缘服务为内部用户（登录到你的组织网络的用户）提供�
 
 <div>
 
-## <a name="to-return-information-for-service-scoped-av-edge-configuration-settings"></a>返回有关服务范围的 A/V 边缘配置设置的信息
+## <a name="to-return-information-for-service-scoped-av-edge-configuration-settings"></a>返回服务范围的 A/V 边缘配置设置的信息
 
-  - 此命令仅为应用了特定的 A/V 边缘服务器的设置返回信息：
+  - 以下命令仅返回应用到特定 A/V 边缘服务器的设置的信息：
     
         Get-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com"
 

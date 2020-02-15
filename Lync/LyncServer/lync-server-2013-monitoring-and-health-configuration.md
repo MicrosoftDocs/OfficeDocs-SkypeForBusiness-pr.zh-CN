@@ -12,20 +12,20 @@ ms:contentKeyID: 48183383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99b554b419a1f0b672caac867a1e3d4caabdae1e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91d8826a777e8e5f59ffda8cf1004c10c8cc6437
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765983"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a>Lync Server 2013 中的监视和运行状况配置
+# <a name="monitoring-and-health-configuration-in-lync-server-2013"></a>Lync Server 2013 中的监控和运行状况配置
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765983"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-22_
+_**上次修改的主题：** 2013-02-22_
 
-本部分中的主题提供了可在 Lync Server 2013 控制面板和 Lync Server 2013 管理外壳程序中执行的监视和运行状况配置任务的分步过程。
+本节中的主题提供了在 Lync Server 2013 控制面板和 Lync Server 2013 命令行管理程序中可以执行的监视和运行状况配置任务的分步过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的呼叫详细记录（CDR）](lync-server-2013-call-detail-recording-cdr.md)
+  - [Lync Server 2013 中的呼叫详细信息记录（CDR）](lync-server-2013-call-detail-recording-cdr.md)
 
   - [Lync Server 2013 中的体验质量（QoE）](lync-server-2013-quality-of-experience-qoe.md)
 
-  - [在 Lync Server 2013 中监视移动性能](lync-server-2013-monitoring-mobility-for-performance.md)
+  - [在 Lync Server 2013 中监视移动性以提高性能](lync-server-2013-monitoring-mobility-for-performance.md)
 
-  - [在 Lync Server 2013 中使用监视报告](lync-server-2013-using-monitoring-reports.md)
+  - [在 Lync Server 2013 中使用监控报告](lync-server-2013-using-monitoring-reports.md)
 
 </div>
 
