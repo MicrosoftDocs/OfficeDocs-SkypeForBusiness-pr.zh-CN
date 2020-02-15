@@ -12,16 +12,16 @@ ms:contentKeyID: 48183443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df800b1670226d90deee6921d0c0514cbfdcee14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d5b006c14932e011fc0921c2f0a92933515e5bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728712"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028523"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41728712"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-03-22_
+_**上次修改的主题：** 2013-03-22_
 
-本部分介绍如何将自定义功能添加到 Lync 2013。
+本节介绍如何将自定义功能添加到 Lync 2013。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中配置媒体端口范围设置](lync-server-2013-configuring-media-port-range-settings.md)
 
-  - [在 Lync Server 2013 中将命令添加到 Lync 菜单](lync-server-2013-adding-commands-to-lync-menus.md)
+  - [在 Lync Server 2013 中向 Lync 菜单添加命令](lync-server-2013-adding-commands-to-lync-menus.md)
 
   - [将第三方协作应用程序与 Lync Server 2013 集成](lync-server-2013-integrating-a-third-party-collaboration-application-with-lync.md)
 

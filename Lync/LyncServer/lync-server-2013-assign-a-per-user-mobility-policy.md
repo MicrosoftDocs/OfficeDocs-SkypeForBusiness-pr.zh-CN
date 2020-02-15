@@ -12,12 +12,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20b5929959e87f4a39c69ab09f7836a471e16b66
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1014bce74e0e7dcd789c9b2948c029f4b40ecb9a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722842"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030135"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户移动策略
 
@@ -26,13 +26,13 @@ ms.locfileid: "41722842"
 
 移动策略是您可以在 Lync Server 控制面板或 Lync Server 命令行管理程序中配置的用户帐户的个人设置之一。
 
-## <a name="to-assign-a-per-user-mobility-policy-with-lync-server-control-panel"></a>使用 Lync Server "控制面板" 分配每用户移动策略
+## <a name="to-assign-a-per-user-mobility-policy-with-lync-server-control-panel"></a>使用 Lync Server 控制面板分配每用户移动策略
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左导航栏中，单击“用户”****。
+3.  在左侧导航栏中，单击“用户”****。
 
 4.  使用下列方法之一查找用户：
     
@@ -61,20 +61,20 @@ ms.locfileid: "41722842"
     
 
     > [!TIP]  
-    > 如果希望同一每用户移动策略应用于多个用户，请在搜索结果中选择 "多个用户"，然后单击 "<STRONG>操作</STRONG>"，然后单击 "<STRONG>分配策略</STRONG>"。
+    > 如果要将相同的每用户移动策略应用于多个用户，请在搜索结果中选择 "多个用户"，然后单击 "<STRONG>操作</STRONG>"，然后单击 "<STRONG>分配策略</STRONG>"。
 
 
 
-7.  在 "**分配策略**" 下的 "**移动策略**" 下，执行下列操作之一：
+7.  在 "**分配策略**" 中的 "**移动策略**" 下，执行下列操作之一：
     
 
     > [!NOTE]  
-    > 由于有多个策略可在 "<STRONG>分配策略</STRONG>" 中进行配置，因此默认情况下为对话框中的每个策略选中 " <STRONG> &lt;保持&gt; </STRONG>原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于可以在 "<STRONG>分配策略</STRONG>" 中配置多个策略，因此默认情况下将为对话框中的每个策略选择 " <STRONG> &lt;保持为&gt; </STRONG> "。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
 
     
-      - 选择** \<"\>自动**" 允许 Lync Server 2013 自动选择全局级别策略，或选择 "网站级别策略" （如果已定义）。
+      - 选择** \<"\>自动**" 以允许 Lync Server 2013 自动选择全局级别策略或网站级别策略（如果已定义）。
     
-      - 单击你之前在**移动策略**页面上定义的每用户移动策略的名称。
+      - 单击先前在**移动策略**页上定义的每用户移动性策略的名称。
         
 
         > [!TIP]  
@@ -86,27 +86,27 @@ ms.locfileid: "41722842"
 
 ## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户移动策略
 
-你可以使用 Windows PowerShell 和**CsMobilityPolicy** cmdlet 分配每用户移动策略。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和**set-csmobilitypolicy** cmdlet 分配每用户移动性策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
-## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>将每用户移动策略分配给单个用户
+## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>向单个用户分配每用户移动策略
 
   - 以下命令将每用户移动策略 RedmondMobilityPolicy 分配给用户 Ken Myer。
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName "RedmondMobilityPolicy"
 
-## <a name="to-assign-a-per-user-mobility-policy-to-multiple-users"></a>将每用户移动策略分配给多个用户
+## <a name="to-assign-a-per-user-mobility-policy-to-multiple-users"></a>为多个用户分配每用户移动策略
 
-  - 以下命令将每用户移动策略 RedmondMobilityPolicy 分配给当前分配了该策略 NorthAmericaMobilityPolicy 的所有用户。 有关此命令中使用的筛选器参数的详细信息，请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\))。
+  - 以下命令将每用户移动策略 RedmondMobilityPolicy 分配给当前分配了 policy NorthAmericaMobilityPolicy 的所有用户。 有关此命令中使用的 Filter 参数的详细信息，请参阅[get-csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\))。
     
         Get-CsUser -Filter {MobilityPolicy -eq "NorthAmericaMobilityPolicy"} | Grant-CsMobilityPolicy -PolicyName "RedmondMobilityPolicy"
 
 ## <a name="to-unassign-a-per-user-mobility-policy"></a>取消分配每用户移动策略
 
-  - 以下命令取消之前分配给 Ken Myer 的任何每用户移动策略。 取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果存在）管理 Ken Myer。 站点策略优先于全局策略。
+  - 以下命令取消分配之前分配给 Ken Myer 的任何每用户移动性策略。 取消分配每用户策略后，将使用全局策略或其本地站点策略（如果存在）自动管理 Ken Myer。 站点策略优先于全局策略。
     
         Grant-CsMobilityPolicy -Identity "Ken Myer" -PolicyName $Null
 
-有关详细信息，请参阅[授权-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/hh690038\(v=ocs.15\))。
+有关详细信息，请参阅[set-csmobilitypolicy](https://technet.microsoft.com/library/hh690038\(v=ocs.15\))。
 
 ## <a name="see-also"></a>另请参阅
 

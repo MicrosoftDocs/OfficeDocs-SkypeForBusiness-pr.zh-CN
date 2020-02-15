@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：QoE 表的列表
+title: Lync Server 2013： QoE 表的列表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3161415b65c8e85ace7968ab29d86c0d0c5387a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b15cab5a39e74cbbc1813fb9d4f5ce56d777408
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765390"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033751"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="list-of-qoe-tables-in-lync-server-2013"></a>Lync Server 2013 中 QoE 表的列表
+# <a name="list-of-qoe-tables-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 表的列表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765390"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
-数据库架构由下表组成。
+数据库架构由以下表组成。
 
 **支持表**
 
@@ -49,34 +49,34 @@ _**主题上次修改时间：** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>表格</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>说明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-appsharingmetricsthreshold-table.md">Lync Server 2013 中的 AppSharingMetricsThreshold 表</a></p></td>
-<td><p>存储用于应用程序共享的体验质量指标的最佳值和可接受值。</p></td>
+<td><p>存储用于应用程序共享的用户体验质量指标的最佳值和可接受值。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 中的 CodecDescription 表</a></p></td>
-<td><p>将唯一的编解码器标识符映射到相应的编解码器。</p></td>
+<td><p>将唯一的编解码器标识符映射到其对应的编解码器。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 IPAddress 表</a></p></td>
-<td><p>将 IP 地址映射到 "体验质量" 数据库中其他位置使用的唯一 IP 地址标识符。</p></td>
+<td><p>将 IP 地址映射到在用户体验质量数据库中使用的唯一 IP 地址标识符。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-networkconnectiondetail-table.md">Lync Server 2013 中的 NetworkConnectionDetail 表</a></p></td>
-<td><p>将网络连接类型映射到 "体验质量" 数据库中其他位置使用的网络连接标识符。</p></td>
+<td><p>将网络连接类型映射到在用户体验质量数据库中的其他位置使用的网络连接标识符。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Lync Server 2013 中的 PurgeSettings 表（QoE）</a></p></td>
-<td><p>存储用于指定是否会自动从 QoE 数据库中删除过时的体验记录质量的信息。</p></td>
+<td><p>存储指定是否（以及何时）将从 QoE 数据库中自动删除过期的用户体验质量记录的信息。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-traceroute-table.md">Lync Server 2013 中的 TraceRoute 表</a></p></td>
-<td><p>存储呼叫的路由信息。</p></td>
+<td><p>存储用于呼叫的路由信息。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表（QoE）</a></p></td>
@@ -84,18 +84,18 @@ _**主题上次修改时间：** 2012-10-02_
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videometricsthreshold-table.md">Lync Server 2013 中的 VideoMetricsThreshold 表</a></p></td>
-<td><p>存储与视频通话一起使用的体验质量指标的最佳和可接受的值。</p></td>
+<td><p>存储用于视频呼叫的用户体验质量指标的最佳值和可接受值。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a></p></td>
-<td><p>存储会话初始协议（SIP）用户代理（UA）字符串和音频和视频会话中使用的 UA 类型。</p></td>
+<td><p>存储音频和视频会话中使用的会话初始协议 (SIP) 用户代理 (UA) 字符串和 UA 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-user-table.md">Lync Server 2013 中的 User 表</a></p></td>
-<td><p>存储在音频和视频会话中使用的用户、会议和电话 Uri。</p></td>
+<td><p><a href="lync-server-2013-user-table.md">Lync Server 2013 中的用户表</a></p></td>
+<td><p>存储音频和视频会话中使用的用户、会议和电话 URI。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的 Endpoint 表</a></p></td>
+<td><p><a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表</a></p></td>
 <td><p>存储参与音频和视频会话的终结点的 FQDN 计算机名称。</p></td>
 </tr>
 <tr class="even">
@@ -103,16 +103,16 @@ _**主题上次修改时间：** 2012-10-02_
 <td><p>存储指标数据所属的池的名称。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-device-table.md">Lync Server 2013 中的 Device 表</a></p></td>
-<td><p>存储捕获设备和呈现在音频/视频呼叫中使用的设备。</p></td>
+<td><p><a href="lync-server-2013-device-table.md">Lync Server 2013 中的设备表</a></p></td>
+<td><p>存储用于音频/视频呼叫的捕获设备和呈现设备。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-devicedriver-table.md">Lync Server 2013 中的 DeviceDriver 表</a></p></td>
-<td><p>存储用于音频/视频通话的捕获设备和呈现设备的驱动程序。</p></td>
+<td><p>存储用于音频/视频呼叫的捕获设备和呈现设备的驱动程序。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-conference-table.md">Lync Server 2013 中的 Conference 表</a></p></td>
-<td><p>存储适用于其他方案的会议方案或 DialogID 的会议 Uri。</p></td>
+<td><p><a href="lync-server-2013-conference-table.md">Lync Server 2013 中的会议表</a></p></td>
+<td><p>存储会议方案的会议 URI 或其他方案的 DialogID。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-sessioncorrelation-table.md">Lync Server 2013 中的 SessionCorrelation 表</a></p></td>
@@ -120,47 +120,47 @@ _**主题上次修改时间：** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 中的 PayloadDescription 表</a></p></td>
-<td><p>存储用于音频/视频通话的编解码器。</p></td>
+<td><p>存储用于音频/视频呼叫的编解码器。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-appliedbandwidthsource-table.md">Lync Server 2013 中的 AppliedBandwidthSource 表</a></p></td>
-<td><p>存储音频/视频通话中使用的带宽源。</p></td>
+<td><p>存储用于音频/视频呼叫的带宽源。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-macaddress-table.md">Lync Server 2013 中的 MacAddress 表</a></p></td>
 <td><p>存储参与音频和视频会话的终结点的 MAC 地址。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-dialog-table.md">Lync Server 2013 中的 Dialog 表</a></p></td>
-<td><p>存储音频和视频会话的对话框 ID。</p></td>
+<td><p><a href="lync-server-2013-dialog-table.md">Lync Server 2013 中的对话框表</a></p></td>
+<td><p>存储音频和视频会话的对话 ID。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013 中的 Region 表</a></p></td>
-<td><p>存储在 NCS 设置中定义的网络区域。</p></td>
+<td><p><a href="lync-server-2013-region-table.md">Lync Server 2013 中的区域表</a></p></td>
+<td><p>存储 NCS 设置中定义的网络区域。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-usersite-table.md">Lync Server 2013 中的 UserSite 表</a></p></td>
-<td><p>存储在 NCS 设置中定义的 network 网站。</p></td>
+<td><p>存储 NCS 设置中定义的网络站点。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-subnet-table.md">Lync Server 2013 中的 Subnet 表</a></p></td>
-<td><p>存储在 NCS 设置中定义的子网。</p></td>
+<td><p><a href="lync-server-2013-subnet-table.md">Lync Server 2013 中的子网表</a></p></td>
+<td><p>存储 NCS 设置中定义的子网。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-monitoredregionlink-table.md">Lync Server 2013 中的 MonitoredRegionLink 表</a></p></td>
-<td><p>存储在 NCS 设置中定义的区域链接。</p></td>
+<td><p>存储 NCS 设置中定义的区域链接。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="monitoredusersitelink-table.md">MonitoredUserSiteLink 表</a></p></td>
-<td><p>存储在 NCS 设置中定义的网络网站链接。</p></td>
+<td><p>存储 NCS 设置中定义的网络站点链接。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-endpointsubnet-table.md">Lync Server 2013 中的 EndpointSubnet 表</a></p></td>
 <td><p>存储参与音频和视频会话的终结点的子网。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-server-table.md">Lync Server 2013 中的 Server  表</a></p></td>
-<td><p>存储媒体所经历的服务器的 FQDN 或 IP 地址。</p></td>
+<td><p><a href="lync-server-2013-server-table.md">Lync Server 2013 中的服务器表</a></p></td>
+<td><p>存储媒体通过的服务器的 FQDN 或 IP 地址。</p></td>
 </tr>
 </tbody>
 </table>
@@ -176,22 +176,22 @@ _**主题上次修改时间：** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>表格</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>说明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-appsharingstream-table.md">Lync Server 2013 中的 AppSharingStream 表</a></p></td>
-<td><p>存储用于应用程序共享的网络流的体验质量指标。 用于应用程序共享的网络流的体验质量指标。</p></td>
+<td><p>存储用于应用程序共享的网络流的用户体验质量指标。用于应用程序共享的网络流的用户体验质量指标。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-session-table.md">Lync Server 2013 中的 Session 表</a></p></td>
-<td><p>存储有关音频或音频/视频会话的整体信息。 会话在两个终结点之间定义为音频或视频 SIP 对话框。</p></td>
+<td><p><a href="lync-server-2013-session-table.md">Lync Server 2013 中的会话表</a></p></td>
+<td><p>存储有关音频或音频/视频会话的总体信息。 会话定义为两个终结点之间的音频或视频 SIP 对话。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a></p></td>
-<td><p>存储有关会话中每个媒体行的信息。 媒体线是一个或多个音频和视频流的集合。 通常，单个媒体线路将有两个流，即音频或视频。</p></td>
+<td><p>存储有关会话中每个媒体行的信息。媒体行是一个或多个音频和视频流的集合。通常，一个媒体行具有两个流：音频或视频。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-audiostream-table.md">Lync Server 2013 中的 AudioStream 表</a></p></td>
@@ -199,19 +199,19 @@ _**主题上次修改时间：** 2012-10-02_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-audiosignal-table.md">Lync Server 2013 中的 AudioSignal 表</a></p></td>
-<td><p>将音频媒体质量指标存储在媒体行中。 这包括音频回声取消（AEC）和自动增益控制（AGC）指标。</p></td>
+<td><p>存储媒体行中的音频媒体质量指标。 其中包括回声抑制 (AEC) 和自动增益控制 (AGC) 指标。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videostream-table.md">Lync Server 2013 中的 VideoStream 表</a></p></td>
-<td><p>存储媒体行中每个音频流的视频媒体质量指标。</p></td>
+<td><p>存储媒体行中的每个音频流的视频媒体质量指标。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-audioclientevent-table.md">Lync Server 2013 中的 AudioClientEvent 表</a></p></td>
-<td><p>存储从客户端事件收集的音频媒体质量指标。</p></td>
+<td><p>存储从客户端事件中收集的音频媒体质量指标。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videoclientevent-table.md">Lync Server 2013 中的 VideoClientEvent 表</a></p></td>
-<td><p>存储从客户端事件收集的视频媒体质量指标。</p></td>
+<td><p>存储从客户端事件中收集的视频媒体质量指标。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DiagnosticData 表</strong></p></td>
@@ -221,7 +221,7 @@ _**主题上次修改时间：** 2012-10-02_
 </table>
 
 
-**汇总数据表**
+**摘要数据表**
 
 
 <table>
@@ -231,28 +231,28 @@ _**主题上次修改时间：** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>表格</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>说明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ServerSummary 表</strong></p></td>
-<td><p>存储服务器的汇总数据，这些数据仅用于体验质量（QoE）报告。</p></td>
+<td><p>存储服务器的摘要数据，这些数据仅用于用户体验质量 (QoE) 报告。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSummary 表</strong></p></td>
-<td><p>存储用户的汇总数据，这些数据仅用于 QoE 报告。</p></td>
+<td><p>存储用户的摘要数据，这些数据仅用于 QoE 报告。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallTypeSummary 表</strong></p></td>
-<td><p>存储通话类型的汇总数据，这些数据仅用于 QoE 报告。</p></td>
+<td><p>存储呼叫类型的摘要数据，这些数据仅用于 QoE 报告。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**监视服务器供内部使用的表**
+**供监控服务器内部使用的表**
 
 
 <table>
@@ -262,7 +262,7 @@ _**主题上次修改时间：** 2012-10-02_
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>表格</strong></th>
+<th><strong>Table</strong></th>
 <th><strong>说明</strong></th>
 </tr>
 </thead>
@@ -276,7 +276,7 @@ _**主题上次修改时间：** 2012-10-02_
 <td><p>仅供内部使用。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>前端表</strong></p></td>
+<td><p><strong>FrontEnd 表</strong></p></td>
 <td><p>仅供内部使用。</p></td>
 </tr>
 <tr class="even">
@@ -304,7 +304,7 @@ _**主题上次修改时间：** 2012-10-02_
 <td><p>仅供内部使用。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>时区</strong></p></td>
+<td><p><strong>TimeZones</strong></p></td>
 <td><p>仅供内部使用。</p></td>
 </tr>
 <tr class="odd">
@@ -316,7 +316,7 @@ _**主题上次修改时间：** 2012-10-02_
 <td><p>仅供内部使用。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>租户表</strong></p></td>
+<td><p><strong>Tenant 表</strong></p></td>
 <td><p>仅供内部使用。</p></td>
 </tr>
 <tr class="even">

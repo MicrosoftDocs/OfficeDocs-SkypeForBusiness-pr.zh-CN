@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：删除体验配置设置的质量
+title: Lync Server 2013：删除体验质量配置设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bef2a59243d065f74c09dd4bc5c3aeb6a4451bbd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf0a313e80674a7eefd57320a5a30a9dd999fc81
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734192"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029233"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41734192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-用户体验质量 (QoE) 指标跟踪组织中发出的语音和视频呼叫的质量，包括网络数据包丢失数目、背景噪音、"抖动"量（数据包延迟的差异）等。这些指标与其他数据（如呼叫详细信息记录）分开存储在一个数据库中，这样您就可以独立于其他数据记录启用和禁用 QoE。
+用户体验质量 (QoE) 指标跟踪组织中发出的语音和视频呼叫的质量，包括网络数据包丢失数目、背景噪音、“抖动”量（数据包延迟的差异）等。这些指标与其他数据（如呼叫详细信息记录）分开存储在一个数据库中，这样您就可以独立于其他数据记录启用和禁用 QoE。
 
-安装 Microsoft Lync Server 2013 时，将为你创建一个 QoE 配置设置的单个全局集合。 管理员还可以选择可应用于各个站点的自定义设置集合。 根据设计，在站点作用域配置的设置优先于在全局作用域配置的设置。 如果您删除站点作用域设置，则将通过使用全局设置在该站点管理 QoE。
+安装 Microsoft Lync Server 2013 时，将为您创建一个 QoE 配置设置的单一全局集合。 管理员还可以选择创建可应用于各个站点的自定义设置集合。 根据设计，在站点作用域配置的设置优先于在全局作用域配置的设置。 如果您删除站点作用域设置，则将通过使用全局设置在该站点管理 QoE。
 
 请注意，您还可以“删除”全局设置。但将不会实际删除全局设置。不过，该集合中的所有属性将重置为其默认值。例如，在 QoE 配置设置的集合中启用了默认清除功能。假定您修改了全局集合，这样就会禁用清除功能。如果稍后删除全局设置，则会将这些属性全部重置为其默认值。在这种情况下，这意味着又重新启用清除功能。
 
-你可以使用 Lync Server 控制面板或使用[CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsQoEConfiguration) Cmdlet 删除 QoE 配置设置。
+您可以使用 Lync Server 控制面板或使用[new-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsQoEConfiguration) Cmdlet 删除 QoE 配置设置。
 
 <div>
 
-## <a name="to-delete-qoe-configuration-settings-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 删除 QoE 配置设置
+## <a name="to-delete-qoe-configuration-settings-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板删除 QoE 配置设置
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击“**监控和存档**”，然后单击“**用户体验质量数据**”。
+3.  在左侧导航栏中，单击“监控和存档”****，然后单击“用户体验质量数据”****。
 
-4.  在“**用户体验质量数据**”上，单击所需的策略，单击“**编辑**”，然后单击“**删除**”。
+4.  在“用户体验质量数据”**** 上，单击所需的策略，单击“编辑”****，然后单击“删除”****。
 
-5.  单击“**确定**”。
+5.  单击“确定”****。
 
 </div>
 
@@ -65,7 +65,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 删除 QoE 配置设置
 
-你可以使用 Windows PowerShell 和**CsQoEConfiguration** Cmdlet 删除 QoE 配置设置。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和**new-csqoeconfiguration** Cmdlet 删除 QoE 配置设置。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
@@ -97,7 +97,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[Remove-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsQoEConfiguration)。
+有关详细信息，请参阅[new-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsQoEConfiguration)。
 
 </div>
 

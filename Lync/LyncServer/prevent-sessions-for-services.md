@@ -12,16 +12,16 @@ ms:contentKeyID: 49733642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8fb96fef5a01f9b25ca954dd27d1bdfd1f7055
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d936a063d5ce634a50b4ba4567f51473bf363612
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727322"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035848"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41727322"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-04_
+_**上次修改的主题：** 2012-10-04_
 
-你可以使用 Microsoft Lync Server 2010 控制面板阻止在特定计算机上运行的所有 Lync Server 2010 服务的新会话或阻止特定 Lync Server 2010 服务的新会话。
+您可以使用 Microsoft Lync Server 2010 控制面板阻止在特定计算机上运行的所有 Lync Server 2010 服务的新会话或阻止特定 Lync Server 2010 服务的新会话。
 
 <div>
 
 ## <a name="to-prevent-new-sessions-for-all-lync-server-services-on-a-computer"></a>阻止计算机上所有 Lync Server 服务的新会话
 
-1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
 2.  打开“Lync Server 控制面板”。
 
-3.  在左侧导航栏中，单击 "**拓扑**"，然后单击 "**状态**"。
+3.  在左侧导航栏中，单击“拓扑”****，然后单击“状态”****。
 
-4.  在 "**状态**" 页面上，根据需要对列表进行排序或搜索以查找运行要阻止新会话的服务的计算机，然后单击该计算机。
+4.  在“状态”**** 页上，根据需要对列表进行排序或搜索，以查找正在运行要对其阻止新会话的服务的计算机，然后单击该计算机。
 
-5.  单击 "**操作**"。
+5.  单击“操作”****。
 
-6.  单击 "**阻止所有服务的新会话**"。
+6.  单击“阻止所有服务的新会话”****。
 
 </div>
 
@@ -61,21 +61,21 @@ _**主题上次修改时间：** 2012-10-04_
 
 ## <a name="to-prevent-new-sessions-for-a-specific-service"></a>阻止特定服务的新会话
 
-1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
 2.  打开“Lync Server 控制面板”。
 
-3.  在左侧导航栏中，单击 "**拓扑**"，然后单击 "**状态**"。
+3.  在左侧导航栏中，单击“拓扑”****，然后单击“状态”****。
 
-4.  在 "**状态**" 页面上，根据需要对列表进行排序或搜索以查找运行要启动或停止的服务的计算机，然后单击它。
+4.  在“状态”**** 页上，根据需要对列表进行排序或搜索列表，以查找正在运行要启动或停止的服务的计算机，然后单击该计算机。
 
-5.  单击 "**属性**"。
+5.  单击“属性”****。
 
-6.  对服务列表进行排序（如有必要），然后单击要阻止新会话的服务。
+6.  如有必要，对服务列表进行排序，然后单击要对其阻止新会话的服务。
 
-7.  单击 "**操作**"。
+7.  单击“操作”****。
 
-8.  单击 "**阻止新的服务会话**"。
+8.  单击“阻止服务的新会话”****。
 
 9.  单击“关闭”****。
 

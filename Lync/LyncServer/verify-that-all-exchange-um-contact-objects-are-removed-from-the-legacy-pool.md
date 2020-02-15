@@ -12,16 +12,16 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e49aa2fdef3731a34de05e04b8195cb8aa32cd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79183039cedc058d479d52fa80ce09a70ffd73b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730842"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036300"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41730842"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-26_
+_**上次修改的主题：** 2012-09-26_
 
-使用**OCSUmUtil**工具或**CsExumContact** cmdlet 验证 Exchange UM 联系人对象是否已从旧版 Office 通信服务器 2007 R2 池中删除。 **OCSUmUtil**位于以下文件夹中：
+使用**ocsumutil.exe**工具或**CsExumContact** cmdlet 验证 Exchange UM contact 对象是否已从旧版 Office 通信服务器 2007 R2 池中删除。 **OCSUmUtil** 位于以下文件夹中：
 
-% 程序文件%\\常用文件\\% Lync Server\\2013\\支持 OcsUMUtil
+% Program Files%\\常用文件\\Lync Server 2013\\支持\\ocsumutil.exe
 
-**OCSUmUtil**必须从具有以下内容的用户帐户运行：
+**OCSUmUtil** 必须从具有以下权限的用户帐户运行：
 
   - RTCUniversalServerAdmins 和 RTCUniversalUserAdmins 组中的成员身份（包括读取 Exchange Server 统一消息设置的权限）
 
-  - 在指定的组织单位（OU）容器中创建联系人对象的域权限
+  - 在指定的组织单位 (OU) 容器中创建联系对象的域权限
 
-有关使用**CsExumContact** cmdlet 的详细信息，请参阅 Lync Server Management Shell 文档中的[CsExumContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 。
+有关使用**CsExumContact** cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档中的[CsExumContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) 。
 
 </div>
 

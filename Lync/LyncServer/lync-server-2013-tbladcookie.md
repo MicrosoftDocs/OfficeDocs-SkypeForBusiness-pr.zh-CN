@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblADCookie
+title: Lync Server 2013： tblADCookie
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b1b5096c087661bf5afadd2668d6d1bb7ac8330
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1f733397483693ad4c18418f3e82b9f99cfa640f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731562"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731562"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-25_
+_**上次修改的主题：** 2012-06-25_
 
-tblADCookie 包含当前的轻型目录访问协议（LDAP）同步 cookie。
+tblADCookie 包含当前轻型目录访问协议 (LDAP) 同步 Cookie。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,34 +57,34 @@ tblADCookie 包含当前的轻型目录访问协议（LDAP）同步 cookie。
 <tbody>
 <tr class="odd">
 <td><p>prinGuid</p></td>
-<td><p>GUID，not null</p></td>
-<td><p>正在监视的域的主体 GUID。</p></td>
+<td><p>GUID，不为 null</p></td>
+<td><p>要监控的域的主体 GUID。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDCHost</p></td>
-<td><p>nvarchar （255）</p></td>
-<td><p>用于 Active Directory 域服务同步的当前域控制器的完全限定的域名（FQDN）。有信息值。</p></td>
+<td><p>nvarchar (255)</p></td>
+<td><p>用于 Active Directory 域服务同步的当前域控制器的完全限定的域名（FQDN）。具有信息性值。</p></td>
 </tr>
 <tr class="odd">
 <td><p>adcContent</p></td>
-<td><p>图像（二进制）</p></td>
-<td><p>Active Directory 同步 cookie。</p></td>
+<td><p>image (binary)</p></td>
+<td><p>Active Directory 同步 Cookie。</p></td>
 </tr>
 <tr class="even">
 <td><p>lastUpdated</p></td>
 <td><p>datetime</p></td>
-<td><p>带有行更新时间的时间戳。</p></td>
+<td><p>具有行更新时间的时间戳。</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockedUntil</p></td>
 <td><p>datetime</p></td>
-<td><p>对行进行更改锁定的时间。 这是一种软件互操作机制的一部分，可确保每次只有一个聊天服务执行 Active Directory 同步。</p></td>
+<td><p>为更改锁定行的截止时间。此时间是软件联锁机制的一部分，可确保一次仅使其中一个聊天服务执行 Active Directory 同步。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>标示
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -104,7 +104,7 @@ tblADCookie 包含当前的轻型目录访问协议（LDAP）同步 cookie。
 </tr>
 <tr class="even">
 <td><p>prinGuid</p></td>
-<td><p>PrinGuid 表中的 lookup 的外键。</p></td>
+<td><p>其查找包含在 Principal.prinGuid 表中的外键。</p></td>
 </tr>
 </tbody>
 </table>

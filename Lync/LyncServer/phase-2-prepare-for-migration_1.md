@@ -1,5 +1,5 @@
 ---
-title: 第 2 阶段：准备迁移
+title: 第2阶段：准备迁移
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9303c1a1b394216dfaed4adf826edf665fbd0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc1007da4b793c837c937d572366ea64230050e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757686"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>第 2 阶段：准备迁移
+# <a name="phase-2-prepare-for-migration"></a>第2阶段：准备迁移
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757686"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-24_
+_**上次修改的主题：** 2012-08-24_
 
-开始从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013 之前，请按照本部分中所述的步骤进行操作。
+在开始从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013 之前，请按照本节中介绍的步骤进行操作。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [应用 Office 通信服务器 2007 R2 更新](apply-office-communications-server-2007-r2-updates.md)
 
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2012-08-24_
 
   - [配置客户端以进行迁移](configure-clients-for-migration_1.md)
 
-  - [验证 Office Communications Server 2007 R2 环境](verify-office-communications-server-2007-r2-environment.md)
+  - [验证 Office 通信服务器 2007 R2 环境](verify-office-communications-server-2007-r2-environment.md)
 
 </div>
 

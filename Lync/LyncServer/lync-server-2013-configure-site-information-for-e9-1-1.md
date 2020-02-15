@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：为 E9 配置网站信息-1-1
+title: Lync Server 2013：配置 E9-1-1 的站点信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157054343b299e7be1be75d3ee615c27cf74fb83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f39760dde02ab573111642d5ec888a321184b41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730002"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中配置 E9-1 的网站信息
+# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中为 E9-1-1 配置网站信息
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730002"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-03_
+_**上次修改的主题：** 2012-10-03_
 
-若要定义子网的位置策略，必须按任意顺序执行下列操作：
+要为子网定义位置策略，必须执行以下操作（可按任何顺序）：
 
-  - 将位置策略应用于网络网站。
+  - 将位置策略应用于网络站点。
 
   - 将子网添加到网络站点。
 
-有关网络站点的详细信息，请参阅[lync server 的 Lync server 网站 2013](lync-server-2013-sites.md)。
+有关网络站点的详细信息，请参阅 lync [server sites For Lync server 2013](lync-server-2013-sites.md)。
 
 <div>
 
 
 > [!NOTE]  
-> 如果为另一种语音功能创建了网络站点，并且想要使用相同的网站配置 E9-1，则可以修改用于 E9 的网站。
+> 如果为其他语音功能创建网络站点，并要使用相同的站点配置 E9-1-1，则可以修改要用于 E9-1-1 的站点。
 
 
 
@@ -57,11 +57,11 @@ _**主题上次修改时间：** 2012-10-03_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中将位置策略添加到网络网站](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [在 Lync Server 2013 中向网络站点添加位置策略](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [在 Lync Server 2013 中将子网与网络站点相关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [在 Lync Server 2013 中将子网与网络站点关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

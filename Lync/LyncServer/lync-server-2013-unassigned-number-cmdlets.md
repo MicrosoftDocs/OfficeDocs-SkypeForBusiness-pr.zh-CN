@@ -12,16 +12,16 @@ ms:contentKeyID: 48184065
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f928958c976d2849d3ea8d6afd899315fe25e8da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e3dc86689bd79a8efd8831f3b7028fb1f8dcc34f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744842"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,48 +35,48 @@ ms.locfileid: "41744842"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-03-21_
+_**上次修改的主题：** 2012-03-21_
 
-未分配号码是属于某个组织但尚未分配给用户或电话的电话号码。 在对这些号码进行呼叫时，可将未分配的号码配置为播放各种类型的公告。
+未分配号码是指属于组织但尚未分配给用户或电话的电话号码。可以对未分配号码进行配置，以在对这些号码发出呼叫时播放各种类型的通知。
 
 <div>
 
-## <a name="unassigned-number-cmdlets"></a>未分配的号码 Cmdlet
+## <a name="unassigned-number-cmdlets"></a>未分配号码 Cmdlet
 
-以下 cmdlet 可用于管理未分配的号码。
+以下 cmdlet 可用于管理未分配号码。
 
 **未分配号码**
 
   - <span></span>  
-    [Get-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))
+    [CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))
 
   - <span></span>  
-    [New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))
+    [新 CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))
+    [CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))
+    [CsUnassignedNumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))
+    [CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))
 
   - <span></span>  
-    [新-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))
+    [新 CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))
+    [CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))
+    [CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Import-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))
+    [Import-CsAnnouncementFile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))
 
 </div>
 

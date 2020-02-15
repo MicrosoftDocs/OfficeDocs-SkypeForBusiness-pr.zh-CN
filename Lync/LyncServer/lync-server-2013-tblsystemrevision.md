@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblSystemRevision
+title: Lync Server 2013： tblSystemRevision
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 834ee6650e6bedfe76b1e46943f05e0aa713095d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cf06b283221202943399f71ecf7b19224d29a3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764052"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
-tblSystemRevision 包含与 tblAdminLock 表一起使用的修订号，以实现多个管理员客户端之间的一致性。
+tblSystemRevision 包含用于在多个管理员客户端之间实现一致性的 tblAdminLock 表使用的修订号。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,8 +57,8 @@ tblSystemRevision 包含与 tblAdminLock 表一起使用的修订号，以实现
 <tbody>
 <tr class="odd">
 <td><p>sysRevision</p></td>
-<td><p>bigint，not null</p></td>
-<td><p>修订号。</p></td>
+<td><p>bigint，不为 null</p></td>
+<td><p>修订次数。</p></td>
 </tr>
 </tbody>
 </table>

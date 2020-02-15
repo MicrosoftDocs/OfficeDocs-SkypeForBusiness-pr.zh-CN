@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：为用户启用组呼叫装货并分配组号码
+title: Lync Server 2013：为用户启用组呼叫应答并分配组号码
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5ad9bbc6f5505e5778872a568bdbc80b3f7bf91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c541d5a82becf253ebbbb2bbab6d1c69e9fb7016
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729392"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>为 Lync Server 2013 中的用户启用组呼叫装货和分配组号码
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>为 Lync Server 2013 中的用户启用组内呼叫应答并分配组号码
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729392"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-01-30_
+_**上次修改的主题：** 2013-01-30_
 
-将呼叫装货组编号添加到 "呼叫驻留" 轨道表之后，您可以为用户分配组号码并为其启用组呼叫装货。 使用辅助扩展功能激活（SEFAUtil）资源工具包工具分配组号码并启用组呼叫装货。
+将呼叫应答组号码添加到呼叫寄存通道表之后，将组号码分配给用户并为其启用组呼叫应答。 使用辅助扩展功能激活（SEFAUtil）资源工具包工具分配组号码并启用组呼叫应答。
 
 <div>
 
 
 > [!NOTE]  
-> 在混合部署中，不要向处于联机状态的用户分配组呼叫装货组。 处于联机状态的用户不能参与组呼叫装货。 也就是说，他们的呼叫无法由其他用户应答，他们也无法应答对其他用户的呼叫。
+> 在混合部署中，不要向驻留在线的用户分配组呼叫应答组。 联机托管的用户不能参与组内呼叫应答。 也就是说，其他用户无法应答其呼叫，也不能应答其他用户的呼叫。
 
 
 
@@ -51,15 +51,15 @@ _**主题上次修改时间：** 2013-01-30_
 
 <div>
 
-## <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>分配组号码并为用户启用组呼叫装货
+## <a name="to-assign-a-group-number-and-enable-group-call-pickup-for-a-user"></a>为用户分配组号码并启用组呼叫应答
 
-1.  使用管理员权限登录安装了 SEFAUtil 工具的计算机。
+1.  使用管理员权限登录到安装了 SEFAUtil 工具的计算机。
 
-2.  在该命令行处，运行：
+2.  在命令行中运行：
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    例如，将组号码 199 分配给用户：
+    例如，若要将组号199分配给用户，请执行以下操作：
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199 
 
@@ -70,7 +70,7 @@ _**主题上次修改时间：** 2013-01-30_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中禁用用户的组呼叫装货](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[在 Lync Server 2013 中为用户禁用组呼叫装货](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

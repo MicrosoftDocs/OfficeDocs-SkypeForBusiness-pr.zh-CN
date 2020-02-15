@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：计划组呼叫装货
+title: Lync Server 2013：规划组间电话取货
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c815e49b1fb60c43e93963c21b3b44c57ff31ae0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 10dbaf1842533830411b94476c988629e17aa291
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725366"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-group-call-pickup-in-lync-server-2013"></a>在 Lync Server 2013 中规划组呼叫装货
+# <a name="planning-for-group-call-pickup-in-lync-server-2013"></a>在 Lync Server 2013 中规划组内呼叫应答
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41725366"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-01_
+_**上次修改的主题：** 2013-02-01_
 
-Lync Server 2013 的累积更新：2月2013将组呼叫挑选引入为新的企业语音功能。 组呼叫分拣允许用户通过拨打呼叫装货组号码来接听另一个用户拨打的电话。 本部分包括特定于组呼叫装货的规划信息。
+Lync Server 2013 的累积更新：2月2013将组呼叫应答引入为新的企业语音功能。 组内呼叫应答允许用户通过拨打呼叫应答组号码来接听其他用户拨打的电话。 本节包含特定于组的呼叫应答的规划信息。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的组呼叫装货概述](lync-server-2013-overview-of-group-call-pickup.md)
+  - [Lync Server 2013 中的组内呼叫装货概述](lync-server-2013-overview-of-group-call-pickup.md)
 
-  - [Lync Server 2013 中的组呼叫装货使用的组件](lync-server-2013-components-used-by-group-call-pickup.md)
+  - [由 Lync Server 2013 中的组呼叫应答使用的组件](lync-server-2013-components-used-by-group-call-pickup.md)
 
-  - [Lync Server 2013 中组呼叫装货的技术要求](lync-server-2013-technical-requirements-for-group-call-pickup.md)
+  - [Lync Server 2013 中组内呼叫应答的技术要求](lync-server-2013-technical-requirements-for-group-call-pickup.md)
 
-  - [Lync Server 2013 中的组呼叫挑选支持的客户端](lync-server-2013-clients-supported-for-group-call-pickup.md)
+  - [Lync Server 2013 中的组呼叫应答支持的客户端](lync-server-2013-clients-supported-for-group-call-pickup.md)
 
-  - [Lync Server 2013 中的组呼叫装货的部署过程](lync-server-2013-deployment-process-for-group-call-pickup.md)
+  - [Lync Server 2013 中组呼叫应答的部署过程](lync-server-2013-deployment-process-for-group-call-pickup.md)
 
 </div>
 
