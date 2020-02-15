@@ -12,16 +12,16 @@ ms:contentKeyID: 48185508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85f6e19f3aa74c09a522e737d1223095f17d7c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4daeb3ea88570afaf9fc90c0e252466be67ed192
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725392"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41725392"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-为了获得 Lync Server 2013 中的最佳灾难恢复能力，请跨两个地理位置分散的网站部署前端池对。 每个网站都包含一个与另一个网站中的对应前端池配对的前端池。 两个网站都处于活动状态，并且 Lync Server 备份服务提供实时数据复制以保持池同步。 备份服务是 Lync Server 2013 中的一项新功能，旨在支持灾难恢复解决方案。 当您将池与另一个前端池配对时，它将安装在前端池。
+为了在 Lync Server 2013 中获取最佳的灾难恢复能力，请跨两个地理位置分散的网站部署前端池的对。 每个站点包含一个前端池，该池与另一个站点中的相应前端池配对。 这两个站点都处于活动状态，并且 Lync Server 备份服务提供实时数据复制以保持池同步。 备份服务是 Lync Server 2013 中的一项新功能，旨在支持灾难恢复解决方案。 当您将该前端池与另一个前端池配对时，会将该服务安装到该池上。
 
-如果某个网站中的池出现故障，则可以将用户从该池中故障转移到另一个网站中的池，然后在两个池中的所有用户提供服务。 对于容量规划，每个池都应设计为在发生灾难时处理两个池中所有用户的工作负荷。
+如果某个站点中的池失败，则您可以将用户从该前端池故障转移到另一个站点中的池，然后可向两个池中的所有用户提供服务。出于容量规划目的，每个池应设计为在发生灾难时处理两个池中所有用户的工作负荷。
 
 <div>
 
 ## <a name="in-this-section"></a>本节内容
 
-  - [支持 Lync Server 2013 的池配对选项和最佳做法](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+  - [Lync Server 2013 的受支持的池配对选项和最佳做法](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
   - [Lync Server 2013 中的备份注册器关系](lync-server-2013-backup-registrar-relationships.md)
 
-  - [Lync Server 2013 中的池故障转移和池故障回复的恢复时间](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
+  - [Lync Server 2013 中池故障转移和池故障回复的恢复时间](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
 
   - [Lync Server 2013 中的中央管理存储故障转移](lync-server-2013-central-management-store-failover.md)
 
-  - [Lync Server 2013 中的前端池配对数据安全](lync-server-2013-front-end-pool-pairing-data-security.md)
+  - [Lync Server 2013 中的前端池配对数据安全性](lync-server-2013-front-end-pool-pairing-data-security.md)
 
 </div>
 

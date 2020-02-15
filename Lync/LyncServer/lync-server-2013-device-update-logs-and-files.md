@@ -12,16 +12,16 @@ ms:contentKeyID: 51804004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 170bafb3d00940995e8355c7775681c2af5fd078
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a4ae3508e3fb8e09e4fe60b19b3ccd480ea4099
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762390"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031256"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762390"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-20_
+_**上次修改的主题：** 2013-02-20_
 
-设备更新日志包含可用于管理设备更新 Web 服务和解决设备更新 Web 服务的重要信息。 你可以更改记录的内容，并删除不需要或不再需要的设备日志和更新。 本部分介绍如何使用 Lync Server 控制面板或 Lync Server Management Shell 修改日志记录设置、清除设备更新日志或从服务器中删除日志文件。
+设备更新日志包含可用于管理设备更新 Web 服务并对其进行故障排除的重要信息。 您可以更改记录的内容，并删除不需要或不再需要的设备日志和更新。 本节介绍如何使用 Lync Server 控制面板或 Lync Server 命令行管理程序修改日志记录设置、清除设备更新日志或删除服务器中的日志文件。
 
 <div>
 
 
 > [!NOTE]  
-> 有关设备更新日志文件的详细信息，请参阅 Lync Server 2010 TechNet 库中的<A href="http://technet.microsoft.com/en-us/library/gg398250(v=ocs.14).aspx">日志文件类型和位置</A>。 （请注意，设备更新 Web 服务（如所有 Lync Phone 版组件）的工作方式与 lync server 2013 相同，与 Lync Server 2010 相同。）
+> 有关设备更新日志文件的详细信息，请参阅 Lync Server 2010 TechNet 库中的<A href="http://technet.microsoft.com/library/gg398250(v=ocs.14).aspx">日志文件类型和位置</A>。 （请注意，与 lync Server 2010 一样，设备更新 Web 服务（如所有 Lync Phone Edition 组件）的工作方式与 lync server 2013 相同。
 
 
 
@@ -51,13 +51,13 @@ _**主题上次修改时间：** 2013-02-20_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中修改设备更新日志文件的设置](lync-server-2013-modify-settings-for-device-update-log-files.md)
 
-  - [删除 Lync Server 2013 中的设备更新日志文件](lync-server-2013-delete-device-update-log-files.md)
+  - [在 Lync Server 2013 中删除设备更新日志文件](lync-server-2013-delete-device-update-log-files.md)
 
-  - [删除与 Lync Server 2013 中未与设备关联的 "删除设备更新" 文件中未与设备关联的设备更新文件](lync-server-2013-remove-device-update-files-not-associated-with-a-device.md)
+  - [删除与 Lync Server 2013 中与设备不关联的删除设备更新文件中未与设备关联的设备更新文件](lync-server-2013-remove-device-update-files-not-associated-with-a-device.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56d594f0bf6e393545f4a7c29785b5f66b328bdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03bd3cfa6099d45cbad2d15ed164652756f50f5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758096"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758096"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-10-02_
+_**上次修改的主题：** 2013-10-02_
 
-若要创建会议会议室对象，请首先创建一个 Active Directory 用户帐户来表示该设备。 然后，使用**CsMeetingRoom** cmdlet 使该帐户能够充当会议设备。 如果需要更改现有会议设备的属性，请使用**CsMeetingRoom** cmdlet。
+若要创建会议会议室对象，请首先创建一个 Active Directory 用户帐户来代表该设备。 然后，使用**disable-csmeetingroom** cmdlet 启用该帐户充当会议设备。 如果您需要更改现有会议设备的属性，请使用**disable-csmeetingroom** cmdlet。
 
-这些 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。
+这些 cmdlet 可从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话中运行。
 
 <div>
 
 
 > [!NOTE]  
-> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。
+> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 
 
@@ -58,7 +58,7 @@ _**主题上次修改时间：** 2013-10-02_
 
 ## <a name="creating-a-conferencing-device"></a>创建会议设备
 
-  - 在创建表示新会议设备的 Active Directory 用户帐户后，通过使用**enable-CsMeetingRoom** cmdlet 启用它。 请确保包含 a）会议设备标识，b）房间帐户将托管的注册机构池，c）要分配给该帐户的 SIP 地址。 例如：
+  - 在创建代表新会议设备的 Active Directory 用户帐户后，通过使用**disable-csmeetingroom** cmdlet 启用它。 请务必包括 a）会议设备标识 b）会议室帐户将托管的注册器池和 c）要分配给该帐户的 SIP 地址。 例如：
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -68,13 +68,13 @@ _**主题上次修改时间：** 2013-10-02_
 
 ## <a name="modifying-a-conferencing-device"></a>修改会议设备
 
-  - 若要修改现有会议设备的属性值，请使用**CsMeetingRoom** cmdlet。 例如，以下命令将更新与会议设备相关联的电话号码（LineUri）：
+  - 若要修改现有会议设备的属性值，请使用**disable-csmeetingroom** cmdlet。 例如，以下命令将更新与会议设备关联的电话号码（LineUri）：
     
         Set-CsMeetingRoom -Identity "Redmond Conferencing device" -LineUri "tel:+12065551219"
 
 </div>
 
-有关详细信息，请参阅[Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 和[CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) cmdlet 的帮助主题。
+有关详细信息，请参阅[Enable-disable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) Cmdlet 和[Disable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Set-CsMeetingRoom) cmdlet 的帮助主题。
 
 </div>
 

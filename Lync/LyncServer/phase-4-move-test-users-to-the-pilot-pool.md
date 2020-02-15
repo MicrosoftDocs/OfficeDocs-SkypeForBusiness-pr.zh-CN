@@ -1,5 +1,5 @@
 ---
-title: 第4阶段：将测试用户移动到试验池
+title: 第4阶段：将测试用户移动到引导池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184208
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c6f69a46b7f2f0b4cdcc1d6e20b0bdc68bfd82b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34f047338c2699febb21f9c3b0992035fba9e841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765723"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034262"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>第4阶段：将测试用户移动到试验池
+# <a name="phase-4-move-test-users-to-the-pilot-pool"></a>第4阶段：将测试用户移动到引导池
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765723"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-26_
+_**上次修改的主题：** 2012-09-26_
 
-你可以使用以下两种方法将单个用户或用户组移动到新的 Microsoft Lync Server 2013 部署： Lync Server 控制面板和 Lync Server 命令行管理程序。 本部分中的主题介绍了您必须在试点部署期间完成的任务，以及将 Lync Server 2013 的部署从试验部署迁移到生产级部署之前。
+您可以使用以下两种方法将单个用户或用户组移动到新的 Microsoft Lync Server 2013 部署中： Lync Server 控制面板和 Lync Server 命令行管理程序。 本节中的主题介绍在试点部署过程中必须完成的任务以及在将 Lync Server 2013 的部署从试点部署迁移到生产级部署之前必须完成的任务。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [查看 Lync Server 2010 池中的当前用户](view-current-users-in-lync-server-2010-pool.md)
+  - [在 Lync Server 2010 池中查看当前用户](view-current-users-in-lync-server-2010-pool.md)
 
-  - [确认用户复制已完成](verify-user-replication-has-completed.md)
+  - [验证用户复制已完成](verify-user-replication-has-completed.md)
 
-  - [将单个用户移动到 "引导" 池](move-a-single-user-to-the-pilot-pool.md)
+  - [将单个用户移动到引导池](move-a-single-user-to-the-pilot-pool.md)
 
-  - [将多个用户移动到 "引导" 池](move-multiple-users-to-the-pilot-pool.md)
+  - [将多个用户移动到引导池](move-multiple-users-to-the-pilot-pool.md)
 
 </div>
 

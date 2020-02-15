@@ -12,20 +12,20 @@ ms:contentKeyID: 51541534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcd995a99514fa54a221e17f1ea556565cbebdcb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3ff23a228710ecc934e2984f27c63351ccf6d32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729612"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030946"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>Deploy the SEFAUtil tool in Lync Server 2013
+# <a name="deploy-the-sefautil-tool-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SEFAUtil 工具
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41729612"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-01-30_
+_**上次修改的主题：** 2013-01-30_
 
-若要部署和管理组呼叫装货，需要使用 SEFAUtil 资源工具包工具。 该工具是 Lync Server 2013 资源工具包工具的一部分。 在安装 SEFAUtil 之前，你必须在拓扑中拥有受信任的应用程序池，将 SEFAUtil 指定为受信任的应用程序，并启用拓扑。
+若要部署和管理组呼叫应答，您需要使用 SEFAUtil 资源工具包工具。 该工具是 Lync Server 2013 资源工具包工具的一部分。 在安装 SEFAUtil 之前，您的拓扑中必须有一个受信任的应用程序池，将 SEFAUtil 指定为受信任的应用程序，并启用拓扑。
 
 <div>
 
 
 > [!IMPORTANT]  
-> Microsoft 统一通信托管 API (UCMA) 3.0 核心 SDK 必须安装在您计划运行 SEFAUtil 工具的任何计算机上。
+> Microsoft 统一通信托管 API （UCMA）3.0 核心 SDK 必须安装在您计划运行 SEFAUtil 工具的任何计算机上。
 
 
 
 </div>
 
-你可以在部署中的任何前端池中运行 SEFAUtil。
+您可以在部署中的任何前端池中运行 SEFAUtil。
 
 <div>
 
 
 > [!NOTE]  
-> 有关运行 SEFAUtil 的更多详细信息，请参阅 Technet 博客文章 "如何获取 SEFAutil 运行？" <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>。
+> 有关运行 SEFAUtil 的更多详细信息，请参阅 Technet 博客文章 "how to get SEFAutil 正在运行吗？" at <A href="http://go.microsoft.com/fwlink/?linkid=278940">http://go.microsoft.com/fwlink/?LinkId=278940</A>。
 
 
 
@@ -65,15 +65,15 @@ _**主题上次修改时间：** 2013-01-30_
 
 ## <a name="to-deploy-sefautil"></a>部署 SEFAUtil
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机，如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  SEFAUtil 工具只能在属于受信任应用程序池的一部分的计算机上运行。 如果需要，请为计划运行 SEFAUtil 的前端池定义受信任的应用程序池。 在命令行中运行：
+3.  SEFAUtil 工具只能在属于受信任应用程序池一部分的计算机上运行。 如果需要，请为计划运行 SEFAUtil 的前端池定义受信任的应用程序池。 在命令行中运行：
     
         New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
 
-4.  将 SEFAUtil 工具定义为受信任应用程序。在命令行中运行：
+4.  将 SEFAUtil 工具定义为受信任的应用程序。 在命令行中运行：
     
         New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
     
@@ -81,31 +81,31 @@ _**主题上次修改时间：** 2013-01-30_
     
 
     > [!NOTE]  
-    > 如有需要，您可以使用其他端口。
+    > 如果需要，可以使用其他端口。
 
     
     </div>
 
-5.  启用包含您的更改的拓扑。在命令行中运行：
+5.  使用您的更改启用拓扑。 在命令行中运行：
     
         Enable-CsTopology
 
-6.  在您在步骤3中创建的受信任的应用程序池中的前端服务器上安装 Lync Server 2013 资源工具包工具。
+6.  在您在步骤3中创建的受信任应用程序池中的前端服务器上安装 Lync Server 2013 资源工具包工具。
 
 7.  验证 SEFAUtil 工具是否正常运行，如下所示：
     
-    1.  使用管理员权限从 Windows 命令提示符处运行该工具以在您的部署中显示用户的呼叫转接设置。
+    1.  从带有管理员权限的 Windows 命令提示符处运行该工具，以在部署中显示用户的呼叫转接设置。
         
         <div>
         
 
         > [!NOTE]  
-        > 该工具位于 \Program Files\Microsoft Lync Server 2013 \ Reskit。
+        > 该工具位于 \Program Files\Microsoft Lync Server 2013 \ \Reskit。
 
         
         </div>
     
-    2.  显示用户的呼叫转接设置。在命令行中运行：
+    2.  显示用户的呼叫转接设置。 在命令行中运行：
         
             SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
         

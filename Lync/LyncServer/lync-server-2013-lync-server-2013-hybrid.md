@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Lync Server 2013 混合
+title: Lync Server 2013： Lync Server 2013 混合
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 105caa9a892d8bd3c6facca5c768c7e748aec824
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9ae168c2afb115ac3883938124298713af9bb264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742292"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-hybrid"></a>Lync Server 2013 混合部署
+# <a name="lync-server-2013-hybrid"></a>Lync Server 2013 混合
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41742292"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-05-25_
+_**上次修改的主题：** 2016-05-25_
 
-使用 Lync 混合部署，你可以在本地和 Lync Online 中的其他用户共享相同的域。 这可让你在不同地理位置或远程连接的用户向你的组织的用户提供 Lync 服务变得更容易。 你还可以利用 Lync 混合配置作为 Office 365 的迁移路径。
+使用 Lync 混合部署，您可以在本地拥有一些 Lync 用户，并且 Lync Online 中的其他用户都共享同一个域。 这使您可以在不同的地理位置或远程连接的用户中更轻松地为组织的用户提供 Lync 服务。 您还可以利用 Lync 混合配置作为 Office 365 的迁移路径。
 
-本部分介绍 Lync Server 2013 的混合配置。
+本节介绍 Lync Server 2013 的混合配置。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-[Lync Server 2013 的混合部署概述](lync-server-2013-overview-of-hybrid-deployments.md)
+[Lync Server 2013 混合部署概述](lync-server-2013-overview-of-hybrid-deployments.md)
 
 [规划 Lync Server 2013 混合部署](lync-server-2013-planning-for-hybrid-deployments.md)
 
-[为 Lync Server 2013 配置混合部署](lync-server-2013-configuring-hybrid-deployments.md)
+[配置 Lync Server 2013 混合部署](lync-server-2013-configuring-hybrid-deployments.md)
 
 </div>
 

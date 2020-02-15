@@ -1,5 +1,5 @@
 ---
-title: 第5阶段：配置试行池
+title: 第5阶段：配置引导池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3d956d4252d73d2aa1d393917a5b3d72976209
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d337fec0fcb5261e01424f5bcfbad9de07448cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765703"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-configure-the-pilot-pool"></a>第5阶段：配置试行池
+# <a name="phase-5-configure-the-pilot-pool"></a>第5阶段：配置引导池
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765703"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-19_
+_**上次修改的主题：** 2012-10-19_
 
-既然已创建了 "试点" 池，并且旧版部署信息已与 Lync Server 2013 合并，此部分将标识必须对试点池进行的一些配置。
+现在已创建了试点池，并已将旧版部署信息与 Lync Server 2013 进行了合并，这一节确定了必须对试点池进行的几个配置。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [将试点池连接到旧 Edge Server](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [将试点池连接到旧版边缘服务器](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [授权到 Office 通信服务器 2007 R2 Edge 服务器的连接](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [授权与 Office 通信服务器 2007 R2 边缘服务器的连接](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
   - [验证配置设置](verify-configuration-settings_1.md)
 

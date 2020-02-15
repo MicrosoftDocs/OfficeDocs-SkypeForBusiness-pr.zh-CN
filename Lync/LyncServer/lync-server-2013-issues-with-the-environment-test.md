@@ -12,16 +12,16 @@ ms:contentKeyID: 48185970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65803ff396a9615787291de2d728fe63f3350d0b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7d077b22c147dd677a5db68636b2c68bfafcf23
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765340"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765340"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-21_
+_**上次修改的主题：** 2012-09-21_
 
-最佳做法分析器为你提供一种验证 Lync Server 2013 环境是否支持配置的方法。 作为 Active Directory 域服务检查的一部分，最佳做法分析器将执行以下操作：
+最佳实践分析工具提供了一种方法，用于验证 Lync Server 2013 环境是否受支持的配置。 作为 Active Directory 域服务检查的一部分，最佳做法分析器可执行以下操作：
 
   - 验证 Active Directory 域服务林和架构准备。
 
-  - 标识部署中的 Active Directory 域服务站点和域的数量。
+  - 标识部署中 Active Directory 域服务站点和域的数量。
 
   - 检查林和域级别。
 
@@ -49,9 +49,9 @@ _**主题上次修改时间：** 2012-09-21_
 
   - 标识域、配置和架构命名上下文。
 
-  - 标识已启用的用户数。
+  - 标识启用的用户的数量。
 
-  - 检查全局 Active Directory 域服务设置的存储位置。
+  - 检查全局 Active Directory 域服务设置存储的位置。
 
   - 检查 Lync Server 的服务连接点（SCPs）。
 
@@ -59,9 +59,9 @@ _**主题上次修改时间：** 2012-09-21_
 
 <div>
 
-## <a name="resolving-issues-with-the-environment"></a>解决环境中的问题
+## <a name="resolving-issues-with-the-environment"></a>解决环境问题
 
-如果环境测试发现你的环境存在问题，这些问题可能是由于你的 Active Directory 配置或特定服务器上运行的软件级别的问题导致的。 例如，如果最佳做法分析器识别你的环境中运行 Windows Server 2000 的任何域控制器，它将发出警告，并且你需要将这些域控制器升级到受支持的 Windows Server 版本。
+如果环境测试发现您的环境存在问题，则这些问题可能是 Active Directory 配置或特定服务器上运行的软件级别问题造成的。例如，如果最佳做法分析器标识运行 Windows Server 2000 的环境中的任何域控制器，则系统将发出一个警告，且您将需要将这些域控制器升级到受支持的 Windows Server 版本。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbae93a344909139fba3b40e2864ca3b943e77a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 20e2931dc24e96243b2e80eb0abd0cf3b50599ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757526"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,42 +35,42 @@ ms.locfileid: "41757526"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-26_
+_**上次修改的主题：** 2012-06-26_
 
-[CsLegacyUser](https://technet.microsoft.com/en-us/library/Gg413025(v=OCS.15)) cmdlet 提供了一种将用户帐户从 Office 通信服务器2007或 Microsoft lync server 2010 移动到 Microsoft lync server 2013 的方法。 如果需要将用户帐户移动到 "反向" （例如，从 Microsoft Lync Server 2013 到 Microsoft Lync Server 2010），请使用[move-csuser](https://technet.microsoft.com/en-us/library/Gg398528(v=OCS.15)) cmdlet。
+[CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15)) cmdlet 提供了一种将用户帐户从 Office 通信服务器2007或 Microsoft lync server 2010 移动到 Microsoft lync server 2013 的方法。 如果需要将用户帐户 "向后" 移动（例如，从 Microsoft Lync Server 2013 到 Microsoft Lync Server 2010），请使用[get-csuser](https://technet.microsoft.com/library/Gg398528(v=OCS.15)) cmdlet。
 
   - <span></span>  
-    [Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg398418(v=OCS.15))
+    [Import-CsLegacyConferenceDirectory](https://technet.microsoft.com/library/Gg398418(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Import-CsLegacyConfiguration](https://technet.microsoft.com/en-us/library/Gg412923(v=OCS.15))
+    [Import-CsLegacyConfiguration](https://technet.microsoft.com/library/Gg412923(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [合并-CsLegacyTopology](https://technet.microsoft.com/en-us/library/Gg425870(v=OCS.15))
+    [Merge-CsLegacyTopology](https://technet.microsoft.com/library/Gg425870(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsApplicationEndpoint](https://technet.microsoft.com/en-us/library/Gg398188(v=OCS.15))
+    [移动-CsApplicationEndpoint](https://technet.microsoft.com/library/Gg398188(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsLegacyUser](https://technet.microsoft.com/en-us/library/Gg413025(v=OCS.15))
+    [移动-CsLegacyUser](https://technet.microsoft.com/library/Gg413025(v=OCS.15))
 
 <!-- end list -->
 
-  - [Convert-CsUserData](https://technet.microsoft.com/en-us/library/JJ205337(v=OCS.15))
+  - [转换-Export-csuserdata](https://technet.microsoft.com/library/JJ205337(v=OCS.15))
 
-  - [Export-CsUserData](https://technet.microsoft.com/en-us/library/JJ204897(v=OCS.15))
+  - [Export-Export-csuserdata](https://technet.microsoft.com/library/JJ204897(v=OCS.15))
 
-  - [Import-CsUserData](https://technet.microsoft.com/en-us/library/JJ205373(v=OCS.15))
+  - [Import-Export-csuserdata](https://technet.microsoft.com/library/JJ205373(v=OCS.15))
 
-  - [Update-CsUserData](https://technet.microsoft.com/en-us/library/JJ205358(v=OCS.15))
+  - [更新-Export-csuserdata](https://technet.microsoft.com/library/JJ205358(v=OCS.15))
 
 <div>
 

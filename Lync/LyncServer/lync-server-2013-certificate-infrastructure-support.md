@@ -12,16 +12,16 @@ ms:contentKeyID: 48184047
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc8cb5bdad02de4fcb407d7eb27960258a46dd3e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1009fbe40092d9b6e6692ad2bc4d5305d7fbf375
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41736793"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-11-07_
+_**上次修改的主题：** 2013-11-07_
 
-Lync Server 2013 需要一个公钥基础结构（PKI）来支持传输层安全（TLS）和相互 TLS （MTLS）连接。 默认情况下，Lync Server 2013 配置为对客户端到服务器连接使用 TLS。 MTLS 用于服务器之间的连接。
+Lync Server 2013 要求使用公钥基础结构（PKI）来支持传输层安全性（TLS）和相互 TLS （MTLS）连接。 默认情况下，Lync Server 2013 配置为对客户端到服务器连接使用 TLS。 MTLS 用于服务器之间的连接。
 
-MTLS 证书必须由 Lync Server 2013 的受信任的证书颁发机构（Ca）颁发。 Lync 服务器支持从以下 Ca 颁发的证书：
+MTLS 证书必须由适用于 Lync Server 2013 的受信任证书颁发机构（Ca）颁发。 Lync Server 支持从以下 Ca 颁发的证书：
 
-  - 颁发自内部 CA 的证书：
+  - 从内部 CA 颁发的证书：
     
       - Windows Server 2003 操作系统 CA
     
@@ -53,13 +53,13 @@ MTLS 证书必须由 Lync Server 2013 的受信任的证书颁发机构（Ca）�
     
       - Windows Server 2012 R2 操作系统 CA
 
-  - 颁发自公共 CA 的证书
+  - 从公共 CA 颁发的证书
 
-与其他应用程序和服务器（如 Exchange 2013）通信需要其他应用程序和产品支持的证书。 对于2013版本，Lync Server 2013 和其他 Microsoft Server 产品（包括 Exchange 2013 和 SharePoint Server）支持用于服务器到服务器身份验证和授权的开放授权（OAuth）协议。 有关详细信息，请参阅在部署文档或操作文档中[管理 Lync server 2013 中的服务器到服务器身份验证（OAuth）和合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)。
+与其他应用程序和服务器（如 Exchange 2013）的通信需要其他应用程序和产品支持的证书。 对于2013版本，Lync Server 2013 和其他 Microsoft Server 产品（包括 Exchange 2013 和 SharePoint Server）支持用于服务器到服务器身份验证和授权的开放授权（OAuth）协议。 有关详细信息，请参阅部署文档或操作文档中的[管理 Lync server 2013 中的服务器到服务器身份验证（OAuth）和合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)。
 
-对于运行 Windows 7 操作系统、Windows Server 2008 R2 操作系统和 Microsoft Office Communicator 2007 手机版的客户端的连接，Lync Server 2013 包含对（但不需要）使用 SHA-256 签名的（但不需要）证书的支持加密哈希函数。 若要支持使用 SHA-256 的外部访问，外部证书由使用 SHA-256 的公共 CA 颁发。
+对于运行 Windows 7 操作系统、Windows Server 2008 R2 操作系统和 Microsoft Office Communicator 2007 Phone Edition 的客户端的连接，Lync Server 2013 支持使用 SHA-256 对（但不需要）证书进行签名加密哈希函数。 要支持使用 SHA-256 进行外部访问，外部证书必须由公共 CA 使用 SHA-256 颁发。
 
-有关证书要求的详细信息，请参阅规划文档中[Lync Server 2013 的证书基础结构要求](lync-server-2013-certificate-infrastructure-requirements.md)。 有关如何对证书使用通配符的详细信息，请参阅支持文档中的[Lync Server 2013 中的通配符支持](lync-server-2013-wildcard-certificate-support.md)。
+有关证书要求的详细信息，请参阅规划文档中的[Lync Server 2013 的证书基础结构要求](lync-server-2013-certificate-infrastructure-requirements.md)。 有关在证书中使用通配符的详细信息，请参阅可支持性文档中的[Lync Server 2013 中的通配符证书支持](lync-server-2013-wildcard-certificate-support.md)。
 
 </div>
 

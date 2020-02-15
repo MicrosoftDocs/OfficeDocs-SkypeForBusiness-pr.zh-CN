@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：证书摘要-可扩展消息传递和状态协议（XMPP）联合身份验证
+title: Lync Server 2013：证书摘要-可扩展消息传递和状态协议（XMPP）联盟
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7af2c226397c5225fc26f6dbdf40d12a4bdb1ca0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 13d2b80ed223f7779b406615806c1c00fd0fc860
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736622"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031116"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>证书摘要-Lync Server 2013 中的可扩展消息和状态协议（XMPP）联合
+# <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013 中的证书摘要-可扩展消息传递和状态协议（XMPP）联盟
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41736622"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-12-23_
+_**上次修改的主题：** 2012-12-23_
 
-启用和建立与可扩展消息和状态协议（XMPP）合作伙伴的通信的证书要求需要您的 XMPP 域的其他记录。 作为主题备用名称（SAN）包含在证书上的记录将是可参与 XMPP 通信的域。 如果你想要为整个域启用 XMPP，或者可以选择子域（例如 corp.contoso.com，finance.contoso.com），则域可以是根级别的域（例如 contoso.com），如果要为用户的子集启用 XMPP，也可以选择 "子域" （例如、）。
+用于启用并与可扩展消息传递和状态协议 (XMPP) 伙伴建立通信的证书要求需要 XMPP 域的其他记录。作为使用者替代名称 (SAN) 包含在证书上的记录将成为可以参与 XMPP 通信的域。如果要针对整个域启用 XMPP，则该域可以是根级别域（例如，contoso.com），或者如果要针对用户的子集启用 XMPP，该域也可以是选定的子域（例如，corp.contoso.com、finance.contoso.com）。
 
 <div>
 
-## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a>可扩展消息和状态协议的证书摘要
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a>可扩展消息传递和状态协议的证书摘要
 
 
 <table>
@@ -54,9 +54,9 @@ _**主题上次修改时间：** 2012-12-23_
 <thead>
 <tr class="header">
 <th>组件</th>
-<th>主题名称</th>
-<th>使用者备用名称（SAN）/Order</th>
-<th>备注</th>
+<th>使用者名称</th>
+<th>使用者替代名称 (SAN)/顺序</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
@@ -67,7 +67,7 @@ _**主题上次修改时间：** 2012-12-23_
 <p>sip.contoso.com</p>
 <p>sip.fabrikam.com</p>
 <p>contoso.com</p></td>
-<td><p>前三个 SAN 条目是完整边缘服务器的常规 SAN 条目。 Contoso.com 是与根域级别的 XMPP 合作伙伴进行联盟所需的条目。 此条目将允许具有后缀 contoso.com 的所有域的 XMPP。</p></td>
+<td><p>前三个 SAN 条目是完整边缘服务器的常规 SAN 条目。 contoso.com 是在根域级别与 XMPP 合作伙伴联盟所需的条目。 此条目将允许具有后缀 contoso.com 的所有域的 XMPP。</p></td>
 </tr>
 </tbody>
 </table>
@@ -80,15 +80,15 @@ _**主题上次修改时间：** 2012-12-23_
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server 2013 中的示例 XMPP 配置 –  与 Google Talk 的 XMPP 联盟](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+[Lync Server 2013 中的示例 XMPP 配置–与 Google 对话的 XMPP 联盟](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
 
 [在 Lync Server 2013 中规划边缘服务器证书](lync-server-2013-plan-for-edge-server-certificates.md)  
 
 
 [为 Lync Server 2013 设置边缘证书](lync-server-2013-set-up-edge-certificates.md)  
-[请求-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate)  
-[Set-CsCertificate](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
+[请求-Set-cscertificate](https://docs.microsoft.com/powershell/module/skype/Request-CsCertificate)  
+[Set-cscertificate](https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)  
   
 
 </div>

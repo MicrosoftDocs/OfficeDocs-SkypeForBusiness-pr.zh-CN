@@ -12,20 +12,20 @@ ms:contentKeyID: 48185178
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2412dc6af5153d431ff6d75177f405c00138fdaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 85f99cbaf6c2a3b61e6437ec573d7e5800b73b72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744462"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的用户权利和权限 cmdlet
+# <a name="user-rights-and-permissions-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的用户权限和权限 cmdlet
 
 </div>
 
@@ -35,59 +35,59 @@ ms.locfileid: "41744462"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-26_
+_**上次修改的主题：** 2012-06-26_
 
-用户权限 cmdlet 主要用于管理基于角色的访问控制（RBAC），这是用于委派 Microsoft Lync Server 2013 管理控制权的新技术。
+用户权限 cmdlet 主要用于管理基于角色的访问控制（RBAC），这是用于委派 Microsoft Lync Server 2013 的管理控制的新技术。
 
 <div>
 
 ## <a name="user-permission-cmdlets"></a>用户权限 Cmdlet
 
-以下是与管理用户权限直接相关的 cmdlet 的列表：
+以下是与管理用户权限直接相关的 cmdlet 列表：
 
 **用户权限**
 
   - <span></span>  
-    [CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399050(v=OCS.15))
+    [CsAdminRole](https://technet.microsoft.com/library/Gg399050(v=OCS.15))
 
   - <span></span>  
-    [新-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg398271(v=OCS.15))
+    [新 CsAdminRole](https://technet.microsoft.com/library/Gg398271(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg413036(v=OCS.15))
+    [CsAdminRole](https://technet.microsoft.com/library/Gg413036(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAdminRole](https://technet.microsoft.com/en-us/library/Gg399066(v=OCS.15))
+    [CsAdminRole](https://technet.microsoft.com/library/Gg399066(v=OCS.15))
 
   - <span></span>  
-    [Update-CsAdminRole](https://technet.microsoft.com/en-us/library/JJ204851(v=OCS.15))
+    [更新-CsAdminRole](https://technet.microsoft.com/library/JJ204851(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAdminRoleAssignment](https://technet.microsoft.com/en-us/library/Gg398434(v=OCS.15))
+    [CsAdminRoleAssignment](https://technet.microsoft.com/library/Gg398434(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [授权-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg425739(v=OCS.15))
+    [Grant-CsOUPermission](https://technet.microsoft.com/library/Gg425739(v=OCS.15))
 
   - <span></span>  
-    [Revoke-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398977(v=OCS.15))
+    [CsOUPermission](https://technet.microsoft.com/library/Gg398977(v=OCS.15))
 
   - <span></span>  
-    [Test-CsOUPermission](https://technet.microsoft.com/en-us/library/Gg398787(v=OCS.15))
+    [Test-CsOUPermission](https://technet.microsoft.com/library/Gg398787(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [授权-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398569(v=OCS.15))
+    [Grant-CsSetupPermission](https://technet.microsoft.com/library/Gg398569(v=OCS.15))
 
   - <span></span>  
-    [Revoke-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg425834(v=OCS.15))
+    [CsSetupPermission](https://technet.microsoft.com/library/Gg425834(v=OCS.15))
 
   - <span></span>  
-    [Test-CsSetupPermission](https://technet.microsoft.com/en-us/library/Gg398428(v=OCS.15))
+    [Test-CsSetupPermission](https://technet.microsoft.com/library/Gg398428(v=OCS.15))
 
 </div>
 

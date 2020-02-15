@@ -12,16 +12,16 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a969aac4559f02ee7d05f36bece84e40f65aca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1b1b4da0847dcc8242b6b514069d62a718c653f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757416"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757416"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-使用 Lync Server 2013，您可以使用 "设备更新" Web 服务查看和管理您的组织的设备的软件更新。 来自 Microsoft 支持网站的 .cab （cabinet）文件中提供了这些更新[http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)。 下载 .cab 文件后，运行**CSDeviceUpdate** cmdlet 以从 .cab 文件中导入设备更新规则。 有关**CSDeviceUpdate** cmdlet 的详细信息，请参阅 Lync Server Management Shell 文档中的[Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) 。
+使用 Lync Server 2013，可以使用设备更新 Web 服务查看和管理组织设备的软件更新。 来自 Microsoft 支持网站的 .cab （cab）文件中提供了这些更新[http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)。 下载 .cab 文件后，运行**CSDeviceUpdate** cmdlet 将设备更新规则从 .cab 文件中导入。 有关**CSDeviceUpdate** cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档中的[import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) 。
 
 <div>
 
 
 > [!TIP]  
-> 在为你的组织部署新的更新之前，请验证它在测试设备上是否正常工作。
+> 将新的更新部署到组织之前，请验证其在测试设备上是否正常工作。
 
 
 
@@ -53,31 +53,31 @@ _**主题上次修改时间：** 2012-11-01_
 
 ## <a name="to-view-software-updates-for-uc-devices"></a>查看 UC 设备的软件更新
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  从 Microsoft 支持网站中[http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)，将 .cab 文件下载到 Lync Server 2013 计算机上的某个位置（例如，C：\\Updates\\UCUpdates）。
+2.  在处[http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)的 Microsoft 支持网站中，将 .cab 文件下载到 Lync Server 2013 计算机上的某个位置（例如，C：\\Updates\\为 ucupdates-r2.）。
 
-3.  通过运行以下 cmdlet 之一，从 C：\\Updates\\UCUpdates 文件中导入设备更新规则：
+3.  通过运行以下 cmdlet 之一，从 C：\\Updates\\为 ucupdates-r2. 文件中导入设备更新规则：
     
-      - 如果 .cab 文件与运行要更新的服务的同一台计算机（服务： Redmond-websvc）位于同一台计算机上，请运行以下 cmdlet：
+      - 如果 .cab 文件位于运行要更新的服务 (service:Redmond-websvc-2) 的计算机上，请运行以下 cmdlet：
         
             Import-CsDeviceUpdate -Identity service:Redmond-websvc-2 -FileName C:\Updates\UCUpdates.cab
     
-      - 如果 .cab 文件所在的计算机不同于运行要更新的服务的计算机（服务： Redmond-websvc），请运行以下 cmdlet：
+      - 如果 .cab 文件不在运行要更新的服务 (service:Redmond-websvc-3) 的计算机上，请运行以下 cmdlet：
         
             Import-CsDeviceUpdate -Identity service:Redmond-websvc-3 -ByteInput C:\Updates\UCUpdates.cab
 
-4.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+4.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-5.  在左侧导航栏中，单击 "**客户端**"，然后单击 "**设备更新**"。
+5.  在左侧导航栏中，单击 **“客户端”**，然后单击 **“设备更新”**。
 
-6.  在 "**设备更新**" 页面上，单击列表中的更新，然后执行下列操作之一：
+6.  在 **“设备更新”** 页上，单击列表中的更新，然后执行下列操作之一：
     
-      - **取消待处理的更新。** 若要阻止所选更新部署到你的组织的设备，请单击 "**操作**" 菜单，然后单击 "**取消挂起的更新**"。
+      - **取消待处理的更新。** 要阻止将所选更新部署到组织的设备，请单击 **“操作”** 菜单，然后单击 **“取消待处理的更新”**。
     
-      - **批准更新。** 若要允许将所选更新部署到你的组织的设备，请单击 "**操作**" 菜单，然后单击 "**批准**"。
+      - **批准更新。** 要允许将所选更新部署到组织的设备，请单击 **“操作”** 菜单，然后单击 **“批准”**。
     
-      - **还原更新。** 若要允许将以前批准的更新部署到你的组织的设备，请单击 "**操作**" 菜单，然后单击 "**还原**"。
+      - **还原更新。** 要允许将先前批准的更新部署到组织的设备，请单击 **“操作”** 菜单，然后单击 **“还原”**。
 
 </div>
 

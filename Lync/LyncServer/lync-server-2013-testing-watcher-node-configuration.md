@@ -12,16 +12,16 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 920fc39d3800f83a2d40a613c391b2f0c93e4dac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a8d0fe8500bd676ef1a9a33c9197dfeac7783c10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745262"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745262"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-11-03_
+_**上次修改的主题：** 2014-11-03_
 
 
 <table>
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2014-11-03_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要权限</p></td>
-<td><p>当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行<strong>CsWatcherNodeConfiguration</strong> cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<td><p>所需的权限</p></td>
+<td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行<strong>new-cswatchernodeconfiguration</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot; Test-CsWatcherNodeConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**主题上次修改时间：** 2014-11-03_
 
 ## <a name="description"></a>说明
 
-如果您使用 Microsoft System Center Operations Manager 监视 Lync Server 2013，则可以选择设置 "观察程序节点"：定期和自动运行综合事务以验证 Lync 服务器是否正常工作的计算机要求. 观察程序节点分配给池，并且通过使用**CsWatcherNodeConfiguration** cmdlet 进行管理。 请注意，如果使用 System Center Operations Manager，则不需要安装观察程序节点。 您仍然可以在不使用观察程序节点的情况下监控系统。 唯一的区别在于，要运行的任何合成事务都必须手动调用，而不是由 Operations Manager 自动调用。
+如果使用 Microsoft System Center Operations Manager 监视 Lync Server 2013，则可以选择设置 "观察程序节点"：定期和自动运行综合事务以验证 Lync Server 是否正常工作的计算机需. 观察程序节点分配给池，并通过使用**new-cswatchernodeconfiguration** cmdlet 进行管理。 请注意，如果正在使用 System Center Operations Manager，那么无需安装观察程序节点。 您仍可以在不使用观察程序节点的情况下监视系统。 唯一的区别在于，要运行的任何合成事务都必须手动调用，而不是由 Operations Manager 自动调用。
 
-**CsWatcherNodeConfiguration** cmdlet 使你能够验证是否已正确配置了观察程序节点且已分配到有效的 Lync Server 2013 池。 请注意， **CsWatcherNodeConfiguration** cmdlet 必须在观察程序节点本身上运行。 无法对远程计算机运行 cmdlet。
+**New-cswatchernodeconfiguration** cmdlet 使您能够验证是否已正确配置观察程序节点，并将其分配给有效的 Lync Server 2013 池。 请注意，必须在观察程序节点本身上运行**new-cswatchernodeconfiguration** cmdlet。 无法对远程计算机运行 cmdlet。
 
 </div>
 
@@ -76,7 +76,7 @@ _**主题上次修改时间：** 2014-11-03_
 
 ## <a name="running-the-test"></a>运行测试
 
-以下命令验证组织中正在使用的每个观察程序节点的配置设置。
+以下命令验证组织中使用的每个观察程序节点的配置设置。
 
     Test-CsWatcherNodeConfiguration
 
@@ -84,17 +84,17 @@ _**主题上次修改时间：** 2014-11-03_
 
 <div>
 
-## <a name="determining-success-or-failure"></a>确定成功还是失败
+## <a name="determining-success-or-failure"></a>确定成功或失败
 
-以下成功的示例输出显示了具有四个边缘服务器的系统。
+以下成功的示例输出显示了具有四台边缘服务器的系统。
 
-对照拓扑结构验证目标池 atl-cs-001.litwareinc.com。
+对照拓扑验证目标池 atl-cs-001.litwareinc.com。
 
 成功：拓扑中存在目标池 atl-cs-001.litwareinc.com。
 
-成功：目标池 atl-cs-001.litwareinc.com 已安装注册机构角色。
+成功：目标池 atl-cs-001.litwareinc.com 已安装注册器角色。
 
-成功：目标池 atl-cs-001.litwareinc.com 支持的版本。
+成功：目标池 atl-cs-001.litwareinc.com 是受支持的版本。
 
 成功：5061目标池 atl-cs-001.litwareinc.com 的端口号正确。
 
@@ -102,29 +102,29 @@ _**主题上次修改时间：** 2014-11-03_
 
 在观察程序节点配置中检查缺少的池已完成。
 
-已开始检查由观察程序节点安装创建的观察程序节点注册表项。 如果检测到任何错误，则会将其打印出来。
+已启动对观察程序节点安装创建的观察程序节点注册表项的检查。 如果检测到任何错误，则会将其打印出来。
 
-检查由观察程序节点安装创建的观察程序节点注册表项是否已完成。 检测到身份验证类型为 "协商"。
+检查由观察程序节点安装创建的观察程序节点注册表项是否已完成。 检测到的身份验证类型为 "协商"。
 
-已成功验证测试用户的凭据 sip 是否存在： user1@ atl-cs-001.litwareinc.com 在凭据管理存储中。
+已成功验证测试用户的凭据 sip 是否存在： user1@ atl-cs-001.litwareinc.com in credential management store。
 
-已成功验证测试用户的凭据 sip 是否存在： user2@ atl-cs-001.litwareinc.com 在凭据管理存储中。
+已成功验证测试用户的凭据 sip 是否存在： user2@ atl-cs-001.litwareinc.com in credential management store。
 
 已启动在观察程序节点配置中检查缺少的池。 如果检测到任何错误，则会将其打印出来。
 
-警告： Pool atl-cs-001.litwareinc.com 有注册机构
+警告：池 atl-cs-001.litwareinc.com 具有注册器
 
 已安装角色，但没有为其配置的测试用户。
 
 在观察程序节点配置中检查缺少的池已完成。
 
-检查由观察程序节点安装创建的观察程序节点注册表项是
+检查由观察程序节点安装所创建的观察程序节点注册表项是
 
-开始. 如果检测到任何错误，则会将其打印出来。
+启动. 如果检测到任何错误，则会将其打印出来。
 
-测试-CsWatcherNodeConfiguration：在中找不到运行状况注册表项
+New-cswatchernodeconfiguration：在中找不到运行状况注册表项
 
-Microsoft\\\\实时通信软件。 请确保观察程序节点为 msi
+Microsoft\\\\实时通信的软件。 请确保观察程序节点 .msi 是
 
 正确安装。
 
@@ -134,11 +134,11 @@ Microsoft\\\\实时通信软件。 请确保观察程序节点为 msi
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-下面是**测试 CsWatcherNodeConfiguration**可能失败的一些常见原因：
+以下是**测试 new-cswatchernodeconfiguration**可能失败的一些常见原因：
 
   - 未正确安装观察程序节点。
 
-  - 未配置测试用户。
+  - 未配置任何测试用户。
 
 </div>
 
@@ -147,10 +147,10 @@ Microsoft\\\\实时通信软件。 请确保观察程序节点为 msi
 ## <a name="see-also"></a>另请参阅
 
 
-[Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
-[New-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWatcherNodeConfiguration)  
-[Remove-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
-[Set-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWatcherNodeConfiguration)  
+[New-cswatchernodeconfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
+[新 New-cswatchernodeconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWatcherNodeConfiguration)  
+[New-cswatchernodeconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
+[New-cswatchernodeconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWatcherNodeConfiguration)  
   
 
 </div>

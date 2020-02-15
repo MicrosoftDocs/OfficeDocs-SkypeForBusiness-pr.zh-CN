@@ -12,16 +12,16 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 358b595fceb05a377c59479b0a08e100bffb318a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15a238c2517fd295d35d63a8a1d2f4c4e88a76b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740342"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41740342"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-24_
+_**上次修改的主题：** 2012-09-24_
 
-以下过程介绍了如何为托管 Exchange 统一消息（UM）创建自动助理（AA）或订阅者访问（SA）联系人对象。
+以下过程介绍如何为托管 Exchange 统一消息 (UM) 创建自动助理 (AA) 或订阅者访问 (SA) 联系人对象。
 
-有关详细信息，请参阅规划文档中[Lync Server 2013 中的托管 Exchange 联系人对象管理](lync-server-2013-hosted-exchange-contact-object-management.md)。
+有关详细信息，请参阅规划文档中的在[Lync Server 2013 中托管 Exchange 联系人对象管理](lync-server-2013-hosted-exchange-contact-object-management.md)。
 
-有关配置联系人对象的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
+有关配置 contact 对象的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
-  - [New-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
+  - [新 CsExUmContact](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Set-CsExUmContact)
+  - [CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Set-CsExUmContact)
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> 在 Lync Server 2013 中可以为托管 Exchange UM 启用联系人对象之前，必须部署适用于它们的托管语音邮件策略。 有关详细信息，请参阅<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。
+> 在 Lync Server 2013 中可以为托管 Exchange UM 启用联系人对象之前，必须部署适用于这些对象的托管语音邮件策略。 有关详细信息，请参阅<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。
 
 
 
@@ -61,9 +61,9 @@ _**主题上次修改时间：** 2012-09-24_
 
 ## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a>为托管 Exchange UM 创建 AA 或 SA 联系人对象
 
-1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-2.  运行 CsExUmContact cmdlet 以创建你的部署所需的任何联系人对象。 例如，运行以下内容创建 AA 和 SA 联系人对象：
+2.  运行 New-CsExUmContact cmdlet 创建部署所需的任何联系人对象。例如，运行以下命令创建 AA 和 SA 联系人对象：
     
        ```powershell
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
@@ -73,26 +73,26 @@ _**主题上次修改时间：** 2012-09-24_
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
        ```
     
-    这些示例设置以下参数：
+    这些示例设置了以下参数：
     
-      - **SipAddress**指定 contact 对象的 SIP 地址。 这必须是尚未用于配置 Active Directory 域服务中的用户或联系人对象的地址。 此值必须采用 "sip：\<*sip 地址*\>" 格式，如前面的示例中所示。
+      - **SipAddress** 指定联系人对象的 SIP 地址。 该地址必须是尚未在 Active Directory 域服务中用于配置用户或联系人对象的地址。 此值必须采用 "sip：\<*sip 地址*\>" 的格式，如前面的示例中所示。
     
-      - **RegistrarPool**指定运行注册机构服务的池的完全限定的域名（FQDN）。
+      - **RegistrarPool** 指定运行 Registrar 服务的池的完全限定域名 (FQDN)。
         
         <div class=" ">
         
 
         > [!NOTE]  
-        > 在 Lync Server 2013 之前，无法将 Exchange UM 联系人对象移到属于 Lync Server 2013 部署的池。
+        > 在 Lync Server 2013 之前，不能将 Exchange UM 联系人对象移到作为 Lync Server 2013 部署一部分的池。
 
         
         </div>
     
-      - **OU**指定此联系人对象将位于的 Active Directory 组织单位。
+      - **OU** 指定此联系人对象将位于的 Active Directory 组织单位。
     
-      - **DisplayNumber**指定 contact 对象的电话号码。 每个联系人对象的电话号码必须是唯一的。
+      - **DisplayNumber** 指定联系人对象的电话号码。每个联系人对象的电话号码必须是唯一的。
     
-      - 自动**助理**指定联系人对象是否为自动助理。 自动助理提供一组语音提示，允许呼叫者在电话系统中导航，并联系他们想要联系的对方。 此参数的值**False** （默认值）表示订阅者访问联系人对象。
+      - **AutoAttendant** 指定联系人对象是否为自动助理。自动助理提供了一组语音提示，允许呼叫者导航电话系统并最终到达他们要联系的一方。为此参数指定 **False** 值（默认值）指示对象为订阅者访问联系人对象。
 
 </div>
 

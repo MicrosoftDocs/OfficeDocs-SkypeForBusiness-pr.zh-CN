@@ -12,16 +12,16 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e1b03e7c64c15d147e09883b9d7580bacbca7be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cb04adb830e4b7207391675aeabd5f3be315724
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729762"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729762"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-13_
+_**上次修改的主题：** 2012-06-13_
 
-通过使用拓扑生成器中配置的拓扑设置来部署 IP 地址类型。 本部分介绍了如何在前端服务器、中介服务器和边缘服务器上部署 IP 地址类型。
+您可以使用拓扑生成器中配置的拓扑设置来部署 IP 地址类型。 本节介绍如何在前端服务器、中介服务器和边缘服务器上部署 IP 地址类型。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [针对 Lync Server 2013 在前端服务器上部署 IP 地址类型](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
+  - [在 Lync Server 2013 的前端服务器上部署 IP 地址类型](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [在 Lync Server 2013 中介服务器上部署 IP 地址类型](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [在 Lync server 2013 的中介服务器上部署 IP 地址类型](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [在 Lync Server 2013 边缘服务器上部署 IP 地址类型](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [为 Lync Server 2013 在边缘服务器上部署 IP 地址类型](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 

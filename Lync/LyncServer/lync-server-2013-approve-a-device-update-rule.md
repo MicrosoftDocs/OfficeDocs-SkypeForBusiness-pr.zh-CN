@@ -12,20 +12,20 @@ ms:contentKeyID: 51803964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb464d0845f70012bdd8e70365c8a7993de6b4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6537af434a704b23553c217bde3370d49e318f37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738532"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029323"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="approve-a-device-update-rule-in-lync-server-2013"></a>在 Lync Server 2013 中批准设备更新规则
+# <a name="approve-a-device-update-rule-in-lync-server-2013"></a>在 Lync Server 2013 中审批设备更新规则
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41738532"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-导入设备更新规则后，它将安装在测试设备上。 如果你的测试成功，并且希望将更新部署到你的组织，请使用 Lync Server 控制面板或 Windows PowerShell 批准它。
+导入设备更新规则后，会将其安装在测试设备上。 如果测试成功，并且想要向您的组织推出更新，请使用 Lync Server 控制面板或 Windows PowerShell 批准它。
 
 <div>
 
-## <a name="to-approve-a-device-update-rule-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 批准设备更新规则
+## <a name="to-approve-a-device-update-rule-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板批准设备更新规则
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在 "**设备更新**" 页面上，执行下列操作之一：
+3.  在 "**设备更新**" 页上，执行下列操作之一：
     
       - 若要批准一个规则，请选择该规则。
     
@@ -61,13 +61,13 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="approving-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 批准设备更新规则
 
-还可以使用 Windows PowerShell 和**CsDeviceUpdateRule** cmdlet 批准设备更新规则。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。
+还可以使用 Windows PowerShell 和**CsDeviceUpdateRule** cmdlet 批准设备更新规则。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。
 
 <div>
 
 
 > [!NOTE]  
-> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。
+> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 
 
@@ -77,7 +77,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="to-approve-a-single-device-update-rule"></a>批准单个设备更新规则
 
-  - 以下命令批准在 Web 服务器 dc2d9b1222ff9 上找到的 device update 规则 d5ce3c10-2588-420a-atl-cs-001.litwareinc.com：
+  - 以下命令批准在 Web 服务器 dc2d9b1222ff9 上找到的设备更新规则 d5ce3c10-2588-420a-82ac-atl-cs-001.litwareinc.com：
     
         Approve-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
 
@@ -87,7 +87,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="to-approve-multiple-device-update-rules"></a>批准多个设备更新规则
 
-  - 此命令批准 Microsoft 品牌设备的所有设备更新规则：
+  - 此命令批准适用于 Microsoft 品牌的设备的所有设备更新规则：
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Approve-CsDeviceUpdateRule
 

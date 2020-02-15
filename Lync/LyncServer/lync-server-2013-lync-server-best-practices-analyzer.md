@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Lync Server 最佳实践分析程序
+title: Lync Server 2013： Lync Server 最佳实践分析工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf3161c66d522c09692e9fb7f1b124b506549ceb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a1205ca5deb666922c723f5c6773a2aa4b5c59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742212"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41742212"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-13_
+_**上次修改的主题：** 2012-06-13_
 
-Lync Server 2013，最佳做法分析器是一种诊断工具，可从 Lync Server 2013 环境收集配置信息，并确定是否根据 Microsoft 最佳做法设置配置。
+Lync Server 2013，最佳实践分析工具是一种诊断工具，可从 Lync Server 2013 环境中收集配置信息，并确定是否根据 Microsoft 最佳实践设置配置。
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013，最佳做法分析器仅通过 Lync Server 2013 组件进行扫描和报告问题。 如果你的部署包括 Lync Server 2010 或 Office 通信服务器 2007 R2 组件，请使用以前版本的最佳做法分析器分析这些组件。 有关详细信息，请参阅<A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中运行最佳做法分析器的要求</A>。
+> Lync Server 2013，最佳实践分析工具仅在 Lync Server 2013 组件中扫描和报告问题。 如果您的部署包括 Lync Server 2010 或 Office 通信服务器 2007 R2 组件，请使用早期版本的最佳实践分析程序来分析这些组件。 有关详细信息，请参阅<A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中运行最佳实践分析工具的要求</A>。
 
 
 
@@ -51,15 +51,15 @@ Lync Server 2013，最佳做法分析器是一种诊断工具，可从 Lync Serv
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的最佳做法分析器概述](lync-server-2013-overview-of-best-practices-analyzer.md)
+  - [Lync Server 2013 中的最佳实践分析工具概述](lync-server-2013-overview-of-best-practices-analyzer.md)
 
-  - [在 Lync Server 2013 中准备和安装最佳做法分析器](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
+  - [在 Lync Server 2013 中准备和安装最佳实践分析程序](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
 
-  - [使用最佳做法分析器识别 Lync Server 2013 部署中的潜在问题](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
+  - [使用最佳实践分析程序识别 Lync Server 2013 部署中的潜在问题](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
 
-  - [使用扫描结果分析和解决 Lync Server 2013 中由最佳做法分析器报告的问题](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
+  - [使用扫描结果分析和解决 Lync Server 2013 中的最佳实践分析工具报告的问题](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
 
 </div>
 

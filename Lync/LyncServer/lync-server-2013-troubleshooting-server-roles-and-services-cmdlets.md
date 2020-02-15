@@ -12,20 +12,20 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bb8c4504674e5459fbbb0e7529ea4e6c4ad7a8f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af0e5048b02720755c7f4ab65cddb1e9fa47b0bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744992"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028873"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的服务器角色和服务 cmdlet 疑难解答
+# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>在 Lync Server 2013 中排除服务器角色和服务 cmdlet 的故障
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744992"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-27_
+_**上次修改的主题：** 2012-08-27_
 
-疑难解答 cmdlet 提供不同的方法来验证 Microsoft Lync Server 2013 是否按预期工作。 例如，CsHealthMonitoringConfiguration cmdlet 使你能够为注册机构和控制器池设置测试帐户。 然后，你可以使用这些测试帐户验证用户是否能够成功完成常见任务，如登录到系统、交换即时消息或呼叫位于公共交换电话网络（PSTN）的电话。
+故障排除 cmdlet 提供了不同的方法来验证 Microsoft Lync Server 2013 是否按预期正常运行。 例如，通过 CsHealthMonitoringConfiguration cmdlet，您可以为注册器和控制器池设置测试帐户。 然后，可以使用这些测试帐户来验证用户是否能够成功完成常见任务，如登录系统、交换即时消息，或者拨打位于公用电话交换网 (PSTN) 中的电话。
 
 <div>
 
 
 > [!NOTE]
-> 有关 cmdlet 的其他信息，请参阅 Lync Server&nbsp;Windows PowerShell 博客<A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
+> 有关 cmdlet 的其他信息，请参阅 Lync Server&nbsp;Windows PowerShell 博客 at <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
 
 
 
@@ -53,62 +53,62 @@ _**主题上次修改时间：** 2012-08-27_
 
 ## <a name="server-roles-and-services-cmdlets"></a>服务器角色和服务 Cmdlet
 
-以下是与服务器角色和服务疑难解答直接相关的 cmdlet 的列表：
+以下是与服务器角色和服务故障排除直接相关的 cmdlet 列表：
 
-**服务器角色和服务疑难解答**
-
-  - <span></span>  
-    [Get-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg412984(v=OCS.15))
+**服务器角色和服务故障排除**
 
   - <span></span>  
-    [Set-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg398907(v=OCS.15))
+    [CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg412984(v=OCS.15))
+
+  - <span></span>  
+    [CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg398907(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398667(v=OCS.15))
+    [CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398667(v=OCS.15))
 
   - <span></span>  
-    [新-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398718(v=OCS.15))
+    [新 CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398718(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425794(v=OCS.15))
+    [CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425794(v=OCS.15))
 
   - <span></span>  
-    [Set-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425847(v=OCS.15))
+    [CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425847(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg413034(v=OCS.15))
+    [CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg413034(v=OCS.15))
 
   - <span></span>  
-    [New-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg398733(v=OCS.15))
+    [新 CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg398733(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg412853(v=OCS.15))
+    [CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg412853(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg425734(v=OCS.15))
+    [CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg425734(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsDiagnosticsFilter](https://technet.microsoft.com/en-us/library/Gg413009(v=OCS.15))
+    [新 CsDiagnosticsFilter](https://technet.microsoft.com/library/Gg413009(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg412774(v=OCS.15))
+    [CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg412774(v=OCS.15))
 
   - <span></span>  
-    [新-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398350(v=OCS.15))
+    [新 CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398350(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398941(v=OCS.15))
+    [CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398941(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg399045(v=OCS.15))
+    [CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg399045(v=OCS.15))
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2085eb133fa38231af2d223928796300d553e3c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 681ed50132900e9db269b59d86ca18a022d4a428
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757986"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757986"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-你可以配置两个网络区域之间的链接作为呼叫许可控制（CAC）的一部分。
+您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看网络区域链接信息](lync-server-2013-viewing-network-region-link-information.md)
 
@@ -55,7 +55,7 @@ _**主题上次修改时间：** 2013-02-21_
 
 ## <a name="related-sections"></a>相关部分
 
-[在 Lync Server 2013 中配置呼叫许可控制](lync-server-2013-configure-call-admission-control.md)
+[在 Lync Server 2013 中配置呼叫允许控制](lync-server-2013-configure-call-admission-control.md)
 
 </div>
 

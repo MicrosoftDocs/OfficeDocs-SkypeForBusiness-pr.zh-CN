@@ -12,16 +12,16 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ebfc5543e7708b4c88bce458ae8a0a20b3ac593
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 631e80d9de61e2304cd8ec65bb144aa3e0e3e7fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725422"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41725422"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-20_
+_**上次修改的主题：** 2012-09-20_
 
-当您在组织中部署 Exchange 和 Lync 服务器时，两个产品中的许多功能都得到了增强。 本部分包含有关这些功能的信息。
+当您在组织中部署 Exchange 和 Lync Server 时，这两个产品中的许多功能都得到了增强。 本节包含有关这些功能的信息。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a20e47f21b918976291371bd56e529196bae8a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745042"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41745042"
 
 <span> </span>
 
-_**主题上次修改时间：** 2015-05-18_
+_**上次修改的主题：** 2015-05-18_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-为了满足参考体系结构 Sla 要求并确保顺利过渡到我们的支持团队，一般的故障排除方法必须与 Lync Server[网络指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中定义的一组必需的疑难解答工具和方法一起定义。
+为了满足参考体系结构 Sla 要求并确保顺利过渡到我们的支持团队，常见的故障排除方法必须与 Lync Server[网络指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中定义的一组必需的故障排除工具和方法一起定义。
 
-强烈建议使用 System Center Operations Manager 监视 Lync Server 2013 系统的运行状况。 另外，请参阅 Lync Server 2013[网络指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中的 KHIs 和 Excel 电子表格中与 lync 2013 一起使用的讨论。
+强烈建议使用 System Center Operations Manager 来监视 Lync Server 2013 系统的运行状况。 此外，请参阅 Lync Server 2013[网络指南](http://go.microsoft.com/fwlink/p/?linkid=390677)中的 KHIs 和 Excel 电子表格中有关与 Lync 2013 一起使用的讨论。
 
 </div>
 

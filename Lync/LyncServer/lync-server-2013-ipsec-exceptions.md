@@ -12,16 +12,16 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d5becaab996d6fe4889086d3a68a45ffc1f6d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db7291674485dec30211d88e2739b0da89fb334f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733452"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733452"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-27_
+_**上次修改的主题：** 2012-06-27_
 
-对于 Internet 协议安全（IPsec）（请参阅 IETF RFC 4301-4309）已部署的企业网络，必须在用于传送音频、视频和全景视频的端口范围内禁用 IPsec。 提出此建议的动机是需要避免由于 IPsec 协商而在分配媒体端口时产生任何延迟。
+对于已经部署了 Internet 协议安全性 (IPsec)（请参阅 IETF RFC 4301-4309）的企业网络，必须在用于传送音频、视频和全景视频的端口范围内禁用 IPsec。提出此建议的动机是需要避免由于 IPsec 协商而在分配媒体端口时产生任何延迟。
 
 下表介绍了建议采用的 IPsec 例外设置。
 
@@ -70,8 +70,8 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>任意</p></td>
 <td><p>A/V 边缘服务器内部</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
@@ -79,8 +79,8 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>任意</p></td>
 <td><p>A/V 边缘服务器外部</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
@@ -88,8 +88,8 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>A/V 边缘服务器内部</p></td>
 <td><p>任意</p></td>
 <td><p>UDP &amp; TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
@@ -97,28 +97,28 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>A/V 边缘服务器外部</p></td>
 <td><p>任意</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
 <td><p>中介服务器入站</p></td>
 <td><p>任意</p></td>
 <td><p>中介</p>
-<p>服务器</p></td>
+<p>服务器（s）</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
 <td><p>中介服务器出站</p></td>
 <td><p>中介</p>
-<p>服务器</p></td>
+<p>服务器（s）</p></td>
 <td><p>任意</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
@@ -126,8 +126,8 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>任意</p></td>
 <td><p>运行会议助理的前端服务器</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
@@ -135,8 +135,8 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>运行会议助理的前端服务器</p></td>
 <td><p>任意</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
@@ -144,8 +144,8 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>任意</p></td>
 <td><p>前端服务器</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
@@ -153,8 +153,8 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>前端服务器</p></td>
 <td><p>任意</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
@@ -162,8 +162,8 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>任意</p></td>
 <td><p>Exchange 统一消息</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
@@ -172,7 +172,7 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>应用程序共享服务器</p></td>
 <td><p>TCP</p></td>
 <td><p>任意</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
@@ -180,8 +180,8 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>应用程序共享服务器</p></td>
 <td><p>任意</p></td>
 <td><p>TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
@@ -189,13 +189,13 @@ _**主题上次修改时间：** 2012-06-27_
 <td><p>Exchange 统一消息</p></td>
 <td><p>任意</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任何</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
+<td><p>任意</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
 <td><p>客户端</p></td>
-<td><p>任何</p></td>
+<td><p>任意</p></td>
 <td><p>任意</p></td>
 <td><p>UDP</p></td>
 <td><p>指定的媒体端口范围</p></td>

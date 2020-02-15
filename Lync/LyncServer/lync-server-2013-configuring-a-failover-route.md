@@ -12,16 +12,16 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17477c647d2e5dd5918225486c43b93a29509fb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741282"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41741282"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-21_
+_**上次修改的主题：** 2012-09-21_
 
 以下示例显示在 Dallas-GW1 因维护而关闭或因其他原因不可用时，管理员如何定义故障转移路由以供使用。下面的表显示了所需的配置更改。
 
@@ -54,18 +54,18 @@ _**主题上次修改时间：** 2012-09-21_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>默认呼叫策略</p></td>
+<td><p>Default Calling Policy</p></td>
 <td><p>Local</p>
-<p>GlobalPSTNHopoff</p></td>
+<p>名</p></td>
 </tr>
 <tr class="even">
-<td><p>Redmond 本地策略</p></td>
+<td><p>Redmond Local Policy</p></td>
 <td><p>RedmondLocal</p></td>
 </tr>
 <tr class="odd">
-<td><p>Dallas 呼叫策略</p></td>
+<td><p>Dallas Calling Policy</p></td>
 <td><p>DallasUsers</p>
-<p>GlobalPSTNHopoff</p></td>
+<p>名</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,13 +86,13 @@ _**主题上次修改时间：** 2012-09-21_
 <th>路由名称</th>
 <th>号码模式</th>
 <th>电话用法</th>
-<th>中继</th>
+<th>干线</th>
 <th>网关</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Redmond 本地路由</p></td>
+<td><p>Redmond Local Route</p></td>
 <td><p>^\+1（425 | 206 | 253）（\d{7}） $</p></td>
 <td><p>Local</p>
 <p>RedmondLocal</p></td>
@@ -102,29 +102,29 @@ _**主题上次修改时间：** 2012-09-21_
 <p>Red-GW2</p></td>
 </tr>
 <tr class="even">
-<td><p>Dallas 本地路由</p></td>
+<td><p>Dallas Local Route</p></td>
 <td><p>^\+1（972 | 214 | 469）（\d{7}） $</p></td>
 <td><p>Local</p></td>
 <td><p>Trunk3</p></td>
-<td><p>Dallas-GW1</p></td>
+<td><p>达拉斯-GW1</p></td>
 </tr>
 <tr class="odd">
-<td><p>通用路由</p></td>
+<td><p>Universal Route</p></td>
 <td><p>^\+?（\d *） $</p></td>
-<td><p>GlobalPSTNHopoff</p></td>
+<td><p>名</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p>
 <p>Trunk3</p></td>
 <td><p>Red-GW1</p>
 <p>Red-GW2</p>
-<p>Dallas-GW1</p></td>
+<p>达拉斯-GW1</p></td>
 </tr>
 <tr class="even">
-<td><p>Dallas 用户路由</p></td>
+<td><p>Dallas Users Route</p></td>
 <td><p>^\+?（\d *） $</p></td>
 <td><p>DallasUsers</p></td>
 <td><p>Trunk3</p></td>
-<td><p>Dallas-GW1</p></td>
+<td><p>达拉斯-GW1</p></td>
 </tr>
 </tbody>
 </table>

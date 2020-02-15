@@ -12,16 +12,16 @@ ms:contentKeyID: 49733876
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7adc4086ac8ac6b8e5ad33c2e4c1dc131d357e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83e0446bbc0b39f553ac9a2bcba0af9ceacc421f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762070"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034402"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,30 +35,30 @@ ms.locfileid: "41762070"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-12_
+_**上次修改的主题：** 2012-11-12_
 
-本部分包含灾难恢复操作的过程，以及用于维护同步服务的过程，该备份服务将同步成对前端池内的数据。
+本节包含灾难恢复操作以及维护同步配对前端池中数据的备份服务的过程。
 
-灾难恢复过程（故障转移和回切）是手动的。 如果发生灾难，管理员必须手动调用故障转移过程。 修复完池后，故障回复也同样适用。
+灾难恢复过程（故障转移和故障回复）都是手动的操作。如果出现灾难，管理员必须手动调用故障转移过程。在修复池之后，此规则同样适用于故障回复。
 
-本部分其余部分中的灾难恢复过程假设如下：
+本节其余部分中的灾难恢复过程假定以下内容：
 
-  - 你的部署具有成对的前端池，位于不同的网站中，如在[Lync Server 2013 中规划高可用性和灾难恢复](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)中所述。 备份服务已在这些配对的池上运行，以使其保持同步。
+  - 您有一个具有成对前端池的部署，这些池位于不同的站点中，如在[Lync Server 2013 中规划高可用性和灾难恢复中](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)所述。 这些配对池中一直运行备份服务，以使其保持同步。
 
-  - 如果中央管理存储托管在任一池中，则会在这两个配对的池上安装和运行它，其中一个托管活动主机的池和另一个托管备用池的池。
+  - 如果中央管理存储托管在任一池上，则会在这两个配对的池上安装和运行它，其中一个托管活动主机的池和承载备用的其他池。
 
 <div>
 
 
 > [!IMPORTANT]
-> 在以下过程中， <EM>PoolFQDN</EM>参数是指受灾难影响的池的 FQDN，而不是对受影响的用户进行重定向的池的 FQDN。 对于同一组受影响的用户，它指的是故障转移和故障回复 cmdlet 中的同一池（即，在故障转移之前首先驻留用户的池）。<BR>例如，假设驻留在池 P1 上的所有用户都已故障转移到备份池 P2 的情况。 如果管理员想要移动当前由 P2 服务的所有用户以供 P1 处理，管理员必须执行以下步骤： 
+> 在下面的过程中，<EM>PoolFQDN</EM> 参数表示受灾难影响的池而不是受影响的用户从中重定向的池的 FQDN。对于同一组受影响的用户，它在故障转移和故障回复 cmdlet 中表示同一个池（即，在故障转移之前先承载用户的池）。<BR>例如，假定这样一种情况，其中驻留在池 P1 中的所有用户都故障转移到备份池 P2。如果管理员要将当前由 P2 服务的所有用户都移动为由 P1 服务，则管理员必须执行以下步骤： 
 > <OL>
 > <LI>
-> <P>使用故障回复 cmdlet，将原来位于 P1 中的所有用户从 P2 切换回 P1。 在此情况下， <EM>PoolFQDN</EM>为 P1's FQDN。</P>
+> <P>使用故障回复 cmdlet 将最初驻留在 P1 上的所有用户从 P2 故障回复到 P1。在此情况下，<EM>PoolFQDN</EM> 为 P1 的 FQDN。</P>
 > <LI>
-> <P>使用故障转移 cmdlet，将所有最初驻留在 P2 上的用户故障转移到 P1。 在此情况下， <EM>PoolFQDN</EM>为 P2's FQDN。</P>
+> <P>使用故障转移 cmdlet 将最初驻留在 P2 上的所有用户故障转移到 P1。在此情况下，<EM>PoolFQDN</EM> 为 P2 的 FQDN。</P>
 > <LI>
-> <P>如果管理员稍后希望将这些 P2 用户故障回复回 P2，则<EM>PoolFQDN</EM>为 P2's FQDN。</P></LI></OL>请注意，上面的步骤1必须在步骤2之前执行，以保留池完整性。 如果你在步骤1之前尝试步骤2，则步骤 2 cmdlet 将失败。
+> <P>如果稍后管理员要将这些 P2 用户故障回复到 P2，则 <EM>PoolFQDN</EM> 为 P2 的 FQDN。</P></LI></OL>请注意，上面的步骤 1 必须在步骤 2 之前执行，才能保留池完整性。 如果在步骤 1 之前尝试步骤 2，则步骤 2 cmdlet 将失败。
 
 
 
@@ -66,7 +66,7 @@ _**主题上次修改时间：** 2012-11-12_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中配置和监控备份服务](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9532327640be12351143632813d403edddf5c437
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2894d61a4dabd174315e24a225392bde7a893300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746042"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746042"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-05-20_
+_**上次修改的主题：** 2014-05-20_
 
 
 <table>
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2014-05-20_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要权限</p></td>
-<td><p>当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行 CsVoiceTestConfiguration cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<td><p>所需的权限</p></td>
+<td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsVoiceTestConfiguration cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceTestConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**主题上次修改时间：** 2014-05-20_
 
 ## <a name="description"></a>说明
 
-Lync 服务器包括多个 Windows PowerShell cmdlet （如 CsVoiceRoute 和 CsVoicePolicy、Test New-cstrunkconfiguration），使你能够验证你的企业语音基础结构的各个部分-语音路线、语音政策、SIP 中继–按预期工作。
+Lync Server 包括几个 Windows PowerShell cmdlet （如 CsVoiceRoute 和 Set-csvoicepolicy、Remove-cstrunkconfiguration），使您能够验证企业语音基础结构的各个部分–语音路由、语音策略，SIP 中继–按预期工作。
 
-虽然对于所有单个部分都适用的企业语音，但这一点很重要：可以具有有效的语音路线、有效的语音策略和有效的 SIP 主干，但仍有用户无法拨打或接听电话。 因此，Lync 服务器还提供创建语音测试配置的功能。 语音测试配置表示常见的企业语音方案：您可以指定语音路线、语音政策和拨号计划等内容，然后验证这些个别项目是否能够协同工作，以便提供手机服务。 此外，你可以在给定方案中验证你的预期。 例如，假设你希望拨入计划 A 和语音策略 B 的组合会导致呼叫通过语音路由 C 进行路由。您可以输入 "语音路由 C" 作为 ExpectedRoute。 运行测试时，如果未采用 "语音路由 C"，则测试将标记为 "已失败"。
+虽然所有单个部件都正常工作的企业语音也很重要：可以有有效的语音路由、有效的语音策略和有效的 SIP 中继，但仍有用户无法拨打或接听电话。 因此，Lync Server 还提供了创建语音测试配置的功能。 语音测试配置代表常见的企业语音方案：您可以指定语音路由、语音策略和拨号计划等内容，然后验证这些单个项目是否能够协同工作以提供电话服务。 此外，还可以在给定方案中验证您的期望。 例如，假设您预计 "拨号计划 A" 和 "语音策略 B" 的组合将导致呼叫通过语音路由 C 路由。您可以输入语音路由 C 作为 ExpectedRoute。 运行测试时，如果未采用语音路由 C，则测试将被标记为 "未通过"。
 
 </div>
 
@@ -76,11 +76,11 @@ Lync 服务器包括多个 Windows PowerShell cmdlet （如 CsVoiceRoute 和 CsV
 
 ## <a name="running-the-test"></a>运行测试
 
-在使用 Windows PowerShell 测试语音配置集合之前，必须首先使用 CsVoiceTestConfiguration cmdlet 检索这些配置设置的实例。 然后，必须将该实例输送到 Test CsVoiceTestConfiguration。 例如：
+在使用 Windows PowerShell 测试语音配置集合之前，必须首先使用 CsVoiceTestConfiguration cmdlet 检索这些配置设置的实例。 然后，必须将该实例通过管道传递到 CsVoiceTestConfiguration。 例如：
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-若要同时验证所有语音测试配置设置，请改用以下命令：
+若要同时验证所有语音测试配置设置，请改为使用此命令：
 
 `Get-CsVoiceTestConfiguration | Test-CsVoiceTestConfiguration`
 
@@ -90,9 +90,9 @@ Lync 服务器包括多个 Windows PowerShell cmdlet （如 CsVoiceRoute 和 CsV
 
 <div>
 
-## <a name="determining-success-or-failure"></a>确定成功还是失败
+## <a name="determining-success-or-failure"></a>确定成功或失败
 
-CsVoiceTestConfiguration cmdlet 报告测试是否失败，并提供有关每个成功测试的详细信息，例如翻译规则、语音路由和用于完成任务的 PSTN 使用：
+CsVoiceTestConfiguration cmdlet 报告测试是失败还是成功，并提供有关每个成功测试的其他信息，如转换规则、语音路由和用于完成任务的 PSTN 用法：
 
 结果：成功
 
@@ -100,11 +100,11 @@ TranslatedNumber： + 15551234
 
 MatchingRule： Description =;模式 = ^ （\\d{4}） $;转换 = + 1\\d;Name = Test; IsInternalExtension = False
 
-FirstMatchingRoute：网站：雷德蒙
+FirstMatchingRoute： site： Redmond
 
 MatchingUsage： Local
 
-如果测试失败，则结果报告为失败：
+如果测试失败，则结果将报告为 "失败"：
 
 结果：失败
 
@@ -120,23 +120,23 @@ MatchingUsage:      
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-由于语音测试配置测试将测试多个不同项目-包括语音策略、拨号计划、语音路由等，因此可能会导致测试失败的几个不同因素。 如果测试失败，您的第一步是使用 CsVoiceTestConfiguration cmdlet 查看配置设置本身：
+由于语音测试配置测试会测试多个不同的项目（包括语音策略、拨号计划、语音路由等），因此可能会导致测试失败的几个不同因素。 如果测试失败，您的第一步是使用 CsVoiceTestConfiguration cmdlet 来查看配置设置本身：
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration"`
 
-如果正确配置了设置，请在包含详细参数的同时重新运行测试：
+如果正确配置了设置，请重新运行测试，同时包含详细参数：
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-详细参数将提供由 Test CsVoiceTestConfiguration 执行的每个操作的分步帐户，如下例所示：
+详细参数将提供由 CsVoiceTestConfiguration 执行的每个操作的分步帐户，如以下示例所示：
 
-详细：正在加载拨号计划： "Global"
+VERBOSE：正在加载拨号计划： "Global"
 
-详细：加载语音策略： "RedmondDialPlan"
+VERBOSE：正在加载语音策略： "RedmondDialPlan"
 
-此分步帐户可能会提供一个有用的线索，如测试实际失败的位置。 如果不是，则可以使用其他 Windows PowerShell cmdlet （如 Test-CsVoicePolicy），然后系统地开始验证语音测试配置设置中包含的单个组件。
+此分步帐户可能会提供一些有用的线索，如测试实际失败的位置。 如果不是，则可以使用其他 Windows PowerShell cmdlet （如 Set-csvoicepolicy），并系统地开始验证语音测试配置设置中所包含的各个组件。
 
-此外，请注意，测试可以路由呼叫，但仍会将其标记为失败，但仍可这样做。如果输入 ExpectedRoute、ExpectedTranslatedNumber 和 ExpectedUsage 的值，并且不满足这些任何预期条件，则可能会发生这种情况。 例如，假设您输入了 "语音路由 C" 作为预期的语音路线，但测试实际上是使用 "语音路由 D" 完成呼叫。在这种情况下，测试将标记为 "失败"，因为未使用预期的语音路由。 如果测试失败，你可以删除 ExpectedRoute、ExpectedTranslatedNumber 和 ExpectedUsage 的值，然后重新运行测试。 这将帮助你确定失败是因为通话无法完成，还是你想要一件事并真的收到另一种情况。
+此外，还请注意，测试可以路由呼叫但仍被标记为故障，这也是可能的。如果输入 ExpectedRoute、ExpectedTranslatedNumber 和 ExpectedUsage 的值，并且不满足这些预期中的任何一种，则会发生这种情况。 例如，假设您将语音路由 C 输入为预期的语音路由，但测试实际上是使用语音路由 D 完成呼叫。在这种情况下，测试将被标记为 "失败"，因为未使用预期的语音路由。 如果测试失败，您可以删除 ExpectedRoute、ExpectedTranslatedNumber 和 ExpectedUsage 的值，然后重新运行测试。 这将帮助您确定故障是由于无法完成呼叫，还是由于您需要一件事情而实际收到另一个。
 
 </div>
 

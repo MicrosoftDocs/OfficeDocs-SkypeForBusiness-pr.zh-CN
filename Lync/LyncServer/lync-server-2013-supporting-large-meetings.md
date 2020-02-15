@@ -12,16 +12,16 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d2c36d99bc5af62771aabb643df1223db3a291c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c9a5d2ad4688f622298378c84b61574048a3b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764298"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029753"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764298"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-03_
+_**上次修改的主题：** 2012-10-03_
 
-大型会议不遵循上一节中所述的测试模型，因为它们具有以下特征：
+大型会议不会遵循前面的部分中介绍的测试模型，因为它们具有以下特征：
 
   - 会议形式为一对多的演示。
 
@@ -47,23 +47,23 @@ _**主题上次修改时间：** 2012-10-03_
 
   - 需要音频，还可能使用视频。
 
-  - 一个专用人员，通常是会议组织者或组织者的助理提前设置会议。
+  - 主持人（一般是会议组织者或组织者的助手）提前设置好会议。
 
-  - 专门人员（不是演示者）运行会议，包括根据需要连接到联机会议、验证音频、视频和幻灯片共享工作、管理会议厅和用户角色、将参与者静音和取消静音、提问和管理记录。
+  - 专门人员（不是演示者）运行会议，包括根据需要连接到联机会议、验证音频、视频和幻灯片共享工作、管理会议厅和用户角色、将参与者静音或取消静音、提问和管理记录。
 
-支持最多1000个用户的大型会议需要解决与共享硬件模型和非保留模型相关的问题。
+支持多达 1000 个用户的大型会议需要解决与共享硬件模型和无预约模型相关的问题。
 
-为了给多达 1000 个用户的会议提供充足的 CPU 和会议资源，宿主前端服务器不应承载任何其他即时消息 (IM) 和状态或企业语音工作负荷。 无论其他会议的大小如何，它也不会托管任何其他会议。 这意味着托管会议最多为1000个用户需要设置单独的 Lync 服务器池，专用于托管最多1000用户的大型会议。
+若要为最高为1000个用户的会议提供充足的 CPU 和内存资源，托管前端服务器不应承载任何其他即时消息（IM）和状态或企业语音工作负载。 此外，它不应承载任何其他会议，无论其他会议的规模如何。 这意味着主持最多为1000个用户的会议需要设置一个单独的 Lync Server 池，专门用于承载最多为1000个用户的大型会议。
 
-专用于托管大型会议的 Lync Server 池应同时托管一个会议和最多1000个用户，因此需要通过带外计划流程提前保留会议时间，以确保从前端 Serv 的专用支持。ers. 若要同时支持多个大型会议，我们建议设置多个专用大型会议池。
+专用于承载大型会议的 Lync Server 池应同时托管一个会议，且最多只能为1000个用户提供一个会议，因此需要通过带外计划过程提前保留会议时间，以确保从前端 Serv 的专用支持ers. 若要同时支持多个大型会议，建议设置多个专用大型会议池。
 
-我们建议专门的人员运行和监控大型会议的联机部分。 此人可能是组织者、组织者或演示者的代理人，或者是专门的大型会议支持团队的成员，具体取决于组织的首选项。
+建议让专门人员安排和监控大型会议的联机部分。此人可能是组织者、组织者或演示者的代理或专业大型会议支持团队的成员，这取决于组织者的首选项。
 
-在以下部分中，我们将介绍如何为大型会议实施专用池，包括使用 Lync Server 2013 支持大型会议方案的最佳做法。
+在以下各节中，我们将介绍如何为大型会议实施专用池，包括使用 Lync Server 2013 支持大型会议方案的最佳实践。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中设置对大型会议的支持](lync-server-2013-setting-up-support-for-large-meetings.md)
 

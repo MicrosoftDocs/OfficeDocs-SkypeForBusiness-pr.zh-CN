@@ -12,20 +12,20 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ed2a44ccd1730de2ebede4b08c1a4d3d7e0da9d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d1f5387ac7c67e01e3c4473367e1256cf07181a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763876"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030395"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>组呼叫在 Lync Server 2013 中的装货配置先决条件和用户权限
+# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Lync Server 2013 中的组内呼叫装货配置先决条件和用户权限
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41763876"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-01-30_
+_**上次修改的主题：** 2013-01-30_
 
-组呼叫装货是在部署企业语音时默认安装的通话管理功能。 本主题介绍了在配置组呼叫前需要准备的内容以及执行配置任务所需的用户权限。
+组呼叫装货是在部署企业语音时默认安装的呼叫管理功能。 本主题介绍在配置组内呼叫应答和执行配置任务所需的用户权限之前，您需要进行的操作。
 
-本部分假设你已阅读与组呼叫分拣相关的计划文档（请参阅[在 Lync Server 2013 中规划组呼叫装货](lync-server-2013-planning-for-group-call-pickup.md)）。
+本节假定您已阅读与组呼叫应答相关的规划文档（请参阅[在 Lync Server 2013 中规划组呼叫](lync-server-2013-planning-for-group-call-pickup.md)应答）。
 
 <div>
 
 ## <a name="group-call-pickup-configuration-prerequisites"></a>组呼叫装货配置先决条件
 
-群组呼叫分拣需要以下组件：
+组呼叫应答需要以下组件：
 
   - 应用程序服务
 
-  - 呼叫寄存应用程序
+  - Call Park 应用程序
 
-部署企业语音时，将自动安装这些组件。
+当您部署企业语音时，会自动安装这些组件。
 
 </div>
 
@@ -59,19 +59,19 @@ _**主题上次修改时间：** 2013-01-30_
 
 ## <a name="group-call-pickup-configuration-user-rights"></a>组呼叫装货配置用户权限
 
-你可以使用以下管理工具配置组呼叫装货：
+您可以使用以下管理工具配置组呼叫装货：
 
   - Lync Server 命令行管理程序
 
   - SEFAUtil 资源工具包工具
 
-使用 Lync Server Management Shell 在 "呼叫公园轨道" 表中创建和管理呼叫装货组。 使用 SEFAUtil 资源工具包工具分配呼叫装货组，并为用户启用组呼叫分拣，或为用户禁用组呼叫装货。
+使用 Lync Server 命令行管理程序可以在呼叫寄存通道表中创建和管理呼叫应答组。 使用 SEFAUtil 资源工具包工具分配呼叫应答组并为用户启用组呼叫应答，或为用户禁用组呼叫挑选。
 
-配置组呼叫分拣需要以下任何管理角色，具体取决于任务：
+配置组呼叫应答需要以下管理角色中的任何一个，具体取决于任务：
 
-  - **CsVoiceAdministrator：** 管理员角色可以创建、配置和管理所有语音相关设置和策略。
+  - **CsVoiceAdministrator：** 此管理员角色可以创建、配置和管理所有与语音相关的设置和策略。
 
-  - **CsUserAdministrator：** 管理员角色可以为用户启用组呼叫装货。 此管理员角色还具有对所有语音配置的只读视图访问权限。
+  - **CsUserAdministrator：** 此管理员角色可以为用户启用组呼叫装货。 此管理员角色还具有对所有语音配置的只读访问权限。
 
   - **CsServerAdministrator：** 此管理员角色可以管理和监视服务器和服务并对其进行故障排除。
 

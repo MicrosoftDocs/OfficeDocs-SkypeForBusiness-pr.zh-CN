@@ -12,16 +12,16 @@ ms:contentKeyID: 48184450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 822a7a2fa13ce444bbaf590ee0d8ba2144debcc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a5be1bfa3a2c9cfac24529de65d91d7b58f13842
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756146"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756146"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-03-14_
+_**上次修改的主题：** 2014-03-14_
 
-如果你已将后端数据库配置为使用与见证的同步镜像，则自动故障转移。 如果您已配置了没有见证的同步镜像，则可以使用以下过程来故障转移和恢复您的数据库。 你还可以使用这些过程手动故障转移和回切，即使你已配置见证。
+如果已将后端数据库配置为使用具有见证的同步镜像，则故障转移是自动的。如果已配置没有见证的同步镜像，则可使用以下过程进行故障转移并返回数据库。即使也配置见证，也可以使用这些过程手动对数据库进行故障转移和故障回复。
 
 <div>
 
-## <a name="to-fail-over-your-back-end-database"></a>故障转移后端数据库
+## <a name="to-fail-over-your-back-end-database"></a>故障转移到后端数据库
 
-1.  在故障转移之前，通过键入以下 cmdlet 确定哪些后端数据库是主体，哪个是镜像：
+1.  在故障转移之前，通过键入以下 cmdlet 确定哪个后端数据库是主体，哪个是镜像：
     
         Get-CsDatabaseMirrorState -PoolFqdn <poolFQDN> -DatabaseType User
 
@@ -51,23 +51,23 @@ _**主题上次修改时间：** 2014-03-14_
     
         Get-CsDatabaseMirrorState -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt
 
-3.  执行用户数据库的故障转移：
+3.  对用户数据库执行故障转移：
     
-      - 如果主映像出现故障，并且您已故障转移到镜像，请键入：
+      - 如果主体已出现故障并且您要故障转移到镜像，请键入：
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType User -NewPrincipal mirror -Verbose
     
-      - 如果镜像失败，并且您将故障转移到主映像，请键入：
+      - 如果镜像已出现故障并且您要故障转移到主体，请键入：
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType User -NewPrincipal primary -Verbose
 
-4.  如果该池托管中央管理服务器，请执行中央管理存储的故障转移。
+4.  如果池承载中央管理服务器，请执行中央管理存储的故障转移。
     
-      - 如果主映像出现故障，并且您已故障转移到镜像，请键入：
+      - 如果主体已出现故障并且您要故障转移到镜像，请键入：
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt -NewPrincipal mirror -Verbose
     
-      - 如果镜像失败，并且您将故障转移到主映像，请键入：
+      - 如果镜像已出现故障并且您要故障转移到主体，请键入：
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt -NewPrincipal primary -Verbose
 

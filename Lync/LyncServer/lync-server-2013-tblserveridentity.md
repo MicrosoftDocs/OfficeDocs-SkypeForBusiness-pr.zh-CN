@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblServerIdentity
+title: Lync Server 2013： tblServerIdentity
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184125
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2379622ee5b1121367c35b4baac98d6c79d61023
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f6ed7f0eed08dbb4ab3b0d6f41c9ec91fb719f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731202"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731202"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
 tblServerIdentity 包含持久聊天服务器池中的活动聊天服务器。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,24 +57,24 @@ tblServerIdentity 包含持久聊天服务器池中的活动聊天服务器。
 <tbody>
 <tr class="odd">
 <td><p>serverID</p></td>
-<td><p>int，not null</p></td>
-<td><p>服务器 ID。 对应于中央管理存储中的实例 ID。</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>服务器 ID。 与中央管理存储中的实例 ID 相对应。</p></td>
 </tr>
 <tr class="even">
 <td><p>serverAddress</p></td>
-<td><p>nvarchar （256），not null</p></td>
+<td><p>nvarchar (256)，不为 null</p></td>
 <td><p>使用 Windows Communication Foundation 地址的服务器地址。</p></td>
 </tr>
 <tr class="odd">
 <td><p>serverLastPingTime</p></td>
 <td><p>datetime</p></td>
-<td><p>频道服务器更新此行以提供它正在运行的证据的最新时间。</p></td>
+<td><p>通道服务器更新此行以表明服务器正在运行的最新时间。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>关键字
+### <a name="key"></a>键
 
 <table>
 <colgroup>

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11439dd9fd339c3620b3e6288526459f45a2a542
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c400fb6e7e206c43a81cdf6b14b2da0d01486447
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727102"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008888"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41727102"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-19_
+_**上次修改的主题：** 2012-10-19_
 
-删除依赖于这些服务器的运行 Lync Server 2010 的服务器后，或者在将运行 Lync Server 2010 的服务器重新配置为使用另一个数据库之后，删除 Microsoft SQL Server 数据库和实例。 如果你在终止当前 SQL Server 或以某种方式重新配置运行 Lync Server 2010 的当前服务器，以使数据库过时或不可用，则需要执行本主题中的过程。
+删除依赖于这些服务器的运行 Lync Server 2010 的服务器后，或者在将运行 Lync Server 2010 的服务器重新配置为使用另一个数据库之后，删除这些服务器数据库和实例。 当您停用当前 SQL Server 或重新配置运行 Lync Server 2010 的当前服务器时，您需要执行本主题中的过程，以使其呈现数据库已过时或不可用。
 
-若要删除存档服务器或监视服务器的数据库或实例，必须首先删除服务器角色。 同样，若要删除前端池的实例或数据库，必须首先删除或重新配置从属服务器角色。 这些过程不区分 collocated 数据库或服务器的单独实例。 数据库的 collocation 不会影响这些过程。
+若要删除存档服务器或监视服务器的数据库或实例，必须首先删除该服务器角色。 同样，若要删除前端池的实例或数据库，必须首先删除或重新配置相关的服务器角色。 在并置的数据库或单独的服务器实例之间，这些过程没有差别。 这些过程不受数据库并置的影响。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [删除前端池的 SQL Server 数据库](remove-the-sql-server-database-for-a-front-end-pool.md)
 

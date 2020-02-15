@@ -1,5 +1,5 @@
 ---
-title: 升级或更新后端服务器或标准版服务器
+title: 升级或更新后端服务器或 Standard Edition server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0526cc7ba6a6abefd066bf07d845ffed3a4107ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 213a945d27c2c5d0ee2135fd0d96bbe1c29c1971
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744662"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42015355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中升级或更新后端服务器或标准版服务器
+# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中升级或更新后端服务器或 Standard Edition 服务器
 
 </div>
 
@@ -35,55 +35,55 @@ ms.locfileid: "41744662"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-本主题介绍如何在企业版后端服务器或标准版服务器上安装更新。
+本主题介绍如何在企业版后端服务器或 Standard Edition server 上安装更新。
 
-如果后端服务器在升级后至少30分钟，则用户可能会进入恢复模式。 升级完成且后端服务器再次与池中的前端服务器连接时，用户将返回到完整功能。 如果升级所用时间少于 30 分钟，则用户不会受到影响。
+如果在您升级后端服务器时它至少要停机 30 分钟，则用户可能会进入恢复能力模式。升级完成，且后端服务器又与池中的前端服务器连接后，用户会返回到全部功能。如果升级所用时间少于 30 分钟，将不会对用户造成影响。
 
 <div>
 
-## <a name="to-update-a-back-end-server-or-standard-edition-server"></a>更新后端服务器或 Standard Edition Server
+## <a name="to-update-a-back-end-server-or-standard-edition-server"></a>更新后端服务器或 Standard Edition server
 
 1.  以 CsAdministrator 角色的成员身份登录到要升级的服务器。
 
 2.  下载更新并将其提取到本地硬盘。
 
-3.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+3.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-4.  停止 Lync 服务器服务。 在命令行中键入：
+4.  停止 Lync Server 服务。在命令行中键入：
     
         Stop-CsWindowsService
 
-5.  停止万维网服务。 在命令行中键入：
+5.  停止万维网服务。在命令行中键入：
     
         net stop w3svc
 
-6.  关闭所有 Lync Server Management Shell 窗口。
+6.  关闭所有 Lync Server 命令行管理程序窗口。
 
 7.  安装该更新。
 
-8.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+8.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-9.  再次停止 Lync Server 服务以捕获全局程序集缓存（GAC）-d 程序集。 在命令行中键入：
+9.  再次停止 Lync Server 服务以缓存全局程序集缓存 (GAC) –d 程序集。在命令行中键入：
     
         Stop-CsWindowsService
 
-10. 重新启动万维网服务。 在命令行中键入：
+10. 重新启动万维网服务。在命令行中键入：
     
         net start w3svc
 
-11. 通过执行下列操作之一将 LyncServerUpdateInstaller 所做的更改应用到 SQL Server 数据库：
+11. 通过执行以下操作之一将 LyncServerUpdateInstaller.exe 进行的更改应用于 SQL Server 数据库：
     
-      - 如果这是企业版后端服务器，并且此服务器上没有 collocated 数据库（如 "存档" 或 "监视数据库"），请在命令行中键入以下内容：
+      - 如果这是企业版后端服务器，并且此服务器上没有并置数据库（如存档或监控数据库），则在命令行中键入以下内容：
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     
-      - 如果这是企业版后端服务器，并且此服务器上有 collocated 数据库，请在命令行中键入以下内容：
+      - 如果这是企业版后端服务器，并且此服务器上有并置数据库，请在命令行中键入以下内容：
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     
-      - 如果这是标准版服务器，请在命令行键入以下命令：
+      - 如果这是标准版服务器，请在命令行中键入以下命令：
         
             Install-CsDatabase -Update -LocalDatabases
 

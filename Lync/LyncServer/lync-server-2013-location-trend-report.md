@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：位置趋势报表
+title: Lync Server 2013：位置趋势报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26f825a33eeb90817685c1694a5c6579110ffcd6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e74cf4e763272f2309e358120abb12b0424aa40b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762140"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030936"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-trend-report-in-lync-server-2013"></a>Lync Server 2013 中的 "位置趋势" 报表
+# <a name="location-trend-report-in-lync-server-2013"></a>Lync Server 2013 中的位置趋势报告
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762140"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-06_
+_**上次修改的主题：** 2012-06-06_
 
 位置趋势报告提供网络位置的呼叫质量趋势信息。
 
@@ -57,45 +57,45 @@ _**主题上次修改时间：** 2012-06-06_
 <thead>
 <tr class="header">
 <th>名称</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>从</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>到</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>间隔</strong></p></td>
+<td><p><strong>Interval</strong></p></td>
 <td><p>时间间隔。选择下列选项之一：</p>
 <ul>
 <li><p>每小时（最多可显示 25 个小时）</p></li>
 <li><p>每天（最多可显示 31 天）</p></li>
 <li><p>每周（最多可显示 12 周）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。例如，如果选择的开始日期为 2011/1/1、结束日期为 2011/2/28、间隔为“每天”，则显示从 2011/8/1 12:00 AM 到 2011/9/1 12:00 AM 这些天的数据（即总共 31 天的数据）。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。例如，如果选择的开始日期为 8/1/2011、结束日期为 9/28/2011、间隔为“每天”，则显示从 8/1/2011 12:00 AM 到 9/1/2011 12:00 AM 这些天的数据（即总共 31 天的数据）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>访问类型</strong></p></td>
 <td><p>指示客户端在发起呼叫时已登录到内部网络还是外部网络。选择下列选项之一：</p>
 <ul>
-<li><p>[所有]</p></li>
+<li><p>各种</p></li>
 <li><p>内部</p></li>
 <li><p>外部</p></li>
 </ul></td>
@@ -104,7 +104,7 @@ _**主题上次修改时间：** 2012-06-06_
 <td><p><strong>网络类型</strong></p></td>
 <td><p>指示客户端在发起呼叫时已连接到的网络的类型。选择下列选项之一：</p>
 <ul>
-<li><p>[所有]</p></li>
+<li><p>各种</p></li>
 <li><p>有线</p></li>
 <li><p>无线</p></li>
 </ul></td>
@@ -113,7 +113,7 @@ _**主题上次修改时间：** 2012-06-06_
 <td><p><strong>VPN</strong></p></td>
 <td><p>指示外部客户端在发起呼叫时是否使用了虚拟专用网 (VPN) 连接。选择下列选项之一：</p>
 <ul>
-<li><p>[所有]</p></li>
+<li><p>各种</p></li>
 <li><p>VPN</p></li>
 <li><p>非 VPN</p></li>
 </ul></td>

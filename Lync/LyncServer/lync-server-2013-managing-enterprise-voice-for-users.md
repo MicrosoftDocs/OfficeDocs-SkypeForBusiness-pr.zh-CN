@@ -12,16 +12,16 @@ ms:contentKeyID: 49733690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d24e8447cb900349e49e868b0511a232fa22d00a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 887e5cb34917d588f6dfb59ee47e5eda07bc2e83
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729292"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029483"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729292"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-11_
+_**上次修改的主题：** 2012-10-11_
 
-你可以在每个用户的基础上启用企业语音。 使用本部分中的过程，可使用 Lync Server 2013 控制面板和 Lync Server 2013 管理外壳程序管理企业语音。
+可以针对每个用户启用企业语音。 使用本节中的过程可使用 Lync Server 2013 控制面板和 Lync Server 2013 命令行管理程序管理企业语音。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中启用企业语音用户](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [在 Lync Server 2013 中为用户启用企业语音](lync-server-2013-enable-users-for-enterprise-voice.md)
 
-  - [在 Lync Server 2013 中禁用企业语音用户](lync-server-2013-disable-a-user-for-enterprise-voice.md)
+  - [在 Lync Server 2013 中禁用用户的企业语音](lync-server-2013-disable-a-user-for-enterprise-voice.md)
 
 </div>
 

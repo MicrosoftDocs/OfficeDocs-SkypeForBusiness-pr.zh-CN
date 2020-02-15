@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPrincipalMeta
+title: Lync Server 2013： tblPrincipalMeta
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 848f4dc19ddf64c53c2dd30ae6ca4c8036b67c79
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a3571cd93ae5d69fa4a432035284b9a752287b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764092"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033681"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764092"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
 tblPrincipalMeta 包含必须从 Active Directory 域服务刷新的主体。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,44 +57,44 @@ tblPrincipalMeta 包含必须从 Active Directory 域服务刷新的主体。
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int，not null</p></td>
+<td><p>int，不为 null</p></td>
 <td><p>主体 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAffiliationsDirty</p></td>
-<td><p>位，not null</p></td>
-<td><p>如果必须刷新主体隶属关系，则为 True。</p></td>
+<td><p>bit，不为 null</p></td>
+<td><p>如果必须刷新主体附属关系，则为 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesDirty</p></td>
-<td><p>位，not null</p></td>
+<td><p>bit，不为 null</p></td>
 <td><p>如果必须刷新主体属性，则为 True。</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
-<td><p>位，not null</p></td>
-<td><p>如果主体已被删除，则为 True。</p></td>
+<td><p>bit，不为 null</p></td>
+<td><p>如果主体已删除，则为 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p>tryCount</p></td>
 <td><p>int</p></td>
-<td><p>尝试从目前为止发生的 AD DS 刷新主体的次数。</p></td>
+<td><p>截止目前，已发生的尝试从 AD DS 刷新主体的次数。</p></td>
 </tr>
 <tr class="even">
 <td><p>lastTry</p></td>
 <td><p>datetime</p></td>
-<td><p>从最新尝试刷新主体的时间戳。 如果尚未尝试刷新，则可以为 null。</p></td>
+<td><p>最近尝试刷新主体的时间戳。如果尚未尝试任何刷新，可以为 null。</p></td>
 </tr>
 <tr class="odd">
 <td><p>nextTry</p></td>
 <td><p>datetime</p></td>
-<td><p>下一次计划刷新的时间戳。 如果尚未安排进一步刷新，则可以为 null。</p></td>
+<td><p>计划的下一次刷新的时间戳。如果尚未计划进一步刷新，可以为 null。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>标示
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -114,7 +114,7 @@ tblPrincipalMeta 包含必须从 Active Directory 域服务刷新的主体。
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>TblPrincipal 表中的 lookup 的外键。</p></td>
+<td><p>其查找包含在 tblPrincipal.prinID 表中的外键。</p></td>
 </tr>
 </tbody>
 </table>

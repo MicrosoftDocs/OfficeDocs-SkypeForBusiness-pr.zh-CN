@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：组呼叫装货的容量规划
+title: Lync Server 2013：组间呼叫应答的容量规划
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51476680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d694b20d026d83b4cef37c713e38ab8066e22f3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 403a00887cb64b33075f173499e855eb8783bb20
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730292"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中组呼叫装货的容量规划
+# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中组呼叫应答的容量规划
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41730292"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-12_
+_**上次修改的主题：** 2013-02-12_
 
 <div id="sectionSection0" class="section">
 
-下表介绍了组呼叫装货用户模型，您可以将其用作容量规划要求的基础。
+下表介绍了可用作容量规划需求基础的组呼叫装货用户模型。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 组呼叫分拣基于呼叫寄存应用程序。 请记住，对于灾难恢复容量规划，配对池的每个池都应该能够处理呼叫驻留服务的工作负荷，包括组呼叫在两个池中的呼叫。
+> 组呼叫应答基于呼叫寄存应用程序。 请记住，对于灾难恢复容量规划，配对池的每个池应能够在两个池中处理呼叫寄存服务的工作负载，包括组内呼叫应答。
 
 
 
 </div>
 
-### <a name="group-call-pickup-user-model"></a>组呼叫装货用户模型
+### <a name="group-call-pickup-user-model"></a>组呼叫应答用户模型
 
 <table>
 <colgroup>
@@ -61,8 +61,8 @@ _**主题上次修改时间：** 2013-02-12_
 </colgroup>
 <thead>
 <tr class="header">
-<th>指标</th>
-<th>每个前端池（具有8个前端服务器）</th>
+<th>多重</th>
+<th>每个前端池（包含8台前端服务器）</th>
 <th>每台 Standard Edition Server</th>
 </tr>
 </thead>
@@ -78,19 +78,19 @@ _**主题上次修改时间：** 2013-02-12_
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>针对组内呼叫应答启用的每个池的最大用户数</p></td>
+<td><p>为组中的呼叫应答启用的每个池的最大用户数</p></td>
 <td><p>25,000</p></td>
 <td><p>3,000</p></td>
 </tr>
 <tr class="even">
-<td><p>每个池每分钟针对组内呼叫应答启用的所有用户的最大传入呼叫速率</p></td>
+<td><p>每个池每分钟对每个池启用的组内呼叫的总传入呼叫的最大速率</p></td>
 <td><p>500</p></td>
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>每个池每分钟用户使用组内呼叫应答检索的最大呼叫速率</p></td>
+<td><p>用户每个池每分钟检索组中的呼叫的最大速率</p></td>
 <td><p>200</p></td>
-<td><p>二十五</p></td>
+<td><p>word</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,9 +102,9 @@ _**主题上次修改时间：** 2013-02-12_
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>对于少于八个前端服务器的前端池，按线性计算指标。 例如，如果您的前端池有一个前端服务器，请将最大负载计算为表中显示的值1/8。</P>
+> <P>对于少于八台前端服务器的前端池，以线性方式计算指标。 例如，如果您的前端池有一个前端服务器，则计算表中显示的值的最大负载为1/8。</P>
 > <LI>
-> <P>只要不超过每个池的最大用户数，您就可以增加或减少建议的组数以及每组用户数。 例如，你的标准版服务器可以拥有每组25个用户的120组，因为为组呼叫挑选启用的用户数仍在用户模型的最大范围内（即，120组乘以25个3000用户为组呼叫装货启用的用户）。</P></LI></UL>
+> <P>只要您不超过每个池的最大用户数，您就可以按组和组数增加或减少建议的用户数。 例如，您的 Standard Edition server 可以拥有每组25个用户的120组，因为对组呼叫应答启用的用户数量仍在用户模型中的最大值（即，120组数25个用户3000是为用户启用组内呼叫应答的用户）。</P></LI></UL>
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblEnumAttribute
+title: Lync Server 2013： tblEnumAttribute
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764188"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027333"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764188"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
-tblEnumAttribute 是一个硬编码表，其中包含在节点表中使用的 Visibility 和行为属性。
+tblEnumAttribute 是一个硬编码表，包含用于节点表的 Visibility 和 Behavior 属性。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,19 +57,19 @@ tblEnumAttribute 是一个硬编码表，其中包含在节点表中使用的 Vi
 <tbody>
 <tr class="odd">
 <td><p>attributeID</p></td>
-<td><p>smallint，not null</p></td>
+<td><p>smallint，不为 null</p></td>
 <td><p>属性的 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>attributeName</p></td>
-<td><p>nvarchar （256），not null</p></td>
+<td><p>nvarchar (256)，不为 null</p></td>
 <td><p>属性的名称。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>关键字
+### <a name="key"></a>键
 
 <table>
 <colgroup>
@@ -106,12 +106,12 @@ tblEnumAttribute 是一个硬编码表，其中包含在节点表中使用的 Vi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>了解.</p></td>
+<td><p>1 </p></td>
+<td><p>深入.</p></td>
 </tr>
 <tr class="even">
-<td><p>ppls-2</p></td>
-<td><p>现象.</p></td>
+<td><p>2 </p></td>
+<td><p>性能.</p></td>
 </tr>
 </tbody>
 </table>

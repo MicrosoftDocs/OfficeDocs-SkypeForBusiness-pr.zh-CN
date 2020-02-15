@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：先前部署中支持的客户端
+title: Lync Server 2013：以前的部署支持的客户端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184390
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38d4fe00b834778f1ad87f021656ed08488c1ba2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6cff76b750b2c6643ec1bf6ac3419a9892719ea4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731722"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029833"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a>Lync Server 2013 先前部署中支持的客户端
+# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a>Lync Server 2013 中以前的部署支持的客户端
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41731722"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-12-14_
+_**上次修改的主题：** 2012-12-14_
 
-在共存方案中，Lync Server 2013 客户端可以与早期版本的 Lync Server 和 Office 通信服务器交互。 与以前的版本不同，Lync Server 2010 支持新的 Lync 2013 客户端。 这使得从 Lync Server 2010 升级的组织可以独立于 Lync Server 升级来部署新的客户端。
+在共存方案中，Lync Server 2013 客户端可以与早期版本的 Lync Server 和 Office 通信服务器进行交互。 与以前的版本不同，Lync Server 2010 支持新的 Lync 2013 客户端。 这使得从 Lync Server 2010 升级的组织可以独立于 Lync Server 升级来部署新的客户端。
 
 <div>
 
 ## <a name="supported-server-and-client-combinations"></a>支持的服务器和客户端组合
 
-下表显示了客户端版本和服务器版本受支持的组合。 Lync Server 2013 支持两个以前的客户端版本，Lync Server 2010 支持新的 Lync 2013 客户端。
+下表显示受支持的客户端版本和服务器版本的组合。 Lync Server 2013 支持两个以前的客户端版本，Lync Server 2010 支持新的 Lync 2013 客户端。
 
 
 <table>
@@ -55,7 +55,7 @@ _**主题上次修改时间：** 2012-12-14_
 </colgroup>
 <thead>
 <tr class="header">
-<th>客户端</th>
+<th>Client</th>
 <th>Lync Server 2013</th>
 <th>Lync Server 2010</th>
 <th>Office Communications Server 2007 R2</th>
@@ -66,43 +66,43 @@ _**主题上次修改时间：** 2012-12-14_
 <td><p>Lync 2013</p></td>
 <td><p>支持</p></td>
 <td><p>支持</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Web App 2013</p></td>
 <td><p>支持</p></td>
-<td><p>否</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
+<td><p>不支持</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010</p></td>
 <td><p>支持</p></td>
 <td><p>支持</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Attendant</p></td>
 <td><p>支持</p></td>
 <td><p>支持</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010 群聊</p></td>
+<td><p>Lync 2010 组聊天</p></td>
 <td><p>不适用</p></td>
 <td><p>Supported1</p></td>
 <td><p>不适用</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Web App 2010</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
 <td><p>支持</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Attendee</p></td>
 <td><p>不 Supported2</p></td>
 <td><p>支持</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007 R2</p></td>
@@ -112,19 +112,19 @@ _**主题上次修改时间：** 2012-12-14_
 </tr>
 <tr class="odd">
 <td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
 <td><p>支持</p></td>
 <td><p>支持</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
 <td><p>支持</p></td>
 <td><p>支持</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Live Meeting 2007</p></td>
-<td><p>否</p></td>
+<td><p>不支持</p></td>
 <td><p>支持</p></td>
 <td><p>支持</p></td>
 </tr>
@@ -132,17 +132,17 @@ _**主题上次修改时间：** 2012-12-14_
 </table>
 
 
-1In Microsoft Lync Server 2010，群组聊天功能可通过群组聊天服务器使用，这是 Lync Server 2010 的第三方受信任的应用程序。 Lync 2013 客户端与 Lync Server 2010、群组聊天不兼容。
+1In Microsoft Lync Server 2010，组聊天功能可用于 Lync Server 2010 的第三方受信任应用程序的组聊天服务器。 Lync 2013 客户端与 Lync Server 2010、组聊天不兼容。
 
-2Lync Web App 2013 现在提供了一个完整的会议体验，包括计算机音频和视频，并被视为 Lync 2010 与会者的替换。
+2Lync Web App 2013 现在提供了完整的会议体验，包括计算机音频和视频，并被视为 Lync 2010 与会者的替代项。
 
-Office Communicator 2007 R2 中的3The 状态和 IM 功能与 Lync Server 2013 兼容，但会议功能不兼容。 从 Office 通信服务器 2007 R2 迁移期间，Office Communicator 2007 R2 适用于状态和 IM 互操作性，但用户应使用 Lync Web App 2013 加入 Lync Server 2013 会议。
+Office Communicator 2007 R2 中的3The 状态和 IM 功能与 Lync Server 2013 兼容，但会议功能不兼容。 从 Office 通信服务器 2007 R2 迁移过程中，Office Communicator 2007 R2 适用于状态和 IM 互操作性，但用户应使用 Lync Web App 2013 加入 Lync Server 2013 会议。
 
 <div>
 
 
 > [!NOTE]  
-> 有关 Lync Server 2013 客户端与早期版本的 Lync Server 和 Office 通信服务器共存和交互的功能的详细信息，请参阅规划文档中<A href="lync-server-2013-client-interoperability-in-lync-2013.md">Lync 2013 中的客户端互操作性</A>。
+> 有关 Lync Server 2013 客户端在早期版本的 Lync Server 和 Office 通信服务器中共存并与客户端交互的功能的详细信息，请参阅规划文档中的<A href="lync-server-2013-client-interoperability-in-lync-2013.md">lync 2013 中的客户端互操作性</A>。
 
 
 

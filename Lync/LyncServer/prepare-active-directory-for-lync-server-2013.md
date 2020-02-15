@@ -12,16 +12,16 @@ ms:contentKeyID: 48185413
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6bedd4e0d008f448da97ad5fc5bf62d810cfedc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 725bb861cdabff370d8a15b15d3dc8d511cbe901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727362"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727362"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-在使用 Office 通信服务器 2007 R2 在共存状态中部署 Lync Server 2013 之前，必须执行一些其他 Active Directory 任务，以便为 Lync Server 2013 配置架构、林和域。 架构扩展添加 Lync Server 所需的 Active Directory 类和属性。 有关其他信息，请参阅[为 Lync Server 2013 准备 Active Directory 域服务](lync-server-2013-preparing-active-directory-domain-services.md)主题。
+在 Office 通信服务器 2007 R2 的共存状态中部署 Lync Server 2013 之前，必须执行一些额外的 Active Directory 任务，以配置 Lync Server 2013 的架构、林和域。 架构扩展添加了 Lync Server 所需的 Active Directory 类和属性。 有关详细信息，请参阅[为 Lync Server 2013 准备 Active Directory 域服务](lync-server-2013-preparing-active-directory-domain-services.md)主题。
 
 **为 Lync Server 2013 准备 Active Directory**
 
@@ -45,9 +45,9 @@ _**主题上次修改时间：** 2012-10-01_
 
 2.  选择 "**准备 Active Directory** "
     
-    ![Lync Server 2013 部署向导，"欢迎" 页面](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 部署向导，"欢迎" 页面")
+    ![Lync Server 2013 部署向导，欢迎页面](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 部署向导，欢迎页面")
 
-3.  完成步骤1至步骤5。
+3.  完成步骤 1 至 5。
     
     ![部署向导的 Active Directory Prearation](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "部署向导的 Active Directory Prearation")
 

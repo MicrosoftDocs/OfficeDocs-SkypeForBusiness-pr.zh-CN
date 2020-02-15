@@ -12,16 +12,16 @@ ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd35b9444f0ede4abc9b66ab6b5513d049df57ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3ded5de5500778559efe632c5272db50b0eadbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41735182"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-12-04_
+_**上次修改的主题：** 2012-12-04_
 
 Lync Server 2013 支持的 Active Directory 域服务本地拓扑如下所示：
 
@@ -53,7 +53,7 @@ Lync Server 2013 支持的 Active Directory 域服务本地拓扑如下所示：
 
 
 > [!NOTE]  
-> Lync Server 2013 不支持单标签域。 例如，支持一个名为 " <STRONG>contoso. local</STRONG> " 的根域的林，但不支持名为<STRONG>local</STRONG>的单标签根域。 有关详细信息，请参阅 Microsoft 知识库文章 300684 "有关为具有单标签 DNS 名称的域配置 Windows 的信息" <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>。
+> Lync Server 2013 不支持单标签域。 例如，支持具有名为<STRONG>contoso. local</STRONG>的根域的林，但不支持名为<STRONG>local</STRONG>的单标签根域。 有关详细信息，请参阅 Microsoft 知识库文章 300684 "有关为带有单标签 DNS 名称的域配置 Windows 的信息" <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>。
 
 
 
@@ -63,13 +63,13 @@ Lync Server 2013 支持的 Active Directory 域服务本地拓扑如下所示：
 
 
 > [!NOTE]  
-> Lync Server 2013 不支持重命名域。 如果需要重命名 Lync Server 部署到的域，你需要先卸载 Lync Server，然后重命名域，然后重新安装 Lync Server。
+> Lync Server 2013 不支持对域进行重命名。 如果需要重命名已在其中部署 Lync Server 的域，则需要先卸载 Lync Server，再重命名域，然后重新安装 Lync Server。
 
 
 
 </div>
 
-有关受支持的本地部署拓扑和要求的详细信息，请参阅规划文档中[Lync Server 2013 中的 Active Directory 域服务要求、支持和拓扑](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md)。
+有关支持的拓扑和本地部署要求的详细信息，请参阅规划文档中的[Lync Server 2013 中的 Active Directory 域服务要求、支持和拓扑](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md)。
 
 </div>
 

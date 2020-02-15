@@ -12,16 +12,16 @@ ms:contentKeyID: 48184800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00f45a7da053dd6dc150ae99e93b780117ba01e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e47225ae9effb4adfb4e312769a79d5f8b59f53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758594"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758594"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-18_
+_**上次修改的主题：** 2013-02-18_
 
-管理企业语音包括配置语音策略和拨号计划等内容，以及将语音策略与语音路由相关联。 与管理语音策略相关的 cmdlet 可用于设置诸如同时拨打等功能（每次有人呼叫您的 office phone 时有第二个电话响铃的能力）、呼叫转接和拨号要求。
+管理企业语音包括配置语音策略和拨号计划等，以及将语音策略与语音路由关联。可使用与管理语音策略相关的 Cmdlet 设置诸如同时响铃（每次有人拨打办公电话时可以同时使第二部电话响铃的功能）、呼叫转接和拨号要求等功能。
 
 <div>
 
@@ -48,50 +48,50 @@ _**主题上次修改时间：** 2013-02-18_
 **语音策略**
 
   - <span></span>  
-    [Get-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg413043(v=OCS.15))
+    [Grant-csdialplan](https://technet.microsoft.com/library/Gg413043(v=OCS.15))
 
   - <span></span>  
-    [Grant-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398547(v=OCS.15))
+    [Grant-Grant-csdialplan](https://technet.microsoft.com/library/Gg398547(v=OCS.15))
 
   - <span></span>  
-    [New-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg425860(v=OCS.15))
+    [新 Grant-csdialplan](https://technet.microsoft.com/library/Gg425860(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398791(v=OCS.15))
+    [Grant-csdialplan](https://technet.microsoft.com/library/Gg398791(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg398644(v=OCS.15))
+    [Grant-csdialplan](https://technet.microsoft.com/library/Gg398644(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Test-Grant-csdialplan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg412734(v=OCS.15))
+    [CsPstnUsage](https://technet.microsoft.com/library/Gg412734(v=OCS.15))
 
   - <span></span>  
-    [Set-CsPstnUsage](https://technet.microsoft.com/en-us/library/Gg399069(v=OCS.15))
+    [CsPstnUsage](https://technet.microsoft.com/library/Gg399069(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398101(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398101(v=OCS.15))
 
   - <span></span>  
-    [授权-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398828(v=OCS.15))
+    [Grant-Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398828(v=OCS.15))
 
   - <span></span>  
-    [新-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg425856(v=OCS.15))
+    [新 Set-csvoicepolicy](https://technet.microsoft.com/library/Gg425856(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398309(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398309(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg399021(v=OCS.15))
+    [Set-csvoicepolicy](https://technet.microsoft.com/library/Gg399021(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Test-Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 </div>
 

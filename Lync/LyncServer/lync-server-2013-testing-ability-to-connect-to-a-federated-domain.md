@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：用于连接到联盟域的测试能力
+title: Lync Server 2013：测试连接到联盟域的能力
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18a8c703b085fe559b3a979ac72d9c0b0dfe38f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82c44cf7cff78fc93054679ae1bc4c66bc6b4c40
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746012"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42016233"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>从 Lync Server 2013 连接到联盟域的测试能力
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>从 Lync Server 2013 中连接到联盟域的测试能力
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746012"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-06-05_
+_**上次修改的主题：** 2014-06-05_
 
 
 <table>
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2014-06-05_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要权限</p></td>
-<td><p>当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行 CsFederatedPartner cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<td><p>所需的权限</p></td>
+<td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsFederatedPartner cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**主题上次修改时间：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-测试 CsFederatedPartner 验证您是否能够连接到联盟伙伴的域。 若要验证与域的连接，该域必须在允许（联合）域的集合中列出。 您可以使用以下命令检索 "允许的域" 列表中的域列表：
+Test-CsFederatedPartner 验证您能否连接到联盟伙伴的域。 若要验证与某个域的连接，该域必须列在允许（联合）域的集合中。 您可以使用以下命令检索 "允许的域" 列表中的域列表：
 
     Get-CsAllowedDomain
 
@@ -78,11 +78,11 @@ _**主题上次修改时间：** 2014-06-05_
 
 ## <a name="running-the-test"></a>运行测试
 
-FederatedPartner cmdlet 需要两条信息： Edge 服务器的 FQDN 和联盟伙伴的 FQDN。 例如，此命令测试连接到域 contoso.com 的能力：
+FederatedPartner cmdlet 需要以下两条信息：边缘服务器的 FQDN 和联盟伙伴的 FQDN。 例如，以下命令将测试连接到域 contoso.com 的能力：
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
-通过此命令，你可以测试与当前在允许的域列表中的所有域的连接：
+通过此命令，您可以测试与当前允许的域列表中的所有域的连接：
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
@@ -92,9 +92,9 @@ FederatedPartner cmdlet 需要两条信息： Edge 服务器的 FQDN 和联盟�
 
 <div>
 
-## <a name="determining-success-or-failure"></a>确定成功还是失败
+## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果可以联系指定的域，你将收到与以下内容类似的输出：结果属性标记为**成功：**
+如果可以联系指定的域，则会收到类似于以下内容的输出，并将 Result 属性标记为**成功：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -102,11 +102,11 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延迟：00:00:00
 
-时发生
+误差
 
-自检
+诊断
 
-如果无法联系指定域，则结果将显示为 "失败"，并且将在 "错误" 和 "诊断" 属性中记录其他信息：
+如果无法联系指定的域，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -116,13 +116,13 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 错误：504，服务器超时
 
-诊断： ErrorCode = 2，Source = atl-litwareinc，Reason = 请参阅
+诊断： ErrorCode = 2，Source = atl-cs-litwareinc，Reason = 参阅
 
 响应代码和原因短语。
 
 Microsoft DiagnosticHeader
 
-例如，以前的输出表明测试因服务器超时错误而失败。 这通常表示网络连接问题或联系边缘服务器时出现问题。
+例如，以前的输出表明测试因服务器超时错误而失败。 这通常指示网络连接问题或联系边缘服务器时出现问题。
 
 如果 CsFederatedPartner 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
 
@@ -134,21 +134,21 @@ Microsoft DiagnosticHeader
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-下面是测试 CsFederatedPartner 可能失败的一些常见原因：
+以下是测试 CsFederatedPartner 可能失败的一些常见原因：
 
-  - 边缘服务器可能不可用。 你可以使用以下命令来使用 Edge 服务器的 Fqdn：
+  - 边缘服务器可能不可用。 您可以使用以下命令来使用您的边缘服务器的 Fqdn：
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
-    然后，你可以 ping 每台边缘服务器以验证是否可以通过网络访问它。 例如：
+    然后，可以 ping 每台边缘服务器以验证是否可以通过网络访问它。 例如：
     
         ping atl-edge-001.litwareinc.com
 
-  - 指定域可能未在 "允许的域" 列表中列出。 若要验证已添加到 "允许的域" 列表中的域，请使用以下命令：
+  - 指定的域可能未列在允许的域列表中。 若要验证已添加到允许的域列表中的域，请使用以下命令：
     
         Get-CsAllowedDomain
     
-    如果你想要查看阻止用户与之通信的域的列表，请使用以下命令：
+    如果您想要查看阻止用户与之通信的域的列表，请使用以下命令：
     
         Get-CsBlockedDomain
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e80416897370711ce3bbadf3285cf25fad51f67d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 826dc7971eb2069573cb2b51095162b8f29f1ab9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729302"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029503"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41729302"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-19_
+_**上次修改的主题：** 2013-02-19_
 
 本节中的主题提供了可通过使用 Lync Server 2013 控制面板中的 "**客户端**" 组执行的任务的分步过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的常见区域电话](lync-server-2013-common-area-phones.md)
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2013-02-19_
 
   - [Lync Server 2013 中的测试设备](lync-server-2013-test-devices.md)
 
-  - [Lync Server 2013 中的 Lync Phone Edition 配置设置](lync-server-2013-lync-phone-edition-configuration-settings.md)
+  - [Lync Server 2013 中的 lync Phone Edition 配置设置](lync-server-2013-lync-phone-edition-configuration-settings.md)
 
   - [Lync Server 2013 中的设备更新 Web 服务](lync-server-2013-device-update-web-service.md)
 

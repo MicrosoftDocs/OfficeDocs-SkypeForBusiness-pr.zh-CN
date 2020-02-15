@@ -12,16 +12,16 @@ ms:contentKeyID: 49733603
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05ff091d45e1dd6ebb605c160c91a96c56c0c12e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0b180ffec9081cfe6ba8c0defc79616edc427277
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756666"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41756666"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-11_
+_**上次修改的主题：** 2012-10-11_
 
-Office 通信服务器 2007 R2 最佳做法分析器工具可从 Office 通信服务器 2007 R2 部署中收集配置信息，并确定是否根据 Microsoft 最佳做法设置配置。 可以在运行 Microsoft .NET Framework 2.0 的客户端计算机上安装该工具，也可以直接在运行 Office 通信服务器 2007 R2 的服务器上安装该工具。 我们建议你在客户端计算机上安装并运行此工具。 还应在客户端计算机上本地安装 Office 通信服务器 2007 R2 管理工具，以便最佳做法分析器可以收集完整的数据集。
+Office 通信服务器 2007 R2 最佳实践分析工具从 Office 通信服务器 2007 R2 部署中收集配置信息，并根据 Microsoft 最佳实践确定是否设置配置。 可以在运行 Microsoft .NET Framework 2.0 的客户端计算机上安装该工具，也可以直接在运行 Office 通信服务器 2007 R2 的服务器上安装该工具。 建议在客户端计算机上安装和运行该工具。 此外，还应在客户端计算机上本地安装 Office 通信服务器 2007 R2 管理工具，以便最佳实践分析工具能够收集完整的数据集。
 
-您可以从 Microsoft 下载中心下载 Office 通信服务器 2007 R2 最佳实践分析程序[http://go.microsoft.com/fwlink/p/?LinkId=268702](http://go.microsoft.com/fwlink/p/?linkid=268702)。
+您可以从 Microsoft 下载中心下载 Office 通信服务器 2007 R2 最佳实践分析工具[http://go.microsoft.com/fwlink/p/?LinkId=268702](http://go.microsoft.com/fwlink/p/?linkid=268702)。
 
 </div>
 

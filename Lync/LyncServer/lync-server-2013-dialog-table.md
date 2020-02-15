@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Dialog 表
+title: Lync Server 2013： Dialog 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f0ef564ad1224ba9970b7cceb5db60e0eb344da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 578b27a61e6af7114da19eb0d6d21dea38dba551
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762240"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036732"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dialog-table-in-lync-server-2013"></a>Lync Server 2013 中的 Dialog 表
+# <a name="dialog-table-in-lync-server-2013"></a>Lync Server 2013 中的对话框表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762240"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
-对话框表是支持表;每条记录表示一个会话初始协议（SIP）对话框。
+Dialog 表是一个支持表；每条记录代表一个会话初始协议 (SIP) 对话。
 
 
 <table>
@@ -52,33 +52,33 @@ _**主题上次修改时间：** 2012-10-02_
 <th><strong>列</strong></th>
 <th><strong>数据类型</strong></th>
 <th><strong>键/索引</strong></th>
-<th><strong>详细信息</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primary</p></td>
-<td><p>优质（QoE） agent 接收来自呼叫方或被叫方的第一个报告的时间。 与 SessionSeq 结合使用以唯一标识会话。</p></td>
+<td><p>主</p></td>
+<td><p>用户体验质量 (QoE) 代理从呼叫者或被叫方接收第一个报告的时间。与 SessionSeq 结合使用来唯一地标识会话。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>序列号，以便在具有相同的 ConferenceDateTime 时区分会话。</p></td>
+<td><p>主</p></td>
+<td><p>当会话具有相同的 ConferenceDateTime 时区分会话的序号。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogID</strong></p></td>
 <td><p>varchar （256）</p></td>
 <td></td>
-<td><p>全局唯一的对话框 ID。</p></td>
+<td><p>全局唯一的对话 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogIDChecksum</strong></p></td>
 <td><p>int</p></td>
-<td><p>食指</p></td>
-<td><p>对话框 ID 的校验和。</p></td>
+<td><p>index</p></td>
+<td><p>对话 ID 的校验和。</p></td>
 </tr>
 </tbody>
 </table>

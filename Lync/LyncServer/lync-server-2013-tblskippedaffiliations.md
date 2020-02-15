@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblSkippedAffiliations
+title: Lync Server 2013： tblSkippedAffiliations
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183373
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 510f9559091395665019dad699f346f26e81b1ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c61c2744c6a2cdf8b857161d3476885992c4d74e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731192"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
-tblSkippedAffiliations 包含无法读取的隶属关系（通常是由于 Active Directory 域服务访问错误）。
+tblSkippedAffiliations 包含无法读取的隶属关系（通常是由于 Active Directory 域服务访问错误而引起的）。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,25 +57,25 @@ tblSkippedAffiliations 包含无法读取的隶属关系（通常是由于 Activ
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int，not null</p></td>
+<td><p>int，不为 null</p></td>
 <td><p>主体 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>affDescription</p></td>
-<td><p>nvarchar （256），not null</p></td>
-<td><p>标识隶属关系的字符串。</p>
+<td><p>nvarchar (256)，不为 null</p></td>
+<td><p>标识隶属项的字符串。</p>
 <p>格式为： guid： {0} uri： {1} &gt; id：{2}</p></td>
 </tr>
 <tr class="odd">
 <td><p>updatedBy</p></td>
-<td><p>int，not null</p></td>
-<td><p>已更新此行的主体的 ID。 由于 Active Directory 同步是这些条目的唯一源，因此始终为1（系统用户）。</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>更新此行的主体的 ID。该值始终为 1（系统用户），因为 Active Directory 同步是这些条目的唯一来源。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>标示
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -95,7 +95,7 @@ tblSkippedAffiliations 包含无法读取的隶属关系（通常是由于 Activ
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>TblPrincipal 表中的 lookup 的外键。</p></td>
+<td><p>其查找包含在 tblPrincipal.prinID 表中的外键。</p></td>
 </tr>
 </tbody>
 </table>

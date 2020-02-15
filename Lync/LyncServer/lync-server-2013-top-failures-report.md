@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：热门失败报告
+title: Lync Server 2013：热门故障报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a62dce5d074b19c2bc8958715ced61bb54a4c8e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c24c8879f967553d5bb6449f9245781f2b56e46
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745232"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029453"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="top-failures-report-in-lync-server-2013"></a>Lync Server 2013 中的 "热门故障" 报表
+# <a name="top-failures-report-in-lync-server-2013"></a>Lync Server 2013 中的热门故障报告
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41745232"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
 主要故障报告说明了最常报告的故障及其在一段时间内的趋势。故障基于以下两项指标的组合：
 
   - **诊断 ID**。附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式）。诊断 ID 提供的信息在解决与呼叫相关的问题时很有用。
 
-  - **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 最大的失败报告仅包括为响应调用故障而发送的响应代码;Lync 服务器不跟踪通话过程中发出的所有响应代码。
+  - **响应代码**。 响应代码在 SIP 通信会话中用来响应 SIP 请求。 例如，假定 Ken 将 INVITE 请求发送给 Pilar Ackerman（即，假定 Ken Myer 呼叫 Pilar Ackerman）。 如果 Pilar 应答，则她的电话将发送响应代码 200（确定），以便让 Ken 的电话获知 Pilar 已应答。 顶级故障报告仅包括在响应呼叫失败时发送的响应代码。Lync Server 不会跟踪在呼叫过程中发出的所有响应代码。
 
 不仅将报告与出现故障的会话的总数相关的信息，而且还将报告与受故障影响的用户总数相关的信息。
 
@@ -49,7 +49,7 @@ _**主题上次修改时间：** 2012-10-01_
 
 ## <a name="accessing-the-top-failures-report"></a>访问主要故障报告
 
-可从监控报告主页访问主要故障报告。 单击报告的会话指标将转到[Lync Server 2013 中的失败分发报告](lync-server-2013-failure-distribution-report.md)。
+可从监控报告主页访问主要故障报告。 单击报告的会话指标将转到[Lync Server 2013 中的故障分布报告](lync-server-2013-failure-distribution-report.md)。
 
 </div>
 
@@ -73,7 +73,7 @@ _**主题上次修改时间：** 2012-10-01_
 
 ## <a name="filters"></a>筛选器
 
-利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，主要故障报告允许您基于活动类型（对等会话还是会议会话）或失败会话附带的 SIP 响应代码等条件筛选返回的数据。您还可以选择数据的分组方式。在此示例中，将按小时、日、周或月对使用情况进行分组。
+利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，主要故障报告允许您基于活动类型（点对点会话还是会议会话）或失败会话附带的 SIP 响应代码等条件筛选返回的数据。您还可以选择数据的分组方式。在此示例中，将按小时、日、周或月对使用情况进行分组。
 
 下表列出了可用于主要故障报告的筛选器。
 
@@ -92,20 +92,20 @@ _**主题上次修改时间：** 2012-10-01_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>从</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>到</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
@@ -115,18 +115,18 @@ _**主题上次修改时间：** 2012-10-01_
 <td><p><strong>活动类型</strong></p></td>
 <td><p>活动的类型。选择下列选项之一：</p>
 <ul>
-<li><p>[所有]</p></li>
+<li><p>各种</p></li>
 <li><p>对等</p></li>
-<li><p>会议</p></li>
+<li><p>发布会</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>形式</strong></p></td>
-<td><p>在这里，只能选择“<strong>[所有]</strong>”选项。</p></td>
+<td><p><strong>模态</strong></p></td>
+<td><p>在这里，只能选择“[所有]”<strong></strong>选项。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>池</strong></p></td>
-<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“<strong>[所有]</strong>”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”<strong></strong>查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>类别</strong></p></td>
@@ -135,7 +135,7 @@ _**主题上次修改时间：** 2012-10-01_
 <li><p>预期失败和意外失败</p></li>
 <li><p>意外失败</p></li>
 </ul>
-<p>&quot;预期的故障&quot;是预期发生的故障。 例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。 &quot;意外故障&quot;是指出现在其他正常运行的系统中的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
+<p>&quot;预期故障&quot;是预期发生的故障。 例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。 &quot;意外故障&quot;是指看起来好像是以其他正常运行的系统出现的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>响应代码</strong></p></td>
@@ -170,12 +170,12 @@ _**主题上次修改时间：** 2012-10-01_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>等级</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>是</p></td>
 <td><p>基于报告的会话数确定的相对等级。</p></td>
 </tr>

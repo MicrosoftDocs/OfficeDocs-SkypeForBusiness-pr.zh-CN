@@ -12,16 +12,16 @@ ms:contentKeyID: 48184716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4aeeff884decf5d94ba15eecd5f49c87baece99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a23252190b9ce93ed397e1e44ea400efa9db856c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745862"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036662"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41745862"
 
 <span> </span>
 
-_**主题上次修改时间：** 2010-11-03_
+_**上次修改的主题：** 2010-11-03_
 
 如果需要测试 Kerberos 分配或确定 Kerberos 身份验证的状态，则可以使用 Windows PowerShell cmdlet。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中测试并报告 Kerberos 身份验证的功能准备工作](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
+  - [在 Lync Server 2013 中测试和报告 Kerberos 身份验证的功能准备情况](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
 
   - [在 Lync Server 2013 中报告 Kerberos 帐户分配](lync-server-2013-report-kerberos-account-assignments.md)
 

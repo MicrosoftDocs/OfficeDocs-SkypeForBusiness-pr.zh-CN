@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：配置 CAC 的网络区域
+title: Lync Server 2013：为 CAC 配置网络区域
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185906
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d80a5ec8d02376ae084f1973f47690259cac364d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: acafaca86af1943d2614349ff42f04fa87faddaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758370"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41758370"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-21_
+_**上次修改的主题：** 2012-09-21_
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果你已为 E9 或 media 旁路创建了网络区域，则可以通过使用<STRONG>CsNetworkRegion</STRONG> cmdlet 添加特定于呼叫许可控制（CAC）的设置来修改现有网络区域。 有关如何修改网络区域的示例，请参阅<A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync Server 2013 中创建或修改网络区域</A>。
+> 如果已为 E9-1-1 或媒体旁路创建网络区域，则可以通过使用 <STRONG>Set-CsNetworkRegion</STRONG> cmdlet 添加特定于呼叫允许控制 (CAC) 的设置来修改现有网络区域。 有关如何修改网络区域的示例，请参阅<A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync Server 2013 中创建或修改网络区域</A>。
 
 
 
 </div>
 
-*网络区域*是用于配置 CAC、E9-1 和媒体旁路的网络中心或 backbones。 在 CAC 的示例网络拓扑中，使用以下过程创建与网络区域对齐的网络区域。 若要查看示例网络拓扑，请参阅：在规划文档中[收集 Lync Server 2013 中的呼叫许可控制要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)。
+“网络区域”** 是在配置 CAC、E9-1-1 和媒体旁路的配置中使用的网络中心或网络中枢。 使用以下过程创建网络区域，这些网络区域与 CAC 的示例网络拓扑中的网络区域一致。 若要查看示例网络拓扑，请参阅规划文档中的[示例：在 Lync Server 2013 中收集呼叫允许控制的要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)。
 
-CAC 的示例网络拓扑有三个区域：北美洲、EMEA 和 APAC。 每个区域都有一个指定的中心网站。 对于北美地区，指定的中心网站称为芝加哥。 以下过程显示了如何使用**CsNetworkRegion** Cmdlet 创建北美区域的示例。
+CAC 的示例网络拓扑有三个区域：北美、EMEA 和 APAC。 每个区域都有一个指定的中央站点。 对于 North America 区域，指定的中央站点名为 CHICAGO。 以下过程显示了如何使用 **New-CsNetworkRegion** cmdlet 创建 North America 区域的示例。
 
 <div>
 
 
 > [!NOTE]  
-> 在以下过程中，Lync Server Management Shell 用于创建网络区域。 有关使用 Lync Server "控制面板" 创建网络区域的详细信息，请参阅<A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync server 2013 中创建或修改网络区域</A>。
+> 在下面的过程中，将使用 Lync Server 命令行管理程序创建网络区域。 有关使用 Lync Server 控制面板创建网络区域的详细信息，请参阅<A href="lync-server-2013-create-or-modify-a-network-region.md">在 Lync server 2013 中创建或修改网络区域</A>。
 
 
 
@@ -63,15 +63,15 @@ CAC 的示例网络拓扑有三个区域：北美洲、EMEA 和 APAC。 每个�
 
 <div>
 
-## <a name="to-create-a-network-region-for-call-admission-control"></a>为 "呼叫许可控制" 创建网络区域
+## <a name="to-create-a-network-region-for-call-admission-control"></a>创建呼叫允许控制的网络区域
 
-1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-2.  对于你需要创建的每个区域，请运行**CsNetworkRegion** cmdlet。 例如，若要创建北美地区，请运行：
+2.  对于每个需要创建的区域，运行 **New-CsNetworkRegion** cmdlet。 例如，要创建 North America 区域，请运行：
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
 
-3.  重复步骤2创建网络区域、EMEA 和 APAC。
+3.  重复步骤 2 以创建网络区域、EMEA 和 APAC。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68864b6e5773bcd1cb9f063b400015697285ba36
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba3a74f59bc996defcd9baee9162d034ab2178eb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741202"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741202"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-07-03_
+_**上次修改的主题：** 2013-07-03_
 
-下面一节介绍如何配置 Active Directory 联合身份验证服务 (AD FS 2.0) 来支持多重身份验证。 有关如何安装 AD FS 2.0 的信息，请参阅广告 FS 2.0 分步介绍和操作指南[http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374)。
+下一节介绍如何配置 Active Directory 联合身份验证服务（AD FS 2.0）以支持多重身份验证。 有关如何安装 AD FS 2.0 的信息，请参阅 AD FS 2.0 分步和操作方法指南[http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374)。
 
 <div class="">
 
 
 > [!NOTE]  
-> 安装 AD FS 2.0 时，请勿使用 Windows Server Manager 添加联合身份验证服务角色。 请改为在<A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>RTW 下载并安装 Active Directory 联合身份验证服务2.0 程序包。
+> 安装 AD FS 2.0 时，请勿使用 Windows Server 管理器添加 Active Directory 联合身份验证服务角色。 请改为在上<A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>下载并安装 Active Directory 联合身份验证服务 2.0 RTW 包。
 
 
 
@@ -52,27 +52,27 @@ _**主题上次修改时间：** 2013-07-03_
 <div>
 
 
-**针对双重身份验证配置 AD FS**
+**将 AD FS 配置为进行双重身份验证**
 
 1.  使用域管理员帐户登录到 AD FS 2.0 计算机。
 
 2.  启动 Windows PowerShell。
 
-3.  从 Windows PowerShell 命令行，运行以下命令：
+3.  从 Windows PowerShell 命令行中，运行以下命令：
     ```powershell
     add-pssnapin Microsoft.Adfs.PowerShell
     ```
-4.  使用 Lync Server 2013 的累积更新建立与每个 Lync Server 2013 的合作关系：7月 2013 Director、Enterprise Pool 和标准版服务器，通过运行以下命令来启用被动身份验证，并替换特定于你的部署的服务器名称：
+4.  使用 Lync Server 2013 的累积更新建立与每个 Lync Server 2013 的合作关系：7月 2013 Director、Enterprise Pool 和 Standard Edition Server，通过运行以下命令将启用被动身份验证，并替换特定于您的部署的服务器名称：
     ```powershell
     Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
      ```
-5.  从“管理工具”菜单中，启动 AD FS 2.0 管理控制台。
+5.  从 "管理工具" 菜单中，启动 AD FS 2.0 管理控制台。
 
 6.  展开 "**信任关系** \> "**信赖方信任**。
 
-7.  验证是否已为 Lync Server 2013 创建了新信任，其中包含 Lync Server 2013 的累积更新：7月2013企业版池或标准版服务器。
+7.  验证是否已为你的 Lync Server 2013 创建了新的信任，并具有 Lync Server 2013 的累积更新：7月 2013 Enterprise Pool 或 Standard Edition Server。
 
-8.  使用 Windows PowerShell 通过运行以下命令为您的依赖方信任创建并分配颁发授权规则：
+8.  通过运行以下命令为您使用 Windows PowerShell 的信赖方信任创建并分配发布授权规则：
     
        ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
@@ -83,7 +83,7 @@ _**主题上次修改时间：** 2013-07-03_
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
        ```
 
-9.  使用 Windows PowerShell 通过运行以下命令为您的依赖方信任创建并分配颁发转换规则：
+9.  通过运行以下命令为您使用 Windows PowerShell 的信赖方信任创建并分配一个颁发转换规则：
     
        ```powershell
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
@@ -93,11 +93,11 @@ _**主题上次修改时间：** 2013-07-03_
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 
-10. 从 AD FS 2.0 管理控制台中，右键单击您的依赖方信任并选择“编辑声明规则”****。
+10. 从 AD FS 2.0 管理控制台中，右键单击您的信赖方信任，然后选择 "**编辑声明规则**"。
 
-11. 选择“颁发授权规则”**** 选项卡，并验证是否已成功创建新的授权规则。
+11. 选择 "**颁发授权规则**" 选项卡，并验证是否已成功创建新的授权规则。
 
-12. 选择“颁发转换规则”**** 选项卡，并验证是否已成功创建新的转换规则。
+12. 选择 "**颁发转换规则**" 选项卡，并验证是否已成功创建新的转换规则。
 
 </div>
 

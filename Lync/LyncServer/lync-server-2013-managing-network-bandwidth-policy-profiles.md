@@ -12,20 +12,20 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd960561309bf8d7e82b028b5a2314400763dc4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f536f82042da6f24c981ea9109a2d81d1736a541
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743312"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>管理 Lync Server 2013 中的网络带宽策略配置文件
+# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>在 Lync Server 2013 中管理网络带宽策略配置文件
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743312"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-15_
+_**上次修改的主题：** 2012-10-15_
 
-使用本部分中的过程管理您的网络带宽策略配置文件。 有关媒体流量的网络带宽要求的详细信息，请参阅[Lync Server 2013 中媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。
+可使用本节中的过程来管理您的网络带宽策略配置文件。 有关媒体流量的网络带宽要求的详细信息，请参阅[Lync Server 2013 中媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看网络带宽策略配置文件信息](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
 
   - [在 Lync Server 2013 中创建或修改带宽策略配置文件](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
 
-  - [删除 Lync Server 2013 中的网络带宽策略配置文件](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
+  - [在 Lync Server 2013 中删除网络带宽策略配置文件](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
 
 </div>
 

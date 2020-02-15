@@ -12,16 +12,16 @@ ms:contentKeyID: 48184182
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71f298db233a76f40538fe2372d4a23f2dc7de62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 72df2bc5dc871d4eb86ea5f3a8153e7693e6f695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731692"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731692"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-04-30_
+_**上次修改的主题：** 2012-04-30_
 
-Lync Server 2013 支持从 Microsoft Lync Server 2010 和 Microsoft Office 通信服务器 2007 R2 进行迁移，包括与这些以前的部署的特定客户端和服务器组件共存。
+Lync Server 2013 支持从 Microsoft Lync Server 2010 和 Microsoft Office 通信服务器 2007 R2 进行迁移，包括与这些以前部署的特定客户端和服务器组件共存。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中支持的服务器迁移路径和共存方案](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
 
-  - [Lync Server 2013 先前部署中支持的客户端](lync-server-2013-supported-clients-from-previous-deployments.md)
+  - [Lync Server 2013 中以前的部署支持的客户端](lync-server-2013-supported-clients-from-previous-deployments.md)
 
 </div>
 

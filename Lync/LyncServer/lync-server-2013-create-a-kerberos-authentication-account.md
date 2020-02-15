@@ -12,16 +12,16 @@ ms:contentKeyID: 48184348
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 797e9216aed5d523e39dc4827d630e0cb1b857fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e59703328fad7c8763bc1a6cc018c2cbc585c3ed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740422"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41740422"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-01-02_
+_**上次修改的主题：** 2012-01-02_
 
-若要成功完成此过程，你应至少作为域管理员组的成员登录到服务器或域。
+要成功完成此过程，至少应以 Domain Admins 组成员身份登录到服务器或域。
 
-你可以为每个网站创建 Kerberos 身份验证帐户，也可以创建单个 Kerberos 身份验证帐户并将其用于所有网站。 你可以使用 Windows PowerShell cmdlet 来创建和管理帐户，包括标识分配给每个网站的帐户。 拓扑生成器和 Lync Server 2013 "控制面板" 不显示 Kerberos 身份验证帐户。 使用以下过程创建要用于 Kerberos 身份验证的一个或多个用户帐户。
+可以为每个站点创建多个 Kerberos 身份验证帐户，或者创建一个 Kerberos 身份验证帐户，然后将其用于所有站点。 您可以使用 Windows PowerShell cmdlet 来创建和管理帐户，包括标识分配给每个网站的帐户。 拓扑生成器和 Lync Server 2013 控制面板不显示 Kerberos 身份验证帐户。 使用以下过程创建一个或多个要用于 Kerberos 身份验证的用户帐户。
 
 <div>
 
 ## <a name="to-create-a-kerberos-account"></a>创建 Kerberos 帐户
 
-1.  作为域管理员组的成员，请登录到运行 Lync Server 2013 的域中的计算机或登录到安装了管理工具的计算机。
+1.  作为 Domain Admins 组的成员，请登录到运行 Lync Server 2013 的域中的计算机或登录到安装了管理工具的计算机。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  从命令行运行以下命令：
+3.  在命令行中运行以下命令：
     
         New-CsKerberosAccount -UserAccount "Domain\UserAccount" -ContainerDN "CN=Users,DC=DomainName,DC=DomainExtension"
     
@@ -57,7 +57,7 @@ _**主题上次修改时间：** 2012-01-02_
     
         New-CsKerberosAccount -UserAccount "Contoso\KerbAuth" -ContainerDN "CN=Users,DC=contoso,DC=com"
 
-4.  通过打开 "Active Directory 用户和计算机" 确认是否创建了计算机对象，展开 "**用户**" 容器，然后确认该用户帐户的计算机对象位于容器中。
+4.  通过打开“Active Directory 用户和计算机”确认是否已创建计算机对象，展开“用户”**** 容器，然后确认容器中存在此用户帐户的计算机对象。
 
 </div>
 

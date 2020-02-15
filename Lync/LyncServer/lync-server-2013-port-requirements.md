@@ -12,16 +12,16 @@ ms:contentKeyID: 48184886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 584d1c8391f0393711b2caf6de46a0df6c437c51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb1e0668ffc482b0c2987326aa2f09e1888e48bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747652"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41747652"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-03-27_
+_**上次修改的主题：** 2013-03-27_
 
-Lync 服务器要求防火墙上的特定端口处于打开状态。 此外，如果在您的组织中部署了 Internet 协议安全性 (IPsec)，则必须在用于传送音频、视频和全景视频的端口范围内禁用 IPSec。
+Lync Server 要求防火墙上的特定端口处于打开状态。 此外，如果在您的组织中部署了 Internet 协议安全性 (IPsec)，则必须在用于传送音频、视频和全景视频的端口范围内禁用 IPSec。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-本部分包含以下主题：
+本节包括下列主题：
 
   - [Lync Server 2013 中内部服务器的端口和协议](lync-server-2013-ports-and-protocols-for-internal-servers.md)
 
   - [Lync Server 2013 中的 IPsec 例外](lync-server-2013-ipsec-exceptions.md)
 
-  - [Lync Server 2013 中的端口摘要 - 单一合并边缘（使用 NAT 通过专用 IP 地址进行）](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [Lync Server 2013 中的端口摘要-使用 NAT 的具有专用 IP 地址的单一合并边缘](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [Lync Server 2013 中的端口摘要 - 使用公用 IP 地址的单一合并边缘](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Lync Server 2013 中的端口摘要-具有公用 IP 地址的单一合并边缘](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Lync Server 2013 中的端口摘要 - 扩展的合并边缘（使用 NAT 通过专用 IP 地址进行 DNS 负载平衡）](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Lync Server 2013 中的端口摘要-扩展的合并边缘（使用 NAT 通过专用 IP 地址进行 DNS 负载平衡）](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Lync Server 2013 中的端口摘要 - 扩展的合并边缘（通过公用 IP 地址进行 DNS 负载平衡）](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Lync Server 2013 中的端口摘要-扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [Lync Server 2013 中的端口摘要 - 使用硬件负载平衡器的扩展的合并边缘](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Lync Server 2013 中的端口摘要-使用硬件负载平衡器的扩展的合并边缘](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [Lync Server 2013 中的端口摘要 - 反向代理](lync-server-2013-port-summary-reverse-proxy.md)
+  - [Lync Server 2013 中的端口摘要-反向代理](lync-server-2013-port-summary-reverse-proxy.md)
 
-  - [端口摘要-Lync Server 2013 中的 SIP、XMPP 联盟和公共即时消息](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Lync Server 2013 中的端口摘要-SIP、XMPP 联合身份验证和公共即时消息](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 

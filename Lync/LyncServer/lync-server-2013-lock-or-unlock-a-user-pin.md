@@ -12,16 +12,16 @@ ms:contentKeyID: 49733618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce748039b0e8f19a4efee56424c7661908fe6552
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1f8f75f42dd7265e9aea22fa1dc03afd2f2c684a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765543"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765543"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-你可以从 Lync Server 2013 控制面板的 "**用户**" 部分锁定或解除锁定用户的 PIN。
+您可以从 Lync Server 2013 控制面板的 "**用户**" 部分锁定或解锁用户 PIN。
 
 <div>
 
-## <a name="to-lock-a-users-pin-in-lync-server-control-panel"></a>在 Lync Server "控制面板" 中锁定用户的 PIN
+## <a name="to-lock-a-users-pin-in-lync-server-control-panel"></a>在 Lync Server 控制面板中锁定用户的 PIN
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左导航栏中，单击“用户”****。
+3.  在左侧导航栏中，单击“用户”****。
 
 4.  使用下列方法之一查找用户：
     
@@ -82,13 +82,13 @@ _**主题上次修改时间：** 2013-02-23_
 
 <div>
 
-## <a name="to-unlock-a-users-pin-in-lync-server-control-panel"></a>在 Lync Server "控制面板" 中解锁用户的 PIN
+## <a name="to-unlock-a-users-pin-in-lync-server-control-panel"></a>在 Lync Server 控制面板中解锁用户的 PIN
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左导航栏中，单击“用户”****。
+3.  在左侧导航栏中，单击“用户”****。
 
 4.  使用下列方法之一查找用户：
     
@@ -125,7 +125,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 锁定和解锁用户 Pin
 
-你可以使用 Windows PowerShell 和 Lock-CsClientPin 和 CsClientPin cmdlet 锁定和解锁用户 Pin。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行这些 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和 Unlock-csclientpin 和 Unlock-csclientpin cmdlet 锁定和解锁用户 Pin。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行这些 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
@@ -147,7 +147,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Lock-CsClientPin)和[CsClientPin](https://docs.microsoft.com/powershell/module/skype/Unlock-CsClientPin) cmdlet 的帮助主题。
+有关详细信息，请参阅[unlock-csclientpin](https://docs.microsoft.com/powershell/module/skype/Lock-CsClientPin)和[unlock-csclientpin](https://docs.microsoft.com/powershell/module/skype/Unlock-CsClientPin) cmdlet 的帮助主题。
 
 </div>
 

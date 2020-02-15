@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：受支持的设备
+title: Lync Server 2013：支持的设备
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a1ed13a53bdf31c4bee0daaa7489809fd4e6f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1b4769e068ff079a8a5ad55177870ac9fe8e932c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764348"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029823"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41764348"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-08_
+_**上次修改的主题：** 2012-10-08_
 
-Lync 服务器支持下表中列出的所有电话。 请注意，并非所有受支持的电话都可以运行 Lync Phone Edition （有些只能运行早期版本）。 使用表格了解哪些电话可以运行 Lync Phone Edition，以及在何处获取有关所有支持的电话的详细信息。
+Lync Server 支持下表中列出的所有电话。 请注意，并非所有受支持的电话都可以运行 Lync Phone Edition （有些只能运行早期版本）。 使用表格了解可以运行 Lync Phone Edition 的电话，以及在何处获取所有受支持电话的详细信息。
 
 <div>
 
 
 > [!NOTE]  
-> 支持三种类型的电话：桌面电话（专用的电话或 USB 设备，用于供用户在其桌面的员工使用）、会议设备（设计为在会议室中使用的免提 IP 或 USB 电话）和常用的区域电话（IP 电话设计为在共享区域（如大厅、kitchens、工厂地面和共享工作区）中使用，并且可以进行自定义，以便提供不同的 Lync 手机版功能集。
+> 支持三种类型的电话：桌面电话（设计用于在其桌面的员工使用的手持 IP 或 USB 设备）、会议设备（设计用于会议室的无人参与的 IP 或 USB 电话）以及常见的区域电话（IP 电话旨在用于共享区域（例如会议厅、kitchens、工厂楼层和共享工作区），并且可以进行自定义，以提供不同的 Lync Phone Edition 功能集。
 
 
 
 </div>
 
-有关经过优化以与 Lync 配合使用的所有设备的详细比较表，请参阅 at <http://go.microsoft.com/fwlink/p/?linkid=208938>"适用于 Microsoft Lync 的电话和设备"。 本网站上的 "电话比较" 表包括定价信息和技术规范。
+有关经过优化以与 Lync 配合使用的所有设备的详细比较表，请参阅上<http://go.microsoft.com/fwlink/p/?linkid=208938>的 "适用于 Microsoft Lync 的电话和设备"。 此网站中的电话比较表包括定价信息和技术规格。
 
 
 <table>
@@ -62,12 +62,12 @@ Lync 服务器支持下表中列出的所有电话。 请注意，并非所有�
 <tr class="header">
 <th>电话</th>
 <th>运行 Lync Phone Edition</th>
-<th>了解更多信息</th>
+<th>更多信息</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Aastra 6721ip 公共区域电话</p></td>
+<td><p>Aastra 6721ip 公用区域电话</p></td>
 <td><p>X</p></td>
 <td><p>在 Aastra 网站<a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=6074">下载 Aastra 6721ip</a></p></td>
 </tr>
@@ -77,14 +77,14 @@ Lync 服务器支持下表中列出的所有电话。 请注意，并非所有�
 <td><p>在 Aastra 网站<a href="http://www.aastra.com/document-library.htm?curr_fam=aastra+6720ip%26curr_nav=2%26prod_id=12991">下载 Aastra 6725ip</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>HP 4110 IP 电话（公共区域电话）</p></td>
+<td><p>HP 4110 IP 电话（公用区域电话）</p></td>
 <td><p>X</p></td>
-<td><p>Hp <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5171755">4110 IP 电话系列</a>在 hp 网站上</p></td>
+<td><p>Hp <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5171755">4110 IP Phone 系列</a>位于 hp 网站</p></td>
 </tr>
 <tr class="even">
 <td><p>HP 4120 IP 电话（桌面电话）</p></td>
 <td><p>X</p></td>
-<td><p>Hp <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5204220">4120 IP 电话系列</a>在 hp 网站上</p></td>
+<td><p>Hp <a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5204220">4120 IP Phone 系列</a>位于 hp 网站</p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX300 USB 桌面电话</p></td>
@@ -124,7 +124,7 @@ Lync 服务器支持下表中列出的所有电话。 请注意，并非所有�
 
 
 > [!NOTE]  
-> 还提供对模拟设备的支持。 有关详细信息，请参阅在 Lync Server 2010 TechNet 库中<A href="http://go.microsoft.com/fwlink/p/?linkid=257502">部署模拟设备的计划</A>。 （Lync Phone Edition 在 Lync Server 2013 和 Lync Server 2010 中的工作方式相同）。
+> 还将提供对模拟设备的支持。 有关详细信息，请参阅在 Lync Server 2010 TechNet 库中<A href="http://go.microsoft.com/fwlink/p/?linkid=257502">部署模拟设备的规划</A>。 （Lync Phone Edition 在 Lync Server 2013 和 Lync Server 2010 中的工作方式相同）。
 
 
 

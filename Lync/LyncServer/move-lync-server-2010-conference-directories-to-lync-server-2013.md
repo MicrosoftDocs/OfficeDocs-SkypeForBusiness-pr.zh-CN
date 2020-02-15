@@ -12,16 +12,16 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9bd597665f389c814fbdc8fe1745587fd3d1b3e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6712e22ffcdc2eaea9ae39be961bb50316beed5b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766113"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034562"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41766113"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-05-28_
+_**上次修改的主题：** 2014-05-28_
 
-在取消池之前，必须针对 Lync Server 2010 池中的每个会议目录执行以下过程。
+在取消池的授权之前，必须为 Lync Server 2010 池中的每个会议目录执行以下过程。
 
 <div>
 
@@ -45,17 +45,17 @@ _**主题上次修改时间：** 2014-05-28_
 
 1.  打开 Lync Server 命令行管理程序。
 
-2.  若要获取组织中的会议目录的标识，请运行以下命令：
+2.  若要获取组织中会议目录的标识，请运行以下命令：
     
         Get-CsConferenceDirectory
     
-    上面的命令返回你的组织中的所有会议目录。 因此，你可能希望将结果限制为即将停止的池。 例如，如果你使用完全限定的域名（FQDN） pool01.contoso.net 取消池，请使用此命令将返回的数据限制为来自该池中的会议目录：
+    上述命令将返回组织中的所有会议目录。 因此，您可能希望将结果限制为即将停止的池。 例如，如果您要使用完全限定的域名（FQDN） pool01.contoso.net 取消池，请使用以下命令将返回的数据限制为来自该池的会议目录：
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
     该命令仅返回 ServiceID 属性包含 FQDN pool01.contoso.net 的会议目录。
 
-3.  若要移动会议目录，请对池中的每个会议目录运行以下命令：
+3.  若要移动会议目录，请为池中的每个会议目录运行以下命令：
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
@@ -63,20 +63,20 @@ _**主题上次修改时间：** 2014-05-28_
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
     
-    如果要移动池中的所有会议目录，请使用类似于以下内容的命令：
+    如果要移动池上的所有会议目录，请使用类似如下的命令：
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
 
-有关取消 Lync 2010 池的完整、分步说明，请参阅文档 "卸载 Microsoft Lync Server 2010 和[http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)删除服务器角色" （可从中下载）。
+有关解除启用 Lync 2010 池的完整、分步说明，请参阅文档 "卸载 Microsoft Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)并删除服务器角色" （可从中下载）。
 
-移动会议目录时，可能会遇到以下错误：
+移动会议目录时，您可能会遇到以下错误：
 
     WARNING: Move operation failed for conference directory with ID "5". Cannot perform a rollback because data migration might have already started. Retry the operation.
     WARNING: Before using the -Force parameter, ensure that you have exported the conference directory data using DBImpExp.exe and imported the data on the target pool. Refer to the DBImpExp-Readme.htm file for more information.
     Move-CsConferenceDirectory : Unable to cast COM object of type 'System._ComObject' to interface type 'Microsoft.Rtc.Interop.User.IRtcConfDirManagement'. 
     This operation failed because the QueryInterface call on the COM component for the interface with SID '{4262B886-503F-4BEA-868C-04E8DF562CEB}' failed due to the following error: The specified module could not be found.
 
-此错误通常在 Lync Server Management Shell 需要更新的 Active Directory 权限集以便完成任务时出现。 若要解决此问题，请关闭该命令行管理程序的当前实例，然后打开一个新的 Shell 实例并重新运行该命令，以便移动会议目录。
+当 Lync Server 命令行管理程序需要一组更新的 Active Directory 权限以完成任务时，通常会发生此错误。 若要解决此问题，请关闭命令行管理程序的当前实例，然后打开一个新的命令行管理程序实例，然后重新运行该命令，以便移动会议目录。
 
 </div>
 

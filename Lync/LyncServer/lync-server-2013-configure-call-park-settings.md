@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：配置呼叫驻留设置
+title: Lync Server 2013：配置呼叫寄存设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee4f12ccf614816e27262f8b393cdc1dac4a7a5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 644ec44d4086b0acc326e043cbf63d7ceb2c640c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757776"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757776"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-如果您不想使用默认呼叫寄存设置，您可以对其进行自定义。 安装 "呼叫驻留" 应用程序时，默认情况下配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
+如果不想使用默认呼叫寄存设置，可以对其进行自定义。 当您安装呼叫寄存应用程序时，默认情况下会配置全局设置。 您可以修改全局设置，也可以指定特定于站点的设置。 使用 **New-CsCpsConfiguration** cmdlet 可创建新的特定于站点的设置。 使用 **Set-CsCpsConfiguration** cmdlet 可修改现有设置。
 
 <div>
 
@@ -80,8 +80,8 @@ _**主题上次修改时间：** 2012-11-01_
 </tr>
 <tr class="even">
 <td><p><strong>OnTimeoutURI</strong></p></td>
-<td><p>当超过<strong>MaxCallPickupAttempts</strong>时，未应答的寄存呼叫将路由到的用户或响应组的 SIP 地址。</p>
-<p>值必须是以字符串 sip 开头的 SIP URI：。 例如，sip:bob@contoso.com。 默认为无转发地址。</p></td>
+<td><p>超出 <strong>MaxCallPickupAttempts</strong> 时未应答的寄存呼叫将路由到的用户或响应组的 SIP 地址。</p>
+<p>值必须为以字符串 sip: 开头的 SIP URI。例如，sip:bob@contoso.com。默认情况下没有转接地址。</p></td>
 </tr>
 </tbody>
 </table>
@@ -91,11 +91,11 @@ _**主题上次修改时间：** 2012-11-01_
 
 ## <a name="to-configure-call-park-settings"></a>配置呼叫寄存设置
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机，如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  运行：
+3.  以
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
@@ -103,7 +103,7 @@ _**主题上次修改时间：** 2012-11-01_
     
 
     > [!TIP]  
-    > 使用<STRONG>CsSite</STRONG> cmdlet 标识该网站。 有关详细信息，请参阅 Lync Server 命令行管理程序文档。
+    > 使用 <STRONG>Get-CsSite</STRONG> cmdlet 可标识站点。 有关详细信息，请参阅 Lync Server 命令行管理程序文档。
 
     
     </div>
@@ -116,15 +116,15 @@ _**主题上次修改时间：** 2012-11-01_
 
 <div>
 
-## <a name="see-also"></a>另请参阅
+## <a name="see-also"></a>请参阅
 
 
-[在 Lync Server 2013 中自定义呼叫寄存音乐处于暂停状态](lync-server-2013-customize-call-park-music-on-hold.md)  
+[在 Lync Server 2013 中自定义呼叫寄存暂停音乐](lync-server-2013-customize-call-park-music-on-hold.md)  
 
 
-[新-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
-[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCpsConfiguration)  
-[CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite)  
+[新 CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
+[CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCpsConfiguration)  
+[Get-cssite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPrincipalAffiliations
+title: Lync Server 2013： tblPrincipalAffiliations
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee16c492a42cb98ff3b5f326bd6f43a57c4d3f56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764148"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034272"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764148"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
-tblPrincipalAffiliations 包含描述位置中的成员身份的主体成员，包括 Active directory 域服务安全组，位于 Active Directory 容器中的域中。
+tblPrincipalAffiliations 包含描述位置中的成员身份的主体隶属关系，包括 Active directory 域服务安全组，在 Active Directory 容器中的域中。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ tblPrincipalAffiliations 包含描述位置中的成员身份的主体成员，�
 <tbody>
 <tr class="odd">
 <td><p>principalID</p></td>
-<td><p>int，not null</p></td>
-<td><p>关联主体的 ID。</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>附属主体的 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>affiliationID</p></td>
-<td><p>int，not null</p></td>
-<td><p>表示隶属关系的承担者的 ID。 每个主体（除系统用户类型外）还具有自我隶属关系。</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>表示附属关系的主体的 ID。每个主体（系统用户类型除外）还具有自附属关系。</p></td>
 </tr>
 <tr class="odd">
-<td><p>食指</p></td>
-<td><p>int，not null</p></td>
-<td><p>食指. 自隶属关系的值是-1，对于其他隶属关系，在每个&lt;PrincipalID、affiliationId&gt;存储桶中，它将按从1开始递增。</p></td>
+<td><p>index</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>索引. 自隶属关系的值是-1，对于其他隶属关系，它会从每个&lt;PrincipalID、affiliationId&gt;存储桶内的1依次增加。</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
-<td><p>int，not null</p></td>
-<td><p>已进行最新更新的主体。 这通常是1，这意味着 Active Directory 同步。</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>进行最新更新的主体。这通常为 1，表示 Active Directory 同步。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>标示
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -88,7 +88,7 @@ tblPrincipalAffiliations 包含描述位置中的成员身份的主体成员，�
 </colgroup>
 <thead>
 <tr class="header">
-<th>多</th>
+<th>Columns</th>
 <th>说明</th>
 </tr>
 </thead>
@@ -99,11 +99,11 @@ tblPrincipalAffiliations 包含描述位置中的成员身份的主体成员，�
 </tr>
 <tr class="even">
 <td><p>principalID</p></td>
-<td><p>TblPrincipal 表中的 lookup 的外键。</p></td>
+<td><p>其查找包含在 tblPrincipal.prinID 表中的外键。</p></td>
 </tr>
 <tr class="odd">
 <td><p>affiliationID</p></td>
-<td><p>TblPrincipal 表中的 lookup 的外键。</p></td>
+<td><p>其查找包含在 tblPrincipal.prinID 表中的外键。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e379a8195dd0a50d97a514307ac594908be4736c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: face7287ecf65a75e335b63f0a657c4534891277
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763476"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030505"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41763476"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-在呼叫许可控制（CAC）配置中，你可以创建网络间策略来定义直接链接的网站之间的带宽限制。 当网络站点共享直接链接时，可以在这两个站点之间定义音频和视频连接的带宽限制。 无法使用 Lync Server 控制面板配置网络网站策略，只能通过 Lync Server 命令行管理程序使用 cmdlet 执行此操作。 你可以从 Lync Server 命令行管理程序创建、修改和删除网络网站链接（也称为网络内部站点策略）。
+在呼叫允许控制 (CAC) 配置中，可以创建定义直接链接的站点之间的带宽限制的网络站点间策略。 当两个网络站点共享一条直接链接时，可定义这两个站点之间的音频和视频连接的带宽限制。 您不能使用 Lync Server 控制面板配置网络站点策略，这只能通过使用 Lync Server 命令行管理程序中的 cmdlet 来实现。 您可以从 Lync Server 命令行管理程序中创建、修改和删除网络站点链接（也称为网络站点间策略）。
 
 <div>
 
 ## <a name="to-create-a-network-site-link"></a>创建网络站点链接
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机，如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  在命令提示符处，键入以下命令，替换适用于您的配置的有效值：
+3.  在命令提示符处，键入以下命令，取代有效的配置值：
     
         New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
     
-    此示例创建一个名为 Reno\_的新网络网站链接，该链接设置 Reno 和网络站点之间的带宽限制。 运行此命令之前，网络站点和带宽策略配置文件必须已经存在。
+    本示例创建一个名为里诺\_的新网络站点链接，用于设置里诺和新的网络站点之间的带宽限制。 运行此命令之前，必须已存在网络站点和带宽策略配置文件。
 
-有关详细的参数说明，请参阅 Lync Server Management Shell 文档中的 "[新建-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) "。 若要检索可应用于网络站点链接的带宽策略配置文件的列表，请调用**CsNetworkBandwidthPolicyProfile** cmdlet。 有关详细信息，请参阅 Lync Server Management Shell 文档中的[CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) 。
+有关参数的详细说明，请参阅 Lync Server 命令行管理程序文档中的[new-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 。 要检索可应用于网络站点链接的带宽策略配置文件列表，请调用 **Get-CsNetworkBandwidthPolicyProfile** cmdlet。 有关详细信息，请参阅 Lync Server 命令行管理程序文档中的[CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) 。
 
 </div>
 
@@ -61,31 +61,31 @@ _**主题上次修改时间：** 2012-11-01_
 
 ## <a name="to-modify-a-network-site-link"></a>修改网络站点链接
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机，如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  使用**CsNetworkInterSitePolicy** cmdlet 修改给定网络网站链接的属性。 您可以修改两个（或两者）或连接的网站，并且可以修改与链接关联的带宽策略配置文件。 下面是修改名为 Reno\_的网站链接的带宽策略配置文件的示例：
+3.  使用 **Set-CsNetworkInterSitePolicy** cmdlet 修改给定网络站点链接的属性。 可以修改连接站点中的任一个（或两个），也可以修改与链接关联的带宽策略配置文件。 下面的示例展示了如何修改名为里诺\_的站点链接的带宽策略配置文件：
     
         Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
 
-有关详细的参数说明，请参阅 Lync Server Management Shell 文档中的 "[设置 CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) "。
+有关参数的详细说明，请参阅 Lync Server 命令行管理程序文档中的[new-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy) 。
 
 </div>
 
 <div>
 
-## <a name="to-delete-a-network-site-link"></a>删除网络网站链接
+## <a name="to-delete-a-network-site-link"></a>删除网络站点链接
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机，如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  使用**CsNetworkInterSitePolicy** cmdlet 删除网络站点链接。 以下示例删除 Reno\_的 "上海" 网络网站链接：
+3.  使用 **Remove-CsNetworkInterSitePolicy** cmdlet 删除网络站点链接。 下面的示例删除了里诺\_的 "上海 network site" 链接：
     
         Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
 
-有关详细的参数说明，请参阅 Lync Server Management Shell 文档中的[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) 。
+有关参数的详细说明，请参阅 Lync Server 命令行管理程序文档中的[new-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy) 。
 
 </div>
 
@@ -94,14 +94,14 @@ _**主题上次修改时间：** 2012-11-01_
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server 2013 中的呼叫许可控制 cmdlet](https://docs.microsoft.com/powershell/module/skype/)  
+[Lync Server 2013 中的呼叫允许控制 cmdlet](https://docs.microsoft.com/powershell/module/skype/)  
 
 
-[New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)  
-[Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
-[Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
-[Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
-[Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
+[新 New-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)  
+[New-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)  
+[New-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)  
+[New-csnetworkintersitepolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)  
+[CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)  
   
 
 </div>

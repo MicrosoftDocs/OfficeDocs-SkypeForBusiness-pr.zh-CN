@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：边缘组件支持的服务器并置
+title: Lync Server 2013：支持的服务器并置边缘组件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc12e442be98ba1fd962634460200ce749aca3d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e52d1c630bba8c93193c2e309d4d3299f45a6388
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731662"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029783"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 中边缘组件支持的服务器并置
+# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>Lync Server 2013 中的边缘组件支持的服务器并置
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41731662"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-访问边缘服务、Web 会议边缘服务、A/V 边缘服务和 XMPP 代理服务在边缘服务器上 collocated。 以下服务器提供外部用户访问所需的函数，并且必须部署为专用服务器：
+访问边缘服务、Web 会议边缘服务、A/V 边缘服务和 XMPP 代理服务在边缘服务器上并置。 以下服务器提供外部用户访问所需的功能，必须部署为专用服务器：
 
   - 边缘服务器
 
-  - 导演（可选）
+  - 控制器（可选）
 
   - 反向代理
 
@@ -49,7 +49,7 @@ _**主题上次修改时间：** 2012-09-08_
 
 
 > [!IMPORTANT]  
-> 反向代理无需专门为 Lync Server 2013 提供服务。 例如，你可以提供用于发布 Lync Server Web 服务的服务，并同时为另一个网站提供已发布的网站，该网站与 Lync 服务器根本没有任何关系。 如果外围网络中已有反向代理服务器支持其他服务，则可以将其用于 Lync Server 2013。
+> 反向代理无需专门为 Lync Server 2013 提供服务。 例如，可以提供服务以发布 Lync Server Web 服务，并同时为另一个网站提供已发布的网站，而该网站根本没有任何位置上的 Lync Server。 如果在外围网络中已有反向代理服务器来支持其他服务，则可以将其用于 Lync Server 2013。
 
 
 

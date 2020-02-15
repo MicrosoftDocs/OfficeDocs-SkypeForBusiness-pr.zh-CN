@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署 Survivable Branch Appliance 或 Survivable Branch Server
+title: Lync Server 2013：部署 Survivable 分支设备或服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca6fae79854356951701eaf6040fb436e787acd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 445df692041e24f8a4e134836ea9f6a63561a2ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729577"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>使用 Lync Server 2013 部署 Survivable Branch Appliance 或 Survivable Branch Server
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a>使用 Lync Server 2013 部署 Survivable 分支设备或服务器
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729577"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-12-10_
+_**上次修改的主题：** 2014-12-10_
 
-复原的企业语音是指分支站点复原功能，即，当中心网站的链接不可用时，可以向分支网站用户提供连续的企业语音服务。
+复原企业语音是指分支站点恢复能力，即，在指向中央站点的链接不可用的情况下，能够向分支站点用户提供连续的企业语音服务。
 
-对于小型和中型分支网站（有25到1000个用户的分支网站），我们建议部署 Survivable 分支设备，这将通过使用其内置 PSTN 网关或向电话 SIP 主干来终止公共交换电话网络（PSTN）呼叫。服务提供商。 Survivable 分支设备是一种第三方设备，包括运行 Windows Server 2008 R2 操作系统、Lync Server 2013 注册机构、中介服务器软件和 PSTN 网关的刀片式服务器，所有这些设备均位于单个装置机箱中。
+对于小型和中型分支站点（25到1000个用户的分支站点），我们建议部署 Survivable 分支设备，这将通过使用其内置 PSTN 网关或到电话的 SIP 中继来终止公共交换电话网络（PSTN）呼叫服务提供商。 Survivable 分支设备是一种第三方设备，其中包括运行 Windows Server 2008 R2 操作系统的刀片服务器、Lync Server 2013 注册器、中介服务器软件和 PSTN 网关（全部位于单个设备机箱中）。
 
-对于1000到5000用户且没有弹性 WAN 的分支站点，我们建议将 Survivable 分支服务器连接到电话服务提供商的 PSTN 网关或 SIP 主干。 Survivable 分支服务器是安装了注册机构和中介服务器软件的基于 Windows 服务器的计算机。
+对于1000到5000用户且无弹性 WAN 的分支站点，我们建议将 Survivable 分支服务器连接到与电话服务提供商的 PSTN 网关或 SIP 中继。 Survivable 分支服务器是一台基于 Windows Server 的计算机，其中安装了注册器和中介服务器软件。
 
 <div>
 
 
 > [!NOTE]  
-> 对于具有超过5000个用户和专用 Lync Server 管理员的分支站点，我们建议使用完整的 Lync Server 2013 部署，与中心网站的部署不同。<BR>有关为组织中的分支网站选择最佳复原解决方案的详细信息（包括先决条件和规划注意事项），请参阅规划文档中<A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 的分支站点恢复要求</A>。
+> 对于具有超过5000个用户和专用 Lync Server 管理员的分支站点，我们建议使用完整的 Lync Server 2013 部署，并将其与中心站点的部署分开。<BR>有关为组织中的分支站点选择最佳恢复解决方案的详细信息（包括先决条件和规划注意事项），请参阅规划文档中的<A href="lync-server-2013-branch-site-resiliency-requirements.md">Lync Server 2013 的分支站点恢复要求</A>。
 
 
 
@@ -57,7 +57,7 @@ _**主题上次修改时间：** 2014-12-10_
 
 
 > [!NOTE]  
-> 在 Lync Server Survivable 分支设备上托管的用户无法创建新的聊天室或查看现有聊天室的聊天室卡片。
+> 驻留在 Lync Server Survivable 分支设备上的用户无法创建新的聊天室或查看现有聊天室的会议室卡片。
 
 
 
@@ -65,17 +65,17 @@ _**主题上次修改时间：** 2014-12-10_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [使用 Lync Server 2013 部署 Survivable Branch Appliance 或 Survivable Branch Server  - 中央站点任务](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
+  - [使用 Lync Server 2013 部署 Survivable 分支设备或服务器-中心站点任务](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
 
-  - [使用 Lync Server 2013 部署 Survivable Branch Appliance 或 Survivable Branch Server  - 分支站点任务](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
+  - [使用 Lync Server 2013 部署 Survivable 分支设备或服务器-分支站点任务](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
 
   - [在 Lync Server 2013 中为用户配置分支站点恢复能力](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
 
-  - [在 Lync Server 2013 中在 Survivable Branch Appliance 或 Survivable Branch Server 上承载用户](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)
+  - [Lync Server 2013 中的 Survivable 分支装置或服务器上的家庭用户](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)
 
-  - [附录：Lync Server 2013 中的 Survivable Branch Appliance 和 Survivable Branch Server](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
+  - [附录： Lync Server 2013 中的 Survivable 分支装置和服务器](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
 
 </div>
 

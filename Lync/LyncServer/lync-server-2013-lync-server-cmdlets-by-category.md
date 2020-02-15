@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：按类别分类的 Lync Server cmdlet
+title: Lync Server 2013： Lync Server cmdlet （按类别）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d5d0dfc2540f5c623bff18f9739968983288e9e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d5db33e3d41bca0a3d14361b6d7bda254d43d19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723322"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-cmdlets-by-category"></a>按类别分类的 Lync Server 2013 cmdlet
+# <a name="lync-server-2013-cmdlets-by-category"></a>Lync Server 2013 cmdlet （按类别）
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41723322"
 
 <span> </span>
 
-_**主题上次修改时间：** 2017-09-20_
+_**上次修改的主题：** 2017-09-20_
 
-Microsoft Lync Server 2013 随附了几乎 550 cmdlet，专门设计用于允许管理员从命令行管理 Lync Server。 可从 Lync Server 命令行管理程序访问 cmdlet。 你可以通过键入类似如下的命令，直接从命令行检索有关 cmdlet 的帮助：
+Microsoft Lync Server 2013 随附了约550个 cmdlet，以允许管理员从命令行管理 Lync Server。 您可以从 Lync Server 命令行管理程序访问 cmdlet。 可通过键入类似如下的命令直接从命令行检索有关某个 cmdlet 的帮助：
 
     Get-Help New-CsVoicePolicy -Full
 
-前面的命令将检索**CsVoicePolicy** cmdlet 的所有可用帮助。 将对**CsVoicePolicy**的引用替换为要检索帮助的 cmdlet 的名称。
+上述命令将检索提供的有关 **New-CsVoicePolicy** cmdlet 的所有帮助。 将对 **New-CsVoicePolicy** 的引用替换为要检索其帮助信息的 cmdlet 的名称。
 
-若要检索可用于管理 Microsoft Lync Server 2013 的 cmdlet 的完整列表，请在 Lync Server Management Shell 命令提示符处键入以下内容：
+若要检索可用于管理 Microsoft Lync Server 2013 的 cmdlet 的完整列表，请在 Lync Server 命令行管理程序命令提示符处键入以下内容：
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-如果您不确定需要哪些 cmdlet，我们还提供了一组分类的 cmdlet 及其帮助主题。 你将发现，某些 cmdlet 显示在多个类别中，这是应用于产品的多个区域的故意。 以下是类别列表：
+如果不确定需要哪些 cmdlet，我们还提供了 cmdlet 的分类列表及其帮助主题。您将发现某些 cmdlet 出现在多个类别中，我们是有意这样划分的，因为这些 cmdlet 可以应用于多个产品领域。类别列表如下：
 
 <div>
 
 
 > [!NOTE]
-> Skype for Business cmdlet 参考已移至 docs.microsoft.com。 单击下面的链接将转至新的 docs.microsoft.com 页面。 内容现在是开源的，可通过 GitHub 用于社区投稿。 对投稿感兴趣？ 查看存储库中的自述文件：<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Skype for Business cmdlet reference 已移动到 docs.microsoft.com。 单击下面的链接将转到新的 docs.microsoft.com 页面。 现在，内容是开放的，可用于通过 GitHub 进行社区贡献。 对所做的贡献有兴趣？ 查看存储库中的自述文件：<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -61,7 +61,7 @@ Microsoft Lync Server 2013 随附了几乎 550 cmdlet，专门设计用于允许
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
 
 <table>
@@ -92,11 +92,11 @@ Microsoft Lync Server 2013 随附了几乎 550 cmdlet，专门设计用于允许
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-security-cmdlets.md">Lync Server 2013 中的安全 cmdlet</a></p></td>
-<td><p><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync server Management Shell 配置 cmdlet 在 Lync Server 2013 中</a></p></td>
+<td><p><a href="lync-server-2013-lync-server-management-shell-configuration-cmdlets.md">Lync Server 2013 中的 lync Server 命令行管理程序配置 cmdlet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-server-roles-and-services-cmdlets.md">Lync Server 2013 中的服务器角色和服务 cmdlet</a></p></td>
-<td><p><a href="lync-server-2013-mobility-cmdlets.md">Lync Server 2013 中的移动 cmdlet</a></p></td>
+<td><p><a href="lync-server-2013-mobility-cmdlets.md">Lync Server 2013 中的移动性 cmdlet</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-application-management-cmdlets.md">Lync Server 2013 中的应用程序管理 cmdlet</a></p></td>
@@ -104,7 +104,7 @@ Microsoft Lync Server 2013 随附了几乎 550 cmdlet，专门设计用于允许
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-federation-and-external-access-cmdlets.md">Lync Server 2013 中的联盟和外部访问 cmdlet</a></p></td>
-<td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Lync Server 2013 中的集中式日志记录 cmdlet</a></p></td>
+<td><p><a href="lync-server-2013-centralized-logging-cmdlets.md">Lync Server 2013 中的集中日志记录 cmdlet</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-enterprise-voice-cmdlets.md">Lync Server 2013 中的企业语音 cmdlet</a></p></td>

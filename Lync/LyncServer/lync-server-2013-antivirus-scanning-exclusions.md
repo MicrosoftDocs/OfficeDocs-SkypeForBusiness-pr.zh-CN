@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：病毒扫描排除
+title: Lync Server 2013：防病毒扫描排除
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90847830d9f2586e0d111846f2867400c52fc940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8faeba1d3b661110bcaf633d3c780dc2c2ad2b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737772"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013 的病毒扫描排除
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Lync Server 2013 的防病毒扫描排除
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737772"
 
 <span> </span>
 
-_**主题上次修改时间：** 2015-11-02_
+_**上次修改的主题：** 2015-11-02_
 
-为确保防病毒扫描程序不会干扰 Lync Server 2013 的操作，必须排除运行防病毒扫描程序的每个 Lync Server 2013 服务器或服务器角色的特定进程和目录。 应排除以下进程和目录：
+若要确保防病毒扫描程序不会干扰 Lync Server 2013 的操作，必须排除在其上运行防病毒扫描程序的每个 Lync Server 2013 服务器或服务器角色的特定进程和目录。 应排除以下进程和目录：
 
 <div>
 
 
 > [!NOTE]  
-> 以下列出的文件夹和文件位置是 Lync Server 2013 的默认位置。 对于您没有使用默认值的任何位置，排除您为组织指定的位置，而不是本主题中指定的默认位置。
+> 下面列出的文件夹和文件位置是 Lync Server 2013 的默认位置。 对于您没有使用默认值的任何位置，排除您为组织指定的位置，而不是本主题中指定的默认位置。
 
 
 
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2015-11-02_
 
 
 > [!IMPORTANT]  
-> 请注意，某些防病毒程序可能需要对排除列表使用绝对路径而不是相对路径。
+> 请注意，某些防病毒程序可能需要其排除列表的绝对（而不是相对路径）。
 
 
 
@@ -61,59 +61,59 @@ _**主题上次修改时间：** 2015-11-02_
 
   - Lync Server 2013 进程：
     
-      - ABServer.exe
+      - ABServer
     
       - AcpMcuSvc
     
-      - ASMCUSvc.exe
+      - ASMCUSvc
     
-      - AVMCUSvc.exe
+      - AVMCUSvc
     
-      - ChannelService.exe
+      - ChannelService
     
-      - ClsAgent.exe
+      - ClsAgent
     
-      - ComplianceService.exe
+      - ComplianceService
     
-      - DataMCUSvc.exe
+      - DataMCUSvc
     
-      - DataProxy.exe
+      - DataProxy
     
-      - FileTransferAgent.exe
+      - FileTransferAgent
     
-      - IMMCUSvc.exe
+      - IMMCUSvc
     
-      - LysSvc.exe
+      - LysSvc
     
-      - MasterReplicatorAgent.exe
+      - MasterReplicatorAgent
     
-      - MediaRelaySvc.exe
+      - MediaRelaySvc
     
-      - MediationServerSvc.exe
+      - MediationServerSvc
     
-      - MRASSvc.exe
+      - MRASSvc
     
-      - OcsAppServerHost.exe
+      - OcsAppServerHost
     
-      - ReplicaReplicatorAgent.exe
+      - ReplicaReplicatorAgent
     
-      - ReplicationApp.exe
+      - ReplicationApp
     
-      - RtcHost.exe
+      - RtcHost
     
-      - RTCSrv.exe
+      - RTCSrv
     
-      - XmppProxy.exe
+      - XmppProxy
     
-      - XmppTGW.exe
+      - XmppTGW
 
-  - Windows Fabric Host Service 进程：
+  - Windows Fabric 主机服务进程：
     
-      - Fabric.exe
+      - Fabric .exe
     
-      - FabricDCA.exe
+      - FabricDCA
     
-      - FabricHost.exe
+      - FabricHost
 
   - IIS 进程：
     
@@ -127,7 +127,7 @@ _**主题上次修改时间：** 2015-11-02_
     
       - % ProgramFiles%\\Microsoft SQL Server\\MSRS11。MSSQLSERVER\\Reporting Services\\ReportServer\\Bin\\ReportingServicesService
     
-      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11。MSSQLSERVER\\OLAP\\Bin\\MSMDSrv
+      - % ProgramFiles%\\Microsoft SQL Server\\MSAS11。MSSQLSERVER\\OLAP\\Bin\\msmdsrv.ini
 
   - SQL Server 前端进程：
     
@@ -137,7 +137,7 @@ _**主题上次修改时间：** 2015-11-02_
 
   - 目录和文件：
     
-      - % systemroot%\\System32\\日志
+      - % systemroot%\\System32\\日志日志
     
       - % systemroot%\\SysWow64\\日志日志
     
@@ -145,17 +145,17 @@ _**主题上次修改时间：** 2015-11-02_
     
       - % programfiles%\\Microsoft Lync Server 2013
     
-      - % programfiles%\\的常见\\文件 Microsoft Lync Server\\2013 观察程序节点
+      - % programfiles%\\公共文件\\Microsoft Lync Server 2013\\观察程序节点
     
-      - % programfiles%\\的常见\\文件 Microsoft Lync Server 2013
+      - % programfiles%\\通用文件\\Microsoft Lync Server 2013
     
-      - % SystemDrive%\\RtcReplicaRoot
+      - % 系统驱动器%\\RtcReplicaRoot
     
       - 文件共享存储（在拓扑生成器中指定）。 文件存储在拓扑生成器中指定。
     
-      - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。 可以在拓扑生成器中指定数据库和日志文件。 有关每个数据库的数据和日志文件（包括默认名称）的详细信息，请参阅部署文档中[Lync server 2013 的 SQL Server 数据和日志文件放置](lync-server-2013-sql-server-data-and-log-file-placement.md)。
+      - SQL Server 数据和日志文件，包括后端数据库、用户存储、存档存储、监控存储和应用程序存储的这些文件。 可以在拓扑生成器中指定数据库和日志文件。 有关每个数据库的数据和日志文件的详细信息（包括默认名称），请参阅部署文档中[的适用于 Lync server 2013 的 SQL Server 数据和日志文件放置](lync-server-2013-sql-server-data-and-log-file-placement.md)。
     
-      - SQL Server 数据和日志文件，包括前端数据库、Lync 应用商店和 RtcDatabase 应用商店的文件。 它们通常位于% localdrive%\\CSData。
+      - SQL Server 数据和日志文件，包括用于前端数据库、Lync 存储和 RtcDatabase 存储的文件。 它们通常位于% localdrive%\\CSData。
 
 </div>
 

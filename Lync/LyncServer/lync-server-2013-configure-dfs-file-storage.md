@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：配置文件存储
+title: Lync Server 2013：配置 DFS 文件存储
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bbb932a602ad1fc49907be9c5ab2777bc7a415f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5ce6be2a3fce1f334e9e4b1d14ea41a3dd57a6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739332"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028643"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>为 Lync Server 2013 配置文件存储
+# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>为 Lync Server 2013 配置 DFS 文件存储
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41739332"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-05-23_
+_**上次修改的主题：** 2016-05-23_
 
-Lync Server 2013 支持在分布式文件系统（DFS）上使用文件共享。 有关 DFS for Windows Server 2008 的详细信息，请参阅 Windows Server 2008 的 DFS 分步指南[http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835)。要使用 DFS，Lync Server 2013 需要满足以下要求：
+Lync Server 2013 支持在分布式文件系统（DFS）上使用文件共享。 有关适用于 Windows Server 2008 的 DFS 的详细信息，请参阅 Windows Server 2008 at [http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835)的 Dfs 分步指南。若要使用 DFS，Lync Server 2013 需要满足以下条件：
 
-  - 命名空间是基于域的
+  - 命名空间基于域
 
-  - 所有命名空间服务器至少运行 Windows 2008
+  - 所有命名空间服务器都至少运行 Windows 2008
 
-Lync Server 2013 安装程序要求共享文件夹的权限允许对管理员拥有完全访问权限。 然后，Lync Server 2013 将使用 NTFS 文件权限来对文件夹进行 ACL。 继承的 DFS 共享权限将不会用于限制访问。
+Lync Server 2013 安装程序要求对共享文件夹的权限允许对管理员具有完全访问权限。 然后，Lync Server 2013 将使用 NTFS 文件权限对文件夹进行 ACL。 继承的 DFS 共享权限不会用于限制访问。
 
-有关文件共享要求的更多详细信息，请参阅支持文档中的[Lync Server 2013 中的文件存储支持](lync-server-2013-file-storage-support.md)。
+有关文件共享要求的更多详细信息，请参阅可支持性文档中的[Lync Server 2013 中的文件存储支持](lync-server-2013-file-storage-support.md)。
 
 <div>
 
@@ -57,29 +57,29 @@ Lync Server 2013 安装程序要求共享文件夹的权限允许对管理员拥
 
 </div>
 
-以下过程介绍了如何使用 DFS 命名空间向导正确配置共享文件夹权限（如 DFS 安装指南中所述）。
+以下过程介绍如何使用 DFS 命名空间向导（如 DFS 安装指南中所述）正确配置共享文件夹权限。
 
 <div>
 
 ## <a name="to-configure-shared-folder-permissions"></a>配置共享文件夹权限
 
-1.  单击 "**开始**"，指向 "**所有程序**"，指向 "**管理工具**"，然后单击 " **DFS 管理**"。
+1.  单击“开始”****，指向“所有程序”****，指向“管理工具”****，然后单击“DFS 管理”****。
 
-2.  在 "DFS 管理" 管理单元的控制台树中，右键单击命名空间服务器（例如 filesrv1.contoso.com），然后单击 "**编辑设置**"。
+2.  在“DFS 管理”管理单元的控制台树中，右键单击命名空间服务器（如 filesrv1.contoso.com），然后单击“编辑设置”****。
 
-3.  选择 "**共享文件夹权限**"。
+3.  选择“共享文件夹权限”****。
 
-4.  选择 "**使用自定义权限**"。
+4.  选择“使用自定义权限”****。
 
-5.  对于 "管理员" 组，在 "**允许**" 下选择下列内容：
+5.  对于 Administrator 组，在“允许”**** 下选择以下选项：
     
-      - **完全控制**
+      - “完全控制”****
     
       - **更改**
     
-      - **继续**
+      - **读取**
 
-6.  单击 "**应用**"，然后单击 **"确定"**。
+6.  单击“应用”****，然后单击“确定”****。
 
 </div>
 

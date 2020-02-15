@@ -12,16 +12,16 @@ ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc4469140f7f92c563a594c883d02f3add1e65c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 95cc6790766d68ee478cf1b80326c974f7c15f1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743372"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028473"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743372"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-FileTransfer 视图存储有关对等文件传输会话的信息。 此视图已在 Microsoft Lync Server 2013 中引入。
+FileTransfer 视图存储有关对等文件传输会话的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 
 <div>
 
 
 > [!NOTE]  
-> FileTransfers 视图包含<A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 的 SessionDetails 视图</A>中的所有列以及下面列出的列。
+> FileTransfers 视图包含在<A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 的 SessionDetails 视图</A>中的所有列，此外还列出了下面列出的列。
 
 
 
@@ -66,33 +66,33 @@ FileTransfer 视图存储有关对等文件传输会话的信息。 此视图已
 <tbody>
 <tr class="odd">
 <td><p><strong>FileName</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>已传输的文件的名称。</p></td>
+<td><p>nvarchar （256）</p></td>
+<td><p>文件传输的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>票证</strong></p></td>
+<td><p><strong>Cookie</strong></p></td>
 <td><p>nvarchar</p></td>
-<td><p>用于标识要与此邮件关联的每个后续消息。</p></td>
+<td><p>用于标识与此关联时的每条后续消息。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FileIdentity</strong></p></td>
-<td><p>标识符</p></td>
-<td><p>唯一标识符，用于区分涉及相同文件名的文件传输。</p></td>
+<td><p>uniqueidentifier</p></td>
+<td><p>涉及相同文件名的文件传输之间标识的唯一标识符。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>容纳</strong></p></td>
-<td><p>bit</p></td>
-<td><p>可以为 TRUE 或 NULL。 如果为 TRUE，则 "拒绝" 和 "取消" 将为 NULL。</p></td>
+<td><p><strong>Accept</strong></p></td>
+<td><p>位</p></td>
+<td><p>可以是 TRUE 或 NULL。如果是 TRUE，则拒绝和取消将为 NULL。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>&</strong></p></td>
-<td><p>bit</p></td>
-<td><p>可以为 TRUE 或 NULL。 如果为 TRUE，则 "接受" 和 "取消" 将为 NULL。</p></td>
+<td><p><strong>Reject</strong></p></td>
+<td><p>位</p></td>
+<td><p>可以是 TRUE 或 NULL。如果是 TRUE，则接受和取消将为 NULL。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>取消</strong></p></td>
-<td><p>bit</p></td>
-<td><p>可以为 TRUE 或 NULL。 如果为 TRUE，则 "接受" 和 "拒绝" 将为 NULL。</p></td>
+<td><p><strong>Cancel</strong></p></td>
+<td><p>位</p></td>
+<td><p>可以是 TRUE 或 NULL。如果是 TRUE，则接受和拒绝将为 NULL。</p></td>
 </tr>
 </tbody>
 </table>

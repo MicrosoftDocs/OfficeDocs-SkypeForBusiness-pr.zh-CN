@@ -12,16 +12,16 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfedd6cc909b1d164df145862c8bd783581ed306
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d28ad5b4f00c724a6344d201cc871fdddf189706
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727372"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727372"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-15_
+_**上次修改的主题：** 2012-10-15_
 
-本节中的主题介绍完成迁移到 Lync Server 2013 后需要执行的任务。
+本节中的主题介绍了在完成到 Lync Server 2013 的迁移之后需要执行的任务。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [迁移响应组](migrate-response-groups_1.md)
 
@@ -53,13 +53,13 @@ _**主题上次修改时间：** 2012-10-15_
 
   - [启用远程呼叫控制](enable-remote-call-control.md)
 
-  - [删除旧存档和监控服务器](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [删除旧的存档和监控服务器](remove-legacy-archiving-and-monitoring-servers_1.md)
 
   - [迁移中介服务器](migrate-mediation-server.md)
 
   - [配置受信任应用程序服务器](configure-trusted-application-servers_1.md)
 
-  - [配置与会页面](configure-the-meeting-join-page_1.md)
+  - [配置会议加入页面](configure-the-meeting-join-page_1.md)
 
   - [部署 Lync Server 2013 客户端](deploy-lync-server-2013-clients_1.md)
 

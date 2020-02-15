@@ -12,16 +12,16 @@ ms:contentKeyID: 48184912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6af1d9bd6fdb02b31f81d70199cb71c960296013
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2487ba6bdc587bddc0d8dd2a4d877e00d671ac19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731612"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034102"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41731612"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-20_
+_**上次修改的主题：** 2012-06-20_
 
 本部分讨论部署 Lync Server 2013 和所有关联组件的系统要求。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 的安装和管理所需的管理员权限](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
+  - [安装和管理 Lync Server 2013 所需的管理员权利和权限](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
 
   - [运行 Lync Server 2013 的服务器的系统要求](lync-server-2013-system-requirements-for-servers-running-lync-server-2013.md)
 
   - [Lync Server 2013 中 SQL Server 的系统要求](lync-server-2013-system-requirements-for-sql-server.md)
 
-  - [Lync Server 2013 中管理工具的系统要求](lync-server-2013-system-requirements-for-administration-tools.md)
+  - [Lync Server 2013 中的管理工具的系统要求](lync-server-2013-system-requirements-for-administration-tools.md)
 
   - [Lync Server 2013 的 DNS 要求](lync-server-2013-dns-requirements.md)
 

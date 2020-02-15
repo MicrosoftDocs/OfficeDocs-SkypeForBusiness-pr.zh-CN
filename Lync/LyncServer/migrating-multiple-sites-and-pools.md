@@ -12,16 +12,16 @@ ms:contentKeyID: 48185079
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2f01303c7fe137253d8e993edb05e9562d963ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52e14cccb9856534ea9b7229fd020edc2ec21dba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765250"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765250"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-17_
+_**上次修改的主题：** 2012-09-17_
 
-Lync Server 2013 支持多站点和多池部署。 将多个池从 Lync Server 2010 迁移到 Lync Server 2013 的过程需要考虑下列事项：
+Lync Server 2013 支持多站点部署和多池部署。 将多个池从 Lync Server 2010 迁移到 Lync Server 2013 的过程需要以下注意事项：
 
-1.  部署 Lync Server 2013 试验池后，你需要定义将被移动到 Lync Server 2013 池的试点用户的子集，以及用于验证用户功能的方法。 例如，将用户移动到试验池后，请验证用户的会议策略是否已迁移到 Lync Server 2013。
+1.  部署 Lync Server 2013 引导池之后，需要定义将移动到 Lync Server 2013 池的试点用户的子集，以及用于验证用户功能的方法。 例如，在将用户移动到引导池之后，请验证用户的会议策略是否已移动到 Lync Server 2013。
 
-2.  在试验池中部署边缘服务器之后，你需要验证外部用户是否可以与 Lync Server 2013 池通信。
+2.  在引导池中部署边缘服务器之后，需要验证外部用户是否可以与 Lync Server 2013 池通信。
 
-3.  将 Lync Server 2010 Edge 服务器中的联盟路由转换为试点 Lync Server 2013 Edge 服务器之后，你需要验证联盟用户是否可以与 Lync Server 2013 池通信。
+3.  将来自 Lync Server 2010 边缘服务器的联盟路由转换为试点 Lync Server 2013 边缘服务器后，需要验证联合用户是否可以与 Lync Server 2013 池通信。
 
-4.  移动所有用户和非用户联系人对象后，需要验证 Lync Server 2010 池是否为空。
+4.  移动所有用户和非用户联系人对象之后，需要验证 Lync Server 2010 池是否为空。
 
-5.  验证 Lync Server 2010 池是否为空后，您可以停用该池。
+5.  在验证 Lync Server 2010 池是否为空之后，您可以停用该池。
     
-    有关如何停用旧版 Lync Server 2010 池和服务器的详细信息，请参阅[第8阶段：解除旧版池](phase-8-decommission-legacy-pools.md)。
+    有关如何停用旧版 Lync Server 2010 池和服务器的详细信息，请参阅[第8阶段：停止旧版池](phase-8-decommission-legacy-pools.md)。
 
 </div>
 

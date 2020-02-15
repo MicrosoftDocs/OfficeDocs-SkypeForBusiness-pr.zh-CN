@@ -12,16 +12,16 @@ ms:contentKeyID: 48183954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9aa76d218564e04048a07db7592ffc5ea4046a71
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b93b63ffbb551c7e5d9d6998a5f25f86eb6fb0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728782"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41728782"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
 工作流定义了从电话响铃到有人接听电话这段时间内呼叫的行为。工作流指定用于保留呼叫的队列，并指定用于智能寻线的路由方法或用于互动响应组的问题和答案。工作流还定义了诸如欢迎消息、保持音乐、工作时间和假日等设置。
 
-使用 "响应组配置" 工具创建工作流。 您可以从 Lync Server 控制面板的 "响应组" 页面访问 "响应组配置" 工具。
+您可以使用响应组配置工具来创建工作流。 您可以从 Lync Server 控制面板的 "响应组" 页访问响应组配置工具。
 
 <div>
 
@@ -53,13 +53,13 @@ _**主题上次修改时间：** 2012-09-12_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中创建或修改查寻组工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [在 Lync Server 2013 中创建或修改智能寻线工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-  - [在 Lync Server 2013 中设计互动语音响应呼叫流](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [在 Lync Server 2013 中设计交互式语音响应呼叫流](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [在 Lync Server 2013 中创建或修改互动工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)
+  - [在 Lync Server 2013 中创建或修改交互式工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
 </div>
 
@@ -67,7 +67,7 @@ _**主题上次修改时间：** 2012-09-12_
 
 ## <a name="related-sections"></a>相关部分
 
-  - [在 Lync Server 2013 中创建响应组代理组](lync-server-2013-create-response-group-agent-groups.md)
+  - [创建响应组代理组 Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
 
   - [在 Lync Server 2013 中创建响应组队列](lync-server-2013-create-response-group-queues.md)
 

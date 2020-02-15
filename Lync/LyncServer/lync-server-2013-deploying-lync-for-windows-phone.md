@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署 Lync for Windows Phone
+title: Lync Server 2013：部署适用于 Windows Phone 的 Lync
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4884d0bb5f56083425d2471a7aa95a7bc8cec0f3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7a6034a1ca19e2605198a8bce8125ed1d1ba3bf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733594"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-lync-for-windows-phone-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Lync for Windows Phone
+# <a name="deploying-lync-for-windows-phone-in-lync-server-2013"></a>在 Lync Server 2013 中部署适用于 Windows Phone 的 Lync
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41733594"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-19_
+_**上次修改的主题：** 2013-02-19_
 
-本部分介绍如何为你的移动用户部署 Lync 2013 for Windows Phone。
+本节介绍如何为你的移动用户部署适用于 Windows Phone 的 Lync 2013。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中安装 Lync for Windows Phone](lync-server-2013-installing-lync-for-windows-phone.md)
+  - [在 Lync Server 2013 中安装适用于 Windows Phone 的 Lync](lync-server-2013-installing-lync-for-windows-phone.md)
 
-  - [在 Lync Server 2013 中删除 Lync for Windows Phone](lync-server-2013-removing-lync-for-windows-phone.md)
+  - [在 Lync Server 2013 中删除适用于 Windows Phone 的 Lync](lync-server-2013-removing-lync-for-windows-phone.md)
 
 </div>
 

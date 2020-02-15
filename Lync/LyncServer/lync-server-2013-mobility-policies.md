@@ -12,16 +12,16 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02103b99a4524c23d10a2162ea120d1060917b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f96061011087bc3e23f4e57172b85cc9a379a83f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758674"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41758674"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-18_
+_**上次修改的主题：** 2012-10-18_
 
-使用以下过程配置 Lync Server 2013 的移动策略。
+使用以下过程可为 Lync Server 2013 配置移动策略。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中创建或修改移动策略](lync-server-2013-create-or-modify-a-mobility-policy.md)
 
@@ -56,7 +56,7 @@ _**主题上次修改时间：** 2012-10-18_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中规划移动功能](lync-server-2013-planning-for-mobility.md)  
+[在 Lync Server 2013 中规划移动性](lync-server-2013-planning-for-mobility.md)  
   
 
 </div>

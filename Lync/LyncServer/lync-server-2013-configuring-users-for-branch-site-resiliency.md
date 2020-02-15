@@ -12,16 +12,16 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b0909b7bbcd8f1b80f0c3e2f5718fc6df4d730
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 487120d76e64229779e7f73725545eaad3da7e4a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734452"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734452"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-11_
+_**上次修改的主题：** 2012-10-11_
 
-在[使用 Lync Server 2013 部署 Survivable 分支装置或服务器](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)中成功完成任务后，请执行以下过程以启用企业语音的用户，并为其分配语音策略和语音邮件设置。 然后在[Lync Server 2013 中的 Survivable 分支装置或服务器上的家庭用户](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)中，将这些用户置于 Survivable 分支装置或服务器上。
+在[使用 Lync Server 2013-分支站点任务将 Survivable 分支设备或服务器](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)中成功完成任务后，请执行以下过程以启用企业语音的用户，并为其分配语音策略和语音邮件设置。 然后在[Lync Server 2013 中的 Survivable 分支设备或服务器上的家庭用户](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)中，将这些用户置于 Survivable 分支设备或服务器上。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中启用企业语音用户](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [在 Lync Server 2013 中为用户启用企业语音](lync-server-2013-enable-users-for-enterprise-voice.md)
 
   - [在 Lync Server 2013 中为分支用户创建 VoIP 路由策略](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
 

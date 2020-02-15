@@ -1,5 +1,5 @@
 ---
-title: 第8阶段：从试验部署迁移到生产环境
+title: 第8阶段：从试点部署移动到生产环境
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733539
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72465d617e747616921825e771b3be6bff157a21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 07ab5e017f165a3dc5d9883f14b3711501a0e0d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727352"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-move-from-pilot-deployment-into-production"></a>第8阶段：从试验部署迁移到生产环境
+# <a name="phase-8-move-from-pilot-deployment-into-production"></a>第8阶段：从试点部署移动到生产环境
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41727352"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-15_
+_**上次修改的主题：** 2012-10-15_
 
-本部分中的主题介绍在将 Lync Server 2013 部署从试验部署迁移到生产级部署之前必须完成的任务。
+本节中的主题介绍在将 Lync Server 2013 的部署从试点部署迁移到生产级部署之前必须完成的任务。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [配置联合路由和媒体流量](configure-federation-routes-and-media-traffic_1.md)
+  - [配置联盟路由和媒体流量](configure-federation-routes-and-media-traffic_1.md)
 
   - [将其余用户移动到 Lync Server 2013](move-remaining-users-to-lync-server-2013_1.md)
 

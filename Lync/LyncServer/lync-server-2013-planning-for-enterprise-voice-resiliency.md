@@ -12,16 +12,16 @@ ms:contentKeyID: 48185408
 ms.date: 10/17/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b8b35871b740bd6d52d741922a3dcea9b7b60b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 635e252953956d9dc6619ab51eea88804c2905c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41754052"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-10-17_
+_**上次修改的主题：** 2014-10-17_
 
-语音弹性指当托管 Lync Server 2013 的中心网站不可用时，用户可以继续进行呼叫和接收呼叫的能力，无论是通过广域网（WAN）故障还是其他原因。 如果中央站点发生故障，企业语音服务必须通过无缝故障转移至备份站点以保持不中断。 如果发生 WAN 故障，分支站点的呼叫必须重定向到本地 PSTN 网关。 本节讨论了如何规划在中央站点或 WAN 发生故障时的语音恢复能力。
+语音弹性是指如果承载 Lync Server 2013 的中央站点不可用（无论是通过广域网络（WAN）故障还是其他原因），则用户可以继续拨打和接听呼叫的能力。 如果中央站点发生故障，企业语音服务必须通过无缝故障转移至备份站点以保持不中断。 如果发生 WAN 故障，分支站点的呼叫必须重定向到本地 PSTN 网关。 本节讨论了如何规划在中央站点或 WAN 发生故障时的语音恢复能力。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中规划中央站点语音恢复能力](lync-server-2013-planning-for-central-site-voice-resiliency.md)
+  - [在 Lync Server 2013 中规划中心站点语音恢复](lync-server-2013-planning-for-central-site-voice-resiliency.md)
 
-  - [在 Lync Server 2013 中规划分支站点语音恢复能力](lync-server-2013-planning-for-branch-site-voice-resiliency.md)
+  - [在 Lync Server 2013 中规划分支站点语音恢复](lync-server-2013-planning-for-branch-site-voice-resiliency.md)
 
 </div>
 

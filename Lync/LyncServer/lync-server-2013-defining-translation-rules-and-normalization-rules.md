@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：定义翻译规则和规范化规则
+title: Lync Server 2013：定义转换规则和规范化规则
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733763
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d91415e467bfdb070d76415e47aaa59d0fab3be9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ff8d054096f3c5d6d8293affc4dc9c1b6490e2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728302"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定义翻译规则和规范化规则
+# <a name="defining-translation-rules-and-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定义转换规则和规范化规则
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41728302"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-18_
+_**上次修改的主题：** 2012-10-18_
 
-使用部分中的主题了解如何配置 Lync Server 2013 的中继。
+使用部分中的主题可了解如何为 Lync Server 2013 配置中继。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中定义转换规则](lync-server-2013-defining-translation-rules.md)
 

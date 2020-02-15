@@ -12,16 +12,16 @@ ms:contentKeyID: 48183942
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7524098f256587820beaabe31a8162591ba595d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c584670828524b0d72a03adcbbee7a7bca773b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745102"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036512"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,74 +35,74 @@ ms.locfileid: "41745102"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-20_
+_**上次修改的主题：** 2012-06-20_
 
-Microsoft Lync Server 2013 中包含的许多拓扑 cmdlet 均设计为与设置和拓扑生成器配合使用;因此，管理员很少会直接拨打许多拓扑 cmdlet。 但是，有时管理员将需要使用这些 cmdlet;例如，在创建新的 Kerberos 帐户之后，您必须运行[Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15)) cmdlet 才能使更改生效。 此外，管理员很可能会运行[CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))和[CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))之类的 cmdlet，以帮助确保 Lync Server 2013 正确安装并按预期工作。
+Microsoft Lync Server 2013 中包含的许多拓扑 cmdlet 都设计为与安装和拓扑生成器配合使用;因此，管理员很少会直接调用许多拓扑 cmdlet。 不过，有时管理员将需要使用这些 cmdlet;例如，在创建新的 Kerberos 帐户之后，您必须运行[enable-cstopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15)) cmdlet，以使更改生效。 此外，管理员很可能会运行[enable-cstopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))和[CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))等 cmdlet，以帮助确保已正确安装 Lync Server 2013 并按预期方式工作。
 
 <div>
 
 ## <a name="topology-cmdlets"></a>拓扑 Cmdlet
 
-以下是与直接管理 Lync Server 拓扑相关的 cmdlet 的列表：
+以下是与您直接管理 Lync Server 拓扑相关的 cmdlet 的列表：
 
 **拓扑**
 
   - <span></span>  
-    [CsPool](https://technet.microsoft.com/en-us/library/Gg398992(v=OCS.15))
+    [Start-cspool](https://technet.microsoft.com/library/Gg398992(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsSite](https://technet.microsoft.com/en-us/library/Gg398185(v=OCS.15))
+    [Get-cssite](https://technet.microsoft.com/library/Gg398185(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSite](https://technet.microsoft.com/en-us/library/Gg413023(v=OCS.15))
+    [Get-cssite](https://technet.microsoft.com/library/Gg413023(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-CsTopology](https://technet.microsoft.com/en-us/library/Gg398398(v=OCS.15))
+    [Enable-Enable-cstopology](https://technet.microsoft.com/library/Gg398398(v=OCS.15))
 
   - <span></span>  
-    [CsTopology](https://technet.microsoft.com/en-us/library/Gg412824(v=OCS.15))
+    [Enable-cstopology](https://technet.microsoft.com/library/Gg412824(v=OCS.15))
 
   - <span></span>  
-    [发布-CsTopology](https://technet.microsoft.com/en-us/library/Gg398953(v=OCS.15))
+    [发布-Enable-cstopology](https://technet.microsoft.com/library/Gg398953(v=OCS.15))
 
   - <span></span>  
-    [Test-CsTopology](https://technet.microsoft.com/en-us/library/Gg398127(v=OCS.15))
+    [Test-Enable-cstopology](https://technet.microsoft.com/library/Gg398127(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398627(v=OCS.15))
+    [Export-CsConfiguration](https://technet.microsoft.com/library/Gg398627(v=OCS.15))
 
   - <span></span>  
-    [Import-CsConfiguration](https://technet.microsoft.com/en-us/library/Gg398800(v=OCS.15))
+    [Import-CsConfiguration](https://technet.microsoft.com/library/Gg398800(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsServerVersion](https://technet.microsoft.com/en-us/library/Gg398470(v=OCS.15))
+    [CsServerVersion](https://technet.microsoft.com/library/Gg398470(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-CsComputer](https://technet.microsoft.com/en-us/library/Gg399023(v=OCS.15))
+    [Disable-CsComputer](https://technet.microsoft.com/library/Gg399023(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsComputer](https://technet.microsoft.com/en-us/library/Gg412815(v=OCS.15))
+    [Enable-CsComputer](https://technet.microsoft.com/library/Gg412815(v=OCS.15))
 
   - <span></span>  
-    [CsComputer](https://technet.microsoft.com/en-us/library/Gg425959(v=OCS.15))
+    [CsComputer](https://technet.microsoft.com/library/Gg425959(v=OCS.15))
 
   - <span></span>  
-    [Test-CsComputer](https://technet.microsoft.com/en-us/library/Gg398162(v=OCS.15))
+    [Test-CsComputer](https://technet.microsoft.com/library/Gg398162(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkInterface](https://technet.microsoft.com/en-us/library/Gg398121(v=OCS.15))
+    [CsNetworkInterface](https://technet.microsoft.com/library/Gg398121(v=OCS.15))
 
 </div>
 

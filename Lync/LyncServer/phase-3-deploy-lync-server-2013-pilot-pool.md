@@ -1,5 +1,5 @@
 ---
-title: 第3阶段：部署 Lync Server 2013 试验池
+title: 第3阶段：部署 Lync Server 2013 试点池
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38a9e19ea3d9456a5e6f5b395286d77ed831f6b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c87be6f690c5c31822dd59bea52c9140e43a4926
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757676"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>第3阶段：部署 Lync Server 2013 试验池
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>第3阶段：部署 Lync Server 2013 试点池
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757676"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-19_
+_**上次修改的主题：** 2012-10-19_
 
-本部分介绍了部署 Lync Server 2013 的引导池所需的步骤。 Lync Server 2013 的部署需要使用拓扑生成器定义你的拓扑和要部署的组件，为部署 Lync Server 2013 组件准备环境，在第一前端发布拓扑设计服务器，然后为部署的组件安装和配置 Lync Server 2013 软件。 完成后，您的 Lync Server 2013 试验池部署将与现有 Lync Server 2010 池共存。
+本节介绍了部署 Lync Server 2013 的引导池所需的步骤。 部署 Lync Server 2013 需要使用拓扑生成器来定义您的拓扑和要部署的组件，为部署 Lync Server 2013 组件准备环境，在第一台前端发布拓扑设计服务器，然后为部署的组件安装和配置 Lync Server 2013 软件。 完成后，你的 Lync Server 2013 试点池部署将与现有 Lync Server 2010 池共存。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [为 Lync Server 准备 Active Directory](prepare-active-directory-for-lync-server.md)
 
   - [从现有部署下载拓扑](download-topology-from-existing-deployment.md)
 
-  - [部署 Lync Server 2013 试验池](deploy-lync-server-2013-pilot-pool.md)
+  - [部署 Lync Server 2013 试点池](deploy-lync-server-2013-pilot-pool.md)
 
-  - [验证试点池与旧池的共存情况](verify-pilot-pool-coexistence-with-legacy-pool.md)
+  - [验证与旧版池共存的引导池](verify-pilot-pool-coexistence-with-legacy-pool.md)
 
-  - [将试点池连接到旧 Edge Server](connect-pilot-pool-to-legacy-edge-servers.md)
+  - [将试点池连接到旧版边缘服务器](connect-pilot-pool-to-legacy-edge-servers.md)
 
   - [配置 XMPP 网关访问策略和证书](configure-xmpp-gateway-access-policies-and-certificates.md)
 

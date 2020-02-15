@@ -12,20 +12,20 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b80446d9117a37b86c386132aa80439cb568a98
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2e9b5780b17ad2ed7a057979f77e504fb1fca0db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734032"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-per-user-policies-in-lync-server-2013"></a>在 Lync Server 2013 中分配每个用户的策略
+# <a name="assigning-per-user-policies-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户策略
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41734032"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-14_
+_**上次修改的主题：** 2012-10-14_
 
-你可以将某些策略分配给用户或用户组，以指定与分配给其他用户的策略（如全局策略）中定义的设置不同的特定设置。 这些策略称为每用户策略。
+可以向用户或用户组分配特定策略，以指定与分配给其他用户的策略（如全局策略）中定义的设置所不同的特定设置。这些策略称为每用户策略。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中分配每用户会议策略](lync-server-2013-assign-a-per-user-conferencing-policy.md)
 
@@ -49,7 +49,7 @@ _**主题上次修改时间：** 2012-10-14_
 
   - [在 Lync Server 2013 中分配每用户 PIN 策略](lync-server-2013-assign-a-per-user-pin-policy.md)
 
-  - [在 Lync Server 2013 中将外部用户访问策略分配到启用 Lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
+  - [在 Lync Server 2013 中将外部用户访问策略分配给启用 Lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
   - [在 Lync Server 2013 中分配每用户存档策略](lync-server-2013-assign-a-per-user-archiving-policy.md)
 
@@ -59,7 +59,7 @@ _**主题上次修改时间：** 2012-10-14_
 
   - [在 Lync Server 2013 中分配每用户持久聊天策略](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
 
-  - [在 Lync Server 2013 中分配每个用户的拨号计划策略](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
+  - [在 Lync Server 2013 中分配每用户拨号计划策略](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
 
   - [在 Lync Server 2013 中分配每用户语音策略](lync-server-2013-assign-a-per-user-voice-policy.md)
 

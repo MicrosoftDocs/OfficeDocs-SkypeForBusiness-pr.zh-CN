@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Lync Server Management Shell 配置 cmdlet
+title: Lync Server 2013： Lync Server 命令行管理程序配置 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce76166c44f7b35781c6181ac37191bad784fa74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a6cd1ea107dee9a32d695bf51e7b6998542fc76
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742202"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Lync server Management Shell 配置 cmdlet 在 Lync Server 2013 中
+# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 lync Server 命令行管理程序配置 cmdlet
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41742202"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-03-21_
+_**上次修改的主题：** 2012-03-21_
 
-Lync Server 命令行管理程序是 Windows PowerShell 命令窗口的一个实现，其中包含特定于管理在环境中预加载的 Microsoft Lync Server 2010 的 cmdlet。 这些 cmdlet 允许你自定义该环境。
+Lync Server 命令行管理程序是 Windows PowerShell 命令窗口的一种实现，它具有特定于在环境中预加载的 Microsoft Lync Server 2010 管理的 cmdlet。 这些 cmdlet 允许你自定义该环境。
 
 <div>
 
-## <a name="lync-server-management-shell-configuration-cmdlets"></a>Lync Server Management Shell 配置 Cmdlet
+## <a name="lync-server-management-shell-configuration-cmdlets"></a>Lync Server 命令行管理程序配置 Cmdlet
 
-使用这些 cmdlet 设置 Lync Server 命令行管理程序的某些自定义属性。
-
-  - <span></span>  
-    [Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))
+使用这些 cmdlet 可以设置 Lync Server 命令行管理程序的某些自定义属性。
 
   - <span></span>  
-    [Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))
+    [CsUICulture](https://technet.microsoft.com/library/Gg412900(v=OCS.15))
+
+  - <span></span>  
+    [CsUICulture](https://technet.microsoft.com/library/Gg398354(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))
+    [CsManagementConnection](https://technet.microsoft.com/library/Gg412849(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))
+    [CsManagementConnection](https://technet.microsoft.com/library/Gg425803(v=OCS.15))
 
   - <span></span>  
-    [Set-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))
+    [CsManagementConnection](https://technet.microsoft.com/library/Gg413045(v=OCS.15))
 
 </div>
 

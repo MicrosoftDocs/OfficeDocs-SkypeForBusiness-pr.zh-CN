@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：分支站点恢复能力功能
+title: Lync Server 2013：分支站点恢复功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a490de36322914235346cbc141784aab2c24f2ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf5f477bcb5620112789a338339b6ca00bf9c3c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737562"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-resiliency-features-in-lync-server-2013"></a>Lync Server 2013 中的分支站点恢复能力功能
+# <a name="branch-site-resiliency-features-in-lync-server-2013"></a>Lync Server 2013 中的分支站点恢复功能
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41737562"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-10_
+_**上次修改的主题：** 2014-02-10_
 
 如果提供分支站点恢复能力，当分支站点到中央站点的 WAN 连接出现故障，或者当中央站点无法访问时，以下语音功能应该仍然可用：
 
@@ -56,11 +56,11 @@ _**主题上次修改时间：** 2014-02-10_
 
   - 使用会议自动助理的 PSTN 电话拨入式会议
 
-  - 语音邮件功能，前提是配置了语音邮件重新路由设置。 （有关详细信息，请参阅[Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)。）
+  - 语音邮件功能（如果配置了语音邮件重新路由设置）。 （有关详细信息，请参阅[Lync Server 2013 的分支站点恢复要求](lync-server-2013-branch-site-resiliency-requirements.md)。）
 
   - 用户身份验证和授权
 
-仅当你的复原解决方案是分支站点上的完全规模的 Lync 服务器部署时，以下功能才可用：
+仅当您的恢复解决方案是分支站点的完全规模的 Lync 服务器部署时，以下功能才可用：
 
   - IM、Web 会议和 A/V 会议
 
@@ -68,19 +68,19 @@ _**主题上次修改时间：** 2014-02-10_
 
   - 更新呼叫转接设置
 
-  - 响应组应用程序和调用寄存应用程序
+  - 响应组应用程序和呼叫寄存应用程序
 
-  - 预配新的手机和客户端，但仅当分支站点上存在 Active Directory 域服务时。
+  - 设置新的电话和客户端，但仅在分支站点上存在 Active Directory 域服务时。
 
   - 增强型 9-1-1 (E9-1-1)
     
-    如果已部署 E9-1，并且中心站点上的 SIP 主干不可用，因为 WAN 链接处于关闭状态，则 Survivable 分支装置将 E9-1 呼叫路由到本地分支网关。 要启用该功能，分支站点用户的语音策略应在 WAN 出现故障时将呼叫路由到本地网关。
+    如果已部署 E9-1-1，并且中心站点上的 SIP 中继因 WAN 链路断开而不可用，则 Survivable 分支设备会将 E9-1-1 呼叫路由到本地分支网关。 要启用该功能，分支站点用户的语音策略应在 WAN 出现故障时将呼叫路由到本地网关。
 
 <div>
 
 
 > [!NOTE]  
-> XMPP 不支持 SBA（survivable branch office，自动恢复分支机构）。 托管在 SBA 配置中的用户将无法使用 XMPP 联系人发送即时消息或查看状态。
+> XMPP 不支持 SBA （survivable branch office）。 驻留在 SBA 配置中的用户将无法使用 XMPP 联系人发送即时消息或查看状态。
 
 
 

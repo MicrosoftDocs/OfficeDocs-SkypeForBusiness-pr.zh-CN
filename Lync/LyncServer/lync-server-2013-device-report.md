@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：设备报表
+title: Lync Server 2013：设备报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc453ca1e83d8077e67ef130ef7a83e03c138be2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: da9ec08af933f90eaf1e941259628b38ec055d9a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762420"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-report-in-lync-server-2013"></a>Lync Server 2013 中的设备报表
+# <a name="device-report-in-lync-server-2013"></a>Lync Server 2013 中的设备报告
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762420"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-11-12_
+_**上次修改的主题：** 2013-11-12_
 
-设备报告可能更好地为麦克风和扬声器报告加了标题；这是因为，该设备报告检索按呼叫中使用的麦克风和扬声器分组的呼叫相关的指标（例如，质量欠佳的呼叫百分比、回声和语音切换时间）。 如果你对 IP 电话感兴趣（通常也称为 "设备"），请改用[Lync Server 2013 中的 Ip 手机库存报告](lync-server-2013-ip-phone-inventory-report.md)。
+设备报告可能更好地为麦克风和扬声器报告加了标题；这是因为，该设备报告检索按呼叫中使用的麦克风和扬声器分组的呼叫相关的指标（例如，质量欠佳的呼叫百分比、回声和语音切换时间）。 如果您对 IP 电话（也通常称为 "设备"）感兴趣，请改用[Lync Server 2013 中的 "Ip 电话清单" 报告](lync-server-2013-ip-phone-inventory-report.md)。
 
 该设备报告在管理员确定特定类型的设备遇到的质量欠佳的呼叫量是否高于其他呼叫时极其有用。转而，这会对即将购买新设备或替换现有设备时所做的任何决策产生影响。
 
@@ -131,13 +131,13 @@ _**主题上次修改时间：** 2013-11-12_
 
 ## <a name="accessing-the-device-report"></a>访问设备报告
 
-通常可从监控报告主页访问该设备报告。 但是，如果你在[Lync Server 2013 中查看 "呼叫详细信息" 报告](lync-server-2013-call-detail-report.md)，你可以通过单击以下任一指标向下钻取到特定设备的设备报告：
+通常可从监控报告主页访问该设备报告。 但是，如果要[在 Lync Server 2013 中查看呼叫详细信息报告](lync-server-2013-call-detail-report.md)，可以通过单击以下任一指标深入到特定设备的设备报告：
 
   - 捕获设备
 
   - 呈现设备
 
-在 "设备" 报表中，通过单击以下任一指标，可以向下钻取到[Lync Server 2013 中的 "通话清单" 报告](lync-server-2013-call-list-report.md)：
+在设备报告中，可以通过单击以下任一指标向下钻取到[Lync Server 2013 中的呼叫列表报告](lync-server-2013-call-list-report.md)：
 
   - 呼叫量
 
@@ -191,13 +191,13 @@ _**主题上次修改时间：** 2013-11-12_
 
 
 > [!NOTE]  
-> 请记住，如果你运行的是 Lync Server 2013 的本地化版本，则捕获设备名称可能不同。 美国英语中名为 Aastra 6725ip 麦克风 (Aastra 6725ip)-V0 的设备在法语和西班牙语中可能会有不同的名称。
+> 请注意，如果您运行的是 Lync Server 2013 的本地化版本，则捕获设备名称可能不相同。 美国英语中名为 Aastra 6725ip 麦克风 (Aastra 6725ip)-V0 的设备在法语和西班牙语中可能会有不同的名称。
 
 
 
 </div>
 
-很多时候，您想拥有该级别的详细信息；但在其他时候，您可能仅对多少呼叫在使用普通的 Aastra 麦克风感兴趣，而与型号无关。 获取信息的一种方法是将设备报表数据导出到 Microsoft Excel，然后将该数据保存到逗号分隔值文件（例如 C：\\数据\\设备\_Report .csv）。 然后使用一组类似这些的命令，将 .CSV 文件导入到 Windows PowerShell 中，并报告回使用 Aastra 捕获设备所做的呼叫总数：
+很多时候，您想拥有该级别的详细信息；但在其他时候，您可能仅对多少呼叫在使用普通的 Aastra 麦克风感兴趣，而与型号无关。 获取信息的一种方法是将设备报告数据导出到 Microsoft Excel，然后将该数据保存到逗号分隔值文件（例如，C：\\data\\Devices\_Report .csv）。 然后使用一组类似这些的命令，将 .CSV 文件导入到 Windows PowerShell 中，并报告回使用 Aastra 捕获设备所做的呼叫总数：
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
@@ -228,25 +228,25 @@ _**主题上次修改时间：** 2013-11-12_
 <thead>
 <tr class="header">
 <th>名称</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>从</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>到</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
@@ -257,7 +257,7 @@ _**主题上次修改时间：** 2013-11-12_
 <td><p>呼叫必须切换为半双工模式才能防止回声的原因。在半双工模式中，通信一次只能在一个方向进行，与用户在使用对讲机进行通信时的轮流方式相似。选择下列选项之一：</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>[所有]</p>
+<dd><p>各种</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>无</p>
@@ -287,7 +287,7 @@ _**主题上次修改时间：** 2013-11-12_
 <td><p>在呼叫中检测到超出接受水平的回声的原因。（在长途通讯中，回声是声音的反射，与朝井底大喊时出现的现象一样。）选择下列选项之一：</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>[所有]</p>
+<dd><p>各种</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>无</p>
@@ -314,7 +314,7 @@ _**主题上次修改时间：** 2013-11-12_
 <td><p>指示发起的呼叫类型。选择下列选项之一：</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>[所有]</p>
+<dd><p>各种</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>客户端呼叫</p>
@@ -332,7 +332,7 @@ _**主题上次修改时间：** 2013-11-12_
 <td><p>指示客户端在发起呼叫时已登录到内部网络还是外部网络。选择下列选项之一：</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>[所有]</p>
+<dd><p>各种</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>内部</p>
@@ -347,7 +347,7 @@ _**主题上次修改时间：** 2013-11-12_
 <td><p>指示客户端在发起呼叫时已连接到的网络的类型。选择下列选项之一：</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>[所有]</p>
+<dd><p>各种</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>有线</p>
@@ -362,7 +362,7 @@ _**主题上次修改时间：** 2013-11-12_
 <td><p>指示外部客户端在发起呼叫时是否使用了虚拟专用网 (VPN) 连接。选择下列选项之一：</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>[所有]</p>
+<dd><p>各种</p>
 </dd>
 <dt><span></span></dt>
 <dd><p>VPN</p>
@@ -393,7 +393,7 @@ _**主题上次修改时间：** 2013-11-12_
 <p>麦克风 (Microsoft LifeCam VX-1000.)</p>
 <p>或者，可只输入该名称的一部分。例如：</p>
 <p>LifeCam</p>
-<p>请注意，上述筛选器返回任何在其名称中&quot;任何&quot;位置包含字符串 LifeCam 的设备。</p></td>
+<p>请注意，上面的筛选器将返回任何在其&quot;名称&quot;中的任何位置包含字符串 LifeCam 的设备。</p></td>
 </tr>
 </tbody>
 </table>
@@ -419,7 +419,7 @@ _**主题上次修改时间：** 2013-11-12_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -441,7 +441,7 @@ _**主题上次修改时间：** 2013-11-12_
 <tr class="even">
 <td><p><strong>质量欠佳的呼叫百分比</strong></p></td>
 <td><p>是</p></td>
-<td><p>分类为&quot;差的通话百分比。&quot;较差的通话是指至少一个已测量指标超过允许值的电话（例如，经历过多抖动的呼叫）。</p></td>
+<td><p>分类为&quot;较差的呼叫的百分比。&quot;较差的呼叫是指至少一个已衡量的指标超过了允许的值（例如，遇到过多抖动的呼叫）的任何呼叫。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>唯一用户数</strong></p></td>
@@ -464,22 +464,22 @@ _**主题上次修改时间：** 2013-11-12_
 <td><p>呈现设备未在可接受水平运行的呼叫的百分比。这些值高表示呼叫的质量问题主要是由于呈现设备未按预期正常运行造成的。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>具有语音切换的呼叫百分比</strong></p></td>
+<td><p><strong>具有语音切换的呼叫(%)</strong></p></td>
 <td><p>是</p></td>
 <td><p>必须在半双工模式中拨打的总呼叫数的百分比。在半双工模式中，通信一次只能在一个方向进行，与用户在使用对讲机进行通信时的轮流方式相似。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>麦克风回声百分比</strong></p></td>
+<td><p><strong>麦克风回声(%)</strong></p></td>
 <td><p>是</p></td>
-<td><p>在麦克风捕获流量中检测回声时的时间百分比。通常，对于耳机或话筒，值较低，而对于扬声器电话或独立扬声器，值较高。对于支持板载声学回声消除的设备，高值表示回声泄漏。对于其他设备，不应使用此指标评估设备质量。</p></td>
+<td><p>在麦克风捕获流中检测到回显的时间的百分比。 通常情况下，耳机或话机的值较低，对于扬声器电话或独立扬声器，值较高。 对于支持板载音频回声取消的设备，高值表示回显泄漏。 对于其他设备，不应使用此指标来评估设备质量。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>回声发送百分比</strong></p></td>
+<td><p><strong>回声发送(%)</strong></p></td>
 <td><p>是</p></td>
 <td><p>传输到其他用户的回声的百分比。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>具有回声的呼叫百分比</strong></p></td>
+<td><p><strong>具有回声的呼叫(%)</strong></p></td>
 <td><p>是</p></td>
 <td><p>回声超出可接受水平的总呼叫数的百分比。</p></td>
 </tr>

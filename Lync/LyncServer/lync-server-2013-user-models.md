@@ -12,16 +12,16 @@ ms:contentKeyID: 49733811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8f45b3ea11911ea7a3dce36b0b6a9d64ac1e690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cec912d84859baf77363764851d7abd1592b2760
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744582"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744582"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-10-07_
+_**上次修改的主题：** 2013-10-07_
 
-此处介绍的用户模型为[使用用户模型在 Lync Server 2013 的容量规划](lync-server-2013-capacity-planning-using-the-user-models.md)中介绍的容量规划测量和建议提供了基础。
+此处介绍的用户模型为[使用用户模型的 Lync Server 2013 容量规划](lync-server-2013-capacity-planning-using-the-user-models.md)中所述的容量规划度量和建议提供了基础。
 
 <div>
 
 ## <a name="lync-server-2013-user-models"></a>Lync Server 2013 用户模型
 
-下表介绍了 Lync Server 2013 的注册、联系人、即时消息（IM）和联机状态的用户模型。
+下表介绍了用于 Lync Server 2013 的注册、联系人、即时消息（IM）和状态的用户模型。
 
 ### <a name="environment-and-registration-user-model"></a>环境和注册用户模型
 
@@ -55,7 +55,7 @@ _**主题上次修改时间：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -65,15 +65,15 @@ _**主题上次修改时间：** 2013-10-07_
 </tr>
 <tr class="even">
 <td><p>Active Directory 用户的百分比</p></td>
-<td><p>我们假定组织中所有 Active Directory 用户的70% 已启用 Lync Server。 80% 的已启用用户每天都登录到 Lync Server （80% 并发）。 本节下文中的数字都以并发用户为基础。</p></td>
+<td><p>我们假定组织中所有 Active Directory 用户的70% 为 Lync Server 启用。 每个已启用用户的80% 每天都登录到 Lync Server （80% 并发）。 本节下文中的数字都以并发用户为基础。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Active Directory 更改</p></td>
-<td><p>我们假定每周在 Active Directory 中为 Lync 创建和启用每周的总用户数0.5%，并且每周从 Active Directory 和 Lync 禁用总用户的0.5%。 5% 的用户每周至少更改了一个 Active Directory 属性。</p></td>
+<td><p>我们假定每周在 Active Directory 中为 Lync 创建和启用了总用户数的0.5%，并且每周从 Active Directory 和 Lync 禁用了总用户数的0.5%。 5% 的用户每周至少更改了一个 Active Directory 属性。</p></td>
 </tr>
 <tr class="even">
 <td><p>Active Directory 通讯组</p></td>
-<td><p>我们假定组织中的 Active Directory 通讯组数等于 Active Directory 中所有用户数的三倍。 通讯组的大小如下：</p>
+<td><p>我们假定，组织的 Active Directory 通讯组数是 Active Directory 所有用户数的三倍。通讯组的大小如下：</p>
 <ul>
 <li><p>64% 具有 2-30 个用户</p></li>
 <li><p>13% 具有 31-50 个用户</p></li>
@@ -83,19 +83,19 @@ _**主题上次修改时间：** 2013-10-07_
 </tr>
 <tr class="odd">
 <td><p>IP 语音 (VoIP) 用户</p></td>
-<td><p>60% 的 Lync Server 用户已启用统一通信（UC）（即他们的电话号码由 Lync Server 拥有）。</p></td>
+<td><p>60% 的 Lync Server 用户启用了统一通信（UC）（即，其电话号码归 Lync Server 所有）。</p></td>
 </tr>
 <tr class="even">
 <td><p>注册的客户端分布</p></td>
 <td><p>65% 的客户端运行 Lync 2013 软件，包括 Lync 和 Lync Phone Edition。</p>
-<p>从早期版本的 Lync 运行客户端软件的客户的30%。</p>
-<p>5% 使用 Lync Web App 的客户端。</p>
-<p>如果启用移动功能，假设 40% 的用户正在使用与前面提到的已注册客户端选项同时存在的移动功能，这种情况下，客户端多点登录 (MPOP) 比率为 1:1.9。如果禁用移动，MPOP 比率为1:1.5。</p></td>
+<p>从以前版本的 Lync 运行客户端软件的客户端为30%。</p>
+<p>5% 的客户端使用 Lync Web App。</p>
+<p>如果启用了移动功能，我们将假定40% 的用户正在与其他先前引用的已注册客户端选项同时使用移动性。 在这种情况下，客户端的多重状态点（MPOP）比率为1：1.9。 如果禁用移动，MPOP 比率为1:1.5。</p></td>
 </tr>
 <tr class="odd">
 <td><p>远程用户分布</p></td>
 <td><p>70% 的用户从内部连接。</p>
-<p>通过 Edge 服务器和 Director 连接的用户的30%。</p></td>
+<p>30% 的用户通过边缘服务器和控制器连接。</p></td>
 </tr>
 <tr class="even">
 <td><p>联系人分布</p></td>
@@ -103,18 +103,18 @@ _**主题上次修改时间：** 2013-10-07_
 <p>使用公共云连接的用户平均拥有 80 个联系人。在这些用户中：</p>
 <ul>
 <li><p>50% 的联系人在组织内。这些用户中的 10% 为远程用户，从防火墙以外连接。</p></li>
-<li><p>40% 的联系人是公共云用户（如 AOL、Yahoo！、MSN 或 Google 通话的用户）。</p></li>
+<li><p>40% 的联系人为公共云用户（例如 AOL、Yahoo! 、MSN 或 Google Talk 用户）。</p></li>
 <li><p>10% 的联系人来自联盟伙伴。</p>
 <div>
 
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或续订协议。 具有活动许可证的客户将能够继续与 Yahoo！进行联盟 Messenger，直到服务关闭日期。 AOL 和 Yahoo！的有效期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</A>。</P>
+> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
 > <LI>
-> <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力已作为对 Yahoo！的支持，它的底层协议被向下缠绕。</P>
+> <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而受到了支持，其下凸的底层协议。</P>
 > <LI>
-> <P>Lync 比以往更多，是一种强大的工具，用于跨组织和全球各地的人员进行连接。 与 Windows Live Messenger 的联盟不需要除 Lync 标准 CAL 之外的其他用户/设备许可证。 Skype 联盟将添加到此列表，使 Lync 用户可以通过 IM 和语音与成百上千人联系。</P></LI></UL>
+> <P>Lync 是前所未有的强大工具，用于跨组织和世界各地的个人进行连接。 与 Windows Live Messenger 的联盟不需要除 Lync Standard CAL 之外的其他用户/设备许可证。 Skype 联合身份验证将添加到此列表中，使 Lync 用户可以使用即时消息和语音访问成百上千人。</P></LI></UL>
 
 
 </div></li>
@@ -125,7 +125,7 @@ _**主题上次修改时间：** 2013-10-07_
 <li><p>20% 的联系人来自联盟伙伴。</p>
 <p>每个用户在其联系人列表中都有一个通讯组。为了进行性能测试，我们假设通讯组始终是展开的。</p></li>
 </ul>
-<p>用户的联系人的25% 使用 XMPP。</p></td>
+<p>25% 的用户联系人使用 XMPP。</p></td>
 </tr>
 <tr class="odd">
 <td><p>会话时间</p></td>
@@ -145,7 +145,7 @@ _**主题上次修改时间：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -153,7 +153,7 @@ _**主题上次修改时间：** 2013-10-07_
 <td><p>对等 IM 会话</p></td>
 <td><p>平均每个用户每天发起六个对等 IM 会话。</p>
 <p>每个会话 10 条即时消息。</p>
-<p>每封邮件都通过两个 SIP 信息消息和2个 SIP 200 OK 消息（适用于状态指示器，&lt;如&gt; "名称正在键入"）进行匹配</p></td>
+<p>每封邮件都通过两个 SIP 信息邮件和2个 SIP 200 OK 邮件进行匹配（针对状态指示器&lt;，&gt;如 "名称为键入"）</p></td>
 </tr>
 <tr class="even">
 <td><p>状态轮询</p></td>
@@ -167,10 +167,10 @@ _**主题上次修改时间：** 2013-10-07_
 </tr>
 <tr class="odd">
 <td><p>状态订阅</p></td>
-<td><p>当用户将其他用户添加为联系人时，第一个用户将“<em>订阅</em>”第二个用户的五类信息。这些类别的信息的更新会自动发送给第一个用户。</p>
+<td><p>当用户将其他用户添加为联系人时，第一个用户将“订阅”<em></em>第二个用户的五类信息。这些类别的信息的更新会自动发送给第一个用户。</p>
 <p>针对每个客户端，会发送单个订阅请求以获取平均 40 个联系人状态，以及发送其他 40 个对话以获取联盟联系人状态。</p>
 <p>扩展通讯组成员的状态可通过持久状态订阅（而非轮询）进行查找，并建模为每个用户每两小时一次扩展。</p>
-<p>在以下情况下会发生 <em>短期订阅 </em>：某位用户登录，针对所有用户联系人存在批订阅，然后该用户很快注销。假设每个用户每小时有 6 个短期订阅，其中每个订阅持续 10 分钟。</p></td>
+<p>在以下情况下会发生<em>短期订阅</em>：某位用户登录，针对所有用户联系人存在批订阅，然后该用户很快注销。假设每个用户每小时有 6 个短期订阅，其中每个订阅持续 10 分钟。</p></td>
 </tr>
 <tr class="even">
 <td><p>状态发布</p></td>
@@ -196,7 +196,7 @@ _**主题上次修改时间：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>通讯簿搜索模式</th>
-<th>使用</th>
+<th>用法</th>
 </tr>
 </thead>
 <tbody>
@@ -229,14 +229,14 @@ _**主题上次修改时间：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>计划会议与&quot;"立即&quot;开会" 会议</p></td>
+<td><p>安排的会议&quot;与 "&quot;立即开会" 会议</p></td>
 <td><p>60% 计划内会议，40% 计划外会议。</p>
-<p>在计划的会议中，我们假定80% 分配有会议，这是定期会议的一个实例;10% 是一次打开的会议;8% 是一次性匿名会议，2% 是一次性关闭的会议。</p></td>
+<p>在已安排的会议当中，假设其中 80% 是定期发生的分配会议；10% 是一次性公开会议；8% 是一次性匿名会议，以及 2% 是一次性非公开性会议。</p></td>
 </tr>
 <tr class="even">
 <td><p>会议客户端分布</p></td>
@@ -244,12 +244,12 @@ _**主题上次修改时间：** 2013-10-07_
 <ul>
 <li><p>65% 的会议用户使用 Lync 2013。</p></li>
 <li><p>5% 的会议用户使用 Microsoft Lync Web App。</p></li>
-<li><p>30% 的会议用户使用以前的客户端，包括 Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007 和 Microsoft Office Communicator Web Access （2007发布）。</p></li>
+<li><p>30% 的会议用户使用早期版本的客户端，包括 Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007 和 Microsoft Office Communicator Web Access （2007发布）。</p></li>
 </ul>
 <p>对于计划外会议：</p>
 <ul>
 <li><p>70% 的会议用户使用 Lync 2013。</p></li>
-<li><p>30% 的会议用户使用以前的客户端，包括 Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007 和 Microsoft Office Communicator Web Access （2007发布）。</p></li>
+<li><p>30% 的会议用户使用早期版本的客户端，包括 Microsoft Lync 2010、Office Communicator 2007 R2、Office Communicator 2007 和 Microsoft Office Communicator Web Access （2007发布）。</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -297,7 +297,7 @@ _**主题上次修改时间：** 2013-10-07_
 </table>
 
 
-在常规前端池内，Lync Server 2013 的最大受支持的会议大小为250用户。 每个池一次可承载一个 250 个用户的会议。 召开这样的大型会议的同时，池还可以承载其他较小的会议。 另外，通过设置专用池承载这些会议，可以支持多达 1000 位用户的会议。 有关详细信息，请参阅[Lync Server 2013 中的大型会议支持](lync-server-2013-support-for-large-meetings.md)。
+在常规前端池中，Lync Server 2013 的受支持的最大会议大小为250个用户。 每个池一次可承载一个 250 个用户的会议。 召开这样的大型会议的同时，池还可以承载其他较小的会议。 另外，通过设置专用池承载这些会议，可以支持多达 1000 位用户的会议。 有关详细信息，请参阅[Lync Server 2013 中的 "对大型会议的支持](lync-server-2013-support-for-large-meetings.md)"。
 
 模拟会议的方式如下：
 
@@ -321,12 +321,12 @@ _**主题上次修改时间：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>经过身份验证/匿名</p></td>
+<td><p>已通过身份验证/匿名</p></td>
 <td><p>70% 的呼叫者通过匿名加入，并提示输入记录的名称。30% 经过身份验证加入。</p></td>
 </tr>
 <tr class="even">
@@ -359,7 +359,7 @@ _**主题上次修改时间：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -387,7 +387,7 @@ _**主题上次修改时间：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -415,7 +415,7 @@ _**主题上次修改时间：** 2013-10-07_
 <thead>
 <tr class="header">
 <th>类别</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -453,7 +453,7 @@ _**主题上次修改时间：** 2013-10-07_
 
 以下假设适用于企业语音呼叫：
 
-  - 50% 的用户支持企业语音，并且这些用户的60% 已启用 PSTN 呼叫。
+  - 50% 的用户启用了企业语音，而这些用户的60% 启用了 PSTN 呼叫。
 
   - 启用了 PSTN 呼叫的其中每一位用户在忙碌时段都发出 4 个 PSTN 呼叫。每个呼叫的持续时间为 3 分钟。
 

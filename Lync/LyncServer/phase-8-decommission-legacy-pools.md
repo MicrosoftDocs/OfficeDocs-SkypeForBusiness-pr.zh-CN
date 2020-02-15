@@ -1,5 +1,5 @@
 ---
-title: 第 8 阶段：停用旧池
+title: 第8阶段：停止旧版池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6450e129d68aadcb0e79f38def3e89176ef93373
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729072"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>第 8 阶段：停用旧池
+# <a name="phase-8-decommission-legacy-pools"></a>第8阶段：停止旧版池
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729072"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-12-08_
+_**上次修改的主题：** 2016-12-08_
 
-以下主题提供了更新 DNS 条目、移动内容管理服务器、取消池以及从 Lync Server 2010 的旧式部署中停用和删除服务器和池的指南。 不需要本部分中列出的所有过程。 阅读文档并确定要使用的解除授权过程。
+以下主题提供了有关更新 DNS 条目、移动内容管理服务器、解除授权池以及从旧版部署 Lync Server 2010 中停用和删除服务器和池的指南。 并非本节中列出的所有过程都是必需的。 请阅读本文档并确定要使用的停用过程。
 
-有关删除 Lync Server 2010 服务器和服务器角色以及解除 Lync Server 2010 部署的分步指南，请参阅可在[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)其中下载的 "卸载 Microsoft Lync server 2010 和删除服务器角色"。
+有关删除 Lync Server 2010 服务器和服务器角色的详细信息，以及有关解除 Lync Server 2010 部署的分步指南，请参阅可在其上[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)下载的 "卸载 Microsoft Lync server 2010 和删除服务器角色"。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 有关迁移和升级 Microsoft 统一通信托管 API （UCMA）应用程序的信息，在取消旧环境之前，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 若要了解如何迁移和升级 Microsoft 统一通信托管 API （UCMA）应用程序，在取消旧环境之前，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2016-12-08_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - <span></span>  
     [更新 DNS SRV 记录](update-dns-srv-records.md)
@@ -68,10 +68,10 @@ _**主题上次修改时间：** 2016-12-08_
     [删除存档服务器关联](remove-the-archiving-server-association.md)
 
   - <span></span>  
-    [删除监控服务器关联](remove-the-monitoring-server-association.md)
+    [删除监视服务器关联](remove-the-monitoring-server-association.md)
 
   - <span></span>  
-    [删除企业版前端服务器或标准版前端服务器](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
+    [删除 Enterprise Edition 前端服务器或 Standard Edition 前端服务器](remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server.md)
 
   - <span></span>  
     [删除后端服务器上的 SQL Server 实例和数据库](remove-sql-server-instances-and-databases-on-the-back-end-server.md)

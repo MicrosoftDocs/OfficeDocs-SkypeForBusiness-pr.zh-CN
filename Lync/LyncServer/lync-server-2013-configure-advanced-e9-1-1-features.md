@@ -12,16 +12,16 @@ ms:contentKeyID: 48184646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9805f505896cb27b7e895c0a586ffff3c6847fdb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af8c376620c37af533aabec318ccbf1b1b745978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757846"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757846"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-06_
+_**上次修改的主题：** 2012-06-06_
 
-Lync Server 2013 包含以下功能，可用于自定义 E9 部署：
+Lync Server 2013 包括可用于自定义 E9-1-1 部署的以下功能：
 
-  - 用于将位置信息服务器连接到 SNMP 应用程序的 web 服务接口。
+  - 用于将位置信息服务器连接到 SNMP 应用程序的 Web 服务接口。
 
-  - 用于连接到辅助位置源数据库的 web 服务接口。
+  - 用于连接到辅助位置源数据库的 Web 服务接口。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中配置 SNMP 应用程序](lync-server-2013-configure-an-snmp-application.md)
 

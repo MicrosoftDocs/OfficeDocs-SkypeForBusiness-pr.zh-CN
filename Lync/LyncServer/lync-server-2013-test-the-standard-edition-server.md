@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：测试 Standard Edition 服务器
+title: Lync Server 2013：测试 Standard Edition server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00918643fcc59efc33d12dc3f8f77c7d3ac69815
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4145740f09557c8f39830dce689fa122456a28f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018973"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41746052"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-以下过程介绍了如何测试标准版服务器的部署。
+以下过程介绍如何测试 Standard Edition server 的部署。
 
 <div>
 
-## <a name="to-test-the-deployment-of-a-standard-edition-server"></a>测试标准版服务器的部署
+## <a name="to-test-the-deployment-of-a-standard-edition-server"></a>测试 Standard Edition Server 的部署
 
-1.  使用 Active Directory 计算机和用户将 Lync Server 2013 部署（安装了 Lync Server 控制面板）的管理员角色的 Active Directory 用户对象添加到**CSAdministrator**组。
+1.  使用 Active Directory 计算机和用户将 Lync Server 2013 部署（安装了 Lync Server 控制面板）的管理员角色的 Active Directory 用户对象添加到**CSAdministrator**组中。
 
 2.  如果用户对象当前已登录，则注销后重新登录，以注册新的组分配。
     
@@ -51,22 +51,22 @@ _**主题上次修改时间：** 2012-10-01_
     
 
     > [!NOTE]  
-    > 用户帐户不能是运行 Lync Server 2013 标准版的服务器的本地管理员。 如果不将相应的用户和组添加到 CsAdministors 组，则打开 Lync Server 2013 控制面板时将收到错误，其中指出 "未经授权：由于基于角色的访问控制（RBAC）授权失败，访问被拒绝。"
+    > 用户帐户不能是运行 Lync Server 2013 Standard Edition 的服务器的本地管理员。 如果不将相应的用户和组添加到 CsAdministors 组中，则在打开 Lync Server 2013 控制面板时将收到错误，指出 "未经授权：由于基于角色的访问控制（RBAC）授权失败，访问被拒绝"。
 
     
     </div>
 
-3.  使用 "管理" 帐户登录到安装了 "Lync Server 控制面板" 的计算机。
+3.  使用管理帐户登录到安装了 Lync Server 控制面板的计算机。
 
-4.  如果出现提示，请启动 Lync Server 控制面板并提供凭据。 Lync Server 2013 "控制面板" 显示部署信息。
+4.  如果出现提示，请启动 Lync Server 控制面板并提供凭据。 Lync Server 2013 控制面板显示部署信息。
 
-5.  在左侧导航栏中，单击 "**拓扑**"，然后确认服务状态是带有绿色箭头的计算机图标，并且已部署并联机的每个 Lync server 服务器角色旁边都有一个绿色复选标记。
+5.  在左侧导航栏中，单击 "**拓扑**"，然后确认服务状态是否为带有绿色箭头的计算机图标，并且每个已部署并联机的 Lync server 服务器角色旁边都有一个绿色的复选标记。
 
-6.  在左侧导航栏中，单击 "**用户**"，然后启用 "Lync Server 2013 的两个用户"。
+6.  在左侧导航栏中，单击 "**用户**"，然后为两个用户启用 Lync Server 2013。
 
-7.  将一位用户登录到加入域的计算机，另一用户登录到域中的另一台计算机。
+7.  使其中一个用户登录已加入域的计算机，另一个用户登录域中的其他计算机。
 
-8.  在两台客户端计算机上安装 Lync Server 2013，然后验证这两个用户都可以登录 Lync Server 2013，并且可以互相发送即时消息。
+8.  在两台客户端计算机上安装 Lync Server 2013，然后验证这两个用户是否都可以登录 Lync Server 2013 并可以向对方发送即时消息。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df3eccd4c5e245fe4729df8b5680db294841f21e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eb689d004f11dd5a3613dd44b78975b2826e7976
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723792"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41723792"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-下表介绍了在 Lync Server 2013 中实施 "统一联系人存储" 的要求：
+以下列表介绍了在 Lync Server 2013 中实施统一联系人存储的要求：
 
   - 您必须运行 Microsoft Lync Server 2013 和 Exchange 2013。
 
@@ -45,13 +45,13 @@ _**主题上次修改时间：** 2012-10-01_
 
   - 用户邮箱必须迁移到 Exchange 2013。
 
-  - 您必须在 Lync Server 2013 和 Exchange 2013 之间配置服务器到服务器的身份验证。
+  - 您必须在 Lync Server 2013 和 Exchange 2013 之间配置服务器到服务器身份验证。
     
     <div>
     
 
     > [!NOTE]  
-    > 有关在 Lync Server 2013 和 Exchange 2013 之间设置身份验证的详细要求，请参阅在操作文档中<A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">管理 Lync server 2013 中的服务器到服务器身份验证（OAuth）和合作伙伴应用程序</A>。
+    > 有关在 Lync Server 2013 和 Exchange 2013 之间设置身份验证的详细要求，请参阅操作文档中的<A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">管理服务器到服务器身份验证（OAuth）和合作伙伴应用程序在 Lync server 2013</A>中。
 
     
     </div>

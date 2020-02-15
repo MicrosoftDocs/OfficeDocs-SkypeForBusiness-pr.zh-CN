@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：完成和实施拓扑设计
+title: Lync Server 2013：完成并实施拓扑设计
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 217857cf0699b68ef3a0daf63bfc0b658258c480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88ffdc547bf0caed9b10f6555e2c56f03b50f467
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765360"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028463"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a>在 Lync Server 2013 中完成和实施拓扑设计
+# <a name="finalizing-and-implementing-the-topology-design-in-lync-server-2013"></a>在 Lync Server 2013 中完成并实施拓扑设计
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765360"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-19_
+_**上次修改的主题：** 2012-06-19_
 
-完成对环境的准备后，您应该准备好完成并实施拓扑设计。 这包括使用拓扑生成器发布拓扑，这是为了安装 Lync Server 2013 服务器角色所必需的。
+完成环境准备工作后，就应该已经准备好最终完成并实现拓扑设计。 这包括使用拓扑生成器发布拓扑，这是为了安装 Lync Server 2013 服务器角色所必需的。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [安装适用于 Lync Server 2013 的 Standard Edition 服务器数据库](lync-server-2013-install-standard-edition-server-database.md)
 
-  - [在 Lync Server 2013 中验证拓扑设计](lync-server-2013-verify-the-topology-design.md)
+  - [验证 Lync Server 2013 中的拓扑设计](lync-server-2013-verify-the-topology-design.md)
 
   - [在 Lync Server 2013 中发布拓扑](lync-server-2013-publish-the-topology.md)
 

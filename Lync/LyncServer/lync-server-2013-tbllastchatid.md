@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblLastChatId
+title: Lync Server 2013： tblLastChatId
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0fc42a3151b5863885fdb3853ea529503e18a6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be10514a933cb6a311d115fbbb011398f2758ef9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731542"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42025573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731542"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
-tblLastChatId 包含为每位用户生成（并在 tblChat 表中使用）的最后一个聊天 ID。
+LastChatId 包含上次为每个用户生成的并且在 tblChat 表中使用的聊天 ID。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -56,20 +56,20 @@ tblLastChatId 包含为每位用户生成（并在 tblChat 表中使用）的最
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>a</p></td>
-<td><p>int，not null</p></td>
-<td><p>节点 ID （聊天室-仅类型）。</p></td>
+<td><p>个</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>节点 ID（仅限聊天室类型）。</p></td>
 </tr>
 <tr class="even">
 <td><p>lastChatID</p></td>
-<td><p>bigint，not null</p></td>
+<td><p>bigint，不为 null</p></td>
 <td><p>上次使用的聊天 ID。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>标示
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -85,11 +85,11 @@ tblLastChatId 包含为每位用户生成（并在 tblChat 表中使用）的最
 <tbody>
 <tr class="odd">
 <td><p>&lt;lastChatID&gt;</p></td>
-<td><p>主关键字（仅一个参数 a 足以处理）。</p></td>
+<td><p>主键（只有 nodeID 足以进行处理）。</p></td>
 </tr>
 <tr class="even">
-<td><p>a</p></td>
-<td><p>带有 tblNode 表中的 lookup 的外键。</p></td>
+<td><p>个</p></td>
+<td><p>其查找包含在 tblNode.nodeID 表中的外键。</p></td>
 </tr>
 </tbody>
 </table>

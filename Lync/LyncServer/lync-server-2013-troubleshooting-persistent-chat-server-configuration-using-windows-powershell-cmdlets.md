@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用 Windows PowerShell Cmdlet 排查持久聊天服务器配置故障
+title: Lync Server 2013：使用 Windows PowerShell cmdlet 对持久聊天服务器配置进行故障排除
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5420fb06a0c69d94ec7cf5183cba61bb8e72b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dff2cf4fb11c04a59baa54db88b5cb90c738fa31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745002"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Windows PowerShell Cmdlet 排查持久聊天服务器配置故障
+# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Windows PowerShell cmdlet 对持久聊天服务器配置进行故障排除
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745002"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
-使用以下解决方法，使用 Windows PowerShell 命令行界面 cmdlet 解决持久聊天服务器配置问题。
+使用以下解决方法来解决 Windows PowerShell 命令行界面 cmdlet 的持久聊天服务器配置问题。
 
-  - 如果出现 "主体未预配" 错误消息，则您尝试添加的主体不可用。
+  - 如果出现“主体未设置”错误消息，则说明您尝试添加的主体不可用。
     
     <div>
     
 
     > [!TIP]  
-    > 解决方法—没有解决方法。 此错误消息表示主体不可用。
+    > 解决方法 – 无解决方法。此错误消息表示主体不可用。
 
     
     </div>

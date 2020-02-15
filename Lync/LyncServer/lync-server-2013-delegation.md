@@ -12,16 +12,16 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8da9568ae4cd613dcba0760fb4a8b20295fbb68d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9d9f5473f94f093d92cce1b4664f54d6f32430d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739802"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41739802"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-03-09_
+_**上次修改的主题：** 2013-03-09_
 
-Lync 中的委派功能受基于位置的路由以下列方式受到影响：
+Lync 中的委派功能受以下方式的基于位置的路由的影响：
 
-  - 当为基于位置的路由启用代理人代表经理呼叫时，代理人的语音政策将用于授权呼叫，代理人的网站语音路由策略将用于路由呼叫
+  - 如果启用了基于位置的路由的代理代表经理发出呼叫，代理的语音策略将用于授权呼叫，代理的站点语音路由策略将用于路由呼叫
 
-  - 对于打给经理的传入 PSTN 呼叫，适用于呼叫转接或同时响铃的相同规则将按照呼叫转接和同时响铃主题所述进行应用。
+  - 对于 manager 的传入 PSTN 呼叫，适用于呼叫转接或同时响铃的相同规则将按呼叫转移和转发和同时响铃主题中所述进行应用。
 
-  - 当代理人将 PSTN 终结点设置为同时响铃目标时，对于打给经理的传入呼叫，与传入中继相关联的站点的语音路由策略将用于将呼叫路由到代理人的 PSTN 终结点。
+  - 如果委派将 PSTN 终结点设置为同时响铃的目标，则对管理器的传入呼叫将使用与传入中继关联的站点的语音路由策略将呼叫路由到代理的 PSTN 终结点。
 
-  - 对于委派，通常建议经理及其关联的代理人位于相同网络站点中。
+  - 对于委派，建议经理和他的关联委派通常位于同一个网络站点中。
 
 <div>
 

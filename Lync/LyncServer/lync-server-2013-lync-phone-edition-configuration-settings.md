@@ -12,20 +12,20 @@ ms:contentKeyID: 49733881
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f48f165d9694e35aebb3861d0bce9fddd70be49
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45fed4d87adc438ce282c340d329f59036a596f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765460"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 中的 Lync Phone Edition 配置设置
+# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Lync Server 2013 中的 lync Phone Edition 配置设置
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765460"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-10_
+_**上次修改的主题：** 2012-10-10_
 
-运行 Lync Phone Edition 的设备的配置设置全局应用，或者你可以创建应用于特定网站的新设置集合。 集合包括 SIP 安全性、设备锁设置等。
+为运行应用全局的 Lync Phone Edition 配置设置，或可以创建应用于特定站点的设置的新集合。集合包括 SIP 安全，设备锁定设置等。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看 Lync Phone Edition 配置设置信息](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
 
   - [在 Lync Server 2013 中创建或修改 Lync Phone Edition 配置设置的集合](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [删除 Lync Server 2013 中的现有 Lync Phone Edition 配置设置集合](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
+  - [在 Lync Server 2013 中删除 Lync Phone Edition 配置设置的现有集合](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
 
   - [在 Lync Server 2013 中配置 Lync Phone Edition 的安全设置](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
 

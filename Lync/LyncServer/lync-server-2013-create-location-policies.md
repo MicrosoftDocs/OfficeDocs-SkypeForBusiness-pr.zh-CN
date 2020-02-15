@@ -12,16 +12,16 @@ ms:contentKeyID: 48185794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55c10244bb3a70f7218dc3967e7f4f134048024f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7b815f533661fb553c7b9217f23b70f0027c559
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726312"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41726312"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-11_
+_**上次修改的主题：** 2012-09-11_
 
-在客户端注册期间，Lync 服务器使用位置策略在 E9-1-1 中启用 Lync 客户端。 位置策略包含定义 E9-1-1 实现方式的设置。
+Lync Server 使用位置策略在客户端注册过程中为 E9-1-1 启用 Lync 客户端。 位置策略包含定义 E9-1-1 实现方式的设置。
 
 可以编辑全局位置策略，并创建新的带标记的位置策略。客户端所在的子网没有关联位置策略，或没有直接为客户端分配位置策略时，客户端会获取全局策略。向子网或用户分配带标记的策略。
 
 要创建位置策略，必须使用 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator 管理角色成员的帐户，或者具有等效管理员权限的帐户。
 
-有关位置策略的完整说明，请参阅[定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。 此过程中的 cmdlet 使用使用以下值定义的位置策略：
+有关位置策略的完整说明，请参阅[定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。 此过程中的 Cmdlet 使用下列值定义的位置策略：
 
 
 <table>
@@ -100,29 +100,29 @@ _**主题上次修改时间：** 2012-09-11_
 </tr>
 <tr class="odd">
 <td><p>LocationRefreshInterval</p></td>
-<td><p><strong>2</strong></p></td>
+<td><p><strong>双面</strong></p></td>
 </tr>
 </tbody>
 </table>
 
 
-有关使用位置策略的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
+有关使用位置策略的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
-  - New-CsLocationPolicy
+  - 新 New-cslocationpolicy
 
-  - Get-CsLocationPolicy
+  - New-cslocationpolicy
 
-  - Set-CsLocationPolicy
+  - New-cslocationpolicy
 
-  - Remove-CsLocationPolicy
+  - New-cslocationpolicy
 
-  - 授权-CsLocationPolicy
+  - Grant-New-cslocationpolicy
 
 <div>
 
 ## <a name="to-create-location-policies"></a>创建位置策略
 
-1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
     
     <div>
     

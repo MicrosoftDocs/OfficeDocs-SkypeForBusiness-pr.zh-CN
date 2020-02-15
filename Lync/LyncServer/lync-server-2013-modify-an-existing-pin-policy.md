@@ -12,20 +12,20 @@ ms:contentKeyID: 48184143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19d2a3d259ee5f45241063764cfd905cbd0f0854
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 27f5fcc560f302021effd90ce1b16cafb933ae03
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737147"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035868"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-an-existing-pin-policy-in-lync-server-2013"></a>在 Lync Server 2013 中修改现有的 PIN 策略
+# <a name="modify-an-existing-pin-policy-in-lync-server-2013"></a>在 Lync Server 2013 中修改现有 PIN 策略
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737147"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-19_
+_**上次修改的主题：** 2012-06-19_
 
-你可以使用 "**固定策略**" 选项卡向使用 IP 电话连接到 Lync 2013 的用户提供个人识别码（PIN）身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”****。 有关详细信息，请参阅[在 Lync Server 2013 中修改现有 Web 服务配置设置](lync-server-2013-modify-existing-web-service-configuration-settings.md)。
+您可以使用 " **PIN 策略**" 选项卡为使用 IP 电话连接到 Lync 2013 的用户提供个人标识号（PIN）身份验证。 要使用 PIN 身份验证，请确保在 Web 服务设置中选中“启用 PIN 身份验证”****。 有关详细信息，请参阅[在 Lync Server 2013 中修改现有的 Web 服务配置设置](lync-server-2013-modify-existing-web-service-configuration-settings.md)。
 
 按照以下步骤修改用户级别或站点级别的 PIN 策略。
 
@@ -45,13 +45,13 @@ _**主题上次修改时间：** 2012-06-19_
 
 ## <a name="to-modify-an-existing-pin-policy"></a>修改现有的 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“安全性”****，然后单击“PIN 策略”****。
 
-4.  在“PIN 策略”**** 页上，单击某个策略，再单击“编辑”****，然后单击“显示详细信息”****。
+4.  在 " **PIN 策略**" 页上，单击某个策略，单击 "**编辑**"，然后单击 "**显示详细信息**"。
 
 5.  在“编辑 PIN 策略”**** 的“最小 PIN 长度”**** 中，键入或选择希望允许的最小 PIN 长度。默认的最小长度为 5 位数。
 
@@ -76,7 +76,7 @@ _**主题上次修改时间：** 2012-06-19_
     
     </div>
 
-12. 单击“**提交**”。
+12. 单击“提交”****。
 
 </div>
 

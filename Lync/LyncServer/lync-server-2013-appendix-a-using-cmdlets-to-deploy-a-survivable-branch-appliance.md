@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：附录 A：使用 Cmdlet 部署 Survivable Branch Appliance
+title: Lync Server 2013：附录 A：使用 cmdlet 部署 Survivable 分支设备
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2da84e03cc05607a47f1fe5af4a8b7987946df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb77c4f22122694d928489f7d61beaa9cbae9355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737792"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029013"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>附录 A：在 Lync Server 2013 中使用 Cmdlet 部署 Survivable Branch Appliance
+# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>附录 A：使用 cmdlet 在 Lync Server 2013 中部署 Survivable 分支设备
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737792"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-07_
+_**上次修改的主题：** 2012-10-07_
 
-本主题介绍了如何使用 Lync Server 命令行管理程序部署 Survivable 分支装置。 在中心站点执行此过程。
+本主题介绍如何使用 Lync Server 命令行管理程序部署 Survivable 分支设备。 请在中央站点执行此过程。
 
 <div>
 
-## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>远程部署 Survivable 分支装置
+## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>远程部署 Survivable 分支设备
 
-1.  按照在[Lync Server 2013 中将分支站点添加到拓扑](lync-server-2013-add-branch-sites-to-your-topology.md)中的过程添加新的分支站点。
+1.  按照在[Lync Server 2013 中将分支站点添加到拓扑中](lync-server-2013-add-branch-sites-to-your-topology.md)的过程操作，以添加新的分支站点。
 
-2.  将分支站点加入域。
+2.  将分支站点加入到域中。
 
-3.  将 RTCUniversalSBATechnicians 组添加到本地管理员组。
+3.  将 RTCUniversalSBATechnicians 组添加到本地 Administrators 组。
 
 4.  重新启动服务器，并以 RTCUniversalSBATechnicians 组成员的身份登录到该服务器。
 
-5.  在 Lync Server Management Shell 中，键入以下命令，将占位符替换为您的组织的正确信息：
+5.  在 Lync Server 命令行管理程序中，键入以下命令，将占位符替换为您的组织的正确信息：
     
         Export-CsConfiguration -FileName C:\CSConfig.zip
         Import-CsConfiguration -LocalStore -FileName C:\CSConfig.zip -Verbose

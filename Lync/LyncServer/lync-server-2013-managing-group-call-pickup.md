@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理组呼叫装货
+title: Lync Server 2013：管理组呼叫应答
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 314623577888576a502baa29cc83ba11d8d1f71d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8437e31f76efb1fe188fc22b4d630562e7e391c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762120"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029463"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41762120"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-22_
+_**上次修改的主题：** 2013-02-22_
 
-Lync Server 2013 的累积更新：2月2013将组呼叫挑选引入为新的企业语音功能。 组呼叫允许企业语音用户通过拨打呼叫装货组号码来通过拨打另一位用户的通话。
+Lync Server 2013 的累积更新：2月2013将组呼叫应答引入为新的企业语音功能。 组间电话应答使企业语音用户可以通过拨打呼叫应答组号码来接听其他用户拨打的电话。
 
-本部分中的主题提供了为在部署中配置组呼叫拾取而执行的任务的分步过程。
+本节中的主题提供了在部署中配置组内呼叫应答时执行的任务的分步过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中配置组呼叫装货号码范围](lync-server-2013-configure-group-call-pickup-number-ranges.md)
 
-  - [向 Lync Server 2013 中的用户分配组呼叫的装货号码](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
+  - [在 Lync Server 2013 中向用户分配组呼叫装货号码](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
 
-  - [在 Lync Server 2013 中启用或禁用组呼叫用户的装货](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
+  - [在 Lync Server 2013 中为用户启用或禁用组内呼叫应答](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
 
-  - [在 Lync Server 2013 中的灾难恢复期间管理组呼叫装货](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
+  - [在 Lync Server 2013 中管理灾难恢复期间的组呼叫装货](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
 
 </div>
 

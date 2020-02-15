@@ -12,16 +12,16 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7607fb2f31107e3368fa52167dc5015eb1b71f15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739452"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034042"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41739452"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-完成初始的访谈式问题后，即可编辑站点的完全限定的域名 (FQDN) 和 IP 地址。为此，请在“**全局拓扑**”页上双击要编辑的站点。
+完成最初的访谈问题后，您可以编辑该网站的完全限定域名（FQDN）和 IP 地址。 要执行此操作，请在 **“全局拓扑”** 页上双击要编辑的站点。
 
-规划工具将显示所选网站的站点拓扑。 在站点页面的底部有四个选项卡：
+规划工具显示选定网站的站点拓扑。 在站点页面的底部有四个选项卡：
 
-![规划工具 - 站点拓扑](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "规划工具 - 站点拓扑")
+![规划工具网站拓扑](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "规划工具网站拓扑")
 
   - 站点拓扑 – 当前显示的页面，其中包含推荐拓扑的视图概览。
 
-  - 边缘网络图-"边缘网络图" 页面是设计人员在规划工具中执行大部分工作的地方。 该图显示了推荐的 Lync Server 2013 拓扑的网络配置，其中包含适用于服务器、池以及硬件和域名系统（DNS）负载平衡器的 IP 地址和 Fqdn 的可编辑条目。
+  - 边缘网络图–设计人员在规划工具中执行大部分工作的 "边缘网络图" 页面。 该图显示了推荐的 Lync Server 2013 拓扑的网络配置，其中包含可编辑的 IP 地址和 Fqdn 的条目，以及服务器、池以及硬件和域名系统（DNS）负载平衡器。
 
   - 边缘管理报告 –“边缘管理报告”共包含四份报告：
     
-    ![“边缘管理报告”页](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "“边缘管理报告”页")  
+    ![边缘管理报告页](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "边缘管理报告页")  
     
-      - 摘要报告 – 边缘网络配置设置的常规报告。如果将“**边缘网络图**”页上的值编辑为将在实际部署中使用的拓扑 TCP/IP 和 FQDN 值，则会在此处显示那些地址和名称。否则将显示默认文本。
+      - 摘要报告 - 边缘网络配置设置的常规报告。 如果将 "**边缘网络关系图**" 页上的值编辑为将在实际部署中使用的 "拓扑 tcp/ip" 和 "FQDN" 值，则这些地址和名称将在此处表示。 否则，将显示默认文本。
     
       - 证书报告 -“证书报告”会列出拓扑所需证书的使用者名称和使用者备用名称。
     
-      - 防火墙报告 -“防火墙报告”列出在基础结构中配置外围防火墙所需的信息。其中包括 IP 地址（默认值或编辑的值）、服务器角色、源 IP 和端口、目标 IP 和端口、传输协议、应用程序协议和相关的说明。
+      - 防火墙报告 -“防火墙报告”列出在基础结构中配置外围防火墙的必要信息。 这包括 IP 地址（默认值或编辑的值）、服务器角色、源 IP 和端口、目标 IP 和端口、传输协议、应用程序协议和相关说明。
     
-      - DNS 报告 –“DNS 报告”列出您必须创建的 DNS 条目的相关信息。其中包括相应操作所需的记录类型、FQDN、IP 地址和备注。
+      - DNS 报告– DNS 报告列出您必须创建的 DNS 条目的相关信息。 其中包括相应操作所需的记录类型、FQDN、IP 地址和备注。
 
-  - 站点摘要 –“站点摘要”显示通过回答初始访谈式问题或者填写“**设计站点**”中值所做的选择的概述。此外，还显示容量信息。
+  - 网站摘要–网站摘要显示通过回答最初的调查问题或填写**设计网站**中的值所做的选择的概述。 还提供容量信息。
     
     <div>
     

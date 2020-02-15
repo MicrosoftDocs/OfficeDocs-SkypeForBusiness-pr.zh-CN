@@ -1,5 +1,5 @@
 ---
-title: 使用 Lync Online 配置本地混合部署
+title: 使用 Lync Online 为混合配置本地部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eda277d2be970e2495c8bb4cb1a8bd2bcb288bc9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58fc02c6416f1a0d1b60a5c1cdcf3c91c940c82c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741172"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>使用 Lync Online 配置本地混合部署
+# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>使用 Lync Online 为混合配置本地部署
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41741172"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-05-28_
+_**上次修改的主题：** 2014-05-28_
 
-混合部署是一种部署，其中某些用户在本地托管，某些用户处于联机状态，但所有用户共享相同的域，如 user@contoso.com。 本部分将指导你部署混合部署所需的应用程序，然后配置你的部署以启用它。
+混合部署是一种部署，其中某些用户驻留在本地，而某些用户则处于联机状态，但所有用户共享相同的域，如 user@contoso.com。 本部分指导您部署混合部署所需的应用程序，然后配置部署以启用它。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 混合环境概述](lync-server-2013-overview-of-the-lync-server-hybrid-environment.md)
 
   - [准备和部署 Lync Server 2013 混合环境的步骤](lync-server-2013-steps-to-prepare-and-deploy-lync-server-hybrid-environment.md)
 
-  - [配置 Lync Server 2013 与 Lync Online 的联合](lync-server-2013-configure-federation-with-lync-online.md)
+  - [使用 Lync Online 配置 Lync Server 2013 联盟](lync-server-2013-configure-federation-with-lync-online.md)
 
-  - [在 Lync Server 2013 中配置音频会议提供商的联盟](lync-server-2013-configure-federation-for-an-audio-conferencing-provider.md)
+  - [在 Lync Server 2013 中为音频会议提供商配置联盟](lync-server-2013-configure-federation-for-an-audio-conferencing-provider.md)
 
   - [在 Lync Server 2013 中将用户移动到 Lync Online](lync-server-2013-move-users-to-lync-online.md)
 
-  - [管理混合 Lync Server 2013 部署中的用户](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
+  - [在混合 Lync Server 2013 部署中管理用户](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
 
 </div>
 

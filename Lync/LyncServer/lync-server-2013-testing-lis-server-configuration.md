@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：测试 .LIS 服务器配置
+title: Lync Server 2013：测试 IIS 服务器配置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f3c99e9f10f98d93af73869d166c33a27e9ce18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c38c0e05647e13a1da1f4a5f173b3e92c37a5300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745782"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中测试 .LIS 服务器配置
+# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中测试 IIS 服务器配置
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745782"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-06-05_
+_**上次修改的主题：** 2014-06-05_
 
 
 <table>
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2014-06-05_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要权限</p></td>
-<td><p>当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行 CsLisConfiguration cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<td><p>所需的权限</p></td>
+<td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsLisConfiguration cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**主题上次修改时间：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-CsLisConfiguration cmdlet 验证你是否能够联系 .LIS web 服务。 如果可以联系到 web 服务，则会将测试视为成功，无论是否可以找到任何特定位置。
+CsLisConfiguration cmdlet 验证您是否能够联系 IIS web 服务。 如果可以联系到 web 服务，则会将测试视为成功，而不管是否找到了任何特定位置。
 
 </div>
 
@@ -74,11 +74,11 @@ CsLisConfiguration cmdlet 验证你是否能够联系 .LIS web 服务。 如果�
 
 ## <a name="running-the-test"></a>运行测试
 
-CsLisConfguration cmdlet 可以使用预配置的测试帐户运行（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何用户的帐户。 若要使用测试帐户运行此检查，只需指定正在测试的 Lync Server 池的 FQDN。 例如：
+可以使用预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何用户的帐户运行 CsLisConfguration cmdlet。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
-若要使用实际用户帐户运行此检查，必须首先创建一个包含帐户名称和密码的 Windows PowerShell 凭据对象。 然后，在调用 Test-CsLisConfiguration 时，必须包含该凭据对象和分配给该帐户的 SIP 地址：
+若要使用实际用户帐户运行此检查，必须首先创建一个包含帐户名称和密码的 Windows PowerShell 凭据对象。 然后，您必须在调用 CsLisConfiguration 时包含该凭据对象和分配给该帐户的 SIP 地址：
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -89,11 +89,11 @@ CsLisConfguration cmdlet 可以使用预配置的测试帐户运行（请参阅�
 
 <div>
 
-## <a name="determining-success-or-failure"></a>确定成功还是失败
+## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果 IIS 配置正确，你将收到类似于此的输出，结果属性标记为**成功：**
+如果已正确配置了 .LIS，则会收到与以下内容类似的输出，并将 Result 属性标记为 "**成功"：**
 
-TargetUri :https://atl-cs-001.litwareinc.com:443/locationinformation/
+TargetUrihttps://atl-cs-001.litwareinc.com:443/locationinformation/
 
 liservice
 
@@ -103,13 +103,13 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延迟：00：00：06.1616913
 
-时发生
+误差
 
-自检
+诊断
 
-如果指定用户无法登录或注销，则结果将显示为 "失败"，并且将在 "错误" 和 "诊断" 属性中记录其他信息：
+如果指定用户无法登录或注销，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：
 
-TargetUri :
+TargetUri
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -117,23 +117,23 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延迟：00:00:00
 
-错误：11004，所请求的名称有效，但没有请求的数据
+错误：11004，请求的名称有效，但没有请求的数据
 
 已找到类型
 
-自检
+诊断
 
-Test-CsLisConfiguration：在拓扑中找不到匹配的群集。
+CsLisConfiguration：在拓扑中找不到匹配的群集。
 
-例如，以前的输出包含注释 "在拓扑中找不到匹配的群集"。 这通常表示边缘服务器存在问题： IIS 使用边缘服务器连接到服务提供商并验证地址。
+例如，上一个输出中包含 "没有匹配的群集在拓扑中找到" 这一说明。 这通常表明边缘服务器存在问题： IIS 使用边缘服务器连接到服务提供程序并验证地址。
 
-如果测试 CsLisConfiguration 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 CsLisConfiguration 失败，您可能需要重新运行测试，这一次包括 Verbose 参数：
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-当包含 Verbose 参数时，CsLisConfiguration 将返回在检查指定用户登录到 Lync Server 的能力时尝试的每个操作的分步帐户。 例如：
+包含 Verbose 参数时，CsLisConfiguration 将返回其在检查指定用户登录到 Lync Server 的能力时所尝试的每个操作的分步帐户。 例如：
 
-呼叫位置信息服务。
+调用位置信息服务。
 
 服务路径 =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
 
@@ -149,9 +149,9 @@ PortIdSubType = 未定义的类型
 
 Mac
 
-异常 "位置信息 Web 服务请求失败，响应代码为 Item400。" 在 STLisConfigurationWorkflow 执行工作流期间发生。
+异常 "位置信息 Web 服务请求失败，响应代码为 Item400。" 在工作流 STLisConfigurationWorkflow 执行过程中发生。
 
-如果你仔细检查以前的输出，你将看到 cmdlet 在尝试调用位置信息服务后失败。 该调用中使用的参数之一如下所示：
+如果您仔细检查以前的输出，您会发现 cmdlet 在尝试调用 Location 信息服务后失败。 该调用中使用的参数之一是：
 
 BssId = 5
 
@@ -165,9 +165,9 @@ BssId = 5
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-下面是测试 CsLisConfiguration 可能失败的一些常见原因：
+以下是测试 CsLisConfiguration 可能失败的一些常见原因：
 
-  - 提供的参数值不正确。 如前面的示例所示，必须正确配置可选参数，否则测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
+  - 提供的参数值不正确。 如前面的示例中所示，必须正确配置可选参数或测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
 
 </div>
 

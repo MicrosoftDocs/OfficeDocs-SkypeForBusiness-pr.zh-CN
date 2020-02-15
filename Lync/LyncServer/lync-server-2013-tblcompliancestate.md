@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblComplianceState
+title: Lync Server 2013： tblComplianceState
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61824b09d1c36aec876ef81762205c81c7f1300d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2eadff371314088e99752ca2bab4c74bcae174c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764198"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764198"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-28_
+_**上次修改的主题：** 2012-06-28_
 
 tblComplianceState 包含池范围的合规性状态信息。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,18 +57,18 @@ tblComplianceState 包含池范围的合规性状态信息。
 <tbody>
 <tr class="odd">
 <td><p>lastProcessedEntryID</p></td>
-<td><p>bigint，not null</p></td>
-<td><p>最新的已处理合规性事件的 ID。</p></td>
+<td><p>bigint，不为 null</p></td>
+<td><p>最新处理的合规性事件的 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>activeServerID</p></td>
-<td><p>int，not null</p></td>
-<td><p>在数据库上持有独占锁的合规性服务器 ID，或者，如果没有，则为-1。</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>数据库上保留排除锁的合规性服务器 ID，或者，如果无则为 -1。</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockExpirationTime</p></td>
-<td><p>datetime2，not null</p></td>
-<td><p>锁过期时间（如果 activeServerID 不是-1）。</p></td>
+<td><p>datetime2，不为 null</p></td>
+<td><p>锁定到期时间（如果 activeServerID 不为 -1）。</p></td>
 </tr>
 </tbody>
 </table>

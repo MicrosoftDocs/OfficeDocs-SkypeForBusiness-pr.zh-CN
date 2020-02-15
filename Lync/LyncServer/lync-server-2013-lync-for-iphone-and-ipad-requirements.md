@@ -12,20 +12,20 @@ ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc80d20006b63c2af50d10aa51150ebfa75b7a88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 969674ea6e426178ecb040d9474fc8fec85395cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765480"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030886"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 lync for iPhone 和 iPad 要求
+# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 iPhone 和 iPad 要求
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765480"
 
 <span> </span>
 
-_**主题上次修改时间：** 2015-06-01_
+_**上次修改的主题：** 2015-06-01_
 
-若要支持 Microsoft Lync 2013 for iPhone 或 Microsoft Lync 2013 for iPad，设备必须满足以下要求：
+若要支持针对 iPhone 或 Microsoft Lync 2013 for iPad 的 Microsoft Lync 2013，设备必须满足以下要求：
 
-  - iPhone 6 移动数字设备，包含 Apple iOS 8 或最新版本。
+  - iPhone 6 移动数字设备，使用 Apple iOS 8 或最新版本。
 
-  - iPhone 5 移动数字设备，包含 Apple iOS 7 或最新版本。
+  - 使用 Apple iOS 7 或最新版本的 iPhone 5 移动数字设备。
 
-  - iPhone 4 移动数字设备，含 Apple iOS 7 或最新版本。
+  - 使用 Apple iOS 7 或最新版本的 iPhone 4 移动数字设备。
 
-  - iPad 2 或更高版本的移动数字设备，包含 Apple iOS 7 或最新版本。
+  - 使用 Apple iOS 7 或最新版本的 iPad 2 或更高版本的移动数字设备。
 
-  - 带有 Apple iOS 7 或最新版本的 iPad 微型移动数字设备。
+  - 包含 Apple iOS 7 或最新版本的 iPad 迷你移动数字设备。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b27fc4f3dfc42e9187ea0aee801b3c2115d83ff0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b45f52a07713973d8f642389513d0e34b5236de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746032"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746032"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-24_
+_**上次修改的主题：** 2013-02-24_
 
-你可以使用 Lync Server 控制面板 "**测试语音路由**" 选项卡来配置测试用例方案。 若要定义测试用例，请指定用于测试指定电话号码的拨号计划、语音策略、PSTN 使用和语音路由。
+您可以使用 Lync Server 控制面板 "**测试语音路由**" 选项卡配置测试用例方案。 要定义测试用例，请指定拨号计划、语音策略、PSTN 用法和语音路由，据此测试指定的电话号码。
 
-在实际部署你的语音路由配置之前，我们建议你在不同的电话号码上测试它，以确保结果是你所期望的。
+在实际部署语音路由配置之前，我们建议您在各种电话号码上进行测试，以确保结果正是您所期望的。
 
 <div>
 
 
 > [!TIP]  
-> 你可以使用 "<STRONG>导出测试用例</STRONG>" 和 "<STRONG>导入测试用</STRONG>例" 命令来保存语音路由测试案例并将其导入以在另一台计算机上使用。
+> 可以使用“导出测试用例”<STRONG></STRONG>和“导入测试用例”<STRONG></STRONG>命令保存语音路由测试用例，并在其他计算机中导入这些用例供使用。
 
 
 
@@ -55,7 +55,7 @@ _**主题上次修改时间：** 2013-02-24_
 
 
 > [!WARNING]  
-> 如果您删除了 "语音路由" 配置的任何部分，如拨号计划、语音策略、语音路由或电话使用，您应该查看和更新您的语音路由测试案例。 Lync Server 控制面板将不会向你提示由于配置发生更改而不再有效的测试案例。
+> 如果删除语音路由配置中的部分内容，如拨号计划、语音策略、语音路由或电话用法，应检查并更新语音路由测试用例。 Lync Server 控制面板不会提醒你由于配置发生变化而不再有效的测试用例。
 
 
 
@@ -63,7 +63,7 @@ _**主题上次修改时间：** 2013-02-24_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中创建语音路由测试用例](lync-server-2013-create-a-voice-routing-test-case.md)
 

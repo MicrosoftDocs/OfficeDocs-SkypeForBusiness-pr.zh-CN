@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：ContentTypes 表
+title: Lync Server 2013： ContentTypes 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cf7ba9c9fb267e8c65c3ba672850c04eb95a459
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 461b578613a90a0df33e3145ed19e1709db45206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740562"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740562"
 
 <span> </span>
 
-_**主题上次修改时间：** 2010-11-07_
+_**上次修改的主题：** 2010-11-07_
 
-ContentTypes 表是一个支持表，用于存储对等会话和会议会话中使用的内容类型的列表。 表中的每条记录表示一种内容类型。
+ContentTypes 表是一个支持表，它存储对等会话和会议会话中使用的内容类型的列表。 表中的每条记录都代表一种内容类型。
 
 
 <table>
@@ -59,12 +59,12 @@ ContentTypes 表是一个支持表，用于存储对等会话和会议会话中�
 <tr class="odd">
 <td><p><strong>ContentTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td><p>标识内容类型的唯一编号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar （256）</p></td>
 <td> </td>
 <td><p>内容类型名称。</p></td>
 </tr>

@@ -12,20 +12,20 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7fe9587e85ad300a212e4a8199fa4a8a48d1877
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7054bae609b5d1a1c6fe176c1092614f5d30fa6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741192"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029703"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>配置 AD FS 2.0 以支持 Lync Server 2013 中的客户端身份验证
+# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中配置 AD FS 2.0 以支持客户端身份验证
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-07-03_
+_**上次修改的主题：** 2013-07-03_
 
-有两种可能的身份验证类型可配置为允许 AD FS 2.0 支持使用智能卡进行身份验证：
+有两种可能的身份验证类型可配置为允许 AD FS 2.0 支持使用智能卡的身份验证：
 
-  - 基于表单的身份验证 (FBA)
+  - 基于表单的身份验证（FBA）
 
   - 传输层安全性客户端身份验证
 
-使用基于表单的身份验证，您可以开发一个网页以允许用户使用其用户名/密码或使用其智能卡和 PIN 进行身份验证。 本主题着重介绍如何实施传输层安全性客户端身份验证与 AD FS 2.0。 有关 AD FS 2.0 身份验证类型的详细信息，请参阅广告 FS 2.0：如何更改本地身份验证类型[http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)。
+使用基于表单的身份验证，您可以开发允许用户通过使用其用户名/密码或使用智能卡和 PIN 进行身份验证的网页。 本主题重点介绍如何使用 AD FS 2.0 实施传输层安全性客户端身份验证。 有关 AD FS 2.0 身份验证类型的详细信息，请参阅 AD FS 2.0：如何更改本地身份验证类型[http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)。
 
 <div>
 
@@ -58,19 +58,19 @@ _**主题上次修改时间：** 2013-07-03_
 
 4.  创建现有 web.config 文件的备份副本。
 
-5.  使用记事本打开现有 web.config 文件。
+5.  使用记事本打开现有的 web.config 文件。
 
-6.  从菜单栏中，选择“编辑”****，然后选择“查找”****。
+6.  从菜单栏中，选择 "**编辑**"，然后选择 "**查找**"。
 
 7.  搜索** \<localAuthenticationTypes\>**。
     
-    请注意，列出了四种身份验证类型，每行一个。
+    请注意，每行列出了四种身份验证类型。
 
-8.  将包含 TLSClient 身份验证类型的行移动到列表顶部。
+8.  将包含 TLSClient 身份验证类型的行移到 "" 部分的列表顶部。
 
 9.  保存并关闭 web.config 文件。
 
-10. 使用提升的特权启动命令提示符。
+10. 使用提升的权限启动命令提示符。
 
 11. 通过运行以下命令来重新启动 IIS：
     

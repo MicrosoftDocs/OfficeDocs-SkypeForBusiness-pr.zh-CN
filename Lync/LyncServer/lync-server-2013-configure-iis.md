@@ -12,16 +12,16 @@ ms:contentKeyID: 48185248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c5eb1d20997ab05f6b40c3d8b527230eef04174
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 864de129804285aaebb6584663fab2808a19ba31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729822"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729822"
 
 <span> </span>
 
-_**主题上次修改时间：** 2011-12-16_
+_**上次修改的主题：** 2011-12-16_
 
-为 Lync Server 2013 配置 Internet 信息服务（IIS）需要安装正确的组件以支持 Lync Server 2013 所需的 Web 服务。 有关安装 IIS 的详细信息，请参阅[Lync Server 2013 中的 IIS 配置](lync-server-2013-iis-configuration.md)。 如果你有策略在服务器上运行安全配置向导，然后再将其投入服务或维护的典型部分，请参阅[在安全配置向导关闭服务器后，在 iis 中关闭端口](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md)，以便在 Lync SERVER 2013 IIS 配置中关闭端口的相关信息。
+为 Lync Server 2013 配置 Internet Information Services （IIS）包括安装正确的组件，以支持 Lync Server 2013 所需的 Web 服务。 有关安装 IIS 的详细信息，请参阅[Lync Server 2013 中的 IIS 配置](lync-server-2013-iis-configuration.md)。 如果您有策略在服务器上运行安全配置向导，或者将其作为维护的典型部分，请参阅[在安全配置向导关闭后重新激活服务器](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md)，以了解有关运行向导（将关闭 Lync SERVER 2013 IIS 配置）的副作用的信息。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的 IIS 配置](lync-server-2013-iis-configuration.md)
 
-  - [使用安全配置向导在 IIS 中关闭端口后重新激活服务器](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md)
+  - [安全配置向导在 IIS 中关闭端口后重新激活服务器](lync-server-2013-re-activate-server-after-security-configuration-wizard-closes-ports-in-iis.md)
 
 </div>
 

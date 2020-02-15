@@ -12,20 +12,20 @@ ms:contentKeyID: 48183688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e2a8a41b67818cf1f2aec9ec8daaa46eeff783a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 48b4f97ad93ecdbfef9e8e170c999f8c9860f830
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763456"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009415"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-response-group-agent-groups-lync-server-2013"></a>在 Lync Server 2013 中创建响应组代理组
+# <a name="create-response-group-agent-groups-lync-server-2013"></a>创建响应组代理组 Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41763456"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
 创建代理组时要选择分配给该组的代理并指定其他组设置，如路由方法以及代理能否登录到组和从组注销。
 
-必须登录和注销组的代理（不同于登录或注销 Lync 服务器的代理）称为*正式代理*。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Lync 2013 中的菜单项来登录和注销其组，以打开 Windows Internet Explorer Internet 浏览器并显示网页控制台。
+必须登录和注销组（不同于登录或注销 Lync Server）的代理称为*正式代理*。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Lync 2013 中的菜单项来打开 Windows Internet Explorer Internet 浏览器并显示网页控制台，以登录和注销其组。
 
-不登录到组或从组注销的代理称为 *非正式代理*。 非正式代理在登录 Lync Server 时自动登录到该组，并且不能注销该组。
+不登录到组或从组注销的代理称为*非正式代理*。 非正式代理在登录 Lync Server 时自动登录到组，并且无法注销组。
 
 <div>
 
 
 > [!NOTE]  
-> 仅本地用户可成为代理。 如果代理从本地移动到联机，则响应组调用将不会路由到该代理。
+> 只有内部部署用户可以成为代理。如果代理从内部部署移动到联机状态，则不会将响应组呼叫路由到该代理。
 
 
 
@@ -55,7 +55,7 @@ _**主题上次修改时间：** 2012-09-12_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
 [在 Lync Server 2013 中创建或修改代理组](lync-server-2013-create-or-modify-an-agent-group.md)
 

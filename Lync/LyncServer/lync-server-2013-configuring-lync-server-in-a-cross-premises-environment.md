@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：在跨平台环境中配置 Lync Server
+title: Lync Server 2013：在跨界环境中配置 Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02696b85921e2f408b7a7ec5531b0596aaef49ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74fd0370fd0b6b6ba829f0f4e78f322b1a5ccc21
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755946"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030536"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>在跨平台环境中配置 Microsoft Lync Server 2013
+# <a name="configuring-microsoft-lync-server-2013-in-a-cross-premises-environment"></a>在跨界环境中配置 Microsoft Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755946"
 
 <span> </span>
 
-_**主题上次修改时间：** 2017-02-21_
+_**上次修改的主题：** 2017-02-21_
 
-在跨部署配置中，你的某些用户驻留在 Microsoft Lync Server 2013 的本地安装中，而其他用户托管在 Office 365 版本的 Lync Server。 为了在跨平台环境中配置服务器到服务器身份验证，必须首先配置 Lync Server 2013 的本地安装，以信任 Office 365 授权服务器。 通过运行以下 Lync Server Management Shell 脚本，可以执行此过程中的初始步骤：
+在跨内部部署配置中，某些用户驻留在 Microsoft Lync Server 2013 的本地安装中，而其他用户托管在 Office 365 版本的 Lync Server 中。 为了在跨界环境中配置服务器到服务器身份验证，必须首先将 Lync Server 2013 的本地安装配置为信任 Office 365 授权服务器。 此过程的初始步骤可通过运行以下 Lync Server 命令行管理程序脚本执行：
 
     $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
     
@@ -81,31 +81,31 @@ _**主题上次修改时间：** 2017-02-21_
 
     $TenantID = (Get-CsTenant -DisplayName "Fabrikam.com").TenantId
 
-在脚本完成后，必须配置 Lync Server 2013 和授权服务器之间的信任关系，以及 Exchange 2013 和授权服务器之间的第二个信任关系。 这只能使用 Microsoft Online Services cmdlet 来完成。
+脚本完成后，您必须配置 Lync Server 2013 与授权服务器之间的信任关系，以及 Exchange 2013 和授权服务器之间的第二个信任关系。 只能通过 Microsoft Online Services cmdlet 做到这一点。
 
 <div>
 
 
 > [!NOTE]  
-> 如果尚未安装 Microsoft Online Services cmdlet，则需要执行两个操作才能继续操作。 首先，下载并安装 64 位版本的 Microsoft Online Services 登录助手。 安装完成后，下载并安装适用于 Windows PowerShell 的 Microsoft Online Services 模块的64位版本。 可在 Office 365 网站上找到有关安装和使用 Microsoft Online Services 模块的详细信息。 这些说明还将告诉你如何在 Office 365 和 Active Directory 之间配置单一登录、联盟和同步。<BR>如果您未安装这些 cmdlet，您的脚本将失败，因为 Get-CsTenant cmdlet 不可用。
+> 如果您尚未安装 Microsoft Online Services cmdlet，则您需要先完成两项操作，然后再继续。 首先，下载并安装 64 位版本的 Microsoft Online Services 登录助手。 安装完成后，下载并安装适用于 Windows PowerShell 的64位版本的 Microsoft Online Services 模块。 可在 Office 365 网站上找到有关安装并使用 Microsoft Online Services 模块的详细信息。 这些说明将告知您如何配置单一登录、联盟以及 Office 365 与 Active Directory 之间的同步。<BR>如果尚未安装这些 cmdlet，则脚本将失败，因为 Get-cstenant cmdlet 将不可用。
 
 
 
 </div>
 
-配置 Office 365 后，在为 Lync Server 2013 和 Exchange 2013 创建 Office 365 服务主体之后，你将需要向这些服务主体注册你的凭据。 为此，您必须先获取另存为 .CER 文件的 X.509 Base64。 此证书将应用于 Office 365 服务主体。
+在配置了 Office 365 并为 Lync Server 2013 和 Exchange 2013 创建了 Office 365 服务主体之后，你将需要使用这些服务主体注册你的凭据。 为此，您必须先获取另存为 .CER 文件的 X.509 Base64。 然后，将此证书应用于 Office 365 服务主体。
 
-获取 x.509 证书后，启动 Microsoft Online Services 模块（单击 "**开始**"，单击 "**所有程序**"，单击 " **microsoft online 服务**"，然后单击 " **Microsoft online services 模块适用于 Windows PowerShell**"）。 服务模块打开后，键入以下内容以导入包含可用于管理服务主体的 cmdlet 的 Microsoft Online Windows PowerShell 模块：
+获取 x.509 证书后，启动 Microsoft Online Services 模块（依次单击 "**开始**"、"**所有程序**"、" **Microsoft Online Services**" 和 " **Windows PowerShell 的 microsoft online services 模块**"）。 在服务模块打开后，键入以下命令以导入包含可用于管理服务主体的 cmdlet 的 Microsoft Online Windows PowerShell 模块：
 
     Import-Module MSOnlineExtended
 
-导入模块后，键入以下命令，然后按 ENTER 以连接到 Office 365：
+导入该模块后，键入以下命令并按 Enter 以连接到 Office 365：
 
     Connect-MsolService
 
-按 Enter 后，随即出现一个凭据对话框。 在对话框中输入 Office 365 的用户名和密码，然后单击 "确定"。
+按 Enter 后，随即出现一个凭据对话框。在该对话框中输入您的 Office 365 用户名和密码，然后单击“确定”。
 
-连接到 Office 365 后，你可以立即运行以下命令，以返回有关你的服务主体的信息：
+连接到 Office 365 后，您便能运行以下命令来返回有关您的服务主体的信息：
 
     Get-MsolServicePrincipal
 
@@ -120,18 +120,18 @@ _**主题上次修改时间：** 2017-02-21_
     ServicePrincipalName : LyncServer/litwareinc.com
     TrustedForDelegation : True
 
-下一步是导入、编码和分配 X.509 证书。 若要导入和编码证书，请使用以下 Windows PowerShell 命令，确保为你指定完整的文件路径。在调用 Import 方法时的 CER 文件：
+下一步是导入、编码和分配 X.509 证书。 若要导入和编码证书，请使用以下 Windows PowerShell 命令，确保指定了的完整文件路径。CER 文件调用 Import 方法时：
 
     $certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate
     $certificate.Import("C:\Certificates\Office365.cer")
     $binaryValue = $certificate.GetRawCertData()
     $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 
-在证书导入和编码后，你可以将证书分配给你的 Office 365 服务主体。 若要执行此操作，请首先使用 MsolServicePrincipal 检索 Lync Server 和 Microsoft Exchange 服务主体的 AppPrincipalId 属性的值;AppPrincipalId 属性的值将用于标识分配了证书的服务主体。 使用 Lync Server 2013 的 AppPrincipalId 属性值，使用以下命令将证书分配给 Lync Server 的 Office 365 版本（"开始日期" 和 "结束时间" 属性应对应于证书的有效期）：
+在导入并编码证书后，您可以将证书分配给您的 Office 365 服务主体。 为此，请先使用 Get-MsolServicePrincipal 检索针对 Lync Server 和 Microsoft Exchange 服务主体的 AppPrincipalId 属性的值；AppPrincipalId 属性的值将用于标识分配了证书的服务主体。 使用 Lync Server 2013 的 AppPrincipalId 属性值，使用以下命令将证书分配给 Lync Server 的 Office 365 版本（"开始时间" 和 "结束时间" 属性应对应于证书的有效期）：
 
     New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue -StartDate 6/1/2012 -EndDate 5/31/2013
 
-然后，你应该使用 Exchange 2013 的 AppPrincipalId 属性值，重复该命令。
+然后，您应该重复该命令，这次使用的是 Exchange 2013 的 AppPrincipalId 属性值。
 
 如果您稍后需要删除该证书，可通过先检索证书的 KeyId 来执行此操作：
 
@@ -150,7 +150,7 @@ _**主题上次修改时间：** 2017-02-21_
 
     Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -KeyId bc2795f3-2387-4543-a95d-f92c85c7a1b0
 
-除了分配证书之外，还必须通过为本地版本的 Lync Server 2013 添加服务器主体名称，为 Exchange Online 配置 Office 365 服务主体。 可通过在 Microsoft Online Services PowerShell 会话中运行以下四行来执行此操作：
+除了分配证书之外，还必须通过为本地版本的 Lync Server 2013 添加服务器主体名称，从而为 Exchange Online 配置 Office 365 服务主体。 可通过在 Microsoft Online Services PowerShell 会话中运行以下四行来实现此目的：
 
     Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
     

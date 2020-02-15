@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：运行和维护持久聊天系统
+title: Lync Server 2013：操作和维护持久聊天系统
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184701
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a90b1416f617dd687bcfff10a925bfe809d18f7d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce455f32181ee604c84a6ec0c2e9a1de74aac5a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755816"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755816"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
 以下主题介绍如何维护运行持久聊天服务器的计算机以及如何管理持久聊天服务器操作。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中备份持久聊天数据库和合规性数据库](lync-server-2013-backing-up-the-persistent-chat-database-and-compliance-database.md)
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2012-11-01_
 
   - [在 Lync Server 2013 中管理系统运行状况](lync-server-2013-managing-system-health.md)
 
-  - [在 Lync Server 2013 中监控、启动和停止持久聊天服务](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
+  - [在 Lync Server 2013 中监视、启动和停止持久聊天服务](lync-server-2013-monitoring-starting-and-stopping-the-persistent-chat-services.md)
 
   - [在 Lync Server 2013 中管理高可用性和灾难恢复](lync-server-2013-managing-high-availability-and-disaster-recovery.md)
 

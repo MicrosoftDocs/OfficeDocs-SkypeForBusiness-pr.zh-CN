@@ -12,16 +12,16 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9486431d320a5ba081afd85daa3b5e295028a12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84def7e711a18762f4473bbda5946a14eff3b1e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757996"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034924"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757996"
 
 <span> </span>
 
-_**主题上次修改时间：** 2011-02-22_
+_**上次修改的主题：** 2011-02-22_
 
-本文档按“原样”提供。本文档中表达的信息和观点（包括 URL 和其他 Internet 网站引用）如有更改，恕不另行通知。
+本文档按原样提供。文中所述信息和观点（包括 URL 和其他 Internet 网站引用）可能随时发生更改，恕不另行通知。
 
-此处提供的某些示例仅作说明之用且均属虚构。 无意影射或关联任何真实的事物，也不应进行这方面的推断。
+此处所述的某些示例仅为说明起见而提供，纯属虚构。不存在真实关联或连接，请勿妄加推测。
 
-本文档并未向您提供有关任何 Microsoft 产品的任何知识产权的任何法律权利。您可以出于内部参考的目的复制和使用本文档。
+本文档并不为您提供对任何 Microsoft 产品中任何知识产权的任何法律权利。您可以出于内部参考目的复制和使用本文档。
 
 版权所有© 2013 Microsoft Corporation。 保留所有权利。
 

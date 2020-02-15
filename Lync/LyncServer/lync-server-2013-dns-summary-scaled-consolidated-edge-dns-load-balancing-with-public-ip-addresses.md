@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：DNS 摘要 - 扩展的合并边缘（通过公用 IP 地址进行 DNS 负载平衡）
+title: Lync Server 2013： DNS 摘要-扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185594
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f748f8107e4d1c0da41a07285eb61e4a3149551
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 448cbb0834c8ad7dee983fd6dcd56922cbb030d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要 - 扩展的合并边缘（通过公用 IP 地址进行 DNS 负载平衡）
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）
 
 </div>
 
@@ -35,76 +35,76 @@ ms.locfileid: "41737182"
 
 <span> </span>
 
-_**主题上次修改时间：** 2017-03-09_
+_**上次修改的主题：** 2017-03-09_
 
-与证书和端口的远程2013访问的 DNS 记录要求相当直接。 此外，许多记录是可选的，具体取决于您配置运行 Lync 2013 的客户端的方式以及是否启用联盟。
+与证书和端口相比，远程访问 Lync Server 2013 的 DNS 记录要求相当简单。 此外，许多记录是可选的，具体取决于如何配置运行 Lync 2013 的客户端以及是否启用联盟。
 
 有关 Lync 2013 DNS 要求的详细信息，请参阅[确定 Lync Server 2013 的 DNS 要求](lync-server-2013-determine-dns-requirements.md)。
 
-有关配置 Lync 2013 客户端的自动配置的详细信息，请参阅[确定 Lync Server 2013 的 DNS 要求](lync-server-2013-determine-dns-requirements.md)时，请参阅 "没有拆分大脑 Dns 的自动配置" 部分。
+有关如何配置 Lync 2013 客户端的自动配置的详细信息，请参阅[确定 Lync Server 2013 的 DNS 要求](lync-server-2013-determine-dns-requirements.md)中的 "自动配置，而不拆分大脑 dns" 部分。
 
-下表列出了支持单个统一边缘拓扑图中所示的单个统一边缘拓扑所需的 DNS 记录的摘要。 请注意，仅当自动配置 Lync 2013 客户端时，才需要某些 DNS 记录。 如果你计划使用组策略对象（Gpo）配置 Lync 客户端，则不需要关联的记录。
+下表包含 DNS 记录的摘要，支持单个合并边缘拓扑图中显示的单个合并边缘拓扑时需要这些 DNS 记录。 请注意，只有在自动配置 Lync 2013 客户端时，才需要某些 DNS 记录。 如果您计划使用组策略对象（Gpo）来配置 Lync 客户端，则不需要关联的记录。
 
 <div>
 
-## <a name="important-edge-server-network-adapter-requirements"></a>重要提示： Edge 服务器网络适配器要求
+## <a name="important-edge-server-network-adapter-requirements"></a>重要说明：边缘服务器网络适配器要求
 
-为避免路由问题，请验证边缘服务器中是否至少有两个网络适配器，并且是否仅在与外部接口关联的网络适配器上设置默认网关。 例如，如缩放后的合并边缘方案图中所示，在 " [Lync Server 2013" 中设置了公用 IP 地址的 DNS 负载平衡](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)，默认网关将指向外部防火墙。
+若要避免路由问题，请确认边缘服务器中至少有两个网络适配器，并且默认网关仅在与外部接口相关联的网络适配器上设置。 例如，如扩展合并边缘的扩展合并边缘方案中所示[，在 Lync Server 2013 中使用公用 IP 地址进行 DNS 负载平衡](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)，默认网关将指向外部防火墙。
 
-可以在每个边缘服务器中配置两个网络适配器，如下所示：
+您可以在每台边缘服务器中配置两个网络适配器，如下所示：
 
-  - **网络适配器 1-节点1（内部接口）**
+  - **网络适配器 1 - 节点 1（内部接口）**
     
-    已分配172.25.33.10 的内部接口。
+    分配有 172.25.33.10 的内部接口。
     
     未定义默认网关。
     
-    请确保从网络中有一个路由，该网络包含指向运行 Lync Server 2013 或 Lync Server 2013 客户端（例如从172.25.33.0 到192.168.10.0）的服务器的任何网络的边缘内部接口。
+    确保从包含边缘内部接口的网络的路由到包含运行 Lync Server 2013 或 Lync Server 2013 客户端的服务器的任何网络（例如，从172.25.33.0 到192.168.10.0）。
 
-  - **网络适配器 1-节点2（内部接口）**
+  - **网络适配器 1 - 节点 2（内部接口）**
     
-    已分配172.25.33.11 的内部接口。
+    分配有 172.25.33.11 的内部接口。
     
     未定义默认网关。
     
-    请确保从网络中有一个路由，该网络包含指向运行 Lync Server 2013 或 Lync Server 2013 客户端（例如从172.25.33.0 到192.168.10.0）的服务器的任何网络的边缘内部接口。
+    确保从包含边缘内部接口的网络的路由到包含运行 Lync Server 2013 或 Lync Server 2013 客户端的服务器的任何网络（例如，从172.25.33.0 到192.168.10.0）。
 
-  - **网络适配器2节点1（外部接口）**
+  - **网络适配器 2 - 节点 1（外部接口）**
     
-    三个专用 IP 地址分配给此网络适配器，例如131.107.155.10 用于访问边缘服务，131.107.155.20 用于 Web 会议 Edge 服务，131.107.155.30 用于 A/V 边缘服务。
+    向此网络适配器分配了三个专用 IP 地址，例如 131.107.155.10 for Access Edge service、131.107.155.20 for Web 会议边缘服务、131.107.155.30 for A/V Edge 服务。
     
-    访问边缘服务公共 IP 地址是使用默认网关设置为公共路由器（131.107.155.1）的主要地址。
+    访问边缘服务公用 IP 地址是主要的，默认网关设置为公用路由器（131.107.155.1）。
     
-    网络会议边缘服务和 A/V 边缘服务专用 IP 地址是 Windows **Server 中的** **internet 协议版本4（tcp/IPv4）** 和**INTERNET 协议版本6（tcp/IPv6）** 的 "**高级**" 部分中的其他 ip 地址。
+    Web 会议边缘服务和 A/V 边缘服务专用 IP 地址是 Windows Server 中的**本地区域连接属性**的**internet 协议版本4（tcp/IPv4）** 和**INTERNET 协议版本6（tcp/IPv6）** 属性的 "**高级**" 部分中的其他 IP 地址。
     
     <div>
     
 
     > [!NOTE]  
-    > 虽然不推荐使用所有三个边缘服务接口的单个 IP 地址，但也有可能。 虽然这会保存 IP 地址，但它需要每个服务的不同端口号。 默认端口号为 443/TCP，这可确保大多数远程防火墙都允许流量。 将端口值更改为 "访问边缘" 服务的 "5061/tcp"、"Web 会议边缘" 服务的 "444/tcp" 和 A/V 边缘服务的 "443/TCP" 可能会导致远程用户出现问题，在这种情况下，其背后的防火墙不允许通过 5061/TCP 和 444/TCP 的流量。 此外，由于能够筛选 IP 地址，三个不同的 IP 地址使疑难解答变得更轻松。
+    > 可以为所有三个边缘服务接口使用一个 IP 地址，但不建议这样做。 尽管这样可以节省 IP 地址，但需要为每个服务使用不同端口号。 默认端口号为 443/TCP，它可确保大多数远程防火墙将允许流量通过。 如果将端口值更改为（例如）访问边缘服务的 5061/TCP，则 Web 会议边缘服务的 444/tcp 和 A/V 边缘服务的 443/TCP 可能会导致远程用户出现问题，在该用户背后的防火墙不允许通过 5061/TCP 和 444/TCP 的流量。 另外，由于能够筛选 IP 地址，因此使用三个不同的 IP 地址更便于排除故障。
 
     
     </div>
 
-  - **网络适配器2节点2（外部接口）**
+  - **网络适配器 2 - 节点 2（外部接口）**
     
-    三个专用 IP 地址分配给此网络适配器，例如131.107.155.11 用于访问边缘服务，131.107.155.21 用于 Web 会议 Edge 服务，131.107.155.31 用于 A/V 边缘服务。
+    向此网络适配器分配了三个专用 IP 地址，例如 131.107.155.11 for Access Edge service、131.107.155.21 for Web 会议边缘服务、131.107.155.31 for A/V Edge 服务。
     
-    访问边缘服务公共 IP 地址是使用默认网关设置为公共路由器（131.107.155.1）的主要地址。
+    访问边缘服务公用 IP 地址是主要的，默认网关设置为公用路由器（131.107.155.1）。
     
-    网络会议边缘服务和 A/V 边缘服务专用 IP 地址是 Windows **Server 中的** **internet 协议版本4（tcp/IPv4）** 和**INTERNET 协议版本6（tcp/IPv6）** 的 "**高级**" 部分中的其他 ip 地址。
+    Web 会议边缘服务和 A/V 边缘服务专用 IP 地址是 Windows Server 中的**本地区域连接属性**的**internet 协议版本4（tcp/IPv4）** 和**INTERNET 协议版本6（tcp/IPv6）** 属性的 "**高级**" 部分中的其他 IP 地址。
 
 <div>
 
 
 > [!TIP]  
-> 配置具有两个网络适配器的 Edge 服务器是两个选项之一。 另一种选择是将一个网络适配器用于内部端，将三个网络适配器用于边缘服务器的外部端。 此选项的主要优点是每个边缘服务器服务有一个不同的网络适配器，并且在需要故障排除时有可能更简洁的数据收集
+> 配置具有两个网络适配器的边缘服务器是两个选项之一。 另一种方法是将一个网络适配器用于内部端，将三个网络适配器用于边缘服务器的外部端。 此选项的主要优点是，每个边缘服务器服务都有不同的网络适配器，并且在需要故障排除时有可能更简单的数据收集
 
 
 
 </div>
 
-### <a name="dns-records-required-for-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-example"></a>缩放后的合并边缘所需的 DNS 记录，具有公共 IP 地址的 DNS 负载平衡（示例）
+### <a name="dns-records-required-for-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-example"></a>扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）所需的 DNS 记录（示例）
 
 <table>
 <colgroup>
@@ -118,7 +118,7 @@ _**主题上次修改时间：** 2017-03-09_
 <th>位置/类型/端口</th>
 <th>FQDN/DNS 记录</th>
 <th>IP 地址/FQDN</th>
-<th>映射到/批注</th>
+<th>映射位置/注释</th>
 </tr>
 </thead>
 <tbody>
@@ -126,13 +126,13 @@ _**主题上次修改时间：** 2017-03-09_
 <td><p>外部 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>131.107.155.10 和 131.107.155.11</p></td>
-<td><p>Access Edge 服务外部接口（Contoso）根据需要对启用了 Lync 的用户的所有 SIP 域重复此操作</p></td>
+<td><p>访问边缘服务外部接口（Contoso）根据需要对启用了 Lync 的用户的所有 SIP 域重复此操作</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
 <td><p>webcon.contoso.com</p></td>
 <td><p>131.107.155.20 和 131.107.155.21</p></td>
-<td><p>网络会议边缘服务外部接口</p></td>
+<td><p>Web 会议边缘服务外部接口</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/A</p></td>
@@ -142,21 +142,21 @@ _**主题上次修改时间：** 2017-03-09_
 </tr>
 <tr class="even">
 <td><p>外部 DNS/SRV/443</p></td>
-<td><p>_sip._tls.contoso.com</p></td>
+<td><p>_sip _tls .com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Access Edge 服务外部接口。 需要将 Lync 2013 和 Lync 2010 客户端的自动配置用于外部工作。 根据需要对启用了 Lync 的用户的所有 SIP 域重复此操作。</p></td>
+<td><p>访问边缘服务外部接口。 将 Lync 2013 和 Lync 2010 客户端的自动配置用于外部工作是必需的。 根据需要为启用 Lync 的用户的所有 SIP 域重复使用。</p></td>
 </tr>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls._tcp.contoso.com</p></td>
+<td><p>_sipfederationtls _tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Access Edge 服务外部接口，用于自动 DNS 发现被称为 "允许的 SIP 域" （在以前的版本中称为增强联盟）的联盟伙伴。 根据需要对启用了 Lync 的用户的所有 SIP 域重复此操作</p></td>
+<td><p>访问边缘服务外部接口，联合合作伙伴（称为 "允许的 SIP 域"）的自动 DNS 发现需要此外部接口（在以前的版本中称为 "增强联盟"）。 根据需要为启用 Lync 的用户的所有 SIP 域重复使用</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
 <td><p>lsedge.contoso.net</p></td>
 <td><p>172.25.33.10 和 172.25.33.11</p></td>
-<td><p>统一边缘内部接口</p></td>
+<td><p>合并边缘内部接口</p></td>
 </tr>
 </tbody>
 </table>
@@ -166,7 +166,7 @@ _**主题上次修改时间：** 2017-03-09_
 
 <div>
 
-## <a name="records-required-for-federation"></a>联盟所需的记录
+## <a name="records-required-for-federation"></a>联盟需要的记录
 
 
 <table>
@@ -181,19 +181,19 @@ _**主题上次修改时间：** 2017-03-09_
 <th>位置/类型/端口</th>
 <th>FQDN</th>
 <th>IP 地址/FQDN 主机记录</th>
-<th>映射到/批注</th>
+<th>映射位置/注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls._tcp.contoso.com</p></td>
+<td><p>_sipfederationtls _tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>SIP Access Edge 服务外部接口需要将联合身份验证自动 DNS 发现到其他潜在联合合作伙伴，并且称为 "允许的 SIP 域" （在以前的版本中称为增强联盟）。</p>
+<td><p>SIP 访问边缘服务外部接口，对其他潜在联合合作伙伴的联合身份验证的自动 DNS 发现是必需的，也称为 "允许的 SIP 域" （在以前的版本中称为 "增强联盟"）。</p>
 <div>
 
 > [!IMPORTANT]  
-> 对于启用了 Lync 的用户和使用推送通知服务或 Apple 推送通知服务的 Microsoft Lync 移动客户端，请根据需要重复执行所有 SIP 域。
+> 对于启用了 Lync 的用户和使用推送通知服务或 Apple 推送通知服务的 Microsoft Lync 移动客户端的所有 SIP 域，请按需重复执行此操作。
 
 
 </div></td>
@@ -206,7 +206,7 @@ _**主题上次修改时间：** 2017-03-09_
 
 <div>
 
-## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a>可扩展消息和状态协议的 DNS 摘要
+## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a>可扩展消息传递和状态协议的 DNS 摘要
 
 
 <table>
@@ -221,21 +221,21 @@ _**主题上次修改时间：** 2017-03-09_
 <th>位置/类型/端口</th>
 <th>FQDN</th>
 <th>IP 地址/FQDN 主机记录</th>
-<th>映射到/批注</th>
+<th>映射目标/注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-server._tcp.contoso.com</p></td>
+<td><p>_xmpp-_tcp .com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>"访问边缘服务" 或 "边缘池" 上的 XMPP 代理外部接口。对于启用了 Lync 的用户，通过全局策略、用户所在的网站策略或应用了用户策略的用户策略，可对所有内部 SIP 域进行必要的操作，并允许使用启用了 Lync 的用户使用 XMPP 联系人。启用 Lync 的用户。 还必须在 XMPP 联盟合作伙伴策略中配置允许的 XMPP 域。 有关其他详细信息，请参阅<strong>另请参阅</strong>中的主题</p></td>
+<td><p>访问边缘服务或边缘池上的 XMPP 代理外部接口。根据需要对启用了 Lync 的用户使用通过全局策略、用户所在的网站策略或应用于 XMPP 联系人的外部访问策略的配置，对所有内部 SIP 域重复此操作。启用了 Lync 的用户。 还必须在 XMPP 联盟伙伴策略中配置允许的 XMPP 域。 有关其他详细信息，请参阅<strong>另请参阅</strong>主题中的主题</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
-<td><p>xmpp.contoso.com （例如）</p></td>
-<td><p>边缘服务器上的访问边缘服务的 IP 地址或托管 XMPP 代理的边缘池的 IP 地址</p></td>
-<td><p>指向托管 XMPP 代理服务的访问边缘服务或边缘池。 通常，你创建的 SRV 记录将指向此主机（A 或 AAAA）记录</p></td>
+<td><p>xmpp.contoso.com（举例）</p></td>
+<td><p>边缘服务器或边缘池托管 XMPP 代理上的访问边缘服务的 IP 地址</p></td>
+<td><p>指向承载 XMPP 代理服务的访问边缘服务或边缘池。 一般而言，您创建的 SRV 记录将指向此主机（A 或 AAAA）记录</p></td>
 </tr>
 </tbody>
 </table>

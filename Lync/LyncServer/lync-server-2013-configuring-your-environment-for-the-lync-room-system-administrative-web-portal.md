@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：针对 Lync Room System 管理 Web 门户配置您的环境
+title: Lync Server 2013：为 Lync 会议室系统管理 Web 门户配置你的环境
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f0f415cfeca5b798a1e29ac6ebe09105fbf08b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c42b5541fb28646e4c01d9d070b67f6fe103234
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740582"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Configuring your Lync Server 2013 environment for the Lync Room System Administrative Web Portal
+# <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>为 Lync 会议室系统管理 Web 门户配置 Lync Server 2013 环境
 
 </div>
 
@@ -35,55 +35,55 @@ ms.locfileid: "41740582"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-05-22_
+_**上次修改的主题：** 2014-05-22_
 
-若要使用 Lync 会议室系统（LRS）管理 Web 门户，你需要安装或配置以下先决条件。
+若要使用 Lync 会议室系统（LRS）管理 Web 门户，您将需要安装或配置以下必备组件。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果服务器配置了 Kerberos 和 NTLM 身份验证，并且 LRS 在未加入域的计算机上运行，则 Kerberos 身份验证将失败，并且用户在管理门户中将看不到 LRS 的状态。 若要解决此问题，请将服务器配置为 NTLM 身份验证或 NTLM 和 TLS DSK 身份验证（没有 Kerberos），或者将 LRS 计算机加入域。
+> 如果服务器配置了 Kerberos 和 NTLM 身份验证，并且 LRS 在未加入域的计算机上运行，则 Kerberos 身份验证将失败，并且用户将不会在管理门户中看到 LRS 的状态。 若要解决此问题，请将服务器配置为使用 NTLM 身份验证或 NTLM 和 TLS DSK 身份验证（不使用 Kerberos），或将 LRS 计算机加入域。
 
 
 
 </div>
 
-1.  安装 Lync Server 2013 累积更新： Lync Server 拓扑中的2013至7月。
+1.  Install Lync Server 2013 累积更新： Lync Server 拓扑中的7月2013。
     
-    若要获取更新或查看其中包含的内容，请参阅[Lync Server 2013 更新](http://go.microsoft.com/fwlink/p/?linkid=323959)。
+    若要获取更新或查看它所包含的内容，请参阅[Lync Server 2013 更新](http://go.microsoft.com/fwlink/p/?linkid=323959)。
 
 2.  创建启用了 SIP 的 Active Directory 用户。
     
-    LRS 管理 Web 门户使用这些凭据从 Lync Server 查询信息。 建议的用户名为 LRSApp。
+    LRS 管理 Web 门户使用这些凭据来查询 Lync Server 中的信息。 建议的用户名为 LRSApp。
 
 3.  创建名称为 LRSSupportAdminGroup 的 Active Directory 安全组。
     
-    创建“组作用域”为“全局”、“组类型”为“安全”的组。添加到此组启用了 SIP 的用户将被授权查看聊天室列表并执行特定命令（例如收集日志）。
+    创建组作用域为 "全局" 和 "组类型" 作为 "安全" 的组。 添加到此组的启用 SIP 的用户将被授权查看聊天室列表并执行某些命令，如收集日志。
 
 4.  创建名称为 LRSFullAccessAdminGroup 的 Active Directory 安全组。
     
-    创建组范围为 "全局" 和 "组" 类型的组作为安全性。添加到该组的已启用 SIP 用户已获得使用所有管理员门户功能的授权。
+    创建组作用域为 "全局" 和 "组类型" 的组作为安全性。添加到此组的启用 SIP 的用户已被授权使用所有管理门户功能。
     
      
     
-    ![具有安全组角色的 Admin 组的列表](images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "具有安全组角色的 Admin 组的列表")  
+    ![具有安全组角色的管理员组的列表](images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "具有安全组角色的管理员组的列表")  
     
      
 
 5.  将 LRSFullAccessAdminGroup 添加为 LRSSupportAdminGroup 的成员。
     
-    ![LRSSupportAdminGroup 属性 -“成员”页](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "LRSSupportAdminGroup 属性 -“成员”页")  
+    ![LRSSupportAdminGroup 属性 "成员" 页](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "LRSSupportAdminGroup 属性 "成员" 页")  
     
      
 
-6.  创建名称为 LRSSupport 的启用了 SIP 的 Active Directory 用户。 将此用户添加到 LRSSupportAdminGroup。
+6.  创建具有名称 LRSSupport 的启用 SIP 的 Active Directory 用户。 将此用户添加到 LRSSupportAdminGroup。
     
-    ![LRSSupportAdminGroup 属性 -“成员”页](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "LRSSupportAdminGroup 属性 -“成员”页")  
+    ![LRSSupportAdminGroup 属性 "成员" 页](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "LRSSupportAdminGroup 属性 "成员" 页")  
     
      
 
-7.  安装 Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 的 ASP.NET MVC 4，可在 Microsoft 下载中心查看[http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)。
+7.  安装 ASP.NET MVC 4 for Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 （可从 Microsoft 下载中心处[http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)获取）。
 
 </div>
 

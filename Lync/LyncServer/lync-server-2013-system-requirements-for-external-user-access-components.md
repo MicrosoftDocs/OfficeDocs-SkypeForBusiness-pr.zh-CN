@@ -12,16 +12,16 @@ ms:contentKeyID: 48183966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8407f7fa407713f6feff6123e5526c779d3bfd3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8548c1d8dd456d3bb65d98dd639aec71c236fc5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764268"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764268"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-01-17_
+_**上次修改的主题：** 2013-01-17_
 
-对边缘组件的系统要求包括对边缘服务器、反向代理服务器和你计划部署的可选控制器的硬件、软件和 collocation 要求。
+边缘组件的系统要求包括边缘服务器、反向代理服务器和您计划部署的可选控制器的硬件、软件和并置要求。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中外部用户访问所需的组件](lync-server-2013-components-required-for-external-user-access.md)
+  - [Lync Server 2013 中的外部用户访问所需的组件](lync-server-2013-components-required-for-external-user-access.md)
 
   - [Lync Server 2013 中反向代理的配置要求](lync-server-2013-configuration-requirements-for-reverse-proxy.md)
 
   - [Lync Server 2013 的硬件负载平衡器要求](lync-server-2013-hardware-load-balancer-requirements.md)
 
-  - [Lync Server 2013 中边缘组件的软硬件要求](lync-server-2013-hardware-and-software-requirements-for-edge-components.md)
+  - [Lync Server 2013 中边缘组件的硬件和软件要求](lync-server-2013-hardware-and-software-requirements-for-edge-components.md)
 
-  - [Lync Server 2013 中边缘组件支持的服务器并置](lync-server-2013-supported-server-collocation-for-edge-components.md)
+  - [Lync Server 2013 中的边缘组件支持的服务器并置](lync-server-2013-supported-server-collocation-for-edge-components.md)
 
 </div>
 

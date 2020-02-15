@@ -12,20 +12,20 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c17f30b05141e9b47ce09685ff18cd166c195f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 913a484262d9e1b3a899aeda42c5f23049d8c73c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765513"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030916"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-software-support-in-lync-server-2013"></a>Lync Server 2013 中的 Lync 客户端软件支持
+# <a name="lync-client-software-support-in-lync-server-2013"></a>Lync Server 2013 中的 lync 客户端软件支持
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765513"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-02-25_
+_**上次修改的主题：** 2016-02-25_
 
-本部分概述了 lync 2013 的软件支持和 Lync 2013 的联机会议加载项。
+本节概述了 lync 2013 的软件支持和 Lync 2013 的联机会议外接程序。
 
 <div>
 
 
 > [!NOTE]  
-> Lync 2013 的联机会议加载项（支持来自 Outlook 消息和协作客户端的会议管理）将自动与 Lync 2013 一起安装。
+> Lync 2013 的联机会议外接程序（支持从 Outlook 消息和协作客户端中进行会议管理）使用 Lync 2013 自动安装。
 
 
 
 </div>
 
-### <a name="software-requirements-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Lync 2013 的软件要求和 Lync 2013 的联机会议加载项
+### <a name="software-requirements-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Lync 2013 的软件要求和 Lync 2013 的联机会议外接程序
 
 <table>
 <colgroup>
@@ -73,7 +73,7 @@ _**主题上次修改时间：** 2016-02-25_
 <div>
 
 > [!NOTE]  
-> Windows Vista 或 Windows XP （任何版本）上不支持 lync 2013 和 Lync 2013 的联机会议加载项。
+> Lync 2013 和 Lync 2013 的联机会议外接程序在 Windows Vista 或 Windows XP （任何版本）上不受支持。
 
 
 </div></td>
@@ -93,7 +93,7 @@ _**主题上次修改时间：** 2016-02-25_
 <div>
 
 > [!NOTE]  
-> 如果你将 Lync 与 Microsoft Exchange Online 配合使用，并且你的组织已部署身份验证 HTTP 代理，则需要 Internet Explorer 9 或 Internet Explorer 8。
+> 如果要将 Lync 与 Microsoft Exchange Online 一起使用，并且您的组织已部署了身份验证 HTTP 代理，则需要 Internet Explorer 9 或 Internet Explorer 8。
 
 
 </div></td>
@@ -122,11 +122,11 @@ _**主题上次修改时间：** 2016-02-25_
 
 ## <a name="macintosh-operating-systems"></a>Macintosh 操作系统
 
-Lync 2013 仅适用于 Windows。 但是，Lync Server 2013 支持运行 Mac OS 10.5.8 或最新服务包或发布（基于 Intel）操作系统（目前不支持 Mac OS 10.9 操作系统）的计算机上的以下客户端。 有关支持的功能的详细信息，请参阅[Lync Server 2013 的客户端比较表](lync-server-2013-desktop-client-comparison-tables.md)。
+Lync 2013 仅适用于 Windows。 但是，Lync Server 2013 支持运行 Mac OS 10.5.8 或最新 service pack 或 release （基于 Intel）操作系统的计算机上的以下客户端（当前不支持 Mac OS 10.9 操作系统）。 有关支持的功能的详细信息，请参阅[Lync Server 2013 的客户端比较表](lync-server-2013-desktop-client-comparison-tables.md)。
 
-  - Microsoft Lync for Mac 2011 （请参阅 "Lync for Mac 2011 部署指南" [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786)）
+  - Microsoft Lync for Mac 2011 （请参阅 "Lync for Mac 2011 部署指南" [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786)，网址为）
 
-  - Microsoft Communicator for Mac 2011 （请参阅 "Communicator for Mac 2011 部署指南" [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)）
+  - Microsoft Communicator for Mac 2011 （请参阅 "Communicator for Mac 2011 部署指南" [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)，网址为）
 
 </div>
 
@@ -134,7 +134,7 @@ Lync 2013 仅适用于 Windows。 但是，Lync Server 2013 支持运行 Mac OS 
 
 ## <a name="lync-web-app-browsers"></a>Lync Web App 浏览器
 
-Lync Web App 支持操作系统和浏览器的特定组合。 有关详细信息，请参阅规划文档中的[Lync Web App 支持的 Lync Server 2013 平台](lync-server-2013-lync-web-app-supported-platforms.md)。
+Lync Web App 支持特定的操作系统和浏览器组合。 有关详细信息，请参阅规划文档中的 lync [Web App 支持的 Lync Server 2013 平台](lync-server-2013-lync-web-app-supported-platforms.md)。
 
 </div>
 
@@ -142,13 +142,13 @@ Lync Web App 支持操作系统和浏览器的特定组合。 有关详细信息
 
 ## <a name="microsoft-office-supportability"></a>Microsoft Office 可支持性
 
-Lync Server 2013 客户端支持与 Microsoft Office 的各种版本进行集成，如此部分中汇总了。
+Lync Server 2013 客户端支持与 Microsoft Office 的各种版本集成，如此部分中对此进行了总结。
 
   - Outlook 2013 和 Microsoft Outlook 2010 支持 Lync 2013 集成功能。
 
   - Microsoft Exchange Server 2013 和 Microsoft Exchange Server 2010 支持 Lync 2013 集成功能。
 
-  - Office 2013 和 Microsoft Office 2010 支持 Lync 2013 的联机会议加载项。
+  - Office 2013 和 Microsoft Office 2010 支持 Lync 2013 的联机会议外接程序。
 
 </div>
 
@@ -156,7 +156,7 @@ Lync Server 2013 客户端支持与 Microsoft Office 的各种版本进行集成
 
 ## <a name="using-mandatory-profiles"></a>使用必需的配置文件
 
-如果用户计划使用 Lync 2013 会议功能，则不应使用 Active Directory 域服务强制配置文件登录 Lync 2013 客户端。 由于强制配置文件是只读用户配置文件，因此 Lync 2013 会议所需的公钥基础结构（PKI）密钥无法保存到配置文件中。 有关详细信息，请参阅 Microsoft 知识库文章2552221： "当用户使用强制用户配置文件登录时，Lync 2010 会议功能失败" [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)。
+如果用户计划使用 Lync 2013 会议功能，则不应使用 Active Directory 域服务强制配置文件登录 Lync 2013 客户端。 由于强制配置文件是只读用户配置文件，因此无法将 Lync 2013 会议所需的公钥基础结构（PKI）密钥保存到配置文件中。 有关详细信息，请参阅 Microsoft 知识库文章2552221： "当用户使用强制用户配置文件登录时，Lync 2010 会议功能失败"，位置[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)为。
 
 </div>
 
@@ -165,9 +165,9 @@ Lync Server 2013 客户端支持与 Microsoft Office 的各种版本进行集成
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server 2013 中的 Lync 客户端硬件支持](lync-server-2013-lync-client-hardware-support.md)  
+[Lync Server 2013 中的 lync 客户端硬件支持](lync-server-2013-lync-client-hardware-support.md)  
 [Lync Server 2013 的 lync 客户端视频要求](lync-server-2013-lync-client-video-requirements.md)  
-[Lync Server 2013 先前部署中支持的客户端](lync-server-2013-supported-clients-from-previous-deployments.md)  
+[Lync Server 2013 中以前的部署支持的客户端](lync-server-2013-supported-clients-from-previous-deployments.md)  
   
 
 </div>

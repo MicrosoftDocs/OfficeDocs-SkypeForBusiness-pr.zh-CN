@@ -12,16 +12,16 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86e71f87c20064e542aa6a8db1d9b38048c5f736
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811134697ea04f1dab3637e648ff89455fca07d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731652"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41731652"
 
 <span> </span>
 
-_**主题上次修改时间：** 2010-11-08_
+_**上次修改的主题：** 2010-11-08_
 
-若要成功完成此过程，你应以 RTCUniversalServerAdmins 组成员的用户身份登录。
+要成功完成此过程，应以 RTCUniversalServerAdmins 组成员的身份登录。
 
-在网站、前端服务器、标准版服务器和控制器上，可以使用 Kerberos 身份验证帐户对 Web 服务服务请求进行身份验证。 此过程将在已分配有 Kerberos 帐户的网站中查找运行 Web 服务的每台服务器，并将 Internet 信息服务（IIS）配置设置更新为使用 Kerberos 帐户。 有关详细信息，请参阅[在 Lync server 2013 中的服务器上设置 Kerberos 身份验证帐户密码](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)。
+在网站中，前端服务器、Standard Edition 服务器和控制器可以使用 Kerberos 身份验证帐户，以对 Web 服务服务的请求进行身份验证。 此过程将查找在已分配 Kerberos 帐户的网站中运行 Web 服务的每台服务器，并将 Internet 信息服务（IIS）配置设置更新为使用 Kerberos 帐户。 有关详细信息，请参阅[在 Lync server 2013 中的服务器上设置 Kerberos 身份验证帐户密码](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)。
 
 <div>
 
 ## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a>设置和配置 Kerberos 身份验证帐户密码
 
-1.  以 RTCUniversalServerAdmins 组的成员身份登录源计算机（如 fe01.contoso.com）。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录到源计算机（例如 fe01.contoso.com）。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  在 Lync Server Management Shell 命令行中，运行以下两个命令：
+3.  在 Lync Server 命令行管理程序命令行中，运行以下两个命令：
     
         Set-CsKerberosAccountPassword -FromComputer SourceComputer -ToComputer DestinationComputer
     
@@ -61,7 +61,7 @@ _**主题上次修改时间：** 2010-11-08_
     
 
     > [!IMPORTANT]
-    > 源计算机和目标计算机的名称必须是服务器的完全限定的域名（FQDN）名称。 除非池名称与用作源计算机或目标计算机的计算机的名称相同，否则不能使用池 FQDN。
+    > 源计算机和目标计算机的名称必须是服务器的完全限定域名 (FQDN)。除非池名称与要用作源计算机或目标计算机的计算机名称相同，否则不能使用池 FQDN。
 
     
     </div>
@@ -70,7 +70,7 @@ _**主题上次修改时间：** 2010-11-08_
     
 
     > [!IMPORTANT]
-    > 对 Kerberos 身份验证进行任何更改（如添加帐户或删除帐户）后，必须从 Lync Server Management Shell 命令提示符运行<STRONG>Enable-CsTopology</STRONG> 。
+    > 在对 Kerberos 身份验证（如添加帐户或删除帐户）进行任何更改之后，您必须从 Lync Server 命令行管理程序命令提示符处运行<STRONG>Enable-enable-cstopology</STRONG> 。
 
     
     </div>

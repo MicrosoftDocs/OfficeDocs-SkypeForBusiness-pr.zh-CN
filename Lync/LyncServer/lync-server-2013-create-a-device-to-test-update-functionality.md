@@ -12,16 +12,16 @@ ms:contentKeyID: 48185466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b197c4b42542310746568fe351f98c7d991509cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 227ca68433cfcc41f966e220ffc826357b50d54b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740542"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41740542"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-可将测试设备添加到“**测试设备**”页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 你可以在整个 Lync Server 环境中或在单个网站内全局测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在 Lync Server 控制面板的 "**测试设备**" 页面上的列表中。
+可将测试设备添加到“测试设备”**** 页，然后使用此设备验证新更新的功能，之后再将更新部署到生产设备。 您可以在全局范围内（在整个 Lync Server 环境中）或在单个站点中测试设备。 可通过测试设备的媒体访问控制 (MAC) 地址或序列号标识测试设备。 添加设备时，它将显示在 Lync Server 控制面板的 "**测试设备**" 页上的列表中。
 
 <div>
 
 ## <a name="to-add-a-test-device"></a>添加测试设备
 
-1.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-2.  在左侧导航栏中，单击 "**客户端**"，然后单击 "**测试设备**"。
+2.  在左侧导航栏中，单击“客户端”****，然后单击“测试设备”****。
 
-3.  单击 "**新建**"，然后单击 "**全局测试设备**" 或 "**网站测试设备**"。
+3.  单击“新建”****，然后单击“全局测试设备”**** 或“站点测试设备”****。
 
-4.  请执行下列操作之一：
+4.  执行下列操作之一：
     
-      - 如果单击了 "**全局测试设备**"，请跳到下一步。
+      - 如果单击了“全局测试设备”****，则跳到下一步。
     
-      - 如果您单击了 "**网站测试设备**"，请从可用网站列表中选择一个网站，然后单击 **"确定"**。
+      - 如果单击了“站点测试设备”****，则从可用站点列表中选择一个站点，然后单击“确定”****。
 
-5.  在 "**新测试设备**" 中，在 "**设备名称**" 中键入设备的名称。
+5.  在“新建测试设备”**** 上的“设备名称”**** 中，键入设备的名称。
 
-6.  在 "**标识符类型**" 下，单击 " **MAC 地址**" 或 "**序列号**"。
+6.  在“标识符类型”**** 下，单击“MAC 地址”**** 或“序列号”****。
 
-7.  在 "**唯一标识符**" 框中，键入设备的 MAC 地址或序列号。
+7.  在“唯一标识符”**** 框中，键入设备的 MAC 地址或序列号。
 
-8.  单击“**提交**”。
+8.  单击“提交”****。
 
 </div>
 
@@ -69,17 +69,17 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="creating-test-devices-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建测试设备
 
-可以使用 Windows PowerShell 和 CsTestDevice cmdlet 创建测试设备。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+可以使用 Windows PowerShell 和 CsTestDevice cmdlet 创建测试设备。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 使用此 cmdlet 创建测试设备时，必须执行以下两个操作：
 
-  - 将 "MACAddress" 或 "SerialNumber" 指定为 IdentifierType。
+  - 指定 MACAddress 或 SerialNumber 为 IdentifierType。
 
-  - 指定设备标识时包括范围。 若要在全局范围内创建新设备，请使用类似于以下语法的语法：
+  - 指定设备标识时包括作用域。要在全局作用域创建新设备，请使用类似如下的语法：
     
         -Identity "global/WindowsPhone"
     
-    若要在网站范围内创建测试设备，请使用类似于以下语法的语法：
+    要在站点作用域创建测试设备，请使用类似如下的语法：
     
         -Identity "site:Redmond/WindowsPhone"
 
@@ -87,7 +87,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="to-create-a-test-device-by-using-the-mac-address"></a>使用 MAC 地址创建测试设备
 
-  - 此命令将在全局范围内创建测试设备，并使用 MAC 地址作为 IdentifierType：
+  - 以下命令在全局作用域创建测试设备，并使用 MAC 地址作为 IdentifierType：
     
         New-CsTestDevice -Identity "global/WindowsPhone" -IdentifierType "MACAddress" -Identifier "01:02:03:04:05:06"
 
@@ -97,7 +97,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="to-create-a-test-device-by-using-the-serial-number"></a>使用序列号创建测试设备
 
-  - 此命令将在网站范围（针对雷德蒙的网站）创建新的测试设备，并使用序列号作为 IdentifierType：
+  - 以下命令在站点作用域（对于 Redmond 站点）创建测试设备，并使用序列号作为 IdentifierType：
     
         New-CsTestDevice -Identity "site:Redmond/WindowsPhone" -IdentifierType "SerialNumber" -Identifier "01ABC5419JKR55T"
 

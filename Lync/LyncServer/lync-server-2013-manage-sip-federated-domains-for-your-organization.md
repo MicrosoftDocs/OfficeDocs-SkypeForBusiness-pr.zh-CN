@@ -12,16 +12,16 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78683426481a50a082b38b3e7cf47b7317734210
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e257d62d673f01a6b24d44a428a25f9494c975eb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733302"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733302"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-19_
+_**上次修改的主题：** 2012-10-19_
 
-本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
+这是初步文档，可能会发生变更。 空白主题作为占位符包含在内。
 
-若要管理和配置可以与联盟的 SIP 域，可以执行以下操作：
+要管理和配置可与其进行联盟的 SIP 域，您可以执行以下操作：
 
   - 创建或编辑 SIP 联盟伙伴域的允许域列表。
 
   - 创建或编辑 SIP 联盟域的阻止域列表。
 
-若要执行这些任务，请使用本节中的过程。
+要执行这些任务，请使用本节中的过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中配置对允许的外部域的支持](lync-server-2013-configure-support-for-allowed-external-domains.md)
 
@@ -62,7 +62,7 @@ _**主题上次修改时间：** 2012-10-19_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中配置策略以控制联盟用户访问](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
+[在 Lync Server 2013 中配置用于控制联合用户访问的策略](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
 [在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
 [在 Lync Server 2013 中启用或禁用联盟伙伴发现](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
   

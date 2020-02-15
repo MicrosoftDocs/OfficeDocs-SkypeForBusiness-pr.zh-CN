@@ -12,16 +12,16 @@ ms:contentKeyID: 49733646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650c3afba4aa38282867f28db4e0f142b2315212
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ca7fd0277bf04149376f21964c08d6002564823
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743353"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41743353"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-15_
+_**上次修改的主题：** 2012-10-15_
 
-你可以使用本部分中的过程管理 Lync Server 2013 中的各种服务和服务器角色。
+您可以使用本节中的过程来管理 Lync Server 2013 中的各种服务和服务器角色。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的音频/视频（A/V）边缘服务器](lync-server-2013-audio-video-a-v-edge-servers.md)
 
-  - [在 Lync Server 2013 中配置新的受信任的应用程序服务器](lync-server-2013-configure-a-new-trusted-application-server.md)
+  - [在 Lync Server 2013 中配置新的受信任应用程序服务器](lync-server-2013-configure-a-new-trusted-application-server.md)
 
   - [管理 Lync Server 2013 服务](lync-server-2013-managing-lync-server-services.md)
 

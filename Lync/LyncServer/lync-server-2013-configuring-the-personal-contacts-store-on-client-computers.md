@@ -12,16 +12,16 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77e6e48593bb3dc7a11375b13346ad59b2f40c0e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5672619302e169db5e89281323eec4b5d8312c06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734622"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41734622"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-05_
+_**上次修改的主题：** 2014-02-05_
 
-如果你正在集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013，建议你在运行 Microsoft Lync 2010 的任何客户端计算机上配置个人联系人存储。 尤其是，你应该将 Lync 配置为将 Exchange 用作个人联系人存储，同时确保用户无法覆盖该决策。 这可以通过在各客户端计算机上创建和配置注册表值来完成。
+如果要集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013，建议您在运行 Microsoft Lync 2010 的任何客户端计算机上配置个人联系人存储。 特别是，应将 Lync 配置为将 Exchange 用作个人联系人存储，同时确保用户无法覆盖该决定。 这可以通过在每个客户端计算机上创建和配置注册表值来完成。
 
-请注意，在运行 Lync 2013 的计算机上不需要执行此操作。
+请注意，运行 Lync 2013 的计算机上不需要执行此项。
 
 要在单个计算机上配置此值，请完成下列过程：
 
-1.  在客户端计算机上，单击“**开始**”，然后单击“**运行**”。
+1.  在客户端计算机上，单击 "**开始**"，然后单击 "**运行**"。
 
-2.  在“**运行**”对话框中，键入“regedit”，然后按 Enter。
+2.  在 "**运行**" 对话框中，键入 "regedit"，然后按 enter。
 
 3.  在注册表编辑器中，**展开\_"\_HKEY 本地计算机**"，展开 "**软件**"，展开 "**策略**"，展开 " **Microsoft**"，然后展开 " **Communicator**"。
 
-4.  右键单击“**Communicator**”，指向“**新建**”，然后单击“**DWORD（32 位）值**”。
+4.  右键单击 " **Communicator**"，指向 "**新建**"，然后单击 " **DWORD （32-位）值**"。
 
-5.  创建新值后，键入 **PersonalContactStoreOverride**，然后按 Enter 来重命名该值。
+5.  创建新值后，键入**PersonalContactStoreOverride** ，然后按 enter 以重命名该值。
 
 6.  验证将 PersonalContactStoreOverride 的值设置为 0，然后关闭注册表编辑器。
 

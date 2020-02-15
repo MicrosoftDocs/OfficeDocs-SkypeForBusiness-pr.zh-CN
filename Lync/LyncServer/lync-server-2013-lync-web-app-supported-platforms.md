@@ -12,20 +12,20 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47a2912aae21e4bdedadabcffd7bbcba09560d64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 713a49fc81ba388d01a790ab260adcebbd364c8b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730262"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Web App 支持的 Lync Server 2013 平台
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013 支持的 lync Web App 平台
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41730262"
 
 <span> </span>
 
-_**主题上次修改时间：** 2017-02-07_
+_**上次修改的主题：** 2017-02-07_
 
 若要使用 Lync Web App，您必须具有以下受支持的操作系统和浏览器组合之一。
 
@@ -43,7 +43,7 @@ _**主题上次修改时间：** 2017-02-07_
 
 
 > [!NOTE]  
-> 某些 Lync Web App 功能需要使用插件，包括基于计算机的语音、视频、共享和查看正在进行的屏幕共享。 当您加入会议或启动其中一个功能时，您可以安装共享插件。 1<BR>
+> 某些 Lync Web App 功能需要插件，包括基于计算机的语音、视频、共享和查看正在进行的屏幕共享。 你可以在加入会议时或在你启动其中一个功能时安装共享插件。 1 <BR>
 
 
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2017-02-07_
 
 <div>
 
-## <a name="supported-operating-system-and-browser-combinations-for-lync-web-app"></a>Lync Web App 支持的操作系统和浏览器组合
+## <a name="supported-operating-system-and-browser-combinations-for-lync-web-app"></a>适用于 Lync Web App 的受支持的操作系统和浏览器组合
 
 
 <table style="width:100%;">
@@ -71,20 +71,20 @@ _**主题上次修改时间：** 2017-02-07_
 <tbody>
 <tr class="odd">
 <td><p>操作系统</p></td>
-<td><p>Edge</p></td>
+<td><p>Microsoft Edge</p></td>
 <td><p>Internet Explorer 11</p></td>
-<td><p>32位 Internet Explorer 10</p></td>
-<td><p>64位 Internet Explorer 10</p></td>
-<td><p>32位 Internet Explorer 9</p></td>
-<td><p>64位 Internet Explorer 9</p></td>
-<td><p>Firefox 32 位<sup>4</sup></p></td>
-<td><p>Firefox 64 位<sup>4</sup></p></td>
-<td><p>免费</p></td>
-<td><p>Chrome<sup>4</sup></p></td>
+<td><p>32-位 Internet Explorer 10</p></td>
+<td><p>64-位 Internet Explorer 10</p></td>
+<td><p>32-位 Internet Explorer 9</p></td>
+<td><p>64-位 Internet Explorer 9</p></td>
+<td><p>Firefox 32-位<sup>4</sup></p></td>
+<td><p>Firefox 64-位<sup>4</sup></p></td>
+<td><p>Safari</p></td>
+<td><p>铬色<sup>4</sup></p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 10</p></td>
-<td><p>必需</p></td>
+<td><p>是</p></td>
 <td><p>是</p></td>
 <td><p>不适用</p></td>
 <td><p>不适用</p></td>
@@ -122,12 +122,12 @@ _**主题上次修改时间：** 2017-02-07_
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows 7 与 SP1<sup>2</sup></p></td>
+<td><p>Windows 7 （SP1<sup>2</sup> ）</p></td>
 <td><p>不适用</p></td>
 <td><p>是</p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
+<td><p>是</p></td>
+<td><p>是</p></td>
+<td><p>是</p></td>
 <td><p>是</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
@@ -135,12 +135,12 @@ _**主题上次修改时间：** 2017-02-07_
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows Server 2008 R2 与 SP1<sup>2</sup></p></td>
+<td><p>Windows Server 2008 R2 带 SP1<sup>2</sup></p></td>
 <td><p>不适用</p></td>
 <td><p>是</p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
-<td><p>是 </p></td>
+<td><p>是</p></td>
+<td><p>是</p></td>
+<td><p>是</p></td>
 <td><p>是</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
@@ -148,12 +148,12 @@ _**主题上次修改时间：** 2017-02-07_
 <td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008 与 SP2<sup>3</sup></p></td>
+<td><p>Windows Server 2008 SP2<sup>3</sup></p></td>
 <td><p>不适用</p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>
 <td><p>否</p></td>
-<td><p>是</p></td>
+<td><p>必需</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
@@ -170,20 +170,20 @@ _**主题上次修改时间：** 2017-02-07_
 <td><p>不适用</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
-<td><p>是</p></td>
+<td><p>必需</p></td>
 <td><p>否</p></td>
 </tr>
 </tbody>
 </table>
 
 
-<sup>1</sup>在 windows 8 和 windows 8.1 上，只有当你运行桌面版 internet explorer 10 或 internet explorer 11 时，才可以安装使用基于计算机的音频、视频、应用程序查看、应用程序共享、桌面查看和桌面共享的插件。 这些功能在非桌面版本的 Internet Explorer 10 或 Internet Explorer 11 中不可用。
+<sup>1</sup>在 windows 8 和 windows 8.1 中，只有在对桌面运行 internet explorer 10 或 internet explorer 11 时，才可以安装使用基于计算机的音频、视频、应用程序查看、应用程序共享、桌面查看和桌面共享这一插件。 这些功能在 Internet Explorer 10 或 Internet Explorer 11 的非桌面版本中不可用。
 
-<sup>2</sup>在支持的 windows 7、windows Server 2008 R2 和 Macintosh 操作系统上，所有功能均可用，包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能，必须在出现提示时安装插件。 请注意，Mac OS X 版本10.6 已不再受支持。
+<sup>2</sup>在受支持的 windows 7、windows Server 2008 R2 和 Macintosh 操作系统中，所有功能均可用，包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能，必须在出现提示时安装插件。 请注意，Mac OS X 版本10.6 已不再受支持。
 
-<sup>3</sup>受支持的 Windows Server 2008 操作系统、基于计算机的语音和视频不可用。 可使用应用程序查看、应用程序共享、桌面查看和桌面共享。
+<sup>3</sup>在受支持的 Windows Server 2008 操作系统中，基于计算机的语音和视频不可用。 可使用应用程序查看、应用程序共享、桌面查看和桌面共享。
 
-<sup>4</sup>插件需要在浏览器中支持 NPAPI。 Firefox 已删除版本52.0 中的 NPAPI 支持，并且 Chrome 已删除版本45中的支持，因此在当前版本中不再支持这些浏览器。
+<sup>4</sup>插件要求在浏览器中支持 NPAPI。 Firefox 删除了对版本52.0 中的 NPAPI 的支持，并删除了版本45中的部件版式支持，因此这些浏览器在其当前版本中不再受支持。
 
 </div>
 
@@ -191,7 +191,7 @@ _**主题上次修改时间：** 2017-02-07_
 
 ## <a name="hardware-requirements"></a>硬件要求
 
-计算机硬件要求由操作系统和浏览器确定。 语音和电话功能需要麦克风和扬声器、带麦克风的耳机或者与计算机的同等设备。 视频功能需要与计算机兼容的视频设备。 有关视频硬件支持和预期视频质量的详细信息，请参阅[Lync Server 2013 的 lync 客户端视频要求](lync-server-2013-lync-client-video-requirements.md)。
+计算机的硬件要求由操作系统和浏览器决定。 语音和电话功能需要麦克风和扬声器、带麦克风的耳机或与计算机兼容的等效设备。 视频功能需要与计算机兼容的视频设备。 有关视频硬件支持和预期的视频质量的详细信息，请参阅 lync [Server 2013 的 lync 客户端视频要求](lync-server-2013-lync-client-video-requirements.md)。
 
 </div>
 
