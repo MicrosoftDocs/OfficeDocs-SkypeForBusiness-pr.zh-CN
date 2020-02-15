@@ -12,16 +12,16 @@ ms:contentKeyID: 49733727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73944e1561b88301b740fcb52cf301645154c6e7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f94e824b18cab71fe1329ffcad1c836df6d46ebd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741612"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049063"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741612"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-ConferenceMessageCount 视图存储有关用户向会议发送的邮件数的信息。 此视图已在 Microsoft Lync Server 2013 中引入。
+ConferenceMessageCount 视图存储有关用户已向会议中发送的消息数的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 
 <div>
 
 
 > [!NOTE]  
-> ConferenceMessageCount 视图包含<A href="lync-server-2013-conferencesessiondetails-view.md">Lync Server 2013 的 ConferenceSessionDetails 视图</A>中的所有列以及下面列出的列。
+> ConferenceMessageCount 视图包含在<A href="lync-server-2013-conferencesessiondetails-view.md">Lync Server 2013 的 ConferenceSessionDetails 视图</A>中的所有列，此外还列出了下面列出的列。
 
 
 
@@ -67,22 +67,22 @@ ConferenceMessageCount 视图存储有关用户向会议发送的邮件数的信
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
 <td><p>nvarchar （450）</p></td>
-<td><p>发送邮件的用户的 URI。</p></td>
+<td><p>发送消息的用户的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>发送邮件的用户的 URI 类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar （256）</p></td>
+<td><p>发送消息的用户的 URI 类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>标识符</p></td>
+<td><p>uniqueidentifier</p></td>
 <td><p>发送消息的用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserMessageCount</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>在会议会话期间用户发送的消息数。</p></td>
+<td><p>用户在会议会话期间发送的消息数。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48706013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9fbbc7ad4fd5279cea1116607193817078a04e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 505702a656fd838fa9ba23b65487ff57963abb30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738142"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41738142"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-07_
+_**上次修改的主题：** 2014-02-07_
 
-若要将更多用户组添加到聊天室，请参阅[在 Lync Server 2013 中配置类别](lync-server-2013-configure-categories.md)和管理部署文档中的[类别](manage-categories.md)。 例如，此命令将 active Directory 中的 NorthAmericaUsers OU 中的所有用户添加到 "北美" 聊天室：
+若要向聊天室添加更多用户组，请参阅在[Lync Server 2013 中配置类别](lync-server-2013-configure-categories.md)和在部署文档中[管理类别](manage-categories.md)。 例如，此命令将 active Directory 中的 NorthAmericaUsers OU 中的所有用户添加到 "北美" 聊天室：
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=litwareinc,DC=com"}
 
-他的命令将财务通讯组中的所有成员添加到同一聊天室：
+他的命令将财务通讯组中的所有成员添加到同一个聊天室：
 
     Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.litwareinc.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=litwareinc,DC=com"}
 

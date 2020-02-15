@@ -12,16 +12,16 @@ ms:contentKeyID: 48184598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89ddf40f5f713481ddda36a072c2fd5b91e3f80f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f4a35eb8d388a42bb15a5ea71a1016ac355bf0ff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725442"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41725442"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-04_
+_**上次修改的主题：** 2012-06-04_
 
-本部分中的主题介绍如何为你的组织中的 Lync Server 2013 客户端和设备进行规划。
+本节中的主题介绍如何规划 Lync Server 2013 客户端和组织中的设备。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中规划客户端](lync-server-2013-planning-for-clients.md)
 

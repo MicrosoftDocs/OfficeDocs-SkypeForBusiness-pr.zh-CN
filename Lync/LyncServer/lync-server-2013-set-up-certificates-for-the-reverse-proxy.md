@@ -12,16 +12,16 @@ ms:contentKeyID: 48185291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe45f9e7d422da53e9dc531721d4b678685eb2b1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e854009dc376157ab4e61bbb3ba76fbde508b046
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764658"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41764658"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-每个反向代理服务器都要求有一个 web 服务器证书供侦听服务使用。 Web 服务器证书必须由公共证书颁发机构（CA）颁发。
+每台反向代理服务器都需要一个 Web 服务器证书，以供侦听服务使用。该 Web 服务器证书必须是由公共证书颁发机构 (CA) 颁发的。
 
-有关此和其他证书要求的详细信息，请参阅[Lync Server 2013 中的外部用户访问证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
+有关此证书和其他证书要求的详细信息，请参阅[Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
 
 <div>
 
 ## <a name="to-set-up-a-web-services-certificate-for-the-reverse-proxy"></a>为反向代理设置 Web 服务证书
 
-  - 你应该已经设置了反向代理，包括设置 Web 服务证书。 如果在开始部署 Edge 服务器之前未执行此操作，请使用[设置 Lync Server 2013 的反向代理服务器](lync-server-2013-setting-up-reverse-proxy-servers.md)中的过程来创建请求并安装 web 服务证书，然后创建每个 web 发布规则并将其配置为使用该证书。
+  - 您应该已经设置了反向代理，包括设置 Web 服务证书。 如果在启动边缘服务器的部署之前未执行此操作，请使用为[Lync Server 2013 设置反向代理服务器](lync-server-2013-setting-up-reverse-proxy-servers.md)中的过程来创建请求并安装 web 服务证书，然后创建每个 web 发布规则并将其配置为使用证书。
 
 </div>
 

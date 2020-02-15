@@ -12,16 +12,16 @@ ms:contentKeyID: 49733636
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8609c2254084a1693f909692349176928d28ec92
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45510f596e953fd322f1df06d8deefa78a2a6569
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757246"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41757246"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-你可以使用以下过程查看网络子网。 从 Lync Server 控制面板中，您可以创建、修改或删除网络子网。 有关创建或修改网络子网的详细信息，请参阅[在 Lync Server 2013 中创建或修改网络子网](lync-server-2013-create-or-modify-network-subnets.md)。
+您可使用以下过程查看网络子网。 在 Lync Server 控制面板中，您可以创建、修改或删除网络子网。 有关创建或修改网络子网的详细信息，请参阅[在 Lync Server 2013 中创建或修改网络子网](lync-server-2013-create-or-modify-network-subnets.md)。
 
 <div>
 
 ## <a name="to-view-a-network-subnet"></a>查看网络子网
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击 "**网络配置**"，然后单击 "**子网**"。
+3.  在左侧导航栏中，单击“网络配置”****，然后单击“子网”****。
 
-4.  在 "**子网**" 页面上，单击要查看的子网。
+4.  在“子网”**** 页上，单击要查看的子网。
     
     <div>
     
@@ -60,7 +60,7 @@ _**主题上次修改时间：** 2013-02-23_
     
     </div>
 
-5.  在 "**编辑**" 菜单上，单击 "**显示详细信息 ...**"。
+5.  在“编辑”**** 菜单上，单击“显示详细信息…”****。
 
 </div>
 
@@ -68,7 +68,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="viewing-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看网络子网配置信息
 
-可使用 Windows PowerShell 和 CsNetworkSubnet cmdlet 查看网络子网信息。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+可以使用 Windows PowerShell 和 CsNetworkSubnet cmdlet 查看网络子网信息。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
@@ -88,7 +88,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) cmdlet 的帮助主题。
 
 </div>
 

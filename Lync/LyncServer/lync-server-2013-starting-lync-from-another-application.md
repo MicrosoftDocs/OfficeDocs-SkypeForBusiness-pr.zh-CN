@@ -12,16 +12,16 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dafb8295d3070cd9f38e8691e654146978156d45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c22f5e365e47ae7b6a41cd6e917b87718e07ac9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764398"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764398"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-20_
+_**上次修改的主题：** 2013-02-20_
 
-可以使用命令行参数快速启动 Lync 2013。 例如，如果用户单击另一个应用程序中的电话号码，应用程序可以启动 Lync 2013 的一个实例，并启动对该号码的调用。
+您可以使用命令行参数快速启动 Lync 2013。 例如，如果用户在另一个应用程序中单击某个电话号码，则应用程序可以启动 Lync 2013 的一个实例，并启动对该号码的呼叫。
 
-Lync 2013 还可以识别以分号分隔的多方会议的联系人姓名列表。
+Lync 2013 还可以识别以分号分隔的多方会议联系人姓名列表。
 
-如果 Lync 2013 配置为在启动时自动登录，则通过命令行参数启动 Lync 2013 将打开 Lync 主窗口。 如果 Lync 未配置为在启动时自动登录，则登录窗口将打开。
+如果 Lync 2013 配置为在启动时自动登录，则使用命令行参数启动 Lync 2013 将打开 Lync 主窗口。 如果 Lync 没有配置为启动时自动登录，将打开登录窗口。
 
 下表显示了可用的参数。
 
@@ -55,41 +55,41 @@ Lync 2013 还可以识别以分号分隔的多方会议的联系人姓名列表�
 </colgroup>
 <thead>
 <tr class="header">
-<th>线</th>
-<th>数据的格式</th>
-<th>操作</th>
+<th>扩展名</th>
+<th>数据格式</th>
+<th>Action</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>tel</p></td>
-<td><p>电话 URI</p></td>
-<td><p>为音频呼叫打开对话窗口，但不拨打指定号码。</p></td>
+<td><p>电话</p></td>
+<td><p>tel URI</p></td>
+<td><p>打开音频呼叫的“对话”窗口，但不拨打指定号码。</p></td>
 </tr>
 <tr class="even">
 <td><p>callto</p></td>
-<td><p>电话：、sip：或 typeable 电话 URI</p></td>
-<td><p>为音频呼叫打开对话窗口，但不拨打指定号码。</p></td>
+<td><p>tel:、sip: 或可键入的 tel URI</p></td>
+<td><p>打开音频呼叫的“对话”窗口，但不拨打指定号码。</p></td>
 </tr>
 <tr class="odd">
 <td><p>sip</p></td>
 <td><p>SIP URI</p></td>
-<td><p>在参与者列表中打开具有指定 SIP 统一资源标识符（URI）的对话窗口。</p></td>
+<td><p>使用参与者列表中指定的 SIP 统一资源标识符 (URI) 打开“对话”窗口。</p></td>
 </tr>
 <tr class="even">
 <td><p>那些</p></td>
 <td><p>SIP URI</p></td>
-<td><p>如果将 Lync 2013 配置为使用传输层安全（TLS）协议，功能与 sip 完全一样：。 如果未使用 TLS，则会显示一个对话框，通知用户需要更高的安全级别。</p></td>
+<td><p>如果将 Lync 2013 配置为使用传输层安全性（TLS）协议，则功能与 sip 完全一样：。 如果没有使用 TLS，将显示一个对话框，通知用户需要更高级别的安全性。</p></td>
 </tr>
 <tr class="odd">
 <td><p>会议</p></td>
 <td><p>要加入的会议的 SIP URI</p></td>
-<td><p>如果 URI 为 self，则实例化焦点并显示仅限名单的视图。 否则，调出名单视图，但不发送邀请。</p></td>
+<td><p>如果 URI 是自身，则将实例化会议状态中心，并打开仅显示名单的视图。否则，将打开名单视图，但不会发送 INVITE。</p></td>
 </tr>
 <tr class="even">
 <td><p>im</p></td>
 <td><p>SIP URI</p></td>
-<td><p>显示带有 SIP URI 的即时消息（IM）对话窗口。 接受不带任何分隔符的尖括号（&lt;&gt;）内指定的多个 SIP uri。</p>
+<td><p>使用 SIP URI 打开仅显示即时消息 (IM) 的“对话”窗口。 接受不带任何分隔符的尖括号（&lt;&gt;）内指定的多个 SIP uri。</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>
@@ -107,30 +107,30 @@ Lync 2013 还可以识别以分号分隔的多方会议的联系人姓名列表�
 </colgroup>
 <thead>
 <tr class="header">
-<th>示例</th>
+<th>实例</th>
 <th>结果</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>电话： + 14255550101</p></td>
-<td><p>打开具有 + 14255550101 的仅手机视图。</p></td>
+<td><p>使用 +14255550101 打开仅显示电话的视图。</p></td>
 </tr>
 <tr class="even">
-<td><p>Callto：电话： + 14255550101</p></td>
-<td><p>打开具有 + 14255550101 的仅手机视图。</p></td>
+<td><p>Callto:tel:+ 14255550101</p></td>
+<td><p>使用 +14255550101 打开仅显示电话的视图。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Callto:sip:kazuto@litwareinc.com</p></td>
-<td><p>打开一个仅限手机的视图，kazuto@litwareinc.com。</p></td>
+<td><p>使用 kazuto@litwareinc.com 打开仅显示电话的视图。</p></td>
 </tr>
 <tr class="even">
 <td><p>sip:kazuto@litwareinc.com</p></td>
-<td><p>打开一个带 kazuto@litwareinc.com 的对话窗口。</p></td>
+<td><p>使用 kazuto@litwareinc.com 打开“对话”窗口。</p></td>
 </tr>
 <tr class="odd">
 <td><p>会议： sip：https://meet.contoso.com/kazuto/7322994</p></td>
-<td><p>打开对话窗口，并显示会议音频联接选项。</p></td>
+<td><p>打开对话窗口并显示会议音频加入选项。</p></td>
 </tr>
 </tbody>
 </table>

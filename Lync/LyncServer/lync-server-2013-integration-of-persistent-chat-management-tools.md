@@ -12,20 +12,20 @@ ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35f9bcd1238141aada9bc5bfd9b802c10ffc6ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29d283b7c935cb41f14b2a7048eedd369d378f44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725812"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040971"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a>Lync Server 2013 中持久聊天管理工具的集成
+# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a>在 Lync Server 2013 中集成持久聊天管理工具
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725812"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-16_
+_**上次修改的主题：** 2012-08-16_
 
-Lync Server 2013 通过将其管理工具与用于其他 Lync 服务器的工具集成，简化了持久聊天服务器的管理。
+Lync Server 2013 通过将其管理工具与用于其他 Lync Server 的工具集成在一起，简化了持久聊天服务器的管理。
 
-持久聊天服务器包括与 Lync Server 控制面板集成的管理用户界面体验。 此外，持久聊天服务器还包括 Windows PowerShell cmdlet 的集合，用于管理和管理持久聊天服务器类别、会议室（包括删除聊天室和清除过时内容）和加载项。
+持久聊天服务器包括与 Lync Server 控制面板集成的管理用户界面体验。 此外，持久聊天服务器还包括 Windows PowerShell cmdlet 的集合，用于管理和管理持久聊天服务器类别、会议室（包括删除聊天室和清除过时内容）和外接程序。
 
 <div>
 

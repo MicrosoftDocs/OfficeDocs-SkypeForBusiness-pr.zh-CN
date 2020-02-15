@@ -12,16 +12,16 @@ ms:contentKeyID: 48185554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858cdaec39e61b1f18f1a97e560dfdd34a68cd20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a89c7bb7cdd54e1d0e3d388223d0054992d35e9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738222"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41738222"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
 本节中的主题提供了可通过使用 Lync Server 控制面板中的 "**语音路由**" 组执行的任务的分步过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中定义翻译规则和规范化规则](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
+  - [在 Lync Server 2013 中定义转换规则和规范化规则](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
 
   - [在 Lync Server 2013 中配置中继](lync-server-2013-configuring-trunks.md)
 
-  - [在 Lync Server 2013 中配置语音策略、PSTN 使用记录和语音路由](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+  - [在 Lync Server 2013 中配置语音策略、PSTN 用法记录和语音路由](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
   - [在 Lync Server 2013 中配置拨号计划](lync-server-2013-configuring-dial-plans.md)
 

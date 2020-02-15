@@ -12,16 +12,16 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d63aff308b23e52284988a184e5e9d72beaca26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc14c72f614e6e062afc089236182def0d86e634
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728672"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41728672"
 
 <span> </span>
 
-_**主题上次修改时间：** 2015-01-26_
+_**上次修改的主题：** 2015-01-26_
 
-为了帮助确保 Lync Server 2013 部署的可用性和可靠性，你应该作为日常例行监视器和测试元素的一部分，这些元素对系统的运行非常重要，其中包括物理平台、操作系统和所有重要的 Lync Server 2013 服务。 预防性维护和主动预防性监视将帮助你识别可能会对 Lync Server 2013 部署产生负面影响的潜在错误和问题。
+为了帮助确保 Lync Server 2013 部署的可用性和可靠性，您应作为日常例行监视和测试元素的一部分，这些元素对系统的正常运行非常重要，包括物理平台、操作系统和所有重要的 Lync Server 2013 服务。 预防性维护和主动监视将帮助您识别可能会对 Lync Server 2013 部署产生负面影响的潜在错误和问题。
 
-监视 Lync Server 2013 部署涉及检查与连接、服务、服务器资源和系统资源相关的问题。 Windows Server 操作系统与 System Center Operations Manager 以及 Lync 服务器一起提供了许多监视工具和服务，可帮助确保 Lync 服务器组织顺利运行。 当一起实施这些技术时，管理员能够在问题发生时或之前收到警报。
+监视 Lync Server 2013 部署涉及到检查连接、服务、服务器资源和系统资源的问题。 Windows Server 操作系统与 System Center Operations Manager 和 Lync Server 提供了很多监视工具和服务，可帮助确保 Lync Server 组织正常运行。 当这些技术一起实施时，管理员将能够在出现问题时或之前收到警报。
 
-日常监视的关键好处如下所示：
+日常监控的主要优势如下：
 
-  - 满足定义的 SLA 的性能和可用性要求。
+  - 满足已定义的 Sla 的性能和可用性要求。
 
-  - 成功完成特定管理任务（如日常备份操作）和检查服务器运行状况。
+  - 成功完成特定管理任务，例如每日备份操作和检查服务器运行状况。
 
-  - 在其他资源的问题（例如服务器性能方面的瓶颈）或需求影响生产效率之前检测和解决它们。
+  - 检测和解决问题，如服务器性能中的瓶颈或在影响工作效率之前需要额外资源。
 
-日常管理任务可帮助管理团队针对组织内的正常系统运作定义或设立条件或基准，并检测任何异常活动。 执行这些日常维护任务非常重要，这样管理团队可以捕获和维护有关 Lync Server 2013 基础结构的数据，例如使用级别、可能的性能瓶颈和管理更改。
+每日维护任务可帮助管理团队为组织内的常规系统操作定义或建立条件或基准，并检测任何异常活动。 一定要实施这些日常维护任务，以便管理团队可以捕获和维护有关 Lync Server 2013 基础结构的数据，如使用率级别、可能的性能瓶颈和管理更改。
 
-为帮助整理日常任务的性能，请使用[日常任务清单](lync-server-2013-operations-checklists.md)。
+若要帮助组织日常任务的性能，请使用[日常任务清单](lync-server-2013-operations-checklists.md)。
 
 <div>
 

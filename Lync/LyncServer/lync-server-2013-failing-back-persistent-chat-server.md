@@ -12,16 +12,16 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca00a71c88b917b9e59f2e9039e7960b51f64157
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a0e7bef65773c20c5d97a1b625d2ef39255f64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756166"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045965"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41756166"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-05_
+_**上次修改的主题：** 2014-02-05_
 
-此过程概述了从持久聊天服务器故障中恢复所需的步骤，以及从主数据中心重新建立操作的步骤。
+此过程概述了从持久聊天服务器故障中恢复所需的步骤，以及从主数据中心重新建立操作所需的步骤。
 
-在持久聊天服务器出现故障期间，主数据中心将受到完全中断，并且主数据库和镜像数据库将变得不可用。 主数据中心将故障转移到备份服务器。
+在持久聊天服务器出现故障的过程中，主数据中心受到完全中断，主数据库和镜像数据库将变得不可用。 主数据中心将故障转移到备份服务器。
 
-以下过程在备份主数据中心并重新生成服务器后还原正常操作。 该过程假设主数据中心已从整体中断恢复，并且已使用拓扑生成器重新生成并重新安装了 mgc 数据库和 mgccomp 数据库。
+以下过程在备份主数据中心并重新生成服务器后还原正常操作。 此过程假定主数据中心已从总中断恢复，并且已使用拓扑生成器重新生成并重新安装 mgc 数据库和 mgccomp 数据库。
 
-该过程还假定在故障转移期间未部署任何新镜像和备份服务器，并且部署的唯一服务器是备份服务器及其镜像服务器，如在[Lync server 2013 中通过永久聊天服务器进行了故障转移](lync-server-2013-failing-over-persistent-chat-server.md)。
+此过程还假定在故障转移期间没有部署新的镜像服务器和备份服务器，并且部署的唯一服务器是备份服务器及其镜像服务器，如在[Lync server 2013 中通过持久聊天服务器进行故障转移](lync-server-2013-failing-over-persistent-chat-server.md)时进行了定义。
 
 这些步骤旨在恢复配置在导致从主服务器故障转移到备份服务器的灾难发生之前的状态。
 
 <div>
 
-## <a name="to-fail-back-persistent-chat-server"></a>故障恢复持久聊天服务器
+## <a name="to-fail-back-persistent-chat-server"></a>对持久聊天服务器进行故障回复
 
 1.  使用 Lync Server 命令行管理程序中的`Set-CsPersistentChatActiveServer` Cmdlet 从持久聊天服务器活动服务器列表中清除所有服务器。 这将阻止所有持久聊天服务器在故障回复期间连接到 mgc 数据库和 mgccomp 数据库。
     
@@ -57,7 +57,7 @@ _**主题上次修改时间：** 2014-02-05_
     
 
     > [!IMPORTANT]  
-    > 辅助持久聊天服务器上的 SQL Server 代理应在特权帐户下运行。 尤其需要指出的是，该帐户必须具有以下权限： 
+    > 辅助持久聊天服务器后端服务器上的 SQL Server 代理应在特权帐户下运行。 尤其需要指出的是，该帐户必须具有以下权限： 
     > <UL>
     > <LI>
     > <P>对于放置备份的网络共享的读取权限。</P>
@@ -69,70 +69,70 @@ _**主题上次修改时间：** 2014-02-05_
 
 2.  在备份 mgc 数据库上禁用镜像：
     
-    1.  使用 SQL Server Management Studio 连接到 backup mgc 实例。
+    1.  使用 SQL Server Management Studio 连接到备份 mgc 实例。
     
-    2.  右键单击 mgc 数据库，指向“**任务**”，然后单击“**镜像**”。
+    2.  右键单击 mgc 数据库，指向“任务”****，然后单击“镜像”****。
     
-    3.  单击“**取消镜像**”。
+    3.  单击“取消镜像”****。
     
-    4.  单击“**确定**”。
+    4.  单击“确定”****。
     
     5.  对 mgccomp 数据库执行相同步骤。
 
 3.  备份 mgc 数据库，使其可以还原为新主数据库：
     
-    1.  使用 SQL Server Management Studio 连接到 backup mgc 实例。
+    1.  使用 SQL Server Management Studio 连接到备份 mgc 实例。
     
-    2.  右键单击 mgc 数据库，指向“**任务**”，然后单击“**备份**”。随即将显示“**备份数据库**”对话框。
+    2.  右键单击 mgc 数据库，指向“任务”****，然后单击“备份”****。随即将显示“备份数据库”**** 对话框。
     
-    3.  在“**备份类型**”中，选择“**完全**”。
+    3.  在“备份类型”**** 中，选择“完全”****。
     
-    4.  对于“**备份组件**”，请单击“**数据库**”。
+    4.  对于“备份组件”****，请单击“数据库”****。
     
-    5.  接受“**名称**”中建议的默认备份集名称，或为备份集输入不同名称。
+    5.  接受“名称”**** 中建议的默认备份集名称，或为备份集输入不同名称。
     
-    6.  * \<可选\> *在 "**说明**" 中，输入备份集的描述。
+    6.  * \<可选\> *在 "**说明**" 中，输入备份集的说明。
     
     7.  从目标列表中删除默认备份位置。
     
     8.  使用您建立用于日志传送的共享位置的路径向列表中添加文件。主数据库和备份数据库均可使用此路径。
     
-    9.  单击“**确定**”关闭对话框并开始备份过程。
+    9.  单击“确定”**** 关闭对话框并开始备份过程。
 
 4.  使用上一步中创建的备份数据库还原主数据库。
     
     1.  使用 SQL Server Management Studio 连接到主 mgc 实例。
     
-    2.  右键单击 mgc 数据库，指向“**任务**”，指向“**还原**”，然后单击“**数据库**”。随即会显示“**还原数据库**”对话框。
+    2.  右键单击 mgc 数据库，指向“任务”****，指向“还原”****，然后单击“数据库”****。随即会显示“还原数据库”**** 对话框。
     
-    3.  选择“**自设备**”。
+    3.  选择“自设备”****。
     
-    4.  单击浏览按钮，将打开“**指定备份**”对话框。在“**备份媒体**”中，选择“**文件**”。单击“**添加**”，选择您在步骤 3 中创建的备份文件，然后单击“**确定**”。
+    4.  单击浏览按钮，将打开“指定备份”**** 对话框。在“备份媒体”**** 中，选择“文件”****。单击“添加”****，选择您在步骤 3 中创建的备份文件，然后单击“确定”****。
     
-    5.  在“**选择用于还原的备份集**”中，选择备份。
+    5.  在“选择用于还原的备份集”**** 中，选择备份。
     
-    6.  在“**选择页**”窗格中单击“**选项**”。
+    6.  在“选择页”**** 窗格中单击“选项”****。
     
-    7.  在“**还原选项**”中，选择“**覆盖现有数据库**”。
+    7.  在“还原选项”**** 中，选择“覆盖现有数据库”****。
     
-    8.  在“**恢复状态**”中，选择“**使数据库处于可以使用的状态**”。
+    8.  在“恢复状态”**** 中，选择“使数据库处于可以使用的状态”****。
     
-    9.  单击“**确定**”开始还原过程。
+    9.  单击“确定”**** 开始还原过程。
 
-5.  为主数据库配置 SQL Server 日志传送。 按照在[Lync server 2013 中配置持久聊天服务器以获得高可用性和灾难恢复](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)的过程，为主 mgc 数据库建立日志传送。
+5.  为主数据库配置 SQL Server 日志传送。 按照在[Lync server 2013 中配置持久聊天服务器以实现高可用性和灾难恢复](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)过程中的过程，为主 mgc 数据库建立日志传送。
 
-6.  设置持久聊天服务器活动服务器。 从 Lync Server 命令行管理程序中，使用**CsPersistentChatActiveServer** cmdlet 设置活动服务器的列表。
+6.  设置持久聊天服务器活动服务器。 在 Lync Server 命令行管理程序中，使用**set-cspersistentchatactiveserver** cmdlet 设置活动服务器的列表。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 所有活动服务器必须都与新主数据库位于同一数据中心中，或位于与数据库之间存在低延迟/高带宽连接的数据中心中。
+    > 所有活动服务器都必须与新主数据库位于同一数据中心中，或位于与数据库之间存在低延迟/高带宽连接的数据中心中。
 
     
     </div>
 
-将池还原到其正常状态时，请运行以下 Windows PowerShell 命令：
+将池还原到正常状态将运行以下 Windows PowerShell 命令：
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 

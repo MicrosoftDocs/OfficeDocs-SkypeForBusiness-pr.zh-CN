@@ -12,16 +12,16 @@ ms:contentKeyID: 48185635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5afdd0a77cdba7c770a15adc549758db2a07af8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f2908cd36d7b40cf2fc041b77305ca83bc197b17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756306"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756306"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-04-12_
+_**上次修改的主题：** 2012-04-12_
 
-在拓扑生成器中部署对 Lync Server 2013 和持久聊天服务器的支持后，您可以使用 Lync Server 2013 控制面板配置永久聊天服务器在部署中的实现方式。
+在拓扑生成器中部署对 Lync Server 2013、持久聊天服务器的支持后，可以使用 Lync Server 2013 控制面板配置持久聊天服务器在您的部署中的实现方式。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中启用持久聊天服务器策略](lync-server-2013-enable-persistent-chat-server-policy.md)
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2012-04-12_
 
   - [在 Lync Server 2013 中配置聊天室](lync-server-2013-configure-rooms.md)
 
-  - [在 Lync Server 2013 中配置聊天室外接程序](lync-server-2013-configure-add-ins-for-rooms.md)
+  - [在 Lync Server 2013 中配置聊天室的外接程序](lync-server-2013-configure-add-ins-for-rooms.md)
 
 </div>
 

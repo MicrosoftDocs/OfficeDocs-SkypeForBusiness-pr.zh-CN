@@ -12,16 +12,16 @@ ms:contentKeyID: 48185512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b49bc53a02f9b3a5beb4458dcebaa9aa6398823a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bcd19d3f0ae11b38afd6d95fc443683963185075
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758126"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758126"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-22_
+_**上次修改的主题：** 2013-02-22_
 
-Lync Server 2013 拨号计划是一组命名的规范化规则，用于转换命名位置、个人用户或联系人对象的电话号码，以用于手机授权和呼叫路由。
+Lync Server 2013 拨号计划是一组命名的规范化规则，用于将命名位置、个人用户或联系人对象的电话号码转换为电话授权和呼叫路由的目的。
 
 <div>
 
 
 > [!NOTE]  
-> 有关详细信息，请参阅规划文档中的<A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 中的 "拨号计划和规范规则</A>"。
+> 有关详细信息，请参阅规划文档中的<A href="lync-server-2013-dial-plans-and-normalization-rules.md">Lync Server 2013 中的拨号计划和规范化规则</A>。
 
 
 
@@ -51,7 +51,7 @@ Lync Server 2013 拨号计划是一组命名的规范化规则，用于转换命
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看拨号计划信息](lync-server-2013-view-dial-plan-information.md)
 

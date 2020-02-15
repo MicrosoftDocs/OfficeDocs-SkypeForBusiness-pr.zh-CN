@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：组呼叫装货的部署过程
+title: Lync Server 2013：组间呼叫应答的部署过程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 015aa2817b7d829d1714288182775b42ba2bb1f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 20f583b330812eab8ea32ecd3c545445b0640fae
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中的组呼叫装货的部署过程
+# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中组呼叫应答的部署过程
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762630"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-25_
+_**上次修改的主题：** 2013-02-25_
 
-本部分概述了部署组呼叫时所涉及的步骤。 您必须先部署企业版企业版或标准版，然后再配置群组呼叫装货。 当您部署企业语音时，将安装并启用组呼叫挑选所需的组件。
+本节概述了部署组内呼叫应答涉及的步骤。 在配置组呼叫应答之前，必须使用 Enterprise Voice 部署 Enterprise Edition 或 Standard Edition。 当您部署企业语音时，会安装并启用组呼叫应答所需的组件。
 
-### <a name="group-call-pickup-deployment-process"></a>组内呼叫应答部署过程
+### <a name="group-call-pickup-deployment-process"></a>组呼叫应答部署过程
 
 <table>
 <colgroup>
@@ -58,31 +58,31 @@ _**主题上次修改时间：** 2013-02-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>启用拓扑中的 SEFAUtil 资源工具包工具</p></td>
+<td><p>在拓扑中启用 SEFAUtil 资源工具包工具</p></td>
 <td><ol>
-<li><p>使用 <strong>New-CsTrustedApplicationPool</strong> cmdlet 创建新的受信任应用程序池。</p></li>
-<li><p>使用 <strong>New-CsTrustedApplication</strong> cmdlet 将 SEFAUtil 工具指定为受信任应用程序。</p></li>
-<li><p>运行 <strong>Enable-CsTopology</strong> cmdlet 来启用拓扑。</p></li>
-<li><p>在步骤1中创建的受信任的应用程序池中的前端服务器上安装资源工具包工具。</p></li>
-<li><p>验证 SEFAUtil 正常运行，方法是运行它，以显示部署中用户的呼叫转接设置。</p></li>
+<li><p>使用<strong>CsTrustedApplicationPool</strong> cmdlet 可以创建新的受信任应用程序池。</p></li>
+<li><p>使用<strong>CsTrustedApplication</strong> cmdlet 可将 SEFAUtil 工具指定为受信任的应用程序。</p></li>
+<li><p>运行<strong>enable-cstopology</strong> cmdlet 以启用拓扑。</p></li>
+<li><p>在第1步中创建的受信任应用程序池中的前端服务器上安装资源工具包工具。</p></li>
+<li><p>运行此程序以验证 SEFAUtil 是否正常运行，以在部署中显示用户的呼叫转接设置。</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-deploy-the-sefautil-tool.md">Deploy the SEFAUtil tool in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-deploy-the-sefautil-tool.md">在 Lync Server 2013 中部署 SEFAUtil 工具</a></p></td>
 </tr>
 <tr class="even">
-<td><p>在呼叫寄存通道表中配置呼叫应答号码范围</p></td>
-<td><p>使用<strong>CSCallParkOrbit</strong> cmdlet 在 "呼叫公园轨道" 表中创建呼叫装货号码范围，并将 "呼叫装货" 范围分配给类型 GroupPickup。</p>
+<td><p>在呼叫寄存通道表中配置呼叫装货号码范围</p></td>
+<td><p>使用<strong>CSCallParkOrbit</strong> cmdlet 可以在呼叫寄存通道表中创建呼叫应答号码范围，并将呼叫装货范围分配给 GroupPickup 类型。</p>
 <div>
 
 > [!NOTE]  
-> 您必须使用 Lync Server Management Shell 在 "呼叫公园轨道" 表中创建、修改、删除和查看组呼叫的装货号码范围。 组呼叫装货号码范围在 Lync Server 控制面板中不可用。
+> 必须使用 Lync Server 命令行管理程序在呼叫寄存通道表中创建、修改、删除和查看组内呼叫应答号码范围。 组内呼叫应答号码范围在 Lync Server 控制面板中不可用。
 
 
 </div>
 <div>
 
 > [!NOTE]  
-> 为与现有拨号计划进行无缝集成，号码范围通常配置为虚拟分机块。不支持将外线直拨分机 (DID) 号码分配为呼叫寄存轨道表中的范围号码。
+> 对于与现有拨号计划的无缝集成，号码范围通常配置为虚拟扩展块。 不支持将直接向内拨号（已为）号码分配给呼叫寄存通道表中的区域号码。
 
 
 </div></td>
@@ -90,25 +90,25 @@ _**主题上次修改时间：** 2013-02-25_
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-call-pickup-group-numbers.md">在 Lync Server 2013 中配置呼叫装货组号码</a></p></td>
+<td><p><a href="lync-server-2013-configure-call-pickup-group-numbers.md">在 Lync Server 2013 中配置呼叫应答组号码</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>为用户分配呼叫装货号码，并为用户启用组呼叫装货</p></td>
-<td><p>使用 SEFAUtil 资源工具包工具中的/enablegrouppickup 参数启用组呼叫装货，并为用户分配呼叫装货号码。</p></td>
+<td><p>为用户分配呼叫装货号码，并为用户启用组呼叫应答</p></td>
+<td><p>使用 SEFAUtil 资源工具包工具中的/enablegrouppickup 参数可启用组呼叫应答，并为用户分配呼叫应答号码。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">为 Lync Server 2013 中的用户启用组呼叫装货和分配组号码</a></p></td>
+<td><p><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">为 Lync Server 2013 中的用户启用组内呼叫应答并分配组号码</a></p></td>
 </tr>
 <tr class="even">
-<td><p>通知用户其分配的呼叫应答号码和任何其他相关号码</p></td>
-<td><p>由于任何用户都可以检索对组调用 Pickup 用户的呼叫，因此用户可能希望监视多个组。</p></td>
+<td><p>通知用户分配的呼叫应答号码和任何其他感兴趣的号码</p></td>
+<td><p>由于任何用户都可以检索对组呼叫应答用户的呼叫，因此用户可能需要监视多个组。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">向 Lync Server 2013 中的用户传达组呼叫装货作业</a></p></td>
+<td><p><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">在 Lync Server 2013 中向用户传达组呼叫装货分配</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>验证组呼叫装货部署</p></td>
-<td><p>测试发出和取回呼叫以确保配置按预期工作。</p></td>
+<td><p>验证你的组呼叫装货部署</p></td>
+<td><p>测试发出和检索呼叫以确保配置按预期方式工作。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">可选验证 Lync Server 2013 中的组呼叫装货部署</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">Optional在 Lync Server 2013 中验证组内的 "呼叫装货" 部署</a></p></td>
 </tr>
 </tbody>
 </table>

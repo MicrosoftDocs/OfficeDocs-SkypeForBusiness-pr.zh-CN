@@ -12,16 +12,16 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7e62fbf56d270c6d2d0c65415dc28dd30e4449
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756406"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046665"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756406"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-ClientVersions 视图存储参与数据库中记录的会话的各种客户端类型和版本的相关信息。 视图中的每条记录表示一个客户端版本。 此视图已在 Microsoft Lync Server 2013 中引入。
+ClientVersions 视图存储已参与数据库中记录的会话的各种客户端类型和版本的相关信息。 视图中的每条记录都代表一个客户端版本。 此视图是在 Microsoft Lync Server 2013 中引入的。
 
 <div>
 
@@ -71,18 +71,18 @@ ClientVersions 视图存储参与数据库中记录的会话的各种客户端�
 </tr>
 <tr class="even">
 <td><p><strong>版本</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>表示用户代理。</p></td>
+<td><p>nvarchar （256）</p></td>
+<td><p>代表用户代理。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>客户端的类型。</p></td>
+<td><p>客户端类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar （64）</p></td>
-<td><p>客户端所属的类别。 例如，客户端 Conferencing_Attendant_1 .0 属于 ClientCategory CAA。</p></td>
+<td><p>客户端所属的类别。例如，客户端 Conferencing_Attendant_1.0 属于 ClientCategory CAA。</p></td>
 </tr>
 </tbody>
 </table>

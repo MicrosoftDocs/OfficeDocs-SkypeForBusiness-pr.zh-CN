@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：增强型 9-1-1 (E9-1-1) 和中介服务器
+title: Lync Server 2013：增强的9-1-1 （E9-1-1）和中介服务器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac6d6d7c9dd533d26f2cbf5c5116db7af4424ffe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bd74c7ee030516b12039427a618596972240b901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735453"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042129"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中的增强型 9-1-1 (E9-1-1) 和中介服务器
+# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中的增强型9-1-1 （E9-1-1）和中介服务器
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41735453"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-29_
+_**上次修改的主题：** 2012-09-29_
 
-中介服务器具有扩展的功能，以便可以与增强的9-1-1 （E9-1）服务提供程序正确交互。 中介服务器上不需要特殊配置;默认情况下，E9-1-1 交互所需的 SIP 扩展包括在中介服务器的 SIP 协议中，用于与网关对等（PSTN 网关、IP PBX 或 Internet 电话服务提供商的 SBC）的交互，包括 E9-1-1 服务商会
+中介服务器扩展了某些功能，从而可以正确地与增强型 9-1-1 (E9-1-1) 服务提供商进行交互。 中介服务器上不需要特殊配置;默认情况下，E9-1-1 交互所需的 SIP 扩展包括在中介服务器的 SIP 协议中，以用于与网关对等方（PSTN 网关、ip-pbx 或 Internet 电话服务提供商的 SBC，包括 E9-1-1 服务）的交互。商会
 
-是否可以在现有中介服务器池上终止 E9 服务提供商的 SIP 主干，或者是否需要独立中介服务器将取决于 E9 SBC 是否可以与中介服务器池进行交互。 有关详细信息，请参阅[Lync Server 2013 中的 M:N 主干](lync-server-2013-m-n-trunk.md)。
+到 E9-1-1 服务提供商的 SIP 中继是可以在现有中介服务器池上终止，还是需要独立的中介服务器将取决于 E9-1-1 SBC 能否与中介服务器池进行交互。 有关详细信息，请参阅[Lync Server 2013 中的 M:N 中继](lync-server-2013-m-n-trunk.md)。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d29082fd4f2e988d586501d4d867be0dc23a0c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1eb64fe83eb6f80c6470ba4173bcc968d44fb54a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765963"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765963"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-14_
+_**上次修改的主题：** 2013-02-14_
 
     This topic applies to deployments supporting Lync 2010 Lync Mobile clients only, and is intended for the Mobility Service (Mcx).
 
-为 Lync Server 移动服务（Mcx）启用 Internet 信息服务（IIS）请求跟踪时，生成的日志文件最多可以消耗 3 gb 的磁盘空间。 默认情况下，IIS 跟踪日志记录已启用。 应监视前端服务器，以确保它们不会用尽磁盘空间。
+当您为 Lync Server 移动服务（Mcx）启用 Internet Information Services （IIS）请求跟踪时，生成的日志文件的每天最大可能占用 3 gb 的磁盘空间。 默认情况下，IIS 跟踪日志记录已启用。 应监视前端服务器，以确保它们不会用尽磁盘空间。
 
-默认情况下，IIS 将日志文件存储在% SystemDrive\\%\\inetpub\\日志日志文件中。
+默认情况下，IIS 将日志文件存储在% 系统驱动器\\%\\inetpub\\日志日志文件中。
 
 若要对整个服务器禁用 IIS 请求跟踪，请在命令行中键入：
 

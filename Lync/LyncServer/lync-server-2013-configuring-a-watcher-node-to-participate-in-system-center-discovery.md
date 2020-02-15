@@ -12,16 +12,16 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ca3724f9b5bc8200e2ca006d9fa7445d7368ab7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7a90f07b445da792e0bc3b22967e41d8cd8d2fcc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763486"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763486"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-22_
+_**上次修改的主题：** 2012-10-22_
 
-若要确保你的观察程序节点参与 System Center Operations Manager 的发现过程，必须在已安装 System Center Operations Manager 控制台的计算机上完成以下过程：
+若要确保您的观察程序节点参与到 System Center Operations Manager 的发现过程，必须在已安装 System Center Operations Manager 控制台的计算机上完成以下过程：
 
-1.  在 "**管理**" 选项卡上，单击 "**代理托管**"。
+1.  在“管理”**** 选项卡上，单击“代理托管”****。
 
-2.  右键单击观察程序节点计算机的名称，然后单击 "**属性**"。 在 "**属性**" 对话框中的 "**安全**" 选项卡上，选择 "**允许此代理充当代理并发现其他计算机上的托管对象**"，然后单击 **"确定"**。
+2.  右键单击观察程序节点计算机的名称，然后单击“属性”****。在“属性”**** 对话框的“安全性”**** 选项卡上，选择“允许此代理充当代理并发现其他计算机上的托管对象”****，然后单击“确定”****。
 
-将观察程序节点配置为用作代理后，重新启动观察程序节点计算机。 重新启动计算机后，请验证该计算机上的 Operations Manager 事件日志中未记录任何错误事件。 当计算机运行15分钟或更长时间后，请使用 Operations Manager 控制台验证 lync 服务器计算机是否在**lync**类别下列出。
+在将观察程序节点配置为充当代理之后，重新启动观察程序节点计算机。 重新启动计算机后，验证该计算机上的 Operations Manager 事件日志中未记录任何错误事件。 在计算机运行15分钟或更长时间后，请使用 Operations Manager 控制台验证 lync Server 计算机是否列在**lync**类别下。
 
 </div>
 

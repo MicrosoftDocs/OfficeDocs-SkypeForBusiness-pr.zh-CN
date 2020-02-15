@@ -12,16 +12,16 @@ ms:contentKeyID: 48185174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 770107bb4f7fafc4b1d43db8a5bdfcd3efef63e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 25bf5b464b8bda91d2374811d3c727154d1ceccc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728592"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,76 +35,76 @@ ms.locfileid: "41728592"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-09_
+_**上次修改的主题：** 2012-10-09_
 
-数据库和管理服务器 cmdlet 用于管理 Microsoft Lync Server 2013 后端数据库和前端管理服务。 除了为中央管理存储配置 Active Directory 服务控制点之外，你可以使用这些 cmdlet 来安装或卸载 Lync Server 2013 使用的任何数据库。
+数据库和管理服务器 cmdlet 用于管理 Microsoft Lync Server 2013 后端数据库和前端管理服务。 除了为中央管理存储配置 Active Directory 服务控制点之外，您还可以使用这些 cmdlet 来安装或卸载 Lync Server 2013 使用的任何数据库。
 
 <div>
 
 ## <a name="database-and-management-server-cmdlets"></a>数据库和管理服务器 Cmdlet
 
-以下是与管理数据库和管理服务器直接相关的 cmdlet 的列表：
+以下是与管理数据库和管理服务器直接相关的 cmdlet 列表：
 
 **数据库和管理服务器**
 
   - <span></span>  
-    [Get-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg412814(v=OCS.15))
+    [CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg412814(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg398214(v=OCS.15))
+    [CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398214(v=OCS.15))
 
   - <span></span>  
-    [Set-CsConfigurationStoreLocation](https://technet.microsoft.com/en-us/library/Gg398258(v=OCS.15))
+    [CsConfigurationStoreLocation](https://technet.microsoft.com/library/Gg398258(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [安装-CsDatabase](https://technet.microsoft.com/en-us/library/Gg399044(v=OCS.15))
+    [Install-CsDatabase](https://technet.microsoft.com/library/Gg399044(v=OCS.15))
 
   - <span></span>  
-    [Test-CsDatabase](https://technet.microsoft.com/en-us/library/JJ204839(v=OCS.15))
+    [Test-CsDatabase](https://technet.microsoft.com/library/JJ204839(v=OCS.15))
 
   - <span></span>  
-    [Uninstall-CsDatabase](unhttps://technet.microsoft.com/en-us/library/Gg399044(v=OCS.15))
+    [卸载-CsDatabase](unhttps://technet.microsoft.com/library/Gg399044(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsDatabaseFailover](https://technet.microsoft.com/en-us/library/JJ204744(v=OCS.15))
+  - [调用 CsDatabaseFailover](https://technet.microsoft.com/library/JJ204744(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsDatabaseMirrorState](https://technet.microsoft.com/en-us/library/JJ204845(v=OCS.15))
+  - [CsDatabaseMirrorState](https://technet.microsoft.com/library/JJ204845(v=OCS.15))
 
 <!-- end list -->
 
-  - [Install-CsMirrorDatabase](https://technet.microsoft.com/en-us/library/JJ204986(v=OCS.15))
+  - [Install-CsMirrorDatabase](https://technet.microsoft.com/library/JJ204986(v=OCS.15))
 
-  - [Uninstall-CsMirrorDatabase](unhttps://technet.microsoft.com/en-us/library/JJ204986(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsUserDatabaseState](https://technet.microsoft.com/en-us/library/Gg398831(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsUserDatabaseState](https://technet.microsoft.com/en-us/library/Gg412973(v=OCS.15))
+  - [卸载-CsMirrorDatabase](unhttps://technet.microsoft.com/library/JJ204986(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Update-CsUserDatabase](https://technet.microsoft.com/en-us/library/Gg398682(v=OCS.15))
+    [CsUserDatabaseState](https://technet.microsoft.com/library/Gg398831(v=OCS.15))
+
+  - <span></span>  
+    [CsUserDatabaseState](https://technet.microsoft.com/library/Gg412973(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Move-CsManagementServer](https://technet.microsoft.com/en-us/library/Gg412921(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsManagementServer](https://technet.microsoft.com/en-us/library/Gg398465(v=OCS.15))
+    [更新-CsUserDatabase](https://technet.microsoft.com/library/Gg398682(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsManagementServerFailover](https://technet.microsoft.com/en-us/library/JJ204647(v=OCS.15))
+  - <span></span>  
+    [移动-Move-csmanagementserver](https://technet.microsoft.com/library/Gg412921(v=OCS.15))
+
+  - <span></span>  
+    [Move-csmanagementserver](https://technet.microsoft.com/library/Gg398465(v=OCS.15))
+
+<!-- end list -->
+
+  - [调用 CsManagementServerFailover](https://technet.microsoft.com/library/JJ204647(v=OCS.15))
 
 </div>
 

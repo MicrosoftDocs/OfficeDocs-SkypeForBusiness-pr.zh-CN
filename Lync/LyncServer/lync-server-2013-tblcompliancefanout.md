@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblComplianceFanout
+title: Lync Server 2013： tblComplianceFanout
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 196911f4fdcb7f2713ed25cca114ff9954b0c6e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c535dc860c5d1a8725d27217e8269c3d6c4902d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764208"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764208"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
 tblComplianceFanout 包含处理合规性事件的所有服务器。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -63,13 +63,13 @@ tblComplianceFanout 包含处理合规性事件的所有服务器。
 <tr class="even">
 <td><p>fanoutServerID</p></td>
 <td><p>int</p></td>
-<td><p>服务器标识（对应于 tblServerIdentity 表）。</p></td>
+<td><p>服务器标识（与 tblServerIdentity.serverID 表对应）。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>关键字
+### <a name="key"></a>键
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ tblComplianceFanout 包含处理合规性事件的所有服务器。
 <tbody>
 <tr class="odd">
 <td><p>fanoutEventID</p></td>
-<td><p>TblComplianceData 表中的 lookup 的外键。</p></td>
+<td><p>其查找包含在 tblComplianceData.cmplEventID 表中的外键。</p></td>
 </tr>
 </tbody>
 </table>

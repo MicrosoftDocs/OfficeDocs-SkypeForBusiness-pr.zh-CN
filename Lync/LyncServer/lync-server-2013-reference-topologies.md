@@ -12,16 +12,16 @@ ms:contentKeyID: 48183544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bc7f3838cef5689cab0a81b59556c147f3588c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 145b5855f4576e68517e4bd837671000fb4a97e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724412"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41724412"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-05-21_
+_**上次修改的主题：** 2012-05-21_
 
-最理想的 Lync 服务器拓扑取决于您的组织的规模、要部署的工作负荷以及高可用性与投资成本的首选项。
+最理想的 Lync Server 拓扑取决于组织的规模、要部署的工作负荷以及高可用性与投资成本的首选项。
 
-以下主题概括介绍了三个参考拓扑，包括推动每个拓扑的要求的许多决策背后的理由。
+以下主题概述了三种参考拓扑，包括多种决策背后的推论，这些决策推动了对每个拓扑的要求。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [小型组织中 Lync Server 2013 的参考拓扑](lync-server-2013-reference-topology-for-small-organizations.md)
 
-  - [中型组织中的 Lync Server 2013 参考拓扑](lync-server-2013-reference-topology-for-medium-size-organizations.md)
+  - [中型组织中 Lync Server 2013 的参考拓扑](lync-server-2013-reference-topology-for-medium-size-organizations.md)
 
-  - [具有多数据中心的大型组织中的 Lync Server 2013 参考拓扑](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
+  - [具有多个数据中心的大型组织中 Lync Server 2013 的参考拓扑](lync-server-2013-reference-topology-for-large-organizations-with-multiple-data-centers.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8cd36f651a84b25f7e8163a8cfc40aff5162f90
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa902b9e4d53bf0ebbedf835296a371437860095
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724792"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724792"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-22_
+_**上次修改的主题：** 2012-10-22_
 
-在 Microsoft Lync Server 2013 中，PSTN 会议是指至少有一位参与者通过使用 PSTN （公共交换电话网络）电话拨入音频部分的任何会议。 （PSTN 电话是一种 "座机"、一种手机或任何其他未使用通过 IP 语音的电话。）尽管在监视报告中称为 PSTN 会议，但这些会议可能更常见，也称为拨入式会议。
+在 Microsoft Lync Server 2013 中，PSTN 会议是指至少有一个参与者通过使用 PSTN （公用电话交换网）电话拨打到音频部分的任何会议。 （PSTN 电话是一种 "座机"、一种蜂窝电话，或任何其他不使用 IP 语音的电话）。尽管这些会议在监控报告中称为 PSTN 会议，但这些会议可能更常称为电话拨入式会议。
 
 PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（即，所有至少有一个电话拨入式用户的会议）的信息。此报告包括有关 PSTN 会议总数和参与这些会议的人员总数的信息，并且可能包括有关电话拨入式用户的总数（PSTN 参与者指标总计）的信息（此信息最重要）。
 
@@ -53,13 +53,13 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>最充分地利用 PSTN 会议摘要报告
 
-若要确定包括拨入用户的所有会议的百分比，请将 PSTN 会议总指标的值与[Lync Server 2013 中 "会议摘要" 报表](lync-server-2013-conference-summary-report.md)上的 "总会议跃点数" 进行比较。
+若要确定包括拨入用户的所有会议的百分比，请将 "PSTN 会议总数" 的值与[Lync Server 2013 中 "会议摘要" 报告中](lync-server-2013-conference-summary-report.md)找到的 "总会议" 指标进行比较。
 
-如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。 你可以通过从 Lync Server 命令行管理程序中运行以下命令，快速验证你的会议策略（如果有）允许用户安排 PSTN 会议：
+如果您未看到所预计数目的 PSTN 会议，请记住，组织允许电话拨入式用户的会议的能力取决于已分配给用户的会议策略：如果仅允许几个用户主持 PSTN 会议，则可以明显看到 PSTN 会议的数目极少。您可以快速确定哪个会议策略（如果有）允许用户通过从 Lync Server 命令行管理程序中运行以下命令来计划 PSTN 会议：
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
-这将返回与以下类似的数据：
+这将返回与以下内容类似的数据：
 
     Identity                                EnableDialInConferencing
     --------                                ------------------------
@@ -69,7 +69,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
     Tag:RedmondDialInUsers                                      True
     Tag:DublinDialInUsers                                       True
 
-这将返回与以下类似的数据：
+这将返回与以下内容类似的数据：
 
 </div>
 
@@ -77,7 +77,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 
 ## <a name="filters"></a>筛选器
 
-利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。 例如，PSTN 会议摘要报告允许你选择数据的分组方式。 在此示例中，将按小时、日、周或月对会议进行分组。
+利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，PSTN 会议摘要报告允许您选择数据的分组方式。在此示例中，将按小时、日、周或月对会议进行分组。
 
 下表列出了可用于 PSTN 会议摘要报告的筛选器。
 
@@ -96,27 +96,27 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>从</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>到</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>间隔</strong></p></td>
+<td><p><strong>Interval</strong></p></td>
 <td><p>时间间隔。选择下列选项之一：</p>
 <ul>
 <li><p>每小时（最多可显示 25 个小时）</p></li>
@@ -124,7 +124,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。例如，如果选择的开始日期为 8/7/2012、结束日期为 9/28/2012、间隔为“每天”，则显示从 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 这些天的数据（即总共 31 天的数据）。</p></td>
 </tr>
 </tbody>
 </table>
@@ -150,7 +150,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -160,7 +160,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 <p><strong>每周</strong></p>
 <p><strong>每月</strong></p></td>
 <td><p>否</p></td>
-<td><p>指示所选的时间间隔。 如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。 例如，如果你使用的是每日间隔，并且单击 "7/7/2012"，你将看到该日期的用户注册活动的每小时细目。</p></td>
+<td><p>指示所选的时间间隔。如果适用，可单击某一给定的时间间隔以查看该间隔的详细信息。例如，如果使用“每天”间隔并单击 7/7/2012，则可查看当日用户注册活动的每小时细分信息。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PSTN 会议总数</strong></p></td>

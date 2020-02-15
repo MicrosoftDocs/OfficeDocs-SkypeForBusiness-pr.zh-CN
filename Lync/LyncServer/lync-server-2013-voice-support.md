@@ -12,16 +12,16 @@ ms:contentKeyID: 48185436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa45aef591c7a8b1ab76c42fa7791adbefee13b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a696d0ad9ece8d807011c4ff40463b2c574ef81d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758564"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41758564"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-29_
+_**上次修改的主题：** 2012-06-29_
 
-如果你的部署包含前端池，你可以部署 Microsoft 提供的针对企业语音的支持（VoIP）解决方案。 IP 语音（VoIP）是基于软件替代传统的基于 PBX 的电话。 尽管 VoIP 呼叫体验类似于传统的电话服务体验，但企业语音包括支持更丰富的通信和协作的功能。 例如，可以将企业语音部署配置为允许 Lync 2013 和 Lync Phone Edition 用户查看您组织的通讯簿中的联系人的增强状态信息或位置信息。 通过与其他 Lync Server 2013 工作负荷和 Exchange 统一消息（UM）集成，可启用某些 Lync Server 2013 功能。 有关企业语音可用的功能和功能以及如何规划部署的详细信息，请参阅规划文档中的[Lync Server 2013 中的 "规划企业语音](lync-server-2013-planning-for-enterprise-voice.md)"。
+如果部署包括前端池，则可以部署企业语音支持和 Microsoft 提供的 IP 语音 (VoIP) 解决方案。 IP 语音 (VoIP) 基于软件，可以替代基于 PBX 的传统电话。 尽管 VoIP 呼叫体验类似于传统电话体验，但企业语音还包括更丰富的通信和协作功能。 例如，可以将企业语音部署配置为允许 Lync 2013 和 Lync Phone Edition 用户查看组织通讯簿中联系人的增强状态信息或位置信息。 通过与其他 Lync Server 2013 工作负荷和 Exchange 统一消息（UM）集成，可启用某些 Lync Server 2013 功能。 有关企业语音可用的功能和功能以及如何规划部署的详细信息，请参阅规划文档中的在[Lync Server 2013 中规划企业语音](lync-server-2013-planning-for-enterprise-voice.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的 SIP 中继支持](lync-server-2013-sip-trunking-support.md)
 
   - [Lync Server 2013 中的直接 SIP 连接支持](lync-server-2013-direct-sip-connections-support.md)
 
-  - [Lync Server 2013 中的 Exchange 统一消息 (UM) 支持](lync-server-2013-exchange-unified-messaging-um-support.md)
+  - [Lync Server 2013 中的 Exchange 统一消息（UM）支持](lync-server-2013-exchange-unified-messaging-um-support.md)
 
   - [Lync Server 2013 中的 E9-1-1 支持](lync-server-2013-e9-1-1-support.md)
 

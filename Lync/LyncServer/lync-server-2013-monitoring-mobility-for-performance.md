@@ -12,20 +12,20 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53bd9c3450617d4fd1db54b52efe0b0938c84c8b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 131a6a4dd6fffb3081ff2b1dee58318afd525eaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756816"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>在 Lync Server 2013 中监视移动性能
+# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>在 Lync Server 2013 中监视移动性以提高性能
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756816"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-14_
+_**上次修改的主题：** 2013-02-14_
 
-Lync Server 移动服务（Mcx）和统一通信 Web API （UCWA）增加前端服务器和前端池的负载。 即使在移动应用程序被最小化的情况下也保持与服务器的连接的移动设备（如运行 Lync 2010 Mobile 的 Android 和 Nokia 设备）以及运行 Lync 2013 移动设备的 Android 和 Apple 设备的负载比当移动应用程序最小化时，终止与服务器的连接。 随着移动性用途的增加，您必须监视移动性性能以确定何时需要增加容量。
+Lync Server 移动服务（Mcx）和统一通信 Web API （UCWA）增加了前端服务器和前端池的负载。 即使在移动应用程序已最小化（如运行 Lync 2010 Mobile 的 Android 和 Nokia 设备，以及运行 Lync 2013 移动的 Android 和 Apple 设备）的情况下，仍会保持与服务器的连接的移动设备会带来更多负载，而不是设备在移动应用程序最小化时终止与服务器的连接。 随着移动性使用的增加，您必须监视移动性性能，以确定何时需要增加容量。
 
 有几项限制会影响移动性能：
 
@@ -49,17 +49,17 @@ Lync Server 移动服务（Mcx）和统一通信 Web API （UCWA）增加前端�
 
   - IIS 队列长度
 
-对可能影响移动性能的服务器的其他限制是最多12个并发登录、身份验证、会话续订和终止。 对于大多数部署，无需修改这些最大值。
+对可能影响移动性能的服务器的其他限制是最多同时有12项登录、身份验证、会话续订和终止。 对于大多数部署，无需修改这些最大值。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中监视服务器内存容量限制](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
 
   - [在 Lync Server 2013 中监视移动服务和 UCWA 使用情况](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
 
-  - [在 Lync Server 2013 中配置高性能的移动服务](lync-server-2013-configuring-mobility-service-for-high-performance.md)
+  - [在 Lync Server 2013 中配置移动服务以实现高性能](lync-server-2013-configuring-mobility-service-for-high-performance.md)
 
   - [在 Lync Server 2013 中监视 IIS 请求跟踪日志文件](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
 

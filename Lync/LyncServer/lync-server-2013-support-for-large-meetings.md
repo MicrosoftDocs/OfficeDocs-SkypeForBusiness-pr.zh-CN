@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 大型会议支持
+title: Lync Server 2013 支持大型会议
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6a8da2c58cc650fa0d2ddb7fe71ba62b4b29af9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 705640e7bd75292f67ed0dcd551db83a61dc7fd4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731742"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="support-for-large-meetings-in-lync-server-2013"></a>Lync Server 2013 中的大型会议支持
+# <a name="support-for-large-meetings-in-lync-server-2013"></a>在 Lync Server 2013 中支持大型会议
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41731742"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-Lync Server 2013 可以支持最多1000个参与者使用音频/视频（A/V）会议的会议，包括共享 PowerPoint 演示文稿。 若要实现此支持，需要配置专用池来支持大型会议，并且需要以某种方式管理该池以确保一次仅主持一个大型会议。
+Lync Server 2013 可以通过音频/视频（A/V）会议（包括共享 PowerPoint 演示文稿）支持最高为1000个参与者的会议。 若要实现此支持，需要配置一个专用池以支持大型会议，并且需要以某种方式管理该池以确保一次仅主持一个大型会议。
 
-本部分介绍如何使用专用 Lync Server 2013 池支持大型会议。 它介绍了可伸缩性注意事项和针对专用池的实现要求，包括拓扑、硬件、软件和配置要求。 它还提供了一组最佳做法建议，用于支持大型会议、由 Lync Server 工程团队执行的服务器可伸缩性测试的测试方法和结果的摘要以及有关支持的常见问题的答案适用于大型会议。
+本节介绍如何使用专用 Lync Server 2013 池来支持大型会议。 其中介绍了可伸缩性注意事项和专用池的实现要求，包括拓扑、硬件、软件和配置要求。 它还提供了一组用于支持大型会议的最佳实践建议、Lync Server 工程团队执行的服务器可伸缩性测试的测试方法和结果摘要以及有关支持的常见问题的解答对于大型会议。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的会议可伸缩性概述](lync-server-2013-conferencing-scalability-overview.md)
 
   - [使用 Lync Server 2013 支持大型会议](lync-server-2013-supporting-large-meetings.md)
 
-  - [适用于 Lync Server 2013 的大型会议支持常见问题](lync-server-2013-large-meeting-support-faq.md)
+  - [Lync Server 2013 的大型会议支持常见问题解答](lync-server-2013-large-meeting-support-faq.md)
 
 </div>
 

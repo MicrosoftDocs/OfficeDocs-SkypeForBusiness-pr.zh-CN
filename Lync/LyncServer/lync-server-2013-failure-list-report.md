@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： "失败列表" 报表
+title: Lync Server 2013：故障列表报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 370008a5b33cc7eb45802fb02bdd9a873184ed5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f9cd8d15e81a54085624fab2dc751759d8196c48
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765160"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a>Lync Server 2013 中的 "故障列表" 报表
+# <a name="failure-list-report-in-lync-server-2013"></a>Lync Server 2013 中的故障列表报告
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765160"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-07-02_
+_**上次修改的主题：** 2012-07-02_
 
-故障列表报告提供有关参加失败的对等会话或会议会话的各个参与者的信息。此信息包括遇到问题的用户的 URI，以及与故障相关联的 SIP 响应代码和诊断 ID。
+故障列表报告提供了有关在发生故障的对等会话或会议会话中参与的各个参与者的信息。 此信息包括遇到问题的用户的 URI，以及与故障相关联的 SIP 响应代码和诊断 ID。
 
 <div>
 
 ## <a name="accessing-the-failure-list-report"></a>访问故障列表报告
 
-通过[在 Lync Server 2013 中的 "失败分发报告](lync-server-2013-failure-distribution-report.md)" 上单击以下任一指标可访问 "故障列表" 报告：
+可通过[在 Lync Server 2013 的故障分布报告中](lync-server-2013-failure-distribution-report.md)单击以下任一指标来访问故障列表报告：
 
   - 主要诊断原因（会话）
 
@@ -61,7 +61,7 @@ _**主题上次修改时间：** 2012-07-02_
 
   - 主要来源用户代理（会话）
 
-在 "故障列表" 报表中，通过单击对等会话的会话详细信息指标，可以[在 Lync Server 2013 中访问对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。 也可以单击会议的”会议“指标，以访问会议详细信息报告。
+从故障列表报告中，您可以通过单击对等会话的会话详细信息指标，[在 Lync Server 2013 中访问对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)。 您还可以通过单击会议的会议指标来访问会议详细信息报告。
 
 </div>
 
@@ -69,16 +69,16 @@ _**主题上次修改时间：** 2012-07-02_
 
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>充分利用故障列表报告
 
-在故障列表报告中，您只需将鼠标置于每个响应代码或每个诊断 ID 上，即可查看它们的说明。例如，如果您将鼠标置于诊断 ID 7025 上，则将会看到在工具提示中显示以下内容：
+在故障列表报告中，您只需将鼠标悬停在此值上即可查看每个响应代码或每个诊断 ID 的说明。 例如，如果将鼠标悬停在诊断 ID 7025 上，则会看到工具提示中显示以下内容：
 
-为用户创建媒体时发生内部服务器错误。
+为用户创建媒体时出现内部服务器错误。
 
-务必注意，故障列表报告并未提供一种简单直观的方式来直接检索至少参加一次失败会话的所有用户列表，也未提供一种用来确定失败会话中最常涉及哪些用户的方法。 （对于一种情况，"失败列表" 报表没有筛选功能。）但是，如果你导出数据，然后将其转换为逗号分隔值文件，则可以使用 Windows PowerShell 查找类似问题的答案。 例如，假设您将数据保存到。名为 C：\\数据\\故障\_列表 .csv 的 CSV 文件。 根据该文件中所保存的数据，以下命令会列出至少一次失败会话中所涉及的所有用户：
+请务必注意，故障列表报告不提供直接检索至少参与一个失败会话的所有用户的列表的简单方法，也不会提供一种方法来确定哪些用户在发生故障时最常参与本次. （一件事，故障列表报告没有筛选功能。）但是，如果导出数据，然后将其转换为逗号分隔值文件，则可以使用 Windows PowerShell 查找类似问题的答案。 例如，假设您将数据保存到。名为 C：\\数据\\故障\_列表 .csv 的 CSV 文件。 根据保存在该文件中的数据，此命令将列出至少一个失败的会话中涉及的所有用户：
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
-该命令将返回与以下类似的列表：
+该命令将返回类似于以下的列表：
 
     From user
     ----
@@ -88,12 +88,12 @@ _**主题上次修改时间：** 2012-07-02_
     David.Ahs@litwareinc.com
     Ken.Myer@litwareinc.com
 
-以下两个命令将返回涉及每个用户的失败会话总数：
+这两个命令返回每个用户参与的失败会话总数：
 
     $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
     $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 
-这将返回与以下类似的数据：
+这将返回与以下内容类似的数据：
 
     Count    Name
      -----    ----
@@ -109,7 +109,7 @@ _**主题上次修改时间：** 2012-07-02_
 
 ## <a name="filters"></a>筛选器
 
-无。您无法筛选故障列表报告。
+无。 无法筛选故障列表报告。
 
 </div>
 
@@ -117,7 +117,7 @@ _**主题上次修改时间：** 2012-07-02_
 
 ## <a name="metrics"></a>指标
 
-下表列出了各失败呼叫的故障列表报告中提供的信息。
+下表列出了每个失败呼叫的故障列表报告中提供的信息。
 
 ### <a name="failure-list-report-metrics"></a>故障列表报告指标
 
@@ -131,7 +131,7 @@ _**主题上次修改时间：** 2012-07-02_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -143,7 +143,7 @@ _**主题上次修改时间：** 2012-07-02_
 <tr class="even">
 <td><p><strong>请求</strong></p></td>
 <td><p>否</p></td>
-<td><p>失败的 SIP 请求类型。例如 INVITE 或 BYE。</p></td>
+<td><p>失败的 SIP 请求类型。 例如 INVITE 或 BYE。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>响应代码</strong></p></td>
@@ -168,12 +168,12 @@ _**主题上次修改时间：** 2012-07-02_
 <tr class="odd">
 <td><p><strong>源用户代理</strong></p></td>
 <td><p>否</p></td>
-<td><p>呼叫发起用户的终结点使用的软件。</p></td>
+<td><p>启动呼叫的用户的终结点使用的软件。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>目标用户</strong></p></td>
 <td><p>否</p></td>
-<td><p>被呼叫用户的 SIP 地址。</p></td>
+<td><p>被呼叫的用户的 SIP 地址。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa633bb9a1d5abcf34feb027b3fd364c5ad6b4cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43a4c63851e45ea1763650d8e908427672bd7fbf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755646"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755646"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-03-21_
+_**上次修改的主题：** 2012-03-21_
 
-这些 cmdlet 提供管理不适合服务器角色类别（如 Edge 服务器或通讯簿服务器）的 "一次性" 服务器角色（如会议服务器）的方法。
+这些 cmdlet 提供了管理未纳入服务器角色类别（如边缘服务器或通讯簿服务器）的“一次性”服务器角色（如会议服务器）的方法。
 
 <div>
 
 ## <a name="other-server-role-and-cmdlets"></a>其他服务器角色和 Cmdlet
 
-以下是与管理其他服务器角色和服务直接相关的 cmdlet 的列表：
+以下是与管理其他服务器角色和服务直接相关的 cmdlet 列表：
 
 **其他服务器角色**
 
   - <span></span>  
-    [Set-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))
+    [CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))
+    [CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))
 
 </div>
 

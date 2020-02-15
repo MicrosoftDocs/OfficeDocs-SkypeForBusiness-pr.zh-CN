@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：ConferenceUris 表
+title: Lync Server 2013： ConferenceUris 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacbaf4e8c7c826ae2e00e9c86b44cc8387f315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 143e2b44c5b5ddd9cbf630ac17267e0747029aed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741572"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741572"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-05-25_
+_**上次修改的主题：** 2012-05-25_
 
-ConfereneUris 表是一个支持表，用于存储参与数据库中记录的会议会话的各种会议 Uri 的列表。 表中的每条记录表示一个会议 URI。
+ConfereneUris 表是一个支持表，用于存储已参与数据库中记录的会议会话的各种会议 URI 列表。表中的每条记录代表一个会议 URI。
 
 
 <table>
@@ -59,14 +59,14 @@ ConfereneUris 表是一个支持表，用于存储参与数据库中记录的会
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primary</p></td>
-<td><p>时间戳，内部使用。</p></td>
+<td><p>主</p></td>
+<td><p>内部使用的时间戳。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识此会议 URI 的唯一号码。</p></td>
+<td><p>主</p></td>
+<td><p>标识此会议 URI 的唯一编号。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUri</strong></p></td>
@@ -75,16 +75,16 @@ ConfereneUris 表是一个支持表，用于存储参与数据库中记录的会
 <td><p>会议 URI。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>检查</strong></p></td>
+<td><p><strong>校验和</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>ConferenceUri 的校验和。 用于提高数据库搜索的速度。</p></td>
+<td><p>ConferenceUri 的校验和。用于增加数据库搜索的速度。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外表</p></td>
-<td><p>URI 类型，例如会议：用于即时消息会议的聊天或会议：音频-音频/视频会议的视频。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 表中的 UriTypes 表</a>。</p></td>
+<td><p>对外</p></td>
+<td><p>URI 类型，如 conf:chat 代表 IM 会议，conf:audio-video 代表音频/视频会议。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 表中的 UriTypes 表</a>。</p></td>
 </tr>
 </tbody>
 </table>

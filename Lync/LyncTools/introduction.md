@@ -12,16 +12,16 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 893205127b6b1ccba958a0882c3aa0d1360a7c06
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a3674742cedbdfb267326e0170703f3fbc3ba3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730562"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730562"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-24_
+_**上次修改的主题：** 2013-02-24_
 
-Lync Server 2013 应力和性能工具（称为 LyncPerfTool）可模拟以下类型的用户负载：
+Lync Server 2013 压力和性能工具（称为 "LyncPerfTool"）可以模拟用户对以下类型的负载：
 
 
 <table>
@@ -47,12 +47,12 @@ Lync Server 2013 应力和性能工具（称为 LyncPerfTool）可模拟以下�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>即时消息（IM）和状态</p></td>
+<td><p>即时消息 (IM) 和状态</p></td>
 <td><p>音频会议</p></td>
 </tr>
 <tr class="even">
 <td><p>应用程序共享</p></td>
-<td><p>IP 语音（VoIP），包括公共交换电话网络（PSTN）模拟</p></td>
+<td><p>IP 语音（VoIP），包括公用电话交换电话网络（PSTN）模拟</p></td>
 </tr>
 <tr class="odd">
 <td><p>Web Access 客户端会议</p></td>
@@ -60,11 +60,11 @@ Lync Server 2013 应力和性能工具（称为 LyncPerfTool）可模拟以下�
 </tr>
 <tr class="even">
 <td><p>响应组</p></td>
-<td><p>通讯组列表扩展</p></td>
+<td><p>通讯组列表展开</p></td>
 </tr>
 <tr class="odd">
 <td><p>通讯簿下载和通讯簿查询</p></td>
-<td><p>增强的9-1-1 （E9-1）呼叫和位置配置文件（拨号计划）</p></td>
+<td><p>增强型9-1-1 （E9-1-1）呼叫和位置配置文件（拨号计划）</p></td>
 </tr>
 <tr class="even">
 <td><p>重视</p></td>
@@ -78,15 +78,15 @@ Lync Server 2013 应力和性能工具（称为 LyncPerfTool）可模拟以下�
 </table>
 
 
-Lync Server 2013 应力和性能工具仅支持通过高级配置进行跨池负载生成和联盟。
+Lync Server 2013 压力和性能工具仅支持通过高级配置的跨池负载生成和联盟。
 
-该工具还不会模拟以下客户端的用户负载：
+该工具也不会模拟以下客户端的用户负载：
 
   - Office Live Meeting 2007
 
   - Lync 2013 持久聊天
 
-因此，Lync Server 2013 应力和性能工具将不支持测试以下组件：
+因此，Lync Server 2013 的压力和性能工具将不支持测试以下组件：
 
   - Lync 2013 持久聊天
 
@@ -94,9 +94,9 @@ Lync Server 2013 应力和性能工具仅支持通过高级配置进行跨池负
 
 <div>
 
-## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 应力和性能工具附带的应用程序和文件
+## <a name="applications-and-files-included-with-the-lync-server-2013-stress-and-performance-tool"></a>Lync Server 2013 压力和性能工具附带的应用程序和文件
 
-Lync Server 2013 应力和性能工具中包含下列应用程序：
+Lync Server 2013 压力和性能工具中包含以下应用程序：
 
 
 <table>
@@ -121,14 +121,14 @@ Lync Server 2013 应力和性能工具中包含下列应用程序：
 </tr>
 <tr class="odd">
 <td><p>LyncPerfTool</p></td>
-<td><p>Lync Server 2013 应力和性能工具。 LyncPerfTool 是模拟用户负载的工具。</p></td>
+<td><p>Lync Server 2013 压力和性能工具。 LyncPerfTool 是模拟用户负载的工具。</p></td>
 </tr>
 <tr class="even">
 <td><p>默认的 tmx</p></td>
-<td><p>使用 Lync Server 2013 日志记录工具需要使用默认的 tmx。</p></td>
+<td><p>默认情况下，使用 Lync Server 2013 日志记录工具时需要使用 tmx。</p></td>
 </tr>
 <tr class="odd">
-<td><p>预配脚本示例</p></td>
+<td><p>示例预配脚本</p></td>
 <td><p>这些示例用于根据特定方案配置用于运行负载测试的拓扑</p></td>
 </tr>
 </tbody>

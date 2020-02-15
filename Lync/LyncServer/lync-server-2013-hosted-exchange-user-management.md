@@ -12,16 +12,16 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23289399e4eee4a654b41f2978191a6329739b4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16b2716bee52902f55160e770df36801d18f1b78
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738982"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738982"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-18_
+_**上次修改的主题：** 2012-10-18_
 
-若要为 Lync Server 2013 用户提供其邮箱位于托管 Exchange 服务上的语音邮件服务，必须为托管语音邮件启用其用户帐户。
+若要为其邮箱位于托管 Exchange 服务上的 Lync Server 2013 用户提供语音邮件服务，必须为其用户帐户启用托管语音邮件。
 
 <div>
 
 
 > [!NOTE]  
-> 在 Lync Server 2013 用户可启用托管语音邮件之前，必须部署适用于相应用户帐户的托管语音邮件策略。 策略可以是全局、网站或每用户在范围内，只要它适用于要启用的用户。 有关详细信息，请参阅<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。
+> 在可以对 Lync Server 2013 用户启用托管语音邮件之前，必须部署适用于相应用户帐户的托管语音邮件策略。 该策略的作用域可以是 global、site 或每用户，只要适用于要启用的用户即可。 有关详细信息，请参阅<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。
 
 
 
@@ -51,15 +51,15 @@ _**主题上次修改时间：** 2012-10-18_
 
 <div>
 
-## <a name="the-msexchucvoicemailsettings-attribute"></a>MsExchUCVoiceMailSettings 属性
+## <a name="the-msexchucvoicemailsettings-attribute"></a>msExchUCVoiceMailSettings 属性
 
-Lync Server 2013 引入了名为**msExchUCVoiceMailSettings**的新用户属性，该属性是作为 Lync Server 2013 Active Directory 架构准备的一部分创建的。 此多值属性包含由 Lync Server 2013 和托管 Exchange 服务共享的语音邮件设置。
+Lync Server 2013 引入了一个名为**msExchUCVoiceMailSettings**的新用户属性，该属性是作为 Lync Server 2013 Active Directory 架构准备的一部分创建的。 此多值属性保存由 Lync Server 2013 和托管 Exchange 服务共享的语音邮件设置。
 
-在某些情况下，托管 Exchange 服务可能会在启用 Exchange UM 的过程中或在将邮箱传输到托管 Exchange 服务器的过程中设置 msExchUCVoiceMailSettings 属性的值。 如果此属性不是由 Exchange 设置的，则 Lync Server 2013 管理员必须通过运行 Move-csuser cmdlet 来设置它，如本主题中前面所述。
+在某些情况下，托管 Exchange 服务可能会在启用 Exchange UM 或在将邮箱传输到托管 Exchange Server 的过程中设置 msExchUCVoiceMailSettings 属性的值。 如果 Exchange 不设置此属性，则 Lync Server 2013 管理员必须通过运行 Get-csuser cmdlet 来设置它，如本主题前面所述。
 
-属性的键/值对及其作者如下表所示。
+该属性的键/值对及其作者显示在下表中。
 
-### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>MsExchUCVoiceMailSettings 属性键/值对
+### <a name="the-msexchucvoicemailsettings-attribute-keyvalue-pairs"></a>msExchUCVoiceMailSettings 属性键/值对
 
 <table>
 <colgroup>
@@ -70,7 +70,7 @@ Lync Server 2013 引入了名为**msExchUCVoiceMailSettings**的新用户属性�
 <thead>
 <tr class="header">
 <th>值</th>
-<th>授权</th>
+<th>作者</th>
 <th>含义</th>
 </tr>
 </thead>
@@ -78,22 +78,22 @@ Lync Server 2013 引入了名为**msExchUCVoiceMailSettings**的新用户属性�
 <tr class="odd">
 <td><p>ExchangeHostedVoiceMail = 1</p></td>
 <td><p>Exchange</p></td>
-<td><p>用户已为 Exchange Server 启用托管 UM 访问。 Exchange UM 路由应用程序将检查用户的托管语音邮件策略中是否有路由详细信息。</p></td>
+<td><p>Exchange Server 已为用户启用托管 UM 访问。 Exchange UM 路由应用程序将检查用户的托管语音邮件策略以了解路由详细信息。</p></td>
 </tr>
 <tr class="even">
 <td><p>ExchangeHostedVoiceMail = 0</p></td>
 <td><p>Exchange</p></td>
-<td><p>Exchange Server 的托管 UM 访问已禁用用户。</p></td>
+<td><p>Exchange Server 已为用户禁用托管 UM 访问。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsHostedVoiceMail = 1</p></td>
 <td><p>Lync Server</p></td>
-<td><p>用户已为 Lync Server 2013 启用托管 UM 访问。 Lync Server 2013 ExUM 路由应用程序将检查用户的托管语音邮件策略中是否有路由详细信息。</p></td>
+<td><p>用户已为 Lync Server 2013 启用了托管 UM 访问。 Lync Server 2013 ExUM 路由应用程序将检查用户的托管语音邮件策略以了解路由详细信息。</p></td>
 </tr>
 <tr class="even">
 <td><p>CsHostedVoiceMail = 0</p></td>
 <td><p>Lync Server</p></td>
-<td><p>Lync Server 2013 已禁用 "托管 UM 访问" 用户。</p></td>
+<td><p>已为 Lync Server 2013 禁用托管 UM 访问的用户。</p></td>
 </tr>
 </tbody>
 </table>
@@ -103,7 +103,7 @@ Lync Server 2013 引入了名为**msExchUCVoiceMailSettings**的新用户属性�
 
 
 > [!NOTE]  
-> 如果该属性已具有除 Lync Server 2013 键/值对之外的值（CSHostedVoiceMail = 0 或 CSHostedVoiceMail = 1），则会出现一个警告，指示该属性可能由其他应用程序管理。 例如，如果 key/value 对 ExchangeHostedVoiceMail = 0 或 ExchangeHostedVoiceMail = 1 已存在，则会显示警告。 在这种情况下，你可以通过编辑 Active Directory 来更改该值，或者运行以下 cmdlet 以将该值设置为 null：<BR>Move-csuser-身份识别用户-HostedVoicemail $null
+> 如果该属性已具有除 Lync Server 2013 的键/值对之外的值（CSHostedVoiceMail = 0 或 CSHostedVoiceMail = 1），则会出现一个警告，指示该属性可能由不同的应用程序管理。 例如，如果键/值对 ExchangeHostedVoiceMail=0 或 ExchangeHostedVoiceMail=1 已存在，则显示警告。 在这种情况下，可以通过在 Active Directory 中编辑来更改值，或运行以下 cmdlet 将值设置为 null：<BR>Set-CsUser –identity user –HostedVoicemail $null
 
 
 
@@ -115,21 +115,21 @@ Lync Server 2013 引入了名为**msExchUCVoiceMailSettings**的新用户属性�
 
 ## <a name="enabling-users-for-hosted-voice-mail"></a>为用户启用托管语音邮件
 
-若要使用户的语音邮件呼叫能够路由到托管 Exchange UM，必须运行 Move-csuser cmdlet 以设置*HostedVoiceMail*参数的值。 此参数还会向 Lync Server 2013 发出信号，以突出 "呼叫语音邮件" 指示器。
+要使用户的语音邮件呼叫可以路由到托管 Exchange UM，必须运行 Set-CsUser cmdlet 来设置 *HostedVoiceMail* 参数的值。 此参数还会向 Lync Server 2013 发出信号，以使 "呼叫语音邮件" 指示器亮起来。
 
-  - 以下示例为托管语音邮件启用 Pilar Ackerman 的用户帐户：
+  - 以下示例为 Pilar Ackerman 的用户帐户启用托管语音邮件：
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $True
     
-    该 cmdlet 验证托管的语音邮件策略（全局、网站级别或每用户）是否适用于此用户。 如果未应用任何策略，则 cmdlet 将失败。
+    该 cmdlet 验证是否有适用于该用户的托管语音邮件策略（全局、站点级别或每用户）。如果没有适用的策略，该 cmdlet 将失败。
 
-  - 以下示例将禁用托管语音邮件的 Pilar Ackerman 用户帐户：
+  - 以下示例为 Pilar Ackerman 的用户帐户禁用托管语音邮件：
     
         Set-CsUser -Identity "Pilar Ackerman" -HostedVoiceMail $False
     
-    该 cmdlet 验证任何托管语音邮件策略（全局、网站级别或每用户）是否适用于此用户。 如果应用了策略，则 cmdlet 将失败。
+    该 cmdlet 验证是否没有适用于该用户的托管语音邮件策略（全局、站点级别或每用户）。如果有适用的策略，该 cmdlet 将失败。
 
-有关使用 Move-csuser cmdlet 的详细信息，请参阅 Lync Server Management Shell 文档。
+有关使用 Get-csuser cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档。
 
 </div>
 

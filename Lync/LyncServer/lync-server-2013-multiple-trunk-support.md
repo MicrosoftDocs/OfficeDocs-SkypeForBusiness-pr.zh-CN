@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：多个中继支持
+title: Lync Server 2013：多中继支持
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d13ca1a28fd28a6d280ddf3a18e57e09376e668
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a2f8e9bea40532486d75e76887e35b496df8631
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765953"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="multiple-trunk-support-in-lync-server-2013"></a>Lync Server 2013 中的多个中继支持
+# <a name="multiple-trunk-support-in-lync-server-2013"></a>Lync Server 2013 中的多中继支持
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765953"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-Lync Server 2013 功能支持网关和中介服务器之间的多个关联。 这些关联通过定义主干（这是中介服务器池和公共交换电话网络（PSTN）网关、会话边界控制器（SBC）或 ip-pbx）之间的逻辑关联来进行。 使用拓扑生成器将网关与中介服务器相关联（即中继）。
+Lync Server 2013 功能支持网关和中介服务器之间的多个关联。 这些关联通过定义中继进行，这是中介服务器池和公用电话交换网（PSTN）网关、会话边界控制器（SBC）或 ip-pbx 之间的逻辑关联。 使用拓扑生成器将网关与中介服务器关联（即中继）。
 
-  - 若要在 Lync Server 2013 中分配或删除主干，必须首先在拓扑生成器中定义一个主干。 主干包含以下关联：中介服务器完全限定的域名（FQDN）、中介服务器侦听端口、网关 FQDN 和网关侦听端口。
+  - 若要在 Lync Server 2013 中分配或删除中继，必须首先在拓扑生成器中定义一个中继。 中继包含以下关联：中介服务器完全限定的域名（FQDN）、中介服务器侦听端口、网关 FQDN 和网关侦听端口。
 
-  - 若要配置多个中继，可以在同一网关和中介服务器之间创建多个关联。 这将为企业语音基础结构提供额外的复原，这在专用分支 exchange （PBX） interoperational 方案中尤其有用。
+  - 若要配置多个中继，可以在同一个网关和中介服务器之间创建多个关联。 这为企业语音基础结构提供了额外的恢复能力，这在专用交换机（PBX） interoperational 方案中尤其有用。
 
-定义中继，必须将其与路由关联。 若要将主干关联到路由，请为拓扑生成器中的主干定义一个简单名称。 此简单名称用作 Lync Server 控制面板中的主干名称，其中中继可以与路由相关联。 简单主干名称用作 Lync Server 命令行管理程序中的网关名称。
+定义中继，必须将其与路由关联。 若要将中继与路由关联，请在拓扑生成器中定义中继的简单名称。 此简单名称在 Lync Server 控制面板中用作中继名称，其中中继可与路由关联。 简单中继名称将用作 Lync Server 命令行管理程序中的网关名称。
 
     New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 
-管理员必须选择与中介服务器关联的默认中继。 从拓扑生成器中，右键单击关联的中介服务器，然后单击 "**属性**"。 指定中介服务器的默认网关。
+管理员必须选择与中介服务器关联的默认中继。 在拓扑生成器中，右键单击关联的中介服务器，然后单击 "**属性**"。 指定中介服务器的默认网关。
 
-下图显示了为每个中介服务器和网关定义的多个中继。
+下图说明了为每个中介服务器和网关定义的多个中继。
 
 **M-N 中继路由**
 

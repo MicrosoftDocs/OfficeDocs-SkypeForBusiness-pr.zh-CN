@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：DeviceDriver 表
+title: Lync Server 2013： DeviceDriver 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f52354a153f155f57ce6466ea8082b63ef105e34
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7431be7ceb964aead28b3c9fa76593c9dda891a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762360"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762360"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
-DeviceDriver 表是支持表。 每个记录都表示一个由捕获设备或呈现设备使用的驱动程序。
+DeviceDriver 表是一个支持表。每条记录都代表捕获设备或呈现设备所使用的一个驱动程序。
 
 
 <table>
@@ -52,21 +52,21 @@ DeviceDriver 表是支持表。 每个记录都表示一个由捕获设备或呈
 <th><strong>列</strong></th>
 <th><strong>数据类型</strong></th>
 <th><strong>键/索引</strong></th>
-<th><strong>详细信息</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>DeviceDriverKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识此设备驱动程序记录的唯一号码。</p></td>
+<td><p>主</p></td>
+<td><p>用于标识此设备驱动程序记录的唯一编号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceDriver</strong></p></td>
 <td><p>varchar （256）</p></td>
-<td><p>唯一</p></td>
-<td><p>设备驱动程序名称。</p></td>
+<td><p>unique</p></td>
+<td><p>设备驱动程序的名称。</p></td>
 </tr>
 </tbody>
 </table>

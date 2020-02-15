@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：响应组支持的客户端
+title: Lync Server 2013：支持响应组的客户端
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1fa7728e0ebee1d12d4cf57fdc7aaaf0abfe410
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2082f3d41f3907f4b2a1d541b2c2000becd91c89
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756436"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中响应组支持的客户端
+# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中的响应组支持的客户端
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756436"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-03-28_
+_**上次修改的主题：** 2014-03-28_
 
-响应组应用程序支持下列客户端：
+响应组应用程序支持以下客户端：
 
   - Lync 2013 桌面客户端
 
@@ -59,15 +59,15 @@ _**主题上次修改时间：** 2014-03-28_
 
 </div>
 
-有关新功能的详细信息，请参阅 "入门" 文档中[Lync Server 2013 中的新响应组应用程序功能](lync-server-2013-new-response-group-application-features.md)。
+有关新功能的详细信息，请参阅入门文档中的[Lync Server 2013 中的新响应组应用程序功能](lync-server-2013-new-response-group-application-features.md)。
 
-你可以使用的特定客户端取决于你所使用的响应组用户的类型：
+您可以使用的特定客户端取决于您所使用的响应组用户的类型：
 
   - **呼叫者**可使用前面列出的任何客户端和公用电话交换网 (PSTN) 上的标准电话来呼叫响应组。
 
-  - **非正式代理**（未登录和注销其组以接受呼叫的代理）可通过使用助理、Lync 或 Lync Phone Edition 接受呼叫。 当使用其中一个客户端登录到 Lync Server 2013 时，非正式代理会自动登录其组。
+  - **非正式代理**（未登录到或传出其组以接受呼叫的代理）可以使用助理、Lync 或 Lync Phone Edition 接受呼叫。 当使用这些客户端之一登录 Lync Server 2013 时，将自动登录到他们的组中的非正式代理。
 
-  - **正式代理**（必须登录或注销其组才能接受呼叫）的代理可以通过使用 Lync 2013 和从菜单项访问代理控制台，或者使用助理直接从 Internet Explorer 访问代理控制台来接受呼叫。
+  - **正式代理**（必须登录到或传出其组以接受呼叫的代理）可以通过使用 Lync 2013 并从菜单项访问代理控制台，或者通过使用助理直接从 Internet Explorer 访问代理控制台来接受呼叫。
 
 </div>
 

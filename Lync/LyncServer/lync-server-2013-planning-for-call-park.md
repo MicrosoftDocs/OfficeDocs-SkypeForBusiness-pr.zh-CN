@@ -12,16 +12,16 @@ ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c574cc21a3f81d91491da521911aa56c5ce83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0f42d4b61302b17d8d6247d7a9a1dcc5dbe6b218
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754382"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41754382"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-07_
+_**上次修改的主题：** 2012-09-07_
 
-Lync Server 调用寄存应用程序使企业语音用户可以将呼叫置于保持状态，然后在以后通过任何电话取回呼叫。 停用呼叫的用户可以拨打由呼叫公园提供的 "轨道" 编号以检索寄存的呼叫，或使用外部机制（如即时消息或寻呼系统）来让其他人检索呼叫。 本部分包括特定于呼叫公园的规划信息。
+Lync Server 呼叫寄存应用程序使企业语音用户可以将呼叫置于保持状态，然后在以后从任何电话检索呼叫。 停用呼叫的用户可以拨打呼叫寄存提供的通道号以检索寄存呼叫，或使用外部机制（如即时消息或寻呼系统）来请求其他人检索呼叫。 本节包含特定于呼叫寄存的规划信息。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的呼叫寄存概述](lync-server-2013-overview-of-call-park.md)
 
@@ -49,11 +49,11 @@ Lync Server 调用寄存应用程序使企业语音用户可以将呼叫置于�
 
   - [Lync Server 2013 中呼叫寄存的技术要求](lync-server-2013-technical-requirements-for-call-park.md)
 
-  - [在 Lync Server 2013 中支持呼叫寄存的客户端](lync-server-2013-clients-supported-for-call-park.md)
+  - [Lync Server 2013 中支持呼叫寄存的客户端](lync-server-2013-clients-supported-for-call-park.md)
 
-  - [Lync Server 2013 中的呼叫寄存容量规划](lync-server-2013-capacity-planning-for-call-park.md)
+  - [Lync Server 2013 中呼叫寄存的容量规划](lync-server-2013-capacity-planning-for-call-park.md)
 
-  - [Lync Server 2013 中的呼叫寄存的部署过程](lync-server-2013-deployment-process-for-call-park.md)
+  - [Lync Server 2013 中呼叫寄存的部署过程](lync-server-2013-deployment-process-for-call-park.md)
 
 </div>
 

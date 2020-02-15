@@ -12,20 +12,20 @@ ms:contentKeyID: 49733698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da4624a682899befa4ff8d780c0d9a6d6646279c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 02a66ead4e88b6a8460ab728fecbd3f21be03141
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735852"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046325"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-and-disabling-users-for-lync-server-2013"></a>启用和禁用 Lync Server 2013 的用户
+# <a name="enabling-and-disabling-users-for-lync-server-2013"></a>为 Lync Server 2013 启用和禁用用户
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735852"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-你可以启用、暂时禁用或删除 Lync Server 2013 中的 Active Directory 用户。
+您可以启用、暂时禁用或删除 Lync Server 2013 中的 Active Directory 用户。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [为 Lync Server 2013 添加和启用用户帐户](lync-server-2013-add-and-enable-user-account-for-lync-server.md)
 
-  - [禁用或重新启用 Lync Server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
+  - [为 Lync Server 2013 禁用或重新启用用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
 
   - [从 Lync Server 2013 中删除用户帐户](lync-server-2013-remove-a-user-account-from-lync-server.md)
 
@@ -57,8 +57,8 @@ _**主题上次修改时间：** 2012-11-01_
 
 
 [在 Lync Server 2013 中管理用户](lync-server-2013-managing-users-in-lync-server.md)  
-[Enable-Move-csuser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
-[Disable-Move-csuser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
+[Enable-Get-csuser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
+[Disable-Get-csuser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
   
 
 </div>

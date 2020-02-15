@@ -12,16 +12,16 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7b443e257ee45c15974ba96a50b8217113ac942
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747642"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747642"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-17_
+_**上次修改的主题：** 2012-09-17_
 
-要在网络中自动定位客户端，首先需要使用网络*线路映射*填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。可以使用子网、无线访问点、交换机和端口来定义线路映射。
+要在网络中自动定位客户端，首先需要使用网络*线路映射* 填充位置数据库，网络线路映射会将网络元素映射到市政（即，街道）地址。可以使用子网、无线访问点、交换机和端口来定义线路映射。
 
 可以分别将地址添加到位置数据库中，也可以使用包含下表所述的列格式的 CSV 文件批量添加。
 
@@ -58,23 +58,23 @@ _**主题上次修改时间：** 2012-09-17_
 <tbody>
 <tr class="odd">
 <td><p><strong>无线访问点</strong></p></td>
-<td><p>&lt;BSSID&gt;、&lt;说明&gt;、&lt;位置&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、&gt;PreDirectional,.。。</p>
-<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;城市&gt;、&lt;州&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
+<td><p>&lt;BSSID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、&gt;PreDirectional,.。。</p>
+<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;市&gt;/&lt;县&gt;、&lt;州&gt;、&lt;邮政编码、国家/地区&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Subnet</strong></p></td>
+<td><p><strong>子网</strong></p></td>
 <td><p>&lt;子&gt;网&lt;、&gt;说明&lt;、&gt;位置&lt;、&gt;公司&lt;名称&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、PreDirectional,.。。</p>
-<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;城市&gt;、&lt;州&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
+<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;市&gt;/&lt;县&gt;、&lt;州&gt;、&lt;邮政编码、国家/地区&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>端口</strong></p></td>
-<td><p>&lt;ChassisID&gt;、&lt;PortIDSubType&gt;、&lt;PortID&gt;、&lt;说明&gt;、&lt;位置&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix,.。。</p>
-<p>...&lt;PreDirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;City&gt;、&lt;州&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
+<td><p><strong>Port</strong></p></td>
+<td><p>&lt;ChassisID&gt;、&lt;PortIDSubType&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix,.。。</p>
+<p>...&lt;PreDirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;City&gt;、&lt;State&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>交换机</strong></p></td>
-<td><p>&lt;ChassisID&gt;、&lt;说明&gt;、&lt;位置&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、&gt;PreDirectional,.。。</p>
-<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;城市&gt;、&lt;州&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
+<td><p><strong>开关</strong></p></td>
+<td><p>&lt;ChassisID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、&gt;PreDirectional,.。。</p>
+<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;市&gt;/&lt;县&gt;、&lt;州&gt;、&lt;邮政编码、国家/地区&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,31 +82,31 @@ _**主题上次修改时间：** 2012-09-17_
 
 如果未填充位置数据库，并且位置策略中的“所需位置”**** 设置为“是”**** 或“免责声明”****，客户端将提示用户手动输入位置。
 
-有关填充位置数据库的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
+有关填充位置数据库的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
   - **CsLisSubnet**
 
-  - **Set-CsLisSubnet**
+  - **CsLisSubnet**
 
-  - Remove-CsLisSubnet
+  - CsLisSubnet
 
   - **CsLisWirelessAccessPoint**
 
-  - **Set-CsLisWirelessAccessPoint**
+  - **CsLisWirelessAccessPoint**
 
-  - **Remove-CsLisWirelessAccessPoint**
+  - **CsLisWirelessAccessPoint**
 
   - **CsLisSwitch**
 
-  - **Set-CsLisSwitch**
+  - **CsLisSwitch**
 
-  - **Remove-CsLisSwitch**
+  - **CsLisSwitch**
 
   - **CsLisPort**
 
-  - **Set-CsLisPort**
+  - **CsLisPort**
 
-  - **Remove-CsLisPort**
+  - **CsLisPort**
 
 <div>
 

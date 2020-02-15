@@ -12,20 +12,20 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 065a48aedf1b093358193d0c8afbd12b44653025
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5b99d5d2f1800a4d7d16b1d3fdf4d0aab213fd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755676"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>可选在 Lync Server 2013 中验证响应组部署
+# <a name="optional-verify-response-group-deployment-in-lync-server-2013"></a>Optional在 Lync Server 2013 中验证响应组部署
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41755676"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-11_
+_**上次修改的主题：** 2012-09-11_
 
-配置响应组后，你需要验证配置，以确保你的响应组按预期工作。 至少应使用以下用户类型验证以下方案：
+配置响应组之后，需要验证配置，以确保您的响应组按预期工作。 至少应使用以下用户类型验证以下方案：
 
 **用户**
 
-  - Lync Server 2013 上托管的用户
+  - 在 Lync Server 2013 上托管的用户
 
   - 使用公用电话交换网 (PSTN) 的外部用户
 
   - 在 Lync Server 2013 上托管的代理
 
-**应用场景**
+**Scenarios**
 
-  - Lync Server 2013 用户调用响应组。
+  - Lync Server 2013 用户呼叫响应组。
 
   - 外部用户呼叫响应组。
 

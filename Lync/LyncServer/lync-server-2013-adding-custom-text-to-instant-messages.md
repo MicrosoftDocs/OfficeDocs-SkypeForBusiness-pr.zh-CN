@@ -12,16 +12,16 @@ ms:contentKeyID: 48185458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b54b4724568a4f57bebc7ef6162a553cfdd9a091
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0681df9803615fee04c20e52258120bd6616e57d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738152"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,16 +35,16 @@ ms.locfileid: "41738152"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-20_
+_**上次修改的主题：** 2013-02-20_
 
-通过使用**set-csclientpolicy**或**Set-csclientpolicy** Lync Server Management Shell cmdlet 和 IMWarning 参数，将免责声明或警告添加到每个 Lync 2013 即时消息（IM）对话的开头。
+通过使用 Set-csclientpolicy 或**Set-csclientpolicy** Lync Server 命令行管理**程序**cmdlet 和 IMWarning 参数，将免责声明或警告添加到每个 Lync 2013 即时消息（IM）对话的开头。
 
-以下示例中的命令在新的 IM 对话开始时在对话窗口的顶部添加安全提醒：
+以下示例中的命令会在新的 IM 对话开始时，在“对话”窗口的顶部添加安全提醒：
 
     New-CsClientPolicy -Identity IMSecurityNotice -IMWarning 
     "Remember, security is everyone's responsibility. Keep it confidential."
 
-使用**Grant-set-csclientpolicy**将此新策略分配给用户。 有关详细信息，请参阅 Lync Server Management Shell 文档中的 "**新建-set-csclientpolicy** " 和 "**授予" set-csclientpolicy** 。
+使用 **Grant-CSClientPolicy** 将此新策略分配给用户。 有关详细信息，请参阅 Lync Server 命令行管理程序文档中的**set-csclientpolicy**和**Grant set-csclientpolicy** 。
 
 </div>
 

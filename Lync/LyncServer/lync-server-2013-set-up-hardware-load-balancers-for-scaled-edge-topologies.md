@@ -12,16 +12,16 @@ ms:contentKeyID: 48184563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9fdb64f5e67aec67f3246dc0c1693cf53c0fe09
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97da86dac975d663249021e80ca19ea17857576a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764648"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764648"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-如果你要使用硬件负载平衡器配置缩放的边缘拓扑，请参阅规划文档中的[在 Lync Server 2013 中使用硬件负载平衡器缩放合并边缘](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)。
+如果使用硬件负载平衡器配置扩展的边缘拓扑，请参阅规划文档中的在[Lync Server 2013 中使用硬件负载平衡器的扩展合并边缘](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)。
 
 </div>
 

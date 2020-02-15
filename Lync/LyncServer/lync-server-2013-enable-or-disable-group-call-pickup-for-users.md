@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：为用户启用或禁用组呼叫装货
+title: Lync Server 2013：为用户启用或禁用组呼叫挑选
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bec90c71a10c0064f7c2b9bb95bce1dfe6afa54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46bc1bb958fae23f4e8c66587d358004e7b6cf3d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736022"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>在 Lync Server 2013 中启用或禁用组呼叫用户的装货
+# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a>在 Lync Server 2013 中为用户启用或禁用组内呼叫应答
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736022"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-22_
+_**上次修改的主题：** 2013-02-22_
 
-将组呼叫装货区域添加到 "呼叫公园轨道" 表后，您可以根据需要为用户启用和禁用组呼叫装货。 本部分介绍如何使用 SEFAUtil 资源工具包工具来启用和禁用用户的群组呼叫装货。
+将组呼叫装货区域添加到呼叫寄存通道表中时，您可以根据需要启用和禁用组内呼叫应答。 本节介绍如何使用 SEFAUtil 资源工具包工具来启用和禁用用户的组间呼叫挑选。
 
 <div>
 
 
 > [!NOTE]  
-> SEFAUtil 参数/enablegrouppickup 启用组呼叫，并分配组号码。
+> SEFAUtil 参数/enablegrouppickup 启用组呼叫应答并分配组编号。
 
 
 
@@ -51,11 +51,11 @@ _**主题上次修改时间：** 2013-02-22_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中为用户启用组呼叫装货](lync-server-2013-enable-group-call-pickup-for-users.md)
 
-  - [在 Lync Server 2013 中禁用用户的组呼叫装货](lync-server-2013-disable-group-call-pickup-for-users.md)
+  - [在 Lync Server 2013 中为用户禁用组呼叫装货](lync-server-2013-disable-group-call-pickup-for-users.md)
 
 </div>
 

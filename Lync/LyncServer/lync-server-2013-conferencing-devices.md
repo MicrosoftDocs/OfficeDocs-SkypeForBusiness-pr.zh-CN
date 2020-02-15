@@ -12,16 +12,16 @@ ms:contentKeyID: 51803961
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1fbe13b788b8add2f609cc59ed832e6bd67dc1d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a6af847b13a073a8135cf9c54ea0f503c6e1af71
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741532"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040791"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41741532"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-05_
+_**上次修改的主题：** 2014-02-05_
 
-会议设备将 Lync Phone Edition 功能带入会议室，使聊天室中的人能够听到，并且根据设备，查看其他位置中的人员。
+会议设备将 Lync Phone Edition 功能引入会议室，使聊天室中的人可以听到，并且，根据设备，查看其他位置的人员。
 
-使用本部分中的主题了解如何设置和管理您的会议设备。
+使用本节中的主题可了解如何设置和管理会议设备。
 
 <div>
 
 
 > [!NOTE]  
-> 有关支持用于 Lync Server 2013 的会议设备的详细信息，请参阅适用<A href="http://technet.microsoft.com/en-us/lync/gg278164.aspx">于 Microsoft Lync 的网页电话和设备</A>。
+> 有关支持与 Lync Server 2013 配合使用的会议设备的详细信息，请参阅适用<A href="http://technet.microsoft.com/lync/gg278164.aspx">于 Microsoft Lync 的网页电话和设备</A>。
 
 
 
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2014-02-05_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看会议设备信息](lync-server-2013-view-conferencing-device-information.md)
 
@@ -61,7 +61,7 @@ _**主题上次修改时间：** 2014-02-05_
 
   - [在 Lync Server 2013 中启用或禁用会议设备](lync-server-2013-enable-or-disable-a-conferencing-device.md)
 
-  - [将会议设备移动到 Lync Server 2013 中的新注册机构池](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
+  - [在 Lync Server 2013 中将会议设备移动到新的注册器池](lync-server-2013-move-a-conferencing-device-to-a-new-registrar-pool.md)
 
 </div>
 
@@ -74,4 +74,3 @@ _**主题上次修改时间：** 2014-02-05_
 </div>
 
 </div>
-

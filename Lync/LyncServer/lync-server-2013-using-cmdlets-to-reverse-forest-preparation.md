@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：使用 Cmdlet 反向执行林准备
+title: Lync Server 2013：使用 cmdlet 反向林准备
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b893eb79cb19856572e90bd449b315f0ade803c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0dbc7e4001299ef2d722896518291cc2afff001b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>针对 Lync Server 2013 使用 Cmdlet 反向执行林准备
+# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>使用 cmdlet 对 Lync Server 2013 反向林准备
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744182"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-06-19_
+_**上次修改的主题：** 2013-06-19_
 
-使用**CsAdForest** cmdlet 可撤消林准备步骤。
+使用 **Disable-CsAdForest** cmdlet 可反向执行林准备步骤。
 
 <div>
 
 
 > [!WARNING]  
-> 如果你在还安装了早期版本的 Lync Server 的环境中运行<STRONG>CsAdForest</STRONG> cmdlet，则以前版本的全局设置也将被删除。
+> 如果您在还部署了旧版 Lync Server 的环境中运行<STRONG>CsAdForest</STRONG> cmdlet，则早期版本的全局设置也将被删除。
 
 
 
@@ -51,13 +51,13 @@ _**主题上次修改时间：** 2013-06-19_
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>使用 cmdlet 执行反向林准备
+## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>使用 cmdlet 反向执行林准备
 
-1.  以林根域中的 "域管理员" 组的成员身份登录加入域的计算机。
+1.  以目录林根级域中的 Domain Admins 组成员身份登录到加入域的计算机。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  运行：
+3.  以
     
         Disable-CsAdForest [-Force] [-GroupDomain <FQDN of the domain in which universal groups were created>]
     
@@ -65,7 +65,7 @@ _**主题上次修改时间：** 2013-06-19_
     
         Disable-CsAdForest -Force -GroupDomain contoso.net
     
-    Force 参数指定是否强制运行任务。 如果此参数不存在，并且即使林中的一个域仍为 Lync Server 2013 准备好，该命令也不会运行。 如果指定了 Force 参数，则无论林中其他域的状态如何，操作都将继续。
+    Force 参数指定是否强制运行该任务。 如果不存在此参数，即使林中的一个域仍为 Lync Server 2013 做好准备，该命令也不会运行。 如果指定了 Force 参数，无论林中其他域的状态如何，都将继续执行此操作。
     
     如果不指定 GroupDomain 参数，则默认值为本地域。
 
@@ -79,7 +79,7 @@ _**主题上次修改时间：** 2013-06-19_
 [为 Lync Server 2013 运行林准备](lync-server-2013-running-forest-preparation.md)  
 
 
-[为 Lync Server 2013 准备林](lync-server-2013-preparing-the-forest.md)  
+[准备 Lync Server 2013 的林](lync-server-2013-preparing-the-forest.md)  
   
 
 </div>

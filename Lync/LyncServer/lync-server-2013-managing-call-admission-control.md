@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理呼叫许可控制
+title: Lync Server 2013：管理呼叫允许控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11cd9e2bb894f5fcb2230d08939d29852fba3fcd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccb92b69c16f6dd45eedb584f0f63294dcbea4c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738812"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037130"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中管理呼叫许可控制
+# <a name="managing-call-admission-control-in-lync-server-2013"></a>在 Lync Server 2013 中管理呼叫允许控制
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738812"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-呼叫允许控制 (CAC) 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。 使用以下过程管理 Lync Server 2013 环境的不同 CAC 功能。
+呼叫允许控制 (CAC) 根据可用网络带宽确定是否允许建立实时通信会话（如语音呼叫或视频呼叫）。 使用以下过程可管理 Lync Server 2013 环境的不同 CAC 功能。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中启用呼叫许可控制](lync-server-2013-enabling-call-admission-control.md)
+  - [在 Lync Server 2013 中启用呼叫允许控制](lync-server-2013-enabling-call-admission-control.md)
 
-  - [管理 Lync Server 2013 中的网络带宽策略配置文件](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
+  - [在 Lync Server 2013 中管理网络带宽策略配置文件](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
 
   - [Lync Server 2013 中的网络区域](lync-server-2013-network-regions.md)
 
   - [Lync Server 2013 中的网络区域路由](lync-server-2013-network-region-routes.md)
 
-  - [Lync Server 2013 中的网站呼叫许可控制](lync-server-2013-call-admission-control-for-sites.md)
+  - [Lync Server 2013 中对网站的呼叫允许控制](lync-server-2013-call-admission-control-for-sites.md)
 
   - [在 Lync Server 2013 中启用和禁用媒体旁路](lync-server-2013-enabling-and-disabling-media-bypass.md)
 
@@ -66,7 +66,7 @@ _**主题上次修改时间：** 2012-11-01_
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server 2013 中的呼叫许可控制概述](lync-server-2013-overview-of-call-admission-control.md)  
+[Lync Server 2013 中的呼叫允许控制概述](lync-server-2013-overview-of-call-admission-control.md)  
   
 
 </div>

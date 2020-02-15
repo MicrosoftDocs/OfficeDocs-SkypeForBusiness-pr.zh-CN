@@ -13,16 +13,16 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3909c41328e18302ef1104ac05d9a7c7987f57d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2259f47608b09ad7cff54ee0dc9b6be57502ee10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727382"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041131"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,29 +36,29 @@ ms.locfileid: "41727382"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-20_
+_**上次修改的主题：** 2012-10-20_
 
-*网络 interregion 路线*定义了一对网络区域之间的路线。 您的呼叫许可控制部署中的每对网络区域都需要网络 interregion 路线。 这样部署中的每个网络区域便能够访问任何其他区域。
+“网络区域间路由”** 定义一对网络区域之间的路由。呼叫允许控制部署中的每对网络区域均需要网络区域间路由。这样部署中的每个网络区域便能够访问任何其他区域。
 
-虽然区域链接为区域之间的连接设置带宽限制，但 interregion 路由决定了连接将从一个区域遍历到另一个区域的链接路径。
+虽然区域链接会对区域之间的连接设置带宽限制，但是区域间路由可确定连接从一个区域到另一个区域将遍历的链接路径。
 
-有关使用网络 interregion 路由的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
+有关使用网络 interregion 路由的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
-  - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
+  - [新 CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
-  - [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
+  - [CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 
-  - [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+  - [CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
 
-  - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
+  - [CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
-在示例拓扑中，必须为三个地区对中的每一对定义网络 interregion 路由：北美洲/EMEA、EMEA/APAC 和北美/APAC。
+在示例拓扑中，必须为三个区域对中的每一对定义网络区域间路由：北美/EMEA、EMEA/APAC 以及北美/APAC。
 
 <div>
 
 ## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>使用 Lync Server 命令行管理程序创建网络 interregion 路由
 
-1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 2.  运行 **New-CsNetworkInterRegionRoute** cmdlet 来定义所需路由。 例如，运行：
     
@@ -78,7 +78,7 @@ _**主题上次修改时间：** 2012-10-20_
     
 
     > [!NOTE]  
-    > 北美/APAC 网络 interregion 路由需要两个网络区域链接，因为它们之间没有直接的网络区域链接。
+    > 北美/APAC 的网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。
 
     
     </div>
@@ -87,9 +87,9 @@ _**主题上次修改时间：** 2012-10-20_
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 创建网络 interregion 路由
+## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板创建网络 interregion 路由
 
-1.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 2.  在左侧导航栏中，单击“网络配置”****。
 
@@ -97,26 +97,26 @@ _**主题上次修改时间：** 2012-10-20_
 
 4.  单击“新建”****。
 
-5.  在 "**新建区域路由**" 页面上，单击 "**名称**"，然后键入网络 interregion 路由的名称。
+5.  在“新建区域路由”**** 页上，单击“名称”****，然后键入网络区域间路由的名称。
 
 6.  单击 "**网络\#区域 1**"，然后在列表中单击要路由到 "网络区域\#2" 的网络区域。
 
 7.  单击 "**网络\#区域 2**"，然后在列表中单击要路由到 "网络区域\#1" 的网络区域。
 
-8.  单击 "**网络区域链接**" 字段旁边的 "**添加**"，然后添加将在网络 interregion 路由中使用的网络区域链接。
+8.  单击“网络区域链接”**** 字段旁边的“添加”****，然后添加将用于网络区域间路由的网络区域链接。
     
     <div class=" ">
     
 
     > [!NOTE]  
-    > 如果要为彼此之间没有直接网络区域链接的两个网络区域创建路由，则必须添加所有必要的链接来完成路由。 例如，北美/APAC 网络 interregion 路由需要两个网络区域链接，因为它们之间没有直接的网络区域链接。
+    > 如果要为彼此之间没有直接网络区域链接的两个网络区域创建路由，则必须添加所有必要的链接来完成路由。例如，北美/APAC 网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。
 
     
     </div>
 
-9.  单击“**提交**”。
+9.  单击“提交”****。
 
-10. 若要完成为拓扑创建网络 interregion 路由，请使用其他网络 interregion 路由的设置重复步骤4到步骤9。
+10. 要为拓扑完成网络区域间路由的创建，请为其他网络区域间路由重复步骤 4 至 步骤 9 的设置。
 
 </div>
 

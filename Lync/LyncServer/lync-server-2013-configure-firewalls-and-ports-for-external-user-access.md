@@ -12,16 +12,16 @@ ms:contentKeyID: 48185430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b10ad0826e0b15ff42b47dc6c732b2b60500f8b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 514c93cff5d3050ae94d1057b57fb703e92696ba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726582"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037702"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726582"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-05-21_
+_**上次修改的主题：** 2012-05-21_
 
-若要配置防火墙和端口，你需要为 Edge 服务器、反向代理服务器和可能的硬件负载平衡器（对于不使用 DNS 负载平衡的缩放部署）配置它们。 本部分提供有关所有 Edge 服务器组件的防火墙和端口要求以及边缘服务器的防火墙端口的配置的信息。 有关为反向代理服务器配置端口的详细信息，请参阅[为 Lync Server 2013 设置反向代理服务器](lync-server-2013-setting-up-reverse-proxy-servers.md)。 如果你正在部署缩放的边缘拓扑，并且使用的是硬件负载平衡，而不是 DNS 负载平衡，请参阅计划文档中的在[Lync Server 2013 中使用硬件负载平衡器缩放的合并边界](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)，了解有关配置硬件负载平衡器端口的详细信息。
+要配置防火墙和端口，不仅需要为边缘服务器、反向代理服务器配置，可能还需要为硬件负载平衡器配置（对于未使用 DNS 负载平衡的扩展部署）。 本节提供有关所有边缘服务器组件的防火墙和端口要求以及边缘服务器的防火墙端口配置的信息。 有关为反向代理服务器配置端口的详细信息，请参阅[为 Lync Server 2013 设置反向代理服务器](lync-server-2013-setting-up-reverse-proxy-servers.md)。 如果要部署一个扩展的边缘拓扑，并且使用硬件负载平衡而不是 DNS 负载平衡，请参阅规划文档中的在[Lync Server 2013 中使用硬件负载平衡器扩展的合并边缘](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)，以了解有关为硬件负载平衡器配置端口的详细信息。
 
 <div>
 

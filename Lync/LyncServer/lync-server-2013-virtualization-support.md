@@ -12,16 +12,16 @@ ms:contentKeyID: 48185484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0666203c2c6409da871c99aaa85b90240b64d76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 535b1298bb42132e101c9bb9218dd94070a02c7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757206"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041908"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41757206"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-03-13_
+_**上次修改的主题：** 2014-03-13_
 
-Lync Server 2013 支持支持所有 Lync Server 工作负荷的虚拟化拓扑，包括即时消息（IM）和状态、会议、企业语音、监视、存档和持续聊天。 请注意，在虚拟拓扑中 Lync 服务器性能可能会有很大差异，具体取决于所使用的工作负载、用户数和主机硬件。 有关在虚拟服务器上运行 Lync Server 2013 的详细指导，请参阅白皮书在[虚拟服务器上规划 Lync server 2013 部署](http://www.microsoft.com/en-us/download/details.aspx?id=41936)。
+Lync Server 2013 支持支持所有 Lync Server 工作负载的虚拟化拓扑，包括即时消息（IM）和状态、会议、企业语音、监控、存档和持久聊天。 请注意，根据所使用的工作负载、用户数和主机硬件，虚拟拓扑的 Lync Server 性能可能会有很大差异。 有关在虚拟服务器上运行 Lync Server 2013 的详细指导，请参阅在[虚拟服务器上规划 Lync server 2013 部署一](http://www.microsoft.com/download/details.aspx?id=41936)文白皮书。
 
-在 Hyper-v 平台上以及 Windows Server 虚拟化验证程序支持的任何虚拟化平台上均支持 Lync Server 2013。 有关此程序的信息，请<http://www.windowsservercatalog.com/svvp.aspx>参阅。
+Lync Server 2013 在 Hyper-v 平台和 Windows Server 虚拟化验证程序支持的任何虚拟化平台上受支持。 有关此程序的信息，请<http://www.windowsservercatalog.com/svvp.aspx>参阅。
 
 </div>
 

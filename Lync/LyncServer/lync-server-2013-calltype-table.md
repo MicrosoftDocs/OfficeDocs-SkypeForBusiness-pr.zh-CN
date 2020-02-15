@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：CallType 表
+title: Lync Server 2013： CallType 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fd74831b90d88c7adc473c51ca88940eb34f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f90be73c63921ebe9971abae85b2da22e76a560
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743192"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-CallType 表是一个静态表，用于存储可能的调用类型的列表。
+CallType 表是存储可能的呼叫类型列表的静态表。
 
 
 <table>
@@ -59,7 +59,7 @@ CallType 表是一个静态表，用于存储可能的调用类型的列表。
 <tr class="odd">
 <td><p><strong>CallTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -68,12 +68,12 @@ CallType 表是一个静态表，用于存储可能的调用类型的列表。
 <td></td>
 <td><p>允许的值：</p>
 <ul>
-<li><p>0--未知</p></li>
-<li><p>1-即时消息</p></li>
+<li><p>0 -- 未知</p></li>
+<li><p>1 - 即时消息</p></li>
 <li><p>2--应用程序共享</p></li>
-<li><p>3--音频</p></li>
-<li><p>4-音频和视频</p></li>
-<li><p>5-文件传输</p></li>
+<li><p>3 -- 音频</p></li>
+<li><p>4 - 音频和视频</p></li>
+<li><p>5 - 文件传输</p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184187
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1cf99fecc57f680c7da751beae1e50eab55e0dc1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2543f587ad4e545f55a6cb643531cb941ad26622
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734822"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-support-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中配置存档支持
+# <a name="configuring-support-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中配置对存档的支持
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734822"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-将存档添加到你的拓扑并发布新的拓扑后，你需要配置有关初始在部署中实现存档的选项，然后配置一个或多个存档策略来为你的部署启用存档，以及（可选）用于特定网站和用户。 您可以使用 Lync Server 2013 控制面板执行此操作。
+将存档添加到您的拓扑中并发布新拓扑后，您需要配置如何在部署中初步实现存档的选项，然后配置一个或多个存档策略以为您的部署（或特定站点和用户）启用存档。 可以使用 Lync Server 2013 控制面板执行此操作。
 
 <div>
 
 
 > [!NOTE]  
-> 部署后，您可以更改存档设置以禁用或启用存档。 有关如何实现对日常管理的存档支持或在部署后满足组织中的新要求的详细信息，请参阅操作文档中的<A href="lync-server-2013-managing-archiving.md">管理 Lync Server 2013 存档</A>。
+> 部署后，您可以更改存档设置以禁用和启用存档。 若要详细了解如何实现针对日常管理的存档支持或在部署后满足组织中的新要求，请参阅操作文档中的<A href="lync-server-2013-managing-archiving.md">管理 Lync Server 2013 存档</A>。
 
 
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2012-10-01_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中配置存档选项](lync-server-2013-configuring-archiving-options.md)
 

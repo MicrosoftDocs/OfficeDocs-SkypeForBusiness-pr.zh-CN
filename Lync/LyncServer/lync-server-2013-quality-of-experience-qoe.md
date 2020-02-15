@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：体验质量（QoE）
+title: Lync Server 2013：丰富的体验质量（QoE）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28ebdc40c4747d0ec2c3f97a3d39d07b9366e39a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 688086f559c5b5f21891ce87f9ea1f5256280a34
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724572"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41724572"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-用户体验质量 (QoE) 记录指示媒体质量以及有关呼叫和会话中所涉及参与者、设备名称、驱动程序、IP 地址和终结点类型的信息的数值型数据。 安装 Lync Server 2013 时，你还将安装 QoE 的全局配置设置的预定义集合。 使用本节中的主题配置 QoE 设置。
+用户体验质量 (QoE) 记录指示媒体质量以及有关呼叫和会话中所涉及参与者、设备名称、驱动程序、IP 地址和终结点类型的信息的数值型数据。 安装 Lync Server 2013 时，还将安装 QoE 的全局配置设置的预定义集合。 使用本节中的主题配置 QoE 设置。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中创建体验配置设置的质量](lync-server-2013-create-quality-of-experience-configuration-settings.md)
+  - [在 Lync Server 2013 中创建体验质量配置设置](lync-server-2013-create-quality-of-experience-configuration-settings.md)
 
-  - [在 Lync Server 2013 中启用体验质量](lync-server-2013-enable-quality-of-experience.md)
+  - [启用 Lync Server 2013 中的体验质量](lync-server-2013-enable-quality-of-experience.md)
 
   - [在 Lync Server 2013 中修改体验质量设置](lync-server-2013-modify-quality-of-experience-settings.md)
 
   - [删除 Lync Server 2013 中的体验质量配置设置](lync-server-2013-delete-quality-of-experience-configuration-settings.md)
 
-  - [在 Lync Server 2013 中手动清除 "呼叫详细信息记录" 和 "体验质量" 数据库](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [在 Lync Server 2013 中手动清除呼叫详细信息记录和体验质量数据库](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
@@ -60,7 +60,7 @@ _**主题上次修改时间：** 2012-11-01_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中配置 "呼叫详细记录" 和 "体验质量" 设置](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[在 Lync Server 2013 中配置呼叫详细信息记录和体验质量设置](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>

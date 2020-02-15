@@ -12,16 +12,16 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7621d8d8cfb22e774bd13f767c37e49321d3e0a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3702038781010ce56887ba39c89d09c23bffdbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764618"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037602"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41764618"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-设置边缘服务器所需的主要任务与安装单个边缘服务器或负载平衡的边缘服务器池相同，只是硬件负载平衡的边缘服务器池需要部署负载平衡器和其他步骤在多台边缘服务器上复制设置。
+设置边缘服务器所需的主要任务与安装单个边缘服务器或边缘服务器的负载平衡池的任务相同，不同之处在于硬件负载平衡边缘服务器池需要部署负载平衡器，还需要执行用于复制多个边缘服务器上的设置的其他步骤。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中设置边缘服务器的网络接口](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [在 Lync Server 2013 边缘服务器上安装必备软件](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [在适用于 Lync Server 2013 的边缘服务器上安装必备软件](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [导出 Lync Server 2013 拓扑并将其复制到外部媒体以用于边缘安装](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [导出 Lync Server 2013 拓扑并将其复制到外部媒体以进行边缘安装](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
   - [安装适用于 Lync Server 2013 的边缘服务器](lync-server-2013-install-edge-servers.md)
 

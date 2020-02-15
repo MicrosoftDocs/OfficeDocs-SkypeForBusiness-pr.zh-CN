@@ -12,16 +12,16 @@ ms:contentKeyID: 48185104
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be9782bfa73f30fbefaec0a51d91024b3c40ba55
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0c3c86d2ad4a6f45d622451c9b3bfd9cb67eea54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735672"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41735672"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-10_
+_**上次修改的主题：** 2012-10-10_
 
-在 Lync Server 2013 "控制面板" 中，使用存档配置启用和禁用 IM、会议会话的存档。 这包括以下存档配置：
+在 Lync Server 2013 控制面板中，使用存档配置启用和禁用 IM、会议会话的存档。 这包括以下存档配置：
 
   - 部署 Lync Server 2013 时默认创建的全局配置。
 
-  - 可创建和使用的可选网站级和池级配置，用于指定如何为特定网站或池实现存档。
+  - 您可以创建并用来指定如何针对特定站点或池实施存档的可选站点级别和池级别配置。
 
-你在部署存档时开始设置存档配置，但你可以在部署后更改、添加和删除配置。 有关如何实现存档配置的详细信息，包括你可以指定哪些选项和存档配置的层次结构，请参阅规划文档、部署文档或操作文档中的[存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md)。
+存档配置最初是在部署存档时设置的，但您可以在部署后更改、添加和删除这些配置。 有关如何实施存档配置的详细信息，包括可以指定哪些选项以及存档配置的层次结构，请参阅规划文档、部署文档或操作文档中的[存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md)。
 
 <div>
 
 
 > [!NOTE]
-> 若要使用存档，必须配置存档策略以指定是为内部通信启用存档、对于外部通信还是对驻留在 Lync Server 2013 上的用户启用存档。 默认情况下，不会为内部或外部通信启用存档。 在任何策略中启用存档之前，应为你的部署指定相应的存档配置，并根据需要为特定的网站和池指定相应的存档配置，如本节所述。 有关启用存档的详细信息，请参阅部署文档中的<A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">在 Lync Server 2013 中配置和分配存档策略</A>。<BR>如果你在部署要使用 Microsoft Exchange 集成来存储 Exchange 2013 服务器上的存档数据和文件的存档之后，并且你的所有用户都托管在 Exchange 2013 服务器上，则应删除 SQL Server 数据库配置从拓扑中。 您必须使用拓扑生成器执行此操作。 有关详细信息，请参阅在操作文档中<A href="lync-server-2013-changing-archiving-database-options.md">更改 Lync Server 2013 中的存档数据库选项</A>。
+> 若要使用存档，您必须配置存档策略，以指定是为内部通信启用存档，还是为外部通信启用存档，还是对驻留在 Lync Server 2013 上的用户启用存档。 默认情况下，不会为内部或外部通信启用存档。 在任何策略中启用存档之前，您应为您的部署和（可选）特定站点和池指定相应的存档配置，如本节所述。 有关启用存档的详细信息，请参阅部署文档中的在<A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Lync Server 2013 中配置和分配存档策略</A>。<BR>如果您在部署了要使用 Microsoft Exchange 集成来存储 Exchange 2013 服务器上的存档数据和文件的存档后决定，并且您的所有用户都驻留在 Exchange 2013 服务器上，则应删除 SQL Server 数据库配置从拓扑中。 您必须使用拓扑生成器执行此操作。 有关详细信息，请参阅操作文档中的在<A href="lync-server-2013-changing-archiving-database-options.md">Lync Server 2013 中更改存档数据库选项</A>。
 
 
 
@@ -61,19 +61,19 @@ _**主题上次修改时间：** 2012-10-10_
 
 1.  使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击“监控和存档”****，然后单击“存档配置”****。
+3.  在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。
 
-4.  从存档配置列表中选择相应的全局、站点或池策略，单击“**编辑**”，再单击“**显示详细信息**”，然后执行下列操作：
+4.  从存档配置列表中选择相应的全局、站点或池策略，单击“编辑”****，再单击“显示详细信息”****，然后执行下列操作：
     
-      - 若要只为即时消息 (IM) 会话启用存档，请单击“**存档 IM 会话**”。
+      - 若要只为即时消息 (IM) 会话启用存档，请单击“存档 IM 会话”****。
     
-      - 若要同时为 IM 会话和会议启用存档，请单击“**存档 IM 和会议会话**”。
+      - 若要同时为 IM 会话和会议启用存档，请单击“存档 IM 和会议会话”****。
     
-      - 若要为策略禁用存档，请单击“**禁用存档**”。
+      - 若要为策略禁用存档，请单击“禁用存档”****。
 
-5.  单击“**提交**”。
+5.  单击“提交”****。
 
 </div>
 
@@ -82,7 +82,7 @@ _**主题上次修改时间：** 2012-10-10_
 ## <a name="see-also"></a>另请参阅
 
 
-[管理您的组织、网站和池的 Lync Server 2013 中的存档配置选项](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+[在 Lync Server 2013 中管理组织、网站和池的存档配置选项](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
 [在 Lync Server 2013 中配置和分配存档策略](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
   
 

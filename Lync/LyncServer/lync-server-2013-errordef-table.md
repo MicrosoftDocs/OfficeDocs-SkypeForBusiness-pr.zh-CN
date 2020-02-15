@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：ErrorDef 表
+title: Lync Server 2013： ErrorDef 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a6ab9a8bf50639267824c8330701ee74cb3f5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c490bc9b5058af75704ec3d10c3535581c56df2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735432"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735432"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-05-25_
+_**上次修改的主题：** 2012-05-25_
 
-ErrorDef 表存储可能出现的每种类型的错误的相关信息。 每条记录是一种类型的错误。
+ErrorDef 表存储可能出现的每种错误类型的相关信息。 每条记录是一种类型的错误。
 
 
 <table>
@@ -59,14 +59,14 @@ ErrorDef 表存储可能出现的每种类型的错误的相关信息。 每条�
 <tr class="odd">
 <td><p><strong>ErrorId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识此类型错误的唯一 ID 号。</p></td>
+<td><p>主</p></td>
+<td><p>标识此类型的错误的唯一 ID 号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>与此错误相关联的标准 SIP 响应代码。</p></td>
+<td><p>与此错误关联的标准 SIP 响应代码。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagId</strong></p></td>
@@ -76,15 +76,15 @@ ErrorDef 表存储可能出现的每种类型的错误的相关信息。 每条�
 </tr>
 <tr class="even">
 <td><p><strong>CallTypeId</strong></p></td>
-<td><p>整形</p></td>
-<td><p>外表</p></td>
-<td><p>通话的类型。 有关详细信息，请参阅<a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a>。</p></td>
+<td><p>Int</p></td>
+<td><p>对外</p></td>
+<td><p>呼叫的类型。 有关详细信息，请参阅<a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>
 <td><p>varbinary （33）</p></td>
 <td><p> </p></td>
-<td><p>失败的请求类型。</p>
+<td><p>失败的请求的类型。</p>
 <p>可以使用以下语法将此数据转换为文本格式：</p>
 <p><code>cast(cast(RequestType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
@@ -93,7 +93,7 @@ ErrorDef 表存储可能出现的每种类型的错误的相关信息。 每条�
 <td><p>varbinary （257）</p></td>
 <td><p> </p></td>
 <td><p>失败的请求的内容类型。</p>
-<p>可使用此 syntaxt 将此数据转换为文本格式：</p>
+<p>可以使用此 syntaxt 将此数据转换为文本格式：</p>
 <p><code>cast(cast(ContentType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>

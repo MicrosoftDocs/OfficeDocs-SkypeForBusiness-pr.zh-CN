@@ -12,16 +12,16 @@ ms:contentKeyID: 51803928
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 936a591ea46c6b599a9a72f06a9287be35e66cce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 345e1ad4c621ce6330b1b1a34c97664d080d6575
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728192"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,18 +35,18 @@ ms.locfileid: "41728192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-20_
+_**上次修改的主题：** 2013-02-20_
 
-还可以使用 Windows PowerShell 和**CsdeviceUpdateConfiguration** cmdlet 删除设备更新配置设置。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
-
-<div>
-
+还可以使用 Windows PowerShell 和**CsdeviceUpdateConfiguration** cmdlet 删除设备更新配置设置。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
-## <a name="to-remove-a-specific-collection-of-device-update-configuration-settings"></a>删除设备更新配置设置的特定集合
 
-  - 此命令将删除应用于 Redmond 网站的设备更新配置设置：
+<div>
+
+## <a name="to-remove-a-specific-collection-of-device-update-configuration-settings"></a>删除特定的设备更新配置设置集合
+
+  - 此命令将删除应用于 Redmond 站点的设备更新配置设置：
     
         Remove-CsDeviceUpdateConfiguration -Identity "site:Redmond"
 
@@ -54,9 +54,9 @@ _**主题上次修改时间：** 2013-02-20_
 
 <div>
 
-## <a name="to-remove-all-the-device-update-configuration-settings-applied-to-the-site-scope"></a>删除应用到网站范围的所有设备更新配置设置
+## <a name="to-remove-all-the-device-update-configuration-settings-applied-to-the-site-scope"></a>删除应用到站点范围的所有设备更新配置设置
 
-  - 此命令将删除应用到网站范围的所有设备更新配置设置：
+  - 此命令将删除应用于站点作用域的所有设备更新配置设置：
     
         Get-CsDeviceUpdateConfiguration -Filter "site:*" | Remove-CsDeviceUpdateConfiguration
 
@@ -64,9 +64,9 @@ _**主题上次修改时间：** 2013-02-20_
 
 <div>
 
-## <a name="to-remove-device-update-configuration-settings-based-on-the-value-of-the-logcleanupinterval-property"></a>若要删除基于 LogCleanUpInterval 属性值的设备更新配置设置
+## <a name="to-remove-device-update-configuration-settings-based-on-the-value-of-the-logcleanupinterval-property"></a>根据 LogCleanUpInterval 属性的值删除设备更新配置设置
 
-  - 以下命令将删除日志清除间隔大于10天（10.00：00：00）的所有设备更新配置设置：
+  - 以下命令将删除日志清理间隔大于10天（10.00：00：00）的所有设备更新配置设置：
     
         Get-CsDeviceUpdateConfiguration | Where-Object {$_.LogCleanUpInterval -gt "10.00:00:00" | Remove-CsDeviceUpdateConfiguration
 

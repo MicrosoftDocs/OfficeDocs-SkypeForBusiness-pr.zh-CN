@@ -12,16 +12,16 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa234a4420c1bec54cd673eb59d254e07deab8f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766053"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41766053"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-在 Lync Server 2013 中，会议策略定义用户的计划和参与体验，以及 "会议配置" 页面上的 "会议加入设置" 定义以下内容：
+在 Lync Server 2013 中，会议策略定义了用户计划和参与体验，并且会议配置页上的 "会议加入设置" 定义了以下内容：
 
   - 从公用电话交换网 (PSTN) 拨入的用户是否进入会议厅
 
@@ -47,11 +47,11 @@ _**主题上次修改时间：** 2012-11-01_
 
   - 默认情况下是否允许匿名（未经身份验证）用户加入会议
 
-本部分中的主题介绍如何配置会议联接设置。
+本节中的主题介绍如何配置与会设置。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看会议配置设置](lync-server-2013-view-meeting-configuration-settings.md)
 

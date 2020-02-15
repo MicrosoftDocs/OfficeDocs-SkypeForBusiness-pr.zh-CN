@@ -12,16 +12,16 @@ ms:contentKeyID: 48185867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a76052297e527e24fd3daf0c03d02661c7ddc255
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74aec0a6fe0edc288dfaae57a146c52cf9a0babe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754452"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41754452"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-30_
+_**上次修改的主题：** 2012-10-30_
 
-本部分介绍了一些方法，用于准备用于灾难恢复的呼叫寄存应用程序以及灾难恢复过程的一些注意事项。
+本节介绍一些为灾难恢复准备呼叫寄存应用程序以及灾难恢复过程的一些注意事项的方法。
 
 <div>
 
-## <a name="preparing-for-call-park-disaster-recovery"></a>准备呼叫寄存灾难恢复
+## <a name="preparing-for-call-park-disaster-recovery"></a>为呼叫寄存灾难恢复做准备
 
-在准备和执行灾难恢复过程时，请牢记以下事项。
+准备和执行灾难恢复过程时牢记以下事项。
 
-  - 在执行容量规划时规划灾难恢复。 对于灾难恢复容量，配对池中的每个池都应该能够处理两个池中的呼叫寄存服务的工作负荷。 有关呼叫寄存容量规划的详细信息，请参阅[Lync Server 2013 中的呼叫寄存的容量规划](lync-server-2013-capacity-planning-for-call-park.md)。
+  - 执行容量规划时，规划灾难恢复。 对于灾难恢复容量，配对池中的每个池都应能够处理两个池中的呼叫寄存服务的工作负荷。 有关呼叫寄存容量规划的详细信息，请参阅[Lync Server 2013 中的呼叫寄存的容量规划](lync-server-2013-capacity-planning-for-call-park.md)。
 
-  - 在灾难恢复期间，已被重定向到备份池的用户将使用在备份池中运行的呼叫驻留服务。 因此，在灾难恢复期间对呼叫寄存的支持需要在主池和备份池中部署和启用呼叫驻留应用程序。
+  - 灾难恢复期间，作为故障转移过程之一重定向至备份池的用户将使用在备份池中运行的呼叫寄存服务。 因此，在灾难恢复过程中对呼叫寄存的支持要求在主池和备份池中部署和启用呼叫寄存应用程序。
 
-  - 对于驻留在该池中的用户，每个池必须具有有效的轨道编号范围，以便用于停车通话。
+  - 每个池针对驻留在该池中的用户数必须具有有效范围的用于寄存呼叫的通道号。
 
-  - 始终保留已为呼叫寄存上载的任何自定义音乐的单独备份副本。 这些文件不会作为 Lync Server 2013 灾难恢复过程的一部分进行备份，如果上载到该池的文件已损坏、损坏或删除，将丢失这些文件。
+  - 始终保留已为呼叫寄存上载的任何自定义音乐保留的单独备份副本。 这些文件不会作为 Lync Server 2013 灾难恢复过程的一部分进行备份，如果上载到池的文件已损坏、损坏或清除，则这些文件将丢失。
 
 </div>
 
@@ -59,11 +59,11 @@ _**主题上次修改时间：** 2012-10-30_
 
 ## <a name="call-park-disaster-recovery-considerations"></a>呼叫寄存灾难恢复注意事项
 
-每个池中只能定义一组通话寄存应用程序配置设置和一个自定义的音乐保留音频文件。 这些设置包括超时阈值、暂停的音乐、最大的呼叫装货尝试和超时 URI。 若要查看这些配置设置，请运行**CsCpsConfiguration** cmdlet。 有关**CsCpsConfiguration** cmdlet 的详细信息，请参阅[CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration)。
+您可以为每个池仅定义一组呼叫寄存应用程序配置设置和一个自定义的音乐保留音频文件。 这些设置包括超时阈值、保持音乐、最大呼叫应答尝试数和超时 URI。 要查看这些配置设置，请运行 **Get-CsCpsConfiguration** cmdlet。 有关**CsCpsConfiguration** cmdlet 的详细信息，请参阅[CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration)。
 
-在灾难恢复期间，呼叫寄存使用备份池中的 "呼叫驻留" 应用程序，因此不会备份主池中的设置。 如果无法恢复主池，并且你部署新池以替换主池，则会丢失主池中的设置，你需要在新池中重新配置呼叫寄存设置和任何自定义的音乐保留音频文件。
+在灾难恢复过程中，呼叫寄存将使用备份池中的呼叫寄存应用程序，因此不会备份主池中的设置。 如果无法恢复主池并部署新池以替换主池，则将丢失主池的设置，并且需要在新池中重新配置呼叫寄存设置和任何自定义的音乐保留音频文件。
 
-如果你部署具有不同完全限定的域名（FQDN）的新池来替换主池，你需要将与主池相关联的所有呼叫寄存轨道范围重新分配给新池的 FQDN。 若要将轨道范围重新分配给新池，你可以使用 Lync Server 控制面板或**CsCallParkOrbit** cmdlet。 有关**CsCallParkOrbit** cmdlet 的详细信息，请参阅[set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)。
+如果使用其他完全限定的域名（FQDN）部署新池以替换主池，则需要将与主池关联的所有呼叫寄存轨道范围重新分配给新池的 FQDN。 若要将轨道范围重新分配给新池，可以使用 Lync Server 控制面板或**CsCallParkOrbit** cmdlet。 有关**CsCallParkOrbit** cmdlet 的详细信息，请参阅[CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)。
 
 </div>
 

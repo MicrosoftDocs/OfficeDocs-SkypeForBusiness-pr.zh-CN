@@ -12,16 +12,16 @@ ms:contentKeyID: 48183365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e10b8e85f6db445acb21beb6e272e2147e89b474
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c8c13c4333ea8458d5e8365de03dcace2bcd64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754342"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41754342"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-10_
+_**上次修改的主题：** 2014-02-10_
 
-本部分中的主题讨论部署 Microsoft Lync Server 2013 客户端的规划注意事项。 无论是要部署新的 Lync Server 2013 安装还是从以前的部署迁移，这些主题都提供重要的客户端计划信息。
+本节中的主题讨论部署 Microsoft Lync Server 2013 客户端的规划注意事项。 无论您是部署全新的 Lync Server 2013 安装还是从以前的部署迁移，这些主题都会提供重要的客户端规划信息。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 的客户端](lync-server-2013-clients.md)
+  - [Lync Server 2013 客户端](lync-server-2013-clients.md)
 
   - [Lync Server 2013 的客户端比较表](lync-server-2013-desktop-client-comparison-tables.md)
 

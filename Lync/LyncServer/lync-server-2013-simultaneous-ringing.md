@@ -12,16 +12,16 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bcdb0d30bccfe628fd02861d257d79268046b77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e3104da5e7d351bda26698087e97106cafbdff4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764508"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037502"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764508"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-03-09_
+_**上次修改的主题：** 2013-03-09_
 
-当被呼叫方启用同时震铃时，基于位置的路由会分析呼叫方的位置和被呼叫方的终结点，以确定是否应路由呼叫。
+当呼叫方启用同时响铃时，基于位置的路由将分析呼叫方的位置和被叫方的终结点，以确定是否应路由呼叫。
 
-下表说明配置了同时响铃的用户，同时响铃目标是位于相同网络站点中的用户、位于不同网络站点中的用户或者位于未知网络站点中的用户。
+下表说明了配置了同时响铃的用户，同时响铃目标是同一网络站点、不同网络站点或未知网络站点中的用户。
 
 
 <table>
@@ -51,24 +51,24 @@ _**主题上次修改时间：** 2013-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>传入 PSTN 呼叫</th>
-<th>位于与被呼叫者相同的网络站点中</th>
+<th>的传入 PSTN 呼叫</th>
+<th>位于与被呼叫方相同的网络站点中</th>
 <th>位于与被呼叫者不同的网络站点中</th>
-<th>位于未知网络网站中，或者未启用基于位置的路由</th>
+<th>位于未知网络站点中，或未启用基于位置的路由</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync 用户</p></td>
-<td><p>允许同时响铃</p></td>
-<td><p>不允许同时响铃</p></td>
-<td><p>不允许同时响铃</p></td>
+<td><p>允许同时振铃</p></td>
+<td><p>不允许同时振铃</p></td>
+<td><p>不允许同时振铃</p></td>
 </tr>
 </tbody>
 </table>
 
   
-下表说明了来自同一网络站点、不同网络站点或来自未知网络站点的 Lync 用户（即 Lync 呼叫者）的呼叫。 被呼叫者将 PSTN 终结点（如移动电话）配置为同时响铃目标。 在此方案中，基于位置的路由将确定是否应将呼叫路由到被呼叫方的同时环目标（即手机）。
+下表说明了来自同一网络站点、不同网络站点或未知网络站点中 Lync 用户（即 Lync 呼叫者）的呼叫。 被叫方具有配置为同时振铃目标的 PSTN 终结点（即手机）。 在这种情况下，基于位置的路由将确定是否应将呼叫路由到被呼叫方的同时环目标（即手机）。
 
 
 <table>
@@ -80,18 +80,18 @@ _**主题上次修改时间：** 2013-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>同时响铃目标</th>
-<th>位于与被呼叫者相同的网络站点中</th>
+<th>同时振铃目标</th>
+<th>位于与被呼叫方相同的网络站点中</th>
 <th>位于与被呼叫者不同的网络站点中</th>
-<th>位于未知网络网站中，或者未启用基于位置的路由</th>
+<th>位于未知网络站点中，或未启用基于位置的路由</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>PSTN 终结点</p></td>
-<td><p>允许通过呼叫者的站点语音路由策略同时响铃</p></td>
-<td><p>允许通过呼叫者的站点语音路由策略同时响铃</p></td>
-<td><p>允许通过呼叫者的语音策略向未启用基于位置的路由的中继同时响铃</p></td>
+<td><p>通过呼叫者的站点语音路由策略允许同时响铃</p></td>
+<td><p>通过呼叫者的站点语音路由策略允许同时响铃</p></td>
+<td><p>允许通过呼叫者的语音策略同时振铃到未启用基于位置的路由的中继</p></td>
 </tr>
 </tbody>
 </table>

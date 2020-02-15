@@ -12,16 +12,16 @@ ms:contentKeyID: 51541498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 084adb2663c8ae515be5c19df0652be515aa3273
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7f7b2b9b7ecb3b6e25bf83ce7f424cb2ce040c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740622"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41740622"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-17_
+_**上次修改的主题：** 2013-02-17_
 
-本节中的过程介绍了如何备份 Lync Server，以便你可以在发生停机或失败时恢复服务。
+本节中的过程介绍如何备份 Lync Server，以便在发生中断或故障时可以恢复服务。
 
-你应该制定针对你的组织的备份和恢复策略和计划，如[开发备份和还原策略和规划 Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)中所述。 此策略和计划应包括计划使用的特定过程。 使用本部分主题中包含的过程以及[Lync server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中的工作表，以记录如何计划备份特定的 Lync 服务器部署。
+应按照[开发备份和还原策略和规划 Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)中的说明，制定备份和恢复策略并规划组织。 此策略和计划应包括您计划使用的特定过程。 使用此部分中的主题中包含的过程以及[Lync server 2013 备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中的工作表，以记录如何计划备份特定的 Lync server 部署。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中验证备份先决条件](lync-server-2013-verifying-backup-prerequisites.md)
 

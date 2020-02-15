@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：企业语音部署过程概述
+title: Lync Server 2013：企业语音的部署过程概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ed85bb49ed48c247c67392d2cf44bd9a9029bf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28eef2990d9f8a43dc594302e6c4d1678f7c3d17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762560"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042219"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762560"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-22_
+_**上次修改的主题：** 2012-09-22_
 
-你需要关注的部署和配置步骤取决于你要添加到 Lync Server 2013 环境的企业语音功能或功能。
+您需要遵循的部署和配置步骤取决于要添加到 Lync Server 2013 环境中的企业语音功能或功能。
 
 <div>
 
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2012-09-22_
 
 有关部署 Exchange 统一消息（UM）的概述，请参阅以下内容：
 
-  - [集成本地统一消息与 Lync Server 2013 的部署过程](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
+  - [集成本地统一消息和 Lync Server 2013 的部署过程](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)
 
-有关部署 "呼叫许可控制" 的概述，请参阅以下主题：
+有关部署呼叫允许控制的概述，请参阅下列主题：
 
   - [Lync Server 2013 中呼叫允许控制的部署清单](lync-server-2013-deployment-checklist-for-call-admission-control.md)
 
@@ -63,17 +63,17 @@ _**主题上次修改时间：** 2012-09-22_
 
   - [在 Lync Server 2013 中定义紧急呼叫要求](lync-server-2013-defining-your-requirements-for-emergency-calls.md)
 
-  - [选择 Lync Server 2013 的 E9 服务提供商](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
+  - [为 Lync Server 2013 选择 E9-1-1 服务提供商](lync-server-2013-choosing-an-e9-1-1-service-provider.md)
 
-  - [Lync Server 2013 中的 E9 的部署清单-1](lync-server-2013-deployment-checklist-for-e9-1-1.md)
+  - [Lync Server 2013 中的 E9-1-1 的部署清单](lync-server-2013-deployment-checklist-for-e9-1-1.md)
 
-有关部署专用电话线的概述，请参阅[使用 Lync Server 2013 规划专用电话线路](lync-server-2013-planning-for-private-telephone-lines.md)的 "混合部署中的专用电话线" 部分。
+有关部署专用电话线路的概述，请参阅[规划专用电话线路和 Lync Server 2013](lync-server-2013-planning-for-private-telephone-lines.md)中的 "混合部署中的专用电话线路" 一节。
 
-有关调用处理功能（调用 "停车"、"公告应用程序" 和 "响应组"）部署的概述，请参阅以下内容：
+有关配置呼叫处理功能（呼叫寄存、通知应用程序和响应组）的概述，请参阅以下内容：
 
-  - [Lync Server 2013 中的呼叫寄存的部署过程](lync-server-2013-deployment-process-for-call-park.md)
+  - [Lync Server 2013 中呼叫寄存的部署过程](lync-server-2013-deployment-process-for-call-park.md)
 
-  - [Lync Server 2013 中的公告应用程序的部署过程](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Lync Server 2013 中的通知应用程序的部署过程](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b82b4cd1a5458fac6b2d5ade712fcfeeaf120208
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37e64fe903f873fd1d350007ee3b02601416797a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724662"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,35 +35,35 @@ ms.locfileid: "41724662"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-03-21_
+_**上次修改的主题：** 2012-03-21_
 
-PSTN 网关使您的企业语音用户可以拨打 PSTN 网络（即公共交换电话网络）上的用户拨打和接听电话。 这些网关充当中介服务器和 PSTN 网络之间的桥梁。
+PSTN 网关使企业语音用户不仅能够对 PSTN 网络（即公用电话交换网）上的人员进行电话呼叫，也能够接收来自 PSTN 网络上的人员的电话呼叫。这些网关充当中介服务器和 PSTN 网络之间的网桥。
 
 <div>
 
 ## <a name="pstn-gateways-cmdlets"></a>PSTN 网关 Cmdlet
 
-[CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15))和[CsPstnPeerToPeerCall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15)) cmdlet 使你能够验证用户是否可以通过 PSTN 网络进行呼叫。
+通过 [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) 和 [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlet，您可以验证用户能否通过 PSTN 网络进行呼叫。
 
 **PSTN 网关**
 
   - <span></span>  
-    [Set-CsPstnGateway](https://technet.microsoft.com/en-us/library/Gg398408(v=OCS.15))
+    [CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15))
+    [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15))
+    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsMediationServer](https://technet.microsoft.com/en-us/library/Gg398213(v=OCS.15))
+    [Set-csmediationserver](https://technet.microsoft.com/library/Gg398213(v=OCS.15))
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：SIP 中继上的呼叫允许控制
+title: Lync Server 2013： SIP 中继上的呼叫允许控制
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab8196070bbb7992aed915cf188d67e95912524a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4ae55f6146e59931b55ec384d374ea837eeb598c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742402"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013 中 SIP 中继上的呼叫允许控制
+# <a name="call-admission-control-on-a-sip-trunk-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 中继上的呼叫允许控制
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41742402"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-22_
+_**上次修改的主题：** 2012-09-22_
 
 要在 SIP 中继上部署呼叫允许控制 (CAC)，请创建一个代表 Internet 电话服务提供商 (ITSP) 的网络站点。要在 SIP 中继上应用带宽策略值，请创建一个企业内部网络站点和所创建的用于代表 ITSP 的网络站点之间的站点间策略。
 
@@ -47,7 +47,7 @@ _**主题上次修改时间：** 2012-09-22_
 
 要在 SIP 中继上配置 CAC，必须在 CAC 部署过程中执行以下任务：
 
-1.  创建一个网络站点，代表 ITSP。 将网络站点与相应的网络区域相关联，然后为该网络站点的音频和视频分配零带宽。 有关详细信息，请参阅部署文档中的[Lync Server 2013 中的 CAC 的 "配置网络站点](lync-server-2013-configure-network-sites-for-cac.md)"。
+1.  创建一个网络站点，代表 ITSP。 将网络站点与相应的网络区域相关联，然后为该网络站点的音频和视频分配零带宽。 有关详细信息，请参阅部署文档中的在[Lync Server 2013 中配置 CAC 的网络站点](lync-server-2013-configure-network-sites-for-cac.md)。
     
     <div>
     
@@ -58,7 +58,7 @@ _**主题上次修改时间：** 2012-09-22_
     
     </div>
 
-2.  使用在步骤 1 中创建的站点的相关参数值，为 SIP 中继创建站点间链接。 例如，使用企业中的网络站点名称作为参数 NetworkSiteID1 的值，并使用 ITSP 网络站点名称作为参数 NetworkSiteID2 的值。 有关详细信息，请参阅部署文档中[Lync Server 2013 中的 "创建网络站点间策略](lync-server-2013-create-network-intersite-policies.md)"。 另请参阅 CsNetworkInterSitePolicy cmdlet 的 Lync Server Management Shell 文档。
+2.  使用在步骤 1 中创建的站点的相关参数值，为 SIP 中继创建站点间链接。 例如，使用企业中的网络站点名称作为参数 NetworkSiteID1 的值，并使用 ITSP 网络站点名称作为参数 NetworkSiteID2 的值。 有关详细信息，请参阅部署文档中的在[Lync Server 2013 中创建网络站点间策略](lync-server-2013-create-network-intersite-policies.md)。 另请参阅 New-csnetworkintersitepolicy cmdlet 的 Lync Server 命令行管理程序文档。
 
 3.  从 ITSP 获取会话边界控制器 (SCB) 的媒体端点的 IP 地址。 将子网掩码为 32 的 IP 地址添加到代表 ITSP 的网络站点。 有关详细信息，请参阅[在 Lync Server 2013 中将子网与网络站点关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)。
 

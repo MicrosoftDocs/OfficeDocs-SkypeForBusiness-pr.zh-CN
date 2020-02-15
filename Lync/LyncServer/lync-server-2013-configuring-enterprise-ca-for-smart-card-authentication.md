@@ -12,16 +12,16 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44df62031e679c641b4c7dbe6b5c205e1ae899e8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a49fb76019fbb3bc3356fed5de7a67b0e3a10350
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728962"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728962"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-07-03_
+_**上次修改的主题：** 2013-07-03_
 
-以下部分介绍了如何配置企业根证书颁发机构（CA）以支持智能卡身份验证。 有关如何安装企业根 CA 的详细信息，请参阅在以下位置[http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)安装企业根证书颁发机构。
+下一节介绍如何配置企业根证书颁发机构（CA）以支持智能卡身份验证。 有关如何安装企业根 CA 的信息，请参阅在[http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)上安装企业根证书颁发机构。
 
 <div>
 
@@ -47,31 +47,31 @@ _**主题上次修改时间：** 2013-07-03_
 
 1.  使用域管理员帐户登录到企业 CA 计算机。
 
-2.  启动系统管理器，并验证是否已安装“证书颁发机构 Web 注册”角色。
+2.  启动系统管理器，并验证是否安装了证书颁发机构 Web 注册角色。
 
-3.  从“管理工具”**** 菜单中，打开“证书颁发机构”**** 管理控制台。
+3.  从 "**管理工具**" 菜单中，打开 "**证书颁发机构**管理控制台"。
 
-4.  在导航窗格中，展开“证书颁发机构”****。
+4.  在导航窗格中，展开 "**证书颁发机构**"。
 
-5.  右键单击“证书模板”****，选择“新建”****，然后选择“要颁发的证书模板”****。
+5.  右键单击 "**证书模板**"，选择 "**新建**"，然后选择 "**要颁发的证书模板**"。
 
-6.  选择“注册代理”****、“智能卡用户”**** 和“智能卡登录”****。
+6.  选择 "**注册代理**"、"**智能卡用户**" 和 "**智能卡登录**"。
 
-7.  单击“**确定**”。
+7.  单击“确定”。
 
-8.  右键单击“证书模板”****。
+8.  右键单击 "**证书模板**"。
 
-9.  选择“管理”****。
+9.  选择 "**管理**"。
 
-10. 打开智能卡用户模板的属性。
+10. 打开 "智能卡用户" 模板的属性。
 
-11. 单击“安全”**** 选项卡。
+11. 单击 "**安全**" 选项卡。
 
 12. 更改权限，如下所示：
     
-      - 添加具有读取/注册（允许）权限的各个用户 AD 帐户，或者
+      - 添加具有读取/注册（允许）权限的单个用户 AD 帐户，或
     
-      - 添加具有读取/注册（允许）权限且包含智能卡用户的安全组，或者
+      - 添加包含具有读/注册（允许）权限的智能卡用户的安全组，或者
     
       - 添加具有读取/注册（允许）权限的域用户组
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35517b535c515bbb0fcfd28b69c99e27d0b9b175
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb42a8504964ebbce18cc7ebad23059781f570d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756056"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045514"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756056"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-17_
+_**上次修改的主题：** 2012-10-17_
 
-你可以使用 Lync Server 2013 控制面板和 Lync Server 2013 管理程序外壳在 Lync Server 2013 中管理用户帐户。 本部分中的过程将指导你了解如何查看帐户信息和配置用户帐户的设置。
+您可以使用 Lync Server 2013 控制面板和 Lync Server 2013 命令行管理程序在 Lync Server 2013 中管理用户帐户。 本节中的过程将向您介绍如何查看帐户信息和配置用户帐户的设置。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [为 Lync Server 2013 启用的用户帐户](lync-server-2013-user-accounts-enabled-for-lync-server.md)
 

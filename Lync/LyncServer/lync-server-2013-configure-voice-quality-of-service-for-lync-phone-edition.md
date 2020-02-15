@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：为 Lync Phone 版本配置语音服务质量
+title: Lync Server 2013：为 Lync Phone Edition 配置语音质量服务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d2b669592d2fa50d3b47fcc45722234fe76963
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 104e74c903b673c4aa3593b8b50868306912a9a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733882"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048105"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-quality-of-service-for-lync-phone-edition-in-lync-server-2013"></a>在 Lync Server 2013 中配置 Lync Phone 版的语音服务质量
+# <a name="configure-voice-quality-of-service-for-lync-phone-edition-in-lync-server-2013"></a>在 Lync Server 2013 中为 Lync Phone Edition 配置语音质量服务
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733882"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-29_
+_**上次修改的主题：** 2012-09-29_
 
-通过设置连接到 Lync Server 2013 的 IP 电话的 QoS 级别，可以配置池中 Lync Phone 版设备的语音服务质量（QoS）要求。
+您可以通过为连接到 Lync Server 2013 的 IP 电话设置 QoS 级别，为池中的 Lync Phone Edition 设备配置语音服务质量（QoS）要求。
 
 <div>
 
 ## <a name="to-configure-voice-quality-of-service-for-lync-phone-edition"></a>为 Lync Phone Edition 配置语音服务质量
 
-1.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-2.  在左侧导航栏中，单击 "**客户端**"，然后单击 "**设备配置**"。
+2.  在左侧导航栏中，单击“客户端”****，然后单击“设备配置”****。
 
-3.  在 "**设备配置**" 页面上的设备配置列表中，双击要更改其 QoS 设置的配置。
+3.  在“设备配置”**** 页上的设备配置列表中，双击要更改 QoS 设置的配置。
 
-4.  在 "**编辑设备配置**" 下的 "**语音服务质量**" 下，指定 QoS 级别。 默认级别为**40**。
+4.  在“编辑设备配置”**** 中的“语音服务质量”**** 下，指定 QoS 级别。默认级别为“40”****。
 
 </div>
 

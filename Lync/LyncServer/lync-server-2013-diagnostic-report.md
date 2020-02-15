@@ -12,16 +12,16 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a2fa69e0e2397b970850a91042f0241060f839
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a906e131329df1b59c4ac6067a4696871f0bebfc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762340"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762340"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-07_
+_**上次修改的主题：** 2014-02-07_
 
 诊断报告提供失败的会话的诊断和故障排除信息。 此信息包括在会话失败时所报告的诊断 ID 和诊断标头。 诊断 ID 是附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），而诊断标头提供诊断 ID 的附带说明。 该报告可能还包含报告组件所了解的有价值的故障排除详细信息。 例如：
 
@@ -49,7 +49,7 @@ _**主题上次修改时间：** 2014-02-07_
 
 ## <a name="accessing-the-diagnostic-report"></a>访问诊断报告
 
-可通过在 Lync Server 2013 或会议详细信息报告中单击 "[对等会话详细信息" 报告](lync-server-2013-peer-to-peer-session-detail-report.md)上的诊断报告（详细信息）指标来访问诊断报告。
+可以通过单击 Lync Server 2013 或会议详细信息报告[中的对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)上的 "诊断报告（详细信息）" 指标来访问诊断报告。
 
 </div>
 
@@ -79,7 +79,7 @@ _**主题上次修改时间：** 2014-02-07_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -99,7 +99,7 @@ _**主题上次修改时间：** 2014-02-07_
 <td><p>失败的 SIP 请求类型。例如，INVITE、BYE 或 SERVICE。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>来源</strong></p></td>
+<td><p><strong>Source</strong></p></td>
 <td><p>否</p></td>
 <td><p>错误的来源。</p></td>
 </tr>
@@ -124,7 +124,7 @@ _**主题上次修改时间：** 2014-02-07_
 <td><p>失败的媒体内容类型。例如，常见内容类型为 Application/sdp。会话描述协议 (SDP) 是用于会话公告、会话邀请及其他形式的多媒体会话启动的标准 Internet 协议。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>应用程序</strong></p></td>
+<td><p><strong>Application</strong></p></td>
 <td><p>否</p></td>
 <td><p>错误涉及的应用程序。</p></td>
 </tr>
@@ -147,7 +147,7 @@ _**主题上次修改时间：** 2014-02-07_
 </table>
 
 
-可以在[Ms Diagnostics 标题页面](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx)上找到诊断错误列表。
+可以在 " [Ms-诊断" 标头页](http://msdn.microsoft.com/library/gg132446\(v=office.12\).aspx)上找到诊断错误列表。
 
 </div>
 

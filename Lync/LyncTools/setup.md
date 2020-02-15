@@ -1,5 +1,5 @@
 ---
-title: 设置
+title: 安装
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a23ab96b25fa3ba5da846fc5967053fdac041b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d09980e7a34e5c565fe8282a665cede654a725a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763982"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a>设置
+# <a name="setup"></a>安装
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763982"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-04-22_
+_**上次修改的主题：** 2014-04-22_
 
-若要安装 Lync Server 2013 应力和性能工具中提供的工具，请按照以下说明操作。
+若要安装作为 Lync Server 2013 压力和性能工具的一部分提供的工具，请按照以下说明操作。
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a>安装应力和性能工具
+## <a name="installing-the-stress-and-performance-tool"></a>安装压力和性能工具
 
-在你将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件**CapacityPlanningTool**。 这些客户端计算机不得运行任何 Lync Server 组件。
+在将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件**CapacityPlanningTool**。 这些客户端计算机不得运行任何 Lync Server 组件。
 
 </div>
 

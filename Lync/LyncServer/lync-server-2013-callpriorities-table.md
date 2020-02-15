@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：CallPriorities 表
+title: Lync Server 2013： CallPriorities 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183275
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31ddf598fcf33b4f4841f9e3a9e857fd57ea608c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2be19538e065a1f9a25dd58da93b2752a27333e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743212"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743212"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-CallPriorities 表是一个静态表，用于存储可能的调用优先级列表，例如 "紧急"、"紧急" 或 "正常"。
+CallPriorities 表是一个静态表，用于存储可能的呼叫优先级（例如“紧急”、“紧迫”或“普通”）列表。
 
 
 <table>
@@ -59,20 +59,20 @@ CallPriorities 表是一个静态表，用于存储可能的调用优先级列�
 <tr class="odd">
 <td><p><strong>PriorityId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>优先级</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Priority</strong></p></td>
+<td><p>nvarchar （256）</p></td>
 <td></td>
 <td><p>允许的值：</p>
 <ul>
-<li><p>0-未知</p></li>
-<li><p>1-非紧急</p></li>
-<li><p>2-正常</p></li>
-<li><p>3-紧急</p></li>
-<li><p>4-紧急情况</p></li>
+<li><p>0 – 未知</p></li>
+<li><p>1 – 非紧急</p></li>
+<li><p>2 – 普通</p></li>
+<li><p>3 – 紧急</p></li>
+<li><p>4 – 紧迫</p></li>
 </ul></td>
 </tr>
 </tbody>

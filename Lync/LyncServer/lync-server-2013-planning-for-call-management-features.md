@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：规划通话管理功能
+title: Lync Server 2013：规划呼叫管理功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 206974500bd27c0cbecd902f9e87daf9a435c6dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bc3e644955a59515334a30fdf974db6c90d3f33
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754622"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,36 +35,36 @@ ms.locfileid: "41754622"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-12-17_
+_**上次修改的主题：** 2012-12-17_
 
-企业语音呼叫管理功能控制如何传送和应答传入呼叫。 Lync Server 2013 提供下列呼叫管理功能：
+企业语音呼叫管理功能控制如何路由和应答传入呼叫。 Lync Server 2013 提供以下呼叫管理功能：
 
   - **呼叫寄存**：允许语音用户暂时寄存呼叫，然后从同一电话或其他电话接听呼叫。
 
-  - **组应答**：使语音用户能够应答为分配到呼叫应答组的其他语音用户响铃的呼叫。
+  - **组装货**：使语音用户能够获取呼叫，以供分配到呼叫应答组的其他语音用户拨打。
     
     <div>
     
 
     > [!NOTE]  
-    > 组装货是 Lync Server 2013 的累积更新的新增功能：2月2013。
+    > 组装货是 Lync Server 2013 的累积更新的新内容：二月份2013。
 
     
     </div>
 
-  - **响应组**：通过智能寻线或互动语音响应 (IVR) 问题和答案，将传入呼叫路由至代理组。
+  - **响应组**：通过使用智能寻线或互动语音响应（IVR）问题和答案，将传入呼叫路由到代理组。
 
-  - **公告：**    对未分配号码的通话播放消息，或在别处路由呼叫。
+  - **通知：**    为对未分配号码发出的呼叫播放消息，或将呼叫路由到其他位置，或同时进行这两种呼叫。
 
 如果计划部署企业语音，则可以选择实现任一或所有这些呼叫管理功能。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中规划呼叫寄存](lync-server-2013-planning-for-call-park.md)
 
-  - [在 Lync Server 2013 中规划组呼叫装货](lync-server-2013-planning-for-group-call-pickup.md)
+  - [在 Lync Server 2013 中规划组内呼叫应答](lync-server-2013-planning-for-group-call-pickup.md)
 
   - [在 Lync Server 2013 中规划响应组](lync-server-2013-planning-for-response-groups.md)
 

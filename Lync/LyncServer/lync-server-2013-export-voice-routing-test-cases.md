@@ -12,16 +12,16 @@ ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 781c9e312044193cb6195ee849a880bea6e08485
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d014d9c2748a5e6479c0f86ebd32255f3361ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756216"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41756216"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-测试用例为你提供了一种测试你的组织中的语音路由的方法：定义要拨打的号码以及要使用的拨号计划和语音策略等内容，然后 Lync Server 可以验证所提供的号码是否可以已成功路由到 PSTN 网络。
+测试用例为您在组织中测试语音路由提供了一种方法：定义要拨打的号码以及要使用的拨号计划和语音策略等事项，并且 Lync Server 可以验证是否在给定这些条件的情况下，提供的号码可以已成功路由到 PSTN 网络。
 
-可以使用 Lync Server "控制面板" 创建的测试用例通常仅保存在最初创建和运行该事例的服务器上。 但是，这些测试用例可以导出为 XML 文件（扩展名为 vtest），然后在其他服务器上导入这些测试用例。 这使你能够在位于拓扑中不同点的不同计算机上运行相同的测试。
+可以使用 Lync Server 控制面板创建的测试用例通常仅保存在最初创建和运行事例的服务器上。 但是，这些测试用例可导出为 XML 文件（使用 .vtest 扩展名），然后在其他服务器上导入。 这使您可在位于拓扑中的不同点上的不同计算机上运行相同的测试。
 
 <div>
 
-## <a name="to-export-a-voice-routing-test-case"></a>导出语音路由测试案例
+## <a name="to-export-a-voice-routing-test-case"></a>导出语音路由测试用例
 
-1.  在 Lync Server "控制面板" 中，单击 "**语音路由**"，然后单击 "**测试语音路由**"。
+1.  在 "Lync Server 控制面板" 中，单击 "**语音路由**"，然后单击 "**测试语音路由**"。
 
-2.  在 "**测试语音路由**" 选项卡上，选择要导出的测试用例（或测试用例）。 若要选择多个测试用例，请单击要导出的第一个事例，然后按住 Ctrl 键并选择要导出的其他案例。
+2.  在“测试语音路由”**** 选项卡上，选择要导出的一个或多个测试用例。若要选择多个测试用例，请单击要导出的第一个用例，然后在按住 Ctrl 键的同时选择要导出的其他用例。
 
-3.  单击 "**操作**"，然后单击 "**导出测试用例**"。
+3.  在“操作”**** 菜单上，单击“导出测试用例”****。
 
-4.  在 "**另存为**" 对话框中，选择用于存储导出的测试用例的文件夹，然后**在 "文件名" 框**中键入结果 XML 文件的名称。 请注意，如果你要导出多个测试案例，所有这些测试用例都将保存到单个 XML 文件。
+4.  在“另存为”**** 对话框中，选择要存储已导出测试用例的文件夹，并在“文件名”**** 框中为生成的 XML 文件键入一个名称。请注意，如果要导出多个测试用例，则所有这些测试用例都将保存到单个 XML 文件中。
 
-5.  若要保存测试用例，请单击 "**保存**"。
+5.  若要保存测试用例，请单击“保存”****。
 
 </div>
 

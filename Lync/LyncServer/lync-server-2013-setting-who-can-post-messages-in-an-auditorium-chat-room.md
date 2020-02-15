@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：设置谁可以在大会堂聊天室发布消息
+title: Lync Server 2013：设置谁可以在大会堂聊天室中发布邮件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48705999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 528b7ec0bc92d3281e599f6313a554c4eee0e8b2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 882e5941afdbdfb046142d38d47a458a5eb75c5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764518"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a>在 Lync Server 2013 中设置谁可以在大会堂聊天室发布消息
+# <a name="setting-who-can-post-messages-in-an-auditorium-chat-room-in-lync-server-2013"></a>在 Lync Server 2013 中设置可以在大会堂聊天室中发布邮件的权限
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764518"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
-在 auditorium 聊天室中，只有已被授予了演示者角色的用户才能发布邮件。 所有其他成员只能读取消息。 Auditorium 聊天室中的演示者必须是聊天室的成员。
+在大会堂聊天室中，只有被授予了演示者角色的用户可以发布消息。所有其他成员都只能阅读消息。大会堂聊天室的演示者必须是该聊天室的成员。
 
-有关使用 Windows PowerShell 命令行界面管理 auditorium 聊天室的详细信息，请参阅在部署文档中[管理会议室](manage-rooms.md)。
+有关使用 Windows PowerShell 命令行界面管理大会堂聊天室的详细信息，请参阅部署文档中的[管理聊天室](manage-rooms.md)。
 
-尽管持久聊天室管理员和聊天室管理器可以管理聊天室设置，但他们无法在 auditorium 聊天室中发布，除非他们是**演示者**。
+尽管 Persistent 聊天室管理员和聊天室管理器可以管理聊天室设置，但他们无法在大会堂聊天室中进行发布，除非他们是**演示者**。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 51803936
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 978590484cbb6bd3c23fac26422c186847662e49
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fcdebdccd0584d31b27120709212be674e8d3c2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764042"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764042"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-03-09_
+_**上次修改的主题：** 2013-03-09_
 
-规划基于位置的路由时，应考虑对以下方案的影响。
+在规划基于位置的路由时，应考虑对以下方案的影响。
 
 <div>
 
 ## <a name="disaster-recovery"></a>灾难恢复
 
-在将主池故障转移到备份池以及将正常操作还原到主池的过程中，在灾难和恢复过程中始终强制执行基于位置的路由。
+在将主池故障转移到备份池以及将正常操作还原到主池的过程中，在灾难和恢复过程中始终强制实施基于位置的路由。
 
 </div>
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2013-03-09_
 
 ## <a name="survivable-branch-appliance"></a>Survivable Branch Appliance
 
-配置基于位置的路由会影响你部署与 Survivable 分支机构相关联的网关的位置的规划。 与你的 SBA 关联的网关必须与 Survivable 分支装置位于同一网络站点;否则，如果配置基于位置的路由，则不允许驻留在 Survivable 分支设备上的用户进行出站呼叫。 当 Survivable 分支设备和中心网站之间的 WAN 连接关闭时，基于位置的路由限制将保持强制实施。
+配置基于位置的路由会影响规划与 Survivable 分支设备关联的网关的部署位置。 与您的 SBA 关联的网关必须位于与您的 Survivable 分支装置相同的网络站点中;否则，如果配置基于位置的路由，则不允许驻留在 Survivable 分支设备上的用户发出出站呼叫。 当您的 Survivable 分支设备与中心站点之间的 WAN 连接关闭时，基于位置的路由限制仍将强制实施。
 
 </div>
 

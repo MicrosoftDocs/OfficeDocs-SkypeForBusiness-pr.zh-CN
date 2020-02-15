@@ -12,23 +12,23 @@ ms:contentKeyID: 48184475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d43bf1663a475bed93985b2257eefaaa07ff8c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c4fbef02553d4ba390dcf94f96f55936e2661b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738362"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043314"
 ---
 # <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户会议策略
 
  
 
 
-会议策略是您可以在 Lync Server "控制面板" 中配置的用户帐户的个人设置之一。
+会议策略是您可以在 Lync Server 控制面板中配置的用户帐户的个人设置之一。
 
-部署一个或多个每用户会议策略是可选的。 您也可以仅部署全局级别的会议策略或网站级别的会议策略。 如果你确实要部署每用户策略，则必须将它们显式分配给用户、组或联系人对象。 会议用户权利和权限自动默认为在未分配特定网站级或每用户策略时全局级别会议策略中定义的用户。
+部署一个或多个每用户会议策略是可选的。还可以只部署一个全局级别的会议策略或站点级别的会议策略。如果要部署每用户策略，则必须将其明确分配给用户、组或联系人对象。未分配特定的站点级别或每用户策略时，会自动默认使用全局级别会议策略中定义的会议用户权限。
 
-创建至少一个每用户会议策略后，请使用本主题中的过程分配策略，该策略指定你希望服务器授予由特定用户组织的会议的用户权利和权限。
+创建至少一个每用户会议策略之后，请使用本主题中的过程分配策略，该策略指定您希望服务器授予由特定用户组织的会议的用户权限。
 
 有关所有可用会议策略设置的列表，请参阅[Lync Server 2013 的会议策略设置参考](lync-server-2013-conferencing-policy-settings-reference.md)。
 
@@ -36,11 +36,11 @@ ms.locfileid: "41738362"
 
 ## <a name="to-assign-a-per-user-conferencing-policy"></a>分配每用户会议策略
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左导航栏中，单击“用户”****。
+3.  在左侧导航栏中，单击“用户”****。
 
 4.  使用下列方法之一查找用户：
     
@@ -69,20 +69,20 @@ ms.locfileid: "41738362"
     
 
     > [!TIP]  
-    > 如果想要将同一每用户会议策略应用于多个用户，请在搜索结果中选择 "多个用户"，然后单击 "<STRONG>操作</STRONG>"，然后单击 "<STRONG>分配策略</STRONG>"。
+    > 如果您希望将相同的每用户会议策略应用于多个用户，请在搜索结果中选择多个用户，单击“操作”<STRONG></STRONG>，然后单击“分配策略”<STRONG></STRONG>。
 
 
 
-7.  在 "**分配策略**" 下的 "**会议策略**" 下，执行下列操作之一：
+7.  在“分配策略”**** 中的“会议策略”**** 下，执行下列操作之一：
     
 
     > [!NOTE]  
-    > 由于有多个策略可在 "<STRONG>分配策略</STRONG>" 中进行配置，因此默认情况下为对话框中的每个策略选中 " <STRONG> &lt;保持&gt; </STRONG>原样"。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
+    > 由于可以在 "<STRONG>分配策略</STRONG>" 中配置多个策略，因此默认情况下将为对话框中的每个策略选择 " <STRONG> &lt;保持为&gt; </STRONG> "。 如果不对此设置进行任何更改，则将继续使用先前分配给用户的策略。
 
     
-      - 选择** \<"\>自动**" 允许 Lync Server 2013 自动选择全局级别策略，或选择 "网站级别策略" （如果已定义）。
+      - 选择** \<"\>自动**" 以允许 Lync Server 2013 自动选择全局级别策略或网站级别策略（如果已定义）。
     
-      - 单击您以前在 "**会议策略**" 页面上定义的每用户会议策略的名称。
+      - 单击之前在“会议策略”**** 页中定义的每用户会议策略的名称。
         
 
         > [!TIP]  
@@ -94,27 +94,27 @@ ms.locfileid: "41738362"
 
 ## <a name="assigning-a-per-user-conferencing-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户会议策略
 
-每用户会议策略可以使用 Windows PowerShell 和 CsConferencingPolicy cmdlet 进行分配。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+可以使用 Windows PowerShell 和 Set-csconferencingpolicy cmdlet 分配每用户会议策略。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-a-single-user"></a>将每用户会议策略分配给单个用户
 
-  - 以下命令将每用户会议策略 RedmondConferencingPolicy 分配给用户 Ken Myer。
+  - 以下命令向用户 Ken Myer 分配每用户会议策略 RedmondConferencingPolicy。
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName "RedmondConferencingPolicy"
 
 ## <a name="to-assign-a-per-user-conferencing-policy-to-multiple-users"></a>将每用户会议策略分配给多个用户
 
-  - 此命令将每用户会议策略 HRConferencingPolicy 分配给工作人力资源部门的所有用户。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅[move-csuser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
+  - 此命令向在人力资源部工作的所有用户分配每用户会议策略 HRConferencingPolicy。 有关此命令中使用的 LdapFilter 参数的详细信息，请参阅[get-csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet 的文档。
     
         Get-CsUser -LdapFilter "Department=Human Resources" | Grant-CsConferencingPolicy -PolicyName "HRConferencingPolicy"
 
 ## <a name="to-unassign-a-per-user-conferencing-policy"></a>取消分配每用户会议策略
 
-  - 以下命令取消之前分配给 Ken Myer 的任何每用户会议策略。 取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果存在）管理 Ken Myer。 站点策略优先于全局策略。
+  - 以下命令取消分配之前为 Ken Myer 分配的任何每用户会议策略。在取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果有）管理 Ken Myer。站点策略优先于全局策略。
     
         Grant-CsConferencingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-有关详细信息，请参阅[CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg425937\(v=ocs.15\)) cmdlet 的帮助主题。
+有关详细信息，请参阅[set-csconferencingpolicy](https://technet.microsoft.com/library/gg425937\(v=ocs.15\)) cmdlet 的帮助主题。
 
 ## <a name="see-also"></a>另请参阅
 
@@ -122,5 +122,5 @@ ms.locfileid: "41738362"
 [在 Lync Server 2013 中创建或修改会议策略](lync-server-2013-create-or-modify-a-conferencing-policy.md)  
 
 
-[在 Lync Server 2013 中分配每个用户的策略](lync-server-2013-assigning-per-user-policies.md)
+[在 Lync Server 2013 中分配每用户策略](lync-server-2013-assigning-per-user-policies.md)
 

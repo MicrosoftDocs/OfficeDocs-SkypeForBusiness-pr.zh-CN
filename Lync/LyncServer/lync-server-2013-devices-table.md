@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Devices 表
+title: Lync Server 2013：设备表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 381b03fc5680276a64fc327f423f74c6773c2ed3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9c6e1fb5afda3a657bbeff864f5bba06349f4fb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762350"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="devices-table-in-lync-server-2013"></a>Lync Server 2013 中的 Devices 表
+# <a name="devices-table-in-lync-server-2013"></a>Lync Server 2013 中的 "设备" 表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762350"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-05-25_
+_**上次修改的主题：** 2012-05-25_
 
-"设备" 表是支持表。 每条记录存储有关一个设备（桌面电话）的信息。
+Devices 表是一个支持表。每条记录存储有关一个设备（桌面电话）的信息。
 
 
 <table>
@@ -57,21 +57,21 @@ _**主题上次修改时间：** 2012-05-25_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Keyroutedeventargs.deviceid</strong></p></td>
+<td><p><strong>DeviceId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识此硬件版本的唯一号码。</p></td>
+<td><p>主</p></td>
+<td><p>用于标识此硬件版本的唯一编号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ManufacturerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外表</p></td>
+<td><p>对外</p></td>
 <td><p>此设备的制造商。 有关详细信息，请参阅<a href="lync-server-2013-manufacturers-table.md">Lync Server 2013 中的制造商表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HardwareVersionId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外表</p></td>
+<td><p>对外</p></td>
 <td><p>此设备的硬件版本。 有关详细信息，请参阅<a href="lync-server-2013-hardwareversions-table.md">Lync Server 2013 中的 HardwareVersions 表</a>。</p></td>
 </tr>
 <tr class="even">

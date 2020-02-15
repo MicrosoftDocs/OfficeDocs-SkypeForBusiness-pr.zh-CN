@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：配置观察程序节点以运行合成事务
+title: Lync Server 2013：配置观察程序节点以运行综合事务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19211c786c288326d5769824524f5571e5df2f00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 107803caba66c19ec852d4c077e69aec5f7cf5ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763416"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>将观察程序节点配置为在 Lync Server 2013 中运行合成事务
+# <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>将观察程序节点配置为在 Lync Server 2013 中运行综合事务
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41763416"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-07_
+_**上次修改的主题：** 2014-02-07_
 
-安装 System Center agent 文件后，必须接下来配置观察程序节点本身。 配置观察程序节点所采取的步骤会有所不同，具体取决于观察程序节点计算机是在外围网络内部还是在外围网络外部。
+在安装 System Center 代理文件后，接下来必须配置观察程序节点本身。配置观察程序节点的步骤将因观察程序节点计算机位于外围网络内部还是外部而有所不同。
 
-配置观察程序节点时，还必须选择该节点要采用的身份验证方法类型。 Lync Server 2013 允许你选择两种身份验证方法之一：受信任的服务器或凭据身份验证。 下表概述了这两种方法之间的差异：
+配置观察程序节点时，还必须选择该节点要采用的身份验证方法类型。 Lync Server 2013 使您能够选择以下两种身份验证方法之一：受信任的服务器或凭据身份验证。 下表列出了两种方法间的差异：
 
 
 <table>
@@ -57,16 +57,16 @@ _**主题上次修改时间：** 2014-02-07_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>受信任服务器</p></td>
+<td><p>受信任的服务器</p></td>
 <td><p>使用证书可模拟内部服务器并绕过身份验证质询。</p>
-<p>这对希望管理单个证书而不是每个观察程序节点上的多个用户密码的管理员非常有用。</p></td>
+<p>这对于希望在每个观察程序节点管理单个证书而不是多个用户密码的管理员来说很有用。</p></td>
 <td><p>企业内部。</p>
-<p>请注意，利用此方法，观察程序节点必须与受监视的池位于同一个域中。 如果观察程序节点和监视的池位于不同的域中，请改用凭据身份验证。</p></td>
+<p>请注意，采用这种方法时，观察程序节点必须与要监控的池位于同一个域中。如果观察程序节点与监控的池在不同的域中，请改用凭据身份验证。</p></td>
 </tr>
 <tr class="even">
 <td><p>凭据身份验证</p></td>
 <td><p>将用户名和密码安全地存储在每个观察程序节点的 Windows 凭据管理器中。</p>
-<p>此模式需要更多的密码管理，但对于位于企业外的观察程序节点，这是唯一的选择。 不能将这些观察程序节点视为经过身份验证的受信任终结点。</p></td>
+<p>此模式需要更多密码管理，但它是位于企业外部的观察程序节点的唯一选择。不能将这些观察程序节点视为经过身份验证的受信任终结点。</p></td>
 <td><p>企业外部。</p>
 <p>企业内部。</p></td>
 </tr>
@@ -74,7 +74,7 @@ _**主题上次修改时间：** 2014-02-07_
 </table>
 
 
-你还应验证你的防火墙是否具有适用于 MonitoringHost 和 PowerShell 的入站规则。 如果防火墙阻止了这些进程，则合成事务将失败，并出现504（服务器超时）错误。
+您还应验证您的防火墙是否对 MonitoringHost 和 PowerShell 具有入站规则。 如果防火墙阻止了这些进程，则综合事务将失败，并出现504（服务器超时）错误。
 
 </div>
 

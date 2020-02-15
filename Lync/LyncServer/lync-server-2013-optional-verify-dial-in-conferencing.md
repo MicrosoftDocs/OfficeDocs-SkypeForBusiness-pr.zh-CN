@@ -12,20 +12,20 @@ ms:contentKeyID: 48183941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1b5f078ccd5e95df708012b7be1527736133392
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 133d0bccb919e537998878306b3bbf85d77bd0cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755696"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037642"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>（可选）在 Lync Server 2013 中验证电话拨入式会议
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>Optional在 Lync Server 2013 中验证电话拨入式会议
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755696"
 
 <span> </span>
 
-_**主题上次修改时间：** 2011-01-21_
+_**上次修改的主题：** 2011-01-21_
 
 要验证“电话拨入式会议设置”网页和拨入访问号码是否工作正常，您需要执行以下操作：
 
@@ -49,9 +49,9 @@ _**主题上次修改时间：** 2011-01-21_
 
 ## <a name="to-test-access-numbers-for-a-specific-pool"></a>测试特定池的访问号码
 
-1.  以 RTCUniversalServerAdmins 组成员的身份登录计算机，或者作为**Cs-ServerAdministrator**或**CsAdministrator**角色的成员登录到计算机。
+1.  以 RTCUniversalServerAdmins 组成员或者 **Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 3.  在命令提示符下，运行以下内容：
     

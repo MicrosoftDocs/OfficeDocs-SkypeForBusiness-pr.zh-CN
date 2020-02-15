@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：创建或修改组呼叫装货号码范围
+title: Lync Server 2013：创建或修改组内呼叫应答号码范围
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5a644cb6008976894c88de570aa9cb6530e10c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd323e609a811a9735c966645c5176fb8784bb4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758066"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048913"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>Create or modify a Group Call Pickup number range in Lync Server 2013
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改组内呼叫装货号码范围
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758066"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-01-30_
+_**上次修改的主题：** 2013-01-30_
 
-使用下面的过程在呼叫寄存轨道表中创建或修改呼叫应答组号码范围。
+使用以下过程可在呼叫寄存通道表中创建或修改呼叫应答组号码范围。
 
 <div>
 
 
 > [!NOTE]  
-> 您必须使用 Lync Server Management Shell 在 "呼叫公园轨道" 表中创建、修改、删除和查看组呼叫的装货号码范围。 组呼叫装货号码范围在 Lync Server 控制面板中不可用。
+> 必须使用 Lync Server 命令行管理程序在呼叫寄存通道表中创建、修改、删除和查看组内呼叫应答号码范围。 组内呼叫应答号码范围在 Lync Server 控制面板中不可用。
 
 
 
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2013-01-30_
 
 
 > [!IMPORTANT]  
-> 必须为呼叫装货组号码范围分配一种类型的 GroupPickup。 仅当用户分配的组编号为 "类型 GroupPickup" 时，才启用组呼叫装货。
+> 必须为呼叫应答组号码范围分配一种类型的 GroupPickup。 仅当用户分配的组编号为类型 GroupPickup 时，才会为其启用组呼叫应答。
 
 
 
@@ -67,19 +67,19 @@ _**主题上次修改时间：** 2013-01-30_
 
   - 号码范围必须是唯一的。该范围不能与其他任何范围重叠。
 
-  - 如果数字范围以字符\*开头\#，则范围必须大于100。
+  - 如果数字范围以字符\*或\#开头，则该范围必须大于100。
 
-  - 有效值：必须与正则表达式字符串（\[\\\*|\#\]？\[1-9\]\\d{0,7}） |（\[1-9\]\\d{0,8}）。 这意味着该值必须是以字符\*或\#数字1到9开头的字符串（第一个字符不能为零）。 如果第一个字符是\*或\#，则以下字符必须是1到9的数字（不能为零）。 后续字符可以是0到9的任何数字，最多可有7个附加字符\#（例如 "6000\*"、"92000\*"、"95551212" 和 "915551212"）。 如果第一个字符不\*是或\#，则第一个字符必须是数字1到9（不能为零），后跟八个字符，每个字符都是0到9的数字（例如，"915551212"、"41212"、"300"）。
+  - 有效值：必须与正则表达式字符串（\[\\\*|\#\]？\[1-9\]\\d{0,7}） |（\[1-9\]\\d{0,8}）。 这意味着值必须是以字符\*或\#数字1到9开头的字符串（第一个字符不能为零）。 如果第一个字符是\*或\#，则以下字符必须是1到9之间的数字（不能为零）。 后续字符可以是0到9之间的任何数字，最多七个其他字符（\#例如，"6000\*"、"92000\*"、"95551212" 和 "915551212"）。 如果第一个字符不\*是或\#，则第一个字符必须是数字1到9（不能为零），后跟八个字符，每个字符的数字0到9（例如，"915551212"，"41212"，"300"）。
 
 <div>
 
-## <a name="to-create-or-modify-a-call-pickup-group-range"></a>创建或修改呼叫应答组范围
+## <a name="to-create-or-modify-a-call-pickup-group-range"></a>创建或修改呼叫装货组范围
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机，如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  使用 **New-CsCallParkOrbit** 创建呼叫应答组号码的新范围。 使用 **Set-CsCallParkOrbit** 修改呼叫应答号码的现有范围。
+3.  使用**CsCallParkOrbit**创建一个新的呼叫应答组号码范围。 使用**CsCallParkOrbit**可修改现有的呼叫装货号码范围。
     
     在命令行中运行：
     
@@ -89,7 +89,7 @@ _**主题上次修改时间：** 2013-01-30_
     
         New-CsCallParkOrbit -Identity "Redmond call pickup" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1 -Type GroupPickup
     
-    下面的示例演示如何将号码范围从呼叫寄存轨道更改为呼叫应答组。
+    下面的示例演示如何将号码范围从呼叫寄存轨道式更改为呼叫应答组。
     
         Set-CsCallParkOrbit -Identity "Redmond call pickup" -Type GroupPickup
     
@@ -97,7 +97,7 @@ _**主题上次修改时间：** 2013-01-30_
     
 
     > [!IMPORTANT]  
-    > 仅在你最初指定了错误的类型并且组范围尚未使用时，才能使用此 cmdlet 更改分配到号码范围的类型。 如果你将号码范围从 CallPark 更改为 GroupPickup 或相反，并且号码范围已在使用中，则呼叫寄存或组内呼叫应答将不再对该号码范围起作用。 例如，如果将数字范围从 CallPark 更改为 GroupPick，则调用寄存应用程序无法再将该范围的轨道式转到寄存通话。
+    > 仅当最初指定了不正确的类型且组范围尚未使用时，才能使用此 cmdlet 更改分配给号码范围的类型。 如果将号码范围从 CallPark 更改为 GroupPickup，反之亦然，而号码范围已在使用中，则呼叫寄存或 Group Call Pickup 将停止对该号码范围的工作。 例如，如果将号码范围从 CallPark 更改为 GroupPick，则呼叫寄存应用程序无法再将该范围的轨道式用于寄存呼叫。
 
     
     </div>
@@ -109,11 +109,11 @@ _**主题上次修改时间：** 2013-01-30_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中删除呼叫寄存轨道范围](lync-server-2013-delete-a-call-park-orbit-range.md)  
+[在 Lync Server 2013 中删除呼叫寄存通道范围](lync-server-2013-delete-a-call-park-orbit-range.md)  
 
 
-[新-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/New-CsCallParkOrbit)  
-[Set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)  
+[新 CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/New-CsCallParkOrbit)  
+[CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)  
   
 
 </div>

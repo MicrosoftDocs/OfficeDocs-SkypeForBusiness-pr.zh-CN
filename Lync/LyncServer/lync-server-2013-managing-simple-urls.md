@@ -12,20 +12,20 @@ ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1436855e3a5de0a20a0d08a8b8a526939d1bd17c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e72e562c2563a4e90613e2a75c424587bfb7b33d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757976"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042469"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-simple-urls-in-lync-server-2013"></a>在 Lync Server 2013 中管理简单的 Url
+# <a name="managing-simple-urls-in-lync-server-2013"></a>在 Lync Server 2013 中管理简单 Url
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757976"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-11_
+_**上次修改的主题：** 2012-10-11_
 
-使用本部分中的过程从 Lync Server 2013 控制面板中的 "**拓扑结构**" 页面管理简单的 url。
+使用本节中的过程可管理 Lync Server 2013 控制面板中 "**拓扑结构**" 页上的简单 url。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-[在 Lync Server 2013 中查看简单的 URL 详细信息](lync-server-2013-view-simple-url-details.md)
+[在 Lync Server 2013 中查看简单 URL 详细信息](lync-server-2013-view-simple-url-details.md)
 
 </div>
 
@@ -52,7 +52,7 @@ _**主题上次修改时间：** 2012-10-11_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中规划简单 URL](lync-server-2013-planning-for-simple-urls.md)  
+[在 Lync Server 2013 中规划简单 Url](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

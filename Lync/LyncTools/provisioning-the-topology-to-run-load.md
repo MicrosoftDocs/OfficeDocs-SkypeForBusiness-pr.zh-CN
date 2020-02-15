@@ -1,5 +1,5 @@
 ---
-title: 预配要运行加载的拓扑
+title: 设置要运行负载的拓扑
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf4c296068e2bd0deea9470dd84d8fd0c0c9d451
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a913dc678b2f5e929ad22e09e1d8350f667ce39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763596"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038284"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="provisioning-the-topology-to-run-load"></a>预配要运行加载的拓扑
+# <a name="provisioning-the-topology-to-run-load"></a>设置要运行负载的拓扑
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763596"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-04_
+_**上次修改的主题：** 2013-02-04_
 
 <div>
 
-## <a name="provisioning-the-topology-to-run-load"></a>预配要运行加载的拓扑
+## <a name="provisioning-the-topology-to-run-load"></a>设置要运行负载的拓扑
 
-你可能需要在你的环境中进行以下更改，具体取决于 Lync Server 2013 的现有设置和配置：
+根据您现有的 Lync Server 2013 的设置和配置，您可能需要在您的环境中进行以下更改：
 
-1.  将 Windows PowerShell 执行策略设置为 "无限制"。 若要检查执行策略设置，请打开 Lync Server 命令行管理程序，然后运行以下命令：
+1.  将 Windows PowerShell 执行策略设置为无限制。 若要检查执行策略设置，请打开 Lync Server 命令行管理程序，并运行以下命令：
 
     ``` powershell
         Get-ExecutionPolicy
@@ -55,11 +55,11 @@ _**主题上次修改时间：** 2013-02-04_
         Set-ExecutionPolicy -Unrestricted
     ```
 
-2.  若要有效配置 Lync Server 2013，您需要：
+2.  若要有效配置 Lync Server 2013，您将需要：
     
       - 熟悉 Lync Server 2013 拓扑（例如，计算机名称、服务实例、站点名称和策略）。
     
-      - 将已创建的某些用户分配给组，例如 "响应组查寻组" （例如 SIP Uri）。
+      - 将一些已创建的用户分配给组，例如响应组智能寻线（例如，SIP Uri）。
 
 3.  若要从命令行运行脚本，您可以使用：
 
@@ -67,9 +67,9 @@ _**主题上次修改时间：** 2013-02-04_
         Powershell.exe -file <path to the file>
     ```
     
-4.  通常，在此程序包中的某个脚本运行后，脚本生成的跟踪将存储在一个文件中，该文件位于调用脚本的同一路径中，名为\<scriptname\>$h $ m $ s .txt。 例如，在 12:15 P.M. 运行 ArchivingPolicy。 将生成一个日志文件，如 ArchivingPolicy121500。
+4.  通常，在此包中的一个脚本运行之后，脚本生成的跟踪将存储在一个文件中，该文件与从中调用脚本的路径相同，名为\<scriptname\>$h $ m $ s .txt。 例如，在 12:15 P.M. 运行 ArchivingPolicy。. ps1 将生成一个日志文件，如 ArchivingPolicy121500。
 
-5.  最后，请注意，虽然我们提供了配置服务器的示例，但你负责在运行完加载后修改或删除配置。
+5.  最后，请注意，虽然我们提供了配置服务器的示例，但您负责在运行完负载后修改或删除配置。
 
 </div>
 

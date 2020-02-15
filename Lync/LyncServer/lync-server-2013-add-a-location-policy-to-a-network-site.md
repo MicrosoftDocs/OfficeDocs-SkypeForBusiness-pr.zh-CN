@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：向网络网站添加位置策略
+title: Lync Server 2013：向网络站点添加位置策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd5e0247ccdff82737c2ed7ed830b0a99b7da1f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc968af06590eab55d541330bbfeef9d9cc4d24c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735072"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>在 Lync Server 2013 中将位置策略添加到网络网站
+# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>在 Lync Server 2013 中向网络站点添加位置策略
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41735072"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-24_
+_**上次修改的主题：** 2013-02-24_
 
-以下示例显示了如何将在[Lync Server 2013 的创建位置](lync-server-2013-create-location-policies.md)策略中定义的**Redmond**位置策略添加到现有网络网站，以及如何创建使用**雷德蒙**的位置策略的新网络网站。
+下面的示例演示如何将在[Lync Server 2013 中的 "创建位置策略](lync-server-2013-create-location-policies.md)" 中定义的**Redmond**位置策略添加到现有网络站点，以及如何创建使用**Redmond**位置策略的新网络站点。
 
-有关使用网络站点的详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：
+有关使用网络站点的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
-  - **New-CsNetworkSite**
+  - **新 CsNetworkSite**
 
-  - **Get-CsNetworkSite**
+  - **CsNetworkSite**
 
-  - **Set-CsNetworkSite**
+  - **CsNetworkSite**
 
-  - **Remove-CsNetworkSite**
+  - **CsNetworkSite**
 
 <div>
 
 ## <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>为现有网络站点分配位置策略
 
-1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 2.  运行以下 cmdlet 以修改现有网络站点。
     
-    将带 **Redmond** 标记的位置策略分配给名为 **Redmond** 的现有网络站点。
+    将**Redmond**标记的位置策略分配给名为**Redmond**的现有网络站点。
     
         Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 
@@ -67,11 +67,11 @@ _**主题上次修改时间：** 2013-02-24_
 
 ## <a name="to-assign-a-location-policy-to-a-new-network-site"></a>为新的网络站点分配位置策略
 
-1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 2.  运行以下 cmdlet 以创建新的网络站点。
     
-    在网络区域中创建新的网络站点，并分配带 **Redmond** 标记的位置策略。
+    在网络区域中创建新的网络站点，并分配 **Redmond** 带标记的位置策略。
     
         New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 

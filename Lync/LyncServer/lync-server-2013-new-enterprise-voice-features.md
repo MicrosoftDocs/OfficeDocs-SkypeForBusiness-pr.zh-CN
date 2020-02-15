@@ -12,16 +12,16 @@ ms:contentKeyID: 48185591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92c1c264b9ffa5459962b2b6e915ea0fef2cf775
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14f3f2429183e76a120fed1ef7437f18bdb8639f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757506"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757506"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-05-01_
+_**上次修改的主题：** 2013-05-01_
 
-Lync Server 2013 引入了一些新的路由和通话管理功能，可增强企业语音。
+Lync Server 2013 引入了几个新的路由和呼叫管理功能，可增强企业语音。
 
-Lync Server 2013 支持中介服务器和网关之间的多个中继。 *主干*是端口号和中介服务器与端口号和网关之间的逻辑关联。 这意味着中介服务器可以有多个中继用于不同的网关，并且网关可以为不同的中介服务器提供多个中继。 Intertrunk 路由使 Lync Server 2013 能够将 IP PBX 互连到公共交换式电话网络（PSTN）网关或互连多个 IP PBX 系统。 Lync Server 2013 充当不同电话系统之间的粘附（即互连）。
+Lync Server 2013 支持中介服务器和网关之间的多个中继。 *中继*是端口号和中介服务器与端口号和网关之间的逻辑关联。 这意味着中介服务器可以有多个中继到不同的网关，并且一个网关可以有多个中继到不同的中介服务器。 中继间路由使 Lync Server 2013 能够将 ip-pbx 连接到公用电话交换网（PSTN）网关或与多个 IP-PBX 系统互连。 Lync Server 2013 充当不同电话系统之间的粘附（即，互连）。
 
-Microsoft Lync Server 2013 改进了呼叫转接、同时拨打、语音邮件处理和来电显示的演示文稿方面的改进。 这些功能丰富了企业语音呼叫体验。
+Microsoft Lync Server 2013 改进了呼叫转接、同时响铃、语音邮件处理和呼叫者 ID 演示的各个方面。 这些功能丰富了企业语音呼叫体验。
 
 Lync Server 2013 引入了以下新的企业语音增强功能：
 
-  - [Lync Server 2013 中新的呼叫功能](lync-server-2013-new-call-features.md)
+  - [Lync Server 2013 中的新呼叫功能](lync-server-2013-new-call-features.md)
 
-  - [Lync Server 2013 中新的来电显示功能](lync-server-2013-new-caller-id-feature.md)
+  - [Lync Server 2013 中的新呼叫者 ID 功能](lync-server-2013-new-caller-id-feature.md)
 
   - [Lync Server 2013 中新的语音邮件功能](lync-server-2013-new-voice-mail-feature.md)
 
-  - [Lync Server 2013 中新的中继功能](lync-server-2013-new-trunk-feature.md)
+  - [Lync Server 2013 中的新中继功能](lync-server-2013-new-trunk-feature.md)
 
-  - [Lync Server 2013 中新的中继间功能](lync-server-2013-new-intertrunk-feature.md)
+  - [Lync Server 2013 中的新中继间功能](lync-server-2013-new-intertrunk-feature.md)
 
   - [Lync Server 2013 中的新呼叫管理功能](lync-server-2013-new-call-management-features.md)
 

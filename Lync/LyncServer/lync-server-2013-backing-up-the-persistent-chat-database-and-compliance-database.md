@@ -12,16 +12,16 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64273ab712fdc62b70233a16131b29668c006974
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa9d657e10678b4f0b7969a2e3d2805d38833b2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740602"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740602"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-01_
+_**上次修改的主题：** 2012-08-01_
 
-你应该定期备份持久聊天数据库和合规性数据库。 请与数据库管理员联系，确定在你的环境中执行此操作的最佳方式。
+应定期备份持久聊天数据库和合规性数据库。 若要确定如何以最适合所在环境的方式执行备份，请与数据库管理员联系。
 
 </div>
 

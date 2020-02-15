@@ -12,16 +12,16 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baf29af4b9d1f2b026271b84cb54436e8f4b233f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 280202a83828757c3caca20c21795453ad4f133f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41740052"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-ConferenceJoinTimeThresholds 表包含 "会议加入时间摘要" 报表使用的分类边界。 "会议加入时间摘要" 报表汇总了用户成功加入会议所需的时间量;这些时间值以平均值和以下类别之一报告：
+ConferenceJoinTimeThresholds 表包含会议加入时间摘要报告使用的分类边界。会议加入时间摘要报告总结了用户成功加入会议所需的时间；这些时间值都报告为一个平均值，且采用以下类别之一：
 
-  - 不到2秒。
+  - 少于 2 秒。
 
-  - 介于2秒和5秒之间。
+  - 2 秒到 5 秒之间。
 
-  - 介于5秒和10秒之间。
+  - 5 秒到 10 秒之间。
 
-  - 10秒以上。
+  - 长于 10 秒。
 
-ConferenceJoinTimeThresholds 表包含分类值2秒、5秒和10秒钟。
+ConferenceJoinTimeThresholds 表包含分类值 2 秒、5 秒和 10 秒。
 
 此表是在 Microsoft Lync Server 2013 中引入的。
 
@@ -71,18 +71,18 @@ ConferenceJoinTimeThresholds 表包含分类值2秒、5秒和10秒钟。
 <tr class="odd">
 <td><p><strong>ThresholdId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td><p>分类的唯一标识符。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ThresholdValue</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>分类的上限。 允许的值包括：</p>
+<td><p>分类的上限。允许的值包括：</p>
 <ol>
-<li><p>ppls-2</p></li>
-<li><p>5</p></li>
-<li><p>10</p></li>
+<li><p>2 </p></li>
+<li><p>5 </p></li>
+<li><p>10 </p></li>
 </ol></td>
 </tr>
 </tbody>

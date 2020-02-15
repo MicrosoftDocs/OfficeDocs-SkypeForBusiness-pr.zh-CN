@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPrincipalInvites
+title: Lync Server 2013： tblPrincipalInvites
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75d842772c8c0e02352eacf7f80711aa79c29461
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4316e86d29013587b2302d18a840a4a1859f9ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731522"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731522"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-25_
+_**上次修改的主题：** 2012-06-25_
 
-tblPrincipalInvites 包含所有已预配用户的带有自动邀请的所有节点的邀请。
+tblPrincipalInvites 包含打开自动邀请的所有节点的所有已设置用户的邀请。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ tblPrincipalInvites 包含所有已预配用户的带有自动邀请的所有节
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int，not null</p></td>
+<td><p>int，不为 null</p></td>
 <td><p>主体 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>invID</p></td>
-<td><p>int，not null</p></td>
-<td><p>从 tblLastInviteId 表生成的唯一序列号（每个主体 ID）。</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>从 tblLastInviteId 表中生成的唯一连续数字（每个主体 ID）。</p></td>
 </tr>
 <tr class="odd">
-<td><p>a</p></td>
-<td><p>int，not null</p></td>
-<td><p>节点 ID （仅聊天室）。</p></td>
+<td><p>个</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>节点 ID（仅聊天室）。</p></td>
 </tr>
 <tr class="even">
 <td><p>createdOn</p></td>
-<td><p>datetime，not null</p></td>
-<td><p>创建时间。</p></td>
+<td><p>datetime，不为 null</p></td>
+<td><p>创建的时间。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>标示
+### <a name="keys"></a>Keys
 
 <table>
 <colgroup>
@@ -99,11 +99,11 @@ tblPrincipalInvites 包含所有已预配用户的带有自动邀请的所有节
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>TblPrincipal 表中的 lookup 的外键。</p></td>
+<td><p>其查找包含在 tblPrincipal.prinID 表中的外键。</p></td>
 </tr>
 <tr class="odd">
-<td><p>a</p></td>
-<td><p>带有 tblNode 表中的 lookup 的外键。</p></td>
+<td><p>个</p></td>
+<td><p>其查找包含在 tblNode.nodeID 表中的外键。</p></td>
 </tr>
 </tbody>
 </table>

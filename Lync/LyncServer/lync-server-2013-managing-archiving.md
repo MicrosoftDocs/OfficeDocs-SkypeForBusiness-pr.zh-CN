@@ -12,16 +12,16 @@ ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3bb7ecac5204fc42b44e919dbbab8e9b720acc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16c9b901575e844954b9dd3454c4ecc7c86e7c3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738862"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738862"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-10_
+_**上次修改的主题：** 2012-10-10_
 
-为组织部署存档时，请在部署期间指定初始配置。 但是，有时你可能希望更改为日常管理实现存档支持的方式，或者满足你的组织中的新要求。 例如，你可能需要为组织中的特定网站、池或用户设置不同的存档支持。 对于驻留在 Lync Server 2013 上的用户，你可以创建和自定义存档策略和配置。 如果使用 Microsoft Exchange 集成，还必须配置 Exchange 2013 设置。 本部分提供了使你能够更改存档部署的信息和过程。
+在为组织部署存档时，可以在部署期间指定初始配置。 但是，有时您希望针对日常管理或为了满足组织的新需要而更改实施存档支持的方式。 例如，您可能需要为组织中的特定站点、池或用户单独设置存档支持。 对于驻留在 Lync Server 2013 上的用户，您可以创建和自定义存档策略和配置。 如果使用 Microsoft Exchange 集成，还必须配置 Exchange 2013 设置。 本节提供允许您更改存档部署的相关信息和过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中存档的工作方式](lync-server-2013-how-archiving-works.md)
+  - [Lync Server 2013 中的存档工作原理](lync-server-2013-how-archiving-works.md)
 
   - [在 Lync Server 2013 中管理内部和外部通信的存档](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
 
-  - [管理您的组织、网站和池的 Lync Server 2013 中的存档配置选项](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+  - [在 Lync Server 2013 中管理组织、网站和池的存档配置选项](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
 
   - [在 Lync Server 2013 中更改存档数据库选项](lync-server-2013-changing-archiving-database-options.md)
 
-  - [从 Lync Server 2013 导出已存档的数据](lync-server-2013-exporting-archived-data.md)
+  - [从 Lync Server 2013 导出存档数据](lync-server-2013-exporting-archived-data.md)
 
 </div>
 

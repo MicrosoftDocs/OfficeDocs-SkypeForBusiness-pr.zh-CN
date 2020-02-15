@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：查看池的状态
+title: Lync Server 2013：查看池状态
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969579
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb2be0880e0ea819e66d552e8b178c81bff101a3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1af7503571a3a715dafc852485b8b55b64ba22f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757216"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041949"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-status-of-pools-in-lync-server-2013"></a>在 Lync Server 2013 中查看池的状态
+# <a name="viewing-status-of-pools-in-lync-server-2013"></a>在 Lync Server 2013 中查看池状态
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757216"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-05-01_
+_**上次修改的主题：** 2014-05-01_
 
-对于每个企业版池和每个标准版服务器的池，你可以通过 Lync Server 2013 控制面板查看有关池状态的信息以及池使用的其他组件的状态。 我们建议使用 Lync Server 控制面板实现 System Center Operations Manager 2012，以帮助管理员查看其环境中的池的运行状况。
+对于每个企业版池和每个 Standard Edition 服务器的池，您可以查看有关池状态的信息以及池通过 Lync Server 2013 控制面板使用的其他组件的状态。 我们建议使用 Lync Server 控制面板实现 System Center Operations Manager 2012，以帮助管理员查看其环境中的池的运行状况。
 
 <div>
 
 ## <a name="view-pools"></a>查看池
 
-1.  使用 Lync Server "控制面板"，打开 "Lync Server 控制面板"。
+1.  使用 Lync Server 控制面板打开 "Lync Server 控制面板"。
 
 2.  单击 "拓扑"，然后检查拓扑中所有服务器的状态。
 

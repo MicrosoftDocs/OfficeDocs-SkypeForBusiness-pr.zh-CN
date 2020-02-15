@@ -12,16 +12,16 @@ ms:contentKeyID: 48183802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a407d8eeb1ad9e318ff2f960f8cb7d62b1e3a9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4be7b878d3d9b6457fbda7a081db9b6b6cb80314
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757116"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757116"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-17_
+_**上次修改的主题：** 2012-10-17_
 
-CodecDescription 表将唯一的编解码器标识符映射到相应的编解码器。 编解码器用于为传输和广播编码数字信号，然后解码这些信号以进行播放。 此表是在 Microsoft Lync Server 2013 中引入的
+CodecDescription 表可将唯一编解码器标识符映射到其相应的编解码器。 编解码器用于对传输和广播的数字信号进行编码，然后解码这些信号以进行播放。 此表是在 Microsoft Lync Server 2013 中引入的
 
 
 <table>
@@ -52,20 +52,20 @@ CodecDescription 表将唯一的编解码器标识符映射到相应的编解码
 <th><strong>列</strong></th>
 <th><strong>数据类型</strong></th>
 <th><strong>键/索引</strong></th>
-<th><strong>详细信息</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>CodecDescriptionKey</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td><p>分配给编解码器的唯一标识符。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CodecDescription</strong></p></td>
 <td><p>varchar （256）</p></td>
-<td><p>唯一</p></td>
+<td><p>独特</p></td>
 <td><p>与 CodecDescriptionKey 对应的编解码器的唯一说明。</p></td>
 </tr>
 </tbody>

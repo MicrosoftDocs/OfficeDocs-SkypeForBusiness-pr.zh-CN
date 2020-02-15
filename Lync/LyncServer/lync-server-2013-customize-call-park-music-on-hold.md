@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：自定义呼叫寄存音乐暂候
+title: Lync Server 2013：自定义呼叫寄存暂停音乐
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 301625a36d23c69d02dfdcde8c4985def53630af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: feebc353b48b3a6b8f9adb17c08ab9af778bb1ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728752"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>在 Lync Server 2013 中自定义呼叫寄存音乐处于暂停状态
+# <a name="customize-call-park-music-on-hold-in-lync-server-2013"></a>在 Lync Server 2013 中自定义呼叫寄存暂停音乐
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728752"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-10_
+_**上次修改的主题：** 2012-09-10_
 
-你可以指定自己的音乐文件用于保留音乐，而不是 Lync Server 2013 附带的默认音乐文件。 若要自定义保留音乐，请使用 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet。
+您可以指定自己的音乐文件以用于保留音乐，而不是 Lync Server 2013 附带的默认音乐文件。 若要自定义保留音乐，请使用 **Set-CsCallParkServiceMusicOnHoldFile** cmdlet。
 
 <div>
 
 
 > [!NOTE]  
-> 如果你自定义暂停的音乐并希望同一音乐用于多个网站，则必须为运行呼叫驻留应用程序的每个网站配置音乐文件。
+> 如果你自定义保留的音乐并希望多个网站具有相同的音乐，则必须为运行呼叫寄存应用程序的每个网站配置音乐文件。
 
 
 
@@ -53,11 +53,11 @@ _**主题上次修改时间：** 2012-09-10_
 
 ## <a name="to-customize-the-music-file"></a>自定义音乐文件
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机，如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  运行：
+3.  以
     
         Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte[]>
     
@@ -65,12 +65,12 @@ _**主题上次修改时间：** 2012-09-10_
     
 
     > [!TIP]  
-    > 使用 <STRONG>Get-CsService</STRONG> cmdlet 可标识服务。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">CsService</A>。
+    > 使用 <STRONG>Get-CsService</STRONG> cmdlet 可标识服务。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsService">get-csservice</A>。
 
     
     </div>
     
-    以下示例说明了如何以字节数组的形式获取文件 soothingmusic.wma 的内容并将其分配给变量。 然后，将音频文件指定为呼叫寄存的保留音乐文件。 有关详细信息，请参阅[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)。
+    以下示例说明了如何以字节数组的形式获取文件 soothingmusic.wma 的内容并将其分配给变量。 然后，将音频文件指定为呼叫寄存的保留音乐文件。 有关详细信息，请参阅[CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)。
     
         $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
         Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
@@ -82,8 +82,8 @@ _**主题上次修改时间：** 2012-09-10_
 ## <a name="see-also"></a>另请参阅
 
 
-[Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
-[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkServiceMusicOnHoldFile)  
+[Get-csservice](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
   
 
 </div>

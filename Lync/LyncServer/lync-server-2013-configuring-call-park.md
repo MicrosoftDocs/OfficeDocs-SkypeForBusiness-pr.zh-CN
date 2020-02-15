@@ -12,16 +12,16 @@ ms:contentKeyID: 48185732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 750ea65da2b5507099f097b31044673c474bfc7c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2932053e8224b751c124c80152c097d9da82e517
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758340"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41758340"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-30_
+_**上次修改的主题：** 2012-10-30_
 
-"呼叫驻留" 使企业语音用户可以通过一条电话将呼叫置于保持状态，然后通过从任何电话拨入内部号码（称为呼叫公园*轨道*），稍后检索呼叫。
+通过呼叫寄存，企业语音用户可以将呼叫置于保持状态，然后通过从任何电话拨入内部号码（称为*呼叫寄存通道*）来稍后检索呼叫。
 
-当部署企业语音时，将在前端服务器或标准版服务器上自动安装和启用调用寄存使用的组件。 但是，你必须先配置呼叫寄存，然后才能向用户提供。
+在部署企业语音时，会自动在前端服务器或 Standard Edition 服务器上安装和启用呼叫寄存使用的组件。 但是，您必须先配置呼叫寄存，然后才可供用户使用。
 
-本部分将指导你完成通话寄存的配置。
+本部分将指导您完成呼叫寄存的配置。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的呼叫寄存配置先决条件和用户权限](lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md)
+  - [在 Lync Server 2013 中呼叫寄存配置先决条件和用户权限](lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md)
 
-  - [Lync Server 2013 中的呼叫寄存的部署过程](lync-server-2013-deployment-process-for-call-park.md)
+  - [Lync Server 2013 中呼叫寄存的部署过程](lync-server-2013-deployment-process-for-call-park.md)
 
   - [在 Lync Server 2013 中配置呼叫寄存通道表](lync-server-2013-configure-the-call-park-orbit-table.md)
 
   - [在 Lync Server 2013 中配置呼叫寄存设置](lync-server-2013-configure-call-park-settings.md)
 
-  - [在 Lync Server 2013 中自定义呼叫寄存音乐处于暂停状态](lync-server-2013-customize-call-park-music-on-hold.md)
+  - [在 Lync Server 2013 中自定义呼叫寄存暂停音乐](lync-server-2013-customize-call-park-music-on-hold.md)
 
   - [在 Lync Server 2013 中为用户启用呼叫寄存](lync-server-2013-enable-call-park-for-users.md)
 
   - [在 Lync Server 2013 中验证呼叫寄存的规范化规则](lync-server-2013-verify-normalization-rules-for-call-park.md)
 
-  - [可选在 Lync Server 2013 中验证呼叫寄存部署](lync-server-2013-optional-verify-call-park-deployment.md)
+  - [Optional在 Lync Server 2013 中验证呼叫寄存部署](lync-server-2013-optional-verify-call-park-deployment.md)
 
 </div>
 

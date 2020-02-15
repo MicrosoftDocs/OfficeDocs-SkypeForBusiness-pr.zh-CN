@@ -12,16 +12,16 @@ ms:contentKeyID: 48183404
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895a61ef12eec2ceef8f994b1d0b9ba1e529c840
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88c8f14e75a29a6eb17d735bdb9f82819f94f4db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757196"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,253 +35,253 @@ ms.locfileid: "41757196"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-09_
+_**上次修改的主题：** 2012-10-09_
 
-语音应用程序在前端服务器上的应用程序服务上运行。 这些应用程序通过允许您停止呼叫、处理未分配的号码、与 Exchange 统一消息（UM）和运行响应组应用程序，帮助您管理传入和传出电话呼叫。
+语音应用程序可在前端服务器的应用程序服务上运行。 这些应用程序通过允许您寄存呼叫、处理未分配号码、与 Exchange 统一消息（UM）以及运行响应组应用程序，来帮助您管理传入和传出电话呼叫。
 
 <div>
 
 ## <a name="voice-application-cmdlets"></a>语音应用程序 Cmdlet
 
-下面是用于处理语音应用程序的 cmdlet 的列表：
+以下是用于处理语音应用程序的 cmdlet 列表：
 
-**[在 Lync Server 2013 中调用寄存应用程序 cmdlet](lync-server-2013-call-park-application-cmdlets.md)**
-
-  - <span></span>  
-    [CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))
+**[Lync Server 2013 中的呼叫寄存应用程序 cmdlet](lync-server-2013-call-park-application-cmdlets.md)**
 
   - <span></span>  
-    [新-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))
+    [CsCallParkOrbit](https://technet.microsoft.com/library/Gg398554(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))
+    [新 CsCallParkOrbit](https://technet.microsoft.com/library/Gg398936(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))
+    [CsCallParkOrbit](https://technet.microsoft.com/library/Gg412901(v=OCS.15))
+
+  - <span></span>  
+    [CsCallParkOrbit](https://technet.microsoft.com/library/Gg398796(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))
+    [CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/library/Gg412836(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))
+    [CsCpsConfiguration](https://technet.microsoft.com/library/Gg398948(v=OCS.15))
 
   - <span></span>  
-    [新-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))
+    [新 CsCpsConfiguration](https://technet.microsoft.com/library/Gg412919(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))
+    [CsCpsConfiguration](https://technet.microsoft.com/library/Gg398358(v=OCS.15))
 
   - <span></span>  
-    [Set-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))
+    [CsCpsConfiguration](https://technet.microsoft.com/library/Gg412721(v=OCS.15))
 
 **[Lync Server 2013 中的 Exchange UM cmdlet](lync-server-2013-exchange-um-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))
+    [CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))
 
   - <span></span>  
-    [Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+    [移动-CsExUmContact](https://technet.microsoft.com/library/Gg425842(v=OCS.15))
 
   - <span></span>  
-    [New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
+    [新 CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+    [CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))
 
   - <span></span>  
-    [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))
+    [CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))
+  - [Test-CsExStorageConnectivity](https://technet.microsoft.com/library/JJ204740(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))
+  - [Test-CsExStorageNotification](https://technet.microsoft.com/library/JJ205331(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))
+  - [Test-Test-csexumconnectivity](https://technet.microsoft.com/library/JJ204784(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))
+  - [Test-CsExUMVoiceMail](https://technet.microsoft.com/library/JJ205058(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))
+    [CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))
 
   - <span></span>  
-    [授权-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))
+    [Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))
 
   - <span></span>  
-    [新-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))
+    [新 CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398653(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))
+    [CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398211(v=OCS.15))
 
   - <span></span>  
-    [Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))
+    [CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412722(v=OCS.15))
 
 **[Lync Server 2013 中的响应组应用程序 cmdlet](lync-server-2013-response-group-application-cmdlets.md)**
 
   - <span></span>  
-    [CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425793(v=OCS.15))
+    [CsRgsAgentGroup](https://technet.microsoft.com/library/Gg425793(v=OCS.15))
 
   - <span></span>  
-    [新-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg413065(v=OCS.15))
+    [新 CsRgsAgentGroup](https://technet.microsoft.com/library/Gg413065(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg398969(v=OCS.15))
+    [CsRgsAgentGroup](https://technet.microsoft.com/library/Gg398969(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsAgentGroup](https://technet.microsoft.com/en-us/library/Gg425955(v=OCS.15))
+    [CsRgsAgentGroup](https://technet.microsoft.com/library/Gg425955(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsAnswer](https://technet.microsoft.com/en-us/library/Gg412812(v=OCS.15))
+    [新 CsRgsAnswer](https://technet.microsoft.com/library/Gg412812(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Import-CsRgsAudioFile](https://technet.microsoft.com/en-us/library/Gg412830(v=OCS.15))
+    [Import-CsRgsAudioFile](https://technet.microsoft.com/library/Gg412830(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsCallAction](https://technet.microsoft.com/en-us/library/Gg398136(v=OCS.15))
+    [新 New-csrgscallaction](https://technet.microsoft.com/library/Gg398136(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Export-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205011(v=OCS.15))
+    [Export-CsRgsConfiguration](https://technet.microsoft.com/library/JJ205011(v=OCS.15))
 
   - <span></span>  
-    [CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg412762(v=OCS.15))
+    [CsRgsConfiguration](https://technet.microsoft.com/library/Gg412762(v=OCS.15))
 
   - <span></span>  
-    [Import-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/JJ205245(v=OCS.15))
+    [Import-CsRgsConfiguration](https://technet.microsoft.com/library/JJ205245(v=OCS.15))
 
   - <span></span>  
-    [移动-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg398782(v=OCS.15))
+    [移动-CsRgsConfiguration](https://technet.microsoft.com/library/Gg398782(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsConfiguration](https://technet.microsoft.com/en-us/library/Gg425728(v=OCS.15))
+    [CsRgsConfiguration](https://technet.microsoft.com/library/Gg425728(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsHoliday](https://technet.microsoft.com/en-us/library/Gg398075(v=OCS.15))
+    [新 CsRgsHoliday](https://technet.microsoft.com/library/Gg398075(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg412983(v=OCS.15))
+    [CsRgsHolidaySet](https://technet.microsoft.com/library/Gg412983(v=OCS.15))
 
   - <span></span>  
-    [新-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398403(v=OCS.15))
+    [新 CsRgsHolidaySet](https://technet.microsoft.com/library/Gg398403(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398521(v=OCS.15))
+    [CsRgsHolidaySet](https://technet.microsoft.com/library/Gg398521(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsHolidaySet](https://technet.microsoft.com/en-us/library/Gg398736(v=OCS.15))
+    [CsRgsHolidaySet](https://technet.microsoft.com/library/Gg398736(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398284(v=OCS.15))
+    [CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg398284(v=OCS.15))
 
   - <span></span>  
-    [新-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398291(v=OCS.15))
+    [新 CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg398291(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg398568(v=OCS.15))
+    [CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg398568(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsHoursOfBusiness](https://technet.microsoft.com/en-us/library/Gg412929(v=OCS.15))
+    [CsRgsHoursOfBusiness](https://technet.microsoft.com/library/Gg412929(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsRgsPrompt](https://technet.microsoft.com/en-us/library/Gg398486(v=OCS.15))
+    [新 CsRgsPrompt](https://technet.microsoft.com/library/Gg398486(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsQuestion](https://technet.microsoft.com/en-us/library/Gg398186(v=OCS.15))
+    [新 CsRgsQuestion](https://technet.microsoft.com/library/Gg398186(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412759(v=OCS.15))
+    [CsRgsQueue](https://technet.microsoft.com/library/Gg412759(v=OCS.15))
 
   - <span></span>  
-    [新-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398989(v=OCS.15))
+    [新 CsRgsQueue](https://technet.microsoft.com/library/Gg398989(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg398576(v=OCS.15))
+    [CsRgsQueue](https://technet.microsoft.com/library/Gg398576(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsQueue](https://technet.microsoft.com/en-us/library/Gg412947(v=OCS.15))
+    [CsRgsQueue](https://technet.microsoft.com/library/Gg412947(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsRgsTimeRange](https://technet.microsoft.com/en-us/library/Gg399040(v=OCS.15))
+    [新 CsRgsTimeRange](https://technet.microsoft.com/library/Gg399040(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425766(v=OCS.15))
+    [CsRgsWorkflow](https://technet.microsoft.com/library/Gg425766(v=OCS.15))
 
   - <span></span>  
-    [新-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398246(v=OCS.15))
+    [新 CsRgsWorkflow](https://technet.microsoft.com/library/Gg398246(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg398765(v=OCS.15))
+    [CsRgsWorkflow](https://technet.microsoft.com/library/Gg398765(v=OCS.15))
 
   - <span></span>  
-    [Set-CsRgsWorkflow](https://technet.microsoft.com/en-us/library/Gg425845(v=OCS.15))
+    [CsRgsWorkflow](https://technet.microsoft.com/library/Gg425845(v=OCS.15))
 
 **[Lync Server 2013 中的未分配号码 cmdlet](lync-server-2013-unassigned-number-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg412792(v=OCS.15))
+    [CsUnassignedNumber](https://technet.microsoft.com/library/Gg412792(v=OCS.15))
 
   - <span></span>  
-    [New-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398651(v=OCS.15))
+    [新 CsUnassignedNumber](https://technet.microsoft.com/library/Gg398651(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg398209(v=OCS.15))
+    [CsUnassignedNumber](https://technet.microsoft.com/library/Gg398209(v=OCS.15))
 
   - <span></span>  
-    [Set-CsUnassignedNumber](https://technet.microsoft.com/en-us/library/Gg399033(v=OCS.15))
+    [CsUnassignedNumber](https://technet.microsoft.com/library/Gg399033(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398937(v=OCS.15))
+    [CsAnnouncement](https://technet.microsoft.com/library/Gg398937(v=OCS.15))
 
   - <span></span>  
-    [新-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg398522(v=OCS.15))
+    [新 CsAnnouncement](https://technet.microsoft.com/library/Gg398522(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg412766(v=OCS.15))
+    [CsAnnouncement](https://technet.microsoft.com/library/Gg412766(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAnnouncement](https://technet.microsoft.com/en-us/library/Gg425752(v=OCS.15))
+    [CsAnnouncement](https://technet.microsoft.com/library/Gg425752(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Import-CsAnnouncementFile](https://technet.microsoft.com/en-us/library/Gg398472(v=OCS.15))
+    [Import-CsAnnouncementFile](https://technet.microsoft.com/library/Gg398472(v=OCS.15))
 
 </div>
 

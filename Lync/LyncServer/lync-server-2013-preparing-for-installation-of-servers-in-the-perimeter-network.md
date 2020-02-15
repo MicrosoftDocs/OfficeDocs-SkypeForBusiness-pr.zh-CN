@@ -12,20 +12,20 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c7168c1e32bd4ceb1466678d08a3d7ca9e6dc69e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724932"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a>准备针对 Lync Server 2013 在外围网络中安装服务器
+# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a>准备在外围网络中为 Lync Server 2013 安装服务器
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41724932"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-在设置边缘服务器组件之前，你需要确保你设置的计算机满足系统要求并完成部署 Edge 服务器组件所需的其他先决条件步骤。
+设置边缘服务器组件之前，需要确保所设置的计算机满足系统要求，并完成部署边缘服务器组件所需的其他先决步骤。
 
-开始之前，请查看有关要部署的参考体系结构的计划文档中的以下主题中的详细信息：
+开始之前，请查看要部署的参考体系结构的规划文档中下列主题的详细信息：
 
-  - [Lync Server 2013 中使用专用 IP 地址和 NAT 的单一合并边缘](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
+  - [Lync Server 2013 中具有专用 IP 地址和 NAT 的单一合并边缘](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
-  - [Lync Server 2013 中使用公用 IP 地址的单一合并边缘](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Lync Server 2013 中具有公用 IP 地址的单一合并边缘](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Lync Server 2013 中的扩展的合并边缘（使用 NAT 通过专用 IP 地址进行 DNS 负载平衡）](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [在 Lync Server 2013 中，扩展的合并边缘（使用 NAT 通过专用 IP 地址进行 DNS 负载平衡）](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Lync Server 2013 中的扩展的合并边缘（通过公用 IP 地址进行 DNS 负载平衡）](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [在 Lync Server 2013 中，扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [Lync Server 2013 中使用硬件负载平衡器的扩展的合并边缘](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Lync Server 2013 中具有硬件负载平衡器的扩展的合并边缘](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中配置边缘支持的 DNS](lync-server-2013-configure-dns-for-edge-support.md)
+  - [在 Lync Server 2013 中为边缘支持配置 DNS](lync-server-2013-configure-dns-for-edge-support.md)
 
   - [在 Lync Server 2013 中为扩展的边缘拓扑设置硬件负载平衡器](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
 

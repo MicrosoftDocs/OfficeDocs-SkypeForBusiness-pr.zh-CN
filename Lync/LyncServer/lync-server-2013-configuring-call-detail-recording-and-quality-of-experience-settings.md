@@ -1,5 +1,5 @@
 ---
-title: 配置呼叫详细信息记录和用户体验质量设置
+title: 配置呼叫详细信息记录和体验质量设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 504c2221e9f8a3ef32e2cebbb792f5e03aef15c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8382d95ebc1c90a46ab1edee8248b7892e297ea2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756336"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046235"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置 "呼叫详细记录" 和 "体验质量" 设置
+# <a name="configuring-call-detail-recording-and-quality-of-experience-settings-in-lync-server-2013"></a>在 Lync Server 2013 中配置呼叫详细信息记录和体验质量设置
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756336"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-17_
+_**上次修改的主题：** 2012-10-17_
 
-将监视存储与前端池关联后，设置监视存储，然后安装并配置 SQL Server Reporting Services 和监视报告，您可以管理呼叫详细记录（CDR）和体验质量（QoE）使用 Lync Server 命令行管理程序进行监视。 Lync Server Management Shell cmdlet 允许你为特定网站或整个 Lync Server 部署启用和禁用 CDR 和/或 QoE 监视;使用如下所示的命令即可完成此操作：
+将监控存储与前端池关联之后，将其设置为监控存储，然后安装并配置 SQL Server Reporting Services 和监控报告，以管理呼叫详细信息记录（CDR）和体验质量（QoE）使用 Lync Server 命令行管理程序进行监控。 Lync Server 命令行管理程序 cmdlet 允许您为特定站点或整个 Lync Server 部署启用和禁用 CDR 和/或 QoE 监控;为此，可以使用如下所示的命令来完成：
 
     Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
-安装 Microsoft Lync Server 2013 时，你还将为 CDR 和 QoE 安装全局配置设置的预定义集合。 下表显示了呼叫详细记录使用的一些较常用设置的默认值：
+安装 Microsoft Lync Server 2013 时，还将为 CDR 和 QoE 安装全局配置设置的预定义集合。 下表显示了呼叫详细记录使用的一些较常用设置的默认值：
 
 
 <table>
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2012-10-17_
 <thead>
 <tr class="header">
 <th>属性</th>
-<th>描述</th>
+<th>说明</th>
 <th>默认值</th>
 </tr>
 </thead>
@@ -76,7 +76,7 @@ _**主题上次修改时间：** 2012-10-17_
 </tr>
 <tr class="even">
 <td><p>KeepErrorReportForDays</p></td>
-<td><p>指示保留 CDR 错误报告的天数；超过指定天数的任何报告将自动删除。 CDR 错误报告是由客户端应用程序（如 Microsoft Lync 2013）上载的诊断报告。</p>
+<td><p>指示保留 CDR 错误报告的天数；超过指定天数的任何报告将自动删除。 CDR 错误报告是由客户端应用程序（如 Microsoft Lync 2013）上传的诊断报告。</p>
 <p>您可以将此属性设置为 1 到 2562 天之间的任意整数值。</p></td>
 <td><p>60 天</p></td>
 </tr>
@@ -96,7 +96,7 @@ _**主题上次修改时间：** 2012-10-17_
 <thead>
 <tr class="header">
 <th>属性</th>
-<th>描述</th>
+<th>说明</th>
 <th>默认值</th>
 </tr>
 </thead>
@@ -121,11 +121,11 @@ _**主题上次修改时间：** 2012-10-17_
 </table>
 
 
-如果您需要修改这些全局设置，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration cmdlet 来完成。 例如，此命令（从 Lync Server 命令行管理程序中运行）在全局范围内禁用 CDR 监视;通过将 EnableCDR 属性设置为 False 来完成此操作（$False）：
+如果您需要修改这些全局设置，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration cmdlet 来完成。例如，以下命令（从 Lync Server 命令行管理程序运行）在全局范围内禁用 CDR 监控；这是通过将 EnableCDR 属性设置为 False ($False) 来实现的：
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 
-请注意，禁用监控不会从前端池解除监控存储关联，也不卸载或以其他方式影响后端监控数据库。 使用 Lync Server Management Shell 禁用 CDR 或 QoE 监视时，你确实确实会暂时停止 Lync Server 收集和存档监视数据。 如果要恢复收集和存档 CDR 数据，只需要将 EnableCDR 属性重新设置为 True ($True) 即可：
+请注意，禁用监控不会从前端池解除监控存储关联，也不卸载或以其他方式影响后端监控数据库。 当您使用 Lync Server 命令行管理程序禁用 CDR 或 QoE 监视时，您确实会暂时停止 Lync Server 收集和存档监控数据。 如果要恢复收集和存档 CDR 数据，只需要将 EnableCDR 属性重新设置为 True ($True) 即可：
 
     Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 

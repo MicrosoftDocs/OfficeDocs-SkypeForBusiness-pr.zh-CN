@@ -12,16 +12,16 @@ ms:contentKeyID: 63969654
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4a7ae6009c7e34c49d0e49bea131b6cc03fd15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c2ced4d5d61a51ff3e25422ba9486887b72470a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756766"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,47 +35,47 @@ ms.locfileid: "41756766"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-08-18_
+_**上次修改的主题：** 2014-08-18_
 
 每月任务侧重于确保系统的长期运行状况。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-应按月为基础执行以下任务：
+应按月执行以下任务：
 
-  - [查看 Lync Server 2013 中的林全局设置的状态](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
+  - [在 Lync Server 2013 中查看林的全局设置状态](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
 
   - [在 Lync Server 2013 中查看边缘服务器设置](lync-server-2013-view-edge-server-settings.md)
 
   - [检查 Lync Server 2013 服务器证书](lync-server-2013-check-lync-server-2013-server-certificates.md)
 
-  - [对照 Lync Server 2013 中的电话号码检查中继配置](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
+  - [在 Lync Server 2013 中检查对电话号码的中继配置](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
 
   - [在 Lync Server 2013 中检查语音规范化规则](lync-server-2013-check-voice-normalization-rules.md)
 
-  - [根据 Lync Server 2013 中的语音策略测试电话号码](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
+  - [在 Lync Server 2013 中针对语音策略测试电话号码](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
 
-  - [根据 Lync Server 2013 中的语音路线测试电话号码](lync-server-2013-test-telephone-number-against-a-voice-route.md)
+  - [在 Lync Server 2013 中针对语音路由测试电话号码](lync-server-2013-test-telephone-number-against-a-voice-route.md)
 
   - [在 Lync Server 2013 中测试语音配置](lync-server-2013-test-voice-configuration.md)
 
   - [在 Lync Server 2013 中测试语音规则、路由和策略](lync-server-2013-test-voice-rules-routes-and-policies.md)
 
-  - [在 Lync Server 2013 中测试 Web 应用访问](lync-server-2013-test-web-app-access.md)
+  - [在 Lync Server 2013 中测试 Web 应用程序访问](lync-server-2013-test-web-app-access.md)
 
   - [在 Lync Server 2013 中测试匿名 Web 应用访问](lync-server-2013-test-anonymous-web-app-access.md)
 
   - [在 Lync Server 2013 中测试移动用户访问权限](lync-server-2013-test-mobile-user-access.md)
 
-  - [测试移动用户在 Lync Server 2013 中交换即时消息的能力](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
+  - [测试移动用户在 Lync Server 2013 中 exchange 即时消息的功能](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
 
-  - [在 Lync Server 2013 中测试指向智能电话的推送通知](lync-server-2013-test-push-notifications-to-smart-phones.md)
+  - [在 Lync Server 2013 中测试到智能手机的推送通知](lync-server-2013-test-push-notifications-to-smart-phones.md)
 
   - [Lync Server 2013 中的安全检查](lync-server-2013-security-checks.md)
 
-  - [Lync Server 2013 中的容量审查](lync-server-2013-capacity-review.md)
+  - [Lync Server 2013 中的容量审核](lync-server-2013-capacity-review.md)
 
   - [Lync Server 2013 中的灾难恢复测试](lync-server-2013-disaster-recovery-test.md)
 

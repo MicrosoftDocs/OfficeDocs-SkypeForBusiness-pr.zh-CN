@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Gateways 表
+title: Lync Server 2013：网关表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5ee7296b93b3a9e1d7900b3ddde5c1b850c3580
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a03222cd628466e7d88e8f36adafbf5207f0ef0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739622"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="gateways-table-in-lync-server-2013"></a>Lync Server 2013 中的 Gateways 表
+# <a name="gateways-table-in-lync-server-2013"></a>Lync Server 2013 中的网关表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41739622"
 
 <span> </span>
 
-_**主题上次修改时间：** 2010-11-05_
+_**上次修改的主题：** 2010-11-05_
 
-网关表是支持表。 每条记录存储有关一个网关的信息，这些信息涉及到数据库中有记录的公共交换电话网络（PSTN）呼叫。
+网关表是支持表。 每个记录存储在数据库中具有记录的公用电话交换网（PSTN）呼叫中涉及的一个网关的相关信息。
 
 
 <table>
@@ -59,12 +59,12 @@ _**主题上次修改时间：** 2010-11-05_
 <tr class="odd">
 <td><p><strong>GatewayId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td><p>标识此网关的唯一号码。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>网关</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar （256）</p></td>
 <td><p> </p></td>
 <td><p>网关名称。</p></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblRoleType
+title: Lync Server 2013： tblRoleType
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba6b5041453b0965fafc12ada2be62ec42316f89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab96d6cd090ebaaa9e33ddf1672ab704ee371f8b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731182"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-25_
+_**上次修改的主题：** 2012-06-25_
 
-tblRoleType 是一个具有角色类型及其关联权限集的静态查找表。
+tblRoleType 是一个静态查找表，其中包含角色类型及其关联的权限集。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,40 +57,40 @@ tblRoleType 是一个具有角色类型及其关联权限集的静态查找表�
 <tbody>
 <tr class="odd">
 <td><p>rtypeID</p></td>
-<td><p>int，not null</p></td>
+<td><p>int，不为 null</p></td>
 <td><p>角色类型 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>rtypeDesc</p></td>
-<td><p>nvarchar （256），not null</p></td>
-<td><p>角色类型说明。 有四个可用的角色：</p>
+<td><p>nvarchar (256)，不为 null</p></td>
+<td><p>角色类型描述。可用角色有四种：</p>
 <ul>
 <li><p>成员：聊天室成员</p></li>
-<li><p>管理器：聊天室管理器</p></li>
-<li><p>浊音：演示者使用 auditorium 聊天室</p></li>
+<li><p>管理员：聊天室管理员</p></li>
+<li><p>有发布权的人：大会堂聊天室的演讲者</p></li>
 <li><p>创建者：可以创建聊天室</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>rtypeAllowedPermSet</p></td>
-<td><p>bigint，not null</p></td>
-<td><p>角色的权限集。 所用位为：</p>
+<td><p>bigint，不为 null</p></td>
+<td><p>角色的权限集。使用的位为：</p>
 <ul>
-<li><p>2：如果角色可以管理节点，则为 True。</p></li>
-<li><p>4：如果角色可以创建子节点，则为 True。</p></li>
-<li><p>7：如果角色可以加入聊天室（或类别的子聊天室），则为 True。</p></li>
-<li><p>8：如果角色可以在聊天室中（或在子类别的子聊天室中）聊天，则为 True。</p></li>
-<li><p>10：如果角色可以读取聊天历史记录（即使未加入聊天室），则为 True。</p></li>
-<li><p>11：如果角色可以查看聊天室，则为 True。 （这将通过范围和可见性等因素进一步改进。）</p></li>
-<li><p>12：如果角色可以在 auditorium 聊天室中聊天，则为 True。</p></li>
-<li><p>13：如果角色在查看节点时可以绕过可见性规则，则为 True。</p></li>
+<li><p>2：在角色可以管理节点时为 True。</p></li>
+<li><p>4：在角色可以创建子节点时为 True。</p></li>
+<li><p>7：在角色可以加入聊天室（或某类别的子聊天室）时为 True。</p></li>
+<li><p>8：在角色可以在聊天室中（或某类别的子聊天室中）聊天时为 True。</p></li>
+<li><p>10：在角色即使不加入聊天室也可读取聊天历史记录时为 True。</p></li>
+<li><p>11：在角色可以看到聊天室时为 True。（该值可通过作用域和可见性等因素进一步优化。）</p></li>
+<li><p>12：在角色可以在大会堂聊天室中聊天时为 True。</p></li>
+<li><p>13：在角色查看节点后可以绕过可见性规则时为 True。</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>关键字
+### <a name="key"></a>键
 
 <table>
 <colgroup>

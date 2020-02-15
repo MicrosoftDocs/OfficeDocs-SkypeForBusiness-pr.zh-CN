@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：基于位置的路由的客户端和服务器支持
+title: Lync Server 2013：针对基于位置的路由的客户端和服务器支持
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ad7ead20eb9961180fec9204a84b3392b7fa96f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efdb03adbdf1392e27c3107eef4aaf97f3708e66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729852"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Lync Server 2013 中基于位置的路由的客户端和服务器支持
+# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>在 Lync Server 2013 中对基于位置的路由的客户端和服务器支持
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729852"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-06-18_
+_**上次修改的主题：** 2013-06-18_
 
-基于位置的路由由 Lync Server 强制执行。 Lync 服务器可以标识用户从公司网络中连接的网络站点。 由于远程用户位于企业网络外，其位置将被视为未知。
+基于位置的路由由 Lync Server 强制实施。 Lync Server 可以标识用户从公司网络中连接的网络站点。 由于远程用户位于企业网络外部，因此其位置被视为未知。
 
 <div>
 
 ## <a name="lync-server-support"></a>Lync Server 支持
 
-基于位置的路由要求 Lync Server 2013 CU1 部署在给定拓扑中的所有前端池和标准版服务器上。 如果在拓扑中的某些 Lync 组件上未安装 Lync Server 2013 CU1，则基于位置的路由限制无法完全强制执行。
+基于位置的路由要求在给定拓扑中的所有前端池和 Standard Edition 服务器上部署 Lync Server 2013 CU1。 如果未在拓扑中的某些 Lync 组件上安装 Lync Server 2013 CU1，则不能完全强制实施基于位置的路由限制。
 
-下表标识了基于位置的路由支持的服务器角色和版本的组合。
+下表标识了服务器角色和支持的基于位置的路由的版本组合。
 
 
 <table>
@@ -63,39 +63,39 @@ _**主题上次修改时间：** 2013-06-18_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Server 2013，2013 2 月累积更新</p></td>
-<td><p>Lync Server 2013，2013 2 月累积更新</p></td>
-<td><p>支持</p></td>
+<td><p>Lync Server 2013 二月2013累积更新</p></td>
+<td><p>Lync Server 2013 二月2013累积更新</p></td>
+<td><p>是</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013，2013 2 月累积更新</p></td>
+<td><p>Lync Server 2013 二月2013累积更新</p></td>
 <td><p>Lync Server 2013</p></td>
-<td><p>不支持</p></td>
+<td><p>否</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013，2013 2 月累积更新</p></td>
+<td><p>Lync Server 2013 二月2013累积更新</p></td>
 <td><p>Lync Server 2010</p></td>
-<td><p>不支持</p></td>
+<td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013，2013 2 月累积更新</p></td>
+<td><p>Lync Server 2013 二月2013累积更新</p></td>
 <td><p>Office Communications Server 2007 R2</p></td>
-<td><p>不支持</p></td>
+<td><p>否</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013</p></td>
 <td><p>任意</p></td>
-<td><p>不支持</p></td>
+<td><p>否</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010</p></td>
 <td><p>任意</p></td>
-<td><p>不支持</p></td>
+<td><p>否</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communications Server 2007 R2</p></td>
 <td><p>任意</p></td>
-<td><p>不支持</p></td>
+<td><p>否</p></td>
 </tr>
 </tbody>
 </table>
@@ -126,42 +126,42 @@ _**主题上次修改时间：** 2013-06-18_
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
-<td><p>支持</p></td>
+<td><p>是</p></td>
 <td><p>包括 Lync 2013 二月2013累积更新</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
-<td><p>支持</p></td>
+<td><p>是</p></td>
 <td> </td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
-<td><p>不支持</p></td>
+<td><p>否</p></td>
 <td> </td>
 </tr>
 <tr class="even">
 <td><p>Lync Phone Edition</p></td>
-<td><p>支持</p></td>
+<td><p>是</p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Lync Attendant</p></td>
-<td><p>支持</p></td>
+<td><p>Lync 助理</p></td>
+<td><p>是</p></td>
 <td> </td>
 </tr>
 <tr class="even">
 <td><p>适用于 Windows 8 的 Lync</p></td>
-<td><p>不支持</p></td>
+<td><p>否</p></td>
 <td> </td>
 </tr>
 <tr class="odd">
 <td><p>Lync Mobile 2013</p></td>
-<td><p>不支持</p></td>
-<td><p>如果启用了基于位置的路由的用户使用，则必须为 Lync Mobile 2013 客户端禁用 VoIP。</p></td>
+<td><p>否</p></td>
+<td><p>如果启用了基于位置的路由的用户使用，则必须对 Lync Mobile 2013 客户端禁用 VoIP。</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Mobile 2010</p></td>
-<td><p>支持</p></td>
+<td><p>是</p></td>
 <td> </td>
 </tr>
 </tbody>
@@ -173,7 +173,7 @@ _**主题上次修改时间：** 2013-06-18_
 
 
 > [!NOTE]  
-> 若要禁用 Lync Mobile 2013 客户端的 VoIP，请为启用了基于位置的路由的所有用户的设置（IP 音频/视频）分配移动策略。 有关移动策略的详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>。
+> 若要对 Lync Mobile 2013 客户端禁用 VoIP，请为启用了基于位置的路由的所有用户的设置（IP 音频/视频）分配移动策略。 有关移动策略的更多详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">set-csmobilitypolicy</A>。
 
 
 

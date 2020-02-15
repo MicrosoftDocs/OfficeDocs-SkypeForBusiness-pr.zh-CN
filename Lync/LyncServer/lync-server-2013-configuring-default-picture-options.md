@@ -12,16 +12,16 @@ ms:contentKeyID: 56280893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e551d069da9a3afb7a884c28096dd97ab3702539
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 912bf3c2c30474755fbefd7399f110ae898fc104
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758146"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758146"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-03-22_
+_**上次修改的主题：** 2013-03-22_
 
 默认情况下，将自动显示用户的图片。 如果用户想要隐藏其图片，可以在 Lync 客户端中选择 "**隐藏我的图片**" 选项。 但是，其他一些 Office 应用程序将忽略此设置。
 
-如果在用户关闭图片时也可能显示图片，则可以为网站或服务更改 Lync 图片显示设置，以便默认情况下不显示用户的图片。 使用以下 Lync Server Management Shell cmdlet，以便用户的图片在客户端中明确选择 "**显示我的图片**" 选项，否则不会显示。
+如果在用户关闭图片时可能显示图片，则可以在全局范围内更改 Lync 图片显示设置，也可以更改网站或服务，以便默认情况下不会显示用户的图片。 使用以下 Lync Server 命令行管理程序 cmdlet，以使用户的图片在客户端中明确选择 "**显示我的图片**" 选项，否则不会显示。
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 
-有关此 cmdlet 的详细信息，请参阅 Lync Server Management Shell 文档中的 "[设置 CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) "。
+有关此 cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档中的[CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) 。
 
 </div>
 

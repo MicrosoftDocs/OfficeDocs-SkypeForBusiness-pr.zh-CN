@@ -1,5 +1,5 @@
 ---
-title: 使用 Exchange Server 集成时设置存档策略
+title: 在使用 Exchange Server 集成时设置存档策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eccac54e75dff4ba0c4af29e0f14d6e48068ae1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eac425f08e3522c4ed885036c144c4c0f12e37b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764588"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040871"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a>使用 Exchange Server 集成时，在 Lync Server 2013 中设置存档策略
+# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a>在使用 Exchange Server 集成时，在 Lync Server 2013 中设置存档策略
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764588"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-09_
+_**上次修改的主题：** 2012-10-09_
 
-如果托管在 Exchange 2013 上的用户已将其邮箱置于原地保留，则 Exchange 就地保留策略控制这些用户的存档。 如果你针对你的部署使用 Microsoft Exchange 集成，Exchange 2013 策略将覆盖托管在 Exchange 2013 上的用户的 Lync Server 存档策略。 有关配置 Exchange 存档策略的信息，请参阅 Exchange 2013 文档。 有关为驻留在 Lync Server 2013 上的用户设置用户策略的详细信息，请参阅部署文档中的在[Lync Server 2013 中设置用于存档的用户策略](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md)。 有关策略如何工作的详细信息，请参阅规划文档、部署文档或操作文档中的在[Lync Server 2013 中的存档的工作原理](lync-server-2013-how-archiving-works.md)。
+如果托管在 Exchange 2013 上的用户将其邮箱置于就地保留状态，则 Exchange 就地保留策略将控制这些用户的存档。 如果您的部署使用的是 Microsoft Exchange 集成，则 Exchange 2013 策略将覆盖托管在 Exchange 2013 上的用户的 Lync Server 存档策略。 有关配置 Exchange 存档策略的信息，请参阅 Exchange 2013 文档。 有关为驻留在 Lync Server 2013 上的用户设置用户策略的详细信息，请参阅部署文档中的在[Lync server 2013 中设置用户策略以进行存档](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md)。 有关策略如何工作的详细信息，请参阅规划文档、部署文档或操作文档中的在[Lync Server 2013 中存档的工作](lync-server-2013-how-archiving-works.md)原理。
 
 <div>
 
 
 > [!NOTE]
-> 如果在同一林中部署 Exchange 2013 和 Lync Server 2013，Exchange 2013 就地保留策略控制存档。 如果在单独的目录林中部署 Exchange 2013 和 Lync Server 2013，请参阅在<A href="lync-server-2013-deployment-checklist-for-archiving.md">Lync server 2013 中的存档部署清单中的</A>"部署 Lync 服务器和 Microsoft Exchange 其他林中"。
+> 如果在同一个林中部署 Exchange 2013 和 Lync Server 2013，则 Exchange 2013 就地保留策略控制存档。 如果在单独的林中部署 Exchange 2013 和 Lync Server 2013，请参阅<A href="lync-server-2013-deployment-checklist-for-archiving.md">Lync server 2013 中的存档检查部署清单中的</A>"在不同林中部署 Lync Server 和 Microsoft Exchange"。
 
 
 

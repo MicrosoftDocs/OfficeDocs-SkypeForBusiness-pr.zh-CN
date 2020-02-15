@@ -12,16 +12,16 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7a6be73d31892b5a0d5a3a5b10ad136f92afbf5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 287fc0ceff26a5940d717b4efa1ef2c525acb0f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763816"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763816"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-20_
+_**上次修改的主题：** 2012-08-20_
 
-IMReportSummaryTable 提供组织中的即时消息会话的整体报告。 此表是在 Microsoft Lync Server 2013 中引入的。
+IMReportSummaryTable 提供有关组织中进行的即时消息会话的总体报告。 此表是在 Microsoft Lync Server 2013 中引入的。
 
 
 <table>
@@ -59,26 +59,26 @@ IMReportSummaryTable 提供组织中的即时消息会话的整体报告。 此�
 <tr class="odd">
 <td><p><strong>StartTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td><p>即时消息会话开始的日期和时间。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TimePeriod</strong></p></td>
 <td><p>char （1）</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PoolFQDN</strong></p></td>
 <td><p>nvarchar （257）</p></td>
-<td><p>Primary</p></td>
-<td><p>托管会话的池的完全限定的域名。</p></td>
+<td><p>主</p></td>
+<td><p>承载会话的池的完全限定域名。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AuthType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>通话的优先级（例如，紧急或非紧急）。 优先级信息存储在<a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 的 CallPriorities 表中</a>。</p></td>
+<td><p>主</p></td>
+<td><p>呼叫的优先级（例如，紧急或非紧急）。 优先级信息存储在<a href="lync-server-2013-callpriorities-table.md">Lync Server 2013 的 CallPriorities 表中</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SessionCount</strong></p></td>

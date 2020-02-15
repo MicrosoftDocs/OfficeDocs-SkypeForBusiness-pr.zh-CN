@@ -12,16 +12,16 @@ ms:contentKeyID: 48183784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d0411156d6d4c8a801f643f62a93f1a31d999b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37a7a823e2dc1aa0e7ea1df5d873292f2932ac32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727762"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41727762"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-11_
+_**上次修改的主题：** 2012-10-11_
 
-本节中的主题提供了可使用 Lync Server 2013 控制面板中的 "**拓扑**" 页面执行的任务的分步过程。
+本节中的主题提供了可使用 Lync Server 2013 控制面板中的 "**拓扑结构**" 页执行的任务的分步过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [查看运行 Lync Server 2013 的计算机列表](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
+  - [查看运行 Lync Server 2013 的计算机的列表](lync-server-2013-view-a-list-of-computers-running-lync-server-2013.md)
 
   - [在 Lync Server 2013 中查看计算机上运行的服务的状态](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
 
@@ -53,15 +53,15 @@ _**主题上次修改时间：** 2012-10-11_
 
   - [在 Lync Server 2013 中阻止服务的会话](lync-server-2013-prevent-sessions-for-services.md)
 
-  - [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)
+  - [在 Lync Server 2013 中升级或更新前端服务器](lync-server-2013-upgrade-or-update-front-end-servers.md)
 
-  - [Add or remove a Front End Server in Lync Server 2013](lync-server-2013-add-or-remove-a-front-end-server.md)
+  - [在 Lync Server 2013 中添加或删除前端服务器](lync-server-2013-add-or-remove-a-front-end-server.md)
 
-  - [在 Lync Server 2013 中升级或更新后端服务器或标准版服务器](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
+  - [在 Lync Server 2013 中升级或更新后端服务器或 Standard Edition 服务器](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
 
   - [在 Lync Server 2013 中管理 Microsoft SIP 处理语言（MSPL）应用程序](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
 
-  - [在 Lync Server 2013 中管理简单的 Url](lync-server-2013-managing-simple-urls.md)
+  - [在 Lync Server 2013 中管理简单 Url](lync-server-2013-managing-simple-urls.md)
 
 </div>
 

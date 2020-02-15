@@ -12,16 +12,16 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fcf6679481d4f35a457eb72960a8ae999b004d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45781238f7fb8aa461e050f2e8f0cbf04e45a950
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745822"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745822"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-07-07_
+_**上次修改的主题：** 2016-07-07_
 
 
 <table>
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2016-07-07_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要权限</p></td>
-<td><p>使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员，并且需要拥有 SQL Server 的管理员权限。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行<strong>CsDatabase</strong> cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<td><p>所需的权限</p></td>
+<td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员，并且需要具有对 SQL Server 的管理员权限。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行<strong>CsDatabase</strong> cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**主题上次修改时间：** 2016-07-07_
 
 ## <a name="description"></a>说明
 
-**CsDatabase** cmdlet 验证与一个或多个 Lync Server 2013 数据库的连接。 运行时， **CsDatabase** cmdlet 会读取 Lync Server 拓扑，尝试连接到相关数据库，然后返回每次尝试成功或失败的报告。 如果可以建立连接，则 cmdlet 还会报告返回有关数据库名称、SQL Server 版本信息以及任何已安装镜像数据库位置的信息。
+**CsDatabase** cmdlet 验证与一个或多个 Lync Server 2013 数据库的连接。 在运行时， **CsDatabase** cmdlet 会读取 Lync Server 拓扑，尝试连接到相关数据库，然后报告每次尝试成功或失败。 如果可以建立连接，该 cmdlet 还将返回数据库名称、SQL Server 版本以及所有已安装的镜像数据库的位置等信息。
 
 </div>
 
@@ -74,19 +74,19 @@ _**主题上次修改时间：** 2016-07-07_
 
 ## <a name="running-the-test"></a>运行测试
 
-示例1中所示的命令验证中央管理数据库的配置。
+示例 1 中显示的命令验证中央管理数据库的配置。
 
     Test-CsDatabase -CentralManagementDatabase
 
-示例2验证计算机 atl-sql-001.litwareinc.com 上安装的所有 Lync Server 数据库。
+示例2验证安装在计算机 atl-sql-001.litwareinc.com 上的所有 Lync Server 数据库。
 
     Test-CsDatabase -ConfiguredDatabases -SqlServerFqdn "atl-sql-001.litwareinc.com"
 
-在示例3中，仅对计算机 atl-sql-001.litwareinc.com 上安装的存档数据库执行验证。 请注意，SqlInstanceName 参数包含于指定存档数据库所在的 SQL Server 实例（Archinst）。
+在示例 3 中，仅对安装在计算机 atl-sql-001.litwareinc.com 上的存档数据库执行验证。请注意，包括了 SqlInstanceName 参数以指定存档数据库所在的 SQL Server 实例 (Archinst)。
 
     Test-CsDatabase -DatabaseType "Archiving" -SqlServerFqdn "atl-sql-001.litwareinc.com" -SqlInstanceName "archinst"
 
-示例4中所示的命令验证本地计算机上安装的数据库。
+示例 4 中显示的命令用于验证本地计算机上安装的数据库。
 
     Test-CsDatabase -LocalService
 
@@ -94,9 +94,9 @@ _**主题上次修改时间：** 2016-07-07_
 
 <div>
 
-## <a name="determining-success-or-failure"></a>确定成功还是失败
+## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果数据库连接配置正确，您将收到与此类似的输出，其中 "成功" 属性标记为**True**：
+如果数据库连接配置正确，您将收到与以下内容类似的输出，其中 "成功" 属性被标记为**True**：
 
 SqlServerFqdn： atl-sql-001.litwareinc.com
 
@@ -108,7 +108,7 @@ MirrorSqlInstanceName :
 
 DatabaseName： xds
 
-数据源
+DataSource
 
 SQLServerVersion :
 
@@ -128,7 +128,7 @@ MirrorSqlInstanceName :
 
 DatabaseName： .lis
 
-数据源
+DataSource
 
 SQLServerVersion :
 
@@ -138,7 +138,7 @@ InstalledVersion :
 
 成功： True
 
-如果数据库配置正确但仍可用，则 "成功" 字段将显示为**False**，并且将提供其他警告和信息：
+如果数据库配置正确但仍可用，则 "成功" 字段将显示为**False**，并将提供其他警告和信息：
 
 SqlServerFqdn： atl-sql-001.litwareinc.com
 
@@ -150,7 +150,7 @@ MirrorSqlInstanceName :
 
 DatabaseName： xds
 
-数据源
+DataSource
 
 SQLServerVersion :
 
@@ -170,7 +170,7 @@ MirrorSqlInstanceName :
 
 DatabaseName： .lis
 
-数据源
+DataSource
 
 SQLServerVersion :
 
@@ -184,11 +184,11 @@ InstalledVersion :
 
 详细分析，并确保解决所有错误（2）和警告（0）
 
-然后再继续。
+，然后再继续。
 
-警告：可以在以下位置找到详细结果
+警告：详细结果可在以下位置找到：
 
-"C：\\用户\\测试\\AppData\\本地\\温度\\2\\测试-CsDatabase-b18d488a-8044-4679-bbf2-
+"C：\\用户\\测试\\AppData\\本地\\临时\\2\\测试-CsDatabase-b18d488a-8044-4679-bbf2-
 
 04d593cce8e6 "。
 
@@ -198,11 +198,11 @@ InstalledVersion :
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-下面是**测试 CsDatabase**可能失败的一些常见原因：
+以下是**测试 CsDatabase**可能失败的一些常见原因：
 
-  - 提供的参数值不正确。 如果使用，则必须正确配置可选参数，否则测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
+  - 提供的参数值不正确。 如果使用，则必须正确配置可选参数或测试将失败。 重新运行不带可选参数的命令，并查看是否成功。
 
-  - 如果数据库配置错误或尚未部署，此命令将失败。
+  - 如果数据库配置错误或尚未部署，则此命令将失败。
 
 </div>
 
@@ -211,9 +211,9 @@ InstalledVersion :
 ## <a name="see-also"></a>另请参阅
 
 
-[Get-CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
-[CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
-[Get-CsUserDatabaseState](https://docs.microsoft.com/powershell/module/skype/Get-CsUserDatabaseState)  
+[CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
+[Get-csservice](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[CsUserDatabaseState](https://docs.microsoft.com/powershell/module/skype/Get-CsUserDatabaseState)  
   
 
 </div>
