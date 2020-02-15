@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：集成本地统一消息的指南
+title: Lync Server 2013：集成本地统一消息的准则
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f3e57245f0a8edf5b545f9a67547e6be6f63399
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1be763250edf7222b900aef88665b3e360e8125c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739612"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006218"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a><span data-ttu-id="64324-102">集成本地统一消息与 Lync Server 2013 的指南</span><span class="sxs-lookup"><span data-stu-id="64324-102">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>
+# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a><span data-ttu-id="8db98-102">集成本地统一消息和 Lync Server 2013 的准则</span><span class="sxs-lookup"><span data-stu-id="8db98-102">Guidelines for integrating on-premises Unified Messaging and Lync Server 2013</span></span>
 
 </div>
 
@@ -35,102 +35,102 @@ ms.locfileid: "41739612"
 
 <span> </span>
 
-<span data-ttu-id="64324-103">_**主题上次修改时间：** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="64324-103">_**Topic Last Modified:** 2012-09-25_</span></span>
+<span data-ttu-id="8db98-103">_**上次修改的主题：** 2012-09-25_</span><span class="sxs-lookup"><span data-stu-id="8db98-103">_**Topic Last Modified:** 2012-09-25_</span></span>
 
-<span data-ttu-id="64324-104">以下是部署企业语音时要考虑的准则和最佳做法：</span><span class="sxs-lookup"><span data-stu-id="64324-104">The following are guidelines and best practices to consider when you deploy Enterprise Voice:</span></span>
+<span data-ttu-id="8db98-104">以下是在部署企业语音时要考虑的准则和最佳实践：</span><span class="sxs-lookup"><span data-stu-id="8db98-104">The following are guidelines and best practices to consider when you deploy Enterprise Voice:</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="64324-105">Exchange 统一消息（UM）仅在你也使用 UCMA 4 时才支持 IPv6。</span><span class="sxs-lookup"><span data-stu-id="64324-105">Exchange Unified Messaging (UM) supports IPv6 only if you are also using UCMA 4.</span></span>
+> <span data-ttu-id="8db98-105">仅当您还使用 UCMA 4 时，Exchange 统一消息（UM）才支持 IPv6。</span><span class="sxs-lookup"><span data-stu-id="8db98-105">Exchange Unified Messaging (UM) supports IPv6 only if you are also using UCMA 4.</span></span>
 
 
 
 </div>
 
-  - <span data-ttu-id="64324-106">部署 Lync Server 2013 标准版服务器或前端池。</span><span class="sxs-lookup"><span data-stu-id="64324-106">Deploy a Lync Server 2013 Standard Edition server or a Front End pool.</span></span> <span data-ttu-id="64324-107">有关安装的详细信息，请参阅部署文档中的 "[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) "。</span><span class="sxs-lookup"><span data-stu-id="64324-107">For details about installation, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
+  - <span data-ttu-id="8db98-106">部署 Lync Server 2013 Standard Edition server 或前端池。</span><span class="sxs-lookup"><span data-stu-id="8db98-106">Deploy a Lync Server 2013 Standard Edition server or a Front End pool.</span></span> <span data-ttu-id="8db98-107">有关安装的详细信息，请参阅部署文档中的[部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md) 。</span><span class="sxs-lookup"><span data-stu-id="8db98-107">For details about installation, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
 
-  - <span data-ttu-id="64324-108">与 Exchange 管理员一起确认每个人将要执行的任务，以确保顺利、成功地集成。</span><span class="sxs-lookup"><span data-stu-id="64324-108">Work with Exchange administrators to confirm which tasks each of you will perform to assure a smooth and successful integration.</span></span>
+  - <span data-ttu-id="8db98-108">与 Exchange 管理员一起确认每个人将要执行的任务，以确保顺利、成功地集成。</span><span class="sxs-lookup"><span data-stu-id="8db98-108">Work with Exchange administrators to confirm which tasks each of you will perform to assure a smooth and successful integration.</span></span>
 
-  - <span data-ttu-id="64324-109">在要为 Exchange UM 启用用户的每个 Exchange 统一消息（UM）林中部署 Exchange 邮箱服务器角色。</span><span class="sxs-lookup"><span data-stu-id="64324-109">Deploy the Exchange Mailbox server roles in each Exchange Unified Messaging (UM) forest where you want to enable users for Exchange UM.</span></span> <span data-ttu-id="64324-110">有关安装 Exchange server 角色的详细信息，请参阅 Microsoft Exchange Server 2013 文档。</span><span class="sxs-lookup"><span data-stu-id="64324-110">For details about installing Exchange server roles, see the Microsoft Exchange Server 2013 documentation.</span></span>
+  - <span data-ttu-id="8db98-109">在要为其启用 Exchange UM 的用户的每个 Exchange 统一消息（UM）林中部署 Exchange 邮箱服务器角色。</span><span class="sxs-lookup"><span data-stu-id="8db98-109">Deploy the Exchange Mailbox server roles in each Exchange Unified Messaging (UM) forest where you want to enable users for Exchange UM.</span></span> <span data-ttu-id="8db98-110">有关安装 Exchange server 角色的详细信息，请参阅 Microsoft Exchange Server 2013 文档。</span><span class="sxs-lookup"><span data-stu-id="8db98-110">For details about installing Exchange server roles, see the Microsoft Exchange Server 2013 documentation.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="64324-111">当安装 Exchange 统一消息（UM）时，它将配置为使用自签名证书。</span><span class="sxs-lookup"><span data-stu-id="64324-111">When Exchange Unified Messaging (UM) is installed, it is configured to use a self-signed certificate.</span></span><BR><span data-ttu-id="64324-112">但是，自签名证书不会使 Lync Server 2013 和 Exchange UM 相互信任，这就是为什么需要从两个服务器信任的证书颁发机构请求单独的证书的原因。</span><span class="sxs-lookup"><span data-stu-id="64324-112">The self-signed certificate, however, does not enable Lync Server 2013 and Exchange UM to trust each other, which is why it is necessary to request a separate certificate from a certification authority that both servers trust.</span></span>
+    > <span data-ttu-id="8db98-111">安装 Exchange 统一消息（UM）后，会将其配置为使用自签名证书。</span><span class="sxs-lookup"><span data-stu-id="8db98-111">When Exchange Unified Messaging (UM) is installed, it is configured to use a self-signed certificate.</span></span><BR><span data-ttu-id="8db98-112">但是，自签名证书不启用 Lync Server 2013 和 Exchange UM 相互信任，这就是为什么需要从两个服务器信任的证书颁发机构请求单独的证书的原因。</span><span class="sxs-lookup"><span data-stu-id="8db98-112">The self-signed certificate, however, does not enable Lync Server 2013 and Exchange UM to trust each other, which is why it is necessary to request a separate certificate from a certification authority that both servers trust.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="64324-113">如果 Lync Server 2013 和 Exchange UM 安装在不同的林中，请将每个 Exchange 林配置为信任 Lync Server 2013 林和 Lync Server 2013 林信任每个 Exchange 林。</span><span class="sxs-lookup"><span data-stu-id="64324-113">If Lync Server 2013 and Exchange UM are installed in different forests, configure each Exchange forest to trust the Lync Server 2013 forest and the Lync Server 2013 forest to trust each Exchange forest.</span></span> <span data-ttu-id="64324-114">此外，在 Lync Server 2013 林中的用户对象上设置用户的 Exchange UM 设置，通常通过使用脚本或跨林工具（如 "身份生命周期管理器（ILM）"）。</span><span class="sxs-lookup"><span data-stu-id="64324-114">Also, set the users’ Exchange UM settings on the user objects in the Lync Server 2013 forest, typically by using a script or a cross-forest tool, such as Identity Lifecycle Manager (ILM).</span></span>
+  - <span data-ttu-id="8db98-113">如果 Lync Server 2013 和 Exchange UM 安装在不同的林中，则将每个 Exchange 林配置为信任 Lync Server 2013 林，并将 Lync Server 2013 林信任每个 Exchange 林。</span><span class="sxs-lookup"><span data-stu-id="8db98-113">If Lync Server 2013 and Exchange UM are installed in different forests, configure each Exchange forest to trust the Lync Server 2013 forest and the Lync Server 2013 forest to trust each Exchange forest.</span></span> <span data-ttu-id="8db98-114">此外，还可以在 Lync Server 2013 林中的 user 对象上设置用户的 Exchange UM 设置，这通常是通过使用脚本或跨林工具（如身份生命周期管理器（ILM））进行的。</span><span class="sxs-lookup"><span data-stu-id="8db98-114">Also, set the users’ Exchange UM settings on the user objects in the Lync Server 2013 forest, typically by using a script or a cross-forest tool, such as Identity Lifecycle Manager (ILM).</span></span>
 
-  - <span data-ttu-id="64324-115">必要时，安装 Exchange 管理控制台以管理统一消息服务器。</span><span class="sxs-lookup"><span data-stu-id="64324-115">If necessary, install the Exchange Management Console to manage your Unified Messaging servers.</span></span>
+  - <span data-ttu-id="8db98-115">必要时，安装 Exchange 管理控制台以管理统一消息服务器。</span><span class="sxs-lookup"><span data-stu-id="8db98-115">If necessary, install the Exchange Management Console to manage your Unified Messaging servers.</span></span>
 
-  - <span data-ttu-id="64324-116">获取有效的电话号码，供 Outlook Voice Access 和自动助理使用。</span><span class="sxs-lookup"><span data-stu-id="64324-116">Obtain valid phone numbers for Outlook Voice Access and auto attendant.</span></span>
+  - <span data-ttu-id="8db98-116">获取有效的电话号码，供 Outlook Voice Access 和自动助理使用。</span><span class="sxs-lookup"><span data-stu-id="8db98-116">Obtain valid phone numbers for Outlook Voice Access and auto attendant.</span></span>
 
-  - <span data-ttu-id="64324-117">如果你使用早于 Microsoft Exchange Server 2010 Service Pack 1 （SP1）的 Exchange UM 的版本，请调整 Exchange UM SIP URI 拨号计划和企业语音拨号计划的名称。</span><span class="sxs-lookup"><span data-stu-id="64324-117">If you are using a version of Exchange UM earlier than Microsoft Exchange Server 2010 Service Pack 1 (SP1), coordinate names for Exchange UM SIP URI dial plans and Enterprise Voice dial plans.</span></span>
+  - <span data-ttu-id="8db98-117">如果使用早于 Microsoft Exchange Server 2010 Service Pack 1 （SP1）的 Exchange UM 版本，则 Exchange UM SIP URI 拨号计划和企业语音拨号计划的名称。</span><span class="sxs-lookup"><span data-stu-id="8db98-117">If you are using a version of Exchange UM earlier than Microsoft Exchange Server 2010 Service Pack 1 (SP1), coordinate names for Exchange UM SIP URI dial plans and Enterprise Voice dial plans.</span></span>
 
 <div>
 
-## <a name="deploying-redundant-exchange-um-servers"></a><span data-ttu-id="64324-118">部署冗余 Exchange UM 服务器</span><span class="sxs-lookup"><span data-stu-id="64324-118">Deploying Redundant Exchange UM Servers</span></span>
+## <a name="deploying-redundant-exchange-um-servers"></a><span data-ttu-id="8db98-118">部署冗余 Exchange UM 服务器</span><span class="sxs-lookup"><span data-stu-id="8db98-118">Deploying Redundant Exchange UM Servers</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="64324-119">我们建议你为你的组织配置的每个 Exchange UM SIP URI 拨号计划至少部署两台 Exchange UM 服务运行的服务器。</span><span class="sxs-lookup"><span data-stu-id="64324-119">We recommend that you deploy a minimum of two servers on which Exchange UM services is running for each Exchange UM SIP URI dial plan that you configure for your organization.</span></span> <span data-ttu-id="64324-120">除了提供扩展容量之外，部署冗余服务还可提供高可用性。</span><span class="sxs-lookup"><span data-stu-id="64324-120">In addition to providing expanded capacity, deploying redundant servers provides high availability.</span></span> <span data-ttu-id="64324-121">在服务器出现故障时，可以将 Lync Server 2013 配置为故障转移到另一台服务器。</span><span class="sxs-lookup"><span data-stu-id="64324-121">In the event of an server failure, Lync Server 2013 can be configured to fail over to another server.</span></span>
+> <span data-ttu-id="8db98-119">我们建议您为您的组织配置的每个 Exchange UM SIP URI 拨号计划至少部署两台 Exchange UM 服务所运行的服务器。</span><span class="sxs-lookup"><span data-stu-id="8db98-119">We recommend that you deploy a minimum of two servers on which Exchange UM services is running for each Exchange UM SIP URI dial plan that you configure for your organization.</span></span> <span data-ttu-id="8db98-120">除了提供扩展容量之外，部署冗余服务器还可提供高可用性。</span><span class="sxs-lookup"><span data-stu-id="8db98-120">In addition to providing expanded capacity, deploying redundant servers provides high availability.</span></span> <span data-ttu-id="8db98-121">如果服务器发生故障，可将 Lync Server 2013 配置为故障转移到另一台服务器。</span><span class="sxs-lookup"><span data-stu-id="8db98-121">In the event of an server failure, Lync Server 2013 can be configured to fail over to another server.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="64324-122">以下示例配置提供 Exchange UM 恢复能力。</span><span class="sxs-lookup"><span data-stu-id="64324-122">The following example configurations provide Exchange UM resiliency.</span></span>
+<span data-ttu-id="8db98-122">以下示例配置提供 Exchange UM 恢复能力。</span><span class="sxs-lookup"><span data-stu-id="8db98-122">The following example configurations provide Exchange UM resiliency.</span></span>
 
-<span data-ttu-id="64324-123">**示例 1：Exchange UM 恢复能力**</span><span class="sxs-lookup"><span data-stu-id="64324-123">**Example 1: Exchange UM Resiliency**</span></span>
+<span data-ttu-id="8db98-123">**示例 1：Exchange UM 恢复能力**</span><span class="sxs-lookup"><span data-stu-id="8db98-123">**Example 1: Exchange UM Resiliency**</span></span>
 
-<span data-ttu-id="64324-124">![Exchange UM 示例 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange UM 示例 1")</span><span class="sxs-lookup"><span data-stu-id="64324-124">![Exchange UM Example 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange UM Example 1")</span></span>
+<span data-ttu-id="8db98-124">![Exchange UM 示例1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange UM 示例1")</span><span class="sxs-lookup"><span data-stu-id="8db98-124">![Exchange UM Example 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange UM Example 1")</span></span>
 
-<span data-ttu-id="64324-p105">在示例 1 中，Tukwila 数据中心启用了 Exchange UM 服务器 1 和 2，Dublin 数据中心启用了 Exchange UM 服务器 3 和 4。如果 Tukwila 发生 Exchange UM 中断，则应将服务器 1 和 2 的域名系统 (DNS) A 记录分别配置为指向服务器 3 和 4。如果 Dublin 发生 Exchange UM 中断，则应将服务器 3 和 4 的 DNS A 记录分别配置为指向服务器 1 和 2。</span><span class="sxs-lookup"><span data-stu-id="64324-p105">In Example 1, Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. In the event of an Exchange UM outage in Tukwila, the Domain Name System (DNS) A records for servers 1 and 2 should be configured to point to servers 3 and 4, respectively. In the event of an Exchange UM outage in Dublin, the DNS A records for servers 3 and 4 should be configured to point to servers 1 and 2, respectively.</span></span>
+<span data-ttu-id="8db98-125">在示例 1 中，Tukwila 数据中心启用了 Exchange UM 服务器 1 和 2，Dublin 数据中心启用了 Exchange UM 服务器 3 和 4。</span><span class="sxs-lookup"><span data-stu-id="8db98-125">In Example 1, Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center.</span></span> <span data-ttu-id="8db98-126">如果 Tukwila 中发生 Exchange UM 中断，域名系统（DNS）应将服务器1和2的一条记录配置为分别指向服务器3和4。</span><span class="sxs-lookup"><span data-stu-id="8db98-126">In the event of an Exchange UM outage in Tukwila, the Domain Name System (DNS) A records for servers 1 and 2 should be configured to point to servers 3 and 4, respectively.</span></span> <span data-ttu-id="8db98-127">在都柏林的 Exchange UM 发生故障的情况下，应将服务器3和4的 DNS A 记录配置为分别指向 "服务器 1" 和 "2"。</span><span class="sxs-lookup"><span data-stu-id="8db98-127">In the event of an Exchange UM outage in Dublin, the DNS A records for servers 3 and 4 should be configured to point to servers 1 and 2, respectively.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="64324-128">对于示例 1，还应在每台 Exchange UM 服务器上分配以下证书之一：</span><span class="sxs-lookup"><span data-stu-id="64324-128">For Example 1, you should also assign one of following certificate on each Exchange UM server:</span></span> 
+> <span data-ttu-id="8db98-128">对于示例 1，还应在每台 Exchange UM 服务器上分配以下证书之一：</span><span class="sxs-lookup"><span data-stu-id="8db98-128">For Example 1, you should also assign one of following certificate on each Exchange UM server:</span></span> 
 > <UL>
 > <LI>
-> <P><span data-ttu-id="64324-129">在使用者替代名称 (SAN) 中使用具有通配符的证书。</span><span class="sxs-lookup"><span data-stu-id="64324-129">Use a certificate with a wildcard in the Subject Alternative Name (SAN).</span></span></P>
+> <P><span data-ttu-id="8db98-129">在使用者替代名称 (SAN) 中使用具有通配符的证书。</span><span class="sxs-lookup"><span data-stu-id="8db98-129">Use a certificate with a wildcard in the Subject Alternative Name (SAN).</span></span></P>
 > <LI>
-> <P><span data-ttu-id="64324-130">在 SAN 中使用四台 Exchange UM 服务器的完全限定域名 (FQDN)。</span><span class="sxs-lookup"><span data-stu-id="64324-130">Put the fully qualified domain name (FQDN) of each of the four Exchange UM servers in the SAN.</span></span></P></LI></UL>
+> <P><span data-ttu-id="8db98-130">将 SAN 中四个 Exchange UM 服务器的完全限定域名（FQDN）。</span><span class="sxs-lookup"><span data-stu-id="8db98-130">Put the fully qualified domain name (FQDN) of each of the four Exchange UM servers in the SAN.</span></span></P></LI></UL>
 
 
 
 </div>
 
-<span data-ttu-id="64324-131">**示例 2：Exchange UM 恢复能力**</span><span class="sxs-lookup"><span data-stu-id="64324-131">**Example 2: Exchange UM Resiliency**</span></span>
+<span data-ttu-id="8db98-131">**示例 2：Exchange UM 恢复能力**</span><span class="sxs-lookup"><span data-stu-id="8db98-131">**Example 2: Exchange UM Resiliency**</span></span>
 
-<span data-ttu-id="64324-132">![Exchange UM 示例 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange UM 示例 2")</span><span class="sxs-lookup"><span data-stu-id="64324-132">![Exchange UM Example 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange UM Example 2")</span></span>
+<span data-ttu-id="8db98-132">![Exchange UM 示例2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange UM 示例2")</span><span class="sxs-lookup"><span data-stu-id="8db98-132">![Exchange UM Example 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange UM Example 2")</span></span>
 
-<span data-ttu-id="64324-p106">在示例 2 中，一般操作情况下，Tukwila 数据中心启用了 Exchange UM 服务器 1 和 2，Dublin 数据中心启用了 Exchange UM 服务器 3 和 4。Tukwila 用户的 SIP URI 拨号计划中包含全部四台服务器；但服务器 3 和 4 已被禁用。如果 Tukwila 发生 Exchange UM 中断，则应禁用 Exchange UM 服务器 1 和 2，并启用 Exchange UM 服务器 3 和 4，这样才会将 Tukwila Exchange UM 流量路由至 Dublin 的服务器。</span><span class="sxs-lookup"><span data-stu-id="64324-p106">In Example 2, under ordinary operating conditions Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. All four servers are included in the Tukwila users' SIP URI dial plan; however, servers 3 and 4 are disabled. In the event of an Exchange UM outage in Tukwila, for example, Exchange UM servers 1 and 2 should be disabled and Exchange UM servers 3 and 4 should be enabled so the Tukwila Exchange UM traffic will be routed to the servers in Dublin.</span></span>
+<span data-ttu-id="8db98-p106">在示例 2 中，一般操作情况下，Tukwila 数据中心启用了 Exchange UM 服务器 1 和 2，Dublin 数据中心启用了 Exchange UM 服务器 3 和 4。Tukwila 用户的 SIP URI 拨号计划中包含全部四台服务器；但服务器 3 和 4 已被禁用。如果 Tukwila 发生 Exchange UM 中断，则应禁用 Exchange UM 服务器 1 和 2，并启用 Exchange UM 服务器 3 和 4，这样才会将 Tukwila Exchange UM 流量路由至 Dublin 的服务器。</span><span class="sxs-lookup"><span data-stu-id="8db98-p106">In Example 2, under ordinary operating conditions Exchange UM servers 1 and 2 are enabled in the Tukwila data center, and Exchange UM servers 3 and 4 are enabled in the Dublin data center. All four servers are included in the Tukwila users' SIP URI dial plan; however, servers 3 and 4 are disabled. In the event of an Exchange UM outage in Tukwila, for example, Exchange UM servers 1 and 2 should be disabled and Exchange UM servers 3 and 4 should be enabled so the Tukwila Exchange UM traffic will be routed to the servers in Dublin.</span></span>
 
-<span data-ttu-id="64324-136">有关如何在 Exchange 2013 上启用或禁用统一消息的详细信息，请参阅 "将 Exchange 2013 UM 与 Lync Server [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)相集成"。</span><span class="sxs-lookup"><span data-stu-id="64324-136">For details about how to enable or disable Unified Messaging on Exchange 2013, see “Integrate Exchange 2013 UM with Lync Server” at [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372).</span></span>
+<span data-ttu-id="8db98-136">有关如何在 Exchange 2013 上启用或禁用统一消息的详细信息，请参阅位于上[http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)的 "将 EXCHANGE 2013 UM 与 Lync Server 集成"。</span><span class="sxs-lookup"><span data-stu-id="8db98-136">For details about how to enable or disable Unified Messaging on Exchange 2013, see “Integrate Exchange 2013 UM with Lync Server” at [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372).</span></span>
 
-<span data-ttu-id="64324-137">有关如何在 Microsoft Exchange Server 2010 上启用或禁用统一消息的详细信息，请参阅：</span><span class="sxs-lookup"><span data-stu-id="64324-137">For details about how to enable or disable Unified Messaging on Microsoft Exchange Server 2010, see:</span></span>
+<span data-ttu-id="8db98-137">有关如何在 Microsoft Exchange Server 2010 上启用或禁用统一消息的详细信息，请参阅：</span><span class="sxs-lookup"><span data-stu-id="8db98-137">For details about how to enable or disable Unified Messaging on Microsoft Exchange Server 2010, see:</span></span>
 
-  - <span data-ttu-id="64324-138">"在[http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418)Exchange 2010 上启用统一消息"。</span><span class="sxs-lookup"><span data-stu-id="64324-138">"Enable Unified Messaging on Exchange 2010" at [http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418).</span></span>
+  - <span data-ttu-id="8db98-138">"在[http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418)Exchange 2010 上启用统一消息"。</span><span class="sxs-lookup"><span data-stu-id="8db98-138">"Enable Unified Messaging on Exchange 2010" at [http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418).</span></span>
 
-  - <span data-ttu-id="64324-139">"禁用 Exchange 2010 上的统一消息" [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416)。</span><span class="sxs-lookup"><span data-stu-id="64324-139">"Disable Unified Messaging on Exchange 2010" at [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416).</span></span>
+  - <span data-ttu-id="8db98-139">"在[http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416)Exchange 2010 上禁用统一消息"。</span><span class="sxs-lookup"><span data-stu-id="8db98-139">"Disable Unified Messaging on Exchange 2010" at [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="64324-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="64324-140">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8db98-140">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8db98-140">See Also</span></span>
 
 
-[<span data-ttu-id="64324-141">集成本地统一消息与 Lync Server 2013 的部署过程</span><span class="sxs-lookup"><span data-stu-id="64324-141">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)  
+[<span data-ttu-id="8db98-141">集成本地统一消息和 Lync Server 2013 的部署过程</span><span class="sxs-lookup"><span data-stu-id="8db98-141">Deployment process for integrating on-premises Unified Messaging and Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)  
   
 
 </div>

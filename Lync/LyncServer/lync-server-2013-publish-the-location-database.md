@@ -12,20 +12,20 @@ ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4e42d73a5b7ac36439aca673ff68c03cc13f50f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d524f8551561a4c7fb61abdaa6ab15bf2c111de9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747082"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987367"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-location-database-from-lync-server-2013"></a><span data-ttu-id="51a6b-102">从 Lync Server 2013 发布位置数据库</span><span class="sxs-lookup"><span data-stu-id="51a6b-102">Publish the location database from Lync Server 2013</span></span>
+# <a name="publish-the-location-database-from-lync-server-2013"></a><span data-ttu-id="80541-102">从 Lync Server 2013 发布位置数据库</span><span class="sxs-lookup"><span data-stu-id="80541-102">Publish the location database from Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41747082"
 
 <span> </span>
 
-<span data-ttu-id="51a6b-103">_**主题上次修改时间：** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="51a6b-103">_**Topic Last Modified:** 2012-10-30_</span></span>
+<span data-ttu-id="80541-103">_**上次修改的主题：** 2012-10-30_</span><span class="sxs-lookup"><span data-stu-id="80541-103">_**Topic Last Modified:** 2012-10-30_</span></span>
 
-<span data-ttu-id="51a6b-104">只有在添加到位置数据库的新位置发布后，客户端才能使用这些位置。</span><span class="sxs-lookup"><span data-stu-id="51a6b-104">The new locations that you added to the location database will not be made available to the client until they have been published.</span></span>
+<span data-ttu-id="80541-104">在发布之前，您添加到位置数据库的新位置将不会对客户端可用。</span><span class="sxs-lookup"><span data-stu-id="80541-104">The new locations that you added to the location database will not be made available to the client until they have been published.</span></span>
 
-<span data-ttu-id="51a6b-105">有关详细信息，请参阅以下 cmdlet 的 Lync Server Management Shell 文档：</span><span class="sxs-lookup"><span data-stu-id="51a6b-105">For details, see the Lync Server Management Shell documentation for the following cmdlet:</span></span>
+<span data-ttu-id="80541-105">有关详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="80541-105">For details, see the Lync Server Management Shell documentation for the following cmdlet:</span></span>
 
-  - <span data-ttu-id="51a6b-106">**Publish-CsLisConfiguration**</span><span class="sxs-lookup"><span data-stu-id="51a6b-106">**Publish-CsLisConfiguration**</span></span>
+  - <span data-ttu-id="80541-106">**发布-CsLisConfiguration**</span><span class="sxs-lookup"><span data-stu-id="80541-106">**Publish-CsLisConfiguration**</span></span>
 
-<span data-ttu-id="51a6b-107">如果使用紧急位置标识号 (ELIN) 网关，还需要将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。</span><span class="sxs-lookup"><span data-stu-id="51a6b-107">If you use Emergency Location Identification Number (ELIN) gateways, you also need to upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span> <span data-ttu-id="51a6b-108">PSTN 运营商可能需要特定格式的 ELIN 记录。</span><span class="sxs-lookup"><span data-stu-id="51a6b-108">Your PSTN carrier may require you to use a specific format for the ELIN records.</span></span> <span data-ttu-id="51a6b-109">请联系 PSTN 运营商了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="51a6b-109">Contact your PSTN carrier for details.</span></span> <span data-ttu-id="51a6b-110">你可以从位置信息服务数据库导出记录，并根据需要设置其格式。</span><span class="sxs-lookup"><span data-stu-id="51a6b-110">You can export the records from the Location Information service database and format them as required.</span></span>
+<span data-ttu-id="80541-107">如果您使用紧急位置标识号（ELIN）网关，则还需要将 Elin 上载到公共交换电话网络（PSTN）运营商的自动位置标识（阿里）数据库。</span><span class="sxs-lookup"><span data-stu-id="80541-107">If you use Emergency Location Identification Number (ELIN) gateways, you also need to upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span> <span data-ttu-id="80541-108">您的 PSTN 运营商可能要求您对 ELIN 记录使用特定的格式。</span><span class="sxs-lookup"><span data-stu-id="80541-108">Your PSTN carrier may require you to use a specific format for the ELIN records.</span></span> <span data-ttu-id="80541-109">有关详细信息，请与 PSTN 运营商联系。</span><span class="sxs-lookup"><span data-stu-id="80541-109">Contact your PSTN carrier for details.</span></span> <span data-ttu-id="80541-110">您可以从位置信息服务数据库中导出记录，并根据需要对其进行格式设置。</span><span class="sxs-lookup"><span data-stu-id="80541-110">You can export the records from the Location Information service database and format them as required.</span></span>
 
 <div>
 
-## <a name="to-publish-the-location-database"></a><span data-ttu-id="51a6b-111">发布位置数据库</span><span class="sxs-lookup"><span data-stu-id="51a6b-111">To publish the location database</span></span>
+## <a name="to-publish-the-location-database"></a><span data-ttu-id="80541-111">发布位置数据库</span><span class="sxs-lookup"><span data-stu-id="80541-111">To publish the location database</span></span>
 
-  - <span data-ttu-id="51a6b-112">启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="51a6b-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+  - <span data-ttu-id="80541-112">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="80541-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-  - <span data-ttu-id="51a6b-113">运行以下 cmdlet 发布位置数据库。</span><span class="sxs-lookup"><span data-stu-id="51a6b-113">Run the following cmdlet to publish the location database.</span></span>
+  - <span data-ttu-id="80541-113">运行以下 cmdlet 以发布位置数据库。</span><span class="sxs-lookup"><span data-stu-id="80541-113">Run the following cmdlet to publish the location database.</span></span>
     
         Publish-CsLisConfiguration
 

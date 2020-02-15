@@ -12,20 +12,20 @@ ms:contentKeyID: 49733814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13f5357ae1a0dd4e8db044c2081154d4c3f4febf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b9fab4530f32e9472d0d5b2484aa982365bdf260
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746202"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985077"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-sip-trunk-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="1b69b-102">在 Lync Server 2013 中测试 SIP 中继配置设置</span><span class="sxs-lookup"><span data-stu-id="1b69b-102">Test SIP trunk configuration settings in Lync Server 2013</span></span>
+# <a name="test-sip-trunk-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="d4687-102">在 Lync Server 2013 中测试 SIP 中继配置设置</span><span class="sxs-lookup"><span data-stu-id="d4687-102">Test SIP trunk configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41746202"
 
 <span> </span>
 
-<span data-ttu-id="1b69b-103">_**主题上次修改时间：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="1b69b-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="d4687-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="d4687-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="1b69b-104">SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。</span><span class="sxs-lookup"><span data-stu-id="1b69b-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="1b69b-105">这些设置可执行如下所指定内容的操作：</span><span class="sxs-lookup"><span data-stu-id="1b69b-105">These settings do such things as specify:</span></span>
+<span data-ttu-id="d4687-p101">SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。这些设置按下面的指示执行此类操作：</span><span class="sxs-lookup"><span data-stu-id="d4687-p101">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider. These settings do such things as specify:</span></span>
 
-  - <span data-ttu-id="1b69b-106">是否在中继上启用媒体旁路功能。</span><span class="sxs-lookup"><span data-stu-id="1b69b-106">Whether media bypass should be enabled on the trunks.</span></span>
+  - <span data-ttu-id="d4687-106">是否应对中继启用媒体旁路。</span><span class="sxs-lookup"><span data-stu-id="d4687-106">Whether media bypass should be enabled on the trunks.</span></span>
 
-  - <span data-ttu-id="1b69b-107">发送实时传输控制协议（RTCP）数据包的条件。</span><span class="sxs-lookup"><span data-stu-id="1b69b-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
+  - <span data-ttu-id="d4687-107">发送实时传输控制协议 (RTCP) 数据包的条件。</span><span class="sxs-lookup"><span data-stu-id="d4687-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
 
-  - <span data-ttu-id="1b69b-108">每个主干上是否需要安全的实时协议（SRTP）加密。</span><span class="sxs-lookup"><span data-stu-id="1b69b-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
+  - <span data-ttu-id="d4687-108">每个中继上是否需要安全实时协议 (SRTP) 加密。</span><span class="sxs-lookup"><span data-stu-id="d4687-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
 
-<span data-ttu-id="1b69b-109">安装 Microsoft Lync Server 2013 时，将为你创建一个全局 SIP 中继配置设置集合。</span><span class="sxs-lookup"><span data-stu-id="1b69b-109">When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="1b69b-110">此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。</span><span class="sxs-lookup"><span data-stu-id="1b69b-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="1b69b-111">管理员还可以使用 Test-CsTrunkConfiguration cmdlet 验证中继是否可以将用户拨打的号码转换为网关可处理的号码。</span><span class="sxs-lookup"><span data-stu-id="1b69b-111">Administrators can also use the Test-CsTrunkConfiguration cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
+<span data-ttu-id="d4687-109">安装 Microsoft Lync Server 2013 时，将为您创建一个全局 SIP 中继配置设置集合。</span><span class="sxs-lookup"><span data-stu-id="d4687-109">When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="d4687-110">此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。</span><span class="sxs-lookup"><span data-stu-id="d4687-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="d4687-111">管理员还可以使用 Test-CsTrunkConfiguration cmdlet 验证中继是否可以将用户拨打的号码转换为网关可处理的号码。</span><span class="sxs-lookup"><span data-stu-id="d4687-111">Administrators can also use the Test-CsTrunkConfiguration cmdlet to verify that a trunk can convert a number as dialed by a user to a number that can be handled by the gateway.</span></span>
 
-<span data-ttu-id="1b69b-112">只能使用 Windows PowerShell 和 [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet 测试中继配置设置。</span><span class="sxs-lookup"><span data-stu-id="1b69b-112">Trunk configuration settings can only be tested by using Windows PowerShell and the [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet.</span></span> <span data-ttu-id="1b69b-113">此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。</span><span class="sxs-lookup"><span data-stu-id="1b69b-113">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="1b69b-114">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="1b69b-114">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="d4687-112">只能使用 Windows PowerShell 和 [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet 测试中继配置设置。</span><span class="sxs-lookup"><span data-stu-id="d4687-112">Trunk configuration settings can only be tested by using Windows PowerShell and the [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet.</span></span> <span data-ttu-id="d4687-113">此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。</span><span class="sxs-lookup"><span data-stu-id="d4687-113">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="d4687-114">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。</span><span class="sxs-lookup"><span data-stu-id="d4687-114">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-test-sip-trunk-configuration-settings"></a><span data-ttu-id="1b69b-115">测试 SIP 中继配置设置</span><span class="sxs-lookup"><span data-stu-id="1b69b-115">To test SIP trunk configuration settings</span></span>
+## <a name="to-test-sip-trunk-configuration-settings"></a><span data-ttu-id="d4687-115">测试 SIP 中继配置设置</span><span class="sxs-lookup"><span data-stu-id="d4687-115">To test SIP trunk configuration settings</span></span>
 
-  - <span data-ttu-id="1b69b-116">以下命令可验证 Redmond 站点的中继配置设置是否能正确转换拨号号码 4255551212。</span><span class="sxs-lookup"><span data-stu-id="1b69b-116">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
+  - <span data-ttu-id="d4687-116">以下命令可验证 Redmond 站点的中继配置设置是否能正确转换拨号号码 4255551212。</span><span class="sxs-lookup"><span data-stu-id="d4687-116">This command verifies that the trunk configuration settings for the Redmond site can correctly convert the dialed number 4255551212.</span></span>
     
         $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
         Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk

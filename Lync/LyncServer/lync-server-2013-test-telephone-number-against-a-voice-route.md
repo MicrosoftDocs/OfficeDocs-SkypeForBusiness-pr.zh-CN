@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：根据语音路线测试电话号码
+title: Lync Server 2013：针对语音路由测试电话号码
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d4105b54c7d5b745efddeeb961960c402aaa349
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fccdcb5dfc0fe52c2c0dcf80f7f6a374e35a39e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746172"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a><span data-ttu-id="d6f5e-102">根据 Lync Server 2013 中的语音路线测试电话号码</span><span class="sxs-lookup"><span data-stu-id="d6f5e-102">Test telephone number against a voice route in Lync Server 2013</span></span>
+# <a name="test-telephone-number-against-a-voice-route-in-lync-server-2013"></a><span data-ttu-id="5df56-102">在 Lync Server 2013 中针对语音路由测试电话号码</span><span class="sxs-lookup"><span data-stu-id="5df56-102">Test telephone number against a voice route in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746172"
 
 <span> </span>
 
-<span data-ttu-id="d6f5e-103">_**主题上次修改时间：** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="d6f5e-103">_**Topic Last Modified:** 2014-05-20_</span></span>
+<span data-ttu-id="5df56-103">_**上次修改的主题：** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="5df56-103">_**Topic Last Modified:** 2014-05-20_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41746172"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d6f5e-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="d6f5e-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="d6f5e-105">每月</span><span class="sxs-lookup"><span data-stu-id="d6f5e-105">Monthly</span></span></p></td>
+<td><p><span data-ttu-id="5df56-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="5df56-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="5df56-105">每月</span><span class="sxs-lookup"><span data-stu-id="5df56-105">Monthly</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d6f5e-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="d6f5e-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="d6f5e-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d6f5e-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="5df56-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="5df56-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="5df56-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5df56-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d6f5e-108">需要权限</span><span class="sxs-lookup"><span data-stu-id="d6f5e-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="d6f5e-109">当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="d6f5e-110">使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行 CsVoiceRoute cmdlet 权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoiceRoute cmdlet.</span></span> <span data-ttu-id="d6f5e-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="d6f5e-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="5df56-108">所需的权限</span><span class="sxs-lookup"><span data-stu-id="5df56-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="5df56-109">在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="5df56-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="5df56-110">使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsVoiceRoute cmdlet 的权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="5df56-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoiceRoute cmdlet.</span></span> <span data-ttu-id="5df56-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="5df56-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceRoute&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -64,71 +64,71 @@ ms.locfileid: "41746172"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="d6f5e-112">说明</span><span class="sxs-lookup"><span data-stu-id="d6f5e-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="5df56-112">说明</span><span class="sxs-lookup"><span data-stu-id="5df56-112">Description</span></span>
 
-<span data-ttu-id="d6f5e-113">语音路由与语音策略协同工作，帮助将企业语音呼叫路由到 PSTN 网络。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-113">Voice routes work together with voice policies to help route Enterprise Voice calls to the PSTN network.</span></span> <span data-ttu-id="d6f5e-114">每个语音路由都包含一个正则表达式（数字模式），用于标识将通过给定语音路线路由的电话号码：路由将能够处理与此正则表达式匹配的任何电话号码。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-114">Each voice route includes a regular expression (a number pattern) that identifies the phone numbers that will be routed through a given voice route: the route will be able to handle any phone numbers that match this regular expression.</span></span> <span data-ttu-id="d6f5e-115">例如，语音路由可能有一个正则表达式，可使其处理任何10位数字。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-115">For example, a voice route might have a regular expression that enables it to handle any 10-digit number.</span></span> <span data-ttu-id="d6f5e-116">这意味着路由将能够处理如下所示的电话号码：</span><span class="sxs-lookup"><span data-stu-id="d6f5e-116">That means the route would be able to handle a phone number such as this:</span></span>
+<span data-ttu-id="5df56-113">语音路由与语音策略结合使用，可帮助将企业语音呼叫路由到 PSTN 网络。</span><span class="sxs-lookup"><span data-stu-id="5df56-113">Voice routes work together with voice policies to help route Enterprise Voice calls to the PSTN network.</span></span> <span data-ttu-id="5df56-114">每个语音路由都包含一个正则表达式（一种数字模式），用于标识将通过给定语音路由路由的电话号码：该路由将能够处理与此正则表达式匹配的任何电话号码。</span><span class="sxs-lookup"><span data-stu-id="5df56-114">Each voice route includes a regular expression (a number pattern) that identifies the phone numbers that will be routed through a given voice route: the route will be able to handle any phone numbers that match this regular expression.</span></span> <span data-ttu-id="5df56-115">例如，语音路由可能有一个正则表达式，使其能够处理任何10位数字。</span><span class="sxs-lookup"><span data-stu-id="5df56-115">For example, a voice route might have a regular expression that enables it to handle any 10-digit number.</span></span> <span data-ttu-id="5df56-116">这意味着路由将能够处理如下的电话号码：</span><span class="sxs-lookup"><span data-stu-id="5df56-116">That means the route would be able to handle a phone number such as this:</span></span>
 
-  - <span data-ttu-id="d6f5e-117">2065551219</span><span class="sxs-lookup"><span data-stu-id="d6f5e-117">2065551219</span></span>
+  - <span data-ttu-id="5df56-117">2065551219</span><span class="sxs-lookup"><span data-stu-id="5df56-117">2065551219</span></span>
 
-<span data-ttu-id="d6f5e-118">路由将无法处理以下两个数字中的任何一个，其中两个数字都没有10个数字：</span><span class="sxs-lookup"><span data-stu-id="d6f5e-118">The route would not be able to handle either of the following two numbers, neither of which has 10 digits:</span></span>
+<span data-ttu-id="5df56-118">路由将无法处理以下两个号码中的任何一个，两者都不能处理10个数字：</span><span class="sxs-lookup"><span data-stu-id="5df56-118">The route would not be able to handle either of the following two numbers, neither of which has 10 digits:</span></span>
 
-  - <span data-ttu-id="d6f5e-119">5551219</span><span class="sxs-lookup"><span data-stu-id="d6f5e-119">5551219</span></span>
+  - <span data-ttu-id="5df56-119">5551219</span><span class="sxs-lookup"><span data-stu-id="5df56-119">5551219</span></span>
 
-  - <span data-ttu-id="d6f5e-120">12065551219</span><span class="sxs-lookup"><span data-stu-id="d6f5e-120">12065551219</span></span>
+  - <span data-ttu-id="5df56-120">12065551219</span><span class="sxs-lookup"><span data-stu-id="5df56-120">12065551219</span></span>
 
-<span data-ttu-id="d6f5e-121">CsVoiceRoute cmdlet 验证给定的语音路线是否可以路由指定的电话号码。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-121">The Test-CsVoiceRoute cmdlet verifies whether a given voice route can route a specified phone number.</span></span>
+<span data-ttu-id="5df56-121">CsVoiceRoute cmdlet 验证给定的语音路由是否可以路由指定的电话号码。</span><span class="sxs-lookup"><span data-stu-id="5df56-121">The Test-CsVoiceRoute cmdlet verifies whether a given voice route can route a specified phone number.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="d6f5e-122">运行测试</span><span class="sxs-lookup"><span data-stu-id="d6f5e-122">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="5df56-122">运行测试</span><span class="sxs-lookup"><span data-stu-id="5df56-122">Running the test</span></span>
 
-<span data-ttu-id="d6f5e-123">验证语音路线路由指定电话号码的能力是两步过程。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-123">Verifying the ability of a voice route to route a specified phone number is a two-step process.</span></span> <span data-ttu-id="d6f5e-124">首先，你必须使用 CsVoiceRoute cmdlet 来返回该语音路由的实例，然后你必须使用 CsVoiceRoute cmdlet 验证该路由处理目标电话号码的能力。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-124">First you have to use the Get-CsVoiceRoute cmdlet to return an instance of that voice route, and then you have to use the Test-CsVoiceRoute cmdlet to verify the ability of that route to handle the target phone number.</span></span> <span data-ttu-id="d6f5e-125">例如，此命令将验证 RedmondVoiceRoute 的语音路线是否可以路由电话号码2065551219：</span><span class="sxs-lookup"><span data-stu-id="d6f5e-125">For example, this command verifies whether the RedmondVoiceRoute voice route can route the phone number 2065551219:</span></span>
+<span data-ttu-id="5df56-123">验证语音路由指定电话号码的功能是否为两个步骤的过程。</span><span class="sxs-lookup"><span data-stu-id="5df56-123">Verifying the ability of a voice route to route a specified phone number is a two-step process.</span></span> <span data-ttu-id="5df56-124">首先，您必须使用 CsVoiceRoute cmdlet 返回该语音路由的实例，然后您必须使用 CsVoiceRoute cmdlet 来验证该路由处理目标电话号码的能力。</span><span class="sxs-lookup"><span data-stu-id="5df56-124">First you have to use the Get-CsVoiceRoute cmdlet to return an instance of that voice route, and then you have to use the Test-CsVoiceRoute cmdlet to verify the ability of that route to handle the target phone number.</span></span> <span data-ttu-id="5df56-125">例如，以下命令将验证 RedmondVoiceRoute voice route 是否可以路由电话号码2065551219：</span><span class="sxs-lookup"><span data-stu-id="5df56-125">For example, this command verifies whether the RedmondVoiceRoute voice route can route the phone number 2065551219:</span></span>
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
-<span data-ttu-id="d6f5e-126">请注意，输入的电话号码应为您希望用户拨打该号码时输入。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-126">Note that the phone number should be typed as you expect users to dial that number.</span></span> <span data-ttu-id="d6f5e-127">例如，如果您不希望用户在拨号时包括国家代码和区号，则使用类似于以下语法的语法：</span><span class="sxs-lookup"><span data-stu-id="d6f5e-127">For example, if you do not expect users to include the country code and area code when dialing, then use syntax similar to this:</span></span>
+<span data-ttu-id="5df56-126">请注意，应键入的电话号码应为您希望用户拨打该号码。</span><span class="sxs-lookup"><span data-stu-id="5df56-126">Note that the phone number should be typed as you expect users to dial that number.</span></span> <span data-ttu-id="5df56-127">例如，如果您不希望用户在拨号时包含国家/地区代码和区号，请使用类似如下的语法：</span><span class="sxs-lookup"><span data-stu-id="5df56-127">For example, if you do not expect users to include the country code and area code when dialing, then use syntax similar to this:</span></span>
 
 `-TargetNumber "5551219"`
 
-<span data-ttu-id="d6f5e-128">在这种情况下，目标号码将同时保留国家/地区代码和区号。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-128">In this case, the target number leaves out both the country code and the area code.</span></span>
+<span data-ttu-id="5df56-128">在这种情况下，目标号码会同时保留国家/地区代码和区号。</span><span class="sxs-lookup"><span data-stu-id="5df56-128">In this case, the target number leaves out both the country code and the area code.</span></span>
 
-<span data-ttu-id="d6f5e-129">若要使用单个命令来根据指定的目标号码测试所有语音路由，请使用如下语法：</span><span class="sxs-lookup"><span data-stu-id="d6f5e-129">To use a single command to test all the voice routes against a specified target number, use syntax such as the following:</span></span>
+<span data-ttu-id="5df56-129">若要使用单个命令来测试指定目标号码的所有语音路由，请使用如下语法：</span><span class="sxs-lookup"><span data-stu-id="5df56-129">To use a single command to test all the voice routes against a specified target number, use syntax such as the following:</span></span>
 
 `Get-CsVoiceRoute | Test-CsVoiceRoute -TargetNumber "2065551219"`
 
-<span data-ttu-id="d6f5e-130">有关详细信息，请参阅 CsVoiceRoute cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-130">For more information, see the Help documentation for the Test-CsVoiceRoute cmdlet.</span></span>
+<span data-ttu-id="5df56-130">有关详细信息，请参阅 CsVoiceRoute cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="5df56-130">For more information, see the Help documentation for the Test-CsVoiceRoute cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="d6f5e-131">确定成功还是失败</span><span class="sxs-lookup"><span data-stu-id="d6f5e-131">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="5df56-131">确定成功或失败</span><span class="sxs-lookup"><span data-stu-id="5df56-131">Determining success or failure</span></span>
 
-<span data-ttu-id="d6f5e-132">如果语音路由可以路由目标电话号码，CsVoiceRoute cmdlet 只会返回值 True：</span><span class="sxs-lookup"><span data-stu-id="d6f5e-132">If the voice route can route the target phone number the Test-CsVoiceRoute cmdlet just returns the value True:</span></span>
+<span data-ttu-id="5df56-132">如果语音路由可以路由目标电话号码，CsVoiceRoute cmdlet 只会返回值 True：</span><span class="sxs-lookup"><span data-stu-id="5df56-132">If the voice route can route the target phone number the Test-CsVoiceRoute cmdlet just returns the value True:</span></span>
 
-<span data-ttu-id="d6f5e-133">MatchesPattern</span><span class="sxs-lookup"><span data-stu-id="d6f5e-133">MatchesPattern</span></span>
-
-\--------------
-
-<span data-ttu-id="d6f5e-134">True</span><span class="sxs-lookup"><span data-stu-id="d6f5e-134">True</span></span>
-
-<span data-ttu-id="d6f5e-135">这意味着路由可以处理与目标号码类似的号码。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-135">That means that route can handle numbers similar to the target number.</span></span> <span data-ttu-id="d6f5e-136">如果语音路由无法处理目标号码，则 Test-CsVoiceRoute 返回值 False：</span><span class="sxs-lookup"><span data-stu-id="d6f5e-136">If the voice route is can't handle the target number then Test-CsVoiceRoute returns the value False:</span></span>
-
-<span data-ttu-id="d6f5e-137">MatchesPattern</span><span class="sxs-lookup"><span data-stu-id="d6f5e-137">MatchesPattern</span></span>
+<span data-ttu-id="5df56-133">MatchesPattern</span><span class="sxs-lookup"><span data-stu-id="5df56-133">MatchesPattern</span></span>
 
 \--------------
 
-<span data-ttu-id="d6f5e-138">False</span><span class="sxs-lookup"><span data-stu-id="d6f5e-138">False</span></span>
+<span data-ttu-id="5df56-134">True</span><span class="sxs-lookup"><span data-stu-id="5df56-134">True</span></span>
+
+<span data-ttu-id="5df56-135">这意味着路由可以处理与目标号码类似的号码。</span><span class="sxs-lookup"><span data-stu-id="5df56-135">That means that route can handle numbers similar to the target number.</span></span> <span data-ttu-id="5df56-136">如果语音路由无法处理目标号码，则 CsVoiceRoute 返回值 False：</span><span class="sxs-lookup"><span data-stu-id="5df56-136">If the voice route is can't handle the target number then Test-CsVoiceRoute returns the value False:</span></span>
+
+<span data-ttu-id="5df56-137">MatchesPattern</span><span class="sxs-lookup"><span data-stu-id="5df56-137">MatchesPattern</span></span>
+
+\--------------
+
+<span data-ttu-id="5df56-138">False</span><span class="sxs-lookup"><span data-stu-id="5df56-138">False</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="d6f5e-139">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="d6f5e-139">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="5df56-139">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="5df56-139">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="d6f5e-140">测试语音路由时，"失败" 是一个相对术语。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-140">When testing voice routes, “failure” is a relative term.</span></span> <span data-ttu-id="d6f5e-141">在这种情况下，它不意味着路由是以 "损坏;" 为目标的，而是指路由无法处理目标号码。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-141">In this case, it doesn’t mean that the route is somehow “broken;” instead, it just means that the route can't handle the target number.</span></span> <span data-ttu-id="d6f5e-142">这可能是因为语音路由配置不正确。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-142">That could be because the voice route was configured incorrectly.</span></span> <span data-ttu-id="d6f5e-143">这也可能意味着该路由从未用于处理使用此模式的数字。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-143">It could also mean that the route was never intended to handle numbers using this pattern.</span></span> <span data-ttu-id="d6f5e-144">例如，如果您不希望通过给定路线将呼叫路由到其他国家/地区，可以将路由配置为拒绝包括国家/地区代码的所有电话号码。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-144">For example, if you do not want to route calls to other countries over a given route that route might be configured to reject all phone numbers that include a country code.</span></span> <span data-ttu-id="d6f5e-145">如果 CsVoiceRoute 返回 False （如果你希望它返回 True），请验证是否正确键入了目标编号。</span><span class="sxs-lookup"><span data-stu-id="d6f5e-145">If Test-CsVoiceRoute returns False when you expected it to return True, verify that you typed the target number in correctly.</span></span> <span data-ttu-id="d6f5e-146">如果执行此操作，请使用与此类似的命令查看为该路由配置的 NumberPattern：</span><span class="sxs-lookup"><span data-stu-id="d6f5e-146">If you did, then use a command similar to this one to view the NumberPattern configured for the route:</span></span>
+<span data-ttu-id="5df56-140">测试语音路由时，"失败" 是相对术语。</span><span class="sxs-lookup"><span data-stu-id="5df56-140">When testing voice routes, “failure” is a relative term.</span></span> <span data-ttu-id="5df56-141">在这种情况下，它并不意味着路由在某种程度上是 "中断的" 的，而只是表示路由无法处理目标号码。</span><span class="sxs-lookup"><span data-stu-id="5df56-141">In this case, it doesn’t mean that the route is somehow “broken;” instead, it just means that the route can't handle the target number.</span></span> <span data-ttu-id="5df56-142">这可能是因为语音路由配置不正确。</span><span class="sxs-lookup"><span data-stu-id="5df56-142">That could be because the voice route was configured incorrectly.</span></span> <span data-ttu-id="5df56-143">这也可能意味着路由从未用于使用此模式处理号码。</span><span class="sxs-lookup"><span data-stu-id="5df56-143">It could also mean that the route was never intended to handle numbers using this pattern.</span></span> <span data-ttu-id="5df56-144">例如，如果您不希望通过给定路由将呼叫路由到其他国家/地区，可以将路由配置为拒绝包含国家/地区代码的所有电话号码。</span><span class="sxs-lookup"><span data-stu-id="5df56-144">For example, if you do not want to route calls to other countries over a given route that route might be configured to reject all phone numbers that include a country code.</span></span> <span data-ttu-id="5df56-145">如果 CsVoiceRoute 返回 False，如果您希望它返回 True，请验证您是否正确键入了目标编号。</span><span class="sxs-lookup"><span data-stu-id="5df56-145">If Test-CsVoiceRoute returns False when you expected it to return True, verify that you typed the target number in correctly.</span></span> <span data-ttu-id="5df56-146">如果执行此操作，请使用与此类似的命令查看为路由配置的 NumberPattern：</span><span class="sxs-lookup"><span data-stu-id="5df56-146">If you did, then use a command similar to this one to view the NumberPattern configured for the route:</span></span>
 
 `Get-CsVoiceRoute -Identity "RedmondVoiceRoute" | Select-Object NumberPattern`
 
@@ -136,10 +136,10 @@ ms.locfileid: "41746172"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d6f5e-147">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d6f5e-147">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5df56-147">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5df56-147">See Also</span></span>
 
 
-[<span data-ttu-id="d6f5e-148">Test-CsVoiceRoute</span><span class="sxs-lookup"><span data-stu-id="d6f5e-148">Test-CsVoiceRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceRoute)  
+[<span data-ttu-id="5df56-148">Test-CsVoiceRoute</span><span class="sxs-lookup"><span data-stu-id="5df56-148">Test-CsVoiceRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceRoute)  
   
 
 </div>

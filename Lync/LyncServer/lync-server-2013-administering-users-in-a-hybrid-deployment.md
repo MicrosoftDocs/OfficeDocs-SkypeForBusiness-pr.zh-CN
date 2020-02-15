@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理混合部署中的用户
+title: Lync Server 2013：在混合部署中管理用户
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e416901fd5a98ffa3974c29e469eef2b6f4cb783
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a82cb5ae505db5db3bbd8dd216ad61256368814e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737962"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998737"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a><span data-ttu-id="02f2f-102">管理混合 Lync Server 2013 部署中的用户</span><span class="sxs-lookup"><span data-stu-id="02f2f-102">Administering users in a hybrid Lync Server 2013 deployment</span></span>
+# <a name="administering-users-in-a-hybrid-lync-server-2013-deployment"></a><span data-ttu-id="06b64-102">在混合 Lync Server 2013 部署中管理用户</span><span class="sxs-lookup"><span data-stu-id="06b64-102">Administering users in a hybrid Lync Server 2013 deployment</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41737962"
 
 <span> </span>
 
-<span data-ttu-id="02f2f-103">_**主题上次修改时间：** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="02f2f-103">_**Topic Last Modified:** 2014-05-29_</span></span>
+<span data-ttu-id="06b64-103">_**上次修改的主题：** 2014-05-29_</span><span class="sxs-lookup"><span data-stu-id="06b64-103">_**Topic Last Modified:** 2014-05-29_</span></span>
 
-<span data-ttu-id="02f2f-104">你可以使用 Microsoft Office 365 Online 门户中提供的用户管理功能管理迁移到 Lync Online 的用户的用户设置和策略。</span><span class="sxs-lookup"><span data-stu-id="02f2f-104">You can manage user settings and policies for users migrated to Lync Online by using the User Management features available in the Microsoft Office 365 online portal.</span></span> <span data-ttu-id="02f2f-105">您必须使用租户管理员帐户登录才能执行管理任务。</span><span class="sxs-lookup"><span data-stu-id="02f2f-105">You must sign in by using your tenant administrator account to perform administration tasks.</span></span>
+<span data-ttu-id="06b64-104">您可以使用 Microsoft Office 365 Online 门户中提供的用户管理功能来管理迁移到 Lync Online 的用户的用户设置和策略。</span><span class="sxs-lookup"><span data-stu-id="06b64-104">You can manage user settings and policies for users migrated to Lync Online by using the User Management features available in the Microsoft Office 365 online portal.</span></span> <span data-ttu-id="06b64-105">必须使用租户管理员帐户登录才能执行管理任务。</span><span class="sxs-lookup"><span data-stu-id="06b64-105">You must sign in by using your tenant administrator account to perform administration tasks.</span></span>
 
 <div>
 
-## <a name="moving-users-back-to-on-premises"></a><span data-ttu-id="02f2f-106">将用户移回本地</span><span class="sxs-lookup"><span data-stu-id="02f2f-106">Moving Users Back to On-premises</span></span>
+## <a name="moving-users-back-to-on-premises"></a><span data-ttu-id="06b64-106">将用户移回本地部署</span><span class="sxs-lookup"><span data-stu-id="06b64-106">Moving Users Back to On-premises</span></span>
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="02f2f-107">此部分仅适用于为本地 Lync 创建和启用的用户，然后从本地部署移动到 Lync Online。</span><span class="sxs-lookup"><span data-stu-id="02f2f-107">This section applies only to users that were created and enabled for Lync on-premises and then moved from an on-premises deployment to Lync Online.</span></span> <span data-ttu-id="02f2f-108">如果你想要移动在 Lync Online 中创建的用户（在本地部署中未启用 Lync），请参阅<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">在 Lync Server 2013 中将用户从 Lync Online 移动到本地 lync</A>。</span><span class="sxs-lookup"><span data-stu-id="02f2f-108">If you want to move users that were created in Lync Online (and not ever enabled for Lync in an on-premises deployment) see, <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="06b64-107">此部分仅适用于为本地 Lync 创建和启用的用户，然后将从本地部署移动到 Lync Online。</span><span class="sxs-lookup"><span data-stu-id="06b64-107">This section applies only to users that were created and enabled for Lync on-premises and then moved from an on-premises deployment to Lync Online.</span></span> <span data-ttu-id="06b64-108">如果要移动在 Lync Online 中创建的用户（在本地部署中未启用 Lync），请参阅 Lync Server 2013 中的将<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">用户从 Lync Online 迁移到 Lync 本地</A>。</span><span class="sxs-lookup"><span data-stu-id="06b64-108">If you want to move users that were created in Lync Online (and not ever enabled for Lync in an on-premises deployment) see, <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-  - <span data-ttu-id="02f2f-109">运行以下 cmdlet，将用户从 Lync Online 移回本地 Lync：</span><span class="sxs-lookup"><span data-stu-id="02f2f-109">Run the following cmdlets to move a user from Lync Online back to Lync on-premises:</span></span>
+  - <span data-ttu-id="06b64-109">运行以下 cmdlet 以将用户从 Lync Online 移动回本地 Lync：</span><span class="sxs-lookup"><span data-stu-id="06b64-109">Run the following cmdlets to move a user from Lync Online back to Lync on-premises:</span></span>
     
        ```PowerShell
         $cred=Get-Credential
@@ -63,27 +63,27 @@ ms.locfileid: "41737962"
         Move-CsUser -Identity username@contoso.com -Target localpool.contoso.com -Credential $cred -HostedMigrationOverrideUrl <URL>
        ```
 
-<span data-ttu-id="02f2f-110">为 **HostedMigrationOverrideUrl** 参数指定的 URL 的格式必须为运行托管迁移服务的池的 URL，格式如下：</span><span class="sxs-lookup"><span data-stu-id="02f2f-110">The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format:</span></span>
+<span data-ttu-id="06b64-110">为**HostedMigrationOverrideUrl**参数指定的 url 的格式必须是运行托管迁移服务的池的 url，格式如下：</span><span class="sxs-lookup"><span data-stu-id="06b64-110">The format of the URL specified for the **HostedMigrationOverrideUrl** parameter must be the URL to the pool where the Hosted Migration service is running, in the following format:</span></span>
 
-<span data-ttu-id="02f2f-111">Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc。</span><span class="sxs-lookup"><span data-stu-id="02f2f-111">Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc.</span></span> <span data-ttu-id="02f2f-112">您可以通过查看 Office 365 租户帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。</span><span class="sxs-lookup"><span data-stu-id="02f2f-112">You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Office 365 tenant account.</span></span>
+<span data-ttu-id="06b64-111">Https://\<池 FQDN\>/hostedmigration/hostedmigrationservice.svc。</span><span class="sxs-lookup"><span data-stu-id="06b64-111">Https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc.</span></span> <span data-ttu-id="06b64-112">您可以通过查看适用于 Office 365 租户帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。</span><span class="sxs-lookup"><span data-stu-id="06b64-112">You can determine the URL to the Hosted Migration Service by viewing the URL for the Lync Online Control Panel for your Office 365 tenant account.</span></span>
 
-<span data-ttu-id="02f2f-113">**确定 Office 365 租户的托管迁移服务 URL**</span><span class="sxs-lookup"><span data-stu-id="02f2f-113">**To determine the Hosted Migration Service URL for your Office 365 tenant**</span></span>
+<span data-ttu-id="06b64-113">**确定 Office 365 租户的托管迁移服务 URL**</span><span class="sxs-lookup"><span data-stu-id="06b64-113">**To determine the Hosted Migration Service URL for your Office 365 tenant**</span></span>
 
-1.  <span data-ttu-id="02f2f-114">以管理员身份登录到 Office 365 租户。</span><span class="sxs-lookup"><span data-stu-id="02f2f-114">Login to your Office 365 tenant as an administrator.</span></span>
+1.  <span data-ttu-id="06b64-114">以管理员身份登录到 Office 365 租户。</span><span class="sxs-lookup"><span data-stu-id="06b64-114">Login to your Office 365 tenant as an administrator.</span></span>
 
-2.  <span data-ttu-id="02f2f-115">打开**Lync 管理中心**。</span><span class="sxs-lookup"><span data-stu-id="02f2f-115">Open the **Lync admin center**.</span></span>
+2.  <span data-ttu-id="06b64-115">打开**Lync 管理中心**。</span><span class="sxs-lookup"><span data-stu-id="06b64-115">Open the **Lync admin center**.</span></span>
 
-3.  <span data-ttu-id="02f2f-116">在显示**Lync 管理中心**的情况下，在地址栏中选择并将 URL 复制到**lync.com**。</span><span class="sxs-lookup"><span data-stu-id="02f2f-116">With the **Lync admin center** displayed, select and copy the URL in the address bar up to **lync.com**.</span></span> <span data-ttu-id="02f2f-117">示例 URL 如下所示：</span><span class="sxs-lookup"><span data-stu-id="02f2f-117">An example URL looks similar to the following:</span></span>
+3.  <span data-ttu-id="06b64-116">在 " **Lync 管理中心**" 显示的情况下，选择并将地址栏中的 URL 复制到**lync.com**。</span><span class="sxs-lookup"><span data-stu-id="06b64-116">With the **Lync admin center** displayed, select and copy the URL in the address bar up to **lync.com**.</span></span> <span data-ttu-id="06b64-117">示例 URL 的外观类似于以下内容：</span><span class="sxs-lookup"><span data-stu-id="06b64-117">An example URL looks similar to the following:</span></span>
     
     `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
 
-4.  <span data-ttu-id="02f2f-118">将 URL 中的 **webdir** 替换为 **admin**，得到以下 URL：</span><span class="sxs-lookup"><span data-stu-id="02f2f-118">Replace **webdir** in the URL with **admin**, resulting in the following:</span></span>
+4.  <span data-ttu-id="06b64-118">将 URL 中的**webdir**替换为**admin**，从而产生以下结果：</span><span class="sxs-lookup"><span data-stu-id="06b64-118">Replace **webdir** in the URL with **admin**, resulting in the following:</span></span>
     
     `https://admin0a.online.lync.com`
 
-5.  <span data-ttu-id="02f2f-119">向 URL 附加以下字符串：**/HostedMigration/hostedmigrationservice.svc**。</span><span class="sxs-lookup"><span data-stu-id="02f2f-119">Append the following string to the URL: **/HostedMigration/hostedmigrationservice.svc**.</span></span>
+5.  <span data-ttu-id="06b64-119">将以下字符串追加到 URL： **/HostedMigration/hostedmigrationservice.svc**。</span><span class="sxs-lookup"><span data-stu-id="06b64-119">Append the following string to the URL: **/HostedMigration/hostedmigrationservice.svc**.</span></span>
     
-    <span data-ttu-id="02f2f-120">得到的 URL 是 **HostedMigrationOverrideUrl** 的值，应类似于以下形式：</span><span class="sxs-lookup"><span data-stu-id="02f2f-120">The resulting URL, which is the value of the **HostedMigrationOverrideUrl**, should look like the following:</span></span>
+    <span data-ttu-id="06b64-120">生成的 URL （ **HostedMigrationOverrideUrl**的值）应如下所示：</span><span class="sxs-lookup"><span data-stu-id="06b64-120">The resulting URL, which is the value of the **HostedMigrationOverrideUrl**, should look like the following:</span></span>
     
     `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
 

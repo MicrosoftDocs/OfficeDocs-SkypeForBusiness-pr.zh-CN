@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理类别、聊天室和加载项
+title: Lync Server 2013：管理类别、聊天室和外接程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89d7caadc6ccc4bd7c1030a3e7020129be14a68f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c1fcd4422ca855e7247c57d07887b9df20ea695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738762"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a><span data-ttu-id="e5022-102">在 Lync Server 2013 中管理类别、聊天室和加载项</span><span class="sxs-lookup"><span data-stu-id="e5022-102">Managing categories, rooms, and add-ins in Lync Server 2013</span></span>
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a><span data-ttu-id="2e087-102">在 Lync Server 2013 中管理类别、聊天室和外接程序</span><span class="sxs-lookup"><span data-stu-id="2e087-102">Managing categories, rooms, and add-ins in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41738762"
 
 <span> </span>
 
-<span data-ttu-id="e5022-103">_**主题上次修改时间：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="e5022-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="2e087-103">_**上次修改的主题：** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="2e087-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="e5022-104">在 Lync Server 2013 控制面板中，或通过使用 Windows PowerShell cmdlet，持久聊天管理员可以使用**持久聊天**页面创建类别和加载项。对于管理持久聊天室，管理员可以使用 Windows PowerShell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="e5022-104">In Lync Server 2013 Control Panel, or by using Windows PowerShell cmdlets, Persistent Chat Administrators can use the **Persistent Chat** page to create categories and add-ins. For managing Persistent Chat rooms, Administrators can use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="e5022-105">或者，如果持久聊天管理员也是 SIP 启用的，则他们可以使用 Lync 客户端启动网页来创建和管理聊天室。</span><span class="sxs-lookup"><span data-stu-id="e5022-105">Alternatively, if the Persistent Chat administrator is also SIP-enabled, they can use the Lync client to launch a web page to create and manage chat rooms.</span></span>
+<span data-ttu-id="2e087-104">在 Lync Server 2013 控制面板中，或通过使用 Windows PowerShell cmdlet，持久聊天管理员可以使用 "**持久聊天**" 页面创建类别和外接程序。若要管理持久聊天室，管理员可以使用 Windows PowerShell cmdlet。</span><span class="sxs-lookup"><span data-stu-id="2e087-104">In Lync Server 2013 Control Panel, or by using Windows PowerShell cmdlets, Persistent Chat Administrators can use the **Persistent Chat** page to create categories and add-ins. For managing Persistent Chat rooms, Administrators can use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="2e087-105">或者，如果持久聊天管理员也是启用了 SIP 的，则可以使用 Lync 客户端启动网页来创建和管理聊天室。</span><span class="sxs-lookup"><span data-stu-id="2e087-105">Alternatively, if the Persistent Chat administrator is also SIP-enabled, they can use the Lync client to launch a web page to create and manage chat rooms.</span></span>
 
-<span data-ttu-id="e5022-106">以下主题介绍如何创建和使用类别和聊天室。</span><span class="sxs-lookup"><span data-stu-id="e5022-106">The following topics describe how to create and work with categories and chat rooms.</span></span>
+<span data-ttu-id="2e087-106">以下主题介绍了如何创建和使用类别与聊天室。</span><span class="sxs-lookup"><span data-stu-id="2e087-106">The following topics describe how to create and work with categories and chat rooms.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e5022-107">本节内容</span><span class="sxs-lookup"><span data-stu-id="e5022-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2e087-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="2e087-107">In This Section</span></span>
 
-  - [<span data-ttu-id="e5022-108">在 Lync Server 2013 中创建或编辑新类别</span><span class="sxs-lookup"><span data-stu-id="e5022-108">Creating or editing a new category in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-category.md)
+  - [<span data-ttu-id="2e087-108">在 Lync Server 2013 中创建或编辑新类别</span><span class="sxs-lookup"><span data-stu-id="2e087-108">Creating or editing a new category in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-category.md)
 
-  - [<span data-ttu-id="e5022-109">在 Lync Server 2013 中创建或编辑新聊天室</span><span class="sxs-lookup"><span data-stu-id="e5022-109">Creating or editing a new room in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-room.md)
+  - [<span data-ttu-id="2e087-109">在 Lync Server 2013 中创建或编辑新聊天室</span><span class="sxs-lookup"><span data-stu-id="2e087-109">Creating or editing a new room in Lync Server 2013</span></span>](lync-server-2013-creating-or-editing-a-new-room.md)
 
-  - [<span data-ttu-id="e5022-110">在 Lync Server 2013 中创建新的聊天室外接程序</span><span class="sxs-lookup"><span data-stu-id="e5022-110">Creating new add-ins for rooms in Lync Server 2013</span></span>](lync-server-2013-creating-new-add-ins-for-rooms.md)
+  - [<span data-ttu-id="2e087-110">在 Lync Server 2013 中为聊天室创建新的外接程序</span><span class="sxs-lookup"><span data-stu-id="2e087-110">Creating new add-ins for rooms in Lync Server 2013</span></span>](lync-server-2013-creating-new-add-ins-for-rooms.md)
 
-  - [<span data-ttu-id="e5022-111">在 Lync Server 2013 中设置谁可以在大会堂聊天室发布消息</span><span class="sxs-lookup"><span data-stu-id="e5022-111">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+  - [<span data-ttu-id="2e087-111">在 Lync Server 2013 中设置可以在大会堂聊天室中发布邮件的权限</span><span class="sxs-lookup"><span data-stu-id="2e087-111">Setting who can post messages in an auditorium chat room in Lync Server 2013</span></span>](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
 
-  - [<span data-ttu-id="e5022-112">在 Lync Server 2013 中禁用或启用聊天室</span><span class="sxs-lookup"><span data-stu-id="e5022-112">Disabling or enabling a chat room in Lync Server 2013</span></span>](lync-server-2013-disabling-or-enabling-a-chat-room.md)
+  - [<span data-ttu-id="2e087-112">在 Lync Server 2013 中禁用或启用聊天室</span><span class="sxs-lookup"><span data-stu-id="2e087-112">Disabling or enabling a chat room in Lync Server 2013</span></span>](lync-server-2013-disabling-or-enabling-a-chat-room.md)
 
-  - [<span data-ttu-id="e5022-113">在 Lync Server 2013 中将聊天室从一个类别移动到另一个类别</span><span class="sxs-lookup"><span data-stu-id="e5022-113">Moving a chat room from one category to another in Lync Server 2013</span></span>](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
+  - [<span data-ttu-id="2e087-113">在 Lync Server 2013 中将聊天室从一个类别移动到另一个类别</span><span class="sxs-lookup"><span data-stu-id="2e087-113">Moving a chat room from one category to another in Lync Server 2013</span></span>](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
 
-  - [<span data-ttu-id="e5022-114">在 Lync Server 2013 中删除聊天室或类别</span><span class="sxs-lookup"><span data-stu-id="e5022-114">Deleting a chat room or category in Lync Server 2013</span></span>](lync-server-2013-deleting-a-chat-room-or-category.md)
+  - [<span data-ttu-id="2e087-114">在 Lync Server 2013 中删除聊天室或类别</span><span class="sxs-lookup"><span data-stu-id="2e087-114">Deleting a chat room or category in Lync Server 2013</span></span>](lync-server-2013-deleting-a-chat-room-or-category.md)
 
-  - [<span data-ttu-id="e5022-115">在 Lync Server 2013 中删除消息或清除作废的消息</span><span class="sxs-lookup"><span data-stu-id="e5022-115">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+  - [<span data-ttu-id="2e087-115">在 Lync Server 2013 中删除邮件或清除过时邮件</span><span class="sxs-lookup"><span data-stu-id="2e087-115">Deleting a message or purging obsolete messages in Lync Server 2013</span></span>](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
 
 </div>
 

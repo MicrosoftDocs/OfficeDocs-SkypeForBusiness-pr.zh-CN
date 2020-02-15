@@ -12,20 +12,20 @@ ms:contentKeyID: 48184313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ca576b5147aaab5d0a9d72178ea29f87013d1a0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 519829c0a59bab7d726056c805dfc79f50272f84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729272"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="834f3-102">在 Lync Server 2013 中管理高可用性和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="834f3-102">Managing high availability and disaster recovery in Lync Server 2013</span></span>
+# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="0e5fc-102">在 Lync Server 2013 中管理高可用性和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="0e5fc-102">Managing high availability and disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729272"
 
 <span> </span>
 
-<span data-ttu-id="834f3-103">_**主题上次修改时间：** 2012-08-03_</span><span class="sxs-lookup"><span data-stu-id="834f3-103">_**Topic Last Modified:** 2012-08-03_</span></span>
+<span data-ttu-id="0e5fc-103">_**上次修改的主题：** 2012-08-03_</span><span class="sxs-lookup"><span data-stu-id="0e5fc-103">_**Topic Last Modified:** 2012-08-03_</span></span>
 
-<span data-ttu-id="834f3-104">以下主题介绍了如何配置持久聊天服务器的高可用性、灾难恢复、故障转移和回切。</span><span class="sxs-lookup"><span data-stu-id="834f3-104">The following topics describe how to configure high availability, disaster recovery, failing over, and failing back for Persistent Chat Server.</span></span>
+<span data-ttu-id="0e5fc-104">以下主题介绍如何配置持久聊天服务器的高可用性、灾难恢复、故障转移和故障回复。</span><span class="sxs-lookup"><span data-stu-id="0e5fc-104">The following topics describe how to configure high availability, disaster recovery, failing over, and failing back for Persistent Chat Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="834f3-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="834f3-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0e5fc-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="0e5fc-105">In This Section</span></span>
 
-  - [<span data-ttu-id="834f3-106">在 Lync Server 2013 中配置持久聊天高可用性和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="834f3-106">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
+  - [<span data-ttu-id="0e5fc-106">在 Lync Server 2013 中配置持久聊天高可用性和灾难恢复</span><span class="sxs-lookup"><span data-stu-id="0e5fc-106">Configuring for Persistent Chat high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
 
-  - [<span data-ttu-id="834f3-107">在 Lync Server 2013 中对持久聊天服务器进行故障转移和故障回复</span><span class="sxs-lookup"><span data-stu-id="834f3-107">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
+  - [<span data-ttu-id="0e5fc-107">在 Lync Server 2013 中对持久聊天服务器进行故障转移和故障回复</span><span class="sxs-lookup"><span data-stu-id="0e5fc-107">Failing over and failing back Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
 
 </div>
 

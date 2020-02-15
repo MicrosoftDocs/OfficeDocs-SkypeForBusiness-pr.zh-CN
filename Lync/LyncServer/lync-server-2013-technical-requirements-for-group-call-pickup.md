@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：组呼叫装货的技术要求
+title: Lync Server 2013：组的呼叫应答的技术要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a24f9e5b3950f45804a816e44e13382fc7d3cc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7fff6c8fa2d058d5e9ee2df0beb26f97508798f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746562"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006708"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="1bab3-102">Lync Server 2013 中组呼叫装货的技术要求</span><span class="sxs-lookup"><span data-stu-id="1bab3-102">Technical requirements for Group Call Pickup in Lync Server 2013</span></span>
+# <a name="technical-requirements-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="7873c-102">Lync Server 2013 中组内呼叫应答的技术要求</span><span class="sxs-lookup"><span data-stu-id="7873c-102">Technical requirements for Group Call Pickup in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "41746562"
 
 <span> </span>
 
-<span data-ttu-id="1bab3-103">_**主题上次修改时间：** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="1bab3-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="7873c-103">_**上次修改的主题：** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="7873c-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="1bab3-104">组呼叫装货具有与呼叫寄存应用程序相同的硬件、软件和端口要求。</span><span class="sxs-lookup"><span data-stu-id="1bab3-104">Group Call Pickup has the same hardware, software, and port requirements as the Call Park application.</span></span> <span data-ttu-id="1bab3-105">组呼叫分拣不使用音频文件。</span><span class="sxs-lookup"><span data-stu-id="1bab3-105">Group Call Pickup does not use audio files.</span></span>
+<span data-ttu-id="7873c-104">组呼叫装货与呼叫寄存应用程序具有相同的硬件、软件和端口要求。</span><span class="sxs-lookup"><span data-stu-id="7873c-104">Group Call Pickup has the same hardware, software, and port requirements as the Call Park application.</span></span> <span data-ttu-id="7873c-105">组呼叫应答不使用音频文件。</span><span class="sxs-lookup"><span data-stu-id="7873c-105">Group Call Pickup does not use audio files.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1bab3-106">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1bab3-106">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7873c-106">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7873c-106">See Also</span></span>
 
 
-[<span data-ttu-id="1bab3-107">Lync Server 2013 中呼叫寄存的技术要求</span><span class="sxs-lookup"><span data-stu-id="1bab3-107">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)  
+[<span data-ttu-id="7873c-107">Lync Server 2013 中呼叫寄存的技术要求</span><span class="sxs-lookup"><span data-stu-id="7873c-107">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)  
   
 
 </div>
