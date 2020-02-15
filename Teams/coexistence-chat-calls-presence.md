@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 本文档介绍了在团队和 Skype for business （基于已分配的 TeamsUpgrade 模式）的情况下，在团队和 Skype for business 的用户之间进行呼叫的传送和状态。 它包括路由优化、状态行为以及从*旧版*到*孤岛*的默认 TeamsUpgrade 模式以及即将停用*旧版*的更改。
-ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824930"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050114"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
@@ -215,6 +215,6 @@ Skype for business 线程不会保留超过10分钟的 SIP 会话超时。 在 S
 特别是，如果收件人以前拥有已升级到团队的永久互操作对话线程，该线程将不再反映精确的状态，并且将无法再进行路由。 应启动新线程。
 
 ## <a name="related-links"></a>相关链接
-[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [视频：管理 SfB 和团队之间的共存和互操作性](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

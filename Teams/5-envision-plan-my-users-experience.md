@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825180"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021593"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
@@ -108,7 +108,7 @@ Microsoft Teams 可以用于会议或用作电话系统。 在使用这些功能
 选择了设备后，将其包含在试点测试计划中以便进行最终验证。 应在试点期间利用调查来收集反馈，以确保你的设备策略是最佳的。
 
 > [!NOTE]
-> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找此程序下认证的设备，请参阅[Microsoft 团队设备](https://products.office.com/en-us/microsoft-teams/across-devices/devices)和[USB 音频和视频设备](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)。
+> 目前，建议使用通过 Skype for Business 认证计划认证的音频设备。 若要查找此程序下认证的设备，请参阅[Microsoft 团队设备](https://products.office.com/microsoft-teams/across-devices/devices)和[USB 音频和视频设备](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)。
 
 
 

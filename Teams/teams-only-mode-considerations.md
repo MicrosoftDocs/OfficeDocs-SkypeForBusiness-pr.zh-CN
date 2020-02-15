@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9ad590f61b63aad1208fb2ad04f4aa3b80a3ddb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836972"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035456"
 ---
 # <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 
@@ -55,7 +55,7 @@ ms.locfileid: "41836972"
  - Office 365 德国
  - Skype for business 租户托管于韩国 **，** 组织要求团队数据存储在韩国。 目前，存储在韩国的 Skype for business 数据的组织将其团队数据存储在亚洲数据中心区域，而不是在韩国数据中心区域中。
 
-**特定于用户的注意事项**：某些用户方案仍在发展，管理员可能决定在升级组织中的其他用户时临时推迟某些用户的升级。 特别是，我们仍在针对其主要设备基于 VDI 的用户处理方案。 请监控[Office 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap)网站，了解公告。
+**特定于用户的注意事项**：某些用户方案仍在发展，管理员可能决定在升级组织中的其他用户时临时推迟某些用户的升级。 特别是，我们仍在针对其主要设备基于 VDI 的用户处理方案。 请监控[Office 365 路线图](https://www.microsoft.com/microsoft-365/roadmap)网站，了解公告。
 
 > [!NOTE]
 > 在移动到 "仅团队" 模式之前，你需要替换或更新不支持团队的设备。 

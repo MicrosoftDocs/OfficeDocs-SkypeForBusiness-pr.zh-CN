@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解加载项许可证、每个许可证将获得哪些功能、如何为你的产品购买它们以及如何将现有运营商与他们配合使用。 您可以获取有关 Office 365、通讯信用和通话计划的定价和计划详细信息。
-ms.openlocfilehash: e7a4853bcb5cb1522f185f8f66ccb0931cdc2be2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029373"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 
@@ -55,7 +55,7 @@ Microsoft 团队许可旨在为您提供最大限度的灵活性。 例如，在
 |**音频会议** <br/> |有时，组织中的人员需要使用手机呼叫团队会议，而不是使用其计算机。 在此情况下使用音频会议功能。  <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 <br/> 如果您要查找的费用是多少，请参阅[音频会议的定价](https://products.office.com/microsoft-teams/online-meeting-solutions)。  <br/> |
 |**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加其他人的功能** <br/> |如果要添加音频会议，我们建议你 [设置通信点数](../set-up-communications-credits-for-your-organization.md)。 <br/> |
 |**电话系统** <br/> |PBX 是一个企业电话系统。 Office 365 中的电话系统是托管电话服务。 它为你提供了传统和创新的 PBX 功能，但不带复杂和昂贵的设备。 [下面是使用 Office 365 中的电话系统所获得的功能](../here-s-what-you-get-with-phone-system.md)。  <br/> 如果您正在寻找多少费用，请参阅[电话系统](https://products.office.com/microsoft-teams/voice-calling)。  <br/> |
-|**通话套餐** <br/> |对其他团队用户的通话是免费的，但如果您希望用户能够拨打您的企业外部的任何电话号码，请购买[呼叫计划](../calling-plans-for-office-365.md)。 在 Office 365 中有国内通话套餐和国内和国际通话套餐。  <br/> 如果您正在寻找多少成本，请参阅[呼叫计划定价](https://products.office.com/en-us/microsoft-teams/voice-calling)。  <br/> |
+|**通话套餐** <br/> |对其他团队用户的通话是免费的，但如果您希望用户能够拨打您的企业外部的任何电话号码，请购买[呼叫计划](../calling-plans-for-office-365.md)。 在 Office 365 中有国内通话套餐和国内和国际通话套餐。  <br/> 如果您正在寻找多少成本，请参阅[呼叫计划定价](https://products.office.com/microsoft-teams/voice-calling)。  <br/> |
 |**Microsoft Teams 会议室** <br/> |这不是加载项，而是一项可将视频、音频和内容共享带入会议室的功能。 请参阅[Microsoft 团队聊天室](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)。  <br/> |
 
 需要与某人联系有关所有附加选项？ [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
@@ -84,7 +84,7 @@ Microsoft 团队许可旨在为您提供最大限度的灵活性。 例如，在
 ## <a name="how-do-i-use-my-existing-calling-plans-with-teams"></a>如何将我的现有通话计划与团队一起使用？
 <a name="bkmk_existing"></a>
 <!---
-If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/en-us/library/mt605227.aspx)**.
+If you want to use your existing Calling Plan, buy the **Phone System** add-on and use it with the **[free Cloud connector](https://technet.microsoft.com/library/mt605227.aspx)**.
 --->
 如果你使用的是混合用户的本地 PSTN 连接，则*只*将**电话系统**许可证分配给你的用户。 **请勿** 同时分配通话套餐。
 
@@ -102,5 +102,5 @@ If you want to use your existing Calling Plan, buy the **Phone System** add-on a
     
 - [添加资金并管理通信点数](../add-funds-and-manage-communications-credits.md)
 <!---    
-- [Configure the Cloud Connector](https://technet.microsoft.com/en-us/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
+- [Configure the Cloud Connector](https://technet.microsoft.com/library/mt605228.aspx) and [Download the Cloud Connector](https://aka.ms/CloudConnectorInstaller)
 --->

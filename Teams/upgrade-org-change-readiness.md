@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837125"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048593"
 ---
 ![升级旅行图，强调用户准备情况阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，重点关注用户准备阶段")
 
@@ -107,7 +107,7 @@ Microsoft 团队扩展了 Skype for Business 的功能，提供了全面的沟�
 | | |
 |---|---|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>你将使用哪些 relatable 协作方案来帮助加快用户对团队的采纳并帮助你从 Skype for Business 进行升级？</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的示例帮助创建自己的团队协作方案。 将它们记录在 "[升级" 工作簿](https://aka.ms/upgradesuccesskit)中。</li><li>有关其他方案和示例，请转到[工作效率库](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>使用下面的示例帮助创建自己的团队协作方案。 将它们记录在 "[升级" 工作簿](https://aka.ms/upgradesuccesskit)中。</li><li>有关其他方案和示例，请转到[工作效率库](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>示例
 

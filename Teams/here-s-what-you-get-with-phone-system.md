@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解功能、可用性以及如何为你的企业规划和设置 Microsoft Phone 系统。 '
-ms.openlocfilehash: ec41a7ac88c6c7c1a99c7c547b45ef1b95c25cc8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836314"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045164"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
@@ -56,13 +56,13 @@ ms.locfileid: "41836314"
 |[来电显示](how-can-caller-id-be-used-in-your-organization.md)  <br/> |从公司内部进行呼叫将显示一个详细的呼叫方 ID，该 ID 从公司目录提取信息，显示图片 ID 和作业标题，而不是只显示电话号码。 对于来自外部电话号码的呼叫，将显示电话服务提供商提供的呼叫方 ID。 如果外部电话号码是公司目录中的辅助号码，则将显示来自公司目录的信息。  <br/> |
 |设备切换  <br/> |允许用户在连接到团队的另一个 HID 设备上播放呼叫或会议;例如，从 PC 扬声器切换到耳机。   <br/> |
 |基于状态的呼叫路由 <br/> |控制与状态的入站通信，使用户可以阻止所有传入通信，除了特别指示的之外。  <br/> |
-|[集成拨号盘](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | 允许用户在搜索栏和拨号盘中的任意位置按姓名或按号码拨号，从而加快出站呼叫过程。 <br/> |
+|[集成拨号盘](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | 允许用户在搜索栏和拨号盘中的任意位置按姓名或按号码拨号，从而加快出站呼叫过程。 <br/> |
 |联合呼叫  <br/> |允许用户与联盟租户中的用户安全地连接、沟通和协作。  <br/> |
 |[拨打和接听视频电话](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 如果用户的帐户可以进行视频通话，则用户可以与他们的联系人进行面对面的视频通话。 他们只需要一部摄像头、计算机的扬声器和麦克风。 如果计算机没有内置音频设备，则用户也可以使用耳机。<br/> |
 |[云语音邮件](set-up-phone-system-voicemail.md) <br/> | 当用户收到语音邮件时，将以电子邮件形式将邮件作为附件发送给其 Exchange 邮箱。 用户可以通过其认证的桌面电话、所有团队或 Skype for business 应用程序收听其邮件。 对语音邮件脚本的支持已添加到2017年3月，并且默认情况下为所有组织和用户启用。   <br/> |
 |[云语音邮件用户设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 允许用户为语音邮件问候语、呼叫应答规则和问候语言（包括外出问候语）配置其客户端设置。   |
 |[辅助铃声](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | 将多个扬声器设备连接到其电脑上的用户可以选择将辅助设备设置为除默认扬声器之外的电话。 例如，已连接到电脑和桌面扬声器的耳机的用户可以选择呼叫进入时同时使用耳机和桌面扬声器铃声，以便他们不会错过来电。  |
-|[独特震铃通知](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)（仅限团队）<br/> |允许用户为正常呼叫、已转移呼叫和已委派呼叫选择单独的铃声，以便他们可以区分呼叫类型。  <br/> |
+|[独特震铃通知](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)（仅限团队）<br/> |允许用户为正常呼叫、已转移呼叫和已委派呼叫选择单独的铃声，以便他们可以区分呼叫类型。  <br/> |
 |[共享线路外观](shared-line-appearance.md) <br/> | 允许用户共享其电话线路，以便其他用户可以代表他们进行呼叫和接听呼叫。|
 |[忙/闲（仅](teams-calling-policy.md)限团队） <br/> | 一种呼叫策略，可用于配置当用户已加入通话或会议或有呼叫处于保持状态时如何处理传入呼叫。 当被呼叫方在手机上时，呼叫者将听到占线信号。 被呼叫方获取未接来电通知，但无法应答传入呼叫。 默认情况下禁用此功能，但租户管理员可以将其打开。 |
 |[通话阻止](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 允许用户将（PSTN）电话号码添加到被阻止的列表，以便阻止该号码的下一次通话向用户响铃。|

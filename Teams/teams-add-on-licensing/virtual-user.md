@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解免费的虚拟用户许可证。
-ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826510"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029353"
 ---
 # <a name="phone-systemvirtual-user-license"></a>电话系统-虚拟用户许可证 
 
@@ -67,7 +67,7 @@ Contoso 应考虑重新设计自动助理和呼叫队列系统。 如果他们�
 如果你决定将资源帐户中的许可证从电话系统许可证切换到电话系统-虚拟用户许可证： 
 
 1. 获取新的电话系统-虚拟用户许可证。 
-2. 按照 Microsoft 365 管理中心中的链接步骤[将用户移动到其他订阅](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+2. 按照 Microsoft 365 管理中心中的链接步骤[将用户移动到其他订阅](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
 
 > [!WARNING]
 > 始终删除完整的电话系统许可证，并在同一许可证活动中分配电话系统-虚拟用户许可证。 如果删除旧许可证，请保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再按预期运行。 如果发生这种情况，我们建议你为手机系统创建新的资源帐户-虚拟用户许可证并删除断开的资源帐户。 

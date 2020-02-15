@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837942"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029393"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 
@@ -34,7 +34,7 @@ Skype for Business Online 将于2021年7月31日停用，在该日期之后，�
 
 ## <a name="why-are-we-making-this-announcement-now"></a>为什么要立即进行本次发布？
 
-在2017中，我们在 Microsoft 365 中将 Microsoft 团队启动为 "团队协作中心"。 团队将聊天、视频、调用和文档协作合并到单个集成的应用中，从而实现了一种全新的工作方式。 过去两年来，我们与客户紧密合作来优化团队，现在我们可以放心地推荐它作为所有 Skype for Business Online 客户的升级。 已进行移动的客户告诉我们团队不仅帮助他们改善协作，还提供了重新思考工作在组织中的工作方式的极少机会。 使用团队，世界各地的公司变得更加灵活、缩短周期时间、提高关键工作流的效率以及减少不必要的开销。 团队不仅仅是 Skype for business Online 的升级，它是一种功能强大的工具，可将门与全新的工作方式进行协作。 但不要让我们的 word 参与！ 通过最近发布的 Forrester 白皮书 "[Microsoft 团队的总体经济影响，](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)了解更多关于组织的团队的优势。"
+在2017中，我们在 Microsoft 365 中将 Microsoft 团队启动为 "团队协作中心"。 团队将聊天、视频、调用和文档协作合并到单个集成的应用中，从而实现了一种全新的工作方式。 过去两年来，我们与客户紧密合作来优化团队，现在我们可以放心地推荐它作为所有 Skype for Business Online 客户的升级。 已进行移动的客户告诉我们团队不仅帮助他们改善协作，还提供了重新思考工作在组织中的工作方式的极少机会。 使用团队，世界各地的公司变得更加灵活、缩短周期时间、提高关键工作流的效率以及减少不必要的开销。 团队不仅仅是 Skype for business Online 的升级，它是一种功能强大的工具，可将门与全新的工作方式进行协作。 但不要让我们的 word 参与！ 通过最近发布的 Forrester 白皮书 "[Microsoft 团队的总体经济影响，](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)了解更多关于组织的团队的优势。"
 
 ## <a name="what-is-microsoft-doing-to-help-customers-migrate-to-teams"></a>Microsoft 执行哪些操作来帮助客户迁移到团队？
 

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5a6079924803f7dbdde0c49bb5bd5d1f1aa2c4b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825700"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008144"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>计划将 StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -49,7 +49,7 @@ ms.locfileid: "41825700"
 |10    |向 StaffHub 用户传达切换到团队中的倒班         |[StaffHub 到团队的示例向用户发送电子邮件通信](staffhub-to-teams-email-template.md)         |
 |11     |安装团队客户端         |[获取 Teams 客户端](../../get-clients.md) |
 |至    |将 FirstLineWorker 应用设置策略分配给用户（或创建并分配自定义应用设置策略）以将倒班应用固定到团队客户端  |[将 FirstlineWorker 应用设置策略分配给用户](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
-|13     |培训用户如何使用倒班和团队         |[向团队中的用户的板载用户](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[班次帮助文档](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams 帮助文档](https://support.office.com/teams)<br><br>[Teams 培训视频](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
+|13     |培训用户如何使用倒班和团队         |[向团队中的用户的板载用户](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[班次帮助文档](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Teams 帮助文档](https://support.office.com/teams)<br><br>[Teams 培训视频](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |
 |14     |查看 StaffHub 团队的列表，确保应将这些团队中的所有用户移到团队。 删除不应在日程安排中的用户。 |         |
 
 ## <a name="move-your-organizations-staffhub-teams-to-teams"></a>将组织的 StaffHub 团队移动到团队

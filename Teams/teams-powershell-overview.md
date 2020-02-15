@@ -15,12 +15,12 @@ f1.keywords:
 description: 了解如何使用 PowerShell 控件管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836952"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035354"
 ---
 # <a name="teams-powershell-overview"></a>Teams PowerShell 概览
 
@@ -30,7 +30,7 @@ Microsoft 团队拥有一组丰富的工具，可供 IT 管理员通过 Microsof
 
 用于管理团队的 PowerShell 控件位于两个不同的 PowerShell 模块中： 
 - [Microsoft 团队 powershell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)：团队 powershell 模块包含创建和管理团队所需的所有 cmdlet。  
-- [Skype for Business powershell 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)： skype For business powershell 模块包含用于管理策略、配置和其他团队工具的 cmdlet。 
+- [Skype for Business powershell 模块](https://www.microsoft.com/download/details.aspx?id=39366)： skype For business powershell 模块包含用于管理策略、配置和其他团队工具的 cmdlet。 
 
 PowerShell 控件的参考文档将告诉你你正在调查的 cmdlet 所在的模块。 （最终，将组合两个模块。）
 
@@ -79,7 +79,7 @@ PowerShell 控件的参考文档将告诉你你正在调查的 cmdlet 所在的�
 
 ## <a name="managing-policies-via-powershell"></a>通过 PowerShell 管理策略
 
-用于管理策略的 cmdlet 位于[Skype For business cmdlet 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)中。
+用于管理策略的 cmdlet 位于[Skype For business cmdlet 模块](https://www.microsoft.com/download/details.aspx?id=39366)中。
 
 > [!NOTE]
 > 一旦连接到 Skype for Business Online，cmdlet 将在你的 PowerShell 会话中可用。 有关详细信息，请参阅[管理 Office 365 PowerShell 的 Skype For Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。 
@@ -111,7 +111,7 @@ PowerShell 控件的参考文档将告诉你你正在调查的 cmdlet 所在的�
 
 ## <a name="managing-configurations-via-powershell"></a>通过 PowerShell 管理配置
 
-用于管理您的配置的 cmdlet 位于[Skype For business cmdlet 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)中。
+用于管理您的配置的 cmdlet 位于[Skype For business cmdlet 模块](https://www.microsoft.com/download/details.aspx?id=39366)中。
 
 配置是在服务中维护的不能在用户级别指定的设置的存储桶。 设置始终在整个组织中应用。 您的全局配置是您的组织中唯一有效的配置。 每种配置类型均带有两个主要 cmdlet：
 

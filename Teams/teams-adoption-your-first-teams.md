@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837712"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030766"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团体
 
@@ -36,7 +36,7 @@ ms.locfileid: "41837712"
 | Microsoft 团队实现 | 常规 <br/> 意识和采纳 <br/> 商务服务 <br/> 先期采用计划 <br/> 反馈和见解 <br/> 安全性和合规性 <br/> 战略和规划 <br/> 服务运行状况和事件 <br/> 培训 <br/> Watercooler 聊天 |
 | 团队拥护 | 常规 <br/> 最佳做法、培训以及如何 <br/> 拥护者角落 <br/> 反馈和支持 <br/> 计划主管 <br/> 社交中心 |
 
-在 Microsoft 团队中，[选项卡库](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview)让你可以访问管理员已启用的所有 Office 365 和第三方应用。 为了从你的产品中获取最大价值，我们建议将关键资源固定为每个相应频道中的选项卡。 请参阅下面的示例。
+在 Microsoft 团队中，[选项卡库](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview)让你可以访问管理员已启用的所有 Office 365 和第三方应用。 为了从你的产品中获取最大价值，我们建议将关键资源固定为每个相应频道中的选项卡。 请参阅下面的示例。
 
 ![显示默认选项卡和自定义选项卡的屏幕截图](media/teams-adoption-tab-example.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "41837712"
 | 商务服务 | Wiki –交往指南<br/>表单–团队咨询请求<br/>列表-预订请求 |
 |早期采纳者 | 已固定的反馈社区 <br/> OneNote for 常见问题和常见主题 |
 | 反馈和报告 | 已固定的 Office 365 使用情况报表（仅适用于 Office 365 管理员） |
-| 安全性和合规性 | Microsoft 信任门户 <br/> [安全性和合规性文档](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [路线图](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| 安全性和合规性 | Microsoft 信任门户 <br/> [安全性和合规性文档](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [路线图](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | 战略和规划 | 协作北星型 PowerPoint <br/> 服务采纳项目计划 |
 | 培训 | 自定义学习培训门户 <br/> [团队在线培训](https://aka.ms/TeamsTraining) |
 | **团队拥护**|  |

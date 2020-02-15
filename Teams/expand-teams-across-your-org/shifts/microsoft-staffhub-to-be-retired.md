@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3849a3e4601c6af48e5a848774708d6c66a761e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827530"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008154"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 将停用
 
@@ -70,7 +70,7 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 #### <a name="how-do-i-get-shifts"></a>如何获得班次？ 
 
-如果您已经在包含倒班的计划中，则可以开始使用 "开始" 作为团队的一部分。 查看[开始进行移动](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)。
+如果您已经在包含倒班的计划中，则可以开始使用 "开始" 作为团队的一部分。 查看[开始进行移动](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)。
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>哪些设备或平台可以在哪些设备上使用？
 

@@ -16,12 +16,12 @@ f1.keywords:
 description: 在 Microsoft Teams 中部署云语音功能实践指导
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825600"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030716"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -112,7 +112,7 @@ Microsoft Stream 作为符合条件的 Office 365 订阅的一部分或作为独
 
 若要查找存储 Microsoft Stream 数据的区域，请在 Microsoft Stream 中单击 **？** 在右上角，单击 "**关于 Microsoft Stream**"，然后单击**存储数据**。  若要了解有关 Microsoft Stream 存储数据的地区的详细信息，请参阅[Microsoft STREAM 常见问题](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 
-若要了解有关在 Office 365 中跨服务存储数据的位置的详细信息，请参阅[您的数据位于何处？](https://products.office.com/en-us/where-is-your-data-located?rtc=1)
+若要了解有关在 Office 365 中跨服务存储数据的位置的详细信息，请参阅[您的数据位于何处？](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制脚本
 

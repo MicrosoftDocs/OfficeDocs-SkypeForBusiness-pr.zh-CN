@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 了解如何在 GCCH 和 DoD 环境中通过直接路由使用音频会议。
-ms.openlocfilehash: 8304d18777739b4667c0f47b9dee3e9f8f6dcc38
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a8a9b5a46f1efd88de38fa65e857d3eebbbd6e3d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825650"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047183"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>适用于 GCC High 和 DoD 且含直接路由的音频会议
 
@@ -92,7 +92,7 @@ ms.locfileid: "41825650"
 
 ### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>步骤4：为你的用户分配适用于 GCC 的最高或 DoD 许可证的直接路由的音频会议
 
-若要向你的用户分配适用于适用于 GCC 的适用于 GCC 或 DoD 许可证的直接路由的音频会议，请参阅[在 Office 365 for business 中向用户分配许可证](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users)。
+若要向你的用户分配适用于适用于 GCC 的适用于 GCC 或 DoD 许可证的直接路由的音频会议，请参阅[在 Office 365 for business 中向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)。
 
 ### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>步骤5：（可选）查看团队中的音频会议号码列表
 

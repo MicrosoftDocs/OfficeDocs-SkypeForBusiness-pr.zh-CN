@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825060"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046495"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
@@ -83,7 +83,7 @@ ms.locfileid: "41825060"
 
 ### <a name="provision"></a>提供  
 
-在设置阶段，你将根据合作伙伴配置指南将许可证分配给相应的用户。 您还需要通过 Azure 同意流程来向您的团队环境提供合作伙伴访问权限。 可在此处找到有关 Azure 同意流程的详细信息：https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent 
+在设置阶段，你将根据合作伙伴配置指南将许可证分配给相应的用户。 您还需要通过 Azure 同意流程来向您的团队环境提供合作伙伴访问权限。 可在此处找到有关 Azure 同意流程的详细信息：https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
 
 ### <a name="schedule"></a>安排
 

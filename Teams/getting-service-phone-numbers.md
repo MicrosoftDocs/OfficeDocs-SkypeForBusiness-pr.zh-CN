@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: 90538f21018ecde402994076243eb2ba893ccc98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a8cd5582cdcbddff1a6c6375230864e569111a0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836992"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031046"
 ---
 # <a name="getting-service-phone-numbers"></a>获取服务电话号码
 
@@ -42,7 +42,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 - 将您的服务提供商或电话运营商中的现有号码移植或转移到 Office 365。
     
     > [!NOTE]
-    > 当您转移您的服务号码时，强烈建议您联系[Microsoft 支持](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)部门以确保更高的并行通话容量被视为和配置正确。
+    > 当您转移您的服务号码时，强烈建议您联系[Microsoft 支持](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)部门以确保更高的并行通话容量被视为和配置正确。
   
 ## <a name="get-new-service-numbers"></a>获取新服务号码
 
@@ -83,7 +83,7 @@ Once you have your service numbers, they can then be assigned to an audio confer
 If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 > [!NOTE]
-> 如果您需要获得比这更多的电话号码，请[联系企业产品支持-管理员帮助](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
+> 如果您需要获得比这更多的电话号码，请[联系企业产品支持-管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。 
   
 ## <a name="related-topics"></a>相关主题
 [以下是 Office 365 中的电话系统功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

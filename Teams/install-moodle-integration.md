@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 128e476447898e659961a27e071b992b6b802ebf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: efb53e9b3299f45cd1abfabe508a55ca081a0b92
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836612"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045124"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安装与 Microsoft 团队的 Moodle 集成
 
@@ -173,7 +173,7 @@ Microsoft 团队的免费 Moodle 助理机器人可帮助教师和学生在 Mood
 
 现在，你已将机器人部署到 Azure 并配置为与 Moodle 服务器通话，现在是部署 Microsoft 团队应用的时候了。 若要执行此操作，你将从上一步中的 Office 365 Moodle 插件团队设置页面加载下载的清单文件。
 
-在你可以安装应用之前，你需要确保已启用应用的外部应用和旁加载。 若要执行此操作，您可以执行[以下步骤](https://docs.microsoft.com/en-us/MicrosoftTeams/admin-settings)。 确保已启用外部应用后，你可以按照以下步骤部署你的应用。
+在你可以安装应用之前，你需要确保已启用应用的外部应用和旁加载。 若要执行此操作，您可以执行[以下步骤](https://docs.microsoft.com/MicrosoftTeams/admin-settings)。 确保已启用外部应用后，你可以按照以下步骤部署你的应用。
 
 1. 打开 Microsoft 团队。
 2. 单击导航栏左下角的 "**应用商店**" 图标。

@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c3a32b49b6b95a2feea222d880a0e943c7189d0
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 23d0aac3fd5697b8e06c727acb3138a878e38bea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827000"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008084"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
@@ -48,7 +48,7 @@ Microsoft 365 实时事件将实时视频流转到新的级别，在整个服务
 您可以从上面的图片中看到，有四个关键组件与团队中的实时事件一起使用。
 
 > [!NOTE]
-> 有关如何设置实时事件和与会者体验的概述，请查看这些简短[视频](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)。
+> 有关如何设置实时事件和与会者体验的概述，请查看这些简短[视频](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)。
 
 ### <a name="scheduling"></a>级
 团队使组织者能够使用相应的与会者权限创建事件、指定事件团队成员、选择生产方法和邀请与会者。 如果实时事件是从 Yammer 组内创建的，则实时事件参与者将能够使用 Yammer 对话与事件中的人员交互。 

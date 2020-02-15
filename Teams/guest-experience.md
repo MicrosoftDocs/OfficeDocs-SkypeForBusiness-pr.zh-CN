@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
+ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833232"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41977524"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -56,6 +56,7 @@ ms.locfileid: "41833232"
 |发现和加入公用团队  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |查看组织结构图  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |使用内联转换  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|成为团队所有者  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 下表显示了与其他类型的用户相比，来宾可使用的呼叫和会议功能。
 
@@ -70,8 +71,8 @@ ms.locfileid: "41833232"
 | 可通过 VOIP 将其他用户添加到通话中 | 是 | 是  | 是  |
 | 可通过电话号码将用户添加到通话中 | 否 | 否 | 是 |
 | 转发目标 | 否 | 是 | 是  |
-| 通话群组目标 | 否 | 是 | 是  |
-| 未应答目标 | 否 | 是 | 是 |
+| 通话群组目标 | 否 | 是 | 是 |
+| 未应答目标 | 否 | 是 | 是  |
 | 可为联合呼叫的目标 | 否 | 是 | 是  |
 | 可进行联合呼叫 | 否 | 是 | 是  |
 | 可立即转发其呼叫 | 否 | 否 | 是 |

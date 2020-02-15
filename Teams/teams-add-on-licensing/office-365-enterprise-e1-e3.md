@@ -20,16 +20,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解加载项许可证、功能以及如何购买 Office 365 企业版 E1 和 E3 计划。 '
-ms.openlocfilehash: 2e547c23115f43dcc54a7f4bb99190116200f319
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 18a15c59b93fa0f426c780028b0029dd909abb2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826540"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029363"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 企业版（E1 和 E3）
 
-如果您已经购买了[Office 365 企业版 E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)或[E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)计划，下面是您需要购买才能获得更多 Microsoft 团队功能的附加许可证。
+如果您已经购买了[Office 365 企业版 E1](https://products.office.com/business/office-365-enterprise-e1-business-software)或[E3](https://products.office.com/business/office-365-enterprise-e3-business-software)计划，下面是您需要购买才能获得更多 Microsoft 团队功能的附加许可证。
 
 |要添加的功能|下面是你需要执行的操作|
 |:------------------|:--------------------------|

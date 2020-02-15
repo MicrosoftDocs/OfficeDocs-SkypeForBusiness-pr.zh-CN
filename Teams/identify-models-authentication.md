@@ -17,12 +17,12 @@ ms.collection:
 description: 了解 Microsoft Teams 中的不同标识模式，例如，云、同步和联合。 此外，还了解多重身份验证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11bf92cc2801d67d9b19d3c54f4c878e0913ffc3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835922"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42022283"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams 中的标识模式和身份验证
 ==========================================
@@ -63,4 +63,4 @@ Office 365 计划支持多重身份验证 (MFA)，这可提高用户登录 Offic
 |租户类型  |可用的 MFA 辅助因素选项  |备注  |
 |---------|---------|---------|
 |**仅限云**     |适用于 Office 365 的 MFA <ul><li>电话</li><li>短信</li><li>移动应用通知</li><li>移动应用代码</li></ul>        |[Office 365 部署的多重身份验证计划](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)         |
-|**混合设置（同步标识或联合标识模式）**     |<ul><li>适用于 Office 365 的 MFA</li><li>Azure MFA 模块（集成了 ADFS）</li><li>物理或虚拟智能卡（集成了 ADFS）</li></ul>         |注意：其他 MFA 解决方案可通过[AZURE AD 标识提供程序兼容性文档](https://www.microsoft.com/en-us/download/details.aspx?id=56843)使用         |
+|**混合设置（同步标识或联合标识模式）**     |<ul><li>适用于 Office 365 的 MFA</li><li>Azure MFA 模块（集成了 ADFS）</li><li>物理或虚拟智能卡（集成了 ADFS）</li></ul>         |注意：其他 MFA 解决方案可通过[AZURE AD 标识提供程序兼容性文档](https://www.microsoft.com/download/details.aspx?id=56843)使用         |

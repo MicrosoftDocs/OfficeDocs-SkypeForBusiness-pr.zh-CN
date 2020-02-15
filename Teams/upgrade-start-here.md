@@ -26,12 +26,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ebbefefa64df4ac2a27b4b5cc10cd447327281f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d9f45ba60aeaff37f77769966ed97f50aec2950a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837082"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045044"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>开始 Microsoft Teams 升级
 
@@ -41,7 +41,7 @@ ms.locfileid: "41837082"
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>为什么要升级到 Microsoft Teams？
 
-Microsoft Teams 扩展了 Skype for Business 的功能，将聊天、会议、呼叫、协作、应用集成和文件存储整合在单个界面中。 这个新的团队合作中心有助于简化用户完成工作的方式，从而提高用户满意度并加快实现业务成果。 我们将不断扩展 Teams 的功能，使你能够以全新的方式进行沟通和协作，打破组织和地域障碍，并提高流程和决策制定的效率。 在“Forrester 报告：[Microsoft Teams 的总体经济影响](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf)”中详细了解升级到 Teams 的好处。  
+Microsoft Teams 扩展了 Skype for Business 的功能，将聊天、会议、呼叫、协作、应用集成和文件存储整合在单个界面中。 这个新的团队合作中心有助于简化用户完成工作的方式，从而提高用户满意度并加快实现业务成果。 我们将不断扩展 Teams 的功能，使你能够以全新的方式进行沟通和协作，打破组织和地域障碍，并提高流程和决策制定的效率。 在“Forrester 报告：[Microsoft Teams 的总体经济影响](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf)”中详细了解升级到 Teams 的好处。  
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>我的组织应该在何时升级到 Teams？
 
