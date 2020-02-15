@@ -12,20 +12,20 @@ ms:contentKeyID: 48185355
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46172b2996905b763f4b646a52c2c0ea95fc30b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbff93abc864acee730b0d31cc4b05a84915573f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755866"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-video-features-in-lync-server-2013"></a>Lync Server 2013 中新的视频功能
+# <a name="new-video-features-in-lync-server-2013"></a>Lync Server 2013 中的新视频功能
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755866"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-16_
+_**上次修改的主题：** 2012-08-16_
 
 Lync Server 2013 引入了以下新的视频功能：
 
-  - **Hd 视频**   用户可以在两方呼叫和多方会议中体验高达 HD 1080p 的分辨率。
+  - **Hd 视频**   用户可在两方呼叫和多方会议中体验高达 HD 1080p 的分辨率。
 
-  - **** 在包含两人以上的视频会议中，用户可以在会议中查看参与者的视频。    如果会议的参与者超过五个，则仅最活跃参与者的视频显示在顶部行中，并且为其他参与者显示一张照片。
+  - **库视图**   在包含两人以上的视频会议中，用户可以在会议中看到参与者的视频。 如果与会者超过五名，只有最活跃与会者的视频显示在最上面一行，其他与会者则显示照片。
 
-  - **H-p 视频**   现在，在 Lync 2013 客户端上编码视频的默认编码编解码器。 H-p 视频支持更大范围的分辨率和帧速率，并提高视频可伸缩性。
+  - **H-p 视频**   现在，在 Lync 2013 客户端上对视频进行编码的默认编码编解码器。 H.264 视频支持范围更广的分辨率和帧速率，并改进了视频可伸缩性。
 
 <div>
 

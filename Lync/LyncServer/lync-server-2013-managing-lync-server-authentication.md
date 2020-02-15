@@ -12,16 +12,16 @@ ms:contentKeyID: 49733835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d443631591ffcb00ac9a86dff038b9bb14ec085
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0995c141c21fd24be8da31b36c483e04c626127d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762080"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762080"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-15_
+_**上次修改的主题：** 2012-10-15_
 
-使用以下过程管理 Lync Server 2013 安全和身份验证。
+使用以下过程可管理 Lync Server 2013 安全性和身份验证。
 
 <div>
 
 ## <a name="in-this-section"></a>本节内容
 
-  - [在 Lync Server 2013 中管理操作流程的证书](lync-server-2013-managing-certificates-for-operational-processes.md)
+  - [在 Lync Server 2013 中管理操作进程的证书](lync-server-2013-managing-certificates-for-operational-processes.md)
 
   - [在 Lync Server 2013 中管理服务器到服务器的身份验证（OAuth）和合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
-  - [在 Lync Server 2013 "控制面板" 中配置身份验证](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
+  - [在 Lync Server 2013 控制面板中配置身份验证](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
 
   - [在 Lync Server 2013 中管理 PIN 设置](lync-server-2013-managing-pin-settings.md)
 

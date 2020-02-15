@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：备份和还原 Lync 服务器
+title: Lync Server 2013：备份和还原 Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43a96f47bfe9d28fdbc37eea0ae62ef6cd763098
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d65d06ac9c72e776eee51b9b3dff6c6db3a59031
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740142"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41740142"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-在本部分中，你将找到备份 Lync Server 2013 数据的最佳做法，以及在遇到故障时还原它的最佳做法。 这些最佳做法适用于以下情况：
+在本节中，您将找到备份 Lync Server 2013 数据的最佳做法，并在遇到故障时将其还原。 这些最佳实践适用于以下情况：
 
-  - 任何类型（前端服务器、边缘服务器、中介服务器、持久聊天服务器或控制器）的整个 Lync 服务器池，或者其中一个池中的单个服务器。
+  - 所有类型（前端服务器、边缘服务器、中介服务器、持久聊天服务器或控制器）的完整 Lync Server 池，或其中一个池中的单个服务器。
 
   - 中央管理服务器
 
-  - 标准版服务器
+  - Standard Edition 服务器
 
   - 企业版后端服务器
 
   - 文件存储
 
-  - 存档数据库、监视数据库或持久聊天数据库
+  - 存档数据库、监控数据库或持久聊天数据库
 
-本部分不包括有关还原整个网站或开发备用网站的信息。 有关使用配对的前端池开发灾难恢复解决方案的详细信息，请参阅[在 Lync Server 2013 中规划高可用性和灾难恢复](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。 这是规划灾难恢复的推荐方法。
+本部分不包括有关还原整个网站或开发备用网站的信息。 有关开发具有成对前端池的灾难恢复解决方案的详细信息，请参阅[在 Lync Server 2013 中规划高可用性和灾难恢复](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。 这是规划灾难恢复的推荐方法。
 
-如果你已部署成对的前端池，并且其中一个池失败且无法恢复，则可以使用其配对的池中的新完全限定的域名（FQDN）还原此池。 有关执行此恢复的步骤的详细信息，请参阅[在 Lync Server 2013 中故障转移池](lync-server-2013-failing-over-a-pool.md)。 此外，如果你稍后想要重新创建属于前端对的失败和不可恢复的池，你可以使用在[Lync Server 2013 中执行 ABC 前端池故障转移](lync-server-2013-performing-an-abc-front-end-pool-failover.md)的步骤。
+如果已部署配对的前端池，如果其中一个池发生故障且无法恢复，则可以使用其配对的池中的新完全限定的域名（FQDN）还原此池。 有关执行此恢复的步骤的详细信息，请参阅[在 Lync Server 2013 中对池进行故障转移](lync-server-2013-failing-over-a-pool.md)。 此外，如果您稍后要重新创建属于前端对的故障和不可恢复的池，则可以使用在[Lync Server 2013 中执行 ABC 前端池故障转移](lync-server-2013-performing-an-abc-front-end-pool-failover.md)中的步骤。
 
-本文档中所述的方法涉及规划阶段中的特殊注意事项。 有关详细信息，请参阅为[Lync Server 2013 建立备份和还原计划](lync-server-2013-establishing-a-backup-and-restoration-plan.md)。
+本文档介绍的方法包括规划阶段的特殊注意事项。 有关详细信息，请参阅为[Lync Server 2013 建立备份和还原计划](lync-server-2013-establishing-a-backup-and-restoration-plan.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [准备 Lync Server 2013 备份和还原](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
 

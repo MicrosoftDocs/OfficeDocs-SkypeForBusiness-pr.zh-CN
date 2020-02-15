@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：MediaList 表
+title: Lync Server 2013： MediaList 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b92c8a0a6957eed00cf4e25f60ce2e0ff24d1fd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fe16e903a1dfbc958336dca68903ca80770995d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762990"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762990"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-07-12_
+_**上次修改的主题：** 2016-07-12_
 
 MediaList 表是一个静态表，用于存储各种媒体类型的列表。
 
@@ -59,21 +59,21 @@ MediaList 表是一个静态表，用于存储各种媒体类型的列表。
 <tr class="odd">
 <td><p><strong>MediaId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primary</p></td>
+<td><p>主</p></td>
 <td><p>值：1-7</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>媒体</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar （256）</p></td>
 <td></td>
-<td><p>MediaID 与媒体值的静态映射：</p>
+<td><p>MediaID 和媒体值的静态映射：</p>
 <ul>
-<li><p>1-IM</p></li>
-<li><p>2 - 文件传输</p></li>
+<li><p>1– IM</p></li>
+<li><p>2 – 文件传输</p></li>
 <li><p>3 – 远程协助</p></li>
 <li><p>4 – 应用程序共享</p></li>
-<li><p>5-音频</p></li>
-<li><p>6-视频</p></li>
+<li><p>5–音频</p></li>
+<li><p>6–视频</p></li>
 <li><p>7 – 应用程序邀请</p></li>
 </ul></td>
 </tr>
@@ -81,7 +81,7 @@ MediaList 表是一个静态表，用于存储各种媒体类型的列表。
 </table>
 
 
-如果你尝试确定 LcsCDR.SessionDetailsView.MediaTypes 中的值的形式类型，则需要使用以下加入代码段：
+如果您尝试为 SessionDetailsView 中的值确定 LcsCDR 类型，则需要使用以下联接代码段：
 
     LEFT JOIN on Media.MediaId = MediaList.MediaId
 

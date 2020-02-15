@@ -12,16 +12,16 @@ ms:contentKeyID: 48183252
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d10b9c9bf31328f5008a8be84fe3c10c901b668
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 277e977ae17d79c5c961586d40c9a30e4332b45a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724362"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,16 +35,16 @@ ms.locfileid: "41724362"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-05_
+_**上次修改的主题：** 2012-09-05_
 
-将远程呼叫控制迁移到 Lync Server 部署时，必须在旧版部署中删除适用于任何 SIP/CSTA 网关的旧版授权主机条目（在 Lync Server 中称为 "*受信任的应用程序条目*"）。 必须使用管理工具分别从这些部署中删除授权的主机条目。
+将远程呼叫控制迁移到 Lync Server 部署时，必须在旧版部署中删除任何 SIP/CSTA 网关的旧版授权主机条目（在 Lync Server 中称为 "*受信任的应用程序条目*"）。 您必须使用管理工具来分别删除这些部署中的授权主机条目。
 
 <div>
 
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序项](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序条目](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
   
 
 </div>

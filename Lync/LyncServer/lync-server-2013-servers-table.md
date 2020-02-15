@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Servers 表
+title: Lync Server 2013： Servers 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce2bfcda6abe5ae60c5cd936f99f1adb80fd1eee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a11c909ab64b8e93c01376df05e64bc694385c4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764830"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="servers-table-in-lync-server-2013"></a>Lync Server 2013 中的 Servers 表
+# <a name="servers-table-in-lync-server-2013"></a>Lync Server 2013 中的 "服务器" 表
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764830"
 
 <span> </span>
 
-_**主题上次修改时间：** 2010-11-05_
+_**上次修改的主题：** 2010-11-05_
 
-服务器表是存储有关各种服务器的信息的支持表。 表中的每条记录表示一台服务器。
+Servers 表是一个支持表，它存储有关各种服务器的信息。 表中的每条记录代表一台服务器。
 
 
 <table>
@@ -59,12 +59,12 @@ _**主题上次修改时间：** 2010-11-05_
 <tr class="odd">
 <td><p><strong>ServerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识此服务器的唯一号码。</p></td>
+<td><p>主</p></td>
+<td><p>标识此服务器的唯一编号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ServerFQDN</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar （256）</p></td>
 <td><p> </p></td>
 <td><p>服务器 FQDN。</p></td>
 </tr>

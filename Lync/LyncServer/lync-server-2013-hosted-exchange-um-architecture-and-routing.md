@@ -12,16 +12,16 @@ ms:contentKeyID: 48184122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0196026552d19f4338c1a2afa265b8a3e67eb77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3846e6b2a6817bb01b678f6ddb2c8d0ce7231ec1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739012"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41739012"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-03-26_
+_**上次修改的主题：** 2012-03-26_
 
-本节概述了内部部署和托管 Exchange UM 集成的体系结构，包括支持的模式、共享 SIP 空间和路由考虑事项。
+本节概述了本地部署和托管 Exchange UM 集成的体系结构，包括支持的模式、共享 SIP 空间和路由注意事项。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的托管 Exchange UM 集成体系结构](lync-server-2013-hosted-exchange-um-integration-architecture.md)
 

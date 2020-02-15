@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：制定备份和还原策略及计划
+title: Lync Server 2013：开发备份和还原策略和计划
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f4809b6a86312fc9dcc9527375db85dbcbb043
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d3c95873ad8b4e0852a4b5ae03f5857ba8e83fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762440"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045004"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="developing-a-backup-and-restoration-strategy-and-plan-for-lync-server-2013"></a>开发 Lync Server 2013 的备份和还原策略和计划
+# <a name="developing-a-backup-and-restoration-strategy-and-plan-for-lync-server-2013"></a>开发 Lync Server 2013 的备份和还原策略和规划
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762440"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-17_
+_**上次修改的主题：** 2013-02-17_
 
-Lync Server 备份和还原操作的有效性取决于你的备份和还原策略以及计划。 你应该建立一个用于备份和还原 Lync Server 的策略，该策略适用于你的组织的整体策略，以及用于备份数据和设置的全面、简明的计划，并且在发生中断时，是一种还原服务的计划。
+你的 Lync Server 备份和还原操作的有效性取决于你的备份和还原策略和计划。 您应该建立一个策略，用于备份和还原与组织的总体策略相适应的 Lync Server，以及用于备份数据和设置的全面、简明的计划，以及在发生中断时用于还原服务的计划。
 
-要获得最强健的前端池灾难恢复，请使用 Lync Server 2013 中引入的配对池灾难恢复拓扑。 有关详细信息，请参阅[在 Lync Server 2013 中规划高可用性和灾难恢复](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
+若要获取前端池的最强健的灾难恢复，请使用 Lync Server 2013 中引入的配对池灾难恢复拓扑。 有关详细信息，请参阅[Lync Server 2013 中的规划高可用性和灾难恢复](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [为 Lync Server 2013 建立备份和还原策略](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)
 

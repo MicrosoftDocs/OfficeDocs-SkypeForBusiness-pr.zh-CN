@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834952"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035234"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>为你的组织管理 Microsoft Teams 设置
 
@@ -60,6 +60,10 @@ ms.locfileid: "41834952"
 #### <a name="notifications-and-feeds"></a>通知和源
 
 可在此处控制是否在 Teams 的用户活动源中显示建议的源。 若要了解有关活动源的详细信息，请参阅[探究 Teams 中的活动源](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)。
+
+#### <a name="tagging"></a>标记
+
+用户可以使用标记与团队中的一部分人员进行通信。 可将标记添加到一个或多个团队成员。 添加标记后，任何人都可以在频道发布中的 @提及中使用该标记来仅与分配了该标记的人员进行通信。 使用这些设置可以控制允许添加标记的人员，以及如何在组织中使用标记。 若要了解详细信息，请参阅[管理 Teams 中的标记](manage-tags.md)。
 
 #### <a name="email-integration"></a>电子邮件集成
 
@@ -109,7 +113,7 @@ Microsoft Teams 范围目录搜索使用 Exchange 通讯簿策略 (APB) 允许�
 
 #### <a name="app-preferences"></a>应用首选项
 
-你可以在此处选择用户加入 Skype for Business 会议时使用的应用（Skype for Business 或 [Skype Meetings 应用](https://support.office.com/zh-CN/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)）。此设置与共存模式设置无关。
+你可以在此处选择用户加入 Skype for Business 会议时使用的应用（Skype for Business 或 [Skype Meetings 应用](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)）。此设置与共存模式设置无关。
 
 
 #### <a name="network-planner"></a>Network Planner
@@ -121,7 +125,7 @@ Network Planner 可帮助你确定和组织网络要求，以便在组织中连�
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>如何了解提供了哪些功能？
 
-有关 Teams 新功能的信息，请参阅 [Microsoft 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)。有关新功能和即将推出的功能的详细信息，请参阅 Teams [新增功能](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)页面和适用于 Teams 的[技术社区 Microsoft Teams 博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)。 
+有关 Teams 新功能的信息，请参阅 [Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)。有关新功能和即将推出的功能的详细信息，请参阅 Teams [新增功能](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US)页面和适用于 Teams 的[技术社区 Microsoft Teams 博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531)。 
 
 ## <a name="more-information"></a>更多信息
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：企业语音 cmdlet 疑难解答
+title: Lync Server 2013：企业语音 cmdlet 故障排除
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 499da8c727237a581af55e56aec3517a7a427e44
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ef88ac7a55480df050719fa1a85a056df8a02ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745032"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046505"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,68 +35,68 @@ ms.locfileid: "41745032"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-20_
+_**上次修改的主题：** 2012-06-20_
 
-将企业语音设置为 Microsoft Lync Server 2013 实现的一部分包括创建必须全部协同工作的路由、策略和规则，以确保传入和传出呼叫按预期完成。 Lync Server Management Shell 包含可用于测试连接和路径的 cmdlet，以及用于解决在实现期间可能出现的问题。
+将企业语音设置为 Microsoft Lync Server 2013 实施的一部分包括创建必须全部协同工作的路由、策略和规则，以确保传入和传出呼叫按预期完成。 Lync Server 命令行管理程序包含可用于测试连接和路径的 cmdlet，并可解决在实现过程中可能出现的问题。
 
 <div>
 
-## <a name="troubleshooting-enterprise-voice-cmdlets"></a>企业语音 Cmdlet 疑难解答
+## <a name="troubleshooting-enterprise-voice-cmdlets"></a>企业语音故障排除 Cmdlet
 
-以下 cmdlet 可用于测试和解决企业语音连接问题。
+以下 cmdlet 可用于测试企业语音连接并排除其中的故障。
 
-**企业语音 Cmdlet 疑难解答**
-
-  - <span></span>  
-    [CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398815(v=OCS.15))
+**企业语音故障排除 Cmdlet**
 
   - <span></span>  
-    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398804(v=OCS.15))
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398967(v=OCS.15))
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398804(v=OCS.15))
+
+  - <span></span>  
+    [CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412957(v=OCS.15))
+    [CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg412957(v=OCS.15))
 
   - <span></span>  
-    [新-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398961(v=OCS.15))
+    [新 CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398961(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412813(v=OCS.15))
+    [CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg412813(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398614(v=OCS.15))
+    [CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398614(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398260(v=OCS.15))
+    [Test-CsVoiceTestConfiguration](https://technet.microsoft.com/library/Gg398260(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Test-Grant-csdialplan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Test-Set-csvoicepolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoiceUser](https://technet.microsoft.com/en-us/library/Gg413013(v=OCS.15))
+    [Test-CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))
 
 </div>
 

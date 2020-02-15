@@ -12,16 +12,16 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6e037f2c69e963e8ca5963a71dabe80f9c75fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2adadafcbb5338f47aa13d25b3dfd39386935b30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744172"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41744172"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
 尽管 Office 自定义工具 (OCT) 是用于自定义安装的主要工具，但管理员可以使用 Config.xml 文件指定在 OCT 中不可用的其他安装说明。下列自定义只能通过 Config.xml 文件来进行：
 
@@ -49,13 +49,13 @@ _**主题上次修改时间：** 2012-10-02_
 
   - 无需安装 Office，将本地安装源 (LIS) 复制到用户的计算机上。
 
-  - 在安装中添加语言或从安装中删除语言。
+  - 在安装中添加或删除语言。
 
-我们建议你使用 Config.xml 文件配置 Lync 2013 静默安装。
+建议使用 Config.xml 文件配置 Lync 2013 无提示安装。
 
-默认情况下，存储在核心产品文件夹（例如，产品） \\中的 config.xml 文件。WW）指导安装程序安装该产品。 例如，以下文件夹中的 Config.xml 文件将安装 Lync 2013：
+默认情况下，存储在核心产品文件夹（例如 product） \\中的 config.xml 文件。WW）指导安装程序安装该产品。 例如，以下文件夹中的 Config.xml 文件将安装 Lync 2013：
 
-  - \\\\服务器\\共享\\Lync15\\Lync \\config.xml
+  - \\\\服务器\\共享\\Lync15\\（Lync \\）
 
 下表列出了用于 Lync 2013 安装的最常用的 Config.xml 元素。
 
@@ -69,17 +69,17 @@ _**主题上次修改时间：** 2012-10-02_
 <thead>
 <tr class="header">
 <th>元素</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>配置</p></td>
-<td><p>顶级元素（必需）。 包含 Product 属性，例如： Product = Lync</p></td>
+<td><p>Configuration</p></td>
+<td><p>顶级元素（必需）。包含 Product 属性，例如：Product=Lync</p></td>
 </tr>
 <tr class="even">
 <td><p>OptionState</p></td>
-<td><p>指定在安装期间如何处理特定产品功能。 使用以下属性来阻止企业连接服务的安装，其中包括干扰 Outlook 2010 的共享组件：</p>
+<td><p>指定在安装期间如何处理特定产品功能。 使用以下属性可阻止安装 Business Connectivity Services，其中包括干扰 Outlook 2010 的共享组件：</p>
 <ul>
 <li><p>Id =&quot;LOBiMain&quot;</p></li>
 <li><p>State =&quot;缺少&quot;</p></li>
@@ -87,7 +87,7 @@ _**主题上次修改时间：** 2012-10-02_
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Display</p></td>
+<td><p>显示</p></td>
 <td><p>安装程序向用户显示的 UI 级别。典型属性包括：</p>
 <ul>
 <li><p>CompletionNotice =&quot;是&quot; | &quot;No&quot;（默认值）</p></li>
@@ -98,7 +98,7 @@ _**主题上次修改时间：** 2012-10-02_
 <td><p>日志记录</p></td>
 <td><p>安装程序执行的日志记录类型的选项。典型属性包括：</p>
 <ul>
-<li><p>键入 =&quot;Off&quot; | &quot;标准&quot;（默认值） |&quot;详细&quot;</p></li>
+<li><p>键入 =&quot;Off&quot; | &quot;Standard&quot;（默认值） |&quot;详细&quot;</p></li>
 <li><p>Template=”filename.txt”（日志文件的名称）</p></li>
 </ul></td>
 </tr>
@@ -107,21 +107,21 @@ _**主题上次修改时间：** 2012-10-02_
 <td><p>指定 Windows Installer 属性的值。典型属性包括：</p>
 <ul>
 <li><p>设置 Id =&quot;Name&quot; （Windows Installer 属性的名称）</p></li>
-<li><p>Value =&quot;value&quot; （分配给属性的值）</p></li>
+<li><p>Value =&quot;value&quot; （要分配给属性的值）</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>DistributionPoint</p></td>
 <td><p>从该位置运行安装的网络安装点的完全限定路径。包括 Location 属性：</p>
 <ul>
-<li><p>Location=”path”</p></li>
+<li><p>Location = "path"</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-以下示例显示了 Lync 2013 的典型静默安装的 Config.xml 文件。
+下面的示例展示了 Lync 2013 典型安装的 Config.xml 文件。
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -141,7 +141,7 @@ _**主题上次修改时间：** 2012-10-02_
 
 2.  找到包含您要更改元素的行。
 
-3.  使用您需要的静默选项修改元素项。 请确保删除注释分隔符 "\<\!--" 和 "-\>"。 例如，使用以下语法：
+3.  使用您需要的静默选项修改元素项。 请务必删除注释分隔符 "\<\!--" 和 "--\>"。 例如，使用以下语法：
     
         < DistributionPoint Location="\\server\share\Lync15" />
 

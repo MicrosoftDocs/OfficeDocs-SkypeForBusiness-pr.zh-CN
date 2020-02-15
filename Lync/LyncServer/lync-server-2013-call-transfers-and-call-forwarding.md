@@ -12,16 +12,16 @@ ms:contentKeyID: 51803962
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 512deaf8af03f112e35443c25e46685c42a2f2e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46b16ad2faac58a5999b803c75d02e01da0da2dd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742952"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742952"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-03-09_
+_**上次修改的主题：** 2013-03-09_
 
-当涉及 PSTN 终结点时，基于位置的路由会分析 calle 终结点的位置以及呼叫将被转移或转发到的终结点（例如，传输/转发目标）。 基于位置的路由确定是否应根据两个终结点的位置来转移或转发呼叫。
+当涉及 PSTN 终结点时，基于位置的路由将分析 calle 终结点的位置和呼叫将被转移到的终结点（例如，传输/转发目标）。 基于位置的路由根据两个终结点的位置确定是否应转移或转发呼叫。
 
-下表说明了使用 PSTN 终结点的呼叫中 Lync 用户的方案，以及 Lync 用户将呼叫转移到另一个 Lync 用户。 根据 transferee 终结点的网络站点位置，基于位置的路由会影响呼叫转移或转发的路由。
+下表说明了使用 PSTN 终结点的呼叫中 Lync 用户的方案，并且 Lync 用户将呼叫转移到另一个 Lync 用户。 根据受让方的终结点的网络站点位置，基于位置的路由会影响呼叫转移或转发的路由。
 
-### <a name="initiating-call-transfer-or-forward"></a>发起呼叫转接
+### <a name="initiating-call-transfer-or-forward"></a>启动呼叫转移或转发
 
 <table>
 <colgroup>
@@ -52,29 +52,29 @@ _**主题上次修改时间：** 2013-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>发起呼叫转接的用户</th>
-<th>目标终结点位于与发起呼叫转接的用户相同的网络站点中</th>
-<th>目标终结点位于与发起呼叫转接的用户不同的网络站点中</th>
-<th>目标终结点位于未知的网络网站中，或者没有为基于位置的路由启用网络网站</th>
+<th>用户启动呼叫转接/转发</th>
+<th>目标终结点位于与启动呼叫转移或转发的用户相同的网络站点中</th>
+<th>目标终结点位于不同的网络站点中，以供用户初始化呼叫转移或转发</th>
+<th>目标终结点位于未知网络站点或未启用基于位置的路由的网络站点</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync 用户</p></td>
-<td><p>允许呼叫转接</p></td>
-<td><p>不允许呼叫转接</p></td>
-<td><p>不允许呼叫转接</p></td>
+<td><p>允许呼叫转接或转接</p></td>
+<td><p>不允许呼叫转接或转接</p></td>
+<td><p>不允许呼叫转接或转接</p></td>
 </tr>
 </tbody>
 </table>
 
   
 
-例如：使用 PSTN 终结点进行呼叫的 Lync 用户将呼叫转移到位于同一网络站点中的另一个 Lync 用户。 在这种情况下，允许进行呼叫转接。
+例如：具有 PSTN 终结点的呼叫中的 Lync 用户将呼叫转移到位于同一网络站点中的另一个 Lync 用户。 在这种情况下，允许呼叫转移。
 
-下表说明了使用另一个 Lync 用户的呼叫中 Lync 用户的方案，其中一个用户将呼叫转移到 PSTN 终结点。 根据呼叫转接至的用户的位置，表格详细介绍了基于位置的路由如何影响呼叫。
+下表说明了使用其他 Lync 用户的呼叫中 Lync 用户的方案，其中一个用户将呼叫转移到 PSTN 终结点。 根据将呼叫转接到的用户的位置，此表详细介绍了基于位置的路由对呼叫的影响。
 
-### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>呼叫转接至 PSTN 终结点
+### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>呼叫转移或转发到 PSTN 终结点
 
 <table>
 <colgroup>
@@ -85,24 +85,24 @@ _**主题上次修改时间：** 2013-03-09_
 </colgroup>
 <thead>
 <tr class="header">
-<th>呼叫转接终结点目标</th>
-<th>同一网络网站中的 Lync 用户</th>
+<th>呼叫转接/转发终结点目标</th>
+<th>同一网络站点中的 Lync 用户</th>
 <th>不同网络站点中的 Lync 用户</th>
-<th>在未知网络网站或网络网站中的一个或两个 Lync 用户未启用基于位置的路由</th>
+<th>未知网络站点中的一个或两个 Lync 用户或未启用基于位置的路由的网络站点</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>PSTN 终结点</p></td>
-<td><p>转接用户的站点语音路由策略允许呼叫转接</p></td>
-<td><p>转接用户的站点语音路由策略允许呼叫转接</p></td>
-<td><p>转接用户的语音策略仅允许通过未启用基于位置的路由的中继进行呼叫转接</p></td>
+<td><p>转接用户的站点语音路由策略允许呼叫转接或转接</p></td>
+<td><p>转接用户的站点语音路由策略允许呼叫转接或转接</p></td>
+<td><p>转接用户的语音策略仅允许通过未启用基于位置的路由的中继进行呼叫转接或转移</p></td>
 </tr>
 </tbody>
 </table>
 
   
-例如：与同一网络站点中的另一个 Lync 用户进行的呼叫中的 Lync 用户将呼叫转移到 PSTN 终结点，并允许呼叫转移。
+例如：呼叫中具有同一网络站点中另一个 Lync 用户的 Lync 用户将呼叫转移到 PSTN 终结点，并允许呼叫转移。
 
 <div>
 

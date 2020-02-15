@@ -12,16 +12,16 @@ ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56ea95d0ba54a34eaa315ff345efb45cd563700c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32522f0818b95e829bbb643dea8749e2f91d1f31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747022"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41747022"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-PurgeSettings 表包含指定是否（和何时）过期的呼叫详细记录将从 CDR 数据库中自动删除的信息。 请注意，通过运行以下命令，还可以从 Microsoft Lync Server 2013 管理程序外壳中获取清除相关信息：
+PurgeSettings 表包括用于指定是否（以及何时）自动从 CDR 数据库中删除过时的呼叫详细信息记录的信息。 请注意，还可以通过运行以下命令，在 Microsoft Lync Server 2013 命令行管理程序中获取清除相关信息：
 
     Get-CsCdrConfiguration
 
-管理员应将 PurgeSettings 表视为只读：仅应使用[新的-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)或[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet 进行对呼叫详细信息清除设置的更改。
+管理员应将 PurgeSettings 表视为只读：对呼叫详细信息清除设置所做的更改只应使用[新的-set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCdrConfiguration)或[set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet 进行。
 
 此表是在 Microsoft Lync Server 2013 中引入的。
 
@@ -63,34 +63,34 @@ PurgeSettings 表包含指定是否（和何时）过期的呼叫详细记录将
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>标识号</strong></p></td>
+<td><p><strong>Id</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>CDR 清除设置集合的唯一标识符。</p></td>
+<td><p>主</p></td>
+<td><p>CDR 清除设置集的唯一标识符。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EnablePurge</strong></p></td>
-<td><p>bit</p></td>
+<td><p>位</p></td>
 <td></td>
-<td><p>当设置为 True （1）时，Microsoft Lync Server 2013 将定期从 CDR 数据库中清除过时的记录。 将在 PurgeHour 设置指定的圣多美中每天进行清除。 如果设置为 False （0），将不会从数据库中自动清除记录。 默认值为 True。</p></td>
+<td><p>当设置为 True （1）时，Microsoft Lync Server 2013 将定期从 CDR 数据库中清除过期的记录。 将每天在 PurgeHour 设置所指定的时间执行清除。 如果设置为 False (0)，则不会从数据库中自动清除记录。 默认值为 True。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>KeepCallDetailForDays</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>指定将从数据库中清除的 CDR 记录的保留时间（以天为单位）：如果启用清除，则早于此值的 CDR 记录将从数据库中删除。 默认值为60天。</p></td>
+<td><p>指定将从数据库中清除的 CDR 记录的时限（以天为单位）：如果启用清除，则将从数据库中清除时限超过此值的 CDR 记录。默认值为 60 天。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>KeepErrorReportForDays</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>指定将从数据库中清除的错误报告记录的保留时间（以天为单位）：如果启用清除，则早于此值的错误报告记录将从数据库中删除。 默认值为60天。</p></td>
+<td><p>指定将从数据库中清除的错误报告记录的时限（以天为单位）：如果启用清除，则将从数据库中清除时限超过此值的错误报告记录。默认值为 60 天。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PurgeHour</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>指定每天执行数据库清除的本地时间。 该时间使用 24 小时制格式指定，0 表示午夜（晚上 12:00），23 表示晚上 11:00。 请注意，你只能指定一天中的小时数：值10（表示 10:00 AM）是允许的值，但不允许值 10.5 10:30 （表示 10:30 AM）。 默认值为 2 (2:00 AM)。</p></td>
+<td><p>指定将执行数据库清除的本地时间。时间以 24 小时制的形式指定，0 表示午夜 (12:00 AM)，23 表示 11:00 PM。请注意，您只能指定小时时间：允许值 10（指示 10:00 AM），但不允许值 10.5（指示 10:30 AM）。默认值为 2 (2:00 AM)。</p></td>
 </tr>
 </tbody>
 </table>

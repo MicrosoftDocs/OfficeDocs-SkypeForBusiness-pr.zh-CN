@@ -12,20 +12,20 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b924741e6dc733f167368f88faa24e6d56b362e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 723877737bd358ab4b364191c4e799bcc73eddc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756446"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中的组呼叫挑选支持的客户端
+# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中的组呼叫应答支持的客户端
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756446"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-12_
+_**上次修改的主题：** 2013-02-12_
 
-以下任何客户端均可用于应答群组呼叫装货成员的呼叫：
+可以使用下列任一客户端应答对组呼叫应答成员的呼叫：
 
   - Lync 2013
 
@@ -49,13 +49,13 @@ _**主题上次修改时间：** 2013-02-12_
 
 
 > [!NOTE]  
-> 用户可以使用这些客户端中的任何一个向组呼叫成员应答呼叫，但用户必须驻留在 lync server 2013 池中，其中包含 Lync Server 2013 的累积更新：2月2013。
+> 用户可以使用这些客户端中的任何客户端应答对组呼叫应答成员的呼叫，但用户必须驻留在 lync Server 2013 累积更新的 Lync Server 2013 池中：2月2013。
 
 
 
 </div>
 
-在 Lync Server 2013 的累积更新中：2月2013，不支持以下客户端和设备接听组呼叫的呼叫成员：
+在 Lync Server 2013 的累积更新中：2月2013，不支持以下客户端和设备接听对组呼叫装货成员的呼叫：
 
   - Lync Mobile
 
@@ -65,7 +65,7 @@ _**主题上次修改时间：** 2013-02-12_
 
   - 模拟电话
 
-  - 具有公用电话交换网 (PSTN) 号码的电话
+  - 具有公共交换电话网络（PSTN）号码的电话
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：会议摘要子报表
+title: Lync Server 2013：会议摘要子报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2537cbe959639baee6f0f986b3faea1ebd79b5a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2c31c614298112b91874882df1e4945845b74bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756986"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-summary-subreport-in-lync-server-2013"></a>Lync Server 2013 中的 "会议摘要" 子报表
+# <a name="conference-summary-subreport-in-lync-server-2013"></a>Lync Server 2013 中的会议摘要子报告
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41756986"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-06_
+_**上次修改的主题：** 2012-06-06_
 
 会议摘要子报告提供了失败的会议会话的总体概述。这些失败的会话按以下会话类型进一步细分：焦点会话和 MCU 会话。
 
@@ -60,28 +60,28 @@ _**主题上次修改时间：** 2012-06-06_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>从</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>到</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>池</strong></p></td>
-<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“<strong>[所有]</strong>”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”<strong></strong>查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +107,7 @@ _**主题上次修改时间：** 2012-06-06_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -139,7 +139,8 @@ _**主题上次修改时间：** 2012-06-06_
 <tr class="even">
 <td><p>MCU 会话</p></td>
 <td><p>否</p></td>
-<td><p>MCU 会话总数。</p></td>
+<td><p>MCU 会话总数。
+</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MCU 故障率</strong></p></td>

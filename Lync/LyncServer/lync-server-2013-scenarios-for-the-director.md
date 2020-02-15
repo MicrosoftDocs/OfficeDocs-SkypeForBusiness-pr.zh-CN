@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：控制器方案
+title: Lync Server 2013：控制器的方案
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac7c5a262f5323f28ff089766cab1f4d65e30757
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23b05a44e139c59dcb0656c2339d67a0e529e59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732612"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732612"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-22_
+_**上次修改的主题：** 2012-10-22_
 
-Director 是运行 Microsoft Lync Server 2013 通信软件的服务器，可对用户请求进行身份验证，但不会在家任何用户帐户。 Director 还托管类似于前端服务器的 web 服务，并将验证 web 票证请求并提供其他服务。
+Director 是一台运行 Microsoft Lync Server 2013 通信软件的服务器，可对用户请求进行身份验证，但不会驻留任何用户帐户。 该控制器还承载类似于前端服务器的 web 服务，并将对 web 票证请求进行身份验证并提供其他服务。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果你部署控制器，则必须通过反向代理以及前端服务器的 web 服务从外部发布 Director web 服务。 下面的主题介绍了可能的控制器拓扑的规划流程。
+> 如果您部署控制器，则必须通过反向代理以及前端服务器的 web 服务在外部发布控制器 web 服务。 下面的主题介绍了可能的控制器拓扑的规划过程。
 
 
 
@@ -51,17 +51,17 @@ Director 是运行 Microsoft Lync Server 2013 通信软件的服务器，可对�
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的控制器概述](lync-server-2013-overview-of-the-director.md)
 
-  - [Lync Server 2013 中控制器所需的组件](lync-server-2013-components-required-for-the-director.md)
+  - [Lync Server 2013 中的控制器所需的组件](lync-server-2013-components-required-for-the-director.md)
 
-  - [Lync Server 2013 中控制器的软硬件要求](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
+  - [Lync Server 2013 中的控制器的硬件和软件要求](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
 
-  - [Lync Server 2013 中的单一控制器](lync-server-2013-single-director.md)
+  - [Lync Server 2013 中的单个控制器](lync-server-2013-single-director.md)
 
-  - [Lync Server 2013 中扩展的控制器池](lync-server-2013-scaled-director-pool.md)
+  - [Lync Server 2013 中的扩展控制器池](lync-server-2013-scaled-director-pool.md)
 
 </div>
 

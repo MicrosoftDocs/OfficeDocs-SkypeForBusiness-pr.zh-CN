@@ -12,16 +12,16 @@ ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 502193873b4dd80ae7d8698a98ecaad2df8a5b52
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 869ee1cf5e37225e662cd8a2f9f4656dce169697
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727772"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727772"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-使用此部分中的过程查看受信任的应用程序列表，或查看 Lync Server 2013 中有关受信任的应用程序的信息。 可以在 Lync Server 2013 控制面板或 Lync Server 命令行管理程序中执行这些过程。
+使用本节中的过程可查看受信任的应用程序列表或查看有关 Lync Server 2013 中的受信任应用程序的信息。 您可以在 Lync Server 2013 控制面板或 Lync Server 命令行管理程序中执行这些过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看受信任的应用程序列表](lync-server-2013-view-a-list-of-trusted-applications.md)
 

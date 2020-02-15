@@ -12,16 +12,16 @@ ms:contentKeyID: 48185494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccd2dd65eca2229632c8811d1d57e52976778650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aee20ccc6ecee75bc5eb9291a50dc26f39cafaa0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039775"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732052"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-存档的基础结构要求与 Lync Server 部署的基础结构要求相同，但存储除外。 不需要额外的基础结构设置，除非使用 Exchange 2013 存储、存档数据库或两者都设置存储。 有关 Lync Server 2013 的基础结构要求的详细信息，请参阅在计划文档中[确定 Lync server 2013 的基础结构要求](lync-server-2013-determining-your-infrastructure-requirements.md)和在部署文档中[准备 lync server 2013 的基础结构和系统](lync-server-2013-preparing-the-infrastructure-and-systems.md)。 有关存档的存储要求的详细信息，请参阅规划文档中的 "[在 lync server 2013 中存档的技术要求](lync-server-2013-technical-requirements-for-archiving.md)"、在部署文档的[lync Server 2013 中设置用于存档的系统平台](lync-server-2013-setting-up-system-platforms-for-archiving.md)以及在部署文档的[lync server 2013 中设置存储](lync-server-2013-setting-up-storage-for-archiving.md)。
+存档的基础结构要求与 Lync Server 部署的基础结构要求相同，但存储除外。 除了使用 Exchange 2013 存储和/或存档数据库设置存储之外，无需额外的基础结构设置。 有关 Lync Server 2013 的基础结构要求的详细信息，请参阅部署文档中的在规划文档中[确定 Lync server 2013 的基础结构要求](lync-server-2013-determining-your-infrastructure-requirements.md)和[准备 lync server 2013](lync-server-2013-preparing-the-infrastructure-and-systems.md)的基础结构和系统。 有关存档存储要求的详细信息，请参阅在规划文档中进行[2013 存档的技术要求](lync-server-2013-technical-requirements-for-archiving.md)，在部署文档中[设置 lync server 2013](lync-server-2013-setting-up-system-platforms-for-archiving.md)中的存档系统平台，以及在部署文档的[lync server 2013 中设置存储以进行](lync-server-2013-setting-up-storage-for-archiving.md)存档。
 
 </div>
 

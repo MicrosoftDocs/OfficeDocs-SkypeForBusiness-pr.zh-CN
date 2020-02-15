@@ -12,16 +12,16 @@ ms:contentKeyID: 48185505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 416da390f277dfc7179a45e0b1dc989b240ab394
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32185d1f6124109bd957b0af4440ee054e872f54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757156"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757156"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
 创建新的持久聊天服务器聊天室
 
@@ -64,7 +64,7 @@ _**主题上次修改时间：** 2013-02-21_
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell：成员、经理和演示者可以同时进行设置。 它们都应是主机类别的 AllowedMembers 减去 DeniedMembers 的子集。 类型为 normal 的聊天室不能包含演示者。
+Windows PowerShell：可以同时设置成员、管理者和演示者。 他们都应为主机类别的 AllowedMembers 减去 DeniedMembers 所得到的子集的一部分。 type=normal 的聊天室无法包含演示者。
 
 <div>
 
@@ -74,7 +74,7 @@ Windows PowerShell：成员、经理和演示者可以同时进行设置。 它�
 
     New-CsPersistentChatRoom -Name <String> [-PersistentChatPoolFqdn <String>]-Category <String> [-Description <String>] [-Disabled <Switch Parameter>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Switch Parameter>]
 
-设置会议室
+设置聊天室
 
     Set-CsPersistentChatRoom -Identity <String> [-Name <String>] [-Category <String>] [-Description <String>] [-Disabled <boolean>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Enum>] [-Members <PSListModifier<String>>] [-Managers <PSListModifier<String>>] [-Presenters <PSListModifier<String>>] [-Force < Switch Parameter >] [-Confirm <Switch Parameter>][-WhatIf <Switch Parameter>]
 
@@ -82,17 +82,17 @@ Windows PowerShell：成员、经理和演示者可以同时进行设置。 它�
 
     Get-CsPersistentChatRoom -Identity <String>
 
-或者
+或
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-其中-筛选器仅支持名称和说明，并可帮助你查找名称/描述与关键字字符串匹配的聊天室。 PoolFqdn 在给定的持久聊天服务器池中进行搜索。
+其中 –filter 仅支持名称和说明，并可帮助您查找其名称/说明与关键字字符串匹配的聊天室。 PoolFqdn 在给定的持久聊天服务器池中进行搜索。
 
-清除聊天室并从聊天室中清除消息
+清除聊天室并清除聊天室中的消息
 
     Clear-CsPersistentChatRoom [-Identity] <string> -EndDate <DateTime> [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-或者
+或
 
     Clear-CsPersistentChatRoom [-Instance] <ChatRoomObject> -EndDate <DateTime> [-WhatIf] [-Confirm] [<CommonParameters>]
 
@@ -100,7 +100,7 @@ Windows PowerShell：成员、经理和演示者可以同时进行设置。 它�
 
     Remove-CsPersistentChatRoom [-Identity] <string> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-或者
+或
 
     Remove-CsPersistentChatRoom [-Instance] <ChatRoomObject> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 517d5203efa8c50e66e849b89623cad04770e02a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5056fd4c9c90accd7414936c68d43a6a023d3a13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732242"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732242"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-安装边缘服务器时，需要为内部和外部接口请求、安装和分配所需的证书。
+安装边缘服务器时，需要为内部和外部接口请求、安装并分配所需证书。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
   - [在 Lync Server 2013 中为内部边缘接口设置证书](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
 

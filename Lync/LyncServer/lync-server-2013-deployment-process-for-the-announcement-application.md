@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：公告应用程序的部署过程
+title: Lync Server 2013：通知应用程序的部署过程
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb56f197a32403d1207cf0a15d47e0459fc41bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55e0c65bfbbed55a8d7f9c3be4f7a586581c2307
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762570"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042249"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 中的公告应用程序的部署过程
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 中的通知应用程序的部署过程
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762570"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
-本部分概述了部署公告应用程序所涉及的步骤。 您必须先部署企业语音，然后才能配置公告。 部署 "企业语音" 时，安装并启用公告应用程序所需的组件。
+本节概述了部署通知应用程序所涉及的步骤。 您必须先部署企业语音，然后才能配置通知。 当您部署企业语音时，会安装并启用通知应用程序所需的组件。
 
 ### <a name="announcement-deployment-process"></a>通知部署过程
 
@@ -68,14 +68,14 @@ _**主题上次修改时间：** 2012-09-12_
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p>
 <p>CsViewOnlyAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-an-announcement.md">在 Lync Server 2013 中创建公告</a></p>
+<td><p><a href="lync-server-2013-create-an-announcement.md">在 Lync Server 2013 中创建通知</a></p>
 <p><a href="lync-server-2013-configure-the-unassigned-number-table.md">在 Lync Server 2013 中配置未分配号码表</a></p></td>
 </tr>
 <tr class="even">
 <td><p>验证通知部署</p></td>
 <td><p>通过侦听通知来进行测试以验证配置是否按预期工作。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">可选在 Lync Server 2013 中验证公告部署</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">Optional在 Lync Server 2013 中验证通知部署</a></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48706005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88ca98ade04110aa2c6543e7f368d0fcd9b3e627
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fec264c0abf8b0482e451b47a0c419ffc206253d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722363"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046395"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41722363"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
-若要创建新类别，请参阅部署文档中[Lync Server 2013](lync-server-2013-configure-categories.md)中的 "配置类别"。 如果您是持久的聊天管理员，则可以通过使用 Lync Server 控制面板或 Windows PowerShell cmdlet 创建类别。
+若要创建新类别，请参阅部署文档中的在[Lync Server 2013 中配置类别](lync-server-2013-configure-categories.md)。 如果您是持久聊天管理员，则可以使用 Lync Server 控制面板或 Windows PowerShell cmdlet 创建类别。
 
 </div>
 

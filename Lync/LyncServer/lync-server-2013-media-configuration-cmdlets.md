@@ -12,16 +12,16 @@ ms:contentKeyID: 48183864
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f676730eac8ec6959d10ad2dd039f2aa124a0a65
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bcf2a65fdb435057c9e6e436ed35502a0c63da5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761938"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41761938"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-03-21_
+_**上次修改的主题：** 2012-03-21_
 
-与媒体配置相关的 cmdlet 允许你指定支持的加密级别和最大的视频分辨率。
+通过与媒体配置相关的 cmdlet，您可以指定诸如支持的加密级别和允许的最大视频分辨率等信息。
 
 <div>
 
@@ -48,16 +48,16 @@ _**主题上次修改时间：** 2012-03-21_
 **媒体配置**
 
   - <span></span>  
-    [CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398128(v=OCS.15))
+    [Set-csmediaconfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))
 
   - <span></span>  
-    [新-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg425881(v=OCS.15))
+    [新 Set-csmediaconfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398705(v=OCS.15))
+    [Set-csmediaconfiguration](https://technet.microsoft.com/library/Gg398705(v=OCS.15))
 
   - <span></span>  
-    [Set-CsMediaConfiguration](https://technet.microsoft.com/en-us/library/Gg398580(v=OCS.15))
+    [Set-csmediaconfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))
 
 </div>
 

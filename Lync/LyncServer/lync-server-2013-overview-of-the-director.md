@@ -12,16 +12,16 @@ ms:contentKeyID: 48185393
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51ee90020be9d23384c5ed90ca1f8095156eaf56
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55875699e2411527d9202565ae5d31cc72e776f7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755436"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046115"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755436"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-Director 是运行 Lync Server 2013 的服务器，用于验证用户请求，但不会在家任何用户帐户。 您也可以在以下两种方案中部署控制器：
+控制器是运行 Lync Server 2013 的服务器，用于验证用户请求，但不会驻留任何用户帐户。 您可以选择在以下两种方案中部署控制器：
 
-  - 如果通过部署边缘服务器启用外部用户访问，则还应部署 Director。 在此方案中，控制器对外部用户进行身份验证，然后将其流量传递到内部服务器。 当使用 Director 对外部用户进行身份验证时，它将从执行这些用户的身份验证的开销中免除前端池服务器。 它还有助于将内部前端池与恶意流量（如拒绝服务攻击）隔离。 如果网络被此类攻击中的无效外部通信所淹没，则该流量将在 Director 处结束。
+  - 如果通过部署边缘服务器启用外部用户访问，则还应部署控制器。 在这种情况下，控制器对外部用户进行身份验证，然后将其流量传递到内部服务器。 当使用控制器对外部用户进行身份验证时，它将从对这些用户执行身份验证的开销中缓解前端池服务器。 它还有助于将内部前端池与恶意流量（如拒绝服务攻击）隔离。 如果网络受到此类攻击中无效外部流量的攻击，则这些流量将终止于控制器。
 
-  - 如果在中心网站上部署多个前端池，则通过向该网站添加 Director，可以简化身份验证请求并提高性能。 在此方案中，所有请求首先转到 Director，然后将其路由到正确的前端池。
+  - 如果在中央站点部署多个前端池，通过向该站点添加控制器，可以简化身份验证请求并提高性能。 在这种情况下，所有请求都首先转到控制器，然后再将它们路由到正确的前端池。
 
 </div>
 

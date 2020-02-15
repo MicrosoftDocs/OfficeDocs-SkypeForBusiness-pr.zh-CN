@@ -12,16 +12,16 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0e8fe5aaac47ce98cfae1376e83cdea89a4a1af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740792"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41740792"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-06-06_
+_**上次修改的主题：** 2016-06-06_
 
-在 Lync Server 2013 中启用统一联系人存储不需要任何拓扑设置。 为用户启用统一联系人存储需要以下各项：
+在 Lync Server 2013 中启用统一的联系人存储不需要任何拓扑设置。 为用户启用统一的联系人存储库需要满足以下条件：
 
   - 启用统一的联系人存储库策略（将启用默认值）。
 
-  - 用户至少以 Lync 2013 登录。
+  - 用户至少使用 Lync 2013 登录一次。
 
-迁移用户的联系人后，当用户使用 Lync 2013 登录时，该用户可以在 Lync 2013、Outlook 2013 或 Outlook Web Access 中访问和管理其 Lync 联系人。 用户不必登录 Lync 即可从 Outlook 或 Outlook Web Access 管理其联系人。
+迁移用户的联系人后，当用户使用 Lync 2013 登录时，用户可以在 lync 2013、Outlook 2013 或 Outlook Web Access 中访问和管理其 Lync 联系人。 用户不必登录到 Lync 即可从 Outlook 或 Outlook Web Access 管理其联系人。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 如果用户在迁移后从 Lync 2010 登录，则联系人和组可用且最新，但用户无法管理（即添加、删除、移动、标记、取消标记或修改）这些联系人。
+> 如果用户在迁移后从 Lync 2010 登录，则 "联系人" 和 "组" 可用且处于最新状态，但用户无法管理（即，添加、删除、移动、标记、untag 或修改）这些联系人。
 
 
 
@@ -57,13 +57,13 @@ _**主题上次修改时间：** 2016-06-06_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中为用户启用统一联系人存储](lync-server-2013-enable-users-for-unified-contact-store.md)
 
   - [在 Lync Server 2013 中将用户迁移到统一联系人存储](lync-server-2013-migrate-users-to-unified-contact-store.md)
 
-  - [在 Lync Server 2013 中回滚已迁移用户](lync-server-2013-roll-back-migrated-users.md)
+  - [在 Lync Server 2013 中回滚已迁移的用户](lync-server-2013-roll-back-migrated-users.md)
 
 </div>
 

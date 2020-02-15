@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：删除经过身份验证的用户的权限
+title: Lync Server 2013：删除经过身份验证的用户权限
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63b9761f96156fdc4dea124d4438cdb8685add26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd54da7201889e9ca2ab8d2c40a84ad082fa1686
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722597"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>在 Lync Server 2013 中删除经过身份验证的用户的权限
+# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>在 Lync Server 2013 中删除经过身份验证的用户权限
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41722597"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-在锁定的活动目录环境中，已验证的用户访问控制条目（Ace）将从默认 Active Directory 容器（包括用户、配置或系统）以及用户和计算机的组织单位（Ou）中删除。存储对象。 删除经过身份验证的用户 Ace 可防止对 Active Directory 信息的读取访问权限。 但是，删除 Ace 会为 Lync Server 2013 创建问题，因为它依赖于这些容器的读取权限来允许用户运行域准备。
+在锁定的 Active Directory 环境中，从默认的 Active Directory 容器中删除经过身份验证的用户访问控制项（Ace），包括用户、配置或系统以及用户和计算机的组织单位（Ou）。存储对象。 删除经过身份验证的用户 Ace 可防止对 Active Directory 信息进行读取访问。 但是，删除 Ace 会为 Lync Server 2013 创建问题，因为它依赖于这些容器的读取权限以允许用户运行域准备。
 
-在这种情况下，域管理员组中的成员身份是运行域准备、服务器激活和池创建所必需的，不再授予对默认容器中存储的 Active Directory 信息的读取访问权限。 必须在林根域中的各种容器上手动授予读取访问权限，以检查必备的林准备过程是否已完成。
+在这种情况下，域管理员组中的成员身份（若要运行域准备、服务器激活和池创建）不再授予对存储在默认容器中的 Active Directory 信息的读取权限。 您必须手动授予对林根域中各个容器的读取访问权限，以检查先决条件林准备过程是否已完成。
 
 若要使用户能够在任何非林根域上运行域准备、服务器激活或池创建，您可以选择以下选项：
 
-  - 使用企业管理员组成员的帐户运行域准备。
+  - 使用作为 Enterprise Admins 组成员的帐户来运行域准备。
 
-  - 使用属于域管理员组成员的帐户，并授予此帐户对林根域中的以下每个容器的读取访问权限：
+  - 使用属于 Domain Admins 组成员的帐户，并为此帐户授予对林根域中以下每个容器的读取访问权限：
     
       - 域
     
       - 配置或系统
 
-如果您不想使用企业管理员组成员的帐户运行域准备或其他设置任务，请明确授予要对林根中的相关容器使用 "读取" 权限的帐户。
+如果不想使用作为 Enterprise Admins 组成员的帐户来运行域准备或其他安装任务，请明确授予要在林根的相关容器上使用 "读取" 访问权限的帐户。
 
 <div>
 
 ## <a name="to-give-users-read-access-permissions-on-containers-in-the-forest-root-domain"></a>向用户授予对林根域中容器的读取访问权限
 
-1.  使用作为林根域的域管理员组成员的帐户登录加入林根域的计算机。
+1.  使用作为林根域的 Domain Admins 组成员的帐户登录加入到林根域的计算机。
 
 2.  为林根域运行 adsiedit。
     
-    如果从域、配置或系统容器中删除了经过身份验证的用户 Ace，则必须向容器授予只读权限，如以下步骤中所述。
+    如果从域、配置或系统容器中删除了经过身份验证的用户 Ace，则必须向容器授予只读权限，如以下步骤所述。
 
 3.  右键单击容器，然后单击 "**属性**"。
 
-4.  单击 "**安全**" 选项卡。
+4.  单击“安全性”**** 选项卡。
 
 5.  单击“**高级**”。
 
-6.  在 "**权限**" 选项卡上，单击 "**添加**"。
+6.  在“**权限**”选项卡上，单击“**添加**”。
 
 7.  使用以下格式键入接收权限的用户或组的名称： `domain\account name`，然后单击 **"确定"**。
 
 8.  在 "**对象**" 选项卡上的 "**应用**于" 中，单击 "**仅此对象**"。
 
-9.  在 "**权限**" 中，通过单击 "**允许**" 列： "**列表内容**"、"**读取所有属性**" 和 "**读取权限**" 来选择以下允许 ace。
+9.  在 "**权限**" 中，通过单击 "**允许**列：**列表内容**"、"**读取所有属性**" 和 "**读取权限**"，选择以下允许 ace。
 
-10. 单击 **"确定"** 两次。
+10. 单击“**确定**”两次。
 
 11. 对步骤2中列出的任何相关容器重复这些步骤。
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：配置自动发现的支持
+title: Lync Server 2013：配置自动发现支持
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 779929d270fa4ae2f8eec59a954c2273ff61b44f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79511202ddc9e413e313d12f881e7079f088c473
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734802"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41734802"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-01-21_
+_**上次修改的主题：** 2013-01-21_
 
-Lync Server web 服务**自动发现服务**首先在 Lync Server 2010 累积更新中显示：11月2011。 此更新附带了 Lync 移动客户端的初始版本。 自动发现服务公开了移动服务，称为 Mcx 服务。
+Lync Server web services**自动发现服务**首先显示在 Lync Server 2010 累积更新中：11月2011。 此更新伴随 Lync 移动客户端的初始版本。 自动发现服务公开了移动服务，称为 Mcx 服务。
 
-自动发现服务用作所有客户端请求提供哪些服务和功能的相关信息的单个位置，以及如何联系 sevices –通过完全限定的域名或 web 统一资源定位器参考。 自动发现公开了许多功能，并且每个客户端将基于客户端可以使用的功能发出请求。 例如，桌面 Lync 2013 客户端将使用 autodiscvoer 确定外部 web 服务，但不会使用移动（Mcx）服务。 若要正确定义和启用客户端以使用它们可用的功能，则应定义允许客户有效查找和使用自动发现条目的方案。 若要使用 autodoscover，你的部署要求反向代理发布 Lync Server web 服务、DNS 记录配置为解析 Lync Server 自动发现服务和 Lync Server web 服务的 DNS 查询以及证书服务已针对你的特定方案正确配置。
+自动发现服务充当所有客户端的单个位置，以请求提供哪些服务和功能可用的信息，以及如何通过完全限定的域名或 web 统一资源定位器引用来联系 sevices –。 自动发现将公开许多功能，每个客户端将根据客户端可以使用的功能发出请求。 例如，桌面 Lync 2013 客户端将使用 autodiscvoer 来确定外部 web 服务，但不会使用移动（Mcx）服务。 若要正确定义和启用客户端以使用其可用的功能，则应定义允许客户端有效查找和使用自动发现项的方案。 若要使用 autodoscover，您的部署要求反向代理发布 Lync Server web 服务，并将 DNS 记录配置为解析 Lync Server 自动发现服务和 Lync Server web 服务的 DNS 查询，以及该证书服务为您的特定方案正确配置了。
 
 <div>
 
@@ -51,19 +51,19 @@ Lync Server web 服务**自动发现服务**首先在 Lync Server 2010 累积更
 
 </div>
 
-以下信息和表根据方案定义需要实现哪些配置（如果有）才能提供自动发现服务的完整和有效使用。 以下主题中的信息特定于 Microsoft Lync Server 2013。 如果你正在寻找有关如何规划 Lync Server 2010 的移动的指南，请参阅[http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113)。 若要部署 Lync Server 2010 的移动版，请参阅[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
+下面的信息和表根据应用场景定义需要实现哪些配置（如果有）才能提供自动发现服务的完整和有效使用。 以下主题中的信息特定于 Microsoft Lync Server 2013。 如果你正在寻找有关如何规划 Lync Server 2010 移动性的指南，请参阅[http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113)。 若要部署 Lync Server 2010 的移动功能，请参阅[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中配置自动发现的 DNS](lync-server-2013-configuring-dns-for-autodiscover.md)
+  - [在 Lync Server 2013 中配置用于自动发现的 DNS](lync-server-2013-configuring-dns-for-autodiscover.md)
 
   - [在 Lync Server 2013 中配置自动发现的证书](lync-server-2013-configuring-certificates-for-autodiscover.md)
 
-  - [在 Lync Server 2013 中配置自动发现的反向代理](lync-server-2013-configuring-a-reverse-proxy-for-autodiscover.md)
+  - [在 Lync Server 2013 中为自动发现配置反向代理](lync-server-2013-configuring-a-reverse-proxy-for-autodiscover.md)
 
-  - [在 Lync Server 2013 中为混合部署配置自动发现](lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md)
+  - [在 Lync Server 2013 中配置自动发现以实现混合部署](lync-server-2013-configuring-autodiscover-for-hybrid-deployments.md)
 
 </div>
 

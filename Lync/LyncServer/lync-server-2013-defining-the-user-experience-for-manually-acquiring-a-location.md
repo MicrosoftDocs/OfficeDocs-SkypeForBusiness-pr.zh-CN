@@ -12,16 +12,16 @@ ms:contentKeyID: 48185435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b5913547ab7d5030ca40070de36b4deb1f6a89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56cb653b1058bd73cf57842d77b734a9e96eaf10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728322"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045875"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,16 +35,16 @@ ms.locfileid: "41728322"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-03_
+_**上次修改的主题：** 2012-10-03_
 
 如果某个客户端位于网络外部或未定义的子网中，则用户可手动输入一个位置。但在紧急呼叫期间，呼叫将首先路由到国家/地区 E9-1-1 紧急呼叫响应中心 (ECRC) 调度程序，然后再路由到公共安全应答点 (PSAP)。ECRC 将口头询问呼叫者的位置，然后根据提供的信息将呼叫转接给相应的 PSAP。
 
-  - **如果用户不是位置信息服务自动提供的位置，是否应提示用户输入一个位置？**  
+  - **如果位置信息服务未自动提供某个位置，是否应提示用户输入位置？**  
     例如，如果客户端位于未定义子网中、家中、酒店中或网络外的任何其他地方，是否应要求用户输入位置？
     
-    可以在位置策略中配置“**所需位置**”设置，从而定义客户端行为。将该值设为“否”表示不会提示用户输入位置。将该值设为“是”表示将提示用户输入位置，但可以消除提示。将该值设为“免责声明”表示将提示用户输入位置，并在用户试图消除提示时显示免责声明。在所有情况下，用户均可以像往常一样继续使用客户端。
+    可以在位置策略中配置“所需位置”**** 设置，从而定义客户端行为。将该值设为“否”表示不会提示用户输入位置。将该值设为“是”表示将提示用户输入位置，但可以消除提示。将该值设为“免责声明”表示将提示用户输入位置，并在用户试图消除提示时显示免责声明。在所有情况下，用户均可以像往常一样继续使用客户端。
 
-当用户手动输入一个位置时，会将该位置映射到客户端网络的默认网关的 MAC 地址，并将其存储到位于客户端上的每用户表中。 当用户返回到任何以前存储的位置时，Lync 客户端会自动将自己设置到该位置。
+当用户手动输入一个位置时，会将该位置映射到客户端网络的默认网关的 MAC 地址，并将其存储到位于客户端上的每用户表中。当用户返回之前存储的任何位置时，Lync 客户端将自动设为该位置。
 
 <div>
 

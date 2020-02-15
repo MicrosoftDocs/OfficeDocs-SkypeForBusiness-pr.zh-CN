@@ -12,16 +12,16 @@ ms:contentKeyID: 48183527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fba07f35836e6b8ac5025b887c69bea283846b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23c32967da142d48d15a8fec484134c11af9170a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725792"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046265"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,41 +35,41 @@ ms.locfileid: "41725792"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-27_
+_**上次修改的主题：** 2012-06-27_
 
-互操作性 cmdlet 用于配置 Microsoft Lync Server 2013 和其他服务器产品（如 Microsoft Exchange Server 2013）之间的服务器到服务器身份验证和授权。 服务器到服务器身份验证和授权使这些服务器可以无缝交换和共享数据。
+互操作性 cmdlet 用于在 Microsoft Lync Server 2013 和其他服务器产品（如 Microsoft Exchange Server 2013）之间配置服务器到服务器的身份验证和授权。 服务器到服务器身份验证和授权使这些服务器可以无缝交换和共享数据。
 
 <div>
 
 ## <a name="interoperability-cmdlets"></a>互操作性 Cmdlet
 
-以下是与配置和管理 Microsoft Lync Server 2013 和其他服务器产品之间的互操作性相关的 cmdlet 的列表：
+下面列出了与配置和管理 Microsoft Lync Server 2013 和其他服务器产品之间的互操作性相关的 cmdlet：
 
 **互操作性 Cmdlet**
 
-  - [Get-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ205155(v=OCS.15))
+  - [Set-csoauthconfiguration](https://technet.microsoft.com/library/JJ205155(v=OCS.15))
 
-  - [Set-CsOAuthConfiguration](https://technet.microsoft.com/en-us/library/JJ204841(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205238(v=OCS.15))
-
-  - [New-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205206(v=OCS.15))
-
-  - [Remove-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ205408(v=OCS.15))
-
-  - [Set-CsOAuthServer](https://technet.microsoft.com/en-us/library/JJ204896(v=OCS.15))
+  - [Set-csoauthconfiguration](https://technet.microsoft.com/library/JJ204841(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ205128(v=OCS.15))
+  - [CsOAuthServer](https://technet.microsoft.com/library/JJ205238(v=OCS.15))
 
-  - [New-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204628(v=OCS.15))
+  - [新 CsOAuthServer](https://technet.microsoft.com/library/JJ205206(v=OCS.15))
 
-  - [Remove-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204820(v=OCS.15))
+  - [CsOAuthServer](https://technet.microsoft.com/library/JJ205408(v=OCS.15))
 
-  - [Set-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204755(v=OCS.15))
+  - [CsOAuthServer](https://technet.microsoft.com/library/JJ204896(v=OCS.15))
+
+<!-- end list -->
+
+  - [CsPartnerApplication](https://technet.microsoft.com/library/JJ205128(v=OCS.15))
+
+  - [新 CsPartnerApplication](https://technet.microsoft.com/library/JJ204628(v=OCS.15))
+
+  - [CsPartnerApplication](https://technet.microsoft.com/library/JJ204820(v=OCS.15))
+
+  - [CsPartnerApplication](https://technet.microsoft.com/library/JJ204755(v=OCS.15))
 
 </div>
 

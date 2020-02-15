@@ -1,5 +1,5 @@
 ---
-title: Skype for Business 服务器中的诊断报告
+title: Skype for Business Server 中的诊断报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 摘要：了解 Skype for Business 服务器中的诊断报告。
-ms.openlocfilehash: e8f89f1f5a013b40f7f5f105f49611542667a477
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 摘要：了解 Skype for Business Server 中的诊断报告。
+ms.openlocfilehash: f1a8d9a0c027019708f2be75fec14634197c4e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817982"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041989"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server"></a>Skype for Business 服务器中的诊断报告
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server 中的诊断报告
  
-**摘要：** 了解 Skype for Business 服务器中的诊断报告。
+**摘要：** 了解 Skype for Business Server 中的诊断报告。
   
 诊断报告提供失败的会话的诊断和故障排除信息。 此信息包括在会话失败时所报告的诊断 ID 和诊断标头。 诊断 ID 是附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），而诊断标头提供诊断 ID 的附带说明。 该报告可能还包含报告组件所了解的有价值的故障排除详细信息。 例如：
   
@@ -33,7 +33,7 @@ ms.locfileid: "41817982"
     
 ## <a name="accessing-the-diagnostic-report"></a>访问诊断报告
 
-可通过在 Skype for Business Server 或会议详细信息报告[中单击对等会话详细信息报告](peer-to-peer-session-detail-report.md)上的诊断报告（详细信息）指标来访问诊断报告。
+可以通过单击[Skype For Business Server 中的对等会话详细信息报告](peer-to-peer-session-detail-report.md)或会议详细信息报告中的 "诊断报告（详细信息）" 指标来访问诊断报告。
   
 ## <a name="filters"></a>筛选器
 
@@ -45,21 +45,21 @@ ms.locfileid: "41817982"
   
 **诊断报告指标**
 
-|**名称** - 按 WAN 链路进行筛选（筛选器位于图形右侧）。|**是否可按此项排序？**|**说明**|
+|**名称**|**是否可按此项排序？**|**说明**|
 |:-----|:-----|:-----|
 |**报告时间** <br/> |否  <br/> |记录报告的日期和时间。  <br/> |
 |**响应代码** <br/> |否  <br/> |会话失败时发送的 SIP 响应代码。  <br/> |
 |**请求类型** <br/> |否  <br/> |失败的 SIP 请求类型。例如，INVITE、BYE 或 SERVICE。  <br/> |
-|**来源** <br/> |否  <br/> |错误的来源。  <br/> |
+|**Source** <br/> |否  <br/> |错误的来源。  <br/> |
 |**源用户 URI** <br/> |否  <br/> |发起会话的用户的 SIP 地址。  <br/> |
 |**源用户代理** <br/> |否  <br/> |发起会话的用户的终结点使用的软件。  <br/> |
 |**诊断 ID** <br/> |否  <br/> |附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。  <br/> |
 |**内容类型** <br/> |否  <br/> |失败的媒体内容类型。例如，常见内容类型为 Application/sdp。会话描述协议 (SDP) 是用于会话公告、会话邀请及其他形式的多媒体会话启动的标准 Internet 协议。  <br/> |
-|**应用程序** <br/> |否  <br/> |错误涉及的应用程序。  <br/> |
+|**Application** <br/> |否  <br/> |错误涉及的应用程序。  <br/> |
 |**目标用户 URI** <br/> |否  <br/> |受邀加入会话的用户的 SIP 地址。  <br/> |
 |**会议加入时间（毫秒）** <br/> |否  <br/> |用户加入会议所需的时间量（以毫秒为单位）。  <br/> |
 |**诊断标头** <br/> |否  <br/> |诊断 ID 描述  <br/> |
    
-可以在[Ms Diagnostics 标题页面](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx)上找到诊断错误列表。
+可以在 " [Ms-诊断" 标头页](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)上找到诊断错误列表。
   
 

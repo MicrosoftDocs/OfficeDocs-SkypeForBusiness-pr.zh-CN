@@ -12,16 +12,16 @@ ms:contentKeyID: 49733740
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1188f80c5dc8555b53f54e7a13c60f97817eaba2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5d0a9b1141688ad5c524090999d6277eb8a733b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738793"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738793"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-10_
+_**上次修改的主题：** 2012-09-10_
 
-"呼叫驻留" 应用程序使企业语音用户可以通过一条电话将呼叫置于保持状态，然后稍后通过任何电话检索呼叫。 当用户公园呼叫时，Lync 服务器将呼叫转移到一个名为 "*轨道*" 的临时号码上，呼叫将一直保持，直到有人检索它或超时。
+呼叫寄存应用程序允许企业语音用户将呼叫置于保持状态，然后从任何电话检索呼叫。 当用户公园某个呼叫时，Lync Server 会将呼叫转移到一个临时号码（称为 "*轨道*"），其中呼叫将一直保留，直到有人将其检索或超时。
 
-本节中的主题提供了可执行的任务的分步过程，可用于自定义和维护部署中的调用寄存应用程序。
+本节中的主题提供了可执行的任务的分步过程，可用于在部署中自定义和维护呼叫寄存应用程序。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中配置停车通话的电话号码扩展](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
+  - [在 Lync Server 2013 中配置停车呼叫的电话号码分机](lync-server-2013-configure-phone-number-extensions-for-parking-calls.md)
 
   - [在 Lync Server 2013 中配置呼叫寄存设置](lync-server-2013-configure-call-park-settings.md)
 
-  - [在 Lync Server 2013 中自定义呼叫寄存音乐处于暂停状态](lync-server-2013-customize-call-park-music-on-hold.md)
+  - [在 Lync Server 2013 中自定义呼叫寄存暂停音乐](lync-server-2013-customize-call-park-music-on-hold.md)
 
-  - [在 Lync Server 2013 中灾难恢复期间管理呼叫寄存](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [在 Lync Server 2013 中的灾难恢复期间管理呼叫寄存](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
 </div>
 

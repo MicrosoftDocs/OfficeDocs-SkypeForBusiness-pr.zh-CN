@@ -12,20 +12,20 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a380ce6c863c54739e74488bfa3b3979664e78
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a3633ee21fc26fe21557731ece31cf5a0bbb171
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732082"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中设置用于存档的存储
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中设置存储以进行存档
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732082"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-12-17_
+_**上次修改的主题：** 2013-12-17_
 
-Lync Server 2013 的存档存储包括以下内容：
+Lync Server 2013 的存档存储包括以下各项：
 
   - ****   存储 IM 内容需要数据存储数据存储。
 
@@ -47,37 +47,37 @@ Lync Server 2013 的存档存储包括以下内容：
 
 ## <a name="setting-up-data-storage"></a>设置数据存储
 
-在 Lync Server 2013 中设置用于存档的数据存储的要求取决于您希望存储存档数据的方式：
+在 Lync Server 2013 中设置存档数据存储的要求取决于您希望存储存档数据的方式：
 
-  - 将 Lync Server 2013 存档与 Exchange 部署集成，以使用 Exchange 存储存储存档数据。
+  - 将 Lync Server 2013 存档与 Exchange 部署集成，以存储使用 Exchange 存储的存档数据。
 
   - 设置单独的 SQL Server 数据库服务器以存储存档数据。
 
 <div>
 
-## <a name="setting-up-exchange-storage-for-archiving-data"></a>设置用于存档数据的 Exchange 存储
+## <a name="setting-up-exchange-storage-for-archiving-data"></a>为存档数据设置 Exchange 存储
 
-设置用于存储存档数据的 Exchange 需要 Exchange 部署运行 Exchange 2013。 此外，用户邮箱必须托管在 Exchange 2013 服务器上，并且其邮箱必须置于原地保留。 有关配置 Exchange 2013 的详细信息，请参阅 Exchange 产品文档。
+若要设置 Exchange 以存储存档数据，则需要 Exchange 部署运行 Exchange 2013。 此外，用户邮箱必须驻留在 Exchange 2013 服务器上，并且必须将其邮箱置于就地保留状态。 有关配置 Exchange 2013 的详细信息，请参阅 Exchange 产品文档。
 
 </div>
 
 <div>
 
-## <a name="setting-up-sql-server-database-servers-for-storage-of-archiving-data"></a>设置用于存储存档数据的 SQL Server 数据库服务器
+## <a name="setting-up-sql-server-database-servers-for-storage-of-archiving-data"></a>为存档数据设置 SQL Server 数据库服务器存储
 
-Lync Server 2013 中的存档需要 SQL Server 数据库软件存储已存档的数据，除非你将部署与 Exchange 集成。
+Lync Server 2013 中的存档需要 SQL Server 数据库软件来存储存档的数据，除非您将部署与 Exchange 集成。
 
-对于 SQL Server 存档数据库，必须在将托管存档数据库的计算机上安装 SQL Server。 你可以使用用于前端池的后端数据库的相同 SQL 实例。 为了获得最佳性能，你应该在独立于中央管理存储的计算机上部署存档数据库。 有关 collocating Lync Server 2013 组件的详细信息，请参阅支持文档中的[Lync server 2013 中的 "支持的服务器 collocation](lync-server-2013-supported-server-collocation.md) "。
+对于 SQL Server 存档数据库，您必须在将承载存档数据库的计算机上安装 SQL Server。 您可使用用于前端池的后端数据库的同一 SQL 实例。 为实现最佳性能，应当在独立于中央管理存储的计算机上部署存档数据库。 有关并置 Lync Server 2013 组件的详细信息，请参阅可支持性文档中的[Lync server 2013 中的支持服务器并置](lync-server-2013-supported-server-collocation.md)。
 
-每个数据库服务器都必须运行受支持的 SQL Server 版本。 有关受支持的版本的详细信息，请参阅规划文档中[Lync Server 2013 中存档的技术要求](lync-server-2013-technical-requirements-for-archiving.md)。
+每个数据库服务器都必须运行受支持的 SQL Server 版本。 有关受支持的版本的详细信息，请参阅规划文档中的在[Lync Server 2013 中存档的技术要求](lync-server-2013-technical-requirements-for-archiving.md)。
 
-在部署和启用存档之前，必须设置 SQL Server 平台。 如果用于发布拓扑的帐户具有适当的管理员权限，则可在发布拓扑时创建存档数据库 (LcsLog)。 你还可以稍后创建数据库，包括安装过程的一部分。 有关 SQL Server 的详细信息，请参阅 SQL Server 技术[http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)中心。
+在部署和启用存档之前，必须设置 SQL Server 平台。 如果用于发布拓扑的帐户具有适当的管理员权限，则可在发布拓扑时创建存档数据库 (LcsLog)。 您稍后还可创建数据库（包括在安装过程中）。 有关 SQL Server 的详细信息，请参阅 SQL Server 技术[http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)中心。
 
 <div>
 
 
 > [!NOTE]  
-> 确保 SQL Server 代理服务启动类型为 "自动"，并且 SQL Server 代理服务运行的是保存存档数据库的 SQL 实例，因此默认的 "存档 SQL Server 维护作业" 可以按其计划的时间运行，在SQL Server 代理服务的控制。
+> 确保 SQL Server 代理服务启动类型为 "自动"，并且 SQL Server 代理服务运行的是存放存档数据库的 SQL 实例，以便默认的存档 SQL Server 维护作业可以按其预定时间运行，具体对 SQL Server 代理服务的控制。
 
 
 
@@ -91,7 +91,7 @@ Lync Server 2013 中的存档需要 SQL Server 数据库软件存储已存档的
 
 ## <a name="setting-up-file-storage"></a>设置文件存储
 
-存档使用您在设置前端池或标准版服务器时指定的 Lync Server 2013 文件共享。 您不能更改用于存档的文件共享。 有关受支持的文件存储系统的详细信息，请参阅支持文档中的[Lync Server 2013 中的文件存储支持](lync-server-2013-file-storage-support.md)。
+存档使用您在设置前端池或 Standard Edition Server 时指定的 Lync Server 2013 文件共享。 无法更改用于存档的文件共享。 有关受支持的文件存储系统的详细信息，请参阅可支持性文档中的[Lync Server 2013 中的文件存储支持](lync-server-2013-file-storage-support.md)。
 
 </div>
 

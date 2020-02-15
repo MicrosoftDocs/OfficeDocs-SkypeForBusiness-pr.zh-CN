@@ -12,16 +12,16 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5a7e9067e4cd59ca42e60c620dbb4e8ee5b901
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762100"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,47 +35,47 @@ ms.locfileid: "41762100"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
-若要使 Lync 服务器自动为网络内的客户端提供位置，需要执行以下任务：
+若要让 Lync Server 自动为网络中的客户端提供位置，您需要执行以下任务：
 
-  - 使用网络 wiremap 填充位置信息服务数据库，并在 "公司名称" 字段中包含紧急位置标识号（ELINs）。
+  - 使用网络线路映射填充 Location 信息服务数据库，并在 "公司名称" 字段中添加紧急位置标识号（Elin）。
 
   - 发布位置，以供网络中的客户端使用。
 
   - 将 ELIN 上载到公用电话交换网 (PSTN) 运营商的自动位置标识 (ALI) 数据库。
 
-有关如何执行这些任务的详细信息，请参阅部署文档中[Lync Server 2013 中的 "配置位置数据库"](lync-server-2013-configure-the-location-database.md) 。
+有关如何执行这些任务的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置位置数据库](lync-server-2013-configure-the-location-database.md)。
 
 <div>
 
 
 > [!NOTE]  
-> 添加到中心位置数据库的位置在使用 Lync Server Management Shell 命令发布并复制到池中的本地存储之前，不能用于客户端。 有关详细信息，请参阅在部署文档中<A href="lync-server-2013-publish-the-location-database.md">从 Lync Server 2013 发布位置数据库</A>。
+> 在使用 Lync Server 命令行管理程序命令发布并复制到池的本地存储区中之前，添加到中心位置数据库的位置对客户端不可用。 有关详细信息，请参阅部署文档中的<A href="lync-server-2013-publish-the-location-database.md">从 Lync Server 2013 发布位置数据库</A>。
 
 
 
 </div>
 
-本节介绍在计划更新和维护位置数据库时要考虑的事项。
+此部分介绍在您计划更新和维护位置数据库时应考虑的事项。
 
 <div>
 
 ## <a name="planning-emergency-locations"></a>规划紧急位置
 
-使用 ELIN 网关时，将使用市政地址、建筑物内的特定位置和每个位置至少一个 ELIN 填充位置信息服务数据库。 在规划阶段，最好决定想要如何命名位置和分配 ELIN。
+使用 ELIN 网关时，将使用市政地址、大楼内的特定位置和每个位置至少一个 ELIN 填充位置信息服务数据库。 在规划阶段，最好确定您希望如何命名位置以及如何分配 ELIN。
 
 <div>
 
 ## <a name="planning-location-names"></a>规划位置名称
 
-"位置信息服务**位置**" 字段（用于保存建筑物内的特定位置）的最大长度为20个字符（包括空格）。 在该限制长度内，尽量包括以下内容：
+"位置信息服务**位置**" 字段用于存放建筑物内的特定位置，最大长度为20个字符（包括空格）。 在该限制长度内，尽量包括以下内容：
 
   - 一个容易理解的名称，用于标识 911 呼叫者的位置，以确保紧急响应者在到达市政地址后能迅速找到具体位置。此位置名称可包含建筑物编号、楼层、建筑物标识、房间号等。应避免使用仅对员工可知的昵称，以防紧急响应者去往错误的位置。
 
-  - 一个位置标识符，可帮助用户轻松地查看其 Lync 客户端是否已挑选正确的位置。 Lync 客户端将自动连接，并在其标题中显示发现的**位置**和**城市**字段。 最佳做法是将建筑物的街道地址添加到每个位置标识符（例如，"第一个楼层\<号\>"）。 如果没有街道地址，可能对城市中的任何建筑物都应用常规位置标识符，如“1st Floor”。
+  - 位置标识符，以帮助用户轻松了解他们的 Lync 客户端是否选择了正确的位置。 Lync 客户端自动连接并在其标头中显示发现的 **Location** 和 **City** 字段。 一种好的做法是将建筑物的街道地址添加到每个位置标识符（例如，"第一\<层街道\>号"）。 如果没有街道地址，那么通用的位置标识符（例如“1st Floor”）可以适用于城市中的所有建筑。
 
-  - 如果位置是一个大概位置（因为它是由无线访问点决定的），您可能需要添加词 Near（例如，“Near 1st Floor 1234”）。
+  - 如果位置是由无线访问点确定的，则它可能不精确，此时可能需要添加词语 Near（例如，“Near 1st Floor 1234”）。
 
 </div>
 
@@ -102,18 +102,18 @@ _**主题上次修改时间：** 2012-10-02_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>第一层</p></td>
-<td><p>1</p></td>
+<td><p>第 1 层</p></td>
+<td><p>1 </p></td>
 <td><p>425-555-0100</p></td>
 </tr>
 <tr class="even">
-<td><p>第二层</p></td>
-<td><p>ppls-2</p></td>
+<td><p>第 2 层</p></td>
+<td><p>2 </p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">
-<td><p>第三层</p></td>
-<td><p>3</p></td>
+<td><p>第 3 层</p></td>
+<td><p>3 </p></td>
 <td><p>425-555-0123</p></td>
 </tr>
 </tbody>
@@ -137,16 +137,16 @@ _**主题上次修改时间：** 2012-10-02_
 以下问题将帮助您确定如何填充位置数据库。
 
   - **使用什么过程填充位置数据库？**  
-    数据位于何处？需要采取何种步骤将数据转换为位置数据库所需的格式？是逐个添加位置，还是使用 CSV 文件批量添加？
+    数据位于何处？采取何种步骤将数据转换为位置数据库所需的格式？是逐个添加位置，还是使用 CSV 文件批量添加？
 
 <!-- end list -->
 
-  - **是否有已包含位置映射的第三方数据库？**  
-    通过使用 Lync Server 的辅助位置信息服务选项连接到第三方数据库，您可以使用脱机平台对位置进行分组和管理。 除了将位置与网络标识符关联外，此方法的优点还在于将位置与用户关联。 这意味着，位置信息服务可以将来自辅助位置信息服务的多个地址返回到 Lync Server 客户端。 然后，用户可以选择最适合的位置。
+  - **是否具有已包含位置映射的第三方数据库？**  
+    通过使用 Lync Server 的辅助位置信息服务选项连接到第三方数据库，可以使用脱机平台对位置进行分组和管理。 此方案的优势在于除了将位置与网络标识符关联外，还可以将位置与用户关联。 这意味着 Location 信息服务可将来自辅助位置信息服务的多个地址返回到 Lync Server 客户端。 然后用户可以选择最合适的位置。
     
-    若要与位置信息服务集成，第三方数据库必须遵循 Lync Server 位置请求/响应架构。 有关详细信息， <http://go.microsoft.com/fwlink/p/?linkid=213819>请参阅。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中[Lync Server 2013 中的 "配置辅助位置信息" 服务](lync-server-2013-configure-a-secondary-location-information-service.md)。
+    若要与 Location 信息服务集成，第三方数据库必须遵循 Lync Server 位置请求/响应架构。 有关详细信息， <http://go.microsoft.com/fwlink/p/?linkid=213819>请参阅。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置辅助位置信息服务](lync-server-2013-configure-a-secondary-location-information-service.md)。
 
-有关填充位置数据库的详细信息，请参阅在部署文档中的[Lync Server 2013 中配置位置数据库](lync-server-2013-configure-the-location-database.md)。
+有关填充位置数据库的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置位置数据库](lync-server-2013-configure-the-location-database.md)。
 
 </div>
 
@@ -162,7 +162,7 @@ _**主题上次修改时间：** 2012-10-02_
 <!-- end list -->
 
   - **是否使用 SNMP 应用程序将 Lync 客户端 MAC 地址与端口和交换机标识符匹配？**  
-    如果使用 SNMP 应用程序，需要设计用于保持 SNMP 应用程序和位置数据库之间的交换机机架和端口信息一致的手动过程。 如果 SNMP 应用程序返回数据库中未包含的机箱 IP 地址或端口 ID，则位置信息服务将无法将位置返回到客户端。
+    如果使用 SNMP 应用程序，需要设计用于保持 SNMP 应用程序和位置数据库之间的交换机机架和端口信息一致的手动过程。 如果 SNMP 应用程序返回的是未包含在数据库中的机箱 IP 地址或端口 ID，则位置信息服务将无法向客户端返回一个位置。
 
 </div>
 

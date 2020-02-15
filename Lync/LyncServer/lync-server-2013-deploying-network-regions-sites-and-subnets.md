@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署网络区域、网站和子网
+title: Lync Server 2013：部署网络区域、站点和子网
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04c39a18147bad3f84bd345ec0a56b606db4cae4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46e4db701dc3d43ed30b8101ef2af5ff2e4a2ad0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736272"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>在 Lync Server 2013 中部署网络区域、网站和子网
+# <a name="deploying-network-regions-sites-and-subnets-in-lync-server-2013"></a>在 Lync Server 2013 中部署网络区域、站点和子网
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41736272"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-03-12_
+_**上次修改的主题：** 2013-03-12_
 
-部署企业语音后，您需要配置：
+部署企业语音后，您需要配置以下各项：
 
   - 网络区域
 
@@ -49,13 +49,13 @@ _**主题上次修改时间：** 2013-03-12_
 
 ## <a name="define-network-regions"></a>定义网络区域
 
-使用 Lync Server Windows PowerShell 命令、"新建-CsNetworkRegion" 或 "Lync Server 控制面板" 定义网络区域。
+使用 Lync Server Windows PowerShell 命令、CsNetworkRegion 或 Lync Server 控制面板定义网络区域。
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
 有关详细信息，请参阅[CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)。
 
-在此示例中，以下 Windows PowerShell 命令演示了在此方案中定义的网络区域（国家/地区1（印度））。
+对于此示例，以下 Windows PowerShell 命令说明了此方案中定义的网络区域（国家/地区1（印度））。
 
     New-CsNetworkRegion -NetworkRegionID "India" -CentralSite "India Central Site"
 
@@ -70,13 +70,13 @@ _**主题上次修改时间：** 2013-03-12_
 
 ## <a name="define-network-sites"></a>定义网络站点
 
-使用 Lync Server Windows PowerShell 命令、"新建-CsNetworkSite" 或 "Lync Server 控制面板" 定义网络站点。
+使用 Lync Server Windows PowerShell 命令、CsNetworkSite 或 Lync Server 控制面板定义网络站点。
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
 有关详细信息，请参阅[CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite)。
 
-对于此示例，下表和 Lync Server Windows PowerShell 命令演示了在此方案中定义的网络站点。 只有特定于基于位置的路由的设置才会包含在表中，以便进行图解。
+对于此示例，下表和 Lync Server Windows PowerShell 命令说明了此方案中定义的网络站点。 为了便于说明，仅在表中包含特定于基于位置的路由的设置。
 
     New-CsNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
     New-CsNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
@@ -91,14 +91,14 @@ _**主题上次修改时间：** 2013-03-12_
 <thead>
 <tr class="header">
 <th></th>
-<th>站点1（新德里）</th>
+<th>Site 1 （新德里）</th>
 <th>Site 2 （Hyderabad）</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>网站 ID</p></td>
-<td><p>站点1（新德里）</p></td>
+<td><p>Site 1 （新德里）</p></td>
 <td><p>Site 2 （Hyderabad）</p></td>
 </tr>
 <tr class="even">
@@ -121,13 +121,13 @@ _**主题上次修改时间：** 2013-03-12_
 
 ## <a name="define-network-subnets"></a>定义网络子网
 
-使用 Lync Server Windows PowerShell 命令、"新建-CsNetworkSubnet" 或 "Lync Server 控制面板" 定义网络子网并将其分配给网络站点。
+使用 Lync Server Windows PowerShell 命令、CsNetworkSubnet 或 Lync Server 控制面板定义网络子网并将其分配给网络站点。
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
 有关详细信息，请参阅[CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)。
 
-对于此示例，下表和 Windows PowerShell 命令演示在此方案中定义的网络子网到 Hyderabad 和的分配。 只有特定于基于位置的路由的设置才会包含在表中，以便进行图解。
+对于此示例，下表和 Windows PowerShell 命令说明了如何将网络子网分配给在此方案中定义的网络站点（新德里和 Hyderabad）。 为了便于说明，仅在表中包含特定于基于位置的路由的设置。
 
     New-CsNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
     New-CsNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad"
@@ -142,24 +142,24 @@ _**主题上次修改时间：** 2013-03-12_
 <thead>
 <tr class="header">
 <th></th>
-<th>站点1（新德里）</th>
+<th>Site 1 （新德里）</th>
 <th>Site 2 （Hyderabad）</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>子网 ID</p></td>
-<td><p>含</p></td>
+<td><p>192.168.0.0</p></td>
 <td><p>192.168.1.0</p></td>
 </tr>
 <tr class="even">
-<td><p>Usm</p></td>
-<td><p>全</p></td>
-<td><p>全</p></td>
+<td><p>Mask</p></td>
+<td><p>24</p></td>
+<td><p>24</p></td>
 </tr>
 <tr class="odd">
 <td><p>网站 ID</p></td>
-<td><p>站点1（新德里）</p></td>
+<td><p>Site 1 （新德里）</p></td>
 <td><p>Site 2 （Hyderabad）</p></td>
 </tr>
 </tbody>

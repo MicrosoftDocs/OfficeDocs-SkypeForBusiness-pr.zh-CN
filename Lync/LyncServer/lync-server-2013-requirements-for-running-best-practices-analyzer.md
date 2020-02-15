@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：运行最佳做法分析器的要求
+title: Lync Server 2013：运行最佳实践分析工具的要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02b2f6c6f47a59663a414635eebe1d2e4ec851
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723802"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中运行最佳做法分析器的要求
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中运行最佳实践分析工具的要求
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723802"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-19_
+_**上次修改的主题：** 2012-09-19_
 
-你可以使用 Lync Server 2013、最佳做法分析程序扫描 Lync Server 2013 环境。 您不能使用它来扫描以前的环境，但可以使用该工具的以前版本来扫描这些环境。 有关下载和使用适用于最佳做法分析器的 Lync Server 2010 和 Office 通信服务器 2007 R2 版本的详细信息，请参阅 "Lync Server 2010、最佳做法[http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358)分析器" at 和 "适用于 Office 通信服务器2007和 Office 通信服务器的最佳做法[http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)分析程序" 2007 r2 "。
+您可以使用 Lync Server 2013 和最佳实践分析工具扫描 Lync Server 2013 环境。 您无法使用它扫描以前的环境，但可以使用该工具以前的版本扫描这些环境。 有关下载和使用适用于最佳实践分析工具的 Lync Server 2010 和 Office 通信服务器 2007 R2 版本的详细信息，请参阅中的 "Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) 、最佳实践分析工具" 和 "Office 通信服务器2007和 Office 通信服务器 2007 R2 [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)的最佳实践分析程序"。
 
-开始扫描之前，应确保 Lync Server 2013 环境中的所有组件均已运行且处于联机状态。
+在开始扫描之前，应确保 Lync Server 2013 环境中的所有组件都在运行且处于联机状态。
 
 <div>
 
 
 > [!NOTE]  
-> 根据你的边缘服务器的配置和任何相关的外围网络设置（包括防火墙设置和权限），最佳做法分析器可能无法访问和扫描你的边缘服务器。 如果你在扫描中包含 Edge 服务器，并且报表指示访问 Edge 服务器时出现问题，你可能需要从扫描选项中删除边缘服务器并再次运行扫描，以便报表中不显示问题。
+> 最佳做法分析器可能无法访问和扫描您的边缘服务器，具体取决于您的边缘服务器的配置和任何相关外围网络设置（包括防火墙设置和权限）。如果将边缘服务器包含在扫描中且报告指示访问边缘服务器时出现问题，则您可能希望从扫描选项中删除边缘服务器并重新运行扫描，以便报告中不出现问题。
 
 
 

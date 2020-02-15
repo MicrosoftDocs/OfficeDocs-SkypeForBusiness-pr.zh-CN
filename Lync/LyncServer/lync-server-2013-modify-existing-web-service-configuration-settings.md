@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：修改现有 Web 服务配置设置
+title: Lync Server 2013：修改现有的 Web 服务配置设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11bd7f4629d4a3cf0f356a47760810e380af7deb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a6d29868c6f4b18bd4bb02dac651a671684ecc0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737132"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737132"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-你可以使用**Web 服务**页面配置用于访问 Lync Server 2013 相关 web 服务器和 web 服务的身份验证方法。
+您可以使用 " **Web 服务**" 页来配置用于访问 Lync Server 2013 相关 web 服务器和 web 服务的身份验证方法。
 
 按照以下步骤修改现有的 Web 服务策略。
 
@@ -45,9 +45,9 @@ _**主题上次修改时间：** 2012-11-01_
 
 ## <a name="to-modify-existing-web-service-configuration-settings"></a>修改现有的 Web 服务配置设置
 
-1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“安全性”****，然后单击“Web 服务”****。
 
@@ -63,7 +63,7 @@ _**主题上次修改时间：** 2012-11-01_
     
       - **启用证书链下载**，让具有身份验证证书的服务器下载该证书的证书链。
 
-7.  单击“**提交**”。
+7.  单击“提交”****。
 
 </div>
 
@@ -72,7 +72,7 @@ _**主题上次修改时间：** 2012-11-01_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 "控制面板" 中配置身份验证](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)  
+[在 Lync Server 2013 控制面板中配置身份验证](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)  
   
 
 </div>

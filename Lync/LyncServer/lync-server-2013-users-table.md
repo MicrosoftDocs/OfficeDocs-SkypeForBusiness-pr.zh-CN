@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Users 表
+title: Lync Server 2013： Users 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2be643f8a593af01ee47ad93d3910d44ee86e48
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67663afbd9e5b61b1b24478e003db91c5be511e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744322"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046055"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744322"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-"用户" 表是支持表。 表中的每条记录存储有关在数据库中具有记录的通话或会话中涉及的一个用户的信息。
+"用户" 表是一个支持表格。 表中的每条记录存储有关在数据库中包含记录的呼叫或会话中涉及的一个用户的信息。
 
 
 <table>
@@ -65,8 +65,8 @@ _**主题上次修改时间：** 2012-09-28_
 <tr class="even">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识此用户的唯一号码。</p></td>
+<td><p>主</p></td>
+<td><p>用于标识此用户的唯一编号。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
@@ -77,13 +77,13 @@ _**主题上次修改时间：** 2012-09-28_
 <tr class="even">
 <td><p><strong>TenantId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外表</p></td>
+<td><p>对外</p></td>
 <td><p>此用户的租户 ID。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
-<td><p>外表</p></td>
+<td><p>对外</p></td>
 <td><p>此用户的 URI 类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
 </tr>
 </tbody>

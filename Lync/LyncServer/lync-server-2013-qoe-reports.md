@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： QoE 报表
+title: Lync Server 2013： QoE 报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9eead17e9cd08267f941d80cb25460f4d456d896
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 958c67b1b10b25e44805d2582ffe2e9fab575568
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724592"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 报表
+# <a name="qoe-reports-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 报告
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41724592"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-05-01_
+_**上次修改的主题：** 2014-05-01_
 
 <div>
 
 ## <a name="qoe-summarytrend-reports"></a>QoE 摘要/趋势报告
 
-QoE 摘要/趋势报表可用于查找每天的高峰使用时间和在这些时间内检查媒体质量，以帮助确保你的组织的网络资源足够有效。 你的组织还可以使用报表中提供的许多筛选器来隔离特定位置、客户端和设备类型以及服务器的性能数字。
+QoE 摘要/趋势报告可用于查找一天的高峰使用时间，并在这些时间内检查媒体质量，以帮助确保组织的网络资源足够。 您的组织还可以使用报告中提供的多个筛选器来隔离特定位置、客户端和设备类型以及服务器的性能号码。
 
-QoE 摘要/趋势报告包括：
+QoE 摘要/趋势报告包含以下内容：
 
   - UC 到 UC 摘要/趋势报告
 
@@ -57,7 +57,7 @@ QoE 摘要/趋势报告包括：
 
 ## <a name="qoe-performance-reports"></a>QoE 性能报告
 
-QoE 性能报告提供了有关三个报表的详细信息，这些报表专注于中介服务器、A/V 会议服务器和终结点位置的 QoE 性能。
+QoE 性能报告提供了有关三个报告的详细信息，这些报告集中在中介服务器、A/V 会议服务器和终结点位置的 QoE 性能上。
 
 </div>
 
@@ -65,19 +65,19 @@ QoE 性能报告提供了有关三个报表的详细信息，这些报表专注�
 
 ## <a name="mediation-server-performance-report"></a>中介服务器性能报告
 
-中介服务器性能报告列出了在指定时间段内由一个或多个中介实现的指标。 统一通信（UC）到中介服务器腿的指标和每个通话的中介服务器到网关腿分别报告。 使用此报告比较组织的各种中介服务器的数量和性能。
+中介服务器性能报告列出了在指定时间段内由一个或多个中介实现的指标。 统一通信（UC）到中介服务器腿的指标和每个呼叫的中介服务器到网关的线路分别报告。 使用此报告可比较组织的各种中介服务器的容量和性能。
 
 对于每个中介服务器（和每个呼叫腿），报告将显示以下内容：
 
-  - 通话的数量
+  - 呼叫数
 
-  - 丢包
+  - 数据包丢失
 
-  - 往返行程时间
+  - 往返时间
 
   - 抖动
 
-  - 按会话平均观点（MOS）
+  - 会话平均意见得分（MOS）
 
   - 发送 MOS
 
@@ -85,9 +85,9 @@ QoE 性能报告提供了有关三个报表的详细信息，这些报表专注�
 
   - 网络 MOS
 
-  - 网络 MOS 性能下降
+  - 网络 MOS 降级
 
-  - 回音返回
+  - 回显返回
 
   - 信号级别
 
@@ -97,19 +97,19 @@ QoE 性能报告提供了有关三个报表的详细信息，这些报表专注�
 
 ## <a name="av-conferencing-server-performance-report"></a>A/V 会议服务器性能报告
 
-A/V 会议服务器性能报告提供指定时间段内由一个或多个 A/V 会议服务器实现的指标的列表。 此报告可用于比较组织的各种 A/V 会议服务器的数量和性能。 你的组织还可以隔离报表以仅显示特定客户端类型（如 Lync 客户端或 PSTN 客户端）的体验。
+A/V 会议服务器性能报告提供了在指定时间段内由一个或多个 A/V 会议服务器实现的指标的列表。 此报告可用于比较组织的各种 A/V 会议服务器的容量和性能。 您的组织还可以隔离报告以仅显示特定客户端类型（如 Lync 客户端或 PSTN 客户端）的体验。
 
-对于每个 A/V 会议服务器，报表显示以下内容：
+对于每个 A/V 会议服务器，报告将显示以下内容：
 
   - 会议数
 
-  - 丢包
+  - 数据包丢失
 
-  - 往返行程时间
+  - 往返时间
 
   - 抖动
 
-  - 按会话平均观点（MOS）
+  - 会话平均意见得分（MOS）
 
   - 发送 MOS
 
@@ -117,9 +117,9 @@ A/V 会议服务器性能报告提供指定时间段内由一个或多个 A/V �
 
   - 网络 MOS
 
-  - 网络 MOS 性能下降
+  - 网络 MOS 降级
 
-  - 回音返回
+  - 回显返回
 
   - 信号级别
 
@@ -129,25 +129,25 @@ A/V 会议服务器性能报告提供指定时间段内由一个或多个 A/V �
 
 ## <a name="location-based-performance-report"></a>基于位置的性能报告
 
-基于位置的性能报告提供网络位置列表，每个位置都显示了每个预定的质量范围内的通话次数。 此报告的目标是提供对不同位置的组织电话通话的媒体质量的深入了解，以便您能够识别出较差的位置，并在您的组织中查看不同等级的媒体质量不同的位置。
+基于位置的性能报告提供了网络位置的列表，每个位置都显示了每个预先确定的质量范围内的呼叫数。 此报告的目标是提供对各种位置的组织电话呼叫的媒体质量的深入了解，以便您能够识别出性能不佳的位置，并在组织中查看不同等级的媒体质量不同的位置。
 
-显示报表时，将显示不同的度量表，即组织决定报告的每个指标的一个表。 你可以从此报表的以下指标中进行选择：
+显示报表时，将显示不同的指标表，即组织决定报告的每个指标的一个表。 您可以从此报告的以下指标中进行选择：
 
-  - 按会话平均观点（MOS）
+  - 会话平均意见得分（MOS）
 
   - 网络 MOS
 
-  - 网络 MOS 性能下降
+  - 网络 MOS 降级
 
   - 发送 MOS
 
   - 侦听 MOS
 
-  - 丢包
+  - 数据包丢失
 
   - 抖动
 
-  - 滞后
+  - 延迟
 
 </div>
 

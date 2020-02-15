@@ -12,20 +12,20 @@ ms:contentKeyID: 48184035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d7e8ad1aa4fcfe3db9aabee61e317810707194
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6442ed90050df22df77c41773619bedb5ee3ff72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726522"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048346"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中配置未分配号码的通知
+# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中配置未分配号码的公告
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41726522"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-11_
+_**上次修改的主题：** 2012-09-11_
 
-"发布" 应用程序是一种企业语音功能，可让你配置调用未分配的扩展（对你的组织有效，但未分配给某个人或手机的扩展）所发生的情况。 例如，可以将对未分配号码的呼叫配置为播放消息或转接至其他目标，或者同时执行这两种操作。
+"通知应用程序" 是一种企业语音功能，可让您配置呼叫未分配的分机（对组织有效但未分配给个人或电话的分机）所发生的情况。 例如，可以将对未分配号码的呼叫配置为播放消息或转接至其他目标，或者同时执行这两种操作。
 
-在部署企业语音时，"发布" 应用程序作为 "响应组应用程序" 的一项功能安装在前端服务器或标准版服务器上。 需要上载音频文件或配置文本到语音转换 (TTS)，并配置未分配号码表来配置通知。
+当您部署企业语音时，通知应用程序作为响应组应用程序在前端服务器或 Standard Edition Server 上的一项功能安装。 需要通过上载音频文件或配置文本到语音转换 (TTS) 和配置未分配号码表来配置通知。
 
-本部分将指导你完成 Lync Server 公告的配置。 它假设你已阅读与公告相关的规划部分，并使用企业语音部署企业版服务器或标准版服务器。
+本部分将指导您完成 Lync Server 通知的配置。 它假定您已阅读与公告相关的规划部分，并已使用企业版服务器或具有企业语音的 Standard Edition 服务器进行了部署。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的通知配置先决条件和角色](lync-server-2013-announcement-configuration-prerequisites-and-roles.md)
+  - [在 Lync Server 2013 中通知配置先决条件和角色](lync-server-2013-announcement-configuration-prerequisites-and-roles.md)
 
-  - [Lync Server 2013 中的公告应用程序的部署过程](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Lync Server 2013 中的通知应用程序的部署过程](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
-  - [在 Lync Server 2013 中创建公告](lync-server-2013-create-an-announcement.md)
+  - [在 Lync Server 2013 中创建通知](lync-server-2013-create-an-announcement.md)
 
   - [在 Lync Server 2013 中配置未分配号码表](lync-server-2013-configure-the-unassigned-number-table.md)
 
-  - [可选在 Lync Server 2013 中验证公告部署](lync-server-2013-optional-verify-announcement-deployment.md)
+  - [Optional在 Lync Server 2013 中验证通知部署](lync-server-2013-optional-verify-announcement-deployment.md)
 
 </div>
 

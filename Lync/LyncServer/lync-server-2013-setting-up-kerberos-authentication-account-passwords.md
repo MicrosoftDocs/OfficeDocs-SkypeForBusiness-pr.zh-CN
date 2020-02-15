@@ -12,16 +12,16 @@ ms:contentKeyID: 48185167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c156e26a54e9762b1b57d1513f37cb7d7088cee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0342c83090dee6cbe021a400acd87e557860518b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037572"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764608"
 
 <span> </span>
 
-_**主题上次修改时间：** 2010-11-03_
+_**上次修改的主题：** 2010-11-03_
 
-为 Kerberos 身份验证帐户创建计算机对象后，您可以为该帐户设置密码。 在一台服务器上运行用于设置 Kerberos 帐户密码的 Windows PowerShell cmdlet。 你可以在为 Kerberos 身份验证创建的对象上设置密码。 密码可以设置为已知值，但默认情况下是随机密码。 密码可用于使用该帐户的所有 Kerberos 身份验证源。 你可以使用 Windows PowerShell cmdlet 设置和管理 Kerberos 帐户密码。
+为 Kerberos 身份验证帐户创建计算机对象后，即可设置该帐户的密码。 运行 Windows PowerShell cmdlet 以在一台服务器上设置 Kerberos 帐户密码。 可以在为 Kerberos 身份验证所创建的对象上设置密码。 可将密码设置为已知值，但默认情况下为随机密码。 该密码可用于所有使用该帐户的 Kerberos 身份验证源。 您可以使用 Windows PowerShell cmdlet 来设置和管理 Kerberos 帐户密码。
 
 <div>
 
 
 > [!NOTE]  
-> Kerberos 帐户对象是一个计算机对象，但对所引用的 Windows PowerShell cmdlet 中的操作使用 UserAccount 参数。 请注意，这不是错误，但在与 Kerberos 帐户创建和维护一起使用时，该 cmdlet 的预期行为。
+> Kerberos 帐户对象是一个计算机对象，但对 Windows PowerShell cmdlet 中所引用的操作使用 UserAccount 参数。 请注意，这并非错误，而是 cmdlet 在与 Kerberos 帐户创建和维护结合使用时的预期行为。
 
 
 
@@ -51,9 +51,9 @@ _**主题上次修改时间：** 2010-11-03_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中在服务器上设置 Kerberos 身份验证帐户密码](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
+  - [在 Lync Server 2013 中的服务器上设置 Kerberos 身份验证帐户密码](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md)
 
   - [在 Lync Server 2013 中将 Kerberos 身份验证帐户密码同步到 IIS](lync-server-2013-synchronize-a-kerberos-authentication-account-password-to-iis.md)
 

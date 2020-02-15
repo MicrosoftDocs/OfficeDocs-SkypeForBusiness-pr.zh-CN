@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：部署移动功能
+title: Lync Server 2013：部署移动性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea96278ad965538923b619e84ea059c0d6c7953
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f70b94d5a529a3fce46ac2b199e079f6be1e5bd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740942"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048753"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41740942"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-部署 Lync Server 2013 移动功能时，移动用户可以使用支持的移动设备进行 Lync 功能，例如即时消息（IM）、联机状态和联系人。
+当您部署 Lync Server 2013 移动功能时，移动用户可以使用支持的移动设备进行 Lync 功能，如即时消息（IM）、状态和联系人。
 
-有关部署移动功能的要求的详细信息，请参阅[在 Lync Server 2013 中规划移动](lync-server-2013-planning-for-mobility.md)。
+有关部署移动功能的要求的详细信息，请参阅[在 Lync Server 2013 中规划移动](lync-server-2013-planning-for-mobility.md)功能。
 
-本部分将指导你完成部署和验证移动性和自动发现功能的步骤。
+本节将指导您完成部署和验证移动功能和自动发现功能的步骤。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中为自动发现服务创建 DNS 记录](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
 
-  - [在 Lync Server 2013 中修改证书以实现移动功能](lync-server-2013-modifying-certificates-for-mobility.md)
+  - [在 Lync Server 2013 中修改证书的移动性](lync-server-2013-modifying-certificates-for-mobility.md)
 
   - [在 Lync Server 2013 中配置反向代理以实现移动功能](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
 
-  - [在 Lync Server 2013 中使用混合部署配置移动性的自动发现](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
+  - [在 Lync Server 2013 中配置自动发现以实现与混合部署的移动性](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
 
-  - [在 Lync Server 2013 中验证您的移动功能部署](lync-server-2013-verifying-your-mobility-deployment.md)
+  - [在 Lync Server 2013 中验证移动性部署](lync-server-2013-verifying-your-mobility-deployment.md)
 
   - [在 Lync Server 2013 中配置推送通知](lync-server-2013-configuring-for-push-notifications.md)
 

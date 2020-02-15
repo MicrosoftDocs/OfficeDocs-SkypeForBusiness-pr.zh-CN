@@ -1,5 +1,5 @@
 ---
-title: 安装 WMI 向后兼容程序包
+title: 安装 WMI 向后兼容包
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c3b8d474ff451a488124ebfbae0ff0872a6cca1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2497fb60c4eeb0ef9bba499bd131ef6bba10f3ff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730552"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-wmi-backward-compatibility-package"></a>安装 WMI 向后兼容程序包
+# <a name="install-wmi-backward-compatibility-package"></a>安装 WMI 向后兼容包
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41730552"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
-如果您尝试运行拓扑生成器合并向导而不安装 WMI 向后兼容性程序包，则会看到以下错误：
+如果试图在没有安装 WMI 向后兼容包的情况下运行拓扑生成器合并向导，将会出现以下错误：
 
 ![WMI 错误消息](images/JJ204816.a007d2f2-fc85-430c-91eb-382b032469af(OCS.15).jpg "WMI 错误消息")
 
-如果尝试在不安装 WMI 向后兼容程序包的情况下运行**CsLegacytopology** cmdlet，则会看到以下错误：
+如果试图在没有安装 WMI 向后兼容包的情况下运行 **Merge-CsLegacytopology** cmdlet，将会出现以下错误：
 
 ![Windows PowerShell WMI 提供程序错误](images/JJ204816.c510824e-1807-4c7e-bb28-c6cfea2eac1d(OCS.15).jpg "Windows PowerShell WMI 提供程序错误")
 
 安装 WMI 向后兼容包
 
-1.  从安装媒体中，导航到\\"\\设置\\AMD64\\设置 OCSWMIBC"。MSI.
+1.  从安装媒体中，导航到\\"\\安装\\AMD64\\安装程序 OCSWMIBC"。MSI.
 
-2.  安装 OCSWMIBC。MSI.
+2.  安装 OCSWMIBC.MSI。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC 必须安装在运行拓扑生成器合并向导的计算机上。 但是，我们建议在拓扑中的所有前端服务器上安装 OCSWMIBC。
+    > OCSWMIBC.msi 必须安装在运行拓扑生成器合并向导的计算机上。不过，建议将 OCSWMIBC.msi 安装在拓扑中的所有前端服务器上。
 
     
     </div>
@@ -64,7 +64,7 @@ _**主题上次修改时间：** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC 可以安装在具有 Lync Server 2013 核心组件和安装了 Lync Server 2013 管理外壳的域中的任何计算机上，并且有权访问 Office 通信服务器 2007 R2 拓扑（WMI 提供程序到 Active Directory 域）服务（AD DS）和 SQL Server）。
+    > 可以在安装了 Lync Server 2013 Core 组件和 Lync Server 2013 命令行管理程序的域中的任何计算机上安装 OCSWMIBC，并有权访问 Office 通信服务器 2007 R2 拓扑（WMI 提供程序到 Active Directory 域服务（AD DS）和 SQL Server）。
 
     
     </div>

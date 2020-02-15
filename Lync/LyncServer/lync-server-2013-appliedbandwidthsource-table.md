@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：AppliedBandwidthSource 表
+title: Lync Server 2013： AppliedBandwidthSource 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6978802893b2c4af4f4d4199c3e35452200d8d4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fcbcad9c69731d2a39d990f2342b7427f98fb74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737602"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737602"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
-AppliedBandwidthSource 表是支持表。 每条记录表示一个来源。
+AppliedBandwidthSource 表是一个支持表。每条记录分别表示一个来源。
 
 
 <table>
@@ -52,21 +52,21 @@ AppliedBandwidthSource 表是支持表。 每条记录表示一个来源。
 <th><strong>列</strong></th>
 <th><strong>数据类型</strong></th>
 <th><strong>键/索引</strong></th>
-<th><strong>详细信息</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识源的唯一编号。</p></td>
+<td><p>主</p></td>
+<td><p>标识来源的唯一编号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthSource</strong></p></td>
 <td><p>varchar （256）</p></td>
-<td><p>唯一</p></td>
-<td><p>这是所强加的带宽上限的来源。 它介绍带宽限制的来源（例如，"策略服务器"、"转换服务器" 或 "模态"）。</p></td>
+<td><p>独特</p></td>
+<td><p>这是所设定的带宽限制的来源。它描述带宽限制源自的位置（例如，“策略服务器”、“TURN 服务器”或“形式”）。</p></td>
 </tr>
 </tbody>
 </table>

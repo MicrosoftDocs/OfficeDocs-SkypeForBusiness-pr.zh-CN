@@ -12,16 +12,16 @@ ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34a2dc25aa80e45d7e24f3a91a18b2dd83a4d554
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 307b4d696fdf4348649eb9363d252c7f1d0f8d12
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751902"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41751902"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-07-31_
+_**上次修改的主题：** 2013-07-31_
 
-本主题中的信息与 2013 年 2 月版 Lync Server 2013 累积更新相关。
+本主题中的信息适用于 Lync Server 2013 的累积更新：二月份2013。
 
-基于位置的路由使您能够根据呼叫中各方的位置限制 VoIP 终结点和 PSTN 终结点之间的通话路由。 基于位置的路由是 Lync Server 2013 企业语音基础结构的一部分。 基于位置的路由是一种呼叫管理功能，用于控制如何通过 Lync Server 2013 CU1 路由呼叫。 根据 Lync 呼叫方的地理位置，它会强制执行呼叫授权规则，以确定是否可以将呼叫路由到 PBX 或 PSTN 终结点。
+基于位置的路由使您可以根据呼叫中各方的位置限制 VoIP 终结点和 PSTN 终结点之间的呼叫路由。 基于位置的路由是 Lync Server 2013 企业语音基础结构的一部分。 基于位置的路由是呼叫管理功能，用于控制 Lync Server 2013 CU1 路由呼叫的方式。 根据 Lync 呼叫者的地理位置，它会强制执行呼叫授权规则，以确定是否可以将呼叫路由到 PBX 或 PSTN 终结点。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中基于位置的路由概述](lync-server-2013-overview-of-location-based-routing.md)
 
@@ -53,13 +53,13 @@ _**主题上次修改时间：** 2013-07-31_
 
   - [Lync Server 2013 中基于位置的路由的技术注意事项](lync-server-2013-technical-considerations-for-location-based-routing.md)
 
-  - [Lync Server 2013 中基于位置的路由的客户端和服务器支持](lync-server-2013-client-and-server-support-for-location-based-routing.md)
+  - [在 Lync Server 2013 中对基于位置的路由的客户端和服务器支持](lync-server-2013-client-and-server-support-for-location-based-routing.md)
 
   - [Lync Server 2013 中基于位置的路由不支持的功能](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
 
   - [Lync Server 2013 中基于位置的路由的部署过程](lync-server-2013-deployment-process-for-location-based-routing.md)
 
-  - [Lync Server 2013 中的会议基于位置的路由](lync-server-2013-location-based-routing-for-conferencing.md)
+  - [Lync Server 2013 中的会议的基于位置的路由](lync-server-2013-location-based-routing-for-conferencing.md)
 
 </div>
 

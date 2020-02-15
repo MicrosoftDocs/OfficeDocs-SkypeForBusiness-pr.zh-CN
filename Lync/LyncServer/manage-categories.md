@@ -12,20 +12,20 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bac2433702a90624e3ee4fb865bfb70b6d07d16
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97b161ab9dce464bdab96432ed909ed48b7df19d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757166"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048296"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-categories"></a>Manage categories
+# <a name="manage-categories"></a>管理类别
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757166"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
 创建新的持久聊天服务器类别
 
@@ -51,12 +51,12 @@ _**主题上次修改时间：** 2012-10-06_
 
 </div>
 
-对现有持久聊天服务器类别进行更改
+对现有的持久聊天服务器类别进行更改
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-可以同时设置 Windows PowerShell： AllowedMembers、DeniedMembers 和创建者。 创建者应为 AllowedMembers 减 DeniedMembers 的子集。 您也可以同时设置类别的属性和成员和创建者。
+Windows PowerShell：可以同时设置 AllowedMembers、DeniedMembers 和创建者。 Creators 应该是 AllowedMembers 减去 DeniedMembers 的子集。 还可以在设置成员和创建者的同时设置类别的属性。
 
 <div>
 
@@ -70,7 +70,7 @@ _**主题上次修改时间：** 2012-10-06_
 
     Get-CsPersistentChatCategory -Identity <String>
 
-或者
+或
 
     Get-CsPersistentChatCategory -PersistentChatPoolFqdn <String>
 
@@ -78,7 +78,7 @@ _**主题上次修改时间：** 2012-10-06_
 
     Set-CsPersistentChatCategory -Instance <CategoryObject> [-WhatIf] [-Confirm] [<CommonParameters>]
 
-或者
+或
 
     Set-CsPersistentChatCategory [-Identity] <string> [-Name <string>] [-Description <string>] [-Invitations <bool>] [-FileUpload <bool>] [-ChatHistory <bool>] [-AllowedMembers <PSListModifier[string]>] [-DeniedMembers <PSListModifier[string]>] [-Creators <PSListModifier[string]>] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
@@ -86,7 +86,7 @@ _**主题上次修改时间：** 2012-10-06_
 
     Remove-CsPersistentChatCategory -Instance <CategoryObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-或者
+或
 
     Remove-CsPersistentChatCategory -Identity <String> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

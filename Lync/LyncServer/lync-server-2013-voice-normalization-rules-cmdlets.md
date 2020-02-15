@@ -12,16 +12,16 @@ ms:contentKeyID: 48184758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ea2374d334a617d7824a073e62f557e6ca9916
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ce93f84f977630ec4b0764b67ce4622c9b81f53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757186"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757186"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-20_
+_**上次修改的主题：** 2012-06-20_
 
-语音规范化规则用于将电话拨号要求（例如，拨打9的外线）转换为 Microsoft Lync Server 2013 使用的 E：164个电话号码格式。
+语音规范化规则用于将电话拨号要求（例如，拨打9访问外线）转换为 Microsoft Lync Server 2013 使用的 e.164 电话号码格式。
 
 <div>
 
@@ -48,24 +48,24 @@ _**主题上次修改时间：** 2012-06-20_
 **语音规范化规则**
 
   - <span></span>  
-    [CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))
+    [CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398393(v=OCS.15))
 
   - <span></span>  
-    [新-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))
+    [新 CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398240(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))
+    [CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398501(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))
+    [CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg398491(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [新-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
+    [新 CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
 
 </div>
 

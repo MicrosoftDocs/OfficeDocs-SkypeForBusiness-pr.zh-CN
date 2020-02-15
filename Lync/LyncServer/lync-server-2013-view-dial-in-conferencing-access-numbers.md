@@ -12,20 +12,20 @@ ms:contentKeyID: 49733628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e86127c2a945bcd9154df0456545f5783fd1a34
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 851ac4d48a5242355baa1f25499dcaf26e8ef099
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731082"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中查看电话拨入式会议接入号码
+# <a name="view-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>在 Lync Server 2013 中查看电话拨入式会议访问号码
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41731082"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-在 Lync Server 2013 控制面板中，为用户提供电话拨入访问号码，以便他们可以在外部加入会议。
+在 Lync Server 2013 控制面板中，向用户提供电话拨入访问号码，以便他们可以从外部加入会议。
 
 <div>
 
 ## <a name="to-view-dial-in-access-numbers"></a>查看拨入访问号码
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“会议”****，然后单击“拨入访问号码”****。
 
-4.  在“**拨入访问号码**”页上，单击要查看的访问号码。
+4.  在“拨入访问号码”**** 页上，单击要查看的访问号码。
 
-5.  在 "**编辑**" 中，选择 "**显示详细信息 ...** " 复选框。
+5.  在“编辑”**** 中，选中“显示详细信息...”**** 复选框。
 
 </div>
 
@@ -59,7 +59,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="viewing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看电话拨入式会议访问号码
 
-可以使用 Windows PowerShell 和 CsDialInConferencingAccessNumber cmdlet 查看电话拨入式会议访问号码。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+可以使用 Windows PowerShell 和 Set-csdialinconferencingaccessnumber cmdlet 查看电话拨入式会议访问号码。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
@@ -86,7 +86,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber) cmdlet 的帮助主题。
+有关详细信息，请参阅[set-csdialinconferencingaccessnumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber) cmdlet 的帮助主题。
 
 </div>
 

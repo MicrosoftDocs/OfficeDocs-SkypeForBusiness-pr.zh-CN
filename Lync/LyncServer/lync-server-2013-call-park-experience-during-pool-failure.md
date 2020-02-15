@@ -12,16 +12,16 @@ ms:contentKeyID: 48185831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59de3b7cc7490c84536cfbc1457c6486af52c33a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a89acc193f70ba5047a2f1c6362b957d182afdb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742962"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742962"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-10_
+_**上次修改的主题：** 2012-09-10_
 
-当前端池因计划外事件而不可用时，已暂停但尚未检索的通话将断开连接。 在故障转移到备份池的过程中，用户将被重定向到备份池并处于复原模式。 在弹性模式下，用户不能寄存呼叫，但可以将呼叫置于保持状态，并将其转移。 故障转移完成后，可以再次按正常方式暂停和检索呼叫。 在故障回复期间，用户不能寄存呼叫，直到他们退出恢复模式。
+当前端池因计划外事件而不可用时，将断开已暂停但尚未检索的呼叫。 在至备份池的故障转移期间，用户将重定向至备份池，并将处于恢复能力模式。 在恢复能力模式下，用户无法寄存呼叫，但可保持呼叫并转接呼叫。 故障转移完成后，可再次正常寄存并取回呼叫。 在故障回复期间，用户在脱离恢复能力模式之前，无法寄存呼叫。
 
-在灾难恢复期间，已作为故障转移过程的一部分被重定向到备份池的用户将使用在备份池中部署的 "呼叫驻留" 应用程序。 因此，被重定向到备份池的用户使用为备份池中的 "呼叫驻留" 应用程序配置的 "呼叫寄存" 设置。
+在灾难恢复过程中，作为故障转移过程的一部分被重定向到备份池的用户将使用在备份池中部署的呼叫寄存应用程序。 因此，重定向到备份池的用户将使用为备份池中的呼叫寄存应用程序配置的呼叫寄存设置。
 
-下表总结了灾难恢复阶段的通话寄存体验。
+下表总结了灾难恢复阶段的呼叫寄存体验。
 
 ### <a name="user-experience-during-disaster-recovery"></a>灾难恢复期间的用户体验
 
@@ -54,36 +54,36 @@ _**主题上次修改时间：** 2012-09-10_
 </colgroup>
 <thead>
 <tr class="header">
-<th>通话状态</th>
-<th>出现停机时</th>
+<th>呼叫状态</th>
+<th>中断出现时间</th>
 <th>故障转移期间</th>
 <th>故障回复期间</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>通话尚未停用</p></td>
-<td><p>通话保持连接，但无法停用。</p></td>
+<td><p>尚未寄存的呼叫</p></td>
+<td><p>呼叫仍处于连接状态，但无法寄存。</p></td>
 <td><ul>
-<li><p>在故障转移期间，当用户处于复原模式时，无法停止呼叫，但可以将呼叫置于保持状态并进行转移。</p></li>
-<li><p>故障转移完成后，可以停用和检索呼叫。</p></li>
+<li><p>故障转移期间，用户处于恢复能力模式，无法寄存呼叫，但可保持呼叫并进行转接。</p></li>
+<li><p>故障转移完成后，可寄存并取回呼叫。</p></li>
 </ul></td>
 <td><ul>
-<li><p>在故障回复期间，当用户处于复原模式时，无法停止呼叫，但可以将呼叫置于保持状态并进行转移。</p></li>
-<li><p>当故障回复完成时，可以停用和检索呼叫。</p></li>
+<li><p>故障回复期间，用户处于恢复能力模式，无法寄存呼叫，但可保持呼叫并进行转接。</p></li>
+<li><p>故障回复完成后，可寄存并取回呼叫。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>呼叫已暂停，但尚未检索</p></td>
-<td><p>通话断开。</p></td>
-<td><p>通话处于此状态。</p></td>
-<td><p>通话保持停用。</p></td>
+<td><p>呼叫已寄存，但尚未取回</p></td>
+<td><p>将断开呼叫。</p></td>
+<td><p>无呼叫处于此状态。</p></td>
+<td><p>呼叫仍处于寄存状态。</p></td>
 </tr>
 <tr class="odd">
-<td><p>已检索寄存通话</p></td>
-<td><p>通话保持连接。</p></td>
-<td><p>通话保持连接。</p></td>
-<td><p>通话保持连接。</p></td>
+<td><p>已取回的寄存呼叫</p></td>
+<td><p>呼叫仍处于连接状态。</p></td>
+<td><p>呼叫仍处于连接状态。</p></td>
+<td><p>呼叫仍处于连接状态。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 50873756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1469bb017f9597bcd1fffba54f39e62dc0bd6e96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8464e64c3de1e85f823bb3e1b5dac4dd1837effd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722432"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,36 +35,36 @@ ms.locfileid: "41722432"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-你可以使用客户端版本策略指定你的环境支持的客户端版本。 使用客户端版本有助于减少与支持多个客户端版本相关的成本。 它还可以改进整体用户体验，因为当客户端的早期版本和更高版本的客户端交互时，可用的功能可以受到较早版本的客户端的限制。 可以从 Lync Server 2013 控制面板或 Lync Server 2013 管理外壳程序创建或修改客户端版本策略。
+您可以使用客户端版本策略指定您的环境中支持的客户端版本。 使用客户端版本控制有助于降低与支持多个客户端版本相关的成本。 它还可以改进总体用户体验，因为在更早和更高版本的客户端进行交互时，可通过早期版本的客户端来限制可用功能。 您可以从 Lync Server 2013 控制面板或 Lync Server 2013 命令行管理程序创建或修改客户端版本策略。
 
 <div>
 
-## <a name="to-create-or-modify-client-version-policies-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 创建或修改客户端版本策略
+## <a name="to-create-or-modify-client-version-policies-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板创建或修改客户端版本策略的具体方法
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击 "**客户端**"。
+3.  在左侧导航栏中，单击“客户端”****。
     
     <div>
     
 
     > [!NOTE]  
-    > 默认情况下，"<STRONG>客户端版本策略</STRONG>" 选项卡处于选中状态。
+    > 默认情况下，选中“客户端版本策略”<STRONG></STRONG>选项卡。
 
     
     </div>
 
-4.  在 "**客户端版本策略**" 页面上，执行下列操作之一：
+4.  在 "**客户端版本策略**" 页上，执行下列操作之一：
     
       - 若要创建客户端版本策略，请单击 "**新建**"，选择 "**网站策略**"、"**池策略**" 或 "**用户策略**"，然后单击 **"确定"**。
     
-      - 若要修改全局策略或其他现有的客户端版本策略，请选择该策略，单击 "**编辑**"，然后单击 "**显示详细信息**"。
+      - 若要修改全局策略或其他现有客户端版本策略，请选择该策略，单击 "**编辑**"，然后单击 "**显示详细信息**"。
 
-5.  在 "**编辑客户端版本策略**" 页面上，创建或修改规则，如在[Lync Server 2013 中创建或修改新的客户端版本策略规则](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)中所述。
+5.  在 "**编辑客户端版本策略**" 页上，创建或修改规则，如在[Lync Server 2013 中创建或修改新的客户端版本策略规则](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)中所述。
 
 </div>
 
@@ -72,13 +72,13 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="creating-or-modifying-client-version-policies-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 创建或修改客户端版本策略
 
-你可以使用**CsClientVersionPolicy** cmdlet 创建客户端版本策略，并使用**CsClientVersionPolicy** cmdlet 对其进行修改。 这些 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用**CsClientVersionPolicy** cmdlet 创建客户端版本策略，并使用**CsClientVersionPolicy** cmdlet 对其进行修改。 这些 cmdlet 可从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
 ## <a name="to-create-a-new-site-scoped-client-version-policy"></a>创建新的网站范围的客户端版本策略
 
-  - 以下命令将创建应用于 Redmond 网站的新客户端版本策略。 由于没有指定任何其他参数，新策略将使用默认的客户端版本设置。
+  - 以下命令将创建一个应用于 Redmond 站点的新客户端版本策略。 由于未指定其他参数，因此新策略将使用默认客户端版本设置。
     
         New-CsClientVersionPolicy -Identity "site:Redmond"
 
@@ -86,9 +86,9 @@ _**主题上次修改时间：** 2013-02-23_
 
 <div>
 
-## <a name="to-create-a-new-per-user-client-version-policy"></a>创建新的基于用户的客户端版本策略
+## <a name="to-create-a-new-per-user-client-version-policy"></a>创建新的每用户客户端版本策略
 
-  - 若要创建每用户策略，请使用类似下面的命令：
+  - 若要创建每用户策略，请使用类似如下的命令：
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 

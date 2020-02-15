@@ -12,16 +12,16 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96740d8937f1548952d41d5674ef3e66cd29e2b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41d739ae79998fe3dbf3acadba2b2f480a960a30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756706"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756706"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-Lync Server 2013 引入了新 cmdlet 支持，用于将响应组从一个池移动到另一个池，即使完全限定的域名（FQDN）不同也是如此。
+Lync Server 2013 引入了支持将响应组从一个池移动到另一个池的新 cmdlet，即使完全限定的域名（FQDN）不同也是如此。
 
 使用以下过程中的步骤将响应组从一个前端池移动到另一个具有不同 FQDN 的前端池。
 
@@ -55,9 +55,9 @@ Lync Server 2013 引入了新 cmdlet 支持，用于将响应组从一个池移�
 
 ## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>将响应组移动到具有不同 FQDN 的池
 
-1.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-2.  导出源池中的响应组。 在命令行中键入：
+2.  在源池中导出响应组。 在命令行中键入：
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
@@ -65,15 +65,15 @@ Lync Server 2013 引入了新 cmdlet 支持，用于将响应组从一个池移�
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     
-    若要在导出期间从源池中删除响应组，请包括-RemoveExportedConfiguration 参数。 例如：
+    若要在导出过程中从源池中删除响应组，请包含– RemoveExportedConfiguration 参数。 例如：
     
         Export-CsRgsConfiguration -Source ApplicationServer:source.contoso.com -FileName "C:\RgsExportSource.zip" -RemoveExportedConfiguration
 
-3.  将响应组导入目标池，并将目标池分配为新所有者。 在命令行中键入：
+3.  将响应组导入目标池，并将目标池指定为新的所有者。 在命令行中键入：
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    如果你还希望将 "响应组" 应用程序级别的设置从源池中复制到目标池，请包括-ReplaceExistingRgsSettings 参数。 你只能针对每个池定义一组应用程序级别设置。 如果将应用程序级别的设置从源池复制到目标池，源池中的设置将替换目标池的设置。 如果不从源池中复制应用程序级别的设置，则目标池中的现有设置将应用于导入的响应组。
+    如果还要将响应组应用程序级别的设置从源池复制到目标池，请包含– ReplaceExistingRgsSettings 参数。 您只能针对每个池定义一组应用程序级别设置。 如果将应用程序级别的设置从源池复制到目标池，源池的设置将替换目标池的设置。 如果不从源池中复制应用程序级别的设置，则目标池中的现有设置将应用于导入的响应组。
     
     例如：
     
@@ -83,7 +83,7 @@ Lync Server 2013 引入了新 cmdlet 支持，用于将响应组从一个池移�
     
 
     > [!NOTE]  
-    > 应用程序级设置包括默认的音乐保留配置、默认的音乐保留音频文件、代理 ringback 宽限期和调用上下文配置。 若要查看这些配置设置，请运行<STRONG>CsRgsConfiguration</STRONG> cmdlet。 有关此 cmdlet 的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">CsRgsConfiguration</A>。
+    > 应用程序级别的设置包括默认的保持音乐配置、默认的保持音乐的音频文件、代理回拨宽限期和呼叫上下文配置。 若要查看这些配置设置，请运行 <STRONG>Get-CsRgsConfiguration</STRONG> cmdlet。 有关此 cmdlet 的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">CsRgsConfiguration</A>。
 
     
     </div>
@@ -110,11 +110,11 @@ Lync Server 2013 引入了新 cmdlet 支持，用于将响应组从一个池移�
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<destination pool FQDN>" 
 
-5.  通过将呼叫放到其中一个响应组并验证是否正确处理了呼叫，验证导入是否成功。
+5.  通过将呼叫放到其中一个响应组并验证是否正确处理了该呼叫，来验证导入是否成功。
 
-6.  请求代理是正式代理组的成员，以便登录到目标池中的代理组。
+6.  请求代理是正式代理组的成员，以登录到目标池中的代理组。
 
-7.  如果以前没有从源池中删除响应组，请从源池中删除响应组。 在命令行中键入：
+7.  如果以前未从源池中删除响应组，请从源池中删除响应组。 在命令行中键入：
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source pool FQDN> -RemoveExportedConfiguration -FileName "<temporary export file name>"
     

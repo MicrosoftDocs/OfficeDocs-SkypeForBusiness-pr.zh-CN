@@ -12,16 +12,16 @@ ms:contentKeyID: 49733608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e84c2b0114393a0d9234e18af8af7c8c98f3d8b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83db08d7e0630a74ae5c4366afb3b18ed9d7e567
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765893"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765893"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-*网络区域路由*定义一对网络区域之间的路线。 呼叫许可控制部署中的每对网络区域都需要网络区域路线。 这样部署中的每个网络区域便能够访问任何其他区域。 使用此部分中的过程查看、创建、修改或删除网络区域路由。
+*网络区域路由* 定义一对网络区域之间的路由。呼叫允许控制部署中的每对网络区域均需要网络区域路由。这样部署中的每个网络区域便能够访问其他每个区域。使用本节中的过程可查看、创建、修改或删除网络区域路由。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中创建或修改网络区域](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [在 Lync Server 2013 中查看网络区域路线信息](lync-server-2013-viewing-network-region-route-information.md)
+  - [在 Lync Server 2013 中查看网络区域路由信息](lync-server-2013-viewing-network-region-route-information.md)
 
-  - [删除 Lync Server 2013 中的现有网络区域路由](lync-server-2013-deleting-existing-network-region-routes.md)
+  - [在 Lync Server 2013 中删除现有网络区域路由](lync-server-2013-deleting-existing-network-region-routes.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：SIP 中继概述
+title: Lync Server 2013： SIP 中继概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 340c27b3e874ea3d9f55aac2b415bd1a440aab9d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fbf29b02af831f82050e9a032a35f0fa57c1eb1e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755466"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755466"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-05_
+_**上次修改的主题：** 2012-10-05_
 
 部署 SIP 中继对于简化组织的电信和准备实时通信的最新增强功能来说可能是重要的一步。SIP 中继的主要优点之一是可以在中央站点中合并组织的公用电话交换网 (PSTN) 连接，与早期的时分多路复用 (TDM) 中继相反，后者通常要求在每个分支站点部署单独的中继。
 
@@ -43,11 +43,11 @@ _**主题上次修改时间：** 2012-10-05_
 
 ## <a name="sip-trunking-in-lync-server"></a>Lync Server 中的 SIP 中继
 
-Lync Server 2013 SIP 中继功能支持以下功能：
+Lync Server 2013 SIP 中继功能可实现以下功能：
 
-  - 企业用户（无论是在企业防火墙内部还是外部），都可以通过在 PSTN 上终止的以164为单位的服务提供商的服务来指定本地呼叫或长途呼叫。
+  - 企业防火墙内外的企业用户可以拨打由符合 E.164 标准的号码指定的本地电话或长途电话，该电话将作为相应服务提供商的一项服务终止于 PSTN 上。
 
-  - 任何 PSTN 订阅者都可以通过拨打与该企业用户相关联的直接向内拨号（已完成）号码，与企业防火墙内部或外部的企业用户联系。
+  - 通过拨打与企业防火墙内外的企业用户关联的外线直拨分机 (DID) 号码，任何 PSTN 订阅者都可以与该企业用户取得联系。
 
 </div>
 
@@ -77,9 +77,9 @@ Lync Server 2013 SIP 中继功能支持以下功能：
 
 ## <a name="expanded-voip-services"></a>扩展的 VoIP 服务
 
-语音功能通常是部署 SIP 中继的主要动机，但是语音支持只是第一步。 使用 SIP 中继，您可以扩展 VoIP 功能并启用 Lync Server 2013 以提供一组更丰富的服务。 例如：
+语音功能通常是部署 SIP 中继的主要动机，但是语音支持只是第一步。 使用 SIP 中继，可以扩展 VoIP 功能并启用 Lync Server 2013，以提供更丰富的服务集。 例如：
 
-  - 未运行 Lync Server 2013 的设备的增强状态检测可提供与移动电话的更好集成，让你能够查看用户何时使用手机呼叫。
+  - 未运行 Lync Server 2013 的设备的增强状态检测可以提供与移动电话更好的集成，使你能够查看用户何时在移动电话呼叫。
 
   - 通过使用 E9-1-1 紧急呼叫，应答 911 呼叫的机构可以通过电话号码确定呼叫者的位置。
 

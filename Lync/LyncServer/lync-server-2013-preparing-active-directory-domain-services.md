@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：准备 Active Directory 域服务
+title: Lync Server 2013：正在准备 Active Directory 域服务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da033b8b7589b5257a73d77f3cd618236a2e4747
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b8ba47445194f4b7d4c02966404c03ee981e1c76
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724982"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41724982"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-在部署和操作 Lync Server 2013 之前，必须通过扩展架构，然后创建和配置对象来准备 Active Directory 域服务。 架构扩展添加 Lync Server 所需的 Active Directory 类和属性。
+在部署和操作 Lync Server 2013 之前，必须先扩展架构，然后创建并配置对象，以准备 Active Directory 域服务。 架构扩展添加了 Lync Server 所需的 Active Directory 类和属性。
 
-本部分中的主题介绍如何准备用于部署 Lync Server 的 AD DS 以及如何分配设置和组织单位（OU）权限。 有关 Lync Server 所需的架构更改的详细信息，请参阅[Lync server 2013 使用的 Active Directory 架构扩展、类和属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)。
+本节中的主题介绍如何准备 AD DS 以部署 Lync Server 以及如何分配安装程序和组织单位（OU）权限。 有关 Lync Server 所需的架构更改的详细信息，请参阅[Lync server 2013 所使用的 Active Directory 架构扩展、类和属性](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 的 Active Directory 基础结构要求](lync-server-2013-active-directory-infrastructure-requirements.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d76907c1868e9fccb1a31e705c73807a8cbe501b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe2ea13628e9a4ede3daa2b14ebbb3941ce30aa1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764478"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764478"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-13_
+_**上次修改的主题：** 2012-08-13_
 
-会话初始协议 (SIP) 用于启动和管理基本电话服务和其他实时通信服务（例如即时消息、会议、状态检测和多媒体）的 IP 语音 (VoIP) 通信会话。本节提供实现 *SIP 中继*（一种 SIP 连接，可以扩展到本地网络以外）的规划信息。
+会话初始协议 (SIP) 用于启动和管理基本电话服务和其他实时通信服务（例如即时消息、会议、状态检测和多媒体）的 IP 语音 (VoIP) 通信会话。本节提供实现*SIP 中继*（一种 SIP 连接，可以扩展到本地网络以外）的规划信息。
 
 <div>
 
@@ -49,7 +49,7 @@ SIP 中继是一种 IP 连接，在您的组织与防火墙以外的 Internet �
 
 ## <a name="sip-trunks-vs-direct-sip-connections"></a>SIP 中继与直接 SIP 连接
 
-术语*中继*源自电路交换技术。 它指的是连接电话交换设备的专用物理线路。 与它们的前身一样，时间段复用（TDM）中继，SIP 中继是两个独立 SIP 网络之间的连接，即 Lync Server 2013 企业版和 ITSP。 SIP 中继是可以通过任何支持的 SIP 中继连接类型建立的虚拟连接，这一点与电路交换中继不同。 有关支持的连接类型的详细信息，请参阅[如何在 Lync Server 2013 中实现 SIP 中继？](lync-server-2013-how-do-i-implement-sip-trunking.md)。
+术语*中继* 源自电路交换技术。 它指的是连接电话交换设备的专用物理线路。 与它们的前置任务（TDM）中继一样，SIP 中继是两个独立 SIP 网络（Lync Server 2013 企业版和 ITSP）之间的连接。 SIP 中继是可以通过任何支持的 SIP 中继连接类型建立的虚拟连接，这一点与电路交换中继不同。 有关支持的连接类型的详细信息，请参阅[如何在 Lync Server 2013 中实现 SIP 中继？](lync-server-2013-how-do-i-implement-sip-trunking.md)。
 
 而直接 SIP 连接指的是不能跨越本地网络边界的 SIP 连接（也就是说，它们连接到内部网络内的公用电话交换网 (PSTN) 网关或专用交换机 (PBX)）。 有关如何将直接 SIP 连接与 Lync Server 2013 配合使用的详细信息，请参阅[Lync server 2013 中的直接 sip 连接](lync-server-2013-direct-sip-connections.md)。
 
@@ -59,15 +59,15 @@ SIP 中继是一种 IP 连接，在您的组织与防火墙以外的 Internet �
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的 SIP 中继概述](lync-server-2013-overview-of-sip-trunking.md)
 
-  - [如何在 Lync Server 2013 中实施 SIP 中继？](lync-server-2013-how-do-i-implement-sip-trunking.md)
+  - [如何在 Lync Server 2013 中实现 SIP 中继？](lync-server-2013-how-do-i-implement-sip-trunking.md)
 
-  - [Lync Server 2013 中用于 SIP 中继的组件和拓扑](lync-server-2013-components-and-topologies-for-sip-trunking.md)
+  - [Lync Server 2013 中的 SIP 中继的组件和拓扑](lync-server-2013-components-and-topologies-for-sip-trunking.md)
 
-  - [Branch site SIP trunking in Lync Server 2013](lync-server-2013-branch-site-sip-trunking.md)
+  - [Lync Server 2013 中的分支站点 SIP 中继](lync-server-2013-branch-site-sip-trunking.md)
 
   - [Lync Server 2013 的 SIP 中继部署清单](lync-server-2013-sip-trunk-deployment-checklist.md)
 

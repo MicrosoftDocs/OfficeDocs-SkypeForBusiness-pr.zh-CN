@@ -12,20 +12,20 @@ ms:contentKeyID: 48184236
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b730d265d32341b329bf5ba3a1055b37bd240a55
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb94d296c934e19a9a790ca6e229549866e3f6c8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740592"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-high-availability-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 "备份" 和 "高可用性" cmdlet
+# <a name="backup-and-high-availability-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的备份和高可用性 cmdlet
 
 </div>
 
@@ -35,71 +35,71 @@ ms.locfileid: "41740592"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-09_
+_**上次修改的主题：** 2012-10-09_
 
-"备份" 和 "高可用性" cmdlet 使管理员能够管理 Microsoft Lync Server 2013 中引入的池备份、还原和高可用性功能。
+备份和高可用性 cmdlet 使管理员能够管理 Microsoft Lync Server 2013 中引入的池备份、还原和高可用性功能。
 
 <div>
 
 ## <a name="backup-and-high-availability-cmdlets"></a>备份和高可用性 Cmdlet
 
-以下是与备份和配置 Lync Server 拓扑的可用性直接相关的 cmdlet 的列表：
+以下是与备份和配置 Lync Server 拓扑的可用性直接相关的 cmdlet 列表：
 
 **备份和高可用性 Cmdlet**
 
-  - [Get-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205087(v=OCS.15))
+  - [CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ205087(v=OCS.15))
 
-  - [Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ204903(v=OCS.15))
+  - [CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ204903(v=OCS.15))
 
-  - [Set-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205006(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsBackupServiceStatus](https://technet.microsoft.com/en-us/library/JJ205032(v=OCS.15))
+  - [CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ205006(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsBackupServiceSync](https://technet.microsoft.com/en-us/library/JJ205374(v=OCS.15))
+  - [CsBackupServiceStatus](https://technet.microsoft.com/library/JJ205032(v=OCS.15))
 
 <!-- end list -->
 
-  - [Debug-CsIntraPoolReplication](https://technet.microsoft.com/en-us/library/JJ205103(v=OCS.15))
+  - [调用 CsBackupServiceSync](https://technet.microsoft.com/library/JJ205374(v=OCS.15))
 
 <!-- end list -->
 
-  - [Backup-CsPool](https://technet.microsoft.com/en-us/library/JJ204955(v=OCS.15))
+  - [调试-CsIntraPoolReplication](https://technet.microsoft.com/library/JJ205103(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolBackupRelationship](https://technet.microsoft.com/en-us/library/JJ204745(v=OCS.15))
+  - [Backup-Start-cspool](https://technet.microsoft.com/library/JJ204955(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolFabricState](https://technet.microsoft.com/en-us/library/JJ619188(v=OCS.15))
+  - [CsPoolBackupRelationship](https://technet.microsoft.com/library/JJ204745(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailBack](https://technet.microsoft.com/en-us/library/JJ204873(v=OCS.15))
+  - [CsPoolFabricState](https://technet.microsoft.com/library/JJ619188(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailOver](https://technet.microsoft.com/en-us/library/JJ205189(v=OCS.15))
+  - [调用 CsPoolFailBack](https://technet.microsoft.com/library/JJ204873(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/en-us/library/JJ204689(v=OCS.15))
+  - [调用 CsPoolFailOver](https://technet.microsoft.com/library/JJ205189(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsStorageServiceFlush](https://technet.microsoft.com/en-us/library/JJ619175(v=OCS.15))
+  - [CsPoolUpgradeReadinessState](https://technet.microsoft.com/library/JJ204689(v=OCS.15))
 
 <!-- end list -->
 
-  - [Sync-CsUserData](https://technet.microsoft.com/en-us/library/JJ205242(v=OCS.15))
+  - [调用 CsStorageServiceFlush](https://technet.microsoft.com/library/JJ619175(v=OCS.15))
 
 <!-- end list -->
 
-  - [Remove-CsUserStoreBackupData](https://technet.microsoft.com/en-us/library/JJ205003(v=OCS.15))
+  - [Sync-Export-csuserdata](https://technet.microsoft.com/library/JJ205242(v=OCS.15))
+
+<!-- end list -->
+
+  - [CsUserStoreBackupData](https://technet.microsoft.com/library/JJ205003(v=OCS.15))
 
 </div>
 

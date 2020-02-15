@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新的管理功能
+title: Lync Server 2013：新的管理功能和管理功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184476
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29efac93e5f041172b6d05c4fafec96a56834978
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7b2b45dd3d48298012bfea5b26345cd2230d72e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765350"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048326"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-management-and-administration-features-in-lync-server-2013"></a>Lync Server 2013 中新的管理功能
+# <a name="new-management-and-administration-features-in-lync-server-2013"></a>Lync Server 2013 中的新管理和管理功能
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765350"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-26_
+_**上次修改的主题：** 2012-09-26_
 
-Lync Server 2013 包括以下新增功能，可简化管理部署的任务。
+Lync Server 2013 包括以下新功能，以简化管理部署的任务。
 
-  - [在 Lync Server 2013 中拓扑生成器支持 SQL Server 镜像](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
+  - [拓扑生成器在 Lync Server 2013 中支持 SQL Server 镜像](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
 
-  - [Lync Server 2013 中新的基于角色的访问控制 (RBAC) 功能](lync-server-2013-has-new-role-based-access-control-features.md)
+  - [Lync Server 2013 中新的基于角色的访问控制功能](lync-server-2013-has-new-role-based-access-control-features.md)
 
-  - [Lync Server 2013 中持久聊天管理工具的集成](lync-server-2013-integration-of-persistent-chat-management-tools.md)
+  - [在 Lync Server 2013 中集成持久聊天管理工具](lync-server-2013-integration-of-persistent-chat-management-tools.md)
 
 </div>
 

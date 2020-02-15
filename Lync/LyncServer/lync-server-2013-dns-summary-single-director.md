@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：DNS 摘要 - 单一控制器
+title: Lync Server 2013： DNS 摘要-单一控制器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71fb3052de36a92afb4ed9076820f7fcb2b54997
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44bcd52c2e7d13ef57e96e4ae5dc8841a58bc3d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757576"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-director-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要 - 单一控制器
+# <a name="dns-summary---single-director-in-lync-server-2013"></a>DNS 摘要-Lync Server 2013 中的单个控制器
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41757576"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-20_
+_**上次修改的主题：** 2012-10-20_
 
-下表包含支持单个控制器所需的 DNS 记录的摘要。 Director 的角色需要类似的 DNS 记录作为前端服务器。 所需的记录数反映在 Director 证书所需的主题备用名称中。 与前端服务器不同，控制器不会托管用户帐户或托管移动服务。
+下表列出了支持单个控制器所需的 DNS 记录的摘要。 Director 的角色需要类似的 DNS 记录作为前端服务器。 所需的记录数反映在控制器证书所需的主题替代名称中。 与前端服务器不同，控制器不承载用户帐户或承载移动服务。
 
-### <a name="dns-records-required-for-the-director"></a>Director 所需的 DNS 记录
+### <a name="dns-records-required-for-the-director"></a>控制器所需的 DNS 记录
 
 <table>
 <colgroup>
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2012-10-20_
 <th>位置/类型/端口</th>
 <th>FQDN/DNS 记录</th>
 <th>IP 地址/FQDN</th>
-<th>映射到/批注</th>
+<th>映射位置/注释</th>
 </tr>
 </thead>
 <tbody>
@@ -73,19 +73,19 @@ _**主题上次修改时间：** 2012-10-20_
 <td><p>内部 DNS/A</p></td>
 <td><p>dialin.contoso.com</p></td>
 <td><p>控制器</p></td>
-<td><p>从反向代理已发布的拨入 web 服务</p></td>
+<td><p>反向代理中的已发布电话拨入式 Web 服务</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS/A</p></td>
 <td><p>meet.contoso.com</p></td>
 <td><p>控制器</p></td>
-<td><p>已发布通过反向代理的 web 服务</p></td>
+<td><p>反向代理中的已发布的会议 Web 服务</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
 <td><p>控制器</p></td>
-<td><p>由 "反向代理 Web 票" 发布和定义的由 Director 的外部 web 服务</p></td>
+<td><p>由 Director 的反向代理 Web 票证外部 web 服务发布和定义</p></td>
 </tr>
 </tbody>
 </table>

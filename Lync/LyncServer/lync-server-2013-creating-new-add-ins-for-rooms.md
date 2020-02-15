@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：创建新的聊天室外接程序
+title: Lync Server 2013：为聊天室创建新的外接程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706001
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e69f7061abb735e751a5d5df3a1b926a7a7003dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6bd76602da91dfc41458d1f8fd76356cb11e6e7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729712"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a>在 Lync Server 2013 中创建新的聊天室外接程序
+# <a name="creating-new-add-ins-for-rooms-in-lync-server-2013"></a>在 Lync Server 2013 中为聊天室创建新的外接程序
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41729712"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
-若要为持久聊天室创建外接程序，请参阅部署文档中的[Lync Server 2013 中的会议室配置加载项](lync-server-2013-configure-add-ins-for-rooms.md)。 如果您是持久的聊天管理员，则可以使用 Lync Server 控制面板或 Windows PowerShell cmdlet 创建外接程序。
+若要为持久聊天室创建外接程序，请参阅部署文档中的在[Lync Server 2013 中配置聊天室的外接程序](lync-server-2013-configure-add-ins-for-rooms.md)。 如果您是持久聊天管理员，则可以使用 Lync Server 控制面板或 Windows PowerShell cmdlet 创建外接程序。
 
 </div>
 

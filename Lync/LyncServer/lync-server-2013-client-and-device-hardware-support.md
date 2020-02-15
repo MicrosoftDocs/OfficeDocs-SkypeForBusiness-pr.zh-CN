@@ -12,16 +12,16 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c87692e169bac11c29bc1beeb61df8c6c964b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9041f63f012f7251c51bb60d912417a2ed0494e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729832"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729832"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-客户端计算机必须满足某些硬件要求才能支持 Lync Server 2013 部署中的客户端。 在部署 IP 电话和模拟设备之前，必须准备好其他硬件配置。
+客户端计算机必须满足特定的硬件要求，才能支持 Lync Server 2013 部署中的客户端。 其他硬件配置到位后，才能部署 IP 电话和模拟设备。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的 Lync 客户端硬件支持](lync-server-2013-lync-client-hardware-support.md)
+  - [Lync Server 2013 中的 lync 客户端硬件支持](lync-server-2013-lync-client-hardware-support.md)
 
   - [Lync Server 2013 中的设备硬件支持](lync-server-2013-device-hardware-support.md)
 

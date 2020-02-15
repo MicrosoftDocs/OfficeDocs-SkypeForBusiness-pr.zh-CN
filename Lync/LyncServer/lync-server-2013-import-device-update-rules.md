@@ -12,16 +12,16 @@ ms:contentKeyID: 51803967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 872f729584f14011d18920a676c32205d38c7f62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7c0700606966713d9828f538d37600a718dcd43
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763846"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763846"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-只能使用 Windows PowerShell 和**CsDeviceUpdate** cmdlet 导入设备更新规则。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。
+只能使用 Windows PowerShell 和**CsDeviceUpdate** cmdlet 导入设备更新规则。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。
 
 <div>
 
 
 > [!NOTE]  
-> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。
+> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 
 
@@ -66,7 +66,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>将设备更新规则导入到所有 web 服务器
 
-  - 在此示例中，设备更新规则将导入到组织中部署的所有 Web 服务器。 若要使用此命令，必须共享\\ \\文件夹\\atl-fs-001.litwareinc.com 更新，并将其提供给所有 Web 服务器。
+  - 在此示例中，将设备更新规则导入到组织中部署的所有 Web 服务器。 若要使此命令正常运行， \\ \\必须\\共享文件夹 atl-fs-001.litwareinc.com 更新，并将其提供给所有 Web 服务器。
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
@@ -81,8 +81,8 @@ _**主题上次修改时间：** 2013-02-23_
 ## <a name="see-also"></a>另请参阅
 
 
-[查看有关 Lync Server 2013 中的设备更新规则的信息](lync-server-2013-view-information-about-device-update-rules.md)  
-[在 Lync Server 2013 中批准设备更新规则](lync-server-2013-approve-a-device-update-rule.md)  
+[在 Lync Server 2013 中查看有关设备更新规则的信息](lync-server-2013-view-information-about-device-update-rules.md)  
+[在 Lync Server 2013 中审批设备更新规则](lync-server-2013-approve-a-device-update-rule.md)  
   
 
 </div>

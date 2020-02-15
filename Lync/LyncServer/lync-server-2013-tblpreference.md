@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPreference
+title: Lync Server 2013： tblPreference
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cd45dcbd6ade83d6c4404346e1752c1f78254e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3976cb18336477c00a901116a125149b8c67ddeb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764158"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764158"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-24_
+_**上次修改的主题：** 2012-09-24_
 
 tblPreference 包含用户的客户端首选项。 这通常由 Lync 2013 之前的客户端使用。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -57,29 +57,29 @@ tblPreference 包含用户的客户端首选项。 这通常由 Lync 2013 之前
 <tbody>
 <tr class="odd">
 <td><p>prefLabel</p></td>
-<td><p>nvarchar （255），not null</p></td>
-<td><p>带格式的标签，如： &lt;用户 sip uri&gt;| 用户名。&lt;首选项&gt;集。</p></td>
+<td><p>nvarchar (255)，不为 null</p></td>
+<td><p>带有如下格式的标签： &lt;用户 sip uri&gt;| username。&lt;首选项&gt;集。</p></td>
 </tr>
 <tr class="even">
 <td><p>prefSeqID</p></td>
-<td><p>int，not null</p></td>
-<td><p>用于进行版本控制的序列号（每个标签）。</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>用于实现版本控制的顺序编号（每个标签）。</p></td>
 </tr>
 <tr class="odd">
 <td><p>prefContent</p></td>
-<td><p>nvarchar （max）</p></td>
-<td><p>编码内容。</p></td>
+<td><p>nvarchar (max)</p></td>
+<td><p>编码的内容。</p></td>
 </tr>
 <tr class="even">
 <td><p>lastModifiedBy</p></td>
-<td><p>int，not null</p></td>
-<td><p>已更新首选项的主体的 ID。</p></td>
+<td><p>int，不为 null</p></td>
+<td><p>更新了首选项的主体的 ID。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>关键字
+### <a name="key"></a>键
 
 <table>
 <colgroup>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a57ea93af90176009fff43ed4dcca9f1880a658
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d170fa183e045203398725a7b7ec4bdd4c38203
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766043"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039319"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41766043"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-15_
+_**上次修改的主题：** 2012-10-15_
 
-当用户执行以下操作时，用户的联系人会自动迁移到 Exchange 2013 服务器：
+当用户处于以下情况时，会自动将用户的联系人迁移到 Exchange 2013 服务器：
 
   - 为其分配了将 UcsAllowed 设置为 True 的用户服务策略。
 
-  - 已使用 Exchange 2013 邮箱进行了设置，并且至少已登录到邮箱一次。
+  - 已使用 Exchange 2013 邮箱进行了预配，并至少已登录到邮箱一次。
 
-  - 使用 Lync 2013 胖客户端登录。
+  - 使用 Lync 2013 富客户端登录。
 
-如果用户使用 Lync 2010 或早期版本的客户端登录，或者如果用户未连接到 Exchange 2013 服务器，则将忽略用户服务策略，并且用户的联系人保留在 Lync Server 中。
+如果用户使用 Lync 2010 或更早版本的客户端登录，或者如果用户未连接到 Exchange 2013 服务器，则用户服务策略将被忽略，并且用户的联系人仍保留在 Lync Server 中。
 
 您可以通过以下任一方法来确定是否已迁移用户的联系人：
 
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2012-10-15_
     
     HKEY\_当前\_用户\\软件\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS
     
-    如果用户的联系人存储在 Exchange 2013 中，则此注册表项包含值为2165的 InUCSMode 值。
+    如果用户的联系人存储在 Exchange 2013 中，则此项包含值为2165的值 InUCSMode。
 
   - 运行 **Test-CsUnifiedContactStore** cmdlet。 在 Lync Server Management Shell 命令行中，键入：
     

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：删除未与设备关联的设备更新文件
+title: Lync Server 2013：删除与设备不关联的设备更新文件
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803996
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42a2579360fbb4af8d6f3c491f5a56c380b593d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c456deb3b3cb72df0bd6e8ac2dd70e926bb0769
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724242"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a>删除未与 Lync Server 2013 中的设备关联的设备更新文件
+# <a name="remove-device-update-files-not-associated-with-a-device-in-lync-server-2013"></a>在 Lync Server 2013 中删除与设备不关联的设备更新文件
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41724242"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-20_
+_**上次修改的主题：** 2013-02-20_
 
-每次将新设备更新上载到系统时，都会创建相应的设备更新规则。 默认情况下，这些新的设备更新规则将分配给挂起状态。 这意味着可以在测试设备上下载和安装这些规则，但不能在生产设备上下载这些规则，这使你能够在将更新提供给用户之前对其进行测试。 根据测试，你可以接受并部署或拒绝并删除更新。 当您拒绝更新时，设备更新将与它的设备更新规则解除关联。
+每次将新设备更新上载到系统后，都会创建一个相应的设备更新规则。 默认情况下，这些新的设备更新规则被分配到挂起状态。 这意味着可以在测试设备上下载和安装这些规则，但不能在生产设备上进行测试，这使您能够在将更新提供给用户之前对其进行测试。 根据这些测试，您可以接受并部署或拒绝并删除更新。 当您拒绝更新时，设备更新将与其设备更新规则解除关联。
 
 <div>
 
 
-可使用 Windows PowerShell 和**CsDeviceUpdateFile** cmdlet 删除不再与设备关联的设备更新文件。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。
+可以使用 Windows PowerShell 和**CsDeviceUpdateFile** cmdlet 删除不再与设备关联的设备更新文件。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。
 
 <div>
 
 
 > [!NOTE]  
-> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。
+> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 
 

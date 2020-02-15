@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：备份存档和监视数据库
+title: Lync Server 2013：备份存档和监控数据库
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4092ddc3c86496053cc0ebbb367188490096de4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 955609f4d012489ba70dbb81f21a38e8261ef7f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740162"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a>在 Lync Server 2013 中备份存档和监视数据库
+# <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a>在 Lync Server 2013 中备份存档和监控数据库
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740162"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-17_
+_**上次修改的主题：** 2013-02-17_
 
-如果你已部署存档或监视，你需要根据你的组织的 SQL Server 备份策略备份这些数据库。
+如果部署了“存档”或“监控”，则需要根据组织的 SQL Server 备份策略对这些数据库进行备份。
 
 <div>
 
@@ -49,7 +49,7 @@ _**主题上次修改时间：** 2013-02-17_
 
 </div>
 
-对于存档和监视，可以使用 sql server 工具（如 SQL Server Management Studio）执行手动备份，也可以使用 SQL Server 管理工具安排定期自动备份。
+对于“存档”和“监控”，可以使用 SQL Server 工具（如 SQL Server Management Studio）执行手动备份，也可以使用 SQL Server 管理工具安排定期进行自动备份。
 
 </div>
 

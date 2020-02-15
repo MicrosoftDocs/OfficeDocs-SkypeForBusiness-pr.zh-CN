@@ -12,20 +12,20 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efb1b928ce7b4bafbbff20ad31872fe12735fe0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e5724978347b50db2790e4d5798aace8489acbb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736986"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046255"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中响应组的容量规划
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中的响应组的容量规划
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41736986"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-29_
+_**上次修改的主题：** 2012-10-29_
 
 <div id="sectionSection0" class="section">
 
-下表介绍了可用作容量计划要求基础的 "响应组" 用户模型。
+下表介绍了可以用作容量规划要求基础的响应组用户模型。
 
 <div>
 
@@ -71,16 +71,16 @@ _**主题上次修改时间：** 2012-10-29_
 </colgroup>
 <thead>
 <tr class="header">
-<th>指标</th>
-<th>每个企业版池（具有8个前端服务器）</th>
+<th>多重</th>
+<th>每个企业版池（包含8台前端服务器）</th>
 <th>每台 Standard Edition Server</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>每秒传入的呼叫数</p></td>
-<td><p>utf-16</p></td>
-<td><p>ppls-2</p></td>
+<td><p>16 </p></td>
+<td><p>2 </p></td>
 </tr>
 <tr class="even">
 <td><p>连接到 IVR 或 MoH 的并发呼叫数</p></td>
@@ -95,7 +95,7 @@ _**主题上次修改时间：** 2012-10-29_
 <tr class="even">
 <td><p>并发的匿名会话数（具有 IM）</p></td>
 <td><p>64</p></td>
-<td><p>个</p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="odd">
 <td><p>活动代理数（正式和非正式）</p></td>

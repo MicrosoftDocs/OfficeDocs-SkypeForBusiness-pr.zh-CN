@@ -12,16 +12,16 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f8023f917e3da6757ce27ede44a63cf0ab1a08d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b12a47ffde7d09fa7e216312211b6f0118b89233
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734082"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037382"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41734082"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-将 Office 通信服务器 2007 R2 拓扑信息与 Lync Server 2013 试验池合并后，您需要运行 Lync Server 2013 Management Shell cmdlet 来迁移 Office 通信服务器 2007 R2 策略和配置设置您的 Lync Server 2013 试验池。
+将 Office 通信服务器 2007 R2 拓扑信息与 Lync Server 2013 引导池合并后，您需要运行 Lync Server 2013 命令行管理程序 cmdlet 以迁移 Office 通信服务器 2007 R2 策略和配置设置到你的 Lync Server 2013 试点池。
 
-**CsLegacyConfiguration** cmdlet 将策略、语音路由、拨号计划、Communicator Web Access url 和电话拨入访问号码导入 Lync Server 2013。
+**CsLegacyConfiguration** cmdlet 可将策略、语音路由、拨号计划、Communicator Web 访问 url 和电话拨入访问号码导入到 Lync Server 2013。
 
 <div>
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2012-09-28_
     
         Import-CsLegacyConfiguration
     
-    导入策略后，请使用下面的过程在 Lync Server 控制面板中查看导入的策略。
+    导入策略后，请按照下面的过程操作，在 Lync Server 控制面板中查看导入的策略。
 
 </div>
 
@@ -61,13 +61,13 @@ _**主题上次修改时间：** 2012-09-28_
 
 1.  打开 "Lync Server 2013 控制面板"。
 
-2.  单击 "**语音路由**"，然后查看导入的策略。
+2.  单击“语音路由”**** 并查看导入的策略。
 
-3.  单击 "**会议**" 并查看导入的策略。
+3.  单击“会议”**** 并查看导入的策略。
 
-4.  单击 "**联盟和外部访问**" 并查看导入的策略。
+4.  单击“联盟和外部访问”**** 并查看导入的策略。
 
-5.  单击 "**监视和存档**"，然后查看导入的策略。
+5.  单击“监控和存档”**** 并查看导入的策略。
 
 </div>
 

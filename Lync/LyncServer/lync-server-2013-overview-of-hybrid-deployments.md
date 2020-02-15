@@ -12,20 +12,20 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e7acc66fa3393785497160cd327b1918c27d85b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4c87e727db8538f92d77d3c125e21c96053317ae
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755536"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 的混合部署概述
+# <a name="overview-of-lync-server-2013-hybrid-deployments"></a>Lync Server 2013 混合部署概述
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755536"
 
 <span> </span>
 
-_**主题上次修改时间：** 2016-05-25_
+_**上次修改的主题：** 2016-05-25_
 
-Lync 服务器混合部署是一种部署，其中域的用户（如 contoso.com）在使用 Lync Server 本地和 Microsoft Lync Online 之间拆分。 某些域用户托管在本地 Lync 服务器上，某些用户托管在 Skype for Business Online 中。
+Lync Server 混合部署是一种部署，其中域的用户（如 contoso.com）在使用 Lync Server 本地和 Microsoft Lync Online 之间进行拆分。 某些域用户驻留在本地 Lync Server 上，有些用户托管在 Skype for Business Online 中。
 
-你可以使用 Skype for Business Online 为混合配置本地 Lync 部署，并使用 Active Directory 同步来保持本地和联机用户同步。 你还可以配置混合部署，以便与本地 Exchange 和 SharePoint 或 Microsoft Office 365 应用程序（包括 Exchange Online 和 SharePoint Online）集成。
+您可以为与 Skype for Business Online 的混合配置本地 Lync 部署，并使用 Active Directory 同步来保持本地和联机用户同步。 您还可以将混合部署配置为与本地 Exchange 和 SharePoint 集成，也可以配置为使用 Microsoft Office 365 应用程序（包括 Exchange Online 和 SharePoint Online）。
 
-本部分将指导你部署 Lync Server 混合部署所需的应用程序，然后配置你的部署以管理本地 Lync Server 和 Skype for business Online 之间的用户。
+本部分指导您部署 Lync Server 混合部署所需的应用程序，然后配置您的部署以在本地 Lync Server 和 Skype for business Online 之间管理用户。
 
-有关为混合配置 Skype for Business Online 配置本地 Lync Server 部署的详细信息，请参阅以下主题：
+有关为与 Skype for Business Online 的混合配置本地 Lync Server 部署的信息，请参阅以下主题：
 
   - [规划 Lync Server 2013 混合部署](lync-server-2013-planning-for-hybrid-deployments.md)
 
-  - [为 Lync Server 2013 配置混合部署](lync-server-2013-configuring-hybrid-deployments.md)
+  - [配置 Lync Server 2013 混合部署](lync-server-2013-configuring-hybrid-deployments.md)
 
 有关 Skype for Business Online 的详细信息，请参阅[Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396)。
 

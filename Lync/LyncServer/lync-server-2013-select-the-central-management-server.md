@@ -12,16 +12,16 @@ ms:contentKeyID: 48183561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aad97b0f2009b8f90fa64abc66791d5954c637a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7fa21b154b34dbc576291c34ac5239da6fb2d63
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732472"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048853"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41732472"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-01-02_
+_**上次修改的主题：** 2012-01-02_
 
 在定义和配置拓扑之前，必须首先定义安装中央管理服务器的位置。
 
@@ -43,7 +43,7 @@ _**主题上次修改时间：** 2012-01-02_
 
 
 > [!NOTE]  
-> 只有在拓扑生成器中发布拓扑后，此操作才会生效。 若要在创建和发布拓扑之前设置中央管理服务器，请运行<STRONG>CSConfigurationStoreLocation</STRONG>。
+> 在拓扑生成器中发布拓扑之前，这不会生效。 若要在创建和发布拓扑之前设置中央管理服务器，请运行<STRONG>CSConfigurationStoreLocation</STRONG>。
 
 
 
@@ -53,11 +53,11 @@ _**主题上次修改时间：** 2012-01-02_
 
 ## <a name="to-select-the-central-management-server"></a>选择中央管理服务器
 
-1.  启动拓扑生成器：单击 "**开始**"，单击 "**所有程序**"，单击 " **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
+1.  启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。
 
 2.  右键单击 "Lync Server 2013" 节点，然后单击 "**编辑属性**"。
 
-3.  在 "中央管理服务器" 窗格中，选择要在其中安装中央管理服务器的前端服务器，然后单击 **"确定"**。
+3.  在 "中央管理服务器" 窗格中，选择要在其上安装中央管理服务器的前端服务器，然后单击 **"确定"**。
 
 </div>
 

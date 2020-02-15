@@ -12,20 +12,20 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0383fd4aa389912a9942d7cafd7ac22fdc4f477
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0d762fb6f8d7fbd9202db78806e8ddbd9082d777
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726152"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>在 Lync Server 2013 中安装 Lync for iPhone 和 iPad
+# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>在 Lync Server 2013 中安装适用于 iPhone 和 iPad 的 Lync
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41726152"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-03-10_
+_**上次修改的主题：** 2014-03-10_
 
-适用于 iPhone 的 lync 2013 和 Lync 2013 for iPad 是 Apple App Store 中可用的用户可安装的应用程序。
+适用于 iPhone 和 Lync 2013 for iPad 的 lync 2013 是 Apple App Store 中提供的用户可安装应用程序。
 
 <div>
 
 ## <a name="installing-lync-for-iphone-and-lync-for-ipad"></a>安装 Lync for iPhone 和 Lync for iPad
 
-你可以指示用户通过其设备将 Lync 2013 for iPhone 和 Lync 2013 for iPad 安装到应用商店。 每个设备的应用商店也可联机使用。
+您可以通过将 Lync 2013 for iPhone 和 Lync 2013 for iPad 从其设备中的应用商店引导，来指示用户为其安装 Lync for iPhone。 也可以在线访问面向各种设备的 App Store。
 
-  - Lync for iPhone 在应用商店的\< h<span></span>ttp://www.apple.com/iphone/from-the-app-store/中可用 >
+  - IPhone 的 Lync for iPhone 在\< <span></span>Ttp://www.apple.com/iphone/from-the-app-store/中的应用商店中可用 >
 
   - Lync for iPad 在\<超线程<span></span>tp://www.apple.com/ipad/from-the-app-store/的应用商店中可用 >
 
@@ -53,12 +53,12 @@ _**主题上次修改时间：** 2014-03-10_
 
 
 > [!IMPORTANT]  
-> 未安装 Lync 2013 应用的 iPhone 用户以及尝试从会议邀请加入 Lync 会议的用户将被重定向到 "加入启动器" 页面。 此页面包含用于安装 Lync 2013 应用程序的链接。 但是，此链接将打开一个空白的 Safari 浏览器页面，而不是将用户定向到应用商店。 用户可以执行以下两项操作之一来解决此问题： 
+> 尚未安装 Lync 2013 应用程序的 iPhone 用户以及尝试从会议邀请加入 Lync 会议的用户将被重定向到 "加入启动器" 页面。 此页面包含用于安装 Lync 2013 应用程序的链接。 但是，此链接将打开一个空白的 Safari 浏览器页面，而不是将用户定向到应用商店。 用户可以执行以下两个操作之一来解决此问题： 
 > <UL>
 > <LI>
-> <P>使用 "<STRONG>开始</STRONG>" 按钮将 safari 页面发送到背景，然后重新打开 safari。 出现通知 "在应用商店中打开此页面" 时，点击 "<STRONG>打开</STRONG>" 以转到 App store 中的 Lync 2013 下载。</P>
+> <P>使用 "<STRONG>主页</STRONG>" 按钮将 safari 页面发送到背景，然后重新打开 safari。 出现通知 "在应用商店中打开此页面" 后，点击 "<STRONG>打开</STRONG>" 以转到应用商店中的 Lync 2013 下载。</P>
 > <LI>
-> <P>手动打开应用商店，搜索 "Lync 2013"，然后下载该应用。</P></LI></UL>
+> <P>手动打开应用商店，搜索 "Lync 2013"，然后下载应用程序。</P></LI></UL>
 
 
 
@@ -70,7 +70,7 @@ _**主题上次修改时间：** 2014-03-10_
 
 ## <a name="verifying-mobile-client-installation"></a>验证移动客户端安装
 
-配置客户端并成功登录后，请使用以下测试验证你的 Lync 安装在移动设备上是否正常工作。
+配置客户端并成功登录之后，使用以下测试来确认所安装的 Lync 在移动设备上工作正常。
 
 **搜索企业目录中的联系人**
 
@@ -82,13 +82,13 @@ _**主题上次修改时间：** 2014-03-10_
 
 1.  在“联系人”列表中，点击一个联系人。
 
-2.  在联系人卡片中，点击 " **IM** " 图标。
+2.  在联系人卡片中，点击“IM”**** 图标。
 
-3.  确认显示了即时消息 (IM) 窗口并且您可以键入和发送 IM。
+3.  验证即时消息（IM）窗口是否出现，以及您是否可以键入并发送即时消息。
 
 **测试电话拨出式会议**
 
-1.  在 Outlook 中，安排 Lync 会议。
+1.  在 Outlook 中安排 Lync 会议。
 
 2.  在移动设备上，打开会议邀请。
 
@@ -98,11 +98,11 @@ _**主题上次修改时间：** 2014-03-10_
 
 **测试推送通知**
 
-1.  在用户 A 的移动设备上，使用用户 A 的帐户登录到 Lync。
+1.  在用户 A 的移动设备上，使用用户 A 的帐户登录 Lync。
 
 2.  在移动设备上打开其他应用程序。
 
-3.  在其他客户端上，使用用户 B 的帐户登录到 Lync。
+3.  在其他客户端上，使用用户 B 的帐户登录 Lync。
 
 4.  将 IM 从用户 B 发送到用户 A。
 

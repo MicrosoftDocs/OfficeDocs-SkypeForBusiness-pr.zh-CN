@@ -12,16 +12,16 @@ ms:contentKeyID: 48183951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58d0b309e87dddb621d6c3a90b16b6c2e02845df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a86cd9f39da6161984025073944373727dbe91a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764538"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764538"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-05-05_
+_**上次修改的主题：** 2014-05-05_
 
-如果你通过部署 Edge 服务器为外部用户启用访问权限，则可以选择部署 Director。 Director 是运行 Microsoft Lync Server 2013 的服务器，用于验证用户请求，但不会在家任何用户帐户。 现在，这不是必需的，但如果担心性能并希望帮助简化身份验证请求，它将非常有用。 如果你认为这对你的组织来说是个好主意，则设置 Director 或主管池的步骤类似于设置企业版前端池或标准版服务器。 在拓扑生成器中定义导演后，您需要执行本部分中的步骤。
+如果您正在通过部署边缘服务器为外部用户启用访问权限，则可以选择部署一个控制器。 Director 是一台运行 Microsoft Lync Server 2013 的服务器，它对用户请求进行身份验证，但不在家任何用户帐户。 现在，这不是必需的，但如果担心性能并希望帮助简化身份验证请求，它会非常有用。 如果您认为这对于您的组织来说是一个好主意，则设置控制器或控制器池的步骤类似于设置 Enterprise Edition 前端池或 Standard Edition server。 在拓扑生成器中定义您的控制器之后，您需要执行本节中的步骤。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中安装本地配置存储](lync-server-2013-install-the-local-configuration-store.md)
 
