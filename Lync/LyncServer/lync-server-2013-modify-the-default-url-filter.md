@@ -12,20 +12,20 @@ ms:contentKeyID: 48184653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 975824faa6a567992001ae10cafec61ef2ea1370
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15511ea6b48697cddfebc40c671880a14a545557
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766013"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-url-filter-in-lync-server-2013"></a><span data-ttu-id="00792-102">在 Lync Server 2013 中修改默认 URL 筛选器</span><span class="sxs-lookup"><span data-stu-id="00792-102">Modify the default URL filter in Lync Server 2013</span></span>
+# <a name="modify-the-default-url-filter-in-lync-server-2013"></a><span data-ttu-id="e6932-102">在 Lync Server 2013 中修改默认 URL 筛选器</span><span class="sxs-lookup"><span data-stu-id="e6932-102">Modify the default URL filter in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41766013"
 
 <span> </span>
 
-<span data-ttu-id="00792-103">_**主题上次修改时间：** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="00792-103">_**Topic Last Modified:** 2012-06-26_</span></span>
+<span data-ttu-id="e6932-103">_**上次修改的主题：** 2012-06-26_</span><span class="sxs-lookup"><span data-stu-id="e6932-103">_**Topic Last Modified:** 2012-06-26_</span></span>
 
-<span data-ttu-id="00792-104">通过使用即时消息（IM）筛选器，Lync Server 2013 提供全局 URL 筛选器，用于阻止在整个 Lync Server 2013 部署中的用户之间的 IM 对话中包含的特定 Url。</span><span class="sxs-lookup"><span data-stu-id="00792-104">By using the instant messaging (IM) filter, Lync Server 2013 provides a global URL filter that blocks specific URLs contained in IM conversations among users throughout your Lync Server 2013 deployment.</span></span> <span data-ttu-id="00792-105">通过使用 Lync Server "控制面板"，你可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="00792-105">By using Lync Server Control Panel, you can do the following:</span></span>
+<span data-ttu-id="e6932-104">通过使用即时消息（IM）筛选器，Lync Server 2013 提供了全局 URL 筛选器，用于阻止在整个 Lync Server 2013 部署中的用户之间的 IM 会话中包含的特定 Url。</span><span class="sxs-lookup"><span data-stu-id="e6932-104">By using the instant messaging (IM) filter, Lync Server 2013 provides a global URL filter that blocks specific URLs contained in IM conversations among users throughout your Lync Server 2013 deployment.</span></span> <span data-ttu-id="e6932-105">通过使用 Lync Server 控制面板，您可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="e6932-105">By using Lync Server Control Panel, you can do the following:</span></span>
 
-  - <span data-ttu-id="00792-106">在即时消息对话中阻止所有 Url 或 Url 的子集。</span><span class="sxs-lookup"><span data-stu-id="00792-106">Block all or a subset of URLs in instant message conversations.</span></span>
+  - <span data-ttu-id="e6932-106">阻止即时消息对话中的所有或部分 URL。</span><span class="sxs-lookup"><span data-stu-id="e6932-106">Block all or a subset of URLs in instant message conversations.</span></span>
 
-  - <span data-ttu-id="00792-107">允许所有 Url。</span><span class="sxs-lookup"><span data-stu-id="00792-107">Allow all URLs.</span></span> <span data-ttu-id="00792-108">作为一个选项，你可以创建一个在包含 URL 的每个即时消息的开头插入的通知。</span><span class="sxs-lookup"><span data-stu-id="00792-108">As an option, you can create a notice that is inserted at the beginning of each instant message that contains a URL.</span></span>
+  - <span data-ttu-id="e6932-p102">允许所有 URL。作为一个选项，可以创建通知，将其插入每个包含 URL 的即时消息的开头。</span><span class="sxs-lookup"><span data-stu-id="e6932-p102">Allow all URLs. As an option, you can create a notice that is inserted at the beginning of each instant message that contains a URL.</span></span>
 
-  - <span data-ttu-id="00792-109">允许使用特定 Url，并包含包含 URL 的每个即时消息的警告。</span><span class="sxs-lookup"><span data-stu-id="00792-109">Allow specific URLs and include a warning with each instant message that contains a URL.</span></span>
+  - <span data-ttu-id="e6932-109">允许特定 URL，并对每个包含 URL 的即时消息发出警告。</span><span class="sxs-lookup"><span data-stu-id="e6932-109">Allow specific URLs and include a warning with each instant message that contains a URL.</span></span>
 
-<span data-ttu-id="00792-110">此外，你可以选择阻止包含特定文件类型的 Url，或者通过允许服务器的本地 intranet 区域（intranet Url）内的 Url 通过服务器来阻止 Internet Url。</span><span class="sxs-lookup"><span data-stu-id="00792-110">In addition, you can choose to block URLs that contain specific file types, or block only Internet URLs by allowing URLs that are within the server’s local intranet zone — intranet URLs — to pass through the server.</span></span> <span data-ttu-id="00792-111">有关 URL 筛选的详细信息，请参阅[在 Lync Server 2013 中为即时消息（IM）配置文件传输和 URL 筛选](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)。</span><span class="sxs-lookup"><span data-stu-id="00792-111">For details about URL filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
+<span data-ttu-id="e6932-110">此外，可选择阻止包含特定文件类型的 URL，也可以允许服务器本地 Intranet 区域内部的 URL (Intranet URL) 通过服务器，从而仅阻止 Internet URL。</span><span class="sxs-lookup"><span data-stu-id="e6932-110">In addition, you can choose to block URLs that contain specific file types, or block only Internet URLs by allowing URLs that are within the server’s local intranet zone — intranet URLs — to pass through the server.</span></span> <span data-ttu-id="e6932-111">有关 URL 筛选的详细信息，请参阅[Lync Server 2013 中的为即时消息（IM）配置文件传输和 URL 筛选](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)。</span><span class="sxs-lookup"><span data-stu-id="e6932-111">For details about URL filtering, see [Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="00792-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="00792-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e6932-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e6932-112">See Also</span></span>
 
 
-[<span data-ttu-id="00792-113">在 Lync Server 2013 中为即时消息（IM）配置文件传输和 URL 筛选</span><span class="sxs-lookup"><span data-stu-id="00792-113">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[<span data-ttu-id="00792-114">在 Lync Server 2013 中为特定网站创建新的文件传输筛选器</span><span class="sxs-lookup"><span data-stu-id="00792-114">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[<span data-ttu-id="00792-115">在 Lync Server 2013 中创建新的 URL 筛选器以处理即时消息对话中的超链接</span><span class="sxs-lookup"><span data-stu-id="00792-115">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
-[<span data-ttu-id="00792-116">在 Lync Server 2013 中修改默认文件传输筛选器</span><span class="sxs-lookup"><span data-stu-id="00792-116">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+[<span data-ttu-id="e6932-113">在 Lync Server 2013 中为即时消息（IM）配置文件传输和 URL 筛选</span><span class="sxs-lookup"><span data-stu-id="e6932-113">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[<span data-ttu-id="e6932-114">在 Lync Server 2013 for a 特定网站中创建新的文件传输筛选器</span><span class="sxs-lookup"><span data-stu-id="e6932-114">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[<span data-ttu-id="e6932-115">在 Lync Server 2013 中创建一个新的 URL 筛选器，以处理 IM 对话中的超链接</span><span class="sxs-lookup"><span data-stu-id="e6932-115">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[<span data-ttu-id="e6932-116">在 Lync Server 2013 中修改默认文件传输筛选器</span><span class="sxs-lookup"><span data-stu-id="e6932-116">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)  
   
 
 </div>

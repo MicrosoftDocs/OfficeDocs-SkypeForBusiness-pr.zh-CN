@@ -12,20 +12,20 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a871955f53515491ed09ece5e5da21ef7a9fef8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce56a23120df813d3c3d8107de67d202afb5d663
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730912"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-lync-server-2010-environment"></a><span data-ttu-id="e68a9-102">验证 Lync Server 2010 环境</span><span class="sxs-lookup"><span data-stu-id="e68a9-102">Verify Lync Server 2010 environment</span></span>
+# <a name="verify-lync-server-2010-environment"></a><span data-ttu-id="7694a-102">验证 Lync Server 2010 环境</span><span class="sxs-lookup"><span data-stu-id="7694a-102">Verify Lync Server 2010 environment</span></span>
 
 </div>
 
@@ -35,75 +35,75 @@ ms.locfileid: "41730912"
 
 <span> </span>
 
-<span data-ttu-id="e68a9-103">_**主题上次修改时间：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="e68a9-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="7694a-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="7694a-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="e68a9-104">在使用 Lync Server 2010 在共存状态中部署 Lync Server 2013 之前，需要验证是否已配置并启动 Lync Server 2010 服务。</span><span class="sxs-lookup"><span data-stu-id="e68a9-104">Before deploying Lync Server 2013 in a coexistence state with Lync Server 2010, you need to verify that Lync Server 2010 services have been configured and started.</span></span> <span data-ttu-id="e68a9-105">在部署 Lync Server 2013 试验池之前，请务必确定旧版环境中存在的关键服务和功能。</span><span class="sxs-lookup"><span data-stu-id="e68a9-105">It is important to identify key services and features that exist in your legacy environment, prior to deploying a Lync Server 2013 pilot pool.</span></span> <span data-ttu-id="e68a9-106">在使用旧版 XMPP 部署在共存状态中部署 Microsoft Lync Server 2013 XMPP 之前，需要验证旧的 XMPP 服务是否已配置并启动，并确定旧版 XMPP 配置支持的联盟合作伙伴。</span><span class="sxs-lookup"><span data-stu-id="e68a9-106">Before deploying Microsoft Lync Server 2013 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting.</span></span> <span data-ttu-id="e68a9-107">验证旧版 Lync Server 2010 部署需要执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="e68a9-107">Verifying your legacy Lync Server 2010 deployment entails the following:</span></span>
+<span data-ttu-id="7694a-104">在使用 Lync Server 2010 在共存状态中部署 Lync Server 2013 之前，需要验证是否已配置并启动 Lync Server 2010 服务。</span><span class="sxs-lookup"><span data-stu-id="7694a-104">Before deploying Lync Server 2013 in a coexistence state with Lync Server 2010, you need to verify that Lync Server 2010 services have been configured and started.</span></span> <span data-ttu-id="7694a-105">在部署 Lync Server 2013 试点池之前，请务必确定旧环境中存在的关键服务和功能。</span><span class="sxs-lookup"><span data-stu-id="7694a-105">It is important to identify key services and features that exist in your legacy environment, prior to deploying a Lync Server 2013 pilot pool.</span></span> <span data-ttu-id="7694a-106">在使用旧版 XMPP 部署在共存状态中部署 Microsoft Lync Server 2013 XMPP 之前，您需要验证是否已配置并启动旧的 XMPP 服务，并确定旧版 XMPP 配置支持的联盟伙伴。</span><span class="sxs-lookup"><span data-stu-id="7694a-106">Before deploying Microsoft Lync Server 2013 XMPP in a coexistence state with a legacy XMPP deployment, you need to verify the legacy XMPP services have been configured and started, and identify which federated partner the legacy XMPP configuration is supporting.</span></span> <span data-ttu-id="7694a-107">验证旧版 Lync Server 2010 部署需要以下各项：</span><span class="sxs-lookup"><span data-stu-id="7694a-107">Verifying your legacy Lync Server 2010 deployment entails the following:</span></span>
 
-  - <span data-ttu-id="e68a9-108">验证是否已启动 Lync Server 2010 服务</span><span class="sxs-lookup"><span data-stu-id="e68a9-108">Verifying the Lync Server 2010 services are started</span></span>
+  - <span data-ttu-id="7694a-108">验证是否已启动 Lync Server 2010 服务</span><span class="sxs-lookup"><span data-stu-id="7694a-108">Verifying the Lync Server 2010 services are started</span></span>
 
-  - <span data-ttu-id="e68a9-109">在 Lync Server 2010 中查看拓扑和用户。</span><span class="sxs-lookup"><span data-stu-id="e68a9-109">Reviewing the topology and users in Lync Server 2010.</span></span>
+  - <span data-ttu-id="7694a-109">在 Lync Server 2010 中查看拓扑和用户。</span><span class="sxs-lookup"><span data-stu-id="7694a-109">Reviewing the topology and users in Lync Server 2010.</span></span>
 
-  - <span data-ttu-id="e68a9-110">验证联盟和边缘服务器设置。</span><span class="sxs-lookup"><span data-stu-id="e68a9-110">Verifying the federation and Edge server settings.</span></span>
+  - <span data-ttu-id="7694a-110">确认联盟和边缘服务器设置。</span><span class="sxs-lookup"><span data-stu-id="7694a-110">Verifying the federation and Edge server settings.</span></span>
 
-  - <span data-ttu-id="e68a9-111">验证 XMPP 服务和联盟合作伙伴。</span><span class="sxs-lookup"><span data-stu-id="e68a9-111">Verifying XMPP services and federated partners.</span></span>
+  - <span data-ttu-id="7694a-111">确认 XMPP 服务和联盟伙伴。</span><span class="sxs-lookup"><span data-stu-id="7694a-111">Verifying XMPP services and federated partners.</span></span>
 
-<span data-ttu-id="e68a9-112">**验证是否已启动 Lync Server 2010 服务**</span><span class="sxs-lookup"><span data-stu-id="e68a9-112">**Verify Lync Server 2010 Services are started**</span></span>
+<span data-ttu-id="7694a-112">**验证是否已启动 Lync Server 2010 服务**</span><span class="sxs-lookup"><span data-stu-id="7694a-112">**Verify Lync Server 2010 Services are started**</span></span>
 
-1.  <span data-ttu-id="e68a9-113">从 Lync Server 2010 前端服务器，导航到 "管理工具\\服务" 小程序。</span><span class="sxs-lookup"><span data-stu-id="e68a9-113">From the Lync Server 2010 Front End Server, navigate to the Administrative Tools\\Services applet.</span></span>
+1.  <span data-ttu-id="7694a-113">在 Lync Server 2010 前端服务器中，导航到 "管理工具\\服务" 小程序。</span><span class="sxs-lookup"><span data-stu-id="7694a-113">From the Lync Server 2010 Front End Server, navigate to the Administrative Tools\\Services applet.</span></span>
 
-2.  <span data-ttu-id="e68a9-114">验证以下服务是否在前端服务器上运行：</span><span class="sxs-lookup"><span data-stu-id="e68a9-114">Verify that the following services are running on the Front End Server:</span></span>
+2.  <span data-ttu-id="7694a-114">确认以下服务正在前端服务器上运行：</span><span class="sxs-lookup"><span data-stu-id="7694a-114">Verify that the following services are running on the Front End Server:</span></span>
     
-    <span data-ttu-id="e68a9-115">![前端服务器上运行的服务列表](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "前端服务器上运行的服务列表")</span><span class="sxs-lookup"><span data-stu-id="e68a9-115">![List of services running on Front End Server](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "List of services running on Front End Server")</span></span>
+    <span data-ttu-id="7694a-115">![前端服务器上运行的服务的列表](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "前端服务器上运行的服务的列表")</span><span class="sxs-lookup"><span data-stu-id="7694a-115">![List of services running on Front End Server](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "List of services running on Front End Server")</span></span>
 
-<span data-ttu-id="e68a9-116">**在 Lync Server "控制面板" 中查看 Lync Server 2010 拓扑**</span><span class="sxs-lookup"><span data-stu-id="e68a9-116">**Review the Lync Server 2010 topology in Lync Server Control Panel**</span></span>
+<span data-ttu-id="7694a-116">**在 Lync Server 控制面板中查看 Lync Server 2010 拓扑**</span><span class="sxs-lookup"><span data-stu-id="7694a-116">**Review the Lync Server 2010 topology in Lync Server Control Panel**</span></span>
 
-1.  <span data-ttu-id="e68a9-117">使用具有 RTCUniversalServerAdmins 组成员身份或 CsAdministrator 或 CsUserAdministrator 管理角色成员身份的帐户登录到前端服务器。</span><span class="sxs-lookup"><span data-stu-id="e68a9-117">Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
+1.  <span data-ttu-id="7694a-117">使用具有 RTCUniversalServerAdmins 组成员身份或者 CsAdministrator 或 CsUserAdministrator 管理角色成员身份的帐户登录到前端服务器。</span><span class="sxs-lookup"><span data-stu-id="7694a-117">Log on to the Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
 
-2.  <span data-ttu-id="e68a9-118">打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="e68a9-118">Open the Lync Server Control Panel.</span></span>
+2.  <span data-ttu-id="7694a-118">打开“Lync Server 控制面板”。</span><span class="sxs-lookup"><span data-stu-id="7694a-118">Open the Lync Server Control Panel.</span></span>
 
-3.  <span data-ttu-id="e68a9-119">选择 "**拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="e68a9-119">Select **Topology**.</span></span> <span data-ttu-id="e68a9-120">验证是否列出了 Lync Server 2010 部署中的各种服务器。</span><span class="sxs-lookup"><span data-stu-id="e68a9-120">Verify that the various servers in your Lync Server 2010 deployment are listed.</span></span>
+3.  <span data-ttu-id="7694a-119">选择“拓扑”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="7694a-119">Select **Topology**.</span></span> <span data-ttu-id="7694a-120">验证是否列出了 Lync Server 2010 部署中的各种服务器。</span><span class="sxs-lookup"><span data-stu-id="7694a-120">Verify that the various servers in your Lync Server 2010 deployment are listed.</span></span>
     
-    <span data-ttu-id="e68a9-121">![Lync Server 2010 控制面板拓扑页面](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync Server 2010 控制面板拓扑页面")</span><span class="sxs-lookup"><span data-stu-id="e68a9-121">![Lync Server 2010 Control Panel topology page](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync Server 2010 Control Panel topology page")</span></span>
+    <span data-ttu-id="7694a-121">![Lync Server 2010 控制面板拓扑页面](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync Server 2010 控制面板拓扑页面")</span><span class="sxs-lookup"><span data-stu-id="7694a-121">![Lync Server 2010 Control Panel topology page](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Lync Server 2010 Control Panel topology page")</span></span>
 
-<span data-ttu-id="e68a9-122">**在 Lync Server "控制面板" 中查看 Lync Server 2010 用户**</span><span class="sxs-lookup"><span data-stu-id="e68a9-122">**To review Lync Server 2010 users in Lync Server Control Panel**</span></span>
+<span data-ttu-id="7694a-122">**在 Lync Server 控制面板中查看 Lync Server 2010 用户**</span><span class="sxs-lookup"><span data-stu-id="7694a-122">**To review Lync Server 2010 users in Lync Server Control Panel**</span></span>
 
-1.  <span data-ttu-id="e68a9-123">打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="e68a9-123">Open the Lync Server Control Panel.</span></span>
+1.  <span data-ttu-id="7694a-123">打开“Lync Server 控制面板”。</span><span class="sxs-lookup"><span data-stu-id="7694a-123">Open the Lync Server Control Panel.</span></span>
 
-2.  <span data-ttu-id="e68a9-124">选择 "**用户**"，然后单击 "**查找**"。</span><span class="sxs-lookup"><span data-stu-id="e68a9-124">Select **Users** and then click **Find**.</span></span>
+2.  <span data-ttu-id="7694a-124">选择“用户”\*\*\*\*，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="7694a-124">Select **Users** and then click **Find**.</span></span>
 
-3.  <span data-ttu-id="e68a9-125">验证 "**注册机构池**" 列是否指向列出的每个用户的 Lync Server 2010 池。</span><span class="sxs-lookup"><span data-stu-id="e68a9-125">Verify that the **Registrar Pool** column points to the Lync Server 2010 pool for each user listed.</span></span>
+3.  <span data-ttu-id="7694a-125">验证 "**注册器池**" 列是否指向列出的每个用户的 Lync Server 2010 池。</span><span class="sxs-lookup"><span data-stu-id="7694a-125">Verify that the **Registrar Pool** column points to the Lync Server 2010 pool for each user listed.</span></span>
     
-    <span data-ttu-id="e68a9-126">![Lync Server 2010 "控制面板"，其中列出了用户](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010 "控制面板"，其中列出了用户")</span><span class="sxs-lookup"><span data-stu-id="e68a9-126">![Lync Server 2010 Control Panel listing users](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010 Control Panel listing users")</span></span>
+    <span data-ttu-id="7694a-126">![Lync Server 2010 控制面板，其中列出了用户](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010 控制面板，其中列出了用户")</span><span class="sxs-lookup"><span data-stu-id="7694a-126">![Lync Server 2010 Control Panel listing users](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Lync Server 2010 Control Panel listing users")</span></span>
 
-<span data-ttu-id="e68a9-127">**验证 Lync Server 2010 Edge 和联盟设置**</span><span class="sxs-lookup"><span data-stu-id="e68a9-127">**To verify Lync Server 2010 Edge and Federation Settings**</span></span>
+<span data-ttu-id="7694a-127">**验证 Lync Server 2010 边缘和联盟设置**</span><span class="sxs-lookup"><span data-stu-id="7694a-127">**To verify Lync Server 2010 Edge and Federation Settings**</span></span>
 
-1.  <span data-ttu-id="e68a9-128">启动拓扑生成器。</span><span class="sxs-lookup"><span data-stu-id="e68a9-128">Start Topology Builder.</span></span>
+1.  <span data-ttu-id="7694a-128">启动拓扑生成器。</span><span class="sxs-lookup"><span data-stu-id="7694a-128">Start Topology Builder.</span></span>
 
-2.  <span data-ttu-id="e68a9-129">**从现有部署中选择 "下载拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="e68a9-129">Select **Download Topology from existing deployment**.</span></span>
+2.  <span data-ttu-id="7694a-129">选择“从现有部署下载拓扑”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="7694a-129">Select **Download Topology from existing deployment**.</span></span>
 
-3.  <span data-ttu-id="e68a9-130">选择文件名，并使用默认的 tbxml 文件类型保存拓扑。</span><span class="sxs-lookup"><span data-stu-id="e68a9-130">Choose a file name and save the topology with the default .tbxml file type.</span></span>
+3.  <span data-ttu-id="7694a-130">选择文件名并保存具有默认 .tbxml 文件类型的拓扑。</span><span class="sxs-lookup"><span data-stu-id="7694a-130">Choose a file name and save the topology with the default .tbxml file type.</span></span>
 
-4.  <span data-ttu-id="e68a9-131">展开 Lync Server 2010 节点以显示部署中的各种服务器角色。</span><span class="sxs-lookup"><span data-stu-id="e68a9-131">Expand the Lync Server 2010 node to reveal the various server roles in the deployment.</span></span>
+4.  <span data-ttu-id="7694a-131">展开 "Lync Server 2010" 节点，以显示部署中的各种服务器角色。</span><span class="sxs-lookup"><span data-stu-id="7694a-131">Expand the Lync Server 2010 node to reveal the various server roles in the deployment.</span></span>
 
-5.  <span data-ttu-id="e68a9-132">选择 "网站" 节点并验证是否设置了 "**网站联合" 路由分配**值。</span><span class="sxs-lookup"><span data-stu-id="e68a9-132">Select the site node and verify if a **Site federation route assignment** value is set.</span></span>
+5.  <span data-ttu-id="7694a-132">选择站点节点，并确认是否已设置“站点联盟路由分配”\*\*\*\* 值。</span><span class="sxs-lookup"><span data-stu-id="7694a-132">Select the site node and verify if a **Site federation route assignment** value is set.</span></span>
     
-    <span data-ttu-id="e68a9-133">![拓扑生成器、站点联合身份验证路线](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "拓扑生成器、站点联合身份验证路线")</span><span class="sxs-lookup"><span data-stu-id="e68a9-133">![Topology Builder, Site Federation Route](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Topology Builder, Site Federation Route")</span></span>
+    <span data-ttu-id="7694a-133">![拓扑生成器、站点联合路由](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "拓扑生成器、站点联合路由")</span><span class="sxs-lookup"><span data-stu-id="7694a-133">![Topology Builder, Site Federation Route](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Topology Builder, Site Federation Route")</span></span>
 
-6.  <span data-ttu-id="e68a9-134">接下来，选择 "标准版服务器" 或 "企业版前端池"。</span><span class="sxs-lookup"><span data-stu-id="e68a9-134">Next, select the Standard Edition Server or Enterprise Edition front end pool.</span></span> <span data-ttu-id="e68a9-135">确定是否已针对 "**关联**" 下的媒体配置了 Edge 池。</span><span class="sxs-lookup"><span data-stu-id="e68a9-135">Determine if an Edge pool has been configured for Media below **Associations**.</span></span>
+6.  <span data-ttu-id="7694a-p103">接下来，选择 Standard Edition Server 或 Enterprise Edition 前端池。确定是否已在“关联”\*\*\*\* 下为媒体配置边缘池。</span><span class="sxs-lookup"><span data-stu-id="7694a-p103">Next, select the Standard Edition Server or Enterprise Edition front end pool. Determine if an Edge pool has been configured for Media below **Associations**.</span></span>
     
-    <span data-ttu-id="e68a9-136">![拓扑生成器，显示服务器和池](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "拓扑生成器，显示服务器和池")</span><span class="sxs-lookup"><span data-stu-id="e68a9-136">![Topology Builder showing servers and pools](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Topology Builder showing servers and pools")</span></span>
+    <span data-ttu-id="7694a-136">![显示服务器和池的拓扑生成器](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "显示服务器和池的拓扑生成器")</span><span class="sxs-lookup"><span data-stu-id="7694a-136">![Topology Builder showing servers and pools](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Topology Builder showing servers and pools")</span></span>
 
-7.  <span data-ttu-id="e68a9-137">最后，选择 "边缘" 池并确定下一个跃点池是否在**下一个跃点选择**下配置。</span><span class="sxs-lookup"><span data-stu-id="e68a9-137">Finally, select the Edge pool and identify if a Next hop pool is configured below **Next hop selection**.</span></span>
+7.  <span data-ttu-id="7694a-137">最后，选择边缘池，并确认是否已在“下一个跃点选择”\*\*\*\* 下配置下一个跃点池。</span><span class="sxs-lookup"><span data-stu-id="7694a-137">Finally, select the Edge pool and identify if a Next hop pool is configured below **Next hop selection**.</span></span>
     
-    <span data-ttu-id="e68a9-138">![拓扑生成器，下一跃点选择](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "拓扑生成器，下一跃点选择")</span><span class="sxs-lookup"><span data-stu-id="e68a9-138">![Topology Builder, Next hop selection](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Topology Builder, Next hop selection")</span></span>
+    <span data-ttu-id="7694a-138">![拓扑生成器，下一个跃点选择](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "拓扑生成器，下一个跃点选择")</span><span class="sxs-lookup"><span data-stu-id="7694a-138">![Topology Builder, Next hop selection](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Topology Builder, Next hop selection")</span></span>
 
-<span data-ttu-id="e68a9-139">**验证旧版 XMPP 联盟合作伙伴配置**</span><span class="sxs-lookup"><span data-stu-id="e68a9-139">**Verify legacy XMPP Federated Partner Configuration**</span></span>
+<span data-ttu-id="7694a-139">**确认旧的 XMPP 联盟伙伴配置**</span><span class="sxs-lookup"><span data-stu-id="7694a-139">**Verify legacy XMPP Federated Partner Configuration**</span></span>
 
-1.  <span data-ttu-id="e68a9-140">从旧的 XMPP 服务器中，导航到 "管理\\工具服务" 小程序。</span><span class="sxs-lookup"><span data-stu-id="e68a9-140">From the legacy XMPP server, navigate to the Administrative Tools\\Services applet.</span></span>
+1.  <span data-ttu-id="7694a-140">在旧版 XMPP 服务器上，导航到 "管理工具\\服务" 小程序。</span><span class="sxs-lookup"><span data-stu-id="7694a-140">From the legacy XMPP server, navigate to the Administrative Tools\\Services applet.</span></span>
 
-2.  <span data-ttu-id="e68a9-141">验证是否已启动 Office 通信服务器 XMPP 网关服务。</span><span class="sxs-lookup"><span data-stu-id="e68a9-141">Verify that the Office Communications Server XMPP Gateway service is started.</span></span>
+2.  <span data-ttu-id="7694a-141">确认已启动 Office Communications Server XMPP 网关服务。</span><span class="sxs-lookup"><span data-stu-id="7694a-141">Verify that the Office Communications Server XMPP Gateway service is started.</span></span>
     
-    <span data-ttu-id="e68a9-142">![Office 通信服务器 XMPP 网关服务](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office 通信服务器 XMPP 网关服务")</span><span class="sxs-lookup"><span data-stu-id="e68a9-142">![Office Communications Server XMPP Gateway Service](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server XMPP Gateway Service")</span></span>
+    <span data-ttu-id="7694a-142">![Office 通信服务器 XMPP 网关服务](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office 通信服务器 XMPP 网关服务")</span><span class="sxs-lookup"><span data-stu-id="7694a-142">![Office Communications Server XMPP Gateway Service](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Office Communications Server XMPP Gateway Service")</span></span>
 
 </div>
 

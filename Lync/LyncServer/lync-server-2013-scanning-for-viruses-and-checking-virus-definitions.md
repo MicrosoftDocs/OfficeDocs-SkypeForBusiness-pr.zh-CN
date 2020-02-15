@@ -12,20 +12,20 @@ ms:contentKeyID: 63969589
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb36ec86c5e9d30e6a215a89748a02e5ef355b73
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1825b96cc4ef2c0c71e04b369f1cf116b8070eb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732642"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a><span data-ttu-id="c2ca0-102">在 Lync Server 2013 中扫描病毒和检查病毒定义</span><span class="sxs-lookup"><span data-stu-id="c2ca0-102">Scanning for viruses and checking virus definitions in Lync Server 2013</span></span>
+# <a name="scanning-for-viruses-and-checking-virus-definitions-in-lync-server-2013"></a><span data-ttu-id="0cb08-102">在 Lync Server 2013 中扫描病毒和检查病毒定义</span><span class="sxs-lookup"><span data-stu-id="0cb08-102">Scanning for viruses and checking virus definitions in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41732642"
 
 <span> </span>
 
-<span data-ttu-id="c2ca0-103">_**主题上次修改时间：** 2014-05-01_</span><span class="sxs-lookup"><span data-stu-id="c2ca0-103">_**Topic Last Modified:** 2014-05-01_</span></span>
+<span data-ttu-id="0cb08-103">_**上次修改的主题：** 2014-05-01_</span><span class="sxs-lookup"><span data-stu-id="0cb08-103">_**Topic Last Modified:** 2014-05-01_</span></span>
 
-<span data-ttu-id="c2ca0-104">强烈建议安装 IM 级防病毒产品。</span><span class="sxs-lookup"><span data-stu-id="c2ca0-104">We highly recommend installing an IM-level antivirus product.</span></span> <span data-ttu-id="c2ca0-105">IM 是一个众所周知的来源，可在整个组织中快速传播病毒和恶意软件。</span><span class="sxs-lookup"><span data-stu-id="c2ca0-105">IM is a well-known source for quickly spreading both virus and malicious software throughout an organization.</span></span> <span data-ttu-id="c2ca0-106">Microsoft Forefront® Lync Server 安全性提供多引擎扫描，包含病毒、恶意软件、文件和关键字筛选器保护，以及与 Office 通信服务器的无缝集成。</span><span class="sxs-lookup"><span data-stu-id="c2ca0-106">Microsoft Forefront® Security for Lync Server provides multi-engine scanning with virus, malicious software, file and keyword filter protection and seamless integration with Office Communications Server.</span></span>
+<span data-ttu-id="0cb08-104">强烈建议安装 IM 级防病毒产品。</span><span class="sxs-lookup"><span data-stu-id="0cb08-104">We highly recommend installing an IM-level antivirus product.</span></span> <span data-ttu-id="0cb08-105">IM 是一个众所周知的来源，可快速分布整个组织中的病毒和恶意软件。</span><span class="sxs-lookup"><span data-stu-id="0cb08-105">IM is a well-known source for quickly spreading both virus and malicious software throughout an organization.</span></span> <span data-ttu-id="0cb08-106">Microsoft Forefront® Security for Lync Server 提供多引擎扫描，包括病毒、恶意软件、文件和关键字筛选器保护以及与 Office 通信服务器无缝集成。</span><span class="sxs-lookup"><span data-stu-id="0cb08-106">Microsoft Forefront® Security for Lync Server provides multi-engine scanning with virus, malicious software, file and keyword filter protection and seamless integration with Office Communications Server.</span></span>
 
-<span data-ttu-id="c2ca0-107">除了 Lync Server 的 Forefront Security，我们还强烈建议安装文件级防病毒解决方案来保护服务器的文件系统。</span><span class="sxs-lookup"><span data-stu-id="c2ca0-107">In addition to Forefront Security for Lync Server, we also highly recommend installing a file-level, antivirus solution to protect the server’s file system.</span></span>
+<span data-ttu-id="0cb08-107">除了适用于 Lync Server 的 Forefront Security 之外，我们还强烈建议安装文件级防病毒解决方案来保护服务器的文件系统。</span><span class="sxs-lookup"><span data-stu-id="0cb08-107">In addition to Forefront Security for Lync Server, we also highly recommend installing a file-level, antivirus solution to protect the server’s file system.</span></span>
 
-<span data-ttu-id="c2ca0-108">保持扫描仪引擎和病毒定义的更新非常重要。</span><span class="sxs-lookup"><span data-stu-id="c2ca0-108">Keeping scanner engines and virus definitions updated is very important.</span></span> <span data-ttu-id="c2ca0-109">配置和监视更新的运行状况可确保使用最新的扫描信息来保护 Office 通信服务器和文件系统。</span><span class="sxs-lookup"><span data-stu-id="c2ca0-109">Configuring and monitoring the health of the updates makes sure that the most current scanning information is being used to protect both Office Communications Server and file-system.</span></span>
+<span data-ttu-id="0cb08-108">保持扫描仪引擎和病毒定义的更新非常重要。</span><span class="sxs-lookup"><span data-stu-id="0cb08-108">Keeping scanner engines and virus definitions updated is very important.</span></span> <span data-ttu-id="0cb08-109">配置和监视更新的运行状况可确保使用最新的扫描信息来保护 Office 通信服务器和文件系统。</span><span class="sxs-lookup"><span data-stu-id="0cb08-109">Configuring and monitoring the health of the updates makes sure that the most current scanning information is being used to protect both Office Communications Server and file-system.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="c2ca0-110">在运行 lync server 2013 和 Lync server 的 Forefront Security 的服务器上使用第三方文件级防病毒软件时，请确保未扫描 Lync Server 和 Lync Server 的 Forefront Security 所安装到的文件夹，以防止他们的损坏。</span><span class="sxs-lookup"><span data-stu-id="c2ca0-110">When using a third-party, file-level antivirus software on a server that runs Lync Server 2013 and Forefront Security for Lync Server, make sure that the folders in which Forefront Security for Lync Server and the Lync Server are installed are not scanned, to prevent their corruption.</span></span> <span data-ttu-id="c2ca0-111">有关排除项的完整列表，请<A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>参阅。</span><span class="sxs-lookup"><span data-stu-id="c2ca0-111">For the full list of exclusions, see <A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>.</span></span>
+> <span data-ttu-id="0cb08-110">在运行 lync server 2013 的服务器和 Lync Server 的 Forefront Security 的服务器上使用第三方文件级防病毒软件时，请确保未扫描 Lync Server 和 Lync Server 的 Forefront Security 的安装文件夹，以防止它们的损坏。</span><span class="sxs-lookup"><span data-stu-id="0cb08-110">When using a third-party, file-level antivirus software on a server that runs Lync Server 2013 and Forefront Security for Lync Server, make sure that the folders in which Forefront Security for Lync Server and the Lync Server are installed are not scanned, to prevent their corruption.</span></span> <span data-ttu-id="0cb08-111">有关排除项的完整列表，请<A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>参阅。</span><span class="sxs-lookup"><span data-stu-id="0cb08-111">For the full list of exclusions, see <A class=uri href="http://support.microsoft.com/kb/943620">http://support.microsoft.com/kb/943620</A>.</span></span>
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：运行语音路由测试案例
+title: Lync Server 2013：运行语音路由测试用例
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14f2df8a04c5efbf8c62bc4e17bbdd156913daae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: df0a5ea6da9fad7f6a7e242bb522c493962fc603
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732832"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="run-voice-routing-test-cases-in-lync-server-2013"></a><span data-ttu-id="ccddc-102">在 Lync Server 2013 中运行语音路由测试案例</span><span class="sxs-lookup"><span data-stu-id="ccddc-102">Run voice routing test cases in Lync Server 2013</span></span>
+# <a name="run-voice-routing-test-cases-in-lync-server-2013"></a><span data-ttu-id="83c21-102">在 Lync Server 2013 中运行语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="83c21-102">Run voice routing test cases in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41732832"
 
 <span> </span>
 
-<span data-ttu-id="ccddc-103">_**主题上次修改时间：** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="ccddc-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="83c21-103">_**上次修改的主题：** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="83c21-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="ccddc-104">你可以在你的语音路由测试案例套件中运行所有测试用例，也可以运行一个或多个选定的测试用例。</span><span class="sxs-lookup"><span data-stu-id="ccddc-104">You can run all of the test cases in your voice routing test case suite, or you can run one or more selected test cases.</span></span>
+<span data-ttu-id="83c21-104">您可以运行语音路由测试用例套件中的所有测试用例，也可以运行一个或多个选定的测试用例。</span><span class="sxs-lookup"><span data-stu-id="83c21-104">You can run all of the test cases in your voice routing test case suite, or you can run one or more selected test cases.</span></span>
 
 <div>
 
-## <a name="to-run-all-voice-routing-test-cases"></a><span data-ttu-id="ccddc-105">运行所有语音路由测试案例</span><span class="sxs-lookup"><span data-stu-id="ccddc-105">To run all voice routing test cases</span></span>
+## <a name="to-run-all-voice-routing-test-cases"></a><span data-ttu-id="83c21-105">运行所有语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="83c21-105">To run all voice routing test cases</span></span>
 
-1.  <span data-ttu-id="ccddc-106">以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="ccddc-106">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="ccddc-107">有关详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。</span><span class="sxs-lookup"><span data-stu-id="ccddc-107">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="83c21-106">以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="83c21-106">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="83c21-107">有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。</span><span class="sxs-lookup"><span data-stu-id="83c21-107">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="ccddc-108">打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="ccddc-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="ccddc-109">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="ccddc-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="83c21-108">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="83c21-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="83c21-109">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="83c21-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="ccddc-110">在左侧导航栏中，单击 "**语音路由**"，然后单击 "**测试语音路由**"。</span><span class="sxs-lookup"><span data-stu-id="ccddc-110">In the left navigation bar, click **Voice Routing** and then click **Test Voice Routing**.</span></span>
+3.  <span data-ttu-id="83c21-110">在左侧导航栏中，单击“语音路由”\*\*\*\*，然后单击“测试语音路由”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83c21-110">In the left navigation bar, click **Voice Routing** and then click **Test Voice Routing**.</span></span>
 
-4.  <span data-ttu-id="ccddc-111">在 "**测试语音路由**" 页面上，单击 "**操作**"，然后单击 "**全部运行**"。</span><span class="sxs-lookup"><span data-stu-id="ccddc-111">On the **Test Voice Routing** page, click **Action** and then click **Run all**.</span></span>
+4.  <span data-ttu-id="83c21-111">在“测试语音路由”\*\*\*\* 页上，单击“操作”\*\*\*\*，然后单击“运行所有”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83c21-111">On the **Test Voice Routing** page, click **Action** and then click **Run all**.</span></span>
     
-    <span data-ttu-id="ccddc-112">每个测试用例的 "通过" 或 "失败" 状态显示在 "**通过/失败**" 列中。</span><span class="sxs-lookup"><span data-stu-id="ccddc-112">The pass or fail status of each test case is shown in the **Pass/fail** column.</span></span> <span data-ttu-id="ccddc-113">如果测试用例尚未运行，则 "**通过/失败**" 列中将显示 "N/a"。</span><span class="sxs-lookup"><span data-stu-id="ccddc-113">If a test case has not yet been run, N/A is shown in the **Pass/fail** column.</span></span>
+    <span data-ttu-id="83c21-p103">“通过/失败”\*\*\*\* 列中会显示每个测试用例的通过状态或失败状态。如果测试用例尚未运行，则“通过/失败”\*\*\*\* 列中会显示 N/A。</span><span class="sxs-lookup"><span data-stu-id="83c21-p103">The pass or fail status of each test case is shown in the **Pass/fail** column. If a test case has not yet been run, N/A is shown in the **Pass/fail** column.</span></span>
 
-5.  <span data-ttu-id="ccddc-114">可选若要查看每个测试用例的详细结果，请双击测试用例名称。</span><span class="sxs-lookup"><span data-stu-id="ccddc-114">(Optional) To see detailed results for each test case, double-click the test case name.</span></span> <span data-ttu-id="ccddc-115">结果将显示在**编辑测试用例**页面右侧的着色区域中：</span><span class="sxs-lookup"><span data-stu-id="ccddc-115">Results are shown in the shaded area on the right side of the **Edit Test Case** page:</span></span>
+5.  <span data-ttu-id="83c21-p104">（可选）要查看每个测试用例的详细结果，请双击该测试用例的名称。结果会显示在“编辑测试用例”\*\*\*\* 页右侧的阴影区域中：</span><span class="sxs-lookup"><span data-stu-id="83c21-p104">(Optional) To see detailed results for each test case, double-click the test case name. Results are shown in the shaded area on the right side of the **Edit Test Case** page:</span></span>
     
-    1.  <span data-ttu-id="ccddc-116">**测试结果：** 测试用例运行的整体传递或失败状态。</span><span class="sxs-lookup"><span data-stu-id="ccddc-116">**Test result:** Overall pass or fail status of the test case run.</span></span>
+    1.  <span data-ttu-id="83c21-116">**测试结果：** 测试用例运行的整体 pass 或 fail 状态。</span><span class="sxs-lookup"><span data-stu-id="83c21-116">**Test result:** Overall pass or fail status of the test case run.</span></span>
     
-    2.  <span data-ttu-id="ccddc-117">**规范化规则：** 为此测试用例选择的拨号计划中的第一个规范化规则与已拨打的号码相匹配（"**要测试的号码**" 字段中的值）。</span><span class="sxs-lookup"><span data-stu-id="ccddc-117">**Normalization rule:** The first normalization rule in the dial plan selected for this test case that matches the dialed number (the value in the **Number to test** field).</span></span>
+    2.  <span data-ttu-id="83c21-117">**规范化规则：** 为此测试用例选择的拨号计划中的第一个规范化规则与所拨打的号码相匹配（"**要测试的数字**" 字段中的值）。</span><span class="sxs-lookup"><span data-stu-id="83c21-117">**Normalization rule:** The first normalization rule in the dial plan selected for this test case that matches the dialed number (the value in the **Number to test** field).</span></span>
     
-    3.  <span data-ttu-id="ccddc-118">**规范化数字：** 规范化规则翻译后拨叫的号码的值。</span><span class="sxs-lookup"><span data-stu-id="ccddc-118">**Normalized number:** The value of the dialed number after the normalization rule has translated it.</span></span>
+    3.  <span data-ttu-id="83c21-118">**正常化的数字：** 规范化规则翻译后拨叫的号码的值。</span><span class="sxs-lookup"><span data-stu-id="83c21-118">**Normalized number:** The value of the dialed number after the normalization rule has translated it.</span></span>
     
-    4.  <span data-ttu-id="ccddc-119">**第一 PSTN 使用：** 为此测试用例选择的、与所拨号码匹配的语音策略中的第一个公共交换电话网络（PSTN）使用记录。</span><span class="sxs-lookup"><span data-stu-id="ccddc-119">**First PSTN usage:** The first public switched telephone network (PSTN) usage record in the voice policy selected for this test case that matches the dialed number.</span></span>
+    4.  <span data-ttu-id="83c21-119">**第一个 PSTN 用法：** 为此测试用例选择的语音策略中的第一个公用电话交换网（PSTN）用法记录与所拨打的号码匹配。</span><span class="sxs-lookup"><span data-stu-id="83c21-119">**First PSTN usage:** The first public switched telephone network (PSTN) usage record in the voice policy selected for this test case that matches the dialed number.</span></span>
     
-    5.  <span data-ttu-id="ccddc-120">**第一条路线：** 第一条在第一条 PSTN 使用记录中与所拨号码相匹配的第一个语音路线。</span><span class="sxs-lookup"><span data-stu-id="ccddc-120">**First route:** The first voice route in the first PSTN usage record that matches the dialed number.</span></span>
+    5.  <span data-ttu-id="83c21-120">**第一个路由：** 第一个与所拨打的号码相匹配的 PSTN 用法记录中的第一个语音路由。</span><span class="sxs-lookup"><span data-stu-id="83c21-120">**First route:** The first voice route in the first PSTN usage record that matches the dialed number.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="ccddc-121">"<STRONG>预期 PSTN 使用记录</STRONG>" 和 "<STRONG>预期路由</STRONG>" 字段在语音路由测试案例配置中是可选的。</span><span class="sxs-lookup"><span data-stu-id="ccddc-121">The <STRONG>Expected PSTN usage record</STRONG> and <STRONG>Expected route</STRONG> fields are optional in voice routing test case configuration.</span></span> <span data-ttu-id="ccddc-122">如果测试用例未指定这些值，则测试结果中的对应字段将为空。</span><span class="sxs-lookup"><span data-stu-id="ccddc-122">If the test case does not specify these values, the corresponding field in the test results will be empty.</span></span>
+        > <span data-ttu-id="83c21-p105">在语音路由测试用例配置中，“预期 PSTN 用法记录”<STRONG></STRONG>和“预期路由”<STRONG></STRONG>字段是可选的。如果测试用例不指定这些值，则测试结果中对应的字段为空。</span><span class="sxs-lookup"><span data-stu-id="83c21-p105">The <STRONG>Expected PSTN usage record</STRONG> and <STRONG>Expected route</STRONG> fields are optional in voice routing test case configuration. If the test case does not specify these values, the corresponding field in the test results will be empty.</span></span>
 
         
         </div>
@@ -78,37 +78,37 @@ ms.locfileid: "41732832"
 
 <div>
 
-## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a><span data-ttu-id="ccddc-123">运行一个或多个所选的语音路由测试案例</span><span class="sxs-lookup"><span data-stu-id="ccddc-123">To run one or more selected voice routing test cases</span></span>
+## <a name="to-run-one-or-more-selected-voice-routing-test-cases"></a><span data-ttu-id="83c21-123">运行一个或多个所选语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="83c21-123">To run one or more selected voice routing test cases</span></span>
 
-1.  <span data-ttu-id="ccddc-124">以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="ccddc-124">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="ccddc-125">有关详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。</span><span class="sxs-lookup"><span data-stu-id="ccddc-125">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="83c21-124">以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。</span><span class="sxs-lookup"><span data-stu-id="83c21-124">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="83c21-125">有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。</span><span class="sxs-lookup"><span data-stu-id="83c21-125">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="ccddc-126">打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="ccddc-126">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="ccddc-127">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="ccddc-127">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="83c21-126">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="83c21-126">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="83c21-127">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="83c21-127">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="ccddc-128">在左侧导航栏中，单击 "**语音路由**"，然后单击 "**测试语音路由**"。</span><span class="sxs-lookup"><span data-stu-id="ccddc-128">In the left navigation bar, click **Voice Routing**, and then click **Test Voice Routing**.</span></span>
+3.  <span data-ttu-id="83c21-128">在左侧导航栏中，单击“语音路由”\*\*\*\*，然后单击“测试语音路由”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83c21-128">In the left navigation bar, click **Voice Routing**, and then click **Test Voice Routing**.</span></span>
 
-4.  <span data-ttu-id="ccddc-129">在 "**测试语音路由**" 页面上，单击要运行的测试用例的名称。</span><span class="sxs-lookup"><span data-stu-id="ccddc-129">On the **Test Voice Routing** page, click the names of the test cases that you want to run.</span></span>
+4.  <span data-ttu-id="83c21-129">在“测试语音路由”\*\*\*\* 页上，单击要运行的测试用例的名称。</span><span class="sxs-lookup"><span data-stu-id="83c21-129">On the **Test Voice Routing** page, click the names of the test cases that you want to run.</span></span>
 
-5.  <span data-ttu-id="ccddc-130">在 "**操作**" 菜单上，单击 "**运行所选**"。</span><span class="sxs-lookup"><span data-stu-id="ccddc-130">On the **Action** menu, click **Run selected**.</span></span>
+5.  <span data-ttu-id="83c21-130">在“操作”\*\*\*\* 菜单上，单击“运行所选项”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="83c21-130">On the **Action** menu, click **Run selected**.</span></span>
     
-    <span data-ttu-id="ccddc-131">每个测试用例的 "通过" 或 "失败" 状态显示在 "**通过/失败**" 列中。</span><span class="sxs-lookup"><span data-stu-id="ccddc-131">The pass or fail status of each test case is shown in the **Pass/fail** column.</span></span> <span data-ttu-id="ccddc-132">如果测试用例尚未运行，则 "**通过/失败**" 列中将显示 "N/a"。</span><span class="sxs-lookup"><span data-stu-id="ccddc-132">If a test case has not yet been run, N/A is shown in the **Pass/fail** column.</span></span>
+    <span data-ttu-id="83c21-p108">“通过/失败”\*\*\*\* 列中会显示每个测试用例的通过状态或失败状态。如果测试用例尚未运行，则“通过/失败”\*\*\*\* 列中会显示 N/A。</span><span class="sxs-lookup"><span data-stu-id="83c21-p108">The pass or fail status of each test case is shown in the **Pass/fail** column. If a test case has not yet been run, N/A is shown in the **Pass/fail** column.</span></span>
 
-6.  <span data-ttu-id="ccddc-133">可选若要查看每个测试用例的详细结果，请双击测试用例名称。</span><span class="sxs-lookup"><span data-stu-id="ccddc-133">(Optional) To see detailed results for each test case, double-click the test case name.</span></span> <span data-ttu-id="ccddc-134">结果将显示在**编辑测试用例**页面右侧的着色区域中：</span><span class="sxs-lookup"><span data-stu-id="ccddc-134">Results are shown in the shaded area on the right side of the **Edit Test Case** page:</span></span>
+6.  <span data-ttu-id="83c21-p109">（可选）要查看每个测试用例的详细结果，请双击该测试用例的名称。结果会显示在“编辑测试用例”\*\*\*\* 页右侧的阴影区域中：</span><span class="sxs-lookup"><span data-stu-id="83c21-p109">(Optional) To see detailed results for each test case, double-click the test case name. Results are shown in the shaded area on the right side of the **Edit Test Case** page:</span></span>
     
-    1.  <span data-ttu-id="ccddc-135">**测试结果：** 测试用例运行的整体传递或失败状态。</span><span class="sxs-lookup"><span data-stu-id="ccddc-135">**Test result:** Overall pass or fail status of the test case run.</span></span>
+    1.  <span data-ttu-id="83c21-135">**测试结果：** 测试用例运行的整体 pass 或 fail 状态。</span><span class="sxs-lookup"><span data-stu-id="83c21-135">**Test result:** Overall pass or fail status of the test case run.</span></span>
     
-    2.  <span data-ttu-id="ccddc-136">**规范化规则：** 为此测试用例选择的拨号计划中的第一个规范化规则与已拨打的号码相匹配（"**要测试的号码**" 字段中的值）。</span><span class="sxs-lookup"><span data-stu-id="ccddc-136">**Normalization rule:** The first normalization rule in the dial plan selected for this test case that matches the dialed number (the value in the **Number to test** field).</span></span>
+    2.  <span data-ttu-id="83c21-136">**规范化规则：** 为此测试用例选择的拨号计划中的第一个规范化规则与所拨打的号码相匹配（"**要测试的数字**" 字段中的值）。</span><span class="sxs-lookup"><span data-stu-id="83c21-136">**Normalization rule:** The first normalization rule in the dial plan selected for this test case that matches the dialed number (the value in the **Number to test** field).</span></span>
     
-    3.  <span data-ttu-id="ccddc-137">**规范化数字：** 规范化规则翻译后拨叫的号码的值。</span><span class="sxs-lookup"><span data-stu-id="ccddc-137">**Normalized number:** The value of the dialed number after the normalization rule has translated it.</span></span>
+    3.  <span data-ttu-id="83c21-137">**正常化的数字：** 规范化规则翻译后拨叫的号码的值。</span><span class="sxs-lookup"><span data-stu-id="83c21-137">**Normalized number:** The value of the dialed number after the normalization rule has translated it.</span></span>
     
-    4.  <span data-ttu-id="ccddc-138">**第一 PSTN 使用：** 为此测试用例选择的、与所拨号码匹配的语音策略中的第一条 PSTN 使用记录。</span><span class="sxs-lookup"><span data-stu-id="ccddc-138">**First PSTN usage:** The first PSTN usage record in the voice policy selected for this test case that matches the dialed number.</span></span>
+    4.  <span data-ttu-id="83c21-138">**第一个 PSTN 用法：** 为此测试用例选择的语音策略中的第一个 PSTN 用法记录与所拨打的号码相匹配。</span><span class="sxs-lookup"><span data-stu-id="83c21-138">**First PSTN usage:** The first PSTN usage record in the voice policy selected for this test case that matches the dialed number.</span></span>
     
-    5.  <span data-ttu-id="ccddc-139">**第一条路线：** 第一条在第一条 PSTN 使用记录中与所拨号码相匹配的第一个语音路线。</span><span class="sxs-lookup"><span data-stu-id="ccddc-139">**First route:** The first voice route in the first PSTN usage record that matches the dialed number.</span></span>
+    5.  <span data-ttu-id="83c21-139">**第一个路由：** 第一个与所拨打的号码相匹配的 PSTN 用法记录中的第一个语音路由。</span><span class="sxs-lookup"><span data-stu-id="83c21-139">**First route:** The first voice route in the first PSTN usage record that matches the dialed number.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="ccddc-140">"<STRONG>预期 PSTN 使用记录</STRONG>" 和 "<STRONG>预期路由</STRONG>" 字段在语音路由测试案例配置中是可选的。</span><span class="sxs-lookup"><span data-stu-id="ccddc-140">The <STRONG>Expected PSTN usage record</STRONG> and <STRONG>Expected route</STRONG> fields are optional in voice routing test case configuration.</span></span> <span data-ttu-id="ccddc-141">如果测试用例未指定这些值，则测试结果中的对应字段将为空。</span><span class="sxs-lookup"><span data-stu-id="ccddc-141">If the test case does not specify these values, the corresponding field in the test results will be empty.</span></span>
+        > <span data-ttu-id="83c21-p110">在语音路由测试用例配置中，“预期 PSTN 用法记录”<STRONG></STRONG>和“预期路由”<STRONG></STRONG>字段是可选的。如果测试用例不指定这些值，则测试结果中对应的字段为空。</span><span class="sxs-lookup"><span data-stu-id="83c21-p110">The <STRONG>Expected PSTN usage record</STRONG> and <STRONG>Expected route</STRONG> fields are optional in voice routing test case configuration. If the test case does not specify these values, the corresponding field in the test results will be empty.</span></span>
 
         
         </div>
@@ -117,11 +117,11 @@ ms.locfileid: "41732832"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ccddc-142">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ccddc-142">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="83c21-142">另请参阅</span><span class="sxs-lookup"><span data-stu-id="83c21-142">See Also</span></span>
 
 
-[<span data-ttu-id="ccddc-143">在 Lync Server 2013 中测试语音路由</span><span class="sxs-lookup"><span data-stu-id="ccddc-143">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)  
-[<span data-ttu-id="ccddc-144">在 Lync Server 2013 中运行语音路由测试</span><span class="sxs-lookup"><span data-stu-id="ccddc-144">Running voice routing tests in Lync Server 2013</span></span>](lync-server-2013-running-voice-routing-tests.md)  
+[<span data-ttu-id="83c21-143">在 Lync Server 2013 中测试语音路由</span><span class="sxs-lookup"><span data-stu-id="83c21-143">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)  
+[<span data-ttu-id="83c21-144">在 Lync Server 2013 中运行语音路由测试</span><span class="sxs-lookup"><span data-stu-id="83c21-144">Running voice routing tests in Lync Server 2013</span></span>](lync-server-2013-running-voice-routing-tests.md)  
   
 
 </div>

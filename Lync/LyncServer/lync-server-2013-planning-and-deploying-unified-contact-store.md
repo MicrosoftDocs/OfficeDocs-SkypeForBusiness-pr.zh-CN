@@ -12,20 +12,20 @@ ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9685902f44793ba2cd446827ef13e88266b548af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2fe98de82378b84c75f538e34bd2ce768a4ceb9b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725612"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="97176-102">在 Lync Server 2013 中规划和部署统一联系人存储</span><span class="sxs-lookup"><span data-stu-id="97176-102">Planning and deploying unified contact store in Lync Server 2013</span></span>
+# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="22def-102">在 Lync Server 2013 中规划和部署统一联系人存储</span><span class="sxs-lookup"><span data-stu-id="22def-102">Planning and deploying unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725612"
 
 <span> </span>
 
-<span data-ttu-id="97176-103">_**主题上次修改时间：** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="97176-103">_**Topic Last Modified:** 2012-06-14_</span></span>
+<span data-ttu-id="22def-103">_**上次修改的主题：** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="22def-103">_**Topic Last Modified:** 2012-06-14_</span></span>
 
-<span data-ttu-id="97176-104">统一联系人存储是在 Microsoft Office 产品中提供一致的联系人体验的一项功能。</span><span class="sxs-lookup"><span data-stu-id="97176-104">Unified contact store is a feature that provides a consistent contact experience across Microsoft Office products.</span></span> <span data-ttu-id="97176-105">此功能使用户能够将所有联系人信息存储在 Exchange 2013 中，以便信息在 Lync、Exchange、Outlook 和 Outlook Web Access 中全局可用。</span><span class="sxs-lookup"><span data-stu-id="97176-105">This feature enables users to store all contact information in Exchange 2013 so that the information is available globally across Lync, Exchange, Outlook, and Outlook Web Access.</span></span>
+<span data-ttu-id="22def-104">统一联系人存储是一项功能，它提供跨 Microsoft Office 产品的一致的联系人体验。</span><span class="sxs-lookup"><span data-stu-id="22def-104">Unified contact store is a feature that provides a consistent contact experience across Microsoft Office products.</span></span> <span data-ttu-id="22def-105">此功能使用户可以将所有联系人信息存储在 Exchange 2013 中，以便可以在 Lync、Exchange、Outlook 和 Outlook Web Access 中全局使用这些信息。</span><span class="sxs-lookup"><span data-stu-id="22def-105">This feature enables users to store all contact information in Exchange 2013 so that the information is available globally across Lync, Exchange, Outlook, and Outlook Web Access.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="97176-106">本节内容</span><span class="sxs-lookup"><span data-stu-id="97176-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="22def-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="22def-106">In This Section</span></span>
 
-  - [<span data-ttu-id="97176-107">Lync Server 2013 中统一联系人存储的要求</span><span class="sxs-lookup"><span data-stu-id="97176-107">Requirements for unified contact store in Lync Server 2013</span></span>](lync-server-2013-requirements-for-unified-contact-store.md)
+  - [<span data-ttu-id="22def-107">Lync Server 2013 中统一联系人存储的要求</span><span class="sxs-lookup"><span data-stu-id="22def-107">Requirements for unified contact store in Lync Server 2013</span></span>](lync-server-2013-requirements-for-unified-contact-store.md)
 
-  - [<span data-ttu-id="97176-108">在 Lync Server 2013 中部署统一联系人存储</span><span class="sxs-lookup"><span data-stu-id="97176-108">Deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-deploying-unified-contact-store.md)
+  - [<span data-ttu-id="22def-108">在 Lync Server 2013 中部署统一联系人存储</span><span class="sxs-lookup"><span data-stu-id="22def-108">Deploying unified contact store in Lync Server 2013</span></span>](lync-server-2013-deploying-unified-contact-store.md)
 
 </div>
 

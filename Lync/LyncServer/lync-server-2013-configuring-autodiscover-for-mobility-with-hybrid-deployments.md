@@ -1,5 +1,5 @@
 ---
-title: 使用混合部署配置移动性的自动发现
+title: 为具有混合部署的移动性配置自动发现
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706012
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dd6c36afb89d1a8b354d072ee39ee3f6a2e7e93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 027357579ff9ff90d82a78994696a5a2fb656188
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734833"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a><span data-ttu-id="424bd-102">在 Lync Server 2013 中使用混合部署配置移动性的自动发现</span><span class="sxs-lookup"><span data-stu-id="424bd-102">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>
+# <a name="configuring-autodiscover-in-lync-server-2013-for-mobility-with-hybrid-deployments"></a><span data-ttu-id="c0908-102">在 Lync Server 2013 中配置自动发现以实现与混合部署的移动性</span><span class="sxs-lookup"><span data-stu-id="c0908-102">Configuring Autodiscover in Lync Server 2013 for mobility with hybrid deployments</span></span>
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41734833"
 
 <span> </span>
 
-<span data-ttu-id="424bd-103">_**主题上次修改时间：** 2014-06-18_</span><span class="sxs-lookup"><span data-stu-id="424bd-103">_**Topic Last Modified:** 2014-06-18_</span></span>
+<span data-ttu-id="c0908-103">_**上次修改的主题：** 2014-06-18_</span><span class="sxs-lookup"><span data-stu-id="c0908-103">_**Topic Last Modified:** 2014-06-18_</span></span>
 
-<span data-ttu-id="424bd-104">混合部署是使用 Microsoft Lync Online 云服务和本地部署的配置。</span><span class="sxs-lookup"><span data-stu-id="424bd-104">Hybrid Deployments are configurations that use both the Microsoft Lync Online cloud service and the on premises deployment.</span></span> <span data-ttu-id="424bd-105">在此类型的配置中，自动发现服务必须能够找到用户实际所在的位置。</span><span class="sxs-lookup"><span data-stu-id="424bd-105">In this type of configuration, the Autodiscover service must be able to locate where the user is actually located.</span></span> <span data-ttu-id="424bd-106">也就是说，"自动发现" 帮助查找用户帐户和托管用户帐户的服务器所在的位置，无论该帐户是在本地部署还是在 Lync Online 部署中。</span><span class="sxs-lookup"><span data-stu-id="424bd-106">That is to say, Autodiscover aids in finding the user account and where the server that hosts the user’s account is, regardless if it is in the on premises deployment or in the Lync Online deployment.</span></span>
+<span data-ttu-id="c0908-104">混合部署是使用 Microsoft Lync Online 云服务和本地部署的配置。</span><span class="sxs-lookup"><span data-stu-id="c0908-104">Hybrid Deployments are configurations that use both the Microsoft Lync Online cloud service and the on premises deployment.</span></span> <span data-ttu-id="c0908-105">在此类型的配置中，自动发现服务必须能够找到用户实际所处的位置。</span><span class="sxs-lookup"><span data-stu-id="c0908-105">In this type of configuration, the Autodiscover service must be able to locate where the user is actually located.</span></span> <span data-ttu-id="c0908-106">也就是说，自动发现功能会帮助查找用户帐户以及承载用户帐户的服务器所在的位置，而不管它是在本地部署中还是在 Lync Online 部署中。</span><span class="sxs-lookup"><span data-stu-id="c0908-106">That is to say, Autodiscover aids in finding the user account and where the server that hosts the user’s account is, regardless if it is in the on premises deployment or in the Lync Online deployment.</span></span>
 
-<span data-ttu-id="424bd-107">例如，如果用户的帐户托管在 Lync Online 中的服务器上，则在称为 "*发现*" 的过程中，尝试查找用户的操作将如下所示：</span><span class="sxs-lookup"><span data-stu-id="424bd-107">For example, if a user’s account is hosted on a server in Lync Online, the attempt to locate the user will happen as follows, in a process known as *discoverability*:</span></span>
+<span data-ttu-id="c0908-107">例如，如果用户的帐户托管在 Lync Online 中的服务器上，则在称为 "*发现*" 的过程中，查找用户的尝试将按如下方式发生：</span><span class="sxs-lookup"><span data-stu-id="c0908-107">For example, if a user’s account is hosted on a server in Lync Online, the attempt to locate the user will happen as follows, in a process known as *discoverability*:</span></span>
 
-  - <span data-ttu-id="424bd-108">用户启动到本地部署的连接尝试**contoso.com**。</span><span class="sxs-lookup"><span data-stu-id="424bd-108">User initiates a connection attempt to the on premises deployment, **contoso.com**.</span></span>
+  - <span data-ttu-id="c0908-108">用户启动对内部部署的连接尝试 **contoso.com**。</span><span class="sxs-lookup"><span data-stu-id="c0908-108">User initiates a connection attempt to the on premises deployment, **contoso.com**.</span></span>
 
-  - <span data-ttu-id="424bd-109">该尝试将发送到 lyncdiscover.contoso.com，它是与自动发现服务关联的 DNS 名称。</span><span class="sxs-lookup"><span data-stu-id="424bd-109">The attempt is sent to lyncdiscover.contoso.com, the DNS name associated with the Autodiscover service.</span></span>
+  - <span data-ttu-id="c0908-109">会将尝试发送到 lyncdiscover.contoso.com，DNS 名称与自动发现服务相关联。</span><span class="sxs-lookup"><span data-stu-id="c0908-109">The attempt is sent to lyncdiscover.contoso.com, the DNS name associated with the Autodiscover service.</span></span>
 
-  - <span data-ttu-id="424bd-110">自动发现指在 contoso.com 本地部署中假定的注册机构池，并提供有关用户在 Lync Online 中托管的实际主服务器的信息。</span><span class="sxs-lookup"><span data-stu-id="424bd-110">Autodiscover refers to the assumed registrar pool at the contoso.com on premises deployment and is given information on the user’s actual home server hosted in Lync Online.</span></span> <span data-ttu-id="424bd-111">然后，自动发现将向用户发送**lync.com**联机自动发现服务的引用。</span><span class="sxs-lookup"><span data-stu-id="424bd-111">Autodiscover then sends the user a referral to the **lync.com** online Autodiscover service.</span></span>
+  - <span data-ttu-id="c0908-110">自动发现是指在 contoso.com 本地部署中假定的注册器池，并提供有关 Lync Online 中托管的用户实际主服务器的信息。</span><span class="sxs-lookup"><span data-stu-id="c0908-110">Autodiscover refers to the assumed registrar pool at the contoso.com on premises deployment and is given information on the user’s actual home server hosted in Lync Online.</span></span> <span data-ttu-id="c0908-111">然后自动发现会向用户对 **lync.com** 联机自动发现服务发送一个引用。</span><span class="sxs-lookup"><span data-stu-id="c0908-111">Autodiscover then sends the user a referral to the **lync.com** online Autodiscover service.</span></span>
 
-  - <span data-ttu-id="424bd-112">用户启动到 lync.com online 自动发现服务的连接尝试，并且能够找到用户的帐户和用户的主服务器。</span><span class="sxs-lookup"><span data-stu-id="424bd-112">The user initiates a connection attempt to the lync.com online Autodiscover service and is able to locate the user’s account and the user’s home server.</span></span>
+  - <span data-ttu-id="c0908-112">用户对 lync.com 联机自动发现服务启动一个连接尝试，并能够找到用户的帐户和用户的主服务器。</span><span class="sxs-lookup"><span data-stu-id="c0908-112">The user initiates a connection attempt to the lync.com online Autodiscover service and is able to locate the user’s account and the user’s home server.</span></span>
 
-<span data-ttu-id="424bd-113">若要使移动客户端能够发现用户主服务器所在的部署，必须使用新的统一资源定位器（URL）配置自动发现服务。</span><span class="sxs-lookup"><span data-stu-id="424bd-113">To enable mobile clients to discover the deployment where the user home server is located, you must configure the Autodiscover service with a new uniform resource locator (URL).</span></span> <span data-ttu-id="424bd-114">执行以下操作以配置自动发现服务。</span><span class="sxs-lookup"><span data-stu-id="424bd-114">Do the following to configure the Autodiscover service.</span></span>
+<span data-ttu-id="c0908-p103">要启用移动客户端来发现用户主服务器所在的部署，则必须使用新的统一资源定位器 (URL) 配置自动发现服务。执行下列操作可配置自动发现服务。</span><span class="sxs-lookup"><span data-stu-id="c0908-p103">To enable mobile clients to discover the deployment where the user home server is located, you must configure the Autodiscover service with a new uniform resource locator (URL). Do the following to configure the Autodiscover service.</span></span>
 
 <div>
 
-## <a name="configuring-autodiscover-for-hybrid-deployments"></a><span data-ttu-id="424bd-115">配置混合部署的自动发现</span><span class="sxs-lookup"><span data-stu-id="424bd-115">Configuring Autodiscover for Hybrid Deployments</span></span>
+## <a name="configuring-autodiscover-for-hybrid-deployments"></a><span data-ttu-id="c0908-115">为混合部署配置自动发现</span><span class="sxs-lookup"><span data-stu-id="c0908-115">Configuring Autodiscover for Hybrid Deployments</span></span>
 
-1.  <span data-ttu-id="424bd-116">使用 CsHostingProvider 检索属性 ProxyFQDN 的值。</span><span class="sxs-lookup"><span data-stu-id="424bd-116">You use Get-CsHostingProvider to retrieve the value of the attribute ProxyFQDN.</span></span>
+1.  <span data-ttu-id="c0908-116">您可以使用 CsHostingProvider 检索 ProxyFQDN 属性的值。</span><span class="sxs-lookup"><span data-stu-id="c0908-116">You use Get-CsHostingProvider to retrieve the value of the attribute ProxyFQDN.</span></span>
 
-2.  <span data-ttu-id="424bd-117">从 Lync Server 命令行管理程序中，键入</span><span class="sxs-lookup"><span data-stu-id="424bd-117">From the Lync Server Management Shell, type</span></span>
+2.  <span data-ttu-id="c0908-117">在 Lync Server 命令行管理程序中，键入</span><span class="sxs-lookup"><span data-stu-id="c0908-117">From the Lync Server Management Shell, type</span></span>
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodiscoverservice.svc/root
     
-    <span data-ttu-id="424bd-118">其中\[标识\]替换为共享 SIP 地址空间的域名。</span><span class="sxs-lookup"><span data-stu-id="424bd-118">Where \[identity\] is replaced with the domain name of the shared SIP address space.</span></span>
+    <span data-ttu-id="c0908-118">其中\[标识\]替换为共享 SIP 地址空间的域名。</span><span class="sxs-lookup"><span data-stu-id="c0908-118">Where \[identity\] is replaced with the domain name of the shared SIP address space.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="424bd-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="424bd-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c0908-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c0908-119">See Also</span></span>
 
 
-<span data-ttu-id="424bd-120">[CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg413078(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="424bd-120">[Get-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg413078(v=OCS.15))</span></span>  
-<span data-ttu-id="424bd-121">[Set-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398532(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="424bd-121">[Set-CsHostingProvider](https://technet.microsoft.com/en-us/library/Gg398532(v=OCS.15))</span></span>  
+<span data-ttu-id="c0908-120">[CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c0908-120">[Get-CsHostingProvider](https://technet.microsoft.com/library/Gg413078(v=OCS.15))</span></span>  
+<span data-ttu-id="c0908-121">[CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="c0908-121">[Set-CsHostingProvider](https://technet.microsoft.com/library/Gg398532(v=OCS.15))</span></span>  
   
 
 </div>

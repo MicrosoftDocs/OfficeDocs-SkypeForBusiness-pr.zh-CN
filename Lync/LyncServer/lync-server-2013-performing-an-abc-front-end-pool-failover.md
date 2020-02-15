@@ -12,20 +12,20 @@ ms:contentKeyID: 51541489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155d8224b80e614ac8609c007a16072e9d3a5c60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9fd0be7bbde714a380473dc8b470437a9fee4cdc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755272"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a><span data-ttu-id="ebe84-102">在 Lync Server 2013 中执行 ABC 前端池故障转移</span><span class="sxs-lookup"><span data-stu-id="ebe84-102">Performing an ABC Front End pool failover in Lync Server 2013</span></span>
+# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a><span data-ttu-id="23374-102">在 Lync Server 2013 中执行 ABC 前端池故障转移</span><span class="sxs-lookup"><span data-stu-id="23374-102">Performing an ABC Front End pool failover in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755272"
 
 <span> </span>
 
-<span data-ttu-id="ebe84-103">_**主题上次修改时间：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="ebe84-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="23374-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="23374-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="ebe84-104">本部分中的两个主题介绍在 Lync Server 2013 中执行 ABC 池故障转移的过程，其中有成对的 Lync Server 前端池 A 和 B，并且池 A 不可恢复。</span><span class="sxs-lookup"><span data-stu-id="ebe84-104">The two topics in this section describe the procedure for performing an ABC pool failover in Lync Server 2013, where there are paired Lync Server Front End pools A and B, and pool A becomes unrecoverable.</span></span> <span data-ttu-id="ebe84-105">使用此过程，使用新的完全限定的域名（FQDN）创建新的前端池 C。</span><span class="sxs-lookup"><span data-stu-id="ebe84-105">Using this procedure, you create a new Front End pool C with a new fully qualified domain name (FQDN).</span></span> <span data-ttu-id="ebe84-106">池 C 由故障池 A 中的信息构造。该过程还包括将池 B 和 C 配对到一起。</span><span class="sxs-lookup"><span data-stu-id="ebe84-106">Pool C is constructed from the information from failed pool A. The procedure also includes pairing together pools B and C.</span></span>
+<span data-ttu-id="23374-104">本节中的两个主题介绍在 Lync Server 2013 中执行 ABC 池故障转移的过程，其中有成对的 Lync Server 前端池 A 和 B，池 A 将不可恢复。</span><span class="sxs-lookup"><span data-stu-id="23374-104">The two topics in this section describe the procedure for performing an ABC pool failover in Lync Server 2013, where there are paired Lync Server Front End pools A and B, and pool A becomes unrecoverable.</span></span> <span data-ttu-id="23374-105">使用此过程，使用新的完全限定的域名（FQDN）创建新的前端池 C。</span><span class="sxs-lookup"><span data-stu-id="23374-105">Using this procedure, you create a new Front End pool C with a new fully qualified domain name (FQDN).</span></span> <span data-ttu-id="23374-106">池 C 是从故障池 A 中的信息构造的。此过程还包括将池 B 和 C 配对在一起。</span><span class="sxs-lookup"><span data-stu-id="23374-106">Pool C is constructed from the information from failed pool A. The procedure also includes pairing together pools B and C.</span></span>
 
-  - [<span data-ttu-id="ebe84-107">Lync Server 2013 中的 ABC 池故障转移的备份先决条件</span><span class="sxs-lookup"><span data-stu-id="ebe84-107">Backup prerequisites for ABC pool failover in Lync Server 2013</span></span>](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
+  - [<span data-ttu-id="23374-107">Lync Server 2013 中的 ABC 池故障转移的备份先决条件</span><span class="sxs-lookup"><span data-stu-id="23374-107">Backup prerequisites for ABC pool failover in Lync Server 2013</span></span>](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
 
-  - [<span data-ttu-id="ebe84-108">Lync Server 2013 中的前端池 ABC 故障转移过程</span><span class="sxs-lookup"><span data-stu-id="ebe84-108">Front End pool ABC failover procedure in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-abc-failover-procedure.md)
+  - [<span data-ttu-id="23374-108">Lync Server 2013 中的前端池 ABC 故障转移过程</span><span class="sxs-lookup"><span data-stu-id="23374-108">Front End pool ABC failover procedure in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-abc-failover-procedure.md)
 
 </div>
 
