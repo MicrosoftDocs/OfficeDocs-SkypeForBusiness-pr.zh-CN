@@ -12,16 +12,16 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4df16ffb24c4eb4e010e2b57f6af62d3518c05b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e31e088d34bae2e136d86751c71f45754dc9db07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730092"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,35 +35,35 @@ ms.locfileid: "41730092"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-30_
+_**上次修改的主题：** 2012-10-30_
 
-本部分介绍全局设置和对象，以及由林准备步骤创建的通用服务和管理组。
+本节介绍林准备步骤所创建的全局设置和对象以及通用服务组和通用管理组。
 
 <div>
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory 全局设置和对象
 
-如果在配置容器中存储全局设置（对于所有新的 Lync Server 2013 部署而言），林准备将使用现有服务容器，并在 "配置\\服务" 对象下添加**RTC 服务**对象。 在 RTC 服务对象下，林准备添加了类型 msRTCSIP-GlobalContainer 的**全局设置**对象。 全局设置对象包含适用于 Lync Server 部署的所有设置。 如果在系统容器中存储全局设置，林准备将使用根域系统容器下的 Microsoft 容器和系统\\Microsoft 对象下的 RTC 服务对象。
+如果将全局设置存储在配置容器中（所有新的 Lync Server 2013 部署的情况），林准备将使用现有服务容器，并在配置\\服务对象下添加**RTC 服务**对象。 在 RTC 服务对象下，林准备添加一个 msRTCSIP-GlobalContainer 类型的**Global Settings**对象。 全局设置对象包含适用于 Lync Server 部署的所有设置。 如果将全局设置存储在系统容器中，林准备将使用根域系统容器下的 Microsoft 容器和系统\\Microsoft 对象下的 RTC 服务对象。
 
-林准备还会为运行该过程的根域添加一个新的**MsRTCSIP 域**对象。
+林准备还为从中运行此过程的根域添加一个新的 **msRTCSIP-Domain** 对象。
 
 </div>
 
 <div>
 
-## <a name="active-directory-universal-service-and-administration-groups"></a>Active Directory 通用服务和管理组
+## <a name="active-directory-universal-service-and-administration-groups"></a>Active Directory 通用服务组和通用管理组
 
-林准备基于你指定的域创建通用组，并为这些组添加访问控制条目（Ace）。 此步骤将在你指定的域的用户容器中创建通用组。
+林准备根据所指定的域创建通用组，并为这些组添加访问控制项 (ACE)。此步骤将在指定域的用户容器中创建通用组。
 
-通用组允许管理员访问和管理全局设置和服务。 林准备添加了以下类型的通用组：
+通用组允许管理员访问并管理全局设置和服务。林准备将添加以下类型的通用组：
 
-  - **管理组**   这些组定义 Lync Server 网络的管理员角色。
+  - **管理组**   ：这些组定义 Lync Server 网络的管理员角色。
 
-  - **基础结构组**   这些组提供访问 Lync Server 基础结构的特定区域的权限。 它们充当管理组的组件。 不应修改这些组或直接将用户添加到其中。
+  - **基础结构组**   ：这些组提供访问 Lync Server 基础结构的特定区域的权限。 它们用作管理组的组件。 您不应修改这些组或直接向其中添加用户。
 
   - **服务组**   这些组是访问各种 Lync Server 服务所需的服务帐户。
 
-下表介绍了管理组。
+下表介绍的是管理组。
 
 ### <a name="administrative-groups-created-during-forest-preparation"></a>在林准备期间创建的管理组
 
@@ -85,7 +85,7 @@ _**主题上次修改时间：** 2012-10-30_
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>允许成员管理用户设置并将用户从一个服务器或池移动到另一个服务器或池。</p></td>
+<td><p>允许成员管理用户设置，以及在不同的服务器或池之间移动用户。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalReadOnlyAdmins</p></td>
@@ -95,7 +95,7 @@ _**主题上次修改时间：** 2012-10-30_
 </table>
 
 
-下表介绍了基础结构组。
+下表介绍的是基础结构组。
 
 ### <a name="infrastructure-groups-created-during-forest-preparation"></a>在林准备期间创建的基础结构组
 
@@ -113,11 +113,11 @@ _**主题上次修改时间：** 2012-10-30_
 <tbody>
 <tr class="odd">
 <td><p>RTCUniversalGlobalWriteGroup</p></td>
-<td><p>向 Lync Server 的全局设置对象授予写入访问权限。</p></td>
+<td><p>为 Lync Server 授予对全局设置对象的写入权限。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalGlobalReadOnlyGroup</p></td>
-<td><p>授予 Lync Server 全局设置对象的只读访问权限。</p></td>
+<td><p>为 Lync Server 授予对全局设置对象的只读访问权限。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
@@ -125,19 +125,19 @@ _**主题上次修改时间：** 2012-10-30_
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>授予对 Lync Server 设置的只读访问权限。 此组无权访问池级别设置，只能访问特定于单个服务器的设置。</p></td>
+<td><p>授予对 Lync Server 设置的只读访问权限。 此组没有对池级别设置的访问权限，只有对单个服务器专用设置的访问权限。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalSBATechnicians</p></td>
-<td><p>授予对 Lync Server 配置的只读访问权限，并将其放在安装期间 survivable 分支装置的本地管理员组中。</p></td>
+<td><p>授予对 Lync Server 配置的只读访问权限，并将其放在安装过程中 survivable 分支设备的本地 Administrators 组中。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-下表介绍了服务组。
+下表介绍的是服务组。
 
-### <a name="service-groups-created-during-forest-preparation"></a>在林准备期间创建的服务组
+### <a name="service-groups-created-during-forest-preparation"></a>林准备期间创建的服务组
 
 <table>
 <colgroup>
@@ -153,7 +153,7 @@ _**主题上次修改时间：** 2012-10-30_
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>包括用于运行前端服务器和标准版服务器的服务帐户。 此组允许服务器对 Lync Server 全局设置和 Active Directory 用户对象进行读写访问。</p></td>
+<td><p>包括用于运行前端服务器和 Standard Edition 服务器的服务帐户。 此组允许服务器对 Lync Server 全局设置和 Active Directory 用户对象的读/写访问权限。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCComponentUniversalServices</p></td>
@@ -161,29 +161,29 @@ _**主题上次修改时间：** 2012-10-30_
 </tr>
 <tr class="odd">
 <td><p>RTCProxyUniversalServices</p></td>
-<td><p>包括用于运行 Lync Server Edge 服务器的服务帐户。</p></td>
+<td><p>包括用于运行 Lync Server 边缘服务器的服务帐户。</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalConfigReplicator</p></td>
-<td><p>包括可参与 Lync Server 中央管理存储复制的服务器。</p></td>
+<td><p>包括可以参与 Lync Server 中央管理存储复制的服务器。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCSBAUniversalServices</p></td>
-<td><p>授予对 Lync Server 设置的只读访问权限，但允许配置 survivable 分支服务器和 survivable 分支装置部署。</p></td>
+<td><p>授予对 Lync Server 设置的只读访问权限，但允许安装 survivable 分支服务器和 survivable 分支设备部署的配置。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-林准备然后将服务和管理组添加到相应的基础结构组，如下所示：
+然后，林准备将服务组和管理组添加到适当的基础结构组，具体如下：
 
-  - RTCUniversalServerAdmins 已添加到 RTCUniversalGlobalReadOnlyGroup、RTCUniversalGlobalWriteGroup、RTCUniversalServerReadOnlyGroup 和 RTCUniversalUserReadOnlyGroup。
+  - 将 RTCUniversalServerAdmins 添加到 RTCUniversalGlobalReadOnlyGroup、RTCUniversalGlobalWriteGroup、RTCUniversalServerReadOnlyGroup 和 RTCUniversalUserReadOnlyGroup 中。
 
-  - RTCUniversalUserAdmins 将添加为 RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup 和 RTCUniversalUserReadOnlyGroup 的成员。
+  - RTCUniversalUserAdmins 被添加为 RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup 和 RTCUniversalUserReadOnlyGroup 的成员。
 
-  - RTCHSUniversalServices、RTCComponentUniversalServices 和 RTCUniversalReadOnlyAdmins 将添加为 RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup 和 RTCUniversalUserReadOnlyGroup 的成员。
+  - RTCHSUniversalServices、RTCComponentUniversalServices 和 RTCUniversalReadOnlyAdmins 添加为 RTCUniversalGlobalReadOnlyGroup、RTCUniversalServerReadOnlyGroup 和 RTCUniversalUserReadOnlyGroup 的成员。
 
-林准备还会创建以下基于角色的访问控制（RBAC）组：
+林准备还创建了以下基于角色的访问控制 (RBAC) 组：
 
   - CSAdministrator
 
@@ -209,9 +209,9 @@ _**主题上次修改时间：** 2012-10-30_
 
 有关 RBAC 角色和每个角色允许执行的任务的详细信息，请参阅规划文档中的在[Lync Server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
 
-林准备创建 private 和 public Ace。 它在 Lync Server 使用的全局设置容器上创建专用 Ace。 此容器仅由 Lync Server 使用，并且位于配置容器或根域中的系统容器中，具体取决于你存储全局设置的位置。 下表列出了林准备创建的公共 Ace。
+林准备同时创建专用和公共 ACE。 它在 Lync Server 使用的全局设置容器上创建专用 Ace。 此容器仅由 Lync Server 使用，并位于配置容器或根域中的系统容器中，具体取决于存储全局设置的位置。 下表中列出了林准备所创建的公共 ACE。
 
-### <a name="public-aces-created-by-forest-preparation"></a>由林准备创建的公共 Ace
+### <a name="public-aces-created-by-forest-preparation"></a>林准备所创建的公共 ACE
 
 <table>
 <colgroup>
@@ -220,17 +220,17 @@ _**主题上次修改时间：** 2012-10-30_
 </colgroup>
 <thead>
 <tr class="header">
-<th>棒</th>
+<th>ACE</th>
 <th>RTCUniversalGlobalReadOnlyGroup</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>读取根域系统容器（不是继承的）<strong>*</strong></p></td>
+<td><p>读取根域系统容器（非继承）<strong>*</strong></p></td>
 <td><p>X</p></td>
 </tr>
 <tr class="even">
-<td><p>读取配置的 DisplaySpecifiers 容器（而不是继承的容器）</p></td>
+<td><p>读取配置的 DisplaySpecifiers 容器（非继承）</p></td>
 <td><p>X</p></td>
 </tr>
 </tbody>
@@ -247,17 +247,17 @@ _**主题上次修改时间：** 2012-10-30_
 
 </div>
 
-在配置容器的配置命名上下文下，林准备执行以下任务：
+在配置容器上的配置命名上下文中，林准备将执行以下任务：
 
-  - 为用户、联系人和 InetOrgPersons 的语言显示说明符的 adminContextMenu 和 adminPropertyPages 属性（例如，CN = 用户显示，CN = 409，cn = DisplaySpecifiers）下的**RTC 属性**页添加一个条目 **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** 。
+  - 在用户、联系人和 InetOrgPerson 的语言显示说明符（例如 CN=user-Display,CN=409,CN=DisplaySpecifiers）的 adminContextMenu 和 adminPropertyPages 属性下，为“**RTC property**”页添加一个 **{AB255F23-2DBD-4bb6-891D-38754AC280EF}** 条目。
 
-  - 在应用于用户和联系人类的**扩展权限**下，添加类型**controlAccessRight**的**RTCPropertySet**对象。
+  - 在 **Extended-Rights** 下添加一个适用于 User 和 Contact 类的 **controlAccessRight** 类型的 **RTCPropertySet** 对象。
 
-  - 在适用于用户、联系人、OU 和 DomainDNS 类的**扩展权限**下，添加类型**controlAccessRight**的**RTCUserSearchPropertySet**对象。
+  - 在 **Extended-Rights** 下添加一个适用于 User、Contact、OU 和 DomainDNS 类的 **controlAccessRight** 类型的 **RTCUserSearchPropertySet** 对象。
 
-  - 在每个语言组织单位（OU）显示说明符（例如，CN = organizationalUnit-Display，CN = 409，CN = DisplaySpecifiers）的**extraColumns**属性下添加**msRTCSIP-PrimaryUserAddress** ，并复制默认显示的**extraColumns**属性的值（例如，CN = default-display、cn = 409）。
+  - 在每个语言组织单位 (OU) 显示说明符（例如，CN=organizationalUnit-Display,CN=409,CN=DisplaySpecifiers）的 **extraColumns** 属性下添加 **msRTCSIP-PrimaryUserAddress**，并复制默认显示（例如，CN=default-Display, CN=409,CN=DisplaySpecifiers）的 **extraColumns** 属性值。
 
-  - 为用户、联系人和 MsRTCSIP 对象（例如英语： CN = 用户显示，CN = 409，cn = UserEnabled）添加每个语言显示说明符的**attributeDisplayNames**属性下的**msRTCSIP**、 **msRTCSIP-PrimaryHomeServer**和**InetOrgPerson** DisplaySpecifiers 筛选属性。
+  - 在 User、Contact 和 InetOrgPerson 对象的每个语言显示说明符（例如，英文为 CN=user-Display,CN=409,CN=DisplaySpecifiers）的 **attributeDisplayNames** 属性下，添加 **msRTCSIP-PrimaryUserAddress**、**msRTCSIP-PrimaryHomeServer** 和 **msRTCSIP-UserEnabled** 筛选属性。
 
 </div>
 

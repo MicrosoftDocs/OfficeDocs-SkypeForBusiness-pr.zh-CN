@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPrincipalType
+title: Lync Server 2013： tblPrincipalType
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6731d0bcda6e4e66b1b498a5f1bf91023627b1f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4da3af65a20d13ce4d4f1078e5ef76cbc67f402c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764082"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046165"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764082"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-12_
+_**上次修改的主题：** 2012-09-12_
 
 tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主体类型。
 
-### <a name="columns"></a>多
+### <a name="columns"></a>Columns
 
 <table>
 <colgroup>
@@ -51,35 +51,35 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>ptypeID</p></td>
-<td><p>smallint，not null</p></td>
+<td><p>smallint，不为 null</p></td>
 <td><p>主体类型 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeDesc</p></td>
-<td><p>nvarchar （256），not null</p></td>
-<td><p>类型的说明。</p></td>
+<td><p>nvarchar (256)，不为 null</p></td>
+<td><p>类型描述。</p></td>
 </tr>
 <tr class="odd">
 <td><p>ptypeIsSystemUser</p></td>
-<td><p>位，not null</p></td>
-<td><p>如果类型对应于用于内部用途的主体，则为 True。</p></td>
+<td><p>bit，不为 null</p></td>
+<td><p>在类型与供内部使用的主体对应时为 True。</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeIsUser</p></td>
-<td><p>位，not null</p></td>
-<td><p>如果类型为用户类型，则为 True。</p></td>
+<td><p>bit，不为 null</p></td>
+<td><p>在类型为用户类型时为 True。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>关键字
+### <a name="key"></a>键
 
 <table>
 <colgroup>
@@ -113,57 +113,57 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 <thead>
 <tr class="header">
 <th>ID</th>
-<th>角色</th>
+<th>Role</th>
 <th>说明</th>
 <th>用户</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>任意</p></td>
-<td><p>没有已知类型的泛型主体。 未在 tblPrincipal 表中使用。</p></td>
+<td><p>未知类型的通用主体。不用于 tblPrincipal 表。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>ppls-2</p></td>
+<td><p>2 </p></td>
 <td><p>AnyUser</p></td>
-<td><p>用户类型的一般主体。 未在 tblPrincipal 表中使用。</p></td>
+<td><p>用户类型的通用主体。不用于 tblPrincipal 表。</p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>AnyGroup</p></td>
-<td><p>具有组语义的常规主体。 未在 tblPrincipal 表中使用。</p></td>
+<td><p>组语义的通用主体。不用于 tblPrincipal 表。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>SystemUser</p></td>
 <td><p>持久聊天服务器在内部使用的主体。</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>用户</p></td>
-<td><p>普通用户。</p></td>
+<td><p>常规用户。</p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="even">
-<td><p>个</p></td>
-<td><p>电源</p></td>
+<td><p>8 </p></td>
+<td><p>DC</p></td>
 <td><p>Active Directory 域服务域控制器。</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>db-9</p></td>
-<td><p>团队</p></td>
+<td><p>9 </p></td>
+<td><p>Group</p></td>
 <td><p>Active Directory 安全组。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>10</p></td>
-<td><p>收藏夹</p></td>
+<td><p>10 </p></td>
+<td><p>Folder</p></td>
 <td><p>Active Directory 容器或组织单位。</p></td>
 <td></td>
 </tr>

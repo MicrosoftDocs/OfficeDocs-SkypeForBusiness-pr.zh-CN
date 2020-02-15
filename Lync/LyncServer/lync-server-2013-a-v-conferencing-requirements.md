@@ -12,16 +12,16 @@ ms:contentKeyID: 49733883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c9c9d9c272a0646395a907976056e460cf8fd84
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05424f079d729ad7f6e8b995ee64dfcde8d73d70
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730484"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730484"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-30_
+_**上次修改的主题：** 2012-09-30_
 
-适用于会议的 lync Server 2013 基础结构要求与 Lync Server 2013 的部署相同。 有关详细信息，请参阅在规划文档中[确定 Lync Server 2013 的基础结构要求](lync-server-2013-determining-your-infrastructure-requirements.md)。
+适用于会议的 lync Server 2013 基础结构要求与部署 Lync Server 2013 的要求相同。 有关详细信息，请参阅规划文档中的[确定 Lync Server 2013 的基础结构要求](lync-server-2013-determining-your-infrastructure-requirements.md)。
 
-有必要的媒体带宽来处理由会议生成的媒体流量，这一点很重要。 有关可用于计算所需带宽的详细信息，请参阅[Lync Server 2013 中媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。 有关限制带宽的详细信息，请参阅[在 Lync Server 2013 中创建或修改带宽策略配置文件](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。 有关基础结构要求的详细信息，请参阅[Lync Server 2013 的网络基础结构要求](lync-server-2013-network-infrastructure-requirements.md)。
+您使用必要的媒体带宽来处理由会议生成的媒体流量很重要。 有关可用于计算所需带宽的详细信息，请参阅[Lync Server 2013 中媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。 有关限制带宽的详细信息，请参阅[在 Lync Server 2013 中创建或修改带宽策略配置文件](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。 有关基础结构要求的详细信息，请参阅[Lync Server 2013 的网络基础结构要求](lync-server-2013-network-infrastructure-requirements.md)。
 
-为了使用会议功能，Lync Server 2013 要求打开某些端口。 有关端口要求的详细信息，请参阅[Lync Server 2013 中内部服务器的端口和协议](lync-server-2013-ports-and-protocols-for-internal-servers.md)。 有关配置端口的详细信息，请参阅[在 Lync Server 2013 中为你的会议、应用程序和中介服务器配置端口范围](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)。
+为了使用会议功能，Lync Server 2013 要求打开某些端口。 有关端口要求的详细信息，请参阅[Lync Server 2013 中的内部服务器的端口和协议](lync-server-2013-ports-and-protocols-for-internal-servers.md)。 有关配置端口的详细信息，请参阅[为您的会议、应用程序和中介服务器配置 Lync Server 2013 中的端口范围](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)。
 
 <div>
 

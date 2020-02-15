@@ -12,16 +12,16 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2ab41ed1d9a57f3a3ad5e55e78f46055fc8e87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7652e2bd31f27c711724e67f67aac29d33038606
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728702"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041071"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728702"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-09-11_
+_**上次修改的主题：** 2014-09-11_
 
-合规性服务记录和存档与每个 Lync Server 2013 和持久聊天服务器对话相关的数据，包括参与者：
+合规性服务记录和存档与每个 Lync Server 2013、持久聊天服务器对话相关的数据，包括参与者：
 
   - 加入持久聊天室
 
@@ -51,13 +51,13 @@ _**主题上次修改时间：** 2014-09-11_
 
   - 下载文件
 
-数据以 XML 形式传递，您可以使用 XSLT 定义文件，将其转换为最适合您的组织的格式。 本主题介绍合规性服务创建的 XML 文件。 它还提供 XSLT 定义和输出文件的示例。
+数据以 XML 格式（可通过 XSLT 定义文件将其转换为最适合组织的格式）传送。本主题介绍合规性服务创建的 XML 文件。它还提供 XSLT 定义和输出文件的示例。
 
 <div>
 
 ## <a name="output-format"></a>输出格式
 
-合规性服务输出按对话（对话元素）分类，然后按消息（Messages 元素）分类，如以下代码示例中所示。
+合规性服务输出按对话（Conversation 元素）进行分类，然后再按消息（Messages 元素）分类，如以下代码示例所示。
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -72,14 +72,14 @@ _**主题上次修改时间：** 2014-09-11_
       </Conversation>
     </Conversations>
 
-一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。 Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。 StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间，如以下代码示例中所示。
+一个 Conversation 元素包含四个元素（Channel、FirstMessage、StartTimeUTC 和 EndTimeUTC）。Channel 元素包含聊天室的统一资源标识符 (URI)，而 FirstMessage 元素描述 Messages 元素中的第一条消息。StartTimeUTC 和 EndTimeUTC 元素提供对话的开始和结束时间，如以下代码示例所示。
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。 Sender 元素表示发送消息的用户，而 DateTimeUTC 元素表示事件发生的时间，如以下代码示例中所示。
+一个 Message 元素包含两个元素（Sender 和 DateTimeUTC）和三个属性（Type、Content 和 ID）。Sender 元素表示发送消息的用户，而 DateTimeUTC 元素表示事件发生的时间，如以下代码示例所示。
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -106,8 +106,8 @@ _**主题上次修改时间：** 2014-09-11_
 <tbody>
 <tr class="odd">
 <td><p>类型</p></td>
-<td><p>指定消息类型。消息类型将在" Message 元素消息类型"表中进行介绍。</p></td>
-<td><p>是否必需</p></td>
+<td><p>指定消息类型。消息类型将在“Message 元素消息类型”表中进行介绍。</p></td>
+<td><p>必需</p></td>
 </tr>
 <tr class="even">
 <td><p>内容</p></td>
@@ -142,7 +142,7 @@ _**主题上次修改时间：** 2014-09-11_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Username</p></td>
+<td><p>用户名</p></td>
 <td><p>发送者的名称。</p></td>
 <td><p>可选</p></td>
 </tr>
@@ -153,7 +153,7 @@ _**主题上次修改时间：** 2014-09-11_
 </tr>
 <tr class="odd">
 <td><p>电子邮件</p></td>
-<td><p>发件人的电子邮件地址。</p></td>
+<td><p>发送者的电子邮件地址。</p></td>
 <td><p>可选</p></td>
 </tr>
 <tr class="even">
@@ -162,9 +162,9 @@ _**主题上次修改时间：** 2014-09-11_
 <td><p>可选</p></td>
 </tr>
 <tr class="odd">
-<td><p>Uri</p></td>
+<td><p>Url</p></td>
 <td><p>用户的 SIP URI。</p></td>
-<td><p>是否必需</p></td>
+<td><p>必需</p></td>
 </tr>
 </tbody>
 </table>
@@ -183,13 +183,13 @@ _**主题上次修改时间：** 2014-09-11_
 <thead>
 <tr class="header">
 <th>消息类型</th>
-<th>描述</th>
+<th>说明</th>
 <th>代码示例</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Join</p></td>
+<td><p>加入</p></td>
 <td><p>用户加入聊天室。</p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -205,7 +205,7 @@ _**主题上次修改时间：** 2014-09-11_
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p>Chat</p></td>
+<td><p>聊天</p></td>
 <td><p>发件人的电子邮件地址。</p></td>
 <td><pre><code>&lt;Message type=&quot;CHAT&quot; content=&quot;hello&quot; id=&quot;1&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -242,7 +242,7 @@ _**主题上次修改时间：** 2014-09-11_
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>默认持久聊天输出 XSD 和示例 XSL 转换
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>默认的持久聊天输出 XSD 和示例 XSL 转换
 
 以下代码示例包含合规性服务器中的默认输出。
 

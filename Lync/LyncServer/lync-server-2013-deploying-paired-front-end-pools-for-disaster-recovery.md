@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：针对灾难恢复部署配对的前端池
+title: Lync Server 2013：部署用于灾难恢复的配对前端池
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d264128a7fef38fd220d2527772d6065dca7c964
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a18b92dde9b6ca48ffe8912f216331c39ef9cc9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740912"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中针对灾难恢复部署配对的前端池
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中为灾难恢复部署配对的前端池
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740912"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-你可以使用拓扑生成器轻松部署配对的前端池的灾难恢复拓扑。
+您可以使用拓扑生成器轻松地部署成对的前端池的灾难恢复拓扑。
 
 <div>
 
@@ -45,21 +45,21 @@ _**主题上次修改时间：** 2013-02-21_
 
 1.  如果池是新的且尚未定义，请使用拓扑生成器创建池。
 
-2.  在拓扑生成器中，右键单击两个池之一，然后单击 "**编辑属性**"。
+2.  在拓扑生成器中，右键单击两个池中的一个池，然后单击 "**编辑属性**"。
 
-3.  在左侧窗格中单击“**复原**”，然后在右侧窗格中选择“**关联的备份池**”。
+3.  在左侧窗格中单击“复原”****，然后在右侧窗格中选择“关联的备份池”****。
 
-4.  在“**关联的备份池**”下方的框中，选择要与该池配对的池。仅可以选择尚未与其他池配对的现有池。
+4.  在“关联的备份池”**** 下方的框中，选择要与该池配对的池。仅可以选择尚未与其他池配对的现有池。
     
     ![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")  
 
-5.  选择“**语音的自动故障转移和故障回复**”，然后单击“**确定**”。
+5.  选择“语音的自动故障转移和故障回复”****，然后单击“确定”****。
     
-    当你查看该池的详细信息时，此时关联的池显示在“**复原**”下的右窗格中。
+    当您查看该池的详细信息时，关联的池现在显示在“复原”**** 下的右窗格中。
 
 6.  使用拓扑生成器发布拓扑。
 
-7.  如果尚未部署两个池，请立即部署它们，配置随即完成。你可以跳过此过程的最后两步。
+7.  如果尚未部署两个池，请立即部署它们，配置随即完成。您可以跳至此过程的最后两步。
     
     但是，如果在定义配对关系之前已部署池，那么必须完成以下两个最终步骤。
 
@@ -69,7 +69,7 @@ _**主题上次修改时间：** 2013-02-21_
     ```
     这将配置确保备份配对正常运行所需的其他服务。
 
-9.  从 Lync Server Management Shell 命令提示符处，运行以下命令：
+9.  从 Lync Server 命令行管理程序命令提示符处，运行以下命令：
     ```powershell
     Start-CsWindowsService -Name LYNCBACKUP
     ```
@@ -83,7 +83,7 @@ _**主题上次修改时间：** 2013-02-21_
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
-    同步数据可能需要一些时间。你可以使用以下 cmdlet 检查同步状态。确保两个方向的状态均保持稳定。
+    同步数据可能需要一些时间。 您可以使用以下 cmdlet 检查同步状态。 确保两个方向的状态都处于稳定状态。
     
        ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -97,7 +97,7 @@ _**主题上次修改时间：** 2013-02-21_
 
 
 > [!NOTE]  
-> 语音选项和拓扑生成器中的相关时间间隔的<STRONG>自动故障转移和故障</STRONG>切换仅适用于 Lync Server 2010 中引入的语音复原功能。 选择此选项并不意味着会自动执行本文档中讨论的池故障转移。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
+> "<STRONG>语音的自动故障转移和故障回复</STRONG>" 选项和拓扑生成器中的关联时间间隔仅适用于在 Lync Server 2010 中引入的语音恢复功能。 选择此选项并不意味着本文档中讨论的池故障转移将自动执行。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
 
 
 

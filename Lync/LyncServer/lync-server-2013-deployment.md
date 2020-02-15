@@ -12,16 +12,16 @@ ms:contentKeyID: 48184687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f77a307b516874449a86f42f84a3053e5f5914
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56d0ce8ddd96ec0e77136e95cf7d415acec7a96b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762540"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41762540"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-18_
+_**上次修改的主题：** 2012-10-18_
 
-Lync Server 2013 通信软件的部署包括准备 Active Directory 域服务、部署前端服务器和其他核心 Lync Server 2013 内部组件，然后部署任何其他服务器角色和功能您的组织可能需要，例如外部用户访问和企业语音。
+部署 Lync Server 2013 通信软件包括准备 Active Directory 域服务、部署前端服务器和其他核心 Lync Server 2013 内部组件，然后部署任何其他服务器角色和功能您的组织可能需要，例如外部用户访问和企业语音。
 
 本文档介绍了用于部署 Lync Server 2013 的三种方案：
 
-  - Lync Server 2013、企业版的全新部署
+  - Lync Server 2013 Enterprise Edition 的新部署
 
-  - Lync Server 2013 的新部署-标准版
+  - Lync Server 2013 的全新部署，Standard Edition
 
-  - 将 Lync Server 2013 标准版或企业版部署到现有 Lync Server 2010 标准版或企业版部署中的新部署
+  - 将 Lync Server 2013 Standard Edition 或 Enterprise Edition 全新部署到现有 Lync Server 2010 Standard Edition 或 Enterprise Edition 部署中
 
-有关在现有 Microsoft Office 通信服务器2007或 Microsoft Office 通信服务器 2007 R2 环境中部署 Lync Server 2013 的详细信息，请参阅[迁移](migration.md)文档。
+有关在现有 Microsoft Office 通信服务器2007或 Microsoft Office 通信服务器 2007 R2 环境中部署 Lync Server 2013 的信息，请参阅[迁移](migration.md)文档。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [部署 Lync Server 2013](lync-server-2013-deploying-lync-server.md)
 
@@ -59,11 +59,11 @@ Lync Server 2013 通信软件的部署包括准备 Active Directory 域服务、
 
   - [在 Lync Server 2013 中部署企业语音](lync-server-2013-deploying-enterprise-voice.md)
 
-  - [在 Lync Server 2013 中部署监视](lync-server-2013-deploying-monitoring.md)
+  - [在 Lync Server 2013 中部署监控](lync-server-2013-deploying-monitoring.md)
 
   - [在 Lync Server 2013 中部署存档](lync-server-2013-deploying-archiving.md)
 
-  - [在 Lync Server 2013 中配置拨入式会议](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [在 Lync Server 2013 中配置电话拨入式会议](lync-server-2013-configuring-dial-in-conferencing.md)
 
   - [在 Lync Server 2013 中规划和部署视频](lync-server-2013-planning-and-deploying-video.md)
 
@@ -77,7 +77,7 @@ Lync Server 2013 通信软件的部署包括准备 Active Directory 域服务、
 
   - [在 Lync Server 2013 中管理服务器到服务器的身份验证（OAuth）和合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
-  - [从 Lync Server 2013 的评估版本更新](lync-server-2013-updating-from-the-evaluation-version.md)
+  - [从 Lync Server 2013 评估版更新](lync-server-2013-updating-from-the-evaluation-version.md)
 
   - [在 Lync Server 2013 中部署远程呼叫控制](lync-server-2013-deploying-remote-call-control.md)
 
@@ -85,7 +85,7 @@ Lync Server 2013 通信软件的部署包括准备 Active Directory 域服务、
 
   - [配置与 Office Web Apps Server 和 Lync Server 2013 的集成](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
 
-  - [Lync Server 2013 中的健康配置](lync-server-2013-health-configuration-in-lync-server.md)
+  - [Lync Server 2013 中的运行状况配置](lync-server-2013-health-configuration-in-lync-server.md)
 
 </div>
 

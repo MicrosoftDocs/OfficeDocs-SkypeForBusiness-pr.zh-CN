@@ -12,16 +12,16 @@ ms:contentKeyID: 48183582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3e3207d1a7a12f4db379e4d58615cffdfb45036
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 590fa404e614ce02832239879353e22fd95ff47f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724632"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042019"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724632"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-10-07_
+_**上次修改的主题：** 2013-10-07_
 
-Lync Server 2013 支持使用许可的公共即时消息（IM）连接提供程序，以及使用可扩展消息和状态协议（XMPP）来实现一种特殊类型的联合，使 Lync Server 能够访问配置的 XMPP使用 Lync 2013 客户端的域合作伙伴。
+Lync Server 2013 支持使用许可的公共即时消息（IM）连接提供程序，以及使用可扩展消息和状态协议（XMPP）来实现一种特殊类型的联合，以使 Lync Server 能够访问配置的 XMPP使用 Lync 2013 客户端的域合作伙伴。
 
 <div>
 
@@ -45,13 +45,13 @@ Lync Server 2013 支持使用许可的公共即时消息（IM）连接提供程�
 
 当前支持的公共即时消息连接合作伙伴包括：
 
-  - 美洲在线
+  - America Online
 
   - Windows Live
 
   - Yahoo\!
 
-对于与 Windows Live 用户的通信，Lync Server 2013 支持对等 IM 和音频和视频通话。 对于与 AOL 和 Yahoo\!的通信，Lync Server 2013 支持对等 IM。 可能需要单独的许可证。
+对于与 Windows Live 用户的通信，Lync Server 2013 支持对等 IM 和音频和视频呼叫。 对于与 AOL 和 Yahoo\!的通信，Lync Server 2013 支持对等 IM。 可能需要单独的许可证。
 
 <div>
 
@@ -59,11 +59,11 @@ Lync Server 2013 支持使用许可的公共即时消息（IM）连接提供程�
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或续订协议。 具有活动许可证的客户将能够继续与 Yahoo！进行联盟 Messenger，直到服务关闭日期。 AOL 和 Yahoo！的有效期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</A>。</P>
+> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
 > <LI>
-> <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力已作为对 Yahoo！的支持，它的底层协议被向下缠绕。</P>
+> <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而受到了支持，其下凸的底层协议。</P>
 > <LI>
-> <P>Lync 比以往更多，是一种强大的工具，用于跨组织和全球各地的人员进行连接。 与 Windows Live Messenger 的联盟不需要除 Lync 标准 CAL 之外的其他用户/设备许可证。 Skype 联盟将添加到此列表，使 Lync 用户可以通过 IM 和语音与成百上千人联系。</P></LI></UL>
+> <P>Lync 是前所未有的强大工具，用于跨组织和世界各地的个人进行连接。 与 Windows Live Messenger 的联盟不需要除 Lync Standard CAL 之外的其他用户/设备许可证。 Skype 联合身份验证将添加到此列表中，使 Lync 用户可以使用即时消息和语音访问成百上千人。</P></LI></UL>
 
 
 
@@ -73,13 +73,13 @@ Lync Server 2013 支持使用许可的公共即时消息（IM）连接提供程�
 
 <div>
 
-## <a name="xmpp-federation-support"></a>XMPP 联合身份验证支持
+## <a name="xmpp-federation-support"></a>XMPP 联盟支持
 
-XMPP 联合身份验证支持使用公共提供商的已配置 XMPP 域用户（如 GTalk）进行 Lync 用户通信。 与这些用户的通信可包括以下内容：
+XMPP 联盟支持 Lync 用户与使用公共提供程序（如 GTalk）的已配置 XMPP 域用户进行通信。与这些用户的通信包括：
 
   - 对等 IM 和状态
 
-  - 在 Lync 客户端中创建 XMPP 联盟联系人
+  - 在 Lync 客户端创建 XMPP 联盟联系人
 
 </div>
 

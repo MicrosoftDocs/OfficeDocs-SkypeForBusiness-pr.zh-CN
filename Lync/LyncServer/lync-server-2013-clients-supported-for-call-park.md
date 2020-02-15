@@ -12,20 +12,20 @@ ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52304a0241425a3b88c7f9419afa57f3d768fbb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee3916e74a68121b027061429bacb44e2dafacdb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756456"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-call-park-in-lync-server-2013"></a>在 Lync Server 2013 中支持呼叫寄存的客户端
+# <a name="clients-supported-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中支持呼叫寄存的客户端
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756456"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-13_
+_**上次修改的主题：** 2012-09-13_
 
-此部分标识了可用于寄存呼叫的客户端，以及可用于检索已寄存呼叫的客户端。
+本节介绍可用于寄存呼叫的客户端和可用于取回寄存呼叫的客户端。
 
 <div>
 
@@ -55,7 +55,7 @@ _**主题上次修改时间：** 2012-09-13_
 
 </div>
 
-以下客户端可使用呼叫寄存拨出寄存呼叫：
+以下客户端可以使用寄存呼叫的呼叫寄存：
 
   - Lync 2013
 
@@ -69,7 +69,7 @@ _**主题上次修改时间：** 2012-09-13_
 
 
 > [!NOTE]  
-> 移动电话无法使用呼叫寄存拨出寄存呼叫。
+> 移动电话无法将呼叫寄存用于寄存呼叫。
 
 
 
@@ -97,7 +97,7 @@ _**主题上次修改时间：** 2012-09-13_
 
   - IP 公用区域电话
 
-  - 连接到 Lync Server 2013 基础结构的非 IP 电话，包括常见的区域电话和专用分支交换（PBX）电话
+  - 连接到 Lync Server 2013 基础结构的非 IP 电话，包括公用区域电话和专用交换机（PBX）电话
 
 </div>
 

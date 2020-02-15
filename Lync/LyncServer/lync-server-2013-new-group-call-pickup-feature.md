@@ -12,16 +12,16 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e42884d3880fa1a31c96d9a25676b5ceecd8313
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 566ef914236cfde9cb00c28c667189ebb6d1556f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758634"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048463"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,18 +35,18 @@ ms.locfileid: "41758634"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-12_
+_**上次修改的主题：** 2013-02-12_
 
-Lync Server 2013 的累积更新：2月2013将组呼叫挑选引入为新的企业语音功能。 使用组呼叫挑选，您可以将用户分配到组，以便其他用户可以将传入呼叫应答给组中的用户，这些用户来自他们自己的电话。
+Lync Server 2013 的累积更新：2月2013将组呼叫应答引入为新的企业语音功能。 通过使用组内呼叫应答，可以将用户分配到组，以便其他用户可以将传入呼叫应答为来自他们自己的电话的组中的用户。
 
-组呼叫分拣基于呼叫寄存应用程序。 对于组呼叫装货，与呼叫寄存一样，你可以设置要用作组编号的虚拟号码的范围。 用户可拨打组号码来接听通话，该呼叫正在拨打组中的另一个用户。
+组呼叫应答基于呼叫寄存应用程序。 对于组呼叫应答，与呼叫寄存一样，您设置要用作组编号的虚拟号码的范围。 用户拨打组号码以接听呼叫，该呼叫将被组中的另一个用户拨打。
 
 <div>
 
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中规划组呼叫装货](lync-server-2013-planning-for-group-call-pickup.md)  
+[在 Lync Server 2013 中规划组内呼叫应答](lync-server-2013-planning-for-group-call-pickup.md)  
   
 
 </div>

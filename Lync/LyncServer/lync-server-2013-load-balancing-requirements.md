@@ -12,16 +12,16 @@ ms:contentKeyID: 48184697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8081ba60d826f0f765533abdb6c0f548045a7fa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bb74e5a6272f752da7cf31be3379d217447f3397
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765380"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765380"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-05_
+_**上次修改的主题：** 2012-10-05_
 
-如果您有前端池、控制器池或边缘服务器池，则需要为这些池部署负载平衡。 负载平衡会将流量分摊到池中的各台服务器上。
+如果有前端池、控制器池或边缘服务器池，则需要为这些池部署负载平衡。 负载平衡会将流量分配到池中的各台服务器上。
 
-Lync Server 2013 支持用于客户端到服务器流量的两种类型的负载平衡解决方案：域名系统（DNS）负载平衡和硬件负载平衡。 DNS 负载平衡提供了多项优势，包括更简单的管理、更高效的故障排除，以及能够隔离许多来自任何潜在硬件负载平衡器问题的 Lync 服务器流量。
+Lync Server 2013 支持两种类型的客户端到服务器通信的负载平衡解决方案：域名系统（DNS）负载平衡和硬件负载平衡。 DNS 负载平衡提供了多项优势，包括更简单的管理、更高效的故障排除以及从任何潜在的硬件负载平衡器问题中隔离大部分 Lync Server 流量的功能。
 
 在决定哪种负载平衡解决方案适合您部署中的每个池时，请记住以下限制：
 
@@ -49,11 +49,11 @@ Lync Server 2013 支持用于客户端到服务器流量的两种类型的负载
 
 有关选择硬件负载平衡器解决方案的更多详细信息，请参阅[Lync Server 2013 的硬件负载平衡器要求](lync-server-2013-hardware-load-balancer-requirements.md)。
 
-如果选择对某个池使用 DNS 负载平衡，但仍需对流量（如 HTTP 流量）实现硬件负载平衡器，则会大大简化硬件负载平衡器的管理。 例如，配置硬件负载平衡器将更简单，因为它仅管理 HTTP 和 HTTPS 流量，而所有其他协议将由 DNS 负载平衡管理。 有关详细信息，请参阅[Lync Server 2013 中的 "DNS 负载平衡](lync-server-2013-dns-load-balancing.md)"。
+如果选择对某个池使用 DNS 负载平衡，但仍需对流量（如 HTTP 流量）使用硬件负载平衡器，则会大大简化硬件负载平衡器的管理。 例如，配置硬件负载平衡器会更简单，因为它将只管理 HTTP 和 HTTPS 流量，而所有其他协议都将通过 DNS 负载平衡进行管理。 有关详细信息，请参阅[Lync Server 2013 中的 DNS 负载平衡](lync-server-2013-dns-load-balancing.md)。
 
-对于服务器到服务器的流量，Lync Server 2013 使用拓扑感知负载平衡。 服务器在中央管理存储中读取已发布的拓扑，以获取拓扑中服务器的 Fqdn，并自动在服务器之间分配流量。 管理员不必设置或管理此类型的负载平衡。
+对于服务器到服务器的流量，Lync Server 2013 使用拓扑感知负载平衡。 服务器在中央管理存储中读取已发布的拓扑，以获取拓扑中的服务器的 Fqdn，并自动在服务器之间分布流量。 管理员无需设置或管理此类型的负载平衡。
 
-如果使用 DNS 负载平衡并且需要阻止至特定计算机的流量，则仅仅删除池 FQDN 中的 IP 地址条目是不够的。您还必须删除计算机的 DNS 条目。
+如果使用 DNS 负载平衡，并且需要阻止到特定计算机的流量，则只需从池 FQDN 中删除 IP 地址条目是不够的。 您还必须删除计算机的 DNS 条目。
 
 </div>
 

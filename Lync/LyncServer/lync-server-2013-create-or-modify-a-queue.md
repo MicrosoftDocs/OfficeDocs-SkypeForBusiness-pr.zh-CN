@@ -12,16 +12,16 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77bad1729c67c363dc56eaf8788e57caabd51876
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1db2211f174c18c160262c1f62c55a178b2cda4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722422"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045915"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41722422"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
 使用以下其中一个过程来创建或修改队列。
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a>使用 Lync Server "控制面板" 创建或修改队列
+## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a>使用 Lync Server 控制面板创建或修改队列
 
-1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
     
     <div>
     
@@ -54,7 +54,7 @@ _**主题上次修改时间：** 2013-02-23_
     
     </div>
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“响应组”****，然后单击“队列”****。
 
@@ -93,13 +93,13 @@ _**主题上次修改时间：** 2013-02-23_
     
     <!-- end list -->
     
-      - 要在超时后断开呼叫，请单击“断开连接”****。
+      - 要在超时后断开呼叫，请单击 **“断开连接”**。
     
-      - 若要将呼叫转移到语音邮件，请单击 "**转发到语音邮件**"，然后在 " **sip 地址**" 字段中，键入 sip 的格式的\<语音\>@\<邮件\>地址：用户名域名（例如，sip:bob@contoso.com）。
+      - 若要将呼叫转接到语音邮件，请单击 "**转发到语音**邮件"，然后在 " **sip 地址**\<" 字段中，键入 sip： username\>@\<domainname\>格式的语音邮件地址（例如，sip:bob@contoso.com）。
     
-      - 若要将呼叫转移到另一个电话号码，请单击 "**转发到电话号码**"，然后在 " **sip 地址**" 字段中，键入 sip 的\<格式\>@\<的\>电话号码：号码域名（例如，sip:+14255550121@contoso.com）。
+      - 若要将呼叫转接到另一个电话号码，请单击 "**转接到电话号码**"，然后在 " **sip 地址**" 字段中，键入 sip：\<号码\>@\<域名\> （例如，sip:+14255550121@contoso.com）格式的电话号码。
     
-      - 若要将呼叫转移到其他用户，请单击 "**转发到 sip 地址**"，然后在 " **sip 地址**" 字段中，键入 sip 的格式的用户\<URI\>@\<：\>用户名域名。
+      - 若要将呼叫转接到另一个用户，请单击 "**转发到 sip 地址**"，然后在 " **sip 地址**" 字段中，以\<"sip： username\>@\<domainname\>" 格式键入用户的 URI。
     
       - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
 
@@ -115,15 +115,15 @@ _**主题上次修改时间：** 2013-02-23_
     
       - 要在超时后断开呼叫，请单击“断开连接”****。
     
-      - 若要将呼叫转移到语音邮件，请单击 "**转发到语音邮件**"，然后在 " **sip 地址**" 字段中，键入 sip 的格式的\<语音\>@\<邮件\>地址：用户名域名（例如，sip:bob@contoso.com）。
+      - 若要将呼叫转接到语音邮件，请单击 "**转发到语音**邮件"，然后在 " **sip 地址**\<" 字段中，键入 sip： username\>@\<domainname\>格式的语音邮件地址（例如，sip:bob@contoso.com）。
     
-      - 若要将呼叫转移到另一个电话号码，请单击 "**转发到电话号码**"，然后在 " **sip 地址**" 字段中，键入 sip 的\<格式\>@\<的\>电话号码：号码域名（例如，sip:+14255550121@contoso.com）。
+      - 若要将呼叫转接到另一个电话号码，请单击 "**转接到电话号码**"，然后在 " **sip 地址**" 字段中，键入 sip：\<号码\>@\<域名\> （例如，sip:+14255550121@contoso.com）格式的电话号码。
     
-      - 若要将呼叫转移到其他用户，请单击 "**转发到 sip 地址**"，然后在 " **sip 地址**" 字段中，键入 sip 的格式的用户\<URI\>@\<：\>用户名域名。
+      - 若要将呼叫转接到另一个用户，请单击 "**转发到 sip 地址**"，然后在 " **sip 地址**" 字段中，以\<"sip： username\>@\<domainname\>" 格式键入用户的 URI。
     
       - 要将呼叫转接到其他队列，请单击“转接到其他队列”****，然后浏览至要使用的队列。
 
-10. 单击“**提交**”。
+10. 单击“提交”****。
 
 </div>
 
@@ -131,7 +131,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="to-use-windows-powershell-to-create-or-modify-a-queue"></a>使用 Windows PowerShell 创建或修改队列
 
-1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
     
     <div>
     
@@ -142,7 +142,7 @@ _**主题上次修改时间：** 2013-02-23_
     
     </div>
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 3.  创建在达到队列超时阈值时要显示的提示，并将其保存在变量中。在命令行中运行：
     
@@ -156,7 +156,7 @@ _**主题上次修改时间：** 2013-02-23_
     
 
     > [!NOTE]  
-    > 要针对提示使用音频文件，请使用 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">导入-CsRgsAudioFile</A>。
+    > 要针对提示使用音频文件，请使用 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">CsRgsAudioFile</A>。
 
     
     </div>
@@ -169,7 +169,7 @@ _**主题上次修改时间：** 2013-02-23_
     
 
     > [!NOTE]  
-    > 有关可能的操作及其语法的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">CsRgsCallAction</A>。
+    > 有关可能的操作及其语法的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">new-csrgscallaction</A>。
 
     
     </div>
@@ -190,7 +190,7 @@ _**主题上次修改时间：** 2013-02-23_
     
 
     > [!NOTE]  
-    > 要针对提示使用音频文件，请使用 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">导入-CsRgsAudioFile</A>。
+    > 要针对提示使用音频文件，请使用 <STRONG>Import-CsRgsAudioFile</STRONG> cmdlet。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">CsRgsAudioFile</A>。
 
     
     </div>
@@ -203,7 +203,7 @@ _**主题上次修改时间：** 2013-02-23_
     
 
     > [!NOTE]  
-    > 有关可能的操作及其语法的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">CsRgsCallAction</A>。
+    > 有关可能的操作及其语法的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">new-csrgscallaction</A>。
 
     
     </div>
@@ -212,11 +212,11 @@ _**主题上次修改时间：** 2013-02-23_
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
 
-7.  检索响应组服务的服务名称，并将其分配到某个变量。在该命令行处，运行：
+7.  检索响应组服务的服务名称，并将其分配给变量。 在命令行中运行：
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
 
-8.  获取要分配给队列的代理组的标识。在命令行中运行：
+8.  获取要分配给队列的代理组的标识。 在命令行中运行：
     
         $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
     
@@ -224,7 +224,7 @@ _**主题上次修改时间：** 2013-02-23_
     
 
     > [!NOTE]  
-    > 有关创建代理组的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">新 CsRgsAgentGroup</A>
+    > 有关创建代理组的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">CsRgsAgentGroup</A>
 
     
     </div>
@@ -248,13 +248,13 @@ _**主题上次修改时间：** 2013-02-23_
 ## <a name="see-also"></a>另请参阅
 
 
-[新-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
-[Set-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsQueue)  
-[New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
-[新-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
+[新 CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
+[CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsQueue)  
+[新 CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
+[新 New-csrgscallaction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
 [CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
 [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
-[Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsQueue)  
+[CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsQueue)  
   
 
 </div>

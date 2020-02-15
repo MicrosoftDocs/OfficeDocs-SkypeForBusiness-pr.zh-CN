@@ -12,16 +12,16 @@ ms:contentKeyID: 48183797
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 980b64dacbe623241aedfb3312156f5599c43bab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c3f5dde3c3fa54bd920bfd17055cdc759f50bc0a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764548"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41764548"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-23_
+_**上次修改的主题：** 2012-06-23_
 
-在部署存档之前，你需要部署相应的硬件和软件以支持存档并验证你的基础结构是否支持你的存档部署。
+在部署存档之前，您需要部署相应的硬件和软件来支持存档，以及验证您的基础结构是否支持存档部署。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中设置用于存档的系统平台](lync-server-2013-setting-up-system-platforms-for-archiving.md)
 
   - [在 Lync Server 2013 中设置存档的基础结构](lync-server-2013-setting-up-the-infrastructure-for-archiving.md)
 
-  - [在 Lync Server 2013 中设置用于存档的存储](lync-server-2013-setting-up-storage-for-archiving.md)
+  - [在 Lync Server 2013 中设置存储以进行存档](lync-server-2013-setting-up-storage-for-archiving.md)
 
   - [在 Lync Server 2013 中设置存档权限](lync-server-2013-setting-up-permissions-for-archiving.md)
 

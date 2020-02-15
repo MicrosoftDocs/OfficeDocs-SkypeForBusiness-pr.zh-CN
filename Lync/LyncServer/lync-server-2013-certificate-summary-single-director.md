@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：证书摘要 - 单一控制器
+title: Lync Server 2013：证书摘要-单个控制器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18fcec270104be1620402ddee0c665c0f3f3a4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: abb3b1e9963d88a7876232219a8d4f2290c2c9cc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743532"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---single-director-in-lync-server-2013"></a>Lync Server 2013 中的证书摘要 - 单一控制器
+# <a name="certificate-summary---single-director-in-lync-server-2013"></a>证书摘要-Lync Server 2013 中的单个控制器
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41743532"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-08_
+_**上次修改的主题：** 2012-09-08_
 
-单个控制器的证书要求包括一个默认证书，该证书为 Director 可以接收的服务提供了主题名称和使用者备用名称。 此外，还有一个用于服务器到服务器身份验证的 OAuth 令牌证书。
+单个控制器的证书要求包含一个默认证书，该证书具有可接收的服务的主题名称和使用者替代名称。 此外，还有一个用于服务器到服务器身份验证的 OAuth 令牌证书。
 
-### <a name="certificates-for-director"></a>Director 的证书
+### <a name="certificates-for-director"></a>控制器的证书
 
 <table>
 <colgroup>
@@ -52,23 +52,23 @@ _**主题上次修改时间：** 2012-09-08_
 <tr class="header">
 <th>组件</th>
 <th>使用者名称 (SN)</th>
-<th>主题备用名称（SAN）</th>
-<th>备注</th>
+<th>使用者替代名称 (SAN)</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>默认</p></td>
+<td><p>默认值</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>dir01.contoso.net</p>
 <p>dialin.contoso.com</p>
 <p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>（可选） * contoso.com</p></td>
-<td><p>可以从内部托管的证书颁发机构（CA）或公共 CA 请求控制器证书。</p>
-<p>控制器在来自外围服务器或从边缘服务器中响应来自反向代理的请求。 内部客户端将不使用 Director。</p>
-<p>或者是简单 Url 的通配符条目</p></td>
+<p>（可选）*.contoso.com</p></td>
+<td><p>可以从内部托管的证书颁发机构（CA）或公用 CA 请求控制器证书。</p>
+<p>Director 响应来自周边或边缘服务器的反向代理的请求。 内部客户端将不使用控制器。</p>
+<p>或者，简单 URL 的通配符条目</p></td>
 </tr>
 <tr class="even">
 <td><p>OAuthTokenIssuer</p></td>
@@ -77,11 +77,11 @@ _**主题上次修改时间：** 2012-09-08_
 <td><div>
 
 > [!IMPORTANT]  
-> 请注意，最小键长度为1024，但你可能会收到一条警告，指出推荐的最小密钥长度为2048位。
+> 请注意，最小密钥长度为 1024，但您可能收到一条警告，告知建议的最小密钥长度为 2048 位。
 
 
 </div>
-<p>OAuthTokenIssuer 证书是单一用途的证书，用于在大规模环境中验证服务器，并且可以从内部 CA 或公共 CA 请求。 证书是必需的。</p></td>
+<p>OAuthTokenIssuer 证书是单用途证书，用于在大型环境中对服务器进行身份验证，并且可从内部 CA 或公共 CA 请求。此证书是必需的。</p></td>
 </tr>
 </tbody>
 </table>

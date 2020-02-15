@@ -12,20 +12,20 @@ ms:contentKeyID: 49733611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8299bd598edf18b7ed7f06088e4bfbbcebab354
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6acf4fbc1766adbe2c2a14a28cfbeef16f199b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757366"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-region-route-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看网络区域路线信息
+# <a name="viewing-network-region-route-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看网络区域路由信息
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41757366"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-呼叫许可控制（CAC）配置中的每个区域都必须有某种方式才能访问其他每个区域。 虽然区域链接为区域之间的连接设置带宽限制，同时也表示物理链接，但路由决定了连接从一个地区到另一个地区的链接路径。 使用以下过程可查看 Lync Server 2013 控制面板中的现有网络区域路由或 Lync Server 2013 管理外壳程序。 有关创建或修改网络区域路由的详细信息，请参阅[在 Lync Server 2013 中创建或修改网络区域路由](lync-server-2013-creating-or-modifying-network-region-routes.md)。
+呼叫允许控制服务 (CAC) 配置中的每个区域必须采用某种方式才能访问其他每个区域。 虽然区域链接会对区域之间的连接设置带宽限制，并代表物理链接，但路由可确定连接从一个区域到另一个区域将遍历的链接路径。 使用以下过程可查看 Lync Server 2013 控制面板或 Lync Server 2013 命令行管理程序中的现有网络区域路由。 有关创建或修改网络区域路由的详细信息，请参阅[在 Lync Server 2013 中创建或修改网络区域路由](lync-server-2013-creating-or-modifying-network-region-routes.md)。
 
 <div>
 
-## <a name="to-view-network-region-route-information-in-lync-server-control-panel"></a>在 Lync Server "控制面板" 中查看网络区域路线信息
+## <a name="to-view-network-region-route-information-in-lync-server-control-panel"></a>在 Lync Server 控制面板中查看网络区域路由信息
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击 "**网络配置**"，然后单击 "**区域路由**"。
+3.  在左侧导航栏中，单击“网络配置”****，然后单击“区域路由”****。
 
-4.  在 "**区域路线**" 页面上，单击要查看的地区路线。
+4.  在“区域路由”**** 页上，单击要查看的区域路由。
     
     <div>
     
 
     > [!NOTE]  
-    > 一次只能查看一个区域路线。
+    > 您一次只能查看一个区域路由。
 
     
     </div>
@@ -68,11 +68,11 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看网络区域路由信息
 
-可以使用 Windows PowerShell 和 CsNetworkInterRegionRoute cmdlet 查看网络区域路线信息。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+可以使用 Windows PowerShell 和 CsNetworkInterRegionRoute cmdlet 查看网络区域路由信息。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
-## <a name="to-view-network-region-route-information"></a>查看网络区域路线信息
+## <a name="to-view-network-region-route-information"></a>查看网络区域路由信息
 
   - 若要查看有关所有网络区域路由的信息，请在 Lync Server 命令行管理程序中键入以下命令，然后按 ENTER：
     
@@ -88,7 +88,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet 的帮助主题。
 
 </div>
 
@@ -98,7 +98,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 
 [在 Lync Server 2013 中创建或修改网络区域路由](lync-server-2013-creating-or-modifying-network-region-routes.md)  
-[删除 Lync Server 2013 中的现有网络区域路由](lync-server-2013-deleting-existing-network-region-routes.md)  
+[在 Lync Server 2013 中删除现有网络区域路由](lync-server-2013-deleting-existing-network-region-routes.md)  
   
 
 </div>

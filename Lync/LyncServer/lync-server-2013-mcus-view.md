@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Mcus 视图
+title: Lync Server 2013： Mcu 视图
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de9fa28ca10e1b9971875980cc0f3c96b6359ccb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8fe983f12dd01c9cb46b27fdb5dffc3cd41c6671
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765673"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mcus-view-in-lync-server-2013"></a>Lync Server 2013 中的 Mcus 视图
+# <a name="mcus-view-in-lync-server-2013"></a>Lync Server 2013 中的 mcu 视图
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765673"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-Mcus 视图存储参与会议会话的 MCUs 的相关信息。 此视图已在 Microsoft Lync Server 2013 中引入。
+Mcus 视图存储有关已参与会议会话的 MCU 的信息。 此视图是在 Microsoft Lync Server 2013 中引入的。
 
 
 <table>
@@ -57,7 +57,7 @@ Mcus 视图存储参与会议会话的 MCUs 的相关信息。 此视图已在 M
 <tr class="odd">
 <td><p><strong>McuId</strong></p></td>
 <td><p>int</p></td>
-<td><p>标识 MCU 的唯一号码。</p></td>
+<td><p>标识 MCU 的唯一编号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUri</strong></p></td>
@@ -66,7 +66,7 @@ Mcus 视图存储参与会议会话的 MCUs 的相关信息。 此视图已在 M
 </tr>
 <tr class="odd">
 <td><p><strong>McuUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar （256）</p></td>
 <td><p>MCU URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
 </tr>
 </tbody>

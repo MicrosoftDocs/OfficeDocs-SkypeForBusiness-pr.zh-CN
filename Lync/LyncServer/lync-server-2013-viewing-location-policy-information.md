@@ -12,16 +12,16 @@ ms:contentKeyID: 48183489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f68ad38ffbc8bb1b4abdfbf8119add7d9f965e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33de3d4646424067af96644eca47cf5e16354530
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757316"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757316"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-在 Lync Server 2013 中，你可以使用位置策略应用与增强的9-1-1 （E9）功能以及用户或联系人的位置设置相关的设置。 位置策略确定用户是否启用了 E9-1，如果是紧急呼叫，该行为是什么。 例如，您可以使用位置策略定义哪个号码构成紧急呼叫（例如，美国911）、是否应自动通知企业安全以及如何路由呼叫。
+在 Lync Server 2013 中，可以使用位置策略将与增强的9-1-1 （E9-1）功能相关的设置应用于用户或联系人的位置设置。 位置策略可确定用户是否启用了 E9-1-1，以及在启用了该服务时紧急呼叫的行为。 例如，您可以使用位置策略定义哪些数字构成紧急呼叫（例如，美国的 911）、是否应自动通知企业安全人员以及应如何路由该呼叫。
 
-你可以从 Lync Server 2013 控制面板中的 "**网络配置**" 组配置位置策略。 从 Lync Server 控制面板，您可以查看、创建、修改或删除位置策略。 使用以下过程查看有关位置策略的信息。 有关创建或修改位置策略的详细信息，请参阅[在 Lync Server 2013 中创建或修改位置策略](lync-server-2013-creating-or-modifying-a-location-policy.md)。
+您可以在 Lync Server 2013 控制面板中的 "**网络配置**" 组中配置位置策略。 从 Lync Server 控制面板中，您可以查看、创建、修改或删除位置策略。 可使用以下过程查看位置策略的信息。 有关创建或修改位置策略的详细信息，请参阅[在 Lync Server 2013 中创建或修改位置策略](lync-server-2013-creating-or-modifying-a-location-policy.md)。
 
 <div>
 
-## <a name="to-view-information-about-a-location-policy"></a>查看有关位置策略的信息
+## <a name="to-view-information-about-a-location-policy"></a>查看位置策略的信息
 
-1.  使用 RTCUniversalServerAdmins 组成员（或具有同等用户权限）的用户帐户，或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击 "**网络配置**"，然后单击 "**位置策略**"。
+3.  在左侧导航栏中，单击“网络配置”****，然后单击“位置策略”****。
 
-4.  在 "**位置策略**" 页面上，选择要修改的位置策略。
+4.  在“位置策略”**** 页上，选择要修改的位置策略。
 
 5.  在“编辑”**** 菜单上，单击“显示详细信息”****。
     
@@ -59,12 +59,12 @@ _**主题上次修改时间：** 2012-11-01_
     
 
     > [!NOTE]  
-    > 一次只能查看一个位置策略的相关信息。
+    > 一次只能查看一个位置策略的信息。
 
     
     </div>
 
-默认情况下存在一个名为 Global 的策略，不能删除或重命名。 但是，你可以修改全局策略。 此政策将应用于所有用户和联系人，除非你创建网站策略或每用户策略。 每用户策略必须应用于特定用户。
+默认情况下，存在一个名为“全局”的策略，无法将其删除或进行重命名。但是，您可以修改“全局”策略。该策略将应用于所有用户和联系人，除非您创建站点策略或每用户策略。每用户策略必须应用于特定用户。
 
 </div>
 
@@ -78,10 +78,10 @@ _**主题上次修改时间：** 2012-11-01_
 [在 Lync Server 2013 中创建或修改网络站点](lync-server-2013-create-or-modify-a-network-site.md)  
 
 
-[新-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
-[Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)  
-[Remove-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
-[Get-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
+[新 New-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/New-CsLocationPolicy)  
+[New-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsLocationPolicy)  
+[New-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsLocationPolicy)  
+[New-cslocationpolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsLocationPolicy)  
   
 
 </div>

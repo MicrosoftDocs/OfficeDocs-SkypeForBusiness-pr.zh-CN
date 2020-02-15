@@ -12,16 +12,16 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82b95f79202cbf96568b98dcb802e97bf4ca2d32
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 075c8289a55683b18b0a006319b426c94796f9cd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725862"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41725862"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-20_
+_**上次修改的主题：** 2013-02-20_
 
-你可以通过向注册表添加有关应用程序的信息，将 Lync 2013 与任何第三方联机协作应用程序集成。 您可以使用 Lync 2013 启动在内部服务器、基于 Internet 的服务或两者之间托管的数据会议会话。 可以从 "联系人" 列表或从现有即时消息、语音或视频会话启动协作或数据会议会话。 Lync 2013 仅用作启动应用程序的工具。 联机协作会话开始后，任何现有 Lync 2013 对话都将保持活动状态。
+您可以通过向注册表添加有关应用程序的信息，将 Lync 2013 与任何第三方在线协作应用程序集成。 您可以使用 Lync 2013 启动在内部服务器上托管的数据会议会话、基于 Internet 的服务或同时在这两者上启动。 可以从联系人列表或者从现有的即时消息、语音或视频会话中启动协作或数据会议会话。 Lync 2013 仅用作启动应用程序的工具。 联机协作会话开始后，任何现有的 Lync 2013 对话仍处于活动状态。
 
-以下各部分介绍了如何将 Lync 2013 与基于 Internet 和基于服务器的协作应用程序集成。
+以下各节介绍如何将 Lync 2013 与基于 Internet 的协作应用程序和基于服务器的协作应用程序集成。
 
 <div>
 
-## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>将基于 Internet 的协作应用程序集成到 Lync 2013
+## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>将基于 Internet 的协作应用程序与 Lync 2013 集成
 
-通常情况下，集成第三方协作应用程序涉及的步骤如下所示：
+一般而言，集成第三方协作应用程序的步骤如下：
 
-1.  有关应用程序的信息将添加到注册表中。
+1.  将有关该应用程序的信息添加到注册表中。
 
-2.  组织者登录 Lync 2013 并选择联系人进行数据共享和协作。 或者，组织者可能已经在对话中，并且决定添加数据会议。
+2.  组织者登录到 Lync 2013 并选择联系人进行数据共享和协作。 或者，组织者可能已经处于对话中，决定添加数据会议。
 
-3.  Lync 2013 读取注册表，启动协作应用程序，然后将自定义 SIP 消息（appINVITE）发送给所选参与者。
+3.  Lync 2013 读取注册表，启动协作应用程序，然后向所选参与者发送自定义 SIP 消息（appINVITE）。
 
-4.  参与者接受邀请，并在每个人的计算机上启动协作应用程序。 Lync 2013 使用注册表确定要使用的协作应用程序，然后使用 appINVITE 消息中包含的参数启动该应用程序。
+4.  参与者接受邀请，每个人的计算机上将启动协作应用程序。 Lync 2013 使用注册表确定要使用的协作应用程序，然后使用 appINVITE 邮件中包含的参数启动该应用程序。
 
-下表介绍了将基于 Internet 的协作应用程序与 Lync 2013 集成所需的注册表项。 这些条目放置在注册表中的以下位置：
+下表介绍了将基于 Internet 的协作应用程序与 Lync 2013 集成所需的注册表项。 这些项放置在注册表中的以下位置：
 
-  - HKEY\_LOCAL\_MACHINE\\软件\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\参数
+  - HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>基于 Internet 的协作应用程序的注册表项
 
@@ -71,7 +71,7 @@ _**主题上次修改时间：** 2013-02-20_
 <tr class="header">
 <th>名称</th>
 <th>类型</th>
-<th>数据</th>
+<th>Data</th>
 </tr>
 </thead>
 <tbody>
@@ -83,29 +83,29 @@ _**主题上次修改时间：** 2013-02-20_
 <tr class="even">
 <td><p>SmallIcon</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>指向16像素 x 16 像素图标、BMP 或 PNG 的路径。</p></td>
+<td><p>16 像素 x 16 像素的图标（BMP 或 PNG 格式）的路径。</p></td>
 </tr>
 <tr class="odd">
-<td><p>路径</p></td>
+<td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>用于启动联机协作应用程序的参与者路径。</p></td>
 </tr>
 <tr class="even">
 <td><p>OriginatorPath</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>用于启动联机协作应用程序的组织者路径。 此路径可以包含 "参数" 子项中定义的一个或多个自定义参数。 例如，<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
+<td><p>用于启动联机协作应用程序的组织者路径。 此路径可以包含如同 Parameters 子项中定义的一个或多个自定义参数。 例如，<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
-<td><p>长</p></td>
-<td><p>0 = 本地会话。 在本地计算机上启动应用程序。</p>
-<p>1 = 两方会话（默认值）。 Lync 2013 在本地启动应用程序，然后将系统通知发送给另一个用户。 其他用户单击通知并在其计算机上启动指定的应用程序。</p>
-<p>2 = 多方会话。 Lync 2013 在本地启动应用程序，然后向其他用户发送系统通知，提示用户在其自己的计算机上启动指定的应用程序。</p></td>
+<td><p>DWORD</p></td>
+<td><p>0 = 本地会话。应用程序在本地计算机上启动。</p>
+<p>1 = 两方会话（默认）。 Lync 2013 在本地启动应用程序，然后将系统通知发送给其他用户。 其他用户单击该通知，并在其计算机上启动指定的应用程序。</p>
+<p>2 = 多方会话。 Lync 2013 在本地启动应用程序，然后向其他用户发送系统通知，提示他们在自己的计算机上启动指定的应用程序。</p></td>
 </tr>
 <tr class="even">
 <td><p>ExensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>将显示此命令的菜单的列表，用分号分隔。 可能的值：</p>
+<td><p>将显示此命令的菜单列表，用分号分隔。可能的值为：</p>
 <ul>
 <li><p>MainWindowActions</p></li>
 <li><p>MainWindowRightClick</p></li>
@@ -119,7 +119,7 @@ _**主题上次修改时间：** 2013-02-20_
 </table>
 
 
-下表描述了参数的注册表项。 这些条目\_位于 HKEY 当前\_用户\\软件\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\应用\\参数中。
+下表介绍参数的注册表项。 这些条目放置\_在 HKEY 当前\_用户\\软件\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\参数中。
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>基于 Internet 的协作应用程序的注册表项
 
@@ -133,24 +133,24 @@ _**主题上次修改时间：** 2013-02-20_
 <tr class="header">
 <th>名称</th>
 <th>类型</th>
-<th>数据</th>
+<th>Data</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Param1</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>在标记化格式（<code>%Parm1%</code>）中使用，用于将特定于用户的值添加到 OriginatorPath 注册表项。</p></td>
+<td><p>在标记化格式中<code>%Parm1%</code>使用（）将特定于用户的值添加到 OriginatorPath 注册表项。</p></td>
 </tr>
 <tr class="even">
 <td><p>Param2</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>请参阅 Param1。</p></td>
+<td><p>请参见 Param1。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Param3</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>请参阅 Param1。</p></td>
+<td><p>请参见 Param1。</p></td>
 </tr>
 </tbody>
 </table>
@@ -184,9 +184,9 @@ _**主题上次修改时间：** 2013-02-20_
 
 ## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>将基于服务器的协作应用程序与 Lync 2013 集成
 
-用于从 Lync 2013 中添加用于启动基于服务器的协作应用程序的命令的设置与上一节中所述，将基于 Internet 的协作应用程序集成到 Lync 2013。 但是，OriginatorPath 不是必需的，并且某些值已更改。 注册表项放置在以下位置：
+用于从 Lync 2013 中添加用于启动基于服务器的协作应用程序的命令的设置与上一节中所述，将基于 Internet 的协作应用程序与 Lync 2013 集成在一起。 但是，不需要 OriginatorPath，且更改了某些值。 注册表项放置在以下位置：
 
-  - HKEY\_LOCAL\_MACHINE\\软件\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\参数
+  - HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters
 
 ### <a name="registry-entries-for-a-server-based-collaboration-application"></a>基于服务器的协作应用程序的注册表项
 
@@ -200,7 +200,7 @@ _**主题上次修改时间：** 2013-02-20_
 <tr class="header">
 <th>名称</th>
 <th>类型</th>
-<th>数据</th>
+<th>Data</th>
 </tr>
 </thead>
 <tbody>
@@ -211,20 +211,20 @@ _**主题上次修改时间：** 2013-02-20_
 </tr>
 <tr class="even">
 <td><p>ApplicationType</p></td>
-<td><p>长</p></td>
-<td><p>值 = 1。 将应用程序类型设置为 "协议"。 在此情况下，其他可能的值不适用。 如果不存在，则将 ApplicationType 设置为0（可执行文件）。</p></td>
+<td><p>DWORD</p></td>
+<td><p>值 = 1。 将应用程序类型设置为协议。 其他可能值在此情况下不适用。 如果不存在，则 ApplicationType 设置为0（可执行文件）。</p></td>
 </tr>
 <tr class="odd">
-<td><p>路径</p></td>
+<td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>用于启动协作应用程序的协议。 对于 Live Meeting 2007，Path 的值设置为<code>meet:%conf-uri%</code>。</p></td>
+<td><p>用于启动该协作应用程序的协议。 对于 Live Meeting 2007，Path 的值设置为<code>meet:%conf-uri%</code>。</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionType</p></td>
-<td><p>长</p></td>
-<td><p>0 = 本地会话。 在本地计算机上启动应用程序。</p>
-<p>1 = 两方会话（默认值）。 Lync 2013 在本地启动应用程序，然后将系统通知发送给另一个用户。 其他用户单击通知并在其计算机上启动指定的应用程序。</p>
-<p>2 = 多方会话。 Lync 2013 在本地启动应用程序，然后向其他用户发送系统通知，提示用户在其计算机上启动指定的应用程序。</p></td>
+<td><p>DWORD</p></td>
+<td><p>0 = 本地会话。应用程序在本地计算机上启动。</p>
+<p>1 = 两方会话（默认）。 Lync 2013 在本地启动应用程序，然后将系统通知发送给其他用户。 其他用户单击该通知，并在其计算机上启动指定的应用程序。</p>
+<p>2 = 多方会话。 Lync 2013 在本地启动应用程序，然后向其他用户发送系统通知，提示他们在其计算机上启动指定的应用程序。</p></td>
 </tr>
 <tr class="odd">
 <td><p>MCUType</p></td>
@@ -234,7 +234,7 @@ _**主题上次修改时间：** 2013-02-20_
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>将显示此命令的菜单的列表，用分号分隔。 可能的值：</p>
+<td><p>将显示此命令的菜单列表，用分号分隔。 可能的值为：</p>
 <ul>
 <li><p>MainWindowActions</p></li>
 <li><p>MainWindowRightClick</p></li>
@@ -248,7 +248,7 @@ _**主题上次修改时间：** 2013-02-20_
 </table>
 
 
-以下示例添加了从 Lync 2013 中启动 ADatum 协作客户端的命令：
+下面的示例添加了从 Lync 2013 中启动 ADatum 协作客户端的命令：
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]

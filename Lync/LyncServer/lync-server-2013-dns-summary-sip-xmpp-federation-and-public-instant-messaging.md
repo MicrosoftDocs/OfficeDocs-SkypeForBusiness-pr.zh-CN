@@ -1,5 +1,5 @@
 ---
-title: DNS 摘要-SIP、XMPP 联盟和公共即时消息
+title: DNS 摘要-SIP、XMPP 联合身份验证和公共即时消息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c927836377a0c7c14054073a9cf17ce638662450
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90b7b6f9639a43a1eb16623fe0ea174b6e932ab5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757566"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>DNS 摘要-Lync Server 2013 中的 SIP、XMPP 联盟和公共即时消息
+# <a name="dns-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-SIP、XMPP 联合身份验证和公共即时消息
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757566"
 
 <span> </span>
 
-_**主题上次修改时间：** 2017-03-09_
+_**上次修改的主题：** 2017-03-09_
 
-定义与 Office 通信服务器或 Lync Server 合作伙伴联盟所需的域名系统（DNS）记录由你决定允许其他视角合作伙伴自动 DNS 发现你的域。 如果发布\_sipfederationtls。\_tcp。 * \<SIP 域名\> *SRV 记录，任何其他 SIP 联盟域都将能够 "发现" 您的联盟。 通过使用 Lync Server 控制面板中的 "允许域和阻止域" 设置，或者通过使用 Lync Server Management Shell 和**Get**、 **Set**、 **New**、 **CsAllowedDomain**和 **-CsBlockedDomain** PowerShell cmdlet 设置允许或阻止的域配置，可以控制哪些联盟域可以与你进行通信。 有关如何配置这些设置以及如何使用 PowerShell cmdlet 的其他信息，请参阅本主题末尾的**相关主题**。
+定义与 Office 通信服务器或 Lync Server 合作伙伴的联合身份验证所需的域名系统（DNS）记录由您决定允许其他视角合作伙伴对您的域进行自动 DNS 发现。 如果发布\_sipfederationtls。\_tcp。 * \<SIP 域名\> *SRV 记录，任何其他 SIP 联盟域都将能够 "发现" 你的联盟。 您可以通过使用 Lync Server 控制面板中的 "允许域和阻止域" 设置，或者通过使用 Lync Server 命令行管理程序和**Get**、 **Set**、 **New**、 **CsAllowedDomain**和 **-CsBlockedDomain** PowerShell cmdlet 来控制哪些联盟域可以与您通信。 有关如何配置这些设置以及如何使用 PowerShell cmdlet 的其他信息，请参阅本主题结尾的**相关主题**。
 
-"DNS 记录" 摘要表描述了开放的或可发现的联盟的必需条目。 如果您不想实现联合发现，则可以决定不配置\_sipfederationtls。\_tcp。 *SIP 域名\> \<*
+DNS 记录摘要表描述开放或可发现联盟所需要的条目。 如果您不想实现联合发现，则可以决定不配置\_sipfederationtls。\_tcp。 *SIP 域名\> \<*
 
 <div>
 
 
 > [!IMPORTANT]
-> 某些特定方案必须具有 _sipfederationtls _tcp。 <EM> &lt;SIP 域名&gt; </EM>SRV 记录，但不希望具有可发现的联合。 其中一个实例是为用户部署移动性的位置。 移动推送通知 clearinghouse （PNCH）是一种特殊类型的联盟，用于 Apple iPhone 或 iPad 上使用 lync 2010 移动客户端或使用 lync 2013 2010 移动客户端或 Windows Phone 的 Microsoft Lync 移动客户端。 _Sipfederationtls _tcp。 <EM> &lt;SIP 域名&gt; </EM>SRV 记录在移动性和推送通知的情况下使用。 若要缓解此问题并控制你的发现，请清除 "<STRONG>启用合作伙伴域发现</STRONG>" 设置以关闭发现。
+> 在某些特定情况下，您必须具有 _sipfederationtls._tcp. <EM> &lt;SIP 域名&gt; </EM>SRV 记录，但不希望具有可检测到的联合身份验证。 其中一种情况是，您已经为用户部署了移动性。 移动推送通知 clearinghouse （PNCH）是一种特殊类型的联盟，用于 Apple iPhone 或 iPad 上使用 lync 2010 移动客户端或使用 lync 2010 移动客户端或 Windows Phone 的 Microsoft Lync Mobile 客户端或 Lync 2013 移动客户端。 如果同时部署了移动性和 PNCH，则需要使用 _sipfederationtls._tcp. <EM> &lt;SIP 域名&gt; </EM>SRV 记录在移动性和推送通知的情况下使用。 若要缓解此问题并控制可发现性，请清除设置“启用合作伙伴域发现”<STRONG></STRONG>以关闭发现功能。
 
 
 
 </div>
 
-若要为你的部署配置可扩展消息和状态协议（XMPP），请在外部 DNS 服务器中创建两个域名系统（DNS）记录，该服务器会将记录解析为 Edge 服务器或边缘池的访问边缘服务。
+若要为您的部署配置可扩展消息和状态协议（XMPP），请在外部 DNS 服务器中创建两个域名系统（DNS）记录，以将这些记录解析为您的边缘服务器或边缘池的访问边缘服务。
 
-为公共即时消息连接配置域名系统（DNS）时，你将发现支持外部用户的配置将支持公用 IM 连接。 如果你已配置了 Edge 服务器或边缘池，则应具有支持公用 IM 连接所必需的 DNS 记录。
+为公共即时消息连接配置域名系统（DNS）时，将会发现支持外部用户的配置将支持公用 IM 连接。 如果已配置了边缘服务器或边缘池，则应具有支持公用 IM 连接所必需的 DNS 记录。
 
 <div>
 
@@ -72,20 +72,20 @@ _**主题上次修改时间：** 2017-03-09_
 <th>位置/类型/端口</th>
 <th>FQDN</th>
 <th>IP 地址/FQDN 主机记录</th>
-<th>映射到/批注</th>
+<th>映射位置/注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5061</p></td>
-<td><p>_sipfederationtls._tcp.contoso.com</p></td>
+<td><p>_sipfederationtls _tcp .com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Access Edge 服务外部接口，需要将联合身份验证自动 DNS 发现到其他潜在的联合合作伙伴，并称为 "允许的 SIP 域" （在以前版本中称为增强联盟）。根据需要对启用了 Lync 的用户的所有 SIP 域重复此操作</p>
+<td><p>访问边缘服务外部接口，将联合身份验证自动 DNS 发现到其他潜在联合合作伙伴，并将其称为 "允许的 SIP 域" （在以前的版本中称为 "增强联盟"）。根据需要对启用了 Lync 的用户的所有 SIP 域重复此操作</p>
 
 
 
 > [!IMPORTANT]
-> 移动和推送通知交换所需要此 SRV 记录。 在有多个 SIP 域的情况下，为将具有 Lync 移动客户端的每个域创建和发布 SRV 记录。 如果部署支持的每个 SIP 域没有明确的 SRV 记录，则推送通知服务和 Apple 推送通知服务可能不会按预期运行。
+> 移动性和推送通知交换所需要此 SRV 记录。 在有多个 SIP 域的情况下，为将拥有 Lync 移动客户端的每个域创建并发布一个 SRV 记录。 如果部署支持的每个 SIP 域没有明确的 SRV 记录，则推送通知服务和 Apple 推送通知服务可能无法按预期运行。
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ _**主题上次修改时间：** 2017-03-09_
 
 <div>
 
-## <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp"></a>DNS 摘要-可扩展消息和状态协议（XMPP）
+## <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp"></a>DNS 摘要-可扩展消息传递和状态协议（XMPP）
 
 
 <table>
@@ -112,21 +112,21 @@ _**主题上次修改时间：** 2017-03-09_
 <th>位置/类型/端口</th>
 <th>FQDN</th>
 <th>IP 地址/FQDN 主机记录</th>
-<th>映射到/批注</th>
+<th>映射目标/注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>外部 DNS/SRV/5269</p></td>
-<td><p>_xmpp-server._tcp.contoso.com</p></td>
+<td><p>_xmpp-_tcp .com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>"访问边缘服务" 或 "边缘池" 上的 XMPP 代理外部接口。对于启用了 Lync 的用户，通过全局策略、用户所在的网站策略或应用了用户策略的用户策略，可对所有内部 SIP 域进行必要的操作，并允许使用启用了 Lync 的用户使用 XMPP 联系人。启用 Lync 的用户。 还必须在 XMPP 联盟合作伙伴策略中配置允许的 XMPP 域。 有关其他详细信息，请参阅<strong>另请参阅</strong>中的主题</p></td>
+<td><p>访问边缘服务或边缘池上的 XMPP 代理外部接口。根据需要对启用了 Lync 的用户使用通过全局策略、用户所在的网站策略或应用于 XMPP 联系人的外部访问策略的配置，对所有内部 SIP 域重复此操作。启用了 Lync 的用户。 还必须在 XMPP 联盟伙伴策略中配置允许的 XMPP 域。 有关其他详细信息，请参阅<strong>另请参阅</strong>主题中的主题</p></td>
 </tr>
 <tr class="even">
 <td><p>外部 DNS/A</p></td>
-<td><p>xmpp.contoso.com （例如）</p></td>
-<td><p>边缘服务器上的访问边缘服务的 IP 地址或托管 XMPP 代理的边缘池的 IP 地址</p></td>
-<td><p>指向托管 XMPP 代理服务的访问边缘服务或边缘池。 通常，你创建的 SRV 记录将指向此主机（A 或 AAAA）记录</p></td>
+<td><p>xmpp.contoso.com（举例）</p></td>
+<td><p>边缘服务器或边缘池托管 XMPP 代理上的访问边缘服务的 IP 地址</p></td>
+<td><p>指向承载 XMPP 代理服务的访问边缘服务或边缘池。 一般而言，您创建的 SRV 记录将指向此主机（A 或 AAAA）记录</p></td>
 </tr>
 </tbody>
 </table>

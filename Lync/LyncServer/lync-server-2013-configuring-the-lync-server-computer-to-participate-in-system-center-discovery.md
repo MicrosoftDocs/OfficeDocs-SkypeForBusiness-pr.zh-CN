@@ -12,16 +12,16 @@ ms:contentKeyID: 48183731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cec18903f1621d5a616debbbdd16f3c834ac21c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b59622306fbde12eb570b72c95b37cec7885c7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734672"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040921"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734672"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-20_
+_**上次修改的主题：** 2012-10-20_
 
-若要确保新的 Lync 服务器代理参与了 System Center Operations Manager 的发现过程，必须在安装了 System Center Operations Manager 控制台的每台计算机上完成以下过程：
+若要确保新的 Lync Server 代理参与了 System Center Operations Manager 的发现过程，必须在安装了 System Center Operations Manager 控制台的每台计算机上完成以下过程：
 
-1.  在 "**管理**" 选项卡上，单击 "**代理托管**"。
+1.  在“管理”**** 选项卡上，单击“代理托管”****。
 
-2.  右键单击计算机的名称，然后单击“属性”****。 在 "**属性**" 对话框中的 "**安全**" 选项卡上，选择 "**允许此代理充当代理并发现其他计算机上的托管对象**"，然后单击 **"确定"**。
+2.  右键单击计算机的名称，然后单击“属性”****。在“属性”**** 对话框中的“安全性”**** 选项卡上，选择“允许此代理充当代理并发现其他计算机上的托管对象”****，然后单击“确定”****。
 
-完成步骤2后，重新启动运行状况代理服务。 （重新启动服务将 "强制" 发现新计算机。 如果你不重新启动该服务，则系统中心运营经理将在新计算机发现之前的4小时内执行此操作。 重新启动服务后，请验证该计算机上的 Operations Manager 事件日志中未记录任何错误事件。
+完成步骤 2 后，重新启动健康代理服务。（重新启动该服务将“强制”发现新计算机。如果您没有重新启动该服务，则 System Center Operations Manager 可能需要长达 4 小时的时间才能发现新计算机。）在重新启动该服务后，验证该计算机上的 Operations Manager 事件日志中是否记录了任何错误事件。
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：呼叫许可控制报告
+title: Lync Server 2013：呼叫允许控制报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff036a27149db4360a938fe2ce9d63c2718f4d94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba5b643adf6a8208285aeba66304ddd1657afdfa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730282"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a>在 Lync Server 2013 中呼叫许可控制报告
+# <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫允许控制报告
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730282"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-29_
+_**上次修改的主题：** 2012-06-29_
 
-呼叫允许控制报告提供有关对等和由呼叫允许控制设置限制下举行的会议会话的信息。 Microsoft Lync Server 2010 中引入的 "呼叫许可控制" 为管理员提供了一种基于带宽限制允许（或禁止）通信会话的方式。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
+呼叫允许控制报告提供有关点对点和由呼叫允许控制设置限制下举行的会议会话的信息。 Microsoft Lync Server 2010 中引入的呼叫允许控制为管理员提供了一种基于带宽限制允许（或不允许）通信会话的方法。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
 
 <div>
 
@@ -47,7 +47,7 @@ _**主题上次修改时间：** 2012-06-29_
 
   - 会议详细信息报告 - 要访问此报告，请从会议会话单击详细信息指标。
 
-  - 对等会话详细信息报告 – 要访问此报告，请单击对等会话的详细信息指标。
+  - 点对点会话详细信息报告 – 要访问此报告，请单击点对点会话的详细信息指标。
 
 </div>
 
@@ -86,20 +86,20 @@ _**主题上次修改时间：** 2012-06-29_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>从</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/17/12012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/17/12012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/13/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>到</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/17/12012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/17/12012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/13/2012</p>
@@ -107,22 +107,22 @@ _**主题上次修改时间：** 2012-06-29_
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“<strong>[所有]</strong>”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
+<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”<strong></strong>查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>活动类型</strong></p></td>
 <td><p>活动的类型。选择下列活动之一：</p>
 <ul>
-<li><p>[所有]</p></li>
+<li><p>各种</p></li>
 <li><p>对等</p></li>
-<li><p>会议</p></li>
+<li><p>发布会</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>呼叫类别</strong></p></td>
 <td><p>指示对呼叫使用 CAC 的原因。选择下列选项之一：</p>
 <ul>
-<li><p>[所有]</p></li>
+<li><p>各种</p></li>
 <li><p>由于呼叫允许控制，呼叫被拒绝</p></li>
 <li><p>由于呼叫允许控制，呼叫通过 PSTN 重新路由</p></li>
 </ul></td>
@@ -135,11 +135,11 @@ _**主题上次修改时间：** 2012-06-29_
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-sessions"></a>对等会话的指标
+## <a name="metrics-for-peer-to-peer-sessions"></a>点对点会话的指标
 
-下表列出了对等会话（即，只涉及两个参与者的会话）的呼叫允许控制报告中提供的信息。
+下表列出了点对点会话（即，只涉及两个参与者的会话）的呼叫允许控制报告中提供的信息。
 
-### <a name="metrics-for-peer-to-peer-sessions"></a>对等会话的指标
+### <a name="metrics-for-peer-to-peer-sessions"></a>点对点会话的指标
 
 <table>
 <colgroup>
@@ -151,14 +151,14 @@ _**主题上次修改时间：** 2012-06-29_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>详情</strong></p></td>
+<td><p><strong>详细信息</strong></p></td>
 <td><p>否</p></td>
-<td><p>单击此项时，报告将显示指定会话的对等会话详细信息报告。</p></td>
+<td><p>单击此项时，报告将显示指定会话的点对点会话详细信息报告。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>来源用户</strong></p></td>
@@ -219,7 +219,7 @@ _**主题上次修改时间：** 2012-06-29_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -229,12 +229,12 @@ _**主题上次修改时间：** 2012-06-29_
 <td><p>会议的唯一标识符。单击此项时，报告将显示单个会议参与者。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>组织者</strong></p></td>
+<td><p><strong>Organizer</strong></p></td>
 <td><p>是</p></td>
 <td><p>组织会议的用户的 SIP 地址。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>池</strong></p></td>
+<td><p><strong>Pool</strong></p></td>
 <td><p>是</p></td>
 <td><p>会议中使用的边缘服务器。</p></td>
 </tr>
@@ -272,7 +272,7 @@ _**主题上次修改时间：** 2012-06-29_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -292,7 +292,7 @@ _**主题上次修改时间：** 2012-06-29_
 <td><p>参与者的网络连接（通常为“来自内部”或“来自外部”）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>形式</strong></p></td>
+<td><p><strong>模态</strong></p></td>
 <td><p>否</p></td>
 <td><p>会议类型（例如 A/V 会议）。</p></td>
 </tr>

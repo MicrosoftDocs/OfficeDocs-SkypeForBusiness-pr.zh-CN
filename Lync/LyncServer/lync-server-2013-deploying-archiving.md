@@ -12,16 +12,16 @@ ms:contentKeyID: 48185031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86b1394df9bb52502e1e0c605bedb05a0579042e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 436870bd932a0cf92168555d298bf81aff1de667
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729589"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729589"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-Lync Server 2013 提供了一种用于在 Lync Server 中存档即时消息（IM）内容和会议通信的解决方案。 你可以通过将存档存储与 Exchange 2013 存储结合使用来实现存档支持，方法是使用 SQL Server 数据库存储 Lync Server 2013 存档数据，或者同时使用 Lync Server 2013 和 Exchange 2013 存储。 你可以使用策略和存档配置控制数据的存档方式。 有关详细信息，请参阅规划文档、部署文档或操作文档中的 "在[lync server 2013 中规划存档](lync-server-2013-planning-for-archiving.md)" 和 "[存档工作2013原理](lync-server-2013-how-archiving-works.md)"。
+Lync Server 2013 提供了用于在 Lync Server 中存档即时消息（IM）内容和会议通信的解决方案。 您可以通过将存档存储与 Exchange 2013 存储集成，使用 SQL Server 数据库存储 Lync Server 2013 存档数据，或者同时使用 Lync Server 2013 和 Exchange 2013 存储来实现存档支持。 您可以使用策略和存档配置来控制数据的存档方式。 有关详细信息，请参阅规划文档、部署文档或操作文档中的规划文档中的在[lync server 2013 中规划存档](lync-server-2013-planning-for-archiving.md)和[存档在 lync server 2013 中的工作方式](lync-server-2013-how-archiving-works.md)。
 
-您可以使用本部分中的信息来开始设置和配置存档。 部署后，您可以更改存档设置。 有关如何实现对日常管理的存档支持或满足组织中的新要求的详细信息，请参阅操作文档中的[管理 Lync Server 2013 存档](lync-server-2013-managing-archiving.md)。
+可以使用本节中的信息初步设置和配置存档。 部署后可以更改存档设置。 若要详细了解如何实现对日常管理的存档支持或满足组织中的新要求，请参阅操作文档中的[管理 Lync Server 2013 存档](lync-server-2013-managing-archiving.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中存档的工作方式](lync-server-2013-how-archiving-works.md)
+  - [Lync Server 2013 中的存档工作原理](lync-server-2013-how-archiving-works.md)
 
   - [Lync Server 2013 中存档的部署清单](lync-server-2013-deployment-checklist-for-archiving.md)
 
@@ -53,7 +53,7 @@ Lync Server 2013 提供了一种用于在 Lync Server 中存档即时消息（IM
 
   - [将存档数据库添加到现有 Lync Server 2013 部署](lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md)
 
-  - [在 Lync Server 2013 中配置存档支持](lync-server-2013-configuring-support-for-archiving.md)
+  - [在 Lync Server 2013 中配置对存档的支持](lync-server-2013-configuring-support-for-archiving.md)
 
 </div>
 

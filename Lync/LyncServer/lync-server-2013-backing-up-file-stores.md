@@ -12,16 +12,16 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1989c399ec01ab2bbe3412a086a58c2583c0dad5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e61c9a70477d18ebdacaf9233bbbb0693bb74a2e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741032"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741032"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-17_
+_**上次修改的主题：** 2013-02-17_
 
-备份 Lync Server 文件存储包括 Lync Server 组件使用的所有文件和文件夹。
+对 Lync Server 文件存储进行备份时，将包括 Lync Server 组件使用的所有文件和文件夹。
 
 <div>
 
@@ -45,7 +45,7 @@ _**主题上次修改时间：** 2013-02-17_
 
 1.  若要查找 Lync Server 文件存储的特定位置，请打开拓扑生成器并查看 "**文件存储**" 节点。
 
-2.  使用 Robocopy 或其他文件系统管理工具将每个文件存储复制到\\$Backup 文件存储。
+2.  使用 Robocopy 或另一个文件系统管理工具将每个文件存储复制\\到 $Backup 文件存储。
 
 </div>
 

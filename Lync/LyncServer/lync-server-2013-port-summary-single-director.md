@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：端口摘要 - 单一控制器
+title: Lync Server 2013：端口摘要-单个控制器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0179d6fd27207d28caa10ffa01bea155f9b00c03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 95ae1ada828ea4ad3c6bdd2c863333c911635ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725022"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043124"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要 - 单一控制器
+# <a name="port-summary---single-director-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-单一控制器
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725022"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-20_
+_**上次修改的主题：** 2012-10-20_
 
-单个控制器的防火墙端口要求由用于从内部接口或反向代理的面向内部网络的控制器建立通信的端口组成。 默认情况下，Microsoft Lync Server 2013 需要从反向代理（以及前端池和前端服务器）打开端口 HTTP/TCP 8080 和 HTTPS/TCP 4443。 此外，必须从 Edge 服务器内部接口到 Director 以及前端池和前端服务器的会话初始协议（SIP）通信。 SIP 协议使用 SIP/MTLS/TCP 5061，从边缘服务器到前端池和前端服务器。 还必须创建允许从 Director、前端池和前端服务器到边缘服务器内部接口的 SIP/MTLS/TCP 5061 通信的规则。
+单个控制器的防火墙端口要求由用于从内部接口或反向代理的面向内部网络中的控制器建立通信的端口组成。 Microsoft Lync Server 2013 默认情况下需要从反向代理向控制器以及前端池和前端服务器打开端口 HTTP/TCP 8080 和 HTTPS/TCP 4443。 此外，还必须存在从边缘服务器内部接口到控制器以及前端池和前端服务器的会话初始协议（SIP）通信。 SIP 协议使用从边缘服务器到前端池和前端服务器的 SIP/MTLS/TCP 5061。 还必须创建一个允许从 Director、前端池和前端服务器到边缘服务器内部接口的 SIP/MTLS/TCP 5061 通信的规则。
 
-### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a>用于防火墙定义的单控制器端口和协议
+### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a>防火墙定义的单个控制器端口和协议
 
 <table>
 <colgroup>
@@ -61,19 +61,19 @@ _**主题上次修改时间：** 2012-10-20_
 <td><p>HTTP/TCP 8080</p></td>
 <td><p>反向代理内部接口</p></td>
 <td><p>控制器</p></td>
-<td><p>从反向代理的外部方开始，通信将发送到控制器和前端服务器 web 服务</p></td>
+<td><p>与反向代理的外部一方最初接收到的通信将发送到控制器和前端服务器 web 服务</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP 4443</p></td>
 <td><p>反向代理内部接口</p></td>
 <td><p>控制器</p></td>
-<td><p>从反向代理的外部方开始，通信将发送到控制器和前端服务器 web 服务</p></td>
+<td><p>与反向代理的外部一方最初接收到的通信将发送到控制器和前端服务器 web 服务</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
 <td><p>控制器</p></td>
 <td><p>前端服务器或前端池</p></td>
-<td><p>控制器和前端服务器之间的服务器间通信</p></td>
+<td><p>控制器与前端服务器之间的服务器间通信</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTP/TCP 80</p></td>
@@ -91,25 +91,25 @@ _**主题上次修改时间：** 2012-10-20_
 <td><p>SIP/MTLS/TCP 5061</p></td>
 <td><p>边缘服务器内部接口</p></td>
 <td><p>控制器</p></td>
-<td><p>从边缘服务器到控制器的 SIP 通信，以及前端服务器。</p></td>
+<td><p>从边缘服务器到控制器以及前端服务器的 SIP 通信。</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>任意</p></td>
 <td><p>边缘服务器内部接口</p></td>
-<td><p>集中式日志记录服务控制器（ClsController）或代理（ClasAgent）命令和日志收集</p></td>
+<td><p>集中日志记录服务控制器 (ClsController.exe) 或代理 (ClasAgent.exe) 命令和日志集合</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>任意</p></td>
 <td><p>边缘服务器内部接口</p></td>
-<td><p>集中式日志记录服务控制器（ClsController）或代理（ClasAgent）命令和日志收集</p></td>
+<td><p>集中日志记录服务控制器 (ClsController.exe) 或代理 (ClasAgent.exe) 命令和日志集合</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>任意</p></td>
 <td><p>边缘服务器内部接口</p></td>
-<td><p>集中式日志记录服务控制器（ClsController）或代理（ClasAgent）命令和日志收集</p></td>
+<td><p>集中日志记录服务控制器 (ClsController.exe) 或代理 (ClasAgent.exe) 命令和日志集合</p></td>
 </tr>
 </tbody>
 </table>

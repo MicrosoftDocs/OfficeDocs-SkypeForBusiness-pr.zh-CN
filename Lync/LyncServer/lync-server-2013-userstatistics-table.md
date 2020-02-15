@@ -12,16 +12,16 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7609747848e1943a08eff2fa77b87f0168710f81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98c24093f332f568daadfb0cd336f0d5fde3eb35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744252"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744252"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-UserStatistics 表是支持表。 表中的每条记录存储有关系统的单个用户使用情况的信息。 此表是在 Microsoft Lync Server 2013 中引入的。
+UserStatistics 表是一个支持表。 该表中的每条记录都存储了单个用户的系统使用情况的信息。 此表是在 Microsoft Lync Server 2013 中引入的。
 
 
 <table>
@@ -59,32 +59,32 @@ UserStatistics 表是支持表。 表中的每条记录存储有关系统的单�
 <tr class="odd">
 <td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识此用户的唯一号码。</p></td>
+<td><p>主</p></td>
+<td><p>用于标识此用户的唯一编号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastLogInTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>上次登录用户的时间。</p></td>
+<td><p>用户上次登录时间。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizedTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>上次用户组织会议的时间。</p></td>
+<td><p>用户上次组织会议的时间。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastCallOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>上次用户遇到通话失败的时间。</p></td>
+<td><p>用户上次遇到呼叫失败的时间。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>上次用户遇到作为会议组织者的呼叫失败的时间。</p></td>
+<td><p>用户上次以会议组织者身份遇到呼叫失败的时间。</p></td>
 </tr>
 </tbody>
 </table>

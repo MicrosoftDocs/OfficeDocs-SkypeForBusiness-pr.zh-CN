@@ -12,16 +12,16 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 967b5b7388ce60eafd46791c226bf1a3edbe0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99e28778a8bd299d5ead25220f19b27927a63d44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41743182"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-03-12_
+_**上次修改的主题：** 2014-03-12_
 
-基于位置的路由不适用于以下类型的交互。 当 Lync 终结点使用这些功能与 PSTN 终结点交互时，不会强制执行基于位置的路由。
+基于位置的路由不适用于以下类型的交互。 当 Lync 终结点使用这些功能与 PSTN 终结点进行交互时，不会强制执行基于位置的路由。
 
-  - PSTN 电话拨入式会议
+  - PSTN 电话拨入会议
 
   - 通过响应组的传入和传出 PSTN 呼叫
 
-  - 通过呼叫寄存对 PSTN 呼叫进行呼叫寄存或检索
+  - 通过呼叫寄存呼叫寄存或检索 PSTN 呼叫
 
   - 到公告服务的传入 PSTN 呼叫
 
-  - 通过组内呼叫应答检索的传入 PSTN 呼叫
+  - 通过组呼叫应答检索的传入 PSTN 呼叫
 
-若要对下表中的交互类型强制使用基于位置的路由规则，必须为会议启用基于位置的路由：
+若要对以下列表中的交互类型强制执行基于位置的路由规则，您必须为会议启用基于位置的路由：
 
-  - PSTN 电话拨出式会议
+  - 来自会议的 PSTN 拨出
 
-  - 从点对点音频对话升级到涉及 PSTN 终结点的音频会议
+  - 从对等音频对话到涉及 PSTN 终结点的会议的升级
 
-  - 涉及 PSTN 终结点的咨询转接
+  - 涉及 PSTN 终结点的咨询转移
 
-若要为会议启用基于位置的路由，请参阅[Lync Server 2013 中的会议基于位置的路由](lync-server-2013-location-based-routing-for-conferencing.md)。
+若要为会议启用基于位置的路由，请参阅[Lync Server 2013 中的会议的基于位置的路由](lync-server-2013-location-based-routing-for-conferencing.md)。
 
 <div>
 

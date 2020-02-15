@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：（可选）验证呼叫驻留部署
+title: Lync Server 2013：（可选）验证呼叫寄存部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cfc0d62bcfabe1a5bcddfb069d95b18aa0d30d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05b18de4af492fb45ef37e64cca45cc2d3d2b965
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755716"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>可选在 Lync Server 2013 中验证呼叫寄存部署
+# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>Optional在 Lync Server 2013 中验证呼叫寄存部署
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41755716"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-11_
+_**上次修改的主题：** 2012-09-11_
 
-安装并配置呼叫寄存后，您需要验证配置，以确保停车和检索呼叫按预期工作。 至少必须验证以下内容：
+在安装和配置呼叫寄存之后，需要验证配置，以确保停车和检索呼叫按预期方式工作。 至少必须验证以下内容：
 
-  - 呼叫已启用呼叫寄存并让用户寄存呼叫的用户。
+  - 呼叫已启用呼叫寄存且用户寄存呼叫的用户。
     
     <div>
     
 
     > [!NOTE]  
-    > 如果在执行此测试之前已在语音策略中启用了呼叫寄存，则离开呼叫的用户需要注销 Lync 服务器，然后重新登录，以便能够在转接呼叫列表中看到呼叫寄存选项。
+    > 如果您在执行此测试之前在语音策略中启用了呼叫寄存，则寄存呼叫的用户需要注销 Lync Server，然后重新登录，才能在转移呼叫列表中查看呼叫寄存选项。
 
     
     </div>

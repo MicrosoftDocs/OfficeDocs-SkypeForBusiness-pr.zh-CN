@@ -12,16 +12,16 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b94bc731ac00a4ff774930f506282b6aef16cbaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eda955072f42989e6323ea6422d8b25736cf8c32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739262"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041061"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41739262"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-30_
+_**上次修改的主题：** 2012-10-30_
 
-响应组是一种企业语音功能，用于将传入呼叫路由和排队到一组人员（称为*工程师*，如帮助桌面或客户服务桌面）。
+响应组是一个企业语音功能，可将传入呼叫路由并排队给一组人员（称为*代理*，如技术支持或客户服务桌面）。
 
-部署 "企业语音" 时，将在前端服务器或标准版服务器上自动安装和启用响应组所需的组件。 若要使 "响应组" 对用户可用，必须先配置代理组、"队列" 和 "工作流"。 此外，响应组管理员可以将现有工作流的配置委派给响应组管理器，然后这些管理员可以修改和重新配置工作流及其关联的代理组和队列。
+响应组所需的组件将在部署企业语音时在前端服务器或 Standard Edition Server 中自动安装并启用。 要使响应组对用户可用，必须依次配置代理组、队列和工作流。 此外，响应组管理员还可以将现有工作流的配置委派给响应组管理器，然后可以修改和重新配置工作流及其关联的代理组和队列。
 
-本部分将指导你完成 Lync Server 2013 响应组的配置。 它假设你已阅读与响应组相关的计划部分，并已部署企业版服务器或具有企业语音的标准版服务器。
+本部分将指导您完成 Lync Server 2013 响应组的配置。 它假定您已阅读与响应组相关的规划部分，并已部署企业版服务器或具有企业语音的 Standard Edition 服务器。
 
 <div>
 
 
 > [!TIP]  
-> 有关使用 Lync Server 命令行管理程序创建响应组的详细信息，包括示例脚本，请参阅 "在" 处<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>使用 Lync Server Management Shell 创建第一个响应组。
+> 有关使用 Lync Server 命令行管理程序创建响应组的详细信息，包括示例脚本，请参阅中的 "使用 Lync Server 命令行管理程序创建您<A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>的第一个响应组"。
 
 
 
@@ -55,25 +55,25 @@ _**主题上次修改时间：** 2012-10-30_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的响应组配置权限和先决条件](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
 
-  - [Lync Server 2013 中的 "响应" 组的部署过程](lync-server-2013-deployment-process-for-response-group.md)
+  - [Lync Server 2013 中响应组的部署过程](lync-server-2013-deployment-process-for-response-group.md)
 
   - [Lync Server 2013 中的工作流创建方案概述](lync-server-2013-overview-of-workflow-creation-scenarios.md)
 
-  - [在 Lync Server 2013 中创建响应组代理组](lync-server-2013-create-response-group-agent-groups.md)
+  - [创建响应组代理组 Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
 
   - [在 Lync Server 2013 中创建响应组队列](lync-server-2013-create-response-group-queues.md)
 
-  - [可选在 Lync Server 2013 中定义响应组工作时间](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [Optional在 Lync Server 2013 中定义响应组工作时间](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [可选在 Lync Server 2013 中定义 "响应组" 假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [Optional在 Lync Server 2013 中定义响应组假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
   - [在 Lync Server 2013 中创建响应组工作流](lync-server-2013-create-response-group-workflows.md)
 
-  - [可选在 Lync Server 2013 中验证响应组部署](lync-server-2013-optional-verify-response-group-deployment.md)
+  - [Optional在 Lync Server 2013 中验证响应组部署](lync-server-2013-optional-verify-response-group-deployment.md)
 
 </div>
 

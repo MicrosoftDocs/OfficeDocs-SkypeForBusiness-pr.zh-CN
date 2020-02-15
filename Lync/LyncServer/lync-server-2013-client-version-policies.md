@@ -12,16 +12,16 @@ ms:contentKeyID: 50675351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81d930e1f3991235f34735ac0c178199e06caa9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1af922cb1c6542835d696406e52b6d9f37fe4a52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742812"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742812"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-12-11_
+_**上次修改的主题：** 2012-12-11_
 
-客户端版本策略用于全局或特定网站、池或用户组应用一组客户端版本控制规则。 使用以下过程配置 Lync Server 2013 的客户端版本策略。
+客户端版本策略用于全局或特定网站、池或用户组应用一组客户端版本控制规则。 使用以下过程可为 Lync Server 2013 配置客户端版本策略。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看客户端版本策略](lync-server-2013-view-client-version-policies.md)
 

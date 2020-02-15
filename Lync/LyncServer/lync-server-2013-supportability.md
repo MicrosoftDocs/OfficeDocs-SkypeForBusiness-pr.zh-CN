@@ -12,16 +12,16 @@ ms:contentKeyID: 48183916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c2829ff9869287a08532584e318362ba57e51d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 348cdf890574e80b5997dee4312ec1a4b6371566
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731752"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41731752"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-04-23_
+_**上次修改的主题：** 2012-04-23_
 
-Microsoft Lync Server 2013 通信软件支持拓扑，这些拓扑旨在满足小型、中型或大型组织的需求，这些拓扑对性能、高可用性和可伸缩性有不同的要求。
+Microsoft Lync Server 2013 通信软件支持拓扑，这些拓扑旨在满足小型、中型或大型组织的需求，并且具有对性能、高可用性和可伸缩性的不同要求。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的 Active Directory 支持](lync-server-2013-active-directory-support.md)
 
@@ -51,13 +51,13 @@ Microsoft Lync Server 2013 通信软件支持拓扑，这些拓扑旨在满足�
 
   - [Lync Server 2013 中支持的迁移路径和共存方案](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md)
 
-  - [支持的适用于 Lync Server 2013 的硬件](lync-server-2013-supported-hardware.md)
+  - [Lync Server 2013 支持的硬件](lync-server-2013-supported-hardware.md)
 
   - [Lync Server 2013 中的服务器软件和基础结构支持](lync-server-2013-server-software-and-infrastructure-support.md)
 
   - [Lync Server 2013 中的其他服务器支持和要求](lync-server-2013-additional-server-support-and-requirements.md)
 
-  - [Lync Server 2013 中的客户端与设备软件和基础结构支持](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
+  - [Lync Server 2013 中的客户端和设备软件和基础结构支持](lync-server-2013-client-and-device-software-and-infrastructure-support.md)
 
 </div>
 
