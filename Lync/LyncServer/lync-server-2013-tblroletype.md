@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblRoleType
+title: Lync Server 2013： tblRoleType
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba6b5041453b0965fafc12ada2be62ec42316f89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab96d6cd090ebaaa9e33ddf1672ab704ee371f8b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731182"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblroletype-in-lync-server-2013"></a><span data-ttu-id="287dc-102">Lync Server 2013 中的 tblRoleType</span><span class="sxs-lookup"><span data-stu-id="287dc-102">tblRoleType in Lync Server 2013</span></span>
+# <a name="tblroletype-in-lync-server-2013"></a><span data-ttu-id="bf1a8-102">Lync Server 2013 中的 tblRoleType</span><span class="sxs-lookup"><span data-stu-id="bf1a8-102">tblRoleType in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731182"
 
 <span> </span>
 
-<span data-ttu-id="287dc-103">_**主题上次修改时间：** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="287dc-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="bf1a8-103">_**上次修改的主题：** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="bf1a8-103">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="287dc-104">tblRoleType 是一个具有角色类型及其关联权限集的静态查找表。</span><span class="sxs-lookup"><span data-stu-id="287dc-104">tblRoleType is a static lookup table with role types and their associated permission sets.</span></span>
+<span data-ttu-id="bf1a8-104">tblRoleType 是一个静态查找表，其中包含角色类型及其关联的权限集。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-104">tblRoleType is a static lookup table with role types and their associated permission sets.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="287dc-105">多</span><span class="sxs-lookup"><span data-stu-id="287dc-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="bf1a8-105">Columns</span><span class="sxs-lookup"><span data-stu-id="bf1a8-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,48 +49,48 @@ ms.locfileid: "41731182"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="287dc-106">列</span><span class="sxs-lookup"><span data-stu-id="287dc-106">Column</span></span></th>
-<th><span data-ttu-id="287dc-107">类型</span><span class="sxs-lookup"><span data-stu-id="287dc-107">Type</span></span></th>
-<th><span data-ttu-id="287dc-108">说明</span><span class="sxs-lookup"><span data-stu-id="287dc-108">Description</span></span></th>
+<th><span data-ttu-id="bf1a8-106">列</span><span class="sxs-lookup"><span data-stu-id="bf1a8-106">Column</span></span></th>
+<th><span data-ttu-id="bf1a8-107">类型</span><span class="sxs-lookup"><span data-stu-id="bf1a8-107">Type</span></span></th>
+<th><span data-ttu-id="bf1a8-108">说明</span><span class="sxs-lookup"><span data-stu-id="bf1a8-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="287dc-109">rtypeID</span><span class="sxs-lookup"><span data-stu-id="287dc-109">rtypeID</span></span></p></td>
-<td><p><span data-ttu-id="287dc-110">int，not null</span><span class="sxs-lookup"><span data-stu-id="287dc-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="287dc-111">角色类型 ID。</span><span class="sxs-lookup"><span data-stu-id="287dc-111">Role type ID.</span></span></p></td>
+<td><p><span data-ttu-id="bf1a8-109">rtypeID</span><span class="sxs-lookup"><span data-stu-id="bf1a8-109">rtypeID</span></span></p></td>
+<td><p><span data-ttu-id="bf1a8-110">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="bf1a8-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="bf1a8-111">角色类型 ID。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-111">Role type ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="287dc-112">rtypeDesc</span><span class="sxs-lookup"><span data-stu-id="287dc-112">rtypeDesc</span></span></p></td>
-<td><p><span data-ttu-id="287dc-113">nvarchar （256），not null</span><span class="sxs-lookup"><span data-stu-id="287dc-113">nvarchar (256), not null</span></span></p></td>
-<td><p><span data-ttu-id="287dc-114">角色类型说明。</span><span class="sxs-lookup"><span data-stu-id="287dc-114">Role type description.</span></span> <span data-ttu-id="287dc-115">有四个可用的角色：</span><span class="sxs-lookup"><span data-stu-id="287dc-115">There are four available roles:</span></span></p>
+<td><p><span data-ttu-id="bf1a8-112">rtypeDesc</span><span class="sxs-lookup"><span data-stu-id="bf1a8-112">rtypeDesc</span></span></p></td>
+<td><p><span data-ttu-id="bf1a8-113">nvarchar (256)，不为 null</span><span class="sxs-lookup"><span data-stu-id="bf1a8-113">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="bf1a8-p101">角色类型描述。可用角色有四种：</span><span class="sxs-lookup"><span data-stu-id="bf1a8-p101">Role type description. There are four available roles:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="287dc-116">成员：聊天室成员</span><span class="sxs-lookup"><span data-stu-id="287dc-116">Member: Chat room member</span></span></p></li>
-<li><p><span data-ttu-id="287dc-117">管理器：聊天室管理器</span><span class="sxs-lookup"><span data-stu-id="287dc-117">Manager: Chat room manager</span></span></p></li>
-<li><p><span data-ttu-id="287dc-118">浊音：演示者使用 auditorium 聊天室</span><span class="sxs-lookup"><span data-stu-id="287dc-118">Voiced: Presenter for an auditorium chat room</span></span></p></li>
-<li><p><span data-ttu-id="287dc-119">创建者：可以创建聊天室</span><span class="sxs-lookup"><span data-stu-id="287dc-119">Creator: Can create chat rooms</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-116">成员：聊天室成员</span><span class="sxs-lookup"><span data-stu-id="bf1a8-116">Member: Chat room member</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-117">管理员：聊天室管理员</span><span class="sxs-lookup"><span data-stu-id="bf1a8-117">Manager: Chat room manager</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-118">有发布权的人：大会堂聊天室的演讲者</span><span class="sxs-lookup"><span data-stu-id="bf1a8-118">Voiced: Presenter for an auditorium chat room</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-119">创建者：可以创建聊天室</span><span class="sxs-lookup"><span data-stu-id="bf1a8-119">Creator: Can create chat rooms</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="287dc-120">rtypeAllowedPermSet</span><span class="sxs-lookup"><span data-stu-id="287dc-120">rtypeAllowedPermSet</span></span></p></td>
-<td><p><span data-ttu-id="287dc-121">bigint，not null</span><span class="sxs-lookup"><span data-stu-id="287dc-121">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="287dc-122">角色的权限集。</span><span class="sxs-lookup"><span data-stu-id="287dc-122">Permission set for the role.</span></span> <span data-ttu-id="287dc-123">所用位为：</span><span class="sxs-lookup"><span data-stu-id="287dc-123">The used bits are:</span></span></p>
+<td><p><span data-ttu-id="bf1a8-120">rtypeAllowedPermSet</span><span class="sxs-lookup"><span data-stu-id="bf1a8-120">rtypeAllowedPermSet</span></span></p></td>
+<td><p><span data-ttu-id="bf1a8-121">bigint，不为 null</span><span class="sxs-lookup"><span data-stu-id="bf1a8-121">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="bf1a8-p102">角色的权限集。使用的位为：</span><span class="sxs-lookup"><span data-stu-id="bf1a8-p102">Permission set for the role. The used bits are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="287dc-124">2：如果角色可以管理节点，则为 True。</span><span class="sxs-lookup"><span data-stu-id="287dc-124">2: True if the role can manage nodes.</span></span></p></li>
-<li><p><span data-ttu-id="287dc-125">4：如果角色可以创建子节点，则为 True。</span><span class="sxs-lookup"><span data-stu-id="287dc-125">4: True if the role can create children nodes.</span></span></p></li>
-<li><p><span data-ttu-id="287dc-126">7：如果角色可以加入聊天室（或类别的子聊天室），则为 True。</span><span class="sxs-lookup"><span data-stu-id="287dc-126">7: True if the role can join a chat room (or children chat rooms of a category).</span></span></p></li>
-<li><p><span data-ttu-id="287dc-127">8：如果角色可以在聊天室中（或在子类别的子聊天室中）聊天，则为 True。</span><span class="sxs-lookup"><span data-stu-id="287dc-127">8: True if the role can chat in a chat room (or in children chat rooms of a category).</span></span></p></li>
-<li><p><span data-ttu-id="287dc-128">10：如果角色可以读取聊天历史记录（即使未加入聊天室），则为 True。</span><span class="sxs-lookup"><span data-stu-id="287dc-128">10: True if the role can read chat history even when not joined to a chat room.</span></span></p></li>
-<li><p><span data-ttu-id="287dc-129">11：如果角色可以查看聊天室，则为 True。</span><span class="sxs-lookup"><span data-stu-id="287dc-129">11: True if the role can see the chat room.</span></span> <span data-ttu-id="287dc-130">（这将通过范围和可见性等因素进一步改进。）</span><span class="sxs-lookup"><span data-stu-id="287dc-130">(This is further refined by factors such as scope and visibility.)</span></span></p></li>
-<li><p><span data-ttu-id="287dc-131">12：如果角色可以在 auditorium 聊天室中聊天，则为 True。</span><span class="sxs-lookup"><span data-stu-id="287dc-131">12: True if the role can chat in an auditorium chat room.</span></span></p></li>
-<li><p><span data-ttu-id="287dc-132">13：如果角色在查看节点时可以绕过可见性规则，则为 True。</span><span class="sxs-lookup"><span data-stu-id="287dc-132">13: True if the role can bypass visibility rules when viewing nodes.</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-124">2：在角色可以管理节点时为 True。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-124">2: True if the role can manage nodes.</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-125">4：在角色可以创建子节点时为 True。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-125">4: True if the role can create children nodes.</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-126">7：在角色可以加入聊天室（或某类别的子聊天室）时为 True。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-126">7: True if the role can join a chat room (or children chat rooms of a category).</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-127">8：在角色可以在聊天室中（或某类别的子聊天室中）聊天时为 True。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-127">8: True if the role can chat in a chat room (or in children chat rooms of a category).</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-128">10：在角色即使不加入聊天室也可读取聊天历史记录时为 True。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-128">10: True if the role can read chat history even when not joined to a chat room.</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-p103">11：在角色可以看到聊天室时为 True。（该值可通过作用域和可见性等因素进一步优化。）</span><span class="sxs-lookup"><span data-stu-id="bf1a8-p103">11: True if the role can see the chat room. (This is further refined by factors such as scope and visibility.)</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-131">12：在角色可以在大会堂聊天室中聊天时为 True。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-131">12: True if the role can chat in an auditorium chat room.</span></span></p></li>
+<li><p><span data-ttu-id="bf1a8-132">13：在角色查看节点后可以绕过可见性规则时为 True。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-132">13: True if the role can bypass visibility rules when viewing nodes.</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="287dc-133">关键字</span><span class="sxs-lookup"><span data-stu-id="287dc-133">Key</span></span>
+### <a name="key"></a><span data-ttu-id="bf1a8-133">键</span><span class="sxs-lookup"><span data-stu-id="bf1a8-133">Key</span></span>
 
 <table>
 <colgroup>
@@ -99,14 +99,14 @@ ms.locfileid: "41731182"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="287dc-134">列</span><span class="sxs-lookup"><span data-stu-id="287dc-134">Column</span></span></th>
-<th><span data-ttu-id="287dc-135">说明</span><span class="sxs-lookup"><span data-stu-id="287dc-135">Description</span></span></th>
+<th><span data-ttu-id="bf1a8-134">列</span><span class="sxs-lookup"><span data-stu-id="bf1a8-134">Column</span></span></th>
+<th><span data-ttu-id="bf1a8-135">说明</span><span class="sxs-lookup"><span data-stu-id="bf1a8-135">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="287dc-136">rtypeID</span><span class="sxs-lookup"><span data-stu-id="287dc-136">rtypeID</span></span></p></td>
-<td><p><span data-ttu-id="287dc-137">主键。</span><span class="sxs-lookup"><span data-stu-id="287dc-137">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="bf1a8-136">rtypeID</span><span class="sxs-lookup"><span data-stu-id="bf1a8-136">rtypeID</span></span></p></td>
+<td><p><span data-ttu-id="bf1a8-137">主键。</span><span class="sxs-lookup"><span data-stu-id="bf1a8-137">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

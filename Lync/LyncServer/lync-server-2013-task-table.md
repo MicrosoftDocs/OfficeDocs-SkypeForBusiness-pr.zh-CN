@@ -12,20 +12,20 @@ ms:contentKeyID: 48185010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 564c310bade0e0ea30b94fbda8f992dccec90021
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 576fdc4304d87e9b9edec9cd55dc0e841b330b4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731592"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="task-table-in-lync-server-2013"></a><span data-ttu-id="fea8b-102">Lync Server 2013 中的任务表</span><span class="sxs-lookup"><span data-stu-id="fea8b-102">Task table in Lync Server 2013</span></span>
+# <a name="task-table-in-lync-server-2013"></a><span data-ttu-id="8e8e0-102">Lync Server 2013 中的任务表</span><span class="sxs-lookup"><span data-stu-id="8e8e0-102">Task table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731592"
 
 <span> </span>
 
-<span data-ttu-id="fea8b-103">_**主题上次修改时间：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="fea8b-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="8e8e0-103">_**上次修改的主题：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="8e8e0-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="fea8b-104">任务表仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="fea8b-104">The Task Table is for internal use only.</span></span> <span data-ttu-id="fea8b-105">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="fea8b-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="8e8e0-104">该任务表仅供内部使用。</span><span class="sxs-lookup"><span data-stu-id="8e8e0-104">The Task Table is for internal use only.</span></span> <span data-ttu-id="8e8e0-105">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="8e8e0-105">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 </div>
 

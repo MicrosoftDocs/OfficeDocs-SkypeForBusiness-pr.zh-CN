@@ -12,20 +12,20 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa234a4420c1bec54cd673eb59d254e07deab8f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766053"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="20b69-102">Lync Server 2013 中的会议配置设置</span><span class="sxs-lookup"><span data-stu-id="20b69-102">Meeting configuration settings in Lync Server 2013</span></span>
+# <a name="meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="4bdc4-102">Lync Server 2013 中的会议配置设置</span><span class="sxs-lookup"><span data-stu-id="4bdc4-102">Meeting configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41766053"
 
 <span> </span>
 
-<span data-ttu-id="20b69-103">_**主题上次修改时间：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="20b69-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="4bdc4-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="4bdc4-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="20b69-104">在 Lync Server 2013 中，会议策略定义用户的计划和参与体验，以及 "会议配置" 页面上的 "会议加入设置" 定义以下内容：</span><span class="sxs-lookup"><span data-stu-id="20b69-104">In Lync Server 2013, conferencing policy defines the user scheduling and participation experience, and meeting join settings located on the meeting configuration page define the following:</span></span>
+<span data-ttu-id="4bdc4-104">在 Lync Server 2013 中，会议策略定义了用户计划和参与体验，并且会议配置页上的 "会议加入设置" 定义了以下内容：</span><span class="sxs-lookup"><span data-stu-id="4bdc4-104">In Lync Server 2013, conferencing policy defines the user scheduling and participation experience, and meeting join settings located on the meeting configuration page define the following:</span></span>
 
-  - <span data-ttu-id="20b69-105">从公用电话交换网 (PSTN) 拨入的用户是否进入会议厅</span><span class="sxs-lookup"><span data-stu-id="20b69-105">Whether users dialing in from the public switched telephone network (PSTN) go to the lobby</span></span>
+  - <span data-ttu-id="4bdc4-105">从公用电话交换网 (PSTN) 拨入的用户是否进入会议厅</span><span class="sxs-lookup"><span data-stu-id="4bdc4-105">Whether users dialing in from the public switched telephone network (PSTN) go to the lobby</span></span>
 
-  - <span data-ttu-id="20b69-106">谁能成为演示者</span><span class="sxs-lookup"><span data-stu-id="20b69-106">Who can be a presenter</span></span>
+  - <span data-ttu-id="4bdc4-106">谁能成为演示者</span><span class="sxs-lookup"><span data-stu-id="4bdc4-106">Who can be a presenter</span></span>
 
-  - <span data-ttu-id="20b69-107">默认情况下是否分配会议类型</span><span class="sxs-lookup"><span data-stu-id="20b69-107">Whether conference type is assigned by default</span></span>
+  - <span data-ttu-id="4bdc4-107">默认情况下是否分配会议类型</span><span class="sxs-lookup"><span data-stu-id="4bdc4-107">Whether conference type is assigned by default</span></span>
 
-  - <span data-ttu-id="20b69-108">默认情况下是否允许匿名（未经身份验证）用户加入会议</span><span class="sxs-lookup"><span data-stu-id="20b69-108">Whether anonymous (unauthenticated) users are admitted by default</span></span>
+  - <span data-ttu-id="4bdc4-108">默认情况下是否允许匿名（未经身份验证）用户加入会议</span><span class="sxs-lookup"><span data-stu-id="4bdc4-108">Whether anonymous (unauthenticated) users are admitted by default</span></span>
 
-<span data-ttu-id="20b69-109">本部分中的主题介绍如何配置会议联接设置。</span><span class="sxs-lookup"><span data-stu-id="20b69-109">The topics in this section describe how to configure meeting join settings.</span></span>
+<span data-ttu-id="4bdc4-109">本节中的主题介绍如何配置与会设置。</span><span class="sxs-lookup"><span data-stu-id="4bdc4-109">The topics in this section describe how to configure meeting join settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="20b69-110">本节内容</span><span class="sxs-lookup"><span data-stu-id="20b69-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4bdc4-110">本部分内容</span><span class="sxs-lookup"><span data-stu-id="4bdc4-110">In This Section</span></span>
 
-  - [<span data-ttu-id="20b69-111">在 Lync Server 2013 中查看会议配置设置</span><span class="sxs-lookup"><span data-stu-id="20b69-111">View meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-view-meeting-configuration-settings.md)
+  - [<span data-ttu-id="4bdc4-111">在 Lync Server 2013 中查看会议配置设置</span><span class="sxs-lookup"><span data-stu-id="4bdc4-111">View meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-view-meeting-configuration-settings.md)
 
-  - [<span data-ttu-id="20b69-112">在 Lync Server 2013 中创建或修改会议配置设置的集合</span><span class="sxs-lookup"><span data-stu-id="20b69-112">Create or modify a collection of meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
+  - [<span data-ttu-id="4bdc4-112">在 Lync Server 2013 中创建或修改会议配置设置的集合</span><span class="sxs-lookup"><span data-stu-id="4bdc4-112">Create or modify a collection of meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
 
-  - [<span data-ttu-id="20b69-113">删除 Lync Server 2013 中现有的会议配置设置集合</span><span class="sxs-lookup"><span data-stu-id="20b69-113">Delete an existing collection of meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
+  - [<span data-ttu-id="4bdc4-113">删除 Lync Server 2013 中现有的会议配置设置集合</span><span class="sxs-lookup"><span data-stu-id="4bdc4-113">Delete an existing collection of meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblPrincipalInvites
+title: Lync Server 2013： tblPrincipalInvites
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75d842772c8c0e02352eacf7f80711aa79c29461
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4316e86d29013587b2302d18a840a4a1859f9ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731522"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalinvites-in-lync-server-2013"></a><span data-ttu-id="dae55-102">Lync Server 2013 中的 tblPrincipalInvites</span><span class="sxs-lookup"><span data-stu-id="dae55-102">tblPrincipalInvites in Lync Server 2013</span></span>
+# <a name="tblprincipalinvites-in-lync-server-2013"></a><span data-ttu-id="77cf1-102">Lync Server 2013 中的 tblPrincipalInvites</span><span class="sxs-lookup"><span data-stu-id="77cf1-102">tblPrincipalInvites in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41731522"
 
 <span> </span>
 
-<span data-ttu-id="dae55-103">_**主题上次修改时间：** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="dae55-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="77cf1-103">_**上次修改的主题：** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="77cf1-103">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="dae55-104">tblPrincipalInvites 包含所有已预配用户的带有自动邀请的所有节点的邀请。</span><span class="sxs-lookup"><span data-stu-id="dae55-104">tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on.</span></span>
+<span data-ttu-id="77cf1-104">tblPrincipalInvites 包含打开自动邀请的所有节点的所有已设置用户的邀请。</span><span class="sxs-lookup"><span data-stu-id="77cf1-104">tblPrincipalInvites contains invitations for all provisioned users for all nodes with auto-invite on.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="dae55-105">多</span><span class="sxs-lookup"><span data-stu-id="dae55-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="77cf1-105">Columns</span><span class="sxs-lookup"><span data-stu-id="77cf1-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ ms.locfileid: "41731522"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dae55-106">列</span><span class="sxs-lookup"><span data-stu-id="dae55-106">Column</span></span></th>
-<th><span data-ttu-id="dae55-107">类型</span><span class="sxs-lookup"><span data-stu-id="dae55-107">Type</span></span></th>
-<th><span data-ttu-id="dae55-108">说明</span><span class="sxs-lookup"><span data-stu-id="dae55-108">Description</span></span></th>
+<th><span data-ttu-id="77cf1-106">列</span><span class="sxs-lookup"><span data-stu-id="77cf1-106">Column</span></span></th>
+<th><span data-ttu-id="77cf1-107">类型</span><span class="sxs-lookup"><span data-stu-id="77cf1-107">Type</span></span></th>
+<th><span data-ttu-id="77cf1-108">说明</span><span class="sxs-lookup"><span data-stu-id="77cf1-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dae55-109">prinID</span><span class="sxs-lookup"><span data-stu-id="dae55-109">prinID</span></span></p></td>
-<td><p><span data-ttu-id="dae55-110">int，not null</span><span class="sxs-lookup"><span data-stu-id="dae55-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="dae55-111">主体 ID。</span><span class="sxs-lookup"><span data-stu-id="dae55-111">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-109">prinID</span><span class="sxs-lookup"><span data-stu-id="77cf1-109">prinID</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-110">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="77cf1-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-111">主体 ID。</span><span class="sxs-lookup"><span data-stu-id="77cf1-111">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dae55-112">invID</span><span class="sxs-lookup"><span data-stu-id="dae55-112">invID</span></span></p></td>
-<td><p><span data-ttu-id="dae55-113">int，not null</span><span class="sxs-lookup"><span data-stu-id="dae55-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="dae55-114">从 tblLastInviteId 表生成的唯一序列号（每个主体 ID）。</span><span class="sxs-lookup"><span data-stu-id="dae55-114">Unique sequential number (per principal ID) generated from tblLastInviteId table.</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-112">invID</span><span class="sxs-lookup"><span data-stu-id="77cf1-112">invID</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-113">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="77cf1-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-114">从 tblLastInviteId 表中生成的唯一连续数字（每个主体 ID）。</span><span class="sxs-lookup"><span data-stu-id="77cf1-114">Unique sequential number (per principal ID) generated from tblLastInviteId table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dae55-115">a</span><span class="sxs-lookup"><span data-stu-id="dae55-115">nodeID</span></span></p></td>
-<td><p><span data-ttu-id="dae55-116">int，not null</span><span class="sxs-lookup"><span data-stu-id="dae55-116">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="dae55-117">节点 ID （仅聊天室）。</span><span class="sxs-lookup"><span data-stu-id="dae55-117">Node ID (chat room only).</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-115">个</span><span class="sxs-lookup"><span data-stu-id="77cf1-115">nodeID</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-116">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="77cf1-116">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-117">节点 ID（仅聊天室）。</span><span class="sxs-lookup"><span data-stu-id="77cf1-117">Node ID (chat room only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dae55-118">createdOn</span><span class="sxs-lookup"><span data-stu-id="dae55-118">createdOn</span></span></p></td>
-<td><p><span data-ttu-id="dae55-119">datetime，not null</span><span class="sxs-lookup"><span data-stu-id="dae55-119">datetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="dae55-120">创建时间。</span><span class="sxs-lookup"><span data-stu-id="dae55-120">Time of creation.</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-118">createdOn</span><span class="sxs-lookup"><span data-stu-id="77cf1-118">createdOn</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-119">datetime，不为 null</span><span class="sxs-lookup"><span data-stu-id="77cf1-119">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-120">创建的时间。</span><span class="sxs-lookup"><span data-stu-id="77cf1-120">Time of creation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="dae55-121">标示</span><span class="sxs-lookup"><span data-stu-id="dae55-121">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="77cf1-121">Keys</span><span class="sxs-lookup"><span data-stu-id="77cf1-121">Keys</span></span>
 
 <table>
 <colgroup>
@@ -88,22 +88,22 @@ ms.locfileid: "41731522"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dae55-122">列</span><span class="sxs-lookup"><span data-stu-id="dae55-122">Column</span></span></th>
-<th><span data-ttu-id="dae55-123">说明</span><span class="sxs-lookup"><span data-stu-id="dae55-123">Description</span></span></th>
+<th><span data-ttu-id="77cf1-122">列</span><span class="sxs-lookup"><span data-stu-id="77cf1-122">Column</span></span></th>
+<th><span data-ttu-id="77cf1-123">说明</span><span class="sxs-lookup"><span data-stu-id="77cf1-123">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dae55-124">&lt;prinID、&gt;</span><span class="sxs-lookup"><span data-stu-id="dae55-124">&lt;prinID, nodeID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="dae55-125">主键。</span><span class="sxs-lookup"><span data-stu-id="dae55-125">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-124">&lt;prinID、&gt;</span><span class="sxs-lookup"><span data-stu-id="77cf1-124">&lt;prinID, nodeID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-125">主键。</span><span class="sxs-lookup"><span data-stu-id="77cf1-125">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dae55-126">prinID</span><span class="sxs-lookup"><span data-stu-id="dae55-126">prinID</span></span></p></td>
-<td><p><span data-ttu-id="dae55-127">TblPrincipal 表中的 lookup 的外键。</span><span class="sxs-lookup"><span data-stu-id="dae55-127">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-126">prinID</span><span class="sxs-lookup"><span data-stu-id="77cf1-126">prinID</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-127">其查找包含在 tblPrincipal.prinID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="77cf1-127">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dae55-128">a</span><span class="sxs-lookup"><span data-stu-id="dae55-128">nodeID</span></span></p></td>
-<td><p><span data-ttu-id="dae55-129">带有 tblNode 表中的 lookup 的外键。</span><span class="sxs-lookup"><span data-stu-id="dae55-129">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-128">个</span><span class="sxs-lookup"><span data-stu-id="77cf1-128">nodeID</span></span></p></td>
+<td><p><span data-ttu-id="77cf1-129">其查找包含在 tblNode.nodeID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="77cf1-129">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

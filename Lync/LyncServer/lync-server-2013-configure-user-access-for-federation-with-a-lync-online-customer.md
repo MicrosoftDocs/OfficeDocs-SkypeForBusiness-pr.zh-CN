@@ -1,5 +1,5 @@
 ---
-title: 为与 Lync Online 客户的联盟配置用户访问权限
+title: 为具有 Lync Online 客户的联盟配置用户访问权限
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d83ea228d7cf9a6354117d62dc92c6fcbc55ac56
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 36ae5b7a17dc29e8e920ed7d5f5b023c92c245f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733813"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="5685a-102">在 Lync Server 2013 中配置与 Lync Online 客户的联盟的用户访问权限</span><span class="sxs-lookup"><span data-stu-id="5685a-102">Configure user access for federation with a Lync Online customer in Lync Server 2013</span></span>
+# <a name="configure-user-access-for-federation-with-a-lync-online-customer-in-lync-server-2013"></a><span data-ttu-id="f246f-102">在 Lync Server 2013 中为具有 Lync Online 客户的联盟配置用户访问权限</span><span class="sxs-lookup"><span data-stu-id="f246f-102">Configure user access for federation with a Lync Online customer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733813"
 
 <span> </span>
 
-<span data-ttu-id="5685a-103">_**主题上次修改时间：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="5685a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="f246f-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f246f-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="5685a-104">您必须配置组织中所有用户的用户帐户，以便允许他们与联盟伙伴通信。</span><span class="sxs-lookup"><span data-stu-id="5685a-104">You must configure the user accounts of all the users in your organization in order for them be allowed to communicate with federated partners.</span></span> <span data-ttu-id="5685a-105">此配置适用于所有联盟合作伙伴，包括您支持联合的任何 Microsoft Lync Online 2010 客户域。</span><span class="sxs-lookup"><span data-stu-id="5685a-105">This configuration is applied for all federated partners, including any Microsoft Lync Online 2010 customer domains with which you support federation.</span></span> <span data-ttu-id="5685a-106">有关为用户帐户配置联合身份验证支持的详细信息，请参阅在[Lync server 2013 中配置用于控制联盟用户访问的策略](lync-server-2013-configure-policies-to-control-federated-user-access.md)，并在操作文档中[将外部用户访问策略分配给 lync Server 2013 中的 lync 启用用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。</span><span class="sxs-lookup"><span data-stu-id="5685a-106">For details about configuring federation support for user accounts, see [Configure policies to control federated user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) and [Assign an external user access policy to a Lync enabled user in Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) in the Operations documentation.</span></span>
+<span data-ttu-id="f246f-104">您必须对组织中所有用户的用户帐户进行配置，以便其能够与联盟伙伴进行通信。</span><span class="sxs-lookup"><span data-stu-id="f246f-104">You must configure the user accounts of all the users in your organization in order for them be allowed to communicate with federated partners.</span></span> <span data-ttu-id="f246f-105">此配置适用于所有联盟伙伴，包括您支持联合的任何 Microsoft Lync Online 2010 客户域。</span><span class="sxs-lookup"><span data-stu-id="f246f-105">This configuration is applied for all federated partners, including any Microsoft Lync Online 2010 customer domains with which you support federation.</span></span> <span data-ttu-id="f246f-106">有关为用户帐户配置联合身份验证支持的详细信息，请参阅操作文档中的[配置策略以控制 Lync server 2013 中的联合用户访问](lync-server-2013-configure-policies-to-control-federated-user-access.md)和[将外部用户访问策略分配给 lync server 2013 中启用 lync 的用户](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)。</span><span class="sxs-lookup"><span data-stu-id="f246f-106">For details about configuring federation support for user accounts, see [Configure policies to control federated user access in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md) and [Assign an external user access policy to a Lync enabled user in Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md) in the Operations documentation.</span></span>
 
 </div>
 

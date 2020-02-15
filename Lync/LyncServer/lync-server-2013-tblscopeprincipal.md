@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblScopePrincipal
+title: Lync Server 2013： tblScopePrincipal
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72c6f15b2f0a219871436fe4451984abfddc947a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab3faccea0ba914ca17c9aefcd0ea112e5b58a96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764072"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblscopeprincipal-in-lync-server-2013"></a><span data-ttu-id="d160b-102">Lync Server 2013 中的 tblScopePrincipal</span><span class="sxs-lookup"><span data-stu-id="d160b-102">tblScopePrincipal in Lync Server 2013</span></span>
+# <a name="tblscopeprincipal-in-lync-server-2013"></a><span data-ttu-id="ee9f9-102">Lync Server 2013 中的 tblScopePrincipal</span><span class="sxs-lookup"><span data-stu-id="ee9f9-102">tblScopePrincipal in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764072"
 
 <span> </span>
 
-<span data-ttu-id="d160b-103">_**主题上次修改时间：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="d160b-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="ee9f9-103">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="ee9f9-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="d160b-104">tblScopePrincipal 包含分配给节点的作用域。</span><span class="sxs-lookup"><span data-stu-id="d160b-104">tblScopePrincipal contains scopes assigned to nodes.</span></span>
+<span data-ttu-id="ee9f9-104">tblScopePrincipal 包含分配至节点的作用域。</span><span class="sxs-lookup"><span data-stu-id="ee9f9-104">tblScopePrincipal contains scopes assigned to nodes.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="d160b-105">多</span><span class="sxs-lookup"><span data-stu-id="d160b-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="ee9f9-105">Columns</span><span class="sxs-lookup"><span data-stu-id="ee9f9-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,37 +49,37 @@ ms.locfileid: "41764072"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d160b-106">列</span><span class="sxs-lookup"><span data-stu-id="d160b-106">Column</span></span></th>
-<th><span data-ttu-id="d160b-107">类型</span><span class="sxs-lookup"><span data-stu-id="d160b-107">Type</span></span></th>
-<th><span data-ttu-id="d160b-108">说明</span><span class="sxs-lookup"><span data-stu-id="d160b-108">Description</span></span></th>
+<th><span data-ttu-id="ee9f9-106">列</span><span class="sxs-lookup"><span data-stu-id="ee9f9-106">Column</span></span></th>
+<th><span data-ttu-id="ee9f9-107">类型</span><span class="sxs-lookup"><span data-stu-id="ee9f9-107">Type</span></span></th>
+<th><span data-ttu-id="ee9f9-108">说明</span><span class="sxs-lookup"><span data-stu-id="ee9f9-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d160b-109">scopeNodeID</span><span class="sxs-lookup"><span data-stu-id="d160b-109">scopeNodeID</span></span></p></td>
-<td><p><span data-ttu-id="d160b-110">int，not null</span><span class="sxs-lookup"><span data-stu-id="d160b-110">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="d160b-111">作用域所适用的节点 ID。</span><span class="sxs-lookup"><span data-stu-id="d160b-111">Node ID that the scope applies to.</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-109">scopeNodeID</span><span class="sxs-lookup"><span data-stu-id="ee9f9-109">scopeNodeID</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-110">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="ee9f9-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-111">作用域适用的节点 ID。</span><span class="sxs-lookup"><span data-stu-id="ee9f9-111">Node ID that the scope applies to.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d160b-112">scopePrinID</span><span class="sxs-lookup"><span data-stu-id="d160b-112">scopePrinID</span></span></p></td>
-<td><p><span data-ttu-id="d160b-113">int，not null</span><span class="sxs-lookup"><span data-stu-id="d160b-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="d160b-114">主体 ID。</span><span class="sxs-lookup"><span data-stu-id="d160b-114">Principal ID.</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-112">scopePrinID</span><span class="sxs-lookup"><span data-stu-id="ee9f9-112">scopePrinID</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-113">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="ee9f9-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-114">主体 ID。</span><span class="sxs-lookup"><span data-stu-id="ee9f9-114">Principal ID.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d160b-115">scopeIsDenied</span><span class="sxs-lookup"><span data-stu-id="d160b-115">scopeIsDenied</span></span></p></td>
-<td><p><span data-ttu-id="d160b-116">位，not null</span><span class="sxs-lookup"><span data-stu-id="d160b-116">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="d160b-117">如果范围的类型为 "拒绝"，则为 True;如果允许，则为 False。</span><span class="sxs-lookup"><span data-stu-id="d160b-117">True if type of scope is Deny; False if Allow.</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-115">scopeIsDenied</span><span class="sxs-lookup"><span data-stu-id="ee9f9-115">scopeIsDenied</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-116">bit，不为 null</span><span class="sxs-lookup"><span data-stu-id="ee9f9-116">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-117">如果作用域的类型为 Deny，则为 True；如果作用域的类型为 Allow，则为 False。</span><span class="sxs-lookup"><span data-stu-id="ee9f9-117">True if type of scope is Deny; False if Allow.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d160b-118">scopeUpdatedBy</span><span class="sxs-lookup"><span data-stu-id="d160b-118">scopeUpdatedBy</span></span></p></td>
-<td><p><span data-ttu-id="d160b-119">int，not null</span><span class="sxs-lookup"><span data-stu-id="d160b-119">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="d160b-120">上次更新此条目的主体的 ID。</span><span class="sxs-lookup"><span data-stu-id="d160b-120">ID of the principal that last updated this entry.</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-118">scopeUpdatedBy</span><span class="sxs-lookup"><span data-stu-id="ee9f9-118">scopeUpdatedBy</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-119">int, 不为 null</span><span class="sxs-lookup"><span data-stu-id="ee9f9-119">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-120">上次更新此项的主体的 ID。</span><span class="sxs-lookup"><span data-stu-id="ee9f9-120">ID of the principal that last updated this entry.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a><span data-ttu-id="d160b-121">标示</span><span class="sxs-lookup"><span data-stu-id="d160b-121">Keys</span></span>
+### <a name="keys"></a><span data-ttu-id="ee9f9-121">Keys</span><span class="sxs-lookup"><span data-stu-id="ee9f9-121">Keys</span></span>
 
 <table>
 <colgroup>
@@ -88,22 +88,22 @@ ms.locfileid: "41764072"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d160b-122">列</span><span class="sxs-lookup"><span data-stu-id="d160b-122">Column</span></span></th>
-<th><span data-ttu-id="d160b-123">说明</span><span class="sxs-lookup"><span data-stu-id="d160b-123">Description</span></span></th>
+<th><span data-ttu-id="ee9f9-122">列</span><span class="sxs-lookup"><span data-stu-id="ee9f9-122">Column</span></span></th>
+<th><span data-ttu-id="ee9f9-123">说明</span><span class="sxs-lookup"><span data-stu-id="ee9f9-123">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d160b-124">&lt;scopeNodeID, scopePrinID&gt;</span><span class="sxs-lookup"><span data-stu-id="d160b-124">&lt;scopeNodeID, scopePrinID&gt;</span></span></p></td>
-<td><p><span data-ttu-id="d160b-125">主键。</span><span class="sxs-lookup"><span data-stu-id="d160b-125">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-124">&lt;scopeNodeID, scopePrinID&gt;</span><span class="sxs-lookup"><span data-stu-id="ee9f9-124">&lt;scopeNodeID, scopePrinID&gt;</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-125">主键。</span><span class="sxs-lookup"><span data-stu-id="ee9f9-125">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d160b-126">scopeNodeID</span><span class="sxs-lookup"><span data-stu-id="d160b-126">scopeNodeID</span></span></p></td>
-<td><p><span data-ttu-id="d160b-127">带有 tblNode 表中的 lookup 的外键。</span><span class="sxs-lookup"><span data-stu-id="d160b-127">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-126">scopeNodeID</span><span class="sxs-lookup"><span data-stu-id="ee9f9-126">scopeNodeID</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-127">其查找包含在 tblNode.nodeID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="ee9f9-127">Foreign key with lookup in tblNode.nodeID table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d160b-128">scopePrinID</span><span class="sxs-lookup"><span data-stu-id="d160b-128">scopePrinID</span></span></p></td>
-<td><p><span data-ttu-id="d160b-129">TblPrincipal 表中的 lookup 的外键。</span><span class="sxs-lookup"><span data-stu-id="d160b-129">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-128">scopePrinID</span><span class="sxs-lookup"><span data-stu-id="ee9f9-128">scopePrinID</span></span></p></td>
+<td><p><span data-ttu-id="ee9f9-129">其查找包含在 tblPrincipal.prinID 表中的外键。</span><span class="sxs-lookup"><span data-stu-id="ee9f9-129">Foreign key with lookup in tblPrincipal.prinID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>

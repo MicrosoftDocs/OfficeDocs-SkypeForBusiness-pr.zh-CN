@@ -12,20 +12,20 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 554b493ba7ca837a8ea5c80f6751ddb91061c374
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8532b15ac45033d966c772e6ab23403d709ed790
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726692"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045674"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="checking-disk-usage-in-lync-server-2013"></a><span data-ttu-id="5d2ae-102">在 Lync Server 2013 中检查磁盘使用情况</span><span class="sxs-lookup"><span data-stu-id="5d2ae-102">Checking disk usage in Lync Server 2013</span></span>
+# <a name="checking-disk-usage-in-lync-server-2013"></a><span data-ttu-id="c2909-102">在 Lync Server 2013 中检查磁盘使用率</span><span class="sxs-lookup"><span data-stu-id="c2909-102">Checking disk usage in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41726692"
 
 <span> </span>
 
-<span data-ttu-id="5d2ae-103">_**主题上次修改时间：** 2014-04-30_</span><span class="sxs-lookup"><span data-stu-id="5d2ae-103">_**Topic Last Modified:** 2014-04-30_</span></span>
+<span data-ttu-id="c2909-103">_**上次修改的主题：** 2014-04-30_</span><span class="sxs-lookup"><span data-stu-id="c2909-103">_**Topic Last Modified:** 2014-04-30_</span></span>
 
-<span data-ttu-id="5d2ae-104">硬盘驱动器是 Lync Server 2013 部署的重要组件。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-104">Hard disks drives are an important component of the Lync Server 2013 deployment.</span></span> <span data-ttu-id="5d2ae-105">如果没有足够的可用磁盘卷，操作系统和 Lync Server 2013 数据库都不能正常运行。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-105">Without sufficient free disk volume, neither the operating system nor the Lync Server 2013 databases can function correctly.</span></span> <span data-ttu-id="5d2ae-106">您必须每天监视 Lync Server 2013 后端数据库统计信息，以确保服务器不会用尽磁盘空间，并准备根据需要添加存储资源。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-106">You must monitor the Lync Server 2013 back-end database statistics daily to help to make sure that servers do not run out of disk space, and to prepare to add storage resources as required.</span></span>
+<span data-ttu-id="c2909-104">硬盘是 Lync Server 2013 部署的重要组件。</span><span class="sxs-lookup"><span data-stu-id="c2909-104">Hard disks drives are an important component of the Lync Server 2013 deployment.</span></span> <span data-ttu-id="c2909-105">如果没有足够的可用磁盘卷，操作系统和 Lync Server 2013 数据库都不能正常运行。</span><span class="sxs-lookup"><span data-stu-id="c2909-105">Without sufficient free disk volume, neither the operating system nor the Lync Server 2013 databases can function correctly.</span></span> <span data-ttu-id="c2909-106">您必须每天监视 Lync Server 2013 后端数据库统计信息，以帮助确保服务器不会用尽磁盘空间，并准备好根据需要添加存储资源。</span><span class="sxs-lookup"><span data-stu-id="c2909-106">You must monitor the Lync Server 2013 back-end database statistics daily to help to make sure that servers do not run out of disk space, and to prepare to add storage resources as required.</span></span>
 
-<span data-ttu-id="5d2ae-107">除了检查托管操作系统、程序文件、数据库和事务日志的磁盘空间（Lync Server 2013 后端），还应监视文件系统的使用情况，其中包括包含以下重要内容的文件共享的磁盘空间数据</span><span class="sxs-lookup"><span data-stu-id="5d2ae-107">Apart from checking space on disks hosting the operating system, program files, database, and transaction logs (Lync Server 2013 Back End), you should also monitor usage of the file system that includes disk space for file shares that contain the following important data:</span></span>
+<span data-ttu-id="c2909-107">除了检查承载操作系统、程序文件、数据库和事务日志的磁盘空间（Lync Server 2013 后端）之外，还应监视文件系统的使用情况，其中包括包含以下重要项的文件共享的磁盘空间数据</span><span class="sxs-lookup"><span data-stu-id="c2909-107">Apart from checking space on disks hosting the operating system, program files, database, and transaction logs (Lync Server 2013 Back End), you should also monitor usage of the file system that includes disk space for file shares that contain the following important data:</span></span>
 
-  - <span data-ttu-id="5d2ae-108">会议内容</span><span class="sxs-lookup"><span data-stu-id="5d2ae-108">Meeting content</span></span>
+  - <span data-ttu-id="c2909-108">会议内容</span><span class="sxs-lookup"><span data-stu-id="c2909-108">Meeting content</span></span>
 
-  - <span data-ttu-id="5d2ae-109">会议内容元数据</span><span class="sxs-lookup"><span data-stu-id="5d2ae-109">Meeting content metadata</span></span>
+  - <span data-ttu-id="c2909-109">会议内容元数据</span><span class="sxs-lookup"><span data-stu-id="c2909-109">Meeting content metadata</span></span>
 
-  - <span data-ttu-id="5d2ae-110">会议合规性日志</span><span class="sxs-lookup"><span data-stu-id="5d2ae-110">Meeting compliance logs</span></span>
+  - <span data-ttu-id="c2909-110">会议合规性日志</span><span class="sxs-lookup"><span data-stu-id="c2909-110">Meeting compliance logs</span></span>
 
-  - <span data-ttu-id="5d2ae-111">应用程序数据文件（由应用程序服务器组件内部使用）</span><span class="sxs-lookup"><span data-stu-id="5d2ae-111">Application data files (used internally by the application server component)</span></span>
+  - <span data-ttu-id="c2909-111">应用程序数据文件（由应用程序服务器组件在内部使用）</span><span class="sxs-lookup"><span data-stu-id="c2909-111">Application data files (used internally by the application server component)</span></span>
 
-  - <span data-ttu-id="5d2ae-112">群组聊天服务器 web 服务和合规性文件夹（用于存储上载到群组聊天 web 服务的文件）</span><span class="sxs-lookup"><span data-stu-id="5d2ae-112">Group Chat Server web service and compliance folders (to store files uploaded to the Group Chat web service)</span></span>
+  - <span data-ttu-id="c2909-112">组聊天服务器 web 服务和合规性文件夹（用于存储上载到组聊天 web 服务的文件）</span><span class="sxs-lookup"><span data-stu-id="c2909-112">Group Chat Server web service and compliance folders (to store files uploaded to the Group Chat web service)</span></span>
 
-  - <span data-ttu-id="5d2ae-113">群组聊天合规性 XML 文件（其中包含群组聊天合规性记录）</span><span class="sxs-lookup"><span data-stu-id="5d2ae-113">Group Chat compliance XML files (that contain Group Chat compliance records)</span></span>
+  - <span data-ttu-id="c2909-113">Group Chat 合规性 XML 文件（包含组聊天合规性记录）</span><span class="sxs-lookup"><span data-stu-id="c2909-113">Group Chat compliance XML files (that contain Group Chat compliance records)</span></span>
 
-  - <span data-ttu-id="5d2ae-114">更新文件（适用于设备更新服务）</span><span class="sxs-lookup"><span data-stu-id="5d2ae-114">Update files (for Device Update Service)</span></span>
+  - <span data-ttu-id="c2909-114">更新文件（适用于设备更新服务）</span><span class="sxs-lookup"><span data-stu-id="c2909-114">Update files (for Device Update Service)</span></span>
 
-  - <span data-ttu-id="5d2ae-115">通讯簿文件</span><span class="sxs-lookup"><span data-stu-id="5d2ae-115">Address Book files</span></span>
+  - <span data-ttu-id="c2909-115">通讯簿文件</span><span class="sxs-lookup"><span data-stu-id="c2909-115">Address Book files</span></span>
 
-<span data-ttu-id="5d2ae-116">除了以前列出的文件共享上的文件之外，Lync Server 2013 还需要硬盘空间来存储其数据库和事务日志。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-116">Lync Server 2013 needs hard disk space to store its databases and transaction logs in addition to files on file shares previously listed.</span></span>
+<span data-ttu-id="c2909-116">Lync Server 2013 需要硬盘空间来存储其数据库和事务日志，以及以前列出的文件共享上的文件。</span><span class="sxs-lookup"><span data-stu-id="c2909-116">Lync Server 2013 needs hard disk space to store its databases and transaction logs in addition to files on file shares previously listed.</span></span>
 
-<span data-ttu-id="5d2ae-117">应定期监视磁盘空间，以帮助确保 Lync Server 2013 部署不会因存储资源不足而受到负面影响。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-117">You should monitor the disk space regularly to help to make sure that the Lync Server 2013 deployment is not adversely affected because of insufficient storage resources.</span></span>
+<span data-ttu-id="c2909-117">应定期监视磁盘空间，以帮助确保由于存储资源不足，Lync Server 2013 部署不会产生负面影响。</span><span class="sxs-lookup"><span data-stu-id="c2909-117">You should monitor the disk space regularly to help to make sure that the Lync Server 2013 deployment is not adversely affected because of insufficient storage resources.</span></span>
 
-<span data-ttu-id="5d2ae-118">比较和维护每个 Lync Server 2013 卷上的可用磁盘空间以及数据库和事务日志文件预计增长的统计信息。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-118">Compare and maintain statistical information about available disk space on each Lync Server 2013 volume and expected growth of the databases and transaction log files.</span></span> <span data-ttu-id="5d2ae-119">这有助于在存储资源需要时进行容量规划和添加存储。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-119">This helps with capacity planning and adding storage when the storage resources are required.</span></span>
+<span data-ttu-id="c2909-118">比较并维护每个 Lync Server 2013 卷上的可用磁盘空间的统计信息，以及数据库和事务日志文件的预期增长。</span><span class="sxs-lookup"><span data-stu-id="c2909-118">Compare and maintain statistical information about available disk space on each Lync Server 2013 volume and expected growth of the databases and transaction log files.</span></span> <span data-ttu-id="c2909-119">这有助于在存储资源需要时进行容量规划和添加存储。</span><span class="sxs-lookup"><span data-stu-id="c2909-119">This helps with capacity planning and adding storage when the storage resources are required.</span></span>
 
-<span data-ttu-id="5d2ae-120">为了适应故障排除和灾难恢复情况，我们建议可用的可用卷空间等于或大于数据库大小的110%。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-120">To accommodate troubleshooting and disaster recovery situations, we recommend that available free volume space be equal or greater than 110 percent of the size of database.</span></span>
+<span data-ttu-id="c2909-120">为了适应故障排除和灾难恢复情况，我们建议可用的可用卷空间等于或大于数据库大小的110%。</span><span class="sxs-lookup"><span data-stu-id="c2909-120">To accommodate troubleshooting and disaster recovery situations, we recommend that available free volume space be equal or greater than 110 percent of the size of database.</span></span>
 
-<span data-ttu-id="5d2ae-121">你可以使用以下方法检查可用磁盘空间：</span><span class="sxs-lookup"><span data-stu-id="5d2ae-121">You can check free disk space by using the following methods:</span></span>
+<span data-ttu-id="c2909-121">您可以使用以下方法检查可用磁盘空间：</span><span class="sxs-lookup"><span data-stu-id="c2909-121">You can check free disk space by using the following methods:</span></span>
 
-1.  <span data-ttu-id="5d2ae-122">\*\*\*\*   当卷空间受到限制时，可以使用 system center operations manager system center operations manager 向管理员发出警告。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-122">**System Center Operations Manager**   System Center Operations Manager can be used to warn administrators when volume space is constrained.</span></span>
+1.  <span data-ttu-id="c2909-122">\*\*\*\*   当卷空间受到限制时，可以使用 system center operations manager system center operations manager 向管理员发出警告。</span><span class="sxs-lookup"><span data-stu-id="c2909-122">**System Center Operations Manager**   System Center Operations Manager can be used to warn administrators when volume space is constrained.</span></span>
 
-2.  <span data-ttu-id="5d2ae-123">\*\*\*\*   通过运行脚本（如果可用硬盘空间低于20%），运行脚本监视磁盘空间。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-123">**Running a script**   Monitor disk space by running a script that sends you a message if the available hard disk space falls below 20 percent.</span></span> <span data-ttu-id="5d2ae-124">您可以在 TechNet 上的 Microsoft 脚本中心找到一个示例脚本，请检查：[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)</span><span class="sxs-lookup"><span data-stu-id="5d2ae-124">You can find a sample script on Microsoft Script Center on TechNet, examine: [http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)</span></span>
+2.  <span data-ttu-id="c2909-123">\*\*\*\*   如果可用硬盘空间低于20%，则运行脚本以运行脚本来监视磁盘空间。</span><span class="sxs-lookup"><span data-stu-id="c2909-123">**Running a script**   Monitor disk space by running a script that sends you a message if the available hard disk space falls below 20 percent.</span></span> <span data-ttu-id="c2909-124">你可以在 TechNet 上的 Microsoft 脚本中心找到一个示例脚本，请检查以下内容：[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)</span><span class="sxs-lookup"><span data-stu-id="c2909-124">You can find a sample script on Microsoft Script Center on TechNet, examine: [http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)</span></span>
 
-3.  <span data-ttu-id="5d2ae-125">**Windows 资源管理器**   使用 windows 资源管理器检查存储 Lync Server 2013 日志和数据库的卷上的磁盘空间。</span><span class="sxs-lookup"><span data-stu-id="5d2ae-125">**Windows Explorer**   Use Windows Explorer to check for disk space on volumes that store Lync Server 2013 logs and databases.</span></span>
+3.  <span data-ttu-id="c2909-125">**Windows 资源管理器**   使用 windows 资源管理器检查存储 Lync Server 2013 日志和数据库的卷上的磁盘空间。</span><span class="sxs-lookup"><span data-stu-id="c2909-125">**Windows Explorer**   Use Windows Explorer to check for disk space on volumes that store Lync Server 2013 logs and databases.</span></span>
 
 </div>
 

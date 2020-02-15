@@ -12,20 +12,20 @@ ms:contentKeyID: 63369406
 ms.date: 11/12/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 937af764342def5e4d3923cfb82e771e31fe9aa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1352b228a6c4292beba4b4ebb19b787111d1379b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730542"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="updates-for-lync-2013-client-and-lync-server-2013"></a><span data-ttu-id="6e2fa-102">Lync 2013 客户端和 Lync Server 2013 的更新</span><span class="sxs-lookup"><span data-stu-id="6e2fa-102">Updates for Lync 2013 client and Lync Server 2013</span></span>
+# <a name="updates-for-lync-2013-client-and-lync-server-2013"></a><span data-ttu-id="75722-102">Lync 2013 客户端和 Lync Server 2013 更新</span><span class="sxs-lookup"><span data-stu-id="75722-102">Updates for Lync 2013 client and Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41730542"
 
 <span> </span>
 
-<span data-ttu-id="6e2fa-103">_**主题上次修改时间：** 2014-11-12_</span><span class="sxs-lookup"><span data-stu-id="6e2fa-103">_**Topic Last Modified:** 2014-11-12_</span></span>
+<span data-ttu-id="75722-103">_**上次修改的主题：** 2014-11-12_</span><span class="sxs-lookup"><span data-stu-id="75722-103">_**Topic Last Modified:** 2014-11-12_</span></span>
 
-<span data-ttu-id="6e2fa-104">若要确保你拥有最新版本的 Lync 客户端，请查看此经常更新的 Microsoft Lync 2013 的所有客户端发布版本列表。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-104">To ensure that you have the latest version of Lync client, check out this frequently updated list of all client release versions for Microsoft Lync 2013.</span></span>
+<span data-ttu-id="75722-104">若要确保您拥有最新版本的 Lync 客户端，请查看此频繁更新的 Microsoft Lync 2013 的所有客户端发布版本的列表。</span><span class="sxs-lookup"><span data-stu-id="75722-104">To ensure that you have the latest version of Lync client, check out this frequently updated list of all client release versions for Microsoft Lync 2013.</span></span>
 
 <div>
 
-## <a name="determining-your-lync-desktop-client-version"></a><span data-ttu-id="6e2fa-105">确定 Lync 桌面客户端版本</span><span class="sxs-lookup"><span data-stu-id="6e2fa-105">Determining your Lync desktop client version</span></span>
+## <a name="determining-your-lync-desktop-client-version"></a><span data-ttu-id="75722-105">确定你的 Lync 桌面客户端版本</span><span class="sxs-lookup"><span data-stu-id="75722-105">Determining your Lync desktop client version</span></span>
 
-<span data-ttu-id="6e2fa-106">要了解你使用的是哪个版本的 Lync 桌面客户端，请通过单击 "选项" 图标打开 "**关于 lync** " 对话框。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-106">To find out which version of Lync desktop client you are using, open the **About Lync** dialog by clicking the options icon.</span></span> <span data-ttu-id="6e2fa-107">在 "**选项**" 菜单上，选择 "**帮助**"，然后选择 "**关于 Microsoft Lync**"。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-107">On the **Options** menu, select **Help** and then select **About Microsoft Lync**.</span></span> <span data-ttu-id="6e2fa-108">客户端版本号通常显示在 "**关于 Lync** " 对话框的第一行中。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-108">The client version number is usually displayed in the first line on the **About Lync** dialog.</span></span>
+<span data-ttu-id="75722-106">若要了解您使用的是哪个版本的 Lync 桌面客户端，请通过单击 "选项" 图标打开 "**关于 lync** " 对话框。</span><span class="sxs-lookup"><span data-stu-id="75722-106">To find out which version of Lync desktop client you are using, open the **About Lync** dialog by clicking the options icon.</span></span> <span data-ttu-id="75722-107">在 "**选项**" 菜单上，选择 "**帮助**"，然后选择 "**关于 Microsoft Lync**"。</span><span class="sxs-lookup"><span data-stu-id="75722-107">On the **Options** menu, select **Help** and then select **About Microsoft Lync**.</span></span> <span data-ttu-id="75722-108">客户端版本号通常显示在 "**关于 Lync** " 对话框的第一行中。</span><span class="sxs-lookup"><span data-stu-id="75722-108">The client version number is usually displayed in the first line on the **About Lync** dialog.</span></span>
 
 </div>
 
 <div>
 
-## <a name="lync-client-updates"></a><span data-ttu-id="6e2fa-109">Lync 客户端更新</span><span class="sxs-lookup"><span data-stu-id="6e2fa-109">Lync client updates</span></span>
+## <a name="lync-client-updates"></a><span data-ttu-id="75722-109">Lync 客户端更新</span><span class="sxs-lookup"><span data-stu-id="75722-109">Lync client updates</span></span>
 
-<span data-ttu-id="6e2fa-110">解决 Lync 客户端问题时最常见的检查之一是确定您是否正在运行最新版本的 Lync 客户端，以及是否安装了所有修补程序。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-110">One of the most common checks that to do when troubleshooting Lync client issues is determining whether you are running the latest version of the Lync client and if all patches are installed.</span></span> <span data-ttu-id="6e2fa-111">通过升级到产品的最新版本或更新，可解决大部分可报告的 Lync 客户端问题。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-111">A majority of the Lync client issues that get reported are resolved by upgrading to the latest release or update of the product.</span></span> <span data-ttu-id="6e2fa-112">因此，我们强烈建议你先安装最新版本的 Lync 客户端和最新更新，然后再联系 Microsoft 产品支持。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-112">Thus, we highly recommended that you install the latest version of the Lync client, along with the latest updates, before you contact Microsoft Product Support.</span></span> <span data-ttu-id="6e2fa-113">[本文](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates)将帮助你识别正确的发布版本号。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-113">This [article](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates) will help you identify the correct release version number.</span></span>
+<span data-ttu-id="75722-110">在对 Lync 客户端问题进行故障排除时，要执行的最常见的检查之一是确定您是否运行的是最新版本的 Lync 客户端，以及是否安装了所有修补程序。</span><span class="sxs-lookup"><span data-stu-id="75722-110">One of the most common checks that to do when troubleshooting Lync client issues is determining whether you are running the latest version of the Lync client and if all patches are installed.</span></span> <span data-ttu-id="75722-111">通过升级到产品的最新版本或更新，可以解决大多数可报告的 Lync 客户端问题。</span><span class="sxs-lookup"><span data-stu-id="75722-111">A majority of the Lync client issues that get reported are resolved by upgrading to the latest release or update of the product.</span></span> <span data-ttu-id="75722-112">因此，我们强烈建议您先安装最新版本的 Lync 客户端，并提供最新的更新，然后再联系 Microsoft 产品支持部门。</span><span class="sxs-lookup"><span data-stu-id="75722-112">Thus, we highly recommended that you install the latest version of the Lync client, along with the latest updates, before you contact Microsoft Product Support.</span></span> <span data-ttu-id="75722-113">[本文](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates)将帮助您确定正确的发布版本号。</span><span class="sxs-lookup"><span data-stu-id="75722-113">This [article](https://docs.microsoft.com/SkypeForBusiness/sfb-client-updates#lync-2013-client-updates) will help you identify the correct release version number.</span></span>
 
-<span data-ttu-id="6e2fa-114">Lync 客户端的每个更新都有其自己的版本号。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-114">Each update for Lync client has its own version number.</span></span> <span data-ttu-id="6e2fa-115">通过查看相关的知识库文章（链接到下表），可以确定与更新相关联的版本号。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-115">You can determine the version number associated with an update by looking at the related KB article, linked to in the following table.</span></span>
+<span data-ttu-id="75722-114">Lync 客户端的每个更新都有自己的版本号。</span><span class="sxs-lookup"><span data-stu-id="75722-114">Each update for Lync client has its own version number.</span></span> <span data-ttu-id="75722-115">您可以通过查看下表中链接到的相关知识库文章，来确定与更新关联的版本号。</span><span class="sxs-lookup"><span data-stu-id="75722-115">You can determine the version number associated with an update by looking at the related KB article, linked to in the following table.</span></span>
 
 </div>
 
 <div>
 
-## <a name="lync-server-updates"></a><span data-ttu-id="6e2fa-116">Lync 服务器更新</span><span class="sxs-lookup"><span data-stu-id="6e2fa-116">Lync Server Updates</span></span>
+## <a name="lync-server-updates"></a><span data-ttu-id="75722-116">Lync Server 更新</span><span class="sxs-lookup"><span data-stu-id="75722-116">Lync Server Updates</span></span>
 
-<span data-ttu-id="6e2fa-117">有关 Lync Server 2013 更新的信息，请参阅 Microsoft 支持网站上[Lync Server 2013 的更新](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013)。</span><span class="sxs-lookup"><span data-stu-id="6e2fa-117">For information about updates for Lync Server 2013, see [Updates for Lync Server 2013](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013) on the Microsoft support web.</span></span>
+<span data-ttu-id="75722-117">有关 Lync Server 2013 更新的信息，请参阅 Microsoft 支持网站上[的 Lync Server 2013 更新](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013)。</span><span class="sxs-lookup"><span data-stu-id="75722-117">For information about updates for Lync Server 2013, see [Updates for Lync Server 2013](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013) on the Microsoft support web.</span></span>
 
 </div>
 

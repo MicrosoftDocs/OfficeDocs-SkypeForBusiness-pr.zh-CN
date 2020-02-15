@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Set-CsAddressBookConfiguration for 通讯簿管理
+title: Lync Server 2013： CsAddressBookConfiguration for Address Book management
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a45d5fb9e8ea6eb4b37c34c5347c37c6c9bfe940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7897d1441746430310d392456adacc6756f469d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732362"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046555"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="6279f-102">CsAddressBookConfiguration Lync Server 2013 中的通讯簿管理设置</span><span class="sxs-lookup"><span data-stu-id="6279f-102">Set-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="set-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="5f767-102">Lync Server 2013 中的通讯簿管理的 CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="5f767-102">Set-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41732362"
 
 <span> </span>
 
-<span data-ttu-id="6279f-103">_**主题上次修改时间：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6279f-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="5f767-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="5f767-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="6279f-104">哪些人可以运行此 cmdlet：默认情况下，已授权以下组的成员运行本地 CsAddressBookConfiguration cmdlet： RTCUniversalServerAdmins。</span><span class="sxs-lookup"><span data-stu-id="6279f-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Set-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="6279f-105">若要返回此 cmdlet 已分配到的所有基于角色的访问控制（RBAC）角色的列表（包括你自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="6279f-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="5f767-p101">谁能运行此 cmdlet：默认情况下，以下各组的成员有权在本地运行 Set-CsAddressBookConfiguration cmdlet：RTCUniversalServerAdmins。要返回分配了此 cmdlet 的所有基于角色的访问控制 (RBAC) 角色列表（包括您自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="5f767-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Set-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-<span data-ttu-id="6279f-106">Set-CsAddressBookConfiguration 与 CsAddressBookConfiguration cmdlet 类似，但它用于修改现有配置。</span><span class="sxs-lookup"><span data-stu-id="6279f-106">Set-CsAddressBookConfiguration is similar to the New-CsAddressBookConfiguration cmdlet, except it is used to modify an existing configuration.</span></span>
+<span data-ttu-id="5f767-106">Set-CsAddressBookConfiguration 与 New-CsAddressBookConfiguration cmdlet 类似，不同之处是它用于修改现有配置。</span><span class="sxs-lookup"><span data-stu-id="5f767-106">Set-CsAddressBookConfiguration is similar to the New-CsAddressBookConfiguration cmdlet, except it is used to modify an existing configuration.</span></span>
 
-<span data-ttu-id="6279f-107">例如：</span><span class="sxs-lookup"><span data-stu-id="6279f-107">For example:</span></span>
+<span data-ttu-id="5f767-107">例如：</span><span class="sxs-lookup"><span data-stu-id="5f767-107">For example:</span></span>
 
     Set-CsAddressBookConfiguration -identity site:Redmond -RunTimeOfDay 23:00
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="6279f-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="6279f-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5f767-108">请参阅</span><span class="sxs-lookup"><span data-stu-id="5f767-108">See Also</span></span>
 
 
-[<span data-ttu-id="6279f-109">Set-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="6279f-109">Set-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
+[<span data-ttu-id="5f767-109">CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="5f767-109">Set-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
   
 
 </div>

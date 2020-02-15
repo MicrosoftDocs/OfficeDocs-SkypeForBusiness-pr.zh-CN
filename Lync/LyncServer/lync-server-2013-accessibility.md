@@ -12,20 +12,20 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b3830196baea942bcbdf2109b9a3a761083cd02
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ddaf4d5c8d85adfd7d69955df20ab6018966845b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730474"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="accessibility-in-lync-server-2013"></a><span data-ttu-id="60694-102">Lync Server 2013 中的辅助功能</span><span class="sxs-lookup"><span data-stu-id="60694-102">Accessibility in Lync Server 2013</span></span>
+# <a name="accessibility-in-lync-server-2013"></a><span data-ttu-id="22053-102">Lync Server 2013 中的辅助功能</span><span class="sxs-lookup"><span data-stu-id="22053-102">Accessibility in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730474"
 
 <span> </span>
 
-<span data-ttu-id="60694-103">_**主题上次修改时间：** 2014-10-09_</span><span class="sxs-lookup"><span data-stu-id="60694-103">_**Topic Last Modified:** 2014-10-09_</span></span>
+<span data-ttu-id="22053-103">_**上次修改的主题：** 2014-10-09_</span><span class="sxs-lookup"><span data-stu-id="22053-103">_**Topic Last Modified:** 2014-10-09_</span></span>
 
-<span data-ttu-id="60694-104">Microsoft 致力于使其产品和服务更易于每个人使用。</span><span class="sxs-lookup"><span data-stu-id="60694-104">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="60694-105">以下部分提供有关帮助残障人士更易于访问 Lync Server 2013 的功能、产品和服务的信息。</span><span class="sxs-lookup"><span data-stu-id="60694-105">The following sections provide information about the features, products, and services that help make Lync Server 2013 more accessible for people with disabilities.</span></span>
+<span data-ttu-id="22053-104">Microsoft 致力于帮助用户更轻松地使用其产品和服务。</span><span class="sxs-lookup"><span data-stu-id="22053-104">Microsoft is committed to making its products and services easier for everyone to use.</span></span> <span data-ttu-id="22053-105">以下各节提供有关帮助残障人士更容易使用 Lync Server 2013 的功能、产品和服务的信息。</span><span class="sxs-lookup"><span data-stu-id="22053-105">The following sections provide information about the features, products, and services that help make Lync Server 2013 more accessible for people with disabilities.</span></span>
 
 <div>
 
-## <a name="accessibility-features-of-lync-server-2013"></a><span data-ttu-id="60694-106">Lync Server 2013 的辅助功能</span><span class="sxs-lookup"><span data-stu-id="60694-106">Accessibility features of Lync Server 2013</span></span>
+## <a name="accessibility-features-of-lync-server-2013"></a><span data-ttu-id="22053-106">Lync Server 2013 的辅助功能</span><span class="sxs-lookup"><span data-stu-id="22053-106">Accessibility features of Lync Server 2013</span></span>
 
-<span data-ttu-id="60694-107">Lync Server 2013 中的以下功能有助于使残障人士更易于访问：</span><span class="sxs-lookup"><span data-stu-id="60694-107">The following features in Lync Server 2013 help make it more accessible for people with disabilities:</span></span>
+<span data-ttu-id="22053-107">Lync Server 2013 中的以下功能可帮助残障人士更轻松地使用这些功能：</span><span class="sxs-lookup"><span data-stu-id="22053-107">The following features in Lync Server 2013 help make it more accessible for people with disabilities:</span></span>
 
-  - <span data-ttu-id="60694-108">键盘快捷方式</span><span class="sxs-lookup"><span data-stu-id="60694-108">Keyboard Shortcuts</span></span>
+  - <span data-ttu-id="22053-108">键盘快捷方式</span><span class="sxs-lookup"><span data-stu-id="22053-108">Keyboard Shortcuts</span></span>
 
-  - <span data-ttu-id="60694-109">图表的替代文本</span><span class="sxs-lookup"><span data-stu-id="60694-109">Alternate text for figures</span></span>
+  - <span data-ttu-id="22053-109">图的替代文本</span><span class="sxs-lookup"><span data-stu-id="22053-109">Alternate text for figures</span></span>
 
-<span data-ttu-id="60694-110">此外，Windows 的一些辅助功能和工具可能会让 Lync Server 用户残疾人士受益。</span><span class="sxs-lookup"><span data-stu-id="60694-110">In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities.</span></span> <span data-ttu-id="60694-111">当使用 Lync Server 命令行管理程序时，Windows PowerShell 大小和颜色更改将提供辅助功能选项。</span><span class="sxs-lookup"><span data-stu-id="60694-111">Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell.</span></span> <span data-ttu-id="60694-112">有关 Windows PowerShell 辅助功能选项的详细信息，请参阅 TechNet 库中的 "Windows PowerShell 2.0 中[http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)的辅助功能"。</span><span class="sxs-lookup"><span data-stu-id="60694-112">For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964).</span></span>
+<span data-ttu-id="22053-110">此外，Windows 的一些辅助功能和工具可能会对 Lync Server 用户的残疾有益。</span><span class="sxs-lookup"><span data-stu-id="22053-110">In addition, some accessibility features and tools of Windows may benefit Lync Server users with disabilities.</span></span> <span data-ttu-id="22053-111">在使用 Lync Server 命令行管理程序时，Windows PowerShell 大小和颜色更改将提供辅助功能选项。</span><span class="sxs-lookup"><span data-stu-id="22053-111">Windows PowerShell size and color changes provide accessibility options when using the Lync Server Management Shell.</span></span> <span data-ttu-id="22053-112">有关 Windows PowerShell 辅助功能选项的详细信息，请参阅 TechNet Library 中的 "Windows PowerShell 2.0 中[http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)的辅助功能"。</span><span class="sxs-lookup"><span data-stu-id="22053-112">For details about Windows PowerShell accessibility options, see “Accessibility in Windows PowerShell 2.0” in the TechNet Library at [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964).</span></span>
 
 </div>
 
@@ -57,11 +57,11 @@ ms.locfileid: "41730474"
 
 <div>
 
-## <a name="keyboard-shortcuts"></a><span data-ttu-id="60694-113">键盘快捷方式</span><span class="sxs-lookup"><span data-stu-id="60694-113">Keyboard shortcuts</span></span>
+## <a name="keyboard-shortcuts"></a><span data-ttu-id="22053-113">键盘快捷方式</span><span class="sxs-lookup"><span data-stu-id="22053-113">Keyboard shortcuts</span></span>
 
-<span data-ttu-id="60694-114">你可以使用键盘快捷方式与 Lync Server 管理工具和其他功能中的用户界面交互。</span><span class="sxs-lookup"><span data-stu-id="60694-114">You can use keyboard shortcuts to interact with the user interface in Lync Server administrative tools and other features.</span></span>
+<span data-ttu-id="22053-114">您可以在 Lync Server 管理工具和其他功能中使用键盘快捷方式与用户界面进行交互。</span><span class="sxs-lookup"><span data-stu-id="22053-114">You can use keyboard shortcuts to interact with the user interface in Lync Server administrative tools and other features.</span></span>
 
-<span data-ttu-id="60694-115">通过使用键盘快捷方式，你可以快速完成以下常见任务。</span><span class="sxs-lookup"><span data-stu-id="60694-115">By using keyboard shortcuts, you can quickly accomplish the following common tasks.</span></span>
+<span data-ttu-id="22053-115">通过使用键盘快捷方式，您可以快速完成以下常见任务。</span><span class="sxs-lookup"><span data-stu-id="22053-115">By using keyboard shortcuts, you can quickly accomplish the following common tasks.</span></span>
 
 
 <table>
@@ -71,62 +71,62 @@ ms.locfileid: "41730474"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="60694-116">若要执行此操作</span><span class="sxs-lookup"><span data-stu-id="60694-116">To do this</span></span></th>
-<th><span data-ttu-id="60694-117">使用此键盘快捷方式</span><span class="sxs-lookup"><span data-stu-id="60694-117">Use this keyboard shortcut</span></span></th>
+<th><span data-ttu-id="22053-116">为执行此操作</span><span class="sxs-lookup"><span data-stu-id="22053-116">To do this</span></span></th>
+<th><span data-ttu-id="22053-117">使用此键盘快捷方式</span><span class="sxs-lookup"><span data-stu-id="22053-117">Use this keyboard shortcut</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="60694-118">在用户界面中的元素之间切换。</span><span class="sxs-lookup"><span data-stu-id="60694-118">Switch between elements in the user interface.</span></span></p></td>
-<td><p><span data-ttu-id="60694-119">选项卡</span><span class="sxs-lookup"><span data-stu-id="60694-119">Tab</span></span></p></td>
+<td><p><span data-ttu-id="22053-118">在用户界面中的各个元素之间切换。</span><span class="sxs-lookup"><span data-stu-id="22053-118">Switch between elements in the user interface.</span></span></p></td>
+<td><p><span data-ttu-id="22053-119">Tab</span><span class="sxs-lookup"><span data-stu-id="22053-119">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60694-120">对所选元素执行操作，例如 "<strong>全部显示</strong>"、"<strong>全部隐藏</strong>" 或 "打开超链接"。</span><span class="sxs-lookup"><span data-stu-id="60694-120">Perform the action for the selected element, such as <strong>Show All</strong>, <strong>Hide All</strong>, or open a hyperlink.</span></span></p></td>
-<td><p><span data-ttu-id="60694-121">键</span><span class="sxs-lookup"><span data-stu-id="60694-121">Enter</span></span></p></td>
+<td><p><span data-ttu-id="22053-120">对所选元素执行操作，例如“全部显示”<strong></strong>、“全部隐藏”<strong></strong>或打开超链接。</span><span class="sxs-lookup"><span data-stu-id="22053-120">Perform the action for the selected element, such as <strong>Show All</strong>, <strong>Hide All</strong>, or open a hyperlink.</span></span></p></td>
+<td><p><span data-ttu-id="22053-121">输入</span><span class="sxs-lookup"><span data-stu-id="22053-121">Enter</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60694-122">将所选元素更改为页面上或菜单中的下一个元素。</span><span class="sxs-lookup"><span data-stu-id="60694-122">Change the selected element to the next element on the page or in a menu.</span></span></p></td>
-<td><p><span data-ttu-id="60694-123">选项卡</span><span class="sxs-lookup"><span data-stu-id="60694-123">Tab</span></span></p></td>
+<td><p><span data-ttu-id="22053-122">将所选元素更改为页面上或菜单中的下一个元素。</span><span class="sxs-lookup"><span data-stu-id="22053-122">Change the selected element to the next element on the page or in a menu.</span></span></p></td>
+<td><p><span data-ttu-id="22053-123">Tab</span><span class="sxs-lookup"><span data-stu-id="22053-123">Tab</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60694-124">将所选元素更改为页面上的上一个元素。</span><span class="sxs-lookup"><span data-stu-id="60694-124">Change the selected element to the previous element on the page.</span></span></p></td>
-<td><p><span data-ttu-id="60694-125">Shift + Tab</span><span class="sxs-lookup"><span data-stu-id="60694-125">Shift+Tab</span></span></p></td>
+<td><p><span data-ttu-id="22053-124">将所选元素更改为页面上的上一个元素。</span><span class="sxs-lookup"><span data-stu-id="22053-124">Change the selected element to the previous element on the page.</span></span></p></td>
+<td><p><span data-ttu-id="22053-125">Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="22053-125">Shift+Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60694-126">向上、向下、向左或向右更改页面或菜单上的所选元素。</span><span class="sxs-lookup"><span data-stu-id="60694-126">Change the selected element on the page or menu up, down, left, or right.</span></span></p></td>
-<td><p><span data-ttu-id="60694-127">箭头键</span><span class="sxs-lookup"><span data-stu-id="60694-127">Arrow Keys</span></span></p></td>
+<td><p><span data-ttu-id="22053-126">向上、向下、向左或向右更改页面或菜单上的所选元素。</span><span class="sxs-lookup"><span data-stu-id="22053-126">Change the selected element on the page or menu up, down, left, or right.</span></span></p></td>
+<td><p><span data-ttu-id="22053-127">箭头键</span><span class="sxs-lookup"><span data-stu-id="22053-127">Arrow Keys</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60694-128">展开树中的选定节点。</span><span class="sxs-lookup"><span data-stu-id="60694-128">Expand the selected node in tree.</span></span></p></td>
-<td><p><span data-ttu-id="60694-129">+按键</span><span class="sxs-lookup"><span data-stu-id="60694-129">+ Key</span></span></p></td>
+<td><p><span data-ttu-id="22053-128">展开树中的所选节点。</span><span class="sxs-lookup"><span data-stu-id="22053-128">Expand the selected node in tree.</span></span></p></td>
+<td><p><span data-ttu-id="22053-129">+主键</span><span class="sxs-lookup"><span data-stu-id="22053-129">+ Key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60694-130">折叠树中的选定节点。</span><span class="sxs-lookup"><span data-stu-id="60694-130">Collapse the selected node in the tree.</span></span></p></td>
-<td><p><span data-ttu-id="60694-131">-按键</span><span class="sxs-lookup"><span data-stu-id="60694-131">- Key</span></span></p></td>
+<td><p><span data-ttu-id="22053-130">折叠树中的所选节点。</span><span class="sxs-lookup"><span data-stu-id="22053-130">Collapse the selected node in the tree.</span></span></p></td>
+<td><p><span data-ttu-id="22053-131">-主键</span><span class="sxs-lookup"><span data-stu-id="22053-131">- Key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60694-132">访问菜单栏。</span><span class="sxs-lookup"><span data-stu-id="60694-132">Access the menu bar.</span></span></p></td>
-<td><p><span data-ttu-id="60694-133">Alt</span><span class="sxs-lookup"><span data-stu-id="60694-133">Alt</span></span></p></td>
+<td><p><span data-ttu-id="22053-132">访问菜单栏。</span><span class="sxs-lookup"><span data-stu-id="22053-132">Access the menu bar.</span></span></p></td>
+<td><p><span data-ttu-id="22053-133">Alt</span><span class="sxs-lookup"><span data-stu-id="22053-133">Alt</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60694-134">访问菜单栏命令。</span><span class="sxs-lookup"><span data-stu-id="60694-134">Access a menu bar command.</span></span></p></td>
-<td><p><span data-ttu-id="60694-135">Alt + 快捷菜单中带下划线的字母。</span><span class="sxs-lookup"><span data-stu-id="60694-135">Alt+ the letter underlined in the shortcut menu.</span></span></p></td>
+<td><p><span data-ttu-id="22053-134">访问菜单栏命令。</span><span class="sxs-lookup"><span data-stu-id="22053-134">Access a menu bar command.</span></span></p></td>
+<td><p><span data-ttu-id="22053-135">Alt+ 快捷菜单中带下划线的字母。</span><span class="sxs-lookup"><span data-stu-id="22053-135">Alt+ the letter underlined in the shortcut menu.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60694-136">选择 "证书向导" 中的下拉列表。</span><span class="sxs-lookup"><span data-stu-id="60694-136">Select the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="60694-137">选项卡</span><span class="sxs-lookup"><span data-stu-id="60694-137">Tab</span></span></p></td>
+<td><p><span data-ttu-id="22053-136">选择证书向导中的下拉列表。</span><span class="sxs-lookup"><span data-stu-id="22053-136">Select the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="22053-137">Tab</span><span class="sxs-lookup"><span data-stu-id="22053-137">Tab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60694-138">打开证书向导中的下拉列表。</span><span class="sxs-lookup"><span data-stu-id="60694-138">Open the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="60694-139">Ctrl + 空格键</span><span class="sxs-lookup"><span data-stu-id="60694-139">Ctrl+Spacebar</span></span></p></td>
+<td><p><span data-ttu-id="22053-138">打开证书向导中的下拉列表。</span><span class="sxs-lookup"><span data-stu-id="22053-138">Open the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="22053-139">Ctrl + 空格键</span><span class="sxs-lookup"><span data-stu-id="22053-139">Ctrl+Spacebar</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="60694-140">突出显示 "证书向导" 下拉列表中的项目。</span><span class="sxs-lookup"><span data-stu-id="60694-140">Highlight an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="60694-141">按 Tab，然后按 Ctrl + 箭头键可在项目之间移动。</span><span class="sxs-lookup"><span data-stu-id="60694-141">Tab, and then Ctrl+Arrow keys to move between items.</span></span></p></td>
+<td><p><span data-ttu-id="22053-140">突出显示证书向导中下拉列表中的一项。</span><span class="sxs-lookup"><span data-stu-id="22053-140">Highlight an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="22053-141">Tab，然后使用 Ctrl+箭头键在各项之间移动。</span><span class="sxs-lookup"><span data-stu-id="22053-141">Tab, and then Ctrl+Arrow keys to move between items.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="60694-142">选择或清除 "证书向导" 下拉列表中的某个项目。</span><span class="sxs-lookup"><span data-stu-id="60694-142">Select or clear an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
-<td><p><span data-ttu-id="60694-143">Ctrl + 空格键</span><span class="sxs-lookup"><span data-stu-id="60694-143">Ctrl+Spacebar</span></span></p></td>
+<td><p><span data-ttu-id="22053-142">选择或清除证书向导中下拉列表中的一项。</span><span class="sxs-lookup"><span data-stu-id="22053-142">Select or clear an item in the drop-down list in the Certificate Wizard.</span></span></p></td>
+<td><p><span data-ttu-id="22053-143">Ctrl + 空格键</span><span class="sxs-lookup"><span data-stu-id="22053-143">Ctrl+Spacebar</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -138,9 +138,9 @@ ms.locfileid: "41730474"
 
 <div>
 
-## <a name="alternate-text-for-figures"></a><span data-ttu-id="60694-144">图表的替代文本</span><span class="sxs-lookup"><span data-stu-id="60694-144">Alternate text for figures</span></span>
+## <a name="alternate-text-for-figures"></a><span data-ttu-id="22053-144">图的替代文本</span><span class="sxs-lookup"><span data-stu-id="22053-144">Alternate text for figures</span></span>
 
-<span data-ttu-id="60694-145">Lync Server 2013 中的每个数字帮助（包括屏幕截图、图表、流程图和其他图形）都有关联的替换文字。</span><span class="sxs-lookup"><span data-stu-id="60694-145">Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow charts, and other figures, has associated alternate text.</span></span> <span data-ttu-id="60694-146">在查看图表时有困难的用户可以将光标暂停在图形上以读取替换文字。</span><span class="sxs-lookup"><span data-stu-id="60694-146">Users who have difficulty viewing figures can pause the cursor on the figure to read the alternate text.</span></span> <span data-ttu-id="60694-147">替换文字描述了图中显示的内容。</span><span class="sxs-lookup"><span data-stu-id="60694-147">The alternate text describes what is shown in the figure.</span></span>
+<span data-ttu-id="22053-145">Lync Server 2013 帮助中的每个图（包括屏幕截图、图表、流程图和其他图形）都有关联的替换文字。</span><span class="sxs-lookup"><span data-stu-id="22053-145">Every figure in Lync Server 2013 Help, including screenshots, diagrams, flow charts, and other figures, has associated alternate text.</span></span> <span data-ttu-id="22053-146">查看图有困难的用户可以将光标暂停在图上来阅读替代文本。</span><span class="sxs-lookup"><span data-stu-id="22053-146">Users who have difficulty viewing figures can pause the cursor on the figure to read the alternate text.</span></span> <span data-ttu-id="22053-147">替代文本介绍图上显示的内容。</span><span class="sxs-lookup"><span data-stu-id="22053-147">The alternate text describes what is shown in the figure.</span></span>
 
 </div>
 
@@ -148,15 +148,15 @@ ms.locfileid: "41730474"
 
 <div>
 
-## <a name="accessibility-products-and-services-from-microsoft"></a><span data-ttu-id="60694-148">Microsoft 的辅助功能产品和服务</span><span class="sxs-lookup"><span data-stu-id="60694-148">Accessibility products and services from Microsoft</span></span>
+## <a name="accessibility-products-and-services-from-microsoft"></a><span data-ttu-id="22053-148">Microsoft 提供的辅助产品和服务</span><span class="sxs-lookup"><span data-stu-id="22053-148">Accessibility products and services from Microsoft</span></span>
 
-<span data-ttu-id="60694-149">以下部分提供有关使残障人士更易于访问 Windows 的功能、产品和服务的信息。</span><span class="sxs-lookup"><span data-stu-id="60694-149">The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.</span></span>
+<span data-ttu-id="22053-149">以下各节提供有关使残障人士更容易使用 Windows 的功能、产品和服务的信息。</span><span class="sxs-lookup"><span data-stu-id="22053-149">The following sections provide information about the features, products, and services that make Windows more accessible for people with disabilities.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="60694-150">本部分中的信息仅适用于在美国授权 Microsoft 产品的用户。</span><span class="sxs-lookup"><span data-stu-id="60694-150">The information in this section applies only to users who license Microsoft products in the United States.</span></span> <span data-ttu-id="60694-151">如果您在美国以外获得本产品，则可以使用您的软件包随附的子公司信息卡或访问 Microsoft 辅助功能网站， <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A>获取 microsoft 支持服务的电话号码和地址列表。</span><span class="sxs-lookup"><span data-stu-id="60694-151">If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services.</span></span> <span data-ttu-id="60694-152">您可以与您的分支机构联系，了解本部分所述的产品和服务类型是否适用于您所在的地区。</span><span class="sxs-lookup"><span data-stu-id="60694-152">You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area.</span></span> <span data-ttu-id="60694-153">你可以在 Microsoft 产品网站的 "辅助功能" 中了解有关 Microsoft 产品中包含的辅助功能的详细信息。</span><span class="sxs-lookup"><span data-stu-id="60694-153">You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.</span></span>
+> <span data-ttu-id="22053-150">本节中的信息仅适用于许可其在美国使用 Microsoft 产品的用户。</span><span class="sxs-lookup"><span data-stu-id="22053-150">The information in this section applies only to users who license Microsoft products in the United States.</span></span> <span data-ttu-id="22053-151">如果你在美国境外获取了此产品，则可以使用软件程序包附带的子公司信息卡，也可以访问 Microsoft 辅助功能网站， <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A>获取 microsoft 支持服务的电话号码和地址列表。</span><span class="sxs-lookup"><span data-stu-id="22053-151">If you obtained this product outside the United States, you can use the subsidiary information card that came with your software package or visit the Microsoft Accessibility website at <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> for a list of telephone numbers and addresses for Microsoft support services.</span></span> <span data-ttu-id="22053-152">您可以与子公司联系来了解您所在区域是否提供本节中介绍的产品和服务类型。</span><span class="sxs-lookup"><span data-stu-id="22053-152">You can contact your subsidiary to find out whether the type of products and services described in this section are available in your area.</span></span> <span data-ttu-id="22053-153">您可以在 Microsoft 产品网站上的“辅助功能”中了解有关 Microsoft 产品中包括的辅助功能的更多信息。</span><span class="sxs-lookup"><span data-stu-id="22053-153">You can learn more about the accessibility features included in Microsoft products on the Accessibility in Microsoft Products website.</span></span>
 
 
 
@@ -164,27 +164,27 @@ ms.locfileid: "41730474"
 
 <div>
 
-## <a name="accessibility-features-of-windows"></a><span data-ttu-id="60694-154">Windows 的辅助功能</span><span class="sxs-lookup"><span data-stu-id="60694-154">Accessibility features of Windows</span></span>
+## <a name="accessibility-features-of-windows"></a><span data-ttu-id="22053-154">Windows 的辅助功能</span><span class="sxs-lookup"><span data-stu-id="22053-154">Accessibility features of Windows</span></span>
 
-<span data-ttu-id="60694-155">Windows 操作系统具有许多内置的辅助功能，可用于在键入或使用鼠标时遇到困难的人士、盲人或有听力障碍的人士使用。</span><span class="sxs-lookup"><span data-stu-id="60694-155">The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing.</span></span> <span data-ttu-id="60694-156">安装期间会安装这些功能。</span><span class="sxs-lookup"><span data-stu-id="60694-156">The features are installed during Setup.</span></span> <span data-ttu-id="60694-157">有关这些功能的详细信息，请参阅 Windows 帮助或 Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)辅助功能。</span><span class="sxs-lookup"><span data-stu-id="60694-157">For details about these features, see Windows Help or Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+<span data-ttu-id="22053-155">Windows 操作系统包含许多内置的辅助功能，可以帮助键入和使用鼠标有困难的用户、失明或低视力的用户或者失聪或听力不好的用户。</span><span class="sxs-lookup"><span data-stu-id="22053-155">The Windows operating system has many built-in accessibility features that are useful for individuals who have difficulty typing or using a mouse, are blind or have low vision, or who are deaf or hard-of-hearing.</span></span> <span data-ttu-id="22053-156">这些功能在安装操作系统期间安装。</span><span class="sxs-lookup"><span data-stu-id="22053-156">The features are installed during Setup.</span></span> <span data-ttu-id="22053-157">有关这些功能的详细信息，请参阅中的 Windows 帮助[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)或 Microsoft 辅助功能。</span><span class="sxs-lookup"><span data-stu-id="22053-157">For details about these features, see Windows Help or Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-  - <span data-ttu-id="60694-158">**免费分步教程**   Microsoft 提供一系列分步教程，提供有关调整计算机上的辅助功能选项和设置的详细过程。</span><span class="sxs-lookup"><span data-stu-id="60694-158">**Free step-by-step tutorials**   Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer.</span></span> <span data-ttu-id="60694-159">此信息以并列格式显示，以便你可以了解如何使用鼠标、键盘或两者的组合。）</span><span class="sxs-lookup"><span data-stu-id="60694-159">This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.</span></span>
+  - <span data-ttu-id="22053-158">**免费**   的分步教程 Microsoft 提供了一系列分步教程，这些教程提供了有关调整计算机上的辅助功能选项和设置的详细过程。</span><span class="sxs-lookup"><span data-stu-id="22053-158">**Free step-by-step tutorials**   Microsoft offers a series of step-by-step tutorials that provide detailed procedures for adjusting the accessibility options and settings on your computer.</span></span> <span data-ttu-id="22053-159">此信息以并排格式呈现，以便您可以了解如何使用鼠标、键盘或组合使用这两者。</span><span class="sxs-lookup"><span data-stu-id="22053-159">This information is presented in a side-by-side format so that you can learn how to use the mouse, the keyboard, or a combination of both.</span></span>
     
-    <span data-ttu-id="60694-160">若要查找 Microsoft 产品的分步教程，请参阅 Microsoft 辅助功能[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)。</span><span class="sxs-lookup"><span data-stu-id="60694-160">To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+    <span data-ttu-id="22053-160">若要查找 Microsoft 产品的分步指南，请参阅 Microsoft 辅助功能[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)。</span><span class="sxs-lookup"><span data-stu-id="22053-160">To find step-by-step tutorials for Microsoft products, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-  - <span data-ttu-id="60694-161">\*\*\*\*   适用于 Windows 的辅助技术产品可使用多种辅助技术产品使计算机更易于残障人士使用。</span><span class="sxs-lookup"><span data-stu-id="60694-161">**Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities.</span></span> <span data-ttu-id="60694-162">你可以在[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Microsoft 辅助功能网站上的 "Microsoft 辅助功能" 网站上搜索在 Windows 上运行的辅助技术产品目录。</span><span class="sxs-lookup"><span data-stu-id="60694-162">You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+  - <span data-ttu-id="22053-161">\*\*\*\*   适用于 Windows 的辅助技术产品可提供多种辅助技术产品，使残障人士更容易使用计算机。</span><span class="sxs-lookup"><span data-stu-id="22053-161">**Assistive technology products for Windows**   A wide variety of assistive technology products are available to make computers easier to use for people with disabilities.</span></span> <span data-ttu-id="22053-162">你可以在[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)上的 Microsoft 辅助功能网站上的 Windows 上运行的辅助技术产品目录中搜索。</span><span class="sxs-lookup"><span data-stu-id="22053-162">You can search a catalog of assistive technology products that run on Windows on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
     
-    <span data-ttu-id="60694-163">如果你使用辅助技术，请确保先联系你的辅助技术供应商，然后再升级你的软件或硬件，以检查是否存在兼容性问题。</span><span class="sxs-lookup"><span data-stu-id="60694-163">If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.</span></span>
+    <span data-ttu-id="22053-163">如果您使用辅助技术，请确保在升级软件或硬件之前与辅助技术供应商联系以检查可能的兼容性问题。</span><span class="sxs-lookup"><span data-stu-id="22053-163">If you use assistive technology, be sure to contact your assistive technology vendor before you upgrade your software or hardware to check for possible compatibility issues.</span></span>
 
 </div>
 
 <div>
 
-## <a name="documentation-in-alternative-formats"></a><span data-ttu-id="60694-164">其他格式的文档</span><span class="sxs-lookup"><span data-stu-id="60694-164">Documentation in alternative formats</span></span>
+## <a name="documentation-in-alternative-formats"></a><span data-ttu-id="22053-164">替代格式的文档</span><span class="sxs-lookup"><span data-stu-id="22053-164">Documentation in alternative formats</span></span>
 
-<span data-ttu-id="60694-165">如果阅读或处理打印材料时遇到困难，可使用更易于访问的格式获取许多 Microsoft 产品的文档。</span><span class="sxs-lookup"><span data-stu-id="60694-165">If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats.</span></span> <span data-ttu-id="60694-166">可在 Microsoft 辅助功能网站上获取辅助产品文档的索引[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)。</span><span class="sxs-lookup"><span data-stu-id="60694-166">You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+<span data-ttu-id="22053-165">如果您阅读或处理打印材料有困难，则可以获得许多 Microsoft 产品的采用更易于访问格式的文档。</span><span class="sxs-lookup"><span data-stu-id="22053-165">If you have difficulty reading or handling printed materials, you can obtain the documentation for many Microsoft products in more accessible formats.</span></span> <span data-ttu-id="22053-166">你可以在上的 Microsoft 辅助功能网站获取可访问产品文档的[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)索引。</span><span class="sxs-lookup"><span data-stu-id="22053-166">You can obtain an index of accessible product documentation on the Microsoft Accessibility website at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
-<span data-ttu-id="60694-167">此外，您还可以从录制的其他 Microsoft 出版物获取盲人 & 诵读困难，Inc. （RFB\&D）。</span><span class="sxs-lookup"><span data-stu-id="60694-167">In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB\&D).</span></span> <span data-ttu-id="60694-168">RFB\&D 将这些文档分发给其分发服务的注册的合格成员。</span><span class="sxs-lookup"><span data-stu-id="60694-168">RFB\&D distributes these documents to registered, eligible members of their distribution service.</span></span> <span data-ttu-id="60694-169">有关 microsoft 产品文档和 Microsoft 新闻书籍的可用性的信息，请联系 RFB\&D。</span><span class="sxs-lookup"><span data-stu-id="60694-169">For information about the availability of Microsoft product documentation and books from Microsoft Press, contact RFB\&D.</span></span>
+<span data-ttu-id="22053-167">此外，还可以从录制中获取有关盲人 & Dyslexic，Inc. （RFB\&D）的其他 Microsoft 出版物。</span><span class="sxs-lookup"><span data-stu-id="22053-167">In addition, you can obtain additional Microsoft publications from Recording for the Blind & Dyslexic, Inc (RFB\&D).</span></span> <span data-ttu-id="22053-168">RFB\&D 将这些文档分发给其分发服务的已注册的符合条件的成员。</span><span class="sxs-lookup"><span data-stu-id="22053-168">RFB\&D distributes these documents to registered, eligible members of their distribution service.</span></span> <span data-ttu-id="22053-169">有关 Microsoft 产品文档和 Microsoft 新闻书籍的可用性的信息，请联系 RFB\&D。</span><span class="sxs-lookup"><span data-stu-id="22053-169">For information about the availability of Microsoft product documentation and books from Microsoft Press, contact RFB\&D.</span></span>
 
 
 <table>
@@ -193,11 +193,11 @@ ms.locfileid: "41730474"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="60694-170">针对盲人&amp;诵读困难的录制。</span><span class="sxs-lookup"><span data-stu-id="60694-170">Recording for the Blind &amp; Dyslexic, Inc.</span></span></p>
-<p><span data-ttu-id="60694-171">20 Roszel 道路</span><span class="sxs-lookup"><span data-stu-id="60694-171">20 Roszel Road</span></span></p>
-<p><span data-ttu-id="60694-172">Princeton，NJ 08540</span><span class="sxs-lookup"><span data-stu-id="60694-172">Princeton, NJ 08540</span></span></p>
-<p><span data-ttu-id="60694-173">美国境内的电话号码：（800）221-4792</span><span class="sxs-lookup"><span data-stu-id="60694-173">Telephone number from within the United States: (800) 221-4792</span></span></p>
-<p><span data-ttu-id="60694-174">网站：诵读困难上的 " &amp;盲人" 录制<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span><span class="sxs-lookup"><span data-stu-id="60694-174">Website: Recording for the Blind &amp; Dyslexic at <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span></span></p></td>
+<td><p><span data-ttu-id="22053-170">为盲人&amp; Dyslexic （inc.）录制。</span><span class="sxs-lookup"><span data-stu-id="22053-170">Recording for the Blind &amp; Dyslexic, Inc.</span></span></p>
+<p><span data-ttu-id="22053-171">20 Roszel Road</span><span class="sxs-lookup"><span data-stu-id="22053-171">20 Roszel Road</span></span></p>
+<p><span data-ttu-id="22053-172">Princeton, NJ 08540</span><span class="sxs-lookup"><span data-stu-id="22053-172">Princeton, NJ 08540</span></span></p>
+<p><span data-ttu-id="22053-173">美国境内的电话号码：(800) 221-4792</span><span class="sxs-lookup"><span data-stu-id="22053-173">Telephone number from within the United States: (800) 221-4792</span></span></p>
+<p><span data-ttu-id="22053-174">网站：在上录制盲人&amp; Dyslexic<a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span><span class="sxs-lookup"><span data-stu-id="22053-174">Website: Recording for the Blind &amp; Dyslexic at <a href="http://www.rfbd.org/" class="uri">http://www.rfbd.org/</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -207,43 +207,43 @@ ms.locfileid: "41730474"
 
 <div>
 
-## <a name="customer-service-for-people-with-disabilities"></a><span data-ttu-id="60694-175">适用于残障人士的客户服务</span><span class="sxs-lookup"><span data-stu-id="60694-175">Customer service for people with disabilities</span></span>
+## <a name="customer-service-for-people-with-disabilities"></a><span data-ttu-id="22053-175">面向残障人士的客户服务</span><span class="sxs-lookup"><span data-stu-id="22053-175">Customer service for people with disabilities</span></span>
 
-<span data-ttu-id="60694-176">Microsoft 希望为我们的所有客户（包括残障人士）提供最佳体验。</span><span class="sxs-lookup"><span data-stu-id="60694-176">Microsoft wants to provide the best possible experience for all our customers, including people with disabilities.</span></span> <span data-ttu-id="60694-177">如果需要帮助，请与我们的辅助功能支持团队联系，他们通过电话或电子邮件向残疾人士提供帮助。</span><span class="sxs-lookup"><span data-stu-id="60694-177">If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.</span></span>
+<span data-ttu-id="22053-176">Microsoft 希望为我们的所有客户（包括残障人士）提供尽可能好的体验。</span><span class="sxs-lookup"><span data-stu-id="22053-176">Microsoft wants to provide the best possible experience for all our customers, including people with disabilities.</span></span> <span data-ttu-id="22053-177">如果需要帮助，请与我们的辅助功能支持团队联系，这些团队通过电话或电子邮件向残障人士提供帮助。</span><span class="sxs-lookup"><span data-stu-id="22053-177">If you need help, contact our Accessibility Support team, who are trained to help people with disabilities by telephone or email.</span></span>
 
-[<span data-ttu-id="60694-178">联系残疾人士的答案台</span><span class="sxs-lookup"><span data-stu-id="60694-178">Contact the Disability Answer Desk</span></span>](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+[<span data-ttu-id="22053-178">联系残疾人士的答卷中心</span><span class="sxs-lookup"><span data-stu-id="22053-178">Contact the Disability Answer Desk</span></span>](http://support.microsoft.com/gp/contact-microsoft-accessibility)
 
-<span data-ttu-id="60694-179">直接电话线路：1-800-936-5900</span><span class="sxs-lookup"><span data-stu-id="60694-179">Direct Telephone Line: 1-800-936-5900</span></span>
+<span data-ttu-id="22053-179">直拨电话线路：1-800-936-5900</span><span class="sxs-lookup"><span data-stu-id="22053-179">Direct Telephone Line: 1-800-936-5900</span></span>
 
-<span data-ttu-id="60694-180">TTY：1-800-892-5234</span><span class="sxs-lookup"><span data-stu-id="60694-180">TTY: 1-800-892-5234</span></span>
+<span data-ttu-id="22053-180">TTY：1-800-892-5234</span><span class="sxs-lookup"><span data-stu-id="22053-180">TTY: 1-800-892-5234</span></span>
 
-<span data-ttu-id="60694-181">工作日：上午5点</span><span class="sxs-lookup"><span data-stu-id="60694-181">Weekdays: 5 A.M.</span></span> <span data-ttu-id="60694-182">-晚上9点</span><span class="sxs-lookup"><span data-stu-id="60694-182">- 9 P.M.</span></span> <span data-ttu-id="60694-183">（太平洋时间）</span><span class="sxs-lookup"><span data-stu-id="60694-183">(Pacific Time)</span></span>
+<span data-ttu-id="22053-181">工作日：上午5点</span><span class="sxs-lookup"><span data-stu-id="22053-181">Weekdays: 5 A.M.</span></span> <span data-ttu-id="22053-182">-9 P。M</span><span class="sxs-lookup"><span data-stu-id="22053-182">- 9 P.M.</span></span> <span data-ttu-id="22053-183">（太平洋时间）</span><span class="sxs-lookup"><span data-stu-id="22053-183">(Pacific Time)</span></span>
 
-<span data-ttu-id="60694-184">周末：上午6点</span><span class="sxs-lookup"><span data-stu-id="60694-184">Weekends: 6 A.M.</span></span> <span data-ttu-id="60694-185">-下午3点</span><span class="sxs-lookup"><span data-stu-id="60694-185">- 3 P.M.</span></span> <span data-ttu-id="60694-186">（太平洋时间）</span><span class="sxs-lookup"><span data-stu-id="60694-186">(Pacific Time)</span></span>
-
-</div>
-
-<div>
-
-## <a name="customer-service-for-people-with-hearing-impairments"></a><span data-ttu-id="60694-187">针对听力损伤人士的客户服务</span><span class="sxs-lookup"><span data-stu-id="60694-187">Customer service for people with hearing impairments</span></span>
-
-<span data-ttu-id="60694-188">如果您有听力障碍，可通过文本电话（TTY/TDD）服务完成对 Microsoft 产品和客户服务的完全访问：</span><span class="sxs-lookup"><span data-stu-id="60694-188">If you're deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:</span></span>
-
-  - <span data-ttu-id="60694-189">对于客户服务，请联系 Microsoft 销售信息中心（800）892-5234 上午6:30。</span><span class="sxs-lookup"><span data-stu-id="60694-189">For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 A.M.</span></span> <span data-ttu-id="60694-190">和 5:30 P.M。</span><span class="sxs-lookup"><span data-stu-id="60694-190">and 5:30 P.M.</span></span> <span data-ttu-id="60694-191">太平洋时间星期一至星期五，节假日除外。</span><span class="sxs-lookup"><span data-stu-id="60694-191">Pacific Time, Monday through Friday, excluding holidays.</span></span>
-
-  - <span data-ttu-id="60694-192">有关美国的技术帮助，请在 6:00 A.M. 之间的（800）892-5234 联系 Microsoft 产品支持服务。</span><span class="sxs-lookup"><span data-stu-id="60694-192">For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 A.M.</span></span> <span data-ttu-id="60694-193">和 6:00 P.M。</span><span class="sxs-lookup"><span data-stu-id="60694-193">and 6:00 P.M.</span></span> <span data-ttu-id="60694-194">太平洋时间星期一至星期五，节假日除外。</span><span class="sxs-lookup"><span data-stu-id="60694-194">Pacific Time, Monday through Friday, excluding holidays.</span></span> <span data-ttu-id="60694-195">在加拿大，拨打（905）568-9641 凌晨8:00。</span><span class="sxs-lookup"><span data-stu-id="60694-195">In Canada, dial (905) 568-9641 between 8:00 A.M.</span></span> <span data-ttu-id="60694-196">和 8:00 P.M。</span><span class="sxs-lookup"><span data-stu-id="60694-196">and 8:00 P.M.</span></span> <span data-ttu-id="60694-197">周一至周五（节假日除外）的东部时间。</span><span class="sxs-lookup"><span data-stu-id="60694-197">Eastern Time, Monday through Friday, excluding holidays.</span></span>
-
-<span data-ttu-id="60694-198">Microsoft 支持服务将在使用服务时遵守价格、条款和条件。</span><span class="sxs-lookup"><span data-stu-id="60694-198">Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.</span></span> <span data-ttu-id="60694-199">有关详细信息，请参阅 Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)支持。</span><span class="sxs-lookup"><span data-stu-id="60694-199">For details, see Microsoft Support at [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142).</span></span>
-
-</div>
+<span data-ttu-id="22053-184">周末：上午6点</span><span class="sxs-lookup"><span data-stu-id="22053-184">Weekends: 6 A.M.</span></span> <span data-ttu-id="22053-185">-3 P。M</span><span class="sxs-lookup"><span data-stu-id="22053-185">- 3 P.M.</span></span> <span data-ttu-id="22053-186">（太平洋时间）</span><span class="sxs-lookup"><span data-stu-id="22053-186">(Pacific Time)</span></span>
 
 </div>
 
 <div>
 
-## <a name="for-more-information"></a><span data-ttu-id="60694-200">有关详细信息</span><span class="sxs-lookup"><span data-stu-id="60694-200">For more information</span></span>
+## <a name="customer-service-for-people-with-hearing-impairments"></a><span data-ttu-id="22053-187">针对听力损伤人士的客户服务</span><span class="sxs-lookup"><span data-stu-id="22053-187">Customer service for people with hearing impairments</span></span>
 
-<span data-ttu-id="60694-201">有关计算机辅助功能如何帮助改善残障人士的生活的详细信息，请参阅 Microsoft 辅助功能[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)。</span><span class="sxs-lookup"><span data-stu-id="60694-201">For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
+<span data-ttu-id="22053-188">如果您是失聪人士或有听力障碍的人士，可通过文本电话 (TTY/TDD) 服务访问 Microsoft 产品和客户服务：</span><span class="sxs-lookup"><span data-stu-id="22053-188">If you're deaf or hard-of-hearing, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:</span></span>
+
+  - <span data-ttu-id="22053-p113">要获得客户服务，请在周一至周五（节假日除外）的太平洋时间 6:30 A.M. 和 5:30 P.M. 之间通过 (800) 892-5234 与 Microsoft 销售信息中心联系。</span><span class="sxs-lookup"><span data-stu-id="22053-p113">For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 A.M. and 5:30 P.M. Pacific Time, Monday through Friday, excluding holidays.</span></span>
+
+  - <span data-ttu-id="22053-p114">要获得美国境内的技术帮助，请在周一至周五（节假日除外）的太平洋时间 6:00 A.M. 和 6:00 P.M. 之间通过 (800) 892-5234 与 Microsoft 产品支持服务部门联系。在加拿大，请在周一至周五（节假日除外）的东部时间 8:00 A.M. 和 8:00 P.M. 之间拨打 (905) 568-9641。</span><span class="sxs-lookup"><span data-stu-id="22053-p114">For technical assistance in the United States, contact Microsoft Product Support Services at (800) 892-5234 between 6:00 A.M. and 6:00 P.M. Pacific Time, Monday through Friday, excluding holidays. In Canada, dial (905) 568-9641 between 8:00 A.M. and 8:00 P.M. Eastern Time, Monday through Friday, excluding holidays.</span></span>
+
+<span data-ttu-id="22053-198">Microsoft 支持服务受服务使用地当时的价格、条款和条件的约束。</span><span class="sxs-lookup"><span data-stu-id="22053-198">Microsoft Support Services are subject to the prices, terms, and conditions in place at the time the service is used.</span></span> <span data-ttu-id="22053-199">有关详细信息，请参阅 Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)Support at。</span><span class="sxs-lookup"><span data-stu-id="22053-199">For details, see Microsoft Support at [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142).</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="for-more-information"></a><span data-ttu-id="22053-200">详细信息</span><span class="sxs-lookup"><span data-stu-id="22053-200">For more information</span></span>
+
+<span data-ttu-id="22053-201">有关计算机的辅助技术如何帮助改进残障人士的生活的详细信息，请参阅 Microsoft 辅助功能[http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)。</span><span class="sxs-lookup"><span data-stu-id="22053-201">For details about how accessible technology for computers helps to improve the lives of people with disabilities, see Microsoft Accessibility at [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139).</span></span>
 
 </div>
 

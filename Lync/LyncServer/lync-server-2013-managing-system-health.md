@@ -12,20 +12,20 @@ ms:contentKeyID: 48185201
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4dc692c7fb246df751d481bbb1d95c05be38cf8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5048a6ebaeef3dfe865630a65bb864ab1c6b651
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757966"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042459"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="73cd9-102">在 Lync Server 2013 中管理系统运行状况</span><span class="sxs-lookup"><span data-stu-id="73cd9-102">Managing system health in Lync Server 2013</span></span>
+# <a name="managing-system-health-in-lync-server-2013"></a><span data-ttu-id="a7484-102">在 Lync Server 2013 中管理系统运行状况</span><span class="sxs-lookup"><span data-stu-id="a7484-102">Managing system health in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757966"
 
 <span> </span>
 
-<span data-ttu-id="73cd9-103">_**主题上次修改时间：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="73cd9-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="a7484-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="a7484-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="73cd9-104">系统运行状况管理和监视已集成到整个 Lync Server 2013 运行状况管理和监视。</span><span class="sxs-lookup"><span data-stu-id="73cd9-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="73cd9-105">有关详细信息，请参阅[Lync Server 2013 中的 "健康配置](lync-server-2013-health-configuration-in-lync-server.md)"。</span><span class="sxs-lookup"><span data-stu-id="73cd9-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
+<span data-ttu-id="a7484-104">系统运行状况管理和监控集成到整个 Lync Server 2013 运行状况管理和监控。</span><span class="sxs-lookup"><span data-stu-id="a7484-104">System health management and monitoring is integrated into the overall Lync Server 2013 health management and monitoring.</span></span> <span data-ttu-id="a7484-105">有关详细信息，请参阅[Lync Server 2013 中的健康配置](lync-server-2013-health-configuration-in-lync-server.md)。</span><span class="sxs-lookup"><span data-stu-id="a7484-105">For details, see [Health configuration in Lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).</span></span>
 
 </div>
 

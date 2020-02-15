@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：准备和安装最佳做法分析器
+title: Lync Server 2013：准备和安装最佳实践分析工具
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f5992b45d8930bac880f66422d10ddbd4b94f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c97657b42ec4ea26f5300b1d28215d0360b63cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747412"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042419"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="a7f14-102">在 Lync Server 2013 中准备和安装最佳做法分析器</span><span class="sxs-lookup"><span data-stu-id="a7f14-102">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="5e49d-102">在 Lync Server 2013 中准备和安装最佳实践分析程序</span><span class="sxs-lookup"><span data-stu-id="5e49d-102">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,67 +35,67 @@ ms.locfileid: "41747412"
 
 <span> </span>
 
-<span data-ttu-id="a7f14-103">_**主题上次修改时间：** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="a7f14-103">_**Topic Last Modified:** 2013-11-07_</span></span>
+<span data-ttu-id="5e49d-103">_**上次修改的主题：** 2013-11-07_</span><span class="sxs-lookup"><span data-stu-id="5e49d-103">_**Topic Last Modified:** 2013-11-07_</span></span>
 
-<span data-ttu-id="a7f14-104">必须作为管理员组的成员登录才能执行本主题中所述的任务。</span><span class="sxs-lookup"><span data-stu-id="a7f14-104">You must be logged on as a member of the Administrators group to perform the tasks that are described in this topic.</span></span>
+<span data-ttu-id="5e49d-104">您必须以 Administrators 组的成员身份登录以执行本主题中介绍的任务。</span><span class="sxs-lookup"><span data-stu-id="5e49d-104">You must be logged on as a member of the Administrators group to perform the tasks that are described in this topic.</span></span>
 
 <div>
 
-## <a name="system-requirements-for-best-practices-analyzer-installation"></a><span data-ttu-id="a7f14-105">最佳做法分析器安装的系统要求</span><span class="sxs-lookup"><span data-stu-id="a7f14-105">System Requirements for Best Practices Analyzer Installation</span></span>
+## <a name="system-requirements-for-best-practices-analyzer-installation"></a><span data-ttu-id="5e49d-105">最佳做法分析器安装的系统要求</span><span class="sxs-lookup"><span data-stu-id="5e49d-105">System Requirements for Best Practices Analyzer Installation</span></span>
 
-<span data-ttu-id="a7f14-106">若要运行 Lync Server 2013、最佳做法分析程序来扫描你的环境，计算机必须运行以下任一操作系统的64位版本：</span><span class="sxs-lookup"><span data-stu-id="a7f14-106">To run Lync Server 2013, Best Practices Analyzer to scan your environment, the computer must be running a 64-bit edition of one of the following operating systems:</span></span>
+<span data-ttu-id="5e49d-106">若要运行 Lync Server 2013 （最佳实践分析工具来扫描环境），计算机必须运行以下操作系统之一的64位版本：</span><span class="sxs-lookup"><span data-stu-id="5e49d-106">To run Lync Server 2013, Best Practices Analyzer to scan your environment, the computer must be running a 64-bit edition of one of the following operating systems:</span></span>
 
-  - <span data-ttu-id="a7f14-107">Windows Server 2008 R2 Service Pack 1 （SP1）标准操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-107">Windows Server 2008 R2 with Service Pack 1 (SP1) Standard operating system</span></span>
+  - <span data-ttu-id="5e49d-107">Windows Server 2008 R2 Service Pack 1 （SP1）标准操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-107">Windows Server 2008 R2 with Service Pack 1 (SP1) Standard operating system</span></span>
 
-  - <span data-ttu-id="a7f14-108">Windows Server 2008 R2 与 SP1 企业版操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-108">Windows Server 2008 R2 with SP1 Enterprise operating system</span></span>
+  - <span data-ttu-id="5e49d-108">Windows Server 2008 R2 SP1 Enterprise 操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-108">Windows Server 2008 R2 with SP1 Enterprise operating system</span></span>
 
-  - <span data-ttu-id="a7f14-109">Windows Server 2008 R2 与 SP1 Datacenter 操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-109">Windows Server 2008 R2 with SP1 Datacenter operating system</span></span>
+  - <span data-ttu-id="5e49d-109">Windows Server 2008 R2 （包含 SP1 Datacenter 操作系统）</span><span class="sxs-lookup"><span data-stu-id="5e49d-109">Windows Server 2008 R2 with SP1 Datacenter operating system</span></span>
 
-  - <span data-ttu-id="a7f14-110">Windows Server 2012 Datacenter 操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-110">Windows Server 2012 Datacenter operating system</span></span>
+  - <span data-ttu-id="5e49d-110">Windows Server 2012 Datacenter 操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-110">Windows Server 2012 Datacenter operating system</span></span>
 
-  - <span data-ttu-id="a7f14-111">Windows Server 2012 标准操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-111">Windows Server 2012 Standard operating system</span></span>
+  - <span data-ttu-id="5e49d-111">Windows Server 2012 标准操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-111">Windows Server 2012 Standard operating system</span></span>
 
-  - <span data-ttu-id="a7f14-112">Windows Server 2012 企业版操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-112">Windows Server 2012 Enterprise operating system</span></span>
+  - <span data-ttu-id="5e49d-112">Windows Server 2012 企业版操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-112">Windows Server 2012 Enterprise operating system</span></span>
 
-  - <span data-ttu-id="a7f14-113">Windows Server 2012 R2 Datacenter 操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-113">Windows Server 2012 R2 Datacenter operating system</span></span>
+  - <span data-ttu-id="5e49d-113">Windows Server 2012 R2 Datacenter 操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-113">Windows Server 2012 R2 Datacenter operating system</span></span>
 
-  - <span data-ttu-id="a7f14-114">Windows Server 2012 R2 标准操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-114">Windows Server 2012 R2 Standard operating system</span></span>
+  - <span data-ttu-id="5e49d-114">Windows Server 2012 R2 Standard 操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-114">Windows Server 2012 R2 Standard operating system</span></span>
 
-  - <span data-ttu-id="a7f14-115">Windows Server 2012 R2 企业版操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-115">Windows Server 2012 R2 Enterprise operating system</span></span>
+  - <span data-ttu-id="5e49d-115">Windows Server 2012 R2 Enterprise 操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-115">Windows Server 2012 R2 Enterprise operating system</span></span>
 
-  - <span data-ttu-id="a7f14-116">Windows 8 操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-116">Windows 8 operating system</span></span>
+  - <span data-ttu-id="5e49d-116">Windows 8 操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-116">Windows 8 operating system</span></span>
 
-  - <span data-ttu-id="a7f14-117">Windows 7 操作系统</span><span class="sxs-lookup"><span data-stu-id="a7f14-117">Windows 7 operating system</span></span>
+  - <span data-ttu-id="5e49d-117">Windows 7 操作系统</span><span class="sxs-lookup"><span data-stu-id="5e49d-117">Windows 7 operating system</span></span>
 
-<span data-ttu-id="a7f14-118">计算机还必须运行以下内容：</span><span class="sxs-lookup"><span data-stu-id="a7f14-118">The computer must also be running the following:</span></span>
+<span data-ttu-id="5e49d-118">计算机还必须运行：</span><span class="sxs-lookup"><span data-stu-id="5e49d-118">The computer must also be running the following:</span></span>
 
-  - <span data-ttu-id="a7f14-119">Microsoft .NET Framework 4.5。</span><span class="sxs-lookup"><span data-stu-id="a7f14-119">Microsoft .NET Framework 4.5.</span></span> <span data-ttu-id="a7f14-120">对于 Lync Server 2013，必须先在服务器上手动安装64位版本的 Microsoft .NET Framework 4.5，然后再安装 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="a7f14-120">For Lync Server 2013, you must manually install the 64-bit edition of Microsoft .NET Framework 4.5 on the server prior to installing Lync Server 2013.</span></span>
+  - <span data-ttu-id="5e49d-119">Microsoft .NET Framework 4.5。</span><span class="sxs-lookup"><span data-stu-id="5e49d-119">Microsoft .NET Framework 4.5.</span></span> <span data-ttu-id="5e49d-120">对于 Lync Server 2013，在安装 Lync Server 2013 之前，必须在服务器上手动安装64位版本的 Microsoft .NET Framework 4.5。</span><span class="sxs-lookup"><span data-stu-id="5e49d-120">For Lync Server 2013, you must manually install the 64-bit edition of Microsoft .NET Framework 4.5 on the server prior to installing Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="a7f14-121">Lync Server 2013、核心组件。</span><span class="sxs-lookup"><span data-stu-id="a7f14-121">Lync Server 2013, Core Components.</span></span>
+  - <span data-ttu-id="5e49d-121">Lync Server 2013 核心组件。</span><span class="sxs-lookup"><span data-stu-id="5e49d-121">Lync Server 2013, Core Components.</span></span>
 
-  - <span data-ttu-id="a7f14-122">WMI 向后兼容程序包。</span><span class="sxs-lookup"><span data-stu-id="a7f14-122">WMI Backward Compatibility Package.</span></span> <span data-ttu-id="a7f14-123">有关详细信息，请参阅在迁移文档中[安装 WMI 向后兼容性程序包](install-wmi-backward-compatibility-package.md)。</span><span class="sxs-lookup"><span data-stu-id="a7f14-123">For details, see [Install WMI Backward Compatibility package](install-wmi-backward-compatibility-package.md) in the Migration documentation.</span></span>
+  - <span data-ttu-id="5e49d-122">WMI 向后兼容包。</span><span class="sxs-lookup"><span data-stu-id="5e49d-122">WMI Backward Compatibility Package.</span></span> <span data-ttu-id="5e49d-123">有关详细信息，请参阅迁移文档中的[安装 WMI 后向兼容性程序包](install-wmi-backward-compatibility-package.md)。</span><span class="sxs-lookup"><span data-stu-id="5e49d-123">For details, see [Install WMI Backward Compatibility package](install-wmi-backward-compatibility-package.md) in the Migration documentation.</span></span>
 
-  - <span data-ttu-id="a7f14-124">Windows PowerShell 3.0。</span><span class="sxs-lookup"><span data-stu-id="a7f14-124">Windows PowerShell 3.0.</span></span> <span data-ttu-id="a7f14-125">有关详细信息，请参阅在部署文档中[安装 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md) 。</span><span class="sxs-lookup"><span data-stu-id="a7f14-125">For details, see [Installing Windows PowerShell 3.0 for Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) in the Deployment documentation.</span></span>
+  - <span data-ttu-id="5e49d-124">Windows PowerShell 3.0。</span><span class="sxs-lookup"><span data-stu-id="5e49d-124">Windows PowerShell 3.0.</span></span> <span data-ttu-id="5e49d-125">有关详细信息，请参阅部署文档中的[安装 Windows PowerShell 3.0 For Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) 。</span><span class="sxs-lookup"><span data-stu-id="5e49d-125">For details, see [Installing Windows PowerShell 3.0 for Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) in the Deployment documentation.</span></span>
 
-<span data-ttu-id="a7f14-126">你可以在具有支持的操作系统的计算机上安装最佳做法分析器，该操作系统未运行 Lync Server 2013、Core 组件或 WMI 向后兼容性程序包，但你只能在这些计算机上使用最佳做法分析器来查看报表，而不是以运行扫描。</span><span class="sxs-lookup"><span data-stu-id="a7f14-126">You can install Best Practices Analyzer on computers with a supported operating system that are not running Lync Server 2013, Core Components or WMI Backward Compatibility Package, but you can use Best Practices Analyzer on those computers only to view reports, not to run scans.</span></span>
+<span data-ttu-id="5e49d-126">您可以在具有不运行 Lync Server 2013、核心组件或 WMI 向后兼容性程序包的受支持操作系统的计算机上安装最佳实践分析工具，但只能在这些计算机上使用最佳实践分析工具来查看报告，而不是运行扫描。</span><span class="sxs-lookup"><span data-stu-id="5e49d-126">You can install Best Practices Analyzer on computers with a supported operating system that are not running Lync Server 2013, Core Components or WMI Backward Compatibility Package, but you can use Best Practices Analyzer on those computers only to view reports, not to run scans.</span></span>
 
 </div>
 
 <div>
 
-## <a name="choosing-a-computer-for-installation"></a><span data-ttu-id="a7f14-127">选择计算机进行安装</span><span class="sxs-lookup"><span data-stu-id="a7f14-127">Choosing a Computer for Installation</span></span>
+## <a name="choosing-a-computer-for-installation"></a><span data-ttu-id="5e49d-127">选择计算机以进行安装</span><span class="sxs-lookup"><span data-stu-id="5e49d-127">Choosing a Computer for Installation</span></span>
 
-<span data-ttu-id="a7f14-128">我们建议在专用于 Lync Server 2013 管理的计算机上安装 Lync Server 2013 和最佳做法分析器。</span><span class="sxs-lookup"><span data-stu-id="a7f14-128">We recommend that you install Lync Server 2013, Best Practices Analyzer on a computer that is dedicated to Lync Server 2013 management.</span></span> <span data-ttu-id="a7f14-129">可以在运行 Lync Server 2013 或运行 Lync Server 2013 管理工具的管理计算机的服务器上安装该工具。</span><span class="sxs-lookup"><span data-stu-id="a7f14-129">You can install the tool on a server running Lync Server 2013 or an administrative computer running Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="a7f14-130">如果在运行 Lync Server 的服务器上安装该工具，我们建议使用该工具仅扫描该服务器。</span><span class="sxs-lookup"><span data-stu-id="a7f14-130">If you install the tool on a server that is running Lync Server, we recommend that you use the tool to scan only that server.</span></span>
+<span data-ttu-id="5e49d-128">我们建议您在专用于 Lync Server 2013 管理的计算机上安装 Lync Server 2013 和最佳实践分析工具。</span><span class="sxs-lookup"><span data-stu-id="5e49d-128">We recommend that you install Lync Server 2013, Best Practices Analyzer on a computer that is dedicated to Lync Server 2013 management.</span></span> <span data-ttu-id="5e49d-129">可以在运行 Lync Server 2013 的服务器或运行 Lync Server 2013 管理工具的管理计算机上安装该工具。</span><span class="sxs-lookup"><span data-stu-id="5e49d-129">You can install the tool on a server running Lync Server 2013 or an administrative computer running Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="5e49d-130">如果您在运行 Lync Server 的服务器上安装该工具，我们建议您使用该工具仅扫描该服务器。</span><span class="sxs-lookup"><span data-stu-id="5e49d-130">If you install the tool on a server that is running Lync Server, we recommend that you use the tool to scan only that server.</span></span>
 
 </div>
 
 <div>
 
-## <a name="installing-best-practices-analyzer"></a><span data-ttu-id="a7f14-131">安装最佳做法分析器</span><span class="sxs-lookup"><span data-stu-id="a7f14-131">Installing Best Practices Analyzer</span></span>
+## <a name="installing-best-practices-analyzer"></a><span data-ttu-id="5e49d-131">安装最佳做法分析器</span><span class="sxs-lookup"><span data-stu-id="5e49d-131">Installing Best Practices Analyzer</span></span>
 
-<span data-ttu-id="a7f14-132">您可以在[http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539)下载 Lync Server 2013 的最佳做法分析器。</span><span class="sxs-lookup"><span data-stu-id="a7f14-132">You can download the Best Practices Analyzer for Lync Server 2013 at [http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539).</span></span>
+<span data-ttu-id="5e49d-132">你可以在上[http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539)下载适用于 Lync Server 2013 的最佳实践分析工具。</span><span class="sxs-lookup"><span data-stu-id="5e49d-132">You can download the Best Practices Analyzer for Lync Server 2013 at [http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539).</span></span>
 
-<span data-ttu-id="a7f14-133">若要安装最佳做法分析器，请在要安装该工具的计算机上启动 Microsoft 安装程序文件 RtcBPA，然后按照屏幕上的说明进行操作。</span><span class="sxs-lookup"><span data-stu-id="a7f14-133">To install Best Practices Analyzer, start the Microsoft Installer file RtcBPA.msi on the computer where you want to install the tool, and then follow the instructions on the screen.</span></span> <span data-ttu-id="a7f14-134">安装程序文件的默认\<位置是系统驱动器\>\\程序文件\\Lync Server 2013\\BPA。</span><span class="sxs-lookup"><span data-stu-id="a7f14-134">The default location for installing the program files is \<system drive\>\\Program Files\\Lync Server 2013\\BPA.</span></span>
+<span data-ttu-id="5e49d-133">若要安装最佳做法分析器，请在要安装此工具的计算机上启动 Microsoft Installer 文件 RtcBPA.msi，然后按照屏幕上显示的说明进行操作。</span><span class="sxs-lookup"><span data-stu-id="5e49d-133">To install Best Practices Analyzer, start the Microsoft Installer file RtcBPA.msi on the computer where you want to install the tool, and then follow the instructions on the screen.</span></span> <span data-ttu-id="5e49d-134">安装程序文件的默认\<位置是系统驱动器\>\\程序文件\\Lync Server 2013\\BPA。</span><span class="sxs-lookup"><span data-stu-id="5e49d-134">The default location for installing the program files is \<system drive\>\\Program Files\\Lync Server 2013\\BPA.</span></span>
 
 </div>
 
