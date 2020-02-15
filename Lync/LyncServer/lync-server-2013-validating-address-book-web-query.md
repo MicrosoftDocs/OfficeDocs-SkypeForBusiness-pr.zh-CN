@@ -12,16 +12,16 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31d6a38c0c1d8a67977f9dd66da2a94b51a4f9ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2db1e1e0a94a73c520a3beb0ea1375688b106cfc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763656"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41763656"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-06-05_
+_**上次修改的主题：** 2014-06-05_
 
 
 <table>
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2014-06-05_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要权限</p></td>
-<td><p>当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行 CsAddressBookWebQuery cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<td><p>所需的权限</p></td>
+<td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsAddressBookWebQuery cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAddressBookWebQuery&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**主题上次修改时间：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-CsAddressBookWebQuery cmdlet 使管理员能够验证用户是否可以使用通讯簿 Web 查询服务搜索特定的联系人。 运行 cmdlet 时，CsAddressBookWebQuery 将首先连接到要进行身份验证的 Web 票证服务。 如果身份验证成功，该 cmdlet 将连接到通讯簿 Web 查询服务并搜索指定的联系人。 如果找到该联系人，cmdlet 将尝试将该信息返回到本地计算机。 仅当所有这些步骤都可以完成时，测试才会标记为成功。
+CsAddressBookWebQuery cmdlet 使管理员能够验证用户是否可以使用通讯簿 Web 查询服务搜索特定的联系人。 运行 cmdlet 时，CsAddressBookWebQuery 将首先连接到要进行身份验证的 Web 票证服务。 如果身份验证成功，则 cmdlet 将连接到通讯簿 Web 查询服务，并搜索指定的联系人。 如果找到该联系人，则此 cmdlet 会尝试将该信息返回到本地计算机。 只有在所有这些步骤都可以完成时，测试才会被标记为成功。
 
 有关详细信息，请参阅[CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery) Cmdlet 的帮助文档。
 
@@ -76,11 +76,11 @@ CsAddressBookWebQuery cmdlet 使管理员能够验证用户是否可以使用通
 
 ## <a name="running-the-test"></a>运行测试
 
-CsAddressBookWebQuery cmdlet 可以使用预配置的测试帐户运行（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何用户的帐户。 若要使用测试帐户运行此检查，只需指定充当搜索目标的用户的 Lync Server 池的 FQDN 和 SIP 地址。 例如：
+可以使用预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何用户的帐户运行 CsAddressBookWebQuery cmdlet。 若要使用测试帐户运行此检查，只需指定 Lync Server 池的 FQDN 以及充当搜索目标的用户的 SIP 地址。 例如：
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com"
 
-若要使用实际用户帐户运行此检查，必须创建一个包含有效用户名和密码的 Windows PowerShell 凭据对象。 然后，在代码调用 Test-CsAddressBookWebQuery 时，必须包含该凭据对象和分配给该帐户的 SIP 地址：
+若要使用实际用户帐户运行此检查，必须创建一个包含有效用户名和密码的 Windows PowerShell 凭据对象。 然后，您必须在代码调用 CsAddressBookWebQuery 时包含该凭据对象和分配给该帐户的 SIP 地址：
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -91,11 +91,11 @@ CsAddressBookWebQuery cmdlet 可以使用预配置的测试帐户运行（请参
 
 <div>
 
-## <a name="determining-success-or-failure"></a>确定成功还是失败
+## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果指定用户可以连接到通讯簿服务并检索目标用户地址，则会返回类似于以下内容的输出，并将 Result 属性标记为成功：
+如果指定的用户可以连接到通讯簿服务并检索目标用户地址，则将返回类似于以下的输出，并将 Result 属性标记为成功：
 
-TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -103,13 +103,13 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延迟：00：00：06.2611356
 
-时发生
+误差
 
-自检
+诊断
 
-如果指定的用户无法连接或者无法检索目标用户地址，则结果将显示为 "失败"，并且将在 "错误" 和 "诊断" 属性中记录其他信息：
+如果指定的用户无法连接，或者无法检索目标用户地址，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：
 
-TargetUri :https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
+TargetUrihttps://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -121,9 +121,9 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 NoEntryFound.
 
-自检
+诊断
 
-以前的输出表明由于找不到目标用户，测试失败。 你可以通过运行如下所示的命令来确定是否已将有效的 SIP 地址传递到 Test CsAddressBookWebQuery：
+以前的输出表明由于找不到目标用户而导致测试失败。 您可以通过运行与以下内容类似的命令来确定是否已将有效的 SIP 地址传递给测试 CsAddressBookWebQuery：
 
     Get-CsUser | Where-Object {$_.SipAddress -eq "sip:davidlongmire@litwareinc.com"
 
@@ -131,11 +131,11 @@ NoEntryFound.
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com" -Verbose
 
-当包含 Verbose 参数时，CsAddressBookWebQuery 将返回它在检查指定用户登录到 Lync Server 的能力时尝试的每个操作的分步帐户。 例如，此输出指示 Test CsAddressBookWebQuery 可以连接到通讯簿服务，但无法找到目标 SIP 地址：
+包含 Verbose 参数时，CsAddressBookWebQuery 将返回它在检查指定用户登录到 Lync Server 的能力时所尝试的每个操作的分步帐户。 例如，以下输出表明，CsAddressBookWebQuery 能够连接到通讯簿服务，但无法找到目标 SIP 地址：
 
-已开始 "QueryAddressBookWebService" 活动。
+"QueryAddressBookWebService" 活动已启动。
 
-呼叫通讯录 Web 查询服务。 ABWS URL =
+呼叫通讯簿 Web 查询服务。 ABWS URL =
 
 https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
@@ -147,13 +147,13 @@ https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-下面是测试 CsAddressBookWebQuery 可能失败的一些常见原因：
+以下是测试 CsAddressBookWebQuery 可能失败的一些常见原因：
 
-  - 您指定了无效的用户帐户。 你可以通过运行类似如下所示的命令来验证用户帐户是否存在：
+  - 您指定的用户帐户无效。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - 用户帐户有效，但当前未为 Lync Server 启用该帐户。 若要验证是否已启用 Lync Server 的用户帐户，请运行类似以下内容的命令：
+  - 用户帐户有效，但当前没有为 Lync Server 启用该帐户。 若要验证是否已为 Lync Server 启用了用户帐户，请运行与以下内容类似的命令：
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
@@ -161,7 +161,7 @@ https://atl-cs-001.litwareinc.com:443/groupexpansion/service.svc
 
   - 目标用户可能不在通讯簿中。
 
-  - 通讯簿可能未完全更新和复制。 您可以通过运行以下命令来强制更新您的组织中的所有通讯簿服务器：
+  - 通讯簿可能未完全更新和复制。 您可以通过运行以下命令来强制更新组织中的所有通讯簿服务器：
     
         Update-CsAddressBook
 

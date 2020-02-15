@@ -1,5 +1,5 @@
 ---
-title: 手动清除呼叫详细记录和体验数据库的质量
+title: 手动清除呼叫详细信息记录和体验质量数据库
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183859
 ms.date: 07/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50d7de2fdb63b9152731214edeff3bf9c03aa634
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f14485465e44b089e5002a04d3ed5e5a392ad4d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723992"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991857"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>在 Lync Server 2013 中手动清除 "呼叫详细信息记录" 和 "体验质量" 数据库
+# <a name="manually-purging-the-call-detail-recording-and-quality-of-experience-databases-in-lync-server-2013"></a>在 Lync Server 2013 中手动清除呼叫详细信息记录和体验质量数据库
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723992"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-07-07_
+_**上次修改的主题：** 2014-07-07_
 
-管理员可将呼叫详细信息记录 (CDR) 和/或用户体验质量 (QoE) 数据库配置为自动从数据库中清除旧记录；当已对指定数据库（CDR 或 QoE）启用清除时以及数据库中有任何记录的期限长于指定的时间量时，就会出现上述情况。例如，在每天的 1:00 AM，管理员可能会配置系统，以便从 QoE 数据库中删除期限长于 60 天的 QoE 记录。
+管理员可以将呼叫详细信息记录（CDR）和/或体验质量（QoE）数据库配置为自动从数据库中清除旧记录;如果为指定的数据库启用了清除（CDR 或 QoE），并且数据库中的任何记录的时间超过了指定的时间量，则会发生此情况。 例如，在每天的 1:00 AM，管理员可能会配置系统，以便从 QoE 数据库中删除期限长于 60 天的 QoE 记录。
 
-除了自动清除外，还添加了两个新 cmdlet--CsCdrDatabasePurge 和 CsQoEDatbasePurge--已添加到 Microsoft Lync Server 2013;这些 cmdlet 允许管理员随时手动清除 CDR 和 QoE 数据库中的记录。 例如，若要从 CDR 数据库中手动清除所有期限长于 10 天的记录，则可以使用类似于下面的命令：
+除了自动清除外，还向 Microsoft Lync Server 2013 添加了两个新 cmdlet--Invoke-cscdrdatabasepurge 和 Invoke-CsQoEDatbasePurge--。通过这些 cmdlet，管理员可以随时手动清除 CDR 和 QoE 数据库中的记录。 例如，若要从 CDR 数据库中手动清除所有期限长于 10 天的记录，则可以使用类似于下面的命令：
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 
-在前面的命令中，将从 atl-sql-001.litwareinc.com 上的监视数据库中删除呼叫详细记录和超过10天的诊断数据记录。 （呼叫详细记录是用户/会话报告。 诊断数据记录是由客户端应用程序（如 Lync 2013）上载的诊断日志。
+在上面的命令中，呼叫详细信息记录和超过10天的诊断数据记录将从 atl-sql-001.litwareinc.com 上的监控数据库中删除。 （呼叫详细信息记录是用户/会话报告。 诊断数据记录是由客户端应用程序（如 Lync 2013）上载的诊断日志。
 
-如上所述，当运行 Invoke-CsCdrDatabasePurge cmdlet 时，您必须同时包含 PurgeCallDetaiDataOlderThanDays 和 PurgeDiagnosticDataOlderThanDays 参数。 但是，不一定要将这些参数设置为相同的值。 例如，可以清除所有期限长于 10 天的呼叫详细信息记录，同时将所有诊断数据记录保留在数据库中。 若要执行此操作，请将 PurgeCallDetailDataOlderThanDays 设置为10，将 PurgeDiagnosticDataOlderThanDays 设置为0。 例如：
+如上所述，当运行 Invoke-CsCdrDatabasePurge cmdlet 时，您必须同时包含 PurgeCallDetaiDataOlderThanDays 和 PurgeDiagnosticDataOlderThanDays 参数。 但是，不一定要将这些参数设置为相同的值。 例如，可以清除所有期限长于 10 天的呼叫详细信息记录，同时将所有诊断数据记录保留在数据库中。 若要执行此操作，请将 PurgeCallDetailDataOlderThanDays 设置为10，并将 PurgeDiagnosticDataOlderThanDays 设置为0。 例如：
 
     Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 

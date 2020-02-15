@@ -13,16 +13,16 @@ ms:contentKeyID: 48185550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3d5354cda17b574a686dbb9e942491041d8f794
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17d412b25bb0c6f9fb2cb069afc577cba12e122f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724172"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003947"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,9 +36,9 @@ ms.locfileid: "41724172"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-18_
+_**上次修改的主题：** 2012-09-18_
 
-在开始迁移到 Lync Server 2013 之前，强烈建议你执行完整的系统备份并记录现有系统，包括每个池中托管的用户帐户的清单，以便你可以回退到 Lync Server 2010 （如果它将需要。 有多个工具和程序可用于备份和还原数据、设置和系统。
+在开始迁移到 Lync Server 2013 之前，强烈建议您执行完整的系统备份并记录现有系统，包括驻留在每个池中的用户帐户的清单，以便您可以回退到 Lync Server 2010 （如果它是必需的。 可以使用多种工具和程序来备份和还原数据、设置和系统。
 
 有关详细信息和过程，请参阅[备份和还原 Lync Server 2010](http://go.microsoft.com/fwlink/p/?linkid=265417) 。
 

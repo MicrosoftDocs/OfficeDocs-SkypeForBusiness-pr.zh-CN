@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：创建或修改站点或用户组的电话拨入式会议 PIN 设置
+title: Lync Server 2013：创建或修改网站或用户组的电话拨入式会议 PIN 设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185326
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ec453051e6ef9786e66a2b4d5f6dc4e48d6656f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f770b4e2c6b95523b31a78a571b933382e636de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734262"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41993857"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-dial-in-conferencing-pin-settings-in-lync-server-2013-for-a-site-or-group-of-users"></a>在 Lync Server 2013 中创建或修改站点或用户组的电话拨入式会议 PIN 设置
+# <a name="create-or-modify-dial-in-conferencing-pin-settings-in-lync-server-2013-for-a-site-or-group-of-users"></a>在 Lync Server 2013 中为一个站点或一组用户创建或修改电话拨入式会议 PIN 设置
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41734262"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-18_
+_**上次修改的主题：** 2012-10-18_
 
-按照以下步骤创建或修改用户级电话拨入式会议个人识别码（PIN）策略。 有关如何更改全局 PIN 策略的详细信息，请参阅[在 Lync Server 2013 中修改默认电话拨入式会议 PIN 设置](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)。
+按照以下步骤创建或修改用户级别或站点级别电话拨入式会议的个人标识号 (PIN) 策略。 有关如何更改全局 PIN 策略的详细信息，请参阅[在 Lync Server 2013 中修改默认电话拨入式会议 PIN 设置](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)。
 
 <div>
 
 ## <a name="to-create-a-user-or-site-pin-policy"></a>创建用户或站点 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击“**会议**”，然后单击“**PIN 策略**”。
+3.  在左侧导航栏中，单击“会议”****，然后单击“PIN 策略”****。
 
 4.  在“PIN 策略”**** 页上，单击“新建”****，然后执行下列操作之一：
     
       - 要创建用户级别的策略，请单击“用户策略”****。在“新建 PIN 策略”**** 的“名称”**** 中，键入描述该策略的名称。
     
-      - 若要创建站点级别的策略，请单击“**站点策略**”。在“**选择站点**”搜索字段中，键入要为其创建策略的站点的全部或部分名称。在站点列表中，单击所需的站点，然后单击“**确定**”。
+      - 要创建站点级别的策略，请单击“站点策略”****。在“选择站点”**** 搜索字段中，键入要为其创建策略的站点的全部或部分名称。在站点列表中，单击所需的站点，然后单击“确定”****。
 
 5.  在“说明”**** 字段中，键入 PIN 策略的说明。
 
@@ -80,25 +80,25 @@ _**主题上次修改时间：** 2012-10-18_
     
     </div>
 
-13. 单击“**提交**”。
+13. 单击“提交”****。
 
 </div>
 
 <div>
 
-## <a name="to-change-a-user-or-site-pin-policy"></a>更改用户或网站的 PIN 策略
+## <a name="to-change-a-user-or-site-pin-policy"></a>更改用户或站点 PIN 策略
 
-1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击“**会议**”，然后单击“**PIN 策略**”。
+3.  在左侧导航栏中，单击“会议”****，然后单击“PIN 策略”****。
 
-4.  在“**PIN 策略**”页上，单击要更改的 PIN 策略，再单击“**编辑**”，然后单击“**显示详细信息**”。
+4.  在“PIN 策略”**** 页上，单击要更改的 PIN 策略，再单击“编辑”****，然后单击“显示详细信息”****。
 
-5.  在“**编辑 PIN 策略**”中，修改任意策略设置（不能修改的策略名称除外）。
+5.  在“编辑 PIN 策略”**** 中，修改任意策略设置（不能修改的策略名称除外）。
 
-6.  单击“**提交**”。
+6.  单击“提交”****。
 
 </div>
 

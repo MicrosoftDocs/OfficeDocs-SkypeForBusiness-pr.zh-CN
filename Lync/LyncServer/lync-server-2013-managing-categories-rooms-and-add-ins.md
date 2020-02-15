@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理类别、聊天室和加载项
+title: Lync Server 2013：管理类别、聊天室和外接程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89d7caadc6ccc4bd7c1030a3e7020129be14a68f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c1fcd4422ca855e7247c57d07887b9df20ea695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738762"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>在 Lync Server 2013 中管理类别、聊天室和加载项
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>在 Lync Server 2013 中管理类别、聊天室和外接程序
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738762"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
-在 Lync Server 2013 控制面板中，或通过使用 Windows PowerShell cmdlet，持久聊天管理员可以使用**持久聊天**页面创建类别和加载项。对于管理持久聊天室，管理员可以使用 Windows PowerShell cmdlet。 或者，如果持久聊天管理员也是 SIP 启用的，则他们可以使用 Lync 客户端启动网页来创建和管理聊天室。
+在 Lync Server 2013 控制面板中，或通过使用 Windows PowerShell cmdlet，持久聊天管理员可以使用 "**持久聊天**" 页面创建类别和外接程序。若要管理持久聊天室，管理员可以使用 Windows PowerShell cmdlet。 或者，如果持久聊天管理员也是启用了 SIP 的，则可以使用 Lync 客户端启动网页来创建和管理聊天室。
 
-以下主题介绍如何创建和使用类别和聊天室。
+以下主题介绍了如何创建和使用类别与聊天室。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中创建或编辑新类别](lync-server-2013-creating-or-editing-a-new-category.md)
 
   - [在 Lync Server 2013 中创建或编辑新聊天室](lync-server-2013-creating-or-editing-a-new-room.md)
 
-  - [在 Lync Server 2013 中创建新的聊天室外接程序](lync-server-2013-creating-new-add-ins-for-rooms.md)
+  - [在 Lync Server 2013 中为聊天室创建新的外接程序](lync-server-2013-creating-new-add-ins-for-rooms.md)
 
-  - [在 Lync Server 2013 中设置谁可以在大会堂聊天室发布消息](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+  - [在 Lync Server 2013 中设置可以在大会堂聊天室中发布邮件的权限](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
 
   - [在 Lync Server 2013 中禁用或启用聊天室](lync-server-2013-disabling-or-enabling-a-chat-room.md)
 
@@ -59,7 +59,7 @@ _**主题上次修改时间：** 2012-10-06_
 
   - [在 Lync Server 2013 中删除聊天室或类别](lync-server-2013-deleting-a-chat-room-or-category.md)
 
-  - [在 Lync Server 2013 中删除消息或清除作废的消息](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+  - [在 Lync Server 2013 中删除邮件或清除过时邮件](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
 
 </div>
 

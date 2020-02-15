@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： P2P 摘要子报表
+title: Lync Server 2013： P2P 摘要子报告
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185950
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3cff1eb86376068d53651f0d88224bf7f030921
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47da588037fd3db70fc277c91b919185f48a9286
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755396"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Lync Server 2013 中的 P2P 摘要子报表
+# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Lync Server 2013 中的 P2P 摘要子报告
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755396"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-21_
+_**上次修改的主题：** 2012-10-21_
 
-P2P 摘要子报表对失败对等通信会话提供一个总体视图。
+P2P 摘要子报表对失败点对点通信会话提供一个总体视图。
 
 <div>
 
@@ -60,28 +60,28 @@ P2P 摘要子报表对失败对等通信会话提供一个总体视图。
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>从</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>时间范围的开始日期和时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>到</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>时间范围的结束日期和时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>池</strong></p></td>
-<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“<strong>[所有]</strong>”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”<strong></strong>查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +107,7 @@ P2P 摘要子报表对失败对等通信会话提供一个总体视图。
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -119,7 +119,7 @@ P2P 摘要子报表对失败对等通信会话提供一个总体视图。
 <tr class="even">
 <td><p><strong>故障率</strong></p></td>
 <td><p>否</p></td>
-<td><p>失败的对等会话百分比。</p></td>
+<td><p>失败的点对点会话百分比。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>按形式列出的会话</strong></p></td>

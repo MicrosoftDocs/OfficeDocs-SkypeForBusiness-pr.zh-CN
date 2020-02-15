@@ -12,16 +12,16 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66b95df76c812b50ff9c220ea208406a5ab7cf2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 179bde8b8e23cc21fb95fa93e3c6cbeb7f381630
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741022"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41741022"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-01-30_
+_**上次修改的主题：** 2013-01-30_
 
-使用以下过程删除组呼叫装货号码范围。
+使用以下过程可删除组内呼叫装货号码范围。
 
 <div>
 
-## <a name="to-delete-a-call-pickup-group-number-range"></a>删除呼叫装货组号范围
+## <a name="to-delete-a-call-pickup-group-number-range"></a>删除呼叫应答组号码范围
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或必要的用户权限登录到安装了 Lync Server 管理外壳的计算机，如在[Lync Server 2013 中的 "委派设置权限](lync-server-2013-delegate-setup-permissions.md)" 中所述。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 3.  在命令行中键入：
     
@@ -59,7 +59,7 @@ _**主题上次修改时间：** 2013-01-30_
     
 
     > [!NOTE]  
-    > 有关更多选项的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">Remove-CsCallParkOrbit</A>。
+    > 有关更多选项的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit">CsCallParkOrbit</A>。
 
     
     </div>
@@ -71,10 +71,10 @@ _**主题上次修改时间：** 2013-01-30_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中创建或修改呼叫寄存的轨道范围](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+[在 Lync Server 2013 中创建或修改呼叫寄存通道范围](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
-[Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
+[CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  
 [CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Get-CsCallParkOrbit)  
   
 

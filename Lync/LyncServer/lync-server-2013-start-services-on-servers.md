@@ -12,16 +12,16 @@ ms:contentKeyID: 48185912
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6474071e7f95228f3c04c4931b4f899df68b40
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee5e58f316acde9e1aadeee80cfccb6ee1b189be
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764408"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41764408"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-09-03_
+_**上次修改的主题：** 2014-09-03_
 
-若要成功完成此过程，你应作为 RTCUniversalServerAdmins 组成员的用户登录，或者委派了正确的权限。 有关委派权限的详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)主题。
+要成功完成此过程，应以 RTCUniversalServerAdmins 组成员或委派了相应权限的用户身份登录。 有关委派权限的详细信息，请参阅[在 Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)主题。
 
-在服务器上安装本地配置存储后，安装 Lync Server 2013 组件，并在前端服务器或前端服务器上配置证书，必须在服务器上启动 Lync Server 2013 服务。 使用以下过程在部署中的每个前端服务器上启动服务。
+在服务器上安装本地配置存储后，安装 Lync Server 2013 组件，并在前端服务器或前端服务器上配置证书，必须在服务器上启动 Lync Server 2013 服务。 使用以下过程可在部署中的每台前端服务器上启动服务。
 
 <div>
 
-## <a name="to-start-services-on-a-standard-edition-or-front-end-server"></a>在标准版或前端服务器上启动服务
+## <a name="to-start-services-on-a-standard-edition-or-front-end-server"></a>启动 Standard Edition Server 或前端服务器上的服务
 
-1.  在 Lync Server 部署向导的 " **Lync server 2013** " 页面上，单击 "**步骤4：启动服务**" 旁边的 "**运行**"。
+1.  在 Lync Server 部署向导中，在 " **Lync server 2013** " 页上，单击 "**步骤4：启动服务**" 旁边的 "**运行**"。
 
-2.  在 "**启动服务**" 页面上，单击 "**下一步**" 以启动服务器上的 Lync Server 服务。
+2.  在 "**启动服务**" 页上，单击 "**下一步**" 以启动服务器上的 Lync Server 服务。
 
-3.  在“**正在执行命令**”页上，成功启动所有服务后，单击“**完成**”。
+3.  在“正在执行命令”**** 页上，成功启动所有服务后，单击“完成”****。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 在服务器上启动服务的命令是报告服务已开始的最佳方法。 该命令可能无法反映服务的实际状态。 我们建议你在 "<STRONG>启动服务</STRONG>" 后立即使用 "步骤<STRONG>服务状态" （可选）</STRONG> ，打开 MICROSOFT 管理控制台（MMC）并确认服务已成功启动。 如果任何 Lync Server 服务尚未启动，可以右键单击 MMC 中的该服务，然后单击 "<STRONG>启动</STRONG>"。
+    > 用于启动服务器上的服务的命令是报告实际上已启动服务的最佳方法。 该命令可能无法反映服务的实际状态。 建议使用紧随“启动服务”<STRONG></STRONG>之后的步骤“服务状态(可选)”<STRONG></STRONG>来打开 Microsoft 管理控制台 (MMC) 并确认服务已成功启动。 如果任何 Lync Server 服务尚未启动，则可以在 MMC 中右键单击该服务，然后单击 "<STRONG>启动</STRONG>"。
 
     
     </div>

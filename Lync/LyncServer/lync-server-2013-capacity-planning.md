@@ -12,16 +12,16 @@ ms:contentKeyID: 49352446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6e2abe708554a24fabfe5c408d969dc0789c683
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ca40d198a03ccae9924292fdf85eb2c10cc5841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737002"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737002"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-07-31_
+_**上次修改的主题：** 2013-07-31_
 
-本部分中的主题帮助你了解如何规划和部署 Lync Server 2013，以便你可以充分规划组织中的用户数并规划其活动生成的服务器负载。
+本节中的主题可帮助您了解如何规划和部署 Lync Server 2013，以便您可以充分规划组织中的用户数并规划其活动生成的服务器负载。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [使用用户模型对 Lync Server 2013 进行容量规划](lync-server-2013-capacity-planning-using-the-user-models.md)
 
   - [估计 Lync Server 2013 的语音使用和流量](lync-server-2013-estimating-voice-usage-and-traffic.md)
 
-  - [Lync Server 2013 中的中介服务器部署指南](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [Lync Server 2013 中的中介服务器的部署指南](lync-server-2013-deployment-guidelines-for-mediation-server.md)
 
   - [Lync Server 2013 中的用户模型](lync-server-2013-user-models.md)
 
-  - [使用 Lync Server 2013 的容量计划计算器](lync-server-2013-capacity-planning-calculator.md)
+  - [使用 Lync Server 2013 的容量规划计算器](lync-server-2013-capacity-planning-calculator.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 63969663
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4212e8616916f6a2a256530a7a0b74c9811f166d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7d411733712cf274760a45cd4e315b4f02a66e0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736852"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736852"
 
 <span> </span>
 
-_**主题上次修改时间：** 2015-01-26_
+_**上次修改的主题：** 2015-01-26_
 
-当管理员对 Lync 服务器进行某种类型的更改时（例如，当管理员创建新的语音策略或更改通讯簿服务器配置设置）时，该更改将记录在中央管理存储中。 然后，必须将更改复制到运行 Lync Server 服务或服务器角色的所有计算机。
+当管理员将某种类型的更改更改为 Lync Server 时（例如，当管理员创建新的语音策略或更改通讯簿服务器配置设置）时，会将更改记录在中央管理存储中。 反过来，必须将更改复制到运行 Lync Server 服务或服务器角色的所有计算机。
 
-要复制数据，主复制程序（在中央管理服务器上运行）会为所更改的配置数据创建一个快照。 然后，将该快照的副本发送到运行 Lync Server 服务或服务器角色的每台计算机。 在这些计算机上，复制代理将接收快照并上载所更改的数据。 然后，代理会向主复制程序发送一条消息，报告最新的复制状态。
+若要复制数据，主复制器（在中央管理服务器上运行）将创建更改的配置数据的快照。 然后，将此快照的副本发送到运行 Lync Server 服务或服务器角色的每台计算机。 在这些计算机上，复制代理接收快照并上载已更改的数据。 然后，代理会将报告最新复制状态的邮件发送到主复制器。
 
-CsManagementStoreReplicationStatus cmdlet 使你能够验证你的组织中的所有（或所有） Lync Server 计算机的复制状态。
+Get-csmanagementstorereplicationstatus cmdlet 使您能够验证组织中的所有（或全部） Lync Server 计算机的复制状态。
 
-谁可以运行此 cmdlet？ 默认情况下，以下各组的成员有权在本地运行 Get-CsManagementStoreReplicationStatus cmdlet：RTCUniversalUserAdmins、RTCUniversalServerAdmins。
+谁可以运行此 cmdlet？ 默认情况下，以下组的成员有权在本地运行 Get-csmanagementstorereplicationstatus cmdlet： RTCUniversalUserAdmins、RTCUniversalServerAdmins。
 
-若要返回此 cmdlet 分配到的所有 RBAC 角色（包括你自己创建的任何自定义 RBAC 角色）的列表，请从 Windows PowerShell 提示符处运行以下命令：
+若要返回此 cmdlet 分配到的所有 RBAC 角色的列表（包括您自己创建的任何自定义 RBAC 角色），请从 Windows PowerShell 提示符处运行以下命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsManagementStoreReplicationStatus"}
 
@@ -54,7 +54,7 @@ CsManagementStoreReplicationStatus cmdlet 使你能够验证你的组织中的�
 ## <a name="see-also"></a>另请参阅
 
 
-[CsManagementStoreReplicationStatus](https://docs.microsoft.com/powershell/module/skype/Get-CsManagementStoreReplicationStatus)  
+[Get-csmanagementstorereplicationstatus](https://docs.microsoft.com/powershell/module/skype/Get-CsManagementStoreReplicationStatus)  
   
 
 </div>

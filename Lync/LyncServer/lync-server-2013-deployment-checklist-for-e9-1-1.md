@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： E9 的部署清单-1-1
+title: Lync Server 2013： E9-1-1 的部署清单
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efe5c55386eb431c91e798ad960cc510ce33ce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 330f1a31f9a91d69c9e2514d0744abc72806bf4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763446"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 中的 E9 的部署清单-1
+# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 中的 E9-1-1 的部署清单
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41763446"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-03_
+_**上次修改的主题：** 2012-10-03_
 
-若要有效规划增强的9-1-1 （E9-1-1），请确保包含以下部署要求：
+要有效规划增强型 9-1-1 (E9-1-1)，请确保包括以下部署要求：
 
-  - 部署 E9 的先决条件-1-1。
+  - 部署 E9-1-1 的先决条件。
 
-  - 部署 E9 所需的步骤 1-1。
+  - 部署 E9-1-1 所需的步骤。
 
 <div>
 
 ## <a name="deployment-prerequisites-for-e9-1-1"></a>E9-1-1 的部署先决条件
 
-在部署 E9-1 之前，你必须已部署 Lync Server 内部服务器，包括中央管理存储、前端池或标准版服务器、一个或多个中介服务器或中介服务器池以及 Lync Server 客户端。 此外，E9-1-1 部署需要指向已认证 E9-1-1 服务提供商的 SIP 中继或指向公用电话交换网 (PSTN) 的紧急位置标识号 (ELIN) 网关。 Lync Server 支持仅在美国境内使用 E9 服务提供商。
+在部署 E9-1-1 之前，必须已经部署了 Lync Server 内部服务器，包括中央管理存储、前端池或 Standard Edition 服务器、一个或多个中介服务器或中介服务器池以及 Lync Server 客户端。 此外，E9-1-1 部署需要指向已认证 E9-1-1 服务提供商的 SIP 中继或指向公用电话交换网 (PSTN) 的紧急位置标识号 (ELIN) 网关。 Lync Server 仅支持在美国境内使用 E9-1-1 服务提供商。
 
 </div>
 
@@ -55,7 +55,7 @@ _**主题上次修改时间：** 2012-10-03_
 
 ## <a name="deployment-process"></a>部署过程
 
-下表概述了 E9-1-1 部署过程。 有关部署步骤的详细信息，请参阅部署文档中[Lync Server 2013 中的 "配置增强的 9-1-1](lync-server-2013-configure-enhanced-9-1-1.md) "。
+下表概述了 E9-1-1 部署过程。 有关部署步骤的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置增强型 9-1-1](lync-server-2013-configure-enhanced-9-1-1.md) 。
 
 
 <table>
@@ -77,13 +77,13 @@ _**主题上次修改时间：** 2012-10-03_
 <tr class="odd">
 <td><p>配置语音用法、路由和中继配置</p></td>
 <td><ol>
-<li><p>创建新的 PSTN 用法记录。这与位置策略中的<strong>PSTN 用法</strong>设置所用的名称相同。</p></li>
-<li><p>创建或分配一个语音路由给上一步中创建的 PSTN 用法记录，然后将网关属性指向 E9-1-1 SIP 中继或 ELIN 网关。 </p></li>
+<li><p>创建新的 PSTN 用法记录。这与位置策略中的“PSTN 用法”<strong></strong>设置所用的名称相同。</p></li>
+<li><p>创建或分配一个语音路由给上一步中创建的 PSTN 用法记录，然后将网关属性指向 E9-1-1 SIP 中继或 ELIN 网关。</p></li>
 <li><p>对于 SIP 中继 E9-1-1 服务提供商，设置将使用 <strong>Set-CsTrunkConfiguration –EnablePIDFLOSupport</strong> cmdlet 处理 SIP 上的 E9-1-1 呼叫以传递 PIDF-LO 数据的中继。</p></li>
 <li><p>（可选）对于 SIP 中继 E9-1-1 服务提供商，为未被 E9-1-1 服务提供商的 SIP 中继处理的呼叫创建并分配本地 PSTN 路由。如果与 E9-1-1 服务提供商的连接不可用，将使用此路由。如果受 E9-1-1 服务提供商支持，则向网关分配一个中继配置规则，以便将 911 拨号字符串转换为国家和/或地区紧急呼叫响应中心 (ECRC) 的外线直拨分机 (DID) 号码。</p></li>
 </ol></td>
 <td><p>CSVoiceAdmin</p></td>
-<td><p><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">在 Lync Server 2013 中配置 E9-1 个语音路由</a></p></td>
+<td><p><a href="lync-server-2013-configure-an-e9-1-1-voice-route.md">在 Lync Server 2013 中配置 E9-1-1 语音路由</a></p></td>
 </tr>
 <tr class="even">
 <td><p>创建位置策略，并将其分配给用户和子网</p></td>
@@ -97,14 +97,14 @@ _**主题上次修改时间：** 2012-10-03_
 <td><p>CSVoiceAdmin</p>
 <p>CSLocationAdmin（创建位置策略除外）</p></td>
 <td><p><a href="lync-server-2013-create-location-policies.md">在 Lync Server 2013 中创建位置策略</a></p>
-<p><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">在 Lync Server 2013 中将位置策略添加到网络网站</a></p>
-<p><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">在 Lync Server 2013 中将子网与 E9 的网络站点相关联-1</a></p></td>
+<p><a href="lync-server-2013-add-a-location-policy-to-a-network-site.md">在 Lync Server 2013 中向网络站点添加位置策略</a></p>
+<p><a href="lync-server-2013-associate-subnets-with-network-sites-for-e9-1-1.md">将子网与 Lync Server 2013 中的 E9-1-1 的网络站点相关联</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>配置位置数据库</p></td>
 <td><ol>
 <li><p>使用网络元素到位置的映射填充数据库。</p></li>
-<li><p>对于 ELIN 网关，将 ELINs 添加到&lt;"&gt;公司名称" 列。</p></li>
+<li><p>对于 ELIN 网关，将 Elin 添加到&lt;"&gt;公司名称" 列。</p></li>
 <li><p>配置与 E9-1-1 服务提供商的连接以验证地址。</p></li>
 <li><p>验证 E9-1-1 服务提供商的地址。</p></li>
 <li><p>发布更新的数据库。</p></li>
@@ -112,7 +112,7 @@ _**主题上次修改时间：** 2012-10-03_
 </ol></td>
 <td><p>CSVoiceAdmin</p>
 <p>CSLocationAdmin</p></td>
-<td><p><a href="lync-server-2013-configure-the-location-database.md">Configure the location database in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-the-location-database.md">在 Lync Server 2013 中配置位置数据库</a></p></td>
 </tr>
 <tr class="even">
 <td><p>配置高级功能（可选）</p></td>

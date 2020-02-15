@@ -13,16 +13,16 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f9bed4262adcabdb23e5b5b85e7de43292d18b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8edaf6c8d912e9784a0a3df6dfe27a45aa873e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727552"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,37 +36,37 @@ ms.locfileid: "41727552"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-28_
+_**上次修改的主题：** 2012-09-28_
 
-此过程会将语音路由更改为使用 Lync Server 2013 中介服务器，而不是旧版 Office 通信服务器 2007 R2 中介服务器。
+此过程将语音路由更改为使用 Lync Server 2013 中介服务器，而不是旧版 Office 通信服务器 2007 R2 中介服务器。
 
 <div>
 
-## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>将语音路由更改为使用新的中介服务器
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>将语音路由更改为使用新中介服务器
 
 1.  Lync Server 2013 控制面板
 
-2.  在左窗格中，选择 "**语音路由**"，然后选择 "**路由**"。
+2.  在左窗格中，选择“语音路由”****，然后选择“路由”****。
 
-3.  单击 "**新建**" 以创建新的语音路由。
+3.  单击“新建”**** 以创建新语音路由。
 
 4.  填写以下字段：
     
-      - **名称**：键入语音路线的描述性名称。 对于本文档，我们将使用**W15PSTNRoute**。
+      - **名称**：键入语音路由的描述性名称。在本文档中，我们使用 **W15PSTNRoute**。
     
-      - **说明**：键入语音路线的简短说明。
+      - **说明**：键入语音路由的简要说明。
 
-5.  跳过其余所有分区，直到您到达**相关网关**。 单击“添加”****。 选择新的默认网关，然后单击 **"确定"**。
+5.  跳过所有其余部分，直到到达“关联网关”****。单击“添加”****。选择新默认网关，然后单击“确定”****。
 
-6.  在 "**关联的 PSTN 用法**" 下，单击 "**选择**"。
+6.  在“关联的 PSTN 用法”**** 下，单击“选择”****。
 
-7.  在 "**选择 PSTN 使用记录**" 页面上，选择一个记录名称，然后单击 **"确定"**。
+7.  从“选择 PSTN 用法记录”**** 页中，选择一个记录名称，然后单击“确定”****。
 
-8.  从新的 "**语音路由**" 页面上，单击 **"确定"** 以创建**语音路由**。
+8.  从“新建语音路由”**** 页中，单击“确定”**** 以创建“语音路由”****。
 
-9.  从 "**语音路由**" 页面上，选择 "**传送**"。
+9.  从“语音路由”**** 页中，选择“路由”****。
 
-10. 将新创建的路由移动到列表顶部，然后选择 "**提交**"。
+10. 将新创建的路由移至列表的顶部，然后选择“提交”****。
 
 </div>
 

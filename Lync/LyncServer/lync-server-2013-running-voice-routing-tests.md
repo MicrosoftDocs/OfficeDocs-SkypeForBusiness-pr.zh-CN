@@ -12,16 +12,16 @@ ms:contentKeyID: 48184185
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 869966f5d315fdfaa92409a7586b9eec8fd01ec4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a04188d671c514557107a7e54eab9ea00d00f2a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765030"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765030"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-Lync Server 2013 提供了两种用于测试语音路线的不同方法：您可以针对任何电话号码和任何语音路线执行非正式的特殊测试;或者，您可以使用语音路线测试案例执行更正式的测试。 通过正式测试，你可以定义要拨打的号码以及要雇用的拨号计划和语音策略等方面的情况，Lync Server 可以验证所提供的号码是否可以成功地路由到 PSTN 网络。 这两种方法都将在本文档的后续部分中进行介绍。
+Lync Server 2013 提供了两种不同的测试语音路由的方法：您可以对任何电话号码和任何语音路由执行非正式的临时测试;或者，您可以使用语音路由测试用例进行更正式的测试。 通过正式测试，您可以定义要拨打的号码以及要使用的拨号计划和语音策略等事项，并且 Lync Server 可以验证是否已将所提供的号码成功路由到 PSTN 网络。 本文档的后续章节中将介绍这两种方法。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中运行非正式的语音路由测试](lync-server-2013-run-informal-voice-routing-tests.md)
+  - [在 Lync Server 2013 中运行非正式语音路由测试](lync-server-2013-run-informal-voice-routing-tests.md)
 
-  - [在 Lync Server 2013 中运行语音路由测试案例](lync-server-2013-run-voice-routing-test-cases.md)
+  - [在 Lync Server 2013 中运行语音路由测试用例](lync-server-2013-run-voice-routing-test-cases.md)
 
 </div>
 

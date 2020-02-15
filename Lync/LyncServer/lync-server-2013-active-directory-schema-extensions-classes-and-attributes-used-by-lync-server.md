@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Lync Server 使用的 Active Directory 架构扩展、类和属性
+title: Lync Server 2013： Lync Server 使用的 Active Directory 架构扩展、类和属性
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ec6b3eff05ba27b41488aea49bb0347d058b6f0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6868c98fd8ba78514d1e88c52075cbcccc50719b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735192"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41735192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-19_
+_**上次修改的主题：** 2012-06-19_
 
-本参考部分包含以下信息：
+本参考部分包括以下信息：
 
-  - Lync Server 2013 的新的或已更改的 Active Directory 架构扩展
+  - Lync Server 2013 的新的或更改的 Active Directory 架构扩展
     
-    Active Directory 架构包含可在 Active Directory 林中创建的每个对象类的正式定义。 该架构还包含可存在于 Active Directory 对象上的每个属性的正式定义。 Active Directory 全局编录包含林的所有对象的副本，以及每个对象的属性子集。 本部分介绍 Lync Server 2013 中新增或更改的类和属性。
+    Active Directory 架构包含可在 Active Directory 林中创建的每个对象类的正式定义。 该架构还包含可存在于 Active Directory 对象上的每个属性的正式定义。 Active Directory 全局编录包含林中所有对象的副本，以及每个对象的属性子集。 本节介绍了在 Lync Server 2013 中新增或更改的类和属性。
 
   - Lync Server 使用的所有类，以及每个类的说明
 
   - Lync Server 使用的所有属性，以及每个属性的说明
 
-  - Lync Server 使用的类列表，每个类都可能包含的属性
+  - Lync Server 使用的类的列表，每个类的属性可能包含
 
-  - 全局设置和对象，以及林准备期间创建的通用服务和管理组
+  - 全局设置和对象，以及在林准备过程中创建的通用服务组和管理组
 
-  - 在域准备期间在域根和内置容器上创建的访问控制条目（Ace）
+  - 域准备过程中在域根和内置容器中创建的访问控制项 (ACE)
 
-  - 通过授予\_CsSetupPermission Cmdlet 对 Active Directory 组织单位（OU）所做的更改。
+  - 通过 Grant\_CsSetupPermission Cmdlet 在 Active Directory 组织单位（OU）上进行的更改。
 
-  - 通过授予\_CsOUPermission Cmdlet 在 ACTIVE Directory OU 上进行的更改。
+  - 通过 Grant\_CsOUPermission Cmdlet 在 ACTIVE Directory OU 中进行的更改。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的架构更改](lync-server-2013-schema-changes-in-lync-server-2013.md)
 
@@ -71,11 +71,11 @@ _**主题上次修改时间：** 2012-06-19_
 
   - [Lync Server 2013 中的林准备所做的更改](lync-server-2013-changes-made-by-forest-preparation.md)
 
-  - [Lync Server 2013 中的域准备进行的更改](lync-server-2013-changes-made-by-domain-preparation.md)
+  - [Lync Server 2013 中的域准备所做的更改](lync-server-2013-changes-made-by-domain-preparation.md)
 
-  - [Lync Server 2013 中的 "授权-CsSetupPermission" 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
+  - [Lync Server 2013 中的 CsSetupPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission)
 
-  - [Lync Server 2013 中的 "授权-CsOUPermission" 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
+  - [Lync Server 2013 中的 CsOUPermission 所做的更改](lync-server-2013-changes-made-by-https://docs.microsoft.com/powershell/module/skype/Grant-CsOUPermission)
 
 </div>
 

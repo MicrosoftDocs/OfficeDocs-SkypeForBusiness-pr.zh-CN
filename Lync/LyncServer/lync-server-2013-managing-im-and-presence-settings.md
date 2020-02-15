@@ -12,16 +12,16 @@ ms:contentKeyID: 48184933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cb99a3020d33223849bb6eda149d4258a6950a4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 70e50a255cbf2f9a7cb91514859e1bd546ab781d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729252"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41729252"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-14_
+_**上次修改的主题：** 2012-10-14_
 
-本节中的主题提供了可使用 Lync Server 2013 控制面板中的 " **IM 和联机状态**" 组执行的任务的分步过程。
+本节中的主题提供了可使用 Lync Server 2013 控制面板中的**IM 和联机状态**组执行的任务的分步过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中为即时消息（IM）配置文件传输和 URL 筛选](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)
 

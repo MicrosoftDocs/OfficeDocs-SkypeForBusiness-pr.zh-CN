@@ -13,12 +13,12 @@ ms:contentKeyID: 56558859
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94c29eb2aadefcb6a9f3ca9b5c11a49f7e41167a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8310d5e25b5fc3dd3ada43fcf3c8f899f60e5a7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728122"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42001257"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Skype for Business Online 中使用用户标识的 cmdlet
 
@@ -45,41 +45,41 @@ ms.locfileid: "41728122"
 
 以下 cmdlet 接受用户标识：
 
-  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))
+  - [Disable-Disable-csmeetingroom](https://technet.microsoft.com/library/jj204723\(v=ocs.15\))
 
-  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))
+  - [Enable-Disable-csmeetingroom](https://technet.microsoft.com/library/jj205062\(v=ocs.15\))
 
-  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))
+  - [CsExUmContact](https://technet.microsoft.com/library/gg412725\(v=ocs.15\))
 
-  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))
+  - [Disable-csmeetingroom](https://technet.microsoft.com/library/jj205277\(v=ocs.15\))
 
-  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))
+  - [Get-csonlineuser](https://technet.microsoft.com/library/jj994026\(v=ocs.15\))
 
-  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
+  - [CsUserAcp](https://technet.microsoft.com/library/gg398978\(v=ocs.15\))
 
-  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
+  - [新 CsExUmContact](https://technet.microsoft.com/library/gg398139\(v=ocs.15\))
 
-  - [Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
+  - [CsExUmContact](https://technet.microsoft.com/library/gg398946\(v=ocs.15\))
 
-  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
+  - [CsUserAcp](https://technet.microsoft.com/library/gg398982\(v=ocs.15\))
 
-  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))
+  - [CsExUmContact](https://technet.microsoft.com/library/gg412944\(v=ocs.15\))
 
-  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))
+  - [Disable-csmeetingroom](https://technet.microsoft.com/library/jj204831\(v=ocs.15\))
 
-  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))
+  - [CsUserAcp](https://technet.microsoft.com/library/gg413018\(v=ocs.15\))
 
-请注意，在调用其中一个 "**获取 Cs** " cmdlet 时无需指定用户标识。 在这种情况下，cmdlet 将返回指定项目的所有实例。 例如，此命令将返回已启用 Skype for Business Online 的所有用户的相关信息：
+请注意，调用**Cs** cmdlet 之一时无需指定用户标识。 在这种情况下，cmdlet 将返回指定项目的所有实例。 例如，以下命令将返回已为 Skype for Business Online 启用的所有用户的相关信息：
 
     Get-CsOnlineUser
 
-只有当你希望返回特定用户的信息时，Identity 参数才是必需的：
+只有当您要返回特定用户的信息时，Identity 参数才是必需的：
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
 ## <a name="see-also"></a>另请参阅
 
 
-[Skype for Business Online 中的身份、范围和租户](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Lync Online Cmdlet](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Skype for Business Online 中的标识、范围和租户](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Skype for Business Online cmdlet](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

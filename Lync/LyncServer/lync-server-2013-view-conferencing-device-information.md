@@ -12,16 +12,16 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5355ae418e53c44cc61340b57910993ac2afea2c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aeac19510f69eed8798c92c2d45b727cf5882978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757446"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007151"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41757446"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-20_
+_**上次修改的主题：** 2013-02-20_
 
-你可以使用 Windows PowerShell 和**CsMeetingRoom** cmdlet 查看配置为在你的组织中使用的会议设备的相关信息。 从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行**CsMeetingRoom** cmdlet。
+您可以使用 Windows PowerShell 和**disable-csmeetingroom** cmdlet 查看有关配置为在组织中使用的会议设备的信息。 从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话运行**disable-csmeetingroom** cmdlet。
 
 <div>
 
 
 > [!NOTE]  
-> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>。
+> 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上<A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 
 
 </div>
 
-如果您使用不带任何参数的**CsMeetingRoom** cmdlet，它将返回有关所有会议设备的信息。 可选参数提供不同的筛选信息的方式。 有关详细信息，请参阅[CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)的 "参数" 部分。
+如果使用不带任何参数的**disable-csmeetingroom** cmdlet，则它将返回有关所有会议设备的信息。 可选参数提供了不同的筛选信息的方法。 有关详细信息，请参阅[disable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom)的 "参数" 部分。
 
 <div>
 
@@ -62,7 +62,7 @@ _**主题上次修改时间：** 2013-02-20_
     
         Get-CsMeetingRoom
     
-    此 cmdlet 将为每个会议设备返回类似于以下内容的信息。 请注意，此示例仅显示运行此 cmdlet 时你将看到的一些信息：
+    此 cmdlet 为每个会议设备返回类似于以下内容的信息。 请注意，此示例仅显示运行此 cmdlet 时将看到的一些信息：
     
         ContactOptionFlags                : 64
         OwnerUrn                          : urn:device:roomsystem
@@ -88,13 +88,13 @@ _**主题上次修改时间：** 2013-02-20_
 
 ## <a name="viewing-information-about-a-specific-conferencing-device"></a>查看有关特定会议设备的信息
 
-  - 若要查看特定会议设备的信息，请在标识参数后添加会议设备标识（通常是 Active Directory 显示名称）。 例如：
+  - 若要查看特定会议设备的信息，请在 Identity 参数后面加上会议设备标识（通常是 Active Directory 显示名称）。 例如：
     
         Get-CsMeetingRoom -Identity "Room 1219"
 
 </div>
 
-有关详细信息，请参阅[CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) Cmdlet 的帮助主题。
+有关详细信息，请参阅[disable-csmeetingroom](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingRoom) Cmdlet 的帮助主题。
 
 </div>
 

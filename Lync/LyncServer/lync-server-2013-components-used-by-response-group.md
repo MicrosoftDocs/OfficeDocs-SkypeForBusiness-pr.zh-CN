@@ -12,20 +12,20 @@ ms:contentKeyID: 48183693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81275ca027971d661d3323fbfc175c51d4f4d7d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 508b5f22c2f56c5ce6a4bbb4afaacef10ba714e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757056"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007912"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-response-group-in-lync-server-2013"></a>Lync Server 2013 中响应组使用的组件
+# <a name="components-used-by-response-group-in-lync-server-2013"></a>Lync Server 2013 中的响应组使用的组件
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757056"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-11_
+_**上次修改的主题：** 2012-09-11_
 
-部署企业语音时，将自动启用响应组应用程序。 本部分介绍支持响应组应用程序的组件。
+当您部署企业语音时，将自动启用响应组应用程序。 本节介绍支持响应组应用程序的组件。
 
 <div>
 
@@ -45,27 +45,27 @@ _**主题上次修改时间：** 2012-09-11_
 
 以下 Microsoft Lync Server 2013 组件支持响应组应用程序：
 
-  - **应用程序服务**   应用程序服务提供用于部署、托管和管理统一通信应用程序（如响应组）的平台。 应用程序服务将自动安装在前端池中的每个前端服务器上和每个标准版服务器上。
+  - **Application service**   Application service 提供用于部署、托管和管理统一通信应用程序（如响应组）的平台。 应用程序服务将自动安装在前端池和每个 Standard Edition 服务器上的每台前端服务器上。
 
-  - **响应组应用**   程序响应组应用程序是由应用程序服务托管的统一通信应用程序之一。 当你部署响应组时，它会自动包括在内。 响应组应用程序将传入呼叫路由和排队到多个代理组。
+  - **响应组应用**   程序响应组应用程序是由应用程序服务承载的统一通信应用程序之一。 当您部署响应组时，它会自动包括在内。 响应组应用程序将传入呼叫路由并排队到代理组。
 
-  - **语言包**   支持文本到语音转换和语音识别需要语言包。 配置消息（例如欢迎消息以及其他提示、互动语音响应 (IVR) 问题和答案）时，会使用这些语音技术。 默认情况下，当你部署 Lync Server 2013 时，将安装26个受支持的语言包。
+  - **语言包**   需要语言包才能支持文本到语音转换和语音识别。 这些语音技术在配置邮件时使用，如欢迎消息和其他提示，以及交互式语音响应（IVR）问题和答案。 默认情况下，在部署 Lync Server 2013 时，会安装26个受支持的语言包。
 
-  - **音频文件**   音频文件用于邮件和保留音乐。
+  - **音频文件**   ：音频文件用于邮件和保留音乐。
 
-  - **文件存储**   响应组使用文件存储来存储音频文件。 多个响应组池可以使用相同的文件存储实例。
+  - **文件存储**   响应组使用文件存储来存储音频文件。 多个响应组池可以使用同一实例的文件存储。
 
-  - **响应组配置工具**   "响应组配置" 工具是用于创建和配置响应组的基于 web 的工具。 在安装 Web 服务时，将包括 "响应组配置" 工具。
+  - **响应组配置工具**   ：响应组配置工具是一个基于 web 的工具，用于创建和配置响应组。 当您安装 Web 服务时，将包含响应组配置工具。
 
   - **Microsoft Lync server 2013 控制面板**   您可以使用 Lync server 控制面板设置和配置响应组的代理组和队列。
 
-  - **Lync server management shell**   可以使用 Lync server management shell cmdlet 配置所有响应组设置。
+  - **Lync server 命令行**   管理程序可以使用 Lync Server 命令行管理程序 cmdlet 配置所有响应组设置。
 
-  - **Microsoft Lync 2013**   正式代理（必须先登录到组才可接受对组的呼叫）使用 Lync 2013 登录到组并注销。 如果为正式代理配置了代理组，代理将单击 Lync 2013 中的菜单项以打开 Internet Explorer，并显示用于登录和注销组的网页控制台。
+  - **Microsoft Lync 2013**   正式代理（代理必须登录到组才能接受对组的呼叫）使用 Lync 2013 登录到组并从组中注销。 如果为正式代理配置了代理组，则代理将单击 Lync 2013 中的菜单项，以打开 Internet Explorer，并显示用于登录和注销组的网页控制台。
 
-  - ****   响应组配置工具、代理的登录和注销控制台、Lync Server 控制面板和响应组客户端 web 服务需要 web services web 服务。
+  - ****   响应组配置工具（代理的登录和注销控制台、Lync Server 控制面板和响应组客户端 Web 服务）需要 web 服务 web 服务。
 
-  - **响应组客户端 web 服务**   响应组应用程序提供了客户端 web 服务，可供第三方应用程序用于检索有关代理、代理组成员身份、代理登录状态、组呼叫状态以及支持匿名呼叫的组的信息。 Lync 2013 和 Lync 2010 助理使用响应组客户端 Web 服务检索代理可用于进行匿名调用的响应组的列表。 在安装 Web 服务时，将包括客户端 web 服务。
+  - **响应组客户端 web 服务**   响应组应用程序提供了一个客户端 web 服务，该服务可供第三方应用程序用来检索有关代理、代理组成员身份、代理登录状态、组呼叫状态以及支持匿名呼叫的组的信息。 Lync 2013 和 Lync 2010 助理使用响应组客户端 Web 服务检索代理可用于进行匿名呼叫的响应组的列表。 当您安装 Web 服务时，将包含客户端 web 服务。
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 363b277003d7ca1581475ec7c1197bb0f60ccfaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d540d37dee0de37d3986c02ac2243a95fe4404
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766073"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,39 +35,39 @@ ms.locfileid: "41766073"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-21_
+_**上次修改的主题：** 2012-09-21_
 
-如果你部署了企业语音工作负荷，则必须部署 Lync Server 2013、中介服务器。 本部分介绍基本功能、依赖关系、基本拓扑和规划指南。
+如果部署企业语音工作负载，则必须部署 Lync Server 2013 （中介服务器）。 本节描述了基本功能、依赖关系、基本拓扑和规划指南。
 
-中介服务器转换信号，在某些配置中，你的内部 Lync Server 2013、企业语音基础结构和公共交换电话网络（PSTN）网关或会话初始协议（SIP）干线之间的媒体。 在 Lync Server 2013 端，中介服务器侦听单个相互 TLS （MTLS）传输地址。 在网关端，中介服务器侦听与拓扑文档中定义的中继相关联的所有关联的侦听端口。 所有合格网关必须支持 TLS，但也可以启用 TCP。 不支持 TLS 的网关将支持 TCP。
+中介服务器转换信号，在某些配置中，在内部 Lync Server 2013、企业语音基础结构和公共交换电话网络（PSTN）网关或会话初始协议（SIP）中继之间的媒体。 在 Lync Server 2013 端，中介服务器侦听单一相互 TLS （MTLS）传输地址。 在网关这一端，中介服务器侦听与拓扑文档中定义的中继关联的所有相关侦听端口。 所有合格网关必须支持 TLS，但也可以启用 TCP。 不支持 TLS 的网关将支持 TCP。
 
-如果你的环境中还有现有的公共分支 Exchange （PBX），则中介服务器处理企业语音用户和 PBX 之间的通话。 如果你的 PBX 是 IP PBX，则可以在 PBX 和中介服务器之间创建直接 SIP 连接。 如果你的 PBX 是时间段多路传输（TDM） PBX，则还必须在中介服务器和 PBX 之间部署 PSTN 网关。
+如果你的环境中还有现有的公共分支 Exchange （PBX），中介服务器将处理企业语音用户和 PBX 之间的呼叫。 如果你的 PBX 是 ip-pbx，则可以在 PBX 和中介服务器之间创建直接 SIP 连接。 如果你的 PBX 是时间段多路复用（TDM） PBX，则还必须在中介服务器和 PBX 之间部署 PSTN 网关。
 
-默认情况下，中介服务器与前端服务器 collocated。 由于性能原因，中介服务器也可以部署在独立的池中，或者，如果你部署 SIP 中继，强烈建议使用独立池。
+默认情况下，中介服务器与前端服务器并置。 由于性能原因，中介服务器也可以部署在独立的池中，如果您部署 SIP 中继，则强烈建议使用独立池。
 
-如果你将直接 SIP 连接部署到支持媒体绕过和 DNS 负载平衡的合格 PSTN 网关，则不需要独立的中介服务器池。 不需要独立的中介服务器池，因为合格的网关能够将 DNS 负载平衡到中介服务器池，并且它们可以接收来自池中的任何中介服务器的流量。
+如果将直接 SIP 连接部署到支持媒体旁路和 DNS 负载平衡的合格 PSTN 网关，则不需要独立的中介服务器池。 若要将直接 SIP 连接部署到支持媒体旁路和 DNS 负载平衡的合格的 PSTN 网关，则不需要独立的中介服务器池，因为合格的网关能够将 DNS 负载平衡到中介服务器池，并且可以从池中的任何中介服务器接收通信。
 
-我们还建议你在部署 IP-Pbx 或连接到 Internet 电话服务器提供商的会话边界控制器（SBC）时，在前端池中 collocate 中介服务器，前提是满足以下任何条件：
+如果已部署 IP-PBX 或连接到互联网电话服务供应商的会话边界控制器 (SBC)，只要满足以下其中一个条件，我们还建议您将中介服务器并置在前端池上：
 
-  - 将 IP PBX 或 SBC 配置为接收来自池中的任何中介服务器的流量，并且可以将流量统一路由到池中的所有中介服务器。
+  - IP-PBX 或 SBC 已配置为接收来自池中的任何中介服务器的通信，并且可将通信统一路由到池中的所有中介服务器。
 
-  - IP-PBX 不支持媒体绕过，但托管中介服务器的前端池可以处理语音转换，以便不应用绕过媒体的呼叫。
+  - Ip-pbx 不支持媒体旁路，但承载中介服务器的前端池可以处理对不应用媒体旁路的呼叫的语音转码。
 
-你可以使用 Microsoft Lync Server 2013、计划工具评估你想要 collocate 中介服务器的前端池是否可以处理负载。 如果你的环境无法满足这些要求，则必须部署独立的中介服务器池。
+您可以使用 Microsoft Lync Server 2013、规划工具来评估您要并置中介服务器的前端池是否可以处理负载。 如果您的环境不能满足这些要求，则必须部署独立的中介服务器池。
 
 中介服务器的主要功能如下所示：
 
   - 在 Lync Server 端对 SRTP 进行加密和解密
 
-  - 通过 TCP （对于不支持 TLS 的网关）将 SIP 转换为通过相互 TLS 的 SIP
+  - 将 TCP 上的 SIP（针对不支持 TLS 的网关）转换为相互 TLS 上的 SIP
 
-  - 在 Lync 服务器和中介服务器的网关对等之间转换媒体流
+  - 在 Lync Server 和中介服务器的网关对等之间转换媒体流
 
-  - 将网络外部的客户端连接到内部 ICE 组件，从而支持 NAT 和防火墙的媒体遍历
+  - 将网络外部的客户端连接到内部 ICE 组件，使媒体可以遍历 NAT 和防火墙
 
-  - 充当网关不支持的呼叫流的媒介，例如来自企业语音客户端的远程工作人员的呼叫
+  - 充当网关不支持的呼叫流媒介，例如来自企业语音客户端的远程工作人员的呼叫
 
-  - 在包含 SIP 中继的部署中，使用 SIP 中继服务提供商提供 PSTN 支持，从而无需 PSTN 网关
+  - 在包含 SIP 中继的部署中，配合 SIP 中继服务提供商提供 PSTN 支持，从而不再需要 PSTN 网关
 
 下图显示了在与基本 PSTN 网关和企业语音基础结构通信时，中介服务器使用的信号和媒体协议。
 
@@ -79,7 +79,7 @@ _**主题上次修改时间：** 2012-09-21_
 
 
 > [!NOTE]  
-> 如果在 PSTN 网关和中介服务器之间的网络上使用 TCP 或 RTP/RTCP （而不是 SRTP 或 SRTCP），我们建议你采取措施来帮助确保网络的安全和隐私。
+> 如果在 PSTN 网关和中介服务器之间的网络上使用 TCP 或 RTP/RTCP （而不是 SRTP 或 SRTCP），我们建议采取措施来帮助确保网络的安全和隐私。
 
 
 
@@ -87,19 +87,19 @@ _**主题上次修改时间：** 2012-09-21_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的 M:N 主干](lync-server-2013-m-n-trunk.md)
+  - [Lync Server 2013 中的 M:N 中继](lync-server-2013-m-n-trunk.md)
 
   - [Lync Server 2013 中的呼叫允许控制和中介服务器](lync-server-2013-call-admission-control-and-mediation-server.md)
 
-  - [Lync Server 2013 中的增强型 9-1-1 (E9-1-1) 和中介服务器](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
+  - [Lync Server 2013 中的增强型9-1-1 （E9-1-1）和中介服务器](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
 
-  - [Lync Server 2013 中的媒体绕过和中介服务器](lync-server-2013-media-bypass-and-mediation-server.md)
+  - [Lync Server 2013 中的媒体旁路和中介服务器](lync-server-2013-media-bypass-and-mediation-server.md)
 
-  - [Lync Server 2013 中中介服务器的组件和拓扑](lync-server-2013-components-and-topologies-for-mediation-server.md)
+  - [Lync Server 2013 中的中介服务器的组件和拓扑](lync-server-2013-components-and-topologies-for-mediation-server.md)
 
-  - [Lync Server 2013 中的中介服务器部署指南](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [Lync Server 2013 中的中介服务器的部署指南](lync-server-2013-deployment-guidelines-for-mediation-server.md)
 
 </div>
 

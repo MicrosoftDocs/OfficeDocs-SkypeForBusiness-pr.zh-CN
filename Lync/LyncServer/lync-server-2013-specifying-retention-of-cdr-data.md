@@ -12,16 +12,16 @@ ms:contentKeyID: 48185299
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32eee413b25da3231d5633e89571bbc08deb1f38
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4043c90cffc99b0c262e9091d3cb98d15ff89818
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764448"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41764448"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
 默认情况下，呼叫详细信息记录 (CDR) 数据会在 60 天后清除。可以使用“呼叫详细信息记录”**** 页上的设置将该数据保留更长或更短的时间。如果禁用 CDR，则在启用 CDR 之前捕获的数据也将清除。
 
@@ -55,9 +55,9 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="to-specify-retention-of-cdr-data"></a>指定 CDR 数据的保留
 
-1.  从 RTCUniversalServerAdmins 组的成员（或具有等效用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户帐户，登录到你在其中部署 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“监控和存档”****，然后单击“呼叫详细信息记录”****。
 
@@ -65,9 +65,9 @@ _**主题上次修改时间：** 2013-02-23_
 
 5.  要打开清除，请选择“启用 CDR 清除”****。
 
-6.  在“CDR 最长保留期限(天)****:”中选择呼叫详细信息记录的最长保留天数。
+6.  在“CDR 最长保留期限(天):”**** 中选择呼叫详细信息记录的最长保留天数。
 
-7.  在“错误报告数据最长保留期限(天)****:”中选择错误报告的最长保留天数。
+7.  在“错误报告数据最长保留期限(天):”**** 中选择错误报告的最长保留天数。
 
 8.  单击“提交”****。
 
@@ -77,7 +77,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指定 CDR 保留
 
-你可以使用 Windows PowerShell 和 CsCdrConfiguration cmdlet 创建 CDR 保留设置。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和 Set-CsCdrConfiguration cmdlet 来创建 CDR 保留设置。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
@@ -99,7 +99,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet 的帮助主题。
+有关详细信息，请参阅[set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet 的帮助主题。
 
 </div>
 
@@ -108,7 +108,7 @@ _**主题上次修改时间：** 2013-02-23_
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server 2013 中的呼叫详细记录（CDR）](lync-server-2013-call-detail-recording-cdr.md)  
+[Lync Server 2013 中的呼叫详细信息记录（CDR）](lync-server-2013-call-detail-recording-cdr.md)  
   
 
 </div>

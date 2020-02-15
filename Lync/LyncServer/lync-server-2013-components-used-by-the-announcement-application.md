@@ -12,20 +12,20 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52ef0b1da665f8797f29582e9ce9e1d311287d61
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a888ca21e26a21103d1c45e74518c3d224d18a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757046"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007902"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 中的通知应用程序使用的组件
+# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Lync Server 2013 中通知应用程序使用的组件
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41757046"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-13_
+_**上次修改的主题：** 2012-09-13_
 
-在 Lync Server 2013 中，公告应用程序是响应组应用程序的一个组件。 部署企业语音时，将自动安装通知应用程序并与响应组应用程序一起激活。 本部分介绍支持公告应用程序的组件。
+在 Lync Server 2013 中，通知应用程序是响应组应用程序的一个组件。 部署企业语音时，会自动安装并激活通知应用程序和响应组应用程序。 本节介绍支持通知应用程序的组件。
 
 <div>
 
-## <a name="announcement-application-components"></a>公告应用程序组件
+## <a name="announcement-application-components"></a>通知应用程序组件
 
-以下 Lync Server 组件支持公告应用程序：
+以下 Lync Server 组件支持通知应用程序：
 
-  - **应用程序服务**   应用程序服务提供用于部署、托管和管理统一通信应用程序的平台。 应用程序服务将自动安装在前端池和每个标准版服务器上的每个前端服务器上。
+  - **Application service**   Application service 提供用于部署、托管和管理统一通信应用程序的平台。 应用程序服务将自动安装在前端池和每个 Standard Edition 服务器上的每台前端服务器上。
 
-  - **响应组应用**   程序响应组应用程序是由应用程序服务托管的统一通信应用程序之一。 如果将未分配的电话号码范围配置为路由到公告，则需要响应组应用程序来路由对电话号码的呼叫。 （如果所有范围都配置为路由到 Exchange 统一消息（UM），则不需要响应组应用程序。）
+  - **响应组应用**   程序响应组应用程序是由应用程序服务承载的统一通信应用程序之一。 如果将未分配的电话号码范围配置为路由到通知，则响应组应用程序需要将对电话号码的呼叫路由。 （如果所有区域都配置为路由到 Exchange 统一消息（UM），则不需要响应组应用程序。
 
-  - **音频文件**   音频文件用于公告。
+  - **音频文件**   ：音频文件用于通知。
 
-  - **文件存储**   ：公告应用程序使用文件存储来存储其音频文件。
+  - **文件存储**   ：通知应用程序使用文件存储来存储其音频文件。
 
-  - **Lync server 控制面板**   您可以使用 lync server "控制面板" 配置 "未分配的号码" 表。
+  - **Lync server 控制面板**   您可以使用 lync server 控制面板配置未分配号码表。
 
-  - **Lync server 管理外壳**   程序您可以使用 lync server management shell cmdlet 配置公告设置和 "未分配的号码" 表。
+  - **Lync server 命令行**   管理程序可以使用 lync server 命令行管理程序 cmdlet 配置通知设置和未分配号码表。
 
 </div>
 

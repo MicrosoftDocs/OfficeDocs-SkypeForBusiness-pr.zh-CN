@@ -12,16 +12,16 @@ ms:contentKeyID: 50873759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13f9fa62b16390c490a0ab555559a7895cdce93e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0599fb84cedc2ff64cb053e0bc319c364962de3c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757476"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007181"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41757476"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-客户端版本策略用于全局或特定网站、池或用户组应用一组客户端版本控制规则。 你可以从 Lync Server 2013 控制面板或 Lync Server 2013 Management Shell 查看在 Lync Server 2013 环境中配置的客户端版本策略。
+客户端版本策略用于全局或特定网站、池或用户组应用一组客户端版本控制规则。 可以在 lync Server 2013 控制面板或 Lync Server 2013 命令行管理程序中查看已在 Lync Server 2013 环境中配置的客户端版本策略。
 
 <div>
 
-## <a name="to-view-client-version-policies-by-using-lync-server-control-panel"></a>使用 Lync Server "控制面板" 查看客户端版本策略
+## <a name="to-view-client-version-policies-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板查看客户端版本策略
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击 "**客户端**"，然后单击 "**客户端版本策略**导航" 按钮。
 
-4.  如果要查看客户端版本策略的规则，请在 "**客户端版本策略**" 页面上，双击要查看的策略。
+4.  如果要查看客户端版本策略的规则，请在 "**客户端版本策略**" 页上，双击要查看的策略。
 
 </div>
 
@@ -57,7 +57,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="viewing-client-version-policies-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看客户端版本策略
 
-你可以使用**CsClientVersionPolicy** cmdlet 查看客户端版本策略。 此 cmdlet 既可以从 Lync Server 2013 管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用**CsClientVersionPolicy** cmdlet 查看客户端版本策略。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73f3b21fe8ea7f9fc71aa5432a601e9fa3ad2425
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 51ee4506a22d866a5ba0f771db47546a8fa15e6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755232"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41755232"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-18_
+_**上次修改的主题：** 2012-09-18_
 
-这篇文档介绍了 Lync Server 2013 通信软件中持久聊天数据库的架构。
+这篇文档介绍了 Lync Server 2013 通信软件中的持久聊天数据库的架构。
 
-持久聊天数据库指对应于 Lync Server 2013 后端服务器角色**PersistentChatStore** （对应于 mgc 数据库）和**PersistentChatComplianceStore** （对应于 mgccomp 数据库）的数据库。 发布此架构的目的是使你能够构建查询并深入了解如何构建有关聊天使用、活动会议室、热门海报等的有用报告。
+持久聊天数据库是指与 Lync Server 2013 后端服务器角色**PersistentChatStore** （对应于 mgc 数据库）和**PersistentChatComplianceStore** （对应于 mgccomp 数据库）对应的数据库。 发布此架构的目的是让您能够生成查询和一定程度地了解如何生成有关聊天使用、活跃的聊天室、置顶帖等内容的有用报告。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 我们保留发展此架构的权利。 Microsoft 不会确保保持与此已发布架构的完全向后兼容。
+> 我们保留改进此架构的权利。Microsoft 不对保留此已发布架构的完全向后兼容性做任何保证。
 
 
 
@@ -53,17 +53,17 @@ _**主题上次修改时间：** 2012-09-18_
 
 请遵循以下最佳做法：
 
-  - 不支持\* SELECT//，因为列列表可以增长。
+  - 不支持\* SELECT//，因为列列表可能会增加。
 
   - 不支持用户生成的架构修改。
 
   - 不支持写入操作。
 
-  - 测试在 representatively 大小的数据库上生成的任何查询，以确保查询可以按级别执行，以满足你的需求。
+  - 测试您在典型大小的数据库中生成的任何查询，以确保这些查询可以在满足您需求的级别执行。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中持久聊天服务器表的列表](lync-server-2013-list-of-persistent-chat-server-tables.md)
 

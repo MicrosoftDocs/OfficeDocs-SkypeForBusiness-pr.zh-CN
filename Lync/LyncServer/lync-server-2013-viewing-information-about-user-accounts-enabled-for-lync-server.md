@@ -12,16 +12,16 @@ ms:contentKeyID: 49733568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba84f9ef504dcf9e8798a7d25a0ea79b3cb367cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0662bb954e3ac914d29d7dce7b22cb4ad2659c19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757326"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007131"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757326"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-18_
+_**上次修改的主题：** 2012-10-18_
 
-按照本部分中的步骤查看 Lync Server 2013 用户帐户的设置和策略信息。
+按照本节中的过程操作，查看 Lync Server 2013 用户帐户的设置和策略信息。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中搜索 Lync Server 用户](lync-server-2013-search-for-lync-server-users.md)
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2012-10-18_
 
 ## <a name="related-sections"></a>相关部分
 
-[在 Lync Server 2013 中分配每个用户的策略](lync-server-2013-assigning-per-user-policies.md)
+[在 Lync Server 2013 中分配每用户策略](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 

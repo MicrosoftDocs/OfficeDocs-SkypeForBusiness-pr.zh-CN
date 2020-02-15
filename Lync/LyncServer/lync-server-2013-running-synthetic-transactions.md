@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：运行合成事务
+title: Lync Server 2013：运行综合事务
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969593
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b77593ea062f83352592ebe32dbb81b99c1a9613
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 448e96c03b554970b1ee92166908965ee2a6629c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732792"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-synthetic-transactions-in-lync-server-2013"></a>在 Lync Server 2013 中运行合成事务
+# <a name="running-synthetic-transactions-in-lync-server-2013"></a>在 Lync Server 2013 中运行综合事务
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41732792"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-08-18_
+_**上次修改的主题：** 2014-08-18_
 
-综合事务通常通过两种方式进行。 你可以使用 CsHealthMonitoringConfiguration cmdlet 为其每个注册机构池设置测试用户。 这些测试用户是已预配置为与综合事务一起使用的一对用户。 （通常这些是测试帐户，而不是属于实际用户的帐户。）通过为池配置测试用户，你可以针对该池运行合成事务，而无需为测试中涉及的用户帐户指定标识（并提供凭据）。
+通常通过两种方式执行综合事务。 您可以使用 CsHealthMonitoringConfiguration cmdlet 为每个注册器池设置测试用户。 这些测试用户是已预配置为与综合事务一起使用的一对用户。 （通常，这些是测试帐户，而不是属于实际用户的帐户。）使用为池配置的测试用户，可以对该池运行综合事务，而无需为测试中涉及的用户帐户指定（并提供凭据）的标识。
 
-或者，你可以使用实际的用户帐户运行综合事务。 例如，如果两个用户无法交换即时消息，则可以使用这两个用户帐户（而不是一对测试帐户）运行合成事务，然后尝试诊断并解决问题。 如果你决定使用实际的用户帐户执行合成事务，则必须为每个用户提供登录名和密码。
+或者，您可以使用实际用户帐户运行综合事务。 例如，如果两个用户不能交换即时消息，则可以使用这两个用户帐户（而不是一对一对测试帐户）运行一个综合事务，然后尝试诊断并解决该问题。 如果您决定使用实际用户帐户执行综合事务，则必须为每个用户提供登录名和密码。
 
 <div>
 

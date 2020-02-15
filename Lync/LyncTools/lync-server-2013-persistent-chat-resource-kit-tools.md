@@ -12,16 +12,16 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a827892dac61ff88d0527eafb7d94948afa21885
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7895a1ebb2c0ce45cebf3514839b7ab3405e1c9f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739412"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739412"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-24_
+_**上次修改的主题：** 2013-02-24_
 
-Lync Server 2013 持久聊天资源工具包工具可帮助部署和管理 Lync Server 2013 持久聊天服务器的 IT 管理员更轻松地执行日常任务。 除了安装说明，本主题还介绍了每个工具的用途以及它的使用示例。
+Lync Server 2013 持久聊天资源工具包工具有助于为部署和管理 Lync Server 2013 持久聊天服务器的 IT 管理员更轻松地执行日常任务。 除了安装说明之外，本主题还介绍了每个工具的用途及其用法示例。
 
 <div>
 
-## <a name="installation-of-the-resource-kit-tools"></a>安装资源管理包工具
+## <a name="installation-of-the-resource-kit-tools"></a>资源工具包工具的安装
 
-若要安装 Lync Server 2013、资源工具包工具，请下载**PersistentChatReskit**。 运行**PersistentChatReskit**以执行简单安装。 .Msi 将在以下路径中安装所有工具： \\**程序\\文件 Microsoft Lync Server 2013\\持久聊天服务器资源工具包**。 属于自包含可执行文件的工具位于此文件夹中。 也有文件的工具位于它们自己的子文件夹中。
+若要安装 Lync Server 2013、资源工具包工具，请下载**PersistentChatReskit**。 运行**PersistentChatReskit**以执行简单安装。 .Msi 在以下路径中安装所有工具： \\ **Program\\ Files Microsoft Lync server 2013\\Persistent Chat server 资源工具包**。 包含自包含可执行文件的工具位于此文件夹中。 还包含文件的工具位于自己的子文件夹中。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 安装 Lync Server 2013 和资源工具包工具后，必须安装<STRONG>psexec</STRONG>并将<STRONG>psexec</STRONG>复制到以下路径： \\<STRONG>程序文件 \ Microsoft Lync server 2013 \ 持久聊天服务器资源 Kit\ChatStressTool</STRONG>。 如果不复制<STRONG>PsExec</STRONG>，持久聊天应力工具将引发错误异常，并且不能正确执行。 在运行该工具之前，请确保满足此先决条件要求。 有关安装<STRONG>PsExec</STRONG>的详细信息，请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>。
+> 安装 Lync Server 2013 和资源工具包工具后，必须安装<STRONG>psexec</STRONG>并将<STRONG>psexec</STRONG>复制到以下路径： \\ <STRONG>Program Files \ Microsoft Lync Server 2013 \ Persistent Chat server Resource Kit\ChatStressTool</STRONG>。 如果不复制<STRONG>PsExec</STRONG>，持久聊天工具将引发错误异常，且不能正确执行。 在运行该工具之前，请确保满足此先决条件要求。 有关安装<STRONG>PsExec</STRONG>的详细信息，请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>。
 
 
 
@@ -61,15 +61,15 @@ Lync Server 2013 持久聊天资源工具包工具可帮助部署和管理 Lync 
 
 ## <a name="supported-environments"></a>支持的环境
 
-为获得最佳性能，Lync Server 2013、资源工具包工具应安装在相同的环境中，并具有 Lync Server 2013 所需的相同规范。
+为了获得最佳性能，Lync Server 2013，资源工具包工具应安装在相同的环境中，并且具有与 Lync Server 2013 所需的相同规范。
 
 </div>
 
 <div>
 
-## <a name="resource-kit-tools-overview"></a>资源管理包工具概述
+## <a name="resource-kit-tools-overview"></a>资源工具包工具概述
 
-下面是 Lync Server 2013 持久聊天资源工具包中提供的工具。 下节提供了每个工具的说明，包括要求和示例用法。
+以下是 Lync Server 2013 持久聊天资源工具包中提供的工具。 下一节提供了每个工具的说明，包括要求和示例用法。
 
   - AffCheck
 
@@ -93,17 +93,17 @@ Lync Server 2013 持久聊天资源工具包工具可帮助部署和管理 Lync 
 
 ## <a name="description"></a>说明
 
-AffCheck 工具可确认持久的聊天后端数据库用户和组从属记录是否与 Active Directory 域服务的记录相匹配。
+AffCheck 工具确认持久聊天后端数据库用户和组附属记录与 Active Directory 域服务的记录相匹配。
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
 该工具随加入域的计算机上的 PersistentChatResKit 安装程序一起安装。
 
-运行该工具的用户帐户必须对持久的聊天后端数据库和 Active Directory 域服务具有读取访问权限。
+运行该工具所使用的用户帐户必须具有对持久聊天后端数据库和 Active Directory 域服务的读取访问权限。
 
 </div>
 
@@ -111,7 +111,7 @@ AffCheck 工具可确认持久的聊天后端数据库用户和组从属记录�
 
 ## <a name="usage"></a>用法
 
-根据配置文件中的说明配置 AffCheck 文件，并运行 AffCheck 工具（不带命令行参数）。 以下是默认 AffCheck 的内容。
+根据配置文件中的说明配置 AffCheck 文件，并在不带命令行参数的情况下运行 AffCheck 工具。 以下是默认 AffCheck 的内容。
 
 **AffCheck：**
 
@@ -161,21 +161,21 @@ AffCheck 工具可确认持久的聊天后端数据库用户和组从属记录�
 
 ## <a name="description"></a>说明
 
-PersistentChatMonitoringSummary 工具将持久聊天监视信息从监视数据库移动到指定的 CSV 日志文件中。
+PersistentChatMonitoringSummary 工具将持久聊天监视信息从监控数据库移动到指定的 CSV 日志文件中。
 
-CSV 文件将包含按会话总数、成功会话、意外失败、预期失败和意外故障（如诊断 ID、失败数和失败说明）细分的持久聊天会话的细目。
+CSV 文件将包含按会话总数、成功会话、意外故障、预期失败次数以及诊断 ID、失败次数和失败说明细分意外故障的连续聊天会话的细目。
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
-在有权访问监视数据库的已加入域的计算机上安装持久聊天资源工具包工具。
+在有权访问监控数据库的加入域的计算机上安装持久聊天资源工具包工具。
 
-运行该工具的用户帐户必须具有对监视数据库的读取访问权限。
+运行该工具所使用的用户帐户必须具有对监控数据库的读取权限。
 
-文件（PersistentChatMonitoringSummary）必须包含一个\<connectionStrings\>部分，用于定义监视数据库的连接字符串。 它还必须包含将为其收集监视数据的 PersistentChatEndpointUri 的键，以及将生成的 CSV 文件的位置的文件路径。 有关示例，请参阅已安装的配置文件。 文件必须与工具位于同一目录中。
+文件（PersistentChatMonitoringSummary）必须包含一个\<connectionStrings\>节，用于定义监控数据库的连接字符串。 它还必须包含将为其收集监控数据的 PersistentChatEndpointUri 的键，以及将生成的 CSV 文件的位置的文件路径。 有关示例，请参阅已安装的配置文件。 文件必须与工具位于同一目录中。
 
 </div>
 
@@ -189,9 +189,9 @@ CSV 文件将包含按会话总数、成功会话、意外失败、预期失败�
 
 这些参数定义数据的选择：
 
-**StartDateTime：**（可选）指定选择期的开始日期。 默认： 1/1/1753 12:00:00 AM
+**StartDateTime：**（可选）指定选择期的开始日期。 默认值： 1/1/1753 12:00:00 AM
 
-**EndDateTime：**（可选）指定选择期的最后一个日期。 默认：现在
+**EndDateTime：**（可选）指定选择期的结束日期。 默认值： Now
 
 </div>
 
@@ -222,19 +222,19 @@ CSV 文件将包含按会话总数、成功会话、意外失败、预期失败�
 
 ## <a name="description"></a>说明
 
-持久聊天功能强大的工具提供了一种简单的方法来模拟持久聊天的使用，以测试实际性能，包括各种用户模型以更好地适应预期的使用方案。
+持久聊天压力工具提供了一种简单的方法来模拟持久聊天的使用情况，以测试实际性能，包括各种用户模型以更好地适合预期的使用方案。
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
-在有权访问持久的聊天后端数据库的已加入域的计算机上安装持久聊天资源工具包工具。
+将持久聊天资源工具包工具安装到可访问持久聊天后端数据库的加入域的计算机上。
 
-除了此*控制器*计算机外，你还需要多个*加载程序*计算机。 对于用户模型中的每个10K 用户，加载程序计算机上至少需要4GB 的可用内存。 例如，80K 用户的运行将需要跨所有加载程序计算机的 RAM 的32GB。 建议您至少拥有三个加载器计算机，而不考虑预期的负载。
+除了此*控制器*计算机之外，还需要多个*加载程序*计算机。 对于用户模型中的每个10K 用户，加载项计算机上至少需要4GB 的可用 RAM。 例如，运行80K 用户将需要在所有加载程序计算机上分配 32 GB RAM。 建议您至少具有三个加载程序计算机，而不考虑预期的负载。
 
-加载程序计算机必须安装 .NET 4.5 框架以及安装 Visual c + + 2012 可再发行组件。
+加载程序计算机必须安装 .NET 4.5 Framework 以及安装的 Visual c + + 2012 可再发行组件。
 
 </div>
 
@@ -244,18 +244,18 @@ CSV 文件将包含按会话总数、成功会话、意外失败、预期失败�
 
 将 ChatStressTool 文件复制到可从所有加载程序计算机访问的共享文件夹中。
 
-创建要在压力运行中使用的用户和频道：
+创建在压力运行中使用的用户和频道：
 
-  - 创建任意多个用户作为你的用户模型调用，为 Lync 启用它们，并将其持久聊天策略设置为 "已启用"。
+  - 为您的用户模型调用创建任意多个用户，为 Lync 启用它们，并将其持久聊天策略设置为 "启用"。
 
-  - 为您的压力信道创建一个类别，然后根据该类别的需要创建任意多个房间。 该类别应在其**允许**列表中包含所有压力用户（通过添加其 OU），并且压力房间应具有 "**打开**" 隐私设置。
+  - 为您的压力通道创建一个类别，然后根据该类别的需要创建任意多个会议室。 类别应将所有压力用户都放在其**允许**列表中（通过添加其 OU 的方式），并且压力房间应具有 "**打开**" 的隐私设置。
 
-  - 我们建议您创建额外的压力房间。 你可以通过以下 Windows PowerShell 命令行界面命令创建50000聊天室：
+  - 我们建议创建额外的压力房间。 您可以使用以下 Windows PowerShell 命令行界面命令创建50000聊天室：
     ```Powershell
         for ($i = 0; $i -le 50000; $i++) { New-CsPersistentChatRoom -Category <parent category> -Name "StressChan_$i" -Privacy Open }
     ```    
 
-编辑配置文件以适合你的拓扑：
+编辑配置文件以适用于您的拓扑：
 
 在**LoaderProcess**中，将 "controller.contoso.com" 更改为控制器计算机的完全限定的域名（FQDN）。
 
@@ -265,19 +265,19 @@ CSV 文件将包含按会话总数、成功会话、意外失败、预期失败�
 
 2.  将 "AdminUser"/"AdminPassword" 更改为具有对加载程序计算机的管理员访问权限的凭据。
 
-3.  将 "ChannelCategory" 更改为在其下创建了应力信道的类别的名称。
+3.  将 "ChannelCategory" 更改为在其下创建了压力通道的类别的名称。
 
-4.  将 "UserNamePattern" 和 "UserPasswordPattern" 更改为与你的压力用户凭据匹配的模板。 {0}将替换为用户的索引号。
+4.  将 "UserNamePattern" 和 "UserPasswordPattern" 更改为与你的压力用户凭据相匹配的模板。 {0}将替换为用户的索引号。
 
 5.  将 "域" 更改为测试拓扑的 SIP 域。
 
-6.  将 "ConnectionString" 更改为持久的聊天后端数据库的连接字符串。
+6.  将 "ConnectionString" 更改为持久聊天后端数据库的连接字符串。
 
 7.  将 "UserIndexStart" 更改为第一个压力用户的索引。
 
-8.  将 "LyncFQDN" 更改为你的前端池的 FQDN。
+8.  将 "LyncFQDN" 更改为前端池的 FQDN。
 
-9.  修改 "计算机" 列表以包括所有加载程序计算机的计算机名称。
+9.  修改 "计算机" 列表，以包含所有加载程序计算机的计算机名称。
 
 10. 将服务终结点的 baseAddress （默认为 "controller.contoso.com"）更改为控制器计算机的 FQDN。
 
@@ -287,9 +287,9 @@ CSV 文件将包含按会话总数、成功会话、意外失败、预期失败�
 
 ## <a name="usage"></a>用法
 
-完成配置后，在控制器计算机上打开 StressLauncher。 您可以以任何用户的身份启动 StressLauncher。 在加载程序计算机上启动的加载程序进程所下的凭据必须在配置文件中指定。 你还必须提供对持久的聊天后端数据库具有读取访问权限的连接字符串。 如果此连接字符串使用集成的 Windows 身份验证，则必须以具有此访问权限的用户的身份启动 StressLauncher。
+配置完成后，在控制器计算机上打开 StressLauncher。 您可以以任何用户的形式启动 StressLauncher。 必须在配置文件中指定用于在加载程序计算机上启动加载程序进程的凭据。 此外，还必须为连接字符串提供对持久聊天后端数据库的读取访问权限。 如果此连接字符串使用集成的 Windows 身份验证，则必须以具有此访问权限的用户身份启动 StressLauncher。
 
-根据需要更改用户模型设置。 单击 "**开始加载**" 以启动 "运行"。 一分钟后，用户将开始登录，进度栏将开始填充。 此时，控制器计算机可以正常工作并采取性能测量。
+根据需要更改用户模型设置。 单击 "**开始加载**" 以启动运行。 一分钟后，用户将开始登录，进度栏将开始填充。 在这种情况下，您可能可以运行控制器计算机并采用性能度量。
 
 </div>
 
@@ -303,21 +303,21 @@ CSV 文件将包含按会话总数、成功会话、意外失败、预期失败�
 
 ## <a name="description"></a>说明
 
-ChatUpgradeVerifier 是一种持久的聊天特定数据库比较工具。 该工具将组聊天 2007 R2 或群组聊天2010数据库（2007/2010Db）与持久聊天2013数据库（2013Db）进行比较。
+ChatUpgradeVerifier 是一种持久的聊天特定数据库比较工具。 该工具将组聊天 2007 R2 或组聊天2010数据库（2007/2010Db）与持久聊天2013数据库（2013Db）进行比较。
 
-在 2007/2010Db 中，该工具将逐个检查、每个类别、持久聊天室和外接程序，以查看它是否出现在2013Db 中。 比较包括检查类别、聊天室或外接程序上的所有设置、类别范围内的任何主体，以及类别或聊天室上某个角色中的任何主体。 如果2013Db 中未正确显示某个类别或聊天室，则差异将输出到冲突文件。 如果在升级后，将更改 2007/2010Db，然后此工具运行，则会有一个与冲突文件的差异输出。 请注意，此应用程序仅是数据库比较工具，不会验证升级过程。
+该工具将逐个检查、每个类别、持久聊天室和外接程序在 2007/2010Db 中进行检查，以查看它是否出现在2013Db 中。 比较包括检查类别、聊天室或外接中的所有设置、类别中的任何主体以及类别或聊天室上的角色中的任何主体。 如果类别或聊天室未在2013Db 中正确显示，则这些差异将输出到冲突文件中。 如果在升级后进行了升级，则会更改 2007/2010Db，然后运行此工具时，冲突文件的输出将会有所不同。 请注意，此应用程序仅为数据库比较工具，不会验证升级过程。
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
-在有权访问持久聊天后端数据库的已加入域的计算机上安装持久聊天资源工具包工具（以前版本和当前版本以便永久聊天）。
+在有权访问持久聊天后端数据库的加入域的计算机上安装持久聊天资源工具包工具（早期版本和当前版本的持久聊天）。
 
-运行该工具的用户帐户必须具有对持久聊天数据库的读取访问权限。
+运行该工具所使用的用户帐户必须具有对持久聊天数据库的读取权限。
 
-ChatUpgradeVerifier 文件必须包含 GroupChat2007R2Db 参数或 GroupChat2010Db 参数，并将连接字符串指向相应的群组聊天数据库（Groupchat 2007R2 或2010）。 它还必须包含 PersistentChat2013Db 参数，并将连接字符串连接到持久聊天2013数据库。
+ChatUpgradeVerifier 文件必须包含 GroupChat2007R2Db 参数或 GroupChat2010Db 参数，并将连接字符串与适当的 Group Chat 数据库（Groupchat 2007R2 或2010）一起使用。 它还必须包含 PersistentChat2013Db 参数，并将连接字符串连接到持久聊天2013数据库。
 
 </div>
 
@@ -325,7 +325,7 @@ ChatUpgradeVerifier 文件必须包含 GroupChat2007R2Db 参数或 GroupChat2010
 
 ## <a name="usage"></a>用法
 
-不带任何参数运行**ChatUpgradeVerifier** 。
+运行不带任何参数的**ChatUpgradeVerifier** 。
 
 </div>
 
@@ -333,7 +333,7 @@ ChatUpgradeVerifier 文件必须包含 GroupChat2007R2Db 参数或 GroupChat2010
 
 ## <a name="example"></a>示例
 
-![运行 ChatUpgradeVerifier.exe。](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "运行 ChatUpgradeVerifier.exe。")
+![运行 ChatUpgradeVerifier。](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "运行 ChatUpgradeVerifier。")
 
 </div>
 
@@ -341,25 +341,25 @@ ChatUpgradeVerifier 文件必须包含 GroupChat2007R2Db 参数或 GroupChat2010
 
 <div>
 
-## <a name="persistent-chat-usage-report"></a>持续聊天使用情况报告
+## <a name="persistent-chat-usage-report"></a>持久聊天使用情况报告
 
 <div>
 
 ## <a name="description"></a>说明
 
-ChatUsageReport 工具生成持久聊天服务使用的 HTML 报告。
+ChatUsageReport 工具生成持久聊天服务使用情况的 HTML 报告。
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
-在有权访问持久聊天后端数据库的已加入域的计算机上安装持久聊天资源工具包工具。
+在有权访问持久聊天后端数据库的加入域的计算机上安装持久聊天资源工具包工具。
 
-运行该工具的用户帐户必须具有对持久聊天后端数据库的读取访问权限。
+运行该工具所使用的用户帐户必须具有对持久聊天后端数据库的读取访问权限。
 
-文件 ChatUsageReport 必须包含一个\<connectionStrings\>部分，用于定义与持久的聊天后端数据库的连接字符串。 默认配置文件的内容包含在此处，供你参考。
+文件（ChatUsageReport）必须包含一个\<connectionStrings\>节，用于定义持久聊天后端数据库的连接字符串。 默认配置文件的内容包含在此处，供您参考。
 
 </div>
 
@@ -372,49 +372,49 @@ ChatUsageReport 工具生成持久聊天服务使用的 HTML 报告。
 ```
 这些参数定义数据的选择：
 
-开始**日期：**（可选）指定选择期的 UTC 开始日期。 默认：最早日期
+**起始日期：**（可选）指定选择期的 UTC 开始日期。 默认：最早日期
 
-**结束日期：**（可选）指定选择期的 UTC 结束日期。 默认：现在
+**结束日期：**（可选）指定选择期的 UTC 结束日期。 默认值： Now
 
-这些参数定义数据的显示方式和显示方式：
+这些参数定义了显示数据的方式和方式：
 
-**TopActiveUsers：** 如果指定此选项，则报表将包括 n 个最活跃的用户，包括用户在所选期间的聊天室中发布的消息数。 默认值：10
+**TopActiveUsers：** 如果指定此值，则报告将包含 n 个最活跃的用户，这取决于用户在所选时段内已在聊天室中发布的邮件数。 默认值：10
 
-**TopActiveRooms：** 如果指定此选项，则报表将包含 n 个最活跃的聊天室，其中包含在所选期间的会议室中发布的消息数。 默认值：10
+**TopActiveRooms：** 如果指定此值，则报告将包含 n 个最活跃的聊天室，这取决于所选时段的会议室中投递的邮件数。 默认值：10
 
-**LeastActiveRooms：** 如果指定此选项，则报告将包括 n 个最少活动聊天室，条件是所选期间的聊天室中发布的消息数。 会议室将至少发布一封邮件。 默认值：10
+**LeastActiveRooms：** 如果指定此值，则报告将包含 n 个最小活动聊天室，条件是在所选时段的聊天室中发布的邮件数。 聊天室将至少发布一封邮件。 默认值：10
 
-**RoomsInactiveSince：** 如果指定此项，报表将包含自指定日期后处于非活动状态的聊天室的列表。 默认：整个时间
+**RoomsInactiveSince：** 如果指定此类型，报告将包含自指定日期后处于非活动状态的聊天室的列表。 默认值：整个时间
 
-**OutputFolder：** 将放置 ChatUsageReport 和 graph 图像的文件夹。 这必须在配置文件或命令行中定义。
+**OutputFolder：** 将放置 ChatUsageReport 和 graph 图像的文件夹。 这必须在配置文件或命令行中进行定义。
 
-所有命令行参数值也可以在与工具位于同一目录中的 ChatUsageReport 文件中指定。 如果在配置文件和命令行中均指定了任何值，则命令行值将替代配置文件值。
+此外，还可以在与工具位于同一目录中的 ChatUsageReport 文件中指定所有的命令行参数值。 如果在配置文件和命令行中指定了任何值，则命令行值将替代 config 文件值。
 
 </div>
 
 <div>
 
-## <a name="output"></a>输出
+## <a name="output"></a>Output
 
-报表将始终包含以下输出：
+报告将始终包含以下输出：
 
-  - 按所选期间的邮件投递次数排名前 n 位的最活跃聊天室。
+  - 前 n 个最活跃聊天室（按所选时间段的邮件投递数表示）。
 
-  - 按所选期间的邮件投递次数排名前 n 位的最活跃的用户。
+  - 按所选时间段的邮件投递次数排名前 n 个的最活跃的用户。
 
-  - 按所选期间的邮件投递次数，最少有 n 个活动聊天室。
+  - 前 n 个最小活动聊天室（按选定时间段内的邮件投递数表示）。
 
-  - 在数据库的整个生命周期内或自指定日期起不活动的聊天室。
+  - 在数据库的整个生命周期中或自指定的日期起处于非活动状态的聊天室。
 
-  - 所选期间的每日消息发布趋势。
+  - 选定时间段内的每日邮件投递趋势。
 
-  - 所选期间的每周邮件发布趋势。
+  - 选定时段的每周邮件投递趋势。
 
-  - 所选期间的每月消息发布趋势。
+  - 选定时段的每月邮件投递趋势。
 
-  - 所选期间的总邮件帖子。
+  - 选定时间段内的邮件投递总数。
 
-  - 已启用的会议室的总数。
+  - 已启用的会议室总数。
 
 </div>
 
@@ -422,7 +422,7 @@ ChatUsageReport 工具生成持久聊天服务使用的 HTML 报告。
 
 ## <a name="example"></a>示例
 
-下面的示例为2001生成一个完整的使用报表，并将报表放置在 ChatUsageReport 中指定的 OutputFolder 中。
+下面的示例将生成2001年的使用率报告，并将报告放置在 ChatUsageReport 中指定的 OutputFolder 中。
 
 ```Powershell
     ChatUsageReport -RoomsInactiveSince 06-20-2010
@@ -461,15 +461,15 @@ ChatUsageReport：
 
 ## <a name="description"></a>说明
 
-ScheduleADSyncForPrincipal 是 Microsoft SQL Server 2012 脚本，当连接到持久的聊天后端数据库时，必须直接在 SQL Server Management Studio 内运行。 此脚本使你能够强制持久聊天将用户的记录与 Active Directory 域服务的记录同步，而不是等待计划的同步时间。
+ScheduleADSyncForPrincipal 是 Microsoft SQL Server 2012 脚本，它必须在连接到持久聊天后端数据库时直接从 SQL Server Management Studio 中运行。 通过此脚本，您可以强制持久聊天将用户的记录与 Active Directory 域服务的记录同步，而不是等待计划的同步时间。
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
-运行脚本的用户帐户必须具有对持久的聊天后端数据库的所有者访问权限。
+运行脚本所使用的用户帐户必须具有对持久聊天后端数据库的所有者访问权限。
 
 </div>
 

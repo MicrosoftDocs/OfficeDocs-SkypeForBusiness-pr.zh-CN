@@ -12,20 +12,20 @@ ms:contentKeyID: 48183478
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9090fefba4b80f14382b9b43b5e9ced7cb36b2e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 963f1532ca7a1aa5402a54936909a22727ab9716
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764328"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-pool-pairing-options-and-best-practices-for-lync-server-2013"></a>支持 Lync Server 2013 的池配对选项和最佳做法
+# <a name="supported-pool-pairing-options-and-best-practices-for-lync-server-2013"></a>Lync Server 2013 的受支持的池配对选项和最佳做法
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41764328"
 
 <span> </span>
 
-_**主题上次修改时间：** 2017-03-09_
+_**上次修改的主题：** 2017-03-09_
 
-对两个数据中心之间的距离没有限制，包括彼此配对的前端池。 我们建议你在同一世界地区使用两个数据中心，并在它们之间使用高速链接。 最好将两个数据中心分开，以避免一次灾难碰到这两个数据中心。
+要包括互相配对的前端池的两个数据中心之间没有距离限制。建议使用位于相同世界区域的两个数据中心，因为它们之间存在高速链接。最好两个数据中心之间拥有足够距离，以避免一个灾难同时袭击两个数据中心。
 
-可以在世界各地有两个数据中心，但由于数据复制中的延迟，可能会导致更高的数据丢失。
+跨世界区域分布两个数据中心也是可行的，但可能会因为数据复制延迟而导致丢失较多数据。
 
-当您计划对池进行配对时，必须谨记仅支持以下配对法：
+在规划要配对的池时，必须记住仅支持以下配对：
 
-  - Enterprise Edition 池仅能与其他 Enterprise Edition 池进行配对。 同样，Standard Edition 池仅能与其他 Standard Edition 池进行配对。
+  - Enterprise Edition 池仅能与其他 Enterprise Edition 池进行配对。同样，Standard Edition 池仅能与其他 Standard Edition 池进行配对。
 
-  - 物理池仅能与其他物理池配对。 同样，虚拟池仅能与其他虚拟池配对。
+  - 物理池仅能与其他物理池配对。同样，虚拟池仅能与其他虚拟池配对。
 
-  - 配对的池必须运行相同的操作系统。
+  - 配对在一起的池必须运行相同的操作系统。
 
-拓扑生成器和拓扑验证都不会阻止以不遵循这些建议的方式对两个池进行配对。例如，拓扑生成器允许您将 Enterprise Edition 池与 Standard Edition 池进行配对。但是，不支持进行这些类型的配对。
+拓扑生成器和拓扑验证都不会阻止以不遵循这些建议的方式对两个池进行配对。 例如，拓扑生成器允许您将 Enterprise Edition 池与 Standard Edition 池进行配对。 但是，不支持这些类型的配对。
 
-每个池中的每个池都应具有在发生灾难时为来自两个池的所有用户提供服务的容量。
+配对中的每个池应能够在发生灾难时为两个池中的所有用户提供服务。
 
-如果你对企业版池进行了配对，你也可以在后端服务器上实现高可用性，但对于标准版池，只有灾难恢复措施可用。
+如果对 Enterprise Edition 进行配对，还可以在后端服务器上实现高可用性，但是对于 Standard Edition 池的配对，仅能采用灾难恢复措施。
 
 </div>
 

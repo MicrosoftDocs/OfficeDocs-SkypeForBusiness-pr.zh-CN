@@ -12,16 +12,16 @@ ms:contentKeyID: 48183290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6e3bf4e2fb1004c1e0312b4ef43f3f6f6ba690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac4c4ad1b6bddcdc44383f0be8e2c05e00de7b52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742022"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007281"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41742022"
 
 <span> </span>
 
-_**主题上次修改时间：** 2010-11-07_
+_**上次修改的主题：** 2010-11-07_
 
-完成边缘组件的安装和配置后，你需要验证服务器的配置和连接，并验证你支持的每种类型的外部用户的连接性。
+完成边缘组件的安装和配置后，需要验证服务器的配置和连接，以及支持的每种外部用户的连接。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中验证内部服务器与边缘服务器之间的连接](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
+  - [验证 Lync Server 2013 中的内部服务器与边缘服务器之间的连接](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
 
-  - [在 Lync Server 2013 中验证外部用户连接](lync-server-2013-verify-connectivity-for-external-users.md)
+  - [在 Lync Server 2013 中验证外部用户的连接](lync-server-2013-verify-connectivity-for-external-users.md)
 
 </div>
 

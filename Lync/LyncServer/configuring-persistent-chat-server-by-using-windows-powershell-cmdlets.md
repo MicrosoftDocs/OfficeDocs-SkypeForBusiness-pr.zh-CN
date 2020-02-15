@@ -1,5 +1,5 @@
 ---
-title: 使用 Windows PowerShell Cmdlet 配置持久聊天服务器
+title: 使用 Windows PowerShell cmdlet 配置持久聊天服务器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 281526be2ecee70bd0ed510ba37ee34745d60a9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67a436f4058ea600f9eed67725f0a519835e432f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723170"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 配置持久聊天服务器
+# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell cmdlet 配置持久聊天服务器
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41723170"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
-使用以下 Windows PowerShell cmdlet 配置 Lync Server 2013、永久聊天服务器中的管理。
+使用以下 Windows PowerShell cmdlet 配置 Lync Server 2013 持久聊天服务器中的管理。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Manage categories](manage-categories.md)
+  - [管理类别](manage-categories.md)
 
   - [管理聊天室](manage-rooms.md)
 
   - [管理加载项](manage-add-ins.md)
 
-  - [删除消息](remove-a-message.md)
+  - [删除邮件](remove-a-message.md)
 
   - [使用综合事务测试持久聊天服务器](test-persistent-chat-server-with-a-synthetic-transaction.md)
 
-  - [为持久聊天服务器运行向后兼容](run-backward-compatibility-for-persistent-chat-server.md)
+  - [持久聊天服务器的运行后向兼容性](run-backward-compatibility-for-persistent-chat-server.md)
 
   - [在 Lync Server 2013 中运行、授予、获取、删除或设置持久聊天策略](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
 

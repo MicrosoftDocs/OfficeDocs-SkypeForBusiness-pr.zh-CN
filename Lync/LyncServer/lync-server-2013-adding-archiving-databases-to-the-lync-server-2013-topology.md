@@ -12,16 +12,16 @@ ms:contentKeyID: 48183338
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7476107b064b45dbef74b03ff9d54e02fc9eee52
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e73fe49aaf3a5b90a23bcfd6b99c9a5bb4476513
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738162"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738162"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-10_
+_**上次修改的主题：** 2012-10-10_
 
-必须先在拓扑中纳入存档，然后才能配置您的部署以支持存档。 本主题中的信息介绍了如何使用拓扑生成器将存档添加到现有拓扑。
+必须先在拓扑中纳入存档，然后才能配置您的部署以支持存档。 本主题中的信息介绍如何使用拓扑生成器将存档添加到现有拓扑中。
 
 <div>
 
 
 > [!NOTE]  
-> 如果你想要使用 Microsoft Exchange 集成在 Exchange 2013 服务器上为你的部署中的所有用户存储存档数据和文件，请不要指定<STRONG>存档 SQL server 存储</STRONG>或<STRONG>使用 Sql Server 应用商店镜像</STRONG>信息。
+> 如果要使用 Microsoft Exchange 集成在 Exchange 2013 服务器上为您的部署中的所有用户存储存档数据和文件，请不要指定<STRONG>存档 Sql server 存储</STRONG>或<STRONG>使用 sql server 存储镜像</STRONG>信息。
 
 
 
@@ -51,64 +51,64 @@ _**主题上次修改时间：** 2012-10-10_
 
 <div>
 
-## <a name="to-add-archiving-database-support-to-your-topology"></a>将存档数据库支持添加到你的拓扑
+## <a name="to-add-archiving-database-support-to-your-topology"></a>向拓扑中添加存档数据库支持
 
-1.  在运行 Lync Server 2013 的计算机上，或安装了 Lync Server 管理工具的计算机上，使用属于本地 Users 组的成员（或具有等效用户权限的帐户）登录。
+1.  在运行 Lync Server 2013 的计算机上，或安装了 Lync Server 管理工具的计算机上，使用属于本地 Users 组成员的帐户（或具有等效用户权限的帐户）进行登录。
     
     <div>
     
 
     > [!NOTE]  
-    > 你可以通过使用属于本地用户组的成员的帐户定义拓扑，但要发布拓扑（这是将服务器添加到拓扑所必需的）你必须使用属于<STRONG>域管理员</STRONG>组和<STRONG>RTCUniversalServerAdmins</STRONG>组成员的帐户，并且具有对 Lync server 2013 文件存储所使用的文件共享的完全控制权限（即读取、写入和修改），以便拓扑生成器可以配置所需的随机访问控制列表（dacl）或具有等效权限的帐户。
+    > 您可以通过使用属于本地用户组成员的帐户来定义拓扑，但要发布拓扑（将服务器添加到拓扑，则必须）。您必须使用属于<STRONG>Domain Admins</STRONG>组和<STRONG>RTCUniversalServerAdmins</STRONG>组成员的帐户，并且在您对 Lync server 2013 文件存储使用的文件共享上具有完全控制权限（即读取、写入和修改）（即，以便拓扑生成器可以配置所需的随机访问控制列表（dacl），或具有等效权限的帐户。
 
     
     </div>
 
 2.  启动拓扑生成器。
 
-3.  在控制台树中，导航到要在其中部署存档的前端池，然后单击要在其中部署存档的前端池的名称。
+3.  在控制台树中，导航到您要在其中部署存档的前端池，然后单击要在其中部署存档的前端池的名称。
 
-4.  在“**操作**”菜单上，单击“**编辑属性**”。
+4.  在“操作”**** 菜单上，单击“编辑属性”****。
 
-5.  在“**编辑属性**”对话框中，单击“**常规**”。
+5.  在“编辑属性”**** 对话框中，单击“常规”****。
 
-6.  向下滚动到“**存档**”。
+6.  向下滚动到“存档”****。
 
-7.  选中“**存档**”复选框。
+7.  选中“存档”**** 复选框。
 
-8.  在 "**存档 SQL Server 应用商店" 下，** 执行下列操作之一：
+8.  在 "**存档 SQL Server 存储" 下，** 执行下列操作之一：
     
-      - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。 如果你的所有用户都托管在 Microsoft Exchange Server 2013 或更高版本上，你可以将 Lync 通信存档到 Exchange 中的所有用户。 在这种情况下，你无需配置 SQL Server 存档存储。
+      - 若要使用现有 SQL Server 存储，请在下拉列表框中，单击要使用的 SQL Server 存储的名称。 如果你的所有用户都驻留在 Microsoft Exchange Server 2013 或更高版本上，则可以存档 Exchange 中所有用户的 Lync 通信。 在这种情况下，不需要配置 SQL Server 存档存储。
     
-      - 若要指定新的 SQL Server 应用商店，请单击 "**新建**"，然后在 "**定义新的 SQL server 存储**" 对话框中，执行下列操作：
+      - 若要指定新的 SQL Server 存储，请单击 "**新建**"，然后在 "**定义新的 SQL server 存储**" 对话框中，执行下列操作：
         
-          - 在**SQL SERVER FQDN**中，指定要在其上创建新的 SQL Server 应用商店的服务器的 FQDN。
+          - 在 " **SQL SERVER FQDN**" 中，指定要在其上创建新 SQL Server 存储的服务器的 FQDN。
         
-          - 单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要使用的实例。
+          - 单击“默认实例”**** 以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”****，然后指定要使用的实例。
         
-          - 如果指定的 SQL Server 实例位于镜像关系中，请选中 "**此 sql 实例处于镜像关系中**" 复选框，然后在 "**镜像端口号**" 中指定端口号。
+          - 如果指定的 SQL Server 实例位于镜像关系中，请选中 "**此 sql 实例处于镜像关系中**" 复选框，然后在 "**镜像端口号**" 中，指定端口号。
 
-9.  如果要使用 SQL Server 应用商店镜像，请选择 "**启用 Sql Server 应用商店镜像**"，然后执行下列操作：
+9.  如果要使用 SQL Server 存储镜像，请选择 "**启用 Sql Server 存储镜像**"，然后执行以下操作：
     
-      - 若要使用现有的 SQL Server 应用商店进行镜像，请在 "**存档 Sql server 存储镜像**" 下拉列表框中，单击要用于镜像的 SQL server 应用商店的名称。
+      - 若要将现有的 SQL Server 存储用于镜像，请在 "**存档 Sql server 存储镜像**" 下拉列表框中，单击要用于镜像的 SQL server 存储的名称。
     
-      - 若要为镜像指定新的 SQL Server 存储，请单击 "**新建**"，然后在 "**定义新的 SQL server 存储**" 对话框中，执行下列操作之一：
+      - 若要指定新的 SQL Server 存储进行镜像，请单击 "**新建**"，然后在 "**定义新的 sql server 存储**" 对话框中，执行下列操作之一：
         
-        1.  在**SQL SERVER FQDN**中，指定要在其上创建新的 sql server 应用商店的 sql SERVER 的 FQDN。
+        1.  在 " **SQL SERVER FQDN**" 中，指定要在其上创建新 sql server 存储的 sql SERVER 的 FQDN。
         
-        2.  单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要使用的实例。
+        2.  单击“默认实例”**** 以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”****，然后指定要使用的实例。
         
-        3.  如果指定的 SQL Server 实例位于镜像关系中，请选中 "**此 sql 实例处于镜像关系中**" 复选框，然后在 "**镜像端口号**" 中指定端口号。
+        3.  如果指定的 SQL Server 实例位于镜像关系中，请选中 "**此 sql 实例处于镜像关系中**" 复选框，然后在 "**镜像端口号**" 中，指定端口号。
     
-      - 如果启用 SQL Server 镜像，并且希望包括 SQL Server 镜像见证（第三个单独的 SQL Server 实例，它可以检测主 SQL Server 服务器和镜像实例的运行状况），请选中 "**使用 SQL Server 镜像见证启用自动故障转移**" 复选框，然后执行下列操作之一：
+      - 如果启用 SQL Server 镜像，并希望包含 SQL Server 镜像见证（第三个单独的 SQL Server 实例，可以检测主 SQL Server 服务器和镜像实例的运行状况），请选中 "**使用 SQL Server 镜像见证启用自动故障转移**" 复选框，然后执行下列操作之一：
         
-        1.  在**SQL SERVER FQDN**中，指定要在其上创建新的 SQL Server 镜像见证的服务器的 FQDN。
+        1.  在 " **SQL SERVER FQDN**" 中，指定要在其上创建新的 SQL Server 镜像见证的服务器的 FQDN。
         
-        2.  单击“**默认实例**”以使用默认的实例，或者，若要指定其他实例，请单击“**命名实例**”，然后指定要用于镜像见证的实例。
+        2.  单击“默认实例”**** 以使用默认的实例，或者，若要指定其他实例，请单击“命名实例”****，然后指定要用于镜像见证的实例。
         
-        3.  如果指定的 SQL Server 实例位于镜像关系中，请选中 "**此 sql 实例处于镜像关系中**" 复选框，然后在 "**镜像端口号**" 中指定端口号。
+        3.  如果指定的 SQL Server 实例位于镜像关系中，请选中 "**此 sql 实例处于镜像关系中**" 复选框，然后在 "**镜像端口号**" 中，指定端口号。
 
-10. 若要保存配置，请单击“**确定**”。
+10. 若要保存配置，请单击“确定”****。
 
 </div>
 

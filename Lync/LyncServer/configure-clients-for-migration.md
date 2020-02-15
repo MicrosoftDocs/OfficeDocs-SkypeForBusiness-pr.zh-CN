@@ -13,16 +13,16 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebfba9142aca4981f02b0dca7e8e0b16a2cde446
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8ebfefb24d1857a7addade5e92c94bf5daa54f6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727962"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,17 +36,17 @@ ms.locfileid: "41727962"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-24_
+_**上次修改的主题：** 2012-09-24_
 
-本主题包含迁移到 Lync Server 2013 之前应执行的推荐的客户端部署步骤。 应在 Lync Server 2010 上进行这些配置更改。
+本主题包含在迁移到 Lync Server 2013 之前应执行的建议的客户端部署步骤。 应在 Lync Server 2010 上进行这些配置更改。
 
 <div>
 
 ## <a name="to-configure-clients-before-migration"></a>在迁移之前配置客户端
 
-1.  为 Lync Server 2010 部署最新的服务器、客户端和设备更新（修补程序）。 有关 Lync Server 2010 的最新信息，请参阅更新 Lync 的资源中心<http://go.microsoft.com/fwlink/p/?linkid=232630>。
+1.  为 Lync Server 2010 部署最新的服务器、客户端和设备更新（修补程序）。 有关 Lync Server 2010 的最新信息，请参阅在上<http://go.microsoft.com/fwlink/p/?linkid=232630>更新 Lync 的资源中心。
 
-2.  在 Lync Server 2010 上，使用客户端版本筛选仅允许已安装最新更新的客户端。
+2.  在 Lync Server 2010 上，使用客户端版本筛选仅允许客户端安装了最新的更新。
 
 </div>
 
@@ -55,7 +55,7 @@ _**主题上次修改时间：** 2012-09-24_
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync 2013 的新增和更改的设置](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
+[Lync 2013 的新增和更改设置](lync-server-2013-new-and-changed-settings-for-lync-2013.md)  
 [Lync 2013 中的客户端互操作性](lync-server-2013-client-interoperability-in-lync-2013.md)  
 
 

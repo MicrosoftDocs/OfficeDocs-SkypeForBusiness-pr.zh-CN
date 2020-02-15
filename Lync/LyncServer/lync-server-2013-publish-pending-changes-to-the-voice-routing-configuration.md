@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：将挂起的更改发布到语音路由配置
+title: Lync Server 2013：发布对语音路由配置所做的挂起更改
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aac5c30cb73ef428d0571a1a0fe6853dbf70db4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eec5236f6b40d332617e2e2a5dedeb6a77d752b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724612"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-lync-server-2013"></a>将挂起的更改发布到 Lync Server 2013 中的语音路由配置
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中发布对语音路由配置所做的挂起更改
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41724612"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-07_
+_**上次修改的主题：** 2012-08-07_
 
 在“语音路由”**** 组的页面中对任何配置设置做出更改后，执行此过程以查看、发布或取消待处理的更改。
 
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2012-08-07_
 
 ## <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>查看、发布或取消语音路由配置更改
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[在 Lync Server 2013 中委派设置权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“语音路由”****。
 
@@ -73,7 +73,7 @@ _**主题上次修改时间：** 2012-08-07_
 
 8.  在“未提交的语音配置设置”**** 对话框（其中显示所有待处理更改的列表）中，单击“确定”****。
     
-    当 Lync Server 控制面板提交更改后，将显示 "**成功发布的语音路由配置**" 消息。
+    当 Lync Server 控制面板提交更改后，将显示 "**已成功发布语音路由配置**" 消息。
 
 </div>
 

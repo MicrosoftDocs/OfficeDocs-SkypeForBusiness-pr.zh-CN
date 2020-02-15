@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：新的监控功能
+title: Lync Server 2013：新的监视功能
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce8fa7b78aa00008cd5aaf748ba66a78ecefbe7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53144bfd9a05d1fc20671b1d7b6aeb22b0f84f6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725593"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-monitoring-features-in-lync-server-2013"></a>Lync Server 2013 中新的监控功能
+# <a name="new-monitoring-features-in-lync-server-2013"></a>Lync Server 2013 中的新监控功能
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725593"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-08_
+_**上次修改的主题：** 2012-11-08_
 
-Lync Server 2013 没有单独的监视服务器角色。 监视是可在企业版部署中的所有前端服务器上提供的可选功能，也可以在标准版服务器上实现并配置一个池或网站。 新的 Lync Server 2013，您可以为监视数据库启用 SQL Server 数据库镜像。
+Lync Server 2013 没有单独的监视服务器角色。 监控是 Enterprise Edition 部署中所有前端服务器上提供的可选功能，而在 Standard Edition Server 上，可为池或站点实施和配置该功能。 新增了 Lync Server 2013，可以为监控数据库启用 SQL Server 数据库镜像。
 
 </div>
 

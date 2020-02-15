@@ -12,16 +12,16 @@ ms:contentKeyID: 48184356
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d78b1396d92b16be120484f5bf1b40ef2e47a81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ee159d95a21b351da21c76cd04209da1c4ee938
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740982"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006308"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41740982"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-使用以下过程之一删除队列。
+使用下列过程之一删除队列。
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-delete-a-queue"></a>使用 Lync Server "控制面板" 删除队列
+## <a name="to-use-lync-server-control-panel-to-delete-a-queue"></a>使用 Lync Server 控制面板删除队列
 
-1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“响应组”****，然后单击“队列”****。
 
-4.  在 "搜索" 字段中，键入要删除的队列的部分或全部名称。
+4.  在搜索字段中，键入要删除的队列的部分或全部名称。
 
-5.  在队列列表中，单击所需的队列，单击 "**编辑**"，然后单击 "**删除**"。
+5.  在队列列表中，单击所需的队列，再单击“编辑”****，然后单击“删除”****。
 
-6.  单击“**确定**”。
+6.  单击“确定”****。
 
 </div>
 
@@ -61,9 +61,9 @@ _**主题上次修改时间：** 2012-11-01_
 
 ## <a name="to-use-windows-powershell-to-delete-a-queue"></a>使用 Windows PowerShell 删除队列
 
-1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 3.  在命令行中运行：
     

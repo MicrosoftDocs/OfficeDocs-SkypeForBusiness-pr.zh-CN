@@ -12,20 +12,20 @@ ms:contentKeyID: 49733801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22d79d16980c29907aa4e254d4be7eaee2fcfaae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c74bbc90b0b7ef27da6b38b626fc91bc04383685
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757336"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-information-about-push-notification-settings-in-lync-server-2013"></a>查看有关 Lync Server 2013 中的推送通知设置的信息
+# <a name="viewing-information-about-push-notification-settings-in-lync-server-2013"></a>查看 Lync Server 2013 中的推送通知设置的相关信息
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757336"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-23_
+_**上次修改的主题：** 2013-02-23_
 
-即使移动应用处于非活动状态，推送通知（以锁屏提醒、图标或警报形式）也可以发送到移动设备。 推送通知通知用户诸如新的或错过的 IM 邀请和语音邮件等事件。 你可以使用 Lync Server 2013 控制面板或 Lync Server 2013 管理外壳查看移动设备的信息推送通知设置。
+即使移动应用程序处于非活动状态，也可以向移动设备发送推送通知（以徽章、图标或警告的形式）。 推送通知会将一些事件（例如，新的或错过的 IM 邀请和语音邮件）告知用户。 您可以使用 Lync Server 2013 控制面板或 Lync Server 2013 命令行管理程序查看移动设备的信息推送通知设置。
 
 <div>
 
-## <a name="to-view-push-notification-information-from-lync-server-control-panel"></a>从 Lync Server "控制面板" 查看推送通知信息
+## <a name="to-view-push-notification-information-from-lync-server-control-panel"></a>从 Lync Server 控制面板查看推送通知信息
 
-1.  使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
-3.  在左侧导航栏中，单击 "**客户端**"，然后单击 "**推送通知配置**" 导航按钮。
+3.  在左侧导航栏中，单击“客户端”****，然后单击“推送通知配置”**** 导航按钮。
 
 4.  在 "**推送通知配置**" 页上，单击要查看的网站，单击 "**编辑**" 菜单，然后单击 "**显示详细信息**"。
 
@@ -57,7 +57,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 ## <a name="viewing-push-notification-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看推送通知信息
 
-你可以使用 Windows PowerShell 和**CsPushNotificationConfiguration** cmdlet 查看推送通知配置设置。 你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。
+您可以使用 Windows PowerShell 和**CsPushNotificationConfiguration** cmdlet 查看推送通知配置设置。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 <div>
 
@@ -75,7 +75,7 @@ _**主题上次修改时间：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration) cmdlet 的帮助主题。
+有关详细信息，请参阅 [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration) cmdlet 的帮助主题。
 
 </div>
 

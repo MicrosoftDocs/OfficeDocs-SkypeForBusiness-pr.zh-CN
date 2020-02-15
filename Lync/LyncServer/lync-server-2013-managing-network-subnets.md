@@ -12,16 +12,16 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3d4a56a03d22ecf7fcef85df8b3e6e5ea4c8b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ae37b876ec2a3cab28d778ffc2bac4682c6a66b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762014"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41762014"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-15_
+_**上次修改的主题：** 2012-10-15_
 
-你可以使用 Lync Server 2013 控制面板或 Lync Server 2013 Management Shell 管理网络子网。 在大多数部署了呼叫许可控制（CAC）的 Lync Server 2013 的部署中，通常会有大量子网。 因此，通常最好从 Lync Server 命令行管理程序中配置子网。
+您可以使用 Lync Server 2013 控制面板或 Lync Server 2013 命令行管理程序管理网络子网。 在实施呼叫允许控制（CAC）的 Lync Server 2013 的大多数部署中，通常会有大量子网。 因此，通常最好从 Lync Server 命令行管理程序中配置子网。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中查看网络子网信息](lync-server-2013-viewing-network-subnet-information.md)
 
@@ -56,7 +56,7 @@ _**主题上次修改时间：** 2012-10-15_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中将子网与网络站点相关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[在 Lync Server 2013 中将子网与网络站点关联](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02feacedfc2b0cf7d3f34788c5c9a6ee65d50a9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7849798b1e9cc01b26b5692509bd19c40da644a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747222"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41747222"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-24_
+_**上次修改的主题：** 2012-09-24_
 
-本部分将指导你完成在托管 Exchange 统一消息（UM）服务上使用语音邮件在本地 Lync Server 2013 部署中提供用户的过程。
+本部分将指导您完成在内部部署 Lync Server 2013 部署中使用托管 Exchange 统一消息（UM）服务上的语音邮件提供用户的过程。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [为与托管 Exchange UM 的集成创建 DNS SRV 记录](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
+  - [创建 DNS SRV 记录以与托管 Exchange UM 集成](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
 
   - [配置边缘服务器以与托管 Exchange UM 集成](lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d506ed0115fd5346048ff8870763a7ffc888a69
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: afcf12b50a1284a7218789c5964ce714a3a4bdd7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745292"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745292"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-06-05_
+_**上次修改的主题：** 2014-06-05_
 
 
 <table>
@@ -53,9 +53,9 @@ _**主题上次修改时间：** 2014-06-05_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>需要权限</p></td>
-<td><p>当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行 CsPresence cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<td><p>所需的权限</p></td>
+<td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsPresence cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPresence&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**主题上次修改时间：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-Test-CsPresence 用于确定一对测试用户是否可以登录 Lync Server，然后交换状态信息。 为此，cmdlet 首先将两个用户记录到系统。 如果两次登录均成功，则第一个测试用户将要求接收来自第二个用户的状态信息。 第二个用户发布此信息，测试 CsPresence 验证信息是否已成功传输到第一个用户。 在交换状态信息后，两个测试用户随后从 Lync Server 中注销。
+CsPresence 用于确定一对测试用户是否可以登录 Lync Server，然后交换状态信息。 为此，此 cmdlet 首先使这两个用户登录系统。 如果登录成功，第一个测试用户随后将要求从第二个用户接收状态信息。 第二个用户发布此信息，然后 Test-CsPresence 验证是否信息是否已成功传输到第一个用户。 在交换状态信息后，这两个测试用户就会从 Lync Server 注销。
 
 </div>
 
@@ -74,11 +74,11 @@ Test-CsPresence 用于确定一对测试用户是否可以登录 Lync Server，�
 
 ## <a name="running-the-test"></a>运行测试
 
-CsPresence cmdlet 可以使用一对预配置的测试帐户运行（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何两个用户的帐户。 若要使用测试帐户运行此检查，只需指定正在测试的 Lync Server 池的 FQDN。 例如：
+CsPresence cmdlet 可使用一对预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或任何两个已启用 Lync Server 的用户的帐户运行。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com"
 
-若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。 然后，当你调用 Test-CsPresence 时，你必须包含这些凭据对象和两个帐户的 SIP 地址：
+若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。 在调用 CsPresence 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -90,9 +90,9 @@ CsPresence cmdlet 可以使用一对预配置的测试帐户运行（请参阅�
 
 <div>
 
-## <a name="determining-success-or-failure"></a>确定成功还是失败
+## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果指定的用户可以交换状态信息，则将收到类似于此的输出，并将 Result 属性标记为**成功：**
+如果指定用户可以交换状态信息，则会收到类似于以下内容的输出，并将 Result 属性标记为 "**成功"：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -100,11 +100,11 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延迟：00：00：06.3280315
 
-时发生
+误差
 
-自检
+诊断
 
-如果两个用户不能交换状态信息，则结果将显示为 "失败"，并且将在 "错误" 和 "诊断" 属性中记录其他信息：
+如果两个用户不能交换状态信息，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -112,17 +112,17 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延迟：00:00:00
 
-错误：404，未找到
+错误：未找到404
 
 诊断： ErrorCode = 4005，Source = atl-cs-001.litwareinc.com，
 
-原因 = 没有为 SIP 启用目标 URI，或者没有为其启用目标 URI
+原因 = 未对 SIP 启用目标 URI 或不为其启用目标 URI
 
-并存.
+尚.
 
 Microsoft DiagnosticHeader
 
-例如，以前的输出表明，由于两个用户帐户中的至少一个帐户无效，测试失败：帐户不存在或尚未为 Lync Server 启用。 你可以通过运行如下命令来验证帐户是否存在，并确定是否为 Lync Server 启用了这些帐户：
+例如，由于至少有两个用户帐户中的一个无效，因此以前的输出表明测试失败：该帐户不存在，或者尚未为 Lync Server 启用该帐户。 您可以通过运行与以下内容类似的命令来验证帐户是否存在，并确定是否为 Lync Server 启用了这些帐户：
 
     "sip:kenmyer@litwareinc.com", "sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, Enabled
 
@@ -130,25 +130,25 @@ Microsoft DiagnosticHeader
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-当包含 Verbose 参数时，CsPresence 将返回在检查指定用户登录到 Lync Server 的能力时尝试的每个操作的分步帐户。 例如：
+包含 Verbose 参数时，CsPresence 将返回其在检查指定用户登录到 Lync Server 的能力时所尝试的每个操作的分步帐户。 例如：
 
-注册请求遇到未知情况
+注册请求命中未知
 
 "Register" 活动在 "0.0345791" 秒内完成。
 
-已开始 "SelfSubscribeActivity" 活动。
+"SelfSubscribeActivity" 活动已启动。
 
 "SelfSubscribeActivity" 活动在 "0.0041174" 秒内完成。
 
-已开始 "SubscribePresence" 活动。
+"SubscribePresence" 活动已启动。
 
 "SubscribePresence" 活动在 "0.0038764" 秒内完成。
 
-已开始 "PublishPresence" 活动。
+"PublishPresence" 活动已启动。
 
-在25秒内未收到异常的 "联机状态" 通知。 " ruing 工作流 STPresenceWorkflow 执行失败。
+在25秒内未收到异常 "状态通知"。 ruing 工作流 STPresenceWorkflow 执行发生。
 
-在25秒内未收到状态通知这一事实可能表明网络问题阻止信息被交换。
+在25秒内未收到状态通知这一事实可能表示网络问题阻止交换信息。
 
 </div>
 
@@ -156,17 +156,17 @@ Microsoft DiagnosticHeader
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-下面是测试 CsPresence 可能失败的一些常见原因：
+以下是测试 CsPresence 可能失败的一些常见原因：
 
-  - 您指定了一个不正确的用户帐户。 你可以通过运行类似如下所示的命令来验证用户帐户是否存在：
+  - 您指定了不正确的用户帐户。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - 用户帐户有效，但当前没有为 Lync Server 启用该帐户。 若要验证是否已启用 Lync Server 的用户帐户，请运行类似如下的命令：
+  - 用户帐户有效，但当前未对 Lync Server 启用该帐户。 若要验证是否已为 Lync Server 启用用户帐户，请运行与以下内容类似的命令：
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    如果 Enabled 属性设置为 False，表示当前未对 Lync Server 启用用户。
+    如果 Enabled 属性设置为 False，则表示当前未对 Lync Server 启用用户。
 
 </div>
 

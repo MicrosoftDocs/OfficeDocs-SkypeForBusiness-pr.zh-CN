@@ -12,16 +12,16 @@ ms:contentKeyID: 48185607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63523013d8df74a52fee307192d3f60eb5232121
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3c9f15b72f105edf291007569999c549b8b2c841
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738202"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008818"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738202"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-20_
+_**上次修改的主题：** 2013-02-20_
 
-通过添加您自己的疑难解答或技术支持信息的链接，自定义 Lync 2013 错误消息。 若要执行此操作，请将**set-csclientpolicy**或**set-csclientpolicy** Lync Server Management Shell cmdlet 与 CustomLinkInErrorMessages 参数一起使用。 自定义链接的文本为 "单击此处获取来自管理员的支持主题"，无法对其进行自定义。
+通过添加指向您自己的故障排除或技术支持信息的链接来自定义 Lync 2013 错误消息。 若要执行此操作，请使用 CustomLinkInErrorMessages 参数的**set-csclientpolicy**或**set-csclientpolicy** Lync Server 命令行管理程序 cmdlet。 自定义链接的文本是 "单击此处获取来自管理员的支持主题"，无法对其进行自定义。
 
-例如，以下命令会使自定义链接显示在每个 Lync 2013 错误消息的脚注区域中，并将链接目标设置为http://contoso.com/help/LyncHelpDesk.aspx:
+例如，以下命令使自定义链接显示在每个 Lync 2013 错误消息的脚注区域中，并将链接目标设置为http://contoso.com/help/LyncHelpDesk.aspx:
 
     New-CsClientPolicy -Identity LyncErrorLink -CustomLinkInErrorMessages "http://contoso/help/LyncHelpDesk.aspx"
 
-使用**Grant-set-csclientpolicy**将此新策略分配给用户。 有关详细信息，请参阅 Lync Server Management Shell 文档中的 "**新建-set-csclientpolicy** " 和 "**授予" set-csclientpolicy** 。
+使用 **Grant-CSClientPolicy** 将此新策略分配给用户。 有关详细信息，请参阅 Lync Server 命令行管理程序文档中的**set-csclientpolicy**和**Grant set-csclientpolicy** 。
 
 </div>
 

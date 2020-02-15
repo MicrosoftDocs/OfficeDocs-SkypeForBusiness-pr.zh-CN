@@ -12,16 +12,16 @@ ms:contentKeyID: 48183576
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 496dcc3dfafcc7a583fe74d729c3b90d8677691e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e1c9a55c72522604168fec235f1b9d716cd5cec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756076"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992037"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756076"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
-在工程师应答呼叫之前，队列将对响应组的通话保持通话。 管理队列时，将一个或多个代理组分配给队列并指定队列设置，例如，在执行溢出操作之前队列可以保留的呼叫数，以及在执行超时前呼叫等待代理的时间长度。ction. 当响应组应用程序搜索可用代理时，它将按列出的顺序搜索代理组。
+队列将保留对响应组的呼叫，直到代理应答呼叫。 管理队列时，需向队列分配一个或多个代理组并指定队列设置，如执行溢出操作前队列可以保留的呼叫数，以及执行超时操作前呼叫等待代理应答的时间长度。 当响应组应用程序搜索可用的代理时，它将按列出的顺序搜索代理组。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中创建或修改队列](lync-server-2013-create-or-modify-a-queue.md)
 

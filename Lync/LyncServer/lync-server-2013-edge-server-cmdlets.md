@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： Edge 服务器 cmdlet
+title: Lync Server 2013：边缘服务器 cmdlet
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d142bc2a98fbbb1d8147943e379ae1e1a243b18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d4343e9321ab463a6bf0b4173989d245267588e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726192"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的 Edge 服务器 cmdlet
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的边缘服务器 cmdlet
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-10-07_
+_**上次修改的主题：** 2013-10-07_
 
-通过 Edge 服务器，你可以将 Microsoft Lync Server 2013 的功能扩展到未登录到内部网络的用户。 例如，如果您有通过 Internet （而不是通过内部网络）登录到 Lync Server 2013 的已通过身份验证的远程用户，则需要设置运行 Lync Server Access Edge 服务的边缘服务器。 此外，如果你想要与另一个组织建立联盟，或者你希望向用户提供与具有公共即时消息服务（如 Yahoo\!、AOL 或 MSN）的帐户进行通信的权限，则需要 Edge 服务器。
+边缘服务器提供了一种将 Microsoft Lync Server 2013 的功能扩展到未登录到内部网络的用户的方法。 例如，如果您有通过 Internet 而不是通过内部网络登录到 Lync Server 2013 的远程用户-已通过身份验证的用户-您将需要设置运行 Lync Server 访问边缘服务的边缘服务器。 此外，如果要建立与其他组织的联盟，或者要向用户授予与具有公用即时消息服务（如 Yahoo\!、AOL 或 MSN）的帐户进行通信的用户的权利，则需要边缘服务器。
 
 <div>
 
@@ -45,11 +45,11 @@ _**主题上次修改时间：** 2013-10-07_
 > [!IMPORTANT]
 > <UL>
 > <LI>
-> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或续订协议。 具有活动许可证的客户将能够继续与 Yahoo！进行联盟 Messenger，直到服务关闭日期。 AOL 和 Yahoo！的有效期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的公共即时消息连接支持</A>。</P>
+> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
 > <LI>
-> <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力已作为对 Yahoo！的支持，它的底层协议被向下缠绕。</P>
+> <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而受到了支持，其下凸的底层协议。</P>
 > <LI>
-> <P>Lync 比以往更多，是一种强大的工具，用于跨组织和全球各地的人员进行连接。 与 Windows Live Messenger 的联盟不需要除 Lync 标准 CAL 之外的其他用户/设备许可证。 Skype 联盟将添加到此列表，使 Lync 用户可以通过 IM 和语音与成百上千人联系。</P></LI></UL>
+> <P>Lync 是前所未有的强大工具，用于跨组织和世界各地的个人进行连接。 与 Windows Live Messenger 的联盟不需要除 Lync Standard CAL 之外的其他用户/设备许可证。 Skype 联合身份验证将添加到此列表中，使 Lync 用户可以使用即时消息和语音访问成百上千人。</P></LI></UL>
 
 
 
@@ -57,41 +57,41 @@ _**主题上次修改时间：** 2013-10-07_
 
 <div>
 
-## <a name="edge-server-cmdlets"></a>Edge 服务器 Cmdlet
+## <a name="edge-server-cmdlets"></a>边缘服务器 Cmdlet
 
-以下是与管理边缘服务器直接相关的 cmdlet 的列表：
+以下是与管理边缘服务器直接相关的 cmdlet 列表：
 
 **边缘服务器**
 
   - <span></span>  
-    [CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398574(v=OCS.15))
+    [Set-csaccessedgeconfiguration](https://technet.microsoft.com/library/Gg398574(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413017(v=OCS.15))
+    [Set-csaccessedgeconfiguration](https://technet.microsoft.com/library/Gg413017(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413008(v=OCS.15))
+    [CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg413008(v=OCS.15))
 
   - <span></span>  
-    [新-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))
+    [新 CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15))
+    [CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))
+    [CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAVEdgeConnectivity](https://technet.microsoft.com/en-us/library/JJ205138(v=OCS.15))
+    [Test-CsAVEdgeConnectivity](https://technet.microsoft.com/library/JJ205138(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsEdgeServer](https://technet.microsoft.com/en-us/library/Gg398859(v=OCS.15))
+    [CsEdgeServer](https://technet.microsoft.com/library/Gg398859(v=OCS.15))
 
 </div>
 

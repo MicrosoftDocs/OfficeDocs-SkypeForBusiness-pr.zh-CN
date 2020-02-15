@@ -12,16 +12,16 @@ ms:contentKeyID: 49733817
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6084fdb6a73566c14185e5b39d1064aa7d5d3647
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eed16a295e678ea2df169fc2d1ec9ddb2eb33d90
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765903"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765903"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-10_
+_**上次修改的主题：** 2012-09-10_
 
-你可以使用本部分中的主题来确保你的网络已准备好 Lync Server。
+您可以使用本节中的主题来确保网络为 Lync Server 准备就绪。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 的网络基础结构要求](lync-server-2013-network-infrastructure-requirements.md)
 

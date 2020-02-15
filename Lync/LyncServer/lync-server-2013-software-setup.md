@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：软件安装
+title: Lync Server 2013：软件安装程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 659ae8b1184e22b8e681f6c8166d079655b12c4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a1fc4f23779c7f75dc7e11a9eed7050e6bd737c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764458"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="software-setup-for-lync-server-2013"></a>Lync Server 2013 的软件安装
+# <a name="software-setup-for-lync-server-2013"></a>Lync Server 2013 的软件安装程序
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764458"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-29_
+_**上次修改的主题：** 2012-06-29_
 
-本节详细介绍了在你的环境中设置硬件后所需的软件设置。
+本节详细介绍在环境中设置硬件后所需的软件设置。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在服务器上安装适用于 Lync Server 2013 的操作系统和必备软件](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2012-06-29_
 
   - [为 Lync Server 2013 配置 IIS](lync-server-2013-configure-iis.md)
 
-  - [为 Lync Server 2013 安装 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)
+  - [为 Lync Server 2013 安装 Windows PowerShell 3。0](lync-server-2013-installing-windows-powershell-3-0.md)
 
 </div>
 

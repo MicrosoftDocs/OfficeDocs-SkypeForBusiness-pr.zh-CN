@@ -12,16 +12,16 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99fed5bf80979ef807f45ce7e5ecdc8e8a16329b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90cd385c5310a5b2df01127e870861fa83231d6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739552"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41994177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41739552"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-07_
+_**上次修改的主题：** 2014-02-07_
 
 使用下列过程之一可创建或修改代理组。
 
@@ -43,7 +43,7 @@ _**主题上次修改时间：** 2014-02-07_
 
 
 > [!NOTE]  
-> 管理员（例如 CsVoiceAdministrator）必须先为企业语音和 Lync 服务器启用用户，然后才能将用户分配给代理组。 如果你是托管工作流的委派的响应组管理器之一，则可以创建代理组并使用你管理的工作流中的代理组。
+> 管理员（例如，CsVoiceAdministrator）必须先为用户启用企业语音和 Lync Server，然后才能将用户分配给代理组。 如果您是托管工作流的委派响应组管理员之一，则将能够创建代理组并您管理的工作流中使用这些代理组。
 
 
 
@@ -53,7 +53,7 @@ _**主题上次修改时间：** 2014-02-07_
 
 
 > [!IMPORTANT]  
-> 如果将用户分配为响应组代理，需告知用户，如果用户已启用隐私模式，则需搜索“RGS Presence Watcher”联系人并将其添加到联系人列表。已启用隐私模式但未将“RGS Presence Watcher”添加到联系人列表中的代理将无法接收拨打到响应组的呼叫。未启用隐私模式的代理不受影响。
+> 如果将用户分配为响应组代理，需告知用户，如果他们已启用隐私模式，则需搜索“RGS Presence Watcher”联系人并将其添加到联系人列表。已启用隐私模式但未将“RGS Presence Watcher”添加到联系人列表中的代理将无法接收拨打到响应组的呼叫。未启用隐私模式的代理不受影响。
 
 
 
@@ -61,9 +61,9 @@ _**主题上次修改时间：** 2014-02-07_
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-create-or-modify-an-agent-group"></a>使用 Lync Server "控制面板" 创建或修改代理组
+## <a name="to-use-lync-server-control-panel-to-create-or-modify-an-agent-group"></a>使用 Lync Server 控制面板创建或修改代理组
 
-1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
     
     <div>
     
@@ -74,7 +74,7 @@ _**主题上次修改时间：** 2014-02-07_
     
     </div>
 
-2.  打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。 有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“响应组”****，然后单击“组”****。
 
@@ -88,11 +88,11 @@ _**主题上次修改时间：** 2014-02-07_
 
 6.  在“说明”**** 中，键入对该组的说明。
 
-7.  在“参与策略”**** 中，选择下列操作之一，从而设置组的登录行为：
+7.  在 **“参与策略”** 中，选择下列操作之一，从而设置组的登录行为：
     
-      - 选择“非正式”**** 指定组中的代理无需登录组和从组中注销。 当代理登录到 Lync Server 2013 时，它会自动登录到该组。
+      - 选择 **“非正式”** 指定组中的代理无需登录组和从组中注销。 代理在登录到 Lync Server 2013 时自动登录到该组。
     
-      - 选择“正式”**** 指定组中的代理必须登录到组和从组中注销。 选择此选项时，代理将单击 Lync 中的菜单项以打开 Internet Explorer，并显示用于登录和注销组的网页控制台。
+      - 选择 **“正式”** 指定组中的代理必须登录到组和从组中注销。 选择此选项时，代理将单击 Lync 中的菜单项，以打开 Internet Explorer，并显示用于登录和注销组的网页控制台。
 
 8.  在“警报时间(秒)”**** 中，指定将呼叫转至下一个空闲的代理之前，向某位代理响铃的秒数（默认为 20 秒）。
     
@@ -107,15 +107,15 @@ _**主题上次修改时间：** 2014-02-07_
 
 9.  在“路由方法”**** 中，选择将呼叫路由至组中代理的方法，具体如下：
     
-      - 若要首先向已闲置时间最长的代理（已有最长时间的 Lync 服务器中存在**可用**或**非活动**）提供新呼叫，请单击 "**最长空闲**"。
+      - 若要先为空闲时间最长的代理提供新呼叫（在 Lync Server 中状态为 "**可用**" 或 "**非活动**"），请单击 "**最长空闲**"。
     
-      - 若要将新呼叫同时路由至所有空闲的代理，请单击“并行”****。呼叫将发往第一个接受该呼叫的代理。
+      - 要将新呼叫同时路由至所有空闲的代理，请单击 **“并行”**。呼叫将发往第一个接受该呼叫的代理。
     
-      - 若要将新呼叫轮流路由至每个代理，请单击“循环”****。
+      - 要将新呼叫轮流路由至每个代理，请单击 **“循环”**。
     
-      - 若要将新呼叫始终按照“代理”**** 列表中代理的排列顺序路由至代理，请单击“串行”****。
+      - 要将新呼叫始终按照 **“代理”** 列表中代理的排列顺序路由至代理，请单击 **“串行”**。
     
-      - 若要同时向所有登录到 Lync Server 2013 和响应组应用程序的代理提供新呼叫，请单击 "**助理**"。 配置为代理的 Lync 2010 助理用户可以查看正在等待的所有呼叫，并以任何顺序应答等待通话。 呼叫将发送给接受它的第一位工程师，之后，其他 Lync 2010 助理用户将不再看到该呼叫。
+      - 若要同时向所有登录到 Lync Server 2013 和响应组应用程序的代理提供新呼叫，请单击 "**助理**"。 配置为代理的 Lync 2010 助理用户可以查看正在等待的所有呼叫，并以任意顺序应答等待呼叫。 呼叫将发送至第一个接受该呼叫的代理，之后其他 Lync 2010 助理用户将不再看到该呼叫。
 
 10. 在“代理”**** 中，指定创建代理列表要采用的方式：
     
@@ -137,24 +137,24 @@ _**主题上次修改时间：** 2014-02-07_
         
           - 如果选择串行路由或循环路由，则服务器会根据路由方法和通讯组列表中代理的排列顺序，将传入呼叫路由至相应的代理。
         
-          - 如果通讯组列表包含已启用 Lync Server 2010 但未启用企业语音的用户，它们将作为不正常的代理添加到代理组。确保通信组列表的所有成员已为其用户帐户启用企业语音。
+          - 如果通讯组列表包含启用了 Lync Server 2010 的用户，但未启用企业语音，则这些用户将作为 dysfunctional 代理添加到代理组。 确保通讯组列表的所有成员都已为其用户帐户启用了企业语音。
         
         <div>
         
 
         > [!IMPORTANT]  
-        > 如果您使用电子邮件通讯组列表，响应组管理员或用户可能会看到隐藏的成员身份或隐藏的列表。
+        > 如果使用电子邮件通讯组列表，则响应组管理员或用户可能会看到隐藏的成员身份或隐藏列表。
 
         
         </div>
         
         在下列情况中，可以看见隐藏成员身份或隐藏列表：
         
-          - 如果配置了通讯组列表以使成员身份处于隐藏状态，并且响应组管理员将通讯组列表分配给代理列表，则用户可以调用该组以查明成员的成员。
+          - 如果配置了通讯组列表以使成员身份处于隐藏状态，并且响应组管理员将通讯组列表分配给代理列表，则用户可以调用该组以找出成员的身份。
         
-          - 如果已将通讯组列表配置为在 Exchange 全局地址列表中隐藏，则响应组管理员可能能够查看通讯组列表并将其分配给代理列表（如果响应组进程具有相应的用户权限），并且权限，即使管理员没有相应的用户权利和权限也是如此。
+          - 如果已将通讯组列表配置为在 Exchange 全局地址列表中隐藏，则响应组管理员可能能够查看通讯组列表并将其分配给代理列表（如果响应组进程具有相应的用户权限）并权限，即使管理员没有适当的用户权限和权限也是如此。
 
-11. 单击“**提交**”。
+11. 单击“提交”****。
 
 </div>
 
@@ -162,11 +162,11 @@ _**主题上次修改时间：** 2014-02-07_
 
 ## <a name="to-use-windows-powershell-to-create-or-modify-an-agent-group"></a>使用 Windows PowerShell 创建或修改代理组
 
-1.  以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。
+1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  使用  **New-CsRgsAgentGroup** 可创建新代理组。 使用  **Set-CsRgsAgentGroup** 可修改现有代理组。 在命令行中运行：
+3.  使用 **New-CsRgsAgentGroup** 可创建新代理组。 使用 **Set-CsRgsAgentGroup** 可修改现有代理组。 在命令行中运行：
     
         New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
     
@@ -198,9 +198,9 @@ _**主题上次修改时间：** 2014-02-07_
 
 
 [在 Lync Server 2013 中管理响应组代理组](lync-server-2013-managing-response-group-agent-groups.md)  
-[CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
-[新-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup)  
-[Set-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsAgentGroup)  
+[Get-csservice](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[新 CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup)  
+[CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsAgentGroup)  
 [CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsAgentGroup)  
   
 

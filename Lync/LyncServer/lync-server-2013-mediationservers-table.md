@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：MediationServers 表
+title: Lync Server 2013： MediationServers 表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7854306eefb1bed16753e8f6408a8c06f95bd04f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a711cdd4073d5e9bfe884c907d079437ffc8440
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766063"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41766063"
 
 <span> </span>
 
-_**主题上次修改时间：** 2010-11-06_
+_**上次修改的主题：** 2010-11-06_
 
-MediationServers 表是支持表。 每个记录存储有关在数据库中具有记录的通话中涉及的一个中介服务器的信息。
+MediationServers 表是一个支持表格。 每个记录存储有关在数据库中包含记录的呼叫中涉及的一台中介服务器的信息。
 
 
 <table>
@@ -59,12 +59,12 @@ MediationServers 表是支持表。 每个记录存储有关在数据库中具�
 <tr class="odd">
 <td><p><strong>MediationServerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primary</p></td>
-<td><p>标识此中介服务器的唯一号码。</p></td>
+<td><p>主</p></td>
+<td><p>标识此中介服务器的唯一编号。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MediationServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar （256）</p></td>
 <td><p> </p></td>
 <td><p>中介服务器名称。</p></td>
 </tr>

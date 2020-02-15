@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：灾难恢复期间管理呼叫寄存
+title: Lync Server 2013：在灾难恢复期间管理呼叫寄存
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f324064e2936bda7b5e015aa502aaca10407e591
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 727751762fc63d9e4f888b20dabd62fef0278ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733412"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007801"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中灾难恢复期间管理呼叫寄存
+# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中的灾难恢复期间管理呼叫寄存
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41733412"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-10_
+_**上次修改的主题：** 2012-09-10_
 
-Lync Server 2013 支持在灾难恢复期间的备份池中的呼叫寄存。 本部分介绍了在中断期间希望支持呼叫寄存以及中断期间停用呼叫的情况下要考虑的事项。
+Lync Server 2013 支持在灾难恢复期间的备份池中的呼叫寄存。 本节介绍当您想要在中断期间支持呼叫寄存以及在中断期间寄存呼叫时所发生的情况时应考虑的事项。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中规划呼叫寄存灾难恢复](lync-server-2013-planning-for-call-park-disaster-recovery.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39a7f0791def99e0b42a57b1f13aae88abbfafa4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6410e50a5e7d84de152b9a4e4bd1f962c5a3c9bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763396"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,49 +35,49 @@ ms.locfileid: "41763396"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-13_
+_**上次修改的主题：** 2013-02-13_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 提供了移动性策略，这些策略确定谁可以使用移动功能、通过工作、IP 语音（VoIP）或视频通话以及是否需要 WiFi 或视频。 通过 "通过工作电话呼叫" 功能，移动用户可以通过使用工作电话号码（而不是移动电话号码）在移动电话上拨打和接听电话。 此功能可防止被呼叫方看到呼叫方的移动电话号码，并使用户可以避免出站通话费用。 配置 VoIP 和视频使用户可以接收和进行 VoIP 呼叫和视频。 WiFi 使用的设置定义用户的设备是否需要在移动数据网络上使用 WiFi 网络。
+Lync Server 2013 提供了移动性策略，用于确定谁可以使用移动功能、通过工作呼叫、IP 语音（VoIP）或视频，以及 VoIP 或视频是否需要 WiFi。 通过 "通过工作进行呼叫" 功能，移动用户可以通过使用工作电话号码而不是移动电话号码，在移动电话上拨打和接听呼叫。 此功能可防止被叫方查看呼叫者的移动电话号码，并允许用户避免出站通话费用。 配置 VoIP 和视频使用户可以接收和发出 VoIP 呼叫和视频。 WiFi 用法的设置定义用户的设备是否需要通过蜂窝数据网络使用 WiFi 网络。
 
-默认情况下，移动、通过工作进行呼叫，并启用 VoIP 和视频功能。 已禁用 VoIp 和视频需要 WiFi 的设置。 管理员可以通过运行 cmdlet 来确定哪些用户有权访问这些功能。 你可以将选项设置为 "全局"、"按网站" 或 "由用户"。
+默认情况下，移动性、通过工作进行呼叫以及启用 VoIP 和视频功能。 禁用 VoIp 和视频需要 WiFi 的设置。 管理员可确定哪些用户可通过运行 cmdlet 访问这些功能。 您可以按网站或用户全局关闭这些选项。
 
-若要能够通过工作使用移动功能和通话，用户必须满足以下先决条件：
+为了能够使用移动功能和单位电话呼叫功能，用户必须满足以下先决条件：
 
-  - 必须为 Lync Server 2013 启用用户。
+  - 必须为用户启用 Lync Server 2013。
 
-  - 必须为用户启用企业语音。
+  - 用户必须启用企业语音。
 
-  - 必须为用户分配一个将**EnableMobility**选项设置为 True 的移动策略。
+  - 必须为用户分配已将“EnableMobility”**** 选项设置为 True 的移动策略。
 
-为使用户能够通过工作使用呼叫，他们必须满足以下两个额外的先决条件：
+对于希望能使用单位电话呼叫功能的用户，他们必须满足以下两个额外的先决条件：
 
-  - 必须为用户分配已选中 "**启用同时拨打的电话**" 选项的语音策略。
+  - 必须为用户分配已选择“允许多部电话同时响铃”**** 选项的语音策略。
 
-  - 必须为用户分配一个将**EnableOutsideVoice**选项设置为 True 的移动策略。
+  - 必须为用户分配已将“EnableOutsideVoice”**** 选项设置为 True 的移动策略。
 
 <div>
 
 
 > [!NOTE]  
-> 未启用企业语音的用户可以使用其移动设备使 Lync 通过 IP （VoIP）呼叫进行 Lync 语音通话，或者，如果为这些用户分配了相应的语音策略选项，则可以通过使用 "单击以加入" 链接在其移动设备上加入会议。 有关详细信息，请参阅<A href="lync-server-2013-defining-your-mobility-requirements.md">定义 Lync Server 2013 的移动性要求</A>。
+> 未启用企业语音的用户可以使用其移动设备将 Lync 设置为通过 IP （VoIP）呼叫，也可以通过在其移动设备上单击加入链接来加入会议，前提是为这些用户分配语音策略的相应选项。 有关详细信息，请参阅为<A href="lync-server-2013-defining-your-mobility-requirements.md">Lync Server 2013 定义移动性要求</A>。
 
 
 
 </div>
 
-有关为 Lync Server 2013 启用用户的详细信息，请参阅[禁用或重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 有关为企业语音启用用户的详细信息，请参阅[在 Lync Server 2013 中启用企业语音用户](lync-server-2013-enable-users-for-enterprise-voice.md)。 有关设置语音策略选项的详细信息，请参阅[在 Lync Server 2013 中修改语音策略和配置 PSTN 使用记录](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)。
+有关为用户启用 Lync Server 2013 的详细信息，请参阅[Disable or 重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)。 有关为用户启用企业语音的详细信息，请参阅[Enable users For Enterprise voice In Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)。 有关设置语音策略选项的详细信息，请参阅[在 Lync Server 2013 中修改语音策略和配置 PSTN 用法记录](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)。
 
 <div>
 
 ## <a name="to-modify-global-mobility-policy"></a>修改全局移动策略
 
-1.  登录到安装了 Lync Server 命令行管理器和 Ocscore 的任何计算机作为 CsAdministrator 角色的成员。
+1.  登录到安装了 Lync Server 命令行管理程序和 Ocscore 的任何计算机作为 CsAdministrator 角色的成员。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  通过全球工作，关闭对移动和通话的访问。 在命令行中键入：
+3.  全局禁用对移动功能和单位电话呼叫功能的访问。在命令行中键入：
     
         Set-CsMobilityPolicy -EnableMobility $False -EnableOutsideVoice $False
     
@@ -85,7 +85,7 @@ Lync Server 2013 提供了移动性策略，这些策略确定谁可以使用移
     
 
     > [!NOTE]  
-    > 您可以通过工作来关闭呼叫，而无需关闭移动访问。 但是，如果未关闭 "通过工作进行呼叫"，则无法关闭行动。
+    > 您可禁用单位电话呼叫功能，而不禁用对移动功能的访问。但是，您无法在不禁用单位电话呼叫功能的情况下禁用移动功能。
 
     
     </div>
@@ -96,11 +96,11 @@ Lync Server 2013 提供了移动性策略，这些策略确定谁可以使用移
 
 ## <a name="to-modify-mobility-policy-by-site"></a>按网站修改移动策略
 
-1.  登录到安装了 Lync Server 命令行管理器和 Ocscore 的任何计算机作为 CsAdministrator 角色的成员。
+1.  登录到安装了 Lync Server 命令行管理程序和 Ocscore 的任何计算机作为 CsAdministrator 角色的成员。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  创建网站级策略，关闭 VoIP 和视频，并启用 IP 音频的 WiFi 和视频，并按站点启用 IP 视频的 WiFi。 在命令行中键入：
+3.  创建网站级策略，并关闭 VoIP 和视频，并启用站点的 IP 音频和 IP 视频需要 WiFi。 在命令行中键入：
     
         New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $False -RequireWiFiForIPAudio $True -RequireWiFiForIPVideo $True
 
@@ -108,18 +108,18 @@ Lync Server 2013 提供了移动性策略，这些策略确定谁可以使用移
 
 <div>
 
-## <a name="to-modify-mobility-policy-by-user"></a>按用户修改移动策略
+## <a name="to-modify-mobility-policy-by-user"></a>通过用户修改移动策略
 
-1.  登录到安装了 Lync Server 命令行管理器和 Ocscore 的任何计算机作为 CsAdministrator 角色的成员。
+1.  登录到安装了 Lync Server 命令行管理程序和 Ocscore 的任何计算机作为 CsAdministrator 角色的成员。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-3.  创建用户级移动策略，并通过用户的工作方式关闭移动性和呼叫。 在命令行中键入：
+3.  创建用户级别移动策略，然后按用户禁用对移动功能和单位电话呼叫功能的访问。在命令行中键入：
     
         New-CsMobilityPolicy -Identity <policy name> -EnableMobility $False -EnableOutsideVoice $False
         Grant-CsMobilityPolicy -Identity <user identifier> -PolicyName <policy name>
     
-    您可以通过工作来关闭呼叫，而无需关闭移动访问。 但是，如果未关闭 "通过工作进行呼叫"，则无法关闭行动。
+    您可禁用单位电话呼叫功能，而不禁用对移动功能的访问。但是，您无法在不禁用单位电话呼叫功能的情况下禁用移动功能。
     
     例如：
     
@@ -130,22 +130,22 @@ Lync Server 2013 提供了移动性策略，这些策略确定谁可以使用移
 
 <div>
 
-## <a name="see-also"></a>另请参阅
+## <a name="see-also"></a>请参阅
 
 
-[禁用或重新启用 Lync Server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[在 Lync Server 2013 中启用企业语音用户](lync-server-2013-enable-users-for-enterprise-voice.md)  
-[在 Lync Server 2013 中修改语音策略和配置 PSTN 使用记录](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[为 Lync Server 2013 禁用或重新启用用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[在 Lync Server 2013 中为用户启用企业语音](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[在 Lync Server 2013 中修改语音策略和配置 PSTN 用法记录](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
 
 
-[定义您的 Lync Server 2013 移动要求](lync-server-2013-defining-your-mobility-requirements.md)  
+[定义 Lync Server 2013 的移动性要求](lync-server-2013-defining-your-mobility-requirements.md)  
 
 
-[New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
-[Set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
-[Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
-[Grant-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
-[Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
+[新 Set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy)  
+[Set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy)  
+[Set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy)  
+[Grant-Set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy)  
+[Set-csmobilitypolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013： UserAgentDef table （QoE）
+title: Lync Server 2013： UserAgentDef 表（QoE）
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 146c22b77ac6d2681c1844feade86242e1fcd72f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebddb1e0313d0c47acb4171929d12d352f69c260
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744402"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007601"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41744402"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-03-25_
+_**上次修改的主题：** 2014-03-25_
 
 UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用户代理是用于连接到 Microsoft Lync Server 2013 的软件客户端。
 
@@ -55,27 +55,27 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>MediationServer</p></td>
 <td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>ppls-2</p></td>
+<td><p>2 </p></td>
 <td><p>AV-MCU</p></td>
 <td><p>AV-MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>OC</p></td>
 <td><p>OC</p></td>
 </tr>
 <tr class="even">
-<td><p>个</p></td>
+<td><p>8 </p></td>
 <td><p>OCPhone</p></td>
 <td><p>OCPhone</p></td>
 </tr>
 <tr class="odd">
-<td><p>utf-16</p></td>
+<td><p>16 </p></td>
 <td><p>LMC</p></td>
 <td><p>LMC</p></td>
 </tr>
@@ -86,23 +86,23 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
-<td><p>分钟</p></td>
-<td><p>分钟</p></td>
+<td><p>MM</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="even">
 <td><p>64</p></td>
-<td><p>MC</p></td>
-<td><p>分钟</p></td>
+<td><p>EMC</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>助理</p></td>
-<td><p>助理</p></td>
+<td><p>随</p></td>
+<td><p>随</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
 <td><p>Conferencing_Announcement_Service_1 0</p></td>
-<td><p>而言</p></td>
+<td><p>CAS</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
@@ -117,17 +117,17 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 <tr class="odd">
 <td><p>1024</p></td>
 <td><p>Response_Group_Service</p></td>
-<td><p>RG</p></td>
+<td><p>RGS</p></td>
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
 <td><p>Call_Park_Service_1 0</p></td>
-<td><p>方面</p></td>
+<td><p>CPS</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
 <td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>方式</p></td>
+<td><p>AS</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
@@ -166,8 +166,8 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
-<td><p>短期</p></td>
-<td><p>短期</p></td>
+<td><p>圣保罗</p></td>
+<td><p>圣保罗</p></td>
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
@@ -206,8 +206,8 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>笔记本电脑</p></td>
-<td><p>笔记本电脑</p></td>
+<td><p>电脑</p></td>
+<td><p>电脑</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>

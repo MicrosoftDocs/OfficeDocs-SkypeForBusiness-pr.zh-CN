@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：CDR 表详细信息
+title: Lync Server 2013： CDR 表详细信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650caa5244eaf796c066f1388f2fcbb5d3b0703a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32b48f6a03c0663277404876f538ae2f15d1bc38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736942"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736942"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-18_
+_**上次修改的主题：** 2012-10-18_
 
-以下主题详细介绍每个 "呼叫详细记录" （CDR）数据库架构表中的列。
+以下主题详细介绍了每个呼叫详细记录 (CDR) 数据库架构表中的列。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中的 Application 表](lync-server-2013-application-table.md)
+  - [Lync Server 2013 中的应用程序表](lync-server-2013-application-table.md)
 
   - [Lync Server 2013 中的 CallPriorities 表](lync-server-2013-callpriorities-table.md)
 
@@ -55,7 +55,7 @@ _**主题上次修改时间：** 2012-10-18_
 
   - [Lync Server 2013 中的 ConferenceMessageCount 表](lync-server-2013-conferencemessagecount-table.md)
 
-  - [Lync Server 2013 中的 Conferences 表](lync-server-2013-conferences-table.md)
+  - [Lync Server 2013 中的 "会议" 表](lync-server-2013-conferences-table.md)
 
   - [Lync Server 2013 中的 ConferenceSessionDetails 表](lync-server-2013-conferencesessiondetails-table.md)
 
@@ -65,9 +65,9 @@ _**主题上次修改时间：** 2012-10-18_
 
   - [Lync Server 2013 中的 DeRegisterType 表](lync-server-2013-deregistertype-table.md)
 
-  - [Lync Server 2013 中的 Devices 表](lync-server-2013-devices-table.md)
+  - [Lync Server 2013 中的 "设备" 表](lync-server-2013-devices-table.md)
 
-  - [Lync Server 2013 中的 Dialogs 表](lync-server-2013-dialogs-table.md)
+  - [Lync Server 2013 中的对话框表](lync-server-2013-dialogs-table.md)
 
   - [Lync Server 2013 中的 EdgeServers 表](lync-server-2013-edgeservers-table.md)
 
@@ -83,21 +83,21 @@ _**主题上次修改时间：** 2012-10-18_
 
   - [Lync Server 2013 中的前端表](lync-server-2013-frontend-table.md)
 
-  - [Lync Server 2013 中的 Gateways 表](lync-server-2013-gateways-table.md)
+  - [Lync Server 2013 中的网关表](lync-server-2013-gateways-table.md)
 
   - [Lync Server 2013 中的 HardwareVersions 表](lync-server-2013-hardwareversions-table.md)
 
   - [Lync Server 2013 中的 IMReportSummary 表](lync-server-2013-imreportsummary-table.md)
 
-  - [Lync Server 2013 中的 Locations 表](lync-server-2013-locations-table.md)
+  - [Lync Server 2013 中的位置表](lync-server-2013-locations-table.md)
 
-  - [Lync Server 2013 中的 Manufacturers 表](lync-server-2013-manufacturers-table.md)
+  - [Lync Server 2013 中的 "制造商" 表](lync-server-2013-manufacturers-table.md)
 
   - [Lync Server 2013 中的 McuJoinsAndLeaves 表](lync-server-2013-mcujoinsandleaves-table.md)
 
-  - [Lync Server 2013 中的 Mcus 表](lync-server-2013-mcus-table.md)
+  - [Lync Server 2013 中的 mcu 表](lync-server-2013-mcus-table.md)
 
-  - [Lync Server 2013 中的 Media 表](lync-server-2013-media-table.md)
+  - [Lync Server 2013 中的媒体表](lync-server-2013-media-table.md)
 
   - [Lync Server 2013 中的 MediaList 表](lync-server-2013-medialist-table.md)
 
@@ -105,19 +105,19 @@ _**主题上次修改时间：** 2012-10-18_
 
   - [Lync Server 2013 中的 MSMQProcessing 表](lync-server-2013-msmqprocessing-table.md)
 
-  - [Lync Server 2013 中的 Phones 表](lync-server-2013-phones-table.md)
+  - [Lync Server 2013 中的电话表](lync-server-2013-phones-table.md)
 
-  - [Lync Server 2013 中的 Pools 表](lync-server-2013-pools-table.md)
+  - [Lync Server 2013 中的 pool 表](lync-server-2013-pools-table.md)
 
   - [Lync Server 2013 中的 ProgressReport 表](lync-server-2013-progressreport-table.md)
 
   - [Lync Server 2013 中的 PurgeSettings 表](lync-server-2013-purgesettings-table.md)
 
-  - [Lync Server 2013 中的 Registration 表](lync-server-2013-registration-table.md)
+  - [Lync Server 2013 中的注册表](lync-server-2013-registration-table.md)
 
   - [Lync Server 2013 中的 Roles 表](lync-server-2013-roles-table.md)
 
-  - [Lync Server 2013 中的 Servers 表](lync-server-2013-servers-table.md)
+  - [Lync Server 2013 中的 "服务器" 表](lync-server-2013-servers-table.md)
 
   - [Lync Server 2013 中的 SessionDetails 表](lync-server-2013-sessiondetails-table.md)
 
@@ -129,7 +129,7 @@ _**主题上次修改时间：** 2012-10-18_
 
   - [Lync Server 2013 中的任务表](lync-server-2013-task-table.md)
 
-  - [Lync Server 2013 中的 Tenants 表](lync-server-2013-tenants-table.md)
+  - [Lync Server 2013 中的租户表](lync-server-2013-tenants-table.md)
 
   - [Lync Server 2013 中的 UriTypes 表](lync-server-2013-uritypes-table.md)
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe172863d2a1f8e762f8da2d6029f00531e04c70
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 289e210b8f8959c8bee471a73d9dc5680923d80d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743292"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991927"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a>灾难期间在 Lync Server 2013 中管理响应组
+# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a>在灾难发生期间管理 Lync Server 2013 中的响应组
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41743292"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-11-01_
+_**上次修改的主题：** 2012-11-01_
 
-Lync Server 2013 支持在灾难恢复期间在备份池中运行响应组。 本部分介绍了如何在中断期间规划响应组、在中断期间响应组的工作方式，以及故障转移和故障回复响应组所需的步骤。
+Lync Server 2013 支持在灾难恢复期间在备份池中运行响应组。 本节介绍如何在中断期间规划响应组、响应组在中断期间的运行方式以及对响应组进行故障转移和故障回复所需的步骤。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中规划响应组灾难恢复](lync-server-2013-planning-for-response-group-disaster-recovery.md)
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 62625490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77e02a5fd0f90367f23e7b0fb314f037f7b31e45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e1ef045253f6733ea3356baa6254a6c90926762
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739582"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>强化和保护 Lync Server 2013 数据库
+# <a name="hardening-and-protecting-the-databases-of-lync-server-2013"></a>强化和保护 Lync Server 2013 的数据库
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "41739582"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-12-05_
+_**上次修改的主题：** 2013-12-05_
 
-Microsoft Lync Server 2013 还取决于用于存储用户信息、会议状态、存档数据和呼叫详细记录（CDRs）的 SQL Server 数据库。 你可以在 Lync Server 后端数据库上最大限度地提高 Lync Server 2013 数据的可用性，方法是以提高容错和简化故障排除的方式分区应用程序数据。 若要实现这些目标，请按以下方式对应用程序数据进行分区：
+Microsoft Lync Server 2013 还取决于用于存储用户信息、会议状态、存档数据和呼叫详细信息记录（Cdr）的 SQL Server 数据库。 您可以在 Lync Server 后端数据库上最大限度地提高 Lync Server 2013 数据的可用性，具体方法是以改进容错和简化故障排除的方式对应用程序数据进行分区。 要实现这些目标，可按照以下方式对应用程序数据进行分区：
 
-  - **使用服务器分区最佳做法**   将你的操作系统、应用程序和程序文件与数据文件分开。
+  - **使用服务器分区最佳实践**   将您的操作系统、应用程序和程序文件与数据文件分开。
 
-  - **存储事务日志文件和数据库文件**   将分别存储这些文件以提高容错能力和优化恢复，并将它们存储在加密的磁盘或卷上。
+  - **存储事务日志文件和数据库文件**   将分别存储这些文件以提高容错能力并优化恢复，并将其存储在加密的磁盘或卷上。
 
   - **使用服务器群集**   群集后端服务器优化 Lync server 2013 系统可用性。
 
-  - **确保所有数据备份均已加密，已**   丢失、已放弃或错放备份媒体可能会对 Lync Server 2013 部署的数据安全造成重大威胁
+  - **确保所有数据备份均已加密并正确处理**   丢失、放弃或错放备份媒体可能会对 Lync Server 2013 部署的数据安全造成严重威胁
 
-在除标准版服务器之外的任何 Lync Server 2013 服务器上，不能远程访问 SQL Server Express 实例（RTCLOCAL 实例），并且不会创建本地防火墙例外，除非在标准版服务器上使用 SQL Server Express。 在标准版服务器上，后端数据库和中央管理存储（CMS）都设置为可远程访问。 若要加强 SQL Server 数据库，您可以执行以下操作：
+在任何 Lync Server 2013 服务器（Standard Edition server 除外）中，不能远程访问 SQL Server Express 实例（RTCLOCAL 实例），也不会创建任何本地防火墙例外（标准版服务器上的 SQL Server Express 除外）。 在 Standard Edition Server 上，后端数据库和中央管理存储 (CMS) 均设置为可远程访问。 要强化 SQL Server 数据库，可执行以下操作：
 
-  - 自定义标准版服务器上的 SQL Server Express 防火墙，限制可远程访问数据库的服务器的范围。 默认情况下，任何 IP 地址都可以远程访问数据库。
+  - 在 Standard Edition Server 上自定义 SQL Server Express 防火墙，限制可远程访问数据库的服务器的范围。默认情况下，所有 IP 地址都可以远程访问数据库。
 
-  - 使用 SQL Server 配置管理器指定 SQL Server 远程访问的协议、IP 地址和端口：
+  - 使用 SQL Server 配置管理器指定 SQL Server 远程访问使用的协议、IP 地址和端口：
     
-      - Lync Server 2013 使用 TCP/IP 协议。 它支持 IP 版本4（IPv4），但不支持 IP 版本6（IPv6）。
+      - Lync Server 2013 使用 TCP/IP 协议。 它支持 IP 版本 4 (IPv4)，但不支持 IP 版本 6 (IPv6)。
         
         <div>
         
 
         > [!NOTE]  
-        > Lync Server 2013 可以在启用了双 IP 堆栈的网络中运行。
+        > Lync Server 2013 可以在启用了双 IP 堆栈的网络中正常运行。
 
         
         </div>
     
-      - Lync Server 2013 支持多个 IP 地址（多主网络地址卡）。 你可以指定 SQL Server 仅侦听特定的 IP 地址（单个地址或子网），并且仅使用特定的协议。
+      - Lync Server 2013 支持多个 IP 地址（多穴网络地址卡）。 可以指定 SQL Server 只侦听特定 IP 地址（单个地址或子网），并且只使用特定协议。
     
       - Lync Server 2013 支持静态和动态 SQL Server 端口。
 
-  - 在静态（非默认）端口上运行 SQL Server，不运行 SQL Server Browser （因此它不能向客户端报告侦听端口）。 这需要每个 SQL Server 客户端上的自定义配置，包括前端服务器、监视服务器、存档服务器和管理控制台（运行 Lync Server Management Shell、Lync Server 控制面板或拓扑生成器），以及所有其他运行 Lync Server 数据库的服务器）。
+  - 应在静态（非默认）端口上运行 SQL Server，而不要运行 SQL Server 浏览器（这样就不会向客户端报告侦听端口）。 这需要在每个 SQL Server 客户端上进行自定义配置，包括前端服务器、监视服务器、存档服务器和管理控制台（运行 Lync Server 命令行管理程序、Lync Server 控制面板或拓扑生成器）以及其他所有运行 Lync Server 数据库的服务器）。
 
 <div>
 
 
 > [!NOTE]  
-> 对数据库的访问权限必须限制为受信任的数据库管理员。 恶意数据库管理员可以在数据库中插入或修改数据，以通过 Lync Server 2013 服务器获取权限或从服务获取敏感信息，即使数据库管理员尚未被授予直接访问权限或Lync Server 2013 服务器的控制权。
+> 只能将数据库访问权限赋予受信任的数据库管理员。 恶意数据库管理员可以在数据库中插入或修改数据，以通过 Lync Server 2013 服务器获取权限，或从服务获取敏感信息，即使尚未授予数据库管理员的直接访问权限也是如此。对 Lync Server 2013 服务器的控制。
 
 
 
 </div>
 
-有关自定义配置和强化 SQL Server 数据库的详细信息，请参阅 NextHop 博客文章 "将 Lync Server 2010 与自定义 SQL Server 网络配置结合使用[http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)"。
+有关自定义配置和强化 SQL Server 数据库的详细信息，请参阅 NextHop 博客文章 "使用 Lync Server 2010 with a Custom SQL Server Network Configuration" at [http://go.microsoft.com/fwlink/p/?LinkId=214008](http://go.microsoft.com/fwlink/p/?linkid=214008)。
 
 <div>
 
 
 > [!NOTE]  
-> 你还可以加强操作系统和应用程序服务器，并且可以使用组策略在 Lync Server 部署中实施安全 lockdowns。 有关详细信息，请参阅<A href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">强化和保护 Lync Server 2013 的服务器和应用程序</A>。
+> 您还可以加强操作系统和应用程序服务器，也可以使用组策略在 Lync Server 部署中实施安全 lockdowns。 有关详细信息，请参阅<A href="lync-server-2013-hardening-and-protecting-servers-and-applications.md">强化和保护 Lync Server 2013 的服务器和应用程序</A>。
 
 
 

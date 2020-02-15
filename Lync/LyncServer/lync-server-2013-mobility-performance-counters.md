@@ -12,16 +12,16 @@ ms:contentKeyID: 48185441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 439c179476c89de8a5245e80e26586d42f4f6e3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56454e4ea4fa1498dc73056d5b5f01193b007352
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758684"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758684"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-22_
+_**上次修改的主题：** 2013-02-22_
 
 下表列出了可用于监视运行统一通信 Web API （UCWA）和 Lync Server 2013 Mcx 移动服务的服务器的性能计数器的名称和说明。
 
-UCWA 表中计数器的类别名称为 **LS:WEB – UCWA**。
+UCWA 表中的计数器的类别名称为**LS： WEB – UCWA**。
 
-Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communication Service**。
+Mcx 移动服务表中的计数器的类别名称为**LS： WEB-移动通信服务**。
 
 <div>
 
-## <a name="performance-counters-for-ucwa"></a>UCWA 性能计数器
+## <a name="performance-counters-for-ucwa"></a>UCWA 的性能计数器
 
 
 <table>
@@ -61,127 +61,127 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Active Application Count</p></td>
-<td><p>当前应用程序数目</p></td>
+<td><p>活动应用程序计数</p></td>
+<td><p>当前的应用程序数</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Application Sharing Modality Count</p></td>
-<td><p>当前应用程序共享形式数目</p></td>
+<td><p>活动应用程序共享模态计数</p></td>
+<td><p>当前的应用程序共享模态数量</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Audio Modality Count</p></td>
-<td><p>当前音频形式数目</p></td>
+<td><p>主动音频模态计数</p></td>
+<td><p>音频模态的当前数量</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Data Collaboration Modality Count</p></td>
-<td><p>当前数据协作形式数目</p></td>
+<td><p>主动数据协作的模态计数</p></td>
+<td><p>当前的数据协作模态数量</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Directory Photo Get Latency (ms)</p></td>
-<td><p>此计数器显示从 Active Directory 检索照片所花的平均时间（以毫秒为单位）</p></td>
+<td><p>Active Directory 照片获取延迟（毫秒）</p></td>
+<td><p>此计数器显示从 active directory 中检索照片的平均时间（以毫秒为单位）</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Messaging Modality Count</p></td>
-<td><p>当前消息传递形式数目</p></td>
+<td><p>活动邮件模态计数</p></td>
+<td><p>当前邮件模态的数量</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Panoramic Video Modality Count</p></td>
-<td><p>当前全景视频形式数目</p></td>
+<td><p>活动全景视频模态计数</p></td>
+<td><p>当前的全景视频模态数</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Pending Get Count</p></td>
-<td><p>当前活动待处理项数；与服务器长期保持连接</p></td>
+<td><p>活动挂起获取计数</p></td>
+<td><p>当前处于活动状态的挂起获取的数目;与服务器的长时间保持连接</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active Session Count</p></td>
-<td><p>当前在 UCWA 中按应用程序注册的终结点数和总数</p></td>
+<td><p>活动会话计数</p></td>
+<td><p>每个应用程序的 UCWA 中注册的当前终结点数和总数</p></td>
 </tr>
 <tr class="even">
-<td><p>Active User Instance Count</p></td>
+<td><p>活动用户实例计数</p></td>
 <td><p>当前用户实例数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Active User Instances without Application</p></td>
-<td><p>当前用户实例数（无应用程序）</p></td>
+<td><p>没有应用程序的活动用户实例</p></td>
+<td><p>当前不包含应用程序的用户实例数</p></td>
 </tr>
 <tr class="even">
-<td><p>Active Video Modality Count</p></td>
-<td><p>当前视频形式数目</p></td>
+<td><p>活动视频模态计数</p></td>
+<td><p>视频模态的当前数量</p></td>
 </tr>
 <tr class="odd">
-<td><p>Application Creation Requests Received/Second</p></td>
-<td><p>应用程序创建请求的每秒接收速率</p></td>
+<td><p>收到的应用程序创建请求数/秒</p></td>
+<td><p>每秒收到应用程序创建请求的速率</p></td>
 </tr>
 <tr class="even">
-<td><p>AS MCU Join Failures</p></td>
-<td><p>AS MCU 联接失败数</p></td>
+<td><p>作为 MCU 联接失败</p></td>
+<td><p>作为 MCU 联接失败的次数</p></td>
 </tr>
 <tr class="odd">
-<td><p>AV MCU Join Failures</p></td>
-<td><p>AV MCU 联接失败数</p></td>
+<td><p>AV MCU 联接失败</p></td>
+<td><p>AV MCU 联接失败的次数</p></td>
 </tr>
 <tr class="even">
-<td><p>Average Application Startup Time (ms)</p></td>
-<td><p>应用程序平均启动时间（以毫秒为单位）</p></td>
+<td><p>应用程序的平均启动时间（毫秒）</p></td>
+<td><p>应用程序的平均启动时间（以毫秒为单位）</p></td>
 </tr>
 <tr class="odd">
-<td><p>Average Lifetime for Session (ms)</p></td>
+<td><p>会话的平均生存期（毫秒）</p></td>
 <td><p>会话的平均生存时间（以毫秒为单位）</p></td>
 </tr>
 <tr class="even">
-<td><p>Data MCU Join Failures</p></td>
-<td><p>Data MCU 联接失败数</p></td>
+<td><p>数据 MCU 联接失败</p></td>
+<td><p>数据 MCU 联接失败次数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange Contact Search Latency (ms)</p></td>
-<td><p>此计数器显示在 Exchange 中搜索联系人所花的平均时间（以毫秒为单位）</p></td>
+<td><p>Exchange 联系人搜索延迟（毫秒）</p></td>
+<td><p>此计数器显示在 Exchange 中搜索联系人的平均时间（以毫秒为单位）</p></td>
 </tr>
 <tr class="even">
-<td><p>Exchange HD Photo Get Latency (ms)</p></td>
-<td><p>此计数器显示从 Exchange 中检索照片所花的平均时间（以毫秒为单位）</p></td>
+<td><p>Exchange HD 照片获取延迟（毫秒）</p></td>
+<td><p>此计数器显示从 Exchange 检索照片的平均时间（以毫秒为单位）</p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTP 4xx Responses/Second</p></td>
+<td><p>HTTP 4xx 响应数/秒</p></td>
 <td><p>HTTP 4xx 代码的每秒响应速率</p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP 5xx Responses/Second</p></td>
+<td><p>HTTP 5xx 响应数/秒</p></td>
 <td><p>HTTP 5xx 代码的每秒响应速率</p></td>
 </tr>
 <tr class="odd">
-<td><p>IM MCU Join Failures</p></td>
-<td><p>IM MCU 联接失败数</p></td>
+<td><p>IM MCU 联接失败</p></td>
+<td><p>IM MCU 联接失败的次数</p></td>
 </tr>
 <tr class="even">
-<td><p>Number of Active Directory Photo Get Failures</p></td>
-<td><p>从 Active Directory 中检索照片的总失败次数</p></td>
+<td><p>Active Directory 照片获取失败的次数</p></td>
+<td><p>从 Active Directory 检索照片的失败总次数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Number of Contact Search failures</p></td>
-<td><p>在 Exchange 中搜索联系人的总失败次数</p></td>
+<td><p>联系人搜索失败的次数</p></td>
+<td><p>在 Exchange 中搜索联系人的失败总次数</p></td>
 </tr>
 <tr class="even">
-<td><p>Number of Deserialization Failures</p></td>
-<td><p>反序列化的总失败次数</p></td>
+<td><p>反序列化失败次数</p></td>
+<td><p>反序列化失败总次数</p></td>
 </tr>
 <tr class="odd">
 <td><p>HD 照片获取失败的次数</p></td>
-<td><p>从 Exchange 中检索 HD 照片的总失败次数</p></td>
+<td><p>从 Exchange 检索 HD 照片的失败总次数</p></td>
 </tr>
 <tr class="even">
-<td><p>Over The Maximum Subscriptions Per Application</p></td>
-<td><p>允许的每应用程序最大订阅请求数</p></td>
+<td><p>在每个应用程序的最大订阅数</p></td>
+<td><p>每个应用程序允许的最大订阅请求数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Over The Maximum Subscriptions Per Batch</p></td>
-<td><p>允许的每批次最大订阅请求数</p></td>
+<td><p>在每批的最大订阅数</p></td>
+<td><p>每个批处理允许的最大订阅请求数</p></td>
 </tr>
 <tr class="even">
-<td><p>Presence Subscription Failures</p></td>
-<td><p>订阅状态失败次数</p></td>
+<td><p>状态订阅失败</p></td>
+<td><p>订阅状态失败的次数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Registering Endpoint Failures</p></td>
+<td><p>注册终结点故障</p></td>
 <td><p>注册终结点的失败次数</p></td>
 </tr>
 <tr class="even">
@@ -190,30 +190,30 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 </tr>
 <tr class="odd">
 <td><p>Requests Succeeded/Second</p></td>
-<td><p>每秒的成功请求数（HTTP 2xx/3xx 响应代码）</p></td>
+<td><p>每秒成功请求的速率（HTTP 2xx/3xx 响应代码）</p></td>
 </tr>
 <tr class="even">
-<td><p>Succeeded Create Application Requests/Second</p></td>
-<td><p>成功应用程序创建请求的每秒接收速率</p></td>
+<td><p>已成功创建应用程序请求/秒</p></td>
+<td><p>每秒成功的应用程序创建请求的速率</p></td>
 </tr>
 <tr class="odd">
-<td><p>Timed Out Pending Get Count</p></td>
-<td><p>超时的待处理项数</p></td>
+<td><p>挂起 Get Count 超时</p></td>
+<td><p>超时的挂起获取数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Application Creation Requests Received</p></td>
+<td><p>收到的应用程序创建请求总数</p></td>
 <td><p>自启动服务以来收到的应用程序创建请求总数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total HTTP 4xx Responses</p></td>
+<td><p>HTTP 4xx 响应总数</p></td>
 <td><p>HTTP 4xx 响应总数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total HTTP 5xx Responses</p></td>
 <td><p>HTTP 5xx 响应总数</p></td>
+<td><p>HTTP 5xx 响应总次数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Requests Received on the Command Channel</p></td>
+<td><p>在命令通道上收到的请求总数</p></td>
 <td><p>命令通道上收到的请求总数</p></td>
 </tr>
 <tr class="even">
@@ -221,16 +221,16 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 <td><p>成功的请求总数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Sessions Initiated</p></td>
-<td><p>自启动服务以来启动的会话总数</p></td>
+<td><p>启动的会话总数</p></td>
+<td><p>启动服务后启动的会话总数</p></td>
 </tr>
 <tr class="even">
-<td><p>Total Sessions Terminated Because of Idle Timeout</p></td>
+<td><p>由于空闲超时而终止的会话总数</p></td>
 <td><p>因用户空闲超时终止的会话总数</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total Throttled Applications</p></td>
-<td><p>阻止的应用程序数</p></td>
+<td><p>限制的应用程序总数</p></td>
+<td><p>限制的应用程序数</p></td>
 </tr>
 </tbody>
 </table>
@@ -240,7 +240,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 
 <div id="sectionSection1" class="section">
 
-### <a name="performance-counters-for-mcx-mobility-service"></a>Mcx Mobility Service 性能计数器
+### <a name="performance-counters-for-mcx-mobility-service"></a>Mcx 移动服务的性能计数器
 
 <table>
 <colgroup>
@@ -260,7 +260,7 @@ Mcx Mobility Service 表中计数器的类别名称为 **LS:WEB - Mobile Communi
 </tr>
 <tr class="even">
 <td><p>Current Push Notification Subscriptions</p></td>
-<td><p>当前推送通知订阅数。此数目与 Currently Active Session Count 结合在一起表示为 Windows Mobile 或 iPhone 设备注册的当前活动会话的子集。</p></td>
+<td><p>当前推送通知订阅数。 此数字与当前活动会话计数联合在一起表示为 Windows Mobile 或 iPhone 设备注册的当前活动会话的子集。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Currently Active Network Timeout Poll Count</p></td>

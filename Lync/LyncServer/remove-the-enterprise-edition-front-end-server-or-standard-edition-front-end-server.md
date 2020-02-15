@@ -1,5 +1,5 @@
 ---
-title: 删除企业版前端服务器或标准版前端服务器
+title: 删除 Enterprise Edition 前端服务器或 Standard Edition 前端服务器
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e175b4771b9e9777f0fa162cb2a59f7a3b17cc7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74689dcc730874ecaea0aef31ab18cfc2e9c2c1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727152"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008868"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>删除企业版前端服务器或标准版前端服务器
+# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>删除 Enterprise Edition 前端服务器或 Standard Edition 前端服务器
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727152"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-10_
+_**上次修改的主题：** 2012-10-10_
 
-本主题中概述的过程旨在指导你完成删除 Microsoft Lync Server 2010 Enterprise Edition 前端池或标准版前端服务器的过程。 迁移到 Lync Server 2013 后，这是解除旧版 Lync Server 2010 环境的第一步。
+本主题中概述的过程旨在指导您完成删除 Microsoft Lync Server 2010 Enterprise Edition 前端池或 Standard Edition 前端服务器的过程。 迁移到 Lync Server 2013 后，这是取消旧版 Lync Server 2010 环境的第一步。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [重置呼叫允许控制](reset-call-admission-control.md)
 
@@ -51,7 +51,7 @@ _**主题上次修改时间：** 2012-10-10_
 
   - [从池中删除前端服务器](remove-a-front-end-server-from-a-pool.md)
 
-  - [删除前端池或 Standard Edition Server](remove-front-end-pool-or-standard-edition-server.md)
+  - [删除前端池或 Standard Edition server](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

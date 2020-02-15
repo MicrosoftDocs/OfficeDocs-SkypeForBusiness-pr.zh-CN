@@ -12,16 +12,16 @@ ms:contentKeyID: 48185746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d04b94fe5d31c4105d58651b2bc5fa5635bddde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4289d79be09b1bfbcb9d11e53d97ef2ee9a37dca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735402"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41993517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735402"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-08-06_
+_**上次修改的主题：** 2012-08-06_
 
-为了在部署企业语音时获得最佳体验，请确保你的 IT 基础结构、网络和系统符合本部分中的主题所述的先决条件。
+要在部署企业语音时获得最佳体验，请确保您的 IT 基础结构、网络和系统满足本节主题中所述的先决条件。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [Lync Server 2013 中企业语音的软件先决条件](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
+  - [Lync Server 2013 中的企业语音的必备软件](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
 
-  - [Lync Server 2013 中的企业语音的安全和配置先决条件](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+  - [Lync Server 2013 中的企业语音的安全性和配置先决条件](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
 
 </div>
 

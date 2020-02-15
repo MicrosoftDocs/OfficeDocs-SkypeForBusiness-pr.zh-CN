@@ -12,16 +12,16 @@ ms:contentKeyID: 48183769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f77009f20cfbd3e76f5cfc3786bcd9fa9ba2be9b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 981d45cbfbb184f802c0d75973da56845338d06a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730502"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730502"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-20_
+_**上次修改的主题：** 2012-06-20_
 
-Active Directory cmdlet 通常由安装程序使用，并且很少会由管理员直接调用。 但是，管理员可以使用这些 cmdlet 准备（或 unprepare） Microsoft Lync Server 2013 的域或林，并安装所需的 Active Directory 架构文件。
+Active Directory cmdlet 通常由安装程序使用，且很少由管理员直接调用。 但是，管理员可以使用这些 cmdlet 为 Microsoft Lync Server 2013 准备（或 unprepare）域或林，并安装所需的 Active Directory 架构文件。
 
 <div>
 
@@ -48,32 +48,32 @@ Active Directory cmdlet 通常由安装程序使用，并且很少会由管理�
 **Active Directory**
 
   - <span></span>  
-    [Disable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398785(v=OCS.15))
+    [Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdDomain](https://technet.microsoft.com/en-us/library/Gg412764(v=OCS.15))
+    [Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))
 
   - <span></span>  
-    [CsAdDomain](https://technet.microsoft.com/en-us/library/Gg398453(v=OCS.15))
+    [CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Disable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg398122(v=OCS.15))
+    [Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))
 
   - <span></span>  
-    [Enable-CsAdForest](https://technet.microsoft.com/en-us/library/Gg425713(v=OCS.15))
+    [Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))
 
   - <span></span>  
-    [CsAdForest](https://technet.microsoft.com/en-us/library/Gg412995(v=OCS.15))
+    [CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg413070(v=OCS.15))
+    [CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))
 
   - <span></span>  
-    [安装-CsAdServerSchema](https://technet.microsoft.com/en-us/library/Gg398681(v=OCS.15))
+    [Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))
 
 </div>
 

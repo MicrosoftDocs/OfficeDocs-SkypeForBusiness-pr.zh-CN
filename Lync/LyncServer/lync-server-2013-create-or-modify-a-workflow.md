@@ -12,16 +12,16 @@ ms:contentKeyID: 48184225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13bcb9dd285beaaf96e56aef1114751b74c290a6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f12ecaef8c6dda3b7bcee1da02add88c6ed5c59
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740192"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41995497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41740192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-02_
+_**上次修改的主题：** 2012-10-02_
 
-Lync Server 2013 支持两种类型的工作流：查寻组和交互式语音响应（IVR）。 创建工作流时，使用 "响应组配置" 工具指定要使用的队列和其他设置，如欢迎消息、保持的音乐、工作时间和响应组应用程序询问呼叫者的问题。
+Lync Server 2013 支持两种类型的工作流：智能寻线和互动语音响应（IVR）。 创建工作流时，可以使用响应组配置工具来指定要使用的队列和其他设置，如欢迎消息、保持音乐、营业时间和响应组应用程序向呼叫者提出的问题。
 
 <div>
 
 
 > [!NOTE]  
-> 必须先创建代理组和队列，然后再创建使用这些组和队列的工作流。 如果要创建可用于多个工作流的预定义工作时间和假日，则还必须在创建使用它们的工作流之前定义这些工时和假日。
+> 必须先创建代理组和队列，然后再创建使用这些组和队列的工作流。如果要创建可用于多个工作流的预设工作时间和假日，还必须先定义这些预定义的工作时间和假日，然后再创建使用它们的工作流。
 
 
 
@@ -51,11 +51,11 @@ Lync Server 2013 支持两种类型的工作流：查寻组和交互式语音响
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中创建或修改查寻组工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [在 Lync Server 2013 中创建或修改智能寻线工作流](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
-  - [在 Lync Server 2013 中创建或修改互动工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)
+  - [在 Lync Server 2013 中创建或修改交互式工作流](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
 </div>
 
@@ -66,10 +66,10 @@ Lync Server 2013 支持两种类型的工作流：查寻组和交互式语音响
 
 [在 Lync Server 2013 中创建或修改代理组](lync-server-2013-create-or-modify-an-agent-group.md)  
 [在 Lync Server 2013 中创建或修改队列](lync-server-2013-create-or-modify-a-queue.md)  
-[可选在 Lync Server 2013 中定义 "响应组" 假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)  
+[Optional在 Lync Server 2013 中定义响应组假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)  
 
 
-[可选在 Lync Server 2013 中定义响应组工作时间](lync-server-2013-optional-define-response-group-business-hours.md)  
+[Optional在 Lync Server 2013 中定义响应组工作时间](lync-server-2013-optional-define-response-group-business-hours.md)  
   
 
 </div>

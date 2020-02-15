@@ -12,16 +12,16 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89bb8f38ea650bf64179b917b227d7ccaaf10791
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82abbf918f4b375c10fdf201591e099f5cd4262e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763646"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41763646"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-06-05_
+_**上次修改的主题：** 2014-06-05_
 
 
 <table>
@@ -57,9 +57,9 @@ _**主题上次修改时间：** 2014-06-05_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="even">
-<td><p>需要权限</p></td>
-<td><p>当使用 Lync Server 命令行管理程序在本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须向用户分配具有运行 CsAVConference cmdlet 权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<td><p>所需的权限</p></td>
+<td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsAVConference cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,11 +70,11 @@ _**主题上次修改时间：** 2014-06-05_
 
 ## <a name="description"></a>说明
 
-CsAVConference cmdlet 检查两个测试用户是否可以参与音频/视频（A/V）会议。 当 cmdlet 运行时，两个用户登录到系统。 成功登录后，第一个用户将创建一个/V 会议，然后等待第二位用户加入该会议。 在数据的简短交换后，会议将被删除，并且两个测试用户已注销。
+CsAVConference cmdlet 检查两个测试用户是否可以参与音频/视频（A/V）会议。 运行此 cmdlet 时，这两个用户将登录系统。 成功登录后，第一个用户会创建 A/V 会议，然后等待第二个用户加入该会议。 简单交换数据之后，删除此会议并注销这两个测试用户。
 
-请注意，CsAVConference 不会在两个测试用户之间进行实际的 A/V 会议。 相反，cmdlet 将验证两个用户是否可以建立执行此类会议所需的所有连接。
+请注意，CsAVConference 不会在两个测试用户之间进行实际的 A/V 会议。 相反，cmdlet 会验证两个用户是否可以建立执行此类会议所需的所有连接。
 
-可在[CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)中找到此命令的更多示例。
+在[CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference)中，可以找到此命令的更多示例。
 
 </div>
 
@@ -82,11 +82,11 @@ CsAVConference cmdlet 检查两个测试用户是否可以参与音频/视频（
 
 ## <a name="running-the-test"></a>运行测试
 
-CsAVConference cmdlet 可以使用一对预配置的测试帐户运行（请参阅设置运行 Lync Server 测试的测试帐户）或已启用 Lync Server 的任何两个用户的帐户。 若要使用测试帐户运行此检查，只需指定正在测试的 Lync Server 池的 FQDN。 例如：
+CsAVConference cmdlet 可使用一对预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或任何两个已启用 Lync Server 的用户的帐户运行。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。 然后，在调用 Test-CsAVConference 时，必须包含两个帐户的凭据对象和 SIP 地址：
+若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。 然后，在调用 CsAVConference 时，必须包含两个帐户的凭据对象和 SIP 地址：
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -98,9 +98,9 @@ CsAVConference cmdlet 可以使用一对预配置的测试帐户运行（请参�
 
 <div>
 
-## <a name="determining-success-or-failure"></a>确定成功还是失败
+## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果指定用户可以成功完成 A/V 会议，你将收到类似于此的输出，结果属性标记为 "成功" **：**
+如果指定用户可以成功完成 A/V 会议，则会收到与以下内容类似的输出，并将 Result 属性标记为 "**成功"：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -108,11 +108,11 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延迟：00：00：02.6841765
 
-时发生
+误差
 
-自检
+诊断
 
-如果用户无法完成会议，则结果将显示为 "失败"，并且将在 "错误" 和 "诊断" 属性中记录其他信息：
+如果用户无法完成会议，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -120,17 +120,17 @@ TargetFqdn： atl-cs-001.litwareinc.com
 
 延迟：00:00:00
 
-错误：404，未找到
+错误：未找到404
 
 诊断： ErrorCode = 4005，Source = atl-cs-001.litwareinc.com，
 
-原因 = 没有为 SIP 启用目标 URI，或者没有为其启用目标 URI
+原因 = 未对 SIP 启用目标 URI 或不为其启用目标 URI
 
-并存.
+尚.
 
 Microsoft DiagnosticHeader
 
-例如，以前的输出表明由于帐户不存在或者帐户尚未为 Lync Server 启用，导致测试失败的原因是两个用户帐户中的至少一个帐户无效。 你可以通过运行类似如下所示的命令来验证两个测试帐户是否存在，以及是否为 Lync Server 启用了这些帐户：
+例如，由于帐户不存在或尚未为 Lync Server 启用帐户，因此以前的输出显示测试失败，因为这两个用户帐户中至少有一个帐户无效。 您可以通过运行与以下内容类似的命令来验证这两个测试帐户是否存在，以及是否为 Lync Server 启用了这些帐户：
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
@@ -138,39 +138,39 @@ Microsoft DiagnosticHeader
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-当包含 Verbose 参数时，CsAVConference 将返回在检查指定用户是否参与 AV 会议的能力时尝试的每个操作的分步帐户。 例如，假设测试失败并收到以下诊断：
+当包含 Verbose 参数时，CsAVConference 将返回其在检查指定用户是否参与 AV 会议的能力时所尝试的每个操作的分步帐户。 例如，假设您的测试失败，并且您收到以下诊断：
 
 ErrorCode = 1008，Source = accessproxy，Reason = 无法解析 DNS SRV 记录
 
-如果使用 Verbose 参数重新运行测试，返回的分步信息将包含类似以下内容的输出：
+如果使用 Verbose 参数重新运行测试，则返回的分步信息将包含类似如下的输出：
 
-详细： "注册" 活动已开始。
+详细： "注册" 活动已启动。
 
-正在发送注册请求：
+发送注册请求：
 
 目标 Fqdn = atl-cs-001.litwareinc.com
 
 用户 Sip 地址 = sip:davidlongmire@litwareinc.com
 
-注册机构端口 = 5061。
+注册器端口 = 5061。
 
-已选中 "受信任" 身份验证类型。
+选择 "受信任" 的身份验证类型。
 
 "注册" 活动已开始。
 
-正在发送注册请求：
+发送注册请求：
 
 目标 Fqdn = atl-cs-001.litwareinc.com
 
 用户 Sip 地址 = sip:kenmyer@litwareinc.com
 
-注册机构端口 = 5061。
+注册器端口 = 5061。
 
-已选中 "受信任" 身份验证类型。
+选择 "受信任" 的身份验证类型。
 
-"终结点无法注册" 异常。 有关特定原因，请参阅错误代码。 ' 工作流期间发生
+"终结点无法注册" 异常。 有关具体原因，请参阅错误代码。 在工作流过程中发生
 
-该输出中的最后一行指示用户 sip:kenmyer@litwareinc.com 无法注册 Lync Server。 这意味着你应该验证 SIP 地址 sip:kenmyer@litwareinc.com 是否有效，以及是否为 Lync Server 启用关联的用户。
+该输出中的最后一行指示用户 sip:kenmyer@litwareinc.com 无法注册 Lync Server。 这意味着，您应验证 SIP 地址 sip:kenmyer@litwareinc.com 是否有效，以及是否为 Lync Server 启用了关联的用户。
 
 </div>
 
@@ -178,17 +178,17 @@ ErrorCode = 1008，Source = accessproxy，Reason = 无法解析 DNS SRV 记录
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-下面是测试 CsAVConference 可能失败的一些常见原因：
+以下是测试 CsAVConference 可能失败的一些常见原因：
 
-  - 您指定的用户帐户无效。 你可以通过运行类似如下所示的命令来验证用户帐户是否存在：
+  - 您指定的用户帐户无效。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - 用户帐户有效，但当前没有为 Lync Server 启用该帐户。 若要验证是否已启用 Lync Server 的用户帐户，请运行类似如下的命令：
+  - 用户帐户有效，但当前未对 Lync Server 启用该帐户。 若要验证是否已为 Lync Server 启用用户帐户，请运行与以下内容类似的命令：
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    如果 Enabled 属性设置为 False，表示当前未对 Lync Server 启用用户。
+    如果 Enabled 属性设置为 False，则表示当前未对 Lync Server 启用用户。
 
 </div>
 

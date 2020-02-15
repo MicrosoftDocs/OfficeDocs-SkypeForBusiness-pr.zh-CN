@@ -12,16 +12,16 @@ ms:contentKeyID: 48185381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b912eca536960bccc09c5e7a14c9adc245fe69e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3c615d383d2eedf1c24e2da2ddb2561476f4c8db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732192"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732192"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-本部分将指导你安装 Lync Server 2013 并为标准版服务器和前端池设置服务器角色，包括前端服务器和与前端服务器 collocated 的任何服务器角色。 若要安装和设置服务器角色，请在要安装服务器角色的每台计算机上运行 Lync Server 部署向导。 使用部署向导完成所有四个部署步骤，包括安装本地配置存储、安装前端服务器、配置证书和启动服务。
+本部分指导您安装 Lync Server 2013 并为 Standard Edition Server 和前端池设置服务器角色，包括前端服务器和与前端服务器并置的任何服务器角色。 若要安装和设置服务器角色，请在要安装服务器角色的每台计算机上运行 Lync Server 部署向导。 您可以使用部署向导完成所有四个部署步骤，包括安装本地配置存储、安装前端服务器、配置证书和启动服务。
 
 <div>
 
 
 > [!NOTE]  
-> 必须已成功发布拓扑，您才能设置服务器角色。 有关发布拓扑的详细信息，请参阅<A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">在 Lync Server 2013 中完成和实施拓扑设计</A>。
+> 必须先成功发布拓扑，然后才能安装服务器角色。 有关发布拓扑的详细信息，请参阅<A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">在 Lync Server 2013 中完成并实现拓扑设计</A>。
 
 
 
@@ -51,11 +51,11 @@ _**主题上次修改时间：** 2012-10-01_
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中安装本地配置存储](lync-server-2013-install-the-local-configuration-store.md)
 
-  - [安装适用于 Lync Server 2013 的服务器组件](lync-server-2013-install-lync-server-server-components.md)
+  - [安装 Lync Server 2013 的服务器组件](lync-server-2013-install-lync-server-server-components.md)
 
   - [在 Lync Server 2013 中为服务器配置证书](lync-server-2013-configure-certificates-for-servers.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8258063645267fb12801548ddfdeae1b4ef7c795
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3827bf913c4108c1105376a6f178598a2fb45a06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758320"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41996647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41758320"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-21_
+_**上次修改的主题：** 2013-02-21_
 
-组策略管理控制台 (GPMC) 和组策略对象编辑器是用于管理组策略的工具。 Office 组策略管理模板包括 Lync 2013 （ADMX）和 adml （ADML）管理模板，其中包含您为域中的组策略对象配置的基于注册表的策略设置。 ADML 文件是针对 ADMX 文件的特定语言的补充。 每个 ADMX 和 ADML 文件均包含单个 Office 应用程序的策略设置。 有关详细信息，请参阅 Office 2013 文档中的 "Office 2013 管理模板文件（ADMX、ADML）" <http://go.microsoft.com/fwlink/p/?linkid=267516>。
+组策略管理控制台（GPMC）和组策略对象编辑器是用于管理组策略的工具。 Office 组策略管理模板包含 Lync 2013 （ADMX）和 adml （ADML）管理模板，其中包含您为域中的组策略对象配置的基于注册表的策略设置。 ADML 文件是特定于语言的对 ADMX 文件的补充。 每个 ADMX 和 ADML 文件都包含单个 Office 应用程序的策略设置。 有关详细信息，请参阅 Office 2013 文档中的 "Office 2013 管理模板文件（ADMX、ADML）" <http://go.microsoft.com/fwlink/p/?linkid=267516>。
 
-对于 Lync 2013，在用户首次登录到服务器之前，有多个客户端引导策略应考虑进行配置。 例如，客户端在登录完成之前应使用的默认服务器和安全模式。 在用户登录并开始从服务器接收带内设置之前，可以使用组策略在用户计算机上的注册表中建立这些设置。 下表列出了适用于 Lync 2013 的组策略设置。
+对于 Lync 2013，有几个客户端启动策略，在用户首次登录到服务器之前，应考虑进行配置。 例如，客户端在登录完成之前应使用的默认服务器和安全模式。 在用户登录并开始从服务器接收带内设置设置之前，您可以使用组策略在用户的计算机注册表中建立这些设置。 下表列出了可用于 Lync 2013 的组策略设置。
 
 ### <a name="group-policy-settings-for-lync-2013"></a>Lync 2013 的组策略设置
 
@@ -51,68 +51,68 @@ _**主题上次修改时间：** 2013-02-21_
 <thead>
 <tr class="header">
 <th>组策略设置</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>指定服务器<br />
 (ConfigurationMode)</p></td>
-<td><p>指定 Lync 2013 如何标识在登录期间使用的传输和服务器。 在此设置中，可以指定：</p>
+<td><p>指定 Lync 2013 如何标识登录期间要使用的传输和服务器。 在此设置中，指定以下内容：</p>
 <ul>
-<li><p>ServerAddressExternal：指定在从外部防火墙之外连接时由客户端和联盟联系人使用的服务器名称或 IP 地址。</p></li>
-<li><p>ServerAddressInternal：指定在客户端从组织的防火墙内部连接时使用的服务器名称或 IP 地址。</p></li>
-<li><p>Transport：指定传输控制协议 (TCP) 或传输层安全性 (TLS)。</p></li>
+<li><p>ServerAddressExternal：指定从外部防火墙外部连接时，客户端和联盟联系人使用的服务器名称或 IP 地址。</p></li>
+<li><p>ServerAddressInternal：指定当客户端从组织的防火墙内部进行连接时使用的服务器名称或 IP 地址。</p></li>
+<li><p>Transport：指定传输控制协议（TCP）或传输层安全性（TLS）。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>支持的其他服务器版本<br />
 (ConfiguredServerCheckValues)</p></td>
-<td><p>指定服务器版本名称的列表，除了默认支持的服务器版本外，Lync Server 2013 还将登录到该服务器版本的分号。</p></td>
+<td><p>指定除了默认情况下受支持的服务器版本之外，Lync Server 2013 将登录到的服务器版本名称的列表。</p></td>
 </tr>
 <tr class="odd">
-<td><p>禁止自动上载登录失败日志 (DisableAutomaticSendTracing)</p></td>
-<td><p>自动将登录失败日志上载到 Lync Server 进行分析。 如果登录成功，则不会自动上载任何日志。 如果未配置此策略，则会出现下列情况：</p>
+<td><p>禁用登录失败日志的自动上载（DisableAutomaticSendTracing）</p></td>
+<td><p>自动将登录失败日志上传到 Lync Server 进行分析。 如果登录成功，则不会自动上载任何日志。 如果未配置此策略，则会发生以下情况：</p>
 <dl>
 <dt><span></span></dt>
 <dd><p>对于 Lync Online 用户：将自动上载登录失败日志。</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>对于 Lync 本地用户：上载前向用户显示确认对话框。</p>
+<dd><p>对于 Lync 本地用户：在上载前向用户显示确认对话框。</p>
 </dd>
 </dl>
-<p>如果禁用此设置，将为 Lync 本地和 Lync Online 用户自动将登录日志上载到 Lync 服务器。 如果启用此设置，则绝不会自动上载登录日志。</p></td>
+<p>如果禁用此设置，则会为 Lync 本地和 Lync Online 用户自动将登录日志上载到 Lync Server。 如果启用此设置，则不会自动上载登录日志。</p></td>
 </tr>
 <tr class="even">
 <td><p>禁用 SIP 连接的 HTTP 回退<br />
 (DisableHttpConnect)</p></td>
-<td><p>如果 TLS 或 TCP 不可用，则阻止 Lync 服务器尝试使用 HTTP 连接到服务器。 默认情况下，Lync 首先尝试使用 TLS 或 TCP 连接到服务器，并且如果两个传输方法均未成功，Lync 将尝试使用 HTTP 进行连接。 使用此策略可禁止回滚 HTTP 连接尝试。</p></td>
+<td><p>如果 TLS 或 TCP 不可用，则阻止 Lync Server 尝试使用 HTTP 连接到服务器。 默认情况下，Lync 首先尝试使用 TLS 或 TCP 连接到服务器，如果这些传输方法中的两个都不成功，Lync 将尝试使用 HTTP 进行连接。 使用此策略可禁止回退 HTTP 连接尝试。</p></td>
 </tr>
 <tr class="odd">
 <td><p>需要登录凭据<br />
-(DisableNTCredentials)</p></td>
+DisableNTCredentials</p></td>
 <td><p>要求用户提供 Lync 的登录凭据，而不是在登录 SIP 服务器期间自动使用 Windows 凭据。</p></td>
 </tr>
 <tr class="even">
 <td><p>禁用服务器版本检查<br />
 (DisableServerCheck)</p></td>
-<td><p>如果将此策略设置为 "1"，则在登录前阻止 Lync 检查服务器名称和版本。 默认情况下，Lync 在登录前进行检查。</p></td>
+<td><p>如果将此策略设置为1，则阻止 Lync 在登录前检查服务器名称和版本。 默认情况下，Lync 会在登录前进行这些检查。</p></td>
 </tr>
 <tr class="odd">
-<td><p>启用 "使用 BITS 下载通讯簿服务文件"<br />
+<td><p>允许使用 BITS 下载通讯簿服务文件<br />
 (EnableBitsForGalDownload)</p></td>
-<td><p>使 Lync 能够使用后台智能传送服务（BITS）下载通讯簿服务文件。</p></td>
+<td><p>使 Lync 能够使用后台智能传输服务（BITS）下载通讯簿服务文件。</p></td>
 </tr>
 <tr class="even">
 <td><p>配置 SIP 安全模式<br />
 (EnableSIPHighSecurityMode)</p></td>
 <td><p>使 Lync 能够更安全地发送和接收即时消息。 此策略对 Windows .NET 或 Microsoft Exchange Server 服务不起作用。</p>
-<p>如果未配置此策略设置，Lync 可以使用任何传输。 但是，如果它不使用 TLS，并且服务器对用户进行身份验证，则 Lync 必须使用 NTLM 或 Kerberos 身份验证。</p></td>
+<p>如果未配置此策略设置，则 Lync 可以使用任何传输。 但是，如果它不使用 TLS，并且如果服务器对用户进行身份验证，则 Lync 必须使用 NTLM 或 Kerberos 身份验证。</p></td>
 </tr>
 <tr class="odd">
-<td><p>全球通讯簿下载初始延迟<br />
+<td><p>全局通讯簿下载初始延迟<br />
 (GalDownloadInitialDelay)</p></td>
-<td><p>指定全局地址列表 (GAL) 下载发生之前的时间。默认值为 60 分钟，这表示服务器可将 GAL 文件的下载延迟 0 到 60 分钟之间的任意时间。</p></td>
+<td><p>指定在全局地址列表（GAL）下载发生之前的时间段。 默认值为60分钟，这意味着服务器延迟在0到60分钟之间的随机时间段内下载 GAL 文件。</p></td>
 </tr>
 <tr class="even">
 <td><p>阻止用户运行 Microsoft Lync<br />
@@ -121,13 +121,13 @@ _**主题上次修改时间：** 2013-02-21_
 </tr>
 <tr class="odd">
 <td><p>允许存储用户密码<br />
-(SavePassword)</p></td>
-<td><p>使 Lync 能够存储密码。</p></td>
+SavePassword</p></td>
+<td><p>启用 Lync 以存储密码。</p></td>
 </tr>
 <tr class="even">
 <td><p>配置 SIP 压缩模式<br />
 (SipCompression)</p></td>
-<td><p>指定何时打开 SIP 压缩。默认情况下，根据适配器速度启用 SIP 压缩。请注意，设置此策略可能会导致登录时间延长。</p></td>
+<td><p>指定何时启用 SIP 压缩。 默认情况下，根据适配器速度启用 SIP 压缩。 请注意，设置此策略可能会导致登录时间延长。</p></td>
 </tr>
 <tr class="odd">
 <td><p>受信任域列表<br />
@@ -149,26 +149,26 @@ TrustModelData</p></td>
 </colgroup>
 <thead>
 <tr class="header">
-<th>优先级</th>
+<th>Precedence</th>
 <th>设置的位置或方法</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Lync Server 2013 带内预配</p></td>
+<td><p>1 </p></td>
+<td><p>Lync Server 2013 带内配置</p></td>
 </tr>
 <tr class="even">
-<td><p>ppls-2</p></td>
+<td><p>2 </p></td>
 <td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
-<td><p>Lync 2013 中的 "Lync-选项" 对话框</p></td>
+<td><p>4 </p></td>
+<td><p>Lync 2013 中的 "Lync 选项" 对话框</p></td>
 </tr>
 </tbody>
 </table>
@@ -176,9 +176,9 @@ TrustModelData</p></td>
 
 <div>
 
-## <a name="to-define-group-policy-settings-by-using-the-lync-2013-administrative-template-files"></a>使用 Lync 2013 管理模板文件定义组策略设置
+## <a name="to-define-group-policy-settings-by-using-the-lync-2013-administrative-template-files"></a>使用 Lync 2013 管理模板文件定义组策略设置的具体方法
 
-1.  创建根级别文件夹以包含所有与语言无关的 ADMX 文件。例如，在位于以下位置的域控制器上创建中央存储的根文件夹：
+1.  创建一个根级别文件夹，以包含所有非特定语言的 ADMX 文件。 例如，可在域控制器上的以下位置创建中央存储的根文件夹：
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions`
     
@@ -186,12 +186,12 @@ TrustModelData</p></td>
     
 
     > [!NOTE]  
-    > 此过程假定您需要管理域中的多台计算机。在此情况下，您将模板存储在主域控制器上的 Sysvol 文件夹中的中央存储中。这将为域管理模板提供复制的中央存储位置。
+    > 此过程假定您要管理域中的多台计算机。 在这种情况下，将模板存储在主域控制器上的 Sysvol 文件夹中的中央存储中。 这为域管理模板提供了中央存储位置的副本。
 
     
     </div>
 
-2.  为您将使用的每种语言创建一个子文件夹。这些子文件夹将包含特定语言的 ADML 资源文件。例如，在以下位置为美国英语 (EN-US) 创建一个子文件夹：
+2.  为您将使用的每种语言创建一个子文件夹。 这些子文件夹将包含特定于语言的 ADML 资源文件。 例如，在以下位置为美国英语（EN-US）创建子文件夹：
     
     `%systemroot%\sysvol\domain\policies\PolicyDefinitions\EN-US`
 

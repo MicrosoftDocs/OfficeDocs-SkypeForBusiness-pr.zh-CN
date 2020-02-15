@@ -12,16 +12,16 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48efc99a49fd41678d07eef8685bc7f045397aa3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 421b691bd282b858eca64c9756e92dd24aac8b7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744042"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,42 +35,42 @@ ms.locfileid: "41744042"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-22_
+_**上次修改的主题：** 2012-10-22_
 
-综合事务（在 Microsoft Lync Server 2010 中引入）为管理员验证用户是否能够成功完成常见任务，如登录到系统、交换即时消息或拨打电话在公共交换电话网络（PSTN）上。 这些测试（打包为一组 Lync Server Windows PowerShell cmdlet）可以由管理员手动执行，也可以由 System Center Operations Manager 等应用程序自动运行。
+综合事务（在 Microsoft Lync Server 2010 中引入）为管理员提供了一种验证用户能否成功完成常见任务（如登录系统、交换即时消息或呼叫电话）的方法。在公共交换电话网络（PSTN）上。 这些测试（打包为一组 Lync Server Windows PowerShell cmdlet）可由管理员手动执行，也可以由 System Center Operations Manager 等应用程序自动运行。
 
-在 Lync Server 2010 中，合成事务在帮助管理员识别系统问题方面非常有用。 例如， **CsRegistration** cmdlet 可以向管理员发出警报，指出某些用户在注册 Lync Server 时遇到困难。 但是，合成事务在帮助管理员确定这些用户为什么在 Lync Server 中注册很有用。 这是因为合成事务未提供详细的日志记录信息，可帮助管理员解决 Lync 服务器的问题。 在最大程度上，综合事务中的详细输出提供了分步信息，使管理员能够以有意义的方式猜测可能出现问题的位置。
+在 Lync Server 2010 中，在帮助管理员识别系统问题时，综合事务证明非常有用。 例如， **CsRegistration** cmdlet 可以提醒管理员一些用户在注册 Lync Server 时遇到困难。 但是，在帮助管理员确定这些用户在使用 Lync Server 注册时遇到困难的原因方面，综合事务有些不太有用。 这是因为综合事务不提供详细的日志记录信息，从而帮助管理员解决 Lync Server 的问题。 综合事务的详细输出最多提供了分步信息，它们可能使管理员能够有根据的推测可能哪里出现了问题。
 
-在 Microsoft Lync Server 2013 中，已重新设计了合成事务以提供丰富的日志记录。 "丰富日志记录" 指对于综合事务仅负责的每个活动，将记录如下信息：
+在 Microsoft Lync Server 2013 中，已重新设计了综合事务以提供丰富的日志记录。 “丰富的日志记录”意味着，对于综合事务开展的每项活动，将记录如下信息：
 
-  - 活动开始的时间
+  - 活动的开始时间
 
-  - 活动完成的时间
+  - 活动的完成时间
 
-  - 执行的操作（例如，创建、加入或离开会议; 登录 Lync Server; 发送即时消息; 等等）
+  - 执行的操作（例如，创建、加入或离开会议; 登录到 Lync Server; 发送即时消息; 等等）
 
-  - 活动运行时生成的信息、详细、警告或错误消息
+  - 在活动运行时生成的参考消息、详细消息、警告消息或错误消息
 
   - SIP 注册消息
 
   - 在活动运行时生成的异常记录或诊断代码
 
-  - 活动运行的最终结果
+  - 运行活动的最终结果
 
-每次运行合成事务时都会自动生成此信息。 但是，信息不会自动显示或保存到日志文件。 相反，手动运行合成事务的管理员可以使用 OutLoggerVariable 参数指定将存储信息的 Windows PowerShell 变量。 然后，管理员可以使用一对方法，使其能够以 XML 或 HTML 格式保存和/或查看丰富的日志。
+每次运行综合事务时都会自动生成此类信息。 不过，这些信息不会自动显示或保存到日志文件中。 相反，手动运行综合事务的管理员可以使用 OutLoggerVariable 参数指定将在其中存储信息的 Windows PowerShell 变量。 之后，管理员可以使用允许他们以 XML 或 HTML 格式保存和/或查看丰富日志的成对方法。
 
-例如，Lync Server 2010 管理员可能使用类似如下的命令运行**CsRegistration** cmdlet：
+例如，Lync Server 2010 管理员可以使用类似如下的命令运行**CsRegistration** cmdlet：
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com
 
-管理员可以选择包含 OutLoggerVariable 参数，后跟其选择的变量名称：
+管理员可以选择包括 OutLoggerVariable 参数，后跟所选的变量名称：
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
 > [!NOTE]  
-> 不要在变量名前面加 $ 字符。 使用变量名称（如 RegistrationTest，而不是 $RegistrationTest。
+> 变量名称不要以 $ 字符开头。可使用 RegistrationTest 之类的变量名称而非 $RegistrationTest。
 
-上面的命令输出类似于以下内容的内容：
+上述命令输出如下内容：
 
     Target Fqdn   : atl-cs-001.litwareinc.com
     Result        : Failure
@@ -78,20 +78,20 @@ _**主题上次修改时间：** 2012-10-22_
     Error Message : This machine does not have any assigned certificates.
     Diagnosis     :
 
-但是，此故障的详细信息更详细，而不仅仅是上面显示的错误消息。 若要以 HTML 格式访问这些信息，请使用与此类似的命令，将变量 RegistrationTest 中存储的信息保存到 HTML 文件中：
+不过，针对此问题提供了比上面显示的仅错误消息更详细的信息。若要以 HTML 格式访问该信息，请使用类似于以下命令的命令将变量 RegistrationTest 中存储的信息保存到 HTML 文件：
 
     $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 
-或者，你可以使用 ToXML （）方法将数据保存到 XML 文件：
+您也可以使用 ToXML() 方法将数据保存到 XML 文件：
 
     $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
 然后，可以使用 Internet Explorer、Visual Studio 或任何其他能够打开 HTML/XML 文件的应用程序来查看这些文件。
 
-从 System Center Operations Manager 内部运行的合成事务将自动为故障生成这些日志文件。 但是，如果在 Windows PowerShell 能够加载和运行合成事务之前执行失败，则不会生成这些日志。
+从 System Center Operations Manager 内部运行的综合事务将自动为故障生成这些日志文件。 但是，如果在 Windows PowerShell 能够加载和运行综合事务之前执行失败，则不会生成这些日志。
 
 > [!IMPORTANT]  
-> 默认情况下，Lync Server 2013 将日志文件保存到未共享的文件夹中。 为了让这些日志随时易于访问，你应该共享此文件夹（例如， \\ \\atl-观察程序-litwareinc。 com\WatcherNode。
+> 默认情况下，Lync Server 2013 将日志文件保存到不共享的文件夹中。 若要方便地访问这些日志，应共享此文件夹（例如\\ \\atl-观察程序-litwareinc。 com\WatcherNode。
 
 
 </div>

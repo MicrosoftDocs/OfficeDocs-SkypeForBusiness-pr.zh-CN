@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：Active Directory 基础结构要求
+title: Lync Server 2013： Active Directory 基础结构要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75278700623ae7251fe7cebec36e959a38f325dc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14980b886ac9a00b9ea23a0d915bc34ac3956c7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735212"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,42 +35,42 @@ ms.locfileid: "41735212"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-11-07_
+_**上次修改的主题：** 2013-11-07_
 
-开始为 Lync Server 2013 准备 Active Directory 域服务的过程之前，请确保你的 Active Directory 基础结构满足以下先决条件：
+在开始为 Lync Server 2013 准备 Active Directory 域服务的过程之前，请确保您的 Active Directory 基础结构满足以下先决条件：
 
-  - 您在其中部署 Lync 服务器的林中的所有域控制器（包括所有全局编录服务器）都运行下列操作系统之一：
+  - 您在其中部署 Lync Server 的林中的所有域控制器（包括所有全局编录服务器）都运行以下操作系统之一：
     
       - Windows Server 2012 R2 操作系统
     
       - Windows Server 2012 操作系统
     
-      - Windows Server 2008 R2 操作系统
+      - Windows Server 2008 R2 操作系统
     
-      - Windows Server 2008 操作系统
+      - Windows Server 2008 操作系统
     
       - Windows Server 2008 企业版32位
     
-      - 32位或64位版本的 Windows Server 2003 R2 操作系统
+      - 32 位或 64 位版本的 Windows Server 2003 R2 操作系统
     
       - 32位或64位版本的 Windows Server 2003 操作系统
 
-  - 将在其中部署 Lync Server 的所有域都将提升为 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 或至少 Windows Server 2003 的域功能级别。
+  - 将在其中部署 Lync Server 的所有域都将提升为 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 或至少为 Windows Server 2003 的域功能级别。
 
-  - 将 Lync Server 部署到的林将提升为 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 或至少 Windows Server 2003 的林功能级别。
+  - 将在其中部署 Lync Server 的林提升为 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 或至少为 Windows Server 2003 的林功能级别。
     
     <div>
     
 
     > [!NOTE]  
-    > 若要更改域或林功能级别，请参阅 TechNet 库中的 "提升域和林功能级别" <A href="http://go.microsoft.com/fwlink/p/?linkid=263775">http://go.microsoft.com/fwlink/p/?LinkId=263775</A>。
+    > 若要更改您的域或林功能级别，请参阅 TechNet Library 中的 "提升域和林功能<A href="http://go.microsoft.com/fwlink/p/?linkid=263775">http://go.microsoft.com/fwlink/p/?LinkId=263775</A>级别"。
 
     
     </div>
 
-  - 全局编录在每个部署 Lync Server 计算机或用户的域中部署。
+  - 在部署 Lync Server 计算机或用户的每个域中都会部署一个全局编录。
 
-Lync Server 2013 支持 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 和 Windows Server 2003 操作系统中的通用组。 通用组的成员可包括域树或林中的任何域中的其他组和帐户，并且可将域树或林中的任何域中的权限分配给这些成员。 通用组支持，与管理员委派结合使用，简化了 Lync 服务器部署的管理。 例如，不必将一个域添加到另一个域，管理员即可同时管理这两个域。
+Lync Server 2013 支持 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 和 Windows Server 2003 操作系统中的通用组。 通用组的成员可包括域树或林中的任何域中的其他组和帐户，并且可将域树或林中的任何域中的权限分配给这些成员。 通用组支持（与管理员委派结合使用）简化了 Lync Server 部署的管理。 例如，不必将一个域添加到另一个域，管理员即可同时管理这两个域。
 
 </div>
 

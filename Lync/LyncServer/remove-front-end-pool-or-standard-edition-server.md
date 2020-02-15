@@ -1,5 +1,5 @@
 ---
-title: 删除前端池或 Standard Edition Server
+title: 删除前端池或 Standard Edition server
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8628f883285eec61a179c27d5dfda16b8c9b51d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f866af74117547c279955747c5c3398369465a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727172"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008918"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-front-end-pool-or-standard-edition-server"></a>删除前端池或 Standard Edition Server
+# <a name="remove-front-end-pool-or-standard-edition-server"></a>删除前端池或 Standard Edition server
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727172"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-04_
+_**上次修改的主题：** 2012-10-04_
 
-本主题将指导你完成删除前端池或标准版前端服务器的过程。 删除前端池时，将在池删除过程中删除属于该池的每个前端服务器。 删除标准版前端服务器时，必须从拓扑生成器中删除 SQL 应用商店定义。
+本主题将指导您完成删除前端池或 Standard Edition 前端服务器的过程。 删除前端池时，会将属于池的每台前端服务器作为池删除过程的一部分删除。 删除 Standard Edition 前端服务器时，必须从拓扑生成器中删除 SQL 存储定义。
 
 <div>
 
@@ -45,9 +45,9 @@ _**主题上次修改时间：** 2012-10-04_
 
 1.  打开拓扑生成器。
 
-2.  导航到 Lync Server 2010 节点。
+2.  导航到 "Lync Server 2010" 节点。
 
-3.  展开 "**企业版前端池**"，展开 "前端池"，右键单击要删除的前端池，然后单击 "**删除**"。
+3.  展开 " **Enterprise Edition 前端池**"，再展开 "前端池"，右键单击要删除的前端池，然后单击 "**删除**"。
 
 4.  发布拓扑，检查复制状态，然后根据需要运行 Lync Server 部署向导。
 
@@ -55,21 +55,21 @@ _**主题上次修改时间：** 2012-10-04_
 
 <div>
 
-## <a name="to-remove-a-standard-edition-front-end-server"></a>删除标准版前端服务器
+## <a name="to-remove-a-standard-edition-front-end-server"></a>删除 Standard Edition 前端服务器
 
 1.  打开拓扑生成器。
 
-2.  导航到 Lync Server 2010 节点。
+2.  导航到 "Lync Server 2010" 节点。
 
-3.  展开**标准版前端服务器**，右键单击要删除的前端服务器，然后单击 "**删除**"。
+3.  展开**Standard Edition 前端服务器**，右键单击要删除的前端服务器，然后单击 "**删除**"。
 
-4.  展开 " **sql 存储**"，右键单击与标准版前端服务器关联的 SQL Server 数据库，然后单击 "**删除**"。
+4.  展开 " **sql 存储**"，右键单击与 Standard Edition 前端服务器关联的 SQL Server 数据库，然后单击 "**删除**"。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 必须从标准版前端服务器中删除 collocated SQL Server 数据库的定义。
+    > 您必须从 Standard Edition 前端服务器中删除并置 SQL Server 数据库的定义。
 
     
     </div>

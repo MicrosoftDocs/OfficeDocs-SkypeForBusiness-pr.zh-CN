@@ -12,20 +12,20 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73bcd2c2892e4e121512ae852d5920d600af91ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc0f47bf8e0a0aec5d2a2374decd79ce2bae77f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743822"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中使用拓扑生成器配置高可用性和灾难恢复
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>使用拓扑生成器在 Lync Server 2013 中配置高可用性和灾难恢复
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743822"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
-在拓扑生成器中执行以下步骤，以配置持久聊天服务器的高可用性和灾难恢复。
+在拓扑生成器中执行以下步骤，为持久聊天服务器配置高可用性和灾难恢复。
 
 1.  添加镜像数据库和日志传送辅助数据库 SQL Server 存储。
 
@@ -45,13 +45,13 @@ _**主题上次修改时间：** 2012-10-06_
     
     1.  为主数据库启用镜像。
     
-    2.  添加主镜像 SQL Server 应用商店。
+    2.  添加主镜像 SQL Server 存储。
     
     3.  启用 SQL Server 日志传送数据库。
     
-    4.  添加 SQL Server 日志传送辅助 SQL Server 应用商店。
+    4.  添加 SQL Server 日志传送辅助 SQL Server 存储。
     
-    5.  为辅助数据库添加 SQL Server 应用商店镜像。
+    5.  为辅助数据库添加 SQL Server 存储镜像。
     
     6.  发布拓扑。
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69c63e710463a37eecbb7d20edbe5999d0fbb55f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6061f04875d15f163bfb91d8803c488467cadb6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757016"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007871"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757016"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-22_
+_**上次修改的主题：** 2012-10-22_
 
-会议诊断报告提供有关所有会议会话成功和失败的信息。 请注意，Microsoft Lync Server 区分不同类型的故障：
+会议诊断报告提供有关所有会议会话成功和失败的信息。请注意，Microsoft Lync Server 可在不同类型的失败之间进行区分：
 
   - **预期失败**。预期失败通常仅是大多数技术意义上的失败。例如，假定有人启动会议，但在任何人可加入前挂起。技术上的失败：会议已启动，但没有完成。但是，以下是预期发生的失败：如果任何人可加入前组织取消会议，则将不会预期会议要完成。
 
@@ -65,20 +65,20 @@ _**主题上次修改时间：** 2012-10-22_
 <tr class="odd">
 <td><p>2024</p></td>
 <td><p>469</p></td>
-<td><p>utf-16</p></td>
+<td><p>16 </p></td>
 <td><p>2521</p></td>
 </tr>
 </tbody>
 </table>
 
 
-如果 2024 + 469 + 16 得到 2,509 个会话，而总会话列显示 2,521 个总会话数。 “丢失的”12 个会话是系统无法作为成功或失败进行分类的会话。 在第三方产品引入了监视服务器不熟悉的新诊断代码时，有时会出现这种情况。 如果发生这种情况，使用该产品制定的呼叫和报告该诊断代码的呼叫无法总是作为成功、预期失败或意外失败进行分类。
+如果 2024 + 469 + 16 得到 2,509 个会话，而总会话列显示 2,521 个总会话数。 “丢失的”12 个会话是系统无法作为成功或失败进行分类的会话。 在第三方产品引入了一个不熟悉的监控服务器的新诊断代码时，有时会出现这种情况。 如果发生这种情况，使用该产品制定的呼叫和报告该诊断代码的呼叫无法总是作为成功、预期失败或意外失败进行分类。
 
 <div>
 
 ## <a name="accessing-the-conference-diagnostic-report"></a>访问会议诊断报告
 
-可从监控报告主页访问会议诊断报告。 您可以通过单击以下任一指标来访问[Lync Server 2013 中的失败分发报告](lync-server-2013-failure-distribution-report.md)：
+可从监控报告主页访问会议诊断报告。 您可以通过单击以下任一指标来访问[Lync Server 2013 中的故障分布报告](lync-server-2013-failure-distribution-report.md)：
 
   - 意外失败量
 
@@ -90,7 +90,7 @@ _**主题上次修改时间：** 2012-10-22_
 
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>充分利用会议诊断报告
 
-会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某一列，您将向下钻取到[Lync Server 2013 中的 "失败分配" 报表](lync-server-2013-failure-distribution-report.md)，了解该时间段以及该会议类型。
+会议诊断报告包括一系列图形。 图形中显示的每个列实际是个超链接。 如果单击某一列，您将向下钻取到该时间段和该会议类型的[Lync Server 2013 中的 "故障分布报告](lync-server-2013-failure-distribution-report.md)"。
 
 </div>
 
@@ -117,27 +117,27 @@ _**主题上次修改时间：** 2012-10-22_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>从</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入开始时间，该报告会自动将将某个特定日期的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>到</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</p>
 <p>7/7/2012 1:00 PM</p>
-<p>如果您未输入结束时间，该报告会自动将某个特定日期的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
+<p>如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</p>
 <p>7/7/2012</p>
 <p>若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</p>
 <p>7/3/2012</p>
 <p>一周始终是从星期日开始至星期六结束。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>间隔</strong></p></td>
+<td><p><strong>Interval</strong></p></td>
 <td><p>时间间隔。选择下列选项之一：</p>
 <ul>
 <li><p>每小时（最多可显示 25 个小时）</p></li>
@@ -145,17 +145,17 @@ _**主题上次修改时间：** 2012-10-22_
 <li><p>每周（最多可显示 12 周）</p></li>
 <li><p>每月（最多可显示 12 个月）</p></li>
 </ul>
-<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。 例如，如果选择 "开始日期 7/7/2012" 和 "结束日期 2/28/2012" 的 "每日间隔"，则会显示 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 的数据（即，总共31天的数据）。</p></td>
+<p>如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。例如，如果选择的开始日期为 8/7/2012、结束日期为 9/28/2012、间隔为“每天”，则显示从 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 这些天的数据（即总共 31 天的数据）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>池</strong></p></td>
-<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“<strong>[所有]</strong>”查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
+<td><p><strong>Pool</strong></p></td>
+<td><p>注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”<strong></strong>查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>会议会话</strong></p></td>
 <td><p>指示会议会话的类型。选择下列选项之一：</p>
 <ul>
-<li><p>[所有]</p></li>
+<li><p>各种</p></li>
 <li><p>焦点会话</p></li>
 <li><p>所有 MCU 会话</p></li>
 <li><p>IM 会议</p></li>
@@ -187,7 +187,7 @@ _**主题上次修改时间：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -215,7 +215,7 @@ _**主题上次修改时间：** 2012-10-22_
 <tr class="odd">
 <td><p><strong>意外失败量</strong></p></td>
 <td><p>否</p></td>
-<td><p>发生&quot;意外失败&quot;的会议的总数。</p>
+<td><p>发生&quot;意外故障&quot;的会议的总数。</p>
 <p>意外失败是指在本该正常运行的系统中出现的失败情况。例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。如果终止，则会被标记为意外失败。</p></td>
 </tr>
 <tr class="even">

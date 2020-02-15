@@ -12,16 +12,16 @@ ms:contentKeyID: 48184211
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9b8c775321cd8eca1be350a3894f0430ced0a74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71dde683fed5f1127efd0a966d0de61dcaef65cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756116"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41756116"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
-以下主题介绍如何使用 Lync Server 2013 控制面板和**持久聊天**页面管理持续聊天中的用户访问。 若要管理持久聊天服务器，您必须在系统中具有永久聊天管理员权限和权限。 安装持久聊天服务器时，请指定具有必需的持久聊天管理员权限和权限的一个或多个用户。 若要授予其他用户帐户管理员权限和权限，请使用 "**管理用户和用户组**"。 有关详细信息，请参阅[在 Lync Server 2013 中启用用户管理类别、聊天室和用户权利和权限](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)。
+以下主题介绍如何使用 Lync Server 2013 控制面板和**持久聊天**页面管理持久聊天中的用户访问。 若要管理持久聊天服务器，您必须具有系统中的持久聊天管理员权限和权限。 当您安装持久聊天服务器时，您可以指定一个或多个具有必需的持久聊天管理员权限的用户。 若要向其他用户帐户授予管理员权限，请使用“管理用户和用户组”****。 有关详细信息，请参阅[Lync Server 2013 中的使用户能够管理类别、聊天室和用户权利和权限](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [在 Lync Server 2013 中将用户和用户组的域添加到聊天室类别](lync-server-2013-adding-domains-of-users-and-user-groups-to-the-room-category.md)
 
-  - [在 Lync Server 2013 中在聊天室中禁用上载和下载文件](lync-server-2013-disabling-uploading-and-downloading-files-in-chat-rooms.md)
+  - [在 Lync Server 2013 的聊天室中禁用上载和下载文件](lync-server-2013-disabling-uploading-and-downloading-files-in-chat-rooms.md)
 
-  - [允许用户在 Lync Server 2013 中管理类别、聊天室和用户权限](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
+  - [使用户能够在 Lync Server 2013 中管理类别、聊天室和用户权限](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：用于 SIP 中继的组件和拓扑
+title: Lync Server 2013： SIP 中继的组件和拓扑
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9e31b7cc0ea6e5acec0382ecd468a868152570d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742562"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中用于 SIP 中继的组件和拓扑
+# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 中继的组件和拓扑
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742562"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-09-21_
+_**上次修改的主题：** 2012-09-21_
 
-下图描绘了 Lync Server 中的 SIP 中继拓扑。
+下图描述了 Lync Server 中的 SIP 中继拓扑。
 
 **SIP 中继拓扑**
 
@@ -49,7 +49,7 @@ _**主题上次修改时间：** 2012-09-21_
 
 
 > [!IMPORTANT]  
-> 请与服务提供商联系，以确定是否提供包括故障转移在内的高可用性支持。 如果提供，则需要确定设置过程。 例如，你只需要在每个中介服务器上配置一个 IP 地址和一个 SIP 中继，还是需要在每个中介服务器上配置多个 SIP 中继？<BR>如果您有多个中心网站，还询问服务提供商是否有能力启用与另一个中心站点的连接。
+> 请与服务提供商联系，以确定是否提供包括故障转移在内的高可用性支持。 如果提供，则需要确定设置过程。 例如，您是否需要在每个中介服务器上仅配置一个 IP 地址和一个 SIP 中继，或者是否需要在每个中介服务器上配置多个 SIP 中继？<BR>如果你有多个中央站点，还应询问服务提供商是否能够启用与另一个中心站点的连接。
 
 
 
@@ -59,7 +59,7 @@ _**主题上次修改时间：** 2012-09-21_
 
 
 > [!NOTE]  
-> 对于 SIP 中继，强烈建议你部署独立的中介服务器。 有关详细信息，请参阅部署文档中的在<A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Lync Server 2013 中部署中介服务器和定义对等</A>。
+> 对于 SIP 中继，强烈建议您部署独立的中介服务器。 有关详细信息，请参阅部署文档中的在<A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Lync Server 2013 中部署中介服务器和定义对等方</A>。
 
 
 
@@ -73,11 +73,11 @@ _**主题上次修改时间：** 2012-09-21_
 
 建议您遵循下列准则：
 
-  - 在外围网络（也称为 DMZ、隔离区和屏蔽子网）之间的中介服务器和 VPN 路由器之间设置虚拟 LAN （VLAN）。
+  - 在外围网络（也称为 DMZ、隔离区域和屏蔽子网）之间建立中介服务器和 VPN 路由器之间的虚拟 LAN （VLAN）。
 
   - 不允许将广播数据包或多播数据包从路由器传输到 VLAN。
 
-  - 阻止将流量从路由器路由到除中介服务器之外的任何位置的任何路由规则。
+  - 阻止将流量从路由器路由到除中介服务器之外的任何其他任何路由规则。
 
 如果使用 VPN 服务器，建议您遵循下列准则：
 
@@ -85,7 +85,7 @@ _**主题上次修改时间：** 2012-09-21_
 
   - 不允许将广播数据包或多播数据包从 VPN 服务器传输到 VLAN。
 
-  - 阻止将 VPN 服务器流量路由到除中介服务器之外的任何位置的任何路由规则。
+  - 阻止将 VPN 服务器流量路由到除中介服务器之外的任何位置的路由规则。
 
   - 使用基本路由封装 (GRE) 加密 VPN 上的数据。
 

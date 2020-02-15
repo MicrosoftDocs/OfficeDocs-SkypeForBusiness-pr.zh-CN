@@ -12,16 +12,16 @@ ms:contentKeyID: 48184902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95251144f6876adb7bd31cf5ae2926e53560976f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f13e337f509fe776b63b7a212670d5a5492e9929
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730464"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730464"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-05_
+_**上次修改的主题：** 2012-10-05_
 
-在 Lync Server 2010 之前，Lync Server 依靠 Active Directory 域服务来存储部署和管理 Lync 服务器所需的所有全局设置和组。 现在，大部分信息存储在中央管理存储中，而不是 AD DS 中。 但是，用户对象架构扩展（包括 Lync Server 2013、Lync Server 2010 和 Office 通信服务器 2007 R2 架构扩展）仍存储在 AD DS 中。
+在 Lync Server 2010 之前，Lync Server 依靠 Active Directory 域服务来存储部署和管理 Lync Server 所需的所有全局设置和组。 现在，这些信息中的大部分存储在中央管理存储中，而不是 AD DS 中。 但是，用户对象架构扩展（包括 Lync Server 2013、Lync Server 2010 和 Office 通信服务器 2007 R2 架构扩展）仍存储在 AD DS 中。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的 Active Directory 域服务支持](lync-server-2013-active-directory-domain-services-support.md)
 

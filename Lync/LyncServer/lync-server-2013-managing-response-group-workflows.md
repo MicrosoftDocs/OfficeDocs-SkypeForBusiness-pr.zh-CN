@@ -12,16 +12,16 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489ad3b47b1502c210fc3f66fea3ed751b4f58a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a01005e9c6d78f521c3987bb36813e2d7eadb11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765583"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765583"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-01_
+_**上次修改的主题：** 2012-10-01_
 
-响应组工作流定义通话的行为，从电话响铃到工程师应答呼叫的时间。 工作流包括 "队列" 和 "路由" 信息，包括 "查寻组" 或 "交互式语音响应（IVR）" 信息。
+响应组工作流定义从电话响铃到代理应答呼叫的时间的呼叫行为。 工作流包括队列和路由信息，还包括智能寻线或互动语音响应 (IVR) 信息。
 
-本部分中的主题确定设计 IVR 工作流的最佳做法，并介绍如何创建或修改工作流以及如何删除工作组。
+本节中的主题确定了用于设计 IVR 工作流的最佳实践，并说明了如何创建自定义的工作时间和假日集、如何创建或修改工作流以及如何删除工作组。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
-  - [在 Lync Server 2013 中设计互动语音响应呼叫流](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [在 Lync Server 2013 中设计交互式语音响应呼叫流](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [可选在 Lync Server 2013 中定义响应组工作时间](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [Optional在 Lync Server 2013 中定义响应组工作时间](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [可选在 Lync Server 2013 中定义 "响应组" 假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [Optional在 Lync Server 2013 中定义响应组假日集](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
   - [在 Lync Server 2013 中创建或修改工作流](lync-server-2013-create-or-modify-a-workflow.md)
 

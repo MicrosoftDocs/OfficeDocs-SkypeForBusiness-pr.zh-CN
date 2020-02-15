@@ -13,16 +13,16 @@ ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3d8b50276c2e547ba5f240f429198ef0bca8303
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f31186ffda8cd6c548d83d512c0c795110d4fc4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724132"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,9 +36,9 @@ ms.locfileid: "41724132"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-19_
+_**上次修改的主题：** 2012-10-19_
 
-在开始迁移到 Lync Server 2013 之前，强烈建议你执行完整的系统备份并记录你的现有系统，包括每个池中托管的用户帐户的清单，以便你可以回退到 Office 通信服务器 2007 R2 （如果需要）。 有多个工具和程序可用于备份和还原数据、设置和系统。 有关详细信息和过程，请参阅 "Office 通信服务器 2007 R2 备份和还原指南<http://go.microsoft.com/fwlink/p/?linkid=168162>"。
+在开始迁移到 Lync Server 2013 之前，强烈建议您执行完整的系统备份并记录现有系统，包括驻留在每个池中的用户帐户的清单，以便您可以回滚到 Office 通信服务器 2007 R2 （如果需要）。 可以使用多种工具和程序来备份和还原数据、设置和系统。 有关详细信息和过程，请参阅中<http://go.microsoft.com/fwlink/p/?linkid=168162>的 "Office 通信服务器 2007 R2 备份和还原指南"。
 
 </div>
 

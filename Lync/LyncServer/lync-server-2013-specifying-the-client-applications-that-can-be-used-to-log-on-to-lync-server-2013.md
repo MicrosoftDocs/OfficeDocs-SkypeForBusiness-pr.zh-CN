@@ -12,16 +12,16 @@ ms:contentKeyID: 48185450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 788a0638dee6b9d52a5d954eafb7b4e33bdfd294
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea0083a28253f5b79e6124dc7733a3ea096f4509
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731872"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006117"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731872"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-12-11_
+_**上次修改的主题：** 2012-12-11_
 
-Lync Server 2013 使你能够指定你的环境支持的客户端版本。 使用客户端版本策略可以帮助降低与支持多个客户端版本相关的成本。 它还可以改进整体用户体验，因为当客户端的早期版本和更高版本的客户端交互时，可用的功能可以受到较早版本的客户端的限制。
+Lync Server 2013 使您能够指定在您的环境中支持的客户端版本。 使用客户端版本策略可帮助降低与支持多个客户端版本相关的成本。 它还可以改进总体用户体验，因为在更早和更高版本的客户端进行交互时，可通过早期版本的客户端来限制可用功能。
 
 客户端版本控制有三个组件：
 
-  - 客户端版本配置设置用于打开或关闭客户端版本控制，无论是全局还是针对特定网站。
+  - 客户端版本配置设置用于为全局或对特定网站启用或禁用客户端版本控制。
 
-  - 客户端版本策略用于全局分配一组规则，或分配给特定网站、池或用户组。
+  - 客户端版本策略用于全局或特定网站、池或用户组分配一组规则。
 
-  - 客户端版本策略规则构成了客户端版本策略，用于定义当用户尝试使用特定客户端和客户端版本登录时应采取的操作。
+  - 客户端版本策略规则构成了一个客户端版本策略，用于定义当用户尝试使用特定客户端和客户端版本登录时应采取的操作。
 
 <div>
 
@@ -59,7 +59,7 @@ Lync Server 2013 使你能够指定你的环境支持的客户端版本。 使�
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的客户端版本配置设置](lync-server-2013-client-version-configuration-settings.md)
 

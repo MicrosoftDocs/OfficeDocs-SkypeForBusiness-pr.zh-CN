@@ -12,16 +12,16 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c013159de83d258273e381dd54556bcceec056f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60c4a3e1563890d64394f3a99141523cb95add38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723562"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006128"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41723562"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-18_
+_**上次修改的主题：** 2013-02-18_
 
-标准版的文件存储通常位于标准版服务器上。 企业版的文件存储通常位于文件服务器或群集上。 以下过程介绍了如何还原文件存储。
+Standard Edition 的文件存储通常位于 Standard Edition server 上。 Enterprise Edition 的文件存储通常位于文件服务器或群集上。 以下过程介绍了如何还原文件存储。
 
 <div>
 
 ## <a name="to-restore-a-file-store"></a>还原文件存储
 
-1.  如果文件存储失败，请将相应的文件存储区从\\ $Backup 复制到文件服务器或标准版服务器上的文件存储位置，然后共享该文件夹。
+1.  如果文件存储失败，请将相应的文件存储从 $Backup\\复制到文件服务器或 Standard Edition 服务器上的文件存储位置，然后共享该文件夹。
     
     <div>
     
@@ -54,7 +54,7 @@ _**主题上次修改时间：** 2013-02-18_
     
     </div>
 
-2.  如有必要，请设置文件存储的访问控制列表（Acl）。 在命令行中键入：
+2.  如有必要，为文件存储设置访问控制列表（Acl）。 在命令行中键入：
     
         Enable-CsTopology
     
@@ -62,7 +62,7 @@ _**主题上次修改时间：** 2013-02-18_
     
 
     > [!NOTE]  
-    > 只有在还原过程中没有其他方法运行拓扑生成器时，才需要执行此步骤。
+    > 只有在还原过程中未运行拓扑生成器时，才需要执行此步骤。
 
     
     </div>

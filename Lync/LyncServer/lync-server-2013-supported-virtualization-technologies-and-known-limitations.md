@@ -12,16 +12,16 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf513e9dee4e6a27708c8882519099c825f903f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 387290f8fb7ab88dcb7bc987c38c4a2e3e71ec5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731642"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41731642"
 
 <span> </span>
 
-_**主题上次修改时间：** 2017-02-06_
+_**上次修改的主题：** 2017-02-06_
 
-Lync VDI 插件允许针对受支持的虚拟化技术进行音频和视频通话。 这将在[Microsoft lync 2010 白皮书的客户端虚拟化](https://go.microsoft.com/fwlink/?linkid=330447)中扩展 Microsoft Lync Server 2010 所示的功能。 遵守标准电话规章，还包括对 E911 的支持。 以下部分介绍 Lync VDI 插件支持的虚拟化技术和已知功能限制。
+Lync VDI 插件允许音频和视频呼叫支持的虚拟化技术。 这在[Microsoft lync 2010 白皮书的客户端虚拟化](https://go.microsoft.com/fwlink/?linkid=330447)中扩展了为 Microsoft lync Server 2010 概述的功能。 在遵守标准电话法规的情况下，还包括对 E911 的支持。 以下各节介绍了 Lync VDI 插件支持的虚拟化技术和已知的功能限制。
 
 <div>
 
-## <a name="support-for-virtualization-technologies"></a>虚拟化技术支持
+## <a name="support-for-virtualization-technologies"></a>对虚拟化技术的支持
 
-Lync VDI 插件支持个人虚拟桌面方案中的完整桌面远程处理，但不支持远程桌面会话方案中的完整桌面远程处理。 这些方案可描述如下：
+Lync VDI 插件支持个人虚拟桌面方案中的完整桌面远程，但在远程桌面会话方案中不支持。 可以按如下所述描述这些方案：
 
-  - **支持：个性化的虚拟桌面或虚拟桌面基础结构（VDI）。**   在此方案中，每个用户都登录到一个可自定义的虚拟桌面，并且能够保存桌面上跨会话保留的文件。 Microsoft 远程桌面服务、VMware 地平线视图和 Citrix XenDesktop 是已测试用于 Lync 的实现。 有关已由 Microsoft 测试的特定于供应商的 VDI 环境和客户端硬件的信息，请参阅[Microsoft Lync 合格的基础结构](https://go.microsoft.com/fwlink/?linkid=313435)。
+  - **支持：个性化虚拟桌面或虚拟桌面基础结构（VDI）。**   在这种情况下，每个用户都登录到可自定义的虚拟桌面，并且能够在桌面上保存跨会话保留的文件。 Microsoft 远程桌面服务、VMware 地平线视图和 Citrix XenDesktop 是已经过测试可与 Lync 配合使用的实现。 有关已由 Microsoft 测试的供应商特定的 VDI 环境和客户端硬件的信息，请参阅[适用于 Microsoft Lync 的基础结构限定](https://go.microsoft.com/fwlink/?linkid=313435)。
 
-  - **不支持：远程桌面会话。**   在此方案中，每个用户登录到无法自定义的一般虚拟桌面会话。 示例实施包括 Microsoft 远程桌面会话 (RDSH) 和与 Citrix Receiver 组合的 Citrix XenApp。
+  - **不支持：远程桌面会话。**   在这种情况下，每个用户登录到无法自定义的通用虚拟桌面会话。 示例实现包括 Microsoft 远程桌面会话（RDSH）和与 Citrix 接收器组合的 Citrix XenApp。
 
-Lync VDI 插件不支持其他虚拟化技术（如应用程序虚拟化），它允许在不需要本地安装完整应用程序的情况下使用应用程序。 示例实现包括 Citrix XenApp 和 Microsoft Application Virtualization （App-v）。 不支持应用程序流、应用程序远程处理和混合虚拟化模式（例如，完全桌面远程处理中的应用程序远程处理）。
+Lync VDI 插件不支持其他虚拟化技术，如应用程序虚拟化，它允许使用应用程序，而无需在本地安装完整应用程序。 示例实现包括 Citrix XenApp 和 Microsoft Application Virtualization （App-v）。 不支持应用程序流式处理、应用程序远程处理和混合虚拟化模式（例如，在完整桌面远程处理中进行应用程序远程处理）。
 
-为了允许扩展性，Lync VDI 插件设计为使用名为 "动态虚拟通道（DVCs）" 的独立于平台的 Api。 对于不是由 Lync 明确支持的方案，请参阅来自 VDI 解决方案提供商的支持声明。
+为允许可扩展性，Lync VDI 插件旨在使用称为 "动态虚拟通道" （Dvc）的独立于平台的 Api。 对于不是由 Lync 显式支持的方案，请参阅 VDI 解决方案提供商提供的支持声明。
 
 </div>
 
@@ -59,9 +59,9 @@ Lync VDI 插件不支持其他虚拟化技术（如应用程序虚拟化），�
 
 ## <a name="known-feature-limitations"></a>已知功能限制
 
-在 VDI 环境中使用 Lync 2013 时，以下是已知限制：
+在 VDI 环境中使用 Lync 2013 时，有以下已知限制：
 
-  - 对呼叫委派和响应组代理匿名化功能的支持有限。
+  - 对呼叫委派和响应组代理 Anonymization 功能的支持有限。
 
   - 不支持以下功能：
     
@@ -73,7 +73,7 @@ Lync VDI 插件不支持其他虚拟化技术（如应用程序虚拟化），�
     
       - 远程桌面服务（RDS）。
     
-      - 匿名加入会议（即，加入由不与您的组织联盟的组织托管的 Lync 会议）。
+      - 匿名加入会议（即，加入由不与您的组织联合的组织托管的 Lync 会议）。
     
       - 将 Lync VDI 插件与 Lync Phone Edition 设备结合使用。
     
@@ -81,7 +81,7 @@ Lync VDI 插件不支持其他虚拟化技术（如应用程序虚拟化），�
     
       - 自定义铃声和保持音乐功能。
 
-  - Office 365 环境中不支持 Lync VDI 插件。
+  - Office 365 环境不支持 Lync VDI 插件。
 
 </div>
 

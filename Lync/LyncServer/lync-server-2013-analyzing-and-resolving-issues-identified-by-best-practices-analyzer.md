@@ -1,5 +1,5 @@
 ---
-title: 分析和解决最佳做法分析器识别的问题
+title: 分析和解决最佳实践分析工具识别的问题
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 180cbbc79cba7f0379a832688ba7f9073b7b9798
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7926308c69c89c977705d5e4d51d73e78b46d1b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737812"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a>分析和解决 Lync Server 2013 中由最佳做法分析器识别的问题
+# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a>分析和解决 Lync Server 2013 中的最佳实践分析工具识别的问题
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41737812"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-06-25_
+_**上次修改的主题：** 2012-06-25_
 
-最佳做法分析器不会对你的环境进行更改来解决问题。 它仅检测潜在问题，并显示有关如何解决这些问题的信息。 如果您发现需要解决的问题，则必须确定合适的解决方案。 本节中的主题帮助你识别和解决一些最重要的潜在问题。
+最佳做法分析器不会对您的环境做任何更改来解决问题。它仅检测潜在的问题，并显示有关如何解决它们的信息。如果您标识需要解决的问题，则必须确定相应的解决方案。本节的主题可帮助您标识和解决某些最重要的潜在问题。
 
 <div>
 
-## <a name="in-this-section"></a>本节内容
+## <a name="in-this-section"></a>本部分内容
 
   - [Lync Server 2013 中的环境测试问题](lync-server-2013-issues-with-the-environment-test.md)
 

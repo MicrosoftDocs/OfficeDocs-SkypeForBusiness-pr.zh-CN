@@ -13,16 +13,16 @@ ms:contentKeyID: 48184990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e53c57b90a85024ed5375129ce23c6ff0060edc4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 155e6d07f2e9ccd4315471ca02cd21075b1ded71
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727974"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,23 +36,23 @@ ms.locfileid: "41727974"
 
 <span> </span>
 
-_**主题上次修改时间：** 2012-10-06_
+_**上次修改的主题：** 2012-10-06_
 
-迁移后，仅存在 Lync Server 2013、持久聊天服务器池，并且您可以停止使用旧部署。
+迁移后，只有 Lync Server 2013、持久聊天服务器池存在，并且您可以停止使用旧版部署。
 
-在迁移完成之前以及完全取消当前组聊天服务器部署的配置之前，你可能会遇到以下任何部署：
+在迁移完成之前和完全取消当前组聊天服务器部署之前，可能会有以下任一部署：
 
-  - Lync Server 2013 持久聊天服务器池，它必须托管在 Lync Server 2013 池。
+  - Lync Server 2013、持久聊天服务器池（必须驻留在 Lync Server 2013 池上）。
 
-  - Lync Server 2010、群组聊天池，它必须驻留在 Lync Server 2010 池中。
+  - Lync Server 2010，组聊天池，它必须驻留在 Lync Server 2010 池上。
 
-  - Office 通信服务器 2007 R2 群组聊天池，它必须驻留在 Office 通信服务器 2007 R2 池中。
+  - Office 通信服务器 2007 R2 组聊天池，它必须驻留在 Office 通信服务器 2007 R2 池上。
 
-这些部署可以并排存在。 但是，一个部署中的类别、会议室和外接程序不与附带的部署中的相同。
+这些部署可并行存在。但是一个部署中的类别、聊天室和外接程序不会与伴随部署中的交互。
 
-使用手动配置时，旧客户端（组聊天客户端）可以一次连接到 Office 通信服务器 2007 R2、Lync Server 2010、群组聊天或 Lync Server 2013 的一个池。
+使用手动配置，旧版客户端（组聊天客户端）可以一次连接到一个池，以获取 Office 通信服务器 2007 R2、Lync Server 2010、组聊天或 Lync Server 2013。
 
-Lync 2013 （客户端）只能与 Lync Server 2013、持久聊天服务器池（而不是旧版组聊天服务器池）交互。 若要在 Lync 2013 （客户端）中使用持久聊天，用户必须托管在 Lync 2013 并由策略启用。
+Lync 2013 （客户端）只能与 Lync Server 2013、持久聊天服务器池进行交互，而不能与旧版组聊天服务器池交互。 若要在 Lync 2013 （客户端）中使用持久聊天，用户必须驻留在 Lync 2013 上并由策略启用。
 
 </div>
 

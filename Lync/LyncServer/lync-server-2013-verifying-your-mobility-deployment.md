@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：验证您的移动功能部署
+title: Lync Server 2013：验证移动部署
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96b6c82478fffe2815e9d69b870b3b434eadb3cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6777414e7fc558e8eef0f913aca90fc7edd924ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742012"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verifying-your-mobility-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中验证您的移动功能部署
+# <a name="verifying-your-mobility-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中验证移动性部署
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41742012"
 
 <span> </span>
 
-_**主题上次修改时间：** 2013-02-12_
+_**上次修改的主题：** 2013-02-12_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-部署 Lync Server 移动服务和 Lync Server 自动发现服务之后，运行测试事务以验证你的部署是否正常工作。 你可以运行**Test CsUcwaConference**来测试两个正在使用 Lync 2013 移动客户端的用户在会议中创建、加入和沟通的能力。 若要使用此测试事务，需要两个实际用户或测试用户及其完整凭据。
+部署 Lync Server 移动服务和 Lync Server 自动发现服务后，运行测试事务以验证您的部署是否正常工作。 您可以运行**test-csucwaconference**以测试两个使用 Lync 2013 移动客户端的用户在会议中创建、加入和交流的能力。 若要使用此测试事务，您需要两个实际用户或测试用户及其完整凭据。
 
-使用**CsMcxP2PIM**测试在两个使用 Lync 2010 Mobile 的用户之间发送即时消息。 与**CsUcwaConference 测试**类似，你可以使用两个实际用户或两个预定义的测试用户。
+您可以使用**test-csmcxp2pim**测试在两个使用 Lync 2010 Mobile 的用户之间发送即时消息。 与**test-csucwaconference**类似，您可以使用两个实际用户或两个预定义的测试用户。
 
 <div>
 
-## <a name="to-test-conferencing-for-lync-2013-mobile-clients"></a>为 Lync 2013 移动客户端测试会议
+## <a name="to-test-conferencing-for-lync-2013-mobile-clients"></a>测试 Lync 2013 移动客户端的会议
 
-1.  以 CsAdministrator 角色的成员身份登录任何安装了 Lync Server 命令行管理程序和 Ocscore 的计算机。
+1.  在安装了 Lync Server 命令行管理程序和 Ocscore 的任何计算机上以 CsAdministrator 角色的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 3.  在命令行中键入：
     
         Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
     
-    你可以在脚本中设置凭据并将其传递给测试 cmdlet。 例如：
+    您可以在脚本中设置凭据并将这些凭据传送给测试 cmdlet。例如：
     
         $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
         $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
@@ -67,17 +67,17 @@ _**主题上次修改时间：** 2013-02-12_
 
 <div>
 
-## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>要测试 Lync 2010 Mobile 的人至个人即时消息（IM）
+## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>测试 Lync 2010 移动的人到个人即时消息（IM）
 
-1.  以 CsAdministrator 角色的成员身份登录任何安装了 Lync Server 命令行管理程序和 Ocscore 的计算机。
+1.  在安装了 Lync Server 命令行管理程序和 Ocscore 的任何计算机上以 CsAdministrator 角色的成员身份登录。
 
-2.  启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。
+2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
 3.  在命令行中键入：
     
         Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
     
-    你可以在脚本中设置凭据并将其传递给测试 cmdlet。 例如：
+    您可以在脚本中设置凭据并将这些凭据传送给测试 cmdlet。例如：
     
         $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
         $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
@@ -92,8 +92,8 @@ _**主题上次修改时间：** 2013-02-12_
 ## <a name="see-also"></a>另请参阅
 
 
-[Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM)  
-[Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference)  
+[Test-Test-csmcxp2pim](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM)  
+[Test-Test-csucwaconference](https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48706011
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3ed23319631dd8ab51131fe9a8d7a9099e35d18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55d9c706c0ea5afcff4f249a9c00a2355667f221
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757596"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007831"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757596"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-02-05_
+_**上次修改的主题：** 2014-02-05_
 
-如果永久聊天室的主题不再相关，您可以通过禁用该聊天室使用户无法使用该聊天室。 禁用聊天室时，所有成员将立即从聊天室断开。 禁用聊天室后，用户无法重新加入或在聊天室搜索中找到该聊天室。
+如果持久聊天室的主题不再相关，可以通过禁用聊天室使用户无法使用该聊天室。 禁用聊天室后，所有成员都将立即从聊天室断开连接。 禁用聊天室后，用户将无法重新加入聊天室或在聊天室搜索中找到它。
 
-已禁用的聊天室可在稍后由持久聊天管理员启用。 如果聊天室被禁用，其成员关系列表和其他设置将被保留。 如果再次启用聊天室，则无需手动重新创建设置。
+已禁用的聊天室可在稍后由持久聊天管理员启用。 禁用某聊天室时，将保留其成员身份列表和其他设置。 如果再次启用会议室，则无需手动重新创建这些设置。
 
-如果聊天室的历史记录继续存在（聊天室历史记录持久性是一个适用于类别内所有聊天室的类别的可选设置; 默认值是它是保留的，但是可以通过将类别的 "**启用" 聊天历史记录**设置为 "false" 来关闭，在禁用聊天室时保留内容。 但是，在该聊天室处于禁用状态时，该内容不会显示在搜索中。 如果随后启用该聊天室，则用户可以搜索禁用该聊天室之前发布的消息。
+如果聊天室的历史记录持续存在（聊天室历史记录持续性是适用于类别中所有聊天室的类别的可选设置; 默认值为 "已保留"，但可以通过将类别的 "**启用聊天历史记录**" 设置为 "false" 来将其关闭，在禁用聊天室时保留内容。 但是，在聊天室仍处于禁用状态时，搜索中不会显示该内容。 如果后来启用了聊天室，用户可以搜索在禁用聊天室之前已发布的邮件。
 
-有关通过使用 Windows PowerShell 命令行界面禁用和启用聊天室的详细信息，请参阅[使用 Windows powershell Cmdlet 配置持久聊天服务器](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 "会议室管理"。 若要禁用聊天室，请使用类似下面的命令：
+有关通过使用 Windows PowerShell 命令行界面禁用和启用聊天室的详细信息，请参阅[使用 Windows powershell Cmdlet 配置持久聊天服务器](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 "会议室管理"。 若要禁用聊天室，请使用与以下类似的命令：
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $True
 
@@ -51,9 +51,9 @@ _**主题上次修改时间：** 2014-02-05_
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $False
 
-请注意，聊天室无法通过使用 Lync Server 控制面板启用或禁用。
+请注意，聊天室无法使用 Lync Server 控制面板启用或禁用。
 
-有关配置聊天室的详细信息，请参阅部署文档中[Lync Server 2013](lync-server-2013-configure-rooms.md)中的 "配置聊天室"。
+有关配置聊天室的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置会议室](lync-server-2013-configure-rooms.md)。
 
 </div>
 
