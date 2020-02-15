@@ -12,20 +12,20 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bf88529734530e70c4d0536d5337395ff0742d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d68f13c636b24729db989f25da7055333968cbbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740742"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043274"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="10026-102">Lync Server 2013 中呼叫允许控制的部署清单</span><span class="sxs-lookup"><span data-stu-id="10026-102">Deployment checklist for call admission control in Lync Server 2013</span></span>
+# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="a5834-102">Lync Server 2013 中呼叫允许控制的部署清单</span><span class="sxs-lookup"><span data-stu-id="a5834-102">Deployment checklist for call admission control in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41740742"
 
 <span> </span>
 
-<span data-ttu-id="10026-103">_**主题上次修改时间：** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="10026-103">_**Topic Last Modified:** 2012-10-08_</span></span>
+<span data-ttu-id="a5834-103">_**上次修改的主题：** 2012-10-08_</span><span class="sxs-lookup"><span data-stu-id="a5834-103">_**Topic Last Modified:** 2012-10-08_</span></span>
 
-<span data-ttu-id="10026-104">要有效规划呼叫许可控制（CAC），需要考虑以下事项：</span><span class="sxs-lookup"><span data-stu-id="10026-104">To plan effectively for call admission control (CAC), you need to consider the following:</span></span>
+<span data-ttu-id="a5834-104">若要有效规划呼叫允许控制 (CAC)，则需要考虑以下内容：</span><span class="sxs-lookup"><span data-stu-id="a5834-104">To plan effectively for call admission control (CAC), you need to consider the following:</span></span>
 
-  - <span data-ttu-id="10026-105">部署 CAC 的先决条件。</span><span class="sxs-lookup"><span data-stu-id="10026-105">Prerequisites for deploying CAC.</span></span>
+  - <span data-ttu-id="a5834-105">部署 CAC 的先决条件。</span><span class="sxs-lookup"><span data-stu-id="a5834-105">Prerequisites for deploying CAC.</span></span>
 
-  - <span data-ttu-id="10026-106">在部署之前必须进行的 CAC 和配置决策所需的信息。</span><span class="sxs-lookup"><span data-stu-id="10026-106">Information required for CAC and configuration decisions that you must make in advance of deployment.</span></span>
+  - <span data-ttu-id="a5834-106">CAC 所需的信息以及在部署前必须做出的配置决策。</span><span class="sxs-lookup"><span data-stu-id="a5834-106">Information required for CAC and configuration decisions that you must make in advance of deployment.</span></span>
 
 <div>
 
-## <a name="deployment-prerequisites-for-call-admission-control"></a><span data-ttu-id="10026-107">呼叫许可控制的部署先决条件</span><span class="sxs-lookup"><span data-stu-id="10026-107">Deployment Prerequisites for Call Admission Control</span></span>
+## <a name="deployment-prerequisites-for-call-admission-control"></a><span data-ttu-id="a5834-107">呼叫允许控制的部署先决条件</span><span class="sxs-lookup"><span data-stu-id="a5834-107">Deployment Prerequisites for Call Admission Control</span></span>
 
-<span data-ttu-id="10026-108">在部署 "呼叫许可控制" 之前，您必须已部署了 Lync Server 2013 内部服务器，包括 "前端" 池或标准版服务器。</span><span class="sxs-lookup"><span data-stu-id="10026-108">Before you deploy call admission control, you must already have deployed your Lync Server 2013 internal servers, including either a Front End pool or a Standard Edition server.</span></span>
+<span data-ttu-id="a5834-108">在部署呼叫允许控制之前，您必须已部署了 Lync Server 2013 内部服务器，包括前端池或 Standard Edition 服务器。</span><span class="sxs-lookup"><span data-stu-id="a5834-108">Before you deploy call admission control, you must already have deployed your Lync Server 2013 internal servers, including either a Front End pool or a Standard Edition server.</span></span>
 
 </div>
 
 <div>
 
-## <a name="information-requirements-for-call-admission-control"></a><span data-ttu-id="10026-109">呼叫许可控制的信息要求</span><span class="sxs-lookup"><span data-stu-id="10026-109">Information Requirements for Call Admission Control</span></span>
+## <a name="information-requirements-for-call-admission-control"></a><span data-ttu-id="a5834-109">呼叫允许控制的信息要求</span><span class="sxs-lookup"><span data-stu-id="a5834-109">Information Requirements for Call Admission Control</span></span>
 
-<span data-ttu-id="10026-110">下表总结了部署 "呼叫许可控制" 所需的信息。</span><span class="sxs-lookup"><span data-stu-id="10026-110">The following table summarizes the required information for deploying call admission control.</span></span>
+<span data-ttu-id="a5834-110">下表汇总了部署呼叫允许控制的必需信息。</span><span class="sxs-lookup"><span data-stu-id="a5834-110">The following table summarizes the required information for deploying call admission control.</span></span>
 
-### <a name="information-requirements-for-call-admission-control-deployment"></a><span data-ttu-id="10026-111">呼叫许可控制部署的信息要求</span><span class="sxs-lookup"><span data-stu-id="10026-111">Information Requirements for Call Admission Control Deployment</span></span>
+### <a name="information-requirements-for-call-admission-control-deployment"></a><span data-ttu-id="a5834-111">呼叫允许控制部署的信息要求</span><span class="sxs-lookup"><span data-stu-id="a5834-111">Information Requirements for Call Admission Control Deployment</span></span>
 
 <table>
 <colgroup>
@@ -67,70 +67,70 @@ ms.locfileid: "41740742"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="10026-112">信息</span><span class="sxs-lookup"><span data-stu-id="10026-112">Information</span></span></th>
-<th><span data-ttu-id="10026-113">所需信息摘要</span><span class="sxs-lookup"><span data-stu-id="10026-113">Summary of Information Required</span></span></th>
-<th><span data-ttu-id="10026-114">文档</span><span class="sxs-lookup"><span data-stu-id="10026-114">Documentation</span></span></th>
+<th><span data-ttu-id="a5834-112">信息</span><span class="sxs-lookup"><span data-stu-id="a5834-112">Information</span></span></th>
+<th><span data-ttu-id="a5834-113">所需信息的摘要</span><span class="sxs-lookup"><span data-stu-id="a5834-113">Summary of Information Required</span></span></th>
+<th><span data-ttu-id="a5834-114">文档</span><span class="sxs-lookup"><span data-stu-id="a5834-114">Documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="10026-115">您的组织所需的 Lync 服务器功能</span><span class="sxs-lookup"><span data-stu-id="10026-115">Lync Server capabilities required by your organization</span></span></p></td>
+<td><p><span data-ttu-id="a5834-115">您的组织所需的 Lync Server 功能</span><span class="sxs-lookup"><span data-stu-id="a5834-115">Lync Server capabilities required by your organization</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="10026-116">您的组织支持的功能</span><span class="sxs-lookup"><span data-stu-id="10026-116">Capabilities to be supported by your organization</span></span></p></li>
-<li><p><span data-ttu-id="10026-117">为单个用户启用的功能</span><span class="sxs-lookup"><span data-stu-id="10026-117">Capabilities to be enabled for individual users</span></span></p></li>
+<li><p><span data-ttu-id="a5834-116">组织支持的功能</span><span class="sxs-lookup"><span data-stu-id="a5834-116">Capabilities to be supported by your organization</span></span></p></li>
+<li><p><span data-ttu-id="a5834-117">为各个用户启用的功能</span><span class="sxs-lookup"><span data-stu-id="a5834-117">Capabilities to be enabled for individual users</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="10026-118"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">在 Lync Server 2013 中定义呼叫允许控制要求</a></span><span class="sxs-lookup"><span data-stu-id="10026-118"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5834-118"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">在 Lync Server 2013 中定义呼叫允许控制的要求</a></span><span class="sxs-lookup"><span data-stu-id="a5834-118"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="10026-119">要部署的拓扑和组件</span><span class="sxs-lookup"><span data-stu-id="10026-119">Topologies and components to be deployed</span></span></p></td>
+<td><p><span data-ttu-id="a5834-119">要部署的拓扑和组件</span><span class="sxs-lookup"><span data-stu-id="a5834-119">Topologies and components to be deployed</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="10026-120">CAC 相关组件将作为 Lync Server 2013 的一部分自动安装</span><span class="sxs-lookup"><span data-stu-id="10026-120">CAC related components are automatically installed as part of Lync Server 2013</span></span></p></li>
+<li><p><span data-ttu-id="a5834-120">CAC 相关组件将作为 Lync Server 2013 的一部分自动安装</span><span class="sxs-lookup"><span data-stu-id="a5834-120">CAC related components are automatically installed as part of Lync Server 2013</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="10026-121"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">在 Lync Server 2013 中定义呼叫允许控制要求</a></span><span class="sxs-lookup"><span data-stu-id="10026-121"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5834-121"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">在 Lync Server 2013 中定义呼叫允许控制的要求</a></span><span class="sxs-lookup"><span data-stu-id="a5834-121"><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Defining your requirements for call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="10026-122">系统要求</span><span class="sxs-lookup"><span data-stu-id="10026-122">System requirements</span></span></p></td>
+<td><p><span data-ttu-id="a5834-122">系统要求</span><span class="sxs-lookup"><span data-stu-id="a5834-122">System requirements</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="10026-123">硬件要求</span><span class="sxs-lookup"><span data-stu-id="10026-123">Hardware requirements</span></span></p></li>
-<li><p><span data-ttu-id="10026-124">软件要求</span><span class="sxs-lookup"><span data-stu-id="10026-124">Software requirements</span></span></p></li>
-<li><p><span data-ttu-id="10026-125">Collocation 要求</span><span class="sxs-lookup"><span data-stu-id="10026-125">Collocation requirements</span></span></p></li>
+<li><p><span data-ttu-id="a5834-123">硬件要求</span><span class="sxs-lookup"><span data-stu-id="a5834-123">Hardware requirements</span></span></p></li>
+<li><p><span data-ttu-id="a5834-124">软件要求</span><span class="sxs-lookup"><span data-stu-id="a5834-124">Software requirements</span></span></p></li>
+<li><p><span data-ttu-id="a5834-125">并置要求</span><span class="sxs-lookup"><span data-stu-id="a5834-125">Collocation requirements</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="10026-126"><a href="lync-server-2013-determining-your-system-requirements.md">确定 Lync Server 2013 的系统要求</a></span><span class="sxs-lookup"><span data-stu-id="10026-126"><a href="lync-server-2013-determining-your-system-requirements.md">Determining your system requirements for Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5834-126"><a href="lync-server-2013-determining-your-system-requirements.md">确定 Lync Server 2013 的系统要求</a></span><span class="sxs-lookup"><span data-stu-id="a5834-126"><a href="lync-server-2013-determining-your-system-requirements.md">Determining your system requirements for Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="10026-127">基础结构要求</span><span class="sxs-lookup"><span data-stu-id="10026-127">Infrastructure requirements</span></span></p></td>
+<td><p><span data-ttu-id="a5834-127">基础结构要求</span><span class="sxs-lookup"><span data-stu-id="a5834-127">Infrastructure requirements</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="10026-128">CAC 不需要特定的基础结构要求</span><span class="sxs-lookup"><span data-stu-id="10026-128">No specific infrastructure requirements are necessary for CAC</span></span></p></li>
+<li><p><span data-ttu-id="a5834-128">对 CAC 没有必要的特定基础结构要求</span><span class="sxs-lookup"><span data-stu-id="a5834-128">No specific infrastructure requirements are necessary for CAC</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="10026-129"><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Lync Server 2013 中呼叫允许控制的基础结构要求</a></span><span class="sxs-lookup"><span data-stu-id="10026-129"><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Infrastructure requirements for call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5834-129"><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Lync Server 2013 中呼叫允许控制的基础结构要求</a></span><span class="sxs-lookup"><span data-stu-id="a5834-129"><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Infrastructure requirements for call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="10026-130">网络接口要求</span><span class="sxs-lookup"><span data-stu-id="10026-130">Network interface requirements</span></span></p></td>
+<td><p><span data-ttu-id="a5834-130">网络接口要求</span><span class="sxs-lookup"><span data-stu-id="a5834-130">Network interface requirements</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="10026-131">内部和外部接口信息</span><span class="sxs-lookup"><span data-stu-id="10026-131">Internal and external interface information</span></span></p></li>
-<li><p><span data-ttu-id="10026-132">路由信息（包括有关在 Microsoft Lync 服务器团队<a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>的客户响应频道上的 NextHop 博客的信息）</span><span class="sxs-lookup"><span data-stu-id="10026-132">Routing information (including information on the NextHop blog at <a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>, Microsoft Lync Server team’s customer response channel)</span></span></p></li>
+<li><p><span data-ttu-id="a5834-131">内部和外部接口信息</span><span class="sxs-lookup"><span data-stu-id="a5834-131">Internal and external interface information</span></span></p></li>
+<li><p><span data-ttu-id="a5834-132">路由信息（包括有关来自 Microsoft Lync Server 团队<a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>客户响应通道的 NextHop 博客的信息）</span><span class="sxs-lookup"><span data-stu-id="a5834-132">Routing information (including information on the NextHop blog at <a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>, Microsoft Lync Server team’s customer response channel)</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="10026-133"><a href="lync-server-2013-deploying-external-user-access.md">在 Lync Server 2013 中部署外部用户访问</a></span><span class="sxs-lookup"><span data-stu-id="10026-133"><a href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5834-133"><a href="lync-server-2013-deploying-external-user-access.md">在 Lync Server 2013 中部署外部用户访问</a></span><span class="sxs-lookup"><span data-stu-id="a5834-133"><a href="lync-server-2013-deploying-external-user-access.md">Deploying external user access in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="10026-134">部署策略</span><span class="sxs-lookup"><span data-stu-id="10026-134">Deployment strategy</span></span></p></td>
+<td><p><span data-ttu-id="a5834-134">部署策略</span><span class="sxs-lookup"><span data-stu-id="a5834-134">Deployment strategy</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="10026-135">部署序列</span><span class="sxs-lookup"><span data-stu-id="10026-135">Deployment sequence</span></span></p></li>
-<li><p><span data-ttu-id="10026-136">工作组或域</span><span class="sxs-lookup"><span data-stu-id="10026-136">Workgroup or domain</span></span></p></li>
-<li><p><span data-ttu-id="10026-137">安全性</span><span class="sxs-lookup"><span data-stu-id="10026-137">Security</span></span></p></li>
-<li><p><span data-ttu-id="10026-138">监视和审核</span><span class="sxs-lookup"><span data-stu-id="10026-138">Monitoring and auditing</span></span></p></li>
-<li><p><span data-ttu-id="10026-139">硬件注意事项</span><span class="sxs-lookup"><span data-stu-id="10026-139">Hardware considerations</span></span></p></li>
+<li><p><span data-ttu-id="a5834-135">部署顺序</span><span class="sxs-lookup"><span data-stu-id="a5834-135">Deployment sequence</span></span></p></li>
+<li><p><span data-ttu-id="a5834-136">工作组或域</span><span class="sxs-lookup"><span data-stu-id="a5834-136">Workgroup or domain</span></span></p></li>
+<li><p><span data-ttu-id="a5834-137">安全性</span><span class="sxs-lookup"><span data-stu-id="a5834-137">Security</span></span></p></li>
+<li><p><span data-ttu-id="a5834-138">监控和审核</span><span class="sxs-lookup"><span data-stu-id="a5834-138">Monitoring and auditing</span></span></p></li>
+<li><p><span data-ttu-id="a5834-139">硬件注意事项</span><span class="sxs-lookup"><span data-stu-id="a5834-139">Hardware considerations</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="10026-140"><a href="lync-server-2013-best-practices-for-call-admission-control.md">Lync Server 2013 中呼叫允许控制的最佳做法</a></span><span class="sxs-lookup"><span data-stu-id="10026-140"><a href="lync-server-2013-best-practices-for-call-admission-control.md">Best practices for call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5834-140"><a href="lync-server-2013-best-practices-for-call-admission-control.md">Lync Server 2013 中的呼叫允许控制最佳实践</a></span><span class="sxs-lookup"><span data-stu-id="a5834-140"><a href="lync-server-2013-best-practices-for-call-admission-control.md">Best practices for call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="10026-141">部署过程</span><span class="sxs-lookup"><span data-stu-id="10026-141">Deployment process</span></span></p></td>
+<td><p><span data-ttu-id="a5834-141">部署过程</span><span class="sxs-lookup"><span data-stu-id="a5834-141">Deployment process</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="10026-142">先决条件</span><span class="sxs-lookup"><span data-stu-id="10026-142">Prerequisites</span></span></p></li>
-<li><p><span data-ttu-id="10026-143">信息要求</span><span class="sxs-lookup"><span data-stu-id="10026-143">Information requirements</span></span></p></li>
-<li><p><span data-ttu-id="10026-144">流程和过程</span><span class="sxs-lookup"><span data-stu-id="10026-144">Process and procedures</span></span></p></li>
+<li><p><span data-ttu-id="a5834-142">先决条件</span><span class="sxs-lookup"><span data-stu-id="a5834-142">Prerequisites</span></span></p></li>
+<li><p><span data-ttu-id="a5834-143">信息要求</span><span class="sxs-lookup"><span data-stu-id="a5834-143">Information requirements</span></span></p></li>
+<li><p><span data-ttu-id="a5834-144">过程和步骤</span><span class="sxs-lookup"><span data-stu-id="a5834-144">Process and procedures</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="10026-145"><a href="lync-server-2013-configure-call-admission-control.md">在 Lync Server 2013 中配置呼叫许可控制</a></span><span class="sxs-lookup"><span data-stu-id="10026-145"><a href="lync-server-2013-configure-call-admission-control.md">Configure call admission control in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a5834-145"><a href="lync-server-2013-configure-call-admission-control.md">在 Lync Server 2013 中配置呼叫允许控制</a></span><span class="sxs-lookup"><span data-stu-id="a5834-145"><a href="lync-server-2013-configure-call-admission-control.md">Configure call admission control in Lync Server 2013</a></span></span></p></td>
 </tr>
 </tbody>
 </table>

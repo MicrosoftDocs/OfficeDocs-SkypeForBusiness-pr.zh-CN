@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 摘要：浏览这些链接，了解如何实施 Skype for Business Server 2015。
-ms.openlocfilehash: 7a5753e481e1014ea8ff95aafc5e3a1f632bafa1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 05d9da9fb1edb9b9063b9d2649b34a45003dee7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824096"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045364"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
-Skype for Business 是一种通信与协作平台，它整合了源自 Skype 的客户端体验以及企业级安全性、合规性和控制力。 Skype for Business 提供的功能包括状态、IM、语音和视频呼叫以及联机会议。 
+Skype for Business 是一种通信和协作平台，它将 Skype 与企业级安全性、合规性和控制结合在一起提供的客户体验。 Skype for Business 提供功能，包括状态、即时消息、语音和视频呼叫和联机会议。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -110,7 +110,7 @@ Skype for Business 是一种通信与协作平台，它整合了源自 Skype 的
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>技术图示</h3>
+                        <h3>技术图表</h3>
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@ Skype for Business 是一种通信与协作平台，它整合了源自 Skype 的
         </a>
     </li>
     <li>
-        <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-skype-for-business-server">
+        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -146,8 +146,8 @@ Skype for Business 是一种通信与协作平台，它整合了源自 Skype 的
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>开始前</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">对你的环境的要求</a></p>
+                        <h3>准备工作</h3>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">对环境的要求</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">网络要求</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">客户端和设备</a></p>
                     </div>
@@ -173,7 +173,7 @@ Skype for Business 是一种通信与协作平台，它整合了源自 Skype 的
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>企业语音</h3>
+                        <h3>Enterprise Voice</h3>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">计划</a></p>
                         <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">部署</a></p>
                     </div>
@@ -187,8 +187,8 @@ Skype for Business 是一种通信与协作平台，它整合了源自 Skype 的
                 <div class="card">
                     <div class="cardText">
                         <h3>Skype 会议直播</h3>
-                        <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">它是什么？</a></p>
-                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">配置 Skype 会议直播本地部署</a>
+                        <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">这是什么？</a></p>
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">为 Skype 会议直播配置本地部署</a>
                     </div>
                 </div>
             </div>
@@ -204,7 +204,7 @@ Skype for Business 是一种通信与协作平台，它整合了源自 Skype 的
                                        </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </li>
     <li>
         <div class="cardSize">
@@ -221,4 +221,3 @@ Skype for Business 是一种通信与协作平台，它整合了源自 Skype 的
         </div>
     </li>
 </ul>
-

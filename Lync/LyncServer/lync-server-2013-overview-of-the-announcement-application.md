@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：公告应用程序概述
+title: Lync Server 2013：通知应用程序概述
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4c1b9210fcb0734b305a30d27c77b4e81257909
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83e711eb408d0819c818157f85fbb0ff81930da7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755456"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="a4f78-102">Lync Server 2013 中的公告应用程序概述</span><span class="sxs-lookup"><span data-stu-id="a4f78-102">Overview of the Announcement application in Lync Server 2013</span></span>
+# <a name="overview-of-the-announcement-application-in-lync-server-2013"></a><span data-ttu-id="ff76c-102">Lync Server 2013 中的通知应用程序概述</span><span class="sxs-lookup"><span data-stu-id="ff76c-102">Overview of the Announcement application in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755456"
 
 <span> </span>
 
-<span data-ttu-id="a4f78-103">_**主题上次修改时间：** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="a4f78-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="ff76c-103">_**上次修改的主题：** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="ff76c-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
-<span data-ttu-id="a4f78-104">部署公告应用程序时，需要配置一个未分配的数字表，用于确定当某人拨打未分配的号码时要执行的操作。</span><span class="sxs-lookup"><span data-stu-id="a4f78-104">When you deploy the Announcement application, you need to configure an unassigned number table that determines the action to be taken when someone dials an unassigned number.</span></span> <span data-ttu-id="a4f78-105">"未分配的号码" 表包含对组织有效的电话号码范围，并指定哪个公告应用程序处理每个范围。</span><span class="sxs-lookup"><span data-stu-id="a4f78-105">The unassigned number table contains ranges of phone numbers that are valid for the organization and specifies which Announcement application handles each range.</span></span> <span data-ttu-id="a4f78-106">当呼叫者拨打对您的组织有效但未分配给任何人的电话号码时，Lync Server 将在 "未分配的号码" 路由表中查找该号码，标识该号码所属的范围，并将呼叫路由到公告为该范围指定的应用程序。</span><span class="sxs-lookup"><span data-stu-id="a4f78-106">When a caller dials a telephone number that is valid for your organization but is not assigned to anyone, Lync Server looks up the number in the unassigned number routing table, identifies which range the number falls in, and routes the call to the Announcement application specified for that range.</span></span> <span data-ttu-id="a4f78-107">"通知" 应用程序将应答呼叫并播放音频消息（如果将其配置为执行此操作），然后断开通话或将其转移到预先确定的目标，如 "操作员"。</span><span class="sxs-lookup"><span data-stu-id="a4f78-107">The Announcement application answers the call and plays an audio message (if you configured it to do so) and then either disconnects the call or transfers it to a predetermined destination, such as to an operator.</span></span> <span data-ttu-id="a4f78-108">你可以使用 Lync Server Management Shell cmdlet 配置多条音频消息或传输目标。</span><span class="sxs-lookup"><span data-stu-id="a4f78-108">You can use Lync Server Management Shell cmdlets to configure multiple audio messages or to transfer destinations.</span></span>
+<span data-ttu-id="ff76c-104">当您部署通知应用程序时，您需要配置一个未分配号码表，该表格决定了当有人拨打未分配号码时要采取的操作。</span><span class="sxs-lookup"><span data-stu-id="ff76c-104">When you deploy the Announcement application, you need to configure an unassigned number table that determines the action to be taken when someone dials an unassigned number.</span></span> <span data-ttu-id="ff76c-105">未分配号码表包含对组织有效的电话号码的范围，并指定哪个通知应用程序处理每个范围。</span><span class="sxs-lookup"><span data-stu-id="ff76c-105">The unassigned number table contains ranges of phone numbers that are valid for the organization and specifies which Announcement application handles each range.</span></span> <span data-ttu-id="ff76c-106">当呼叫者拨打对您的组织有效但未分配给任何人的电话号码时，Lync Server 将在未分配号码路由表中查找该号码，确定该号码属于哪个范围，并将呼叫路由到通知为该范围指定的应用程序。</span><span class="sxs-lookup"><span data-stu-id="ff76c-106">When a caller dials a telephone number that is valid for your organization but is not assigned to anyone, Lync Server looks up the number in the unassigned number routing table, identifies which range the number falls in, and routes the call to the Announcement application specified for that range.</span></span> <span data-ttu-id="ff76c-107">通知应用程序应答呼叫并播放音频消息（如果已将其配置为执行此操作），然后断开呼叫连接或将其传输到预先确定的目标，例如操作员。</span><span class="sxs-lookup"><span data-stu-id="ff76c-107">The Announcement application answers the call and plays an audio message (if you configured it to do so) and then either disconnects the call or transfers it to a predetermined destination, such as to an operator.</span></span> <span data-ttu-id="ff76c-108">您可以使用 Lync Server 命令行管理程序 cmdlet 来配置多个音频消息或传输目标。</span><span class="sxs-lookup"><span data-stu-id="ff76c-108">You can use Lync Server Management Shell cmdlets to configure multiple audio messages or to transfer destinations.</span></span>
 
-<span data-ttu-id="a4f78-p102">配置未分配号码表的方式取决于要使用该表的方式。如果您有不再使用的特定号码并且要播放为每个号码定制的消息，则可以输入未分配号码表中的那些特定号码。例如，如果已更改客户服务台的号码，则可以输入旧的客户服务号码并将其与提供新号码的通知相关联。如果要向呼叫未分配号码的任何人（例如已离开组织的员工）播放常规消息，则可以输入组织所有可用分机的范围。每当呼叫者拨打当前未分配的号码时，系统都会调用未分配号码表。</span><span class="sxs-lookup"><span data-stu-id="a4f78-p102">How you configure the unassigned number table depends on how you want to use it. If you have specific numbers that are no longer in use and you want to play messages that are tailored for each number, you can enter those specific numbers in the unassigned number table. For example, if you changed the number for your customer service desk, you can enter the old customer service number and associate it with an announcement that gives the new number. If you want to play a general message to anyone who calls a number that is not assigned, such as for employees who have left your organization, you can enter ranges for all the valid extensions in your organization. The unassigned number table is invoked whenever the caller dials a number that is not currently assigned.</span></span>
+<span data-ttu-id="ff76c-p102">配置未分配号码表的方式取决于要使用该表的方式。如果您有不再使用的特定号码并且要播放为每个号码定制的消息，则可以输入未分配号码表中的那些特定号码。例如，如果已更改客户服务台的号码，则可以输入旧的客户服务号码并将其与提供新号码的通知相关联。如果要向呼叫未分配号码的任何人（例如已离开组织的员工）播放常规消息，则可以输入组织所有可用分机的范围。每当呼叫者拨打当前未分配的号码时，系统都会调用未分配号码表。</span><span class="sxs-lookup"><span data-stu-id="ff76c-p102">How you configure the unassigned number table depends on how you want to use it. If you have specific numbers that are no longer in use and you want to play messages that are tailored for each number, you can enter those specific numbers in the unassigned number table. For example, if you changed the number for your customer service desk, you can enter the old customer service number and associate it with an announcement that gives the new number. If you want to play a general message to anyone who calls a number that is not assigned, such as for employees who have left your organization, you can enter ranges for all the valid extensions in your organization. The unassigned number table is invoked whenever the caller dials a number that is not currently assigned.</span></span>
 
-<span data-ttu-id="a4f78-114">在 Lync Server 2013 中，通知应用程序将随响应组应用程序一起自动安装。</span><span class="sxs-lookup"><span data-stu-id="a4f78-114">In Lync Server 2013, the Announcement application is automatically installed with the Response Group application.</span></span> <span data-ttu-id="a4f78-115">"通知" 和 "响应" 组应用程序是企业语音部署的标准组件：当部署企业语音时，将自动部署这两个应用程序。</span><span class="sxs-lookup"><span data-stu-id="a4f78-115">The Announcement and Response Group applications are standard components of an Enterprise Voice deployment: When you deploy Enterprise Voice, both of these applications are automatically deployed.</span></span>
+<span data-ttu-id="ff76c-114">在 Lync Server 2013 中，通知应用程序将随响应组应用程序一起自动安装。</span><span class="sxs-lookup"><span data-stu-id="ff76c-114">In Lync Server 2013, the Announcement application is automatically installed with the Response Group application.</span></span> <span data-ttu-id="ff76c-115">通知和响应组应用程序是企业语音部署的标准组件：部署企业语音时，将自动部署这两个应用程序。</span><span class="sxs-lookup"><span data-stu-id="ff76c-115">The Announcement and Response Group applications are standard components of an Enterprise Voice deployment: When you deploy Enterprise Voice, both of these applications are automatically deployed.</span></span>
 
 </div>
 

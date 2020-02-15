@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：运行最佳做法分析器的要求
+title: Lync Server 2013：运行最佳实践分析工具的要求
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02b2f6c6f47a59663a414635eebe1d2e4ec851
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723802"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="913de-102">在 Lync Server 2013 中运行最佳做法分析器的要求</span><span class="sxs-lookup"><span data-stu-id="913de-102">Requirements for running Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="d42c4-102">在 Lync Server 2013 中运行最佳实践分析工具的要求</span><span class="sxs-lookup"><span data-stu-id="d42c4-102">Requirements for running Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723802"
 
 <span> </span>
 
-<span data-ttu-id="913de-103">_**主题上次修改时间：** 2012-09-19_</span><span class="sxs-lookup"><span data-stu-id="913de-103">_**Topic Last Modified:** 2012-09-19_</span></span>
+<span data-ttu-id="d42c4-103">_**上次修改的主题：** 2012-09-19_</span><span class="sxs-lookup"><span data-stu-id="d42c4-103">_**Topic Last Modified:** 2012-09-19_</span></span>
 
-<span data-ttu-id="913de-104">你可以使用 Lync Server 2013、最佳做法分析程序扫描 Lync Server 2013 环境。</span><span class="sxs-lookup"><span data-stu-id="913de-104">You can use Lync Server 2013, Best Practices Analyzer to scan your Lync Server 2013 environment.</span></span> <span data-ttu-id="913de-105">您不能使用它来扫描以前的环境，但可以使用该工具的以前版本来扫描这些环境。</span><span class="sxs-lookup"><span data-stu-id="913de-105">You cannot use it to scan previous environments, but you can use the previous versions of the tool to scan those environments.</span></span> <span data-ttu-id="913de-106">有关下载和使用适用于最佳做法分析器的 Lync Server 2010 和 Office 通信服务器 2007 R2 版本的详细信息，请参阅 "Lync Server 2010、最佳做法[http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358)分析器" at 和 "适用于 Office 通信服务器2007和 Office 通信服务器的最佳做法[http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)分析程序" 2007 r2 "。</span><span class="sxs-lookup"><span data-stu-id="913de-106">For details about downloading and using the Lync Server 2010 and Office Communications Server 2007 R2 versions of Best Practices Analyzer, see "Lync Server 2010, Best Practices Analyzer" at [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) and "Best Practices Analyzer for Office Communications Server 2007 and Office Communications Server 2007 R2" at [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651).</span></span>
+<span data-ttu-id="d42c4-104">您可以使用 Lync Server 2013 和最佳实践分析工具扫描 Lync Server 2013 环境。</span><span class="sxs-lookup"><span data-stu-id="d42c4-104">You can use Lync Server 2013, Best Practices Analyzer to scan your Lync Server 2013 environment.</span></span> <span data-ttu-id="d42c4-105">您无法使用它扫描以前的环境，但可以使用该工具以前的版本扫描这些环境。</span><span class="sxs-lookup"><span data-stu-id="d42c4-105">You cannot use it to scan previous environments, but you can use the previous versions of the tool to scan those environments.</span></span> <span data-ttu-id="d42c4-106">有关下载和使用适用于最佳实践分析工具的 Lync Server 2010 和 Office 通信服务器 2007 R2 版本的详细信息，请参阅中的 "Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) 、最佳实践分析工具" 和 "Office 通信服务器2007和 Office 通信服务器 2007 R2 [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)的最佳实践分析程序"。</span><span class="sxs-lookup"><span data-stu-id="d42c4-106">For details about downloading and using the Lync Server 2010 and Office Communications Server 2007 R2 versions of Best Practices Analyzer, see "Lync Server 2010, Best Practices Analyzer" at [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) and "Best Practices Analyzer for Office Communications Server 2007 and Office Communications Server 2007 R2" at [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651).</span></span>
 
-<span data-ttu-id="913de-107">开始扫描之前，应确保 Lync Server 2013 环境中的所有组件均已运行且处于联机状态。</span><span class="sxs-lookup"><span data-stu-id="913de-107">Prior to starting your scan, you should ensure that all components in your Lync Server 2013 environment are running and online.</span></span>
+<span data-ttu-id="d42c4-107">在开始扫描之前，应确保 Lync Server 2013 环境中的所有组件都在运行且处于联机状态。</span><span class="sxs-lookup"><span data-stu-id="d42c4-107">Prior to starting your scan, you should ensure that all components in your Lync Server 2013 environment are running and online.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="913de-108">根据你的边缘服务器的配置和任何相关的外围网络设置（包括防火墙设置和权限），最佳做法分析器可能无法访问和扫描你的边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="913de-108">Depending on the configuration of your Edge Servers and any related perimeter network settings, including firewall settings and permissions, Best Practices Analyzer might not be able to access and scan your Edge Servers.</span></span> <span data-ttu-id="913de-109">如果你在扫描中包含 Edge 服务器，并且报表指示访问 Edge 服务器时出现问题，你可能需要从扫描选项中删除边缘服务器并再次运行扫描，以便报表中不显示问题。</span><span class="sxs-lookup"><span data-stu-id="913de-109">If you include Edge Servers in your scan and the reports indicate that there is an issue with accessing Edge Servers, you might want to remove Edge Servers from the scan options and run the scan again so that the issues do not show up in the report.</span></span>
+> <span data-ttu-id="d42c4-p102">最佳做法分析器可能无法访问和扫描您的边缘服务器，具体取决于您的边缘服务器的配置和任何相关外围网络设置（包括防火墙设置和权限）。如果将边缘服务器包含在扫描中且报告指示访问边缘服务器时出现问题，则您可能希望从扫描选项中删除边缘服务器并重新运行扫描，以便报告中不出现问题。</span><span class="sxs-lookup"><span data-stu-id="d42c4-p102">Depending on the configuration of your Edge Servers and any related perimeter network settings, including firewall settings and permissions, Best Practices Analyzer might not be able to access and scan your Edge Servers. If you include Edge Servers in your scan and the reports indicate that there is an issue with accessing Edge Servers, you might want to remove Edge Servers from the scan options and run the scan again so that the issues do not show up in the report.</span></span>
 
 
 

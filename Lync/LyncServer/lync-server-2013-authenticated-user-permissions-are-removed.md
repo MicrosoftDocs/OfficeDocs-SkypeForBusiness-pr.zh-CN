@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：删除经过身份验证的用户的权限
+title: Lync Server 2013：删除经过身份验证的用户权限
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63b9761f96156fdc4dea124d4438cdb8685add26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd54da7201889e9ca2ab8d2c40a84ad082fa1686
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722597"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044554"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a><span data-ttu-id="f6846-102">在 Lync Server 2013 中删除经过身份验证的用户的权限</span><span class="sxs-lookup"><span data-stu-id="f6846-102">Authenticated user permissions are removed in Lync Server 2013</span></span>
+# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a><span data-ttu-id="e1383-102">在 Lync Server 2013 中删除经过身份验证的用户权限</span><span class="sxs-lookup"><span data-stu-id="e1383-102">Authenticated user permissions are removed in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "41722597"
 
 <span> </span>
 
-<span data-ttu-id="f6846-103">_**主题上次修改时间：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="f6846-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="e1383-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="e1383-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="f6846-104">在锁定的活动目录环境中，已验证的用户访问控制条目（Ace）将从默认 Active Directory 容器（包括用户、配置或系统）以及用户和计算机的组织单位（Ou）中删除。存储对象。</span><span class="sxs-lookup"><span data-stu-id="f6846-104">In a locked-down Active Directory environment, authenticated user access control entries (ACEs) are removed from the default Active Directory containers, including the Users, Configuration or System, and organizational units (OUs) where User and Computer objects are stored.</span></span> <span data-ttu-id="f6846-105">删除经过身份验证的用户 Ace 可防止对 Active Directory 信息的读取访问权限。</span><span class="sxs-lookup"><span data-stu-id="f6846-105">Removing authenticated user ACEs prevents read access to Active Directory information.</span></span> <span data-ttu-id="f6846-106">但是，删除 Ace 会为 Lync Server 2013 创建问题，因为它依赖于这些容器的读取权限来允许用户运行域准备。</span><span class="sxs-lookup"><span data-stu-id="f6846-106">However, removing the ACEs creates issues for Lync Server 2013 because it depends on read permissions to these containers to allow users to run domain preparation.</span></span>
+<span data-ttu-id="e1383-104">在锁定的 Active Directory 环境中，从默认的 Active Directory 容器中删除经过身份验证的用户访问控制项（Ace），包括用户、配置或系统以及用户和计算机的组织单位（Ou）。存储对象。</span><span class="sxs-lookup"><span data-stu-id="e1383-104">In a locked-down Active Directory environment, authenticated user access control entries (ACEs) are removed from the default Active Directory containers, including the Users, Configuration or System, and organizational units (OUs) where User and Computer objects are stored.</span></span> <span data-ttu-id="e1383-105">删除经过身份验证的用户 Ace 可防止对 Active Directory 信息进行读取访问。</span><span class="sxs-lookup"><span data-stu-id="e1383-105">Removing authenticated user ACEs prevents read access to Active Directory information.</span></span> <span data-ttu-id="e1383-106">但是，删除 Ace 会为 Lync Server 2013 创建问题，因为它依赖于这些容器的读取权限以允许用户运行域准备。</span><span class="sxs-lookup"><span data-stu-id="e1383-106">However, removing the ACEs creates issues for Lync Server 2013 because it depends on read permissions to these containers to allow users to run domain preparation.</span></span>
 
-<span data-ttu-id="f6846-107">在这种情况下，域管理员组中的成员身份是运行域准备、服务器激活和池创建所必需的，不再授予对默认容器中存储的 Active Directory 信息的读取访问权限。</span><span class="sxs-lookup"><span data-stu-id="f6846-107">In this situation, membership in the Domain Admins group, which is required to run domain preparation, server activation, and pool creation, no longer grants read access to Active Directory information stored in the default containers.</span></span> <span data-ttu-id="f6846-108">必须在林根域中的各种容器上手动授予读取访问权限，以检查必备的林准备过程是否已完成。</span><span class="sxs-lookup"><span data-stu-id="f6846-108">You must manually grant read-access permissions on various containers in the forest root domain to check that the prerequisite forest preparation procedure is complete.</span></span>
+<span data-ttu-id="e1383-107">在这种情况下，域管理员组中的成员身份（若要运行域准备、服务器激活和池创建）不再授予对存储在默认容器中的 Active Directory 信息的读取权限。</span><span class="sxs-lookup"><span data-stu-id="e1383-107">In this situation, membership in the Domain Admins group, which is required to run domain preparation, server activation, and pool creation, no longer grants read access to Active Directory information stored in the default containers.</span></span> <span data-ttu-id="e1383-108">您必须手动授予对林根域中各个容器的读取访问权限，以检查先决条件林准备过程是否已完成。</span><span class="sxs-lookup"><span data-stu-id="e1383-108">You must manually grant read-access permissions on various containers in the forest root domain to check that the prerequisite forest preparation procedure is complete.</span></span>
 
-<span data-ttu-id="f6846-109">若要使用户能够在任何非林根域上运行域准备、服务器激活或池创建，您可以选择以下选项：</span><span class="sxs-lookup"><span data-stu-id="f6846-109">To enable a user to run domain preparation, server activation, or pool creation on any non-forest root domain, you have the following options:</span></span>
+<span data-ttu-id="e1383-109">若要使用户能够在任何非林根域上运行域准备、服务器激活或池创建，您可以选择以下选项：</span><span class="sxs-lookup"><span data-stu-id="e1383-109">To enable a user to run domain preparation, server activation, or pool creation on any non-forest root domain, you have the following options:</span></span>
 
-  - <span data-ttu-id="f6846-110">使用企业管理员组成员的帐户运行域准备。</span><span class="sxs-lookup"><span data-stu-id="f6846-110">Use an account that is a member of the Enterprise Admins group to run domain preparation.</span></span>
+  - <span data-ttu-id="e1383-110">使用作为 Enterprise Admins 组成员的帐户来运行域准备。</span><span class="sxs-lookup"><span data-stu-id="e1383-110">Use an account that is a member of the Enterprise Admins group to run domain preparation.</span></span>
 
-  - <span data-ttu-id="f6846-111">使用属于域管理员组成员的帐户，并授予此帐户对林根域中的以下每个容器的读取访问权限：</span><span class="sxs-lookup"><span data-stu-id="f6846-111">Use an account that is a member of the Domain Admins group and grant this account read-access permissions on each of the following containers in the forest root domain:</span></span>
+  - <span data-ttu-id="e1383-111">使用属于 Domain Admins 组成员的帐户，并为此帐户授予对林根域中以下每个容器的读取访问权限：</span><span class="sxs-lookup"><span data-stu-id="e1383-111">Use an account that is a member of the Domain Admins group and grant this account read-access permissions on each of the following containers in the forest root domain:</span></span>
     
-      - <span data-ttu-id="f6846-112">域</span><span class="sxs-lookup"><span data-stu-id="f6846-112">Domain</span></span>
+      - <span data-ttu-id="e1383-112">域</span><span class="sxs-lookup"><span data-stu-id="e1383-112">Domain</span></span>
     
-      - <span data-ttu-id="f6846-113">配置或系统</span><span class="sxs-lookup"><span data-stu-id="f6846-113">Configuration or System</span></span>
+      - <span data-ttu-id="e1383-113">配置或系统</span><span class="sxs-lookup"><span data-stu-id="e1383-113">Configuration or System</span></span>
 
-<span data-ttu-id="f6846-114">如果您不想使用企业管理员组成员的帐户运行域准备或其他设置任务，请明确授予要对林根中的相关容器使用 "读取" 权限的帐户。</span><span class="sxs-lookup"><span data-stu-id="f6846-114">If you do not want to use an account that is a member of the Enterprise Admins group to run domain preparation or other Setup tasks, explicitly grant the account you want to use read access on the relevant containers in the forest root.</span></span>
+<span data-ttu-id="e1383-114">如果不想使用作为 Enterprise Admins 组成员的帐户来运行域准备或其他安装任务，请明确授予要在林根的相关容器上使用 "读取" 访问权限的帐户。</span><span class="sxs-lookup"><span data-stu-id="e1383-114">If you do not want to use an account that is a member of the Enterprise Admins group to run domain preparation or other Setup tasks, explicitly grant the account you want to use read access on the relevant containers in the forest root.</span></span>
 
 <div>
 
-## <a name="to-give-users-read-access-permissions-on-containers-in-the-forest-root-domain"></a><span data-ttu-id="f6846-115">向用户授予对林根域中容器的读取访问权限</span><span class="sxs-lookup"><span data-stu-id="f6846-115">To give users read-access permissions on containers in the forest root domain</span></span>
+## <a name="to-give-users-read-access-permissions-on-containers-in-the-forest-root-domain"></a><span data-ttu-id="e1383-115">向用户授予对林根域中容器的读取访问权限</span><span class="sxs-lookup"><span data-stu-id="e1383-115">To give users read-access permissions on containers in the forest root domain</span></span>
 
-1.  <span data-ttu-id="f6846-116">使用作为林根域的域管理员组成员的帐户登录加入林根域的计算机。</span><span class="sxs-lookup"><span data-stu-id="f6846-116">Log on to the computer joined to the forest root domain with an account that is a member of the Domain Admins group for the forest root domain.</span></span>
+1.  <span data-ttu-id="e1383-116">使用作为林根域的 Domain Admins 组成员的帐户登录加入到林根域的计算机。</span><span class="sxs-lookup"><span data-stu-id="e1383-116">Log on to the computer joined to the forest root domain with an account that is a member of the Domain Admins group for the forest root domain.</span></span>
 
-2.  <span data-ttu-id="f6846-117">为林根域运行 adsiedit。</span><span class="sxs-lookup"><span data-stu-id="f6846-117">Run adsiedit.msc for the forest root domain.</span></span>
+2.  <span data-ttu-id="e1383-117">为林根域运行 adsiedit。</span><span class="sxs-lookup"><span data-stu-id="e1383-117">Run adsiedit.msc for the forest root domain.</span></span>
     
-    <span data-ttu-id="f6846-118">如果从域、配置或系统容器中删除了经过身份验证的用户 Ace，则必须向容器授予只读权限，如以下步骤中所述。</span><span class="sxs-lookup"><span data-stu-id="f6846-118">If authenticated user ACEs were removed from the Domain, Configuration, or System container, you must grant read-only permissions to the container, as described in the following steps.</span></span>
+    <span data-ttu-id="e1383-118">如果从域、配置或系统容器中删除了经过身份验证的用户 Ace，则必须向容器授予只读权限，如以下步骤所述。</span><span class="sxs-lookup"><span data-stu-id="e1383-118">If authenticated user ACEs were removed from the Domain, Configuration, or System container, you must grant read-only permissions to the container, as described in the following steps.</span></span>
 
-3.  <span data-ttu-id="f6846-119">右键单击容器，然后单击 "**属性**"。</span><span class="sxs-lookup"><span data-stu-id="f6846-119">Right-click the container, and then click **Properties**.</span></span>
+3.  <span data-ttu-id="e1383-119">右键单击容器，然后单击 "**属性**"。</span><span class="sxs-lookup"><span data-stu-id="e1383-119">Right-click the container, and then click **Properties**.</span></span>
 
-4.  <span data-ttu-id="f6846-120">单击 "**安全**" 选项卡。</span><span class="sxs-lookup"><span data-stu-id="f6846-120">Click the **Security** tab.</span></span>
+4.  <span data-ttu-id="e1383-120">单击“安全性”\*\*\*\* 选项卡。</span><span class="sxs-lookup"><span data-stu-id="e1383-120">Click the **Security** tab.</span></span>
 
-5.  <span data-ttu-id="f6846-121">单击“**高级**”。</span><span class="sxs-lookup"><span data-stu-id="f6846-121">Click **Advanced**.</span></span>
+5.  <span data-ttu-id="e1383-121">单击“**高级**”。</span><span class="sxs-lookup"><span data-stu-id="e1383-121">Click **Advanced**.</span></span>
 
-6.  <span data-ttu-id="f6846-122">在 "**权限**" 选项卡上，单击 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="f6846-122">On the **Permissions** tab, click **Add**.</span></span>
+6.  <span data-ttu-id="e1383-122">在“**权限**”选项卡上，单击“**添加**”。</span><span class="sxs-lookup"><span data-stu-id="e1383-122">On the **Permissions** tab, click **Add**.</span></span>
 
-7.  <span data-ttu-id="f6846-123">使用以下格式键入接收权限的用户或组的名称： `domain\account name`，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="f6846-123">Type the name of the user or group receiving permissions by using the following format: `domain\account name`, and then click **OK**.</span></span>
+7.  <span data-ttu-id="e1383-123">使用以下格式键入接收权限的用户或组的名称： `domain\account name`，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="e1383-123">Type the name of the user or group receiving permissions by using the following format: `domain\account name`, and then click **OK**.</span></span>
 
-8.  <span data-ttu-id="f6846-124">在 "**对象**" 选项卡上的 "**应用**于" 中，单击 "**仅此对象**"。</span><span class="sxs-lookup"><span data-stu-id="f6846-124">On the **Objects** tab, in **Applies To**, click **This Object Only**.</span></span>
+8.  <span data-ttu-id="e1383-124">在 "**对象**" 选项卡上的 "**应用**于" 中，单击 "**仅此对象**"。</span><span class="sxs-lookup"><span data-stu-id="e1383-124">On the **Objects** tab, in **Applies To**, click **This Object Only**.</span></span>
 
-9.  <span data-ttu-id="f6846-125">在 "**权限**" 中，通过单击 "**允许**" 列： "**列表内容**"、"**读取所有属性**" 和 "**读取权限**" 来选择以下允许 ace。</span><span class="sxs-lookup"><span data-stu-id="f6846-125">In **Permissions**, select the following Allow ACEs by clicking the **Allow** column: **List Content**, **Read All Properties**, and **Read Permissions**.</span></span>
+9.  <span data-ttu-id="e1383-125">在 "**权限**" 中，通过单击 "**允许**列：**列表内容**"、"**读取所有属性**" 和 "**读取权限**"，选择以下允许 ace。</span><span class="sxs-lookup"><span data-stu-id="e1383-125">In **Permissions**, select the following Allow ACEs by clicking the **Allow** column: **List Content**, **Read All Properties**, and **Read Permissions**.</span></span>
 
-10. <span data-ttu-id="f6846-126">单击 **"确定"** 两次。</span><span class="sxs-lookup"><span data-stu-id="f6846-126">Click **OK** twice.</span></span>
+10. <span data-ttu-id="e1383-126">单击“**确定**”两次。</span><span class="sxs-lookup"><span data-stu-id="e1383-126">Click **OK** twice.</span></span>
 
-11. <span data-ttu-id="f6846-127">对步骤2中列出的任何相关容器重复这些步骤。</span><span class="sxs-lookup"><span data-stu-id="f6846-127">Repeat these steps for any of the relevant containers listed in Step 2.</span></span>
+11. <span data-ttu-id="e1383-127">对步骤2中列出的任何相关容器重复这些步骤。</span><span class="sxs-lookup"><span data-stu-id="e1383-127">Repeat these steps for any of the relevant containers listed in Step 2.</span></span>
 
 </div>
 

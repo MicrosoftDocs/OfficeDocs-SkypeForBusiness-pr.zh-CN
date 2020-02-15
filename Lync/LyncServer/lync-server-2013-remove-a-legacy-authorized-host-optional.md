@@ -12,20 +12,20 @@ ms:contentKeyID: 48183252
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d10b9c9bf31328f5008a8be84fe3c10c901b668
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 277e977ae17d79c5c961586d40c9a30e4332b45a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724362"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048713"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a><span data-ttu-id="7dac3-102">在 Lync Server 2013 中删除旧版授权主机（可选）</span><span class="sxs-lookup"><span data-stu-id="7dac3-102">Remove a legacy authorized host in Lync Server 2013 (optional)</span></span>
+# <a name="remove-a-legacy-authorized-host-in-lync-server-2013-optional"></a><span data-ttu-id="217fa-102">在 Lync Server 2013 中删除旧版授权主机（可选）</span><span class="sxs-lookup"><span data-stu-id="217fa-102">Remove a legacy authorized host in Lync Server 2013 (optional)</span></span>
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "41724362"
 
 <span> </span>
 
-<span data-ttu-id="7dac3-103">_**主题上次修改时间：** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="7dac3-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="217fa-103">_**上次修改的主题：** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="217fa-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-<span data-ttu-id="7dac3-104">将远程呼叫控制迁移到 Lync Server 部署时，必须在旧版部署中删除适用于任何 SIP/CSTA 网关的旧版授权主机条目（在 Lync Server 中称为 "*受信任的应用程序条目*"）。</span><span class="sxs-lookup"><span data-stu-id="7dac3-104">When you migrate remote call control to a Lync Server deployment, you must remove legacy authorized host entries (known as *trusted application entries* in Lync Server) for any SIP/CSTA gateways in your legacy deployment.</span></span> <span data-ttu-id="7dac3-105">必须使用管理工具分别从这些部署中删除授权的主机条目。</span><span class="sxs-lookup"><span data-stu-id="7dac3-105">You must use the administrative tools to remove authorized host entries from those deployments, respectively.</span></span>
+<span data-ttu-id="217fa-104">将远程呼叫控制迁移到 Lync Server 部署时，必须在旧版部署中删除任何 SIP/CSTA 网关的旧版授权主机条目（在 Lync Server 中称为 "*受信任的应用程序条目*"）。</span><span class="sxs-lookup"><span data-stu-id="217fa-104">When you migrate remote call control to a Lync Server deployment, you must remove legacy authorized host entries (known as *trusted application entries* in Lync Server) for any SIP/CSTA gateways in your legacy deployment.</span></span> <span data-ttu-id="217fa-105">您必须使用管理工具来分别删除这些部署中的授权主机条目。</span><span class="sxs-lookup"><span data-stu-id="217fa-105">You must use the administrative tools to remove authorized host entries from those deployments, respectively.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="7dac3-106">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7dac3-106">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="217fa-106">另请参阅</span><span class="sxs-lookup"><span data-stu-id="217fa-106">See Also</span></span>
 
 
-[<span data-ttu-id="7dac3-107">在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序项</span><span class="sxs-lookup"><span data-stu-id="7dac3-107">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
+[<span data-ttu-id="217fa-107">在 Lync Server 2013 中为远程呼叫控制配置受信任的应用程序条目</span><span class="sxs-lookup"><span data-stu-id="217fa-107">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
   
 
 </div>

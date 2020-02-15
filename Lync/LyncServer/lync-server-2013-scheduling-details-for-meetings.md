@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：计划的会议详细信息
+title: Lync Server 2013：会议的计划详细信息
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183910
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4a0f85e93588e725e825fee22a8c2e95b74095b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6537309f8c2a787c94897fa9f529c1abf8fd4791
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764950"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scheduling-details-for-meetings-in-lync-server-2013"></a><span data-ttu-id="ab02d-102">Lync Server 2013 中会议的计划详细信息</span><span class="sxs-lookup"><span data-stu-id="ab02d-102">Scheduling details for meetings in Lync Server 2013</span></span>
+# <a name="scheduling-details-for-meetings-in-lync-server-2013"></a><span data-ttu-id="72ac5-102">Lync Server 2013 中会议的日程安排详细信息</span><span class="sxs-lookup"><span data-stu-id="72ac5-102">Scheduling details for meetings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,68 +35,68 @@ ms.locfileid: "41764950"
 
 <span> </span>
 
-<span data-ttu-id="ab02d-103">_**主题上次修改时间：** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="ab02d-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="72ac5-103">_**上次修改的主题：** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="72ac5-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="ab02d-104">检查确保在请求的时间没有安排其他会议后，处理请求的大型会议支持人员将在大型会议池中安排会议。</span><span class="sxs-lookup"><span data-stu-id="ab02d-104">After checking to ensure that no other meeting is scheduled at the requested time, the large meeting support staff that handles the request schedules the meeting on the large-meeting pool.</span></span> <span data-ttu-id="ab02d-105">使用使用 lync server 2013 客户端安装的适用于 lync 的联机会议加载项执行此任务，使用在专用大型会议池中启用 Lync Server 的用户的凭据。</span><span class="sxs-lookup"><span data-stu-id="ab02d-105">Use the Online Meeting Add-in for Lync that is installed with the Lync Server 2013 client to perform this task, using the credentials of a user enabled for Lync Server in the dedicated large-meeting pool.</span></span>
+<span data-ttu-id="72ac5-104">检查确保在请求的时间没有安排其他会议后，处理请求的大型会议支持人员将在大型会议池中安排会议。</span><span class="sxs-lookup"><span data-stu-id="72ac5-104">After checking to ensure that no other meeting is scheduled at the requested time, the large meeting support staff that handles the request schedules the meeting on the large-meeting pool.</span></span> <span data-ttu-id="72ac5-105">使用与 Lync Server 2013 客户端一起安装的 lync 的联机会议外接程序，以使用在专用大型会议池中启用了 Lync Server 的用户的凭据来执行此任务。</span><span class="sxs-lookup"><span data-stu-id="72ac5-105">Use the Online Meeting Add-in for Lync that is installed with the Lync Server 2013 client to perform this task, using the credentials of a user enabled for Lync Server in the dedicated large-meeting pool.</span></span>
 
-<span data-ttu-id="ab02d-106">若要确保最佳用户体验，应使用适用于会议组织者的需求的合适访问级别和会议设置安排大型会议，这点很重要。</span><span class="sxs-lookup"><span data-stu-id="ab02d-106">To ensure the best user experience, it is important to schedule the large meeting with the right access levels and meeting settings that are appropriate to the meeting organizer’s needs.</span></span> <span data-ttu-id="ab02d-107">我们建议在 Lync 会议选项中配置以下计划设置：</span><span class="sxs-lookup"><span data-stu-id="ab02d-107">We recommend the following scheduling settings configured in Lync Meeting options:</span></span>
+<span data-ttu-id="72ac5-106">若要确保最佳用户体验，应使用适用于会议组织者的需求的合适访问级别和会议设置安排大型会议，这点很重要。</span><span class="sxs-lookup"><span data-stu-id="72ac5-106">To ensure the best user experience, it is important to schedule the large meeting with the right access levels and meeting settings that are appropriate to the meeting organizer’s needs.</span></span> <span data-ttu-id="72ac5-107">建议在 Lync 会议选项中配置以下计划设置：</span><span class="sxs-lookup"><span data-stu-id="72ac5-107">We recommend the following scheduling settings configured in Lync Meeting options:</span></span>
 
-  - <span data-ttu-id="ab02d-108">对每个大型会议使用新的会议空间而不重用专用会议空间。</span><span class="sxs-lookup"><span data-stu-id="ab02d-108">Use a new meeting space for each large meeting instead of reusing the dedicated meeting space.</span></span>
+  - <span data-ttu-id="72ac5-108">对每个大型会议使用新的会议空间而不重用专用会议空间。</span><span class="sxs-lookup"><span data-stu-id="72ac5-108">Use a new meeting space for each large meeting instead of reusing the dedicated meeting space.</span></span>
 
-  - <span data-ttu-id="ab02d-109">按以下方式指定会议访问级别：</span><span class="sxs-lookup"><span data-stu-id="ab02d-109">Specify the meeting access level as follows:</span></span>
+  - <span data-ttu-id="72ac5-109">按以下方式指定会议访问级别：</span><span class="sxs-lookup"><span data-stu-id="72ac5-109">Specify the meeting access level as follows:</span></span>
     
-      - <span data-ttu-id="ab02d-110">如果组织外部至少有一个被邀请者，请将会议访问类型设置为 "**任何人" （无限制**）。</span><span class="sxs-lookup"><span data-stu-id="ab02d-110">If at least one invitee is external to the organization, set the meeting access type to **Anyone (no restrictions**.</span></span> <span data-ttu-id="ab02d-111">这样，您在会议过程中便无需管理可能较大的会议厅。</span><span class="sxs-lookup"><span data-stu-id="ab02d-111">This enables you to avoid having to manage a potentially large lobby when the meeting is in progress.</span></span>
+      - <span data-ttu-id="72ac5-p103">如果至少有一个被邀请者在组织外部，则将会议访问类型设置为**任何人（无限制**）。这样，您在会议过程中便无需管理可能较大的会议厅。</span><span class="sxs-lookup"><span data-stu-id="72ac5-p103">If at least one invitee is external to the organization, set the meeting access type to **Anyone (no restrictions**. This enables you to avoid having to manage a potentially large lobby when the meeting is in progress.</span></span>
     
-      - <span data-ttu-id="ab02d-112">如果会议是仅针对内部的会议，则将会议访问类型设置为“我的组织中的任何人”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="ab02d-112">If the meeting is an internal-only meeting, set the meeting access type to **Anyone from my organization**.</span></span>
+      - <span data-ttu-id="72ac5-112">如果会议是仅针对内部的会议，则将会议访问类型设置为**我的组织中的任何人**。</span><span class="sxs-lookup"><span data-stu-id="72ac5-112">If the meeting is an internal-only meeting, set the meeting access type to **Anyone from my organization**.</span></span>
         
         <div>
         
 
         > [!NOTE]  
-        > <span data-ttu-id="ab02d-113">避免将会议访问类型设置为“从我的公司邀请的人员”<STRONG></STRONG>，因为当您使用此设置时，组织者必须将所有用户电子邮件地址添加到被邀请者列表，且您无法邀请通讯组。</span><span class="sxs-lookup"><span data-stu-id="ab02d-113">Avoid setting the meeting access type to <STRONG>People I invite from my company</STRONG> because when you use this setting, organizers must add all user email addresses to the invitee list and you cannot invite a distribution group.</span></span><BR><span data-ttu-id="ab02d-114">避免将会议访问类型设置为“只有我（会议组织者）”<STRONG></STRONG>，因为此设置要求在会议运行时必须将每个会议参与者（包括演示者）置于会议厅中。</span><span class="sxs-lookup"><span data-stu-id="ab02d-114">Avoid setting the meeting access type to <STRONG>Only me, the meeting organizer</STRONG> because this setting requires that every meeting participant, including presenters, must be put in the lobby at meeting run time.</span></span> <span data-ttu-id="ab02d-115">负责主持大型会议的人员随后必须持续监视会议厅名单并允许位于会议厅中的新用户加入会议。</span><span class="sxs-lookup"><span data-stu-id="ab02d-115">The person responsible for running the large meeting must then constantly monitor the lobby roster and admit new users who are in the lobby.</span></span>
+        > <span data-ttu-id="72ac5-113">避免将会议访问类型设置为<STRONG>从我的公司邀请的人员</STRONG>，因为当您使用此设置时，组织者必须将所有用户电子邮件地址添加到被邀请者列表，且您无法邀请通讯组。</span><span class="sxs-lookup"><span data-stu-id="72ac5-113">Avoid setting the meeting access type to <STRONG>People I invite from my company</STRONG> because when you use this setting, organizers must add all user email addresses to the invitee list and you cannot invite a distribution group.</span></span><BR><span data-ttu-id="72ac5-p104">避免将会议访问类型设置为<STRONG>只有我（会议组织者）</STRONG>，因为此设置要求在会议运行时必须将每个会议参与者（包括演示者）置于会议厅中。负责主持大型会议的人员随后必须持续监视会议厅名单并允许位于会议厅中的新用户加入会议。</span><span class="sxs-lookup"><span data-stu-id="72ac5-p104">Avoid setting the meeting access type to <STRONG>Only me, the meeting organizer</STRONG> because this setting requires that every meeting participant, including presenters, must be put in the lobby at meeting run time. The person responsible for running the large meeting must then constantly monitor the lobby roster and admit new users who are in the lobby.</span></span>
 
         
         </div>
 
-  - <span data-ttu-id="ab02d-116">允许用电话拨入的用户选中“呼叫者直接参与”\*\*\*\* 设置自动进入会议。</span><span class="sxs-lookup"><span data-stu-id="ab02d-116">Allow users who dial-in from phones to enter the meeting automatically by checking the **Callers get in directly** setting.</span></span>
+  - <span data-ttu-id="72ac5-116">允许用电话拨入的用户通过选中“呼叫者直接参与”\*\*\*\* 设置自动进入会议。</span><span class="sxs-lookup"><span data-stu-id="72ac5-116">Allow users who dial-in from phones to enter the meeting automatically by checking the **Callers get in directly** setting.</span></span>
 
-  - <span data-ttu-id="ab02d-117">显式邀请以下用户：</span><span class="sxs-lookup"><span data-stu-id="ab02d-117">Explicitly invite the following users:</span></span>
+  - <span data-ttu-id="72ac5-117">显式邀请以下用户：</span><span class="sxs-lookup"><span data-stu-id="72ac5-117">Explicitly invite the following users:</span></span>
     
-      - <span data-ttu-id="ab02d-118">会议组织者和代理人（请求者）</span><span class="sxs-lookup"><span data-stu-id="ab02d-118">Meeting organizer and delegate (requester)</span></span>
+      - <span data-ttu-id="72ac5-118">会议组织者和代理人（请求者）</span><span class="sxs-lookup"><span data-stu-id="72ac5-118">Meeting organizer and delegate (requester)</span></span>
     
-      - <span data-ttu-id="ab02d-119">会议请求者提供的演示者的列表</span><span class="sxs-lookup"><span data-stu-id="ab02d-119">The list of presenters provided by a meeting requester</span></span>
-    
-    <div>
-    
-
-    > [!NOTE]  
-    > <span data-ttu-id="ab02d-120">如果会议访问类型设置为“我选择的人员”<STRONG></STRONG>，则需要将大型会议的每个参与者显式添加为会议的受邀者。</span><span class="sxs-lookup"><span data-stu-id="ab02d-120">If the meeting access type is set to <STRONG>People I choose</STRONG>, you need to explicitly add each participant of a large meeting as an invitee of the meeting.</span></span>
-
-    
-    </div>
-
-  - <span data-ttu-id="ab02d-p105">显式管理演示者，而不用将演示者选项设置为自动升级值之一。确保将以下用户作为演示者添加：</span><span class="sxs-lookup"><span data-stu-id="ab02d-p105">Explicitly manage presenters, instead of setting the presenter option to one of the auto-promote values. Be sure to add the following users as presenters:</span></span>
-    
-      - <span data-ttu-id="ab02d-123">会议组织者和代理人（请求者）</span><span class="sxs-lookup"><span data-stu-id="ab02d-123">Meeting organizer and delegate (requester)</span></span>
-    
-      - <span data-ttu-id="ab02d-124">大型会议请求者提供的演示者的列表</span><span class="sxs-lookup"><span data-stu-id="ab02d-124">The list of presenters provided by large meeting requesters</span></span>
+      - <span data-ttu-id="72ac5-119">会议请求者提供的演示者的列表</span><span class="sxs-lookup"><span data-stu-id="72ac5-119">The list of presenters provided by a meeting requester</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="ab02d-125">通过显式管理演示者，你可以控制演示者的数量，以便你可以将演示者限制为足够小的数字以使其可以拥有有效的大型会议。</span><span class="sxs-lookup"><span data-stu-id="ab02d-125">By explicitly managing presenters, you can control the number of presenters, so that you can limit presenters to a small enough number to make it possible to have an effective large meeting.</span></span> <span data-ttu-id="ab02d-126">如果大多数会议参与者都具有与会者角色，则有助于减少人员意外获得对演示的控制权、删除 PowerPoint 演示、将演示者设为静音/取消静音以及对会议的其他中断的机会。</span><span class="sxs-lookup"><span data-stu-id="ab02d-126">If the majority of meeting participants have the attendee role, it helps reduce the chance of people accidentally taking control of the presentation, deleting a PowerPoint presentation, muting/unmuting presenters, and other disruptions to the meeting.</span></span>
+    > <span data-ttu-id="72ac5-120">如果会议访问类型设置为<STRONG>我选择的人员</STRONG>，则需要将大型会议的每个参与者作为会议的被邀请者显式添加。</span><span class="sxs-lookup"><span data-stu-id="72ac5-120">If the meeting access type is set to <STRONG>People I choose</STRONG>, you need to explicitly add each participant of a large meeting as an invitee of the meeting.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="ab02d-127">选中“将所有与会者设为静音”\*\*\*\* 设置以确保只有演示者能将音频广播到会议中。</span><span class="sxs-lookup"><span data-stu-id="ab02d-127">Check the **Mute all attendees** setting to make sure that only presenters can broadcast audio into the meeting.</span></span>
+  - <span data-ttu-id="72ac5-p105">显式管理演示者，而不用将演示者选项设置为自动升级值之一。确保将以下用户作为演示者添加：</span><span class="sxs-lookup"><span data-stu-id="72ac5-p105">Explicitly manage presenters, instead of setting the presenter option to one of the auto-promote values. Be sure to add the following users as presenters:</span></span>
+    
+      - <span data-ttu-id="72ac5-123">会议组织者和代理人（请求者）</span><span class="sxs-lookup"><span data-stu-id="72ac5-123">Meeting organizer and delegate (requester)</span></span>
+    
+      - <span data-ttu-id="72ac5-124">大型会议请求者提供的演示者的列表</span><span class="sxs-lookup"><span data-stu-id="72ac5-124">The list of presenters provided by large meeting requesters</span></span>
+    
+    <div>
+    
 
-  - <span data-ttu-id="ab02d-128">选中“阻止与会者的视频”\*\*\*\* 设置以确保只有参与者能将视频广播到会议中。</span><span class="sxs-lookup"><span data-stu-id="ab02d-128">Check the **Block attendees’ video** setting to make sure only presenters can broadcast video into the meeting.</span></span>
+    > [!NOTE]  
+    > <span data-ttu-id="72ac5-p106">通过显式管理演示者，您可以控制演示者的数量，以便将其限制为足够小的数量，从而有可能获得有效的大型会议。如果大多数会议参与者都具有与会者角色，则有助于减少人员意外获得对演示的控制权、删除 PowerPoint 演示、将演示者设为静音/取消静音以及对会议的其他中断的机会。</span><span class="sxs-lookup"><span data-stu-id="72ac5-p106">By explicitly managing presenters, you can control the number of presenters, so that you can limit presenters to a small enough number to make it possible to have an effective large meeting. If the majority of meeting participants have the attendee role, it helps reduce the chance of people accidentally taking control of the presentation, deleting a PowerPoint presentation, muting/unmuting presenters, and other disruptions to the meeting.</span></span>
 
-<span data-ttu-id="ab02d-129">下图显示了适用于 Lync 的联机会议加载项的推荐设置。</span><span class="sxs-lookup"><span data-stu-id="ab02d-129">The following figure shows the recommended settings for the Online Meeting Add-in for Lync.</span></span>
+    
+    </div>
 
-<span data-ttu-id="ab02d-130">![54e4e70d-06b0-45cd-8d94-bab649cd5dc0](images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")</span><span class="sxs-lookup"><span data-stu-id="ab02d-130">![54e4e70d-06b0-45cd-8d94-bab649cd5dc0](images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")</span></span>
+  - <span data-ttu-id="72ac5-127">选中“将所有与会者设为静音”\*\*\*\* 设置以确保只有演示者能将音频广播到会议中。</span><span class="sxs-lookup"><span data-stu-id="72ac5-127">Check the **Mute all attendees** setting to make sure that only presenters can broadcast audio into the meeting.</span></span>
+
+  - <span data-ttu-id="72ac5-128">选中“阻止与会者的视频”\*\*\*\* 设置以确保只有参与者能将视频广播到会议中。</span><span class="sxs-lookup"><span data-stu-id="72ac5-128">Check the **Block attendees’ video** setting to make sure only presenters can broadcast video into the meeting.</span></span>
+
+<span data-ttu-id="72ac5-129">下图显示了适用于 Lync 的联机会议外接程序的推荐设置。</span><span class="sxs-lookup"><span data-stu-id="72ac5-129">The following figure shows the recommended settings for the Online Meeting Add-in for Lync.</span></span>
+
+<span data-ttu-id="72ac5-130">![54e4e70d-06b0-45cd-8d94-bab649cd5dc0](images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")</span><span class="sxs-lookup"><span data-stu-id="72ac5-130">![54e4e70d-06b0-45cd-8d94-bab649cd5dc0](images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")</span></span>
 
 </div>
 

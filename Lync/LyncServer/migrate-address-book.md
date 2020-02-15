@@ -12,20 +12,20 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b678dea3e8ad7f05f82d28dfdd23ad9e45b38e92
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba7608b6d08fa028e86e995e0bdb646167860182
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765280"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037432"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-address-book"></a><span data-ttu-id="75947-102">迁移通讯簿</span><span class="sxs-lookup"><span data-stu-id="75947-102">Migrate Address Book</span></span>
+# <a name="migrate-address-book"></a><span data-ttu-id="1317d-102">迁移通讯簿</span><span class="sxs-lookup"><span data-stu-id="1317d-102">Migrate Address Book</span></span>
 
 </div>
 
@@ -35,62 +35,62 @@ ms.locfileid: "41765280"
 
 <span> </span>
 
-<span data-ttu-id="75947-103">_**主题上次修改时间：** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="75947-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="1317d-103">_**上次修改的主题：** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="1317d-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="75947-104">通常情况下，Lync Server 2010 通讯簿与拓扑的其余部分一起迁移。</span><span class="sxs-lookup"><span data-stu-id="75947-104">In general, the Lync Server 2010 Address Book is migrated along with the rest of your topology.</span></span> <span data-ttu-id="75947-105">但是，如果您在 Lync Server 2010 环境中自定义以下迁移步骤，则可能需要执行一些迁移后步骤：</span><span class="sxs-lookup"><span data-stu-id="75947-105">However, you might need to perform some post-migration steps if you customized the following in your Lync Server 2010 environment:</span></span>
+<span data-ttu-id="1317d-104">通常情况下，会将 Lync Server 2010 通讯簿与拓扑的其余部分一起迁移。</span><span class="sxs-lookup"><span data-stu-id="1317d-104">In general, the Lync Server 2010 Address Book is migrated along with the rest of your topology.</span></span> <span data-ttu-id="1317d-105">但是，如果您在 Lync Server 2010 环境中自定义了以下各项，则可能需要执行某些迁移后步骤：</span><span class="sxs-lookup"><span data-stu-id="1317d-105">However, you might need to perform some post-migration steps if you customized the following in your Lync Server 2010 environment:</span></span>
 
-  - <span data-ttu-id="75947-106">将**PartitionbyOU** WMI 属性设置为按组织单位（OU）对通讯簿条目分组。</span><span class="sxs-lookup"><span data-stu-id="75947-106">Set the **PartitionbyOU** WMI property to group Address Book entries by organizational unit (OU).</span></span>
+  - <span data-ttu-id="1317d-106">将 **PartitionbyOU** WMI 属性设置为按组织单位 (OU) 对通讯簿条目进行分组。</span><span class="sxs-lookup"><span data-stu-id="1317d-106">Set the **PartitionbyOU** WMI property to group Address Book entries by organizational unit (OU).</span></span>
 
-  - <span data-ttu-id="75947-107">自定义通讯簿规范化规则。</span><span class="sxs-lookup"><span data-stu-id="75947-107">Customized the Address Book normalization rules.</span></span>
+  - <span data-ttu-id="1317d-107">自定义了通讯簿规范化规则。</span><span class="sxs-lookup"><span data-stu-id="1317d-107">Customized the Address Book normalization rules.</span></span>
 
-  - <span data-ttu-id="75947-108">将**UseNormalizationRules**参数的默认值更改为 False。</span><span class="sxs-lookup"><span data-stu-id="75947-108">Changed the default value for the **UseNormalizationRules** parameter to False.</span></span>
+  - <span data-ttu-id="1317d-108">将**UseNormalizationRules**参数的默认值更改为 False。</span><span class="sxs-lookup"><span data-stu-id="1317d-108">Changed the default value for the **UseNormalizationRules** parameter to False.</span></span>
 
-<span data-ttu-id="75947-109">**分组通讯簿条目**</span><span class="sxs-lookup"><span data-stu-id="75947-109">**Grouped Address Book Entries**</span></span>
+<span data-ttu-id="1317d-109">**分组的通讯簿条目**</span><span class="sxs-lookup"><span data-stu-id="1317d-109">**Grouped Address Book Entries**</span></span>
 
-<span data-ttu-id="75947-110">如果将**PartitionbyOU** WMI 属性设置为 True 以为每个 OU 创建通讯簿，则需要在用户和联系人上设置**msRTCSIP-GroupingId** Active Directory 属性（如果要继续分组通讯簿条目）。</span><span class="sxs-lookup"><span data-stu-id="75947-110">If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries.</span></span> <span data-ttu-id="75947-111">您可能希望对通讯簿条目进行分组以限制通讯簿搜索的范围。</span><span class="sxs-lookup"><span data-stu-id="75947-111">You might want to group address book entries to limit the scope of Address Book searches.</span></span> <span data-ttu-id="75947-112">若要使用**msRTCSIP-GroupingId**属性，请编写脚本来填充该属性，为要组合在一起的所有用户分配相同的值。</span><span class="sxs-lookup"><span data-stu-id="75947-112">To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together.</span></span> <span data-ttu-id="75947-113">例如，为 OU 中的所有用户分配单个值。</span><span class="sxs-lookup"><span data-stu-id="75947-113">For example, assign a single value for all the users in an OU.</span></span>
+<span data-ttu-id="1317d-p102">如果将 **PartitionbyOU** WMI 属性设置为 True 以针对每个 OU 创建通讯簿，并且您希望继续对通讯簿条目分组，则需要设置用户和联系人的 **msRTCSIP-GroupingId** Active Directory 属性。您可能希望对通讯簿条目分组以限制通讯簿的搜索范围。要使用 **msRTCSIP-GroupingId** 属性，请编写用于填充该属性的脚本，向您希望组合在一起的所有用户分配相同的值。例如，向一个 OU 中的所有用户分配一个值。</span><span class="sxs-lookup"><span data-stu-id="1317d-p102">If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.</span></span>
 
-<span data-ttu-id="75947-114">**通讯簿规范化规则**</span><span class="sxs-lookup"><span data-stu-id="75947-114">**Address Book Normalization Rules**</span></span>
+<span data-ttu-id="1317d-114">**通讯簿规范化规则**</span><span class="sxs-lookup"><span data-stu-id="1317d-114">**Address Book Normalization Rules**</span></span>
 
-<span data-ttu-id="75947-115">如果你在 Lync Server 2010 环境中自定义了通讯簿规范化规则，则必须将自定义规则迁移到你的试点池。</span><span class="sxs-lookup"><span data-stu-id="75947-115">If you customized Address Book normalization rules in your Lync Server 2010 environment, you must migrate the customized rules to your pilot pool.</span></span> <span data-ttu-id="75947-116">如果您没有自定义通讯簿规范化规则，则不能为通讯簿服务迁移任何内容。</span><span class="sxs-lookup"><span data-stu-id="75947-116">If you did not customize Address Book normalization rules, you have nothing to migrate for Address Book service.</span></span> <span data-ttu-id="75947-117">Lync Server 2013 的默认规范化规则与 Lync Server 2010 的默认规则相同。</span><span class="sxs-lookup"><span data-stu-id="75947-117">The default normalization rules for Lync Server 2013 are the same as the default rules for Lync Server 2010.</span></span> <span data-ttu-id="75947-118">按照本部分后面的过程迁移自定义的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="75947-118">Follow the procedure later in this section to migrate customized normalization rules.</span></span>
+<span data-ttu-id="1317d-115">如果您在 Lync Server 2010 环境中自定义了通讯簿规范化规则，则必须将自定义规则迁移到您的引导池。</span><span class="sxs-lookup"><span data-stu-id="1317d-115">If you customized Address Book normalization rules in your Lync Server 2010 environment, you must migrate the customized rules to your pilot pool.</span></span> <span data-ttu-id="1317d-116">如果未自定义通讯簿规范化规则，则通讯簿服务没有要迁移的内容。</span><span class="sxs-lookup"><span data-stu-id="1317d-116">If you did not customize Address Book normalization rules, you have nothing to migrate for Address Book service.</span></span> <span data-ttu-id="1317d-117">Lync Server 2013 的默认规范化规则与 Lync Server 2010 的默认规则相同。</span><span class="sxs-lookup"><span data-stu-id="1317d-117">The default normalization rules for Lync Server 2013 are the same as the default rules for Lync Server 2010.</span></span> <span data-ttu-id="1317d-118">按照本节后面的过程操作，迁移自定义的规范化规则。</span><span class="sxs-lookup"><span data-stu-id="1317d-118">Follow the procedure later in this section to migrate customized normalization rules.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="75947-119">如果您的组织使用远程呼叫控制，并且您自定义了通讯簿规范化规则，则必须先执行本主题中的过程，然后才能使用远程呼叫控制。</span><span class="sxs-lookup"><span data-stu-id="75947-119">If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control.</span></span> <span data-ttu-id="75947-120">该过程需要 RTCUniversalServerAdmins 组或等效权限中的成员身份。</span><span class="sxs-lookup"><span data-stu-id="75947-120">The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.</span></span>
+> <span data-ttu-id="1317d-p104">如果您的组织使用远程呼叫控制并且您自定义了通讯簿规范化规则，则必须首先执行本主题中的过程，然后才能使用远程呼叫控制。要执行该过程，需要具有 RTCUniversalServerAdmins 组成员的身份或同等权限。</span><span class="sxs-lookup"><span data-stu-id="1317d-p104">If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="75947-121">**UseNormalizationRules 设置为 False**</span><span class="sxs-lookup"><span data-stu-id="75947-121">**UseNormalizationRules Set to False**</span></span>
+<span data-ttu-id="1317d-121">**UseNormalizationRules 设置为 False**</span><span class="sxs-lookup"><span data-stu-id="1317d-121">**UseNormalizationRules Set to False**</span></span>
 
-<span data-ttu-id="75947-122">如果将**UseNormalizationRules**的值设置为 False，以便用户可以使用在 Active Directory 域服务中定义的电话号码，而无需使用 Lync Server 2013 应用规范化规则，则需要将**UseNormalizationRules**和**IgnoreGenericRules**参数设置为 True。</span><span class="sxs-lookup"><span data-stu-id="75947-122">If you set the value for **UseNormalizationRules** to False so that users can use phone numbers as they are defined in Active Directory Domain Services without having Lync Server 2013 apply normalization rules, you need to set the **UseNormalizationRules** and **IgnoreGenericRules** parameters to True.</span></span> <span data-ttu-id="75947-123">按照本部分后面的过程将这些参数设置为 True。</span><span class="sxs-lookup"><span data-stu-id="75947-123">Follow the procedure later in this section to set these parameters to True.</span></span>
+<span data-ttu-id="1317d-122">如果将**UseNormalizationRules**的值设置为 False，以便用户可以使用在 Active Directory 域服务中定义的电话号码，而不使用 Lync Server 2013 应用规范化规则，则需要将**UseNormalizationRules**和**IgnoreGenericRules**参数设置为 True。</span><span class="sxs-lookup"><span data-stu-id="1317d-122">If you set the value for **UseNormalizationRules** to False so that users can use phone numbers as they are defined in Active Directory Domain Services without having Lync Server 2013 apply normalization rules, you need to set the **UseNormalizationRules** and **IgnoreGenericRules** parameters to True.</span></span> <span data-ttu-id="1317d-123">按照本节后面的过程操作，将这些参数设置为 True。</span><span class="sxs-lookup"><span data-stu-id="1317d-123">Follow the procedure later in this section to set these parameters to True.</span></span>
 
 <div>
 
-## <a name="to-migrate-address-book-customized-normalization-rules"></a><span data-ttu-id="75947-124">迁移通讯簿自定义规范化规则</span><span class="sxs-lookup"><span data-stu-id="75947-124">To migrate Address Book customized normalization rules</span></span>
+## <a name="to-migrate-address-book-customized-normalization-rules"></a><span data-ttu-id="1317d-124">迁移通讯簿自定义规范化规则</span><span class="sxs-lookup"><span data-stu-id="1317d-124">To migrate Address Book customized normalization rules</span></span>
 
-1.  <span data-ttu-id="75947-125">在 "通讯\_簿\_"\_共享\_文件夹的根中查找公司电话号码规范化规则 .Txt 文件，并将其复制到 Lync Server 2013 试验池中的 "通讯簿" 共享文件夹的根。</span><span class="sxs-lookup"><span data-stu-id="75947-125">Find the Company\_Phone\_Number\_Normalization\_Rules.txt file in the root of the Address Book shared folder, and copy it to the root of the Address Book shared folder in your Lync Server 2013 pilot pool.</span></span>
+1.  <span data-ttu-id="1317d-125">在通讯簿\_共享\_文件夹\_的\_根目录中查找公司电话号码规范化规则 .Txt 文件，并将其复制到 Lync Server 2013 试点池中的通讯簿共享文件夹的根目录中。</span><span class="sxs-lookup"><span data-stu-id="1317d-125">Find the Company\_Phone\_Number\_Normalization\_Rules.txt file in the root of the Address Book shared folder, and copy it to the root of the Address Book shared folder in your Lync Server 2013 pilot pool.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="75947-126">示例通讯簿规范化规则已安装在你的 ABS Web 组件文件目录中。</span><span class="sxs-lookup"><span data-stu-id="75947-126">The sample Address Book normalization rules have been installed in your ABS Web component file directory.</span></span> <span data-ttu-id="75947-127">路径为<STRONG>$installedDriveLetter： \Program Files\Microsoft Lync Server 2013 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules .txt</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="75947-127">The path is <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>.</span></span> <span data-ttu-id="75947-128">可以将此文件作为&nbsp; <STRONG>Company_Phone_Number_Normalization_Rules</STRONG> &nbsp;复制和重命名为通讯簿共享文件夹的根目录。</span><span class="sxs-lookup"><span data-stu-id="75947-128">This file can be copied and renamed as &nbsp;<STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp;to the address book shared folder’s root directory.</span></span> <span data-ttu-id="75947-129">例如， <STRONG>$serverX</STRONG>中共享的通讯簿，&nbsp;路径将类似于： <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="75947-129">For example, the address book shared in <STRONG>$serverX</STRONG>,&nbsp;the path will be similar to: <STRONG>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.</span></span>
+    > <span data-ttu-id="1317d-126">示例“通讯簿服务”规范化规则已安装在您的 ABS Web 组件文件目录中。</span><span class="sxs-lookup"><span data-stu-id="1317d-126">The sample Address Book normalization rules have been installed in your ABS Web component file directory.</span></span> <span data-ttu-id="1317d-127">路径为 <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="1317d-127">The path is <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt,</STRONG>.</span></span> <span data-ttu-id="1317d-128">可以将此文件复制并重命名为&nbsp; <STRONG>Company_Phone_Number_Normalization_Rules</STRONG> &nbsp;通讯簿共享文件夹的根目录。</span><span class="sxs-lookup"><span data-stu-id="1317d-128">This file can be copied and renamed as &nbsp;<STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp;to the address book shared folder’s root directory.</span></span> <span data-ttu-id="1317d-129">例如， <STRONG>$serverX</STRONG>中共享的通讯簿，&nbsp;该路径将类似于： <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>。</span><span class="sxs-lookup"><span data-stu-id="1317d-129">For example, the address book shared in <STRONG>$serverX</STRONG>,&nbsp;the path will be similar to: <STRONG>\\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="75947-130">使用文本编辑器（如记事本）打开\_公司电话\_号码\_规范化\_规则 .txt 文件。</span><span class="sxs-lookup"><span data-stu-id="75947-130">Use a text editor, such as Notepad, to open the Company\_Phone\_Number\_Normalization\_Rules.txt file.</span></span>
+2.  <span data-ttu-id="1317d-130">使用文本编辑器（如记事本）打开\_公司电话\_号码\_规范化\_规则 .txt 文件。</span><span class="sxs-lookup"><span data-stu-id="1317d-130">Use a text editor, such as Notepad, to open the Company\_Phone\_Number\_Normalization\_Rules.txt file.</span></span>
 
-3.  <span data-ttu-id="75947-131">某些类型的条目在 Lync Server 2013 中将无法正常工作。</span><span class="sxs-lookup"><span data-stu-id="75947-131">Certain types of entries will not work correctly in Lync Server 2013.</span></span> <span data-ttu-id="75947-132">查看该文件以了解本步骤中所述的条目类型，根据需要对其进行编辑，并将更改保存到你的试点池中的 "通讯簿" 共享文件夹中。</span><span class="sxs-lookup"><span data-stu-id="75947-132">Look through the file for the types of entries described in this step, edit them as necessary, and save the changes to the Address Book shared folder in your pilot pool.</span></span>
+3.  <span data-ttu-id="1317d-131">在 Lync Server 2013 中，某些类型的条目将无法正常工作。</span><span class="sxs-lookup"><span data-stu-id="1317d-131">Certain types of entries will not work correctly in Lync Server 2013.</span></span> <span data-ttu-id="1317d-132">请在文件中查找该步骤中所述的这些条目类型，根据需要编辑它们，并将更改保存到试点池中的通讯簿共享文件夹。</span><span class="sxs-lookup"><span data-stu-id="1317d-132">Look through the file for the types of entries described in this step, edit them as necessary, and save the changes to the Address Book shared folder in your pilot pool.</span></span>
     
-    <span data-ttu-id="75947-133">包含所需的空格或标点的字符串将导致规范化规则失败，因为这些字符将从输入到规范化规则的字符串中去除。</span><span class="sxs-lookup"><span data-stu-id="75947-133">Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules.</span></span> <span data-ttu-id="75947-134">如果你有包含必需的空格或标点的字符串，则需要修改这些字符串。</span><span class="sxs-lookup"><span data-stu-id="75947-134">If you have strings that include required whitespace or punctuation, you need to modify the strings.</span></span> <span data-ttu-id="75947-135">例如，以下字符串将导致规范化规则失败：</span><span class="sxs-lookup"><span data-stu-id="75947-135">For example, the following string would cause the normalization rule to fail:</span></span>
+    <span data-ttu-id="1317d-p108">包含必要空格或标点的字符串会导致规范化规则失败，因为系统会将这些字符从输入到规范化规则的字符串中删除。如果您有包含必要空格或标点的字符串，则需要修改这些字符串。例如，以下字符串将导致规范化规则失败：</span><span class="sxs-lookup"><span data-stu-id="1317d-p108">Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:</span></span>
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
-    <span data-ttu-id="75947-136">以下字符串不会导致规范化规则失败：</span><span class="sxs-lookup"><span data-stu-id="75947-136">The following string would not cause the normalization rule to fail:</span></span>
+    <span data-ttu-id="1317d-136">以下字符串不会导致规范化规则失败：</span><span class="sxs-lookup"><span data-stu-id="1317d-136">The following string would not cause the normalization rule to fail:</span></span>
     
         \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
 
@@ -98,27 +98,27 @@ ms.locfileid: "41765280"
 
 <div>
 
-## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a><span data-ttu-id="75947-137">将 UseNormalizationRules 和 IgnoreGenericRules 设置为 true</span><span class="sxs-lookup"><span data-stu-id="75947-137">To set UseNormalizationRules and IgnoreGenericRules to true</span></span>
+## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a><span data-ttu-id="1317d-137">将 UseNormalizationRules 和 IgnoreGenericRules 设置为 true</span><span class="sxs-lookup"><span data-stu-id="1317d-137">To set UseNormalizationRules and IgnoreGenericRules to true</span></span>
 
-1.  <span data-ttu-id="75947-138">启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="75947-138">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="1317d-138">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1317d-138">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="75947-139">请执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="75947-139">Do one of the following:</span></span>
+2.  <span data-ttu-id="1317d-139">执行下列操作之一：</span><span class="sxs-lookup"><span data-stu-id="1317d-139">Do one of the following:</span></span>
     
-      - <span data-ttu-id="75947-140">如果你的部署仅包括 Lync Server 2013，请在全局级别上运行以下 cmdlet，将**UseNormalizationRules**和**IgnoreGenericRules**的值更改为 True：</span><span class="sxs-lookup"><span data-stu-id="75947-140">If your deployment includes only Lync Server 2013, run the following cmdlet at the global level to change the values for **UseNormalizationRules** and **IgnoreGenericRules** to True:</span></span>
+      - <span data-ttu-id="1317d-140">如果您的部署仅包括 Lync Server 2013，请在全局级别运行以下 cmdlet，以将**UseNormalizationRules**和**IgnoreGenericRules**的值更改为 True：</span><span class="sxs-lookup"><span data-stu-id="1317d-140">If your deployment includes only Lync Server 2013, run the following cmdlet at the global level to change the values for **UseNormalizationRules** and **IgnoreGenericRules** to True:</span></span>
         
             Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
     
-      - <span data-ttu-id="75947-141">如果你的部署包括 Lync Server 2013 和 Lync Server 2010 或 Office 通信服务器 2007 R2 的组合，请运行以下 cmdlet，并将其分配给拓扑中的每个 Lync Server 2013 池：</span><span class="sxs-lookup"><span data-stu-id="75947-141">If your deployment includes a combination of Lync Server 2013 and Lync Server 2010 or Office Communications Server 2007 R2, run the following cmdlet and assign it to each Lync Server 2013 pool in the topology:</span></span>
+      - <span data-ttu-id="1317d-141">如果您的部署包括 Lync Server 2013 和 Lync Server 2010 或 Office 通信服务器 2007 R2 的组合，请运行以下 cmdlet，并将其分配给拓扑中的每个 Lync Server 2013 池：</span><span class="sxs-lookup"><span data-stu-id="1317d-141">If your deployment includes a combination of Lync Server 2013 and Lync Server 2010 or Office Communications Server 2007 R2, run the following cmdlet and assign it to each Lync Server 2013 pool in the topology:</span></span>
         
             New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
 
-3.  <span data-ttu-id="75947-142">等待中央管理存储复制在所有池上发生。</span><span class="sxs-lookup"><span data-stu-id="75947-142">Wait for Central Management store replication to occur on all pools.</span></span>
+3.  <span data-ttu-id="1317d-142">等待中央管理存储复制在所有池上进行。</span><span class="sxs-lookup"><span data-stu-id="1317d-142">Wait for Central Management store replication to occur on all pools.</span></span>
 
-4.  <span data-ttu-id="75947-143">修改电话规范化规则文件 "\_公司电话\_号码\_规范化\_规则 .txt"，以供你的部署清除内容。</span><span class="sxs-lookup"><span data-stu-id="75947-143">Modify the phone normalization rules file, "Company\_Phone\_Number\_Normalization\_Rules.txt", for your deployment to clear the content.</span></span> <span data-ttu-id="75947-144">该文件位于每个 Lync Server 2013 池的文件共享中。</span><span class="sxs-lookup"><span data-stu-id="75947-144">The file is on the file share of each Lync Server 2013 pool.</span></span> <span data-ttu-id="75947-145">如果文件不存在，则创建一个名为 "\_公司电话\_号码\_规范化\_规则 .txt" 的空文件。</span><span class="sxs-lookup"><span data-stu-id="75947-145">If the file is not present, then create an empty file named "Company\_Phone\_Number\_Normalization\_Rules.txt".</span></span>
+4.  <span data-ttu-id="1317d-143">修改电话规范化规则文件 "\_Company phone\_Number\_规范化\_rules .txt"，以供您的部署清除内容。</span><span class="sxs-lookup"><span data-stu-id="1317d-143">Modify the phone normalization rules file, "Company\_Phone\_Number\_Normalization\_Rules.txt", for your deployment to clear the content.</span></span> <span data-ttu-id="1317d-144">文件位于每个 Lync Server 2013 池的文件共享中。</span><span class="sxs-lookup"><span data-stu-id="1317d-144">The file is on the file share of each Lync Server 2013 pool.</span></span> <span data-ttu-id="1317d-145">如果该文件不存在，则创建一个名为 "\_Company Phone\_Number\_规范化\_Rules .txt" 的空文件。</span><span class="sxs-lookup"><span data-stu-id="1317d-145">If the file is not present, then create an empty file named "Company\_Phone\_Number\_Normalization\_Rules.txt".</span></span>
 
-5.  <span data-ttu-id="75947-146">请等待几分钟，让所有前端池读取新文件。</span><span class="sxs-lookup"><span data-stu-id="75947-146">Wait several minutes for all Front End pools to read the new files.</span></span>
+5.  <span data-ttu-id="1317d-146">等待几分钟，让所有前端池都能读取新文件。</span><span class="sxs-lookup"><span data-stu-id="1317d-146">Wait several minutes for all Front End pools to read the new files.</span></span>
 
-6.  <span data-ttu-id="75947-147">在部署中的每个 Lync Server 2013 池中运行以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="75947-147">Run the following cmdlet on each Lync Server 2013 pool in your deployment:</span></span>
+6.  <span data-ttu-id="1317d-147">在部署中的每个 Lync Server 2013 池中运行以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="1317d-147">Run the following cmdlet on each Lync Server 2013 pool in your deployment:</span></span>
     
         Update-CsAddressBook
 
