@@ -12,20 +12,20 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee3abd26386ad26e3b6628d5b9db873bd17373be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 100ec85b345a744232e9bfab37a2ee11c7f84430
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743772"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="210b4-102">迁移存档和监控服务器</span><span class="sxs-lookup"><span data-stu-id="210b4-102">Migrating Archiving and Monitoring servers</span></span>
+# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="5c462-102">迁移存档和监控服务器</span><span class="sxs-lookup"><span data-stu-id="5c462-102">Migrating Archiving and Monitoring servers</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41743772"
 
 <span> </span>
 
-<span data-ttu-id="210b4-103">_**主题上次修改时间：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="210b4-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="5c462-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5c462-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="210b4-104">如果你在 Office 通信服务器 2007 R2 中部署了存档服务器和监视服务器，你可以在迁移前端池后在 Lync Server 2013 环境中部署这些服务器。</span><span class="sxs-lookup"><span data-stu-id="210b4-104">If you deployed Archiving Server and Monitoring Server in your Office Communications Server 2007 R2, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="210b4-105">但是，如果存档和监视功能对你的组织至关重要，则应在迁移之前将存档和监视添加到你的试点池，以便在迁移过程中使用该功能。</span><span class="sxs-lookup"><span data-stu-id="210b4-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
+<span data-ttu-id="5c462-104">如果在 Office 通信服务器 2007 R2 中部署了存档服务器和监视服务器，则可以在迁移前端池后在 Lync Server 2013 环境中部署这些服务器。</span><span class="sxs-lookup"><span data-stu-id="5c462-104">If you deployed Archiving Server and Monitoring Server in your Office Communications Server 2007 R2, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="5c462-105">不过，如果存档和监控功能对您的组织至关重要，则应在迁移之前在试点池中添加存档和监控，以便迁移过程中可使用这些功能。</span><span class="sxs-lookup"><span data-stu-id="5c462-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
 
-<span data-ttu-id="210b4-106">如果在迁移和共存阶段需要存档和监视功能，请记住以下注意事项：</span><span class="sxs-lookup"><span data-stu-id="210b4-106">If you want archiving and monitoring functionality during the migration and coexistence phase, keep the following considerations in mind:</span></span>
+<span data-ttu-id="5c462-106">如果在迁移和共存阶段需要存档和监控功能，应注意以下问题：</span><span class="sxs-lookup"><span data-stu-id="5c462-106">If you want archiving and monitoring functionality during the migration and coexistence phase, keep the following considerations in mind:</span></span>
 
-  - <span data-ttu-id="210b4-107">存档数据和监视数据不会迁移到 Lync Server 2013 部署。</span><span class="sxs-lookup"><span data-stu-id="210b4-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="210b4-108">在取消旧版环境之前备份的数据将是 Office 通信服务器 2007 R2 中的活动历史记录。</span><span class="sxs-lookup"><span data-stu-id="210b4-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Office Communications Server 2007 R2.</span></span>
+  - <span data-ttu-id="5c462-107">存档数据和监控数据不会移动到 Lync Server 2013 部署中。</span><span class="sxs-lookup"><span data-stu-id="5c462-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="5c462-108">在您解除旧环境之前备份的数据将是 Office 通信服务器 2007 R2 中的活动历史记录。</span><span class="sxs-lookup"><span data-stu-id="5c462-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Office Communications Server 2007 R2.</span></span>
 
-  - <span data-ttu-id="210b4-109">Office 通信服务器 2007 R2 版本的存档服务器和监视服务器只能与 Office 通信服务器 2007 R2 前端池关联。</span><span class="sxs-lookup"><span data-stu-id="210b4-109">The Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server can be associated only with a Office Communications Server 2007 R2 Front End pool.</span></span> <span data-ttu-id="210b4-110">在 Lync Server 2013 中，存档和监控不再是服务器角色，而是与 Lync Server 2013 前端池集成的服务。</span><span class="sxs-lookup"><span data-stu-id="210b4-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
+  - <span data-ttu-id="5c462-109">Office 通信服务器 2007 R2 版本的存档服务器和监视服务器只能与 Office 通信服务器 2007 R2 前端池相关联。</span><span class="sxs-lookup"><span data-stu-id="5c462-109">The Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server can be associated only with a Office Communications Server 2007 R2 Front End pool.</span></span> <span data-ttu-id="5c462-110">在 Lync Server 2013 中，存档和监控不再是服务器角色，而是集成到 Lync Server 2013 前端池的服务。</span><span class="sxs-lookup"><span data-stu-id="5c462-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
 
-  - <span data-ttu-id="210b4-111">在旧版本和 Lync Server 2013 部署共存期间，Office 通信服务器 2007 R2 版本的存档服务器和监视服务器会为驻留在 Office 通信服务器上的用户收集数据，2007 R2 池。</span><span class="sxs-lookup"><span data-stu-id="210b4-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server gather data for users homed on Office Communications Server 2007 R2 pools.</span></span> <span data-ttu-id="210b4-112">Lync Server 2013 版本的存档服务器和监视服务器为驻留在 Lync Server 2013 池的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="210b4-112">The Lync Server 2013 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2013 pools.</span></span>
+  - <span data-ttu-id="5c462-111">在旧版和 Lync Server 2013 部署共存期间，存档服务器和监视服务器的 Office 通信服务器 2007 R2 版本将为驻留在 Office 通信服务器上的用户收集数据，以 2007 R2 池。</span><span class="sxs-lookup"><span data-stu-id="5c462-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server gather data for users homed on Office Communications Server 2007 R2 pools.</span></span> <span data-ttu-id="5c462-112">Lync Server 2013 版本的存档服务器和监视服务器为驻留在 Lync Server 2013 池上的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="5c462-112">The Lync Server 2013 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2013 pools.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="210b4-113">在迁移阶段，当你仍将旧式 Edge 服务器与新的 Lync Server 2013 试验池配合使用时，存档服务器的 Office 通信服务器 2007 R2 版本会继续为驻留在 Office 通信服务器上的用户收集数据。2007R2 池和 Lync Server 2013 版本的存档服务器为驻留在 Lync Server 2013 池的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="210b4-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Office Communications Server 2007 R2 version of Archiving Server continues to gather data for users homed on Office Communications Server 2007 R2 pools and the Lync Server 2013 version of Archiving Server gathers data for users homed on Lync Server 2013 pools.</span></span>
+    > <span data-ttu-id="5c462-113">在迁移阶段，如果你仍在使用新的 Lync Server 2013 试点池时使用旧版边缘服务器，则存档服务器的 Office 通信服务器 2007 R2 版本将继续为驻留在 Office 通信服务器上的用户收集数据。2007R2 池和 Lync Server 2013 版本的存档服务器为驻留在 Lync Server 2013 池上的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="5c462-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Office Communications Server 2007 R2 version of Archiving Server continues to gather data for users homed on Office Communications Server 2007 R2 pools and the Lync Server 2013 version of Archiving Server gathers data for users homed on Lync Server 2013 pools.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="210b4-114">如果你将第三方存档和监视解决方案与存档服务器和监视服务器结合使用，请与你的供应商联系，了解何时以及如何将第三方解决方案与 Lync Server 2013 集成。</span><span class="sxs-lookup"><span data-stu-id="210b4-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving Server and Monitoring Server, talk to your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
+  - <span data-ttu-id="5c462-114">如果将第三方存档和监控解决方案与存档服务器和监视服务器结合使用，请与供应商联系，了解何时以及如何使用 Lync Server 2013 集成第三方解决方案。</span><span class="sxs-lookup"><span data-stu-id="5c462-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving Server and Monitoring Server, talk to your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
 
 </div>
 

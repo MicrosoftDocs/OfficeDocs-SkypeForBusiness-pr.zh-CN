@@ -12,20 +12,20 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c32d3bbc39d8f18e30153193c1e722db1ec9d50e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 131b36b87a3d930662cdd863dd4ebc1d0d69163e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734432"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029945"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a><span data-ttu-id="1a617-102">在 Lync Server 2013 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="1a617-102">Configuring voice mail escape in Lync Server 2013</span></span>
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a><span data-ttu-id="0bc6d-102">在 Lync Server 2013 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="0bc6d-102">Configuring voice mail escape in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41734432"
 
 <span> </span>
 
-<span data-ttu-id="1a617-103">_**主题上次修改时间：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="1a617-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="0bc6d-103">_**上次修改的主题：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="0bc6d-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="1a617-104">如果用户为移动电话配置同时响铃，则当移动电话关机、没电或没信号时，呼叫者通常将路由到用户的个人语音邮件。</span><span class="sxs-lookup"><span data-stu-id="1a617-104">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user’s personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="1a617-105">使用 Lync Server 2013，用户可以选择将与业务相关的呼叫路由到其企业语音邮件系统。</span><span class="sxs-lookup"><span data-stu-id="1a617-105">With Lync Server 2013, users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="1a617-106">具体说来，可以配置计时器，并且如果运营商的语音邮件在定义的时间范围内接听呼叫，则 Lync Server 将断开与运营商的语音邮件系统（和用户的个人语音邮件）的连接，同时用户的剩余公司系统中的终结点继续拨打。</span><span class="sxs-lookup"><span data-stu-id="1a617-106">Specifically, a timer can be configured, and if the call is answered by the carrier’s voice mail within the range of time defined, Lync Server will disconnect from the carrier’s voice mail system (and the user’s personal voice mail), while the user’s remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="1a617-107">这样以来，呼叫者将自动路由到用户的企业语音邮件。</span><span class="sxs-lookup"><span data-stu-id="1a617-107">This way, the caller is automatically routed to the user’s corporate voice mail.</span></span>
+<span data-ttu-id="0bc6d-104">如果用户为移动电话配置同时响铃，则当移动电话关机、没电或没信号时，呼叫者通常将路由到用户的个人语音邮件。</span><span class="sxs-lookup"><span data-stu-id="0bc6d-104">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user’s personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="0bc6d-105">借助 Lync Server 2013，用户可以选择将与业务相关的呼叫路由到其公司语音邮件系统。</span><span class="sxs-lookup"><span data-stu-id="0bc6d-105">With Lync Server 2013, users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="0bc6d-106">具体来说，可以配置计时器，如果运营商的语音邮件在定义的时间范围内应答呼叫，Lync Server 将断开与运营商的语音邮件系统（和用户的个人语音邮件）的连接，同时用户的剩余公司系统中的终结点继续振铃。</span><span class="sxs-lookup"><span data-stu-id="0bc6d-106">Specifically, a timer can be configured, and if the call is answered by the carrier’s voice mail within the range of time defined, Lync Server will disconnect from the carrier’s voice mail system (and the user’s personal voice mail), while the user’s remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="0bc6d-107">这样以来，呼叫者将自动路由到用户的企业语音邮件。</span><span class="sxs-lookup"><span data-stu-id="0bc6d-107">This way, the caller is automatically routed to the user’s corporate voice mail.</span></span>
 
-<span data-ttu-id="1a617-108">使用以下参数在语音策略级别上使用 Lync Server Management Shell cmdlet （ **CsVoicePolicy**）执行此配置。</span><span class="sxs-lookup"><span data-stu-id="1a617-108">This configuration is performed using the Lync Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
+<span data-ttu-id="0bc6d-108">使用以下参数在语音策略级别使用 Lync Server 命令行管理程序 cmdlet （ **set-csvoicepolicy**）执行此配置。</span><span class="sxs-lookup"><span data-stu-id="0bc6d-108">This configuration is performed using the Lync Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
 
 <div>
 
-## <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="1a617-109">配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="1a617-109">To configure voice mail escape</span></span>
+## <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="0bc6d-109">配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="0bc6d-109">To configure voice mail escape</span></span>
 
-1.  <span data-ttu-id="1a617-110">启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="1a617-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="0bc6d-110">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="0bc6d-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="1a617-111">指定 **Set-CsVoicePolicy** 的以下参数：</span><span class="sxs-lookup"><span data-stu-id="1a617-111">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
+2.  <span data-ttu-id="0bc6d-111">指定 **Set-CsVoicePolicy** 的以下参数：</span><span class="sxs-lookup"><span data-stu-id="0bc6d-111">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
     
-      - <span data-ttu-id="1a617-112">**EnableVoicemailEscapeTimer** - 启用或禁用转义计时器。</span><span class="sxs-lookup"><span data-stu-id="1a617-112">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
+      - <span data-ttu-id="0bc6d-112">**EnableVoicemailEscapeTimer** - 启用或禁用转义计时器。</span><span class="sxs-lookup"><span data-stu-id="0bc6d-112">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
     
-      - <span data-ttu-id="1a617-p102">**PSTNVoicemailEscapeTimer** - 指定超时值（以毫秒为单位）。默认值为 1500 毫秒，该值的范围可介于 0 到 8000 毫秒之间。</span><span class="sxs-lookup"><span data-stu-id="1a617-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
+      - <span data-ttu-id="0bc6d-p102">**PSTNVoicemailEscapeTimer** - 指定超时值（以毫秒为单位）。默认值为 1500 毫秒，该值的范围可介于 0 到 8000 毫秒之间。</span><span class="sxs-lookup"><span data-stu-id="0bc6d-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
 
 </div>
 
 <div>
 
-## <a name="example"></a><span data-ttu-id="1a617-115">示例</span><span class="sxs-lookup"><span data-stu-id="1a617-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0bc6d-115">示例</span><span class="sxs-lookup"><span data-stu-id="0bc6d-115">Example</span></span>
 
     Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
     
@@ -67,10 +67,10 @@ ms.locfileid: "41734432"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1a617-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1a617-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0bc6d-116">请参阅</span><span class="sxs-lookup"><span data-stu-id="0bc6d-116">See Also</span></span>
 
 
-[<span data-ttu-id="1a617-117">在 Lync Server 2013 中配置语音策略和 PSTN 用法记录以授权呼叫功能和权限</span><span class="sxs-lookup"><span data-stu-id="1a617-117">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)  
+[<span data-ttu-id="0bc6d-117">在 Lync Server 2013 中配置语音策略和 PSTN 用法记录以授权呼叫功能和权限</span><span class="sxs-lookup"><span data-stu-id="0bc6d-117">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)  
   
 
 </div>

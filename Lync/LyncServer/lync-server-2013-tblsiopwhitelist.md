@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：tblSiopWhiteList
+title: Lync Server 2013： tblSiopWhiteList
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85fc3dd6575433b605d6ce9100aacfde56782e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 86ffecf185ab0c32c45e910d1821a33cbcabaea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764062"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="f5a65-102">Lync Server 2013 中的 tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="f5a65-102">tblSiopWhiteList in Lync Server 2013</span></span>
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="7b4a7-102">Lync Server 2013 中的 tblSiopWhiteList</span><span class="sxs-lookup"><span data-stu-id="7b4a7-102">tblSiopWhiteList in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764062"
 
 <span> </span>
 
-<span data-ttu-id="f5a65-103">_**主题上次修改时间：** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="f5a65-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="7b4a7-103">_**上次修改的主题：** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="7b4a7-103">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="f5a65-104">tblSiopWhiteList 是可与节点相关联的注册外接程序的列表。</span><span class="sxs-lookup"><span data-stu-id="f5a65-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
+<span data-ttu-id="7b4a7-104">tblSiopWhiteList 是可与节点关联的注册外接程序的列表。</span><span class="sxs-lookup"><span data-stu-id="7b4a7-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="f5a65-105">多</span><span class="sxs-lookup"><span data-stu-id="f5a65-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="7b4a7-105">Columns</span><span class="sxs-lookup"><span data-stu-id="7b4a7-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,32 +49,32 @@ ms.locfileid: "41764062"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f5a65-106">列</span><span class="sxs-lookup"><span data-stu-id="f5a65-106">Column</span></span></th>
-<th><span data-ttu-id="f5a65-107">类型</span><span class="sxs-lookup"><span data-stu-id="f5a65-107">Type</span></span></th>
-<th><span data-ttu-id="f5a65-108">说明</span><span class="sxs-lookup"><span data-stu-id="f5a65-108">Description</span></span></th>
+<th><span data-ttu-id="7b4a7-106">列</span><span class="sxs-lookup"><span data-stu-id="7b4a7-106">Column</span></span></th>
+<th><span data-ttu-id="7b4a7-107">类型</span><span class="sxs-lookup"><span data-stu-id="7b4a7-107">Type</span></span></th>
+<th><span data-ttu-id="7b4a7-108">说明</span><span class="sxs-lookup"><span data-stu-id="7b4a7-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f5a65-109">siopID</span><span class="sxs-lookup"><span data-stu-id="f5a65-109">siopID</span></span></p></td>
-<td><p><span data-ttu-id="f5a65-110">GUID，not null</span><span class="sxs-lookup"><span data-stu-id="f5a65-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="f5a65-111">外接程序的 GUID。</span><span class="sxs-lookup"><span data-stu-id="f5a65-111">GUID of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-109">siopID</span><span class="sxs-lookup"><span data-stu-id="7b4a7-109">siopID</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-110">GUID，不为 null</span><span class="sxs-lookup"><span data-stu-id="7b4a7-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-111">外接程序的 GUID。</span><span class="sxs-lookup"><span data-stu-id="7b4a7-111">GUID of the add-in.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f5a65-112">siopName</span><span class="sxs-lookup"><span data-stu-id="f5a65-112">siopName</span></span></p></td>
-<td><p><span data-ttu-id="f5a65-113">nvarchar （50），not null</span><span class="sxs-lookup"><span data-stu-id="f5a65-113">nvarchar (50), not null</span></span></p></td>
-<td><p><span data-ttu-id="f5a65-114">显示-外接程序的名称。</span><span class="sxs-lookup"><span data-stu-id="f5a65-114">Display-name of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-112">siopName</span><span class="sxs-lookup"><span data-stu-id="7b4a7-112">siopName</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-113">nvarchar (50)，不为 null</span><span class="sxs-lookup"><span data-stu-id="7b4a7-113">nvarchar (50), not null</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-114">外接程序的显示名称。</span><span class="sxs-lookup"><span data-stu-id="7b4a7-114">Display-name of the add-in.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f5a65-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="f5a65-115">siopUrl</span></span></p></td>
-<td><p><span data-ttu-id="f5a65-116">nvarchar （255），not null</span><span class="sxs-lookup"><span data-stu-id="f5a65-116">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="f5a65-117">外接程序的 URL。</span><span class="sxs-lookup"><span data-stu-id="f5a65-117">URL of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="7b4a7-115">siopUrl</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-116">nvarchar (255)，不为 null</span><span class="sxs-lookup"><span data-stu-id="7b4a7-116">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-117">外接程序的 URL。</span><span class="sxs-lookup"><span data-stu-id="7b4a7-117">URL of the add-in.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="f5a65-118">关键字</span><span class="sxs-lookup"><span data-stu-id="f5a65-118">Key</span></span>
+### <a name="key"></a><span data-ttu-id="7b4a7-118">键</span><span class="sxs-lookup"><span data-stu-id="7b4a7-118">Key</span></span>
 
 <table>
 <colgroup>
@@ -83,14 +83,14 @@ ms.locfileid: "41764062"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f5a65-119">列</span><span class="sxs-lookup"><span data-stu-id="f5a65-119">Column</span></span></th>
-<th><span data-ttu-id="f5a65-120">说明</span><span class="sxs-lookup"><span data-stu-id="f5a65-120">Description</span></span></th>
+<th><span data-ttu-id="7b4a7-119">列</span><span class="sxs-lookup"><span data-stu-id="7b4a7-119">Column</span></span></th>
+<th><span data-ttu-id="7b4a7-120">说明</span><span class="sxs-lookup"><span data-stu-id="7b4a7-120">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f5a65-121">siopID</span><span class="sxs-lookup"><span data-stu-id="f5a65-121">siopID</span></span></p></td>
-<td><p><span data-ttu-id="f5a65-122">主键。</span><span class="sxs-lookup"><span data-stu-id="f5a65-122">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-121">siopID</span><span class="sxs-lookup"><span data-stu-id="7b4a7-121">siopID</span></span></p></td>
+<td><p><span data-ttu-id="7b4a7-122">主键。</span><span class="sxs-lookup"><span data-stu-id="7b4a7-122">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

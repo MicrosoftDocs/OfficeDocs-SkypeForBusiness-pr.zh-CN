@@ -1,5 +1,5 @@
 ---
-title: 第5阶段：配置试行池
+title: 第5阶段：配置引导池
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3d956d4252d73d2aa1d393917a5b3d72976209
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d337fec0fcb5261e01424f5bcfbad9de07448cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765703"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-5-configure-the-pilot-pool"></a><span data-ttu-id="9f522-102">第5阶段：配置试行池</span><span class="sxs-lookup"><span data-stu-id="9f522-102">Phase 5: Configure the pilot pool</span></span>
+# <a name="phase-5-configure-the-pilot-pool"></a><span data-ttu-id="e1475-102">第5阶段：配置引导池</span><span class="sxs-lookup"><span data-stu-id="e1475-102">Phase 5: Configure the pilot pool</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765703"
 
 <span> </span>
 
-<span data-ttu-id="9f522-103">_**主题上次修改时间：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="9f522-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="e1475-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="e1475-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="9f522-104">既然已创建了 "试点" 池，并且旧版部署信息已与 Lync Server 2013 合并，此部分将标识必须对试点池进行的一些配置。</span><span class="sxs-lookup"><span data-stu-id="9f522-104">Now that the pilot pool has been created and legacy deployment information has been merged with Lync Server 2013, this section identifies a few configurations that must be made to the pilot pool.</span></span>
+<span data-ttu-id="e1475-104">现在已创建了试点池，并已将旧版部署信息与 Lync Server 2013 进行了合并，这一节确定了必须对试点池进行的几个配置。</span><span class="sxs-lookup"><span data-stu-id="e1475-104">Now that the pilot pool has been created and legacy deployment information has been merged with Lync Server 2013, this section identifies a few configurations that must be made to the pilot pool.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9f522-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="9f522-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e1475-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="e1475-105">In This Section</span></span>
 
-  - [<span data-ttu-id="9f522-106">将试点池连接到旧 Edge Server</span><span class="sxs-lookup"><span data-stu-id="9f522-106">Connect pilot pool to legacy Edge Servers</span></span>](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [<span data-ttu-id="e1475-106">将试点池连接到旧版边缘服务器</span><span class="sxs-lookup"><span data-stu-id="e1475-106">Connect pilot pool to legacy Edge Servers</span></span>](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [<span data-ttu-id="9f522-107">授权到 Office 通信服务器 2007 R2 Edge 服务器的连接</span><span class="sxs-lookup"><span data-stu-id="9f522-107">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [<span data-ttu-id="e1475-107">授权与 Office 通信服务器 2007 R2 边缘服务器的连接</span><span class="sxs-lookup"><span data-stu-id="e1475-107">Authorize connection to Office Communications Server 2007 R2 Edge Server</span></span>](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
-  - [<span data-ttu-id="9f522-108">验证配置设置</span><span class="sxs-lookup"><span data-stu-id="9f522-108">Verify configuration settings</span></span>](verify-configuration-settings_1.md)
+  - [<span data-ttu-id="e1475-108">验证配置设置</span><span class="sxs-lookup"><span data-stu-id="e1475-108">Verify configuration settings</span></span>](verify-configuration-settings_1.md)
 
-  - [<span data-ttu-id="9f522-109">配置 XMPP 网关访问策略和证书</span><span class="sxs-lookup"><span data-stu-id="9f522-109">Configure XMPP gateway access policies and certificates</span></span>](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [<span data-ttu-id="e1475-109">配置 XMPP 网关访问策略和证书</span><span class="sxs-lookup"><span data-stu-id="e1475-109">Configure XMPP gateway access policies and certificates</span></span>](configure-xmpp-gateway-access-policies-and-certificates_1.md)
 
 </div>
 

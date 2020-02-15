@@ -1,5 +1,5 @@
 ---
-title: 查看和使用由最佳做法分析器创建的报表
+title: 查看和使用由最佳实践分析工具创建的报表
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0447a2d252cc3a8634275cb1f89d36c2f979a468
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69a00a0f1777c48ba09798de9323e30dd8959b8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757346"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="e62ff-102">查看和使用 Lync Server 2013 中的最佳做法分析器创建的报表</span><span class="sxs-lookup"><span data-stu-id="e62ff-102">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</span></span>
+# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="ed572-102">查看和使用 Lync Server 2013 中的最佳实践分析工具创建的报告</span><span class="sxs-lookup"><span data-stu-id="ed572-102">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757346"
 
 <span> </span>
 
-<span data-ttu-id="e62ff-103">_**主题上次修改时间：** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="e62ff-103">_**Topic Last Modified:** 2012-06-14_</span></span>
+<span data-ttu-id="ed572-103">_**上次修改的主题：** 2012-06-14_</span><span class="sxs-lookup"><span data-stu-id="ed572-103">_**Topic Last Modified:** 2012-06-14_</span></span>
 
-<span data-ttu-id="e62ff-104">使用最佳做法分析程序扫描你的环境时，最佳做法分析器会创建用于识别有关你的部署的问题和其他信息的报表。</span><span class="sxs-lookup"><span data-stu-id="e62ff-104">When you use Best Practices Analyzer to scan your environment, Best Practices Analyzer creates reports that identify issues and other information about your deployment.</span></span> <span data-ttu-id="e62ff-105">你可以使用最佳做法分析器查看包含扫描结果的报表，并了解报表中标识的问题。</span><span class="sxs-lookup"><span data-stu-id="e62ff-105">You can use Best Practices Analyzer to view the reports that contain the scan results and understand the issues identified in the reports.</span></span>
+<span data-ttu-id="ed572-p101">当使用最佳做法分析器扫描您的环境时，最佳做法分析器将创建用于确定有关您的部署的问题和其他信息的报告。您可以使用最佳做法分析器查看包含扫描结果的报告并了解报告中确定的问题。</span><span class="sxs-lookup"><span data-stu-id="ed572-p101">When you use Best Practices Analyzer to scan your environment, Best Practices Analyzer creates reports that identify issues and other information about your deployment. You can use Best Practices Analyzer to view the reports that contain the scan results and understand the issues identified in the reports.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e62ff-106">本节内容</span><span class="sxs-lookup"><span data-stu-id="e62ff-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ed572-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="ed572-106">In This Section</span></span>
 
-  - [<span data-ttu-id="e62ff-107">在 Lync Server 2013 中查看最佳做法分析器中的报告</span><span class="sxs-lookup"><span data-stu-id="e62ff-107">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
+  - [<span data-ttu-id="ed572-107">在 Lync Server 2013 中查看最佳实践分析工具报告</span><span class="sxs-lookup"><span data-stu-id="ed572-107">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="e62ff-108">了解 Lync Server 2013 中由最佳做法分析器创建的报告</span><span class="sxs-lookup"><span data-stu-id="e62ff-108">Understanding reports created by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
+  - [<span data-ttu-id="ed572-108">了解 Lync Server 2013 中的最佳实践分析工具创建的报告</span><span class="sxs-lookup"><span data-stu-id="ed572-108">Understanding reports created by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
 
 </div>
 

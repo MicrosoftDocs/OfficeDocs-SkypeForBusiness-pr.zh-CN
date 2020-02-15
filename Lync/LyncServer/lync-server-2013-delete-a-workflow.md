@@ -12,20 +12,20 @@ ms:contentKeyID: 48183274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ed32780e23cce82027271e74a89fb87e194cc4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 91326023357df0903ab506217c6abb53babcdf66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742522"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-workflow-in-lync-server-2013"></a><span data-ttu-id="24a11-102">在 Lync Server 2013 中删除工作流</span><span class="sxs-lookup"><span data-stu-id="24a11-102">Delete a workflow in Lync Server 2013</span></span>
+# <a name="delete-a-workflow-in-lync-server-2013"></a><span data-ttu-id="75fe0-102">在 Lync Server 2013 中删除工作流</span><span class="sxs-lookup"><span data-stu-id="75fe0-102">Delete a workflow in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,54 +35,54 @@ ms.locfileid: "41742522"
 
 <span> </span>
 
-<span data-ttu-id="24a11-103">_**主题上次修改时间：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="24a11-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="75fe0-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="75fe0-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="24a11-104">使用以下过程之一删除工作流。</span><span class="sxs-lookup"><span data-stu-id="24a11-104">Use one of the following procedures to delete a workflow.</span></span>
+<span data-ttu-id="75fe0-104">使用下列过程之一删除工作流。</span><span class="sxs-lookup"><span data-stu-id="75fe0-104">Use one of the following procedures to delete a workflow.</span></span>
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a><span data-ttu-id="24a11-105">使用 Lync Server "控制面板" 删除工作流</span><span class="sxs-lookup"><span data-stu-id="24a11-105">To use Lync Server Control Panel delete a workflow</span></span>
+## <a name="to-use-lync-server-control-panel-delete-a-workflow"></a><span data-ttu-id="75fe0-105">使用 Lync Server 控制面板删除工作流</span><span class="sxs-lookup"><span data-stu-id="75fe0-105">To use Lync Server Control Panel delete a workflow</span></span>
 
-1.  <span data-ttu-id="24a11-106">以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="24a11-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="75fe0-106">以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="75fe0-106">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="24a11-107">打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="24a11-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="24a11-108">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="24a11-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="75fe0-107">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="75fe0-107">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="75fe0-108">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="75fe0-108">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="24a11-109">在左侧导航栏中，单击“响应组”\*\*\*\*，然后单击“工作流”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="24a11-109">In the left navigation bar, click **Response Groups**, and then click **Workflow**.</span></span>
+3.  <span data-ttu-id="75fe0-109">在左侧导航栏中，单击“响应组”\*\*\*\*，然后单击“工作流”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="75fe0-109">In the left navigation bar, click **Response Groups**, and then click **Workflow**.</span></span>
 
-4.  <span data-ttu-id="24a11-110">在“工作流”\*\*\*\* 页上，单击“创建或编辑工作流”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="24a11-110">On the **Workflow** page, click **Create or edit a workflow**.</span></span>
+4.  <span data-ttu-id="75fe0-110">在“工作流”\*\*\*\* 页上，单击“创建或编辑工作流”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="75fe0-110">On the **Workflow** page, click **Create or edit a workflow**.</span></span>
 
-5.  <span data-ttu-id="24a11-111">在 "**选择服务**搜索" 字段中，键入托管要删除的工作流的**ApplicationServer**服务的部分或所有名称。</span><span class="sxs-lookup"><span data-stu-id="24a11-111">In the **Select a Service** search field, type part or all of the name of the **ApplicationServer** service that hosts the workflow that you want to delete.</span></span>
+5.  <span data-ttu-id="75fe0-111">在“选择服务”\*\*\*\* 搜索字段中，键入承载要删除的工作流的 **ApplicationServer** 服务的部分或全部名称。</span><span class="sxs-lookup"><span data-stu-id="75fe0-111">In the **Select a Service** search field, type part or all of the name of the **ApplicationServer** service that hosts the workflow that you want to delete.</span></span>
 
-6.  <span data-ttu-id="24a11-112">在服务列表中，单击所需的服务，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="24a11-112">In the list of services, click the service that you want, and then click **OK**.</span></span>
+6.  <span data-ttu-id="75fe0-112">在服务列表中，单击所需的服务，然后单击 **“确定”**。</span><span class="sxs-lookup"><span data-stu-id="75fe0-112">In the list of services, click the service that you want, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="24a11-113">此时将打开 "响应组配置工具" 网页。</span><span class="sxs-lookup"><span data-stu-id="24a11-113">The Response Group Configuration Tool webpage opens.</span></span> <span data-ttu-id="24a11-114">您还可以通过连接到<STRONG>&lt;https://webPoolFqdn&gt;/RgsConfig</STRONG>，直接从 Web 浏览器打开 "响应组配置" 工具网页。</span><span class="sxs-lookup"><span data-stu-id="24a11-114">You can also open the Response Group Configuration Tool webpage directly from a web browser by connecting to <STRONG>https://&lt;webPoolFqdn&gt;/RgsConfig</STRONG>.</span></span>
+    > <span data-ttu-id="75fe0-113">将打开 "响应组配置工具" 网页。</span><span class="sxs-lookup"><span data-stu-id="75fe0-113">The Response Group Configuration Tool webpage opens.</span></span> <span data-ttu-id="75fe0-114">您还可以通过连接到<STRONG>&lt;https://webPoolFqdn&gt;/RgsConfig</STRONG>直接从 Web 浏览器打开响应组配置工具网页。</span><span class="sxs-lookup"><span data-stu-id="75fe0-114">You can also open the Response Group Configuration Tool webpage directly from a web browser by connecting to <STRONG>https://&lt;webPoolFqdn&gt;/RgsConfig</STRONG>.</span></span>
 
     
     </div>
 
-7.  <span data-ttu-id="24a11-115">在 "**管理现有工作流**" 下，找到要删除的工作流，然后在 "**操作**" 下单击 "**删除**"。</span><span class="sxs-lookup"><span data-stu-id="24a11-115">Under **Manage an Existing Workflow**, locate the workflow you want to delete, and then under **Action**, click **Delete**.</span></span>
+7.  <span data-ttu-id="75fe0-115">在“管理现有工作流”\*\*\*\* 下，找到要删除的工作流，然后在“操作”\*\*\*\* 下，单击“删除”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="75fe0-115">Under **Manage an Existing Workflow**, locate the workflow you want to delete, and then under **Action**, click **Delete**.</span></span>
 
-8.  <span data-ttu-id="24a11-116">单击“**是**”。</span><span class="sxs-lookup"><span data-stu-id="24a11-116">Click **Yes**.</span></span>
+8.  <span data-ttu-id="75fe0-116">单击“是”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="75fe0-116">Click **Yes**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-use-windows-powershell-to-delete-a-workflow"></a><span data-ttu-id="24a11-117">使用 Windows PowerShell 删除工作流</span><span class="sxs-lookup"><span data-stu-id="24a11-117">To use Windows PowerShell to delete a workflow</span></span>
+## <a name="to-use-windows-powershell-to-delete-a-workflow"></a><span data-ttu-id="75fe0-117">使用 Windows PowerShell 删除工作流</span><span class="sxs-lookup"><span data-stu-id="75fe0-117">To use Windows PowerShell to delete a workflow</span></span>
 
-1.  <span data-ttu-id="24a11-118">以 RTCUniversalServerAdmins 组成员的身份，或支持响应组的某个预定义管理角色的成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="24a11-118">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1.  <span data-ttu-id="75fe0-118">以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。</span><span class="sxs-lookup"><span data-stu-id="75fe0-118">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
 
-2.  <span data-ttu-id="24a11-119">启动 Lync Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management shell**"。</span><span class="sxs-lookup"><span data-stu-id="24a11-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="75fe0-119">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="75fe0-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="24a11-120">在命令行中运行：</span><span class="sxs-lookup"><span data-stu-id="24a11-120">At the command line, run:</span></span>
+3.  <span data-ttu-id="75fe0-120">在命令行中运行：</span><span class="sxs-lookup"><span data-stu-id="75fe0-120">At the command line, run:</span></span>
     
         Get-CsRgsWorkflow -Identity <Application Server service> -Name "<name of workflow>" | Remove-CsRgsWorkflow
     
-    <span data-ttu-id="24a11-121">例如：</span><span class="sxs-lookup"><span data-stu-id="24a11-121">For example:</span></span>
+    <span data-ttu-id="75fe0-121">例如：</span><span class="sxs-lookup"><span data-stu-id="75fe0-121">For example:</span></span>
     
         Get-CsRgsWorkflow -Identity service:ApplicationServer:redmond.contoso.com -Name "Help Desk" | Remove-CsRgsWorkflow
 

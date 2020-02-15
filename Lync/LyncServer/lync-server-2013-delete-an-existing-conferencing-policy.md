@@ -12,20 +12,20 @@ ms:contentKeyID: 49733688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78071697750a95bb8832585ea036dc90aa984da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 511f6e9c3b0b4e3caf614fdd00d71fc0ac84e524
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736372"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-conferencing-policy-in-lync-server-2013"></a><span data-ttu-id="e7d64-102">在 Lync Server 2013 中删除现有会议策略</span><span class="sxs-lookup"><span data-stu-id="e7d64-102">Delete an existing conferencing policy in Lync Server 2013</span></span>
+# <a name="delete-an-existing-conferencing-policy-in-lync-server-2013"></a><span data-ttu-id="26e53-102">在 Lync Server 2013 中删除现有会议策略</span><span class="sxs-lookup"><span data-stu-id="26e53-102">Delete an existing conferencing policy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736372"
 
 <span> </span>
 
-<span data-ttu-id="e7d64-103">_**主题上次修改时间：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="e7d64-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="26e53-103">_**上次修改的主题：** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="26e53-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="e7d64-104">请按照以下步骤删除用户级或网站级会议策略。</span><span class="sxs-lookup"><span data-stu-id="e7d64-104">Follow these steps to delete a user-level or a site-level conferencing policy.</span></span>
+<span data-ttu-id="26e53-104">按照以下步骤删除用户级别或站点级别的会议策略。</span><span class="sxs-lookup"><span data-stu-id="26e53-104">Follow these steps to delete a user-level or a site-level conferencing policy.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e7d64-105">您不能删除全局会议策略。</span><span class="sxs-lookup"><span data-stu-id="e7d64-105">You cannot delete the global conferencing policy.</span></span>
+> <span data-ttu-id="26e53-105">无法删除全局会议策略。</span><span class="sxs-lookup"><span data-stu-id="26e53-105">You cannot delete the global conferencing policy.</span></span>
 
 
 
@@ -51,29 +51,29 @@ ms.locfileid: "41736372"
 
 <div>
 
-## <a name="to-delete-a-site-or-user-conferencing-policy"></a><span data-ttu-id="e7d64-106">删除网站或用户会议策略</span><span class="sxs-lookup"><span data-stu-id="e7d64-106">To delete a site or user conferencing policy</span></span>
+## <a name="to-delete-a-site-or-user-conferencing-policy"></a><span data-ttu-id="26e53-106">删除站点或用户会议策略</span><span class="sxs-lookup"><span data-stu-id="26e53-106">To delete a site or user conferencing policy</span></span>
 
-1.  <span data-ttu-id="e7d64-107">使用分配给 CsUserAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="e7d64-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="26e53-107">使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="26e53-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="e7d64-108">打开一个浏览器窗口，然后输入 "管理员" URL 以打开 Lync Server "控制面板"。</span><span class="sxs-lookup"><span data-stu-id="e7d64-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e7d64-109">有关可用于启动 Lync Server "控制面板" 的不同方法的详细信息，请参阅[打开 Lync server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。</span><span class="sxs-lookup"><span data-stu-id="e7d64-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="26e53-108">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="26e53-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="26e53-109">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="26e53-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="e7d64-110">在左侧导航栏中，单击 "**会议**"，然后单击 "**会议策略**"。</span><span class="sxs-lookup"><span data-stu-id="e7d64-110">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
+3.  <span data-ttu-id="26e53-110">在左侧导航栏中，单击“会议”\*\*\*\*，然后单击“会议策略”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="26e53-110">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
 
-4.  <span data-ttu-id="e7d64-111">在会议策略列表中，单击要删除的站点策略或用户策略，再单击“**编辑**”，然后单击“**删除**”。</span><span class="sxs-lookup"><span data-stu-id="e7d64-111">In the list of conferencing policies, click the site or user policy that you want to delete, click **Edit**, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="26e53-111">在会议策略列表中，单击要删除的站点或用户策略，单击 "**编辑**"，然后单击 "**删除**"。</span><span class="sxs-lookup"><span data-stu-id="26e53-111">In the list of conferencing policies, click the site or user policy that you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="e7d64-112">使用 Windows PowerShell Cmdlet 删除会议策略</span><span class="sxs-lookup"><span data-stu-id="e7d64-112">Removing Conferencing Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="26e53-112">使用 Windows PowerShell Cmdlet 删除会议策略</span><span class="sxs-lookup"><span data-stu-id="26e53-112">Removing Conferencing Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="e7d64-113">你可以使用 Lync Server 命令行管理程序和**CsConferencingPolicy** cmdlet 删除会议策略。</span><span class="sxs-lookup"><span data-stu-id="e7d64-113">You can delete conferencing policies by using Lync Server Management Shell and the **Remove-CsConferencingPolicy** cmdlet.</span></span> <span data-ttu-id="e7d64-114">你可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="e7d64-114">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="e7d64-115">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)。</span><span class="sxs-lookup"><span data-stu-id="e7d64-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="26e53-113">您可以使用 Lync Server 命令行管理程序和**set-csconferencingpolicy** cmdlet 删除会议策略。</span><span class="sxs-lookup"><span data-stu-id="26e53-113">You can delete conferencing policies by using Lync Server Management Shell and the **Remove-CsConferencingPolicy** cmdlet.</span></span> <span data-ttu-id="26e53-114">您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="26e53-114">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="26e53-115">有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。</span><span class="sxs-lookup"><span data-stu-id="26e53-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-remove-a-specified-conferencing-policy"></a><span data-ttu-id="e7d64-116">删除指定的会议策略</span><span class="sxs-lookup"><span data-stu-id="e7d64-116">To remove a specified conferencing policy</span></span>
+## <a name="to-remove-a-specified-conferencing-policy"></a><span data-ttu-id="26e53-116">删除指定会议策略</span><span class="sxs-lookup"><span data-stu-id="26e53-116">To remove a specified conferencing policy</span></span>
 
-  - <span data-ttu-id="e7d64-117">以下命令删除 Identity 为 RedmondConferencingPolicy 的会议策略：</span><span class="sxs-lookup"><span data-stu-id="e7d64-117">The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:</span></span>
+  - <span data-ttu-id="26e53-117">以下命令删除 Identity 为 RedmondConferencingPolicy 的会议策略：</span><span class="sxs-lookup"><span data-stu-id="26e53-117">The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:</span></span>
     
         Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 
@@ -81,9 +81,9 @@ ms.locfileid: "41736372"
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a><span data-ttu-id="e7d64-118">删除应用到每用户范围的所有会议策略</span><span class="sxs-lookup"><span data-stu-id="e7d64-118">To remove all of the conferencing policies applied to the per-user scope</span></span>
+## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a><span data-ttu-id="26e53-118">删除适用于每用户范围的所有会议策略</span><span class="sxs-lookup"><span data-stu-id="26e53-118">To remove all of the conferencing policies applied to the per-user scope</span></span>
 
-  - <span data-ttu-id="e7d64-119">以下命令将删除在每用户作用域上配置的所有会议策略：</span><span class="sxs-lookup"><span data-stu-id="e7d64-119">The following command removes all the conferencing policies configured at the per-user scope:</span></span>
+  - <span data-ttu-id="26e53-119">以下命令删除在每用户范围配置的所有会议策略：</span><span class="sxs-lookup"><span data-stu-id="26e53-119">The following command removes all the conferencing policies configured at the per-user scope:</span></span>
     
         Get-CsConferencingPolicy -Filter "tag:*" | Remove-CsConferencingPolicy
 
@@ -91,15 +91,15 @@ ms.locfileid: "41736372"
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a><span data-ttu-id="e7d64-120">删除允许外部用户录制的所有会议策略</span><span class="sxs-lookup"><span data-stu-id="e7d64-120">To remove all of the conferencing polices that allow recording by external users</span></span>
+## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a><span data-ttu-id="26e53-120">删除允许外部用户记录的所有会议策略</span><span class="sxs-lookup"><span data-stu-id="26e53-120">To remove all of the conferencing polices that allow recording by external users</span></span>
 
-  - <span data-ttu-id="e7d64-121">以下命令将删除任何允许外部用户录制会议的会议策略：</span><span class="sxs-lookup"><span data-stu-id="e7d64-121">The following command deletes any conferencing policies that allow external users to record the conference:</span></span>
+  - <span data-ttu-id="26e53-121">以下命令删除允许外部用户记录会议的所有会议策略：</span><span class="sxs-lookup"><span data-stu-id="26e53-121">The following command deletes any conferencing policies that allow external users to record the conference:</span></span>
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
 </div>
 
-<span data-ttu-id="e7d64-122">有关详细信息，请参阅[Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy)。</span><span class="sxs-lookup"><span data-stu-id="e7d64-122">For details, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy).</span></span>
+<span data-ttu-id="26e53-122">有关详细信息，请参阅[set-csconferencingpolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy)。</span><span class="sxs-lookup"><span data-stu-id="26e53-122">For details, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy).</span></span>
 
 </div>
 
