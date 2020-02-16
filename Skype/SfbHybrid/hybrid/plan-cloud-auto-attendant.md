@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 将云自动助理与 Skype for Business Server 2019 结合使用的概述
-ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724222"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037814"
 ---
 # <a name="plan-cloud-auto-attendants"></a>规划云自动助理
 
@@ -98,7 +98,7 @@ Microsoft 建议采用以下迁移途径：
 如果您具有满足需求的实体结构和指导客户有效的脚本，请继续[配置资源帐户](configure-onprem-ra.md)。
 
 > [!CAUTION]
-> 如[KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)中所述，不鼓励将在服务器2015中创建的 Exchange UM 自动助理移动到运行服务器2019的服务器。 在这种情况下，您必须将其保留在共存模式下运行的 Skype for Business Server 2015 池上。
+> 如[KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)中所述，不鼓励将在服务器2015中创建的 Exchange UM 自动助理移动到运行服务器2019的服务器。 在这种情况下，您必须将其保留在共存模式下运行的 Skype for Business Server 2015 池上。
 
 ## <a name="see-also"></a>另请参阅
 

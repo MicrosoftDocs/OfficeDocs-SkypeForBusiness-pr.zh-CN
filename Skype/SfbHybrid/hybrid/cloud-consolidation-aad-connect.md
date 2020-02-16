@@ -21,16 +21,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括更新 AAD 连接的详细步骤，以包含多个林作为针对团队和 Skype for business 的云合并的一部分。
-ms.openlocfilehash: 3d3d72c14957f0ed8932d95fcd2dbe9ec9c1e37e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a61a45c8a492afd761f8cc6b1020b591851645b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696057"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049094"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>更新 AAD Connect 以包含多个林
 
-Azure AD Connect 支持[来自多个林的同步](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-topologies)。 但是，它仅支持 Azure AD Connect 同步到 AAD 的一个实例。 因此，在 Azure AD 已安装在一个林中的情况下，必须更新 AAD 连接的现有实例以从其他林同步。
+Azure AD Connect 支持[来自多个林的同步](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-topologies)。 但是，它仅支持 Azure AD Connect 同步到 AAD 的一个实例。 因此，在 Azure AD 已安装在一个林中的情况下，必须更新 AAD 连接的现有实例以从其他林同步。
 
  - 如果所有标识在两个林之间仅表示一次（即，您尚未创建任何启用邮件的联系人），则可以简单地重新运行 AAD 连接向导，选择 "自定义同步选项"，然后在 "**连接目录**" 页上，输入其他林和凭据的名称。<br><br>
  !["连接目录" 页](../media/cloud-consolidation-connect-your-directories.png)

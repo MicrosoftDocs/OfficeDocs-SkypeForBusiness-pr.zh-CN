@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 规划在 Skype for business Server 和 Skype for business Online 或团队之间实施混合连接的注意事项。
-ms.openlocfilehash: 55986df708c1ce190605ecef77b3789ae7e55db5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a1513b307c6f55f6b403a0d5db85ac14d1f7a6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756006"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043374"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>规划 Skype for Business Server 和 Office 365 之间的混合连接
 
@@ -68,7 +68,7 @@ ms.locfileid: "41756006"
 - 启用了 Skype for Business Online 的 Microsoft Office 365 租户。
     > [!NOTE]
     > 您可以仅将一个租户用于与本地部署的混合配置。
-- Azure Active Directory Connect，用于将本地目录与 Office 365 同步。 有关详细信息，请参阅[AZURE AD Connect：帐户和权限](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
+- Azure Active Directory Connect，用于将本地目录与 Office 365 同步。 有关详细信息，请参阅[AZURE AD Connect：帐户和权限](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 - Skype for Business Server 管理工具。  这是将用户从本地迁移到云所必需的。 必须在具有本地部署和 internet 访问权限的服务器上安装这些工具。
 - 联机管理工具。  您可以使用团队管理员中心或 Windows PowerShell 管理团队和 Skype for Business Online。 若要使用 PowerShell 管理团队或 Skype for business Online，请下载并安装 Skype for Business Online 连接器。
 - 必须启用共享 SIP 地址空间，并且必须将本地部署配置为使用 Office 365 作为托管提供程序。 有关配置混合连接所需步骤的详细信息，请参阅[配置混合连接](configure-hybrid-connectivity.md)。
@@ -89,7 +89,7 @@ ms.locfileid: "41756006"
   - Lync Server 2013 和 Skype for Business Server 2019
   - Lync Server 2013 和 Skype for Business Server 2015
 
-*如果任何拓扑中都需要混合语音*，则被指定为联盟边缘的边缘服务器以及与 SIP 联合关联的池必须运行 Skype for business 2015 或更高版本。 用户可以保留在 Lync 2013 池（如果存在）。 有关更多详细信息，请参阅[在 Skype For Business Server 中规划带有 PSTN 连接的电话系统](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
+*如果任何拓扑中都需要混合语音*，则被指定为联盟边缘的边缘服务器以及与 SIP 联合关联的池必须运行 Skype for business 2015 或更高版本。 用户可以保留在 Lync 2013 池（如果存在）。 有关更多详细信息，请参阅[在 Skype For Business Server 中规划带有 PSTN 连接的电话系统](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
 
 包含 Lync Server 2010 的以下拓扑支持用于即时消息和会议的**Skype For Business Online** 。  **混合语音和团队不支持包含 Lync Server 2010**的拓扑。
 
@@ -112,7 +112,7 @@ Microsoft 支持以下类型的多林混合方案：
 - **多个林中的 Skype for Business Server 的多个部署。** 这种配置可因合并和收购方案以及在更复杂的企业中而产生。  将所有用户从本地部署到单个 Office 365 租户中的云，可以为具有多个 Skype for Business 部署的任何组织实现，前提是满足以下关键要求：
 
   - 至少必须有一个 Office 365 租户。 不支持在具有多个 Office 365 租户的方案中进行合并。
-  - 在任何给定时间，只有一个本地 Skype for Business 林可以处于混合模式（共享 SIP 地址空间）。 所有其他本地 Skype for business 林必须在内部部署中保持完全（且大概相互联合）。 请注意，如果需要，可通过新功能将这些其他内部部署组织同步到 AAD，以禁用2018年12月提供的[联机 SIP 域](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)。
+  - 在任何给定时间，只有一个本地 Skype for Business 林可以处于混合模式（共享 SIP 地址空间）。 所有其他本地 Skype for business 林必须在内部部署中保持完全（且大概相互联合）。 请注意，如果需要，可通过新功能将这些其他内部部署组织同步到 AAD，以禁用2018年12月提供的[联机 SIP 域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)。
 
     在多个林中部署 Skype for business 的客户必须将每个 Skype for Business 林单独完全迁移到使用拆分域（共享 SIP 地址空间）功能的 Office 365 租户中，然后再禁用混合本地部署，在继续迁移下一个本地 Skype for Business 部署之前。 此外，在迁移到云之前，本地用户仍将与在同一用户的本地目录中未表示的任何用户保持联合状态。 有关更多详细信息，请参阅[适用于团队和 Skype For business 的云合并](cloud-consolidation.md)。
 

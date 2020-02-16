@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文介绍了如何通过要移动到团队和/或 Skype for business Online 的 Skype for Business （或 Lync）的内部部署（即 Lync）组织实现该合并。
-ms.openlocfilehash: 7f3ad27404ec80e0592baa7174b01363f1aa0ed1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f09359f126a051f72397b10724c6ab51d6ca0c1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726952"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033661"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>针对团队和 Skype for Business 的云整合
 
@@ -42,7 +42,7 @@ ms.locfileid: "41726952"
 将所有用户从本地集成到单个 Office 365 租户中的云，可以为具有多个 Skype for Business 部署的任何组织实现，前提是满足以下关键要求：
 
 - 至少必须有一个 Office 365 租户。 不支持在具有多个 Office 365 租户的方案中进行合并。
-- 在任何给定时间，只有一个本地 Skype for Business 林可以处于混合模式（共享 SIP 地址空间）。 所有其他本地 Skype for business 林必须保持本地（且大概相互联盟）。 请注意，如果需要，*可*通过新功能将这些其他内部部署组织同步到 AAD，以禁用2018年12月提供的[联机 SIP 域](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps)。
+- 在任何给定时间，只有一个本地 Skype for Business 林可以处于混合模式（共享 SIP 地址空间）。 所有其他本地 Skype for business 林必须保持本地（且大概相互联盟）。 请注意，如果需要，*可*通过新功能将这些其他内部部署组织同步到 AAD，以禁用2018年12月提供的[联机 SIP 域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain?view=skype-ps)。
 
 在多个林中部署 Skype for business 的客户必须将单个混合 Skype for business 林的所有用户分别迁移到使用共享 SIP 地址空间功能的 Office 365 租户中，然后通过此功能禁用混合本地部署，在继续迁移下一个本地 Skype for Business 部署之前。 在迁移到云之前，本地用户将保持与在同一用户的本地目录中未表示的任何用户的联合状态。  
 
@@ -63,9 +63,9 @@ ms.locfileid: "41726952"
 2.  确保在本地部署中的所有相关 SIP 域都已验证 Office 365 域。
 3.  选择一个将与 Office 365 混合使用的 Skype for Business 部署。 在此示例中，我们将使用 OriginalCompany。<span>com。
 4.  为将首先变为混合（OriginalCompany）的[林启用 AAD 连接](configure-azure-ad-connect.md)。<span>com）。 
-5.  如果您将向您的组织引入团队，请将[TeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy)的租户范围的策略设置为 SfBWithTeamsCollab 或其他 SfB 模式（SfBOnly 或 SfBWithTeamsCollabAndMeetings）中的一种。 这对于确保仅向仍在本地的用户转移到团队的用户，确保呼叫和聊天的路由非常关键。
+5.  如果您将向您的组织引入团队，请将[TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)的租户范围的策略设置为 SfBWithTeamsCollab 或其他 SfB 模式（SfBOnly 或 SfBWithTeamsCollabAndMeetings）中的一种。 这对于确保仅向仍在本地的用户转移到团队的用户，确保呼叫和聊天的路由非常关键。
 6.  建议在这种情况（但在第11步之前尚不需要）为[其他林启用 AAD 连接](cloud-consolidation-aad-connect.md)（AcquiredCompany。<span>com）。 假定在这两个林中都启用了 AAD 连接，则该组织看起来像**[图 A](#figure-a)**，这可能是一些 emc 的一个常见的起始点。 
-7.  对于由其他本地部署托管的任何 SIP 域（在此示例中为 AcquiredCompany。<span>com）中，使用`Disable-CsOnlineSipDomain`在 PowerShell 中[禁用 Skype for business Online 中的这些 SIP 域](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)。 （这是从2018年12月的新功能。）
+7.  对于由其他本地部署托管的任何 SIP 域（在此示例中为 AcquiredCompany。<span>com）中，使用`Disable-CsOnlineSipDomain`在 PowerShell 中[禁用 Skype for business Online 中的这些 SIP 域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)。 （这是从2018年12月的新功能。）
 8.  为 OriginalCompany[配置 Skype For business 混合](configure-federation-with-skype-for-business-online.md)。<span>com （仍然启用了联机 SIP 域的一种部署）。
 9.  在混合部署（OriginalCompany）中<span> 。com）中，开始[将用户从本地 skype For business 移动到云](move-users-between-on-premises-and-cloud.md)（无论是工作组还是不是团队），以便该帐户托管在 Skype For business Online 中。 现在，组织如**[图 B](#figure-b)** 所示。图 A 中的关键变化是：
     - 来自本地目录的用户现在位于 AAD 中。
@@ -76,11 +76,11 @@ ms.locfileid: "41726952"
     - 禁用与 OriginalCompany 中的 Office 365 通信的功能。<span>com 本地。
     - 更新 OriginalCompany 的 DNS 记录。<span>指向 Office 365 的 com。
 11. 如果尚未执行此操作，请为将成为混合（AcquiredCompany 的[下一个林启用 AAD 连接](cloud-consolidation-aad-connect.md)。<span>com）。 在这种情况下，组织看起来如**[图 C](#figure-c)** 所示。对于某些组织来说，这可能是另一个常见的起始点。 
-12. 在 PowerShell 中，为下一个将成为混合型（AcquiredCompany）的[本地部署启用 SIP 域](https://docs.microsoft.com/en-us/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps)。<span>com。 这是通过使用`Enable-CsOnlineSipDomain`，这是从2018年12月到的新功能提供的。
+12. 在 PowerShell 中，为下一个将成为混合型（AcquiredCompany）的[本地部署启用 SIP 域](https://docs.microsoft.com/powershell/module/skype/enable-csonlinesipdomain?view=skype-ps)。<span>com。 这是通过使用`Enable-CsOnlineSipDomain`，这是从2018年12月到的新功能提供的。
 13. 如果使用的是已关闭的联合身份验证，则必须在**同一**Office 365 中将纯 online 租户的任何 SIP 域（不包括 *. microsoftonline.com）添加为允许的域。 请注意，在更改生效之前可能需要一段时间，并且在早期执行此操作时不会有任何损害，因此我们建议您在迁移到步骤14之前做得好。
 14. 将本地环境更新为接受在线租户中的任何 SIP 域，使其匹配。
     - 将[所有边缘证书中的 SAN 更新](cloud-consolidation-edge-certificates.md)为与之前相同的值，再加上任何现有 online SIP 域（在此示例中，除了 * microsoftonline.com）的值（在本例中为 OriginalCompany）。<span>com。
-    - 请确保 OriginalCompany。<span>com 是本地部署中的一个[允许的域](https://docs.microsoft.com/en-us/powershell/module/skype/new-csalloweddomain)，AcquiredCompany。 添加允许的域。
+    - 请确保 OriginalCompany。<span>com 是本地部署中的一个[允许的域](https://docs.microsoft.com/powershell/module/skype/new-csalloweddomain)，AcquiredCompany。 添加允许的域。
 15. 在本地 AcquiredCompany 之间[启用 Skype For business 混合](configure-federation-with-skype-for-business-online.md)。<span>com 和云。
 16. 根据需要，[将用户从本地迁移到云](move-users-between-on-premises-and-cloud.md)。 您可以直接将用户迁移到[TeamsOnly](/microsoftteams/teams-and-skypeforbusiness-coexistence-and-interoperability)模式，也可以先将其迁移到 Skype For business Online。 在此状态下，组织的外观如**[图 D](#figure-d)** 所示。
 17. 迁移所有用户后，[通过内部部署环境禁用混合部署](cloud-consolidation-disabling-hybrid.md)，以*使组织成为纯云*！
@@ -97,7 +97,7 @@ ms.locfileid: "41726952"
 
 ##### <a name="figure-b"></a>图 B：
 
-- AcquiredCompany.<span>com 是一个[已禁用](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)的联机 SIP 域。 所有用户都是本地的。 如果他们使用的团队没有联盟或互操作性。 在此阶段，Microsoft 建议仅对频道使用团队。
+- AcquiredCompany.<span>com 是一个[已禁用](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)的联机 SIP 域。 所有用户都是本地的。 如果他们使用的团队没有联盟或互操作性。 在此阶段，Microsoft 建议仅对频道使用团队。
 - 已为其中一个内部部署组织启用 Skype for Business 混合。
 - 混合组织中的某些用户已移至云（用户 A 表示为紫色底纹）。 这些用户可以是 Skype for Business Online 用户，也可以是只有具有完全互操作性和联合支持的用户。<br><br>
     ![图 B 图表](../media/cloudconsolidationfigb.png)

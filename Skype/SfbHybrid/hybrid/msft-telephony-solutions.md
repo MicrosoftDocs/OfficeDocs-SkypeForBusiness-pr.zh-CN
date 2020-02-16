@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 介绍 Microsoft 电话解决方案。
-ms.openlocfilehash: 350f7ed0ba2606e34af711bbdd3189c7a0bd1a02
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ab2feb1a7cc650bc9dbb35d3205a6f9de2de7b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765240"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048623"
 ---
 # <a name="microsoft-telephony-solutions"></a>Microsoft 电话解决方案
 
@@ -46,13 +46,13 @@ ms.locfileid: "41765240"
 
 电话系统适用于团队或 Skype for Business Online 客户端和认证的设备。 通过电话系统，你可以将现有的 PBX 系统替换为直接从 Office 365 提供的一组功能，并紧密集成到公司的云生产力体验中。 若要将电话系统连接到公用电话交换网（PSTN），你可以选择 Microsoft 的通话套餐或你自己的电话运营商。
 
-有关详细信息，请参阅[Office 365 中的电话系统是什么？](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365)
+有关详细信息，请参阅[Office 365 中的电话系统是什么？](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)
 
 ### <a name="enterprise-voice-skype-for-business-server"></a>企业语音（Skype for Business Server）
 
 企业语音是 Microsoft 在本地 Skype for business Server 中启用呼叫控制和专用交换机（PBX）功能的技术。 此选项只能通过您自己的电话运营商连接到公共交换电话网络。 
 
-有关详细信息，请参阅[Plan For Enterprise Voice In Skype For Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)。
+有关详细信息，请参阅[Plan For Enterprise Voice In Skype For Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)。
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn-options"></a>与公共交换电话网络（PSTN）选项的连接
 
@@ -65,7 +65,7 @@ ms.locfileid: "41765240"
 
 此选项将 Microsoft 的 Office 365 电话系统连接到公用电话交换网（PSTN），以支持全球范围内的座机和移动电话呼叫。 使用通话套餐，Microsoft 是你的 PSTN 运营商。
 
-有关详细信息，请参阅适用[于 Office 365 的通话套餐](https://docs.microsoft.com/en-us/MicrosoftTeams/calling-plans-for-office-365)。
+有关详细信息，请参阅适用[于 Office 365 的通话套餐](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)。
 
 ### <a name="connect-your-own-telephony-carrier-office-365-and-skype-for-business-on-premises"></a>连接您自己的电话运营商（Office 365 和 Skype for business 本地）
 
@@ -126,7 +126,7 @@ ms.locfileid: "41765240"
 | 需要与第三方运营商签订合同      | 否   |
 | 需要部署和维护 Skype for Business Server 或云连接器版本 | 否 |
 
-\*有关通话套餐可用的国家/地区的详细信息，请参阅[音频会议和通话套餐的国家/地区可用性](https://docs.microsoft.com/en-us/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
+\*有关通话套餐可用的国家/地区的详细信息，请参阅[音频会议和通话套餐的国家/地区可用性](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
 
 
 如果对以下问题的回答是肯定的，那么这是适合您的解决方案：
@@ -137,7 +137,7 @@ ms.locfileid: "41765240"
 - 您不希望自己管理会话边界控制器。
 - 团队和/或 Skype for business Online 具有您的组织所需的所有功能。
 
-有关详细信息，请参阅[office 365 中的电话系统是什么](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365)和[Office 365 的通话套餐](https://docs.microsoft.com/en-us/MicrosoftTeams/calling-plans-for-office-365)。
+有关详细信息，请参阅[office 365 中的电话系统是什么](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)和[Office 365 的通话套餐](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)。
 
 ## <a name="phone-system-with-own-carrier-via-direct-routing"></a>包含通过直接路由的运营商的电话系统
 
@@ -168,7 +168,7 @@ ms.locfileid: "41765240"
 - 您需要与第三方 Pbx 和/或设备进行互操作，例如，美国费用寻呼机、模拟设备
 - 团队具有您的组织所需的所有功能。
 
-有关详细信息，请参阅[Office 365 中的电话系统是什么](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365)和[规划直接路由](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-plan)。
+有关详细信息，请参阅[Office 365 中的电话系统是什么](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)和[规划直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan)。
 
 
 ## <a name="phone-system-with-own-carrier-via-skype-for-business-server-or-cloud-connector-edition"></a>通过 Skype for Business Server 或云连接器版本拥有运营商的电话系统
@@ -198,7 +198,7 @@ ms.locfileid: "41765240"
 - PSTN 呼叫计划在你的地区不可用。
 - 您需要保留当前的 PSTN 运营商。
 
-有关详细信息，请参阅[什么是 Office 365 中的电话系统](https://docs.microsoft.com/en-us/MicrosoftTeams/what-is-phone-system-in-office-365)、 [Skype for business Server 2019](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-server-2019)和[Plan For Skype for business Cloud Connector Edition](https://docs.microsoft.com/en-us/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)。
+有关详细信息，请参阅[什么是 Office 365 中的电话系统](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)、 [Skype for business Server 2019](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2019)和[Plan For Skype for business Cloud Connector Edition](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)。
 
 建议：当业务条件更改时-例如，你不再需要保留 PSTN 运营商--考虑使用选项1或2转到 Microsoft 团队：
 - 最大限度地减少维护成本
@@ -223,7 +223,7 @@ ms.locfileid: "41765240"
 | 需要与第三方运营商签订合同      | 是   |
 | 需要部署和维护 Skype for Business Server | 是 |
 
-有关详细信息，请参阅[Plan For Enterprise Voice In Skype For Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)。
+有关详细信息，请参阅[Plan For Enterprise Voice In Skype For Business Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)。
 
 建议：当业务条件更改时-例如，你不再需要保留 PSTN 运营商--考虑使用选项1或2转到 Microsoft 团队：
 - 最大限度地减少维护成本

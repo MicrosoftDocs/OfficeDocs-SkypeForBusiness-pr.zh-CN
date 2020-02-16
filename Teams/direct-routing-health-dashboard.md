@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何使用运行状况仪表板监视会话边界控制器与直接路由之间的连接。
-ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836072"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051798"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接路由的运行状况仪表板
 
@@ -102,7 +102,7 @@ ms.locfileid: "41836072"
 
 - **同时拨打**-显示已处理 SBC 的并发调用数。 此信息对预测所需的并发信道的数量很有用，并且可以看到趋势。 你可以按天数和呼叫方向（入站/出站/所有流）将数据滑动。
 
-- **网络参数**-从直接路由接口到会话边界控制器测量所有网络参数。 有关推荐值的信息，请参阅为[Microsoft 团队准备组织的网络](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)，并查看客户边缘到 microsoft Edge 推荐值。
+- **网络参数**-从直接路由接口到会话边界控制器测量所有网络参数。 有关推荐值的信息，请参阅为[Microsoft 团队准备组织的网络](https://docs.microsoft.com/microsoftteams/prepare-network)，并查看客户边缘到 microsoft Edge 推荐值。
 
    - 抖动——使用 RTCP （RTP 控制协议）在两个终结点之间计算的网络传播延迟时间变化的毫秒度量。
 

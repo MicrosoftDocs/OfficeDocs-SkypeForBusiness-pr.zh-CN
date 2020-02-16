@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关为驻留在 Skype for business Server 上的用户实施基于云的语音邮件的说明。
-ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8fab0cf237137d87a8b7e49be65232dc0595de6d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888531"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041241"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>为本地用户配置云语音邮件服务
 
@@ -86,7 +86,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     组织名称也是 Office 365 中的默认域名。
 
-- **租户**用于在 Office 365 中标识你的租户。 有关详细信息，请参阅[查找 Office 365 租户 ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b)。
+- **租户**用于在 Office 365 中标识你的租户。 有关详细信息，请参阅[查找 Office 365 租户 ID](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b)。
 
 若要确保已成功创建托管的语音邮件策略，请运行以下命令：
 

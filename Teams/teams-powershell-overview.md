@@ -15,12 +15,12 @@ f1.keywords:
 description: 了解如何使用 PowerShell 控件管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
+ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035354"
+ms.locfileid: "42052519"
 ---
 # <a name="teams-powershell-overview"></a>Teams PowerShell 概览
 
@@ -79,7 +79,7 @@ PowerShell 控件的参考文档将告诉你你正在调查的 cmdlet 所在的�
 
 ## <a name="managing-policies-via-powershell"></a>通过 PowerShell 管理策略
 
-用于管理策略的 cmdlet 位于[Skype For business cmdlet 模块](https://www.microsoft.com/download/details.aspx?id=39366)中。
+使用[Skype For business cmdlet 模块](https://www.microsoft.com/download/details.aspx?id=39366)中的 cmdlet 管理单个用户的策略。
 
 > [!NOTE]
 > 一旦连接到 Skype for Business Online，cmdlet 将在你的 PowerShell 会话中可用。 有关详细信息，请参阅[管理 Office 365 PowerShell 的 Skype For Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。 
