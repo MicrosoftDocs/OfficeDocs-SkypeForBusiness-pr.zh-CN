@@ -25,7 +25,7 @@ ms.locfileid: "42044894"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobile-client-deployment-process-in-lync-server-2013"></a><span data-ttu-id="4f53f-102">Lync Server 2013 中的移动客户端部署过程</span><span class="sxs-lookup"><span data-stu-id="4f53f-102">Mobile client deployment process in Lync Server 2013</span></span>
+# <a name="mobile-client-deployment-process-in-lync-server-2013"></a><span data-ttu-id="0f0dc-102">Lync Server 2013 中的移动客户端部署过程</span><span class="sxs-lookup"><span data-stu-id="0f0dc-102">Mobile client deployment process in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42044894"
 
 <span> </span>
 
-<span data-ttu-id="4f53f-103">_**上次修改的主题：** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="4f53f-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="0f0dc-103">_**上次修改的主题：** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="0f0dc-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="4f53f-104">在 Microsoft Lync Server 2013 的部署完成后，用户可以从他们习惯于其特定设备使用的移动市场安装 Lync 2013 应用程序。</span><span class="sxs-lookup"><span data-stu-id="4f53f-104">After a deployment of Microsoft Lync Server 2013 has been completed, users can install the Lync 2013 app from the mobile marketplace that they are accustomed to using for their specific device.</span></span>
+<span data-ttu-id="0f0dc-104">在 Microsoft Lync Server 2013 的部署完成后，用户可以从他们习惯于其特定设备使用的移动市场安装 Lync 2013 应用程序。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-104">After a deployment of Microsoft Lync Server 2013 has been completed, users can install the Lync 2013 app from the mobile marketplace that they are accustomed to using for their specific device.</span></span>
 
 <div>
 
-## <a name="lync-mobile-deployment-process"></a><span data-ttu-id="4f53f-105">Lync 移动部署过程</span><span class="sxs-lookup"><span data-stu-id="4f53f-105">Lync Mobile Deployment Process</span></span>
+## <a name="lync-mobile-deployment-process"></a><span data-ttu-id="0f0dc-105">Lync 移动部署过程</span><span class="sxs-lookup"><span data-stu-id="0f0dc-105">Lync Mobile Deployment Process</span></span>
 
 
 <table>
@@ -53,60 +53,60 @@ ms.locfileid: "42044894"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="4f53f-106">阶段</span><span class="sxs-lookup"><span data-stu-id="4f53f-106">Phase</span></span></th>
-<th><span data-ttu-id="4f53f-107">步骤</span><span class="sxs-lookup"><span data-stu-id="4f53f-107">Steps</span></span></th>
-<th><span data-ttu-id="4f53f-108">Permissions</span><span class="sxs-lookup"><span data-stu-id="4f53f-108">Permissions</span></span></th>
-<th><span data-ttu-id="4f53f-109">文档</span><span class="sxs-lookup"><span data-stu-id="4f53f-109">Documentation</span></span></th>
+<th><span data-ttu-id="0f0dc-106">阶段</span><span class="sxs-lookup"><span data-stu-id="0f0dc-106">Phase</span></span></th>
+<th><span data-ttu-id="0f0dc-107">步骤</span><span class="sxs-lookup"><span data-stu-id="0f0dc-107">Steps</span></span></th>
+<th><span data-ttu-id="0f0dc-108">权限</span><span class="sxs-lookup"><span data-stu-id="0f0dc-108">Permissions</span></span></th>
+<th><span data-ttu-id="0f0dc-109">文档</span><span class="sxs-lookup"><span data-stu-id="0f0dc-109">Documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4f53f-110">执行预安装任务。</span><span class="sxs-lookup"><span data-stu-id="4f53f-110">Perform pre-setup tasks.</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-110">执行预安装任务。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-110">Perform pre-setup tasks.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="4f53f-111">验证 Lync Server 2013 部署。</span><span class="sxs-lookup"><span data-stu-id="4f53f-111">Verify Lync Server 2013 deployment.</span></span></p></li>
-<li><p><span data-ttu-id="4f53f-112">验证证书要求。</span><span class="sxs-lookup"><span data-stu-id="4f53f-112">Verify certificate requirements.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-111">验证 Lync Server 2013 部署。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-111">Verify Lync Server 2013 deployment.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-112">验证证书要求。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-112">Verify certificate requirements.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="4f53f-113">管理员</span><span class="sxs-lookup"><span data-stu-id="4f53f-113">Administrator</span></span></p></td>
-<td><p><span data-ttu-id="4f53f-114">在服务器规划文档中<a href="lync-server-2013-planning-for-mobility.md">规划 Lync Server 2013 中的移动性</a>。</span><span class="sxs-lookup"><span data-stu-id="4f53f-114"><a href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</a> in the server planning documentation.</span></span></p>
-<p><span data-ttu-id="4f53f-115">在服务器部署文档中<a href="lync-server-2013-deploying-mobility.md">部署 Lync Server 2013</a>中的移动功能。</span><span class="sxs-lookup"><span data-stu-id="4f53f-115"><a href="lync-server-2013-deploying-mobility.md">Deploying mobility in Lync Server 2013</a> in the server deployment documentation.</span></span></p>
-<p><span data-ttu-id="4f53f-116">服务器规划文档中<a href="lync-server-2013-certificate-infrastructure-requirements.md">Lync Server 2013 的证书基础结构要求</a>。</span><span class="sxs-lookup"><span data-stu-id="4f53f-116"><a href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate infrastructure requirements for Lync Server 2013</a> in the server planning documentation.</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-113">管理员</span><span class="sxs-lookup"><span data-stu-id="0f0dc-113">Administrator</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-114">在服务器规划文档中<a href="lync-server-2013-planning-for-mobility.md">规划 Lync Server 2013 中的移动性</a>。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-114"><a href="lync-server-2013-planning-for-mobility.md">Planning for mobility in Lync Server 2013</a> in the server planning documentation.</span></span></p>
+<p><span data-ttu-id="0f0dc-115">在服务器部署文档中<a href="lync-server-2013-deploying-mobility.md">部署 Lync Server 2013</a>中的移动功能。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-115"><a href="lync-server-2013-deploying-mobility.md">Deploying mobility in Lync Server 2013</a> in the server deployment documentation.</span></span></p>
+<p><span data-ttu-id="0f0dc-116">服务器规划文档中<a href="lync-server-2013-certificate-infrastructure-requirements.md">Lync Server 2013 的证书基础结构要求</a>。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-116"><a href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate infrastructure requirements for Lync Server 2013</a> in the server planning documentation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f53f-117">在测试设备上安装 Lync 应用程序。</span><span class="sxs-lookup"><span data-stu-id="4f53f-117">Install the Lync application on a test device.</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-117">在测试设备上安装 Lync 应用程序。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-117">Install the Lync application on a test device.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="4f53f-118">安装必备组件。</span><span class="sxs-lookup"><span data-stu-id="4f53f-118">Install prerequisites.</span></span></p></li>
-<li><p><span data-ttu-id="4f53f-119">从特定于移动设备的市场安装。</span><span class="sxs-lookup"><span data-stu-id="4f53f-119">Install from the marketplace specific to the mobile device.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-118">安装必备组件。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-118">Install prerequisites.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-119">从特定于移动设备的市场安装。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-119">Install from the marketplace specific to the mobile device.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="4f53f-120">管理员</span><span class="sxs-lookup"><span data-stu-id="4f53f-120">Administrator</span></span></p></td>
-<td><p><span data-ttu-id="4f53f-121">在<a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的安装说明。</span><span class="sxs-lookup"><span data-stu-id="4f53f-121">Installation instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-120">管理员</span><span class="sxs-lookup"><span data-stu-id="0f0dc-120">Administrator</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-121">在<a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的安装说明。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-121">Installation instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4f53f-122">配置客户端。</span><span class="sxs-lookup"><span data-stu-id="4f53f-122">Configure the client.</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-122">配置客户端。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-122">Configure the client.</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="4f53f-123">配置登录设置和服务器信息。</span><span class="sxs-lookup"><span data-stu-id="4f53f-123">Configure sign-in settings and server information.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-123">配置登录设置和服务器信息。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-123">Configure sign-in settings and server information.</span></span></p></li>
 </ul></td>
-<td><p><span data-ttu-id="4f53f-124">管理员</span><span class="sxs-lookup"><span data-stu-id="4f53f-124">Administrator</span></span></p></td>
-<td><p><span data-ttu-id="4f53f-125"><a href="lync-server-2013-deploying-mobile-clients.md">在 Lync Server 2013 中部署移动客户端</a></span><span class="sxs-lookup"><span data-stu-id="4f53f-125"><a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-124">管理员</span><span class="sxs-lookup"><span data-stu-id="0f0dc-124">Administrator</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-125"><a href="lync-server-2013-deploying-mobile-clients.md">在 Lync Server 2013 中部署移动客户端</a></span><span class="sxs-lookup"><span data-stu-id="0f0dc-125"><a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f53f-126">测试移动应用场景。</span><span class="sxs-lookup"><span data-stu-id="4f53f-126">Test mobile scenarios.</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-126">测试移动应用场景。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-126">Test mobile scenarios.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="4f53f-127">测试即时消息（IM）和状态。</span><span class="sxs-lookup"><span data-stu-id="4f53f-127">Test instant messaging (IM) and presence.</span></span></p></li>
-<li><p><span data-ttu-id="4f53f-128">测试拨出式会议。</span><span class="sxs-lookup"><span data-stu-id="4f53f-128">Test dial-out conferencing.</span></span></p></li>
-<li><p><span data-ttu-id="4f53f-129">搜索公司目录中的联系人。</span><span class="sxs-lookup"><span data-stu-id="4f53f-129">Search for a contact in the corporate directory.</span></span></p></li>
-<li><p><span data-ttu-id="4f53f-130">测试推送通知。</span><span class="sxs-lookup"><span data-stu-id="4f53f-130">Test push notifications.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-127">测试即时消息（IM）和状态。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-127">Test instant messaging (IM) and presence.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-128">测试拨出式会议。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-128">Test dial-out conferencing.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-129">搜索公司目录中的联系人。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-129">Search for a contact in the corporate directory.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-130">测试推送通知。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-130">Test push notifications.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="4f53f-131">管理员</span><span class="sxs-lookup"><span data-stu-id="4f53f-131">Administrator</span></span></p></td>
-<td><p><span data-ttu-id="4f53f-132">在<a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的验证说明。</span><span class="sxs-lookup"><span data-stu-id="4f53f-132">Verification instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-131">管理员</span><span class="sxs-lookup"><span data-stu-id="0f0dc-131">Administrator</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-132">在<a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的验证说明。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-132">Verification instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4f53f-133">在移动电话上安装 Lync 应用程序。</span><span class="sxs-lookup"><span data-stu-id="4f53f-133">Install the Lync application on mobile phones.</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-133">在移动电话上安装 Lync 应用程序。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-133">Install the Lync application on mobile phones.</span></span></p></td>
 <td><ol>
-<li><p><span data-ttu-id="4f53f-134">安装必备组件。</span><span class="sxs-lookup"><span data-stu-id="4f53f-134">Install prerequisites.</span></span></p></li>
-<li><p><span data-ttu-id="4f53f-135">从特定于移动设备的市场安装。</span><span class="sxs-lookup"><span data-stu-id="4f53f-135">Install from the marketplace specific to the mobile device.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-134">安装必备组件。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-134">Install prerequisites.</span></span></p></li>
+<li><p><span data-ttu-id="0f0dc-135">从特定于移动设备的市场安装。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-135">Install from the marketplace specific to the mobile device.</span></span></p></li>
 </ol></td>
-<td><p><span data-ttu-id="4f53f-136">用户</span><span class="sxs-lookup"><span data-stu-id="4f53f-136">User</span></span></p></td>
-<td><p><span data-ttu-id="4f53f-137">在<a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的安装说明。</span><span class="sxs-lookup"><span data-stu-id="4f53f-137">Installation instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-136">用户</span><span class="sxs-lookup"><span data-stu-id="0f0dc-136">User</span></span></p></td>
+<td><p><span data-ttu-id="0f0dc-137">在<a href="lync-server-2013-deploying-mobile-clients.md">Lync Server 2013 中部署移动客户端</a>的移动设备专用的安装说明。</span><span class="sxs-lookup"><span data-stu-id="0f0dc-137">Installation instructions specific to the mobile device in <a href="lync-server-2013-deploying-mobile-clients.md">Deploying mobile clients in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
