@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 5a2c797b1e31dd98d09ee8773396f599f070c3c2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680329"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010955"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>试用或购买 Office 365 for Skype for Business Online 中的音频会议
 
@@ -38,7 +38,7 @@ Sometimes people in your organization will need to use a phone to call in to a m
 
 You only need to set up audio conferencing for people who plan to schedule or lead meetings. Meeting attendees who call in to the meeting don't need any licenses assigned to them and don't need other setup.
 
-如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements)。
+如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>步骤1：购买和分配音频会议许可证
 
@@ -98,6 +98,6 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 
 [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
-[音频会议电话号码](phone-numbers-for-audio-conferencing.md)
+[音频会议的电话号码](phone-numbers-for-audio-conferencing.md)
 
 [设置在线会议和会议电话的选项](https://support.office.com/article/DCD1CA39-0C1F-466C-9573-F04138FEF5E2)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Skype for Business Online 中向用户分配会议 ID，以及会议 Id 参数应该是什么。 '
-ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8bec76e25df092beb18725467c3041de3c1d7745
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888061"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010985"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>查看和重置 Skype for Business Online​  中分配给用户的会议 ID
 
@@ -97,7 +97,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 ## <a name="what-else-should-you-know"></a>你还需了解哪些信息？
 
    > [!IMPORTANT]
-   >  在创建新的会议 ID 或重置一个会议 ID 后，呼叫者无法使用旧的会议 id。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype for Business 会议迁移工具更新其现有会议。 若要了解如何下载、安装和运行该工具，请参阅：[适用于 skype for business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、skype For business [Online、会议迁移工具（64位）](https://go.microsoft.com/fwlink/?LinkID=626047)和[Skype For Business online、会议迁移工具（32位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)。
+   >  在创建新的会议 ID 或重置一个会议 ID 后，呼叫者无法使用旧的会议 id。 应通知用户重新安排其现有会议邀请，从而确保将新会议 ID 添加到邀请中。 用户可以使用 Skype for Business 会议迁移工具更新其现有会议。 若要了解如何下载、安装和运行该工具，请参阅：[适用于 skype for business 和 Lync 的会议更新工具](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)、skype For business [Online、会议迁移工具（64位）](https://go.microsoft.com/fwlink/?LinkID=626047)和[Skype For Business online、会议迁移工具（32位）](https://www.microsoft.com/download/details.aspx?id=54079)。
 
 - 请参阅 [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) 以了解有关 cmdlet 的更多信息。
 

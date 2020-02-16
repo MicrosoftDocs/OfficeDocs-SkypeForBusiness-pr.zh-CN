@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Security
 description: Skype for Business Online 安全指南 <add description>
-ms.openlocfilehash: 268a9859439ca91b5ad7cd8d5e32edf707860cde
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e1cb2c51e688c460f86b1ee4956155bbaa2ea293
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706807"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006007"
 ---
 # <a name="security-and-skype-for-business-online"></a>安全和 Skype for business Online
 
 Skype for business Online （SfBO）作为 Office 365 服务的一部分，可通过纵深防御、服务内的客户控件、安全强化和操作最佳做法等所有安全最佳做法和过程（如服务级别安全）。有关完整的详细信息，请参阅 Microsoft 信任中心https://microsoft.com/trustcenter)（。
 
 ## <a name="trustworthy-by-design"></a>设计方面的可信赖性
-Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
+Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
 
 ## <a name="trustworthy-by-default"></a>默认的可信赖性
 Network communications in Skype for Business Online are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Skype for Business Online data is protected on the network.
@@ -207,7 +207,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 在 SfBO 中，IT 管理员可以通过 O365 管理门户或使用租户远程 PowerShell （TRPS）管理其服务。租户管理员使用新式身份验证对 TRPS 进行身份验证。
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>在 Internet 边界配置对 SfBO 的访问
-若要使 SfBO 正常工作（用户能够加入会议等），客户需要配置其 internet 访问权限，以便允许向 SfBO 云中的服务进行出站 UDP 和 TCP 流量。有关详细信息，请参阅此处：https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
+若要使 SfBO 正常工作（用户能够加入会议等），客户需要配置其 internet 访问权限，以便允许向 SfBO 云中的服务进行出站 UDP 和 TCP 流量。有关详细信息，请参阅此处：https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 和 TCP 443
 

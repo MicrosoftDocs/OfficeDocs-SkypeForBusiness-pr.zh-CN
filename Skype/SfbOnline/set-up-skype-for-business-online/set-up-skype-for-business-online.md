@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: '了解如何为你的组织设置域、用户、即时消息和状态以安装 Skype for Business。另请参阅如何设置音频会议、电话系统和通话套餐以及 Skype 会议直播。 '
-ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010785"
 ---
 # <a name="set-up-skype-for-business-online"></a>设置 Skype for Business Online
 
@@ -41,7 +41,7 @@ ms.locfileid: "41769595"
 
 ## <a name="1-plan-for-skype-for-business"></a>1. 规划 Skype for Business
 
-如果有 **[Office 365 商业高级版](https://products.office.com/en-us/business/office-365-business-premium)** 或 **商业协作版** ，则可使用 Skype for Business 拨打联机电话给企业中订阅上的其他人。 例如，如果企业有 10 个人，则在执行下面的步骤 2-6 之后，即可相互[开始使用 Skype for Business 进行即时消息通信和联机会议](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，并[使用 Skype for Business 召开会议](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 而且你还可以[在 Outlook 中设置 Skype for Business 会议](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)以召开联机会议！
+如果有 **[Office 365 商业高级版](https://products.office.com/business/office-365-business-premium)** 或 **商业协作版** ，则可使用 Skype for Business 拨打联机电话给企业中订阅上的其他人。 例如，如果企业有 10 个人，则在执行下面的步骤 2-6 之后，即可相互[开始使用 Skype for Business 进行即时消息通信和联机会议](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)，并[使用 Skype for Business 召开会议](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)。 而且你还可以[在 Outlook 中设置 Skype for Business 会议](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)以召开联机会议！
 
 如果你想使用 Skype for Business 与组织 **外部** 的用户进行 *通话*  ，则有下列选项：
 

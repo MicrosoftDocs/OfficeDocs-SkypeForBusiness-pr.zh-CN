@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: Skype for Business Online 计划1已停用。 但是，如果您有 Skype for business Online 计划1的当前订阅，此更改不会影响您的使用。 准备好迁移到新计划时（无论是现在还是在续订期间），你将有三个选项。
-ms.openlocfilehash: d0d553946ddbde84ede48b715332e66aea75dac4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b6642ccea185136c21e6064a8af9f271491c1f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692657"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029083"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online（计划 1）停用 
 
@@ -38,7 +38,7 @@ Skype for Business Online 计划1已停用。 但是，如果您有 Skype for bu
 
 ## <a name="switching-to-office-365-f1"></a>切换到 Office 365 F1
 
-如果你想要利用 Office 365 F1 提供的附加功能，则此选项是理想的做法。 若要了解详细信息并获取定价信息，请参阅[Office 365 F1](https://products.office.com/en-us/business/office-365-f1)。
+如果你想要利用 Office 365 F1 提供的附加功能，则此选项是理想的做法。 若要了解详细信息并获取定价信息，请参阅[Office 365 F1](https://products.office.com/business/office-365-f1)。
 
 
 ### <a name="how-to-switch"></a>如何切换 

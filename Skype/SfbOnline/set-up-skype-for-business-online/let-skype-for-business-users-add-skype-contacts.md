@@ -20,18 +20,18 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '了解如何让使用 Skype for Business 的人员联系你组织外部的 Skype for Business 用户并将其添加到联系人列表。 '
-ms.openlocfilehash: d6251e8e86527172e6818d11b1e07da892b4b0ef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ffefa664845f5dbe06b064e0a197a28d8df2c3da
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692877"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010805"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>允许 Skype for Business 用户添加 Skype 联系人
 
 通过 Skype for Business，你的用户可以搜索使用 Skype 这一免费应用的任何人并与其进行即时消息通信！本文介绍为使你的用户能够添加 Skype 联系人，你需要执行的操作。 
   
-必须在 Office 365 中拥有[管理员角色](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)才能执行此操作。
+必须在 Office 365 中拥有[管理员角色](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US)才能执行此操作。
 
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
   
@@ -55,11 +55,11 @@ ms.locfileid: "41692877"
     
 6.  如果你使用的是 Windows 防火墙，Skype for Business 将自动打开所需端口。
     
-    如果贵组织使用其他解决方案限制网络中的计算机连接至 Internet，请确保客户端计算机能够访问用于 Skype 连接和 Skype 目录搜索的所有 [IP 地址和 URL](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。为此，可能需要将其添加到你的防火墙或代理基础结构配置中的出站允许列表内。
+    如果贵组织使用其他解决方案限制网络中的计算机连接至 Internet，请确保客户端计算机能够访问用于 Skype 连接和 Skype 目录搜索的所有 [IP 地址和 URL](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。为此，可能需要将其添加到你的防火墙或代理基础结构配置中的出站允许列表内。
     
 7. **测试最长需要等待 24 小时** 。如果你更改了外部通信设置，最长需要等待 24 小时才能让更改传播到所有数据中心。
     
-8. 向你的用户演示如何查找 Skype 联系人并将他们添加到其 Skype for Business 联系人列表。请指示他们查看[在 Skype for Business 中搜索人员](https://support.office.com/en-us/article/b12500ef-e37f-4d22-aade-c11277e53f19)。
+8. 向你的用户演示如何查找 Skype 联系人并将他们添加到其 Skype for Business 联系人列表。请指示他们查看[在 Skype for Business 中搜索人员](https://support.office.com/article/b12500ef-e37f-4d22-aade-c11277e53f19)。
     
 ## <a name="test-and-troubleshoot"></a>测试和故障排除
 
@@ -73,7 +73,7 @@ ms.locfileid: "41692877"
   
 3. 在 Skype for Business 中，搜索你的 Skype 联系人，然后发送聊天请求。 
     
-    如果收到由于公司策略无法发送的消息，你需要再次检查你的[防火墙设置](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 
+    如果收到由于公司策略无法发送的消息，你需要再次检查你的[防火墙设置](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 
     
 4. 另一个测试问题是否出自你的防火墙的方法是在不受你的防火墙保护的 WiFi 位置（例如咖啡店）使用 Skype for Business 向你的 Skype 联系人发送聊天请求。 
     

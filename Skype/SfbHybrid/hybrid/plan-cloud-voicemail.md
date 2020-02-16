@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍了实施 Microsoft 云语音邮件服务的好处、规划注意事项和要求。 有关配置云语音邮件的信息，请参阅配置云语音邮件。
-ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765693"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006017"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>为本地用户规划云语音邮件服务
 
@@ -46,7 +46,7 @@ Skype for Business Server 2019 继续为其邮箱位于早期版本的 Exchange 
 - 无需配置 Exchange UM 角色。
 - 云语音邮件的设置任务更简单。
 - 对语音邮件功能的更新是直接在云中传递的，因此，您的用户始终可以访问最新的功能和更新，而不依赖于累积更新（Cu）。
-- 对于内部部署和联机 Exchange 邮箱，都具有相同的控件集。 有关这些控件的详细信息，请参阅[设置电话系统语音邮件](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US)。
+- 对于内部部署和联机 Exchange 邮箱，都具有相同的控件集。 有关这些控件的详细信息，请参阅[设置电话系统语音邮件](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US)。
 
 下图显示了混合部署中的云语音邮件：
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: 了解有哪些 Skype for Business 用户统计信息，例如，已启用的用户数、启用会议的用户数或已启用 Office 365 的用户数。
-ms.openlocfilehash: 8771171f9b6e2bf0d2590e9a8a66242d4379e716
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f4d98b8c8a57551dc71d1b38436c204aff67ec27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010745"
 ---
 # <a name="user-statistics-and-organization-information"></a>用户统计信息和组织信息
 
@@ -41,7 +41,7 @@ ms.locfileid: "41769525"
 |Skype for Business Online 用户  <br/> |要添加或阻止用户使用 Skype for Business 应用，请参阅[为 Office 365 商业版分配或删除许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)或[在 Office 365 商业版中删除用户的许可证](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1)。  <br/> 有关用户离开你的企业时需要执行的操作的完整列表，请参阅[从 Office 365 移除以前的员工](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1)。  <br/> |
 |启用音频会议的用户  <br/> |若要为用户启用音频会议，请参阅[在 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)。  <br/> |
 |云中的用户  <br/> |这是拥有 Office 365 帐户的 Skype for Business Online 用户数。  <br/> 要向你的 Office 365 订阅添加用户（即，为其创建 Office 365 帐户），请参阅[以单个或批量方式向 Office 365 添加用户 - 管理员帮助](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec)。  <br/> |
-|已同步并联机托管的用户  <br/> |这是在 Skype for Business Server 本地部署中创建但已同步到 Office 365 的混合用户数。  <br/> 要设置 Skype for Business 混合连接，请参阅[在 Skype for Business Server 和 Skype for Business Online 之前部署混合连接](https://technet.microsoft.com/en-us/library/jj204669.aspx)。  <br/> |
+|已同步并联机托管的用户  <br/> |这是在 Skype for Business Server 本地部署中创建但已同步到 Office 365 的混合用户数。  <br/> 要设置 Skype for Business 混合连接，请参阅[在 Skype for Business Server 和 Skype for Business Online 之前部署混合连接](https://technet.microsoft.com/library/jj204669.aspx)。  <br/> |
    
 > [!NOTE]
 > 如果你看到列出了“不可用”，这意味着没有信息或存在错误。 

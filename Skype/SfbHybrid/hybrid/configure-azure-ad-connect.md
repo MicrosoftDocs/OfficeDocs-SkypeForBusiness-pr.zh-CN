@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在混合环境中配置 Azure AD Connect 的说明。
-ms.openlocfilehash: 3060ef443fd2ee57157c2590441c5fe04b1d8739
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7ae6fb7d3df6d955437a51224637264033bfa662
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726932"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41982987"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>为团队和 Skype for business 配置 Azure AD Connect
  
@@ -34,12 +34,12 @@ ms.locfileid: "41726932"
 
 ## <a name="background-information"></a>背景信息
 
-Azure Active Directory Connect 保持您的本地 Active Directory 持续与 Office 365 保持同步。  您的本地目录仍是身份的权威源，并且您的本地环境中的更改将同步到 Azure AD 中。 有关详细信息，请参阅[AZURE AD Connect Sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)。 即使您不将所有用户从本地迁移到云，使用团队、Skype for Business 本地或 Skype for business Online 的所有用户都必须从内部部署同步到 Azure AD，以确保本地用户和联机用户之间的通信。 *您的组织中的用户将在本地目录和联机目录中进行表示。*
+Azure Active Directory Connect 保持您的本地 Active Directory 持续与 Office 365 保持同步。  您的本地目录仍是身份的权威源，并且您的本地环境中的更改将同步到 Azure AD 中。 有关详细信息，请参阅[AZURE AD Connect Sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)。 即使您不将所有用户从本地迁移到云，使用团队、Skype for Business 本地或 Skype for business Online 的所有用户都必须从内部部署同步到 Azure AD，以确保本地用户和联机用户之间的通信。 *您的组织中的用户将在本地目录和联机目录中进行表示。*
 
 
 ## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>在拥有 Skype for Business Server 时配置 Azure AD 
 
-无论您是否具有一个本地 Active Directory 林或多个林，都可以在各种受支持的拓扑中使用 Azure AD Connect，如[AZURE Ad connect 的拓扑](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)中所述。  从 Skype for Business Server 的角度来看，有三种主要变化： 
+无论您是否具有一个本地 Active Directory 林或多个林，都可以在各种受支持的拓扑中使用 Azure AD Connect，如[AZURE Ad connect 的拓扑](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)中所述。  从 Skype for Business Server 的角度来看，有三种主要变化： 
 
 1. 一个包含权威用户标识和主机 Skype for Business Server 的林。 
 
@@ -66,7 +66,7 @@ Azure Active Directory Connect 保持您的本地 Active Directory 持续与 Off
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>多个林中的多个 Skype for Business Server 部署 
 
-在这种情况下，有多个林，每个林都包含 Skype for Business Server 和一个 Office 365 租户。  可以使用 AAD Connect 将每个包含 Skype for Business Server 的林同步到该租户的 Azure AD 中。 在给定时间，最多只能为 Skype for business 混合配置一个林。 在林中启用混合功能之前，必须使用[csonlineSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain)禁用所有其他林的所有 SIP 域。 有关如何将此类环境合并到 Office 365 的更多详细信息，请参阅[云整合（针对团队和 Skype For business](cloud-consolidation.md)）。
+在这种情况下，有多个林，每个林都包含 Skype for Business Server 和一个 Office 365 租户。  可以使用 AAD Connect 将每个包含 Skype for Business Server 的林同步到该租户的 Azure AD 中。 在给定时间，最多只能为 Skype for business 混合配置一个林。 在林中启用混合功能之前，必须使用[csonlineSipDomain](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)禁用所有其他林的所有 SIP 域。 有关如何将此类环境合并到 Office 365 的更多详细信息，请参阅[云整合（针对团队和 Skype For business](cloud-consolidation.md)）。
 
 ## <a name="general-requirements"></a>一般要求 
 
@@ -74,7 +74,7 @@ Azure Active Directory Connect 保持您的本地 Active Directory 持续与 Off
 
  如果多个林之间存在用户的标识，Azure AD Connect 应执行合并。 当遵循本指南时，Azure AD Connect 将自动同步正确的属性，前提是您不修改 Azure AD Connect 中的连接器或同步规则。 
   
-如果您不从包含用户标识和 Skype for Business Server 部署的所有林同步，您仍必须确保将相关身份和 Skype for business 属性正确地填充到使用团队或 Skype 的任何用户的 Azure AD 中for Business （无论是本地还是联机）--这可能需要其他本地目录同步。 有关详细信息，请参阅[AZURE AD Connect sync：属性同步到 Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)。
+如果您不从包含用户标识和 Skype for Business Server 部署的所有林同步，您仍必须确保将相关身份和 Skype for business 属性正确地填充到使用团队或 Skype 的任何用户的 Azure AD 中for Business （无论是本地还是联机）--这可能需要其他本地目录同步。 有关详细信息，请参阅[AZURE AD Connect sync：属性同步到 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)。
 
 在这种情况下，客户有责任确保将属性填充到 Azure AD 中的正确配置。 请注意下列事项： 
 
@@ -84,10 +84,10 @@ Azure Active Directory Connect 保持您的本地 Active Directory 持续与 Off
 
 ## <a name="related-information"></a>相关信息
 
-- [什么是混合标识](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
+- [什么是混合标识](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity?toc=%2Fen-us%2Fazure%2Factive-directory%2Fhybrid%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json)
 
-- [Azure AD Connect 同步：了解和自定义同步](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)
+- [Azure AD Connect 同步：了解和自定义同步](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
-- [Azure AD Connect 的拓扑](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)
+- [Azure AD Connect 的拓扑](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
 
-- [Azure AD Connect sync：属性已同步到 Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+- [Azure AD Connect sync：属性已同步到 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在启用了混合的 Skype for Business Server 的本地部署中，可以在本地环境和云（无论是 Microsoft 团队还是 Skype for Business Online）之间移动用户。。
-ms.openlocfilehash: 0f0a29ab88f17c80227e6dc6968be85457dc799e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726762"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008604"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在内部部署和云之间移动用户
 
@@ -100,4 +100,4 @@ ms.locfileid: "41726762"
 
 [规划直接路由](/microsoftteams/direct-routing-plan)
 
-[移动-Get-csuser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[移动-Get-csuser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

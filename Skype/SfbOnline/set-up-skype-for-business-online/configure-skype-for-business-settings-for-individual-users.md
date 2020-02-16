@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: d6054db4bfdd8b161dca427237a10d70ba558fcb
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769685"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010885"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理员：为单个用户配置 Skype for Business 设置
 
@@ -43,7 +43,7 @@ ms.locfileid: "41769685"
 ## <a name="configure-general-settings-for-one-user"></a>为一个用户配置常规设置
 <a name="__toc325019204"> </a>
 
-您必须具有[管理员权限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行这些步骤。
+您必须具有[管理员权限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行这些步骤。
 
 ![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
   
@@ -67,7 +67,7 @@ ms.locfileid: "41769685"
 |:-----|:-----|
 |音频和 HD 视频  <br/> |允许此人录制音频会议、音频和视频会议，或不允许他们安排任何会议（无）。  <br/> |
 |录制对话和会议  <br/> |选择此人可以记录的内容。  <br/> Skype for Business Basic 不支持此选项。  <br/> |
-|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项将关闭在 Exchange 管理中心内设置了[就地保留](https://technet.microsoft.com/en-us/library/ff637980%28v=exchg.150%29.aspx)时不捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
+|为了符合规范，请禁用非存档功能  <br/> | 如果法律要求你以电子形式存储信息，请选择此选项。 <br/>  选择此选项将关闭在 Exchange 管理中心内设置了[就地保留](https://technet.microsoft.com/library/ff637980%28v=exchg.150%29.aspx)时不捕获的功能。 将关闭以下功能： <br/>  使用即时消息传输文件 <br/>  共享 OneNote 页面 <br/>  PowerPoint 批注 <br/> |
    
 若要批量配置这些设置，请使用 PowerShell。 请参阅[设置适用于 Windows PowerShell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   

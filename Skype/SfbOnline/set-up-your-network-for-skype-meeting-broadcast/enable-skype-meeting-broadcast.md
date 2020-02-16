@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 在组织中的人员可以使用 Skype 会议直播之前，您需要启用它。若要执行此操作，您需要了解如何使用 Windows PowerShell。如果不知道 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴来为你执行此步骤。
-ms.openlocfilehash: 6ad681972bb62fa1790290a90d4281fe4ccd8571
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010605"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>启用 Skype 会议直播
 
@@ -86,7 +86,7 @@ ms.locfileid: "41692627"
     > [!TIP]
     > [!提示] 更改后，可能需要长达一小时才能在 Skype 会议广播门户中生效。 
   
-10. 现在，你的用户可以与贵企业中的其他用户举行直播会议。要让他们了解如何开始，请指示他们参考[什么是 Skype 会议直播？](https://support.office.com/en-us/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
+10. 现在，你的用户可以与贵企业中的其他用户举行直播会议。要让他们了解如何开始，请指示他们参考[什么是 Skype 会议直播？](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>配置网络以便让外部与会者参加直播会议
 

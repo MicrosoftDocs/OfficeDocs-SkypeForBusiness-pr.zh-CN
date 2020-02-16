@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: c48136176673676df83833833b4424d8d0a593f3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 94a5adc1e9f9abf5529aaf5b149d9cfc906efbe8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706077"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010565"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Skype for Business 附加许可
 
@@ -44,11 +44,11 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 
 成本的详细信息，请参阅 [如何查看价格和购买加载项许可证](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) 或下列选项之一：
 
-- [音频会议的定价](https://products.office.com/en-us/skype-for-business/audio-conferencing)
+- [音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing)
 
-- [电话系统定价](https://products.office.com/en-us/skype-for-business/phone-system)
+- [电话系统定价](https://products.office.com/skype-for-business/phone-system)
 
-- [通话套餐的定价](https://products.office.com/en-us/skype-for-business/calling-plans)
+- [通话套餐的定价](https://products.office.com/skype-for-business/calling-plans)
 
 ## <a name="what-features-can-i-get-with-add-on-licenses"></a>有了附加许可证，我可以获得哪些功能？
 
@@ -57,10 +57,10 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 |||
 |:-----|:-----|
 |**功能** <br/> |**说明** <br/> |
-|**音频会议** <br/> |有时，您的组织中的人员需要使用电话拨入 Skype for Business 会议，而不是使用其计算机。在此情况下使用音频会议功能。<br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果要查找它的价格，请参阅 [音频会议的要求](https://products.office.com/en-us/skype-for-business/audio-conferencing#requirements)。  <br/> |
+|**音频会议** <br/> |有时，您的组织中的人员需要使用电话拨入 Skype for Business 会议，而不是使用其计算机。在此情况下使用音频会议功能。<br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果要查找它的价格，请参阅 [音频会议的要求](https://products.office.com/skype-for-business/audio-conferencing#requirements)。  <br/> |
 |**用于拨入会议的免费电话号码，以及通过呼叫世界各地的任何电话号码从会议拨出以添加其他人的功能** <br/> |如果要添加音频会议，我们建议你 [设置通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)。 <br/> |
-|**电话系统** <br/> |PBX 是企业中的电话系统。Office 365 中的电话系统是托管电话服务。它为您提供传统和创新的 PBX 功能，但没有复杂且昂贵的设备。[下面是使用 Office 365 中的电话系统所获得的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。<br/> 如果要查找它的价格，请参阅 [电话系统的要求](https://products.office.com/en-us/skype-for-business/cloud-pbx#requirements)。  <br/> |
-|**通话套餐** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> 如果要查找它的的价格，请参阅 [通话套餐的要求](https://products.office.com/en-us/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
+|**电话系统** <br/> |PBX 是企业中的电话系统。Office 365 中的电话系统是托管电话服务。它为您提供传统和创新的 PBX 功能，但没有复杂且昂贵的设备。[下面是使用 Office 365 中的电话系统所获得的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。<br/> 如果要查找它的价格，请参阅 [电话系统的要求](https://products.office.com/skype-for-business/cloud-pbx#requirements)。  <br/> |
+|**通话套餐** <br/> |Calls to other Skype for Business users are free, but if you want your users to be able to call any phone numbers outside of your business, get a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365). There are Domestic Calling Plans and Domestic and International Calling Plans in Office 365.  <br/> 如果要查找它的的价格，请参阅 [通话套餐的要求](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
 |**Microsoft Teams 会议室** <br/> |这不是加载项，而是将视频、音频和内容共享带入会议室的功能。请参阅[Microsoft 团队聊天室](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)。<br/> |
 
 Need to talk to someone about all the add-on options? [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
@@ -91,11 +91,11 @@ The add-on licensing options available to you depends on your Office 365 or Skyp
 ## <a name="how-do-i-use-my-existing-calling-plans-with-skype-for-business"></a>如何将我的现有通话计划用于 Skype for Business？
 <a name="bkmk_existing"></a>
 
-如果您想要使用您现有的通话计划，请购买 "**电话系统**加载项"，并将其与**[免费的云连接器](https://technet.microsoft.com/en-us/library/mt605227.aspx)** 配合使用。
+如果您想要使用您现有的通话计划，请购买 "**电话系统**加载项"，并将其与**[免费的云连接器](https://technet.microsoft.com/library/mt605227.aspx)** 配合使用。
 
 If you are using on-premises PSTN connectivity for hybrid users, you  *only*  assign **Phone System** licenses to your users. **DO NOT** also assign a Calling Plan.
 
-有关规划部署（包括电话系统与本地 PSTN 连接）的详尽文档，请参阅 [规划 Office 365 (云 PBX) 解决方案中电话系统](https://technet.microsoft.com/en-us/library/mt612869.aspx)。
+有关规划部署（包括电话系统与本地 PSTN 连接）的详尽文档，请参阅 [规划 Office 365 (云 PBX) 解决方案中电话系统](https://technet.microsoft.com/library/mt612869.aspx)。
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
@@ -110,4 +110,4 @@ If you are using on-premises PSTN connectivity for hybrid users, you  *only*  as
     
 - [添加资金并管理通信点数](/microsoftteams/add-funds-and-manage-communications-credits)
     
-- [配置云连接器](https://technet.microsoft.com/en-us/library/mt605228.aspx)并[下载云连接器](https://aka.ms/CloudConnectorInstaller)
+- [配置云连接器](https://technet.microsoft.com/library/mt605228.aspx)并[下载云连接器](https://aka.ms/CloudConnectorInstaller)

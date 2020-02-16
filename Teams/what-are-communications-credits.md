@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: b8462c7ad3c4f2820f1276be47fa4140ad79755a
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852119"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051566"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -52,7 +52,7 @@ ms.locfileid: "41852119"
   
 ## <a name="what-are-the-communications-credits-rates"></a>什么是通讯信用费率？
 
-如果您想知道呼叫计划的通话费用，请参阅通话计划的通讯信用[费率](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates)（滚动到 "查看您想要拨打的地方的费率"）。
+如果您想知道呼叫计划的通话费用，请参阅通话计划的通讯信用[费率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)（滚动到 "查看您想要拨打的地方的费率"）。
   
 ## <a name="what-is-it"></a>它是什么？
 

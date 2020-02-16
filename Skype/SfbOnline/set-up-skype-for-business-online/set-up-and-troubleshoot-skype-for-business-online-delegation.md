@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 本文介绍如何设置 Skype for Business Online 委派和疑难解答。 本文提供了有关设置建议、最佳做法和疑难解答步骤的指南。
-ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6774fe36760e6a9c53808f33f7a842d5460e0f4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706477"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010795"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Skype for Business Online 委派设置和疑难解答
 
@@ -140,7 +140,7 @@ ms.locfileid: "41706477"
   
 - 不支持创建安全组和为该安全组添加委派权限。
     
-- MAPI 不可用。 请参阅[Skype For business 2016 客户端中的 "MAPI 不可用" 错误](https://support.microsoft.com/en-us/help/3147130)。
+- MAPI 不可用。 请参阅[Skype For business 2016 客户端中的 "MAPI 不可用" 错误](https://support.microsoft.com/help/3147130)。
     
 - 无法通过 Skype for Business 客户端访问 Exchange Online 邮箱。 如果出现这种情况，请运行[Outlook 连接测试](https://testconnectivity.microsoft.com/)以确保它通过。
     

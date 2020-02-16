@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: 7e06d2bddc95b8ab57a2a4a5c47fb4b86837d161
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 956d1eb4e3ad57e2d801a8f08842d646be742a97
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010815"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>让人员可以录制其音频和视频会议
 
@@ -45,7 +45,7 @@ ms.locfileid: "41769605"
 |:-----|:-----|
 |音频和 HD 视频  <br/> PowerPoint 和白板演示  <br/> 桌面或程序共享会话  <br/> |共享 OneNote 页面  <br/> PowerPoint 批注  <br/> 共享文件（附件）  <br/> |
    
-有关详细信息，请参阅[Lync 录制 "保存并发布](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e)" 和 " [Lync 录制管理器](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b)"。 
+有关详细信息，请参阅[Lync 录制 "保存并发布](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e)" 和 " [Lync 录制管理器](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b)"。 
   
 ## <a name="related-topics"></a>相关主题
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)

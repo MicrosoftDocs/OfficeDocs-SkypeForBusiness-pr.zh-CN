@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: 下载、安装并使用 Windows PowerShell 5.1 创建连接到 Skype for Business Online 的远程 PowerShell 会话。
-ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029093"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>下载并安装 Windows PowerShell 5.1
 
@@ -49,7 +49,7 @@ ms.locfileid: "41831145"
     4.0
     </pre>
 
-    如果返回的版本号为 5.1，表明正在运行 Windows PowerShell 5.1。 如果返回的版本号不是 5.1，则需要安装 Windows PowerShell 5.1。 可从 [Microsoft 下载中心](https://www.microsoft.com/en-us/download/details.aspx?id=54616)下载 Windows Management Framework 5.1（其中包括 Windows PowerShell 5.1）。
+    如果返回的版本号为 5.1，表明正在运行 Windows PowerShell 5.1。 如果返回的版本号不是 5.1，则需要安装 Windows PowerShell 5.1。 可从 [Microsoft 下载中心](https://www.microsoft.com/download/details.aspx?id=54616)下载 Windows Management Framework 5.1（其中包括 Windows PowerShell 5.1）。
   
 验证已安装 Windows PowerShell 5.1 后，必须确保 PowerShell 已配置为可以运行远程脚本。 为此，以管理员身份启动 PowerShell。 在 Windows 7、Windows Server 2008 R2、Windows Server 2012 或 Windows Server 2012 R2 上执行以下操作：
   

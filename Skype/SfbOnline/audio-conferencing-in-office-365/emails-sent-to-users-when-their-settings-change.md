@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解当 Skype for business Online 中的电话拨入式会议设置更改时，通过电子邮件自动向用户发送哪些信息。 '
-ms.openlocfilehash: 167b083c1cc212a6d301b0cfb2012ef9d639727d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 12904c6485a422c7df314767b58ac485c38816ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707227"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986547"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>在 Skype for Business Online 中其设置发生更改时发送给用户的电子邮件
 
@@ -76,7 +76,7 @@ ms.locfileid: "41707227"
     
     如果从用户删除**音频会议**许可证或将用户的音频会议提供商从 Microsoft 更改为第三方音频会议提供商或将提供商设置为 "**无**"，则会出现此情况。 此电子邮件包含用户使用 Skype for Business Online 会议更新工具删除音频会议特定信息（如默认会议电话号码或会议 ID）的说明和信息。
     
-    请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/en-us/article/997596b5-4173-4627-b915-36abac6786dc)。
+    请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
     
     下面是此电子邮件的一个示例：
     

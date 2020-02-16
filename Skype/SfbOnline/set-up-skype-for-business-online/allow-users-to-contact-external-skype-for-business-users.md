@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692937"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010935"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
@@ -51,7 +51,7 @@ ms.locfileid: "41692937"
 ## <a name="enable-business-to-business-communications-for-your-users"></a>为你的用户启用企业到企业通信
 <a name="bk_preview"> </a>
 
-您必须在两个组织的 Office 365 中具有[管理员权限](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此操作。
+您必须在两个组织的 Office 365 中具有[管理员权限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此操作。
 
 ![](../images/teams-logo-30x30.png) **使用团队管理中心**显示 Microsoft 团队徽标的图标
   
@@ -112,9 +112,9 @@ ms.locfileid: "41692937"
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>设置联盟企业通信的提示
 <a name="bk_preview"> </a>
 
-- 若要配置 Skype for Business 2015 和 Skype for business Online 之间的联盟，请参阅本文：[配置与 Skype for Business online 的联盟](https://technet.microsoft.com/en-us/library/jj205126.aspx)。
+- 若要配置 Skype for Business 2015 和 Skype for business Online 之间的联盟，请参阅本文：[配置与 Skype for Business online 的联盟](https://technet.microsoft.com/library/jj205126.aspx)。
     
-- 要配置 Lync 与 Skype for business Online 之间的联盟，请参阅本文：[为 Lync Online 客户配置联合身份验证支持](https://technet.microsoft.com/en-us/library/hh202193.aspx)。
+- 要配置 Lync 与 Skype for business Online 之间的联盟，请参阅本文：[为 Lync Online 客户配置联合身份验证支持](https://technet.microsoft.com/library/hh202193.aspx)。
     
 - 当 Office 365 中的两个 Skype for Business 用户在单独的域上相互通信时，他们只能使用在两个组织中都启用的 Skype for Business 功能（例如，视频对话或桌面共享）。
     

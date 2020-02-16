@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解加载项许可证、功能以及如何购买 Office 365 企业版计划。 '
-ms.openlocfilehash: 1913d16b4a6595db27b4d32a10023866a5f76bb0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5181136bc95d2f74840af36ed6b4a29484485ed4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706097"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010575"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 企业版 E5
 
-[Office 365 企业版 E5 ](https://products.office.com/en-us/business/office-365-enterprise-e5-business-software)计划包括大部分 Skype for Business 功能。只有几个附加选项。
+[Office 365 企业版 E5 ](https://products.office.com/business/office-365-enterprise-e5-business-software)计划包括大部分 Skype for Business 功能。只有几个附加选项。
   
 |||
 |:-----|:-----|

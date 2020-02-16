@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 有关创建用于连接到 Skype for business Online 的远程 PowerShell 会话的疑难解答，包括导入模块、并发 shell、实时 ID 和权限错误。
-ms.openlocfilehash: 873139f279114910bb802bc023ade35c0f84f7d1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706267"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010685"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
@@ -69,7 +69,7 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
   
   - **错误**：*导入-模块：加载的 PowerShell 的版本为 "2.0"。该模块的：\\程序文件\\常见文件\\Microsoft Lync Server 2013\\模块\\LyncOnlineConnector\\LyncOnlineConnector "psd1" 需要 "3.0" 的最低 PowerShell 版本才能执行。请验证 PowerShell 的安装并重试。*
 
-- **解决方案**：修复此问题的唯一方法是安装 Windows PowerShell 3.0，可从 Microsoft 下载中心获取该功能[https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)。
+- **解决方案**：修复此问题的唯一方法是安装 Windows PowerShell 3.0，可从 Microsoft 下载中心获取该功能[https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)。
   
 ## <a name="failed-to-connect-to-live-id-server"></a>无法连接到 Live ID 服务器
 <a name="BKMKFailedConnect"> </a>
@@ -98,7 +98,7 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
 
 - **错误**： *CsWebTicket：无法加载 "实时 Id" 模块。请确保安装了正确版本的 Live Id 登录助手。*
 
-- **解决方案**： Microsoft Online Services 登录助手适用于[IT 专业人员的 Microsoft Online services 登录助手](https://www.microsoft.com/en-us/download/details.aspx?id=28177)的 microsoft 下载中心 RTW
+- **解决方案**： Microsoft Online Services 登录助手适用于[IT 专业人员的 Microsoft Online services 登录助手](https://www.microsoft.com/download/details.aspx?id=28177)的 microsoft 下载中心 RTW
 
 ## <a name="logon-failed-for-the-user"></a>用户登录失败
 <a name="BKMKLogonFailed"> </a>

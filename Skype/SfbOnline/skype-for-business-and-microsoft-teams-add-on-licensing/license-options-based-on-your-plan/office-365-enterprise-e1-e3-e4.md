@@ -21,16 +21,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业版 E1、E3 和 E4 计划。 '
-ms.openlocfilehash: fa51f8ff6e785009be5392aef8b137a6ff57430b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692467"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010585"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企业版 E1、E3 和 E4
 
-如果你已购买 [Office 365 企业版 E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software)、[E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) 或 E4 计划，以下是获得更多 Skype for Business 功能需要购买的附加许可证。
+如果你已购买 [Office 365 企业版 E1](https://products.office.com/business/office-365-enterprise-e1-business-software)、[E3](https://products.office.com/business/office-365-enterprise-e3-business-software) 或 E4 计划，以下是获得更多 Skype for Business 功能需要购买的附加许可证。
 
 |||
 |:-----|:-----|

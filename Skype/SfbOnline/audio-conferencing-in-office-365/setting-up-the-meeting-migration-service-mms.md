@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 会议迁移服务（MMS）是一种在后台运行的服务，可自动更新用户的 Skype for business 和 Microsoft 团队会议。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: 805bc7703024d4c6143ee909e715fa36deaa8e3c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5ce6f2ab5954ba0c076e9a4db432da3e93a75db1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680349"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010975"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务（MMS）
 
@@ -47,7 +47,7 @@ ms.locfileid: "41680349"
 - 用户的邮箱托管在本地 Exchange 中。
 - 用户正在从云迁移到本地 Skype for Business 服务器。
 
-在这些情况下，最终用户可以使用[会议迁移工具](https://www.microsoft.com/en-us/download/details.aspx?id=51659)来迁移其自己的会议。
+在这些情况下，最终用户可以使用[会议迁移工具](https://www.microsoft.com/download/details.aspx?id=51659)来迁移其自己的会议。
 
 ## <a name="how-mms-works"></a>MMS 的工作原理
 

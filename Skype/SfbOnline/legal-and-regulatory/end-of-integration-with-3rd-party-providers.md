@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 2021年7月31日，生命期结束计划将结束与第三方音频会议提供商（第三方 ACP）的 Skype for Business 的集成。
-ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706687"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985027"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>将 Skype for Business 与第三方音频会议提供商集成的生命周期结束 
 
@@ -47,7 +47,7 @@ Microsoft 已宣布开始使用第三方音频会议提供商（ACPs）与 Skype
 
 为准备此更改，我们鼓励受影响的组织在2021年7月31日之前通知已启用的此计划更新用户。 
 
-2021年7月31日之后，用户可以继续使用 Skype for Business，而不中断其在线会议;但是，如果组织需要电话拨入音频会议和 Skype for business 或 Microsoft 团队，则组织需要为 Microsoft 提供的音频会议启用用户。 若要了解有关 Microsoft 音频会议的详细信息，请参阅[音频会议](https://products.office.com/en-us/skype-for-business/audio-conferencing)。 
+2021年7月31日之后，用户可以继续使用 Skype for Business，而不中断其在线会议;但是，如果组织需要电话拨入音频会议和 Skype for business 或 Microsoft 团队，则组织需要为 Microsoft 提供的音频会议启用用户。 若要了解有关 Microsoft 音频会议的详细信息，请参阅[音频会议](https://products.office.com/skype-for-business/audio-conferencing)。 
 
 根据所需的组织结束状态，可以遵循以下三个路径：
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解在 Skype for Business Online 中重置用户的会议 ID 以及获取会议更新和迁移工具的链接的步骤。 '
-ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9a1c2766da021d30feb14954d6e69b6978b64bc9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707147"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41986487"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>在 Skype for Business Online 中重置用户的会议 ID
 
@@ -66,7 +66,7 @@ A dynamic conference ID is included at the bottom of meeting invitations along w
     
   - [Skype for Business Online、会议迁移工具（64 位）](https://go.microsoft.com/fwlink/?LinkID=626047)
     
-  - [Skype for Business Online、会议迁移工具（32 位）](https://www.microsoft.com/en-us/download/details.aspx?id=54079)
+  - [Skype for Business Online、会议迁移工具（32 位）](https://www.microsoft.com/download/details.aspx?id=54079)
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 进行管理吗？
 
