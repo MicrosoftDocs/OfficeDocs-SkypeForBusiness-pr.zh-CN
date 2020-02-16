@@ -41,6 +41,7 @@
 ## [在 Teams 中设置频道审查](manage-channel-moderation-in-teams.md)
 ## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [Teams 中的用户状态](presence-admins.md)
+## [管理 Teams 中的标记](manage-tags.md)
 ## [查看 Teams 中的跨团队和每团队分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [团队到期和续订](team-expiration-renewal.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
@@ -95,6 +96,7 @@
 ### [管理 Teams 的免费版本](manage-freemium.md)
 ### [在 Teams 中分配团队所有者和成员](assign-roles-permissions.md)
 ### [批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)
+### [向用户分配策略](assign-policies.md)
 ### [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
 ### [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
 ### [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
@@ -636,7 +638,6 @@
 ## [Teams 中的 AppLocker 应用程序控制策略](applocker-in-teams.md)
 ## Teams 中的保留策略
 ### [概述](retention-policies.md)
-### [保留策略常见问题解答](retention-policies-FAQ.md)
 ### [保留策略已知问题](retention-policies-known-issues.md)
 ## [Teams 中的数据位置](location-of-data-in-teams.md)
 ## [法国 Microsoft Teams 辅助功能合规性声明](accessibility-declaration-of-conformance-in-france-for-teams.md)
