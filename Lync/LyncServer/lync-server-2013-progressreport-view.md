@@ -90,7 +90,7 @@ ProgressReport 视图会存储有关已完成的会话的信息。 只会针对 
 <td><p>导致出错的服务器的名称（如果报告发送自服务器组件）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>应用程序</strong></p></td>
 <td><p>nvarchar （256）</p></td>
 <td><p>产生错误的应用程序的名称（如果报告是从服务器组件发送的）。</p></td>
 </tr>

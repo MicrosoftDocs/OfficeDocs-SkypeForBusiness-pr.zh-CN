@@ -124,7 +124,7 @@ _**上次修改的主题：** 2014-02-07_
 <td><p>失败的媒体内容类型。例如，常见内容类型为 Application/sdp。会话描述协议 (SDP) 是用于会话公告、会话邀请及其他形式的多媒体会话启动的标准 Internet 协议。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>应用程序</strong></p></td>
 <td><p>否</p></td>
 <td><p>错误涉及的应用程序。</p></td>
 </tr>

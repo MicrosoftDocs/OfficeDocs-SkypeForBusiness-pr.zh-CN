@@ -55,7 +55,7 @@ _**上次修改的主题：** 2013-02-20_
 <tr class="header">
 <th>阶段</th>
 <th>步骤</th>
-<th>Permissions</th>
+<th>权限</th>
 <th>文档</th>
 </tr>
 </thead>

@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-10-03_
 <tr class="header">
 <th>阶段</th>
 <th>步骤</th>
-<th>Permissions</th>
+<th>权限</th>
 <th>部署文档</th>
 </tr>
 </thead>
