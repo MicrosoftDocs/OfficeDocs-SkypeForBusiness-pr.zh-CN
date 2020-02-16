@@ -108,7 +108,7 @@ XMPP 联盟基于可扩展消息传递和状态协议定义外部部署。利用
 <tr class="header">
 <th>阶段</th>
 <th>步骤</th>
-<th>Permissions</th>
+<th>权限</th>
 <th>文档</th>
 </tr>
 </thead>

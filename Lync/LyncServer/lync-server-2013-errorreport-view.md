@@ -148,7 +148,7 @@ ErrorReport 视图存储有关已报告的错误的信息。 每条记录代表�
 <td><p>导致出错的服务器的名称（如果报告发送自服务器组件）。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>应用程序</strong></p></td>
 <td><p>nvarchar （256）</p></td>
 <td><p>导致出错的应用程序的名称（如果报告发送自服务器组件）。</p></td>
 </tr>

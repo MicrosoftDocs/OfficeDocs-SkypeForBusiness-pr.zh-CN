@@ -1,5 +1,5 @@
 ---
-title: 安装
+title: 设置
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -25,7 +25,7 @@ ms.locfileid: "42038254"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a>安装
+# <a name="setup"></a>设置
 
 </div>
 
