@@ -25,7 +25,7 @@ ms.locfileid: "42048523"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tbladupdates-in-lync-server-2013"></a><span data-ttu-id="7f9a9-102">Lync Server 2013 中的 tblADUpdates</span><span class="sxs-lookup"><span data-stu-id="7f9a9-102">tblADUpdates in Lync Server 2013</span></span>
+# <a name="tbladupdates-in-lync-server-2013"></a><span data-ttu-id="59f87-102">Lync Server 2013 中的 tblADUpdates</span><span class="sxs-lookup"><span data-stu-id="59f87-102">tblADUpdates in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42048523"
 
 <span> </span>
 
-<span data-ttu-id="7f9a9-103">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="7f9a9-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="59f87-103">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="59f87-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="7f9a9-104">tblADUpdates 包含后续 Active Directory 同步步骤尚未处理的 Active Directory 域服务更改。</span><span class="sxs-lookup"><span data-stu-id="7f9a9-104">tblADUpdates contains Active Directory Domain Services changes that have not yet been processed by the later Active Directory Sync steps.</span></span>
+<span data-ttu-id="59f87-104">tblADUpdates 包含后续 Active Directory 同步步骤尚未处理的 Active Directory 域服务更改。</span><span class="sxs-lookup"><span data-stu-id="59f87-104">tblADUpdates contains Active Directory Domain Services changes that have not yet been processed by the later Active Directory Sync steps.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="7f9a9-105">Columns</span><span class="sxs-lookup"><span data-stu-id="7f9a9-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="59f87-105">Columns</span><span class="sxs-lookup"><span data-stu-id="59f87-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,46 +49,46 @@ ms.locfileid: "42048523"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7f9a9-106">列</span><span class="sxs-lookup"><span data-stu-id="7f9a9-106">Column</span></span></th>
-<th><span data-ttu-id="7f9a9-107">类型</span><span class="sxs-lookup"><span data-stu-id="7f9a9-107">Type</span></span></th>
-<th><span data-ttu-id="7f9a9-108">说明</span><span class="sxs-lookup"><span data-stu-id="7f9a9-108">Description</span></span></th>
+<th><span data-ttu-id="59f87-106">列</span><span class="sxs-lookup"><span data-stu-id="59f87-106">Column</span></span></th>
+<th><span data-ttu-id="59f87-107">类型</span><span class="sxs-lookup"><span data-stu-id="59f87-107">Type</span></span></th>
+<th><span data-ttu-id="59f87-108">描述</span><span class="sxs-lookup"><span data-stu-id="59f87-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7f9a9-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="7f9a9-109">prinGuid</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-110">GUID，不为 null</span><span class="sxs-lookup"><span data-stu-id="7f9a9-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-111">被更改对象的主体 GUID。</span><span class="sxs-lookup"><span data-stu-id="7f9a9-111">Principal GUID of the object that changed.</span></span></p></td>
+<td><p><span data-ttu-id="59f87-109">prinGuid</span><span class="sxs-lookup"><span data-stu-id="59f87-109">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="59f87-110">GUID，不为 null</span><span class="sxs-lookup"><span data-stu-id="59f87-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="59f87-111">被更改对象的主体 GUID。</span><span class="sxs-lookup"><span data-stu-id="59f87-111">Principal GUID of the object that changed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7f9a9-112">prinADPath</span><span class="sxs-lookup"><span data-stu-id="7f9a9-112">prinADPath</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-113">nvarchar (384)，不为 null</span><span class="sxs-lookup"><span data-stu-id="7f9a9-113">nvarchar (384), not null</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-114">对象的可分辨名称。</span><span class="sxs-lookup"><span data-stu-id="7f9a9-114">Distinguished name of the object.</span></span></p></td>
+<td><p><span data-ttu-id="59f87-112">prinADPath</span><span class="sxs-lookup"><span data-stu-id="59f87-112">prinADPath</span></span></p></td>
+<td><p><span data-ttu-id="59f87-113">nvarchar (384)，不为 null</span><span class="sxs-lookup"><span data-stu-id="59f87-113">nvarchar (384), not null</span></span></p></td>
+<td><p><span data-ttu-id="59f87-114">对象的可分辨名称。</span><span class="sxs-lookup"><span data-stu-id="59f87-114">Distinguished name of the object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7f9a9-115">prinAttributesChanged</span><span class="sxs-lookup"><span data-stu-id="7f9a9-115">prinAttributesChanged</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-116">bit，不为 null</span><span class="sxs-lookup"><span data-stu-id="7f9a9-116">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-117">如果对象至少有一个属性被更改，则为 True。</span><span class="sxs-lookup"><span data-stu-id="7f9a9-117">True if at least one attribute of the object changed.</span></span></p></td>
+<td><p><span data-ttu-id="59f87-115">prinAttributesChanged</span><span class="sxs-lookup"><span data-stu-id="59f87-115">prinAttributesChanged</span></span></p></td>
+<td><p><span data-ttu-id="59f87-116">bit，不为 null</span><span class="sxs-lookup"><span data-stu-id="59f87-116">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="59f87-117">如果对象至少有一个属性被更改，则为 True。</span><span class="sxs-lookup"><span data-stu-id="59f87-117">True if at least one attribute of the object changed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7f9a9-118">prinMembersChanged</span><span class="sxs-lookup"><span data-stu-id="7f9a9-118">prinMembersChanged</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-119">bit，不为 null</span><span class="sxs-lookup"><span data-stu-id="7f9a9-119">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-120">如果成员身份被更改，则为 True。</span><span class="sxs-lookup"><span data-stu-id="7f9a9-120">True if the membership changed.</span></span></p></td>
+<td><p><span data-ttu-id="59f87-118">prinMembersChanged</span><span class="sxs-lookup"><span data-stu-id="59f87-118">prinMembersChanged</span></span></p></td>
+<td><p><span data-ttu-id="59f87-119">bit，不为 null</span><span class="sxs-lookup"><span data-stu-id="59f87-119">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="59f87-120">如果成员身份被更改，则为 True。</span><span class="sxs-lookup"><span data-stu-id="59f87-120">True if the membership changed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7f9a9-121">prinAffiliationsChanged</span><span class="sxs-lookup"><span data-stu-id="7f9a9-121">prinAffiliationsChanged</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-122">bit，不为 null</span><span class="sxs-lookup"><span data-stu-id="7f9a9-122">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-123">未使用。</span><span class="sxs-lookup"><span data-stu-id="7f9a9-123">Not used.</span></span></p></td>
+<td><p><span data-ttu-id="59f87-121">prinAffiliationsChanged</span><span class="sxs-lookup"><span data-stu-id="59f87-121">prinAffiliationsChanged</span></span></p></td>
+<td><p><span data-ttu-id="59f87-122">bit，不为 null</span><span class="sxs-lookup"><span data-stu-id="59f87-122">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="59f87-123">未使用。</span><span class="sxs-lookup"><span data-stu-id="59f87-123">Not used.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7f9a9-124">prinDeleted</span><span class="sxs-lookup"><span data-stu-id="7f9a9-124">prinDeleted</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-125">bit，不为 null</span><span class="sxs-lookup"><span data-stu-id="7f9a9-125">bit, not null</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-126">如果对象已删除，则为 True。</span><span class="sxs-lookup"><span data-stu-id="7f9a9-126">True if the object was deleted.</span></span></p></td>
+<td><p><span data-ttu-id="59f87-124">prinDeleted</span><span class="sxs-lookup"><span data-stu-id="59f87-124">prinDeleted</span></span></p></td>
+<td><p><span data-ttu-id="59f87-125">bit，不为 null</span><span class="sxs-lookup"><span data-stu-id="59f87-125">bit, not null</span></span></p></td>
+<td><p><span data-ttu-id="59f87-126">如果对象已删除，则为 True。</span><span class="sxs-lookup"><span data-stu-id="59f87-126">True if the object was deleted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7f9a9-127">lastUpdated</span><span class="sxs-lookup"><span data-stu-id="7f9a9-127">lastUpdated</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-128">datetime，不为 null</span><span class="sxs-lookup"><span data-stu-id="7f9a9-128">datetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="7f9a9-129">插入行时的时间戳。</span><span class="sxs-lookup"><span data-stu-id="7f9a9-129">Time stamp of when the row was inserted.</span></span></p></td>
+<td><p><span data-ttu-id="59f87-127">lastUpdated</span><span class="sxs-lookup"><span data-stu-id="59f87-127">lastUpdated</span></span></p></td>
+<td><p><span data-ttu-id="59f87-128">datetime，不为 null</span><span class="sxs-lookup"><span data-stu-id="59f87-128">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="59f87-129">插入行时的时间戳。</span><span class="sxs-lookup"><span data-stu-id="59f87-129">Time stamp of when the row was inserted.</span></span></p></td>
 </tr>
 </tbody>
 </table>

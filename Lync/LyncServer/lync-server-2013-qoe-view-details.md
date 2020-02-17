@@ -25,7 +25,7 @@ ms.locfileid: "42045764"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-view-details-in-lync-server-2013"></a><span data-ttu-id="5efaa-102">Lync Server 2013 中的 QoE 查看详细信息</span><span class="sxs-lookup"><span data-stu-id="5efaa-102">QoE view details in Lync Server 2013</span></span>
+# <a name="qoe-view-details-in-lync-server-2013"></a><span data-ttu-id="7ac6c-102">Lync Server 2013 中的 QoE 查看详细信息</span><span class="sxs-lookup"><span data-stu-id="7ac6c-102">QoE view details in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42045764"
 
 <span> </span>
 
-<span data-ttu-id="5efaa-103">_**上次修改的主题：** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="5efaa-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="7ac6c-103">_**上次修改的主题：** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="7ac6c-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="5efaa-104">视图涉及有关从 QoE SQL 数据库返回数据的最常见方案。</span><span class="sxs-lookup"><span data-stu-id="5efaa-104">Views cover the most common scenarios for returning data from the QoE SQL database.</span></span> <span data-ttu-id="5efaa-105">建议将视图用于生成自定义报告而不是直接访问数据库表；这是因为视图很有可能保留与将来版本的向后兼容性。</span><span class="sxs-lookup"><span data-stu-id="5efaa-105">It is recommended views used for building custom reports instead of directly accessing the database tables; that’s because views are more likely to maintain backwards compatibility with future releases.</span></span>
+<span data-ttu-id="7ac6c-104">视图涉及有关从 QoE SQL 数据库返回数据的最常见方案。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-104">Views cover the most common scenarios for returning data from the QoE SQL database.</span></span> <span data-ttu-id="7ac6c-105">建议将视图用于生成自定义报告而不是直接访问数据库表；这是因为视图很有可能保留与将来版本的向后兼容性。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-105">It is recommended views used for building custom reports instead of directly accessing the database tables; that’s because views are more likely to maintain backwards compatibility with future releases.</span></span>
 
 
 <table>
@@ -47,34 +47,34 @@ ms.locfileid: "42045764"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5efaa-106">视图名称</span><span class="sxs-lookup"><span data-stu-id="5efaa-106">View Name</span></span></th>
-<th><span data-ttu-id="5efaa-107">说明</span><span class="sxs-lookup"><span data-stu-id="5efaa-107">Description</span></span></th>
+<th><span data-ttu-id="7ac6c-106">视图名称</span><span class="sxs-lookup"><span data-stu-id="7ac6c-106">View Name</span></span></th>
+<th><span data-ttu-id="7ac6c-107">描述</span><span class="sxs-lookup"><span data-stu-id="7ac6c-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5efaa-108"><a href="lync-server-2013-audiostreamdetail-view.md">Lync Server 2013 中的 AudioStreamDetail 视图</a></span><span class="sxs-lookup"><span data-stu-id="5efaa-108"><a href="lync-server-2013-audiostreamdetail-view.md">AudioStreamDetail view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="5efaa-109">存储数据库中每个音频流的相关信息。</span><span class="sxs-lookup"><span data-stu-id="5efaa-109">Stores information about each audio stream in the database.</span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-108"><a href="lync-server-2013-audiostreamdetail-view.md">Lync Server 2013 中的 AudioStreamDetail 视图</a></span><span class="sxs-lookup"><span data-stu-id="7ac6c-108"><a href="lync-server-2013-audiostreamdetail-view.md">AudioStreamDetail view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-109">存储数据库中每个音频流的相关信息。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-109">Stores information about each audio stream in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5efaa-110"><a href="lync-server-2013-medialine-view.md">Lync Server 2013 中的 MediaLine 视图</a></span><span class="sxs-lookup"><span data-stu-id="5efaa-110"><a href="lync-server-2013-medialine-view.md">MediaLine view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="5efaa-111">存储有关数据库中每个媒体行的信息。</span><span class="sxs-lookup"><span data-stu-id="5efaa-111">Stores information about each media line in the database.</span></span> <span data-ttu-id="5efaa-112">一个音频会话通常包含一个音频媒体行。</span><span class="sxs-lookup"><span data-stu-id="5efaa-112">One audio session typically contains one audio media line.</span></span> <span data-ttu-id="5efaa-113">一个音频与视频 (A/V) 会话通常包含一个音频媒体行和一个视频媒体行；但是，如果使用了会议设备或库视图，则会话可能包含两个视频媒体行。</span><span class="sxs-lookup"><span data-stu-id="5efaa-113">One audio and video (A/V) session typically contains one audio media line and one video media line; however, the session might contain two video media lines if a conferencing device is used or if Gallery View is used.</span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-110"><a href="lync-server-2013-medialine-view.md">Lync Server 2013 中的 MediaLine 视图</a></span><span class="sxs-lookup"><span data-stu-id="7ac6c-110"><a href="lync-server-2013-medialine-view.md">MediaLine view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-111">存储有关数据库中每个媒体行的信息。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-111">Stores information about each media line in the database.</span></span> <span data-ttu-id="7ac6c-112">一个音频会话通常包含一个音频媒体行。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-112">One audio session typically contains one audio media line.</span></span> <span data-ttu-id="7ac6c-113">一个音频与视频 (A/V) 会话通常包含一个音频媒体行和一个视频媒体行；但是，如果使用了会议设备或库视图，则会话可能包含两个视频媒体行。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-113">One audio and video (A/V) session typically contains one audio media line and one video media line; however, the session might contain two video media lines if a conferencing device is used or if Gallery View is used.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5efaa-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">Lync Server 2013 中的 NetworkConfigurationSettings 视图</a></span><span class="sxs-lookup"><span data-stu-id="5efaa-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="5efaa-115">存储有关网络配置的信息。</span><span class="sxs-lookup"><span data-stu-id="5efaa-115">Stores information about the network configuration.</span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">Lync Server 2013 中的 NetworkConfigurationSettings 视图</a></span><span class="sxs-lookup"><span data-stu-id="7ac6c-114"><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-115">存储有关网络配置的信息。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-115">Stores information about the network configuration.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5efaa-116"><a href="lync-server-2013-session-view.md">Lync Server 2013 中的会话视图</a></span><span class="sxs-lookup"><span data-stu-id="5efaa-116"><a href="lync-server-2013-session-view.md">Session view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="5efaa-117">存储有关数据库中包含记录的会话的信息。</span><span class="sxs-lookup"><span data-stu-id="5efaa-117">Stores information about sessions that have records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-116"><a href="lync-server-2013-session-view.md">Lync Server 2013 中的会话视图</a></span><span class="sxs-lookup"><span data-stu-id="7ac6c-116"><a href="lync-server-2013-session-view.md">Session view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-117">存储有关数据库中包含记录的会话的信息。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-117">Stores information about sessions that have records in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5efaa-118"><a href="lync-server-2013-useragent-view.md">Lync Server 2013 中的 UserAgent 视图</a></span><span class="sxs-lookup"><span data-stu-id="5efaa-118"><a href="lync-server-2013-useragent-view.md">UserAgent view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="5efaa-119">存储有关数据库中包含记录的会话中涉及的用户代理的信息。</span><span class="sxs-lookup"><span data-stu-id="5efaa-119">Stores information about the user agents that have been involved in sessions that have records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-118"><a href="lync-server-2013-useragent-view.md">Lync Server 2013 中的 UserAgent 视图</a></span><span class="sxs-lookup"><span data-stu-id="7ac6c-118"><a href="lync-server-2013-useragent-view.md">UserAgent view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-119">存储有关数据库中包含记录的会话中涉及的用户代理的信息。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-119">Stores information about the user agents that have been involved in sessions that have records in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5efaa-120"><a href="lync-server-2013-videostreamdetail-view.md">Lync Server 2013 中的 VideoStreamDetail 视图</a></span><span class="sxs-lookup"><span data-stu-id="5efaa-120"><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail view in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="5efaa-121">存储有关数据库中每个视频流的信息。</span><span class="sxs-lookup"><span data-stu-id="5efaa-121">Stores information about each video stream in the database.</span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-120"><a href="lync-server-2013-videostreamdetail-view.md">Lync Server 2013 中的 VideoStreamDetail 视图</a></span><span class="sxs-lookup"><span data-stu-id="7ac6c-120"><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail view in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="7ac6c-121">存储有关数据库中每个视频流的信息。</span><span class="sxs-lookup"><span data-stu-id="7ac6c-121">Stores information about each video stream in the database.</span></span></p></td>
 </tr>
 </tbody>
 </table>
