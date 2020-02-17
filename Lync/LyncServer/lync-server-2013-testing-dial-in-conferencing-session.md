@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 Test-csdialinconferencing cmdlet 验证用户是否可以参与电话拨入式会议。 测试-Test-csdialinconferencing 通过尝试将测试用户登录到系统来工作。 如果登录成功，则 cmdlet 将使用用户的凭据和权限来尝试所有可用的电话拨入式会议访问号码。 将记录每个拨入尝试的成功或失败情况，然后将从 Lync Server 注销测试用户。测试 Test-csdialinconferencing 仅验证是否可以建立适当的连接。 Cmdlet 实际上不会进行任何电话呼叫，也不会创建任何其他用户可以加入的电话拨入式会议。
 

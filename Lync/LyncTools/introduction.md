@@ -107,7 +107,7 @@ Lync Server 2013 压力和性能工具中包含以下应用程序：
 <thead>
 <tr class="header">
 <th>工具</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

@@ -150,7 +150,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

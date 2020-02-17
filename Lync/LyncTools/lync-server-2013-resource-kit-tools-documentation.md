@@ -105,7 +105,7 @@ _**上次修改的主题：** 2014-01-09_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 ABSConfig 是一个图形用户界面应用程序，使管理员能够配置与通讯簿服务相关的 Active Directory 域服务属性。
 
@@ -209,7 +209,7 @@ ABSConfig 提供了一种快速、简便的方法来自定义 Lync Server 2013 �
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 ABSConfig 工具为管理员提供了一个快速且易于使用的工具，可用于自定义 Lync Server 2013 通讯簿服务。
 
@@ -231,7 +231,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具，可�
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 带宽策略服务监视器工具以基于 GUI 的应用程序的形式实现。 管理员通过运行 PDPMonUI 启动该工具。
 
@@ -293,7 +293,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具，可�
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 带宽策略服务监视器工具对于管理员来说是一项宝贵的资源，这样他们就可以检查拓扑中所有带宽策略服务的状态—更重要的是，它们可以获取链接的实时带宽利用率，在网络配置设置中定义。
 
@@ -309,7 +309,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具，可�
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 带宽利用率分析器是作为基于 GUI 的应用程序实现的。 此工具专门针对网络中的音频利用率生成报告，并帮助进行容量规划。 它还会对分配给各个链路的带宽容量进行迭代。
 
@@ -550,7 +550,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具，可�
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 带宽利用率分析器用于绘制网络中 UC 流量的音频带宽使用率。 此工具还可用于报告网络上的视频带宽使用率。
 
@@ -566,7 +566,7 @@ ABSConfig 工具为管理员提供了一个快速且易于使用的工具，可�
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 呼叫寄存时间记录器是一种跟踪当前寄存的呼叫的工具。 它还收集有关轨道式和呼叫寄存服务器（CPS）使用情况的统计信息。 此命令行工具提供对来自本地或远程连接的计算机上的 CPS 轨道 SQL Server 数据库的读写访问权限。
 
@@ -673,7 +673,7 @@ CPS 工具的目的是提供对 CPS 数据库的命令行访问。 管理员可�
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 呼叫寄存时间记录器是一个命令行工具，提供有关呼叫寄存服务器的详细信息。
 
@@ -689,7 +689,7 @@ CleanupStorageServiceData 资源工具包工具允许从 Lync Server Storage Ser
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 为了支持高可用性，LYSS 在池中临时接收并保存多个前端服务器上的数据副本，并在将数据传递到其最终长期存储位置后将其删除。 在某些情况下，如果服务器可能崩溃或遇到处理问题，并且某些数据可能无法正确清理，则在其他正常操作过程中可能会发生异常情况。 此数据是无害的，但它会占用有限的处理资源。 大部分正常的必要数据维护都是自动进行的，但是此工具允许在无法进行自动删除时对此类孤立数据进行安全标识和删除。 当出现运行状况监视 System Center Operations Manager （SCOM）警报时，将提示管理员从池中的本地 LYSS 数据库中删除不需要的数据时，将显示此工具的使用情况。 在触发警报的前端上的事件日志中将会有相应的事件。 事件详细信息将包含前端上包含的孤立数据量的相关信息，并在该数据超过某些预确定阈值时引发。
 
@@ -775,7 +775,7 @@ C：\\Program Files\\Microsoft Lync Server 2013\\\reskit\\StorageService\> Impor
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 DBAnalyze 是一个命令行工具，可帮助管理员收集有关 Lync Server 2013 数据库的分析报告。 DBAnalyze 具有以下模式：诊断、用户数据、会议、Mcu 和磁盘碎片：
 
@@ -867,7 +867,7 @@ DBAnalyze 是一个命令行工具，可帮助管理员收集有关 Lync Server 
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 DBAnalyzer 为管理员提供了快速而轻松地分析 Lync Server 2013 数据库的情况。
 
@@ -883,7 +883,7 @@ ImportStorageServiceData 资源工具包工具允许将在存储服务（LYSS）
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 从存储服务中刷新的数据可能已基于队列项目状态或数据库大小自动（定期）。 由于手动调用池故障转移 cmdlet 或 StorageServiceFullFlush cmdlet （池故障转移 cmdlet 调用），可能会发生此问题。 请注意，如果前端上的任何存储服务（LYSS）数据库大小高于正常级别，则不应重新导入数据，因为这样做可能只会导致更多数据被导出回来。此外，应首先解决导致存储服务队列增长的错误可能会导致出现的任何问题（例如 Exchange 终结点错误、网络问题或其他问题）。
 
@@ -1090,7 +1090,7 @@ LCSSync 工具可帮助在多林环境中部署 Lync Server 2013 通信软件。
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 LCSSync 使用中央林中的同步 Active Directory 域服务联系人对象为用户启用 Lync Server。 若要提供单一登录，必须将主用户帐户映射到适用于 Lync Server 2013 的中央林中的 Active Directory 域服务联系人对象。 此工具可帮助执行该映射。 此工具提供用于在 Microsoft Identity Integration Server 中创建管理代理的模板。
 
@@ -1098,7 +1098,7 @@ LCSSync 使用中央林中的同步 Active Directory 域服务联系人对象为
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 LCSSync 工具可帮助在多林环境中部署 Lync Server。
 
@@ -1114,7 +1114,7 @@ LookupUserConsole 工具显示有关特定用户的内部 Lync Server 路由信�
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 执行 LookupUserConsole 将打开一个命令提示符，该命令提示符接受 SIP 地址，并尝试显示与它们相关的内部 Lync Server 路由信息。 键入**exit**退出 LookupUserConsole 工具。
 
@@ -1182,7 +1182,7 @@ MSTurnPing 工具允许 Microsoft Lync Server 2013 通信软件的管理员检�
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 MSTurnPing 工具允许 Lync Server 2013 通信软件的管理员检查运行 "音频/视频边缘" 和 "音频/视频身份验证服务" 的服务器的状态，以及在拓扑中运行带宽策略服务的服务器的状态。
 
@@ -1248,7 +1248,7 @@ MSTurnPing 工具允许 Lync Server 2013 通信软件的管理员检查运行 "�
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 对于要检查运行音频/视频和带宽策略服务的服务器的状态的 Lync Server 2013 管理员，此工具可能是一种有用的资源。
 
@@ -1264,7 +1264,7 @@ Microsoft Lync Server 2013 通信软件管理员可使用网络配置查看器�
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 网络配置查看器（NetworkConfigurationViewer）允许管理员执行以下任务：
 
@@ -1334,7 +1334,7 @@ Microsoft Lync Server 2013 通信软件管理员可使用网络配置查看器�
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 对于希望以图形格式查看其部署的 CAC 网络拓扑的 Lync Server 2013 管理员，此工具可能是一种宝贵的资源。
 
@@ -1350,7 +1350,7 @@ Microsoft Lync Server 2013 通信软件管理员可使用网络配置查看器�
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 响应组代理 Live 是一种 Windows 应用程序，它向响应组代理提供登录和注销功能以及一些实时信息（如组成员身份和当前呼叫数）。 它应是 "代理组" 页面的增强版本（可从 Lync 2013 访问）。
 
@@ -1434,7 +1434,7 @@ Microsoft Lync Server 2013 通信软件管理员可使用网络配置查看器�
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 快速登录和注销、组成员身份和基本实时统计信息是仅在来自响应组服务的应用程序外部可用的响应组代理功能。 通过 "响应组代理实时资源工具包" 工具，Lync 管理员可以向其代理提供 Windows 应用程序，使其能够以更快速的图形方式执行任务。
 
@@ -1452,7 +1452,7 @@ SEFAUtil （辅助扩展功能激活）使 Lync Server 2013 管理员和支持�
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 SEFAUtil 的当前版本只是一个命令行工具;不支持图形用户界面。 此工具基于 Microsoft 统一通信托管 API （UCMA）3.0。 此工具中的功能允许管理员和支持人员代理执行以下操作：
 
@@ -1965,7 +1965,7 @@ SEFAUtil 工具只能在属于受信任应用程序池一部分的计算机上�
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 Sysprep.inf 是一个 Windows PowerShell 脚本，它将在 Windows Server 2008 操作系统计算机上安装以下 Lync Server 2013 必备组件。
 
@@ -2068,7 +2068,7 @@ Sysprep.inf 是一个 Windows PowerShell 脚本，它将在 Windows Server 2008 
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 未分配号码通知迁移工具是一个 Windows PowerShell 脚本，它将源服务器或池的通知应用程序提供服务的未分配号码配置移动到不同的服务器或池。
 
@@ -2175,7 +2175,7 @@ Move-csannouncementconfiguration 脚本需要下表中所述的两个参数。
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 此工具允许管理员执行以下操作：
 
@@ -2245,7 +2245,7 @@ Move-csannouncementconfiguration 脚本需要下表中所述的两个参数。
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 对于需要更精确控制会议会议数据的管理员来说，此工具可能是一项宝贵的资源。
 

@@ -183,7 +183,7 @@ _**上次修改的主题：** 2014-09-11_
 <thead>
 <tr class="header">
 <th>消息类型</th>
-<th>说明</th>
+<th>描述</th>
 <th>代码示例</th>
 </tr>
 </thead>

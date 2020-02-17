@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 在 Lync Server 2013 中，数据会议是指使用协作活动（如白板或批注）的任何会议。 **CsDataConference** cmdlet 使您能够验证一对用户是否能够参与数据会议。
 

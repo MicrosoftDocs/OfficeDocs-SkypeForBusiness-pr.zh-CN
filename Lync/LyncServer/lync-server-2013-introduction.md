@@ -50,7 +50,7 @@ Lync Server 2013 及其客户端软件（如 Lync 2013）使用户能够以新�
 <thead>
 <tr class="header">
 <th>Workload</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

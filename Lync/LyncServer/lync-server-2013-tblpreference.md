@@ -51,7 +51,7 @@ tblPreference 包含用户的客户端首选项。 这通常由 Lync 2013 之前
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

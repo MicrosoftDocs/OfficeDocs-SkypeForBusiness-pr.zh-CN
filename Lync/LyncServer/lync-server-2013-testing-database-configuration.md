@@ -64,7 +64,7 @@ _**上次修改的主题：** 2016-07-07_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 **CsDatabase** cmdlet 验证与一个或多个 Lync Server 2013 数据库的连接。 在运行时， **CsDatabase** cmdlet 会读取 Lync Server 拓扑，尝试连接到相关数据库，然后报告每次尝试成功或失败。 如果可以建立连接，该 cmdlet 还将返回数据库名称、SQL Server 版本以及所有已安装的镜像数据库的位置等信息。
 

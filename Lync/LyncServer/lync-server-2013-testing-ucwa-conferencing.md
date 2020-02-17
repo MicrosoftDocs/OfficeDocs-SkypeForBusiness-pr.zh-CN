@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 **Test-csucwaconference** cmdlet 验证一对测试用户是否可以使用统一通信 Web API （UCWA）安排、加入并执行联机会议。 为此，该 cmdlet 使用 Lync Server web 票证服务对两个测试用户进行身份验证，并将其注册到 Lync Server。 然后，此 cmdlet 使用组织者凭据启动会议，并邀请参与者加入会议。 在加入会议后， **test-csucwaconference** cmdlet 将验证用户是否可以执行 exchange 即时消息和执行池操作，然后断开会议并注销这两个测试用户。 在测试完成后，也会删除计划的会议。
 

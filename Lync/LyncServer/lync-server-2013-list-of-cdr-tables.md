@@ -52,7 +52,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -103,7 +103,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -198,7 +198,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -237,7 +237,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -268,7 +268,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -303,7 +303,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -337,7 +337,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -371,7 +371,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -420,7 +420,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

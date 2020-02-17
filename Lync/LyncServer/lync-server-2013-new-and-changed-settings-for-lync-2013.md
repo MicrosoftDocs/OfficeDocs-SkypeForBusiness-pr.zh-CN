@@ -54,7 +54,7 @@ _**上次修改的主题：** 2014-12-05_
 <tr class="header">
 <th>New</th>
 <th>Lync Server 命令行管理程序 Cmdlet</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -133,7 +133,7 @@ _**上次修改的主题：** 2014-12-05_
 <tr class="header">
 <th>参数</th>
 <th>Lync Server 命令行管理程序 Cmdlet</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

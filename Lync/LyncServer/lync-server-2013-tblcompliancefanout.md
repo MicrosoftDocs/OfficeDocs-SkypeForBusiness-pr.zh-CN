@@ -51,7 +51,7 @@ tblComplianceFanout 包含处理合规性事件的所有服务器。
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

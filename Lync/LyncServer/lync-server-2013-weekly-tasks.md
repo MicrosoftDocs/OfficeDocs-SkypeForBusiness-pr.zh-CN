@@ -199,7 +199,7 @@ Lync Server 2013 最佳实践分析工具是一种诊断工具，它收集配置
 <thead>
 <tr class="header">
 <th>分区</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 CsKerberosAccountAssignment cmdlet 使您能够验证 Kerberos 帐户是否与给定网站相关联，该帐户是否已正确配置，以及该帐户是否按预期正常运行。 Kerberos 帐户是计算机帐户，可充当运行 Internet 信息服务器（IIS）的站点中的所有计算机的身份验证主体。 由于这些帐户使用 Kerberos 身份验证协议，因此这些帐户称为 Kerberos 帐户，而新的身份验证过程称为 Kerberos web 身份验证。 这使您可以使用单个帐户管理所有 IIS 服务器。
 

@@ -135,12 +135,12 @@ Lync Server 需要标准化 RFC 3966/e.164 电话号码。 若要使用非结构
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>11x17</p></td>
+<td><p>11 </p></td>
 <td><p>移动设备</p></td>
 <td><p>0x0B622800</p></td>
 </tr>
 <tr class="even">
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>otherTelephone</p></td>
 <td><p>0x0C302000</p></td>
 </tr>
@@ -166,7 +166,7 @@ Lync Server 需要标准化 RFC 3966/e.164 电话号码。 若要使用非结构
 </tr>
 <tr class="odd">
 <td><p>17 </p></td>
-<td><p>说明</p></td>
+<td><p>描述</p></td>
 <td><p>0x11000100</p></td>
 </tr>
 <tr class="even">

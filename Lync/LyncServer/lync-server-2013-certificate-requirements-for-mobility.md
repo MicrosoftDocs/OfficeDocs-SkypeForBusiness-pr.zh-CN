@@ -68,7 +68,7 @@ _**上次修改的主题：** 2012-06-24_
 </colgroup>
 <thead>
 <tr class="header">
-<th>说明</th>
+<th>描述</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>
@@ -104,7 +104,7 @@ _**上次修改的主题：** 2012-06-24_
 </colgroup>
 <thead>
 <tr class="header">
-<th>说明</th>
+<th>描述</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>
@@ -140,7 +140,7 @@ _**上次修改的主题：** 2012-06-24_
 </colgroup>
 <thead>
 <tr class="header">
-<th>说明</th>
+<th>描述</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>

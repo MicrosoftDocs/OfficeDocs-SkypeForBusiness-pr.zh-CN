@@ -79,7 +79,7 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 </colgroup>
 <thead>
 <tr class="header">
-<th>说明</th>
+<th>描述</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>
@@ -115,7 +115,7 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 </colgroup>
 <thead>
 <tr class="header">
-<th>说明</th>
+<th>描述</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>
@@ -151,7 +151,7 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 </colgroup>
 <thead>
 <tr class="header">
-<th>说明</th>
+<th>描述</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>

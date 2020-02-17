@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 **Test-csexumconnectivity** cmdlet 验证指定的用户是否可以连接到 Microsoft Exchange Server 2013 统一消息服务。 请注意，此 cmdlet 仅验证是否可以与服务建立连接。 它不测试服务本身。 若要测试统一消息服务（通过运行实际在用户的邮箱中留下语音邮件的综合事务 cmdlet），请使用 Test-CsExUMVoiceMail cmdlet。
 

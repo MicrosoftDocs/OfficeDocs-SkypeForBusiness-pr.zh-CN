@@ -183,7 +183,7 @@ Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在
 </tr>
 <tr class="odd">
 <td><p>4 </p></td>
-<td><p>12 </p></td>
+<td><p>12</p></td>
 <td><p>3（每个 VIP 1 个）+12</p></td>
 </tr>
 <tr class="even">

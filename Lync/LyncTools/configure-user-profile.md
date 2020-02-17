@@ -223,7 +223,7 @@ Lync Server 2013 应力和性能工具包中包含的工具使您能够创建和
 
 <div>
 
-## <a name="summary"></a>摘要
+## <a name="summary"></a>总结
 
 下图显示了 Lync Server 2013 加载配置工具的 "**摘要**" 选项卡。
 

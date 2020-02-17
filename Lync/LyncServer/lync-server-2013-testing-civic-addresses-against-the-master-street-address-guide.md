@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 CsLisCivicAddress cmdlet 用于验证添加到您的位置信息服务（.LIS）数据库中的位置。 此 cmdlet 的工作原理是将位置与在属于 E9-1-1 网络路由提供程序的主街道地址指南（MSAG）中找到的位置进行比较。 如果没有网络路由提供程序或无法访问提供程序，则测试将失败。
 

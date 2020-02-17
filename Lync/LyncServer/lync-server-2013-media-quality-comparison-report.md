@@ -159,7 +159,7 @@ _**上次修改的主题：** 2014-04-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

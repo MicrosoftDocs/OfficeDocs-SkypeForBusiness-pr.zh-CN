@@ -51,7 +51,7 @@ tblComplianceParticipant 包含每个通道和每台服务器的当前参与者�
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

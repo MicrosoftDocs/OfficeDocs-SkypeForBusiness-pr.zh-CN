@@ -51,7 +51,7 @@ tblPrincipal 包含所有主体，其中包括用户、文件夹和组。
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

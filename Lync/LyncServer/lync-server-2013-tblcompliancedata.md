@@ -51,7 +51,7 @@ tblComplianceData 包含合规适配器尚未处理的合规事件。
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

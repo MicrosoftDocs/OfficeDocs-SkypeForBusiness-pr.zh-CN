@@ -51,7 +51,7 @@ tblADUpdates 包含后续 Active Directory 同步步骤尚未处理的 Active Di
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

@@ -108,7 +108,7 @@ Lync Server 监控报告包括30多个报告，旨在提供有关会议、对等
 <tr class="header">
 <th>参数名称</th>
 <th>必需</th>
-<th>说明</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-05-20_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 SIP 中继将 Lync Server 内部企业语音网络连接到以下任一项：
 

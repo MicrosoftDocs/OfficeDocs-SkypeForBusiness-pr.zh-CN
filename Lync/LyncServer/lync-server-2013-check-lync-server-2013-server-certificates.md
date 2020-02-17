@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 Set-cscertificate cmdlet 使您能够检索有关每个 Lync Server 证书的信息。 这一点尤其重要，因为证书具有内置到期日期。 例如，私下颁发的证书通常在12个月后过期。 如果你的任何 Lync Server 证书过期，则在续订或替换证书之前，你将失去随附的功能。
 

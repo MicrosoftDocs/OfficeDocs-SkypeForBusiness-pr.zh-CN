@@ -51,7 +51,7 @@ tblPrincipalInvites 包含打开自动邀请的所有节点的所有已设置用
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

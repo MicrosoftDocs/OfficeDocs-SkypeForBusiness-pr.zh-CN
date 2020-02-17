@@ -51,7 +51,7 @@ tblScopePrincipal 包含分配至节点的作用域。
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

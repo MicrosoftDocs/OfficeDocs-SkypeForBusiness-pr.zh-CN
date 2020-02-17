@@ -48,7 +48,7 @@ _**上次修改的主题：** 2012-10-01_
 <thead>
 <tr class="header">
 <th>视图名称</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

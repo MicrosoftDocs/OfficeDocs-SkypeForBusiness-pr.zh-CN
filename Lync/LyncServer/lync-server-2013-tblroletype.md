@@ -51,7 +51,7 @@ tblRoleType 是一个静态查找表，其中包含角色类型及其关联的�
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

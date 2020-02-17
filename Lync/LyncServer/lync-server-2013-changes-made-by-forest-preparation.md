@@ -75,7 +75,7 @@ _**上次修改的主题：** 2012-10-30_
 <thead>
 <tr class="header">
 <th>管理组</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -107,7 +107,7 @@ _**上次修改的主题：** 2012-10-30_
 <thead>
 <tr class="header">
 <th>基础结构组</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -147,7 +147,7 @@ _**上次修改的主题：** 2012-10-30_
 <thead>
 <tr class="header">
 <th>服务组</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

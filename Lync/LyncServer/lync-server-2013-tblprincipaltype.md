@@ -51,7 +51,7 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

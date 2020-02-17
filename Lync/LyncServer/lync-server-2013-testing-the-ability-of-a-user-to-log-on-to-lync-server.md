@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 CsRegistration cmdlet 使您能够验证组织中的用户是否可以登录 Lync Server。 运行 CsRegistration 时，cmdlet 会尝试将测试用户登录到 Lync Server，然后，如果成功，则断开该测试用户与系统的连接。 所有这些无需用户进行任何干预，并且不会影响任何真实用户。 例如，假设测试帐户 sip:kenmyer@litwareinc.com 与具有实际 Lync Server 帐户的真实用户相对应。 在该情况下，执行测试不会对真实的 Ken Myer 造成任何干扰。 在 Ken Myer 测试帐户从系统中注销后，Ken Myer 本人还继续处于登录状态。
 

@@ -64,7 +64,7 @@ _**上次修改的主题：** 2015-05-15_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 Lync Server 2013 中引入的统一联系人存储使管理员可以选择将用户的联系人存储在 Microsoft Exchange Server 2013 中，而不是在 Lync Server 中。 这样，除了 Lync 2013 之外，用户还可以访问 Outlook Web Access 中的一组相同的联系人。 （或者，您可以继续在 Lync Server 中存储联系人。 在这种情况下，用户将必须维护两组独立的联系人：一个用于 Outlook 和 Outlook Web Access，另一个用于 Lync 2013。）
 

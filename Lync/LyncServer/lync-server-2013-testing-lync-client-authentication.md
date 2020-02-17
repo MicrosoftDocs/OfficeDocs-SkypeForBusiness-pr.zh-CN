@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 CsClientAuth cmdlet 使您能够确定用户是否可以使用客户端证书登录 Lync Server，您可以运行 CsClientAuth cmdlet。 呼叫 Test-CsClientAuth 之后，cmdlet 将与证书提供服务联系，并下载一份指定用户的任意客户端证书。 如果可以找到并下载客户端证书，CsClientAuth 将尝试使用该证书进行登录。 如果登录成功，则 Test-CsClientAuth 将注销并报告测试成功。 如果无法找到或下载证书，或者 cmdlet 无法使用该证书登录，则 Test-CsClientAuth 将报告测试失败。
 

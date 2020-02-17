@@ -51,7 +51,7 @@ _**上次修改的主题：** 2014-02-07_
 <thead>
 <tr class="header">
 <th>配置</th>
-<th>说明</th>
+<th>描述</th>
 <th>支持的位置</th>
 </tr>
 </thead>
