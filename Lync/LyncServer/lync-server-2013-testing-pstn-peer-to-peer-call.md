@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 CsPstnPeerToPeerCall cmdlet 验证一对用户是否必须通过公用电话交换网（PSTN）网关对对等呼叫进行呼叫的能力。 在调用 CsPstnPeerToPeerCall 时，cmdlet 将首先尝试登录到 Lync Server 的两个测试用户。 如果登录成功，则 cmdlet 将使用户1尝试通过 PSTN 网关调用用户2。 CsPstnPeerToPeerCall 将使用拨号计划、语音策略以及分配给测试用户的其他策略和配置设置进行此呼叫。 如果测试按计划进行，则 cmdlet 将验证用户2是否能够应答呼叫，然后从系统中注销两个测试帐户。
 

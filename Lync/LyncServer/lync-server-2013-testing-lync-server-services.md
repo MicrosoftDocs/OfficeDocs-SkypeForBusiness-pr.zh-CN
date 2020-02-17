@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>描述
 
 CsComputer 验证在本地计算机上运行的所有 Lync Server 2013 服务的状态。 （CsComputer 只能在本地运行，它不能从 Windows PowerShell 的远程实例运行。）此 cmdlet 还检查是否在计算机上打开相应的防火墙端口，并确定在安装 Lync Server 2013 时创建的 Active Directory 组是否已添加到相应的本地组。 例如，CsComputer 将验证是否已将 Active Directory 组 RTCUniversalUserAdmins 添加到 Administrators 组。
 

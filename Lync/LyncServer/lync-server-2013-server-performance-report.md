@@ -191,7 +191,7 @@ Server Performance Report 提供了 Microsoft Lync Server 2013 服务器的列�
 <tr class="header">
 <th>名称</th>
 <th>可以按</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -263,7 +263,7 @@ Server Performance Report 提供了 Microsoft Lync Server 2013 服务器的列�
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -362,7 +362,7 @@ Server Performance Report 提供了 Microsoft Lync Server 2013 服务器的列�
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
