@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为大厅、接待区和会议室设置公共区域电话 '
-ms.openlocfilehash: dff06d43e196b999d06c9fa78e7d66ad7a162998
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838032"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089725"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -50,7 +50,10 @@ ms.locfileid: "41838032"
 4. 展开 **"加载项订阅**"，然后单击 "购买呼叫计划"。 选择 "**国内呼叫计划**" 或 "**国内和国际通话计划**"。
 
 > [!NOTE]
-> 不需要电话系统许可证。 许可证包含在公共区域电话许可证中。
+> 如果您使用的是 Microsoft Phone 系统直接路由，则不需要呼叫计划许可证。
+
+> [!NOTE]
+> 无需添加电话系统许可证。 许可证包含在公共区域电话许可证中。
 
 有关许可证的详细信息，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
@@ -89,6 +92,9 @@ ms.locfileid: "41838032"
 6. 将许可证分配给用户。 在同一页面上，点击展开**产品许可证**。 打开公共区域电话，然后选择**国内呼叫计划**或**国内和国际通话计划**。 
 
     ![显示许可证分配的屏幕截图](media/set-up-common-area-phone-image2.png)
+
+> [!NOTE]
+> 如果您使用的是 Microsoft Phone 系统直接路由，则无需分配呼叫计划许可证。
 
 有关详细信息，请参阅[添加用户](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide)。
 

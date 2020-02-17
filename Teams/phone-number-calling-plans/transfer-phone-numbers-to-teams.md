@@ -17,18 +17,20 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827930"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089735"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>将电话号码转移到 Microsoft 团队
 
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 使用 Microsoft 团队管理中心中的移植向导，将您的电话号码从当前服务提供商转移到团队。 将您的电话号码移植到团队后，Microsoft 将成为您的服务提供商，并向您收取这些电话号码。
 
-在开始之前，我们建议您查看 "[什么是端口订单](port-order-overview.md)" 中的信息？。 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码，或者拥有要转移到团队的超过999用户（订阅者）电话号码，请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以下载正确的表单并将其发送给我们。
+在开始之前，我们建议您查看 "[哪些端口订单](port-order-overview.md)" 中的信息？ 如果您有电话拨入式会议桥的服务号码、自动助理或其他服务号码、免费电话号码，或者拥有要转移到团队的超过999用户（订阅者）电话号码，请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以下载正确的表单并将其发送给我们。
 
   > [!NOTE]
   > 我们只在美国营业日（而不是在公共假日或周末）处理用于转移电话号码的港口订单。
@@ -36,7 +38,7 @@ ms.locfileid: "41827930"
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>创建一个端口顺序并将您的电话号码转移到团队
 
 > [!NOTE]
-> 如果您的国家或地区未在 "Microsoft 团队管理中心" 的 "转移向导" 中列出，您可以[手动提交一个端口顺序](manually-submit-port-order.md)。
+> **目前，您可以使用此向导为英国和加拿大获取电话号码**。 若要获取其他国家和地区的电话号码，您可以[手动提交一个端口订单](manually-submit-port-order.md)。 若要获得手动提交端口顺序所需的表单，请在 "[管理组织电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)" 下拉列表中选择您的国家或地区。
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **电话号码**"。 单击 "**数字**"，然后单击 "**端口**" 以启动移植向导。
 2. 查看 "**入门**" 页面上的信息，然后在准备就绪后，单击 "**下一步**"。
@@ -87,7 +89,7 @@ ms.locfileid: "41827930"
 
 收到您的端口订单后，您将收到一封确认您的请求的电子邮件。 每日检查和更新您的请求，您将在电子邮件中收到有关其进度和状态的通知。 如果您的请求被拒绝，系统将要求您打开支持票证。
 
-若要查看你的端口顺序的状态，请在 Microsoft 团队管理中心的左侧导航中，转到 > 的**语音** > **端口订单**，然后单击 "**订单历史记录**"。 每个端口订单状态都在 "**状态**" 列中列出。 若要了解详细信息，请参阅[您的端口订单的状态是什么？](port-order-status.md)。
+若要查看你的端口顺序的状态，请在 Microsoft 团队管理中心的左侧导航中，转到 > 的**语音** > **端口订单**，然后单击 "**订单历史记录**"。 每个端口订单状态都在 "**状态**" 列中列出。 若要了解详细信息，请参阅[您的端口订单的状态是什么？](port-order-status.md)
 
 ## <a name="related-topics"></a>相关主题
 
