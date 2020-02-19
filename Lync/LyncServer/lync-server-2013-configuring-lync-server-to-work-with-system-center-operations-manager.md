@@ -12,20 +12,20 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff72248e691d3e5358fda79a98d318cfc3a382eb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: accadd3f12c9f07ec5dfa295a037ce50a72f11ed
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008444"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a><span data-ttu-id="a7278-102">配置 Lync Server 2013 以使用 System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="a7278-102">Configuring Lync Server 2013 to work with System Center Operations Manager</span></span>
+# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a><span data-ttu-id="10ca1-102">配置 Lync Server 2013 以使用 System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="10ca1-102">Configuring Lync Server 2013 to work with System Center Operations Manager</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42008444"
 
 <span> </span>
 
-<span data-ttu-id="a7278-103">_**上次修改的主题：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="a7278-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="10ca1-103">_**上次修改的主题：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="10ca1-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="a7278-104">为了将 Microsoft Lync Server 2013 基础结构配置为与 System Center Operations Manager 配合使用，您必须执行以下三项操作：</span><span class="sxs-lookup"><span data-stu-id="a7278-104">In order to configure your Microsoft Lync Server 2013 infrastructure to work with System Center Operations Manager you must do three things:</span></span>
+<span data-ttu-id="10ca1-104">为了将 Microsoft Lync Server 2013 基础结构配置为与 System Center Operations Manager 配合使用，您必须执行以下三项操作：</span><span class="sxs-lookup"><span data-stu-id="10ca1-104">In order to configure your Microsoft Lync Server 2013 infrastructure to work with System Center Operations Manager you must do three things:</span></span>
 
-  - <span data-ttu-id="a7278-105">确定并配置您的主 System Center Operations Manager 管理服务器。</span><span class="sxs-lookup"><span data-stu-id="a7278-105">Identify and configure your primary System Center Operations Manager management server.</span></span> <span data-ttu-id="a7278-106">配置管理服务器包括安装 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2，以及使用 SQL Server 设置后端数据库。</span><span class="sxs-lookup"><span data-stu-id="a7278-106">Configuring the management server includes installing System Center Operations Manager 2012 or System Center Operations Manager 2007 R2, as well as setting up a back-end database using SQL Server.</span></span> <span data-ttu-id="a7278-107">您需要使用的 SQL Server 的实际版本取决于所使用的 System Center Operations Manager 的版本。</span><span class="sxs-lookup"><span data-stu-id="a7278-107">The actual version of SQL Server that you need to be use depends on the version of System Center Operations Manager you are using.</span></span> <span data-ttu-id="a7278-108">有关详细信息，请参阅[在 Lync server 2013 中配置主管理服务器](lync-server-2013-configuring-the-primary-management-server.md)。</span><span class="sxs-lookup"><span data-stu-id="a7278-108">For details, see [Configuring the primary management server in Lync Server 2013](lync-server-2013-configuring-the-primary-management-server.md).</span></span>
+  - <span data-ttu-id="10ca1-105">确定并配置您的主 System Center Operations Manager 管理服务器。</span><span class="sxs-lookup"><span data-stu-id="10ca1-105">Identify and configure your primary System Center Operations Manager management server.</span></span> <span data-ttu-id="10ca1-106">配置管理服务器包括安装 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2，以及使用 SQL Server 设置后端数据库。</span><span class="sxs-lookup"><span data-stu-id="10ca1-106">Configuring the management server includes installing System Center Operations Manager 2012 or System Center Operations Manager 2007 R2, as well as setting up a back-end database using SQL Server.</span></span> <span data-ttu-id="10ca1-107">您需要使用的 SQL Server 的实际版本取决于所使用的 System Center Operations Manager 的版本。</span><span class="sxs-lookup"><span data-stu-id="10ca1-107">The actual version of SQL Server that you need to be use depends on the version of System Center Operations Manager you are using.</span></span> <span data-ttu-id="10ca1-108">有关详细信息，请参阅[在 Lync server 2013 中配置主管理服务器](lync-server-2013-configuring-the-primary-management-server.md)。</span><span class="sxs-lookup"><span data-stu-id="10ca1-108">For details, see [Configuring the primary management server in Lync Server 2013](lync-server-2013-configuring-the-primary-management-server.md).</span></span>
 
-  - <span data-ttu-id="a7278-109">确定并配置要监视的 Lync Server 计算机。</span><span class="sxs-lookup"><span data-stu-id="a7278-109">Identify and configure the Lync Server computers that you want to monitor.</span></span> <span data-ttu-id="a7278-110">若要使用 System Center Operations Manager 监视 Lync Server 计算机，必须安装 System Center Operations Manager 代理文件，并将每台服务器配置为充当代理。</span><span class="sxs-lookup"><span data-stu-id="a7278-110">To monitor a Lync Server computer by using System Center Operations Manager you must install the System Center Operations Manager agent files, and configure each server to act as a proxy.</span></span>
+  - <span data-ttu-id="10ca1-109">确定并配置要监视的 Lync Server 计算机。</span><span class="sxs-lookup"><span data-stu-id="10ca1-109">Identify and configure the Lync Server computers that you want to monitor.</span></span> <span data-ttu-id="10ca1-110">若要使用 System Center Operations Manager 监视 Lync Server 计算机，必须安装 System Center Operations Manager 代理文件，并将每台服务器配置为充当代理。</span><span class="sxs-lookup"><span data-stu-id="10ca1-110">To monitor a Lync Server computer by using System Center Operations Manager you must install the System Center Operations Manager agent files, and configure each server to act as a proxy.</span></span>
 
-  - <span data-ttu-id="a7278-111">确定并配置要充当 Lync Server*观察程序节点*的计算机。</span><span class="sxs-lookup"><span data-stu-id="a7278-111">Identify and configure the computers that you want to act as Lync Server *watcher nodes*.</span></span> <span data-ttu-id="a7278-112">观察程序节点是定期运行 Lync Server 合成事务的计算机，这些 cmdlet 是验证关键 Lync Server 组件（如登录到系统或 exchange 即时消息的能力）的 Windows PowerShell cmdlet。按预期工作。</span><span class="sxs-lookup"><span data-stu-id="a7278-112">Watcher nodes are computers that periodically run Lync Server synthetic transactions, which are Windows PowerShell cmdlets that verify that key Lync Server components, such as the ability to log on to the system or the ability to exchange instant messages are working as expected.</span></span>
+  - <span data-ttu-id="10ca1-111">确定并配置要充当 Lync Server*观察程序节点*的计算机。</span><span class="sxs-lookup"><span data-stu-id="10ca1-111">Identify and configure the computers that you want to act as Lync Server *watcher nodes*.</span></span> <span data-ttu-id="10ca1-112">观察程序节点是定期运行 Lync Server 合成事务的计算机，这些 cmdlet 是验证关键 Lync Server 组件（如登录到系统或 exchange 即时消息的能力）的 Windows PowerShell cmdlet。按预期工作。</span><span class="sxs-lookup"><span data-stu-id="10ca1-112">Watcher nodes are computers that periodically run Lync Server synthetic transactions, which are Windows PowerShell cmdlets that verify that key Lync Server components, such as the ability to log on to the system or the ability to exchange instant messages are working as expected.</span></span>
 
-<span data-ttu-id="a7278-113">本节中的主题包含执行其中每项任务的说明。</span><span class="sxs-lookup"><span data-stu-id="a7278-113">The topics in this section contain instructions for carrying out each of these tasks.</span></span>
+<span data-ttu-id="10ca1-113">本节中的主题包含执行其中每项任务的说明。</span><span class="sxs-lookup"><span data-stu-id="10ca1-113">The topics in this section contain instructions for carrying out each of these tasks.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a7278-114">本节内容</span><span class="sxs-lookup"><span data-stu-id="a7278-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="10ca1-114">本节内容</span><span class="sxs-lookup"><span data-stu-id="10ca1-114">In This Section</span></span>
 
-  - [<span data-ttu-id="a7278-115">在 Lync Server 2013 中配置主管理服务器</span><span class="sxs-lookup"><span data-stu-id="a7278-115">Configuring the primary management server in Lync Server 2013</span></span>](lync-server-2013-configuring-the-primary-management-server.md)
+  - [<span data-ttu-id="10ca1-115">在 Lync Server 2013 中配置主管理服务器</span><span class="sxs-lookup"><span data-stu-id="10ca1-115">Configuring the primary management server in Lync Server 2013</span></span>](lync-server-2013-configuring-the-primary-management-server.md)
 
-  - [<span data-ttu-id="a7278-116">安装 Lync Server 2013 管理包</span><span class="sxs-lookup"><span data-stu-id="a7278-116">Installing the Lync Server 2013 management packs</span></span>](lync-server-2013-installing-the-lync-server-2013-management-packs.md)
+  - [<span data-ttu-id="10ca1-116">安装 Lync Server 2013 管理包</span><span class="sxs-lookup"><span data-stu-id="10ca1-116">Installing the Lync Server 2013 management packs</span></span>](lync-server-2013-installing-the-lync-server-2013-management-packs.md)
 
-  - [<span data-ttu-id="a7278-117">配置将在 Lync Server 2013 中监视的 Lync Server 计算机</span><span class="sxs-lookup"><span data-stu-id="a7278-117">Configuring the Lync Server computers that will be monitored in Lync Server 2013</span></span>](lync-server-2013-configuring-the-lync-server-computers-that-will-be-monitored.md)
+  - [<span data-ttu-id="10ca1-117">配置将在 Lync Server 2013 中监视的 Lync Server 计算机</span><span class="sxs-lookup"><span data-stu-id="10ca1-117">Configuring the Lync Server computers that will be monitored in Lync Server 2013</span></span>](lync-server-2013-configuring-the-lync-server-computers-that-will-be-monitored.md)
 
-  - [<span data-ttu-id="a7278-118">在 Lync Server 2013 中安装和配置观察程序节点</span><span class="sxs-lookup"><span data-stu-id="a7278-118">Installing and configuring watcher nodes in Lync Server 2013</span></span>](lync-server-2013-installing-and-configuring-watcher-nodes.md)
+  - [<span data-ttu-id="10ca1-118">在 Lync Server 2013 中安装和配置观察程序节点</span><span class="sxs-lookup"><span data-stu-id="10ca1-118">Installing and configuring watcher nodes in Lync Server 2013</span></span>](lync-server-2013-installing-and-configuring-watcher-nodes.md)
 
 </div>
 

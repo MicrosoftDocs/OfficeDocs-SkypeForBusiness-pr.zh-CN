@@ -12,20 +12,20 @@ ms:contentKeyID: 48185809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be877275c2d5f70b7a7038b55f5d42f887ba1739
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8d19b045e23efa39c9f70f70ba7ac0236e77cc13
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008494"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="central-management-store-failover-in-lync-server-2013"></a><span data-ttu-id="9187a-102">Lync Server 2013 中的中央管理存储故障转移</span><span class="sxs-lookup"><span data-stu-id="9187a-102">Central Management store failover in Lync Server 2013</span></span>
+# <a name="central-management-store-failover-in-lync-server-2013"></a><span data-ttu-id="c98b4-102">Lync Server 2013 中的中央管理存储故障转移</span><span class="sxs-lookup"><span data-stu-id="c98b4-102">Central Management store failover in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42008494"
 
 <span> </span>
 
-<span data-ttu-id="9187a-103">_**上次修改的主题：** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="9187a-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="c98b4-103">_**上次修改的主题：** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="c98b4-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="9187a-104">中央管理存储包含有关 Lync 2013 部署中的服务器和服务的配置数据。</span><span class="sxs-lookup"><span data-stu-id="9187a-104">The Central Management store contains configuration data about servers and services in your Lync 2013 deployment.</span></span> <span data-ttu-id="9187a-105">它提供了用于定义、设置、维护、管理、描述和操作 Lync 2013 部署所需的数据的可靠、架构化的存储。</span><span class="sxs-lookup"><span data-stu-id="9187a-105">It provides a robust, schematized storage of the data needed to define, set up, maintain, administer, describe, and operate a Lync 2013 deployment.</span></span> <span data-ttu-id="9187a-106">它还会验证数据，以确保配置的一致性。</span><span class="sxs-lookup"><span data-stu-id="9187a-106">It also validates the data to ensure configuration consistency.</span></span>
+<span data-ttu-id="c98b4-104">中央管理存储包含有关 Lync 2013 部署中的服务器和服务的配置数据。</span><span class="sxs-lookup"><span data-stu-id="c98b4-104">The Central Management store contains configuration data about servers and services in your Lync 2013 deployment.</span></span> <span data-ttu-id="c98b4-105">它提供了用于定义、设置、维护、管理、描述和操作 Lync 2013 部署所需的数据的可靠、架构化的存储。</span><span class="sxs-lookup"><span data-stu-id="c98b4-105">It provides a robust, schematized storage of the data needed to define, set up, maintain, administer, describe, and operate a Lync 2013 deployment.</span></span> <span data-ttu-id="c98b4-106">它还会验证数据，以确保配置的一致性。</span><span class="sxs-lookup"><span data-stu-id="c98b4-106">It also validates the data to ensure configuration consistency.</span></span>
 
-<span data-ttu-id="9187a-107">每个 Lync 部署都包含一个中央管理存储，该存储由一个前端池的后端服务器托管。</span><span class="sxs-lookup"><span data-stu-id="9187a-107">Each Lync deployment includes one Central Management store, which is hosted by the Back End Server of one Front End pool.</span></span>
+<span data-ttu-id="c98b4-107">每个 Lync 部署都包含一个中央管理存储，该存储由一个前端池的后端服务器托管。</span><span class="sxs-lookup"><span data-stu-id="c98b4-107">Each Lync deployment includes one Central Management store, which is hosted by the Back End Server of one Front End pool.</span></span>
 
-<span data-ttu-id="9187a-108">建立包括承载中央管理存储的池的池配对时，将在备份池中设置备份中央管理存储数据库，并在两个池中安装中央管理存储服务。</span><span class="sxs-lookup"><span data-stu-id="9187a-108">When you establish a pool pairing that includes the pool hosting the Central Management store, a backup Central Management store database is set up in the backup pool, and Central Management store services are installed in both pools.</span></span> <span data-ttu-id="9187a-109">在任何时间点，两个中央管理存储数据库之一是活动主控形状，另一个是备用的。</span><span class="sxs-lookup"><span data-stu-id="9187a-109">At any point in time, one of the two Central Management store databases is the active master, and the other is a standby.</span></span> <span data-ttu-id="9187a-110">内容将由后端服务从活动主机复制到备用主机。</span><span class="sxs-lookup"><span data-stu-id="9187a-110">The content is replicated by the Backup Service from the active master to the standby.</span></span>
+<span data-ttu-id="c98b4-108">建立包括承载中央管理存储的池的池配对时，将在备份池中设置备份中央管理存储数据库，并在两个池中安装中央管理存储服务。</span><span class="sxs-lookup"><span data-stu-id="c98b4-108">When you establish a pool pairing that includes the pool hosting the Central Management store, a backup Central Management store database is set up in the backup pool, and Central Management store services are installed in both pools.</span></span> <span data-ttu-id="c98b4-109">在任何时间点，两个中央管理存储数据库之一是活动主控形状，另一个是备用的。</span><span class="sxs-lookup"><span data-stu-id="c98b4-109">At any point in time, one of the two Central Management store databases is the active master, and the other is a standby.</span></span> <span data-ttu-id="c98b4-110">内容将由后端服务从活动主机复制到备用主机。</span><span class="sxs-lookup"><span data-stu-id="c98b4-110">The content is replicated by the Backup Service from the active master to the standby.</span></span>
 
-<span data-ttu-id="9187a-111">在涉及承载中央管理存储的池的池故障转移过程中，管理员必须先对中央管理存储进行故障转移，然后才能对前端池进行故障转移。</span><span class="sxs-lookup"><span data-stu-id="9187a-111">During a pool failover that involves the pools hosting the Central Management store, the administrator must fail over the Central Management store before failing over the Front End pool.</span></span>
+<span data-ttu-id="c98b4-111">在涉及承载中央管理存储的池的池故障转移过程中，管理员必须先对中央管理存储进行故障转移，然后才能对前端池进行故障转移。</span><span class="sxs-lookup"><span data-stu-id="c98b4-111">During a pool failover that involves the pools hosting the Central Management store, the administrator must fail over the Central Management store before failing over the Front End pool.</span></span>
 
-<span data-ttu-id="9187a-112">修复灾难后，无需对中央管理存储进行故障回复。</span><span class="sxs-lookup"><span data-stu-id="9187a-112">After the disaster is repaired, it is not necessary to fail back the Central Management store.</span></span> <span data-ttu-id="9187a-113">修复后，原始备份池中的中央管理存储可以保留为活动主控形状。</span><span class="sxs-lookup"><span data-stu-id="9187a-113">After repair, the Central Management store in the original backup pool can remain as the active master.</span></span>
+<span data-ttu-id="c98b4-112">修复灾难后，无需对中央管理存储进行故障回复。</span><span class="sxs-lookup"><span data-stu-id="c98b4-112">After the disaster is repaired, it is not necessary to fail back the Central Management store.</span></span> <span data-ttu-id="c98b4-113">修复后，原始备份池中的中央管理存储可以保留为活动主控形状。</span><span class="sxs-lookup"><span data-stu-id="c98b4-113">After repair, the Central Management store in the original backup pool can remain as the active master.</span></span>
 
-<span data-ttu-id="9187a-114">集中管理存储故障转移的工程目标为5分钟，恢复时间目标（RTO）和恢复点目标（RPO）为5分钟。</span><span class="sxs-lookup"><span data-stu-id="9187a-114">The engineering targets for Central Management store failover are 5 minutes for recovery time objective (RTO) and 5 minutes for recovery point objective (RPO).</span></span>
+<span data-ttu-id="c98b4-114">集中管理存储故障转移的工程目标为5分钟，恢复时间目标（RTO）和恢复点目标（RPO）为5分钟。</span><span class="sxs-lookup"><span data-stu-id="c98b4-114">The engineering targets for Central Management store failover are 5 minutes for recovery time objective (RTO) and 5 minutes for recovery point objective (RPO).</span></span>
 
 </div>
 

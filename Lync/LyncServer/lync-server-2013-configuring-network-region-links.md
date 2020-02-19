@@ -12,20 +12,20 @@ ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccafd4302897a8768164f9f085f382e2ad806c2d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 13204945482c130c65aea7725db5e06a1eb5a3da
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030516"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134728"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-region-links-in-lync-server-2013"></a><span data-ttu-id="80089-102">在 Lync Server 2013 中配置网络区域链接</span><span class="sxs-lookup"><span data-stu-id="80089-102">Configuring network region links in Lync Server 2013</span></span>
+# <a name="configuring-network-region-links-in-lync-server-2013"></a><span data-ttu-id="7a19b-102">在 Lync Server 2013 中配置网络区域链接</span><span class="sxs-lookup"><span data-stu-id="7a19b-102">Configuring network region links in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,75 +35,75 @@ ms.locfileid: "42030516"
 
 <span> </span>
 
-<span data-ttu-id="80089-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="80089-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="7a19b-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="7a19b-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="80089-104">您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。</span><span class="sxs-lookup"><span data-stu-id="80089-104">You can configure links between two network regions as part of call admission control (CAC).</span></span> <span data-ttu-id="80089-105">网络内的区域通过物理广域网 (WAN) 连接进行链接。</span><span class="sxs-lookup"><span data-stu-id="80089-105">Regions within a network are linked through physical wide area network (WAN) connectivity.</span></span> <span data-ttu-id="80089-106">您可以使用 Lync Server 控制面板定义两个网络区域之间的链接，并设置这些区域之间的音频和视频连接的带宽限制。</span><span class="sxs-lookup"><span data-stu-id="80089-106">You can use the Lync Server Control Panel to define a link between two network regions and set the bandwidth limitations on audio and video connections between these regions.</span></span> <span data-ttu-id="80089-107">有关删除现有网络区域链接的详细信息，请参阅[删除 Lync Server 2013 中的网络区域链接](lync-server-2013-deleting-network-region-links.md)。</span><span class="sxs-lookup"><span data-stu-id="80089-107">For details about deleting an existing network region link, see [Deleting network region links in Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span></span>
+<span data-ttu-id="7a19b-104">您可以配置两个网络区域之间的链接，以作为呼叫允许控制 (CAC) 的一部分。</span><span class="sxs-lookup"><span data-stu-id="7a19b-104">You can configure links between two network regions as part of call admission control (CAC).</span></span> <span data-ttu-id="7a19b-105">网络内的区域通过物理广域网 (WAN) 连接进行链接。</span><span class="sxs-lookup"><span data-stu-id="7a19b-105">Regions within a network are linked through physical wide area network (WAN) connectivity.</span></span> <span data-ttu-id="7a19b-106">您可以使用 Lync Server 控制面板定义两个网络区域之间的链接，并设置这些区域之间的音频和视频连接的带宽限制。</span><span class="sxs-lookup"><span data-stu-id="7a19b-106">You can use the Lync Server Control Panel to define a link between two network regions and set the bandwidth limitations on audio and video connections between these regions.</span></span> <span data-ttu-id="7a19b-107">有关删除现有网络区域链接的详细信息，请参阅[删除 Lync Server 2013 中的网络区域链接](lync-server-2013-deleting-network-region-links.md)。</span><span class="sxs-lookup"><span data-stu-id="7a19b-107">For details about deleting an existing network region link, see [Deleting network region links in Lync Server 2013](lync-server-2013-deleting-network-region-links.md).</span></span>
 
 <div>
 
-## <a name="to-create-a-network-region-link"></a><span data-ttu-id="80089-108">创建网络区域链接</span><span class="sxs-lookup"><span data-stu-id="80089-108">To create a network region link</span></span>
+## <a name="to-create-a-network-region-link"></a><span data-ttu-id="7a19b-108">创建网络区域链接</span><span class="sxs-lookup"><span data-stu-id="7a19b-108">To create a network region link</span></span>
 
-1.  <span data-ttu-id="80089-109">从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="80089-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="7a19b-109">从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="7a19b-109">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="80089-110">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="80089-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="80089-111">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="80089-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="7a19b-110">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="7a19b-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="7a19b-111">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="7a19b-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="80089-112">在左侧导航栏中，单击“网络配置”\*\*\*\*，然后单击“区域链接”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="80089-112">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
+3.  <span data-ttu-id="7a19b-112">在左侧导航栏中，单击“网络配置”\*\*\*\*，然后单击“区域链接”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="7a19b-112">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
 
-4.  <span data-ttu-id="80089-113">在 "**区域链接**" 页上，单击 "**新建**"。</span><span class="sxs-lookup"><span data-stu-id="80089-113">On the **Region Link** page, click **New**.</span></span>
+4.  <span data-ttu-id="7a19b-113">在 "**区域链接**" 页上，单击 "**新建**"。</span><span class="sxs-lookup"><span data-stu-id="7a19b-113">On the **Region Link** page, click **New**.</span></span>
 
-5.  <span data-ttu-id="80089-114">在 "**新区域链接**" 的 "**名称**" 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="80089-114">In **New Region Link**, type a value in the **Name** field.</span></span>
+5.  <span data-ttu-id="7a19b-114">在 "**新区域链接**" 的 "**名称**" 字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="7a19b-114">In **New Region Link**, type a value in the **Name** field.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="80089-115">此值在 Lync Server 2013 部署中必须是唯一的。</span><span class="sxs-lookup"><span data-stu-id="80089-115">This value must be unique within your Lync Server 2013 deployment.</span></span>
+    > <span data-ttu-id="7a19b-115">此值在 Lync Server 2013 部署中必须是唯一的。</span><span class="sxs-lookup"><span data-stu-id="7a19b-115">This value must be unique within your Lync Server 2013 deployment.</span></span>
 
     
     </div>
 
-6.  <span data-ttu-id="80089-116">从 "**网络区域\#1** " 下拉列表中，选择两个要链接的区域之一。</span><span class="sxs-lookup"><span data-stu-id="80089-116">From the **Network region \#1** drop-down list, select one of the two regions to be linked.</span></span>
+6.  <span data-ttu-id="7a19b-116">从 "**网络区域\#1** " 下拉列表中，选择两个要链接的区域之一。</span><span class="sxs-lookup"><span data-stu-id="7a19b-116">From the **Network region \#1** drop-down list, select one of the two regions to be linked.</span></span>
 
-7.  <span data-ttu-id="80089-117">从 "**网络区域\#2** " 下拉列表中，选择要链接的其他区域。</span><span class="sxs-lookup"><span data-stu-id="80089-117">From the **Network region \#2** drop-down list, select the other region to be linked.</span></span> <span data-ttu-id="80089-118">此区域必须不同于为网络区域\#1 选择的区域。</span><span class="sxs-lookup"><span data-stu-id="80089-118">This region must be different from the region selected for Network region \#1.</span></span>
+7.  <span data-ttu-id="7a19b-117">从 "**网络区域\#2** " 下拉列表中，选择要链接的其他区域。</span><span class="sxs-lookup"><span data-stu-id="7a19b-117">From the **Network region \#2** drop-down list, select the other region to be linked.</span></span> <span data-ttu-id="7a19b-118">此区域必须不同于为网络区域\#1 选择的区域。</span><span class="sxs-lookup"><span data-stu-id="7a19b-118">This region must be different from the region selected for Network region \#1.</span></span>
 
-8.  <span data-ttu-id="80089-119">Optional如果要对这些区域之间的音频或视频呼叫设置带宽限制，请从 "**带宽策略**" 下拉列表中选择一个带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="80089-119">(Optional) If you want to place bandwidth limitations on audio or video calls between these regions, select a bandwidth policy profile from the **Bandwidth policy** drop-down list.</span></span>
+8.  <span data-ttu-id="7a19b-119">Optional如果要对这些区域之间的音频或视频呼叫设置带宽限制，请从 "**带宽策略**" 下拉列表中选择一个带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="7a19b-119">(Optional) If you want to place bandwidth limitations on audio or video calls between these regions, select a bandwidth policy profile from the **Bandwidth policy** drop-down list.</span></span>
 
-9.  <span data-ttu-id="80089-120">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="80089-120">Click **Commit**.</span></span>
-
-</div>
-
-<div>
-
-## <a name="to-modify-a-network-region-link"></a><span data-ttu-id="80089-121">修改网络区域链接</span><span class="sxs-lookup"><span data-stu-id="80089-121">To modify a network region link</span></span>
-
-1.  <span data-ttu-id="80089-122">从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="80089-122">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
-
-2.  <span data-ttu-id="80089-123">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="80089-123">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="80089-124">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="80089-124">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
-
-3.  <span data-ttu-id="80089-125">在左侧导航栏中，单击“网络配置”\*\*\*\*，然后单击“区域链接”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="80089-125">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
-
-4.  <span data-ttu-id="80089-126">在 "**区域链接**" 页上，单击要修改的区域链接。</span><span class="sxs-lookup"><span data-stu-id="80089-126">On the **Region Link** page, click the region link that you want to modify.</span></span>
-
-5.  <span data-ttu-id="80089-127">在“编辑”\*\*\*\* 菜单上，单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="80089-127">On the **Edit** menu, click **Show details**.</span></span>
-
-6.  <span data-ttu-id="80089-128">在 "**编辑区域链接**" 中，可以修改链接的区域或此链接的带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="80089-128">In **Edit Region Link**, you can modify the regions that are linked or the bandwidth policy profile for this link.</span></span>
-
-7.  <span data-ttu-id="80089-129">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="80089-129">Click **Commit**.</span></span>
+9.  <span data-ttu-id="7a19b-120">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="7a19b-120">Click **Commit**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="80089-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="80089-130">See Also</span></span>
+## <a name="to-modify-a-network-region-link"></a><span data-ttu-id="7a19b-121">修改网络区域链接</span><span class="sxs-lookup"><span data-stu-id="7a19b-121">To modify a network region link</span></span>
+
+1.  <span data-ttu-id="7a19b-122">从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="7a19b-122">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or is assigned to the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="7a19b-123">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="7a19b-123">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="7a19b-124">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="7a19b-124">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="7a19b-125">在左侧导航栏中，单击“网络配置”\*\*\*\*，然后单击“区域链接”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="7a19b-125">In the left navigation bar, click **Network Configuration** and then click **Region Link**.</span></span>
+
+4.  <span data-ttu-id="7a19b-126">在 "**区域链接**" 页上，单击要修改的区域链接。</span><span class="sxs-lookup"><span data-stu-id="7a19b-126">On the **Region Link** page, click the region link that you want to modify.</span></span>
+
+5.  <span data-ttu-id="7a19b-127">在“编辑”\*\*\*\* 菜单上，单击“显示详细信息”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="7a19b-127">On the **Edit** menu, click **Show details**.</span></span>
+
+6.  <span data-ttu-id="7a19b-128">在 "**编辑区域链接**" 中，可以修改链接的区域或此链接的带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="7a19b-128">In **Edit Region Link**, you can modify the regions that are linked or the bandwidth policy profile for this link.</span></span>
+
+7.  <span data-ttu-id="7a19b-129">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="7a19b-129">Click **Commit**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="7a19b-130">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7a19b-130">See Also</span></span>
 
 
-[<span data-ttu-id="80089-131">删除 Lync Server 2013 中的网络区域链接</span><span class="sxs-lookup"><span data-stu-id="80089-131">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)  
+[<span data-ttu-id="7a19b-131">删除 Lync Server 2013 中的网络区域链接</span><span class="sxs-lookup"><span data-stu-id="7a19b-131">Deleting network region links in Lync Server 2013</span></span>](lync-server-2013-deleting-network-region-links.md)  
 
 
-[<span data-ttu-id="80089-132">新 CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="80089-132">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
-[<span data-ttu-id="80089-133">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="80089-133">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
-[<span data-ttu-id="80089-134">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="80089-134">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
-[<span data-ttu-id="80089-135">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="80089-135">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+[<span data-ttu-id="7a19b-132">新 CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="7a19b-132">New-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
+[<span data-ttu-id="7a19b-133">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="7a19b-133">Set-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[<span data-ttu-id="7a19b-134">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="7a19b-134">Remove-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
+[<span data-ttu-id="7a19b-135">CsNetworkRegionLink</span><span class="sxs-lookup"><span data-stu-id="7a19b-135">Get-CsNetworkRegionLink</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
   
 
 </div>

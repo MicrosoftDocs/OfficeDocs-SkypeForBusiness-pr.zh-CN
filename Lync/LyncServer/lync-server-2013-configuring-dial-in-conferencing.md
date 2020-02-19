@@ -12,20 +12,20 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef825aa799cdcdec66903e002791f30d9b4cac00
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bd86bcbe34e1cd3510fcbf5f257504a2316f3d14
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046415"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135509"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="678a5-102">在 Lync Server 2013 中配置电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="678a5-102">Configuring dial-in conferencing in Lync Server 2013</span></span>
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a><span data-ttu-id="a4af3-102">在 Lync Server 2013 中配置电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="a4af3-102">Configuring dial-in conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "42046415"
 
 <span> </span>
 
-<span data-ttu-id="678a5-103">_**上次修改的主题：** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="678a5-103">_**Topic Last Modified:** 2014-10-03_</span></span>
+<span data-ttu-id="a4af3-103">_**上次修改的主题：** 2014-10-03_</span><span class="sxs-lookup"><span data-stu-id="a4af3-103">_**Topic Last Modified:** 2014-10-03_</span></span>
 
-<span data-ttu-id="678a5-104">本部分将指导您完成 Lync Server 2013 电话拨入式会议的配置。</span><span class="sxs-lookup"><span data-stu-id="678a5-104">This section guides you through the configuration of Lync Server 2013 dial-in conferencing.</span></span>
+<span data-ttu-id="a4af3-104">本部分将指导您完成 Lync Server 2013 电话拨入式会议的配置。</span><span class="sxs-lookup"><span data-stu-id="a4af3-104">This section guides you through the configuration of Lync Server 2013 dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="678a5-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="678a5-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a4af3-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="a4af3-105">In This Section</span></span>
 
-  - [<span data-ttu-id="678a5-106">Lync Server 2013 中的电话拨入式会议配置先决条件和权限</span><span class="sxs-lookup"><span data-stu-id="678a5-106">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
+  - [<span data-ttu-id="a4af3-106">Lync Server 2013 中的电话拨入式会议配置先决条件和权限</span><span class="sxs-lookup"><span data-stu-id="a4af3-106">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
 
-  - [<span data-ttu-id="678a5-107">Lync Server 2013 中的电话拨入式会议的部署清单</span><span class="sxs-lookup"><span data-stu-id="678a5-107">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="a4af3-107">Lync Server 2013 中的电话拨入式会议的部署清单</span><span class="sxs-lookup"><span data-stu-id="a4af3-107">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="678a5-108">在 Lync Server 2013 中配置电话拨入式会议的拨号计划</span><span class="sxs-lookup"><span data-stu-id="678a5-108">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="a4af3-108">在 Lync Server 2013 中配置电话拨入式会议的拨号计划</span><span class="sxs-lookup"><span data-stu-id="a4af3-108">Configure dial plans for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="678a5-109">确保拨号计划 Lync Server 2013 已分配区域</span><span class="sxs-lookup"><span data-stu-id="678a5-109">Make sure dial plans Lync Server 2013 have assigned regions</span></span>](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [<span data-ttu-id="a4af3-109">确保拨号计划 Lync Server 2013 已分配区域</span><span class="sxs-lookup"><span data-stu-id="a4af3-109">Make sure dial plans Lync Server 2013 have assigned regions</span></span>](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [<span data-ttu-id="678a5-110">Optional验证 Lync Server 2013 中的 PIN 策略设置</span><span class="sxs-lookup"><span data-stu-id="678a5-110">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [<span data-ttu-id="a4af3-110">Optional验证 Lync Server 2013 中的 PIN 策略设置</span><span class="sxs-lookup"><span data-stu-id="a4af3-110">(Optional) Verify PIN policy settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-pin-policy-settings.md)
 
-  - [<span data-ttu-id="678a5-111">在 Lync Server 2013 中配置电话拨入式会议策略</span><span class="sxs-lookup"><span data-stu-id="678a5-111">Configure conferencing policy for dial-in in Lync Server 2013</span></span>](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
+  - [<span data-ttu-id="a4af3-111">在 Lync Server 2013 中配置电话拨入式会议策略</span><span class="sxs-lookup"><span data-stu-id="a4af3-111">Configure conferencing policy for dial-in in Lync Server 2013</span></span>](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
-  - [<span data-ttu-id="678a5-112">在 Lync Server 2013 中配置电话拨入式会议访问号码</span><span class="sxs-lookup"><span data-stu-id="678a5-112">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="a4af3-112">在 Lync Server 2013 中配置电话拨入式会议访问号码</span><span class="sxs-lookup"><span data-stu-id="a4af3-112">Configure dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="678a5-113">Optional在 Lync Server 2013 中验证电话拨入式会议设置</span><span class="sxs-lookup"><span data-stu-id="678a5-113">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [<span data-ttu-id="a4af3-113">Optional在 Lync Server 2013 中验证电话拨入式会议设置</span><span class="sxs-lookup"><span data-stu-id="a4af3-113">(Optional) Verify dial-in conferencing settings in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [<span data-ttu-id="678a5-114">Optional在 Lync Server 2013 中修改 DTMF 命令的键映射</span><span class="sxs-lookup"><span data-stu-id="678a5-114">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [<span data-ttu-id="a4af3-114">Optional在 Lync Server 2013 中修改 DTMF 命令的键映射</span><span class="sxs-lookup"><span data-stu-id="a4af3-114">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [<span data-ttu-id="678a5-115">Optional在 Lync Server 2013 中启用和禁用会议加入和离开通知</span><span class="sxs-lookup"><span data-stu-id="678a5-115">(Optional) Enable and disable conference join and leave announcements in Lync Server 2013</span></span>](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [<span data-ttu-id="a4af3-115">Optional在 Lync Server 2013 中启用和禁用会议加入和离开通知</span><span class="sxs-lookup"><span data-stu-id="a4af3-115">(Optional) Enable and disable conference join and leave announcements in Lync Server 2013</span></span>](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [<span data-ttu-id="678a5-116">Optional在 Lync Server 2013 中验证电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="678a5-116">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [<span data-ttu-id="a4af3-116">Optional在 Lync Server 2013 中验证电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="a4af3-116">(Optional) Verify dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="678a5-117">部署 Lync 2013 的联机会议加载项</span><span class="sxs-lookup"><span data-stu-id="678a5-117">Deploy the Online Meeting Add-in for Lync 2013</span></span>](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
+  - [<span data-ttu-id="a4af3-117">部署 Lync 2013 的联机会议加载项</span><span class="sxs-lookup"><span data-stu-id="a4af3-117">Deploy the Online Meeting Add-in for Lync 2013</span></span>](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
-  - [<span data-ttu-id="678a5-118">在 Lync Server 2013 中配置用户帐户设置</span><span class="sxs-lookup"><span data-stu-id="678a5-118">Configure user account settings in Lync Server 2013</span></span>](lync-server-2013-configure-user-account-settings.md)
+  - [<span data-ttu-id="a4af3-118">在 Lync Server 2013 中配置用户帐户设置</span><span class="sxs-lookup"><span data-stu-id="a4af3-118">Configure user account settings in Lync Server 2013</span></span>](lync-server-2013-configure-user-account-settings.md)
 
-  - [<span data-ttu-id="678a5-119">适合创建会议目录</span><span class="sxs-lookup"><span data-stu-id="678a5-119">(Recommended) Create Conference Directories</span></span>](recommended-create-conference-directories.md)
+  - [<span data-ttu-id="a4af3-119">适合创建会议目录</span><span class="sxs-lookup"><span data-stu-id="a4af3-119">(Recommended) Create Conference Directories</span></span>](recommended-create-conference-directories.md)
 
-  - [<span data-ttu-id="678a5-120">OptionalLync Server 2013 中的欢迎用户参加电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="678a5-120">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [<span data-ttu-id="a4af3-120">OptionalLync Server 2013 中的欢迎用户参加电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="a4af3-120">(Optional) Welcome users to dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="678a5-121">相关部分</span><span class="sxs-lookup"><span data-stu-id="678a5-121">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="a4af3-121">相关部分</span><span class="sxs-lookup"><span data-stu-id="a4af3-121">Related Sections</span></span>
 
-[<span data-ttu-id="678a5-122">部署 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="678a5-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+[<span data-ttu-id="a4af3-122">部署 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4af3-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
 
 </div>
 

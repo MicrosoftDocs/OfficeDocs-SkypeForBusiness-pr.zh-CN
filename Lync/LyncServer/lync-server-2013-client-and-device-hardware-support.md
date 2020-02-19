@@ -12,20 +12,20 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9041f63f012f7251c51bb60d912417a2ed0494e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 325e241100ec9f79cc40222c3394c54eb73e090e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037712"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="2dfb2-102">Lync Server 2013 中的客户端和设备硬件支持</span><span class="sxs-lookup"><span data-stu-id="2dfb2-102">Client and device hardware support in Lync Server 2013</span></span>
+# <a name="client-and-device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="ad1d7-102">Lync Server 2013 中的客户端和设备硬件支持</span><span class="sxs-lookup"><span data-stu-id="ad1d7-102">Client and device hardware support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42037712"
 
 <span> </span>
 
-<span data-ttu-id="2dfb2-103">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="2dfb2-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="ad1d7-103">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="ad1d7-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="2dfb2-104">客户端计算机必须满足特定的硬件要求，才能支持 Lync Server 2013 部署中的客户端。</span><span class="sxs-lookup"><span data-stu-id="2dfb2-104">Client computers must meet certain hardware requirements to support clients in your Lync Server 2013 deployment.</span></span> <span data-ttu-id="2dfb2-105">其他硬件配置到位后，才能部署 IP 电话和模拟设备。</span><span class="sxs-lookup"><span data-stu-id="2dfb2-105">Additional hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
+<span data-ttu-id="ad1d7-104">客户端计算机必须满足特定的硬件要求，才能支持 Lync Server 2013 部署中的客户端。</span><span class="sxs-lookup"><span data-stu-id="ad1d7-104">Client computers must meet certain hardware requirements to support clients in your Lync Server 2013 deployment.</span></span> <span data-ttu-id="ad1d7-105">其他硬件配置到位后，才能部署 IP 电话和模拟设备。</span><span class="sxs-lookup"><span data-stu-id="ad1d7-105">Additional hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2dfb2-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="2dfb2-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ad1d7-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="ad1d7-106">In This Section</span></span>
 
-  - [<span data-ttu-id="2dfb2-107">Lync Server 2013 中的 lync 客户端硬件支持</span><span class="sxs-lookup"><span data-stu-id="2dfb2-107">Lync client hardware support in Lync Server 2013</span></span>](lync-server-2013-lync-client-hardware-support.md)
+  - [<span data-ttu-id="ad1d7-107">Lync Server 2013 中的 lync 客户端硬件支持</span><span class="sxs-lookup"><span data-stu-id="ad1d7-107">Lync client hardware support in Lync Server 2013</span></span>](lync-server-2013-lync-client-hardware-support.md)
 
-  - [<span data-ttu-id="2dfb2-108">Lync Server 2013 中的设备硬件支持</span><span class="sxs-lookup"><span data-stu-id="2dfb2-108">Device hardware support in Lync Server 2013</span></span>](lync-server-2013-device-hardware-support.md)
+  - [<span data-ttu-id="ad1d7-108">Lync Server 2013 中的设备硬件支持</span><span class="sxs-lookup"><span data-stu-id="ad1d7-108">Device hardware support in Lync Server 2013</span></span>](lync-server-2013-device-hardware-support.md)
 
-  - [<span data-ttu-id="2dfb2-109">Lync Server 2013 中的移动支持</span><span class="sxs-lookup"><span data-stu-id="2dfb2-109">Mobility support in Lync Server 2013</span></span>](lync-server-2013-mobility-support.md)
+  - [<span data-ttu-id="ad1d7-109">Lync Server 2013 中的移动支持</span><span class="sxs-lookup"><span data-stu-id="ad1d7-109">Mobility support in Lync Server 2013</span></span>](lync-server-2013-mobility-support.md)
 
 </div>
 

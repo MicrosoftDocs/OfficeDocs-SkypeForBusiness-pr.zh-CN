@@ -12,20 +12,20 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72708219dcb6df3b0a0185cb9c59bcbd84c5c19a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a053f35eb1e183eca5f055439ae9cd1c74f848c8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044424"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134048"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="client-policies-and-settings-in-lync-server-2013"></a><span data-ttu-id="62ab4-102">Lync Server 2013 中的客户端策略和设置</span><span class="sxs-lookup"><span data-stu-id="62ab4-102">Client policies and settings in Lync Server 2013</span></span>
+# <a name="client-policies-and-settings-in-lync-server-2013"></a><span data-ttu-id="085af-102">Lync Server 2013 中的客户端策略和设置</span><span class="sxs-lookup"><span data-stu-id="085af-102">Client policies and settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42044424"
 
 <span> </span>
 
-<span data-ttu-id="62ab4-103">_**上次修改的主题：** 2012-06-18_</span><span class="sxs-lookup"><span data-stu-id="62ab4-103">_**Topic Last Modified:** 2012-06-18_</span></span>
+<span data-ttu-id="085af-103">_**上次修改的主题：** 2012-06-18_</span><span class="sxs-lookup"><span data-stu-id="085af-103">_**Topic Last Modified:** 2012-06-18_</span></span>
 
-<span data-ttu-id="62ab4-104">本主题概述了您可以在 Lync Server 2013 中配置的客户端相关设置和策略。</span><span class="sxs-lookup"><span data-stu-id="62ab4-104">This topic provides an overview of the client-related settings and policies that you can configure in Lync Server 2013.</span></span> <span data-ttu-id="62ab4-105">Lync Server 2013 包括用于管理和配置客户端的以下工具：</span><span class="sxs-lookup"><span data-stu-id="62ab4-105">Lync Server 2013 includes the following tools for managing and configuring clients:</span></span>
+<span data-ttu-id="085af-104">本主题概述了您可以在 Lync Server 2013 中配置的客户端相关设置和策略。</span><span class="sxs-lookup"><span data-stu-id="085af-104">This topic provides an overview of the client-related settings and policies that you can configure in Lync Server 2013.</span></span> <span data-ttu-id="085af-105">Lync Server 2013 包括用于管理和配置客户端的以下工具：</span><span class="sxs-lookup"><span data-stu-id="085af-105">Lync Server 2013 includes the following tools for managing and configuring clients:</span></span>
 
-  - <span data-ttu-id="62ab4-106">**Lync Server 2013 控制面板**   用于管理和配置服务器、用户、客户端和设备的基于 web 的图形用户界面。</span><span class="sxs-lookup"><span data-stu-id="62ab4-106">**Lync Server 2013 Control Panel**   A web-based graphical user interface for managing and configuring servers, users, clients, and devices.</span></span>
+  - <span data-ttu-id="085af-106">**Lync Server 2013 控制面板**   用于管理和配置服务器、用户、客户端和设备的基于 web 的图形用户界面。</span><span class="sxs-lookup"><span data-stu-id="085af-106">**Lync Server 2013 Control Panel**   A web-based graphical user interface for managing and configuring servers, users, clients, and devices.</span></span>
 
-  - <span data-ttu-id="62ab4-107">**Lync Server management Shell**   a Management interface，其中包含一组丰富的 Windows PowerShell 命令行接口 cmdlet 和多个预定义脚本。</span><span class="sxs-lookup"><span data-stu-id="62ab4-107">**Lync Server Management Shell**   A management interface with a rich set of Windows PowerShell command-line interface cmdlets and a number of pre-defined scripts.</span></span>
+  - <span data-ttu-id="085af-107">**Lync Server management Shell**   a Management interface，其中包含一组丰富的 Windows PowerShell 命令行接口 cmdlet 和多个预定义脚本。</span><span class="sxs-lookup"><span data-stu-id="085af-107">**Lync Server Management Shell**   A management interface with a rich set of Windows PowerShell command-line interface cmdlets and a number of pre-defined scripts.</span></span>
 
-  - <span data-ttu-id="62ab4-108">**Lync 2013 组策略**   可以使用 Office 组策略管理模板为客户端配置的一组策略。</span><span class="sxs-lookup"><span data-stu-id="62ab4-108">**Lync 2013 Group Policy**    A set of policies that you can configure for clients by using the Office Group Policy Administrative Template.</span></span> <span data-ttu-id="62ab4-109">在部署 Lync 2013 客户端之前，必须配置某些客户端引导策略。</span><span class="sxs-lookup"><span data-stu-id="62ab4-109">Certain client bootstrapping policies must be configured before you deploy Lync 2013 clients.</span></span> <span data-ttu-id="62ab4-110">Lync 2010 中的其他可选设置继续在 Lync 2013 中生效。</span><span class="sxs-lookup"><span data-stu-id="62ab4-110">Other optional settings from Lync 2010 continue to be honored in Lync 2013.</span></span>
+  - <span data-ttu-id="085af-108">**Lync 2013 组策略**   可以使用 Office 组策略管理模板为客户端配置的一组策略。</span><span class="sxs-lookup"><span data-stu-id="085af-108">**Lync 2013 Group Policy**    A set of policies that you can configure for clients by using the Office Group Policy Administrative Template.</span></span> <span data-ttu-id="085af-109">在部署 Lync 2013 客户端之前，必须配置某些客户端引导策略。</span><span class="sxs-lookup"><span data-stu-id="085af-109">Certain client bootstrapping policies must be configured before you deploy Lync 2013 clients.</span></span> <span data-ttu-id="085af-110">Lync 2010 中的其他可选设置继续在 Lync 2013 中生效。</span><span class="sxs-lookup"><span data-stu-id="085af-110">Other optional settings from Lync 2010 continue to be honored in Lync 2013.</span></span>
 
-<span data-ttu-id="62ab4-111">本部分介绍了对 Lync Server 2013 中客户端相关设置的更改。</span><span class="sxs-lookup"><span data-stu-id="62ab4-111">This section describes changes to client-related settings in Lync Server 2013.</span></span>
+<span data-ttu-id="085af-111">本部分介绍了对 Lync Server 2013 中客户端相关设置的更改。</span><span class="sxs-lookup"><span data-stu-id="085af-111">This section describes changes to client-related settings in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="62ab4-112">本节内容</span><span class="sxs-lookup"><span data-stu-id="62ab4-112">In this Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="085af-112">本节内容</span><span class="sxs-lookup"><span data-stu-id="085af-112">In this Section</span></span>
 
   - <span></span>  
-    [<span data-ttu-id="62ab4-113">Lync 2013 的新增和更改设置</span><span class="sxs-lookup"><span data-stu-id="62ab4-113">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
+    [<span data-ttu-id="085af-113">Lync 2013 的新增和更改设置</span><span class="sxs-lookup"><span data-stu-id="085af-113">New and changed settings for Lync 2013</span></span>](lync-server-2013-new-and-changed-settings-for-lync-2013.md)
 
   - <span></span>  
-    [<span data-ttu-id="62ab4-114">Lync 2013 的组策略设置</span><span class="sxs-lookup"><span data-stu-id="62ab4-114">Group Policy settings for Lync 2013</span></span>](lync-server-2013-group-policy-settings-for-lync-2013.md)
+    [<span data-ttu-id="085af-114">Lync 2013 的组策略设置</span><span class="sxs-lookup"><span data-stu-id="085af-114">Group Policy settings for Lync 2013</span></span>](lync-server-2013-group-policy-settings-for-lync-2013.md)
 
 </div>
 

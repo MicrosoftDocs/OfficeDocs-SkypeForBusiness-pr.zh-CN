@@ -12,20 +12,20 @@ ms:contentKeyID: 63969625
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cc1766ad11a5a6b7933d95b2c3e1182ff8ffc6a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fc91b9f3c4ce28946830f6d91bd8cb90dd0544ce
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007431"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42116705"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a><span data-ttu-id="b4f21-102">在 Lync Server 2013 中验证用于负载平衡的域名系统设置</span><span class="sxs-lookup"><span data-stu-id="b4f21-102">Validate Domain Name System settings for load balancing in Lync Server 2013</span></span>
+# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a><span data-ttu-id="f82ca-102">在 Lync Server 2013 中验证用于负载平衡的域名系统设置</span><span class="sxs-lookup"><span data-stu-id="f82ca-102">Validate Domain Name System settings for load balancing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42007431"
 
 <span> </span>
 
-<span data-ttu-id="b4f21-103">_**上次修改的主题：** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="b4f21-103">_**Topic Last Modified:** 2014-05-02_</span></span>
+<span data-ttu-id="f82ca-103">_**上次修改的主题：** 2014-05-02_</span><span class="sxs-lookup"><span data-stu-id="f82ca-103">_**Topic Last Modified:** 2014-05-02_</span></span>
 
-<span data-ttu-id="b4f21-p101">要支持 DNS 负载平衡使用的 FQDN，必须设置 DNS，以便将池 FQDN（例如 pool01.contoso.com）解析为该池中所有服务器的 IP 地址（例如，192.168.1.1、192.168.1.2 等）。您应该仅包含当前部署的服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="b4f21-p101">To support the FQDN used by DNS load balancing, you must provision DNS to resolve the pool FQDN (such as pool01.contoso.com) to the IP addresses of all the servers in the pool (for example, 192.168.1.1, 192.168.1.2, and so on). You should include only the IP addresses of servers that are currently deployed.</span></span>
+<span data-ttu-id="f82ca-p101">要支持 DNS 负载平衡使用的 FQDN，必须设置 DNS，以便将池 FQDN（例如 pool01.contoso.com）解析为该池中所有服务器的 IP 地址（例如，192.168.1.1、192.168.1.2 等）。您应该仅包含当前部署的服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="f82ca-p101">To support the FQDN used by DNS load balancing, you must provision DNS to resolve the pool FQDN (such as pool01.contoso.com) to the IP addresses of all the servers in the pool (for example, 192.168.1.1, 192.168.1.2, and so on). You should include only the IP addresses of servers that are currently deployed.</span></span>
 
-<span data-ttu-id="b4f21-106">此外，如果要对边缘池使用 DNS 负载平衡，则需要以下 DNS 条目：</span><span class="sxs-lookup"><span data-stu-id="b4f21-106">Additionally if you are using DNS load balancing for the Edge pools the following DNS entries are required:</span></span>
+<span data-ttu-id="f82ca-106">此外，如果要对边缘池使用 DNS 负载平衡，则需要以下 DNS 条目：</span><span class="sxs-lookup"><span data-stu-id="f82ca-106">Additionally if you are using DNS load balancing for the Edge pools the following DNS entries are required:</span></span>
 
-  - <span data-ttu-id="b4f21-107">对于 Lync Server 访问边缘服务，池中的每台服务器都必须有一个条目。</span><span class="sxs-lookup"><span data-stu-id="b4f21-107">For the Lync Server Access Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="b4f21-108">每个条目都必须将 Lync Server 访问边缘服务的 FQDN （例如，sip.contoso.com）解析为池中某个边缘服务器上的 Lync Server 访问边缘服务的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="b4f21-108">Each entry must resolve the FQDN of the Lync Server Access Edge service (for example, sip.contoso.com) to the IP address of the Lync Server Access Edge service on one of the Edge Servers in the pool.</span></span>
+  - <span data-ttu-id="f82ca-107">对于 Lync Server 访问边缘服务，池中的每台服务器都必须有一个条目。</span><span class="sxs-lookup"><span data-stu-id="f82ca-107">For the Lync Server Access Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="f82ca-108">每个条目都必须将 Lync Server 访问边缘服务的 FQDN （例如，sip.contoso.com）解析为池中某个边缘服务器上的 Lync Server 访问边缘服务的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="f82ca-108">Each entry must resolve the FQDN of the Lync Server Access Edge service (for example, sip.contoso.com) to the IP address of the Lync Server Access Edge service on one of the Edge Servers in the pool.</span></span>
 
-  - <span data-ttu-id="b4f21-109">对于 Lync Server Web 会议边缘服务，池中的每台服务器都必须有一个条目。</span><span class="sxs-lookup"><span data-stu-id="b4f21-109">For the Lync Server Web Conferencing Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="b4f21-110">每个条目都必须将 Lync Server Web 会议边缘服务的 FQDN （例如，webconf.contoso.com）解析为池中某个边缘服务器上的 Lync Server Web 会议边缘服务的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="b4f21-110">Each entry must resolve the FQDN of the Lync Server Web Conferencing Edge service (for example, webconf.contoso.com) to the IP address of the Lync Server Web Conferencing Edge service on one of the Edge Servers in the pool.</span></span>
+  - <span data-ttu-id="f82ca-109">对于 Lync Server Web 会议边缘服务，池中的每台服务器都必须有一个条目。</span><span class="sxs-lookup"><span data-stu-id="f82ca-109">For the Lync Server Web Conferencing Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="f82ca-110">每个条目都必须将 Lync Server Web 会议边缘服务的 FQDN （例如，webconf.contoso.com）解析为池中某个边缘服务器上的 Lync Server Web 会议边缘服务的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="f82ca-110">Each entry must resolve the FQDN of the Lync Server Web Conferencing Edge service (for example, webconf.contoso.com) to the IP address of the Lync Server Web Conferencing Edge service on one of the Edge Servers in the pool.</span></span>
 
-  - <span data-ttu-id="b4f21-111">对于 Lync Server 音频/视频边缘服务，池中的每台服务器都必须有一个条目。</span><span class="sxs-lookup"><span data-stu-id="b4f21-111">For the Lync Server Audio/Video Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="b4f21-112">每个条目都必须将 Lync Server 音频/视频边缘服务的 FQDN （例如，av.contoso.com）解析为池中某个边缘服务器上的 Lync Server 音频/视频边缘服务的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="b4f21-112">Each entry must resolve the FQDN of the Lync Server Audio/Video Edge service (for example, av.contoso.com) to the IP address of the Lync Server Audio/Video Edge service on one of the Edge Servers in the pool.</span></span>
+  - <span data-ttu-id="f82ca-111">对于 Lync Server 音频/视频边缘服务，池中的每台服务器都必须有一个条目。</span><span class="sxs-lookup"><span data-stu-id="f82ca-111">For the Lync Server Audio/Video Edge service, you must have one entry for each server in the pool.</span></span> <span data-ttu-id="f82ca-112">每个条目都必须将 Lync Server 音频/视频边缘服务的 FQDN （例如，av.contoso.com）解析为池中某个边缘服务器上的 Lync Server 音频/视频边缘服务的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="f82ca-112">Each entry must resolve the FQDN of the Lync Server Audio/Video Edge service (for example, av.contoso.com) to the IP address of the Lync Server Audio/Video Edge service on one of the Edge Servers in the pool.</span></span>
 
-  - <span data-ttu-id="b4f21-113">如果要在边缘池的内部接口上使用 DNS 负载平衡，则必须添加一个 DNS 记录，该记录会将边缘池的内部 FQDN 解析为池中每个服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="b4f21-113">If you want to use DNS load balancing on the internal interface of the Edge pool, you must add one DNS record, which resolves the internal FQDN of the Edge pool to the IP address of each server in the pool.</span></span>
+  - <span data-ttu-id="f82ca-113">如果要在边缘池的内部接口上使用 DNS 负载平衡，则必须添加一个 DNS 记录，该记录会将边缘池的内部 FQDN 解析为池中每个服务器的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="f82ca-113">If you want to use DNS load balancing on the internal interface of the Edge pool, you must add one DNS record, which resolves the internal FQDN of the Edge pool to the IP address of each server in the pool.</span></span>
 
-<span data-ttu-id="b4f21-114">若要验证 DNS 是否为 DNS 负载平衡返回正确的值，应使用 nslookup 工具。</span><span class="sxs-lookup"><span data-stu-id="b4f21-114">To verify that DNS is returning the correct values for DNS load balancing you should use the nslookup tool.</span></span> <span data-ttu-id="b4f21-115">若要使用 nslookup 返回 DNS 记录的所有值，应运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="b4f21-115">To return all values for a DNS record with nslookup you should run the command:</span></span>
+<span data-ttu-id="f82ca-114">若要验证 DNS 是否为 DNS 负载平衡返回正确的值，应使用 nslookup 工具。</span><span class="sxs-lookup"><span data-stu-id="f82ca-114">To verify that DNS is returning the correct values for DNS load balancing you should use the nslookup tool.</span></span> <span data-ttu-id="f82ca-115">若要使用 nslookup 返回 DNS 记录的所有值，应运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="f82ca-115">To return all values for a DNS record with nslookup you should run the command:</span></span>
 
 `nslookup <FQDN >`
 
-<span data-ttu-id="b4f21-116">您可以对 DNS 负载平衡配置中使用的每个 FQDN 运行此命令，以验证 DNS 负载平衡的每个记录集是否返回了所有正确的条目。</span><span class="sxs-lookup"><span data-stu-id="b4f21-116">You would run this command for every FQDN used in DNS load balancing configuration to verify that every record set for DNS load balancing returned all of the correct entries.</span></span>
+<span data-ttu-id="f82ca-116">您可以对 DNS 负载平衡配置中使用的每个 FQDN 运行此命令，以验证 DNS 负载平衡的每个记录集是否返回了所有正确的条目。</span><span class="sxs-lookup"><span data-stu-id="f82ca-116">You would run this command for every FQDN used in DNS load balancing configuration to verify that every record set for DNS load balancing returned all of the correct entries.</span></span>
 
 </div>
 

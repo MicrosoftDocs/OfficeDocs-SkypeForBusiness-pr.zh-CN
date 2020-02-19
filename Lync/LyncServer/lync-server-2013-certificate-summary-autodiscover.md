@@ -12,20 +12,20 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae57440d4843151da61d24a9ff015778a5c65b07
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c7d45183b3dac5d96d65d771bf1425546f861c38
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043984"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a><span data-ttu-id="0a09b-102">证书摘要-Lync Server 2013 中的自动发现</span><span class="sxs-lookup"><span data-stu-id="0a09b-102">Certificate summary - Autodiscover in Lync Server 2013</span></span>
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a><span data-ttu-id="86b08-102">证书摘要-Lync Server 2013 中的自动发现</span><span class="sxs-lookup"><span data-stu-id="86b08-102">Certificate summary - Autodiscover in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "42043984"
 
 <span> </span>
 
-<span data-ttu-id="0a09b-103">_**上次修改的主题：** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="0a09b-103">_**Topic Last Modified:** 2013-02-14_</span></span>
+<span data-ttu-id="86b08-103">_**上次修改的主题：** 2013-02-14_</span><span class="sxs-lookup"><span data-stu-id="86b08-103">_**Topic Last Modified:** 2013-02-14_</span></span>
 
-<span data-ttu-id="0a09b-104">Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，并且在 DNS 中发布时可供 Lync 客户端用来查找服务器和用户服务。</span><span class="sxs-lookup"><span data-stu-id="0a09b-104">The Lync Server 2013 Autodiscover Service runs on the Director and Front End pool servers, and when published in DNS, can be used by Lync clients to locate server and user services.</span></span> <span data-ttu-id="0a09b-105">如果要从 Lync Server 2010 升级且未部署移动性，则在客户端可以使用自动发现之前，必须在运行自动发现服务的任何控制器和前端服务器上修改证书使用者备用名称列表。</span><span class="sxs-lookup"><span data-stu-id="0a09b-105">If you are upgrading from Lync Server 2010 and did not deploy Mobility, before clients can use automatic discovery, you must modify certificate subject alternative name lists on any Director and Front End Server running the Autodiscover Service.</span></span> <span data-ttu-id="0a09b-106">此外，可能还必须修改证书上的供反向代理上的外部 Web 服务发布规则使用的使用者替代名称列表。</span><span class="sxs-lookup"><span data-stu-id="0a09b-106">In addition, it may be necessary to modify the subject alternative name lists on certificates used for external web service publishing rules on reverse proxies.</span></span>
+<span data-ttu-id="86b08-104">Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，并且在 DNS 中发布时可供 Lync 客户端用来查找服务器和用户服务。</span><span class="sxs-lookup"><span data-stu-id="86b08-104">The Lync Server 2013 Autodiscover Service runs on the Director and Front End pool servers, and when published in DNS, can be used by Lync clients to locate server and user services.</span></span> <span data-ttu-id="86b08-105">如果要从 Lync Server 2010 升级且未部署移动性，则在客户端可以使用自动发现之前，必须在运行自动发现服务的任何控制器和前端服务器上修改证书使用者备用名称列表。</span><span class="sxs-lookup"><span data-stu-id="86b08-105">If you are upgrading from Lync Server 2010 and did not deploy Mobility, before clients can use automatic discovery, you must modify certificate subject alternative name lists on any Director and Front End Server running the Autodiscover Service.</span></span> <span data-ttu-id="86b08-106">此外，可能还必须修改证书上的供反向代理上的外部 Web 服务发布规则使用的使用者替代名称列表。</span><span class="sxs-lookup"><span data-stu-id="86b08-106">In addition, it may be necessary to modify the subject alternative name lists on certificates used for external web service publishing rules on reverse proxies.</span></span>
 
-<span data-ttu-id="0a09b-107">有关是否在反向代理上使用主题备用名称列表的决策取决于您是在端口80上还是在端口443上发布自动发现服务：</span><span class="sxs-lookup"><span data-stu-id="0a09b-107">The decision about whether to use subject alternative name lists on reverse proxies is based on whether you publish the Autodiscover Service on port 80 or on port 443:</span></span>
+<span data-ttu-id="86b08-107">有关是否在反向代理上使用主题备用名称列表的决策取决于您是在端口80上还是在端口443上发布自动发现服务：</span><span class="sxs-lookup"><span data-stu-id="86b08-107">The decision about whether to use subject alternative name lists on reverse proxies is based on whether you publish the Autodiscover Service on port 80 or on port 443:</span></span>
 
-  - <span data-ttu-id="0a09b-108">**已在端口 80**   上发布如果对自动发现服务的初始查询在端口80上发生，则无需进行证书更改。</span><span class="sxs-lookup"><span data-stu-id="0a09b-108">**Published on port 80**   No certificate changes are required if the initial query to the Autodiscover Service occurs over port 80.</span></span> <span data-ttu-id="0a09b-109">这是因为运行 Lync 的移动设备将在外部端口80上访问反向代理，然后在内部桥接到端口8080上的控制器或前端服务器。</span><span class="sxs-lookup"><span data-stu-id="0a09b-109">This is because mobile devices running Lync will access the reverse proxy on port 80 externally and then be bridged to a Director or Front End Server on port 8080 internally.</span></span> <span data-ttu-id="0a09b-110">有关详细信息，请参阅[Lync Server 2013 中的移动性技术要求](lync-server-2013-technical-requirements-for-mobility.md)一节中的 "使用端口80初始自动发现过程" 一节。</span><span class="sxs-lookup"><span data-stu-id="0a09b-110">For details, see the "Initial Autodiscover Process Using Port 80" section [Technical requirements for mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).</span></span>
+  - <span data-ttu-id="86b08-108">**已在端口 80**   上发布如果对自动发现服务的初始查询在端口80上发生，则无需进行证书更改。</span><span class="sxs-lookup"><span data-stu-id="86b08-108">**Published on port 80**   No certificate changes are required if the initial query to the Autodiscover Service occurs over port 80.</span></span> <span data-ttu-id="86b08-109">这是因为运行 Lync 的移动设备将在外部端口80上访问反向代理，然后在内部桥接到端口8080上的控制器或前端服务器。</span><span class="sxs-lookup"><span data-stu-id="86b08-109">This is because mobile devices running Lync will access the reverse proxy on port 80 externally and then be bridged to a Director or Front End Server on port 8080 internally.</span></span> <span data-ttu-id="86b08-110">有关详细信息，请参阅[Lync Server 2013 中的移动性技术要求](lync-server-2013-technical-requirements-for-mobility.md)一节中的 "使用端口80初始自动发现过程" 一节。</span><span class="sxs-lookup"><span data-stu-id="86b08-110">For details, see the "Initial Autodiscover Process Using Port 80" section [Technical requirements for mobility in Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).</span></span>
 
-  - <span data-ttu-id="0a09b-111">**在端口 443**   上发布在外部 web 服务发布规则所使用的证书上的 "使用者备用名称" 列表中，必须包含一个\*lyncdiscover.。\<组织\> \*中每个 SIP 域的 sipdomain 条目。</span><span class="sxs-lookup"><span data-stu-id="0a09b-111">**Published on port 443**   The subject alternative name list on certificates used by the external web services publishing rule must contain a *lyncdiscover.\<sipdomain\>* entry for each SIP domain within your organization.</span></span>
+  - <span data-ttu-id="86b08-111">**在端口 443**   上发布在外部 web 服务发布规则所使用的证书上的 "使用者备用名称" 列表中，必须包含一个\*lyncdiscover.。\<组织\> \*中每个 SIP 域的 sipdomain 条目。</span><span class="sxs-lookup"><span data-stu-id="86b08-111">**Published on port 443**   The subject alternative name list on certificates used by the external web services publishing rule must contain a *lyncdiscover.\<sipdomain\>* entry for each SIP domain within your organization.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <span data-ttu-id="0a09b-112">强烈建议使用 HTTPS over HTTP。</span><span class="sxs-lookup"><span data-stu-id="0a09b-112">We highly recommend using HTTPS over HTTP.</span></span> <span data-ttu-id="0a09b-113">HTTPS 使用证书对流量进行加密。</span><span class="sxs-lookup"><span data-stu-id="0a09b-113">HTTPS uses certificates to encrypt traffic.</span></span> <span data-ttu-id="0a09b-114">HTTP 不提供加密功能，发送的任何数据将为纯文本。</span><span class="sxs-lookup"><span data-stu-id="0a09b-114">HTTP does not provide for encryption, and any data sent will be plain text.</span></span>
+    > <span data-ttu-id="86b08-112">强烈建议使用 HTTPS over HTTP。</span><span class="sxs-lookup"><span data-stu-id="86b08-112">We highly recommend using HTTPS over HTTP.</span></span> <span data-ttu-id="86b08-113">HTTPS 使用证书对流量进行加密。</span><span class="sxs-lookup"><span data-stu-id="86b08-113">HTTPS uses certificates to encrypt traffic.</span></span> <span data-ttu-id="86b08-114">HTTP 不提供加密功能，发送的任何数据将为纯文本。</span><span class="sxs-lookup"><span data-stu-id="86b08-114">HTTP does not provide for encryption, and any data sent will be plain text.</span></span>
 
     
     </div>
 
-<span data-ttu-id="0a09b-115">使用内部证书颁发机构重新发起证书通常是一个简单的过程。</span><span class="sxs-lookup"><span data-stu-id="0a09b-115">Reissuing certificates by using an internal certificate authority is typically a simple process.</span></span> <span data-ttu-id="0a09b-116">但对于 web 服务发布规则上使用的公共证书，添加多个使用者可选名称条目可能会变得昂贵。</span><span class="sxs-lookup"><span data-stu-id="0a09b-116">But for public certificates used on the web service publishing rule, adding multiple subject alternative name entries can become expensive.</span></span> <span data-ttu-id="0a09b-117">若要解决此问题，我们支持通过端口80的初始自动发现连接，该连接随后将被重定向到控制器或前端服务器上的端口8080。</span><span class="sxs-lookup"><span data-stu-id="0a09b-117">To work around this issue, we support the initial automatic discovery connection over port 80, which is then redirected to port 8080 on the Director or Front End Server.</span></span>
+<span data-ttu-id="86b08-115">使用内部证书颁发机构重新发起证书通常是一个简单的过程。</span><span class="sxs-lookup"><span data-stu-id="86b08-115">Reissuing certificates by using an internal certificate authority is typically a simple process.</span></span> <span data-ttu-id="86b08-116">但对于 web 服务发布规则上使用的公共证书，添加多个使用者可选名称条目可能会变得昂贵。</span><span class="sxs-lookup"><span data-stu-id="86b08-116">But for public certificates used on the web service publishing rule, adding multiple subject alternative name entries can become expensive.</span></span> <span data-ttu-id="86b08-117">若要解决此问题，我们支持通过端口80的初始自动发现连接，该连接随后将被重定向到控制器或前端服务器上的端口8080。</span><span class="sxs-lookup"><span data-stu-id="86b08-117">To work around this issue, we support the initial automatic discovery connection over port 80, which is then redirected to port 8080 on the Director or Front End Server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0a09b-118">如果您的 Lync Server 2013 基础结构使用内部证书颁发机构（CA）颁发的内部证书，并且您计划支持通过无线方式连接的移动设备，则必须安装来自内部 CA 的根证书链在移动设备上，或者必须更改为 Lync Server 2013 基础结构上的公共证书。</span><span class="sxs-lookup"><span data-stu-id="0a09b-118">If your Lync Server 2013 infrastructure uses internal certificates that are issued from an internal certification authority (CA) and you plan to support mobile devices connecting wirelessly, either the root certificate chain from the internal CA must be installed on the mobile devices or you must change to a public certificate on your Lync Server 2013 infrastructure.</span></span>
+> <span data-ttu-id="86b08-118">如果您的 Lync Server 2013 基础结构使用内部证书颁发机构（CA）颁发的内部证书，并且您计划支持通过无线方式连接的移动设备，则必须安装来自内部 CA 的根证书链在移动设备上，或者必须更改为 Lync Server 2013 基础结构上的公共证书。</span><span class="sxs-lookup"><span data-stu-id="86b08-118">If your Lync Server 2013 infrastructure uses internal certificates that are issued from an internal certification authority (CA) and you plan to support mobile devices connecting wirelessly, either the root certificate chain from the internal CA must be installed on the mobile devices or you must change to a public certificate on your Lync Server 2013 infrastructure.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="0a09b-119">本主题介绍了控制器、前端服务器和反向代理所需的已添加主题替代名称。</span><span class="sxs-lookup"><span data-stu-id="0a09b-119">This topic describes the added subject alternative names required for the Director, Front End Server and reverse proxy.</span></span> <span data-ttu-id="0a09b-120">仅引用添加的使用者替代名称（SAN）。</span><span class="sxs-lookup"><span data-stu-id="0a09b-120">Only the added subject alternative names (SAN) are referenced.</span></span> <span data-ttu-id="0a09b-121">有关证书的其他条目的指导，请参阅规划部分。</span><span class="sxs-lookup"><span data-stu-id="0a09b-121">Refer to the planning sections for guidance on the other entries on certificates.</span></span> <span data-ttu-id="0a09b-122">有关详细信息，请参阅 lync server [2013 中的 Director 方案](lync-server-2013-scenarios-for-the-director.md)、 [lync server 2013 中的外部用户访问](lync-server-2013-scenarios-for-external-user-access.md)方案和[lync server 2013 中的反向代理](lync-server-2013-scenarios-for-reverse-proxy.md)方案。</span><span class="sxs-lookup"><span data-stu-id="0a09b-122">For details, see [Scenarios for the Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md), [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md), and [Scenarios for reverse proxy in Lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md).</span></span>
+<span data-ttu-id="86b08-119">本主题介绍了控制器、前端服务器和反向代理所需的已添加主题替代名称。</span><span class="sxs-lookup"><span data-stu-id="86b08-119">This topic describes the added subject alternative names required for the Director, Front End Server and reverse proxy.</span></span> <span data-ttu-id="86b08-120">仅引用添加的使用者替代名称（SAN）。</span><span class="sxs-lookup"><span data-stu-id="86b08-120">Only the added subject alternative names (SAN) are referenced.</span></span> <span data-ttu-id="86b08-121">有关证书的其他条目的指导，请参阅规划部分。</span><span class="sxs-lookup"><span data-stu-id="86b08-121">Refer to the planning sections for guidance on the other entries on certificates.</span></span> <span data-ttu-id="86b08-122">有关详细信息，请参阅 lync server [2013 中的 Director 方案](lync-server-2013-scenarios-for-the-director.md)、 [lync server 2013 中的外部用户访问](lync-server-2013-scenarios-for-external-user-access.md)方案和[lync server 2013 中的反向代理](lync-server-2013-scenarios-for-reverse-proxy.md)方案。</span><span class="sxs-lookup"><span data-stu-id="86b08-122">For details, see [Scenarios for the Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md), [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md), and [Scenarios for reverse proxy in Lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md).</span></span>
 
-<span data-ttu-id="0a09b-123">下表定义了控制器池、前端池和反向代理的自动发现 SAN 条目：</span><span class="sxs-lookup"><span data-stu-id="0a09b-123">The following tables define the Autodiscover SAN entries for the Director pool, the Front End pool, and the reverse proxy:</span></span>
+<span data-ttu-id="86b08-123">下表定义了控制器池、前端池和反向代理的自动发现 SAN 条目：</span><span class="sxs-lookup"><span data-stu-id="86b08-123">The following tables define the Autodiscover SAN entries for the Director pool, the Front End pool, and the reverse proxy:</span></span>
 
-### <a name="director-pool-certificate-requirements"></a><span data-ttu-id="0a09b-124">控制器池证书要求</span><span class="sxs-lookup"><span data-stu-id="0a09b-124">Director Pool Certificate Requirements</span></span>
+### <a name="director-pool-certificate-requirements"></a><span data-ttu-id="86b08-124">控制器池证书要求</span><span class="sxs-lookup"><span data-stu-id="86b08-124">Director Pool Certificate Requirements</span></span>
 
 <table>
 <colgroup>
@@ -79,18 +79,18 @@ ms.locfileid: "42043984"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0a09b-125">描述</span><span class="sxs-lookup"><span data-stu-id="0a09b-125">Description</span></span></th>
-<th><span data-ttu-id="0a09b-126">使用者替代名称条目</span><span class="sxs-lookup"><span data-stu-id="0a09b-126">Subject alternative name entry</span></span></th>
+<th><span data-ttu-id="86b08-125">说明</span><span class="sxs-lookup"><span data-stu-id="86b08-125">Description</span></span></th>
+<th><span data-ttu-id="86b08-126">使用者替代名称条目</span><span class="sxs-lookup"><span data-stu-id="86b08-126">Subject alternative name entry</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0a09b-127">内部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="0a09b-127">Internal Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="0a09b-128">SAN = lyncdiscoverinternal.。&lt;内部域名&gt;</span><span class="sxs-lookup"><span data-stu-id="0a09b-128">SAN=lyncdiscoverinternal.&lt;internal domain name&gt;</span></span></p></td>
+<td><p><span data-ttu-id="86b08-127">内部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="86b08-127">Internal Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="86b08-128">SAN = lyncdiscoverinternal.。&lt;内部域名&gt;</span><span class="sxs-lookup"><span data-stu-id="86b08-128">SAN=lyncdiscoverinternal.&lt;internal domain name&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0a09b-129">外部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="0a09b-129">External Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="0a09b-130">SAN = lyncdiscover.。&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="0a09b-130">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="86b08-129">外部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="86b08-129">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="86b08-130">SAN = lyncdiscover.。&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="86b08-130">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -100,13 +100,13 @@ ms.locfileid: "42043984"
 
 
 > [!NOTE]  
-> <span data-ttu-id="0a09b-131">将新更新的证书和新的 SAN 条目分配给默认证书。</span><span class="sxs-lookup"><span data-stu-id="0a09b-131">You assign the newly updated certificate with the new SAN entry to the Default certificate.</span></span> <span data-ttu-id="0a09b-132">或者，也可以使用 SAN = \*。&lt;sipdomain&gt;。</span><span class="sxs-lookup"><span data-stu-id="0a09b-132">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;.</span></span>
+> <span data-ttu-id="86b08-131">将新更新的证书和新的 SAN 条目分配给默认证书。</span><span class="sxs-lookup"><span data-stu-id="86b08-131">You assign the newly updated certificate with the new SAN entry to the Default certificate.</span></span> <span data-ttu-id="86b08-132">或者，也可以使用 SAN = \*。&lt;sipdomain&gt;。</span><span class="sxs-lookup"><span data-stu-id="86b08-132">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;.</span></span>
 
 
 
 </div>
 
-### <a name="front-end-pool-certificate-requirements"></a><span data-ttu-id="0a09b-133">前端池证书要求</span><span class="sxs-lookup"><span data-stu-id="0a09b-133">Front End Pool Certificate Requirements</span></span>
+### <a name="front-end-pool-certificate-requirements"></a><span data-ttu-id="86b08-133">前端池证书要求</span><span class="sxs-lookup"><span data-stu-id="86b08-133">Front End Pool Certificate Requirements</span></span>
 
 <table>
 <colgroup>
@@ -115,18 +115,18 @@ ms.locfileid: "42043984"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0a09b-134">描述</span><span class="sxs-lookup"><span data-stu-id="0a09b-134">Description</span></span></th>
-<th><span data-ttu-id="0a09b-135">使用者替代名称条目</span><span class="sxs-lookup"><span data-stu-id="0a09b-135">Subject alternative name entry</span></span></th>
+<th><span data-ttu-id="86b08-134">说明</span><span class="sxs-lookup"><span data-stu-id="86b08-134">Description</span></span></th>
+<th><span data-ttu-id="86b08-135">使用者替代名称条目</span><span class="sxs-lookup"><span data-stu-id="86b08-135">Subject alternative name entry</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0a09b-136">内部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="0a09b-136">Internal Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="0a09b-137">SAN = lyncdiscoverinternal.。&lt;内部域名&gt;</span><span class="sxs-lookup"><span data-stu-id="0a09b-137">SAN=lyncdiscoverinternal.&lt;internal domain name&gt;</span></span></p></td>
+<td><p><span data-ttu-id="86b08-136">内部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="86b08-136">Internal Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="86b08-137">SAN = lyncdiscoverinternal.。&lt;内部域名&gt;</span><span class="sxs-lookup"><span data-stu-id="86b08-137">SAN=lyncdiscoverinternal.&lt;internal domain name&gt;</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0a09b-138">外部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="0a09b-138">External Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="0a09b-139">SAN = lyncdiscover.。&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="0a09b-139">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="86b08-138">外部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="86b08-138">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="86b08-139">SAN = lyncdiscover.。&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="86b08-139">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -136,13 +136,13 @@ ms.locfileid: "42043984"
 
 
 > [!NOTE]  
-> <span data-ttu-id="0a09b-140">将新更新的证书和新的 SAN 条目分配给默认证书。</span><span class="sxs-lookup"><span data-stu-id="0a09b-140">You assign the newly updated certificate with the new SAN entry to the Default certificate.</span></span> <span data-ttu-id="0a09b-141">或者，也可以使用 SAN = \*。&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="0a09b-141">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
+> <span data-ttu-id="86b08-140">将新更新的证书和新的 SAN 条目分配给默认证书。</span><span class="sxs-lookup"><span data-stu-id="86b08-140">You assign the newly updated certificate with the new SAN entry to the Default certificate.</span></span> <span data-ttu-id="86b08-141">或者，也可以使用 SAN = \*。&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="86b08-141">Alternatively, you can use SAN=\*.&lt;sipdomain&gt;</span></span>
 
 
 
 </div>
 
-### <a name="reverse-proxy-public-ca-certificate-requirements"></a><span data-ttu-id="0a09b-142">反向代理（公共 CA）证书要求</span><span class="sxs-lookup"><span data-stu-id="0a09b-142">Reverse Proxy (Public CA) Certificate Requirements</span></span>
+### <a name="reverse-proxy-public-ca-certificate-requirements"></a><span data-ttu-id="86b08-142">反向代理（公共 CA）证书要求</span><span class="sxs-lookup"><span data-stu-id="86b08-142">Reverse Proxy (Public CA) Certificate Requirements</span></span>
 
 <table>
 <colgroup>
@@ -151,14 +151,14 @@ ms.locfileid: "42043984"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0a09b-143">描述</span><span class="sxs-lookup"><span data-stu-id="0a09b-143">Description</span></span></th>
-<th><span data-ttu-id="0a09b-144">使用者替代名称条目</span><span class="sxs-lookup"><span data-stu-id="0a09b-144">Subject alternative name entry</span></span></th>
+<th><span data-ttu-id="86b08-143">说明</span><span class="sxs-lookup"><span data-stu-id="86b08-143">Description</span></span></th>
+<th><span data-ttu-id="86b08-144">使用者替代名称条目</span><span class="sxs-lookup"><span data-stu-id="86b08-144">Subject alternative name entry</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0a09b-145">外部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="0a09b-145">External Autodiscover Service URL</span></span></p></td>
-<td><p><span data-ttu-id="0a09b-146">SAN = lyncdiscover.。&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="0a09b-146">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
+<td><p><span data-ttu-id="86b08-145">外部自动发现服务 URL</span><span class="sxs-lookup"><span data-stu-id="86b08-145">External Autodiscover Service URL</span></span></p></td>
+<td><p><span data-ttu-id="86b08-146">SAN = lyncdiscover.。&lt;sipdomain&gt;</span><span class="sxs-lookup"><span data-stu-id="86b08-146">SAN=lyncdiscover.&lt;sipdomain&gt;</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -168,7 +168,7 @@ ms.locfileid: "42043984"
 
 
 > [!NOTE]  
-> <span data-ttu-id="0a09b-147">将新更新的证书和新的 SAN 条目分配给反向代理上的 SSL 侦听器。</span><span class="sxs-lookup"><span data-stu-id="0a09b-147">You assign the newly updated certificate with the new SAN entry to the SSL Listener on the reverse proxy.</span></span>
+> <span data-ttu-id="86b08-147">将新更新的证书和新的 SAN 条目分配给反向代理上的 SSL 侦听器。</span><span class="sxs-lookup"><span data-stu-id="86b08-147">You assign the newly updated certificate with the new SAN entry to the SSL Listener on the reverse proxy.</span></span>
 
 
 
