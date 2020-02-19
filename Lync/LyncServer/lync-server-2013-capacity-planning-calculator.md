@@ -12,18 +12,18 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5ece90e8db4240eaef00f39a827e6779663dcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0caac7e07d83658fd1b39192a6d9792ae6b17c0e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006358"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>使用 Lync Server 2013 的容量规划计算器
 
@@ -37,13 +37,13 @@ ms.locfileid: "42006358"
 
 _**上次修改的主题：** 2013-11-21_
 
-Microsoft® Lync™ Server 2013 容量规划计算器可从<http://www.microsoft.com/download/details.aspx?id=36828>下载。 它旨在帮助您根据组织中启用的用户数和通信形式来确定服务器要求。 输入您的组织的配置文件，计算器将提供可帮助您规划拓扑的建议。
+Microsoft® Lync™ Server 2013 容量规划计算器可从<https://www.microsoft.com/download/details.aspx?id=36828>下载。 它旨在帮助您根据组织中启用的用户数和通信形式来确定服务器要求。 输入您的组织的配置文件，计算器将提供可帮助您规划拓扑的建议。
 
-计算器创建的建议仅用于规划目的。 若要确保已正确设置 Lync Server 2013，需要实际的负载模拟。 若要在模拟负载下执行压力测试，请使用[Lync Server 2013 压力和性能工具](http://go.microsoft.com/fwlink/?linkid=282724)。
+计算器创建的建议仅用于规划目的。 若要确保已正确设置 Lync Server 2013，需要实际的负载模拟。 若要在模拟负载下执行压力测试，请使用[Lync Server 2013 压力和性能工具](https://go.microsoft.com/fwlink/?linkid=282724)。
 
 在确定您要为用户启用的用户配置文件和形式之后，可以使用计算器来规划所需的服务器、内存和带宽的数量。 此版本的计算器不会提供磁盘 i/o 要求指南。
 
-此计算器是对[Microsoft Lync server](http://go.microsoft.com/fwlink/?linkid=282725)和[microsoft lync server](lync-server-2013-planning.md)的补充。 在您查看指南并使用规划工具创建推荐的拓扑之后，使用计算器。
+此计算器是对[Microsoft Lync server](https://go.microsoft.com/fwlink/?linkid=282725)和[microsoft lync server](lync-server-2013-planning.md)的补充。 在您查看指南并使用规划工具创建推荐的拓扑之后，使用计算器。
 
 如果您具有有关特定用户配置文件的准确、详细信息，则可以从计算器中获益最多。 例如，启用了语音的用户的百分比、每个用户每小时平均呼叫数、呼叫持续时间以及会议中并发用户的百分比可能会对服务器的要求产生巨大的影响。 计算器所创建的建议的准确性取决于您提供的信息的准确性。
 

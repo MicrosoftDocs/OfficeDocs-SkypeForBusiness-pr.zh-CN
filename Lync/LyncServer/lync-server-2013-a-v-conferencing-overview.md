@@ -12,18 +12,18 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd73e1356e42aca8dc4159143287371dd66f0688
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4d77d39cfa1483db9251d038f876f8e91428ae23
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037964"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-av-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的 A/V 会议概述
 
@@ -43,7 +43,7 @@ A/V 会议在您的用户之间实现实时音频和视频通信。 在部署会
 
 在为用户启用 A/V 会议之前，请确保您的网络能够处理生成的负载。 如果没有足够的网络带宽，用户体验可能会受到严重降低。 可以使用呼叫允许控制（CAC）管理由 A/V 会议使用的网络带宽。 对于受限制的网络（例如中央网站和分支网站之间的有限带宽链接），这一点非常重要。 有关详细信息，请参阅[Lync Server 2013 中的呼叫允许控制概述](lync-server-2013-overview-of-call-admission-control.md)。 有关媒体带宽要求的详细信息，请参阅[Lync Server 2013 中媒体流量的网络带宽要求](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)。
 
-如果在网络中部署音频会议，用户将需要音频设备（如耳机）参加音频会议。 如果您部署视频会议，则需要部署视频设备，例如用户的网络摄像机。 我们建议您使用 Microsoft 针对所有设备类型认证的统一通信（UC）设备，以确保获得最佳用户体验。 有关 UC 认证设备的详细信息，请参阅位于[http://go.microsoft.com/fwlink/p/?LinkId=263861](http://go.microsoft.com/fwlink/p/?linkid=263861)的 "电话和设备（Lync）"。 对于音频或视频设备、设备部署和用户培训是考虑和规划的重要步骤之一。
+如果在网络中部署音频会议，用户将需要音频设备（如耳机）参加音频会议。 如果您部署视频会议，则需要部署视频设备，例如用户的网络摄像机。 我们建议您使用 Microsoft 针对所有设备类型认证的统一通信（UC）设备，以确保获得最佳用户体验。 有关 UC 认证设备的详细信息，请参阅位于[https://go.microsoft.com/fwlink/p/?LinkId=263861](https://go.microsoft.com/fwlink/p/?linkid=263861)的 "电话和设备（Lync）"。 对于音频或视频设备、设备部署和用户培训是考虑和规划的重要步骤之一。
 
 以下各节介绍了音频和视频会议的功能，其中包括有关管理带宽和选择相应客户端的信息。
 

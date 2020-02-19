@@ -12,18 +12,18 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4343e9321ab463a6bf0b4173989d245267588e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 60081dc4d56c65e3cbef29a9231f855578d07054
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006268"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="edge-server-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的边缘服务器 cmdlet
 
@@ -100,7 +100,7 @@ _**上次修改的主题：** 2013-10-07_
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

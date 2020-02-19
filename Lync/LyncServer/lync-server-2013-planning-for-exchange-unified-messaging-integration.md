@@ -12,18 +12,18 @@ ms:contentKeyID: 48185880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa5eb18418ad860452a51667fdf1550e948a1155
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1e5e9c4e4e4a1e77f3ca7badc0a4549cb04cee94
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036844"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139845"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-exchange-unified-messaging-integration-in-lync-server-2013"></a>在 Lync Server 2013 中规划 Exchange 统一消息集成
 
@@ -41,7 +41,7 @@ Lync Server 2013 支持与 Exchange 统一消息（UM）集成，以将语音邮
 
 在 Microsoft Exchange Server 2013 中，Exchange UM 在 Exchange 邮箱服务器上作为一项服务运行。 对于 Lync Server 2013 企业语音部署，统一消息将语音邮件和电子邮件合并到从电话（Outlook Voice Access）或计算机上提供的单个存储中。 统一消息和 Lync Server 2013 协同工作，为企业语音用户提供呼叫应答、Outlook Voice Access 和自动助理服务。
 
-有关 Microsoft Exchange Server 2013 中的体系结构更改的详细信息，请参阅中的 Microsoft Exchange Server 2013 文档中的 "语音[http://go.microsoft.com/fwlink/p/?LinkId=266730](http://go.microsoft.com/fwlink/p/?linkid=266730)体系结构更改"。
+有关 Microsoft Exchange Server 2013 中的体系结构更改的详细信息，请参阅中的 Microsoft Exchange Server 2013 文档中的 "语音[https://go.microsoft.com/fwlink/p/?LinkId=266730](https://go.microsoft.com/fwlink/p/?linkid=266730)体系结构更改"。
 
 若要在本地 Exchange UM 部署中支持这些功能，您必须运行以下各项之一：
 

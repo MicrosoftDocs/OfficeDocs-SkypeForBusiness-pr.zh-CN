@@ -12,18 +12,18 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c89c600c822bc4e830bf60ed8131f747172018e2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d54ad738824b2ccaa4daf7f67758a970c24cee6a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030315"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138023"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Lync Server 2013 的硬件负载平衡器要求
 
@@ -75,7 +75,7 @@ Lync Server 2013 扩展的合并边缘拓扑经过优化，用于新部署的 DN
 
 </div>
 
-若要确定您的硬件负载平衡器是否支持 Lync Server 2013 所需的必要功能，请参阅 at [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)中的 "Lync Server 2010 负载平衡器合作伙伴"。
+若要确定您的硬件负载平衡器是否支持 Lync Server 2013 所需的必要功能，请参阅 at [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)中的 "Lync Server 2010 负载平衡器合作伙伴"。
 
 <div>
 
@@ -143,7 +143,7 @@ Lync Server 2013 for Web 服务中的基于 Cookie 的相关性要求大大减�
 
 
 > [!WARNING]  
-> F5 硬件负载平衡器具有一个名为 OneConnect 的功能，这可确保一个 TCP 连接中的每个请求是单独进行负载平衡的。如果部署的是移动设备，请确保您的硬件负载平衡器供应商支持这一相同功能。最新的 Apple iOS 移动应用程序要求传输层安全性 (TLS) 1.2 版。F5 提供专门针对这一要求的设置。<BR>有关第三方硬件负载平衡器的详细信息，请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5 硬件负载平衡器具有一个名为 OneConnect 的功能，这可确保一个 TCP 连接中的每个请求是单独进行负载平衡的。如果部署的是移动设备，请确保您的硬件负载平衡器供应商支持这一相同功能。最新的 Apple iOS 移动应用程序要求传输层安全性 (TLS) 1.2 版。F5 提供专门针对这一要求的设置。<BR>有关第三方硬件负载平衡器的详细信息，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 

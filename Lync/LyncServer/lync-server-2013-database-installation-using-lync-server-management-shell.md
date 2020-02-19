@@ -12,18 +12,18 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d46d3bc2ce881edc183e4996c0c71d6a90af4e6a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0797ed44663f8a7b8baab7c3dbe5a3099ceac5fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044134"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138313"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>在 Lync Server 2013 中使用 Lync Server 命令行管理程序进行数据库安装
 
@@ -77,7 +77,7 @@ _**上次修改的主题：** 2016-06-16_
 
 1.  在任意计算机上，使用管理凭据进行登录，以便在基于 SQL Server 的服务器上创建数据库。 有关详细信息，请参阅[Lync server 2013 中的 SQL Server 部署权限](lync-server-2013-deployment-permissions-for-sql-server.md)。
 
-2.  打开 Lync Server 2013 命令行管理程序。 如果尚未调整 Windows PowerShell 的执行策略，则必须调整策略以允许运行 Windows PowerShell 脚本。 有关详细信息，请参阅中的 "检查执行[http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)策略"。
+2.  打开 Lync Server 2013 命令行管理程序。 如果尚未调整 Windows PowerShell 的执行策略，则必须调整策略以允许运行 Windows PowerShell 脚本。 有关详细信息，请参阅中的 "检查执行[https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)策略"。
 
 3.  使用**CsDatabase** cmdlet 可以安装中央管理存储。
     

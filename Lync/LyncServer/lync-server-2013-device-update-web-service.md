@@ -12,18 +12,18 @@ ms:contentKeyID: 51803921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7213513657720cc08057cbf2d54d425b5d2a96f4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 361ad8e7679c4a6c64045a1ce1290341c0153fb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044864"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="device-update-web-service-in-lync-server-2013"></a>Lync Server 2013 中的设备更新 Web 服务
 
@@ -41,7 +41,7 @@ Lync Server 包括设备更新 Web 服务，该服务将作为 Web 服务角色�
 
 本节提供有关如何使用设备更新日志管理设备更新 Web 服务和部署的更新的详细信息，规则（Lync Phone Edition 使用*规则*将固件版本更新与硬件设备关联）和配置设置。
 
-有关设备更新 Web 服务进程和功能的详细信息，请参阅更新 Lync Server 2010 TechNet 库中的[设备](http://technet.microsoft.com/library/gg412864\(v=ocs.14\).aspx)。 （请注意，与 lync Server 2010 一样，设备更新 Web 服务（如所有 Lync Phone Edition 组件）的工作方式与 lync server 2013 相同。
+有关设备更新 Web 服务进程和功能的详细信息，请参阅更新 Lync Server 2010 TechNet 库中的[设备](https://technet.microsoft.com/library/gg412864\(v=ocs.14\).aspx)。 （请注意，与 lync Server 2010 一样，设备更新 Web 服务（如所有 Lync Phone Edition 组件）的工作方式与 lync server 2013 相同。
 
 <div>
 
@@ -62,7 +62,7 @@ Lync Server 包括设备更新 Web 服务，该服务将作为 Web 服务角色�
 ## <a name="see-also"></a>另请参阅
 
 
-[用于管理和排除设备故障的工具和服务](http://technet.microsoft.com/library/gg425800\(v=ocs.14\).aspx)  
+[用于管理和排除设备故障的工具和服务](https://technet.microsoft.com/library/gg425800\(v=ocs.14\).aspx)  
   
 
 </div>

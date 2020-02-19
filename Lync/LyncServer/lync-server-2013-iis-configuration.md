@@ -12,18 +12,18 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d9d4f61fabdca7a3f9cb4808efe952ec7ce3b2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6d284fa2082c886a583baf116893f792535a096b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037874"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 配置
 
@@ -45,7 +45,7 @@ _**上次修改的主题：** 2014-02-17_
 
 
 > [!IMPORTANT]  
-> 如果您的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务，则在最初安装 Lync Server 2013 时，可以在 "安装程序" 对话框中更改 Lync Server 2013 文件的安装位置路径。管理工具。 安装 IIS 之前安装管理工具。 如果将安装文件安装到此路径（包括 OCSCore），则其余的 Lync Server 2013 文件也将部署到此驱动器。 有关 dtails，请参阅<A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 管理工具</A>。 有关如何在安装 IIS 时重新定位由 Windows Server Manager 部署的 INETPUB 的详细信息<A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>，请参阅。
+> 如果您的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务，则在最初安装 Lync Server 2013 时，可以在 "安装程序" 对话框中更改 Lync Server 2013 文件的安装位置路径。管理工具。 安装 IIS 之前安装管理工具。 如果将安装文件安装到此路径（包括 OCSCore），则其余的 Lync Server 2013 文件也将部署到此驱动器。 有关 dtails，请参阅<A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 管理工具</A>。 有关如何在安装 IIS 时重新定位由 Windows Server Manager 部署的 INETPUB 的详细信息<A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>，请参阅。
 
 
 
@@ -155,7 +155,7 @@ _**上次修改的主题：** 2014-02-17_
 
 
 > [!NOTE]  
-> 默认情况下，将使用 IIS 服务器角色安装匿名身份验证。 您可以在安装 IIS 之后管理匿名身份验证。 有关详细信息，请参阅处<A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>的 "启用匿名身份验证（IIS 7）"。
+> 默认情况下，将使用 IIS 服务器角色安装匿名身份验证。 您可以在安装 IIS 之后管理匿名身份验证。 有关详细信息，请参阅处<A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A>的 "启用匿名身份验证（IIS 7）"。
 
 
 
@@ -167,7 +167,7 @@ _**上次修改的主题：** 2014-02-17_
 
 
 > [!NOTE]  
-> 对于 Windows Server 2012 和 Windows Server 2012 R2，已将 add-windowsfeature cmdlet 替换为 Install cmdlet。 有关详细信息，请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=392274">Install-add-windowsfeature</A>。
+> 对于 Windows Server 2012 和 Windows Server 2012 R2，已将 add-windowsfeature cmdlet 替换为 Install cmdlet。 有关详细信息，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install-add-windowsfeature</A>。
 
 
 

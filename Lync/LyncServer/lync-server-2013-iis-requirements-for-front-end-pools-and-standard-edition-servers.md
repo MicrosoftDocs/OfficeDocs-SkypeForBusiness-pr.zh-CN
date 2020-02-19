@@ -12,18 +12,18 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc92cc4c27f7af395a8e41bec26679a27010562d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8efd91c3222e5918640c4a8b078d9fdd5ebcdaae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037864"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013 中的前端池和 Standard Edition 服务器的 IIS 要求
 
@@ -70,7 +70,7 @@ Lync Server 要求安装以下 IIS 模块：
 
 
 > [!IMPORTANT]
-> 如果您的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务，则可以在 "安装程序" 对话框中更改 Lync Server 文件的安装位置路径。 如果将安装文件安装到此路径（包括 OCSCore），则其余的 Lync Server 文件也将同时部署到此驱动器。 有关如何在安装 IIS 时重新定位由 Windows Server Manager 部署的 INETPUB 的详细信息<A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>，请参阅。
+> 如果您的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务，则可以在 "安装程序" 对话框中更改 Lync Server 文件的安装位置路径。 如果将安装文件安装到此路径（包括 OCSCore），则其余的 Lync Server 文件也将同时部署到此驱动器。 有关如何在安装 IIS 时重新定位由 Windows Server Manager 部署的 INETPUB 的详细信息<A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>，请参阅。
 
 
   - 静态内容

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b99a2ab731efb872ceba608de2017aecb0574ec5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0ba44927d0bdc486c081b3d25de7db6fd58bff85
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050074"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139353"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-mobile-clients-in-lync-server-2013"></a>在 Lync Server 2013 中规划移动客户端
 
@@ -43,7 +43,7 @@ Lync 2013 移动客户端通过 Internet 或手机网络连接提供增强的状
 
 
 > [!NOTE]  
-> Lync Server 2013 还支持 Lync 2010 移动客户端。 有关详细信息，请参阅 Lync Server 2010 TechNet Library 中的 "规划移动客户端" <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>。
+> Lync Server 2013 还支持 Lync 2010 移动客户端。 有关详细信息，请参阅 Lync Server 2010 TechNet Library 中的 "规划移动客户端" <A href="https://go.microsoft.com/fwlink/p/?linkid=235955">https://go.microsoft.com/fwlink/p/?LinkID=235955</A>。
 
 
 

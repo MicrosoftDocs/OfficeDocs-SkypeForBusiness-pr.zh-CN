@@ -12,18 +12,18 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bca2871acdaf67e318e7e402d78f34748de4b722
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 848ff87194d6a8a6c6cf23b42fcab4d05e41942d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051516"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>使用规划工具为 Lync Server 2013 设计拓扑
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051516"
 
 _**上次修改的主题：** 2013-03-04_
 
-Microsoft Lync Server 2013，规划工具是一个向导驱动的、类似于访谈的工具，它会询问有关您正在设计的 Lync Server 2013 拓扑的问题。 规划工具使用提供的信息和拓扑设计和容量的首选做法，根据提供的答案提供建议的拓扑。 您可以从 Microsoft 下载中心下载规划工具（[http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)）。
+Microsoft Lync Server 2013，规划工具是一个向导驱动的、类似于访谈的工具，它会询问有关您正在设计的 Lync Server 2013 拓扑的问题。 规划工具使用提供的信息和拓扑设计和容量的首选做法，根据提供的答案提供建议的拓扑。 您可以从 Microsoft 下载中心下载规划工具（[https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)）。
 
 最终，规划工具的目标是减轻设计完整的 Lync Server 2013 拓扑的潜在复杂性。 如果可以通过 Internet 连接连接到 Microsoft TechNet 网站，该工具还会提供对工具内规划文档和部署文档的上下文引用。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969595
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 631ec1c7c383bf6200e44378b37db7273bbf125d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cf3ba3dc27bf3849ad6c3434f4baf1fa28c07780
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008194"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139995"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>在 Lync Server 2013 中执行和监视备份
 
@@ -49,7 +49,7 @@ _**上次修改的主题：** 2014-05-15_
 
 `Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Export-CsConfiguration"}`
 
-应按照[sql 最佳实践](http://go.microsoft.com/fwlink/p/?linkid=290716)来备份所有 SQL 2012 后端数据库。
+应按照[sql 最佳实践](https://go.microsoft.com/fwlink/p/?linkid=290716)来备份所有 SQL 2012 后端数据库。
 
 应在尽可能模拟生产环境的实验室环境中执行对 Lync Server 2013 基础结构的灾难恢复计划的定期测试。 有关灾难恢复测试的详细信息，请参阅每月任务。
 
@@ -62,7 +62,7 @@ _**上次修改的主题：** 2014-05-15_
 
 [Import-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
 [Export-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Export-CsConfiguration)  
-[SQL 最佳实践](http://go.microsoft.com/fwlink/p/?linkid=290716)  
+[SQL 最佳实践](https://go.microsoft.com/fwlink/p/?linkid=290716)  
   
 
 </div>

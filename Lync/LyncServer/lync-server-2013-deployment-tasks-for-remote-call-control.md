@@ -12,18 +12,18 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf2366c56c0e749aff208b8471d1db76a1c0ba35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d1549cb2f71e5f6f0ab1d16907d5e83765780cca
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042209"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-tasks-for-remote-call-control-in-lync-server-2013"></a>Lync Server 2013 中的远程呼叫控制的部署任务
 
@@ -63,7 +63,7 @@ _**上次修改的主题：** 2012-10-05_
 
 用户配置期间需要上述设置，且网关必须按预期指定这些设置，以正确路由并连接到 PBX。
 
-你可以在[http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)上的 Microsoft 统一通信开放式互操作性计划网站上参阅供应商。
+你可以在[https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)上的 Microsoft 统一通信开放式互操作性计划网站上参阅供应商。
 
 </div>
 

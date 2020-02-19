@@ -12,18 +12,18 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0404590ab5b3208de989093df7ede55a3aee2f54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f55ec3444348b2717721dcad890a4712cd8b9a3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038224"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138193"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-guidelines-for-mediation-server-in-lync-server-2013"></a>Lync Server 2013 中的中介服务器的部署指南
 
@@ -73,7 +73,7 @@ _**上次修改的主题：** 2012-10-12_
 
 
 > [!NOTE]  
-> 媒体绕过将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 已使用认证的合作伙伴测试了一组 PSTN 网关和 SBCs，并且已通过 Cisco IP Pbx 进行了一些测试。 仅在统一通信开放互操作性计划– Lync Server 上列出的产品和版本支持媒体<A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>旁路。
+> 媒体绕过将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 已使用认证的合作伙伴测试了一组 PSTN 网关和 SBCs，并且已通过 Cisco IP Pbx 进行了一些测试。 仅在统一通信开放互操作性计划– Lync Server 上列出的产品和版本支持媒体<A href="https://go.microsoft.com/fwlink/p/?linkid=268730">https://go.microsoft.com/fwlink/p/?LinkId=268730</A>旁路。
 
 
 
@@ -89,7 +89,7 @@ _**上次修改的主题：** 2012-10-12_
 
 
 > [!NOTE]  
-> 若要提高独立中介服务器的媒体性能，应在这些服务器上的网络适配器上启用接收端扩展（RSS）。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅中的 "在<A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>Windows Server 中接收端扩展功能增强"。 有关如何启用 RSS 的详细信息，请参阅网络适配器文档。
+> 若要提高独立中介服务器的媒体性能，应在这些服务器上的网络适配器上启用接收端扩展（RSS）。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅中的 "在<A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?LinkId=268731</A>Windows Server 中接收端扩展功能增强"。 有关如何启用 RSS 的详细信息，请参阅网络适配器文档。
 
 
 

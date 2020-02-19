@@ -12,18 +12,18 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9920f00b70b0a5591787d740c2395078a3872760
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a212ad1e4250b1c3823230a550c9e39f37eb67d6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046725"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138543"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="clients-for-lync-server-2013"></a>Lync Server 2013 客户端
 
@@ -109,7 +109,7 @@ Lync Server 2013 支持以前的服务器版本中的以下客户端。 您可�
 
   - **Lync 2010**   lync 2010 提供完整的桌面体验，包括即时消息、增强状态、语音、视频、共享和电话服务。 但是，在将用户的客户端升级到 Lync 2013 之前，Lync Server 2013 中引入的任何新功能都将不可用。
 
-  - **Lync 2010 mobile**   Lync Server 2013 支持所有 Microsoft Lync 2010 移动移动应用。 Microsoft Lync 2010 Mobile 为组织中的用户提供即时消息、增强状态和电话服务，这些用户是从智能手机或运行专业版 Windows Mobile 的电话进行连接。 您可以通过将 Microsoft Lync 2010 移动定向到移动电话的应用市场来指示用户安装 Microsoft Lync 移动。 有关详细信息，请参阅 Lync Server 2010 文档中的 "规划移动客户端[http://go.microsoft.com/fwlink/p/?LinkID=235955](http://go.microsoft.com/fwlink/p/?linkid=235955)"。
+  - **Lync 2010 mobile**   Lync Server 2013 支持所有 Microsoft Lync 2010 移动移动应用。 Microsoft Lync 2010 Mobile 为组织中的用户提供即时消息、增强状态和电话服务，这些用户是从智能手机或运行专业版 Windows Mobile 的电话进行连接。 您可以通过将 Microsoft Lync 2010 移动定向到移动电话的应用市场来指示用户安装 Microsoft Lync 移动。 有关详细信息，请参阅 Lync Server 2010 文档中的 "规划移动客户端[https://go.microsoft.com/fwlink/p/?LinkID=235955](https://go.microsoft.com/fwlink/p/?linkid=235955)"。
 
   - ****   适用于智能 IP 电话的 lync phone edition lync phone edition 软件（例如，USB 连接的电话）尚未针对 Lync Server 2013 进行更新。 在为会议提供呼叫、增强状态和客户端音频功能时，仍支持 Lync Phone Edition。
 

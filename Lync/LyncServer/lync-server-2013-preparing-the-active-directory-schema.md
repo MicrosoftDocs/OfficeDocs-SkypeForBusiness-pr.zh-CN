@@ -12,18 +12,18 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d98f7ba4ac0f2efe8a78ebcaacdc966ac5fdf3a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d92527ce109e68c932a9875020aab647bb6a723b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050494"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>在 Lync Server 2013 中准备 Active Directory 架构
 
@@ -55,7 +55,7 @@ Lync Server 架构扩展在所有域之间进行复制，这会影响网络流�
 
 
 > [!NOTE]  
-> 如果需要将 Microsoft® Office Communicator Mobile 2007 R2 for Java 和 Microsoft® Office Communicator Mobile for Nokia 1.0 移动客户端添加到 Lync Server 2013 部署的支持，您需要为 Microsoft Office 准备 Active Directory 架构在安装 Lync Server 2013 期间通信服务器 2007 R2。 有关必需的软件和文档，请<A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>参阅。
+> 如果需要将 Microsoft® Office Communicator Mobile 2007 R2 for Java 和 Microsoft® Office Communicator Mobile for Nokia 1.0 移动客户端添加到 Lync Server 2013 部署的支持，您需要为 Microsoft Office 准备 Active Directory 架构在安装 Lync Server 2013 期间通信服务器 2007 R2。 有关必需的软件和文档，请<A href="https://go.microsoft.com/fwlink/p/?linkid=207172">https://go.microsoft.com/fwlink/p/?linkId=207172</A>参阅。
 
 
 
@@ -69,7 +69,7 @@ Active Directory Service Interfaces Editor (ADSI Edit) 是一个 AD DS 管理工
 
 安装 AD DS 角色以使服务器成为域控制器时，会默认安装 ADSI Edit。 对于 Windows Server 2008 和 Windows Server 2008 R2，ADSI 编辑（adsiedit）包含在远程服务器管理工具（RSAT）中。 还可以在域成员服务器或独立服务器上安装 RSAT。 默认情况下，RSAT 包会在安装 Windows 时复制到这些服务器，但默认情况下不安装该包。 请使用服务器管理器安装各个工具。 ADSI Edit 包括在 **“角色管理工具”**、**“Active Directory 域服务工具”**、**“Active Directory 域控制器工具”** 下。
 
-对于 Windows Server 2003，ADSI Edit 随附在支持工具中。 支持工具可从 Windows Server 2003 CD 中的 "支持\\\\工具" 文件夹中获取，也可从 "Windows server 2003 Service Pack 2 32-位支持工具" 下载。 [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770) 有关从产品 CD 安装支持工具的说明，可参阅 "安装 Windows 支持工具" [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)。 安装支持工具时，Adsiedit.dll 会自动注册。 但是，如果已经将文件复制到您的计算机，则您必须在您可运行工具之前运行 **regsvr32** 命令注册 adsiedit.dll 文件。
+对于 Windows Server 2003，ADSI Edit 随附在支持工具中。 支持工具可从 Windows Server 2003 CD 中的 "支持\\\\工具" 文件夹中获取，也可从 "Windows server 2003 Service Pack 2 32-位支持工具" 下载。 [https://go.microsoft.com/fwlink/p/?linkId=125770](https://go.microsoft.com/fwlink/p/?linkid=125770) 有关从产品 CD 安装支持工具的说明，可参阅 "安装 Windows 支持工具" [https://go.microsoft.com/fwlink/p/?linkId=125771](https://go.microsoft.com/fwlink/p/?linkid=125771)。 安装支持工具时，Adsiedit.dll 会自动注册。 但是，如果已经将文件复制到您的计算机，则您必须在您可运行工具之前运行 **regsvr32** 命令注册 adsiedit.dll 文件。
 
 </div>
 

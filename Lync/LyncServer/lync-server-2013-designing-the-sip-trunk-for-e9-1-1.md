@@ -12,18 +12,18 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8daf27670f7820a64cd7a91fe350ba7345c9463e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 920eecbdb456e3b643da9f935e2586dea7e6e165
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030796"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137060"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="designing-the-sip-trunk-for-e9-1-1-in-lync-server-2013"></a>在 Lync Server 2013 中为 E9-1-1 设计 SIP 中继
 
@@ -48,7 +48,7 @@ Lync Server 使用 SIP 中继将紧急呼叫连接到 E9-1-1 服务提供商。 
 > <LI>
 > <P>使用具有面向外部的公共路由接口的多宿主中介服务器与 SIP 中继提供程序进行通信。</P>
 > <LI>
-> <P>使用本地会话边界控制器（SBC）在中介服务器和 SIP 中继提供程序的服务之间提供安全的分界点。</P></LI></UL>如果您选择后一种方法，请确保您选择的 SBC 品牌和型号已经过认证并且支持将状态信息数据格式位置对象 (PIDF-LO) 位置数据作为其 SIP INVITE 一部分传递。 否则，呼叫将在缺少位置信息的情况下到达紧急服务的服务提供商。 有关认证的 SBCs 的详细信息，请参阅中的 "Microsoft Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</A>的基础结构合格"。<BR>E9-1-1 的服务提供商会向您提供对 SBC 对的访问权，以实现冗余。 您需要针对中介服务器拓扑和呼叫路由配置做出几个决策。 您是否平等看待两个 SBC 并对它们之间的呼叫使用循环路由，或者您是否以其中一个 SBC 为主，而另一个为辅？
+> <P>使用本地会话边界控制器（SBC）在中介服务器和 SIP 中继提供程序的服务之间提供安全的分界点。</P></LI></UL>如果您选择后一种方法，请确保您选择的 SBC 品牌和型号已经过认证并且支持将状态信息数据格式位置对象 (PIDF-LO) 位置数据作为其 SIP INVITE 一部分传递。 否则，呼叫将在缺少位置信息的情况下到达紧急服务的服务提供商。 有关认证的 SBCs 的详细信息，请参阅中的 "Microsoft Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=248425">https://go.microsoft.com/fwlink/p/?LinkId=248425</A>的基础结构合格"。<BR>E9-1-1 的服务提供商会向您提供对 SBC 对的访问权，以实现冗余。 您需要针对中介服务器拓扑和呼叫路由配置做出几个决策。 您是否平等看待两个 SBC 并对它们之间的呼叫使用循环路由，或者您是否以其中一个 SBC 为主，而另一个为辅？
 
 
 

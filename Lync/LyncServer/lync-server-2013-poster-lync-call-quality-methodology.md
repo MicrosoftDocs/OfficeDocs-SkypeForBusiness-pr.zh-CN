@@ -12,18 +12,18 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 849e74fb4857dd7b3ab98b8a8efd9c3ce3781e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043034"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139153"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Lync Server 2013 中的 lync 呼叫质量方法
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043034"
 
 _**上次修改的主题：** 2016-06-24_
 
-本文是[Lync 呼叫质量方法](http://go.microsoft.com/fwlink/?linkid=391841)海报的附带，可以从下载中心下载。
+本文是[Lync 呼叫质量方法](https://go.microsoft.com/fwlink/?linkid=391841)海报的附带，可以从下载中心下载。
 
 ![描述 CQM 过程的海报](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "描述 CQM 过程的海报")
 
@@ -71,7 +71,7 @@ _**上次修改的主题：** 2016-06-24_
 
 ## <a name="what-is-lync-cqm"></a>什么是 Lync CQM？
 
-呼叫质量方法是一种新的故障排除和服务管理框架，可以更好地集中精力改进 Lync 中的企业语音服务。 当您使用 CQM 时，需要付出的精力更少，以确保呼叫质量和用户对企业语音服务的满意度。 在[通话质量方法](http://go.microsoft.com/fwlink/p/?linkid=615208)中，CQM 更全面地说明。 本文和海报是这些内容的摘要。
+呼叫质量方法是一种新的故障排除和服务管理框架，可以更好地集中精力改进 Lync 中的企业语音服务。 当您使用 CQM 时，需要付出的精力更少，以确保呼叫质量和用户对企业语音服务的满意度。 在[通话质量方法](https://go.microsoft.com/fwlink/p/?linkid=615208)中，CQM 更全面地说明。 本文和海报是这些内容的摘要。
 
 CQM 将系统故障排除分解为三个路径或 "道路"。 这些是：服务器植物道路，它看起来是服务器和它们之间的链接、结束点线，它看起来是用户设备和用于拨打呼叫的媒体，最后是一次英里路，可解决传统交换电话网络呼叫的集成。
 
@@ -204,9 +204,9 @@ IP 数据包可以使用传输控制协议（TCP）或用户数据报协议（UD
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server 网络指南](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[关键运行状况指示器：用于维护正常运行的 Lync 服务器的基础](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync 呼叫质量方法](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Lync Server 网络指南](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[关键运行状况指示器：用于维护正常运行的 Lync 服务器的基础](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Lync 呼叫质量方法](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c485293fe747a16cc9c2b392d053137105306da4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7802a3c69d895f87fbcf1553a1d2e737bf2d8f30
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049704"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Lync Server 2013 中的集中日志记录服务概述
 
@@ -61,7 +61,7 @@ ClsAgent 维护全部的索引文件。在本地计算机上缓存文件。 ClsA
 
 </div>
 
-可以使用各种工具读取和分析生成的日志文件，其中包括**snooper.exe**和可读取文本文件的任何工具（如**notepad.exe**）。 Snooper.exe 是 Lync Server 2013 调试工具的一部分，可从[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)下载 Web。
+可以使用各种工具读取和分析生成的日志文件，其中包括**snooper.exe**和可读取文本文件的任何工具（如**notepad.exe**）。 Snooper.exe 是 Lync Server 2013 调试工具的一部分，可从[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)下载 Web。
 
 与 OCSLogger 一样，集中日志记录服务有多个要跟踪的组件，并提供了选择 flags 的选项，\_如 tf COMPONENT\_和 tf settings。 集中日志记录服务还保留 OCSLogger 的日志记录级别选项。
 

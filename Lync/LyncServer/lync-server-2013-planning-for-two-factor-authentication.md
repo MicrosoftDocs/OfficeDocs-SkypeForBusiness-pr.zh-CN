@@ -12,18 +12,18 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba76bbc896c1da2929a584611af0607a51d5afcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b973a1eeb704788eb07e02afc502ac4bbe41544c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050244"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139273"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中规划双因素身份验证
 
@@ -192,7 +192,7 @@ REG\_DWORD： SavePassword
 
 AD FS 2.0 提供一种称为令牌重播检测的功能，可检测到使用相同令牌的多个令牌请求，然后将其丢弃。 启用此功能后，令牌重播检测通过确保从不使用同一令牌来保护两个 WS 联合身份验证被动配置文件和 SAML WebSSO 配置文件中的身份验证请求的完整性。
 
-如果安全性是非常重要的问题（例如使用展台时），应启用此功能。 有关令牌重播检测的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)安全规划和部署 AD FS 2.0 的最佳实践。
+如果安全性是非常重要的问题（例如使用展台时），应启用此功能。 有关令牌重播检测的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215)安全规划和部署 AD FS 2.0 的最佳实践。
 
 </div>
 

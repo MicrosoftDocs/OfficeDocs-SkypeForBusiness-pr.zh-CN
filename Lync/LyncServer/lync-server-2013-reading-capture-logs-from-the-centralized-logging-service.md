@@ -12,18 +12,18 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5abf7b2f6962dbf38f90f52ff82c54b035d9aa0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ebb1ec3ebde4f1277d6304190aceafa2e0fe2884
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050174"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138873"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>从 Lync Server 2013 中的集中日志记录服务读取捕获日志
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2016-12-28_
 
 
 > [!IMPORTANT]  
-> 本主题的目的不是详细介绍和讨论疑难解答技术。 疑难解答及其相关过程是一个复杂的主题。 有关疑难解答基础知识和特定工作负荷故障排除的详细信息，请参阅 Microsoft Lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>资源工具包书籍。 这些过程和过程仍适用于 Lync Server 2013。
+> 本主题的目的不是详细介绍和讨论疑难解答技术。 疑难解答及其相关过程是一个复杂的主题。 有关疑难解答基础知识和特定工作负荷故障排除的详细信息，请参阅 Microsoft Lync Server 2010 <A href="https://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>资源工具包书籍。 这些过程和过程仍适用于 Lync Server 2013。
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbef561e7b2c4edd3e38f028bdbdcdfbe246d036
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d6d60b120db57ad73c33e682fa8150e99f5606e3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051546"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137161"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-process-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>集成本地统一消息和 Lync Server 2013 的部署过程
 
@@ -97,13 +97,13 @@ _**上次修改的主题：** 2012-12-17_
 <td><p>请参阅适用于您的 Exchange Server 版本的文档：</p>
 <dl>
 <dt><span></span></dt>
-<dd><p>Exchange Server 2007 中的<a href="http://go.microsoft.com/fwlink/p/?linkid=268694">http://go.microsoft.com/fwlink/p/?LinkId=268694</a>部署文档。</p>
+<dd><p>Exchange Server 2007 中的<a href="https://go.microsoft.com/fwlink/p/?linkid=268694">https://go.microsoft.com/fwlink/p/?LinkId=268694</a>部署文档。</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>上的<a href="http://go.microsoft.com/fwlink/p/?linkid=268695">http://go.microsoft.com/fwlink/p/?LinkId=268695</a>Exchange Server 2010 或最新的 service pack 部署文档。</p>
+<dd><p>上的<a href="https://go.microsoft.com/fwlink/p/?linkid=268695">https://go.microsoft.com/fwlink/p/?LinkId=268695</a>Exchange Server 2010 或最新的 service pack 部署文档。</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Microsoft Exchange Server 2013 规划和部署位置<a href="http://go.microsoft.com/fwlink/p/?linkid=266569">http://go.microsoft.com/fwlink/p/?LinkId=266569</a>。</p>
+<dd><p>Microsoft Exchange Server 2013 规划和部署位置<a href="https://go.microsoft.com/fwlink/p/?linkid=266569">https://go.microsoft.com/fwlink/p/?LinkId=266569</a>。</p>
 </dd>
 </dl></td>
 </tr>
@@ -117,9 +117,9 @@ _**上次修改的主题：** 2012-12-17_
 <td><p>创建和配置新的 Exchange UM SIP 拨号计划。</p></td>
 <td><p>在 Exchange UM 服务器上，根据您的组织的特定部署要求创建 SIP 拨号计划。</p></td>
 <td><p>Exchange 组织管理员</p></td>
-<td><p>对于 Exchange 2007 SP1 或最新的 service pack &quot;，请参阅如何在<a href="http://go.microsoft.com/fwlink/p/?linkid=268632">http://go.microsoft.com/fwlink/p/?linkId=268632</a>中创建统一消息 SIP&quot; URI 拨号计划。</p>
-<p>有关 Exchange 2010 或最新的 service pack &quot;，请参阅在上&quot; <a href="http://go.microsoft.com/fwlink/p/?linkid=268674">http://go.microsoft.com/fwlink/p/?linkId=268674</a>创建 UM 拨号计划。</p>
-<p>对于 Exchange 2013，请参阅中的<a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
+<td><p>对于 Exchange 2007 SP1 或最新的 service pack &quot;，请参阅如何在<a href="https://go.microsoft.com/fwlink/p/?linkid=268632">https://go.microsoft.com/fwlink/p/?linkId=268632</a>中创建统一消息 SIP&quot; URI 拨号计划。</p>
+<p>有关 Exchange 2010 或最新的 service pack &quot;，请参阅在上&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268674">https://go.microsoft.com/fwlink/p/?linkId=268674</a>创建 UM 拨号计划。</p>
+<p>对于 Exchange 2013，请参阅中的<a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
 </tr>
 <tr class="even">
 <td><p>配置 Exchange UM SIP 拨号计划的安全设置。</p></td>
@@ -127,28 +127,28 @@ _**上次修改的主题：** 2012-12-17_
 <td><p>Exchange 组织管理员</p></td>
 <td><p><a href="lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md">在 Microsoft Exchange 上为 Lync Server 2013 配置统一消息</a></p>
 <p>对于 Exchange 2007 SP1 或最新的 service pack，另请参阅：</p>
-<p>&quot;如何在的统一消息拨号计划&quot;上配置安全性。 <a href="http://go.microsoft.com/fwlink/p/?linkid=268696">http://go.microsoft.com/fwlink/p/?LinkId=268696</a></p>
+<p>&quot;如何在的统一消息拨号计划&quot;上配置安全性。 <a href="https://go.microsoft.com/fwlink/p/?linkid=268696">https://go.microsoft.com/fwlink/p/?LinkId=268696</a></p>
 <p>对于 Exchange 2010 或最新的 Service Pack，另请参阅：</p>
-<p>&quot;在 UM 拨号计划&quot; <a href="http://go.microsoft.com/fwlink/p/?linkid=268697">http://go.microsoft.com/fwlink/p/?LinkId=268697</a>中配置 VoIP 安全性。</p>
-<p>对于 Exchange 2013，请参阅中的<a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
+<p>&quot;在 UM 拨号计划&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268697">https://go.microsoft.com/fwlink/p/?LinkId=268697</a>中配置 VoIP 安全性。</p>
+<p>对于 Exchange 2013，请参阅中的<a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
 </tr>
 <tr class="odd">
 <td><p>将统一消息服务器添加到 Exchange UM SIP 拨号计划。</p></td>
 <td><p>要使新安装的统一消息服务器可以应答和处理传入呼叫，必须将该统一消息服务器添加到 UM 拨号计划中。 在这种情况下，请将服务器添加到 Exchange UM SIP 拨号计划中。</p></td>
 <td><p>管理员</p>
 <p>Exchange Server 管理员</p></td>
-<td><p>对于 Exchange 2007 SP1 或最新的 service pack &quot;，请参阅如何将统一消息服务器添加到&quot;拨号<a href="http://go.microsoft.com/fwlink/p/?linkid=268681">http://go.microsoft.com/fwlink/p/?linkId=268681</a>计划。</p>
-<p>有关 Exchange 2010 或最新的 service pack &quot;，请参阅在上<a href="http://go.microsoft.com/fwlink/p/?linkid=268682">http://go.microsoft.com/fwlink/p/?linkId=268682</a>查看或配置 UM&quot;服务器的属性。</p>
-<p>对于 Exchange 2013，请参阅中的<a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
+<td><p>对于 Exchange 2007 SP1 或最新的 service pack &quot;，请参阅如何将统一消息服务器添加到&quot;拨号<a href="https://go.microsoft.com/fwlink/p/?linkid=268681">https://go.microsoft.com/fwlink/p/?linkId=268681</a>计划。</p>
+<p>有关 Exchange 2010 或最新的 service pack &quot;，请参阅在上<a href="https://go.microsoft.com/fwlink/p/?linkid=268682">https://go.microsoft.com/fwlink/p/?linkId=268682</a>查看或配置 UM&quot;服务器的属性。</p>
+<p>对于 Exchange 2013，请参阅中的<a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
 </tr>
 <tr class="even">
 <td><p>配置使用 SIP 地址的邮箱。</p></td>
 <td><p>将 SIP 地址分配给将使用 Exchange UM 功能的企业语音用户的邮箱。</p></td>
 <td><p>Lync Server 2013 管理员</p>
 <p>Exchange 收件人管理员</p></td>
-<td><p>对于 Exchange 2007 SP1 或最新的 service pack &quot;，请参阅如何在&quot; <a href="http://go.microsoft.com/fwlink/p/?linkid=268698">http://go.microsoft.com/fwlink/p/?LinkId=268698</a>中为启用了 UM 的用户添加、删除或修改 SIP 地址。</p>
-<p>对于 Exchange 2010 或最新的 service pack &quot;，请参阅在上<a href="http://go.microsoft.com/fwlink/p/?linkid=268699">http://go.microsoft.com/fwlink/p/?LinkId=268699</a>为启用了 UM 的&quot;用户修改 SIP 地址。</p>
-<p>对于 Exchange 2013，请参阅中的<a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
+<td><p>对于 Exchange 2007 SP1 或最新的 service pack &quot;，请参阅如何在&quot; <a href="https://go.microsoft.com/fwlink/p/?linkid=268698">https://go.microsoft.com/fwlink/p/?LinkId=268698</a>中为启用了 UM 的用户添加、删除或修改 SIP 地址。</p>
+<p>对于 Exchange 2010 或最新的 service pack &quot;，请参阅在上<a href="https://go.microsoft.com/fwlink/p/?linkid=268699">https://go.microsoft.com/fwlink/p/?LinkId=268699</a>为启用了 UM 的&quot;用户修改 SIP 地址。</p>
+<p>对于 Exchange 2013，请参阅中的<a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
 </tr>
 <tr class="odd">
 <td><p>运行 exchucutil.ps1 脚本。</p></td>
@@ -231,9 +231,9 @@ _**上次修改的主题：** 2012-12-17_
 <td><p>为 Exchange UM 启用企业语音用户。</p></td>
 <td><p>在 Exchange UM 服务器上，确保已创建统一消息邮箱策略，并且每个用户都有一个唯一的分机号码分配，然后为该用户启用统一消息。</p></td>
 <td><p>Exchange 收件人管理员</p></td>
-<td><p>对于 Exchange 2007 SP1 或最新的 service pack &quot;，请参阅如何为用户启用统一&quot;消息<a href="http://go.microsoft.com/fwlink/p/?linkid=268700">http://go.microsoft.com/fwlink/p/?LinkId=268700</a>。</p>
-<p>对于 Exchange 2010 或最新的 service pack &quot;，请参阅在上<a href="http://go.microsoft.com/fwlink/p/?linkid=268701">http://go.microsoft.com/fwlink/p/?LinkId=268701</a>为&quot;用户启用统一消息。</p>
-<p>对于 Exchange 2013，请参阅中的<a href="http://go.microsoft.com/fwlink/p/?linkid=266579">http://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
+<td><p>对于 Exchange 2007 SP1 或最新的 service pack &quot;，请参阅如何为用户启用统一&quot;消息<a href="https://go.microsoft.com/fwlink/p/?linkid=268700">https://go.microsoft.com/fwlink/p/?LinkId=268700</a>。</p>
+<p>对于 Exchange 2010 或最新的 service pack &quot;，请参阅在上<a href="https://go.microsoft.com/fwlink/p/?linkid=268701">https://go.microsoft.com/fwlink/p/?LinkId=268701</a>为&quot;用户启用统一消息。</p>
+<p>对于 Exchange 2013，请参阅中的<a href="https://go.microsoft.com/fwlink/p/?linkid=266579">https://go.microsoft.com/fwlink/p/?LinkId=266579</a>统一消息。</p></td>
 </tr>
 </tbody>
 </table>

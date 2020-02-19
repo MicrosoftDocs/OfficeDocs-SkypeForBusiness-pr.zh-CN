@@ -12,18 +12,18 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1b1b4da0847dcc8242b6b514069d62a718c653f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7926c9c10ba30ed4683b1e05d6e22c4b817f502c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035144"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-software-updates-for-devices-in-lync-server-2013"></a>在 Lync Server 2013 中查看设备的软件更新
 
@@ -37,7 +37,7 @@ ms.locfileid: "42035144"
 
 _**上次修改的主题：** 2012-11-01_
 
-使用 Lync Server 2013，可以使用设备更新 Web 服务查看和管理组织设备的软件更新。 来自 Microsoft 支持网站的 .cab （cab）文件中提供了这些更新[http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)。 下载 .cab 文件后，运行**CSDeviceUpdate** cmdlet 将设备更新规则从 .cab 文件中导入。 有关**CSDeviceUpdate** cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档中的[import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) 。
+使用 Lync Server 2013，可以使用设备更新 Web 服务查看和管理组织设备的软件更新。 来自 Microsoft 支持网站的 .cab （cab）文件中提供了这些更新[https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)。 下载 .cab 文件后，运行**CSDeviceUpdate** cmdlet 将设备更新规则从 .cab 文件中导入。 有关**CSDeviceUpdate** cmdlet 的详细信息，请参阅 Lync Server 命令行管理程序文档中的[import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) 。
 
 <div>
 
@@ -55,7 +55,7 @@ _**上次修改的主题：** 2012-11-01_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  在处[http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)的 Microsoft 支持网站中，将 .cab 文件下载到 Lync Server 2013 计算机上的某个位置（例如，C：\\Updates\\为 ucupdates-r2.）。
+2.  在处[https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)的 Microsoft 支持网站中，将 .cab 文件下载到 Lync Server 2013 计算机上的某个位置（例如，C：\\Updates\\为 ucupdates-r2.）。
 
 3.  通过运行以下 cmdlet 之一，从 C：\\Updates\\为 ucupdates-r2. 文件中导入设备更新规则：
     

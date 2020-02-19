@@ -12,18 +12,18 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4688c143a16ffd7113a03172274436f7c1371694
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5ca6823c1f3e8265f7b06ea0d175b58d42ef4a08
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029223"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135739"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Lync Server 2013 中的备份和还原要求： data
 
@@ -213,7 +213,7 @@ Lync Server 使用存储在数据库中的设置和配置信息，以及存储�
     
       - Kerberos 身份验证帐户（可选的计算机对象）和 Lync Server 安全组。
     
-    有关在 Windows Server 2008 中备份和还原 AD DS 的详细信息，请参阅 "AD DS 备份和恢复分步指南"，网址[http://go.microsoft.com/fwlink/p/?linkId=209105](http://go.microsoft.com/fwlink/p/?linkid=209105)为。
+    有关在 Windows Server 2008 中备份和还原 AD DS 的详细信息，请参阅 "AD DS 备份和恢复分步指南"，网址[https://go.microsoft.com/fwlink/p/?linkId=209105](https://go.microsoft.com/fwlink/p/?linkid=209105)为。
 
   - **证书颁发机构和证书**   使用组织的策略来备份证书颁发机构（CA）和证书。 如果使用可导出私钥，则可以备份证书和私钥，如果使用本文档中的过程还原 Lync Server，则可以对其进行导出。 如果您使用内部 CA，如果需要还原 Lync Server，则可以重新注册。 在计算机出现故障时将私钥保存在安全位置，这一点很重要。
 
@@ -221,11 +221,11 @@ Lync Server 使用存储在数据库中的设置和配置信息，以及存储�
 
   - **公共交换电话网络（PSTN）网关配置**   如果使用企业语音或 Survivable 分支设备，则需要备份 PSTN 网关配置。 有关备份和还原 PSTN 网关配置的详细信息，请参阅你的供应商。
 
-  - **早期版本的 lync server 或 Office 通信服务器**   如果你的 lync server 2013 部署 coexists 使用 lync server 2010 或早期版本的 Office 通信服务器，则不能使用本文档中的过程来备份或还原早期版本。 相反，您必须使用专为早期版本记录的备份和还原过程。 有关备份和还原 Lync Server 2010 的详细信息，请[http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417)参阅。 有关备份和还原 Microsoft Office 通信服务器 2007 R2 的详细信息，请[http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)参阅。
+  - **早期版本的 lync server 或 Office 通信服务器**   如果你的 lync server 2013 部署 coexists 使用 lync server 2010 或早期版本的 Office 通信服务器，则不能使用本文档中的过程来备份或还原早期版本。 相反，您必须使用专为早期版本记录的备份和还原过程。 有关备份和还原 Lync Server 2010 的详细信息，请[https://go.microsoft.com/fwlink/p/?linkId=265417](https://go.microsoft.com/fwlink/p/?linkid=265417)参阅。 有关备份和还原 Microsoft Office 通信服务器 2007 R2 的详细信息，请[https://go.microsoft.com/fwlink/p/?linkId=168162](https://go.microsoft.com/fwlink/p/?linkid=168162)参阅。
 
   - **基础结构信息**   您需要备份有关基础结构的信息，例如防火墙配置、负载平衡配置、Internet 信息服务（IIS）配置、域名系统（DNS）记录和 IP 地址以及动态主机配置协议（DHCP）配置。 有关备份这些组件的详细信息，请咨询其各自的供应商。
 
-  - **Microsoft exchange 和 exchange 统一消息（UM）**   备份和还原 microsoft exchange 和 exchange UM，如 microsoft exchange 文档中所述。 有关备份和还原 Exchange Server 2013 的详细信息，请[http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384)参阅。 有关备份和还原 Exchange Server 2010 的详细信息，请[http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179)参阅。
+  - **Microsoft exchange 和 exchange 统一消息（UM）**   备份和还原 microsoft exchange 和 exchange UM，如 microsoft exchange 文档中所述。 有关备份和还原 Exchange Server 2013 的详细信息，请[https://go.microsoft.com/fwlink/?LinkId=285384](https://go.microsoft.com/fwlink/?linkid=285384)参阅。 有关备份和还原 Exchange Server 2010 的详细信息，请[https://go.microsoft.com/fwlink/p/?linkId=209179](https://go.microsoft.com/fwlink/p/?linkid=209179)参阅。
     
     请注意，Lync Server 2013 引入了将用户联系人列表、高清晰度用户照片和存档数据存储在 Exchange 2013 中的功能。 若要了解如何备份这些类型的数据，请参阅下面的列表：
     

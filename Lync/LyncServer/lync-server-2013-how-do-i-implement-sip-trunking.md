@@ -12,18 +12,18 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 062eb44fb79d6ecfa33f449e62341003bbed571b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e5265f580e3894d0fc8214b974ad03c9559323c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050444"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>如何在 Lync Server 2013 中实现 SIP 中继？
 
@@ -153,7 +153,7 @@ Lync Server 2013 仅支持以下编解码器：
 
 ## <a name="internet-telephony-service-provider"></a>Internet 电话服务提供商
 
-SIP 中继连接的服务提供商端的实现方式因 ITSP 而异。 有关部署信息，请与服务提供商联系。 有关认证的 SIP 中继服务提供商的列表，请参阅[Microsoft 统一通信开放式互操作性计划网站](http://go.microsoft.com/fwlink/?linkid=287029)。
+SIP 中继连接的服务提供商端的实现方式因 ITSP 而异。 有关部署信息，请与服务提供商联系。 有关认证的 SIP 中继服务提供商的列表，请参阅[Microsoft 统一通信开放式互操作性计划网站](https://go.microsoft.com/fwlink/?linkid=287029)。
 
 有关 Microsoft 认证的 SIP 中继提供商的详细信息，请与 Microsoft 代表联系。
 

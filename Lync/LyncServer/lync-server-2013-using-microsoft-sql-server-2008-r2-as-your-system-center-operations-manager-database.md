@@ -12,18 +12,18 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad7854043eb85db7b5d260d57beed26746160f5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 800da512c3cc9690c368c9d397774df0dea2d0e0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044304"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138703"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-microsoft-sql-server-2008-r2-as-your-system-center-operations-manager-database-for-lync-server-2013"></a>使用 Microsoft SQL Server 2008 R2 作为 Lync Server 2013 的 System Center Operations Manager 数据库
 
@@ -143,11 +143,11 @@ Operations Manager 控制台是用于管理 System Center Operations Manager 的
 
 8.  在 "**自定义安装**" 页上，选择要安装的 System Center 选项，然后单击 "**下一步**"。 应选择要安装的**管理服务器**、**用户界面**和**Web 控制台**。 不应选择**数据库**且不应安装它。
 
-9.  在 " **SC Database Server Instance** " 页上，验证安装了 Operations Manager 数据库的计算机的名称是否出现在 " **System Center 数据库服务器**" 框中。 单击“**下一步**”。
+9.  在 " **SC Database Server Instance** " 页上，验证安装了 Operations Manager 数据库的计算机的名称是否出现在 " **System Center 数据库服务器**" 框中。 单击“下一步”。****
 
-10. 在 "**管理服务器操作帐户**" 页上，选择 "**域或本地计算机帐户**"，然后在 "**用户帐户**"、"**密码**" 和 "**域" 或 "本地计算机**" 框中输入适当的值。 单击“**下一步**”。
+10. 在 "**管理服务器操作帐户**" 页上，选择 "**域或本地计算机帐户**"，然后在 "**用户帐户**"、"**密码**" 和 "**域" 或 "本地计算机**" 框中输入适当的值。 单击“下一步”。****
 
-11. 在 " **SDK 和 Config 服务帐户**" 页上，选择 "**域或本地计算机帐户**"，然后在 "**用户帐户**"、"**密码**" 和 "**域" 或 "本地计算机**" 框中输入适当的值。 单击“**下一步**”。
+11. 在 " **SDK 和 Config 服务帐户**" 页上，选择 "**域或本地计算机帐户**"，然后在 "**用户帐户**"、"**密码**" 和 "**域" 或 "本地计算机**" 框中输入适当的值。 单击“下一步”。****
 
 12. 在 " **Operations Manager 错误报告**" 页上单击 "**下一步**"。
 
@@ -193,7 +193,7 @@ Operations Manager 控制台是用于管理 System Center Operations Manager 的
 
 7.  在 "**连接到根管理服务器**" 页上，在 "**根管理服务器**" 框中键入 Operations Manager 根管理服务器的名称，然后单击 "**下一步**"。
 
-8.  在 "**连接到 Operations Manager 数据仓库**" 页上，在 " **sql server 实例**" 框中键入您的数据仓库所在的 sql server 实例。 （如果您的数据仓库位于默认实例中，只需键入服务器名称; 例如： atl-sql-001。）验证 "**名称**" 框中显示 "数据库名称**OperationsManagerDW** "，并在 " **SQL Server 端口**" 框中显示 "端口**1433** "。 单击“**下一步**”。
+8.  在 "**连接到 Operations Manager 数据仓库**" 页上，在 " **sql server 实例**" 框中键入您的数据仓库所在的 sql server 实例。 （如果您的数据仓库位于默认实例中，只需键入服务器名称; 例如： atl-sql-001。）验证 "**名称**" 框中显示 "数据库名称**OperationsManagerDW** "，并在 " **SQL Server 端口**" 框中显示 "端口**1433** "。 单击“下一步”。****
 
 9.  在 " **Sql Server 报告实例**" 页上，从 "**输入 Sql Server reporting Services 服务器**" 下拉列表中选择您的 sql server 报告服务器，然后单击 "**下一步**"。
 

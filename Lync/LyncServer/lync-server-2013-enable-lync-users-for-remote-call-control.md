@@ -12,18 +12,18 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4baa6f18e92eb284cce8610ba576b30dd6d2f320
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7e165efe4e9b679c5464a35aac1c4130840b801
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042609"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>在 Lync Server 2013 中为 Lync 用户启用远程呼叫控制
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2012-09-21_
 
 您可以使用基于服务器的带内设置策略为 Lync 用户配置远程呼叫控制。 您可以通过使用 Lync Server 控制面板或 Lync Server Management Shell 命令行界面来管理带内配置设置。 这些工具将替换用于在早期版本中管理组策略设置的 Windows Management Instrumentation （WMI）管理单元。
 
-如果你想让用户在 Lync 中配置其自己的远程呼叫控制设置，可以在不指定**行服务器 URI**和**线路 URI**值的情况下为服务器上的用户配置远程呼叫控制设置。 确保将适当的**行服务器 URI**和**行 URI**值传递给用户，并向用户提供有关配置这些设置的说明。 有关在 Lync Server 中手动配置远程呼叫控制的过程，请参阅 Microsoft Office 网站上的 Lync 客户<http://go.microsoft.com/fwlink/p/?linkid=210132>端文档中的 "设置电话选项和号码"。
+如果你想让用户在 Lync 中配置其自己的远程呼叫控制设置，可以在不指定**行服务器 URI**和**线路 URI**值的情况下为服务器上的用户配置远程呼叫控制设置。 确保将适当的**行服务器 URI**和**行 URI**值传递给用户，并向用户提供有关配置这些设置的说明。 有关在 Lync Server 中手动配置远程呼叫控制的过程，请参阅 Microsoft Office 网站上的 Lync 客户<https://go.microsoft.com/fwlink/p/?linkid=210132>端文档中的 "设置电话选项和号码"。
 
 如果您有一个现有的通信服务器 2007 R2 或通信服务器2007部署，Communicator 2007 R2 和 Communicator 2007 客户端将继续在并行迁移过程中使用组策略。 但是，如果您希望将策略设置传输到 Lync 客户端，则需要配置等效的 Lync Server 带内设置设置。
 

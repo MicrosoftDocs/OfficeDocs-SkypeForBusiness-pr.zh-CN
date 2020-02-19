@@ -12,18 +12,18 @@ ms:contentKeyID: 48185661
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ca2367ebe47d5abde48a11f06be49d4a6d6ea35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fb713c1f328258bcb80173e0ff7e61ddd8304075
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046615"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-cmdlets-index"></a>Lync Server 2013 cmdlet 索引
 
@@ -47,7 +47,7 @@ Microsoft Lync Server 2013 随附有700个以上的 cmdlet，使管理员能够�
 
     Get-Command * -Module Lync -CommandType cmdlet
 
-有关使用 Lync Server 命令行管理程序的详细信息，请参阅 Lync Server Windows PowerShell [http://go.microsoft.com/fwlink/p/?linkId=203150](http://go.microsoft.com/fwlink/p/?linkid=203150)博客 at。
+有关使用 Lync Server 命令行管理程序的详细信息，请参阅 Lync Server Windows PowerShell [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)博客 at。
 
 <div>
 

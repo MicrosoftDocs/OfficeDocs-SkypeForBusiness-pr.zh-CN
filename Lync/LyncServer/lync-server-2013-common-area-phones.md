@@ -12,18 +12,18 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 736aa12c9de027aa485cfc89a6f5cd820a460833
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 523238887e8ed5ac7dc45fb05177ae0c5fa9f291
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045814"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138493"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="common-area-phones-in-lync-server-2013"></a>Lync Server 2013 中的常见区域电话
 
@@ -47,7 +47,7 @@ _**上次修改的主题：** 2013-02-20_
 
 
 > [!NOTE]  
-> 共有三个选项用于常见区域电话： Aastra 6721ip 公共区域电话、HP 4110 IP 电话和 Polycom CX500 IP 公共区域电话。 Polycom CX3000 IP 会议电话是另一个变种公用区域电话。 但是，它适用于会议室。 有关常见区域电话的详细信息，请参阅<A href="http://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">选择新设备</A>的公共区域电话部分。
+> 共有三个选项用于常见区域电话： Aastra 6721ip 公共区域电话、HP 4110 IP 电话和 Polycom CX500 IP 公共区域电话。 Polycom CX3000 IP 会议电话是另一个变种公用区域电话。 但是，它适用于会议室。 有关常见区域电话的详细信息，请参阅<A href="https://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">选择新设备</A>的公共区域电话部分。
 
 
 

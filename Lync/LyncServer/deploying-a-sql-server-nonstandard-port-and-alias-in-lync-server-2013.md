@@ -12,18 +12,18 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ef6082c4d2df6936557cf6f6c82a1d495888f55
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f1134422c8c55a60858a9fd8c28be2e6ff159d48
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006418"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137953"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SQL Server 非标准端口和别名
 
@@ -77,7 +77,7 @@ Lync Server 2013 拓扑生成器支持在配置 Lync Server 2013 时使用 SQL S
 
 ## <a name="confirm-that-lync-server-2013-has-the-latest-updates-applied"></a>确认 Lync Server 2013 已应用最新的更新
 
-将 Lync Server 2013 保持为最新状态非常重要。 若要查看有关如何应用这些更新的最新更新和信息，请参阅[Lync Server 2013 更新](http://support.microsoft.com/kb/2809243)。
+将 Lync Server 2013 保持为最新状态非常重要。 若要查看有关如何应用这些更新的最新更新和信息，请参阅[Lync Server 2013 更新](https://support.microsoft.com/kb/2809243)。
 
 </div>
 

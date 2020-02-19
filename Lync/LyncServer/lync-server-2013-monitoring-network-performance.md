@@ -12,18 +12,18 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8524499737ae1e52a36a80fbc636f005b687a6a0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aafea72c7e30644f8a882f1cf556c665e1e285ad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047965"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140175"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-network-performance-in-lync-server-2013"></a>在 Lync Server 2013 中监视网络性能
 
@@ -73,7 +73,7 @@ System Center Operations Manager 提供了端到端服务管理，可轻松进�
 
 可在以下位置找到详细信息：
 
-[Microsoft System Center Operations Manager](http://go.microsoft.com/fwlink/p/?linkid=243651)
+[Microsoft System Center Operations Manager](https://go.microsoft.com/fwlink/p/?linkid=243651)
 
 [Microsoft System Center Operations Manager 解决方案](http://www.emc.com/collateral/software/data-sheet/h6135-server-manager-ds.pdf)
 
@@ -85,7 +85,7 @@ System Center Operations Manager 提供了端到端服务管理，可轻松进�
 
 **Hp 网络管理中心（以前称为 HP OpenView）**   [Hp 网络管理中心](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__)提供集成的故障和性能管理，以提高网络可用性和性能。 网络管理中心是 HP 自动化网络管理解决方案的一部分，可统一执行故障、性能、配置和更改管理。
 
-**适用于企业的 cisco 网络管理和自动化产品**   ，cisco 具有几个可提供的管理产品，包括 CiscoWorks LAN Management 解决方案和 Cisco 网络分析模块，以帮助提高运营效率并减少网络故障时间。 有关这些产品的其他数据，请参阅位于[http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)的 Cisco 网站。
+**适用于企业的 cisco 网络管理和自动化产品**   ，cisco 具有几个可提供的管理产品，包括 CiscoWorks LAN Management 解决方案和 Cisco 网络分析模块，以帮助提高运营效率并减少网络故障时间。 有关这些产品的其他数据，请参阅位于[https://www.cisco.com/en/US/products/sw/netmgtsw/index.html](https://www.cisco.com/en/us/products/sw/netmgtsw/index.html)的 Cisco 网站。
 
 简单网络管理协议（SNMP）简单网络管理协议（SNMP）是一种网络管理标准，用于定义用于管理 TCP/IP 网络的策略。 SNMP 使您能够捕获有关网络的配置和状态信息，并将信息发送到指定的计算机进行事件监视。 此基于标准的网络管理协议使用分布式体系结构，其中包括以下内容：
 
@@ -127,7 +127,7 @@ System Center Operations Manager 2012 允许管理员通过 Windows Server 2012 
 
 收集、显示、分析服务器上的资源使用情况，并衡量网络流量。 网络监视器仅监视网络活动。 通过捕获和分析网络数据，并将此数据与性能日志结合使用，可以确定网络使用情况，识别网络问题，并预测未来的网络需求。
 
-有关网络监视器3.4 的详细信息，并了解如何安装和配置网络监视器以及捕获和分析数据，请查看此会话：网络监视器3.3 概述。 此外，请查看[网络监视器博客](http://blogs.technet.com/b/netmon/)。
+有关网络监视器3.4 的详细信息，并了解如何安装和配置网络监视器以及捕获和分析数据，请查看此会话：网络监视器3.3 概述。 此外，请查看[网络监视器博客](https://blogs.technet.com/b/netmon/)。
 
 </div>
 

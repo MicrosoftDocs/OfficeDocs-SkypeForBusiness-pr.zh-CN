@@ -13,18 +13,18 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24c5c530b51b24b23f266786cd763994c4798d1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 542ee4d581d4df26a528a14fda5de792c2a2ad09
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41999187"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136114"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-clients-for-migration"></a>配置客户端以进行迁移
 
@@ -48,13 +48,13 @@ _**上次修改的主题：** 2013-11-21_
     
       - [应用 Office 通信服务器 2007 R2 更新](apply-office-communications-server-2007-r2-updates.md)
     
-      - [Communicator 2007 R2 的累积更新程序包的说明](http://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [Communicator 2007 R2 的累积更新程序包的说明](https://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [为设备获取软件更新](http://go.microsoft.com/fwlink/?linkid=335809)
+      - [为设备获取软件更新](https://go.microsoft.com/fwlink/?linkid=335809)
 
 2.  在 Office 通信服务器 2007 R2 上，使用客户端版本筛选，仅允许安装了最新更新的 Office 通信服务器 2007 R2 客户端登录。
 
-3.  在 Office 通信服务器 2007 R2 上，使用客户端版本筛选来阻止 Lync Server 2013 客户端登录。 按照在中**配置客户端版本筛选** [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488)中描述的步骤添加下表中列出的版本筛选器。 为每个版本筛选器分配“阻止”操作****。
+3.  在 Office 通信服务器 2007 R2 上，使用客户端版本筛选来阻止 Lync Server 2013 客户端登录。 按照在中**配置客户端版本筛选** [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488)中描述的步骤添加下表中列出的版本筛选器。 为每个版本筛选器分配“阻止”操作****。
     
     
     <table>

@@ -13,18 +13,18 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5bd70d0f37dbed8a38994af6dc806556380484b5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4a78e229b54ec165897d920d8f04db49451eac9b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006608"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-the-client-experience-with-skype-for-business"></a>配置 Skype for Business 的客户端体验
 
@@ -38,9 +38,9 @@ ms.locfileid: "42006608"
 
 _**上次修改的主题：** 2015-09-17_
 
-**摘要：** 本主题介绍如何在 Lync Server 2013 环境中为 Skype for business 客户端用户配置客户端体验。 仅当您使用12月2014累积更新（5.0.8308.857）或更高版本安装了运行 Lync Server 2013 时，才能配置客户端体验。 有关更新 Lync Server 2013 的信息，请参阅[Lync server 2013 更新](http://go.microsoft.com/fwlink/p/?linkid=532651)。
+**摘要：** 本主题介绍如何在 Lync Server 2013 环境中为 Skype for business 客户端用户配置客户端体验。 仅当您使用12月2014累积更新（5.0.8308.857）或更高版本安装了运行 Lync Server 2013 时，才能配置客户端体验。 有关更新 Lync Server 2013 的信息，请参阅[Lync server 2013 更新](https://go.microsoft.com/fwlink/p/?linkid=532651)。
 
-Skype for Business 提供了基于 Skype 消费者产品体验的全新用户体验。 除 Lync 的所有功能外，Skype for Business 还提供了具有简化的控件和熟悉的图标的新功能。 有关新的客户端体验的详细信息，请参阅[Lync 现在为 Skype For business--了解新增功能](http://go.microsoft.com/fwlink/?linkid=529022)。
+Skype for Business 提供了基于 Skype 消费者产品体验的全新用户体验。 除 Lync 的所有功能外，Skype for Business 还提供了具有简化的控件和熟悉的图标的新功能。 有关新的客户端体验的详细信息，请参阅[Lync 现在为 Skype For business--了解新增功能](https://go.microsoft.com/fwlink/?linkid=529022)。
 
 Lync Server 2013 支持新的 Skype for Business 客户端体验和 Lync 客户端体验。 作为管理员，你可以为你的用户选择首选的客户端体验。 例如，您可能希望部署 Lync 客户端体验，直到贵组织中的用户在新的 Skype for Business 体验中进行了全面培训。 或者，如果尚未将所有用户升级到 Skype for Business Server 2015，您可能希望所有用户都具有相同的客户端体验，直至所有用户都已升级到新服务器。
 
@@ -263,9 +263,9 @@ Lync Server 2013 支持新的 Skype for Business 客户端体验和 Lync 客户�
 
 管理 Skype for Business 客户端的配置所需的修补程序版本包括：
 
-  - Lync Server 2010-Lync Server 2010 的二月份2015累积更新（4.0.7577.710）。 有关信息，请参阅[Lync Server 2010 更新](http://go.microsoft.com/fwlink/p/?linkid=532771)
+  - Lync Server 2010-Lync Server 2010 的二月份2015累积更新（4.0.7577.710）。 有关信息，请参阅[Lync Server 2010 更新](https://go.microsoft.com/fwlink/p/?linkid=532771)
 
-  - Lync Server 2013-Lync Server 2013 的12月2014累积更新（5.0.8308.857）。 有关信息，请参阅[Lync Server 2013 更新](http://go.microsoft.com/fwlink/p/?linkid=532772)。
+  - Lync Server 2013-Lync Server 2013 的12月2014累积更新（5.0.8308.857）。 有关信息，请参阅[Lync Server 2013 更新](https://go.microsoft.com/fwlink/p/?linkid=532772)。
 
 </div>
 
@@ -281,7 +281,7 @@ Lync Server 2013 支持新的 Skype for Business 客户端体验和 Lync 客户�
 
 1.  启动 "**组策略管理控制台**"。
     
-    有关如何使用组策略管理控制台的信息，请参阅[组策略管理控制台](http://go.microsoft.com/fwlink/?linkid=532759)。
+    有关如何使用组策略管理控制台的信息，请参阅[组策略管理控制台](https://go.microsoft.com/fwlink/?linkid=532759)。
 
 2.  右键单击 "**组策略对象**" 节点，然后在菜单上选择 "**新建**"。
 
