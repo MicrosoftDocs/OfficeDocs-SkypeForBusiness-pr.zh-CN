@@ -12,18 +12,18 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aada74d1cc96d0dfd7396231ccd96e6ed0d13a6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b200fb122f436e7afa5587e56a9e62edd0d3fa5e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008554"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135569"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 域服务支持
 
@@ -103,7 +103,7 @@ Lync Server 2013 支持包含只读域控制器或只读全局编录服务器的
 
 ## <a name="domain-names"></a>域名
 
-Lync Server 不支持单标签域。 例如，支持具有名为 **contoso.local** 的根域的林，但不支持名为 **local** 的根域。 有关详细信息，请参阅 Microsoft 知识库文章 300684 "有关为带有单标签 DNS 名称的域配置 Windows 的信息" [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)。
+Lync Server 不支持单标签域。 例如，支持具有名为 **contoso.local** 的根域的林，但不支持名为 **local** 的根域。 有关详细信息，请参阅 Microsoft 知识库文章 300684 "有关为带有单标签 DNS 名称的域配置 Windows 的信息" [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)。
 
 <div>
 

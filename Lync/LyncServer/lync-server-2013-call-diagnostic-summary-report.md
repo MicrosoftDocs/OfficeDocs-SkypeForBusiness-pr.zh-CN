@@ -12,18 +12,18 @@ ms:contentKeyID: 48184789
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112a21dbb131e0bd34729584b8fb58399b192f70
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0ebd3da761fe9923f05c2ddd5dfced852b4b27e6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044484"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134238"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="call-diagnostic-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫诊断摘要报告
 
@@ -152,7 +152,7 @@ _**上次修改的主题：** 2012-06-06_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -190,7 +190,7 @@ _**上次修改的主题：** 2012-06-06_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

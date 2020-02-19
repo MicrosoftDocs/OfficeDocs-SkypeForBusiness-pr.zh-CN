@@ -12,12 +12,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 029d9c24a5fb460128c523192c7db682e2122370
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e6a10e2fb6d8e17352eb8a96be57b24e706fc5d5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030105"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134388"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户语音策略
 
@@ -46,7 +46,7 @@ ms.locfileid: "42030105"
 
 ## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户语音策略
 
-您可以使用 Windows PowerShell 和**set-csvoicepolicy** cmdlet 分配每用户语音策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Windows PowerShell 和**set-csvoicepolicy** cmdlet 分配每用户语音策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 ## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a>向单个用户分配每用户语音策略
 

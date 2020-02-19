@@ -12,18 +12,18 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b64f06d9ca879236c0842554c1779fb7bbc1cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3dd1aa5bdde1c94e3d0558be14c67cf62ec8142a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038454"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 的证书基础结构要求
 
@@ -59,7 +59,7 @@ Lync Server 使用证书实现以下目的：
 
   - 所有服务器证书都必须包含一个 CRL 分发点 (CDP)。
 
-  - 必须使用操作系统支持的签名算法对所有证书进行签名。 Lync Server 2013 支持 SHA-1 和 SHA-1 套件的摘要大小（224、256、384和512），并满足或超过操作系统要求。 有关操作系统支持，请参阅[http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002)。
+  - 必须使用操作系统支持的签名算法对所有证书进行签名。 Lync Server 2013 支持 SHA-1 和 SHA-1 套件的摘要大小（224、256、384和512），并满足或超过操作系统要求。 有关操作系统支持，请参阅[https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)。
     
     <div>
     

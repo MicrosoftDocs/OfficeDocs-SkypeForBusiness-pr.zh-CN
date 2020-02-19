@@ -12,18 +12,18 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20d297e1d127d167aa8acc059f5b6f89cc96d13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d0cd27f961d3b4857cf13d5786897bd29a657851
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036502"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的容量规划
 
@@ -41,7 +41,7 @@ _**上次修改的主题：** 2012-10-05_
 
 容量规划是准备部署持久聊天服务器的重要部分。 本主题提供了有关受支持的持久聊天服务器拓扑和容量规划表的详细信息，您可以使用这些表来确定适用于您的部署的最佳配置。 此外，还介绍了如何最好地管理在高峰时间需要更大容量的持久聊天服务器部署。
 
-若要下载持久聊天服务器，请参阅在上的[http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)"Microsoft Lync Server 13 持久聊天服务器"。
+若要下载持久聊天服务器，请参阅在上的[https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)"Microsoft Lync Server 13 持久聊天服务器"。
 
 有关安装持久聊天服务器的详细信息，请参阅部署文档中的在[Lync server 2013 中安装持久聊天服务器](lync-server-2013-installing-persistent-chat-server.md)和[在 lync Server 2013 中配置持久聊天服务器](lync-server-2013-configuring-persistent-chat-server.md)。
 
@@ -212,21 +212,21 @@ _**上次修改的主题：** 2012-10-05_
 <td><p>打开聊天室（无显式成员资格）</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>未打开的聊天室（具有显式成员资格的常规聊天室）</p></td>
 <td><p>31040</p></td>
 <td><p>1.035</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>32080</p></td>
 </tr>
 <tr class="odd">
 <td><p>大会堂会议室（其他演示者条目）</p></td>
 <td><p>0</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -259,8 +259,8 @@ _**上次修改的主题：** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p>非打开聊天室的每个聊天室的成员资格列表中的用户组</p></td>
-<td><p>3 </p></td>
-<td><p>5 </p></td>
+<td><p>第三章</p></td>
+<td><p>5</p></td>
 <td><p>10 </p></td>
 <td></td>
 </tr>
@@ -515,7 +515,7 @@ _**上次修改的主题：** 2012-10-05_
 <tr class="odd">
 <td><p>每个用户每天的聊天速率</p></td>
 <td><p>15 </p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>0.1</p></td>
 <td><p>20</p></td>
 </tr>
@@ -559,7 +559,7 @@ _**上次修改的主题：** 2012-10-05_
 </tr>
 <tr class="even">
 <td><p>持久聊天服务器服务实例的数量</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="odd">
 <td><p>小聊天室的大小</p></td>
@@ -595,15 +595,15 @@ _**上次修改的主题：** 2012-10-05_
 </tr>
 <tr class="odd">
 <td><p>每个用户的小聊天室数量</p></td>
-<td><p>12 </p></td>
+<td><p>12</p></td>
 </tr>
 <tr class="even">
 <td><p>每个用户的中聊天室数量</p></td>
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 </tr>
 <tr class="odd">
 <td><p>每个用户的大聊天室数量</p></td>
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 </tr>
 <tr class="even">
 <td><p>每个用户加入的聊天室数</p></td>

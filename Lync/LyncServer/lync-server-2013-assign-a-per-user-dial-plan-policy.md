@@ -12,12 +12,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea17e772bd98501b0d50674a2b82a9abb0e0b38
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8bd4d46e2cd41c972258a84a1e8fb34549dc8b4e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043704"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134438"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户拨号计划策略
 
@@ -50,7 +50,7 @@ ms.locfileid: "42043704"
 
 ## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户拨号计划
 
-您可以使用 Windows PowerShell 和**grant-csdialplan** cmdlet 分配每用户拨号计划。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Windows PowerShell 和**grant-csdialplan** cmdlet 分配每用户拨号计划。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
 
 ## <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>为单个用户分配每用户拨号计划
 

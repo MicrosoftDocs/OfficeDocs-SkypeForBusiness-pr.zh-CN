@@ -12,18 +12,18 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d1efb960e6f60118364193dffdbedcefea94a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0d08c56e8b88f13a965f7ab24c8f497e01f10400
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034814"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-load-balancing-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 负载平衡
 
@@ -41,7 +41,7 @@ Lync Server 支持 DNS 负载平衡，这是一种可显著降低网络上负载
 
 如果您部署了 DNS 负载平衡，则组织的硬件负载平衡器的管理开销将会最小化。 此外，还可以免除解决 SIP 流量负载平衡器配置错误相关问题的复杂过程。 您还可以阻止服务器连接以使服务器脱机。 同时，DNS 负载平衡还可确保硬件负载平衡器问题不会影响 SIP 流量的元素，例如基本呼叫路由。
 
-与为所有类型的流量使用硬件负载平衡器相比，使用 DNS 负载平衡还可以降低您购买硬件负载平衡器的成本。 应使用与 Lync Server 的互操作性限定测试的负载平衡器。 有关负载平衡器互操作性测试的详细信息，请参阅 at [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)中的 "Lync Server 2010 负载平衡器合作伙伴"。
+与为所有类型的流量使用硬件负载平衡器相比，使用 DNS 负载平衡还可以降低您购买硬件负载平衡器的成本。 应使用与 Lync Server 的互操作性限定测试的负载平衡器。 有关负载平衡器互操作性测试的详细信息，请参阅 at [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)中的 "Lync Server 2010 负载平衡器合作伙伴"。
 
 前端池、边缘服务器池、控制器池和独立的中介服务器池都支持 DNS 负载平衡。
 

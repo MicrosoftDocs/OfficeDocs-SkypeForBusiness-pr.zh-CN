@@ -12,18 +12,18 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae57440d4843151da61d24a9ff015778a5c65b07
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c7d45183b3dac5d96d65d771bf1425546f861c38
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043984"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>证书摘要-Lync Server 2013 中的自动发现
 
@@ -79,7 +79,7 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 </colgroup>
 <thead>
 <tr class="header">
-<th>描述</th>
+<th>说明</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>
@@ -115,7 +115,7 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 </colgroup>
 <thead>
 <tr class="header">
-<th>描述</th>
+<th>说明</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>
@@ -151,7 +151,7 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 </colgroup>
 <thead>
 <tr class="header">
-<th>描述</th>
+<th>说明</th>
 <th>使用者替代名称条目</th>
 </tr>
 </thead>

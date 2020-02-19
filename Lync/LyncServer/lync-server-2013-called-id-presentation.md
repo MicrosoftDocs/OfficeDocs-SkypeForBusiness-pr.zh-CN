@@ -12,18 +12,18 @@ ms:contentKeyID: 49733826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84bddaba994d5e0907200902deb8c818cca4199c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8b4ad6f728f01f0cf9ef1aac6ed57ad22c7ff345
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044244"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134828"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="called-id-presentation-in-lync-server-2013"></a>Lync Server 2013 中名为 ID 的演示文稿
 
@@ -59,7 +59,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]  
-> 有关如何编写正则表达式的信息，请参阅处<A href="http://go.microsoft.com/fwlink/p/?linkid=140927">http://go.microsoft.com/fwlink/p/?linkId=140927</A>的 ".Net Framework 正则表达式"。
+> 有关如何编写正则表达式的信息，请参阅处<A href="https://go.microsoft.com/fwlink/p/?linkid=140927">https://go.microsoft.com/fwlink/p/?linkId=140927</A>的 ".Net Framework 正则表达式"。
 
 
 

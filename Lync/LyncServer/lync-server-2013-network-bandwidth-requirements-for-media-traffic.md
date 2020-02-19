@@ -12,18 +12,18 @@ ms:contentKeyID: 49733716
 ms.date: 09/25/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f02f87e0cc7adc9cdfbd5e7ba1a9b7a4a6b736ee
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f450f5627fb79bd54a3b2a743a13a3cdfced82d5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008224"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42129635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="network-bandwidth-requirements-for-media-traffic-in-lync-server-2013"></a>Lync Server 2013 中媒体流量的网络带宽要求
 
@@ -265,7 +265,7 @@ Lync 2013 支持更多的解决方案。 这使您可更好地调整到不同的
 <tbody>
 <tr class="odd">
 <td><p>音频</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 </tr>
 <tr class="even">
 <td><p>视频（仅正在发送/接收的 H.264 或 RTVideo）</p></td>

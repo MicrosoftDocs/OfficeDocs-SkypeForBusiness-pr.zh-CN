@@ -12,18 +12,18 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1dffbb5d8a0e49e19c0fa5487a4af05b7e7f0155
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 59fcf8398fa012543303f959f4888074f5192470
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007361"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中验证与 Lync Online 客户的通信
 
@@ -45,7 +45,7 @@ _**上次修改的主题：** 2012-10-08_
 
   - 将用户帐户配置为支持联盟。 有关详细信息，请参阅[Lync Server 2013 中的为具有 Lync Online 客户的联盟配置用户访问权限](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md)。
 
-完成所有这些步骤，并且 Lync Online 2010 客户的管理员完成了其在线服务的所有配置以支持与组织的联盟，请通过测试内部通信之间的通信来验证通信。组织中的用户和 Lync Online 客户的用户。 如果通信不成功，请使用边缘服务器中的日志记录工具捕获日志和跟踪文件，以便对问题进行故障排除。 有关使用日志记录工具的详细信息，请参阅操作文档中的[打开 Lync Server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。 有关日志记录工具的详细信息，请参阅 TechNet Library 上的 Lync Server 2010 日志记录工具[http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)文档。
+完成所有这些步骤，并且 Lync Online 2010 客户的管理员完成了其在线服务的所有配置以支持与组织的联盟，请通过测试内部通信之间的通信来验证通信。组织中的用户和 Lync Online 客户的用户。 如果通信不成功，请使用边缘服务器中的日志记录工具捕获日志和跟踪文件，以便对问题进行故障排除。 有关使用日志记录工具的详细信息，请参阅操作文档中的[打开 Lync Server 2013 管理工具](lync-server-2013-open-lync-server-administrative-tools.md)。 有关日志记录工具的详细信息，请参阅 TechNet Library 上的 Lync Server 2010 日志记录工具[https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)文档。
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55095e968e898445e42ceebed73f95ee9fb128d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ee280cabe9df1ad720f1007f1dc787db9f32aab
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043844"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的客户端和设备软件和基础结构支持
 
@@ -59,9 +59,9 @@ Lync Server 2013 部署的客户端和设备的软件支持包括支持的操作
 > Lync Phone Edition 的工作方式2013与 lync server 2010 相同。 有关设备的软件支持的详细信息，请参阅 Lync Server 2010 TechNet 库中的以下主题： 
 > <UL>
 > <LI>
-> <P>用于设备的必需 Lync Server 2010 组件<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>用于设备的必需 Lync Server 2010 组件<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256488">https://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>处的设备系统和基础结构支持<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>处的设备系统和基础结构支持<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=256489">https://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

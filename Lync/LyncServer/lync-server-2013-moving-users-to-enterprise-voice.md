@@ -12,18 +12,18 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0320cb10e4122e5f5c42a659ad8de54ce3ae5b6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 968e70e74cd129f05d4f39f626d9e21b1c3dc33a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42039156"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42131145"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>将用户移动到 Lync Server 2013 中的企业语音
 
@@ -175,7 +175,7 @@ _**上次修改的主题：** 2012-10-18_
 
   - 将 Exchange 统一消息和 Lync Server 配置为协同工作。
 
-  - 为用户启用 Exchange 统一消息呼叫应答和 Outlook Voice Access。 此任务在 Exchange 统一消息服务器上执行。 有关详细信息，请参阅 Exchange Server 2010 TechNet Library [http://go.microsoft.com/fwlink/p/?linkID=139372](http://go.microsoft.com/fwlink/p/?linkid=139372)（网址为）。
+  - 为用户启用 Exchange 统一消息呼叫应答和 Outlook Voice Access。 此任务在 Exchange 统一消息服务器上执行。 有关详细信息，请参阅 Exchange Server 2010 TechNet Library [https://go.microsoft.com/fwlink/p/?linkID=139372](https://go.microsoft.com/fwlink/p/?linkid=139372)（网址为）。
 
 </div>
 

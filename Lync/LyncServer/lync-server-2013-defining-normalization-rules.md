@@ -12,18 +12,18 @@ ms:contentKeyID: 48185741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99a09f5075ffe8ff267f31333d3dba0f4fffbc41
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e19edb375235d64587c60b2abf388835ffc468e7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036391"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135298"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="defining-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中定义规范化规则
 
@@ -41,7 +41,7 @@ Lync Server 2013 规范化规则使用 .NET Framework 正则表达式将拨打�
 
 有关规范化规则的详细信息，请参阅规划文档中的[Lync Server 2013 中的拨号计划和规范化规则](lync-server-2013-dial-plans-and-normalization-rules.md)。
 
-有关如何编写正则表达式的详细信息，请参阅中[http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)的 ".Net Framework 正则表达式"。
+有关如何编写正则表达式的详细信息，请参阅中[https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)的 ".Net Framework 正则表达式"。
 
 可以使用以下任一方法定义或编辑规范化规则：
 

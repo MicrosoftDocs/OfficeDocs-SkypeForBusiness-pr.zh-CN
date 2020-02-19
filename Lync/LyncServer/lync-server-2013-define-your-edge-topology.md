@@ -12,18 +12,18 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bd7c52eef58d4e40c767f48a296a83a8c056525
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 55653e39086c311778335999d2e9fc2101b28d40
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036422"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135198"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="define-your-edge-topology-in-lync-server-2013"></a>在 Lync Server 2013 中定义边缘拓扑
 
@@ -142,7 +142,7 @@ _**上次修改的主题：** 2012-09-28_
     
       - 如果在“选择功能”**** 中未选择使用单个 FQDN 和 IP 地址，请键入“SIP 访问”****、“Web 会议”**** 和“音频视频”**** 的外部 FQDN，并保留默认端口。
 
-9.  单击“**下一步**”。
+9.  单击“下一步”。****
 
 10. 在“定义内部 IP 地址”**** 中，键入适合您需求的“内部 IPv4 地址”**** 和“内部 IPv6 地址”**** 中的边缘服务器的 IP 地址。单击“下一步”****。
 
@@ -250,7 +250,7 @@ _**上次修改的主题：** 2012-09-28_
     
       - 如果您计划支持适用于部署的可扩展消息传递和状态协议 (XMPP)，请选中“启用 XMPP 联盟(端口 5269)”**** 复选框。
 
-7.  单击“**下一步**”。
+7.  单击“下一步”。****
 
 8.  在“选择 IP 选项”**** 中，执行下列操作：
     
@@ -423,7 +423,7 @@ _**上次修改的主题：** 2012-09-28_
     
       - 如果您计划支持适用于部署的可扩展消息传递和状态协议 (XMPP)，请选中“启用 XMPP 联盟(端口 5269)”**** 复选框。
 
-7.  单击“**下一步**”。
+7.  单击“下一步”。****
 
 8.  在“选择 IP 选项”**** 中，执行下列操作：
     
@@ -468,7 +468,7 @@ _**上次修改的主题：** 2012-09-28_
         
         </div>
 
-10. 单击“**下一步**”。
+10. 单击“下一步”。****
 
 11. 在“定义此池中的计算机”**** 中，单击“添加”****。
 

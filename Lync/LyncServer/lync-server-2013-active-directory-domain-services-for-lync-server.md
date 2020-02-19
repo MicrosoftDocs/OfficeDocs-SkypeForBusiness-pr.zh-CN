@@ -12,18 +12,18 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b53b878d7f41a5eb83eb67d98fc69d68709a603
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f05832a3390101aad7acb1c9d25f532288ca020a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008574"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135589"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-for-lync-server-2013"></a>Lync Server 2013 的 Active Directory 域服务
 
@@ -71,7 +71,7 @@ Active Directory 的基础结构要求包括以下各项：
 
 
 > [!NOTE]  
-> 建议您对“配置”容器而非“系统”容器部署全局设置。 这不会增强安全性，但是可提高一些 Active Directory 域服务拓扑的可伸缩性。 如果从 Microsoft Office 通信服务器2007迁移，并且已使用系统容器，但计划使用配置容器，则必须先移动系统容器中的设置，然后再执行任何升级准备。 若要将系统容器设置迁移到配置容器，请参阅在上<A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>的 Office 通信服务器2007全局设置迁移工具。
+> 建议您对“配置”容器而非“系统”容器部署全局设置。 这不会增强安全性，但是可提高一些 Active Directory 域服务拓扑的可伸缩性。 如果从 Microsoft Office 通信服务器2007迁移，并且已使用系统容器，但计划使用配置容器，则必须先移动系统容器中的设置，然后再执行任何升级准备。 若要将系统容器设置迁移到配置容器，请参阅在上<A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>的 Office 通信服务器2007全局设置迁移工具。
 
 
 
@@ -219,7 +219,7 @@ Active Directory 域服务中的每个 Lync Server 2013 对象都具有一个名
 </table>
 
 
-若要支持早期版本的受信任服务器，必须运行最佳实践分析工具。 有关运行最佳实践分析工具的详细信息， [http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633)请参阅。
+若要支持早期版本的受信任服务器，必须运行最佳实践分析工具。 有关运行最佳实践分析工具的详细信息， [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)请参阅。
 
 </div>
 

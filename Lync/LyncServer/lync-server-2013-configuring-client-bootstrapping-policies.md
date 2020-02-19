@@ -12,18 +12,18 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3827bf913c4108c1105376a6f178598a2fb45a06
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 457702a4b237493beb8ca5dfe1e2d7ce9b3d2654
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41996647"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>在 Lync Server 2013 中配置客户端引导策略
 
@@ -37,7 +37,7 @@ ms.locfileid: "41996647"
 
 _**上次修改的主题：** 2013-02-21_
 
-组策略管理控制台（GPMC）和组策略对象编辑器是用于管理组策略的工具。 Office 组策略管理模板包含 Lync 2013 （ADMX）和 adml （ADML）管理模板，其中包含您为域中的组策略对象配置的基于注册表的策略设置。 ADML 文件是特定于语言的对 ADMX 文件的补充。 每个 ADMX 和 ADML 文件都包含单个 Office 应用程序的策略设置。 有关详细信息，请参阅 Office 2013 文档中的 "Office 2013 管理模板文件（ADMX、ADML）" <http://go.microsoft.com/fwlink/p/?linkid=267516>。
+组策略管理控制台（GPMC）和组策略对象编辑器是用于管理组策略的工具。 Office 组策略管理模板包含 Lync 2013 （ADMX）和 adml （ADML）管理模板，其中包含您为域中的组策略对象配置的基于注册表的策略设置。 ADML 文件是特定于语言的对 ADMX 文件的补充。 每个 ADMX 和 ADML 文件都包含单个 Office 应用程序的策略设置。 有关详细信息，请参阅 Office 2013 文档中的 "Office 2013 管理模板文件（ADMX、ADML）" <https://go.microsoft.com/fwlink/p/?linkid=267516>。
 
 对于 Lync 2013，有几个客户端启动策略，在用户首次登录到服务器之前，应考虑进行配置。 例如，客户端在登录完成之前应使用的默认服务器和安全模式。 在用户登录并开始从服务器接收带内设置设置之前，您可以使用组策略在用户的计算机注册表中建立这些设置。 下表列出了可用于 Lync 2013 的组策略设置。
 
@@ -155,19 +155,19 @@ TrustModelData</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Lync Server 2013 带内配置</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 <td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>第三章</p></td>
 <td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Lync 2013 中的 "Lync 选项" 对话框</p></td>
 </tr>
 </tbody>

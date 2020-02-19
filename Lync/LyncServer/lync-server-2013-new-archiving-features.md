@@ -12,18 +12,18 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8c632fa5858eaf35464e9885e65343bc699e54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e09284d78ead2e8cd4249c2dc54159284ddad43
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043804"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42127645"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="new-archiving-features-in-lync-server-2013"></a>Lync Server 2013 中的新存档功能
 
@@ -49,7 +49,7 @@ Lync Server 2013 中的存档可以存档以下类型的内容：
 
   - **并置前端服务器上的存档。**   Lync Server 2013 没有单独的存档服务器角色。 存档是 Enterprise Edition 部署中的所有前端服务器或可为池或站点实施并配置的 Standard Edition 服务器上所提供的一项可选功能。
 
-  - **Microsoft Exchange 集成。**   在部署存档时，您可以将数据存储与托管在 exchange 2013 上的所有用户的现有 Exchange 2013 存储集成在一起，并将其邮箱置于就地保留状态，因此无需部署单独的 SQL Server 数据库来存档 Lync 数据。 如果您没有 Exchange 2013 部署，或者您不希望与它集成，或者如果您有任何 Lync 2013 用户（这些用户未驻留在 Exchange 2013 中）并将其邮箱置于就地保留状态，则可以使用 SQL Server 将单独的存档数据库部署到 stor来自 Lync 通信的 e 存档数据。 如果要对部署中的某些而不是所有用户使用 Microsoft Exchange 集成，则可以使用 Microsoft Exchange 集成和 Lync Server 2013 存档数据库。 有关就地保留的详细信息，请参阅处[http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500)的 "就地保留"。
+  - **Microsoft Exchange 集成。**   在部署存档时，您可以将数据存储与托管在 exchange 2013 上的所有用户的现有 Exchange 2013 存储集成在一起，并将其邮箱置于就地保留状态，因此无需部署单独的 SQL Server 数据库来存档 Lync 数据。 如果您没有 Exchange 2013 部署，或者您不希望与它集成，或者如果您有任何 Lync 2013 用户（这些用户未驻留在 Exchange 2013 中）并将其邮箱置于就地保留状态，则可以使用 SQL Server 将单独的存档数据库部署到 stor来自 Lync 通信的 e 存档数据。 如果要对部署中的某些而不是所有用户使用 Microsoft Exchange 集成，则可以使用 Microsoft Exchange 集成和 Lync Server 2013 存档数据库。 有关就地保留的详细信息，请参阅处[https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500)的 "就地保留"。
 
   - **SQL 存储镜像。**   在部署存档时，可以为存档数据库启用 SQL Server 数据库镜像。
 

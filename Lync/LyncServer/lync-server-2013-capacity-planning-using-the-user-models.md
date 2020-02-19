@@ -12,18 +12,18 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab2b7026ca49f8e12a5f8b67aa0780996feaebe1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 664091baee67d0ddf953d8a114370fdb875eef29
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036482"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135539"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>使用用户模型对 Lync Server 2013 进行容量规划
 
@@ -220,7 +220,7 @@ _**上次修改的主题：** 2014-01-14_
 
 
 > [!NOTE]  
-> 若要改善在前端服务器上归置的 A/V 会议和中介服务器功能的媒体性能，应在前端服务器上的网络适配器上启用接收方缩放（RSS）。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅中的 "在<A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008 中接收端扩展功能增强"。 有关如何启用 RSS 的详细信息，请参阅网络适配器文档。
+> 若要改善在前端服务器上归置的 A/V 会议和中介服务器功能的媒体性能，应在前端服务器上的网络适配器上启用接收方缩放（RSS）。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅中的 "在<A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008 中接收端扩展功能增强"。 有关如何启用 RSS 的详细信息，请参阅网络适配器文档。
 
 
 
@@ -266,7 +266,7 @@ _**上次修改的主题：** 2014-01-14_
 
 
 > [!NOTE]  
-> 要提高边缘服务器上的 A/V 会议边缘服务的性能，应在边缘服务器的网络适配器上启用接收方缩放 (RSS)。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅中的 "在<A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008 中接收端扩展功能增强"。 有关如何启用 RSS 的详细信息，请参阅网络适配器文档。
+> 要提高边缘服务器上的 A/V 会议边缘服务的性能，应在边缘服务器的网络适配器上启用接收方缩放 (RSS)。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅中的 "在<A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008 中接收端扩展功能增强"。 有关如何启用 RSS 的详细信息，请参阅网络适配器文档。
 
 
 
@@ -396,7 +396,7 @@ _**上次修改的主题：** 2014-01-14_
 
 
 > [!NOTE]  
-> 若要提高中介服务器的性能，应在中介服务器上的网络适配器上启用接收方缩放（RSS）。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅中的 "在<A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008 中接收端扩展功能增强"。 有关如何启用 RSS 的详细信息，请参阅网络适配器文档。
+> 若要提高中介服务器的性能，应在中介服务器上的网络适配器上启用接收方缩放（RSS）。 通过启用 RSS，服务器上的多个处理器能够以并行方式处理传入数据包。 有关详细信息，请参阅中的 "在<A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>Windows Server 2008 中接收端扩展功能增强"。 有关如何启用 RSS 的详细信息，请参阅网络适配器文档。
 
 
 
@@ -495,18 +495,18 @@ Microsoft 将下表中的硬件用于数据库服务器，以便在其性能测�
 </tr>
 <tr class="odd">
 <td><p>CDR 数据库日志文件</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>双面</p></td>
 </tr>
 <tr class="even">
 <td><p>QoE 数据库日志文件</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>双面</p></td>
 </tr>
 <tr class="odd">
 <td><p>存档数据库日志文件</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>双面</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969643
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67a0355d32e5e704d6609335c82f8cfe1fe7aa86
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03a819fad54bbd19be842f7ae28f655186135b50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029283"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134478"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="as-needed-tasks-in-lync-server-2013"></a>Lync Server 2013 中的必需任务
 
@@ -103,7 +103,7 @@ _**上次修改的主题：** 2014-08-18_
     
       - 删除 Lync Server 用户
 
-  - **分析 Lync server 2013 日志文件**   一种非常有用的工具，通常用于故障排除，是在[使用 lync server 2013 日志记录工具](http://technet.microsoft.com/library/gg558599.aspx)时详细介绍的 Lync server 2013 日志记录工具。
+  - **分析 Lync server 2013 日志文件**   一种非常有用的工具，通常用于故障排除，是在[使用 lync server 2013 日志记录工具](https://technet.microsoft.com/library/gg558599.aspx)时详细介绍的 Lync server 2013 日志记录工具。
 
 由于日志记录工具生成日志文件（针对每个服务器），如果计算机上安装了 Microsoft Office Server 12 资源工具包工具，则可以使用 Snooper.exe 工具查看和分析这些日志文件。 此外，还可以使用文本编辑器来分析日志，这与使用 Snooper.exe 实用工具相比，透明程度更低且更复杂。
 

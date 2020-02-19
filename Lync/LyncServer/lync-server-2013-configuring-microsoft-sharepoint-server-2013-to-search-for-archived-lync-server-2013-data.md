@@ -12,18 +12,18 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8debab39073bf31f509ec504f944c8e4c7a9dfc3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 04e9599e0790c3d3468273ba27ea26f28ed3d766
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008414"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-microsoft-sharepoint-server-2013-to-search-for-archived-microsoft-lync-server-2013-data"></a>配置 Microsoft SharePoint Server 2013 以搜索存档的 Microsoft Lync Server 2013 数据
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2014-02-04_
 
 将即时消息和 Web 会议脚本存储在 Microsoft Exchange Server 2013 而不是 Microsoft Lync Server 2013 中的主要优势之一是，将数据存储在相同位置，使管理员能够使用单个工具搜索已存档的 Exchange 数据和/或存档的 Lync Server 数据。 由于所有数据都存储在相同的位置（Exchange），因此任何可以搜索存档的 Exchange 数据的工具也可以搜索存档的 Lync Server 数据。
 
-一种便于搜索存档数据的工具是 Microsoft SharePoint Server 2013。 如果要使用 SharePoint 搜索 Lync Server 数据，则必须先完成在 Lync Server 中配置 Exchange 存档所涉及的所有步骤。 成功集成 Exchange 2013 和 Lync Server 2013 之后，您必须在 SharePoint 服务器上安装 Exchange Web 服务托管 API 版本 2.0;可以从 Microsoft 下载中心（[http://go.microsoft.com/fwlink/p/?LinkId=258305](http://go.microsoft.com/fwlink/p/?linkid=258305)）下载该 API 的安装程序。 下载的文件 (EWSManagedAPI.msi) 可以保存到 SharePoint 服务器上的任何文件夹。
+一种便于搜索存档数据的工具是 Microsoft SharePoint Server 2013。 如果要使用 SharePoint 搜索 Lync Server 数据，则必须先完成在 Lync Server 中配置 Exchange 存档所涉及的所有步骤。 成功集成 Exchange 2013 和 Lync Server 2013 之后，您必须在 SharePoint 服务器上安装 Exchange Web 服务托管 API 版本 2.0;可以从 Microsoft 下载中心（[https://go.microsoft.com/fwlink/p/?LinkId=258305](https://go.microsoft.com/fwlink/p/?linkid=258305)）下载该 API 的安装程序。 下载的文件 (EWSManagedAPI.msi) 可以保存到 SharePoint 服务器上的任何文件夹。
 
 下载文件后，在 SharePoint 服务器上完成以下过程：
 

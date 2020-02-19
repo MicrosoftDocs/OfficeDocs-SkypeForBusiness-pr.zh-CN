@@ -12,18 +12,18 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7000456629a91742350b9866dc9e1441c18eee57
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0561c2d6b36090a9499abf360373cf0468cdbda8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030866"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部用户访问的证书要求
 
@@ -41,7 +41,7 @@ Microsoft Lync Server 2013 通信软件支持对访问和 web 会议边缘外部
 
 以下是用于访问、Web 会议边缘外部接口以及 A/V 身份验证服务的公共证书的要求：
 
-  - 证书必须由经过批准的公共 CA 颁发，且该 CA 支持使用者替代名称。 有关详细信息，请参阅 Microsoft 知识库文章 929395 "Exchange Server 和通信服务器的统一通信证书合作伙伴"，网址[http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)为。
+  - 证书必须由经过批准的公共 CA 颁发，且该 CA 支持使用者替代名称。 有关详细信息，请参阅 Microsoft 知识库文章 929395 "Exchange Server 和通信服务器的统一通信证书合作伙伴"，网址[https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)为。
 
   - 如果证书要在边缘池上使用，必须将其创建为可导出的证书，并在边缘池中的每台边缘服务器上使用相同的证书。可导出的私钥要求针对的是 A/V 身份验证服务，该服务必须在池中所有边缘服务器上使用同一私钥。
 

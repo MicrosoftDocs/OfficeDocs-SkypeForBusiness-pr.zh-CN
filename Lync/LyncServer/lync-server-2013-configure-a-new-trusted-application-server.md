@@ -12,18 +12,18 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e370c229442d90d6e962f0d73efbf4b94038926a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5878c1375c5efb650e29b70a645c48dac6d920f4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048155"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42133967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-a-new-trusted-application-server-in-lync-server-2013"></a>在 Lync Server 2013 中配置新的受信任应用程序服务器
 
@@ -37,7 +37,7 @@ ms.locfileid: "42048155"
 
 _**上次修改的主题：** 2012-11-01_
 
-受信任的应用程序是基于 Microsoft Lync Server 2013 信任的 Microsoft 统一通信托管 API （UCMA）3.0 核心 SDK 的应用程序。 有关 UCMA 应用程序的详细信息，请参阅中的 "统一通信托管 API 3.0 [http://go.microsoft.com/fwlink/p/?linkId=210320](http://go.microsoft.com/fwlink/p/?linkid=210320)核心 SDK 文档"。
+受信任的应用程序是基于 Microsoft Lync Server 2013 信任的 Microsoft 统一通信托管 API （UCMA）3.0 核心 SDK 的应用程序。 有关 UCMA 应用程序的详细信息，请参阅中的 "统一通信托管 API 3.0 [https://go.microsoft.com/fwlink/p/?linkId=210320](https://go.microsoft.com/fwlink/p/?linkid=210320)核心 SDK 文档"。
 
 有关配置 Microsoft Outlook Web Access （OWA）和 Lync Server 2013 的信息，请参阅 Microsoft Exchange Server 2013 文档中的 "配置 Outlook Web App 和 Lync Server 2010 集成"。
 
