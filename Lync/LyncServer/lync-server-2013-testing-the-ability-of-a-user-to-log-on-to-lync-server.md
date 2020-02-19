@@ -12,18 +12,18 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b40479bc11fc1f46062423d63876b33d9c179aa
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71629cb844b8f65ab6f54c0d604fad0d152705d6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048603"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>测试用户登录到 Lync Server 2013 的能力
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 CsRegistration cmdlet 使您能够验证组织中的用户是否可以登录 Lync Server。 运行 CsRegistration 时，cmdlet 会尝试将测试用户登录到 Lync Server，然后，如果成功，则断开该测试用户与系统的连接。 所有这些无需用户进行任何干预，并且不会影响任何真实用户。 例如，假设测试帐户 sip:kenmyer@litwareinc.com 与具有实际 Lync Server 帐户的真实用户相对应。 在该情况下，执行测试不会对真实的 Ken Myer 造成任何干扰。 在 Ken Myer 测试帐户从系统中注销后，Ken Myer 本人还继续处于登录状态。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2885b3610c1edce441c6abbd93a2515fa6cb904
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bf3e665e0031596bc2db2273882aef379a96f2e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028663"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>在运行 Microsoft Exchange Server 统一消息的服务器上配置证书
 
@@ -130,7 +130,7 @@ _**上次修改的主题：** 2012-09-26_
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>使用 Lync Server 配置 Exchange Server 2013 UM
 
-1.  有关详细信息，请参阅 Exchange Server 文档中的 "将 Exchange 2013 UM 与 Lync Server [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)集成"。
+1.  有关详细信息，请参阅 Exchange Server 文档中的 "将 Exchange 2013 UM 与 Lync Server [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)集成"。
 
 </div>
 
@@ -177,13 +177,13 @@ _**上次修改的主题：** 2012-09-26_
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>在 Exchange Server 2010 上创建证书
 
-1.  使用适当的用户权限登录到运行 Exchange UM 的服务器。 有关详细信息，请参阅中的 "客户[http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)端访问权限"。
+1.  使用适当的用户权限登录到运行 Exchange UM 的服务器。 有关详细信息，请参阅中的 "客户[https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)端访问权限"。
 
 2.  请参阅以下过程来创建证书：
     
-    1.  "在处创建新的 Exchange 证书"[http://go.microsoft.com/fwlink/p/?linkId=195494](http://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  "在处创建新的 Exchange 证书"[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  "导入 Exchange 证书"[http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  "导入 Exchange 证书"[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +236,9 @@ _**上次修改的主题：** 2012-09-26_
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>在 Exchange Server 2010 上分配证书
 
-1.  使用适当的用户权限登录到运行 Exchange UM 的服务器。 有关详细信息，请参阅中的 "客户[http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)端访问权限"。
+1.  使用适当的用户权限登录到运行 Exchange UM 的服务器。 有关详细信息，请参阅中的 "客户[https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)端访问权限"。
 
-2.  有关分配证书的过程，请参阅处[http://go.microsoft.com/fwlink/p/?linkId=195497](http://go.microsoft.com/fwlink/p/?linkid=195497)的 "将服务分配给证书"。
+2.  有关分配证书的过程，请参阅处[https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)的 "将服务分配给证书"。
 
 </div>
 

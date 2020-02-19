@@ -12,18 +12,18 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5ce6be2a3fce1f334e9e4b1d14ea41a3dd57a6e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8400d62560b1b599a7763f8582fd21da23e6948f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028643"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-dfs-file-storage-for-lync-server-2013"></a>为 Lync Server 2013 配置 DFS 文件存储
 
@@ -37,7 +37,7 @@ ms.locfileid: "42028643"
 
 _**上次修改的主题：** 2016-05-23_
 
-Lync Server 2013 支持在分布式文件系统（DFS）上使用文件共享。 有关适用于 Windows Server 2008 的 DFS 的详细信息，请参阅 Windows Server 2008 at [http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835)的 Dfs 分步指南。若要使用 DFS，Lync Server 2013 需要满足以下条件：
+Lync Server 2013 支持在分布式文件系统（DFS）上使用文件共享。 有关适用于 Windows Server 2008 的 DFS 的详细信息，请参阅 Windows Server 2008 at [https://go.microsoft.com/fwlink/p/?linkId=202835](https://go.microsoft.com/fwlink/p/?linkid=202835)的 Dfs 分步指南。若要使用 DFS，Lync Server 2013 需要满足以下条件：
 
   - 命名空间基于域
 

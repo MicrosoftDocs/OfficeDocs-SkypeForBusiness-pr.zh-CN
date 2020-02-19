@@ -12,18 +12,18 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff28fa3ba945c49bee6e5474cb841886bb54d8a0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6022d7651a99c2165961ed8cb8852048c10779ff
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041979"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>在 Lync Server 2013 中测试统一联系人存储区访问
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2015-05-15_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 Lync Server 2013 中引入的统一联系人存储使管理员可以选择将用户的联系人存储在 Microsoft Exchange Server 2013 中，而不是在 Lync Server 中。 这样，除了 Lync 2013 之外，用户还可以访问 Outlook Web Access 中的一组相同的联系人。 （或者，您可以继续在 Lync Server 中存储联系人。 在这种情况下，用户将必须维护两组独立的联系人：一个用于 Outlook 和 Outlook Web Access，另一个用于 Lync 2013。）
 

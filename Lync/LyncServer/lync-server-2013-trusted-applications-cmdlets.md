@@ -12,18 +12,18 @@ ms:contentKeyID: 48184071
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca3abaa9817095e2c125affa240c3e5f4d44e9db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 037af965f87c0ec156bc4f3d41fd298cb61b113f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044004"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="trusted-applications-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的受信任的应用程序 cmdlet
 
@@ -105,7 +105,7 @@ _**上次修改的主题：** 2012-06-20_
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

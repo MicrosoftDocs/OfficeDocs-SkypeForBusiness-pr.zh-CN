@@ -12,18 +12,18 @@ ms:contentKeyID: 63969660
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0094c0b58281027f24d4cd902a4e0813c7e45f96
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b7a98312c04b943d485e1c6668b1c9347c9714e1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044814"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141298"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>在 Lync Server 2013 中测试会议中的共享
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 在 Lync Server 2013 中，数据会议是指使用协作活动（如白板或批注）的任何会议。 **CsDataConference** cmdlet 使您能够验证一对用户是否能够参与数据会议。
 

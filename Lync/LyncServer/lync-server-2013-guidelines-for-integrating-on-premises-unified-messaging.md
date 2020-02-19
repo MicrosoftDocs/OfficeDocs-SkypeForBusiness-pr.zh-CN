@@ -12,18 +12,18 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1be763250edf7222b900aef88665b3e360e8125c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e8e4e325ba766967292c24f2a3b62ec233a73ec5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006218"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140265"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>集成本地统一消息和 Lync Server 2013 的准则
 
@@ -115,13 +115,13 @@ _**上次修改的主题：** 2012-09-25_
 
 在示例 2 中，一般操作情况下，Tukwila 数据中心启用了 Exchange UM 服务器 1 和 2，Dublin 数据中心启用了 Exchange UM 服务器 3 和 4。Tukwila 用户的 SIP URI 拨号计划中包含全部四台服务器；但服务器 3 和 4 已被禁用。如果 Tukwila 发生 Exchange UM 中断，则应禁用 Exchange UM 服务器 1 和 2，并启用 Exchange UM 服务器 3 和 4，这样才会将 Tukwila Exchange UM 流量路由至 Dublin 的服务器。
 
-有关如何在 Exchange 2013 上启用或禁用统一消息的详细信息，请参阅位于上[http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)的 "将 EXCHANGE 2013 UM 与 Lync Server 集成"。
+有关如何在 Exchange 2013 上启用或禁用统一消息的详细信息，请参阅位于上[https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)的 "将 EXCHANGE 2013 UM 与 Lync Server 集成"。
 
 有关如何在 Microsoft Exchange Server 2010 上启用或禁用统一消息的详细信息，请参阅：
 
-  - "在[http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418)Exchange 2010 上启用统一消息"。
+  - "在[https://go.microsoft.com/fwlink/p/?LinkId=204418](https://go.microsoft.com/fwlink/p/?linkid=204418)Exchange 2010 上启用统一消息"。
 
-  - "在[http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416)Exchange 2010 上禁用统一消息"。
+  - "在[https://go.microsoft.com/fwlink/p/?LinkId=204416](https://go.microsoft.com/fwlink/p/?linkid=204416)Exchange 2010 上禁用统一消息"。
 
 </div>
 

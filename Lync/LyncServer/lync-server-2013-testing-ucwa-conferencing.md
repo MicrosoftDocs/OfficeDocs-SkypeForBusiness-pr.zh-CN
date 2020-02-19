@@ -12,18 +12,18 @@ ms:contentKeyID: 63969610
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c5daad2d43cf5a7e61dd0e87fac79eb98b9c82e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8855abbb92accbae66048905869f20958e128019
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038104"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141238"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>在 Lync Server 2013 中测试 UCWA 会议
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 **Test-csucwaconference** cmdlet 验证一对测试用户是否可以使用统一通信 Web API （UCWA）安排、加入并执行联机会议。 为此，该 cmdlet 使用 Lync Server web 票证服务对两个测试用户进行身份验证，并将其注册到 Lync Server。 然后，此 cmdlet 使用组织者凭据启动会议，并邀请参与者加入会议。 在加入会议后， **test-csucwaconference** cmdlet 将验证用户是否可以执行 exchange 即时消息和执行池操作，然后断开会议并注销这两个测试用户。 在测试完成后，也会删除计划的会议。
 

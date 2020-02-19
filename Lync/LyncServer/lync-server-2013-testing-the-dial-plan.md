@@ -12,18 +12,18 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c35d204a8a3fa16ff38dbcce89c0c8f36da2039
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 14c8e53b0b18ae7813cf0f2d63aaa54ffbd4998b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048563"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141278"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-the-dial-plan-in-lync-server-2013"></a>在 Lync Server 2013 中测试拨号计划
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 Grant-csdialplan cmdlet 使您能够查看将拨号计划应用于给定电话号码的结果。 拨号计划提供的信息（如应用规范化规则的方式），使企业语音用户可以打电话。 给定一个已拨电话和拨号计划，此 cmdlet 将验证应用该拨号计划中的哪个规范化规则以及转换后的号码是什么。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba88fdce88280597e9e621c13267de2b9b76d0fb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8cae5fdb813f7f58889dd1305b117f0e07ff294e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030355"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="group-policy-settings-for-lync-2013"></a>Lync 2013 的组策略设置
 
@@ -37,7 +37,7 @@ ms.locfileid: "42030355"
 
 _**上次修改的主题：** 2012-10-03_
 
-在早期版本的 Lync 和 Office Communicator 中，独立的 Communicator 管理模板可用于配置客户端组策略设置。 对于 Lync 2013，新的管理模板文件（admx 和 adml 文件）与 Office 组策略管理模板一起包含在一起。 Lync 2013 admx 和. adml 文件的可用性允许您下载模板并集中管理所有 Office 程序和语言包的组策略设置。 有关详细信息，请参阅 Office 2013 文档中的 "Office 2013 管理模板文件（ADMX、ADML） <http://go.microsoft.com/fwlink/p/?linkid=267516>"。
+在早期版本的 Lync 和 Office Communicator 中，独立的 Communicator 管理模板可用于配置客户端组策略设置。 对于 Lync 2013，新的管理模板文件（admx 和 adml 文件）与 Office 组策略管理模板一起包含在一起。 Lync 2013 admx 和. adml 文件的可用性允许您下载模板并集中管理所有 Office 程序和语言包的组策略设置。 有关详细信息，请参阅 Office 2013 文档中的 "Office 2013 管理模板文件（ADMX、ADML） <https://go.microsoft.com/fwlink/p/?linkid=267516>"。
 
 <div>
 

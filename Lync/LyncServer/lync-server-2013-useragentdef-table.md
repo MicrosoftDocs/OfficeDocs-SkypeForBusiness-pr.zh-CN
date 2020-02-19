@@ -12,18 +12,18 @@ ms:contentKeyID: 48184860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0996abb7098ba636fc31d27388257f570a549ce2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b7f63c9e5194c2b75ea6f637acec7201c86178e4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007591"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="useragentdef-table-in-lync-server-2013"></a>Lync Server 2013 中的 UserAgentDef 表
 
@@ -55,17 +55,17 @@ UserAgentDef 表将用户代理标识符映射到代理的描述性名称。 用
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>MediationServer</p></td>
 <td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 <td><p>AV-MCU</p></td>
 <td><p>AV-MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>OC</p></td>
 <td><p>OC</p></td>
 </tr>

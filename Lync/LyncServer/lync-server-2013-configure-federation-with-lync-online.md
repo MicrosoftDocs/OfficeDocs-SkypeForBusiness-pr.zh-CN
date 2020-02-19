@@ -12,18 +12,18 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb679f8bf0fae046bea0177daab22203bbf9aef1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a1bfa1b472ee2375c609a9410ba76d2eefad918
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028533"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140325"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-federation-of-lync-server-2013-with-lync-online"></a>使用 Lync Online 配置 Lync Server 2013 联盟
 
@@ -71,7 +71,7 @@ Move-Get-csuser： HostedMigration fault： Error = （510），Description = �
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-若要建立与 Skype for Business Online 的远程 PowerShell 会话，首先需要安装可在此处获取的适用于 Windows PowerShell 的 Skype for Business Online 模块： [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911)。
+若要建立与 Skype for Business Online 的远程 PowerShell 会话，首先需要安装可在此处获取的适用于 Windows PowerShell 的 Skype for Business Online 模块： [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911)。
 
 安装该模块后，可以使用以下 cmdlet 建立远程会话：
 

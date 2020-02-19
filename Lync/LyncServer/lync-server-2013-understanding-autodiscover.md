@@ -12,18 +12,18 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f57dd0158f4a9b6c798d1b968353e5f84b55d46e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 033f3a12ccbe0817f586aa7eb868679fa44541fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046105"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="understanding-autodiscover-in-lync-server-2013"></a>了解 Lync Server 2013 中的自动发现
 
@@ -59,7 +59,7 @@ Lync Server 2013 自动发现服务是最初在 Microsoft Lync Server 2010 中�
 
 
 > [!NOTE]  
-> Lync 自动发现 Web 服务在 microsoft<STRONG>开发人员网络</STRONG>（MSDN）库的 "<STRONG>打开规范</STRONG>" 部分中的 " <STRONG>microsoft Office 协议</STRONG>" 中定义。 有关详细信息，请参阅： <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>中的完整规范文档 "Lync 自动发现 Web 服务协议"。 有关身份验证的详细信息，请参阅处<A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>的 "OC 身份验证 Web 服务协议"。
+> Lync 自动发现 Web 服务在 microsoft<STRONG>开发人员网络</STRONG>（MSDN）库的 "<STRONG>打开规范</STRONG>" 部分中的 " <STRONG>microsoft Office 协议</STRONG>" 中定义。 有关详细信息，请参阅： <A href="https://go.microsoft.com/fwlink/?linkid=273839">https://go.microsoft.com/fwlink/?LinkId=273839</A>中的完整规范文档 "Lync 自动发现 Web 服务协议"。 有关身份验证的详细信息，请参阅处<A href="https://go.microsoft.com/fwlink/?linkid=279015">https://go.microsoft.com/fwlink/?LinkId=279015</A>的 "OC 身份验证 Web 服务协议"。
 
 
 

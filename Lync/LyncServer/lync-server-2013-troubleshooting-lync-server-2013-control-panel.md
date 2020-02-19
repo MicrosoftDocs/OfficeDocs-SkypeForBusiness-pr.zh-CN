@@ -12,18 +12,18 @@ ms:contentKeyID: 48184145
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87ad05798dab0f324a44a4c41807e8acb6105927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07e670dc0871490e513023d3276ad80126be173b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038074"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="troubleshooting-lync-server-2013-control-panel"></a>Lync Server 2013 控制面板疑难解答
 
@@ -55,7 +55,7 @@ Lync Server 控制面板要求安装 Microsoft Silverlight 浏览器插件版本
 
 </div>
 
-如果你的 Internet 浏览器由于安全考虑而阻止安装 Silverlight，请将打开 Lync Server 控制面板的统一资源定位器（URL）添加到受信任的网站列表中。 在 Internet Explorer 安全设置中，确保“运行 ActiveX 控件和插件”**** 设置为“已启用”****。 有关详细信息， [http://go.microsoft.com/fwlink/p/?linkId=214060](http://go.microsoft.com/fwlink/p/?linkid=214060)请参阅。 此外，请确保浏览器配置为使用 SSL 3.0。
+如果你的 Internet 浏览器由于安全考虑而阻止安装 Silverlight，请将打开 Lync Server 控制面板的统一资源定位器（URL）添加到受信任的网站列表中。 在 Internet Explorer 安全设置中，确保“运行 ActiveX 控件和插件”**** 设置为“已启用”****。 有关详细信息， [https://go.microsoft.com/fwlink/p/?linkId=214060](https://go.microsoft.com/fwlink/p/?linkid=214060)请参阅。 此外，请确保浏览器配置为使用 SSL 3.0。
 
 如果 Internet 浏览器配置为使用代理浏览器，请验证浏览器是否配置为绕过自动检测为内部站点的代理服务器。或者，将地址添加到代理服务器配置设置中的浏览器例外列表中。
 

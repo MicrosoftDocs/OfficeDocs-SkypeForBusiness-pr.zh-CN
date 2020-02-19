@@ -12,18 +12,18 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d42dbd967f90b6e2a905b92558c88fe52ef62d7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 717f4e9686574a04434889f2c44a029a02e75768
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029163"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140975"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="ucwa-events-in-lync-server-2013"></a>Lync Server 2013 中的 UCWA 事件
 
@@ -55,7 +55,7 @@ UCWA 会将操作行为的记录编写为事件类型信息、警告和错误。
 <tr class="header">
 <th>事件 ID</th>
 <th>事件类型</th>
-<th>摘要</th>
+<th>总结</th>
 <th>原因和解决方法</th>
 </tr>
 </thead>
