@@ -12,18 +12,18 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45781238f7fb8aa461e050f2e8f0cbf04e45a950
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 81c1698d576188a8bd87f94e5c61060267bf0fab
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038174"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-database-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中测试数据库配置
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2016-07-07_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 **CsDatabase** cmdlet 验证与一个或多个 Lync Server 2013 数据库的连接。 在运行时， **CsDatabase** cmdlet 会读取 Lync Server 拓扑，尝试连接到相关数据库，然后报告每次尝试成功或失败。 如果可以建立连接，该 cmdlet 还将返回数据库名称、SQL Server 版本以及所有已安装的镜像数据库的位置等信息。
 

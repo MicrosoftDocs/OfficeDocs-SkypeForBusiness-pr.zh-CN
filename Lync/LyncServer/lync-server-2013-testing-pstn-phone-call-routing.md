@@ -12,18 +12,18 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 750efc8ced1dbb4c048d10c879f0bfa2dd4a4f32
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8b831aef01d80a0d68a0eea06f429502026b7ccb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050224"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>在 Lync Server 2013 中测试 PSTN 电话呼叫路由
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 **Test-csintertrunkrouting** cmdlet 验证是否可以将呼叫从一个 SIP 路由到另一个 SIP。 为此，将为 cmdlet 提供一个电话号码和一个中继配置。 然后， **test-csintertrunkrouting**将报告针对指定号码的反向匹配路由和匹配 PSTN 用法。 请注意，仅当中继具有匹配指定电话号码的号码模式并且中继至少共享一个 PSTN 用法时，才能在中继之间进行路由。
 

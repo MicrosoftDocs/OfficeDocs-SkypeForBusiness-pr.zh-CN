@@ -12,18 +12,18 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efc07ff877d5692c2871a8b0481233d3bd8c58b6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1c1b1e1a5b13ace725d0fa38a5c2f4b5227cf0ae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045574"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-lync-client-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Lync 客户端身份验证
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 CsClientAuth cmdlet 使您能够确定用户是否可以使用客户端证书登录 Lync Server，您可以运行 CsClientAuth cmdlet。 呼叫 Test-CsClientAuth 之后，cmdlet 将与证书提供服务联系，并下载一份指定用户的任意客户端证书。 如果可以找到并下载客户端证书，CsClientAuth 将尝试使用该证书进行登录。 如果登录成功，则 Test-CsClientAuth 将注销并报告测试成功。 如果无法找到或下载证书，或者 cmdlet 无法使用该证书登录，则 Test-CsClientAuth 将报告测试失败。
 
@@ -79,7 +79,7 @@ CsClientAuth cmdlet 是通过使用任何启用了 Lync Server 的用户的帐�
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-有关详细信息，请参阅[CsClientAuth](http://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) Cmdlet 的帮助文档。
+有关详细信息，请参阅[CsClientAuth](https://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) Cmdlet 的帮助文档。
 
 </div>
 

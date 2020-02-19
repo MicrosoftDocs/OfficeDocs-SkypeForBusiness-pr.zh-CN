@@ -12,18 +12,18 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee9869d5e7a5e3a48451478de334ee656543f6f5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 941f8830689c95fb782ac56594cd1d62785c1e1f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050264"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141348"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-persistent-chat-in-lync-server-2013"></a>在 Lync Server 2013 中测试持久聊天
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-03_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 **CsPersistentChatMessage** cmdlet 验证一对测试用户是否可以使用持久聊天服务交换邮件。 为执行此操作，cmdlet 会将两个用户记录到 Lync Server 2013，将用户连接到持久聊天室，交换一对消息，然后退出聊天室并注销两个用户。 请注意，如果您没有创建任何聊天室，或者没有为两个测试用户帐户分配可访问持久聊天服务的持久聊天策略，则调用此 cmdlet 将会失败。
 

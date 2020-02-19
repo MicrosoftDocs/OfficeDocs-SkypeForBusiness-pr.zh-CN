@@ -12,18 +12,18 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a55593bee333d03c71522bdd0a39cc91cb60882
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7f9115e6bc0c65f589effc08ecd5f7b681208a54
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037054"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>在 Lync Server 2013 中对照主街道地址指南测试市政地址
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 CsLisCivicAddress cmdlet 用于验证添加到您的位置信息服务（.LIS）数据库中的位置。 此 cmdlet 的工作原理是将位置与在属于 E9-1-1 网络路由提供程序的主街道地址指南（MSAG）中找到的位置进行比较。 如果没有网络路由提供程序或无法访问提供程序，则测试将失败。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61c172ea79e646e9deec1c56e792d4e7c4df3a26
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: adfc6e931b6553446cefb4dd3db3037baac3394e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050234"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-pstn-peer-to-peer-call-in-lync-server-2013"></a>在 Lync Server 2013 中测试 PSTN 对等呼叫
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 CsPstnPeerToPeerCall cmdlet 验证一对用户是否必须通过公用电话交换网（PSTN）网关对对等呼叫进行呼叫的能力。 在调用 CsPstnPeerToPeerCall 时，cmdlet 将首先尝试登录到 Lync Server 的两个测试用户。 如果登录成功，则 cmdlet 将使用户1尝试通过 PSTN 网关调用用户2。 CsPstnPeerToPeerCall 将使用拨号计划、语音策略以及分配给测试用户的其他策略和配置设置进行此呼叫。 如果测试按计划进行，则 cmdlet 将验证用户2是否能够应答呼叫，然后从系统中注销两个测试帐户。
 

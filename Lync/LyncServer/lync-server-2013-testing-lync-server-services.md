@@ -12,18 +12,18 @@ ms:contentKeyID: 63969644
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd9f2924d2f66e27e3893ccca0502915ee8a3e97
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 609275678edcadda11c0210c22efab1acececd43
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050214"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-lync-server-services-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Lync Server 服务
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 CsComputer 验证在本地计算机上运行的所有 Lync Server 2013 服务的状态。 （CsComputer 只能在本地运行，它不能从 Windows PowerShell 的远程实例运行。）此 cmdlet 还检查是否在计算机上打开相应的防火墙端口，并确定在安装 Lync Server 2013 时创建的 Active Directory 组是否已添加到相应的本地组。 例如，CsComputer 将验证是否已将 Active Directory 组 RTCUniversalUserAdmins 添加到 Administrators 组。
 
