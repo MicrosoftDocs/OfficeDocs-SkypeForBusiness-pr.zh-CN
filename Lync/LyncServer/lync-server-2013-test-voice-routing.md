@@ -12,20 +12,20 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b45f52a07713973d8f642389513d0e34b5236de
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: eff0d59de7822f738cc7e2253cf728690dd45b50
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018033"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-routing-in-lync-server-2013"></a><span data-ttu-id="132e5-102">在 Lync Server 2013 中测试语音路由</span><span class="sxs-lookup"><span data-stu-id="132e5-102">Test voice routing in Lync Server 2013</span></span>
+# <a name="test-voice-routing-in-lync-server-2013"></a><span data-ttu-id="952d3-102">在 Lync Server 2013 中测试语音路由</span><span class="sxs-lookup"><span data-stu-id="952d3-102">Test voice routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42018033"
 
 <span> </span>
 
-<span data-ttu-id="132e5-103">_**上次修改的主题：** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="132e5-103">_**Topic Last Modified:** 2013-02-24_</span></span>
+<span data-ttu-id="952d3-103">_**上次修改的主题：** 2013-02-24_</span><span class="sxs-lookup"><span data-stu-id="952d3-103">_**Topic Last Modified:** 2013-02-24_</span></span>
 
-<span data-ttu-id="132e5-104">您可以使用 Lync Server 控制面板 "**测试语音路由**" 选项卡配置测试用例方案。</span><span class="sxs-lookup"><span data-stu-id="132e5-104">You can use the Lync Server Control Panel **Test Voice Routing** tab to configure test case scenarios.</span></span> <span data-ttu-id="132e5-105">要定义测试用例，请指定拨号计划、语音策略、PSTN 用法和语音路由，据此测试指定的电话号码。</span><span class="sxs-lookup"><span data-stu-id="132e5-105">To define a test case, you specify the dial plan, voice policy, PSTN usage, and voice route against which to test a specified phone number.</span></span>
+<span data-ttu-id="952d3-104">您可以使用 Lync Server 控制面板 "**测试语音路由**" 选项卡配置测试用例方案。</span><span class="sxs-lookup"><span data-stu-id="952d3-104">You can use the Lync Server Control Panel **Test Voice Routing** tab to configure test case scenarios.</span></span> <span data-ttu-id="952d3-105">要定义测试用例，请指定拨号计划、语音策略、PSTN 用法和语音路由，据此测试指定的电话号码。</span><span class="sxs-lookup"><span data-stu-id="952d3-105">To define a test case, you specify the dial plan, voice policy, PSTN usage, and voice route against which to test a specified phone number.</span></span>
 
-<span data-ttu-id="132e5-106">在实际部署语音路由配置之前，我们建议您在各种电话号码上进行测试，以确保结果正是您所期望的。</span><span class="sxs-lookup"><span data-stu-id="132e5-106">Before you actually deploy your voice routing configuration, we recommend that you test it on various phone numbers to make sure that the results are what you're expecting.</span></span>
+<span data-ttu-id="952d3-106">在实际部署语音路由配置之前，我们建议您在各种电话号码上进行测试，以确保结果正是您所期望的。</span><span class="sxs-lookup"><span data-stu-id="952d3-106">Before you actually deploy your voice routing configuration, we recommend that you test it on various phone numbers to make sure that the results are what you're expecting.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="132e5-107">可以使用“导出测试用例”<STRONG></STRONG>和“导入测试用例”<STRONG></STRONG>命令保存语音路由测试用例，并在其他计算机中导入这些用例供使用。</span><span class="sxs-lookup"><span data-stu-id="132e5-107">You can use the <STRONG>Export test cases</STRONG> and <STRONG>Import test cases</STRONG> commands to save voice routing test cases and import them for use on another computer.</span></span>
+> <span data-ttu-id="952d3-107">可以使用“导出测试用例”<STRONG></STRONG>和“导入测试用例”<STRONG></STRONG>命令保存语音路由测试用例，并在其他计算机中导入这些用例供使用。</span><span class="sxs-lookup"><span data-stu-id="952d3-107">You can use the <STRONG>Export test cases</STRONG> and <STRONG>Import test cases</STRONG> commands to save voice routing test cases and import them for use on another computer.</span></span>
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "42018033"
 
 
 > [!WARNING]  
-> <span data-ttu-id="132e5-108">如果删除语音路由配置中的部分内容，如拨号计划、语音策略、语音路由或电话用法，应检查并更新语音路由测试用例。</span><span class="sxs-lookup"><span data-stu-id="132e5-108">If you delete any part of your voice routing configuration, such as a dial plan, voice policy, voice route, or phone usage, you should review and update your voice routing test cases.</span></span> <span data-ttu-id="132e5-109">Lync Server 控制面板不会提醒你由于配置发生变化而不再有效的测试用例。</span><span class="sxs-lookup"><span data-stu-id="132e5-109">The Lync Server Control Panel will not alert you to test cases that are no longer valid due to changed configurations.</span></span>
+> <span data-ttu-id="952d3-108">如果删除语音路由配置中的部分内容，如拨号计划、语音策略、语音路由或电话用法，应检查并更新语音路由测试用例。</span><span class="sxs-lookup"><span data-stu-id="952d3-108">If you delete any part of your voice routing configuration, such as a dial plan, voice policy, voice route, or phone usage, you should review and update your voice routing test cases.</span></span> <span data-ttu-id="952d3-109">Lync Server 控制面板不会提醒你由于配置发生变化而不再有效的测试用例。</span><span class="sxs-lookup"><span data-stu-id="952d3-109">The Lync Server Control Panel will not alert you to test cases that are no longer valid due to changed configurations.</span></span>
 
 
 
@@ -63,15 +63,15 @@ ms.locfileid: "42018033"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="132e5-110">本部分内容</span><span class="sxs-lookup"><span data-stu-id="132e5-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="952d3-110">本部分内容</span><span class="sxs-lookup"><span data-stu-id="952d3-110">In This Section</span></span>
 
-  - [<span data-ttu-id="132e5-111">在 Lync Server 2013 中创建语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="132e5-111">Create a voice routing test case in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-routing-test-case.md)
+  - [<span data-ttu-id="952d3-111">在 Lync Server 2013 中创建语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="952d3-111">Create a voice routing test case in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-routing-test-case.md)
 
-  - [<span data-ttu-id="132e5-112">在 Lync Server 2013 中导出语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="132e5-112">Export voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-export-voice-routing-test-cases.md)
+  - [<span data-ttu-id="952d3-112">在 Lync Server 2013 中导出语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="952d3-112">Export voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-export-voice-routing-test-cases.md)
 
-  - [<span data-ttu-id="132e5-113">在 Lync Server 2013 中导入语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="132e5-113">Import voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-import-voice-routing-test-cases.md)
+  - [<span data-ttu-id="952d3-113">在 Lync Server 2013 中导入语音路由测试用例</span><span class="sxs-lookup"><span data-stu-id="952d3-113">Import voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-import-voice-routing-test-cases.md)
 
-  - [<span data-ttu-id="132e5-114">在 Lync Server 2013 中运行语音路由测试</span><span class="sxs-lookup"><span data-stu-id="132e5-114">Running voice routing tests in Lync Server 2013</span></span>](lync-server-2013-running-voice-routing-tests.md)
+  - [<span data-ttu-id="952d3-114">在 Lync Server 2013 中运行语音路由测试</span><span class="sxs-lookup"><span data-stu-id="952d3-114">Running voice routing tests in Lync Server 2013</span></span>](lync-server-2013-running-voice-routing-tests.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82c44cf7cff78fc93054679ae1bc4c66bc6b4c40
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8a84e952f9c23fc95d3856b73697a049768ea179
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42016233"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a><span data-ttu-id="8016f-102">从 Lync Server 2013 中连接到联盟域的测试能力</span><span class="sxs-lookup"><span data-stu-id="8016f-102">Testing ability to connect to a federated domain from Lync Server 2013</span></span>
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a><span data-ttu-id="99291-102">从 Lync Server 2013 中连接到联盟域的测试能力</span><span class="sxs-lookup"><span data-stu-id="99291-102">Testing ability to connect to a federated domain from Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42016233"
 
 <span> </span>
 
-<span data-ttu-id="8016f-103">_**上次修改的主题：** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="8016f-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="99291-103">_**上次修改的主题：** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="99291-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42016233"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8016f-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="8016f-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="8016f-105">每天</span><span class="sxs-lookup"><span data-stu-id="8016f-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="99291-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="99291-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="99291-105">每天</span><span class="sxs-lookup"><span data-stu-id="99291-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8016f-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="8016f-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="8016f-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="8016f-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="99291-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="99291-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="99291-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="99291-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8016f-108">所需的权限</span><span class="sxs-lookup"><span data-stu-id="8016f-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="8016f-109">在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="8016f-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="8016f-110">使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsFederatedPartner cmdlet 的权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="8016f-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsFederatedPartner cmdlet.</span></span> <span data-ttu-id="8016f-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="8016f-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="99291-108">所需的权限</span><span class="sxs-lookup"><span data-stu-id="99291-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="99291-109">在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="99291-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="99291-110">使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsFederatedPartner cmdlet 的权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="99291-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsFederatedPartner cmdlet.</span></span> <span data-ttu-id="99291-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="99291-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,67 +64,67 @@ ms.locfileid: "42016233"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="8016f-112">说明</span><span class="sxs-lookup"><span data-stu-id="8016f-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="99291-112">说明</span><span class="sxs-lookup"><span data-stu-id="99291-112">Description</span></span>
 
-<span data-ttu-id="8016f-113">Test-CsFederatedPartner 验证您能否连接到联盟伙伴的域。</span><span class="sxs-lookup"><span data-stu-id="8016f-113">Test-CsFederatedPartner verifies your ability to connect to the domain of a federated partner.</span></span> <span data-ttu-id="8016f-114">若要验证与某个域的连接，该域必须列在允许（联合）域的集合中。</span><span class="sxs-lookup"><span data-stu-id="8016f-114">To verify the connectivity to a domain, that domain must be listed in the collection of allowed (federated) domains.</span></span> <span data-ttu-id="8016f-115">您可以使用以下命令检索 "允许的域" 列表中的域列表：</span><span class="sxs-lookup"><span data-stu-id="8016f-115">You can retrieve a list of the domains on your allowed domains list by using this command:</span></span>
+<span data-ttu-id="99291-113">Test-CsFederatedPartner 验证您能否连接到联盟伙伴的域。</span><span class="sxs-lookup"><span data-stu-id="99291-113">Test-CsFederatedPartner verifies your ability to connect to the domain of a federated partner.</span></span> <span data-ttu-id="99291-114">若要验证与某个域的连接，该域必须列在允许（联合）域的集合中。</span><span class="sxs-lookup"><span data-stu-id="99291-114">To verify the connectivity to a domain, that domain must be listed in the collection of allowed (federated) domains.</span></span> <span data-ttu-id="99291-115">您可以使用以下命令检索 "允许的域" 列表中的域列表：</span><span class="sxs-lookup"><span data-stu-id="99291-115">You can retrieve a list of the domains on your allowed domains list by using this command:</span></span>
 
     Get-CsAllowedDomain
 
-<span data-ttu-id="8016f-116">有关详细信息，请参阅[CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="8016f-116">For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.</span></span>
+<span data-ttu-id="99291-116">有关详细信息，请参阅[CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="99291-116">For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="8016f-117">运行测试</span><span class="sxs-lookup"><span data-stu-id="8016f-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="99291-117">运行测试</span><span class="sxs-lookup"><span data-stu-id="99291-117">Running the test</span></span>
 
-<span data-ttu-id="8016f-118">FederatedPartner cmdlet 需要以下两条信息：边缘服务器的 FQDN 和联盟伙伴的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="8016f-118">The Test-FederatedPartner cmdlet requires two pieces of information: the FQDN of your Edge Server and the FQDN of the federated partner.</span></span> <span data-ttu-id="8016f-119">例如，以下命令将测试连接到域 contoso.com 的能力：</span><span class="sxs-lookup"><span data-stu-id="8016f-119">For example, this command tests the ability to connect to the domain contoso.com:</span></span>
+<span data-ttu-id="99291-118">FederatedPartner cmdlet 需要以下两条信息：边缘服务器的 FQDN 和联盟伙伴的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="99291-118">The Test-FederatedPartner cmdlet requires two pieces of information: the FQDN of your Edge Server and the FQDN of the federated partner.</span></span> <span data-ttu-id="99291-119">例如，以下命令将测试连接到域 contoso.com 的能力：</span><span class="sxs-lookup"><span data-stu-id="99291-119">For example, this command tests the ability to connect to the domain contoso.com:</span></span>
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
-<span data-ttu-id="8016f-120">通过此命令，您可以测试与当前允许的域列表中的所有域的连接：</span><span class="sxs-lookup"><span data-stu-id="8016f-120">This command enables you to test the connections to all the domains currently on your allowed domains list:</span></span>
+<span data-ttu-id="99291-120">通过此命令，您可以测试与当前允许的域列表中的所有域的连接：</span><span class="sxs-lookup"><span data-stu-id="99291-120">This command enables you to test the connections to all the domains currently on your allowed domains list:</span></span>
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
-<span data-ttu-id="8016f-121">有关详细信息，请参阅[CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="8016f-121">For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.</span></span>
+<span data-ttu-id="99291-121">有关详细信息，请参阅[CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。</span><span class="sxs-lookup"><span data-stu-id="99291-121">For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="8016f-122">确定成功或失败</span><span class="sxs-lookup"><span data-stu-id="8016f-122">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="99291-122">确定成功或失败</span><span class="sxs-lookup"><span data-stu-id="99291-122">Determining success or failure</span></span>
 
-<span data-ttu-id="8016f-123">如果可以联系指定的域，则会收到类似于以下内容的输出，并将 Result 属性标记为**成功：**</span><span class="sxs-lookup"><span data-stu-id="8016f-123">If the specified domain can be contacted, you'll receive output similar to this with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="99291-123">如果可以联系指定的域，则会收到类似于以下内容的输出，并将 Result 属性标记为**成功：**</span><span class="sxs-lookup"><span data-stu-id="99291-123">If the specified domain can be contacted, you'll receive output similar to this with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="8016f-124">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="8016f-124">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="99291-124">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="99291-124">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="8016f-125">结果：成功</span><span class="sxs-lookup"><span data-stu-id="8016f-125">Result : Success</span></span>
+<span data-ttu-id="99291-125">结果：成功</span><span class="sxs-lookup"><span data-stu-id="99291-125">Result : Success</span></span>
 
-<span data-ttu-id="8016f-126">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="8016f-126">Latency : 00:00:00</span></span>
+<span data-ttu-id="99291-126">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="99291-126">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="8016f-127">误差</span><span class="sxs-lookup"><span data-stu-id="8016f-127">Error :</span></span>
+<span data-ttu-id="99291-127">误差</span><span class="sxs-lookup"><span data-stu-id="99291-127">Error :</span></span>
 
-<span data-ttu-id="8016f-128">诊断</span><span class="sxs-lookup"><span data-stu-id="8016f-128">Diagnosis :</span></span>
+<span data-ttu-id="99291-128">诊断</span><span class="sxs-lookup"><span data-stu-id="99291-128">Diagnosis :</span></span>
 
-<span data-ttu-id="8016f-129">如果无法联系指定的域，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：</span><span class="sxs-lookup"><span data-stu-id="8016f-129">If the specified domain cannot be contacted, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="99291-129">如果无法联系指定的域，则结果将显示为 "失败"，并且会在 "错误" 和 "诊断" 属性中记录其他信息：</span><span class="sxs-lookup"><span data-stu-id="99291-129">If the specified domain cannot be contacted, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="8016f-130">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="8016f-130">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="99291-130">TargetFqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="99291-130">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="8016f-131">结果：失败</span><span class="sxs-lookup"><span data-stu-id="8016f-131">Result : Failure</span></span>
+<span data-ttu-id="99291-131">结果：失败</span><span class="sxs-lookup"><span data-stu-id="99291-131">Result : Failure</span></span>
 
-<span data-ttu-id="8016f-132">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="8016f-132">Latency : 00:00:00</span></span>
+<span data-ttu-id="99291-132">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="99291-132">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="8016f-133">错误：504，服务器超时</span><span class="sxs-lookup"><span data-stu-id="8016f-133">Error : 504, Server time-out</span></span>
+<span data-ttu-id="99291-133">错误：504，服务器超时</span><span class="sxs-lookup"><span data-stu-id="99291-133">Error : 504, Server time-out</span></span>
 
-<span data-ttu-id="8016f-134">诊断： ErrorCode = 2，Source = atl-cs-litwareinc，Reason = 参阅</span><span class="sxs-lookup"><span data-stu-id="8016f-134">Diagnosis : ErrorCode=2, Source=atl-cs-001.litwareinc.com,Reason=See</span></span>
+<span data-ttu-id="99291-134">诊断： ErrorCode = 2，Source = atl-cs-litwareinc，Reason = 参阅</span><span class="sxs-lookup"><span data-stu-id="99291-134">Diagnosis : ErrorCode=2, Source=atl-cs-001.litwareinc.com,Reason=See</span></span>
 
-<span data-ttu-id="8016f-135">响应代码和原因短语。</span><span class="sxs-lookup"><span data-stu-id="8016f-135">response code and reason phrase.</span></span>
+<span data-ttu-id="99291-135">响应代码和原因短语。</span><span class="sxs-lookup"><span data-stu-id="99291-135">response code and reason phrase.</span></span>
 
-<span data-ttu-id="8016f-136">Microsoft DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="8016f-136">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
+<span data-ttu-id="99291-136">Microsoft DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="99291-136">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
 
-<span data-ttu-id="8016f-137">例如，以前的输出表明测试因服务器超时错误而失败。</span><span class="sxs-lookup"><span data-stu-id="8016f-137">For example, the previous output states that the test failed because of a server time-out error.</span></span> <span data-ttu-id="8016f-138">这通常指示网络连接问题或联系边缘服务器时出现问题。</span><span class="sxs-lookup"><span data-stu-id="8016f-138">This typically indicates either network connectivity problems or problems contacting the Edge Server.</span></span>
+<span data-ttu-id="99291-137">例如，以前的输出表明测试因服务器超时错误而失败。</span><span class="sxs-lookup"><span data-stu-id="99291-137">For example, the previous output states that the test failed because of a server time-out error.</span></span> <span data-ttu-id="99291-138">这通常指示网络连接问题或联系边缘服务器时出现问题。</span><span class="sxs-lookup"><span data-stu-id="99291-138">This typically indicates either network connectivity problems or problems contacting the Edge Server.</span></span>
 
-<span data-ttu-id="8016f-139">如果 CsFederatedPartner 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：</span><span class="sxs-lookup"><span data-stu-id="8016f-139">If Test-CsFederatedPartner fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="99291-139">如果 CsFederatedPartner 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：</span><span class="sxs-lookup"><span data-stu-id="99291-139">If Test-CsFederatedPartner fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
@@ -132,23 +132,23 @@ ms.locfileid: "42016233"
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="8016f-140">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="8016f-140">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="99291-140">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="99291-140">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="8016f-141">以下是测试 CsFederatedPartner 可能失败的一些常见原因：</span><span class="sxs-lookup"><span data-stu-id="8016f-141">Here are some common reasons why Test-CsFederatedPartner might fail:</span></span>
+<span data-ttu-id="99291-141">以下是测试 CsFederatedPartner 可能失败的一些常见原因：</span><span class="sxs-lookup"><span data-stu-id="99291-141">Here are some common reasons why Test-CsFederatedPartner might fail:</span></span>
 
-  - <span data-ttu-id="8016f-142">边缘服务器可能不可用。</span><span class="sxs-lookup"><span data-stu-id="8016f-142">The Edge Server might not be available.</span></span> <span data-ttu-id="8016f-143">您可以使用以下命令来使用您的边缘服务器的 Fqdn：</span><span class="sxs-lookup"><span data-stu-id="8016f-143">You can the FQDNs of your Edge Servers by using this command:</span></span>
+  - <span data-ttu-id="99291-142">边缘服务器可能不可用。</span><span class="sxs-lookup"><span data-stu-id="99291-142">The Edge Server might not be available.</span></span> <span data-ttu-id="99291-143">您可以使用以下命令来使用您的边缘服务器的 Fqdn：</span><span class="sxs-lookup"><span data-stu-id="99291-143">You can the FQDNs of your Edge Servers by using this command:</span></span>
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
-    <span data-ttu-id="8016f-144">然后，可以 ping 每台边缘服务器以验证是否可以通过网络访问它。</span><span class="sxs-lookup"><span data-stu-id="8016f-144">You can then ping each Edge Server to verify that it can be accessed over the network.</span></span> <span data-ttu-id="8016f-145">例如：</span><span class="sxs-lookup"><span data-stu-id="8016f-145">For example:</span></span>
+    <span data-ttu-id="99291-144">然后，可以 ping 每台边缘服务器以验证是否可以通过网络访问它。</span><span class="sxs-lookup"><span data-stu-id="99291-144">You can then ping each Edge Server to verify that it can be accessed over the network.</span></span> <span data-ttu-id="99291-145">例如：</span><span class="sxs-lookup"><span data-stu-id="99291-145">For example:</span></span>
     
         ping atl-edge-001.litwareinc.com
 
-  - <span data-ttu-id="8016f-146">指定的域可能未列在允许的域列表中。</span><span class="sxs-lookup"><span data-stu-id="8016f-146">The specified domain might not be listed on the allowed domains list.</span></span> <span data-ttu-id="8016f-147">若要验证已添加到允许的域列表中的域，请使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="8016f-147">To verify the domains that were added to the allowed domains list, use this command:</span></span>
+  - <span data-ttu-id="99291-146">指定的域可能未列在允许的域列表中。</span><span class="sxs-lookup"><span data-stu-id="99291-146">The specified domain might not be listed on the allowed domains list.</span></span> <span data-ttu-id="99291-147">若要验证已添加到允许的域列表中的域，请使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="99291-147">To verify the domains that were added to the allowed domains list, use this command:</span></span>
     
         Get-CsAllowedDomain
     
-    <span data-ttu-id="8016f-148">如果您想要查看阻止用户与之通信的域的列表，请使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="8016f-148">If you’d like to see a list of domains that users were blocked from communicating with, then use this command:</span></span>
+    <span data-ttu-id="99291-148">如果您想要查看阻止用户与之通信的域的列表，请使用以下命令：</span><span class="sxs-lookup"><span data-stu-id="99291-148">If you’d like to see a list of domains that users were blocked from communicating with, then use this command:</span></span>
     
         Get-CsBlockedDomain
 
