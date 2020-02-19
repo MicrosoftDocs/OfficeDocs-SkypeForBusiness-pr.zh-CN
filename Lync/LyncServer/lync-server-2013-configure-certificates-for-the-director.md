@@ -12,20 +12,20 @@ ms:contentKeyID: 48183612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e036073f3e617bff993bd38b356d3ac76f73d57
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d64eac2708c2b7fc1f0bfd3ab26a9bd38581f54c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028673"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a><span data-ttu-id="1e9c8-102">在 Lync Server 2013 中为控制器配置证书</span><span class="sxs-lookup"><span data-stu-id="1e9c8-102">Configure certificates for the Director in Lync Server 2013</span></span>
+# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a><span data-ttu-id="47a96-102">在 Lync Server 2013 中为控制器配置证书</span><span class="sxs-lookup"><span data-stu-id="47a96-102">Configure certificates for the Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,83 +35,83 @@ ms.locfileid: "42028673"
 
 <span> </span>
 
-<span data-ttu-id="1e9c8-103">_**上次修改的主题：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="1e9c8-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="47a96-103">_**上次修改的主题：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="47a96-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="1e9c8-104">在运行证书向导时，请确保您使用作为组（已为其分配您将使用的证书模板类型的适当权限）的成员的帐户进行登录。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-104">When you run the Certificate Wizard, ensure that you are logged in using an account that is a member of a group that has been assigned the appropriate permissions for the type of certificate template you will use.</span></span> <span data-ttu-id="1e9c8-105">默认情况下，Lync Server 2013 证书请求将使用 Web 服务器证书模板。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-105">By default, a Lync Server 2013 certificate request will use the Web Server certificate template.</span></span> <span data-ttu-id="1e9c8-106">如果您使用作为 RTCUniversalServerAdmins 组的成员的帐户来通过此模板请求证书，则请确保已为该组分配使用此模板所需的注册权限。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-106">If you use an account that is a member of the RTCUniversalServerAdmins group to request a certificate using this template, verify that the group has been assigned the Enroll permissions required to use that template.</span></span>
+> <span data-ttu-id="47a96-104">在运行证书向导时，请确保您使用作为组（已为其分配您将使用的证书模板类型的适当权限）的成员的帐户进行登录。</span><span class="sxs-lookup"><span data-stu-id="47a96-104">When you run the Certificate Wizard, ensure that you are logged in using an account that is a member of a group that has been assigned the appropriate permissions for the type of certificate template you will use.</span></span> <span data-ttu-id="47a96-105">默认情况下，Lync Server 2013 证书请求将使用 Web 服务器证书模板。</span><span class="sxs-lookup"><span data-stu-id="47a96-105">By default, a Lync Server 2013 certificate request will use the Web Server certificate template.</span></span> <span data-ttu-id="47a96-106">如果您使用作为 RTCUniversalServerAdmins 组的成员的帐户来通过此模板请求证书，则请确保已为该组分配使用此模板所需的注册权限。</span><span class="sxs-lookup"><span data-stu-id="47a96-106">If you use an account that is a member of the RTCUniversalServerAdmins group to request a certificate using this template, verify that the group has been assigned the Enroll permissions required to use that template.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="1e9c8-107">每个控制器都需要默认证书、Web 内部证书和 Web 外部证书。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-107">Each Director requires a default certificate, a web internal certificate, and a web external certificate.</span></span> <span data-ttu-id="1e9c8-108">有关控制器的证书要求的详细信息，请参阅规划文档中的[Lync Server 2013 中的内部服务器的证书要求](lync-server-2013-certificate-requirements-for-internal-servers.md)。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-108">For details about the certificate requirements for Directors, see [Certificate requirements for internal servers in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) in the Planning documentation.</span></span>
+<span data-ttu-id="47a96-107">每个控制器都需要默认证书、Web 内部证书和 Web 外部证书。</span><span class="sxs-lookup"><span data-stu-id="47a96-107">Each Director requires a default certificate, a web internal certificate, and a web external certificate.</span></span> <span data-ttu-id="47a96-108">有关控制器的证书要求的详细信息，请参阅规划文档中的[Lync Server 2013 中的内部服务器的证书要求](lync-server-2013-certificate-requirements-for-internal-servers.md)。</span><span class="sxs-lookup"><span data-stu-id="47a96-108">For details about the certificate requirements for Directors, see [Certificate requirements for internal servers in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="1e9c8-p103">使用以下过程配置控制器证书。对每台控制器重复此过程。此过程的步骤介绍如何在组织部署的内部企业根证书颁发机构 (CA) 中通过脱机请求处理来配置证书。有关从外部 CA 获取证书的详细信息，请与支持团队联系。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-p103">Use the following procedure to configure Director certificates. Repeat the procedure for each Director. The steps of this procedure describe how to configure a certificate from an Internal Enterprise Root certification authority (CA) deployed by your organization and with offline request processing. For details about obtaining certificates from an external CA, contact your support team.</span></span>
+<span data-ttu-id="47a96-p103">使用以下过程配置控制器证书。对每台控制器重复此过程。此过程的步骤介绍如何在组织部署的内部企业根证书颁发机构 (CA) 中通过脱机请求处理来配置证书。有关从外部 CA 获取证书的详细信息，请与支持团队联系。</span><span class="sxs-lookup"><span data-stu-id="47a96-p103">Use the following procedure to configure Director certificates. Repeat the procedure for each Director. The steps of this procedure describe how to configure a certificate from an Internal Enterprise Root certification authority (CA) deployed by your organization and with offline request processing. For details about obtaining certificates from an external CA, contact your support team.</span></span>
 
 <div>
 
-## <a name="to-configure-certificates-for-the-director-or-director-pool"></a><span data-ttu-id="1e9c8-113">为控制器或控制器池配置证书</span><span class="sxs-lookup"><span data-stu-id="1e9c8-113">To configure certificates for the Director or Director pool</span></span>
+## <a name="to-configure-certificates-for-the-director-or-director-pool"></a><span data-ttu-id="47a96-113">为控制器或控制器池配置证书</span><span class="sxs-lookup"><span data-stu-id="47a96-113">To configure certificates for the Director or Director pool</span></span>
 
-1.  <span data-ttu-id="1e9c8-114">在 "Lync Server 部署向导" 的 "**步骤3：请求、安装或分配证书**" 旁边，单击 "**运行**"。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-114">In the Lync Server Deployment Wizard, next to **Step 3: Request, Install or Assign Certificates**, click **Run**.</span></span>
+1.  <span data-ttu-id="47a96-114">在 "Lync Server 部署向导" 的 "**步骤3：请求、安装或分配证书**" 旁边，单击 "**运行**"。</span><span class="sxs-lookup"><span data-stu-id="47a96-114">In the Lync Server Deployment Wizard, next to **Step 3: Request, Install or Assign Certificates**, click **Run**.</span></span>
 
-2.  <span data-ttu-id="1e9c8-115">在 **“证书向导”** 页上，单击 **“请求”**。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-115">On the **Certificate Wizard** page, click **Request**.</span></span>
+2.  <span data-ttu-id="47a96-115">在 **“证书向导”** 页上，单击 **“请求”**。</span><span class="sxs-lookup"><span data-stu-id="47a96-115">On the **Certificate Wizard** page, click **Request**.</span></span>
 
-3.  <span data-ttu-id="1e9c8-116">在“证书请求”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-116">On the **Certificate Request** page, click **Next**.</span></span>
+3.  <span data-ttu-id="47a96-116">在“证书请求”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-116">On the **Certificate Request** page, click **Next**.</span></span>
 
-4.  <span data-ttu-id="1e9c8-117">在“延迟的请求或即时请求”\*\*\*\* 页上，接受默认的“立即将请求发送至联机证书颁发机构”\*\*\*\* 选项，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-117">On the **Delayed or Immediate Requests** page, accept the default **Send the request immediately to an online certification authority** option, and then click **Next**.</span></span>
+4.  <span data-ttu-id="47a96-117">在“延迟的请求或即时请求”\*\*\*\* 页上，接受默认的“立即将请求发送至联机证书颁发机构”\*\*\*\* 选项，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-117">On the **Delayed or Immediate Requests** page, accept the default **Send the request immediately to an online certification authority** option, and then click **Next**.</span></span>
 
-5.  <span data-ttu-id="1e9c8-118">在“选择证书颁发机构(CA)”\*\*\*\* 页上，单击要使用的内部 Windows 证书颁发机构，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-118">On the **Choose a Certification Authority (CA)** page, click the internal Windows certification authority that you want to use, and then click **Next**.</span></span>
+5.  <span data-ttu-id="47a96-118">在“选择证书颁发机构(CA)”\*\*\*\* 页上，单击要使用的内部 Windows 证书颁发机构，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-118">On the **Choose a Certification Authority (CA)** page, click the internal Windows certification authority that you want to use, and then click **Next**.</span></span>
 
-6.  <span data-ttu-id="1e9c8-119">如果登录时使用的帐户没有足够的权限请求证书，则在“证书颁发机构帐户”\*\*\*\* 页上，指定要使用的备用凭据，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-119">On the **Certification Authority Account** page, specify alternate credentials to be used if the account you are logged on with does not have sufficient authority to request the certificate, and then click **Next**.</span></span>
+6.  <span data-ttu-id="47a96-119">如果登录时使用的帐户没有足够的权限请求证书，则在“证书颁发机构帐户”\*\*\*\* 页上，指定要使用的备用凭据，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-119">On the **Certification Authority Account** page, specify alternate credentials to be used if the account you are logged on with does not have sufficient authority to request the certificate, and then click **Next**.</span></span>
 
-7.  <span data-ttu-id="1e9c8-120">在“指定替代证书模板”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-120">On the **Specify Alternate Certificate Template** page, click **Next**.</span></span>
+7.  <span data-ttu-id="47a96-120">在“指定替代证书模板”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-120">On the **Specify Alternate Certificate Template** page, click **Next**.</span></span>
 
-8.  <span data-ttu-id="1e9c8-121">在“名称和安全设置”\*\*\*\* 页上，可以指定一个“友好名称”\*\*\*\*，并接受 2048 位密钥长度，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-121">On the **Name and Security Settings** page, you can specify a **Friendly Name**, accept the 2048-bit key length, and then click **Next**.</span></span>
+8.  <span data-ttu-id="47a96-121">在“名称和安全设置”\*\*\*\* 页上，可以指定一个“友好名称”\*\*\*\*，并接受 2048 位密钥长度，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-121">On the **Name and Security Settings** page, you can specify a **Friendly Name**, accept the 2048-bit key length, and then click **Next**.</span></span>
 
-9.  <span data-ttu-id="1e9c8-122">在“组织信息”\*\*\*\* 页上，可选择指定组织信息，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-122">On the **Organization Information** page, optionally specify organization information, and then click **Next**.</span></span>
+9.  <span data-ttu-id="47a96-122">在“组织信息”\*\*\*\* 页上，可选择指定组织信息，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-122">On the **Organization Information** page, optionally specify organization information, and then click **Next**.</span></span>
 
-10. <span data-ttu-id="1e9c8-123">在“地理信息”\*\*\*\* 页上，可选择指定地理信息，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-123">On the **Geographical Information** page, optionally specify geographical information, and then click **Next**.</span></span>
+10. <span data-ttu-id="47a96-123">在“地理信息”\*\*\*\* 页上，可选择指定地理信息，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-123">On the **Geographical Information** page, optionally specify geographical information, and then click **Next**.</span></span>
 
-11. <span data-ttu-id="1e9c8-124">在“使用者名称/使用者替代名称”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-124">On the **Subject Name / Subject Alternative Names** page, click **Next**.</span></span>
+11. <span data-ttu-id="47a96-124">在“使用者名称/使用者替代名称”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-124">On the **Subject Name / Subject Alternative Names** page, click **Next**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="1e9c8-125">使用者替代名称列表应包含要安装控制器的计算机的名称（如果是单个控制器）或控制器池名称，以及为组织配置的简单 URL 名称。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-125">The subject alternative name list should contain the name of the computer on which you are installing the Director (if a single Director) or the Director pool name, and the simple URL names configured for the organization.</span></span>
+    > <span data-ttu-id="47a96-125">使用者替代名称列表应包含要安装控制器的计算机的名称（如果是单个控制器）或控制器池名称，以及为组织配置的简单 URL 名称。</span><span class="sxs-lookup"><span data-stu-id="47a96-125">The subject alternative name list should contain the name of the computer on which you are installing the Director (if a single Director) or the Director pool name, and the simple URL names configured for the organization.</span></span>
 
     
     </div>
 
-12. <span data-ttu-id="1e9c8-126">在“使用者替代名称(SAN)的 SIP 域设置”\*\*\*\* 页上，为希望控制器处理的所有域选择“已配置的 SIP 域”\*\*\*\*，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-126">On the **SIP Domain Setting on Subject Alternate Names (SANs)** page, select the **Configured SIP Domains** for all domains that you want the Director to handle, and then click **Next**.</span></span>
+12. <span data-ttu-id="47a96-126">在“使用者替代名称(SAN)的 SIP 域设置”\*\*\*\* 页上，为希望控制器处理的所有域选择“已配置的 SIP 域”\*\*\*\*，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-126">On the **SIP Domain Setting on Subject Alternate Names (SANs)** page, select the **Configured SIP Domains** for all domains that you want the Director to handle, and then click **Next**.</span></span>
 
-13. <span data-ttu-id="1e9c8-127">在“配置其他使用者替代名称”\*\*\*\* 页上，添加所需的任何其他使用者替代名称，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-127">On the **Configure Additional Subject Alternative Names** page, add any additional required subject alternative names, and then click **Next**.</span></span>
+13. <span data-ttu-id="47a96-127">在“配置其他使用者替代名称”\*\*\*\* 页上，添加所需的任何其他使用者替代名称，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-127">On the **Configure Additional Subject Alternative Names** page, add any additional required subject alternative names, and then click **Next**.</span></span>
 
-14. <span data-ttu-id="1e9c8-128">在“证书请求摘要”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-128">On the **Certificate Request Summary** page, click **Next**.</span></span>
+14. <span data-ttu-id="47a96-128">在“证书请求摘要”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-128">On the **Certificate Request Summary** page, click **Next**.</span></span>
 
-15. <span data-ttu-id="1e9c8-129">命令运行完以后，在“正在执行命令”\*\*\*\* 页上单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-129">On the **Executing Commands** page, click **Next** after the commands have finished running.</span></span>
+15. <span data-ttu-id="47a96-129">命令运行完以后，在“正在执行命令”\*\*\*\* 页上单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-129">On the **Executing Commands** page, click **Next** after the commands have finished running.</span></span>
 
-16. <span data-ttu-id="1e9c8-130">在“联机证书请求状态”\*\*\*\* 页上，单击“完成”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-130">On the **Online Certificate Request Status** page, click **Finish**.</span></span>
+16. <span data-ttu-id="47a96-130">在“联机证书请求状态”\*\*\*\* 页上，单击“完成”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-130">On the **Online Certificate Request Status** page, click **Finish**.</span></span>
 
-17. <span data-ttu-id="1e9c8-131">在“证书分配”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-131">On the **Certificate Assignment** page, click **Next**.</span></span>
+17. <span data-ttu-id="47a96-131">在“证书分配”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-131">On the **Certificate Assignment** page, click **Next**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="1e9c8-132">如果要查看证书，请在列表中双击相应的证书。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-132">if you want to view the certificate, double-click the certificate in the list.</span></span>
+    > <span data-ttu-id="47a96-132">如果要查看证书，请在列表中双击相应的证书。</span><span class="sxs-lookup"><span data-stu-id="47a96-132">if you want to view the certificate, double-click the certificate in the list.</span></span>
 
     
     </div>
 
-18. <span data-ttu-id="1e9c8-133">在“证书分配摘要”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-133">On the **Certificate Assignment Summary** page, click **Next**.</span></span>
+18. <span data-ttu-id="47a96-133">在“证书分配摘要”\*\*\*\* 页上，单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-133">On the **Certificate Assignment Summary** page, click **Next**.</span></span>
 
-19. <span data-ttu-id="1e9c8-134">命令运行完以后，在“正在执行命令”\*\*\*\* 页上单击“完成”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-134">On the **Executing Commands** page, click **Finish** after the commands have finished running.</span></span>
+19. <span data-ttu-id="47a96-134">命令运行完以后，在“正在执行命令”\*\*\*\* 页上单击“完成”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-134">On the **Executing Commands** page, click **Finish** after the commands have finished running.</span></span>
 
-20. <span data-ttu-id="1e9c8-135">在“证书向导”\*\*\*\* 页上，单击“关闭”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1e9c8-135">On the **Certificate Wizard** page, click **Close**.</span></span>
+20. <span data-ttu-id="47a96-135">在“证书向导”\*\*\*\* 页上，单击“关闭”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="47a96-135">On the **Certificate Wizard** page, click **Close**.</span></span>
 
 </div>
 
