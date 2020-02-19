@@ -12,20 +12,20 @@ ms:contentKeyID: 48184403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c490bc9b5058af75704ec3d10c3535581c56df2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c333017f122454d68bc452a5c183f8c09b6347a3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042089"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errordef-table-in-lync-server-2013"></a><span data-ttu-id="71cb3-102">Lync Server 2013 中的 ErrorDef 表</span><span class="sxs-lookup"><span data-stu-id="71cb3-102">ErrorDef table in Lync Server 2013</span></span>
+# <a name="errordef-table-in-lync-server-2013"></a><span data-ttu-id="6acb5-102">Lync Server 2013 中的 ErrorDef 表</span><span class="sxs-lookup"><span data-stu-id="6acb5-102">ErrorDef table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42042089"
 
 <span> </span>
 
-<span data-ttu-id="71cb3-103">_**上次修改的主题：** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="71cb3-103">_**Topic Last Modified:** 2012-05-25_</span></span>
+<span data-ttu-id="6acb5-103">_**上次修改的主题：** 2012-05-25_</span><span class="sxs-lookup"><span data-stu-id="6acb5-103">_**Topic Last Modified:** 2012-05-25_</span></span>
 
-<span data-ttu-id="71cb3-104">ErrorDef 表存储可能出现的每种错误类型的相关信息。</span><span class="sxs-lookup"><span data-stu-id="71cb3-104">The ErrorDef table stores information about each type of error that may occur.</span></span> <span data-ttu-id="71cb3-105">每条记录是一种类型的错误。</span><span class="sxs-lookup"><span data-stu-id="71cb3-105">Each record is one type of error.</span></span>
+<span data-ttu-id="6acb5-104">ErrorDef 表存储可能出现的每种错误类型的相关信息。</span><span class="sxs-lookup"><span data-stu-id="6acb5-104">The ErrorDef table stores information about each type of error that may occur.</span></span> <span data-ttu-id="6acb5-105">每条记录是一种类型的错误。</span><span class="sxs-lookup"><span data-stu-id="6acb5-105">Each record is one type of error.</span></span>
 
 
 <table>
@@ -49,51 +49,51 @@ ms.locfileid: "42042089"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="71cb3-106">列</span><span class="sxs-lookup"><span data-stu-id="71cb3-106">Column</span></span></th>
-<th><span data-ttu-id="71cb3-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="71cb3-107">Data Type</span></span></th>
-<th><span data-ttu-id="71cb3-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="71cb3-108">Key/Index</span></span></th>
-<th><span data-ttu-id="71cb3-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="71cb3-109">Details</span></span></th>
+<th><span data-ttu-id="6acb5-106">列</span><span class="sxs-lookup"><span data-stu-id="6acb5-106">Column</span></span></th>
+<th><span data-ttu-id="6acb5-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="6acb5-107">Data Type</span></span></th>
+<th><span data-ttu-id="6acb5-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="6acb5-108">Key/Index</span></span></th>
+<th><span data-ttu-id="6acb5-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="6acb5-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="71cb3-110"><strong>ErrorId</strong></span><span class="sxs-lookup"><span data-stu-id="71cb3-110"><strong>ErrorId</strong></span></span></p></td>
-<td><p><span data-ttu-id="71cb3-111">int</span><span class="sxs-lookup"><span data-stu-id="71cb3-111">int</span></span></p></td>
-<td><p><span data-ttu-id="71cb3-112">主</span><span class="sxs-lookup"><span data-stu-id="71cb3-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="71cb3-113">标识此类型的错误的唯一 ID 号。</span><span class="sxs-lookup"><span data-stu-id="71cb3-113">Unique ID number identifying this type of error.</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-110"><strong>ErrorId</strong></span><span class="sxs-lookup"><span data-stu-id="6acb5-110"><strong>ErrorId</strong></span></span></p></td>
+<td><p><span data-ttu-id="6acb5-111">int</span><span class="sxs-lookup"><span data-stu-id="6acb5-111">int</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-112">主</span><span class="sxs-lookup"><span data-stu-id="6acb5-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-113">标识此类型的错误的唯一 ID 号。</span><span class="sxs-lookup"><span data-stu-id="6acb5-113">Unique ID number identifying this type of error.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="71cb3-114"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="71cb3-114"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="71cb3-115">int</span><span class="sxs-lookup"><span data-stu-id="71cb3-115">int</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-114"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="6acb5-114"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="6acb5-115">int</span><span class="sxs-lookup"><span data-stu-id="6acb5-115">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="71cb3-116">与此错误关联的标准 SIP 响应代码。</span><span class="sxs-lookup"><span data-stu-id="71cb3-116">Standard SIP response code associated with this error.</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-116">与此错误关联的标准 SIP 响应代码。</span><span class="sxs-lookup"><span data-stu-id="6acb5-116">Standard SIP response code associated with this error.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="71cb3-117"><strong>MsDiagId</strong></span><span class="sxs-lookup"><span data-stu-id="71cb3-117"><strong>MsDiagId</strong></span></span></p></td>
-<td><p><span data-ttu-id="71cb3-118">int</span><span class="sxs-lookup"><span data-stu-id="71cb3-118">int</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-117"><strong>MsDiagId</strong></span><span class="sxs-lookup"><span data-stu-id="6acb5-117"><strong>MsDiagId</strong></span></span></p></td>
+<td><p><span data-ttu-id="6acb5-118">int</span><span class="sxs-lookup"><span data-stu-id="6acb5-118">int</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="71cb3-119">Microsoft 诊断 ID。</span><span class="sxs-lookup"><span data-stu-id="71cb3-119">Microsoft Diagnostic ID.</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-119">Microsoft 诊断 ID。</span><span class="sxs-lookup"><span data-stu-id="6acb5-119">Microsoft Diagnostic ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="71cb3-120"><strong>CallTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="71cb3-120"><strong>CallTypeId</strong></span></span></p></td>
-<td><p><span data-ttu-id="71cb3-121">Int</span><span class="sxs-lookup"><span data-stu-id="71cb3-121">Int</span></span></p></td>
-<td><p><span data-ttu-id="71cb3-122">对外</span><span class="sxs-lookup"><span data-stu-id="71cb3-122">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="71cb3-123">呼叫的类型。</span><span class="sxs-lookup"><span data-stu-id="71cb3-123">Type of the call.</span></span> <span data-ttu-id="71cb3-124">有关详细信息，请参阅<a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a>。</span><span class="sxs-lookup"><span data-stu-id="71cb3-124">See the <a href="lync-server-2013-calltype-table.md">CallType table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-120"><strong>CallTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="6acb5-120"><strong>CallTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="6acb5-121">Int</span><span class="sxs-lookup"><span data-stu-id="6acb5-121">Int</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-122">对外</span><span class="sxs-lookup"><span data-stu-id="6acb5-122">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-123">呼叫的类型。</span><span class="sxs-lookup"><span data-stu-id="6acb5-123">Type of the call.</span></span> <span data-ttu-id="6acb5-124">有关详细信息，请参阅<a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a>。</span><span class="sxs-lookup"><span data-stu-id="6acb5-124">See the <a href="lync-server-2013-calltype-table.md">CallType table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="71cb3-125"><strong>RequestType</strong></span><span class="sxs-lookup"><span data-stu-id="71cb3-125"><strong>RequestType</strong></span></span></p></td>
-<td><p><span data-ttu-id="71cb3-126">varbinary （33）</span><span class="sxs-lookup"><span data-stu-id="71cb3-126">varbinary(33)</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-125"><strong>RequestType</strong></span><span class="sxs-lookup"><span data-stu-id="6acb5-125"><strong>RequestType</strong></span></span></p></td>
+<td><p><span data-ttu-id="6acb5-126">varbinary （33）</span><span class="sxs-lookup"><span data-stu-id="6acb5-126">varbinary(33)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="71cb3-127">失败的请求的类型。</span><span class="sxs-lookup"><span data-stu-id="71cb3-127">Type of request that failed.</span></span></p>
-<p><span data-ttu-id="71cb3-128">可以使用以下语法将此数据转换为文本格式：</span><span class="sxs-lookup"><span data-stu-id="71cb3-128">This data can be converted to text format by using this syntax:</span></span></p>
+<td><p><span data-ttu-id="6acb5-127">失败的请求的类型。</span><span class="sxs-lookup"><span data-stu-id="6acb5-127">Type of request that failed.</span></span></p>
+<p><span data-ttu-id="6acb5-128">可以使用以下语法将此数据转换为文本格式：</span><span class="sxs-lookup"><span data-stu-id="6acb5-128">This data can be converted to text format by using this syntax:</span></span></p>
 <p><code>cast(cast(RequestType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="71cb3-129"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="71cb3-129"><strong>ContentType</strong></span></span></p></td>
-<td><p><span data-ttu-id="71cb3-130">varbinary （257）</span><span class="sxs-lookup"><span data-stu-id="71cb3-130">varbinary(257)</span></span></p></td>
+<td><p><span data-ttu-id="6acb5-129"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="6acb5-129"><strong>ContentType</strong></span></span></p></td>
+<td><p><span data-ttu-id="6acb5-130">varbinary （257）</span><span class="sxs-lookup"><span data-stu-id="6acb5-130">varbinary(257)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="71cb3-131">失败的请求的内容类型。</span><span class="sxs-lookup"><span data-stu-id="71cb3-131">Content type of the request that failed.</span></span></p>
-<p><span data-ttu-id="71cb3-132">可以使用此 syntaxt 将此数据转换为文本格式：</span><span class="sxs-lookup"><span data-stu-id="71cb3-132">This data can be converted to text format by using this syntaxt:</span></span></p>
+<td><p><span data-ttu-id="6acb5-131">失败的请求的内容类型。</span><span class="sxs-lookup"><span data-stu-id="6acb5-131">Content type of the request that failed.</span></span></p>
+<p><span data-ttu-id="6acb5-132">可以使用此 syntaxt 将此数据转换为文本格式：</span><span class="sxs-lookup"><span data-stu-id="6acb5-132">This data can be converted to text format by using this syntaxt:</span></span></p>
 <p><code>cast(cast(ContentType as varbinary(max)) as varchar(max))</code></p></td>
 </tr>
 </tbody>

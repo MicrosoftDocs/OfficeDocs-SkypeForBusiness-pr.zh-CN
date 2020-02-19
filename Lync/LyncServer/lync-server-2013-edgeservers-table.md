@@ -12,20 +12,20 @@ ms:contentKeyID: 48185081
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a841ea23c387042f2024fc9fdf2ec796700c33ca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4d4843fdb93bd123711dfba09c281ec78fa834f9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006248"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136339"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edgeservers-table-in-lync-server-2013"></a><span data-ttu-id="9ad0f-102">Lync Server 2013 中的 EdgeServers 表</span><span class="sxs-lookup"><span data-stu-id="9ad0f-102">EdgeServers table in Lync Server 2013</span></span>
+# <a name="edgeservers-table-in-lync-server-2013"></a><span data-ttu-id="583db-102">Lync Server 2013 中的 EdgeServers 表</span><span class="sxs-lookup"><span data-stu-id="583db-102">EdgeServers table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42006248"
 
 <span> </span>
 
-<span data-ttu-id="9ad0f-103">_**上次修改的主题：** 2010-11-06_</span><span class="sxs-lookup"><span data-stu-id="9ad0f-103">_**Topic Last Modified:** 2010-11-06_</span></span>
+<span data-ttu-id="583db-103">_**上次修改的主题：** 2010-11-06_</span><span class="sxs-lookup"><span data-stu-id="583db-103">_**Topic Last Modified:** 2010-11-06_</span></span>
 
-<span data-ttu-id="9ad0f-104">EdgeServers 表是一个支持表格。</span><span class="sxs-lookup"><span data-stu-id="9ad0f-104">The EdgeServers table is a supporting table.</span></span> <span data-ttu-id="9ad0f-105">每个记录存储有关在数据库中包含记录的呼叫中涉及的一台边缘服务器的信息。</span><span class="sxs-lookup"><span data-stu-id="9ad0f-105">Each record stores information about one Edge Server that is involved in calls that have records in the database.</span></span>
+<span data-ttu-id="583db-104">EdgeServers 表是一个支持表格。</span><span class="sxs-lookup"><span data-stu-id="583db-104">The EdgeServers table is a supporting table.</span></span> <span data-ttu-id="583db-105">每个记录存储有关在数据库中包含记录的呼叫中涉及的一台边缘服务器的信息。</span><span class="sxs-lookup"><span data-stu-id="583db-105">Each record stores information about one Edge Server that is involved in calls that have records in the database.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42006248"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9ad0f-106">列</span><span class="sxs-lookup"><span data-stu-id="9ad0f-106">Column</span></span></th>
-<th><span data-ttu-id="9ad0f-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="9ad0f-107">Data Type</span></span></th>
-<th><span data-ttu-id="9ad0f-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="9ad0f-108">Key/Index</span></span></th>
-<th><span data-ttu-id="9ad0f-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="9ad0f-109">Details</span></span></th>
+<th><span data-ttu-id="583db-106">列</span><span class="sxs-lookup"><span data-stu-id="583db-106">Column</span></span></th>
+<th><span data-ttu-id="583db-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="583db-107">Data Type</span></span></th>
+<th><span data-ttu-id="583db-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="583db-108">Key/Index</span></span></th>
+<th><span data-ttu-id="583db-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="583db-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9ad0f-110"><strong>EdgeServerId</strong></span><span class="sxs-lookup"><span data-stu-id="9ad0f-110"><strong>EdgeServerId</strong></span></span></p></td>
-<td><p><span data-ttu-id="9ad0f-111">int</span><span class="sxs-lookup"><span data-stu-id="9ad0f-111">int</span></span></p></td>
-<td><p><span data-ttu-id="9ad0f-112">主</span><span class="sxs-lookup"><span data-stu-id="9ad0f-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="9ad0f-113">标识此边缘服务器的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="9ad0f-113">Unique number identifying this Edge Server.</span></span></p></td>
+<td><p><span data-ttu-id="583db-110"><strong>EdgeServerId</strong></span><span class="sxs-lookup"><span data-stu-id="583db-110"><strong>EdgeServerId</strong></span></span></p></td>
+<td><p><span data-ttu-id="583db-111">int</span><span class="sxs-lookup"><span data-stu-id="583db-111">int</span></span></p></td>
+<td><p><span data-ttu-id="583db-112">主</span><span class="sxs-lookup"><span data-stu-id="583db-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="583db-113">标识此边缘服务器的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="583db-113">Unique number identifying this Edge Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9ad0f-114"><strong>EdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="9ad0f-114"><strong>EdgeServer</strong></span></span></p></td>
-<td><p><span data-ttu-id="9ad0f-115">nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="9ad0f-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="583db-114"><strong>EdgeServer</strong></span><span class="sxs-lookup"><span data-stu-id="583db-114"><strong>EdgeServer</strong></span></span></p></td>
+<td><p><span data-ttu-id="583db-115">nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="583db-115">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="9ad0f-116">边缘服务器名称。</span><span class="sxs-lookup"><span data-stu-id="9ad0f-116">Edge Server name.</span></span></p></td>
+<td><p><span data-ttu-id="583db-116">边缘服务器名称。</span><span class="sxs-lookup"><span data-stu-id="583db-116">Edge Server name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

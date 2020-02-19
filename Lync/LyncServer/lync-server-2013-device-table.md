@@ -12,20 +12,20 @@ ms:contentKeyID: 48185544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d9281c3059d8fa234b8f62b6223eb601f38b119
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8d6c53a8a1197b47b2ec91cff97c1e403b91d1c5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031276"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-table-in-lync-server-2013"></a><span data-ttu-id="688a5-102">Lync Server 2013 中的设备表</span><span class="sxs-lookup"><span data-stu-id="688a5-102">Device table in Lync Server 2013</span></span>
+# <a name="device-table-in-lync-server-2013"></a><span data-ttu-id="094b7-102">Lync Server 2013 中的设备表</span><span class="sxs-lookup"><span data-stu-id="094b7-102">Device table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42031276"
 
 <span> </span>
 
-<span data-ttu-id="688a5-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="688a5-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="094b7-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="094b7-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="688a5-p101">Device 表是一个支持表，用于存储有关各种捕获或呈现设备的信息。该表中的每个记录都代表一台设备。</span><span class="sxs-lookup"><span data-stu-id="688a5-p101">The Device table is a supporting table that stores information about the various capture or render devices. Each record in the table represents one device.</span></span>
+<span data-ttu-id="094b7-p101">Device 表是一个支持表，用于存储有关各种捕获或呈现设备的信息。该表中的每个记录都代表一台设备。</span><span class="sxs-lookup"><span data-stu-id="094b7-p101">The Device table is a supporting table that stores information about the various capture or render devices. Each record in the table represents one device.</span></span>
 
 
 <table>
@@ -49,30 +49,30 @@ ms.locfileid: "42031276"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="688a5-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="688a5-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="688a5-107"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="688a5-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="688a5-108"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="688a5-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="688a5-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="688a5-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="094b7-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="094b7-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="094b7-107"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="094b7-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="094b7-108"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="094b7-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="094b7-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="094b7-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="688a5-110"><strong>DeviceKey</strong></span><span class="sxs-lookup"><span data-stu-id="688a5-110"><strong>DeviceKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="688a5-111">int</span><span class="sxs-lookup"><span data-stu-id="688a5-111">int</span></span></p></td>
-<td><p><span data-ttu-id="688a5-112">主</span><span class="sxs-lookup"><span data-stu-id="688a5-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="688a5-113">标识此设备的唯一数字。</span><span class="sxs-lookup"><span data-stu-id="688a5-113">Unique number identifying this device.</span></span></p></td>
+<td><p><span data-ttu-id="094b7-110"><strong>DeviceKey</strong></span><span class="sxs-lookup"><span data-stu-id="094b7-110"><strong>DeviceKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="094b7-111">int</span><span class="sxs-lookup"><span data-stu-id="094b7-111">int</span></span></p></td>
+<td><p><span data-ttu-id="094b7-112">主</span><span class="sxs-lookup"><span data-stu-id="094b7-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="094b7-113">标识此设备的唯一数字。</span><span class="sxs-lookup"><span data-stu-id="094b7-113">Unique number identifying this device.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="688a5-114"><strong>DeviceName</strong></span><span class="sxs-lookup"><span data-stu-id="688a5-114"><strong>DeviceName</strong></span></span></p></td>
-<td><p><span data-ttu-id="688a5-115">nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="688a5-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="688a5-116">DeviceName + DeviceType 是唯一的</span><span class="sxs-lookup"><span data-stu-id="688a5-116">DeviceName + DeviceType is unique</span></span></p></td>
-<td><p><span data-ttu-id="688a5-117">设备名称。</span><span class="sxs-lookup"><span data-stu-id="688a5-117">Device name.</span></span></p></td>
+<td><p><span data-ttu-id="094b7-114"><strong>DeviceName</strong></span><span class="sxs-lookup"><span data-stu-id="094b7-114"><strong>DeviceName</strong></span></span></p></td>
+<td><p><span data-ttu-id="094b7-115">nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="094b7-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="094b7-116">DeviceName + DeviceType 是唯一的</span><span class="sxs-lookup"><span data-stu-id="094b7-116">DeviceName + DeviceType is unique</span></span></p></td>
+<td><p><span data-ttu-id="094b7-117">设备名称。</span><span class="sxs-lookup"><span data-stu-id="094b7-117">Device name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="688a5-118"><strong>DeviceType</strong></span><span class="sxs-lookup"><span data-stu-id="688a5-118"><strong>DeviceType</strong></span></span></p></td>
-<td><p><span data-ttu-id="688a5-119">位</span><span class="sxs-lookup"><span data-stu-id="688a5-119">bit</span></span></p></td>
-<td><p><span data-ttu-id="688a5-120">DeviceName + DeviceType 是唯一的</span><span class="sxs-lookup"><span data-stu-id="688a5-120">DeviceName + DeviceType is unique</span></span></p></td>
-<td><p><span data-ttu-id="688a5-p102">设备类型。1 是捕获设备。0 是呈现设备。</span><span class="sxs-lookup"><span data-stu-id="688a5-p102">Device type. 1 is a capture device, 0 is a render device.</span></span></p></td>
+<td><p><span data-ttu-id="094b7-118"><strong>DeviceType</strong></span><span class="sxs-lookup"><span data-stu-id="094b7-118"><strong>DeviceType</strong></span></span></p></td>
+<td><p><span data-ttu-id="094b7-119">位</span><span class="sxs-lookup"><span data-stu-id="094b7-119">bit</span></span></p></td>
+<td><p><span data-ttu-id="094b7-120">DeviceName + DeviceType 是唯一的</span><span class="sxs-lookup"><span data-stu-id="094b7-120">DeviceName + DeviceType is unique</span></span></p></td>
+<td><p><span data-ttu-id="094b7-p102">设备类型。1 是捕获设备。0 是呈现设备。</span><span class="sxs-lookup"><span data-stu-id="094b7-p102">Device type. 1 is a capture device, 0 is a render device.</span></span></p></td>
 </tr>
 </tbody>
 </table>
