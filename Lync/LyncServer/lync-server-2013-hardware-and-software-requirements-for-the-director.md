@@ -12,20 +12,20 @@ ms:contentKeyID: 48184517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c4e241c7fd991fc217aaf2e1f2bd0ee9e37aab
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6ff5e28b21e06cc438c7eb092515443579f5c004
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030325"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a><span data-ttu-id="12528-102">Lync Server 2013 中的控制器的硬件和软件要求</span><span class="sxs-lookup"><span data-stu-id="12528-102">Hardware and software requirements for the Director in Lync Server 2013</span></span>
+# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a><span data-ttu-id="47be2-102">Lync Server 2013 中的控制器的硬件和软件要求</span><span class="sxs-lookup"><span data-stu-id="47be2-102">Hardware and software requirements for the Director in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42030325"
 
 <span> </span>
 
-<span data-ttu-id="12528-103">_**上次修改的主题：** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="12528-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="47be2-103">_**上次修改的主题：** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="47be2-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="12528-104">本部分详细介绍了控制器的硬件和软件要求，以及控制器支持的并置方案。</span><span class="sxs-lookup"><span data-stu-id="12528-104">This section details the hardware and software requirements for the Director, and the supported collocation scenarios for the Director.</span></span>
+<span data-ttu-id="47be2-104">本部分详细介绍了控制器的硬件和软件要求，以及控制器支持的并置方案。</span><span class="sxs-lookup"><span data-stu-id="47be2-104">This section details the hardware and software requirements for the Director, and the supported collocation scenarios for the Director.</span></span>
 
 <div>
 
-## <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="12528-105">控制器的硬件要求</span><span class="sxs-lookup"><span data-stu-id="12528-105">Hardware Requirements for the Director</span></span>
+## <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="47be2-105">控制器的硬件要求</span><span class="sxs-lookup"><span data-stu-id="47be2-105">Hardware Requirements for the Director</span></span>
 
-<span data-ttu-id="12528-106">下表列出了控制器的硬件要求：</span><span class="sxs-lookup"><span data-stu-id="12528-106">The following table lists the hardware requirements for the Director:</span></span>
+<span data-ttu-id="47be2-106">下表列出了控制器的硬件要求：</span><span class="sxs-lookup"><span data-stu-id="47be2-106">The following table lists the hardware requirements for the Director:</span></span>
 
-### <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="12528-107">控制器的硬件要求</span><span class="sxs-lookup"><span data-stu-id="12528-107">Hardware Requirements for the Director</span></span>
+### <a name="hardware-requirements-for-the-director"></a><span data-ttu-id="47be2-107">控制器的硬件要求</span><span class="sxs-lookup"><span data-stu-id="47be2-107">Hardware Requirements for the Director</span></span>
 
 <table>
 <colgroup>
@@ -54,35 +54,35 @@ ms.locfileid: "42030325"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="12528-108">硬件组件</span><span class="sxs-lookup"><span data-stu-id="12528-108">Hardware component</span></span></th>
-<th><span data-ttu-id="12528-109">最低要求</span><span class="sxs-lookup"><span data-stu-id="12528-109">Minimum requirement</span></span></th>
+<th><span data-ttu-id="47be2-108">硬件组件</span><span class="sxs-lookup"><span data-stu-id="47be2-108">Hardware component</span></span></th>
+<th><span data-ttu-id="47be2-109">最低要求</span><span class="sxs-lookup"><span data-stu-id="47be2-109">Minimum requirement</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="12528-110">CPU</span><span class="sxs-lookup"><span data-stu-id="12528-110">CPU</span></span></p></td>
+<td><p><span data-ttu-id="47be2-110">CPU</span><span class="sxs-lookup"><span data-stu-id="47be2-110">CPU</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="12528-111">64 位处理器、四核、2.0 GHz 或更快</span><span class="sxs-lookup"><span data-stu-id="12528-111">64-bit processor, quad-core, 2.0 GHz or higher</span></span></p></li>
-<li><p><span data-ttu-id="12528-112">64 位双处理器、双核、2.0 GHz 或更快</span><span class="sxs-lookup"><span data-stu-id="12528-112">64-bit dual processor, dual-core, 2.0 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="47be2-111">64 位处理器、四核、2.0 GHz 或更快</span><span class="sxs-lookup"><span data-stu-id="47be2-111">64-bit processor, quad-core, 2.0 GHz or higher</span></span></p></li>
+<li><p><span data-ttu-id="47be2-112">64 位双处理器、双核、2.0 GHz 或更快</span><span class="sxs-lookup"><span data-stu-id="47be2-112">64-bit dual processor, dual-core, 2.0 GHz or higher</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="12528-113">内存</span><span class="sxs-lookup"><span data-stu-id="12528-113">Memory</span></span></p></td>
-<td><p><span data-ttu-id="12528-114">4 GB</span><span class="sxs-lookup"><span data-stu-id="12528-114">4 gigabytes (GB)</span></span></p></td>
+<td><p><span data-ttu-id="47be2-113">内存</span><span class="sxs-lookup"><span data-stu-id="47be2-113">Memory</span></span></p></td>
+<td><p><span data-ttu-id="47be2-114">4 GB</span><span class="sxs-lookup"><span data-stu-id="47be2-114">4 gigabytes (GB)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="12528-115">磁盘</span><span class="sxs-lookup"><span data-stu-id="12528-115">Disk</span></span></p></td>
+<td><p><span data-ttu-id="47be2-115">磁盘</span><span class="sxs-lookup"><span data-stu-id="47be2-115">Disk</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="12528-116">转速为 10K RPM 的硬盘驱动器 (HDD)</span><span class="sxs-lookup"><span data-stu-id="12528-116">10K RPM hard disk drive (HDD)</span></span></p></li>
-<li><p><span data-ttu-id="12528-117">性能等于或高于 10K RPM HDD 的高性能固态驱动器 (SSD)</span><span class="sxs-lookup"><span data-stu-id="12528-117">High-performance solid state drive (SSD) with performance equal to or better than 10K RPM HDD</span></span></p></li>
-<li><p><span data-ttu-id="12528-118">2 个 RAID 10（条带和镜像）、转速为 15K RPM 的硬盘，用于存储数据库数据文件</span><span class="sxs-lookup"><span data-stu-id="12528-118">2x RAID 10 (striped and mirrored) 15K RPM disks for database data files</span></span></p></li>
+<li><p><span data-ttu-id="47be2-116">转速为 10K RPM 的硬盘驱动器 (HDD)</span><span class="sxs-lookup"><span data-stu-id="47be2-116">10K RPM hard disk drive (HDD)</span></span></p></li>
+<li><p><span data-ttu-id="47be2-117">性能等于或高于 10K RPM HDD 的高性能固态驱动器 (SSD)</span><span class="sxs-lookup"><span data-stu-id="47be2-117">High-performance solid state drive (SSD) with performance equal to or better than 10K RPM HDD</span></span></p></li>
+<li><p><span data-ttu-id="47be2-118">2 个 RAID 10（条带和镜像）、转速为 15K RPM 的硬盘，用于存储数据库数据文件</span><span class="sxs-lookup"><span data-stu-id="47be2-118">2x RAID 10 (striped and mirrored) 15K RPM disks for database data files</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="12528-119">网络</span><span class="sxs-lookup"><span data-stu-id="12528-119">Network</span></span></p></td>
+<td><p><span data-ttu-id="47be2-119">网络</span><span class="sxs-lookup"><span data-stu-id="47be2-119">Network</span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="12528-120">双 1 千兆位每秒 (Gbps) 网络适配器（推荐）</span><span class="sxs-lookup"><span data-stu-id="12528-120">Dual 1 gigabit per second (Gbps) network adapters (recommended)</span></span></p></li>
-<li><p><span data-ttu-id="12528-121">一个 1 Gbps 网络适配器（支持）</span><span class="sxs-lookup"><span data-stu-id="12528-121">Single 1 Gbps network adapter (supported)</span></span></p></li>
+<li><p><span data-ttu-id="47be2-120">双 1 千兆位每秒 (Gbps) 网络适配器（推荐）</span><span class="sxs-lookup"><span data-stu-id="47be2-120">Dual 1 gigabit per second (Gbps) network adapters (recommended)</span></span></p></li>
+<li><p><span data-ttu-id="47be2-121">一个 1 Gbps 网络适配器（支持）</span><span class="sxs-lookup"><span data-stu-id="47be2-121">Single 1 Gbps network adapter (supported)</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -93,31 +93,31 @@ ms.locfileid: "42030325"
 
 <div>
 
-## <a name="software-requirements-for-the-director"></a><span data-ttu-id="12528-122">控制器的软件要求</span><span class="sxs-lookup"><span data-stu-id="12528-122">Software Requirements for the Director</span></span>
+## <a name="software-requirements-for-the-director"></a><span data-ttu-id="47be2-122">控制器的软件要求</span><span class="sxs-lookup"><span data-stu-id="47be2-122">Software Requirements for the Director</span></span>
 
-<span data-ttu-id="12528-123">Director 角色只能部署在运行 Lync Server 2013 Enterprise Edition 的服务器上。</span><span class="sxs-lookup"><span data-stu-id="12528-123">The Director role can be deployed only on servers running Lync Server 2013 Enterprise Edition.</span></span>
+<span data-ttu-id="47be2-123">Director 角色只能部署在运行 Lync Server 2013 Enterprise Edition 的服务器上。</span><span class="sxs-lookup"><span data-stu-id="47be2-123">The Director role can be deployed only on servers running Lync Server 2013 Enterprise Edition.</span></span>
 
-<span data-ttu-id="12528-124">控制器需要以下64位操作系统之一：</span><span class="sxs-lookup"><span data-stu-id="12528-124">One of the following 64-bit operating systems is required for the Directors:</span></span>
+<span data-ttu-id="47be2-124">控制器需要以下64位操作系统之一：</span><span class="sxs-lookup"><span data-stu-id="47be2-124">One of the following 64-bit operating systems is required for the Directors:</span></span>
 
-  - <span data-ttu-id="12528-125">Windows Server 2008 R2 Standard 操作系统 Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="12528-125">The Windows Server 2008 R2 Standard operating system with Service Pack 1</span></span>
+  - <span data-ttu-id="47be2-125">Windows Server 2008 R2 Standard 操作系统 Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="47be2-125">The Windows Server 2008 R2 Standard operating system with Service Pack 1</span></span>
 
-  - <span data-ttu-id="12528-126">Windows Server 2008 R2 Enterprise 操作系统 Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="12528-126">The Windows Server 2008 R2 Enterprise operating system with Service Pack 1</span></span>
+  - <span data-ttu-id="47be2-126">Windows Server 2008 R2 Enterprise 操作系统 Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="47be2-126">The Windows Server 2008 R2 Enterprise operating system with Service Pack 1</span></span>
 
-  - <span data-ttu-id="12528-127">Windows Server 2008 R2 Datacenter 操作系统 Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="12528-127">The Windows Server 2008 R2 Datacenter operating system with Service Pack 1</span></span>
+  - <span data-ttu-id="47be2-127">Windows Server 2008 R2 Datacenter 操作系统 Service Pack 1</span><span class="sxs-lookup"><span data-stu-id="47be2-127">The Windows Server 2008 R2 Datacenter operating system with Service Pack 1</span></span>
 
-  - <span data-ttu-id="12528-128">Windows Server 2012 标准操作系统</span><span class="sxs-lookup"><span data-stu-id="12528-128">The Windows Server 2012 Standard operating system</span></span>
+  - <span data-ttu-id="47be2-128">Windows Server 2012 标准操作系统</span><span class="sxs-lookup"><span data-stu-id="47be2-128">The Windows Server 2012 Standard operating system</span></span>
 
-  - <span data-ttu-id="12528-129">Windows Server 2012 Datacenter 操作系统</span><span class="sxs-lookup"><span data-stu-id="12528-129">The Windows Server 2012 Datacenter operating system</span></span>
+  - <span data-ttu-id="47be2-129">Windows Server 2012 Datacenter 操作系统</span><span class="sxs-lookup"><span data-stu-id="47be2-129">The Windows Server 2012 Datacenter operating system</span></span>
 
-<span data-ttu-id="12528-130">Lync Server 2013 还需要安装以下程序和更新在[Lync Server 2013 中的主题其他服务器支持和要求](lync-server-2013-additional-server-support-and-requirements.md)中详细介绍。</span><span class="sxs-lookup"><span data-stu-id="12528-130">Lync Server 2013 also requires installation of the following programs and updates detailed in the topic [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span></span>
+<span data-ttu-id="47be2-130">Lync Server 2013 还需要安装以下程序和更新在[Lync Server 2013 中的主题其他服务器支持和要求](lync-server-2013-additional-server-support-and-requirements.md)中详细介绍。</span><span class="sxs-lookup"><span data-stu-id="47be2-130">Lync Server 2013 also requires installation of the following programs and updates detailed in the topic [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a><span data-ttu-id="12528-131">支持的并置</span><span class="sxs-lookup"><span data-stu-id="12528-131">Supported Collocation</span></span>
+## <a name="supported-collocation"></a><span data-ttu-id="47be2-131">支持的并置</span><span class="sxs-lookup"><span data-stu-id="47be2-131">Supported Collocation</span></span>
 
-<span data-ttu-id="12528-132">在 Lync Server 2013 中，控制器服务器角色不能与任何其他服务器角色并置。</span><span class="sxs-lookup"><span data-stu-id="12528-132">The Director server role cannot be collocated with any other server role in Lync Server 2013.</span></span> <span data-ttu-id="12528-133">但是，如果不部署控制器，前端服务器将承担角色。</span><span class="sxs-lookup"><span data-stu-id="12528-133">However, if you do not deploy a Director, the Front End Servers will assume the role.</span></span>
+<span data-ttu-id="47be2-132">在 Lync Server 2013 中，控制器服务器角色不能与任何其他服务器角色并置。</span><span class="sxs-lookup"><span data-stu-id="47be2-132">The Director server role cannot be collocated with any other server role in Lync Server 2013.</span></span> <span data-ttu-id="47be2-133">但是，如果不部署控制器，前端服务器将承担角色。</span><span class="sxs-lookup"><span data-stu-id="47be2-133">However, if you do not deploy a Director, the Front End Servers will assume the role.</span></span>
 
 </div>
 

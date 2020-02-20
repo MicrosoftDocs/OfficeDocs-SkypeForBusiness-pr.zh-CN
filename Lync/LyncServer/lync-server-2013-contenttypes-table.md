@@ -12,20 +12,20 @@ ms:contentKeyID: 48185723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 461b578613a90a0df33e3145ed19e1709db45206
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c068d0e6d72980175aa1123ece05c40bbe72239b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034944"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="contenttypes-table-in-lync-server-2013"></a><span data-ttu-id="289dd-102">Lync Server 2013 中的 ContentTypes 表</span><span class="sxs-lookup"><span data-stu-id="289dd-102">ContentTypes table in Lync Server 2013</span></span>
+# <a name="contenttypes-table-in-lync-server-2013"></a><span data-ttu-id="2c56b-102">Lync Server 2013 中的 ContentTypes 表</span><span class="sxs-lookup"><span data-stu-id="2c56b-102">ContentTypes table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42034944"
 
 <span> </span>
 
-<span data-ttu-id="289dd-103">_**上次修改的主题：** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="289dd-103">_**Topic Last Modified:** 2010-11-07_</span></span>
+<span data-ttu-id="2c56b-103">_**上次修改的主题：** 2010-11-07_</span><span class="sxs-lookup"><span data-stu-id="2c56b-103">_**Topic Last Modified:** 2010-11-07_</span></span>
 
-<span data-ttu-id="289dd-104">ContentTypes 表是一个支持表，它存储对等会话和会议会话中使用的内容类型的列表。</span><span class="sxs-lookup"><span data-stu-id="289dd-104">The ContentTypes table is a supporting table that stores a list of the content types used in both peer-to-peer sessions and conference sessions.</span></span> <span data-ttu-id="289dd-105">表中的每条记录都代表一种内容类型。</span><span class="sxs-lookup"><span data-stu-id="289dd-105">Each record in the table represents one content type.</span></span>
+<span data-ttu-id="2c56b-104">ContentTypes 表是一个支持表，它存储对等会话和会议会话中使用的内容类型的列表。</span><span class="sxs-lookup"><span data-stu-id="2c56b-104">The ContentTypes table is a supporting table that stores a list of the content types used in both peer-to-peer sessions and conference sessions.</span></span> <span data-ttu-id="2c56b-105">表中的每条记录都代表一种内容类型。</span><span class="sxs-lookup"><span data-stu-id="2c56b-105">Each record in the table represents one content type.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42034944"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="289dd-106">列</span><span class="sxs-lookup"><span data-stu-id="289dd-106">Column</span></span></th>
-<th><span data-ttu-id="289dd-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="289dd-107">Data Type</span></span></th>
-<th><span data-ttu-id="289dd-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="289dd-108">Key/Index</span></span></th>
-<th><span data-ttu-id="289dd-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="289dd-109">Details</span></span></th>
+<th><span data-ttu-id="2c56b-106">列</span><span class="sxs-lookup"><span data-stu-id="2c56b-106">Column</span></span></th>
+<th><span data-ttu-id="2c56b-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="2c56b-107">Data Type</span></span></th>
+<th><span data-ttu-id="2c56b-108">键/索引</span><span class="sxs-lookup"><span data-stu-id="2c56b-108">Key/Index</span></span></th>
+<th><span data-ttu-id="2c56b-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="2c56b-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="289dd-110"><strong>ContentTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="289dd-110"><strong>ContentTypeId</strong></span></span></p></td>
-<td><p><span data-ttu-id="289dd-111">int</span><span class="sxs-lookup"><span data-stu-id="289dd-111">int</span></span></p></td>
-<td><p><span data-ttu-id="289dd-112">主</span><span class="sxs-lookup"><span data-stu-id="289dd-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="289dd-113">标识内容类型的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="289dd-113">Unique number identifying the content type.</span></span></p></td>
+<td><p><span data-ttu-id="2c56b-110"><strong>ContentTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="2c56b-110"><strong>ContentTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="2c56b-111">int</span><span class="sxs-lookup"><span data-stu-id="2c56b-111">int</span></span></p></td>
+<td><p><span data-ttu-id="2c56b-112">主</span><span class="sxs-lookup"><span data-stu-id="2c56b-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="2c56b-113">标识内容类型的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="2c56b-113">Unique number identifying the content type.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="289dd-114"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="289dd-114"><strong>ContentType</strong></span></span></p></td>
-<td><p><span data-ttu-id="289dd-115">nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="289dd-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="2c56b-114"><strong>ContentType</strong></span><span class="sxs-lookup"><span data-stu-id="2c56b-114"><strong>ContentType</strong></span></span></p></td>
+<td><p><span data-ttu-id="2c56b-115">nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="2c56b-115">nvarchar(256)</span></span></p></td>
 <td> </td>
-<td><p><span data-ttu-id="289dd-116">内容类型名称。</span><span class="sxs-lookup"><span data-stu-id="289dd-116">Content type name.</span></span></p></td>
+<td><p><span data-ttu-id="2c56b-116">内容类型名称。</span><span class="sxs-lookup"><span data-stu-id="2c56b-116">Content type name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

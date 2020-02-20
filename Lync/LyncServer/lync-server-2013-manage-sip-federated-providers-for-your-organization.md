@@ -12,20 +12,20 @@ ms:contentKeyID: 48679566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9778e8b071cff254db289b91200279b5badf8a8c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 98110d144d6874f489c1f7c08ed8fb8f818e06fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028423"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="a0fcc-102">在 Lync Server 2013 中管理组织的 SIP 联合提供程序</span><span class="sxs-lookup"><span data-stu-id="a0fcc-102">Manage SIP federated providers for your organization in Lync Server 2013</span></span>
+# <a name="manage-sip-federated-providers-for-your-organization-in-lync-server-2013"></a><span data-ttu-id="44538-102">在 Lync Server 2013 中管理组织的 SIP 联合提供程序</span><span class="sxs-lookup"><span data-stu-id="44538-102">Manage SIP federated providers for your organization in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42028423"
 
 <span> </span>
 
-<span data-ttu-id="a0fcc-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="a0fcc-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="44538-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="44538-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="a0fcc-104">这是初步文档，可能会发生变更。</span><span class="sxs-lookup"><span data-stu-id="a0fcc-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="a0fcc-105">空白主题作为占位符包含在内。</span><span class="sxs-lookup"><span data-stu-id="a0fcc-105">Blank topics are included as placeholders.</span></span>
+<span data-ttu-id="44538-104">这是初步文档，可能会发生变更。</span><span class="sxs-lookup"><span data-stu-id="44538-104">This is preliminary documentation and is subject to change.</span></span> <span data-ttu-id="44538-105">空白主题作为占位符包含在内。</span><span class="sxs-lookup"><span data-stu-id="44538-105">Blank topics are included as placeholders.</span></span>
 
-<span data-ttu-id="a0fcc-106">要配置对 SIP 联盟提供程序用户的支持，需要执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="a0fcc-106">To configure support for users of SIP federated providers, you need to do the following:</span></span>
+<span data-ttu-id="44538-106">要配置对 SIP 联盟提供程序用户的支持，需要执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="44538-106">To configure support for users of SIP federated providers, you need to do the following:</span></span>
 
-  - <span data-ttu-id="a0fcc-107">配置一个或多个外部用户访问策略来支持与 SIP 联盟提供程序联系人进行通信</span><span class="sxs-lookup"><span data-stu-id="a0fcc-107">Configure one or more external user access policies to support communicating with SIP federated provider contacts</span></span>
+  - <span data-ttu-id="44538-107">配置一个或多个外部用户访问策略来支持与 SIP 联盟提供程序联系人进行通信</span><span class="sxs-lookup"><span data-stu-id="44538-107">Configure one or more external user access policies to support communicating with SIP federated provider contacts</span></span>
 
-  - <span data-ttu-id="a0fcc-108">指定要支持哪些托管提供程序</span><span class="sxs-lookup"><span data-stu-id="a0fcc-108">Specify which hosted providers you want to support</span></span>
+  - <span data-ttu-id="44538-108">指定要支持哪些托管提供程序</span><span class="sxs-lookup"><span data-stu-id="44538-108">Specify which hosted providers you want to support</span></span>
 
-  - <span data-ttu-id="a0fcc-109">指定要支持哪些公共 IM 提供程序</span><span class="sxs-lookup"><span data-stu-id="a0fcc-109">Specify which public IM providers you want to support</span></span>
+  - <span data-ttu-id="44538-109">指定要支持哪些公共 IM 提供程序</span><span class="sxs-lookup"><span data-stu-id="44538-109">Specify which public IM providers you want to support</span></span>
 
-<span data-ttu-id="a0fcc-110">要执行这些任务，请使用本节中的过程。</span><span class="sxs-lookup"><span data-stu-id="a0fcc-110">To perform these tasks, use the procedures in this section.</span></span>
+<span data-ttu-id="44538-110">要执行这些任务，请使用本节中的过程。</span><span class="sxs-lookup"><span data-stu-id="44538-110">To perform these tasks, use the procedures in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a0fcc-111">本部分内容</span><span class="sxs-lookup"><span data-stu-id="a0fcc-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="44538-111">本部分内容</span><span class="sxs-lookup"><span data-stu-id="44538-111">In This Section</span></span>
 
-  - [<span data-ttu-id="a0fcc-112">在 Lync Server 2013 中创建或编辑公共 SIP 联合提供程序</span><span class="sxs-lookup"><span data-stu-id="a0fcc-112">Create or edit public SIP federated providers in Lync Server 2013</span></span>](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
+  - [<span data-ttu-id="44538-112">在 Lync Server 2013 中创建或编辑公共 SIP 联合提供程序</span><span class="sxs-lookup"><span data-stu-id="44538-112">Create or edit public SIP federated providers in Lync Server 2013</span></span>](lync-server-2013-create-or-edit-public-sip-federated-providers.md)
 
-  - [<span data-ttu-id="a0fcc-113">创建或编辑托管的 SIP 联合提供商 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0fcc-113">Create or edit hosted SIP federated providers Lync Server 2013</span></span>](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+  - [<span data-ttu-id="44538-113">创建或编辑托管的 SIP 联合提供商 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44538-113">Create or edit hosted SIP federated providers Lync Server 2013</span></span>](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 </div>
 

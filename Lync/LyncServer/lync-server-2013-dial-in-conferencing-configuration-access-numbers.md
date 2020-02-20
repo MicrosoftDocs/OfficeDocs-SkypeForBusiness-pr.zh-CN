@@ -12,20 +12,20 @@ ms:contentKeyID: 49733858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 997d343d535c54a493125978a73c0a53d0a4ca44
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 269392d57ef9004e1fa764bf8897dc8315b8afd1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044664"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153894"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-in-lync-server-2013-configurationaccess-numbers"></a><span data-ttu-id="2fac4-102">Lync Server 2013 中的电话拨入式会议（配置/访问号码）</span><span class="sxs-lookup"><span data-stu-id="2fac4-102">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>
+# <a name="dial-in-conferencing-in-lync-server-2013-configurationaccess-numbers"></a><span data-ttu-id="27c10-102">Lync Server 2013 中的电话拨入式会议（配置/访问号码）</span><span class="sxs-lookup"><span data-stu-id="27c10-102">Dial-in conferencing in Lync Server 2013 (configuration/access numbers)</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42044664"
 
 <span> </span>
 
-<span data-ttu-id="2fac4-103">_**上次修改的主题：** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="2fac4-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="27c10-103">_**上次修改的主题：** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="27c10-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="2fac4-104">本节中的主题介绍如何使用 Lync Server 2013 控制面板将电话拨入式会议配置为使用 Lync Server 2013 环境。</span><span class="sxs-lookup"><span data-stu-id="2fac4-104">The topics in this section describe how to use Lync Server 2013 Control Panel to configure dial-in conferencing for use your Lync Server 2013 environment.</span></span>
+<span data-ttu-id="27c10-104">本节中的主题介绍如何使用 Lync Server 2013 控制面板将电话拨入式会议配置为使用 Lync Server 2013 环境。</span><span class="sxs-lookup"><span data-stu-id="27c10-104">The topics in this section describe how to use Lync Server 2013 Control Panel to configure dial-in conferencing for use your Lync Server 2013 environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2fac4-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="2fac4-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="27c10-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="27c10-105">In This Section</span></span>
 
-  - [<span data-ttu-id="2fac4-106">在 Lync Server 2013 中为会议启用或禁用电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="2fac4-106">Enable or disable dial-in conferencing for meetings in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
+  - [<span data-ttu-id="27c10-106">在 Lync Server 2013 中为会议启用或禁用电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="27c10-106">Enable or disable dial-in conferencing for meetings in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-dial-in-conferencing-for-meetings.md)
 
-  - [<span data-ttu-id="2fac4-107">Lync Server 2013 中的电话拨入式会议访问号码</span><span class="sxs-lookup"><span data-stu-id="2fac4-107">Dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-access-numbers.md)
+  - [<span data-ttu-id="27c10-107">Lync Server 2013 中的电话拨入式会议访问号码</span><span class="sxs-lookup"><span data-stu-id="27c10-107">Dial-in conferencing access numbers in Lync Server 2013</span></span>](lync-server-2013-dial-in-conferencing-access-numbers.md)
 
-  - [<span data-ttu-id="2fac4-108">在 Lync Server 2013 中配置电话拨入式会议个人标识号码（PIN）规则</span><span class="sxs-lookup"><span data-stu-id="2fac4-108">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
+  - [<span data-ttu-id="27c10-108">在 Lync Server 2013 中配置电话拨入式会议个人标识号码（PIN）规则</span><span class="sxs-lookup"><span data-stu-id="27c10-108">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
 
 </div>
 
