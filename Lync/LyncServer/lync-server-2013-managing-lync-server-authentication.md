@@ -12,20 +12,20 @@ ms:contentKeyID: 49733835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0995c141c21fd24be8da31b36c483e04c626127d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1f7f455825faebe983ae28f733675a69ad1d53a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043074"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-authentication"></a><span data-ttu-id="67dcc-102">管理 Lync Server 2013 身份验证</span><span class="sxs-lookup"><span data-stu-id="67dcc-102">Managing Lync Server 2013 authentication</span></span>
+# <a name="managing-lync-server-2013-authentication"></a><span data-ttu-id="f7ab0-102">管理 Lync Server 2013 身份验证</span><span class="sxs-lookup"><span data-stu-id="f7ab0-102">Managing Lync Server 2013 authentication</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42043074"
 
 <span> </span>
 
-<span data-ttu-id="67dcc-103">_**上次修改的主题：** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="67dcc-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="f7ab0-103">_**上次修改的主题：** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="f7ab0-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="67dcc-104">使用以下过程可管理 Lync Server 2013 安全性和身份验证。</span><span class="sxs-lookup"><span data-stu-id="67dcc-104">Use the following procedures to manage Lync Server 2013 security and authentication.</span></span>
+<span data-ttu-id="f7ab0-104">使用以下过程可管理 Lync Server 2013 安全性和身份验证。</span><span class="sxs-lookup"><span data-stu-id="f7ab0-104">Use the following procedures to manage Lync Server 2013 security and authentication.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="67dcc-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="67dcc-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f7ab0-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="f7ab0-105">In this section</span></span>
 
-  - [<span data-ttu-id="67dcc-106">在 Lync Server 2013 中管理操作进程的证书</span><span class="sxs-lookup"><span data-stu-id="67dcc-106">Managing certificates for operational processes in Lync Server 2013</span></span>](lync-server-2013-managing-certificates-for-operational-processes.md)
+  - [<span data-ttu-id="f7ab0-106">在 Lync Server 2013 中管理操作进程的证书</span><span class="sxs-lookup"><span data-stu-id="f7ab0-106">Managing certificates for operational processes in Lync Server 2013</span></span>](lync-server-2013-managing-certificates-for-operational-processes.md)
 
-  - [<span data-ttu-id="67dcc-107">在 Lync Server 2013 中管理服务器到服务器的身份验证（OAuth）和合作伙伴应用程序</span><span class="sxs-lookup"><span data-stu-id="67dcc-107">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</span></span>](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
+  - [<span data-ttu-id="f7ab0-107">在 Lync Server 2013 中管理服务器到服务器的身份验证（OAuth）和合作伙伴应用程序</span><span class="sxs-lookup"><span data-stu-id="f7ab0-107">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</span></span>](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)
 
-  - [<span data-ttu-id="67dcc-108">在 Lync Server 2013 控制面板中配置身份验证</span><span class="sxs-lookup"><span data-stu-id="67dcc-108">Configuring authentication in the Lync Server 2013 Control Panel</span></span>](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
+  - [<span data-ttu-id="f7ab0-108">在 Lync Server 2013 控制面板中配置身份验证</span><span class="sxs-lookup"><span data-stu-id="f7ab0-108">Configuring authentication in the Lync Server 2013 Control Panel</span></span>](lync-server-2013-configuring-authentication-in-the-lync-server-control-panel.md)
 
-  - [<span data-ttu-id="67dcc-109">在 Lync Server 2013 中管理 PIN 设置</span><span class="sxs-lookup"><span data-stu-id="67dcc-109">Managing PIN settings in Lync Server 2013</span></span>](lync-server-2013-managing-pin-settings.md)
+  - [<span data-ttu-id="f7ab0-109">在 Lync Server 2013 中管理 PIN 设置</span><span class="sxs-lookup"><span data-stu-id="f7ab0-109">Managing PIN settings in Lync Server 2013</span></span>](lync-server-2013-managing-pin-settings.md)
 
 </div>
 

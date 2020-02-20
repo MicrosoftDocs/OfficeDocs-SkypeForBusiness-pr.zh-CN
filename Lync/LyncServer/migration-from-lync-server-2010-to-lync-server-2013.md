@@ -12,20 +12,20 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cab7ac790d08a848cb90a609720c237c4c20062
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0688fc80bb763a4b5aa3e7ff10970cef96465b84
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035928"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148781"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a><span data-ttu-id="544d2-102">从 Lync Server 2010 迁移到 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="544d2-102">Migration from Lync Server 2010 to Lync Server 2013</span></span>
+# <a name="migration-from-lync-server-2010-to-lync-server-2013"></a><span data-ttu-id="5e2e6-102">从 Lync Server 2010 迁移到 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5e2e6-102">Migration from Lync Server 2010 to Lync Server 2013</span></span>
 
 </div>
 
@@ -35,63 +35,63 @@ ms.locfileid: "42035928"
 
 <span> </span>
 
-<span data-ttu-id="544d2-103">_**上次修改的主题：** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="544d2-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="5e2e6-103">_**上次修改的主题：** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="5e2e6-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="544d2-104">本节中的主题将指导您完成从 Lync Server 2010 迁移到 Lync Server 2013 的过程。</span><span class="sxs-lookup"><span data-stu-id="544d2-104">The topics in this section guide you through the process of migrating from Lync Server 2010 to Lync Server 2013.</span></span>
+<span data-ttu-id="5e2e6-104">本节中的主题将指导您完成从 Lync Server 2010 迁移到 Lync Server 2013 的过程。</span><span class="sxs-lookup"><span data-stu-id="5e2e6-104">The topics in this section guide you through the process of migrating from Lync Server 2010 to Lync Server 2013.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="544d2-p101">本文档介绍完成迁移的每个阶段通常需要执行的步骤。它并非适用于每种可能的旧部署拓扑或每种可能的迁移方案。因此，您可能不需要执行所述的每个步骤，也可能需要执行额外步骤，具体取决于您的部署。本文档还提供了验证步骤的示例。提供这些验证步骤是为了帮助您了解需要查看哪些内容，以确保执行迁移时每个阶段都成功完成。请根据您的特定迁移过程定制这些验证步骤。</span><span class="sxs-lookup"><span data-stu-id="544d2-p101">This document describes the steps generally required to accomplish each phase of migration. It does not address every possible legacy deployment topology or every possible migration scenario. Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment. This document also provides examples of verification steps. These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration. Tailor these verification steps to your specific migration process.</span></span>
+> <span data-ttu-id="5e2e6-p101">本文档介绍完成迁移的每个阶段通常需要执行的步骤。它并非适用于每种可能的旧部署拓扑或每种可能的迁移方案。因此，您可能不需要执行所述的每个步骤，也可能需要执行额外步骤，具体取决于您的部署。本文档还提供了验证步骤的示例。提供这些验证步骤是为了帮助您了解需要查看哪些内容，以确保执行迁移时每个阶段都成功完成。请根据您的特定迁移过程定制这些验证步骤。</span><span class="sxs-lookup"><span data-stu-id="5e2e6-p101">This document describes the steps generally required to accomplish each phase of migration. It does not address every possible legacy deployment topology or every possible migration scenario. Therefore, you may not need to perform every step described, or you may need to perform additional steps, depending on your deployment. This document also provides examples of verification steps. These verification steps are provided to help you understand what you need to look for to ensure that each phase completes successfully as you progress through your migration. Tailor these verification steps to your specific migration process.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="544d2-p102">本指南提供专用于升级现有部署的信息。它未解释如何更改现有拓扑。本指南不涉及新功能的实现。如果本指南中的某个过程已在其他文档中得到详细说明，本指南将为您指出相应的文档名称或文档章节。</span><span class="sxs-lookup"><span data-stu-id="544d2-p102">This guide provides information specific to upgrading your existing deployment. It does not explain how to change your existing topology. This guide does not cover the implementation of new features. When a detailed procedure is documented elsewhere, this guide directs you to the appropriate document or document section.</span></span>
+<span data-ttu-id="5e2e6-p102">本指南提供专用于升级现有部署的信息。它未解释如何更改现有拓扑。本指南不涉及新功能的实现。如果本指南中的某个过程已在其他文档中得到详细说明，本指南将为您指出相应的文档名称或文档章节。</span><span class="sxs-lookup"><span data-stu-id="5e2e6-p102">This guide provides information specific to upgrading your existing deployment. It does not explain how to change your existing topology. This guide does not cover the implementation of new features. When a detailed procedure is documented elsewhere, this guide directs you to the appropriate document or document section.</span></span>
 
-<span data-ttu-id="544d2-115">在本文档中，术语的定义如以下列表所示。</span><span class="sxs-lookup"><span data-stu-id="544d2-115">This document defines terms as specified in the following list.</span></span>
+<span data-ttu-id="5e2e6-115">在本文档中，术语的定义如以下列表所示。</span><span class="sxs-lookup"><span data-stu-id="5e2e6-115">This document defines terms as specified in the following list.</span></span>
 
-  - <span data-ttu-id="544d2-116">*迁移*</span><span class="sxs-lookup"><span data-stu-id="544d2-116">*migration*</span></span>  
-    <span data-ttu-id="544d2-117">将你的生产部署从以前版本的 Lync Server 2010 迁移到 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="544d2-117">Moving your production deployment from a previous version of Lync Server 2010 to Lync Server 2013.</span></span>
-
-<!-- end list -->
-
-  - <span data-ttu-id="544d2-118">*升级*</span><span class="sxs-lookup"><span data-stu-id="544d2-118">*upgrade*</span></span>  
-    <span data-ttu-id="544d2-119">在服务器或客户端计算机上安装软件的更高版本。</span><span class="sxs-lookup"><span data-stu-id="544d2-119">Installing a newer version of software on a server or client computer.</span></span>
+  - <span data-ttu-id="5e2e6-116">*迁移*</span><span class="sxs-lookup"><span data-stu-id="5e2e6-116">*migration*</span></span>  
+    <span data-ttu-id="5e2e6-117">将你的生产部署从以前版本的 Lync Server 2010 迁移到 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="5e2e6-117">Moving your production deployment from a previous version of Lync Server 2010 to Lync Server 2013.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="544d2-120">*共存*</span><span class="sxs-lookup"><span data-stu-id="544d2-120">*coexistence*</span></span>  
-    <span data-ttu-id="544d2-121">在迁移过程中，如果将某些功能迁移到 Lync Server 2013，并且其他功能仍保留在以前版本的 Lync Server 2010 中，则在迁移过程中存在的临时环境。</span><span class="sxs-lookup"><span data-stu-id="544d2-121">The temporary environment that exists during migration when some functionality has been migrated to Lync Server 2013 and other functionality still remains on a prior version of Lync Server 2010.</span></span>
+  - <span data-ttu-id="5e2e6-118">*升级*</span><span class="sxs-lookup"><span data-stu-id="5e2e6-118">*upgrade*</span></span>  
+    <span data-ttu-id="5e2e6-119">在服务器或客户端计算机上安装软件的更高版本。</span><span class="sxs-lookup"><span data-stu-id="5e2e6-119">Installing a newer version of software on a server or client computer.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="544d2-122">*相互*</span><span class="sxs-lookup"><span data-stu-id="544d2-122">*interoperability*</span></span>  
-    <span data-ttu-id="544d2-123">在共存阶段部署能够正常运行的能力。</span><span class="sxs-lookup"><span data-stu-id="544d2-123">The ability of your deployment to operate successfully during the period of coexistence.</span></span>
+  - <span data-ttu-id="5e2e6-120">*共存*</span><span class="sxs-lookup"><span data-stu-id="5e2e6-120">*coexistence*</span></span>  
+    <span data-ttu-id="5e2e6-121">在迁移过程中，如果将某些功能迁移到 Lync Server 2013，并且其他功能仍保留在以前版本的 Lync Server 2010 中，则在迁移过程中存在的临时环境。</span><span class="sxs-lookup"><span data-stu-id="5e2e6-121">The temporary environment that exists during migration when some functionality has been migrated to Lync Server 2013 and other functionality still remains on a prior version of Lync Server 2010.</span></span>
+
+<!-- end list -->
+
+  - <span data-ttu-id="5e2e6-122">*相互*</span><span class="sxs-lookup"><span data-stu-id="5e2e6-122">*interoperability*</span></span>  
+    <span data-ttu-id="5e2e6-123">在共存阶段部署能够正常运行的能力。</span><span class="sxs-lookup"><span data-stu-id="5e2e6-123">The ability of your deployment to operate successfully during the period of coexistence.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="544d2-124">本节内容</span><span class="sxs-lookup"><span data-stu-id="544d2-124">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5e2e6-124">本节内容</span><span class="sxs-lookup"><span data-stu-id="5e2e6-124">In This Section</span></span>
 
-  - [<span data-ttu-id="544d2-125">开始迁移之前的准备工作</span><span class="sxs-lookup"><span data-stu-id="544d2-125">Before you begin the migration</span></span>](before-you-begin-the-migration.md)
+  - [<span data-ttu-id="5e2e6-125">开始迁移之前的准备工作</span><span class="sxs-lookup"><span data-stu-id="5e2e6-125">Before you begin the migration</span></span>](before-you-begin-the-migration.md)
 
-  - [<span data-ttu-id="544d2-126">第1阶段：从 Lync Server 2010 规划迁移</span><span class="sxs-lookup"><span data-stu-id="544d2-126">Phase 1: Plan your migration from Lync Server 2010</span></span>](phase-1-plan-your-migration-from-lync-server-2010.md)
+  - [<span data-ttu-id="5e2e6-126">第1阶段：从 Lync Server 2010 规划迁移</span><span class="sxs-lookup"><span data-stu-id="5e2e6-126">Phase 1: Plan your migration from Lync Server 2010</span></span>](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-  - [<span data-ttu-id="544d2-127">第2阶段：准备迁移</span><span class="sxs-lookup"><span data-stu-id="544d2-127">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration.md)
+  - [<span data-ttu-id="5e2e6-127">第2阶段：准备迁移</span><span class="sxs-lookup"><span data-stu-id="5e2e6-127">Phase 2: Prepare for migration</span></span>](phase-2-prepare-for-migration.md)
 
-  - [<span data-ttu-id="544d2-128">第3阶段：部署 Lync Server 2013 试点池</span><span class="sxs-lookup"><span data-stu-id="544d2-128">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool.md)
+  - [<span data-ttu-id="5e2e6-128">第3阶段：部署 Lync Server 2013 试点池</span><span class="sxs-lookup"><span data-stu-id="5e2e6-128">Phase 3: Deploy Lync Server 2013 pilot pool</span></span>](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
-  - [<span data-ttu-id="544d2-129">第4阶段：将测试用户移动到引导池</span><span class="sxs-lookup"><span data-stu-id="544d2-129">Phase 4: Move test users to the pilot pool</span></span>](phase-4-move-test-users-to-the-pilot-pool.md)
+  - [<span data-ttu-id="5e2e6-129">第4阶段：将测试用户移动到引导池</span><span class="sxs-lookup"><span data-stu-id="5e2e6-129">Phase 4: Move test users to the pilot pool</span></span>](phase-4-move-test-users-to-the-pilot-pool.md)
 
-  - [<span data-ttu-id="544d2-130">第5阶段：将 Lync Server 2013 边缘服务器添加到引导池</span><span class="sxs-lookup"><span data-stu-id="544d2-130">Phase 5: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [<span data-ttu-id="5e2e6-130">第5阶段：将 Lync Server 2013 边缘服务器添加到引导池</span><span class="sxs-lookup"><span data-stu-id="5e2e6-130">Phase 5: Add Lync Server 2013 Edge Server to pilot pool</span></span>](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [<span data-ttu-id="544d2-131">第6阶段：从试点部署移动到生产环境</span><span class="sxs-lookup"><span data-stu-id="544d2-131">Phase 6: Move from pilot deployment into production</span></span>](phase-6-move-from-pilot-deployment-into-production.md)
+  - [<span data-ttu-id="5e2e6-131">第6阶段：从试点部署移动到生产环境</span><span class="sxs-lookup"><span data-stu-id="5e2e6-131">Phase 6: Move from pilot deployment into production</span></span>](phase-6-move-from-pilot-deployment-into-production.md)
 
-  - [<span data-ttu-id="544d2-132">第7阶段：完成迁移后任务</span><span class="sxs-lookup"><span data-stu-id="544d2-132">Phase 7: Complete post-migration tasks</span></span>](phase-7-complete-post-migration-tasks.md)
+  - [<span data-ttu-id="5e2e6-132">第7阶段：完成迁移后任务</span><span class="sxs-lookup"><span data-stu-id="5e2e6-132">Phase 7: Complete post-migration tasks</span></span>](phase-7-complete-post-migration-tasks.md)
 
-  - [<span data-ttu-id="544d2-133">第8阶段：停止旧版池</span><span class="sxs-lookup"><span data-stu-id="544d2-133">Phase 8: Decommission legacy pools</span></span>](phase-8-decommission-legacy-pools.md)
+  - [<span data-ttu-id="5e2e6-133">第8阶段：停止旧版池</span><span class="sxs-lookup"><span data-stu-id="5e2e6-133">Phase 8: Decommission legacy pools</span></span>](phase-8-decommission-legacy-pools.md)
 
 </div>
 

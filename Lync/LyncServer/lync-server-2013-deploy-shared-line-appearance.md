@@ -12,20 +12,20 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1523a48b5d9056b1cca532a7edb1c826af841b8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9e8833c94968f266ddc5c9b218b2097068341e25
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036894"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a><span data-ttu-id="85562-102">在 Lync Server 2013 中部署共享线路外观</span><span class="sxs-lookup"><span data-stu-id="85562-102">Deploy Shared Line Appearance in Lync Server 2013</span></span>
+# <a name="deploy-shared-line-appearance-in-lync-server-2013"></a><span data-ttu-id="2d5a5-102">在 Lync Server 2013 中部署共享线路外观</span><span class="sxs-lookup"><span data-stu-id="2d5a5-102">Deploy Shared Line Appearance in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "42036894"
 
 <span> </span>
 
-<span data-ttu-id="85562-103">_**上次修改的主题：** 2016-06-13_</span><span class="sxs-lookup"><span data-stu-id="85562-103">_**Topic Last Modified:** 2016-06-13_</span></span>
+<span data-ttu-id="2d5a5-103">_**上次修改的主题：** 2016-06-13_</span><span class="sxs-lookup"><span data-stu-id="2d5a5-103">_**Topic Last Modified:** 2016-06-13_</span></span>
 
-<span data-ttu-id="85562-104">阅读本主题，了解如何在 Lync Server 2013 中部署共享线路外观（SLA），累积更新4月2016。</span><span class="sxs-lookup"><span data-stu-id="85562-104">Read this topic to learn how to deploy Shared Line Appearance (SLA) in Lync Server 2013, Cumulative Update April 2016.</span></span> <span data-ttu-id="85562-105">SLA 是一项用于处理对特定号码（称为共享号码）的多个呼叫的功能。</span><span class="sxs-lookup"><span data-stu-id="85562-105">SLA is a feature for handling multiple calls on a specific number called a shared number.</span></span>
+<span data-ttu-id="2d5a5-104">阅读本主题，了解如何在 Lync Server 2013 中部署共享线路外观（SLA），累积更新4月2016。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-104">Read this topic to learn how to deploy Shared Line Appearance (SLA) in Lync Server 2013, Cumulative Update April 2016.</span></span> <span data-ttu-id="2d5a5-105">SLA 是一项用于处理对特定号码（称为共享号码）的多个呼叫的功能。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-105">SLA is a feature for handling multiple calls on a specific number called a shared number.</span></span>
 
-<span data-ttu-id="85562-106">有关此功能的详细信息，请参阅[在 Lync Server 2013 中规划共享线路外观](lync-server-2013-plan-for-shared-line-appearance.md)。</span><span class="sxs-lookup"><span data-stu-id="85562-106">For more information about this feature, see [Plan for Shared Line Appearance in Lync Server 2013](lync-server-2013-plan-for-shared-line-appearance.md).</span></span>
+<span data-ttu-id="2d5a5-106">有关此功能的详细信息，请参阅[在 Lync Server 2013 中规划共享线路外观](lync-server-2013-plan-for-shared-line-appearance.md)。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-106">For more information about this feature, see [Plan for Shared Line Appearance in Lync Server 2013](lync-server-2013-plan-for-shared-line-appearance.md).</span></span>
 
-<span data-ttu-id="85562-107">共享线路外观（SLA）是 Lync Server 2013 中的一项新功能，累积更新4月2016。</span><span class="sxs-lookup"><span data-stu-id="85562-107">Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Update April 2016.</span></span> <span data-ttu-id="85562-108">若要启用此功能，必须先部署此累积更新。</span><span class="sxs-lookup"><span data-stu-id="85562-108">To enable this feature, you must have first deployed this cumulative update.</span></span>
+<span data-ttu-id="2d5a5-107">共享线路外观（SLA）是 Lync Server 2013 中的一项新功能，累积更新4月2016。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-107">Shared Line Appearance (SLA) is a new feature in Lync Server 2013, Cumulative Update April 2016.</span></span> <span data-ttu-id="2d5a5-108">若要启用此功能，必须先部署此累积更新。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-108">To enable this feature, you must have first deployed this cumulative update.</span></span>
 
 <div>
 
-## <a name="install-shared-line-appearance"></a><span data-ttu-id="85562-109">安装共享线路外观</span><span class="sxs-lookup"><span data-stu-id="85562-109">Install Shared Line Appearance</span></span>
+## <a name="install-shared-line-appearance"></a><span data-ttu-id="2d5a5-109">安装共享线路外观</span><span class="sxs-lookup"><span data-stu-id="2d5a5-109">Install Shared Line Appearance</span></span>
 
-1.  <span data-ttu-id="85562-110">在 Lync Server 2013 中，部署了累积更新4月2016，默认情况下不启用 SLA 应用程序。</span><span class="sxs-lookup"><span data-stu-id="85562-110">After Lync Server 2013, Cumulative Update April 2016 is deployed, the SLA application is not enabled by default.</span></span> <span data-ttu-id="85562-111">若要启用应用程序，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="85562-111">To enable the application, follow the steps below:</span></span>
+1.  <span data-ttu-id="2d5a5-110">在 Lync Server 2013 中，部署了累积更新4月2016，默认情况下不启用 SLA 应用程序。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-110">After Lync Server 2013, Cumulative Update April 2016 is deployed, the SLA application is not enabled by default.</span></span> <span data-ttu-id="2d5a5-111">若要启用应用程序，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-111">To enable the application, follow the steps below:</span></span>
     
-    1.  <span data-ttu-id="85562-112">通过对每个池运行以下命令，将 SLA 注册为服务器应用程序：</span><span class="sxs-lookup"><span data-stu-id="85562-112">Register SLA as a server application by running the following command for each pool:</span></span>
+    1.  <span data-ttu-id="2d5a5-112">通过对每个池运行以下命令，将 SLA 注册为服务器应用程序：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-112">Register SLA as a server application by running the following command for each pool:</span></span>
         ```powershell
         New-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
-                        http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
+                        https://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
                         $true -Priority (Get-CsServerApplication -Identity
                         'Service:Registrar:%FQDN%/UserServices').Priority 
         ```
-        <span data-ttu-id="85562-113">其中，% FQDN% 是池的完全限定的域名。</span><span class="sxs-lookup"><span data-stu-id="85562-113">where %FQDN% is the fully qualified domain name of the pool.</span></span>
+        <span data-ttu-id="2d5a5-113">其中，% FQDN% 是池的完全限定的域名。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-113">where %FQDN% is the fully qualified domain name of the pool.</span></span>
     
-    2.  <span data-ttu-id="85562-114">运行以下命令以更新 SLA cmdlet 的 RBAC 角色：</span><span class="sxs-lookup"><span data-stu-id="85562-114">Run the following command to update the RBAC roles for the SLA cmdlets:</span></span>
+    2.  <span data-ttu-id="2d5a5-114">运行以下命令以更新 SLA cmdlet 的 RBAC 角色：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-114">Run the following command to update the RBAC roles for the SLA cmdlets:</span></span>
         ```powershell
         Update-CsAdminRole 
         ```
-    3.  <span data-ttu-id="85562-115">在已安装并启用了 SLA 的所有池中重新启动所有前端服务器（RTCSRV 服务）：</span><span class="sxs-lookup"><span data-stu-id="85562-115">Restart all the Front End Servers (RTCSRV service) in all the pools where SLA was installed and enabled:</span></span>
+    3.  <span data-ttu-id="2d5a5-115">在已安装并启用了 SLA 的所有池中重新启动所有前端服务器（RTCSRV 服务）：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-115">Restart all the Front End Servers (RTCSRV service) in all the pools where SLA was installed and enabled:</span></span>
         
         ```powershell 
         Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
@@ -74,59 +74,59 @@ ms.locfileid: "42036894"
 
 <div>
 
-## <a name="create-an-sla-group-and-add-users-to-it"></a><span data-ttu-id="85562-116">创建 SLA 组并向其添加用户</span><span class="sxs-lookup"><span data-stu-id="85562-116">Create an SLA group and add users to it</span></span>
+## <a name="create-an-sla-group-and-add-users-to-it"></a><span data-ttu-id="2d5a5-116">创建 SLA 组并向其添加用户</span><span class="sxs-lookup"><span data-stu-id="2d5a5-116">Create an SLA group and add users to it</span></span>
 
-1.  <span data-ttu-id="85562-117">使用[set-csslaconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) CMDLET 创建 SLA 组：</span><span class="sxs-lookup"><span data-stu-id="85562-117">Create the SLA group by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
+1.  <span data-ttu-id="2d5a5-117">使用[set-csslaconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) CMDLET 创建 SLA 组：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-117">Create the SLA group by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
                 -MaxNumberOfCalls <Number> -BusyOption
                 <BusyOnBusy|Voicemail|Forward> [-Target
                 <TargetUserOrPhoneNumber>]
     ```
-    <span data-ttu-id="85562-118">Set-csslaconfiguration cmdlet 将企业语音帐户 SLAGroup1 标记为 SLA 实体，SLAGroup1 数将成为 SLA 组的编号。</span><span class="sxs-lookup"><span data-stu-id="85562-118">The Set-CsSlaConfiguration cmdlet marks the Enterprise Voice account SLAGroup1 as an SLA entity, and the number of SLAGroup1 becomes the number for the SLA group.</span></span> <span data-ttu-id="85562-119">对 SLAGroup1 的所有呼叫都将拨打整个 SLA 组。</span><span class="sxs-lookup"><span data-stu-id="85562-119">All calls to SLAGroup1 will ring the entire SLA group.</span></span>
+    <span data-ttu-id="2d5a5-118">Set-csslaconfiguration cmdlet 将企业语音帐户 SLAGroup1 标记为 SLA 实体，SLAGroup1 数将成为 SLA 组的编号。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-118">The Set-CsSlaConfiguration cmdlet marks the Enterprise Voice account SLAGroup1 as an SLA entity, and the number of SLAGroup1 becomes the number for the SLA group.</span></span> <span data-ttu-id="2d5a5-119">对 SLAGroup1 的所有呼叫都将拨打整个 SLA 组。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-119">All calls to SLAGroup1 will ring the entire SLA group.</span></span>
     
-    <span data-ttu-id="85562-120">下面的示例为现有企业语音用户 SLAGroup1 创建 SLA 组，并使用分配给 SLAGroup1 的号码作为 SLA 主线编号。</span><span class="sxs-lookup"><span data-stu-id="85562-120">The following example creates an SLA group for an existing Enterprise Voice user, SLAGroup1, and uses the number assigned for SLAGroup1 as the SLA mainline number.</span></span>
+    <span data-ttu-id="2d5a5-120">下面的示例为现有企业语音用户 SLAGroup1 创建 SLA 组，并使用分配给 SLAGroup1 的号码作为 SLA 主线编号。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-120">The following example creates an SLA group for an existing Enterprise Voice user, SLAGroup1, and uses the number assigned for SLAGroup1 as the SLA mainline number.</span></span>
     
-    <span data-ttu-id="85562-121">该命令将新 SLA 组的最大并发呼叫数设置为3，而超出该限制的呼叫数会听到占线信号：</span><span class="sxs-lookup"><span data-stu-id="85562-121">The command sets the maximum number of concurrent calls for the new SLA group to 3, and for calls in excess of that to hear a busy signal:</span></span>
+    <span data-ttu-id="2d5a5-121">该命令将新 SLA 组的最大并发呼叫数设置为3，而超出该限制的呼叫数会听到占线信号：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-121">The command sets the maximum number of concurrent calls for the new SLA group to 3, and for calls in excess of that to hear a busy signal:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
                 -BusyOption BusyOnBusy
     ```
-    <span data-ttu-id="85562-122">您可以使用 Set-csslaconfiguration 创建新的 SLA 组或修改现有 SLA 组。</span><span class="sxs-lookup"><span data-stu-id="85562-122">You can use Set-CsSlaConfiguration to create a new SLA group or modify an existing one.</span></span>
+    <span data-ttu-id="2d5a5-122">您可以使用 Set-csslaconfiguration 创建新的 SLA 组或修改现有 SLA 组。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-122">You can use Set-CsSlaConfiguration to create a new SLA group or modify an existing one.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="85562-123">请注意，指定的必须<CODE>-Identity</CODE>是有效的现有企业语音的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="85562-123">Note that what you specify for <CODE>-Identity</CODE> must be a valid existing Enterprise Voice-enabled user account.</span></span>
+    > <span data-ttu-id="2d5a5-123">请注意，指定的必须<CODE>-Identity</CODE>是有效的现有企业语音的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-123">Note that what you specify for <CODE>-Identity</CODE> must be a valid existing Enterprise Voice-enabled user account.</span></span>
 
     
     </div>
 
-2.  <span data-ttu-id="85562-124">使用[CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) cmdlet 向组添加委派：</span><span class="sxs-lookup"><span data-stu-id="85562-124">Add delegates to the group by using the [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) cmdlet:</span></span>
+2.  <span data-ttu-id="2d5a5-124">使用[CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) cmdlet 向组添加委派：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-124">Add delegates to the group by using the [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates) cmdlet:</span></span>
     ```powershell
     Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
               <NameOfDelegate@domain>
     ```
-    <span data-ttu-id="85562-125">下面的示例将用户添加到 SLA 组。</span><span class="sxs-lookup"><span data-stu-id="85562-125">The following example adds a user to the SLA group.</span></span> <span data-ttu-id="85562-126">添加到该组的每个用户都必须是有效的企业语音启用的用户：</span><span class="sxs-lookup"><span data-stu-id="85562-126">Each user added to the group must be a valid Enterprise Voice-enabled user:</span></span>
+    <span data-ttu-id="2d5a5-125">下面的示例将用户添加到 SLA 组。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-125">The following example adds a user to the SLA group.</span></span> <span data-ttu-id="2d5a5-126">添加到该组的每个用户都必须是有效的企业语音启用的用户：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-126">Each user added to the group must be a valid Enterprise Voice-enabled user:</span></span>
     ```powershell
     Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
               sip:SLA_Delegate1@contoso.com
     ```
-    <span data-ttu-id="85562-127">为要添加到组中的每个用户重复此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="85562-127">Repeat the cmdlet for each user you want to add to the group.</span></span> <span data-ttu-id="85562-128">用户只能属于一个 SLA 组。</span><span class="sxs-lookup"><span data-stu-id="85562-128">Users can only belong to a single SLA group.</span></span>
+    <span data-ttu-id="2d5a5-127">为要添加到组中的每个用户重复此 cmdlet。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-127">Repeat the cmdlet for each user you want to add to the group.</span></span> <span data-ttu-id="2d5a5-128">用户只能属于一个 SLA 组。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-128">Users can only belong to a single SLA group.</span></span>
 
 </div>
 
 <div>
 
-## <a name="configure-the-sla-group-busy-option"></a><span data-ttu-id="85562-129">配置 SLA 组忙碌选项</span><span class="sxs-lookup"><span data-stu-id="85562-129">Configure the SLA group Busy Option</span></span>
+## <a name="configure-the-sla-group-busy-option"></a><span data-ttu-id="2d5a5-129">配置 SLA 组忙碌选项</span><span class="sxs-lookup"><span data-stu-id="2d5a5-129">Configure the SLA group Busy Option</span></span>
 
-1.  <span data-ttu-id="85562-130">使用[set-csslaconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) CMDLET 配置 SLA 组忙碌选项：</span><span class="sxs-lookup"><span data-stu-id="85562-130">Configure the SLA group Busy Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
+1.  <span data-ttu-id="2d5a5-130">使用[set-csslaconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) CMDLET 配置 SLA 组忙碌选项：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-130">Configure the SLA group Busy Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity <IdentityOfGroup>
               -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
     ```
-    <span data-ttu-id="85562-131">以下示例将超过要转接到电话号码202-555-1234 的最大并发呼叫数设置为呼叫。</span><span class="sxs-lookup"><span data-stu-id="85562-131">The following example sets calls that exceed the maximum number of concurrent calls to be forwarded to the telephone number 202-555-1234.</span></span> <span data-ttu-id="85562-132">目标可以是组织中的用户，而不是电话号码;在这种情况下，接收转发呼叫的人的语法与您指定代理时的语法相同： `sip:<NameofDelegate@domain>`。</span><span class="sxs-lookup"><span data-stu-id="85562-132">The target could be a user in your organization instead of a phone number; in that case, the syntax for the person to receive the forwarded calls is the same as when you specify a delegate: `sip:<NameofDelegate@domain>`.</span></span> <span data-ttu-id="85562-133">的其他可能的参数`BusyOption`为`Voicemail`：</span><span class="sxs-lookup"><span data-stu-id="85562-133">The other possible parameter for `BusyOption` is `Voicemail`:</span></span>
+    <span data-ttu-id="2d5a5-131">以下示例将超过要转接到电话号码202-555-1234 的最大并发呼叫数设置为呼叫。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-131">The following example sets calls that exceed the maximum number of concurrent calls to be forwarded to the telephone number 202-555-1234.</span></span> <span data-ttu-id="2d5a5-132">目标可以是组织中的用户，而不是电话号码;在这种情况下，接收转发呼叫的人的语法与您指定代理时的语法相同： `sip:<NameofDelegate@domain>`。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-132">The target could be a user in your organization instead of a phone number; in that case, the syntax for the person to receive the forwarded calls is the same as when you specify a delegate: `sip:<NameofDelegate@domain>`.</span></span> <span data-ttu-id="2d5a5-133">的其他可能的参数`BusyOption`为`Voicemail`：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-133">The other possible parameter for `BusyOption` is `Voicemail`:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
               -Target tel:+2025551234]
@@ -135,15 +135,15 @@ ms.locfileid: "42036894"
 
 <div>
 
-## <a name="configure-the-sla-group-missed-call-option"></a><span data-ttu-id="85562-134">配置 SLA 组未接来电选项</span><span class="sxs-lookup"><span data-stu-id="85562-134">Configure the SLA group Missed Call Option</span></span>
+## <a name="configure-the-sla-group-missed-call-option"></a><span data-ttu-id="2d5a5-134">配置 SLA 组未接来电选项</span><span class="sxs-lookup"><span data-stu-id="2d5a5-134">Configure the SLA group Missed Call Option</span></span>
 
-1.  <span data-ttu-id="85562-135">使用[set-csslaconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) CMDLET 配置 SLA 组未接来电选项：</span><span class="sxs-lookup"><span data-stu-id="85562-135">Configure the SLA group Missed Call Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
+1.  <span data-ttu-id="2d5a5-135">使用[set-csslaconfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) CMDLET 配置 SLA 组未接来电选项：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-135">Configure the SLA group Missed Call Option by using the [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration) cmdlet:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
               -MissedCallOption <Option> -MissedCallForwardTarget
               <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     ```
-    <span data-ttu-id="85562-136">下面的示例指定将未接来电转发给名为`sla_forward_number`的用户。</span><span class="sxs-lookup"><span data-stu-id="85562-136">The following example specifies that missed calls are to be forwarded to the user named `sla_forward_number`.</span></span> <span data-ttu-id="85562-137">`-MissedCallOption`参数的有效选项为`Forward`、 `BusySignal`或`Disconnect`。</span><span class="sxs-lookup"><span data-stu-id="85562-137">The valid options for the `-MissedCallOption` parameter are `Forward`, `BusySignal`, or `Disconnect`.</span></span> <span data-ttu-id="85562-138">如果选择`Forward`此`-MissedCallForwardTarget`选项，则还必须包括参数，以用户或电话号码作为目标：</span><span class="sxs-lookup"><span data-stu-id="85562-138">If you choose `Forward`, you must also include the `-MissedCallForwardTarget` parameter, with a user or phone number as the target:</span></span>
+    <span data-ttu-id="2d5a5-136">下面的示例指定将未接来电转发给名为`sla_forward_number`的用户。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-136">The following example specifies that missed calls are to be forwarded to the user named `sla_forward_number`.</span></span> <span data-ttu-id="2d5a5-137">`-MissedCallOption`参数的有效选项为`Forward`、 `BusySignal`或`Disconnect`。</span><span class="sxs-lookup"><span data-stu-id="2d5a5-137">The valid options for the `-MissedCallOption` parameter are `Forward`, `BusySignal`, or `Disconnect`.</span></span> <span data-ttu-id="2d5a5-138">如果选择`Forward`此`-MissedCallForwardTarget`选项，则还必须包括参数，以用户或电话号码作为目标：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-138">If you choose `Forward`, you must also include the `-MissedCallForwardTarget` parameter, with a user or phone number as the target:</span></span>
     ```powershell
     Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
               Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
@@ -153,14 +153,14 @@ ms.locfileid: "42036894"
 
 <div>
 
-## <a name="remove-a-delegate-from-a-group"></a><span data-ttu-id="85562-139">从组中删除委派</span><span class="sxs-lookup"><span data-stu-id="85562-139">Remove a delegate from a group</span></span>
+## <a name="remove-a-delegate-from-a-group"></a><span data-ttu-id="2d5a5-139">从组中删除委派</span><span class="sxs-lookup"><span data-stu-id="2d5a5-139">Remove a delegate from a group</span></span>
 
-1.  <span data-ttu-id="85562-140">使用[CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) cmdlet 从组中删除委派：</span><span class="sxs-lookup"><span data-stu-id="85562-140">Remove a delegate from a group by using the [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) cmdlet:</span></span>
+1.  <span data-ttu-id="2d5a5-140">使用[CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) cmdlet 从组中删除委派：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-140">Remove a delegate from a group by using the [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates) cmdlet:</span></span>
     ```powershell
     Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
               <NameOfDelegate@domain>
     ```
-    <span data-ttu-id="85562-141">例如：</span><span class="sxs-lookup"><span data-stu-id="85562-141">For example:</span></span>
+    <span data-ttu-id="2d5a5-141">例如：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-141">For example:</span></span>
     ```powershell
     Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
               sip:SLA_Delegate3@contoso.com
@@ -169,16 +169,16 @@ ms.locfileid: "42036894"
 
 <div>
 
-## <a name="delete-an-sla-group"></a><span data-ttu-id="85562-142">删除 SLA 组</span><span class="sxs-lookup"><span data-stu-id="85562-142">Delete an SLA group</span></span>
+## <a name="delete-an-sla-group"></a><span data-ttu-id="2d5a5-142">删除 SLA 组</span><span class="sxs-lookup"><span data-stu-id="2d5a5-142">Delete an SLA group</span></span>
 
-1.  <span data-ttu-id="85562-143">使用[set-csslaconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) CMDLET 删除 SLA 组：</span><span class="sxs-lookup"><span data-stu-id="85562-143">Delete an SLA group by using the [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet:</span></span>
+1.  <span data-ttu-id="2d5a5-143">使用[set-csslaconfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) CMDLET 删除 SLA 组：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-143">Delete an SLA group by using the [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps) cmdlet:</span></span>
     
     ```powershell
     Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
               
     ```
     
-    <span data-ttu-id="85562-144">例如：</span><span class="sxs-lookup"><span data-stu-id="85562-144">For example:</span></span>
+    <span data-ttu-id="2d5a5-144">例如：</span><span class="sxs-lookup"><span data-stu-id="2d5a5-144">For example:</span></span>
     ```powershell
     Remove-CsSlaConfiguration -Identity SLAGroup1 
     ```

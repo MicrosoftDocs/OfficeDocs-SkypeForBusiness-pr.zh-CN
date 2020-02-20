@@ -12,20 +12,20 @@ ms:contentKeyID: 59893870
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9878cf6d6de482e2319cfd3cddf15e6d0e6ecb6e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63ba5224d6663050295c5fddf9ea08e230f78506
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044404"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="public-key-infrastructure-for-lync-server-2013"></a><span data-ttu-id="6ede0-102">Lync Server 2013 的公钥基础结构</span><span class="sxs-lookup"><span data-stu-id="6ede0-102">Public Key Infrastructure for Lync Server 2013</span></span>
+# <a name="public-key-infrastructure-for-lync-server-2013"></a><span data-ttu-id="4c700-102">Lync Server 2013 的公钥基础结构</span><span class="sxs-lookup"><span data-stu-id="4c700-102">Public Key Infrastructure for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42044404"
 
 <span> </span>
 
-<span data-ttu-id="6ede0-103">_**上次修改的主题：** 2013-11-13_</span><span class="sxs-lookup"><span data-stu-id="6ede0-103">_**Topic Last Modified:** 2013-11-13_</span></span>
+<span data-ttu-id="4c700-103">_**上次修改的主题：** 2013-11-13_</span><span class="sxs-lookup"><span data-stu-id="4c700-103">_**Topic Last Modified:** 2013-11-13_</span></span>
 
-<span data-ttu-id="6ede0-104">Microsoft Lync Server 2013 依赖用于服务器身份验证的证书，并在客户端和服务器之间以及不同的服务器角色之间建立信任链。</span><span class="sxs-lookup"><span data-stu-id="6ede0-104">Microsoft Lync Server 2013 relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles.</span></span> <span data-ttu-id="6ede0-105">Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 和 Windows Server 2003 公钥基础结构（PKI）提供了用于建立和验证此信任链的基础结构。</span><span class="sxs-lookup"><span data-stu-id="6ede0-105">The Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, and Windows Server 2003 Public Key Infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust.</span></span>
+<span data-ttu-id="4c700-104">Microsoft Lync Server 2013 依赖用于服务器身份验证的证书，并在客户端和服务器之间以及不同的服务器角色之间建立信任链。</span><span class="sxs-lookup"><span data-stu-id="4c700-104">Microsoft Lync Server 2013 relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles.</span></span> <span data-ttu-id="4c700-105">Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、Windows Server 2008 和 Windows Server 2003 公钥基础结构（PKI）提供了用于建立和验证此信任链的基础结构。</span><span class="sxs-lookup"><span data-stu-id="4c700-105">The Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008, and Windows Server 2003 Public Key Infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust.</span></span>
 
-<span data-ttu-id="6ede0-106">证书是数字 ID。</span><span class="sxs-lookup"><span data-stu-id="6ede0-106">Certificates are digital IDs.</span></span> <span data-ttu-id="6ede0-107">它们通过名称来标识某台服务器并指定其属性。</span><span class="sxs-lookup"><span data-stu-id="6ede0-107">They identify a server by name and specify its properties.</span></span> <span data-ttu-id="6ede0-108">若要确保证书上的信息有效，证书必须由客户端或连接到服务器的其他服务器信任的 CA 颁发。</span><span class="sxs-lookup"><span data-stu-id="6ede0-108">To ensure that the information on a certificate is valid, the certificate must be issued by a CA that is trusted by clients or other servers that connect to the server.</span></span> <span data-ttu-id="6ede0-109">如果服务器仅与专用网络中的其他客户端和服务器建立连接，则 CA 可以是企业 CA。</span><span class="sxs-lookup"><span data-stu-id="6ede0-109">If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA.</span></span> <span data-ttu-id="6ede0-110">如果服务器与专用网络外部的实体进行交互，则可能需要公共 CA。</span><span class="sxs-lookup"><span data-stu-id="6ede0-110">If the server interacts with entities outside the private network, a public CA might be required.</span></span>
+<span data-ttu-id="4c700-106">证书是数字 ID。</span><span class="sxs-lookup"><span data-stu-id="4c700-106">Certificates are digital IDs.</span></span> <span data-ttu-id="4c700-107">它们通过名称来标识某台服务器并指定其属性。</span><span class="sxs-lookup"><span data-stu-id="4c700-107">They identify a server by name and specify its properties.</span></span> <span data-ttu-id="4c700-108">若要确保证书上的信息有效，证书必须由客户端或连接到服务器的其他服务器信任的 CA 颁发。</span><span class="sxs-lookup"><span data-stu-id="4c700-108">To ensure that the information on a certificate is valid, the certificate must be issued by a CA that is trusted by clients or other servers that connect to the server.</span></span> <span data-ttu-id="4c700-109">如果服务器仅与专用网络中的其他客户端和服务器建立连接，则 CA 可以是企业 CA。</span><span class="sxs-lookup"><span data-stu-id="4c700-109">If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA.</span></span> <span data-ttu-id="4c700-110">如果服务器与专用网络外部的实体进行交互，则可能需要公共 CA。</span><span class="sxs-lookup"><span data-stu-id="4c700-110">If the server interacts with entities outside the private network, a public CA might be required.</span></span>
 
-<span data-ttu-id="6ede0-p103">即使证书上的信息是有效的，也必须通过某些方法来确认提供证书的服务器实际上就是证书所代表的服务器。在这种情况下可以使用 Windows PKI。</span><span class="sxs-lookup"><span data-stu-id="6ede0-p103">Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in.</span></span>
+<span data-ttu-id="4c700-p103">即使证书上的信息是有效的，也必须通过某些方法来确认提供证书的服务器实际上就是证书所代表的服务器。在这种情况下可以使用 Windows PKI。</span><span class="sxs-lookup"><span data-stu-id="4c700-p103">Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in.</span></span>
 
-<span data-ttu-id="6ede0-p104">每个证书都链接到一个公钥。证书上指明的服务器持有一个只有它自己知道的对应的私钥。连接的客户端或服务器使用公钥对随机的信息段进行加密并将其发送到该服务器。如果该服务器将此信息解密并以纯文本形式返回此信息，则连接的实体就可以确定该服务器持有证书的私钥，因此该服务器即是证书上指明的服务器。</span><span class="sxs-lookup"><span data-stu-id="6ede0-p104">Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.</span></span>
+<span data-ttu-id="4c700-p104">每个证书都链接到一个公钥。证书上指明的服务器持有一个只有它自己知道的对应的私钥。连接的客户端或服务器使用公钥对随机的信息段进行加密并将其发送到该服务器。如果该服务器将此信息解密并以纯文本形式返回此信息，则连接的实体就可以确定该服务器持有证书的私钥，因此该服务器即是证书上指明的服务器。</span><span class="sxs-lookup"><span data-stu-id="4c700-p104">Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6ede0-117">并非所有公用 Ca 都符合 Lync Server 2013 证书的要求。</span><span class="sxs-lookup"><span data-stu-id="6ede0-117">Not all public CAs comply with the requirements of Lync Server 2013 certificates.</span></span> <span data-ttu-id="6ede0-118">建议您参考经认证的公共 CA 供应商的列表以满足您使用公共证书的需要。</span><span class="sxs-lookup"><span data-stu-id="6ede0-118">We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs.</span></span> <span data-ttu-id="6ede0-119">有关详细信息，请参阅中的统一<A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>通信证书合作伙伴。</span><span class="sxs-lookup"><span data-stu-id="6ede0-119">For details, see Unified Communications Certificate Partners at <A href="http://go.microsoft.com/fwlink/p/?linkid=140898">http://go.microsoft.com/fwlink/p/?LinkId=140898</A>.</span></span>
+> <span data-ttu-id="4c700-117">并非所有公用 Ca 都符合 Lync Server 2013 证书的要求。</span><span class="sxs-lookup"><span data-stu-id="4c700-117">Not all public CAs comply with the requirements of Lync Server 2013 certificates.</span></span> <span data-ttu-id="4c700-118">建议您参考经认证的公共 CA 供应商的列表以满足您使用公共证书的需要。</span><span class="sxs-lookup"><span data-stu-id="4c700-118">We recommend that you refer to the listing of certified Public CA vendors for your public certificate needs.</span></span> <span data-ttu-id="4c700-119">有关详细信息，请参阅中的统一<A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A>通信证书合作伙伴。</span><span class="sxs-lookup"><span data-stu-id="4c700-119">For details, see Unified Communications Certificate Partners at <A href="https://go.microsoft.com/fwlink/p/?linkid=140898">https://go.microsoft.com/fwlink/p/?LinkId=140898</A>.</span></span>
 
 
 
@@ -57,23 +57,23 @@ ms.locfileid: "42044404"
 
 <div>
 
-## <a name="crl-distribution-points"></a><span data-ttu-id="6ede0-120">CRL 分发点</span><span class="sxs-lookup"><span data-stu-id="6ede0-120">CRL Distribution Points</span></span>
+## <a name="crl-distribution-points"></a><span data-ttu-id="4c700-120">CRL 分发点</span><span class="sxs-lookup"><span data-stu-id="4c700-120">CRL Distribution Points</span></span>
 
-<span data-ttu-id="6ede0-121">Lync Server 2013 要求所有服务器证书都包含一个或多个证书吊销列表（CRL）分发点。</span><span class="sxs-lookup"><span data-stu-id="6ede0-121">Lync Server 2013 requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points.</span></span> <span data-ttu-id="6ede0-122">可从 CRL 分发点 (CDP) 下载 CRL，以便确认证书自颁发以来未被吊销且仍处于有效期内。</span><span class="sxs-lookup"><span data-stu-id="6ede0-122">CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period.</span></span> <span data-ttu-id="6ede0-123">CRL 分发点在证书的属性中标记为一个 URL，它通常是安全 HTTP。</span><span class="sxs-lookup"><span data-stu-id="6ede0-123">A CRL distribution point is noted in the properties of the certificate as a URL, and is typically secure HTTP.</span></span>
+<span data-ttu-id="4c700-121">Lync Server 2013 要求所有服务器证书都包含一个或多个证书吊销列表（CRL）分发点。</span><span class="sxs-lookup"><span data-stu-id="4c700-121">Lync Server 2013 requires all server certificates to contain one or more Certificate Revocation List (CRL) distribution points.</span></span> <span data-ttu-id="4c700-122">可从 CRL 分发点 (CDP) 下载 CRL，以便确认证书自颁发以来未被吊销且仍处于有效期内。</span><span class="sxs-lookup"><span data-stu-id="4c700-122">CRL distribution points (CDPs) are locations from which CRLs can be downloaded for purposes of verifying that the certificate has not been revoked since the time it was issued and the certificate is still within the validity period.</span></span> <span data-ttu-id="4c700-123">CRL 分发点在证书的属性中标记为一个 URL，它通常是安全 HTTP。</span><span class="sxs-lookup"><span data-stu-id="4c700-123">A CRL distribution point is noted in the properties of the certificate as a URL, and is typically secure HTTP.</span></span>
 
 </div>
 
 <div>
 
-## <a name="enhanced-key-usage"></a><span data-ttu-id="6ede0-124">增强型密钥使用</span><span class="sxs-lookup"><span data-stu-id="6ede0-124">Enhanced Key Usage</span></span>
+## <a name="enhanced-key-usage"></a><span data-ttu-id="4c700-124">增强型密钥使用</span><span class="sxs-lookup"><span data-stu-id="4c700-124">Enhanced Key Usage</span></span>
 
-<span data-ttu-id="6ede0-125">Lync Server 2013 要求所有服务器证书支持增强型密钥使用（EKU），目的是用于服务器身份验证。</span><span class="sxs-lookup"><span data-stu-id="6ede0-125">Lync Server 2013 requires all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication.</span></span> <span data-ttu-id="6ede0-126">配置用于服务器身份验证的 EKU 字段意味着证书可以对服务器进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="6ede0-126">Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers.</span></span> <span data-ttu-id="6ede0-127">此 EKU 对 MTLS 至关重要。</span><span class="sxs-lookup"><span data-stu-id="6ede0-127">This EKU is essential for MTLS.</span></span> <span data-ttu-id="6ede0-128">EKU 中可能存在多个条目以允许将证书用于多个目的。</span><span class="sxs-lookup"><span data-stu-id="6ede0-128">It is possible to have more than one entry in the EKU, enabling the certificate for more than one purpose.</span></span>
+<span data-ttu-id="4c700-125">Lync Server 2013 要求所有服务器证书支持增强型密钥使用（EKU），目的是用于服务器身份验证。</span><span class="sxs-lookup"><span data-stu-id="4c700-125">Lync Server 2013 requires all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication.</span></span> <span data-ttu-id="4c700-126">配置用于服务器身份验证的 EKU 字段意味着证书可以对服务器进行身份验证。</span><span class="sxs-lookup"><span data-stu-id="4c700-126">Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers.</span></span> <span data-ttu-id="4c700-127">此 EKU 对 MTLS 至关重要。</span><span class="sxs-lookup"><span data-stu-id="4c700-127">This EKU is essential for MTLS.</span></span> <span data-ttu-id="4c700-128">EKU 中可能存在多个条目以允许将证书用于多个目的。</span><span class="sxs-lookup"><span data-stu-id="4c700-128">It is possible to have more than one entry in the EKU, enabling the certificate for more than one purpose.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6ede0-p108">Live Communications Server 2003 和 Live Communications Server 2005 中的出站 MTLS 连接需要客户端身份验证 EKU，但现在不再需要了。不过，通过公共 IM 连接来连接到 AOL 的边缘服务器仍必须提供此 EKU。</span><span class="sxs-lookup"><span data-stu-id="6ede0-p108">The Client Authentication EKU is required for outbound MTLS connections from Live Communications Server 2003 and Live Communications Server 2005, but it is no longer required. However, this EKU must be present on Edge Servers that connect to AOL by means of public IM connectivity.</span></span>
+> <span data-ttu-id="4c700-p108">Live Communications Server 2003 和 Live Communications Server 2005 中的出站 MTLS 连接需要客户端身份验证 EKU，但现在不再需要了。不过，通过公共 IM 连接来连接到 AOL 的边缘服务器仍必须提供此 EKU。</span><span class="sxs-lookup"><span data-stu-id="4c700-p108">The Client Authentication EKU is required for outbound MTLS connections from Live Communications Server 2003 and Live Communications Server 2005, but it is no longer required. However, this EKU must be present on Edge Servers that connect to AOL by means of public IM connectivity.</span></span>
 
 
 

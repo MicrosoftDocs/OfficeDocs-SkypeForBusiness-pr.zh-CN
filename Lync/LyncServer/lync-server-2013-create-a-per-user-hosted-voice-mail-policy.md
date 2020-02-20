@@ -12,20 +12,20 @@ ms:contentKeyID: 48183902
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 055d65fe691d99c8b960ebed088ba47cbcb2f988
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4e13002fa83215c5c1aade627cb6e7ea86cf0a04
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034874"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150691"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-a-per-user-hosted-voice-mail-policy-in-lync-server-2013"></a><span data-ttu-id="a2eae-102">在 Lync Server 2013 中创建每用户托管的语音邮件策略</span><span class="sxs-lookup"><span data-stu-id="a2eae-102">Create a per-user hosted voice mail policy in Lync Server 2013</span></span>
+# <a name="create-a-per-user-hosted-voice-mail-policy-in-lync-server-2013"></a><span data-ttu-id="98ce7-102">在 Lync Server 2013 中创建每用户托管的语音邮件策略</span><span class="sxs-lookup"><span data-stu-id="98ce7-102">Create a per-user hosted voice mail policy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,46 +35,46 @@ ms.locfileid: "42034874"
 
 <span> </span>
 
-<span data-ttu-id="a2eae-103">_**上次修改的主题：** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="a2eae-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="98ce7-103">_**上次修改的主题：** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="98ce7-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="a2eae-104">\*\* 每用户策略只能影响单个用户、组和联系对象。</span><span class="sxs-lookup"><span data-stu-id="a2eae-104">A *per-user* policy can only impact individual users, groups, and contact objects.</span></span> <span data-ttu-id="a2eae-105">要部署每用户策略，必须将策略显式分配给一个或多个用户、组或联系对象。</span><span class="sxs-lookup"><span data-stu-id="a2eae-105">To deploy a per-user policy, you must explicitly assign the policy to one or more users, groups, or contact objects.</span></span> <span data-ttu-id="a2eae-106">有关详细信息，请参阅[在 Lync Server 2013 中分配每用户托管语音邮件策略](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)。</span><span class="sxs-lookup"><span data-stu-id="a2eae-106">For details, see [Assign a per-user hosted voice mail policy in Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md).</span></span>
+<span data-ttu-id="98ce7-104">\*\* 每用户策略只能影响单个用户、组和联系对象。</span><span class="sxs-lookup"><span data-stu-id="98ce7-104">A *per-user* policy can only impact individual users, groups, and contact objects.</span></span> <span data-ttu-id="98ce7-105">要部署每用户策略，必须将策略显式分配给一个或多个用户、组或联系对象。</span><span class="sxs-lookup"><span data-stu-id="98ce7-105">To deploy a per-user policy, you must explicitly assign the policy to one or more users, groups, or contact objects.</span></span> <span data-ttu-id="98ce7-106">有关详细信息，请参阅[在 Lync Server 2013 中分配每用户托管语音邮件策略](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)。</span><span class="sxs-lookup"><span data-stu-id="98ce7-106">For details, see [Assign a per-user hosted voice mail policy in Lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md).</span></span>
 
-<span data-ttu-id="a2eae-107">有关使用每用户托管语音邮件策略的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="a2eae-107">For details about working with per-user hosted voice mail policies, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="98ce7-107">有关使用每用户托管语音邮件策略的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="98ce7-107">For details about working with per-user hosted voice mail policies, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - [<span data-ttu-id="a2eae-108">新 CsHostedVoicemailPolicy</span><span class="sxs-lookup"><span data-stu-id="a2eae-108">New-CsHostedVoicemailPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
+  - [<span data-ttu-id="98ce7-108">新 CsHostedVoicemailPolicy</span><span class="sxs-lookup"><span data-stu-id="98ce7-108">New-CsHostedVoicemailPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [<span data-ttu-id="a2eae-109">CsHostedVoicemailPolicy</span><span class="sxs-lookup"><span data-stu-id="a2eae-109">Set-CsHostedVoicemailPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
+  - [<span data-ttu-id="98ce7-109">CsHostedVoicemailPolicy</span><span class="sxs-lookup"><span data-stu-id="98ce7-109">Set-CsHostedVoicemailPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
-  - [<span data-ttu-id="a2eae-110">CsHostedVoicemailPolicy</span><span class="sxs-lookup"><span data-stu-id="a2eae-110">Get-CsHostedVoicemailPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+  - [<span data-ttu-id="98ce7-110">CsHostedVoicemailPolicy</span><span class="sxs-lookup"><span data-stu-id="98ce7-110">Get-CsHostedVoicemailPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 <div>
 
-## <a name="to-create-a-per-user-hosted-voice-mail-policy"></a><span data-ttu-id="a2eae-111">创建每用户托管语音邮件策略</span><span class="sxs-lookup"><span data-stu-id="a2eae-111">To create a per-user hosted voice mail policy</span></span>
+## <a name="to-create-a-per-user-hosted-voice-mail-policy"></a><span data-ttu-id="98ce7-111">创建每用户托管语音邮件策略</span><span class="sxs-lookup"><span data-stu-id="98ce7-111">To create a per-user hosted voice mail policy</span></span>
 
-1.  <span data-ttu-id="a2eae-112">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a2eae-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="98ce7-112">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="98ce7-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="a2eae-p102">运行 New-CsHostedVoicemailPolicy cmdlet 创建策略。例如，运行：</span><span class="sxs-lookup"><span data-stu-id="a2eae-p102">Run the New-CsHostedVoicemailPolicy cmdlet to create the policy. For example, run:</span></span>
+2.  <span data-ttu-id="98ce7-p102">运行 New-CsHostedVoicemailPolicy cmdlet 创建策略。例如，运行：</span><span class="sxs-lookup"><span data-stu-id="98ce7-p102">Run the New-CsHostedVoicemailPolicy cmdlet to create the policy. For example, run:</span></span>
     
         New-CsHostedVoicemailPolicy -Identity ExRedmond -Destination ExUM.fabrikam.com -Description "Hosted voice mail policy for Redmond users." -Organization "corp1.litwareinc.com, corp2.litwareinc.com"
     
-    <span data-ttu-id="a2eae-115">以上示例创建了一个具有每用户作用域的托管语音邮件策略，并设置了以下参数：</span><span class="sxs-lookup"><span data-stu-id="a2eae-115">The previous example creates a hosted voice mail policy with per-user scope, and sets the following parameters:</span></span>
+    <span data-ttu-id="98ce7-115">以上示例创建了一个具有每用户作用域的托管语音邮件策略，并设置了以下参数：</span><span class="sxs-lookup"><span data-stu-id="98ce7-115">The previous example creates a hosted voice mail policy with per-user scope, and sets the following parameters:</span></span>
     
-      - <span data-ttu-id="a2eae-p103">**Identity** 为策略指定唯一标识符，其中包含作用域。对于具有每用户作用域的策略，此参数值会指定为简单字符串，如 ExRedmond。</span><span class="sxs-lookup"><span data-stu-id="a2eae-p103">**Identity** specifies a unique identifier for the policy, which includes the scope. For a policy with per-user scope, this parameter value is specified as a simple string, for example, ExRedmond.</span></span>
+      - <span data-ttu-id="98ce7-p103">**Identity** 为策略指定唯一标识符，其中包含作用域。对于具有每用户作用域的策略，此参数值会指定为简单字符串，如 ExRedmond。</span><span class="sxs-lookup"><span data-stu-id="98ce7-p103">**Identity** specifies a unique identifier for the policy, which includes the scope. For a policy with per-user scope, this parameter value is specified as a simple string, for example, ExRedmond.</span></span>
     
-      - <span data-ttu-id="a2eae-p104">**Destination** 指定托管 Exchange UM 服务的完全限定域名 (FQDN)。此参数为可选参数，但如果尝试为用户启用托管语音邮件，而用户的已分配策略没有 Destination 值，则无法启用。</span><span class="sxs-lookup"><span data-stu-id="a2eae-p104">**Destination** specifies the fully qualified domain name (FQDN) of the hosted Exchange UM service. This parameter is optional, but if you attempt to enable a user for hosted voice mail and the user’s assigned policy does not have a Destination value, the enable will fail.</span></span>
+      - <span data-ttu-id="98ce7-p104">**Destination** 指定托管 Exchange UM 服务的完全限定域名 (FQDN)。此参数为可选参数，但如果尝试为用户启用托管语音邮件，而用户的已分配策略没有 Destination 值，则无法启用。</span><span class="sxs-lookup"><span data-stu-id="98ce7-p104">**Destination** specifies the fully qualified domain name (FQDN) of the hosted Exchange UM service. This parameter is optional, but if you attempt to enable a user for hosted voice mail and the user’s assigned policy does not have a Destination value, the enable will fail.</span></span>
     
-      - <span data-ttu-id="a2eae-120">**Description** 提供有关策略的可选描述性信息。</span><span class="sxs-lookup"><span data-stu-id="a2eae-120">**Description** provides optional descriptive information about the policy.</span></span>
+      - <span data-ttu-id="98ce7-120">**Description** 提供有关策略的可选描述性信息。</span><span class="sxs-lookup"><span data-stu-id="98ce7-120">**Description** provides optional descriptive information about the policy.</span></span>
     
-      - <span data-ttu-id="a2eae-121">**组织**指定 Home Lync Server 2013 用户的 Exchange 租户的逗号分隔列表。</span><span class="sxs-lookup"><span data-stu-id="a2eae-121">**Organization** specifies a comma-separated list of the Exchange tenants that home Lync Server 2013 users.</span></span> <span data-ttu-id="a2eae-122">必须将每个租户指定为托管 Exchange UM 服务上租户的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="a2eae-122">Each tenant must be specified as the FQDN of that tenant on the hosted Exchange UM service.</span></span>
+      - <span data-ttu-id="98ce7-121">**组织**指定 Home Lync Server 2013 用户的 Exchange 租户的逗号分隔列表。</span><span class="sxs-lookup"><span data-stu-id="98ce7-121">**Organization** specifies a comma-separated list of the Exchange tenants that home Lync Server 2013 users.</span></span> <span data-ttu-id="98ce7-122">必须将每个租户指定为托管 Exchange UM 服务上租户的 FQDN。</span><span class="sxs-lookup"><span data-stu-id="98ce7-122">Each tenant must be specified as the FQDN of that tenant on the hosted Exchange UM service.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a2eae-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a2eae-123">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="98ce7-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="98ce7-123">See Also</span></span>
 
 
-[<span data-ttu-id="a2eae-124">在 Lync Server 2013 中分配每用户托管的语音邮件策略</span><span class="sxs-lookup"><span data-stu-id="a2eae-124">Assign a per-user hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)  
+[<span data-ttu-id="98ce7-124">在 Lync Server 2013 中分配每用户托管的语音邮件策略</span><span class="sxs-lookup"><span data-stu-id="98ce7-124">Assign a per-user hosted voice mail policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)  
   
 
 </div>

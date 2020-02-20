@@ -12,20 +12,20 @@ ms:contentKeyID: 48183518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1099be5a6cc8d3fa0b40fa20cde23ebaa02d64c7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cc53c7479d2ddaf3f3f2af6c987a7eb159340775
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050794"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="region-table-in-lync-server-2013"></a><span data-ttu-id="23808-102">Lync Server 2013 中的区域表</span><span class="sxs-lookup"><span data-stu-id="23808-102">Region table in Lync Server 2013</span></span>
+# <a name="region-table-in-lync-server-2013"></a><span data-ttu-id="22685-102">Lync Server 2013 中的区域表</span><span class="sxs-lookup"><span data-stu-id="22685-102">Region table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42050794"
 
 <span> </span>
 
-<span data-ttu-id="23808-103">_**上次修改的主题：** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="23808-103">_**Topic Last Modified:** 2010-11-09_</span></span>
+<span data-ttu-id="22685-103">_**上次修改的主题：** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="22685-103">_**Topic Last Modified:** 2010-11-09_</span></span>
 
-<span data-ttu-id="23808-p101">区域表是一个支持表。每条记录代表网络配置设置中定义的一个国家/区域。</span><span class="sxs-lookup"><span data-stu-id="23808-p101">The Region table is a supporting table. Each record represents one country/region defined in network configuration setting.</span></span>
+<span data-ttu-id="22685-p101">区域表是一个支持表。每条记录代表网络配置设置中定义的一个国家/区域。</span><span class="sxs-lookup"><span data-stu-id="22685-p101">The Region table is a supporting table. Each record represents one country/region defined in network configuration setting.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42050794"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="23808-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="23808-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="23808-107"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="23808-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="23808-108"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="23808-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="23808-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="23808-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="22685-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="22685-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="22685-107"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="22685-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="22685-108"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="22685-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="22685-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="22685-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="23808-110"><strong>RegionKey</strong></span><span class="sxs-lookup"><span data-stu-id="23808-110"><strong>RegionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="23808-111">int</span><span class="sxs-lookup"><span data-stu-id="23808-111">int</span></span></p></td>
-<td><p><span data-ttu-id="23808-112">主</span><span class="sxs-lookup"><span data-stu-id="23808-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="23808-113">标识国家/区域的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="23808-113">Unique number identifying the country/region.</span></span></p></td>
+<td><p><span data-ttu-id="22685-110"><strong>RegionKey</strong></span><span class="sxs-lookup"><span data-stu-id="22685-110"><strong>RegionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="22685-111">int</span><span class="sxs-lookup"><span data-stu-id="22685-111">int</span></span></p></td>
+<td><p><span data-ttu-id="22685-112">主</span><span class="sxs-lookup"><span data-stu-id="22685-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="22685-113">标识国家/区域的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="22685-113">Unique number identifying the country/region.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="23808-114"><strong>RegionName</strong></span><span class="sxs-lookup"><span data-stu-id="23808-114"><strong>RegionName</strong></span></span></p></td>
-<td><p><span data-ttu-id="23808-115">nvarchar</span><span class="sxs-lookup"><span data-stu-id="23808-115">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="23808-116">独特</span><span class="sxs-lookup"><span data-stu-id="23808-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="23808-117">国家/区域的名称。</span><span class="sxs-lookup"><span data-stu-id="23808-117">The name of the country/region.</span></span></p></td>
+<td><p><span data-ttu-id="22685-114"><strong>RegionName</strong></span><span class="sxs-lookup"><span data-stu-id="22685-114"><strong>RegionName</strong></span></span></p></td>
+<td><p><span data-ttu-id="22685-115">nvarchar</span><span class="sxs-lookup"><span data-stu-id="22685-115">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="22685-116">独特</span><span class="sxs-lookup"><span data-stu-id="22685-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="22685-117">国家/区域的名称。</span><span class="sxs-lookup"><span data-stu-id="22685-117">The name of the country/region.</span></span></p></td>
 </tr>
 </tbody>
 </table>
