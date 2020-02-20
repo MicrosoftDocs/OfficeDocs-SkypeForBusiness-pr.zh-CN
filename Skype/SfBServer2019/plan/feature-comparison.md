@@ -1,7 +1,7 @@
 ---
 title: Skype for business Server 2019 的桌面客户端功能比较
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： Skype for Business Server 2019 或 Skype for Business Online 管理员可以使用这些表了解哪些客户端支持哪些功能。
-ms.openlocfilehash: 34ef16a31e6b8eb21ded0dbad80bd1a0a738d849
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f8b50614d663104e1307b233449ccffc0e26adb5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010365"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42129485"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Skype for business Server 2019 的桌面客户端功能比较
 

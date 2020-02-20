@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 了解加载项许可证、功能以及如何购买 Office 365 专业增强版或 Skype for business Online 独立计划2。
-ms.openlocfilehash: fdd84898c584d8de62a990fc25f44a27fb0d50a5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e065f930d9ec4e835837b56da1b2ea1d4a5b674a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706087"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42129385"
 ---
 # <a name="office-365-proplus-or-skype-for-business-online-standalone-plan-2"></a>Office 365 专业增强版或 Skype for business Online 独立计划2
 
@@ -40,6 +40,6 @@ ms.locfileid: "41706087"
 |**要添加的功能** <br/> |**需要购买的项目** <br/> |
 |**音频会议** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**音频会议**加载项 <br/>一旦您购买许可证，Microsoft 将成为音频会议提供商。 |
 |**免费电话拨入式会议的电话号码，以及从会议拨出以通过拨打世界各地的任何电话号码来添加某人的功能** <br/> |[通信点数](/microsoftteams/set-up-communications-credits-for-your-organization)|
-|**电话系统** <br/> |1.[切换到其他 Office 365 for business 计划](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。如果您有 Office 365 专业增强版或 Skype for Business Online 独立计划2，建议将计划升级到企业 E5 计划以获取云语音功能。如果升级到企业版 E1 或 E3 计划，您将看到购买 "**电话系统**" 加载项的选项。<br/> 2. **电话系统**加载项 <br/>  3. 通话套餐：从 Office 365购买通话套餐。[ ](/MicrosoftTeams/calling-plans-for-office-365) <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
-|**通话套餐** <br/> |1.[切换到其他 Office 365 for business 计划](http://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。  <br/> 2. **电话系统**加载项 <br/> 3. [通话套餐](/MicrosoftTeams/calling-plans-for-office-365)：您只能在购买**电话系统**加载项后购买。 <br/> |
+|**电话系统** <br/> |1.[切换到其他 Office 365 for business 计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。如果您有 Office 365 专业增强版或 Skype for Business Online 独立计划2，建议将计划升级到企业 E5 计划以获取云语音功能。如果升级到企业版 E1 或 E3 计划，您将看到购买 "**电话系统**" 加载项的选项。<br/> 2. **电话系统**加载项 <br/>  3. 通话套餐：从 Office 365购买通话套餐。[ ](/MicrosoftTeams/calling-plans-for-office-365) <br/>  或者，使用[您现有的提供程序中的电话服务](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  <br/> |
+|**通话套餐** <br/> |1.[切换到其他 Office 365 for business 计划](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a)。  <br/> 2. **电话系统**加载项 <br/> 3. [通话套餐](/MicrosoftTeams/calling-plans-for-office-365)：您只能在购买**电话系统**加载项后购买。 <br/> |
    

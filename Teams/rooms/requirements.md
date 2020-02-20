@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: 8a62a883d9e839d58f6e627d30422d867221e7e1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4fcdaa8441bab7a3a49fbd764c6734d0e58800fb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825950"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155094"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
@@ -80,8 +80,8 @@ ms.locfileid: "41825950"
 - 以下扩展坞选项之一，用于将平板电脑固定到会议室表。
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
+  - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Polycom MSR 系列](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>适用于 USB 音频和视频外设的认证固件版本
 
@@ -91,16 +91,16 @@ ms.locfileid: "41825950"
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
-|[Logitech 930e](http://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
+|[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
-|[Logitech 聚会](http://www.logitech.com/product/meetup-conferencecam)   |音频-1.0.172 <br/> 视频——1.0.156  |
-|[Logitech ConferenceCam Connect](http://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
-|[Logitech 组](http://www.logitech.com/product/conferencecam-group)   |8.5.778   |
-|[Logitech PTZ Pro](http://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
-|[Logitech PTZ Pro 2](http://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Logitech 聚会](https://www.logitech.com/product/meetup-conferencecam)   |音频-1.0.172 <br/> 视频——1.0.156  |
+|[Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
+|[Logitech 组](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
+|[Logitech PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
+|[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
 |[Poly Eagle 眼立方体相机](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
-|[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
-|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
+|[Polycom EagleEye IV](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
+|[Polycom CX5100 ](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom Eagle 眼主任 II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
 |[Polycom Trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|

@@ -1,8 +1,8 @@
 ---
 title: 配置观察程序节点测试用户和设置
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：为 Skype for business Server 合成事务配置测试用户帐户和观察程序节点设置。
-ms.openlocfilehash: f13680d16a248be339ee7cd4a085d7d0894146dc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bfbad6fbeb68100adaaee781c135531d226f43bb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033671"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150493"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>配置观察程序节点测试用户和设置
  

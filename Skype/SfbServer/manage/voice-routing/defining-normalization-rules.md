@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Skype for Business Server 规范化规则使用 .NET Framework 正则表达式将拨打的电话号码转换为. 164 格式;换言之，规范化规则采用用户拨打的电话号码，并将该号码转换为 Skype for Business Server 在内部使用的格式。 必须将每个拨号计划分配给一个或多个规范化规则。
-ms.openlocfilehash: 42ec43a08d1c155f61869bdfebf07e94ac040e56
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2fd7f59bcebcfe676a03ce5a6a897336551ddbad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028843"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151212"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>在 Skype for Business Server 中定义规范化规则
 
@@ -24,7 +24,7 @@ Skype for Business Server 规范化规则使用 .NET Framework 正则表达式�
 
 有关规范化规则的详细信息，请参阅[拨号计划和规范化规则](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx)。
 
-有关如何编写正则表达式的详细信息，请参阅[.Net Framework 正则表达式](http://go.microsoft.com/fwlink/p/?linkId=140927)。
+有关如何编写正则表达式的详细信息，请参阅[.Net Framework 正则表达式](https://go.microsoft.com/fwlink/p/?linkId=140927)。
 
 可以使用以下任一方法定义或编辑规范化规则：
 - [使用 "**生成规范化规则**" 工具](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule)来指定起始数字、长度、要删除的数字和要添加的数字的值，然后让 Skype for business Server 控制面板为您生成相应的匹配模式和转换规则。

@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Server 2019
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 layout: LandingPage
 ms.date: 2/11/2019
@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: ''
 description: 摘要：浏览这些链接，了解如何实施 Skype for Business Server 2019。
-ms.openlocfilehash: cd436fb851d5b94db1762dc0c8e6e0e1cf99a1c0
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: a8d5d0b5b600a6e585a3ca6d7d24e566cbff24dc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812530"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42129435"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype for Business Server 2019
 
@@ -208,7 +208,7 @@ ms.locfileid: "41812530"
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **准备工作** <br>[系统要求](plan/system-requirements.md) <br>[网络要求](../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) | **安装** <br>[安装 Skype for Business Server](../SfbServer/deploy/install/install.md) <br> [迁移到 Skype for Business 2019](migration/migration-to-skype-for-business-server-2019.md)                             | **企业语音**<br>[计划](../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)<br>[部署](../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) |
-| **新功能**<br>[新增功能](whats-new.md)                                                                                                                                         | **混合解决方案**<br>[规划混合连接](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **以前的版本**<br/>  [Skype for Business Server 2015 文档](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 文档](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
+| **新增功能**<br>[新增功能](whats-new.md)                                                                                                                                         | **混合解决方案**<br>[规划混合连接](../sfbhybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)|  **早期版本**<br/>  [Skype for Business Server 2015 文档](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-server-2015) <br/>   [Lync Server 2013 文档](/lyncserver/microsoft-lync-server-2013)                                                                                                                                                                                             |
 |                                                                                                                                                                                        |                                                                                                                                                                                                                             |                                                                                                                                                                                                     |
 
 * * *

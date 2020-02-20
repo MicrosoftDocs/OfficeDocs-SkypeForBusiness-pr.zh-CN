@@ -1,7 +1,7 @@
 ---
 title: 患者应用和 EHR 集成 STU3 界面
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 团队患者应用 EHR 集成
-ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827630"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147695"
 ---
 # <a name="stu3-interface-specification"></a>STU3 接口规范
 
@@ -52,7 +52,7 @@ ms.locfileid: "41827630"
    1. 众
    2. 相交
    3. 资源：类型
-   4. 安全性： [OAuth uri 的扩展](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. 安全性： [OAuth uri 的扩展](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion （我们的代码需要此内容才能了解应将数据透视到哪一个版本。）
 
 有关[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)此字段集的其他详细信息，请参阅。
@@ -96,18 +96,18 @@ ms.locfileid: "41827630"
 
     请求： POST <fhir-server>/Patient/_search 请求正文：给定 = ruth&家族 = 黑色
     
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"meta"： {"lastUpdated"： "2019-01-" type "：" searchset "，" total "：1，" link "： [{" relation "：" self "，" url "： <fhir-服务器>/Patient/_search"}]，"entry"： [{"fullUrl"： <fhir-server>/Patient/<患者 id> "，" 资源 "： {" resourceType "：" 患者 "，" id "：" <患者 id> "，" meta "： {" versionId "：" 1 "，" lastUpdated "：" 2017-18T18：32： 37.000 + 00： 00 "}，" text "： {" status "：" 已生成 "，" div "："<div>\n        <p>Ruth 黑</p>\n      </div>"}，" 标识符 "： [{" 使用 "：" 常规 "，" 键入 "： {" 编码 "： [{" 系统 "："http://hl7.org/fhir/v2/0203"，" 代码 "：" "MR"，"代码"： "MR"，"显示"： "userSelected"： false}]，"文本"： "医学记录编号"}，"systemhttp://hospital.smarthealthit.org"： "1234567"，"name"： [{"：" ""，"name"： [{"：" 官方 "，" 系列 "：" 黑色 "，" 第一个 "： [" Ruth "，" C "。
+    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"meta"： {"lastUpdated"： "2019-01-" type "：" searchset "，" total "：1，" link "： [{" relation "：" self "，" url "： <fhir-服务器>/Patient/_search"}]，"entry"： [{"fullUrl"： <fhir-server>/Patient/<患者 id> "，" 资源 "： {" resourceType "：" 患者 "，" id "：" <患者 id> "，" meta "： {" versionId "：" 1 "，" lastUpdated "：" 2017-18T18：32： 37.000 + 00： 00 "}，" text "： {" status "：" 已生成 "，" div "："<div>\n        <p>Ruth 黑</p>\n      </div>"}，" 标识符 "： [{" 使用 "：" 常规 "，" 键入 "： {" 编码 "： [{" 系统 "："https://hl7.org/fhir/v2/0203"，" 代码 "：" "MR"，"代码"： "MR"，"显示"： "userSelected"： false}]，"文本"： "医学记录编号"}，"systemhttp://hospital.smarthealthit.org"： "1234567"，"name"： [{"：" ""，"name"： [{"：" 官方 "，" 系列 "：" 黑色 "，" 第一个 "： [" Ruth "，" C "。
     ]}]，"电信"： [{"系统"： "电话"，"值"： "800-599-2739"，"使用"： "手机"}，{"系统"： "800-808-7785"，"值"： "ruth.black@example.com"，"使用"： "mobile"}，{"系统"： "电子邮件"，"值"： ""}]，"性别"： "女"，"出生日期"： "1951-08-23"，"地址"： [{"使用"： "开始"，"行"： ["26 RdApt 22"]，"城市"： "Sapulpa"，"状态"： "确定"，"邮政编码"： "74066"，"国家/地区"： "美国"}]}，"search"： {"mode"： "match"}}]}
 
 * * *
 
     请求：获取 <fhir-服务器>/Patient/<患者 id>
     
-    回复： {"resourceType"： "患者"，"id"： "<患者 id>"，"标识符"： [{"使用"： "常规"，"键入"： {"编码"： [{"系统"： "http://hl7.org/fhir/v2/0203"，"代码"： "MR"，}]，"文本"： "医学记录数字"}，"值"： "1234567"}]，"名称"： [{"：" "}]，" 名称 "： [{" "Adams"，"family"： "Daniel"，"X"。 ]}]，"性别"： "男"，"出生日期"： "1925-12-23"，}
+    回复： {"resourceType"： "患者"，"id"： "<患者 id>"，"标识符"： [{"使用"： "常规"，"键入"： {"编码"： [{"系统"： "https://hl7.org/fhir/v2/0203"，"代码"： "MR"，}]，"文本"： "医学记录数字"}，"值"： "1234567"}]，"名称"： [{"：" "}]，" 名称 "： [{" "Adams"，"family"： "Daniel"，"X"。 ]}]，"性别"： "男"，"出生日期"： "1925-12-23"，}
 
 * * *
 
-有关[http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html)此字段集的其他详细信息，请参阅。
+有关[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)此字段集的其他详细信息，请参阅。
 
 ## <a name="observation"></a>知识产权
 
@@ -134,7 +134,7 @@ ms.locfileid: "41827630"
 
     请求：获取 <fhir-服务器>/Observation？患者 =<患者 id>&类别 = "重要签名"
     
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"键入"： "searchset"，"total"：20，"entry"： [{"resource"： {""： "观察"，"id"： "<资源 id>"，"类别"： [{"编码"： [{"系统"：http://hl7.org/fhir/observation-category"" "，" 代码 "：" 重要签名 "}]，}]，" 代码 "： {" code "： [{" system "：http://loinc.org" ""，"code"： "8867-4"，"显示"： "heart_rate"}]}，"effectiveDateTime"： "2009 年08T00：00： 00-06： 00"，"valueQuantity"： {"value"：72.0，"unit"： "{节拍} ¢"，"system"： "http://unitsofmeasure.org"，"
+    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"键入"： "searchset"，"total"：20，"entry"： [{"resource"： {""： "观察"，"id"： "<资源 id>"，"类别"： [{"编码"： [{"系统"：https://hl7.org/fhir/observation-category"" "，" 代码 "：" 重要签名 "}]，}]，" 代码 "： {" code "： [{" system "：http://loinc.org" ""，"code"： "8867-4"，"显示"： "heart_rate"}]}，"effectiveDateTime"： "2009 年08T00：00： 00-06： 00"，"valueQuantity"： {"value"：72.0，"unit"： "{节拍} ¢"，"system"： "http://unitsofmeasure.org"，"
         .
         .
       ] }
@@ -171,11 +171,11 @@ ms.locfileid: "41827630"
       ] }
 
 * * *
-有关[http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html)此字段集的其他详细信息，请参阅。
+有关[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)此字段集的其他详细信息，请参阅。
 
 ## <a name="encounter"></a>产生
 
-以下是最少必填字段，这些字段是 "[美国核心" 基本配置文件](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html)"必须具有" 字段的子集。
+以下是最少必填字段，这些字段是 "[美国核心" 基本配置文件](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html)"必须具有" 字段的子集。
 
 1. 状态栏
 2. 键入 [0]。编码 [0]。画面
@@ -193,7 +193,7 @@ ms.locfileid: "41827630"
 
 目标是能够检索患者的最后一个已知位置。 每个遇到的都引用一个位置资源。 该引用还应包含位置的显示字段。
 
-有关[http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html)此字段集的其他详细信息，请参阅。
+有关[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)此字段集的其他详细信息，请参阅。
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
@@ -225,7 +225,7 @@ ms.locfileid: "41827630"
 
 * * *
 
-有关[http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html)此字段集的其他详细信息，请参阅。
+有关[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)此字段集的其他详细信息，请参阅。
 
 ## <a name="medication-request"></a>药物请求
 
@@ -262,4 +262,4 @@ ms.locfileid: "41827630"
 
 1. 患者 = \<患者 id>
 
-有关[http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)此字段集的其他详细信息，请参阅。
+有关[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)此字段集的其他详细信息，请参阅。

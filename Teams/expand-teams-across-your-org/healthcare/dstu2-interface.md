@@ -1,7 +1,7 @@
 ---
 title: 患者应用和 EHR 集成 DSTU2 界面
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 团队患者应用 EHR 集成
-ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827800"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153814"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 接口规范
 
@@ -54,7 +54,7 @@ ms.locfileid: "41827800"
    1. 众
    2. 相交
    3. 资源：类型
-   4. 安全性： [OAuth uri 的扩展](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. 安全性： [OAuth uri 的扩展](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion （我们的代码需要此内容才能了解我们支持多个版本时应透视到的版本。）
 
 有关[https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)此字段集的其他详细信息，请参阅。
@@ -82,7 +82,7 @@ ms.locfileid: "41827800"
     回复： {"resourceType"： "患者"，"id"： "<患者 id>"，。
       .
       .
-      "名称"： [{"使用"： "官方"，"prefix"： ["Mr"]，"family"： ["Chau"]，"Hugh"： [""]}]，"标识符"： [{"使用"： "官方"，"类型"： {"编码"： [{"systemhttp://hl7.org/fhir/v2/0203"： "？"，"1234567"}]，"性别"： "男"，"出生日期"： "1957-06-05"，"careProvider"： [{"显示"： "Jane Doe"}]，}
+      "名称"： [{"使用"： "官方"，"prefix"： ["Mr"]，"family"： ["Chau"]，"Hugh"： [""]}]，"标识符"： [{"使用"： "官方"，"类型"： {"编码"： [{"systemhttps://hl7.org/fhir/v2/0203"： "？"，"1234567"}]，"性别"： "男"，"出生日期"： "1957-06-05"，"careProvider"： [{"显示"： "Jane Doe"}]，}
 
 * * *
 

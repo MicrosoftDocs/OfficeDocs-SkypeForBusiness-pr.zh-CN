@@ -12,18 +12,18 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f9a3627930f65740fdd00596ddde24cde4dabc3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 57d7ddc97fcd3f9cbed0d5d490135be3fecbecfe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044904"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的移动客户端比较表
 
@@ -67,11 +67,11 @@ _**上次修改的主题：** 2015-09-21_
 > <LI>
 > <P>要查找 Skype for Business 的移动客户端比较表吗？ 请参阅<A href="https://technet.microsoft.com/library/dn951412.aspx">Skype for business 的移动客户端比较表</A>。</P>
 > <LI>
-> <P>有关最终用户的联机帮助和资源，请参阅适用于<A href="http://go.microsoft.com/fwlink/?linkid=286237">移动客户端的 Microsoft Lync 2013</A>。</P>
+> <P>有关最终用户的联机帮助和资源，请参阅适用于<A href="https://go.microsoft.com/fwlink/?linkid=286237">移动客户端的 Microsoft Lync 2013</A>。</P>
 > <LI>
 > <P>若要比较其他 Lync 2013 客户端中提供的功能，请参阅<A href="lync-server-2013-desktop-client-comparison-tables.md">Lync Server 2013 的客户端比较表</A>。</P>
 > <LI>
-> <P>Lync Server 2013 还支持 Lync 2010 移动应用。 有关详细信息，请参阅 Lync Server 2010 文档中的<A href="http://go.microsoft.com/fwlink/p/?linkid=234777">移动客户端比较表</A>。</P></LI></UL>
+> <P>Lync Server 2013 还支持 Lync 2010 移动应用。 有关详细信息，请参阅 Lync Server 2010 文档中的<A href="https://go.microsoft.com/fwlink/p/?linkid=234777">移动客户端比较表</A>。</P></LI></UL>
 
 
 

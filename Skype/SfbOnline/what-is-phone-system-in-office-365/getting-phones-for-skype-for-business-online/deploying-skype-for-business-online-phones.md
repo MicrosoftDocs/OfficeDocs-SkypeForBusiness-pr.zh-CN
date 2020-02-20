@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解部署步骤以获取正确的固件、根据需要更新、分配许可证以及配置 Skype for Business online 手机的设置
-ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784749"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113145"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -208,7 +208,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
   
 2. 从下面的链接下载并安装制造商网站中的最新 BToE 软件。为了获得更好的用户体验，你可以使用 Microsoft 终结点配置管理器等管理员分发解决方案分发和安装 BToE 软件。有关使用配置管理器的帮助，请参阅[Configuration manager 中的程序包和程序](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)。
     
-   - [Polycom BToE 软件下载网站](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Polycom BToE 软件下载网站](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [Yealink BToE 软件下载](http://www.yealink.com/products_list_10.html)
     

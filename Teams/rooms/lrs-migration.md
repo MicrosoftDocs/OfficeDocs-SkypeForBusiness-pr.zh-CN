@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: 阅读本主题，了解如何将 Lync 会议室系统设备迁移到使用 Microsoft 团队聊天室软件。
-ms.openlocfilehash: 4aad70c0a91824f0b1eff892aa1940760fc39d39
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4f0c255c40c64274ff4b104a8706eb8f73ee792f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826000"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155104"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>将 Lync 会议室系统（LRS）设备迁移到 Microsoft 团队聊天室
 
@@ -36,7 +36,7 @@ Microsoft 团队会议室软件除了适用于 office 的 Skype for business 服
 - Crestron RL
 - [Crestron RL2](https://www.crestron.com/Products/Featured-Solutions/Crestron-RL-2)
 - [智能房间系统](https://support.smarttech.com/en/hardware/room-systems-skype)
-- [Polycom CX8000](http://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
+- [Polycom CX8000](https://www.polycom.com/products-services/products-for-microsoft/skype-for-business/cx8000.html)
 
 ## <a name="upgrade-options"></a>升级选项
 

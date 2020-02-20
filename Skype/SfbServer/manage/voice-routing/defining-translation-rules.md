@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Skype for Business Server 企业版语音路由基于规范化为 e.164 格式的电话号码的呼叫。 这意味着，所有拨打的字符串都必须规范化为 e.164 格式，以执行反向号码查找（RNL），以便可以将它们转换为匹配的 SIP URI。 Skype for Business Server 提供操作被叫 ID 和呼叫者 ID 演示的功能。
-ms.openlocfilehash: dddeee5ef7784d9c2c433763da4c8b6145611e49
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49598c2ef6b1a145c206bece3e06068067b0a0e0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045064"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151202"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>在 Skype for Business Server 中定义转换规则
 
@@ -55,7 +55,7 @@ Skype for Business Server 提供的选项还可以将呼叫方的电话号码（
 - [手动写入正则表达式](#create-or-modify-a-translation-rule-manually)，以定义匹配的模式和转换规则。
 
 > [!Note]
-> 有关如何编写正则表达式的信息，请参阅[.Net Framework 正则表达式](http://go.microsoft.com/fwlink/p/?linkId=140927)。 
+> 有关如何编写正则表达式的信息，请参阅[.Net Framework 正则表达式](https://go.microsoft.com/fwlink/p/?linkId=140927)。 
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>使用 "生成转换规则" 工具创建或修改转换规则
 

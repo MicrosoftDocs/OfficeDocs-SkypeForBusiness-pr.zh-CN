@@ -1,7 +1,7 @@
 ---
 title: 患者应用概述
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft 团队患者应用 EHR 集成
-ms.openlocfilehash: 8d5723f90fe56c2af342f1cfd76e3ab9bde04c60
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 27149ad8466eec9bd3c1f73293f82a877dc1a722
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827650"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147715"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>将电子医疗记录集成到 Microsoft Teams 中
 
@@ -79,7 +79,7 @@ ms.locfileid: "41827650"
     {"resourceType"： "CapabilityStatement"，。
         .
         .
-        "剩余"： [{"模式"： "服务器"，"安全性"： {"extension"： [{"extension"： [{"扩展名"： [{"" url "：" 标记https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"，" valueUri "：" "}，{" url "：" 授权https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"，" valueUri "：" "}http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris]，" url "：" "}]，" 服务 "： [{" 系统 "：http://hl7.org/fhir/ValueSet/restful-security-service" ""，"代码"： "OAuth"}]}]}。
+        "剩余"： [{"模式"： "服务器"，"安全性"： {"extension"： [{"extension"： [{"扩展名"： [{"" url "：" 标记https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"，" valueUri "：" "}，{" url "：" 授权https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize"，" valueUri "：" "}http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris]，" url "：" "}]，" 服务 "： [{" 系统 "：https://hl7.org/fhir/ValueSet/restful-security-service" ""，"代码"： "OAuth"}]}]}。
                 .
                 .
             } ] }

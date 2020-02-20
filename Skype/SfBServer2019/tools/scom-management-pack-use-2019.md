@@ -1,8 +1,8 @@
 ---
 title: 使用 SCOM 管理包管理 Skype for Business Server 2019
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：了解如何将 Skype for Business Server 2019 基础结构配置为与 System Center Operations Manager 配合使用。
-ms.openlocfilehash: ac8b9a99794ee12be5d6ac31b0361f46730a8e21
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 54c9f3dadb73df45ddc21cfc40ff83711032a4c2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006037"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150539"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>使用 SCOM 管理包管理 Skype for Business Server 2019
  
@@ -126,11 +126,11 @@ Skype for Business Server 2019 管理包通过综合事务提供了更多的警�
 
 ||||
 |:-----|:-----|:-----|
-|1   <br/> |注册（用户登录）  <br/> |可用的 Lync Server 2010 及更高版本  <br/> |
-|2   <br/> |通讯簿服务（文件下载）  <br/> |可用的 Lync Server 2010 及更高版本  <br/> |
-|3   <br/> |通讯簿 Web 查询  <br/> |可用的 Lync Server 2010 及更高版本  <br/> |
-|4   <br/> |状态  <br/> |可用的 Lync Server 2010 及更高版本  <br/> |
-|5   <br/> |统一联系人存储  <br/> |可用的 Lync Server 2013 及更高版本  <br/> |
+|1  <br/> |注册（用户登录）  <br/> |可用的 Lync Server 2010 及更高版本  <br/> |
+|双面  <br/> |通讯簿服务（文件下载）  <br/> |可用的 Lync Server 2010 及更高版本  <br/> |
+|第三章  <br/> |通讯簿 Web 查询  <br/> |可用的 Lync Server 2010 及更高版本  <br/> |
+|4  <br/> |状态  <br/> |可用的 Lync Server 2010 及更高版本  <br/> |
+|5  <br/> |统一联系人存储  <br/> |可用的 Lync Server 2013 及更高版本  <br/> |
    
 **对等服务的受支持的综合事务**
 
@@ -149,8 +149,8 @@ Skype for Business Server 2019 管理包通过综合事务提供了更多的警�
 |:-----|:-----|:-----|
 |9   <br/> |音频视频会议  <br/> |在 Lync Server 2010 和更高版本中可用  <br/> |
 |10   <br/> |数据会议  <br/> |在 Lync Server 2013 和更高版本中可用  <br/> |
-|11x17  <br/> |即时消息会议  <br/> |在 Lync Server 2010 和更高版本中可用  <br/> |
-|12   <br/> | 持久聊天 <br/> |在 Lync Server 2013 和更高版本中可用  <br/> |
+|11   <br/> |即时消息会议  <br/> |在 Lync Server 2010 和更高版本中可用  <br/> |
+|12  <br/> | 持久聊天 <br/> |在 Lync Server 2013 和更高版本中可用  <br/> |
 |13   <br/> |联接启动程序（计划会议）  <br/> |在 Lync Server 2013 和更高版本中可用  <br/> |
 |14   <br/> |电话拨入式会议  <br/> |在 Skype for Business Server 2015 及更高版本中可用 <br/> |
 |15   <br/> |应用程序共享会议  <br/> |在 Skype for Business Server 2015 及更高版本中可用 <br/> |

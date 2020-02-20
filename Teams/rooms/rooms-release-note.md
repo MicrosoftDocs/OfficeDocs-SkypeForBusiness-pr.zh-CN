@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文讨论 Microsoft 团队聊天室中的累积改进。
-ms.openlocfilehash: ace96ae0cc8094c1daa7d74f76790e6316ee9411
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825800"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155084"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -248,7 +248,7 @@ Introduced in this update:
 
 此更新中引入的内容：
 
-- 对[POLYCOM MSR 系列](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)插接硬件的支持
+- 对[POLYCOM MSR 系列](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)插接硬件的支持
 - 对[Logitech Brio](https://www.logitech.com/product/brio)的支持
 - 解决了在聊天室中没有活动时显示（控制台和前置空间）无法进入睡眠模式的问题
 
@@ -258,7 +258,7 @@ Introduced in this update:
 
 - 在 Surface Pro （2017）平板电脑上运行 
 - 支持 Windows 10 企业版创建程序的更新（英语、内部版本1703）
-- 对[CRESTRON SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock 硬件的支持
+- 对[CRESTRON SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) dock 硬件的支持
 - 适用于环境控件（Crestron）的 OEM 支持
 
 Microsoft 团队聊天室版本3.0.12.0 （update 3）不再支持64位版本的 Windows 10 企业版周年版（英语、版本1607）。

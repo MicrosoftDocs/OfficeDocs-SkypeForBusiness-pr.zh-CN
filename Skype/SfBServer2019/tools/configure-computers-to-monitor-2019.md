@@ -1,8 +1,8 @@
 ---
 title: 配置将受监视的 Skype for Business Server 计算机
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：在 Skype for Business Server 2019 计算机上安装 Operations Manager 代理文件以进行监视，并将计算机配置为充当 System Center 代理。
-ms.openlocfilehash: a79101a80fd68eb7b65b7f981874afa44f5cb5f3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ebf859b633a0da047d61a7b0d55c430f81a02401
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006057"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150559"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>配置将受监视的 Skype for Business Server 计算机
 
