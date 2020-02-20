@@ -12,20 +12,20 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eadff371314088e99752ca2bab4c74bcae174c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a744a29d36106e921c65925588f285af6d1390e5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027593"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142128"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblcompliancestate-in-lync-server-2013"></a><span data-ttu-id="81643-102">Lync Server 2013 中的 tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="81643-102">tblComplianceState in Lync Server 2013</span></span>
+# <a name="tblcompliancestate-in-lync-server-2013"></a><span data-ttu-id="3dc8f-102">Lync Server 2013 中的 tblComplianceState</span><span class="sxs-lookup"><span data-stu-id="3dc8f-102">tblComplianceState in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42027593"
 
 <span> </span>
 
-<span data-ttu-id="81643-103">_**上次修改的主题：** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="81643-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="3dc8f-103">_**上次修改的主题：** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="3dc8f-103">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="81643-104">tblComplianceState 包含池范围的合规性状态信息。</span><span class="sxs-lookup"><span data-stu-id="81643-104">tblComplianceState contains pool-wide compliance state information.</span></span>
+<span data-ttu-id="3dc8f-104">tblComplianceState 包含池范围的合规性状态信息。</span><span class="sxs-lookup"><span data-stu-id="3dc8f-104">tblComplianceState contains pool-wide compliance state information.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="81643-105">Columns</span><span class="sxs-lookup"><span data-stu-id="81643-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="3dc8f-105">Columns</span><span class="sxs-lookup"><span data-stu-id="3dc8f-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,26 +49,26 @@ ms.locfileid: "42027593"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="81643-106">列</span><span class="sxs-lookup"><span data-stu-id="81643-106">Column</span></span></th>
-<th><span data-ttu-id="81643-107">类型</span><span class="sxs-lookup"><span data-stu-id="81643-107">Type</span></span></th>
-<th><span data-ttu-id="81643-108">说明</span><span class="sxs-lookup"><span data-stu-id="81643-108">Description</span></span></th>
+<th><span data-ttu-id="3dc8f-106">列</span><span class="sxs-lookup"><span data-stu-id="3dc8f-106">Column</span></span></th>
+<th><span data-ttu-id="3dc8f-107">类型</span><span class="sxs-lookup"><span data-stu-id="3dc8f-107">Type</span></span></th>
+<th><span data-ttu-id="3dc8f-108">说明</span><span class="sxs-lookup"><span data-stu-id="3dc8f-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="81643-109">lastProcessedEntryID</span><span class="sxs-lookup"><span data-stu-id="81643-109">lastProcessedEntryID</span></span></p></td>
-<td><p><span data-ttu-id="81643-110">bigint，不为 null</span><span class="sxs-lookup"><span data-stu-id="81643-110">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="81643-111">最新处理的合规性事件的 ID。</span><span class="sxs-lookup"><span data-stu-id="81643-111">ID of the latest processed compliance event.</span></span></p></td>
+<td><p><span data-ttu-id="3dc8f-109">lastProcessedEntryID</span><span class="sxs-lookup"><span data-stu-id="3dc8f-109">lastProcessedEntryID</span></span></p></td>
+<td><p><span data-ttu-id="3dc8f-110">bigint，不为 null</span><span class="sxs-lookup"><span data-stu-id="3dc8f-110">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="3dc8f-111">最新处理的合规性事件的 ID。</span><span class="sxs-lookup"><span data-stu-id="3dc8f-111">ID of the latest processed compliance event.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="81643-112">activeServerID</span><span class="sxs-lookup"><span data-stu-id="81643-112">activeServerID</span></span></p></td>
-<td><p><span data-ttu-id="81643-113">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="81643-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="81643-114">数据库上保留排除锁的合规性服务器 ID，或者，如果无则为 -1。</span><span class="sxs-lookup"><span data-stu-id="81643-114">ID of the Compliance server holding the exclusive lock on the database, or -1 if none.</span></span></p></td>
+<td><p><span data-ttu-id="3dc8f-112">activeServerID</span><span class="sxs-lookup"><span data-stu-id="3dc8f-112">activeServerID</span></span></p></td>
+<td><p><span data-ttu-id="3dc8f-113">int，不为 null</span><span class="sxs-lookup"><span data-stu-id="3dc8f-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="3dc8f-114">数据库上保留排除锁的合规性服务器 ID，或者，如果无则为 -1。</span><span class="sxs-lookup"><span data-stu-id="3dc8f-114">ID of the Compliance server holding the exclusive lock on the database, or -1 if none.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="81643-115">lockExpirationTime</span><span class="sxs-lookup"><span data-stu-id="81643-115">lockExpirationTime</span></span></p></td>
-<td><p><span data-ttu-id="81643-116">datetime2，不为 null</span><span class="sxs-lookup"><span data-stu-id="81643-116">datetime2, not null</span></span></p></td>
-<td><p><span data-ttu-id="81643-117">锁定到期时间（如果 activeServerID 不为 -1）。</span><span class="sxs-lookup"><span data-stu-id="81643-117">Lock expiration time (if activeServerID is not -1).</span></span></p></td>
+<td><p><span data-ttu-id="3dc8f-115">lockExpirationTime</span><span class="sxs-lookup"><span data-stu-id="3dc8f-115">lockExpirationTime</span></span></p></td>
+<td><p><span data-ttu-id="3dc8f-116">datetime2，不为 null</span><span class="sxs-lookup"><span data-stu-id="3dc8f-116">datetime2, not null</span></span></p></td>
+<td><p><span data-ttu-id="3dc8f-117">锁定到期时间（如果 activeServerID 不为 -1）。</span><span class="sxs-lookup"><span data-stu-id="3dc8f-117">Lock expiration time (if activeServerID is not -1).</span></span></p></td>
 </tr>
 </tbody>
 </table>

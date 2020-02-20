@@ -12,20 +12,20 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7431be7ceb964aead28b3c9fa76593c9dda891a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0a4638676371b2de3673fbb7ff805b401ffb00dc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044854"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="5c27f-102">Lync Server 2013 中的 DeviceDriver 表</span><span class="sxs-lookup"><span data-stu-id="5c27f-102">DeviceDriver table in Lync Server 2013</span></span>
+# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="e56dd-102">Lync Server 2013 中的 DeviceDriver 表</span><span class="sxs-lookup"><span data-stu-id="e56dd-102">DeviceDriver table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42044854"
 
 <span> </span>
 
-<span data-ttu-id="5c27f-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="5c27f-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="e56dd-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="e56dd-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="5c27f-p101">DeviceDriver 表是一个支持表。每条记录都代表捕获设备或呈现设备所使用的一个驱动程序。</span><span class="sxs-lookup"><span data-stu-id="5c27f-p101">The DeviceDriver table is a supporting table. Each record represents a driver used by either a capture device or render device.</span></span>
+<span data-ttu-id="e56dd-p101">DeviceDriver 表是一个支持表。每条记录都代表捕获设备或呈现设备所使用的一个驱动程序。</span><span class="sxs-lookup"><span data-stu-id="e56dd-p101">The DeviceDriver table is a supporting table. Each record represents a driver used by either a capture device or render device.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42044854"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5c27f-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="5c27f-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="5c27f-107"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="5c27f-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="5c27f-108"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="5c27f-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="5c27f-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="5c27f-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="e56dd-106"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="e56dd-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="e56dd-107"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="e56dd-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="e56dd-108"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="e56dd-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="e56dd-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="e56dd-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5c27f-110"><strong>DeviceDriverKey</strong></span><span class="sxs-lookup"><span data-stu-id="5c27f-110"><strong>DeviceDriverKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="5c27f-111">int</span><span class="sxs-lookup"><span data-stu-id="5c27f-111">int</span></span></p></td>
-<td><p><span data-ttu-id="5c27f-112">主</span><span class="sxs-lookup"><span data-stu-id="5c27f-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="5c27f-113">用于标识此设备驱动程序记录的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="5c27f-113">Unique number identifying this device driver record.</span></span></p></td>
+<td><p><span data-ttu-id="e56dd-110"><strong>DeviceDriverKey</strong></span><span class="sxs-lookup"><span data-stu-id="e56dd-110"><strong>DeviceDriverKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="e56dd-111">int</span><span class="sxs-lookup"><span data-stu-id="e56dd-111">int</span></span></p></td>
+<td><p><span data-ttu-id="e56dd-112">主</span><span class="sxs-lookup"><span data-stu-id="e56dd-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="e56dd-113">用于标识此设备驱动程序记录的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="e56dd-113">Unique number identifying this device driver record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5c27f-114"><strong>DeviceDriver</strong></span><span class="sxs-lookup"><span data-stu-id="5c27f-114"><strong>DeviceDriver</strong></span></span></p></td>
-<td><p><span data-ttu-id="5c27f-115">varchar （256）</span><span class="sxs-lookup"><span data-stu-id="5c27f-115">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="5c27f-116">unique</span><span class="sxs-lookup"><span data-stu-id="5c27f-116">unique</span></span></p></td>
-<td><p><span data-ttu-id="5c27f-117">设备驱动程序的名称。</span><span class="sxs-lookup"><span data-stu-id="5c27f-117">Device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="e56dd-114"><strong>DeviceDriver</strong></span><span class="sxs-lookup"><span data-stu-id="e56dd-114"><strong>DeviceDriver</strong></span></span></p></td>
+<td><p><span data-ttu-id="e56dd-115">varchar （256）</span><span class="sxs-lookup"><span data-stu-id="e56dd-115">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="e56dd-116">unique</span><span class="sxs-lookup"><span data-stu-id="e56dd-116">unique</span></span></p></td>
+<td><p><span data-ttu-id="e56dd-117">设备驱动程序的名称。</span><span class="sxs-lookup"><span data-stu-id="e56dd-117">Device driver name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71d354449c02a0b57b737f01841a0f5841aa80c9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 43152ead11b0f03e280b72e7350b8bef101156b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038534"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146065"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a><span data-ttu-id="842b8-102">将持久聊天服务器添加到 Lync Server 2013 中的部署</span><span class="sxs-lookup"><span data-stu-id="842b8-102">Adding Persistent Chat Server to your deployment in Lync Server 2013</span></span>
+# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a><span data-ttu-id="4c45c-102">将持久聊天服务器添加到 Lync Server 2013 中的部署</span><span class="sxs-lookup"><span data-stu-id="4c45c-102">Adding Persistent Chat Server to your deployment in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42038534"
 
 <span> </span>
 
-<span data-ttu-id="842b8-103">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="842b8-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="4c45c-103">_**上次修改的主题：** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="4c45c-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="842b8-104">在计划在其上部署 Lync Server 2013 的每台服务器上安装必备软件后，持久聊天服务器，必须使用拓扑生成器将持久聊天服务器支持添加到拓扑，然后发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="842b8-104">After you install the prerequisite software on each server on which you plan to deploy Lync Server 2013, Persistent Chat Server, you must use Topology Builder to add Persistent Chat Server support to your topology, and then publish the topology.</span></span>
+<span data-ttu-id="4c45c-104">在计划在其上部署 Lync Server 2013 的每台服务器上安装必备软件后，持久聊天服务器，必须使用拓扑生成器将持久聊天服务器支持添加到拓扑，然后发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="4c45c-104">After you install the prerequisite software on each server on which you plan to deploy Lync Server 2013, Persistent Chat Server, you must use Topology Builder to add Persistent Chat Server support to your topology, and then publish the topology.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="842b8-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="842b8-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4c45c-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="4c45c-105">In This Section</span></span>
 
-  - [<span data-ttu-id="842b8-106">在 Lync Server 2013 中向拓扑添加持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="842b8-106">Add Persistent Chat Server to the topology in Lync Server 2013</span></span>](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
+  - [<span data-ttu-id="4c45c-106">在 Lync Server 2013 中向拓扑添加持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="4c45c-106">Add Persistent Chat Server to the topology in Lync Server 2013</span></span>](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
 
-  - [<span data-ttu-id="842b8-107">在 Lync Server 2013 中发布更新后的拓扑</span><span class="sxs-lookup"><span data-stu-id="842b8-107">Publish the updated topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-updated-topology.md)
+  - [<span data-ttu-id="4c45c-107">在 Lync Server 2013 中发布更新后的拓扑</span><span class="sxs-lookup"><span data-stu-id="4c45c-107">Publish the updated topology in Lync Server 2013</span></span>](lync-server-2013-publish-the-updated-topology.md)
 
 </div>
 

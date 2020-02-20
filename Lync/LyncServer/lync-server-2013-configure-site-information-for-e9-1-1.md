@@ -12,20 +12,20 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f39760dde02ab573111642d5ec888a321184b41
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3fa1a79f06d81b0deb934798a84030a718cde1a1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035214"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="1ae1e-102">在 Lync Server 2013 中为 E9-1-1 配置网站信息</span><span class="sxs-lookup"><span data-stu-id="1ae1e-102">Configure site information for E9-1-1 in Lync Server 2013</span></span>
+# <a name="configure-site-information-for-e9-1-1-in-lync-server-2013"></a><span data-ttu-id="ad216-102">在 Lync Server 2013 中为 E9-1-1 配置网站信息</span><span class="sxs-lookup"><span data-stu-id="ad216-102">Configure site information for E9-1-1 in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42035214"
 
 <span> </span>
 
-<span data-ttu-id="1ae1e-103">_**上次修改的主题：** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="1ae1e-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="ad216-103">_**上次修改的主题：** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="ad216-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="1ae1e-104">要为子网定义位置策略，必须执行以下操作（可按任何顺序）：</span><span class="sxs-lookup"><span data-stu-id="1ae1e-104">To define a location policy for subnets, you must do the following, in any order:</span></span>
+<span data-ttu-id="ad216-104">要为子网定义位置策略，必须执行以下操作（可按任何顺序）：</span><span class="sxs-lookup"><span data-stu-id="ad216-104">To define a location policy for subnets, you must do the following, in any order:</span></span>
 
-  - <span data-ttu-id="1ae1e-105">将位置策略应用于网络站点。</span><span class="sxs-lookup"><span data-stu-id="1ae1e-105">Apply a location policy to the network site.</span></span>
+  - <span data-ttu-id="ad216-105">将位置策略应用于网络站点。</span><span class="sxs-lookup"><span data-stu-id="ad216-105">Apply a location policy to the network site.</span></span>
 
-  - <span data-ttu-id="1ae1e-106">将子网添加到网络站点。</span><span class="sxs-lookup"><span data-stu-id="1ae1e-106">Add the subnets to the network site.</span></span>
+  - <span data-ttu-id="ad216-106">将子网添加到网络站点。</span><span class="sxs-lookup"><span data-stu-id="ad216-106">Add the subnets to the network site.</span></span>
 
-<span data-ttu-id="1ae1e-107">有关网络站点的详细信息，请参阅 lync [server sites For Lync server 2013](lync-server-2013-sites.md)。</span><span class="sxs-lookup"><span data-stu-id="1ae1e-107">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
+<span data-ttu-id="ad216-107">有关网络站点的详细信息，请参阅 lync [server sites For Lync server 2013](lync-server-2013-sites.md)。</span><span class="sxs-lookup"><span data-stu-id="ad216-107">For details about network sites, see [Lync Server sites for Lync Server 2013](lync-server-2013-sites.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="1ae1e-108">如果为其他语音功能创建网络站点，并要使用相同的站点配置 E9-1-1，则可以修改要用于 E9-1-1 的站点。</span><span class="sxs-lookup"><span data-stu-id="1ae1e-108">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
+> <span data-ttu-id="ad216-108">如果为其他语音功能创建网络站点，并要使用相同的站点配置 E9-1-1，则可以修改要用于 E9-1-1 的站点。</span><span class="sxs-lookup"><span data-stu-id="ad216-108">If you create network sites for another voice feature and you want to configure E9-1-1 by using the same sites, then you can modify the sites to be used for E9-1-1.</span></span>
 
 
 
@@ -57,11 +57,11 @@ ms.locfileid: "42035214"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1ae1e-109">本部分内容</span><span class="sxs-lookup"><span data-stu-id="1ae1e-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ad216-109">本部分内容</span><span class="sxs-lookup"><span data-stu-id="ad216-109">In This Section</span></span>
 
-  - [<span data-ttu-id="1ae1e-110">在 Lync Server 2013 中向网络站点添加位置策略</span><span class="sxs-lookup"><span data-stu-id="1ae1e-110">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [<span data-ttu-id="ad216-110">在 Lync Server 2013 中向网络站点添加位置策略</span><span class="sxs-lookup"><span data-stu-id="ad216-110">Add a location policy to a network site in Lync Server 2013</span></span>](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [<span data-ttu-id="1ae1e-111">在 Lync Server 2013 中将子网与网络站点关联</span><span class="sxs-lookup"><span data-stu-id="1ae1e-111">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [<span data-ttu-id="ad216-111">在 Lync Server 2013 中将子网与网络站点关联</span><span class="sxs-lookup"><span data-stu-id="ad216-111">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

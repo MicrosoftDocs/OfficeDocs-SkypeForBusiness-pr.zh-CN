@@ -12,20 +12,20 @@ ms:contentKeyID: 48184482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2d859f38e6ed7322689f8b89f4865d2ea68733e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a7895033f487be19781a848bc2c4dc1194b42101
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008798"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145491"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a><span data-ttu-id="1a73d-102">将存档数据库添加到现有 Lync Server 2013 部署</span><span class="sxs-lookup"><span data-stu-id="1a73d-102">Adding Archiving databases to an existing Lync Server 2013 Deployment</span></span>
+# <a name="adding-archiving-databases-to-an-existing-lync-server-2013-deployment"></a><span data-ttu-id="67d86-102">将存档数据库添加到现有 Lync Server 2013 部署</span><span class="sxs-lookup"><span data-stu-id="67d86-102">Adding Archiving databases to an existing Lync Server 2013 Deployment</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42008798"
 
 <span> </span>
 
-<span data-ttu-id="1a73d-103">_**上次修改的主题：** 2012-06-23_</span><span class="sxs-lookup"><span data-stu-id="1a73d-103">_**Topic Last Modified:** 2012-06-23_</span></span>
+<span data-ttu-id="67d86-103">_**上次修改的主题：** 2012-06-23_</span><span class="sxs-lookup"><span data-stu-id="67d86-103">_**Topic Last Modified:** 2012-06-23_</span></span>
 
-<span data-ttu-id="1a73d-104">在设置了用于存档的系统平台和基础结构之后，必须使用拓扑生成器将存档添加到拓扑，然后发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="1a73d-104">After you set up the system platforms and infrastructure for Archiving, you must use Topology Builder to add Archiving to your topology, and then publish the topology.</span></span>
+<span data-ttu-id="67d86-104">在设置了用于存档的系统平台和基础结构之后，必须使用拓扑生成器将存档添加到拓扑，然后发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="67d86-104">After you set up the system platforms and infrastructure for Archiving, you must use Topology Builder to add Archiving to your topology, and then publish the topology.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1a73d-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="1a73d-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="67d86-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="67d86-105">In This Section</span></span>
 
-  - [<span data-ttu-id="1a73d-106">将存档数据库添加到 Lync Server 2013 拓扑</span><span class="sxs-lookup"><span data-stu-id="1a73d-106">Adding Archiving databases to the Lync Server 2013 topology</span></span>](lync-server-2013-adding-archiving-databases-to-the-lync-server-2013-topology.md)
+  - [<span data-ttu-id="67d86-106">将存档数据库添加到 Lync Server 2013 拓扑</span><span class="sxs-lookup"><span data-stu-id="67d86-106">Adding Archiving databases to the Lync Server 2013 topology</span></span>](lync-server-2013-adding-archiving-databases-to-the-lync-server-2013-topology.md)
 
-  - [<span data-ttu-id="1a73d-107">发布更新后的拓扑以在 Lync Server 2013 中添加存档数据库</span><span class="sxs-lookup"><span data-stu-id="1a73d-107">Publishing the updated topology to add Archiving databases in Lync Server 2013</span></span>](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
+  - [<span data-ttu-id="67d86-107">发布更新后的拓扑以在 Lync Server 2013 中添加存档数据库</span><span class="sxs-lookup"><span data-stu-id="67d86-107">Publishing the updated topology to add Archiving databases in Lync Server 2013</span></span>](lync-server-2013-publishing-the-updated-topology-to-add-archiving-databases.md)
 
 </div>
 

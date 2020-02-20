@@ -12,20 +12,20 @@ ms:contentKeyID: 48183405
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e906b6194572d0ed7f797a2be64c7b66982436b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bd46b19ea52b56b70cc5bd4c459f2260a97306d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035074"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="exchange-unified-messaging-um-support-in-lync-server-2013"></a><span data-ttu-id="4caac-102">Lync Server 2013 中的 Exchange 统一消息（UM）支持</span><span class="sxs-lookup"><span data-stu-id="4caac-102">Exchange Unified Messaging (UM) support in Lync Server 2013</span></span>
+# <a name="exchange-unified-messaging-um-support-in-lync-server-2013"></a><span data-ttu-id="ce976-102">Lync Server 2013 中的 Exchange 统一消息（UM）支持</span><span class="sxs-lookup"><span data-stu-id="ce976-102">Exchange Unified Messaging (UM) support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42035074"
 
 <span> </span>
 
-<span data-ttu-id="4caac-103">_**上次修改的主题：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="4caac-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="ce976-103">_**上次修改的主题：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="ce976-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="4caac-104">Lync Server 2013 支持与 Exchange 统一消息（UM）集成，以将语音邮件和电子邮件消息合并到一个邮件基础结构中。</span><span class="sxs-lookup"><span data-stu-id="4caac-104">Lync Server 2013 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span> <span data-ttu-id="4caac-105">在 Exchange 2013 中，Exchange UM 由在邮箱服务器上安装和运行的 Exchange UM 服务以及在客户端访问服务器上安装和运行的 UM 呼叫路由器组成。</span><span class="sxs-lookup"><span data-stu-id="4caac-105">In Exchange 2013, Exchange UM consists of the Exchange UM service, which is installed and runs on the Mailbox server, and the UM Call Router, which is installed and runs on the Client Access server.</span></span> <span data-ttu-id="4caac-106">对于 Lync Server 2013 企业语音部署，Exchange UM 将语音邮件和电子邮件合并到可通过电话（即 Outlook Voice Access）或计算机访问的单个存储中。</span><span class="sxs-lookup"><span data-stu-id="4caac-106">For Lync Server 2013 Enterprise Voice deployments, Exchange UM combines voice messaging and email messaging into a single store that is accessible from a telephone (that is, Outlook Voice Access) or a computer.</span></span> <span data-ttu-id="4caac-107">Exchange UM 和 Lync Server 2013 协同工作，为企业语音的用户提供呼叫应答、Outlook Voice Access 和自动助理服务。</span><span class="sxs-lookup"><span data-stu-id="4caac-107">Exchange UM and Lync Server 2013 work together to provide call answering, Outlook Voice Access, and auto attendant services to users of Enterprise Voice.</span></span>
+<span data-ttu-id="ce976-104">Lync Server 2013 支持与 Exchange 统一消息（UM）集成，以将语音邮件和电子邮件消息合并到一个邮件基础结构中。</span><span class="sxs-lookup"><span data-stu-id="ce976-104">Lync Server 2013 supports integration with Exchange Unified Messaging (UM) for combining voice messaging and email messaging into a single messaging infrastructure.</span></span> <span data-ttu-id="ce976-105">在 Exchange 2013 中，Exchange UM 由在邮箱服务器上安装和运行的 Exchange UM 服务以及在客户端访问服务器上安装和运行的 UM 呼叫路由器组成。</span><span class="sxs-lookup"><span data-stu-id="ce976-105">In Exchange 2013, Exchange UM consists of the Exchange UM service, which is installed and runs on the Mailbox server, and the UM Call Router, which is installed and runs on the Client Access server.</span></span> <span data-ttu-id="ce976-106">对于 Lync Server 2013 企业语音部署，Exchange UM 将语音邮件和电子邮件合并到可通过电话（即 Outlook Voice Access）或计算机访问的单个存储中。</span><span class="sxs-lookup"><span data-stu-id="ce976-106">For Lync Server 2013 Enterprise Voice deployments, Exchange UM combines voice messaging and email messaging into a single store that is accessible from a telephone (that is, Outlook Voice Access) or a computer.</span></span> <span data-ttu-id="ce976-107">Exchange UM 和 Lync Server 2013 协同工作，为企业语音的用户提供呼叫应答、Outlook Voice Access 和自动助理服务。</span><span class="sxs-lookup"><span data-stu-id="ce976-107">Exchange UM and Lync Server 2013 work together to provide call answering, Outlook Voice Access, and auto attendant services to users of Enterprise Voice.</span></span>
 
-<span data-ttu-id="4caac-108">除了支持与 Exchange UM 的本地部署集成之外，Lync Server 2013 还支持与托管 Exchange UM 集成。</span><span class="sxs-lookup"><span data-stu-id="4caac-108">In addition to the support for integration with on-premises deployments of Exchange UM, Lync Server 2013 supports integration with hosted Exchange UM.</span></span> <span data-ttu-id="4caac-109">这样可使您在将某些或所有用户迁移到托管 Exchange 服务提供商（如 Microsoft Exchange Online）时，为用户提供语音消息传递。</span><span class="sxs-lookup"><span data-stu-id="4caac-109">This enables you to provide voice messaging to your users if you migrate some or all of them to a hosted Exchange service provider such as Microsoft Exchange Online.</span></span>
+<span data-ttu-id="ce976-108">除了支持与 Exchange UM 的本地部署集成之外，Lync Server 2013 还支持与托管 Exchange UM 集成。</span><span class="sxs-lookup"><span data-stu-id="ce976-108">In addition to the support for integration with on-premises deployments of Exchange UM, Lync Server 2013 supports integration with hosted Exchange UM.</span></span> <span data-ttu-id="ce976-109">这样可使您在将某些或所有用户迁移到托管 Exchange 服务提供商（如 Microsoft Exchange Online）时，为用户提供语音消息传递。</span><span class="sxs-lookup"><span data-stu-id="ce976-109">This enables you to provide voice messaging to your users if you migrate some or all of them to a hosted Exchange service provider such as Microsoft Exchange Online.</span></span>
 
-<span data-ttu-id="4caac-110">Lync Server 2013 支持以下版本：</span><span class="sxs-lookup"><span data-stu-id="4caac-110">Lync Server 2013 supports the following versions:</span></span>
+<span data-ttu-id="ce976-110">Lync Server 2013 支持以下版本：</span><span class="sxs-lookup"><span data-stu-id="ce976-110">Lync Server 2013 supports the following versions:</span></span>
 
-  - <span data-ttu-id="4caac-111">Microsoft Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="4caac-111">Microsoft Exchange 2013</span></span>
+  - <span data-ttu-id="ce976-111">Microsoft Exchange 2013</span><span class="sxs-lookup"><span data-stu-id="ce976-111">Microsoft Exchange 2013</span></span>
 
-  - <span data-ttu-id="4caac-112">Microsoft Exchange Server 2010 （必需）或最新 service pack （推荐）</span><span class="sxs-lookup"><span data-stu-id="4caac-112">Microsoft Exchange Server 2010 (required) or with latest service pack (recommended)</span></span>
+  - <span data-ttu-id="ce976-112">Microsoft Exchange Server 2010 （必需）或最新 service pack （推荐）</span><span class="sxs-lookup"><span data-stu-id="ce976-112">Microsoft Exchange Server 2010 (required) or with latest service pack (recommended)</span></span>
 
-  - <span data-ttu-id="4caac-113">Microsoft Exchange Server 2007 Service Pack 1 （SP1）（必需）或最新的 service pack （推荐）</span><span class="sxs-lookup"><span data-stu-id="4caac-113">Microsoft Exchange Server 2007 with Service Pack 1 (SP1) (required) or latest service pack (recommended)</span></span>
+  - <span data-ttu-id="ce976-113">Microsoft Exchange Server 2007 Service Pack 1 （SP1）（必需）或最新的 service pack （推荐）</span><span class="sxs-lookup"><span data-stu-id="ce976-113">Microsoft Exchange Server 2007 with Service Pack 1 (SP1) (required) or latest service pack (recommended)</span></span>
 
-<span data-ttu-id="4caac-114">您不能并置 Exchange UM 与 Lync Server 2013 或 Lync Server 2013 数据库。</span><span class="sxs-lookup"><span data-stu-id="4caac-114">You cannot collocate Exchange UM with Lync Server 2013 or a Lync Server 2013 database.</span></span> <span data-ttu-id="4caac-115">您可以在单独的林中安装 Exchange UM 和 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="4caac-115">You can install Exchange UM and Lync Server 2013 in separate forests.</span></span>
+<span data-ttu-id="ce976-114">您不能并置 Exchange UM 与 Lync Server 2013 或 Lync Server 2013 数据库。</span><span class="sxs-lookup"><span data-stu-id="ce976-114">You cannot collocate Exchange UM with Lync Server 2013 or a Lync Server 2013 database.</span></span> <span data-ttu-id="ce976-115">您可以在单独的林中安装 Exchange UM 和 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="ce976-115">You can install Exchange UM and Lync Server 2013 in separate forests.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="4caac-116">Exchange UM 可能不是已部署 PBX 的企业语音部署所必需的，因为 PBX 可以继续向所有用户提供语音邮件和相关服务。</span><span class="sxs-lookup"><span data-stu-id="4caac-116">Exchange UM may not be required for Enterprise Voice deployments that have a PBX deployed, because the PBX can continue to provide voice mail and related services to all users.</span></span> <span data-ttu-id="4caac-117">如果您最终停用 PBX （例如，如果为公用电话交换网（PSTN）连接部署 SIP 中继），则必须重新配置 Exchange UM，以向以前使用 PBX 语音邮件系统的用户提供语音邮件。</span><span class="sxs-lookup"><span data-stu-id="4caac-117">If you eventually retire the PBX (for example, if you deploy SIP trunking for public switched telephone network (PSTN) connectivity), you must reconfigure Exchange UM to provide voice mail to users who previously used the PBX voice mail system.</span></span>
+> <span data-ttu-id="ce976-116">Exchange UM 可能不是已部署 PBX 的企业语音部署所必需的，因为 PBX 可以继续向所有用户提供语音邮件和相关服务。</span><span class="sxs-lookup"><span data-stu-id="ce976-116">Exchange UM may not be required for Enterprise Voice deployments that have a PBX deployed, because the PBX can continue to provide voice mail and related services to all users.</span></span> <span data-ttu-id="ce976-117">如果您最终停用 PBX （例如，如果为公用电话交换网（PSTN）连接部署 SIP 中继），则必须重新配置 Exchange UM，以向以前使用 PBX 语音邮件系统的用户提供语音邮件。</span><span class="sxs-lookup"><span data-stu-id="ce976-117">If you eventually retire the PBX (for example, if you deploy SIP trunking for public switched telephone network (PSTN) connectivity), you must reconfigure Exchange UM to provide voice mail to users who previously used the PBX voice mail system.</span></span>
 
 
 
@@ -63,11 +63,11 @@ ms.locfileid: "42035074"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4caac-118">本部分内容</span><span class="sxs-lookup"><span data-stu-id="4caac-118">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ce976-118">本部分内容</span><span class="sxs-lookup"><span data-stu-id="ce976-118">In This Section</span></span>
 
-  - [<span data-ttu-id="4caac-119">Lync Server 2013 中的本地统一消息的组件和拓扑</span><span class="sxs-lookup"><span data-stu-id="4caac-119">Components and topologies for on-premises Unified Messaging in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
+  - [<span data-ttu-id="ce976-119">Lync Server 2013 中的本地统一消息的组件和拓扑</span><span class="sxs-lookup"><span data-stu-id="ce976-119">Components and topologies for on-premises Unified Messaging in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
 
-  - [<span data-ttu-id="4caac-120">在 Lync Server 2013 中支持托管 Exchange UM 集成</span><span class="sxs-lookup"><span data-stu-id="4caac-120">Support for hosted Exchange UM integration in Lync Server 2013</span></span>](lync-server-2013-support-for-hosted-exchange-um-integration.md)
+  - [<span data-ttu-id="ce976-120">在 Lync Server 2013 中支持托管 Exchange UM 集成</span><span class="sxs-lookup"><span data-stu-id="ce976-120">Support for hosted Exchange UM integration in Lync Server 2013</span></span>](lync-server-2013-support-for-hosted-exchange-um-integration.md)
 
 </div>
 

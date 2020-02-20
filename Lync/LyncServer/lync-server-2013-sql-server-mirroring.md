@@ -12,20 +12,20 @@ ms:contentKeyID: 48185270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5df155ed00bb6d6f5ad4ab1867bcf3bb533a9e4e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 279970c24d22c06da07a28a8828d855d94343da9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006107"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="d62a8-102">Lync Server 2013 中的 SQL Server 镜像</span><span class="sxs-lookup"><span data-stu-id="d62a8-102">SQL Server mirroring in Lync Server 2013</span></span>
+# <a name="sql-server-mirroring-in-lync-server-2013"></a><span data-ttu-id="381ad-102">Lync Server 2013 中的 SQL Server 镜像</span><span class="sxs-lookup"><span data-stu-id="381ad-102">SQL Server mirroring in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42006107"
 
 <span> </span>
 
-<span data-ttu-id="d62a8-103">_**上次修改的主题：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="d62a8-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="381ad-103">_**上次修改的主题：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="381ad-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="d62a8-104">在主持久聊天数据库与其镜像之间建立 SQL Server 镜像会话。</span><span class="sxs-lookup"><span data-stu-id="d62a8-104">Establish the SQL Server mirroring session between the primary Persistent Chat database and its mirror.</span></span> <span data-ttu-id="d62a8-105">有关如何部署 SQL Server 镜像的信息，请参阅[在 Lync server 2013 中部署 sql 镜像以实现后端服务器高可用性](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)。</span><span class="sxs-lookup"><span data-stu-id="d62a8-105">For information about how to deploy SQL Server mirroring, see [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
+<span data-ttu-id="381ad-104">在主持久聊天数据库与其镜像之间建立 SQL Server 镜像会话。</span><span class="sxs-lookup"><span data-stu-id="381ad-104">Establish the SQL Server mirroring session between the primary Persistent Chat database and its mirror.</span></span> <span data-ttu-id="381ad-105">有关如何部署 SQL Server 镜像的信息，请参阅[在 Lync server 2013 中部署 sql 镜像以实现后端服务器高可用性](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md)。</span><span class="sxs-lookup"><span data-stu-id="381ad-105">For information about how to deploy SQL Server mirroring, see [Deploying SQL mirroring for Back End Server high availability in Lync Server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).</span></span>
 
 </div>
 
