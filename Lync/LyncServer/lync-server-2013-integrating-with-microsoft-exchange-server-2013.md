@@ -12,18 +12,18 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dccf60dba1b729b1ffa808694fffcacc14e460ba
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1c60768311f4fbf832f3dbe2ac4a0c2e8e55298
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035284"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>集成 Microsoft Lync Server 2013 和 Microsoft Exchange Server 2013
 
@@ -51,7 +51,7 @@ Exchange 和 Lync Server 的集成和兼容性历史记录较长。 此集成在
 
 请注意，这些新功能需要同时使用 Lync Server 2013 和 Exchange 2013。 此外，希望充分利用这些新功能的用户必须在 Lync Server 2013 和 Exchange 2013 上拥有帐户，并且必须使用最新版本的客户端软件（例如 Lync 2013）。 例如，统一联系人存储对驻留在 Lync Server 2010 上的用户不可用;同样，在 Lync 2010 中无法显示高分辨率照片。
 
-本文档提供有关集成 Lync Server 2013 和 Exchange 2013 的信息。 其中包括有关启用新功能（如存档集成和统一的联系人存储库）的分步信息。 本文档不能执行的操作是讨论这两种产品的初始设置和配置。 有关部署 Lync Server 2013 的详细信息，请参阅 Lync Server 2013 技术[http://go.microsoft.com/fwlink/p/?LinkId=246127](http://go.microsoft.com/fwlink/p/?linkid=246127)中心（网址为）。 有关部署 Exchange 2013 的详细信息，请参阅 Exchange 2013 技术[http://go.microsoft.com/fwlink/p/?LinkId=268528](http://go.microsoft.com/fwlink/p/?linkid=268528)中心（网址为）。
+本文档提供有关集成 Lync Server 2013 和 Exchange 2013 的信息。 其中包括有关启用新功能（如存档集成和统一的联系人存储库）的分步信息。 本文档不能执行的操作是讨论这两种产品的初始设置和配置。 有关部署 Lync Server 2013 的详细信息，请参阅 Lync Server 2013 技术[https://go.microsoft.com/fwlink/p/?LinkId=246127](https://go.microsoft.com/fwlink/p/?linkid=246127)中心（网址为）。 有关部署 Exchange 2013 的详细信息，请参阅 Exchange 2013 技术[https://go.microsoft.com/fwlink/p/?LinkId=268528](https://go.microsoft.com/fwlink/p/?linkid=268528)中心（网址为）。
 
 <div>
 

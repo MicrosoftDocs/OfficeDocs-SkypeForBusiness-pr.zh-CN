@@ -12,18 +12,18 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31d8e408425ccc2810072373212f48c764974dc0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aadbc9603fb62a2dacf78129aef3bf448da2f05
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044534"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143402"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>为 Lync Server 2013 的外部边缘接口设置证书
 
@@ -51,7 +51,7 @@ _**上次修改的主题：** 2012-09-08_
 
 有关此证书和其他证书要求的详细信息，请参阅[Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。
 
-有关公共证书颁发机构（Ca）的列表，该列表提供符合统一通信证书特定要求的证书，并已与 Microsoft 建立了合作，以确保它们使用 Lync Server 2013 证书向导，请参阅 Microsoft 知识库文章 929395 "Exchange Server 的统一通信证书合作伙伴和通信服务器"，网址[http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)为。
+有关公共证书颁发机构（Ca）的列表，该列表提供符合统一通信证书特定要求的证书，并已与 Microsoft 建立了合作，以确保它们使用 Lync Server 2013 证书向导，请参阅 Microsoft 知识库文章 929395 "Exchange Server 的统一通信证书合作伙伴和通信服务器"，网址[https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)为。
 
 <div>
 

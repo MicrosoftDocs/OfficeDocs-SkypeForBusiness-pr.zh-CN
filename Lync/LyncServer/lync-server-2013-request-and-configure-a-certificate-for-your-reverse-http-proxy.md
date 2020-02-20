@@ -12,18 +12,18 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 830d9d48e68142cf32f14d428fb48e3ab20afaca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047277"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>在 Lync Server 2013 中为您的反向 HTTP 代理请求和配置证书
 
@@ -156,15 +156,15 @@ _**上次修改的主题：** 2014-02-14_
 
 **创建证书签名请求**
 
-1.  打开 Microsoft 管理控制台（MMC）并添加 "证书" 管理单元，然后选择 "**计算机**"，然后展开 "**个人**"。 有关如何在 Microsoft 管理控制台（MMC）中创建证书控制台的详细信息，请参阅[http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616)。
+1.  打开 Microsoft 管理控制台（MMC）并添加 "证书" 管理单元，然后选择 "**计算机**"，然后展开 "**个人**"。 有关如何在 Microsoft 管理控制台（MMC）中创建证书控制台的详细信息，请参阅[https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616)。
 
 2.  右键单击 "**证书**"，单击 "**所有任务**"，单击 "**高级操作**"，然后单击 "**创建自定义请求**"。
 
 3.  在 "**证书注册**" 页上，单击 "**下一步**"。
 
-4.  在 "**选择证书注册策略**" 页的 "**自定义请求**" 下，选择 "**继续，不进行注册策略**"。 单击“**下一步**”。
+4.  在 "**选择证书注册策略**" 页的 "**自定义请求**" 下，选择 "**继续，不进行注册策略**"。 单击“下一步”。****
 
-5.  在 "**自定义请求**" 页上，为 "**模板**选择 **（无模板）旧密钥**"。 除非您的证书提供商另有指示，否则请保留**取消选中默认分机**和**PKCS \#10**上的**请求格式**选择。 单击“**下一步**”。
+5.  在 "**自定义请求**" 页上，为 "**模板**选择 **（无模板）旧密钥**"。 除非您的证书提供商另有指示，否则请保留**取消选中默认分机**和**PKCS \#10**上的**请求格式**选择。 单击“下一步”。****
 
 6.  在 "**证书信息**" 页上，单击 "**详细信息**"，然后单击 "**属性**"。
 
@@ -217,7 +217,7 @@ _**上次修改的主题：** 2014-02-14_
     
 
     > [!IMPORTANT]
-    > Microsoft 已识别出满足统一通信需求的公共 Ca。 下面的知识库文章中维护了一个列表。 <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > Microsoft 已识别出满足统一通信需求的公共 Ca。 下面的知识库文章中维护了一个列表。 <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

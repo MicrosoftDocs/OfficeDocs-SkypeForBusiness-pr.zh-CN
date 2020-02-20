@@ -12,18 +12,18 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 199191b8e87ba7f46956ff92fcda7239ff27dc5c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6eb9a3db2f9b3a14726fb7ffbec05b96b15ec81
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029843"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142438"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Lync Server 2013 中支持的 Active Directory 拓扑
 
@@ -159,7 +159,7 @@ Lync Server 支持在中央林拓扑中配置的多个林。 中央林拓扑使�
 
 在此拓扑中，一个或多个林位于本地，专门用于承载 Active Directory 用户帐户。 资源林位于本地，由第三方托管提供商维护。 资源林仅包含来自本地用户帐户林的 Lync Server 部署和用户帐户的同步复制。 它不包含启用登录的用户帐户。 Exchange 部署在集成了 Exchange Online （混合）的本地用户帐户林中，或者本地用户帐户的电子邮件服务由 Exchange Online 专门提供。
 
-资源林充当用户对象所在的本地 Active Directory 林的共享服务环境。 用户帐户林与资源林有一种单向林级信任关系。 在此类型的拓扑中部署 Lync Server 时，您可以在资源林中为用户林中的每个用户帐户创建一个禁用的用户对象。 由 MIIS、Microsoft Forefront Identity Manager (FIM) 2010 或 Microsoft Identity Lifecycle Manager (ILM) 2007 功能包 1 (FP1) 等目录同步产品来管理用户帐户的生命周期。 在其中的一个用户林中创建新用户帐户或从林中删除用户帐户时，目录同步产品便会同步资源林中对应的用户表示形式。 有关配置多林部署的详细信息，请参阅[在多林体系结构中部署 Lync （具有 Exchange 混合的合作伙伴托管 lync）](http://go.microsoft.com/fwlink/p/?linkid=513216)。
+资源林充当用户对象所在的本地 Active Directory 林的共享服务环境。 用户帐户林与资源林有一种单向林级信任关系。 在此类型的拓扑中部署 Lync Server 时，您可以在资源林中为用户林中的每个用户帐户创建一个禁用的用户对象。 由 MIIS、Microsoft Forefront Identity Manager (FIM) 2010 或 Microsoft Identity Lifecycle Manager (ILM) 2007 功能包 1 (FP1) 等目录同步产品来管理用户帐户的生命周期。 在其中的一个用户林中创建新用户帐户或从林中删除用户帐户时，目录同步产品便会同步资源林中对应的用户表示形式。 有关配置多林部署的详细信息，请参阅[在多林体系结构中部署 Lync （具有 Exchange 混合的合作伙伴托管 lync）](https://go.microsoft.com/fwlink/p/?linkid=513216)。
 
 </div>
 

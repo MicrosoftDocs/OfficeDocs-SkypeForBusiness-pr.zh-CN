@@ -12,18 +12,18 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a15fb690dc213dbe22377b988f82dd59d6eb8a03
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 41c49839b01b531c1cd4c9a5eb4cff5fb6a155f4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045664"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="checking-event-logs-in-lync-server-2013"></a>在 Lync Server 2013 中检查事件日志
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045664"
 
 _**上次修改的主题：** 2014-08-06_
 
-您可以使用[Windows 事件查看器](http://go.microsoft.com/fwlink/p/?linkid=314067)查看事件日志，并获取有关服务故障的信息、AD DS 中的复制错误以及有关系统资源（如虚拟内存和磁盘空间）的警告。 事件查看器包含在 Windows Server 2008 和2012中。
+您可以使用[Windows 事件查看器](https://go.microsoft.com/fwlink/p/?linkid=314067)查看事件日志，并获取有关服务故障的信息、AD DS 中的复制错误以及有关系统资源（如虚拟内存和磁盘空间）的警告。 事件查看器包含在 Windows Server 2008 和2012中。
 
 在 Lync Server 2013 日志记录工具中，当结束调试会话时，请单击 "**分析日志文件**" 以使用 snooper.exe 工具查看日志文件。
 
@@ -93,16 +93,16 @@ _**上次修改的主题：** 2014-08-06_
 
 有关 Lync Server 2013 管理包的详细信息，请参阅[使用 System Center Operations Manager 监视 Lync Server 2013](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)。
 
-**事件 Comb**   事件 Comb 工具将多台计算机的事件日志中的特定事件收集到一个中心位置。 它允许仅报告事件 Id 或它指定的事件源。 有关事件 Comb 的详细信息，请参阅[帐户锁定和管理工具](http://go.microsoft.com/fwlink/?linkid=35607)网站。
+**事件 Comb**   事件 Comb 工具将多台计算机的事件日志中的特定事件收集到一个中心位置。 它允许仅报告事件 Id 或它指定的事件源。 有关事件 Comb 的详细信息，请参阅[帐户锁定和管理工具](https://go.microsoft.com/fwlink/?linkid=35607)网站。
 
-****   Windows Server 2012 中的事件触发器可以在 windows 事件查看器中 "将任务附加到此事件" —管理员可以运行某个程序、发送一封电子邮件或显示屏幕上的邮件。 有关此功能的详细信息，请参阅 Windows Server 2008 R2 主题[运行任务以响应给定事件](http://technet.microsoft.com/library/cc748900.aspx)。 您还可以使用命令行工具（如 "Eventtrigger"）来创建和查询事件日志，并将程序与特定的已记录事件相关联。 通过使用 Eventtriggers，您可以创建在特定事件发生时运行程序的事件触发器。
+****   Windows Server 2012 中的事件触发器可以在 windows 事件查看器中 "将任务附加到此事件" —管理员可以运行某个程序、发送一封电子邮件或显示屏幕上的邮件。 有关此功能的详细信息，请参阅 Windows Server 2008 R2 主题[运行任务以响应给定事件](https://technet.microsoft.com/library/cc748900.aspx)。 您还可以使用命令行工具（如 "Eventtrigger"）来创建和查询事件日志，并将程序与特定的已记录事件相关联。 通过使用 Eventtriggers，您可以创建在特定事件发生时运行程序的事件触发器。
 
 <div>
 
 ## <a name="see-also"></a>另请参阅
 
 
-[Windows 事件查看器](http://go.microsoft.com/fwlink/p/?linkid=314067)  
+[Windows 事件查看器](https://go.microsoft.com/fwlink/p/?linkid=314067)  
   
 
 </div>

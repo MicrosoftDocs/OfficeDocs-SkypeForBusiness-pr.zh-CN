@@ -12,18 +12,18 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff91e6b458d4c86f2246cff19e72e5221728e774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e63d75bda22228ae14077a51f78150b3884e875f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006774"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Lync Server 2013 中呼叫寄存的技术要求
 
@@ -89,7 +89,7 @@ _**上次修改的主题：** 2013-11-07_
 
 ## <a name="audio-file-requirements"></a>音频文件要求
 
-呼叫寄存应用程序仅支持处于保留状态的音乐的 Windows Media 音频（.wma）文件。 您可以使用 Microsoft Expression Encoder 4 来自定义用作保持音乐的文件。 若要下载表达式编码器4，请参阅中的[http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)"Expression 编码器 4"。 使用此工具将文件转换为 .wma 格式。 呼叫寄存保持音乐文件的建议格式为 Media Audio 9，44 kHz，16 位，单声道，CBR，32 kbps。
+呼叫寄存应用程序仅支持处于保留状态的音乐的 Windows Media 音频（.wma）文件。 您可以使用 Microsoft Expression Encoder 4 来自定义用作保持音乐的文件。 若要下载表达式编码器4，请参阅中的[https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)"Expression 编码器 4"。 使用此工具将文件转换为 .wma 格式。 呼叫寄存保持音乐文件的建议格式为 Media Audio 9，44 kHz，16 位，单声道，CBR，32 kbps。
 
 <div>
 

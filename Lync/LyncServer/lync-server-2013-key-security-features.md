@@ -12,18 +12,18 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2662225ac8aa00383b38deec3825a6f26b9dd9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a03a5c312123d714eebe8d49674a19ce712e37bc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034984"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-security-features-in-lync-server-2013"></a>Lync Server 2013 中的关键安全功能
 
@@ -127,7 +127,7 @@ Lync Server 2013 不支持在边缘服务器的内部接口上使用网络地址
 
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>可信赖计算安全开发生命周期（SDL）
 
-Lync Server 2013 的设计和开发符合 Microsoft 可信赖计算安全开发生命周期（SDL），这在中进行了<http://go.microsoft.com/fwlink/?linkid=68761>介绍。
+Lync Server 2013 的设计和开发符合 Microsoft 可信赖计算安全开发生命周期（SDL），这在中进行了<https://go.microsoft.com/fwlink/?linkid=68761>介绍。
 
   - **可信的设计**   在创建更安全的统一通信系统中的第一步是设计威胁模型，并在设计时对每项功能进行测试。 此外，Microsoft 还会在设计的行为之外执行测试，以查找因意外产品行为而产生的安全漏洞。 编码过程和做法中植入了多项与安全相关的改进。 生成时工具会在将代码签入到最终产品之前检测缓冲区溢出和其他潜在安全威胁。 当然，在设计上不可能做到能够防范所有未知安全威胁。 任何系统都无法保证绝对的安全。 但是，由于产品开发采用了开始时的安全设计原则，因此 Lync Server 2013 将业界标准安全技术并入为其体系结构的基本部分。
 

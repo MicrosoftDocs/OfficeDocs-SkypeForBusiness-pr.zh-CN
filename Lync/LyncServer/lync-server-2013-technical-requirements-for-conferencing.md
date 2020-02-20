@@ -12,18 +12,18 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc548446120ae4088d90acb45c258f3f736063d0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f3b397e242a6188f9054810a2ce08521a9940717
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006728"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141848"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的会议的技术要求
 
@@ -194,9 +194,9 @@ _**上次修改的主题：** 2014-06-25_
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>电话拨入式会议的音频文件要求
 
-Lync Server 2013 不支持为电话拨入式会议自定义语音提示和音乐。 但是，如果您需要更改默认音频文件，则需要更改默认的音频文件，请参阅 Microsoft 知识库文章961177，[如何在 Microsoft Office 通信服务器 2007 R2 中为电话拨入式音频会议自定义语音提示或音乐文件](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)。
+Lync Server 2013 不支持为电话拨入式会议自定义语音提示和音乐。 但是，如果您需要更改默认音频文件，则需要更改默认的音频文件，请参阅 Microsoft 知识库文章961177，[如何在 Microsoft Office 通信服务器 2007 R2 中为电话拨入式音频会议自定义语音提示或音乐文件](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177)。
 
-您还可以使用[Microsoft Lync Server 会议助理自定义语音提示](http://go.microsoft.com/fwlink/p/?linkid=396880)管理实用程序，使管理员能够替换在电话呼叫者加入具有自定义提示的 Lync 会议时使用的默认语音提示，以提供不同的会议输入体验。 自定义语音提示可以安装在运行 Lync Server 2010 或 Lync Server 2013 的服务器上（企业版或标准版）。
+您还可以使用[Microsoft Lync Server 会议助理自定义语音提示](https://go.microsoft.com/fwlink/p/?linkid=396880)管理实用程序，使管理员能够替换在电话呼叫者加入具有自定义提示的 Lync 会议时使用的默认语音提示，以提供不同的会议输入体验。 自定义语音提示可以安装在运行 Lync Server 2010 或 Lync Server 2013 的服务器上（企业版或标准版）。
 
 会议助理应用程序和会议通知应用程序对处于保留状态的音乐、录制的名称和音频提示文件有以下要求：
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fbb970d217ff24396fa72c76ba4b88c3d38be6eb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027333"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142108"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="tblenumattribute-in-lync-server-2013"></a>Lync Server 2013 中的 tblEnumAttribute
 
@@ -106,11 +106,11 @@ tblEnumAttribute 是一个硬编码表，包含用于节点表的 Visibility 和
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>深入.</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 <td><p>性能.</p></td>
 </tr>
 </tbody>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3326db7ce62279c4295bc13ec262a5a553ca5e62
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24a6d816f2f50c36694317f442cc79d06f077ef0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038694"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>准备和部署 Lync Server 2013 混合环境的步骤
 
@@ -59,7 +59,7 @@ _**上次修改的主题：** 2016-12-08_
 <td><p>为 Office 365 创建租户帐户并启用 Lync Online</p></td>
 <td><p>了解 office 365 和 Lync Online （位于<a href="https://go.microsoft.com/fwlink/p/?linkid=254980">office 365</a>）。</p>
 <p>若要确保你的环境已准备好适用于 Office 365，请参阅<a href="https://go.microsoft.com/fwlink/p/?linkid=401408">系统要求</a>。</p>
-<p>有关设置 Office 365 的详细信息，请参阅<a href="https://go.microsoft.com/fwlink/p/?linkid=254982">office 365 入门</a>和<a href="http://go.microsoft.com/fwlink/p/?linkid=254979">设置 Office 365</a>。</p></td>
+<p>有关设置 Office 365 的详细信息，请参阅<a href="https://go.microsoft.com/fwlink/p/?linkid=254982">office 365 入门</a>和<a href="https://go.microsoft.com/fwlink/p/?linkid=254979">设置 Office 365</a>。</p></td>
 </tr>
 <tr class="even">
 <td></td>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55568c76b9565402a09eb69bf0401a7bb4fd35cc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07d8e46ce5f4e8a6295b3b2ee09451646ed77847
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049844"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144368"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>在 Lync Server 2013 中，扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）
 
@@ -98,9 +98,9 @@ Microsoft Lync Server 2013 的新增支持 IPv6 寻址。 与 IPv4 寻址非常�
 ## <a name="see-also"></a>另请参阅
 
 
-[IP 版本6寻址体系结构](http://tools.ietf.org/html/rfc4291)  
-[IPv6 全局单播地址格式](http://tools.ietf.org/html/rfc3587)  
-[唯一的本地 IPv6 单播地址](http://tools.ietf.org/html/rfc4193)  
+[IP 版本6寻址体系结构](https://tools.ietf.org/html/rfc4291)  
+[IPv6 全局单播地址格式](https://tools.ietf.org/html/rfc3587)  
+[唯一的本地 IPv6 单播地址](https://tools.ietf.org/html/rfc4193)  
   
 
 </div>

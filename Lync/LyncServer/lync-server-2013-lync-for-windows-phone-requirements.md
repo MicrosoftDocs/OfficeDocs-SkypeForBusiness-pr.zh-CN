@@ -12,18 +12,18 @@ ms:contentKeyID: 51541514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5ea73784e025cb1270451706d5a59628020b629
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1b4b4dbe8975dcb25187ccf19babe1832f845f7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030876"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-for-windows-phone-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 Windows Phone 要求的 lync
 
@@ -47,7 +47,7 @@ Microsoft Lync 2013 for Windows Phone 为组织中从智能手机或 Windows 专
 
   - Windows Phone 8、codenamed "Apollo" 或最新版本。
 
-  - Windows Phone 设备必须具有 Microsoft 提供的最新更新。 有关详细信息，请参阅中的 Windows Phone [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)8 更新历史记录。
+  - Windows Phone 设备必须具有 Microsoft 提供的最新更新。 有关详细信息，请参阅中的 Windows Phone [https://go.microsoft.com/fwlink/p/?LinkID=281961](https://go.microsoft.com/fwlink/p/?linkid=281961)8 更新历史记录。
 
   - 设备必须具有 12 MB 的可用磁盘空间。
 

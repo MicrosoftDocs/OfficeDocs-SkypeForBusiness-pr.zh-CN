@@ -12,18 +12,18 @@ ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 041f4c6ada99d6991c18b20f77701c78eec8cd95
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: dab3e57101efa2dd6dff1996a8f61eefc5d75021
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42022563"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Lync Server 2013 中响应组的技术要求
 
@@ -132,7 +132,7 @@ Windows Media 音频文件格式要求在运行 Windows Server 2008 R2 和 Windo
 
 如果使用的是 Windows Media 音频文件，请考虑使用低比特率，并在 "负载" 下验证系统的性能。
 
-您可以使用 Microsoft Expression Encoder 4 将文件转换为 Windows Media 音频格式。 若要下载表达式编码器4， [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)请参阅。
+您可以使用 Microsoft Expression Encoder 4 将文件转换为 Windows Media 音频格式。 若要下载表达式编码器4， [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)请参阅。
 
 </div>
 

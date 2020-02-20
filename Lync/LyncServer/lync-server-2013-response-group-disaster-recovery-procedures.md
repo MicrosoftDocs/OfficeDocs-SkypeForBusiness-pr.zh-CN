@@ -12,18 +12,18 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73b5dba010da09fb20c96ca6b14de2f881e32b60
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2ecd074254243629bbb3a6dc732b11a93cfebbe7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051696"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a>Lync Server 2013 中的响应组灾难恢复过程
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051696"
 
 _**上次修改的主题：** 2012-11-01_
 
-在灾难恢复的故障转移阶段内，响应组位于多个池中：主池（无法使用）和备份池。 这两个池中的响应组具有相同的名称和相同的所有者（主池），但是它们具有不同的父项。 在这段时间内，响应组 cmdlet 的工作方式略有不同。 请务必使用以下过程中指定的参数。 有关在故障转移阶段中 cmdlet 的工作原理的详细信息，请参阅 NextHop 博客文章 "Lync Server 2013：在灾难恢复过程[http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)中恢复响应组"，时间为。 此博客文章也适用于 Lync Server 2013 的已发布版本。
+在灾难恢复的故障转移阶段内，响应组位于多个池中：主池（无法使用）和备份池。 这两个池中的响应组具有相同的名称和相同的所有者（主池），但是它们具有不同的父项。 在这段时间内，响应组 cmdlet 的工作方式略有不同。 请务必使用以下过程中指定的参数。 有关在故障转移阶段中 cmdlet 的工作原理的详细信息，请参阅 NextHop 博客文章 "Lync Server 2013：在灾难恢复过程[https://go.microsoft.com/fwlink/p/?LinkId=263957](https://go.microsoft.com/fwlink/p/?linkid=263957)中恢复响应组"，时间为。 此博客文章也适用于 Lync Server 2013 的已发布版本。
 
 使用以下过程中的步骤来准备和执行 Lync Server 响应组服务的灾难恢复。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44de5139d3ad8f38c5177a18260045fda7abdeea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aa52a844a0ed1bff9ca2c9d2f7e5fc70a6a2e95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035304"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="integrating-microsoft-lync-server-2013-and-microsoft-outlook-web-app-2013"></a>集成 Microsoft Lync Server 2013 和 Microsoft Outlook Web App 2013
 
@@ -41,11 +41,11 @@ _**上次修改的主题：** 2013-02-03_
 
 HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\MSExchange OWA\\InstantMessaging\\ImplementationDLLPath
 
-ImplementationDLLPath 应指向文件 "Microsoft.rtc.ucweb.dll" 的 "文件夹位置"。 如果没有，或者如果注册表值不存在，则应从 Microsoft 下载中心下载并安装 UCMA 运行时安装程序<http://www.microsoft.com/download/details.aspx?id=34992>。 有关如何安装 UCMA 运行时的信息，可以在同一网页上找到。
+ImplementationDLLPath 应指向文件 "Microsoft.rtc.ucweb.dll" 的 "文件夹位置"。 如果没有，或者如果注册表值不存在，则应从 Microsoft 下载中心下载并安装 UCMA 运行时安装程序<https://www.microsoft.com/download/details.aspx?id=34992>。 有关如何安装 UCMA 运行时的信息，可以在同一网页上找到。
 
 **向后兼容性**
 
-Lync Server 2013 可以与统一消息和 Outlook Web App 的 Microsoft Exchange Server 2010 版本集成。 有关详细信息，请参阅部署本地 Exchange UM 以在中提供 Lync Server 2010 语音邮件一[http://technet.microsoft.com/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)文。 如果与 Exchange 2010 集成，则不会具有 Lync Server 特定功能，例如统一联系人存储和 Lync 到 Exchange 存档。
+Lync Server 2013 可以与统一消息和 Outlook Web App 的 Microsoft Exchange Server 2010 版本集成。 有关详细信息，请参阅部署本地 Exchange UM 以在中提供 Lync Server 2010 语音邮件一[https://technet.microsoft.com/library/gg398768.aspx](lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md)文。 如果与 Exchange 2010 集成，则不会具有 Lync Server 特定功能，例如统一联系人存储和 Lync 到 Exchange 存档。
 
 Microsoft Lync 2013 还可以与 Exchange 2010 和 Outlook 2010 结合使用。 但同样，新功能（例如统一联系人存储和高分辨率照片）将不适用于 Lync 2013 用户。 这些新功能需要同时具有 Lync Server 2013 和 Exchange 2013。
 

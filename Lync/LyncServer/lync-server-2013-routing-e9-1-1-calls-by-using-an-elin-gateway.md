@@ -12,18 +12,18 @@ ms:contentKeyID: 48184221
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: befa9ad077780eb57d4690790673fc0a5452af60
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 93e2e3bf94175f2f0ec3f4f7528cc969fe19529c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037312"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="routing-e9-1-1-calls-by-using-an-elin-gateway-in-lync-server-2013"></a>在 Lync Server 2013 中使用 ELIN 网关路由 E9-1-1 呼叫
 
@@ -37,7 +37,7 @@ ms.locfileid: "42037312"
 
 _**上次修改的主题：** 2013-02-05_
 
-统一通信开放互操作性计划中的一些合作伙伴提供启用了合格的紧急位置识别号码 (ELIN) 的网关，可以充当到合格的 E9-1-1 服务提供商的 SIP 中继连接的替代之选。 ELIN 网关支持与基于公用电话交换网 (PSTN) 的 E9-1-1 服务的 ISDN 或集中式自动信息计算 (CAMA) 连接。 有关提供 ELIN 网关的合作伙伴以及其文档的链接的详细信息[http://go.microsoft.com/fwlink/p/?LinkId=248425](http://go.microsoft.com/fwlink/p/?linkid=248425)，请参阅。
+统一通信开放互操作性计划中的一些合作伙伴提供启用了合格的紧急位置识别号码 (ELIN) 的网关，可以充当到合格的 E9-1-1 服务提供商的 SIP 中继连接的替代之选。 ELIN 网关支持与基于公用电话交换网 (PSTN) 的 E9-1-1 服务的 ISDN 或集中式自动信息计算 (CAMA) 连接。 有关提供 ELIN 网关的合作伙伴以及其文档的链接的详细信息[https://go.microsoft.com/fwlink/p/?LinkId=248425](https://go.microsoft.com/fwlink/p/?linkid=248425)，请参阅。
 
 与 E9-1-1 服务提供商的 SIP 中继连接一样，ELIN 网关还提供了将紧急呼叫路由到呼叫者最合适的公共安全应答点（PSAP）的方法，但这些网关使用 ELIN 作为位置标识符。 您可以为组织中的每个紧急响应位置（ERL）定义 Elin （有关详细信息，请参阅[在 Lync Server 2013 中管理 ELIN 网关的位置](lync-server-2013-managing-locations-for-elin-gateways.md)）。
 

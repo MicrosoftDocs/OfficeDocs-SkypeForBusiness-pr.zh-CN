@@ -12,18 +12,18 @@ ms:contentKeyID: 48184968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a3144739a1633a72c2bee160c1225fc9c376ef0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8b1461c006a68dff3241d859f5daf91db09e4be0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048903"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="security-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的安全 cmdlet
 
@@ -240,7 +240,7 @@ Microsoft Lync Server 2013 中包含的安全 cmdlet 主要用于管理身份验
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server PowerShell 博客](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell 博客](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

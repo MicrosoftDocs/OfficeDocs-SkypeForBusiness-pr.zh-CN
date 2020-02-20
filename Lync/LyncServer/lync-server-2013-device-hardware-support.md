@@ -12,18 +12,18 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0b4b0f24523044169ae3274ae4d0ff16ae9ff67
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5b2d730181426d5b23463816d13a6f3b0e502b0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044984"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146915"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="device-hardware-support-in-lync-server-2013"></a>Lync Server 2013 中的设备硬件支持
 
@@ -53,7 +53,7 @@ _**上次修改的主题：** 2012-12-14_
 
   - 包括与 ATA 通信的 PSTN 网关的 Survivable Branch Appliance
 
-若要了解如何配置模拟网关，请参阅 Lync Server 2010 TechNet 库[http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537)中的 "规划以部署模拟设备"。 （模拟设备在 Lync server 2013 中的工作方式与在 Lync Server 2010 中的工作方式相同。）
+若要了解如何配置模拟网关，请参阅 Lync Server 2010 TechNet 库[https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537)中的 "规划以部署模拟设备"。 （模拟设备在 Lync server 2013 中的工作方式与在 Lync Server 2010 中的工作方式相同。）
 
 <div>
 

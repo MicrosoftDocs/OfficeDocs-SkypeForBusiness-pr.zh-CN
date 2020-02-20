@@ -12,18 +12,18 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7916fa550831cb86a5b8c77273b87f55365a1a1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7850615a454541ee65dba310266b19b721ab185a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046025"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中检查最佳实践分析程序的更新
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2012-10-02_
 
 
 > [!NOTE]  
-> 如果需要代理身份验证才能访问 Internet，最佳实践分析工具无法访问要下载的新更新。 不过，您可以从 Microsoft 下载中心手动下载 RtcBPA 的最新版本<A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>。 下载文件后，可以将其复制到要更新最佳实践分析工具的计算机上，并使用 .msi 文件在该计算机上安装该工具的新版本。
+> 如果需要代理身份验证才能访问 Internet，最佳实践分析工具无法访问要下载的新更新。 不过，您可以从 Microsoft 下载中心手动下载 RtcBPA 的最新版本<A href="https://go.microsoft.com/fwlink/p/?linkid=266539">https://go.microsoft.com/fwlink/p/?linkId=266539</A>。 下载文件后，可以将其复制到要更新最佳实践分析工具的计算机上，并使用 .msi 文件在该计算机上安装该工具的新版本。
 
 
 

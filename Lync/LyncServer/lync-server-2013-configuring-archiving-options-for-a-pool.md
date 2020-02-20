@@ -12,18 +12,18 @@ ms:contentKeyID: 48185230
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 388adb28a2b484afadb4a02b21d3ab0a57b3f567
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7f59ad3c768db0ea133337b747c073ee2e0c56b1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049784"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147015"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-archiving-options-for-a-pool-in-lync-server-2013"></a>在 Lync Server 2013 中配置池的存档选项
 

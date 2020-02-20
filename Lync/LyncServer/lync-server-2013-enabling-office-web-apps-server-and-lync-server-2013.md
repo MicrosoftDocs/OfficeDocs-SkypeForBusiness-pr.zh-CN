@@ -12,18 +12,18 @@ ms:contentKeyID: 48183790
 ms.date: 08/19/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb7e35b9347cc38239df7d2e28ddeda05e86cda5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7da09c42c296aa842cd82693a63c5ec6efc4964
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030475"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146415"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-integration-with-office-web-apps-server-and-lync-server-2013"></a>配置与 Office Web Apps Server 和 Lync Server 2013 的集成
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2016-08-19_
 
 Lync Server 2013 采用 Office Web Apps Server 来处理 PowerPoint 演示文稿。 有关此方法的优势的信息，请参阅[Lync Server 2013 中的 web 会议概述](lync-server-2013-web-conferencing-overview.md)。
 
-为了使用这些新功能，管理员必须安装 Office Web Apps Server，并且必须配置 Lync Server 2013 以与 Office Web Apps Server 进行通信。 本文档提供了有关如何配置 Lync Server 2013 以与 Office Web Apps Server 配合使用的信息。 本文档不提供的内容是有关如何安装 Office Web Apps Server 本身的信息。有关此信息，请参阅中的 Microsoft Office Web Apps 部署<http://go.microsoft.com/fwlink/p/?linkid=257525>网站。 该指南包括 Office Web Apps Server 的完整必备信息;请注意，Office Web Apps Server 应安装在未运行 Lync Server、Microsoft SQL Server 或任何其他服务器应用程序的独立计算机上。 （您不得在该计算机上安装任何版本的 Microsoft Office。）用于运行 Office Web Apps Server 的任何计算机还必须安装一组特定的软件（包括 .NET Framework 4.5 和 Windows PowerShell 3.0）;中的 Microsoft Office Web Apps 部署网站详细讨论了这些要求，以及有关配置证书和 Internet 信息服务（IIS）的信息<http://go.microsoft.com/fwlink/p/?linkid=257525>。
+为了使用这些新功能，管理员必须安装 Office Web Apps Server，并且必须配置 Lync Server 2013 以与 Office Web Apps Server 进行通信。 本文档提供了有关如何配置 Lync Server 2013 以与 Office Web Apps Server 配合使用的信息。 本文档不提供的内容是有关如何安装 Office Web Apps Server 本身的信息。有关此信息，请参阅中的 Microsoft Office Web Apps 部署<https://go.microsoft.com/fwlink/p/?linkid=257525>网站。 该指南包括 Office Web Apps Server 的完整必备信息;请注意，Office Web Apps Server 应安装在未运行 Lync Server、Microsoft SQL Server 或任何其他服务器应用程序的独立计算机上。 （您不得在该计算机上安装任何版本的 Microsoft Office。）用于运行 Office Web Apps Server 的任何计算机还必须安装一组特定的软件（包括 .NET Framework 4.5 和 Windows PowerShell 3.0）;中的 Microsoft Office Web Apps 部署网站详细讨论了这些要求，以及有关配置证书和 Internet 信息服务（IIS）的信息<https://go.microsoft.com/fwlink/p/?linkid=257525>。
 
 <div>
 

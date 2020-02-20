@@ -12,18 +12,18 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a39bcd23516970edf1c4694a8eff1ecb682eda1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aa94715cd3360e032f2d791c0e02cc791c437185
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041021"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146925"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中配置集中日志记录服务的方案
 
@@ -37,7 +37,7 @@ ms.locfileid: "42041021"
 
 _**上次修改的主题：** 2014-02-05_
 
-方案定义了范围（即全局、站点、池或计算机）以及要在集中日志记录服务中使用的提供程序。 通过使用方案，可以启用或禁用对提供程序进行的跟踪（例如，S4、SIPStack、IM 和 Presence）。 通过配置方案，可将针对给定逻辑集合的、满足某个特定问题条件的所有提供程序组合在一起。 如果发现需要修改某个方案以满足故障排除和日志记录需求，Lync Server 2013 调试工具会为您提供一个名为*ClsController*的 Windows PowerShell 模块，其中包含名为*Edit-new-csclsscenario*的函数。 此模块的用途是编辑命名的方案的属性。 本主题提供了此模块的工作方式的示例。 从以下链接下载 Lync Server 2013 调试工具：[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+方案定义了范围（即全局、站点、池或计算机）以及要在集中日志记录服务中使用的提供程序。 通过使用方案，可以启用或禁用对提供程序进行的跟踪（例如，S4、SIPStack、IM 和 Presence）。 通过配置方案，可将针对给定逻辑集合的、满足某个特定问题条件的所有提供程序组合在一起。 如果发现需要修改某个方案以满足故障排除和日志记录需求，Lync Server 2013 调试工具会为您提供一个名为*ClsController*的 Windows PowerShell 模块，其中包含名为*Edit-new-csclsscenario*的函数。 此模块的用途是编辑命名的方案的属性。 本主题提供了此模块的工作方式的示例。 从以下链接下载 Lync Server 2013 调试工具：[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -114,7 +114,7 @@ _**上次修改的主题：** 2014-02-05_
     
 
     > [!NOTE]  
-    > 在 Windows PowerShell 中，创建使用<CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE>的值的哈希表的约定称为 "<EM>展开</EM>"。 有关 Windows PowerShell 中的展开的详细信息<A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>，请参阅。
+    > 在 Windows PowerShell 中，创建使用<CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE>的值的哈希表的约定称为 "<EM>展开</EM>"。 有关 Windows PowerShell 中的展开的详细信息<A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>，请参阅。
 
     
     </div>

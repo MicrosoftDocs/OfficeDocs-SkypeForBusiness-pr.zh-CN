@@ -12,18 +12,18 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a3633ee21fc26fe21557731ece31cf5a0bbb171
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a87522269396a6ca9e362ded0454a55b3e105061
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040624"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>在 Lync Server 2013 中设置存储以进行存档
 
@@ -71,7 +71,7 @@ Lync Server 2013 中的存档需要 SQL Server 数据库软件来存储存档的
 
 每个数据库服务器都必须运行受支持的 SQL Server 版本。 有关受支持的版本的详细信息，请参阅规划文档中的在[Lync Server 2013 中存档的技术要求](lync-server-2013-technical-requirements-for-archiving.md)。
 
-在部署和启用存档之前，必须设置 SQL Server 平台。 如果用于发布拓扑的帐户具有适当的管理员权限，则可在发布拓扑时创建存档数据库 (LcsLog)。 您稍后还可创建数据库（包括在安装过程中）。 有关 SQL Server 的详细信息，请参阅 SQL Server 技术[http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)中心。
+在部署和启用存档之前，必须设置 SQL Server 平台。 如果用于发布拓扑的帐户具有适当的管理员权限，则可在发布拓扑时创建存档数据库 (LcsLog)。 您稍后还可创建数据库（包括在安装过程中）。 有关 SQL Server 的详细信息，请参阅 SQL Server 技术[https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045)中心。
 
 <div>
 

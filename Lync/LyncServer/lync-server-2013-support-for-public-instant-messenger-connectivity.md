@@ -12,18 +12,18 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6941fb5f087d667e65c178474531aa573a61b9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3c6f21e6a58b9130ab93f827f14aad4bd09cbb33
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038614"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="support-for-public-instant-messenger-connectivity-in-lync-server-2013"></a>Lync Server 2013 中的公共即时消息连接支持
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2013-10-07_
 
 本文提供有关对公共 IM 连接（PIC）的支持的信息。 PIC 是 Microsoft Lync 的一项功能，它允许组织使其 Lync 用户能够通过 Lync 客户端和标识与特定的公共即时消息（IM）服务的用户进行连接。
 
-最终用户可以在其条款中与客户、合作伙伴和供应商联系，从而获益。 通过支持单个实时通信客户端，同时保持 Lync 的控制、合规性和存档功能，提供了 IT 优势。 Lync-Skype 连接（可[在5月2013公开发布](http://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)）依赖旧版的 Lync/Office 通信服务器（OCS）/Live 通信服务器（LCS）首先与 PIC 建立与 MSN/Windows LIVE、AOL 和 Yahoo 的连接。有关 Lync-Skype 连接的详细信息，请参阅[lync-skype 连接](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)。 与 Windows Live、AOL 和 Yahoo 的联盟都在路径上朝向生命期结束。此页面记录每个服务的状态。
+最终用户可以在其条款中与客户、合作伙伴和供应商联系，从而获益。 通过支持单个实时通信客户端，同时保持 Lync 的控制、合规性和存档功能，提供了 IT 优势。 Lync-Skype 连接（可[在5月2013公开发布](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)）依赖旧版的 Lync/Office 通信服务器（OCS）/Live 通信服务器（LCS）首先与 PIC 建立与 MSN/Windows LIVE、AOL 和 Yahoo 的连接。有关 Lync-Skype 连接的详细信息，请参阅[lync-skype 连接](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx)。 与 Windows Live、AOL 和 Yahoo 的联盟都在路径上朝向生命期结束。此页面记录每个服务的状态。
 
 若要使用 PIC，客户需要为每个公共 IM 服务提供商激活服务。 有关如何执行此操作的要求和详细信息取决于 IM 服务提供商和客户的基础许可计划。
 
@@ -65,7 +65,7 @@ Lync-Skype 连接-联系人在 Lync 和 Skype 用户之间添加、状态共享�
 
 与 Yahoo 的联盟\! AOL （和 Office 通信服务器）的客户在使用寿命结束的路径上。 Microsoft 提供每项服务的能力因 Yahoo 的支持而受到\! 和 AOL 以及这些条款的底层协议将向下缠绕。 对于这两个 Yahoo\! 和 AOL，服务将继续到2014年6月。
 
-  - **Yahoo** -服务将持续到2014年6月，客户继续需要使用 Microsoft LYNC 公共 IM 连接用户订阅许可证（"PIC USL"）获得许可。从9月1日起，2012，PIC USL 不再可用于购买新的或续订的协议。在此日期之前购买许可证的客户将能够继续与 Yahoo 进行联盟\! 在之前的服务关闭日期或其许可证过期之前。阅读 Lync 团队博客上[的通知](http://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx)。如果客户的许可证的使用期限在6月30日之前延长的协议，则2014将按与支付30年6月 30 2014 日之后的时间段的付款金额成比例显示积分。
+  - **Yahoo** -服务将持续到2014年6月，客户继续需要使用 Microsoft LYNC 公共 IM 连接用户订阅许可证（"PIC USL"）获得许可。从9月1日起，2012，PIC USL 不再可用于购买新的或续订的协议。在此日期之前购买许可证的客户将能够继续与 Yahoo 进行联盟\! 在之前的服务关闭日期或其许可证过期之前。阅读 Lync 团队博客上[的通知](https://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx)。如果客户的许可证的使用期限在6月30日之前延长的协议，则2014将按与支付30年6月 30 2014 日之后的时间段的付款金额成比例显示积分。
 
   - **AOL** -在2014年6月30日，LYNC 的 IM 连接（"PIC"）服务将不再可用。为了在服务结束时限制客户的中断，我们已停止对其他客户域的设置。 在2014年6月30日之前，客户无需执行任何操作即可继续支持与 AIM 的联合通信。 除此日期之外（或对于希望同时预配其他域的客户），可直接从 AOL 获取替代服务。 有关 AOL 新服务的详细信息，请  参阅[建立与 AIM 的直接联盟](http://aimenterprise.aol.com/pic.php)（打开 AOL.com 上的新页面）。  
 

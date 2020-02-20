@@ -12,18 +12,18 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 50bd8d3fb538a7450d2129691ec523dbcb6dd208
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006198"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146785"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>强化和保护 Lync Server 2013 的服务器和应用程序
 
@@ -61,7 +61,7 @@ _**上次修改的主题：** 2013-12-05_
 
 ## <a name="securing-virtual-servers"></a>保护虚拟服务器
 
-虚拟服务器快照包含服务器的数据磁盘的副本，还包含内存中的数据的转储，这两种都可能包含可能导致攻击的敏感加密数据。 对于使用虚拟化实现的生产服务器，应禁用所有服务器快照或以受严格控制的方式管理它们。 有关保护 Hyper-v 虚拟服务器的详细信息，请参阅以下位置的 Hyper-v 安全指南： [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)。
+虚拟服务器快照包含服务器的数据磁盘的副本，还包含内存中的数据的转储，这两种都可能包含可能导致攻击的敏感加密数据。 对于使用虚拟化实现的生产服务器，应禁用所有服务器快照或以受严格控制的方式管理它们。 有关保护 Hyper-v 虚拟服务器的详细信息，请参阅以下位置的 Hyper-v 安全指南： [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)。
 
 </div>
 
@@ -95,7 +95,7 @@ Communicator .adm 文件是一个随 Lync Server 2013 提供的管理模板，�
 
 ## <a name="group-policy-security-settings"></a>组策略安全设置
 
-组策略包含 GPO 的安全设置，当通过 GPedit.dll 访问这些安全设置时，它们位于“计算机配置”/“Windows 设置”/“安全设置”下。 可以导入安全模板以配置 GPO 的安全设置。 Windows Server 2008 安全指南（网址[http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186)为）和 windows Server 2008 R2 安全合规性管理[http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882)工具包包含多个示例模板，可以对它们进行修改以满足您的需求。
+组策略包含 GPO 的安全设置，当通过 GPedit.dll 访问这些安全设置时，它们位于“计算机配置”/“Windows 设置”/“安全设置”下。 可以导入安全模板以配置 GPO 的安全设置。 Windows Server 2008 安全指南（网址[https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186)为）和 windows Server 2008 R2 安全合规性管理[https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882)工具包包含多个示例模板，可以对它们进行修改以满足您的需求。
 
 </div>
 

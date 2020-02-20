@@ -12,18 +12,18 @@ ms:contentKeyID: 57793361
 ms.date: 12/16/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2b950b8ff778ee48014dc951d89baafab59510c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bb14153739c5f29e88044eae89a1322b046a0a1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048215"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enabling-lync-skype-connectivity-in-lync-server-2013"></a>在 Lync Server 2013 中启用 Lync Skype 连接
 
@@ -87,9 +87,9 @@ _**上次修改的主题：** 2014-12-16_
 
 </div>
 
-1.  若要配置联盟和 PIC，请参阅中的[http://go.microsoft.com/fwlink/p/?LinkId=306063](http://go.microsoft.com/fwlink/p/?linkid=306063)"启用或禁用联盟和公共 IM 连接"。
+1.  若要配置联盟和 PIC，请参阅中的[https://go.microsoft.com/fwlink/p/?LinkId=306063](https://go.microsoft.com/fwlink/p/?linkid=306063)"启用或禁用联盟和公共 IM 连接"。
 
-2.  若要至少配置一个策略来支持联合用户访问，请参阅中的 "配置控制公用用户访问的[http://go.microsoft.com/fwlink/p/?LinkId=306064](http://go.microsoft.com/fwlink/p/?linkid=306064)策略"。
+2.  若要至少配置一个策略来支持联合用户访问，请参阅中的 "配置控制公用用户访问的[https://go.microsoft.com/fwlink/p/?LinkId=306064](https://go.microsoft.com/fwlink/p/?linkid=306064)策略"。
 
 **编辑现有 Messenger 或 Skype PIC 提供商并为其配置 Skype**
 
@@ -123,7 +123,7 @@ _**上次修改的主题：** 2014-12-16_
     
     ![添加 Skype 联系人](images/Dn440170.df0e6ed9-2374-4dfa-a815-87281989487c(OCS.15).jpg "添加 Skype 联系人")
 
-4.  有关修改承载的提供程序的详细信息，请参阅处[http://go.microsoft.com/fwlink/p/?LinkId=306065](http://go.microsoft.com/fwlink/p/?linkid=306065)的 "创建或编辑托管的 SIP 联合提供程序"。
+4.  有关修改承载的提供程序的详细信息，请参阅处[https://go.microsoft.com/fwlink/p/?LinkId=306065](https://go.microsoft.com/fwlink/p/?linkid=306065)的 "创建或编辑托管的 SIP 联合提供程序"。
 
 这将完成必须在服务器上执行的管理任务。 您现在已设置 Lync-Skype 连接。
 

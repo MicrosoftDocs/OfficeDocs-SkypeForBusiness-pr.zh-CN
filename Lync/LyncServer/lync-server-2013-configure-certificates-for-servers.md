@@ -12,18 +12,18 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e2fd3ce8c229fad2f990d5f295e4c4454ef153e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 562ec9c39d179eb1044c273a0eed0a2ccfa072a7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028683"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-certificates-for-servers-in-lync-server-2013"></a>在 Lync Server 2013 中为服务器配置证书
 
@@ -53,7 +53,7 @@ _**上次修改的主题：** 2013-03-17_
 
 
 > [!WARNING]  
-> 选择哪种散列摘要和签名算法取决于客户端和将使用证书的服务器，以及客户端和服务器与之通信的其他计算机和设备，这些计算机和设备还必须知道如何使用中使用的算法真品. 有关操作系统和一些客户端应用程序中支持的摘要长度的信息，请参阅<A href="http://go.microsoft.com/fwlink/?linkid=287002">http://go.microsoft.com/fwlink/?LinkId=287002</A>。
+> 选择哪种散列摘要和签名算法取决于客户端和将使用证书的服务器，以及客户端和服务器与之通信的其他计算机和设备，这些计算机和设备还必须知道如何使用中使用的算法真品. 有关操作系统和一些客户端应用程序中支持的摘要长度的信息，请参阅<A href="https://go.microsoft.com/fwlink/?linkid=287002">https://go.microsoft.com/fwlink/?LinkId=287002</A>。
 
 
 
@@ -127,7 +127,7 @@ _**上次修改的主题：** 2013-03-17_
 
 16. 在 "**联机证书请求状态**" 页上，查看返回的信息。 应注意，已颁发证书并已将其安装到本地证书存储中。 如果报告为已颁发并已安装，但无效，请确保 CA 根证书已安装在服务器的受信任根 CA 存储中。 有关如何检索受信任的根 CA 证书，请参阅 CA 文档。 如果需要查看检索到的证书，请单击 "**查看证书详细信息**"。 默认情况下，选中 "**将证书分配给 Lync Server 证书使用**情况" 复选框。 如果要手动分配证书，请清除复选框，然后单击 "**完成**"。
 
-17. 如果清除了 "**将证书分配给**前一页上的 Lync Server 证书使用情况" 复选框，则会显示 "**证书分配**" 页。 单击“**下一步**”。
+17. 如果清除了 "**将证书分配给**前一页上的 Lync Server 证书使用情况" 复选框，则会显示 "**证书分配**" 页。 单击“下一步”。****
 
 18. 在 "**证书存储**" 页上，选择所请求的证书。 如果要查看证书，请单击 "**查看证书详细信息**"，然后单击 "**下一步**" 继续。
     

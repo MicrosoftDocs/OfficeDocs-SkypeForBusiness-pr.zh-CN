@@ -12,18 +12,18 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c58f50cb5c4668525450c4aa95b4a00513d5fc17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b8336bdb881570c40900600c1eda3c3c17ffb614
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050964"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>在 Lync Server 2013 中运行 Active Directory 架构准备
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2012-10-29_
 
 
 > [!NOTE]  
-> 架构准备 cmdlet (<STRONG>Install-CsAdServerSchema</STRONG>) 必须访问架构主机，这就要求运行远程注册表服务并启用远程注册表项。 如果无法在架构主机上启用远程注册表服务，可以在架构主机上本地运行该 cmdlet。 有关注册表远程访问的详细信息，请参阅 Microsoft 知识库文章 314837 "如何管理对注册表的远程访问？" <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>。
+> 架构准备 cmdlet (<STRONG>Install-CsAdServerSchema</STRONG>) 必须访问架构主机，这就要求运行远程注册表服务并启用远程注册表项。 如果无法在架构主机上启用远程注册表服务，可以在架构主机上本地运行该 cmdlet。 有关注册表远程访问的详细信息，请参阅 Microsoft 知识库文章 314837 "如何管理对注册表的远程访问？" <A href="https://go.microsoft.com/fwlink/p/?linkid=125769">https://go.microsoft.com/fwlink/p/?linkId=125769</A>。
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ac8c0f9a38ca80961f9a15a40a88214ad3cf2d7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045484"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144889"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中运行最佳实践分析工具的要求
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045484"
 
 _**上次修改的主题：** 2012-09-19_
 
-您可以使用 Lync Server 2013 和最佳实践分析工具扫描 Lync Server 2013 环境。 您无法使用它扫描以前的环境，但可以使用该工具以前的版本扫描这些环境。 有关下载和使用适用于最佳实践分析工具的 Lync Server 2010 和 Office 通信服务器 2007 R2 版本的详细信息，请参阅中的 "Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) 、最佳实践分析工具" 和 "Office 通信服务器2007和 Office 通信服务器 2007 R2 [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)的最佳实践分析程序"。
+您可以使用 Lync Server 2013 和最佳实践分析工具扫描 Lync Server 2013 环境。 您无法使用它扫描以前的环境，但可以使用该工具以前的版本扫描这些环境。 有关下载和使用适用于最佳实践分析工具的 Lync Server 2010 和 Office 通信服务器 2007 R2 版本的详细信息，请参阅中的 "Lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) 、最佳实践分析工具" 和 "Office 通信服务器2007和 Office 通信服务器 2007 R2 [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651)的最佳实践分析程序"。
 
 在开始扫描之前，应确保 Lync Server 2013 环境中的所有组件都在运行且处于联机状态。
 

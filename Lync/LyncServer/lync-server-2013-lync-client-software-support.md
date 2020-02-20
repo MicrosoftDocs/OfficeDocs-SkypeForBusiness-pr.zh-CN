@@ -12,18 +12,18 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 913a484262d9e1b3a899aeda42c5f23049d8c73c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2bdc3ee4b25e6e60dfb22ae7a1abe3c6bf7b2cb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030916"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145781"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-client-software-support-in-lync-server-2013"></a>Lync Server 2013 中的 lync 客户端软件支持
 
@@ -124,9 +124,9 @@ _**上次修改的主题：** 2016-02-25_
 
 Lync 2013 仅适用于 Windows。 但是，Lync Server 2013 支持运行 Mac OS 10.5.8 或最新 service pack 或 release （基于 Intel）操作系统的计算机上的以下客户端（当前不支持 Mac OS 10.9 操作系统）。 有关支持的功能的详细信息，请参阅[Lync Server 2013 的客户端比较表](lync-server-2013-desktop-client-comparison-tables.md)。
 
-  - Microsoft Lync for Mac 2011 （请参阅 "Lync for Mac 2011 部署指南" [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786)，网址为）
+  - Microsoft Lync for Mac 2011 （请参阅 "Lync for Mac 2011 部署指南" [https://go.microsoft.com/fwlink/p/?LinkId=268786](https://go.microsoft.com/fwlink/p/?linkid=268786)，网址为）
 
-  - Microsoft Communicator for Mac 2011 （请参阅 "Communicator for Mac 2011 部署指南" [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)，网址为）
+  - Microsoft Communicator for Mac 2011 （请参阅 "Communicator for Mac 2011 部署指南" [https://go.microsoft.com/fwlink/p/?LinkId=268787](https://go.microsoft.com/fwlink/p/?linkid=268787)，网址为）
 
 </div>
 
@@ -156,7 +156,7 @@ Lync Server 2013 客户端支持与 Microsoft Office 的各种版本集成，如
 
 ## <a name="using-mandatory-profiles"></a>使用必需的配置文件
 
-如果用户计划使用 Lync 2013 会议功能，则不应使用 Active Directory 域服务强制配置文件登录 Lync 2013 客户端。 由于强制配置文件是只读用户配置文件，因此无法将 Lync 2013 会议所需的公钥基础结构（PKI）密钥保存到配置文件中。 有关详细信息，请参阅 Microsoft 知识库文章2552221： "当用户使用强制用户配置文件登录时，Lync 2010 会议功能失败"，位置[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)为。
+如果用户计划使用 Lync 2013 会议功能，则不应使用 Active Directory 域服务强制配置文件登录 Lync 2013 客户端。 由于强制配置文件是只读用户配置文件，因此无法将 Lync 2013 会议所需的公钥基础结构（PKI）密钥保存到配置文件中。 有关详细信息，请参阅 Microsoft 知识库文章2552221： "当用户使用强制用户配置文件登录时，Lync 2010 会议功能失败"，位置[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)为。
 
 </div>
 

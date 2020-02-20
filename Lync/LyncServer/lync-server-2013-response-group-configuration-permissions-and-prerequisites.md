@@ -12,18 +12,18 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9712d196f485c51d720245903739387befb49dd3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c8787327b386157211e4d83317520358edfec7b5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051818"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Lync Server 2013 中的响应组配置权限和先决条件
 
@@ -186,7 +186,7 @@ _**上次修改的主题：** 2012-10-05_
 
 仅当您的组织需要符合联邦信息处理标准 (FIPS) 时，本节才适用。
 
-要符合 FIPS，安装 Web 服务后需要修改应用程序级别 Web.config 文件，以使用不同的加密算法。 需要指定 ASP.NET 使用三重数据加密标准 (3DES) 算法，来处理视图状态数据。 对于响应组应用程序，此要求适用于响应组配置工具和代理登录和注销控制台。 有关此要求的详细信息，请参阅 Microsoft 知识库文章911722。当您访问在从 ASP.NET 1.1 升级到 ASP.NET 2.0 之后启用了 ViewState 的 ASP.NET 网页时，您可能会收到错误消息， [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183)"at"。
+要符合 FIPS，安装 Web 服务后需要修改应用程序级别 Web.config 文件，以使用不同的加密算法。 需要指定 ASP.NET 使用三重数据加密标准 (3DES) 算法，来处理视图状态数据。 对于响应组应用程序，此要求适用于响应组配置工具和代理登录和注销控制台。 有关此要求的详细信息，请参阅 Microsoft 知识库文章911722。当您访问在从 ASP.NET 1.1 升级到 ASP.NET 2.0 之后启用了 ViewState 的 ASP.NET 网页时，您可能会收到错误消息， [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkid=196183)"at"。
 
 要修改 Web.config 文件，请执行以下操作：
 
@@ -216,7 +216,7 @@ _**上次修改的主题：** 2012-10-05_
 
 
 > [!NOTE]  
-> 若要了解什么是 Yi、Meng 和 Zang 字符以及它们可能对您的部署很重要的原因，请参阅 GB18030 字符集的相关信息<A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>。
+> 若要了解什么是 Yi、Meng 和 Zang 字符以及它们可能对您的部署很重要的原因，请参阅 GB18030 字符集的相关信息<A href="https://go.microsoft.com/fwlink/p/?linkid=240223">https://go.microsoft.com/fwlink/p/?linkId=240223</A>。
 
 
 
@@ -236,9 +236,9 @@ _**上次修改的主题：** 2012-10-05_
 
 对于 SQL Server 2008 R2 和 SQL Server 2012，请使用拉丁语\_通用\_100 （区分重音）排序规则。 如果使用此排序规则，则所有对象名称不区分大小写。
 
-可以使用 Microsoft SQL Server Management Studio 来更改排序规则。 有关使用此工具的详细信息，请参阅中的 "Using SQL Server [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184)Management Studio"。 执行下列步骤可更改排序规则：
+可以使用 Microsoft SQL Server Management Studio 来更改排序规则。 有关使用此工具的详细信息，请参阅中的 "Using SQL Server [https://go.microsoft.com/fwlink/p/?linkId=196184](https://go.microsoft.com/fwlink/p/?linkid=196184)Management Studio"。 执行下列步骤可更改排序规则：
 
-1.  确保 SQL Server Management Studio 配置为允许要求重新创建表的更改。 有关详细信息，请参阅中[http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186)的 "保存（不允许）" 对话框。 有关设置列排序规则的详细信息，请参阅中[http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185)的 "如何：设置列排序规则（可视化数据库工具）"。
+1.  确保 SQL Server Management Studio 配置为允许要求重新创建表的更改。 有关详细信息，请参阅中[https://go.microsoft.com/fwlink/p/?linkId=196186](https://go.microsoft.com/fwlink/p/?linkid=196186)的 "保存（不允许）" 对话框。 有关设置列排序规则的详细信息，请参阅中[https://go.microsoft.com/fwlink/p/?linkId=196185](https://go.microsoft.com/fwlink/p/?linkid=196185)的 "如何：设置列排序规则（可视化数据库工具）"。
 
 2.  使用 Microsoft SQL Server Management Studio 连接到 Rgsconfig 数据库。
 

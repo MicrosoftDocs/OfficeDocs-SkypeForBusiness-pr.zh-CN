@@ -12,18 +12,18 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f268d76c33e3a76c909d164eb63d6ad3c1eb29c8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c757fc19bd82fbf1ae3096bb4a8ac8982f9035b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029803"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-lync-server-2013-hybrid-configurations"></a>支持的 Lync Server 2013 混合配置
 
@@ -37,7 +37,7 @@ ms.locfileid: "42029803"
 
 _**上次修改的主题：** 2016-05-10_
 
-你可以将 Lync Server 2013 部署配置为与 Microsoft Exchange Server 2010 和 Microsoft Exchange server 2013 和 SharePoint Server （本地和联机）集成。 除非另行指定，否则所有客户端都支持下表中列出的功能。 有关客户端支持的详细信息，请参阅适用[于 skype For Business Online 客户](http://go.microsoft.com/fwlink/p/?linkid=281902)端的 Lync Server 2013 和 Skype For business online 客户端比较表[的客户端比较表](lync-server-2013-desktop-client-comparison-tables.md)。
+你可以将 Lync Server 2013 部署配置为与 Microsoft Exchange Server 2010 和 Microsoft Exchange server 2013 和 SharePoint Server （本地和联机）集成。 除非另行指定，否则所有客户端都支持下表中列出的功能。 有关客户端支持的详细信息，请参阅适用[于 skype For Business Online 客户](https://go.microsoft.com/fwlink/p/?linkid=281902)端的 Lync Server 2013 和 Skype For business online 客户端比较表[的客户端比较表](lync-server-2013-desktop-client-comparison-tables.md)。
 
 <div>
 
@@ -141,7 +141,7 @@ _**上次修改的主题：** 2016-05-10_
 <li><p>错过的对话历史记录和呼叫日志将写入用户的 exchange 邮箱</p></li>
 <li><p>在 Exchange 中存档内容（IM 和会议）。</p>
 <p>有关详细信息，请参阅<a href="lync-server-2013-deployment-checklist-for-archiving.md">Lync Server 2013 中存档的部署清单</a></p></li>
-<li><p>搜索存档的内容。 有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange For SharePoint 电子数据展示中心</a></p></li>
+<li><p>搜索存档的内容。 有关详细信息，请参阅<a href="https://go.microsoft.com/fwlink/p/?linkid=285448">Configure Exchange For SharePoint 电子数据展示中心</a></p></li>
 <li><p>语音邮件。 有关详细信息，请参阅<a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">在托管 EXCHANGE UM 上提供 Lync Server 2013 用户语音邮件</a></p></li>
 </ul></td>
 </tr>
@@ -187,7 +187,7 @@ _**上次修改的主题：** 2016-05-10_
 <p>仅当两个用户在同一个林中托管联机，或者两者都驻留在本地时受支持。</p></li>
 <li><p>在 Exchange 中存档内容（IM 和会议）</p></li>
 <li><p>搜索存档的内容</p></li>
-<li><p>Voicemail</p></li>
+<li><p>语音邮件</p></li>
 </ul></td>
 </tr>
 </tbody>

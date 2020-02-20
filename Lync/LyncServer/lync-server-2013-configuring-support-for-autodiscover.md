@@ -12,18 +12,18 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79511202ddc9e413e313d12f881e7079f088c473
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ee85d984f0d60d4275972982e4ff65b380f0f9b2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046065"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-support-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中配置自动发现支持
 
@@ -51,7 +51,7 @@ Lync Server web services**自动发现服务**首先显示在 Lync Server 2010 �
 
 </div>
 
-下面的信息和表根据应用场景定义需要实现哪些配置（如果有）才能提供自动发现服务的完整和有效使用。 以下主题中的信息特定于 Microsoft Lync Server 2013。 如果你正在寻找有关如何规划 Lync Server 2010 移动性的指南，请参阅[http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113)。 若要部署 Lync Server 2010 的移动功能，请参阅[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
+下面的信息和表根据应用场景定义需要实现哪些配置（如果有）才能提供自动发现服务的完整和有效使用。 以下主题中的信息特定于 Microsoft Lync Server 2013。 如果你正在寻找有关如何规划 Lync Server 2010 移动性的指南，请参阅[https://go.microsoft.com/fwlink/?LinkId=275113](https://go.microsoft.com/fwlink/?linkid=275113)。 若要部署 Lync Server 2010 的移动功能，请参阅[https://go.microsoft.com/fwlink/?LinkId=275114](https://go.microsoft.com/fwlink/?linkid=275114)
 
 <div>
 

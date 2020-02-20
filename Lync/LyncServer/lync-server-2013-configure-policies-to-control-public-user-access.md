@@ -12,18 +12,18 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3993c2259d42bfa632394cb3c9acaf70f26cdc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 12a6e5d94cef7c9f25bb1c4091a981603f66da82
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035294"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145931"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-policies-to-control-public-user-access-in-lync-server-2013"></a>配置策略以控制 Lync Server 2013 中的公共用户访问
 
@@ -37,7 +37,7 @@ ms.locfileid: "42035294"
 
 _**上次修改的主题：** 2013-10-07_
 
-公共即时消息（IM）连接使组织中的用户能够使用 IM 与公共 IM 服务提供商提供的 IM 服务的用户通信，包括 Internet 服务、Yahoo\!和 AOL 的 Windows Live 网络。 您可以配置一个或多个外部用户访问策略，以控制公用用户是否可以与内部 Lync Server 用户进行协作。 公共即时消息连接是一项附加功能，它依赖于部署和用户的配置。 它还取决于在公用 IM 提供商处设置服务。 有关如何设置部署以使用公共提供程序的信息，请参阅 "适用于 Microsoft Lync Server、Office 通信服务器和实时通信服务器的公共 IM 连接设置指南" 指南：[http://go.microsoft.com/fwlink/?LinkId=269821](http://go.microsoft.com/fwlink/?linkid=269821)
+公共即时消息（IM）连接使组织中的用户能够使用 IM 与公共 IM 服务提供商提供的 IM 服务的用户通信，包括 Internet 服务、Yahoo\!和 AOL 的 Windows Live 网络。 您可以配置一个或多个外部用户访问策略，以控制公用用户是否可以与内部 Lync Server 用户进行协作。 公共即时消息连接是一项附加功能，它依赖于部署和用户的配置。 它还取决于在公用 IM 提供商处设置服务。 有关如何设置部署以使用公共提供程序的信息，请参阅 "适用于 Microsoft Lync Server、Office 通信服务器和实时通信服务器的公共 IM 连接设置指南" 指南：[https://go.microsoft.com/fwlink/?LinkId=269821](https://go.microsoft.com/fwlink/?linkid=269821)
 
 <div>
 
@@ -55,7 +55,7 @@ _**上次修改的主题：** 2013-10-07_
 
 </div>
 
-若要访问 Microsoft Lync Server 公共 IM 连接设置网站，请使用以下链接：[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)
+若要访问 Microsoft Lync Server 公共 IM 连接设置网站，请使用以下链接：[https://go.microsoft.com/fwlink/p/?linkId=212638](https://go.microsoft.com/fwlink/p/?linkid=212638)
 
 若要控制公共用户访问，可以在全局、站点和用户级别配置策略。 有关您可以配置的策略类型的详细信息，请参阅部署文档或规划文档中的在[Lync Server 2013 中配置对外部用户访问的支持](lync-server-2013-configuring-support-for-external-user-access.md)。 在一个策略级别应用的 Lync Server 策略设置可以覆盖在另一个策略级别应用的设置。 Lync Server 策略优先级为：用户策略（最具影响力）替代网站策略，然后网站策略将覆盖全局策略（最不影响）。 这意味着，策略设置越接近策略所影响的对象，它对对象的影响越大。
 

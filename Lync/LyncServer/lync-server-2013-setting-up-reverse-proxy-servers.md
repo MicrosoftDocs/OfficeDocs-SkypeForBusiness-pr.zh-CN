@@ -12,18 +12,18 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cd5b57c29a622b7c0f051b00bb0ef30e265743e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f0d00b30100b9203c82df0a2fc8ed8c4c593dfb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040831"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142996"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="setting-up-reverse-proxy-servers-for-lync-server-2013"></a>为 Lync Server 2013 设置反向代理服务器
 
@@ -65,7 +65,7 @@ _**上次修改的主题：** 2014-05-08_
 
 
 > [!IMPORTANT]  
-> Internet Information Server 应用程序请求路由（IIS ARR）是为 Lync Server 2010 和 Lync Server 2013 实施反向代理的经过完全测试且受支持的选项。 在11月，2012，Microsoft 停止了 ForeFront 威胁管理网关2010或 TMG 的许可证销售。 TMG 仍是完全受支持的产品，仍可用于第三方销售的设备上的销售。 此外，许多第三方硬件负载平衡器和防火墙提供反向代理支持。 对于提供反向代理功能的硬件负载平衡器和防火墙，请与您的供应商联系，以获取有关如何配置其产品以为 Lync Server 提供反向代理支持的具体说明。 您还可以查看已将其产品的文档提交给 Microsoft 的第三方。 由第三方为其解决方案提供支持。 若要查看在提供解决方案时处于活动状态的第三方，请参阅<A href="http://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync 的基础结构限定</A>。
+> Internet Information Server 应用程序请求路由（IIS ARR）是为 Lync Server 2010 和 Lync Server 2013 实施反向代理的经过完全测试且受支持的选项。 在11月，2012，Microsoft 停止了 ForeFront 威胁管理网关2010或 TMG 的许可证销售。 TMG 仍是完全受支持的产品，仍可用于第三方销售的设备上的销售。 此外，许多第三方硬件负载平衡器和防火墙提供反向代理支持。 对于提供反向代理功能的硬件负载平衡器和防火墙，请与您的供应商联系，以获取有关如何配置其产品以为 Lync Server 提供反向代理支持的具体说明。 您还可以查看已将其产品的文档提交给 Microsoft 的第三方。 由第三方为其解决方案提供支持。 若要查看在提供解决方案时处于活动状态的第三方，请参阅<A href="https://go.microsoft.com/fwlink/?linkid=268730">Microsoft Lync 的基础结构限定</A>。
 
 
 
@@ -94,27 +94,27 @@ _**上次修改的主题：** 2014-05-08_
 若要成功部署 Forefront 威胁管理网关2010作为反向代理，您需要使用 Forefront 威胁管理网关2010文档中定义的先决条件和硬件要求设置和配置服务器。 在继续之前，请参阅以下主题设置为正确配置硬件并在服务器上安装 Forefront 威胁管理网关2010。
 
   - <span></span>  
-    [Forefront Threat Management Gateway (TMG) 2010](http://go.microsoft.com/fwlink/?linkid=291292)
+    [Forefront Threat Management Gateway (TMG) 2010](https://go.microsoft.com/fwlink/?linkid=291292)
 
   - <span></span>  
-    [Forefront TMG 2010 硬件建议](http://go.microsoft.com/fwlink/?linkid=291293)
+    [Forefront TMG 2010 硬件建议](https://go.microsoft.com/fwlink/?linkid=291293)
 
 若要成功地将 IIS ARR 部署为反向代理，请查看以下主题以配置硬件和必备软件。
 
   - <span></span>  
-    若要在 Windows Server 2008 或 Windows Server 2008 R2 上安装 IIS，请参阅[在 Windows server 2008 或 Windows server 2008 r2 上安装 iis 7](http://go.microsoft.com/fwlink/?linkid=291296)
+    若要在 Windows Server 2008 或 Windows Server 2008 R2 上安装 IIS，请参阅[在 Windows server 2008 或 Windows server 2008 r2 上安装 iis 7](https://go.microsoft.com/fwlink/?linkid=291296)
 
   - <span></span>  
-    若要在 Windows Server 2012 上安装 IIS，请参阅[在 Windows server 上安装 iis 8 2012](http://go.microsoft.com/fwlink/?linkid=291297)
+    若要在 Windows Server 2012 上安装 IIS，请参阅[在 Windows server 上安装 iis 8 2012](https://go.microsoft.com/fwlink/?linkid=291297)
 
   - <span></span>  
-    若要在 Windows Server 2012 R2 上安装 IIS，请参阅[在 Windows server 上安装 iis 8.5 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
+    若要在 Windows Server 2012 R2 上安装 IIS，请参阅[在 Windows server 上安装 iis 8.5 2012 R2](https://go.microsoft.com/fwlink/?linkid=330687)
 
   - <span></span>  
-    若要下载 IIS 的应用程序请求路由扩展插件，请按照[应用程序请求路由](http://go.microsoft.com/fwlink/?linkid=291298)中的说明下载
+    若要下载 IIS 的应用程序请求路由扩展插件，请按照[应用程序请求路由](https://go.microsoft.com/fwlink/?linkid=291298)中的说明下载
 
   - <span></span>  
-    若要安装 ARR，请参阅[安装应用程序请求路由版本 2](http://go.microsoft.com/fwlink/?linkid=291299)中的说明
+    若要安装 ARR，请参阅[安装应用程序请求路由版本 2](https://go.microsoft.com/fwlink/?linkid=291299)中的说明
     
     <div>
     

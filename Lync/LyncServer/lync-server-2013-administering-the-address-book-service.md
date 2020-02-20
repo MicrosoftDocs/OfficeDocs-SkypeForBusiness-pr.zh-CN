@@ -12,18 +12,18 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ea7a68d77acd7bbaf3de43fce38c0e85c02dad4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 45dbc2c71cf34515f8f6176e4f579e6683ad319e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037272"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146255"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="administering-the-address-book-service-in-lync-server-2013"></a>在 Lync Server 2013 中管理通讯簿服务
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2014-02-05_
 
 
 > [!NOTE]  
-> 有关使用<STRONG>ADSI 编辑</STRONG>编辑 Active Directory 域服务对象属性的信息，请参阅<A href="http://go.microsoft.com/fwlink/?linkid=330427">ADSI edit</A>。 有关特定于通讯簿服务的资源工具包中的工具的信息，请参阅<A href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 资源工具包工具</A>。
+> 有关使用<STRONG>ADSI 编辑</STRONG>编辑 Active Directory 域服务对象属性的信息，请参阅<A href="https://go.microsoft.com/fwlink/?linkid=330427">ADSI edit</A>。 有关特定于通讯簿服务的资源工具包中的工具的信息，请参阅<A href="https://go.microsoft.com/fwlink/?linkid=330429">Microsoft Lync Server 2013 资源工具包工具</A>。
 
 
 
@@ -85,27 +85,27 @@ Lync Server 需要标准化 RFC 3966/e.164 电话号码。 若要使用非结构
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>givenName</p></td>
 <td><p>0x01400000</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 <td><p>Sn</p></td>
 <td><p>0x02400000</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>第三章</p></td>
 <td><p>displayName</p></td>
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>标题</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
@@ -166,7 +166,7 @@ Lync Server 需要标准化 RFC 3966/e.164 电话号码。 若要使用非结构
 </tr>
 <tr class="odd">
 <td><p>17 </p></td>
-<td><p>描述</p></td>
+<td><p>说明</p></td>
 <td><p>0x11000100</p></td>
 </tr>
 <tr class="even">
@@ -298,7 +298,7 @@ Lync Server 需要标准化 RFC 3966/e.164 电话号码。 若要使用非结构
 
 
 > [!WARNING]  
-> 有关筛选通讯簿的详细信息，请参阅<A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">Lync server 2013 中的通讯簿服务器 cmdlet</A>和<A href="http://go.microsoft.com/fwlink/?linkid=330430">筛选器 lync 2013 通讯簿</A>
+> 有关筛选通讯簿的详细信息，请参阅<A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">Lync server 2013 中的通讯簿服务器 cmdlet</A>和<A href="https://go.microsoft.com/fwlink/?linkid=330430">筛选器 lync 2013 通讯簿</A>
 
 
 

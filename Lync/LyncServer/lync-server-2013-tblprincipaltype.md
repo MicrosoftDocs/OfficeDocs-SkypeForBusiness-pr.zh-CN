@@ -12,18 +12,18 @@ ms:contentKeyID: 48183787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4da3af65a20d13ce4d4f1078e5ef76cbc67f402c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6f1c43c0e000e0c8adc3516304b931a68111072d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046165"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141968"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="tblprincipaltype-in-lync-server-2013"></a>Lync Server 2013 中的 tblPrincipalType
 
@@ -51,7 +51,7 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -120,31 +120,31 @@ tblPrincipalType 包含用于对 tblPrincipal 表中的内容进行分类的主�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>任意</p></td>
 <td><p>未知类型的通用主体。不用于 tblPrincipal 表。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 <td><p>AnyUser</p></td>
 <td><p>用户类型的通用主体。不用于 tblPrincipal 表。</p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>第三章</p></td>
 <td><p>AnyGroup</p></td>
 <td><p>组语义的通用主体。不用于 tblPrincipal 表。</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>SystemUser</p></td>
 <td><p>持久聊天服务器在内部使用的主体。</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>用户</p></td>
 <td><p>常规用户。</p></td>
 <td><p>是</p></td>

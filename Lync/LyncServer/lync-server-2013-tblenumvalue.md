@@ -12,18 +12,18 @@ ms:contentKeyID: 48185040
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d182a3689ae38d4117b45d6590bb2ccd08c0a8b7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 984dd5f161b31c40de914f363c0722657d3194ed
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027053"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="tblenumvalue-in-lync-server-2013"></a>Lync Server 2013 中的 tblEnumValue
 
@@ -117,28 +117,28 @@ tblEnumValue 表是一个硬编码表，包含节点表使用的属性的“可�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2 </p></td>
-<td><p>1 </p></td>
+<td><p>双面</p></td>
+<td><p>1</p></td>
 <td><p>private</p></td>
 </tr>
 <tr class="even">
-<td><p>3 </p></td>
-<td><p>1 </p></td>
+<td><p>第三章</p></td>
+<td><p>1</p></td>
 <td><p>范围</p></td>
 </tr>
 <tr class="odd">
-<td><p>4 </p></td>
-<td><p>2 </p></td>
+<td><p>4</p></td>
+<td><p>双面</p></td>
 <td><p>通用</p></td>
 </tr>
 <tr class="even">
-<td><p>5 </p></td>
-<td><p>2 </p></td>
+<td><p>5</p></td>
+<td><p>双面</p></td>
 <td><p>大会堂</p></td>
 </tr>
 <tr class="odd">
 <td><p>6 </p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>open</p></td>
 </tr>
 </tbody>

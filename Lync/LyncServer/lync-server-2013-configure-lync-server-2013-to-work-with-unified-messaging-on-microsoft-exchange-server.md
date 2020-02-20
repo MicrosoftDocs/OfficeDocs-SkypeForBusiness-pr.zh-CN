@@ -12,18 +12,18 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65908f1b142c72f584c48493023803e5dfd56208
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 043015fb30ca21a697a9758a5fbb4d916b006046
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030996"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146445"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>配置 Lync Server 2013 以使用 Microsoft Exchange Server 上的统一消息
 
@@ -57,8 +57,8 @@ _**上次修改的主题：** 2013-04-03_
 > 在运行 Exchange UM 集成实用工具之前，请确保已完成以下操作：
 > <ul>
 > <li><p>创建一个或多个 Exchange UM 拨号计划，如 Exchange 产品文档中所述。</p>
-> <p>有关 Microsoft Exchange Server 2010，请&quot;参阅在上<a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>创建 UM&quot;拨号计划。</p>
-> <p>对于 Microsoft Exchange Server 2007 Service Pack 1 （SP1），请&quot;参阅如何在<a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>中创建统一消息 SIP URI 拨号&quot;计划。</p></li>
+> <p>有关 Microsoft Exchange Server 2010，请&quot;参阅在上<a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>创建 UM&quot;拨号计划。</p>
+> <p>对于 Microsoft Exchange Server 2007 Service Pack 1 （SP1），请&quot;参阅如何在<a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>中创建统一消息 SIP URI 拨号&quot;计划。</p></li>
 > <li><p>按照在<a href="lync-server-2013-create-a-dial-plan.md">Lync server 2013 中创建拨号计划</a>中所述，创建一个或多个相应的 Lync server 拨号计划。</p></li>
 > <ul><li>如果使用的是早于 Microsoft Exchange Server 2010 SP1 的 Exchange 版本，则必须在 "Lync Server 2013 拨号计划<STRONG>简单名称</STRONG>" 字段中输入相应 Exchange 统一消息（UM） SIP 拨号计划的完全限定域名（FQDN）。 如果使用的是 Microsoft Exchange Server 2010 SP1 或最新的 service pack，则不需要此拨号计划名称匹配。</li></ul>
 > <li>创建自动助理，并确保订阅者访问号码和自动助理号码的格式为 E.164。</li></ul>

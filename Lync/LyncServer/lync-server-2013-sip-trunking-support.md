@@ -12,18 +12,18 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fd2bd6d66b8b4f040e654f2412f86027071f9ac
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3b370242bab888047b6f234f0b574311fe626773
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42039042"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="sip-trunking-support-in-lync-server-2013"></a>Lync Server 2013 中的 SIP 中继支持
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2012-10-03_
 
 如果计划将企业语音与 SIP 中继结合使用，则必须部署中介服务器，并确保其他基础结构和组件满足部署模型的相应支持要求。 有关确定是否实现 SIP 中继的详细信息，请参阅规划文档中的[Lync Server 2013 中的 SIP 中继概述](lync-server-2013-overview-of-sip-trunking.md)。
 
-您可以使用 Microsoft 统一通信开放式互操作性计划进行企业电话基础结构，以查找限定的公共交换电话网络（PSTN）网关、IP Pbx 和 SIP 中继服务，包括符合条件的 IP 电话服务提供商。 有关详细信息，请参阅 Microsoft 统一通信开放式互操作性[http://go.microsoft.com/fwlink/p/?LinkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)计划网站，网址为。
+您可以使用 Microsoft 统一通信开放式互操作性计划进行企业电话基础结构，以查找限定的公共交换电话网络（PSTN）网关、IP Pbx 和 SIP 中继服务，包括符合条件的 IP 电话服务提供商。 有关详细信息，请参阅 Microsoft 统一通信开放式互操作性[https://go.microsoft.com/fwlink/p/?LinkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)计划网站，网址为。
 
 <div>
 
