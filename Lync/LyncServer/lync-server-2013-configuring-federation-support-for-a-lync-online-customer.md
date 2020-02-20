@@ -12,18 +12,18 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81af0b98fdcc39396ca3f0afc27f4b57d42b7582
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f25a2ba7735c8ccf135d2030e7853940ef545ac2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030616"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>在 Lync Server 2013 中为 Lync Online 客户配置联合支持
 
@@ -49,7 +49,7 @@ _**上次修改的主题：** 2012-11-01_
 
 
 > [!NOTE]  
-> 本文档仅介绍配置组织以支持与 Lync Online 2010 客户联合的过程。 本文档不介绍配置 Lync Online 2010 客户以支持联合的过程。 有关 Lync Online 服务的详细信息，请参阅 Lync <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>online at。
+> 本文档仅介绍配置组织以支持与 Lync Online 2010 客户联合的过程。 本文档不介绍配置 Lync Online 2010 客户以支持联合的过程。 有关 Lync Online 服务的详细信息，请参阅 Lync <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>online at。
 
 
 

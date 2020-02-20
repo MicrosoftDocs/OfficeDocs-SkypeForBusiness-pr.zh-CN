@@ -12,18 +12,18 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b67831b6dbcd7dae12f9b19dd71f2512a8807189
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2832af2c038383e0cca9f8cb931ce4b675b44f2b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043484"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>在 Lync Server 2013 中检查对电话号码的中继配置
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-05-20_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 SIP 中继将 Lync Server 内部企业语音网络连接到以下任一项：
 
@@ -136,7 +136,7 @@ TranslatedNumber MatchingRule
 
 名称： NoAreaCode
 
-此时，您需要检查 Pattern 属性的值（它是一个[正则表达式](http://go.microsoft.com/fwlink/?linkid=400464)字符串），以查看是否有任何转换规则配置为用于处理所拨打的号码。 如果不是，则必须更改现有规则之一（CsOutboundTranslationRule）或使用 CsOutboundTranslationRule cmdlet 将新规则添加到集合中。
+此时，您需要检查 Pattern 属性的值（它是一个[正则表达式](https://go.microsoft.com/fwlink/?linkid=400464)字符串），以查看是否有任何转换规则配置为用于处理所拨打的号码。 如果不是，则必须更改现有规则之一（CsOutboundTranslationRule）或使用 CsOutboundTranslationRule cmdlet 将新规则添加到集合中。
 
 </div>
 

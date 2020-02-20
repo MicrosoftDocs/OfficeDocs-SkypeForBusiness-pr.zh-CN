@@ -12,18 +12,18 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03436a59fa9fbab99608e4fa3b979e4802115ed1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6b6e0e44367af86ea42099241ef3d9bbfa750133
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042954"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>在 Lync Server 2013 中准备 Active Directory 域服务
 
@@ -78,7 +78,7 @@ Lync Server 部署向导将指导您完成每个 Active Directory 准备任务�
     
 
     > [!NOTE]  
-    > 对于 Windows Server 2012 和 Windows Server 2012 R2，请使用服务器管理器安装和激活 .NET Framework 4.5。 有关详细信息，请参阅<A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 的其他软件要求</A>中的 "Microsoft .net Framework 4.5"。 对于 Windows Server&nbsp;2008&nbsp;R2，请从 Microsoft 网站下载并安装<A href="http://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A> 。
+    > 对于 Windows Server 2012 和 Windows Server 2012 R2，请使用服务器管理器安装和激活 .NET Framework 4.5。 有关详细信息，请参阅<A href="lync-server-2013-additional-software-requirements.md">Lync Server 2013 的其他软件要求</A>中的 "Microsoft .net Framework 4.5"。 对于 Windows Server&nbsp;2008&nbsp;R2，请从 Microsoft 网站下载并安装<A href="https://www.microsoft.com/download/details.aspx?id=30653">.net Framework 4.5</A> 。
 
     
     </div>
@@ -271,7 +271,7 @@ Lync Server 部署向导中的 "**准备架构**" 步骤和**CsAdServerSchema** 
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-有关使用 Ldifde 的详细信息，请参阅 Microsoft 知识库文章 237677 "使用 LDIFDE 将目录对象导入和导出到 Active Directory" [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204)。
+有关使用 Ldifde 的详细信息，请参阅 Microsoft 知识库文章 237677 "使用 LDIFDE 将目录对象导入和导出到 Active Directory" [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204)。
 
 </div>
 

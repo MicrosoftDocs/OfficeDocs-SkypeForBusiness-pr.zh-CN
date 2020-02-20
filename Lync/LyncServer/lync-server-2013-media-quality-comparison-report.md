@@ -12,18 +12,18 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c45f2d238d2ffd8df058e31bfa50a51f26c1caf5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2f32f2f97eb8bb5948a218b05d5718897dd0f58
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045144"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="media-quality-comparison-report-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量比较报告
 
@@ -159,7 +159,7 @@ _**上次修改的主题：** 2014-04-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

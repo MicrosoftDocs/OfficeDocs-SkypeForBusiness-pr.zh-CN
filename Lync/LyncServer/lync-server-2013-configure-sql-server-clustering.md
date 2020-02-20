@@ -12,18 +12,18 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cb7db93813bdc7ed06398ce73d00f51ce5a60fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035194"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147645"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-sql-server-clustering-for-lync-server-2013"></a>为 Lync Server 2013 配置 SQL Server 群集
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2014-01-10_
 
 Microsoft Lync Server 2013 支持 SQL Server 2012 和 SQL Server 2008 R2 的群集。 有关受支持的内容的详细信息，请参阅[Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)。
 
-在安装和部署 Enterprise Edition 前端服务器和后端数据库之前，应设置和配置 SQL Server 群集。 有关 SQL Server 2012 中故障转移群集的最佳实践和设置说明， <http://technet.microsoft.com/library/hh231721.aspx>请参阅。 有关 SQL Server 2008 中的故障转移群集<http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>，请参阅。
+在安装和部署 Enterprise Edition 前端服务器和后端数据库之前，应设置和配置 SQL Server 群集。 有关 SQL Server 2012 中故障转移群集的最佳实践和设置说明， <https://technet.microsoft.com/library/hh231721.aspx>请参阅。 有关 SQL Server 2008 中的故障转移群集<https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>，请参阅。
 
 安装 SQL Server 时，应安装 SQL Server Management Studio 来管理数据库位置和日志文件位置。 安装 SQL Server 时，SQL Server Management Studio 将作为可选组件安装。
 

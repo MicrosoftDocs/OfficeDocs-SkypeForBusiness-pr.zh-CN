@@ -12,18 +12,18 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebdbfdc4ed0f88d78fc78037a3522c73bd220270
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2b874c83adb2a1ddb511d8c6980cb12f01e0ef68
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043504"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="check-lync-server-2013-server-certificates"></a>检查 Lync Server 2013 服务器证书
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 Set-cscertificate cmdlet 使您能够检索有关每个 Lync Server 证书的信息。 这一点尤其重要，因为证书具有内置到期日期。 例如，私下颁发的证书通常在12个月后过期。 如果你的任何 Lync Server 证书过期，则在续订或替换证书之前，你将失去随附的功能。
 

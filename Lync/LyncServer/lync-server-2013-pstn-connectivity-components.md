@@ -12,18 +12,18 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b307e88bbf85b43a6997d46c5a822684e0421752
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 08764f432eb90f1b16a0c91ed810d394e94c6193
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043444"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152316"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="pstn-connectivity-components-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 连接组件
 
@@ -59,7 +59,7 @@ _**上次修改的主题：** 2012-10-04_
 
 ## <a name="pstn-gateways"></a>PSTN 网关
 
-PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。 PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。 中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。 有关与 Microsoft 合作以提供与 Lync Server 配合使用的设备的合作伙伴列表，请参阅 Microsoft 统一通信合作伙伴网站（网址[http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)为）。
+PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。 PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。 中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。 有关与 Microsoft 合作以提供与 Lync Server 配合使用的设备的合作伙伴列表，请参阅 Microsoft 统一通信合作伙伴网站（网址[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)为）。
 
 </div>
 
@@ -81,15 +81,15 @@ PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和�
 
 
 > [!NOTE]  
-> 媒体绕过将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 已使用认证的合作伙伴测试了一组 PSTN 网关和 SBCs，并且已通过 Cisco IP Pbx 进行了一些测试。 仅在统一通信开放互操作性计划– Lync Server 上列出的产品和版本支持媒体<A href="http://go.microsoft.com/fwlink/p/?linkid=214406">http://go.microsoft.com/fwlink/p/?linkId=214406</A>旁路。
+> 媒体绕过将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 已使用认证的合作伙伴测试了一组 PSTN 网关和 SBCs，并且已通过 Cisco IP Pbx 进行了一些测试。 仅在统一通信开放互操作性计划– Lync Server 上列出的产品和版本支持媒体<A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>旁路。
 
 
 
 </div>
 
-有关提供企业语音解决方案的合作伙伴的详细信息，请参阅 Microsoft 统一通信合作伙伴网站[http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)，网址为。
+有关提供企业语音解决方案的合作伙伴的详细信息，请参阅 Microsoft 统一通信合作伙伴网站[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)，网址为。
 
-有关提供企业语音硬件解决方案（包括 PSTN 网关）的合作伙伴的详细信息，请参阅 Microsoft 统一[http://go.microsoft.com/fwlink/p/?linkId=202836](http://go.microsoft.com/fwlink/p/?linkid=202836)通信合作伙伴网站。
+有关提供企业语音硬件解决方案（包括 PSTN 网关）的合作伙伴的详细信息，请参阅 Microsoft 统一[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)通信合作伙伴网站。
 
 </div>
 

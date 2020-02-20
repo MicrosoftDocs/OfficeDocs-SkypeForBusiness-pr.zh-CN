@@ -12,18 +12,18 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b0efc4a6a9e9f195705801969b8459c17855388
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c70002eb7be67c221997465b6cdd5d252df284db
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036682"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-lync-server-2013-hybrid-deployments"></a>规划 Lync Server 2013 混合部署
 
@@ -55,9 +55,9 @@ _**上次修改的主题：** 2016-05-25_
 
   - 若要支持 Office 365 单一登录，以便用户可以使用与在本地登录 Office 时相同的登录凭据来登录 Office，您可以使用 Azure Active Directory （AAD）连接的密码同步功能。 您还可以将 Active Directory 联合身份验证服务（AD FS）用于 Office 365 的单一登录。
     
-    有关详细信息，请参阅[将您的本地标识与 Azure Active Directory 集成](http://go.microsoft.com/fwlink/p/?linkid=619754)。
+    有关详细信息，请参阅[将您的本地标识与 Azure Active Directory 集成](https://go.microsoft.com/fwlink/p/?linkid=619754)。
 
-  - 用于保持本地和联机 Active Directory 对象同步的单个目录同步解决方案。 有关目录同步的详细信息，请参阅[目录集成工具](http://go.microsoft.com/fwlink/p/?linkid=530320)。
+  - 用于保持本地和联机 Active Directory 对象同步的单个目录同步解决方案。 有关目录同步的详细信息，请参阅[目录集成工具](https://go.microsoft.com/fwlink/p/?linkid=530320)。
 
 </div>
 
@@ -85,7 +85,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
 有关客户端支持的详细信息，请参阅下列主题：
 
-  - [Lync Online 客户端](http://go.microsoft.com/fwlink/?linkid=281902)
+  - [Lync Online 客户端](https://go.microsoft.com/fwlink/?linkid=281902)
 
   - [Lync Server 2013 的客户端比较表](lync-server-2013-desktop-client-comparison-tables.md)
 
@@ -145,9 +145,9 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
 </div>
 
-有关支持的拓扑的详细信息，请参阅[Lync server 2013 支持的拓扑](lync-server-2013-supported-topologies.md)和[适用于企业混合部署的 Lync Server 2013 参考拓扑](http://go.microsoft.com/fwlink/p/?linkid=398709)。
+有关支持的拓扑的详细信息，请参阅[Lync server 2013 支持的拓扑](lync-server-2013-supported-topologies.md)和[适用于企业混合部署的 Lync Server 2013 参考拓扑](https://go.microsoft.com/fwlink/p/?linkid=398709)。
 
-有关混合部署和将 PowerShell 连接到 Lync Online 的故障排除信息，请参阅[Lync Online： Lync PowerShell 和混合故障排除](http://go.microsoft.com/fwlink/p/?linkid=306718)。
+有关混合部署和将 PowerShell 连接到 Lync Online 的故障排除信息，请参阅[Lync Online： Lync PowerShell 和混合故障排除](https://go.microsoft.com/fwlink/p/?linkid=306718)。
 
 </div>
 
@@ -216,7 +216,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
 根据 Microsoft Online Services 数据中心的位置，您还必须将网络防火墙设备配置为根据通配符域名（例如，所有来自\*outlook.com 的流量）接受连接。 如果组织的防火墙不支持通配符名称配置，则必须手动确定要允许和指定端口的 IP 地址范围。
 
-请参阅帮助主题 " [Office 365 url 和 IP 地址范围](http://go.microsoft.com/fwlink/p/?linkid=252942)"。
+请参阅帮助主题 " [Office 365 url 和 IP 地址范围](https://go.microsoft.com/fwlink/p/?linkid=252942)"。
 
 </div>
 
@@ -246,7 +246,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 <td><p>对入站方向开放</p>
 <ul>
 <li><p>Active Directory 联合身份验证服务（联合服务器角色）</p>
-<p>有关详细信息，请参阅<a href="http://go.microsoft.com/fwlink/p/?linkid=281899">了解 AD FS 角色服务</a>。</p></li>
+<p>有关详细信息，请参阅<a href="https://go.microsoft.com/fwlink/p/?linkid=281899">了解 AD FS 角色服务</a>。</p></li>
 <li><p>Active Directory 联合身份验证服务（代理服务器角色）</p></li>
 <li><p>Microsoft Online Services 门户</p></li>
 <li><p>我的公司门户</p></li>
@@ -323,7 +323,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
   - **Lync 客户端**   在移动到 Lync Online 时，某些用户可能需要新的客户端版本。 对于 Office 通信服务器 2007 R2，在迁移到 Lync Online 之前，必须将用户移动到 Lync Server 2013 池。
     
-    有关客户端支持的详细信息，请参阅[适用于 Lync Online 的客户端](http://go.microsoft.com/fwlink/p/?linkid=281902)和[支持的 lync 客户端和网络端口配置](http://go.microsoft.com/fwlink/p/?linkid=281901)。
+    有关客户端支持的详细信息，请参阅[适用于 Lync Online 的客户端](https://go.microsoft.com/fwlink/p/?linkid=281902)和[支持的 lync 客户端和网络端口配置](https://go.microsoft.com/fwlink/p/?linkid=281901)。
 
   - **本地策略和配置（非用户）**   联机和本地策略需要单独的配置。 无法设置同适用于二者的全局策略。
 

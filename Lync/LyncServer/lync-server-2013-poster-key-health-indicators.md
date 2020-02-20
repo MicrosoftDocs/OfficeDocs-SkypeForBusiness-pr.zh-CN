@@ -12,18 +12,18 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6b67c4843cc0c1039bee48aa6b7c4620b77ce08
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2710e85eced76241f4946ef2746e544d07be941f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006990"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-health-indicators-in-lync-server-2013"></a>Lync Server 2013 中的关键运行状况指示器
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006990"
 
 _**上次修改的主题：** 2014-02-10_
 
-本文是与[关键运行状况指示器的伴随：维护正常的 Lync server 海报的基础](http://go.microsoft.com/fwlink/?linkid=391838)，可以从下载中心下载。
+本文是与[关键运行状况指示器的伴随：维护正常的 Lync server 海报的基础](https://go.microsoft.com/fwlink/?linkid=391838)，可以从下载中心下载。
 
 ![描述使用 KHI 数据进行故障排除的海报](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "描述使用 KHI 数据进行故障排除的海报")
 
@@ -75,7 +75,7 @@ _**上次修改的主题：** 2014-02-10_
 
 收集 KHI 性能计数器，并填充 "网络指南" 附带的 KHI 电子表格，以生成可帮助您确定 Lync 部署的服务器运行状况的记分卡。 填充后，它将指导您修复环境，并向其他利益干系人提供进一步的洞察力。 按月评估 KHIs，并将其合并到任何部署的日常操作过程中。
 
-下载[Lync Server 网络指南](http://go.microsoft.com/fwlink/p/?linkid=390677)以查看完整的 KHIs 列表，并获取相关的电子表格。
+下载[Lync Server 网络指南](https://go.microsoft.com/fwlink/p/?linkid=390677)以查看完整的 KHIs 列表，并获取相关的电子表格。
 
 </div>
 
@@ -333,9 +333,9 @@ LySS = Lync Storage Service
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server 网络指南](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[关键运行状况指示器：用于维护正常运行的 Lync 服务器的基础](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Lync 呼叫质量方法](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Lync Server 网络指南](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[关键运行状况指示器：用于维护正常运行的 Lync 服务器的基础](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Lync 呼叫质量方法](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

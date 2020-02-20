@@ -12,18 +12,18 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89a5046ba15534d40c81e1e3b8a4f310873a9e1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: efa7c620cff3247e4d744f60c24e0f5aa6293da3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045104"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="media-quality-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量摘要报告
 
@@ -180,7 +180,7 @@ _**上次修改的主题：** 2016-06-29_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -276,7 +276,7 @@ _**上次修改的主题：** 2016-06-29_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -375,7 +375,7 @@ _**上次修改的主题：** 2016-06-29_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

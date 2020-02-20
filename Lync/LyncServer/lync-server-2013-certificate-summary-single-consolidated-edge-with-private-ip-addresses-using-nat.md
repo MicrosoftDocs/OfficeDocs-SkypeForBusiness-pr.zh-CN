@@ -12,18 +12,18 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f6a169d02842df75c06a6f32b4bb9509a7e6b74
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 70d232c24e0dbcf0370cc3cf3dbc2829bc5d4949
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030826"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Lync Server 2013 中的证书摘要-使用 NAT 的专用 IP 地址的单一合并边缘
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2012-10-22_
 
 Microsoft Lync Server 2013 使用证书对其他服务器进行相互身份验证，并将数据从服务器和服务器加密到客户端。 证书要求与服务器关联的域名系统 (DNS) 记录的名称与证书上的使用者名称 (SN) 和使用者替代名称 (SAN) 匹配。 要成功映射服务器、DNS 记录和证书条目，您必须仔细规划在 DNS 中注册的目标服务器完全限定域名以及证书上的 SN 和 SAN 条目。
 
-从公共证书颁发机构（CA）请求为边缘服务器的外部接口分配的证书。 以下文章中列出了在为统一通信提供证书方面已成功展示的公共 CAs： [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)。 请求证书时，可以使用 Lync Server 部署向导生成的证书请求，或使用 Lync Server 命令行管理程序 cmdlet 或由公共 CA 提供的进程手动创建请求。 有关用于证书管理的 Lync Server 命令行管理程序 cmdlet 的详细信息，请参阅[Lync server 2013 中的证书和身份验证 cmdlet](https://docs.microsoft.com/powershell/module/skype/)分配证书时，会将证书分配给访问边缘服务接口、Web 会议边缘服务接口和音频/视频身份验证服务。 不应将音频/视频身份验证服务与 A/V 边缘服务相混淆，该服务不使用证书来加密音频和视频流。 内部边缘服务器接口可以使用来自内部（到你的组织） CA 的证书或来自公共 CA 的证书。 内部接口证书仅使用 SN，无需或不会使用 SAN 条目。
+从公共证书颁发机构（CA）请求为边缘服务器的外部接口分配的证书。 以下文章中列出了在为统一通信提供证书方面已成功展示的公共 CAs： [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)。 请求证书时，可以使用 Lync Server 部署向导生成的证书请求，或使用 Lync Server 命令行管理程序 cmdlet 或由公共 CA 提供的进程手动创建请求。 有关用于证书管理的 Lync Server 命令行管理程序 cmdlet 的详细信息，请参阅[Lync server 2013 中的证书和身份验证 cmdlet](https://docs.microsoft.com/powershell/module/skype/)分配证书时，会将证书分配给访问边缘服务接口、Web 会议边缘服务接口和音频/视频身份验证服务。 不应将音频/视频身份验证服务与 A/V 边缘服务相混淆，该服务不使用证书来加密音频和视频流。 内部边缘服务器接口可以使用来自内部（到你的组织） CA 的证书或来自公共 CA 的证书。 内部接口证书仅使用 SN，无需或不会使用 SAN 条目。
 
 <div>
 

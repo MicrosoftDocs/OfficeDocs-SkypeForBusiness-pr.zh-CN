@@ -12,18 +12,18 @@ ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5157f78606a4577cf638857a4bc6719f2e1a42d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 26759c982723fd656ac3456aad630bc695a7343e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038064"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147485"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Lync Server 2013 中的前端池配对数据安全性
 
@@ -55,7 +55,7 @@ _**上次修改的主题：** 2014-10-07_
 
 ## <a name="mitigating-security-risks"></a>减轻安全风险
 
-可通过多种方式来增强对备份服务流量的安全保护，包括限制对数据中心的访问，以保护两个数据中心之间的 WAN 传输。 在大多数情况下，部署 Lync Server 2013 的企业可能已经具备所需的安全基础结构。 对于寻求指导的企业，Microsoft 提供解决方案作为如何构建安全 IT 基础结构的示例。 但是，这并不意味着它是唯一的解决方案，也不意味着它是 Lync Server 的首选解决方案。 我们建议企业客户根据其 IT 安全基础结构和要求选择解决方案满足其特定需求。Microsoft 解决方案示例为服务器和域隔离采用 IPSec 和组策略。 有关详细信息， [http://go.microsoft.com/fwlink/p/?LinkId=268544](http://go.microsoft.com/fwlink/p/?linkid=268544)请参阅。 有关问题和意见，请联系 secwish@microsoft.com。
+可通过多种方式来增强对备份服务流量的安全保护，包括限制对数据中心的访问，以保护两个数据中心之间的 WAN 传输。 在大多数情况下，部署 Lync Server 2013 的企业可能已经具备所需的安全基础结构。 对于寻求指导的企业，Microsoft 提供解决方案作为如何构建安全 IT 基础结构的示例。 但是，这并不意味着它是唯一的解决方案，也不意味着它是 Lync Server 的首选解决方案。 我们建议企业客户根据其 IT 安全基础结构和要求选择解决方案满足其特定需求。Microsoft 解决方案示例为服务器和域隔离采用 IPSec 和组策略。 有关详细信息， [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?linkid=268544)请参阅。 有关问题和意见，请联系 secwish@microsoft.com。
 
 另一种可能的解决方案是使用 IPSec 来帮助保护由备份服务本身发送的数据。 如果选择此方法，则应为以下服务器配置 SMB 协议的 IPSec 规则，其中池 A 和池 B 是两个配对的前端池。
 

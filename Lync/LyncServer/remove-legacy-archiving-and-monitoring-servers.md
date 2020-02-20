@@ -12,18 +12,18 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 144d2d1861b9e1dc75aaf740eca1a35e2d384a7b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0447305ce1ed5486c6b8d83ae99d905ea1e74362
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008908"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>删除旧的存档和监控服务器
 
@@ -41,7 +41,7 @@ _**上次修改的主题：** 2012-10-19_
 
 您可以按照[第4阶段：将测试用户移动到试点池](phase-4-move-test-users-to-the-pilot-pool.md)中所述的过程，将用户从 lync server 2010 移动到 Lync server 2013。
 
-确认所有用户都已从任何剩余的池中删除后，请按照 "卸载 Microsoft Lync Server 2010 和删除服务器角色" 中的过程操作，该过程可在[http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)中下载。
+确认所有用户都已从任何剩余的池中删除后，请按照 "卸载 Microsoft Lync Server 2010 和删除服务器角色" 中的过程操作，该过程可在[https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)中下载。
 
 </div>
 

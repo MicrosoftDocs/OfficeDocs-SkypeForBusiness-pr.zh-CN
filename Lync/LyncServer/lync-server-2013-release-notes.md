@@ -12,18 +12,18 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc7339b4861fe6e7e93e08d4928f6128916aeea0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8cf95a95c02ad37abdbf88f235cff2f0d5b0459a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048793"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="release-notes-for-lync-server-2013"></a>Lync Server 2013 发行说明
 
@@ -591,7 +591,7 @@ Lync Server 2013 将有关会议和即时消息的数据（如存档的邮件和
 
 **规避**
 
-若要解决此问题，请从防病毒扫描中排除包含 Web 组件和 .NET framework 的文件夹。 有关详细信息，请参阅 Microsoft 知识库文章 312592 "PRB：在 ASP.NET 中使用应用程序重新启动时的随机应用程序重新启动[http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592)" 错误 "at。
+若要解决此问题，请从防病毒扫描中排除包含 Web 组件和 .NET framework 的文件夹。 有关详细信息，请参阅 Microsoft 知识库文章 312592 "PRB：在 ASP.NET 中使用应用程序重新启动时的随机应用程序重新启动[https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592)" 错误 "at。
 
 应排除以下文件夹：
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4410444d1565e61fa80ef8b8db29aad63b4401de
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 609729c65240a17b70f7ef7115bd4901f37c687a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42032488"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>在 Lync Server 2013 中创建或编辑 XMPP 合作伙伴配置
 
@@ -75,7 +75,7 @@ Microsoft Lync Server 2013 集成了边缘服务器上的可扩展消息和状�
     
     有关 XMPP 要求的详细信息，请参阅 XSF 文档 XEP-0178。 有关详细信息，请参阅 "XEP-0178：使用 SASL EXTERNAL with 证书" 的最佳实践。 <http://xmpp.org/extensions/xep-0178.html>
     
-    请参阅 IETF document "可扩展消息和状态协议（XMPP）： Core"，5.0 节，STARTTLS 协商<http://tools.ietf.org/html/rfc6120>。
+    请参阅 IETF document "可扩展消息和状态协议（XMPP）： Core"，5.0 节，STARTTLS 协商<https://tools.ietf.org/html/rfc6120>。
     
       - **TLS 协商**。 定义 TLS 协商规则。 XMPP 服务可能需要 TLS，可以使 TLS 成为可选的，也可以定义不支持 TLS。 选择 "可选" 将要求留给 XMPP 服务进行强制性协商决策。 若要查看所有可能的设置和有关 SASL、TLS 和回拨的详细信息（包括无效和已知的错误配置），请参阅[Lync Server 2013 中的 XMPP 联盟伙伴的协商设置](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md)。
         

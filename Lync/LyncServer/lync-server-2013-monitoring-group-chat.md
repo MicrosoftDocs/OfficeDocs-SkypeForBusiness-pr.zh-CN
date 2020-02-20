@@ -12,18 +12,18 @@ ms:contentKeyID: 63969648
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb82eedd9d9578aeb4120136c1896267cde35392
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a42589db677132170e9456c998d96fd2eb1de5d2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051134"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149331"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-group-chat-in-lync-server-2013"></a>在 Lync Server 2013 中监视组聊天
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051134"
 
 _**上次修改的主题：** 2014-08-04_
 
-强烈建议运行 Microsoft 下载中心提供的最新[累积服务器更新安装程序](http://support.microsoft.com/kb/968802)，以提高性能。
+强烈建议运行 Microsoft 下载中心提供的最新[累积服务器更新安装程序](https://support.microsoft.com/kb/968802)，以提高性能。
 
 如果你正在运行最新的累积更新，请使用以下压力测试表来了解你的组聊天服务器是否以最佳运行状况运行的指标。
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa902b9e4d53bf0ebbedf835296a371437860095
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c683e86eac3410bbfd535309e5cc094b4543e62b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043454"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152326"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 会议摘要报告
 
@@ -150,7 +150,7 @@ PSTN 会议摘要报告提供了有关您组织中召开的所有 PSTN 会议（
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

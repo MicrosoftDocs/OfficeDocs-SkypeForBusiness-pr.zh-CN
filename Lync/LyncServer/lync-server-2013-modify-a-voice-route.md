@@ -12,18 +12,18 @@ ms:contentKeyID: 48185143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86c64b9cc595c108676a519bc98cba3ecad04a62
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 61b77ff507b180999a8cc9a1188dc2244098b429
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035898"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="modify-a-voice-route-in-lync-server-2013"></a>在 Lync Server 2013 中修改语音路由
 
@@ -67,7 +67,7 @@ _**上次修改的主题：** 2012-11-01_
         
           - **异常：** 如果要为前缀值指定一个或多个例外，请突出显示前缀并单击 "**例外**"。 为不** 希望此路由满足的匹配模式键入一个或多个值。 例如，若要从路由中排除从 + 425237 开始的号码，请在 "**例外日期**" 字段中输入值 **+ 425237** ，然后单击 **"确定"**。
     
-      - 若要手动定义匹配模式，请在“构建要匹配的模式”**** 工具中单击“编辑”****，然后键入 .NET Framework 正则表达式，以便为应用路由的目标电话号码指定匹配模式。 有关如何编写正则表达式的信息，请参阅处[http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)的 ".Net Framework 正则表达式"。
+      - 若要手动定义匹配模式，请在“构建要匹配的模式”**** 工具中单击“编辑”****，然后键入 .NET Framework 正则表达式，以便为应用路由的目标电话号码指定匹配模式。 有关如何编写正则表达式的信息，请参阅处[https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)的 ".Net Framework 正则表达式"。
 
 8.  如果不希望让出站呼叫显示给呼叫收件人的电话的 ID，请选择 "**禁止呼叫方 id** "。 如果选择此选项，必须指定显示在接收人的呼叫者 ID 显示器上的 **“备用呼叫者 ID”**。
 

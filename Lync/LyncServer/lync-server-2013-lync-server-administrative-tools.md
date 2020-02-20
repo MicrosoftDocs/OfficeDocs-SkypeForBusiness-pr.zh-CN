@@ -12,18 +12,18 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6de54e91129351a153c9cf4e08925d62eeb342c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 85ba9b1d9848fa51d798dd93b9cbc53daf69a6b7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030235"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 管理工具
 
@@ -113,7 +113,7 @@ Lync Server 控制面板将自动安装在每个 Lync Server 前端服务器或 
 
 ## <a name="logging-tool"></a>日志记录工具
 
-Lync Server 日志记录工具可通过在产品运行时捕获产品中的日志记录和跟踪信息来简化故障排除。 您可以使用该工具在任何 Lync Server 服务器角色上运行调试会话。 有关日志记录工具的详细信息，请参阅 TechNet Library 上的 Lync Server 2010 日志记录工具[http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)文档。
+Lync Server 日志记录工具可通过在产品运行时捕获产品中的日志记录和跟踪信息来简化故障排除。 您可以使用该工具在任何 Lync Server 服务器角色上运行调试会话。 有关日志记录工具的详细信息，请参阅 TechNet Library 上的 Lync Server 2010 日志记录工具[https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)文档。
 
 <div>
 

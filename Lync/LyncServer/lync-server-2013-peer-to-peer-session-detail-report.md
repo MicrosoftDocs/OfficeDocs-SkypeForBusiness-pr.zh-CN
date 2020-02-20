@@ -12,18 +12,18 @@ ms:contentKeyID: 48184416
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c977b2f9f9a6248ab7ba5d5391397d4cd4326a18
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ca709ea2478d5ed2bdff2a80fbdc9c238d6e92cf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050884"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153082"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="peer-to-peer-session-detail-report-in-lync-server-2013"></a>Lync Server 2013 中的对等会话详细信息报告
 
@@ -197,7 +197,7 @@ _**上次修改的主题：** 2012-06-06_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -240,7 +240,7 @@ _**上次修改的主题：** 2012-06-06_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>描述</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

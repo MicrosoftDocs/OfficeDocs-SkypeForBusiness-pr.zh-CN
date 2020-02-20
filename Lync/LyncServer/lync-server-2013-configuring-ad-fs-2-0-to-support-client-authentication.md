@@ -12,18 +12,18 @@ ms:contentKeyID: 54973687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7054bae609b5d1a1c6fe176c1092614f5d30fa6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8729ca803f3e3897aa9383f28a486229bf5ce33f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029703"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中配置 AD FS 2.0 以支持客户端身份验证
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2013-07-03_
 
   - 传输层安全性客户端身份验证
 
-使用基于表单的身份验证，您可以开发允许用户通过使用其用户名/密码或使用智能卡和 PIN 进行身份验证的网页。 本主题重点介绍如何使用 AD FS 2.0 实施传输层安全性客户端身份验证。 有关 AD FS 2.0 身份验证类型的详细信息，请参阅 AD FS 2.0：如何更改本地身份验证类型[http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)。
+使用基于表单的身份验证，您可以开发允许用户通过使用其用户名/密码或使用智能卡和 PIN 进行身份验证的网页。 本主题重点介绍如何使用 AD FS 2.0 实施传输层安全性客户端身份验证。 有关 AD FS 2.0 身份验证类型的详细信息，请参阅 AD FS 2.0：如何更改本地身份验证类型[https://go.microsoft.com/fwlink/p/?LinkId=313384](https://go.microsoft.com/fwlink/p/?linkid=313384)。
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7895a1ebb2c0ce45cebf3514839b7ab3405e1c9f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 726e6bb537a16ece5c2955f005e91872f11f6a79
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983027"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147725"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Lync Server 2013 持久聊天资源工具包工具
 
@@ -49,7 +49,7 @@ Lync Server 2013 持久聊天资源工具包工具有助于为部署和管理 Ly
 
 
 > [!IMPORTANT]  
-> 安装 Lync Server 2013 和资源工具包工具后，必须安装<STRONG>psexec</STRONG>并将<STRONG>psexec</STRONG>复制到以下路径： \\ <STRONG>Program Files \ Microsoft Lync Server 2013 \ Persistent Chat server Resource Kit\ChatStressTool</STRONG>。 如果不复制<STRONG>PsExec</STRONG>，持久聊天工具将引发错误异常，且不能正确执行。 在运行该工具之前，请确保满足此先决条件要求。 有关安装<STRONG>PsExec</STRONG>的详细信息，请参阅<A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>。
+> 安装 Lync Server 2013 和资源工具包工具后，必须安装<STRONG>psexec</STRONG>并将<STRONG>psexec</STRONG>复制到以下路径： \\ <STRONG>Program Files \ Microsoft Lync Server 2013 \ Persistent Chat server Resource Kit\ChatStressTool</STRONG>。 如果不复制<STRONG>PsExec</STRONG>，持久聊天工具将引发错误异常，且不能正确执行。 在运行该工具之前，请确保满足此先决条件要求。 有关安装<STRONG>PsExec</STRONG>的详细信息，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A>。
 
 
 

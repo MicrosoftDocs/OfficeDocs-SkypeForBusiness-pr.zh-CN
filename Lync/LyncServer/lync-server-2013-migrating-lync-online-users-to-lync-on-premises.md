@@ -12,18 +12,18 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15dae97f0c6c507c8e6645ea96e538dba42c29c2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07a333eeb794a27ca78b1f6d8c9bf71c386c8a92
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033331"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149662"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>将 Lync Online 用户迁移到 Lync Server 2013 中的 Lync 本地
 
@@ -53,9 +53,9 @@ _**上次修改的主题：** 2015-11-13_
 
 1.  首先，请确保您的组织已配置了混合。
     
-      - 安装 Azure Active Directory 同步工具。 有关详细信息，请参阅 <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>。
+      - 安装 Azure Active Directory 同步工具。 有关详细信息，请参阅 <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>。
     
-      - 若要使用户能够使用 Lync Online 的单一登录，请安装 Active Directory 联合身份验证<http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>服务。
+      - 若要使用户能够使用 Lync Online 的单一登录，请安装 Active Directory 联合身份验证<https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>服务。
     
       - 在本地部署中，在 Lync Server 命令行管理程序中，键入以下 cmdlet 以创建 Lync Online 的托管提供程序：
         
@@ -173,7 +173,7 @@ _**上次修改的主题：** 2015-11-13_
     
 
     > [!NOTE]  
-    > Rtcxds 数据库的事务日志文件的默认最大大小为 16 GB。 如果一次移动大量用户，尤其是在启用了镜像的情况下，这可能不够大。 若要解决此情况，可以增加文件大小，也可以定期备份日志文件。 有关详细信息，请<A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>参阅。
+    > Rtcxds 数据库的事务日志文件的默认最大大小为 16 GB。 如果一次移动大量用户，尤其是在启用了镜像的情况下，这可能不够大。 若要解决此情况，可以增加文件大小，也可以定期备份日志文件。 有关详细信息，请<A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>参阅。
 
     
     </div>

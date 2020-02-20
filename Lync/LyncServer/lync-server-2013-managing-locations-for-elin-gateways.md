@@ -12,18 +12,18 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 17fa27b82260a05ded5ca025d56005c864247844
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043084"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150313"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="managing-locations-for-elin-gateways-in-lync-server-2013"></a>在 Lync Server 2013 中管理 ELIN 网关的位置
 
@@ -103,17 +103,17 @@ _**上次修改的主题：** 2012-10-02_
 <tbody>
 <tr class="odd">
 <td><p>第 1 层</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>425-555-0100</p></td>
 </tr>
 <tr class="even">
 <td><p>第 2 层</p></td>
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">
 <td><p>第 3 层</p></td>
-<td><p>3 </p></td>
+<td><p>第三章</p></td>
 <td><p>425-555-0123</p></td>
 </tr>
 </tbody>
@@ -144,7 +144,7 @@ _**上次修改的主题：** 2012-10-02_
   - **是否具有已包含位置映射的第三方数据库？**  
     通过使用 Lync Server 的辅助位置信息服务选项连接到第三方数据库，可以使用脱机平台对位置进行分组和管理。 此方案的优势在于除了将位置与网络标识符关联外，还可以将位置与用户关联。 这意味着 Location 信息服务可将来自辅助位置信息服务的多个地址返回到 Lync Server 客户端。 然后用户可以选择最合适的位置。
     
-    若要与 Location 信息服务集成，第三方数据库必须遵循 Lync Server 位置请求/响应架构。 有关详细信息， <http://go.microsoft.com/fwlink/p/?linkid=213819>请参阅。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置辅助位置信息服务](lync-server-2013-configure-a-secondary-location-information-service.md)。
+    若要与 Location 信息服务集成，第三方数据库必须遵循 Lync Server 位置请求/响应架构。 有关详细信息， <https://go.microsoft.com/fwlink/p/?linkid=213819>请参阅。 有关部署辅助位置信息服务的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置辅助位置信息服务](lync-server-2013-configure-a-secondary-location-information-service.md)。
 
 有关填充位置数据库的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置位置数据库](lync-server-2013-configure-the-location-database.md)。
 

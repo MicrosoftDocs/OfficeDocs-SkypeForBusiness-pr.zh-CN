@@ -12,18 +12,18 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e225f63da97ea48d98a5a2540a6b35a9c63c08f2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 31381edc58240d990096b47498b5c98845af5b2d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007952"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部用户访问所需的组件
 
@@ -114,7 +114,7 @@ _**上次修改的主题：** 2014-05-29_
 
 
 > [!NOTE]  
-> 外部用户不需要与您的组织的虚拟专用网络（VPN）连接即可参与使用 Lync Server 2013 的通信。 如果您在组织中实施了 VPN 技术，并且您的用户使用的是 Lync 的 VPN，媒体流量（如视频会议）可能会受到负面影响。 应考虑为媒体通信提供直接连接到 AV 边缘服务的方法，并绕过 VPN。 有关详细信息，请参阅 NextHop 博客文章 "启用 Lync Media 绕过 VPN 隧道" <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>。
+> 外部用户不需要与您的组织的虚拟专用网络（VPN）连接即可参与使用 Lync Server 2013 的通信。 如果您在组织中实施了 VPN 技术，并且您的用户使用的是 Lync 的 VPN，媒体流量（如视频会议）可能会受到负面影响。 应考虑为媒体通信提供直接连接到 AV 边缘服务的方法，并绕过 VPN。 有关详细信息，请参阅 NextHop 博客文章 "启用 Lync Media 绕过 VPN 隧道" <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>。
 
 
 

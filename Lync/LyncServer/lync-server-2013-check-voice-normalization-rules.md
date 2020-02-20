@@ -12,18 +12,18 @@ ms:contentKeyID: 63969649
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52820473a632598779aae9023967598b8ae27f89
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1cf48022fc62f959bbddcd3cb6978e2e668a9334
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045694"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="check-voice-normalization-rules-in-lync-server-2013"></a>在 Lync Server 2013 中检查语音规范化规则
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-05-20_
 
 <div>
 
-## <a name="description"></a>描述
+## <a name="description"></a>说明
 
 语音规范化规则用于将用户拨打的电话号码（例如，2065551219）转换为 Lync Server 使用的164格式（+ 12065551219）。 例如，如果用户习惯于拨打电话号码，而不包括国家/地区代码或区号（例如，5551219），则您必须有一个可以将该号码转换为. 164 格式的语音规范化规则： + 12065551219。 如果没有此类规则，则用户将无法调用555-1219。
 

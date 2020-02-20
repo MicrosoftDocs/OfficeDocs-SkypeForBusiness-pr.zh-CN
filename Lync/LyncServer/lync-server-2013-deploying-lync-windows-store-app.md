@@ -12,18 +12,18 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e2abe30cd464b223523df9d5fa878607404f7a3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d27f7a2402fabbc28080ca5efc2532497c93c653
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050664"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-windows-store-app-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Lync Windows 应用商店应用
 
@@ -37,7 +37,7 @@ ms.locfileid: "42050664"
 
 _**上次修改的主题：** 2013-12-03_
 
-在使 Lync Windows 应用商店应用程序可供用户使用之前，请确保您的部署满足[Lync Server 2013 的 Lync windows 应用商店应用要求](lync-server-2013-lync-windows-store-app-requirements.md)。 有关配置 Lync Server 2013 以支持 Lync Windows 应用商店应用的详细信息，请参阅 NextHop 博客文章： "Lync Server 自动发现和 Lync Windows 应用商店应用[http://go.microsoft.com/fwlink/?LinkId=271966](http://go.microsoft.com/fwlink/?linkid=271966)"，网址为。 正确配置服务器环境后，可以通过搜索 "Lync" 引导用户从 Windows 应用商店下载 Lync 应用。
+在使 Lync Windows 应用商店应用程序可供用户使用之前，请确保您的部署满足[Lync Server 2013 的 Lync windows 应用商店应用要求](lync-server-2013-lync-windows-store-app-requirements.md)。 有关配置 Lync Server 2013 以支持 Lync Windows 应用商店应用的详细信息，请参阅 NextHop 博客文章： "Lync Server 自动发现和 Lync Windows 应用商店应用[https://go.microsoft.com/fwlink/?LinkId=271966](https://go.microsoft.com/fwlink/?linkid=271966)"，网址为。 正确配置服务器环境后，可以通过搜索 "Lync" 引导用户从 Windows 应用商店下载 Lync 应用。
 
 <div>
 
@@ -66,9 +66,9 @@ Lync Server 2013 的累积更新：六月2013为 Lync Windows 应用商店应用
 
 **配置多重身份验证**
 
-1.  安装 AD FS 联合服务器角色。 有关详细信息，请参阅《 Active Directory 联合身份验证服务<http://go.microsoft.com/fwlink/p/?linkid=267511>2.0 部署指南》。
+1.  安装 AD FS 联合服务器角色。 有关详细信息，请参阅《 Active Directory 联合身份验证服务<https://go.microsoft.com/fwlink/p/?linkid=267511>2.0 部署指南》。
 
-2.  为 AD FS 创建证书。 有关详细信息，请参阅的规划和部署 AD FS 的 "联合服务器证书" 一节，其中的单一登录主题可供使用[http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)。
+2.  为 AD FS 创建证书。 有关详细信息，请参阅的规划和部署 AD FS 的 "联合服务器证书" 一节，其中的单一登录主题可供使用[https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)。
 
 3.  从 Windows PowerShell 命令行界面中，运行以下命令：
     ```powershell

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4508c9c499b0219f754bf9815063f4b1210b811
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a7a78c67b94084c59ebad63baa12c3a7aa3df2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029613"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-web-app-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Lync Web App
 
@@ -78,9 +78,9 @@ Lync Server 2013 版本的 Lync Web App 支持多重身份验证。 除了用户
 
 **配置多重身份验证**
 
-1.  安装 AD FS 联合服务器角色。 有关详细信息，请参阅 Active Directory 联合身份验证服务2.0 部署指南，网址为<http://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  安装 AD FS 联合服务器角色。 有关详细信息，请参阅 Active Directory 联合身份验证服务2.0 部署指南，网址为<https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  为 AD FS 创建证书。 有关详细信息，请参阅的规划和部署 AD FS 的 "联合服务器证书" 一节，其中的单一登录主题可供使用[http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)。
+2.  为 AD FS 创建证书。 有关详细信息，请参阅的规划和部署 AD FS 的 "联合服务器证书" 一节，其中的单一登录主题可供使用[https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376)。
 
 3.  从 Windows PowerShell 命令行界面中，运行以下命令：
     ```powershell
@@ -113,7 +113,7 @@ Lync Server 2013 版本的 Lync Web App 支持多重身份验证。 除了用户
 
 Windows 7 和 Windows Server 2008 R2 中的 BranchCache 功能可能会干扰 Lync Web App web 组件。 若要阻止 Lync Web App 用户的问题，请确保未启用 BranchCache。
 
-有关禁用 BranchCache 的详细信息，请参阅位于的 Windows Server 2008 R2 技术库中的 Microsoft 下载中心（ [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?linkid=268788)和 HTML 格式）中的 "BranchCache 部署指南" （以 Word 格式[http://go.microsoft.com/fwlink/p/?LinkId=268789](http://go.microsoft.com/fwlink/p/?linkid=268789)提供）。
+有关禁用 BranchCache 的详细信息，请参阅位于的 Windows Server 2008 R2 技术库中的 Microsoft 下载中心（ [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788)和 HTML 格式）中的 "BranchCache 部署指南" （以 Word 格式[https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)提供）。
 
 </div>
 

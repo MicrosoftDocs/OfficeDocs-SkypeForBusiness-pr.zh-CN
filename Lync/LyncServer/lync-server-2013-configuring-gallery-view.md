@@ -12,18 +12,18 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 096272a2347c400a81e6d4684873c5f5828136a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 02c13f2b1fa312394edfaba01ecd05179f86a0c9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030586"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151422"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-gallery-view-in-lync-server-2013"></a>在 Lync Server 2013 中配置库视图
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2012-10-30_
 
 在 Lync Server 2013 中，配置库在会议策略中查看视频会议。 默认情况下，库视图处于打开状态。 如果您不希望允许使用库视图，或希望仅允许部分用户使用，则需要使用会议策略关闭此功能。
 
-当会议参与者的视频不可用时，如果部署高分辨率照片（Lync Server 2013 中的一项新功能），则用户的库视图体验会得到增强。 高分辨率照片为存储在 Active Directory 域服务中的较小、有限的分辨率联系人照片提供了另一种替代方案。 高分辨率照片存储在用户的 Exchange 2013 邮箱中，因此，需要将 Lync Server 2013 与 Exchange 2013 集成。 有关详细信息，请参阅 NextHop 博客文章 "集成 Exchange 2013 和 Lync Server 2013" [http://go.microsoft.com/fwlink/p/?LinkId=260987](http://go.microsoft.com/fwlink/p/?linkid=260987)。
+当会议参与者的视频不可用时，如果部署高分辨率照片（Lync Server 2013 中的一项新功能），则用户的库视图体验会得到增强。 高分辨率照片为存储在 Active Directory 域服务中的较小、有限的分辨率联系人照片提供了另一种替代方案。 高分辨率照片存储在用户的 Exchange 2013 邮箱中，因此，需要将 Lync Server 2013 与 Exchange 2013 集成。 有关详细信息，请参阅 NextHop 博客文章 "集成 Exchange 2013 和 Lync Server 2013" [https://go.microsoft.com/fwlink/p/?LinkId=260987](https://go.microsoft.com/fwlink/p/?linkid=260987)。
 
 <div>
 

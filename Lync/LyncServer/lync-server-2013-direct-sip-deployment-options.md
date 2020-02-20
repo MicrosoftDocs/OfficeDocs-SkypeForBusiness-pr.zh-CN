@@ -12,18 +12,18 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4bbacbbb6f1a420e989f4bed02ba2fc0db6f85f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03d3d51c8323ab448951255ac9f7cf8d284896ba
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036622"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013 中的直接 SIP 部署选项
 
@@ -71,7 +71,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]  
-> 如果要将 Lync Server 部署连接到认证的直接 SIP 合作伙伴，则不需要在中介服务器和 PBX 之间建立公用交换电话网络（PSTN）网关。 有关认证的直接 SIP 合作伙伴的列表，请参阅 Microsoft 统一通信开放式互操作性计划<A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>网站，网址为。
+> 如果要将 Lync Server 部署连接到认证的直接 SIP 合作伙伴，则不需要在中介服务器和 PBX 之间建立公用交换电话网络（PSTN）网关。 有关认证的直接 SIP 合作伙伴的列表，请参阅 Microsoft 统一通信开放式互操作性计划<A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>网站，网址为。
 
 
 

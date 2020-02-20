@@ -12,18 +12,18 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38adc41aaffcccbb27d4c9105f0fecabcae3c21c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16af6d17c78cb16ccf306234c7416aa6d6a75de5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045114"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="the-media-quality-metrics-distribution-report-in-lync-server-2013"></a>Lync Server 2013 中的媒体质量指标分布报告
 
@@ -53,23 +53,23 @@ _**上次修改的主题：** 2012-06-06_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>第三章</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">

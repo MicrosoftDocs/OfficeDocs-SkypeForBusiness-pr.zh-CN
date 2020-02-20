@@ -12,18 +12,18 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32132faee3b52140d20a7f01e6a0bad0e88c620
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 443dcfc17849e34aa711f657726fed9c86fa566d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049604"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Lync Server 2013 混合环境概述
 
@@ -53,11 +53,11 @@ Lync Server 2013 混合环境指的是部署中有一些用户驻留在本地 Ly
 
 您需要安装以下应用程序和实用程序，才能完成配置混合部署的任务。 这些文件的安装程序位于针对您的部署提供的安装介质上，以及下表提供的链接中。
 
-  - [Active Directory 联合身份验证服务 (AD FS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=257305)
+  - [Active Directory 联合身份验证服务 (AD FS) 2.0](https://go.microsoft.com/fwlink/p/?linkid=257305)
 
-  - [Microsoft Directory 同步工具9。1](http://go.microsoft.com/fwlink/p/?linkid=257307)
+  - [Microsoft Directory 同步工具9。1](https://go.microsoft.com/fwlink/p/?linkid=257307)
 
-  - [安装 Windows PowerShell 以使用 AD FS 进行单一登录](http://go.microsoft.com/fwlink/p/?linkid=398710)
+  - [安装 Windows PowerShell 以使用 AD FS 进行单一登录](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
   - Microsoft Online Services 登录助手（msoidcli-7.0）包含在 Office 365 的桌面安装程序中，可从 Office 365 管理门户链接到的下载页面获取。
 
@@ -75,7 +75,7 @@ Lync Server 2013 混合环境指的是部署中有一些用户驻留在本地 Ly
 
 ## <a name="connecting-to-lync-online-powershell"></a>连接到 Lync Online PowerShell
 
-管理员现在能够使用 Windows PowerShell 管理 Lync Online 及其 Lync Online 用户帐户。 若要执行此操作，必须首先从 Microsoft 下载中心（http://go.microsoft.com/fwlink/?LinkId=294688)）下载并安装 Lync Online 连接器模块。 有关下载、安装和使用 Lync Online 连接器模块的详细信息，以及有关使用 Windows PowerShell 管理 Lync Online 的详细信息，请参阅[Using Windows powershell to Manage Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+管理员现在能够使用 Windows PowerShell 管理 Lync Online 及其 Lync Online 用户帐户。 若要执行此操作，必须首先从 Microsoft 下载中心（https://go.microsoft.com/fwlink/?LinkId=294688)）下载并安装 Lync Online 连接器模块。 有关下载、安装和使用 Lync Online 连接器模块的详细信息，以及有关使用 Windows PowerShell 管理 Lync Online 的详细信息，请参阅[Using Windows powershell to Manage Lync online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
 
 </div>
 
