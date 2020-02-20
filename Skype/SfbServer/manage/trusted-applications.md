@@ -10,83 +10,83 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 受信任的应用程序是基于 Microsoft 统一通信托管 API （UCMA） 3.0 Core SDK 受 Skype for Business Server 信任的应用程序。
-ms.openlocfilehash: b2a257ad197d573beccb187ef49e41b3864c1a58
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 受信任的应用程序是基于 Microsoft 统一通信托管 API （UCMA） 3.0 Core SDK （受 Skype for Business Server 信任）的应用程序。
+ms.openlocfilehash: c5c1a62440ebb98974cee5771c13cf0e5acc55c7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817073"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151222"
 ---
-# <a name="manage-trusted-applications-in-skype-for-business-server"></a><span data-ttu-id="4f573-103">在 Skype for Business 服务器中管理受信任的应用程序</span><span class="sxs-lookup"><span data-stu-id="4f573-103">Manage trusted applications in Skype for Business Server</span></span>
+# <a name="manage-trusted-applications-in-skype-for-business-server"></a><span data-ttu-id="98ca2-103">在 Skype for Business Server 中管理受信任的应用程序</span><span class="sxs-lookup"><span data-stu-id="98ca2-103">Manage trusted applications in Skype for Business Server</span></span>
 
-<span data-ttu-id="4f573-104">*受信任的应用程序*是基于 Microsoft 统一通信托管 API （UCMA） 3.0 Core SDK 受 Skype For business Server 信任的应用程序。</span><span class="sxs-lookup"><span data-stu-id="4f573-104">A *trusted application* is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Skype for Business Server.</span></span> <span data-ttu-id="4f573-105">有关 UCMA 应用程序的详细信息，请参阅 "统一通信托管 API 3.0 核心 SDK http://go.microsoft.com/fwlink/p/?linkId=210320文档"。</span><span class="sxs-lookup"><span data-stu-id="4f573-105">For details about UCMA applications, see “Unified Communications Managed API 3.0 Core SDK Documentation” at http://go.microsoft.com/fwlink/p/?linkId=210320.</span></span>
+<span data-ttu-id="98ca2-104">*受信任的应用程序*是基于 Microsoft 统一通信托管 API （UCMA） 3.0 Core SDK （受 Skype For business Server 信任）的应用程序。</span><span class="sxs-lookup"><span data-stu-id="98ca2-104">A *trusted application* is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Skype for Business Server.</span></span> <span data-ttu-id="98ca2-105">有关 UCMA 应用程序的详细信息，请参阅中的 "统一通信托管 API 3.0 https://go.microsoft.com/fwlink/p/?linkId=210320核心 SDK 文档"。</span><span class="sxs-lookup"><span data-stu-id="98ca2-105">For details about UCMA applications, see “Unified Communications Managed API 3.0 Core SDK Documentation” at https://go.microsoft.com/fwlink/p/?linkId=210320.</span></span>
 
-<span data-ttu-id="4f573-106">若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，您应以 RTCUniversalServerAdmins 和域管理员组成员的用户身份登录。</span><span class="sxs-lookup"><span data-stu-id="4f573-106">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged on as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups.</span></span> 
+<span data-ttu-id="98ca2-106">若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，应以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。</span><span class="sxs-lookup"><span data-stu-id="98ca2-106">To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged on as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups.</span></span> 
 
-<span data-ttu-id="4f573-107">使用本文了解如何配置新的受信任的应用程序服务器、查看受信任的应用程序列表以及查看受信任的应用程序信息。</span><span class="sxs-lookup"><span data-stu-id="4f573-107">Use this article to learn how to configure a new trusted application server, view a list of trusted applications, and view trusted application information.</span></span> 
+<span data-ttu-id="98ca2-107">使用此文章可了解如何配置新的受信任应用程序服务器、查看受信任的应用程序列表以及查看受信任的应用程序信息。</span><span class="sxs-lookup"><span data-stu-id="98ca2-107">Use this article to learn how to configure a new trusted application server, view a list of trusted applications, and view trusted application information.</span></span> 
 
-## <a name="configure-a-new-trusted-application-server"></a><span data-ttu-id="4f573-108">配置新的受信任的应用程序服务器</span><span class="sxs-lookup"><span data-stu-id="4f573-108">Configure a new trusted application server</span></span>
+## <a name="configure-a-new-trusted-application-server"></a><span data-ttu-id="98ca2-108">配置新的受信任应用程序服务器</span><span class="sxs-lookup"><span data-stu-id="98ca2-108">Configure a new trusted application server</span></span>
 
-1.  <span data-ttu-id="4f573-109">以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。</span><span class="sxs-lookup"><span data-stu-id="4f573-109">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="98ca2-109">以 Domain Admins 组和 RTCUniversalServerAdmins 组成员的身份登录安装了拓扑生成器的计算机。</span><span class="sxs-lookup"><span data-stu-id="98ca2-109">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="4f573-110">启动拓扑生成器：单击 "**开始**"，单击 "**所有程序**"，单击 "skype for business**服务器**"，然后单击 " **skype for business 服务器拓扑生成器**"。</span><span class="sxs-lookup"><span data-stu-id="4f573-110">Start Topology Builder: Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Topology Builder**.</span></span>
+2.  <span data-ttu-id="98ca2-110">启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **skype for business server**"，然后单击 " **skype for business server 拓扑生成器**"。</span><span class="sxs-lookup"><span data-stu-id="98ca2-110">Start Topology Builder: Click **Start**, click **All Programs**, click **Skype for Business Server**, and then click **Skype for Business Server Topology Builder**.</span></span>
 
-3.  <span data-ttu-id="4f573-111">选择 "**从现有部署下载拓扑**"，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="4f573-111">Select **Download topology from existing deployment**, and then click **OK**.</span></span>
+3.  <span data-ttu-id="98ca2-111">选择“从现有部署下载拓扑”\*\*\*\*，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="98ca2-111">Select **Download topology from existing deployment**, and then click **OK**.</span></span>
 
-4.  <span data-ttu-id="4f573-112">在 "**将拓扑另存为**" 对话框中，单击要使用的拓扑生成器文件，然后单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="4f573-112">In the **Save Topology As** dialog box, click the Topology Builder file you want to use, and then click **Save**.</span></span>
+4.  <span data-ttu-id="98ca2-112">在 "**将拓扑另存为**" 对话框中，单击要使用的拓扑生成器文件，然后单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="98ca2-112">In the **Save Topology As** dialog box, click the Topology Builder file you want to use, and then click **Save**.</span></span>
 
-5.  <span data-ttu-id="4f573-113">在左窗格中，右键单击 "**受信任的应用程序服务器**"，然后单击 "**新建受信任的应用程序池**"。</span><span class="sxs-lookup"><span data-stu-id="4f573-113">In the left pane, right-click **Trusted application servers**, and then click **New Trusted Application Pool**.</span></span>
+5.  <span data-ttu-id="98ca2-113">在左窗格中，右键单击 "**受信任的应用程序服务器**"，然后单击 "**新建受信任的应用程序池**"。</span><span class="sxs-lookup"><span data-stu-id="98ca2-113">In the left pane, right-click **Trusted application servers**, and then click **New Trusted Application Pool**.</span></span>
 
-6.  <span data-ttu-id="4f573-114">输入受信任的应用程序池的**池 FQDN** ，选择它是单服务器还是多服务器，然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="4f573-114">Enter the **Pool FQDN** of the trusted application pool, select whether it will be a single-server or multiple-server, and then click **Next**.</span></span>
+6.  <span data-ttu-id="98ca2-114">输入受信任应用程序池的“池 FQDN”\*\*\*\*，选择该池是单服务器池还是多服务器池，然后单击“下一步”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="98ca2-114">Enter the **Pool FQDN** of the trusted application pool, select whether it will be a single-server or multiple-server, and then click **Next**.</span></span>
 
-7.  <span data-ttu-id="4f573-115">在 "**选择下一个跃点**" 页面上，从列表中选择 "Skype For Business 服务器前端池"。</span><span class="sxs-lookup"><span data-stu-id="4f573-115">On the **Select the next hop** page, from the list, select the Skype for Business Server Front End pool.</span></span>
+7.  <span data-ttu-id="98ca2-115">在 "**选择下一个跃点**" 页上的列表中，选择 "Skype For Business Server 前端池"。</span><span class="sxs-lookup"><span data-stu-id="98ca2-115">On the **Select the next hop** page, from the list, select the Skype for Business Server Front End pool.</span></span>
 
-8.  <span data-ttu-id="4f573-116">单击“**完成**”。</span><span class="sxs-lookup"><span data-stu-id="4f573-116">Click **Finish**.</span></span>
+8.  <span data-ttu-id="98ca2-116">单击“完成”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="98ca2-116">Click **Finish**.</span></span>
 
-9.  <span data-ttu-id="4f573-117">选择顶部节点**Skype for Business 服务器**，然后从 "**操作**" 菜单中单击 "**发布拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="4f573-117">Select the top node **Skype for Business Server**, and then, from the **Actions** menu, click **Publish Topology**.</span></span>
+9.  <span data-ttu-id="98ca2-117">选择最上面的节点**Skype For Business Server**，然后从 "**操作**" 菜单中单击 "**发布拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="98ca2-117">Select the top node **Skype for Business Server**, and then, from the **Actions** menu, click **Publish Topology**.</span></span>
     
-    <span data-ttu-id="4f573-118">**受信任的应用程序池**应已成功创建并与正确的前端池关联。</span><span class="sxs-lookup"><span data-stu-id="4f573-118">The **Trusted Application Pool** should have been created successfully and associated with the correct Front End pool.</span></span>
+    <span data-ttu-id="98ca2-118">应成功创建**受信任的应用程序池**，并将其与正确的前端池关联。</span><span class="sxs-lookup"><span data-stu-id="98ca2-118">The **Trusted Application Pool** should have been created successfully and associated with the correct Front End pool.</span></span>
 
 
-## <a name="view-a-list-of-trusted-applications"></a><span data-ttu-id="4f573-119">查看受信任的应用程序列表</span><span class="sxs-lookup"><span data-stu-id="4f573-119">View a list of trusted applications</span></span>
+## <a name="view-a-list-of-trusted-applications"></a><span data-ttu-id="98ca2-119">查看受信任的应用程序列表</span><span class="sxs-lookup"><span data-stu-id="98ca2-119">View a list of trusted applications</span></span>
 
-<span data-ttu-id="4f573-120">您可以使用 Skype for Business 服务器控制面板查看您在 Skype for business 服务器环境中部署的受信任的应用程序的列表。</span><span class="sxs-lookup"><span data-stu-id="4f573-120">You can use the Skype for Business Server Control Panel to view a list of the trusted applications that you have deployed in your Skype for Business Server environment.</span></span> <span data-ttu-id="4f573-121">受信任的应用程序是基于 Microsoft 统一通信托管 API （UCMA） 3.0 Core SDK 受 Skype for Business Server 信任的应用程序。</span><span class="sxs-lookup"><span data-stu-id="4f573-121">A trusted application is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Skype for Business Server.</span></span> <span data-ttu-id="4f573-122">下表总结了此信任关系：</span><span class="sxs-lookup"><span data-stu-id="4f573-122">This trust relationship is summarized in the following list:</span></span>
+<span data-ttu-id="98ca2-120">您可以使用 Skype for Business Server 控制面板查看您在 Skype for business Server 环境中部署的受信任应用程序的列表。</span><span class="sxs-lookup"><span data-stu-id="98ca2-120">You can use the Skype for Business Server Control Panel to view a list of the trusted applications that you have deployed in your Skype for Business Server environment.</span></span> <span data-ttu-id="98ca2-121">受信任的应用程序是基于 Microsoft 统一通信托管 API （UCMA） 3.0 Core SDK （受 Skype for Business Server 信任）的应用程序。</span><span class="sxs-lookup"><span data-stu-id="98ca2-121">A trusted application is an application based on Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK that is trusted by Skype for Business Server.</span></span> <span data-ttu-id="98ca2-122">以下列表概述了此信任关系：</span><span class="sxs-lookup"><span data-stu-id="98ca2-122">This trust relationship is summarized in the following list:</span></span>
 
-  - <span data-ttu-id="4f573-123">受信任的应用程序不会受到 Skype for Business 服务器的身份验证的挑战。</span><span class="sxs-lookup"><span data-stu-id="4f573-123">Trusted applications are not challenged for authentication by Skype for Business Server.</span></span>
+  - <span data-ttu-id="98ca2-123">受信任的应用程序不会受到 Skype for Business Server 的身份验证的挑战。</span><span class="sxs-lookup"><span data-stu-id="98ca2-123">Trusted applications are not challenged for authentication by Skype for Business Server.</span></span>
 
-  - <span data-ttu-id="4f573-124">Skype for Business Server 不会阻止受信任的应用程序进行 SIP 交易、连接或通过 Internet 协议（VoIP）呼叫发出语音。</span><span class="sxs-lookup"><span data-stu-id="4f573-124">Trusted applications are not throttled by Skype for Business Server for SIP transactions, connections or outgoing Voice over Internet Protocol (VoIP) calls.</span></span>
+  - <span data-ttu-id="98ca2-124">Skype for Business Server 不会限制受信任的应用程序的 SIP 事务、连接或传出的 Internet 协议（VoIP）呼叫。</span><span class="sxs-lookup"><span data-stu-id="98ca2-124">Trusted applications are not throttled by Skype for Business Server for SIP transactions, connections or outgoing Voice over Internet Protocol (VoIP) calls.</span></span>
 
-  - <span data-ttu-id="4f573-125">受信任的应用程序可以模拟任何用户，并且可以加入会议，而无需出现在海报中。</span><span class="sxs-lookup"><span data-stu-id="4f573-125">Trusted applications can impersonate any user and can join conferences without appearing in rosters.</span></span>
+  - <span data-ttu-id="98ca2-125">受信任应用程序可模拟任何用户，并能在不出现在名单中的情况下参加会议。</span><span class="sxs-lookup"><span data-stu-id="98ca2-125">Trusted applications can impersonate any user and can join conferences without appearing in rosters.</span></span>
 
-  - <span data-ttu-id="4f573-126">受信任的应用程序高度可用且具有弹性。</span><span class="sxs-lookup"><span data-stu-id="4f573-126">Trusted applications are highly available and resilient.</span></span>
+  - <span data-ttu-id="98ca2-126">受信任应用程序具有高可用性和恢复能力。</span><span class="sxs-lookup"><span data-stu-id="98ca2-126">Trusted applications are highly available and resilient.</span></span>
 
-<span data-ttu-id="4f573-127">在 Skype for Business 服务器控制面板中，你可以看到应用程序的名称、运行的池以及它们使用的端口。</span><span class="sxs-lookup"><span data-stu-id="4f573-127">In the Skype for Business Server Control Panel, you can see the name of the applications, the pool where they run, and the port they use.</span></span>
-
-
-### <a name="to-view-a-list-of-trusted-applications"></a><span data-ttu-id="4f573-128">查看受信任的应用程序列表</span><span class="sxs-lookup"><span data-stu-id="4f573-128">To view a list of trusted applications</span></span>
-
-1.  <span data-ttu-id="4f573-129">使用分配给 CsServerAdministrator、CsAdministrator、CsHelpDesk 或 CsViewOnlyAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="4f573-129">From a user account that is assigned to the CsServerAdministrator, CsAdministrator, CsHelpDesk, or CsViewOnlyAdministrator role, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="4f573-130">有关 Skype for Business Server 中可用的预定义管理角色的详细信息，请参阅[基于角色的访问控制（RBAC）](../plan-your-deployment/security/role-based-access-control-rbac.md)。</span><span class="sxs-lookup"><span data-stu-id="4f573-130">For details about the predefined administrative roles available in Skype for Business Server, see [Role-based access control (RBAC)](../plan-your-deployment/security/role-based-access-control-rbac.md).</span></span>
-
-2.  <span data-ttu-id="4f573-131">打开一个浏览器窗口，然后输入管理员 URL 以打开 Skype for Business 服务器控制面板。</span><span class="sxs-lookup"><span data-stu-id="4f573-131">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
-
-3.  <span data-ttu-id="4f573-132">在左侧导航栏中，单击 "**拓扑**"，然后单击 "**受信任的应用程序**"。</span><span class="sxs-lookup"><span data-stu-id="4f573-132">In the left navigation bar, click **Topology**, and then click **Trusted Application**.</span></span>
-
-4.  <span data-ttu-id="4f573-133">如果需要，请在 "**受信任的应用程序**" 页面上，单击列标题以对应用程序进行排序。</span><span class="sxs-lookup"><span data-stu-id="4f573-133">On the **Trusted Application** page, click a column heading to sort the applications, if needed.</span></span>
+<span data-ttu-id="98ca2-127">在 Skype for Business Server 控制面板中，可以看到应用程序的名称、运行的池以及它们所使用的端口。</span><span class="sxs-lookup"><span data-stu-id="98ca2-127">In the Skype for Business Server Control Panel, you can see the name of the applications, the pool where they run, and the port they use.</span></span>
 
 
-## <a name="view-trusted-application-information"></a><span data-ttu-id="4f573-134">查看受信任的应用程序信息</span><span class="sxs-lookup"><span data-stu-id="4f573-134">View trusted application information</span></span>
+### <a name="to-view-a-list-of-trusted-applications"></a><span data-ttu-id="98ca2-128">查看受信任应用程序列表</span><span class="sxs-lookup"><span data-stu-id="98ca2-128">To view a list of trusted applications</span></span>
 
-<span data-ttu-id="4f573-135">你可以使用 Windows PowerShell 和**CsTrustedApplication** cmdlet 查看有关你的受信任的应用程序的信息。</span><span class="sxs-lookup"><span data-stu-id="4f573-135">You can view information about your trusted applications by using Windows PowerShell and the **Get-CsTrustedApplication** cmdlet.</span></span> <span data-ttu-id="4f573-136">此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。</span><span class="sxs-lookup"><span data-stu-id="4f573-136">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+1.  <span data-ttu-id="98ca2-129">从分配给 CsServerAdministrator、CsAdministrator、CsHelpDesk 或 CsViewOnlyAdministrator 角色的用户帐户中，登录到内部部署中的任何计算机。</span><span class="sxs-lookup"><span data-stu-id="98ca2-129">From a user account that is assigned to the CsServerAdministrator, CsAdministrator, CsHelpDesk, or CsViewOnlyAdministrator role, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="98ca2-130">有关 Skype for Business Server 中可用的预定义管理角色的详细信息，请参阅[基于角色的访问控制（RBAC）](../plan-your-deployment/security/role-based-access-control-rbac.md)。</span><span class="sxs-lookup"><span data-stu-id="98ca2-130">For details about the predefined administrative roles available in Skype for Business Server, see [Role-based access control (RBAC)](../plan-your-deployment/security/role-based-access-control-rbac.md).</span></span>
+
+2.  <span data-ttu-id="98ca2-131">打开浏览器窗口，然后输入管理员 URL 以打开 Skype for Business Server 控制面板。</span><span class="sxs-lookup"><span data-stu-id="98ca2-131">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
+
+3.  <span data-ttu-id="98ca2-132">在左侧导航栏中，单击 "**拓扑**"，然后单击 "**受信任的应用程序**"。</span><span class="sxs-lookup"><span data-stu-id="98ca2-132">In the left navigation bar, click **Topology**, and then click **Trusted Application**.</span></span>
+
+4.  <span data-ttu-id="98ca2-133">在“受信任应用程序”\*\*\*\* 页上，单击某个列标题对应用程序进行排序（如果需要）。</span><span class="sxs-lookup"><span data-stu-id="98ca2-133">On the **Trusted Application** page, click a column heading to sort the applications, if needed.</span></span>
 
 
-### <a name="to-view-trusted-applications"></a><span data-ttu-id="4f573-137">查看受信任的应用程序</span><span class="sxs-lookup"><span data-stu-id="4f573-137">To view trusted applications</span></span>
+## <a name="view-trusted-application-information"></a><span data-ttu-id="98ca2-134">查看受信任的应用程序信息</span><span class="sxs-lookup"><span data-stu-id="98ca2-134">View trusted application information</span></span>
 
-<span data-ttu-id="4f573-138">若要查看所有受信任的应用程序，请在 Skype for Business Server 命令行管理程序中键入以下命令，然后按 ENTER：</span><span class="sxs-lookup"><span data-stu-id="4f573-138">To view all of your trusted applications, type the following command in the Skype for Business Server Management Shell, and then press ENTER:</span></span>
+<span data-ttu-id="98ca2-135">您可以使用 Windows PowerShell 和**CsTrustedApplication** cmdlet 查看有关受信任的应用程序的信息。</span><span class="sxs-lookup"><span data-stu-id="98ca2-135">You can view information about your trusted applications by using Windows PowerShell and the **Get-CsTrustedApplication** cmdlet.</span></span> <span data-ttu-id="98ca2-136">此 cmdlet 可从 Skype for Business Server 命令行管理程序或从 Windows PowerShell 的远程会话中运行。</span><span class="sxs-lookup"><span data-stu-id="98ca2-136">This cmdlet can be run either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> 
+
+
+### <a name="to-view-trusted-applications"></a><span data-ttu-id="98ca2-137">查看受信任应用程序</span><span class="sxs-lookup"><span data-stu-id="98ca2-137">To view trusted applications</span></span>
+
+<span data-ttu-id="98ca2-138">若要查看所有受信任的应用程序，请在 Skype for Business Server 命令行管理程序中键入以下命令，然后按 ENTER：</span><span class="sxs-lookup"><span data-stu-id="98ca2-138">To view all of your trusted applications, type the following command in the Skype for Business Server Management Shell, and then press ENTER:</span></span>
     
         Get-CsConferenceDisclaimer
     
-   <span data-ttu-id="4f573-139">此命令针对每个受信任的应用程序返回类似于以下内容的信息：</span><span class="sxs-lookup"><span data-stu-id="4f573-139">This command returns information similar to the following for each trusted application:</span></span>
+   <span data-ttu-id="98ca2-139">此命令将为每个受信任应用程序返回类似于下面的信息：</span><span class="sxs-lookup"><span data-stu-id="98ca2-139">This command returns information similar to the following for each trusted application:</span></span>
     
         Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
                                  Service,CN=Services,CN=Configuration,DC=litware,DC=com
@@ -104,4 +104,4 @@ ms.locfileid: "41817073"
         ExUmEnabled            : False
         Enabled                : True
     
-   <span data-ttu-id="4f573-140">有关详细信息，请参阅[CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication)。</span><span class="sxs-lookup"><span data-stu-id="4f573-140">For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span></span>
+   <span data-ttu-id="98ca2-140">有关详细信息，请参阅 [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication)。</span><span class="sxs-lookup"><span data-stu-id="98ca2-140">For details, see [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).</span></span>
