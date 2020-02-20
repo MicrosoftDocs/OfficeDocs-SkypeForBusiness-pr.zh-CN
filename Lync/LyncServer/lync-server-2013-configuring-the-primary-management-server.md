@@ -12,18 +12,18 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6640e13209700d50aac04c43728175a4fcb4e6b4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 68fc10ba0457b0ad29f6f3850c1d7056d27fd24d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029995"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-the-primary-management-server-in-lync-server-2013"></a>在 Lync Server 2013 中配置主管理服务器
 
@@ -61,9 +61,9 @@ _**上次修改的主题：** 2014-03-19_
 
   - 数据仓库
 
-本文档将不会详细讨论这些组件及其安装。 有关 System Center Operations Manager 2007 R2 的详细信息，请参阅 Operations Manager 2007 R2 文档<http://go.microsoft.com/fwlink/p/?linkid=257526> （网址为）和 System Center operations manager <http://go.microsoft.com/fwlink/p/?linkid=257527>2012 文档（网址为）。 如果要将 SQL Server 2005 或 SQL Server 2008 Service Pack 1 用作后端数据库，则应遵循这些说明。
+本文档将不会详细讨论这些组件及其安装。 有关 System Center Operations Manager 2007 R2 的详细信息，请参阅 Operations Manager 2007 R2 文档<https://go.microsoft.com/fwlink/p/?linkid=257526> （网址为）和 System Center operations manager <https://go.microsoft.com/fwlink/p/?linkid=257527>2012 文档（网址为）。 如果要将 SQL Server 2005 或 SQL Server 2008 Service Pack 1 用作后端数据库，则应遵循这些说明。
 
-如果您使用的是 System Center Operations Manager 2012，则可以使用 SQL Server 2012 作为后端数据库。 有关 SQL Server 2012 的详细信息，请参阅联机丛书 for SQL Server [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)2012。
+如果您使用的是 System Center Operations Manager 2012，则可以使用 SQL Server 2012 作为后端数据库。 有关 SQL Server 2012 的详细信息，请参阅联机丛书 for SQL Server [https://go.microsoft.com/fwlink/p/?LinkId=257528](https://go.microsoft.com/fwlink/p/?linkid=257528)2012。
 
 请注意，每个 Lync Server 部署中只能有一个主管理服务器。 此外，虽然您可以使用 System Center Operations Manager 2012 或 System Center Operations Manager 2007 R2，但您不能同时运行这两个应用程序，您必须选择其中一个。 例如，如果您运行的是 System Center Operations Manager 2012，则所有 System Center agent 也必须运行 System Center Operations Manager 2012。 您不能有一些代理运行 System Center Operations Manager 2012 和其他运行 System Center Operations Manager 2007 R2 的代理。
 

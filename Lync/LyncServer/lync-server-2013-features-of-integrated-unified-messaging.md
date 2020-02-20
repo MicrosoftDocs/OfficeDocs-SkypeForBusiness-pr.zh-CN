@@ -12,18 +12,18 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c70df997e0ed42f77451287cccbae23ae93d14e6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 676335110ae5313958bc779b41cfe15065112930
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042786"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="features-of-integrated-unified-messaging-and-lync-server-2013"></a>集成统一消息和 Lync Server 2013 的功能
 
@@ -69,7 +69,7 @@ Lync Server 2013，企业语音使用 Exchange 统一消息（UM）基础结构�
 
 ## <a name="fax-services"></a>传真服务
 
-Exchange UM 包括传真功能，这些功能使用户能够在其 Exchange 邮箱中接收传入传真。 有关详细信息，请参阅 Microsoft Exchange Server 文档中的 "统一消息[http://go.microsoft.com/fwlink/p/?linkId=135652](http://go.microsoft.com/fwlink/p/?linkid=135652)"。
+Exchange UM 包括传真功能，这些功能使用户能够在其 Exchange 邮箱中接收传入传真。 有关详细信息，请参阅 Microsoft Exchange Server 文档中的 "统一消息[https://go.microsoft.com/fwlink/p/?linkId=135652](https://go.microsoft.com/fwlink/p/?linkid=135652)"。
 
 <div>
 

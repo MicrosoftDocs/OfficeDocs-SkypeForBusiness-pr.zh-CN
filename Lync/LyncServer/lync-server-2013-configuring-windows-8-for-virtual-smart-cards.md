@@ -12,18 +12,18 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb8fe9fb9bcca80e7e84f19bdc484dc693b1ee68
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 29fa0be32f5a2c2a0af0b63dadddda3038675adf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045744"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>为在 Lync Server 2013 中使用虚拟智能卡配置 Windows 8
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2013-07-03_
 
 部署双因素身份验证和智能卡技术时要考虑的一个因素是实施成本。 Windows 8 提供了许多新的安全功能，最感兴趣的新功能之一是支持虚拟智能卡。
 
-对于安装了符合规范版本1.2 的受信任的平台模块（TPM）芯片的计算机，组织现在可以获得智能卡登录的好处，而无需在硬件中进行任何额外的投资。 有关详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365)使用虚拟智能卡和 Windows 8。
+对于安装了符合规范版本1.2 的受信任的平台模块（TPM）芯片的计算机，组织现在可以获得智能卡登录的好处，而无需在硬件中进行任何额外的投资。 有关详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365)使用虚拟智能卡和 Windows 8。
 
 <div>
 

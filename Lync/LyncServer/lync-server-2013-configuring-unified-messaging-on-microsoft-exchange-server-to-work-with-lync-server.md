@@ -12,18 +12,18 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cbb859a3cd9f49791eb7b959a59c00c38db6336
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 25535ee2a2b6a1dfc0cc88202b84fb7e083428c1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41995967"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>在 Microsoft Exchange Server 上配置统一消息以使用 Lync Server 2013
 
@@ -82,7 +82,7 @@ _**上次修改的主题：** 2012-10-11_
 
 在开始之前，本节中的文档假定您已部署以下 Exchange 2013 角色：客户端访问和邮箱。 在 Microsoft Exchange Server 2013 中，Exchange UM 在这些服务器上作为一项服务运行。
 
-有关部署 Exchange 2013 的详细信息，请参阅位于的 Exchange 2013 TechNet 库[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
+有关部署 Exchange 2013 的详细信息，请参阅位于的 Exchange 2013 TechNet 库[https://go.microsoft.com/fwlink/p/?LinkId=266637](https://go.microsoft.com/fwlink/p/?linkid=266637)
 
 另外还需注意以下事项：
 

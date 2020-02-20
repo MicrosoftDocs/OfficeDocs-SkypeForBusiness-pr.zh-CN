@@ -12,18 +12,18 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5672619302e169db5e89281323eec4b5d8312c06
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e035c360d339b48157969c75a1702beff03da634
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030005"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-the-personal-contacts-store-on-client-computers-for-lync-server-2013"></a>在客户端计算机上为 Lync Server 2013 配置个人联系人存储
 
@@ -55,7 +55,7 @@ _**上次修改的主题：** 2014-02-05_
 
 6.  验证将 PersonalContactStoreOverride 的值设置为 0，然后关闭注册表编辑器。
 
-如果您要在多台计算机上执行相同的更改，则可以通过创建自定义组策略对象执行此操作。 有关详细信息，请参阅中的组[http://go.microsoft.com/fwlink/p/?LinkId=268543](http://go.microsoft.com/fwlink/p/?linkid=268543)策略文档。
+如果您要在多台计算机上执行相同的更改，则可以通过创建自定义组策略对象执行此操作。 有关详细信息，请参阅中的组[https://go.microsoft.com/fwlink/p/?LinkId=268543](https://go.microsoft.com/fwlink/p/?linkid=268543)策略文档。
 
 </div>
 

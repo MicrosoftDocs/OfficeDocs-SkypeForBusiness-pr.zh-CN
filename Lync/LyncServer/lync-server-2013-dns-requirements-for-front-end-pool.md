@@ -12,18 +12,18 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 078b8dc63e630487e13f1d187896bcf0617c0d15
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 882ffb0597b0dbd4f4be5b25a86facdda4367734
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051094"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 中的前端池的 DNS 要求
 
@@ -45,7 +45,7 @@ _**上次修改的主题：** 2012-11-07_
 
 
 > [!WARNING]  
-> Lync Server 2013 不支持单标签域。 例如，支持具有名为 <STRONG>contoso.local</STRONG> 的根域的林，但不支持名为 <STRONG>local</STRONG> 的根域。 有关详细信息，请参阅 Microsoft 知识库文章300684，"有关为带有单标签 DNS 名称的域配置 Windows 的信息" <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp，请参阅 http://go.microsoft.com/fwlink/?linkid=3052&kbid=823018 = 300684</A>。
+> Lync Server 2013 不支持单标签域。 例如，支持具有名为 <STRONG>contoso.local</STRONG> 的根域的林，但不支持名为 <STRONG>local</STRONG> 的根域。 有关详细信息，请参阅 Microsoft 知识库文章300684，"有关为带有单标签 DNS 名称的域配置 Windows 的信息" <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp，请参阅 http://go.microsoft.com/fwlink/?linkid=3052&kbid=823018 = 300684</A>。
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5257490dc63e1626c0cdb6dcf7e6ce1f17e75cd1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6c5ad73d11ae629ec0848539b2f4bac2bc81a43e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048316"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Lync Server 2013 中新的持久聊天服务器功能
 
@@ -53,7 +53,7 @@ Lync Server 2013、持久聊天服务器使您能够参与在一段时间内保�
 
 Lync Server 2013，持久聊天服务器在 Microsoft Office 365 中不可用。 目前，它仅适用于本地 Lync 2013 客户。
 
-在 Lync 2013 中，持久聊天功能集成到 Lync 2013 客户端中。 因此，用户可以访问 Lync 2013 客户端中的即时消息/状态、音频/视频、会议和持久聊天。 有关 Lync 2013 客户端的详细信息，请<http://go.microsoft.com/fwlink/p/?linkid=270877>参阅。
+在 Lync 2013 中，持久聊天功能集成到 Lync 2013 客户端中。 因此，用户可以访问 Lync 2013 客户端中的即时消息/状态、音频/视频、会议和持久聊天。 有关 Lync 2013 客户端的详细信息，请<https://go.microsoft.com/fwlink/p/?linkid=270877>参阅。
 
 本主题介绍了新版本的 Lync Server 2013、持久聊天服务器和早期版本（Microsoft Lync Server 2010、组聊天）之间的功能更改，包括：
 
@@ -67,7 +67,7 @@ Lync Server 2013，持久聊天服务器在 Microsoft Office 365 中不可用。
 
 有关持久聊天服务器的最新版本的其他详细信息，请参阅以下内容：
 
-  - 持续聊天帮助<http://go.microsoft.com/fwlink/p/?linkid=270945>提供了持久聊天功能的详细列表，以及它们的工作方式，以及如何在运行持久聊天服务器的情况下使用它们。
+  - 持续聊天帮助<https://go.microsoft.com/fwlink/p/?linkid=270945>提供了持久聊天功能的详细列表，以及它们的工作方式，以及如何在运行持久聊天服务器的情况下使用它们。
 
   - 在规划文档中[规划 Lync server 2013 中的持久聊天服务器](lync-server-2013-planning-for-persistent-chat-server.md)，在[lync Server 2013 中部署持久聊天服务器](lync-server-2013-deploying-persistent-chat-server.md)在部署文档中，[从 Lync server 2010、组聊天版或 Office 通信服务器迁移到 Lync Server 2013、持久聊天服务器在](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)迁移文档中2007以及在操作文档中[管理 lync server 2013、持久聊天服务器](managing-lync-server-2013-persistent-chat-server.md)，所有这些操作都提供了有关设置持久聊天服务器。
 

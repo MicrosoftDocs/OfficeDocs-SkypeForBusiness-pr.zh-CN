@@ -12,18 +12,18 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4adcd2cd6bebfb0797427d15819399c9b2b9f86d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e9f42d2467a77e35eb9f5a158967357534e86da
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036752"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Lync Server 2013 中的拨号计划和规范化规则
 
@@ -175,7 +175,7 @@ _**上次修改的主题：** 2012-09-21_
 
 规范化规则使用 .NET Framework 正则表达式指定数字匹配模式，服务器使用该模式将拨号串转换为 E.164 格式，以便执行反向号码查找。 可以在 Lync Server 控制面板中创建规范化规则，方法是手动输入表达式，或者输入起始数字和要匹配的拨号字符串的长度，让 Lync Server 控制面板生成相应的正则表达式。 无论采用何种方式，完成操作后，都可以输入一个测试号码来验证规范化规则能否按预期工作。
 
-有关使用 .NET Framework 正则表达式的详细信息，请参阅位于的[http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)".Net Framework 正则表达式"。
+有关使用 .NET Framework 正则表达式的详细信息，请参阅位于的[https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)".Net Framework 正则表达式"。
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab73f99c8b5818a68b232e2f2dd928f79d5ff094
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2cd18a5943332f8c612ba10b74317666d609d558
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050914"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中的持久聊天服务器概述
 
@@ -49,7 +49,7 @@ Lync Server 2013、持久聊天服务器使用户能够参与在一段时间内�
 
   - 扩大重要知识和信息的传播范围。 可以在对话中包含文档和链接，以供所有团队访问。 通过向更广泛的团队提问，用户可以从主题专家的答复中受益。 与其他信息系统的集成使重要的组织数据能够轻松地传递给大型组。
 
-若要在 Lync Server 2013 中启用聊天室，请部署 Lync Server 2013 持久聊天。 有关启用聊天室的信息，请参阅中的持久聊天帮助<http://go.microsoft.com/fwlink/p/?linkid=270945>。 如果为用户启用 Lync Server，并且已部署 Lync Server 支持，则用户可以安装和使用 Lync 2013 持久聊天以提供聊天室支持。
+若要在 Lync Server 2013 中启用聊天室，请部署 Lync Server 2013 持久聊天。 有关启用聊天室的信息，请参阅中的持久聊天帮助<https://go.microsoft.com/fwlink/p/?linkid=270945>。 如果为用户启用 Lync Server，并且已部署 Lync Server 支持，则用户可以安装和使用 Lync 2013 持久聊天以提供聊天室支持。
 
 如果你的组织需要遵守合规性管理法规，可以选择部署持久聊天合规性服务。
 

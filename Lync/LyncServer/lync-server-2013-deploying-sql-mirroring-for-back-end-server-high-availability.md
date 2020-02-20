@@ -12,18 +12,18 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0202b41c5da45513ccd4e08aa2ed054c3d20acbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 582de419e2c92ce5d158cb979147db5a94715322
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043724"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SQL 镜像以实现后端服务器高可用性
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043724"
 
 _**上次修改的主题：** 2014-01-08_
 
-为了能够部署 SQL 镜像，您的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主、镜像和见证。 有关详细信息， [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921)请参阅。
+为了能够部署 SQL 镜像，您的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主、镜像和见证。 有关详细信息， [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921)请参阅。
 
 通常，在两台具有见证的后端服务器之间设置 SQL 镜像需要满足以下条件：
 
@@ -47,19 +47,19 @@ _**上次修改的主题：** 2014-01-08_
 
   - 主和镜像必须具有同一版本的 SQL Server。见证可以具有不同版本。
 
-有关见证角色支持的 SQL 版本的 SQL 最佳实践，请参阅 MSDN Library 中的 "数据库镜像见证" [http://go.microsoft.com/fwlink/p/?LinkId=247345](http://go.microsoft.com/fwlink/p/?linkid=247345)。
+有关见证角色支持的 SQL 版本的 SQL 最佳实践，请参阅 MSDN Library 中的 "数据库镜像见证" [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345)。
 
 您可以使用拓扑生成器来部署 SQL 镜像。 您可以在拓扑生成器中选择一个选项来镜像数据库，拓扑生成器会在发布拓扑时设置镜像（包括设置见证）（如果需要）。 请注意，您在设置或删除镜像的同时将设置或删除见证。 没有用于仅部署或删除见证的单独命令。
 
-若要配置服务器镜像，您必须先正确设置 SQL 数据库权限。 有关详细信息，请参阅在上[http://go.microsoft.com/fwlink/p/?LinkId=268454](http://go.microsoft.com/fwlink/p/?linkid=268454)的 "设置数据库镜像或 AlwaysOn 可用性组的登录帐户（SQL Server）"。
+若要配置服务器镜像，您必须先正确设置 SQL 数据库权限。 有关详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454)的 "设置数据库镜像或 AlwaysOn 可用性组的登录帐户（SQL Server）"。
 
 对于 SQL 镜像，数据库恢复模式始终设置为“完全”****，这意味着您必须密切监控事务日志大小并定期备份事务日志以避免后端服务器上的磁盘空间不足。事务日志备份频率取决于日志增长速率，反过来，日志增长速率又取决于前端池上的用户活动所触发的数据库事务数。建议您确定您的 Lync 部署工作负载所需的事务日志增长程度，以便进行适当的规划。下列文章提供了有关 SQL 备份和日志管理的其他信息：
 
-  - 数据库恢复模型：处的 "恢复模式（SQL Server）"[http://go.microsoft.com/fwlink/p/?LinkId=268446](http://go.microsoft.com/fwlink/p/?linkid=268446)
+  - 数据库恢复模型：处的 "恢复模式（SQL Server）"[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - 备份概述： "备份概述（SQL Server）" 位置[http://go.microsoft.com/fwlink/p/?LinkId=268449](http://go.microsoft.com/fwlink/p/?linkid=268449)
+  - 备份概述： "备份概述（SQL Server）" 位置[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - 备份事务日志： "备份事务日志（SQL Server）" 位置[http://go.microsoft.com/fwlink/p/?LinkId=268452](http://go.microsoft.com/fwlink/p/?linkid=268452)
+  - 备份事务日志： "备份事务日志（SQL Server）" 位置[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 对于 SQL 镜像，可在创建池时或之后为镜像配置拓扑。
 
@@ -151,9 +151,9 @@ _**上次修改的主题：** 2014-01-08_
 
   - 已为同一服务器上的其他应用程序分配的任何端口（包括用于其他 SQL 实例的端口）均不应用于当前安装的 SQL 实例。这意味着，如果在同一服务器上安装了多个 SQL 实例，它们不能将同一端口用于镜像。有关详细信息，请参阅以下文章：
     
-      - "MSDN Library 中的" 指定服务器网络地址（数据库镜像） "[http://go.microsoft.com/fwlink/p/?LinkId=247346](http://go.microsoft.com/fwlink/p/?linkid=247346)
+      - "MSDN Library 中的" 指定服务器网络地址（数据库镜像） "[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - "数据库镜像终结点（SQL Server）" 位置[http://go.microsoft.com/fwlink/p/?LinkId=247347](http://go.microsoft.com/fwlink/p/?linkid=247347)
+      - "数据库镜像终结点（SQL Server）" 位置[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 
@@ -321,7 +321,7 @@ _**上次修改的主题：** 2014-01-08_
     
     但是，不要执行此步骤，也不要像那样键入`Uninstall-CsMirrorDatabase`卸载整个镜像配置。
 
-4.  若要仅从 SQL Server 配置中删除见证，请按照 "从数据库镜像会话中删除见证（SQL Server）" 中的说明进行[http://go.microsoft.com/fwlink/p/?LinkId=268456](http://go.microsoft.com/fwlink/p/?linkid=268456)操作。
+4.  若要仅从 SQL Server 配置中删除见证，请按照 "从数据库镜像会话中删除见证（SQL Server）" 中的说明进行[https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456)操作。
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 349a4b2609f3b810d0aa64c9e71786f309f21918
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2dcb2b1fdc41d1d4dd9a047eceaba8bcbc2c3ea
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045284"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a>在 Lync Server 2013 中安装适用于 Windows Phone 的 Lync
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2014-02-03_
 
 ## <a name="installing-lync-for-windows-mobile"></a>安装 Lync for Windows Mobile
 
-您可以指示用户通过将 Lync 2013 for Windows Phone 安装在其设备上，具体方法是将其定向到<http://go.microsoft.com/fwlink/p/?linkid=231901>Windows phone Marketplace。
+您可以指示用户通过将 Lync 2013 for Windows Phone 安装在其设备上，具体方法是将其定向到<https://go.microsoft.com/fwlink/p/?linkid=231901>Windows phone Marketplace。
 
 </div>
 
@@ -51,7 +51,7 @@ _**上次修改的主题：** 2014-02-03_
 
 ## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>如果使用 DNS SRV 记录发布 Exchange Web 服务
 
-若要为 Lync 客户端启用 Exchange 集成，某些组织会使用 DNS SRV 记录发布 Exchange Web 服务 URL。 Microsoft 下载中心[http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)中的 "了解和疑难解答 Exchange 集成" 文档介绍了可能需要此功能的情况。 但是，由于 Windows Phone 平台不支持 SRV 查找，因此 Windows Phone 用户的 Exchange 集成将无法在这种情况下运行。 你将需要指示 Windows Phone 用户指定 Exchange Web 服务 URL，而不是允许电话自动检测服务器。
+若要为 Lync 客户端启用 Exchange 集成，某些组织会使用 DNS SRV 记录发布 Exchange Web 服务 URL。 Microsoft 下载中心[https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095)中的 "了解和疑难解答 Exchange 集成" 文档介绍了可能需要此功能的情况。 但是，由于 Windows Phone 平台不支持 SRV 查找，因此 Windows Phone 用户的 Exchange 集成将无法在这种情况下运行。 你将需要指示 Windows Phone 用户指定 Exchange Web 服务 URL，而不是允许电话自动检测服务器。
 
 指导用户在其 Windows phone 上配置 Lync 设置，如下所示：
 

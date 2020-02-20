@@ -12,18 +12,18 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c42b5541fb28646e4c01d9d070b67f6fe103234
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 739e440765feb07d70b7f5a8d1490a85a938701d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034994"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>为 Lync 会议室系统管理 Web 门户配置 Lync Server 2013 环境
 
@@ -51,7 +51,7 @@ _**上次修改的主题：** 2014-05-22_
 
 1.  Install Lync Server 2013 累积更新： Lync Server 拓扑中的7月2013。
     
-    若要获取更新或查看它所包含的内容，请参阅[Lync Server 2013 更新](http://go.microsoft.com/fwlink/p/?linkid=323959)。
+    若要获取更新或查看它所包含的内容，请参阅[Lync Server 2013 更新](https://go.microsoft.com/fwlink/p/?linkid=323959)。
 
 2.  创建启用了 SIP 的 Active Directory 用户。
     
@@ -83,7 +83,7 @@ _**上次修改的主题：** 2014-05-22_
     
      
 
-7.  安装 ASP.NET MVC 4 for Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 （可从 Microsoft 下载中心处[http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)获取）。
+7.  安装 ASP.NET MVC 4 for Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 （可从 Microsoft 下载中心处[https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967)获取）。
 
 </div>
 

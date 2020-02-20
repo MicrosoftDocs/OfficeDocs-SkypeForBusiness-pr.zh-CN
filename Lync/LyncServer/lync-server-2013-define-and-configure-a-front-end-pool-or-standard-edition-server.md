@@ -12,18 +12,18 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f35c49ab232bd69184191ab841431e6c80eca20a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 52b7e4fcbcce1c297036e7b1e2862e680c4d86cf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036472"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中定义和配置前端池或 Standard Edition 服务器
 
@@ -56,23 +56,23 @@ _**上次修改的主题：** 2013-03-08_
 <tbody>
 <tr class="odd">
 <td><p>1-2</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>
-<td><p>2 </p></td>
+<td><p>双面</p></td>
 </tr>
 <tr class="odd">
 <td><p>5-6</p></td>
-<td><p>3 </p></td>
+<td><p>第三章</p></td>
 </tr>
 <tr class="even">
 <td><p>7-8</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="odd">
 <td><p>9-10</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 </tr>
 <tr class="even">
 <td><p>11-12</p></td>
