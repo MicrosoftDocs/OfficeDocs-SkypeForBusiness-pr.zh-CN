@@ -12,16 +12,16 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: caff54dd2919bacfda02fceff138650f90bae650
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42139153"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -103,7 +103,7 @@ CQM 中的第一步是运行两周的每个趋势查询，然后分析结果。 
 
 ## <a name="pcd"></a>PCD
 
-PreCall 诊断工具（PCD）可帮助您识别和诊断外围网络中的问题（QoE 数据库不会收集边缘或外围网络上的信息），还可用于排除最后英里中的连接故障。 该工具可作为 Windows 8 新式应用或 Windows 桌面应用程序http://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88。
+PreCall 诊断工具（PCD）可帮助您识别和诊断外围网络中的问题（QoE 数据库不会收集边缘或外围网络上的信息），还可用于排除最后英里中的连接故障。 该工具可作为 Windows 8 新式应用或 Windows 桌面应用程序https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88。
 
 </div>
 

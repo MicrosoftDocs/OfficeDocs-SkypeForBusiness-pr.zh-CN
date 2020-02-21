@@ -12,16 +12,16 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 046e29fcec697a1ac073833e6b73c7bfe15fb8ba
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 496d1c5e420ab20787d526f1a9fa93070e9eafb1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147385"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -2008,7 +2008,7 @@ Sysprep.inf 是一个 Windows PowerShell 脚本，它将在 Windows Server 2008 
 <tbody>
 <tr class="odd">
 <td><p>Microsoft .Net Framework 4。5</p></td>
-<td><p>http://go.microsoft.com/?linkid=9816306</p></td>
+<td><p>https://go.microsoft.com/?linkid=9816306</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft SQL Server Express 2008 R2</p></td>

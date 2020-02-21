@@ -19,18 +19,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f58815ad2f722b0409b22e05a71adc65a8772e1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045014"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205403"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Teams 升级规划研讨会</h1>
            <p>作为重要的 Skype for Business 客户，我们希望确保你在导航到 Teams 时拥有所需的一切。 加入我们，参加一系列实时、互动升级规划研讨会，我们将分享指导、最佳实践和资源，帮助你规划和实施升级到 Teams。 为获得最佳体验，请从下面的“<strong>规划升级</strong>”会话开始。
-            <p>不熟悉 Teams？ 在<a href="http://docs.microsoft.com/microsoftteams/teams-overview">此处</a>了解详细信息。
+            <p>不熟悉 Teams？ 在<a href="https://docs.microsoft.com/microsoftteams/teams-overview">此处</a>了解详细信息。
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
