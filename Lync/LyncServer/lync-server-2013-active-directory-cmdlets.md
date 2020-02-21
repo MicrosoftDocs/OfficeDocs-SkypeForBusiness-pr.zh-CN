@@ -12,20 +12,20 @@ ms:contentKeyID: 48183769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14e09293ac79aa4913c3a10427817b5fe1137df1
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d287ad680ff5956a27f7426c3fe7b2f177fbfa62
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135599"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191295"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-cmdlets-in-lync-server-2013"></a><span data-ttu-id="ad69c-102">Lync Server 2013 中的 Active Directory cmdlet</span><span class="sxs-lookup"><span data-stu-id="ad69c-102">Active Directory cmdlets in Lync Server 2013</span></span>
+# <a name="active-directory-cmdlets-in-lync-server-2013"></a><span data-ttu-id="2643a-102">Lync Server 2013 中的 Active Directory cmdlet</span><span class="sxs-lookup"><span data-stu-id="2643a-102">Active Directory cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,54 +35,54 @@ ms.locfileid: "42135599"
 
 <span> </span>
 
-<span data-ttu-id="ad69c-103">_**上次修改的主题：** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="ad69c-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="2643a-103">_**上次修改的主题：** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="2643a-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="ad69c-104">Active Directory cmdlet 通常由安装程序使用，且很少由管理员直接调用。</span><span class="sxs-lookup"><span data-stu-id="ad69c-104">The Active Directory cmdlets are typically used by Setup, and will rarely be called directly by an administrator.</span></span> <span data-ttu-id="ad69c-105">但是，管理员可以使用这些 cmdlet 为 Microsoft Lync Server 2013 准备（或 unprepare）域或林，并安装所需的 Active Directory 架构文件。</span><span class="sxs-lookup"><span data-stu-id="ad69c-105">However, administrators can use these cmdlets to prepare (or unprepare) a domain or forest for Microsoft Lync Server 2013, and to install the required Active Directory schema files.</span></span>
+<span data-ttu-id="2643a-104">Active Directory cmdlet 通常由安装程序使用，且很少由管理员直接调用。</span><span class="sxs-lookup"><span data-stu-id="2643a-104">The Active Directory cmdlets are typically used by Setup, and will rarely be called directly by an administrator.</span></span> <span data-ttu-id="2643a-105">但是，管理员可以使用这些 cmdlet 为 Microsoft Lync Server 2013 准备（或 unprepare）域或林，并安装所需的 Active Directory 架构文件。</span><span class="sxs-lookup"><span data-stu-id="2643a-105">However, administrators can use these cmdlets to prepare (or unprepare) a domain or forest for Microsoft Lync Server 2013, and to install the required Active Directory schema files.</span></span>
 
 <div>
 
-## <a name="active-directory-cmdlets"></a><span data-ttu-id="ad69c-106">Active Directory Cmdlet</span><span class="sxs-lookup"><span data-stu-id="ad69c-106">Active Directory Cmdlets</span></span>
+## <a name="active-directory-cmdlets"></a><span data-ttu-id="2643a-106">Active Directory Cmdlet</span><span class="sxs-lookup"><span data-stu-id="2643a-106">Active Directory Cmdlets</span></span>
 
-<span data-ttu-id="ad69c-107">以下是与管理 Lync Server 2013 Active Directory 设置直接相关的 cmdlet 的列表：</span><span class="sxs-lookup"><span data-stu-id="ad69c-107">The following is a list of cmdlets that relate directly to managing Lync Server 2013 Active Directory settings:</span></span>
+<span data-ttu-id="2643a-107">以下是与管理 Lync Server 2013 Active Directory 设置直接相关的 cmdlet 的列表：</span><span class="sxs-lookup"><span data-stu-id="2643a-107">The following is a list of cmdlets that relate directly to managing Lync Server 2013 Active Directory settings:</span></span>
 
-<span data-ttu-id="ad69c-108">**Active Directory**</span><span class="sxs-lookup"><span data-stu-id="ad69c-108">**Active Directory**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="ad69c-109">[Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ad69c-109">[Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))</span></span>
+<span data-ttu-id="2643a-108">**Active Directory**</span><span class="sxs-lookup"><span data-stu-id="2643a-108">**Active Directory**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ad69c-110">[Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ad69c-110">[Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))</span></span>
+    <span data-ttu-id="2643a-109">[Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2643a-109">[Disable-CsAdDomain](https://technet.microsoft.com/library/Gg398785(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ad69c-111">[CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ad69c-111">[Get-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))</span></span>
+    <span data-ttu-id="2643a-110">[Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2643a-110">[Enable-CsAdDomain](https://technet.microsoft.com/library/Gg412764(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="2643a-111">[CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2643a-111">[Get-CsAdDomain](https://technet.microsoft.com/library/Gg398453(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="ad69c-112">[Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ad69c-112">[Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))</span></span>
+    <span data-ttu-id="2643a-112">[Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2643a-112">[Disable-CsAdForest](https://technet.microsoft.com/library/Gg398122(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ad69c-113">[Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ad69c-113">[Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))</span></span>
+    <span data-ttu-id="2643a-113">[Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2643a-113">[Enable-CsAdForest](https://technet.microsoft.com/library/Gg425713(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ad69c-114">[CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ad69c-114">[Get-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))</span></span>
+    <span data-ttu-id="2643a-114">[CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2643a-114">[Get-CsAdForest](https://technet.microsoft.com/library/Gg412995(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="ad69c-115">[CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ad69c-115">[Get-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))</span></span>
+    <span data-ttu-id="2643a-115">[CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2643a-115">[Get-CsAdServerSchema](https://technet.microsoft.com/library/Gg413070(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="ad69c-116">[Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="ad69c-116">[Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))</span></span>
+    <span data-ttu-id="2643a-116">[Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="2643a-116">[Install-CsAdServerSchema](https://technet.microsoft.com/library/Gg398681(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ad69c-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ad69c-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2643a-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2643a-117">See Also</span></span>
 
 
-[<span data-ttu-id="ad69c-118">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="ad69c-118">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="2643a-118">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="2643a-118">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

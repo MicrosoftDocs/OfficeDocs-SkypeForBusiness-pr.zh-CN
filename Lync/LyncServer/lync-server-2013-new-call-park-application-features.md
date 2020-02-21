@@ -12,20 +12,20 @@ ms:contentKeyID: 48185277
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55b1c93831638f72f3763e4b7c2e12bde0b87ef3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d0ac19a140434203b1fbf685b974023fb30a8c51
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42127125"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-call-park-application-features-in-lync-server-2013"></a><span data-ttu-id="cce28-102">Lync Server 2013 中的新呼叫寄存应用程序功能</span><span class="sxs-lookup"><span data-stu-id="cce28-102">New Call Park application features in Lync Server 2013</span></span>
+# <a name="new-call-park-application-features-in-lync-server-2013"></a><span data-ttu-id="2cbca-102">Lync Server 2013 中的新呼叫寄存应用程序功能</span><span class="sxs-lookup"><span data-stu-id="2cbca-102">New Call Park application features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "42127125"
 
 <span> </span>
 
-<span data-ttu-id="cce28-103">_**上次修改的主题：** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="cce28-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="2cbca-103">_**上次修改的主题：** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="2cbca-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="cce28-104">呼叫寄存应用程序使企业语音用户可以将呼叫置于保持状态，然后在以后从任何电话检索呼叫。</span><span class="sxs-lookup"><span data-stu-id="cce28-104">The Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="cce28-105">停用呼叫的用户可以拨打呼叫寄存提供的通道号码以检索寄存的呼叫，或使用外部机制（如即时消息（IM）或寻呼系统）来请求其他人检索呼叫。</span><span class="sxs-lookup"><span data-stu-id="cce28-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging (IM) or a paging system, to ask someone else to retrieve the call.</span></span>
+<span data-ttu-id="2cbca-104">呼叫寄存应用程序使企业语音用户可以将呼叫置于保持状态，然后在以后从任何电话检索呼叫。</span><span class="sxs-lookup"><span data-stu-id="2cbca-104">The Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="2cbca-105">停用呼叫的用户可以拨打呼叫寄存提供的通道号码以检索寄存的呼叫，或使用外部机制（如即时消息（IM）或寻呼系统）来请求其他人检索呼叫。</span><span class="sxs-lookup"><span data-stu-id="2cbca-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging (IM) or a paging system, to ask someone else to retrieve the call.</span></span>
 
-<span data-ttu-id="cce28-106">Lync Server 2013 以故障转移和故障回复进程的形式提供了新的灾难恢复机制。</span><span class="sxs-lookup"><span data-stu-id="cce28-106">Lync Server 2013 provides new disaster recovery mechanisms in the form of failover and failback processes.</span></span> <span data-ttu-id="cce28-107">这些故障转移和故障回复进程通过允许驻留在主池中的用户在主池中发生中断时利用备份池的呼叫寄存应用程序，来支持呼叫寄存功能的恢复。</span><span class="sxs-lookup"><span data-stu-id="cce28-107">These failover and failback processes support recovery of Call Park functionality by allowing users who are homed in the primary pool to leverage the Call Park application of the backup pool when an outage occurs in the primary pool.</span></span> <span data-ttu-id="cce28-108">对呼叫寄存应用程序的灾难恢复的支持作为成对前端池的配置和部署的一部分进行启用。</span><span class="sxs-lookup"><span data-stu-id="cce28-108">Support for disaster recovery of the Call Park application is enabled as part of the configuration and deployment of paired Front End pools.</span></span>
+<span data-ttu-id="2cbca-106">Lync Server 2013 以故障转移和故障回复进程的形式提供了新的灾难恢复机制。</span><span class="sxs-lookup"><span data-stu-id="2cbca-106">Lync Server 2013 provides new disaster recovery mechanisms in the form of failover and failback processes.</span></span> <span data-ttu-id="2cbca-107">这些故障转移和故障回复进程通过允许驻留在主池中的用户在主池中发生中断时利用备份池的呼叫寄存应用程序，来支持呼叫寄存功能的恢复。</span><span class="sxs-lookup"><span data-stu-id="2cbca-107">These failover and failback processes support recovery of Call Park functionality by allowing users who are homed in the primary pool to leverage the Call Park application of the backup pool when an outage occurs in the primary pool.</span></span> <span data-ttu-id="2cbca-108">对呼叫寄存应用程序的灾难恢复的支持作为成对前端池的配置和部署的一部分进行启用。</span><span class="sxs-lookup"><span data-stu-id="2cbca-108">Support for disaster recovery of the Call Park application is enabled as part of the configuration and deployment of paired Front End pools.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cce28-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cce28-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2cbca-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2cbca-109">See Also</span></span>
 
 
-[<span data-ttu-id="cce28-110">在 Lync Server 2013 中规划呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="cce28-110">Planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park.md)  
+[<span data-ttu-id="2cbca-110">在 Lync Server 2013 中规划呼叫寄存</span><span class="sxs-lookup"><span data-stu-id="2cbca-110">Planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park.md)  
   
 
 </div>

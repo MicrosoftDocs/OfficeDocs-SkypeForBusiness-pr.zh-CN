@@ -12,20 +12,20 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cded0c566e5bbef0703227b71699f02b73145cd
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6d6ce43adee4c00a945325cf31c4194816e7ee14
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42145140"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42190297"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a><span data-ttu-id="ddc7f-102">Lync Server 2013 中的 ConferenceJoinTimeThresholds 表</span><span class="sxs-lookup"><span data-stu-id="ddc7f-102">ConferenceJoinTimeThresholds table in Lync Server 2013</span></span>
+# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a><span data-ttu-id="d9dbe-102">Lync Server 2013 中的 ConferenceJoinTimeThresholds 表</span><span class="sxs-lookup"><span data-stu-id="d9dbe-102">ConferenceJoinTimeThresholds table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42145140"
 
 <span> </span>
 
-<span data-ttu-id="ddc7f-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="ddc7f-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="d9dbe-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="d9dbe-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="ddc7f-p101">ConferenceJoinTimeThresholds 表包含会议加入时间摘要报告使用的分类边界。会议加入时间摘要报告总结了用户成功加入会议所需的时间；这些时间值都报告为一个平均值，且采用以下类别之一：</span><span class="sxs-lookup"><span data-stu-id="ddc7f-p101">The ConferenceJoinTimeThresholds table contains the classification boundaries used by the Conference Join Time Summary Report. The Conference Join Time Summary Report summarizes the amount time required for users to successfully join a conference; these time values are reported both as an average and in one of the following categories:</span></span>
+<span data-ttu-id="d9dbe-p101">ConferenceJoinTimeThresholds 表包含会议加入时间摘要报告使用的分类边界。会议加入时间摘要报告总结了用户成功加入会议所需的时间；这些时间值都报告为一个平均值，且采用以下类别之一：</span><span class="sxs-lookup"><span data-stu-id="d9dbe-p101">The ConferenceJoinTimeThresholds table contains the classification boundaries used by the Conference Join Time Summary Report. The Conference Join Time Summary Report summarizes the amount time required for users to successfully join a conference; these time values are reported both as an average and in one of the following categories:</span></span>
 
-  - <span data-ttu-id="ddc7f-106">少于 2 秒。</span><span class="sxs-lookup"><span data-stu-id="ddc7f-106">Less than 2 seconds.</span></span>
+  - <span data-ttu-id="d9dbe-106">少于 2 秒。</span><span class="sxs-lookup"><span data-stu-id="d9dbe-106">Less than 2 seconds.</span></span>
 
-  - <span data-ttu-id="ddc7f-107">2 秒到 5 秒之间。</span><span class="sxs-lookup"><span data-stu-id="ddc7f-107">Between 2 second and 5 seconds.</span></span>
+  - <span data-ttu-id="d9dbe-107">2 秒到 5 秒之间。</span><span class="sxs-lookup"><span data-stu-id="d9dbe-107">Between 2 second and 5 seconds.</span></span>
 
-  - <span data-ttu-id="ddc7f-108">5 秒到 10 秒之间。</span><span class="sxs-lookup"><span data-stu-id="ddc7f-108">Between 5 seconds and 10 seconds.</span></span>
+  - <span data-ttu-id="d9dbe-108">5 秒到 10 秒之间。</span><span class="sxs-lookup"><span data-stu-id="d9dbe-108">Between 5 seconds and 10 seconds.</span></span>
 
-  - <span data-ttu-id="ddc7f-109">长于 10 秒。</span><span class="sxs-lookup"><span data-stu-id="ddc7f-109">More than 10 seconds.</span></span>
+  - <span data-ttu-id="d9dbe-109">长于 10 秒。</span><span class="sxs-lookup"><span data-stu-id="d9dbe-109">More than 10 seconds.</span></span>
 
-<span data-ttu-id="ddc7f-110">ConferenceJoinTimeThresholds 表包含分类值 2 秒、5 秒和 10 秒。</span><span class="sxs-lookup"><span data-stu-id="ddc7f-110">The ConferenceJoinTimeThresholds table contains the classification values 2 seconds, 5 seconds, and 10 seconds.</span></span>
+<span data-ttu-id="d9dbe-110">ConferenceJoinTimeThresholds 表包含分类值 2 秒、5 秒和 10 秒。</span><span class="sxs-lookup"><span data-stu-id="d9dbe-110">The ConferenceJoinTimeThresholds table contains the classification values 2 seconds, 5 seconds, and 10 seconds.</span></span>
 
-<span data-ttu-id="ddc7f-111">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="ddc7f-111">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="d9dbe-111">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="d9dbe-111">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -61,28 +61,28 @@ ms.locfileid: "42145140"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="ddc7f-112">列</span><span class="sxs-lookup"><span data-stu-id="ddc7f-112">Column</span></span></th>
-<th><span data-ttu-id="ddc7f-113">数据类型</span><span class="sxs-lookup"><span data-stu-id="ddc7f-113">Data Type</span></span></th>
-<th><span data-ttu-id="ddc7f-114">键/索引</span><span class="sxs-lookup"><span data-stu-id="ddc7f-114">Key/Index</span></span></th>
-<th><span data-ttu-id="ddc7f-115">详细信息</span><span class="sxs-lookup"><span data-stu-id="ddc7f-115">Details</span></span></th>
+<th><span data-ttu-id="d9dbe-112">列</span><span class="sxs-lookup"><span data-stu-id="d9dbe-112">Column</span></span></th>
+<th><span data-ttu-id="d9dbe-113">数据类型</span><span class="sxs-lookup"><span data-stu-id="d9dbe-113">Data Type</span></span></th>
+<th><span data-ttu-id="d9dbe-114">键/索引</span><span class="sxs-lookup"><span data-stu-id="d9dbe-114">Key/Index</span></span></th>
+<th><span data-ttu-id="d9dbe-115">详细信息</span><span class="sxs-lookup"><span data-stu-id="d9dbe-115">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ddc7f-116"><strong>ThresholdId</strong></span><span class="sxs-lookup"><span data-stu-id="ddc7f-116"><strong>ThresholdId</strong></span></span></p></td>
-<td><p><span data-ttu-id="ddc7f-117">int</span><span class="sxs-lookup"><span data-stu-id="ddc7f-117">int</span></span></p></td>
-<td><p><span data-ttu-id="ddc7f-118">主</span><span class="sxs-lookup"><span data-stu-id="ddc7f-118">Primary</span></span></p></td>
-<td><p><span data-ttu-id="ddc7f-119">分类的唯一标识符。</span><span class="sxs-lookup"><span data-stu-id="ddc7f-119">Unique identifier for the classification.</span></span></p></td>
+<td><p><span data-ttu-id="d9dbe-116"><strong>ThresholdId</strong></span><span class="sxs-lookup"><span data-stu-id="d9dbe-116"><strong>ThresholdId</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9dbe-117">int</span><span class="sxs-lookup"><span data-stu-id="d9dbe-117">int</span></span></p></td>
+<td><p><span data-ttu-id="d9dbe-118">主</span><span class="sxs-lookup"><span data-stu-id="d9dbe-118">Primary</span></span></p></td>
+<td><p><span data-ttu-id="d9dbe-119">分类的唯一标识符。</span><span class="sxs-lookup"><span data-stu-id="d9dbe-119">Unique identifier for the classification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="ddc7f-120"><strong>ThresholdValue</strong></span><span class="sxs-lookup"><span data-stu-id="ddc7f-120"><strong>ThresholdValue</strong></span></span></p></td>
-<td><p><span data-ttu-id="ddc7f-121">int</span><span class="sxs-lookup"><span data-stu-id="ddc7f-121">int</span></span></p></td>
+<td><p><span data-ttu-id="d9dbe-120"><strong>ThresholdValue</strong></span><span class="sxs-lookup"><span data-stu-id="d9dbe-120"><strong>ThresholdValue</strong></span></span></p></td>
+<td><p><span data-ttu-id="d9dbe-121">int</span><span class="sxs-lookup"><span data-stu-id="d9dbe-121">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="ddc7f-p102">分类的上限。允许的值包括：</span><span class="sxs-lookup"><span data-stu-id="ddc7f-p102">Upper limit for the classification. Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="d9dbe-p102">分类的上限。允许的值包括：</span><span class="sxs-lookup"><span data-stu-id="d9dbe-p102">Upper limit for the classification. Allowed values are:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="ddc7f-124">双面</span><span class="sxs-lookup"><span data-stu-id="ddc7f-124">2</span></span></p></li>
-<li><p><span data-ttu-id="ddc7f-125">5</span><span class="sxs-lookup"><span data-stu-id="ddc7f-125">5</span></span></p></li>
-<li><p><span data-ttu-id="ddc7f-126">10 </span><span class="sxs-lookup"><span data-stu-id="ddc7f-126">10</span></span></p></li>
+<li><p><span data-ttu-id="d9dbe-124">双面</span><span class="sxs-lookup"><span data-stu-id="d9dbe-124">2</span></span></p></li>
+<li><p><span data-ttu-id="d9dbe-125">5</span><span class="sxs-lookup"><span data-stu-id="d9dbe-125">5</span></span></p></li>
+<li><p><span data-ttu-id="d9dbe-126">10 </span><span class="sxs-lookup"><span data-stu-id="d9dbe-126">10</span></span></p></li>
 </ol></td>
 </tr>
 </tbody>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c52bf0791a149625732d3f700a09a92017fa87ca
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4edd989985c4ed65027ed8d19725ec1f93c2bdc4
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149031"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42190095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="fde85-102">迁移存档和监控服务器</span><span class="sxs-lookup"><span data-stu-id="fde85-102">Migrating Archiving and Monitoring servers</span></span>
+# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="d6c03-102">迁移存档和监控服务器</span><span class="sxs-lookup"><span data-stu-id="d6c03-102">Migrating Archiving and Monitoring servers</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "42149031"
 
 <span> </span>
 
-<span data-ttu-id="fde85-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="fde85-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="d6c03-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="d6c03-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="fde85-104">如果您在 Lync Server 2010 环境中部署了存档服务器和监视服务器，则可以在迁移前端池后在 Lync Server 2013 环境中部署这些服务器。</span><span class="sxs-lookup"><span data-stu-id="fde85-104">If you deployed Archiving Server and Monitoring Server in your Lync Server 2010 environment, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="fde85-105">但是，如果存档和监视功能对您的组织至关重要，那么在迁移之前，应在您的 Lync Server 2013 试点池中添加存档和监控功能，以便在迁移过程中使用该功能。</span><span class="sxs-lookup"><span data-stu-id="fde85-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Lync Server 2013 pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
+<span data-ttu-id="d6c03-104">如果您在 Lync Server 2010 环境中部署了存档服务器和监视服务器，则可以在迁移前端池后在 Lync Server 2013 环境中部署这些服务器。</span><span class="sxs-lookup"><span data-stu-id="d6c03-104">If you deployed Archiving Server and Monitoring Server in your Lync Server 2010 environment, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="d6c03-105">但是，如果存档和监视功能对您的组织至关重要，那么在迁移之前，应在您的 Lync Server 2013 试点池中添加存档和监控功能，以便在迁移过程中使用该功能。</span><span class="sxs-lookup"><span data-stu-id="d6c03-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your Lync Server 2013 pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
 
-<span data-ttu-id="fde85-106">如果迁移过程中需要存档和监控功能，应注意以下问题：</span><span class="sxs-lookup"><span data-stu-id="fde85-106">If you want archiving and monitoring functionality during the migration process, keep the following considerations in mind:</span></span>
+<span data-ttu-id="d6c03-106">如果迁移过程中需要存档和监控功能，应注意以下问题：</span><span class="sxs-lookup"><span data-stu-id="d6c03-106">If you want archiving and monitoring functionality during the migration process, keep the following considerations in mind:</span></span>
 
-  - <span data-ttu-id="fde85-107">存档数据和监控数据不会移动到 Lync Server 2013 部署中。</span><span class="sxs-lookup"><span data-stu-id="fde85-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="fde85-108">在停用旧环境之前备份的数据将成为 Lync Server 2010 环境中的活动历史记录。</span><span class="sxs-lookup"><span data-stu-id="fde85-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Lync Server 2010 environment.</span></span>
+  - <span data-ttu-id="d6c03-107">存档数据和监控数据不会移动到 Lync Server 2013 部署中。</span><span class="sxs-lookup"><span data-stu-id="d6c03-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="d6c03-108">在停用旧环境之前备份的数据将成为 Lync Server 2010 环境中的活动历史记录。</span><span class="sxs-lookup"><span data-stu-id="d6c03-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Lync Server 2010 environment.</span></span>
 
-  - <span data-ttu-id="fde85-109">Lync Server 2010 版本的存档服务器和监视服务器只能与 Lync Server 2010 前端池关联。</span><span class="sxs-lookup"><span data-stu-id="fde85-109">The Lync Server 2010 version of Archiving Server and Monitoring Server can be associated only with a Lync Server 2010 Front End pool.</span></span> <span data-ttu-id="fde85-110">在 Lync Server 2013 中，存档和监控不再是服务器角色，而是集成到 Lync Server 2013 前端池的服务。</span><span class="sxs-lookup"><span data-stu-id="fde85-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
+  - <span data-ttu-id="d6c03-109">Lync Server 2010 版本的存档服务器和监视服务器只能与 Lync Server 2010 前端池关联。</span><span class="sxs-lookup"><span data-stu-id="d6c03-109">The Lync Server 2010 version of Archiving Server and Monitoring Server can be associated only with a Lync Server 2010 Front End pool.</span></span> <span data-ttu-id="d6c03-110">在 Lync Server 2013 中，存档和监控不再是服务器角色，而是集成到 Lync Server 2013 前端池的服务。</span><span class="sxs-lookup"><span data-stu-id="d6c03-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
 
-  - <span data-ttu-id="fde85-111">在旧版和 Lync Server 2013 部署共存期间，存档服务器和监视服务器的 Lync Server 2010 版本将为驻留在 Lync Server 2010 池中的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="fde85-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Lync Server 2010 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2010 pools.</span></span> <span data-ttu-id="fde85-112">Lync Server 2013 中的存档和监控为驻留在 Lync Server 2013 池上的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="fde85-112">Archiving and Monitoring in Lync Server 2013 gather data for users homed on Lync Server 2013 pools.</span></span>
+  - <span data-ttu-id="d6c03-111">在旧版和 Lync Server 2013 部署共存期间，存档服务器和监视服务器的 Lync Server 2010 版本将为驻留在 Lync Server 2010 池中的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="d6c03-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Lync Server 2010 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2010 pools.</span></span> <span data-ttu-id="d6c03-112">Lync Server 2013 中的存档和监控为驻留在 Lync Server 2013 池上的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="d6c03-112">Archiving and Monitoring in Lync Server 2013 gather data for users homed on Lync Server 2013 pools.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="fde85-113">在迁移阶段，如果你仍在使用新的 Lync Server 2013 试点池时使用旧版边缘服务器，则存档服务器的 Lync Server 2010 版本会继续为驻留在 lync server 2010 池和存档中的用户收集数据，并在 Lync Server 2013 中进行存档为驻留在 Lync Server 2013 池上的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="fde85-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Lync Server 2010 version of Archiving Server continues to gather data for users homed on Lync Server 2010 pools and Archiving in Lync Server 2013 gathers data for users homed on Lync Server 2013 pools.</span></span>
+    > <span data-ttu-id="d6c03-113">在迁移阶段，如果你仍在使用新的 Lync Server 2013 试点池时使用旧版边缘服务器，则存档服务器的 Lync Server 2010 版本会继续为驻留在 lync server 2010 池和存档中的用户收集数据，并在 Lync Server 2013 中进行存档为驻留在 Lync Server 2013 池上的用户收集数据。</span><span class="sxs-lookup"><span data-stu-id="d6c03-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Lync Server 2010 version of Archiving Server continues to gather data for users homed on Lync Server 2010 pools and Archiving in Lync Server 2013 gathers data for users homed on Lync Server 2013 pools.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="fde85-114">如果将第三方存档和监控解决方案与 Lync Server 2013 中的存档和监控结合使用，请咨询您的供应商，了解何时以及如何将第三方解决方案与 Lync Server 2013 集成。</span><span class="sxs-lookup"><span data-stu-id="fde85-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving and Monitoring in Lync Server 2013, consult with your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
+  - <span data-ttu-id="d6c03-114">如果将第三方存档和监控解决方案与 Lync Server 2013 中的存档和监控结合使用，请咨询您的供应商，了解何时以及如何将第三方解决方案与 Lync Server 2013 集成。</span><span class="sxs-lookup"><span data-stu-id="d6c03-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving and Monitoring in Lync Server 2013, consult with your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
 
 </div>
 

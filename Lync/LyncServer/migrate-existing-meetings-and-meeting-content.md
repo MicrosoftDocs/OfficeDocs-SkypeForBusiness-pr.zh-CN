@@ -12,20 +12,20 @@ ms:contentKeyID: 49733599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fddc279973cefea354338437feef4d46f63ab5c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 51f690d492d685c162d7de1e76f474b609662244
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148961"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42190195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-existing-meetings-and-meeting-content"></a><span data-ttu-id="a23ff-102">迁移现有会议和会议内容</span><span class="sxs-lookup"><span data-stu-id="a23ff-102">Migrate existing meetings and meeting content</span></span>
+# <a name="migrate-existing-meetings-and-meeting-content"></a><span data-ttu-id="425cf-102">迁移现有会议和会议内容</span><span class="sxs-lookup"><span data-stu-id="425cf-102">Migrate existing meetings and meeting content</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42148961"
 
 <span> </span>
 
-<span data-ttu-id="a23ff-103">_**上次修改的主题：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="a23ff-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="425cf-103">_**上次修改的主题：** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="425cf-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="a23ff-104">将用户帐户从 Lync Server 2010 移动到 Lync Server 2013 服务器时，将使用该用户帐户移动以下信息：</span><span class="sxs-lookup"><span data-stu-id="a23ff-104">When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:</span></span>
+<span data-ttu-id="425cf-104">将用户帐户从 Lync Server 2010 移动到 Lync Server 2013 服务器时，将使用该用户帐户移动以下信息：</span><span class="sxs-lookup"><span data-stu-id="425cf-104">When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:</span></span>
 
-  - <span data-ttu-id="a23ff-p101">**用户已安排的会议**。这包括移动会议目录和会议数据。</span><span class="sxs-lookup"><span data-stu-id="a23ff-p101">**Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.</span></span>
+  - <span data-ttu-id="425cf-p101">**用户已安排的会议**。这包括移动会议目录和会议数据。</span><span class="sxs-lookup"><span data-stu-id="425cf-p101">**Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.</span></span>
 
-  - <span data-ttu-id="a23ff-p102">**用户的个人标识号 (PIN)**。用户的当前 PIN 在到期或用户请求新 PIN 之前仍然有效。</span><span class="sxs-lookup"><span data-stu-id="a23ff-p102">**User’s personal identification number (PIN)**. The user’s current PIN continues to work until it expires or the user requests a new PIN.</span></span>
+  - <span data-ttu-id="425cf-p102">**用户的个人标识号 (PIN)**。用户的当前 PIN 在到期或用户请求新 PIN 之前仍然有效。</span><span class="sxs-lookup"><span data-stu-id="425cf-p102">**User’s personal identification number (PIN)**. The user’s current PIN continues to work until it expires or the user requests a new PIN.</span></span>
 
-<span data-ttu-id="a23ff-109">以下用户帐户信息不会移至新服务器。</span><span class="sxs-lookup"><span data-stu-id="a23ff-109">The following user account information does not move to the new server.</span></span>
+<span data-ttu-id="425cf-109">以下用户帐户信息不会移至新服务器。</span><span class="sxs-lookup"><span data-stu-id="425cf-109">The following user account information does not move to the new server.</span></span>
 
-  - <span data-ttu-id="a23ff-p103">**会议内容**。若要移动在会议期间共享的内容（例如 PowerPoint、白板、附件或投票数据），请使用 **-MoveConferenceData** 参数作为 **Move-CsUser** cmdlet 的一部分。</span><span class="sxs-lookup"><span data-stu-id="a23ff-p103">**Meeting content**. In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.</span></span>
+  - <span data-ttu-id="425cf-p103">**会议内容**。若要移动在会议期间共享的内容（例如 PowerPoint、白板、附件或投票数据），请使用 **-MoveConferenceData** 参数作为 **Move-CsUser** cmdlet 的一部分。</span><span class="sxs-lookup"><span data-stu-id="425cf-p103">**Meeting content**. In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5885ed34fd28f06b9a7d8c4f95abc29d3b5e147
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f3536e7bc95aced3a8bd68cab15b8994aa9e697c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141658"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194546"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a><span data-ttu-id="0864e-102">测试移动用户在 Lync Server 2013 中 exchange 即时消息的功能</span><span class="sxs-lookup"><span data-stu-id="0864e-102">Test mobile users' ability to exchange instant messages in Lync Server 2013</span></span>
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a><span data-ttu-id="fe5f1-102">测试移动用户在 Lync Server 2013 中 exchange 即时消息的功能</span><span class="sxs-lookup"><span data-stu-id="fe5f1-102">Test mobile users' ability to exchange instant messages in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42141658"
 
 <span> </span>
 
-<span data-ttu-id="0864e-103">_**上次修改的主题：** 2014-06-07_</span><span class="sxs-lookup"><span data-stu-id="0864e-103">_**Topic Last Modified:** 2014-06-07_</span></span>
+<span data-ttu-id="fe5f1-103">_**上次修改的主题：** 2014-06-07_</span><span class="sxs-lookup"><span data-stu-id="fe5f1-103">_**Topic Last Modified:** 2014-06-07_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42141658"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0864e-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="0864e-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="0864e-105">每月</span><span class="sxs-lookup"><span data-stu-id="0864e-105">Monthly</span></span></p></td>
+<td><p><span data-ttu-id="fe5f1-104">验证计划</span><span class="sxs-lookup"><span data-stu-id="fe5f1-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="fe5f1-105">每月</span><span class="sxs-lookup"><span data-stu-id="fe5f1-105">Monthly</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0864e-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="0864e-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="0864e-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="0864e-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="fe5f1-106">测试工具</span><span class="sxs-lookup"><span data-stu-id="fe5f1-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="fe5f1-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="fe5f1-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0864e-108">所需的权限</span><span class="sxs-lookup"><span data-stu-id="0864e-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="0864e-109">在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="0864e-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="0864e-110">使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-csmcxp2pim cmdlet 的权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="0864e-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsMcxP2PIM cmdlet.</span></span> <span data-ttu-id="0864e-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="0864e-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="fe5f1-108">所需的权限</span><span class="sxs-lookup"><span data-stu-id="fe5f1-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="fe5f1-109">在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="fe5f1-110">使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-csmcxp2pim cmdlet 的权限的 RBAC 角色。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsMcxP2PIM cmdlet.</span></span> <span data-ttu-id="fe5f1-111">若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxP2PIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,122 +64,122 @@ ms.locfileid: "42141658"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="0864e-112">说明</span><span class="sxs-lookup"><span data-stu-id="0864e-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="fe5f1-112">Description</span><span class="sxs-lookup"><span data-stu-id="fe5f1-112">Description</span></span>
 
-<span data-ttu-id="0864e-113">移动服务使移动设备用户可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="0864e-113">The Mobility Service enables mobile device users to do such things as:</span></span>
+<span data-ttu-id="fe5f1-113">移动服务使移动设备用户可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-113">The Mobility Service enables mobile device users to do such things as:</span></span>
 
-1.  <span data-ttu-id="0864e-114">Exchange 即时消息和状态信息。</span><span class="sxs-lookup"><span data-stu-id="0864e-114">Exchange instant messages and presence information.</span></span>
+1.  <span data-ttu-id="fe5f1-114">Exchange 即时消息和状态信息。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-114">Exchange instant messages and presence information.</span></span>
 
-2.  <span data-ttu-id="0864e-115">在内部存储和检索语音邮件，而不是使用其无线提供商。</span><span class="sxs-lookup"><span data-stu-id="0864e-115">Store and retrieve voice mail internally instead of with their wireless provider.</span></span>
+2.  <span data-ttu-id="fe5f1-115">在内部存储和检索语音邮件，而不是使用其无线提供商。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-115">Store and retrieve voice mail internally instead of with their wireless provider.</span></span>
 
-3.  <span data-ttu-id="0864e-116">利用 Lync Server 功能，例如通过工作和拨出式会议进行呼叫。</span><span class="sxs-lookup"><span data-stu-id="0864e-116">Take advantage of Lync Server capabilities such as Call via Work and dial-out conferencing.</span></span>
+3.  <span data-ttu-id="fe5f1-116">利用 Lync Server 功能，例如通过工作和拨出式会议进行呼叫。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-116">Take advantage of Lync Server capabilities such as Call via Work and dial-out conferencing.</span></span>
 
-<span data-ttu-id="0864e-117">CsMxcP2PIM cmdlet 提供了一种快速而简单的方法来验证用户是否可以使用移动服务来交换即时消息。</span><span class="sxs-lookup"><span data-stu-id="0864e-117">The Test-CsMxcP2PIM cmdlet provides a quick and easy way to verify that users can use the Mobility Service to exchange instant messages.</span></span>
+<span data-ttu-id="fe5f1-117">CsMxcP2PIM cmdlet 提供了一种快速而简单的方法来验证用户是否可以使用移动服务来交换即时消息。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-117">The Test-CsMxcP2PIM cmdlet provides a quick and easy way to verify that users can use the Mobility Service to exchange instant messages.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="0864e-118">运行测试</span><span class="sxs-lookup"><span data-stu-id="0864e-118">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="fe5f1-118">运行测试</span><span class="sxs-lookup"><span data-stu-id="fe5f1-118">Running the test</span></span>
 
-<span data-ttu-id="0864e-119">若要运行此测试，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。</span><span class="sxs-lookup"><span data-stu-id="0864e-119">To run this test, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="0864e-120">在调用 Test-csmcxp2pim 时，必须包括这些凭据对象和两个帐户的 SIP 地址：</span><span class="sxs-lookup"><span data-stu-id="0864e-120">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsMcxP2PIM:</span></span>
+<span data-ttu-id="fe5f1-119">若要运行此测试，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-119">To run this test, you must create two Windows PowerShell credentials objects (objects that contain the account name and password) for each account.</span></span> <span data-ttu-id="fe5f1-120">在调用 Test-csmcxp2pim 时，必须包括这些凭据对象和两个帐户的 SIP 地址：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-120">You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsMcxP2PIM:</span></span>
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\pilar"
     
     Test-CsMcxP2PIM -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -SenderSipAddres "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:packerman@litwareinc.com" -ReceiverCredential $credential2
 
-<span data-ttu-id="0864e-121">有关详细信息，请参阅[test-csmcxp2pim](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="0864e-121">For more information, see the help topic for the [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) cmdlet.</span></span>
+<span data-ttu-id="fe5f1-121">有关详细信息，请参阅[test-csmcxp2pim](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-121">For more information, see the help topic for the [Test-CsMcxP2PIM](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="0864e-122">确定成功或失败</span><span class="sxs-lookup"><span data-stu-id="0864e-122">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="fe5f1-122">确定成功或失败</span><span class="sxs-lookup"><span data-stu-id="fe5f1-122">Determining success or failure</span></span>
 
-<span data-ttu-id="0864e-123">如果两个测试用户可以通过使用移动服务来交换即时消息，则 Test-csmcxp2pim 将返回测试结果 "成功"：</span><span class="sxs-lookup"><span data-stu-id="0864e-123">If the two test users can exchange instant messages by using the mobility service then Test-CsMcxP2PIM will return test result Success:</span></span>
+<span data-ttu-id="fe5f1-123">如果两个测试用户可以通过使用移动服务来交换即时消息，则 Test-csmcxp2pim 将返回测试结果 "成功"：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-123">If the two test users can exchange instant messages by using the mobility service then Test-CsMcxP2PIM will return test result Success:</span></span>
 
-<span data-ttu-id="0864e-124">目标 Fqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="0864e-124">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="fe5f1-124">目标 Fqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="fe5f1-124">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="0864e-125">目标 Uri：http://atl-cs-001.litwareinc.com:443/mcx</span><span class="sxs-lookup"><span data-stu-id="0864e-125">Target Uri : http://atl-cs-001.litwareinc.com:443/mcx</span></span>
+<span data-ttu-id="fe5f1-125">目标 Uri：http://atl-cs-001.litwareinc.com:443/mcx</span><span class="sxs-lookup"><span data-stu-id="fe5f1-125">Target Uri : http://atl-cs-001.litwareinc.com:443/mcx</span></span>
 
-<span data-ttu-id="0864e-126">结果：成功</span><span class="sxs-lookup"><span data-stu-id="0864e-126">Result : Success</span></span>
+<span data-ttu-id="fe5f1-126">结果：成功</span><span class="sxs-lookup"><span data-stu-id="fe5f1-126">Result : Success</span></span>
 
-<span data-ttu-id="0864e-127">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="0864e-127">Latency : 00:00:00</span></span>
+<span data-ttu-id="fe5f1-127">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="fe5f1-127">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="0864e-128">错误消息：</span><span class="sxs-lookup"><span data-stu-id="0864e-128">Error Message :</span></span>
+<span data-ttu-id="fe5f1-128">错误消息：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-128">Error Message :</span></span>
 
-<span data-ttu-id="0864e-129">诊断</span><span class="sxs-lookup"><span data-stu-id="0864e-129">Diagnosis :</span></span>
+<span data-ttu-id="fe5f1-129">诊断</span><span class="sxs-lookup"><span data-stu-id="fe5f1-129">Diagnosis :</span></span>
 
-<span data-ttu-id="0864e-130">如果测试失败，则结果将设置为 "失败"，并将显示详细的错误消息和诊断：</span><span class="sxs-lookup"><span data-stu-id="0864e-130">If the test fails then the Result will be set to Failure and a detailed error message and diagnosis will be displayed:</span></span>
+<span data-ttu-id="fe5f1-130">如果测试失败，则结果将设置为 "失败"，并将显示详细的错误消息和诊断：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-130">If the test fails then the Result will be set to Failure and a detailed error message and diagnosis will be displayed:</span></span>
 
-<span data-ttu-id="0864e-131">目标 Fqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="0864e-131">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="fe5f1-131">目标 Fqdn： atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="fe5f1-131">Target Fqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="0864e-132">目标 Uri：https://atl-cs-001.litwareinc.com:443/mcx</span><span class="sxs-lookup"><span data-stu-id="0864e-132">Target Uri : https://atl-cs-001.litwareinc.com:443/mcx</span></span>
+<span data-ttu-id="fe5f1-132">目标 Uri：https://atl-cs-001.litwareinc.com:443/mcx</span><span class="sxs-lookup"><span data-stu-id="fe5f1-132">Target Uri : https://atl-cs-001.litwareinc.com:443/mcx</span></span>
 
-<span data-ttu-id="0864e-133">结果：失败</span><span class="sxs-lookup"><span data-stu-id="0864e-133">Result : Failure</span></span>
+<span data-ttu-id="fe5f1-133">结果：失败</span><span class="sxs-lookup"><span data-stu-id="fe5f1-133">Result : Failure</span></span>
 
-<span data-ttu-id="0864e-134">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="0864e-134">Latency : 00:00:00</span></span>
+<span data-ttu-id="fe5f1-134">延迟：00:00:00</span><span class="sxs-lookup"><span data-stu-id="fe5f1-134">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="0864e-135">错误消息：没有为 Web 票证服务收到任何响应。</span><span class="sxs-lookup"><span data-stu-id="0864e-135">Error Message : No response received for Web-Ticket service.</span></span>
+<span data-ttu-id="fe5f1-135">错误消息：没有为 Web 票证服务收到任何响应。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-135">Error Message : No response received for Web-Ticket service.</span></span>
 
-<span data-ttu-id="0864e-136">内部异常：未授权的 HHTP 请求</span><span class="sxs-lookup"><span data-stu-id="0864e-136">Inner Exception:The HHTP request is unauthorized with</span></span>
+<span data-ttu-id="fe5f1-136">内部异常：未授权的 HHTP 请求</span><span class="sxs-lookup"><span data-stu-id="fe5f1-136">Inner Exception:The HHTP request is unauthorized with</span></span>
 
-<span data-ttu-id="0864e-137">客户端协商方案 "Ntlm"。</span><span class="sxs-lookup"><span data-stu-id="0864e-137">client negotiation scheme 'Ntlm'.</span></span> <span data-ttu-id="0864e-138">的身份验证</span><span class="sxs-lookup"><span data-stu-id="0864e-138">The authentication</span></span>
+<span data-ttu-id="fe5f1-137">客户端协商方案 "Ntlm"。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-137">client negotiation scheme 'Ntlm'.</span></span> <span data-ttu-id="fe5f1-138">的身份验证</span><span class="sxs-lookup"><span data-stu-id="fe5f1-138">The authentication</span></span>
 
-<span data-ttu-id="0864e-139">从服务器接收到的标头是 "协商，NTLM"。</span><span class="sxs-lookup"><span data-stu-id="0864e-139">header received from the server was 'Negotiate,NTLM'.</span></span>
+<span data-ttu-id="fe5f1-139">从服务器接收到的标头是 "协商，NTLM"。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-139">header received from the server was 'Negotiate,NTLM'.</span></span>
 
-<span data-ttu-id="0864e-140">内部异常：远程服务器返回错误：</span><span class="sxs-lookup"><span data-stu-id="0864e-140">Inner Exception:The remote server returned an error:</span></span>
+<span data-ttu-id="fe5f1-140">内部异常：远程服务器返回错误：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-140">Inner Exception:The remote server returned an error:</span></span>
 
-<span data-ttu-id="0864e-141">（401）未经授权。</span><span class="sxs-lookup"><span data-stu-id="0864e-141">(401) Unauthorized.</span></span>
+<span data-ttu-id="fe5f1-141">（401）未经授权。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-141">(401) Unauthorized.</span></span>
 
-<span data-ttu-id="0864e-142">诊断</span><span class="sxs-lookup"><span data-stu-id="0864e-142">Diagnosis :</span></span>
+<span data-ttu-id="fe5f1-142">诊断</span><span class="sxs-lookup"><span data-stu-id="fe5f1-142">Diagnosis :</span></span>
 
-<span data-ttu-id="0864e-143">内部诊断： X-MS-Fqdb： atl-cs-</span><span class="sxs-lookup"><span data-stu-id="0864e-143">Inner Diagnosis:X-MS-server-Fqdb : atl-cs-</span></span>
+<span data-ttu-id="fe5f1-143">内部诊断： X-MS-Fqdb： atl-cs-</span><span class="sxs-lookup"><span data-stu-id="fe5f1-143">Inner Diagnosis:X-MS-server-Fqdb : atl-cs-</span></span>
 
-<span data-ttu-id="0864e-144">001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="0864e-144">001.litwareinc.com</span></span>
+<span data-ttu-id="fe5f1-144">001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="fe5f1-144">001.litwareinc.com</span></span>
 
-<span data-ttu-id="0864e-145">缓存控制： private</span><span class="sxs-lookup"><span data-stu-id="0864e-145">Cache-Control : private</span></span>
+<span data-ttu-id="fe5f1-145">缓存控制： private</span><span class="sxs-lookup"><span data-stu-id="fe5f1-145">Cache-Control : private</span></span>
 
-<span data-ttu-id="0864e-146">Content-Type： text/html;字符集 = utf-8。</span><span class="sxs-lookup"><span data-stu-id="0864e-146">Content-Type : text/html; charset=utf-8.</span></span>
+<span data-ttu-id="fe5f1-146">Content-Type： text/html;字符集 = utf-8。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-146">Content-Type : text/html; charset=utf-8.</span></span>
 
-<span data-ttu-id="0864e-147">服务器： Microsoft-IIS/8。5</span><span class="sxs-lookup"><span data-stu-id="0864e-147">Server : Microsoft-IIS/8.5</span></span>
+<span data-ttu-id="fe5f1-147">服务器： Microsoft-IIS/8。5</span><span class="sxs-lookup"><span data-stu-id="fe5f1-147">Server : Microsoft-IIS/8.5</span></span>
 
-<span data-ttu-id="0864e-148">WWW-身份验证：协商、NTLM</span><span class="sxs-lookup"><span data-stu-id="0864e-148">WWW-Authenticate : Negotiate,NTLM</span></span>
+<span data-ttu-id="fe5f1-148">WWW-身份验证：协商、NTLM</span><span class="sxs-lookup"><span data-stu-id="fe5f1-148">WWW-Authenticate : Negotiate,NTLM</span></span>
 
-<span data-ttu-id="0864e-149">X-电源： ASP.NET</span><span class="sxs-lookup"><span data-stu-id="0864e-149">X-Powered-By : ASP.NET</span></span>
+<span data-ttu-id="fe5f1-149">X-电源： ASP.NET</span><span class="sxs-lookup"><span data-stu-id="fe5f1-149">X-Powered-By : ASP.NET</span></span>
 
-<span data-ttu-id="0864e-150">X-内容类型-选项： nosniff</span><span class="sxs-lookup"><span data-stu-id="0864e-150">X-Content-Type-Options : nosniff</span></span>
+<span data-ttu-id="fe5f1-150">X-内容类型-选项： nosniff</span><span class="sxs-lookup"><span data-stu-id="fe5f1-150">X-Content-Type-Options : nosniff</span></span>
 
-<span data-ttu-id="0864e-151">日期：周三，28年5月 2014 19:16:05 GMT</span><span class="sxs-lookup"><span data-stu-id="0864e-151">Date : Wed, 28 May 2014 19:16:05 GMT</span></span>
+<span data-ttu-id="fe5f1-151">日期：周三，28年5月 2014 19:16:05 GMT</span><span class="sxs-lookup"><span data-stu-id="fe5f1-151">Date : Wed, 28 May 2014 19:16:05 GMT</span></span>
 
-<span data-ttu-id="0864e-152">Content-长度：6305</span><span class="sxs-lookup"><span data-stu-id="0864e-152">Content-Length : 6305</span></span>
+<span data-ttu-id="fe5f1-152">Content-长度：6305</span><span class="sxs-lookup"><span data-stu-id="fe5f1-152">Content-Length : 6305</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="0864e-153">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="0864e-153">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="fe5f1-153">测试可能失败的原因</span><span class="sxs-lookup"><span data-stu-id="fe5f1-153">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="0864e-154">如果测试 Test-csmcxp2pim 失败，您的第一步应是验证移动服务是否已启动并在运行。</span><span class="sxs-lookup"><span data-stu-id="0864e-154">If Test-CsMcxP2PIM fails your first step should be to verify that the mobility service is up and running.</span></span> <span data-ttu-id="0864e-155">可通过使用 web 浏览器来验证是否可以访问 Lync Server 池的移动服务 URL 来执行此操作。</span><span class="sxs-lookup"><span data-stu-id="0864e-155">That can be done by using a web browser to verify that the mobility service URL for your Lync Server pool can be accessed.</span></span> <span data-ttu-id="0864e-156">例如，以下命令将验证池 atl-cs-001.litwareinc.com 的 URL：</span><span class="sxs-lookup"><span data-stu-id="0864e-156">For example, this command verifies the URL for the pool atl-cs-001.litwareinc.com:</span></span>
+<span data-ttu-id="fe5f1-154">如果测试 Test-csmcxp2pim 失败，您的第一步应是验证移动服务是否已启动并在运行。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-154">If Test-CsMcxP2PIM fails your first step should be to verify that the mobility service is up and running.</span></span> <span data-ttu-id="fe5f1-155">可通过使用 web 浏览器来验证是否可以访问 Lync Server 池的移动服务 URL 来执行此操作。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-155">That can be done by using a web browser to verify that the mobility service URL for your Lync Server pool can be accessed.</span></span> <span data-ttu-id="fe5f1-156">例如，以下命令将验证池 atl-cs-001.litwareinc.com 的 URL：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-156">For example, this command verifies the URL for the pool atl-cs-001.litwareinc.com:</span></span>
 
     https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc
 
-<span data-ttu-id="0864e-157">如果移动服务似乎正在运行，请验证您的两个测试用户是否具有有效的 Lync Server 帐户。</span><span class="sxs-lookup"><span data-stu-id="0864e-157">If the mobility service seems to be running then verify that your two test users have valid Lync Server accounts.</span></span> <span data-ttu-id="0864e-158">您可以使用与以下内容类似的命令检索帐户信息：</span><span class="sxs-lookup"><span data-stu-id="0864e-158">You can retrieve account information by using a command similar to this:</span></span>
+<span data-ttu-id="fe5f1-157">如果移动服务似乎正在运行，请验证您的两个测试用户是否具有有效的 Lync Server 帐户。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-157">If the mobility service seems to be running then verify that your two test users have valid Lync Server accounts.</span></span> <span data-ttu-id="fe5f1-158">您可以使用与以下内容类似的命令检索帐户信息：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-158">You can retrieve account information by using a command similar to this:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-<span data-ttu-id="0864e-159">如果 Enabled 属性不等于 True，或者如果命令失败，则表示用户没有有效的 Lync Server 帐户。</span><span class="sxs-lookup"><span data-stu-id="0864e-159">If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.</span></span>
+<span data-ttu-id="fe5f1-159">如果 Enabled 属性不等于 True，或者如果命令失败，则表示用户没有有效的 Lync Server 帐户。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-159">If the Enabled property is not equal to True or if the command fails, that means that the user does not have a valid Lync Server account.</span></span>
 
-<span data-ttu-id="0864e-160">此外，还应验证用户是否已启用移动功能。</span><span class="sxs-lookup"><span data-stu-id="0864e-160">You should also verify that the user is enabled for mobility.</span></span> <span data-ttu-id="0864e-161">若要执行此操作，请首先确定分配给该帐户的移动策略：</span><span class="sxs-lookup"><span data-stu-id="0864e-161">To do that, first determine the mobility policy that is assigned to the account:</span></span>
+<span data-ttu-id="fe5f1-160">此外，还应验证用户是否已启用移动功能。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-160">You should also verify that the user is enabled for mobility.</span></span> <span data-ttu-id="fe5f1-161">若要执行此操作，请首先确定分配给该帐户的移动策略：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-161">To do that, first determine the mobility policy that is assigned to the account:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-<span data-ttu-id="0864e-162">了解策略名称后，使用 Set-csmobilitypolicy cmdlet 验证相关策略（例如，RedmondMobilityPolicy）的 EnableMobility 属性是否设置为 True：</span><span class="sxs-lookup"><span data-stu-id="0864e-162">After you know the policy name, use the Get-CsMobilityPolicy cmdlet to verify that the policy in question (for example, RedmondMobilityPolicy) has the EnableMobility property set to True:</span></span>
+<span data-ttu-id="fe5f1-162">了解策略名称后，使用 Set-csmobilitypolicy cmdlet 验证相关策略（例如，RedmondMobilityPolicy）的 EnableMobility 属性是否设置为 True：</span><span class="sxs-lookup"><span data-stu-id="fe5f1-162">After you know the policy name, use the Get-CsMobilityPolicy cmdlet to verify that the policy in question (for example, RedmondMobilityPolicy) has the EnableMobility property set to True:</span></span>
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-<span data-ttu-id="0864e-163">如果收到包含身份验证标头的错误消息，则通常意味着您未指定有效的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="0864e-163">If you receive an error message with authentication headers, that often means that you have not specified a valid user account.</span></span> <span data-ttu-id="0864e-164">请验证用户名和密码，然后再次尝试测试。</span><span class="sxs-lookup"><span data-stu-id="0864e-164">Verify the user name and password and then try the test again.</span></span> <span data-ttu-id="0864e-165">如果你确信用户帐户有效，则使用 CsWebServiceConfiguration cmdlet 并检查 UseWindowsAuth 属性的值。</span><span class="sxs-lookup"><span data-stu-id="0864e-165">If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property.</span></span> <span data-ttu-id="0864e-166">这将告诉你在组织中启用了哪些身份验证方法。有关如何对移动服务进行故障排除的更多提示，请参阅博客文章[故障排除外部 Lync 移动连接问题](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)分步。</span><span class="sxs-lookup"><span data-stu-id="0864e-166">That will tell you which authentication methods are enabled in your organization.For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).</span></span>
+<span data-ttu-id="fe5f1-163">如果收到包含身份验证标头的错误消息，则通常意味着您未指定有效的用户帐户。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-163">If you receive an error message with authentication headers, that often means that you have not specified a valid user account.</span></span> <span data-ttu-id="fe5f1-164">请验证用户名和密码，然后再次尝试测试。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-164">Verify the user name and password and then try the test again.</span></span> <span data-ttu-id="fe5f1-165">如果你确信用户帐户有效，则使用 CsWebServiceConfiguration cmdlet 并检查 UseWindowsAuth 属性的值。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-165">If you are convinced that the user account is valid, then use the Get-CsWebServiceConfiguration cmdlet and check the value of the UseWindowsAuth property.</span></span> <span data-ttu-id="fe5f1-166">这将告诉你在组织中启用了哪些身份验证方法。有关如何对移动服务进行故障排除的更多提示，请参阅博客文章[故障排除外部 Lync 移动连接问题](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)分步。</span><span class="sxs-lookup"><span data-stu-id="fe5f1-166">That will tell you which authentication methods are enabled in your organization.For more tips about how to troubleshoot the mobility service, see the blog post [Troubleshooting External Lync Mobility Connectivity Issues Step-by-Step](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).</span></span>
 
 </div>
 
