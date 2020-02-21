@@ -12,16 +12,16 @@ ms:contentKeyID: 48184900
 ms.date: 03/30/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17d3673cde1351a98d709749403cd3a572bfef04
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8c4900beab738f9aa792919cceec015bb0c3ad0f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134708"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42199695"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
