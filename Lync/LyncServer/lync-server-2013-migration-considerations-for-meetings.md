@@ -12,20 +12,20 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e5986488dd7cd3b1f8876ae0a89f08e295bceaa
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9ec650c62b26775aeddf9f01ff8d455a6f6a7667
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149632"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a><span data-ttu-id="1726f-102">Lync Server 2013 中的会议的迁移注意事项</span><span class="sxs-lookup"><span data-stu-id="1726f-102">Migration considerations for meetings in Lync Server 2013</span></span>
+# <a name="migration-considerations-for-meetings-in-lync-server-2013"></a><span data-ttu-id="f580c-102">Lync Server 2013 中的会议的迁移注意事项</span><span class="sxs-lookup"><span data-stu-id="f580c-102">Migration considerations for meetings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "42149632"
 
 <span> </span>
 
-<span data-ttu-id="1726f-103">_**上次修改的主题：** 2014-02-10_</span><span class="sxs-lookup"><span data-stu-id="1726f-103">_**Topic Last Modified:** 2014-02-10_</span></span>
+<span data-ttu-id="f580c-103">_**上次修改的主题：** 2014-02-10_</span><span class="sxs-lookup"><span data-stu-id="f580c-103">_**Topic Last Modified:** 2014-02-10_</span></span>
 
-<span data-ttu-id="1726f-104">本节讨论下列主题：</span><span class="sxs-lookup"><span data-stu-id="1726f-104">The following topics are discussed in this section:</span></span>
+<span data-ttu-id="f580c-104">本节讨论下列主题：</span><span class="sxs-lookup"><span data-stu-id="f580c-104">The following topics are discussed in this section:</span></span>
 
-  - <span data-ttu-id="1726f-105">在 Microsoft Lync Server 2013 中对会议所做的更改</span><span class="sxs-lookup"><span data-stu-id="1726f-105">Changes to meetings in Microsoft Lync Server 2013</span></span>
+  - <span data-ttu-id="f580c-105">在 Microsoft Lync Server 2013 中对会议所做的更改</span><span class="sxs-lookup"><span data-stu-id="f580c-105">Changes to meetings in Microsoft Lync Server 2013</span></span>
 
-  - <span data-ttu-id="1726f-106">根据会议需要迁移用户</span><span class="sxs-lookup"><span data-stu-id="1726f-106">Migrating users based on their conferencing needs</span></span>
+  - <span data-ttu-id="f580c-106">根据会议需要迁移用户</span><span class="sxs-lookup"><span data-stu-id="f580c-106">Migrating users based on their conferencing needs</span></span>
 
-  - <span data-ttu-id="1726f-107">迁移现有会议和会议内容</span><span class="sxs-lookup"><span data-stu-id="1726f-107">Migrating existing meetings and meeting content</span></span>
+  - <span data-ttu-id="f580c-107">迁移现有会议和会议内容</span><span class="sxs-lookup"><span data-stu-id="f580c-107">Migrating existing meetings and meeting content</span></span>
 
-  - <span data-ttu-id="1726f-108">Lync Server 2010 迁移期间的用户体验</span><span class="sxs-lookup"><span data-stu-id="1726f-108">User experience during Lync Server 2010 migration</span></span>
+  - <span data-ttu-id="f580c-108">Lync Server 2010 迁移期间的用户体验</span><span class="sxs-lookup"><span data-stu-id="f580c-108">User experience during Lync Server 2010 migration</span></span>
 
-  - <span data-ttu-id="1726f-109">Office 通信服务器 2007 R2 迁移期间的用户体验</span><span class="sxs-lookup"><span data-stu-id="1726f-109">User Experience during Office Communications Server 2007 R2 migration</span></span>
+  - <span data-ttu-id="f580c-109">Office 通信服务器 2007 R2 迁移期间的用户体验</span><span class="sxs-lookup"><span data-stu-id="f580c-109">User Experience during Office Communications Server 2007 R2 migration</span></span>
 
-  - <span data-ttu-id="1726f-110">Microsoft Lync 2013 与早期版本的服务器上的会议兼容性</span><span class="sxs-lookup"><span data-stu-id="1726f-110">Microsoft Lync 2013 compatibility with meetings on earlier server versions</span></span>
+  - <span data-ttu-id="f580c-110">Microsoft Lync 2013 与早期版本的服务器上的会议兼容性</span><span class="sxs-lookup"><span data-stu-id="f580c-110">Microsoft Lync 2013 compatibility with meetings on earlier server versions</span></span>
 
 <div>
 
-## <a name="changes-to-meetings-in-lync-server-2013"></a><span data-ttu-id="1726f-111">对 Lync Server 2013 中的会议所做的更改</span><span class="sxs-lookup"><span data-stu-id="1726f-111">Changes to Meetings in Lync Server 2013</span></span>
+## <a name="changes-to-meetings-in-lync-server-2013"></a><span data-ttu-id="f580c-111">对 Lync Server 2013 中的会议所做的更改</span><span class="sxs-lookup"><span data-stu-id="f580c-111">Changes to Meetings in Lync Server 2013</span></span>
 
-<span data-ttu-id="1726f-112">**Lync Server 2013 功能。**   Lync server 2013 提供新的会议功能，这些功能在其帐户移动到 lync Server 2013 并使用 lync 2013 客户端登录后可供用户使用。</span><span class="sxs-lookup"><span data-stu-id="1726f-112">**Lync Server 2013 features.**   Lync Server 2013 provides new conferencing features that become available to users after their accounts are moved to Lync Server 2013 and they sign in with the Lync 2013 client.</span></span> <span data-ttu-id="1726f-113">[Lync server 2013 的新会议功能](lync-server-2013-new-conferencing-features.md)中概述了新功能，以及[lync server 2013 中客户端的新增](lync-server-2013-what-s-new-for-clients.md)功能。</span><span class="sxs-lookup"><span data-stu-id="1726f-113">New features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
+<span data-ttu-id="f580c-112">**Lync Server 2013 功能。**   Lync server 2013 提供新的会议功能，这些功能在其帐户移动到 lync Server 2013 并使用 lync 2013 客户端登录后可供用户使用。</span><span class="sxs-lookup"><span data-stu-id="f580c-112">**Lync Server 2013 features.**   Lync Server 2013 provides new conferencing features that become available to users after their accounts are moved to Lync Server 2013 and they sign in with the Lync 2013 client.</span></span> <span data-ttu-id="f580c-113">[Lync server 2013 的新会议功能](lync-server-2013-new-conferencing-features.md)中概述了新功能，以及[lync server 2013 中客户端的新增](lync-server-2013-what-s-new-for-clients.md)功能。</span><span class="sxs-lookup"><span data-stu-id="f580c-113">New features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
 
-<span data-ttu-id="1726f-114">**会议 URL。**   与在 lync server 2010 中一样，lync server 2013 中的所有新安排的会议都具有 URL 前缀 https://和现有会议与用户帐户一起迁移。</span><span class="sxs-lookup"><span data-stu-id="1726f-114">**Meeting URL.**   As in Lync Server 2010, all newly scheduled meetings in Lync Server 2013 have a URL prefix of https:// and existing meetings migrate along with user accounts.</span></span> <span data-ttu-id="1726f-115">但是，Lync Server 2013 不支持 Office 通信服务器 2007 R2 R2 会议呼叫（conf://URL 前缀）或 web 会议（meet://URL 前缀）。</span><span class="sxs-lookup"><span data-stu-id="1726f-115">However, Lync Server 2013 does not support the Office Communications Server 2007 R2 conference call (conf:// URL prefix) or web conference (meet:// URL prefix).</span></span> <span data-ttu-id="1726f-116">有关详细信息，请参阅本主题后面部分中的 "从 Office 通信服务器 2007 R2 迁移会议"。</span><span class="sxs-lookup"><span data-stu-id="1726f-116">See “Migrating Meetings from Office Communications Server 2007 R2” later in this topic for more information.</span></span>
+<span data-ttu-id="f580c-114">**会议 URL。**   与在 lync server 2010 中一样，lync server 2013 中的所有新安排的会议都具有 URL 前缀 https://和现有会议与用户帐户一起迁移。</span><span class="sxs-lookup"><span data-stu-id="f580c-114">**Meeting URL.**   As in Lync Server 2010, all newly scheduled meetings in Lync Server 2013 have a URL prefix of https:// and existing meetings migrate along with user accounts.</span></span> <span data-ttu-id="f580c-115">但是，Lync Server 2013 不支持 Office 通信服务器 2007 R2 R2 会议呼叫（conf://URL 前缀）或 web 会议（meet://URL 前缀）。</span><span class="sxs-lookup"><span data-stu-id="f580c-115">However, Lync Server 2013 does not support the Office Communications Server 2007 R2 conference call (conf:// URL prefix) or web conference (meet:// URL prefix).</span></span> <span data-ttu-id="f580c-116">有关详细信息，请参阅本主题后面部分中的 "从 Office 通信服务器 2007 R2 迁移会议"。</span><span class="sxs-lookup"><span data-stu-id="f580c-116">See “Migrating Meetings from Office Communications Server 2007 R2” later in this topic for more information.</span></span>
 
-<span data-ttu-id="1726f-117">**客户端支持。**   与 lync server 2010 不同，lync server 2013 不支持用于会议的 Office Communicator 客户端。</span><span class="sxs-lookup"><span data-stu-id="1726f-117">**Client support.**   Unlike Lync Server 2010, Lync Server 2013 does not support Office Communicator clients for conferencing.</span></span> <span data-ttu-id="1726f-118">您不能使用以下客户端加入通过 Lync 2013 的联机会议外接程序安排的会议：</span><span class="sxs-lookup"><span data-stu-id="1726f-118">You cannot use the following clients to join meetings scheduled through the Online Meeting Add-in for Lync 2013:</span></span>
+<span data-ttu-id="f580c-117">**客户端支持。**   与 lync server 2010 不同，lync server 2013 不支持用于会议的 Office Communicator 客户端。</span><span class="sxs-lookup"><span data-stu-id="f580c-117">**Client support.**   Unlike Lync Server 2010, Lync Server 2013 does not support Office Communicator clients for conferencing.</span></span> <span data-ttu-id="f580c-118">您不能使用以下客户端加入通过 Lync 2013 的联机会议外接程序安排的会议：</span><span class="sxs-lookup"><span data-stu-id="f580c-118">You cannot use the following clients to join meetings scheduled through the Online Meeting Add-in for Lync 2013:</span></span>
 
-  - <span data-ttu-id="1726f-119">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="1726f-119">Office Communicator 2007 R2</span></span>
+  - <span data-ttu-id="f580c-119">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="f580c-119">Office Communicator 2007 R2</span></span>
 
-  - <span data-ttu-id="1726f-120">Microsoft Office Communications Server 2007 R2 Attendant</span><span class="sxs-lookup"><span data-stu-id="1726f-120">Microsoft Office Communications Server 2007 R2 Attendant</span></span>
+  - <span data-ttu-id="f580c-120">Microsoft Office Communications Server 2007 R2 Attendant</span><span class="sxs-lookup"><span data-stu-id="f580c-120">Microsoft Office Communications Server 2007 R2 Attendant</span></span>
 
-  - <span data-ttu-id="1726f-121">Office Communicator 2007</span><span class="sxs-lookup"><span data-stu-id="1726f-121">Office Communicator 2007</span></span>
+  - <span data-ttu-id="f580c-121">Office Communicator 2007</span><span class="sxs-lookup"><span data-stu-id="f580c-121">Office Communicator 2007</span></span>
 
-  - <span data-ttu-id="1726f-122">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="1726f-122">Office Live Meeting 2007</span></span>
+  - <span data-ttu-id="f580c-122">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="f580c-122">Office Live Meeting 2007</span></span>
 
-<span data-ttu-id="1726f-123">在迁移过程中，Office Communicator 2007 R2 用户应使用 Lync Web App 2013 加入 Lync Server 2013 会议，直到他们的客户端升级。</span><span class="sxs-lookup"><span data-stu-id="1726f-123">During migration, Office Communicator 2007 R2 users should use Lync Web App 2013 to join Lync Server 2013 meetings until their clients are upgraded.</span></span> <span data-ttu-id="1726f-124">请注意，Office Communicator 2007 R2 用户可以继续对 Lync Server 2013 使用其现有客户端，了解状态和 IM 功能，但不支持会议功能。</span><span class="sxs-lookup"><span data-stu-id="1726f-124">Note that Office Communicator 2007 R2 users can continue to use their existing client against Lync Server 2013 for presence and IM features, but conferencing features are not supported.</span></span>
+<span data-ttu-id="f580c-123">在迁移过程中，Office Communicator 2007 R2 用户应使用 Lync Web App 2013 加入 Lync Server 2013 会议，直到他们的客户端升级。</span><span class="sxs-lookup"><span data-stu-id="f580c-123">During migration, Office Communicator 2007 R2 users should use Lync Web App 2013 to join Lync Server 2013 meetings until their clients are upgraded.</span></span> <span data-ttu-id="f580c-124">请注意，Office Communicator 2007 R2 用户可以继续对 Lync Server 2013 使用其现有客户端，了解状态和 IM 功能，但不支持会议功能。</span><span class="sxs-lookup"><span data-stu-id="f580c-124">Note that Office Communicator 2007 R2 users can continue to use their existing client against Lync Server 2013 for presence and IM features, but conferencing features are not supported.</span></span>
 
 <div>
 
@@ -80,69 +80,45 @@ ms.locfileid: "42149632"
 
 <div>
 
-## <a name="migrating-users-based-on-their-conferencing-needs"></a><span data-ttu-id="1726f-125">根据会议需要迁移用户</span><span class="sxs-lookup"><span data-stu-id="1726f-125">Migrating Users Based on Their Conferencing Needs</span></span>
+## <a name="migrating-users-based-on-their-conferencing-needs"></a><span data-ttu-id="f580c-125">根据会议需要迁移用户</span><span class="sxs-lookup"><span data-stu-id="f580c-125">Migrating Users Based on Their Conferencing Needs</span></span>
 
-<span data-ttu-id="1726f-126">**会议组织者频繁。**   请考虑在该过程的早期阶段迁移频繁的会议组织者，以便他们能够利用[lync Server 2013 的新会议功能](lync-server-2013-new-conferencing-features.md)中概述的新 Lync server 2013 和 lync 2013 功能，以及[lync server 2013 中的客户端的新增](lync-server-2013-what-s-new-for-clients.md)功能。</span><span class="sxs-lookup"><span data-stu-id="1726f-126">**Frequent meeting organizers.**   Consider migrating frequent meeting organizers early in the process so that they can take advantage of the new Lync Server 2013 and Lync 2013 features outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
+<span data-ttu-id="f580c-126">**会议组织者频繁。**   请考虑在该过程的早期阶段迁移频繁的会议组织者，以便他们能够利用[lync Server 2013 的新会议功能](lync-server-2013-new-conferencing-features.md)中概述的新 Lync server 2013 和 lync 2013 功能，以及[lync server 2013 中的客户端的新增](lync-server-2013-what-s-new-for-clients.md)功能。</span><span class="sxs-lookup"><span data-stu-id="f580c-126">**Frequent meeting organizers.**   Consider migrating frequent meeting organizers early in the process so that they can take advantage of the new Lync Server 2013 and Lync 2013 features outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
 
-<span data-ttu-id="1726f-127">**Live Meeting 用户。**   如果要从 Office 通信服务器 2007 R2 进行迁移，并且您的用户需要特定于 Live Meeting 的 web 会议功能，尤其是对大型会议和出在会议室的支持，您可以选择以下选项：</span><span class="sxs-lookup"><span data-stu-id="1726f-127">**Live Meeting users.**   If you are migrating from Office Communications Server 2007 R2 and you have users who need web conferencing features specific to Live Meeting—particularly support for large meetings and break-out rooms—you have the following options:</span></span>
+<span data-ttu-id="f580c-127">**Live Meeting 用户。**   如果要从 Office 通信服务器 2007 R2 进行迁移，并且您的用户需要特定于 Live Meeting 的 web 会议功能，尤其是对大型会议和出在会议室的支持，您可以选择以下选项：</span><span class="sxs-lookup"><span data-stu-id="f580c-127">**Live Meeting users.**   If you are migrating from Office Communications Server 2007 R2 and you have users who need web conferencing features specific to Live Meeting—particularly support for large meetings and break-out rooms—you have the following options:</span></span>
 
-  - <span data-ttu-id="1726f-128">建议组织者使用 Live Meeting 服务（如果在组织中可用）。</span><span class="sxs-lookup"><span data-stu-id="1726f-128">Advise organizers to use the Live Meeting service, if available in your organization.</span></span>
+  - <span data-ttu-id="f580c-128">建议组织者使用 Live Meeting 服务（如果在组织中可用）。</span><span class="sxs-lookup"><span data-stu-id="f580c-128">Advise organizers to use the Live Meeting service, if available in your organization.</span></span>
 
-  - <span data-ttu-id="1726f-129">让组织者驻留在 Office 通信服务器的早期版本上，以便他们可以继续安排基于服务器的 Live Meeting web 会议。</span><span class="sxs-lookup"><span data-stu-id="1726f-129">Leave the organizers homed on the earlier version of Office Communications Server, so they can continue to schedule server-based Live Meeting web conferences.</span></span>
-
-</div>
-
-<div>
-
-## <a name="migrating-existing-meetings-and-meeting-content"></a><span data-ttu-id="1726f-130">迁移现有会议和会议内容</span><span class="sxs-lookup"><span data-stu-id="1726f-130">Migrating Existing Meetings and Meeting Content</span></span>
-
-<div>
-
-## <a name="migrating-meetings-from-lync-server-2010"></a><span data-ttu-id="1726f-131">从 Lync Server 2010 迁移会议</span><span class="sxs-lookup"><span data-stu-id="1726f-131">Migrating Meetings from Lync Server 2010</span></span>
-
-<span data-ttu-id="1726f-132">将用户从 Lync Server 2010 移动到 Lync Server 2013 时，以下信息将随用户帐户一起移动：</span><span class="sxs-lookup"><span data-stu-id="1726f-132">When you move a user from Lync Server 2010 to Lync Server 2013, the following information moves with the user’s account:</span></span>
-
-  - <span data-ttu-id="1726f-133">先前由用户安排的会议。</span><span class="sxs-lookup"><span data-stu-id="1726f-133">Meetings already scheduled by the user.</span></span> <span data-ttu-id="1726f-134">这包括会议目录和会议数据。</span><span class="sxs-lookup"><span data-stu-id="1726f-134">This includes conferencing directories and conferencing data.</span></span>
-
-  - <span data-ttu-id="1726f-135">用户的个人标识号 (PIN)。</span><span class="sxs-lookup"><span data-stu-id="1726f-135">The user’s personal identification number (PIN).</span></span> <span data-ttu-id="1726f-136">用户的当前 PIN 在到期或用户请求新 PIN 之前仍然有效。</span><span class="sxs-lookup"><span data-stu-id="1726f-136">The user’s current PIN continues to work until it expires or the user requests a new PIN.</span></span>
-
-<span data-ttu-id="1726f-137">但是，以下用户帐户信息不会移动到新服务器：</span><span class="sxs-lookup"><span data-stu-id="1726f-137">However, the following user account information does not move to the new server:</span></span>
-
-  - <span data-ttu-id="1726f-138">会议内容，例如 PowerPoint 演示文稿、白板内容和轮询数据</span><span class="sxs-lookup"><span data-stu-id="1726f-138">Meeting content, for example PowerPoint presentations, whiteboard content, and poll data</span></span>
-
-<span data-ttu-id="1726f-139">若要移动会议中已共享的内容，请使用 Get-csuser cmdlet 的 MoveMeetingContent 参数。</span><span class="sxs-lookup"><span data-stu-id="1726f-139">To move the content that has been shared in meetings, use the MoveMeetingContent parameter of the Move-CsUser cmdlet.</span></span> <span data-ttu-id="1726f-140">有关使用此 cmdlet 的详细信息，请参阅 Lync Server 2013 cmdlet 文档中的[get-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 。</span><span class="sxs-lookup"><span data-stu-id="1726f-140">For details about using this cmdlet, see [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) in the Lync Server 2013 cmdlets documentation.</span></span>
+  - <span data-ttu-id="f580c-129">让组织者驻留在 Office 通信服务器的早期版本上，以便他们可以继续安排基于服务器的 Live Meeting web 会议。</span><span class="sxs-lookup"><span data-stu-id="f580c-129">Leave the organizers homed on the earlier version of Office Communications Server, so they can continue to schedule server-based Live Meeting web conferences.</span></span>
 
 </div>
 
 <div>
 
-## <a name="migrating-meetings-from-office-communications-server-2007-r2"></a><span data-ttu-id="1726f-141">从 Office 通信服务器 2007 R2 迁移会议</span><span class="sxs-lookup"><span data-stu-id="1726f-141">Migrating Meetings from Office Communications Server 2007 R2</span></span>
+## <a name="migrating-existing-meetings-and-meeting-content"></a><span data-ttu-id="f580c-130">迁移现有会议和会议内容</span><span class="sxs-lookup"><span data-stu-id="f580c-130">Migrating Existing Meetings and Meeting Content</span></span>
 
-<span data-ttu-id="1726f-142">Office 通信服务器 2007 R2 会议可以是会议呼叫（conf://URL 前缀），也可以是 web 会议（meet://URL 前缀）。</span><span class="sxs-lookup"><span data-stu-id="1726f-142">Office Communications Server 2007 R2 meetings are either conference calls (conf:// URL prefix) or web conferences (meet:// URL prefix).</span></span> <span data-ttu-id="1726f-143">Lync Server 2013 不支持这些早期的 conf://和 meet://会议，它们不会与用户帐户一起迁移。</span><span class="sxs-lookup"><span data-stu-id="1726f-143">Lync Server 2013 does not support these earlier conf:// and meet:// conferences, and they are not migrated along with the user account.</span></span> <span data-ttu-id="1726f-144">迁移后，应指示用户为他们安排的任何联机会议更新链接。</span><span class="sxs-lookup"><span data-stu-id="1726f-144">After migration, you should instruct users to update the links for any online meetings they have scheduled.</span></span> <span data-ttu-id="1726f-145">在安装 Lync 2013 客户端后，他们可以通过打开计划会议邀请（更新会议 URL）并将邀请重新发送给参与者来执行此操作。</span><span class="sxs-lookup"><span data-stu-id="1726f-145">They can do this after installing the Lync 2013 client by opening a scheduled meeting invitation—which updates the meeting URL—and resending the invitation to participants.</span></span>
+<div>
 
-</div>
+## <a name="migrating-meetings-from-lync-server-2010"></a><span data-ttu-id="f580c-131">从 Lync Server 2010 迁移会议</span><span class="sxs-lookup"><span data-stu-id="f580c-131">Migrating Meetings from Lync Server 2010</span></span>
+
+<span data-ttu-id="f580c-132">将用户从 Lync Server 2010 移动到 Lync Server 2013 时，以下信息将随用户帐户一起移动：</span><span class="sxs-lookup"><span data-stu-id="f580c-132">When you move a user from Lync Server 2010 to Lync Server 2013, the following information moves with the user’s account:</span></span>
+
+  - <span data-ttu-id="f580c-133">先前由用户安排的会议。</span><span class="sxs-lookup"><span data-stu-id="f580c-133">Meetings already scheduled by the user.</span></span> <span data-ttu-id="f580c-134">这包括会议目录和会议数据。</span><span class="sxs-lookup"><span data-stu-id="f580c-134">This includes conferencing directories and conferencing data.</span></span>
+
+  - <span data-ttu-id="f580c-135">用户的个人标识号 (PIN)。</span><span class="sxs-lookup"><span data-stu-id="f580c-135">The user’s personal identification number (PIN).</span></span> <span data-ttu-id="f580c-136">用户的当前 PIN 在到期或用户请求新 PIN 之前仍然有效。</span><span class="sxs-lookup"><span data-stu-id="f580c-136">The user’s current PIN continues to work until it expires or the user requests a new PIN.</span></span>
+
+<span data-ttu-id="f580c-137">但是，以下用户帐户信息不会移动到新服务器：</span><span class="sxs-lookup"><span data-stu-id="f580c-137">However, the following user account information does not move to the new server:</span></span>
+
+  - <span data-ttu-id="f580c-138">会议内容，例如 PowerPoint 演示文稿、白板内容和轮询数据</span><span class="sxs-lookup"><span data-stu-id="f580c-138">Meeting content, for example PowerPoint presentations, whiteboard content, and poll data</span></span>
+
+<span data-ttu-id="f580c-139">若要移动会议中已共享的内容，请使用 Get-csuser cmdlet 的 MoveMeetingContent 参数。</span><span class="sxs-lookup"><span data-stu-id="f580c-139">To move the content that has been shared in meetings, use the MoveMeetingContent parameter of the Move-CsUser cmdlet.</span></span> <span data-ttu-id="f580c-140">有关使用此 cmdlet 的详细信息，请参阅 Lync Server 2013 cmdlet 文档中的[get-csuser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) 。</span><span class="sxs-lookup"><span data-stu-id="f580c-140">For details about using this cmdlet, see [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser) in the Lync Server 2013 cmdlets documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="user-experience-during-lync-server-2010-migration"></a><span data-ttu-id="1726f-146">Lync Server 2010 迁移期间的用户体验</span><span class="sxs-lookup"><span data-stu-id="1726f-146">User Experience during Lync Server 2010 Migration</span></span>
+## <a name="migrating-meetings-from-office-communications-server-2007-r2"></a><span data-ttu-id="f580c-141">从 Office 通信服务器 2007 R2 迁移会议</span><span class="sxs-lookup"><span data-stu-id="f580c-141">Migrating Meetings from Office Communications Server 2007 R2</span></span>
 
-<span data-ttu-id="1726f-147">本节提供从 Lync 2010 迁移时用户的会议体验的摘要。</span><span class="sxs-lookup"><span data-stu-id="1726f-147">This section provides a summary of users’ conferencing experience when migrating from Lync 2010.</span></span> <span data-ttu-id="1726f-148">有关 Lync Server 2013 客户端如何共存以及如何与以前的客户端和服务器版本交互的详细信息，请参阅[Lync 2013 中的客户端互操作性](lync-server-2013-client-interoperability-in-lync-2013.md)。</span><span class="sxs-lookup"><span data-stu-id="1726f-148">For more details about how Lync Server 2013 clients can coexist and interact with previous client and server versions, see [Client interoperability in Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).</span></span>
-
-<div>
-
-## <a name="joining-lync-server-2010-meetings-with-a-lync-2013-client"></a><span data-ttu-id="1726f-149">将 Lync Server 2010 会议与 Lync 2013 客户端加入</span><span class="sxs-lookup"><span data-stu-id="1726f-149">Joining Lync Server 2010 Meetings with a Lync 2013 Client</span></span>
-
-<span data-ttu-id="1726f-150">在从 Lync Server 2010 迁移过程中，当用户加入 lync Server 2010 会议和 Lync 2013 客户端时，可能会有一段共存时间。</span><span class="sxs-lookup"><span data-stu-id="1726f-150">During migration from Lync Server 2010, there may be a period of coexistence when users join Lync Server 2010 meetings with a Lync 2013 client.</span></span> <span data-ttu-id="1726f-151">这些用户有权访问 Lync 2013 客户端功能，但有以下例外：</span><span class="sxs-lookup"><span data-stu-id="1726f-151">These users have access to Lync 2013 client features with the following exceptions:</span></span>
-
-  - <span data-ttu-id="1726f-152">在**参与者**管理选项（可通过指向会议窗口中的 "人员" 图标访问）中，"**无会议即时消息**" 选项不起作用。</span><span class="sxs-lookup"><span data-stu-id="1726f-152">In the **Participants** management options, which are accessible by pointing to the people icon in the meeting window, the **No Meeting IM** option does not function.</span></span>
-
-  - <span data-ttu-id="1726f-153">库视图在视频会议中不起作用。</span><span class="sxs-lookup"><span data-stu-id="1726f-153">Gallery View does not function in video conferences.</span></span> <span data-ttu-id="1726f-154">用户仅看到活动的扬声器，而不是所有扬声器。</span><span class="sxs-lookup"><span data-stu-id="1726f-154">The user sees only the active speaker instead of all speakers.</span></span> <span data-ttu-id="1726f-155">在 "**选取布局**" 选项列表中，"**库视图**" 不可用</span><span class="sxs-lookup"><span data-stu-id="1726f-155">In the list of **Pick a Layout** options, **Gallery View** is unavailable</span></span>
-
-  - <span data-ttu-id="1726f-156">默认情况下，参与者列表在视频会议中显示。</span><span class="sxs-lookup"><span data-stu-id="1726f-156">The participant list displays by default in video conferences.</span></span>
-
-  - <span data-ttu-id="1726f-157">右键单击 "参与者" 列表中的用户时，"**锁定视频焦点**并**固定到库**参与者管理" 选项不可用。</span><span class="sxs-lookup"><span data-stu-id="1726f-157">When right-clicking a user in the participants list, the **Lock the Video Spotlight** and **Pin to Gallery** participant management options are unavailable.</span></span>
+<span data-ttu-id="f580c-142">Office 通信服务器 2007 R2 会议可以是会议呼叫（conf://URL 前缀），也可以是 web 会议（meet://URL 前缀）。</span><span class="sxs-lookup"><span data-stu-id="f580c-142">Office Communications Server 2007 R2 meetings are either conference calls (conf:// URL prefix) or web conferences (meet:// URL prefix).</span></span> <span data-ttu-id="f580c-143">Lync Server 2013 不支持这些早期的 conf://和 meet://会议，它们不会与用户帐户一起迁移。</span><span class="sxs-lookup"><span data-stu-id="f580c-143">Lync Server 2013 does not support these earlier conf:// and meet:// conferences, and they are not migrated along with the user account.</span></span> <span data-ttu-id="f580c-144">迁移后，应指示用户为他们安排的任何联机会议更新链接。</span><span class="sxs-lookup"><span data-stu-id="f580c-144">After migration, you should instruct users to update the links for any online meetings they have scheduled.</span></span> <span data-ttu-id="f580c-145">在安装 Lync 2013 客户端后，他们可以通过打开计划会议邀请（更新会议 URL）并将邀请重新发送给参与者来执行此操作。</span><span class="sxs-lookup"><span data-stu-id="f580c-145">They can do this after installing the Lync 2013 client by opening a scheduled meeting invitation—which updates the meeting URL—and resending the invitation to participants.</span></span>
 
 </div>
 
@@ -150,35 +126,59 @@ ms.locfileid: "42149632"
 
 <div>
 
-## <a name="user-experience-during-office-communications-server-2007-r2-migration"></a><span data-ttu-id="1726f-158">Office 通信服务器 2007 R2 迁移期间的用户体验</span><span class="sxs-lookup"><span data-stu-id="1726f-158">User Experience during Office Communications Server 2007 R2 Migration</span></span>
+## <a name="user-experience-during-lync-server-2010-migration"></a><span data-ttu-id="f580c-146">Lync Server 2010 迁移期间的用户体验</span><span class="sxs-lookup"><span data-stu-id="f580c-146">User Experience during Lync Server 2010 Migration</span></span>
 
-<span data-ttu-id="1726f-159">本部分提供了在安装 Lync 2013 之前和之后从 Office 通信服务器 2007 R2 迁移时用户的会议体验摘要。</span><span class="sxs-lookup"><span data-stu-id="1726f-159">This section provides a summary of users’ conferencing experience when migrating from Office Communications Server 2007 R2, both before and after Lync 2013 is installed.</span></span> <span data-ttu-id="1726f-160">有关 Lync Server 2013 客户端如何共存以及如何与以前的客户端和服务器版本交互的详细信息，请参阅[Lync 2013 中的客户端互操作性](lync-server-2013-client-interoperability-in-lync-2013.md)。</span><span class="sxs-lookup"><span data-stu-id="1726f-160">For more details about how Lync Server 2013 clients can coexist and interact with previous client and server versions, see [Client interoperability in Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).</span></span>
+<span data-ttu-id="f580c-147">本节提供从 Lync 2010 迁移时用户的会议体验的摘要。</span><span class="sxs-lookup"><span data-stu-id="f580c-147">This section provides a summary of users’ conferencing experience when migrating from Lync 2010.</span></span> <span data-ttu-id="f580c-148">有关 Lync Server 2013 客户端如何共存以及如何与以前的客户端和服务器版本交互的详细信息，请参阅[Lync 2013 中的客户端互操作性](lync-server-2013-client-interoperability-in-lync-2013.md)。</span><span class="sxs-lookup"><span data-stu-id="f580c-148">For more details about how Lync Server 2013 clients can coexist and interact with previous client and server versions, see [Client interoperability in Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).</span></span>
 
 <div>
 
-## <a name="after-user-account-is-migrated-before-lync-2013-is-installed"></a><span data-ttu-id="1726f-161">在迁移用户帐户之后，安装 Lync 2013 之前</span><span class="sxs-lookup"><span data-stu-id="1726f-161">After User Account is Migrated, Before Lync 2013 Is Installed</span></span>
+## <a name="joining-lync-server-2010-meetings-with-a-lync-2013-client"></a><span data-ttu-id="f580c-149">将 Lync Server 2010 会议与 Lync 2013 客户端加入</span><span class="sxs-lookup"><span data-stu-id="f580c-149">Joining Lync Server 2010 Meetings with a Lync 2013 Client</span></span>
 
-<span data-ttu-id="1726f-162">将用户迁移到 Lync Server 2013 服务器，但在安装新客户端之前，Office Communicator 2007 R2 用户可以继续使用其现有客户端，使其与 Lync Server 2013 相对应的状态和 IM 功能，但会议功能不会支持.</span><span class="sxs-lookup"><span data-stu-id="1726f-162">After a user is migrated to the Lync Server 2013 server, but before new clients are installed, Office Communicator 2007 R2 users can continue to use their existing client against Lync Server 2013 for presence and IM features, but conferencing features are not supported.</span></span>
+<span data-ttu-id="f580c-150">在从 Lync Server 2010 迁移过程中，当用户加入 lync Server 2010 会议和 Lync 2013 客户端时，可能会有一段共存时间。</span><span class="sxs-lookup"><span data-stu-id="f580c-150">During migration from Lync Server 2010, there may be a period of coexistence when users join Lync Server 2010 meetings with a Lync 2013 client.</span></span> <span data-ttu-id="f580c-151">这些用户有权访问 Lync 2013 客户端功能，但有以下例外：</span><span class="sxs-lookup"><span data-stu-id="f580c-151">These users have access to Lync 2013 client features with the following exceptions:</span></span>
+
+  - <span data-ttu-id="f580c-152">在**参与者**管理选项（可通过指向会议窗口中的 "人员" 图标访问）中，"**无会议即时消息**" 选项不起作用。</span><span class="sxs-lookup"><span data-stu-id="f580c-152">In the **Participants** management options, which are accessible by pointing to the people icon in the meeting window, the **No Meeting IM** option does not function.</span></span>
+
+  - <span data-ttu-id="f580c-153">库视图在视频会议中不起作用。</span><span class="sxs-lookup"><span data-stu-id="f580c-153">Gallery View does not function in video conferences.</span></span> <span data-ttu-id="f580c-154">用户仅看到活动的扬声器，而不是所有扬声器。</span><span class="sxs-lookup"><span data-stu-id="f580c-154">The user sees only the active speaker instead of all speakers.</span></span> <span data-ttu-id="f580c-155">在 "**选取布局**" 选项列表中，"**库视图**" 不可用</span><span class="sxs-lookup"><span data-stu-id="f580c-155">In the list of **Pick a Layout** options, **Gallery View** is unavailable</span></span>
+
+  - <span data-ttu-id="f580c-156">默认情况下，参与者列表在视频会议中显示。</span><span class="sxs-lookup"><span data-stu-id="f580c-156">The participant list displays by default in video conferences.</span></span>
+
+  - <span data-ttu-id="f580c-157">右键单击 "参与者" 列表中的用户时，"**锁定视频焦点**并**固定到库**参与者管理" 选项不可用。</span><span class="sxs-lookup"><span data-stu-id="f580c-157">When right-clicking a user in the participants list, the **Lock the Video Spotlight** and **Pin to Gallery** participant management options are unavailable.</span></span>
+
+</div>
 
 </div>
 
 <div>
 
-## <a name="after-user-account-is-migrated-after-lync-2013-is-installed"></a><span data-ttu-id="1726f-163">在迁移用户帐户后，安装 Lync 2013 之后</span><span class="sxs-lookup"><span data-stu-id="1726f-163">After User Account is Migrated, After Lync 2013 Is Installed</span></span>
+## <a name="user-experience-during-office-communications-server-2007-r2-migration"></a><span data-ttu-id="f580c-158">Office 通信服务器 2007 R2 迁移期间的用户体验</span><span class="sxs-lookup"><span data-stu-id="f580c-158">User Experience during Office Communications Server 2007 R2 Migration</span></span>
 
-<span data-ttu-id="1726f-164">当已迁移的用户安装 Lync 2013 时，将同时安装 Lync 2013 的联机会议外接程序。</span><span class="sxs-lookup"><span data-stu-id="1726f-164">When a migrated user installs Lync 2013, the Online Meeting Add-in for Lync 2013 is installed too.</span></span> <span data-ttu-id="1726f-165">这具有以下效果：</span><span class="sxs-lookup"><span data-stu-id="1726f-165">This has the following effects:</span></span>
+<span data-ttu-id="f580c-159">本部分提供了在安装 Lync 2013 之前和之后从 Office 通信服务器 2007 R2 迁移时用户的会议体验摘要。</span><span class="sxs-lookup"><span data-stu-id="f580c-159">This section provides a summary of users’ conferencing experience when migrating from Office Communications Server 2007 R2, both before and after Lync 2013 is installed.</span></span> <span data-ttu-id="f580c-160">有关 Lync Server 2013 客户端如何共存以及如何与以前的客户端和服务器版本交互的详细信息，请参阅[Lync 2013 中的客户端互操作性](lync-server-2013-client-interoperability-in-lync-2013.md)。</span><span class="sxs-lookup"><span data-stu-id="f580c-160">For more details about how Lync Server 2013 clients can coexist and interact with previous client and server versions, see [Client interoperability in Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).</span></span>
 
-  - <span data-ttu-id="1726f-166">以后安排的所有会议都使用新会议格式，即使用 https:// 地址，而不是旧 meet:// Live Meeting 地址。</span><span class="sxs-lookup"><span data-stu-id="1726f-166">All subsequently scheduled meetings use the new meeting format, which uses an https:// address instead of the legacy meet:// Live Meeting address.</span></span>
+<div>
 
-  - <span data-ttu-id="1726f-167">在 Lync 2013 的 IT 托管部署中，管理员可以选择卸载 Microsoft Office Outlook 的会议外接程序，该外接程序用于安排 Live Meeting 服务器和基于服务的会议。</span><span class="sxs-lookup"><span data-stu-id="1726f-167">In an IT-managed deployment of Lync 2013, the administrator has the option of uninstalling the Conferencing Add-in for Microsoft Office Outlook, which is used to schedule Live Meeting server and service-based meetings.</span></span> <span data-ttu-id="1726f-168">然而，您的用户可能需要继续安排 Live Meeting 服务会议。</span><span class="sxs-lookup"><span data-stu-id="1726f-168">However, you may have users who need to continue to schedule Live Meeting service meetings.</span></span> <span data-ttu-id="1726f-169">在这种情况下，您可以允许两个外接程序共存。</span><span class="sxs-lookup"><span data-stu-id="1726f-169">In this case, you can allow both add-ins to coexist.</span></span>
+## <a name="after-user-account-is-migrated-before-lync-2013-is-installed"></a><span data-ttu-id="f580c-161">在迁移用户帐户之后，安装 Lync 2013 之前</span><span class="sxs-lookup"><span data-stu-id="f580c-161">After User Account is Migrated, Before Lync 2013 Is Installed</span></span>
+
+<span data-ttu-id="f580c-162">将用户迁移到 Lync Server 2013 服务器，但在安装新客户端之前，Office Communicator 2007 R2 用户可以继续使用其现有客户端，使其与 Lync Server 2013 相对应的状态和 IM 功能，但会议功能不会支持.</span><span class="sxs-lookup"><span data-stu-id="f580c-162">After a user is migrated to the Lync Server 2013 server, but before new clients are installed, Office Communicator 2007 R2 users can continue to use their existing client against Lync Server 2013 for presence and IM features, but conferencing features are not supported.</span></span>
 
 </div>
 
 <div>
 
-## <a name="meetings-with-federated-organizations-that-use-previous-clients"></a><span data-ttu-id="1726f-170">与使用早期客户端的联盟组织召开的会议</span><span class="sxs-lookup"><span data-stu-id="1726f-170">Meetings with Federated Organizations that Use Previous Clients</span></span>
+## <a name="after-user-account-is-migrated-after-lync-2013-is-installed"></a><span data-ttu-id="f580c-163">在迁移用户帐户后，安装 Lync 2013 之后</span><span class="sxs-lookup"><span data-stu-id="f580c-163">After User Account is Migrated, After Lync 2013 Is Installed</span></span>
 
-<span data-ttu-id="1726f-171">联合组织中使用 Microsoft Office Communicator 2007 的用户无法加入组织中的 Lync Server 2013 会议（如果组织已锁定这些会议）。</span><span class="sxs-lookup"><span data-stu-id="1726f-171">Users in federated organizations who are using Microsoft Office Communicator 2007 cannot join Lync Server 2013 meetings in your organization if those meetings are locked by the organizer.</span></span> <span data-ttu-id="1726f-172">您必须在 Lync Server 2013 中重新安排这些会议，以便在联合参与者使用新的 https://会议 URL 加入会议时，他们可以使用 Lync Web App。</span><span class="sxs-lookup"><span data-stu-id="1726f-172">You have to reschedule these meetings in Lync Server 2013 so when federated participants join the meeting by using the new https:// meeting URL, they can use Lync Web App.</span></span>
+<span data-ttu-id="f580c-164">当已迁移的用户安装 Lync 2013 时，将同时安装 Lync 2013 的联机会议外接程序。</span><span class="sxs-lookup"><span data-stu-id="f580c-164">When a migrated user installs Lync 2013, the Online Meeting Add-in for Lync 2013 is installed too.</span></span> <span data-ttu-id="f580c-165">这具有以下效果：</span><span class="sxs-lookup"><span data-stu-id="f580c-165">This has the following effects:</span></span>
+
+  - <span data-ttu-id="f580c-166">以后安排的所有会议都使用新会议格式，即使用 https:// 地址，而不是旧 meet:// Live Meeting 地址。</span><span class="sxs-lookup"><span data-stu-id="f580c-166">All subsequently scheduled meetings use the new meeting format, which uses an https:// address instead of the legacy meet:// Live Meeting address.</span></span>
+
+  - <span data-ttu-id="f580c-167">在 Lync 2013 的 IT 托管部署中，管理员可以选择卸载 Microsoft Office Outlook 的会议外接程序，该外接程序用于安排 Live Meeting 服务器和基于服务的会议。</span><span class="sxs-lookup"><span data-stu-id="f580c-167">In an IT-managed deployment of Lync 2013, the administrator has the option of uninstalling the Conferencing Add-in for Microsoft Office Outlook, which is used to schedule Live Meeting server and service-based meetings.</span></span> <span data-ttu-id="f580c-168">然而，您的用户可能需要继续安排 Live Meeting 服务会议。</span><span class="sxs-lookup"><span data-stu-id="f580c-168">However, you may have users who need to continue to schedule Live Meeting service meetings.</span></span> <span data-ttu-id="f580c-169">在这种情况下，您可以允许两个外接程序共存。</span><span class="sxs-lookup"><span data-stu-id="f580c-169">In this case, you can allow both add-ins to coexist.</span></span>
+
+</div>
+
+<div>
+
+## <a name="meetings-with-federated-organizations-that-use-previous-clients"></a><span data-ttu-id="f580c-170">与使用早期客户端的联盟组织召开的会议</span><span class="sxs-lookup"><span data-stu-id="f580c-170">Meetings with Federated Organizations that Use Previous Clients</span></span>
+
+<span data-ttu-id="f580c-171">联合组织中使用 Microsoft Office Communicator 2007 的用户无法加入组织中的 Lync Server 2013 会议（如果组织已锁定这些会议）。</span><span class="sxs-lookup"><span data-stu-id="f580c-171">Users in federated organizations who are using Microsoft Office Communicator 2007 cannot join Lync Server 2013 meetings in your organization if those meetings are locked by the organizer.</span></span> <span data-ttu-id="f580c-172">您必须在 Lync Server 2013 中重新安排这些会议，以便在联合参与者使用新的 https://会议 URL 加入会议时，他们可以使用 Lync Web App。</span><span class="sxs-lookup"><span data-stu-id="f580c-172">You have to reschedule these meetings in Lync Server 2013 so when federated participants join the meeting by using the new https:// meeting URL, they can use Lync Web App.</span></span>
 
 </div>
 

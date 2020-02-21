@@ -12,20 +12,20 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6b42f172932687e1e654afba64a3b32fa222b83
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3b786cfe0c2adea3237ac02c69e2a3381e160e3c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153824"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186645"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="legal-information-for-lync-server-2013"></a><span data-ttu-id="f61e9-102">Lync Server 2013 的法律信息</span><span class="sxs-lookup"><span data-stu-id="f61e9-102">Legal information for Lync Server 2013</span></span>
+# <a name="legal-information-for-lync-server-2013"></a><span data-ttu-id="11cf6-102">Lync Server 2013 的法律信息</span><span class="sxs-lookup"><span data-stu-id="11cf6-102">Legal information for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42153824"
 
 <span> </span>
 
-<span data-ttu-id="f61e9-103">_**上次修改的主题：** 2011-02-22_</span><span class="sxs-lookup"><span data-stu-id="f61e9-103">_**Topic Last Modified:** 2011-02-22_</span></span>
+<span data-ttu-id="11cf6-103">_**上次修改的主题：** 2011-02-22_</span><span class="sxs-lookup"><span data-stu-id="11cf6-103">_**Topic Last Modified:** 2011-02-22_</span></span>
 
-<span data-ttu-id="f61e9-p101">本文档按原样提供。文中所述信息和观点（包括 URL 和其他 Internet 网站引用）可能随时发生更改，恕不另行通知。</span><span class="sxs-lookup"><span data-stu-id="f61e9-p101">This document is provided “as-is”. Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.</span></span>
+<span data-ttu-id="11cf6-p101">本文档按原样提供。文中所述信息和观点（包括 URL 和其他 Internet 网站引用）可能随时发生更改，恕不另行通知。</span><span class="sxs-lookup"><span data-stu-id="11cf6-p101">This document is provided “as-is”. Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.</span></span>
 
-<span data-ttu-id="f61e9-p102">此处所述的某些示例仅为说明起见而提供，纯属虚构。不存在真实关联或连接，请勿妄加推测。</span><span class="sxs-lookup"><span data-stu-id="f61e9-p102">Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.</span></span>
+<span data-ttu-id="11cf6-p102">此处所述的某些示例仅为说明起见而提供，纯属虚构。不存在真实关联或连接，请勿妄加推测。</span><span class="sxs-lookup"><span data-stu-id="11cf6-p102">Some examples depicted herein are provided for illustration only and are fictitious. No real association or connection is intended or should be inferred.</span></span>
 
-<span data-ttu-id="f61e9-p103">本文档并不为您提供对任何 Microsoft 产品中任何知识产权的任何法律权利。您可以出于内部参考目的复制和使用本文档。</span><span class="sxs-lookup"><span data-stu-id="f61e9-p103">This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.</span></span>
+<span data-ttu-id="11cf6-p103">本文档并不为您提供对任何 Microsoft 产品中任何知识产权的任何法律权利。您可以出于内部参考目的复制和使用本文档。</span><span class="sxs-lookup"><span data-stu-id="11cf6-p103">This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.</span></span>
 
-<span data-ttu-id="f61e9-110">版权所有© 2013 Microsoft Corporation。</span><span class="sxs-lookup"><span data-stu-id="f61e9-110">Copyright © 2013 Microsoft Corporation.</span></span> <span data-ttu-id="f61e9-111">保留所有权利。</span><span class="sxs-lookup"><span data-stu-id="f61e9-111">All rights reserved.</span></span>
+<span data-ttu-id="11cf6-110">版权所有© 2013 Microsoft Corporation。</span><span class="sxs-lookup"><span data-stu-id="11cf6-110">Copyright © 2013 Microsoft Corporation.</span></span> <span data-ttu-id="11cf6-111">保留所有权利。</span><span class="sxs-lookup"><span data-stu-id="11cf6-111">All rights reserved.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d10f7ff042c36b35cb3b1c7f9785636d6352068d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8e9b88ed1b933ca0c01e566d228fe552ff3c4549
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149381"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modifying-user-account-properties-in-lync-server-2013"></a><span data-ttu-id="df4ca-102">在 Lync Server 2013 中修改用户帐户属性</span><span class="sxs-lookup"><span data-stu-id="df4ca-102">Modifying user account properties in Lync Server 2013</span></span>
+# <a name="modifying-user-account-properties-in-lync-server-2013"></a><span data-ttu-id="41e69-102">在 Lync Server 2013 中修改用户帐户属性</span><span class="sxs-lookup"><span data-stu-id="41e69-102">Modifying user account properties in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42149381"
 
 <span> </span>
 
-<span data-ttu-id="df4ca-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="df4ca-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="41e69-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="41e69-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="df4ca-104">您可以使用本节中的过程修改各个用户帐户属性。</span><span class="sxs-lookup"><span data-stu-id="df4ca-104">You can use the procedures in this section to modify individual user account properties.</span></span>
+<span data-ttu-id="41e69-104">您可以使用本节中的过程修改各个用户帐户属性。</span><span class="sxs-lookup"><span data-stu-id="41e69-104">You can use the procedures in this section to modify individual user account properties.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="df4ca-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="df4ca-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="41e69-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="41e69-105">In This Section</span></span>
 
-  - [<span data-ttu-id="df4ca-106">在 Lync Server 2013 中为用户配置电话服务</span><span class="sxs-lookup"><span data-stu-id="df4ca-106">Configure telephony for a user in Lync Server 2013</span></span>](lync-server-2013-configure-telephony-for-a-user.md)
+  - [<span data-ttu-id="41e69-106">在 Lync Server 2013 中为用户配置电话服务</span><span class="sxs-lookup"><span data-stu-id="41e69-106">Configure telephony for a user in Lync Server 2013</span></span>](lync-server-2013-configure-telephony-for-a-user.md)
 
-  - [<span data-ttu-id="df4ca-107">在 Lync Server 2013 中将用户移动到另一个池</span><span class="sxs-lookup"><span data-stu-id="df4ca-107">Move users to another pool in Lync Server 2013</span></span>](lync-server-2013-move-users-to-another-pool.md)
+  - [<span data-ttu-id="41e69-107">在 Lync Server 2013 中将用户移动到另一个池</span><span class="sxs-lookup"><span data-stu-id="41e69-107">Move users to another pool in Lync Server 2013</span></span>](lync-server-2013-move-users-to-another-pool.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="df4ca-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="df4ca-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="41e69-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="41e69-108">See Also</span></span>
 
 
-[<span data-ttu-id="df4ca-109">为 Lync Server 2013 启用的用户帐户</span><span class="sxs-lookup"><span data-stu-id="df4ca-109">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-[<span data-ttu-id="df4ca-110">在 Lync Server 2013 中分配每用户策略</span><span class="sxs-lookup"><span data-stu-id="df4ca-110">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)  
+[<span data-ttu-id="41e69-109">为 Lync Server 2013 启用的用户帐户</span><span class="sxs-lookup"><span data-stu-id="41e69-109">User accounts enabled for Lync Server 2013</span></span>](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
+[<span data-ttu-id="41e69-110">在 Lync Server 2013 中分配每用户策略</span><span class="sxs-lookup"><span data-stu-id="41e69-110">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)  
   
 
 </div>

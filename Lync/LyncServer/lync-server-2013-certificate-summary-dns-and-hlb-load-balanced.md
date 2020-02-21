@@ -12,20 +12,20 @@ ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e915a8b9d7e339453c687d269ed10bc744ab761b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 055f1eea81f67281384e6a6124b5c72cee6d823f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135339"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="708cb-102">Lync Server 2013 中的证书摘要-DNS 和 HLB 负载平衡</span><span class="sxs-lookup"><span data-stu-id="708cb-102">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>
+# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="d6fe0-102">Lync Server 2013 中的证书摘要-DNS 和 HLB 负载平衡</span><span class="sxs-lookup"><span data-stu-id="d6fe0-102">Certificate summary - DNS and HLB load balanced in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42135339"
 
 <span> </span>
 
-<span data-ttu-id="708cb-103">_**上次修改的主题：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="708cb-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="d6fe0-103">_**上次修改的主题：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="d6fe0-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="708cb-104">具有 DNS 负载平衡和硬件负载平衡器的 Director 的证书要求将使用一个默认证书，该证书具有可接收的服务的主题名称和使用者替代名称。</span><span class="sxs-lookup"><span data-stu-id="708cb-104">Certificate requirements for a Director with DNS load balancing and a hardware load balancer will use a default certificate that has a subject name and subject alternative names for services that the Director can receive.</span></span> <span data-ttu-id="708cb-105">为池中的每个控制器请求一个证书。</span><span class="sxs-lookup"><span data-stu-id="708cb-105">A certificate is requested for each Director in the pool.</span></span> <span data-ttu-id="708cb-106">请务必记住，硬件负载平衡器仅对来自反向代理的流量进行负载平衡。</span><span class="sxs-lookup"><span data-stu-id="708cb-106">It is important to remember that the hardware load balancer is load balancing only the traffic from the reverse proxy.</span></span> <span data-ttu-id="708cb-107">此外，还有安装在每台服务器上用于服务器到服务器身份验证的 OAuth 令牌证书。</span><span class="sxs-lookup"><span data-stu-id="708cb-107">Additionally, there is an OAuth Token certificate for server to server authentication purposes that is installed on each server.</span></span>
+<span data-ttu-id="d6fe0-104">具有 DNS 负载平衡和硬件负载平衡器的 Director 的证书要求将使用一个默认证书，该证书具有可接收的服务的主题名称和使用者替代名称。</span><span class="sxs-lookup"><span data-stu-id="d6fe0-104">Certificate requirements for a Director with DNS load balancing and a hardware load balancer will use a default certificate that has a subject name and subject alternative names for services that the Director can receive.</span></span> <span data-ttu-id="d6fe0-105">为池中的每个控制器请求一个证书。</span><span class="sxs-lookup"><span data-stu-id="d6fe0-105">A certificate is requested for each Director in the pool.</span></span> <span data-ttu-id="d6fe0-106">请务必记住，硬件负载平衡器仅对来自反向代理的流量进行负载平衡。</span><span class="sxs-lookup"><span data-stu-id="d6fe0-106">It is important to remember that the hardware load balancer is load balancing only the traffic from the reverse proxy.</span></span> <span data-ttu-id="d6fe0-107">此外，还有安装在每台服务器上用于服务器到服务器身份验证的 OAuth 令牌证书。</span><span class="sxs-lookup"><span data-stu-id="d6fe0-107">Additionally, there is an OAuth Token certificate for server to server authentication purposes that is installed on each server.</span></span>
 
-### <a name="certificates-for-director"></a><span data-ttu-id="708cb-108">控制器的证书</span><span class="sxs-lookup"><span data-stu-id="708cb-108">Certificates for Director</span></span>
+### <a name="certificates-for-director"></a><span data-ttu-id="d6fe0-108">控制器的证书</span><span class="sxs-lookup"><span data-stu-id="d6fe0-108">Certificates for Director</span></span>
 
 <table>
 <colgroup>
@@ -50,39 +50,39 @@ ms.locfileid: "42135339"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="708cb-109">组件</span><span class="sxs-lookup"><span data-stu-id="708cb-109">Component</span></span></th>
-<th><span data-ttu-id="708cb-110">使用者名称 (SN)</span><span class="sxs-lookup"><span data-stu-id="708cb-110">Subject name (SN)</span></span></th>
-<th><span data-ttu-id="708cb-111">使用者替代名称 (SAN)</span><span class="sxs-lookup"><span data-stu-id="708cb-111">Subject alternative names (SAN)</span></span></th>
-<th><span data-ttu-id="708cb-112">注释</span><span class="sxs-lookup"><span data-stu-id="708cb-112">Comments</span></span></th>
+<th><span data-ttu-id="d6fe0-109">组件</span><span class="sxs-lookup"><span data-stu-id="d6fe0-109">Component</span></span></th>
+<th><span data-ttu-id="d6fe0-110">使用者名称 (SN)</span><span class="sxs-lookup"><span data-stu-id="d6fe0-110">Subject name (SN)</span></span></th>
+<th><span data-ttu-id="d6fe0-111">使用者替代名称 (SAN)</span><span class="sxs-lookup"><span data-stu-id="d6fe0-111">Subject alternative names (SAN)</span></span></th>
+<th><span data-ttu-id="d6fe0-112">备注</span><span class="sxs-lookup"><span data-stu-id="d6fe0-112">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="708cb-113">默认值</span><span class="sxs-lookup"><span data-stu-id="708cb-113">Default</span></span></p></td>
-<td><p><span data-ttu-id="708cb-114">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="708cb-114">dirpool01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="708cb-115">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="708cb-115">dirpool01.contoso.net</span></span></p>
-<p><span data-ttu-id="708cb-116">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="708cb-116">dir01.contoso.net</span></span></p>
-<p><span data-ttu-id="708cb-117">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="708cb-117">dialin.contoso.com</span></span></p>
-<p><span data-ttu-id="708cb-118">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="708cb-118">meet.contoso.com</span></span></p>
-<p><span data-ttu-id="708cb-119">lyncdiscoverinternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="708cb-119">lyncdiscoverinternal.contoso.com</span></span></p>
-<p><span data-ttu-id="708cb-120">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="708cb-120">lyncdiscover.contoso.com</span></span></p>
-<p><span data-ttu-id="708cb-121">（可选）\*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="708cb-121">(Optionally) \*.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="708cb-122">可以从内部托管的证书颁发机构（CA）或公用 CA 请求控制器证书。</span><span class="sxs-lookup"><span data-stu-id="708cb-122">Director certificates can be requested from either an internally managed certification authority (CA) or from a public CA.</span></span></p>
-<p><span data-ttu-id="708cb-123">Director 响应来自周边或边缘服务器的反向代理的请求。</span><span class="sxs-lookup"><span data-stu-id="708cb-123">The Director responds to requests from the reverse proxy in the perimeter or from the Edge Server.</span></span> <span data-ttu-id="708cb-124">内部客户端将不使用控制器。</span><span class="sxs-lookup"><span data-stu-id="708cb-124">Internal clients will not use the Director.</span></span></p>
-<p><span data-ttu-id="708cb-125">或者，简单 URL 的通配符条目</span><span class="sxs-lookup"><span data-stu-id="708cb-125">Or, a wildcard entry for the simple URLs</span></span></p></td>
+<td><p><span data-ttu-id="d6fe0-113">默认值</span><span class="sxs-lookup"><span data-stu-id="d6fe0-113">Default</span></span></p></td>
+<td><p><span data-ttu-id="d6fe0-114">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="d6fe0-114">dirpool01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="d6fe0-115">dirpool01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="d6fe0-115">dirpool01.contoso.net</span></span></p>
+<p><span data-ttu-id="d6fe0-116">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="d6fe0-116">dir01.contoso.net</span></span></p>
+<p><span data-ttu-id="d6fe0-117">dialin.contoso.com</span><span class="sxs-lookup"><span data-stu-id="d6fe0-117">dialin.contoso.com</span></span></p>
+<p><span data-ttu-id="d6fe0-118">meet.contoso.com</span><span class="sxs-lookup"><span data-stu-id="d6fe0-118">meet.contoso.com</span></span></p>
+<p><span data-ttu-id="d6fe0-119">lyncdiscoverinternal.contoso.com</span><span class="sxs-lookup"><span data-stu-id="d6fe0-119">lyncdiscoverinternal.contoso.com</span></span></p>
+<p><span data-ttu-id="d6fe0-120">lyncdiscover.contoso.com</span><span class="sxs-lookup"><span data-stu-id="d6fe0-120">lyncdiscover.contoso.com</span></span></p>
+<p><span data-ttu-id="d6fe0-121">（可选）\*.contoso.com</span><span class="sxs-lookup"><span data-stu-id="d6fe0-121">(Optionally) \*.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="d6fe0-122">可以从内部托管的证书颁发机构（CA）或公用 CA 请求控制器证书。</span><span class="sxs-lookup"><span data-stu-id="d6fe0-122">Director certificates can be requested from either an internally managed certification authority (CA) or from a public CA.</span></span></p>
+<p><span data-ttu-id="d6fe0-123">Director 响应来自周边或边缘服务器的反向代理的请求。</span><span class="sxs-lookup"><span data-stu-id="d6fe0-123">The Director responds to requests from the reverse proxy in the perimeter or from the Edge Server.</span></span> <span data-ttu-id="d6fe0-124">内部客户端将不使用控制器。</span><span class="sxs-lookup"><span data-stu-id="d6fe0-124">Internal clients will not use the Director.</span></span></p>
+<p><span data-ttu-id="d6fe0-125">或者，简单 URL 的通配符条目</span><span class="sxs-lookup"><span data-stu-id="d6fe0-125">Or, a wildcard entry for the simple URLs</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="708cb-126">OAuthTokenIssuer</span><span class="sxs-lookup"><span data-stu-id="708cb-126">OAuthTokenIssuer</span></span></p></td>
-<td><p><span data-ttu-id="708cb-127">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="708cb-127">dir01.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="708cb-128">无条目</span><span class="sxs-lookup"><span data-stu-id="708cb-128">No Entry</span></span></p></td>
+<td><p><span data-ttu-id="d6fe0-126">OAuthTokenIssuer</span><span class="sxs-lookup"><span data-stu-id="d6fe0-126">OAuthTokenIssuer</span></span></p></td>
+<td><p><span data-ttu-id="d6fe0-127">dir01.contoso.net</span><span class="sxs-lookup"><span data-stu-id="d6fe0-127">dir01.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="d6fe0-128">无条目</span><span class="sxs-lookup"><span data-stu-id="d6fe0-128">No Entry</span></span></p></td>
 <td><div>
 
 > [!IMPORTANT]  
-> <span data-ttu-id="708cb-129">请注意，最小密钥长度为 1024，但您可能收到一条警告，告知建议的最小密钥长度为 2048 位。</span><span class="sxs-lookup"><span data-stu-id="708cb-129">Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.</span></span>
+> <span data-ttu-id="d6fe0-129">请注意，最小密钥长度为 1024，但您可能收到一条警告，告知建议的最小密钥长度为 2048 位。</span><span class="sxs-lookup"><span data-stu-id="d6fe0-129">Note that the minimum key length is 1024, but you may receive a warning that the minimum recommended key length is 2048 bits.</span></span>
 
 
 </div>
-<p><span data-ttu-id="708cb-p103">OAuthTokenIssuer 证书是单用途证书，用于在大型环境中对服务器进行身份验证，并且可从内部 CA 或公共 CA 请求。此证书是必需的。</span><span class="sxs-lookup"><span data-stu-id="708cb-p103">The OAuthTokenIssuer certificate is a single-purpose certificate for the purpose of authenticating servers in a large-scale environment, and can be requested from an internal CA or from a public CA. The certificate is required.</span></span></p></td>
+<p><span data-ttu-id="d6fe0-p103">OAuthTokenIssuer 证书是单用途证书，用于在大型环境中对服务器进行身份验证，并且可从内部 CA 或公共 CA 请求。此证书是必需的。</span><span class="sxs-lookup"><span data-stu-id="d6fe0-p103">The OAuthTokenIssuer certificate is a single-purpose certificate for the purpose of authenticating servers in a large-scale environment, and can be requested from an internal CA or from a public CA. The certificate is required.</span></span></p></td>
 </tr>
 </tbody>
 </table>

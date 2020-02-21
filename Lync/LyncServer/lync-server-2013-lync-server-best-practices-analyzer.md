@@ -12,20 +12,20 @@ ms:contentKeyID: 48183768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12abb701c39cf10d7375287ce63fef879fab6899
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1e8714da9a0efba78339fb18df912ca504969122
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150413"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-best-practices-analyzer"></a><span data-ttu-id="11005-102">Lync Server 2013 最佳做法分析器</span><span class="sxs-lookup"><span data-stu-id="11005-102">Lync Server 2013 Best Practices Analyzer</span></span>
+# <a name="lync-server-2013-best-practices-analyzer"></a><span data-ttu-id="dfed4-102">Lync Server 2013 最佳做法分析器</span><span class="sxs-lookup"><span data-stu-id="dfed4-102">Lync Server 2013 Best Practices Analyzer</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42150413"
 
 <span> </span>
 
-<span data-ttu-id="11005-103">_**上次修改的主题：** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="11005-103">_**Topic Last Modified:** 2012-06-13_</span></span>
+<span data-ttu-id="dfed4-103">_**上次修改的主题：** 2012-06-13_</span><span class="sxs-lookup"><span data-stu-id="dfed4-103">_**Topic Last Modified:** 2012-06-13_</span></span>
 
-<span data-ttu-id="11005-104">Lync Server 2013，最佳实践分析工具是一种诊断工具，可从 Lync Server 2013 环境中收集配置信息，并确定是否根据 Microsoft 最佳实践设置配置。</span><span class="sxs-lookup"><span data-stu-id="11005-104">Lync Server 2013, Best Practices Analyzer is a diagnostic tool that gathers configuration information from Lync Server 2013 environments and determines whether the configuration is set according to Microsoft best practices.</span></span>
+<span data-ttu-id="dfed4-104">Lync Server 2013，最佳实践分析工具是一种诊断工具，可从 Lync Server 2013 环境中收集配置信息，并确定是否根据 Microsoft 最佳实践设置配置。</span><span class="sxs-lookup"><span data-stu-id="dfed4-104">Lync Server 2013, Best Practices Analyzer is a diagnostic tool that gathers configuration information from Lync Server 2013 environments and determines whether the configuration is set according to Microsoft best practices.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="11005-105">Lync Server 2013，最佳实践分析工具仅在 Lync Server 2013 组件中扫描和报告问题。</span><span class="sxs-lookup"><span data-stu-id="11005-105">Lync Server 2013, Best Practices Analyzer scans and reports issues only with Lync Server 2013 components.</span></span> <span data-ttu-id="11005-106">如果您的部署包括 Lync Server 2010 或 Office 通信服务器 2007 R2 组件，请使用早期版本的最佳实践分析程序来分析这些组件。</span><span class="sxs-lookup"><span data-stu-id="11005-106">If your deployment includes Lync Server 2010 or Office Communications Server 2007 R2 components, use the previous version of Best Practices Analyzer to analyze those components.</span></span> <span data-ttu-id="11005-107">有关详细信息，请参阅<A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中运行最佳实践分析工具的要求</A>。</span><span class="sxs-lookup"><span data-stu-id="11005-107">For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="dfed4-105">Lync Server 2013，最佳实践分析工具仅在 Lync Server 2013 组件中扫描和报告问题。</span><span class="sxs-lookup"><span data-stu-id="dfed4-105">Lync Server 2013, Best Practices Analyzer scans and reports issues only with Lync Server 2013 components.</span></span> <span data-ttu-id="dfed4-106">如果您的部署包括 Lync Server 2010 或 Office 通信服务器 2007 R2 组件，请使用早期版本的最佳实践分析程序来分析这些组件。</span><span class="sxs-lookup"><span data-stu-id="dfed4-106">If your deployment includes Lync Server 2010 or Office Communications Server 2007 R2 components, use the previous version of Best Practices Analyzer to analyze those components.</span></span> <span data-ttu-id="dfed4-107">有关详细信息，请参阅<A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中运行最佳实践分析工具的要求</A>。</span><span class="sxs-lookup"><span data-stu-id="dfed4-107">For details, see <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for running Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
 
 
@@ -51,15 +51,15 @@ ms.locfileid: "42150413"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="11005-108">本部分内容</span><span class="sxs-lookup"><span data-stu-id="11005-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="dfed4-108">本部分内容</span><span class="sxs-lookup"><span data-stu-id="dfed4-108">In This Section</span></span>
 
-  - [<span data-ttu-id="11005-109">Lync Server 2013 中的最佳实践分析工具概述</span><span class="sxs-lookup"><span data-stu-id="11005-109">Overview of Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-overview-of-best-practices-analyzer.md)
+  - [<span data-ttu-id="dfed4-109">Lync Server 2013 中的最佳实践分析工具概述</span><span class="sxs-lookup"><span data-stu-id="dfed4-109">Overview of Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-overview-of-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="11005-110">在 Lync Server 2013 中准备和安装最佳实践分析程序</span><span class="sxs-lookup"><span data-stu-id="11005-110">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
+  - [<span data-ttu-id="dfed4-110">在 Lync Server 2013 中准备和安装最佳实践分析程序</span><span class="sxs-lookup"><span data-stu-id="dfed4-110">Preparing for and installing Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
 
-  - [<span data-ttu-id="11005-111">使用最佳实践分析程序识别 Lync Server 2013 部署中的潜在问题</span><span class="sxs-lookup"><span data-stu-id="11005-111">Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment</span></span>](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
+  - [<span data-ttu-id="dfed4-111">使用最佳实践分析程序识别 Lync Server 2013 部署中的潜在问题</span><span class="sxs-lookup"><span data-stu-id="dfed4-111">Using Best Practices Analyzer to identify potential issues in your Lync Server 2013 deployment</span></span>](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
 
-  - [<span data-ttu-id="11005-112">使用扫描结果分析和解决 Lync Server 2013 中的最佳实践分析工具报告的问题</span><span class="sxs-lookup"><span data-stu-id="11005-112">Using scan results to analyze and resolve issues reported by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
+  - [<span data-ttu-id="dfed4-112">使用扫描结果分析和解决 Lync Server 2013 中的最佳实践分析工具报告的问题</span><span class="sxs-lookup"><span data-stu-id="dfed4-112">Using scan results to analyze and resolve issues reported by Best Practices Analyzer in Lync Server 2013</span></span>](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
 
 </div>
 
