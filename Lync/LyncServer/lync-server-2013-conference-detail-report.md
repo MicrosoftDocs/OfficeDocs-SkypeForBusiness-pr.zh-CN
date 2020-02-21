@@ -12,16 +12,16 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e51dc2a6834241e355f4a681e4b4d55ef95438fb
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 670696a0945464486e0872b17df330a6ca8140b7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136439"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42188605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -81,7 +81,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -129,7 +129,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -186,7 +186,7 @@ _**上次修改的主题：** 2012-10-22_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
