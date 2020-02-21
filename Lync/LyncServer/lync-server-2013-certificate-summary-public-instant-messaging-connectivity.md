@@ -12,16 +12,16 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcbcb7d00eb21f4dcbce2c8d632df44c10a43a26
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3cacf411f348199376e1564be37f683854480872
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151182"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -56,7 +56,7 @@ _**上次修改的主题：** 2013-02-19_
 <th>组件</th>
 <th>使用者名称</th>
 <th>使用者替代名称 (SAN)/顺序</th>
-<th>注释</th>
+<th>备注</th>
 </tr>
 </thead>
 <tbody>

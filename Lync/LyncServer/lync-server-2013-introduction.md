@@ -12,16 +12,16 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 892985a42e11a7f0b3466ad66e35ad5cf6c29ec4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 2b25a989913db4e76b306eaaf7efba38612a2315
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153644"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186865"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -50,7 +50,7 @@ Lync Server 2013 及其客户端软件（如 Lync 2013）使用户能够以新�
 <thead>
 <tr class="header">
 <th>Workload</th>
-<th>说明</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
