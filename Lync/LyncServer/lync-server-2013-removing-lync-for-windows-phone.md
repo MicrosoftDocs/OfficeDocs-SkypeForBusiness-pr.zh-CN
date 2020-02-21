@@ -12,20 +12,20 @@ ms:contentKeyID: 51541510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f49a256cafc56b247763566ca23174444d97b35
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f477342c7f625100e8198d9173ef8a4a43e0558a
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152114"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183235"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="removing-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="7b57d-102">在 Lync Server 2013 中删除适用于 Windows Phone 的 Lync</span><span class="sxs-lookup"><span data-stu-id="7b57d-102">Removing Lync for Windows Phone in Lync Server 2013</span></span>
+# <a name="removing-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="4243e-102">在 Lync Server 2013 中删除适用于 Windows Phone 的 Lync</span><span class="sxs-lookup"><span data-stu-id="4243e-102">Removing Lync for Windows Phone in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42152114"
 
 <span> </span>
 
-<span data-ttu-id="7b57d-103">_**上次修改的主题：** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="7b57d-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="4243e-103">_**上次修改的主题：** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="4243e-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="7b57d-104">若要从移动设备中删除适用于 Windows Phone 应用程序的 Lync 2013，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="7b57d-104">To remove the Lync 2013 for Windows Phone application from the mobile device, perform the following steps:</span></span>
+<span data-ttu-id="4243e-104">若要从移动设备中删除适用于 Windows Phone 应用程序的 Lync 2013，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="4243e-104">To remove the Lync 2013 for Windows Phone application from the mobile device, perform the following steps:</span></span>
 
-1.  <span data-ttu-id="7b57d-105">在移动设备上，从开始屏幕上滑动手指以查看应用程序列表。</span><span class="sxs-lookup"><span data-stu-id="7b57d-105">On the mobile device, from the start screen, swipe to see the application list.</span></span>
+1.  <span data-ttu-id="4243e-105">在移动设备上，从开始屏幕上滑动手指以查看应用程序列表。</span><span class="sxs-lookup"><span data-stu-id="4243e-105">On the mobile device, from the start screen, swipe to see the application list.</span></span>
 
-2.  <span data-ttu-id="7b57d-106">按住 Lync 应用程序，然后选择“卸载”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="7b57d-106">Tap and hold the Lync application, and then select **Uninstall**.</span></span>
+2.  <span data-ttu-id="4243e-106">按住 Lync 应用程序，然后选择“卸载”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4243e-106">Tap and hold the Lync application, and then select **Uninstall**.</span></span>
 
 </div>
 

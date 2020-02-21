@@ -12,20 +12,20 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e721131ef7a7d649a270080cb18f01017e950ef
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8d086b00bb7db15d76fbde998a0508ef2e961efa
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42143204"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182105"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="46c4b-102">在 Lync Server 2013 中设置边缘服务器</span><span class="sxs-lookup"><span data-stu-id="46c4b-102">Setting up Edge Servers in Lync Server 2013</span></span>
+# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="cf5eb-102">在 Lync Server 2013 中设置边缘服务器</span><span class="sxs-lookup"><span data-stu-id="cf5eb-102">Setting up Edge Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42143204"
 
 <span> </span>
 
-<span data-ttu-id="46c4b-103">_**上次修改的主题：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="46c4b-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="cf5eb-103">_**上次修改的主题：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="cf5eb-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="46c4b-104">设置边缘服务器所需的主要任务与安装单个边缘服务器或边缘服务器的负载平衡池的任务相同，不同之处在于硬件负载平衡边缘服务器池需要部署负载平衡器，还需要执行用于复制多个边缘服务器上的设置的其他步骤。</span><span class="sxs-lookup"><span data-stu-id="46c4b-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
+<span data-ttu-id="cf5eb-104">设置边缘服务器所需的主要任务与安装单个边缘服务器或边缘服务器的负载平衡池的任务相同，不同之处在于硬件负载平衡边缘服务器池需要部署负载平衡器，还需要执行用于复制多个边缘服务器上的设置的其他步骤。</span><span class="sxs-lookup"><span data-stu-id="cf5eb-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="46c4b-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="46c4b-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cf5eb-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="cf5eb-105">In This Section</span></span>
 
-  - [<span data-ttu-id="46c4b-106">在 Lync Server 2013 中设置边缘服务器的网络接口</span><span class="sxs-lookup"><span data-stu-id="46c4b-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
+  - [<span data-ttu-id="cf5eb-106">在 Lync Server 2013 中设置边缘服务器的网络接口</span><span class="sxs-lookup"><span data-stu-id="cf5eb-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [<span data-ttu-id="46c4b-107">在适用于 Lync Server 2013 的边缘服务器上安装必备软件</span><span class="sxs-lookup"><span data-stu-id="46c4b-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [<span data-ttu-id="cf5eb-107">在适用于 Lync Server 2013 的边缘服务器上安装必备软件</span><span class="sxs-lookup"><span data-stu-id="cf5eb-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [<span data-ttu-id="46c4b-108">导出 Lync Server 2013 拓扑并将其复制到外部媒体以进行边缘安装</span><span class="sxs-lookup"><span data-stu-id="46c4b-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [<span data-ttu-id="cf5eb-108">导出 Lync Server 2013 拓扑并将其复制到外部媒体以进行边缘安装</span><span class="sxs-lookup"><span data-stu-id="cf5eb-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
-  - [<span data-ttu-id="46c4b-109">安装适用于 Lync Server 2013 的边缘服务器</span><span class="sxs-lookup"><span data-stu-id="46c4b-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
+  - [<span data-ttu-id="cf5eb-109">安装适用于 Lync Server 2013 的边缘服务器</span><span class="sxs-lookup"><span data-stu-id="cf5eb-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
 
-  - [<span data-ttu-id="46c4b-110">为 Lync Server 2013 设置边缘证书</span><span class="sxs-lookup"><span data-stu-id="46c4b-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
+  - [<span data-ttu-id="cf5eb-110">为 Lync Server 2013 设置边缘证书</span><span class="sxs-lookup"><span data-stu-id="cf5eb-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
 
-  - [<span data-ttu-id="46c4b-111">在 Lync Server 2013 中启动边缘服务器</span><span class="sxs-lookup"><span data-stu-id="46c4b-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
+  - [<span data-ttu-id="cf5eb-111">在 Lync Server 2013 中启动边缘服务器</span><span class="sxs-lookup"><span data-stu-id="cf5eb-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
 
-  - [<span data-ttu-id="46c4b-112">为 Lync Server 2013 设置反向代理服务器</span><span class="sxs-lookup"><span data-stu-id="46c4b-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
+  - [<span data-ttu-id="cf5eb-112">为 Lync Server 2013 设置反向代理服务器</span><span class="sxs-lookup"><span data-stu-id="cf5eb-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
 
 </div>
 

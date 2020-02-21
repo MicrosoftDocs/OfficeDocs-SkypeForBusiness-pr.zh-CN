@@ -12,20 +12,20 @@ ms:contentKeyID: 48185291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d03cec1dd2397b8471788f5c4661305e7ea93e42
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9c7a4e6ede9afe8d521d8dea3bd9350801588b90
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42143310"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42182195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="set-up-certificates-for-the-reverse-proxy-in-lync-server-2013"></a><span data-ttu-id="10822-102">在 Lync Server 2013 中为反向代理设置证书</span><span class="sxs-lookup"><span data-stu-id="10822-102">Set up certificates for the reverse proxy in Lync Server 2013</span></span>
+# <a name="set-up-certificates-for-the-reverse-proxy-in-lync-server-2013"></a><span data-ttu-id="c3fae-102">在 Lync Server 2013 中为反向代理设置证书</span><span class="sxs-lookup"><span data-stu-id="c3fae-102">Set up certificates for the reverse proxy in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42143310"
 
 <span> </span>
 
-<span data-ttu-id="10822-103">_**上次修改的主题：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="10822-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="c3fae-103">_**上次修改的主题：** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="c3fae-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="10822-p101">每台反向代理服务器都需要一个 Web 服务器证书，以供侦听服务使用。该 Web 服务器证书必须是由公共证书颁发机构 (CA) 颁发的。</span><span class="sxs-lookup"><span data-stu-id="10822-p101">Each reverse proxy server requires a web server certificate for use by the listening service. The web server certificate must be issued by a public certification authority (CA).</span></span>
+<span data-ttu-id="c3fae-p101">每台反向代理服务器都需要一个 Web 服务器证书，以供侦听服务使用。该 Web 服务器证书必须是由公共证书颁发机构 (CA) 颁发的。</span><span class="sxs-lookup"><span data-stu-id="c3fae-p101">Each reverse proxy server requires a web server certificate for use by the listening service. The web server certificate must be issued by a public certification authority (CA).</span></span>
 
-<span data-ttu-id="10822-106">有关此证书和其他证书要求的详细信息，请参阅[Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="10822-106">For details about this and other certificate requirements, see [Certificate requirements for external user access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).</span></span>
+<span data-ttu-id="c3fae-106">有关此证书和其他证书要求的详细信息，请参阅[Lync Server 2013 中的外部用户访问的证书要求](lync-server-2013-certificate-requirements-for-external-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="c3fae-106">For details about this and other certificate requirements, see [Certificate requirements for external user access in Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).</span></span>
 
 <div>
 
-## <a name="to-set-up-a-web-services-certificate-for-the-reverse-proxy"></a><span data-ttu-id="10822-107">为反向代理设置 Web 服务证书</span><span class="sxs-lookup"><span data-stu-id="10822-107">To set up a Web Services certificate for the reverse proxy</span></span>
+## <a name="to-set-up-a-web-services-certificate-for-the-reverse-proxy"></a><span data-ttu-id="c3fae-107">为反向代理设置 Web 服务证书</span><span class="sxs-lookup"><span data-stu-id="c3fae-107">To set up a Web Services certificate for the reverse proxy</span></span>
 
-  - <span data-ttu-id="10822-108">您应该已经设置了反向代理，包括设置 Web 服务证书。</span><span class="sxs-lookup"><span data-stu-id="10822-108">You should have already set up your reverse proxy, including setting up the Web Services certificate.</span></span> <span data-ttu-id="10822-109">如果在启动边缘服务器的部署之前未执行此操作，请使用为[Lync Server 2013 设置反向代理服务器](lync-server-2013-setting-up-reverse-proxy-servers.md)中的过程来创建请求并安装 web 服务证书，然后创建每个 web 发布规则并将其配置为使用证书。</span><span class="sxs-lookup"><span data-stu-id="10822-109">If you did not do so before starting your deployment of your Edge Servers, use the procedures in [Setting up reverse proxy servers for Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) to create request and install the Web Services certificate, and then create each web publishing rule and configure it to use the certificate.</span></span>
+  - <span data-ttu-id="c3fae-108">您应该已经设置了反向代理，包括设置 Web 服务证书。</span><span class="sxs-lookup"><span data-stu-id="c3fae-108">You should have already set up your reverse proxy, including setting up the Web Services certificate.</span></span> <span data-ttu-id="c3fae-109">如果在启动边缘服务器的部署之前未执行此操作，请使用为[Lync Server 2013 设置反向代理服务器](lync-server-2013-setting-up-reverse-proxy-servers.md)中的过程来创建请求并安装 web 服务证书，然后创建每个 web 发布规则并将其配置为使用证书。</span><span class="sxs-lookup"><span data-stu-id="c3fae-109">If you did not do so before starting your deployment of your Edge Servers, use the procedures in [Setting up reverse proxy servers for Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) to create request and install the Web Services certificate, and then create each web publishing rule and configure it to use the certificate.</span></span>
 
 </div>
 

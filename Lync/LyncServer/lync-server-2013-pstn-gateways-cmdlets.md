@@ -12,20 +12,20 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e78b921b5d8a7d174d5b939398f3f85ae26b77
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 52930a4a6f1e128630a96254e9b84d8806776c81
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138993"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a><span data-ttu-id="68ee1-102">Lync Server 2013 中的 PSTN 网关 cmdlet</span><span class="sxs-lookup"><span data-stu-id="68ee1-102">PSTN gateways cmdlets in Lync Server 2013</span></span>
+# <a name="pstn-gateways-cmdlets-in-lync-server-2013"></a><span data-ttu-id="d70f3-102">Lync Server 2013 中的 PSTN 网关 cmdlet</span><span class="sxs-lookup"><span data-stu-id="d70f3-102">PSTN gateways cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,44 +35,44 @@ ms.locfileid: "42138993"
 
 <span> </span>
 
-<span data-ttu-id="68ee1-103">_**上次修改的主题：** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="68ee1-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="d70f3-103">_**上次修改的主题：** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="d70f3-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="68ee1-p101">PSTN 网关使企业语音用户不仅能够对 PSTN 网络（即公用电话交换网）上的人员进行电话呼叫，也能够接收来自 PSTN 网络上的人员的电话呼叫。这些网关充当中介服务器和 PSTN 网络之间的网桥。</span><span class="sxs-lookup"><span data-stu-id="68ee1-p101">PSTN gateways enable your Enterprise Voice users to make phone calls to, and receive phone calls from, people on the PSTN network (that is, the public switched telephone network). These gateways act as a bridge between the Mediation Server and the PSTN network.</span></span>
+<span data-ttu-id="d70f3-p101">PSTN 网关使企业语音用户不仅能够对 PSTN 网络（即公用电话交换网）上的人员进行电话呼叫，也能够接收来自 PSTN 网络上的人员的电话呼叫。这些网关充当中介服务器和 PSTN 网络之间的网桥。</span><span class="sxs-lookup"><span data-stu-id="d70f3-p101">PSTN gateways enable your Enterprise Voice users to make phone calls to, and receive phone calls from, people on the PSTN network (that is, the public switched telephone network). These gateways act as a bridge between the Mediation Server and the PSTN network.</span></span>
 
 <div>
 
-## <a name="pstn-gateways-cmdlets"></a><span data-ttu-id="68ee1-106">PSTN 网关 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="68ee1-106">PSTN Gateways Cmdlets</span></span>
+## <a name="pstn-gateways-cmdlets"></a><span data-ttu-id="d70f3-106">PSTN 网关 Cmdlet</span><span class="sxs-lookup"><span data-stu-id="d70f3-106">PSTN Gateways Cmdlets</span></span>
 
-<span data-ttu-id="68ee1-107">通过 [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) 和 [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlet，您可以验证用户能否通过 PSTN 网络进行呼叫。</span><span class="sxs-lookup"><span data-stu-id="68ee1-107">The [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) and [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlets enable you to verify that users are able to make call over the PSTN network.</span></span>
+<span data-ttu-id="d70f3-107">通过 [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) 和 [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlet，您可以验证用户能否通过 PSTN 网络进行呼叫。</span><span class="sxs-lookup"><span data-stu-id="d70f3-107">The [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15)) and [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15)) cmdlets enable you to verify that users are able to make call over the PSTN network.</span></span>
 
-<span data-ttu-id="68ee1-108">**PSTN 网关**</span><span class="sxs-lookup"><span data-stu-id="68ee1-108">**PSTN Gateways**</span></span>
+<span data-ttu-id="d70f3-108">**PSTN 网关**</span><span class="sxs-lookup"><span data-stu-id="d70f3-108">**PSTN Gateways**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="68ee1-109">[CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="68ee1-109">[Set-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span></span>
+    <span data-ttu-id="d70f3-109">[CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d70f3-109">[Set-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="68ee1-110">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="68ee1-110">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span></span>
+    <span data-ttu-id="d70f3-110">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d70f3-110">[Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="68ee1-111">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="68ee1-111">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span></span>
+    <span data-ttu-id="d70f3-111">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d70f3-111">[Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="68ee1-112">[Set-csmediationserver](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="68ee1-112">[Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span></span>
+    <span data-ttu-id="d70f3-112">[Set-csmediationserver](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="d70f3-112">[Set-CsMediationServer](https://technet.microsoft.com/library/Gg398213(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="68ee1-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="68ee1-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d70f3-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d70f3-113">See Also</span></span>
 
 
-[<span data-ttu-id="68ee1-114">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="68ee1-114">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="d70f3-114">Lync Server PowerShell 博客</span><span class="sxs-lookup"><span data-stu-id="d70f3-114">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

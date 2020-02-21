@@ -12,20 +12,20 @@ ms:contentKeyID: 48184377
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae8ea746ba8ea2ddea8d696d42865324da60ecbc
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 6e57d982983bdd5ca0f85235cd44bc2fba5b1bf7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152570"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183695"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a><span data-ttu-id="1b3e7-102">在 Lync Server 2013 中准备锁定的 Active Directory 域服务</span><span class="sxs-lookup"><span data-stu-id="1b3e7-102">Preparing a locked-down Active Directory Domain Services in Lync Server 2013</span></span>
+# <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a><span data-ttu-id="ac223-102">在 Lync Server 2013 中准备锁定的 Active Directory 域服务</span><span class="sxs-lookup"><span data-stu-id="ac223-102">Preparing a locked-down Active Directory Domain Services in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42152570"
 
 <span> </span>
 
-<span data-ttu-id="1b3e7-103">_**上次修改的主题：** 2012-05-14_</span><span class="sxs-lookup"><span data-stu-id="1b3e7-103">_**Topic Last Modified:** 2012-05-14_</span></span>
+<span data-ttu-id="ac223-103">_**上次修改的主题：** 2012-05-14_</span><span class="sxs-lookup"><span data-stu-id="ac223-103">_**Topic Last Modified:** 2012-05-14_</span></span>
 
-<span data-ttu-id="1b3e7-104">组织通常会锁定 Active Directory 域服务以帮助缓解安全风险。</span><span class="sxs-lookup"><span data-stu-id="1b3e7-104">Organizations often lock down Active Directory Domain Services to help mitigate security risks.</span></span> <span data-ttu-id="1b3e7-105">但是，锁定的 Active Directory 环境可以限制 Lync Server 2013 所需的权限。</span><span class="sxs-lookup"><span data-stu-id="1b3e7-105">However, a locked-down Active Directory environment can limit the permissions that Lync Server 2013 requires.</span></span> <span data-ttu-id="1b3e7-106">为 Lync Server 2013 正确准备锁定的 Active Directory 环境涉及一些额外的注意事项和步骤。</span><span class="sxs-lookup"><span data-stu-id="1b3e7-106">Properly preparing a locked-down Active Directory environment for Lync Server 2013 involves some additional considerations and steps.</span></span>
+<span data-ttu-id="ac223-104">组织通常会锁定 Active Directory 域服务以帮助缓解安全风险。</span><span class="sxs-lookup"><span data-stu-id="ac223-104">Organizations often lock down Active Directory Domain Services to help mitigate security risks.</span></span> <span data-ttu-id="ac223-105">但是，锁定的 Active Directory 环境可以限制 Lync Server 2013 所需的权限。</span><span class="sxs-lookup"><span data-stu-id="ac223-105">However, a locked-down Active Directory environment can limit the permissions that Lync Server 2013 requires.</span></span> <span data-ttu-id="ac223-106">为 Lync Server 2013 正确准备锁定的 Active Directory 环境涉及一些额外的注意事项和步骤。</span><span class="sxs-lookup"><span data-stu-id="ac223-106">Properly preparing a locked-down Active Directory environment for Lync Server 2013 involves some additional considerations and steps.</span></span>
 
-<span data-ttu-id="1b3e7-107">在锁定的 Active Directory 环境中，权限以如下两种常见方式受到限制：</span><span class="sxs-lookup"><span data-stu-id="1b3e7-107">Two common ways in which permissions are limited in a locked-down Active Directory environment are as follows:</span></span>
+<span data-ttu-id="ac223-107">在锁定的 Active Directory 环境中，权限以如下两种常见方式受到限制：</span><span class="sxs-lookup"><span data-stu-id="ac223-107">Two common ways in which permissions are limited in a locked-down Active Directory environment are as follows:</span></span>
 
-  - <span data-ttu-id="1b3e7-108">从容器中删除经过身份验证的用户的访问控制项 (ACE)。</span><span class="sxs-lookup"><span data-stu-id="1b3e7-108">Authenticated user access control entries (ACEs) are removed from containers.</span></span>
+  - <span data-ttu-id="ac223-108">从容器中删除经过身份验证的用户的访问控制项 (ACE)。</span><span class="sxs-lookup"><span data-stu-id="ac223-108">Authenticated user access control entries (ACEs) are removed from containers.</span></span>
 
-  - <span data-ttu-id="1b3e7-109">权限继承在用户、联系人、InetOrgPerson 或计算机对象的容器上被禁用。</span><span class="sxs-lookup"><span data-stu-id="1b3e7-109">Permissions inheritance is disabled on containers of User, Contact, InetOrgPerson, or Computer objects.</span></span>
+  - <span data-ttu-id="ac223-109">权限继承在用户、联系人、InetOrgPerson 或计算机对象的容器上被禁用。</span><span class="sxs-lookup"><span data-stu-id="ac223-109">Permissions inheritance is disabled on containers of User, Contact, InetOrgPerson, or Computer objects.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1b3e7-110">本节内容</span><span class="sxs-lookup"><span data-stu-id="1b3e7-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ac223-110">本节内容</span><span class="sxs-lookup"><span data-stu-id="ac223-110">In This Section</span></span>
 
-  - [<span data-ttu-id="1b3e7-111">在 Lync Server 2013 中删除经过身份验证的用户权限</span><span class="sxs-lookup"><span data-stu-id="1b3e7-111">Authenticated user permissions are removed in Lync Server 2013</span></span>](lync-server-2013-authenticated-user-permissions-are-removed.md)
+  - [<span data-ttu-id="ac223-111">在 Lync Server 2013 中删除经过身份验证的用户权限</span><span class="sxs-lookup"><span data-stu-id="ac223-111">Authenticated user permissions are removed in Lync Server 2013</span></span>](lync-server-2013-authenticated-user-permissions-are-removed.md)
 
-  - [<span data-ttu-id="1b3e7-112">在 Lync Server 2013 中的计算机、用户或 InetOrgPerson 容器上禁用权限继承</span><span class="sxs-lookup"><span data-stu-id="1b3e7-112">Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers in Lync Server 2013</span></span>](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
+  - [<span data-ttu-id="ac223-112">在 Lync Server 2013 中的计算机、用户或 InetOrgPerson 容器上禁用权限继承</span><span class="sxs-lookup"><span data-stu-id="ac223-112">Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers in Lync Server 2013</span></span>](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
 
 </div>
 
