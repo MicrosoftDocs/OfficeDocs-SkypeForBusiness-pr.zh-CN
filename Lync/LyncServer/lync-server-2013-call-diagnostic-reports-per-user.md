@@ -12,20 +12,20 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b858aa1adbb567fd05c320838b0891f7dea9f8d9
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 128f8acd543a0b1d2eb9f196d3915726786cd7d7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134258"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42196335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a><span data-ttu-id="1fd8b-102">Lync Server 2013 中的呼叫诊断报告（每用户）</span><span class="sxs-lookup"><span data-stu-id="1fd8b-102">Call Diagnostic Reports (per user) in Lync Server 2013</span></span>
+# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a><span data-ttu-id="d15b8-102">Lync Server 2013 中的呼叫诊断报告（每用户）</span><span class="sxs-lookup"><span data-stu-id="d15b8-102">Call Diagnostic Reports (per user) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42134258"
 
 <span> </span>
 
-<span data-ttu-id="1fd8b-103">_**上次修改的主题：** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="1fd8b-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="d15b8-103">_**上次修改的主题：** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="d15b8-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="1fd8b-104">呼叫诊断报告提供有关失败的点对点会话和会议会话的每用户信息。</span><span class="sxs-lookup"><span data-stu-id="1fd8b-104">The Call Diagnostic Reports provide per-user information about failed peer-to-peer and conferencing sessions.</span></span>
+<span data-ttu-id="d15b8-104">呼叫诊断报告提供有关失败的点对点会话和会议会话的每用户信息。</span><span class="sxs-lookup"><span data-stu-id="d15b8-104">The Call Diagnostic Reports provide per-user information about failed peer-to-peer and conferencing sessions.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="1fd8b-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="1fd8b-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d15b8-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="d15b8-105">In This Section</span></span>
 
-  - <span data-ttu-id="1fd8b-106">[Lync Server 2013](lync-server-2013-user-activity-report.md)   中的用户活动报告，提供了有关每个用户的对等活动和会议活动的信息。</span><span class="sxs-lookup"><span data-stu-id="1fd8b-106">[User Activity Report in Lync Server 2013](lync-server-2013-user-activity-report.md)   Provides information about peer-to-peer and conference activities for each of your users.</span></span>
+  - <span data-ttu-id="d15b8-106">[Lync Server 2013](lync-server-2013-user-activity-report.md)   中的用户活动报告，提供了有关每个用户的对等活动和会议活动的信息。</span><span class="sxs-lookup"><span data-stu-id="d15b8-106">[User Activity Report in Lync Server 2013](lync-server-2013-user-activity-report.md)   Provides information about peer-to-peer and conference activities for each of your users.</span></span>
 
 </div>
 
