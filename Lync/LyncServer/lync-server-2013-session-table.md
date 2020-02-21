@@ -12,20 +12,20 @@ ms:contentKeyID: 48184626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 554491ebdc09789a2704835dc0dce3ddc34f8b0b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f927957f21c67a8cfca6b169b99f7de9275740fe
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42143898"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="session-table-in-lync-server-2013"></a><span data-ttu-id="5a424-102">Lync Server 2013 中的会话表</span><span class="sxs-lookup"><span data-stu-id="5a424-102">Session table in Lync Server 2013</span></span>
+# <a name="session-table-in-lync-server-2013"></a><span data-ttu-id="a639e-102">Lync Server 2013 中的会话表</span><span class="sxs-lookup"><span data-stu-id="a639e-102">Session table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42143898"
 
 <span> </span>
 
-<span data-ttu-id="5a424-103">_**上次修改的主题：** 2013-09-09_</span><span class="sxs-lookup"><span data-stu-id="5a424-103">_**Topic Last Modified:** 2013-09-09_</span></span>
+<span data-ttu-id="a639e-103">_**上次修改的主题：** 2013-09-09_</span><span class="sxs-lookup"><span data-stu-id="a639e-103">_**Topic Last Modified:** 2013-09-09_</span></span>
 
-<span data-ttu-id="5a424-104">每个记录代表一个涉及音频或音频和视频的会话。</span><span class="sxs-lookup"><span data-stu-id="5a424-104">Each record represents one session which involves audio or audio and video.</span></span> <span data-ttu-id="5a424-105">它包含有关会话的总体信息。</span><span class="sxs-lookup"><span data-stu-id="5a424-105">It contains overall information about the session.</span></span> <span data-ttu-id="5a424-106">会话定义为两个终结点之间的音频或视频会话初始协议（SIP）对话框。</span><span class="sxs-lookup"><span data-stu-id="5a424-106">A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints.</span></span>
+<span data-ttu-id="a639e-104">每个记录代表一个涉及音频或音频和视频的会话。</span><span class="sxs-lookup"><span data-stu-id="a639e-104">Each record represents one session which involves audio or audio and video.</span></span> <span data-ttu-id="a639e-105">它包含有关会话的总体信息。</span><span class="sxs-lookup"><span data-stu-id="a639e-105">It contains overall information about the session.</span></span> <span data-ttu-id="a639e-106">会话定义为两个终结点之间的音频或视频会话初始协议（SIP）对话框。</span><span class="sxs-lookup"><span data-stu-id="a639e-106">A session is defined as an audio or video Session Initiation Protocol (SIP) dialog between two endpoints.</span></span>
 
 
 <table>
@@ -49,139 +49,139 @@ ms.locfileid: "42143898"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5a424-107"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-107"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="5a424-108"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-108"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="5a424-109"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-109"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="5a424-110"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-110"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="a639e-107"><strong>列</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-107"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="a639e-108"><strong>数据类型</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-108"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="a639e-109"><strong>键/索引</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-109"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="a639e-110"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-110"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-111"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-111"><strong>ConferenceDateTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-112">datetime</span><span class="sxs-lookup"><span data-stu-id="5a424-112">datetime</span></span></p></td>
-<td><p><span data-ttu-id="5a424-113">主</span><span class="sxs-lookup"><span data-stu-id="5a424-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="5a424-114">从<a href="lync-server-2013-dialog-table.md">Lync Server 2013 的对话框表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-114">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-111"><strong>ConferenceDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-111"><strong>ConferenceDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-112">datetime</span><span class="sxs-lookup"><span data-stu-id="a639e-112">datetime</span></span></p></td>
+<td><p><span data-ttu-id="a639e-113">主</span><span class="sxs-lookup"><span data-stu-id="a639e-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="a639e-114">从<a href="lync-server-2013-dialog-table.md">Lync Server 2013 的对话框表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-114">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-115"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-115"><strong>SessionSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-116">int</span><span class="sxs-lookup"><span data-stu-id="5a424-116">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-117">主</span><span class="sxs-lookup"><span data-stu-id="5a424-117">Primary</span></span></p></td>
-<td><p><span data-ttu-id="5a424-118">从<a href="lync-server-2013-dialog-table.md">Lync Server 2013 的对话框表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-118">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-115"><strong>SessionSeq</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-115"><strong>SessionSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-116">int</span><span class="sxs-lookup"><span data-stu-id="a639e-116">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-117">主</span><span class="sxs-lookup"><span data-stu-id="a639e-117">Primary</span></span></p></td>
+<td><p><span data-ttu-id="a639e-118">从<a href="lync-server-2013-dialog-table.md">Lync Server 2013 的对话框表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-118">Referenced from the <a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-119"><strong>ConferenceKey</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-119"><strong>ConferenceKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-120">int</span><span class="sxs-lookup"><span data-stu-id="5a424-120">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-121">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-121">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-122">会议密钥。</span><span class="sxs-lookup"><span data-stu-id="5a424-122">Conference key.</span></span> <span data-ttu-id="5a424-123">从<a href="lync-server-2013-conference-table.md">Lync Server 2013 中的会议表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-123">Referenced from the <a href="lync-server-2013-conference-table.md">Conference table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-119"><strong>ConferenceKey</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-119"><strong>ConferenceKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-120">int</span><span class="sxs-lookup"><span data-stu-id="a639e-120">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-121">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-121">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-122">会议密钥。</span><span class="sxs-lookup"><span data-stu-id="a639e-122">Conference key.</span></span> <span data-ttu-id="a639e-123">从<a href="lync-server-2013-conference-table.md">Lync Server 2013 中的会议表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-123">Referenced from the <a href="lync-server-2013-conference-table.md">Conference table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-124"><strong>CorrelationKey</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-124"><strong>CorrelationKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-125">int</span><span class="sxs-lookup"><span data-stu-id="5a424-125">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-126">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-126">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-127">相关密钥。</span><span class="sxs-lookup"><span data-stu-id="5a424-127">Correlation key.</span></span> <span data-ttu-id="5a424-128"><a href="lync-server-2013-sessioncorrelation-table.md">在 Lync Server 2013 中从 SessionCorrelation 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-128">Referenced from the <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-124"><strong>CorrelationKey</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-124"><strong>CorrelationKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-125">int</span><span class="sxs-lookup"><span data-stu-id="a639e-125">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-126">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-126">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-127">相关密钥。</span><span class="sxs-lookup"><span data-stu-id="a639e-127">Correlation key.</span></span> <span data-ttu-id="a639e-128"><a href="lync-server-2013-sessioncorrelation-table.md">在 Lync Server 2013 中从 SessionCorrelation 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-128">Referenced from the <a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-129"><strong>DialogCategory</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-129"><strong>DialogCategory</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-130">位</span><span class="sxs-lookup"><span data-stu-id="5a424-130">bit</span></span></p></td>
+<td><p><span data-ttu-id="a639e-129"><strong>DialogCategory</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-129"><strong>DialogCategory</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-130">位</span><span class="sxs-lookup"><span data-stu-id="a639e-130">bit</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="5a424-131">对话框类别;0是 Lync Server 以进行中介服务器腿;1是中介服务器到 PSTN 网关腿。</span><span class="sxs-lookup"><span data-stu-id="5a424-131">Dialog category; 0 is Lync Server to Mediation Server leg; 1 is Mediation Server to PSTN gateway leg.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-131">对话框类别;0是 Lync Server 以进行中介服务器腿;1是中介服务器到 PSTN 网关腿。</span><span class="sxs-lookup"><span data-stu-id="a639e-131">Dialog category; 0 is Lync Server to Mediation Server leg; 1 is Mediation Server to PSTN gateway leg.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-132"><strong>MediationServerBypassFlag</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-132"><strong>MediationServerBypassFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-133">位</span><span class="sxs-lookup"><span data-stu-id="5a424-133">bit</span></span></p></td>
+<td><p><span data-ttu-id="a639e-132"><strong>MediationServerBypassFlag</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-132"><strong>MediationServerBypassFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-133">位</span><span class="sxs-lookup"><span data-stu-id="a639e-133">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5a424-134">指示是否绕过呼叫的标志。</span><span class="sxs-lookup"><span data-stu-id="5a424-134">Flag indicating if the call was bypassed or not.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-134">指示是否绕过呼叫的标志。</span><span class="sxs-lookup"><span data-stu-id="a639e-134">Flag indicating if the call was bypassed or not.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-135"><strong>MediaBypassWarningFlag</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-135"><strong>MediaBypassWarningFlag</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-136">int</span><span class="sxs-lookup"><span data-stu-id="5a424-136">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-135"><strong>MediaBypassWarningFlag</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-135"><strong>MediaBypassWarningFlag</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-136">int</span><span class="sxs-lookup"><span data-stu-id="a639e-136">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5a424-137">如果存在，此字段指示即使绕过 ID 相匹配也没有绕过呼叫的原因。</span><span class="sxs-lookup"><span data-stu-id="5a424-137">This field, if present, indicates why a call was not bypassed even if the bypass IDs matched.</span></span> <span data-ttu-id="5a424-138">对于 Lync Server，只定义一个值。</span><span class="sxs-lookup"><span data-stu-id="5a424-138">For Lync Server, only one value is defined.</span></span></p>
-<p><span data-ttu-id="5a424-139">0x0001 –默认网络适配器的绕过旁路 ID。</span><span class="sxs-lookup"><span data-stu-id="5a424-139">0x0001 – Unknown bypass ID for Default network adapter.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-137">如果存在，此字段指示即使绕过 ID 相匹配也没有绕过呼叫的原因。</span><span class="sxs-lookup"><span data-stu-id="a639e-137">This field, if present, indicates why a call was not bypassed even if the bypass IDs matched.</span></span> <span data-ttu-id="a639e-138">对于 Lync Server，只定义一个值。</span><span class="sxs-lookup"><span data-stu-id="a639e-138">For Lync Server, only one value is defined.</span></span></p>
+<p><span data-ttu-id="a639e-139">0x0001 –默认网络适配器的绕过旁路 ID。</span><span class="sxs-lookup"><span data-stu-id="a639e-139">0x0001 – Unknown bypass ID for Default network adapter.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-140"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-140"><strong>StartTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-141">datetime</span><span class="sxs-lookup"><span data-stu-id="5a424-141">datetime</span></span></p></td>
+<td><p><span data-ttu-id="a639e-140"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-140"><strong>StartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-141">datetime</span><span class="sxs-lookup"><span data-stu-id="a639e-141">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="5a424-142">呼叫开始时间。</span><span class="sxs-lookup"><span data-stu-id="5a424-142">Call start time.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-142">呼叫开始时间。</span><span class="sxs-lookup"><span data-stu-id="a639e-142">Call start time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-143"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-143"><strong>EndTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-144">datetime</span><span class="sxs-lookup"><span data-stu-id="5a424-144">datetime</span></span></p></td>
+<td><p><span data-ttu-id="a639e-143"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-143"><strong>EndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-144">datetime</span><span class="sxs-lookup"><span data-stu-id="a639e-144">datetime</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="5a424-145">呼叫结束时间。</span><span class="sxs-lookup"><span data-stu-id="5a424-145">Call end time.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-145">呼叫结束时间。</span><span class="sxs-lookup"><span data-stu-id="a639e-145">Call end time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-146"><strong>CallerPool</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-146"><strong>CallerPool</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-147">int</span><span class="sxs-lookup"><span data-stu-id="5a424-147">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-148">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-148">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-149">呼叫者的池。</span><span class="sxs-lookup"><span data-stu-id="5a424-149">The pool of the caller.</span></span> <span data-ttu-id="5a424-150">从<a href="lync-server-2013-pool-table.md">Lync Server 2013 的 Pool 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-150">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-146"><strong>CallerPool</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-146"><strong>CallerPool</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-147">int</span><span class="sxs-lookup"><span data-stu-id="a639e-147">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-148">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-148">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-149">呼叫者的池。</span><span class="sxs-lookup"><span data-stu-id="a639e-149">The pool of the caller.</span></span> <span data-ttu-id="a639e-150">从<a href="lync-server-2013-pool-table.md">Lync Server 2013 的 Pool 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-150">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-151"><strong>CalleePool</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-151"><strong>CalleePool</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-152">int</span><span class="sxs-lookup"><span data-stu-id="5a424-152">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-153">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-153">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-154">呼叫接收器的池。</span><span class="sxs-lookup"><span data-stu-id="5a424-154">The pool of the call receiver.</span></span> <span data-ttu-id="5a424-155">从<a href="lync-server-2013-pool-table.md">Lync Server 2013 的 Pool 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-155">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-151"><strong>CalleePool</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-151"><strong>CalleePool</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-152">int</span><span class="sxs-lookup"><span data-stu-id="a639e-152">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-153">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-153">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-154">呼叫接收器的池。</span><span class="sxs-lookup"><span data-stu-id="a639e-154">The pool of the call receiver.</span></span> <span data-ttu-id="a639e-155">从<a href="lync-server-2013-pool-table.md">Lync Server 2013 的 Pool 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-155">Referenced from the <a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-156"><strong>CalleePAI</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-156"><strong>CalleePAI</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-157">int</span><span class="sxs-lookup"><span data-stu-id="5a424-157">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-158">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-158">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-159">接收终结点的 SIP p 声明标识（PAI）中的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="5a424-159">SIP URI in the SIP p-asserted identity (PAI) of the receiving endpoint.</span></span> <span data-ttu-id="5a424-160"><a href="lync-server-2013-user-table.md">在 Lync Server 2013 的用户表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-160">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-156"><strong>CalleePAI</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-156"><strong>CalleePAI</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-157">int</span><span class="sxs-lookup"><span data-stu-id="a639e-157">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-158">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-158">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-159">接收终结点的 SIP p 声明标识（PAI）中的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="a639e-159">SIP URI in the SIP p-asserted identity (PAI) of the receiving endpoint.</span></span> <span data-ttu-id="a639e-160"><a href="lync-server-2013-user-table.md">在 Lync Server 2013 的用户表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-160">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-161"><strong>CallerURI</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-161"><strong>CallerURI</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-162">int</span><span class="sxs-lookup"><span data-stu-id="5a424-162">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-163">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-163">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-164">呼叫者的 URI。</span><span class="sxs-lookup"><span data-stu-id="5a424-164">Caller’s URI.</span></span> <span data-ttu-id="5a424-165"><a href="lync-server-2013-user-table.md">在 Lync Server 2013 的用户表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-165">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-161"><strong>CallerURI</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-161"><strong>CallerURI</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-162">int</span><span class="sxs-lookup"><span data-stu-id="a639e-162">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-163">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-163">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-164">呼叫者的 URI。</span><span class="sxs-lookup"><span data-stu-id="a639e-164">Caller’s URI.</span></span> <span data-ttu-id="a639e-165"><a href="lync-server-2013-user-table.md">在 Lync Server 2013 的用户表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-165">Referenced from the <a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-166"><strong>CallerEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-166"><strong>CallerEndpoint</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-167">int</span><span class="sxs-lookup"><span data-stu-id="5a424-167">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-168">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-168">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-169">调用方的终结点。</span><span class="sxs-lookup"><span data-stu-id="5a424-169">Caller’s endpoint.</span></span> <span data-ttu-id="5a424-170">从<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-170">Referenced from the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-166"><strong>CallerEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-166"><strong>CallerEndpoint</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-167">int</span><span class="sxs-lookup"><span data-stu-id="a639e-167">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-168">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-168">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-169">调用方的终结点。</span><span class="sxs-lookup"><span data-stu-id="a639e-169">Caller’s endpoint.</span></span> <span data-ttu-id="a639e-170">从<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-170">Referenced from the <a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-171"><strong>CallerUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-171"><strong>CallerUserAgent</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-172">位</span><span class="sxs-lookup"><span data-stu-id="5a424-172">bit</span></span></p></td>
-<td><p><span data-ttu-id="5a424-173">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-173">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-174">呼叫者的用户代理。</span><span class="sxs-lookup"><span data-stu-id="5a424-174">Caller’s user agent.</span></span> <span data-ttu-id="5a424-175"><a href="lync-server-2013-useragent-table.md">在 Lync Server 2013 中从 UserAgent 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="5a424-175">Referenced from the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a>.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-171"><strong>CallerUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-171"><strong>CallerUserAgent</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-172">位</span><span class="sxs-lookup"><span data-stu-id="a639e-172">bit</span></span></p></td>
+<td><p><span data-ttu-id="a639e-173">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-173">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-174">呼叫者的用户代理。</span><span class="sxs-lookup"><span data-stu-id="a639e-174">Caller’s user agent.</span></span> <span data-ttu-id="a639e-175"><a href="lync-server-2013-useragent-table.md">在 Lync Server 2013 中从 UserAgent 表中</a>引用。</span><span class="sxs-lookup"><span data-stu-id="a639e-175">Referenced from the <a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-176"><strong>CallPriority</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-176"><strong>CallPriority</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-177">smallint</span><span class="sxs-lookup"><span data-stu-id="5a424-177">smallint</span></span></p></td>
+<td><p><span data-ttu-id="a639e-176"><strong>CallPriority</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-176"><strong>CallPriority</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-177">smallint</span><span class="sxs-lookup"><span data-stu-id="a639e-177">smallint</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5a424-178">此调用的优先级。</span><span class="sxs-lookup"><span data-stu-id="5a424-178">The priority of this call.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-178">此调用的优先级。</span><span class="sxs-lookup"><span data-stu-id="a639e-178">The priority of this call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-179"><strong>ClassifiedPoorCall</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-179"><strong>ClassifiedPoorCall</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-180">位</span><span class="sxs-lookup"><span data-stu-id="5a424-180">bit</span></span></p></td>
+<td><p><span data-ttu-id="a639e-179"><strong>ClassifiedPoorCall</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-179"><strong>ClassifiedPoorCall</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-180">位</span><span class="sxs-lookup"><span data-stu-id="a639e-180">bit</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="5a424-181">此列已弃用，并且在 Microsoft Lync Server 2013 中未使用。</span><span class="sxs-lookup"><span data-stu-id="5a424-181">This column has been deprecated and is not used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="5a424-182">而是在每个媒体的行基上报告此信息。</span><span class="sxs-lookup"><span data-stu-id="5a424-182">Instead, this information is reported on a per-media line bases.</span></span> <span data-ttu-id="5a424-183">有关详细信息，请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</span><span class="sxs-lookup"><span data-stu-id="5a424-183">Refer to the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-181">此列已弃用，并且在 Microsoft Lync Server 2013 中未使用。</span><span class="sxs-lookup"><span data-stu-id="a639e-181">This column has been deprecated and is not used in Microsoft Lync Server 2013.</span></span> <span data-ttu-id="a639e-182">而是在每个媒体的行基上报告此信息。</span><span class="sxs-lookup"><span data-stu-id="a639e-182">Instead, this information is reported on a per-media line bases.</span></span> <span data-ttu-id="a639e-183">有关详细信息，请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</span><span class="sxs-lookup"><span data-stu-id="a639e-183">Refer to the <a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-184"><strong>CallerPAI</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-184"><strong>CallerPAI</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-185">int</span><span class="sxs-lookup"><span data-stu-id="5a424-185">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-186">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-186">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-187">P-声明-发出呼叫的用户的标识。</span><span class="sxs-lookup"><span data-stu-id="5a424-187">P-Asserted-Identity of the user who placed the call.</span></span> <span data-ttu-id="5a424-188">P 声明标识（PAI）用于传达发出呼叫的用户的真实标识。</span><span class="sxs-lookup"><span data-stu-id="5a424-188">The P-Asserted-Identity (PAI) is used to convey the true identity of the user who placed the call.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-184"><strong>CallerPAI</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-184"><strong>CallerPAI</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-185">int</span><span class="sxs-lookup"><span data-stu-id="a639e-185">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-186">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-186">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-187">P-声明-发出呼叫的用户的标识。</span><span class="sxs-lookup"><span data-stu-id="a639e-187">P-Asserted-Identity of the user who placed the call.</span></span> <span data-ttu-id="a639e-188">P 声明标识（PAI）用于传达发出呼叫的用户的真实标识。</span><span class="sxs-lookup"><span data-stu-id="a639e-188">The P-Asserted-Identity (PAI) is used to convey the true identity of the user who placed the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-189"><strong>CalleeEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-189"><strong>CalleeEndpoint</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-190">int</span><span class="sxs-lookup"><span data-stu-id="5a424-190">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-191">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-191">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-192">接收呼叫的终结点。</span><span class="sxs-lookup"><span data-stu-id="5a424-192">Endpoint that received the call.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-189"><strong>CalleeEndpoint</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-189"><strong>CalleeEndpoint</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-190">int</span><span class="sxs-lookup"><span data-stu-id="a639e-190">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-191">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-191">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-192">接收呼叫的终结点。</span><span class="sxs-lookup"><span data-stu-id="a639e-192">Endpoint that received the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5a424-193"><strong>CalleeUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-193"><strong>CalleeUserAgent</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-194">int</span><span class="sxs-lookup"><span data-stu-id="5a424-194">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-195">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-195">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-196">接收呼叫的用户使用的用户代理。</span><span class="sxs-lookup"><span data-stu-id="5a424-196">User agent employed by the user who received the call.</span></span> <span data-ttu-id="5a424-197">用户代理代表客户端终结点设备。</span><span class="sxs-lookup"><span data-stu-id="5a424-197">User agents represent the client endpoint device.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-193"><strong>CalleeUserAgent</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-193"><strong>CalleeUserAgent</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-194">int</span><span class="sxs-lookup"><span data-stu-id="a639e-194">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-195">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-195">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-196">接收呼叫的用户使用的用户代理。</span><span class="sxs-lookup"><span data-stu-id="a639e-196">User agent employed by the user who received the call.</span></span> <span data-ttu-id="a639e-197">用户代理代表客户端终结点设备。</span><span class="sxs-lookup"><span data-stu-id="a639e-197">User agents represent the client endpoint device.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5a424-198"><strong>CalleeUri</strong></span><span class="sxs-lookup"><span data-stu-id="5a424-198"><strong>CalleeUri</strong></span></span></p></td>
-<td><p><span data-ttu-id="5a424-199">int</span><span class="sxs-lookup"><span data-stu-id="5a424-199">int</span></span></p></td>
-<td><p><span data-ttu-id="5a424-200">对外</span><span class="sxs-lookup"><span data-stu-id="5a424-200">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="5a424-201">接收呼叫的用户的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="5a424-201">SIP URI of the user who received the call.</span></span></p></td>
+<td><p><span data-ttu-id="a639e-198"><strong>CalleeUri</strong></span><span class="sxs-lookup"><span data-stu-id="a639e-198"><strong>CalleeUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="a639e-199">int</span><span class="sxs-lookup"><span data-stu-id="a639e-199">int</span></span></p></td>
+<td><p><span data-ttu-id="a639e-200">对外</span><span class="sxs-lookup"><span data-stu-id="a639e-200">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a639e-201">接收呼叫的用户的 SIP URI。</span><span class="sxs-lookup"><span data-stu-id="a639e-201">SIP URI of the user who received the call.</span></span></p></td>
 </tr>
 </tbody>
 </table>

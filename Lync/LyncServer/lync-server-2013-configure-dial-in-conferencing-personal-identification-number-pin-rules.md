@@ -12,20 +12,20 @@ ms:contentKeyID: 48183668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27a2298dffdcb868646f2d4d4513702a4c4554d0
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 16b56e1809f9ffefa37065a208340e1143e38487
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140415"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204888"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-dial-in-conferencing-personal-identification-number-pin-rules-in-lync-server-2013"></a><span data-ttu-id="a859c-102">在 Lync Server 2013 中配置电话拨入式会议个人标识号码（PIN）规则</span><span class="sxs-lookup"><span data-stu-id="a859c-102">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>
+# <a name="configure-dial-in-conferencing-personal-identification-number-pin-rules-in-lync-server-2013"></a><span data-ttu-id="764b9-102">在 Lync Server 2013 中配置电话拨入式会议个人标识号码（PIN）规则</span><span class="sxs-lookup"><span data-stu-id="764b9-102">Configure dial-in conferencing personal identification number (PIN) rules in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42140415"
 
 <span> </span>
 
-<span data-ttu-id="a859c-103">_**上次修改的主题：** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="a859c-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="764b9-103">_**上次修改的主题：** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="764b9-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="a859c-104">在组织中具有 Active Directory 域服务（AD DS）凭据的 Lync Server 2013 用户可以通过使用个人标识号（PIN）将电话拨入式会议作为已验证用户加入电话拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="a859c-104">Lync Server 2013 users who have Active Directory Domain Services (AD DS) credentials in your organization can join dial-in conferences as authenticated users by using a personal identification number (PIN).</span></span> <span data-ttu-id="a859c-105">PIN 策略定义电话拨入式会议 PIN 工作方式的规则。</span><span class="sxs-lookup"><span data-stu-id="a859c-105">PIN policy defines the rules for how dial-in conferencing PINs work.</span></span>
+<span data-ttu-id="764b9-104">在组织中具有 Active Directory 域服务（AD DS）凭据的 Lync Server 2013 用户可以通过使用个人标识号（PIN）将电话拨入式会议作为已验证用户加入电话拨入式会议。</span><span class="sxs-lookup"><span data-stu-id="764b9-104">Lync Server 2013 users who have Active Directory Domain Services (AD DS) credentials in your organization can join dial-in conferences as authenticated users by using a personal identification number (PIN).</span></span> <span data-ttu-id="764b9-105">PIN 策略定义电话拨入式会议 PIN 工作方式的规则。</span><span class="sxs-lookup"><span data-stu-id="764b9-105">PIN policy defines the rules for how dial-in conferencing PINs work.</span></span>
 
-<span data-ttu-id="a859c-p102">如果要将特定策略应用于某个站点或某个用户组，可以创建新的 PIN 策略。如果要在整个组织中使用相同的 PIN 策略，则可以使用全局 PIN 策略并根据需要对其进行修改。PIN 策略既可以应用于少数用户，也可以应用于众多用户。如果为用户分配用户级别的 PIN 策略，则优先应用这些设置。如果没有分配用户策略，则将应用站点级别的 PIN 策略（如果存在）。如果未应用用户策略或站点策略，则全局 PIN 策略会提供默认设置。</span><span class="sxs-lookup"><span data-stu-id="a859c-p102">You can create a new PIN policy if you want a specific policy to apply to a site or to a certain group of users. If you want to use the same PIN policy for your entire organization, you can use the global PIN policy and modify it as needed. PIN policies apply to users from the narrowest scope to the widest scope. If you assign a user-level PIN policy to a user, those settings take precedence. If you do not assign a user policy, the site-level PIN policy applies, if it exists. If no user or site policies apply, global PIN policy provides the default settings.</span></span>
+<span data-ttu-id="764b9-p102">如果要将特定策略应用于某个站点或某个用户组，可以创建新的 PIN 策略。如果要在整个组织中使用相同的 PIN 策略，则可以使用全局 PIN 策略并根据需要对其进行修改。PIN 策略既可以应用于少数用户，也可以应用于众多用户。如果为用户分配用户级别的 PIN 策略，则优先应用这些设置。如果没有分配用户策略，则将应用站点级别的 PIN 策略（如果存在）。如果未应用用户策略或站点策略，则全局 PIN 策略会提供默认设置。</span><span class="sxs-lookup"><span data-stu-id="764b9-p102">You can create a new PIN policy if you want a specific policy to apply to a site or to a certain group of users. If you want to use the same PIN policy for your entire organization, you can use the global PIN policy and modify it as needed. PIN policies apply to users from the narrowest scope to the widest scope. If you assign a user-level PIN policy to a user, those settings take precedence. If you do not assign a user policy, the site-level PIN policy applies, if it exists. If no user or site policies apply, global PIN policy provides the default settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a859c-112">本部分内容</span><span class="sxs-lookup"><span data-stu-id="a859c-112">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="764b9-112">本部分内容</span><span class="sxs-lookup"><span data-stu-id="764b9-112">In This Section</span></span>
 
-  - [<span data-ttu-id="a859c-113">在 Lync Server 2013 中修改默认电话拨入式会议 PIN 设置</span><span class="sxs-lookup"><span data-stu-id="a859c-113">Modify the default dial-in conferencing PIN settings in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
+  - [<span data-ttu-id="764b9-113">在 Lync Server 2013 中修改默认电话拨入式会议 PIN 设置</span><span class="sxs-lookup"><span data-stu-id="764b9-113">Modify the default dial-in conferencing PIN settings in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-dial-in-conferencing-pin-settings.md)
 
-  - [<span data-ttu-id="a859c-114">在 Lync Server 2013 中为一个站点或一组用户创建或修改电话拨入式会议 PIN 设置</span><span class="sxs-lookup"><span data-stu-id="a859c-114">Create or modify dial-in conferencing PIN settings in Lync Server 2013 for a site or group of users</span></span>](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [<span data-ttu-id="764b9-114">在 Lync Server 2013 中为一个站点或一组用户创建或修改电话拨入式会议 PIN 设置</span><span class="sxs-lookup"><span data-stu-id="764b9-114">Create or modify dial-in conferencing PIN settings in Lync Server 2013 for a site or group of users</span></span>](lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
-  - [<span data-ttu-id="a859c-115">删除 Lync Server 2013 中某一网站或一组用户的电话拨入式会议 PIN 设置</span><span class="sxs-lookup"><span data-stu-id="a859c-115">Delete dial-in conferencing PIN settings for a site or group of users in Lync Server 2013</span></span>](lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
+  - [<span data-ttu-id="764b9-115">删除 Lync Server 2013 中某一网站或一组用户的电话拨入式会议 PIN 设置</span><span class="sxs-lookup"><span data-stu-id="764b9-115">Delete dial-in conferencing PIN settings for a site or group of users in Lync Server 2013</span></span>](lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users.md)
 
 </div>
 

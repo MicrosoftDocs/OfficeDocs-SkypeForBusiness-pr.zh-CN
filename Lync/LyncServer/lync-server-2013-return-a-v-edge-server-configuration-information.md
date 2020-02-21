@@ -12,20 +12,20 @@ ms:contentKeyID: 49733783
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 920c45abf98678c3e866650e094b9e4a52a418a4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 50cfd257e387c48af8446adc43b25d4fd0818ea5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144628"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42201318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a><span data-ttu-id="16b1d-102">在 Lync Server 2013 中返回 A/V 边缘服务器配置信息</span><span class="sxs-lookup"><span data-stu-id="16b1d-102">Return A/V Edge Server configuration information in Lync Server 2013</span></span>
+# <a name="return-av-edge-server-configuration-information-in-lync-server-2013"></a><span data-ttu-id="92608-102">在 Lync Server 2013 中返回 A/V 边缘服务器配置信息</span><span class="sxs-lookup"><span data-stu-id="92608-102">Return A/V Edge Server configuration information in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42144628"
 
 <span> </span>
 
-<span data-ttu-id="16b1d-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="16b1d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="92608-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="92608-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="16b1d-p101">A/V 边缘服务为您的内部用户（已登录到您的组织网络的用户）提供一种与外部用户（未登录到您的组织网络的用户）共享音频和视频的方法。A/V 边缘服务主要通过使用 A/V 边缘配置设置进行管理，即可在站点范围或服务范围进行配置（也就是，可以针对个别 A/V 边缘服务器进行配置）的设置。</span><span class="sxs-lookup"><span data-stu-id="16b1d-p101">The A/V Edge service provide a way for your internal users (users who are logged on to your organizational network) to share audio and video with external users (users who are not logged on to your organizational network). The A/V Edge service is primarily managed by using A/V Edge configuration settings, setting that can be configured at the site scope or at the service scope (that is, can be configured for an individual A/V Edge server).</span></span>
+<span data-ttu-id="92608-p101">A/V 边缘服务为您的内部用户（已登录到您的组织网络的用户）提供一种与外部用户（未登录到您的组织网络的用户）共享音频和视频的方法。A/V 边缘服务主要通过使用 A/V 边缘配置设置进行管理，即可在站点范围或服务范围进行配置（也就是，可以针对个别 A/V 边缘服务器进行配置）的设置。</span><span class="sxs-lookup"><span data-stu-id="92608-p101">The A/V Edge service provide a way for your internal users (users who are logged on to your organizational network) to share audio and video with external users (users who are not logged on to your organizational network). The A/V Edge service is primarily managed by using A/V Edge configuration settings, setting that can be configured at the site scope or at the service scope (that is, can be configured for an individual A/V Edge server).</span></span>
 
-<span data-ttu-id="16b1d-106">若要返回有关组织中使用的 A/V 边缘配置设置的信息，必须使用 Windows PowerShell 和 CsAVEdgeConfiguration cmdlet。</span><span class="sxs-lookup"><span data-stu-id="16b1d-106">To return information about the A/V Edge configuration settings in use in your organization, you must use Windows PowerShell and the Get-CsAVEdgeConfiguration cmdlet.</span></span> <span data-ttu-id="16b1d-107">有关详细信息，请参阅[CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="16b1d-107">For more information, see the help topic for the [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) cmdlet.</span></span>
+<span data-ttu-id="92608-106">若要返回有关组织中使用的 A/V 边缘配置设置的信息，必须使用 Windows PowerShell 和 CsAVEdgeConfiguration cmdlet。</span><span class="sxs-lookup"><span data-stu-id="92608-106">To return information about the A/V Edge configuration settings in use in your organization, you must use Windows PowerShell and the Get-CsAVEdgeConfiguration cmdlet.</span></span> <span data-ttu-id="92608-107">有关详细信息，请参阅[CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) cmdlet 的帮助主题。</span><span class="sxs-lookup"><span data-stu-id="92608-107">For more information, see the help topic for the [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) cmdlet.</span></span>
 
-<span data-ttu-id="16b1d-108">从 Get-CsAVEdgeConfiguration cmdlet 返回的信息将看起来与以下类似：</span><span class="sxs-lookup"><span data-stu-id="16b1d-108">Information returned from the Get-CsAVEdgeConfiguration cmdlet will look similar to this:</span></span>
+<span data-ttu-id="92608-108">从 Get-CsAVEdgeConfiguration cmdlet 返回的信息将看起来与以下类似：</span><span class="sxs-lookup"><span data-stu-id="92608-108">Information returned from the Get-CsAVEdgeConfiguration cmdlet will look similar to this:</span></span>
 
     Identity              : Global
     MaxTokenLifetime      : 08:00:00
@@ -50,9 +50,9 @@ ms.locfileid: "42144628"
 
 <div>
 
-## <a name="to-return-information-for-all-your-av-edge-configuration-settings"></a><span data-ttu-id="16b1d-109">返回所有 A/V 边缘配置设置的信息</span><span class="sxs-lookup"><span data-stu-id="16b1d-109">To return information for all your A/V Edge configuration settings</span></span>
+## <a name="to-return-information-for-all-your-av-edge-configuration-settings"></a><span data-ttu-id="92608-109">返回所有 A/V 边缘配置设置的信息</span><span class="sxs-lookup"><span data-stu-id="92608-109">To return information for all your A/V Edge configuration settings</span></span>
 
-  - <span data-ttu-id="16b1d-110">以下命令会返回有关您的组织中使用的所有 A/V 边缘配置设置的信息：</span><span class="sxs-lookup"><span data-stu-id="16b1d-110">The following command returns information about all the A/V Edge configuration settings currently in use in your organization:</span></span>
+  - <span data-ttu-id="92608-110">以下命令会返回有关您的组织中使用的所有 A/V 边缘配置设置的信息：</span><span class="sxs-lookup"><span data-stu-id="92608-110">The following command returns information about all the A/V Edge configuration settings currently in use in your organization:</span></span>
     
         Get-CsAVEdgeConfiguration
 
@@ -60,9 +60,9 @@ ms.locfileid: "42144628"
 
 <div>
 
-## <a name="to-return-information-for-site-scoped-av-edge-configuration-settings"></a><span data-ttu-id="16b1d-111">返回网站范围内的 A/V 边缘配置设置的信息</span><span class="sxs-lookup"><span data-stu-id="16b1d-111">To return information for site-scoped A/V Edge configuration settings</span></span>
+## <a name="to-return-information-for-site-scoped-av-edge-configuration-settings"></a><span data-ttu-id="92608-111">返回网站范围内的 A/V 边缘配置设置的信息</span><span class="sxs-lookup"><span data-stu-id="92608-111">To return information for site-scoped A/V Edge configuration settings</span></span>
 
-  - <span data-ttu-id="16b1d-p103">要返回有关特定的 A/V 边缘配置设置集合的信息，请在运行 Get-CsAVEdgeConfiguration cmdlet 时指定该集合的 Identity。例如，以下命令仅返回应用到 Redmond 站点的设置的信息：</span><span class="sxs-lookup"><span data-stu-id="16b1d-p103">To return information about a specific collection of A/V Edge configuration settings, specify the Identity of that collection when running the Get-CsAVEdgeConfiguration cmdlet. For example, this command returns information only for the settings applied to the Redmond site:</span></span>
+  - <span data-ttu-id="92608-p103">要返回有关特定的 A/V 边缘配置设置集合的信息，请在运行 Get-CsAVEdgeConfiguration cmdlet 时指定该集合的 Identity。例如，以下命令仅返回应用到 Redmond 站点的设置的信息：</span><span class="sxs-lookup"><span data-stu-id="92608-p103">To return information about a specific collection of A/V Edge configuration settings, specify the Identity of that collection when running the Get-CsAVEdgeConfiguration cmdlet. For example, this command returns information only for the settings applied to the Redmond site:</span></span>
     
         Get-CsAVEdgeConfiguration -Identity "site:Redmond"
 
@@ -70,9 +70,9 @@ ms.locfileid: "42144628"
 
 <div>
 
-## <a name="to-return-information-for-service-scoped-av-edge-configuration-settings"></a><span data-ttu-id="16b1d-114">返回服务范围的 A/V 边缘配置设置的信息</span><span class="sxs-lookup"><span data-stu-id="16b1d-114">To return information for service-scoped A/V Edge configuration settings</span></span>
+## <a name="to-return-information-for-service-scoped-av-edge-configuration-settings"></a><span data-ttu-id="92608-114">返回服务范围的 A/V 边缘配置设置的信息</span><span class="sxs-lookup"><span data-stu-id="92608-114">To return information for service-scoped A/V Edge configuration settings</span></span>
 
-  - <span data-ttu-id="16b1d-115">以下命令仅返回应用到特定 A/V 边缘服务器的设置的信息：</span><span class="sxs-lookup"><span data-stu-id="16b1d-115">And this command returns information only for settings applied the a specific A/V Edge server:</span></span>
+  - <span data-ttu-id="92608-115">以下命令仅返回应用到特定 A/V 边缘服务器的设置的信息：</span><span class="sxs-lookup"><span data-stu-id="92608-115">And this command returns information only for settings applied the a specific A/V Edge server:</span></span>
     
         Get-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com"
 
@@ -80,14 +80,14 @@ ms.locfileid: "42144628"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="16b1d-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="16b1d-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92608-116">另请参阅</span><span class="sxs-lookup"><span data-stu-id="92608-116">See Also</span></span>
 
 
-[<span data-ttu-id="16b1d-117">在 Lync Server 2013 中创建或修改 A/V 边缘服务器配置设置的集合</span><span class="sxs-lookup"><span data-stu-id="16b1d-117">Create or modify a collection of A/V Edge Server configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
-[<span data-ttu-id="16b1d-118">在 Lync Server 2013 中删除 A/V 边缘服务器配置设置的现有集合</span><span class="sxs-lookup"><span data-stu-id="16b1d-118">Delete an existing collection of A/V Edge Server configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
+[<span data-ttu-id="92608-117">在 Lync Server 2013 中创建或修改 A/V 边缘服务器配置设置的集合</span><span class="sxs-lookup"><span data-stu-id="92608-117">Create or modify a collection of A/V Edge Server configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
+[<span data-ttu-id="92608-118">在 Lync Server 2013 中删除 A/V 边缘服务器配置设置的现有集合</span><span class="sxs-lookup"><span data-stu-id="92608-118">Delete an existing collection of A/V Edge Server configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
 
 
-[<span data-ttu-id="16b1d-119">Lync Server 2013 中的音频/视频（A/V）边缘服务器</span><span class="sxs-lookup"><span data-stu-id="16b1d-119">Audio/Video (A/V) Edge Servers in Lync Server 2013</span></span>](lync-server-2013-audio-video-a-v-edge-servers.md)  
+[<span data-ttu-id="92608-119">Lync Server 2013 中的音频/视频（A/V）边缘服务器</span><span class="sxs-lookup"><span data-stu-id="92608-119">Audio/Video (A/V) Edge Servers in Lync Server 2013</span></span>](lync-server-2013-audio-video-a-v-edge-servers.md)  
   
 
 </div>
