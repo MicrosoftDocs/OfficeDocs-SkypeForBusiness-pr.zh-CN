@@ -54,6 +54,7 @@
 
 ### [概述](deploy-apps-microsoft-teams-landing-page.md)
 ### [应用权限和注意事项](app-permissions.md)
+### [管理适用于 Teams 的应用](manage-apps.md)
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
@@ -259,15 +260,26 @@
 
 ### [概述](direct-routing-landing-page.md)
 ### [规划直接路由](direct-routing-plan.md)
-### [配置直接路由](direct-routing-configure.md)
+### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
+
+### 配置直接路由
+#### [概述](direct-routing-configure.md)
+#### [将 SBC 连接到直接路由](direct-routing-connect-the-sbc.md)
+#### [为用户启用直接路由、语音和语音邮件](direct-routing-enable-users.md)
+#### [配置语音路由](direct-routing-voice-routing.md)
+#### [转换电话号码](direct-routing-translate-numbers.md)
+#### [为多个租户配置 SBC](direct-routing-sbc-multiple-tenants.md)
+#### [如何将模拟设备与直接路由结合使用](direct-routing-analog-devices.md)
+
+
 ### [迁移到直接路由](direct-routing-migrating.md)
 
 ### 对直接路由进行监视和故障排除
 #### [概述](direct-routing-monitor-and-troubleshoot.md)
 #### [运行状况仪表板](direct-routing-health-dashboard.md)
 ### [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
-### [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
-### [经认证可用于直接路由的会话边界控制器列表](direct-routing-border-controllers.md)
+
+
 ### 基于位置的路由
 #### [为直接路由计划基于位置的路由](location-based-routing-plan.md)
 #### [为基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)
@@ -516,7 +528,7 @@
 
 
 <!-- ============================================================ -->
-# 混合连接 
+# 混合连接
 
 ## [规划混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
@@ -531,7 +543,7 @@
 ### [将用户从本地迁移至 Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [将用户从云中移动到本地](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [管理会议迁移](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [管理会议迁移](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json)
 
 ## [禁用混合以完成到云的迁移](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -584,7 +596,7 @@
 
 
 # 行业和政府指南
-## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [适合一线员工的快速入门](firstline-workers-quickstart.yml)
 ## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
@@ -627,26 +639,21 @@
 <!-- ============================================================ -->
 
 # 安全性和合规性
-## [概述](security-compliance-overview.md)
-## [Teams 中的信息障碍](information-barriers-in-teams.md)
-## [在 Teams 中对内容进行电子数据展示调查](ediscovery-investigation.md)
-## [Teams 中的标识模式和身份验证](identify-models-authentication.md)
-## [使用现代身份验证登录到 Teams](sign-in-teams.md)
-## [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
-## [在 Teams 中搜索事件的审核日志](audit-log-events.md)
-## [在 Teams 中使用内容搜索](content-search.md)
-## [Teams 中的 AppLocker 应用程序控制策略](applocker-in-teams.md)
-## Teams 中的保留策略
-### [概述](retention-policies.md)
-### [保留策略已知问题](retention-policies-known-issues.md)
-## [Teams 中的数据位置](location-of-data-in-teams.md)
-## [法国 Microsoft Teams 辅助功能合规性声明](accessibility-declaration-of-conformance-in-france-for-teams.md)
-## [Skype for Business Online 和 Microsoft Teams 辅助功能解决方案](accessibility-solutions-in-france.md)
-##  [Office 365 中的通话套餐 - 英国操作守则](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Office 365 中的通话套餐 - 英国合规处理守则](complaint-handling-code-for-the-united-kingdom-u-k.md)
-## [数据收集做法](data-collection-practices.md)
-## [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
-
+## 安全性
+### [标识模式和身份验证](identify-models-authentication.md)
+### [使用新式验证登录 Teams](sign-in-teams.md)
+## 合规性
+### [概述](security-compliance-overview.md)
+### [信息屏障](information-barriers-in-teams.md)
+### [保留策略](retention-policies.md)
+### [数据丢失防护](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### 电子数据展示
+#### [对内容进行电子数据展示调查](ediscovery-investigation.md)
+#### [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
+### 内容搜索
+#### [使用内容搜索](content-search.md)
+#### [搜索事件的审核日志](audit-log-events.md)
+### [AppLocker 应用程序控制策略](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # 监视、维护和疑难解答
@@ -672,13 +679,16 @@
 #    
 # 参考
 
+## [Teams 限制和规范](limits-specifications-teams.md)
+## [Teams 中的数据位置](location-of-data-in-teams.md)
+## [数据收集做法](data-collection-practices.md)
+
 ## 准备好推广 Teams
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
 ### [使用适于 Teams 的顾问来推出 Teams](use-advisor-teams-roll-out.md)
 ### [使用适用于 Teams 的 网络规划器](network-planner.md)
 ### [演练](tutorial-network-planner-example.yml)
 ### [Teams 或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)
-### [Teams 限制和规范](limits-specifications-teams.md)
 ### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
 ### [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 ### [在 Teams 中规划管理](plan-teams-governance.md)
@@ -854,3 +864,10 @@
 ### [Uruguay（乌拉圭）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ### [委内瑞拉](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [Vietnam（越南）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
+
+## 辅助功能和合规性
+### [法国 Microsoft Teams 辅助功能合规性声明](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [Skype for Business Online 和 Microsoft Teams 辅助功能解决方案](accessibility-solutions-in-france.md)
+### [Office 365 中的通话套餐 - 英国操作守则](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Office 365 中的通话套餐 - 英国合规处理守则](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
