@@ -12,16 +12,16 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5961eedbaad72fddac42d6c2f8d54af97cfffa2
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: adf6a1d777e16827f41d9a795fde54fca49750e1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152074"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42204623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -166,7 +166,7 @@ Microsoft Forefront 威胁管理网关2010和 Internet Information Server 应用
     
     </div>
     
-    在 "**服务器场名称**" 中的 "**创建服务器场**" 对话框中，为第一个 URL 键入一个名称（可以是标识目的的友好名称）。 单击“下一步”。****
+    在 "**服务器场名称**" 中的 "**创建服务器场**" 对话框中，为第一个 URL 键入一个名称（可以是标识目的的友好名称）。 单击“**下一步**”。
 
 6.  在 "**服务器地址**" 中的 "**添加服务器**" 对话框中，键入前端服务器上的外部 web 服务的完全限定域名（FQDN）。 在此处用于示例目的的名称与在 Lync Server 2013 的反向代理的 "[证书摘要-反向代理](lync-server-2013-certificate-summary-reverse-proxy.md)" 的 "规划" 部分中使用的名称相同。 若要参考反向代理规划，请键入 FQDN `webext.contoso.com`。 确认 "**联机**" 旁边的复选框处于选中状态。 单击 "**添加**" 将服务器添加到此配置的 web 服务器池。
     
