@@ -12,20 +12,20 @@ ms:contentKeyID: 49733765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed2f97046e7ea82f23e07776ffde60e78dc81e28
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 9df74033156e03cf7047b4d4bfbb2dbc83595b9b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147945"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42189085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="update-dns-srv-records"></a><span data-ttu-id="b7f6c-102">更新 DNS SRV 记录</span><span class="sxs-lookup"><span data-stu-id="b7f6c-102">Update DNS SRV records</span></span>
+# <a name="update-dns-srv-records"></a><span data-ttu-id="98cec-102">更新 DNS SRV 记录</span><span class="sxs-lookup"><span data-stu-id="98cec-102">Update DNS SRV records</span></span>
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "42147945"
 
 <span> </span>
 
-<span data-ttu-id="b7f6c-103">_**上次修改的主题：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="b7f6c-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="98cec-103">_**上次修改的主题：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="98cec-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="b7f6c-104">若要成功完成此过程，您应以 Domain Admins 组成员或 DnsAdmins 组成员的身份登录到服务器或域。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-104">To successfully complete this procedure, you should be logged on to the server or domain as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+<span data-ttu-id="98cec-104">若要成功完成此过程，您应以 Domain Admins 组成员或 DnsAdmins 组成员的身份登录到服务器或域。</span><span class="sxs-lookup"><span data-stu-id="98cec-104">To successfully complete this procedure, you should be logged on to the server or domain as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-<span data-ttu-id="b7f6c-105">本主题介绍了如何在迁移到 Lync Server 2013 之后更新域名系统（DNS）记录。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-105">This topic describes how to update the Domain Name System (DNS) records after migrating to Lync Server 2013.</span></span> <span data-ttu-id="b7f6c-106">在将所有用户移动到 Lync Server 2013 之后，但在旧版 Office 通信服务器 2007 R2 池或控制器停止之前，必须在每个 SIP 域的内部 DNS 中更新 DNS SRV 记录。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-106">After all users have been moved to Lync Server 2013, but before the legacy Office Communications Server 2007 R2 pool or Director is decommissioned, you must update the DNS SRV records in your internal DNS for every SIP domain.</span></span> <span data-ttu-id="b7f6c-107">此过程假定内部 DNS 具有 SIP 用户域的区域。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-107">This procedure assumes that your internal DNS has zones for your SIP user domains.</span></span>
+<span data-ttu-id="98cec-105">本主题介绍了如何在迁移到 Lync Server 2013 之后更新域名系统（DNS）记录。</span><span class="sxs-lookup"><span data-stu-id="98cec-105">This topic describes how to update the Domain Name System (DNS) records after migrating to Lync Server 2013.</span></span> <span data-ttu-id="98cec-106">在将所有用户移动到 Lync Server 2013 之后，但在旧版 Office 通信服务器 2007 R2 池或控制器停止之前，必须在每个 SIP 域的内部 DNS 中更新 DNS SRV 记录。</span><span class="sxs-lookup"><span data-stu-id="98cec-106">After all users have been moved to Lync Server 2013, but before the legacy Office Communications Server 2007 R2 pool or Director is decommissioned, you must update the DNS SRV records in your internal DNS for every SIP domain.</span></span> <span data-ttu-id="98cec-107">此过程假定内部 DNS 具有 SIP 用户域的区域。</span><span class="sxs-lookup"><span data-stu-id="98cec-107">This procedure assumes that your internal DNS has zones for your SIP user domains.</span></span>
 
-<span data-ttu-id="b7f6c-108">**配置 DNS SRV 记录**</span><span class="sxs-lookup"><span data-stu-id="b7f6c-108">**To configure a DNS SRV record**</span></span>
+<span data-ttu-id="98cec-108">**配置 DNS SRV 记录**</span><span class="sxs-lookup"><span data-stu-id="98cec-108">**To configure a DNS SRV record**</span></span>
 
-1.  <span data-ttu-id="b7f6c-109">在 DNS 服务器上，单击“开始”\*\*\*\*，再单击“管理工具”\*\*\*\*，然后单击“DNS”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-109">On the DNS server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
+1.  <span data-ttu-id="98cec-109">在 DNS 服务器上，单击“开始”\*\*\*\*，再单击“管理工具”\*\*\*\*，然后单击“DNS”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="98cec-109">On the DNS server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-2.  <span data-ttu-id="b7f6c-110">在您的 SIP 域的控制台树中，展开 "**正向查找区域**"，展开安装了 Lync Server 2013 的 SIP 域，然后导航到 " \*\* \_tcp\*\* " 设置。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-110">In the console tree for your SIP domain, expand **Forward Lookup Zones**, expand the SIP domain in which Lync Server 2013 is installed, and navigate to the **\_tcp** setting.</span></span>
+2.  <span data-ttu-id="98cec-110">在您的 SIP 域的控制台树中，展开 "**正向查找区域**"，展开安装了 Lync Server 2013 的 SIP 域，然后导航到 " \*\* \_tcp\*\* " 设置。</span><span class="sxs-lookup"><span data-stu-id="98cec-110">In the console tree for your SIP domain, expand **Forward Lookup Zones**, expand the SIP domain in which Lync Server 2013 is installed, and navigate to the **\_tcp** setting.</span></span>
 
-3.  <span data-ttu-id="b7f6c-111">在右侧窗格中，右键单击 " \*\* \_sipinternaltls\*\* "，然后选择 "**属性**"。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-111">In the right pane, right click **\_sipinternaltls** and select **Properties**.</span></span>
+3.  <span data-ttu-id="98cec-111">在右侧窗格中，右键单击 " \*\* \_sipinternaltls\*\* "，然后选择 "**属性**"。</span><span class="sxs-lookup"><span data-stu-id="98cec-111">In the right pane, right click **\_sipinternaltls** and select **Properties**.</span></span>
 
-4.  <span data-ttu-id="b7f6c-112">在**提供此服务的主机**中，将主机 FQDN 更新为指向 Lync Server 2013 池。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-112">In **Host offering this service**, update the host FQDN to point to the Lync Server 2013 pool.</span></span>
+4.  <span data-ttu-id="98cec-112">在**提供此服务的主机**中，将主机 FQDN 更新为指向 Lync Server 2013 池。</span><span class="sxs-lookup"><span data-stu-id="98cec-112">In **Host offering this service**, update the host FQDN to point to the Lync Server 2013 pool.</span></span>
 
-5.  <span data-ttu-id="b7f6c-113">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-113">Click **OK**.</span></span>
+5.  <span data-ttu-id="98cec-113">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="98cec-113">Click **OK**.</span></span>
 
-<span data-ttu-id="b7f6c-114">**验证是否可以解析前端池或 Standard Edition Server 的 FQDN**</span><span class="sxs-lookup"><span data-stu-id="b7f6c-114">**To verify that the FQDN of the Front End pool or Standard Edition server can be resolved**</span></span>
+<span data-ttu-id="98cec-114">**验证是否可以解析前端池或 Standard Edition Server 的 FQDN**</span><span class="sxs-lookup"><span data-stu-id="98cec-114">**To verify that the FQDN of the Front End pool or Standard Edition server can be resolved**</span></span>
 
-1.  <span data-ttu-id="b7f6c-115">登录到域中的一台客户端计算机。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-115">Log on to a client computer in the domain.</span></span>
+1.  <span data-ttu-id="98cec-115">登录到域中的一台客户端计算机。</span><span class="sxs-lookup"><span data-stu-id="98cec-115">Log on to a client computer in the domain.</span></span>
 
-2.  <span data-ttu-id="b7f6c-116">单击“开始”\*\*\*\*，然后单击“运行”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-116">Click **Start**, and then click **Run**.</span></span>
+2.  <span data-ttu-id="98cec-116">单击“开始”\*\*\*\*，然后单击“运行”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="98cec-116">Click **Start**, and then click **Run**.</span></span>
 
-3.  <span data-ttu-id="b7f6c-117">在“打开”\*\*\*\* 框中，键入 **cmd**，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-117">In the **Open** box, type **cmd**, and then click **OK**.</span></span>
+3.  <span data-ttu-id="98cec-117">在“打开”\*\*\*\* 框中，键入 **cmd**，然后单击“确定”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="98cec-117">In the **Open** box, type **cmd**, and then click **OK**.</span></span>
 
-4.  <span data-ttu-id="b7f6c-118">在命令提示符处，键入**nslookup** \<FQDN 的前端池\>或\<Standard Edition 服务器\>的 FQDN，然后按 enter。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-118">At the command prompt, type **nslookup** \<FQDN of the Front End pool\> or \<FQDN of the Standard Edition server\>, and then press ENTER.</span></span>
+4.  <span data-ttu-id="98cec-118">在命令提示符处，键入**nslookup** \<FQDN 的前端池\>或\<Standard Edition 服务器\>的 FQDN，然后按 enter。</span><span class="sxs-lookup"><span data-stu-id="98cec-118">At the command prompt, type **nslookup** \<FQDN of the Front End pool\> or \<FQDN of the Standard Edition server\>, and then press ENTER.</span></span>
 
-5.  <span data-ttu-id="b7f6c-119">验证是否收到一个解析为 FQDN 的相应 IP 地址的答复。</span><span class="sxs-lookup"><span data-stu-id="b7f6c-119">Verify that you receive a reply that resolves to the appropriate IP address for the FQDN.</span></span>
+5.  <span data-ttu-id="98cec-119">验证是否收到一个解析为 FQDN 的相应 IP 地址的答复。</span><span class="sxs-lookup"><span data-stu-id="98cec-119">Verify that you receive a reply that resolves to the appropriate IP address for the FQDN.</span></span>
 
 </div>
 

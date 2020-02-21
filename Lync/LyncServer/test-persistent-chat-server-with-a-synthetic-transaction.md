@@ -12,20 +12,20 @@ ms:contentKeyID: 48183968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5cd9215111e91584233f5ba23748f70d32ce541
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: d960e2c719c6ac0cac1ba20c702deb81b7deb4d1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148015"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42189205"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-persistent-chat-server-with-a-synthetic-transaction"></a><span data-ttu-id="ae59d-102">使用综合事务测试持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="ae59d-102">Test Persistent Chat Server with a synthetic transaction</span></span>
+# <a name="test-persistent-chat-server-with-a-synthetic-transaction"></a><span data-ttu-id="ede9f-102">使用综合事务测试持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="ede9f-102">Test Persistent Chat Server with a synthetic transaction</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42148015"
 
 <span> </span>
 
-<span data-ttu-id="ae59d-103">_**上次修改的主题：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="ae59d-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="ede9f-103">_**上次修改的主题：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="ede9f-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="ae59d-104">测试持久聊天服务器以在两个用户之间的聊天室中发送和接收邮件</span><span class="sxs-lookup"><span data-stu-id="ae59d-104">To test Persistent Chat Server for sending and receiving messages in a chat room between two users</span></span>
+<span data-ttu-id="ede9f-104">测试持久聊天服务器以在两个用户之间的聊天室中发送和接收邮件</span><span class="sxs-lookup"><span data-stu-id="ede9f-104">To test Persistent Chat Server for sending and receiving messages in a chat room between two users</span></span>
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] [-ReceiverSipAddress <String>] [-RegistrarPort <Int32>] [-SenderSipAddress <String>] -TargetFqdn <String> [-Force <SwitchParameter>] [-OutLoggerVariable <String>] 
         [-OutVerboseVariable <String>] [<CommonParameters>]
 
-<span data-ttu-id="ae59d-105">或</span><span class="sxs-lookup"><span data-stu-id="ae59d-105">or</span></span>
+<span data-ttu-id="ede9f-105">或</span><span class="sxs-lookup"><span data-stu-id="ede9f-105">or</span></span>
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] -ReceiverCredential <PSCredential> -ReceiverSipAddress <String> [-RegistrarPort 
         <Int32>] -SenderCredential <PSCredential> -SenderSipAddress <String> [-TargetFqdn <String>] [-Force <SwitchParameter>] [-OutLoggerVariable <String>] [-OutVerboseVariable <String>] [<CommonParameters>]
 
-<span data-ttu-id="ae59d-106">或</span><span class="sxs-lookup"><span data-stu-id="ae59d-106">or</span></span>
+<span data-ttu-id="ede9f-106">或</span><span class="sxs-lookup"><span data-stu-id="ede9f-106">or</span></span>
 
     Test-CsPersistentChatMessage [-Authentication <TrustedServer | Negotiate | ClientCertificate | 
         LiveID>] [-Force <SwitchParameter>] [-OutLoggerVariable <String>] [-OutVerboseVariable 

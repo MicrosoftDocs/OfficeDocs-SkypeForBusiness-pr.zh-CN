@@ -12,20 +12,20 @@ ms:contentKeyID: 49733804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4427de1dfb16beafbc42eb300bf8cc508fe29b8
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3c2ec6a069b6d0c8b27fe834e98dcb3398c12d7f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147795"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42188775"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-current-users-in-lync-server-2010-pool"></a><span data-ttu-id="a63c5-102">在 Lync Server 2010 池中查看当前用户</span><span class="sxs-lookup"><span data-stu-id="a63c5-102">View current users in Lync Server 2010 pool</span></span>
+# <a name="view-current-users-in-lync-server-2010-pool"></a><span data-ttu-id="1eaf3-102">在 Lync Server 2010 池中查看当前用户</span><span class="sxs-lookup"><span data-stu-id="1eaf3-102">View current users in Lync Server 2010 pool</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42147795"
 
 <span> </span>
 
-<span data-ttu-id="a63c5-103">_**上次修改的主题：** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="a63c5-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="1eaf3-103">_**上次修改的主题：** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="1eaf3-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="a63c5-104">在了解可以在池之间移动用户的各种方法之前，我们必须首先确定旧版 Lync Server 2010 池中存在哪些用户。</span><span class="sxs-lookup"><span data-stu-id="a63c5-104">Prior to learning the various ways you can move users between pools, we must first determine what users exist in the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="a63c5-105">在下图中，"注册器池" 列标识为旧版 Lync Server 2010 池配置的六个用户。</span><span class="sxs-lookup"><span data-stu-id="a63c5-105">In the image below, the Registrar pool column identifies six users who are configured for the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="a63c5-106">这些是我们将迁移到 Lync Server 2013 池的测试用户。</span><span class="sxs-lookup"><span data-stu-id="a63c5-106">These are the test users we will move to the Lync Server 2013 pool.</span></span>
+<span data-ttu-id="1eaf3-104">在了解可以在池之间移动用户的各种方法之前，我们必须首先确定旧版 Lync Server 2010 池中存在哪些用户。</span><span class="sxs-lookup"><span data-stu-id="1eaf3-104">Prior to learning the various ways you can move users between pools, we must first determine what users exist in the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="1eaf3-105">在下图中，"注册器池" 列标识为旧版 Lync Server 2010 池配置的六个用户。</span><span class="sxs-lookup"><span data-stu-id="1eaf3-105">In the image below, the Registrar pool column identifies six users who are configured for the legacy Lync Server 2010 pool.</span></span> <span data-ttu-id="1eaf3-106">这些是我们将迁移到 Lync Server 2013 池的测试用户。</span><span class="sxs-lookup"><span data-stu-id="1eaf3-106">These are the test users we will move to the Lync Server 2013 pool.</span></span>
 
-<span data-ttu-id="a63c5-107">**查看 Lync Server 2010 池中的用户列表**</span><span class="sxs-lookup"><span data-stu-id="a63c5-107">**To see the list of users in the Lync Server 2010 pool**</span></span>
+<span data-ttu-id="1eaf3-107">**查看 Lync Server 2010 池中的用户列表**</span><span class="sxs-lookup"><span data-stu-id="1eaf3-107">**To see the list of users in the Lync Server 2010 pool**</span></span>
 
-1.  <span data-ttu-id="a63c5-108">使用作为 RTCUniversalServerAdmins 组成员的帐户或 CsAdministrator 或 CsUserAdministrator 管理角色的成员登录到 Lync Server 2010 前端服务器。</span><span class="sxs-lookup"><span data-stu-id="a63c5-108">Log on to the Lync Server 2010 Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
+1.  <span data-ttu-id="1eaf3-108">使用作为 RTCUniversalServerAdmins 组成员的帐户或 CsAdministrator 或 CsUserAdministrator 管理角色的成员登录到 Lync Server 2010 前端服务器。</span><span class="sxs-lookup"><span data-stu-id="1eaf3-108">Log on to the Lync Server 2010 Front End Server with an account that is a member of the RTCUniversalServerAdmins group or a member of the CsAdministrator or CsUserAdministrator administrative role.</span></span>
 
-2.  <span data-ttu-id="a63c5-109">打开“Lync Server 控制面板”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a63c5-109">Open **Lync Server Control Panel**.</span></span>
+2.  <span data-ttu-id="1eaf3-109">打开“Lync Server 控制面板”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1eaf3-109">Open **Lync Server Control Panel**.</span></span>
 
-3.  <span data-ttu-id="a63c5-110">单击“用户”\*\*\*\*，再单击“搜索”，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a63c5-110">Click **Users**, click Search, and then click **Find**.</span></span>
+3.  <span data-ttu-id="1eaf3-110">单击“用户”\*\*\*\*，再单击“搜索”，然后单击“查找”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="1eaf3-110">Click **Users**, click Search, and then click **Find**.</span></span>
 
-<span data-ttu-id="a63c5-111">**Lync Server 15 控制面板**</span><span class="sxs-lookup"><span data-stu-id="a63c5-111">**The Lync Server 15 Control Panel**</span></span>
+<span data-ttu-id="1eaf3-111">**Lync Server 15 控制面板**</span><span class="sxs-lookup"><span data-stu-id="1eaf3-111">**The Lync Server 15 Control Panel**</span></span>
 
-<span data-ttu-id="a63c5-112">![Lync Server 控制面板 "移动用户" 对话框](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server 控制面板 "移动用户" 对话框")</span><span class="sxs-lookup"><span data-stu-id="a63c5-112">![Lync Server Control Panel, Move User dialog](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server Control Panel, Move User dialog")</span></span>
+<span data-ttu-id="1eaf3-112">![Lync Server 控制面板 "移动用户" 对话框](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server 控制面板 "移动用户" 对话框")</span><span class="sxs-lookup"><span data-stu-id="1eaf3-112">![Lync Server Control Panel, Move User dialog](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server Control Panel, Move User dialog")</span></span>
 
 </div>
 
