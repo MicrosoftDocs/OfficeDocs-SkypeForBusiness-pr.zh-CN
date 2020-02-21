@@ -12,20 +12,20 @@ ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b3fb33c8cef77139ec1f2e6ddd13da3847c1ec9
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 697023ef7c93191cbe13aa0abf4c175240e70ae9
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42117305"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42212558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a><span data-ttu-id="2fae6-102">在 Lync Server 2013 中使用监控仪表板</span><span class="sxs-lookup"><span data-stu-id="2fae6-102">Using the Monitoring Dashboard in Lync Server 2013</span></span>
+# <a name="using-the-monitoring-dashboard-in-lync-server-2013"></a><span data-ttu-id="7e7d4-102">在 Lync Server 2013 中使用监控仪表板</span><span class="sxs-lookup"><span data-stu-id="7e7d4-102">Using the Monitoring Dashboard in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,215 +35,215 @@ ms.locfileid: "42117305"
 
 <span> </span>
 
-<span data-ttu-id="2fae6-103">_**上次修改的主题：** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="2fae6-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+<span data-ttu-id="7e7d4-103">_**上次修改的主题：** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="7e7d4-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-<span data-ttu-id="2fae6-104">监控仪表板为管理员提供其 Microsoft Lync Server 2013 系统运行状况和系统使用情况的快速概述。</span><span class="sxs-lookup"><span data-stu-id="2fae6-104">The Monitoring Dashboard provides administrators with a quick overview of their Microsoft Lync Server 2013 system health and system usage.</span></span> <span data-ttu-id="2fae6-105">仪表板旨在显示关键系统指标的聚合视图，通过显示以下任一内容来实现此目标：</span><span class="sxs-lookup"><span data-stu-id="2fae6-105">The Dashboard is designed to show an aggregate view of key system metrics and to do so by displaying either:</span></span>
+<span data-ttu-id="7e7d4-104">监控仪表板为管理员提供其 Microsoft Lync Server 2013 系统运行状况和系统使用情况的快速概述。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-104">The Monitoring Dashboard provides administrators with a quick overview of their Microsoft Lync Server 2013 system health and system usage.</span></span> <span data-ttu-id="7e7d4-105">仪表板旨在显示关键系统指标的聚合视图，通过显示以下任一内容来实现此目标：</span><span class="sxs-lookup"><span data-stu-id="7e7d4-105">The Dashboard is designed to show an aggregate view of key system metrics and to do so by displaying either:</span></span>
 
-  - <span data-ttu-id="2fae6-106">当天的汇总。</span><span class="sxs-lookup"><span data-stu-id="2fae6-106">Totals for the current day.</span></span> <span data-ttu-id="2fae6-107">请注意，当前日期显示的值表示从午夜到当前时间（基于报告服务器的本地时间）记录的数据。</span><span class="sxs-lookup"><span data-stu-id="2fae6-107">Note that values shown for the current day represent data that has been recorded from midnight until the current time (based on the local time of the reporting server).</span></span> <span data-ttu-id="2fae6-108">这意味着您通常会查看部分日期的数据，而不是24小时的时间。</span><span class="sxs-lookup"><span data-stu-id="2fae6-108">That means that you will typically be viewing data for a partial day and not for a 24-hour period.</span></span> <span data-ttu-id="2fae6-109">例如，如果服务器的本地时间为 8:00 AM，则会看到8小时的数据，因为午夜和当前时间为 8:00 AM 之间有八个小时。</span><span class="sxs-lookup"><span data-stu-id="2fae6-109">For example, if the local time of the server is 8:00 AM, you see eight hours’ worth of data because there are eight hours between midnight and the current time of 8:00 AM.</span></span>
+  - <span data-ttu-id="7e7d4-106">当天的汇总。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-106">Totals for the current day.</span></span> <span data-ttu-id="7e7d4-107">请注意，当前日期显示的值表示从午夜到当前时间（基于报告服务器的本地时间）记录的数据。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-107">Note that values shown for the current day represent data that has been recorded from midnight until the current time (based on the local time of the reporting server).</span></span> <span data-ttu-id="7e7d4-108">这意味着您通常会查看部分日期的数据，而不是24小时的时间。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-108">That means that you will typically be viewing data for a partial day and not for a 24-hour period.</span></span> <span data-ttu-id="7e7d4-109">例如，如果服务器的本地时间为 8:00 AM，则会看到8小时的数据，因为午夜和当前时间为 8:00 AM 之间有八个小时。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-109">For example, if the local time of the server is 8:00 AM, you see eight hours’ worth of data because there are eight hours between midnight and the current time of 8:00 AM.</span></span>
 
-  - <span data-ttu-id="2fae6-110">一周的总计和过去六周的趋势总计。</span><span class="sxs-lookup"><span data-stu-id="2fae6-110">Totals for the week, and trend totals for the past six weeks.</span></span>
+  - <span data-ttu-id="7e7d4-110">一周的总计和过去六周的趋势总计。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-110">Totals for the week, and trend totals for the past six weeks.</span></span>
 
-  - <span data-ttu-id="2fae6-111">月总数和过去六个月的趋势总计（仅适用于系统使用情况）。</span><span class="sxs-lookup"><span data-stu-id="2fae6-111">Totals for the month, and trend totals for the past six months (for system usage only).</span></span>
+  - <span data-ttu-id="7e7d4-111">月总数和过去六个月的趋势总计（仅适用于系统使用情况）。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-111">Totals for the month, and trend totals for the past six months (for system usage only).</span></span>
 
-<span data-ttu-id="2fae6-112">请注意，您可以使用[CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) cmdlet 返回用于访问 Lync Server 2013 监视报告的 URL：</span><span class="sxs-lookup"><span data-stu-id="2fae6-112">Note that you can use the [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) cmdlet to return the URL used for accessing Lync Server 2013 Monitoring Reports:</span></span>
+<span data-ttu-id="7e7d4-112">请注意，您可以使用[CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) cmdlet 返回用于访问 Lync Server 2013 监视报告的 URL：</span><span class="sxs-lookup"><span data-stu-id="7e7d4-112">Note that you can use the [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsReportingConfiguration) cmdlet to return the URL used for accessing Lync Server 2013 Monitoring Reports:</span></span>
 
     Get-CsReportingConfiguration
 
-<span data-ttu-id="2fae6-113">默认情况下，监控仪表板显示当前星期的以下指标的数据（和前六周的趋势总计）：</span><span class="sxs-lookup"><span data-stu-id="2fae6-113">By default, the Monitoring Dashboard shows data for the following metrics for the current week (and trend totals for the previous six weeks):</span></span>
+<span data-ttu-id="7e7d4-113">默认情况下，监控仪表板显示当前星期的以下指标的数据（和前六周的趋势总计）：</span><span class="sxs-lookup"><span data-stu-id="7e7d4-113">By default, the Monitoring Dashboard shows data for the following metrics for the current week (and trend totals for the previous six weeks):</span></span>
 
 <div>
 
-## <a name="system-usage-metrics"></a><span data-ttu-id="2fae6-114">系统使用指标</span><span class="sxs-lookup"><span data-stu-id="2fae6-114">System Usage Metrics</span></span>
+## <a name="system-usage-metrics"></a><span data-ttu-id="7e7d4-114">系统使用指标</span><span class="sxs-lookup"><span data-stu-id="7e7d4-114">System Usage Metrics</span></span>
 
-<span data-ttu-id="2fae6-115">**注册**</span><span class="sxs-lookup"><span data-stu-id="2fae6-115">**Registration**</span></span>
+<span data-ttu-id="7e7d4-115">**注册**</span><span class="sxs-lookup"><span data-stu-id="7e7d4-115">**Registration**</span></span>
 
-  - <span data-ttu-id="2fae6-116">唯一用户登录</span><span class="sxs-lookup"><span data-stu-id="2fae6-116">Unique user logons</span></span>
+  - <span data-ttu-id="7e7d4-116">唯一用户登录</span><span class="sxs-lookup"><span data-stu-id="7e7d4-116">Unique user logons</span></span>
 
-<span data-ttu-id="2fae6-117">**对等**</span><span class="sxs-lookup"><span data-stu-id="2fae6-117">**Peer-to-peer**</span></span>
+<span data-ttu-id="7e7d4-117">**对等**</span><span class="sxs-lookup"><span data-stu-id="7e7d4-117">**Peer-to-peer**</span></span>
 
-  - <span data-ttu-id="2fae6-118">会话总数</span><span class="sxs-lookup"><span data-stu-id="2fae6-118">Total sessions</span></span>
+  - <span data-ttu-id="7e7d4-118">会话总数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-118">Total sessions</span></span>
 
-  - <span data-ttu-id="2fae6-119">IM 会话</span><span class="sxs-lookup"><span data-stu-id="2fae6-119">IM sessions</span></span>
+  - <span data-ttu-id="7e7d4-119">IM 会话</span><span class="sxs-lookup"><span data-stu-id="7e7d4-119">IM sessions</span></span>
 
-  - <span data-ttu-id="2fae6-120">音频会话</span><span class="sxs-lookup"><span data-stu-id="2fae6-120">Audio sessions</span></span>
+  - <span data-ttu-id="7e7d4-120">音频会话</span><span class="sxs-lookup"><span data-stu-id="7e7d4-120">Audio sessions</span></span>
 
-  - <span data-ttu-id="2fae6-121">视频会话</span><span class="sxs-lookup"><span data-stu-id="2fae6-121">Video sessions</span></span>
+  - <span data-ttu-id="7e7d4-121">视频会话</span><span class="sxs-lookup"><span data-stu-id="7e7d4-121">Video sessions</span></span>
 
-  - <span data-ttu-id="2fae6-122">应用程序共享</span><span class="sxs-lookup"><span data-stu-id="2fae6-122">Application sharing</span></span>
+  - <span data-ttu-id="7e7d4-122">应用程序共享</span><span class="sxs-lookup"><span data-stu-id="7e7d4-122">Application sharing</span></span>
 
-  - <span data-ttu-id="2fae6-123">音频会话总分钟数</span><span class="sxs-lookup"><span data-stu-id="2fae6-123">Total audio session minutes</span></span>
+  - <span data-ttu-id="7e7d4-123">音频会话总分钟数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-123">Total audio session minutes</span></span>
 
-  - <span data-ttu-id="2fae6-124">平均音频会话分钟数</span><span class="sxs-lookup"><span data-stu-id="2fae6-124">Avg. audio session minutes</span></span>
+  - <span data-ttu-id="7e7d4-124">平均音频会话分钟数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-124">Avg. audio session minutes</span></span>
 
-<span data-ttu-id="2fae6-125">**发布会**</span><span class="sxs-lookup"><span data-stu-id="2fae6-125">**Conference**</span></span>
+<span data-ttu-id="7e7d4-125">**发布会**</span><span class="sxs-lookup"><span data-stu-id="7e7d4-125">**Conference**</span></span>
 
-  - <span data-ttu-id="2fae6-126">会议总数</span><span class="sxs-lookup"><span data-stu-id="2fae6-126">Total conferences</span></span>
+  - <span data-ttu-id="7e7d4-126">会议总数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-126">Total conferences</span></span>
 
-  - <span data-ttu-id="2fae6-127">IM 会议</span><span class="sxs-lookup"><span data-stu-id="2fae6-127">IM conferences</span></span>
+  - <span data-ttu-id="7e7d4-127">IM 会议</span><span class="sxs-lookup"><span data-stu-id="7e7d4-127">IM conferences</span></span>
 
-  - <span data-ttu-id="2fae6-128">A/V 会议</span><span class="sxs-lookup"><span data-stu-id="2fae6-128">A/V conferences</span></span>
+  - <span data-ttu-id="7e7d4-128">A/V 会议</span><span class="sxs-lookup"><span data-stu-id="7e7d4-128">A/V conferences</span></span>
 
-  - <span data-ttu-id="2fae6-129">应用程序共享会议</span><span class="sxs-lookup"><span data-stu-id="2fae6-129">Application sharing conferences</span></span>
+  - <span data-ttu-id="7e7d4-129">应用程序共享会议</span><span class="sxs-lookup"><span data-stu-id="7e7d4-129">Application sharing conferences</span></span>
 
-  - <span data-ttu-id="2fae6-130">Web 会议</span><span class="sxs-lookup"><span data-stu-id="2fae6-130">Web conferences</span></span>
+  - <span data-ttu-id="7e7d4-130">Web 会议</span><span class="sxs-lookup"><span data-stu-id="7e7d4-130">Web conferences</span></span>
 
-  - <span data-ttu-id="2fae6-131">组织者总数</span><span class="sxs-lookup"><span data-stu-id="2fae6-131">Total organizers</span></span>
+  - <span data-ttu-id="7e7d4-131">组织者总数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-131">Total organizers</span></span>
 
-  - <span data-ttu-id="2fae6-132">A/V 会议总分钟数</span><span class="sxs-lookup"><span data-stu-id="2fae6-132">Total A/V conference minutes</span></span>
+  - <span data-ttu-id="7e7d4-132">A/V 会议总分钟数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-132">Total A/V conference minutes</span></span>
 
-  - <span data-ttu-id="2fae6-133">Avg.A/V 会议分钟数</span><span class="sxs-lookup"><span data-stu-id="2fae6-133">Avg. A/V conference minutes</span></span>
+  - <span data-ttu-id="7e7d4-133">Avg.A/V 会议分钟数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-133">Avg. A/V conference minutes</span></span>
 
-  - <span data-ttu-id="2fae6-134">PSTN 会议总数</span><span class="sxs-lookup"><span data-stu-id="2fae6-134">Total PSTN conferences</span></span>
+  - <span data-ttu-id="7e7d4-134">PSTN 会议总数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-134">Total PSTN conferences</span></span>
 
-  - <span data-ttu-id="2fae6-135">PSTN 参与者总数</span><span class="sxs-lookup"><span data-stu-id="2fae6-135">Total PSTN participants</span></span>
+  - <span data-ttu-id="7e7d4-135">PSTN 参与者总数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-135">Total PSTN participants</span></span>
 
-  - <span data-ttu-id="2fae6-136">PSTN 参与者总分钟数</span><span class="sxs-lookup"><span data-stu-id="2fae6-136">Total PSTN participant minutes</span></span>
+  - <span data-ttu-id="7e7d4-136">PSTN 参与者总分钟数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-136">Total PSTN participant minutes</span></span>
 
-<span data-ttu-id="2fae6-137">除了系统使用指标，以下指标还显示当前日期和前六天的总计（如果选择 "**每周视图**"），或者在选择 "**月视图**" 时为当前星期和过去六周。</span><span class="sxs-lookup"><span data-stu-id="2fae6-137">In addition to the System Usage metrics, the following metrics displays total for the current day and the previous six days (if you select **Weekly View**) or for the current week and the past six weeks if you select **Monthly View**.</span></span>
+<span data-ttu-id="7e7d4-137">除了系统使用指标，以下指标还显示当前日期和前六天的总计（如果选择 "**每周视图**"），或者在选择 "**月视图**" 时为当前星期和过去六周。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-137">In addition to the System Usage metrics, the following metrics displays total for the current day and the previous six days (if you select **Weekly View**) or for the current week and the past six weeks if you select **Monthly View**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="per-user-call-diagnostics"></a><span data-ttu-id="2fae6-138">每用户呼叫诊断</span><span class="sxs-lookup"><span data-stu-id="2fae6-138">Per-User Call Diagnostics</span></span>
+## <a name="per-user-call-diagnostics"></a><span data-ttu-id="7e7d4-138">每用户呼叫诊断</span><span class="sxs-lookup"><span data-stu-id="7e7d4-138">Per-User Call Diagnostics</span></span>
 
-<span data-ttu-id="2fae6-139">**具有呼叫失败的用户**</span><span class="sxs-lookup"><span data-stu-id="2fae6-139">**Users with call failures**</span></span>
+<span data-ttu-id="7e7d4-139">**具有呼叫失败的用户**</span><span class="sxs-lookup"><span data-stu-id="7e7d4-139">**Users with call failures**</span></span>
 
-  - <span data-ttu-id="2fae6-140">具有呼叫故障的用户总数</span><span class="sxs-lookup"><span data-stu-id="2fae6-140">Total users with call failures</span></span>
+  - <span data-ttu-id="7e7d4-140">具有呼叫故障的用户总数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-140">Total users with call failures</span></span>
 
-  - <span data-ttu-id="2fae6-141">具有呼叫故障的会议组织者</span><span class="sxs-lookup"><span data-stu-id="2fae6-141">Conference organizers with call failures</span></span>
+  - <span data-ttu-id="7e7d4-141">具有呼叫故障的会议组织者</span><span class="sxs-lookup"><span data-stu-id="7e7d4-141">Conference organizers with call failures</span></span>
 
-<span data-ttu-id="2fae6-142">**具有较差的呼叫质量较差的用户**</span><span class="sxs-lookup"><span data-stu-id="2fae6-142">**Users with poor quality calls**</span></span>
+<span data-ttu-id="7e7d4-142">**具有较差的呼叫质量较差的用户**</span><span class="sxs-lookup"><span data-stu-id="7e7d4-142">**Users with poor quality calls**</span></span>
 
-  - <span data-ttu-id="2fae6-143">使用质量较差的呼叫的用户总数</span><span class="sxs-lookup"><span data-stu-id="2fae6-143">Total users with poor quality calls</span></span>
-
-</div>
-
-<div>
-
-## <a name="call-diagnostics"></a><span data-ttu-id="2fae6-144">呼叫诊断</span><span class="sxs-lookup"><span data-stu-id="2fae6-144">Call Diagnostics</span></span>
-
-<span data-ttu-id="2fae6-145">对等</span><span class="sxs-lookup"><span data-stu-id="2fae6-145">Peer-to-peer</span></span>
-
-  - <span data-ttu-id="2fae6-146">失败总次数</span><span class="sxs-lookup"><span data-stu-id="2fae6-146">Total failures</span></span>
-
-  - <span data-ttu-id="2fae6-147">整体故障率</span><span class="sxs-lookup"><span data-stu-id="2fae6-147">Overall failure rate</span></span>
-
-  - <span data-ttu-id="2fae6-148">IM 故障率</span><span class="sxs-lookup"><span data-stu-id="2fae6-148">IM failure rate</span></span>
-
-  - <span data-ttu-id="2fae6-149">音频故障率</span><span class="sxs-lookup"><span data-stu-id="2fae6-149">Audio failure rate</span></span>
-
-  - <span data-ttu-id="2fae6-150">应用程序共享故障率</span><span class="sxs-lookup"><span data-stu-id="2fae6-150">Application sharing failure rate</span></span>
-
-<span data-ttu-id="2fae6-151">发布会</span><span class="sxs-lookup"><span data-stu-id="2fae6-151">Conference</span></span>
-
-  - <span data-ttu-id="2fae6-152">失败总次数</span><span class="sxs-lookup"><span data-stu-id="2fae6-152">Total failures</span></span>
-
-  - <span data-ttu-id="2fae6-153">整体故障率</span><span class="sxs-lookup"><span data-stu-id="2fae6-153">Overall failure rate</span></span>
-
-  - <span data-ttu-id="2fae6-154">IM 故障率</span><span class="sxs-lookup"><span data-stu-id="2fae6-154">IM failure rate</span></span>
-
-  - <span data-ttu-id="2fae6-155">A/V 故障率</span><span class="sxs-lookup"><span data-stu-id="2fae6-155">A/V failure rate</span></span>
-
-  - <span data-ttu-id="2fae6-156">应用程序共享故障率</span><span class="sxs-lookup"><span data-stu-id="2fae6-156">Application sharing failure rate</span></span>
-
-<span data-ttu-id="2fae6-157">按失败会话排列的前5台服务器</span><span class="sxs-lookup"><span data-stu-id="2fae6-157">Top five servers by failed sessions</span></span>
+  - <span data-ttu-id="7e7d4-143">使用质量较差的呼叫的用户总数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-143">Total users with poor quality calls</span></span>
 
 </div>
 
 <div>
 
-## <a name="media-quality-diagnostics"></a><span data-ttu-id="2fae6-158">媒体质量诊断</span><span class="sxs-lookup"><span data-stu-id="2fae6-158">Media Quality Diagnostics</span></span>
+## <a name="call-diagnostics"></a><span data-ttu-id="7e7d4-144">呼叫诊断</span><span class="sxs-lookup"><span data-stu-id="7e7d4-144">Call Diagnostics</span></span>
 
-<span data-ttu-id="2fae6-159">对等</span><span class="sxs-lookup"><span data-stu-id="2fae6-159">Peer-to-peer</span></span>
+<span data-ttu-id="7e7d4-145">对等</span><span class="sxs-lookup"><span data-stu-id="7e7d4-145">Peer-to-peer</span></span>
 
-  - <span data-ttu-id="2fae6-160">质量较差的呼叫总数</span><span class="sxs-lookup"><span data-stu-id="2fae6-160">Total poor quality calls</span></span>
+  - <span data-ttu-id="7e7d4-146">失败总次数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-146">Total failures</span></span>
 
-  - <span data-ttu-id="2fae6-161">质量较差的呼叫百分比</span><span class="sxs-lookup"><span data-stu-id="2fae6-161">Poor quality call percentage</span></span>
+  - <span data-ttu-id="7e7d4-147">整体故障率</span><span class="sxs-lookup"><span data-stu-id="7e7d4-147">Overall failure rate</span></span>
 
-  - <span data-ttu-id="2fae6-162">质量较差的 PSTN 呼叫</span><span class="sxs-lookup"><span data-stu-id="2fae6-162">PSTN calls with poor quality</span></span>
+  - <span data-ttu-id="7e7d4-148">IM 故障率</span><span class="sxs-lookup"><span data-stu-id="7e7d4-148">IM failure rate</span></span>
 
-<span data-ttu-id="2fae6-163">发布会</span><span class="sxs-lookup"><span data-stu-id="2fae6-163">Conference</span></span>
+  - <span data-ttu-id="7e7d4-149">音频故障率</span><span class="sxs-lookup"><span data-stu-id="7e7d4-149">Audio failure rate</span></span>
 
-  - <span data-ttu-id="2fae6-164">质量较差的呼叫总数</span><span class="sxs-lookup"><span data-stu-id="2fae6-164">Total poor quality calls</span></span>
+  - <span data-ttu-id="7e7d4-150">应用程序共享故障率</span><span class="sxs-lookup"><span data-stu-id="7e7d4-150">Application sharing failure rate</span></span>
 
-  - <span data-ttu-id="2fae6-165">质量较差的呼叫百分比</span><span class="sxs-lookup"><span data-stu-id="2fae6-165">Poor quality call percentage</span></span>
+<span data-ttu-id="7e7d4-151">发布会</span><span class="sxs-lookup"><span data-stu-id="7e7d4-151">Conference</span></span>
 
-  - <span data-ttu-id="2fae6-166">质量较差的 PSTN 呼叫</span><span class="sxs-lookup"><span data-stu-id="2fae6-166">PSTN calls with poor quality</span></span>
+  - <span data-ttu-id="7e7d4-152">失败总次数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-152">Total failures</span></span>
 
-<span data-ttu-id="2fae6-167">低质量呼叫百分比最差的服务器</span><span class="sxs-lookup"><span data-stu-id="2fae6-167">Top worst servers by poor quality call percentage</span></span>
+  - <span data-ttu-id="7e7d4-153">整体故障率</span><span class="sxs-lookup"><span data-stu-id="7e7d4-153">Overall failure rate</span></span>
+
+  - <span data-ttu-id="7e7d4-154">IM 故障率</span><span class="sxs-lookup"><span data-stu-id="7e7d4-154">IM failure rate</span></span>
+
+  - <span data-ttu-id="7e7d4-155">A/V 故障率</span><span class="sxs-lookup"><span data-stu-id="7e7d4-155">A/V failure rate</span></span>
+
+  - <span data-ttu-id="7e7d4-156">应用程序共享故障率</span><span class="sxs-lookup"><span data-stu-id="7e7d4-156">Application sharing failure rate</span></span>
+
+<span data-ttu-id="7e7d4-157">按失败会话排列的前5台服务器</span><span class="sxs-lookup"><span data-stu-id="7e7d4-157">Top five servers by failed sessions</span></span>
 
 </div>
 
 <div>
 
-## <a name="working-with-the-monitoring-dashboard"></a><span data-ttu-id="2fae6-168">使用监控仪表板</span><span class="sxs-lookup"><span data-stu-id="2fae6-168">Working with the Monitoring Dashboard</span></span>
+## <a name="media-quality-diagnostics"></a><span data-ttu-id="7e7d4-158">媒体质量诊断</span><span class="sxs-lookup"><span data-stu-id="7e7d4-158">Media Quality Diagnostics</span></span>
 
-<span data-ttu-id="2fae6-169">如前所述，默认情况下显示当前周的汇总，并且趋势值显示过去六周。</span><span class="sxs-lookup"><span data-stu-id="2fae6-169">As noted, by default totals are shown for the current week and trend values are shown for the past six weeks.</span></span> <span data-ttu-id="2fae6-170">如果您想要查看当前月的总和（以及过去六个月的趋势值），请单击仪表板右上角的 "**月视图**" 链接。</span><span class="sxs-lookup"><span data-stu-id="2fae6-170">If you would prefer to see totals for the current month (as well as trend values for the past six months), click the **Monthly View** link in the upper right corner of the dashboard.</span></span> <span data-ttu-id="2fae6-171">如果您决定查看每月总计，则链接文本将更改为**每周视图**。</span><span class="sxs-lookup"><span data-stu-id="2fae6-171">If you decide to view monthly totals, the link text will change to **Weekly View**.</span></span> <span data-ttu-id="2fae6-172">您可以通过单击该链接切换回每周视图。</span><span class="sxs-lookup"><span data-stu-id="2fae6-172">You can switch back to the weekly view by clicking that link.</span></span>
+<span data-ttu-id="7e7d4-159">对等</span><span class="sxs-lookup"><span data-stu-id="7e7d4-159">Peer-to-peer</span></span>
+
+  - <span data-ttu-id="7e7d4-160">质量较差的呼叫总数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-160">Total poor quality calls</span></span>
+
+  - <span data-ttu-id="7e7d4-161">质量较差的呼叫百分比</span><span class="sxs-lookup"><span data-stu-id="7e7d4-161">Poor quality call percentage</span></span>
+
+  - <span data-ttu-id="7e7d4-162">质量较差的 PSTN 呼叫</span><span class="sxs-lookup"><span data-stu-id="7e7d4-162">PSTN calls with poor quality</span></span>
+
+<span data-ttu-id="7e7d4-163">发布会</span><span class="sxs-lookup"><span data-stu-id="7e7d4-163">Conference</span></span>
+
+  - <span data-ttu-id="7e7d4-164">质量较差的呼叫总数</span><span class="sxs-lookup"><span data-stu-id="7e7d4-164">Total poor quality calls</span></span>
+
+  - <span data-ttu-id="7e7d4-165">质量较差的呼叫百分比</span><span class="sxs-lookup"><span data-stu-id="7e7d4-165">Poor quality call percentage</span></span>
+
+  - <span data-ttu-id="7e7d4-166">质量较差的 PSTN 呼叫</span><span class="sxs-lookup"><span data-stu-id="7e7d4-166">PSTN calls with poor quality</span></span>
+
+<span data-ttu-id="7e7d4-167">低质量呼叫百分比最差的服务器</span><span class="sxs-lookup"><span data-stu-id="7e7d4-167">Top worst servers by poor quality call percentage</span></span>
+
+</div>
+
+<div>
+
+## <a name="working-with-the-monitoring-dashboard"></a><span data-ttu-id="7e7d4-168">使用监控仪表板</span><span class="sxs-lookup"><span data-stu-id="7e7d4-168">Working with the Monitoring Dashboard</span></span>
+
+<span data-ttu-id="7e7d4-169">如前所述，默认情况下显示当前周的汇总，并且趋势值显示过去六周。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-169">As noted, by default totals are shown for the current week and trend values are shown for the past six weeks.</span></span> <span data-ttu-id="7e7d4-170">如果您想要查看当前月的总和（以及过去六个月的趋势值），请单击仪表板右上角的 "**月视图**" 链接。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-170">If you would prefer to see totals for the current month (as well as trend values for the past six months), click the **Monthly View** link in the upper right corner of the dashboard.</span></span> <span data-ttu-id="7e7d4-171">如果您决定查看每月总计，则链接文本将更改为**每周视图**。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-171">If you decide to view monthly totals, the link text will change to **Weekly View**.</span></span> <span data-ttu-id="7e7d4-172">您可以通过单击该链接切换回每周视图。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-172">You can switch back to the weekly view by clicking that link.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="2fae6-173">监控仪表板限制您查看当前周（或月）的总和和过去六周（或月）的趋势值。</span><span class="sxs-lookup"><span data-stu-id="2fae6-173">The Monitoring Dashboard restricts you to looking at totals for the current week (or month) and trend values for the past six weeks (or months).</span></span> <span data-ttu-id="2fae6-174">您不能更改这些日期和时间。</span><span class="sxs-lookup"><span data-stu-id="2fae6-174">You cannot change these dates and times.</span></span> <span data-ttu-id="2fae6-175">例如，不能使用仪表板查看每九个月前的时间段的报告总计。</span><span class="sxs-lookup"><span data-stu-id="2fae6-175">For example, you cannot use the Dashboard to view report totals for the time period beginning nine months ago.</span></span>
+> <span data-ttu-id="7e7d4-173">监控仪表板限制您查看当前周（或月）的总和和过去六周（或月）的趋势值。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-173">The Monitoring Dashboard restricts you to looking at totals for the current week (or month) and trend values for the past six weeks (or months).</span></span> <span data-ttu-id="7e7d4-174">您不能更改这些日期和时间。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-174">You cannot change these dates and times.</span></span> <span data-ttu-id="7e7d4-175">例如，不能使用仪表板查看每九个月前的时间段的报告总计。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-175">For example, you cannot use the Dashboard to view report totals for the time period beginning nine months ago.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2fae6-176">"**本周**"、"**本月**" 或 "**今日**" 列中显示的值将链接到有关项目的更多详细信息。</span><span class="sxs-lookup"><span data-stu-id="2fae6-176">The values shown in the **This week**, **This month**, or **Today** columns link you to more detailed information about the item.</span></span> <span data-ttu-id="2fae6-177">请记住，列名称和列中显示的值通常会有所不同，具体取决于所选的指标，取决于您是否选择了 "每周" 视图或 "按月" 视图。</span><span class="sxs-lookup"><span data-stu-id="2fae6-177">Keep in mind that the column name and the values displayed in that column will often differ depending on the metric chosen and depending on whether you have selected weekly view or monthly view.</span></span> <span data-ttu-id="2fae6-178">例如，如果单击显示的**唯一用户登录**指标的总计，则将在指定时间段内看到**用户注册报告**。</span><span class="sxs-lookup"><span data-stu-id="2fae6-178">For example, if you click the totals shown for the **Unique user logons** metric you will see the **User Registration Report** for the specified time period.</span></span> <span data-ttu-id="2fae6-179">您可以通过单击 "**仪表板**" 随时返回到 "监控" 仪表板。</span><span class="sxs-lookup"><span data-stu-id="2fae6-179">You can return to the Monitoring Dashboard at any time by clicking **Dashboard**.</span></span>
+<span data-ttu-id="7e7d4-176">"**本周**"、"**本月**" 或 "**今日**" 列中显示的值将链接到有关项目的更多详细信息。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-176">The values shown in the **This week**, **This month**, or **Today** columns link you to more detailed information about the item.</span></span> <span data-ttu-id="7e7d4-177">请记住，列名称和列中显示的值通常会有所不同，具体取决于所选的指标，取决于您是否选择了 "每周" 视图或 "按月" 视图。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-177">Keep in mind that the column name and the values displayed in that column will often differ depending on the metric chosen and depending on whether you have selected weekly view or monthly view.</span></span> <span data-ttu-id="7e7d4-178">例如，如果单击显示的**唯一用户登录**指标的总计，则将在指定时间段内看到**用户注册报告**。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-178">For example, if you click the totals shown for the **Unique user logons** metric you will see the **User Registration Report** for the specified time period.</span></span> <span data-ttu-id="7e7d4-179">您可以通过单击 "**仪表板**" 随时返回到 "监控" 仪表板。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-179">You can return to the Monitoring Dashboard at any time by clicking **Dashboard**.</span></span>
 
 <div>
 
 
 > [!TIP]  
-> <span data-ttu-id="2fae6-180">您还可以通过单击仪表板右上角的 "<STRONG>报告</STRONG>" 链接来访问 "监视服务器报告" 主页。</span><span class="sxs-lookup"><span data-stu-id="2fae6-180">You can also access the Monitoring Server Reports home page by clicking the <STRONG>Reports</STRONG> link in the upper right corner of the Dashboard.</span></span>
+> <span data-ttu-id="7e7d4-180">您还可以通过单击仪表板右上角的 "<STRONG>报告</STRONG>" 链接来访问 "监视服务器报告" 主页。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-180">You can also access the Monitoring Server Reports home page by clicking the <STRONG>Reports</STRONG> link in the upper right corner of the Dashboard.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2fae6-181">"**趋势**" 列显示一个简单的线形图，显示过去六周的总计（或过去六天或过去六个月的时间间隔，取决于指标和时间间隔）。</span><span class="sxs-lookup"><span data-stu-id="2fae6-181">The **Trend** column displays a simple line graph that shows totals for the past six weeks (or, depending on the metric and the time interval, the past six days or the past six months).</span></span> <span data-ttu-id="2fae6-182">这些简单的折线图为每个时间段显示一个未标记的数据点（例如，过去六周中每一个未标记的数据点）。</span><span class="sxs-lookup"><span data-stu-id="2fae6-182">These simple line graphs display one unlabeled data point for each time period (for example, one unlabeled data point for each of the past six weeks).</span></span> <span data-ttu-id="2fae6-183">但是，您可以通过将鼠标指针悬停在关系图上来检索这些关系图的实际值。</span><span class="sxs-lookup"><span data-stu-id="2fae6-183">However, you can retrieve actual values for these graphs by holding your mouse pointer over the graph.</span></span> <span data-ttu-id="2fae6-184">在这种情况下，工具提示会向您显示图形中的最大值和最小值。</span><span class="sxs-lookup"><span data-stu-id="2fae6-184">In that case, a tooltip shows you the maximum and minimum values in the graph.</span></span>
+<span data-ttu-id="7e7d4-181">"**趋势**" 列显示一个简单的线形图，显示过去六周的总计（或过去六天或过去六个月的时间间隔，取决于指标和时间间隔）。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-181">The **Trend** column displays a simple line graph that shows totals for the past six weeks (or, depending on the metric and the time interval, the past six days or the past six months).</span></span> <span data-ttu-id="7e7d4-182">这些简单的折线图为每个时间段显示一个未标记的数据点（例如，过去六周中每一个未标记的数据点）。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-182">These simple line graphs display one unlabeled data point for each time period (for example, one unlabeled data point for each of the past six weeks).</span></span> <span data-ttu-id="7e7d4-183">但是，您可以通过将鼠标指针悬停在关系图上来检索这些关系图的实际值。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-183">However, you can retrieve actual values for these graphs by holding your mouse pointer over the graph.</span></span> <span data-ttu-id="7e7d4-184">在这种情况下，工具提示会向您显示图形中的最大值和最小值。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-184">In that case, a tooltip shows you the maximum and minimum values in the graph.</span></span>
 
 </div>
 
 <div>
 
-## <a name="exporting-data-from-the-monitoring-dashboard"></a><span data-ttu-id="2fae6-185">从监控仪表板导出数据</span><span class="sxs-lookup"><span data-stu-id="2fae6-185">Exporting Data from the Monitoring Dashboard</span></span>
+## <a name="exporting-data-from-the-monitoring-dashboard"></a><span data-ttu-id="7e7d4-185">从监控仪表板导出数据</span><span class="sxs-lookup"><span data-stu-id="7e7d4-185">Exporting Data from the Monitoring Dashboard</span></span>
 
-<span data-ttu-id="2fae6-186">监控仪表板提供了多种方法来导出当前的仪表板视图。</span><span class="sxs-lookup"><span data-stu-id="2fae6-186">The Monitoring Dashboard provides a number of ways to export the current dashboard view.</span></span> <span data-ttu-id="2fae6-187">在仪表板工具栏上，你将看到一个图标，看起来像一个附加了绿色箭头的软盘。</span><span class="sxs-lookup"><span data-stu-id="2fae6-187">On the Dashboard toolbar, you'll see an icon that looks like a floppy disk with a green arrow attached to it.</span></span> <span data-ttu-id="2fae6-188">如果单击此图标，将显示一个下拉列表，提供以下数据导出格式：</span><span class="sxs-lookup"><span data-stu-id="2fae6-188">If you click this icon, a dropdown list will appear giving you the following data export formats:</span></span>
+<span data-ttu-id="7e7d4-186">监控仪表板提供了多种方法来导出当前的仪表板视图。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-186">The Monitoring Dashboard provides a number of ways to export the current dashboard view.</span></span> <span data-ttu-id="7e7d4-187">在仪表板工具栏上，你将看到一个图标，看起来像一个附加了绿色箭头的软盘。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-187">On the Dashboard toolbar, you'll see an icon that looks like a floppy disk with a green arrow attached to it.</span></span> <span data-ttu-id="7e7d4-188">如果单击此图标，将显示一个下拉列表，提供以下数据导出格式：</span><span class="sxs-lookup"><span data-stu-id="7e7d4-188">If you click this icon, a dropdown list will appear giving you the following data export formats:</span></span>
 
-  - <span data-ttu-id="2fae6-189">具有报告数据的 XML 文件</span><span class="sxs-lookup"><span data-stu-id="2fae6-189">XML file with report data</span></span>
+  - <span data-ttu-id="7e7d4-189">具有报告数据的 XML 文件</span><span class="sxs-lookup"><span data-stu-id="7e7d4-189">XML file with report data</span></span>
 
-  - <span data-ttu-id="2fae6-190">CSV（逗号分隔）</span><span class="sxs-lookup"><span data-stu-id="2fae6-190">CSV (comma delimited)</span></span>
+  - <span data-ttu-id="7e7d4-190">CSV（逗号分隔）</span><span class="sxs-lookup"><span data-stu-id="7e7d4-190">CSV (comma delimited)</span></span>
 
-  - <span data-ttu-id="2fae6-191">PDF</span><span class="sxs-lookup"><span data-stu-id="2fae6-191">PDF</span></span>
+  - <span data-ttu-id="7e7d4-191">PDF</span><span class="sxs-lookup"><span data-stu-id="7e7d4-191">PDF</span></span>
 
-  - <span data-ttu-id="2fae6-192">MHTML（Web 存档）</span><span class="sxs-lookup"><span data-stu-id="2fae6-192">MHTML (web archive)</span></span>
+  - <span data-ttu-id="7e7d4-192">MHTML（Web 存档）</span><span class="sxs-lookup"><span data-stu-id="7e7d4-192">MHTML (web archive)</span></span>
 
-  - <span data-ttu-id="2fae6-193">Excel</span><span class="sxs-lookup"><span data-stu-id="2fae6-193">Excel</span></span>
+  - <span data-ttu-id="7e7d4-193">Excel</span><span class="sxs-lookup"><span data-stu-id="7e7d4-193">Excel</span></span>
 
-  - <span data-ttu-id="2fae6-194">TIFF 文件</span><span class="sxs-lookup"><span data-stu-id="2fae6-194">TIFF file</span></span>
+  - <span data-ttu-id="7e7d4-194">TIFF 文件</span><span class="sxs-lookup"><span data-stu-id="7e7d4-194">TIFF file</span></span>
 
-  - <span data-ttu-id="2fae6-195">Word</span><span class="sxs-lookup"><span data-stu-id="2fae6-195">Word</span></span>
+  - <span data-ttu-id="7e7d4-195">Word</span><span class="sxs-lookup"><span data-stu-id="7e7d4-195">Word</span></span>
 
-<span data-ttu-id="2fae6-196">若要导出当前的仪表板视图（及其值），请单击所需的 "导出" 选项。</span><span class="sxs-lookup"><span data-stu-id="2fae6-196">To export the current dashboard view (and its values), click the desired export option.</span></span> <span data-ttu-id="2fae6-197">Lync Server 2013 生成指定格式的报告，然后为您提供打开该报告或保存该报告的选项。</span><span class="sxs-lookup"><span data-stu-id="2fae6-197">Lync Server 2013 generates a report in the specified format and then give you the option of opening that report or saving it.</span></span> <span data-ttu-id="2fae6-198">请注意，默认情况下，Lync Server 将报告**监控仪表板**标题，并将其保存到 "下载" 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="2fae6-198">Note that, by default, Lync Server titles the report **Monitoring Dashboard** and saves it to your Downloads folder.</span></span> <span data-ttu-id="2fae6-199">若要为报告指定不同的名称或将其存储在不同的文件夹中，请单击 "**保存**" 按钮旁边的箭头，然后单击 "**另存为**"。</span><span class="sxs-lookup"><span data-stu-id="2fae6-199">To give the report a different name or to store it in a different folder, click the arrow next to the **Save** button and then click **Save As**.</span></span> <span data-ttu-id="2fae6-200">如果您使用名称**监控仪表板**并将报告保存在 "下载" 文件夹中，只需单击 "**保存**" 按钮即可。</span><span class="sxs-lookup"><span data-stu-id="2fae6-200">If you are fine with name **Monitoring Dashboard** and with having the report saved in the Downloads folder you can just click the **Save** button.</span></span>
+<span data-ttu-id="7e7d4-196">若要导出当前的仪表板视图（及其值），请单击所需的 "导出" 选项。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-196">To export the current dashboard view (and its values), click the desired export option.</span></span> <span data-ttu-id="7e7d4-197">Lync Server 2013 生成指定格式的报告，然后为您提供打开该报告或保存该报告的选项。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-197">Lync Server 2013 generates a report in the specified format and then give you the option of opening that report or saving it.</span></span> <span data-ttu-id="7e7d4-198">请注意，默认情况下，Lync Server 将报告**监控仪表板**标题，并将其保存到 "下载" 文件夹中。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-198">Note that, by default, Lync Server titles the report **Monitoring Dashboard** and saves it to your Downloads folder.</span></span> <span data-ttu-id="7e7d4-199">若要为报告指定不同的名称或将其存储在不同的文件夹中，请单击 "**保存**" 按钮旁边的箭头，然后单击 "**另存为**"。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-199">To give the report a different name or to store it in a different folder, click the arrow next to the **Save** button and then click **Save As**.</span></span> <span data-ttu-id="7e7d4-200">如果您使用名称**监控仪表板**并将报告保存在 "下载" 文件夹中，只需单击 "**保存**" 按钮即可。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-200">If you are fine with name **Monitoring Dashboard** and with having the report saved in the Downloads folder you can just click the **Save** button.</span></span>
 
-<span data-ttu-id="2fae6-201">当您尝试导出仪表板数据时，将显示一个**安全警告**对话框，并显示 "当前设置不允许下载此文件" 消息。</span><span class="sxs-lookup"><span data-stu-id="2fae6-201">It's possible that, when you try to export dashboard data, a **Security Alert** dialog box will appear along with the message "Your current settings do not allow this file to be downloaded."</span></span> <span data-ttu-id="2fae6-202">如果出现这种情况，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="2fae6-202">If that occurs, do the following:</span></span>
+<span data-ttu-id="7e7d4-201">当您尝试导出仪表板数据时，将显示一个**安全警告**对话框，并显示 "当前设置不允许下载此文件" 消息。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-201">It's possible that, when you try to export dashboard data, a **Security Alert** dialog box will appear along with the message "Your current settings do not allow this file to be downloaded."</span></span> <span data-ttu-id="7e7d4-202">如果出现这种情况，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="7e7d4-202">If that occurs, do the following:</span></span>
 
-  - <span data-ttu-id="2fae6-203">在 Internet Explorer 中，选择 " **Internet 选项**"。</span><span class="sxs-lookup"><span data-stu-id="2fae6-203">In Internet Explorer, select **Internet Options**.</span></span>
+  - <span data-ttu-id="7e7d4-203">在 Internet Explorer 中，选择 " **Internet 选项**"。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-203">In Internet Explorer, select **Internet Options**.</span></span>
 
-  - <span data-ttu-id="2fae6-204">在 " **Internet 选项**" 对话框中的 "**安全**" 选项卡上，单击 "**受信任的网站**"，然后单击 "**网站**"。</span><span class="sxs-lookup"><span data-stu-id="2fae6-204">In the **Internet Options** dialog box, on the **Security** tab, click **Trusted sites** and then click **Sites**.</span></span>
+  - <span data-ttu-id="7e7d4-204">在 " **Internet 选项**" 对话框中的 "**安全**" 选项卡上，单击 "**受信任的网站**"，然后单击 "**网站**"。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-204">In the **Internet Options** dialog box, on the **Security** tab, click **Trusted sites** and then click **Sites**.</span></span>
 
-  - <span data-ttu-id="2fae6-205">在 "**受信任的站点**" 对话框中，单击 "**添加**" 将运行 lync Server 2013 报告的 lync server 2013 添加到受信任的网站的集合。</span><span class="sxs-lookup"><span data-stu-id="2fae6-205">In the **Trusted sites** dialog box, click **Add** to add the Lync Server 2013 that is running Lync Server 2013 Reports to the collections of trusted websites.</span></span>
+  - <span data-ttu-id="7e7d4-205">在 "**受信任的站点**" 对话框中，单击 "**添加**" 将运行 lync Server 2013 报告的 lync server 2013 添加到受信任的网站的集合。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-205">In the **Trusted sites** dialog box, click **Add** to add the Lync Server 2013 that is running Lync Server 2013 Reports to the collections of trusted websites.</span></span>
 
-  - <span data-ttu-id="2fae6-206">单击 "**关闭**"，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="2fae6-206">Click **Close** and then click **OK**.</span></span>
+  - <span data-ttu-id="7e7d4-206">单击 "**关闭**"，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-206">Click **Close** and then click **OK**.</span></span>
 
-<span data-ttu-id="2fae6-207">然后，您需要刷新监控仪表板，更改才会生效。</span><span class="sxs-lookup"><span data-stu-id="2fae6-207">You will then need to refresh the Monitoring Dashboard before the changes take effect.</span></span> <span data-ttu-id="2fae6-208">若要执行此操作，请按 F5 或单击仪表板工具栏中的 "**刷新**" 图标。</span><span class="sxs-lookup"><span data-stu-id="2fae6-208">To do that, either press F5 or click the **Refresh** icon in the Dashboard toolbar.</span></span> <span data-ttu-id="2fae6-209">（**刷新**图标是一个圆圈，其中包含一对绿色箭头。）</span><span class="sxs-lookup"><span data-stu-id="2fae6-209">(The **Refresh** icon is a circle with a pair of green arrows in it.)</span></span>
+<span data-ttu-id="7e7d4-207">然后，您需要刷新监控仪表板，更改才会生效。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-207">You will then need to refresh the Monitoring Dashboard before the changes take effect.</span></span> <span data-ttu-id="7e7d4-208">若要执行此操作，请按 F5 或单击仪表板工具栏中的 "**刷新**" 图标。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-208">To do that, either press F5 or click the **Refresh** icon in the Dashboard toolbar.</span></span> <span data-ttu-id="7e7d4-209">（**刷新**图标是一个圆圈，其中包含一对绿色箭头。）</span><span class="sxs-lookup"><span data-stu-id="7e7d4-209">(The **Refresh** icon is a circle with a pair of green arrows in it.)</span></span>
 
-<span data-ttu-id="2fae6-210">您还可以创建包含实时数据源的 Excel 电子表格，其中包括指向最新监控仪表板数据的链接。</span><span class="sxs-lookup"><span data-stu-id="2fae6-210">You can also create an Excel spreadsheet that includes live data feeds, which includes links to the latest Monitoring Dashboard data.</span></span> <span data-ttu-id="2fae6-211">若要创建实时数据馈送文件，请单击工具栏中的 "**将导出为数据馈送**的橙色" 图标。</span><span class="sxs-lookup"><span data-stu-id="2fae6-211">To create a live data feed file, click the orange **Export to Data Feed** icon in the toolbar.</span></span>
+<span data-ttu-id="7e7d4-210">您还可以创建包含实时数据源的 Excel 电子表格，其中包括指向最新监控仪表板数据的链接。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-210">You can also create an Excel spreadsheet that includes live data feeds, which includes links to the latest Monitoring Dashboard data.</span></span> <span data-ttu-id="7e7d4-211">若要创建实时数据馈送文件，请单击工具栏中的 "**将导出为数据馈送**的橙色" 图标。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-211">To create a live data feed file, click the orange **Export to Data Feed** icon in the toolbar.</span></span>
 
-<span data-ttu-id="2fae6-212">如果您希望打印当前仪表板，请单击工具栏中的打印机图标。</span><span class="sxs-lookup"><span data-stu-id="2fae6-212">If you would prefer to print the current Dashboard then click the printer icon in the toolbar.</span></span>
+<span data-ttu-id="7e7d4-212">如果您希望打印当前仪表板，请单击工具栏中的打印机图标。</span><span class="sxs-lookup"><span data-stu-id="7e7d4-212">If you would prefer to print the current Dashboard then click the printer icon in the toolbar.</span></span>
 
 </div>
 

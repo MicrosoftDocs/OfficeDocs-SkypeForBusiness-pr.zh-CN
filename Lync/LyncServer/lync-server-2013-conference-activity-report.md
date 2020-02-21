@@ -12,20 +12,20 @@ ms:contentKeyID: 48183618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93113f3167cf16733f5c7ab51247dcb57f1a118c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0cb548ad27e61284f5bc5f3fff1718faa20ef0e1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136449"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-activity-report-in-lync-server-2013"></a><span data-ttu-id="7e987-102">Lync Server 2013 中的会议活动报告</span><span class="sxs-lookup"><span data-stu-id="7e987-102">Conference Activity Report in Lync Server 2013</span></span>
+# <a name="conference-activity-report-in-lync-server-2013"></a><span data-ttu-id="0fc74-102">Lync Server 2013 中的会议活动报告</span><span class="sxs-lookup"><span data-stu-id="0fc74-102">Conference Activity Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "42136449"
 
 <span> </span>
 
-<span data-ttu-id="7e987-103">_**上次修改的主题：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="7e987-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="0fc74-103">_**上次修改的主题：** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="0fc74-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="7e987-104">会议活动报告使您能够轻松地回答以下问题：每天举行的会议数是多少，何时正在举行这些会议？</span><span class="sxs-lookup"><span data-stu-id="7e987-104">The Conference Activity Report makes it easy for you to answer questions like these: how many conferences are being held each day, and when are those conferences being held?</span></span> <span data-ttu-id="7e987-105">此类信息不仅适用于自己的权限，而且也是一种故障排除工具。</span><span class="sxs-lookup"><span data-stu-id="7e987-105">Information like this is useful not only in its own right, but also as a troubleshooting tool.</span></span> <span data-ttu-id="7e987-106">例如，假设用户抱怨，网络在一天中似乎非常缓慢。</span><span class="sxs-lookup"><span data-stu-id="7e987-106">For example, suppose users are complaining that the network seems particularly slow in the middle of the day.</span></span> <span data-ttu-id="7e987-107">若要快速浏览会议活动报告，可能会提出一个可能的原因：在任何其他时间，在 10:00 AM 和 2:00 PM 之间安排的会议量超过该时间。</span><span class="sxs-lookup"><span data-stu-id="7e987-107">A quick glance at the Conference Activity reports might suggest one possible reason: far more conferences are being scheduled between the hours of 10:00 AM and 2:00 PM then at any other time.</span></span>
+<span data-ttu-id="0fc74-104">会议活动报告使您能够轻松地回答以下问题：每天举行的会议数是多少，何时正在举行这些会议？</span><span class="sxs-lookup"><span data-stu-id="0fc74-104">The Conference Activity Report makes it easy for you to answer questions like these: how many conferences are being held each day, and when are those conferences being held?</span></span> <span data-ttu-id="0fc74-105">此类信息不仅适用于自己的权限，而且也是一种故障排除工具。</span><span class="sxs-lookup"><span data-stu-id="0fc74-105">Information like this is useful not only in its own right, but also as a troubleshooting tool.</span></span> <span data-ttu-id="0fc74-106">例如，假设用户抱怨，网络在一天中似乎非常缓慢。</span><span class="sxs-lookup"><span data-stu-id="0fc74-106">For example, suppose users are complaining that the network seems particularly slow in the middle of the day.</span></span> <span data-ttu-id="0fc74-107">若要快速浏览会议活动报告，可能会提出一个可能的原因：在任何其他时间，在 10:00 AM 和 2:00 PM 之间安排的会议量超过该时间。</span><span class="sxs-lookup"><span data-stu-id="0fc74-107">A quick glance at the Conference Activity reports might suggest one possible reason: far more conferences are being scheduled between the hours of 10:00 AM and 2:00 PM then at any other time.</span></span>
 
-<span data-ttu-id="7e987-108">如果因网速慢而导致出现问题，您可以鼓励用户将他们的一些会议重新安排在一天中流量较少的时段。</span><span class="sxs-lookup"><span data-stu-id="7e987-108">If the slow network is causing problems, you can encourage users to reschedule some of their conferences during the less-heavily trafficked times of the day.</span></span>
+<span data-ttu-id="0fc74-108">如果因网速慢而导致出现问题，您可以鼓励用户将他们的一些会议重新安排在一天中流量较少的时段。</span><span class="sxs-lookup"><span data-stu-id="0fc74-108">If the slow network is causing problems, you can encourage users to reschedule some of their conferences during the less-heavily trafficked times of the day.</span></span>
 
 <div>
 
-## <a name="accessing-the-conference-activity-report"></a><span data-ttu-id="7e987-109">访问会议活动报告</span><span class="sxs-lookup"><span data-stu-id="7e987-109">Accessing the Conference Activity Report</span></span>
+## <a name="accessing-the-conference-activity-report"></a><span data-ttu-id="0fc74-109">访问会议活动报告</span><span class="sxs-lookup"><span data-stu-id="0fc74-109">Accessing the Conference Activity Report</span></span>
 
-<span data-ttu-id="7e987-110">可通过单击以下任一指标[在 Lync Server 2013 中的 "会议摘要" 报告中](lync-server-2013-conference-summary-report.md)访问会议活动报告：</span><span class="sxs-lookup"><span data-stu-id="7e987-110">The Conference Activity Report is accessed from the [Conference Summary Report in Lync Server 2013](lync-server-2013-conference-summary-report.md) by clicking either one of the following metrics:</span></span>
+<span data-ttu-id="0fc74-110">可通过单击以下任一指标[在 Lync Server 2013 中的 "会议摘要" 报告中](lync-server-2013-conference-summary-report.md)访问会议活动报告：</span><span class="sxs-lookup"><span data-stu-id="0fc74-110">The Conference Activity Report is accessed from the [Conference Summary Report in Lync Server 2013](lync-server-2013-conference-summary-report.md) by clicking either one of the following metrics:</span></span>
 
-  - <span data-ttu-id="7e987-111">会议总数</span><span class="sxs-lookup"><span data-stu-id="7e987-111">Total conferences</span></span>
+  - <span data-ttu-id="0fc74-111">会议总数</span><span class="sxs-lookup"><span data-stu-id="0fc74-111">Total conferences</span></span>
 
-  - <span data-ttu-id="7e987-112">参与者总数</span><span class="sxs-lookup"><span data-stu-id="7e987-112">Total participants</span></span>
+  - <span data-ttu-id="0fc74-112">参与者总数</span><span class="sxs-lookup"><span data-stu-id="0fc74-112">Total participants</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-activity-report"></a><span data-ttu-id="7e987-113">充分利用会议活动报告</span><span class="sxs-lookup"><span data-stu-id="7e987-113">Making the Best Use of the Conference Activity Report</span></span>
+## <a name="making-the-best-use-of-the-conference-activity-report"></a><span data-ttu-id="0fc74-113">充分利用会议活动报告</span><span class="sxs-lookup"><span data-stu-id="0fc74-113">Making the Best Use of the Conference Activity Report</span></span>
 
-<span data-ttu-id="7e987-p102">默认情况下，会议活动报告向您显示指定时段内的会议总数（例如，每天的会议总数或每小时的会议总数）。但是，您还可以选择显示该时段内与会者的总数或总参与分钟数。为此，请单击“显示/隐藏参数”按钮以显示筛选选项，然后从“报告依据”下拉列表中选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="7e987-p102">By default the Conference Activity Report shows you the total number of conferences for the specified time period (for example, the total number of conferences per day, or the total number of conferences per hour of the day). However, you can also choose to display the total number of participants for that time period or the total number of participant minutes. To do that, click the Show/Hide Parameters button to display the filtering options, and then select one of the following from the Report by dropdown list:</span></span>
+<span data-ttu-id="0fc74-p102">默认情况下，会议活动报告向您显示指定时段内的会议总数（例如，每天的会议总数或每小时的会议总数）。但是，您还可以选择显示该时段内与会者的总数或总参与分钟数。为此，请单击“显示/隐藏参数”按钮以显示筛选选项，然后从“报告依据”下拉列表中选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="0fc74-p102">By default the Conference Activity Report shows you the total number of conferences for the specified time period (for example, the total number of conferences per day, or the total number of conferences per hour of the day). However, you can also choose to display the total number of participants for that time period or the total number of participant minutes. To do that, click the Show/Hide Parameters button to display the filtering options, and then select one of the following from the Report by dropdown list:</span></span>
 
-  - <span data-ttu-id="7e987-117">参与者计数</span><span class="sxs-lookup"><span data-stu-id="7e987-117">Participant count</span></span>
+  - <span data-ttu-id="0fc74-117">参与者计数</span><span class="sxs-lookup"><span data-stu-id="0fc74-117">Participant count</span></span>
 
-  - <span data-ttu-id="7e987-118">参与分钟数</span><span class="sxs-lookup"><span data-stu-id="7e987-118">Participant minutes</span></span>
+  - <span data-ttu-id="0fc74-118">参与分钟数</span><span class="sxs-lookup"><span data-stu-id="0fc74-118">Participant minutes</span></span>
 
-  - <span data-ttu-id="7e987-119">会议计数</span><span class="sxs-lookup"><span data-stu-id="7e987-119">Conference count</span></span>
+  - <span data-ttu-id="0fc74-119">会议计数</span><span class="sxs-lookup"><span data-stu-id="0fc74-119">Conference count</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="7e987-120">筛选器</span><span class="sxs-lookup"><span data-stu-id="7e987-120">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="0fc74-120">筛选器</span><span class="sxs-lookup"><span data-stu-id="0fc74-120">Filters</span></span>
 
-<span data-ttu-id="7e987-p103">利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。下表列出了可用于会议活动报告的筛选器。</span><span class="sxs-lookup"><span data-stu-id="7e987-p103">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Conference Activity Report.</span></span>
+<span data-ttu-id="0fc74-p103">利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。下表列出了可用于会议活动报告的筛选器。</span><span class="sxs-lookup"><span data-stu-id="0fc74-p103">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. The following table lists the filters that you can use with the Conference Activity Report.</span></span>
 
-### <a name="conference-activity-report-filters"></a><span data-ttu-id="7e987-123">会议活动报告筛选器</span><span class="sxs-lookup"><span data-stu-id="7e987-123">Conference Activity Report Filters</span></span>
+### <a name="conference-activity-report-filters"></a><span data-ttu-id="0fc74-123">会议活动报告筛选器</span><span class="sxs-lookup"><span data-stu-id="0fc74-123">Conference Activity Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -82,49 +82,49 @@ ms.locfileid: "42136449"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7e987-124">名称</span><span class="sxs-lookup"><span data-stu-id="7e987-124">Name</span></span></th>
-<th><span data-ttu-id="7e987-125">说明</span><span class="sxs-lookup"><span data-stu-id="7e987-125">Description</span></span></th>
+<th><span data-ttu-id="0fc74-124">名称</span><span class="sxs-lookup"><span data-stu-id="0fc74-124">Name</span></span></th>
+<th><span data-ttu-id="0fc74-125">说明</span><span class="sxs-lookup"><span data-stu-id="0fc74-125">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7e987-126"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-126"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-p104">时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="7e987-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="7e987-129">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="7e987-129">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="7e987-p105">如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="7e987-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="7e987-132">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="7e987-132">7/7/2012</span></span></p>
-<p><span data-ttu-id="7e987-133">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="7e987-133">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="7e987-134">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="7e987-134">7/3/2012</span></span></p>
-<p><span data-ttu-id="7e987-135">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="7e987-135">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-126"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-126"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-p104">时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="0fc74-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="0fc74-129">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="0fc74-129">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="0fc74-p105">如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="0fc74-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="0fc74-132">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="0fc74-132">7/7/2012</span></span></p>
+<p><span data-ttu-id="0fc74-133">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="0fc74-133">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="0fc74-134">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="0fc74-134">7/3/2012</span></span></p>
+<p><span data-ttu-id="0fc74-135">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="0fc74-135">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7e987-136"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-136"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-p106">时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="7e987-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="7e987-139">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="7e987-139">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="7e987-p107">如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="7e987-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="7e987-142">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="7e987-142">7/7/2012</span></span></p>
-<p><span data-ttu-id="7e987-143">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="7e987-143">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="7e987-144">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="7e987-144">7/3/2012</span></span></p>
-<p><span data-ttu-id="7e987-145">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="7e987-145">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-136"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-136"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-p106">时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="0fc74-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="0fc74-139">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="0fc74-139">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="0fc74-p107">如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="0fc74-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="0fc74-142">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="0fc74-142">7/7/2012</span></span></p>
+<p><span data-ttu-id="0fc74-143">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="0fc74-143">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="0fc74-144">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="0fc74-144">7/3/2012</span></span></p>
+<p><span data-ttu-id="0fc74-145">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="0fc74-145">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7e987-146"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-146"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-p108">时间间隔。选择下列任意选项：</span><span class="sxs-lookup"><span data-stu-id="7e987-p108">Time interval. Select any of the following:</span></span></p>
+<td><p><span data-ttu-id="0fc74-146"><strong>Interval</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-146"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-p108">时间间隔。选择下列任意选项：</span><span class="sxs-lookup"><span data-stu-id="0fc74-p108">Time interval. Select any of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="7e987-149">每小时（最多可显示 25 个小时）</span><span class="sxs-lookup"><span data-stu-id="7e987-149">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="7e987-150">每天（最多可显示 31 天）</span><span class="sxs-lookup"><span data-stu-id="7e987-150">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="7e987-151">每周（最多可显示 12 周）</span><span class="sxs-lookup"><span data-stu-id="7e987-151">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="7e987-152">每月（最多可显示 12 个月）</span><span class="sxs-lookup"><span data-stu-id="7e987-152">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-149">每小时（最多可显示 25 个小时）</span><span class="sxs-lookup"><span data-stu-id="0fc74-149">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-150">每天（最多可显示 31 天）</span><span class="sxs-lookup"><span data-stu-id="0fc74-150">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-151">每周（最多可显示 12 周）</span><span class="sxs-lookup"><span data-stu-id="0fc74-151">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-152">每月（最多可显示 12 个月）</span><span class="sxs-lookup"><span data-stu-id="0fc74-152">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="7e987-p109">如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。例如，如果选择的开始日期为 8/7/2012、结束日期为 9/28/2012、间隔为“每天”，则显示从 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 这些天的数据（即总共 31 天的数据）。</span><span class="sxs-lookup"><span data-stu-id="7e987-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="0fc74-p109">如果开始日期和结束日期超出了所选间隔允许的最长时间，则仅显示最长时间（从开始日期开始）。例如，如果选择的开始日期为 8/7/2012、结束日期为 9/28/2012、间隔为“每天”，则显示从 8/7/2012 12:00 AM 到 9/7/2012 12:00 AM 这些天的数据（即总共 31 天的数据）。</span><span class="sxs-lookup"><span data-stu-id="0fc74-p109">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7e987-155"><strong>报告依据</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-155"><strong>Report by</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-p110">指示要在报告中使用的值。可选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="7e987-p110">Indicates the values to be used in the report. You can select one of the following:</span></span></p>
+<td><p><span data-ttu-id="0fc74-155"><strong>报告依据</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-155"><strong>Report by</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-p110">指示要在报告中使用的值。可选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="0fc74-p110">Indicates the values to be used in the report. You can select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="7e987-158">参与者计数</span><span class="sxs-lookup"><span data-stu-id="7e987-158">Participant Count</span></span></p></li>
-<li><p><span data-ttu-id="7e987-159">参与分钟数</span><span class="sxs-lookup"><span data-stu-id="7e987-159">Participant Minutes</span></span></p></li>
-<li><p><span data-ttu-id="7e987-160">会议计数</span><span class="sxs-lookup"><span data-stu-id="7e987-160">Conference Count</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-158">参与者计数</span><span class="sxs-lookup"><span data-stu-id="0fc74-158">Participant Count</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-159">参与分钟数</span><span class="sxs-lookup"><span data-stu-id="0fc74-159">Participant Minutes</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-160">会议计数</span><span class="sxs-lookup"><span data-stu-id="0fc74-160">Conference Count</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -135,11 +135,11 @@ ms.locfileid: "42136449"
 
 <div>
 
-## <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="7e987-161">按池分类的会议的指标</span><span class="sxs-lookup"><span data-stu-id="7e987-161">Metrics for Conferences by Pool</span></span>
+## <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="0fc74-161">按池分类的会议的指标</span><span class="sxs-lookup"><span data-stu-id="0fc74-161">Metrics for Conferences by Pool</span></span>
 
-<span data-ttu-id="7e987-162">下表列出了每个池的会议活动报告中的信息。</span><span class="sxs-lookup"><span data-stu-id="7e987-162">The following table lists the information in the Conference Activity Report for each pool.</span></span>
+<span data-ttu-id="0fc74-162">下表列出了每个池的会议活动报告中的信息。</span><span class="sxs-lookup"><span data-stu-id="0fc74-162">The following table lists the information in the Conference Activity Report for each pool.</span></span>
 
-### <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="7e987-163">按池分类的会议的指标</span><span class="sxs-lookup"><span data-stu-id="7e987-163">Metrics for Conferences by Pool</span></span>
+### <a name="metrics-for-conferences-by-pool"></a><span data-ttu-id="0fc74-163">按池分类的会议的指标</span><span class="sxs-lookup"><span data-stu-id="0fc74-163">Metrics for Conferences by Pool</span></span>
 
 <table>
 <colgroup>
@@ -149,26 +149,26 @@ ms.locfileid: "42136449"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7e987-164">名称</span><span class="sxs-lookup"><span data-stu-id="7e987-164">Name</span></span></th>
-<th><span data-ttu-id="7e987-165">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="7e987-165">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="7e987-166">说明</span><span class="sxs-lookup"><span data-stu-id="7e987-166">Description</span></span></th>
+<th><span data-ttu-id="0fc74-164">名称</span><span class="sxs-lookup"><span data-stu-id="0fc74-164">Name</span></span></th>
+<th><span data-ttu-id="0fc74-165">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="0fc74-165">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="0fc74-166">Description</span><span class="sxs-lookup"><span data-stu-id="0fc74-166">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7e987-167"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-167"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-168">否</span><span class="sxs-lookup"><span data-stu-id="7e987-168">No</span></span></p></td>
-<td><p><span data-ttu-id="7e987-169">会议中使用的注册器池或边缘服务器的名称。</span><span class="sxs-lookup"><span data-stu-id="7e987-169">Name of the Registrar pool or Edge Server used in the conference.</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-167"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-167"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-168">否</span><span class="sxs-lookup"><span data-stu-id="0fc74-168">No</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-169">会议中使用的注册器池或边缘服务器的名称。</span><span class="sxs-lookup"><span data-stu-id="0fc74-169">Name of the Registrar pool or Edge Server used in the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7e987-170"><strong>日期/时间</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-170"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-171">否</span><span class="sxs-lookup"><span data-stu-id="7e987-171">No</span></span></p></td>
-<td><p><span data-ttu-id="7e987-172">召开会议的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="7e987-172">Date and time when the conference was held.</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-170"><strong>日期/时间</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-170"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-171">否</span><span class="sxs-lookup"><span data-stu-id="0fc74-171">No</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-172">召开会议的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="0fc74-172">Date and time when the conference was held.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7e987-173"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-173"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-174">否</span><span class="sxs-lookup"><span data-stu-id="7e987-174">No</span></span></p></td>
-<td><p><span data-ttu-id="7e987-175">参与者总数、总参与时间（以分钟计）或会议总数。</span><span class="sxs-lookup"><span data-stu-id="7e987-175">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-173"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-173"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-174">否</span><span class="sxs-lookup"><span data-stu-id="0fc74-174">No</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-175">参与者总数、总参与时间（以分钟计）或会议总数。</span><span class="sxs-lookup"><span data-stu-id="0fc74-175">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -178,11 +178,11 @@ ms.locfileid: "42136449"
 
 <div>
 
-## <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="7e987-176">按服务器类型分类的会议的指标</span><span class="sxs-lookup"><span data-stu-id="7e987-176">Metrics for Conferences by Server Type</span></span>
+## <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="0fc74-176">按服务器类型分类的会议的指标</span><span class="sxs-lookup"><span data-stu-id="0fc74-176">Metrics for Conferences by Server Type</span></span>
 
-<span data-ttu-id="7e987-177">下表列出了每种服务器类型的会议活动报告中的信息。</span><span class="sxs-lookup"><span data-stu-id="7e987-177">The following table lists the information in the Conference Activity Report for each type of server.</span></span>
+<span data-ttu-id="0fc74-177">下表列出了每种服务器类型的会议活动报告中的信息。</span><span class="sxs-lookup"><span data-stu-id="0fc74-177">The following table lists the information in the Conference Activity Report for each type of server.</span></span>
 
-### <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="7e987-178">按服务器类型分类的会议的指标</span><span class="sxs-lookup"><span data-stu-id="7e987-178">Metrics for Conferences by Server Type</span></span>
+### <a name="metrics-for-conferences-by-server-type"></a><span data-ttu-id="0fc74-178">按服务器类型分类的会议的指标</span><span class="sxs-lookup"><span data-stu-id="0fc74-178">Metrics for Conferences by Server Type</span></span>
 
 <table>
 <colgroup>
@@ -192,33 +192,33 @@ ms.locfileid: "42136449"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="7e987-179">名称</span><span class="sxs-lookup"><span data-stu-id="7e987-179">Name</span></span></th>
-<th><span data-ttu-id="7e987-180">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="7e987-180">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="7e987-181">说明</span><span class="sxs-lookup"><span data-stu-id="7e987-181">Description</span></span></th>
+<th><span data-ttu-id="0fc74-179">名称</span><span class="sxs-lookup"><span data-stu-id="0fc74-179">Name</span></span></th>
+<th><span data-ttu-id="0fc74-180">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="0fc74-180">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="0fc74-181">Description</span><span class="sxs-lookup"><span data-stu-id="0fc74-181">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7e987-182"><strong>会议服务器类型</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-182"><strong>Conferencing server type</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-183">否</span><span class="sxs-lookup"><span data-stu-id="7e987-183">No</span></span></p></td>
-<td><p><span data-ttu-id="7e987-184">会议中使用的服务器的类型，通常为下列类型之一：</span><span class="sxs-lookup"><span data-stu-id="7e987-184">Type of server used in the conference, typically one of the following:</span></span></p>
+<td><p><span data-ttu-id="0fc74-182"><strong>会议服务器类型</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-182"><strong>Conferencing server type</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-183">否</span><span class="sxs-lookup"><span data-stu-id="0fc74-183">No</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-184">会议中使用的服务器的类型，通常为下列类型之一：</span><span class="sxs-lookup"><span data-stu-id="0fc74-184">Type of server used in the conference, typically one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="7e987-185">Web 会议服务器</span><span class="sxs-lookup"><span data-stu-id="7e987-185">Web Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="7e987-186">IM 会议服务器</span><span class="sxs-lookup"><span data-stu-id="7e987-186">IM Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="7e987-187">电话会议服务器</span><span class="sxs-lookup"><span data-stu-id="7e987-187">Telephony Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="7e987-188">AV 会议服务器</span><span class="sxs-lookup"><span data-stu-id="7e987-188">AV Conferencing Server</span></span></p></li>
-<li><p><span data-ttu-id="7e987-189">应用程序共享</span><span class="sxs-lookup"><span data-stu-id="7e987-189">Application Sharing</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-185">Web 会议服务器</span><span class="sxs-lookup"><span data-stu-id="0fc74-185">Web Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-186">IM 会议服务器</span><span class="sxs-lookup"><span data-stu-id="0fc74-186">IM Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-187">电话会议服务器</span><span class="sxs-lookup"><span data-stu-id="0fc74-187">Telephony Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-188">AV 会议服务器</span><span class="sxs-lookup"><span data-stu-id="0fc74-188">AV Conferencing Server</span></span></p></li>
+<li><p><span data-ttu-id="0fc74-189">应用程序共享</span><span class="sxs-lookup"><span data-stu-id="0fc74-189">Application Sharing</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7e987-190"><strong>日期/时间</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-190"><strong>Date/Time</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-191">否</span><span class="sxs-lookup"><span data-stu-id="7e987-191">No</span></span></p></td>
-<td><p><span data-ttu-id="7e987-192">召开会议的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="7e987-192">Date and time when the conference was held.</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-190"><strong>日期/时间</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-190"><strong>Date/Time</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-191">否</span><span class="sxs-lookup"><span data-stu-id="0fc74-191">No</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-192">召开会议的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="0fc74-192">Date and time when the conference was held.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7e987-193"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="7e987-193"><strong>Total</strong></span></span></p></td>
-<td><p><span data-ttu-id="7e987-194">否</span><span class="sxs-lookup"><span data-stu-id="7e987-194">No</span></span></p></td>
-<td><p><span data-ttu-id="7e987-195">参与者总数、总参与时间（以分钟计）或会议总数。</span><span class="sxs-lookup"><span data-stu-id="7e987-195">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-193"><strong>Total</strong></span><span class="sxs-lookup"><span data-stu-id="0fc74-193"><strong>Total</strong></span></span></p></td>
+<td><p><span data-ttu-id="0fc74-194">否</span><span class="sxs-lookup"><span data-stu-id="0fc74-194">No</span></span></p></td>
+<td><p><span data-ttu-id="0fc74-195">参与者总数、总参与时间（以分钟计）或会议总数。</span><span class="sxs-lookup"><span data-stu-id="0fc74-195">Total participant count, total participant minutes, or total conference count.</span></span></p></td>
 </tr>
 </tbody>
 </table>

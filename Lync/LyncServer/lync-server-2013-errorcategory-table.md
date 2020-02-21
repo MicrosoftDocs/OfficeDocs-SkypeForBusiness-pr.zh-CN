@@ -12,20 +12,20 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a80ab2b570a067a1157e999d056c47d514ec4ce
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3052aa95aa6cd846717aa98c5778531aeee6f7e2
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137381"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorcategory-table-in-lync-server-2013"></a><span data-ttu-id="219c1-102">Lync Server 2013 中的 ErrorCategory 表</span><span class="sxs-lookup"><span data-stu-id="219c1-102">ErrorCategory table in Lync Server 2013</span></span>
+# <a name="errorcategory-table-in-lync-server-2013"></a><span data-ttu-id="b6c3b-102">Lync Server 2013 中的 ErrorCategory 表</span><span class="sxs-lookup"><span data-stu-id="b6c3b-102">ErrorCategory table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42137381"
 
 <span> </span>
 
-<span data-ttu-id="219c1-103">_**上次修改的主题：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="219c1-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="b6c3b-103">_**上次修改的主题：** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="b6c3b-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="219c1-104">ErrorCategory 表包含每个 Microsoft Lync Server 2013 诊断分类的友好名称。</span><span class="sxs-lookup"><span data-stu-id="219c1-104">The ErrorCategory table contains the friendly name for each Microsoft Lync Server 2013 diagnostic classification.</span></span> <span data-ttu-id="219c1-105">默认情况下，Lync Server 2013 使用以下分类：</span><span class="sxs-lookup"><span data-stu-id="219c1-105">By default, Lync Server 2013 uses the following classifications:</span></span>
+<span data-ttu-id="b6c3b-104">ErrorCategory 表包含每个 Microsoft Lync Server 2013 诊断分类的友好名称。</span><span class="sxs-lookup"><span data-stu-id="b6c3b-104">The ErrorCategory table contains the friendly name for each Microsoft Lync Server 2013 diagnostic classification.</span></span> <span data-ttu-id="b6c3b-105">默认情况下，Lync Server 2013 使用以下分类：</span><span class="sxs-lookup"><span data-stu-id="b6c3b-105">By default, Lync Server 2013 uses the following classifications:</span></span>
 
-  - <span data-ttu-id="219c1-106">0 -- 成功</span><span class="sxs-lookup"><span data-stu-id="219c1-106">0 -- Success</span></span>
+  - <span data-ttu-id="b6c3b-106">0 -- 成功</span><span class="sxs-lookup"><span data-stu-id="b6c3b-106">0 -- Success</span></span>
 
-  - <span data-ttu-id="219c1-107">1--预期故障</span><span class="sxs-lookup"><span data-stu-id="219c1-107">1 -- Expected failure</span></span>
+  - <span data-ttu-id="b6c3b-107">1--预期故障</span><span class="sxs-lookup"><span data-stu-id="b6c3b-107">1 -- Expected failure</span></span>
 
-  - <span data-ttu-id="219c1-108">2 – 意外失败</span><span class="sxs-lookup"><span data-stu-id="219c1-108">2 – Unexpected failure</span></span>
+  - <span data-ttu-id="b6c3b-108">2 – 意外失败</span><span class="sxs-lookup"><span data-stu-id="b6c3b-108">2 – Unexpected failure</span></span>
 
-<span data-ttu-id="219c1-109">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="219c1-109">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="b6c3b-109">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="b6c3b-109">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -57,28 +57,28 @@ ms.locfileid: "42137381"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="219c1-110">列</span><span class="sxs-lookup"><span data-stu-id="219c1-110">Column</span></span></th>
-<th><span data-ttu-id="219c1-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="219c1-111">Data Type</span></span></th>
-<th><span data-ttu-id="219c1-112">键/索引</span><span class="sxs-lookup"><span data-stu-id="219c1-112">Key/Index</span></span></th>
-<th><span data-ttu-id="219c1-113">详细信息</span><span class="sxs-lookup"><span data-stu-id="219c1-113">Details</span></span></th>
+<th><span data-ttu-id="b6c3b-110">列</span><span class="sxs-lookup"><span data-stu-id="b6c3b-110">Column</span></span></th>
+<th><span data-ttu-id="b6c3b-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="b6c3b-111">Data Type</span></span></th>
+<th><span data-ttu-id="b6c3b-112">键/索引</span><span class="sxs-lookup"><span data-stu-id="b6c3b-112">Key/Index</span></span></th>
+<th><span data-ttu-id="b6c3b-113">详细信息</span><span class="sxs-lookup"><span data-stu-id="b6c3b-113">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="219c1-114"><strong>CategoryId</strong></span><span class="sxs-lookup"><span data-stu-id="219c1-114"><strong>CategoryId</strong></span></span></p></td>
-<td><p><span data-ttu-id="219c1-115">tinyint</span><span class="sxs-lookup"><span data-stu-id="219c1-115">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="219c1-116">主</span><span class="sxs-lookup"><span data-stu-id="219c1-116">Primary</span></span></p></td>
-<td><p><span data-ttu-id="219c1-117">分类的唯一标识符。</span><span class="sxs-lookup"><span data-stu-id="219c1-117">Unique identifier for the classification.</span></span></p></td>
+<td><p><span data-ttu-id="b6c3b-114"><strong>CategoryId</strong></span><span class="sxs-lookup"><span data-stu-id="b6c3b-114"><strong>CategoryId</strong></span></span></p></td>
+<td><p><span data-ttu-id="b6c3b-115">tinyint</span><span class="sxs-lookup"><span data-stu-id="b6c3b-115">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="b6c3b-116">主</span><span class="sxs-lookup"><span data-stu-id="b6c3b-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="b6c3b-117">分类的唯一标识符。</span><span class="sxs-lookup"><span data-stu-id="b6c3b-117">Unique identifier for the classification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="219c1-118"><strong>名称</strong></span><span class="sxs-lookup"><span data-stu-id="219c1-118"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="219c1-119">nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="219c1-119">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="b6c3b-118"><strong>名称</strong></span><span class="sxs-lookup"><span data-stu-id="b6c3b-118"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="b6c3b-119">nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="b6c3b-119">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="219c1-p102">分配给分类的值和友好名称。允许的值有：</span><span class="sxs-lookup"><span data-stu-id="219c1-p102">Value and friendly name assigned to the classification. Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="b6c3b-p102">分配给分类的值和友好名称。允许的值有：</span><span class="sxs-lookup"><span data-stu-id="b6c3b-p102">Value and friendly name assigned to the classification. Allowed values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="219c1-122">0 -- 成功</span><span class="sxs-lookup"><span data-stu-id="219c1-122">0 -- Success</span></span></p></li>
-<li><p><span data-ttu-id="219c1-123">1--预期故障</span><span class="sxs-lookup"><span data-stu-id="219c1-123">1 -- Expected failure</span></span></p></li>
-<li><p><span data-ttu-id="219c1-124">2 – 意外失败</span><span class="sxs-lookup"><span data-stu-id="219c1-124">2 – Unexpected failure</span></span></p></li>
+<li><p><span data-ttu-id="b6c3b-122">0 -- 成功</span><span class="sxs-lookup"><span data-stu-id="b6c3b-122">0 -- Success</span></span></p></li>
+<li><p><span data-ttu-id="b6c3b-123">1--预期故障</span><span class="sxs-lookup"><span data-stu-id="b6c3b-123">1 -- Expected failure</span></span></p></li>
+<li><p><span data-ttu-id="b6c3b-124">2 – 意外失败</span><span class="sxs-lookup"><span data-stu-id="b6c3b-124">2 – Unexpected failure</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

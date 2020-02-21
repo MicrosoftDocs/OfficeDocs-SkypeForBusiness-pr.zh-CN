@@ -12,20 +12,20 @@ ms:contentKeyID: 48185273
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2124f4d55aa458368aacc50fc5b34d345e6c769f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 97c32668169b2e4d67b333fd2d5864d62f3598b5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146775"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214678"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a><span data-ttu-id="e59a9-102">Lync Server 2013 中边缘组件的硬件和软件要求</span><span class="sxs-lookup"><span data-stu-id="e59a9-102">Hardware and software requirements for edge components in Lync Server 2013</span></span>
+# <a name="hardware-and-software-requirements-for-edge-components-in-lync-server-2013"></a><span data-ttu-id="ee045-102">Lync Server 2013 中边缘组件的硬件和软件要求</span><span class="sxs-lookup"><span data-stu-id="ee045-102">Hardware and software requirements for edge components in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42146775"
 
 <span> </span>
 
-<span data-ttu-id="e59a9-103">_**上次修改的主题：** 2013-03-14_</span><span class="sxs-lookup"><span data-stu-id="e59a9-103">_**Topic Last Modified:** 2013-03-14_</span></span>
+<span data-ttu-id="ee045-103">_**上次修改的主题：** 2013-03-14_</span><span class="sxs-lookup"><span data-stu-id="ee045-103">_**Topic Last Modified:** 2013-03-14_</span></span>
 
-<span data-ttu-id="e59a9-104">边缘组件的硬件和软件要求包括 Lync Server 2013 通信软件组件的硬件和软件要求，包括边缘服务器和可选控制器。</span><span class="sxs-lookup"><span data-stu-id="e59a9-104">The hardware and software requirements for edge components include those for the Lync Server 2013 communications software components, including Edge Servers and the optional Directors.</span></span> <span data-ttu-id="e59a9-105">有关支持外部用户访问和受支持的拓扑所需的组件的详细信息，请参阅[Lync Server 2013 中的外部用户访问所需的组件](lync-server-2013-components-required-for-external-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="e59a9-105">For details about the components required to support external user access and supported topologies, see [Components required for external user access in Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).</span></span>
+<span data-ttu-id="ee045-104">边缘组件的硬件和软件要求包括 Lync Server 2013 通信软件组件的硬件和软件要求，包括边缘服务器和可选控制器。</span><span class="sxs-lookup"><span data-stu-id="ee045-104">The hardware and software requirements for edge components include those for the Lync Server 2013 communications software components, including Edge Servers and the optional Directors.</span></span> <span data-ttu-id="ee045-105">有关支持外部用户访问和受支持的拓扑所需的组件的详细信息，请参阅[Lync Server 2013 中的外部用户访问所需的组件](lync-server-2013-components-required-for-external-user-access.md)。</span><span class="sxs-lookup"><span data-stu-id="ee045-105">For details about the components required to support external user access and supported topologies, see [Components required for external user access in Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md).</span></span>
 
 <div>
 
-## <a name="hardware-for-edge-servers-and-directors"></a><span data-ttu-id="e59a9-106">边缘服务器和控制器的硬件</span><span class="sxs-lookup"><span data-stu-id="e59a9-106">Hardware for Edge Servers and Directors</span></span>
+## <a name="hardware-for-edge-servers-and-directors"></a><span data-ttu-id="ee045-106">边缘服务器和控制器的硬件</span><span class="sxs-lookup"><span data-stu-id="ee045-106">Hardware for Edge Servers and Directors</span></span>
 
-<span data-ttu-id="e59a9-107">硬件建议和要求在可支持性部分中定义。</span><span class="sxs-lookup"><span data-stu-id="e59a9-107">Hardware recommendations and requirements are defined in the Supportability section.</span></span> <span data-ttu-id="e59a9-108">对于边缘服务器和可选控制器，以下主题中详细介绍了建议的硬件配置。</span><span class="sxs-lookup"><span data-stu-id="e59a9-108">For Edge Servers and for the optional Directors, the recommended hardware configurations are detailed in the following topic.</span></span> <span data-ttu-id="e59a9-109">在规划中，请参阅[server 硬件平台 For Lync Server 2013](lync-server-2013-server-hardware-platforms.md)。</span><span class="sxs-lookup"><span data-stu-id="e59a9-109">In Planning, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
+<span data-ttu-id="ee045-107">硬件建议和要求在可支持性部分中定义。</span><span class="sxs-lookup"><span data-stu-id="ee045-107">Hardware recommendations and requirements are defined in the Supportability section.</span></span> <span data-ttu-id="ee045-108">对于边缘服务器和可选控制器，以下主题中详细介绍了建议的硬件配置。</span><span class="sxs-lookup"><span data-stu-id="ee045-108">For Edge Servers and for the optional Directors, the recommended hardware configurations are detailed in the following topic.</span></span> <span data-ttu-id="ee045-109">在规划中，请参阅[server 硬件平台 For Lync Server 2013](lync-server-2013-server-hardware-platforms.md)。</span><span class="sxs-lookup"><span data-stu-id="ee045-109">In Planning, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="software-requirements-for-edge-servers-and-directors"></a><span data-ttu-id="e59a9-110">边缘服务器和控制器的软件要求</span><span class="sxs-lookup"><span data-stu-id="e59a9-110">Software Requirements for Edge Servers and Directors</span></span>
+## <a name="software-requirements-for-edge-servers-and-directors"></a><span data-ttu-id="ee045-110">边缘服务器和控制器的软件要求</span><span class="sxs-lookup"><span data-stu-id="ee045-110">Software Requirements for Edge Servers and Directors</span></span>
 
-<span data-ttu-id="e59a9-111">边缘服务器和可选控制器的操作系统要求与其他 Lync Server 2013 角色一致。</span><span class="sxs-lookup"><span data-stu-id="e59a9-111">Operating system requirements for Edge Servers and for the optional Directors are consistent with other Lync Server 2013 roles.</span></span> <span data-ttu-id="e59a9-112">[Lync server 2013 中的服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)中详细介绍了受支持的操作系统。</span><span class="sxs-lookup"><span data-stu-id="e59a9-112">Supported operating systems are detailed in [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md).</span></span>
+<span data-ttu-id="ee045-111">边缘服务器和可选控制器的操作系统要求与其他 Lync Server 2013 角色一致。</span><span class="sxs-lookup"><span data-stu-id="ee045-111">Operating system requirements for Edge Servers and for the optional Directors are consistent with other Lync Server 2013 roles.</span></span> <span data-ttu-id="ee045-112">[Lync server 2013 中的服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)中详细介绍了受支持的操作系统。</span><span class="sxs-lookup"><span data-stu-id="ee045-112">Supported operating systems are detailed in [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md).</span></span>
 
-<span data-ttu-id="e59a9-113">[Lync Server 2013 的其他软件要求](lync-server-2013-additional-software-requirements.md)中详细介绍了边缘服务器和可选控制器的其他组件和软件要求。</span><span class="sxs-lookup"><span data-stu-id="e59a9-113">Additional components and software requirements for Edge Servers and for the optional Directors are detailed in [Additional software requirements for Lync Server 2013](lync-server-2013-additional-software-requirements.md).</span></span>
+<span data-ttu-id="ee045-113">[Lync Server 2013 的其他软件要求](lync-server-2013-additional-software-requirements.md)中详细介绍了边缘服务器和可选控制器的其他组件和软件要求。</span><span class="sxs-lookup"><span data-stu-id="ee045-113">Additional components and software requirements for Edge Servers and for the optional Directors are detailed in [Additional software requirements for Lync Server 2013](lync-server-2013-additional-software-requirements.md).</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e59a9-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e59a9-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ee045-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ee045-114">See Also</span></span>
 
 
-[<span data-ttu-id="e59a9-115">Lync Server 2013 中的外部用户访问所需的组件</span><span class="sxs-lookup"><span data-stu-id="e59a9-115">Components required for external user access in Lync Server 2013</span></span>](lync-server-2013-components-required-for-external-user-access.md)  
-[<span data-ttu-id="e59a9-116">Lync Server 2013 的服务器硬件平台</span><span class="sxs-lookup"><span data-stu-id="e59a9-116">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)  
-[<span data-ttu-id="e59a9-117">Lync Server 2013 中的服务器和工具操作系统支持</span><span class="sxs-lookup"><span data-stu-id="e59a9-117">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)  
-[<span data-ttu-id="e59a9-118">Lync Server 2013 的其他软件要求</span><span class="sxs-lookup"><span data-stu-id="e59a9-118">Additional software requirements for Lync Server 2013</span></span>](lync-server-2013-additional-software-requirements.md)  
+[<span data-ttu-id="ee045-115">Lync Server 2013 中的外部用户访问所需的组件</span><span class="sxs-lookup"><span data-stu-id="ee045-115">Components required for external user access in Lync Server 2013</span></span>](lync-server-2013-components-required-for-external-user-access.md)  
+[<span data-ttu-id="ee045-116">Lync Server 2013 的服务器硬件平台</span><span class="sxs-lookup"><span data-stu-id="ee045-116">Server hardware platforms for Lync Server 2013</span></span>](lync-server-2013-server-hardware-platforms.md)  
+[<span data-ttu-id="ee045-117">Lync Server 2013 中的服务器和工具操作系统支持</span><span class="sxs-lookup"><span data-stu-id="ee045-117">Server and tools operating system support in Lync Server 2013</span></span>](lync-server-2013-server-and-tools-operating-system-support.md)  
+[<span data-ttu-id="ee045-118">Lync Server 2013 的其他软件要求</span><span class="sxs-lookup"><span data-stu-id="ee045-118">Additional software requirements for Lync Server 2013</span></span>](lync-server-2013-additional-software-requirements.md)  
   
 
 </div>
