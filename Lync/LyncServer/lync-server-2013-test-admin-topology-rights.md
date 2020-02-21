@@ -12,16 +12,16 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5aaeef1799ee2e35746f659ce451160854a25d89
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 050ba83b4598fc5ed8ed3d40d0b1aa02ba9356b2
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141738"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194725"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2016-12-08_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>Description
 
 默认情况下，只有域管理员才能启用 Lync Server 拓扑，并对 Lync Server 基础结构进行较大的更改。 只要您的域管理员和 Lync Server 管理员是同一个，这就不会出现问题。在许多组织中，Lync Server 管理员不拥有对整个域的管理权限。 默认情况下，这意味着这些管理员（定义为 RTCUniversalServerAdmins 组的成员）无法进行 Lync Server 拓扑更改。 若要向 RTCUniversalServerAdmins 组的成员授予对拓扑的更改权限，您必须使用[CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission) cmdlet 分配所需的 Active Directory 权限。
 

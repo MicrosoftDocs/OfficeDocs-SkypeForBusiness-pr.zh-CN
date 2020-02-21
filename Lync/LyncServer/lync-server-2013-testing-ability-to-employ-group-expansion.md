@@ -12,16 +12,16 @@ ms:contentKeyID: 63969634
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3178b96d156b64fc55f05403d50b3f7fcaa246bc
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 358d869f212ac3acef91e28ddb8d08322133970f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141628"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>Description
 
 CsGroupExpansion cmdlet 使您可以确定组扩展在您的组织内是否正常工作。 启用组展开后，用户会将通讯组配置为联系人。 这意味着，这些用户可以通过将邮件地址分配给组而不是该组的各个成员来向所有组成员发送相同的即时消息。 组扩展使您能够快速轻松地查看所有组成员及其当前状态。
 

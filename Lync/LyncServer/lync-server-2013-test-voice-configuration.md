@@ -12,16 +12,16 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f0d5c8aef7c3cca22a41f591a208413cc453898
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: c3bd2e9b86ee0c14d8fd9e2bbe386d48398d2418
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141568"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-05-20_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>Description
 
 Lync Server 包括几个 Windows PowerShell cmdlet （如 CsVoiceRoute 和 Set-csvoicepolicy、Remove-cstrunkconfiguration），使您能够验证企业语音基础结构的各个部分–语音路由、语音策略，SIP 中继–按预期工作。
 

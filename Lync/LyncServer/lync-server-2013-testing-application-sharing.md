@@ -12,16 +12,16 @@ ms:contentKeyID: 63969629
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb9f5771651f68d36666e039a9af71436ac3635b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: c82ecab8883a6ccb5e6573d1d164e41648f14bfe
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141478"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-11-01_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>Description
 
 **CsASConference** cmdlet 验证一对测试用户是否可以参与包含应用程序共享的联机会议。 为此，该 cmdlet 将为两个用户注册 Lync Server 2013，然后使用其中一个用户帐户来创建包括应用程序共享的新会议。 之后，cmdlet 会验证第二个用户是否能够加入该会议。
 

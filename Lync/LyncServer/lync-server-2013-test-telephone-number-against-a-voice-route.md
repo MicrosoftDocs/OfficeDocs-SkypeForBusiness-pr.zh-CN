@@ -12,16 +12,16 @@ ms:contentKeyID: 63969631
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dc2b921d4e0d487c26532ad1e6102ab32d0162e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5476d47d0aac550d048e35e617d6d342084ccd75
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141728"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194535"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-05-20_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>Description
 
 语音路由与语音策略结合使用，可帮助将企业语音呼叫路由到 PSTN 网络。 每个语音路由都包含一个正则表达式（一种数字模式），用于标识将通过给定语音路由路由的电话号码：该路由将能够处理与此正则表达式匹配的任何电话号码。 例如，语音路由可能有一个正则表达式，使其能够处理任何10位数字。 这意味着路由将能够处理如下的电话号码：
 

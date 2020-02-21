@@ -12,16 +12,16 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9df6a040e71b0dfe82a52cf519357d058b78a1d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 98878c2e0d0e50c385448dceec5df5643e92aa53
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141708"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194675"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-07_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>Description
 
 CsWebAppAnonymous cmdlet 验证匿名用户是否可以使用 Lync Web App 加入 Lync Server 会议。 运行 cmdlet 时，CsWebAppAnonymous 会与 Web 票证服务联系，以获取匿名用户的 web 票证。 如果 cmdlet 成功获取此票证，则 CsWebAppAnonymous 将与 Lync Server 联系，并尝试建立独立会议以实现即时消息、应用程序共享和数据协作。
 

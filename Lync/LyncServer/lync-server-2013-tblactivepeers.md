@@ -12,16 +12,16 @@ ms:contentKeyID: 48185176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ad7e0cff95cde5be9f869c59305c05a657f799f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 8a47ac4368dd424b08cfb47c6d867bc20144e45c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142208"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -51,7 +51,7 @@ tblActivePeers 包含聊天服务之间当前对等连接。
 <tr class="header">
 <th>列</th>
 <th>类型</th>
-<th>说明</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

@@ -12,16 +12,16 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01d3eaa5ffc629b194cea469949bf614cb42f696
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 06684665819e14540628e5cd45309ef2c920b227
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141648"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2017-03-15_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>Description
 
 推送通知服务（Apple Push Notification Service 和 Microsoft 推送通知服务）可以向移动设备（如 Iphone 和 Windows phone）发送有关事件（例如新的即时消息或新语音邮件）的通知，即使 Lync 客户端这些设备上的当前挂起或在后台运行。 推送通知服务是在 Microsoft 服务器上运行的基于云的服务。 若要利用推送通知，必须能够连接到推送通知交换所，并对其进行身份验证。 CsMcxPushNotification cmdlet 使管理员能够验证是否可以通过边缘服务器将推送通知请求路由到推送通知交换所。
 

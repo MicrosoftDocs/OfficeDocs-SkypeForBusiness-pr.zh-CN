@@ -12,16 +12,16 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ecb197f7ce8acbd4639be9ee20b93e6008922f3c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: eef76c8728a7b5a569efee9305505f4e19f6bceb
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42141518"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42194315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>Description
 
 CsGroupIM cmdlet 验证组织中的用户是否可以执行组即时消息会话。 运行 CsGroupIM 时，cmdlet 会尝试将一对测试用户登录到 Lync Server。 如果登录成功，Test-CsGroupIM 将使用第一个测试用户创建新会议，然后邀请第二个用户加入会议。 交换消息之后，这两个用户断开与系统的连接。 请注意，这一切在没有任何用户交互的情况下发生，而不会影响任何实际用户。 例如，假设测试帐户 sip:kenmyer@litwareinc.com 与具有实际 Lync Server 帐户的真实用户相对应。 在这种情况下，执行测试的过程中不会对真实的 Ken Myer 造成任何中断。 例如，即使从系统注销 Ken Myer 的测试帐户，Ken Myer 本人仍将保持已登录状态。 同样，实际 Ken Myer 不会收到加入会议的邀请。 该邀请将发送到测试帐户并由其接受。
 
