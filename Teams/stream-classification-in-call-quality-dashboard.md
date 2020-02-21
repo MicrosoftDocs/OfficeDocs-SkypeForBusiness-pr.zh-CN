@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板中进行流质量分类。
-ms.openlocfilehash: bb1c96f92ae683f02d5972f8fa11afe15e3c5a92
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837902"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160736"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>通话质量仪表板中的流分类
 
@@ -48,8 +48,17 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 |Ratio Concealed Samples Avg|> 0.07|带有隐藏样本（由数据包丢失修复生成）到音频帧总数的音频帧数的平均比率。|
 ||||
 
-### <a name="video-classifier"></a>视频分类器
+### <a name="video-classifier-due-to-freeze"></a>由于冻结而导致视频分类器
 
+视频流基于生成的分类器分数的值标记为 "_良好_" 或 "_差_"，以估计最终用户遇到了冻结的视频。 此分类器仅适用于 Microsoft 团队产品。
+
+|步骤编号|指标|应用场景|条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|1|由于冻结分类器而导致视频较差 |服务器对是客户端：服务器|>0.246|_Poor_|_Good_|_Unclassified_|基于用户体验、冻结持续时间统计和整体通话体验的组合生成的0和1之间的分数 |
+|ppls-2|由于冻结分类器而导致视频较差 |服务器对是客户端：客户端|>0.524|_Poor_|_Good_|_Unclassified_|基于用户体验、冻结持续时间统计和整体通话体验的组合生成的0和1之间的分数 |
+|  |  |  |  |  |  |  |
+
+### <a name="video-classifier"></a>视频分类器
 视频流根据第一个可用指标的值标记为 "_良好_" 或 "_差_"，顺序如下：
 
 |步骤编号|指标|条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
@@ -112,3 +121,4 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+ 

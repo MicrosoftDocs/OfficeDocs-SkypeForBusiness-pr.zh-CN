@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解在 Microsoft 团队中向用户分配策略的不同方法。
 f1keywords: ''
-ms.openlocfilehash: a4d50f6182441e97f5d7290610e254bd82e91e96
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
+ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052534"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170758"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft 团队中的用户分配策略
 
 > [!NOTE]
-> **本文中讨论的两个 Microsoft 团队功能（[批量策略分配](#assign-a-policy-to-a-batch-of-users)和[组策略分配](#assign-a-policy-to-a-group)）当前处于预览版中。**
+> **本文中讨论的两个 Microsoft 团队功能、[批策略分配](#assign-a-policy-to-a-batch-of-users)和[组的策略分配](#assign-a-policy-to-a-group)当前都在预览版中。**
 
 作为管理员，你可以使用策略来控制你的组织中的用户可以使用的团队功能。 例如，有一些通话策略、会议策略和邮件策略，只需命名。
 
@@ -213,18 +213,18 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-组策略分配允许你向一组用户（如安全组或组织单元）分配策略。 根据优先级规则，策略分配将传播到组的成员。 将成员添加到组或从组中删除成员后，将相应地更新其继承的策略分配。
+通过向组分配策略，你可以为一组用户（如安全组或组织单位）分配策略。 根据优先级规则，策略分配将传播到组的成员。 将成员添加到组或从组中删除成员后，将相应地更新其继承的策略分配。
 
 你可以使用```New-CsGroupPolicyAssignment``` cmdlet 向组分配策略。 您可以通过使用对象 Id、SIP 地址或电子邮件地址来指定组。
 
 分配策略时，它将立即分配给组。 但是，请注意，对组成员的策略分配的传播是作为后台操作执行的，可能需要一些时间，具体取决于组的大小。 当从组中取消分配策略时，或者在组中添加或删除成员时，也是如此。
 
 > [!NOTE]
-> 当前，组策略分配不适用于所有团队策略类型。 有关受支持的策略类型列表，请参阅[CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
+> 目前，对组的策略分配对所有团队策略类型不可用。 有关受支持的策略类型列表，请参阅[CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
 
-### <a name="what-you-need-to-know-about-group-policy-assignment"></a>有关组策略分配的需要了解的信息
+### <a name="what-you-need-to-know-about-policy-assignment-to-groups"></a>对组的策略分配需要了解的内容
 
-开始之前，了解优先级规则和组策略分配排名非常重要。
+在开始之前，了解优先级规则和组分配的排名非常重要。
 
 #### <a name="precedence-rules"></a>优先规则
 
@@ -240,7 +240,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
  
 向组分配策略时，为组分配指定排名。 如果用户是两个或更多组的成员，并且每个组都分配有同一类型的策略，则使用此功能确定用户应继承为其有效策略的策略。
 
-组分配排名相对于相同类型的其他组策略分配。 例如，如果您正在向两个组分配呼叫策略，则将一个作业的等级设置为1，另一个设置为2，1为最高排名。 组分配排名指明哪些组成员身份比继承的其他组成员更重要或更密切。
+组分配排名与同一类型的其他组分配相关。 例如，如果您正在向两个组分配呼叫策略，则将一个作业的等级设置为1，另一个设置为2，1为最高排名。 组分配排名指明哪些组成员身份比继承的其他组成员更重要或更密切。
  
 例如，你有两个组，存储员工和商店经理。 这两个组都分配有一个团队调用策略，分别存储员工调用策略和存储管理器调用策略。 对于位于两个组中的商店经理，其角色作为经理，其角色与员工的角色更相关，因此分配给应用商店管理员组的呼叫策略应具有更高的排名。
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 537f2a51076d93808089526d7b5be10faf5954b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e3c44867b14a4b3bf83a45cf1dbbb37151c648a8
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837452"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161587"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>规划 Microsoft 365 政府-GCC 高部署
 
@@ -79,6 +79,7 @@ Microsoft 365 政府-GCC 高环境为云服务的美国政府要求提供合规�
 | Base64 | 登录 | 有空 |
 | | 状态 | 有空 |
 | | 统一状态（Skype for Business 和团队统一） | 有空 |
+| | Linux 客户端 | 在政府待办事项中 |
 | 活动 | 源 | 有空 |
 |  | 我的活动 | 有空 |
 | 聊天 | 交谈 | 有空 |

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: c86e140c917300d1d9a05a42e81cf8095ed3a670
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 86bf441f6dfa74b243f1a6e64139a32b8b94d7fa
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837702"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161628"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
@@ -54,7 +54,7 @@ ms.locfileid: "41837702"
 
 ### <a name="user-custom-app-policy"></a>用户自定义应用策略
 
-作为[应用设置策略](teams-app-setup-policies.md)的一部分，管理员可以使用策略设置 "**允许上载自定义应用**" 来控制用户是否可以将自定义应用上载到团队。
+作为[应用设置策略](teams-app-setup-policies.md)的一部分，管理员可以使用策略设置 "**上载自定义应用**" 来控制用户是否可以将自定义应用上载到团队。
  
 如果此设置已关闭：
 
@@ -73,7 +73,7 @@ ms.locfileid: "41837702"
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **设置策略**"。
 2. 单击“添加”****。
-3. 打开或关闭 "**允许上载自定义应用**"。
+3. 打开或关闭 "**上载自定义应用**"。
 4. 为策略选择所需的任何其他设置。
 5. 单击“**保存**”。
 
@@ -101,11 +101,11 @@ ms.locfileid: "41837702"
 
 ### <a name="org-wide-custom-app-setting"></a>组织范围的自定义应用设置
 
-组织范围的自定义应用设置（**允许与自定义应用交互**）适用于你的组织中的所有人，并控制他们是否可以上传或与自定义应用交互。 此设置将替代用户和团队自定义应用策略和设置。 它旨在充当安全事件期间的主开/关切换。
+"[管理应用](manage-apps.md)" 页面上的 "**允许与自定义应用进行交互**" 组织范围内的自定义应用设置适用于你组织中的每个人 此设置将替代用户和团队自定义应用策略和设置。 它旨在充当安全事件期间的主开/关切换。
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>配置组织范围的自定义应用设置
 
-1. 在[Microsoft 团队管理中心](https://admin.teams.microsoft.com/)的左侧导航中，转到 "**团队应用** > **权限策略**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **管理应用**"。
 2. 单击 "**组织范围的应用设置**"。
 3. 在 "**自定义应用**" 下，打开或关闭 "**允许与自定义应用交互**"。
 
@@ -118,7 +118,7 @@ ms.locfileid: "41837702"
 例如，你希望仅允许团队所有者将自定义应用上载到特定团队。 您将设置以下内容：
 - 在 Microsoft 团队管理中心中启用 "**允许与自定义应用交互**" 设置。
 - 关闭允许成员上载要限制访问的每个团队的**自定义应用**。
-- 在 Microsoft 团队管理中心创建和分配自定义应用设置策略，**用户可以上载 "自定义应用**" 设置，并将其分配给团队所有者。
+- 在 "**上载自定义应用**" 设置处于打开状态的情况下，在 Microsoft 团队管理中心中创建和分配自定义应用设置策略，并将其分配给团队所有者。
 
 |组织范围的自定义应用设置 |团队自定义应用设置 |用户自定义应用策略 |事实上  |
 |---------|---------|---------|---------|
@@ -132,4 +132,5 @@ ms.locfileid: "41837702"
 | 开    | 开        | 开        | 用户可以将自定义应用上载到团队，无论用户是否是团队所有者。 用户可以在个人上下文中上载自定义应用程序。       |
 
  ## <a name="related-topics"></a>相关主题
+ 
 - [Teams 中适用于应用的管理设置](admin-settings.md)

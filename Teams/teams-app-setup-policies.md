@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 9117837aab1b218ea34a77731eebaba8f4d27783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 82af710d8c3cb89171085f9053ed1708d7f568ca
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837392"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161645"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
 > [!NOTE]
-> 如果启用了组织范围的应用权限策略设置，**允许与自定义应用交互**，则你可能看不到 Microsoft 团队管理中心中的应用安装策略。 它目前正在推出，即将在您的组织中提供。
+> 如果启用了组织范围的应用设置，**允许与自定义应用交互**，则你可能看不到 Microsoft 团队管理中心中的应用安装策略。 它目前正在推出，即将在您的组织中提供。
 
 作为管理员，你可以使用应用设置策略自定义 Microsoft 团队，以突出显示对你的用户最重要的应用。 你可以选择要固定的应用，并设置它们的显示顺序。 应用设置策略允许你展示你的组织需要的用户所需的应用，包括由第三方或你组织中的开发人员构建的应用。 你还可以使用应用设置策略来控制用户是否可以将应用固定到团队并管理内置功能的显示方式。
 
@@ -56,7 +56,7 @@ ms.locfileid: "41837392"
 2. 单击“添加”****。
     ![显示 "添加应用设置策略" 页面的屏幕截图](media/app-setup-policies-add.png)
 3. 输入策略的名称和说明。
-4. 打开或关闭 "**上载自定义应用程序**"，具体取决于是否希望允许用户将自定义应用程序上载到团队。 如果在应用权限策略的[组织范围内应用设置](teams-app-permission-policies.md#manage-org-wide-app-settings)中禁用 "**允许第三方应用**"，你将无法更改此设置。
+4. 打开或关闭 "**上载自定义应用程序**"，具体取决于是否希望允许用户将自定义应用程序上载到团队。 如果 "[组织范围内的应用设置](manage-apps.md#manage-org-wide-app-settings)" 中的 "**允许第三方应用**" 处于关闭状态，则不能更改此设置。
 5. 打开或关闭 "**允许用户固定**"，具体取决于是否希望让用户通过将应用固定到应用栏来对其应用栏进行个性化设置。
 6. 单击 "**添加应用程序**"。
 7. 在 "**添加固定的应用**" 窗格中，搜索要添加的应用，然后单击 "**添加**"。 你还可以按应用权限策略筛选应用。 选择应用列表后，单击 "**添加**"。
@@ -126,7 +126,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft 团队管理中心中包括哪些内置应用设置策略？
 
 - **全局（组织范围默认值）**：此默认策略适用于你组织中的所有用户，除非你分配其他策略。 编辑全局策略以固定对你的用户最重要的应用。
-- **FirstLineWorker**：此政策适用于第一行工作人员。 您可以将其分配给您的组织中的第一行工作人员。 请务必知道，例如你创建的自定义策略，你必须将策略分配给用户才能使设置处于活动状态。 有关详细信息，请转到本文的 "向[用户分配自定义应用设置策略](#assign-a-custom-app-setup-policy-to-users)" 部分。
+- **FirstLineWorker**：此政策适用于一线工作者。 你可以将其分配给你的组织中的一线工作人员。 请务必知道，例如你创建的自定义策略，你必须将策略分配给用户才能使设置处于活动状态。 有关详细信息，请转到本文的 "向[用户分配自定义应用设置策略](#assign-a-custom-app-setup-policy-to-users)" 部分。
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>为什么我无法在 "添加固定的应用" 窗格中找到应用？
 
@@ -163,7 +163,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 团队移动客户端（iOS 和 Android）目前不支持带有静态选项卡的个人应用。 根据策略中设置的应用，固定到团队桌面客户端的应用可能不会显示在团队移动客户端中。 在移动客户端上，个人机器人仍将显示在聊天中。
 
-通过团队移动客户端，用户将看到核心团队应用（如活动、聊天和团队），并且你可以固定 Microsoft 的一些第三方应用，例如倒班。 
+通过团队移动客户端，用户将看到核心团队应用（如活动、聊天和团队），并且你可以固定 Microsoft 的一些第三方应用，例如倒班。
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>用户是否可以更改通过策略固定的应用顺序？
 
@@ -171,10 +171,11 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 ### <a name="custom-teams-apps"></a>自定义团队应用
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>我的组织构建了一个自定义团队应用，并已将其发布到 AppSource 或租户应用目录，但当应用固定到团队中的应用栏时，应用图标不会按预期显示。 如何解决此问题？ 
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>我的组织构建了一个自定义团队应用，并已将其发布到 AppSource 或租户应用目录，但当应用固定到团队中的应用栏时，应用图标不会按预期显示。 如何解决此问题？
 
 在提交应用之前，请确保遵循徽标指南。 若要了解详细信息，请参阅[卖方仪表板提交清单](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)。 
 
  ## <a name="related-topics"></a>相关主题
+
 - [Teams 中适用于应用的管理设置](admin-settings.md)
 - [从团队客户端将应用发布到租户应用目录](tenant-apps-catalog-teams.md)

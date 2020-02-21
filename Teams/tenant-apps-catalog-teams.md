@@ -3,12 +3,11 @@ title: 在 Microsoft 团队租户应用目录中发布应用
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
 audience: admin
-description: 有关在 Microsoft 团队租户应用目录中发布应用的指南。
+description: 有关在 Microsoft 团队租户应用程序目录中发布应用的指南。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,38 +19,38 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1b2fb38dcca7142cad82d290b1225e69f035bae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1f3d4f5937c766c1c4f6f54a6a38872e793a3825
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836912"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161611"
 ---
-<a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>在 Microsoft 团队租户应用目录中发布应用
+<a name="publish-apps-in-the-microsoft-teams-tenant-app-catalog"></a>在 Microsoft 团队租户应用目录中发布应用
 =======================================================
 
 你可以使用 Microsoft 团队租户应用目录来测试和分配业务线应用程序到你的组织。
 
-"团队租户应用" 目录使你可以分配专为你的组织构建的业务线应用程序，以及你依赖于完成关键业务功能的业务线应用程序。
+团队租户应用程序目录允许你分配专为你的组织构建的业务线应用程序，并且你依赖于完成关键的业务功能。
 
-若要为你的组织发布应用，请使用具有全局管理员或团队服务管理员角色的帐户登录团队客户端，然后按照下面的说明进行操作。
+若要为你的组织发布应用，请使用具有全局管理员或团队服务管理员角色的帐户登录团队客户端，然后按照下面的步骤操作。
 
-## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>从团队客户端发布租户应用目录中的应用
+## <a name="publish-an-app-in-the-tenant-app-catalog-from-the-teams-client"></a>从团队客户端发布租户应用目录中的应用
 
 > [!NOTE]
-> 你需要使用已启用全局管理员或团队服务管理员角色的帐户登录到 Microsoft 团队客户端，以便为你的组织发布应用。 了解有关[使用管理员角色管理团队](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)的详细信息。
+> 这些步骤介绍了如何使用团队客户端发布应用。 你还可以在 Microsoft 团队管理中心的 "**管理应用**" 页面上发布应用。 若要了解详细信息，请参阅[管理团队中的应用](manage-apps.md)。
 
 ### <a name="get-a-teams-app-package"></a>获取团队应用包
 
-团队应用包是使用[团队应用 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建的。 拥有应用程序包后，即可将其添加到企业应用目录。 虽然租户中的所有用户都可以查看应用程序目录，但只有全局管理员和团队服务管理员有权发布和管理它。
+团队应用包是使用[团队应用 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建的。 拥有应用包后，即可将其添加到租户应用目录。 虽然您的组织中的所有用户都可以查看应用程序目录，但只有全局管理员和团队服务管理员能够发布和管理它。
 
-### <a name="go-to-the-tenant-apps-catalog"></a>转到租户应用目录
+### <a name="go-to-the-tenant-app-catalog"></a>转到租户应用目录
 
-启动 Microsoft 团队客户端并使用全局或团队服务管理员凭据登录。 选择应用左侧的 "**应用**"，然后选择为特定组织指定的新分区（在本例中为 "Contoso"）。 您的组织中的用户可以查看目录中的应用，并为他们所属的团队安装这些应用。
+启动团队并使用全局或团队服务管理员凭据登录。 选择应用左侧的 "**应用**"，然后选择为特定组织指定的新分区（在本例中为 "Contoso"）。 您的组织中的用户可以查看目录中的应用，并为他们所属的团队安装这些应用。
 
 ![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image01.png)
 
-### <a name="add-an-app-to-the-tenant-apps-catalog"></a>将应用添加到租户应用目录
+### <a name="add-an-app-to-the-tenant-app-catalog"></a>将应用添加到租户应用目录
 
 1. 在 "**应用**" 页面上，选择 "上载**适用于 Contoso**的**自定义应用** > 上传"。
 
@@ -65,9 +64,9 @@ ms.locfileid: "41836912"
 
 当你返回到租户应用目录时，新的企业应用将位于此处。 请记住，只有你和你的组织的成员才有权访问此应用程序目录。
 
-### <a name="update-an-app-in-the-tenant-apps-catalog"></a>更新租户应用目录中的应用
+### <a name="update-an-app-in-the-tenant-app-catalog"></a>更新租户应用目录中的应用
 
-1. 从租户应用目录中，选择 "**...**" 在要更新的应用的右上角。
+1. 从租户应用程序目录中，选择 "**...**" 在要更新的应用的右上角。
 
 2. 导航到已更新的应用包并将其选中，然后单击 "**打开**"。
 
@@ -75,10 +74,14 @@ ms.locfileid: "41836912"
 
 该应用将被修改为版本2.0。 您也可以从此菜单中删除整个公司的应用。
 
-## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>使用 Office 365 管理门户管理租户应用目录
+## <a name="use-the-microsoft-teams-admin-center-to-manage-the-tenant-app-catalog"></a>使用 Microsoft 团队管理中心管理租户应用目录
 
-如果你有需要 bug 修复的应用，你可以通过 Microsoft 365 管理中心临时禁用应用 >**团队管理中心** > **团队应用** > **权限策略** > <策略名称，例如 "全局（组织范围默认）" >**租户应用**> 阻止特定应用并允许所有其他应用，并将你的应用添加到列表。
+如果你有需要 bug 修复的应用，你可以暂时为应用权限策略中的用户禁用应用。
 
-![显示应用程序目录的团队应用商店的屏幕截图。](media/private-app-store-teams-image05.png)
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **权限策略**"。
+2. 选择要编辑的应用权限策略，然后单击 "**编辑**"。
+3. 在 "**租户应用**" 下，选择 "**阻止特定应用并允许所有其他应用**"，然后添加要阻止的应用。
 
-禁用应用将阻止用户与应用交互，而无需完全删除应用。 在企业中管理应用时，这些控件可为你提供额外的灵活性和控制。
+禁用应用会阻止用户与应用交互，而无需完全删除应用。 在组织中管理应用时，这些控件可为你提供额外的灵活性和控制。
+
+若要了解详细信息，请参阅[管理团队中的应用权限策略](teams-app-permission-policies.md)。

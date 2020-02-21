@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852099"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157890"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>从 Skype for Business 升级到 IT &mdash;管理员的团队
 
@@ -423,7 +423,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 1. 通过查看[此列表](direct-routing-border-controllers.md)，确保你的会话边界控制器（SBC）支持直接路由。 您还必须确保拥有正确版本的固件。  
 
-2. 将本地 SBC 与团队直接路由服务配对。 有关详细信息，请参阅将[SBC 与电话系统的直接路由服务配对](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system)。 
+2. 将本地 SBC 与团队直接路由服务配对。 有关详细信息，请参阅将[SBC 与电话系统的直接路由服务配对](direct-routing-configure.md)。 
 
 3. 此配置实质上是本地配置的镜像。 联机配置包括： 
    - OnlineVoiceRoutingPolicy （基于本地 VoiceRoutingPolicy，如果从 Skype for business Online 迁移用户，并且基于 VoicePolicy （如果从本地与企业语音）迁移用户。

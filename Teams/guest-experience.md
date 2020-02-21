@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
-ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
+ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41977524"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160566"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -41,22 +41,23 @@ ms.locfileid: "41977524"
 
 |**Teams 中的功能**|**组织中的 Teams 用户**|**来宾用户**|
 |:-----|:-----|:-----|
-|创建通道  <br/>  *团队所有者控制此设置。*  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|参与私人聊天  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|参与频道对话  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|发布、删除和编辑消息  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|共享频道文件  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|共享聊天文件  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|添加应用（选项卡、聊天机器人或连接器）  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|创建会议或访问计划  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|访问 OneDrive for Business 存储  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|创建租户范围和团队/频道来宾访问策略  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|邀请 Office 365 租户的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|创建团队  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|发现和加入公用团队  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|查看组织结构图  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|使用内联转换  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|成为团队所有者  <br/> |![描述复选标记的图标 ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|创建通道  <br/>  *团队所有者控制此设置。*  <br/> |&#x2713;|&#x2713;|
+|参与私人聊天  <br/> |&#x2713;|&#x2713;|
+|参与频道对话  <br/> |&#x2713;|&#x2713;|
+|发布、删除和编辑消息  <br/> |&#x2713;|&#x2713;|
+|共享频道文件  <br/> |&#x2713;|&#x2713;|
+|共享聊天文件  <br/> |&#x2713;||
+|添加应用（选项卡、聊天机器人或连接器）  <br/> |&#x2713;||
+|创建会议或访问计划  <br/> |&#x2713;||
+|访问 OneDrive for Business 存储  <br/> |&#x2713;||
+|创建租户范围和团队/频道来宾访问策略  <br/> |&#x2713;||
+|邀请 Office 365 租户的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |&#x2713;||
+|创建团队  <br/> |&#x2713;||
+|发现和加入公用团队  <br/> |&#x2713;||
+|查看组织结构图  <br/> |&#x2713;||
+|使用内联转换  <br/> |&#x2713;||
+|成为团队所有者  <br/> |&#x2713;||
+
    
 下表显示了与其他类型的用户相比，来宾可使用的呼叫和会议功能。
 

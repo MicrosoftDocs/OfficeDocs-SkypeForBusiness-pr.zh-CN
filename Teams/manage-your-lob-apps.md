@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何让自定义团队应用从开发到部署。
-ms.openlocfilehash: 3369371de34cd1346e81be8ea57bb3f5675864c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837502"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161798"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>管理 Microsoft 团队中的业务线应用
 
@@ -49,11 +49,11 @@ ms.locfileid: "41837502"
 
 若要允许用户上载自定义应用程序，请按照下列步骤操作：
 
-1. 启用 "**允许与自定义应用交互**" 组织范围设置。 要执行此操作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **权限策略**"，然后单击 "**组织范围的设置**"。
+1. 启用 "**允许与自定义应用交互**" 组织范围的应用设置。 要执行此操作：
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **管理应用**"，然后单击 "**组织范围的应用设置**"。
     2. 在 "**自定义应用**" 下，打开 "**允许与自定义应用交互**"，然后单击 "**保存**"。
 
-    !["允许与自定义应用交互" 的屏幕截图组织范围设置](media/manage-your-lob-apps-org-wide-custom-apps.png)
+    !["允许与自定义应用交互" 组织范围内的应用设置的屏幕截图](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. 在全局应用设置策略中启用 "**上载自定义应用**" 设置。 要执行此操作：
     1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **设置策略**"，然后单击 "**全局（组织范围默认）** " 策略。
@@ -85,8 +85,8 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 若要允许受信任用户上载自定义应用程序，请按照下列步骤操作：
 
-1. 启用 "**允许与自定义应用交互**" 组织范围设置。 要执行此操作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **权限策略**"，然后单击 "**组织范围的设置**"。
+1. 启用 "**允许与自定义应用交互**" 组织范围的应用设置。 要执行此操作：
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **管理应用**"，然后单击 "**组织范围的应用设置**"。
     2. 在 "**自定义应用**" 下，打开 "**允许与自定义应用交互**"，然后单击 "**保存**"。
 2. 关闭全局应用设置策略中的 "**上载自定义应用**" 设置。 要执行此操作：
     1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **设置策略**"，然后单击 "**全局（组织范围默认）** " 策略。
@@ -99,11 +99,17 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
     这些用户现在可以上载应用清单，以验证应用是否在生产租户中正常工作。
 
-## <a name="step-3-upload-to-the-tenant-apps-catalog"></a>步骤3：上传到租户应用目录
+## <a name="step-3-upload-to-the-tenant-app-catalog"></a>步骤3：上传到租户应用目录
 
-若要让租户应用商店中的用户可以使用该应用，请上载该应用。 你可以使用团队桌面客户端执行此操作。 请按照<a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">此处</a>的步骤操作。
+若要让租户应用商店中的用户可以使用该应用，请上载该应用。 你可以<a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">使用团队桌面客户端</a>或 Microsoft 团队管理中心的 "[管理应用](manage-apps.md)" 页面执行此操作。
+
+下面是 "团队桌面客户端" 中的 "上载" 选项的屏幕截图。
 
 !["应用" 页面的屏幕截图](media/manage-your-lob-apps-store.png)
+
+下面是 Microsoft 团队管理中心的 "**管理应用**" 页面上的 "上载" 选项的屏幕截图。
+
+![管理中心中 "管理应用" 页面的屏幕截图](media/manage-your-lob-apps-upload-new-app.png)
 
 ## <a name="step-4-configure-and-assign-permissions"></a>步骤4：配置和分配权限
 
@@ -125,6 +131,6 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 若要更新应用，开发人员应继续执行[步骤 1](#step-1-develop-and-test)和[步骤 2](#step-2-validate-in-production)。
 
-你可以通过租户应用目录更新应用。 若要执行此操作，请在团队桌面客户端中，转到为**租户&gt;名称生成&lt;的****应用** > ，然后单击 **...** 在应用的右上角，然后单击 "**更新**"。 执行此操作将替换租户应用目录中的现有应用，并且所有权限策略和设置策略都将对已更新的应用保持强制。 
+你可以通过租户应用目录更新应用。 若要执行此操作，请在团队桌面客户端中，转到为**租户&gt;名称生成&lt;的****应用** > ，然后单击 **...** 在应用的右上角，然后单击 "**更新**"。 执行此操作将替换租户应用程序目录中的现有应用，并且所有权限策略和设置策略都将对已更新的应用保持强制。 
 
 ![更新 "应用" 页面上的应用的屏幕截图](media/manage-your-lob-apps-update-app.png)

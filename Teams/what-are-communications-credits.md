@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051566"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161723"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -68,7 +68,7 @@ ms.locfileid: "42051566"
 > [!NOTE]
 > 你可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单** > **订阅** > **添加订阅**来查看计划和定价。 
   
-在**Microsoft 365 管理中心** > **帐单** > **订阅**中，您可以随时手动添加点数。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果您选择使用一次性金额来为您的通信点数余额进行资金，然后余额降到零，则上述的其他呼叫方案将不再有效，包括免费电话号码。 因此，建议使用**自动重新充电**设置，以避免您的通讯信用点数达到0（零）时的任何服务中断。 如果您的电子支付交易成功，您将收到一封电子邮件，重新充电的交易将失败（如已过期的信用卡），或者您的通讯点数余额达到0（零）。
+在**Microsoft 365 管理中心** > **** > **购买服务** > **中，可以**选择 "通信信用点数" 来添加信用点数，您可以随时手动添加点数。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果您选择使用一次性金额来为您的通信点数余额进行资金，然后余额降到零，则上述的其他呼叫方案将不再有效，包括免费电话号码。 因此，建议使用**自动重新充电**设置，以避免您的通讯信用点数达到0（零）时的任何服务中断。 如果您的电子支付交易成功，您将收到一封电子邮件，重新充电的交易将失败（如已过期的信用卡），或者您的通讯点数余额达到0（零）。
   
 ## <a name="communications-credits"></a>通信点数
 

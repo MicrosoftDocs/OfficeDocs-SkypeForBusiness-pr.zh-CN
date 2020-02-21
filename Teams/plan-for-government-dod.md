@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836852"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161733"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>规划 Microsoft 365 政府-DoD 部署
 
@@ -42,7 +42,7 @@ Microsoft 365 政府-DoD 环境为云服务的美国政府要求提供合规性�
 
 您可以在[Office 365 政府计划](https://products.office.com/government/compare-office-365-government-plans)（包括[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)）中找到有关 Microsoft 365 政府-DoD 产品的详细信息。
 
-[Office 365 美国政府服务说明](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)介绍了平台的优势，这些优势在美国的满足合规性要求的中心。
+[Office 365 美国政府服务说明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)介绍了平台的优势，这些优势在美国的满足合规性要求的中心。
 
 
 > [!Tip]
@@ -79,6 +79,7 @@ Microsoft 365 政府-DoD 环境为云服务的美国政府要求提供合规性�
 | Base64 | 登录 | 有空 |
 | | 状态 | 有空 |
 | | 统一状态（Skype for Business 和团队统一） | 在政府待办事项中 |
+| | Linux 客户端 | 在政府待办事项中 |
 | 活动 | 源 | 有空 |
 |  | 我的活动 | 有空 |
 | 聊天 | 交谈 | 有空 |

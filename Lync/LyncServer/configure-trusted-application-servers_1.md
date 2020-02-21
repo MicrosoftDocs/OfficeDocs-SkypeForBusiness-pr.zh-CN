@@ -13,16 +13,16 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcce9e045abbc0ad3d56362c37ac3e888a74130c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bb693a68f58ef16ca29048d9e18738ef98d719d8
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136019"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42180745"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -50,7 +50,7 @@ _**上次修改的主题：** 2012-10-04_
 
 3.  输入受信任的应用程序池的**池 FQDN** ，并选择它是单服务器部署还是多服务器部署。
 
-4.  单击“下一步”。****
+4.  单击“**下一步**”。
 
 5.  在 "**选择下一个跃点**" 页上的列表中，选择 "Lync Server 2013 前端池"。
     

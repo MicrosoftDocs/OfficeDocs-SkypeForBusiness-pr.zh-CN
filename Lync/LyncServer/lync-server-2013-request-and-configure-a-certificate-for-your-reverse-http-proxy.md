@@ -12,16 +12,16 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 5db6e8ed2df53acf5c1543569778b29168d0500b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42144939"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -162,9 +162,9 @@ _**上次修改的主题：** 2014-02-14_
 
 3.  在 "**证书注册**" 页上，单击 "**下一步**"。
 
-4.  在 "**选择证书注册策略**" 页的 "**自定义请求**" 下，选择 "**继续，不进行注册策略**"。 单击“下一步”。****
+4.  在 "**选择证书注册策略**" 页的 "**自定义请求**" 下，选择 "**继续，不进行注册策略**"。 单击“**下一步**”。
 
-5.  在 "**自定义请求**" 页上，为 "**模板**选择 **（无模板）旧密钥**"。 除非您的证书提供商另有指示，否则请保留**取消选中默认分机**和**PKCS \#10**上的**请求格式**选择。 单击“下一步”。****
+5.  在 "**自定义请求**" 页上，为 "**模板**选择 **（无模板）旧密钥**"。 除非您的证书提供商另有指示，否则请保留**取消选中默认分机**和**PKCS \#10**上的**请求格式**选择。 单击“**下一步**”。
 
 6.  在 "**证书信息**" 页上，单击 "**详细信息**"，然后单击 "**属性**"。
 

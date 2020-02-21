@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板使用的维度和度量的详细信息。
-ms.openlocfilehash: 6ad18b0674dec96c163bf64b6a16f014a0413ab8
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 99013a4919dac1312564ab3f4d935fb2628d5da5
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826910"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161743"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>"呼叫质量" 仪表板中可用的尺寸和测量
 
@@ -199,11 +199,31 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第二个 CDR 连接类型  | 枚举 <br/>**可能的值：** <br/>&bull;O <br/>&bull;PeerDerived <br/>&bull;Stun <br/>&bull;关闭  | 指示第二终结点选择用于此流的 ICE 连接路径。  <br/> **示例值：** O   | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 |第一个 BSSID|String | 用于连接到网络的第一个终结点的无线 LAN 基本服务集标识符。| |
 | 第二个 BSSID| String|用于连接到网络的第二终结点的无线 LAN 基本服务集标识符。| |
+| 第一个基址 | String | 第一个终结点用于分配媒体中继候选人的接口的 IP 地址。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 10.0.0.10 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二基址 | String | 第二终结点用于分配媒体中继候选人的接口的 IP 地址。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 10.0.0.10 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第一个本地地址 | String | 媒体连接检查结束时用于媒体流的第一个终结点的 IP 地址。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 10.0.0.10 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二本地地址 | String | 在媒体连接检查结束时，第二终结点用于媒体流的 IP 地址。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 10.0.0.10 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第一本地地址类型 | 枚举 <br/>**可能值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第一个本地地址的候选类型。 IceAddrType_Turn 表示中继呼叫。 其余类型指示直接连接。 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二本地地址类型 | 枚举 <br/>**可能值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第二本地地址的候选类型。 IceAddrType_Turn 表示中继呼叫。 其余类型指示直接连接。 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第一个远程地址 | String | 第二终结点的 IP 地址，第二终结点在媒体连接检查结束时，第一个终结点将媒体发送到该终结点。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 10.0.0.10 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二远程地址 | String | 在媒体连接检查结束时第二终结点将媒体发送到的第一个终结点的 IP 地址。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 10.0.0.10 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第一远程地址类型 | 枚举 <br/>**可能值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第一个远程地址的候选类型。 IceAddrType_Turn 表示中继呼叫。 其余值表示直接连接。 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二远程地址类型 | 枚举  <br/>**可能值** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 第二个远程地址的候选类型。 IceAddrType_Turn 表示中继呼叫。 其余值表示直接连接。 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第一个本地网站 | String | 媒体中继服务器看到的第一个终结点的 IP 地址。 这通常是与流的第一个终结点关联的公共 internet IP 地址。 如果由于某些原因，中继无法访问或分配失败，这将是第一个终结点上的本地接口的 IP。 <br/> 这与第一个反身本地 IP 类似，但此信息由传输诊断事件（而不是 QoE）报告。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 104.43.195.251 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二本地网站 | String | 媒体中继服务器看到的第二终结点的 IP 地址。 这通常是与流的第二个终结点关联的公共 internet IP 地址。 如果由于某些原因，中继无法访问或分配失败，这将是第一个终结点上的本地接口的 IP。 <br/> 这与第二个反身本地 IP 类似，但此信息由传输诊断事件（而不是 QoE）报告。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 104.43.195.251 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第一个远程网站 | String | 第二终结点报告的本地站点 IP 地址，并与第一个终结点交换。 <br/> 由于任何原因，第二终结点上的传输诊断事件的额外信息不可用。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 104.43.195.251 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二远程网站 | String | 第一个终结点报告的本地站点 IP 地址，并与第二个终结点交换。 <br/> 额外信息，以防第一个终结点上的传输诊断事件因任何原因不可用。 仅对过去30天的数据可用，并且仅对具有允许 EUII 访问权限的用户可见。 <br/> **示例值：** 104.43.195.251 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第一个本地媒体中继地址 | String | 第一个终结点分配的媒体中继服务器的 Microsoft IP 地址。 <br/> 这与第一个中继 IP 的信息类似，但它由传输诊断事件（而不是 QoE）报告。 <br/> **示例值：** 52.114.5.237 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二个本地媒体中继地址 | String | 第二终结点分配的媒体中继服务器的 Microsoft IP 地址。 <br/> 这与第二个中继 IP 的信息类似，但它由传输诊断事件（而不是 QoE）报告。 <br/> **示例值：** 52.114.5.237 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第一个远程媒体中继地址 | String | 由第二终结点分配并与第一个终结点交换的媒体中继服务器的 Microsoft IP 地址。 <br/> 额外信息，以防第二终结点上的传输诊断事件因任何原因不可用。 <br/> **示例值：** 52.114.5.237 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二个远程媒体中继地址 | String | 由第一个终结点分配并与第二个终结点交换的媒体中继服务器的 Microsoft IP 地址。 <br/> 额外信息，以防第一个终结点上的传输诊断事件因任何原因不可用。 <br/> **示例值：** 52.114.5.237 | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第一传输协议 | 枚举字符串 | 第一个终结点用于发送媒体的通信协议。 <br/>**可能值** <br/>&bull;UDP-多用途 UDP 用于转换和主机分配 <br/>&bull;TurnTCP-TCP 车削分配。 如果指定了代理设置，则使用代理 <br/>&bull;TCPHostPassive-TCP 侦听主机套接字以获取被动连接类型 <br/>&bull;TCPHostActive-使用活动连接类型的 TCP 连接 <br/>&bull;CompoundTCP-上游和下游 TCP 连接的组合。 通常通过 HTTPS 协议。 <br/> | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
+| 第二传输协议 | 枚举字符串 | 第二终结点用于发送媒体的通信协议。 <br/>**可能值** <br/>&bull;UDP-多用途 UDP 用于转换和主机分配 <br/>&bull;TurnTCP-TCP 车削分配。 如果指定了代理设置，则使用代理 <br/>&bull;TCPHostPassive-TCP 侦听主机套接字以获取被动连接类型 <br/>&bull;TCPHostActive-使用活动连接类型的 TCP 连接 <br/>&bull;CompoundTCP-上游和下游 TCP 连接的组合。 通常通过 HTTPS 协议。 <br/> | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
 |**Device**| |||
 | First Capture Dev  | String  | 第一终结点使用的捕获设备的名称。对于：<br/> **音频流**= 用于麦克风的设备 <br/> **视频流**= 相机使用的设备 <br/> **基于视频的屏幕共享流**= 屏幕 scraper <br/> **应用共享流**= 空白 <br/> **示例值：** 耳机式麦克风（Microsoft LifeChat LX-6000）  | &bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
 | Second Capture Dev  | 字符串  | 第二终结点使用的捕获设备的名称。  <br/> **音频流**= 用于麦克风的设备 <br/> **视频流**= 相机使用的设备 <br/> **基于视频的屏幕共享流**= 屏幕 scraper <br/> **应用共享流**= 空白 <br/> **示例值：** 耳机式麦克风（Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享   |
-| First Capture Dev Driver  | 字符串  | 第一终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白  <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
-| Second Capture Dev Driver  | String  | 第二终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白 <br/> **示例值：** Microsoft：10.0.14393。0  | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
+| First Capture Dev Driver  | String  | 第一终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白  <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
+| Second Capture Dev Driver  | 字符串  | 第二终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白 <br/> **示例值：** Microsoft：10.0.14393。0  | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
 | First Render Dev  | String  | 第一终结点使用的呈现设备的名称。对于：<br/> 音频流-用于扬声器的设备 <br/> 视频和基于视频的屏幕共享流-用于显示的设备 <br/> 应用共享流 - 空  <br/> **示例值：** 耳机 Earphone （Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径  <br/>&bull;流是应用程序共享    |
 | Second Render Dev  | String  | 第二终结点使用的呈现设备的名称。对于：<br/> 音频流-用于扬声器的设备 <br/> 视频和基于视频的屏幕共享流-用于显示的设备 <br/> 应用共享流 - 空 <br/> **示例值：** 耳机 Earphone （Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告此数据。 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享     |
 | First Render Dev Driver  | String  | 第一终结点使用的呈现设备驱动器的名称。对于：<br/> 音频流-用于扬声器的驱动程序 <br/> 视频和基于视频的屏幕共享流-用于显示的驱动程序 <br/> 应用共享流 - 空  <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享    |
@@ -218,8 +238,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第一 wi-fi 供应商驱动程序版本  | String  | 第一终结点报告的 Wifi 驱动器的供应商和版本。 <br/> **示例值：** Contoso：15.1.1。0 | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息  |
 | 第二个 Wi-fi 供应商驱动程序版本  | String  | 第二终结点报告的 Wifi 驱动器的供应商和版本。 <br/> **示例值：** Contoso：15.1.1。0 | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息  |
 | 第一 Wi-fi 频道  | String  | 第一终结点使用的 Wifi 频道。  <br/> **示例值：** 10| <br/>&bull;未使用 WiFi <br/>&bull;未报告频道   |
-| 第二个 Wi-fi 频道  | 字符串  | 第二终结点使用的 Wifi 频道。 <br/> **示例值：** 10  | <br/>&bull;未使用 WiFi <br/>&bull;未报告频道  |
-| 第一 Wi-fi 无线电类型  | String  | 第一终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
+| 第二个 Wi-fi 频道  | String  | 第二终结点使用的 Wifi 频道。 <br/> **示例值：** 10  | <br/>&bull;未使用 WiFi <br/>&bull;未报告频道  |
+| 第一 Wi-fi 无线电类型  | 字符串  | 第一终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
 | 第二个 Wi-fi 无线电类型  | String  | 第二终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
 | First DNS Suffix  | 字符串  | 第一终结点报告的与网络适配器关联的 DNS 后缀。 请注意，可能会为任何类型的网络适配器报告此值。 **示例值：** corp<span></span><span></span>.com  | <br/>&bull;终结点未报告此值 <br/>  |
 | Second DNS Suffix  | 字符串  | 第二终结点报告的与网络适配器关联的 DNS 后缀。请注意，可能会为任何类型的网络适配器报告此值。<br/> **示例值：** corp<span></span><span></span>.com   | <br/>&bull;终结点未报告此值  |
@@ -279,6 +299,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 由于 VideoFrameRateAvg，视频较差  | Boolean  | 如果视频流根据视频帧速率（此处列出的 "平均指标阈值"）分类为差，则为 True：[在 "通话质量" 仪表板中流分类](stream-classification-in-call-quality-dashboard.md)。 对于非视频流，将始终为 False。    | &bull;终结点未报告此数据  <br/>&bull;流不是视频流 |
 | VBSS 较差，原因是 VideoPostFecplr  | Boolean  | 如果基于视频 Post 的视频 Post 流将基于视频的屏幕共享流归类为差的 FEC，则为 True：在 "[通话质量" 仪表板中流分类](stream-classification-in-call-quality-dashboard.md)。 对于不基于视频的屏幕共享流，将始终为 False。    | &bull;终结点未报告此数据 <br/>&bull;流不是基于视频的屏幕共享流  |
 | VBSS 较差，原因是 VideoLocalFrameLossPercentageAvg  | Boolean  | 如果基于视频本地帧丢失百分比将基于视频的屏幕共享流归类为差的情况，则为 True： "[通话质量" 仪表板中的 "流分类](stream-classification-in-call-quality-dashboard.md)"。 对于不基于视频的屏幕共享流，将始终为 False。    | &bull;终结点未报告此数据 <br/>&bull;流不是基于视频的屏幕共享流  |
+| 由于冻结而导致视频较差 | Boolean  | 如果视频流基于视频冻结实例被分类为差，则为1：[在通话质量仪表板中流分类](stream-classification-in-call-quality-dashboard.md) | &bull;终结点未报告此数据  <br/>&bull;流不是视频流。 此字段仅特定于 Microsoft 团队。 |
 | VBSS 较差，原因是 VideoFrameRateAvg  | Boolean  | 如果基于视频帧速率对基于视频的屏幕共享流归类为差的情况，则为 True： "[通话质量" 仪表板中的 "流分类](stream-classification-in-call-quality-dashboard.md)"。 对于不基于视频的屏幕共享流，将始终为 False。   | &bull;终结点未报告此数据 <br/>&bull;流不是基于视频的屏幕共享流   |
 | 应用共享较差，原因是 SpoiledTilePercentTotal  | Boolean  | 如果应用程序共享流被分类为基于以下所列的总指标阈值的损坏，则为 True：[在 "通话质量" 仪表板中流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，将始终为 False。   | &bull;终结点未报告此数据  <br/>&bull;流不是应用程序共享流。  |
 | 应用共享较差，原因是 RelativeOneWayAverage  | Boolean  | 如果应用程序共享流被分类为基于以下所列平均指标阈值的相对比较差，则为 True：[在 "通话质量" 仪表板中流分类](stream-classification-in-call-quality-dashboard.md)。 对于非应用程序共享流，将始终为 False。    | &bull;终结点未报告此数据  <br/>&bull;流不是应用程序共享流 |
@@ -300,7 +321,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | Second Feedback Tokens  | 字符串  | 包含带有 boolean 标志的反馈令牌列表的字符串，指示令牌是否由用户通过第二终结点提供反馈。 <br/> **示例值：** {DistortedSpeech： 1;ElectronicFeedback： 1;BackgroundNoise： 1;MuffledSpeech： 1;回音： 1;}  | &bull;第二终结点的用户未提供任何反馈  |
 | First Feedback Has Audio Issue  | 布尔值  | 如果第一终结点的反馈标记指出流包含音频问题，则为 True，否则为 False。   |  |
 | Second Feedback Has Audio Issue  | Boolean  | 如果第二终结点的反馈标记指示流有音频问题，则为 True，否则为 False。    ||
-| First Feedback Has Video Issue  | 布尔值  | 如果第一终结点的反馈标记指示流有视频问题，则为 True，否则为 False。    | |
+| First Feedback Has Video Issue  | Boolean  | 如果第一终结点的反馈标记指示流有视频问题，则为 True，否则为 False。    | |
 | Second Feedback Has Video Issue  | 布尔值  | 如果第二终结点的反馈标记指示流有视频问题，则为 True，否则为 False。    | |
 | 第一反馈有应用共享问题  | Boolean  | 如果第一终结点的反馈标记指示流存在应用共享问题，则为 True。 否则为 False。 | |  
 | 第二反馈有应用共享问题  | Boolean  | 如果第二终结点的反馈标记指示流存在应用共享问题，则为 True。 否则为 False。 | |  
@@ -522,10 +543,12 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Video Poor Due To VideoPostFecplr Count |流的数量 |视频 Post Fec plr 后超过以下所列阈值的视频流的数量：[在 "通话质量" 仪表板中流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Poor Due To VideoLocalFrameLossPercentageAvg Count |流的数量 |视频本地帧损失百分比平均超过以下所列阈值的视频流的数量：[在 "通话质量" 仪表板中流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Poor Due To VideoFrameRateAvg Count |流的数量 |视频帧的平均速率超过以下所列阈值的视频流的数量：[在 "通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
+|由于冻结计数而导致视频较差 |流的数量 | 视频冻结指标超过此处列出的阈值的主视频流的数量。 ["通话质量" 仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 此字段仅特定于 Microsoft 团队 |
 |Video Poor Stream Count |流的数量 |根据此处列出的网络指标被分类为差的视频流的数量。 "[呼叫质量" 仪表板中的 "流分类](stream-classification-in-call-quality-dashboard.md)"。 |
 |Video Good Stream Count |流的数量 |根据此处列出的网络指标被分类为好的视频流的数量：[在 "通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Unclassified Stream Count |流的数量 |根据此处列出的网络指标，没有足够数据分类的视频流的数量：在 "[通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Poor Percentage|百分比 |根据此处列出的网络指标被分类为差的视频流总数的百分比。 "[呼叫质量" 仪表板中的 "流分类](stream-classification-in-call-quality-dashboard.md)"。 |
+|由于冻结而导致视频较差的百分比|百分比 | 由于此处在 "[通话质量" 仪表板中](stream-classification-in-call-quality-dashboard.md)列出的冻结导致的 "视频不正常" 的主视频流的百分比（基于视频的冻结指标）。 此字段仅特定于 Microsoft 团队 |
 |VBSS Stream Count |流的数量 |基于视频的屏幕共享流的数量。 |
 |VBSS Poor Due To VideoPostFecplr Count |流的数量 |视频 Post Fec plr 后超过以下所列阈值的基于视频的屏幕共享流的数量：[在 "通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |VBSS Poor Due To VideoLocalFrameLossPercentageAvg Count |流的数量 |视频本地帧损失百分比平均超过以下所列阈值的基于视频的屏幕共享流的数量：[在 "通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
@@ -641,3 +664,4 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 

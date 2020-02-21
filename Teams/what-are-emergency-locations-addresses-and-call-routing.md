@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - Direct Routing
 description: 了解紧急电话，包括有关紧急地址、紧急呼叫路由和动态紧急呼叫的信息。
-ms.openlocfilehash: 010a1d3afd6ea1fa490b506b82c46c31bf3a4fa2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836672"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161685"
 ---
 # <a name="manage-emergency-calling"></a>管理紧急电话
 
@@ -157,9 +157,9 @@ Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前�
 
 ### <a name="emergency-call-routing"></a>紧急呼叫路由
 
-TeamsEmergencyCallRoutingPolicy 引用了一个联机 PSTN 使用，它必须具有适当直接路由配置才能将紧急呼叫正确路由到相应的 PSTN 网关。 特别是，必须确保紧急拨号字符串有 OnlineVoiceRoute。 有关详细信息，请参阅[配置直接路由](direct-routing-configure.md#configure-voice-routing)。 
+TeamsEmergencyCallRoutingPolicy 引用了一个联机 PSTN 使用，它必须具有适当直接路由配置才能将紧急呼叫正确路由到相应的 PSTN 网关。 特别是，必须确保紧急拨号字符串有 OnlineVoiceRoute。 有关详细信息，请参阅[配置直接路由](direct-routing-configure.md)。 
 
-（注意：在 Skype for Business 服务器中，紧急号码的前缀为 "+"，这需要定义一个语音路线以匹配 "+ 911"）。 团队客户不在 "+" 前预置紧急号码。）
+（注意：团队客户在紧急号码之前预置 "+" 登录，其方式与 Skype for Business 客户端的功能类似，即 + 911。 将在未来的几个月内修改此行为，这样，进行紧急通话的团队将不再发送号码前面的 "+";即911。）
 
 为直接路由用户动态路由紧急电话的功能会有所不同，具体取决于给定国家内的紧急呼叫网络。 提供两种解决方案：
 

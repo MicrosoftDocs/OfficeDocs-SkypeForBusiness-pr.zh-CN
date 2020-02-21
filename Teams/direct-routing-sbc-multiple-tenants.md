@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何配置一个会话边界控制器（SBC）来为多个租户提供服务。
-ms.openlocfilehash: 7bd313c1b0c6d8078ee3ce80b2a08697dc6040e7
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837272"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160726"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -37,7 +37,7 @@ ms.locfileid: "41837272"
 - 管理端到端的通话质量。
 - 为 PSTN 服务单独收取费用。
 
-Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone System）和一个团队客户端，验证手机，并验证可与 Microsoft Phone 系统配合使用的 SBCs。 选择运营商之前，请确保你的选择具有已认证的 SBC，并且可以管理语音质量端到端。
+Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone System）和一个团队客户端。 Microsoft 还会验证手机，并验证可与 Microsoft Phone 系统配合使用的 SBCs。 选择运营商之前，请确保你的选择具有已认证的 SBC，并且可以管理语音质量端到端。
 
 下面是配置方案的技术实现步骤。
 
@@ -215,7 +215,6 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
 -  **开销处理**。 收集和监视从多个逻辑中继收集的干线运行状况数据 SIP 选项，实际上，同一 SBC 和相同的物理干线会减缓路由数据的处理。
  
-
 根据此反馈，Microsoft 将引入新的逻辑来为客户租户设置中继。
 
 引入了两个新实体：
@@ -245,4 +244,22 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
  
 
 请参阅[SBC 供应商的说明](#deploy-and-configure-the-sbc)，了解如何在联系人标头中配置子域的 FQDN 名称。
+
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>设置 muti 故障转移的注意事项 
+
+若要为多租户环境设置故障转移，您需要执行以下操作：
+
+- 对于每个租户，为两个不同的 SBCs 添加 Fqdn。  例如：
+
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
+
+- 在用户的联机语音路由策略中，指定两个 SBCs。  如果一个 SBC 失败，路由策略将把呼叫路由到第二个 SBC。
+
+
+## <a name="see-also"></a>另请参阅
+
+[规划直接路由](direct-routing-plan.md)
+
+[配置直接路由](direct-routing-configure.md)
 

@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接路由的登陆页面
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d146c2188f57dbee3887dd2fd595c1b06a86c30e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836062"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157900"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 
@@ -51,7 +51,7 @@ ms.locfileid: "41836062"
 
 |询问你自己|操作 |
 | :------------|:-------|
-|哪些用户将启用直接路由？ | 有关详细信息，请参阅[为直接路由服务启用用户](direct-routing-configure.md#enable-users-for-direct-routing-service)。 |
+|哪些用户将启用直接路由？ | 有关详细信息，请参阅[为直接路由服务启用用户](direct-routing-configure.md)。 |
 是否有直接路由所需的许可证？ | 有关详细信息，请参阅[许可和其他要求](direct-routing-plan.md#licensing-and-other-requirements)。
 |||
 
@@ -71,8 +71,8 @@ ms.locfileid: "41836062"
 
 |询问你自己|操作 |
 |:------------|:-------|
-| 我需要创建哪些语音路由策略、PSTN 使用和语音路由？ | 有关语音路由信息，请参阅[配置语音路由](direct-routing-configure.md#configure-voice-routing)。
-| 哪些用户将分配给我定义的语音路由策略？ | 请参阅[配置语音路由](direct-routing-configure.md#configure-voice-routing)中的示例。 |
+| 我需要创建哪些语音路由策略、PSTN 使用和语音路由？ | 有关语音路由信息，请参阅[配置语音路由](direct-routing-configure.md)。
+| 哪些用户将分配给我定义的语音路由策略？ | 请参阅[配置语音路由](direct-routing-configure.md)中的示例。 |
 |||
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>使用 TeamsUpgradePolicy 在团队客户端中确保传入呼叫土地

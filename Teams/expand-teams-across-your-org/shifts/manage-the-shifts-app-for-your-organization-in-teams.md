@@ -1,6 +1,6 @@
 ---
 title: 在 Microsoft Teams 中为组织管理 Shifts 应用
-author: kenwith
+author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831164"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161855"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
@@ -30,6 +30,7 @@ ms.locfileid: "41831164"
 > 2019年12月31日生效，Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天，团队包括 "倒班" 应用，用于计划管理，而其他功能将随着时间的推移而推出。 StaffHub 将停止为2019年12月31日的所有用户工作。 任何试图打开 StaffHub 的人都将显示一条消息，指导他们下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
 
 ## <a name="overview-of-shifts"></a>倒班概述
+
 Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步。它首先构建了移动，为团队提供快速、有效的时间管理和沟通。 倒班让一线工作者和他们的经理使用自己的移动设备管理计划和保持联系。 
 
 - 经理负责创建、更新和管理团队的倒班计划。 他们可以向一个人发送消息（"在地面上有溢出"）或整个团队（"区域 GM 在20分钟内送达"）。 他们还可以发送策略文档、新闻公告和视频。 
@@ -49,19 +50,17 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 ### <a name="enable-or-disable-shifts-in-your-organization"></a>启用或禁用组织中的班次
 
-默认情况下，将为组织中的所有团队用户启用倒班。 你可以通过在 Microsoft 团队管理中心的应用权限策略中使用组织范围内的设置来关闭或打开应用组织。
+默认情况下，将为组织中的所有团队用户启用倒班。 你可以在 Microsoft 团队管理中心的 "[管理应用](../../manage-apps.md)" 页面上，关闭或打开组织级别的应用。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **权限策略**"。
-2. 单击 "**组织范围的设置**"。
-3. 在 "**组织范围设置**" 面板的 "已**阻止的应用**" 下，执行下列操作之一：
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **管理应用**"。
+2. 在应用列表中，执行下列操作之一：
 
-    - 若要为你的组织关闭班次，请搜索 "倒班" 应用，然后单击 "**添加**" 以将其添加到 "阻止的应用" 列表。
-    - 若要为你的组织启用班次，请从 "阻止的应用" 列表中删除 "倒班" 应用。
-4. 单击“**保存**”。 
+    - 若要为你的组织关闭班次，请搜索 "倒班" 应用，选择它，然后单击 "**阻止**"。
+    - 若要为你的组织启用倒班，请搜索 "倒班" 应用，选择它，然后单击 "**允许**"。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>启用或禁用组织中特定用户的班次
 
-若要允许或阻止组织中的特定用户使用倒班，请确保在组织范围的设置中为你的组织启用了倒班，然后创建自定义应用权限策略并将其分配给这些用户。 若要了解详细信息，请参阅[管理团队中的应用权限策略](../../teams-app-permission-policies.md)。
+若要允许或阻止组织中的特定用户使用倒班，请确保在 "[管理应用](../../manage-apps.md)" 页面上为你的组织启用了班次，然后创建自定义应用权限策略并将其分配给这些用户。 若要了解详细信息，请参阅[管理团队中的应用权限策略](../../teams-app-permission-policies.md)。
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstlineWorker 应用设置策略固定对团队的倒班
 

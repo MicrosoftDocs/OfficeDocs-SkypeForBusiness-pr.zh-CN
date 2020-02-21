@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本主题，了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: d279792315aec17df10f5c1335306147c7080287
-ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41953773"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160706"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -311,7 +311,7 @@ SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 会话边界控制器和云媒体处理器（没有媒体旁路）或团队客户端与 SBC 之间（如果启用了媒体旁路）之间的直接路由接口，可以使用以下编解码器：
 
 - 非媒体旁路（SBC 到云媒体处理器）：绞丝、711、722、G 729
-- 媒体绕过（SBC 到团队客户端）：绞丝、711、722、729、OPUS
+- 媒体绕过（SBC 到团队客户端）：绞丝、711、722、729
 
 你可以通过从优惠中排除不需要的编解码器来强制使用会话边界控制器上的特定编解码器。
 
