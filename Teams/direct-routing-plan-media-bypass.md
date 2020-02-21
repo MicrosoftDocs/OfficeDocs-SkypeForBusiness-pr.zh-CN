@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本主题，了解如何使用手机系统直接路由规划媒体旁路。
-ms.openlocfilehash: 98f09d00960615c09dca8dcd78275a418d650f3e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835972"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214480"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -317,28 +317,28 @@ UDP/SRTP | 传输中继 | SBC | 50 000-59 999    | 在 SBC 上定义 |
 UDP/SRTP | 媒体处理器 | SBC | 49 152-53 247    | 在 SBC 上定义 |
 | UDP/SRTP | SBC | 媒体处理器 | 在 SBC 上定义 | 49 152-53 247     |
 
-## <a name="considerations-if-you-have-skype-for-business-phones-in-your-network"></a>在网络中使用 Skype for business 电话时的注意事项  
+## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>为媒体绕过和非媒体旁路配置单独的中继  
 
-如果您的网络中有任何使用直接路由的 Skype for Business 终结点（例如，团队用户可以拥有基于 Skype for Business 客户端的3PIP 电话），则为这些用户提供服务的主干上的媒体旁路必须处于关闭状态。
-
-你可以为这些用户创建单独的 trunk，并为其分配联机语音路由策略。
+如果从非媒体旁路迁移到 "媒体绕过" 并希望在将所有使用迁移到媒体绕过之前确认功能，则可以创建单独的主干和单独的联机语音路由策略以路由到媒体旁路主干并分配到特定那些. 
 
 高级别配置步骤：
 
-- 按类型拆分用户-取决于用户是否具有3PIP 电话。
+- 标识要测试媒体绕过的用户。
 
 - 使用不同的 Fqdn 创建两个单独的中继：一个为媒体绕过启用;另一个不是。 
 
   这两个中继指向同一个 SBC。 TLS SIP 信号的端口必须不同。 媒体端口必须相同。
 
-- 根据联机语音路由策略中的用户类型分配正确的主干。
+- 创建新的联机语音路由策略，并将媒体绕过主干分配给与此策略的 PSTN 使用相关联的相应路由。
+
+- 将新的联机语音路由策略分配给已识别测试媒体绕过的用户。
 
 下面的示例演示了此逻辑。
 
 | 组用户 | 用户数 | 在 OVRP 中分配的中继 FQDN | 媒体绕过启用 |
 | :------------ |:----------------- |:--------------|:--------------|
-具有团队客户端和3PIP 手机的用户 | 名 | sbc1.contoso.com:5061 | false | 
-只有团队终结点（包括为团队认证的新电话）的用户 | 980 | sbc2.contoso.com:5060 | true
+具有非媒体旁路主干的用户 | 980 | sbc1.contoso.com:5060 | true
+具有媒体绕过主干的用户 | 名 | sbc2.contoso.com:5061 | false | 
 
 这两个中继都可以指向具有相同公共 IP 地址的同一 SBC。 SBC 的 TLS 信号端口必须不同，如下图所示。 注意你需要确保你的证书支持这两个中继。 在 SAN 中，你需要具有两个名称（**sbc1.contoso.com**和**sbc2.contoso.com**）或具有通配符证书。
 
@@ -354,9 +354,9 @@ UDP/SRTP | 媒体处理器 | SBC | 49 152-53 247    | 在 SBC 上定义 |
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>媒体绕过支持的客户端终结点
 
-所有团队终结点都支持媒体绕过。
+所有团队的桌面客户端和团队电话设备均支持媒体绕过。 
 
-注意对于 web 客户端（Microsoft Edge 中的 "团队" Web 应用、Google Chrome 或 Mozilla Firefox），我们会将调用转换为非旁路，即使它作为绕过调用启动也是如此。 这会自动发生，不需要管理员执行任何操作。 
+对于不支持媒体绕过的所有其他终结点，我们会将该调用转换为非旁路，即使它是绕过呼叫启动的也是如此。 这会自动发生，不需要管理员执行任何操作。 这包括 Skype for Business 3PIP 手机和支持直接路由呼叫的团队 Web 客户端（基于 Chromium、Google Chrome、Mozilla Firefox 的新 Microsoft Edge）。 
  
 ## <a name="see-also"></a>另请参阅
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e9f42d2467a77e35eb9f5a158967357534e86da
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: edd44cbb1e54e811fc646a99362b18a284376953
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153854"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213418"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -111,7 +111,7 @@ _**上次修改的主题：** 2012-09-21_
 
 <div>
 
-## <a name="description"></a>说明
+## <a name="description"></a>Description
 
 建议您键入一个要应用相应的拨号计划的通用可辨识地理位置名称。例如，如果拨号计划的名称是 London.Contoso.com，则建议的说明将为 London。
 
@@ -200,7 +200,7 @@ _**上次修改的主题：** 2012-09-21_
 <thead>
 <tr class="header">
 <th>规则名称</th>
-<th>说明</th>
+<th>Description</th>
 <th>号码模式</th>
 <th>Translation</th>
 <th>示例</th>

@@ -12,16 +12,16 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136990"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -124,7 +124,7 @@ _**上次修改的主题：** 2019-03-22_
 
 2.  等待您看到您的域已由 Microsoft 设置的确认。
 
-3.  在您看到确认后，请使用 Lync 管理中心打开 "外部通信"。 有关详细信息，请参阅[http://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  在您看到确认后，请使用 Lync 管理中心打开 "外部通信"。 有关详细信息，请参阅[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 此顺序非常重要。您必须先设置本地连接，然后才能在 Lync Online 中启用通信。 如果订单已冲销，则在内部部署中<https://pic.lync.com>输入的信息将不会经过。 如果已经为与此域的外部通信设置了 Lync Online，则必须将其关闭，等待24小时，然后重新开始，首先在<https://pic.lync.com>中输入本地信息，然后再打开 Lync Online 的外部通信。
 

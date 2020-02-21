@@ -12,16 +12,16 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57d62e5938fd2d3b3d6966410a99e2f2e106325f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3e95d746d323e803bf7dbc37e8cdaebcdd1d655c
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140315"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -79,7 +79,7 @@ _**上次修改的主题：** 2014-02-07_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>说明</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -147,7 +147,7 @@ _**上次修改的主题：** 2014-02-07_
 </table>
 
 
-可以在 " [Ms-诊断" 标头页](http://msdn.microsoft.com/library/gg132446\(v=office.12\).aspx)上找到诊断错误列表。
+可以在 " [Ms-诊断" 标头页](https://msdn.microsoft.com/library/gg132446\(v=office.12\).aspx)上找到诊断错误列表。
 
 </div>
 
