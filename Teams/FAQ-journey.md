@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ccea644ba1f1221d412d73e6488e8610ca02857
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834492"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160379"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 
@@ -82,7 +82,7 @@ Teams 在 Office 365 套件中提供。 现在 Skype for Business Online 中作�
 
 ### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>Skype for Business Online 停用公告对使用混合配置（Skype for Business Online 和 Skype for Business Server）的组织有何影响？
 
-混用在线和本地配置的客户需要在 2021 年 7 月 31 日停用日期之前将用户从 Skype for Business 网页版迁移至 Microsoft Teams。 在 Skype for Business 网页版停用之后，围绕共存和互操作性原则构建的混合配置的升级路径保留不变。 
+混用在线和本地配置的客户需要在 2021 年 7 月 31 日停用日期之前将用户从 Skype for Business 网页版迁移至 Microsoft Teams。 在 Skype for Business 网页版停用之后，围绕共存和互操作性原则构建的混合配置的升级路径保留不变。 有关详细信息，请访问 “[与 Skype for Business 共存](coexistence-chat-calls-presence.md)”和 “[了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)”。
 
 我们鼓励具有合格订阅的客户使用 [FastTrack](https://fasttrack.microsoft.com/) 协助加入 Teams。
 
