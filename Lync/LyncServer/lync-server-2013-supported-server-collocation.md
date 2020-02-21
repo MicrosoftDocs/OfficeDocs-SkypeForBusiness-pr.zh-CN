@@ -12,20 +12,20 @@ ms:contentKeyID: 48183874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46f19f1244f7be64dd70522497690e44f3165b2f
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 87b59fbb697414530638e46c3b63acea1fdbde02
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142358"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208178"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-collocation-in-lync-server-2013"></a><span data-ttu-id="57df8-102">Lync Server 2013 中支持的服务器并置</span><span class="sxs-lookup"><span data-stu-id="57df8-102">Supported server collocation in Lync Server 2013</span></span>
+# <a name="supported-server-collocation-in-lync-server-2013"></a><span data-ttu-id="ca65b-102">Lync Server 2013 中支持的服务器并置</span><span class="sxs-lookup"><span data-stu-id="ca65b-102">Supported server collocation in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42142358"
 
 <span> </span>
 
-<span data-ttu-id="57df8-103">_**上次修改的主题：** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="57df8-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="ca65b-103">_**上次修改的主题：** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="ca65b-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="57df8-104">Lync Server 2013 支持并置的一些服务器角色和功能。</span><span class="sxs-lookup"><span data-stu-id="57df8-104">Lync Server 2013 supports collocation of some server roles and features.</span></span> <span data-ttu-id="57df8-105">可以并置哪些服务器角色和功能部分取决于是要部署前端池还是 Standard Edition Server。</span><span class="sxs-lookup"><span data-stu-id="57df8-105">Which server roles and features you can collocate depends, in part, on whether you are deploying a Front End pool or a Standard Edition server.</span></span>
+<span data-ttu-id="ca65b-104">Lync Server 2013 支持并置的一些服务器角色和功能。</span><span class="sxs-lookup"><span data-stu-id="ca65b-104">Lync Server 2013 supports collocation of some server roles and features.</span></span> <span data-ttu-id="ca65b-105">可以并置哪些服务器角色和功能部分取决于是要部署前端池还是 Standard Edition Server。</span><span class="sxs-lookup"><span data-stu-id="ca65b-105">Which server roles and features you can collocate depends, in part, on whether you are deploying a Front End pool or a Standard Edition server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="57df8-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="57df8-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ca65b-106">本部分内容</span><span class="sxs-lookup"><span data-stu-id="ca65b-106">In This Section</span></span>
 
-  - [<span data-ttu-id="57df8-107">适用于 Lync Server 2013 的 Enterprise Edition 前端池部署中的服务器并置</span><span class="sxs-lookup"><span data-stu-id="57df8-107">Server collocation in an Enterprise Edition Front End pool deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-an-enterprise-edition-front-end-pool-deployment.md)
+  - [<span data-ttu-id="ca65b-107">适用于 Lync Server 2013 的 Enterprise Edition 前端池部署中的服务器并置</span><span class="sxs-lookup"><span data-stu-id="ca65b-107">Server collocation in an Enterprise Edition Front End pool deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-an-enterprise-edition-front-end-pool-deployment.md)
 
-  - [<span data-ttu-id="57df8-108">适用于 Lync Server 2013 的 Standard Edition server 部署中的服务器并置</span><span class="sxs-lookup"><span data-stu-id="57df8-108">Server collocation in a Standard Edition server deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-a-standard-edition-server-deployment.md)
+  - [<span data-ttu-id="ca65b-108">适用于 Lync Server 2013 的 Standard Edition server 部署中的服务器并置</span><span class="sxs-lookup"><span data-stu-id="ca65b-108">Server collocation in a Standard Edition server deployment for Lync Server 2013</span></span>](lync-server-2013-server-collocation-in-a-standard-edition-server-deployment.md)
 
 </div>
 

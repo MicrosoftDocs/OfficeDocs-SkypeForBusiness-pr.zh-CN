@@ -12,20 +12,20 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e5e2ffa8cd71689039e7f95e2a2ab41c5c28115
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 895cd0832dbf9b19c38a236b23ca02e1be39abda
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142558"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="start-edge-servers-in-lync-server-2013"></a><span data-ttu-id="27091-102">在 Lync Server 2013 中启动边缘服务器</span><span class="sxs-lookup"><span data-stu-id="27091-102">Start Edge Servers in Lync Server 2013</span></span>
+# <a name="start-edge-servers-in-lync-server-2013"></a><span data-ttu-id="4610c-102">在 Lync Server 2013 中启动边缘服务器</span><span class="sxs-lookup"><span data-stu-id="4610c-102">Start Edge Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42142558"
 
 <span> </span>
 
-<span data-ttu-id="27091-103">_**上次修改的主题：** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="27091-103">_**Topic Last Modified:** 2012-01-16_</span></span>
+<span data-ttu-id="4610c-103">_**上次修改的主题：** 2012-01-16_</span><span class="sxs-lookup"><span data-stu-id="4610c-103">_**Topic Last Modified:** 2012-01-16_</span></span>
 
-<span data-ttu-id="27091-104">边缘服务器和负载平衡器设置完成后，需要在每台边缘服务器上启动服务。</span><span class="sxs-lookup"><span data-stu-id="27091-104">After completing the set up of the Edge Servers and load balancers, you need to start the services on each Edge Server.</span></span>
+<span data-ttu-id="4610c-104">边缘服务器和负载平衡器设置完成后，需要在每台边缘服务器上启动服务。</span><span class="sxs-lookup"><span data-stu-id="4610c-104">After completing the set up of the Edge Servers and load balancers, you need to start the services on each Edge Server.</span></span>
 
 <div>
 
-## <a name="to-start-the-services"></a><span data-ttu-id="27091-105">启动服务</span><span class="sxs-lookup"><span data-stu-id="27091-105">To start the services</span></span>
+## <a name="to-start-the-services"></a><span data-ttu-id="4610c-105">启动服务</span><span class="sxs-lookup"><span data-stu-id="4610c-105">To start the services</span></span>
 
-1.  <span data-ttu-id="27091-106">对于每台边缘服务器，在部署向导中，单击“步骤 4: 启动服务”\*\*\*\* 旁边的“运行”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="27091-106">On each Edge Server, in the Deployment Wizard, next to **Step 4: Start Services**, click **Run**.</span></span>
+1.  <span data-ttu-id="4610c-106">对于每台边缘服务器，在部署向导中，单击“步骤 4: 启动服务”\*\*\*\* 旁边的“运行”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4610c-106">On each Edge Server, in the Deployment Wizard, next to **Step 4: Start Services**, click **Run**.</span></span>
 
-2.  <span data-ttu-id="27091-107">在“启动 Lync Server 2013 服务”\*\*\*\* 页上检查服务列表，然后单击“下一步”\*\*\*\* 以启动服务。</span><span class="sxs-lookup"><span data-stu-id="27091-107">On the **Start Lync Server 15 Services** page, review the list of services, and then click **Next** to start the services.</span></span>
+2.  <span data-ttu-id="4610c-107">在“启动 Lync Server 2013 服务”\*\*\*\* 页上检查服务列表，然后单击“下一步”\*\*\*\* 以启动服务。</span><span class="sxs-lookup"><span data-stu-id="4610c-107">On the **Start Lync Server 15 Services** page, review the list of services, and then click **Next** to start the services.</span></span>
 
-3.  <span data-ttu-id="27091-108">启动服务后，单击“完成”\*\*\*\* 关闭向导。</span><span class="sxs-lookup"><span data-stu-id="27091-108">After the services are started, click **Finish** to close the wizard.</span></span>
+3.  <span data-ttu-id="4610c-108">启动服务后，单击“完成”\*\*\*\* 关闭向导。</span><span class="sxs-lookup"><span data-stu-id="4610c-108">After the services are started, click **Finish** to close the wizard.</span></span>
 
-4.  <span data-ttu-id="27091-109">在“步骤 4: 启动服务”\*\*\*\* 下，单击“服务状态(可选)”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="27091-109">Under **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
+4.  <span data-ttu-id="4610c-109">在“步骤 4: 启动服务”\*\*\*\* 下，单击“服务状态(可选)”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="4610c-109">Under **Step 4: Start Services**, click **Services Status (Optional)**.</span></span>
 
-5.  <span data-ttu-id="27091-110">在服务器上的 "**服务**" Microsoft 管理控制台（MMC）中，验证所有 Lync server 2013 服务是否正在运行。</span><span class="sxs-lookup"><span data-stu-id="27091-110">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
+5.  <span data-ttu-id="4610c-110">在服务器上的 "**服务**" Microsoft 管理控制台（MMC）中，验证所有 Lync server 2013 服务是否正在运行。</span><span class="sxs-lookup"><span data-stu-id="4610c-110">In the **Services** Microsoft Management Console (MMC) on the server, verify that all of the Lync Server 2013 services are running.</span></span>
 
 </div>
 

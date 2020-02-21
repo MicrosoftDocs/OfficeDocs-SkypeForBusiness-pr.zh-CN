@@ -12,20 +12,20 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 579bd9a2131a177fbece81bdbceec343e73edc89
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 66f2489b0ffaabc3744d92b38bcbf71ffcd84591
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152024"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205698"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a><span data-ttu-id="d448e-102">在 Lync Server 2013 中创建带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="d448e-102">Create bandwidth policy profiles in Lync Server 2013</span></span>
+# <a name="create-bandwidth-policy-profiles-in-lync-server-2013"></a><span data-ttu-id="2c357-102">在 Lync Server 2013 中创建带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="2c357-102">Create bandwidth policy profiles in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "42152024"
 
 <span> </span>
 
-<span data-ttu-id="d448e-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="d448e-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="2c357-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="2c357-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="d448e-p101">**“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。带宽策略应用于**“带宽策略配置文件”，后者可以应用于多个网络站点以进行呼叫允许控制。</span><span class="sxs-lookup"><span data-stu-id="d448e-p101">*Bandwidth policies* define limitations on bandwidth usage for real-time audio and video modalities. Bandwidth policies are applied to *bandwidth policy profiles*, which can be applied to multiple network sites for call admission control.</span></span>
+<span data-ttu-id="2c357-p101">**“带宽策略”定义对实时音频和视频内容的带宽使用量的限制。带宽策略应用于**“带宽策略配置文件”，后者可以应用于多个网络站点以进行呼叫允许控制。</span><span class="sxs-lookup"><span data-stu-id="2c357-p101">*Bandwidth policies* define limitations on bandwidth usage for real-time audio and video modalities. Bandwidth policies are applied to *bandwidth policy profiles*, which can be applied to multiple network sites for call admission control.</span></span>
 
-<span data-ttu-id="d448e-106">有关应在 CAC 部署中设置的带宽限制的准则，请参阅规划文档中的在[Lync Server 2013 中定义呼叫允许控制的要求](lync-server-2013-defining-your-requirements-for-call-admission-control.md)。</span><span class="sxs-lookup"><span data-stu-id="d448e-106">For guidelines about what bandwidth limits you should set in your CAC deployment, see [Defining your requirements for call admission control in Lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="2c357-106">有关应在 CAC 部署中设置的带宽限制的准则，请参阅规划文档中的在[Lync Server 2013 中定义呼叫允许控制的要求](lync-server-2013-defining-your-requirements-for-call-admission-control.md)。</span><span class="sxs-lookup"><span data-stu-id="2c357-106">For guidelines about what bandwidth limits you should set in your CAC deployment, see [Defining your requirements for call admission control in Lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) in the Planning documentation.</span></span>
 
-<span data-ttu-id="d448e-107">有关使用带宽策略和策略配置文件的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="d448e-107">For details about working with bandwidth policies and policy profiles, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="2c357-107">有关使用带宽策略和策略配置文件的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：</span><span class="sxs-lookup"><span data-stu-id="2c357-107">For details about working with bandwidth policies and policy profiles, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - [<span data-ttu-id="d448e-108">新 CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="d448e-108">New-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)
+  - [<span data-ttu-id="2c357-108">新 CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="2c357-108">New-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)
 
-  - [<span data-ttu-id="d448e-109">CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="d448e-109">Get-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
+  - [<span data-ttu-id="2c357-109">CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="2c357-109">Get-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 
-  - [<span data-ttu-id="d448e-110">CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="d448e-110">Set-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)
+  - [<span data-ttu-id="2c357-110">CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="2c357-110">Set-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)
 
-  - [<span data-ttu-id="d448e-111">CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="d448e-111">Remove-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
+  - [<span data-ttu-id="2c357-111">CsNetworkBandwidthPolicyProfile</span><span class="sxs-lookup"><span data-stu-id="2c357-111">Remove-CsNetworkBandwidthPolicyProfile</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-<span data-ttu-id="d448e-112">以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。</span><span class="sxs-lookup"><span data-stu-id="d448e-112">The example policies created in the following procedure set limits for overall audio traffic, individual audio sessions, overall video traffic, and individual video sessions.</span></span> <span data-ttu-id="d448e-113">例如，5Mb\_链路带宽策略配置文件将设置以下限制：</span><span class="sxs-lookup"><span data-stu-id="d448e-113">For example, the 5Mb\_Link bandwidth policy profile sets the following limits:</span></span>
+<span data-ttu-id="2c357-112">以下过程中创建的示例策略会为音频总流量、各个音频会话、视频总流量和各个视频会话设置限制。</span><span class="sxs-lookup"><span data-stu-id="2c357-112">The example policies created in the following procedure set limits for overall audio traffic, individual audio sessions, overall video traffic, and individual video sessions.</span></span> <span data-ttu-id="2c357-113">例如，5Mb\_链路带宽策略配置文件将设置以下限制：</span><span class="sxs-lookup"><span data-stu-id="2c357-113">For example, the 5Mb\_Link bandwidth policy profile sets the following limits:</span></span>
 
-  - <span data-ttu-id="d448e-114">音频限制：2,000 kbps</span><span class="sxs-lookup"><span data-stu-id="d448e-114">Audio Limit: 2,000 kbps</span></span>
+  - <span data-ttu-id="2c357-114">音频限制：2,000 kbps</span><span class="sxs-lookup"><span data-stu-id="2c357-114">Audio Limit: 2,000 kbps</span></span>
 
-  - <span data-ttu-id="d448e-115">音频会话限制：200 kbps</span><span class="sxs-lookup"><span data-stu-id="d448e-115">Audio Session Limit: 200 kbps</span></span>
+  - <span data-ttu-id="2c357-115">音频会话限制：200 kbps</span><span class="sxs-lookup"><span data-stu-id="2c357-115">Audio Session Limit: 200 kbps</span></span>
 
-  - <span data-ttu-id="d448e-116">视频限制：1,400 kbps</span><span class="sxs-lookup"><span data-stu-id="d448e-116">Video Limit: 1,400 kbps</span></span>
+  - <span data-ttu-id="2c357-116">视频限制：1,400 kbps</span><span class="sxs-lookup"><span data-stu-id="2c357-116">Video Limit: 1,400 kbps</span></span>
 
-  - <span data-ttu-id="d448e-117">视频会话限制：700 kbps</span><span class="sxs-lookup"><span data-stu-id="d448e-117">Video Session Limit: 700 kbps</span></span>
+  - <span data-ttu-id="2c357-117">视频会话限制：700 kbps</span><span class="sxs-lookup"><span data-stu-id="2c357-117">Video Session Limit: 700 kbps</span></span>
 
 <div class=" ">
 
 
 > [!NOTE]  
-> <span data-ttu-id="d448e-p103">最小音频会话限制值为 40 kbps。最小视频会话限制值为 100 kbps。</span><span class="sxs-lookup"><span data-stu-id="d448e-p103">The minimum Audio Session Limit value is 40 kbps. The minimum Video Session Limit value is 100 kbps.</span></span>
+> <span data-ttu-id="2c357-p103">最小音频会话限制值为 40 kbps。最小视频会话限制值为 100 kbps。</span><span class="sxs-lookup"><span data-stu-id="2c357-p103">The minimum Audio Session Limit value is 40 kbps. The minimum Video Session Limit value is 100 kbps.</span></span>
 
 
 
@@ -73,11 +73,11 @@ ms.locfileid: "42152024"
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a><span data-ttu-id="d448e-120">使用命令行管理程序创建带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="d448e-120">To create bandwidth policy profiles by using Management Shell</span></span>
+## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a><span data-ttu-id="2c357-120">使用命令行管理程序创建带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="2c357-120">To create bandwidth policy profiles by using Management Shell</span></span>
 
-1.  <span data-ttu-id="d448e-121">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="d448e-121">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="2c357-121">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2c357-121">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="d448e-p104">对于要创建的每个带宽策略配置文件，请运行 New-CsNetworkBandwidthPolicyProfile cmdlet。例如，运行：</span><span class="sxs-lookup"><span data-stu-id="d448e-p104">For each bandwidth policy profile that you want to create, run the New-CsNetworkBandwidthPolicyProfile cmdlet. For example, run:</span></span>
+2.  <span data-ttu-id="2c357-p104">对于要创建的每个带宽策略配置文件，请运行 New-CsNetworkBandwidthPolicyProfile cmdlet。例如，运行：</span><span class="sxs-lookup"><span data-stu-id="2c357-p104">For each bandwidth policy profile that you want to create, run the New-CsNetworkBandwidthPolicyProfile cmdlet. For example, run:</span></span>
     
        ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400  -VideoBWSessionLimit 700
@@ -99,31 +99,31 @@ ms.locfileid: "42152024"
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a><span data-ttu-id="d448e-124">使用 Lync Server 控制面板创建带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="d448e-124">To create bandwidth policy profiles by using Lync Server Control Panel</span></span>
+## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a><span data-ttu-id="2c357-124">使用 Lync Server 控制面板创建带宽策略配置文件</span><span class="sxs-lookup"><span data-stu-id="2c357-124">To create bandwidth policy profiles by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="d448e-125">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="d448e-125">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="d448e-126">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="d448e-126">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+1.  <span data-ttu-id="2c357-125">打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。</span><span class="sxs-lookup"><span data-stu-id="2c357-125">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="2c357-126">有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。</span><span class="sxs-lookup"><span data-stu-id="2c357-126">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  <span data-ttu-id="d448e-127">在左侧导航栏中，单击“网络配置”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="d448e-127">In the left navigation bar, click **Network Configuration**.</span></span>
+2.  <span data-ttu-id="2c357-127">在左侧导航栏中，单击“网络配置”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2c357-127">In the left navigation bar, click **Network Configuration**.</span></span>
 
-3.  <span data-ttu-id="d448e-128">单击“策略配置文件”\*\*\*\* 导航按钮。</span><span class="sxs-lookup"><span data-stu-id="d448e-128">Click the **Policy Profile** navigation button.</span></span>
+3.  <span data-ttu-id="2c357-128">单击“策略配置文件”\*\*\*\* 导航按钮。</span><span class="sxs-lookup"><span data-stu-id="2c357-128">Click the **Policy Profile** navigation button.</span></span>
 
-4.  <span data-ttu-id="d448e-129">单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="d448e-129">Click **New**.</span></span>
+4.  <span data-ttu-id="2c357-129">单击“新建”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2c357-129">Click **New**.</span></span>
 
-5.  <span data-ttu-id="d448e-130">在“新建策略配置文件”\*\*\*\* 页上，单击“名称”\*\*\*\*，然后键入带宽策略配置文件的名称。</span><span class="sxs-lookup"><span data-stu-id="d448e-130">On the **New Policy Profile** page, click **Name** and then type a name for the bandwidth policy profile.</span></span>
+5.  <span data-ttu-id="2c357-130">在“新建策略配置文件”\*\*\*\* 页上，单击“名称”\*\*\*\*，然后键入带宽策略配置文件的名称。</span><span class="sxs-lookup"><span data-stu-id="2c357-130">On the **New Policy Profile** page, click **Name** and then type a name for the bandwidth policy profile.</span></span>
 
-6.  <span data-ttu-id="d448e-131">单击“音频限制”\*\*\*\*，然后键入允许的所有音频会话组合的最大 kbps 数。</span><span class="sxs-lookup"><span data-stu-id="d448e-131">Click **Audio limit**, and then type in the maximum number of kbps to allow for all audio sessions combined.</span></span>
+6.  <span data-ttu-id="2c357-131">单击“音频限制”\*\*\*\*，然后键入允许的所有音频会话组合的最大 kbps 数。</span><span class="sxs-lookup"><span data-stu-id="2c357-131">Click **Audio limit**, and then type in the maximum number of kbps to allow for all audio sessions combined.</span></span>
 
-7.  <span data-ttu-id="d448e-132">单击“音频会话限制”\*\*\*\*，然后键入允许的每个单独音频会话的最大 kbps 数。</span><span class="sxs-lookup"><span data-stu-id="d448e-132">Click **Audio session limit**, and then type in the maximum number of kbps to allow for each individual audio session.</span></span>
+7.  <span data-ttu-id="2c357-132">单击“音频会话限制”\*\*\*\*，然后键入允许的每个单独音频会话的最大 kbps 数。</span><span class="sxs-lookup"><span data-stu-id="2c357-132">Click **Audio session limit**, and then type in the maximum number of kbps to allow for each individual audio session.</span></span>
 
-8.  <span data-ttu-id="d448e-133">单击“视频限制”\*\*\*\*，然后键入允许的所有视频会话组合的最大 kbps 数。</span><span class="sxs-lookup"><span data-stu-id="d448e-133">Click **Video limit**, and then type in the maximum number of kbps to allow for all video sessions combined.</span></span>
+8.  <span data-ttu-id="2c357-133">单击“视频限制”\*\*\*\*，然后键入允许的所有视频会话组合的最大 kbps 数。</span><span class="sxs-lookup"><span data-stu-id="2c357-133">Click **Video limit**, and then type in the maximum number of kbps to allow for all video sessions combined.</span></span>
 
-9.  <span data-ttu-id="d448e-134">单击“视频会话限制”\*\*\*\*，然后键入允许的每个单独视频会话的最大 kbps 数。</span><span class="sxs-lookup"><span data-stu-id="d448e-134">Click **Video session limit**, and then type in the maximum number of kbps to allow for each individual video session.</span></span>
+9.  <span data-ttu-id="2c357-134">单击“视频会话限制”\*\*\*\*，然后键入允许的每个单独视频会话的最大 kbps 数。</span><span class="sxs-lookup"><span data-stu-id="2c357-134">Click **Video session limit**, and then type in the maximum number of kbps to allow for each individual video session.</span></span>
 
-10. <span data-ttu-id="d448e-135">（可选）单击“说明”\*\*\*\*，然后键入其他信息来说明该带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="d448e-135">Optionally, click **Description**, and then type additional information to describe this bandwidth policy profile.</span></span>
+10. <span data-ttu-id="2c357-135">（可选）单击“说明”\*\*\*\*，然后键入其他信息来说明该带宽策略配置文件。</span><span class="sxs-lookup"><span data-stu-id="2c357-135">Optionally, click **Description**, and then type additional information to describe this bandwidth policy profile.</span></span>
 
-11. <span data-ttu-id="d448e-136">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="d448e-136">Click **Commit**.</span></span>
+11. <span data-ttu-id="2c357-136">单击“提交”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="2c357-136">Click **Commit**.</span></span>
 
-12. <span data-ttu-id="d448e-137">要完成为拓扑创建带宽策略配置文件，请为其他带宽策略配置文件的设置重复步骤 4 至步骤 11。</span><span class="sxs-lookup"><span data-stu-id="d448e-137">To finish creating bandwidth policy profiles for your topology, repeat steps 4 through 11 with settings for other bandwidth policy profiles.</span></span>
+12. <span data-ttu-id="2c357-137">要完成为拓扑创建带宽策略配置文件，请为其他带宽策略配置文件的设置重复步骤 4 至步骤 11。</span><span class="sxs-lookup"><span data-stu-id="2c357-137">To finish creating bandwidth policy profiles for your topology, repeat steps 4 through 11 with settings for other bandwidth policy profiles.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34d780cd5843d69bc653cd37662c1d9332dc1fc5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 597f331ba95ee563155fdabc6b95d35367d12080
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154344"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42209159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a><span data-ttu-id="52513-102">在 Lync Server 2013 拓扑生成器中定义和配置拓扑</span><span class="sxs-lookup"><span data-stu-id="52513-102">Define and configure a topology in Topology Builder for Lync Server 2013</span></span>
+# <a name="define-and-configure-a-topology-in-topology-builder-for-lync-server-2013"></a><span data-ttu-id="525ad-102">在 Lync Server 2013 拓扑生成器中定义和配置拓扑</span><span class="sxs-lookup"><span data-stu-id="525ad-102">Define and configure a topology in Topology Builder for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "42154344"
 
 <span> </span>
 
-<span data-ttu-id="52513-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="52513-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="525ad-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="525ad-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="52513-104">运行拓扑生成器以定义新的拓扑或修改现有拓扑不需要本地管理员或有权限的域组的成员身份。</span><span class="sxs-lookup"><span data-stu-id="52513-104">Running Topology Builder to define a new topology or to modify an existing topology does not require membership in a local administrator or privileged domain group.</span></span> <span data-ttu-id="52513-105">拓扑生成器将指导您完成定义您的企业版前端池或标准版的拓扑所需的步骤，具体取决于您的配置要求。</span><span class="sxs-lookup"><span data-stu-id="52513-105">Topology Builder guides you through the steps necessary to define your topology for an Enterprise Edition Front End pool or a Standard Edition, based on your configuration requirements.</span></span>
+<span data-ttu-id="525ad-104">运行拓扑生成器以定义新的拓扑或修改现有拓扑不需要本地管理员或有权限的域组的成员身份。</span><span class="sxs-lookup"><span data-stu-id="525ad-104">Running Topology Builder to define a new topology or to modify an existing topology does not require membership in a local administrator or privileged domain group.</span></span> <span data-ttu-id="525ad-105">拓扑生成器将指导您完成定义您的企业版前端池或标准版的拓扑所需的步骤，具体取决于您的配置要求。</span><span class="sxs-lookup"><span data-stu-id="525ad-105">Topology Builder guides you through the steps necessary to define your topology for an Enterprise Edition Front End pool or a Standard Edition, based on your configuration requirements.</span></span>
 
-<span data-ttu-id="52513-106">您必须使用拓扑生成器完成并发布拓扑，然后才能在服务器上安装 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="52513-106">You must use Topology Builder to complete and publish the topology before you can install Lync Server 2013 on servers.</span></span> <span data-ttu-id="52513-107">以下过程包括定义新拓扑所需的步骤。</span><span class="sxs-lookup"><span data-stu-id="52513-107">The following procedure includes the steps required to define a new topology.</span></span>
+<span data-ttu-id="525ad-106">您必须使用拓扑生成器完成并发布拓扑，然后才能在服务器上安装 Lync Server 2013。</span><span class="sxs-lookup"><span data-stu-id="525ad-106">You must use Topology Builder to complete and publish the topology before you can install Lync Server 2013 on servers.</span></span> <span data-ttu-id="525ad-107">以下过程包括定义新拓扑所需的步骤。</span><span class="sxs-lookup"><span data-stu-id="525ad-107">The following procedure includes the steps required to define a new topology.</span></span>
 
 <div>
 
-## <a name="to-define-a-topology"></a><span data-ttu-id="52513-108">定义拓扑</span><span class="sxs-lookup"><span data-stu-id="52513-108">To define a topology</span></span>
+## <a name="to-define-a-topology"></a><span data-ttu-id="525ad-108">定义拓扑</span><span class="sxs-lookup"><span data-stu-id="525ad-108">To define a topology</span></span>
 
-1.  <span data-ttu-id="52513-109">启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。</span><span class="sxs-lookup"><span data-stu-id="52513-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+1.  <span data-ttu-id="525ad-109">启动拓扑生成器：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server 拓扑生成器**"。</span><span class="sxs-lookup"><span data-stu-id="525ad-109">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
 
-2.  <span data-ttu-id="52513-110">在拓扑生成器中，选择 "**新建拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="52513-110">In Topology Builder, select **New Topology**.</span></span> <span data-ttu-id="52513-111">系统将提示您输入用于保存拓扑的位置和文件名。</span><span class="sxs-lookup"><span data-stu-id="52513-111">You are prompted for a location and file name for saving the topology.</span></span> <span data-ttu-id="52513-112">为拓扑文件指定一个有意义的名称，并接受默认扩展名 tbxml。</span><span class="sxs-lookup"><span data-stu-id="52513-112">Give the topology file a meaningful name and accept the default extension of .tbxml.</span></span> <span data-ttu-id="52513-113">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="52513-113">Click **OK**.</span></span>
+2.  <span data-ttu-id="525ad-110">在拓扑生成器中，选择 "**新建拓扑**"。</span><span class="sxs-lookup"><span data-stu-id="525ad-110">In Topology Builder, select **New Topology**.</span></span> <span data-ttu-id="525ad-111">系统将提示您输入用于保存拓扑的位置和文件名。</span><span class="sxs-lookup"><span data-stu-id="525ad-111">You are prompted for a location and file name for saving the topology.</span></span> <span data-ttu-id="525ad-112">为拓扑文件指定一个有意义的名称，并接受默认扩展名 tbxml。</span><span class="sxs-lookup"><span data-stu-id="525ad-112">Give the topology file a meaningful name and accept the default extension of .tbxml.</span></span> <span data-ttu-id="525ad-113">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="525ad-113">Click **OK**.</span></span>
 
-3.  <span data-ttu-id="52513-114">导航到要在其中保存新的拓扑 XML 文件的位置，输入该文件的名称，然后单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="52513-114">Navigate to the location where you want to save the new topology XML file, enter a name for the file, and then click **Save**.</span></span>
+3.  <span data-ttu-id="525ad-114">导航到要在其中保存新的拓扑 XML 文件的位置，输入该文件的名称，然后单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="525ad-114">Navigate to the location where you want to save the new topology XML file, enter a name for the file, and then click **Save**.</span></span>
 
-4.  <span data-ttu-id="52513-115">在 "**定义主域"** 页面上，输入您的组织的主要 SIP 域的名称，然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="52513-115">On the **Define the primary domain** page, enter the name of the primary SIP domain for your organization, and then click **Next**.</span></span>
+4.  <span data-ttu-id="525ad-115">在 "**定义主域"** 页面上，输入您的组织的主要 SIP 域的名称，然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="525ad-115">On the **Define the primary domain** page, enter the name of the primary SIP domain for your organization, and then click **Next**.</span></span>
 
-5.  <span data-ttu-id="52513-116">在 "**指定其他支持的域**" 页上，输入其他域的名称（如果有），然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="52513-116">On the **Specify additional supported domains** page, enter the names of additional domains, if any, and then click **Next**.</span></span>
+5.  <span data-ttu-id="525ad-116">在 "**指定其他支持的域**" 页上，输入其他域的名称（如果有），然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="525ad-116">On the **Specify additional supported domains** page, enter the names of additional domains, if any, and then click **Next**.</span></span>
 
-6.  <span data-ttu-id="52513-117">在 "**定义第一张网站**" 页上，为第一个网站输入名称和说明，然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="52513-117">On the **Define the first site** page, enter a name and a description for the first site, and then click **Next**.</span></span>
+6.  <span data-ttu-id="525ad-117">在 "**定义第一张网站**" 页上，为第一个网站输入名称和说明，然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="525ad-117">On the **Define the first site** page, enter a name and a description for the first site, and then click **Next**.</span></span>
 
-7.  <span data-ttu-id="52513-118">在 "**指定网站详细信息**" 页上，输入网站的位置信息，然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="52513-118">On the **Specify site details** page, enter the location information for the site, and then click **Next**.</span></span>
+7.  <span data-ttu-id="525ad-118">在 "**指定网站详细信息**" 页上，输入网站的位置信息，然后单击 "**下一步**"。</span><span class="sxs-lookup"><span data-stu-id="525ad-118">On the **Specify site details** page, enter the location information for the site, and then click **Next**.</span></span>
 
-8.  <span data-ttu-id="52513-119">在 "**已成功定义新拓扑**" 页上，确保选中了 "**关闭此向导时打开新的前端向导**" 复选框，然后单击 "**完成**"。</span><span class="sxs-lookup"><span data-stu-id="52513-119">On the **New topology was successfully defined** page, make sure the **Open the New Front End Wizard when this wizard closes** check box is selected, and then click **Finish**.</span></span>
+8.  <span data-ttu-id="525ad-119">在 "**已成功定义新拓扑**" 页上，确保选中了 "**关闭此向导时打开新的前端向导**" 复选框，然后单击 "**完成**"。</span><span class="sxs-lookup"><span data-stu-id="525ad-119">On the **New topology was successfully defined** page, make sure the **Open the New Front End Wizard when this wizard closes** check box is selected, and then click **Finish**.</span></span>
 
-<span data-ttu-id="52513-120">定义并保存拓扑之后，使用新的前端向导为网站定义前端池或 Standard Edition 服务器。</span><span class="sxs-lookup"><span data-stu-id="52513-120">After you’ve defined and saved the topology, use the New Front End Wizard to define a Front End pool or Standard Edition server for your site.</span></span> <span data-ttu-id="52513-121">有关详细信息，请参阅[在 Lync server 2013 中定义和配置前端池或 Standard Edition server](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)。</span><span class="sxs-lookup"><span data-stu-id="52513-121">For details, see [Define and configure a Front End pool or Standard Edition server in Lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md).</span></span>
+<span data-ttu-id="525ad-120">定义并保存拓扑之后，使用新的前端向导为网站定义前端池或 Standard Edition 服务器。</span><span class="sxs-lookup"><span data-stu-id="525ad-120">After you’ve defined and saved the topology, use the New Front End Wizard to define a Front End pool or Standard Edition server for your site.</span></span> <span data-ttu-id="525ad-121">有关详细信息，请参阅[在 Lync server 2013 中定义和配置前端池或 Standard Edition server](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md)。</span><span class="sxs-lookup"><span data-stu-id="525ad-121">For details, see [Define and configure a Front End pool or Standard Edition server in Lync Server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md).</span></span>
 
 </div>
 

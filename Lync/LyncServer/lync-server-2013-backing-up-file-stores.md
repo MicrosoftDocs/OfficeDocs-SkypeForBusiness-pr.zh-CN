@@ -12,20 +12,20 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b75a0de9f308bd660b19168480add8006ff1995
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: cceaffb2ecf0ac1b133e01bd04f50f9950cc0dec
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146635"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205828"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-file-stores-in-lync-server-2013"></a><span data-ttu-id="aa830-102">在 Lync Server 2013 中备份文件存储</span><span class="sxs-lookup"><span data-stu-id="aa830-102">Backing up file stores in Lync Server 2013</span></span>
+# <a name="backing-up-file-stores-in-lync-server-2013"></a><span data-ttu-id="c1ddc-102">在 Lync Server 2013 中备份文件存储</span><span class="sxs-lookup"><span data-stu-id="c1ddc-102">Backing up file stores in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42146635"
 
 <span> </span>
 
-<span data-ttu-id="aa830-103">_**上次修改的主题：** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="aa830-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="c1ddc-103">_**上次修改的主题：** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="c1ddc-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="aa830-104">对 Lync Server 文件存储进行备份时，将包括 Lync Server 组件使用的所有文件和文件夹。</span><span class="sxs-lookup"><span data-stu-id="aa830-104">Backing up the Lync Server File Stores includes all the files and folders used by Lync Server components.</span></span>
+<span data-ttu-id="c1ddc-104">对 Lync Server 文件存储进行备份时，将包括 Lync Server 组件使用的所有文件和文件夹。</span><span class="sxs-lookup"><span data-stu-id="c1ddc-104">Backing up the Lync Server File Stores includes all the files and folders used by Lync Server components.</span></span>
 
 <div>
 
-## <a name="to-back-up-file-stores"></a><span data-ttu-id="aa830-105">备份文件存储</span><span class="sxs-lookup"><span data-stu-id="aa830-105">To back up File Stores</span></span>
+## <a name="to-back-up-file-stores"></a><span data-ttu-id="c1ddc-105">备份文件存储</span><span class="sxs-lookup"><span data-stu-id="c1ddc-105">To back up File Stores</span></span>
 
-1.  <span data-ttu-id="aa830-106">若要查找 Lync Server 文件存储的特定位置，请打开拓扑生成器并查看 "**文件存储**" 节点。</span><span class="sxs-lookup"><span data-stu-id="aa830-106">To find the specific locations of your Lync Server File Stores, open Topology Builder and look in the **File stores** node.</span></span>
+1.  <span data-ttu-id="c1ddc-106">若要查找 Lync Server 文件存储的特定位置，请打开拓扑生成器并查看 "**文件存储**" 节点。</span><span class="sxs-lookup"><span data-stu-id="c1ddc-106">To find the specific locations of your Lync Server File Stores, open Topology Builder and look in the **File stores** node.</span></span>
 
-2.  <span data-ttu-id="aa830-107">使用 Robocopy 或另一个文件系统管理工具将每个文件存储复制\\到 $Backup 文件存储。</span><span class="sxs-lookup"><span data-stu-id="aa830-107">Use Robocopy or another file system management tool to copy each File Store to $Backup\\filestore.</span></span>
+2.  <span data-ttu-id="c1ddc-107">使用 Robocopy 或另一个文件系统管理工具将每个文件存储复制\\到 $Backup 文件存储。</span><span class="sxs-lookup"><span data-stu-id="c1ddc-107">Use Robocopy or another file system management tool to copy each File Store to $Backup\\filestore.</span></span>
 
 </div>
 
