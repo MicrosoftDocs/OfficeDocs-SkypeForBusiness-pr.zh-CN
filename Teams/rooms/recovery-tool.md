@@ -13,16 +13,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文介绍了如何使用 Microsoft 团队聊天室的恢复工具，使用该工具可以将过时系统置于受支持状态。
-ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 755a85c9013d160197c8a8d57f74ef18b207e052
+ms.sourcegitcommit: 3d393ceded4d64963411cfdc96931952d480ded5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831174"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225276"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 会议室恢复工具
 
-本文介绍了如何使用 Microsoft 团队聊天室的恢复工具，使用该工具可以将过时系统置于受支持状态。 当 Microsoft 团队聊天室控制台显示 "系统配置已过期" 错误或执行按钮重置[出厂还原](https://docs.microsoft.com/microsoftteams/room-systems/rooms-operations#microsoft-teams-rooms-reset-factory-restore)之前，应应用此工具。
+本文介绍了如何使用 Microsoft 团队聊天室的恢复工具，使用该工具可以将过时系统置于受支持状态。 当 Microsoft 团队聊天室控制台显示 "系统配置已过期" 错误或执行按钮重置[出厂还原](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)之前，应应用此工具。
 
 ## <a name="prerequisites"></a>先决条件
 
