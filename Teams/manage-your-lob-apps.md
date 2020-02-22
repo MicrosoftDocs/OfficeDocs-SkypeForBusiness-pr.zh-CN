@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何让自定义团队应用从开发到部署。
-ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161798"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229932"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>管理 Microsoft 团队中的业务线应用
 
@@ -101,13 +101,7 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 ## <a name="step-3-upload-to-the-tenant-app-catalog"></a>步骤3：上传到租户应用目录
 
-若要让租户应用商店中的用户可以使用该应用，请上载该应用。 你可以<a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">使用团队桌面客户端</a>或 Microsoft 团队管理中心的 "[管理应用](manage-apps.md)" 页面执行此操作。
-
-下面是 "团队桌面客户端" 中的 "上载" 选项的屏幕截图。
-
-!["应用" 页面的屏幕截图](media/manage-your-lob-apps-store.png)
-
-下面是 Microsoft 团队管理中心的 "**管理应用**" 页面上的 "上载" 选项的屏幕截图。
+若要让租户应用商店中的用户可以使用该应用，请上载该应用。 你可以在 Microsoft 团队管理中心的 "[管理应用](manage-apps.md)" 页面上执行此操作。
 
 ![管理中心中 "管理应用" 页面的屏幕截图](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -131,6 +125,8 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 若要更新应用，开发人员应继续执行[步骤 1](#step-1-develop-and-test)和[步骤 2](#step-2-validate-in-production)。
 
-你可以通过租户应用目录更新应用。 若要执行此操作，请在团队桌面客户端中，转到为**租户&gt;名称生成&lt;的****应用** > ，然后单击 **...** 在应用的右上角，然后单击 "**更新**"。 执行此操作将替换租户应用程序目录中的现有应用，并且所有权限策略和设置策略都将对已更新的应用保持强制。 
+你可以通过租户应用目录更新应用。 若要执行此操作，请在 Microsoft 团队管理中心中，转到 "**团队应用** > **管理应用**"。 在应用列表中，单击应用名称，然后单击 "**更新**"。 执行此操作将替换租户应用目录中的现有应用，并且所有应用权限策略和应用设置策略都将对已更新的应用强制实施。
 
-![更新 "应用" 页面上的应用的屏幕截图](media/manage-your-lob-apps-update-app.png)
+## <a name="related-apps"></a>相关应用
+
+- [在 Microsoft 团队管理中心中管理你的应用](manage-apps.md)

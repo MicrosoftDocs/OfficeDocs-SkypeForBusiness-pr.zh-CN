@@ -20,12 +20,12 @@ ms.reviewer: islubin
 description: 了解如何使用不同的管理角色管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4de271016d3edc4b3153d3cb316c9b1a91580a8b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 80d82aab63ebe57cc9f2ec51d50061d55113f97f
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836742"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229942"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色管理团队
 
@@ -41,7 +41,7 @@ ms.locfileid: "41836742"
 
 | 角色 | 可以执行这些任务 | 可访问以下工具 |
 |----- | ------------------ | ------------------------------ |
-| Teams 服务管理员 | 管理团队服务，管理和创建 Office 365 组 | Microsoft 团队管理中心和关联的 PowerShell 控件中的所有内容，包括：<ul><li> 管理会议，包括会议策略、配置和会议桥。<sup>1、3</sup></li><li>管理语音，包括呼叫策略和电话号码库存和作业。<sup>1</sup></li><li>管理消息服务，包括消息策略。<sup>1、3</sup></li><li>管理所有组织范围的设置，包括联盟、团队升级和团队客户端设置。 s<sup>1，3</sup></li><li>管理组织中的团队及其关联的设置，包括成员身份（通过 PowerShell 支持的组管理、团队管理中心中的团队管理）。<sup>23 日</sup></li><li>查看用户个人资料页面并使用高级疑难解答工具集解决用户呼叫质量问题。<sup>3</sup> </li><li> 使用呼叫质量仪表板（CQD）中的数据向受不良呼叫质量影响的用户进行访问、监控和解决租户的通话质量和可靠性。 根据需要创建新报表、更新和删除报表。 上载和更新 CQD 生成数据。</li><li> [从团队客户端将应用发布到租户应用目录](https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams)</li></ul> |
+| Teams 服务管理员 | 管理团队服务，管理和创建 Office 365 组 | Microsoft 团队管理中心和关联的 PowerShell 控件中的所有内容，包括：<ul><li> 管理会议，包括会议策略、配置和会议桥。<sup>1、3</sup></li><li>管理语音，包括呼叫策略和电话号码库存和作业。<sup>1</sup></li><li>管理消息服务，包括消息策略。<sup>1、3</sup></li><li>管理所有组织范围的设置，包括联盟、团队升级和团队客户端设置。 s<sup>1，3</sup></li><li>管理组织中的团队及其关联的设置，包括成员身份（通过 PowerShell 支持的组管理、团队管理中心中的团队管理）。<sup>23 日</sup></li><li>查看用户个人资料页面并使用高级疑难解答工具集解决用户呼叫质量问题。<sup>3</sup> </li><li> 使用呼叫质量仪表板（CQD）中的数据向受不良呼叫质量影响的用户进行访问、监控和解决租户的通话质量和可靠性。 根据需要创建新报表、更新和删除报表。 上载和更新 CQD 生成数据。</li><li> [将应用发布到 Microsoft 团队管理中心中的租户应用目录](manage-apps.md)</li></ul> |
 | Teams 通信管理员 | 管理团队服务内的通话和会议功能。 | 管理会议，包括会议策略、配置和会议桥。<sup>1、3</sup><br><br> 管理语音，包括呼叫策略和电话号码库存和作业。<sup>1</sup><br><br> 查看用户个人资料页面并使用高级疑难解答工具集解决用户呼叫质量问题。<sup>3</sup> <br><br> 使用呼叫质量仪表板（CQD）中的数据向受不良呼叫质量影响的用户访问、监视和解决租户的通话质量和可靠性。 根据需要创建新报表、更新和删除报表。 上载和更新 CQD 生成数据。|
 | Teams 通信支持工程师 | 使用**高级**工具解决团队中的通信问题。 | 查看用户个人资料页面并使用高级疑难解答工具集解决用户呼叫质量问题。<sup>3</sup> <br><br> 使用呼叫质量仪表板（CQD）中的数据向受不良呼叫质量影响的用户访问、监视和解决租户的通话质量和可靠性。 |
 | 团队沟通支持专家 | 使用**基本**工具解决团队中的通信问题。| 访问用户配置文件页面，用于解决呼叫分析中的呼叫。 只能查看搜索的特定用户的用户信息。<sup>3</sup> <br><br> 使用在通话质量仪表板（CQD）中公开的数据访问、监控租户的通话质量和可靠性并进行故障排除。  
