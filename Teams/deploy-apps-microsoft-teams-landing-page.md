@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 535c34bd19a2f019d1b9dc07718cf20d5da2f98e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826950"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229897"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
@@ -57,7 +57,7 @@ Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-|<br>希望允许访问哪些应用？ 不希望允许访问哪些应用？  | <ul><li>有关在允许访问应用、聊天机器人、选项卡或连接器时要考虑的事项的列表，请参阅 [Microsoft Teams 应用权限和注意事项](app-permissions.md)。</li><li>有关将应用提供给组织中的用户的信息，请参阅[在 Teams 租户应用目录中发布应用](tenant-apps-catalog-teams.md)。</li></ul>|
+|<br>希望允许访问哪些应用？ 不希望允许访问哪些应用？  | <ul><li>有关在允许访问应用、聊天机器人、选项卡或连接器时要考虑的事项的列表，请参阅 [Microsoft Teams 应用权限和注意事项](app-permissions.md)。</li><li>有关将应用提供给组织中的用户的信息，请参阅“[在 Microsoft Teams 管理中心管理应用](manage-apps.md)”。</li></ul>|
 |||
 
 ### <a name="bots-for-private-chats-and-channels"></a>用于私人聊天和频道的聊天机器人
