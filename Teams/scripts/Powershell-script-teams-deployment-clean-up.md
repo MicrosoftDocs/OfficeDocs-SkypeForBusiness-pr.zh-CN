@@ -15,15 +15,14 @@ description: 可使用此 PowerShell 脚本在目标计算机上或针对特定�
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.openlocfilehash: c02b918d0fe3d686266fd385a5378e47d98e2508
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 64dbe1f49ada03d800fd73ba0da8d39e4f5cad30
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888251"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236732"
 ---
-<a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell 脚本示例 - 清理 Microsoft Teams 部署
--------------------------------------------------------------------------
+# <a name="powershell-script-sample---microsoft-teams-deployment-clean-up"></a>PowerShell 脚本示例 - 清理 Microsoft Teams 部署
 
 可利用此 PowerShell 脚本在目标计算机上或针对用户清理 Microsoft Teams。 应在目标计算机上针对每个用户执行此脚本。 
 

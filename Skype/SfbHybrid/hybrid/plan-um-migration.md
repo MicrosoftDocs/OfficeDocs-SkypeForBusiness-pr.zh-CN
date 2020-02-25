@@ -11,16 +11,16 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: 本主题介绍在决定将现有的 Skype for Business 服务器或 Exchange Server 部署迁移到最新版本或 Skype for Business Online 或 Exchange Online 时需要考虑的事项。
-ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755996"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265607"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>规划 Skype for Business Server 和 Exchange Server 迁移
 
-本主题介绍在决定将现有的 Skype for Business 服务器或 Exchange Server 部署迁移到最新版本或 Skype for Business Online 或 Exchange Online 时需要考虑的事项。 您可以迁移的内容和时间，具体取决于您在组织中已设置的内容。 某些功能（如组织自动助理）在正式发行版（GA）中不可用，但以后将在2018中推出。
+本主题介绍在决定将现有的 Skype for Business 服务器或 Exchange Server 部署迁移到最新版本或 Skype for Business Online 或 Exchange Online 时需要考虑的事项。 您可以迁移的内容和时间，具体取决于您在组织中已设置的内容。
 
 ## <a name="feature-changes-in-exchange-2019-and-skype-for-business-server-2019"></a>Exchange 2019 和 Skype for Business Server 2019 中的功能更改
 
@@ -30,7 +30,7 @@ ms.locfileid: "41755996"
 
 统一消息（UM）在 Exchange 2019 中已被弃用。 这意味着 Exchange 2019 不再提供以下功能：
 
-- Voicemail
+- 语音邮件
 - 自动助理
 
 如果您已在 exchange 2013 或 Exchange 2016 中的 UM 服务中部署 UM 角色，并且您希望升级到 Exchange 2019，则需要将语音邮件迁移到 Office 365 中的 Microsoft 云语音邮件服务。 如果要将语音邮件迁移到云语音邮件，请查看下面的[exchange 2013/exchange 2016 和 skype for business 2015 To exchange 2019 和 skype for business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019)部分。
@@ -45,12 +45,12 @@ ms.locfileid: "41755996"
 
 在 Skype for Business Server 2019 中，我们将从 Exchange Online UM 移动到云语音邮件。 将用户移动到 Skype for Business 2019 服务器时，会在为托管语音邮件配置时自动开始使用云语音邮件。 如果你当前使用的是 Exchange Online UM，则无需执行任何其他操作，除了将用户迁移到 Skype for business Server 2019 以开始使用云语音邮件。 但是，您需要注意一些对功能的更改：
 
-- 组织自动助理（Exchange Online UM 中的自动助理替代）在 GA 上市后不可用，但将在2018以后提供。
+- 组织自动助理是 Exchange Online UM 中自动助理的替代。
 - Web 上的 Outlook 中的用户语音邮件设置不适用于云语音邮件。
 
 ## <a name="on-premises-um-migration-scenarios"></a>本地 UM 迁移方案
 
-我们支持以下方案，使你能够将用户同时迁移到 Exchange 2019 和云语音邮件。 在后面的2018中，我们将支持其他方案，让你能够从其他版本的 Exchange 和 Skype for Business server 进行迁移。 我们还将提供其他功能，例如组织自动助理。
+我们支持以下方案，使你能够将用户同时迁移到 Exchange 2019 和云语音邮件。
 
 - Exchange 2013/Exchange 2016 和 Skype for Business Server 2015 至 Exchange 2019 和 Skype for business Server 2019
 - Skype for business Server 2015 至 Skype for business Server 2019 with Exchange 2013/Exchange 2016

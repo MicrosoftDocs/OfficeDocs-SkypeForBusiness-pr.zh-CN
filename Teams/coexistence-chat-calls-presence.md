@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 本文档介绍了在团队和 Skype for business （基于已分配的 TeamsUpgrade 模式）的情况下，在团队和 Skype for business 的用户之间进行呼叫的传送和状态。 它包括路由优化、状态行为以及从*旧版*到*孤岛*的默认 TeamsUpgrade 模式以及即将停用*旧版*的更改。
-ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050114"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236822"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
@@ -58,9 +58,9 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由 
 > [!NOTE]
 > 目前，涉及到团队的所有联盟都利用 Skype for business 联合管道以及团队-Skype for business 互操作性。 我们正在规划本机团队-团队联盟。 演示文档将在释放本机联合时进行更新。
 
-# <a name="chat-and-call-routing"></a>聊天和呼叫路由
+## <a name="chat-and-call-routing"></a>聊天和呼叫路由
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>用于新聊天或通话的租户内路由 
+### <a name="in-tenant-routing-for-new-chats-or-calls"></a>用于新聊天或通话的租户内路由 
 
 下表捕获租户内聊天和通话的路由，并且对于不是从预先存在的线程开始的新通话或聊天有效。 它介绍了向右侧的租户收件人用户发出的新呼叫或聊天（如果由左侧的用户发起）。
 
@@ -102,7 +102,7 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由 
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>新聊天或呼叫的联盟路由
+### <a name="federated-routing-for-new-chats-or-calls"></a>新聊天或呼叫的联盟路由
   
 下表捕获联合呼叫和聊天的路由，并且适用于新的通话或聊天。 它们描述了向右侧的联合目标用户发起的新呼叫或聊天（如果由左侧的用户发起）。
 
@@ -157,14 +157,14 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由 
 
 Skype for business 线程不会保留超过10分钟的 SIP 会话超时。 在 SIP 会话到期之前，Skype for business 中的现有线程的聊天和呼叫将以与线程相同的方式进行路由。 除了 SIP 会话超时之外，Skype for business 中的现有线程的通话和聊天将路由到远程方的 Skype for business，无论原始线程来自另一方的哪一个客户端。
 
-## <a name="availability"></a>可用性
+### <a name="availability"></a>可用性
 
 上面介绍的租户和联合行为均可用，并且具有以下限制：
 
 - 租户位于不同 GoLocal 部署或地理位置的外部与会者在 "联盟" 会议中看不到即时消息聊天
 - 不支持多租户 O365 和主权云之间的联盟和互操作
 
-# <a name="presence"></a>状态
+## <a name="presence"></a>状态
 
 如果你有一些用户使用团队客户端，而其他用户仍在使用 Skype for Business 客户端，则你可能会有大量使用客户端的用户。 你仍希望在不考虑单个用户拥有的客户端的情况下与所有用户共享状态状态。 当在组织内共享此功能时，用户可以更好地确定它是否适合发起聊天或进行呼叫。
 
@@ -180,7 +180,7 @@ Skype for business 线程不会保留超过10分钟的 SIP 会话超时。 在 S
     * 在 Skype for Business 中，任何其他用户将看到孤岛用户的 Skype for business 联机状态（租户和联合）;这与上面的路由表对齐
 
 
-## <a name="in-tenant-presence"></a>租户内状态
+### <a name="in-tenant-presence"></a>租户内状态
 
 发送给 TeamsOnly 用户的邮件将始终位于团队中。 发送给 SfB\*用户的邮件将始终位于 Skype for business 中，如果可以按上述说明进行对话。 发送给孤岛用户的消息将始终位于发起它们的客户端中。
 
@@ -194,7 +194,7 @@ Skype for business 线程不会保留超过10分钟的 SIP 会话超时。 在 S
 |Teams |&boxv; |Teams |Skype for Business |Teams |
 | | | | |
 
-## <a name="federated-presence"></a>联合状态
+### <a name="federated-presence"></a>联合状态
 
 联合状态基于表2中所示的联合可访问性。
 
@@ -208,7 +208,7 @@ Skype for business 线程不会保留超过10分钟的 SIP 会话超时。 在 S
 |Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>存在于预先存在的线程中
+### <a name="presence-in-pre-existing-threads"></a>存在于预先存在的线程中
 
 为了在预先存在的线程中对齐状态和可访问性，在该线程中公开的目标状态需要与线程的路由进行对齐，假设路由是可能的。
 

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理专用频道。
-ms.openlocfilehash: 45d05f2dd726b340ac79ac11810d23d00c8b3e9d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837312"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265627"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft 团队中的专用频道
 
@@ -60,7 +60,7 @@ Microsoft 团队中的专用频道为团队内的协作创建了重点空间。 
 |是     |否         |否         |在现有团队中创建频道。         |
 |否     |否         |否         |请考虑创建新团队。         |
 |否     |否         |是         |考虑创建新团队，然后根据每个主题的机密性，考虑为每个主题创建单独的标准或专用通道。         |
-|否     |是         |否         |创建新团队或在现有团队中创建新的专用通道。         |
+|否     |是         |否         |创建新团队并考虑创建专用通道。         |
 
 创建专用频道时，它将链接到父团队，并且不能移到其他团队。 此外，专用通道不能转换为标准信道，反之亦然。
 
@@ -103,7 +103,7 @@ Microsoft 团队中的专用频道为团队内的协作创建了重点空间。 
 
 下表概述了哪些操作所有者、成员和来宾可以在专用频道中执行的操作。
 
-|操作  |团队所有者|工作组成员|团队访客|专用频道所有者|专用频道成员|专用频道来宾|
+|Action  |团队所有者|工作组成员|团队访客|专用频道所有者|专用频道成员|专用频道来宾|
 |---------|---------|---------|---------|---------|---------|---------|
 |创建专用频道|是<sup>1</sup>|是<sup>1，2</sup>|否|不适用|不适用|不适用|
 |删除专用频道|是|否|否|是|否|否|

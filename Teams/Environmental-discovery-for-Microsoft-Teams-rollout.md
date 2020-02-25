@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834522"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236672"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 团队推出环境发现
 ===================================================
@@ -31,8 +31,7 @@ ms.locfileid: "41834522"
 
 你可以对你的环境执行详细的发现，以更好地了解其当前状态，还可以发现你的团队推出的任何困难，甚至还可能会阻止。
 
-<a name="discovery-questionnaire"></a>发现调查表
-=======================
+## <a name="discovery-questionnaire"></a>发现调查表
 
 下面的示例调查表将指导你完成一组问题，以确认你的组织已准备好使用团队中的通话计划功能成功推出音频会议和电话系统。
 

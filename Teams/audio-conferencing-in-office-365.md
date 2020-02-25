@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-ms.openlocfilehash: 1a9863f1566b06c46b2788bb484d8a4672b6cdbf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9a92715af20e2e27a4b5051bfeab461a61efdacf
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826290"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236812"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 中的音频会议
 Office 365 中的音频会议允许用户通过电话拨入会议。 音频会议最多允许250个电话与会者。
@@ -47,7 +47,7 @@ Office 365 中的音频会议允许用户通过电话拨入会议。 音频会�
 与会者加入会议后，他们还可以拨出并邀请其他呼叫者加入 Skype for Business 或 Microsoft 团队会议。 请参阅[从团队会议拨出，以便其他人可以加入](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) [Skype for business 会议或从 Skype For business 会议拨出，以便其他人可以加入](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)。
 
 ## <a name="what-does-it-cost"></a>费用是多少？
-如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
+如需了解有关定价信息，请参阅[音频会议定价](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2)。
 
 ## <a name="where-is-it-available"></a>它在哪里可用？
 使用音频会议，用户可以使用收费电话号码和免费电话号码拨入会议。 为组织启用音频会议时，会自动将收费（服务）号码分配给组织的共享音频会议号码。 专用的收费和免费电话号码可以从其他城市分配给您的组织。

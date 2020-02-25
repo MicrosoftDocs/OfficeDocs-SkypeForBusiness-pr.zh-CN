@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 下面列出了我们的客户希望使用音频会议的一些主要问题。
-ms.openlocfilehash: bc8ec039cff2be47f0912f2e52bbdb56ce694a4e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826300"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236842"
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议常见问题
 
@@ -81,7 +81,7 @@ ms.locfileid: "41826300"
 |:-----|:-----|
 |存在使用 Skype for Business 或 Microsoft 团队应用加入或已拨入会议的用户。  <br/> |如果 24 小时后与会者列表没有任何更改，会议结束。  <br/> |
 |所有用户都是拨号加入会议，但是部分用户使用了 PIN 进入会议。  <br/> |24 小时后会议结束。  <br/> |
-|所有用户都已拨入会议，但没有任何人使用 PIN 进入会议。  <br/> |4 小时后会议结束。  <br/> |
+|所有用户都已拨入会议，但没有任何人使用 PIN 进入会议。  <br/> | 如果允许匿名用户启动会议，则会议将在4小时后结束。 如果不允许匿名用户启动会议，并且所有经过身份验证的参与者都已退出会议，则会议将在最后一次经过身份验证的参与者留下90分钟后结束。 <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>我可以在会议中拥有多少个电话参与者？
 

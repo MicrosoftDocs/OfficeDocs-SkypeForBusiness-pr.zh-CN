@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 了解如何为音频会议、电话系统和通话计划等功能分配许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888681"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236832"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>分配 Microsoft 团队许可证
 
@@ -107,14 +107,6 @@ for each ($user in $users)
 | 国内呼叫计划（每个国家/地区每个用户/月120分钟） </br>*注意：此计划在美国不可用*。 | MCOPSTN5 |
 | 国内呼叫计划（每个国家/地区每个用户/月240分钟） </br>*注意：此计划在美国不可用*。 | MCOPSTN6 |
 | 通信点数 | MCOPSTNPP | 
-
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>音频会议：分配许可证的提示和脚本
-
-下面是在分配音频会议许可证之前需要了解的信息。
-
-- **第三方音频会议提供商**：如果某人已设置为使用第三方音频会议提供商，则当您为他们分配音频会议许可证时，他们将更改为使用 Microsoft 作为音频会议提供商。 你可以将他们更改回第三方提供商。
-
-- **后续步骤**：分配音频会议许可证后，你需要分配音频会议提供商。 请参阅[分配 Microsoft 作为音频会议提供商](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 ## <a name="assign-an-audio-conferencing-license-to-one-user"></a>将音频会议许可证分配给一个用户
 

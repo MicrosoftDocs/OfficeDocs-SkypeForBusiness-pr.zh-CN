@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: 0c0764a3787fa6431d07125b607bf9916f7f8ccf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 28dcf8e166eff4a8852dd1ad77828213dc88fd05
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835002"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236862"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 
@@ -64,34 +64,34 @@ ms.locfileid: "41835002"
   
 - **用户的许可证被删除，或者音频会议提供商从 Microsoft 更改为其他提供商或“无”。**
 
-    在删除了用户的**音频会议**许可证，或者将用户的音频会议提供商从 Microsoft 更改为第三方音频会议提供商，或将提供商设置为“**无**”时，会发生这种情况。 此电子邮件包含用户使用 Skype for Business Online 会议更新工具删除音频会议特定信息（例如默认会议电话号码或会议 ID）的说明和信息。
+    当从用户删除**音频会议**许可证或将音频会议提供商设置为 "**无**" 时，会发生这种情况。
 
-    请参阅[分配或删除 Office 365 商业版许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+    请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
-    下面是此电子邮件示例：
+    下面是此电子邮件的一个示例：
 
      ![电话拨入式会议已关闭。](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>更改向用户发送的电子邮件
+## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>更改发送给用户的电子邮件
 
-您可以对自动发送给用户的电子邮件进行更改。 默认情况下，电子邮件的发件人将来自 Office 365，但你可以使用 Windows PowerShell 更改显示名称。 有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+您可以对自动发送给用户的电子邮件进行更改。 默认情况下，电子邮件的发件人将来自 Office 365，但你可以使用 Windows PowerShell 更改显示名称。 有关详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
 
-## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果不希望向用户发送电子邮件该怎么办？
+## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果不想向用户发送电子邮件，又该怎样做？
 
-禁用向用户发送电子邮件时，即使为用户分配了许可证，也不会发送电子邮件。 在此情况下，不会向用户发送会议 ID、默认会议电话号码，以及更重要的是，他们的音频会议 PIN。 发生这种情况时，你必须通过向用户发送单独的电子邮件或给他们打电话进行通知。
+当禁用电子邮件发送给用户时，即使用户拥有分配的许可证，也不会向其发送电子邮件。 在此情况下，会议 ID、默认会议电话号码和更重要的是，其音频会议 PIN 不会发送给用户。 发生这种情况时，你必须通过向用户发送单独的电子邮件或呼叫他们进行通知。
 
-默认情况下，将向你的用户发送电子邮件，但如果你不希望他们收到音频会议的电子邮件，可使用 Microsoft Teams 或 Windows PowerShell。 
+默认情况下，将向你的用户发送电子邮件，但如果你希望阻止他们接收用于音频会议的电子邮件，则可以使用 Microsoft 团队或 Windows PowerShell。 
 
 ![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
+2. 在 "**会议桥**" 页面顶部，单击 "**桥接设置**"。 
 
-3. 在“**网桥设置**”窗格中，启用或禁用“**当用户的拨入设置更改时自动向用户发送电子邮件**”。
+3. 在**桥设置**窗格中，启用或禁用**如果其拨入设置发生更改，则自动向用户发送电子邮件**。
 
 4. 单击“**保存**”。
 
@@ -100,12 +100,12 @@ ms.locfileid: "41835002"
 
 **使用 Windows PowerShell**
 
-有关详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+有关详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-默认情况下，这些电子邮件的发件人将显示为来自 Office 365，但你可以使用 Windows PowerShell 更改电子邮件地址和显示名称。 
+默认情况下，电子邮件的发件人将来自 Office 365，但你可以使用 Windows PowerShell 更改电子邮件地址和显示名称。 
 
 Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
 
@@ -118,6 +118,6 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
 
 ## <a name="related-topics"></a>相关主题
 
-[启用或禁用在音频会议设置更改时发送电子邮件](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+[启用或禁用发送电子邮件时更改音频会议设置](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 
 [对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

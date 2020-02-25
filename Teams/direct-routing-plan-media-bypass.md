@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本主题，了解如何使用手机系统直接路由规划媒体旁路。
-ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214480"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265637"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -137,7 +137,7 @@ Microsoft 云中有两个组件可以位于媒体流量的路径中：媒体处�
 适用于最终用户的绕过呼叫的媒体路径 | 绝对 | 如果客户无法访问公共 IP 地址上的 SBC | 
 语音应用程序的媒体路径 | 都 | 绝对 | 
 可以执行转码（B2BUA）\* | 是 | 否，仅在终结点之间中继音频 | 
-全球实例数和位置 | 总共8个：美国东部和西部2在阿姆斯特丹和都柏林中的2个;2在中国香港和新加坡中;在日本（在 Q1CY2019 中添加）的2  | 名
+全球实例数和位置 | 总共8个：美国东部和西部2在阿姆斯特丹和都柏林中的2个;2在中国香港和新加坡中;日本的2个  | 名
 
 IP 范围是 52.112.0.0/14 （从52.112.0.1 到52.115.255.254 的 IP 地址）。 
 
