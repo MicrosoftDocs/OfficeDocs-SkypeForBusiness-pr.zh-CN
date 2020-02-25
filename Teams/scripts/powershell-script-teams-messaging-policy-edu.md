@@ -15,24 +15,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b45eef7792ce9c0930c9e78249259caedb325c5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 07efc7b86045de9e76669d4ffbf185aba9d94d1f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888741"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236802"
 ---
-<a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="276f7-103">PowerShell 脚本示例 - 创建和分配消息传递策略</span><span class="sxs-lookup"><span data-stu-id="276f7-103">PowerShell script sample - Create and assign a messaging policy</span></span>
--------------------------------------------------------------------------
+# <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a><span data-ttu-id="376a5-103">PowerShell 脚本示例 - 创建和分配消息传递策略</span><span class="sxs-lookup"><span data-stu-id="376a5-103">PowerShell script sample - Create and assign a messaging policy</span></span>
 
-<span data-ttu-id="276f7-104">使用此 PowerShell 脚本在 Microsoft 团队中创建邮件策略，并将其分配给用户。</span><span class="sxs-lookup"><span data-stu-id="276f7-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
+<span data-ttu-id="376a5-104">使用此 PowerShell 脚本在 Microsoft 团队中创建邮件策略，并将其分配给用户。</span><span class="sxs-lookup"><span data-stu-id="376a5-104">Use this PowerShell script to create a messaging policy in Microsoft Teams and assign it to users.</span></span> 
 
-<span data-ttu-id="276f7-105">有关使用此 PowerShell 脚本的详细信息，请参阅[快速入门-团队教育](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)版。</span><span class="sxs-lookup"><span data-stu-id="276f7-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
+<span data-ttu-id="376a5-105">有关使用此 PowerShell 脚本的详细信息，请参阅[快速入门-团队教育](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu)版。</span><span class="sxs-lookup"><span data-stu-id="376a5-105">For more information about using this PowerShell script, see [Quick start - Teams for Education](https://docs.microsoft.com/microsoftteams/teams-quick-start-edu).</span></span>
 
-<span data-ttu-id="276f7-106">如果你不了解 PowerShell 并需要入门帮助，请参阅 [Azure PowerShell 概述](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)。</span><span class="sxs-lookup"><span data-stu-id="276f7-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="376a5-106">如果你不了解 PowerShell 并需要入门帮助，请参阅 [Azure PowerShell 概述](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)。</span><span class="sxs-lookup"><span data-stu-id="376a5-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="276f7-107">示例脚本</span><span class="sxs-lookup"><span data-stu-id="276f7-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="376a5-107">示例脚本</span><span class="sxs-lookup"><span data-stu-id="376a5-107">Sample script</span></span>
 
 ```powershell
 <#
