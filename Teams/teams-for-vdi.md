@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7abe63551eee449afd507a786cd2efbf70e89afa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 479f272f45c4ac7c8f84f0aa26fe923ea16ff3d7
+ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888641"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42278005"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -161,7 +161,7 @@ Office 365 专业增强版不支持团队的每计算机安装。 若要使用�
 
     可通过两种方式卸载团队：  
   
-    - PowerShell 脚本（推荐）：你可以使用此[PowerShell 脚本](scripts/powershell-script-teams-deployment-clean-up.md)清理目标计算机或用户的团队。 应针对目标计算机上的每个用户执行该应用。 
+    - PowerShell 脚本（推荐）
     
     - 命令行：此方法删除团队，但阻止团队重新安装。 运行以下命令：
   

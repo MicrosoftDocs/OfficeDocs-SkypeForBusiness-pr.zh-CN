@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f57eeb44fd728d1b656ce13f56cf2c5997805b9
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
+ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888361"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42277975"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 终结点配置管理器安装 Microsoft 团队
 
@@ -80,9 +80,6 @@ ms.locfileid: "41888361"
 1. 卸载为每个用户配置文件安装的团队应用。
 2. 卸载后，在%localappdata%\Microsoft\Teams\. 下递归删除目录
 3. 将 MSI 程序包重新部署到该特定计算机。
-
-> [!TIP]
-> 你可以使用[Microsoft 团队部署清理](scripts/Powershell-script-teams-deployment-clean-up.md)脚本，通过 Configuration Manager 完成步骤1和步骤2。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止团队在安装后自动启动
 
