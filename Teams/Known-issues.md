@@ -18,12 +18,12 @@ f1.keywords:
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 6a80e9a360b28ed5d00fb02be3d34aab21fb0e2e
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962091"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265517"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -51,7 +51,7 @@ ms.locfileid: "41962091"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|在桌面应用中使用“网站”选项卡时，[条件访问](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)可能不起作用<br/> |如果网站（例如 Intranet 门户）设有浏览器或 IP 地址限制等条件访问策略，则该网站可能不会在桌面应用中呈现为 Teams 内的选项卡。 <br/> |请在浏览器中使用 Teams 而不是使用桌面应用  <br/> |2018/7/1  <br/> |
+|在桌面应用中使用“网站”或“Azure DevOps”选项卡时，[条件访问](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)可能不起作用。<br/> |如果网站（例如 Intranet 门户）具有条件访问策略（例如浏览器、IP 地址限制或设备合规性），则该网站可能不会在桌面应用中呈现为 Teams 内的选项卡。 <br/> |请在浏览器中使用 Teams 而不是使用桌面应用  <br/> |2018/7/1  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
@@ -82,12 +82,16 @@ ms.locfileid: "41962091"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
+|更改用户帐户的密码后，出现错误消息（这是因为你的密码已更改或者服务器再次需要你的登录信息）。 即使使用新密码，也会继续出现此问题。 <br/> | Teams 将很快在推出的修补程序中解决此问题。 <br/> | 注销并重新登录错误的凭据。 失败后，输入正确的凭据。 <br/> |2020 年 1 月 9 日  <br/> |
+
+|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
+|:-----|:-----|:-----|:-----|
 |当你尝试从 Internet Explorer 或 Microsoft Edge 加入 Teams 时，程序持续循环或崩溃并且无法登录。
    <br/> | 贵组织使用 Internet Explorer 中的受信任站点，基于 Web 的 Teams 应用程序无法正常登录，因为 Teams 的受信任站点不被允许。 <br/>|使用管理员权限或群组策略对象，对 IE 设置或从控制面板进行以下更改：<br/><ol><li>在“**Internet 选项**”&gt;“**隐私**”&gt;“**高级**”下，接受第一方和第三方 Cookie，并选中“**总是允许会话 cookie**”复选框。</li><li>单击“**Internet 选项**”&gt;“**安全**”&gt;“**受信任的站点**”&gt;“**站点**”，然后添加下列所有站点：<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>注意</b>：始终验证并允许 Teams 的所有受信任 URL 以及以下文档中的要求：[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)   <br/> |11/1/17  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams 始终登录加入域的 PC 帐户。   <br/> |如果用户有两个不同的 Teams 帐户并有一台启用了加入域的计算机，Teams 将在该计算机上使用加入域的配置文件来自动将用户登录到 Teams。要切换到其他 Teams 帐户，用户必须手动注销该应用，并输入另一个帐户的凭据进行登录。如果用户注销 Teams 并重新启动计算机，则重新启动后，Teams 将自动使用加入域的配置文件来自动登录。 <br/> | 无解决方法。 <br/> |2017 年 8 月 2 日  <br/> |
+|Microsoft Teams 始终登录加入域的 PC 帐户。   <br/> |如果用户有两个不同的 Teams 帐户并有一台启用了加入域的计算机，Teams 将在该计算机上使用加入域的配置文件来自动将用户登录到 Teams。要切换到其他 Teams 帐户，用户必须手动注销该应用，并输入另一个帐户的凭据进行登录。如果用户注销 Teams 并重新启动计算机，则重新启动后，Teams 将自动使用加入域的配置文件来自动登录。 <br/> | 如果用户登录到了加入域的计算机，并且你不希望他们的用户名预填充在 Teams 登录屏幕上，则管理员可以设置以下 Windows 注册表来关闭用户名预填充 (UPN)：Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DWORD) 0x00000001 (1)。 注意，默认情况下会忽略以“.local”或“.corp”结尾的用户名的用户名预填充，因此无需设置注册表项来关闭该功能。 参考 https://docs.microsoft.com/microsoftteams/sign-in-teams。 <br/> |2017 年 8 月 2 日  <br/> |
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
