@@ -20,12 +20,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833122"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288630"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 ======================================================
@@ -104,12 +104,12 @@ ms.locfileid: "41833122"
 |外部访问设置     |    X    |      |       |
 |用户管理    |         |         |    X     |    
 |音频会议     |    X     |    X     |         |
-|通话计划     |         |    X     |         |
-|电话系统    |         |     X    |         |
-|电话号码管理     |         |   X      |         |
+|通话计划     |    X    |    X     |         |
+|电话系统    |    X    |     X    |         |
+|电话号码管理     |    X    |   X      |         |
 |云语音功能的许可     |         |         |    X     |
-|自动助理     |         |    X     |         |
-|呼叫队列     |         |    X     |         |
+|自动助理     |    X    |          |         |
+|呼叫队列     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>迁移后管理设置
 

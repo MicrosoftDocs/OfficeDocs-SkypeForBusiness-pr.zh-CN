@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7c89b4abe53621ae217ecb3874df9a51a43a7ac
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160696"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285824"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -226,7 +226,7 @@ Teams 作为许多 Office 365 许可证的一部分提供。 若要详细了解 
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-|<br>是否需要为 Teams 配置条件访问？|<ul><li>若要了解访问策略的工作方式，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams)</li><li>若要为 Teams 设置多重身份验证 (MFA)，请参阅：<ul><li>[快速入门：具有 Azure Active Directory 条件访问权限的特定应用需要 MFA](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 条件访问设置参考](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>是否需要为 Teams 配置条件访问？|<ul><li>若要了解访问策略的工作方式，请参阅[条件访问策略如何在 Teams 中发挥作用？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>若要为 Teams 设置多重身份验证 (MFA)，请参阅：<ul><li>[快速入门：具有 Azure Active Directory 条件访问权限的特定应用需要 MFA](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Azure Active Directory 条件访问设置参考](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 

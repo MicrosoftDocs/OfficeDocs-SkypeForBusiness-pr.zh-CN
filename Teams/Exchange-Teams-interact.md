@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bc03a292614b6ae5888e6334e37a3b417bcacde
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834502"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285744"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -88,7 +88,7 @@ Microsoft 团队与多个 Office 365 服务协同工作，为用户提供丰富�
 
 - 在 Microsoft Teams 中，安全性和合规性功能（例如，电子数据展示、内容搜索、存档和法定保留）在 Exchange Online 和 SharePoint Online 环境中完全正常。 对于频道对话，消息会记录到 Exchange Online 中的组邮箱，它们在此可用于电子数据展示。 如果在组织中为用户启用了 SharePoint Online 和 OneDrive for Business（使用工作帐户或学校帐户），也可以对 Teams 中的所有文件使用这些合规性功能。
 
-- 使用条件访问控制和保护团队和 Exchange 中合规性策略的配置。 有关详细信息，请参阅[如何为团队工作条件访问策略？](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
+- 使用条件访问控制和保护团队和 Exchange 中合规性策略的配置。 有关详细信息，请参阅[如何为团队工作条件访问策略？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) .
 
 - 如果你的组织具有合规性要求以确保所有会议讨论均可发现，则应禁用私人会议（如果组织者具有 Exchange 本地邮箱）。
 

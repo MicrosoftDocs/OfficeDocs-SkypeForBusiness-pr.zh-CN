@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8362c95103594e8289aa110ec681fd6dba269bce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba381659572fa8cfda6ac605a2910ef19220dcbd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824750"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285814"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用“入门”向导设置商务语音
 
@@ -46,11 +46,8 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
 
 <table>
     <tr>
-        <td>若要更改紧急地址，请单击“<b>编辑</b>”，然后输入新地址。 系统将验证所提供的地址，确保它合规并且符合紧急响应服务的正确格式。 系统会将此地址分配给所有用户（将在下一步中为这些用户分配号码）。 如果你的员工分布在多个位置，请参阅<a href="./customize-business-voice.md">商务语音设计自定义</a>，以便在准备好“入门”向导后添加和分配更多紧急地址。</td>
-
-        
+        <td>若要更改紧急地址，请单击“<b>编辑</b>”，然后输入新地址。 系统将验证所提供的地址，确保它合规并且符合紧急响应服务的正确格式。 系统会将此地址分配给所有用户（将在下一步中为这些用户分配号码）。 如果你的员工分布在多个位置，请参阅<a href="./customize-business-voice.md">商务语音设计自定义</a>，以便在准备好“入门”向导后添加和分配更多紧急地址。</td> 
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
-            
 </table>
 
 有关详细信息，请参阅[什么是紧急位置、地址和呼叫路由？](../what-are-emergency-locations-addresses-and-call-routing.md)

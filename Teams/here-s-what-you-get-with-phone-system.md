@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解功能、可用性以及如何为你的企业规划和设置 Microsoft Phone 系统。 '
-ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045164"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288700"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
 
@@ -45,11 +45,11 @@ ms.locfileid: "42045164"
 |**Office 365 功能中的电话系统** <br/> |**说明** <br/> |
 |[云自动助理](what-are-phone-system-auto-attendants.md) <br/> |允许您创建一个菜单系统，使外部和内部呼叫者能够找到并将呼叫放入或转移到组织中的公司用户或部门。  <br/> |
 |[云呼叫队列](create-a-phone-system-call-queue.md) <br/> |允许你配置为你的组织管理呼叫队列的方式：例如，设置问候语和暂停的音乐、搜索下一个可用的呼叫代理以处理呼叫等。  <br/> |
-|保留音乐 | 当来自公共交换电话网络（PSTN）的外部呼叫处于暂候状态时，播放由该服务定义的默认音乐。 除了对呼叫队列拨打电话之外，此功能适用于一对一的 PSTN 到团队通话。 此功能提供与其他平台的保持状态通知奇偶校验。 第一次发布时，管理员无法配置此功能。 在 PSTN 呼叫的咨询转移中也不支持 "保留音乐"。|
+|保留音乐 | 当来自公共交换电话网络（PSTN）的外部呼叫处于暂候状态时，播放由该服务定义的默认音乐。 除了对呼叫队列拨打电话之外，此功能适用于一对一的 PSTN 到团队通话。 此功能提供与其他平台的保持状态通知奇偶校验。 此功能可由管理员配置，但[当前只能通过 PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)进行配置。 在 PSTN 呼叫的咨询转移中也不支持 "保留音乐"。|
 |呼叫接听/拨打（按姓名和号码）  <br/> |允许用户通过触摸接听入站呼叫，并通过拨打完整的电话号码或通过单击客户端中的名称来发出出站呼叫。  <br/> |
 |[呼叫转接选项和同时拨打](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |允许用户设置转发规则，以便呼叫可以与他们进行任何地方的通话，也可以将来电转发给同事或语音邮件。  <br/> |
 |[分组呼叫和转发到组](call-sharing-and-group-call-pickup.md) <br/> | 允许用户与同事共享传入呼叫，以便同事可以接听用户不可用时出现的呼叫。 对收件人的中断比其他呼叫共享形式（如呼叫转接或同时拨打）的中断更小，因为用户可以配置如何接收传入的共享呼叫通知。 |
-|[转接呼叫和 consultive 转接](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |允许用户将呼叫转移给其他人。 或者，如果他们需要离开自己的 office，但想要继续对话，他们可以将呼叫从其 PC 或 IP 电话转移到手机。  <br/> |
+|[转接呼叫和顾问式转移](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |允许用户将呼叫转移给其他人。 或者，如果他们需要离开自己的 office，但想要继续对话，他们可以将呼叫从其 PC 或 IP 电话转移到手机。  <br/> |
 |[转接到语音邮件中间电话](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | 允许用户在通话期间转移到语音邮件。 |
 |[呼叫寄存和检索](call-park-and-retrieve.md)  <br/> | 允许用户在云中的团队服务中将呼叫置于保持状态。 当通话暂停时，该服务将生成一个唯一的通话检索代码。 停用呼叫或其他人的用户可以使用该代码和受支持的应用或设备来检索呼叫。 <br/> |
 |从搜索呼叫电话号码  <br/> | 允许用户通过使用/call 命令并指定名称或数字来在搜索框中放置呼叫。 <br/> |

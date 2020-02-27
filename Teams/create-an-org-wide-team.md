@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 854294f1ddb8e677037c151e3f7b3cada6e31c16
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 99acc2e1756c0915f404f6bf6b1bfab1e30fcaf6
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826750"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288730"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
@@ -44,9 +44,10 @@ ms.locfileid: "41826750"
 由于您的组织的目录已更新为包括新的活动用户，或者如果用户在您的公司中不再工作，并且帐户已禁用，则更改将自动同步，并且用户将添加或从团队中删除。 工作组成员无法离开组织范围的团队。 作为团队所有者，你可以根据需要手动添加或删除用户。
 
 > [!NOTE]
-> - 如果在创建团队时看不到**组织范围**选项，并且您是全局管理员，则该功能可能仍在进行滚动，已达到5个组织范围的团队限制，或者你的组织可能超过了5000个成员的当前大小限制。 我们希望将来增加此限额。
+> - 如果在创建团队时看不到**组织范围**选项，并且您是全局管理员，则该功能可能仍在进行滚动，已达到5个组织范围的团队限制，或者你的组织可能超过了5000个成员的当前大小限制。 我们希望将来增加此限额。 组织范围的团队尚不能供教育人士使用。
 > - 不属于会议室列表、设备和资源帐户的会议室可能会添加或同步到组织范围的团队。 团队所有者可以轻松地从团队中删除这些帐户。
 > - 系统将在 "常规" 频道中发布系统用于添加或删除成员的所有操作。 该频道也将标记为在团队客户端中具有新活动。
+> - 如果您的组织是团队新用户，并且不超过5000用户，我们将自动为您的组织创建组织范围的团队。 团队名称将反映租户名称，并且将具有常规通道。 全局管理员可以像其他任何团队一样编辑此团队。 
 
 ## <a name="best-practices"></a>最佳做法
 

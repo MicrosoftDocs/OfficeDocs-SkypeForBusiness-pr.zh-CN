@@ -1,14 +1,13 @@
 ---
 title: 面向教育版管理员的 Microsoft Teams 资源
-author: ChuckEdmonson
-ms.author: chucked
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.date: 07/26/2018
-ms.reviewer: ''
+ms.reviewer: olbesede
 ms.topic: reference
 ms.service: msteams
 audience: admin
-description: 团队资源列表，它有助于教育版 IT 管理员。
+description: 列出对团队教育版管理员有用的团队资源。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,51 +16,52 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc9413690f98afeab9bb96baefd3d73e8b56d3f8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8e2f0a0d585b7bf21175ebf8dd0ab31e16133e11
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838242"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285844"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>面向教育版管理员的 Microsoft Teams 资源
 ==============================================
 
 ## <a name="adoption-content"></a>采纳内容
 
-通过学校的信息和徽标创建自定义的电子邮件、海报和传单。 或者使用现成的 "打印海报"、"传单" 和其他讲义，让您的组织兴奋 Microsoft 团队。
+通过电子邮件、海报、讲义以及您现在可以免费使用的更多资源，让您的学校兴奋于 Microsoft 团队。 您还可以通过 "横幅"、"Gif" 和 "视频" 的新数字工具包，在校园内在线和学生间联系。 立即开始使用！
 
-|可自定义电子邮件模板 |         |
-|---------|---------|
-|**了解团队基础知识**<br>[下载 .zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/getting-started.zip?raw=true)<br> ![了解团队基本电子邮件模板的屏幕截图。](media/outlook-template-teams-basics.png)   |**自定义你的学习环境**<br>[下载 .zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/customize-learning.zip?raw=true)<br>![自定义学习环境模板的屏幕截图。](media/outlook-template-teams-learn.png)       |
-|**了解如何在团队中精简工作流**<br>[下载 .zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/workflows.zip?raw=true)<br>![了解如何优化工作流模板的屏幕截图。](media/outlook-template-teams-workflow.png)     |**了解如何像专业人士一样聊天**<br>[下载 .zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/chat.zip?raw=true)<br>![了解如何像专业版模板一样聊天的屏幕截图。](media/outlook-template-teams-chat.png)        |
-|**在旅途中制作团队**<br>[下载 .zip 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-teams.zip?raw=true)<br>![在 go 模板上拍摄团队的屏幕截图。](media/outlook-template-teams-connect.png)    |          |
+请先阅读[条款和条件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true)，然后再使用这些资料。
 
-|可自定义和随时打印的传单和海报  |        |
-|---------|---------|
-|**Microsoft 团队教育版简介-值**<br>[下载可自定义的 .docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-intro-values.docx?raw=true)<br>[下载现成的 .pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>![值海报的屏幕截图。](media/poster-intro-values.png)    |**Microsoft 团队教育版简介-功能**<br>[下载可自定义的 .docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/team-edu-customizable-poster-intro-features.docx?raw=true)<br>[下载现成的 .pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>![功能海报的屏幕截图。](media/poster-intro-features.png)          |
-|**准备 Microsoft 团队-值**<br>[下载可自定义的 .docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-values.docx?raw=true)<br>[下载现成的 .pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-posters-values.pdf?raw=true)<br>!["支持值" 海报的屏幕截图。](media/poster-empower-values.png)   |**为 Microsoft 团队提供支持-功能**<br>[下载可自定义的 .docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-poster-empower-features.docx?raw=true)<br>[下载现成的 .pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-poster-features.pdf?raw=true)<br>!["支持功能" 海报的屏幕截图。](media/poster-empower-features.png)          |
-|**Microsoft 团队教育版的价值**<br>[下载可自定义的 .docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[下载现成的 .pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-values.pdf?raw=true)<br>![Microsoft 团队教育版传单的价值的屏幕截图。](media/flyer-values.png)    |**Microsoft 团队教育版的功能**<br>[下载可自定义的 .docx 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-customizable-flyer-values.docx?raw=true)<br>[下载现成的 .pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-flyer-features.pdf?raw=true)<br>![Microsoft 团队教育版传单的功能的屏幕截图。](media/flyer-features.png)        |
+### <a name="physical-assets"></a>实物资产
 
-|可随时打印的数据包  |        |
+| |  |
 |---------|---------|
-|**Microsoft 团队教育版入门-提示和技巧**<br>[下载现成的 .pdf 文件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-edu-packet-get-started.pdf?raw=true)<br>![Microsoft 团队教育版包入门的屏幕截图。](media/package-teams-edu-get-started.png)    |
+|海报-[可自定义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)和[打印-就绪](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![标牌的屏幕截图](media/edu-adoption-posters.png)     |[张](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![讲义的屏幕截图](media/edu-adoption-handouts.png)|
+|[宣传](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![传单的屏幕截图](media/edu-adoption-flyers.png)   |[书籍会](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![书籍广告的屏幕截图](media/edu-adoption-book-adverts.png)         |
+
+### <a name="digital-assets"></a>数字资产
+
+请务必查看[数字工具包指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)以最大化团队启动！ 
+
+|  |  |
+|---------|---------|
+|[电子邮件模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![屏幕](media/edu-adoption-email-templates.png)    |[Gif](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![来自 GIF 的屏幕截图](media/edu-adoption-gifs.png)      |
+|[Web 横幅](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Web 横幅的屏幕截图](media/edu-adoption-web-banners.png)    |[视频](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![屏幕](media/edu-adoption-videos.png)          |
+|[数字屏幕会](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![数字屏幕广告的屏幕截图](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>行动号召
 
-- 查看我们的动手操作 [Microsoft Teams 互动演示](https://teamsdemo.office.com/)（完成时间：5 分钟）
-- 在[microsoft 365 管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)中打开 microsoft 团队（以 Office 365 管理员身份登录）
+- 请访问 "[适用于教育团队的团队" 页面](https://www.microsoft.com/en-us/education/products/teams/default.aspx)，了解培训、视频和交互式演示
+- 在[Microsoft 365 管理中心](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)中启用团队（以 Office 365 管理员身份登录）
 - 下载 Teams 客户端：[在所有设备上获取 Teams](https://teams.microsoft.com/downloads)
 - 在[教育版帮助中心](https://support.office.com/education)了解关于 Office 365 教育版的详细信息
 
 ## <a name="additional-resources"></a>附加资源
 
-- [Microsoft Teams 路线图](https://aka.ms/teamsroadmap)
+- [团队路线图](https://aka.ms/teamsroadmap)
 - 随时关注我们的[技术社区博客](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)获取最新信息
-- Matt Soseman 关于 [Microsoft Teams PowerShell 支持](https://blogs.technet.microsoft.com/skypehybridguy/2017/11/07/microsoft-teams-powershell-support/)的博客“生产云”
+- [Teams PowerShell 概览](teams-powershell-overview.md)
 - [发送建议](https://aka.ms/eduuservoice)
 - [联系支持人员](https://aka.ms/o365portal)
 - [向 Teams 社区求助](https://aka.ms/msteamscommunity)
 - [查找更多教育资源](https://education.microsoft.com/)
-
-

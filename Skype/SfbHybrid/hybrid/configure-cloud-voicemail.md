@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关为驻留在 Skype for business Server 上的用户实施基于云的语音邮件的说明。
-ms.openlocfilehash: 8fab0cf237137d87a8b7e49be65232dc0595de6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041241"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288710"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>为本地用户配置云语音邮件服务
 
@@ -77,7 +77,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 若要修改全局策略，请在更新组织和 TenantID 之后在 Skype for Business Server 命令行管理程序中运行以下命令：
 
 ```PowerShell
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com
 ```
 
 - **Destination**指定托管云语音邮件服务的完全限定域名（FQDN）。 此值应设置为**exap.um.outlook.com**。
@@ -85,8 +85,6 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 - "**组织**" 是分配给租户的默认域。 您可以通过让租户管理员登录到 office.com，单击 "管理中心" 应用程序，导航到左侧的 "**安装**"，然后单击 "**域**" 来检索此信息。 例如： mytenant.onmicrosoft.com。
 
     组织名称也是 Office 365 中的默认域名。
-
-- **租户**用于在 Office 365 中标识你的租户。 有关详细信息，请参阅[查找 Office 365 租户 ID](https://support.office.com/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b)。
 
 若要确保已成功创建托管的语音邮件策略，请运行以下命令：
 
