@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: fcf6ee6bbf0f9d485a84007a01cd9ce0dfee9500
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 958ca112e52cefa31e122c02b47c76a68537d284
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836602"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288720"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -174,7 +174,7 @@ Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专�
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -184,9 +184,9 @@ Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>一线员工与 Teams</h3>
-                        <p>了解 Teams 中的一线员工功能。</p>
-                        <p><i>受众：最终用户</i></p>
+                        <h3>使用 Teams 为一线员工提供支持</h3>
+                        <p>了解 Teams 如何启用数字转换，将无限潜力带给所有员工。</p>
+                        <p><i>受众：业务决策者、IT 决策者</i></p>
                     </div>
                 </div>
             </div>

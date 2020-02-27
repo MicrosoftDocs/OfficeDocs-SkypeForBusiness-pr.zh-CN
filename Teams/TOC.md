@@ -263,10 +263,10 @@
 
 ### 配置直接路由
 #### [概述](direct-routing-configure.md)
-#### [将 SBC 连接到直接路由](direct-routing-connect-the-sbc.md)
-#### [为用户启用直接路由、语音和语音邮件](direct-routing-enable-users.md)
-#### [配置语音路由](direct-routing-voice-routing.md)
-#### [转换电话号码](direct-routing-translate-numbers.md)
+#### [第 1 步：连接 SBC](direct-routing-connect-the-sbc.md)
+#### [第 2 步：启用用户](direct-routing-enable-users.md)
+#### [第 3 步：配置语音路由](direct-routing-voice-routing.md)
+#### [第 4 步：转换电话号码](direct-routing-translate-numbers.md)
 #### [为多个租户配置 SBC](direct-routing-sbc-multiple-tenants.md)
 #### [如何将模拟设备与直接路由结合使用](direct-routing-analog-devices.md)
 
@@ -638,11 +638,11 @@
 <!-- ============================================================ -->
 
 # 安全性和合规性
+## [概述](security-compliance-overview.md)
 ## 安全性
 ### [标识模式和身份验证](identify-models-authentication.md)
 ### [使用新式验证登录 Teams](sign-in-teams.md)
 ## 合规性
-### [概述](security-compliance-overview.md)
 ### [信息屏障](information-barriers-in-teams.md)
 ### [保留策略](retention-policies.md)
 ### [数据丢失防护](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
