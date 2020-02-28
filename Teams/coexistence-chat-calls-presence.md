@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 本文档介绍了在团队和 Skype for business （基于已分配的 TeamsUpgrade 模式）的情况下，在团队和 Skype for business 的用户之间进行呼叫的传送和状态。 它包括路由优化、状态行为以及从*旧版*到*孤岛*的默认 TeamsUpgrade 模式以及即将停用*旧版*的更改。
-ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236822"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328014"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
@@ -56,7 +56,7 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由 
     - 团队到团队的通信始终可以在租户中实现。
 
 > [!NOTE]
-> 目前，涉及到团队的所有联盟都利用 Skype for business 联合管道以及团队-Skype for business 互操作性。 我们正在规划本机团队-团队联盟。 演示文档将在释放本机联合时进行更新。
+> 如果接收方和发件人都在 TeamsOnly 升级模式中，则对话将是一个本机聊天体验，包括所有丰富的消息传递和呼叫功能。 若要了解详细信息，请阅读[团队中外部（联合）用户的本机聊天体验](native-chat-for-external-users.md)。 如果其中一个对话参与者未处于 TeamsOnly 升级模式，则对话将保持带有纯文本消息的互操作体验。
 
 ## <a name="chat-and-call-routing"></a>聊天和呼叫路由
 

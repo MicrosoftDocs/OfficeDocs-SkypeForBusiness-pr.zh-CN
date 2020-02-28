@@ -21,12 +21,12 @@ description: 了解如何在 "团队教育版" 的 "Microsoft 团队管理中心
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fb811540fc4e79c65d93eefb993fa7523a39aff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827820"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327994"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
 
@@ -40,7 +40,6 @@ ms.locfileid: "41827820"
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>每周监护人电子邮件摘要
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 监护人电子邮件是发送给学生的家长或监护人的每周电子邮件。 该电子邮件将包含有关上一周和未来一周的作业的信息，并将通过周末发送。 管理员需要使用学校数据同步功能来更新电子邮件。
 
@@ -58,7 +57,6 @@ MakeCode 是一种基于块的编码平台，让所有学生都能使用电脑�
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin 是一种 plagiarism 检测服务。 这是由其自身条款和隐私政策制约的第三方产品或服务。 您负责使用第三方产品和服务。
 

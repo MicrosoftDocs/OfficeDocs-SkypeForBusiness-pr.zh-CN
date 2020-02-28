@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3054c961faa2587b203bd1522c266a55e0c34174
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834662"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327844"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -39,7 +39,6 @@ ms.locfileid: "41834662"
 > [!NOTE]
 > - 执行 Regsvr32 文件的用户权限是在计算机上安装团队会议加载项的最低要求。
 > - 如果用户未看到 Teams 会议外接程序，请指示他们关闭 Outlook 和 Teams，然后按以下顺序执行操作：先重新启动 Teams 客户端，然后登录 Teams，再重新启动 Outlook 客户端。
-> - Windows 7 用户必须在 Windows for windows 中安装适用于 windows 的[通用 C 运行时更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，团队会议外接程序才能正常工作。
 > - 如果您使用的是 Microsoft Store 中的 Office Outlook 安装，则不支持团队会议加载项。 建议使用此加载项的用户安装即点即用版本的 Office，如[Windows 10 中的 office On S 模式](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)文章中所述。
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac 中的团队会议外接程序

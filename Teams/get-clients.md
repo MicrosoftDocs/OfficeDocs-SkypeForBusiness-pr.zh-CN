@@ -3,7 +3,6 @@ title: 获取 Microsoft Teams 的客户端
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4abae267bf1a8c0c770eebf1c1b12018a6c7deb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833762"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327834"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -41,7 +40,7 @@ Microsoft 团队拥有适用于桌面（Windows、Mac 和 Linux）、web 和移�
 > [!TIP]
 > 观看以下会话，了解 Windows 桌面客户端的优点、如何规划它以及如何部署它：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
 
-Microsoft 团队桌面客户端是独立的应用程序，也[可以在 Office 365 专业增强版中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于 Windows （7 +）、Windows Server （2012 R2 +）、32位和64位版本、macOS （10.10 +）和 Linux （"格式" 和`.deb` `.rpm` "格式"）。 在 Windows 上，团队需要 .NET Framework 4.5 或更高版本;如果您没有，团队安装程序将为您提供安装它的功能。 在 Linux 上，程序包管理器（如 apt 和 yum）将尝试为你安装任何要求。 但是，如果不是这样，则需要安装任何报告的要求，然后才能在 Linux 上安装团队。
+Microsoft 团队桌面客户端是独立的应用程序，也[可以在 Office 365 专业增强版中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于32位和64位版本的 Windows （8.1 或更高版本）和 Windows Server （2012 R2 或更高版本），以及 macOS （10.10 或更高版本）和 Linux （ `.deb` `.rpm`格式）。 在 Windows 上，团队需要 .NET Framework 4.5 或更高版本;如果您没有，团队安装程序将为您提供安装它的功能。 在 Linux 上，程序包管理员（ `apt`如`yum`和）将尝试为你安装任何要求。 但是，如果不是这样，则需要安装任何报告的要求，然后才能在 Linux 上安装团队。
 
 桌面客户端为团队会议、群组通话和私人一对一通话提供实时通信支持（音频、视频和内容共享）。
 
@@ -181,6 +180,8 @@ Web 客户端在连接到[https://teams.microsoft.com](https://go.microsoft.com/
 ## <a name="mobile-clients"></a>移动客户端
 
 Microsoft 团队移动应用适用于 Android 和 iOS，并且适用于参与基于聊天的对话的用户和允许对等音频呼叫。 对于移动应用，请转到相关的移动应用商店 Google Play 和 Apple App Store。 Windows Phone 应用已于2018年7月20日停用，可能不再有效。 
+
+在中国，下面介绍了如何[获取适用于 Android 的团队](get-teams-android-in-china.md)。 
 
 Microsoft Teams 移动应用的支持移动平台如下：
 

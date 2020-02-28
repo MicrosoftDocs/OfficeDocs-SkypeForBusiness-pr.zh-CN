@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277975"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327824"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 终结点配置管理器安装 Microsoft 团队
 
@@ -55,9 +55,9 @@ ms.locfileid: "42277975"
 
 ### <a name="pc-installation"></a>PC 安装
 
-团队 MSI 将在程序文件中放置一个安装程序。 当用户登录到新的 Windows 用户配置文件时，将启动安装程序，并将在该用户的 appdata 文件夹中安装 "团队" 应用副本。 如果用户已在 appdata 文件夹中安装了 "团队" 应用，则 MSI 安装程序将跳过该用户的进程。
+团队 MSI 将在程序文件中放置一个安装程序。 当用户登录到新的 Windows 用户配置文件时，将启动安装程序，并将在该用户的`AppData`文件夹中安装 "团队" 应用副本。 如果用户已在`AppData`文件夹中安装了 "团队" 应用，则 MSI 安装程序将跳过该用户的进程。
 
-请勿使用 MSI 部署更新，因为客户端将在检测到服务提供新版本时自动更新。 若要重新部署最新的安装程序，请使用下面所述的重新部署 MSI 的过程。如果你部署较旧版本的 MSI 程序包，客户端将在可能的情况下自动更新（在 VDI 环境中除外）。 如果部署了非常旧的版本，MSI 将在用户可以使用团队之前触发应用更新。
+请勿使用 MSI 部署更新，因为客户端将在检测到服务提供新版本时自动更新。 若要重新部署最新的安装程序，请使用下面所述的重新部署 MSI 的过程。 如果你部署较旧版本的 MSI 程序包，客户端将在可能的情况下自动更新（在 VDI 环境中除外）。 如果部署了非常旧的版本，MSI 将在用户可以使用团队之前触发应用更新。
 
 > [!Important]
 > 我们不建议你更改默认安装位置，因为这可能会中断更新流。 如果版本过旧，最终会阻止用户访问该服务。
@@ -65,7 +65,7 @@ ms.locfileid: "42277975"
 #### <a name="target-computer-requirements"></a>目标计算机要求
 
 - .NET framework 4.5 或更高版本
-- Windows 7 或更高版本
+- Windows 8.1 或更高版本
 - Windows Server 2012 R2 或更高版本
 - 每个用户配置文件 3 GB 的磁盘空间（推荐）
 
@@ -78,7 +78,7 @@ ms.locfileid: "42277975"
 如果用户从其用户配置文件中卸载团队，则 MSI 安装程序将跟踪用户已卸载团队应用，并且不再为该用户配置文件安装团队。 若要在卸载的特定计算机上为此用户重新部署团队，请执行下列操作：
 
 1. 卸载为每个用户配置文件安装的团队应用。
-2. 卸载后，在%localappdata%\Microsoft\Teams\. 下递归删除目录
+2. 卸载后，以递归方式删除`%localappdata%\Microsoft\Teams\`目录。
 3. 将 MSI 程序包重新部署到该特定计算机。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止团队在安装后自动启动

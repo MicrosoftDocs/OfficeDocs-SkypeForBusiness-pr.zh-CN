@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft 合作伙伴与选定的 SBC 供应商认证其 SBC 可用于直接路由。
-ms.openlocfilehash: 75f8286355a900b8827ef7e685b9310f26434b4c
-ms.sourcegitcommit: 26e61e94f0ba5d06a56c43541ee4970f479819d8
+ms.openlocfilehash: 71aefbd65f3f0364f68baf8abb8b5e75f8bcee9a
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280300"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327984"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -46,30 +46,31 @@ Microsoft 与每位供应商协作：
 
 |                                                       供应商                                                        |       产品       | 非媒体旁路 | 媒体绕过 | 软件版本 | 已通过 E911 提供商验证 | ELIN 支持
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
-| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20   |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20   |    |    |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20   |     |    |    
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20   |     |    |    
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20  |    |    |    
-|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20   |    |    |                                                                       
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 |    |    |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       7.2       | <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul> |   否 |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       7.2       |  <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul> | 否   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       7.2       |  <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul>  |否|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       7.2       |   <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul> |  否  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       7.2       |   <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul> |   否 |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 （内部版本537）     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |         |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 （内部版本537）     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |           |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 （内部版本216）    |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>    |           |   
-| | EdgeMarc 系列 |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.16.2      |     |    |    
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20   | <ul> <li> 带宽动态位置路由 </li> </ul>
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20   |  <ul> <li> 带宽动态位置路由 </li> </ul>  |    |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20   |   <ul> <li> 带宽动态位置路由 </li> </ul>  |    |    
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20   |   <ul> <li> 带宽动态位置路由 </li> </ul>  |    |    
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20  |  <ul> <li> 带宽动态位置路由 </li> </ul>  |    |    
+|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20   | <ul> <li> 带宽动态位置路由 </li> </ul>    |    |                                                                       
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 |  <ul> <li> 带宽动态位置路由 </li> </ul>   |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       7.2       | <ul> <li> 带宽动态位置路由 </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul> |   否 |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       7.2       |  <ul> <li> 带宽动态位置路由 </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul> | 否   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       7.2       |  <ul> <li> 带宽动态位置路由 </li><li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul>  |否|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       7.2       |   <ul> <li> 带宽动态位置路由 </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul> |  否  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       7.2       |   <ul> <li> 带宽动态位置路由 </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul> |   否 |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.0.3 （内部版本537）     |  <ul> <li> 带宽动态位置路由 </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> 红天空地平线移动 </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.0.3 （内部版本537）     |  <ul> <li> 带宽动态位置路由 </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> 红天空地平线移动 </li> </ul>   |           |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.0.3 （内部版本216）    |  <ul> <li> 带宽动态位置路由 </li> <li> Intrado ERS </li> <li>Intrado EGW </li> <li> 红天空地平线移动 </li> </ul>    |           |   
+| | Edgemarc 系列 |  &#10004; | | 15.6.1 | 
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> 带宽动态位置路由 </li>  <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> 带宽动态位置路由 </li>  <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> 带宽动态位置路由 </li>  <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> 带宽动态位置路由 </li> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> 带宽动态位置路由 </li> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> 带宽动态位置路由 </li> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
+
 
 下表列出了直接路由和模拟设备之间的互操作性验证的设备。
 
