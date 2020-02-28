@@ -695,6 +695,7 @@
 
 ## 安装 Teams
 ### [获取 Teams 客户端](get-clients.md)
+### [在中国版 Teams for Android](get-teams-android-in-china.md)
 ### [Teams 应用的硬件要求](hardware-requirements-for-the-teams-app.md)
 ### [硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)
 ### [使用 MSI 安装 Teams](msi-deployment.md)
