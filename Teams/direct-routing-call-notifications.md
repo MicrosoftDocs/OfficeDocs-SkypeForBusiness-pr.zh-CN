@@ -18,36 +18,36 @@ description: 直接路由呼叫通知
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 3d53245d241435e869dbdbeb15dcb1c81e18ff96
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0320ebc6abfc0e3f3d720fbab03abc698b26849c
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837592"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341806"
 ---
-# <a name="manage-call-notifications"></a><span data-ttu-id="26836-103">管理呼叫通知</span><span class="sxs-lookup"><span data-stu-id="26836-103">Manage call notifications</span></span>
+# <a name="manage-call-notifications"></a><span data-ttu-id="8d32d-103">管理呼叫通知</span><span class="sxs-lookup"><span data-stu-id="8d32d-103">Manage call notifications</span></span>
 
-<span data-ttu-id="26836-104">本文介绍如何管理用户的呼叫通知。</span><span class="sxs-lookup"><span data-stu-id="26836-104">This article describes how to manage call notifications for your users.</span></span> <span data-ttu-id="26836-105">你可以将呼叫终结点配置到两个团队和第三方专用分支交换（PBX）或会话边界控制器（SBC）。</span><span class="sxs-lookup"><span data-stu-id="26836-105">You can configure call endpoints to both Teams and to a third-party Private Branch Exchange (PBX) or Session Border Controller (SBC).</span></span>  <span data-ttu-id="26836-106">例如，如果您想要同时向用户的手机和桌面电话发送呼叫，这很有用。</span><span class="sxs-lookup"><span data-stu-id="26836-106">This is useful, for example, if you want to send a call to a user's mobile and desk phones at the same time.</span></span>   
+<span data-ttu-id="8d32d-104">本文介绍如何管理用户的呼叫通知。</span><span class="sxs-lookup"><span data-stu-id="8d32d-104">This article describes how to manage call notifications for your users.</span></span> <span data-ttu-id="8d32d-105">你可以将呼叫终结点配置到两个团队和第三方专用分支交换（PBX）或会话边界控制器（SBC）。</span><span class="sxs-lookup"><span data-stu-id="8d32d-105">You can configure call endpoints to both Teams and to a third-party Private Branch Exchange (PBX) or Session Border Controller (SBC).</span></span>  <span data-ttu-id="8d32d-106">例如，如果您想要同时向用户的手机和桌面电话发送呼叫，这很有用。</span><span class="sxs-lookup"><span data-stu-id="8d32d-106">This is useful, for example, if you want to send a call to a user's mobile and desk phones at the same time.</span></span>   
 
-<span data-ttu-id="26836-107">在下图中，用户 Irena 有两个终结点：</span><span class="sxs-lookup"><span data-stu-id="26836-107">In the following diagram, user Irena has two endpoints:</span></span>
+<span data-ttu-id="8d32d-107">在下图中，用户 Irena 有两个终结点：</span><span class="sxs-lookup"><span data-stu-id="8d32d-107">In the following diagram, user Irena has two endpoints:</span></span>
 
-- <span data-ttu-id="26836-108">团队终结点</span><span class="sxs-lookup"><span data-stu-id="26836-108">A Teams endpoint</span></span>
-- <span data-ttu-id="26836-109">连接到第三方 SBC 的 SIP 电话</span><span class="sxs-lookup"><span data-stu-id="26836-109">A SIP phone connected to a third-party SBC</span></span>
+- <span data-ttu-id="8d32d-108">团队终结点</span><span class="sxs-lookup"><span data-stu-id="8d32d-108">A Teams endpoint</span></span>
+- <span data-ttu-id="8d32d-109">连接到第三方 SBC 的 SIP 电话</span><span class="sxs-lookup"><span data-stu-id="8d32d-109">A SIP phone connected to a third-party SBC</span></span>
 
-<span data-ttu-id="26836-110">当呼叫到达时，SBC 将电话系统直接路由和第三方 SBC 之间的通话派生在一起。</span><span class="sxs-lookup"><span data-stu-id="26836-110">When a call arrives, the SBC forks the call between Phone System Direct Routing and the third-party SBC.</span></span>
+<span data-ttu-id="8d32d-110">当呼叫到达时，SBC 将电话系统直接路由和第三方 SBC 之间的通话派生在一起。</span><span class="sxs-lookup"><span data-stu-id="8d32d-110">When a call arrives, the SBC forks the call between Phone System Direct Routing and the third-party SBC.</span></span>
 
 
 ![显示分叉团队终结点的图表](media/direct-routing-call-notification-1.png)
 
-<span data-ttu-id="26836-112">如果在分叉2上接受呼叫（由第三方 SBC），团队将生成 "未接来电" 通知。</span><span class="sxs-lookup"><span data-stu-id="26836-112">If the call is accepted on Fork 2 (by the third-party SBC), Teams will generate a “Missed Call” notification.</span></span>  
+<span data-ttu-id="8d32d-112">如果在分叉2上接受呼叫（由第三方 SBC），团队将生成 "未接来电" 通知。</span><span class="sxs-lookup"><span data-stu-id="8d32d-112">If the call is accepted on Fork 2 (by the third-party SBC), Teams will generate a “Missed Call” notification.</span></span>  
 
-<span data-ttu-id="26836-113">你可以通过将 SBC 配置为在分叉1上发送取消，从而阻止 "未接来电" 通知，如下所示：</span><span class="sxs-lookup"><span data-stu-id="26836-113">You can prevent the “Missed Call” notification by configuring the SBC to send a Cancel on Fork 1 as follows:</span></span>
+<span data-ttu-id="8d32d-113">你可以通过将 SBC 配置为在分叉1上发送取消，从而阻止 "未接来电" 通知，如下所示：</span><span class="sxs-lookup"><span data-stu-id="8d32d-113">You can prevent the “Missed Call” notification by configuring the SBC to send a Cancel on Fork 1 as follows:</span></span>
 
-<span data-ttu-id="26836-114">原因： SIP;原因 = 200; 文本 "通话在别处完成"</span><span class="sxs-lookup"><span data-stu-id="26836-114">REASON: SIP; cause=200;text”Call completed elsewhere”</span></span> 
+<span data-ttu-id="8d32d-114">原因： SIP;原因 = 200; 文本 "通话在别处完成"</span><span class="sxs-lookup"><span data-stu-id="8d32d-114">REASON: SIP; cause=200;text”Call completed elsewhere”</span></span> 
 
-<span data-ttu-id="26836-115">请注意，呼叫将不会在 Microsoft Phone 系统的呼叫详细记录中注册为成功通话。</span><span class="sxs-lookup"><span data-stu-id="26836-115">Note that the call will not be registered in the call detail records of Microsoft Phone System as a successful call.</span></span> <span data-ttu-id="26836-116">该呼叫将注册为 "尝试"，最终 SIP 代码为 "487"、最终 Microsoft 子代码 "540200" 和最终 SIP 代码短语 "在别处完成通话"。</span><span class="sxs-lookup"><span data-stu-id="26836-116">The call will be registered as an “Attempt” with Final SIP Code “487”, Final Microsoft subcode “540200”, and Final SIP Code Phrase “Call completed elsewhere”.</span></span>   <span data-ttu-id="26836-117">（若要查看呼叫详细记录，请转到团队管理员门户、分析和报表、使用情况报告，并选择 PSTN 使用。）</span><span class="sxs-lookup"><span data-stu-id="26836-117">(To view the call detail records, go the Teams Admin portal, Analytics and Reports, Usage Reports, and select PSTN Usage.)</span></span>
+<span data-ttu-id="8d32d-115">请注意，呼叫将不会在 Microsoft Phone 系统的呼叫详细记录中注册为成功通话。</span><span class="sxs-lookup"><span data-stu-id="8d32d-115">Note that the call will not be registered in the call detail records of Microsoft Phone System as a successful call.</span></span> <span data-ttu-id="8d32d-116">该呼叫将注册为 "尝试"，最终 SIP 代码为 "487"、最终 Microsoft 子代码 "540200" 和最终 SIP 代码短语 "在别处完成通话"。</span><span class="sxs-lookup"><span data-stu-id="8d32d-116">The call will be registered as an “Attempt” with Final SIP Code “487”, Final Microsoft subcode “540200”, and Final SIP Code Phrase “Call completed elsewhere”.</span></span>  <span data-ttu-id="8d32d-117">（若要查看呼叫详细记录，请转到团队管理员门户、分析和报表、使用情况报告，并选择 PSTN 使用。）</span><span class="sxs-lookup"><span data-stu-id="8d32d-117">(To view the call detail records, go the Teams Admin portal, Analytics and Reports, Usage Reports, and select PSTN Usage.)</span></span>
 
 
-<span data-ttu-id="26836-118">下图显示了分叉1的 SIP 阶梯、解释调用流以及取消消息中的预期原因。</span><span class="sxs-lookup"><span data-stu-id="26836-118">The diagram below illustrates the SIP ladder for Fork 1, explains the call flow, and the expected REASON in the Cancel message.</span></span> 
+<span data-ttu-id="8d32d-118">下图显示了分叉1的 SIP 阶梯、解释调用流以及取消消息中的预期原因。</span><span class="sxs-lookup"><span data-stu-id="8d32d-118">The diagram below illustrates the SIP ladder for Fork 1, explains the call flow, and the expected REASON in the Cancel message.</span></span> 
 
 ![显示分叉团队终结点的图表](media/direct-routing-call-notification-2.png)
