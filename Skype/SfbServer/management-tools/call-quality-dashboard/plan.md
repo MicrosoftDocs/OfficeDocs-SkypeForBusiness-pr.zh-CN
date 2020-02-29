@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要：了解在为通话质量仪表板规划时应考虑的事项。
-ms.openlocfilehash: 25342998332a596abce9ecd02e63e153be6e6d94
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029413"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339437"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>为 Skype for Business Server 规划通话质量仪表板 
  
@@ -195,9 +195,9 @@ CQD 中的数据处理分为两个主要阶段：
 
 |**计算机**|**CPU 内核**|**RAM**|**在同一磁盘上 QoE 存档和多维数据集**|**在同一磁盘上 QoE 存档和 SQL 临时数据库**|
 |:-----|:-----|:-----|:-----|:-----|
-|虚拟机  <br/> |4   <br/> |7 GB  <br/> |是  <br/> |是  <br/> |
-|4核心  <br/> |4   <br/> |20 GB  <br/> |是  <br/> |否  <br/> |
-|8核  <br/> |8   <br/> |32 GB  <br/> |是  <br/> |否  <br/> |
+|虚拟机  <br/> |4  <br/> |7 GB  <br/> |是  <br/> |是  <br/> |
+|4核心  <br/> |4  <br/> |20 GB  <br/> |是  <br/> |否  <br/> |
+|8核  <br/> |utf-8  <br/> |32 GB  <br/> |是  <br/> |否  <br/> |
 |16核  <br/> |16   <br/> |128 GB  <br/> |否  <br/> |否  <br/> |
    
 **性能结果**
@@ -296,15 +296,10 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 支持以下版本的 SQL Server：
   
-- SQL Server 2012
-    
-- SQL Server 2014
-
-- SQL Server 2016
-
-- SQL Server 2017
-
-- SQL Server 2019 （仅适用于 Skype for Business Server 2019 CQD）
+|||
+|:-----|:-----|
+| CQD 2015 <br/> |  SQL server 2012 sql Server 2014 sql Server 2016  |
+|CQD 2019 <br/> |  SQL Server 2017 SQL Server 2019  |
     
 出于性能方面的考虑，建议使用商业智能或企业版。 这些版本允许使用可并行处理的多个分区文件，这对于处理跨越多个月或更长时间的数据非常有用。 
   

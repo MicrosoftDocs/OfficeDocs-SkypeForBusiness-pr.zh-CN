@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍了实施 Microsoft 云语音邮件服务的好处、规划注意事项和要求。 有关配置云语音邮件的信息，请参阅配置云语音邮件。
-ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006017"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341762"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>为本地用户规划云语音邮件服务
 
@@ -88,18 +88,13 @@ Skype for Business Server 2019 继续为其邮箱位于早期版本的 Exchange 
 - Exchange Server 2019 不再提供 Exchange UM 功能
 - Skype for Business Server 2019 不再与 Exchange Online UM 集成
 
-下表列出了云语音邮件的版本互操作性和受支持的拓扑，它们将比较用户可能驻留的 Skype for Business Server 版本，并提供其 Exchange 邮箱的可能版本。 云语音邮件仅适用于 Skype for Business Server 和 Exchange Server 2019 或 Exchange Online。
+下表列出了云语音邮件的版本互操作性和受支持的拓扑，它们将比较用户可能驻留的 Skype for Business Server 版本，并提供其 Exchange 邮箱的可能版本。 如果要将 Skype for Business 2019 与 Exchange Online 或 Exchange Server 2019 一起使用，则需要使用云语音邮件。
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype for Business Server 2019 | Exchange Server UM | Exchange Server UM | 云语音邮件 | 云语音邮件 |
-| Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | 云语音邮件<sup>1</sup> | 云语音邮件 <br> Exchange Online UM<sup>2</sup> |
-| Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | 不支持 | 云语音邮件 <br> Exchange Online UM<sup>2</sup> |
-
-<sup>1</sup>尚不能看到此选项？ 它当前正在推出，可能在你的组织中仍不可用。 请参阅第6步，考虑在[Exchange 统一消息 Online 迁移支持](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
-)中选择加入到云语音邮件的计划连接。
-
-<sup>2</sup> ，直到弃用。 有关详细信息，请参阅[Exchange 统一消息联机迁移支持](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md)。 
+| Skype for Business Server 2015 | Exchange Server UM | Exchange Server UM | 云语音邮件 | 云语音邮件 |
+| Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | 不支持 | 云语音邮件 |
 
 Microsoft 建议采用以下迁移途径：
 

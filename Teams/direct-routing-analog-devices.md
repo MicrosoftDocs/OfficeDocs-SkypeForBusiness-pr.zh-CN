@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本文以了解如何将模拟设备与 Microsoft Phone 系统直接路由配合使用。
-ms.openlocfilehash: c1720a7f702babbf677ab8f1de75014c629e6d76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192165"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341789"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>如何将模拟设备与电话系统直接路由配合使用
 
@@ -45,7 +45,7 @@ ms.locfileid: "42192165"
 4. 将语音路由分配给 PSTN 使用
 5. 启用联机用户
 6. 为用户分配语音路由策略
-7. 将语音路由策略分配给模拟设备
+7. 为模拟设备创建语音路由
 
 有关如何将 ATA 连接到 SBC 和配置 SBC 的信息，请参阅 SBC 制造商配置指南：
 - [AudioCodes 配置文档](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
@@ -104,7 +104,7 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--assign-a-voice-route-to-an-analog-device"></a>步骤7：将语音路由分配给模拟设备
+## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>步骤7：为模拟设备创建语音路由
 
 此命令将创建一个在线语音路线，该路线的号码范围 + 1425 4XX XX xx （适用于联机网关 sbc.contoso.com 列表），并将其与在线 PSTN 使用 "互操作" 关联。  应为具有相应电话号码模式的每个模拟设备运行此命令。 或者，在前面的步骤中配置联机语音路由时，可以使用模拟设备的正确数字模式。
 

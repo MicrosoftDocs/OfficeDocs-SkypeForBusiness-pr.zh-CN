@@ -23,21 +23,30 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 当您获得您的组织的电话号码或移植（转移）号码时，您可能需要在 PSTN 服务支持处获得帮助和支持。
-ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825708"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341779"
 ---
-# <a name="pstn-service-desk-help"></a>PSTN 服务支持帮助
+# <a name="pstn-service-desk-contact"></a>PSTN 服务台联系人
 
-如果您需要有关获取或转移号码给我们的帮助，但需要帮助，请告知我们我们可以通过电子邮件向您提供帮助，并将其发送给我们。 在您的电子邮件帮助请求中，请提供尽可能多的详细信息，并包括详细信息，例如组织 ID、域、需要帮助的号码类型、所需的数字类型、授权人员和有关问题的其他重要详细信息。
+如果在从 Microsoft 获取电话号码或将现有电话号码移植到 Microsoft 时需要帮助，请发送包含以下信息的电子邮件请求：
 
-然后将请求发送到以下电子邮件地址之一：
+  - 您的组织 ID （租户 ID）或活动域。
+  - 您需要有关哪些类型的号码（用户/订户、服务/收费或免费电话）。
+  - 您需要多少个号码（如果这适用于号码购置）。
+  - 根据你的请求授权人员和其他重要的详细信息。
 
-- 有关美国内部电话号码的帮助， [发送您的请求](mailto:ptn@microsoft.com)  。
-- 有关美国以外的电话号码的帮助，  [发送您的请求](mailto:ptneu@microsoft.com) 。
+获得所有信息后，将你的请求发送到适用于你的请求的以下电子邮件地址之一：
+- **号码移植**
+    - 在**美国或加拿大内**移植电话号码，[请在 ptn@microsoft.com 向我们发送电子邮件](mailto:ptn@microsoft.com)。
+    - 将电话号码移植到**美国或加拿大之外的国家/地区**，[请通过 ptneu@microsoft.com 向我们发送电子邮件](mailto:ptneu@microsoft.com)。
+    
+- **获取号码**
+    - 为下列国家/地区的任何国家/地区获取新的电话号码：**比利时、法国、德国、英国、爱尔兰、荷兰、西班牙、瑞典、爱尔兰、荷兰、西班牙、瑞典、瑞士**，[请在 ptneu@microsoft.com 向我们发送电子邮件](mailto:ptneu@microsoft.com)
+    - 为**世界上的其他**人购买新的电话号码，[请在 gcstnmsd@microsoft.com 向我们发送电子邮件](mailto:gcstnmsd@microsoft.com)。
 
 ## <a name="related-topics"></a>相关主题
 

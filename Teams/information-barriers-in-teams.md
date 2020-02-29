@@ -15,12 +15,12 @@ f1.keywords:
 description: 了解信息障碍及其对团队的影响。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d5b5964f3fcf0f4d24fee44121f868d573eb6e9
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: a3f4f7f256be21b9b3f8063ed34a25afb4af6971
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962131"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341857"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
@@ -38,14 +38,21 @@ ms.locfileid: "41962131"
 
 信息障碍的主要驱动因素来自金融服务行业。 金融行业监管机构（[FINRA]( http://www.finra.org)）检查成员公司内的信息障碍和利益冲突，并提供有关如何管理此类冲突（FINRA 2241、[债务研究机构声明 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)）的指导。  
 
-## <a name="when-should-i-use-information-barriers"></a>何时应使用信息障碍？
+但是，由于信息障碍的推出，许多其他方面发现它们非常有用。 其他常见方案包括：
+
+- 教育：一学校学生无法查找其他学校的学生的联系人详情。
+- 法律：保留由一位客户的律师为同一事务所获取的不同客户的律师所获得的数据的机密性。
+- 政府：信息访问和控制限制在部门和群组之间。
+- 专业服务：公司中的一组人员只能在客户服务期间通过联盟或来宾访问与客户或特定客户聊天。
+
+## <a name="when-to-use-information-barriers"></a>何时使用信息障碍
 
 您可能希望在类似情况下使用信息障碍：
 
 - 必须阻止团队与特定其他团队进行通信或共享数据。
 - 团队不得与团队外部的任何人通信或与之共享数据。
 
-信息屏障策略评估服务确定通信是否符合信息屏障策略。 
+信息屏障策略评估服务确定通信是否符合信息屏障策略。
 
 ## <a name="managing-information-barrier-policies"></a>管理信息屏障策略
 
@@ -58,29 +65,28 @@ ms.locfileid: "41962131"
 
 IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详细信息，请参阅[Office 365 安全 & 合规中心中的权限](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
-## <a name="when-are-information-barrier-policies-checked"></a>何时检查信息障碍策略？
+## <a name="information-barrier-triggers"></a>信息障碍触发器
 
-当以下团队事件发生时，将检查信息障碍策略：
+当以下团队事件发生时，将激活信息屏障策略：
 
 - 将**成员添加到团队**-每当您将用户添加到团队时，用户的策略必须根据其他团队成员的信息屏障策略进行评估。 成功添加用户后，用户可以执行团队中的所有功能，而无需进一步检查。 如果用户的策略阻止将他们添加到团队，则该用户将不会显示在 "搜索" 中。
 - **请求新的聊天**-每次在两个或更多用户之间请求新的聊天时，将对聊天进行评估以确保它不违反任何信息障碍策略。 如果对话违反了 "信息屏障" 策略，则不会启动对话。
 - **邀请用户加入会议**-当用户被邀请加入会议时，将根据其他团队成员的策略评估用户的策略，如果发生冲突，则不允许用户加入会议中。。
 - **在两个或更多用户之间共享屏幕**-无论何时在两个或更多用户之间共享屏幕，都必须评估屏幕共享以确保它不违反其他用户的信息屏障策略。 如果违反了信息障碍策略，则不允许使用屏幕共享。
 - **用户在团队中放置电话呼叫（VOIP）** -只要用户向另一个用户或一组用户发起语音呼叫，就会评估呼叫以确保它不违反其他团队成员的信息屏障策略。 如果存在任何冲突，将阻止语音通话。
-- **团队中的来宾用户**-信息障碍策略也适用于团队中的来宾用户。 如果您的组织的全球通讯簿中需要发现来宾用户，请参阅[管理 Office 365 组中的来宾访问](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦来宾用户可发现，你可以[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。 
+- **团队中的来宾用户**-信息障碍策略也适用于团队中的来宾用户。 如果您的组织的全球通讯簿中需要发现来宾用户，请参阅[管理 Office 365 组中的来宾访问](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list)。 一旦来宾用户可发现，你可以[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
-## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>更改策略时对现有聊天线程有何影响？
+## <a name="how-policy-changes-impact-existing-chats"></a>策略更改如何影响现有聊天
 
 当信息屏障策略管理员对策略进行更改，或者由于对用户配置文件（如作业更改或类似原因）的更改而导致策略更改生效时，信息屏障策略评估服务将自动搜索成员以确保团队成员不违反任何策略。
 
-如果用户之间已有聊天或其他通信，并且已设置新策略或更改了现有策略，则该服务将评估现有通信，以确保仍允许进行通信。 
+如果用户之间已有聊天或其他通信，并且已设置新策略或更改了现有策略，则该服务将评估现有通信，以确保仍允许进行通信。
 
 - **1:1 聊天**-如果不再允许两个用户之间的通信（如果策略阻止通信被应用到一个或两个用户），则将阻止进一步通信，并且聊天对话将变为只读。
-- **群组聊天**-如果不再允许从一个用户到组的通信（例如，如果用户更改了作业），则用户和其他违反该策略的用户可能会从群组聊天中删除，并且不允许与组进行进一步通信。 用户仍然可以查看旧对话（该对话将为只读），但无法查看或参与与组的任何新对话。 如果新的或已更改的策略阻止通信被应用到多个用户，则受该策略影响的用户可能会从群组聊天中被删除。 他们仍然可以看到旧的对话。 
+- **群组聊天**-如果不再允许从一个用户到组的通信（例如，如果用户更改了作业），则用户和其他违反该策略的用户可能会从群组聊天中删除，并且不允许与组进行进一步通信。 用户仍然可以查看旧对话（该对话将为只读），但无法查看或参与与组的任何新对话。 如果新的或已更改的策略阻止通信被应用到多个用户，则受该策略影响的用户可能会从群组聊天中被删除。 他们仍然可以看到旧的对话。
 - **团队**-已从组中删除的任何用户都将从团队中删除，并且将无法查看或参与现有对话或新对话。
 
-
-## <a name="what-will-users-experience-if-another-user-is-blocked"></a>如果其他用户被阻止，用户会遇到什么情况？
+## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>方案：现有聊天中的用户遭到阻止
 
 当前，如果信息屏障策略阻止其他用户，则用户会遇到以下情况：
 
@@ -94,11 +100,12 @@ IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详�
 - **呼叫联系人**-用户可以在通话联系人列表中看到被阻止的用户，但将标识被阻止的用户，并且用户唯一可以执行的操作是将其删除。
 - **Skype 到团队迁移**-在 Skype for Business 到团队迁移期间，所有用户（甚至是信息屏障策略阻止的用户）都将迁移到团队，然后按照上述说明进行处理。
 
-## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>是否会将文件和 SharePoint 网站体验连接到团队遵守 IB 政策？
- 
+## <a name="teams-policies-and-sharepoint-sites"></a>团队策略和 SharePoint 网站
+
 创建团队时，将预配 SharePoint 网站并将其与团队相关联以实现文件体验。 对此 SharePoint 网站和文件的访问将接受组织的 IB，即，只有其 IB 段匹配每个 IB 策略的用户才可以访问。 即使在文件共享时，IB 策略也会生效。
 
-例如：在 Contoso Bank corporation 中，用户 "Sesha@contosobank.onmicrosoft.com" 属于 "投资银行" 段，而用户 "Nikita@contosobank.onmicrosoft.com" 属于 "部门咨询"。 组织的 IB 策略阻止这两个网段之间的通信和协作。 当用户 Sesha 为投资银行段创建团队时，团队和支持它的 SharePoint 网站将仅供投资银行段用户访问。 用户 Nikita 无法访问该网站，即使她拥有网站链接也是如此。
+例如：在 Contoso Bank corporation 中，用户 "Sesha@contosobank.onmicrosoft.com" 属于 "投资银行" 段，而用户 "Nikita@contosobank.onmicrosoft.com" 属于 "部门咨询"。 组织的 IB 策略阻止这两个网段之间的通信和协作。
+当用户 Sesha 为投资银行段创建团队时，团队和支持它的 SharePoint 网站将仅供投资银行段用户访问。 用户 Nikita 无法访问该网站，即使她拥有网站链接也是如此。
 
 ## <a name="required-licenses-and-permissions"></a>所需的许可证和权限
 
@@ -111,4 +118,3 @@ IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详�
 - 若要设置信息障碍策略，请参阅[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 - 若要编辑或删除信息障碍策略，请参阅[编辑（或删除）信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
-

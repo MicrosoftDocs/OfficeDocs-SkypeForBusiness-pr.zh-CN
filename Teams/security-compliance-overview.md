@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e4c49824df9a098af5251d13234eae48db5619
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 5b687d528f7cb593039fdafd9dcc6ec08ec66372
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288620"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341640"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
@@ -56,7 +56,7 @@ Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我�
 
 ### <a name="safe-links"></a>安全链接
 
-目前，在 Microsoft 团队中，ATP 安全链接不可用，它们应在以后的日期可用，并且在这种情况下，我们将更新此内容，告诉您。 同时，有关 O365 安全链接的信息，请查看[Office 365 ATP 安全链接](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
+目前，在 Microsoft 团队中，ATP 安全链接不可用，现在，它们现在是通过我们的技术采纳计划（点击）进行公共预览，并且如果未设置常规可用性的发布日期，我们将在该时间到来时更新本文。 同时，有关 O365 安全链接的信息，请查看[Office 365 ATP 安全链接](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>条件访问策略适用于团队的方式
 
