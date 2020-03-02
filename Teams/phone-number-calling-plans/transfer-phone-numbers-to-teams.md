@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: b87684b6fbb73115540e20c72636200e61ca0e88
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089735"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370411"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>将电话号码转移到 Microsoft 团队
 
@@ -87,7 +87,7 @@ ms.locfileid: "42089735"
 
 ## <a name="what-happens-next"></a>下一步会发生什么？
 
-收到您的端口订单后，您将收到一封确认您的请求的电子邮件。 每日检查和更新您的请求，您将在电子邮件中收到有关其进度和状态的通知。 如果您的请求被拒绝，系统将要求您打开支持票证。
+收到您的端口订单后，您将收到一封确认您的请求的电子邮件。 每日检查和更新您的请求，您将在电子邮件中收到有关其进度和状态的通知。 如果您的端口请求被丢失的运营商拒绝，请联系[PSTN 服务台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
 若要查看你的端口顺序的状态，请在 Microsoft 团队管理中心的左侧导航中，转到 > 的**语音** > **端口订单**，然后单击 "**订单历史记录**"。 每个端口订单状态都在 "**状态**" 列中列出。 若要了解详细信息，请参阅[您的端口订单的状态是什么？](port-order-status.md)
 
