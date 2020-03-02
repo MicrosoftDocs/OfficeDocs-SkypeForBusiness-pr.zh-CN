@@ -4,6 +4,8 @@
 
 # [体系结构和电话解决方案海报](teams-architecture-solutions-posters.md)  
 
+# [支持远程工作人员 (WFH)](support-remote-work-with-teams.md)
+
 # 培训 
 ## [概述](training-microsoft-teams-landing-page.md)
 ## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.md)
@@ -157,6 +159,7 @@
 #### [更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [查看音频会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [为音频会议设置自动助理语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+#### [为用户设置会议拨出确认](set-up-meeting-dial-out-confirmation.md)
 
 
 ### [管理组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
