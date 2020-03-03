@@ -723,6 +723,7 @@
 ##### [Office 365 企业版 E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5（不含音频会议）](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [GOV、EDU 和非营利性组织](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [管理 Office 365 E1 试用版优惠](e1-trial-license.md)
 ### [管理 Teams 商业试用版优惠](iw-trial-teams.md)
 ### [管理 Teams 探索性体验](teams-exploratory.md)
 ### [将 Teams 免费升级到 Office 365 订阅版本](upgrade-freemium.md)
