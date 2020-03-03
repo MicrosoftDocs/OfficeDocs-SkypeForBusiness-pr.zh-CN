@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f03c4cdd13ea63dfee6470843fea5e2dafeab7c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 51afc464b5f6d0fa698250d1255315535e383bf8
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837442"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374319"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>规划 Microsoft 365 政府版-GCC 部署
 
@@ -128,7 +128,7 @@ Microsoft 365 政府版-GCC 环境为云服务（包括 FedRAMP 中等）和针�
 | | Skype 消费者-团队通话支持 | 有空 |
 | 文件 | 近来 | 有空 |
 | | Microsoft Teams | 有空 |
-| 储存 | 应用商店 | 在政府待办事项中 |
+| 储存 | 应用商店 | 有空 |
 | 搜索 | 彩信 | 有空 |
 | | 人员 | 有空 |
 | | 文件 | 有空 |
@@ -140,7 +140,6 @@ Microsoft 365 政府版-GCC 环境为云服务（包括 FedRAMP 中等）和针�
 | | 电子数据展示 | 有空 |
 
 > [!Note]
-
 > 当其他工作负荷在 GCC 云中完全可用时，它们将在所有其他集成工作完成后的团队中变为可用。
 
 
