@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理组织中用户安排的团队会议的设置。
-ms.openlocfilehash: bed367c9c40bb7124235abf204bbfa0395859685
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
+ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836462"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42413292"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -71,7 +71,9 @@ ms.locfileid: "41836462"
     - **合法 URL**如果你的组织拥有法律网站，而你希望其他人出于任何法律问题而转到该网站，请在此处输入 URL。
     - **帮助 URL**如果你的组织有支持网站，而你希望用户在遇到问题时转到该网站，请在此处输入 URL。
     - **页脚**输入要包含在页脚中的文本。
-3. 等待一小时，这样才能传播所做的更改。 然后安排团队会议以查看会议邀请的外观。  
+3. 单击 "**预览邀请**" 以查看会议邀请的预览。
+4. 完成后，单击 "**保存**"。
+5. 等待一小时，这样才能传播所做的更改。 然后安排团队会议以查看会议邀请的外观。  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>设置你希望如何处理团队会议的实时媒体流量
 
@@ -90,13 +92,13 @@ ms.locfileid: "41836462"
     ![管理中心中的会议的网络设置的屏幕截图](media/meeting-settings-network.png "Microsoft 团队管理中心中团队会议的网络设置的屏幕截图")
 
     - 若要允许对 QoS 使用 DSCP 标记，请打开**实时媒体流量的 "插入服务质量（QoS）" 标记**。 您只能选择使用标记，也可以不选择。不能为每种流量类型设置自定义标记。 有关 DSCP 标记的详细信息，请参阅[选择 QoS 实现方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
-    > [!NOTE] 
-    > 为**实时媒体流量启用 "插入服务质量（QoS）" 标记**还将启用与 UDP 端口3479（音频）、3480（视频）和3481（共享）的传输中继的通信。
+        > [!NOTE] 
+        > 为**实时媒体流量启用 "插入服务质量（QoS）" 标记**还将启用与 UDP 端口3479（音频）、3480（视频）和3481（共享）的传输中继的通信。
     - 若要指定端口范围，请在 "为**每种实时媒体流量选择端口范围**" 旁边，选择 "**指定端口范围**"，然后输入音频、视频和屏幕共享的起始和结束端口。 若要实现 QoS，选择此选项是必需的。
-    > [!IMPORTANT]
-    > 如果选择 "**自动使用任何可用端口**"，将使用1024和65535之间的可用端口。 仅在未实现 QoS 时使用此选项。
-    >
-    > 选择太窄的端口范围将导致呼叫中断和通话质量不佳。 下面的建议最少。
+        > [!IMPORTANT]
+        > 如果选择 "**自动使用任何可用端口**"，将使用1024和65535之间的可用端口。 仅在未实现 QoS 时使用此选项。
+        >
+        > 选择太窄的端口范围将导致呼叫中断和通话质量不佳。 下面的建议最少。
 
 如果不确定要在环境中使用的端口范围，以下设置是一个很好的起始点。 若要了解详细信息，请参阅[Microsoft 团队中的实施服务质量（QoS）](QoS-in-Teams.md)。 这些是所需的 DSCP 标记和建议的相应媒体端口范围（由团队和 ExpressRoute 使用）。
 
