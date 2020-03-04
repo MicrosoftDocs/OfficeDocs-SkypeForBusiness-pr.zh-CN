@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb9de199cb02ee278b0e7bb1227ac41172d1a3e1
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: 29b01c5d5bbbf386e834cf89cc2d80bff07de1ab
+ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374219"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42408847"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 
@@ -121,6 +121,24 @@ ms.locfileid: "42374219"
         </div>
         </a>
     </li>
+<li>
+        <a href="https://aka.ms/TeamsLiveTraining">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users/people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>参加实时在线培训</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
     
@@ -149,7 +167,7 @@ ms.locfileid: "42374219"
                     <div class="cardText">
                         <h3>Teams 概述</h3>
                         <p><a href="https://teamsdemo.office.com/">Teams 交互演示</a></p>  
-                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">按需实况培训：#ThisisTeams - Teams 如何为你服务</a></p>
+                        <p><a href="https://microsoftteams.eventbuilder.com/SayHellotoTeams">在线培训：向团队成员说好</a></p>
                         <p><a href="https://aka.ms/teamsgettingstartedondemand">按需实况培训：Teams 入门</a></p>
                     </div>
                 </div>
@@ -162,9 +180,9 @@ ms.locfileid: "42374219"
                 <div class="card">
                     <div class="cardText">
                         <h3>从 Skype for Business 切换到 Teams</h3>
+                         <p><a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams">在线培训：团队入门</a></p>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">文章：从 Skype for Business 切换到 Teams</a></p>
-                         <p><a href="https://aka.ms/upgrade101ondemand">按需实况培训：升级 101：了解从 Skype for Business 升级到 Teams 的情况</a></p>
-                        <p><a href="https://aka.ms/fromskypetoteamsondemand">按需实况培训：从 Skype for Business 切换到 Teams</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=yCLqmvEp7Pk&list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk&index=7&t=21s">按需实时培训：从 Skype for Business 切换到团队</a></p>
                     </div>
                 </div>
             </div>
@@ -220,6 +238,7 @@ ms.locfileid: "42374219"
                        <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">视频：开始聊天和进行通话</a></p>
                        <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">视频：使用“立即开会”创建即时会议</a></p>
                        <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">视频：管理会议</a></p>
+                       <p><a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">按需培训：与团队召开有效会议</a></p>
                     </div>
                 </div>
             </div>
@@ -235,6 +254,7 @@ ms.locfileid: "42374219"
                         <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">视频：将文件转换为选项卡</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">视频：使用命令框</a></p>
                         <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">视频：命令栏概述</a></p>
+                        <p><a href="https://aka.ms/LearnTeamsApps">按需培训：了解如何使用团队中的应用</a></p>
                     </div>
                 </div>
             </div>
