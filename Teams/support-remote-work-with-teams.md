@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fbdb875896ca07402d699f1ca2a28770cb46ee2
-ms.sourcegitcommit: ae65fb089d98665c4b26e0345bb96241fb893f0b
+ms.openlocfilehash: 80af76906697ef2510fe75d8764e8908cdbbd976
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42342899"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374309"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -29,7 +29,7 @@ ms.locfileid: "42342899"
 
 1.  请确保[已为所有人启用 Teams](assign-teams-licenses.md)
     
-      - 请查看 [Teams 探索](teams-exploratory.md) 或 [Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)，将 Teams 设为可供公司中的每个人使用。
+      - 请查看 [Teams E1 试用版](e1-trial-license.md)、[Teams 探索](teams-exploratory.md)或 [Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)，将 Teams 设为可供公司中的每个人使用。
 
       - 远程办公员工更大程度地依赖于会议和音频会议。 如果尚未推出这些工作负载，请查看“[在 Teams 中进行会议](deploy-meetings-microsoft-teams-landing-page.md)”。
 

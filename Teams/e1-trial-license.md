@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db45b65388331127c78693b52de3a0e09a35c9d7
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: 0709f28125bc43ebc372f3bd2cddd33476526237
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374340"
+ms.locfileid: "42398160"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
 ==============================
@@ -27,6 +27,8 @@ ms.locfileid: "42374340"
 2020 年 3 月新增：现提供免费期 6 个月的 Office 365 E1 试用版（包括 Microsoft Teams）。 员工为应对 COVID-19（冠状病毒）疫情爆发而希望在家办公，为了回应这一上涨的需求，Microsoft 正在提供这项特殊的 E1 试用版许可证。 
 
 要了解 E1 许可证随附了哪些功能，请参阅 [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software)。
+
+不要错过我们[通过 Teams 支持远程工作人员](support-remote-work-with-teams.md)的所有指南。
 
 ## <a name="how-to-get-an-e1-trial-license"></a>如何获取 E1 试用版许可证
 

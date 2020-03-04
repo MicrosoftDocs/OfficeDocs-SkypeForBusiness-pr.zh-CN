@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理组织中专用频道的生命周期。
-ms.openlocfilehash: 527e6421160eefa72b2a9c21e8e8f25303534320
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7cd7701a66c03dfc71d89f007eae4addaed0c89a
+ms.sourcegitcommit: f23c428043bb0b37c9a8600e64691bc2a1f2e874
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837322"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42403741"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 团队中管理专用频道的生命周期
 
@@ -102,7 +102,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ### <a name="using-powershell"></a>使用 PowerShell
 
 1. 通过管理员帐户安装和连接到[SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) 。
-2. 运行以下，其中&lt;group_id&gt;是团队的组 id。 （您可以轻松地在与团队的链接中找到组 Id。）
+2. 运行以下，其中&lt;group_id&gt;是团队的组 id。 （您可以轻松地在与团队的链接中找到组 ID。）
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -116,7 +116,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 你可以通过[图表资源管理器](https://developer.microsoft.com/graph/graph-explorer)尝试这些命令。
 
-1. 使用以下操作获取给定团队的专用通道 Id 的列表，其中 <group_id> 是团队的组 Id。 您将在后续通话中需要此内容。 （您可以轻松地在与团队的链接中找到组 Id）。
+1. 使用以下操作获取给定团队的专用通道 Id 的列表，其中 <group_id> 是团队的组 ID。 您将在后续通话中需要此内容。 （您可以轻松地在与团队的链接中找到组 ID）。
 
     **请求**
 
@@ -184,39 +184,16 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-1. 通过管理员帐户安装并连接到[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)。
-2. 运行以下， &lt;其中 group_id&gt;是团队的组 id， &lt;channel_id&gt;是信道 id。
-
-    **请求**
+1. 运行以下， &lt;其中 group_id&gt;是团队的组 id， &lt;channel_name&gt;是信道名称。
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
-    ```
-    
-    **响应**
-
-    ```PowerShell
-    HTTP/1.1 200 OK Content-type: application/json
-    Content-length:
-    {
-      "value": [
-      {
-          "description": "description-value",
-          "displayName": "display-name-value",
-          "id": "channel_id",
-          "membershipType": "membership-type-value",
-          "isFavoriteByDefault": false,
-          "webUrl": "webUrl-value",
-          "email": "email-value"
-          }
-        ]
-    }
+    Get-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" 
     ```
 
-3. 将成员提升为所有者。
+2. 将成员提升为所有者。
 
     ```PowerShell
-    Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
+    Add-TeamChannelUser -GroupId <group_id> –MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
 ### <a name="using-graph-api"></a>使用图形 API
