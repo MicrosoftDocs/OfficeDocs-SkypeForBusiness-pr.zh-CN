@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文介绍如何使用 Azure 监视器以集成的端到端方式部署 Microsoft 团队聊天室设备的管理。
-ms.openlocfilehash: 54268676eadab25599d4f8b6e415ff373717943f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826260"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417537"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>部署:::no-loc text="Microsoft Teams Rooms":::管理:::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "41826260"
 
 通过遵循本指南，你可以使用仪表板（如以下示例）获取有关设备可用性、应用程序和硬件运行状况以及:::no-loc text="Microsoft Teams Rooms":::应用程序和操作系统版本分发的详细状态报告。
 
-![示例:::no-loc text="Log Analytics":::视图的屏幕截图:::no-loc text="Microsoft Teams Rooms":::](../media/Deploy-Azure-Monitor-1.png "示例:::no-loc text="Log Analytics":::视图:::no-loc text="Microsoft Teams Rooms":::"）
+![Microsoft 团队聊天室示例 Log Analytics 视图的屏幕截图](../media/Deploy-Azure-Monitor-1.png "Microsoft 团队聊天室的日志分析视图示例")
 
 你需要在高级别执行以下任务：
 
@@ -373,7 +373,7 @@ ms.locfileid: "41826260"
 5.  配置警报逻辑设置：<br>
     **基于：** 结果数<br>
     **条件：** 大于<br>
-    **Treshold：** 0<br>
+    **阈值：** 0<br>
 
 6. 配置评估设置，然后选择 "**完成**"： <br>
     **周期（分钟）：** 60<br>
@@ -383,7 +383,7 @@ ms.locfileid: "41826260"
     1.  选择 "**新建**"
     2.  为 "*操作组名称*" 和 "*短名称*" 字段提供合适的名称。
     3.  指定唯一的*操作名称*，选择 "**电子邮件/短信/短信/推/语音**"，然后选择 "**编辑详细信息**"。
-    4.  选择 "电子邮件" 复选框，并提供将接收通知的人员或组的电子邮件地址。
+    4.  选择 "**电子邮件**" 复选框，并提供将接收通知的人员或组的电子邮件地址。
     5.  您还可以提供您的电话号码以接收短信通知、语音通话或同时获得这两者。
     6. 选择 **"确定"**。
 

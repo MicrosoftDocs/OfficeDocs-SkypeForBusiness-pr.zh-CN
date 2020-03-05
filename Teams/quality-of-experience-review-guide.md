@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160776"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417847"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南
 
@@ -379,7 +379,7 @@ _图 5-选择产品筛选器_
 
 **上例**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 有关 URL 筛选器的详细信息，请参阅本部分后面的[筛选报告](#filtering-reports)。
 
@@ -472,11 +472,11 @@ CQD 中的许多维度和度量值都属于第一或第二。 CQD 不使用 "调
 
 您可以通过以下三种方式之一访问 CQD：
 
--   转到 <https://cqd.lync.com>。
+-   转到 <https://cqd.teams.microsoft.com>。
 
 -   转到 " **Microsoft 团队管理中心**" 并选择指向 CQD 的链接，如下图所示。
 
-![选中的通话质量仪表板的屏幕截图。](media/qerguide-image-mopo.png "在左侧导航窗格中，选择 "链接到呼叫质量" 仪表板。")
+![所选通话质量仪表板的屏幕截图。](media/qerguide-image-mopo.png "在左侧导航窗格中，选择 "链接到呼叫质量" 仪表板。")
 
 _图 7-通过 Microsoft 团队管理中心访问 CQD_
 
@@ -497,7 +497,7 @@ _图 9-导航到详细报告_
 
 CQD 中的 "详细报告" 页面类似于下图。
 
-![演示构成详细报表的元素的屏幕截图](media/qerguide-image-detailedreportspage.png)
+![演示组成详细报表的元素的屏幕截图](media/qerguide-image-detailedreportspage.png)
 
 |             |           |
 | ------------|-----------|
@@ -543,7 +543,7 @@ _图 11-查询编辑器_
 
 上例  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 若要筛选团队或 Skype for business 的报表，请将以下内容附加到 URL 的末尾：
 
@@ -553,11 +553,11 @@ _图 11-查询编辑器_
 
 上例
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> 上面的 URL 示例仅适用于视觉表示形式。 请使用的默认 CQD 链接<https://cqd.lync.com>。
+> 上面的 URL 示例仅适用于视觉表示形式。 请使用的默认 CQD 链接<https://cqd.teams.microsoft.com>。
 
 
 #### <a name="query-filters"></a>查询筛选器
@@ -591,7 +591,7 @@ _表 4-报表筛选器_
 
 **若要导入模板（。CQDX）进入 CQD Online**
 
-1. 转到 <https://cqd.lync.com>。
+1. 转到 <https://cqd.teams.microsoft.com>。
 
 2. 使用 Office 365 管理凭据进行身份验证。
 
@@ -690,7 +690,7 @@ _表 5-构建文件结构_
 
 - 使用 VPN 子网的此字段中的文本 "VPN" 定义**网络名称**。
 
-  ![显示使用网络名称的 VPN 的 QCD 报告屏幕截图](media/qerguide-image-vpnnetworkname.png)
+  ![使用网络名称显示 VPN 的 QCD 报告屏幕截图](media/qerguide-image-vpnnetworkname.png)
 
   _图 12-使用网络名称的 VPN_
 
@@ -711,7 +711,7 @@ _表 5-构建文件结构_
 
 CQD 摘要报告仪表板包括**租户数据上载**页面，该页面通过选择右上角中的**租户数据上载**链接标记进行访问（查找齿轮图标）。 此页面用于管理员上载其自己的信息，例如 IP 地址和地理信息的映射、映射每个无线访问点及其 MAC 地址等。
 
-1. 通过浏览转到 CQD Online <https://cqd.lync.com>。
+1. 通过浏览转到 CQD Online <https://cqd.teams.microsoft.com>。
 
 2. 选择右上角的齿轮图标，然后从 "**摘要报告**" 页面中选择 "**租户数据上载**"。
 
@@ -778,7 +778,7 @@ CQD 摘要报告仪表板包括**租户数据上载**页面，该页面通过选
 > [!NOTE] 
 > 请确保将 "月" 报表筛选器调整为当前月份。 选择 "**编辑**"，然后调整 "**月**" 报表筛选器以保存新的默认月份。
 
-![显示缺少子网报表的屏幕截图](media/qerguide-image-missingbuildingreport.png)
+![显示丢失的子网报表的屏幕截图](media/qerguide-image-missingbuildingreport.png)
 
 _图 17-缺少生成报告_
 
@@ -1130,7 +1130,7 @@ _图 28-具有 HTTP 代理使用的音频流_
 > [!NOTE]
 > 请确保将 "月份年份" 筛选器调整为当前月份。 选择 "**编辑**"，然后调整**月份年份**以保存新的默认月份。
 
-![通过构建和子网 Sreen 的 HTTP 代理使用情况报告的快照](media/qerguide-image-httpproxyusage.png)
+![通过构建和子网来报告 HTTP 代理使用情况的屏幕截图](media/qerguide-image-httpproxyusage.png)
 
 _图29–通过构建和子网进行的 HTTP 代理使用_
 

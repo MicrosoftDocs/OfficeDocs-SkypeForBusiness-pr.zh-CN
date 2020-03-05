@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: f9c8f0fe24cfb94be368fb2afa6446f311f2f790
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339457"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417877"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -97,7 +97,7 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
 
 在非持久设置中，用户注销后将不保留用户的本地操作系统更改。 此类设置通常共享多用户会话。 VM 配置根据用户数量和可用的物理箱资源而有所不同。
 
-对于非持久设置，必须将团队桌面应用安装到黄金图像的每台计算机上。 （若要了解详细信息，请参阅在[VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)）。 这可确保在用户会话期间有效地启动团队应用。 将团队与非持久性设置配合使用时，还需要配置文件缓存管理器才能高效团队运行时数据同步。这可确保在用户会话期间缓存相应的特定于用户的信息（例如，用户数据、配置文件和设置）。  有多种可用的缓存管理器解决方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 有关特定配置说明，请咨询您的缓存管理器提供程序。
+对于非持久设置，必须将团队桌面应用安装到黄金图像的每台计算机上。 （若要了解详细信息，请参阅[在 VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)。）这可确保在用户会话期间有效地启动团队应用。 将团队与非持久性设置配合使用时，还需要配置文件缓存管理器才能高效团队运行时数据同步。这可确保在用户会话期间缓存相应的特定于用户的信息（例如，用户数据、配置文件和设置）。  有多种可用的缓存管理器解决方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 有关特定配置说明，请咨询您的缓存管理器提供程序。
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>用于非持久设置的工作组缓存的内容排除列表
 

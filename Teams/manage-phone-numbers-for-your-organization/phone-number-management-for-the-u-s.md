@@ -20,17 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 使用此表查找有关在 Microsoft 团队的美国（和波多黎各）中获取和管理电话号码的信息。
-ms.openlocfilehash: 8013b3a822f9e453dd60bb7e5af73a1326f7c04c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 使用此表查找有关在 Microsoft 团队的美国（包括波多黎各）中获取和管理电话号码的信息。
+ms.openlocfilehash: a3c94b4e091529fdc2fa3389b3b0155f5bf118d9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706927"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417627"
 ---
 # <a name="phone-number-management-for-the-us"></a>美国的电话号码管理
 
-使用此表查找有关在 Microsoft 团队的美国（和波多黎各）中获取和管理电话号码的信息。
+使用此表查找有关在 Microsoft 团队的美国（包括波多黎各）中获取和管理电话号码的信息。
 
 有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization.md)。
   
