@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在停用2020年2月28日的 Exchange 统一消息联机（ExchUMO）服务。 本文总结了受影响的客户应了解的内容，并将为其规划业务连续性而执行此操作。
-ms.openlocfilehash: f6adb1636d6a40e41b006c3981dc4d21ba503289
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374299"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417617"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息联机迁移支持
 
@@ -49,8 +49,8 @@ Microsoft 已识别出使用 ExchUMO 中的功能的各种客户部署，并将�
 
 |Customer 组 |日程表  |详细信息  |
 |---------|---------|---------|
-|准备好迁移的客户<br><br>要迁移的功能：<br><ul><li>Voicemail</ul>   |   3月—5月2019  |示例：<ul><li>    具有简单语音邮件部署和使用情况的客户<li>已为 Microsoft 建立了所有要求以执行迁移的客户<ul>|
-|具有先决条件的客户<br><br>要迁移的功能：<br><ul><li>Voicemail<li>自动助理<li>呼叫队列</ul> |  可能-12 月2019 |示例： <br><ul><li>混合配置未完成<li>未设置混合 PSTN 号码</ul>|
+|准备好迁移的客户<br><br>要迁移的功能：<br><ul><li>语音邮件</ul>   |   3月—5月2019  |示例：<ul><li>    具有简单语音邮件部署和使用情况的客户<li>已为 Microsoft 建立了所有要求以执行迁移的客户<ul>|
+|具有先决条件的客户<br><br>要迁移的功能：<br><ul><li>语音邮件<li>自动助理<li>呼叫队列</ul> |  可能-12 月2019 |示例： <br><ul><li>混合配置未完成<li>未设置混合 PSTN 号码</ul>|
 |需要管理员参与 & 客户投资的客户<br><br>要迁移的功能：<ul><li>语音邮件<li>自动助理<li>呼叫队列<li>传真集成</ul>| 年2月2020  | 示例： <br><ul><li>ExchUMO 服务由第三方 PBX 使用<li>具有 PSTN 订阅者访问要求的客户<li>SFB 2010 上的客户（不支持）<li>传真集成</ul> |
 
 ## <a name="voicemail-migration-steps"></a>语音邮件迁移步骤
@@ -235,6 +235,8 @@ Office 365 租户管理员需要在 Microsoft 云自动助理服务中重新创�
 若要了解有关自动助理的详细信息，请参阅[设置云自动助理](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant)。
 
 #### <a name="known-issues"></a>已知问题
+
+**迁移后禁用订阅者访问以避免问候语不一致**订阅者访问可能仍适用于你的租户，直到服务完全停用，即使你的所有用户都已迁移到云语音邮件也是如此。 若要避免用户混淆和不一致的体验，请禁用订阅者访问，因为在迁移后问候语发生更改将不会生效。 若要执行此操作，请使用 CsExUmContact | 将每个订阅者访问线路的 EXUM 联系人删除。{$_.IsSubscriberAccess-eq $true} |CsExUmContact 
 
 **自动助理呼叫转移到 PSTN**鼓励客户配置临时的替代方法，以满足将自动助理呼叫转移到外部 PSTN 号码或 RGS 实例的要求。 
  

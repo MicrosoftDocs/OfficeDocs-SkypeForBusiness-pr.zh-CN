@@ -12,12 +12,12 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6566202dbbfa112f884ac1bb8380d1d554ba994
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0affd2d951d437a930bc7f210e0878e2978f8731
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731602"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417577"
 ---
 # <a name="system-requirements-for-servers-running-lync-server-2013"></a>运行 Lync Server 2013 的服务器的系统要求
 
@@ -37,21 +37,21 @@ ms.locfileid: "41731602"
 
 <span> </span>
 
-_**主题上次修改时间：** 2014-07-24_
+_**上次修改的主题：** 2014-07-24_
 
 <div>
 
 
-> [!NOTE]  
+> [!NOTE]
 > 有关硬件要求的详细信息，请参阅<A href="lync-server-2013-server-hardware-platforms.md">Lync server 2013 的服务器硬件平台</A>。
 
 
 
 </div>
 
-标准版和企业版服务器共享相同的软件要求。
+Standard Edition 和 Enterprise Edition 服务器共用相同的软件要求。
 
-对于运行 Lync Server 2013 的服务器，企业版适用于作为主要组织部署的大型组织。 企业版服务器设计为每个池中大约80000穴用户。 运行 Lync Server 2013 的服务器的标准版适用于较小组织和组织内部部署中的远程位置。 一对标准版服务器最多可支持5000个用户。。 有关标准版服务器和企业版服务器之间的差异的详细信息，请参阅[Lync Server 2013 的部署概述](lync-server-2013-deployment-overview.md)。
+运行 Lync Server 2013 的服务器的企业版适用于大型组织作为组织的主要部署。 Enterprise Edition Server 的设计规模为每个池大约承载 80,000 个用户。 运行 Lync Server 2013 的服务器的 Standard Edition 适用于从组织的主部署中的小型组织和远程位置。 一对 Standard Edition 服务器最多可支持5000个用户。。 有关 Standard Edition server 和 Enterprise Edition server 之间的差异的详细信息，请参阅[Lync Server 2013 的部署概述](lync-server-2013-deployment-overview.md)。
 
 <div>
 
@@ -60,14 +60,14 @@ _**主题上次修改时间：** 2014-07-24_
 <div>
 
 
-> [!IMPORTANT]  
-> Lync Server 2013 仅在64位版本中可用，它需要64位硬件和 Windows Server 操作系统的一个64版本。 此版本不支持 Lync Server 2013 的32位版本。
+> [!IMPORTANT]
+> Lync Server 2013 仅适用于64位版本，它需要64位硬件和一种64版本的 Windows Server 操作系统。 在此版本中，Lync Server 2013 的32位版本不可用。
 
 
 
 </div>
 
-标准版和企业版服务器可以使用以下任何一种：
+Standard Edition 和 Enterprise Edition server 可以使用以下任一项：
 
   - Windows Server 2008 R2 SP1 或最新 service pack
 
@@ -75,15 +75,16 @@ _**主题上次修改时间：** 2014-07-24_
 
   - Windows Server 2012 R2
 
-在标准版服务器或企业版前端服务器上安装操作系统软件。 应用所有更新，以使操作系统的最新更新和所需更新级别与组织的标准一致。 有关操作要求的更多详细信息，请参阅支持文档中的[Lync server 2013 中的 "服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)"。
+在 Standard Edition Server 或 Enterprise Edition 前端服务器上安装操作系统软件。 应用所有更新以使操作系统达到最新更新以及与组织标准一致的必需更新级别。 有关操作要求的更多详细信息，请参阅可支持性文档中的[Lync server 2013 中的服务器和工具操作系统支持](lync-server-2013-server-and-tools-operating-system-support.md)。
 
-> [!NOTE] Lync Server 2013 不支持操作系统就地升级。  必须部署单独的池并将用户迁移到具有不同操作系统的新池。
+> [!NOTE] 
+> Lync Server 2013 不支持操作系统的就地升级。  您必须部署单独的池，并将用户迁移到具有不同操作系统的新池。
 
 <div>
 
 
-> [!NOTE]  
-> 要使 Lync Server 2013 在 Windows Server 2012 R2 上工作，你可能需要在 Windows Server 中更改注册表项的值。 若要使证书正常工作，并且客户端向 Survivable 分支机构注册，则可能需要此更改。 有关详细信息，请参阅 <A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>。
+> [!NOTE]
+> 若要在 Windows Server 2012 R2 上运行 Lync Server 2013，您可能需要在 Windows Server 中更改注册表项的值。 若要使证书正常工作，并且要向 Survivable 分支机构注册的客户端，可能需要进行此更改。 有关详细信息，请<A class=uri href="https://support.microsoft.com/kb/2901554">https://support.microsoft.com/kb/2901554</A>参阅。
 
 
 
@@ -93,7 +94,7 @@ _**主题上次修改时间：** 2014-07-24_
 
 ## <a name="additional-software-for-lync-server-2013"></a>Lync Server 2013 的其他软件
 
-除了操作系统需要的更新外，Lync Server 2013 还需要操作系统角色、功能和软件才能运行。 有关在发布拓扑和安装 Lync Server 2013 之前必须安装的其他软件的详细信息，请参阅规划文档中[Lync Server 2013 的其他软件要求](lync-server-2013-additional-software-requirements.md)。
+除了操作系统所需的更新外，Lync Server 2013 还需要操作系统角色、功能和软件才能运行。 有关在发布拓扑和安装 Lync Server 2013 之前必须安装的其他软件的详细信息，请参阅规划文档中的[其他软件要求（Lync server 2013](lync-server-2013-additional-software-requirements.md) ）。
 
 </div>
 
@@ -103,21 +104,21 @@ _**主题上次修改时间：** 2014-07-24_
 
 ## <a name="additional-software-necessary-for-all-server-roles"></a>所有服务器角色所需的其他软件
 
-在所有服务器角色上，还必须确保安装了 Windows PowerShell 命令行界面3.0 和 Microsoft .NET Framework 4.5。
+在所有服务器角色上，还必须确保安装了 Windows PowerShell 命令行接口3.0 和 Microsoft .NET Framework 4.5。
 
-此外，在运行 Lync Server 管理工具的任何计算机上都需要 Windows PowerShell 命令行界面3.0 和 Microsoft .NET Framework 4.5。
+此外，在任何将运行 Lync Server 管理工具的计算机上都需要 Windows PowerShell 命令行接口3.0 和 Microsoft .NET Framework 4.5。
 
 <div>
 
 ## <a name="windows-powershell-30"></a>Windows PowerShell 3.0
 
-Lync Server 2013 要求你在将参与 Lync Server 拓扑的每台计算机上安装 Windows PowerShell 3.0。 有关安装 Windows PowerShell 3.0 的详细信息，请参阅[安装 Lync Server 2013 的 Windows PowerShell 3.0](lync-server-2013-installing-windows-powershell-3-0.md)。
+Lync Server 2013 要求您在将参与 Lync Server 拓扑的每台计算机上安装 Windows PowerShell 3.0。 有关安装 Windows PowerShell 3.0 的详细信息，请参阅[安装 Windows powershell 3.0 For Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)。
 
 <div>
 
 
-> [!NOTE]  
-> 在 Windows Server&nbsp;2008&nbsp;R2 SP1 上安装 Microsoft .net Framework 4.5 之前，无法安装 windows PowerShell 命令行界面3.0。
+> [!NOTE]
+> 在 Windows Server&nbsp;2008&nbsp;R2 SP1 上，在安装 Microsoft .net Framework 4.5 之前，不能安装 windows PowerShell 命令行界面3.0。
 
 
 
@@ -129,11 +130,11 @@ Lync Server 2013 要求你在将参与 Lync Server 拓扑的每台计算机上�
 
 ## <a name="microsoft-net-framework-45"></a>Microsoft .NET Framework 4.5
 
-在将在 Windows Server 2012 或 Windows Server 2012 R2 上运行 Lync Server 2013 的服务器上安装 Microsoft .NET Framework 4.5 时，必须执行一个附加步骤。 安装 .NET Framework 4.5 后，请使用服务器管理器安装 HTTP 激活。
+在将在 Windows Server 2012 或 Windows Server 2012 R2 上运行 Lync Server 2013 的服务器上安装 Microsoft .NET Framework 4.5 时，必须执行一个额外的步骤。 安装 .NET Framework 4.5 后，请使用服务器管理器安装 HTTP 激活。
 
 **在 Windows Server 2012 或 Windows Server 2012 R2 上安装 .NET 4.5 HTTP 激活**
 
-1.  从 "**开始**" 菜单中，单击 "**程序**"，然后单击 "**管理工具**"，然后单击 "**服务器管理器**"。
+1.  从 "**开始**" 菜单中，单击 "**程序**"，再单击 "**管理工具**"，然后单击 "**服务器管理器**"。
 
 2.  在服务器管理器中的 "**功能摘要**" 下，选择 "**添加功能**"。
 
