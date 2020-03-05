@@ -16,21 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb0998579c29cd7405319600c436468bac2ec4e8
-ms.sourcegitcommit: 73376693670d12f3d9038d4ed604e6685ee21984
+ms.openlocfilehash: f2629f855485f0301f6a7fc576cd17a9e1c1f49d
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41917017"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42398170"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
 
-借助 Microsoft Teams Exploratory 体验，组织中拥有 Azure Active Directory (AAD) 且未获得 Teams 许可的用户可以启用 Teams 的探索体验。 管理员可以为组织中的用户打开或关闭此功能。 以前的 [Microsoft 商业云试用版](iw-trial-teams.md)现在称为 Teams Exploratory 体验。
+借助 Microsoft Teams Exploratory 体验，组织中拥有 Azure Active Directory (AAD) 且未获得 Teams 许可的用户可以启用 Teams 的探索体验。 管理员可以为组织中的用户打开或关闭此功能。 以前的 [Microsoft 商业云试用版](iw-trial-teams.md)现在替换为 Teams Exploratory 体验。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory 体验中包含哪些服务？
 
-Teams Exploratory 体验中包含的服务计划如下：
+管理员将在 Teams Exploratory 体验中看到的服务计划有：
  - Exchange Online（计划 1)
  - Flow for Office 365
  - MyAnalytics 提供的见解
@@ -51,13 +51,14 @@ Teams Exploratory 体验中包含的服务计划如下：
  - Yammer 企业版
 
 
-## <a name="whos-eligible"></a>要获取 Teams Exploratory 体验，需要满足什么条件？
+## <a name="whos-eligible"></a>谁有资格使用？
+
+只要用户拥有托管 AAD 域电子邮件地址，并且当前尚未分配 Teams 许可证，则他们有资格获得此体验。 例如，如果用户拥有 Office 365 商业版（不包括 Teams），则他们符合获取 Teams Exploratory 体验的条件。
 
 必须允许用户注册应用和试用版（在 Microsoft 365 管理中心中）。 有关详细信息，请参阅本文后面部分的[管理 Teams Exploratory 体验](#manage-the-teams-exploratory-experience)。 
 
-没有包含 Teams 的 Office 365 许可证的用户可以启用 Teams Exploratory 体验。 例如，如果用户拥有 Office 365 商业版（不包括 Teams），则他们符合获取 Teams Exploratory 体验的条件。
 
-## <a name="who-isnt-eligible"></a>不符合条件的情况
+## <a name="who-isnt-eligible"></a>谁没有资格使用
 
 如果你是联合合作伙伴客户，或者是 GCC、GCC High、DoD 或 EDU 客户，则你的组织没有资格使用该服务。
 
@@ -144,10 +145,18 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>这对旧版 Microsoft Teams 商业云试用版许可证有何影响？
 
-从 2020 年 1 月中旬起，符合条件的用户可开始使用最新的 Microsoft Teams Exploratory 体验。 所有旧版 Teams 商业云试用版许可证将在试用版到期前自动转换为新的服务。
+从 2020 年 2 月起，符合条件的用户可开始使用最新的 Microsoft Teams Exploratory 体验。 所有旧版 Teams 商业云试用版许可证将在试用版到期前自动转换为新的服务。
 
 ### <a name="remove-a-teams-exploratory-license"></a>删除 Teams Exploratory 许可证
 
 - 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
 - 如果要通过管理门户删除此许可证，请参阅：[在 Office 365 商业版中删除用户许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+
+## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 体验持续多长时间？
+
+在下一个企业协议周年纪念日或在 2021 年 1 月或之后续订前，可免费使用 Microsoft Teams Exploratory 体验。 届时，Microsoft Exploratory 体验许可证的最终用户需要迁移到包含 Teams 的付费许可证。 此后启动的任何 Microsoft Exploratory 体验许可证将始终免费使用，直到下一个周年纪念日或续订周期为止。 
+
+### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>如果最终用户刚好在我的周年纪念或续订日期前启动 Microsoft Teams Exploratory 体验，会发生什么情况？
+
+在你的企业协议周年纪念日或续订之日前 90 天内启动的 Microsoft Teams Exploratory 体验许可证将不需要迁移到付费许可证，直到下一个周年纪念日或续订周期。 
