@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3415c68ec8d27789bd00161fc70107a3be672431
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837362"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417867"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -52,15 +52,33 @@ ms.locfileid: "41837362"
                     <div class="cardText">
                         <h3>从30开始使用团队</h3>
                         <P>让您的团队在右页脚的30旅程内开始。 了解应参与的计划，以及可用于确保你成功的资源。</P>
-                        <p>受众：企业赞助商、IT 管理员、采纳和更改所有者</p>
+                        <p>*受众：企业赞助商、IT 管理员、采纳和更改所有者*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li></li>  
-    <li> 
+   <li>
+        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>最终用户准备就绪：</h3>
+                    <p>探索用于准备用户、构建冠军的一个临时组件以及确保用户接受作为团队推出的核心组件的战略和资源。</p><p>*受众：采纳和更改所有者*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li> 
         <a href="https://microsoftteams.eventbuilder.com/T30PrepareI"target="_blank"">
         <div class="cardSize">
             <div class="cardPadding">
@@ -72,7 +90,7 @@ ms.locfileid: "41837362"
                     </div>
                     <div class="cardText">
                     <h3>准备环境-第一部分</h3>
-                    <p>设置团队推出的基础。 确定团队先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p>受众：IT 管理员</p>
+                    <p>设置团队推出的基础。 确定团队先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p>*受众：IT 管理员*</p>
 </div>
                 </div>
             </div>
@@ -90,32 +108,13 @@ ms.locfileid: "41837362"
                     </div>
                     <div class="cardText">
                         <h3>准备环境-第 II 部分</h3>
-                    <p>既然你已经掌握了基础知识，请了解针对团队实施合规性、保留、管理和音频会议的最佳做法。</p><p>受众：IT 管理员</p>
+                    <p>既然你已经掌握了基础知识，请了解针对团队实施合规性、保留、管理和音频会议的最佳做法。</p><p>*受众：IT 管理员*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li> 
-   <li>
-        <a href="https://microsoftteams.eventbuilder.com/T30ReadyUsers"target="_blank"">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Two person icons with representing users" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>最终用户准备就绪：</h3>
-                    <p>探索用于准备用户、构建冠军的一个临时组件以及确保用户接受作为团队推出的核心组件的战略和资源。</p><p>受众：采纳和更改所有者</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
  <li>
         <a href="https://microsoftteams.eventbuilder.com/T30Optimize"target="_blank"">
         <div class="cardSize">
@@ -129,13 +128,33 @@ ms.locfileid: "41837362"
                     <div class="cardText">
                     <h3>优化和扩展</h3>
                     <p>设计包括优化服务性能、扩大团队功能和加入新用户的计划。</p>
-                    <p>受众：企业赞助商、IT 管理员、采纳和更改所有者</p>
+                    <p>*受众：企业赞助商、IT 管理员、采纳和更改所有者*</p>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+   <li>
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/sign-up-teams.svg" alt="Sign up symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>粉笔的团队</h3>
+                    <p>通过主题专家的参与，这些在线交互式研讨会提供了一种独特的机会来了解有关团队中的一些最常见和引人注目方案的最佳做法和实践指南。</p><p>*受众：IT 管理员*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+
 </ul>
 
     

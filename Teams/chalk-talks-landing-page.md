@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: ab643059e57b5ec621100662c4585e43e1a91607
-ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
+ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409798"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417597"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -82,7 +82,7 @@ ms.locfileid: "42409798"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>在60分钟内构建团队应用</h3>
+                        <h3>在60分钟内部署团队应用</h3>
                         <p><font color="red"><i>即将推出！</i></font> 使用应用模板扩展团队，以生成在团队中每天使用的工具，以便你可以在单个体验内完成作业。</p>
                     </div>
                 </div>
