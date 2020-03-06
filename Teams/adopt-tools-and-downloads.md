@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033019"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551000"
 ---
 # <a name="tools-for-driving-adoption"></a>促进采纳的工具 
 
@@ -155,4 +155,4 @@ Office 365 拥护者程序是一个免费计划，可帮助希望从 Microsoft �
 查看[团队采纳 flipbook](https://aka.ms/teamstoolkit)，这是一个可帮助你在公司中推广团队的在线指南。 它包含许多可下载的工具、模板和其他资源，可帮助您在团队中采纳旅行。
 
 ### <a name="teams-customer-success-kit"></a>团队客户成功工具包
-"[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)" 提供了帮助您在组织中部署团队的工具。 它包括通知、传单海报、倒计时和提示 & 技巧的电子邮件模板。 它还包括团队领导和 IT 管理员入门指南。
+"[团队客户成功工具包](https://aka.ms/TeamsCustomerSuccess)" 提供了帮助您在组织中部署团队的工具。 它包括通知、传单海报、倒计时和提示 & 技巧的电子邮件模板。 它还包括团队领导和 IT 管理员入门指南。
