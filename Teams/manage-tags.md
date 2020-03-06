@@ -16,30 +16,31 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中管理组织中如何使用标记。
-ms.openlocfilehash: 3ade2f47474fe8aaf16c568e8c141dcd84526d86
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034489"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551039"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 团队中的标记
 
 > [!NOTE]
 > 尚未在 Microsoft 团队管理中心中看到此功能？ 当前正在推出此功能，可能在贵组织中还不可用。 若要保持在即将到来的团队功能上，请查看[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
 
-Microsoft 团队中的标记使用户能够与团队中的一部分人员进行通信。 可将标记添加到一个或多个团队成员，以便轻松地与用户的正确子集连接。 团队所有者和成员（如果为其启用了该功能）可以向某个人员添加一个或多个标记。 然后，可在频道发布 @mentions 由团队中的任何人使用，以便仅与分配了该标记的人员进行通信。
+Microsoft 团队中的标记使用户能够与团队中的一部分人员进行通信。 可将标记添加到一个或多个团队成员，以便轻松地与用户的正确子集连接。 团队所有者和成员（如果为其启用了该功能）可以向某个人员添加一个或多个标记。 然后，这些标记可在频道发布中由团队的任何人 @mentions，或者仅与分配了该标记的人员开始对话。
 
 > [!NOTE]
 > 专用频道尚不支持标记。
 
 ## <a name="how-tags-work"></a>标记的工作方式
 
-可以向特定团队中的人员添加标记。 添加标记后，可以在团队的任何标准频道 @mentions 中使用。 下面是如何在团队中使用标记的一些示例：
+可以向特定团队中的人员添加标记。 添加标记后，可以在聊天中的 @mentions 或团队的任何标准频道中使用。 下面是如何在团队中使用标记的一些示例：
 
 - 商店经理希望向频道发布公告并通知所有出纳。
 - 组产品经理希望向频道中的所有产品经理发送消息。
 - 医院管理员想要向频道中的所有 radiologists 发送一封邮件。
+- 市场营销经理希望开始与所有设计人员进行群组聊天。 
 
 若要了解详细信息，请参阅[使用团队中的标记](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69cfb557f04644c1bb54d78ae24a8110d42ee8a0
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030766"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551029"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建首批团体
 
@@ -46,7 +46,7 @@ ms.locfileid: "42030766"
 |----------------- | ---------- |
 | **Microsoft 团队部署** ||
 | 常规 | Web 选项卡：[团队文档](https://aka.ms/SuccessWithTeams) |
-| 意识和采纳 | [团队采用中心](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| 意识和采纳 | [团队采用中心](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
 | 商务服务 | Wiki –交往指南<br/>表单–团队咨询请求<br/>列表-预订请求 |
 |早期采纳者 | 已固定的反馈社区 <br/> OneNote for 常见问题和常见主题 |
 | 反馈和报告 | 已固定的 Office 365 使用情况报表（仅适用于 Office 365 管理员） |

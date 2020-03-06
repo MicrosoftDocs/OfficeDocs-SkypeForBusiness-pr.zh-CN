@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0709f28125bc43ebc372f3bd2cddd33476526237
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
+ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398160"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42507950"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
 ==============================
@@ -47,7 +47,9 @@ ms.locfileid: "42398160"
 
 ## <a name="who-isnt-eligible"></a>谁没有资格使用
 
-- 本优惠不适用于 GCC、GCC High、DoD 或 EDU 客户。 我们正在努力开发 E1 试用版的 GCC 版本（即将推出）。 
+- 本优惠不适用于 GCC、GCC High、DoD 或 EDU 客户。 
+
+- 对于 GCC，请查看 [Office 365 G1 试用版](g1-trial-license.md)。 
 
 - EDU 客户可使用免费的 Office 365 A1 许可证。
 

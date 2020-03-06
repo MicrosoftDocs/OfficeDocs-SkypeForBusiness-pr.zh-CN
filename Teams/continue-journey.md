@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825300"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550909"
 ---
 ![升级旅行图，强调卓越运营阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段，重点关注运营卓越阶段")
 
@@ -47,7 +47,7 @@ ms.locfileid: "41825300"
 
 - 登记对等拥护机以帮助布道和鼓励其他用户。
 - 检查[Office 365 采纳指南](https://go.microsoft.com/fwlink/?linkid=859045)，了解有关提升活动和推动采纳的提示。
-- 利用[团队客户成功工具包](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)增强意识并分享最佳做法。
+- 利用[团队客户成功工具包](https://aka.ms/TeamsCustomerSuccess)增强意识并分享最佳做法。
 - 实施正式的[采纳和更改管理策略](http://www.successwithteams.com/)以帮助保持采用增长。
 
 ## <a name="prepare-for-new-functionality"></a>准备新功能
