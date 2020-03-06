@@ -621,8 +621,10 @@
 ##### [STU3 接口规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
 ##### [将患者应用连接到 Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
 #### [患者应用的审核日志](expand-teams-across-your-org/healthcare/patients-audit.md)
+
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
+### [远程学习入门](remote-learning-edu.md)
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
 ### [用于 EDU 管理员的 Microsoft Teams 政策包](policy-packages-edu.md)
