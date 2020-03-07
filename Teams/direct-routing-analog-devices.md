@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本文以了解如何将模拟设备与 Microsoft Phone 系统直接路由配合使用。
-ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341789"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558512"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>如何将模拟设备与电话系统直接路由配合使用
 
@@ -39,16 +39,17 @@ ms.locfileid: "42341789"
 
 此示例将指导你完成以下步骤：
 
-1. 将 SBC 连接到直接路由
-2. 创建 PSTN 使用
-3. 创建语音路由并将其与 PSTN 使用相关联
-4. 将语音路由分配给 PSTN 使用
-5. 启用联机用户
-6. 为用户分配语音路由策略
-7. 为模拟设备创建语音路由
+1. 将 SBC 连接到直接路由。
+2. 创建 PSTN 使用。
+3. 创建一个语音路线，并将其与 PSTN 使用相关联。
+4. 将语音路由分配给 PSTN 使用。
+5. 启用联机用户。
+6. 将语音路由策略分配给用户。
+7. 为模拟设备创建语音路由。
 
 有关如何将 ATA 连接到 SBC 和配置 SBC 的信息，请参阅 SBC 制造商配置指南：
 - [AudioCodes 配置文档](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [功能区配置文档](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>第 1 步  将 SBC 连接到直接路由
 

@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中为实时事件进行设置
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -18,12 +18,12 @@ description: 了解在团队中设置事件的活动的步骤，包括准备网�
 ms.custom: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 469e693b8ad04bb214831e2c444c9fb11fc10128
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f18f35ef6775f04049b79374a4e2940646eff9e8
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827020"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558572"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 

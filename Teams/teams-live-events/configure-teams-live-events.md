@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中配置实时事件设置
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/11/2019
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cdfd1bc832827dbcf48e82a49ed4d02c38116bb
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 222e7e51fcf87e0e76c3ab18f33357f7489a1ce1
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827140"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558592"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
@@ -38,7 +38,7 @@ ms.locfileid: "41827140"
 
 此 URL 将显示给实时事件参与者。 为你的组织添加支持 URL，以便与会者在实时事件期间向其提供联系支持的方法。
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft 团队徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft 团队徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 在左侧导航中，转到 "**会议** > **实时事件设置**"。
 2. 在 "**支持 url**" 下，输入您的组织的支持 url。 
@@ -55,7 +55,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 如果你通过 Microsoft 视频传递合作伙伴购买和设置软件定义的网络（SDN）解决方案或企业内容交付网络（eCDN）解决方案，请为团队中的实时事件配置提供程序。 
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft 团队徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft 团队徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 在左侧导航中，转到 "**会议** > **实时事件设置**"。
 2. 在**第三方视频分发提供商**下，完成以下操作： 

@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中规划实时事件
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解在 Microsoft 团队中设置实时事件之前需要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaa9e00ea3491b66eedbcf8f00e3108b582d7aa9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827120"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558562"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 

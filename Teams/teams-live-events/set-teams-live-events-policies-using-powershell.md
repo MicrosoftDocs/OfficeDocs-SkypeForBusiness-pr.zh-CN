@@ -1,7 +1,7 @@
 ---
 title: 使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 description: 有关如何使用 PowerShell 设置团队中的策略以控制哪些人可以在你的组织中拥有实时事件以及他们创建的事件中可用的功能的示例
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46c3522cc428ec04d830d8bdb02bad56f5dfd437
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a7e9e96bde0112508da200bea741b9938e273a9d
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827110"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558612"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 

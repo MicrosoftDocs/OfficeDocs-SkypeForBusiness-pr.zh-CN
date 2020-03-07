@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc72976fd7aa2ff03d305b5edaeff0d18c1f2a61
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417867"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558602"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -50,9 +50,9 @@ ms.locfileid: "42417867"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>从30开始使用团队</h3>
+                        <h3>从30开始使用团队（从此处开始！）</h3>
                         <P>让您的团队在右页脚的30旅程内开始。 了解应参与的计划，以及可用于确保你成功的资源。</P>
-                        <p>*受众：企业赞助商、IT 管理员、采纳和更改所有者*</p>
+                        <p><i>受众：企业赞助商、IT 管理员、采纳和更改所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ ms.locfileid: "42417867"
                     </div>
                     <div class="cardText">
                         <h3>最终用户准备就绪：</h3>
-                    <p>探索用于准备用户、构建冠军的一个临时组件以及确保用户接受作为团队推出的核心组件的战略和资源。</p><p>*受众：采纳和更改所有者*</p>
+                    <p>探索用于准备用户、构建冠军的一个临时组件以及确保用户接受作为团队推出的核心组件的战略和资源。</p><p><i>受众：采纳和更改所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ ms.locfileid: "42417867"
                     </div>
                     <div class="cardText">
                     <h3>准备环境-第一部分</h3>
-                    <p>设置团队推出的基础。 确定团队先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p>*受众：IT 管理员*</p>
+                    <p>设置团队推出的基础。 确定团队先决条件、网络和安全最佳做法、共存策略、分析和报告以及客户端分发建议。</p><p><i>受众：IT 管理员</i></p>
 </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ ms.locfileid: "42417867"
                     </div>
                     <div class="cardText">
                         <h3>准备环境-第 II 部分</h3>
-                    <p>既然你已经掌握了基础知识，请了解针对团队实施合规性、保留、管理和音频会议的最佳做法。</p><p>*受众：IT 管理员*</p>
+                    <p>既然你已经掌握了基础知识，请了解针对团队实施合规性、保留、管理和音频会议的最佳做法。</p><p><i>受众：IT 管理员</i></p>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@ ms.locfileid: "42417867"
                     <div class="cardText">
                     <h3>优化和扩展</h3>
                     <p>设计包括优化服务性能、扩大团队功能和加入新用户的计划。</p>
-                    <p>*受众：企业赞助商、IT 管理员、采纳和更改所有者*</p>
+                    <p><i>受众：企业赞助商、IT 管理员、采纳和更改所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -146,8 +146,10 @@ ms.locfileid: "42417867"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>粉笔的团队</h3>
-                    <p>通过主题专家的参与，这些在线交互式研讨会提供了一种独特的机会来了解有关团队中的一些最常见和引人注目方案的最佳做法和实践指南。</p><p>*受众：IT 管理员*</p>
+                    <h3>粉笔的团队</h3>
+                    <p>通过主题专家的参与，这些在线交互式研讨会提供了一种独特的机会来了解有关团队中的一些最常见和引人注目方案的最佳做法和实践指南。</p>
+                    <p><strong>先决条件</strong>：30个研讨会中的团队。 粉笔根据您在此页面上找到的研讨会中的内容进行学习。</p>
+                    <p><i>受众：IT 管理员</i></p>
                     </div>
                 </div>
             </div>
