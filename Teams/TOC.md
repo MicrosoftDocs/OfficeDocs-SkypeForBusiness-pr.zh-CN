@@ -71,6 +71,7 @@
 ### 外部访问（联合身份验证）
 #### [管理外部访问](manage-external-access.md)
 #### [面向外部用户的本机 Teams 聊天](native-chat-for-external-users.md)
+#### [Teams 和 Skype 的互操作性](teams-skype-interop.md)
 
 
 ### 来宾访问权限
@@ -625,6 +626,7 @@
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
 ### [远程学习入门](remote-learning-edu.md)
+### [Teams 许可教育版](teams-edu-licensing.md)
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
 ### [用于 EDU 管理员的 Microsoft Teams 政策包](policy-packages-edu.md)
@@ -635,6 +637,7 @@
 ### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 
 ## [Teams 政府版](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [管理 Office 365 G1 试用版优惠](g1-trial-license.md)
 ### [Microsoft 365 政府版计划 - GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 政府版计划 - GCC（高）](plan-for-government-gcc-high.md)
 ### [Microsoft 365 政府版计划 - DoD](plan-for-government-dod.md)
@@ -674,6 +677,7 @@
 ## [解决安装和更新问题](troubleshoot-installation.md)
 ## [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
 ## [在对 Teams 进行故障排除时使用日志文件](log-files.md)
+## [常见问题解答：支持远程工作人员](FAQ-support-remote-workforce.md)
 ## [验证 Teams 的服务运行状况](service-health.md)
 ## [Teams 的已知问题](Known-issues.md)
 ## [Teams 的支持资源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -726,6 +730,7 @@
 ##### [Office 365 Enterprise E5（不含音频会议）](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
 ##### [GOV、EDU 和非营利性组织](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [管理 Office 365 E1 试用版优惠](e1-trial-license.md)
+### [管理 Office 365 G1 试用版优惠](g1-trial-license.md)
 ### [管理 Teams 商业试用版优惠](iw-trial-teams.md)
 ### [管理 Teams 探索性体验](teams-exploratory.md)
 ### [将 Teams 免费升级到 Office 365 订阅版本](upgrade-freemium.md)
