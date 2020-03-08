@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bbd42047037985ec4ac2c211a677e4c37e45af0
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: f47c03432b6e90cfd6be888affee7f4342945227
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547946"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558622"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -106,9 +106,8 @@ Microsoft 提供[适用于 Office 365 的 FastTrack 中心权益](https://docs.m
 IT 管理员/IT 专业人员：[使用 Teams 支持远程工作人员](support-remote-work-with-teams.md)。
 
 
-<!-- ============================================================ 
-### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
+### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>新型冠状病毒（COVID-19）爆发期间，Microsoft 正在采取哪些措施为员工提供支持？
 
-Please read our blog that details the recommendations we are giving our own users.
--->
+阅读 Microsoft 总裁 2020 年 3 月 5 日的文章：[《我们在致力于保护公共健康的同时，我们也需要保护园区支持小时工的收入》](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+
 
