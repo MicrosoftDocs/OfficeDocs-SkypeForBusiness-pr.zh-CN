@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f47c03432b6e90cfd6be888affee7f4342945227
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: b7cdbe0922116015f33d7f10219eb51b07abaf76
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558622"
+ms.locfileid: "42559318"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -90,6 +90,14 @@ Microsoft 提供[适用于 Office 365 的 FastTrack 中心权益](https://docs.m
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>哪里可以找到有关公司运行 Teams 的相关帮助，以让我的用户在此紧要关头在家里工作？ 
 
 阅读[使用 Teams 支持远程工作人员](support-remote-work-with-teams.md)。 本文介绍了有关远程工作者开始使用 Teams 的大部分常见工作和问题。
+
+### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>我刚开始使用 Microsoft 365，因此我可以使用 Teams 支持我的远程工作者或学生。 我已注册该服务，但当用户尝试使用 Teams 时，他们收到以下错误: "你错过了! 请求你的管理员启用 Microsoft Teams。" 该怎么办？
+
+激活 Teams 中的某个免费服务后，你仍需为你的用户启用该服务。 阅读[管理用户对 Teams 的访问权限](user-access.md)和[向 Office 365 逐一或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)。
+
+如果是首次授权或启用用户，但已拥有 Microsoft 365 一段时间，则你可能需要为你的组织[启用 Teams](Office-365-set-up.md)。 请参阅本文中中的“[我已有 Microsoft 365，但没有使用 Teams。是否提供试用版许可证？](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)”
+
+
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>是否可以搭配 Microsoft 提供的 Office 365 E1 试用版使用通话计划？ 是否可以将电话号码分配给给我的用户？ 我要花多少钱？
 
