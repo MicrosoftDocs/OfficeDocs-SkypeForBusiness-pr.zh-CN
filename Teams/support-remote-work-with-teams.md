@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b61052a7468e9fcc13f8c3812e1ec5c2aa21fb7a
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417607"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558632"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -27,14 +27,10 @@ ms.locfileid: "42417607"
 
 ## <a name="it-admin-guidance"></a>IT 管理员指南
 
--  请确保**[已为所有人启用 Teams](assign-teams-licenses.md)**
+- 通过使用 6 个月免费的 **[Office 365 E1 优惠](e1-trial-license.md)** 或 **[免费增值版 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，确保人人都可使用 Teams。 如果需要帮助，请与你的 Microsoft 帐户团队或合作伙伴联系。
+
+-  如果已有包含 Teams 的订阅，请**[为所有人启用](assign-teams-licenses.md)**。
     
-- 如何还没有适合所有人的 Teams 许可证，使用下列优惠之一，让人人都可使用 Teams：
-
-   - 查看 **[Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** 或 **[Teams E1 试用版](e1-trial-license.md)**。 系统管理员可通过 Teams E1 推出 Teams，请联系 Microsoft 账户团队或合作伙伴获取详细信息。
-
-   - [Teams Exploratory](teams-exploratory.md) 也可是一项选择。 
-
 - 了解组织如何开始使用 **[Teams 中的会议](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**。 
 
 有关更多信息，请阅读下面的“[支持远程工作者的附加资源](#additional-resources-for-supporting-remote-workers)”。
@@ -42,44 +38,52 @@ ms.locfileid: "42417607"
 
 ## <a name="end-user-communications"></a>最终用户沟通
 
-准备好向你的用户推出 Teams？ 获取**[客户成功套件](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)**，其中包含以下精彩电子邮件模板：
+准备好向你的用户推出 Teams？ 获取**[客户成功套件](https://aka.ms/TeamsCustomerSuccess)**，其中包含以下精彩电子邮件模板：
 
 - 使用“**通知电子邮件**”告诉用户 Teams 可为他们提供哪些功能。
 
-- 发送“**第一天使用 Teams 电子邮件**”，帮助用户快速体验生产力
+- 发送“**第一天使用 Teams 电子邮件**”，帮助用户快速体验生产力。
 
-- 几天后，发送“**提示和技巧电子邮件**”，帮助用户充分利用 Teams
+- 几天后，发送“**提示和技巧电子邮件**”，帮助用户充分利用 Teams。
 
 ## <a name="end-user-guidance"></a>最终用户指南
 
 与最终用户共享这些资产和视频，帮助他们快速入门：
 
-- 观看“**[欢迎视频](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)**”，获取 Teams 的概览信息
+- 观看“**[欢迎视频](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)**”，获取 Teams 的概览信息。
 
-- 下载“**[快速入门指南](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)**”，了解 Teams 的基础知识
+- 下载“**[快速入门指南](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)**”，了解 Teams 的基础知识。
 
-- 观看系列简短**[快速入门视频](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)**，了解有关 Teams 的演练信息
+- 观看系列简短**[快速入门视频](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)**，了解有关 Teams 的演练信息。
 
-- 观看**[会议视频](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)**，了解如何在 Teams 中使用会议
+- 观看**[会议视频](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)**，了解如何在 Teams 中使用会议。
 
 
 ## <a name="additional-resources-for-supporting-remote-workers"></a>用于支持远程工作者的附加资源
 
+1. 阅读定期更新的[常见问题：支持远程员工](FAQ-support-remote-workforce.md)。
+
+2. 除 [Office 365 E1 试用版](e1-trial-license.md) 和 [Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)以外，如果需要免费团队许可证，[Teams Exploratory](teams-exploratory.md)也可是一种选项。
+
 1. 确保员工可充分访问 Internet 并具有足够的带宽来使用 Teams。 使用“[为 Teams 准备组织的网络](prepare-network.md)”中的指南，了解如何进行此操作。
+
    - 带宽受限将会影响 Teams 会议的音质。 为确保在低带宽条件下获得最佳会议体验，鼓励用户限制视频，并使用 PSTN 进行通话和会议音频。 
+
+   - 如果你在中国，请查阅 [Office 365 针对中国用户的全局租户性能优化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)。
 
    - 如果需要有关解决或修复通话或会议质量方面问题的帮助，请遵循本文底部“[已知问题 - 中国：拨入 Skype for Business 或 Teams 会议 ID](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)”中的指南。
 
 2.  [发送培训链接](enduser-training.md)，帮助你的员工充分利用 Teams。
 
 3. 深入了解：了解有关推出 Teams 的详细信息。
+
    - 作为中等规模的组织（500-5000 用户），使用即时[互动研讨会](teams-in-30-workshops.md)开始你的 Teams 旅程。
 
-   - 加入我们的[在线课程](instructor-led-training-teams-landing-page.md)，在操作中了解 Teams，并获取问题的答案。  
+   - 加入我们的[在线课程](instructor-led-training-teams-landing-page.md)，在操作中了解 Teams，并获取问题的答案。
 
-   - 与希望了解详细信息的用户共享[深度培训视频](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)
+   - 与希望了解详细信息的用户共享[深度培训视频](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)。
 
-   - 阅读[如何推广 Teams](How-to-roll-out-teams.md) 了解如何准备和管理 Teams
+   - 阅读[如何推广 Teams](How-to-roll-out-teams.md) 了解如何准备和管理 Teams。
 
 
     
@@ -89,13 +93,18 @@ ms.locfileid: "42417607"
 
       - [使用 Office 365 进行协作](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
+      - [使用 Office 365 远程工作](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
 
-3.  鼓励所有人[安装](get-clients.md#mobile-clients)和使用移动应用：[iOS 版](https://go.microsoft.com/fwlink/?LinkId=835758)或 [Android 版](https://go.microsoft.com/fwlink/p/?linkid=2102168)
+      - [远程工作的 9 个提示](https://www.microsoft.com/tips/home/working-remotely)
+
+
+3.  鼓励所有人[安装](get-clients.md#mobile-clients)和使用移动应用：[iOS 版](https://go.microsoft.com/fwlink/?LinkId=835758)或 [Android 版](https://go.microsoft.com/fwlink/p/?linkid=2102168)。
 
     > [!NOTE]
     > 如果你在中国，请转到此处[获取适用于中国的 Teams for Android](get-teams-android-in-china.md)。
 
 8. 使用 Teams 与员工保持联系：
+
    - [组织范围的团队](create-an-org-wide-team.md)和[Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator)应用模板。
     
    - 发送有关组织的在家办公和健康安全策略信息。
@@ -107,6 +116,7 @@ ms.locfileid: "42417607"
 7. 如果不熟悉团队管理员角色，请参阅 [Teams 管理员培训](itadmin-readiness.md)。
 
 
+1. 请确保你的用户拥有聆听和观看所需的设备。 查看适用于个人和共享空间的 [Teams 认证设备](https://aka.ms/TeamsDevices)。
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>已知问题 - 中国：拨入 Skype for Business 或 Teams 会议 ID
