@@ -672,6 +672,11 @@
 ### [设置通话分析](set-up-call-analytics.md)
 ### [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 ### [打开并使用通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)
+### 使用 Power BI 分析 CQD 数据
+#### [使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)
+#### [安装 Power BI 连接器以使用 CQD 查询模板](CQD-Power-BI-connector.md)
+#### [获取有关 Teams 利用率的 CQD 数据](CQD-teams-utilization-report.md)
+#### [使用 CQD PSTN 报告](CQD-PSTN-report.md)
 ### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
 ## [解决安装和更新问题](troubleshoot-installation.md)
