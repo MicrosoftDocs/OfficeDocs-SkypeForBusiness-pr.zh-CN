@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft 会收集人口普查、使用情况和错误数据，以了解 Skype for Business 的使用方式以及用户遇到问题的位置。 数据用于规划产品改进。
-ms.openlocfilehash: ec443c54041e77d419e4b387029be0f5b06c9177
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1c88086038c3874ae95f6151c1d04d13e0b9ccaf
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826760"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583099"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business 和 Microsoft 团队数据收集实践
 
@@ -117,6 +117,4 @@ Skype for business Server 和 skype for business Online，以及 Skype for busin
 如果您使用的是由中国的世纪互联运营的 Office 365，请参阅[为由世纪互联运营的 Skype for Business Online 设置网络](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
 
 ## <a name="related-topics"></a>相关主题
-[客户体验改善计划](https://www.microsoft.com/products/ceip/default.mspx)
-
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '获取为呼叫者创建默认电话号码以加入 Microsoft 团队会议的步骤。 '
-ms.openlocfilehash: b5a43b0987160b87ac4a6e25b10ae6d850612ac1
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: 88032829581224b339f47b34c432629019fd3bac
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845233"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583109"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
@@ -44,7 +44,7 @@ Office 365 中的音频会议使组织中的用户可以创建 Microsoft 团队�
 
 启用音频会议的用户的会议邀请中包含的电话号码由默认会议收费电话号码和默认会议免费电话号码用户设置定义。 每个设置指定用户的会议邀请中将包含哪些收费电话号码和免费电话号码。 如上所述，每个会议邀请包含一个收费号码，一个可选的免费电话号码和一个链接，用于打开所有拨入电话号码的完整列表，这些电话号码可用于加入给定的会议。
 
-对于新用户，根据为音频会议服务启用用户时在用户的 Office 365 配置文件中设置的国家/地区分配默认的会议收费号码。 如果在会议桥中有收费号码与用户所在的国家/地区相匹配，则该号码将自动分配为用户的默认收费号码。 如果没有，则定义为该会议桥的默认收费号码的号码将被分配为用户的默认收费号码。  
+对于新用户，根据为音频会议服务启用用户时在用户的 Office 365 管理中心中设置的使用位置，分配默认的会议收费号码。 如果在会议桥中有收费号码与用户所在的国家/地区相匹配，则该号码将自动分配为用户的默认收费号码。 如果没有，则定义为该会议桥的默认收费号码的号码将被分配为用户的默认收费号码。  
 
 用户启用音频会议服务后，租户管理员可以随时从其初始值更改用户的默认收费电话号码和免费电话号码。
 

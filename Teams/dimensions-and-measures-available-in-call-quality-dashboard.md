@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板使用的维度和度量的详细信息。
-ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
-ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
+ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574415"
+ms.locfileid: "42583072"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>"呼叫质量" 仪表板中可用的尺寸和测量
 
@@ -439,10 +439,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 |PSTN MP 位置|String|在非绕过模式下，媒体处理器位置将显示媒体路径。<br/>**示例：** USWE||
 |第一个 PSTN 国家区域|String|如果 FirstIsCaller 为 true，则第一个 PSTN 国家地区是呼叫方的国家/地区。 如果为 false，则第二个 PSTN 国家/地区是呼叫方的国家/地区。<br/>**示例：** 我们||
 |抖动|毫秒|RTP 数据包的到达时间变体。 有关详细信息，请参阅[通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。<br/>**示例：** 5.982||
-|Packet Loss Rate|百分比|中介服务器与 SBC 或网关之间的流的百分比（如果可用）。
-有关详细信息，请参阅[通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。<br/>**示例：** 1.2%||
-|延迟（往返行程时间）|毫秒|每个流的平均网络传播往返时间。
-有关详细信息，请参阅[通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。<br/>**示例：** 3.49||
+|Packet Loss Rate|百分比|中介服务器与 SBC 或网关之间的流的百分比（如果可用）。 有关详细信息，请参阅[通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。<br/>**示例：** 1.2%||
+|延迟（往返行程时间）|毫秒|每个流的平均网络传播往返时间。 有关详细信息，请参阅[通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。<br/>**示例：** 3.49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>有关维度数据类型/单位的注释

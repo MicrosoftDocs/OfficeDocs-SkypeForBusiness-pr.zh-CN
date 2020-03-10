@@ -16,12 +16,12 @@ f1.keywords:
 description: 在 Microsoft Teams 中部署云语音功能实践指导
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030716"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582999"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -151,6 +151,10 @@ Microsoft Stream 作为符合条件的 Office 365 订阅的一部分或作为独
 ## <a name="manage-meeting-recordings"></a>管理会议录制
 
 会议录制被视为租户拥有的内容。 如果录制的所有者离开公司，管理员可以在 "管理员模式" 下的 Microsoft Stream 中打开录制视频 URL。 管理员可以删除录制、更新任何录制元数据或更改录制视频的权限。 了解有关[流中的管理员功能的](https://docs.microsoft.com/stream/manage-content-permissions)详细信息。
+
+> [!NOTE]
+> 有关管理录制和用户访问的其他信息，请参阅在 microsoft stream 中[管理用户数据](https://docs.microsoft.com/stream/managing-user-data)和[microsoft Stream 中的权限和隐私](https://docs.microsoft.com/stream/portal-permissions)。
+
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>适用于会议录制的合规性和电子数据展示
 
