@@ -16,18 +16,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559319"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42573999"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 团队粉笔粉笔</h1>
 为 IT 专业人士和决策者设计的团队提供了一种独特的机会，可在团队中了解一些最常用且最引人注目的方案的最佳做法和实践指导。 通过主题专家主持，这些在线交互式研讨会将向你提供见解以增强你的团队实施，并为最终用户提供其他价值。<br><br>
-           <strong>先决条件</strong>：首先<a href="https://aka.ms/Teamsin30"target="_blank">在30个研讨会中参加团队</a>。<br><br>
            <i>单击下面的任何研讨会标题以查看可用日期和时间，并立即注册！</i>
         <ul class="pivots">
             <li>
