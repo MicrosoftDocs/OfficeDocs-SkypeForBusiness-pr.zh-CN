@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29b01c5d5bbbf386e834cf89cc2d80bff07de1ab
-ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
+ms.openlocfilehash: 72e8543d4d279796051ae24a728092fc236b13e3
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42408847"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574009"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Microsoft Teams 的最终用户培训
 
@@ -278,7 +278,7 @@ ms.locfileid: "42408847"
                 <div class="card">
                     <div class="cardText">
                         <h3>Teams 提示和技巧</h3>
-                        <p><a href="https://support.office.com/office-training-center/Teams-tips">视频：Teams 提示和技巧</a></p>
+                        <p><a href="https://www.microsoft.com/tips/home">视频：Teams 提示和技巧</a></p>
                     </div>
                 </div>
             </div>

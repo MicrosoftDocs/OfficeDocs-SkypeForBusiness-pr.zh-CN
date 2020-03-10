@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b0a516ae74ea012d8cba4e85509b5b37ee27163
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834882"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574019"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -73,7 +73,7 @@ Microsoft 团队中有两个主要角色：
 
 请花三分钟时间查看有关团队所有者的此转到指南的视频：
 
-   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
+   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
 如果你是 Office 365 中的 Microsoft 团队管理员，则可以访问 Microsoft 团队管理中心中的系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围内的通知、讨论和资源启用默认频道 "常规"，这些通知将显示在所有团队中。
 

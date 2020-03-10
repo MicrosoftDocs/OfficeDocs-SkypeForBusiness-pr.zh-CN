@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558602"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574425"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -147,8 +147,8 @@ ms.locfileid: "42558602"
                     </div>
                     <div class="cardText">
                     <h3>粉笔的团队</h3>
-                    <p>通过主题专家的参与，这些在线交互式研讨会提供了一种独特的机会来了解有关团队中的一些最常见和引人注目方案的最佳做法和实践指南。</p>
-                    <p><strong>先决条件</strong>：30个研讨会中的团队。 粉笔根据您在此页面上找到的研讨会中的内容进行学习。</p>
+                    <p>通过主题专家的参与，这些在线交互式研讨会提供了一种独特的机会来了解有关团队中的一些最常见和引人注目方案的最佳做法和实践指南。 粉笔讨论假定你已完成基本团队推出。</p>
+                    <p><strong>先决条件</strong>：30研讨会中的团队出席或已为组织内的团队启用。</p>
                     <p><i>受众：IT 管理员</i></p>
                     </div>
                 </div>

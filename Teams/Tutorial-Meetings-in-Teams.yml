@@ -6,10 +6,10 @@ metadata:
   audience: IT Pro
   level: Intermediate
   displayType: one-column
-  ms.author: tbinder
-  ms.reviewer: tbinder
+  ms.author: lolaj
+  author: LolaJacobsen
+  ms.reviewer: shalenc
   manager: serdars
-  ms.date: 02/27/2018
   ms.service: msteams
   ms.topic: tutorial
   localization_priority: Normal
@@ -18,12 +18,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3283da794b2075944a3e2249077cf9f917ce6eaf
-  ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+  ms.openlocfilehash: 47e80b1eda888581b46284e69ef735f751962b64
+  ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/08/2020
-  ms.locfileid: "41862702"
+  ms.lasthandoff: 03/10/2020
+  ms.locfileid: "42572780"
 items:
 - durationInMinutes: 1
   content: >
@@ -35,9 +35,9 @@ items:
 
     此培训面向以下人员：
 
-    -   IT 专业人士。
+    -   IT 专业人员
 
-    -   负责规划、部署或管理 Teams。
+    -   负责规划、部署或管理团队
 
     -   对 Teams 中的会议感兴趣
 
@@ -71,7 +71,7 @@ items:
   content: "\n要了解 Teams 中的会议，请参阅以下内容：\n-   [会议和通话](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)中的“举行会议”（预计阅读时间为 6 分钟）\n\n-   [立即开会](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf)视频（1:45 分钟）\n\n-   [安排的会议](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137)视频（1:45 分钟）\n\n-   [Microsoft Teams 会议的 9 条提示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)，以了解会议大厅、以匿名方式加入会议等信息（预计阅读时间为 6 分钟）\n"
 - title: 方案 -  会议类型
   durationInMinutes: 1
-  content: "\nGarth 在 Contoso 工作，该公司具有多个办公室。 Garth 需要定期与其他办公室位置的用户联系：\n\n-  他的项目团队每周一开会一小时。 因为他们在 Microsoft Teams 中已有项目的专用频道，Garth 为此常规同步安排了一个“频道会议”。这对 Garth 和他的团队有多项优势：\n   -   团队的所有成员都会自动收到邀请。\n   -   在会议之前、之间或之后的任何与会议相关的讨论都是频道讨论的一部分。\n   -   会议和讨论对团队的所有成员可见。\n-   Garth 还需要与单个用户同步，但不需要将这些会议向其他人显示。 出于这些目的，Garth 安排了一个“私人会议”。\n    私人会议允许 Garth 在会议开始前启动聊天。 此会议前体验有助于提高会议效率，因为 Garth 可以提前共享材料或与关键团队成员讨论议程。 相同聊天在会议中也可用于捕获笔记，并且以后可用于任何后续行动。\n-   有时团队的频道中存在激烈讨论，并且 Garth 需要这些讨论来做出快速决策。 他确定当每个人都在键入时，视频通话可能是更有效的沟通方式。 在这种情况下，Garth 在当前对话中选择“**立即开会**”以安排一场临时会议。\n"
+  content: "\nGarth 在 Contoso 工作，该公司具有多个办公室。 Garth 需要定期与其他办公室位置的用户联系：\n\n-  他的项目团队每周一开会一小时。 因为他们在 Microsoft Teams 中已有项目的专用频道，Garth 为此常规同步安排了一个“频道会议”。这对 Garth 和他的团队有多项优势：\n   -   团队的所有成员都会自动收到邀请。\n   -   在会议之前、之间或之后的任何与会议相关的讨论都是频道讨论的一部分。\n   -   会议和讨论对团队的所有成员可见。\n   -   为会议和实时事件启用实时标题。 此外，它们还会在实时事件中打开副标题。 这些功能提高了 inclusivity、生产力和理解。\n-   Garth 还需要与单个用户同步，但不需要将这些会议向其他人显示。 出于这些目的，Garth 安排了一个“私人会议”。\n    私人会议允许 Garth 在会议开始前启动聊天。 此会议前体验有助于提高会议效率，因为 Garth 可以提前共享材料或与关键团队成员讨论议程。 相同聊天在会议中也可用于捕获笔记，并且以后可用于任何后续行动。\n-   有时团队的频道中存在激烈讨论，并且 Garth 需要这些讨论来做出快速决策。 他确定当每个人都在键入时，视频通话可能是更有效的沟通方式。 在这种情况下，Garth 在当前对话中选择“**立即开会**”以安排一场临时会议。\n"
 - title: 会议客户端
   durationInMinutes: 5
   content: "\n可以从多种客户端加入会议。 查看[获取 Microsoft Teams 的客户端](https://docs.microsoft.com/MicrosoftTeams/get-clients)（预计阅读时间为 3 分钟），了解 Teams 对哪些平台适用。\n\n此外，通过使用音频会议，参与者可以使用普通电话拨入会议或从会议拨出，参加会议。\n有关音频会议的详细信息将在一个专门培训中介绍。\n\n在 Outlook for Windows 中，你可以使用外接程序，直接从日历安排会议。 查看[在 Outlook 中使用 Teams 会议外接程序](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)（预计阅读时间为 2 分钟）。\n"

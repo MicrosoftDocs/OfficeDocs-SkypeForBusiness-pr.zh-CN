@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 分析 Microsoft 团队的 CQD 数据。
-ms.openlocfilehash: d737f321ea8684ffe99b50575b1b2e8d044804d0
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 155bde0373880befc770d745ca246b76d4c63eec
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559390"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572890"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 分析 Microsoft 团队的 CQD 数据
 
@@ -38,7 +38,7 @@ ms.locfileid: "42559390"
 |CQD 移动设备报表 .pbix     | 提供专门针对移动设备用户进行调整的见解，包括通话质量、可靠性和费率我的通话。 查看移动网络、WiFi 网络和移动操作系统报告（Android、iOS）。        |
 |CQD PSTN 直接路由报告 .pbix     |为通过直接路由进行的 PSTN 呼叫提供特定的见解。 若要了解详细信息，请[使用 CQD PSTN 直接路由报告](CQD-PSTN-report.md)进行阅读。         |
 |CQD 摘要报表 .pbix     |更好的可视化效果、改进的演示文稿、增加的信息密度和滚动日期。 这些报表使标识符离群离群更容易。 通过易于使用的交互式地图按位置深化通话质量。 9个新报表：</p>-整体质量<br>-整体可靠性<br>-RMC （费率我的通话）-整体<br>-会议质量<br>-P2P 质量<br>-会议可靠性<br>-P2P 可靠性<br>-会议 RMC<br>-P2P RMC         |
-|**（新增！）** CQD 团队使用情况报表 .pbix     | 显示组织中的用户使用团队的方式和数量。 若要了解详细信息，请参阅[使用 CQD POWER BI 报表查看 Microsoft 团队的利用率](CQD-teams-utilization-report.md)。        |
+|<strong>（新增！）</strong>CQD 团队使用情况报表 .pbix     | 显示组织中的用户使用团队的方式和数量。 若要了解详细信息，请参阅[使用 CQD POWER BI 报表查看 Microsoft 团队的利用率](CQD-teams-utilization-report.md)。        |
 |CQD 用户反馈（费率我的通话）报告 .pbix     | 显示使用一种可轻松地帮助支持组织通话的方式对我的通话数据进行评级。 与 verbatims 的交叉参考以识别最终用户教育机会。        |
 
 
