@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表，让您更细致地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息，包括通话费用，以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
-ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706047"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582879"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -71,8 +71,8 @@ ms.locfileid: "41706047"
      *    **user_out_forwarding** （用户将呼叫转接到 PSTN 号码）
 
      **音频会议呼叫类型**
-     *    **conf_in** （对音频会议网桥的入站呼叫） 
-     *    **conf_out** （来自音频会议桥的出站呼叫，通常是向会议添加 PSTN 号码）
+     *    **conf_in** （对音频会议桥的入站呼叫）。 对于此呼叫类型的记录，"**用户 ID** " 列中指定的用户对应于会议的组织者。
+     *    **conf_out** （来自音频会议网桥的出站呼叫，通常用于向会议添加 PSTN 号码）。 对于此呼叫类型的记录，"**用户 ID** " 列中指定的用户对应于会议的组织者。
 
      **统一通信应用程序（UCAP）** 
      *    **ucap_in** （对 UC 应用程序（如自动助理或呼叫队列）的入站 PSTN 呼叫 
@@ -94,12 +94,13 @@ ms.locfileid: "41706047"
      *    **MCOPSTN6** -国内通话计划（240 min 通话计划）注意：可用性有限
      *    **MCOMEETADD** -音频会议
      *    **MCOMEETACPEA** -每分钟支付的音频会议
+     
 > [!NOTE]
 > 如果您想要运行报告以仅包括您的通话或会议订阅中未包括的每分钟费率通话，请使用 "MCOPSTNPP" 功能筛选报告。 这样做将提供所有按分钟付费通话的明细。  对于每分钟支付的音频会议，请按 "MCOMEETACPEA" 而不是 "MCOPSTNPP" 进行筛选。  
-***
+
 > [!NOTE]
 > 在某些字段中，您可能还会看到 "无数据"。 "无数据" 表示该字段不适用于通话类型或功能。 
-***
+
 > [!NOTE]
 > 如果您有 Telstra 呼叫计划，则在 PSTN 使用报告中将看不到任何通话详细记录。 请联系 Telstra 以满足您的报告需求。 
 ***
