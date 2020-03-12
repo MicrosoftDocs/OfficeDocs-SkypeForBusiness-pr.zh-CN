@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 阅读有关如何在 Skype for Business Server 中安装和配置忙碌选项的信息。
-ms.openlocfilehash: 5078041401c710a249470ed6d3871f38a98a7420
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bdc713c50fa63ac208c7476916110c14fca8f387
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113115"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604209"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>为 Skype for Business Server 安装和配置忙碌选项
 
@@ -79,7 +79,7 @@ ms.locfileid: "42113115"
 3. 接下来，运行[CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) cmdlet 以将忙碌选项添加到服务器应用程序列表中，如以下示例所示：
 
    ```powershell
-   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri https://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
+   New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
     > [!NOTE]
