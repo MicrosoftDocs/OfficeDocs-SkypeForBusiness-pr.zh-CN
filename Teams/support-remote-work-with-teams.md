@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 011522533a5a1a0641afb3da4421a8ae8e6c6715
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: cdd4338a157869d6e0453910a29514d6dc7ed0c9
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558632"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574079"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -65,6 +65,8 @@ ms.locfileid: "42558632"
 
 2. 除 [Office 365 E1 试用版](e1-trial-license.md) 和 [Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)以外，如果需要免费团队许可证，[Teams Exploratory](teams-exploratory.md)也可是一种选项。
 
+1. 如果你从事教育工作，并且需要在 Teams 上设置教师、学生和管理员，请使用 Office 365 A1。 Office 365 免费版可供所有教育机构使用。 请转到[为整个学校免费获取 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) 注册。
+
 1. 确保员工可充分访问 Internet 并具有足够的带宽来使用 Teams。 使用“[为 Teams 准备组织的网络](prepare-network.md)”中的指南，了解如何进行此操作。
 
    - 带宽受限将会影响 Teams 会议的音质。 为确保在低带宽条件下获得最佳会议体验，鼓励用户限制视频，并使用 PSTN 进行通话和会议音频。 
@@ -89,6 +91,8 @@ ms.locfileid: "42558632"
     
 3. 阅读有关远程工作的新内容并与用户共享：
         
+      - *2020 年 3 月 9 日新内容*：[使用 Microsoft Teams 远程工作](https://products.office.com/microsoft-teams/work-remotely)
+
       - Teams 博客（2020 年 2 月 28 日）： [使用 Microsoft Teams 在家工作的 4 个提示](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [使用 Office 365 进行协作](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
@@ -107,16 +111,16 @@ ms.locfileid: "42558632"
 
    - [组织范围的团队](create-an-org-wide-team.md)和[Company Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator)应用模板。
     
-   - 发送有关组织的在家办公和健康安全策略信息。
+   - 发送组织的在家办公和健康安全策略的相关信息。
     
-   - 通过[实时事件](teams-live-events/what-are-teams-live-events.md)进行全公司会议和跟进服务。 对于任何超过 250 个参与者的会议，请将其设置为实时事件。 
+   - 通过[实时事件](teams-live-events/what-are-teams-live-events.md)进行全公司会议和跟进服务。 对于任何超过 250 个参与者的会议，请将其设置为实时事件。 启用[会议](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)和[直播活动](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)的实时字幕。 另外，在直播活动中启用字幕。 这些功能可提升包容性、生产力和理解。 
 
 4.  增设[支持人员](troubleshoot-installation.md)来处理用户查询。
 
 7. 如果不熟悉团队管理员角色，请参阅 [Teams 管理员培训](itadmin-readiness.md)。
 
 
-1. 请确保你的用户拥有聆听和观看所需的设备。 查看适用于个人和共享空间的 [Teams 认证设备](https://aka.ms/TeamsDevices)。
+1. 请确保你的用户拥有必要的摄像头和麦克风设备。 查看适用于个人和共享空间的 [Teams 认证设备](https://aka.ms/TeamsDevices)。
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>已知问题 - 中国：拨入 Skype for Business 或 Teams 会议 ID
