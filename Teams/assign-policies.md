@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解在 Microsoft 团队中向用户分配策略的不同方法。
 f1keywords: ''
-ms.openlocfilehash: cb1c5fd43379388327de5e517409f01f7f52ed1b
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: e9f31f9bf9d08497b58490ddc7a7bea9e0496539
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170758"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604289"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft 团队中的用户分配策略
 
 > [!NOTE]
-> **本文中讨论的两个 Microsoft 团队功能、[批策略分配](#assign-a-policy-to-a-batch-of-users)和[组的策略分配](#assign-a-policy-to-a-group)当前都在预览版中。**
+> **本文中讨论的 Microsoft 团队功能之一是 "预览" 中的 "[对组的策略分配](#assign-a-policy-to-a-group)"。**
 
 作为管理员，你可以使用策略来控制你的组织中的用户可以使用的团队功能。 例如，有一些通话策略、会议策略和邮件策略，只需命名。
 
@@ -64,7 +64,7 @@ ms.locfileid: "42170758"
 |---------|---------|----|
 |[为单个用户分配策略](#assign-a-policy-to-individual-users)    | 您是新的团队新手，只需将一个或几个策略分配给少数几个用户。 |Skype for Business Online PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet
 | [分配策略包](#assign-a-policy-package)   | 您需要将多个策略分配给组织中具有相同或类似角色的特定用户组。 例如，将教育版（教师）策略包分配给你的学校教师，让他们能够完全访问聊天、通话和会议以及教育（次要学校学生）策略包以限制某些功能，如私人通话。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
-|[将策略分配给一批用户](#assign-a-policy-to-a-batch-of-users)（在预览中）   | 您需要为大型用户组分配策略。 例如，你希望一次为组织中的成百上千个用户分配策略。  |团队 PowerShell 模块中的 PowerShell cmdlet|
+|[为一批用户分配策略](#assign-a-policy-to-a-batch-of-users)   | 您需要为大型用户组分配策略。 例如，你希望一次为组织中的成百上千个用户分配策略。  |团队 PowerShell 模块中的 PowerShell cmdlet|
 |为[组分配策略](#assign-a-policy-to-a-group)（在预览中）   |您需要根据用户的组成员身份分配策略。 例如，你想要向安全组或组织单位中的所有用户分配策略。| 团队 PowerShell 模块中的 PowerShell cmdlet|
 | 将策略包分配给一批用户（即将推出） |||
 | 将策略包分配给组（即将推出）   | ||
@@ -121,8 +121,6 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 若要了解有关策略程序包的详细信息，包括如何分配和管理它们的分步指导，请参阅[管理团队中的策略程序包](manage-policy-packages.md)。
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>为一批用户分配策略
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
  
 通过批处理策略分配，您可以一次性为大型用户分配策略，而无需使用脚本。 使用```New-CsBatchPolicyAssignmentOperationd``` cmdlet 提交要分配的一批用户和策略。 作业作为后台操作处理，并为每个批处理生成操作 ID。 然后，你可以使用```Get-CsBatchPolicyAssignmentOperation```该 cmdlet 跟踪批处理中作业的进度和状态。
 
@@ -133,25 +131,10 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 ### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft 团队 PowerShell 模块
 
-> [!NOTE]
-> 这些 cmdlet 位于团队 PowerShell 模块的预发布版本中。 按照以下步骤，首先卸载团队 PowerShell 模块的通用版本（如果已安装），然后从 PowerShell 测试库安装该模块的最新预发布版本。
-
-如果尚未执行此操作，请运行以下操作以将 PowerShell 测试库注册为受信任的来源。
+运行以下操作以安装[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)。 请确保安装1.0.5 或更高版本。
 
 ```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-如果你安装了通用版本的团队 PowerShell 模块，请运行以下程序将其卸载。
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-运行以下操作，从 PowerShell 测试库中安装最新的 Microsoft 团队 PowerShell 模块。
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
+Install-Module -Name MicrosoftTeams
 ```
 
 运行以下操作以连接到团队并启动会话。

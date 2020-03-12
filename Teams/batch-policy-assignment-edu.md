@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用 "批处理策略分配" 为远程学校（teleschool、长途）批量为您的教育机构中的大型用户分配策略。
 f1keywords: ''
-ms.openlocfilehash: e95c6b035298ce583a0ad34a030f2086b7c12ff3
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583330"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604299"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>向学校的大型用户组分配策略
 
@@ -42,14 +42,14 @@ ms.locfileid: "42583330"
 
 ## <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>连接到适用于 Graph 模块和团队 PowerShell 模块的 Azure AD PowerShell
 
-在执行本文中的步骤之前，你需要安装并连接到 Azure AD PowerShell for Graph 模块（以通过其分配的许可证标识用户）和 Microsoft 团队 PowerShell 模块的预发布版本（将策略分配给这些用户）。
+在执行本文中的步骤之前，你需要安装并连接到 Azure AD PowerShell for Graph 模块（以通过其分配的许可证标识用户）和 Microsoft 团队 PowerShell 模块（将策略分配给这些用户）。
 
 ### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>安装并连接到 Azure AD PowerShell for Graph 模块
 
 打开提升了权限的 Windows PowerShell 命令提示符（以管理员身份运行 Windows PowerShell），然后运行以下命令来安装适用于 Graph 模块的 Azure Active Directory PowerShell。
 
 ```powershell
-Install-Module AzureAD
+Install-Module -Name AzureAD
 ```
 
 运行以下操作以连接到 Azure AD。
@@ -60,11 +60,15 @@ Connect-AzureAD
 
 出现提示时，请使用管理员凭据登录。
 
-若要了解详细信息，请参阅[连接到 Azure Active Directory PowerShell For Graph 模块](https://docs.microsoft.com/eoffice365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。
+若要了解详细信息，请参阅[连接到 Azure Active Directory PowerShell For Graph 模块](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。
 
-### <a name="install-and-connect-to-the-pre-release-version-of-the-teams-powershell-module"></a>安装并连接到团队 PowerShell 模块的预发布版本
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft 团队 PowerShell 模块
 
-你需要的 cmdlet 位于团队 PowerShell 模块的预发布版本中。 按照[安装和连接到 Microsoft 团队 powershell 模块](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)中的步骤，首先卸载团队 powershell 模块的一般可用版本（如果已安装），然后从 PowerShell 测试库安装该模块的最新预发布版本。
+运行以下操作以安装[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)。 请确保安装1.0.5 或更高版本。
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
 
 运行以下操作以连接到团队并启动会话。
 
@@ -102,7 +106,7 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365ED
 接下来，我们运行以下内容来确定拥有此许可证的用户，并将它们一起收集。
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
+$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>批量分配策略
