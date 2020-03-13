@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9c8f0fe24cfb94be368fb2afa6446f311f2f790
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
+ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417877"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42615364"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -132,8 +132,8 @@ Office 365 专业增强版不支持团队的每计算机安装。 若要使用�
 
 1. 使用以下链接之一下载与你的 VDI VM 操作系统匹配的团队 MSI 程序包：
 
-    - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
+    - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
     所需的团队桌面应用的最低版本是1.2.00.31357 版本。 （早期版本不支持 PSTN 保留。）
 
@@ -265,7 +265,7 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 以下示例显示了如何使用[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)向用户分配 DisallowCalling 调用策略。
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
 若要了解有关使用 PowerShell 管理通话策略的详细信息，请参阅[设置 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。
@@ -273,7 +273,7 @@ Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email i
 以下示例显示了如何使用[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)将 AllOff 会议策略分配给用户。
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
 若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅[设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
@@ -317,7 +317,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 以下示例显示了如何使用[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)向用户分配 AllowCalling 调用策略。
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
 若要了解有关使用 PowerShell 管理通话策略的详细信息，请参阅[设置 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。
@@ -325,7 +325,7 @@ Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id�
 以下示例显示了如何使用[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)将 AllOn 会议策略分配给用户。
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
 若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅[设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
