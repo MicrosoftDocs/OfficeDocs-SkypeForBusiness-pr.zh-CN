@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae9315c172bc88cb96d5071e4bddf7f2e82a0d9f
-ms.sourcegitcommit: a597b1572f1eca095144288446a2c038e5daa5f7
+ms.openlocfilehash: e7d0f4a38194f80329c34cab73d61a99d4d4d03b
+ms.sourcegitcommit: 90066455ea2f982cdeabd9bff7944718bc7895c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42586699"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42592542"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -32,7 +32,7 @@ ms.locfileid: "42586699"
 > - Microsoft 教师中心中的 1 小时在线课程显示了教师在职业生活中如何使用 Teams。 [**与 Microsoft Teams 一起转变学习方法**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft 教师中心中的 1 小时在线课程将指导教师完成班级团队的教学。 [**与班级团队一起营造协作学习环境**](https://education.microsoft.com/course/b1e15cfc/overview)。
 > - 如果你是教师、学生或家长或监护人，请使用 Office 365 获取有关 [**教学和学习的更多指导**](https://aka.ms/RemoteLearningHelp)。
-> - 家长和监护人也可以转到我们的[家长支持页面](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，获得有关远程学习的帮助。
+> - 家长和监护人也可以转到我们的[**家长支持页面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，获得有关远程学习的帮助。
 
 不要错过 2020 年 3 月 4 日的博客，[学校如何通过 Microsoft Teams 快速启动远程学习计划](https://aka.ms/teamseduremoteblog)。
 
@@ -104,7 +104,7 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 - 将“创建专用频道”设置为“关”
 
-**小学的行政人员和教师**分配得到的策略应能够授予学生可能受到限制的核心功能。 创建允许进行私人聊天和会议安排的新策略（新策略的默认设置）。 [通过安全组成员身份将这些策略分配给行政人员和教师](batch-policy-assignment-edu)。
+**小学的行政人员和教师**分配得到的策略应能够授予学生可能受到限制的核心功能。 创建允许进行私人聊天和会议安排的新策略（新策略的默认设置）。 [通过批量策略分配功能向员工和教师批量分配这些策略](batch-policy-assignment-edu.md)。
 
 ## <a name="start-using-teams"></a>开始使用 Teams
 
