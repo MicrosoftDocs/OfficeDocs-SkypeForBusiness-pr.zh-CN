@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表，让您更细致地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息，包括通话费用，以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
-ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42582879"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637139"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -56,7 +56,7 @@ ms.locfileid: "42582879"
 
 ***
 ![第一](../images/sfbcallout1.png)<br/>该表格显示了按用户细分的全部 PSTN 使用情况。 此示例显示分配有 Skype for Business 的所有用户及其 PSTN 使用情况。 你可以添加/删除表格的列。
-*    通话**id**是呼叫的呼叫 id。 这是呼叫 Microsoft 服务支持时使用的呼叫的唯一标识符。
+*    通话**id**是呼叫的呼叫 id。 它是呼叫 Microsoft 服务支持时使用的呼叫的标识符。
 *    " **用户 ID**"是用户的登录名。
 *    "**电话号码**" 是接收入站通话呼叫或拨出拨出电话的号码的 Skype for business 电话号码。
 *    **用户位置**是用户所在的国家/地区。
@@ -106,7 +106,48 @@ ms.locfileid: "42582879"
 ***
 ![第二](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
  ***
-![第三](../images/sfbcallout3.png)<br/>还可以通过单击或点击 "**导出到 excel** " 按钮，将报告数据导出为逗号分隔的 excel 文件。 您可以从当前日期导出一年的数据，除非国家特定的规定禁止将数据保留12个月。<br/><br/> 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 如果拥有的用户不足 2000 人，你可以在报告本身的表格中进行排序和筛选。 
+
+## <a name="exporting-pstn-usage-report"></a>导出 PSTN 使用情况报告
+
+单击或点击 "**导出到 Excel** " 按钮可下载 PSTN 使用情况报告。 您可以从当前日期导出一年的数据，除非特定国家/地区的法规禁止将数据保留12个月。
+
+此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。
+
+导出过程可能需要几秒钟到几分钟才能完成，具体取决于数据的数量。 当服务器完成导出时，您将收到名为 "调用. 导出" 的 zip 文件 **。 [] `identifier`.zip**"，其中标识符是导出的唯一 ID，可用于疑难解答。
+
+如果既有通话计划又有直接路由，则导出的文件可能包含两个产品的数据。 PSTN 使用报告文件将具有文件名 "**PSTN."。 [] `UTC date`**。 除了 PSTN 和直接路由文件，存档中还包含文件 "**参数. json**"，其中包含所选的导出时间范围和功能（如果有）。
+
+导出的文件是一个逗号分隔值（CSV）文件，符合[RFC 4180](https://tools.ietf.org/html/rfc4180)标准。 该文件可以在 Excel 或任何其他符合标准的编辑器中打开，无需任何转换。
+
+CSV 的第一行包含列名称。
+
+### <a name="fields-in-the-export"></a>导出中的字段
+
+导出的文件包含在联机报表中不可用的其他字段。 这些可用于疑难解答和自动化工作流。
+
+| #  | 名称 | [数据类型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
+| :-: | :-: | :-: |:------------------- |
+| 0 | UsageId | `uniqueidentifier` | 唯一的呼叫标识符 |
+| 1 | 通话 ID | `nvarchar(64)` | 通话标识符。 不保证唯一性 |
+| ppls-2 | 会议 ID | `nvarchar(64)` | 音频会议的 ID |
+| 3 | 用户位置 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+| 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中调用用户的 ID。<br/> 对于 bot 呼叫类型（ucap_in，ucap_out），此和其他用户信息将为 null/空 |
+| 5 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登录名称）。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
+| 6 | 用户显示名称 | `nvarchar(128)` | 用户的显示名称 |
+| 7 | 来电显示 | `nvarchar(128)` | 为拨入电话或拨出电话拨出的电话号码接收呼叫的号码。 [E. 164](https://en.wikipedia.org/wiki/E.164)格式 |
+| 个 | 呼叫类型 | `nvarchar(32)` | 呼叫是 PSTN 出站通话还是入站呼叫以及呼叫类型，例如由用户或音频会议发出的呼叫 |
+| db-9 | 号码类型 | `nvarchar(16)` | 用户的电话号码类型，例如免费号码的服务 |
+| 10 | 国内/国际 | `nvarchar(16)` | 呼叫是国内的（在国家或地区内）还是国际（在国家或地区之外）基于用户的位置 |
+| 11 | 已拨目标 | `nvarchar(64)` | 拨打的国家或地区 |
+| 至 | 目标号码 | `nvarchar(32)` | 以[164](https://en.wikipedia.org/wiki/E.164)格式拨打的号码 |
+| 13 | 开始时间 | `datetimeoffset` | 调用开始时间（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
+| 14 | 结束时间 | `datetimeoffset` | 通话结束时间（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
+| 岁 | 持续秒数 | `int` | 通话的连接时间 |
+| utf-16 | 连接费 | `numeric(16, 2)` | 连接费价格 |
+| 日 | 收费 | `numeric(16, 2)` | 为您的帐户收取的通话金额或通话费用 |
+| 18 | 货币 | `nvarchar(3)` | 用于计算通话费用的货币类型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
+| 19 | 能 | `nvarchar(32)` | 用于通话的许可证 |
+
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
 

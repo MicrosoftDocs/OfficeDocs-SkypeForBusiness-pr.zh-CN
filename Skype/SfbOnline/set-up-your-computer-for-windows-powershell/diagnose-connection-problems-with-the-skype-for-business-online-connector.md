@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 有关创建用于连接到 Skype for business Online 的远程 PowerShell 会话的疑难解答，包括导入模块、并发 shell、实时 ID 和权限错误。
-ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: be3500ea5573dab6daa3d8ff72a8de4f60566ee2
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010685"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637129"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>诊断与 Skype for Business Online 连接器的连接问题
 
@@ -140,7 +140,7 @@ Skype for Business Online 连接器模块只能在 Windows PowerShell 3.0 下运
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>已超出 Skype for Business Online 中此租户的最大并发 shell 数
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-虽然每个管理员都允许将多达三个同时连接到 Skype for Business Online 租户，但不允许单个租户具有超过9个同时连接。 例如，三个管理员可能都有三个打开的会话。 如果第四个管理员尝试建立连接（总共导致10个同步连接），此尝试将失败，并出现以下错误消息：
+虽然每个管理员都允许将多达三个同时连接到 Skype for Business Online 租户，但不允许单个租户具有超过二十个同时进行的连接。 例如，六个管理员可能有三个打开的会话。 如果第七个管理员尝试打开超过两个的连接（总共导致同时连接了21个），此尝试将失败，并出现以下错误消息：
   
 - **错误**：*新的 PSSession： [admin.vdomain.com] 连接到远程服务器 admin.vdomain.com 失败，出现以下错误消息： ws-management 服务无法处理该请求。已超出此租户的并发 shell 的最大数量。关闭现有外壳程序或提高此租户的配额。有关详细信息，请参阅 [远程疑难解答] （https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 

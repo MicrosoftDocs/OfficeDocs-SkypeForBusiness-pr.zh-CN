@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于印度的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 459579824f7f1c25b98e33029699c6e8635c46da
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 7fbd64ee3f00fdad0898c8dd6ea67bce224f8548
+ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853268"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632757"
 ---
 # <a name="availability-in-india"></a>在印度的可用性
 
@@ -42,7 +42,7 @@ ms.locfileid: "41853268"
 
 |**功能**|**详细信息**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |否  <br/> |
+|是否可购买音频会议？  <br/> |Microsoft 不会在印度销售音频会议。 TATA 通信提供与 Microsoft 团队会议兼容的拨入和拨出服务。 有关详细信息，请访问[TATA 通信网站](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)。   <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 金奈<li> 孟买</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
 |使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
    
