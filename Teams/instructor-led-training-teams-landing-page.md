@@ -15,12 +15,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 9fe712b484c20f5a7a8a1b1df5c4720788ac877a
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: c8723236dd159101f953f7d63724403246f69407
+ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583059"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42639373"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -200,7 +200,7 @@ Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/headset.svg" alt="Headset" />
+                            <img src="https://docs.microsoft.com/office/media/icons/headset-teams.svg" alt="Headset" />
                         </div>
                     </div>
                     <div class="cardText">
