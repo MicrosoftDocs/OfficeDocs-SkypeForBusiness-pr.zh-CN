@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7d0f4a38194f80329c34cab73d61a99d4d4d03b
-ms.sourcegitcommit: 90066455ea2f982cdeabd9bff7944718bc7895c4
+ms.openlocfilehash: a657954dcc72d4307c2ba8db222a2b8bbab88f09
+ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42592542"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632747"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -112,7 +112,7 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 Microsoft Teams 教育版提供了针对教育用途的[特定团队类型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)。 [班级团队类型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)旨在用于课堂教学且具有特定功能，包括作业、OneNote 课堂笔记、用于为学生保护只读内容的[班级资料文件夹](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)以及将捣乱的学生静音的功能。 可通过多种方法来部署班级团队：
 
-1. [学校数据同步](https://sds.microsoft.com/) (SDS) 可**由 IT 设置**，允许根据学校信息系统中的信息为所有班级创建班级团队。 此过程将为每个班级预配团队，并使讲师和学生名单保持同步。[教师可以准备自己的团队](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)，然后再允许学生加入。 如果教师不使用该团队，则学生将无法获准加入，因为教师并未单击“激活”。 SDS 支持 80 多种学校信息系统（SIS 系统）的数据导入，[SDS 支持团队](https://aka.ms/SDSSupport)可以帮助你进行规划和配置。
+1. [学校数据同步](https://sds.microsoft.com/) (SDS) 可**由 IT 设置**，允许根据学校信息系统中的信息为所有班级创建班级团队。 此过程将为每个班级预配团队，并使讲师和学生名单保持同步。[教师可以准备自己的团队](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)，然后再允许学生加入。 如果教师不使用该团队，则学生将无法获准加入，因为教师并未单击“激活”。 SDS 支持 80 多种学校信息系统（SIS 系统）的数据导入，[SDS 支持团队](https://aka.ms/SDSSupport)可以帮助你进行规划和配置。 你还可以查看我们的[实现远程学习的快速部署指南](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)，以便快速入门。
 1. **教师设置**自己的班级类型团队并邀请学生。 教师可以通过[将学生添加到团队](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[共享加入代码](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)或[共享指向团队的链接](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)来实现此操作。 如果可能，最好让教师将学生添加到团队，以确保学生获得访问权限并收到其已添加到团队的通知。
 
 团队设置完成后，团队所有者可[自定义团队的设置](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158)（包括添加[团队图片](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0)），[创建班级主题或小组协作区域频道](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45)，[添加应用](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)（如 Quizlet/Flipgrid/Kahoot）来呈现现有教学内容，以及[提及团队来发布首个帖子](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2)以通知每个人并开始对话。
