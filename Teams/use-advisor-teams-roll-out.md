@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams（预览版）帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: c1da173ffbdb150d032b11e0d70ba85e3e4f308b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836772"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795845"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -165,6 +165,8 @@ Advisor for Teams 请求你同意收集非 EUII（最终用户标识信息）。
 ## <a name="related-topics"></a>相关主题
 
 [如何部署 Teams](How-to-roll-out-teams.md)
+
+[在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 
 [用于许可的产品名称和服务计划标识符](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
 ) 
