@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a9cedd0a169fc43e81dfdc131f98b0a90d9cd9e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 03eda4a90cc90eed38e6a1f6bb6ff6751291ffc1
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836224"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706622"
 ---
+# <a name="upgrade-from-skype-for-business-online-to-teams"></a>从 Skype for Business Online 升级到 Teams
+
 ![升级旅行图，强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段，重点介绍部署和实施阶段")
 
 本文是升级过程的部署和实施阶段的一部分。 继续之前，请确认你已完成以下活动：
@@ -36,8 +38,6 @@ ms.locfileid: "41836224"
 - [准备好你的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 - [开展了一个试验](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-online-to-teams"></a>从 Skype for Business Online 升级到 Teams
 
 如果已部署了完全部署的 Skype for business Online，并且想要将用户从 Skype for Business 升级到团队，请按照本文中的指南操作。 通过为用户分配适当的共存和升级模式，你可以有选择地或从你的组织选择的升级历程升级用户。
 

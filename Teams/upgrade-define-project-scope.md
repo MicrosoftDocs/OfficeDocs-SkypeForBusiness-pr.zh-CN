@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837242"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707012"
 ---
+# <a name="define-your-project-scope"></a>定义项目范围
+
 ![升级旅行图，突出显示项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段，重点关注项目定义阶段")
 
 本文是你的升级过程的项目定义阶段的一部分，在你确定的利益干系人中创建赞助联盟和项目团队后，你完成的活动是项目成功的关键。 继续之前，请确认你已完成以下活动：
 
 - [登记的项目利益干系人](upgrade-enlist-stakeholders.md)
-
-# <a name="define-your-project-scope"></a>定义项目范围
 
 花一些时间来定义你的项目远景、范围、目标和管辖将有助于确保所有项目利益干系人的对齐和工作达到相同的最终结果。 这一点尤其重要，因为技术准备团队和用户准备团队将单独工作，以便将各自的部分一起拉出。 完成本部分后，请在整个项目中引用它，以确保您的进度达到所需的结束状态。 使用以下你确定的目标来衡量你的结果，并根据需要进行缓解。
 

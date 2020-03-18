@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adadf5bbc4ad8ea177e194c699eff7bd08384b87
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837412"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706652"
 ---
+# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype for business 共存和互操作性
+
 ![升级旅行图，强调项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段，重点关注项目定义阶段")
 
 本文是你的升级过程的项目定义阶段的一部分，在你创建赞助联盟和项目团队并为你的项目定义范围、目标和构想之后，你完成了一个活动。 继续之前，请确认你已完成以下活动：
 
 - [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
-
-# <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype for business 共存和互操作性
 
 如果您的组织目前使用 Skype for Business，并且您开始使用多个团队和 Skype for business，或者您开始升级到团队，那么了解这两个应用程序是如何共存、何时以及如何进行互操作，以及如何管理用户的迁移一直到最终从 Skype for Business 升级到团队。
 

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54a9f75e6f9e1d0465af56b49df86010697edbd3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ca9ebc7a28e07eec9b24c0628ade4941c0fd2fa2
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837072"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706692"
 ---
+# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>从 Skype for Business 混合部署升级到团队
+
 ![升级旅程的阶段，重点介绍部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段，重点介绍部署和实施阶段")
 
 本文是升级过程的部署和实施阶段的一部分。 继续之前，请确认你已完成以下活动：
@@ -36,8 +38,6 @@ ms.locfileid: "41837072"
 - [准备好你的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 - [开展了一个试验](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>从 Skype for Business 混合部署升级到团队
 
 如果你已在 Office 365 租户的混合部署中部署了 Skype for business 或 Microsoft Lync，并且你的组织希望通过使用多个 Office 租户的混合部署进行配置，请按照本文中的指南进行操作，以便你可以选择性地升级到团队-共存模式————————————。 对于升级旅程，你需要将用户移动到 Skype for business Online （如果他们尚未联机），然后为他们分配适当的共存和升级模式。
 

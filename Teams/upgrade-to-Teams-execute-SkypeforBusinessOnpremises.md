@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2bcd48abb34ad3b8e18b780708e588ad9d0276
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fb6815c805c9f5bcf47d6ee88a6c43c559b932d3
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836214"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706642"
 ---
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>从 Skype for Business 内部部署升级到团队
+
 ![升级旅程的阶段，重点介绍部署和实施阶段](media/upgrade-banner-deployment.png "升级旅程的阶段，重点介绍部署和实施阶段")
 
 本文是升级过程的部署和实施阶段的一部分。 继续之前，请确认你已完成以下活动：
@@ -36,8 +38,6 @@ ms.locfileid: "41836214"
 - [准备好你的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 - [开展了一个试验](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>从 Skype for Business 内部部署升级到团队
 
 如果你已部署 Skype for business 或 Microsoft Lync 本地版，并且你的组织希望通过使用多个共存模式（或全部）升级到 Microsoft 团队，请按照本文中的指南操作。 
 

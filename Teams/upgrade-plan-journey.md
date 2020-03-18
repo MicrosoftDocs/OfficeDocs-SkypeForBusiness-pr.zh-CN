@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3226dd3887a4d289b810bb866d96dba704dd448
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 29cd3a6b420ab33cfc6f18b839d544572cfc9753
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837112"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706912"
 ---
-![团队升级旅程的示意图](media/upgrade-banner-main.png "确保您的项目已针对合适的项目团队进行了成功设置。定义项目范围、目标和日程表。确认技术和用户准备情况。执行推出计划。保持动量以最大化结果。")
-
 # <a name="plan-for-your-upgrade"></a>规划升级
+
+![团队升级旅程的示意图](media/upgrade-banner-main.png "确保您的项目已针对合适的项目团队进行了成功设置。定义项目范围、目标和日程表。确认技术和用户准备情况。执行推出计划。保持动量以最大化结果。")
 
 正常的技术环境、持续的用户使用情况以及所有业务目标的实现均以正确的规划开始。 实体计划为你的升级项目提供了一个框架，确保所有利益干系人都能达到相同的目标。 通过花费时间来正确定义成功，你可以在你的部署过程中测量结果，并验证你是否正在获得所需的结果。 规划旅行包括：
 

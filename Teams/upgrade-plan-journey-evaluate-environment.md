@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: d73c40ee6a2ebe906a6a3ca66dbb430b843c6eeb
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863483"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706922"
 ---
+# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>升级到团队之前先评估你的环境
+
 ![升级旅行图，强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段，重点介绍技术准备阶段")
 
 本文是您的升级过程的技术准备阶段的一部分，与用户准备阶段并行完成的活动。 在继续之前，请确认您已完成以前阶段中的这些活动：
@@ -33,8 +35,6 @@ ms.locfileid: "41863483"
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
 - [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
 - [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="evaluate-your-environment-before-upgrading-to-teams"></a>升级到团队之前先评估你的环境
 
 本文概述了正确评估运营团队的当前环境的要求。 通过评估你的环境，确定将影响你的整体部署的风险和要求。 通过预先确定这些项目，您可以调整计划以推动成功。
 

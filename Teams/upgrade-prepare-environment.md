@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82b9418f2e87550667cbc163f8f37a0989ec2b30
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: afbcc5721d55983e19970e6c2fbc60e5a7467cba
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863433"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706792"
 ---
+# <a name="prepare-your-environment-for-upgrading-to-teams"></a>准备要升级到团队的环境
+
 ![升级旅行图，强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段，重点介绍技术准备阶段")
 
 本文是您的升级过程的技术准备阶段的一部分，与用户准备阶段并行完成的活动。 在继续之前，请确认您已完成以前阶段中的这些活动：
@@ -33,8 +35,6 @@ ms.locfileid: "41863433"
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
 - [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
 - [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-environment-for-upgrading-to-teams"></a>准备要升级到团队的环境
 
 若要推动组织中成功的团队升级，请务必验证当前的 Skype for business 环境和网络准备情况。 准备当前环境将有助于确保立即获得高质量的用户体验，不仅提高团队中的用户体验质量。 花一些时间来规划单个步骤有助于加速你的部署，并确保你没有跳过任何重要的操作项。
 

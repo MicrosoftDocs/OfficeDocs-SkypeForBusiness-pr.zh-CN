@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用 "批处理策略分配" 为远程学校（teleschool、长途）批量为您的教育机构中的大型用户分配策略。
 f1keywords: ''
-ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 8dd771b27c1950cdce1590783bcfb3b4159c1c29
+ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604299"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42691182"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>向学校的大型用户组分配策略
 
@@ -112,6 +112,9 @@ $faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuI
 ## <a name="assign-a-policy-in-bulk"></a>批量分配策略
 
 现在，我们会批量向用户分配适当的策略。 你可以为其分配或更新策略的最大用户数为每次20000。 例如，如果您有超过20000的员工和教育版，则需要提交多个批次。
+
+> [!IMPORTANT]
+> 我们当前建议你一次为每批5000用户分配策略。 在增加需求的这些时间内，你可能会遇到处理时间方面的延迟。 为了将这些增加的处理时间的影响降到最低，我们建议你向5000用户提交较小的批处理大小，并且仅在上一个批处理完成后再提交。 在正常工作时间内提交批还会有所帮助。
 
 运行以下操作，将名为 EducatorMeetingPolicy 的会议策略分配给你的员工和教育版。
 

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836792"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706682"
 ---
+# <a name="prepare-a-user-readiness-plan"></a>准备用户就绪性计划
+
 ![升级旅行阶段，突出显示用户准备情况阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，重点关注用户准备阶段")
 
 本文是你的升级过程的用户准备阶段的一部分，与技术准备阶段并行完成的活动。 在继续之前，请确认您已完成以前阶段中的这些活动：
@@ -33,8 +35,6 @@ ms.locfileid: "41836792"
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
 - [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
 - [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-a-user-readiness-plan"></a>准备用户就绪性计划
 
 最佳用户准备计划包含了你在试点、板载和升级到团队时如何与你沟通、培训和支持你的用户。 在[评估组织更改准备工作](https://aka.ms/OrgReadiness)时，准备工作不适合一个大小。 为确保最佳 receptiveness 新技术，请结合使用广泛的消息传递（结合远景/值消息和通用使用案例）和消息、培训和支持，根据你定义的角色和 cohorts 以及相应的 laggards 进行定制。 此个性化计划将帮助用户更快地与团队相关，同时还可帮助用户更快地与团队进行关联，同时演示你了解自己的需求。
 

@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833892"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706452"
 ---
+# <a name="conduct-a-user-pilot"></a>执行用户试点
+
 ![升级旅行图，突出显示部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段，重点介绍部署和实施阶段")
 
 本文是升级过程的部署和实施阶段的一部分，并分享了运行有效试验的见解。 继续之前，请确认你已完成以下活动：
@@ -35,8 +37,6 @@ ms.locfileid: "41833892"
 - [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [准备好你的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
-
-# <a name="conduct-a-user-pilot"></a>执行用户试点
 
 通过部署新技术，你的组织可以实现成本节约、安全合规性、员工满意度和操作效率等业务价值，但也会影响用户的生产力和组织基础结构（您的网络）。 在您的组织中启用新技术之前，请进行正式的用户试验。 就像在绘制整个聊天室之前在墙上绘制小的颜色片一样，你可以通过执行试验来验证技术和用户准备情况、识别和缓解问题，从而在较小的范围内测试广泛的推出，并帮助确保成功组织范围的实现。
 

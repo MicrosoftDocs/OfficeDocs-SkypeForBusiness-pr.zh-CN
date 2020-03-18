@@ -21,13 +21,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31966dbb98d89cf6a4ef9b4d4dd12710b098c755
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 849d54b5bbdab228d4d91329894da3cdf993017b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833722"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706602"
 ---
+# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
+
 ![升级旅行图，强调项目定义阶段](media/upgrade-banner-project-definition.png "升级旅行的阶段，重点关注项目定义阶段")
 
 本文是升级历程的项目定义阶段的一部分。 继续之前，请确认你已完成以下活动：
@@ -35,8 +37,6 @@ ms.locfileid: "41833722"
 - [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
 - [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
-
-# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
 
 作为现有的 Skype for Business 客户，您对团队的完全过渡可能需要一段时间。 但是，你现在可以通过让你的用户与 Skype for Business 一起使用团队，开始实现团队的价值。 假设两个应用之间存在一些重叠的功能，我们建议你查看可用的共存和升级模式，以帮助确定适合你的组织的路径。 例如，你可以选择在不具有互操作性的两个解决方案上启用所有工作负荷。 或者，你可以决定管理用户体验，方法是逐步引入团队功能或面向用户组选择功能，直到你的组织准备好将每个人升级到团队。 使用试点结果帮助评估适合您的组织的升级旅程。
 
@@ -102,9 +102,9 @@ ms.locfileid: "41833722"
 | 团队体验 | 在 "孤岛" 模式下 | 在 TeamsOnly 模式下 |
 |:------------------ | :------------------- | :------------------ |
 | 传入聊天和通话接收时间：|  团队或 Skype for business | Teams |
-| 在以下情况中接收 PSTN 呼叫： | Skype for Business <br>（在孤岛模式下不支持使用团队中的 PSTN 功能。）    | Teams |   
- |状态  | Skype for business 和团队中的状态是独立的。 对于同一孤岛用户，用户可能会看到不同的状态，具体取决于他们使用的客户端。 | 状态仅基于用户在团队中的活动。 所有其他用户，无论他们使用哪种客户端，都可以查看该状态。 | 
- | 会议计划   | 用户可以在团队或 Skype for Business 中安排会议。 它们将在 Outlook 中看到两个外接程序。 |   用户仅在团队中安排会议。 Outlook 中仅提供团队外接程序。 | 
+| 在以下情况中接收 PSTN 呼叫： | Skype for Business <br>（在孤岛模式下不支持使用团队中的 PSTN 功能。）     | Teams |   
+ |状态    | Skype for business 和团队中的状态是独立的。 对于同一孤岛用户，用户可能会看到不同的状态，具体取决于他们使用的客户端。 | 状态仅基于用户在团队中的活动。 所有其他用户，无论他们使用哪种客户端，都可以查看该状态。 | 
+ | 会议计划    | 用户可以在团队或 Skype for Business 中安排会议。 它们将在 Outlook 中看到两个外接程序。    |     用户仅在团队中安排会议。 Outlook 中仅提供团队外接程序。 | 
 
 下表总结了使用重叠的功能方法将组织迁移到团队的优点和缺点。
 

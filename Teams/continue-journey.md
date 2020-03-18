@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550909"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706442"
 ---
+# <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 团队
+
 ![升级旅行图，强调卓越运营阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段，重点关注运营卓越阶段")
 
 本文是升级过程的 "卓越运营" 阶段的一部分，在您从 Skype for Business 升级到团队后立即开始。
-
-# <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 团队
 
 以前所未有的步调创新技术。 保持当前和启用新式工作区环境已成为企业运营方式的标准。 Microsoft 团队的 Microsoft 365 和 Microsoft 的智能通信展望继续展开，有一个操作计划可帮助确保你的组织已设置为长期成功。 最佳运营计划包括监控运行状况和质量的环境、继续提高用户发展势头以优化采纳和规划新功能，这些功能将随着时间的推移继续保持在线。
 

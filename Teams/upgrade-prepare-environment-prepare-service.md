@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 8b9e55a4189556c69e93c86286dd1b9b585bb726
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863443"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706882"
 ---
+# <a name="prepare-your-service-for-upgrading-to-teams"></a>准备要升级到团队的服务
+
 ![升级旅行图，强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段，重点介绍技术准备阶段")
 
 本文是您的升级过程的技术准备阶段的一部分，与用户准备阶段并行完成的活动。 在继续之前，请确认您已完成以前阶段中的这些活动：
@@ -33,8 +35,6 @@ ms.locfileid: "41863443"
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
 - [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
 - [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-service-for-upgrading-to-teams"></a>准备要升级到团队的服务
 
 本文概述了准备组织与团队进行协作和云语音服务的要求。 通过正确准备，你可以确保你已准备好将这些功能提供给你的组织。
 

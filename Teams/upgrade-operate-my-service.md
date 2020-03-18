@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863513"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706962"
 ---
+# <a name="operate-your-service"></a>运行服务
+
 ![升级旅行图，强调卓越运营阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段，重点关注运营卓越阶段")
 
 本文是升级过程的 "卓越运营" 阶段的一部分，在您从 Skype for Business 升级到团队后立即开始。
-
-# <a name="operate-your-service"></a>运行服务
 
 本文概括介绍了升级后为您的组织成功操作团队的要求。 通过正确操作团队服务，你可以确保为你的组织提供优质、可靠的体验。
 

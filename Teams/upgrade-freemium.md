@@ -19,14 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0c86a22449fef5563b531558d45188c74ea8280
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 756f22712bb0d3f71cdeb5936eb53960700ef57b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837162"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706982"
 ---
-<a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>将 Microsoft Teams free 升级到 Office 365 订阅版本
+# <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>将 Microsoft Teams free 升级到 Office 365 订阅版本
 ======================================================
 
 如果你的组织使用的是免费版本的 Microsoft 团队，则可以通过为你的用户购买 Office 365 订阅计划轻松升级到完整版本。 完整版本提供了更多团队功能，如计划、音频会议、增强的管理和安全功能——免费版本不提供。 Office 365 将熟悉的 Microsoft Office 桌面套件与基于云的 Microsoft 新一代通信和协作服务（包括 Exchange Online、SharePoint Online 和 Office）结合在一起，帮助用户提高工作效率随时随地通过 internet 进行访问。 升级团队时，现有团队数据将不会丢失;你的所有团队、频道、聊天、文件和权限都将随你提供。 

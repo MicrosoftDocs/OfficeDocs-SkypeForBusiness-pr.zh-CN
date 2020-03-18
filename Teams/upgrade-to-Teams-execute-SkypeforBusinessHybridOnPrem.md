@@ -19,13 +19,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c467fe63cee4681f2b758b264949cd931e3f901
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045024"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706672"
 ---
+# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>从本地 Skype for Business 升级到团队
+
 ![升级旅行图，强调部署和实现](media/upgrade-banner-deployment.png "升级旅程的阶段，重点介绍部署和实施阶段")
 
 本文是升级过程的部署和实施阶段的一部分。 继续之前，请确认你已完成以下活动：
@@ -37,8 +39,6 @@ ms.locfileid: "42045024"
 -   [准备好你的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 -   [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [开展了一个试验](https://aka.ms/SkypeToTeams-Pilot)
-
-# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>从本地 Skype for Business 升级到团队
 
 如果你已部署 Skype for Business 服务器或 Microsoft Lync 本地版，并且你的组织希望升级到团队，请按照本文中的指南操作。 你需要设置与 Office 365 租户的混合连接，并确定在阶段将用户移动到团队的共存要求。 
 

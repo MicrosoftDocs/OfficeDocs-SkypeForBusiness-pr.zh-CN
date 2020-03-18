@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837202"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707002"
 ---
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>升级后充分利用团队
+
 ![升级旅行图，强调卓越运营阶段](media/upgrade-banner-op-excellence.png "升级旅行阶段，重点关注运营卓越阶段")
 
 本文是升级过程的 "卓越运营" 阶段的一部分，在您从 Skype for Business 升级到团队后立即开始。
-
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>升级后充分利用团队
 
 本文概述了升级后充分利用运营团队的要求。 通过持续监视团队服务功能，你可以确保你为你的组织提供最大价值。
 

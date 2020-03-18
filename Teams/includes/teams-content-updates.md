@@ -50,17 +50,47 @@
 | 3/6/2020 | [打开和使用呼叫质量仪表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 修改内容 |
 
 
+## <a name="week-of-march-09-2020"></a>2020年3月9日的周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 3/10/2020 | [Teams 云会议录制](/MicrosoftTeams/cloud-recording) | 修改内容 |
+| 3/10/2020 | [数据收集做法](/MicrosoftTeams/data-collection-practices) | 修改内容 |
+| 3/10/2020 | ["呼叫质量" 仪表板中可用的尺寸和测量](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
+| 3/10/2020 | [联系 PSTN 服务支持](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 修改内容 |
+| 3/10/2020 | [你的转网订单的状态是什么？](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | 修改内容 |
+| 3/10/2020 | [在 Microsoft Teams 中设置包含在邀请中的电话号码](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 修改日期 |
+| 3/10/2020 | [面向 Microsoft Teams 用户的讲师引导式培训和视频](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修改内容 |
+| 3/10/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 3/10/2020 | [在 Microsoft Teams 中管理设备](/MicrosoftTeams/device-management) | 修改内容 |
+| 3/11/2020 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
+| 3/11/2020 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
+| 3/11/2020 | [在 Microsoft Teams 中管理自定义应用策略和设置](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 修改内容 |
+| 3/11/2020 | [向 Microsoft 团队中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
+| 3/11/2020 | [向学校的大型用户组分配策略](/MicrosoftTeams/batch-policy-assignment-edu) | 修改内容 |
+| 3/12/2020 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 3/12/2020 | [常见问题解答：支持远程工作人员](/MicrosoftTeams/faq-support-remote-workforce) | 修改内容 |
+| 3/13/2020 | [在印度的可用性](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-india) | 修改内容 |
+| 3/13/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 3/13/2020 | [在 Microsoft 团队中管理专用频道的生命周期](/MicrosoftTeams/private-channels-life-cycle-management) | 修改内容 |
+| 3/13/2020 | [Microsoft 团队 PSTN 使用报告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 修改内容 |
+| 3/13/2020 | [面向 Microsoft Teams 用户的讲师引导式培训和视频](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修改内容 |
+| 3/13/2020 | [为 Microsoft Teams 准备组织的网络](/MicrosoftTeams/prepare-network) | 修改内容 |
+| 3/13/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
+
+
 ## <a name="week-of-february-17-2020"></a>2020年2月17日的周
 
 
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
 | 2/21/2020 | [使用 Microsoft Teams 会议室恢复工具](/MicrosoftTeams/rooms/recovery-tool) | 修改内容 |
-| 2/21/2020 | [Microsoft Teams 中的应用、聊天机器人和连接器](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改日期 |
+| 2/21/2020 | [Microsoft Teams 中的应用、聊天机器人和连接器](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 修改时间 |
 | 2/21/2020 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
 | 2/21/2020 | [在 Microsoft 团队管理中心中管理你的应用](/MicrosoftTeams/manage-apps) | 修改内容 |
 | 2/21/2020 | [管理 Microsoft 团队中的业务线应用](/MicrosoftTeams/manage-your-lob-apps) | 修改内容 |
-| 2/21/2020 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改时间 |
+| 2/21/2020 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
 | 2/21/2020 | 在 Microsoft 团队租户应用目录中发布应用 | 删除内容 |
 | 2/21/2020 | [使用 Microsoft 团队管理员角色管理团队](/MicrosoftTeams/using-admin-roles) | 修改内容 |
 

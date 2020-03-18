@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea2fc7a56b3bc87a7d25c2afa86ff0b9f974995c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836244"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706782"
 ---
+# <a name="prepare-your-organization"></a>准备您的组织
+
 ![升级旅程的阶段，重点关注用户准备阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，重点关注用户准备阶段")
 
 本文是你的升级过程的用户准备阶段的一部分，与技术准备阶段并行完成的活动。 在继续之前，请确认您已完成以前阶段中的这些活动：
@@ -33,8 +35,6 @@ ms.locfileid: "41836244"
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
 - [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
 - [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-your-organization"></a>准备您的组织
 
 若要实现团队的最大价值，用户必须实际使用它，但让用户更改其工作方式始终很简单。 花时间了解你的用户并设计正确的准备情况计划有助于帮助更改和加速团队的采纳。 这些活动应与你的技术准备工作并行完成：
 

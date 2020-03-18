@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解在 Microsoft 团队中向用户分配策略的不同方法。
 f1keywords: ''
-ms.openlocfilehash: e9f31f9bf9d08497b58490ddc7a7bea9e0496539
-ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
+ms.openlocfilehash: 0f0ce566eb395e3bf3722149797908599091bc2a
+ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604289"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42691192"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft 团队中的用户分配策略
 
@@ -125,6 +125,9 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 通过批处理策略分配，您可以一次性为大型用户分配策略，而无需使用脚本。 使用```New-CsBatchPolicyAssignmentOperationd``` cmdlet 提交要分配的一批用户和策略。 作业作为后台操作处理，并为每个批处理生成操作 ID。 然后，你可以使用```Get-CsBatchPolicyAssignmentOperation```该 cmdlet 跟踪批处理中作业的进度和状态。
 
 批处理最多可包含20000个用户。 你可以按对象 Id、用户主体名称（UPN）、会话初始协议（SIP）地址或电子邮件地址指定用户。
+
+> [!IMPORTANT]
+> 我们当前建议你一次为每批5000用户分配策略。 在增加需求的这些时间内，你可能会遇到处理时间方面的延迟。 为了将这些增加的处理时间的影响降到最低，我们建议你向5000用户提交较小的批处理大小，并且仅在上一个批处理完成后再提交。 在正常工作时间内提交批还会有所帮助。
 
 > [!NOTE]
 > 当前，批策略分配不适用于所有团队策略类型。 有关受支持的策略类型列表，请参阅[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) 。

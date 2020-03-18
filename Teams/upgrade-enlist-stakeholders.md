@@ -18,19 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837192"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706992"
 ---
+# <a name="enlist-your-project-stakeholders"></a>登记项目干系人
+
 ![显示升级历程的利益干系人状态的插图](media/upgrade-banner-stakeholders.png "升级旅程的阶段，重点是收集项目利益干系人团队")
 
 本文是你的升级过程的项目利益干系人阶段的一部分，你为项目成功完成的第一个和最基本的活动。
-
-
-# <a name="enlist-your-project-stakeholders"></a>登记项目干系人
 
 从实施项目可交付结果到促进责任，您的利益干系人持有项目成功的关键。 您要分配的利益干系人组：（1）一个_赞助联盟_，其中包括负责确保技术和用户准备工作的人员和项目发起_人，包括_负责确保技术和用户准备工作的人员，这些人员将在项目计划中完成各种任务。 这两个组之间的常见线程是_项目经理_，其工作方式是确保项目任务按时完成，并将项目状态报告回联盟。
 

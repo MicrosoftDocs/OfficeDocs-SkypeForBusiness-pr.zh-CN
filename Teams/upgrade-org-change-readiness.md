@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048593"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706932"
 ---
+# <a name="assess-organizational-change-readiness"></a>评估组织更改是否就绪
+
 ![升级旅行图，强调用户准备情况阶段](media/upgrade-banner-user-readiness.png "升级旅程的阶段，重点关注用户准备阶段")
 
 本文是你的升级过程的用户准备阶段的一部分，与技术准备阶段并行完成的活动。 在继续之前，请确认您已完成以前阶段中的这些活动：
@@ -33,8 +35,6 @@ ms.locfileid: "42048593"
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
 - [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
 - [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="assess-organizational-change-readiness"></a>评估组织更改是否就绪
 
 在你保护项目团队并定义你的愿景、范围和目标之后，你的升级开始的下一步是确保你的组织和用户已准备好团队——你可以与确保你的技术准备工作同时完成的活动。 若要实现来自团队的价值，用户必须实际使用它。 只是启用团队不保证你实现目标。 用户具有不同的使用情形和不同的学习风格，并且它们以不同的速度适应新技术。 好消息是，管理更改并不是很复杂，而是要做重点工作。 下面的指导性讨论旨在帮助你了解你的用户群体，以便你可以准备好合适的教育级别，从而促进和加速用户采纳。 你可以通过两种方式查看你的用户群：
 
@@ -62,7 +62,7 @@ ms.locfileid: "42048593"
 <!--
 | **Type of user** | **%** |
 |------------|---|
-| *Early adopters* request the solution before it’s available. | |
+| *Early adopters* request the solution before it's available. | |
 | *Informed users* accept the solution as soon as its value is demonstrated. | |
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
@@ -80,8 +80,8 @@ ms.locfileid: "42048593"
 | **Type of learner** | **%** |
 |---------------|---|
 | *Self-motivated* learners seek out resources, learn by doing. | |
-| *Team-players* enjoy group and interactive training; they’ll go along with coworkers. | |
-| *Hand-holding* seekers expect “white glove” or one-on-one assistance. | |
+| *Team-players* enjoy group and interactive training; they'll go along with coworkers. | |
+| *Hand-holding* seekers expect "white glove" or one-on-one assistance. | |
 -->
 
 | 自我积极 | 工作组玩家 | 手动保留 seekers |

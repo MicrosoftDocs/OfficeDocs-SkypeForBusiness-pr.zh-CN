@@ -18,26 +18,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec47733accfe9973887cd9f3f7019ac368e8e970
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d58613bc3455d5467e9e6c6589f73d498c6e1e3b
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837212"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706902"
 ---
+# <a name="prepare-your-network-for-upgrading-to-teams"></a>准备要升级到团队的网络
+
 ![升级旅行图，强调技术准备阶段](media/upgrade-banner-tech-readiness.png "升级旅程的阶段，重点介绍技术准备阶段")
 
-本文属于升级过程的技术就绪阶段，此阶段的活动与用户就绪阶段并行完成。 在继续操作之前，请确认你已完成前面各阶段的活动。
+本文是您的升级过程的技术准备阶段的一部分，与用户准备阶段并行完成的活动。 在继续之前，请确认您已完成以前阶段中的这些活动：
 
 - [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
-- [了解 Skype for Business 和 Teams 的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
-- [已选择升级过程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [已选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 > [!Tip]
 > 观看以下会话，了解如何让团队利用你的网络以及如何实现最佳网络连接的最佳计划：[团队网络规划](https://aka.ms/teams-networking)
-
-# <a name="prepare-your-network-for-upgrading-to-teams"></a>准备要升级到团队的网络
 
 如果你要部署音频、视频或会议，你可以执行一些额外的步骤来为该功能优化你的网络。 团队使用音频和视频技术（编解码器），它可以在大多数网络条件下适应，从而性能更好。 为确保最佳性能，应为团队准备网络。
 
@@ -67,9 +67,9 @@ ms.locfileid: "41837212"
 
 许多网络设计为使用中心和辐射型拓扑。 在此拓扑中，Internet 流量通常先穿过 WAN 到达中心数据库，然后再向外传输（流出）到 Internet。 通常，这么做事为了集中网络安全设备，目的是降低总成本。
 
-经过 WAN 的回程流量会造成延迟增加，并对质量和用户体验产生负面影响。 由于 Microsoft Teams 在 Microsoft 的大型全局网络上运行，因此，用户附近通常会有网络对等位置。 用户通过从其所在位置附近的本地 Internet 点流出并尽快进入我们的语言优化网络，很可能会获得更佳的性能。 对于某些工作负荷，使用 DNS 请求向最近的前端服务器发送流量。 在这种情况下，务必要在使用本地出口点时，将其与本地 DNS 解析配对。
+经过 WAN 的回程流量会造成延迟增加，并对质量和用户体验产生负面影响。 由于 Microsoft 团队在 Microsoft 的大型全球网络上运行，因此通常会向用户靠近网络对等位置。 用户通过从其所在位置附近的本地 Internet 点流出并尽快进入我们的语言优化网络，很可能会获得更佳的性能。 对于某些工作负荷，使用 DNS 请求向最近的前端服务器发送流量。 在这种情况下，在使用本地出口点时，它与本地 DNS 解析相配对非常重要。
 
-优化指向 Microsoft 的全局网络的网络路径将会提高性能，并最终将为用户提供最佳体验。 有关更多详细信息，请参阅博客文章 [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)（在 Office 365 中获取最佳连接性和性能）。
+优化 Microsoft 全球网络的网络路径将提高性能，并最终为用户提供最佳体验。 有关更多详细信息，请参阅博客文章 [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)（在 Office 365 中获取最佳连接性和性能）。
 
 若要使用 Microsoft 团队中的实时媒体获取最佳体验，必须满足 Office 365 的网络要求。 有关详细信息，请参阅[Skype for Business Online 的媒体质量和网络连接性能](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)。
 
@@ -93,7 +93,7 @@ ms.locfileid: "41837212"
 
 VPN 为许多组织提供很有用的服务。 很遗憾，它们通常不是为支持实时媒体而设计或配置的。 一些 VPN 可能还不支持 UDP。 Vpn 还会在已加密的媒体流量顶部引入额外的加密层。 此外，由于通过 VPN 设备有头发的流量，到团队服务的连接可能不会有效。 此外，它们不一定从容量角度进行设计，以适应团队需要的预期负载。
 
-建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为*拆分隧道 VPN*。 拆分隧道意味着 Office 365 的流量不会遍历 VPN，但会直接转到 Office 365。 此改变不仅有利于提高质量，而且还带来额外的好处，即降低 VPN 设备和组织网络的负荷。
+建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为*拆分隧道 VPN*。 拆分隧道意味着 Office 365 的流量不会遍历 VPN，但会直接转到 Office 365。 此更改将对质量产生积极影响，但也会提供从 VPN 设备和组织网络减少负载的辅助优点。
 
 要实施拆分通道，请咨询 VPN 供应商了解配置详细信息。
 
