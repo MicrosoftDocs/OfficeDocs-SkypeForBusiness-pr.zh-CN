@@ -11,7 +11,7 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用适用于 Microsoft 团队的各种客户端，其中包括 web、桌面（Windows 和 Mac）和移动设备（Android 和 iOS）。
+description: 了解如何使用支持 Microsoft Teams 的各种客户端，包括 Web、桌面（Windows 和 Mac）和移动（Android 和 iOS）。
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
 ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/28/2020
 ms.locfileid: "42327834"
@@ -28,25 +28,25 @@ ms.locfileid: "42327834"
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
 
-Microsoft 团队拥有适用于桌面（Windows、Mac 和 Linux）、web 和移动设备（Android 和 iOS）的客户端。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
+支持 Microsoft Teams 的客户端包括桌面（Windows、Mac 和 Linux）、Web 和移动设备（Android 和 iOS）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
 
 > [!NOTE]
-> 2018年11月29日，您将不再能够使用 microsoft Store 提供的 Microsoft Windows 10 S （预览版）应用程序。 现在，你可以在运行 Windows 10 S 模式的设备上下载和安装团队桌面客户端。 若要下载桌面客户端，请[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)转到。 适用于运行 Windows 10 S 模式的设备尚不支持团队桌面客户端的 MSI 内部版本。
+> 自 2018 年 11 月 29 日起，用户将不再能够使用 Microsoft Store 提供的 Microsoft Teams for Windows 10 S（预览版）应用。 现在，可以在运行 Windows 10 S 模式的设备上下载并安装 Teams 桌面客户端。 若要下载桌面客户端，请转到 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)。 Teams 桌面客户端的 MSI 内部版本尚不适用于运行 Windows 10 S 模式的设备。
 >
-> 有关 Windows 10 S 模式的详细信息，请参阅[windows 10 的 s 模式简介](https://www.microsoft.com/windows/s-mode)。 
+> 有关 Windows 10 S 模式的详细信息，请参阅 [Windows 10 S 模式简介](https://www.microsoft.com/windows/s-mode)。 
 
 ## <a name="desktop-client"></a>桌面客户端
 
 > [!TIP]
-> 观看以下会话，了解 Windows 桌面客户端的优点、如何规划它以及如何部署它：[团队 Windows 桌面客户端](https://aka.ms/teams-clients)
+> 观看以下会话以了解 Windows 桌面客户端的优势，如何规划它，以及如何部署它：[Teams Windows 桌面客户端](https://aka.ms/teams-clients)
 
-Microsoft 团队桌面客户端是独立的应用程序，也[可以在 Office 365 专业增强版中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于32位和64位版本的 Windows （8.1 或更高版本）和 Windows Server （2012 R2 或更高版本），以及 macOS （10.10 或更高版本）和 Linux （ `.deb` `.rpm`格式）。 在 Windows 上，团队需要 .NET Framework 4.5 或更高版本;如果您没有，团队安装程序将为您提供安装它的功能。 在 Linux 上，程序包管理员（ `apt`如`yum`和）将尝试为你安装任何要求。 但是，如果不是这样，则需要安装任何报告的要求，然后才能在 Linux 上安装团队。
+Microsoft Teams 桌面客户端是独立的应用程序，也[可以在 Office 365 专业增强版中使用](https://docs.microsoft.com/deployoffice/teams-install)。 Teams 可用于 32 位和 64 位版本的 Windows（8.1 或更高版本）和 Windows Server（2012 R2 或更高版本），以及 macOS（10.10 或更高版本）和 Linux（`.deb` 和 `.rpm` 格式）。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更高版本；如果没有，Teams 安装程序将为你安装。 在 Linux 上，程序包管理器（例如 `apt` 和 `yum`）将尝试为你安装任何要求。 但是，如果没有，则在 Linux 上安装 Teams 前，你将需要安装任何报告的要求。
 
-桌面客户端为团队会议、群组通话和私人一对一通话提供实时通信支持（音频、视频和内容共享）。
+桌面客户端为团队会议、群组通话和专线一对一呼叫提供实时通信支持（音频、视频和内容共享）。
 
-[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)如果最终用户拥有相应的本地权限（在电脑上安装团队客户端，但在 Mac 上需要管理员权限），则最终用户可以直接下载和安装桌面客户端。
+如果最终用户有合适的本地权限（在 PC 上安装 Teams 客户端不需要管理权限，但在 Mac 上需要），可以直接从 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下载并安装桌面客户端。
 
-IT 管理员可以选择其首选方法将安装文件分发给组织中的计算机。 一些示例包括 Microsoft 终结点配置管理器（Windows）或 Jamf Pro （macOS）。 若要获取适用于 Windows 分发的 MSI 程序包，请参阅[使用 Msi 安装 Microsoft 团队](msi-deployment.md)。  
+IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上。 一些示例包括 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 要获取用于 Windows 分发的 MSI 包，请参阅[使用 MSI 安装 Microsoft Teams](msi-deployment.md)。  
 
 > [!NOTE]
 > 通过这些机制分发客户端仅适用于初次安装 Microsoft Team 客户端，不适用于将来更新。
@@ -56,19 +56,19 @@ IT 管理员可以选择其首选方法将安装文件分发给组织中的计�
 适用于 Windows 的 Microsoft Teams 安装提供 32 位和 64 位体系结构的可下载安装程序。
 
 > [!NOTE]
-> Microsoft 团队的体系结构（32位和64位）对安装的 Windows 和 Office 体系结构而言不可知。
+> 安装的 Windows 和 Office 的体系结构不限制 Microsoft Teams 的体系结构（32 位和 64 位）。
 
-Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端利用以下位置：
+Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。 部署到用户的本地配置文件后，无需提升的权限即可安装客户端。 Windows 客户端会利用以下位置：
 
-- % LocalAppData%\\Microsoft\\团队
+- %LocalAppData%\\Microsoft\\Teams
 
-- % LocalAppData%\\Microsoft\\TeamsMeetingAddin
+- %LocalAppData%\\Microsoft\\TeamsMeetingAddin
 
-- % AppData%\\Microsoft\\团队
+- %AppData%\\Microsoft\\Teams
 
-- % LocalAppData%\\SquirrelTemp
+- %LocalAppData%\\SquirrelTemp
 
-用户首次使用 Microsoft Teams 客户端启动呼叫时，他们可能会注意到有关 Windows 防火墙设置的警告，要求用户允许通信。 系统可能会指示用户忽略此消息，因为呼叫将正常工作，即使消除警告时也是如此。
+用户首次使用 Microsoft Teams 客户端启动呼叫时，他们可能会注意到有关 Windows 防火墙设置的警告，要求用户允许通信。 可以指示用户忽略此消息，因为即使忽略此警告，也可以进行呼叫。
 
 ![Windows 安全警报对话框屏幕截图。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
@@ -77,63 +77,63 @@ Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。
 
 ### <a name="mac"></a>Mac
 
-通过使用 macOS 计算机的 INSTALLER.PKG 安装文件，Mac 用户可以安装团队。 要安装 Mac 客户端，需要管理权限。 MacOS 客户端安装到/Applications 文件夹。
+Mac 用户可以使用 macOS 计算机的 PKG 安装文件安装 Teams。 安装 Mac 客户端需要管理访问权限。 将 macOS 客户端安装到 /Applications 文件夹中。
 
-#### <a name="install-teams-by-using-the-pkg-file"></a>使用 INSTALLER.PKG 文件安装团队
+#### <a name="install-teams-by-using-the-pkg-file"></a>使用 PKG 文件安装 Teams
 
-1. 从 "[团队下载" 页面](https://teams.microsoft.com/downloads)上的 " **Mac**" 下，单击 "**下载**"。
-2. 双击 "INSTALLER.PKG" 文件。
-3. 按照安装向导完成安装。
-4. 团队将安装到/Applications 文件夹。 这是一种计算机范围的安装。
-
-> [!NOTE]
-> 在安装期间，INSTALLER.PKG 将提示输入管理员凭据。 用户需要输入管理员凭据，无论用户是否为管理员。
-
-如果用户当前具有团队的 .DMG 安装，并且想要将其替换为 INSTALLER.PKG 安装，用户应：
-
-1. 退出 "团队" 应用。
-2. 卸载 "团队" 应用。
-3. 安装 INSTALLER.PKG 文件。
-
-IT 管理员可以使用团队的托管部署将安装文件分发到其组织中的所有 Mac，例如 Jamf Pro。
+1. 在 **Mac** 下的 [Teams下载页面](https://teams.microsoft.com/downloads)中，单击 **“下载”**。
+2. 双击 PKG 文件。
+3. 按照安装向导的说明完成安装。
+4. Teams 将安装到 /Applications 文件夹中。 它是计算机范围内的安装。
 
 > [!NOTE]
-> 如果您安装 INSTALLER.PKG 时遇到问题，请告知我们。 在本文末尾的 "**反馈**" 部分中，单击 "**产品反馈**"。
+> 安装期间，PKG 将提示输入管理员凭据。 无论用户是否为管理员，都需要输入管理员凭据。
+
+如果用户当前有 Teams 的 DMG 安装，并且想要将其替换为 PKG 安装，则用户应：
+
+1. 退出 Teams 应用。
+2. 卸载 Teams 应用。
+3. 安装 PKG 文件。
+
+IT 管理员可以使用 Teams 的托管部署将安装文件分发到其组织中的所有 Mac，例如 Jamf Pro。
+
+> [!NOTE]
+> 如果安装 PKG 时遇到问题，请告诉我们。 在本文末尾的 **“反馈”** 部分中，单击 **“产品反馈”**。
 
 ### <a name="linux"></a>Linux
 
-用户将能够安装本机 Linux 程序包`.deb`并`.rpm`设置其格式。
-安装 DEB 包或 RPM 程序包将自动安装程序包存储库
-- DEB 包`https://packages.microsoft.com/repos/ms-teams stable main`
-- 转`https://packages.microsoft.com/yumrepos/ms-teams` 
+用户将能够以 `.deb` 和 `.rpm` 格式安装本机 Linux 程序包。
+安装 DEB 或 RPM 程序包将自动安装程序包存储库
+- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
+- RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
-使用系统的程序包管理器启用自动更新的签名密钥将自动安装。 但是，还可以在以下位置找到：（https://packages.microsoft.com/keys/microsoft.asc)。 Microsoft 团队按月付费，如果存储库已正确安装，则系统程序包管理器应以与系统上其他程序包相同的方式处理自动更新。
+使用系统的程序包管理器启用自动更新的签名密钥将自动安装。 但是，也可以在以下位置找到它：(https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams 每月发布一次，并且如果正确安装了存储库，则系统程序包管理器应按照与系统中其他程序包相同的方式处理自动更新。
 
 > [!NOTE] 
-> 如果发现 bug，请使用`Report a Problem`客户端中的进行提交。 对于已知问题，请参阅[已知问题](Known-issues.md)。
-> 对于支持 Linux 的团队，您可以使用[Microsoft 问答中的 Linux 论坛支持频道&](https://docs.microsoft.com/answers/topics/teams.html)。 请确保在发布问题`teams-linux`时使用该标记。 
+> 如果发现 Bug，请使用客户端中的 `Report a Problem` 进行提交。 有关已知问题，请参阅[已知问题](Known-issues.md)。
+> 对于适用于 Linux 的 Teams 支持，可以使用 [Microsoft 问答上的 Linux 论坛支持频道](https://docs.microsoft.com/answers/topics/teams.html)。 发布问题时，请务必使用 `teams-linux` 标记。 
 
-#### <a name="install-teams-using-deb-package"></a>使用 DEB 包程序包安装团队
+#### <a name="install-teams-using-deb-package"></a>使用 DEB 程序包安装团队
 
-1. 从https://aka.ms/getteams下载程序包。
-2. 使用下列操作之一进行安装：  
-    - 打开相关的程序包管理工具，并浏览自行引导的 Linux 应用安装过程。
-    - 或者，如果您喜欢终端，请键入：`sudo apt install **teams download file**`
+1. 从 https://aka.ms/getteams 下载该程序包。
+2. 使用以下方式之一进行安装：  
+    - 打开相关的程序包管理工具，完成自助式 Linux 应用安装过程。
+    - 或者，如果你喜欢“终端”，请键入：`sudo apt install **teams download file**`
 
-你可以通过活动或通过输入`Teams`通过 "终端" 启动团队。 
+可以通过“活动”启动团队，也可以通过键入 `Teams` 通过“终端”启动 Teams。 
 
 #### <a name="install-teams-using-rpm-package"></a>使用 RPM 程序包安装团队
 
-1. 从https://aka.ms/getteams下载程序包。
-2. 使用下列操作之一进行安装：
-    - 打开相关的程序包管理工具，并浏览自行引导的 Linux 应用安装过程。
-    - 或者，如果您喜欢终端，请键入：`sudo yum install **teams download file**`
+1. 从 https://aka.ms/getteams 下载该程序包。
+2. 使用以下方式之一进行安装：
+    - 打开相关的程序包管理工具，完成自助式 Linux 应用安装过程。
+    - 或者，如果你喜欢“终端”，请键入：`sudo yum install **teams download file**`
 
-你可以通过活动或通过输入`Teams`通过 "终端" 启动团队。
+可以通过“活动”启动团队，也可以通过键入 `Teams` 通过“终端”启动 Teams。
 
 #### <a name="install-manually-from-the-command-line"></a>从命令行手动安装
 
-在 Debian 和 Ubuntu 分发设备上手动安装：
+在 Debian 和 Ubuntu 分发上手动安装：
 ```
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
@@ -143,7 +143,7 @@ sudo apt update
 sudo apt install teams
 ```
 
-在 RHEL、Fedora 和基于 CentOS 的分配上手动安装：
+在基于 RHEL、Fedora 和 CentOS 的分发上手动安装：
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
@@ -153,13 +153,13 @@ sudo dnf check-update
 sudo dnf install teams
 ```
 
-或者，若要使用 yum 而不是 dnf：
+或者，使用 yum 代替 dnf：
 ```
 yum check-update
 sudo yum install teams
 ```
 
-在基于 openSUSE 的发行版上手动安装：
+在基于 openSUSE 的分发上手动安装：
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
@@ -171,28 +171,28 @@ sudo zypper install teams
 
 ## <a name="web-client"></a>Web 客户端 
 
-Web 客户端（[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)）是一种完整的功能客户端，可从各种浏览器使用。 Web 客户端通过使用 webRTC 支持呼叫和会议，因此在 web 浏览器中不需要使用插件或下载来运行团队。 浏览器必须配置为允许第三方 cookie。 
+Web 客户端 ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) 是具有完整功能的客户端，可以从各种浏览器使用该客户端。 Web 客户端使用 webRTC 支持通话和会议，因此在 Web 浏览器中运行 Teams 不需要插件或进行下载。 必须配置浏览器以允许第三方 Cookie。 
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Web 客户端在连接到[https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)时执行浏览器版本检测。 如果检测到不受支持的浏览器版本，它将阻止对 web 界面的访问，并建议用户下载桌面客户端或移动应用。
+Web 客户端在连接到 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 时执行浏览器版本检测。 如果检测到不支持的浏览器版本，它将阻止对 Web 界面的访问，并建议用户下载桌面客户端或移动应用。
 
 ## <a name="mobile-clients"></a>移动客户端
 
-Microsoft 团队移动应用适用于 Android 和 iOS，并且适用于参与基于聊天的对话的用户和允许对等音频呼叫。 对于移动应用，请转到相关的移动应用商店 Google Play 和 Apple App Store。 Windows Phone 应用已于2018年7月20日停用，可能不再有效。 
+Microsoft Teams 移动应用适用于 Android 和 iOS，适合参与基于聊天的对话的忙碌用户，允许进行点对点音频呼叫。 对于移动应用，请访问 Google Play 和 Apple App Store 的相关移动应用商店。 Windows Phone 应用已于 2018 年 7 月 20 日停用，可能无法正常运行。 
 
-在中国，下面介绍了如何[获取适用于 Android 的团队](get-teams-android-in-china.md)。 
+以下是在中国[获取 Android 版 Teams](get-teams-android-in-china.md) 的方法。 
 
 Microsoft Teams 移动应用的支持移动平台如下：
 
--   **Android**：支持仅限于 Android 的最后四个主要版本。 发布新的 Android 主要版本时，正式支持新版本和前三个版本。
+-   **Android**：支持仅限于 Android 的最后四个主要版本。 新的 Android 主要版本发布后，将正式支持新版本和前三个版本。
 
--   **iOS**：支持仅限于最新版本 iOS 的两个主要版本。 当发布新的主要版本 iOS 时，正式支持新版本的 iOS 和早期版本。
+-   **iOS**：支持仅限于 iOS 的两个最新主要版本。 新的 iOS 主要版本发布后，将正式支持 iOS 新版本和前一版本。
 
 > [!NOTE]
-> 移动版必须可供公众使用，以便团队能够按预期工作。
+> 必须向公众提供移动版本，Teams 才能按预期工作。
 
-移动应用仅通过相应的移动平台的应用商店进行分发和更新。 Microsoft 不支持通过 MDM 或加载方传播移动应用。 在受支持的移动平台上安装了移动应用后，只要版本在当前版本的三个月内，就会支持团队移动应用本身。
+移动应用仅通过各自移动平台的应用商店进行分发和更新。 Microsoft 不支持通过 MDM 或侧加载来分发移动应用。 在支持的移动平台上安装移动应用后，将支持 Teams 移动应用本身，前提是该版本是 3 个月内的最新版本。
 
 
 | | | |
@@ -202,7 +202,7 @@ Microsoft Teams 移动应用的支持移动平台如下：
 
 ## <a name="client-update-management"></a>客户端更新管理
 
-当前，Microsoft Teams 服务会自动更新客户端，无需 IT 管理员干预。 如果有可用更新，客户端将自动下载更新，并且当应用在一段时间内有 idled 时，将开始更新过程。
+当前，Microsoft Teams 服务会自动更新客户端，无需 IT 管理员干预。 如果有更新，客户端将自动下载更新，当应用空闲一段时间后，将开始执行更新过程。
 
 ## <a name="client-side-configurations"></a>客户端配置
 
@@ -214,9 +214,9 @@ Microsoft Teams 移动应用的支持移动平台如下：
 
 ![“通知设置”屏幕截图。](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>PowerShell 脚本示例
+## <a name="sample-powershell-script"></a>示例 PowerShell 脚本
 
-此示例脚本（需要在已提升的管理员帐户上下文中的客户端计算机上运行）将为在 c:\users. 中找到的每个用户文件夹创建新的入站防火墙规则。 当团队发现此规则时，它将阻止团队应用程序在用户第一次从团队发出呼叫时提示用户创建防火墙规则。 
+需要在提升的管理员帐户上下文中的客户端计算机上运行的此示例脚本将为 c:\users 中找到的每个用户文件夹创建新的入站防火墙规则。 Teams 找到此规则后，当用户通过 Teams 进行首次呼叫时，将阻止 Teams 应用程序提示用户创建防火墙规则。 
 
 ```powershell
 <#

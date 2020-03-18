@@ -13,12 +13,12 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 解决 Microsoft 团队客户端的连接问题，主要由防火墙或代理连接引起，并了解如何修复它。
+description: 解决 Microsoft Teams 客户端的连接问题（主要由防火墙或代理连接导致），并了解如何进行修复。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
 ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41825350"
@@ -26,13 +26,13 @@ ms.locfileid: "41825350"
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 ==============================================================
 
-通过 Microsoft 团队客户端发现的大多数问题都可以追溯到防火墙或代理连接。 验证在防火墙或代理中打开所需的 Url、IP 地址和端口是否会最大限度地减少不必要的故障排除。 有关 Microsoft 团队所需的 Url 和 IPs 的特定信息，请参阅[Office 365 url 和 IP 地址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支持文章。 以下方案需要在防火墙中打开特定的 Url 和端口。
+已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关 Microsoft Teams 所需的 URL 和 IP 的特定信息，请参阅 [Office 365 URL 和 IP 地址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支持文章。 以下方案需要在防火墙中打开特定 URL 和端口。
 
 -   身份验证
 
--   Microsoft 团队客户端连接
+-   Microsoft Teams 客户端连接
 
--   开展
+-   协作
 
 -   媒体
 
