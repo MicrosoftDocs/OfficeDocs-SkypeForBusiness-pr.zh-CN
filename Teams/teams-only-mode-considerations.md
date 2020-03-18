@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035456"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795995"
 ---
 # <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 
@@ -49,8 +49,6 @@ ms.locfileid: "42035456"
 
 **租户范围内的注意事项**：我们正在致力于在以下环境中启用团队;但是，现在，如果其 Skype for Business 租户托管在以下环境之一中，则管理员不应升级其组织中的任何用户：
 
- - 政府社区云高
- - 政府社区云 DoD
  - 由世纪互联运营的 Office 365
  - Office 365 德国
  - Skype for business 租户托管于韩国 **，** 组织要求团队数据存储在韩国。 目前，存储在韩国的 Skype for business 数据的组织将其团队数据存储在亚洲数据中心区域，而不是在韩国数据中心区域中。

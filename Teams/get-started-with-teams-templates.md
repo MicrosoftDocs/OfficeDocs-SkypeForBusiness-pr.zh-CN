@@ -3,7 +3,6 @@ title: 开始使用 Teams 模板
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837012"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796025"
 ---
 # <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板
 
@@ -77,9 +76,6 @@ ms.locfileid: "41837012"
 | 行业<br>拖动 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |信道 <ul><li>宣告\*</li><li>Huddles\*</li><li>轮</li><li>调配\*</li><li>培训\*</li></ul>\*自动收藏频道 |
 |行业<br>给医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |信道<ul><li>宣告\*</li><li>符合\*</li><li>Custodial</li><li>人力资源</li></li><li>药房</li></ul>\*自动收藏频道|
 |||
-
-> [!NOTE]
-> 我们将在 Microsoft 团队的未来版本中添加更多基本模板类型，因此请查看有关支持的属性的最新信息。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关 GOV、EDU 和非营利组织计划的加载项许可证和功能。 '
-ms.openlocfilehash: 8544d685fffa1a4ab4f53a83e0651bd898e3c845
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029383"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795965"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU 和非营利性组织
 
@@ -37,3 +37,18 @@ ms.locfileid: "42029383"
 |Office 365 呼叫计划  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
    
 请查看此博客文章：[Office 365 高级功能现在可供美国政府社区云客户使用](https://www.microsoft.com/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)。
+
+## <a name="teams-trial-licenses"></a>团队试用版许可证
+
+为响应对用户进行远程工作（或在家工作）的需求，Microsoft 为政府、教育和非盈利性组织提供了多个免费的团队试用版：
+
+- [Office 365 E1 试用版](../e1-trial-license.md)（包括团队）是由 Microsoft 帐户代表管理的任何客户的免费6个月的 e1 许可证。它适用于组织-包括非营利组织尚未激活的任何其他 Office 365 E1 试用版。 
+
+- 对于 GCC，请查看 [Office 365 G1 试用版](../g1-trial-license.md)。 
+
+- 教育机构客户应使用[免费的 Office 365 A1 许可证](../teams-edu-licensing.md)。
+
+
+## <a name="related-topics"></a>相关主题
+
+[Office 365 非赢利](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
