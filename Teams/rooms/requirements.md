@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: 4fcdaa8441bab7a3a49fbd764c6734d0e58800fb
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
+ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155094"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42728931"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
@@ -89,7 +89,7 @@ ms.locfileid: "42155094"
 
 |Microsoft 团队聊天室外围设备|认证的固件版本 | 相机支持内容相机使用|
 |:--- |:--- | :--- |
-|[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
+|[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
