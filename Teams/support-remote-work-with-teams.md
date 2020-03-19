@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 ms.reviewer: dansteve, anmich
 localization_priority: Priority
 search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a92d5b7eb75519f8123223fb1820e05d63c8f17a
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 6a99bfe66d1a9f0c072e63aa49f210d216e9ff29
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795975"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858607"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 

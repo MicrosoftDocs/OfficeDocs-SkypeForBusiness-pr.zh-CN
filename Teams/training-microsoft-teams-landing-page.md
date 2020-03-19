@@ -12,17 +12,18 @@ ms.service: msteams
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6efdbb15ce4a9bcd5a3691a5fa9a9a82d0b7cd5f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dc47eee83c9347613d37d2e808f0c434b7ba9750
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837642"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858727"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -98,13 +99,26 @@ ms.locfileid: "41837642"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <h3>支持远程工作人员</h3>
+                         <p><a href="https://aka.ms/TeamsForRemoteWork">获取所需指南，包括培训链接，为在家办公的用户提供支持。</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+        <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
                         <h3>IT 团队基础知识</h3>
                          <p><a href="https://aka.ms/MicrosoftTeamsforIT">Microsoft Mechanics “IT 团队”系列视频向你（管理员）展示如何推出、配置和管理团队。</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </li><li>
+    </li>
+    <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
