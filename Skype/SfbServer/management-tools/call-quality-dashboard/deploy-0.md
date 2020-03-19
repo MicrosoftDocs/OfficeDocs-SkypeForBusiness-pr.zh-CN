@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要：了解呼叫质量仪表板的部署过程。 呼叫质量仪表板是 Skype for business Server 的工具。
-ms.openlocfilehash: d42d735ab5a60ec02ad2e1f4f696908996457c0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5879c4a99eec8471763e0fccc3a4886be660dbb6
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042259"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840156"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>为 Skype for Business Server 部署呼叫质量仪表板
  
@@ -386,22 +386,23 @@ BuildingKey、BuildingName、BuildingShortName、OwnershipTypeId、BuildingTypeI
 通过导入建筑物，您可以获取建筑物特定的见解（每个建筑物的对 WiFi/有线等较差的呼叫）。 
   
 > [!NOTE]
-> 此步骤是可选的，但建议这样做。 
+> 此步骤是可选的，但建议这样做。
   
-导入子网并将其映射到上一步骤中导入的建筑物。 如果决定不填充 NetworkName，请确保此表中的每个条目都使用 NetworkNameID 0。
+导入子网并将其映射到上一步骤中导入的建筑物。 如果决定不填充 NetworkName，请确保此表中的每个条目都使用 NetworkNameID 0。 有关呼叫质量仪表板的 SQL 语法和参数的详细信息，请参阅[Use Call Quality 仪表板 For Skype For Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use)。
   
  **示例 SQL 语法**
   
 ```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
+,[NetworkRange]
 ,[NetworkNameID]
 ,[BuildingKey]
 ,[UpdatedDate]
 )
 
 VALUES
- ('172.16.254.0',0,1,'2015-11-11')
+ ('172.16.254.0',32,0,1,'2015-11-11')
 ```
 
 网络和 UpdatedDate 参数是必需的，其他参数是可选的。

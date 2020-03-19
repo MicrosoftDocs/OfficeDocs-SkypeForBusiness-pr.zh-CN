@@ -3,7 +3,7 @@ title: 在 Microsoft Teams 中管理应用设置策略
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: lajin,rarang
+ms.reviewer: rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -14,24 +14,28 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解 Microsoft 团队中的应用设置策略以及如何使用它们来固定应用，以便为你的组织中的用户自定义团队。
+description: 了解如何在 Microsoft 团队中为你的组织中的用户使用和管理应用设置策略。
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 7ee649cff23ee569b284ecf8873205524eb2e838
-ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
+ms.openlocfilehash: 241a109a6d6a6809f3bcfe363884f6168e67ef12
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42601429"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858687"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
 > [!NOTE]
 > 如果启用了组织范围的应用设置，**允许与自定义应用交互**，则你可能看不到 Microsoft 团队管理中心中的应用安装策略。 它目前正在推出，即将在您的组织中提供。
 
-作为管理员，你可以使用应用设置策略自定义 Microsoft 团队，以突出显示对你的用户最重要的应用。 你可以选择要固定的应用，并设置它们的显示顺序。 应用设置策略允许你展示你的组织需要的用户所需的应用，包括由第三方或你组织中的开发人员构建的应用。 你还可以使用应用设置策略来控制用户是否可以将应用固定到团队并管理内置功能的显示方式。 您必须是全局管理员或团队服务管理员才能管理这些策略。
+作为管理员，你可以使用应用设置策略执行以下操作：
+
+- 自定义团队以突出显示对用户最重要的应用。 你可以选择要固定的应用，并设置它们的显示顺序。 固定应用允许你展示组织中的用户所需的应用，包括由第三方或组织中的开发人员构建的应用。
+- 控制用户是否可以将应用固定到团队。
+- 代表用户安装应用 **（在预览中）**。 在用户启动团队时，选择默认为用户安装的应用。 请记住，如果分配给应用的[应用权限策略](teams-app-permission-policies.md)允许，用户仍然可以自行安装应用。
 
 应用程序将固定到应用栏。 这是团队桌面客户端和团队移动客户端（iOS 和 Android）底部的栏。
 
@@ -39,7 +43,9 @@ ms.locfileid: "42601429"
 |---------|---------|
 |![显示团队桌面客户端的屏幕截图](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![显示团队移动客户端的屏幕截图](media/app-setup-policies-mobile-app-bar.png)      |
 
-在 Microsoft 团队管理中心中管理应用设置策略。 你可以使用全局（组织范围默认）策略或创建自定义策略并将其分配给用户。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。
+若要查看其预安装应用，请在应用栏中单击 " **..."** 团队桌面和 web 客户端中的更多应用，并在移动客户端中向上轻扫。
+
+在 Microsoft 团队管理中心中管理应用设置策略。 你可以使用全局（组织范围默认）策略或创建自定义策略并将其分配给用户。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。 您必须是全局管理员或团队服务管理员才能管理这些策略。
 
 你可以编辑全局策略中的设置以包括所需的应用。 如果要为组织中的不同组用户自定义团队，请创建并分配一个或多个自定义策略。 如果向用户分配了自定义策略，则该策略将应用于用户。 如果未向用户分配自定义策略，则全局策略将应用于该用户。
 
@@ -58,14 +64,23 @@ ms.locfileid: "42601429"
 3. 输入策略的名称和说明。
 4. 打开或关闭 "**上载自定义应用程序**"，具体取决于是否希望允许用户将自定义应用程序上载到团队。 如果 "[组织范围内的应用设置](manage-apps.md#manage-org-wide-app-settings)" 中的 "**允许第三方应用**" 处于关闭状态，则不能更改此设置。
 5. 打开或关闭 "**允许用户固定**"，具体取决于是否希望让用户通过将应用固定到应用栏来对其应用栏进行个性化设置。
-6. 单击 "**添加应用程序**"。
-7. 在 "**添加固定的应用**" 窗格中，搜索要添加的应用，然后单击 "**添加**"。 你还可以按应用权限策略筛选应用。 选择应用列表后，单击 "**添加**"。
+6. 若要为用户安装应用 **（在预览中）**，请执行下列操作：
 
-     ![显示 "添加固定应用" 窗格的屏幕截图](media/app-setup-policies-add-apps.png)
+    1. 在 "**已安装的应用**" 下，单击 "**添加应用**"。
+    2. 在 "**添加已安装的应用**" 窗格中，搜索你希望在用户启动团队时为用户自动安装的应用。 你还可以按应用权限策略筛选应用。 选择应用列表后，单击 "**添加**"。
 
-8. 按希望在团队中显示的顺序排列应用，然后单击 "**保存**"。
+        ![显示 "添加已安装的应用" 窗格的屏幕截图](media/app-setup-policies-add-installed-apps.png)
 
-    ![显示 "固定的应用" 部分的屏幕截图](media/app-setup-policies-new-policy-setup.png)
+7. 若要固定应用，请执行下列操作：
+
+    1. 在 "**固定应用**" 下，单击 "**添加应用程序**"。
+    2. 在 "**添加固定的应用**" 窗格中，搜索要添加的应用，然后单击 "**添加**"。 你还可以按应用权限策略筛选应用。 选择要固定的应用列表后，单击 "**添加**"。
+
+         ![显示 "添加固定应用" 窗格的屏幕截图](media/app-setup-policies-add-apps.png)
+
+    3. 按希望在团队中显示的顺序排列应用，然后单击 "**保存**"。
+
+        ![显示 "固定的应用" 部分的屏幕截图](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>编辑应用设置策略
 
@@ -73,7 +88,7 @@ ms.locfileid: "42601429"
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **设置策略**"。
 2. 通过单击策略名称左侧，然后单击 "**编辑**"，选择策略。
-3. 在此处进行所需的更改。 你可以添加、删除和更改应用的顺序。
+3. 在此处进行所需的更改。
 4. 单击“**保存**”。
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>向用户分配自定义应用设置策略
@@ -138,11 +153,11 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 "呼叫" 应用在教育版团队中不可用。 创建新的自定义应用设置策略时，将在应用列表中显示调用应用。 但是，应用不会固定到团队客户端和团队，教育用户将看不到团队中的 "调用" 应用。
 
-#### <a name="how-many-apps-can-be-added-to-a-policy"></a>可以向策略添加多少个应用？
+#### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>可以向策略添加多少个固定的应用？
 
 必须将两个应用中的至少一个应用固定到团队移动客户端（iOS 和 Android）。 如果策略的应用少于两个，则移动客户端不会反映策略设置，而是将继续使用现有配置。
 
-对可添加到策略中的应用数没有限制。
+对于可添加到策略的固定应用的数量没有限制。
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>策略更改需要多长时间才能生效？
 

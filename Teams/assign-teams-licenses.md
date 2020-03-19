@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: 了解如何为音频会议、电话系统和通话计划等功能分配许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236832"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858549"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>分配 Microsoft 团队许可证
 
@@ -164,10 +165,10 @@ foreach ($user in $users)
 | 产品名称 | SKU 部件名称 |
 |--------------|---------------|
 | 音频会议（订阅） | MCOMEETADV | 
-| 每分钟支付的音频会议（即付即用）</br>*注意：要求设置和启用通讯信用点数*。 | MCOMEETACPEA |
+| 每分钟支付的音频会议（即付即用）</br>*注意：要求设置和启用通讯信用点数*。 |    MCOMEETACPEA |
 | 企业版 E1 | STANDARDPACK | 
 | 企业版 E3 | ENTERPRISEPACK |
-| 企业版 E5（无音频会议） |  ENTERPRISEPREMIUM_NOPSTNCONF |
+| 企业版 E5（无音频会议） |     ENTERPRISEPREMIUM_NOPSTNCONF |
 | 企业版 E5 （带音频会议） | ENTERPRISEPREMIUM |
 
 ##  <a name="communications-credits"></a>通信点数

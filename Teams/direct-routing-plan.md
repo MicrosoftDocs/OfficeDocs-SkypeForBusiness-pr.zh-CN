@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本主题，了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160706"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858577"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -303,6 +303,25 @@ SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
   > [!NOTE]
   > Microsoft 建议在 SBC 上对每个并发调用至少有两个端口。
 
+
+## <a name="media-traffic-media-processors-geography"></a>媒体流量：媒体处理者地理位置
+
+媒体流量通过名为媒体处理器的组件流出。 媒体处理器与 SIP 代理放在同一数据中心。 此外，还有其他媒体处理器来优化媒体流。 例如，我们目前在澳大利亚（通过新加坡或香港特别行政区）提供 SIP 代理组件，但我们在澳大利亚本地有媒体处理器。 对媒体处理者的需求取决于我们通过发送远距离（例如从澳大利亚到新加坡或香港特别行政区）进行的延迟。 虽然从澳大利亚到香港或新加坡的流量示例中的延迟是为 SIP 流量保持良好的通话质量，但对于实时媒体流量而言，它是不可接受的。
+
+媒体处理器的位置：
+
+SIP 代理和媒体处理器组件部署的位置：
+- 我们（美国西部和华南东数据中心的两个）
+- 欧洲（阿姆斯特丹和都柏林数据中心）
+- 亚洲（新加坡和香港特别行政区）
+
+仅部署媒体处理器的位置（SIP 通过上面列出的最接近的数据中心流）：
+- 日本（JP 和西部数据中心）
+- 澳大利亚（AU 东和西数据中心）
+
+
+
+
 ## <a name="media-traffic-codecs"></a>媒体流量：编解码器
 
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>SBC 和云媒体处理器或 Microsoft 团队客户端之间的腿。
@@ -333,6 +352,3 @@ Microsoft 仅支持经认证的 SBCs 与直接路由配对。 由于企业语音
 ## <a name="see-also"></a>另请参阅
 
 [配置直接路由](direct-routing-configure.md)
-
-
-
