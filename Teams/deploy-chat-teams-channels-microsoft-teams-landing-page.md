@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285824"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796015"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -42,14 +42,7 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 
 ## <a name="chat-deployment-prerequisites"></a>聊天部署先决条件
 
-在整个组织内部署 Teams 之前，请花些时间确认你环境已准备好使用 Teams。 查看以下信息，并对你的环境进行任何必需的更改。
-
-- 若要获得完整的 Teams 体验，你的组织必须部署了 [Exchange Online 和 SharePoint Online](#exchange-and-sharepoint-interoperability)，并且你必须有适用于 Office 365 的已验证域（例如，contoso.com）。
-
-- 若要在整个组织内大规模部署聊天、团队和频道，请确保所有地点都权访问 Internet，以便可以连接到 Office 365。 至少确保以下常用端口在所有地点已向 Internet 开放：
-
-    - 为将使用 Teams 的客户端发出的传出流量开放 **TCP** 端口 80 和 443
-    - 为将使用 Teams 的客户端发出的传出流量开放 **UDP** 端口 3478 至 3481 
+在整个组织内部署 Teams 之前，请花些时间确认你环境已准备好使用 Teams。 请查看[为 Teams 准备贵组织的网络](prepare-network.md)，并对环境进行必要的更改。
 
 |询问你自己|操作 |
 |------------|-------|

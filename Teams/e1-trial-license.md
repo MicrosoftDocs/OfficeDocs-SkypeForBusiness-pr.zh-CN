@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
-ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
+ms.openlocfilehash: a99be01a1a9c59a06e4c92973187c1818d1b1a99
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42507950"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795955"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
 ==============================
@@ -41,7 +41,7 @@ ms.locfileid: "42507950"
 
 ## <a name="whos-eligible"></a>谁有资格使用？
 
-本优惠面向的是受 Microsoft 帐户代表管理的客户。它适用于过去未激活任何其他 Office 365 E1 试用版的组织。 
+本优惠面向的是受 Microsoft 帐户代表管理的所有客户。它适用于过去未激活任何其他 Office 365 E1 试用版的组织，包括非营利组织。 
 
 在你使用你的 E1 试用版促销代码之后，该代码不可再次使用，并且你不可激活其他 E1 试用版代码。 在这些情况下，你可要求你的员工激活 [Teams 探索性许可证](teams-exploratory.md)。
 
@@ -92,3 +92,4 @@ ms.locfileid: "42507950"
 
 [管理 Teams 探索性体验](teams-exploratory.md)
 
+[Office 365 非营利组织版](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
