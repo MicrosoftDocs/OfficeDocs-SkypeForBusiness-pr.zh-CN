@@ -12,84 +12,88 @@ localization_priority: Priority
 description: 如果你没有 Microsoft Teams 且不急需该软件，可向为应对 COVID-19（冠状病毒）疫情爆发而需要远程工作或在家办公的用户推广 Office 365 E1 试用版。
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99be01a1a9c59a06e4c92973187c1818d1b1a99
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795955"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858767"
 ---
-<a name="manage-the-office-365-e1-trial"></a><span data-ttu-id="a6b34-103">管理 Office 365 E1 试用版</span><span class="sxs-lookup"><span data-stu-id="a6b34-103">Manage the Office 365 E1 Trial</span></span>
+<a name="manage-the-office-365-e1-trial"></a><span data-ttu-id="ba716-103">管理 Office 365 E1 试用版</span><span class="sxs-lookup"><span data-stu-id="ba716-103">Manage the Office 365 E1 Trial</span></span>
 ==============================
 
-<span data-ttu-id="a6b34-104">2020 年 3 月新增：现提供免费期 6 个月的 Office 365 E1 试用版（包括 Microsoft Teams）。</span><span class="sxs-lookup"><span data-stu-id="a6b34-104">New in March 2020, a free 6-month Office 365 E1 Trial, including Microsoft Teams, is now available.</span></span> <span data-ttu-id="a6b34-105">员工为应对 COVID-19（冠状病毒）疫情爆发而希望在家办公，为了回应这一上涨的需求，Microsoft 正在提供这项特殊的 E1 试用版许可证。</span><span class="sxs-lookup"><span data-stu-id="a6b34-105">Microsoft is making this special E1 Trial license available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak.</span></span> 
+<span data-ttu-id="ba716-104">2020 年 3 月新增：现提供免费期 6 个月的 Office 365 E1 试用版（包括 Microsoft Teams）。</span><span class="sxs-lookup"><span data-stu-id="ba716-104">New in March 2020, a free 6-month Office 365 E1 Trial, including Microsoft Teams, is now available.</span></span> <span data-ttu-id="ba716-105">员工为应对 COVID-19（冠状病毒）疫情爆发而希望在家办公，为了回应这一上涨的需求，Microsoft 正在提供这项特殊的 E1 试用版许可证。</span><span class="sxs-lookup"><span data-stu-id="ba716-105">Microsoft is making this special E1 Trial license available in response to the increased need for employees to work from home (WFH) in response to the COVID-19 (coronavirus) outbreak.</span></span> 
 
-<span data-ttu-id="a6b34-106">要了解 E1 许可证随附了哪些功能，请参阅 [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software)。</span><span class="sxs-lookup"><span data-stu-id="a6b34-106">To learn what's available with an E1 license, read [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).</span></span>
+<span data-ttu-id="ba716-106">要了解 E1 许可证随附了哪些功能，请参阅 [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software)。</span><span class="sxs-lookup"><span data-stu-id="ba716-106">To learn what's available with an E1 license, read [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).</span></span>
 
-<span data-ttu-id="a6b34-107">不要错过我们[通过 Teams 支持远程工作人员](support-remote-work-with-teams.md)的所有指南。</span><span class="sxs-lookup"><span data-stu-id="a6b34-107">Don't miss all of our guidance for [supporting remote workers with Teams](support-remote-work-with-teams.md).</span></span>
+<span data-ttu-id="ba716-107">不要错过我们[通过 Teams 支持远程工作人员](support-remote-work-with-teams.md)的所有指南。</span><span class="sxs-lookup"><span data-stu-id="ba716-107">Don't miss all of our guidance for [supporting remote workers with Teams](support-remote-work-with-teams.md).</span></span>
 
-## <a name="how-to-get-an-e1-trial-license"></a><span data-ttu-id="a6b34-108">如何获取 E1 试用版许可证</span><span class="sxs-lookup"><span data-stu-id="a6b34-108">How to get an E1 Trial license</span></span>
+## <a name="how-to-get-an-e1-trial-license"></a><span data-ttu-id="ba716-108">如何获取 E1 试用版许可证</span><span class="sxs-lookup"><span data-stu-id="ba716-108">How to get an E1 Trial license</span></span>
 
-<span data-ttu-id="a6b34-109">请联系你的 Microsoft 帐户代表。</span><span class="sxs-lookup"><span data-stu-id="a6b34-109">Contact your Microsoft account representative.</span></span> <span data-ttu-id="a6b34-110">他们将获得促销代码，你可用该代码来注册 E1 试用版。</span><span class="sxs-lookup"><span data-stu-id="a6b34-110">They'll get you a promo code that you can use to sign up for the E1 Trial.</span></span> 
+<span data-ttu-id="ba716-109">请联系你的 Microsoft 帐户代表。</span><span class="sxs-lookup"><span data-stu-id="ba716-109">Contact your Microsoft account representative.</span></span> <span data-ttu-id="ba716-110">他们将获得促销代码，你可用该代码来注册 E1 试用版。</span><span class="sxs-lookup"><span data-stu-id="ba716-110">They'll get you a promo code that you can use to sign up for the E1 Trial.</span></span> 
 
-## <a name="how-to-sign-up-for-e1"></a><span data-ttu-id="a6b34-111">如何注册 E1</span><span class="sxs-lookup"><span data-stu-id="a6b34-111">How to sign up for E1</span></span>
-
-<span data-ttu-id="a6b34-112">单击你的帐户代表要发送给你的电子邮件中的促销代码。</span><span class="sxs-lookup"><span data-stu-id="a6b34-112">Click the promo code in the email your account rep will send you.</span></span> 
+<span data-ttu-id="ba716-111">对于由 Microsoft 合作伙伴服务的组织，请与你的合作伙伴一起获得为期 6 个月的免费 Teams 试用版。</span><span class="sxs-lookup"><span data-stu-id="ba716-111">For organizations served by a Microsoft partner, work with your partner to get a free 6-month Teams trial.</span></span> <span data-ttu-id="ba716-112">如果你还没有 Microsoft 合作伙伴，并且想要与其合作，请转到 [Microsoft 解决方案提供商](https://www.microsoft.com/solution-providers/home)并搜索具有 Teams 专业知识的合作伙伴。</span><span class="sxs-lookup"><span data-stu-id="ba716-112">If you don't have a Microsoft partner yet and would like to work with one, go to [Microsoft Solution Providers](https://www.microsoft.com/solution-providers/home) and search for partners with expertise in Teams.</span></span>
 
 
-## <a name="whos-eligible"></a><span data-ttu-id="a6b34-113">谁有资格使用？</span><span class="sxs-lookup"><span data-stu-id="a6b34-113">Who's eligible?</span></span>
+## <a name="how-to-sign-up-for-e1"></a><span data-ttu-id="ba716-113">如何注册 E1</span><span class="sxs-lookup"><span data-stu-id="ba716-113">How to sign up for E1</span></span>
 
-<span data-ttu-id="a6b34-114">本优惠面向的是受 Microsoft 帐户代表管理的所有客户。它适用于过去未激活任何其他 Office 365 E1 试用版的组织，包括非营利组织。</span><span class="sxs-lookup"><span data-stu-id="a6b34-114">This offer is intended for any customer that's managed by a Microsoft account rep. It's for organizations - including nonprofits - who haven't activated any other Office 365 E1 trials in the past.</span></span> 
-
-<span data-ttu-id="a6b34-115">在你使用你的 E1 试用版促销代码之后，该代码不可再次使用，并且你不可激活其他 E1 试用版代码。</span><span class="sxs-lookup"><span data-stu-id="a6b34-115">After you've used your E1 Trial promo code, you can't use it again, nor can you activate another E1 Trial code.</span></span> <span data-ttu-id="a6b34-116">在这些情况下，你可要求你的员工激活 [Teams 探索性许可证](teams-exploratory.md)。</span><span class="sxs-lookup"><span data-stu-id="a6b34-116">In these cases, you can have your employees activate a [Teams Exploratory license](teams-exploratory.md).</span></span>
-
-## <a name="who-isnt-eligible"></a><span data-ttu-id="a6b34-117">谁没有资格使用</span><span class="sxs-lookup"><span data-stu-id="a6b34-117">Who isn't eligible</span></span>
-
-- <span data-ttu-id="a6b34-118">本优惠不适用于 GCC、GCC High、DoD 或 EDU 客户。</span><span class="sxs-lookup"><span data-stu-id="a6b34-118">This offer isn't available for GCC, GCC High, DoD, or EDU customers.</span></span> 
-
-- <span data-ttu-id="a6b34-119">对于 GCC，请查看 [Office 365 G1 试用版](g1-trial-license.md)。</span><span class="sxs-lookup"><span data-stu-id="a6b34-119">For GCC, check out the [Office 365 G1 Trial](g1-trial-license.md).</span></span> 
-
-- <span data-ttu-id="a6b34-120">EDU 客户可使用免费的 Office 365 A1 许可证。</span><span class="sxs-lookup"><span data-stu-id="a6b34-120">EDU customers should use the free Office 365 A1 license.</span></span>
-
-## <a name="manage-the-e1-trial"></a><span data-ttu-id="a6b34-121">管理 E1 试用版</span><span class="sxs-lookup"><span data-stu-id="a6b34-121">Manage the E1 Trial</span></span>
-
-<span data-ttu-id="a6b34-122">激活 Office 365 E1 试用版后，请打开许可证供需要它的任何用户使用。</span><span class="sxs-lookup"><span data-stu-id="a6b34-122">Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it.</span></span> <span data-ttu-id="a6b34-123">要了解操作方式，请参阅[管理用户对 Teams 的访问](user-access.md#manage-teams-through-the-microsoft-365-admin-center)。</span><span class="sxs-lookup"><span data-stu-id="a6b34-123">To learn how, read [Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).</span></span>
+<span data-ttu-id="ba716-114">单击你的帐户代表要发送给你的电子邮件中的促销代码。</span><span class="sxs-lookup"><span data-stu-id="ba716-114">Click the promo code in the email your account rep will send you.</span></span> 
 
 
-<span data-ttu-id="a6b34-124">为需要 E1 试用版的用户启用该版本后，你可像管理拥有付费许可证的用户一样管理这些用户。</span><span class="sxs-lookup"><span data-stu-id="a6b34-124">Once you've turned on the E1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license.</span></span> <span data-ttu-id="a6b34-125">有关详细信息，请参阅[为你的组织管理 Teams 设置](enable-features-office-365.md)。</span><span class="sxs-lookup"><span data-stu-id="a6b34-125">For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).</span></span>
+## <a name="whos-eligible"></a><span data-ttu-id="ba716-115">谁有资格使用？</span><span class="sxs-lookup"><span data-stu-id="ba716-115">Who's eligible?</span></span>
+
+<span data-ttu-id="ba716-116">本优惠面向的是受 Microsoft 帐户代表管理的所有客户。它适用于过去未激活任何其他 Office 365 E1 试用版的组织，包括非营利组织。</span><span class="sxs-lookup"><span data-stu-id="ba716-116">This offer is intended for any customer that's managed by a Microsoft account rep. It's for organizations - including nonprofits - who haven't activated any other Office 365 E1 trials in the past.</span></span> 
+
+<span data-ttu-id="ba716-117">在你使用你的 E1 试用版促销代码之后，该代码不可再次使用，并且你不可激活其他 E1 试用版代码。</span><span class="sxs-lookup"><span data-stu-id="ba716-117">After you've used your E1 Trial promo code, you can't use it again, nor can you activate another E1 Trial code.</span></span> <span data-ttu-id="ba716-118">在这些情况下，你可要求你的员工激活 [Teams 探索性许可证](teams-exploratory.md)。</span><span class="sxs-lookup"><span data-stu-id="ba716-118">In these cases, you can have your employees activate a [Teams Exploratory license](teams-exploratory.md).</span></span>
+
+## <a name="who-isnt-eligible"></a><span data-ttu-id="ba716-119">谁没有资格使用</span><span class="sxs-lookup"><span data-stu-id="ba716-119">Who isn't eligible</span></span>
+
+- <span data-ttu-id="ba716-120">本优惠不适用于 GCC、GCC High、DoD 或 EDU 客户。</span><span class="sxs-lookup"><span data-stu-id="ba716-120">This offer isn't available for GCC, GCC High, DoD, or EDU customers.</span></span> 
+
+- <span data-ttu-id="ba716-121">对于 GCC，请查看 [Office 365 G1 试用版](g1-trial-license.md)。</span><span class="sxs-lookup"><span data-stu-id="ba716-121">For GCC, check out the [Office 365 G1 Trial](g1-trial-license.md).</span></span> 
+
+- <span data-ttu-id="ba716-122">EDU 客户可使用免费的 Office 365 A1 许可证。</span><span class="sxs-lookup"><span data-stu-id="ba716-122">EDU customers should use the free Office 365 A1 license.</span></span>
+
+## <a name="manage-the-e1-trial"></a><span data-ttu-id="ba716-123">管理 E1 试用版</span><span class="sxs-lookup"><span data-stu-id="ba716-123">Manage the E1 Trial</span></span>
+
+<span data-ttu-id="ba716-124">激活 Office 365 E1 试用版后，请打开许可证供需要它的任何用户使用。</span><span class="sxs-lookup"><span data-stu-id="ba716-124">Once you've activated the Office 365 E1 Trial, turn on the license for any uses who need it.</span></span> <span data-ttu-id="ba716-125">要了解操作方式，请参阅[管理用户对 Teams 的访问](user-access.md#manage-teams-through-the-microsoft-365-admin-center)。</span><span class="sxs-lookup"><span data-stu-id="ba716-125">To learn how, read [Manage user access to Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).</span></span>
+
+
+<span data-ttu-id="ba716-126">为需要 E1 试用版的用户启用该版本后，你可像管理拥有付费许可证的用户一样管理这些用户。</span><span class="sxs-lookup"><span data-stu-id="ba716-126">Once you've turned on the E1 Trial for the users who need it, you'll manage these users just like you manage users who have a paid license.</span></span> <span data-ttu-id="ba716-127">有关详细信息，请参阅[为你的组织管理 Teams 设置](enable-features-office-365.md)。</span><span class="sxs-lookup"><span data-stu-id="ba716-127">For more information, see [Manage Teams settings for your organization](enable-features-office-365.md).</span></span>
 
 
 
-### <a name="upgrade-users-from-the-office-365-e1-trial-license"></a><span data-ttu-id="a6b34-126">从 Office 365 E1 试用版许可证升级用户</span><span class="sxs-lookup"><span data-stu-id="a6b34-126">Upgrade users from the Office 365 E1 Trial license</span></span>
+### <a name="upgrade-users-from-the-office-365-e1-trial-license"></a><span data-ttu-id="ba716-128">从 Office 365 E1 试用版许可证升级用户</span><span class="sxs-lookup"><span data-stu-id="ba716-128">Upgrade users from the Office 365 E1 Trial license</span></span>
 
-<span data-ttu-id="a6b34-127">将 E1 试用版用户升级到付费订阅：</span><span class="sxs-lookup"><span data-stu-id="a6b34-127">To upgrade E1 Trial users to a paid subscription:</span></span>
+<span data-ttu-id="ba716-129">将 E1 试用版用户升级到付费订阅：</span><span class="sxs-lookup"><span data-stu-id="ba716-129">To upgrade E1 Trial users to a paid subscription:</span></span>
 
-1. <span data-ttu-id="a6b34-128">购买包含 Teams 的订阅。</span><span class="sxs-lookup"><span data-stu-id="a6b34-128">Purchase a subscription that includes Teams.</span></span>
+1. <span data-ttu-id="ba716-130">购买包含 Teams 的订阅。</span><span class="sxs-lookup"><span data-stu-id="ba716-130">Purchase a subscription that includes Teams.</span></span>
 
-2. <span data-ttu-id="a6b34-129">删除用户的 Office 365 E1 试用版订阅。</span><span class="sxs-lookup"><span data-stu-id="a6b34-129">Remove the Office 365 E1 Trial subscription from the user.</span></span>
+2. <span data-ttu-id="ba716-131">删除用户的 Office 365 E1 试用版订阅。</span><span class="sxs-lookup"><span data-stu-id="ba716-131">Remove the Office 365 E1 Trial subscription from the user.</span></span>
 
-3. <span data-ttu-id="a6b34-130">分配新购买的许可证。</span><span class="sxs-lookup"><span data-stu-id="a6b34-130">Assign the newly purchased license.</span></span>
+3. <span data-ttu-id="ba716-132">分配新购买的许可证。</span><span class="sxs-lookup"><span data-stu-id="ba716-132">Assign the newly purchased license.</span></span>
 
-<span data-ttu-id="a6b34-131">有关详细信息，请参阅[适用于 Microsoft Teams 的 Office 365 许可](Office-365-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="a6b34-131">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>
+<span data-ttu-id="ba716-133">有关详细信息，请参阅[适用于 Microsoft Teams 的 Office 365 许可](Office-365-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="ba716-133">For more information, see [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a6b34-132">如果 E1 试用版结束，而用户未立即升级到包含 Teams 的订阅，则不删除该用户数据。</span><span class="sxs-lookup"><span data-stu-id="a6b34-132">If the E1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed.</span></span> <span data-ttu-id="a6b34-133">该用户仍保留在 Azure Active Directory 中，且 Teams 中的所有数据都将保留。</span><span class="sxs-lookup"><span data-stu-id="a6b34-133">The user still exists in Azure Active Directory and all data within Teams still remains.</span></span> <span data-ttu-id="a6b34-134">一旦向该用户分配新的许可证来重新启用 Teams 功能，则所有内容仍将存在。</span><span class="sxs-lookup"><span data-stu-id="a6b34-134">Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.</span></span> 
+> <span data-ttu-id="ba716-134">如果 E1 试用版结束，而用户未立即升级到包含 Teams 的订阅，则不删除该用户数据。</span><span class="sxs-lookup"><span data-stu-id="ba716-134">If the E1 Trial license ends and a user is not immediately upgraded to a subscription that includes Teams, the user data is not removed.</span></span> <span data-ttu-id="ba716-135">该用户仍保留在 Azure Active Directory 中，且 Teams 中的所有数据都将保留。</span><span class="sxs-lookup"><span data-stu-id="ba716-135">The user still exists in Azure Active Directory and all data within Teams still remains.</span></span> <span data-ttu-id="ba716-136">一旦向该用户分配新的许可证来重新启用 Teams 功能，则所有内容仍将存在。</span><span class="sxs-lookup"><span data-stu-id="ba716-136">Once a new license is assigned to the user to enable Teams functionality again, all content will still exist.</span></span> 
 
-### <a name="remove-an-office-365-e1-trial-license"></a><span data-ttu-id="a6b34-135">删除 Office 365 E1 试用版许可证</span><span class="sxs-lookup"><span data-stu-id="a6b34-135">Remove an Office 365 E1 Trial license</span></span>
+### <a name="remove-an-office-365-e1-trial-license"></a><span data-ttu-id="ba716-137">删除 Office 365 E1 试用版许可证</span><span class="sxs-lookup"><span data-stu-id="ba716-137">Remove an Office 365 E1 Trial license</span></span>
 
-- <span data-ttu-id="a6b34-136">如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span><span class="sxs-lookup"><span data-stu-id="a6b34-136">If you would like to remove this license by using PowerShell, see: [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span></span>
+- <span data-ttu-id="ba716-138">如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span><span class="sxs-lookup"><span data-stu-id="ba716-138">If you would like to remove this license by using PowerShell, see: [Remove licenses from user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)</span></span>
 
-- <span data-ttu-id="a6b34-137">如果要通过管理门户删除此许可证，请参阅：[在 Office 365 商业版中删除用户许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span><span class="sxs-lookup"><span data-stu-id="a6b34-137">If you would like to remove this license through the admin portal, see: [Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span></span>
+- <span data-ttu-id="ba716-139">如果要通过管理门户删除此许可证，请参阅：[在 Office 365 商业版中删除用户许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span><span class="sxs-lookup"><span data-stu-id="ba716-139">If you would like to remove this license through the admin portal, see: [Remove licenses from users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)</span></span>
 
 
-## <a name="related-topics"></a><span data-ttu-id="a6b34-138">相关主题</span><span class="sxs-lookup"><span data-stu-id="a6b34-138">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ba716-140">相关主题</span><span class="sxs-lookup"><span data-stu-id="ba716-140">Related topics</span></span>
 
-[<span data-ttu-id="a6b34-139">管理用户对 Teams 的访问管理</span><span class="sxs-lookup"><span data-stu-id="a6b34-139">Manage user access to Teams</span></span>](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[<span data-ttu-id="ba716-141">管理用户对 Teams 的访问管理</span><span class="sxs-lookup"><span data-stu-id="ba716-141">Manage user access to Teams</span></span>](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
 
-[<span data-ttu-id="a6b34-140">为你的组织管理 Teams 设置</span><span class="sxs-lookup"><span data-stu-id="a6b34-140">Manage Teams settings for your organization</span></span>](enable-features-office-365.md)
+[<span data-ttu-id="ba716-142">为你的组织管理 Teams 设置</span><span class="sxs-lookup"><span data-stu-id="ba716-142">Manage Teams settings for your organization</span></span>](enable-features-office-365.md)
 
-[<span data-ttu-id="a6b34-141">管理 Teams 探索性体验</span><span class="sxs-lookup"><span data-stu-id="a6b34-141">Manage the Teams Exploratory experience</span></span>](teams-exploratory.md)
+[<span data-ttu-id="ba716-143">管理 Teams 探索性体验</span><span class="sxs-lookup"><span data-stu-id="ba716-143">Manage the Teams Exploratory experience</span></span>](teams-exploratory.md)
 
-[<span data-ttu-id="a6b34-142">Office 365 非营利组织版</span><span class="sxs-lookup"><span data-stu-id="a6b34-142">Office 365 Nonprofit</span></span>](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[<span data-ttu-id="ba716-144">Office 365 非营利组织版</span><span class="sxs-lookup"><span data-stu-id="ba716-144">Office 365 Nonprofit</span></span>](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
