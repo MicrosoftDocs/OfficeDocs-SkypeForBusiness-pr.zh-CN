@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft 合作伙伴与选定的 SBC 供应商认证其 SBC 可用于直接路由。
-ms.openlocfilehash: c72b086929d2915fffcfbbcac2ed4b3d3ca5e16f
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 8476ec065ac2c88b2f7006f73dfc5ba3f2d9139c
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858567"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892352"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -52,7 +52,7 @@ Microsoft 与每位供应商协作：
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20   |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>  |    |    
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  7.20  |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>  |    |    
 |                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  7.20   | <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>    |    |                                                                       
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>   |    |    
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>   |  是  |    
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       7.2       | <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul> |   否 |    
 |                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       7.2       |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul> | 否   |    
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       7.2       |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li><li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li> </ul>  |否|    
@@ -64,7 +64,7 @@ Microsoft 与每位供应商协作：
 | | EdgeMarc 系列 |  &#10004; | | 15.6.1 | 
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |        Pending   |       V1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>   |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>  |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>  |  是  |    
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>  |    |    
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>   |    |    
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> 红天空地平线移动 </li>  </ul>  |    |                                            
@@ -77,6 +77,7 @@ Microsoft 与每位供应商协作：
 |                                                       供应商                                                        |       产品       | 确认
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     |
 | [带](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000。软件版本：8.1.1 （内部版本527）](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [带](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000。软件版本：8.1.1 （内部版本527）](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 

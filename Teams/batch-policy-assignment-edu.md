@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用 "批处理策略分配" 为远程学校（teleschool、长途）批量为您的教育机构中的大型用户分配策略。
 f1keywords: ''
-ms.openlocfilehash: 8dd771b27c1950cdce1590783bcfb3b4159c1c29
-ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
+ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42691182"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892272"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>向学校的大型用户组分配策略
 
@@ -82,20 +82,16 @@ Connect-MicrosoftTeams
 首先，运行以下操作以通过许可证类型标识你的员工和教师。 这将告诉你组织中使用的 Sku。 然后，您可以识别已分配教职员 SKU 的职员和教师。
 
 ```powershell
-Get-AzureADSubscribedSku
-```
-
-```powershell
-$skus = Get-AzureADSubscribedSku
+Get-AzureAdSubscribedSku | Select-Object -Property SkuPartNumber,SkuId
 ```
 
 返回：
 
 ```
-ObjectId                                                                  SkuPartNumber      SkuId
---------                                                                  -------------      -----
-ee1a846c-79e9-4bc3-9189-011ca89be890_e97c048c-37a4-45fb-ab50-022fbf07a370 M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
-ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
+SkuPartNumber      SkuId
+-------------      -----
+M365EDU_A5_FACULTY e97c048c-37a4-45fb-ab50-922fbf07a370
+M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 ```
 
 在此示例中，输出显示教职员许可证 SkuId 为 "e97c048c-37a4-45fb-ab50-922fbf07a370"。
@@ -106,7 +102,7 @@ ee1a846c-79e9-4bc3-9189-011ca89be890_46c119d4-0379-4a9d-85e4-97c66d3f909e M365ED
 接下来，我们运行以下内容来确定拥有此许可证的用户，并将它们一起收集。
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
+$faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>批量分配策略
@@ -150,7 +146,7 @@ $faculty.count
 请运行以下操作以指定第一个20000，然后再指定下一个20000，依此类推，而不是提供整个用户 Id 列表。
 
 ```powershell
-Assign-CsPolicy -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identities $faculty[0..19999].ObjectId
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
 你可以更改用户 Id 的范围，直到到达用户的完整列表。 例如，输入```$faculty[0..19999```第一个批处理，为第二```$faculty[20000..39999```个批次使用，为```$faculty[40000..59999```第三个批处理输入，依此类推。

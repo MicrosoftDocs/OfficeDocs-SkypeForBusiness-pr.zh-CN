@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c6b04531b21996f897b3d668fdb6515f1e953f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836812"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892362"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>开始使用 Teams 零售模板 
 
@@ -43,7 +43,7 @@ ms.locfileid: "41836812"
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 面向 <br>储存 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| 频道 <ul><li>班次切换\*</li><li>培训\*</li></ul>\*自动收藏频道<br><br>团队属性 <ul><li>将团队可见性设置为公共</li></ul> <br>成员权限 <ul><li>无法创建/更新/删除频道 </li><li>无法添加/删除应用程序 </li><li>无法创建/更新/删除选项卡</li><li>无法创建/更新/删除连接器</li><ul>|
+| 面向 <br>应用商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| 频道 <ul><li>班次切换\*</li><li>培训\*</li></ul>\*自动收藏频道<br><br>团队属性 <ul><li>将团队可见性设置为公共</li></ul> <br>成员权限 <ul><li>无法创建/更新/删除频道 </li><li>无法添加/删除应用程序 </li><li>无法创建/更新/删除选项卡</li><li>无法创建/更新/删除连接器</li><ul>|
 ||||
 
 为你的组织自定义应用商店模板的建议方法：
@@ -58,9 +58,32 @@ ms.locfileid: "41836812"
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 面向 <br>储存 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 频道 <ul><li>运营\*</li><li>培训\*</li></ul>\*自动收藏频道<br><br>团队属性 <ul><li>将团队可见性设置为私密</li></ul> <br>成员权限 <ul><li>可以创建/更新/删除频道 </li><li>可以添加/删除应用程序 </li><li>可以创建/更新/删除选项卡</li><li>可以创建/更新/删除连接器</li><ul>|
+| 面向 <br>应用商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| 频道 <ul><li>运营\*</li><li>培训\*</li></ul>\*自动收藏频道<br><br>团队属性 <ul><li>将团队可见性设置为私密</li></ul> <br>成员权限 <ul><li>可以创建/更新/删除频道 </li><li>可以添加/删除应用程序 </li><li>可以创建/更新/删除选项卡</li><li>可以创建/更新/删除连接器</li><ul>|
 ||||
 
 为你的组织自定义经理协作模板的推荐方法：
 
 - 如果您的组织具有与经理相关的任何内部网站（例如 SharePoint 网站），请考虑将它们固定为相关团队频道中的选项卡（有关说明，请参阅[此处](get-started-with-teams-templates.md)的文档）。
+
+## <a name="how-to-use-first-party-templates"></a>如何使用第一方模板
+
+若要使用这些模板，只需将请求正文中的 "template@odata bind" 属性从 "standard" 更改为上述 TemplateIDs。  有关如何部署团队模板的详细信息，请参阅 Microsoft Graph 有关如何[创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)的文章。
+
+> [!NOTE]
+> 模板中的频道将在 "常规" 选项卡下自动创建。
+
+### <a name="example-store-template-extension-script"></a>示例：存储模板扩展脚本
+
+``` PowerShell
+{
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('retailStore')",
+  "DisplayName": "Contoso Store",
+  "Description": "Team for all staff in Contoso Store",
+  "Channels": [
+    {
+      "displayName": "Additional store channel",
+      "IsFavoriteByDefault": false
+    }
+  ]
+}
+```

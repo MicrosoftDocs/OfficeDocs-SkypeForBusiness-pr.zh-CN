@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: a17b9ed78f484f593715a551fd11fa158bd6262a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327824"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892202"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 
@@ -75,17 +75,17 @@ Teams MSI 会将安装程序放置在“Program Files”中。 无论用户何�
 
 ## <a name="clean-up-and-redeployment-procedure"></a>清理和重新部署过程
 
-如果用户从其用户配置文件中卸载 Teams，则 MSI 安装程序将跟踪该用户已卸载 Teams 应用并且不再在该用户配置文件中安装 Teams。 要为此用户在已从其中卸载 Teams 的特定计算机上重新部署 Teams，请执行以下操作：
+如果用户从其用户配置文件中卸载团队，则 MSI 安装程序将跟踪用户已卸载团队应用，并且不再为该用户配置文件安装团队。 要为此用户在已从其中卸载 Teams 的特定计算机上重新部署 Teams，请执行以下操作：
 
-1. 卸载每个用户配置文件中安装的 Teams 应用。
-2. 卸载后，在 `%localappdata%\Microsoft\Teams\` 下以递归方式删除目录。
+1. 卸载为每个用户配置文件安装的团队应用。
+2. 卸载后，在下`%localappdata%\Microsoft\Teams\`递归删除目录。
 3. 将 MSI 程序包重新部署到该特定计算机。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止 Teams 在安装后自动启动
 
 MSI 的默认行为是在用户登录时立即安装 Teams 应用，然后自动启动 Teams。 如果不希望 Teams 在安装之后对用户自动启动，则可以使用组策略设置策略设置，或者禁用 MSI 安装程序自动启用。
 
-#### <a name="use-group-policy-recommended"></a>使用组策略（推荐）
+### <a name="use-group-policy-recommended"></a>使用组策略（推荐）
 
 启用**阻止 Microsoft Teams 在安装后自动启动**组策略设置。 可在 User Configuration\Policies\Administrative Templates\Microsoft Teams 中找到此策略设置。 推荐使用此方法，因为你可以根据组织需要关闭或启用策略设置。
 
@@ -103,16 +103,18 @@ MSI 的默认行为是在用户登录时立即安装 Teams 应用，然后自动
 对于 32 位版本
 
 ```console
-msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 对于 64 位版本
 
 ```console
-msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
+msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 ```
 
 当用户登录 Windows 时，Teams 已通过 MSI 安装并且启动 Teams 的快捷方式已添加至用户桌面。 在用户手动启动 Teams 之前，它不会启动。 用户手动启动 Teams 之后，无论用户何时登录，Teams 均会自动启动。
+
+请注意，这些示例还使用**ALLUSERS = 1**参数。 设置此参数时，团队计算机范围的安装程序将显示在 "控制面板" 的 "程序和功能" 和 "应用程序" 中的 "Windows 设置" 中的 "应用 & 功能" 中。 如果团队拥有计算机上的管理员凭据，则所有用户都可以卸载团队。
 
 > [!Note]
 > 如果手动运行 MSI，请确保使用已提升的权限运行它。 即便以管理员身份而不是使用已提升的权限运行 MSI，安装程序也无法将选项配置为禁用自动启动。

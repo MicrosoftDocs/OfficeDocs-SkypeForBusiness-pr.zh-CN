@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
-ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
+ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42615364"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892292"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -142,28 +142,31 @@ Office 365 专业增强版不支持团队的每计算机安装。 若要使用�
     - 每用户安装（默认）
   
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
-    
+
         这是默认安装，可将团队安装到% AppData% 用户文件夹。 此时，将完成黄金图像设置。 在非持久设置中，团队将不会在每用户安装中正常工作。
-    
+
     - 每计算机安装
 
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
         这会将团队安装到64位操作系统上的 "程序文件（x86）" 文件夹和32位操作系统上的 "程序文件" 文件夹中。 此时，将完成黄金图像设置。 对于非持久设置，需要针对每台计算机安装团队。
- 
+
         下一个交互式登录会话将启动团队并要求提供凭据。
 
-3. 从 VDI VM 卸载 MSI。 
+    > [!NOTE]
+    > 这些示例还使用**ALLUSERS = 1**参数。 设置此参数时，团队计算机范围的安装程序将显示在 "控制面板" 的 "程序和功能" 和 "应用程序" 中的 "Windows 设置" 中的 "应用 & 功能" 中。 如果团队拥有管理员凭据，则所有用户都可以卸载团队。 了解**ALLUSERS = 1**和**ALLUSER = 1**之间的区别非常重要。 **ALLUSERS = 1**参数可在非 VDI 和 VDI 环境中使用， **ALLUSER = 1**参数仅在 VDI 环境中用于指定每计算机安装。
+
+3. 从 VDI VM 卸载 MSI。
 
     可通过两种方式卸载团队：  
   
     - PowerShell 脚本（推荐）
-    
-    - 命令行：此方法删除团队，但阻止团队重新安装。 运行以下命令：
+
+    - 命令行：
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -357,7 +360,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 对于不与 VDI 无关的团队已知问题，请参阅[团队的已知问题](Known-issues.md)。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 #### <a name="troubleshoot-citrix-components"></a>Citrix 组件疑难解答
 

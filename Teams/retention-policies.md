@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: prvijay
-description: 了解保留策略以及如何在团队中创建和管理它们。
+description: 了解保留策略以及如何在 Teams 中创建和管理它们。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,153 +18,153 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 86cbb37b46bca606e7225ce0267a49c709fc9619
 ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/20/2020
 ms.locfileid: "42160746"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
-保留策略可帮助您更有效地管理组织中的信息。 使用保留策略来保留符合组织的内部策略、行业法规或法律需求的数据，并删除被视为责任的数据，而不再需要保留，或者没有法律或商业价值。
+保留策略可帮助你更高效地管理组织中的信息。 使用保留策略可以保留满足组织的内部政策、行业法规或法律要求所需的数据，以及删除被视为负担、不再需要保留或没有法律或业务价值的数据。
 
-默认情况下，团队聊天、频道和文件数据将永久保留。 作为管理员，你可以为聊天和频道消息设置团队保留策略，并提前确定是保留数据、删除数据还是在特定时间段内保留数据，然后将其删除。
+默认情况下，Teams 聊天、频道和文件数据将永久保留。 作为管理员，你可以为聊天和频道消息设置 Teams 保留策略，并主动决定是保留数据、删除数据还是将其保留一段时间后再删除。
 
-在[Office 365 安全 & 合规中心](https://protection.office.com/)或使用安全 & 合规中心 PowerShell cmdlet 中，你可以创建和管理团队和其他工作负荷的保留策略。 您可以将团队保留策略应用于整个组织或特定用户和团队。
+可在 [Office 365 安全与合规中心](https://protection.office.com/)中或通过使用安全与合规中心 PowerShell cmdlet 为 Teams 和其他工作负载创建和管理保留策略。 可将 Teams 保留策略应用于整个组织或特定用户和团队。
 
 > [!NOTE]
-> 我们尚不支持保留专用频道消息的配置。 支持在专用频道中共享的文件的保留。
+> 我们尚不支持配置私人频道消息的保留。 支持保留在私人渠道中共享的文件。
 
 若要了解有关 Office 365 的保留策略的详细信息，请参阅[保留策略概述](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)。
 
-## <a name="what-are-retention-policies-for-teams"></a>团队的保留策略是什么？
+## <a name="what-are-retention-policies-for-teams"></a>Teams 的保留策略是什么？
 
-为团队或任何其他工作负荷设置保留策略时，可以将其设置为：
+在为 Teams 或任何其他工作负载设置保留策略时，可将其设置为：
 
-- **保留数据**：使用保留策略确保数据在指定时间段内保留，无论用户应用中发生了什么情况。 出于合规性原因，将保留数据，并且电子数据展示在保留期到期之前可用，之后你的策略指示是不执行任何操作，还是删除数据。 例如，如果创建团队保留策略以将频道消息保留7年，则邮件将在7年后保留，即使用户在团队中删除了他们的邮件也是如此。
-- **删除数据**：使用保留策略删除数据，以确保它不是你的组织的责任。 使用团队保留策略，删除数据时，将从团队服务上的所有存储位置中永久删除该数据。
+- **保留数据**：使用保留策略确保将数据保留一段指定的时间，无论用户应用中发生什么情况都是如此。 出于合规性原因而保留数据，并且可用于电子数据展示，直到保留期到期为止，之后，策略会指示是不执行任何操作还是删除数据。 例如，如果创建 Teams 保留策略以将频道消息保留 7 年，则会将用于电子数据展示的消息保留 7 年，即便用户在 Teams 中删除了这些消息也是如此。
+- **删除数据**：使用保留策略删除数据，以确保它不会对你的组织造成负担。 借助 Teams 保留策略，当你删除数据时，它将从 Teams 服务上的所有存储位置永久删除。
 
-利用团队的保留策略，您可以：
+借助 Teams 保留策略，你可以：
 
-- 保留特定工期的团队聊天和/或频道消息，然后不执行任何操作。
-- 在指定工期内保留团队聊天和/或频道消息，然后删除数据。
-- 在指定的持续时间后删除团队聊天和/或频道消息。
-
-> [!NOTE]
-> 请记住，在团队中，用户在私人聊天中共享的文件存储在共享该文件的用户的 OneDrive for Business 帐户中。 以及团队成员上载到频道对话的文件存储在团队的 SharePoint 网站中。 因此，若要在团队中保留或删除文件，请创建适用于 OneDrive for business 和 SharePoint Online 的保留策略。
-
-当数据受保留策略制约时，用户可以继续使用它，因为数据保留在其原始位置。 如果用户编辑或删除受策略制约的数据，则会将副本保存到在策略生效时保留的安全位置。
-
-保留策略的最低许可要求是 Office 365 E3。 若要了解有关许可的详细信息，请参阅[适用于团队的 Office 365 许可](Office-365-licensing.md)。
-
-## <a name="how-teams-retention-policies-work"></a>团队保留策略的工作原理
-
-团队聊天存储在聊天中每个用户的邮箱的隐藏 SubstrateHolds 文件夹中，而团队频道消息存储在团队的组邮箱中的隐藏 SubstratesHolds 文件夹中。 团队使用同时存储此数据的 Azure 支持的聊天服务，并且默认情况下，此服务会永久存储数据。 使用团队保留策略，删除数据时，将从 Exchange 邮箱和基础聊天服务中永久删除数据。
-
-将保留策略应用到团队聊天和频道消息时，将发生以下情况：
-
-- 如果在保留期间用户在保留期间内编辑或删除了聊天或频道消息，则会将邮件复制（如果已编辑）或移动（如果它已被删除）到 SubstrateHolds 文件夹，并在保留期到期之前存储在该文件夹中。 如果在保留期到期时将策略配置为删除数据，则邮件将在保留期过期的那一天被永久删除。
-- 如果在保留期间用户未删除聊天或频道消息，则邮件将在保留期到期后的一天内移动到 SubstrateHolds 文件夹。 如果在保留期到期时将策略配置为删除数据，邮件将在移动到文件夹后被永久删除一天。
+- 将 Teams 聊天和/或频道消息保留一段指定的时间，并且在此期限后不执行任何操作。
+- 将 Teams 聊天和/或频道消息保留一段指定的时间，并在此期限后删除数据。
+- 在指定的时间段后删除 Teams 聊天和/或频道消息。
 
 > [!NOTE]
-> 相同的流程适用于 Skype for Business Online 和团队互操作聊天。 当将 Skype for Business Online 聊天加入团队时，它将成为团队聊天线索中的一条消息，并 ingested 到相应的邮箱中。 团队保留策略将从团队线程中删除这些消息。 但是，如果为 Skype for business Online 和 Skype for business Online 客户端中的 Skype for business Online 客户端启用了对话历史记录，则不会由团队保留策略处理聊天数据。
+> 请记住，在 Teams 中，用户在私人聊天中共享的文件存储在共享该文件的用户的 OneDrive for Business 帐户中。 由团队成员上传到频道对话的文件则存储在团队的 SharePoint 网站中。 因此，若要保留或删除 Teams 中的文件，请创建适用于 OneDrive for Business 和 SharePoint Online 的保留策略。
 
-团队中的保留策略基于创建聊天或频道消息的日期以及 retroactive。 换句话说，如果创建保留策略以删除超过90天的数据，则将删除工作组数据创建超过90天前的数据。
+如果数据受保留策略的约束，用户可以继续使用它，因为该数据将保留在其原始位置。 如果用户编辑或删除受策略约束的数据，则副本将保存到该策略生效时保留该副本的安全位置。
 
-在 SharePoint Online 或 OneDrive for business 中应用的保留策略可能会删除在团队聊天或频道消息中引用的文件，然后再删除这些邮件。 在此方案中，文件仍将显示在 "团队" 消息中，但当用户单击该文件时，将收到 "找不到文件" 错误。 如果有人手动从 SharePoint Online 或 OneDrive for business 中删除文件，则在缺少策略时也可能会发生这种情况。
+保留策略的最低许可要求是 Office 365 E3。 若要了解有关许可的详细信息，请参阅[适用于 Teams 的 Office 365 许可](Office-365-licensing.md)。
+
+## <a name="how-teams-retention-policies-work"></a>Teams 保留策略的工作方式
+
+Teams 聊天存储在参与聊天的每个用户的邮箱中的隐藏 SubstrateHolds 文件夹内，Teams 频道消息存储在团队组邮箱中的隐藏 SubstratesHolds 文件夹中。 Teams 使用由 Azure 支持的聊天服务，该服务也会存储此数据，并且默认永久存储。 借助 Teams 保留策略，当你删除数据时，将从 Exchange 邮箱和基础聊天服务中永久删除该数据。
+
+将保留策略应用于 Teams 聊天和频道消息后，将发生以下情况：
+
+- 如果用户在保留期内编辑或删除了聊天或频道消息，则该消息将复制（如果已编辑）或移动（如果已删除）到 SubstrateHolds 文件夹中，并存储在该文件夹中，直到保留期到期为止。 如果将策略配置为在保留期到期时删除数据，则将在保留期到期的当天永久删除消息。
+- 如果用户在保留期内未删除聊天或频道消息，则该消息将在保留期到期后的一天内移至 SubstrateHolds 文件夹。 如果将策略配置为在保留期到期时删除数据，则将在消息移至文件夹的一天后永久删除该消息。
+
+> [!NOTE]
+> 相同的流程适用于 Skype for Business Online 和 Teams 互操作聊天。 当 Skype for Business Online 聊天进入 Teams 时，它将成为 Teams 聊天线程中的消息，并接收到相应的邮箱中。 Teams 保留策略将从 Teams 线程中删除这些消息。 但是，如果已为 Skype for Business Online 开启对话历史记录，并且从 Skype for Business Online 客户端将会话历史记录保存到邮箱中，则 Teams 保留策略不会处理该聊天数据。
+
+Teams 中的保留策略基于聊天或频道消息的创建日期，并且具有追溯性。 换言之，如果你创建保留策略来删除 90 天之前的数据，则在 90 天之前创建的 Teams 数据将被删除。
+
+应用于 SharePoint Online 或 OneDrive for Business 的保留策略可能会先删除在 Teams 聊天或频道消息中引用的文件，然后再删除这些消息。 在这种情况下，该文件仍将显示在 Teams 消息中，但当用户单击文件时，将收到“找不到文件”错误。 如果某人手动从 SharePoint Online 或 OneDrive for Business 中删除文件，则在没有应用策略的情况下也会发生这种情况。
 
 ### <a name="considerations-and-limitations"></a>注意事项和限制
 
-下面是使用团队保留策略时应注意的一些注意事项和限制：
+以下是在使用 Teams 保留策略时需要注意的一些事项和限制：
 
-- 团队需要与其他工作负荷分开的保留策略。 换句话说，你必须为团队聊天和/或频道消息创建特定的保留策略。 因此，您不能在组织范围的保留策略中包含团队。
+- Teams 需要与其他工作负载分开的保留策略。 换言之，你必须为 Teams 聊天和/或频道消息创建特定保留策略。 因此，你不能在组织范围的保留策略中包括 Teams。
 
-- 不支持专用信道消息。 此时，团队的保留策略仅适用于标准频道消息。
+- 不支持私有频道消息。 目前，Teams 的保留策略仅适用于标准频道消息。
 
-- 团队不支持高级保留设置，如将策略应用于包含关键字或敏感信息的内容的功能。 目前，团队中的保留策略适用于所有聊天和/或频道消息内容。
+- Teams 不支持高级保留设置，例如，用于为包含关键字或敏感信息的内容应用策略的功能。 目前，Teams 中的保留策略适用于所有聊天和/或频道消息内容。
 
-- 团队最多可能需要三天的时间来清理已过期的消息。 团队保留策略将在保留期到期时删除聊天和频道消息。 但是，可能需要长达三天的时间来清理这些邮件并永久删除它们。 此外，聊天和频道消息将在保留期到期后和邮件永久删除的时间之间通过电子数据展示工具进行搜索。
+- Teams 最多可能需要三天的时间来清理过期的消息。 Teams 保留策略将在保留期到期时删除聊天和频道消息。 但是，它最多可能需要三天的时间来清理这些消息并永久删除它们。 此外，在保留期到期后和永久删除消息之间的时间段内，可以使用电子数据展示工具搜索聊天和频道消息。
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>多个保留策略和保留原则
 
-如果您使用不同的工期设置多个团队保留策略，则应用[保留策略原则](https://docs.microsoft.com/microsoft-365/compliance/retention-policies#the-principles-of-retention-or-what-takes-precedence)。 下面概述了优先顺序：
+如果设置多个具有不同期限的 Teams 保留策略，则[保留策略原则](https://docs.microsoft.com/microsoft-365/compliance/retention-policies#the-principles-of-retention-or-what-takes-precedence)适用。 以下是关于优先级的概述：
 
-- 保留的 wins 始终超过删除
-- 保留最长期限始终为 "wins"
-- 在位置的隐式包含中显式包含 wins
-- Wins 最短删除周期
+- 保留始终优先于删除
+- 优选最长的保留期
+- 显式添加的位置优先于隐式添加的位置
+- 优选最短删除期
 
-## <a name="when-to-use-retention-policies-for-teams"></a>何时使用团队的保留策略
+## <a name="when-to-use-retention-policies-for-teams"></a>何时使用 Teams 的保留策略
 
-在许多情况下，组织会将私人聊天数据视为比频道消息更多的责任，这通常是更多与项目相关的对话。
+在许多情况下，组织认为与频道消息相比，私人聊天数据将造成更大的负担，因为频道消息通常是与项目更为相关的会话。
 
-你可以为私人聊天（1:1 或1：许多聊天）和频道消息设置单独的保留策略。 您还可以配置应用于组织中特定用户或团队的唯一策略。 对于团队聊天，你可以选择要应用该策略的用户。 对于团队频道消息，你可以选择应用策略的团队。
+你可以为私人聊天（一对一或一对多聊天）和频道消息设置单独的保留策略。 你还可以配置适用于组织中特定用户或团队的唯一策略。 对于 Teams 聊天，可选择要为其应用策略的用户。 对于 Teams 频道消息，可选择要为其应用策略的团队。
 
-例如，对于频道消息，你可以将一年的删除策略应用到组织中的特定团队，并向所有其他团队应用三年删除策略。
+例如，对于频道消息，可以将一年删除策略应用于组织中的特定团队，并将三年删除策略应用于所有其他团队。
 
-## <a name="manage-retention-policies-for-teams"></a>管理团队的保留策略
+## <a name="manage-retention-policies-for-teams"></a>管理 Teams 的保留策略
 
-### <a name="using-the-security--compliance-center"></a>使用安全 & 合规中心
+### <a name="using-the-security--compliance-center"></a>使用安全与合规中心
 
 #### <a name="create-a-retention-policy"></a>创建保留策略
 
-若要为团队聊天和频道消息创建保留策略，请执行下列操作：
+若要为 Teams 聊天和频道消息创建保留策略，请执行以下操作：
 
-1. 在安全 & 合规中心的左侧导航中，转到 "**信息管理** > **保留**"。
-2. 选择 "**创建**"。
-3. 在 "为**你的策略命名**" 页面上，输入你的策略的名称和说明，然后单击 "**下一步**"。
-4. 在 "**设置**" 页面上，指定是要保留数据、删除数据还是同时保留时间，然后单击 "**下一步**"。
-5. 在 "**选择位置**" 页上，执行下列操作，然后单击 "**下一步**"：
+1. 在安全与合规中心的左窗格中，转到“**信息管理**” > “**保留**”。
+2. 选择“**创建**”。
+3. 在“**为你的策略命名**”页面上，为你的策略输入名称和说明，然后单击“**下一步**”。
+4. 在“**设置**”页上，指定是保留数据、删除数据还是先保留后删除，指定保留期，然后单击“**下一步**”。
+5. 在“**选择位置**”页面上，执行以下操作，然后单击“**下一步**”：
 
-    - 若要将策略应用到信道消息，请打开**团队频道消息**。  如果要将策略应用到组织中的特定团队，请选择 "**选择团队**"，然后选择所需团队。
-    - 若要将策略应用于聊天，请打开**团队聊天**。 如果要将策略应用到组织中的特定用户，请选择 "**选择用户**"，然后选择所需的用户。
+    - 若要将策略应用于频道消息，请开启“**Teams 频道消息**”。  如果要将策略应用于组织中的特定团队，请选择“**选择团队**”，然后选择所需的团队。
+    - 若要将策略应用于聊天，请开启“**Teams 聊天**”。 如果要将策略应用于组织中的特定用户，请选择“**选择用户**”，然后选择所需的用户。
       > [!NOTE]
-      > 当您打开**团队频道消息**和/或**团队聊天**时，所有其他位置将自动关闭。 团队保留策略只能包含团队位置。
+      > 当开启“**Teams 频道消息**”和/或“**Teams 聊天**”时，所有其他位置都会自动关闭。 Teams 保留策略只能包含 Teams 位置。
 
-        !["选择位置" 页上的团队频道消息和团队聊天选项的屏幕截图](media/retention-policies-create.png)
+        ![“选择位置”页面上的“Teams 频道消息”和“Teams 聊天”选项的屏幕截图](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > 团队聊天和频道消息不受应用于**Exchange 电子邮件**或**Office 365 组**位置中的用户或组邮箱的保留策略的影响。 尽管团队聊天和频道邮件存储在 Exchange 中，但它们仅受应用于团队位置的保留策略的影响。
+      > Teams 聊天和频道消息不受应用于 **Exchange 电子邮件**或 **Office 365 组**位置中用户或组邮箱的保留策略的影响。 即使 Teams 聊天和频道消息存储在 Exchange 中，它们也仅受到应用于 Teams 位置的保留策略的影响。
 
-6. 查看您的设置，然后在准备就绪后，选择 "**创建此策略**"。
+6. 查看设置，在准备就绪后，选择“**创建此策略**”。
 
 #### <a name="edit-a-retention-policy"></a>编辑保留策略
 
-若要编辑团队保留策略，请执行下列操作：
+若要编辑 Teams 保留策略，请执行以下操作：
 
-1. 在安全 & 合规中心的左侧导航中，转到 "**信息管理** > **保留**"。
-2. 在 "保留策略" 列表中，选中要编辑的保留策略旁边的复选框。
-3. 选择要编辑的内容旁边的 "**编辑**"，进行所需的更改，单击 "**保存**"，然后单击 "**关闭**"。
+1. 在安全与合规中心的左窗格中，转到“**信息管理**” > “**保留**”。
+2. 在保留策略列表中，选中要编辑的保留策略旁边的复选框。
+3. 选择要编辑的策略旁边的“**编辑**”，进行更改，单击“**保存**”，然后单击“**关闭**”。
 
-    !["选择位置" 页上的团队频道消息和团队聊天选项的屏幕截图](media/retention-policies-edit.png)
+    ![“选择位置”页面上的“Teams 频道消息”和“Teams 聊天”选项的屏幕截图](media/retention-policies-edit.png)
 
 #### <a name="delete-a-retention-policy"></a>删除保留策略
 
-若要删除团队保留策略，请执行下列操作：
+若要删除 Teams 保留策略，请执行以下操作：
 
-1. 在安全 & 合规中心的左侧导航中，转到 "**信息管理** > **保留**"。
-2. 在 "保留策略" 列表中，选中要删除的保留策略旁边的复选框。
-3. 选择 "**删除策略**"。
+1. 在安全与合规中心的左窗格中，转到“**信息管理**” > “**保留**”。
+2. 在保留策略列表中，选中要删除的保留策略旁边的复选框。
+3. 选择“**删除策略**”。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-若要使用 PowerShell 创建和管理团队保留策略，请使用以下 cmdlet。
+若要使用 PowerShell 创建和管理 Teams 保留策略，请使用以下 cmdlet。
 
-|设置|规则|
+|策略|规则|
 |---|---|
-|[新-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [新-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
-|[TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
+|[New-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancepolicy?view=exchange-ps)| [New-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-teamsretentioncompliancerule?view=exchange-ps)|
+|[Get-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancepolicy?view=exchange-ps)| [Get-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-teamsretentioncompliancerule?view=exchange-ps)|
 |[Set-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancepolicy?view=exchange-ps)| [Set-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-teamsretentioncompliancerule?view=exchange-ps)|
 |[Remove-TeamsRetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancepolicy?view=exchange-ps)| [Remove-TeamsRetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-teamsretentioncompliancerule?view=exchange-ps)|
 
 ## <a name="known-issues"></a>已知问题
 
-以下是正在跟踪和调查的团队中的保留策略的已知问题。
+以下是正在跟踪和调查的 Teams 中的已知保留策略问题。
 
-- 在 "**团队频道消息**位置" 行中的 "**选择团队**" 下，你可能会看到也不是团队的 Office 365 组。 未来将对此进行寻址。
+- 在“**Teams 频道消息**”位置行中的“**选择团队**”下，你可能会看到不属于团队的 Office 365 组。 此问题将在未来得到解决。
 
-- 在 "**团队聊天**位置" 行中的 "**选择用户**" 下，你可能会看到来宾和非邮箱用户。 保留策略不适于为来宾设置，我们正在努力从列表中删除这些保留策略。
+- 在“**Teams 聊天**”位置行中的“**选择用户**”下，你可能会看到来宾和非邮箱用户。 保留策略不是为来宾设置的，我们正致力于从列表中删除来宾。
 
-- Exchange 生命周期助理（ELC）每天运行，但其 SLA 为7天。 因此，如果你有一个团队保留策略来删除超过60天的项目，这些项目最多可持续67天。 这不是一种新情况-它遵循 Exchange 模型。 当然，在大多数情况下，没有延迟。
+- Exchange 生命周期助手 (ELC) 每天运行，但其 SLA 为 7 天。 因此，如果你创建了 Teams 保留策略来删除 60 天之前的项目，则这些项目最长可保留 67 天。 这不是新情况 - 它遵循 Exchange 模型。 当然，在大多数情况下，不会出现延迟。
 
 ## <a name="related-topics"></a>相关主题
 
