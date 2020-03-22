@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 为 Skype for business Server 2019 设置资源帐户。
-ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113255"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892302"
 ---
 # <a name="configure-resource-accounts"></a>配置资源帐户
 
@@ -32,7 +32,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
 如果电话系统自动助理或呼叫队列将需要服务号码，则可以按以下顺序满足各种相关性：
 
-1. 获取服务号码
+1. 获取服务号码。
 2. 获取免费的电话系统-[虚拟用户许可证](/MicrosoftTeams/teams-add-on-licensing/virtual-user)或付费电话系统许可证以与资源帐户一起使用。
 3. 创建资源帐户。 自动助理或呼叫队列必须具有关联的资源帐户。
 4. 在联机和本地之间等待 active directory 同步。
@@ -71,7 +71,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 3. 通过对每个电话系统自动助理或呼叫`New-CsHybridApplicationEndpoint`队列运行 cmdlet 来创建本地资源帐户，并为每个电话系统自动助理或呼叫队列分配一个名称、sip 地址等。
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     有关此命令的更多详细信息，请参阅[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
@@ -103,12 +103,12 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-如果资源帐户将分配给顶级自动助理或呼叫队列，则该帐户将需要已分配的电话号码。 无法将用户（订阅者）电话号码分配给资源帐户，只能使用服务收费或免费电话号码。
+   如果资源帐户将分配给顶级自动助理或呼叫队列，则该帐户将需要已分配的电话号码。 无法将用户（订阅者）电话号码分配给资源帐户，只能使用服务收费或免费电话号码。
 
-  您可以为您的资源帐户分配直接路由混合号码。  有关详细信息，请参阅[规划直接路由](/MicrosoftTeams/direct-routing-plan)。
+     您可以为您的资源帐户分配直接路由混合号码。 有关详细信息，请参阅[规划直接路由](/MicrosoftTeams/direct-routing-plan)。
 
-  > [!NOTE]
-  > 仅为 Microsoft 团队用户和代理支持分配给自动助理和呼叫队列的资源帐户的直接路由服务号码。
+     > [!NOTE]
+     > 仅为 Microsoft 团队用户和代理支持分配给自动助理和呼叫队列的资源帐户的直接路由服务号码。
 
 7. 创建电话系统自动助理或呼叫队列。 请查看下列内容之一：
 
