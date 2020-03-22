@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: 了解如何为你的 Office 365 组织启用 Microsoft 团队。
+description: 了解如何在你的 Office 365 组织中启用 Microsoft Teams。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a4772cc676cb9b26ec613488553e96be26d93cfa
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41833342"
@@ -34,7 +34,7 @@ ms.locfileid: "41833342"
 默认情况下，会为所有组织开启 Teams。 如果你在预览期间使用过 Teams，则你在 Teams 预览期间所做的设置将保持不变。 
 
 
-作为贵组织的管理员，你可以为用户分配许可证以控制对 Teams 的个人访问，并且你可以允许或阻止可以在 Teams 中使用的内容源。 有关详细信息，请参阅针对你的组织的 "[管理 Microsoft 团队设置](enable-features-office-365.md) [" 或 "microsoft 团队中的应用的管理员设置"](admin-settings.md) 。 
+作为贵组织的管理员，你可以为用户分配许可证以控制对 Teams 的个人访问，并且你可以允许或阻止可以在 Teams 中使用的内容源。 有关详细信息，请参阅[为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)或 [Microsoft Teams 中应用程序管理员设置](admin-settings.md)。 
 
 
  
