@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a99bfe66d1a9f0c072e63aa49f210d216e9ff29
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858607"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892332"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -64,9 +64,14 @@ ms.locfileid: "42858607"
 
 1. 阅读定期更新的[常见问题：支持远程员工](FAQ-support-remote-workforce.md)。
 
-2. 除 [Office 365 E1 试用版](e1-trial-license.md) 和 [Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)以外，如果需要免费团队许可证，[Teams Exploratory](teams-exploratory.md)也可是一种选项。
+1. 阅读我们 2020 年 3 月 6 日的博客文章“[Microsoft 如何让员工 使用 Microsoft Teams 远程工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)”。
 
-1. 如果你从事教育工作，并且需要在 Teams 上设置教师、学生和管理员，请使用 Office 365 A1。 Office 365 免费版可供所有教育机构使用。 请转到[为整个学校免费获取 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) 注册。
+1. Teams 教育版
+   - 如果你从事教育工作，并且需要在 Teams 上设置教师、学生和管理员，请使用 Office 365 A1。 Office 365 免费版可供所有教育机构使用。 请转到[为整个学校免费获取 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) 注册。
+
+   - 不要错过[开始使用 Teams 进行远程学习](remote-learning-edu.md)。
+
+2. 除 [Office 365 E1 试用版](e1-trial-license.md) 和 [Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)以外，如果需要免费团队许可证，[Teams Exploratory](teams-exploratory.md)也可是一种选项。
 
 1. 确保员工可充分访问 Internet 并具有足够的带宽来使用 Teams。 使用“[为 Teams 准备组织的网络](prepare-network.md)”中的指南，了解如何进行此操作。
 
@@ -105,6 +110,8 @@ ms.locfileid: "42858607"
       - [远程工作的 9 个提示](https://www.microsoft.com/tips/home/working-remotely)
 
       - [有关在家中更安全地工作的重要提示](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+      - Satya Nadella 和 Teams 产品市场营销经理 Aya Tange 有关“[使用 Teams 远程工作](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1)”的视频（2020 年 3 月 20 日）
 
 
 3.  鼓励所有人[安装](get-clients.md#mobile-clients)和使用移动应用：[iOS 版](https://go.microsoft.com/fwlink/?LinkId=835758)或 [Android 版](https://go.microsoft.com/fwlink/p/?linkid=2102168)。
