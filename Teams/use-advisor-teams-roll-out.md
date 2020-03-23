@@ -1,5 +1,5 @@
 ---
-title: 使用 Advisor for Teams（预览版）帮助你推出 Microsoft Teams
+title: 使用 Advisor for Teams（公共预览版）帮助你推出 Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 ms.reviewer: brandber
@@ -17,19 +17,19 @@ localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom: ''
-description: 使用 Advisor for Teams（预览版）帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+description: 使用 Advisor for Teams（公共预览版）帮助你计划和完成 Microsoft Teams 部署。
+ms.openlocfilehash: 17fac0b4f4c974f72eccc7d0c11ae6b27337afef
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795845"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892282"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams（预览版）为你提供 Microsoft Teams 推出的分步指导。 它将评估 Office 365 租户环境并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。 然后，Advisor for Teams 会创建一个部署团队（在 Teams 中），你要推出的每个工作负载都有对应的频道。部署团队中的每个工作负载都有一个综合 Planner 计划，其中包括每个工作负载的所有推出任务。  使用此 Planner 计划将任务分配给负责推出的每个阶段的人员 - 包括项目经理、Teams 和 Office 365 管理员、支持人员以及你的采用和用户就绪性团队。 每个推出任务包含成功完成任务所需的所有指南和资源。
+Advisor for Teams（公共预览版）为你提供 Microsoft Teams 推出的分步指导。 它将评估 Office 365 租户环境并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。 然后，Advisor for Teams 会创建一个部署团队（在 Teams 中），你要推出的每个工作负载都有对应的频道。部署团队中的每个工作负载都有一个综合 Planner 计划，其中包括每个工作负载的所有推出任务。  使用此 Planner 计划将任务分配给负责推出的每个阶段的人员 - 包括项目经理、Teams 和 Office 365 管理员、支持人员以及你的采用和用户就绪性团队。 每个推出任务包含成功完成任务所需的所有指南和资源。
 
 Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的一部分。 至少需要 Office 365 商业协作版许可证，才能利用 Teams 顾问与 Forms 和 Planner 的集成。 若要开始使用 Teams 顾问，请在仪表板上的“**部署 Teams 工作负载**”小组件中单击“**启动**”按钮。 或者转到“**计划**” > “**Teams 顾问**”。
 
@@ -38,7 +38,7 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 
 有关 Teams 顾问体验的指导性概述，请查看 [Deploy & Configure Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) Microsoft Mechanics 视频。
 
-## <a name="using-advisor-for-teams-preview"></a>使用 Advisor for Teams（预览版）
+## <a name="using-advisor-for-teams-public-preview"></a>使用 Advisor for Teams（公共预览版）
 
 **必须要有 Teams、Forms 和 Planner 许可证才能使用 Teams 顾问。** 但是，要使用 Teams 顾问，不需要是 Teams 管理员 - 组织中的任何人都可使用它。 我们设置了特殊权限，使非管理员用户可以使用 Advisor for Teams，即使它位于团队管理中心，也是如此。 只有 Teams 管理员、Teams 服务管理员或全局管理员才能打开租户就绪性评估（这是因为特殊的非管理员角色无法访问位于评估底层的 Microsoft Graph API）。
 
@@ -52,7 +52,7 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 
 ## <a name="available-advisor-for-teams-plans"></a>可用的 Teams 顾问计划
 
-在 Teams 顾问处于预览阶段时，我们提供以下两种计划：
+在 Advisor for Teams 处于公共预览阶段时，我们提供以下两种计划：
 
 1. 聊天、团队、频道和应用
     - 租户评估
@@ -74,7 +74,7 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 - <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>橙色警告三角形表示我们建议你跟进，确定是否需要执行任何操作（例如，推荐使用 Office 365 组过期策略，但不是必需的）。
 
 > [!IMPORTANT]
-> 拥有管理角色的用户启动 Teams 顾问后，所有评估都将在后台运行。 如果你进行某种更新或修正，这些内容可能在长达 24 小时内都不会反映到评估中。 这种情况是暂时的；只要 Teams 顾问脱离预览版并公开发布，届时评估将几乎实时更新。
+> 拥有管理角色的用户启动 Teams 顾问后，所有评估都将在后台运行。 如果你进行某种更新或修正，这些内容可能在长达 24 小时内都不会反映到评估中。 这种情况是暂时的；只要 Advisor for Teams 脱离公共预览版并公开发布，届时评估将几乎实时更新。
 
 下面各节将介绍每项评估，包括某一项是否是先决条件或最佳做法、每项评估检查所执行的操作和理由以及有关修正（如需要）的指导。
 
@@ -133,7 +133,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 至少需要 Office 365 商业协作版，才能利用 Teams 顾问与 Forms 和 Planner 的集成。
 
 ### <a name="can-i-delete-the-deployment-team"></a>我是否可以删除部署团队？
-在 Advisor for Teams 创建部署团队后，可以像管理任何其他团队那样管理该团队，包括可以删除该团队。 请注意，如果不使用 Teams 管理中心删除该团队，Teams 管理中心将显示该团队仍然存在。 这种情况是暂时的；当 Teams 顾问脱离预览版并公开发布时，将得到修复。
+在 Advisor for Teams 创建部署团队后，可以像管理任何其他团队那样管理该团队，包括可以删除该团队。 请注意，如果不使用 Teams 管理中心删除该团队，Teams 管理中心将显示该团队仍然存在。 这种情况是暂时的；当 Advisor for Teams 脱离公共预览版并公开发布时，将得到修复。
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>我是否可以在部署团队中添加或删除频道？
 可以，创建部署团队后，你将按照管理任何其他团队的方式管理频道。
