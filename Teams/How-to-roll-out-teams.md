@@ -13,18 +13,19 @@ localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32c1ea2ceb816d54c08cbe22e8dabf1b8eb24f6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bd2610b5c536c1e00ae127f83a3e03942f2b6c03
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045434"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858537"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>如何部署 Microsoft Teams
 
@@ -34,7 +35,7 @@ ms.locfileid: "42045434"
 ## <a name="recommended-path-to-teams"></a>建议的 Teams 部署途径
 
 
-我们建议在组织做好准备时按工作负载分阶段部署 Teams。 **你无需等待一个步骤完成再进行下一步。** 某些组织可能想要一次性部署所有 Teams 功能，而另一些组织则可能更喜欢分阶段方法。 下面是按我们的建议部署顺序列出的 Teams 工作负载：
+我们建议在组织做好准备时按工作负载分阶段部署 Teams。 **不必等到完成了一个步骤才开始下一个步骤。** 某些组织可能想要一次性部署所有 Teams 功能，而另一些组织则可能更喜欢分阶段方法。 下面是按我们的建议部署顺序列出的 Teams 工作负载：
 
 - [入门](get-started-with-teams-quick-start.md)
 - [聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)

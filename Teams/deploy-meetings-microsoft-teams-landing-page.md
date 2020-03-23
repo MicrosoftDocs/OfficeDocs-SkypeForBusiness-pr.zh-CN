@@ -12,16 +12,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a935041cd0cdcb35a28e315ab48eadf6263273
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 00dab47ce695d542dcd9b7a30a1b289d0a804dea
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826880"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858590"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -46,7 +47,7 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 
 若要获得最佳 Teams 体验，你的组织必须部署了 Exchange Online 和 SharePoint Online，并且你必须有适用于 O365 的已验证域（例如，*contoso.com*）。
 
-为了在整个组织中大规模部署会议，你应确保所有用户地点都有权访问 Internet，以便连接到 Office 365 服务。 你至少应确保以下常用端口在用户地点已向 Internet 开放：
+为了在整个组织中大规模部署会议，你应确保所有用户地点都有权访问 Internet，以便连接到 Office 365 服务。 至少应确保以下常用端口从用户的位置向 Internet 开放：-
 
 - 将使用 Teams 的客户端上用于传出连接的 TCP 端口 80 和 443。
 - 将使用 Teams 的客户端上用于传出连接的 UDP 端口 3478 到 3481。
@@ -110,7 +111,7 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="reporting"></a>报告
 
-使用活动报告来查看组织中的用户使用 Teams 的情况。 例如，如果某些用户尚未使用 Teams，他们可能不知道如何开始使用或了解如何使用 Teams 提高效率和改善协作。 组织可以使用活动报告来决定在何处优先安排培训和沟通工作。 
+使用活动报告来查看组织中的用户使用 Teams 的情况。 例如，如果某些用户尚未使用 Teams，他们可能不知道如何开始使用或了解如何使用 Teams 提高工作效率和改善协作。 组织可以使用活动报告来决定在何处优先安排培训和沟通工作。 
 
 
 | 询问你自己 | 操作 |
@@ -196,7 +197,7 @@ Teams 提供两种用于监视和排除通话质量问题的方法：[通话分�
 
 ### <a name="operate-your-meetings-service"></a>操作会议服务
 
-请务必了解 Teams 服务的整体运行状况，以便能够在发生影响服务的任何事件时主动提醒组织中的其他人。 [操作我的服务](1-drive-value-operate-my-service.md)文章提供了有关服务操作的深入指引。
+请务必了解 Teams 服务的整体运行状况，以便能够在发生影响此服务的任何活动时主动提醒组织中的其他人。 [操作我的服务](1-drive-value-operate-my-service.md)文章提供了有关服务操作的深入指引。
 
 |询问你自己|操作 |
 |------------|-------|
