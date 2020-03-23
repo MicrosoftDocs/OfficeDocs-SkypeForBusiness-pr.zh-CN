@@ -37,6 +37,7 @@
 ## [团队的动态成员资格概述](dynamic-memberships.md)
 ## [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 ## [在 Teams 中创建组织范围内的团队](create-an-org-wide-team.md)
+## [创建人员经理团队](create-manager-directs-teams.md)
 ## [管理团队和频道策略](teams-policies.md)
 ## [Teams 的敏感度标签](sensitivity-labels.md)
 ## [在 Teams 中管理私人团队的发现](manage-discovery-of-private-teams.md)
