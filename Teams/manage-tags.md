@@ -16,17 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中管理组织中如何使用标记。
-ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551039"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928445"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 团队中的标记
-
-> [!NOTE]
-> 尚未在 Microsoft 团队管理中心中看到此功能？ 当前正在推出此功能，可能在贵组织中还不可用。 若要保持在即将到来的团队功能上，请查看[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
 
 Microsoft 团队中的标记使用户能够与团队中的一部分人员进行通信。 可将标记添加到一个或多个团队成员，以便轻松地与用户的正确子集连接。 团队所有者和成员（如果为其启用了该功能）可以向某个人员添加一个或多个标记。 然后，这些标记可在频道发布中由团队的任何人 @mentions，或者仅与分配了该标记的人员开始对话。
 

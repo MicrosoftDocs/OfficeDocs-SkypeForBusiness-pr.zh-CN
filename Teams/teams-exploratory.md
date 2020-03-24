@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2629f855485f0301f6a7fc576cd17a9e1c1f49d
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398170"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892312"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -53,7 +54,7 @@ ms.locfileid: "42398170"
 
 ## <a name="whos-eligible"></a>谁有资格使用？
 
-只要用户拥有托管 AAD 域电子邮件地址，并且当前尚未分配 Teams 许可证，则他们有资格获得此体验。 例如，如果用户拥有 Office 365 商业版（不包括 Teams），则他们符合获取 Teams Exploratory 体验的条件。
+只要用户拥有托管 AAD 域电子邮件地址，且当前没有/尚未分配有 Teams 许可证，则有资格运行此体验。 例如，如果用户拥有 Office 365 商业版（不包括 Teams），则他们符合获取 Teams Exploratory 体验的条件。
 
 必须允许用户注册应用和试用版（在 Microsoft 365 管理中心中）。 有关详细信息，请参阅本文后面部分的[管理 Teams Exploratory 体验](#manage-the-teams-exploratory-experience)。 
 
@@ -78,7 +79,7 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>阻止用户安装试用版应用和服务
 
-可以关闭用户安装试用版应用和服务的功能，这将阻止用户运行 Teams Exploratory 体验。
+可以禁用用户安装试用版应用和服务的功能，这会阻止用户运行 Teams 探索体验。
 
 1. 从 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **设置**，选择**服务**，然后选择**用户自有应用和服务**。
 
@@ -155,7 +156,7 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 体验持续多长时间？
 
-在下一个企业协议周年纪念日或在 2021 年 1 月或之后续订前，可免费使用 Microsoft Teams Exploratory 体验。 届时，Microsoft Exploratory 体验许可证的最终用户需要迁移到包含 Teams 的付费许可证。 此后启动的任何 Microsoft Exploratory 体验许可证将始终免费使用，直到下一个周年纪念日或续订周期为止。 
+在下一个企业协议周年纪念日或在 2021 年 1 月或之后续订前，可免费使用 Microsoft Teams Exploratory 体验。 届时，Microsoft Exploratory 体验许可证的最终用户需要迁移到包含 Teams 的付费许可证。 此后启动的任何 Microsoft 探索体验许可证将一直不会收取额外费用，直到下一个周年纪念日或续订周期。 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>如果最终用户刚好在我的周年纪念或续订日期前启动 Microsoft Teams Exploratory 体验，会发生什么情况？
 
