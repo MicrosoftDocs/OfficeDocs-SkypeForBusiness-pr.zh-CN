@@ -60,7 +60,7 @@
 | 3/10/2020 | ["呼叫质量" 仪表板中可用的尺寸和测量](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
 | 3/10/2020 | [联系 PSTN 服务支持](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 修改内容 |
 | 3/10/2020 | [你的转网订单的状态是什么？](/MicrosoftTeams/phone-number-calling-plans/port-order-status) | 修改内容 |
-| 3/10/2020 | [在 Microsoft Teams 中设置包含在邀请中的电话号码](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 修改日期 |
+| 3/10/2020 | [在 Microsoft Teams 中设置包含在邀请中的电话号码](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 修改内容 |
 | 3/10/2020 | [面向 Microsoft Teams 用户的讲师引导式培训和视频](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修改内容 |
 | 3/10/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
 | 3/10/2020 | [在 Microsoft Teams 中管理设备](/MicrosoftTeams/device-management) | 修改内容 |
@@ -78,6 +78,61 @@
 | 3/13/2020 | [面向 Microsoft Teams 用户的讲师引导式培训和视频](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修改内容 |
 | 3/13/2020 | [为 Microsoft Teams 准备组织的网络](/MicrosoftTeams/prepare-network) | 修改内容 |
 | 3/13/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
+
+
+## <a name="week-of-march-16-2020"></a>2020年3月16日的第几周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 3/17/2020 | [Microsoft 团队会议室需求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 3/17/2020 | [适用于团队的电话和设备](/MicrosoftTeams/teams-ip-phones) | 修改内容 |
+| 3/17/2020 | [使用 Power BI 分析 Microsoft 团队的 CQD 数据](/MicrosoftTeams/cqd-power-bi-query-templates) | 修改内容 |
+| 3/17/2020 | [在 Microsoft Teams 中组织团队的最佳做法](/MicrosoftTeams/best-practices-organizing) | 修改内容 |
+| 3/17/2020 | [Microsoft Teams 中的聊天、团队、频道和应用](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 修改内容 |
+| 3/17/2020 | [管理免费的 Office 365 E1 试用版](/MicrosoftTeams/e1-trial-license) | 修改内容 |
+| 3/17/2020 | [在 Microsoft Teams 中创建首批团队和频道](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | 修改内容 |
+| 3/17/2020 | [开始使用 Teams 模板](/MicrosoftTeams/get-started-with-teams-templates) | 修改内容 |
+| 3/17/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
+| 3/17/2020 | [GOV、EDU 和非营利性组织](/MicrosoftTeams/teams-add-on-licensing/gov-edu-and-nonprofit-organizations) | 修改内容 |
+| 3/17/2020 | [仅 Teams 模式注意事项](/MicrosoftTeams/teams-only-mode-considerations) | 修改内容 |
+| 3/17/2020 | [使用 Advisor for Teams（预览版）帮助你推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 修改内容 |
+| 3/18/2020 | [管理免费的 Office 365 E1 试用版](/MicrosoftTeams/e1-trial-license) | 修改内容 |
+| 3/18/2020 | [管理 Microsoft 团队中的策略程序包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
+| 3/18/2020 | [工具和研讨会 - 规划、交付和采用 Microsoft Teams](/MicrosoftTeams/planning-workshop-practical-guide) | 修改内容 |
+| 3/18/2020 | [使用 CQD 数据在 Power BI 中查看 Microsoft 团队的利用率](/MicrosoftTeams/cqd-teams-utilization-report) | 修改内容 |
+| 3/18/2020 | [常见问题解答：支持远程工作人员](/MicrosoftTeams/faq-support-remote-workforce) | 修改内容 |
+| 3/18/2020 | [如何部署 Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams) | 修改内容 |
+| 3/18/2020 | [Microsoft Teams 管理培训](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
+| 3/18/2020 | [Microsoft Teams 中的会议](/MicrosoftTeams/tutorial-meetings-in-teams) | 修改内容 |
+| 3/18/2020 | [分配 Teams 许可证](/MicrosoftTeams/assign-teams-licenses) | 修改内容 |
+| 3/18/2020 | [Microsoft Teams 中的会议](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 修改内容 |
+| 3/18/2020 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 3/18/2020 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改日期 |
+| 3/18/2020 | [Microsoft Teams 的最终用户培训](/MicrosoftTeams/enduser-training) | 修改时间 |
+| 3/18/2020 | [管理适用于美国政府的 Office 365 G1 免费试用版](/MicrosoftTeams/g1-trial-license) | 修改内容 |
+| 3/18/2020 | [在中国获取 Microsoft Teams for Android](/MicrosoftTeams/get-teams-android-in-china) | 修改内容 |
+| 3/18/2020 | [面向 Microsoft Teams 用户的讲师引导式培训和视频](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修改内容 |
+| 3/18/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 3/18/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
+| 3/18/2020 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
+| 3/18/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/teams-edu-licensing) | 修改内容 |
+| 3/18/2020 | [管理 Microsoft Teams Exploratory 体验](/MicrosoftTeams/teams-exploratory) | 修改内容 |
+| 3/18/2020 | [30个团队](/MicrosoftTeams/teams-in-30-workshops) | 修改内容 |
+| 3/18/2020 | [Microsoft Teams 培训](/MicrosoftTeams/training-microsoft-teams-landing-page) | 修改内容 |
+| 3/19/2020 | [常见问题解答：支持远程工作人员](/MicrosoftTeams/faq-support-remote-workforce) | 修改内容 |
+| 3/19/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
+| 3/19/2020 | [向学校的大型用户组分配策略](/MicrosoftTeams/batch-policy-assignment-edu) | 修改内容 |
+| 3/19/2020 | [Teams 中的排班](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 修改内容 |
+| 3/20/2020 | [开始使用 Teams 零售模板](/MicrosoftTeams/get-started-with-retail-teams-templates) | 修改时间 |
+| 3/20/2020 | [通过 Microsoft Endpoint Configuration Manager 使用 MSI 安装 Microsoft Teams](/MicrosoftTeams/msi-deployment) | 修改内容 |
+| 3/20/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 3/20/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
+| 3/20/2020 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
+| 3/20/2020 | [使用 Advisor for Teams（公共预览版）帮助你推出 Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | 修改内容 |
+| 3/20/2020 | [创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 3/20/2020 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 3/20/2020 | [管理 Microsoft Teams Exploratory 体验](/MicrosoftTeams/teams-exploratory) | 修改内容 |
 
 
 ## <a name="week-of-february-17-2020"></a>2020年2月17日的周
@@ -100,7 +155,7 @@
 
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
-| 2/25/2020 | [通过 Microsoft 终结点配置管理器使用 MSI 安装 Microsoft 团队](/MicrosoftTeams/msi-deployment) | 修改内容 |
+| 2/25/2020 | [通过 Microsoft Endpoint Configuration Manager 使用 MSI 安装 Microsoft Teams](/MicrosoftTeams/msi-deployment) | 修改内容 |
 | 2/25/2020 | PowerShell 脚本示例 - 帮助清理 Microsoft Teams 部署 | 删除内容 |
 | 2/25/2020 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
 | 2/25/2020 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
@@ -121,9 +176,9 @@
 | 2/27/2020 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
 | 2/27/2020 | [Teams 的分配](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | 修改内容 |
 | 2/27/2020 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
-| 2/27/2020 | [获取中国适用于 Android 的 Microsoft 团队](/MicrosoftTeams/get-teams-android-in-china) | 修改内容 |
-| 2/27/2020 | [Microsoft 团队的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
-| 2/27/2020 | [通过 Microsoft 终结点配置管理器使用 MSI 安装 Microsoft 团队](/MicrosoftTeams/msi-deployment) | 修改内容 |
+| 2/27/2020 | [在中国获取 Microsoft Teams for Android](/MicrosoftTeams/get-teams-android-in-china) | 修改内容 |
+| 2/27/2020 | [Microsoft Teams 的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
+| 2/27/2020 | [通过 Microsoft Endpoint Configuration Manager 使用 MSI 安装 Microsoft Teams](/MicrosoftTeams/msi-deployment) | 修改内容 |
 | 2/27/2020 | [适用于团队的电话和设备](/MicrosoftTeams/teams-ip-phones) | 修改内容 |
 | 2/27/2020 | [使用 Microsoft 团队管理员角色管理团队](/MicrosoftTeams/using-admin-roles) | 修改内容 |
 | 2/28/2020 | [联系 PSTN 服务支持](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 修改内容 |

@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639459"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42935258"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络 
 
 ## <a name="network-requirements"></a>网络要求
 
-如果您已经针对[Office 365 优化了](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)您的网络，您可能已经准备好参加 Microsoft 团队。 在任何情况下，在开始团队推出之前，请检查以下事项：
+如果您已经针对[Office 365 优化了](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)您的网络，您可能已经准备好参加 Microsoft 团队。 在任何情况下，尤其是当你作为第一个 Office 365 工作负荷快速推出团队以支持**远程工作人员**时-请先检查以下内容，然后再开始团队推出：
 
 1.  您的所有位置是否都有 internet 访问权限（以便他们可以连接到 Office 365）？ 除了普通 web 流量之外，请确保已针对团队中的媒体打开以下内容：
 
@@ -75,7 +75,7 @@ ms.locfileid: "42639459"
 <thead>
 <tr class="header">
 <th><strong>网络优化任务</strong></th>
-<th><strong>详细信息</strong></th>
+<th><strong>Details</strong></th>
 </tr>
 </thead>
 <tbody>
