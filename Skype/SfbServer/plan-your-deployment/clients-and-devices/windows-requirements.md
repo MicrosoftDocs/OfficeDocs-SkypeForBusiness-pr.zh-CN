@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 摘要：在规划 Skype for Business Server 时，请查看 Windows 客户端支持要求。
-ms.openlocfilehash: 0a556b2330427683c4d00577895f43f3cfede6d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027953"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928235"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 客户端要求和软件支持
  
@@ -37,7 +37,7 @@ ms.locfileid: "42027953"
 
 |**系统组件**|**支持的版本**|
 |:-----|:-----|
-|Windows 操作系统  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Windows 7 操作系统  <br/> Windows Server 2008 R2 或更高版本（带最新 service pack）  <br/> **注意：** 适用于 Skype for business 的 skype for Business 和联机会议外接程序在 Windows Vista 或 Windows XP （任何版本）上不受支持。 <br/> |
+|Windows 操作系统  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 或更高版本（带最新 service pack）  <br/> **注意：** 适用于 Skype for business 的 skype for Business 和联机会议外接程序在 Windows Vista 或 Windows XP （任何版本）上不受支持。 <br/> |
 |安装和更新  <br/> |管理员权限  <br/> |
 |浏览器  <br/> |Microsoft Edge  <br/> Internet Explorer 11 Internet 浏览器  <br/>  Internet Explorer 10 Internet 浏览器 <br/> Internet Explorer 9 Internet 浏览器  <br/> Internet Explorer 8 Internet 浏览器  <br/> Internet Explorer 7 Internet 浏览器  <br/> Mozilla Firefox Web 浏览器  <br/>  Google Chrome web 浏览器  <br/>**注意：** 如果你正在使用 Skype for Business 与 Microsoft Exchange Online，并且你的组织已部署了身份验证 HTTP 代理，则需要 Internet Explorer 8 或更高版本。           |
 |Microsoft Office 集成  <br/> | Outlook 2010 或更高版本 |
