@@ -17,27 +17,27 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851c661a2a75a3dfe82212b896041ddd2516c678
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 51ca2d8b6723be408adaaa53499efed2338a1f73
+ms.sourcegitcommit: 7455ae664d0e2d2915557764b26d8c8f1bf92a96
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824830"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42945902"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>创建商业语音用户并提供许可证，然后为其分配电话号码
 
-使用 :::no-loc text="Microsoft 365 Business Voice":::，需要一个拥有 :::no-loc text="Microsoft 365 Business Voice with SMS"::: 许可证的 :::no-loc text="Microsoft 365"::: 账户。 如果拥有账户和许可证，可向其分配电话号码。
+使用 :::no-loc text="Microsoft 365 Business Voice":::，需要一个拥有 :::no-loc text="Microsoft 365 Business Voice"::: 许可证的 :::no-loc text="Microsoft 365"::: 账户。 如果拥有账户和许可证，可向其分配电话号码。
 
 ## <a name="create-and-license-users"></a>创建用户并向其授予许可
 
 按照“[将用户单独或批量添加到 :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users)” 中的步骤。
 
 > [!NOTE]
-> 在“**分配产品许可证**”窗格中，选择 **:::no-loc text="Microsoft 365 Business Voice with SMS":::**。
+> 在“**分配产品许可证**”窗格中，选择 **:::no-loc text="Microsoft 365 Business Voice":::**。
 
 ## <a name="assign-phone-numbers-to-users"></a>向用户分配电话号码
 
-创建用户并向其分配 :::no-loc text="Microsoft 365 Business Voice with SMS"::: 许可证后，可以向他们分配电话号码。 对于需要拨打或接听外部电话号码的用户，需要一个未分配的电话号码。 如果没有足够的未分配电话号码，请参阅本文后面的[获取更多电话号码](#get-more-phone-numbers)。
+创建用户并向其分配 :::no-loc text="Microsoft 365 Business Voice"::: 许可证后，可以向他们分配电话号码。 对于需要拨打或接听外部电话号码的用户，需要一个未分配的电话号码。 如果没有足够的未分配电话号码，请参阅本文后面的[获取更多电话号码](#get-more-phone-numbers)。
 
 1. 转到 https://admin.teams.microsoft.com。
 2. 输入电话号码请求的名称和说明。
