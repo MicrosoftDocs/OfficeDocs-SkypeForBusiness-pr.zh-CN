@@ -18,12 +18,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的策略程序包。
-ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
-ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
+ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42857986"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42942436"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
 
@@ -45,7 +45,8 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 |教育版（主要学校学生）   |创建一组适用于主要学生的策略和策略设置。|
 |教育版（次要学校学生）    |创建一组适用于次要学生的策略和策略设置。         |
 |教育版（教师）    |创建一组适用于教师的策略和策略设置。      |
-|商业语音 |创建包含商业语音体验应用的应用安装策略。|
+|中小型企业用户（企业语音） |创建包含商业语音体验应用的应用安装策略。|
+|中小型企业用户（无业务语音） |此策略程序包旨在创建一组策略，并将这些设置应用到中小型企业用户，无需任何商业语音功能。|
 |公共安全专员   |创建一组策略和策略设置，这些策略设置适用于您的组织中的公共安全专员。|
 |医疗保健（临床工作者）  |创建一组策略和策略设置，为临床工作者（如注册的护士、费用护理、医生和社会工作者）提供对聊天、通话、班次管理和会议的完全访问权限。 |
 |医疗保健（信息工作者）  |创建一组策略和策略设置，提供信息工作者，如 IT 人员、informatics 员工、财务人员和合规性监察官、对聊天、通话和会议的完全访问权限。|
@@ -105,7 +106,7 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 2. 单击要编辑的策略。 链接到策略包的策略与策略包的名称相同。
 3. 进行所需的更改，然后单击 "**保存**"。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 **分配策略包时收到错误**
 
