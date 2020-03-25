@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9587244483bf220324a24396e5719843ba0ebc3c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834792"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928255"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
@@ -59,7 +59,12 @@ Teams 基于 Office 365 组、Microsoft Graph 以及与其余 Office 365 产品�
 
 ## <a name="managing-teams"></a>管理团队
 
-作为管理员，你将通过 Microsoft Teams 管理中心来管理团队。 若要了解详细信息：
+作为管理员，你将通过 Microsoft Teams 管理中心来管理团队。 要快速定位，请观看“使用 Teams 管理中心管理 Teams”视频（3:03 分钟）：
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+
+要了解详细信息：
+
 - [使用 Teams 管理员角色管理 Teams](using-admin-roles.md)
 - [在 Teams 管理中心中管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [在过渡到全新的 Teams 管理中心期间管理 Teams](manage-teams-in-modern-portal.md)

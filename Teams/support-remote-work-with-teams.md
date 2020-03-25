@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892332"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928405"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -71,12 +71,14 @@ ms.locfileid: "42892332"
 
    - 不要错过[开始使用 Teams 进行远程学习](remote-learning-edu.md)。
 
-2. 除 [Office 365 E1 试用版](e1-trial-license.md) 和 [Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)以外，如果需要免费团队许可证，[Teams Exploratory](teams-exploratory.md)也可是一种选项。
+2. 除 [Office 365 E1 试用版](e1-trial-license.md) 和 [Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)以外，如果需要免费团队许可证，[Teams 探索性体验](teams-exploratory.md)也可是一种选项。
 
 1. 确保员工可充分访问 Internet 并具有足够的带宽来使用 Teams。 使用“[为 Teams 准备组织的网络](prepare-network.md)”中的指南，了解如何进行此操作。
 
    - 带宽受限将会影响 Teams 会议的音质。 为确保在低带宽条件下获得最佳会议体验，鼓励用户限制视频，并使用 PSTN 进行通话和会议音频。 
 
+   - 请阅读这篇即时博客（2020 年 3 月 6 日）：[如何快速优化远程办公人员的 Office 365 流量并降低你的基础结构上的负载](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)。
+   
    - 如果你在中国，请查阅 [Office 365 针对中国用户的全局租户性能优化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)。
 
    - 如果需要有关解决或修复通话或会议质量方面问题的帮助，请遵循本文底部“[已知问题 - 中国：拨入 Skype for Business 或 Teams 会议 ID](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)”中的指南。
