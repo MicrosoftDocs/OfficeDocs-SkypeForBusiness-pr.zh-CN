@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 阅读本主题，了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928435"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955721"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -175,7 +175,8 @@ Microsoft 建议你通过生成证书签名请求（CSR）来请求 SBC 的证�
 - 转到 Daddy
 - GeoTrust
 - Verisign，Inc。 
-- Starfield 
+- SSL.com
+- Starfield
 - 适用于 Microsoft 的 Symantec 企业版移动根 
 - SwissSign
 - Thawte 时间戳 CA

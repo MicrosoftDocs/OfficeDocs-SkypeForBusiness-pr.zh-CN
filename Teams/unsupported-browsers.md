@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解团队如何在不受支持的浏览器中支持音频和视频。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1dfd2ba704aa2428555dd126c506e1673a120b72
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837252"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955711"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft 团队会议位于不支持的浏览器上
 
@@ -43,7 +43,8 @@ ms.locfileid: "41837252"
 - 如果通话中断，会议不会自动重新连接。
 - 用户无法启动会议。
 
+有关团队中的浏览器支持的详细信息，请参阅[团队的限制和规范](/microsoftteams/limits-specifications-teams#browsers)。
+
 ## <a name="related-topics"></a>相关主题
 
 - [在不受支持的浏览器上加入团队会议](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
-- [Teams 限制和规范](/microsoftteams/limits-specifications-teams#browsers)
