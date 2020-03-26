@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: HT
+ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558562"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978414"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -64,13 +64,13 @@ ms.locfileid: "42558562"
 |**参加者可见性**       |**Teams 制作**  |**外部应用或设备制作**  |
 |------------------------------|-----------------|----------------------|
 |公共（匿名用户）      |  是            |  否                  |
-|来宾用户                   |  否<sup>1</sup> |  否                  |
-|联盟公司中的所有人 |  否<sup>2</sup> |  否                  |
+|来宾用户                   |  是            |  否                  |
+|联盟公司中的所有人 |  是<sup>1</sup>|  否                  |
 |公司中的所有人           |  是            |  是                 |
 |指定组/人员      |  是            |  是                 |
 
-<sup>1</sup> 如果使用**组织范围内**选项设置实时事件，可观看实时事件。<br>
-<sup>2</sup> 只可作为匿名用户观看实时事件。
+只有<sup>1</sup>个联盟的与会者才能通过 & 组的人员进行邀请 <br>
+
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 实时事件和Skype 会议直播
@@ -81,7 +81,7 @@ ms.locfileid: "42558562"
 |---------|---------|---------|---------|
 |最大受众规模 |10,000 名与会者 |10,000 名与会者<sup>1</sup> |10,000 名与会者<sup>1</sup> |
 |实时事件最大持续时间 |4 小时 |4 小时 |4 小时 |
-|每 Office 365 租户最大并发实时事件数量 |15  | 15  | 15  |
+|每 Office 365 租户最大并发实时事件数量 |岁  | 15  | 15  |
 |创建实时事件 |   Skype 会议直播门户 |团队、Yammer （通过 Teams） | Teams、Yammer （通过团队），Stream |
 |受众参与 – Yammer |&#x2714; |&#x2714;（集成体验） |&#x2714;（集成体验） |
 |受众参与 – 已审核问答 |&#x2714;  |&#x2714; |&#x2714; |

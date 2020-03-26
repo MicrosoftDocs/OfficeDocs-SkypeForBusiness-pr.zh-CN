@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用 "批处理策略分配" 为远程学校（teleschool、长途）批量为您的教育机构中的大型用户分配策略。
 f1keywords: ''
-ms.openlocfilehash: 5e3ee25bf4fadea595fc224b2944a12c279f9c59
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 7e297b6a4b99162fb50564d4f552a06f0dc41a10
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892272"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978514"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>向学校的大型用户组分配策略
 
@@ -159,9 +159,9 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 ```
 
-## <a name="faq"></a>常见问题解答
+## <a name="faq"></a>常见问题
 
-**我想要确保学生、教职员工和教育版的所有用户都自动获得分配的许可证。如何执行此操作？**
+**我想要确保学生、教职员工和教育版的所有用户都自动获得分配给您的策略。如何执行此操作？**
 
 团队产品团队正在执行工作以支持向安全组分配策略。 此时，你将能够为学生和教师创建组，然后为这些组创建相应的策略。 请注意，显式用户分配（如使用本教程分配的策略）将覆盖从组继承的策略。 如果支持此功能，我们将提供更多有关如何使用策略分配到组和更新用户的说明，以确保他们获得继承的组策略。
 

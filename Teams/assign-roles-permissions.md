@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826100"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978454"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 =================================================
@@ -48,9 +48,7 @@ ms.locfileid: "41826100"
 |        ***删除专用频道**         |    是     |    否|
 |          **添加成员**          |  是<sup>3</sup>   |     否<sup>4</sup>    |
 |          **请求添加成员**          |  不适用   |     是<sup>5</sup>     |
-|           **添加选项卡**            |    是     |    是<sup>2</sup>|
-|        **添加连接器**         |    是     |    是<sup>2</sup>|
-|           **添加聊天机器人**            |    是     |    是<sup>2</sup>|
+|           **添加应用**            |    是     |    是<sup>2</sup>|
 
 <sup>1</sup> 团队所有者可创建团队，除非他们受到限制。 如下[创建团队的权限](#permissions-to-create-teams)。<br>
 <sup>2</sup> 所有者可以在团队级别关闭这些项目，在这种情况下，成员将不能访问它们。<br>

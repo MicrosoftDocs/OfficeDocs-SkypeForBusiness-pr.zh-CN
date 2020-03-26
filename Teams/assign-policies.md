@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解在 Microsoft 团队中向用户分配策略的不同方法。
 f1keywords: ''
-ms.openlocfilehash: 0f0ce566eb395e3bf3722149797908599091bc2a
-ms.sourcegitcommit: 891ba3670ccd16bf72adee5a5f82978dc144b9c1
+ms.openlocfilehash: a3946ab7296603822655ac115ae5826f3f670cea
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42691192"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978524"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft 团队中的用户分配策略
 
 > [!NOTE]
-> **本文中讨论的 Microsoft 团队功能之一是 "预览" 中的 "[对组的策略分配](#assign-a-policy-to-a-group)"。**
+> **本文中讨论的 Microsoft 团队功能之一是 "[对组的策略分配](#assign-a-policy-to-a-group)"，当前仅在有限预览版中可用。此功能的 Powershell cmdlet 位于预发布团队 PowerShell 模块中。**
 
 作为管理员，你可以使用策略来控制你的组织中的用户可以使用的团队功能。 例如，有一些通话策略、会议策略和邮件策略，只需命名。
 
@@ -60,7 +60,7 @@ ms.locfileid: "42691192"
 
 下面概述了为用户分配策略的方法和建议的每种方案。 单击链接以了解详细信息。
 
-|执行此操作  |If .。。  | 使用 .。。
+|要执行的操作  |If .。。  | 使用 .。。
 |---------|---------|----|
 |[为单个用户分配策略](#assign-a-policy-to-individual-users)    | 您是新的团队新手，只需将一个或几个策略分配给少数几个用户。 |Skype for Business Online PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet
 | [分配策略包](#assign-a-policy-package)   | 您需要将多个策略分配给组织中具有相同或类似角色的特定用户组。 例如，将教育版（教师）策略包分配给你的学校教师，让他们能够完全访问聊天、通话和会议以及教育（次要学校学生）策略包以限制某些功能，如私人通话。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
@@ -77,8 +77,8 @@ ms.locfileid: "42691192"
 
 若要为用户分配策略，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后单击 "用户"。
-2. 通过单击用户名左侧的用户选择用户，然后单击 "**编辑设置**"。
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
 3. 选择要分配的策略，然后单击 "**应用**"。
 
 若要一次为多达20名用户分配策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
@@ -87,8 +87,8 @@ ms.locfileid: "42691192"
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "策略" 页面。
 2. 通过单击策略名称的左侧，选择要分配的策略。
-3. 选择 "**管理用户**"。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对要添加的每个用户重复此步骤。
+3. 选择“管理用户”****。
+4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对想要添加的每一个用户重复此步骤。
 5. 添加完用户后，请选择 "**保存**"。
 
 ### <a name="using-powershell"></a>使用 PowerShell
@@ -197,7 +197,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="assign-a-policy-to-a-group"></a>为组分配策略
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+**对组的策略分配当前仅在有限预览中可用。此功能的 cmdlet 位于预发布团队 PowerShell 模块中。**
 
 通过向组分配策略，你可以为一组用户（如安全组或组织单位）分配策略。 根据优先级规则，策略分配将传播到组的成员。 将成员添加到组或从组中删除成员后，将相应地更新其继承的策略分配。
 
