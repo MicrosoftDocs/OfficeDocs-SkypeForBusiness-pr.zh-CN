@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
+ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983809"
+ms.locfileid: "43027672"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>面向教育版管理员的 Microsoft Teams 资源
 ==============================================
@@ -36,9 +36,9 @@ ms.locfileid: "42983809"
 
 | |  |
 |---------|---------|
-|[提示和技巧手册](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![屏幕](media/edu-adoption-get-started.png)    |
 |海报-[可自定义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)和[打印-就绪](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![标牌的屏幕截图](media/edu-adoption-posters.png)     |[张](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![讲义的屏幕截图](media/edu-adoption-handouts.png)|
 |[宣传](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![传单的屏幕截图](media/edu-adoption-flyers.png)   |[书籍会](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![书籍广告的屏幕截图](media/edu-adoption-book-adverts.png)         |
+|[提示和技巧手册](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![屏幕](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>数字资产
 
