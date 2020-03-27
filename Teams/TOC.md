@@ -640,6 +640,7 @@
 ### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 
 ## [Teams 政府版](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [支持远程工作人员 (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [管理 Office 365 G1 试用版优惠](g1-trial-license.md)
 ### [Microsoft 365 政府版计划 - GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 政府版计划 - GCC（高）](plan-for-government-gcc-high.md)
