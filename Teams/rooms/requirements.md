@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728931"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982115"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
@@ -48,7 +48,7 @@ ms.locfileid: "42728931"
 
 [会议室系统产品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)中提供了所有当前的 Microsoft 团队聊天室设备和捆绑包。
 
-  |控制台|Processor|RAM|磁盘|
+  |控制台|处理器|RAM|磁盘|
   |:-----|:-----|:-----|:-----|
   |[Crestron Flex UC-M130](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|核心 i5|8 GB |128 GB |
   |[Crestron Flex UC-B130](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|核心 i5|8 GB |128 GB |
@@ -63,6 +63,7 @@ ms.locfileid: "42728931"
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|核心 i5|8 GB|128 GB|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|核心 i5|8 GB |128 GB |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|核心 i5|8 GB |128 GB |
+  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|核心 i5|8 GB|128 GB|
   ||||||
 
 > [!NOTE]
@@ -71,7 +72,7 @@ ms.locfileid: "42728931"
 
 **支持用于停靠样式的系统的 Surface Pro 平板电脑**
 
-  |电脑|Processor|RAM|磁盘|
+  |电脑|处理器|RAM|磁盘|
   |:-----|:-----|:-----|:-----|
   |Surface Pro 6| 核心 i5 |16 GB 或 8 GB |128 GB 或更高 |
   |Surface Pro </br>（第五代） |核心 i5 |8 GB 或 4 GB |128 GB 或更高 |
