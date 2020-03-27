@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978414"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983858"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -81,7 +81,8 @@ ms.locfileid: "42978414"
 |---------|---------|---------|---------|
 |最大受众规模 |10,000 名与会者 |10,000 名与会者<sup>1</sup> |10,000 名与会者<sup>1</sup> |
 |实时事件最大持续时间 |4 小时 |4 小时 |4 小时 |
-|每 Office 365 租户最大并发实时事件数量 |岁  | 15  | 15  |
+|实时事件中演示者和发生器的最大数量 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|每 Office 365 租户最大并发实时事件数量 |岁  | 岁  | 岁  |
 |创建实时事件 |   Skype 会议直播门户 |团队、Yammer （通过 Teams） | Teams、Yammer （通过团队），Stream |
 |受众参与 – Yammer |&#x2714; |&#x2714;（集成体验） |&#x2714;（集成体验） |
 |受众参与 – 已审核问答 |&#x2714;  |&#x2714; |&#x2714; |
@@ -104,7 +105,9 @@ ms.locfileid: "42978414"
 |制作者直播后受众报告 |&#x2714; |&#x2714; |X |
 |受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> 设定的限制可能会更改。
+<sup>1</sup> 设定的限制可能会更改。<br/>
+<sup>2</sup>在实时事件中，你最多可以有250个演示者和发生器，但仅在列表中显示最后10个分支。
+
 
 ## <a name="regional-availability"></a>区域可用性
 可在全球中的多个区域实用 Teams 实时事件。 以下信息显示事件团队成员和参与者的空闲时间。 

@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2f0a0d585b7bf21175ebf8dd0ab31e16133e11
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285844"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983809"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>面向教育版管理员的 Microsoft Teams 资源
 ==============================================
 
-## <a name="adoption-content"></a>采纳内容
+## <a name="adoption-content"></a>采用内容
 
 通过电子邮件、海报、讲义以及您现在可以免费使用的更多资源，让您的学校兴奋于 Microsoft 团队。 您还可以通过 "横幅"、"Gif" 和 "视频" 的新数字工具包，在校园内在线和学生间联系。 立即开始使用！
 
@@ -36,6 +36,7 @@ ms.locfileid: "42285844"
 
 | |  |
 |---------|---------|
+|[提示和技巧手册](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![屏幕](media/edu-adoption-get-started.png)    |
 |海报-[可自定义](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)和[打印-就绪](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![标牌的屏幕截图](media/edu-adoption-posters.png)     |[张](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![讲义的屏幕截图](media/edu-adoption-handouts.png)|
 |[宣传](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![传单的屏幕截图](media/edu-adoption-flyers.png)   |[书籍会](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![书籍广告的屏幕截图](media/edu-adoption-book-adverts.png)         |
 
