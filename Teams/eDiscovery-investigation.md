@@ -13,49 +13,38 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解你需要执行电子数据展示时（例如，你需要提交所有电子方式存储的信息用于法律程序时）要完成的事项。
+description: 了解当你需要执行电子数据展示时需要执行的操作，例如当你需要提交所有电子存储的法律程序存储信息时需要执行的操作。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85bef224966d15a6c383163d9ac4a5dd5ed126c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 315ec351450224dc8d5b98dc0d974b64573bc0ab
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833792"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033266"
 ---
-<a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
-============================
+# <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
 大型企业经常面临高处罚的法律诉讼，要求提交所有电子存储的信息（ESI）。
 
-所有团队1:1 或群组聊天将被记录到各自的用户的邮箱中，并且所有标准信道消息都将记录到代表团队的组邮箱。 在标准频道中上载的文件包含在 SharePoint Online 和 OneDrive for business 的电子数据展示功能下方。
+所有团队1:1 或群组聊天将被记录到各自的用户的邮箱中，并且所有标准信道消息都将记录到代表团队的组邮箱。 在标准频道中上载的文件包含在 SharePoint Online 和 OneDrive for business 的电子数据展示功能下方。 电子数据展示[专用频道](private-channels.md)中的消息和文件与在标准频道中的工作方式不同。 若要了解详细信息，请参阅[电子数据展示专用频道](#ediscovery-of-private-channels)。
 
 > [!NOTE]
-> 电子数据展示[专用频道](private-channels.md)中的消息和文件与在标准频道中的工作方式不同。 若要了解详细信息，请参阅[电子数据展示专用频道](#ediscovery-of-private-channels)。
+> 目前，我们不支持仅在来宾用户是1:1 或1： N 聊天的参与者的方案中聊天消息的电子数据展示。 这些类型的聊天也称为*来宾到来宾*聊天，因为它们不包括家庭租户用户。
 
-1.  若要使用 Microsoft 团队内容执行电子数据展示调查，请查看[此](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)链接中的步骤1。
+1. 若要使用 Microsoft 团队内容执行电子数据展示调查，请查看[此](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)链接中的步骤1。
 
-2.  Microsoft 团队数据将在 Excel 电子数据展示导出输出中显示为即时消息或对话，你可以装入。Outlook 中的 PST 以查看导出后的邮件。
+2. Microsoft 团队数据将在 Excel 电子数据展示导出输出中显示为即时消息或对话，您可以在 Outlook 中打开该 PST 以查看这些邮件的导出内容。
 
-    装载团队的 .PST 时，请注意，所有对话均保留在“对话历史记录”下的“团队聊天”文件夹中。 消息的标题与团队和频道一致。 查看下面的图像，您可以从 messaged 中看到此消息，这些信息来自于制造规范团队的项目7标准频道。
+    查看团队的 PST 时，请注意所有对话都保存在 "对话历史记录" 下的 "工作组聊天" 文件夹中。 消息的标题与团队和频道一致。 查看下面的图像，您可以从 messaged 中看到此消息，这些信息来自于制造规范团队的项目7标准频道。
 
     ![Outlook 中的用户邮箱中的工作组聊天文件夹的屏幕截图](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
-3.  若要查看用户邮箱中的私人聊天，他们还位于 "对话历史记录" 下的团队聊天文件夹内。
-
-## <a name="ediscovery-of-guest-to-guest-chats"></a>电子数据展示的来宾到来宾聊天
-
-目前，对于只有来宾参与1:1 或1： N 聊天的方案，我们不支持这些聊天消息的电子数据展示。 
-
-如果没有邮箱，来宾至来宾聊天（没有家乡租户用户的1xN 聊天）将不会被编制索引，因此不会包含在电子数据展示中。 为了方便电子数据展示用于来宾到来宾聊天，创建了一个基于云的邮箱（或幻影邮箱）来存储1xN 数据。 团队聊天数据存储在基于云的邮箱中后，将为电子数据展示和合规性内容搜索编制索引。
-
-下图显示了电子数据展示如何处理没有邮箱的来宾到来宾聊天。
-
-![来宾至来宾-无邮箱聊天](media/conduct-an-ediscovery-investigation-of-content-in-microsoft-teams-image2.png)
+3. 若要查看用户邮箱中的私人聊天，他们还位于 "对话历史记录" 下的 "工作组聊天" 文件夹中。
 
 ## <a name="ediscovery-of-private-channels"></a>专用频道的电子数据展示
 
-在专用频道中发送的邮件的记录被发送到所有专用通道成员的邮箱，而不是发送到组邮箱。 对记录的标题进行格式设置，以指示发送的专用频道。
+在私人频道中发送的消息记录将传递到所有私人频道成员的邮箱，而不是传递到组邮箱。 记录的标题已格式化为指示它们是从哪个私人频道发送的。
 
 由于每个专用频道都有自己的 SharePoint 网站集，独立于父团队网站，因此专用通道中的文件独立于父团队进行管理。
 
@@ -72,17 +61,19 @@ ms.locfileid: "41833792"
     ```PowerShell
     Get-SPOSite
     ```
+
 2. 运行以下 PowerShell 脚本，获取与团队和父团队组 ID 中的专用通道相关联的所有 SharePoint 网站集 Url 的列表。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url} 
     ```
+
 3. 对于每个团队或组 ID，运行以下 PowerShell 脚本来标识所有相关专用通道网站，其中 $groupID 是团队的组 ID。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
@@ -95,11 +86,13 @@ ms.locfileid: "41833792"
     ```PowerShell
     Get-TeamChannel -GroupId <GroupID> -MembershipType Private
     ```
+
 2. 运行以下操作以获取专用通道成员的列表。
 
     ```PowerShell
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
+
 3. 将团队中每个专用频道的所有成员的邮箱添加为电子数据展示搜索查询的一部分。
 
 ## <a name="related-topics"></a>相关主题

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 59940eafcdb6f86961b3cd6805cb9c5bb40f9fb2
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836982"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033396"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams 如何使用内存
 
@@ -51,7 +51,7 @@ ms.locfileid: "41836982"
 
 ![团队跨不同系统的内存使用量](media/teams-memory-usage.png)
 
-当计算机有更多内存时，团队将使用该内存。 在内存不足的系统中，团队将占用较少的时间。 
+当计算机有更多内存时，团队将使用该内存。 在内存不足的系统中，团队将占用较少的时间。
 
 ### <a name="symptoms-of-system-memory-issues"></a>系统内存问题的症状
 
