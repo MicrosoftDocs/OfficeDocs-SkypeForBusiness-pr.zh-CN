@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858767"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978484"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
 ==============================
@@ -97,3 +97,5 @@ ms.locfileid: "42858767"
 [管理 Teams 探索性体验](teams-exploratory.md)
 
 [Office 365 非营利组织版](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+
+[获取有关部署 Teams 的帮助](https://go.microsoft.com/fwlink/?linkid=780698)

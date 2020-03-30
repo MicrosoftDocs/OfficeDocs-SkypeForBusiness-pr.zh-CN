@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 如何使用新式验证登录 Microsoft Teams。
+description: 如何使用新式验证登录 Microsoft Teams。 包含介绍如何在用户登录时自动跳过添加 UPN 用户名。
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bb74338a3e46bb4e3a65fcbf2a69d56558dad61
-ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.openlocfilehash: c541371b78bcd9119abe7a11523d0d2f7b5eda7c
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889435"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978364"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式验证登录 Microsoft Teams
 ==========================

@@ -15,14 +15,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7a27d8f3d6da0521b09ab2c1a011eab9aa7235f
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 704a08678bfb64cdbee223b555dfaa4fa6350892
+ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892342"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033366"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -79,7 +80,8 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 #### <a name="messaging-policy"></a>消息传递策略
 
-- 将“更改”设置为“关”
+- “删除已发送邮件”设置为“关闭”
+- “编辑已发送邮件”设置为“关闭”
 - 将“Giphy 内容评级”设置为“严格”
 - 将“翻译消息”设置为“开”
 - 将“以优先通知的形式发送紧急邮件”设置为“关”
