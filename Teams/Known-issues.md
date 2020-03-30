@@ -17,12 +17,12 @@ f1.keywords:
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 212f7f2bab023127bcc110133d1b8e574ee0d5de
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928285"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951507"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -62,11 +62,7 @@ ms.locfileid: "42928285"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|UsersPermissionToReadOtherUsersEnabled 设置为 false 时，无法向团队添加成员  <br/> |在 AAD 中此值设置为 false 时，客户无法在 Microsoft Teams 中添加外部/内部成员，并会显示以下错误消息：“我们无法添加成员。遇到问题。请稍后再试。”但是，成员可以直接添加到 Office 365 组中。    <br/> |在 AAD 中此设置更改为 true。  <br/> |2018 年 4 月 10 日  <br/> |
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|以管理员身份对租户范围的连接器进行管理的功能不再可用。  <br/> |尝试在客户端和联机版本中添加连接器时，显示错误：发生意外错误。请重试。Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |通过 Teams 设置禁用。请参阅此支持文章： https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |2017 年 6 月 21 日  <br/> |
+|UsersPermissionToReadOtherUsersEnabled 设置为 false 时，无法向团队添加成员  <br/> |在 AAD 中此值设置为 false 时，用户无法在 Microsoft Teams 中添加外部/内部成员，并会显示以下错误消息：“我们无法添加成员。遇到问题。请稍后再试。”但是，成员可以直接添加到 Office 365 组中。    <br/> |在 AAD 中此设置更改为 true。  <br/> |2018 年 4 月 10 日  <br/> |
 
 ## <a name="apps"></a>应用
 
@@ -77,14 +73,6 @@ ms.locfileid: "42928285"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |在桌面应用中使用“网站”或“Azure DevOps”选项卡时，[条件访问](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)可能不起作用。<br/> |如果网站（例如 Intranet 门户）具有条件访问策略（例如浏览器、IP 地址限制或设备合规性），则该网站可能不会在桌面应用中呈现为 Teams 内的选项卡。 <br/> |请在浏览器中使用 Teams 而不是使用桌面应用  <br/> |2018/7/1  <br/> |
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|有些团队缺少连接器选项  <br/> |右键单击频道时，团队的任何成员都不显示连接器选项。  <br/> |团队的创建者必须有联机邮箱；否则，将不提供连接器选项。这是预期行为。  <br/> |2017 年 6 月 26 日  <br/> |
-
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|“作业”应用在禁用后仍可见  <br/> |在管理中心禁用了“作业”应用后，此应用在获得教育版许可的用户的 Teams 客户端中仍可见。在禁用的情况下选择此应用时，将返回错误：“烦躁! 出现错误...”  <br/> |无解决方法。  <br/> |2017 年 12 月 29 日  <br/> |
 
 ## <a name="audio-conferencing"></a>音频会议
 
