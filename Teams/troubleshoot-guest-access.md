@@ -1,5 +1,5 @@
 ---
-title: 解决 Microsoft 团队中的来宾访问问题
+title: 排查 Microsoft Teams 中的来宾访问问题
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: corbinm
 search.appverid: MET150
-description: 获取有关解决和解决 Microsoft 团队中的来宾访问问题的帮助。
+description: 获取排查并解决 Microsoft Teams 中来宾访问问题方面的帮助。
 f1.keywords:
 - NOCSH
 appliesto:
@@ -19,36 +19,36 @@ appliesto:
 localization_priority: Normal
 ms.openlocfilehash: 0c0f65f7026e6c083d9230551d689f0dd19d6b0d
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41837632"
 ---
-<a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>解决 Microsoft 团队中的来宾访问问题
+<a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>排查 Microsoft Teams 中的来宾访问问题
 ======================================================
 
 > [!IMPORTANT]
-> 您可能需要等待24小时才能使更改生效。 
+> 最长可能需要等待 24 小时，更改才会生效。 
 
 
-- 若要使用团队中的来宾访问权限检查当前支持问题，请转到[团队疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)。
-- 若要查看我们是否知道你的问题，请查看[Microsoft 团队的已知问题](Known-issues.md)。
-- 来宾是您的组织外部的用户。 如果某人在你的组织内（包括你的员工、现场承包商或现场工程师），则不能将其添加为来宾。 这同样适用于您的会员。
-- 了解[团队路线图](https://aka.ms/teamsroadmap)中即将推出的新的或更新的来宾访问功能。
-- 请告诉我们你希望的[团队 UserVoice](https://aka.ms/TeamsUserVoice)内容。
+- 若要查看与 Teams 中来宾访问相关的现有支持问题，请转到 [Teams 故障排除](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)。
+- 若要确定你的问题是否已顺利反馈，请查看 [Microsoft Teams 已知问题](Known-issues.md)。
+- 来宾是你组织外部的用户。 如果你组织内部的某人（包括员工、现场合同工或现场代理），则不能添加为来宾。 这同样适用于你的关联公司。
+- 有关即将发布的新推出或更新后的来宾访问功能，请访问 [Teams 路线图](https://aka.ms/teamsroadmap)。
+- 请在 [Teams UserVoice](https://aka.ms/TeamsUserVoice) 中告诉我们你想要的功能。
 
-## <a name="if-your-guests-are-seeing-license-errors"></a>如果您的客人看到许可证错误
+## <a name="if-your-guests-are-seeing-license-errors"></a>如果来宾看到许可证错误
 
-团队中的来宾访问使用 Azure Active Directory （Azure AD）企业到企业（B2B）和其许可模型。 所有 Office 365 商业高级版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Office 365 许可证。
+Teams 中的来宾访问功能使用 Azure Active Directory (Azure AD) 企业对企业 (B2B) 及其许可模式。 所有 Office 365 商业高级版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Office 365 许可证。
 
-如果您看到 "授权错误"，请确保阅读[Azure Active DIRECTORY B2B 授权指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)以确定授权要求以满足您的组织中的来宾访问要求。
+如果看到许可错误，请务必阅读 [Azure Active Directory B2B 许可指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)，以确定许可要求，从而满足你组织中的来宾访问需求。
 
 
-- 来宾许可证按邀请的组织计入。 当你计算所需的许可证数量时，请考虑此情况。
-- 根据您的组织统计许可证，无论受邀的来宾来自其他 Office 365 租户还是使用其个人电子邮件地址。
+- 来宾许可证计入邀请组织。 在计算所需的许可证数量时，请注意这一点。
+- 无论受邀的来宾是来自另一个 Office 365 租户，还是使用自己的个人电子邮件地址，许可证都会计入你的组织。
 
-## <a name="support-for-b2b-user-types"></a>对 B2B 用户类型的支持
-当前团队仅支持[由 AZURE B2B 定义](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)的状态1和状态2类型的来宾用户。
+## <a name="support-for-b2b-user-types"></a>支持 B2B 用户类型
+目前，Teams 只支持 [Azure B2B 定义的](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)状态 1 和状态 2 类型来宾用户。
 
 ## <a name="related-topics"></a>相关主题
 
