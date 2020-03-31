@@ -12,23 +12,24 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- remotework
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b687d528f7cb593039fdafd9dcc6ec08ec66372
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341640"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053408"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
 > [!IMPORTANT]
-> 作为 Office 365 的客户，你拥有并控制你的数据。 除了为你提供你已订阅的服务外，Microsoft 不会将你的数据用于任何其他用途。 作为服务提供商，我们不会扫描你的电子邮件、文档或团队来做广告或用于与服务无关的用途。 Microsoft 无权访问上载的内容。 对于 OneDrive for Business 和 SharePoint Online，客户数据位于租户中。 您可以在[Microsoft 信任中心](https://microsoft.com/trustcenter)查看有关我们的信任和安全相关信息的更多信息。 团队遵循与 Microsoft 信任中心相同的指南和原则。
+> 作为 Office 365 的客户，你拥有并控制你的数据。 除了为你提供你已订阅的服务外，Microsoft 不会将你的数据用于任何其他用途。 作为服务提供商，我们不会扫描你的电子邮件、文档或团队来做广告或用于与服务无关的用途。 Microsoft 无权访问已上载的内容。 对于 OneDrive for Business 和 SharePoint Online，客户数据位于租户中。 您可以在[Microsoft 信任中心](https://microsoft.com/trustcenter)查看有关我们的信任和安全相关信息的更多信息。 团队遵循与 Microsoft 信任中心相同的指南和原则。
 
 Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我们的客户期望的高级安全性和合规性功能。 有关在 O365 中规划安全性的详细信息，请查看我们的 O365 内容。 [O365 安全路线图](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)是一个不错的开端。 有关在 O365 中规划合规性的详细信息，您可以从[适用于安全和合规性文章的计划](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)开始。
 
@@ -70,7 +71,11 @@ Microsoft 团队桌面应用程序支持 AppLocker。  有关 AppLocker 先决�
 
 ## <a name="compliance"></a>符合
 
-团队有大量信息可帮助您处理合规性领域，包括保留策略、数据丢失保护（DLP）、用于频道、聊天和文件的数据丢失保护（DLP）、电子数据展示和法律封存，以及与 Microsoft 的移动应用程序管理Intune. 我们已提供以下有关所有这些主题的信息，并可转到 Office 365 安全 & 合规中心来管理这些设置。
+团队有大量信息可帮助您处理合规性领域，包括频道、聊天和附件的通信合规性、保留策略、数据丢失保护（DLP）、用于频道、聊天和文件的数据丢失保护（DLP）、电子数据展示和法律封存，审核日志搜索以及与 Microsoft Intune 的移动应用程序管理。 我们已提供以下有关所有这些主题的信息，并可转到[Microsoft 365 合规性中心](https://compliance.microsoft.com)或[Office 365 安全性 & 合规性中心](https://protection.microsoft.com)来管理这些设置。
+
+### <a name="communication-compliance"></a>通信合规性
+
+Microsoft 365 中的通信合规性使你可以将用户添加到范围内策略，这些策略可以配置为检查适用于攻击性语言的 Microsoft 团队通信、敏感信息以及与内部和法规标准相关的信息. 可以扫描公共和私人团队频道、个人聊天和附件中的聊天通信和相关附件，以帮助最大程度地减少组织中的沟通风险。 有关如何配置策略以帮助你检测、捕获和采取措施处理不当团队通信的详细信息，请参阅[Microsoft 365 中的通信合规性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
 
 ### <a name="retention-policies"></a>保留策略
 
@@ -163,11 +168,12 @@ Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 若�
 
 ## <a name="compliance-standards"></a>合规性标准
 
-团队符合第 D 层。 这包括以下标准：ISO 27001、ISO 27018、SSAE16 SOC 1 和 SOC 2、HIPAA 以及欧盟模型条款 (EUMC)。 在 Microsoft 合规性框架中，Microsoft 将 Office 365 应用和服务分类为四种类别。 每种类别均按特定的合规性承诺定义，Office 365 服务或相关的 Microsoft 服务必须履行这些承诺才能列在相应类别中。
+团队符合第 D 层。 这包括以下标准： [ISO 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001)、 [iso 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018)、 [SSAE16 SOC 1 和 SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)、 [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)和[欧盟型号子句（EUMC）](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses)。 在 Microsoft 合规性框架中，Microsoft 将 Office 365 应用和服务分类为四种类别。 每种类别均按特定的合规性承诺定义，Office 365 服务或相关的 Microsoft 服务必须履行这些承诺才能列在相应类别中。
 
 默认情况下启用合规性类别 C 和 D 中的服务，它们有行业领先的合规性承诺。 类别 A 和 B 中的服务提供了针对整个组织开启或关闭这些服务的控制功能。 有关详细信息，请参阅[行业标准和规章的合规性框架](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf)。 Teams 还支持云安全联盟合规性。
 
 ## <a name="related-topics"></a>相关主题
 
-[M365 Security](https://docs.microsoft.com/microsoft-365/security/)
-[M365 合规性](https://docs.microsoft.com/microsoft-365/compliance/)
+[Microsoft 365 安全](https://docs.microsoft.com/microsoft-365/security/)
+[microsoft 365 合规性](https://docs.microsoft.com/microsoft-365/compliance/)
+[microsoft 合规性服务](https://docs.microsoft.com/microsoft-365/compliance/offering-home)
