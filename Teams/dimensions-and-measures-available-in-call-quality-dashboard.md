@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板使用的维度和度量的详细信息。
-ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583072"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059426"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>"呼叫质量" 仪表板中可用的尺寸和测量
 
@@ -58,7 +58,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 
 维度信息基于上载到 CQD 门户的数据的一部分。 许多维度值也可以用作筛选器。 下表按查询编辑器中列出的顺序列出了 CQD 中当前可用的维度，这些维度是用于创建报表或编辑以前定义的报表。
 
-| 名称 | 数据类型  | 说明 | 空值的可能原因 |
+| 名称 | 数据类型  | Description | 空值的可能原因 |
 |:---  |:---        |:---         |:--- |
 |**Endpoint**|||
 | First CPU Name  | String  | 第一终结点使用的 CPU 的名称。 <br/> **示例值：** Contoso CPU X11 @ 1.80 GHz | <br/>&bull;终结点未报告此数据   |
@@ -499,9 +499,9 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 
 许多度量值也可以用作筛选器。 下表列出了 CQD 中当前可用的度量值，按查询编辑器中列出的顺序显示：
 
-|衡量指标名称 |单位 |说明 |
+|衡量指标名称 |单位 |Description |
 |:--- |:--- |:--- |
-|Total Stream Count |流的数量 |媒体流的数量，不区分媒体的类型。 |
+|Total Stream Count |流的数量 |无论使用哪种介质，都可对媒体流进行编号，包括不具有媒体类型的可靠性/诊断流。 |
 | CDR 可用流计数总数 | 流的数量 |可用可靠性/诊断信息的媒体流的数量。 请参阅[Skype For Business 服务器中的呼叫详细记录（CDR）](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
 |Total Media Failed Stream Count |流的数量 |媒体路径未能建立或未正常终止的流的数量。 |
 |Total Call Setup Failed Stream Count |流的数量 |呼叫之初无法在终结点之间建立媒体路径的流的数量。 |
