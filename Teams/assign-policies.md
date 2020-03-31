@@ -16,17 +16,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解在 Microsoft 团队中向用户分配策略的不同方法。
 f1keywords: ''
-ms.openlocfilehash: a3946ab7296603822655ac115ae5826f3f670cea
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 0ad4794d0813eec97ea723d86ae6b3c60e0c9129
+ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978524"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43068494"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft 团队中的用户分配策略
 
 > [!NOTE]
-> **本文中讨论的 Microsoft 团队功能之一是 "[对组的策略分配](#assign-a-policy-to-a-group)"，当前仅在有限预览版中可用。此功能的 Powershell cmdlet 位于预发布团队 PowerShell 模块中。**
+> **本文中讨论的 Microsoft 团队功能之一，目前仅在私人预览版中提供了[对组的策略分配](#assign-a-policy-to-a-group)。此功能的 Powershell cmdlet 位于预发布团队 PowerShell 模块中。** 若要保持在此功能的 "发布" 状态的顶部，请查看[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)。
 
 作为管理员，你可以使用策略来控制你的组织中的用户可以使用的团队功能。 例如，有一些通话策略、会议策略和邮件策略，只需命名。
 
@@ -63,7 +63,7 @@ ms.locfileid: "42978524"
 |要执行的操作  |If .。。  | 使用 .。。
 |---------|---------|----|
 |[为单个用户分配策略](#assign-a-policy-to-individual-users)    | 您是新的团队新手，只需将一个或几个策略分配给少数几个用户。 |Skype for Business Online PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet
-| [分配策略包](#assign-a-policy-package)   | 您需要将多个策略分配给组织中具有相同或类似角色的特定用户组。 例如，将教育版（教师）策略包分配给你的学校教师，让他们能够完全访问聊天、通话和会议以及教育（次要学校学生）策略包以限制某些功能，如私人通话。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
+| [分配策略包](#assign-a-policy-package)   | 您需要将多个策略分配给组织中具有相同或类似角色的特定用户组。 例如，将教育版（教师）策略包分配给你的学校教师，让他们能够完全访问聊天、通话和会议以及教育（次要学校学生）策略包，以限制某些功能，如私人通话。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
 |[为一批用户分配策略](#assign-a-policy-to-a-batch-of-users)   | 您需要为大型用户组分配策略。 例如，你希望一次为组织中的成百上千个用户分配策略。  |团队 PowerShell 模块中的 PowerShell cmdlet|
 |为[组分配策略](#assign-a-policy-to-a-group)（在预览中）   |您需要根据用户的组成员身份分配策略。 例如，你想要向安全组或组织单位中的所有用户分配策略。| 团队 PowerShell 模块中的 PowerShell cmdlet|
 | 将策略包分配给一批用户（即将推出） |||
@@ -197,7 +197,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="assign-a-policy-to-a-group"></a>为组分配策略
 
-**对组的策略分配当前仅在有限预览中可用。此功能的 cmdlet 位于预发布团队 PowerShell 模块中。**
+**对组的策略分配当前仅在专用预览中可用。此功能的 cmdlet 位于预发布团队 PowerShell 模块中。**
 
 通过向组分配策略，你可以为一组用户（如安全组或组织单位）分配策略。 根据优先级规则，策略分配将传播到组的成员。 将成员添加到组或从组中删除成员后，将相应地更新其继承的策略分配。
 
