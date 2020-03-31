@@ -9,18 +9,19 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
+- remotework
 ms.reviewer: dansteve, anmich
 localization_priority: Priority
 search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
+ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928405"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43062663"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -64,7 +65,13 @@ ms.locfileid: "42928405"
 
 1. 阅读定期更新的[常见问题：支持远程员工](FAQ-support-remote-workforce.md)。
 
-1. 阅读我们 2020 年 3 月 6 日的博客文章“[Microsoft 如何让员工 使用 Microsoft Teams 远程工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)”。
+1. 阅读最新博客文章：
+   
+   - [Microsoft 如何便于员工使用 Microsoft Teams 远程工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
+   - [协助中小型企业使用 Teams 远程工作](https://www.microsoft.com/zh-CN/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+
+   - [Microsoft IT 便于员工远程工作的 9 大方式](https://www.microsoft.com/zh-CN/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+
 
 1. Teams 教育版
    - 如果你从事教育工作，并且需要在 Teams 上设置教师、学生和管理员，请使用 Office 365 A1。 Office 365 免费版可供所有教育机构使用。 请转到[为整个学校免费获取 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) 注册。
@@ -78,6 +85,8 @@ ms.locfileid: "42928405"
    - 带宽受限将会影响 Teams 会议的音质。 为确保在低带宽条件下获得最佳会议体验，鼓励用户限制视频，并使用 PSTN 进行通话和会议音频。 
 
    - 请阅读这篇即时博客（2020 年 3 月 6 日）：[如何快速优化远程办公人员的 Office 365 流量并降低你的基础结构上的负载](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)。
+
+   - 2020 年 3 月 26 日博客：[运行 VPN：Microsoft 如何让远程工作人员互联](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
    - 如果你在中国，请查阅 [Office 365 针对中国用户的全局租户性能优化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)。
 
@@ -95,6 +104,20 @@ ms.locfileid: "42928405"
 
    - 阅读[如何推广 Teams](How-to-roll-out-teams.md) 了解如何准备和管理 Teams。
 
+1. 当所有人都在家办公时的安全性
+
+   - [提高在家办公安全性的重要提示](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Microsoft 安全博客（2020 年 3 月 26 日）：[安全专业人员和 IT 人员在当前独特的远程工作场景中实现新式安全控制的替代方法](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+   - [远程工作，保持安全 - CISO 指南](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [安全团队为支持在家办公需完成的 12 大任务](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [使用 VPN 分离隧道为远程用户优化 Office 365 连接性](https://docs.microsoft.com/zh-CN/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - 作为 Microsoft 365 企业级安全性最佳做法和程序的一部分，[安全和团队](teams-security-guide.md)需要探究 Teams 安全性的所有技术细节。
+
 
     
 3. 阅读有关远程工作的新内容并与用户共享：
@@ -110,8 +133,6 @@ ms.locfileid: "42928405"
       - [使用 Office 365 远程工作](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
       - [远程工作的 9 个提示](https://www.microsoft.com/tips/home/working-remotely)
-
-      - [有关在家中更安全地工作的重要提示](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
 
       - Satya Nadella 和 Teams 产品市场营销经理 Aya Tange 有关“[使用 Teams 远程工作](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1)”的视频（2020 年 3 月 20 日）
 

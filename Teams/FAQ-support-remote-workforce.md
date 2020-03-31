@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 336286f2dc107cc4f79bd874789866c352c1e522
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 720a94f86bd8ca0d84d682b15d59461a4b9133fb
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053545"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059396"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -36,7 +36,8 @@ Microsoft 在最近发布的新型冠状病毒肺炎（COVID-19）疫情公告�
 > [!NOTE]
 > 如果你已设置 M365，并且想要详细了解 Microsoft 正在采取的行动，请转到消息中心，并查看 **MC205458** 消息中心帖子。
 
-请不要错过 Microsoft 365 企业副总裁 Jared Spataro 在 2020 年 3 月 5 日发布的博文：[我们在新型冠状病毒肺炎（COVID-19）期间提供给客户的承诺](https://www.microsoft.com/zh-CN/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
+请不要错过 Microsoft 365 企业副总裁 Jared Spataro 在 2020 年 3 月 5 日发布的博文：[我们在新型冠状病毒肺炎（COVID-19）期间提供给客户的承诺](https://www.microsoft.com/zh-CN/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)。
+
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>对于 Microsoft 采取的行动，可以预见到问题吗？
 
