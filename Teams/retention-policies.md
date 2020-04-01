@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9097dfc43ca0f70d37b0051e6b0e10283da26c3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033386"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096997"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
@@ -82,7 +82,7 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
 
 - Teams 不支持高级保留设置，例如，用于为包含关键字或敏感信息的内容应用策略的功能。 目前，Teams 中的保留策略适用于所有聊天和/或频道消息内容。
 
-- Teams 最多可能需要三天的时间来清理过期的消息。 Teams 保留策略将在保留期到期时删除聊天和频道消息。 但是，它最多可能需要三天的时间来清理这些消息并永久删除它们。 此外，在保留期到期后和永久删除消息之间的时间段内，可以使用电子数据展示工具搜索聊天和频道消息。
+- 团队最多可能需要3到7天的时间来清理已过期的消息。 Teams 保留策略将在保留期到期时删除聊天和频道消息。 但是，可能需要长达3至7天的时间来清理这些邮件并永久删除它们。 此外，在保留期到期后和永久删除消息之间的时间段内，可以使用电子数据展示工具搜索聊天和频道消息。
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>多个保留策略和保留原则
 

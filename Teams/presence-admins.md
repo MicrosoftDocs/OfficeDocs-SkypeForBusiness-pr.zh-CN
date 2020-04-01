@@ -16,16 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e0d7ef2fa7ae12f660bf6b77ba7c45a8c49ab10
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
-ms.translationtype: HT
+ms.openlocfilehash: ea756b24a0292a35d4e47252383bfc954fcb8fa7
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863193"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096967"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
-状态显示在 Microsoft Teams（以及整个 Office 365）的用户配置文件中，用于向其他用户指明用户的当前状态。 默认情况下，使用 Teams 的组织中的任何人都可以（几乎实时）查看其他用户是否在线。
+状态是 Microsoft 团队（以及整个 Office 365）中的用户配置文件的一部分，用于指示用户的当前可用性和其他用户的状态。 默认情况下，使用 Teams 的组织中的任何人都可以（几乎实时）查看其他用户是否在线。
 
 > [!IMPORTANT]
 > 如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。 解决方法：若要在 Outlook（和其他 Office 应用）中查看状态，必须安装 Skype for Business，即使是在“仅 Teams”**** 模式下运行 Teams，也不例外。 Microsoft 已发现此问题，并正在着手修复它。
@@ -33,8 +33,6 @@ ms.locfileid: "41863193"
 Outlook 2013 桌面应用及更高版本支持 Outlook 中的 Teams 状态。
 
 ## <a name="presence-states-in-teams"></a>Teams 中的状态
-
-Teams 中的用户状态如下：
 
 |用户配置|应用配置|
 |:--- |:---|
@@ -56,14 +54,16 @@ Teams 中的用户状态如下：
 ||![带对角线的空心红色圆圈，表示已屏蔽](media/Presence_Blocked.png) 已屏蔽 |
 || ![带箭头的紫色圆圈，表示外出](media/Presence_OOF.png) 外出|
 |||
- 
-用户可以手动将自己的当前状态设置为某些选项，他们的状态会反映给其他所有用户。 更多用户状态详细信息也会自动更新。 根据用户活动（在线、离开）、Outlook 日历状态（会议中）或 Teams 应用状态（通话中、正在演示）更改为列表中缩进的状态。 有 15 分钟的非活动超时，超过此时间就会将当前状态重置为“离开”。
 
-用户会在 Teams 中收到发送给他们的所有聊天消息，而不管其状态如何。 如果用户在某人向其发送消息时处于离线状态，便会在下次在线时在 Teams 中看到聊天消息。 如果用户处于“请勿打扰”状态，用户仍会收到聊天消息，但不会看到横幅通知。
+应用配置的状态取决于用户活动（可用、离开）、Outlook 日历状态（在会议中）或团队应用状态（在通话中）。
 
-用户在所有状态下都可以接听来电，但“请勿打扰”状态除外，在这种状态下，来电会转接到语音信箱。 如果呼叫接收人屏蔽了呼叫方，来电不会转接，且呼叫方会看到呼叫接收人的状态为“离线”。
+当您锁定计算机或进入空闲或睡眠模式时，当前状态将更改为 "离开"。 在手机上，只要团队应用处于后台，你的状态将更改为 "离开"。
 
-用户可以在 Teams 中依次转到“设置”**** > “隐私”****，向自己的优先访问列表添加人员。 添加到优先访问列表的人员可以联系用户，即使用户处于“请勿打扰”状态，也不例外。
+用户会在 Teams 中收到发送给他们的所有聊天消息，而不管其状态如何。 如果用户在某人向其发送消息时处于离线状态，便会在下次在线时在 Teams 中看到聊天消息。 如果用户处于 "请勿打扰"，则用户仍将收到聊天消息，但不显示标题通知。
+
+用户接收除 "请勿打扰" 之外的所有状态的呼叫，传入呼叫转到语音邮件。 如果呼叫接收人屏蔽了呼叫方，来电不会转接，且呼叫方会看到呼叫接收人的状态为“离线”。
+
+用户可以在 Teams 中依次转到“设置”**** > “隐私”****，向自己的优先访问列表添加人员。 具有优先级访问权限的用户即使在用户处于 "请勿打扰" 时也可以与用户联系。
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>比较 Teams 与 Skype for Business 中的管理员设置
 

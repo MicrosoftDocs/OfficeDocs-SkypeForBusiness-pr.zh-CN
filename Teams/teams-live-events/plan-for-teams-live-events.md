@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983858"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096814"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -92,7 +92,7 @@ ms.locfileid: "42983858"
 |允许多个演示者 |&#x2714; (Skype for Business) |&#x2714; (Teams) |不适用  |
 |会议期间邀请演示者 |&#x2714; (Skype for Business) |X |不适用 |
 |演示者通过 Web 和移动设备加入 |&#x2714; (Skype for Business)  |X |不适用 |
-|联合和来宾演示者/参与者 |&#x2714; (Skype for Business)  | （即将推出） |不适用 |
+|联合和来宾演示者/参与者 |&#x2714; (Skype for Business)  | &#x2714; (Teams)  |不适用 |
 |演示者 – PSTN 接入 |X |&#x2714; (Teams) |不适用 |
 |演示屏幕 |X |&#x2714; (Teams) |不适用 |
 |演示 PowerPoint （PPT 共享） |&#x2714; |X （通过屏幕共享缓解） |不适用 |

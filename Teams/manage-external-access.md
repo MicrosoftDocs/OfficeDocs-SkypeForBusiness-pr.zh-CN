@@ -19,17 +19,17 @@ description: 你的 Teams 管理员或 IT 管理员可以为其他域配置外�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 61ce8219125f6dad47ef516aa9f849acb09ec3dd
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
-ms.translationtype: HT
+ms.openlocfilehash: b354172e5a60e3c6f9df5d74c5d16731fdac0bf8
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544988"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096857"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 ======================================================
 
-外部访问让整个域中的外部 Teams 用户能够在 Teams 中进行查找、通话、聊天和安排与你之间的会议。 你还可以使用外部访问与仍在使用 Skype for Business（在线和本地）和 Skype（预览版）的外部用户进行通信。
+外部访问是团队用户从整个外部域查找、呼叫、聊天和设置团队中的会议的一种方式。 您也可以使用外部访问与仍在使用 Skype for Business （联机和本地）和 Skype （在预览中）的外部用户进行通信。
 
 如果希望外部用户拥有访问团队和频道的权限，则选择使用“来宾访问”可能是更好的方法。 有关外部访问和来宾访问之间的差异的详细信息，请参阅[比较外部访问和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。 
 

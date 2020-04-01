@@ -16,19 +16,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fc2a66e2414350a56874583af6a00f688450f0e
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 8cee6937a1bdc2bef6d2184066cb32a4aa94d8e6
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068514"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096847"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>为用户设置“致电我”功能
 
 在 Microsoft 团队中，"**呼叫我**" 功能为用户提供了一种通过电话加入会议音频部分的方式。 这在可能无法使用计算机音频的情况下很方便。 用户通过其手机或土地线以及会议&mdash;的内容部分（如另一个会议参与者共享他们的屏幕或通过其计算机播放视频&mdash;）获取会议的音频部分。
 
 > [!IMPORTANT]
-> 在 COVID 爆发期间，我们建议用户通过单击 "**加入团队会议**" 按钮（而不是通过使用 PSTN 会议号码或使用 "**呼叫我**"）来加入会议。 这有助于在较高的会议音量在 PSTN 网络上导致拥挤的时间内确保质量的音频。
+> 在 COVID 爆发期间，我们建议用户通过单击 "**加入团队会议**" 按钮（而不是通过使用 PSTN 会议号码或使用 "**呼叫我**</strong>"）来加入会议。 这主要是因为受 COVID 影响的国家/地区的电话架构拥塞。 通过避免 PSTN 呼叫，你可能会体验到更好的音频质量。 
 
 ## <a name="the-user-experience"></a>用户体验
 

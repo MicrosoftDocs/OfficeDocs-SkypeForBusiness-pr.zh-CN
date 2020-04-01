@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文讨论 Microsoft 团队聊天室中的累积改进。
-ms.openlocfilehash: 6ecc038658b8178530833ae4f8964bdfc733be84
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398190"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096987"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -28,6 +28,7 @@ ms.locfileid: "42398190"
 
 |新版 |已发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
@@ -60,6 +61,17 @@ ms.locfileid: "42398190"
 |RTM （1.0.8） |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和问题解决
+### <a name="44250-03312020"></a>4.4.25.0 （03/31/2020）
+
+此更新中引入的内容：
+
+- 适用于 Exchange 和 Skype for business 的新式身份验证支持
+- 支持团队的动态紧急呼叫（服务组件需要和使用团队客户环发布的服务组件）
+- 使用 XML 在双重显示的会议中禁用重复内容的功能
+- 应用程序初始屏幕
+- 自动答案设置，用于改进基于会议的邻近体验 
+- 设备设置中的开放源代码软件（OSS）声明
+
 ### <a name="43420-03022020"></a>4.3.42.0 （03/02/2020）
 
 此更新中引入的内容：
@@ -111,7 +123,7 @@ ms.locfileid: "42398190"
 - 主题更新：仅在会议室前面保留自定义背景图像显示，同时使控制台背景为非特定颜色，以确保控制台 UI 控件满足颜色对比度-辅助功能要求
 - 适用于团队通话/会议的会议内呼叫控件的通用栏，用于为 Microsoft 团队 PC/Web/移动客户端提供一致的体验<sup>1</sup>
 - 团队通话/会议<sup>1</sup>之后的通话质量反馈评级
-- 当从 PC/Web/移动团队<sup>共享客户端</sup> <sup></sup>时，在 microsoft 球队的会议室前面接收/呈现 microsoft 白板
+- 当从 PC/Web/移动团队<sup>共享客户端</sup> <sup>2</sup>时，在 microsoft 球队的会议室前面接收/呈现 microsoft 白板
 - 由于 Microsoft 团队聊天室客户端的兼容性问题，删除了对 Windows 10 版本1809升级的支持。 将在未来版本中添加 Windows 10 版本19H1 支持
 
 <sup>1</sup> Microsoft 团队使用团队的响铃服务推出。 此功能可在4.0.105.0 客户端更新之前或之后使用
