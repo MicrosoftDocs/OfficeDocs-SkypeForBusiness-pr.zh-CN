@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 政府版规划 - DoD 部署 - Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 82c7c8625ca5fcdab7325cf74fcde0c60049da07
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161733"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079444"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>规划 Microsoft 365 政府-DoD 部署
 
-本指南适用于正在推动美国联邦政府实体或其他实体中的 Office 365 部署的 IT 专业人士，这些客户负责处理受政府法规和要求制约的数据，其中使用 Microsoft 365 政府– DoD 适用于满足这些要求。
+本指南适用于正在推动美国联邦政府实体或其他实体中的 Office 365 部署的 IT 专业人士，这些客户负责处理受政府管理法规和要求制约的数据，其中使用 Microsoft 365 政府– DoD 适合于满足这些要求。
 
 > [!NOTE]
 > 如果您的组织已满足 Microsoft 365 政府-DoD 资格要求，并且已被接受并已接受，则可以跳过步骤1和2，然后直接转到步骤3。
@@ -74,75 +74,7 @@ Microsoft 365 政府-DoD 环境为云服务的美国政府要求提供合规性�
 
 为了满足政府云客户的要求，在企业计划中 Microsoft 365 政府-DoD 和团队中的团队之间存在一些差异。 请参考下表，查看哪些功能可用。
 
-|                             | 功能                     | DoD       |
-|-----------------------------|-----------------------------|----------------|
-| Base64 | 登录 | 有空 |
-| | 状态 | 有空 |
-| | 统一状态（Skype for Business 和团队统一） | 在政府待办事项中 |
-| | Linux 客户端 | 在政府待办事项中 |
-| 活动 | 源 | 有空 |
-|  | 我的活动 | 有空 |
-| 聊天 | 交谈 | 有空 |
-| | 文件 | 有空 |
-| | 组织结构图 | 有空 |
-| | 活动 | 有空 |
-| | 互操作（1:1 团队-Skype for Business 聊天） | 在政府待办事项中 |
-| Teams | 频道消息 | 有空 |
-| | 信道文件 | 有空 |
-| | OneNote 选项卡 | 在政府待办事项中 |
-| | 通过电子邮件发送频道 | 不可用 |
-| | 添加成员 | 有空 |
-| | 来宾访问权限 | 在政府待办事项中 |
-| 会议 | 安排会议 | 有空 |
-| | 加入会议 | 有空 |
-| | VoIP 会议 | 有空 |
-| | 桌面共享 | 有空 |
-| | 在共享中提供和获取控制权 | 有空 |
-| | 从会议室连接 | 有空 |
-| | 云录制 | 在政府待办事项中 |
-| | 会议笔记 | 有空 |
-| | 广播会议 | 在政府待办事项中 |
-| | 云内部（DoD 到 DoD）联合会议 | 有空 |
-| | Surface Hub 支持 | 在政府待办事项中 |
-| 呼叫 | 联系人 | 有空 |
-| | 信息 | 有空 |
-| | 语音邮件 | 可用 |
-| | VoIP 呼叫 | 有空 |
-| | Skype for Business-团队通话 | 可用 |
-| | 通话套餐 | 不可用 |
-| | 音频会议（通过允许会议参与者通过 PSTN 加入） | 有空 |
-| | Microsoft Phone 系统直接路由 | 在政府待办事项中 |
-| | PSTN 呼叫者的大厅 | 在政府待办事项中 |
-| | 通话队列 | 在政府待办事项中 |
-| | 老板和代理人支持 | 在政府待办事项中 |
-| | 咨询和安全转移 | 在政府待办事项中 |
-| | 请勿打扰突破 | 在政府待办事项中 |
-| | 独特震铃 | 在政府待办事项中 |
-| | 1:1 与团队、Skype for Business 和 PSTN 参与者进行群组通话升级 | 在政府待办事项中 |
-| | 转发到组 | 在政府待办事项中 |
-| | 转接至 PSTN 呼叫 | 在政府待办事项中 |
-| | 紧急呼叫呼叫计划 | 在政府待办事项中 |
-| | 对现有认证的 SIP 电话的支持 | 在政府待办事项中 |
-| | USB HID | 有空 |
-| | 用于通话和会议的电子数据展示 | 有空 |
-| | 组织自动助理 | 在政府待办事项中 |
-| | Skype 消费者-团队通话支持 | 不可用 |
-| 文件 | 近来 | 有空 |
-| | Microsoft Teams | 有空 |
-| 储存 | 应用商店 | 不可用 |
-| 搜索 | 彩信 | 有空 |
-| | 人员 | 有空 |
-| | 文件 | 有空 |
-| | 斜杠命令 | 有空 |
-| 符合 | 合规性内容搜索 | 有空 |
-| | 保存 | 有空 |
-| | 审核日志搜索 | 有空 |
-| | 法律封存 | 有空 |
-| | 电子数据展示 | 有空 |
-
-|    |     |
-|-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定团队功能集是否满足组织的需求。</li></ul> |
+[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>第 5 步 规划管理
 
