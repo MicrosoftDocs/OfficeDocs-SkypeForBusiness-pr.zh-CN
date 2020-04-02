@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI Connector 以使用 CQD 查询模板
-ms.openlocfilehash: c9987d05c5b057adf55791ffb2105d9ddb252722
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559389"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102343"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI Connector 以使用 CQD 查询模板
 
@@ -111,11 +111,21 @@ ms.locfileid: "42559389"
 
 3.  **自定义视觉对象-** 虽然 CQD 连接器与一系列自定义视觉对象一起工作，但我们无法保证与所有自定义视觉对象的兼容性。 许多自定义视觉对象依赖于使用计算列或导入的数据，而不受 DirectQuery 连接线支持。
 
-4.  **引用缓存的数据-** Power BI 目前不支持以任何方式引用 DirectQuery 连接器中的缓存数据。 任何引用查询结果的尝试都将导致新查询。
+4.  **引用缓存的数据-** Power BI 目前不支持以任何方式引用 DirectQuery 连接器中的缓存数据。 任何引用查询结果的尝试都将导致新查询。 
 
 5.  **相对数据筛选-** 在 CQD 连接器中受支持，但仅限 "*开始时间*" 和 "*结束时间*" 维度。 虽然*日期*维度可能是相对日期筛选的明显选择，但*日期*不会存储为日期时间对象，因此不支持 Power BI 中的相对日期筛选。
 
 请注意，虽然连接线在预览中，但这些限制不太可能与连接器的最终版本一起更改。 大多数问题都是对 CQD 数据模型设计而言，Power BI 或基础中的 DirectQuery 连接器设计的限制。
+
+## <a name="troubleshooting"></a>故障排除
+
+### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>我正在尝试将 "日期" 列用作日期切片器。 当我将此列的数据类型转换为 "日期" 时，我就会收到此错误：
+
+  **无法加载此视觉对象的数据**： OLE DB 或 ODBC 错误： [Expression 错误] 无法将表达式折叠到数据源。 请尝试更简单的表达式。 
+
+Power BI 连接器不支持日期切片器。 若要指定日期范围，请将两个筛选器应用于报表，并指定小于和大于日期。
+
+或者，如果您想要查看的日期是最新的，请应用相对日期筛选器，以便仅显示过去 N 天/周/月的数据。
 
 ## <a name="error-codes"></a>错误代码
 

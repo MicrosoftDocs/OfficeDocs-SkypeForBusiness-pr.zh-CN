@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文按功能区域介绍 Microsoft Teams 会议室的已知问题。
-ms.openlocfilehash: 3fedfbb4fdce0626783d285825eb75c22e2e7a78
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826060"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102373"
 ---
 # <a name="known-issues"></a>已知问题 
  
@@ -31,14 +31,14 @@ ms.locfileid: "41826060"
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
 |  应用已过期         |    Microsoft Teams 会议室控制台显示“系统配置已过期”错误。                |   [使用 Microsoft Teams 会议室恢复工具](recovery-tool.md)             |  无 |
-
+|  设备更新为不受支持的 Windows 10 版本   |    Windows 10 设备从版本1803更新到版本1809，不受支持。 支持的版本为1903。 |   如果 DeferFeatureUpdatesPeriodinDays 设置的[组策略或 MDM 设置](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)（允许您将功能更新推迟到指定的天数内），则可能会发生这种情况，最大为365天。 <br><br> Microsoft 团队聊天室不支持 Windows 10 版本1809，但支持版本1903。 但是，从2020年3月27日起，版本1809超过365天。 如果此设置未更改，Windows 将尝试安装版本1809，这可能会导致 Microsoft 团队聊天室出现问题。<br><br>为避免这种情况，请**删除**延迟更新的任何组策略或 MDM 设置。 这允许 Windows 更新到最新的受支持的操作系统版本。 <br><br>**重要提示**必须**删除**"组策略" 或 "MDM" 设置（未配置），并且**未设置为 "0**"。 如果该策略设置为0，则 Windows 会获得可能不受支持的最新可用版本。 |  无 |
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>用户界面 
 
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
-|虚拟键盘缺失   | 当你需要在 Microsoft Teams 会议室中输入信息时，不显示虚拟键盘。 在运行 Microsoft Teams 会议室的 Surface Pro 4 上安装 Windows 10 创意者更新（版本 1703）后，会出现此问题。 | 要解决此问题，请手动打开虚拟键盘。 为此，请按照下列步骤操作：<br><br> **1.** 点击并按住任务栏，然后点击“显示触摸键盘”按钮****。 键盘图标应出现在任务栏的右侧。 <br><br> **2.** 点击键盘图标以打开虚拟键盘。 | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|虚拟键盘缺失   | 当你需要在 Microsoft Teams 会议室中输入信息时，不显示虚拟键盘。 此问题出现在 Windows 10 版本1903中。 | 通过 Windows 更新为基于 x64 的系统的 Windows 10 版本1903安装2020-04 累积更新。  | 无 | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>硬件
@@ -69,9 +69,6 @@ Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采�
 自 Microsoft Teams 会议室 3.0.12.0 版起，不再支持 64 位版本的 Windows 10 企业版 Anniversary Edition（英语版本 1607）。 
 ***
 Microsoft 团队会议室是一个多窗口应用程序，需要将房间内的正面显示连接到设备的 HDMI 端口，才能使应用正常运行。 请确保你已连接 HDMI 显示器，或者使用虚拟 HDMI 插头（如果你正在测试，并且尚未购买显示器）。
-***
-由于图形驱动程序出现问题，尚未从 Crestron 中的 Microsoft 团队聊天室设备提供 Windows 10 1903。
-
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>另请参阅

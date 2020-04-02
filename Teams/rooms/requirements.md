@@ -14,16 +14,16 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: 本文概述了支持 Microsoft 团队聊天室的要求。
-ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982115"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102333"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft 团队会议室需求
 
-通过使用各种经认证的音频和视频外围设备（基于房间的大小和使用），Microsoft 团队会议室可缩放到不同的会议室大小。 通过选择合适的核心设备和控制台（与麦克风、扬声器、相机和显示器配合使用），你可以将 Microsoft 团队会议室从非常小的 huddle 空间从非常小的空间部署到非常大的会议空间和 boardrooms。  [设备展示](https://products.office.com/microsoft-teams/across-devices)中提供了可用于配置房间的所有可用的已认证音频和视频外设的完整集。
+通过使用各种经认证的音频和视频外围设备（基于房间的大小和使用），Microsoft 团队会议室可缩放到不同的会议室大小。 通过选择合适的核心设备和控制台（与麦克风、扬声器、相机和显示器配合使用），你可以通过非常小的 huddle 空间和 boardrooms 将 Microsoft 团队会议室部署到非常小的空间。  [设备展示](https://products.office.com/microsoft-teams/across-devices)中提供了可用于配置房间的所有可用的已认证音频和视频外设的完整集。
 
 本文概述了支持 Microsoft 团队聊天室的设备部署和配置要求。
 
@@ -116,7 +116,8 @@ ms.locfileid: "42982115"
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure Intellimix P300 音频会议处理器](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 表数组 Mic](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 音频 Conferening 处理器](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 with Intellimix 顶棚 Array Mic](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
-|[Biamp Tesira AVB VT4 固定音频 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 顶棚2麦克风](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT：3.12.0.15 |  |
+|[Biamp Tesira AVB VT4 固定音频 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 顶棚2麦克风](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT：3.12.0.15 |
+|[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink +</br> Sennheiser TCC2 + Bose EDGEMAX + </br> EM180 顶棚扬声器](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4。2  |  |
 ||||||
 
 &Dagger;客户可以选择 Biamp/Sennheiser 推荐的 Dante 接口或网络交换机。

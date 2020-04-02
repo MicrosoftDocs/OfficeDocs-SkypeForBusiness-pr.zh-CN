@@ -14,12 +14,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: 本文介绍 Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题。
-ms.openlocfilehash: e33934dcabc420b7e84886f0301c343f5caf333a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a06b94bff350d07e540a80092bf7edbed33ddc8
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827391"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102313"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
 
@@ -47,6 +47,7 @@ ms.locfileid: "41827391"
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
+    <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -91,9 +92,10 @@ ms.locfileid: "41827391"
 |\<IsTeamsDefaultClient> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 |
 |\<BluetoothAdvertisementEnabled> |布尔 &#x2777;  |第一 &#x2776;  |默认为启用。 |
 |\<DualScreenMode\>  |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则启用双屏幕模式。 否则，设备使用单一屏幕模式。 |
-|\<SendLogs\> |容器 |第一 &#x2776;  ||
-|\<EmailAddressForLogsAndFeedback\> |字符串 &#x2778;  || 设置可在出现 "提供反馈" 窗口时向其发送日志的可选电子邮件地址。 |
-|\<SendLogsAndFeedback\> |布尔 &#x2777;  || 如果为 true，将日志发送到域。如果为 false，仅将反馈发送给管理员（不发送日志）。  |
+| \<DuplicateIngestDefault\> |布尔 &#x2777;  |第一 &#x2776; |如果为 true，则在双屏幕模式下，在两个屏幕上显示的内容在离开会议时显示。 | 
+|\<SendLogs\> |容器 |第一 &#x2776;  |  |
+|\<EmailAddressForLogsAndFeedback\> |字符串 &#x2778;  | | 设置可在出现 "提供反馈" 窗口时向其发送日志的可选电子邮件地址。 |
+|\<SendLogsAndFeedback\> |布尔 &#x2777;  | | 如果为 true，将日志发送到域。如果为 false，仅将反馈发送给管理员（不发送日志）。  |
 | \<设备\>  |容器 |第一 &#x2776;  | 子元素中的已连接音频设备名称与设备管理器应用中列出的值相同。 配置可能包含目前系统中不存在的设备，例如当前未连接到控制台的 A/V 设备。 可能会为各个设备保留配置。  |
 |\<MicrophoneForCommunication\> |字符串 &#x2778;  ||设置在会议中用作录制设备的麦克风。 |
 |\<SpeakerForCommunication\> |字符串 &#x2778;  ||用作会议扬声器的设备。 此设置用于设置通话中使用的扬声器设备。 |
@@ -107,7 +109,7 @@ ms.locfileid: "41827391"
 |\<CustomThemeColor\> |容器 ||\<\>RedComponent \<、\>GreenComponent 和\<BlueComponent\>值的容器。 这些值是自定义主题所必需的。 |
 |\<RedComponent\> |字节 (0-255) ||代表红色组件。 |
 |\<GreenComponent\> |字节 (0-255) ||代表绿色组件。 |
-|\<BlueComponent\> |字节 (0-255) ||代表蓝色组件。 |
+|\<BlueComponent\> |字节 (0-255) ||代表蓝色组件。 | 
 | | | |
 
 &#x2776; 所有第一级元素都是可选的。 如果省略第一级元素，其所有子参数在设备上保持不变。

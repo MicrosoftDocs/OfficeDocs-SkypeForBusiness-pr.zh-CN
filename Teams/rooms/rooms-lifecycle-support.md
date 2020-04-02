@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队聊天室的生命周期支持。
-ms.openlocfilehash: 0f445bf2500a01bf8ffddae569d176229bdcfde5
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9ca1f603a8931f204403870ee65a10f28a2a8795
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825910"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102323"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 团队聊天室应用版本支持
  
@@ -53,16 +53,15 @@ Microsoft 团队聊天室设备上不会立即提供或更新 Windows 10 功能�
 |版本  |可用性日期   |Microsoft 团队会议室支持状态   |Microsoft 团队会议室最小应用程序版本 | 推荐的操作系统内部版本  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 1909 |2019-11-12 |当前验证， <br/>不推荐|&#x2014; |&#x2014; |
-| 1903 |2019-05-21 |支持的 &#x2780;， <br/>推荐  |4.2.4.0 |18362.356 |
-| 1809 |2019-03-28 |路经 <br/>不推荐 &#x2781;|&#x2014; |&#x2014; |
+| 1903 |2019-05-21 |能 <br/>推荐  |4.2.4.0 |18362.356 |
+| 1809 |2019-03-28 |路经 <br/>不推荐 &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |支持                             |4.1.22.0 |17134.191|
 | 1709 |2018-01-18 |不支持                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |否                         |&#x2014; |&#x2014; |
 ||||||
 
-由于 Intel 图形设备驱动程序出现问题，&#x2780; Windows 10 1903 不适用于 Crestron Flex 设备。 Windows 10 1903 不会提供给这些设备。 用户不应将这些设备升级到1903，并将其保存在 Windows 10 1803 上，直到 Crestron 中的图形驱动程序更新可用。 
-
-由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2781; Windows 10 1809 版本。 此特定问题导致在夜间重启后，Microsoft 团队聊天室应用程序无法启动。 此问题已在 Windows 10 1903 版本中解决。  
+ 
+由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，建议不要 &#x2780; Windows 10 版本1809。 此特定问题导致在夜间重启后 Microsoft 团队聊天室应用程序无法启动。 此问题已在 Windows 10 版本1903中解决。  
 
 使用受支持的 Windows 10 版本时，你将始终获取适用于 Microsoft 团队聊天室应用的最新应用程序更新。  
 

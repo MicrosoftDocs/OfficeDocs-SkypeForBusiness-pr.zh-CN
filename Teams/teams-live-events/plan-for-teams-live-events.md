@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096814"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102363"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -87,25 +87,25 @@ ms.locfileid: "43096814"
 |受众参与 – Yammer |&#x2714; |&#x2714;（集成体验） |&#x2714;（集成体验） |
 |受众参与 – 已审核问答 |&#x2714;  |&#x2714; |&#x2714; |
 |Windows 制作者客户端 |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
-|Mac 制作者客户端 |X  | &#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
-|制作者用户界面参与者计数 |X  |&#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
+|Mac 制作者客户端 |&#x274C;  | &#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
+|制作者用户界面参与者计数 |&#x274C;  |&#x2714; (Teams) |&#x2714; （Stream、Teams （通过嵌入 Stream）） |
 |允许多个演示者 |&#x2714; (Skype for Business) |&#x2714; (Teams) |不适用  |
-|会议期间邀请演示者 |&#x2714; (Skype for Business) |X |不适用 |
-|演示者通过 Web 和移动设备加入 |&#x2714; (Skype for Business)  |X |不适用 |
-|联合和来宾演示者/参与者 |&#x2714; (Skype for Business)  | &#x2714; (Teams)  |不适用 |
-|演示者 – PSTN 接入 |X |&#x2714; (Teams) |不适用 |
-|演示屏幕 |X |&#x2714; (Teams) |不适用 |
-|演示 PowerPoint （PPT 共享） |&#x2714; |X （通过屏幕共享缓解） |不适用 |
+|会议期间邀请演示者 |&#x2714; (Skype for Business) |&#x274C; |不适用 |
+|演示者通过 Web 和移动设备加入 |&#x2714; (Skype for Business)  |&#x274C; |不适用 |
+|联合和来宾演示者/参与者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |不适用 |
+|演示者 – PSTN 接入 |&#x274C; |&#x2714; (Teams) |不适用 |
+|演示屏幕 |&#x274C; |&#x2714; (Teams) |不适用 |
+|演示 PowerPoint （PPT 共享） |&#x2714; |&#x274C; （通过屏幕共享缓解） |不适用 |
 |云基会议录制 |&#x2714; |&#x2714; |&#x2714; |
-|自动将录制发布到 Stream |X |X |&#x2714; |
-|实时辅助字幕与字幕 |&#x2714; |&#x2714; |X |
+|自动将录制发布到 Stream |&#x274C; |&#x274C; |&#x2714; |
+|实时辅助字幕与字幕 |&#x2714; |&#x2714; |&#x274C; |
 |实时事件录制字幕 |&#x2714; |&#x2714; |&#x2714; |
 |与会者 DVR 控件（暂停、后退） |&#x2714; |&#x2714; |&#x2714; |
 |合作伙伴 eCDN 支持 |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
-|制作者直播后受众报告 |&#x2714; |&#x2714; |X |
-|受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |X |X |
+|制作者直播后受众报告 |&#x2714; |&#x2714; |&#x274C; |
+|受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> 设定的限制可能会更改。<br/>
+<sup>1</sup> 设定的限制可能会更改。 [适用于团队的检查限制和规范](../limits-specifications-teams.md)。<br/>
 <sup>2</sup>在实时事件中，你最多可以有250个演示者和发生器，但仅在列表中显示最后10个分支。
 
 

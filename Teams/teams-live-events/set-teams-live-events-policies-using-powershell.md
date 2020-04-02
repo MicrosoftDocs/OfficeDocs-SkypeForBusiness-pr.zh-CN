@@ -17,12 +17,12 @@ ms.collection:
 description: 有关如何使用 PowerShell 设置团队中的策略以控制哪些人可以在你的组织中拥有实时事件以及他们创建的事件中可用的功能的示例
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7e9e96bde0112508da200bea741b9938e273a9d
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: cb43e2a7420ef6c121cea93fd4cd8e4cc40ddfb2
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558612"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102353"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
@@ -33,6 +33,9 @@ ms.locfileid: "42558612"
 - [授权-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 下面是一些示例。
+
+> [!NOTE]
+> 必须先连接到 Skype for Business Online PowerShell，然后才能运行这些 cmdlet。 有关详细信息，请参阅[管理 Office 365 PowerShell 的 Skype For Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="allow-users-to-schedule-live-events"></a>允许用户安排实时事件 
 
@@ -142,5 +145,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 
 ### <a name="related-topics"></a>相关主题
 - [设置 Teams 实时事件](set-up-for-teams-live-events.md)
-
+- [Teams PowerShell 概览](../teams-powershell-overview.md)
 
