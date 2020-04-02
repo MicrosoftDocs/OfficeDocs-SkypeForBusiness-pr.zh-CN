@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI Connector 以使用 CQD 查询模板
-ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102343"
+ms.locfileid: "43106689"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI Connector 以使用 CQD 查询模板
 
@@ -121,7 +121,7 @@ ms.locfileid: "43102343"
 
 ### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>我正在尝试将 "日期" 列用作日期切片器。 当我将此列的数据类型转换为 "日期" 时，我就会收到此错误：
 
-  **无法加载此视觉对象的数据**： OLE DB 或 ODBC 错误： [Expression 错误] 无法将表达式折叠到数据源。 请尝试更简单的表达式。 
+> **无法加载此视觉对象的数据**： OLE DB 或 ODBC 错误： [Expression 错误] 无法将表达式折叠到数据源。 请尝试更简单的表达式。 
 
 Power BI 连接器不支持日期切片器。 若要指定日期范围，请将两个筛选器应用于报表，并指定小于和大于日期。
 

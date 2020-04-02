@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 704a08678bfb64cdbee223b555dfaa4fa6350892
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 87918e83aae6f56a3956336603decd41817cdd2a
+ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033366"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100079"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -31,14 +31,14 @@ ms.locfileid: "43033366"
 > 本文是一个帮你的学校建立远程学习的重要资源。 如果你是教师或学校领导，这些资源可能会有所帮助：
 >
 > - 面向教师的文章集合，包括[**在 Teams 中进行教学的首要步骤**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的操作方法。
-> - Microsoft 教师中心中的 1 小时在线课程显示了教师在职业生活中如何使用 Teams。 [**与 Microsoft Teams 一起转变学习方法**](https://education.microsoft.com/course/9c9f5c11/overview)。
+> - Microsoft 教师中心中的 1 小时在线课程介绍了教师在职业生活中如何使用 Teams。 [**与 Microsoft Teams 一起转变学习方法**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft 教师中心中的 1 小时在线课程将指导教师完成班级团队的教学。 [**与班级团队一起营造协作学习环境**](https://education.microsoft.com/course/b1e15cfc/overview)。
-> - 如果你是教师、学生或家长或监护人，请使用 Office 365 获取有关 [**教学和学习的更多指导**](https://aka.ms/RemoteLearningHelp)。
+> - 如果你是教师、学生或家长或监护人，请获取有关[**使用 Office 365 进行远程教学**](https://aka.ms/RemoteLearningHelp)的更多指导。
 > - 家长和监护人也可以转到我们的[**家长支持页面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，获得有关远程学习的帮助。
 
 不要错过 2020 年 3 月 4 日的博客，[学校如何通过 Microsoft Teams 快速启动远程学习计划](https://aka.ms/teamseduremoteblog)。
 
-在线学习可以像在教室里学习一样个人化、互动化和社交化。 学生和教师可通过对话保持联系并互相帮助，并可以感觉像他们正在通过实时会议亲自开会。 教师可以使用作业跟踪学生的日常工作进度。 没有人会感到失去联系。 许多在网上学习的学生说，他们觉得自己比课堂上有更多的发言权，并且与老师和同学之间的联系更加紧密。 而且，就像在教室一样，教师可以使用 Teams 的应用程序和功能来支持他们的最佳工作方式。
+在线学习可以像在教室里学习一样个人化、互动化和社交化。 学生和教师可通过对话保持联系并互相帮助，并可以感觉像他们正在通过实时会议亲自开会。 教师可以使用作业跟踪学生的日常工作进度。 没有人会感到失去联系。 许多在网上学习的学生说，与在课堂上相比，他们觉得自己有更多的发言权，并且与老师和同学之间的联系更加紧密。 而且，就像在教室一样，教师可以使用 Teams 的应用程序和功能来支持他们的最佳工作方式。
 
 Microsoft Teams 是一个数字中心，可将对话、内容、作业和应用程序集中在一起，使教师可以创建充满活力的学习环境。 构建协作课堂、在专业学习社区建立联系以及与同事互动，所有这些都可以通过统一的体验实现。
 
@@ -54,7 +54,7 @@ Teams 拥有台式机（Windows、Mac 和 Linux）、网络和移动（Android �
 
 Teams 利用 Microsoft 365 功能对用户进行身份验证并提供服务。 行政人员、讲师和学生应建立身份标识，以便进行协作。 如果标识尚不存在，请按照以下过程建立。
 
-[需要为用户启用团队许可证](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)，然后[需要向用户分配许可证](teams-edu-licensing.md)，然后他们才能使用 Teams 功能。 Teams 依赖于其他 Microsoft 365 功能（如 [Office 365 组](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)）来实现协作。 如果同时启用了所有这些服务，用户将可获得最佳 Teams 体验。 [由 Google 托管电子邮件服务的用户可以使用 Teams](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+[需要为用户启用团队许可证](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)，然后[需要向用户分配许可证](teams-edu-licensing.md)，然后他们才能使用 Teams 功能。 Teams 依赖于其他 Microsoft 365 功能（如 [Office 365 组](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)）来实现协作。 如果同时启用了所有这些服务，用户将可获得最佳 Teams 体验。 [由 Google 托管电子邮件服务的用户可以使用 Teams](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
 Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费的。 有关如何部署 Office 365 并让整个学校开始在 Teams 上使用的 IT 指南，请参阅[此页面](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 要获得支持，你可以在[此处](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提交票证，如需获取有关 Teams 的培训，请访问当地的 Microsoft Store 以与专家交谈。
 

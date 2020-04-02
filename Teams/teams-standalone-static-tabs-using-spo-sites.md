@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 获取现有 SharePoint Online 网站或页面，并创建可用作您的组织的 Intranet 门户的独立静态选项卡。
 localization_priority: Normal
-ms.openlocfilehash: 772063a7444e9c31d2740ac48635dc0f2e367435
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.openlocfilehash: 0215a2e1f79627f55bc14c00a099b25d2859b6f9
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100352"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106629"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>从 SharePoint Online 网站或页面创建团队 "Intranet 门户应用"
 
@@ -31,8 +31,7 @@ ms.locfileid: "43100352"
 > 确保为你的租户启用团队应用的加载面。 根据在团队管理门户的迁移过程中所处的位置，你可能需要在 office 的 "团队 > 管理员" 或 "管理员 > 设置" > 服务和外接程序 "> Microsoft 团队 > 应用程序 > 外部应用" 中的 ""。 
 
 ## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a>使用应用程序制作程序创建独立的 SharePoint Online 应用
-
-开始之前：
+' ' ' 开始之前：
 1. 你需要了解 SharePoint Online 新式通信或团队网站或页面的 URL。
     - 这些网站在其路径中将始终具有 */teams/* 或 */sites/* 。
 
@@ -66,19 +65,12 @@ ms.locfileid: "43100352"
 10. 填写**contentURL 和网站 URL**。 
 
 - **contentUrl**： {{siteUrl}}/_layouts/15/teamslogon.aspx？SPFX = true&dest = {{sitePath}}  
-- **websiteUrl**： {{siteUrl}} 
+- **web'iteUrl**： {{siteUrl}} ' ' 示例**contentURL**：https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
 
-    示例**contentURL**：https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
+11. 导航到 "**域和 Permissi'ns**"。 请确保有效的域部分包含您的 SharePoint online 域名。
+' ' 示例： contoso.sharepoint.com
 
-11. 导航到 "**域和权限**"。 请确保有效的域部分包含您的 SharePoint online 域名。
-
-    示例： contoso.sharepoint.com
-
-12. 添加以下 web 应用**单一登录**属性： 
-     
-     示例： **AAD 应用程序 ID**： 00000003-0000-0Ff1-ce00-000000000000**资源 Url**： {{子域}} .com
-
-    ![具有 ID 和 URL 的 Web 应用单一登录。](media/personal-app.png)
+12. 添加以下 web 应用**单一登录**属性： "' 示例： ' ' ' ' **AAD 应用程序 ID**： 00000003-0000-0ff1-ce00-000000000000**资源 Url**： {{子域}} web.config" ![web APP 单一登录，其中包含 ID 和 Url。](media/personal-app.png)
 
 13. **保存**这些属性，然后导航到 "**测试并分发**"。 
 
@@ -96,15 +88,15 @@ ms.locfileid: "43100352"
 如果要使新应用在较高位置的左侧菜单中可用，必须为此使用应用策略设置。 此设置可在 "团队管理员" 部分 > 应用策略 > 添加固定的应用程序中找到。 将策略分配给用户进行测试时，所做的更改将在24小时后显示。 考虑到这一点，请确定应用在最早的方便下应显示的位置，以帮助避免延迟。
 
 若要在移动设备上查看和测试新应用，请点击屏幕底部选项卡栏上方的 v**^** 形（）打开应用抽屉。 查找你的应用并在移动设备上导航到该应用。
-
+        
 > [!CAUTION]
 > 移动支持目前正在开发人员预览版中。 若要启用开发人员预览版，请导航到 "设置" > "，然后启用" 开发人员预览 "模式。
 
 ## <a name="a-sample-manifestjson-file"></a>示例清单 JSON 文件
 
-你生成的 JSON 文件将如下所示。
+你生成的 JSO 文件将如下所示。
 
-```JSON
+```JSON'
 { 
 
     "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json", 
@@ -119,7 +111,7 @@ ms.locfileid: "43100352"
 
     "developer": { 
 
-        "name": "Contoso", 
+        "name": "Contoso", ''
 
         "websiteUrl": "https://www.contoso.com", 
 
@@ -139,13 +131,13 @@ ms.locfileid: "43100352"
 
     "name": { 
 
-        "short": "Contoso Intranet", 
+        "short": "Contoso Intranet", '
 
         "full": "Intranet Portal for Contoso" 
 
-    }, 
-
-    "description": { 
+    },                     
+                        
+    "des    ription": {                 
 
         "short": "Intranet portal for Contoso", 
 
@@ -154,13 +146,13 @@ ms.locfileid: "43100352"
     }, 
 
     "accentColor": "#FFFFFF", 
-
+''
     "staticTabs": [ 
 
         { 
-
-            "entityId": "communicationSiteTab", 
-
+                                       
+                     "       nti        Id":       "com    unicat    onSi    eTab", 
+                                       
             "name": "Contoso Net", 
 
             "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/", 
