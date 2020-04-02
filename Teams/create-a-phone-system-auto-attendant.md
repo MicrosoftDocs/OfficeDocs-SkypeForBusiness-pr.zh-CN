@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824802"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43102084"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -220,8 +220,13 @@ ms.locfileid: "41824802"
 
 > [!IMPORTANT]
 > 请注意以下事项：
->- 您希望可供拨号使用的用户需要将扩展指定为在[Microsoft 365 管理中心](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)中分配的电话号码或移动电话号码的一部分。  在 "用户电话号码" 字段中输入扩展名所需的格式是 " `+<phonenumber>;ext=<extension>`或`x<extension>`"。
->- 当前不支持在团队管理中心中分配扩展。 你必须使用[MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) powershell 命令或 Microsoft 365 管理中心。
+>- 希望可供拨号使用的用户需要将扩展指定为在 Active Directory 或 Azure Active Directory [Microsoft 365 管理中心](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)中定义的以下某个电话属性的一部分。
+>    - HomePhone
+>    - 手机/MobilePhone
+>    - TelephoneNumber/电话号码
+>    - OtherTelephone
+>- 在 "用户电话号码" 字段中输入扩展名所需的格式是 " `+<phonenumber>;ext=<extension>`或`x<extension>`"。
+>- 当前不支持在团队管理中心中分配扩展。 你必须使用[MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell 命令或 Microsoft 365 管理中心。
 >- 在对 AAD 电话号码和 MobilePhone 属性的更改可用之前，最多可能需要12小时。
 >- 请不要为用户的 LineUri 定义扩展名。 目前不支持这种情况。
 >- 自动助理可配置为通过名称拨号或通过分机号码拨号，但不能同时进行这两种操作。
@@ -269,7 +274,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 ![数字3的图标，上一个屏幕截图](media/teamscallout3.png)中的标注选择 "**清除所有小时**" 以完全清除该计划。 不建议选择此项并保留未设置的小时，因此，仅当你想要完全恢复你的工作时间时，请使用此选项。
 
-![数字4的图标，第4个屏幕截图](media/teamscallout4.png)![图标中的标注，第一个屏幕截图](media/teamscallout5.png)中的标注自定义一周中某一天的开始或结束时间，单击要重置的 "**开始**" 或 "结束" 时间，然后从显示的列表中选择新时间。 ****   该列表允许你按15分钟的间隔选择营业时间，你在此处选择的工作时间基于你在 "**常规信息**" 页面上设置的时区。
+![数字4的图标，第4个屏幕截图](media/teamscallout4.png)![图标中的标注，第一个屏幕截图](media/teamscallout5.png)中的标注自定义一周中某一天的开始或结束时间，单击要重置的 "**开始**" 或 "结束" 时间，然后从显示的列表中选择新时间。 **End at**   该列表允许你按15分钟的间隔选择营业时间，你在此处选择的工作时间基于你在 "**常规信息**" 页面上设置的时区。
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
