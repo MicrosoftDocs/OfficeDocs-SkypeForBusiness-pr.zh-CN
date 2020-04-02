@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f91ba33e372334fed3561227f1c7f88f9357aa55
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 64bcdee7e1a4ce7f36a9089fd5231cf2a63e9d5b
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43060386"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43109464"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络 
 
@@ -35,6 +35,7 @@ ms.locfileid: "43060386"
     |---------|---------|
     |端口     |UDP 端口<strong>3478</strong>到<strong>3481</strong>        |
     |[IP 地址](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>、 <strong>52.112.0.0/14</strong>和<strong>52.120.0.0/14</strong>         |
+
     
 2.  您是否有经验证的 Office 365 域（例如，contoso.com）？
     
