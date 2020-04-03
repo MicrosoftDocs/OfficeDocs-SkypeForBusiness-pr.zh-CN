@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 0320a08a5358716472d382482cb9c825d0709e59
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327844"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117430"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -37,6 +37,7 @@ ms.locfileid: "42327844"
 ![Outlook 功能区中的 Teams 会议加载项屏幕截图](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - 如果你的组织同时运行团队和 Skype for business，则有其他注意事项。 在某些情况下，"团队外接程序" 在 Outlook 中不可用。 有关详细信息，请参阅[从 Skype For Business 升级到团队](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
 > - 执行 Regsvr32.exe 文件的用户权限是将 Teams 会议加载项安装在计算机上的最低要求。
 > - 如果用户未看到 Teams 会议外接程序，请指示他们关闭 Outlook 和 Teams，然后按以下顺序执行操作：先重新启动 Teams 客户端，然后登录 Teams，再重新启动 Outlook 客户端。
 > - 如果使用的是来自 Microsoft Store 的 Office Outlook 安装，则不支持 Teams 会议加载项。 建议需要此加载项的用户安装 Office 的即点即用版本，如[在 Windows 10 S 模式中的 Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) 一文中所述。
@@ -73,7 +74,7 @@ FindTime 是帮助公司之间在会议时间上达成一致的 Outlook 加载�
 
 ## <a name="authentication-requirements"></a>身份验证要求
 
-Teams 会议外接程序要求用户使用新式身份验证登录 Teams。 如果用户未使用此方法登录，他们仍可使用 Teams 客户端，但无法使用 Outlook 外接程序安排 Teams 在线会议。 可以通过以下方式之一解决此问题：
+Teams 会议外接程序要求用户使用新式身份验证登录 Teams。 如果用户不使用此方法登录，他们仍然能够使用团队客户端，但无法使用 Outlook 加载项安排团队联机会议。 可以通过以下方式之一解决此问题：
 
 - 如果贵组织未配置新式身份验证，则应配置新式身份验证。
 - 如果配置了新式身份验证，但他们在对话框中取消了，则应该指示用户使用多重身份验证重新登录。
@@ -120,7 +121,7 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 - 确保已应用所有可用的 Outlook 桌面客户端更新。
 - 重启 Teams 桌面客户端。
 - 注销，然后重新登录到 Teams 桌面客户端。
-- 重启 Outlook 桌面客户端。 （请确保 Outlook 未运行管理员模式。）
+- 重启 Outlook 桌面客户端。 （请确保 Outlook 未在管理员模式下运行。）
 - 确保登录的用户帐户名称不包含空格。 （这是一个已知问题，将在后续更新中修复。）
 - 确保单一登录 (SSO) 已启用。
 
