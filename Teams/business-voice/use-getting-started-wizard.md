@@ -17,22 +17,25 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba381659572fa8cfda6ac605a2910ef19220dcbd
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 95ad893b3070a560edfa0e4afe46ab10df2960ad
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285814"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096877"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用“入门”向导设置商务语音
+
+> [!IMPORTANT]
+> 本文中的信息仅适用于**包含**通话套餐的商务语音。 含通话套餐的商业语音仅在所选国家和地区可用。 阅读本文前，请查看[商务语音的国家和地区可用性](country-region-availability.md)，查看你所在的国家或地区是否支持使用包含通话套餐的商务语音。
+>
+> 如果你的租户所在的国家或地区不支持含通话套餐的商务语音，请查看[从 Microsoft 经销商或合作伙伴处获取帮助](reseller-partner-support.md)。
 
 Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsoft Teams 中拨打和接听电话。 如果是一家刚创立的小型企业，此向导可在几分钟内启动并运行电话号码、呼叫菜单、问候语等。 如果是已创建电话解决方案的大型企业，此向导可帮助设置试点，这样可以让一些用户先试用它，然后再面向所有人推出。 无论你的企业是哪种规模，都可以在完成向导后立刻开始使用商务语音！
 
 启动向导前，建议先阅读本文。 当你做好运行此向导的准备后，请选择“[开始使用 Microsoft 365 商务语音](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice)”页面上的“**入门**”。 请使用创建订阅所用的帐户或作为全局管理员的其他帐户登录。
 
 > [!IMPORTANT]
-> 目前商务语音适用于加拿大和英国。 在 2020 年，它将适用于更多国家和地区。
->
 > 只有在用户的邮箱位于 Microsoft 365 中时，Microsoft Teams 和商务语音才可用。  不支持本地 Exchange Server 上的邮箱。
 
 <!-- After you've finished the wizard, you may want to check out the following articles:

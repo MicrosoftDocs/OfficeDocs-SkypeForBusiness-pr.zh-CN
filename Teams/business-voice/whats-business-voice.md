@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 商业语音的概述，并介绍它如何帮助中小型企业更高效地沟通。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9093fe2fd7050e582132c79a932b4b6fd4925d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ecce1626a541c14c7175390c086acfa5eb0262f2
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824560"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096867"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什么是 Microsoft 365 商务语音？
 
@@ -42,8 +42,9 @@ ms.locfileid: "41824560"
 * Microsoft 365 E3
 * Microsoft 365 商业版
 
+商务语音在 70 国家和地区可用。 是否可以自行设置商务语音，将电话号码转移到 Microsoft 365 以及在 Microsoft 365 中管理电话号码，取决于 Microsoft 365 租户所在的国家或地区。 有关详细信息，请查看“[通话套餐的国家和地区可用性](country-region-availability.md)。
+
 > [!IMPORTANT]
-> 目前商务语音适用于加拿大和英国。 在 2020 年，它将适用于更多国家和地区。
 >
 > 只有在用户的邮箱位于 Microsoft 365 中时，Microsoft Teams 和商务语音才可用。  它们不支持位于本地 Exchange Server 的邮箱。
 

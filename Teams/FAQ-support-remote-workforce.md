@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d897fe85bbc1dc2a77759b126bce5436cc617c04
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068504"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096957"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -45,7 +45,7 @@ Microsoft 在最近发布的新型冠状病毒肺炎（COVID-19）疫情公告�
 
 ### <a name="what-can-admins-do-if-attendees-are-having-trouble-joining-meetings-by-dialing-in-such-as-if-calls-arent-getting-through"></a>如果与会者在拨入电话时遇到麻烦，例如电话打不通，管理员该怎么办？
 
-在新型冠状肺炎（COVID-19） 爆发期间，建议用户通过单击“**加入团队会议**”按钮来加入会议，而不是使用 PSTN 会议号码或 **给我打电话**。 这有助于在高容量会议造成 PSTN 网络拥堵时确保音频质量。
+在新型冠状肺炎（COVID-19） 爆发期间，建议用户通过单击“**加入团队会议**”按钮来加入会议，而不是使用 PSTN 会议号码或 **给我打电话**</strong>。 这主要是由于新型冠状病毒（COVID-19）所影响国家/地区的电话基础设施拥堵而导致。 通过避免 PSTN 通话，您可能会体验到更好的音频质量。 
 
 ### <a name="what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network"></a>Microsoft 对于 Microsoft 365 网络优化的通用准则是什么？ 中国的部分用户体验不佳；我应该怎么做才能优化网络？
 

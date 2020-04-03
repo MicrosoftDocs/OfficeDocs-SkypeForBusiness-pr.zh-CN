@@ -17,12 +17,12 @@ f1.keywords:
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951507"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096617"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -276,7 +276,7 @@ ms.locfileid: "42951507"
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
-|资源帐户配置错误部门 <br/> | 与 2019 年 1 月之前创建的自动助理或呼叫队列关联的本地资源帐户可能没有正确设置“部门”参数，这可能会导致电话号码分配失败。 正在进行修复以解决此问题。 <br/><br/> 使用 New-CsHybridApplicationEndpoint 为 Skype for Business Server 配置的资源帐户可能未正确设置“部门”参数，进而导致无法在 Teams 管理中心内创建资源帐户。 在这种情况下，需要在同步到 Skype for Business Online 前，先在本地 Active Directory 中配置部门名称。|若要缓解此问题, 可以运行以下 Cmdlet 来设置部门参数。 Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Microsoft 通信应用程序实例" <br/> 另请参阅[自动助理和呼叫队列服务更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)。 |2019/5/8 <br/> |
+|资源帐户配置错误部门 <br/> | 与 2019 年 1 月之前创建的自动助理或呼叫队列关联的本地资源帐户可能没有正确设置“部门”参数，这可能会导致电话号码分配失败。 正在进行修复以解决此问题。 <br/><br/> 使用 New-CsHybridApplicationEndpoint 为 Skype for Business Server 配置的资源帐户可能未正确设置“部门”参数，进而导致无法在 Teams 管理中心内创建资源帐户。 在这种情况下，需要在同步到 Skype for Business Online 前，先在本地 Active Directory 中配置部门名称。|要缓解此问题，可以运行以下 Cmdlet 来设置部门参数：Set-AdUser -Identity <objectId> -Department “Microsoft Communication Application Instance” <br/> 另请参阅[自动助理和呼叫队列服务更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)。 |2019/5/8 <br/> |
 
 
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
