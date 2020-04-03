@@ -12,32 +12,32 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: aaa60d789f5048c11647460dccb636da8c519e62
-  ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
+  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "41953793"
+  ms.lasthandoff: 04/02/2020
+  ms.locfileid: "43117530"
 highlightedContent:
   items:
+  - title: COVID-19 response-支持使用团队的远程工作者
+    itemType: overview
+    url: /MicrosoftTeams/support-remote-work-with-teams
   - title: 如何推广 Teams
     itemType: deploy
     url: /MicrosoftTeams/how-to-roll-out-teams
+  - title: 团队中的安全和合规性
+    itemType: overview
+    url: /MicrosoftTeams/security-compliance-overview
   - title: 查找你和你的用户的培训
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: 从 Skype for Business 升级到 Teams
-    itemType: overview
+    itemType: how-to-guide
     url: /MicrosoftTeams/upgrade-start-here
   - title: 采用中心
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-  - title: IT 体系结构海报和解决方案
-    itemType: architecture
-    url: /MicrosoftTeams/teams-architecture-solutions-posters
-  - title: 如果您不熟悉团队，请从这里开始
-    itemType: quickstart
-    url: /MicrosoftTeams/teams-overview
 additionalContent:
   sections:
   - items:
@@ -51,8 +51,8 @@ additionalContent:
         url: /MicrosoftTeams/teams-memory-usage-perf
       - text: 与其他组织中的用户通信（来宾/外部访问）
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-      - text: 团队中的安全和合规性
-        url: /MicrosoftTeams/security-compliance-overview
+      - text: IT 体系结构海报和解决方案
+        url: /MicrosoftTeams/teams-architecture-solutions-posters
     - title: 与团队进行语音通话
       links:
       - text: Cloud voice in Microsoft Teams
