@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e147a300f628347b5e38837a3d277a78a4c593c4
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285744"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131140"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -32,11 +32,11 @@ ms.locfileid: "42285744"
 
 用户的 Exchange 邮箱可以托管在线上或本地。 但是，某些功能需要与你的 Office 365 租户进行混合部署。
 
-Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队和频道、创建和查看会议、呼叫和聊天、修改用户个人资料图片以及添加和配置连接器、选项卡和机器人。
+Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队和频道、创建和查看会议、呼叫和聊天、修改用户个人资料图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），以及添加和配置连接器、选项卡和机器人。
 
 托管在 Exchange Online 专用（旧版）上的用户必须同步到 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道，添加和配置选项卡和机器人，以及利用聊天和通话功能。 但是，他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
 
-拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，此外还可以更改用户配置文件图片和管理会议，提供 Exchange Server 2016 （累积更新3）或更高版本，以在本地运行。
+拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，还可以更改用户配置文件图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），并管理会议，提供 Exchange Server 2016 （累积更新3）或更高版本，以在本地运行。
 
 下表提供了基于 Exchange 环境的功能可用性的有用快速参考。
 
@@ -45,10 +45,10 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 | 用户的邮箱托管在： | 电子数据展示| 法律&nbsp;封存 | 保存| 团队和频道管理 |在团队中创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是 |是 |是 |是<sup>7</sup>|必需|是 |是 |是 |
-|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是 |是 |是 |是<sup>7</sup>|必需|是 |是 |是|
+|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是 |
+|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是|
 |**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是<sup>4|是|否|否|必需|是|否|是<sup>5|是<sup>6|必需|是 |
-|**本地 Exchange** （需要同步至 Azure AD）|是<sup>2</sup>| 是<sup>2，3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是（Exchange 2016 CU3 +）|必需|是|否|是<sup>5|是<sup>6|必需|是 |
+|**本地 Exchange** （需要同步至 Azure AD）|是<sup>2</sup>| 是<sup>2，3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|必需|是|否|是<sup>5|是<sup>6|必需|是 |
 
 <sup>1</sup> EXCHANGE 2016 CU3 及以上版本均受支持。  
 
@@ -63,6 +63,8 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 <sup>6</sup>如果团队的其中一个所有者可以添加连接器，则该团队中的其他所有人都可以执行此操作，即使他们的邮箱在本地托管。
 
 <sup>7</sup>仅限默认联系人文件夹中的联系人。 不支持访问其他联系人文件夹或子文件夹。
+
+<sup>8 个</sup>团队负责[Outlook on web 邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置，该设置由租户管理员配置，用于控制用户是否可以更改其个人资料图片。 如果策略中的 **-SetPhotoEnabled**设置处于关闭状态，则用户无法添加、更改或删除其个人资料图片。 例如，如果用户上载由您的组织的 IT 或人力资源部门批准的个人资料图片，则无需执行任何操作。 但是，如果用户上载的图片不合适，请根据组织的内部策略更改图片。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 团队的要求
 

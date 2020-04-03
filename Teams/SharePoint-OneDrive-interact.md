@@ -17,24 +17,24 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 236b1d570d44395f3499c0a5fec3d3a415953e12
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d5f2698330ae23f25ffbbe5fae40d8dc6234354d
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834682"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131110"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 
 > [!Tip]
 > 观看以下会话，了解团队如何与 Azure Active Directory （AAD）、Office 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队基础](https://aka.ms/teams-foundations)
 
-Microsoft 团队中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个标准频道都将获取默认工作组网站文档库中的一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
+Microsoft 团队中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个标准频道都将获取默认工作组网站文档库中的一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。 若要查看更改 SharePoint 中的网站地址的影响，请阅读[更改网站地址](https://docs.microsoft.com/sharepoint/change-site-address)。
 
 > [!NOTE]
 > 本文仅适用于标准频道。 专用信道的体系结构与标准信道不同。 每个专用频道都有其自己的与父团队网站分开的 SharePoint 网站集。 若要了解详细信息，请参阅[Microsoft 团队中的专用频道](private-channels.md)。
 
-私人聊天文件存储在发送方的 OneDrive for Business 文件夹中，在文件共享过程中，系统会自动向所有参与者授予权限。
+私人聊天文件存储在发件人的 OneDrive for business 文件夹中，并将权限自动授予所有参与者作为文件共享过程的一部分。
 
 如果没有为用户分配和启用 SharePoint Online 许可证，则他们在 Office 365 中没有 OneDrive for Business 存储空间。 文件共享将继续在标准频道中工作，但是用户无法在 Office 365 中共享没有 OneDrive for business 存储的聊天文件。
 
