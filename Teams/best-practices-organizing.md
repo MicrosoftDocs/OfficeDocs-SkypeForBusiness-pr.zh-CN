@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中组织团队的最佳做法
+title: 组织团队的最佳做法
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59dcb99e8e8734885f7e62b79102cfad2745612a
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795755"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136872"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
@@ -40,7 +41,7 @@ ms.locfileid: "42795755"
 
 ## <a name="create-channels-to-focus-discussions"></a>创建以讨论为重点的频道
 
-创建团队后，最好开始考虑需要支持的不同类型项目和对话。 请创建初始频道，这样成员就知道在哪里参与并查找现有对话。 命名描述性频道名称，这样成员就更容易知道到哪里查找每个对话。 请将工具（如 OneNote、Power BI 或 Planner）作为选项卡添加到频道中，这样成员就可以直接在频道中使用所需的一切功能。 也可以将常用网页作为选项卡添加到频道中。 
+创建团队后，最好开始考虑您需要支持的各种不同项目和对话的类型。 请创建初始频道，这样成员就知道在哪里参与并查找现有对话。 命名描述性频道名称，这样成员就更容易知道到哪里查找每个对话。 请将工具（如 OneNote、Power BI 或 Planner）作为选项卡添加到频道中，这样成员就可以直接在频道中使用所需的一切功能。 也可以将常用网页作为选项卡添加到频道中。 
 
 若要详细了解这些面向最终用户的快速提示与技巧，请参阅[在团队中工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)。 
 

@@ -1,5 +1,5 @@
 ---
-title: 经认证可用于直接路由的会话边界控制器列表
+title: 为直接路由认证的会话边框控制器
 ms.author: crowe
 ms.reviewer: FilippSe
 author: CarolynRowe
@@ -17,12 +17,13 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft 合作伙伴与选定的 SBC 供应商认证其 SBC 可用于直接路由。
-ms.openlocfilehash: e7831abf7a5d522afd05c3fd178e6acda04772e3
-ms.sourcegitcommit: 43e8960ef091d9e206f22eb7ffef9d6e84756335
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fcad24511384a9fb1cf8e49d5f305801622be6f3
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42939616"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137309"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 

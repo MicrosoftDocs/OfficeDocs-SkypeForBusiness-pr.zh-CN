@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.bridgesettings
-description: '获取在不使用 Skype for Business 或 Microsoft 团队应用时用于提示呼叫者和收集会议组织者的名称和 pin 的会议桥设置所需的步骤。 '
-ms.openlocfilehash: d872bf3d0db2e19089716ab65fc487db601c48ea
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 更改音频会议桥设置，包括进入和退出通知、播放姓名或电话号码、声音，以及提示呼叫者录制其姓名。
+ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825110"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139081"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
@@ -42,7 +43,7 @@ ms.locfileid: "41825110"
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft 团队徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft 团队徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 在左侧导航中，转到 "**会议** > **桥**"。 
 
@@ -67,7 +68,7 @@ ms.locfileid: "41825110"
 6. 单击“**保存**”。 
 
 
-## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![显示 Skype for Business 徽标的图标](media/sfb-logo-30x30.png)  使用 Skype for Business 管理中心
+## <a name="an-icon-showing-the-skype-for-business-logo--using-the-skype-for-business-admin-center"></a>![显示 Skype for Business 徽标的图标](media/sfb-logo-30x30.png)  使用 Skype for Business 管理中心
 
  **在呼叫者加入会议时设置会议体验**
     

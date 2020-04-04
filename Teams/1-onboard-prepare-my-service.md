@@ -1,5 +1,5 @@
 ---
-title: 准备部署 Microsoft Teams 云语音服务
+title: 准备部署云语音服务
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862822"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137992"
 ---
 # <a name="prepare-my-service"></a>准备服务
 
@@ -80,7 +81,7 @@ ms.locfileid: "41862822"
 
 ## <a name="test-cloud-voice-workloads-in-teams"></a>在团队中测试云语音工作负载
 
-在构思阶段中定义并记录团队云语音业务成功和技术实现计划后，在管理中心执行所需的配置后，下一步是验证你的组织的通过功能、功能和可用性来满足预期和要求。 在生产环境中部署试验或最终部署之前，应执行此验证步骤。
+将团队云语音业务成功和技术实现计划定义并记录为构思阶段的一部分并在管理中心执行所需的配置后，下一步是验证你的组织的预期和要求是否通过功能、功能和可用性来满足。 在生产环境中部署试验或最终部署之前，应执行此验证步骤。
 
 你可以利用在 Envision 阶段中定义的业务成功计划来充当确定活动、预期、功能/功能测试用例以及测试阶段中要评估的整体范围的基础。
 

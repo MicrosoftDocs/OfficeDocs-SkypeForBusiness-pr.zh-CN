@@ -1,5 +1,5 @@
 ---
-title: 为 Microsoft Teams 采用优化反馈和报告功能
+title: 优化 Microsoft 团队采纳的反馈和报告
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,18 +13,20 @@ search.appverid: MET150
 description: 了解如何获取用户反馈并使用团队采纳中的服务运行状况报告。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81e0b580099f3fb8f40a3109dc5f1c76e910c02b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046035"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140693"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用优化反馈和报告功能
 

@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: f8a5ef737e6a4e7aff567a0983a9dad6295fa834
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 了解如何在爱尔兰中拨打免费电话号码，包括可用性、有线/固定线和移动网络可用性以及限制。
+ms.openlocfilehash: d976c670170eee09848fa26fd527178bbf9fc033
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707607"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140361"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>爱尔兰的免费拨号限制
 
 [查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
 
 
-|**详细信息**|**说明**|
+|**Details**|**说明**|
 |:-----|:-----|
 |是否可以免费通话？  <br/> |是  <br/> |
 |拨号格式  <br/> |1 800 XXX XXX  <br/> |

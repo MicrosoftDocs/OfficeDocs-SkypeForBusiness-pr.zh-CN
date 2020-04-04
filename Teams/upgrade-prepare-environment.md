@@ -1,5 +1,5 @@
 ---
-title: 为从 Skype for Business 升级到 Teams 准备环境
+title: 准备要升级到团队的环境
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afbcc5721d55983e19970e6c2fbc60e5a7467cba
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: de551d9855e4c9421f4809ec5fbef58c30ae7314
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706792"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139631"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>准备要升级到团队的环境
 

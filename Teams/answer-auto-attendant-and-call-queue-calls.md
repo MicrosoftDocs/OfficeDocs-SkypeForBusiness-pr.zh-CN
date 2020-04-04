@@ -1,5 +1,5 @@
 ---
-title: 直接从 Teams 回答自动助理和呼叫队列
+title: 应答自动助理和呼叫队列呼叫
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825310"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137432"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 ===========================================================
@@ -34,7 +35,7 @@ ms.locfileid: "41825310"
 
 云自动助理提供一系列语音提示或音频文件，当呼叫者呼叫组织时，呼叫者将听到该提示，而不是人工操作员。 自动助理使呼叫者能够移动浏览菜单系统，进行呼叫，或者使用电话键盘 (DTMF) 或采用语音识别功能的语音输入找到用户。
 
-云呼叫队列包括当某人拨打您的组织的电话号码时使用的问候语、自动保持通话的功能，以及搜索下一个可用的呼叫代理以处理呼叫，而通话的人员在保持状态时收听音乐。 您可以为您的组织创建单个或多个通话队列。
+云呼叫队列包括当某人拨入到您的组织的电话号码时使用的问候语、自动将呼叫置于保持状态的功能，以及搜索下一个可用的呼叫代理以处理呼叫的功能，同时呼叫正在收听音乐的用户。 您可以为您的组织创建单个或多个通话队列。
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>处理自动助理或呼叫队列呼叫
 
@@ -53,10 +54,10 @@ ms.locfileid: "41825310"
 
 自动助理和呼叫队列呼叫支持在以下客户端中可用：
 
--   Microsoft Teams Windows 客户端 （32 和 64 位版本）
--   Microsoft Teams Mac 客户端
--   Microsoft Teams iPhone 应用
--   Microsoft Teams Android 应用
+-    Microsoft Teams Windows 客户端 （32 和 64 位版本）
+-    Microsoft Teams Mac 客户端
+-    Microsoft Teams iPhone 应用
+-    Microsoft Teams Android 应用
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为 Microsoft 团队配置自动助理和呼叫队列支持
 
@@ -64,8 +65,8 @@ ms.locfileid: "41825310"
 
 ## <a name="related-topics"></a>相关主题
 
--   [什么是 Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
--   [创建云呼叫队列](create-a-phone-system-call-queue.md)
--   [什么是云自动助理？](what-are-phone-system-auto-attendants.md)
--   [设置云自动助理](create-a-phone-system-auto-attendant.md)
+-    [什么是 Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
+-    [创建云呼叫队列](create-a-phone-system-call-queue.md)
+-    [什么是云自动助理？](what-are-phone-system-auto-attendants.md)
+-    [设置云自动助理](create-a-phone-system-auto-attendant.md)
 

@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 阅读本主题，了解 Microsoft Phone 系统直接路由如何让你将支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
-ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
+ms.custom: seo-marvel-mar2020
+description: 了解 Microsoft Phone 系统直接路由如何让你将受支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
+ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955721"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140281"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -264,7 +265,7 @@ SIP/TLS|SBC|SIP 代理|在 SBC 上定义|5061|
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>SIP 信号的故障转移机制
 
-SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和数据中心性能指标，选择主数据中心。 如果主数据中心遇到问题，则 SBC 将尝试可解析为第二个分配的数据中心的 sip2.pstnhub.microsoft.com，并且在这种情况下，在两个区域中的数据中心不可用时，SBC 将重试最后一个 FQDN （sip3.pstnhub.microsoft.com），它提供第三数据中心 IP。
+SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和数据中心性能指标，选择主数据中心。 如果主数据中心遇到问题，则 SBC 将尝试解析为第二个分配的数据中心的 sip2.pstnhub.microsoft.com，并且在两个区域中的数据中心不可用的情况下，SBC 将重试最后一个 FQDN （sip3.pstnhub.microsoft.com），它提供第三个数据中心 IP。
 
 下表总结了主数据中心、辅助数据中心和第三数据中心之间的关系：
 

@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
-description: 除了标准的音频会议每用户许可证之外，使用 Microsoft 批量许可的组织还可以选择为其组织启用音频会议功能的每分钟费率优惠。
-ms.openlocfilehash: ac73ca3396e5fff9e9146206a8f9e2008d9065f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 了解有关使用 Microsoft 批量许可的组织启用音频会议功能的每分钟费率选项。
+ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826280"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139161"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -59,7 +60,7 @@ ms.locfileid: "41826280"
 
 ## <a name="why-is-it-best-for-you"></a>为什么最适合您？
 
-- 每分钟支付的每分钟费用仅针对每个与会者在计划会议期间发出的入站或出站通话收费，而不是在手机上使用 Skype for business 或团队应用程序，而收费设备或电脑。
+- 每分钟支付的每分钟费用仅针对每个与会者在计划会议期间发出的入站或出站呼叫收费，而不是在移动设备或电脑中使用 Skype for business 或团队应用程序。
 
 - 管理成本的能力，自管理员可以控制以限制可通过组织者的会议完成的拨出（国际和国内）的类型。 查看[用于音频会议和用户 PSTN 呼叫的出站呼叫限制策略](/microsoftteams/outbound-calling-restriction-policies)
 
@@ -75,7 +76,7 @@ ms.locfileid: "41826280"
 
  **正在搜索价格？** 了解[如何查看价格并购买附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how)或下列内容之一：
   
-- [音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
 - [电话系统定价](https://products.office.com/skype-for-business/phone-system#Requirements)
     

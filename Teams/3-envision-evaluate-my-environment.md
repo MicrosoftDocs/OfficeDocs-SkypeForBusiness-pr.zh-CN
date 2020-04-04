@@ -1,5 +1,5 @@
 ---
-title: 评估 Microsoft Teams 云语音和工作负载的环境
+title: 评估云语音工作负荷的环境
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3efb5a58c36a38757b2f6046ca8c8c42ab80f6ce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825070"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137982"
 ---
 # <a name="evaluate-my-environment"></a>评估环境
 
@@ -42,7 +43,7 @@ ms.locfileid: "41825070"
 
 ## <a name="current-environment"></a>当前环境
 
-作为环境发现的一部分，请包括与最终用户计算相关的所有事宜，如电脑和移动设备的准备情况评估，以支持音频会议和手机系统，支持使用呼叫计划的业务使用案例，从硬件要求到软件要求。
+作为环境发现的一部分，请包括与最终用户计算相关的所有事宜，如电脑和移动设备的准备情况评估，以支持音频会议和手机系统，支持使用呼叫计划的业务使用案例（从硬件要求到软件要求）。
 
 环境发现还可以揭示是否需要将[电话号码转移到 Microsoft](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 了解此操作将帮助你的组织相应调整其项目计划，并为数字移植准备必要的信息。 你可以使用[Microsoft 团队推出的环境发现](environmental-discovery-for-microsoft-teams-rollout.md)来执行环境发现。
@@ -114,16 +115,16 @@ ms.locfileid: "41825070"
 
 许多网络设计为使用中心和辐射型拓扑。 在此拓扑中，Internet 流量通常先穿过 WAN 到达中心数据库，然后再向外传输（流出）到 Internet。 通常，这么做事为了集中网络安全设备，目的是降低总成本。
 
-经过 WAN 的回程流量会造成延迟增加，并对质量和用户体验产生负面影响。 由于 Microsoft Teams 在 Microsoft 的大型全局网络上运行，因此，用户附近通常会有网络对等位置。 用户通过从其所在位置附近的本地 Internet 点流出并尽快进入我们的语言优化网络，很可能会获得更佳的性能。 对于某些工作负荷，使用 DNS 请求向最近的前端服务器发送流量。 在这种情况下，务必要在使用本地出口点时，将其与本地 DNS 解析配对。
+经过 WAN 的回程流量会造成延迟增加，并对质量和用户体验产生负面影响。 由于 Microsoft 团队在 Microsoft 的大型全球网络上运行，因此通常会向用户靠近网络对等位置。 用户通过从其所在位置附近的本地 Internet 点流出并尽快进入我们的语言优化网络，很可能会获得更佳的性能。 对于某些工作负荷，使用 DNS 请求向最近的前端服务器发送流量。 在这种情况下，在使用本地出口点时，它与本地 DNS 解析相配对非常重要。
 
-优化指向 Microsoft 的全局网络的网络路径将会提高性能，并最终将为用户提供最佳体验。 有关更多详细信息，请参阅博客文章 [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)（在 Office 365 中获取最佳连接性和性能）。
+优化 Microsoft 全球网络的网络路径将提高性能，并最终为用户提供最佳体验。 有关更多详细信息，请参阅博客文章 [Getting the best connectivity and performance in Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)（在 Office 365 中获取最佳连接性和性能）。
 
 ### <a name="vpn"></a>VPN
 
 VPN 为许多组织提供很有用的服务。 很遗憾，它们通常不是为支持实时媒体而设计或配置的。 一些 VPN 可能还不支持 UDP。 Vpn 还会在已加密的媒体流量顶部引入额外的加密层。 此外，由于通过 VPN 设备有头发的流量，到团队服务的连接可能不会有效。
 此外，它们不一定从容量角度进行设计，以适应团队需要的预期负载。
 
-建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为*拆分隧道 VPN*。 拆分隧道意味着 Office 365 的流量不会遍历 VPN，但会直接转到 Office 365。 此改变不仅有利于提高质量，而且还带来额外的好处，即降低 VPN 设备和组织网络的负荷。
+建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为*拆分隧道 VPN*。 拆分隧道意味着 Office 365 的流量不会遍历 VPN，但会直接转到 Office 365。 此更改将对质量产生积极影响，但也会提供从 VPN 设备和组织网络减少负载的辅助优点。
 
 要实施拆分通道，请咨询 VPN 供应商了解配置详细信息。
 
@@ -155,7 +156,7 @@ Microsoft 团队连接到 Microsoft Online 服务，并且需要 internet 连接
 如果你的组织要求你指定应在其中打开这些端口的确切 IP 地址范围和域，则可以限制这些端口的目标 IP 范围和域。 有关确切的端口、协议和 IP 范围的列表，请参阅[Office 365 url 和 ip 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
 如果你选择限制目标 IP 地址范围和域，则必须确保将端口和范围的列表保持为最新，因为它们可能会发生更改。 你可以订阅[此 RSS 源](https://go.microsoft.com/fwlink/p/?linkid=236301)，以便在发生更改时进行更新。 这也是一种很好的做法，通过定期运行[Skype For Business 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)来测试所有端口是否已打开。 可在下一节中了解有关此工具的功能的详细信息。
 
-在正在部署的代理服务器事件中，我们建议您绕过所有团队服务的代理服务器。 虽然使用代理可能有效，但由于媒体被迫使用 TCP 而不是 UDP，因此很可能会降低质量。 有关代理服务器和绕过的详细信息，请参阅[Office 365 url 和 IP 地址范围](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)。
+在正在部署的代理服务器事件中，我们建议您绕过所有团队服务的代理服务器。 虽然使用代理可能有效，但由于媒体被强制使用 TCP 而不是 UDP，因此很可能会降低质量。 有关代理服务器和绕过的详细信息，请参阅[Office 365 url 和 IP 地址范围](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)。
 
 <!--ENDOFSECTION-->
 

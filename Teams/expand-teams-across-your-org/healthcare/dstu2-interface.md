@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 团队患者应用 EHR 集成
-ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 了解团队中的 DSTU2 界面规范，包括设置或重新配置 FHIR 服务器以使用 Microsoft 团队患者应用。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f09f43af431b3f0cc6d9f984171206f2549a550a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153814"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136952"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 接口规范
 
@@ -175,7 +176,7 @@ ms.locfileid: "42153814"
 
     请求：获取 <fhir-服务器>/Condition？患者 =<患者 id>&_count = 10
     
-    响应： {"resourceType"： "捆绑包"，"id"： "<捆绑包-id>"，"type"： "searchset"，"total"：1，"entry"： [{"资源"： {"resourceType"： "条件"，"id"： "<资源 id>"，"代码"： {"code"： [{"http://snomed.info/sctNeuropathy （nerve 受损）"}]}，"dateRecorded"： "2018-09-17"，"严重性"： {"编码"： [{"syst 386033004em "："http://snomed.info/sct，"代码"： "24484000"，"display"： "严重"}]}}
+    响应： {"resourceType"： "捆绑包"，"id"> <： "searchset"： ""，"total"：1，"entry"： [{"资源"： {""： "Condition"，"id"： "<资源 id>"，"代码"： {"编码"： [{"system"： "http://snomed.info/sct"，"代码"： "386033004"，"显示"： "Neuropathy （nerve 损坏）"}]}，"dateRecorded"： "2018-09-17"，"严重性"： {"编码"： [{"system"： "http://snomed.info/sct"，"代码"： "24484000"，"显示"： "严重"}]}}，}]}
 
 * * *
 
@@ -204,7 +205,7 @@ ms.locfileid: "42153814"
 
     请求：获取 <fhir-服务器>/Encounter？患者 =<患者 id>&_sort:d esc = 日期&_count = 1
     
-    响应： {"resourceType"： "捆绑包"，"类型"： "searchset"，"total"：1，"entry"： [{"id"： "遇到了" "，" id "：" <资源 id> "，" 标识符 "： [{" 使用 "：" 官方 "，" 值 "："<id>"}]，" 状态 "：" 已到达 "，" 键入 "： [{" 编码 "： [{"： "会议"}]，}]，"患者"： {"参考"： "患者/<患者 id>"}，"周期"： {"start"： "09/17/2018 1:00:00 PM"}，"位置"： [{             "位置"： {"display"： "诊所-ENT"}，}]}}]}
+    响应： {"resourceType"： "捆绑包"，"类型"： "searchset"，"total"：1，"entry"： [{"id"： "" 遇到 ""，"id"： "<资源 id>"，"标识符"： [{"使用"： "官方"，"值"： "<id>"}]，"状态"： "已到达"，"类型"： [{"编码"： [{"显示"： "约会"}]，}]，"患者"： {"参考"： "患者/<患者 id>"}，"时间段"： {"start"： "09/17/2018 1:00:00 PM"}，"位置"： [{"位置"： {"display"： [{"位置"： {"display"： "ENT"}，}]}}]}
 
 * * *
 
@@ -236,7 +237,7 @@ ms.locfileid: "42153814"
 
     请求：获取 <fhir-服务器>/AllergyIntolerance？患者 =<患者 id>
     
-    响应： {"resourceType"： "捆绑包"，"id"> <： "searchset"： ""，"total"：1，"entry"： [{"资源"： {"resourceType"： "AllergyIntolerance"，"id"： "<的资源 id>"，"recordedDate"： "2018 日-09-17T07："，""，"Cashew"： "Cashew 螺母"}，"反应"： "allergenic"，"螺母"： {"text"： "Injectable 螺母 manifestati 提取产品"}，"在 "： [{" 文本 "：" Anaphylactic 反应 "}]}]}
+    响应： {"resourceType"： "捆绑包"，"id"> <： "searchset"： ""，"total"：1，"entry"： [{"资源"： {"resourceType"： "AllergyIntolerance"，"id"： "<资源 id>"，"recordedDate"： "2018 日-17T07：00： 00.000 Z"，"物质"： {"text"： "Cashew 螺母"}，"status"： "已确认"，"反应"： [{"物质"： {"文本"： "Cashew 螺母 allergenic 提取 Injectable 产品"}，"表现形式"： [{"文本"： "Anaphylactic 反应"}]}]}
 
 * * *
 

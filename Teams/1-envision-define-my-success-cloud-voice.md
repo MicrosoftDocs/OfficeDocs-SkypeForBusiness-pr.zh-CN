@@ -1,5 +1,5 @@
 ---
-title: 在音频会议、包含通话方案的电话系统或电话系统直接路由中定义成功 - Microsoft Teams
+title: 音频会议、呼叫计划或直接路由
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 测量音频会议的结果，包含呼叫计划的电话系统，或电话系统直接路由部署，并验证是否已实现所需的结果。
+description: 为您的组织定义音频会议、电话系统和呼叫计划的部署成功，或为您的组织定义电话系统直接路由。
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -18,12 +18,13 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: dbbcbce46ab713b7a1820d01d476ef5d35dee0d0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825420"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139571"
 ---
 # <a name="define-my-success"></a>定义成功
 
@@ -31,7 +32,7 @@ ms.locfileid: "41825420"
 
 <!--ENDOFSECTION-->
 
-**音频会议**通过使用传统的座机、专用分支交换（PBX）或移动电话，允许会议参与者通过公共交换式电话网络（PSTN）加入，从而为组织提供对任何会议（临时或计划）的其他入口点。 当组织者或参与者不在计算机前面，或者当数据连接不可用或太不可靠以支持语音通信时（例如，在具有 spotty 移动数据覆盖率的远程区域中，或者连接到免费的公共 Wi-fi）时，此功能非常有用。带宽有限的服务，或者当会议参与者希望使用随时易于访问的电话终结点拨入会议时。
+**音频会议**通过使用传统的座机、专用分支交换（PBX）或移动电话，允许会议参与者通过公共交换式电话网络（PSTN）加入，从而为组织提供对任何会议（临时或计划）的其他入口点。 当组织者或参与者不在计算机前面时，此功能非常有用。或者，当数据连接不可用或太不可靠以支持语音通信（如在具有 spotty 移动数据覆盖率的远程区域中），或连接到具有有限带宽的免费的公共 Wi-fi 服务时，或者当会议参与者希望使用随时易于访问的电话终结点拨入会议时。
 
 **带有呼叫计划的电话系统（"通话计划"）** 使组织可以通过使用户可以从其计算机和移动设备进行与业务相关的电话通话，从而使其工作场所更加现代化。 工作场所的现代化可以是任何数量的方案的一部分-基于活动的工作实现、主要的 office 移动、office 的一次性刷新、淘汰旧版 PBX 解决方案、PSTN 服务提供商合同的结论等。 通过呼叫计划，Microsoft 可帮助连接到 PSTN。
 
@@ -236,7 +237,7 @@ KSIs 衡量高质量和关键结果的成功，并通过详细说明好的和/�
 
 每个项目都需要商定的愿景和章程。 若要从项目中提供所需的结果，远景必须明确定义，并且需要监视和维护。 这将成为筹划指导委员会的责任：要推动决策，建议提供战略监管，以充当项目计划的组织的倡议，并在必要时删除阻止程序。
 
-您的组织应将重要想法放入筹划指导委员会。 委员会必须确保项目能够实现您为在整个组织中所做的更改而定义的业务目标，定期满足项目的当前脉冲，并帮助解除阻止任何遇到的障碍简便.
+您的组织应将重要想法放入筹划指导委员会。 该委员会必须确保项目达到你为在整个组织中的推动更改而定义的业务目标，定期满足项目的当前脉冲，并帮助取消阻止任何遇到的障碍物。
 
 委员会应定义其章程以包括一些关键目标：
 

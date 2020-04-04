@@ -1,5 +1,5 @@
 ---
-title: 音频会议和用户 PSTN 通话的出站通话限制策略
+title: 出站呼叫限制-& PSTN 呼叫的音频会议
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 管理员可以控制音频会议和最终用户 PSTN 的呼叫可以由用户所做的类型。
-ms.openlocfilehash: 830ab45178c10ab485d50aafd66a4bf5d4db9011
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836882"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137902"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -33,7 +34,7 @@ ms.locfileid: "41836882"
 
 Outbound call controls can be applied on a per-user basis and provide the following two controls to independently restrict each type of outbound calls. By default, both controls are set to allow international and domestic outbound calls. 
 
-|源代码|说明|控件选项|
+|源代码|Description|控件选项|
 |:-----|:-----|:-----|
 |音频会议 PSTN 呼叫|限制出站类型 </br>允许从用户组织 </br>的会议内呼叫。|国际和国内 （默认值）</br>版</br>无|
 |最终用户 PSTN 呼叫|限制可以由用户 </br>拨打的呼叫类型。|国际和国内 （默认值）</br>版</br>无|
@@ -46,7 +47,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音频会议出站呼叫 
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
 
@@ -58,13 +59,13 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 5. 单击“**保存**”。 
 
-![](media/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
+![显示 Skype for Business 徽标的图标](media/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-1.  在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议** > **用户**"，然后从可用的用户列表中选择用户。
+1.    在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议** > **用户**"，然后从可用的用户列表中选择用户。
 
-2.  在"操作"窗格中，单击" **编辑**"。
+2.    在"操作"窗格中，单击" **编辑**"。
 
-3.  在**限制此用户从会议拨出**下，选择所需的拨出限制选项。
+3.    在**限制此用户从会议拨出**下，选择所需的拨出限制选项。
 
     ![拨出选项限制](media/restrictions-to-dial-outs.png)
 
@@ -77,7 +78,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 Outbound call restrictions are controlled by a single policy called OnlineDialOutPolicy which has a restriction attribute for each. The policy cannot be customized, rather there are pre-defined policy instances for each combination of the settings. 
 
-You can use the Get-CSOnlineDialOutPolicy cmdlet to view the outbound calling policies and assign them to users by using the Grant-CSDialOutPolicy cmdlet. (Please note that the Grant cmdlet doesn’t contain the word “Online” as the Get cmdlet does.) 
+你可以使用 CSOnlineDialOutPolicy cmdlet 查看出站呼叫策略，并使用 CSDialOutPolicy cmdlet 将其分配给用户。（请注意，授予 cmdlet 不包含 "Online" 一词，因为 Get cmdlet 是。） 
 
 下表概述了每个策略。
 

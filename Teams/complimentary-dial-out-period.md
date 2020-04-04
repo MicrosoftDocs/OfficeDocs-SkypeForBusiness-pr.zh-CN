@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
-description: 客户可以使用 Skype for Business Online 中允许的 Office 365 呼叫计划和 Office 365 音频会议，并且 Microsoft 团队 PSTN 服务使用条款和客户批量许可协议。
-ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 了解 Microsoft 团队中的 Office 365 呼叫计划和 Office 365 音频会议的免费拨出期。
+ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825500"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137292"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
@@ -43,7 +44,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 
 ### <a name="complimentary-dial-out-period-details"></a>免费拨出期的详细信息
 
-对于使用我们的 Office 365 音频会议服务的客户，Microsoft 将提供额外的优惠好处，以与通过用户分配 Office 365 音频会议订阅许可证到11月的用户组织的会议有关2019。 在此免费试用期内，Microsoft 允许会议组织者或已授权的与会者在会议策略设置中定义，以便从会议内部拨出电话到以下列出的 44 "区域 A" 中的非高级电话号码。 此优势适用于每月套餐的音频会议许可证，并且不会延长到音频会议每分钟付费许可证。
+对于使用我们的 Office 365 音频会议服务的客户，Microsoft 将提供其他免费的优惠，与通过用户分配的会议（通过11月2019）分配的 Office 365 音频会议订阅许可证相关。 在此免费试用期内，Microsoft 允许会议组织者或已授权的与会者在会议策略设置中定义，以便从会议内部拨出电话到以下列出的 44 "区域 A" 中的非高级电话号码。 此优势适用于每月套餐的音频会议许可证，并且不会延长到音频会议每分钟付费许可证。
 
 此外，在拨出期内有900分钟上限限制，如下所示：
 
@@ -54,14 +55,14 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
  
 - 所有115用户共享一个（115用户 X 900 min）的池 = 每个日历月的103500会议拨出分钟数，可用于将出站呼叫放置到任何区域的国家和地区。
 - 每个日历月超过103500分钟的所有通话均按分钟计费，使用通信信用点数按我们的已发布费率传输到目标。 （注意：租户必须设置通讯信用点数，并向会议组织者分配通讯信用许可证）。
-- 对不在区域中的目标的所有出站呼叫将按分钟计费，使用通信信用点数以我们的已发布费率发送到该目的地（前提是租户已设置了通讯信用点数，并为其分配了通讯信用许可会议组织者）。
+- 对不在区域中的目标的所有出站呼叫均按分钟计费，使用通讯信用点数以我们的已发布费率发送到该目的地（前提是租户已设置了通讯信用点数，并为会议组织者分配了通讯信用许可证）。
 
 > [!NOTE]
 > 你可以在 Skype for business 管理中心内监视拨出分钟池的使用情况。 在 "Microsoft 团队 & Skype 管理中心" 中，转到**旧版门户** > **报告** > **PSTN 分钟池**。 此免费的分钟数池将在报告中标记为 "对国家和地区进行出站通话"。
 
 当租户的拨出分钟池利用率达到80% 和100% 时，将向给定客户的所有租户管理员发送电子邮件通知。
 
-对于每分钟计费的拨出呼叫（超过租户拨出分钟池的通话或不在区域 A 国家和地区列表中的目标通话），通话及其相关费率主要基于呼叫目的地而非国家/地区组织者或发起拨出呼叫的参与者的区域。 例如，如果由美国的会议参与者或在法国的会议参与者发起电话，则对法国电话号码的通话将以相同费率计费。
+对于每分钟计费的拨出呼叫（超过租户拨出分钟池的通话次数，或对不在区域 A 国家和地区列表中的目标的呼叫），呼叫和其相关费率主要基于呼叫目的地，而不是基于组织者或发起拨出呼叫的参与者的国家或地区。 例如，如果由美国的会议参与者或在法国的会议参与者发起电话，则对法国电话号码的通话将以相同费率计费。
 
 有关通讯信用点数的其他信息，请参阅[通讯信用点数](what-are-communications-credits.md)。
 

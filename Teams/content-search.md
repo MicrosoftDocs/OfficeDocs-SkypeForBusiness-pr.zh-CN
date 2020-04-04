@@ -13,15 +13,16 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解 Microsoft 团队中的内容搜索以及如何搜索来自 Exchange 的频道对话、来自 SharePoint 的文件上载和修改以及 OneNote 更改。
+ms.custom: seo-marvel-mar2020
+description: 了解如何在 Microsoft 团队中使用 "内容搜索" 查询来自 Exchange、SharePoint Online、OneDrive for business 和 OneNote 的 Microsoft 团队信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222b57021a259795823031d9855304d1ecf27f4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825340"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137742"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 =====================================
@@ -42,7 +43,7 @@ ms.locfileid: "41825340"
 
 ## <a name="content-search-of-private-channels"></a>专用频道的内容搜索
 
-在专用频道中发送的邮件的记录被发送到所有专用通道成员的邮箱，而不是发送到组邮箱。 对记录的标题进行格式设置，以指示发送的专用频道。
+在私人频道中发送的消息记录将传递到所有私人频道成员的邮箱，而不是传递到组邮箱。 记录的标题已格式化为指示它们是从哪个私人频道发送的。
 
 由于每个专用频道都有自己的 SharePoint 网站集，独立于父团队网站，因此专用通道中的文件独立于父团队进行管理。
 
@@ -69,7 +70,7 @@ ms.locfileid: "41825340"
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 

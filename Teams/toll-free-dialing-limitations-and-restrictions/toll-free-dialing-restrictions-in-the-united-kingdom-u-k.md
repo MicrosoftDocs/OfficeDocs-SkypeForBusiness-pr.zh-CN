@@ -1,5 +1,5 @@
 ---
-title: 英国 (U.K.) 的免费拨号限制
+title: 英国免费拨号限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: adeb15216ecc7749ebddfc5939acdbfec204039c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 了解如何在英国拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
+ms.openlocfilehash: 61136d0f0e52270a7a1038cde292ad1cd30aa1e3
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693717"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139731"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>英国 (U.K.) 的免费拨号限制
 
 [查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
 
 
-|**详细信息**|**说明**|
+|**Details**|**说明**|
 |:-----|:-----|
 |是否可以免费通话？  <br/> |是  <br/> |
 |拨号格式  <br/> | 0 800 XXX XXXX <br/>  0 808 XXX XXXX <br/> |

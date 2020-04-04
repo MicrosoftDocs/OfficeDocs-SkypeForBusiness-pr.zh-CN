@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
+- seo-marvel-mar2020
 description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: c30a97e9e5c44a5f3b79829eca73427d53413ae8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9d4a3656e02e74366fbf24f244a3b4a6fe393525
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708199"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140501"
 ---
 # <a name="toll-free-dialing-restrictions-in-belize"></a>伯利兹的免费拨号限制
 
 [查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
 
 
-|**详细信息**|**说明**|
+|**Details**|**说明**|
 |:-----|:-----|
 |是否可以免费通话？  <br/> |是  <br/> |
 |拨号格式  <br/> | 1 800 XXX XXXX <br/> |

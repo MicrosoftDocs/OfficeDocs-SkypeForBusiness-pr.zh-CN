@@ -1,5 +1,5 @@
 ---
-title: Office 365 中的通话套餐 - 英国投诉处理准则
+title: 英国的投诉处理代码 -Office 365 通话计划
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 4a035c77756acc811eec184c0749623a2142cf41
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 提出有关 Skype for business 呼叫服务的投诉（英国的 PSTN 呼叫）、回复的日程表以及解决未解决的投诉的争议。
+ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825570"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137282"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 中的通话套餐 - 英国投诉处理准则
 

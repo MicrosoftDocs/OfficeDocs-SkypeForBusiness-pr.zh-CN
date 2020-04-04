@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 团队中设置和管理渠道裁决
+title: 设置和管理渠道裁决
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中设置用于裁决的频道，包括如何将团队成员添加为渠道审阅者。
-ms.openlocfilehash: 70cb06e3a55d24b3609902af529a2880a42901d2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 128676bbe4ec27300013836425bf221e3de10f9b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836622"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136802"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在 Microsoft 团队中设置和管理渠道裁决
 
@@ -78,4 +79,4 @@ ms.locfileid: "41836622"
 
 ## <a name="related-topics"></a>相关主题
 
-- [团队中的团队和频道概述](teams-channels-overview.md)
+- [Teams 中的团队和频道概述](teams-channels-overview.md)

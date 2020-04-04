@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中用户反馈方法的最佳做法
+title: 用户反馈方法的最佳做法
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac158a5d90c1a1cbe5e4dad5d6c5f894054e72ad
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a0dcb100ec04a03f48400cbaca01c001a250ffbc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826200"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136882"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft Teams 中用户反馈方法的最佳做法
 ===========================================================
@@ -38,4 +39,4 @@ ms.locfileid: "41826200"
 <a name="showcases"></a>突出表现
 ---------
 
-在此旅程中，你将在自己的环境中发现员工的突出表现，他们使用 Microsoft Teams 时展现的创造力会给你带来惊奇和欣喜。 我们建议你广泛地分享这些突出表现。 这将鼓励其他人进行创新、指导可能处于采用过程初期的用户，以及奖励已花时间仔细考虑如何在其环境中充分利用 Microsoft Teams 的用户。 为了保持你的采用推进力，每个季度设定一个用于发现一定数量的突出表现的可衡量目标很有用。
+在此旅程中，你将在自己的环境中发现员工的突出表现，他们使用 Microsoft Teams 时展现的创造力会给你带来惊奇和欣喜。 我们建议你广泛地分享这些突出表现。 这将鼓励其他人创新，让可能在采纳的曲线中更早的用户教育，并奖励花时间思考的人员如何在其环境中更好地使用 Microsoft 团队。 为了保持你的采用推进力，每个季度设定一个用于发现一定数量的突出表现的可衡量目标很有用。

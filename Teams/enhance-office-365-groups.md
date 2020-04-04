@@ -1,5 +1,5 @@
 ---
-title: 通过 Microsoft 团队增强现有 Office 365 组
+title: 增强现有 Office 365 组
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832912"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136862"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>通过 Microsoft 团队增强现有 Office 365 组
 =======================================================
@@ -44,7 +45,7 @@ Microsoft 团队用户可以使用团队功能增强现有的 Office 365 组。 
 
 Office 365 组有两种类型的隐私设置：**公用和专用**。 虽然可以为团队启用这两个组类型，但在这种情况下，它在自助服务方面也稍有不同。
 
--   用户可以搜索公用组，并且无需团队所有者的批准即可自己加入公用组。
+-   用户可以搜索公共组，并且可以自行加入，而无需团队所有者的批准。
 
 -   专用组不可搜索，除非团队所有者将用户添加为成员，否则用户无法加入专用组。
 

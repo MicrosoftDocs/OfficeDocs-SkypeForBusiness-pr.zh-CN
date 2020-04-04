@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向您显示每个国家/地区内所需的访问代码，以拨打免费号码。
-ms.openlocfilehash: 270d169be6992b97dfba94bedd4802560af78ef8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 了解如何在国家/地区拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
+ms.openlocfilehash: e987a392be81178a043835f44e34c67143609244
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836902"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140551"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>免费拨号限制
 

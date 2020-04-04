@@ -16,14 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978594"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137692"
 ---
-# <a name="quality-of-experience-review-guide"></a>体验质量检查指南
+# <a name="quality-of-experience-review-guide"></a>体验质量检查指南 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
 本指南介绍 Microsoft 团队和 Skype for business Online 的 "驱动器价值" 阶段。 您可以下载本指南的[Word 版本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
@@ -107,7 +109,7 @@ _图 2-什么是质量？_
 CQD 中的实际度量值因工作负荷而异，但为了使质量体验进行评审，我们主要关注_音频的差百分比_度量。 PSR.EXE 是由下表中所述的五个网络度量值组成。 对于要归类为较差的流，只有一个指标需要超过所定义的阈值。 有关流分类过程的详细信息，请参阅[本文](stream-classification-in-call-quality-dashboard.md)。
 
 > [!Note]
-> CQD 提供 "不太好的原因 ..." 测量，以便更好地了解导致流归为差的条件。
+> CQD 提供 "不太好的原因 ..."测量，以便更好地了解导致流归为差的条件。
 
 
 _表 1-音频质量不佳的指标_
@@ -800,7 +802,7 @@ _图 17-缺少生成报告_
 
 #### <a name="network-planner"></a>Network Planner
 
-网络规划器只需几个简单的步骤即可确定和组织你的云语音部署的网络要求。 通过提供你的组织的网络详细信息和云语音使用，你可以大致计算云语音部署的网络要求、管理和导出这些详细信息以进行报告，以及查看要进一步调查的区域和后续步骤。
+网络规划器只需几个简单的步骤即可确定和组织你的云语音部署的网络要求。 通过提供你的组织的网络详细信息和云语音使用，你可以大致计算云语音部署的网络要求、管理和导出这些详细信息以进行报告，以及查看用于进一步调查的区域以及后续步骤。
 
 虽然网络规划器不会完全自动自动生成映射过程，但在将网络信息输入网络 Planner 后，可以将其导出到准备上载的构建文件。
 

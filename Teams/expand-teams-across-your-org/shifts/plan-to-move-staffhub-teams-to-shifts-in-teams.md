@@ -1,5 +1,5 @@
 ---
-title: 计划将 StaffHub 团队移动到 Microsoft 团队中的倒班
+title: 计划将 StaffHub 团队移动到倒班
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: gumariam,aaku
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008144"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139581"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>计划将 StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -41,7 +42,7 @@ ms.locfileid: "42008144"
 |ppls-2     |查看有关从 StaffHub 切换到团队和团队成员的文档         |[StaffHub 已停用](microsoft-staffhub-to-be-retired.md)<br><br>[将 StaffHub 团队移动到团队中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[开始使用 Teams](../../get-started-with-teams-quick-start.md)         |
 |3    |为你的组织启用 Office 365 组        |[Office 365 组和团队](../../Office-365-groups.md)      |
 |4    |请确保满足先决条件         |[检查是否满足先决条件](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
-|5   |将团队许可证分配给组织中的 StaffHub 用户|[分配 Teams 许可证](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[管理对 Teams 的用户访问](../../user-access.md)      |
+|5   |将团队许可证分配给组织中的 StaffHub 用户|[分配 Teams 许可证](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[管理用户对 Teams 的访问管理](../../user-access.md)      |
 |6    |安装 StaffHub PowerShell 模块        |[安装 StaffHub PowerShell 模块](install-the-staffhub-powershell-module.md)        |
 |7     |确定日程表和标识 StaffHub 用户以转到团队       |[运行报告以显示活动 StaffHub 的使用情况](run-report-to-show-staffhub-usage.md) |
 |个     |确定没有 Azure AD 帐户的 StaffHub 用户（在 StaffHub 中显示为 "非活动"），并为其链接帐户     |[为没有联系人的 StaffHub 团队成员链接 Azure AD 帐户](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |

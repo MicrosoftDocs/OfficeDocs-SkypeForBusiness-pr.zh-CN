@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队中的应用程序控制策略 AppLocker
+title: AppLocker 控件策略
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,12 +15,13 @@ f1.keywords:
 description: 了解如何启用 AppLocker 应用程序控制策略的团队桌面客户端应用程序。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13a1afd4ad4089db3c6b0c1223bf06831d9be667
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3bcb75eb28730b4387ebcee0be869f1f91cc31c5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888551"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137422"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft 团队中的应用程序控制策略 AppLocker
 

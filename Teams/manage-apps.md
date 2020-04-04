@@ -17,12 +17,12 @@ description: 了解如何在 Microsoft 团队管理中心的 "管理应用" 页�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 41d75d492cf8351f1f925713054ccf4be4d8725d
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229912"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136842"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理你的应用
 ======================================================
@@ -79,8 +79,12 @@ ms.locfileid: "42229912"
     
 2. 在 "**第三方应用**" 下，关闭或打开这些设置以控制对第三方应用的访问：
 
-    - **允许团队中的第三方应用**：这将控制用户是否可以使用第三方应用。 如果关闭此设置，你的用户将无法安装或使用任何第三方应用。 对于你允许的应用，状态显示为 "**允许"，但已禁用 "组织范围**"。
-    
+    - **允许团队中的第三方应用**：这将控制用户是否可以使用第三方应用。 如果关闭此设置，你的用户将无法安装或使用任何第三方应用。 对于你允许的应用，状态显示为 "**允许"，但已禁用 "组织范围**"。              
+
+        > [!NOTE]
+        > 在 Microsoft 365 政府版团队部署中，默认情况下 "**允许团队中的第三方应用**" 设置处于关闭状态。
+
+        当**允许团队中的第三方应用**处于关闭状态时，将禁用[传出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，这意味着用户无法创建它们。 当此设置处于打开状态时，将为所有用户启用传出 webhooks，无论用户是否在用户的应用权限策略中打开或关闭该设置。
     - **默认情况下允许发布到应用商店的任何新第三方应用**：这将控制发布到团队应用商店的新的第三方应用是否会自动在团队中可用。 仅当你允许第三方应用时，你才能设置此选项。
 
 3. 在 "**自定义应用**" 下，关闭或打开 "**允许与自定义应用交互**"。 此设置控制用户是否可以与自定义应用交互。 若要了解详细信息，请参阅[管理团队中的自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。

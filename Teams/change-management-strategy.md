@@ -1,5 +1,5 @@
 ---
-title: 为 Microsoft Teams 制定变更管理策略
+title: 创建更改管理策略
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,15 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 了解如何通过确定推行活动的关键利益干系人、业务成果、成功量度标准和管理，为 Microsoft Teams 制定变更管理策略。
+description: 通过确定市场活动的关键利益干系人、业务成果、成功措施和管理，为 Microsoft 团队创建更改管理策略。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 628c839560423e0e2524bed24082156469faeb36
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824970"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137912"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================
@@ -63,7 +64,7 @@ Teams 变更管理最佳实践：
 |![服务所有者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服务所有者**负责确保大家使用服务并从中获得价值。 在贵组织中安排服务所有者对于确保实现针对 Office 365 设定的业务目标而言非常重要。         |
 |![支持者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |得到组织中每个用户的认可是一项挑战。 **支持者**可以帮助化解此挑战，并在采用 Office 365 的过程中起到重要作用。 他们拥有丰富的知识、积极充实其专业知识且愿意提供同伴指导和协助。 他们会帮助在其部门或团队中实施 Office 365。         |
 
-我们建议与这些利益干系人定期召开会议，使其及时了解你的计划的进度。 成立“协作委员会”来收集反馈和进行讨论，这可能是一种很有用的方式，具体取决于你的公司文化。
+我们建议与这些利益干系人定期召开会议，使其及时了解你的计划的进度。 启动 "协作委员会" 以允许反馈和讨论可能是一个非常有用的工具，具体取决于您的公司文化。
 
 
 

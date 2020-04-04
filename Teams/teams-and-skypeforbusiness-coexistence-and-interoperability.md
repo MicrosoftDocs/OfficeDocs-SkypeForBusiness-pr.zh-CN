@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队 |升级、孤岛模式、互操作策略
+title: Skype for business 和 Microsoft 团队之间的互操作性
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706652"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140673"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype for business 共存和互操作性
 
@@ -34,7 +34,7 @@ ms.locfileid: "42706652"
 - [已登记项目利益干系人](upgrade-enlist-stakeholders.md)
 - [已定义项目范围](https://aka.ms/SkypetoTeams-Scope)
 
-如果您的组织目前使用 Skype for Business，并且您开始使用多个团队和 Skype for business，或者您开始升级到团队，那么了解这两个应用程序是如何共存、何时以及如何进行互操作，以及如何管理用户的迁移一直到最终从 Skype for Business 升级到团队。
+如果您的组织目前使用 Skype for business，并且您开始使用多个团队和 Skype for business，或者您开始升级到团队，那么了解这两个应用程序的互操作方式以及它们的互操作方式，以及如何管理用户从 Skype for Business 到团队的最终升级，这一点非常重要。
 
 > [!Tip]
 > 观看以下会话以了解[共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)。
@@ -70,13 +70,13 @@ ms.locfileid: "42706652"
 
 在此共存模式下，用户将保留在 Skype for Business 中，而不是团队-用于聊天、会议和呼叫功能，并且不使用团队和频道团队。 目前可以使用此模式;但是，在当前实现中，团队和频道不会自动为用户关闭。 可通过使用应用权限策略隐藏团队和频道来实现此目的。
 
-此模式可以在启动团队的托管部署之前使用，以防止用户开始使用已建立准备就绪的团队，或作为在适用于 Skype for business 用户的团队会议中启用身份验证参与的方法（前提是用户为团队授权。
+此模式可以在启动团队的托管部署之前使用，以防止用户开始使用团队准备好使用团队，如果用户已获得团队许可，则为对 Skype for business 用户启用团队会议的已验证参与。
 
 ### <a name="teams-only"></a>仅限团队
 
 
 > [!IMPORTANT]
-> 如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。 解决方法：若要在 Outlook （以及其他 Office 应用）中查看状态，必须安装 Skype for business，即使你是在 "**仅团队**" 模式下运行团队也是如此。 Microsoft 已发现此问题且正在开发修补程序。
+> 如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。 解决方法：若要在 Outlook（和其他 Office 应用）中查看状态，必须安装 Skype for Business，即使是在“仅 Teams”**** 模式下运行 Teams，也不例外。 Microsoft 已发现此问题，并正在着手修复它。
 
 
 **只有团队**用户（也称为已*升级*用户）可以访问团队中的所有功能。 他们可以保留 Skype for Business 客户端，以便在已由非升级用户或外部团体组织的 Skype for business 上加入会议。 通过使用团队和 Skype for business 之间的互操作性功能（前提是这些 Skype for business 用户未处于**孤岛**模式），升级后的用户可以继续与仍在使用 Skype for business 的组织中的其他用户进行通信。 但是，升级后的用户无法启动 Skype for Business 聊天、通话或会议。
@@ -95,7 +95,7 @@ ms.locfileid: "42706652"
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>具有团队协作和会议的 Skype for business，也称为会议优先
 
-除了协作功能外，还可使用此共存模式加速团队会议功能的可用性，使用户能够充分利用出色的团队会议体验-优质创新功能（如设备和翻译或后台模糊处理）和跨所有平台（包括移动设备和浏览器）的卓越用户体验。
+使用此共存模式，不仅可以提高组织中的团队会议功能的可用性，还可以使你的用户能够利用出色的团队会议体验-优质的团队会议体验-出色的质量、各种创新能力（如操作性和翻译或后台模糊处理），以及跨所有平台（包括移动设备和浏览器）的卓越用户体验。
 
 在此模式下，与团队和基于频道的对话一起使用团队，用户将使用团队安排和开展会议。 Skype for Business 上的私人聊天和通话保持。 团队和 Skype for business 受益于一系列 "更好地协作" 功能，如状态对、自动保留/unhold 以及在两个应用程序中支持 HID 设备支持。 请注意，如果需要使用应用权限策略，则可以隐藏团队和频道。
 
@@ -166,7 +166,7 @@ Skype for Business 用户可以与团队用户进行一对一的语音和视频�
 
 当团队用户触发互操作提升时，将创建团队会议。 当 Skype for Business 用户触发时，将创建 Skype for business 会议。 在这两种情况下，创建的会议都是 "**立即开会**" 会议，它不会反映在用户的日历中。
  
-另一方通过单击该链接，通过互操作聊天和连接接收会议加入链接。 如果 Skype for Business 用户拥有团队帐户，并且被团队用户邀请，他们将加入经过身份验证的会议。 否则，它们将作为匿名参与者加入。 相反，团队用户几乎始终拥有 Skype for business 帐户和 Skype for business 客户端，他们可以使用它们将 Skype for Business 会议作为经过身份验证的参与者加入，但它们也可能作为匿名参与者加入，例如使用 Skype会议应用。
+另一方通过单击该链接，通过互操作聊天和连接接收会议加入链接。 如果 Skype for Business 用户拥有团队帐户，并且被团队用户邀请，他们将加入经过身份验证的会议。 否则，它们将作为匿名参与者加入。 相反，团队用户几乎始终拥有 Skype for business 帐户和 Skype for business 客户端，他们可以使用它们将 Skype for Business 会议作为经过身份验证的参与者加入，但它们也可能作为匿名参与者加入，例如使用 Skype 会议应用。
 
 当双方加入会议后，他们可以在会议中执行任何受支持的活动，例如桌面或内容共享、文件共享或传输、添加其他参与者等。
 

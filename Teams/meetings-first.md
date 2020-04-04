@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队 |会议优先
+title: 先开会-Microsoft 团队
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,17 +12,19 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10321d02398c6c2b0ffc2143a9bafa406fbec637
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836452"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140291"
 ---
 # <a name="meetings-first"></a>会议优先
 

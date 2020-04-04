@@ -1,5 +1,5 @@
 ---
-title: 面向 IT 专业人员的 Microsoft 教育版管理 FAQ - Microsoft Teams
+title: 面向管理员的 Microsoft 教育版管理常见问题解答
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 719f9429d49dfef7a21670c67bad96c9e26c993e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 18476e043268d8b51fdf877b27e23eb926a1885e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837432"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137782"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>面向管理员的 Microsoft 教育版管理常见问题解答
 
@@ -60,7 +61,7 @@ ms.locfileid: "41837432"
 
 在每个学期或季度开始时，您将需要许多新团队。 使用自动化方法自动创建这些团队、使用适当的用户填充它们以及设置正确的权限，这可能会有意义：
 
--   学校数据同步可为 Exchange Online 和 SharePoint Online 创建 Office 365 组、Microsoft 团队的课堂团队和 OneNote 课堂笔记本、用于 Intune 教育的学校组以及 rostering 和单一登录（SSO）集成第三方应用程序。 了解有关[学校数据同步的概览的](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)详细信息。
+-   学校数据同步可以创建适用于 Exchange Online 和 SharePoint Online 的 Office 365 组、Microsoft 团队和 OneNote 课堂笔记本的课堂团队、用于 Intune 教育的学校组以及针对其他许多第三方应用程序的 rostering 和单一登录（SSO）集成。 了解有关[学校数据同步的概览的](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)详细信息。
 -   通过 PowerShell，你可以创建团队和频道，并自动配置设置。 有关详细信息，请参阅[Microsoft 团队 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 。
 -   你可以使用 Microsoft Graph API （当前在 beta 中）来创建、配置、克隆和存档团队。 有关详细信息，请参阅[使用 Microsoft GRAPH API 处理 Microsoft 团队](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)。
 

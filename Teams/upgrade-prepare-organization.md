@@ -1,5 +1,5 @@
 ---
-title: 准备将 Skype for business 升级到 Microsoft 团队 |规划用户采纳
+title: 准备将 Skype for Business 升级到团队
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 评估你的组织的准备情况以接受更改，并准备一个计划，以便让用户准备好从 Skype for Business 升级到 Microsoft 团队
+description: 评估组织的准备情况以接受更改，并准备好一个计划，让用户准备好从 Skype for Business 升级到 Microsoft 团队。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088db496d6e04cb25a26a55f2748b25a11a8a76b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b758734de436771d94c0f9b44215d621c276b767
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706782"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136962"
 ---
 # <a name="prepare-your-organization"></a>准备您的组织
 

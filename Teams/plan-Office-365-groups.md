@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中创建团队时规划 Office 365 组
+title: 在创建团队时规划 Office 365 组
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 08/29/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: 了解在规划 Office 365 组时应做出的决策，例如选择 "公共" 和 "专用组"，使用 "团队客户端" 或 "Office 365 管理" web 控制台，以及如何指导团队使用对话。
+description: 了解如何规划团队中的 Office 365 组，包括组之间的差异 & 团队对话，以及团队对组命名策略的看法。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 092a30be3fb8cffce8abfc9b885e3de3caa8bed4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: 5e06422d38cc2a0b1fc0b925c6b3b3c12f47d67a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833832"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137572"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft Teams 中创建团队时规划 Office 365 组
 ==========================================================
@@ -33,7 +35,7 @@ ms.locfileid: "41833832"
 
 -   首先，由于客户可以在组中拥有现有投资，因此我们目前同时支持少于5000个成员的公共和专用组。 如前面所述，你希望使用团队客户端（而不是 Office 365 管理 web 控制台）管理人员对团队的成员身份。 在此方案中，如果用户用于 Office 365 组中的串接对话，则值得注意，组对话实质上是电子邮件，而不是与团队频道中的聊天消息相同。 向你的用户解释此差异，并建议他们采用 Teams 中更加灵活的聊天消息，而不是使用 Outlook 或 OWA 向组发送电子邮件。
 
--   其次，对于在 Office 365 中没有定义现有组的客户，你可以使用 Office 365 管理门户、Teams Web 控制台或桌面控制台来创建组。 如前所述，使用 Teams 客户端管理与 Office 365 的所有未来成员身份。 由于对团队的成员身份也定义了 Office 365 组的成员身份，因此应为用户准备此更改。
+-   其次，对于没有在 Office 365 中定义的现有组的客户，您可以使用 Office 365 管理门户、团队 web 站点或桌面客户端创建它们。 如前所述，使用 Teams 客户端管理与 Office 365 的所有未来成员身份。 由于对团队的成员身份也定义了 Office 365 组的成员身份，因此应为用户准备此更改。
  
 
 

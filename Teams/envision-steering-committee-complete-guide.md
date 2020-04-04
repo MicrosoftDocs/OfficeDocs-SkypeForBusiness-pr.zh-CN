@@ -1,5 +1,5 @@
 ---
-title: 指导 Microsoft Teams 云语音部署委员会
+title: 云语音部署指导委员会
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862983"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136782"
 ---
 # <a name="steering-committee"></a>指导委员会
 
@@ -30,7 +31,7 @@ ms.locfileid: "41862983"
 
 每个项目都需要商定的愿景和章程。 若要提供项目的预期结果，远景必须明确定义，它需要监视和维护。 这将成为筹划指导委员会的责任：要推动决策，建议提供战略监管，以充当项目计划的组织的倡议，并在必要时删除阻止程序。
 
-您的组织应将重要想法放入筹划指导委员会。 该委员会必须确保项目能够实现你为在整个组织中所做的更改而定义的业务目标，定期满足项目的当前脉冲，并帮助删除在此期间遇到的任何障碍历程.
+您的组织应将重要想法放入筹划指导委员会。 该委员会必须确保项目能够实现您为在整个组织中所做的更改而定义的业务目标，定期满足项目的当前脉冲，并帮助删除在旅行期间遇到的任何障碍。
 
 委员会应定义其章程以包括一些关键目标：
 

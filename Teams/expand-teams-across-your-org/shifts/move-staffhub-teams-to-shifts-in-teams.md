@@ -1,5 +1,5 @@
 ---
-title: 将 StaffHub 团队迁移到 Microsoft Teams 中的排班
+title: 将 StaffHub 团队移动到倒班
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu, gumariam
@@ -18,12 +18,13 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4725669d4f5829941df4bded0a5f2bbb393fb034
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887871"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139591"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>将 Microsoft StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -39,7 +40,7 @@ ms.locfileid: "41887871"
 - [执行试验](#conduct-a-pilot) 
 - [超越您的试点和移动所有 StaffHub 团队](#go-beyond-your-pilot-and-move-all-staffhub-teams)
 - [监视团队使用情况](#monitor-teams-usage)
-- [过程](#troubleshooting)
+- [故障排除](#troubleshooting)
 
 无论您是拥有一个或两个 StaffHub 团队的小型企业，还是有数百个 StaffHub 团队的大型企业，在这里，您将找到所需的管理员指南，帮助您成功过渡到团队。
 
@@ -271,7 +272,7 @@ Move-PnPFile -ServerRelativeUrl "/sites/<Group Name>/Shared Documents/<File Name
 ```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
-$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 ```
 
 然后，运行以下操作以移动所有团队。
@@ -331,7 +332,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 使用情况报告可帮助你更好地了解使用模式，并向你提供有关在你的组织中对培训和沟通工作进行排序的位置的见解。 你可以运行报表，显示总体团队使用情况、用户在团队中执行的活动类型、用户如何连接到团队等。 有关详细信息，请参阅 Microsoft[团队管理中心中的团队报告](../../teams-analytics-and-reports/teams-reporting-reference.md)和[microsoft 365 管理中心中的团队活动报表](../../teams-activity-reports.md)。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 **如何获取有关失败错误的详细信息**
 

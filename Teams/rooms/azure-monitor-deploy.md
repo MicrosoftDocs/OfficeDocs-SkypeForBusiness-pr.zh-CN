@@ -1,6 +1,5 @@
 ---
 title: 通过 Azure 监视器部署 Microsoft 团队聊天室管理
-ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -12,15 +11,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文介绍如何使用 Azure 监视器以集成的端到端方式部署 Microsoft 团队聊天室设备的管理。
-ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417537"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137642"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>部署:::no-loc text="Microsoft Teams Rooms":::管理:::no-loc text="Azure Monitor":::
 
@@ -138,7 +137,7 @@ ms.locfileid: "42417537"
 
 | **JSON 字段**                   | **:::no-loc text="Log Analytics":::自定义域** | **事件 ID** | **要与提取一起使用的查询**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| 说明                      | SRSEventDescription         | **2000**     | 源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
+| Description                      | SRSEventDescription         | **2000**     | 源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
 | ResourceState                    | SRSResourceState            | **2000**     | 源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
 | OperationName                    | SRSOperationName            | **2000**     | 源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
 | OperationResult                  | SRSOperationResult          | **2000**     | 源\| = = "SRS-App" 和 EventID = = 2000 的事件 |
@@ -416,7 +415,7 @@ ms.locfileid: "42417537"
 ![通知:::no-loc text="Azure Monitor":::电子邮件示例](../media/Deploy-Azure-Monitor-6.png "通知:::no-loc text="Azure Monitor":::电子邮件示例"）
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>配置所有设备:::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a>配置仪表板和警报后，您可以在所有:::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms":::设备上设置和配置代理以完成监视部署。
+<a name="configure_all_devices"> </a>配置仪表板和警报后，您可以在所有:::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms":::设备上设置和配置代理以完成监视部署。
 
 虽然你可以在每台设备:::no-loc text="Microsoft Monitoring":::上手动安装和配置代理，但我们强烈建议你充分利用现有软件部署工具和方法。
 

@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何上载包含要用作呼叫分析和通话质量仪表板报表的报告标签的物理位置列表和关联子网的文本文件。
+description: 了解如何通过上载包含物理位置和关联子网的列表的文本文件来添加和更新报告标签。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,15 @@ ms.custom:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebf362bf6b0cb7213b085a895e59e7c93e98d60f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836572"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137112"
 ---
 <a name="add-and-update-reporting-labels"></a>添加和更新报告标签
 ============================
@@ -51,10 +52,10 @@ ms.locfileid: "41836572"
 
 |网络|网络名称|网络范围|建筑物名称|所有权类型|建筑物类型|构建 Office 类型|城市|邮政编码|该国|省/市/自治区|区域|公司内部|快速路线|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso 租赁 RE&F|Office|重新&F|山地视图|94043|我们|认证|我们|1|1|
 
 有关设置数据文件格式的详细信息，请参阅[租户数据文件格式和构建数据文件结构](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure)。
 

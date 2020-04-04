@@ -22,12 +22,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-ms.openlocfilehash: 9a92715af20e2e27a4b5051bfeab461a61efdacf
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: 了解 Office 365 中的音频会议，包括成本、可用性和专用电话号码。
+ms.openlocfilehash: 5fef21489bbbceb490a2b97d70ee9dbafd2a791c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236812"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139011"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Office 365 中的音频会议
 Office 365 中的音频会议支持用户从手机呼入会议。 音频会议最多允许 250 名电话与会者。

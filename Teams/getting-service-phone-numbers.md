@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 了解如何为团队获取新的电话号码，如音频会议（适用于会议桥）、自动助理和呼叫队列（也称为服务号码）。
-ms.openlocfilehash: 8c1ec0af6defbf325d05be3fdd896bb7e9f6bec0
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+- seo-marvel-mar2020
+description: 了解如何为团队获取新的电话号码和端口，或传输音频会议、自动助理和通话队列（服务号码）的现有号码。
+ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170718"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136712"
 ---
 # <a name="getting-service-phone-numbers"></a>获取服务电话号码
 
@@ -38,7 +39,7 @@ ms.locfileid: "42170718"
   
 - **使用 Microsoft 团队管理中心。** 对于某些国家和地区，您可以使用 Microsoft 团队管理中心获取服务号码。 请参阅[获取新的服务号码](#get-new-service-numbers)。
 
-- **转网现有的号码。** 您可以从当前服务提供商或电话运营商处移植或转移现有号码。 有关详细信息，请参阅将[电话号码转移到团队](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)以帮助你执行此操作。  
+- **转网现有的号码。** 您可以从当前服务提供商或电话运营商处移植或转移现有号码。 如需获取有助于执行此操作的详细信息，请参阅[将电话号码转接到 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。  
   
 - **使用新号码的请求表单。** 有时（取决于您所在的国家或地区）您将无法使用 Microsoft 团队管理中心获取新的电话号码，或者您需要特定的电话号码或区号。 如果是这样，您将需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。
   
@@ -47,7 +48,7 @@ ms.locfileid: "42170718"
   
 ## <a name="get-new-service-numbers"></a>获取新服务号码
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到 "**语音** > **电话号码**"，然后单击 "**添加**"。
 2. 输入订单的名称，如果需要，请添加说明。
@@ -71,7 +72,7 @@ ms.locfileid: "42170718"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看您的组织的电话号码
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标 
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心** 
 
 在左侧导航中，转到 "**语音** > **电话号码**" 以查看您的组织的号码，包括位置、号码类型和状态信息。
 

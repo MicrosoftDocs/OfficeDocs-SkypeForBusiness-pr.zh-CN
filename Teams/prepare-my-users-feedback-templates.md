@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 或 Skype for Business 中的用户反馈调查
+title: 工作组或 Skype for business 中的反馈调查
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89c7f6384df285d4f47eac4407cb9b0884dd2486
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: dff5fc154d55dac208f451e4ddec392167c08975
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834622"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137442"
 ---
 # <a name="user-feedback-surveys"></a>用户反馈调查 
 

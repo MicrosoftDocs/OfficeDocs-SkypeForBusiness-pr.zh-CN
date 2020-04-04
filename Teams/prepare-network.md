@@ -1,5 +1,5 @@
 ---
-title: 为 Microsoft Teams 准备贵组织的网络
+title: 为 Teams 准备贵组织的网络
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: 在你推出 Microsoft 团队之前，请先评估和准备你的网络，以确保它可供团队查看。 信息包括网络要求、带宽要求和网络优化指南。
+description: 了解如何为 Microsoft 团队准备组织的网络，包括网络要求、网络优化和带宽要求。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,14 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64bcdee7e1a4ce7f36a9089fd5231cf2a63e9d5b
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: bc81781e17b16820eebb134a0ee57f1fb82d403c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43109464"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43143783"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备贵组织的网络 
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备组织的网络 
 
 ## <a name="network-requirements"></a>网络要求
 
@@ -157,5 +159,4 @@ ms.locfileid: "43109464"
 [Teams 中的标识模式和身份验证](identify-models-authentication.md)
 
 [如何部署 Teams](How-to-roll-out-teams.md)
-
 

@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: Microsoft 会收集人口普查、使用情况和错误数据，以了解 Skype for Business 的使用方式以及用户遇到问题的位置。 数据用于规划产品改进。
-ms.openlocfilehash: 1c88086038c3874ae95f6151c1d04d13e0b9ccaf
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+description: 了解 Microsoft 如何收集人口普查、使用情况和错误数据，以了解团队和 Skype for business 使用情况和问题，以便规划产品改进。
+ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583099"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137352"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business 和 Microsoft 团队数据收集实践
 

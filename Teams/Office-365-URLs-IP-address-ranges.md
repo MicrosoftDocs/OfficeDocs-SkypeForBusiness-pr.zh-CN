@@ -8,22 +8,24 @@ ms.date: 08/21/2018
 ms.topic: article
 audience: admin
 ms.service: msteams
-description: 了解如何正确配置 Office 365 URL 和 IP 地址范围，在适用的情况下对与 Microsoft Teams 服务的连接不使用正向代理，以及了解网络连接和安全策略的要求。
+description: 了解如何正确配置 Office 365 Url 和 IP 地址范围，以及如何在可能的连接与 Microsoft 团队服务连接时绕过转发代理。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.meetingsettings.network.ports
+ms.custom:
+- ms.teamsadmincenter.meetingsettings.network.ports
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1258138ce6f57dfb0284e030f7a813acf8b94a62
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 8056758fc707c53b780843f2fc25123b92f6e252
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862792"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136482"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Office 365 URL 和 IP 地址范围
 =====================================

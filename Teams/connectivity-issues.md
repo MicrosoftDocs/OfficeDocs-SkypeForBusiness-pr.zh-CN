@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft Teams 客户端解决连接性问题
+title: 解决团队客户端的连接问题
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,12 +16,13 @@ f1.keywords:
 description: 解决 Microsoft Teams 客户端的连接问题（主要由防火墙或代理连接导致），并了解如何进行修复。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ee6cb916388dbfc0109185a0280da052980f8ccd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825350"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137752"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 ==============================================================

@@ -22,20 +22,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: eb0e167923c93fa17a3756a439ab101eac80d2cc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 了解有关在智利中拨打免费电话号码的信息，包括可用性、有线/固定线和移动网络可用性以及限制。
+ms.openlocfilehash: 00aec8e288ca1424eec9754e1f74f9cec9a5e579
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707938"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140471"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>智利的免费拨号限制
 
 [查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。
 
 
-|**详细信息**|**说明**|
+|**Details**|**说明**|
 |:-----|:-----|
 |是否可以免费通话？  <br/> |是  <br/> |
 |拨号格式  <br/> | 123 XXXX XXXX <br/>  188 800 XXX XXX <br/> |

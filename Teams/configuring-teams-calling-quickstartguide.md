@@ -1,5 +1,5 @@
 ---
-title: 快速入门指南 - 在 Microsoft Teams 中配置通话套餐
+title: 快速入门指南-配置通话计划
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f1ded5d843689e828b00c0a466e012b8750582
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825360"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137772"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================
@@ -64,7 +65,7 @@ TeamsUpgradePolicy 的默认配置为 "孤岛" 模式，它旨在确保现有业
 
 **笔记**
  - Skype for Business IP 手机将接收呼叫，即使用户处于 TeamsOnly 模式。  
- - 已使用手机系统和通话计划许可证（如已为 Skype for Business Online）使用的用户（如已分配了 OnlineVoiceRoutingPolicy 的值）将在团队中启用 "呼叫" 选项卡，并且可以将出站 PSTN 呼叫从无需管理员执行任何管理操作的团队。
+ - 已使用手机系统和通话计划许可证（如已为 Skype for Business Online）使用的用户（如已分配了 OnlineVoiceRoutingPolicy 的值）将在团队中启用 "呼叫" 选项卡，并且可以在无需管理员执行任何管理操作的情况下放置来自团队的出站 PSTN 呼叫。
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>如何配置用户以接收团队中的所有传入 VOIP 和 PSTN 呼叫

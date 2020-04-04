@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 针对 Microsoft Teams 的服务质量 (QoS) 准备贵组织的网络。
+description: 了解如何为 Microsoft 团队中的服务质量（QoS）准备组织网络。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,22 +16,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31e8b01f5a48d74d516121c5a59ea79d94c317a3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834732"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138032"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量（QoS）
 
 本文将帮助你为 Microsoft 团队中的服务质量（QoS）准备组织的网络。 如果你支持一组大型用户，并且遇到下面所述的任何问题，则可能需要实现 QoS。 用户数较少的小型企业可能不需要 QoS，但甚至应该有帮助。
 
-QoS 是一种允许实时网络流量（如语音或视频流）对网络延迟（如下载新应用，要下载不太重要的应用）的网络延迟的敏感网络流量（如下载新应用程序）。 QoS 可在实时流中标识和标记所有数据包（使用 Windows 组策略对象和一个名为基于端口的访问控制列表的路由功能，详细信息如下所示），这样就可帮助您的网络提供语音、视频和屏幕共享流网络带宽的专用部分。
+QoS 是一种允许实时网络流量（如语音或视频流）对网络延迟（如下载新应用，要下载不太重要的应用）的网络延迟的敏感网络流量（如下载新应用程序）。 QoS 在实时流中标识和标记所有数据包（使用 Windows 组策略对象和名为基于端口的访问控制列表的路由功能，有关这些列表的详细信息），然后可帮助你的网络提供语音、视频和屏幕共享流，以流出专用的网络带宽部分。
 
 如果没有某种形式的 QoS，您可能会在语音和视频中看到以下质量问题：
 
@@ -111,9 +112,9 @@ _推荐的初始端口范围_
 
 |媒体流量类型| 客户端源端口范围 |协议|DSCP 值|DSCP 类|
 |:--- |:--- |:--- |:--- |:--- |
-|音频| 50000-50019|TCP/UDP|46|加速转发 (EF)|
+|音频| 50,000–50,019|TCP/UDP|46|加速转发 (EF)|
 |视频| 50,020–50,039|TCP/UDP|34|保证转发 (AF41)|
-|应用程序/屏幕共享| 50,040–50,059|TCP/UDP|18|有保证的转发（AF21）|
+|应用程序/屏幕共享| 50,040–50,059|TCP/UDP|18|保证转发 (AF21)|
 ||||||
 
 使用这些设置时，请注意以下事项：

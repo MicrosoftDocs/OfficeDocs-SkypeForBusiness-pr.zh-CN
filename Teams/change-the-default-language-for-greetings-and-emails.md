@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '了解如何设置 Skype for Business，以便为您的组织的默认语音邮件问候语使用另一种语言。 '
-ms.openlocfilehash: 078fd14944d5384d38d870e09575980cc89e8889
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: 了解如何设置 Skype for Business，以便为您的组织的默认语音邮件问候语使用另一种语言。
+ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825230"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139131"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 

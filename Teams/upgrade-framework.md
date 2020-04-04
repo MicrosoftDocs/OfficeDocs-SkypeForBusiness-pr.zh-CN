@@ -7,29 +7,31 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: 使用经验证的成功框架帮助您的组织从 Skype for Business 迁移到团队
+description: 使用经验证的成功框架帮助您的组织从 Skype for Business 迁移到团队。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: ab92190b95c081f1b82d27970972c77bcf726f05
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863523"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139651"
 ---
 # <a name="about-the-upgrade-framework"></a>关于升级框架
 
 为了帮助您从升级的旅程中获得猜测，我们已为实施更改而使用了一个经验证的框架。 如下所示，框架中的每个步骤在之前的步骤上生成，为了获得最佳结果，我们建议按照顺序执行这些步骤。  
 
-首先将正确的利益干系人汇集到一起，定义您的升级计划（如 范围、目标和时间线）。 在制定一个计划后，确认你的技术环境和最终用户已做好团队准备。 然后，在阶段实施升级，在准备时从试验转到组织范围的升级。 组织在团队中后，建立可用于监控质量和加速用户使用的操作计划。
+首先将正确的利益干系人汇集在一起，定义升级计划（例如，范围、目标和日程表）。 在制定一个计划后，确认你的技术环境和最终用户已做好团队准备。 然后，在阶段实施升级，在准备时从试验转到组织范围的升级。 组织在团队中后，建立可用于监控质量和加速用户使用的操作计划。
 
 ![升级历程框架的插图](media/upgrade-banner-main.png "确保您的项目已针对合适的项目团队进行了成功设置。定义项目范围、目标和日程表。确认技术和用户准备情况。执行推出计划。保持动量以最大化结果。")
 
@@ -37,7 +39,7 @@ ms.locfileid: "41863523"
 
 ## <a name="sample-upgrade-timeline"></a>示例升级日程表
 
-开始规划更改时，将开始升级。 利用成功框架作为指南，下面是一个示例时间线，可让你从升级前阶段中为你计划和准备升级、升级到升级后的操作阶段，以维持和加强您的成果。 
+开始规划更改时，将开始升级。 利用成功框架作为指南，下面是一个示例时间线，可让你从升级前阶段中为你计划和准备升级、升级到升级后的操作阶段，以维持和加强你的成果。 
 
 > [!NOTE]
 > 我们认识到团队的旅程可能涉及在不同时间利用多种 [模式](https://aka.ms/skypetoteams-coexist) 和用户组升级，这使您能够控制用户升级体验，同时保持团队发展势头。  
@@ -70,8 +72,8 @@ ms.locfileid: "41863523"
 | **1** | **评估你的环境和完整的团队技术加入** | 确保你的环境做好准备，让团队能够优化用户体验，并在一段时间内帮助你的升级。 | [升级到团队之前先评估你的环境](upgrade-plan-journey-evaluate-environment.md)。<br><br> [准备要升级到团队的服务](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **为团队优化网络，尤其适用于实时媒体方案** | 如果你要部署音频、视频或会议，请执行以下附加步骤以针对该功能优化你的网络。 | [准备要升级到团队的网络](prepare-network.md) |
 | **3** | **评估组织更改准备情况和定义团队协作方案** | 了解你的用户群体以准备合适的价值消息传递和教育级别，以促进和加速用户采纳。 | [组织更改准备情况](upgrade-org-change-readiness.md#organizational-change-readiness) |
-| **4** | **准备用户准备情况计划以定义您将如何交流、培训和支持用户** | 个性化您的通信、培训和支持计划，确保新技术的最佳 receptiveness。 | [准备用户就绪性计划](upgrade-user-readiness.md)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
-| **5** | **通知 Microsoft 团队的挂起启动** | 及早交流以帮助用户感觉，减少混乱和产生兴奋。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **4** | **准备用户准备情况计划以定义您将如何交流、培训和支持用户** | 对您的通信、培训和支持计划进行个性化设置，以确保最佳 receptiveness 新技术。 | [准备用户就绪性计划](upgrade-user-readiness.md)<br><br>[升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
+| **5** | **通知 Microsoft 团队的挂起启动** | 及早沟通以帮助用户感觉、减少混乱和产生兴奋。 | [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **为团队准备 IT 员工** | 确认您的技术和支持人员拥有他们准备和支持团队的技术环境所需的所有内容。 | [为 Microsoft 团队准备 IT 员工](upgrade-prepare-it-pros.md) <br><br> [升级成功工具包](https://aka.ms/UpgradeSuccessKit) |
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>试点：运行试点确认您的组织已准备就绪，向团队通报您的最佳旅程

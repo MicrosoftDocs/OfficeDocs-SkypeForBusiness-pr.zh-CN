@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: 了解如何使用 Microsoft 团队管理中心中的 PSTN "阻止的用户" 报表，大致了解组织中被阻止进行 PSTN 呼叫的团队用户。
+description: 使用 Microsoft 团队管理中心中的 PSTN "阻止的用户" 报表，大致了解组织的团队用户是否已阻止进行 PSTN 呼叫。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ef4dfbab2b32b088c8e2f8b38b55c15a66eb32
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827340"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140683"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft 团队 PSTN 已阻止用户报告
 

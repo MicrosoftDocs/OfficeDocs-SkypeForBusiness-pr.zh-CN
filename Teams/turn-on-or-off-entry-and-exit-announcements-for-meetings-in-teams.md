@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中打开或关闭会议的进入和退出公告
+title: 在团队中打开或关闭会议的进入和退出通知
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '了解如何在 Microsoft Teams 会议中打开或关闭进入和退出公告。 '
-ms.openlocfilehash: 8deb53145c95f9a370e894083de8e998b50fa9ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 558146853c7365a1eac9fdd2497326781889cf09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832602"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139681"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>在 Microsoft Teams 中打开或关闭会议的进入和退出公告
 
@@ -38,7 +39,7 @@ ms.locfileid: "41832602"
   
 ## <a name="setting-meeting-join-options"></a>设置会议加入选项
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 

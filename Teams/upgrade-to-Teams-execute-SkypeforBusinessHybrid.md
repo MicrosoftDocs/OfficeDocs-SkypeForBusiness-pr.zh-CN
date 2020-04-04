@@ -1,5 +1,5 @@
 ---
-title: 将 Skype for business 混合部署升级到 Microsoft 团队 |PSTN
+title: 将 Skype for business 混合部署升级到团队
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca9ebc7a28e07eec9b24c0628ade4941c0fd2fa2
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706692"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136972"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>从 Skype for Business 混合部署升级到团队
 
@@ -39,7 +41,7 @@ ms.locfileid: "42706692"
 - [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 - [开展了一个试验](https://aka.ms/SkypeToTeams-Pilot)
 
-如果你已在 Office 365 租户的混合部署中部署了 Skype for business 或 Microsoft Lync，并且你的组织希望通过使用多个 Office 租户的混合部署进行配置，请按照本文中的指南进行操作，以便你可以选择性地升级到团队-共存模式————————————。 对于升级旅程，你需要将用户移动到 Skype for business Online （如果他们尚未联机），然后为他们分配适当的共存和升级模式。
+如果你已在 Office 365 租户的混合部署中部署了 Skype for business 或 Microsoft Lync，并且你的组织希望通过使用多个共存模式（或全部）升级到团队，请按照本文中的指南操作。 对于升级旅程，你需要将用户移动到 Skype for business Online （如果他们尚未联机），然后为他们分配适当的共存和升级模式。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -57,6 +59,6 @@ ms.locfileid: "42706692"
 
 ## <a name="phone-system-and-teams-upgrade"></a>电话系统和团队升级
 
-如果你正在将 Skype for Business 混合部署转换为带有呼叫计划的电话系统，Microsoft 将成为您的公共交换电话网络（PSTN）提供商，并假设你已完成电话号码移植-升级你的用户以团队将向团队自动切换入站 PSTN 呼叫。
+如果你正在将 Skype for Business 混合部署转换为带有呼叫计划的电话系统，Microsoft 将成为您的公共交换电话网络（PSTN）提供商，并假设你已完成电话号码移植-将你的用户升级到团队会自动将入站 PSTN 呼叫转到团队。
 
-如果通话计划不可用或你想要使用现有的 PSTN 连接提供程序，你需要将你的企业语音部署（或使用现有本地部署或云连接器版本的混合语音部署）转换为Microsoft Phone 系统直接路由。 若要将用户升级到团队，请参阅[手机系统直接路由的其他注意事项](2-envision-make-my-service-decisions-direct-routing.md)。
+如果通话计划不可用或你打算使用现有的 PSTN 连接提供程序，则需要将你的企业语音部署（或使用现有本地部署或云连接器版本的混合语音部署）转换为 Microsoft Phone 系统直接路由。 若要将用户升级到团队，请参阅[手机系统直接路由的其他注意事项](2-envision-make-my-service-decisions-direct-routing.md)。

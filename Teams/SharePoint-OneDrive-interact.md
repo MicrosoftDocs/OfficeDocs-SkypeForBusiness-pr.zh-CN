@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: 了解 SharePoint Online 和 OneDrive for Business 如何与 Microsoft 团队交互，例如如何存储私人聊天文件，以及团队、标准频道和文档库之间的关系。
+description: SharePoint Online & OneDrive for Business 与团队交互私人聊天文件存储 & 团队、标准频道 & 文档库之间的交互。
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5f2698330ae23f25ffbbe5fae40d8dc6234354d
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fd34bf368667fcfa5776de40cad0d1444440805a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131110"
+ms.locfileid: "43137252"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 

@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 了解在团队中设置事件的活动的步骤，包括准备网络、分配许可证、使用策略为用户启用实时事件功能和计划以及设置第三方分发提供商。
-ms.custom: ms.teamsadmincenter.liveevents.policies
+description: 为团队中的事件设置实时，包括设置网络、分配许可证、启用实时事件功能和计划以及视频分发解决方案。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35ef6775f04049b79374a4e2940646eff9e8
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558572"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140561"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -82,9 +82,9 @@ ms.locfileid: "42558572"
 ![显示 Microsoft 团队徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft 团队管理中心
 
 1. 转到 "**会议** > **实时事件策略**"。
-2. 通过单击策略名称的左侧，选择策略。
-3. 选择 "**管理用户**"。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对要添加的每个用户重复此步骤。
+2. 单击策略名称的左侧以选择该策略。
+3. 选择“管理用户”****。
+4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对想要添加的每一个用户重复此步骤。
 5. 完成添加用户后，请选择 "**保存**"。
  
 
@@ -114,7 +114,7 @@ ms.locfileid: "42558572"
 - **斜 OmniCache**提供下一代网络分发，确保跨全球 wan 的视频内容无缝传递，帮助事件发生器优化网络带宽并支持成功的实时事件广播和按需流。 即将推出针对团队中产生的实时事件的快速起步 OmniCache 支持。 [了解详细信息](http://www.ramp.com)。 
  
 > [!NOTE] 
-> 所选的 SDN 或 eCDN 解决方案须遵守所选的**第三方提供商的服务条款和隐私策略**，这些条款将控制提供商的解决方案的使用。 您对提供商的解决方案的使用将不受 Microsoft 批量许可条款或在线服务条款的制约。 如果您不同意**第三方提供商的条款**，则不要在团队中启用该解决方案。 
+> 所选的 SDN 或 eCDN 解决方案受限于所选的**第三方提供商的服务条款和隐私策略**，这些条款将控制您对提供商的解决方案的使用。 您对提供商的解决方案的使用将不受 Microsoft 批量许可条款或在线服务条款的制约。 如果您不同意**第三方提供商的条款**，则不要在团队中启用该解决方案。 
 
 设置 SDN 或 eCDN 解决方案之后，你可以为团队中的实时事件配置提供程序。 
 
@@ -124,5 +124,4 @@ ms.locfileid: "42558572"
 ### <a name="related-topics"></a>相关主题
 - [什么是 Teams 实时事件？](what-are-teams-live-events.md)
 - [规划 Teams 实时事件](plan-for-teams-live-events.md)
-- [配置团队中的实时事件设置](configure-teams-live-events.md)
-
+- [配置 Teams 实时事件设置](configure-teams-live-events.md)

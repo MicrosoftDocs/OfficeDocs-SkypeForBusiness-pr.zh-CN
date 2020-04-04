@@ -1,5 +1,5 @@
 ---
-title: 从 Skype for Business 内部部署升级到团队-Microsoft 团队
+title: 将本地 Skype for Business 升级到 Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,23 +8,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 从 Skype for Business 内部部署升级到团队的注意事项。
+description: 从 Skype for Business 服务器或 Microsoft Lync 本地部署部署和实施到团队的升级。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706672"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139621"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>从本地 Skype for Business 升级到团队
 

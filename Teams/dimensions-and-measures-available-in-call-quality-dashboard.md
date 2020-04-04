@@ -1,5 +1,5 @@
 ---
-title: "\"呼叫质量\" 仪表板中可用的尺寸和测量"
+title: 尺寸和测量-通话质量仪表板
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -18,14 +18,16 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Reporting
+ms.custom:
+- Reporting
+- seo-marvel-mar2020
 description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板使用的维度和度量的详细信息。
-ms.openlocfilehash: 71f9f2ea8ea01108b0a2f80e8e07cacfeef899ea
-ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
+ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43059426"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137332"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>"呼叫质量" 仪表板中可用的尺寸和测量
 

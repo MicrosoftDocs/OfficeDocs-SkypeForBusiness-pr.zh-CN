@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中实施 QoS 和监控通话分析
+title: 实施 QoS 和监控呼叫分析
 author: dstrome
 ms.author: dstrome
 manager: Serdars
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f20b12a867c6ed248fb00bad2d3fb5e9074c2c25
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5ecf199f5027774684f5a626c416f789293926d7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138053"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140051"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>在 Microsoft 团队中实施 QoS 和监控通话质量
 
@@ -29,9 +30,9 @@ ms.locfileid: "42138053"
 
 当用户开始使用团队进行呼叫和召开会议时，他们可能会遇到呼叫或会议的呼叫者语音或 chopping。 共享视频可能冻结或像素化，或者完全失败。 这是由于表示语音和视频流量导致网络拥塞的 IP 数据包，或者根本就不在序列中。 有多种方法可在它们表面上发现这些问题并防止其返回，主要是服务质量（QoS）。
 
-**服务质量（QoS）** 是一种允许实时网络流量（如语音或视频流）的一种方法，该功能对网络延迟非常敏感（如下载新应用程序，这种情况下，下载不太多的情况）。 QoS 使用 Windows 组策略对象和一个名为基于端口的访问控制列表的路由功能在实时流中标识和标记所有数据包，这样就可以帮助您的网络提供语音、视频和屏幕共享流其自己的专用部分网络带宽。
+**服务质量（QoS）** 是一种允许实时网络流量（如语音或视频流）的一种方法，该功能对网络延迟非常敏感（如下载新应用程序，这种情况下，下载不太多的情况）。 QoS 使用 Windows 组策略对象和一个名为基于端口的访问控制列表的路由功能，在实时流中标识和标记所有数据包，这样就可以帮助您的网络提供语音、视频和屏幕共享，以流出自己专用的网络带宽部分。
 
- 现在，我们将只是说它非常喜欢通过邮件发送信件：如果你向其发送一条短信，那么，如果你将其发送到第一类，它获得的速度会更快，并且如果你发送 it 优先邮件，它将在两天内收到。 当然，网络比邮件运行速度更快，但它仍会运行，速度对某些应用程序至关重要，对其他应用不太重要。 这种主题在最初的理解中很难理解，但它在用户体验方面的差异非常大，因此需要提前投入大量时间和精力。 阅读[Microsoft 团队中的实施服务质量（QoS）](QoS-in-Teams.md) ，以便更详细地讨论。
+ 现在，我们将只是说它非常喜欢通过邮件发送信件：如果你向其发送一条短信，那么，如果你将其发送到第一类，它获得的速度会更快，并且如果你发送它的优先级邮件，它将在两天内收到。 当然，网络比邮件运行速度更快，但它仍会运行，速度对某些应用程序至关重要，对其他应用不太重要。 这种主题在最初的理解中很难理解，但它在用户体验方面的差异非常大，因此需要提前投入大量时间和精力。 阅读[Microsoft 团队中的实施服务质量（QoS）](QoS-in-Teams.md) ，以便更详细地讨论。
 
 理想情况下，你可以在你的内部网络上实现 QoS，同时设置团队，但如果你的空间足够小，则可以选择。 这允许对延迟敏感的语音和视频流量进行优先排列，使其优先于其他流量。 你将在[Microsoft 团队管理中心](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)以及你的网络中的交换机和路由器上对所有[客户端设备](QoS-in-Teams-clients.md)执行此优先顺序。
 

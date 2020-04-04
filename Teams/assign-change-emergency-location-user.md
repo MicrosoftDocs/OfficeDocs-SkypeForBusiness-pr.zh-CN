@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 了解如何为组织中的用户分配或更改紧急位置。
-ms.openlocfilehash: dca0116188eddeb3c28b8d1f8486ae601e742079
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 2652cbd2f01af4436de737bae54656e96488ab27
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695707"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137102"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置
 

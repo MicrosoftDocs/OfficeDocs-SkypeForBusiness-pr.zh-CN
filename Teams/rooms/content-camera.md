@@ -1,5 +1,5 @@
 ---
-title: 使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
+title: 了解如何设置内容照相机-Microsoft 团队
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta
@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 本文介绍 Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题。
-ms.openlocfilehash: b470804ac2c5a44a0eb74330ea5158c2e9fe9098
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+description: 在 Microsoft 团队聊天室中使用内容相机，它与图像处理软件交互以允许演示者在模拟白板上进行绘制。
+ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824530"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137622"
 ---
 # <a name="content-cameras"></a>内容照相机
 

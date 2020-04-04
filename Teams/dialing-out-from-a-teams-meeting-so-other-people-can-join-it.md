@@ -1,5 +1,5 @@
 ---
-title: 从 Microsoft Teams 会议拨出，以便其他人可以加入会议
+title: 从会议拨出，以便其他人可以加入
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 了解你需要的信息以及会议组织者如何使用 Teams 向其他人拨出。
-ms.openlocfilehash: f0c8ca62c5e985ecae4bc5a0f373a95b0d1ce69e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fbba74f7d8cd25da4a96237dfc551463681eef20
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826970"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137362"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 

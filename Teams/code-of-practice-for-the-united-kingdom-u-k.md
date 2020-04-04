@@ -1,5 +1,5 @@
 ---
-title: Office 365 中的通话套餐 - 英国行为准则
+title: 英国的练习代码 -Office 365 通话计划
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 了解 Skype for business UK 的适用于 Skype for Business 的 PSTN 呼叫计划代码，包括、获取帮助的位置以及如何提交投诉和解决争议。
+ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824940"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139041"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 中的通话套餐 - 英国行为准则
 
@@ -65,7 +66,7 @@ Office 365 通话计划依赖于您的宽带连接。 如果宽带连接断电�
 
 Skype for Business 向英格兰、威尔士、苏格兰和北爱尔兰地区的客户提供对 999/112 公共紧急呼叫服务的访问。 但是，拨打999或112的紧急电话与传统电话服务上的 Office 365 通话计划服务的运行方式有所不同。 客户需要通知每个用户这些差异的 Office 365 通话计划服务。
 
-不同之处包括：（i） Skype for business 可能不知道呼叫方的实际位置，这可能会导致紧急服务被 despatched 到错误的位置;（ii）当 Skype for Business 用户拨打紧急电话时，用户可能会被运营商要求提供他或她的当前位置，以帮助正确地传送紧急呼叫和 despatching 紧急服务;（iii）如果用户的设备没有电源，或者由于任何原因而无法访问 Internet，则用户无法通过 Office 365 通话计划服务进行紧急呼叫;和（iv）虽然可在 Internet 连接可用的世界任何地方使用 Office 365 通话计划服务，但用户不应呼叫999或112，而不是英国、威尔士、苏格兰或北爱尔兰，因为呼叫很可能不会被路由到相应的紧急服务。
+不同之处包括：（i） Skype for business 可能不知道呼叫方的实际位置，这可能会导致紧急服务被 despatched 到错误的位置;（ii）当 Skype for Business 用户拨打紧急电话时，用户可能会被运营商要求提供他或她的当前位置，以帮助正确地传送紧急呼叫和 despatching 紧急服务;（iii）如果用户的设备没有电源，或者由于任何原因而无法访问 Internet，则用户无法通过 Office 365 通话计划服务进行紧急呼叫;和（iv）虽然可在 Internet 连接可用的世界任何地方使用 Office 365 通话计划服务，但用户不应呼叫999或112境外、威尔士、苏格兰或北爱尔兰，因为呼叫可能不会被路由到相应的紧急服务。
 
 每位客户应注册用户的位置并使此信息保持在最新状态下，以便向紧急服务中心提供此信息，这一点非常重要。你可以通过 Skype for Business 管理员门户在线更改位置信息。
 
@@ -139,7 +140,7 @@ Skype for Business 会将高价位服务呼叫发送给另一家电话公司（"
 
 ### <a name="dispute-resolution"></a>争议解决
 
-如果您认为您的 "特优费率服务费用" 上的费用是 Skype for Business 部件上的错误，并且您希望获得退款，您可以按照 Skype for Business 投诉处理代码对投诉进行归档。 如果您将投诉与 Skype for Business 一起归档，（a）投诉在提交后的八（8）周内未得到解决，或者（b）您收到一条来自美国的字母，表明我们已达到最终决定，您可能会将投诉 Ombudsman 服务，这是由 Ofcom 批准的第三方，用于处理有关通信服务的投诉。
+如果您认为您的 "特优费率服务费用" 上的费用是 Skype for Business 部件上的错误，并且您希望获得退款，您可以按照 Skype for Business 投诉处理代码对投诉进行归档。 如果您将投诉与 Skype for Business 一起归档，或者（a）在提交后八（8）周内未解决投诉，或者（b）您收到一条来自美国的字母，表示我们已达到最终决定，您可能会将投诉告知 Ombudsman 服务，这是由 Ofcom 批准的第三方，用于处理有关通信服务的投诉。
 
 ## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. 国家翻译服务、个人号码和0870号码
 
@@ -150,4 +151,3 @@ Skype for Business 会将高价位服务呼叫发送给另一家电话公司（"
 
 ## <a name="related-topics"></a>相关主题
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

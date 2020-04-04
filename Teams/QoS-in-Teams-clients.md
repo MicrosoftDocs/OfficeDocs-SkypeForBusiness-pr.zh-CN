@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 客户端中实施服务质量
+title: 在团队客户端中实现服务质量
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fb3823a77995e401be7e60e86603f9d8c56099f
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 66e6dc43e03f1ec3606116ad001f11104de4a55f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863153"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139601"
 ---
 # <a name="set-qos-on-windows-clients"></a>在 Windows 客户端上设置 QoS
 
@@ -32,9 +33,9 @@ ms.locfileid: "41863153"
 
 |媒体流量类型| 客户端源端口范围 |协议|DSCP 值|DSCP 类|
 |:--- |:--- |:--- |:--- |:--- |
-|音频| 50000-50019|TCP/UDP|46|加速转发 (EF)|
+|音频| 50,000–50,019|TCP/UDP|46|加速转发 (EF)|
 |视频| 50,020–50,039|TCP/UDP|34|保证转发 (AF41)|
-|应用程序/屏幕共享| 50,040–50,059|TCP/UDP|18|有保证的转发（AF21）|
+|应用程序/屏幕共享| 50,040–50,059|TCP/UDP|18|保证转发 (AF21)|
 | | | | | |
 
 只要有可能，就会在组策略对象中配置基于策略的 QoS 设置。 以下步骤与[在 Skype for Business 服务器上配置客户端的端口范围和服务质量策略](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)非常相似，这种情况下可能不需要其他一些详细信息。
