@@ -567,8 +567,10 @@
 
 # Microsoft 365 商务语音
 ## [什么是 Microsoft 365 商务语音？](business-voice/whats-business-voice.md)
+## [国家和地区可用性](business-voice/country-region-availability.md)
 ## 购买须知
 ### [获取商务语音需要购买什么](business-voice/what-to-buy.md)
+### [从经销商或合作伙伴处获取帮助](business-voice/reseller-partner-support.md)
 ### [检查 Internet 连接](business-voice/get-ready-internet.md)
 ### [使用户准备就绪](business-voice/prepare-users.md)
 ## [运行“入门”向导](business-voice/use-getting-started-wizard.md)
@@ -602,7 +604,6 @@
 # 行业和政府指南
 ## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
-## [适合一线员工的快速入门](firstline-workers-quickstart.yml)
 ## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [安装 Microsoft StaffHub PowerShell 模块](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -629,12 +630,19 @@
 ### [远程学习入门](remote-learning-edu.md)
 ### [向大型用户组分配策略](batch-policy-assignment-edu.md)
 ### [Teams 许可教育版](teams-edu-licensing.md)
+### [教育版管理员低带宽指南](edu-remote-low-bandwidth.md)
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
 ### [用于 EDU 管理员的 Microsoft Teams 政策包](policy-packages-edu.md)
 ### [面向管理员的 Microsoft 教育版管理常见问题解答](plan-teams-governance-edu.md)
 ### [安装 Moodle 集成](install-moodle-integration.md)
 ### [教育 SKU 参考](sku-reference-edu.md)
+
+## 适合于一线工作者的 Teams
+### [适合一线员工的快速入门](firstline-workers-quickstart.yml)
+### [一线员工脚本化部署](flw-scripted-deployment.md)
+### [RealWear for Microsoft Teams](flw-realwear.md)
+### [从 SPO 网站或页面创建 Teams Intranet 门户应用](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [适用于零售业的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
@@ -652,6 +660,7 @@
 # 安全性和合规性
 ## [概述](security-compliance-overview.md)
 ## 安全性
+### [安全指南](teams-security-guide.md)
 ### [标识模式和身份验证](identify-models-authentication.md)
 ### [使用新式验证登录 Teams](sign-in-teams.md)
 ## 合规性
