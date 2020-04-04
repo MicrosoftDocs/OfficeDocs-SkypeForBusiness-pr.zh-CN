@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
-description: 在查找并获取组织的电话号码时，获取的电话号码会比已分配许可证的电话号码多。 但这取决于你已购买并分配的电话号码类型和许可证类型。 您可以单击用于通话计划的不同类型的电话号码，了解 Microsoft 团队中使用的不同电话号码。
-ms.openlocfilehash: d620e10c90474857325b15201d3b899d728ed815
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 了解根据号码类型和拥有的许可证数量，在 Microsoft 团队中可以获得多少个电话号码。
+ms.openlocfilehash: b8c6c8a2e1fa2b1b882a4fc2ddbbb5e904e5f6f7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836284"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141105"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>可以获得多少个电话号码？
 

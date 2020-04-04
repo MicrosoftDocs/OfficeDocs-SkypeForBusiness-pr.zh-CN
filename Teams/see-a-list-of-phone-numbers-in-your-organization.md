@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
+- seo-marvel-mar2020
 description: 了解如何使用 Microsoft 团队管理中心查看你的组织中的所有电话号码以及分配给用户或未分配的所有号码的列表。
-ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236852"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140955"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 

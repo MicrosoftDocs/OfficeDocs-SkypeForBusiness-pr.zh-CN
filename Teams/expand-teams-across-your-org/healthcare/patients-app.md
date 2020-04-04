@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft 团队患者应用 EHR 集成
-ms.openlocfilehash: 27149ad8466eec9bd3c1f73293f82a877dc1a722
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 了解如何使用 FHIR Api 在医疗信息系统上将电子医疗记录集成到 Microsoft 团队，以连接到 Microsoft 团队。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147715"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141205"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>将电子医疗记录集成到 Microsoft Teams 中
 
@@ -63,7 +64,7 @@ ms.locfileid: "42147715"
 
 ### <a name="authentication"></a>身份验证  
 
-*使用不支持用户级授权*的应用级授权是更常用的方法来执行数据转换并通过 FHIR 公开连接来 EHR 数据，即使 EHR 系统可能会实现用户级授权。 互操作服务（合作伙伴）获取对 EHR 数据的提升访问权限，并且当它们公开与相应的 FHIR 资源相同的数据时，不会将授权上下文传递到与互操作集成的互操作服务使用者（患者应用）服务或平台。 患者应用将不能强制实施用户级授权，但支持应用程序进行患者应用和互操作合作伙伴的服务之间的应用程序身份验证。
+*使用不支持用户级授权*的应用级授权是更常用的方法来执行数据转换并通过 FHIR 公开连接来 EHR 数据，即使 EHR 系统可能会实现用户级授权。 互操作服务（合作伙伴）获取对 EHR 数据的提升访问权限，并且当它们公开与相应的 FHIR 资源相同的数据时，不会将授权上下文传递到与互操作服务或平台集成的互操作服务使用者（患者应用）。 患者应用将不能强制实施用户级授权，但支持应用程序进行患者应用和互操作合作伙伴的服务之间的应用程序身份验证。
 
 应用程序身份验证模型如下所述：
 
@@ -71,7 +72,7 @@ ms.locfileid: "42147715"
 
 1. 合作伙伴服务使患者应用可以创建合作伙伴的帐户，从而使患者应用能够生成并拥有 client_id 和 client_secret，通过合作伙伴身份验证服务器上的身份验证注册门户进行管理。
 2. 合作伙伴服务拥有身份验证/授权系统，该系统接受和验证（身份验证）提供的客户端凭据，并在范围内向后提供租户提示的访问令牌，如下所述。
-3. 出于安全原因或在机密遭到破坏的情况下，患者应用可以重新生成机密并使旧机密无效（在 Azure 门户中提供相同的示例-AAD 应用注册）
+3. 出于安全原因或在机密遭到破坏的情况下，患者应用可以重新生成机密并使旧机密无效（在 Azure 门户中可用的示例-AAD 应用注册）。
 4. 托管一致性语句的元数据终结点应取消身份验证，它应该在没有身份验证令牌的情况下可以访问。
 5. 合作伙伴服务提供患者应用的令牌终结点，以使用客户端凭据流请求访问令牌。 按授权服务器的令牌 url 应该是从 FHIR 服务器上的元数据中提取的 FHIR 一致性（功能）语句的一部分，如下例所示：
 
@@ -136,7 +137,7 @@ ms.locfileid: "42147715"
 
 ## <a name="performance-and-reliability"></a>性能和可靠性
 
-患者应用在私人预览版中，不能保证端到端的性能。 性能因素包括工作流中涉及的所有跃点的相对延迟，从运行状况系统环境中的 EHR 开始到互操作伙伴及其基础（包括 FHIR 服务器和跨 Office 365 生态系统）患者应用。
+患者应用在私人预览版中，不能保证端到端的性能。 性能方面的因素包括工作流中涉及的所有跃点的相对延迟，从运行状况系统环境中的 EHR 开始到互操作伙伴及其基础（包括 FHIR 服务器以及跨 Office 365 生态应用和患者应用）。
 
 ![互操作合作伙伴性能的插图](../../media/FHIR.png)
 
@@ -167,5 +168,3 @@ ms.locfileid: "42147715"
     ![患者应用服务器设置的屏幕截图](../../media/patients-server.png)
 
 5. 开始使用应用从 FHIR 服务器/EHR 搜索病人，并将其添加到列表中，如果不起作用，请[向我们提供反馈](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback)。 此外，若要建立患者应用 > FHIR 服务器流的经完全验证的版本，请使用 Microsoft 团队 for 医疗保健产品工程（如前面所述的电子邮件请求来明确要求），与 Microsoft 团队保持脱机对话，我们将根据上述 FHIR 界面文档中所述的身份验证要求为你提供帮助。  
-
-

@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中为组织管理 Shifts 应用
+title: 管理你的组织的倒班应用
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 9298ed02c6b8559bdaf1e59c74a149a9d5164124
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161855"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141185"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
@@ -74,7 +75,7 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>将 FirstlineWorker 策略分配给单个用户
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后单击 "用户"。
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 在 "**分配的策略**" 旁边，选择 "**编辑**"。
 3. 在 "**团队应用设置策略**" 下，选择 " **FirstlineWorker**"，然后选择 "**保存**"。
 

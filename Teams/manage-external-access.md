@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理外部访问（联合身份验证）
+title: 管理外部访问权限（联盟）
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -15,16 +15,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.externalaccess.overview
+- seo-marvel-mar2020
 description: 你的 Teams 管理员或 IT 管理员可以为其他域配置外部访问（联合身份验证），使来自这些域的用户能参与到 Teams 中。
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b354172e5a60e3c6f9df5d74c5d16731fdac0bf8
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 6db70da03ae2e1dba0d89f319c7311241ac17b3a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096857"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141065"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 ======================================================

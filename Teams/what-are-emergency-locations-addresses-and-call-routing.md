@@ -1,5 +1,5 @@
 ---
-title: 计划紧急呼叫、紧急地址、紧急呼叫路由、动态紧急呼叫
+title: 规划和管理紧急呼叫
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,13 +22,14 @@ ms.custom:
 - ms.lync.lac.AddressAndLocation
 - Calling Plans
 - Direct Routing
+- seo-marvel-mar2020
 description: 了解紧急电话，包括有关紧急地址、紧急呼叫路由和动态紧急呼叫的信息。
-ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161685"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141025"
 ---
 # <a name="manage-emergency-calling"></a>管理紧急电话
 
@@ -91,7 +92,7 @@ Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前�
 
 目前，只有美国的通话计划用户可以利用动态位置来路由紧急呼叫，如下所示：
 
-- 如果美国呼叫计划的团队客户在美国动态获取紧急地址，则该地址将用于紧急路由，而不是注册地址，并且呼叫将自动路由到 PSAP 中的地址的服务区域。
+- 如果美国呼叫计划的团队客户在美国动态获取紧急地址，则该地址将用于紧急路由，而不是注册地址，并且呼叫将自动路由到地址的服务区域中的 PSAP。
 
 - 如果美国通话计划的团队客户端不会动态获取美国内的紧急地址，则注册的紧急地址将用于帮助屏幕和路由呼叫。 但是，在将呼叫者连接到相应的 PSAP 之前，将对呼叫进行筛选以确定是否需要更新的地址。
 
@@ -179,7 +180,7 @@ TeamsEmergencyCallRoutingPolicy 引用了一个联机 PSTN 使用，它必须具
 
 #### <a name="emergency-location-identification-number-elin-applications"></a>紧急位置标识号码（ELIN）应用程序
 
-会话边框控制器（SBCs）可以包含紧急位置标识号（ELIN）应用程序。 如果将 SBC ELIN 应用程序集成到直接路由部署，则必须在 ELIN 应用程序中配置紧急地址和关联的电话号码，然后将 ELIN 记录上载到各自 PSTN 中的紧急调用数据库.  使用 ELIN 标识符的团队紧急位置必须匹配 ELIN 应用程序中的位置。
+会话边框控制器（SBCs）可以包含紧急位置标识号（ELIN）应用程序。 如果将 SBC ELIN 应用程序集成到直接路由部署，则必须在 ELIN 应用程序中配置紧急地址和关联的电话号码，然后将 ELIN 记录上载到各自 PSTN 中的紧急调用数据库。  使用 ELIN 标识符的团队紧急位置必须匹配 ELIN 应用程序中的位置。
 
 当带有动态获取位置的紧急呼叫被路由到相应的 SBC 时，ELIN 应用程序：
 

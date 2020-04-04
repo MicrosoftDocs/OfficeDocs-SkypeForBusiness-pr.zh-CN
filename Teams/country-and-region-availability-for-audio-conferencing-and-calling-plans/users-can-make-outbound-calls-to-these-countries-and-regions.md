@@ -1,5 +1,5 @@
 ---
-title: 用户可以向这些国家/地区拨出通话
+title: 对这些国家/地区进行出站通话
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,13 +23,14 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- seo-marvel-mar2020
 description: 本主题收录了有通话套餐的用户可以拨出通话的所有国家/地区。
-ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 4e41235473436e326d19f42d8e838d5508becf97
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982125"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141045"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>用户可以向这些国家/地区拨出通话
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的标识模式和身份验证
+title: 标识模型和身份验证
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 description: 了解 Microsoft Teams 中的不同标识模式，例如，云、同步和联合。 此外，还了解多重身份验证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a58dcdae704be7ccdaefe1e2bca3b4978f4a10f9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42022283"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139291"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Microsoft Teams 中的标识模式和身份验证
 ==========================================
@@ -38,7 +39,7 @@ Microsoft Teams 支持在 Office 365 中可以使用的所有标识模式。 支
 <a name="configurations"></a>配置
 --------------
 
-根据贵组织决定要实施和使用的标识模式，实施要求可能会有所不同。 请参阅下面的要求表格，以确保你的部署满足这些先决条件。 如果你已部署 Office 365 且已实施标识和身份验证方法，你可以跳过这些步骤。
+根据组织对实现和使用哪些身份模型的决定，实现要求可能会有所不同。 请参阅下面的要求表格，以确保你的部署满足这些先决条件。 如果你已部署 Office 365 且已实施标识和身份验证方法，你可以跳过这些步骤。
 
 
 |标识模式 |部署清单  |其他信息  |

@@ -1,5 +1,5 @@
 ---
-title: 为 Microsoft Teams 采用定义结果和成功
+title: 定义对采用 Microsoft 团队的成果和成功-Microsoft 团队
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,9 @@ ms.date: 11/01/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -19,12 +21,12 @@ f1.keywords:
 description: 了解如何衡量团队规模广泛启用的成果和成功。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f963acb58369e7b623969cb518f53249912bfd67
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837852"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140795"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用定义结果和成功
 

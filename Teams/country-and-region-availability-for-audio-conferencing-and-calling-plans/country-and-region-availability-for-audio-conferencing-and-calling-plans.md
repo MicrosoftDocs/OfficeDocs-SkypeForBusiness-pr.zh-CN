@@ -1,5 +1,5 @@
 ---
-title: 音频会议和通话套餐的国家/地区可用性
+title: 国家/地区可用性-音频会议、通话计划
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,13 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 - LIL_Placement
-description: 可以选择国家/地区，以确定音频会议、电话系统、通话套餐、通信点数以及收费和免费电话号码是否可用。
-ms.openlocfilehash: cc1acc2e112477c441b9bfb492dff49183e5dc3d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: 了解在国家或地区是否可以使用音频会议、电话系统、通话计划、通讯信用点数以及收费电话号码和免费电话号码。
+ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682519"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141055"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 

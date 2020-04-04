@@ -1,5 +1,5 @@
 ---
-title: 采用 PSTN 连接的混合环境中的用户帐户
+title: 混合环境中的用户帐户与 PSTN
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解用户创建的不同组合以及支持或不支持的组合。
-ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837282"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141075"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>采用 PSTN 连接的混合环境中的用户帐户
 

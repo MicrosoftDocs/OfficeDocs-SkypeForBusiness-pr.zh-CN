@@ -13,21 +13,22 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策略和权限、确定哪些用户可以邀请来宾以及获取有关来宾用户活动的报告。
+description: 了解如何创建你的第一个团队和通道、板载早期使用者、监视使用情况和反馈以及获取资源以规划组织范围内推出。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834772"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139241"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================
 
 > [!IMPORTANT]
-> 您可能需要等待24小时才能使更改生效。 
+> 最长可能需要等待 24 小时，更改才会生效。 
 
 **来宾**是 Microsoft 团队中的一种用户类型，其中包括所有 Office 365 Business Premium、Office 365 企业版、Office 365 Business Essentials 和 Office 365 教育版订阅。 无需额外的 Office 365 许可证。 请阅读下面的有关[来宾访问许可](#guest-access-licensing-limits)的详细信息。
 

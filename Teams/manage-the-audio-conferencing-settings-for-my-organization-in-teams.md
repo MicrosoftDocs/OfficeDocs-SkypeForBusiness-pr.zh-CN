@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理贵组织的音频会议设置
+title: 管理音频会议设置
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '了解为用户分配电话拨入式会议许可证和会议 ID 的 Microsoft Teams 步骤以及许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: b7c080936b2f7e4a1fde76134cab7272c861d8d4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 513695cf905c7cb21f332f6b025318253b03334d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837522"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141155"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理贵组织的音频会议设置
 
@@ -58,7 +59,7 @@ ms.locfileid: "41837522"
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用向音频会议用户发送电子邮件
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
@@ -89,7 +90,7 @@ ms.locfileid: "41837522"
 
 用户安排的每次会议将分配到一个唯一的会议 ID。 尽管将自动创建会议 ID 并将其分配给用户，但有时用户不希望使用此 ID，并且您想要将其设置为特定的号码，或者您的用户忘记或丢失了其会议 ID。 
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
 
@@ -101,7 +102,7 @@ ms.locfileid: "41837522"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
 
@@ -114,7 +115,7 @@ ms.locfileid: "41837522"
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>设置包含在邀请中的电话号码
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
 
@@ -131,7 +132,7 @@ ms.locfileid: "41837522"
 
 **设置呼叫者加入会议时的会议体验**
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
@@ -181,7 +182,7 @@ ms.locfileid: "41837522"
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议桥处查看和设置主要（默认）和辅助（备用）语言
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
@@ -196,7 +197,7 @@ ms.locfileid: "41837522"
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>请参阅音频会议拨入号码
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 

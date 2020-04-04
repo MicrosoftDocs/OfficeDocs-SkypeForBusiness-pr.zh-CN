@@ -19,13 +19,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 了解附加许可证，每个许可证可提供的功能，如何为产品购买这些许可证，以及如何与现有运营商配合使用这些许可证。 你可以获取有关 Office 365、通信点数和通话套餐的定价信息和套餐详细信息。
-ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: 了解附加许可证，每个许可证可提供的功能，如何为产品购买这些许可证，以及如何与现有运营商配合使用这些许可证。
+ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029373"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140815"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 

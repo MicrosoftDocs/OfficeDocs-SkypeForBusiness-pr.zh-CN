@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - LIL_Placement
-description: 对于 Office 365 呼叫计划，了解如何购买和设置许可证、获取电话号码、为用户添加紧急位置和电话号码，以及告诉用户有关其新电话号码的信息。
-ms.openlocfilehash: 3fd123991544bc4555be7ceb7693089f0d439070
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 了解如何设置呼叫计划（包括您所在区域中可用的查看计划）、购买 & 分配许可证、获取电话号码以及将紧急地址添加 & 位置。
+ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838042"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140875"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 
@@ -53,15 +54,15 @@ ms.locfileid: "41838042"
     
 - **转网现有的号码。** 您可以将当前服务提供商或电话运营商提供的现有号码转网或转移到 Office 365。 有关详细信息，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)或[管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
   
-- **使用新号码的请求表单。** 有时（取决于您所在的国家/地区）您将无法使用团队管理中心获取您的新电话号码，或者您需要特定的电话号码或区号。 如果是这样，你需要下载表单并将其发送给我们。 有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+- **使用新号码的请求表单。** 有时（取决于您所在的国家/地区）您将无法使用团队管理中心获取您的新电话号码，或者您需要特定的电话号码或区号。 如果是这样，则需下载表单并将其发回给我们。 有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步骤4：为你的组织添加紧急地址和位置
-<a name="bkmk_add_addresses"></a>紧急地址必须与电话号码相关联。 此关联发生的时间可能因国家和地区而异。 例如在美国，向用户分配电话号码时需要关联紧急地址。 在英国，从 Office 365 获取的电话号码或将电话号码从当前的服务提供商转移时号码时需要将紧急地址关联到电话号码。 
+<a name="bkmk_add_addresses"> </a>紧急地址必须与电话号码相关联。 此关联发生的时间可能因国家和地区而异。 例如在美国，向用户分配电话号码时需要关联紧急地址。 在英国，从 Office 365 获取的电话号码或将电话号码从当前的服务提供商转移时号码时需要将紧急地址关联到电话号码。 
 
 有关紧急呼叫和管理紧急地址的信息，请参阅[管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)和[添加、更改或删除您的组织的紧急位置](add-change-remove-emergency-location-organization.md)。
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>步骤5：为用户分配紧急地址和电话号码
-<a name="bkmk_add_addresses"></a>在 Office 365 中设置呼叫计划时，必须为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。  有关详细信息，请参阅[分配或更改紧急地址](assign-change-emergency-location-user.md)。
+<a name="bkmk_add_addresses"> </a>在 Office 365 中设置呼叫计划时，必须为每个用户分配电话号码和紧急地址。 必须先创建紧急地址，然后才能将其与电话号码关联。  有关详细信息，请参阅[分配或更改紧急地址](assign-change-emergency-location-user.md)。
 
 
 > [!TIP]

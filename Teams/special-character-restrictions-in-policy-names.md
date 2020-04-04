@@ -1,5 +1,5 @@
 ---
-title: Teams 策略中采用了哪些特殊字数限制？
+title: Teams 策略中的特殊字符限制
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.policies.naming.error
+- seo-marvel-mar2020
 description: 查看策略名称中有特殊字符以及可以执行哪些操作来修复这些问题。
-ms.openlocfilehash: 4116f34c06667a3bd4e75f9a5541b23c8ea79dcb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: c6e41e19467f01252049c7fdc54745bcee3109d9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837922"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140835"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams 策略中采用了哪些特殊字数限制？
 

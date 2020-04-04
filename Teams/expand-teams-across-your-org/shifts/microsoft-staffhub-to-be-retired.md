@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: ''
+description: 查找有关 Microsoft StaffHub 停用和转换到 Microsoft 团队中的 "倒班" 应用的常见问题的答案。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008154"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141175"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 将停用
 
@@ -148,7 +149,7 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 用户的日程将被移动到倒班，但用户不是团队成员或 Office 365 组的成员。
 
-对于未链接到 Azure AD 用户帐户的非活动帐户，管理员可以通过在 "StaffHub 团队成员" 页面上添加有效的 Office 365 电子邮件地址来确保将用户添加为团队成员，以便用户将其链接到正确的 Azure AD 帐户红外组织。
+对于未链接到 Azure AD 用户帐户的非活动帐户，管理员可以通过在 "StaffHub 团队成员" 页面上添加有效的 Office 365 电子邮件地址来确保将用户添加为团队成员，以便用户在其组织中链接到正确的 Azure AD 帐户。
 
 另一选择是让管理员运行**StaffHubMember**和**StaffHubUser** Cmdlet，以便从 StaffHub 团队中删除非预配帐户，并使用其 UPN 将用户添加回团队。
 

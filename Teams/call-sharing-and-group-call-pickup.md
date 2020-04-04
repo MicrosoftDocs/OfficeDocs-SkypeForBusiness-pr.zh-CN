@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的呼叫共享和组内呼叫应答
+title: 呼叫共享和组内呼叫应答
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,19 +21,20 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
+- seo-marvel-mar2020
 description: 呼叫共享和群组通话分拣允许用户与同事共享传入呼叫，以便可以在用户不可用时捕获呼叫。
-ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824550"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141285"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
 Microsoft 团队的呼叫共享和组呼叫功能允许用户与同事共享传入呼叫，以便同事可以接听在用户不可用时出现的呼叫。
 
-组呼叫对收件人的干扰比其他呼叫共享形式（如呼叫转接或同时拨打）的干扰更少，因为用户可以配置他们希望如何收到传入共享呼叫的通知（通过音频和视觉通知，仅限 visual）"团队" 应用中的 "标题" 或 "横幅"，他们可以决定是否应答。
+组呼叫对收件人的干扰比其他呼叫共享形式（如呼叫转接或同时拨打）的干扰更小，因为用户可以配置他们希望如何接收传入的共享呼叫（通过音频和视觉通知、仅直观或工作组应用中的横幅），并且他们可以决定是否应答。
 
 若要与其他人共享呼叫，用户将创建呼叫组，并添加他们想要与之共享其通话的用户。 然后选择 "同时拨打" 或 "转发" 设置。 有关详细信息，请参阅有关[团队的呼叫转接和同时拨打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)的详细信息。
 

@@ -1,5 +1,5 @@
 ---
-title: 带有 GCCH 和 DoD 直接路由的音频会议
+title: 带有直接路由、GCCH 和 DoD 的音频会议
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -19,12 +19,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 了解如何在 GCCH 和 DoD 环境中通过直接路由使用音频会议。
-ms.openlocfilehash: a8a9b5a46f1efd88de38fa65e857d3eebbbd6e3d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 6b8077e2bf376976c9906a8703ebd59a1d1cc23f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047183"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141165"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>适用于 GCC High 和 DoD 且含直接路由的音频会议
 
@@ -72,7 +73,7 @@ ms.locfileid: "42047183"
 
 例如：
   ```PowerShell
-  New-csHybridTelephoneNumber -TelephoneNumber “+14250000000”
+  New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
 
 #### <a name="assign-the-service-phone-numbers-to-the-audio-conferencing-bridge-of-your-organization"></a>将服务电话号码分配给组织的音频会议桥

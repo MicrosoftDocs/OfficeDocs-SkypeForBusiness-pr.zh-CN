@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中设置包含在邀请中的电话号码
+title: 设置包含在邀请中的电话号码
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '获取为呼叫者创建默认电话号码以加入 Microsoft 团队会议的步骤。 '
-ms.openlocfilehash: 88032829581224b339f47b34c432629019fd3bac
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 6c45a28ab48add26eef8929e37e5cf60113185ea
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583109"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140895"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
@@ -50,7 +51,7 @@ Office 365 中的音频会议使组织中的用户可以创建 Microsoft 团队�
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>设置或更改会议组织者或用户的默认音频会议电话号码
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击 "**用户**"。
 

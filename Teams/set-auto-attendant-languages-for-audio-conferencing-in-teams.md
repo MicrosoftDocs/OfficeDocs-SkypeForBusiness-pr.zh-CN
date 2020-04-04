@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中设置音频会议自动助理语言
+title: 设置音频会议自动助理语言
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 了解如何在 Microsoft Teams 中针对音频会议号码选择音频会议自动助理语言。
-ms.openlocfilehash: a84ee0b230ed8de35da3a4fdea488eee9b3628e6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 37d430ba641277c7b72f921b06599f58cff4e4a0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838102"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140915"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议自动助理语言
 
@@ -42,7 +43,7 @@ Microsoft Teams 的音频会议自动助理可以在音频呼叫者加入会议�
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>设置会议自动助理语言
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。
 

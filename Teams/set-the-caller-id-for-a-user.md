@@ -20,16 +20,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: 9b31e761ee59626482b0cd98991ae1ab886af7b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 了解 Office 365 默认来电显示（用户分配的电话号码），也称为呼叫线路 ID。 你可以更改或阻止用户的呼叫者 ID。
+ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838092"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140905"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
-The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
+Office 365 中的电话系统提供一个默认的来电显示，这是用户的已分配电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 通过转到如何[在组织](how-can-caller-id-be-used-in-your-organization.md)中使用来电显示，您可以了解有关如何在您的组织中使用来电显示的详细信息。
   
 > [!TIP]
 > 不能阻止当前在 Skype for Business Online 中的传入呼叫。 
@@ -44,7 +45,7 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
     > [!NOTE]
     > [!注释] 如果要使用  _Service_ 参数，必须指定有效的服务号码。
   
-- **Block their outbound caller ID** You can block the outgoing Caller ID from being sent on a user's outgoing PSTN calls. Doing this will block their phone number from being displayed on the phone of a person being called.
+- **阻止其出站呼叫者 ID**你可以阻止传出呼叫者 ID 在用户的传出 PSTN 呼叫上发送。 执行此操作将阻止其电话号码显示在被呼叫者的电话上。
     
 - **阻止其来电呼叫者 ID**你可以阻止用户在任何传入 PSTN 呼叫上接收来电显示。
     
@@ -64,11 +65,11 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
 
 - **检查正在运行的是 Windows PowerShell 3.0 版本或更高版本**
     
-1. 若要验证您运行版本 3.0 或更高：**开始菜单** > **Windows PowerShell**。
+1. To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
-3. 如果你没有版本3.0 或更高版本，则需要下载并安装 Windows PowerShell 更新。请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。出现提示时，请重新启动计算机。
+3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
     
 4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     
@@ -76,7 +77,7 @@ The Phone System in Office 365 provides a default caller ID that is the user's a
     
 - **启动 Windows PowerShell 会话**
     
-1. 从 **开始菜单** > **Windows PowerShell** 。
+1. From the **Start Menu** > **Windows PowerShell**.
     
 2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
     
@@ -153,13 +154,13 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-- Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 当你有多个要执行的任务时，使用 Windows PowerShell 可以通过能够简化日常工作的单点管理来管理 Office 365 和 Skype for Business Online。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [可能希望使用 Windows PowerShell 管理 Office 365 的六个原因](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。了解以下主题中的这些优势：
+- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
     
   - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
     

@@ -1,5 +1,5 @@
 ---
-title: 使用 Exchange on premises 部署 Microsoft Teams Rooms
+title: 通过本地 Exchange 部署 Microsoft 团队聊天室
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -10,17 +10,19 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 阅读本主题，了解如何使用 Exchange on on-premises 在混合环境中部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: eb399eea64707e07d796ee36e85036e662ce8de1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0efed0a07024f0f1fcfeea7168c4f78c66fecd64
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838182"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141005"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange on premises 部署 Microsoft Teams Rooms
 

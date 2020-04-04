@@ -10,7 +10,9 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
@@ -32,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: eb1e4337f97f16df6d7ef039bf4ba095ed692995
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827920"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141015"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 终结点配置管理器部署 Microsoft 团队聊天室
 
@@ -593,7 +595,7 @@ Surface Pro 和 Surface Pro 4 均支持 Microsoft 球队会议室。 您需要�
 
 ## <a name="configuration-manager-task-sequences"></a>配置管理器任务序列
 
-使用 "配置管理器" 的任务序列自动执行将操作系统映像部署到目标计算机的步骤。 若要以自动方式部署 Microsoft 团队会议室，请创建一个任务序列，该序列引用用于启动目标 Microsoft 团队聊天室计算机的启动映像、要安装的 Windows 10 企业操作系统映像以及任何其他其他内容，如其他应用程序或软件更新。
+使用 "配置管理器" 的任务序列自动执行将操作系统映像部署到目标计算机的步骤。 若要以自动方式部署 Microsoft 团队会议室，请创建一个任务序列，该序列引用用于启动目标 Microsoft 团队聊天室计算机的启动映像、要安装的 Windows 10 企业操作系统映像以及其他任何其他内容（如其他应用程序或软件更新）。
 
 ### <a name="import-the-sample-task-sequence"></a>导入示例任务序列
 
@@ -656,7 +658,7 @@ Surface Pro 和 Surface Pro 4 均支持 Microsoft 球队会议室。 您需要�
    11. **复制 SRS V2 配置文件**：此步骤将所需的设置和配置文件从 Microsoft 团队聊天室部署工具包复制到本地硬盘。 此步骤不需要自定义。
        -   验证**srs v2 – Srs 应用程序包**和 "**禁用64位文件系统重定向**" 是否已选中。
 
-   12. **安装-SRSv2-OS-更新**：此步骤将部署 Microsoft 团队聊天室部署所需的任何必需的操作系统更新。 请执行下列操作：
+   12. **安装-SRSv2-OS-更新**：此步骤将部署 Microsoft 团队聊天室部署所需的任何必需的操作系统更新。 执行以下操作：
        -   选中 "[配置 Microsoft 团队聊天室" 控制台](console.md)以查看需要哪些更新。
        -   验证**SRS v2-OS 更新程序包**中是否包含所有必需的更新。
        -   验证 " **SRS v2-OS 更新" 程序包**是否已选中。

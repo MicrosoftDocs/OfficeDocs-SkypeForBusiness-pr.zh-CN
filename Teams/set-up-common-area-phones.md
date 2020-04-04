@@ -1,5 +1,5 @@
 ---
-title: 为 Microsoft Teams 设置公共区域电话许可证
+title: 设置通用区域电话许可证
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
+- seo-marvel-mar2020
 description: '了解如何为大厅、接待区和会议室设置公共区域电话 '
-ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089725"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140865"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -104,7 +105,7 @@ ms.locfileid: "42089725"
 
 1. 在 "团队" 管理中心中，选择 "**语音** > **电话号码**"。
 
-3.  从电话号码列表中选择一个号码，然后点击**分配**。
+3.    从电话号码列表中选择一个号码，然后点击**分配**。
 
 4. 在 "**分配**" 页面上的 "语音用户" 框中，键入将使用该电话的用户的名称，然后在 "**选择语音用户**" 下拉列表中选择用户。
 

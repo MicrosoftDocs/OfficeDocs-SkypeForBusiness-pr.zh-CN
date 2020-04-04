@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中查看启用了音频会议的用户列表
+title: 查看已启用音频会议的用户列表
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: '了解如何在 Microsoft Teams 中查看贵组织中启用了电话拨入式会议的用户列表。 '
-ms.openlocfilehash: 9330aef9e143764949c4589535126eb2dd72e883
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4f4608eb7d7465e40dbec2590505b0997ccbef2c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838142"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140945"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中查看启用了音频会议的用户列表
 

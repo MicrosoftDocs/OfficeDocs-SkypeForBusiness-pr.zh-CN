@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft 团队中的紧急呼叫路由策略
+title: 管理紧急呼叫路由策略
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理紧急呼叫路由策略。
-ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836502"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141115"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫路由策略
 
@@ -75,7 +76,7 @@ ms.locfileid: "41836502"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后单击 "用户"。
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
 3. 在 "**紧急呼叫路由策略**" 下，选择要分配的策略，然后单击 "**保存**"。
 
@@ -84,9 +85,9 @@ ms.locfileid: "41836502"
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫路由策略**" 选项卡。
-2. 通过单击策略名称的左侧，选择策略。
-3. 选择 "**管理用户**"。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对要添加的每个用户重复此步骤。
+2. 单击策略名称的左侧以选择该策略。
+3. 选择“管理用户”****。
+4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对想要添加的每一个用户重复此步骤。
 5. 添加完用户后，单击 "**保存**"。
 
 ### <a name="using-powershell"></a>使用 PowerShell

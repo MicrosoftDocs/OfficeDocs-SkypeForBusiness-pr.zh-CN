@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的安全性和合规性概述
+title: 安全性和合规性概述
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117420"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139091"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
@@ -143,6 +144,10 @@ Microsoft 团队中的数据丢失防护（DLP），以及 O365 较大的 DLP �
 ### <a name="auditing-and-reporting"></a>审核和报告
 
 审核日志搜索直接插入到 Office 365 安全 & 合规中心，使你能够设置警报以及报告审核事件，方法是允许导出特定于负载的事件集或常规事件集以供管理员使用，并跨无限审核时间线进行调查。 你可以在 Office 365 安全 & 合规性中心中为所有审核日志数据设置通知，并筛选和导出此数据以进行进一步分析。 请参阅[搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，了解有关如何对 O365 执行审核日志的详细信息。 若要了解有关在 Office 365 安全 & 合规中心中搜索 Microsoft 团队事件的详细信息，我们还提供团队文章中的 "[启用审核](audit-log-events.md)"，供你查看。
+
+## <a name="privacy"></a>隐私
+
+在 Microsoft，保护您的数据是我们的最高优先级。 若要了解我们的隐私做法，请阅读[Microsoft 的隐私](https://www.microsoft.com/trust-center/privacy)。
 
 ## <a name="information-protection-architecture"></a>信息保护体系结构
 

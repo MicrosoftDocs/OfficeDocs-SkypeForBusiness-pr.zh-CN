@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中让用户能够在加入会议时录制其姓名
+title: 允许用户记录其会议名称
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 了解如何在 Microsoft Teams 中启用或禁用用户是否可以在加入会议时录制其姓名。
-ms.openlocfilehash: b7b04ba5959d4ffbbb4664401ccf8e95b46c48b9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f6d1f8ea0ef015e4d951fbf3bbe124263a3b9a1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836102"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141215"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>在 Microsoft Teams 中让用户能够在加入会议时录制其姓名
 
@@ -37,7 +38,7 @@ ms.locfileid: "41836102"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>设置呼叫者是否应录制其姓名
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 

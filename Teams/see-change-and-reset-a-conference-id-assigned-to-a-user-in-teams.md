@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中查看、更改和重置分配给用户的会议 ID
+title: 查看、更改和重置用户的会议 ID
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: '了解如何在 Microsoft Teams 中为用户分配会议 ID 以及应使用的会议 ID 参数。 '
-ms.openlocfilehash: e6b1a1ace9bdbf607fa4e1ef678687f37034a052
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 了解如何为 Microsoft 团队中的用户分配会议 ID 以及会议 Id 参数应该是什么。
+ms.openlocfilehash: 7c4b9614843f353438630892574c25576913d24b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838132"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140935"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中查看和重置分配给用户的会议 ID
 
@@ -42,7 +43,7 @@ ms.locfileid: "41838132"
 
 ### <a name="to-view-the-conference-id"></a>查看会议 ID
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
 
@@ -62,7 +63,7 @@ ms.locfileid: "41838132"
 
 你可以为用户重置会议 ID（例如，当用户忘记了会议 ID 时）。
   
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队 | 评估环境 |采纳、发现
+title: 环境兼容性-Microsoft 团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: abe848e21ed245230edc1ebfbfd038af9eec9175
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236672"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139311"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 团队推出环境发现
 ===================================================
