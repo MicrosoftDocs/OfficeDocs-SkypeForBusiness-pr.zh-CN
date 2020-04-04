@@ -1,5 +1,5 @@
 ---
-title: 中国的免费拨号限制 - 南部（10 800 140 XXXX 范围）
+title: 中国的免费拨号限制-南
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,35 +22,36 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: f9343dbbbb0db35df1e20e22de8d2149bebf351d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 了解如何在中国南部拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
+ms.openlocfilehash: 0ac72f51546d8655e4472d6392206867247a1900
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707988"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140451"
 ---
-# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a><span data-ttu-id="f2439-105">中国的免费拨号限制 - 南部（10 800 140 XXXX 范围）</span><span class="sxs-lookup"><span data-stu-id="f2439-105">Toll-free dialing restrictions in China - South (10 800 140 XXXX range)</span></span>
+# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a><span data-ttu-id="2b0c2-103">中国的免费拨号限制 - 南部（10 800 140 XXXX 范围）</span><span class="sxs-lookup"><span data-stu-id="2b0c2-103">Toll-free dialing restrictions in China - South (10 800 140 XXXX range)</span></span>
 
-<span data-ttu-id="f2439-106">[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。</span><span class="sxs-lookup"><span data-stu-id="f2439-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="2b0c2-104">[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。</span><span class="sxs-lookup"><span data-stu-id="2b0c2-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="f2439-107">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="f2439-107">**Details**</span></span>|<span data-ttu-id="f2439-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="f2439-108">**Description**</span></span>|
+|<span data-ttu-id="2b0c2-105">**Details**</span><span class="sxs-lookup"><span data-stu-id="2b0c2-105">**Details**</span></span>|<span data-ttu-id="2b0c2-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="2b0c2-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="f2439-109">是否可以免费通话？</span><span class="sxs-lookup"><span data-stu-id="f2439-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="f2439-110">是</span><span class="sxs-lookup"><span data-stu-id="f2439-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="f2439-111">拨号格式</span><span class="sxs-lookup"><span data-stu-id="f2439-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="f2439-112">10 800 140 XXXX</span><span class="sxs-lookup"><span data-stu-id="f2439-112">10 800 140 XXXX</span></span> <br/> |
-|<span data-ttu-id="f2439-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="f2439-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="f2439-114">CN</span><span class="sxs-lookup"><span data-stu-id="f2439-114">CN</span></span>  <br/> |
-|<span data-ttu-id="f2439-115">已覆盖的岛/地区</span><span class="sxs-lookup"><span data-stu-id="f2439-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="f2439-116">仅限中国南方/中国电信网络</span><span class="sxs-lookup"><span data-stu-id="f2439-116">South China / China Telecom network only</span></span>  <br/> |
-|<span data-ttu-id="f2439-117">未覆盖的岛/区域</span><span class="sxs-lookup"><span data-stu-id="f2439-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="f2439-118">中国北方</span><span class="sxs-lookup"><span data-stu-id="f2439-118">North China</span></span>  <br/> |
-|<span data-ttu-id="f2439-119">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="f2439-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="f2439-120">仅限从中国电信访问</span><span class="sxs-lookup"><span data-stu-id="f2439-120">From China Telecom only</span></span>  <br/> |
-|<span data-ttu-id="f2439-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="f2439-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="f2439-122">部分。</span><span class="sxs-lookup"><span data-stu-id="f2439-122">Partial.</span></span> <span data-ttu-id="f2439-123">请参阅注释。</span><span class="sxs-lookup"><span data-stu-id="f2439-123">See comments.</span></span>  <br/> |
-|<span data-ttu-id="f2439-124">批注、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="f2439-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="f2439-125">不能使用付费电话访问。</span><span class="sxs-lookup"><span data-stu-id="f2439-125">Not accessible from a payphone.</span></span>  <br/> |
+|<span data-ttu-id="2b0c2-107">是否可以免费通话？</span><span class="sxs-lookup"><span data-stu-id="2b0c2-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="2b0c2-108">是</span><span class="sxs-lookup"><span data-stu-id="2b0c2-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="2b0c2-109">拨号格式</span><span class="sxs-lookup"><span data-stu-id="2b0c2-109">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="2b0c2-110">10 800 140 XXXX</span><span class="sxs-lookup"><span data-stu-id="2b0c2-110">10 800 140 XXXX</span></span> <br/> |
+|<span data-ttu-id="2b0c2-111">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="2b0c2-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="2b0c2-112">CN</span><span class="sxs-lookup"><span data-stu-id="2b0c2-112">CN</span></span>  <br/> |
+|<span data-ttu-id="2b0c2-113">已覆盖的岛/地区</span><span class="sxs-lookup"><span data-stu-id="2b0c2-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="2b0c2-114">仅限中国南方/中国电信网络</span><span class="sxs-lookup"><span data-stu-id="2b0c2-114">South China / China Telecom network only</span></span>  <br/> |
+|<span data-ttu-id="2b0c2-115">未覆盖的岛/区域</span><span class="sxs-lookup"><span data-stu-id="2b0c2-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="2b0c2-116">中国北方</span><span class="sxs-lookup"><span data-stu-id="2b0c2-116">North China</span></span>  <br/> |
+|<span data-ttu-id="2b0c2-117">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="2b0c2-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="2b0c2-118">仅限从中国电信访问</span><span class="sxs-lookup"><span data-stu-id="2b0c2-118">From China Telecom only</span></span>  <br/> |
+|<span data-ttu-id="2b0c2-119">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="2b0c2-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="2b0c2-120">部分。</span><span class="sxs-lookup"><span data-stu-id="2b0c2-120">Partial.</span></span> <span data-ttu-id="2b0c2-121">请参阅注释。</span><span class="sxs-lookup"><span data-stu-id="2b0c2-121">See comments.</span></span>  <br/> |
+|<span data-ttu-id="2b0c2-122">批注、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="2b0c2-122">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="2b0c2-123">不能使用付费电话访问。</span><span class="sxs-lookup"><span data-stu-id="2b0c2-123">Not accessible from a payphone.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="f2439-126">相关主题</span><span class="sxs-lookup"><span data-stu-id="f2439-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="2b0c2-124">相关主题</span><span class="sxs-lookup"><span data-stu-id="2b0c2-124">Related topics</span></span>
 
-[<span data-ttu-id="f2439-127">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="f2439-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="2b0c2-125">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="2b0c2-125">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="f2439-128">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="f2439-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="2b0c2-126">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="2b0c2-126">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  

@@ -22,33 +22,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
-ms.openlocfilehash: f044d9eb386f5ed08b13ad5ae068ecd5a3a02176
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: 了解如何拨打澳大利亚的免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
+ms.openlocfilehash: eaa63722c8a853087aad77adb3ad9acf77f2e5be
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708158"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140531"
 ---
-# <a name="toll-free-dialing-restrictions-in-australia"></a><span data-ttu-id="21920-105">澳大利亚免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="21920-105">Toll-free dialing restrictions in Australia</span></span>
+# <a name="toll-free-dialing-restrictions-in-australia"></a><span data-ttu-id="e5dcb-103">澳大利亚免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="e5dcb-103">Toll-free dialing restrictions in Australia</span></span>
 
-<span data-ttu-id="21920-106">[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。</span><span class="sxs-lookup"><span data-stu-id="21920-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="e5dcb-104">[查找其他国家或地区](../toll-free-dialing-limitations-and-restrictions.md)，或了解有关免费拨号限制和限制的详细信息。</span><span class="sxs-lookup"><span data-stu-id="e5dcb-104">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
-|<span data-ttu-id="21920-107">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="21920-107">**Details**</span></span>|<span data-ttu-id="21920-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="21920-108">**Description**</span></span>|
+|<span data-ttu-id="e5dcb-105">**Details**</span><span class="sxs-lookup"><span data-stu-id="e5dcb-105">**Details**</span></span>|<span data-ttu-id="e5dcb-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="e5dcb-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="21920-109">是否可以免费通话？</span><span class="sxs-lookup"><span data-stu-id="21920-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="21920-110">是</span><span class="sxs-lookup"><span data-stu-id="21920-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="21920-111">拨号格式</span><span class="sxs-lookup"><span data-stu-id="21920-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="21920-112">0800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="21920-112">0800 XXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="21920-113">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="21920-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="21920-114">AU</span><span class="sxs-lookup"><span data-stu-id="21920-114">AU</span></span>  <br/> |
-|<span data-ttu-id="21920-115">已覆盖的岛/地区</span><span class="sxs-lookup"><span data-stu-id="21920-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="21920-116">圣诞岛、塔斯马尼亚岛、科科斯群岛</span><span class="sxs-lookup"><span data-stu-id="21920-116">Christmas Islands, Tasmania, Cocos Islands</span></span>  <br/> |
-|<span data-ttu-id="21920-117">未覆盖的岛/区域</span><span class="sxs-lookup"><span data-stu-id="21920-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="21920-118">不适用</span><span class="sxs-lookup"><span data-stu-id="21920-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="21920-119">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="21920-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="21920-120">是</span><span class="sxs-lookup"><span data-stu-id="21920-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="21920-121">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="21920-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="21920-122">是</span><span class="sxs-lookup"><span data-stu-id="21920-122">Yes</span></span>  <br/> |
-|<span data-ttu-id="21920-123">批注、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="21920-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="21920-124">移动访问： 通话收费。</span><span class="sxs-lookup"><span data-stu-id="21920-124">Mobile access: Airtime is charged.</span></span>  <br/> |
+|<span data-ttu-id="e5dcb-107">是否可以免费通话？</span><span class="sxs-lookup"><span data-stu-id="e5dcb-107">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="e5dcb-108">是</span><span class="sxs-lookup"><span data-stu-id="e5dcb-108">Yes</span></span>  <br/> |
+|<span data-ttu-id="e5dcb-109">拨号格式</span><span class="sxs-lookup"><span data-stu-id="e5dcb-109">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="e5dcb-110">0800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="e5dcb-110">0800 XXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="e5dcb-111">国家/地区 ISO 代码</span><span class="sxs-lookup"><span data-stu-id="e5dcb-111">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="e5dcb-112">AU</span><span class="sxs-lookup"><span data-stu-id="e5dcb-112">AU</span></span>  <br/> |
+|<span data-ttu-id="e5dcb-113">已覆盖的岛/地区</span><span class="sxs-lookup"><span data-stu-id="e5dcb-113">Island/territory covered</span></span>  <br/> |<span data-ttu-id="e5dcb-114">圣诞岛、塔斯马尼亚岛、科科斯群岛</span><span class="sxs-lookup"><span data-stu-id="e5dcb-114">Christmas Islands, Tasmania, Cocos Islands</span></span>  <br/> |
+|<span data-ttu-id="e5dcb-115">未覆盖的岛/区域</span><span class="sxs-lookup"><span data-stu-id="e5dcb-115">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="e5dcb-116">不适用</span><span class="sxs-lookup"><span data-stu-id="e5dcb-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="e5dcb-117">有线/固定线路可用性</span><span class="sxs-lookup"><span data-stu-id="e5dcb-117">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="e5dcb-118">是</span><span class="sxs-lookup"><span data-stu-id="e5dcb-118">Yes</span></span>  <br/> |
+|<span data-ttu-id="e5dcb-119">移动网络可用性</span><span class="sxs-lookup"><span data-stu-id="e5dcb-119">Mobile network availability</span></span>  <br/> |<span data-ttu-id="e5dcb-120">是</span><span class="sxs-lookup"><span data-stu-id="e5dcb-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="e5dcb-121">批注、限制和访问问题</span><span class="sxs-lookup"><span data-stu-id="e5dcb-121">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="e5dcb-122">移动访问： 通话收费。</span><span class="sxs-lookup"><span data-stu-id="e5dcb-122">Mobile access: Airtime is charged.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="21920-125">相关主题</span><span class="sxs-lookup"><span data-stu-id="21920-125">Related topics</span></span>
-[<span data-ttu-id="21920-126">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="21920-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="e5dcb-123">相关主题</span><span class="sxs-lookup"><span data-stu-id="e5dcb-123">Related topics</span></span>
+[<span data-ttu-id="e5dcb-124">免费拨号限制</span><span class="sxs-lookup"><span data-stu-id="e5dcb-124">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="21920-127">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="21920-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="e5dcb-125">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="e5dcb-125">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
   
  

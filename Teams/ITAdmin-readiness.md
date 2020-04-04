@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 管理培训
+title: 管理员培训资源-Microsoft 团队
 ms.reviewer: ''
 author: LanaChin
 ms.author: v-lanac
@@ -16,17 +16,18 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+- seo-marvel-mar2020
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+ms.openlocfilehash: aecc877fb558dac0fb6d9999599caf20d9013f19
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937606"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136522"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
+# <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 团队的管理员培训入门
 
 
 使用培训资源向自己介绍团队、教授他人或运行研讨会。 经常在此处查看新内容。 
@@ -105,7 +106,7 @@ ms.locfileid: "42937606"
 | 动态紧急电话 | [视频](https://aka.ms/teams-dec) |  [幻灯片](https://aka.ms/teams-dec-deck) |
 | 实时事件 | [视频](https://aka.ms/teams-live-events-session) | [幻灯片](https://aka.ms/teams-live-events-deck) |
 | 电话系统简介 | [视频](https://aka.ms/teams-phone-system) | [幻灯片](https://aka.ms/teams-phone-system-deck) |
-| 直接路由 | [视频1：规划在团队中直接路由](https://aka.ms/teams-dr-plan)<br>[视频2：在团队中配置和管理直接路由](https://aka.ms/teams-dr-config)<br>视频3：迁移到团队中的直接路由： <strong><font color="#4B53BC">即将推出！</font></strong>  | [幻灯片](https://aka.ms/teams-direct-routing-deck) |
+| 直接路由 | [视频1：规划在团队中直接路由](https://aka.ms/teams-dr-plan)<br>[视频2：在团队中配置和管理直接路由](https://aka.ms/teams-dr-config)<br>[视频3：迁移到团队中的直接路由](https://aka.ms/teams-dr-migrate)  | [幻灯片](https://aka.ms/teams-direct-routing-deck) |
 | 从 Skype for Business 升级到 Teams | [视频1：升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频2：规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频3：共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频4：管理员体验](https://aka.ms/teams-upgrade-admin) | [幻灯片](https://aka.ms/teams-upgrade-deck)|
 
 <h2>快速入门指南</h2>
