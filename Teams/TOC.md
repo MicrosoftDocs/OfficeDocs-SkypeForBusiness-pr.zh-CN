@@ -12,8 +12,6 @@
 ## [Teams 管理员培训](itadmin-readiness.md)
 ## [Teams 的最终用户培训](enduser-training.md)
 <!-- ============================================================ -->
-#       
-#    
 
 # [如何部署 Teams](How-to-roll-out-teams.md)
 
@@ -475,9 +473,8 @@
 ### [优化反馈和报告](teams-adoption-optimize-feedback-and-reporting.md)
 ### [提高认识度并实施培训](teams-adoption-drive-awareness.md)
 ### [安排服务运行状况检查](teams-adoption-schedule-service-health-reviews.md)
+
 <!-- ============================================================ -->
-#       
-#        
 
 # 升级到 Teams
 
@@ -560,9 +557,6 @@
 
 ## [与 Exchange 和 SharePoint 集成](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
-#     
-#     
-
 <!-- ============================================================ -->
 
 # Microsoft 365 商务语音
@@ -595,11 +589,7 @@
 
 ## [合作伙伴资源](business-voice/partner-resources.md)
 
-#        
-#        
-
 <!-- ============================================================ -->
-
 
 # 行业和政府指南
 ## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
@@ -669,6 +659,7 @@
 ### [数据丢失防护](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 电子数据展示
 #### [对内容进行电子数据展示调查](ediscovery-investigation.md)
+#### [Teams 中的数据位置](location-of-data-in-teams.md)
 #### [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
 ### 内容搜索
 #### [使用内容搜索](content-search.md)
@@ -701,8 +692,7 @@
 ## [Teams 的支持资源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
-#       
-#    
+  
 # 参考
 
 ## [Teams 限制和规范](limits-specifications-teams.md)
