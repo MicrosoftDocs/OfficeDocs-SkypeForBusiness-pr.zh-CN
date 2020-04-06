@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee23b25f377770457c597e09d2e570a23e7e90da
-ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
+ms.openlocfilehash: e95440652111dbcd39b756ef942e7a974ef31de0
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113195"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131200"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams for RealWear
 
@@ -51,9 +51,10 @@ Microsoft Teams 许可证是 Office 365 订阅的一部分。 使用 Teams for R
 
 RealWear 设备可以使用 Android 设备管理员模式托管。 由于当前未提供 Google Mobile Services （GMS），因此通过 Android 企业版管理支持受限。
 
-- 若要了解有关在 Microsoft 终结点管理器上管理 RealWear 设备的详细信息，请参阅 [Intune 中的 Android 设备管理员注册](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator)。
+- 要了解有关在 Microsoft 终结点管理器上管理 RealWear 设备的详细信息，请参阅 [Intune 中的 Android 设备管理员注册](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator)。
+- 有关策略的更多详细信息，请参阅[如何在没有 Google 移动服务的环境中使用 Intune](https://docs.microsoft.com/mem/intune/apps/manage-without-gms)。
 
-### <a name="third-party-enterprise-mobility-managers-emms"></a>第三方企业移动性管理器（EMM）
+### <a name="third-party-enterprise-mobility-managers-emms"></a>第三方企业移动性管理器 (EMM)
 
 第三方企业移动性管理器的指南，请参阅 [支持的企业移动性管理提供商](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/)。
 

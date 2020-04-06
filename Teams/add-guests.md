@@ -14,15 +14,16 @@ ms.reviewer: sbhatta
 f1.keywords:
 - NOCSH
 localization_priority: Priority
-description: 了解管理员可用于将新来宾用户添加到组织的工具，包括 Microsoft Teams 桌面客户端和 Web 客户端以及 Azure Active Directory B2B 协作门户。
+description: 管理员可以在 Microsoft Teams 桌面和 Web 客户端以及 Azure Active Directory B2B协作门户中了解如何向组织添加新来宾用户。
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b25dc9c5b870b038b95f5df5821581f8c2fae79
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 60538383021028d043cb47197dd41ee89f8a4d37
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826940"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139361"
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================
