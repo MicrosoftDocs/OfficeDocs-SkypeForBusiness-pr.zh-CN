@@ -122,7 +122,8 @@
 
 <!-- ============================================================ -->
 
-# 会话和会议
+# 会话和电话会议
+## [快速入门 - 会议和实时事件](quick-start-meetings-live-events.md)
 ## [规划部署](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
 ## [管理会议策略](meeting-policies-in-teams.md)
@@ -291,6 +292,16 @@
 #### [使用直接路由规划媒体旁路](direct-routing-plan-media-bypass.md)
 #### [使用直接路由配置媒体旁路](direct-routing-configure-media-bypass.md)
 
+### 直接路由本地媒体优化
+#### [本地媒体优化计划](direct-routing-media-optimization.md)
+#### [配置本地媒体优化](direct-routing-media-optimization-configure.md)
+
+### 对直接路由进行监视和故障排除
+#### [概述](direct-routing-monitor-and-troubleshoot.md)
+#### [运行状况仪表板](direct-routing-health-dashboard.md)
+### [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
+
+### [迁移到直接路由](direct-routing-migrating.md)
 
 ### 直接路由技术参考
 #### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
@@ -649,17 +660,18 @@
 
 # 安全性和合规性
 ## [概述](security-compliance-overview.md)
+## [Teams 中的数据位置](location-of-data-in-teams.md)
 ## 安全性
 ### [安全指南](teams-security-guide.md)
 ### [标识模式和身份验证](identify-models-authentication.md)
 ### [使用新式验证登录 Teams](sign-in-teams.md)
+### [Teams 中安全链接](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## 合规性
 ### [信息屏障](information-barriers-in-teams.md)
 ### [保留策略](retention-policies.md)
 ### [数据丢失防护](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 电子数据展示
 #### [对内容进行电子数据展示调查](ediscovery-investigation.md)
-#### [Teams 中的数据位置](location-of-data-in-teams.md)
 #### [将 Teams 用户或团队置于法定保留状态](legal-hold.md)
 ### 内容搜索
 #### [使用内容搜索](content-search.md)
