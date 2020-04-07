@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的音频会议
+title: 配置音频会议设置 - Microsoft Teams
 ms.reviewer: ''
 description: 使用这些部署资源来帮助你部署作为 Microsoft Teams 中的会议工作负载一部分的音频会议。
 ms.topic: article
@@ -12,20 +12,21 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78c4443352bffa02dc5bdeef6297ede6bed01e64
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f57753947221068a21edd282ba0667efc4182690
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826740"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137322"
 ---
-# <a name="audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的音频会议
+# <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音频会议
 
 音频会议是指通过普通电话加入 Teams 会议或从会议中拨出到某个电话号码的功能。 确保在组织中部署音频会议的过程中已经查看了[会议部署](deploy-meetings-microsoft-teams-landing-page.md)。
 

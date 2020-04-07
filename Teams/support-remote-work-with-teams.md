@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea77e0c672ffd15adcb5bc63aa77bd45d4b3604
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: c5c359ebf1efd20d9a1db41ddf19f39240826b77
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117503"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157775"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -33,7 +33,7 @@ ms.locfileid: "43117503"
 
 -  如果已有包含 Teams 的订阅，请**[为所有人启用](assign-teams-licenses.md)**。
     
-- 了解组织如何开始使用 **[Teams 中的会议](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)**。 
+- 了解组织如何开始使用 **[Teams 中的会议和实时事件](quick-start-meetings-live-events.md)**。 
 
 有关更多信息，请阅读下面的“[支持远程工作者的附加资源](#additional-resources-for-supporting-remote-workers)”。
 

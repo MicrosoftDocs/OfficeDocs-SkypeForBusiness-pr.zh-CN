@@ -1,5 +1,5 @@
 ---
-title: 管理 Microsoft Teams Commercial Cloud Trial 产品
+title: 管理 Commercial Cloud Trial 产品
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836592"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137152"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -70,7 +71,7 @@ Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许
 
 组织中的所有试用版共享相同的开始和结束日期，即第一个用户注册试用版的日期。 例如，如果用户 A 在 2019 年 1 月 25 日开始第一次试用，用户 B 在 2019 年 6 月 3 日开始试用，则两个用户的试用版都将于 2020 年 1 月 25 日到期。
 
-## <a name="manage-the-trial"></a>管理试用版
+## <a name="manage-the-trial"></a><a name="manage-the-trial"></a>管理试用版
 
 Teams 试用版设计为由单独的最终用户启动，你不能代表最终用户员工启动 Teams 试用版优惠。
 

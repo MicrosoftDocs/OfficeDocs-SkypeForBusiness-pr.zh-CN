@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bb1250fd3cc02599fafa37ab6ac694403e33df9
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
+ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106829"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43122916"
 ---
-# <a name="how-to-provisions-teams-at-scale-for-firstline-workers"></a>如何为一线工作人员预配 Teams
+# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>如何为一线工作人员大规模预配 Teams
 
 是否需要快速将大量用户加入到 Microsoft Teams 并为他们配置精简体验？ 可按以下说明操作，快速预配标识、预配团队，并分配所有相关策略来控制最终用户体验。
 
