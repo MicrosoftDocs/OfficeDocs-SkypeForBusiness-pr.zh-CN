@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: 9c56078a6d016967e518746e3567373404d1c486
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: b596e5acb0002ad90f5c0298b56973f2490ad2e6
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157870"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170580"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -40,6 +40,7 @@ Microsoft 手机系统直接路由使你能够将本地电话基础结构连接�
 - [Oracle 部署文档](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [功能区通信部署文档](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [TE-系统（anynode）部署文档](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Metaswitch 部署文档](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
 有关支持的 SBCs 的完整列表，请参阅为[直接路由认证的会话边框控制器列表](direct-routing-border-controllers.md)。
 
