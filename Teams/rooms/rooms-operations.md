@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 阅读本主题，了解 Microsoft 球队会议室的管理、下一代 Skype 会议室系统的管理。
-ms.openlocfilehash: 5368df53e7617f602265071a66f7b871c6b88f66
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825862"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157756"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 团队会议室维护和操作 
  
@@ -31,10 +31,10 @@ Microsoft 团队聊天室是 Microsoft 的最新会议解决方案，旨在将�
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>在 Microsoft 团队聊天室上收集日志
 <a name="Logs"> </a>
 
-若要收集日志，必须调用 Microsoft 团队聊天室应用随附的日志收集脚本。 在管理模式中，启动提升的命令提示符并发出以下命令：
+若要收集日志，必须调用 Microsoft 团队聊天室应用随附的日志收集脚本。 在 "管理员模式" 下，启动提升的 PowerShell 提示，然后发出以下命令：
   
 ```PowerShell
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
+c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
 ```
 
 日志将以 ZIP 文件的形式输出至 c:\rigel 中。
@@ -84,7 +84,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 在 "[配置文件" 项目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)中讨论了使用组策略传输文件的内容。
 
 > [!NOTE]
-> 当 Microsoft 团队聊天室设备与下一版本的 Windows 10 操作系统兼容时，设备会通过 Windows 更新自动更新到下一个版本。 Microsoft 团队会议室不应将设备升级到 Windows 10 的下一版本手动或通过启用 Windows 更新 for Business （WUFB）组策略 "选择要接收的更新的 Windows 准备情况级别" 和 "在预览版本中选择" 和 "功能更新通过 GPO 接收。 已启用这些组策略的设备已知通过 Microsoft 团队聊天室应用运行 Windows 10 操作系统更新时遇到的问题。
+> 当 Microsoft 团队聊天室设备与下一版本的 Windows 10 操作系统兼容时，设备会通过 Windows 更新自动更新到下一个版本。 Microsoft 团队会议室不应将设备升级到 Windows 10 的下一版本手动或通过启用 Windows 更新 for Business （WUFB）组策略 "选择要接收的更新的 Windows 准备情况级别" 和 "通过 GPO 选择何时接收预览版和功能更新"。 已启用这些组策略的设备已知通过 Microsoft 团队聊天室应用运行 Windows 10 操作系统更新时遇到的问题。
 
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
 <a name="RemotePS"> </a>

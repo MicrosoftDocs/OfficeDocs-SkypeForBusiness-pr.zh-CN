@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139091"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157625"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
@@ -81,6 +81,12 @@ Microsoft 团队桌面应用程序支持 AppLocker。  有关 AppLocker 先决�
 ## <a name="compliance"></a>符合
 
 团队有大量信息可帮助您处理合规性领域，包括频道、聊天和附件、保留策略、数据丢失保护（DLP）、电子数据丢失保护（DLP）、电子数据展示和法律封存（适用于频道、聊天和文件、审核日志搜索以及与 Microsoft Intune 的移动应用程序管理）。 我们已提供以下有关所有这些主题的信息，并可转到[Microsoft 365 合规性中心](https://compliance.microsoft.com)或[Office 365 安全性 & 合规性中心](https://protection.microsoft.com)来管理这些设置。
+
+### <a name="information-barriers"></a>信息障碍
+
+信息障碍是团队管理员在原地保留的策略，可使用户或组与其他人进行通信（当他们没有业务需求来执行此操作时），并且它还允许你设置与查找和电子数据展示（如下所述）相关的策略。 这些策略可以影响1:1 聊天、群组聊天或团队级的用户。
+
+有关本主题的进一步阅读，请转到[Microsoft 团队中的信息障碍](information-barriers-in-teams.md)。
 
 ### <a name="communication-compliance"></a>通信合规性
 
