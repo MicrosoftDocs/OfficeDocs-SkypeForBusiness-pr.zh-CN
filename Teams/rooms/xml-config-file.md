@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: 988fa11ef3a84c21bfef3a726e3901bae26e222a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140985"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160066"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
 
@@ -44,6 +44,7 @@ ms.locfileid: "43140985"
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
+    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -91,6 +92,7 @@ ms.locfileid: "43140985"
 | \<ConfigureDomain\>  |字符串 &#x2778;  ||你可以列出多个域，以逗号分隔。 |
 |\<TeamsMeetingsEnabled\> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 <br/> <br/> 如果\<SkypeMeetingsEnabled\>和\<TeamsMeetingsEnabled\>都被禁用，XML 文件的格式不正确，但可接受同时启用这两个设置。 |
 |\<IsTeamsDefaultClient> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 |
+|\<ModernAuthEnabled> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 <br/> <br/>当设置为 true 时，Microsoft 团队聊天室应用程序仅使用新式身份验证连接到资源，不会回退到基本身份验证。|
 |\<BluetoothAdvertisementEnabled> |布尔 &#x2777;  |第一 &#x2776;  |默认为启用。 |
 |\<DualScreenMode\>  |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则启用双屏幕模式。 否则，设备使用单一屏幕模式。 |
 | \<DuplicateIngestDefault\> |布尔 &#x2777;  |第一 &#x2776; |如果为 true，则在双屏幕模式下，在两个屏幕上显示的内容在离开会议时显示。 | 

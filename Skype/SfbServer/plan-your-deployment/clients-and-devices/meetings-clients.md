@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要：在规划 Skype for business Server 时，IT 专业人员应查看 Skype for business Web 应用和 Skype 会议应用的支持要求。 本文不适合这些应用程序的用户。
-ms.openlocfilehash: 77633b53c44e28301b21cc2f37240a4a1e459938
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013445"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157635"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端（Web 应用程序和会议应用程序）
  
@@ -65,7 +65,7 @@ Skype 会议应用提供简化的浏览器体验，可用于下载和安装应�
    
 &#x2776; Skype for Business Web App 浏览器插件需要特定的共享插件，才能使用基于计算机的语音、视频、共享和查看正在进行的屏幕共享和其他功能。 会议与会者可以选择在加入会议时或在他们启动这些功能之一时安装共享插件。 在 Windows 8 和 Windows 8.1 中，只有在对桌面运行 Internet Explorer 10 或 Internet Explorer 11 时，才能安装共享插件。 这些功能在非桌面版本的 Internet Explorer 10 和11中不可用。 请注意，已不再支持 Firefox 和 Safari 版本12.0 及更高版本。
   
-&#x2777; 受支持的 Windows 7、Windows Server 2008 R2 和 Macintosh 操作系统，所有功能均可用，包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能，必须在出现提示时安装插件。 请注意，Mac OS X 版本10.7 已不再受支持。
+&#x2777; 受支持的 Windows 7、Windows Server 2008 R2 和 Macintosh 操作系统，所有功能均可用，包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能，必须在出现提示时安装插件。 请注意，Mac OS X 版本10.7 已不再受支持。  另请注意，将不会在 OS X 10.15 或更高版本上安装 web 应用程序。  我们建议使用最新版本的 Skype for Business for Mac，它支持向后移动的匿名加入方案。
   
 从 Windows 上的 Chrome 访问 Web 应用程序 &#x2778; 将启动一个小型程序，该程序将在嵌入式 Internet Explorer 框架中加载 Web 应用程序。 此程序需要安装受支持的 Internet Explorer 版本之一，才能正确加载 Web 应用。
   

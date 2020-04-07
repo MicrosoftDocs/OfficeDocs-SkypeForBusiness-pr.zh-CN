@@ -1,5 +1,5 @@
 ---
-title: 常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
+title: 从 Skype for Business 升级到 Teams 的常见问题解答
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2b051efa327a014bc719753e7aecae81f78e0f4
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 44544e440d9f6cdfff08ae66ed7f425abf69fb4d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160379"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136532"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 
