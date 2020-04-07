@@ -1,0 +1,110 @@
+---
+title: Microsoft 团队聊天室中的身份验证
+ms.author: v-lanac
+author: lanachin
+ms.reviewer: sohailta
+manager: serdars
+audience: ITPro
+ms.topic: conceptual
+ms.service: msteams
+f1.keywords:
+- NOCSH
+localization_priority: Normal
+ms.assetid: ''
+ms.collection:
+- M365-collaboration
+description: 了解如何配置 Microsoft 团队聊天室的新式验证
+ms.openlocfilehash: bef547ab0b9ade2edc433ec64bb1ef61eee4c040
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160107"
+---
+# <a name="authentication-in-microsoft-teams-rooms"></a><span data-ttu-id="a5513-103">Microsoft 团队聊天室中的身份验证</span><span class="sxs-lookup"><span data-stu-id="a5513-103">Authentication in Microsoft Teams Rooms</span></span>
+
+<span data-ttu-id="a5513-104">Microsoft 团队聊天室设备的帐户管理在应用程序级别处理。</span><span class="sxs-lookup"><span data-stu-id="a5513-104">Account management for Microsoft Teams Rooms devices is handled at the application level.</span></span> <span data-ttu-id="a5513-105">应用程序连接到 Microsoft 团队、Skype for Business 和 Exchange 以获取房间帐户的资源以启用呼叫和会议体验。</span><span class="sxs-lookup"><span data-stu-id="a5513-105">The application connects to Microsoft Teams, Skype for Business, and Exchange to get resources for the room account to enable calling and meeting experiences.</span></span> <span data-ttu-id="a5513-106">该设备保持不限帐户，以允许始终打开的功能、呼叫方案（适用于使用呼叫计划配置的设备）和在这些设备上实现的自定义锁定机制。</span><span class="sxs-lookup"><span data-stu-id="a5513-106">The device is kept account agnostic to allow for always-on capabilities, calling scenarios (for devices configured with a Calling Plan), and custom lockdown mechanisms implemented on these devices.</span></span> <span data-ttu-id="a5513-107">这意味着针对这些设备的身份验证与最终用户设备的使用方式不同。</span><span class="sxs-lookup"><span data-stu-id="a5513-107">This means that authentication for these devices happen in a different way than for end-user devices.</span></span>  
+
+<span data-ttu-id="a5513-108">对于使用 Office 365 的 Microsoft 团队聊天室设备的所有客户，建议使用新式身份验证。</span><span class="sxs-lookup"><span data-stu-id="a5513-108">Modern authentication is recommended for all customers using Microsoft Teams Rooms devices with Office 365.</span></span> <span data-ttu-id="a5513-109">如果你有 Exchange server 或 Skype for business server 的内部部署，请使用 Azure Active Directory （Azure AD）配置[混合新式身份验证](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)，以使用新式身份验证启用。</span><span class="sxs-lookup"><span data-stu-id="a5513-109">If you have an on-premises deployment of Exchange server or Skype for Business server, configure [hybrid modern authentication](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview) with Azure Active Directory (Azure AD) to enable using modern authentication.</span></span>
+
+<span data-ttu-id="a5513-110">Microsoft 团队聊天室版本4.4.25.0 及更高版本支持新式身份验证。</span><span class="sxs-lookup"><span data-stu-id="a5513-110">Modern authentication is supported on Microsoft Teams Rooms version 4.4.25.0 and later.</span></span>
+
+## <a name="modern-authentication"></a><span data-ttu-id="a5513-111">新式验证</span><span class="sxs-lookup"><span data-stu-id="a5513-111">Modern authentication</span></span>
+
+<span data-ttu-id="a5513-112">将新式验证用于 Microsoft 团队聊天室应用程序时，将使用 Active Directory 身份验证库（ADAL）连接到 Microsoft 团队、Exchange 和 Skype for business。</span><span class="sxs-lookup"><span data-stu-id="a5513-112">When you use modern authentication with the Microsoft Teams Rooms application, Active Directory Authentication Library (ADAL) is used to connect to Microsoft Teams, Exchange, and Skype for Business.</span></span> <span data-ttu-id="a5513-113">Microsoft 团队聊天室设备是一种共享设备，执行夜间重启，以确保正常运行，并获取关键操作系统、驱动程序、固件或应用程序更新。</span><span class="sxs-lookup"><span data-stu-id="a5513-113">A Microsoft Teams Rooms device is a shared device and performs a nightly reboot to ensure smooth functioning and to get critical operating system, driver, firmware, or application updates.</span></span> <span data-ttu-id="a5513-114">新式身份验证机制使用 OAuth 2.0 中的[资源所有者密码凭据](https://tools.ietf.org/html/rfc6749#section-1.3.3)授权授权类型，而不需要任何用户干预。</span><span class="sxs-lookup"><span data-stu-id="a5513-114">The modern authentication mechanism uses the [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-1.3.3) authorization grant type in OAuth 2.0, which doesn't require any user intervention.</span></span> <span data-ttu-id="a5513-115">这是现代身份验证对用户帐户和 Microsoft 团队聊天室应用程序使用的资源帐户之间的主要差异之一。</span><span class="sxs-lookup"><span data-stu-id="a5513-115">This is one of the key differences between how modern authentication works for user accounts versus resource accounts that are used by the Microsoft Teams Rooms application.</span></span> <span data-ttu-id="a5513-116">因此，Microsoft 团队室资源帐户不应配置为使用多重身份验证（MFA）、智能卡身份验证或基于客户证书的身份验证（它们均适用于最终用户）。</span><span class="sxs-lookup"><span data-stu-id="a5513-116">Because of this, Microsoft Teams Rooms resource accounts shouldn't be configured to use multi-factor authentication (MFA), smart card authentication, or client certificate-based authentication (which are all available for end users).</span></span>
+
+<span data-ttu-id="a5513-117">新式身份验证在 Microsoft 团队聊天室设备和最终用户设备上的工作方式之间的其他主要区别是，你无法使用资源帐户应用设备级别的条件访问策略，例如 "需要设备标记为投诉" 或 "需要混合的 Azure AD 已加入设备" 等。</span><span class="sxs-lookup"><span data-stu-id="a5513-117">The other key difference between how modern authentication works on Microsoft Teams Rooms devices and end-user devices is that you can't use a resource account to apply device-level conditional access policies such as "Require device to be marked as complaint", or "Require Hybrid Azure AD joined device", and so on.</span></span> <span data-ttu-id="a5513-118">这是因为设备级概念在应用程序级别使用时不适用于新式身份验证。</span><span class="sxs-lookup"><span data-stu-id="a5513-118">This is because device-level concepts don't apply to modern authentication when used at the application level.</span></span> <span data-ttu-id="a5513-119">而是可以在 Microsoft Intune 中注册设备，并通过使用[本指南来](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)应用合规性策略。</span><span class="sxs-lookup"><span data-stu-id="a5513-119">Instead, you can enroll a device in Microsoft Intune and apply compliance policies by using the guidance [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess).</span></span>
+
+## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a><span data-ttu-id="a5513-120">在 Microsoft 团队聊天室设备上启用新式验证</span><span class="sxs-lookup"><span data-stu-id="a5513-120">Enable modern authentication on a Microsoft Teams Rooms device</span></span>
+
+<span data-ttu-id="a5513-121">对于 Microsoft 团队聊天室，若要对 Skype for Business 和 Exchange 使用新式验证，请在 Microsoft 团队聊天室设备上启用新式验证的客户端设置。</span><span class="sxs-lookup"><span data-stu-id="a5513-121">For Microsoft Teams Rooms to use modern authentication with Skype for Business and Exchange, enable the client-side setting for modern authentication on the Microsoft Teams Rooms device.</span></span> <span data-ttu-id="a5513-122">你可以在设备设置或 XML 配置文件中执行此操作。</span><span class="sxs-lookup"><span data-stu-id="a5513-122">You can do this in the device settings or in the XML config file.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a5513-123">在启用新式验证的客户端设置之前，请确保你的环境已正确设置为使用新式验证。</span><span class="sxs-lookup"><span data-stu-id="a5513-123">Before you enable the client-side setting for modern authentication, make sure that your environment is set up correctly to use modern authentication.</span></span>
+
+### <a name="using-device-settings"></a><span data-ttu-id="a5513-124">使用设备设置</span><span class="sxs-lookup"><span data-stu-id="a5513-124">Using device settings</span></span>
+
+1. <span data-ttu-id="a5513-125">在 Microsoft 团队聊天室设备上，转到 "**更多**（**...**）"。</span><span class="sxs-lookup"><span data-stu-id="a5513-125">On the Microsoft Team Rooms device, go to **More** (**...**).</span></span>
+    
+2. <span data-ttu-id="a5513-126">选择 "**设置**"，然后输入设备管理员的用户名和密码。</span><span class="sxs-lookup"><span data-stu-id="a5513-126">Select **Settings**, and then enter the device administrator username and password.</span></span>
+3. <span data-ttu-id="a5513-127">转到 "**帐户**" 选项卡，打开 "**新式身份验证**"，然后选择 "**保存并退出**"。</span><span class="sxs-lookup"><span data-stu-id="a5513-127">Go to the **Account** tab, turn on **Modern Authentication**, and then select **Save and exit**.</span></span>
+
+### <a name="using-the-xml-config-file"></a><span data-ttu-id="a5513-128">使用 XML 配置文件</span><span class="sxs-lookup"><span data-stu-id="a5513-128">Using the XML config file</span></span>
+
+<span data-ttu-id="a5513-129">在 SkypeSettings 文件中，将新式身份验证 XML 元素设置为**True**，如下所示。</span><span class="sxs-lookup"><span data-stu-id="a5513-129">In your SkypeSettings.xml file, set the modern authentication XML element to **True**, as follows.</span></span>
+
+```
+<ModernAuthEnabled>True</ModernAuthEnabled>
+```
+
+<span data-ttu-id="a5513-130">若要应用设置，请参阅[使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置](xml-config-file.md)。</span><span class="sxs-lookup"><span data-stu-id="a5513-130">To apply the setting, see [Manage a Microsoft Teams Rooms console settings remotely with an XML configuration file](xml-config-file.md).</span></span>
+
+## <a name="prepare-your-environment-for-modern-authentication"></a><span data-ttu-id="a5513-131">为新式验证准备环境</span><span class="sxs-lookup"><span data-stu-id="a5513-131">Prepare your environment for modern authentication</span></span>
+
+<span data-ttu-id="a5513-132">开始之前，请确保了解用于 Office 365 和 Azure AD 的身份模型。</span><span class="sxs-lookup"><span data-stu-id="a5513-132">Before you begin, make sure you understand the identity models to use with Office 365 and Azure AD.</span></span> <span data-ttu-id="a5513-133">你可以在 office 365 的 "[标识模型" 和 "Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) " 以及[Office 365 的混合标识和目录同步](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization)中找到详细信息。</span><span class="sxs-lookup"><span data-stu-id="a5513-133">You can find more information at [Office 365 identity models and Azure Active Directory](https://docs.microsoft.com/Office365/Enterprise/about-office-365-identity) and at [Hybrid identity and directory synchronization for Office 365](https://docs.microsoft.com/Office365/Enterprise/plan-for-directory-synchronization).</span></span>
+
+### <a name="enable-modern-authentication-in-office-365"></a><span data-ttu-id="a5513-134">在 Office 365 中启用新式验证</span><span class="sxs-lookup"><span data-stu-id="a5513-134">Enable modern authentication in Office 365</span></span>
+
+<span data-ttu-id="a5513-135">若要打开 Exchange Online 的新式身份验证，请参阅[在 Exchange online 中启用新式身份验证](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)。</span><span class="sxs-lookup"><span data-stu-id="a5513-135">To turn on modern authentication for Exchange Online, see [Enable modern authentication in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online).</span></span> <span data-ttu-id="a5513-136">如果您使用 Skype for Business Online，还应确保已为 Skype for business Online 启用新式验证。</span><span class="sxs-lookup"><span data-stu-id="a5513-136">If you use Skype for Business Online, you should also make sure that modern authentication is turned on for Skype for Business Online.</span></span> <span data-ttu-id="a5513-137">若要了解详细信息，请参阅[Skype for Business Online：针对新式验证启用租户](https://aka.ms/SkypeModernAuth)。</span><span class="sxs-lookup"><span data-stu-id="a5513-137">To learn more, see [Skype for Business Online: Enable your tenant for modern authentication](https://aka.ms/SkypeModernAuth).</span></span>
+
+<span data-ttu-id="a5513-138">我们建议您不要删除 Exchange Online 的基本身份验证策略，或禁用租户的基本身份验证策略，然后再验证 Microsoft 团队会议室设备在新式身份验证设置处于打开状态且没有设备仍配置为使用基本身份验证时，可成功登录到 Exchange Online 和团队或 Skype for business Online。</span><span class="sxs-lookup"><span data-stu-id="a5513-138">We recommended that you do not remove basic authentication policies for Exchange Online or disable basic authentication for your tenant before you have validated that Microsoft Teams Rooms devices can sign in to Exchange Online and Teams or Skype for Business Online successfully when the modern authentication setting is on and that there are no devices that are still configured to use basic authentication.</span></span>
+
+<span data-ttu-id="a5513-139">有关在 Exchange Online 中禁用基本身份验证的详细信息，请参阅[在 Exchange online 中禁用基本身份验证](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)。</span><span class="sxs-lookup"><span data-stu-id="a5513-139">For more information about disabling basic authentication in Exchange Online, see [Disable Basic authentication in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online).</span></span>
+
+## <a name="hybrid-modern-authentication"></a><span data-ttu-id="a5513-140">混合新式身份验证</span><span class="sxs-lookup"><span data-stu-id="a5513-140">Hybrid modern authentication</span></span>
+
+<span data-ttu-id="a5513-141">若要确保你的内部部署 Exchange server 和/或 Skype for Business 服务器的身份验证成功，必须确保将用于 Microsoft 团队聊天室的资源帐户配置为从 Azure AD 获取授权。</span><span class="sxs-lookup"><span data-stu-id="a5513-141">To ensure successful authentication to your on-premise Exchange server and/or Skype for Business server, you must make sure the resource account that's used with Microsoft Teams Rooms is configured to get authorization from Azure AD.</span></span> <span data-ttu-id="a5513-142">若要了解有关适用于你的组织的混合标识和方法的详细信息，请阅读以下主题：</span><span class="sxs-lookup"><span data-stu-id="a5513-142">To learn more about hybrid identity and methods that works for your organization, read the following topics:</span></span> 
+
+- [<span data-ttu-id="a5513-143">什么是密码哈希同步？</span><span class="sxs-lookup"><span data-stu-id="a5513-143">What is password hash sync?</span></span>](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)
+- [<span data-ttu-id="a5513-144">什么是直通身份验证？</span><span class="sxs-lookup"><span data-stu-id="a5513-144">What is passthrough authentication?</span></span>](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta)
+- [<span data-ttu-id="a5513-145">什么是联盟？</span><span class="sxs-lookup"><span data-stu-id="a5513-145">What is federation?</span></span>](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-fed)
+
+### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a><span data-ttu-id="a5513-146">特定于 Microsoft 团队聊天室的先决条件</span><span class="sxs-lookup"><span data-stu-id="a5513-146">Prerequisites specific to Microsoft Teams Rooms</span></span>
+
+<span data-ttu-id="a5513-147">在混合拓扑中启用新式身份验证的先决条件属于[混合新式身份验证概述以及将其与本地 Skype For business 和 Exchange 服务器配合使用的先决条件](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)。</span><span class="sxs-lookup"><span data-stu-id="a5513-147">The prerequisites to enable modern authentication in your hybrid topology are covered in [Hybrid modern authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview).</span></span> <span data-ttu-id="a5513-148">本文中讨论的所有先决条件均适用。</span><span class="sxs-lookup"><span data-stu-id="a5513-148">All the prerequisites discussed in the article apply.</span></span>
+
+<span data-ttu-id="a5513-149">但是，由于 Microsoft 团队聊天室使用[资源所有者密码凭据](https://tools.ietf.org/html/rfc6749#section-1.3.3)授权和基础 REST api 进行新式身份验证，因此下面的重要差异是特定于 Microsoft 团队聊天室的。</span><span class="sxs-lookup"><span data-stu-id="a5513-149">However, because Microsoft Teams Rooms uses [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-1.3.3) authorization and the underlying REST APIs for modern authentication, the following are important differences be aware of that are specific to Microsoft Team Rooms.</span></span>
+
+- <span data-ttu-id="a5513-150">您必须拥有 Exchange server 2016 CU8 或更高版本，或者 Exchange Server 2019 CU1 或更高版本。</span><span class="sxs-lookup"><span data-stu-id="a5513-150">You must have Exchange server 2016 CU8 or later, or Exchange Server 2019 CU1 or later.</span></span>
+- <span data-ttu-id="a5513-151">您必须拥有 Skype for business Server 2015 CU5 或更高版本，或者使用 Skype for business Server 2019 或更高版本。</span><span class="sxs-lookup"><span data-stu-id="a5513-151">You must have Skype for Business Server 2015 CU5 or later, or Skype for Business Server 2019 or later.</span></span>
+- <span data-ttu-id="a5513-152">不支持 MFA，无论你有何种拓扑。</span><span class="sxs-lookup"><span data-stu-id="a5513-152">MFA isn't supported regardless of the topology you have.</span></span>
+- <span data-ttu-id="a5513-153">如果你使用的第三方身份验证提供程序由 Azure AD 支持，则它必须支持 OAuth 并使用资源所有者密码凭据授权。</span><span class="sxs-lookup"><span data-stu-id="a5513-153">If you use a third-party authentication provider that's supported by Azure AD, it must support OAuth and use  resource owner password credentials authorization.</span></span>
+- <span data-ttu-id="a5513-154">不要对使用应用程序配置的资源帐户使用设备级条件访问策略。</span><span class="sxs-lookup"><span data-stu-id="a5513-154">Do not use device-level conditional access policies for a resource account configured with the application.</span></span> <span data-ttu-id="a5513-155">这样做将导致登录失败。</span><span class="sxs-lookup"><span data-stu-id="a5513-155">Doing so will result in sign-in failures.</span></span> <span data-ttu-id="a5513-156">请改为在 Microsoft Intune 中注册设备，并使用[此处](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)发布的指南应用合规性策略。</span><span class="sxs-lookup"><span data-stu-id="a5513-156">Instead, enroll a device in Microsoft Intune and apply compliance policies by using the guidance published [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess).</span></span>
+
+### <a name="configure-exchange-server"></a><span data-ttu-id="a5513-157">配置 Exchange Server</span><span class="sxs-lookup"><span data-stu-id="a5513-157">Configure Exchange Server</span></span>
+
+<span data-ttu-id="a5513-158">若要在 Exchange Server 中启用混合新式身份验证，请参阅[如何将本地 Exchange Server 配置为使用混合新式身份验证](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)。</span><span class="sxs-lookup"><span data-stu-id="a5513-158">To enable hybrid modern authentication in Exchange Server, see [How to configure Exchange Server on-premises to use hybrid modern authentication](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication).</span></span>
+
+### <a name="configure-skype-for-business-server"></a><span data-ttu-id="a5513-159">配置 Skype for Business 服务器</span><span class="sxs-lookup"><span data-stu-id="a5513-159">Configure Skype for Business Server</span></span>
+
+<span data-ttu-id="a5513-160">若要启用与 Skype for Business 服务器的混合新式身份验证，请参阅[如何将本地 Skype for business 配置为使用混合新式身份验证](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)。</span><span class="sxs-lookup"><span data-stu-id="a5513-160">To enable hybrid modern authentication with Skype for Business Server, see [How to configure Skype for Business on-premises to use hybrid modern authentication](https://docs.microsoft.com/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication).</span></span>
+
+### <a name="remove-or-disable-skype-for-business-and-exchange"></a><span data-ttu-id="a5513-161">删除或禁用 Skype for Business 和 Exchange</span><span class="sxs-lookup"><span data-stu-id="a5513-161">Remove or disable Skype for Business and Exchange</span></span>
+
+<span data-ttu-id="a5513-162">如果你的设置不允许混合新式身份验证，或者你需要删除或禁用 Exchange 或 Skype for business 的混合新式身份验证，请参阅[删除或禁用 skype for business 和 Exchange](https://docs.microsoft.com/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha)的混合新式身份验证。</span><span class="sxs-lookup"><span data-stu-id="a5513-162">If your setup doesn't allow for hybrid modern authentication or you need to remove or disable hybrid modern authentication for Exchange or Skype for Business, see [Removing or disabling hybrid modern authentication from Skype for Business and Exchange](https://docs.microsoft.com/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha).</span></span>
+
+### <a name="azure-ad-conditional-access"></a><span data-ttu-id="a5513-163">Azure AD 条件访问</span><span class="sxs-lookup"><span data-stu-id="a5513-163">Azure AD conditional access</span></span>
+
+<span data-ttu-id="a5513-164">你可以为基于 IP/位置的访问配置 Microsoft 团队聊天室使用的资源帐户。</span><span class="sxs-lookup"><span data-stu-id="a5513-164">You can configure a resource account used with Microsoft Teams Rooms for IP/location-based access.</span></span> <span data-ttu-id="a5513-165">若要了解详细信息，请参阅[条件访问：通过位置阻止访问](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)。</span><span class="sxs-lookup"><span data-stu-id="a5513-165">To learn more, see [Conditional Access: Block access by location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location).</span></span>
+
+<span data-ttu-id="a5513-166">不支持任何其他条件访问策略。</span><span class="sxs-lookup"><span data-stu-id="a5513-166">No other conditional access policies are supported.</span></span> <span data-ttu-id="a5513-167">有关设备合规性的详细信息，请参阅[此处](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)的指南。</span><span class="sxs-lookup"><span data-stu-id="a5513-167">For more information about device compliance, see the guidance  [here](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess).</span></span>  
