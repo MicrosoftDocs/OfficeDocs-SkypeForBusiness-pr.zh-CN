@@ -1,5 +1,5 @@
 ---
-title: 使用新式验证登录 Microsoft Teams
+title: 使用新式验证登录 Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: 如何使用新式验证登录 Microsoft Teams。 包含介绍如何在用户登录时自动跳过添加 UPN 用户名。
+description: 如何使用新式验证登录 Microsoft Teams。 介绍如何在用户使用指示 Windows 忽略 UPN 的设置登录时自动跳过添加 UPN 用户名。
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -16,12 +16,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c541371b78bcd9119abe7a11523d0d2f7b5eda7c
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5e61b1cb79b7c4e2989d823af2c6617337291cf6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978364"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138891"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式验证登录 Microsoft Teams
 ==========================
@@ -40,14 +41,14 @@ Microsoft Teams 使用新式验证保持登录体验简单而安全。 若要了
 
 - 如果用户登录到了加入域的计算机，则当他们启动 Teams 时，系统可能会要求他们多执行一个身份验证步骤，具体取决于你的组织选择了需要 MFA，还是用户的计算机已经要求进行 MFA 登录。 如果用户的计算机已经要求进行 MFA 登录，则当他们打开 Teams 时，该应用会自动启动。
 
-- 如果用户登录到了加入域的计算机，并且你不希望他们的用户名预填充在 Teams 登录屏幕上，则管理员可以设置以下 Windows 注册表来关闭用户名预填充 (UPN)：
+- 如果用户登录到了加入域的计算机，并且你**不希望他们的用户名预填充在 Teams 登录屏幕上**，则管理员可以设置以下 Windows 注册表来关闭用户名预填充 (UPN)：
 
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > 默认情况下会忽略以“.local”或“.corp”结尾的用户名的用户名预填充，因此无需设置注册表项来关闭该功能。 
+    > 默认情况下会跳过或忽略以“.local”或“.corp”结尾的用户名的用户名预填充，因此无需设置注册表项来关闭该功能。 
 
 
 ### <a name="mac-users"></a>Mac 用户 
