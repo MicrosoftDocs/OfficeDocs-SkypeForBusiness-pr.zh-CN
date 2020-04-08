@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文介绍 Microsoft 团队聊天室的生命周期支持。
-ms.openlocfilehash: e5142d23d9f57a6ca50bcdb348378084afffd86b
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117520"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190822"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 团队聊天室应用版本支持
  
@@ -59,7 +59,7 @@ Microsoft 团队聊天室设备上不会立即提供或更新 Windows 10 功能�
 | 1709 |2018-01-18 |不支持                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |否                         |&#x2014; |&#x2014; |
 
-由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2781; Windows 10 1809 版本。 此特定问题导致在夜间重启后，Microsoft 团队聊天室应用程序无法启动。 此问题已在 Windows 10 1903 版本中解决。  
+由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2780; Windows 10 版本1809。 此特定问题导致在夜间重启后 Microsoft 团队聊天室应用程序无法启动。 此问题已在 Windows 10 版本1903中解决。  
 
 使用受支持的 Windows 10 版本时，你将始终获取适用于 Microsoft 团队聊天室应用的最新应用程序更新。  
 

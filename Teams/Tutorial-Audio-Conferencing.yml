@@ -20,12 +20,12 @@ metadata:
   appliesto:
   - Microsoft Teams
   ms.custom: seo-marvel-mar2020
-  ms.openlocfilehash: aa558029f1698f6d54b9ff2646d3238d50a8d7de
-  ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+  ms.openlocfilehash: 24e59a3b7816a6df892457aef5f0c03fe2139fad
+  ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/03/2020
-  ms.locfileid: "43141145"
+  ms.lasthandoff: 04/08/2020
+  ms.locfileid: "43191322"
 items:
 - durationInMinutes: 1
   content: >
@@ -71,7 +71,7 @@ items:
   content: "\n使用音频会议，参与者可以使用普通电话参与团队会议，方法是通过电话拨入会议或从会议中使用拨出功能。 查看以下资源以了解有关音频会议的详细信息：\n-   [音频会议功能](https://products.office.com/skype-for-business/audio-conferencing#Features)（估计阅读时间1分钟）\n-   [有关 Microsoft 团队会议的9个提示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)（估计的 \"\\#1-通过音频会议加入会议\" 的阅读时间为1分钟; 如果阅读整篇文章，则更多）\n-   [音频会议常见问题](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)（估计的阅读时间7分钟）\n-   [从会议拨出，以便其他人可以加入会议](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)（估计的阅读时间2分钟）\n"
 - title: 方案-音频会议
   durationInMinutes: 1
-  content: "\n赵强在 Contoso （具有多个办事处的公司）工作。 赵强经常需要与其他办公位置的人联系，因为他经常在家中或在路上工作，所以他是一种大型的团队会议风扇。 当赵强发出会议邀请时，它会自动为音频会议添加信息。 这样做可能会发生以下情况：\n-   Alice 希望参加赵强的会议，但她在路上，不能访问可靠的网络。 因此，她通过使用会议邀请中的拨入式坐标加入会议。 在拨入过程中，她使用她的 PIN 进行身份验证，因此系统将其识别为 \"刘爱琳\"。\n-   当前在酒店的 Bob 通过在其 PC 上使用团队客户端加入会议。 遗憾的是，在酒店的互联网连接上的音频质量不太好，因此 Bob 通过公共交换电话网络（PSTN）拨打他自己的电话号码以加入会议。\n-   如果会议参与者在呼叫过程中决定要使用不同的电话号码添加用户，则他们可以拨出到电话号码，并将其他人带入会议中。\n-   其他用户也可以从其 PC、Mac 或移动设备上的团队客户端加入。\n"
+  content: "\n赵强在 Contoso （具有多个办事处的公司）工作。 赵强经常需要与其他办公位置的人联系，因为他经常在家中或在路上工作，所以他是一种大型的团队会议风扇。 当赵强发出会议邀请时，它会自动为音频会议添加信息。 这样做可能会发生以下情况：\n-   Alice 希望参加赵强的会议，但她在路上，不能访问可靠的网络。 因此，她通过使用会议邀请中的拨入式坐标加入会议。 在拨入过程中，她使用她的 PIN 进行身份验证，因此系统将其识别为 \"刘爱琳\"。\n-   当前在酒店的 Bob 通过在其 PC 上使用团队客户端加入会议。 遗憾的是，在酒店的互联网连接上的音频质量不太好，因此 Bob 通过公共交换电话网络（PSTN）拨打他自己的电话号码以加入会议。\n-   如果会议参与者在呼叫过程中决定要使用不同的电话号码添加用户，则他们可以拨出到电话号码，并将其他人带入会议中。\n-   其他用户也可以从其 PC、Mac 或移动设备上的团队客户端加入。\n\n在团队中，会议组织者可以结束所有会议参与者的会议。 这在以下情况下很有用：\n\n-   在课堂完成后，教师可以确保学生不会在会议 unsupervised 中继续。\n-   对于正在录制的会议（如网络研讨会），会议组织者可以确保录制在会议结束时结束。\n-   为所有参与者结束会议有助于减少组织的 PSTN 使用和计费。 \n\n例如，会议完成后，赵强可以从团队中的会议中单击 \"**结束会议**\"，以结束会议并删除其中的所有参与者。\n"
 - title: Skype for Business 客户的注意事项
   durationInMinutes: 1
   content: "\n如果您已在使用 Skype for Business，则需要考虑以下事项：\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>Skype for Business 服务器-托管用户\n\n如果您使用的是 Skype for Business 服务器，则由托管在本地 Skype for Business 上的用户安排的团队会议将不包括 PSTN 会议坐标。 如果您在2019年3月1日之前为这些用户分配了音频会议许可证，您可能需要取消分配这些许可证，等待2小时，然后重新分配它们，以供用户查看 PSTN 会议坐标。\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>Skype for Business Online-托管用户\n\n如果用户托管在 Skype for Business Online 中，并且已启用音频会议，则会自动为团队中的音频会议启用这些用户。 Skype for business 和团队在会议中用于进行身份验证的 PIN 将是相同的。\n"
@@ -83,7 +83,7 @@ items:
   content: "\n就像展望一样，在实用指南中介绍了加入。 查看以下文章，了解如何为音频会议板载用户：\n\n-   [准备我的服务](https://docs.microsoft.com/MicrosoftTeams/1-onboard-prepare-my-service)（估计的阅读时间6分钟）\n-   [准备用户](https://docs.microsoft.com/MicrosoftTeams/2-onboard-prepare-my-users)（估计阅读时间2分钟）\n-   [部署我的服务](https://docs.microsoft.com/MicrosoftTeams/3-onboard-deploy-my-service)（估计阅读时间3分钟）\n-   [音频会议疑难解答和已知问题](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)（估计的团队特定内容的阅读时间为2分钟）\n"
 - title: 练习-配置音频会议
   durationInMinutes: 20
-  content: "\n在本练习中，你将有机会在团队中测试音频会议。\n尽管我们未介绍如何执行每个操作，但我们推荐了一些可尝试的方案。\n\n### <a name=\"requirements\"></a>要求\n-   具有使用 Teams 的相应许可证的 Office 365 租户\n    -   强烈建议你使用专用的测试租户。\n    -   如果你没有测试许可证，可以在此处注册试用版租户：[Office 365 企业版 E5 试用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)。\n    -   请勿在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。\n-   至少两个端点\n    -   这可以是两台 PC，但你还可以在移动电话上使用该客户端。\n    -   可以拨入到会议并拨出到的电话\n\n### <a name=\"suggested-scenarios-to-test\"></a>建议进行测试的方案\n-   为用户启用音频会议。\n-   为不同用户设置不同的会议桥号码。\n-   更改租户的默认会议桥号码。\n-   更改 \"会议桥号码\" （不同语言）的设置。\n-   更改会议桥的全局设置（会议进入和退出通知、PIN 长度、电子邮件通知）。\n-   查看发送给用户的电子邮件。\n-   安排团队会议，并查看会议邀请。\n-   通过电话加入会议。\n-   从会议拨出到电话。\n-   在会议中使用双音调多频率控件，将手机静音和取消静音。\n"
+  content: "\n在本练习中，你将有机会在团队中测试音频会议。\n尽管我们未介绍如何执行每个操作，但我们推荐了一些可尝试的方案。\n\n### <a name=\"requirements\"></a>要求\n-   具有使用 Teams 的相应许可证的 Office 365 租户\n    -   强烈建议你使用专用的测试租户。\n    -   如果你没有测试许可证，可以在此处注册试用版租户：[Office 365 企业版 E5 试用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)。\n    -   请勿在生产环境中运行任何测试。 更改设置或策略可能会对所有用户造成负面影响，并可能会影响其用户体验。\n-   至少两个端点\n    -   这可以是两台 PC，但你还可以在移动电话上使用该客户端。\n    -   可以拨入到会议并拨出到的电话\n\n### <a name=\"suggested-scenarios-to-test\"></a>建议进行测试的方案\n-   为用户启用音频会议。\n-   为不同用户设置不同的会议桥号码。\n-   更改租户的默认会议桥号码。\n-   更改 \"会议桥号码\" （不同语言）的设置。\n-   更改会议桥的全局设置（会议进入和退出通知、PIN 长度、电子邮件通知）。\n-   查看发送给用户的电子邮件。\n-   安排团队会议，并查看会议邀请。\n-   通过电话加入会议。\n-   从会议拨出到电话。\n-   在会议中使用双音调多频率控件，将手机静音和取消静音。\n-   结束所有用户的会议。 \n"
 - title: 驱动器值
   durationInMinutes: 1
   content: "\n从报告的角度看，您有两个区域可供您查看：\n-   使用情况：举行了多少次会议？\n-   质量：会议的质量如何？\n\n你应该认真监视两个方面：\n-   低使用率意味着用户出于某种原因没有使用产品。 您只能通过进一步研究来确定原因。\n    原因可能包括从认为会议未达到用户要求，到缺少意识或培训或存在质量问题。\n-   另一方面，低质量意味着用户与 Office 365 之间存在连接问题。 低质量可能导致用户体验不佳和使用率下降。 请参阅[管理中心内的 Office 365 报告 - Microsoft Teams 用户活动](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)（预计阅读时间为 5 分钟）以了解有关使用情况报告的详细信息。\n\n管理质量超出了此培训的范围，但你可参阅下面的培训材料：\n\n-   [操作服务](https://docs.microsoft.com/MicrosoftTeams/1-drive-value-operate-my-service)\n"

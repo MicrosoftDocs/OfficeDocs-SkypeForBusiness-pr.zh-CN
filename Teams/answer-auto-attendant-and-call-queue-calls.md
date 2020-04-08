@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137432"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190869"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 ===========================================================
 
-团队用户可以直接从其团队客户端接收和应答来自云自动助理的调用和调用队列。 对于团队用户，"自动助理" 功能现在通常可用，并且呼叫队列功能位于 "预览" 中。 
+团队用户可以直接从其团队客户端接收和应答来自云自动助理的调用和调用队列。
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>什么是自动助理和呼叫队列？
 

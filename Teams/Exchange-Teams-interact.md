@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68468455da96fc3b2790a832b6732d7211bd7733
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131140"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43191239"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -36,7 +36,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 托管在 Exchange Online 专用（旧版）上的用户必须同步到 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道，添加和配置选项卡和机器人，以及利用聊天和通话功能。 但是，他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
 
-拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，还可以更改用户配置文件图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），并管理会议，提供 Exchange Server 2016 （累积更新3）或更高版本，以在本地运行。
+拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，还可以更改用户配置文件图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），并且管理会议（如果 Outlook 网页邮箱策略允许他们执行此操作），并且管理会议（如果 web 邮箱策略允许他们执行此操作），以及使用 OAuth 配置的应用（最好通过混合配置向导）来管理2016会议
 
 下表提供了基于 Exchange 环境的功能可用性的有用快速参考。
 
@@ -48,7 +48,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是 |
 |**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是|
 |**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是<sup>4|是|否|否|必需|是|否|是<sup>5|是<sup>6|必需|是 |
-|**本地 Exchange** （需要同步至 Azure AD）|是<sup>2</sup>| 是<sup>2，3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|必需|是|否|是<sup>5|是<sup>6|必需|是 |
+|**本地 Exchange** （需要同步至 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2，3</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|必需|是|否|是<sup>5|是<sup>6|必需|是 |
 
 <sup>1</sup> EXCHANGE 2016 CU3 及以上版本均受支持。  
 
