@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136872"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174914"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
@@ -31,9 +31,7 @@ ms.locfileid: "43136872"
 
 创建团队前，请先考虑目标、项目或工作项，以及组织中谁可以协作帮助交付它们。 确定了这些后，立即将人员或组添加到团队，以开始协作。 由于成员资格可能会随时间变化，因此最好为每个团队指定多个所有者。 有关详细信息，请参阅[管理团队](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
-请观看下面的短视频，其中举例介绍了如何构建跨组织团队或单一用途团队：
-
-> [!VIDEO https://youtu.be/XAowXcmQ-kA]
+Microsoft 团队[视频播放列表](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf)提供有关创建和管理团队的详细信息。
 
 ## <a name="add-teams-gradually"></a>逐步添加团队
 
@@ -41,11 +39,11 @@ ms.locfileid: "43136872"
 
 ## <a name="create-channels-to-focus-discussions"></a>创建以讨论为重点的频道
 
-创建团队后，最好开始考虑您需要支持的各种不同项目和对话的类型。 请创建初始频道，这样成员就知道在哪里参与并查找现有对话。 命名描述性频道名称，这样成员就更容易知道到哪里查找每个对话。 请将工具（如 OneNote、Power BI 或 Planner）作为选项卡添加到频道中，这样成员就可以直接在频道中使用所需的一切功能。 也可以将常用网页作为选项卡添加到频道中。 
+创建团队后，最好开始考虑您需要支持的各种不同项目和对话的类型。 请创建初始频道，这样成员就知道在哪里参与并查找现有对话。 命名描述性频道名称，这样成员就更容易知道到哪里查找每个对话。 请将工具（如 OneNote、Power BI 或 Planner）作为选项卡添加到频道中，这样成员就可以直接在频道中使用所需的一切功能。 也可以将常用网页作为选项卡添加到频道中。
 
-若要详细了解这些面向最终用户的快速提示与技巧，请参阅[在团队中工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)。 
+若要详细了解这些面向最终用户的快速提示与技巧，请参阅[在团队中工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)。
 
-最佳做法：创建包含更大一组成员和更多频道的团队。 最大限度地减少需要个人参与的团队数量。 应将团队中的频道看作是主题或工作流程，用于帮助团队组织工作来实现共同目标。 没有要求应创建特定数量的频道。 每个团队都应根据自身的工作、优先级和风格来设计频道。 
+最佳做法：创建包含更大一组成员和更多频道的团队。 最大限度地减少需要个人参与的团队数量。 应将团队中的频道看作是主题或工作流程，用于帮助团队组织工作来实现共同目标。 没有要求应创建特定数量的频道。 每个团队都应根据自身的工作、优先级和风格来设计频道。
 
 对团队中每个人都可以参与的对话使用标准频道。 如果需要与一组选定成员的重点协作区域，可以利用 [Teams 中的专用频道](private-channels.md)。
 
@@ -64,12 +62,11 @@ ms.locfileid: "43136872"
 
 若要了解详细信息，请仔细阅读 [Teams 和频道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)页上的“在频道中工作”**** 选项卡。
 
-
-
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>考虑在频道中设置审核
 
 团队所有者可以对频道启用审核，以控制谁能在此频道中发起新帖子并回复帖子。 设置审核后，可以选择一个或多个团队成员作为审核员。 （默认情况下，团队所有者是审核员。）有关详细信息，请参阅[在 Microsoft Teams 中设置和管理频道审核](manage-channel-moderation-in-teams.md)。
 
 ## <a name="related-topics"></a>相关主题
 
-[在 Teams 中创建组织范围内的团队](create-an-org-wide-team.md)
+- [在 Teams 中创建组织范围内的团队](create-an-org-wide-team.md)
+- [Microsoft Teams 的限制和规范](limits-specifications-teams.md)
