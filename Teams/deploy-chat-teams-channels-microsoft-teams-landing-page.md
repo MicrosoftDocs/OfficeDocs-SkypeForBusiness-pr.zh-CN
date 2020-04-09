@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796015"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170590"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -97,6 +97,10 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 ### <a name="guest-access"></a>来宾访问权限
 
 Teams 中的来宾访问可让组织外部的个人访问团队和频道。 可以使用来宾访问设置来控制来宾用户能够使用或无法使用哪些功能。 默认情况下会关闭来宾访问。 若要了解详细信息，请参阅 [Teams 中的来宾访问](https://docs.microsoft.com/microsoftteams/guest-access)。
+
+> [!NOTE]
+> 有关外部访问和来宾访问的详细信息，请参阅此处 — [与 Microsoft Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)
+
 
 |询问你自己|操作 |
 |------------|-------|

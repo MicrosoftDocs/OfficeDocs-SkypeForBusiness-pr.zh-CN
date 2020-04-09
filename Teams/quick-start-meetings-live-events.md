@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec86d9f57afca71624263d1cbd6ca212b8093dd
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157921"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170481"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理员快速入门 - Microsoft Teams 中的会议和实时事件
 
@@ -55,6 +55,8 @@ ms.locfileid: "43157921"
 
 - 作为管理员，你将为所有人配置[会议设置](meeting-settings-in-teams.md)。 然后，你可使用[会议策略](meeting-policies-in-teams.md)来控制你的用户可以使用（或不可以使用）哪些会议功能。 
 
+- 若要了解如何管理会议录制，请阅读 [Teams 云会议录制](cloud-recording.md)。
+
 - 如果你的用户是 Teams 会议的新用户，请与他们共享[管理会议](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)培训。 观看我们的讲师指导在线课堂，[使用 Teams 举行高效会议](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings)。
 
 - 要了解有关管理会议选项的信息，请参阅[更改 Teams 会议的参与者设置](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。
@@ -78,3 +80,5 @@ ms.locfileid: "43157921"
 [Teams 中的实时事件](teams-live-events/what-are-teams-live-events.md)
 
 [Teams 限制和规范](limits-specifications-teams.md)
+
+[Microsoft 技术社区： Microsoft 365 中的实时事件](https://resources.techcommunity.microsoft.com/live-events/)
