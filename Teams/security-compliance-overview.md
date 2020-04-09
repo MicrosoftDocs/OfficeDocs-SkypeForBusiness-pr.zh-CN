@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157625"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207001"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
@@ -36,7 +36,7 @@ ms.locfileid: "43157625"
 >  - 已更新2020年4月2日：[团队安全指南](teams-security-guide.md)
 
 
-Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我们的客户期望的高级安全性和合规性功能。 有关在 O365 中规划安全性的详细信息，请查看我们的 O365 内容。 [O365 安全路线图](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)是一个不错的开端。 有关在 O365 中规划合规性的详细信息，您可以从[适用于安全和合规性文章的计划](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)开始。
+Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我们的客户期望的高级安全性和合规性功能。 有关在 Office 365 中规划安全性的详细信息，请查看我们的 Office 365 内容。 [Office 365 安全路线图](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)是一个不错的开端。 有关在 Office 365 中规划合规性的详细信息，您可以从[适用于安全和合规性文章的计划](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance)开始。
 
 
 本文将提供有关特定于团队的安全和合规性的进一步信息。 不要错过有关安全和合规性的 Microsoft 相关视频：
@@ -53,7 +53,7 @@ Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我�
 
 阅读身份[模型和身份验证](identify-models-authentication.md)，以便更深入地了解身份验证和团队，以及[新式身份验证工作方式](sign-in-teams.md)对新式身份验证的帮助尤其如此。
 
-由于团队可与 SharePoint、OneNote、Exchange 等进行合作，因此你应该轻松管理 O365 中的安全。 若要了解有关 Office 365 安全的详细信息，请阅读[配置 Office 365 租户以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
+由于团队可与 SharePoint、OneNote、Exchange 等进行合作，因此你应该轻松管理 Office 365 中的安全。 若要了解有关 Office 365 安全的详细信息，请阅读[配置 Office 365 租户以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
 
 > [!NOTE]
 > 目前，[专用通道](private-channels.md)支持有限的安全和合规性功能。 即将推出专用频道中整套安全和合规性功能的支持。
@@ -62,11 +62,11 @@ Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我�
 
 高级威胁防护（ATP）可用于 Microsoft 团队，以及 SharePoint 和 OneDrive for Business 以及与内容管理团队集成的应用程序。 ATP 允许你确定这些应用程序中的内容是否具有恶意性质，并阻止用户访问此内容。
 
-在 O365 中所选设置达到检测后受影响内容的管理方式。 我们强烈建议你在配置 ATP 时考虑所有应用程序，如果需要进一步阅读， [SharePoint、OneDrive 和 Microsoft 团队文章的 Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)将提供有关如何入门的详细信息。
+在检测到 Office 365 中所选设置后，受影响内容的管理方式。 我们强烈建议你在配置 ATP 时考虑所有应用程序，如果需要进一步阅读， [SharePoint、OneDrive 和 Microsoft 团队文章的 Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)将提供有关如何入门的详细信息。
 
 ### <a name="safe-links"></a>安全链接
 
-目前，在 Microsoft 团队中，ATP 安全链接不可用，现在，它们现在是通过我们的技术采纳计划（点击）进行公共预览，并且如果未设置常规可用性的发布日期，我们将在该时间到来时更新本文。 同时，有关 O365 安全链接的信息，请查看[Office 365 ATP 安全链接](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
+目前，在 Microsoft 团队中，ATP 安全链接不可用，现在，它们现在是通过我们的技术采纳计划（点击）进行公共预览，并且如果未设置常规可用性的发布日期，我们将在该时间到来时更新本文。 同时，有关 Office 365 安全链接的信息，请查看[office 365 ATP 安全链接](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>条件访问策略适用于团队的方式
 
@@ -98,15 +98,15 @@ Microsoft 团队中的保留策略使你能够保留你的组织出于法规、�
 
 ### <a name="data-loss-prevention-dlp"></a>数据丢失防护（DLP）
 
-Microsoft 团队中的数据丢失防护（DLP），以及 O365 较大的 DLP 情景，在用于保护 O365 中的敏感文档和数据时，将面临业务准备。 无论您是否关注邮件或文档中的敏感信息，DLP 策略都能够帮助确保您的用户不会与错误的用户共享此敏感数据。
+Microsoft 团队中的数据丢失防护（DLP）以及适用于 Office 365 的较大 DLP 情景，在保护 Office 365 中的敏感文档和数据时面临业务准备。 无论您是否关注邮件或文档中的敏感信息，DLP 策略都能够帮助确保您的用户不会与错误的用户共享此敏感数据。
 
-有关团队中的数据丢失防护的详细信息，请查看[适用于 Microsoft 团队的 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)。 O36 DLP 问题的一个好的文章[https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)是。
+有关团队中的数据丢失防护的详细信息，请查看[适用于 Microsoft 团队的 DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)。 O36 DLP 问题的一个好的文章是[数据丢失防护的概述](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
 
 ### <a name="ediscovery"></a>电子数据展示
 
 电子查询（电子查询或电子数据展示）是标识、收集和出具电子存储信息（ESI）的电子方面，可响应法律花色或调查中的生产请求。 功能包括 "案例管理"、"保存"、"搜索"、"分析" 和 "工作组数据导出"。 这包括聊天、消息传递和文件、会议和通话摘要。 对于团队会议和通话，将创建会议和通话中发生的事件的摘要，并将其提供给电子数据展示。
 
-有关如何在安全 & 合规中心以及运行团队内容的运行合规性内容搜索的更多详细信息，请访问以下链接：
+有关365如何在安全 & 合规中心以及运行团队内容的合规性内容搜索的更多详细信息，请访问以下链接：
 
 [电子数据展示](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
 
@@ -140,7 +140,7 @@ Microsoft 团队中的数据丢失防护（DLP），以及 O365 较大的 DLP �
 
 ### <a name="compliance-content-search"></a>合规性内容搜索
 
-可使用内容搜索通过丰富的筛选功能搜索所有团队数据。 生成的数据可以导出到特定容器，以实现合规性和诉讼支持。 在有无电子数据展示案例的情况下，均可执行此操作。 这使合规性管理员能够跨所有用户收集团队数据、查看和导出它以进行进一步处理。 请参阅 O365 文章[中的此内容搜索](https://docs.microsoft.com/microsoft-365/compliance/content-search)，了解有关如何在 Office 365 安全 & 合规中心中对 Microsoft 团队和其他 O365 内容进行合规性内容搜索的详细信息。
+可使用内容搜索通过丰富的筛选功能搜索所有团队数据。 生成的数据可以导出到特定容器，以实现合规性和诉讼支持。 在有无电子数据展示案例的情况下，均可执行此操作。 这使合规性管理员能够跨所有用户收集团队数据、查看和导出它以进行进一步处理。 请参阅[office 365 文章中的内容搜索](https://docs.microsoft.com/microsoft-365/compliance/content-search)，了解有关如何在 Office 365 安全 & 合规中心中执行 Microsoft 团队和其他 office 365 内容的合规性内容搜索的详细信息。
 
 > [!TIP]
 > 使用内容搜索，您可以根据需要筛选仅限 Microsoft 团队的内容，如聊天和频道消息、会议和呼叫。
@@ -149,7 +149,7 @@ Microsoft 团队中的数据丢失防护（DLP），以及 O365 较大的 DLP �
 
 ### <a name="auditing-and-reporting"></a>审核和报告
 
-审核日志搜索直接插入到 Office 365 安全 & 合规中心，使你能够设置警报以及报告审核事件，方法是允许导出特定于负载的事件集或常规事件集以供管理员使用，并跨无限审核时间线进行调查。 你可以在 Office 365 安全 & 合规性中心中为所有审核日志数据设置通知，并筛选和导出此数据以进行进一步分析。 请参阅[搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，了解有关如何对 O365 执行审核日志的详细信息。 若要了解有关在 Office 365 安全 & 合规中心中搜索 Microsoft 团队事件的详细信息，我们还提供团队文章中的 "[启用审核](audit-log-events.md)"，供你查看。
+审核日志搜索直接插入到 Office 365 安全 & 合规中心，使你能够设置警报以及报告审核事件，方法是允许导出特定于负载的事件集或常规事件集以供管理员使用，并跨无限审核时间线进行调查。 你可以在 Office 365 安全 & 合规性中心中为所有审核日志数据设置通知，并筛选和导出此数据以进行进一步分析。 请参阅[搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，了解有关如何为 Office 365 执行审核日志的详细信息。 若要了解有关在 Office 365 安全 & 合规中心中搜索 Microsoft 团队事件的详细信息，我们还提供团队文章中的 "[启用审核](audit-log-events.md)"，供你查看。
 
 ## <a name="privacy"></a>隐私
 
@@ -172,7 +172,7 @@ Microsoft 团队中的数据丢失防护（DLP），以及 O365 较大的 DLP �
 
 在信息保护功能方面，Office 365 订阅和关联的独立许可证将确定可用功能集。
 
-有关确定授权需要实现安全和合规性功能的信息，请参阅： [Office 365 的许可](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)。
+有关确定授权需要实现安全和合规性功能的信息，请查看[Office 365 或 Microsoft 365 的许可](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf)。
 
 > [!NOTE]
 > 不需要在安全 & 合规中心中启用内容搜索和电子数据展示。
