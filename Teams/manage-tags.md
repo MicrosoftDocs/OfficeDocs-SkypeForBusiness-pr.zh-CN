@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中管理组织中如何使用标记。
-ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951547"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209484"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 团队中的标记
 
 Microsoft 团队中的标记使用户能够与团队中的一部分人员进行通信。 可将标记添加到一个或多个团队成员，以便轻松地与用户的正确子集连接。 团队所有者和成员（如果为其启用了该功能）可以向某个人员添加一个或多个标记。 然后，这些标记可在频道发布中由团队的任何人 @mentions，或者仅与分配了该标记的人员开始对话。
 
 > [!NOTE]
-> 专用频道尚不支持标记。 在美国政府社区云（GCC）、GCC 高或国防（DoD）组织中尚不提供标记。 
+> 专用频道尚不支持标记。 在美国政府社区云（GCC）、GCC 高或国防（DoD）组织中尚不提供标记。
 
 ## <a name="how-tags-work"></a>标记的工作方式
 
@@ -37,7 +37,7 @@ Microsoft 团队中的标记使用户能够与团队中的一部分人员进行�
 - 商店经理希望向频道发布公告并通知所有出纳。
 - 组产品经理希望向频道中的所有产品经理发送消息。
 - 医院管理员想要向频道中的所有 radiologists 发送一封邮件。
-- 市场营销经理希望开始与所有设计人员进行群组聊天。 
+- 市场营销经理希望开始与所有设计人员进行群组聊天。
 
 若要了解详细信息，请参阅[使用团队中的标记](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
 
@@ -46,6 +46,8 @@ Microsoft 团队中的标记使用户能够与团队中的一部分人员进行�
 作为管理员，你可以控制哪些人可以添加标签，以及如何在 Microsoft 团队管理中心中跨你的组织使用标记。
 
 ![Microsoft 团队管理中心中的标记设置的屏幕截图](media/manage-tags-admin-settings.png)
+
+一个团队最多可以有100个标记，最多可以向100个团队成员分配一个标记，并且可以将最多25个标记分配给单个用户。 
 
 ### <a name="set-who-can-add-tags"></a>设置可以添加标记的人员
 

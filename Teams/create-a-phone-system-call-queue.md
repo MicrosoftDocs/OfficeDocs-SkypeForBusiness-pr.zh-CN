@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何为 Microsoft 团队设置云呼叫队列的电话系统。
-ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
-ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
+ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43184241"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43213645"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -204,7 +204,7 @@ ms.locfileid: "43184241"
 
 如果某个代理选择退出呼叫，则无论其可用性状态如何设置，它们都不会包含在 "呼叫" 传送列表中。
 
-> [!CAUTION]
+> [!IMPORTANT]
 > 启用基于状态的路由时，"呼叫" 传送列表中不包含使用 Skype for Business 客户端的代理，无论其可用性状态如何。 不在呼叫传送列表中的代理将无法接收呼叫。 如果您有使用 Skype for Business 的工程师，请不要启用基于状态的呼叫路由。
 
 ### <a name="select-an-agent-opt-out-option"></a>选择代理选择退出选项
