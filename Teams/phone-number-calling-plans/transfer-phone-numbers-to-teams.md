@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用迁移向导将您的电话号码从当前服务提供商转移到 Microsoft 团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137862"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227526"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>将电话号码转移到 Microsoft 团队
 
@@ -39,7 +39,7 @@ ms.locfileid: "43137862"
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>创建一个端口顺序并将您的电话号码转移到团队
 
 > [!NOTE]
-> **目前，您可以使用此向导为英国和加拿大获取电话号码**。 若要获取其他国家和地区的电话号码，您可以[手动提交一个端口订单](manually-submit-port-order.md)。 若要获得手动提交端口顺序所需的表单，请在 "[管理组织电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)" 下拉列表中选择您的国家或地区。
+> **目前，您可以使用此向导获取英国、美国和加拿大的电话号码**。 若要获取其他国家和地区的电话号码，您可以[手动提交一个端口订单](manually-submit-port-order.md)。 若要获得手动提交端口顺序所需的表单，请在 "[管理组织电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)" 下拉列表中选择您的国家或地区。
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **电话号码**"。 单击 "**数字**"，然后单击 "**端口**" 以启动移植向导。
 2. 查看 "**入门**" 页面上的信息，然后在准备就绪后，单击 "**下一步**"。

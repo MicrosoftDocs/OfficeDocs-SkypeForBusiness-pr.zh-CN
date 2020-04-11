@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962081"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209444"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -121,8 +121,6 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |定期，无结束时间     |开始时间 + 60 天         |60 天         |
 |定期，设有结束时间     |上次会议的结束时间 + 60 天         |60 天         |
 
-
-
 ## <a name="teams-live-events"></a>Teams 实时事件
 
 |功能     | 最大限制 |
@@ -156,6 +154,15 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 频道由 SharePoint Online 网站集中专为团队创建的文件夹提供支持，因此频道中的文件选项卡共同享有其所属的团队的存储空间限额。
 
 有关详细信息，请参阅 [SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
+
+## <a name="tags"></a>标记
+
+|功能  |最大限制  |
+|---------|---------|
+|每个团队的标记数    | 100        |
+|每个团队建议的默认标记数    | 25        |
+|分配有标记的团队成员数    |100         |
+|分配给用户的标记数    |25         |
 
 ## <a name="contacts"></a>联系人
 

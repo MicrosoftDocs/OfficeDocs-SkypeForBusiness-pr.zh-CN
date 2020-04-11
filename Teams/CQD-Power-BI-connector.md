@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI Connector 以使用 CQD 查询模板
-ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106689"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227546"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI Connector 以使用 CQD 查询模板
 
@@ -75,7 +75,8 @@ ms.locfileid: "43106689"
 
     ![屏幕截图： Power BI Connector](media/CQD-power-bi-connector4.png)
 
-**重要说明：** 通话质量仪表板要求运行任何查询的度量值。 无法将度量值添加到查询将导致该查询失败。
+    > [!IMPORTANT] 
+    > 通话质量仪表板要求运行任何查询的度量值。 无法将度量值添加到查询将导致该查询失败。
 
 3.  接下来，选择要筛选的任何维度，并将其拖动到 "*筛选器*" 窗格中*此视觉字段上的筛选器*。 CQD Power BI 连接器当前支持*基本筛选*（从可能的维度值列表中选择值）、*高级筛选*（手动指定值和要筛选的操作数，类似于高级 CQD），以及*相对日期筛选*（仅适用于 "*结束时间*" 和 "*开始时间*" 维度）。 CQD 不支持按*Top N*进行筛选。
 
@@ -83,7 +84,8 @@ ms.locfileid: "43106689"
 
 4.  最后，选择 "*可视化*" 窗格中的 "*格式*" 选项卡以设置查询样式并设置其格式。
 
-**注意：** CQD 查询至少需要一个度量值才能运行。 如果查询未加载，请仔细检查查询中是否已包含度量值。
+    > [!NOTE]
+    > CQD 查询至少需要一个度量值才能运行。 如果查询未加载，请仔细检查查询中是否已包含度量值。
 
 ## <a name="creating-a-drillthrough-report"></a>创建钻取报表
 
@@ -100,6 +102,10 @@ ms.locfileid: "43106689"
     ![屏幕截图： Power BI Connector](media/CQD-power-bi-connector7.png)
 
 与高级 CQD 不同，Power BI 支持非顺序钻取。 只要查询包含必要的维度，它就可以钻取到任何其他页面。
+
+### <a name="best-practice"></a>最佳做法
+
+通话质量连接器查询的设计应考虑钻取功能。 不要尝试一次加载所有数据，然后再通过筛选器进行切片，从更广泛、低基数的查询开始，然后向下钻取到高基数查询。 例如，当尝试诊断哪些子网最大程度地影响了最高质量的问题时，首先确定导致问题的那些地区和国家，然后向下钻取到该地区或国家/地区的子网。 通话质量连接器模板已采用这种方式进行设计，以便充当示例。
 
 ## <a name="limitations"></a>优缺点
 

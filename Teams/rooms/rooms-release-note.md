@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 本文讨论 Microsoft 团队聊天室中的累积改进。
-ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157761"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227516"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -69,7 +69,6 @@ ms.locfileid: "43157761"
 - 支持团队的动态紧急呼叫（服务组件需要和使用团队客户环发布的服务组件）
 - 使用 XML 在双重显示的会议中禁用重复内容的功能
 - 应用程序初始屏幕
-- 自动答案设置，用于改进基于会议的邻近体验 
 - 设备设置中的开放源代码软件（OSS）声明
 - 在 Skype for Business Server 2015/2019 中禁用 TLS 1.0 和 TLS 1.1 时，修复 PSOM 连接。
 

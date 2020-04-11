@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 大致了解哪些端口订单，以及如何将电话号码从服务提供商转移到团队。
-ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827940"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227536"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 
@@ -35,7 +35,9 @@ ms.locfileid: "41827940"
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>哪些国家或地区支持号码移植？
 
-您可以将电话号码移植或转移到所有受支持的国家或地区，但如何提交端口订单请求取决于电话号码来自的国家或地区。 有关支持号码移植的国家和地区的列表，请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+您可以将电话号码移植或转移到所有受支持的国家或地区，但如何提交端口订单请求取决于电话号码来自的国家或地区。 有关支持号码移植的国家和地区的列表，请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
+
+当前，Microsoft 团队管理中心中[的移植向导](transfer-phone-numbers-to-teams.md)支持为英国、美国和加拿大获取电话号码。 若要获取其他国家和地区的电话号码，您可以[手动提交一个端口订单](manually-submit-port-order.md)。
   
 ## <a name="what-numbers-can-be-transferred"></a>哪些号码可以转移？
 

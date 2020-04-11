@@ -1,5 +1,5 @@
 ---
-title: 从 SharePoint Online 网站或页面创建团队 "Intranet 门户应用"
+title: 从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用
 author: LanaChin
 ms.author: heidip
 manager: serdars
@@ -8,206 +8,217 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
+- remotework
 ms.reviewer: vinbel
 search.appverid: MET150
-description: 获取现有 SharePoint Online 网站或页面，并创建可用作您的组织的 Intranet 门户的独立静态选项卡。
-localization_priority: Normal
-ms.openlocfilehash: 0215a2e1f79627f55bc14c00a099b25d2859b6f9
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
-ms.translationtype: MT
+description: 获取现有 SharePoint Online 网站或页面，并创建一个可用作组织 Intranet 门户的独立静态选项卡。
+localization_priority: Priority
+ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106629"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207071"
 ---
-# <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>从 SharePoint Online 网站或页面创建团队 "Intranet 门户应用"
+# <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用
 
-使用本文中的步骤在链接到您所在组织的 intranet 网站的团队内创建独立和静态应用。
+使用本文中的步骤，在 Teams 内创建一个链接到组织 Intranet 网站的独立和静态应用。
 
-创建 SharePoint intranet 网站的*团队个人应用*，并且将在团队内显示为选项卡。 此选项卡可能包含对所有团队用户重要的信息。 团队用户只需单击一下选项卡即可访问更新，这是一种快速且方便的方式。
+你的 SharePoint Intranet 网站 *Teams 个人应用*创建完成，并在 Teams 内显示为一个选项卡。 此选项卡中可能包含对所有团队用户非常重要的信息。 只需单击一下选项卡，Teams 用户就可以快速方便地获取更新。
 
-请注意，所显示的流程**必须使用***新式*SharePoint 网站或页面才能正常工作。 此流程不可用于*经典*网站或页面。
-
-> [!IMPORTANT]
-> 确保为你的租户启用团队应用的加载面。 根据在团队管理门户的迁移过程中所处的位置，你可能需要在 office 的 "团队 > 管理员" 或 "管理员 > 设置" > 服务和外接程序 "> Microsoft 团队 > 应用程序 > 外部应用" 中的 ""。 
-
-## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a>使用应用程序制作程序创建独立的 SharePoint Online 应用
-' ' ' 开始之前：
-1. 你需要了解 SharePoint Online 新式通信或团队网站或页面的 URL。
-    - 这些网站在其路径中将始终具有 */teams/* 或 */sites/* 。
-
-2. 你需要知道租户的子域，它将在占位符 **{{子域}}** 中使用。
-
-3. 本文将使用 **{{siteUrl}}** 占位符是你选择的网站或页面的*URL* 。
-    - 示例*url*： https://contoso.sharepoint.com/teams/Contoso*或*   https://contoso.sharepoint.com/sites/Contoso 
-4. 此外， **{{sitePath}}** 将用于表示 URL 的*路径*（例如：/teams/Contoso）。
-    - 示例*路径*：/Teams/Contoso*或*/sites/Contoso 
-
-请先按照以下步骤操作：
-
-1. 转到 "团队" 存储。
-
-2. 安装或打开应用 Studio。
-
-3. 单击 "应用" 选项旁边的 "**打开**"。
-
-4. 在应用 Studio 打开的情况下，单击 "**清单编辑器**"。
-
-5. **创建新应用**。
-
-6. 填写所有**应用详细信息**。
-
-7. 单击 "功能" 下的**选项卡**。
-
-8. 单击 "个人" 选项卡下的 "**添加**"。
-
-9. 填写**名称**，然后选择**一个新的唯一实体 ID**。
-
-10. 填写**contentURL 和网站 URL**。 
-
-- **contentUrl**： {{siteUrl}}/_layouts/15/teamslogon.aspx？SPFX = true&dest = {{sitePath}}  
-- **web'iteUrl**： {{siteUrl}} ' ' 示例**contentURL**：https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub 
-
-11. 导航到 "**域和 Permissi'ns**"。 请确保有效的域部分包含您的 SharePoint online 域名。
-' ' 示例： contoso.sharepoint.com
-
-12. 添加以下 web 应用**单一登录**属性： "' 示例： ' ' ' ' **AAD 应用程序 ID**： 00000003-0000-0ff1-ce00-000000000000**资源 Url**： {{子域}} web.config" ![web APP 单一登录，其中包含 ID 和 Url。](media/personal-app.png)
-
-13. **保存**这些属性，然后导航到 "**测试并分发**"。 
-
-14. 安装应用以对应用程序进行个人测试。
+注意显示的过程**必须使用***新式* SharePoint 网站或页面才能正常工作。 此过程适用于*经典*网站或页面。
 
 > [!IMPORTANT]
-> 如果未使用团队应用 Studio，则必须使用 .zip 清单。JSON 文件，请导航到团队中的应用商店，然后单击 "**上载自定义应用程序**" 链接（位于应用商店的右下角）。 这将使应用程序可供你使用。
+> 确保已为租户启用了旁加载 Teams 应用。 根据在 Teams Admin 门户迁移过程中所处的位置，在上一版本门户中，可能需要在Teams > “管理员” 或在 “管理员” > “设置” > “服务和加载项” > Microsoft Teams> “应用” > “外部应用”下进行启用！
 
-15. 现在，应用作为静态选项卡提供，供你在团队中加载和查看。
+## <a name="use-app-studio-to-create-your-standalone-sharepoint-online-app"></a>使用 App Studio 创建独立 SharePoint Online 应用
 
-## <a name="test-and-view-your-new-static-tab"></a>测试和查看新静态选项卡
+开始之前：
 
-若要查看团队桌面上的新选项卡，请导航到应用栏左侧的省略号（**...**）。 查找你的新应用，加载它，并在团队中测试你的独立应用程序。
+1. 需要知道 SharePoint Online 新式通信或 Team 网站或页面的 URL。
+    - 这些网站在路径中始终包含 */teams/* 或 */sites/*。
 
-如果要使新应用在较高位置的左侧菜单中可用，必须为此使用应用策略设置。 此设置可在 "团队管理员" 部分 > 应用策略 > 添加固定的应用程序中找到。 将策略分配给用户进行测试时，所做的更改将在24小时后显示。 考虑到这一点，请确定应用在最早的方便下应显示的位置，以帮助避免延迟。
+2. 需要知道在占位符 **{{subdomain}}** 中使用的租户子域。
 
-若要在移动设备上查看和测试新应用，请点击屏幕底部选项卡栏上方的 v**^** 形（）打开应用抽屉。 查找你的应用并在移动设备上导航到该应用。
-        
+3. 本文将使用占位符 **{{siteUrl}}** 作为所选网站或页面的 *URL*。
+    - 示例 *URLs*：   https://contoso.sharepoint.com/teams/Contoso   *或* https://contoso.sharepoint.com/sites/Contoso
+4. 此外，**{{sitePath}}** 将用于表示 URL 的*路径*（例如： /teams/Contoso）。
+    - 示例*路径*：   /teams/Contoso   *或* /sites/Contoso
+
+首先按照以下步骤进行操作：
+
+1. 转到 “Teams Store”。
+
+2. 安装或打开 App Studio。
+
+3. 单击应用选项旁的“**打开**”。
+
+4. App Studio 打开时，单击“**清单编辑器**”。
+
+5. **新建应用**。
+
+6. 填写所有“**应用详细信息**”。
+
+7. 单击功能下的“**选项卡**”。
+
+8. 单击“个人选项卡”下的“**添加**”。
+
+9. 输入“**名称**”并选择“**新实体唯一 ID**”。
+
+10. 输入“**contentURL 和网站 URL**。
+
+- **contentUrl**： {{siteUrl}}/_layouts/15/teamslogon.aspx?SPFX=true&dest={{sitePath}}  
+- **websiteUrl**： {{siteUrl}}
+
+    示例 **contentURL**： https://contoso.sharepoint.com/sites/ContosoHub/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoHub
+
+11. 导航至“**域和权限**”。 确保有效的域部分包含你的 SharePoint online 域名。
+
+    示例：contoso.sharepoint.com
+
+12. 添加下列 web 应用**单一登录**属性：
+
+     示例：**AAD application ID**：00000003-0000-0ff1-ce00-000000000000  **资源 Url**：{{subdomain}}.sharepoint.com
+
+    ![Web 应用单一登录（使用 ID 和 URL）。](media/personal-app.png)
+
+13. **保存**这些属性，然后导航到“**测试并分发**”。
+
+14. 安装此应用以亲自测试。
+
+> [!IMPORTANT]
+> 如果没使用 Teams App Studio，必须压缩刚创建的 manifest.JSON 文件，导航到Teams 中的 App Store，然后单击“**上传自定义应用**”链接（位于 App Store 右下角）。 然后可以使用此应用。
+
+15. 现在此应用程序可用作静态选项卡，供你在 Teams 中加载和查看。
+
+## <a name="test-and-view-your-new-static-tab"></a>测试并查看新静态选项卡
+
+若要在 Teams 桌面上查看新选项卡，请导航至应用栏左侧的省略号 (**…**)。 查找新应用程序、加载、然后在 Teams 中测试你的独立应用。
+
+如果要使新应用在更高位置的左侧菜单中可用，必须为其使用应用程序策略设置。 可以在“团队管理员”部分 > “应用策略” > “添加固定应用”下找到此设置。 将策略分配给用户进行测试时，更改将在 24 小时后显示。 考虑到这一点，请确定应尽早在哪里显示此应用程序，以帮助避免延迟。
+
+如果要在移动设备上查看和测试新应用，请点击屏幕底部附近选项卡栏上方的人字形(**^**)，打开应用列表。 查找你的应用程序，然后在移动设备上导航到此应用。
+
 > [!CAUTION]
-> 移动支持目前正在开发人员预览版中。 若要启用开发人员预览版，请导航到 "设置" > "，然后启用" 开发人员预览 "模式。
+> 移动支持目前仅限开发人员预览模式。 若要启用开发人员预览，请导航到“设置” > “关于”，然后启用“开发人员预览”模式。
 
 ## <a name="a-sample-manifestjson-file"></a>示例清单 JSON 文件
 
-你生成的 JSO 文件将如下所示。
+生成的 JSO 文件如下所示。
 
 ```JSON'
-{ 
+{
 
-    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json", 
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
 
-    "manifestVersion": "1.5", 
+    "manifestVersion": "1.5",
 
-    "version": "1.0.0", 
+    "version": "1.0.0",
 
-    "id": "33ebded3-931c-4333-b0c5-b51dd8738873", 
+    "id": "33ebded3-931c-4333-b0c5-b51dd8738873",
 
-    "packageName": "com.contoso.teams.devapp", 
+    "packageName": "com.contoso.teams.devapp",
 
-    "developer": { 
+    "developer": {
 
         "name": "Contoso", ''
 
-        "websiteUrl": "https://www.contoso.com", 
+        "websiteUrl": "https://www.contoso.com",
 
-        "privacyUrl": "https://www.contoso.com/privacy", 
+        "privacyUrl": "https://www.contoso.com/privacy",
 
-        "termsOfUseUrl": "https://www.contoso.com/terms" 
+        "termsOfUseUrl": "https://www.contoso.com/terms"
 
-    }, 
+    },
 
-    "icons": { 
+    "icons": {
 
-        "color": "color.png", 
+        "color": "color.png",
 
-        "outline": "outline.png" 
+        "outline": "outline.png"
 
-    }, 
+    },
 
-    "name": { 
+    "name": {
 
         "short": "Contoso Intranet", '
 
-        "full": "Intranet Portal for Contoso" 
+        "full": "Intranet Portal for Contoso"
 
-    },                     
-                        
-    "des    ription": {                 
+    },
 
-        "short": "Intranet portal for Contoso", 
+    "des    ription": {
 
-        "full": "This app is to demonstrate the capabilities of hosting a SharePoint communication and team site as a standalone app in Teams" 
+        "short": "Intranet portal for Contoso",
 
-    }, 
+        "full": "This app is to demonstrate the capabilities of hosting a SharePoint communication and team site as a standalone app in Teams"
 
-    "accentColor": "#FFFFFF", 
-''
-    "staticTabs": [ 
+    },
 
-        { 
-                                       
-                     "       nti        Id":       "com    unicat    onSi    eTab", 
-                                       
-            "name": "Contoso Net", 
+    "accentColor": "#FFFFFF",
 
-            "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/", 
+    "staticTabs": [
 
-            "websiteUrl": "https://contoso.sharepoint.com/sites/ContosoNet", 
+        {
 
-            "scopes": [ 
+                     "       nti        Id":       "com    unicat    onSi    eTab",
 
-                "personal" 
+            "name": "Contoso Net",
 
-            ] 
+            "contentUrl": "https://contoso.sharepoint.com/sites/ContosoNet/_layouts/15/teamslogon.aspx?SPFX=true&dest=/sites/ContosoNet/",
 
-        }, 
+            "websiteUrl": "https://contoso.sharepoint.com/sites/ContosoNet",
 
-        { 
+            "scopes": [
 
-            "entityId": "teamSiteTab", 
+                "personal"
 
-            "name": "Team Contoso", 
+            ]
 
-            "contentUrl": "https://contoso.sharepoint.com/teams/TeamContoso/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/TeamContoso/", 
+        },
 
-            "websiteUrl": "https://contoso.sharepoint.com/teams/TeamContoso", 
+        {
 
-            "scopes": [ 
+            "entityId": "teamSiteTab",
 
-                "personal" 
+            "name": "Team Contoso",
 
-            ] 
+            "contentUrl": "https://contoso.sharepoint.com/teams/TeamContoso/_layouts/15/teamslogon.aspx?SPFX=true&dest=/teams/TeamContoso/",
 
-        } 
+            "websiteUrl": "https://contoso.sharepoint.com/teams/TeamContoso",
 
-    ], 
+            "scopes": [
 
-    "permissions": [ 
+                "personal"
 
-        "identity", 
+            ]
 
-        "messageTeamMembers" 
+        }
 
-    ], 
+    ],
 
-    "validDomains": [ 
+    "permissions": [
 
-        "contoso.sharepoint.com" 
+        "identity",
 
-    ], 
+        "messageTeamMembers"
 
-    "webApplicationInfo": { 
+    ],
 
-        "id": "00000003-0000-0ff1-ce00-000000000000", 
+    "validDomains": [
 
-        "resource": "https://contoso.sharepoint.com" 
+        "contoso.sharepoint.com"
 
-    } 
+    ],
+
+    "webApplicationInfo": {
+
+        "id": "00000003-0000-0ff1-ce00-000000000000",
+
+        "resource": "https://contoso.sharepoint.com"
+
+    }
 
 }
 ```

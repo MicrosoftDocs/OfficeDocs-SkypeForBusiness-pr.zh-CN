@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207001"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227406"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
@@ -66,7 +66,11 @@ Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我�
 
 ### <a name="safe-links"></a>安全链接
 
-目前，在 Microsoft 团队中，ATP 安全链接不可用，现在，它们现在是通过我们的技术采纳计划（点击）进行公共预览，并且如果未设置常规可用性的发布日期，我们将在该时间到来时更新本文。 同时，有关 Office 365 安全链接的信息，请查看[office 365 ATP 安全链接](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。
+虽然目前，高级威胁防护（ATP）安全链接在 Microsoft 团队中不可用，但现在，它们现在是通过我们的技术采纳计划（点击）进行[公共预览](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide)，同时还未设置常规可用性的发布日期，我们将在该时间到达时更新本文。 同时，有关 Office 365 安全链接的信息，请查看[office 365 ATP 安全链接](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。 Atp "安全链接" 在 " [Atp 计划 1" 和 "ATP 计划 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)" 中可用。
+
+### <a name="safe-attachments"></a>安全附件
+
+安全附件是一种旨在通过检查和检测恶意附件来增强用户安全的功能。 全局或安全管理员创建用于处理这些可疑的恶意附件的[策略](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)，以防止这些附件被发送到用户、单击和操作。 "安全附件保护" 适用于 SharePoint Online、OneDrive for business 和 Microsoft 团队，并且这两个 Office 365[高级威胁防护计划1和 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)都具有此功能。 请阅读有关安全附件的详细信息，以及这些附件如何帮助保护您[的组织。](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>条件访问策略适用于团队的方式
 
