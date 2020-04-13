@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f8f142e48c005b14fc265d7efe6d4413b3c5f44c
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174914"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237935"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中组织团队的最佳做法
 ======================================================
@@ -31,7 +31,10 @@ ms.locfileid: "43174914"
 
 创建团队前，请先考虑目标、项目或工作项，以及组织中谁可以协作帮助交付它们。 确定了这些后，立即将人员或组添加到团队，以开始协作。 由于成员资格可能会随时间变化，因此最好为每个团队指定多个所有者。 有关详细信息，请参阅[管理团队](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
-Microsoft 团队[视频播放列表](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf)提供有关创建和管理团队的详细信息。
+
+请观看下面的短视频，其中举例介绍了如何构建跨组织团队或单一用途团队：
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## <a name="add-teams-gradually"></a>逐步添加团队
 

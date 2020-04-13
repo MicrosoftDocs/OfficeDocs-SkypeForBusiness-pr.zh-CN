@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5bbb66b99a061648c4c12b7611fc7054a4044c6f
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138032"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237885"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量（QoS）
 
@@ -78,7 +78,7 @@ _图2。QoS 队列的示例_
 
 ## <a name="select-a-qos-implementation-method"></a>选择 QoS 实现方法
 
-你可以使用网络路由器上的访问控制列表（Acl），通过基于端口的标记实现 QoS。 基于端口的标记是最可靠的方法，因为它可以在混合 Windows 和 Mac 环境中使用，并且最容易实现。 移动客户端不提供使用 DSCP 值标记流量的机制，因此它们将需要此方法。  
+你可以使用网络路由器上的访问控制列表（Acl），通过基于端口的标记实现 QoS。 基于端口的标记是最可靠的方法，因为它在混合的 Windows、Mac 和 Linux 环境中工作，并且最容易实现。 移动客户端不提供使用 DSCP 值标记流量的机制，因此它们将需要此方法。  
 
 使用此方法，你的网络路由器会检查传入的数据包，如果该数据包使用特定端口或端口范围接收，则它将其标识为特定媒体类型，并将其放入该类型的队列中，将预定义的[DSCP](https://tools.ietf.org/html/rfc2474)标记添加到 IP 数据包标头，以便其他设备可以识别其流量类型，并在其队列中授予其优先级。
 
