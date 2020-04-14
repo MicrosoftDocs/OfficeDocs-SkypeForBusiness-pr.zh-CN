@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：使用本主题准备 Skype for Business Server 2015 服务器。 硬件、操作系统、数据库、软件、所有系统要求和建议都可帮助确保成功安装和部署服务器场。
-ms.openlocfilehash: 9cc063a44924bd6080525ca7a751bd1a3356666c
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: 53ce5d464b9faea14ca6970f85b3f937af8238e2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572790"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237945"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Skype for business Server 2015 的服务器要求
  
@@ -51,7 +51,7 @@ ms.locfileid: "42572790"
 |:-----|:-----|
 |CPU  <br/> |64位双处理器、hex-core、2.26 千兆赫兹（GHz）或更高版本。  <br/> Skype for business Server 2015 角色不支持 Intel Itanium 处理器。  <br/> |
 |内存  <br/> |32千兆字节（GB）。  <br/> |
-|磁盘  <br/> |请  <br/> •8个或更多 10000 RPM 硬盘，至少有 72 GB 的可用磁盘空间（两个磁盘使用 RAID 1，6个磁盘使用 RAID 10）。  <br/> 或  <br/> •稳定状态驱动器（Ssd）能够为 8 10000 RPM 机械磁盘驱动器提供相同的可用空间和类似的性能。  <br/> |
+|磁盘  <br/> |请  <br/> •8个或更多 10000 RPM 硬盘，至少有 72 GB 的可用磁盘空间（两个磁盘使用 RAID 1，6个磁盘使用 RAID 10）。  <br/> OR  <br/> •稳定状态驱动器（Ssd）能够为 8 10000 RPM 机械磁盘驱动器提供相同的可用空间和类似的性能。  <br/> |
 |网络  <br/> |1个双端口网络适配器，1 Gbps 或更高（2个网络适配器可以使用，但需要使用一个 MAC 地址和一个 IP 地址进行分组）。  <br/> 前端服务器、后端服务器、Standard Edition 服务器和持久聊天服务器**不**支持双宿主或多宿主配置。 <br/> 只要不向操作系统公开并使用它来监视和管理服务器硬件，您就可以拥有带外管理系统，如 DRAC 或 ILO。 此方案不构成多穴服务器，并且受支持。  <br/> |
    
 适用于边缘服务器、独立中介服务器、视频互操作服务器和控制器的推荐硬件：
@@ -60,7 +60,7 @@ ms.locfileid: "42572790"
 |:-----|:-----|
 |CPU  <br/> |64位双处理器、四核、2.26 千兆位（GHz）或更高版本。  <br/> Skype for business Server 2015 角色不支持 Intel Itanium 处理器。  <br/> |
 |内存  <br/> |16 gb。  <br/> |
-|磁盘  <br/> |请  <br/> •4个或更多 10000 RPM 硬盘，至少有 72 GB 的可用磁盘空间（磁盘应采用 2x RAID 1 配置）。  <br/> 或  <br/> •稳定状态驱动器（Ssd）能够为 4 10000 RPM 机械磁盘驱动器提供相同的可用空间和类似的性能。  <br/> |
+|磁盘  <br/> |请  <br/> •4个或更多 10000 RPM 硬盘，至少有 72 GB 的可用磁盘空间（磁盘应采用 2x RAID 1 配置）。  <br/> OR  <br/> •稳定状态驱动器（Ssd）能够为 4 10000 RPM 机械磁盘驱动器提供相同的可用空间和类似的性能。  <br/> |
 |网络  <br/> |1个双端口网络适配器，1 Gbps 或更高（2个网络适配器可以使用，但需要使用一个 MAC 地址和一个 IP 地址进行分组）。  <br/> 视频互操作服务器和控制器**不**支持双宿主或多宿主配置。 <br/> 边缘服务器需要两个分别为双端口网络适配器、1 Gbps 或更高（或两个配对的网络适配器）的网络接口（或两个配对的网络适配器），每个端口包含一个 MAC 地址和一个 IP 地址，共有两对。  <br/> 在独立中介服务器上，支持安装额外的网络接口卡（Nic），以允许配置特定的 PSTN IP 地址。  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>适用于 Skype for business Server 2015 的操作系统
@@ -74,7 +74,10 @@ ms.locfileid: "42572790"
 |Windows Server 2012 R2 Datacenter OS，安装了所有必需的更新。  <br/> |Windows Server 2012 R2 Standard OS，安装了所有必需的更新。  <br/> |
 |Windows Server 2012 Datacenter OS，安装了所有必需的更新。  <br/> |Windows Server 2012 Standard OS，安装了所有必需的更新。  <br/> |
    
-如果不在此列表中，它将无法正常运行，请不要在新安装的 Skype for Business Server 2015 中试用它。 请注意，Lync Server 2013 不支持就地升级操作系统。  您必须部署单独的池，并将用户迁移到具有不同操作系统的新池。
+如果不在此列表中，它将无法正常运行，请不要在新安装的 Skype for Business Server 2015 中试用它。
+
+> [!NOTE]
+> Lync Server 2013 不支持 OS 就地升级。 您必须部署单独的池，并将用户迁移到具有不同 OS 的新池。 池中的所有服务器必须具有相同的 OS 版本。
   
 > [!NOTE]
 > 您可能已注意到 Windows Server 2008 R2 不在此列表中。 这是因为我们建议将所有新服务器的 Windows Server 2012 R2 用于 SFB。 只有在安装了已安装 Lync Server 2013 的现有服务器，并且您要执行它们的就地升级时，才应使用 Windows Server 2008 R2。 Windows Server 2008 R2 已到达1/13/2015 的主流支持生命周期的结尾，并将在1/14/2020 上到达其支持生命周期的结尾。
@@ -268,6 +271,6 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
   
  **上次想法：**
   
-请勿在上安装任何 Microsoft Internet 安全性和加速（ISA） Server 客户端软件或任何其他 Winsock 分层服务提供程序（LSP）软件（此处包含第三方防火墙或防病毒网络检查软件）任何前端服务器或独立中介服务器。 安装该软件时，会看到较差的媒体流量性能。
+请勿在任何前端服务器或独立中介服务器上安装任何 Microsoft Internet 安全性和加速（ISA）服务器客户端软件或任何其他 Winsock 分层服务提供程序（LSP）软件（此处将包含任何第三方防火墙或防病毒网络检查软件）。 安装该软件时，会看到较差的媒体流量性能。
   
 
