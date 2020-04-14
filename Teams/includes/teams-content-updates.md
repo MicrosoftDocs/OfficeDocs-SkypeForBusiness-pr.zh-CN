@@ -3,53 +3,6 @@
 
 
 
-## <a name="week-of-march-02-2020"></a>2020年3月2日的第一周
-
-
-| 发布日期 |主题标题 | 更改 |
-|------|------------|--------|
-| 3/3/2020 | [管理免费的 Office 365 E1 试用版](/MicrosoftTeams/e1-trial-license) | 修改内容 |
-| 3/3/2020 | [发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
-| 3/3/2020 | [管理 Microsoft Teams Exploratory 体验](/MicrosoftTeams/teams-exploratory) | 修改内容 |
-| 3/3/2020 | [在 Microsoft 团队中管理专用频道的生命周期](/MicrosoftTeams/private-channels-life-cycle-management) | 修改内容 |
-| 3/3/2020 | [Microsoft Teams 的最终用户培训](/MicrosoftTeams/enduser-training) | 修改内容 |
-| 3/4/2020 | [管理会议设置](/MicrosoftTeams/meeting-settings-in-teams) | 修改内容 |
-| 3/4/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
-| 3/4/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
-| 3/4/2020 | [Microsoft 团队粉笔粉笔](/MicrosoftTeams/chalk-talks-landing-page) | 修改内容 |
-| 3/4/2020 | [配置动态紧急呼叫](/MicrosoftTeams/configure-dynamic-emergency-calling) | 修改内容 |
-| 3/4/2020 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
-| 3/4/2020 | [美国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 修改内容 |
-| 3/4/2020 | [在 Microsoft 团队中管理专用频道的生命周期](/MicrosoftTeams/private-channels-life-cycle-management) | 修改内容 |
-| 3/4/2020 | [Microsoft Teams 体验质量概述指南](/MicrosoftTeams/quality-of-experience-review-guide) | 修改内容 |
-| 3/4/2020 | [通过 Azure 监视器部署 Microsoft 团队聊天室管理](/MicrosoftTeams/rooms/azure-monitor-deploy) | 修改内容 |
-| 3/4/2020 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
-| 3/4/2020 | [30个团队](/MicrosoftTeams/teams-in-30-workshops) | 修改内容 |
-| 3/5/2020 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
-| 3/5/2020 | [在 Microsoft Teams 中管理外部访问权限（联合身份验证）](/MicrosoftTeams/manage-external-access) | 修改内容 |
-| 3/5/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
-| 3/5/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
-| 3/5/2020 | [使用 Microsoft 团队管理员角色管理团队](/MicrosoftTeams/using-admin-roles) | 修改内容 |
-| 3/5/2020 | [用于采用的工具和下载](/MicrosoftTeams/adopt-tools-and-downloads) | 修改内容 |
-| 3/5/2020 | [Microsoft Teams 用户采用计划\| 最佳做法](/MicrosoftTeams/continue-journey) | 修改内容 |
-| 3/5/2020 | [管理 Microsoft 团队中的标记](/MicrosoftTeams/manage-tags) | 修改内容 |
-| 3/5/2020 | [工具和研讨会 - 规划、交付和采用 Microsoft Teams](/MicrosoftTeams/planning-workshop-practical-guide) | 修改内容 |
-| 3/5/2020 | [在 Microsoft Teams 中创建首批团体](/MicrosoftTeams/teams-adoption-your-first-teams) | 修改内容 |
-| 3/6/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
-| 3/6/2020 | [常见问题解答：支持远程工作人员](/MicrosoftTeams/faq-support-remote-workforce) | 修改内容 |
-| 3/6/2020 | [Microsoft 团队粉笔粉笔](/MicrosoftTeams/chalk-talks-landing-page) | 修改内容 |
-| 3/6/2020 | [直接路由连接模拟设备](/MicrosoftTeams/direct-routing-analog-devices) | 修改内容 |
-| 3/6/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
-| 3/6/2020 | [30个团队](/MicrosoftTeams/teams-in-30-workshops) | 修改内容 |
-| 3/6/2020 | [适用于团队的电话和设备](/MicrosoftTeams/teams-ip-phones) | 修改内容 |
-| 3/6/2020 | [在 Microsoft Teams 中配置实时事件设置](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 修改内容 |
-| 3/6/2020 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
-| 3/6/2020 | [使用 PowerShell 在 Microsoft Teams 中设置实时事件策略](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 修改内容 |
-| 3/6/2020 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改时间 |
-| 3/6/2020 | [Microsoft Teams 实时事件是什么？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 修改内容 |
-| 3/6/2020 | [打开和使用呼叫质量仪表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 修改内容 |
-
-
 ## <a name="week-of-march-09-2020"></a>2020年3月9日的周
 
 
@@ -67,7 +20,7 @@
 | 3/11/2020 | [在 Microsoft Teams 中管理应用权限策略](/MicrosoftTeams/teams-app-permission-policies) | 修改内容 |
 | 3/11/2020 | [在 Microsoft Teams 中管理应用设置策略](/MicrosoftTeams/teams-app-setup-policies) | 修改内容 |
 | 3/11/2020 | [在 Microsoft Teams 中管理自定义应用策略和设置](/MicrosoftTeams/teams-custom-app-policies-and-settings) | 修改内容 |
-| 3/11/2020 | [向 Microsoft 团队中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
+| 3/11/2020 | [向 Microsoft Teams 中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
 | 3/11/2020 | [向学校的大型用户组分配策略](/MicrosoftTeams/batch-policy-assignment-edu) | 修改内容 |
 | 3/12/2020 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
 | 3/12/2020 | [常见问题解答：支持远程工作人员](/MicrosoftTeams/faq-support-remote-workforce) | 修改内容 |
@@ -124,7 +77,7 @@
 | 3/19/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
 | 3/19/2020 | [向学校的大型用户组分配策略](/MicrosoftTeams/batch-policy-assignment-edu) | 修改内容 |
 | 3/19/2020 | [Teams 中的排班](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 修改内容 |
-| 3/20/2020 | [开始使用 Teams 零售模板](/MicrosoftTeams/get-started-with-retail-teams-templates) | 修改时间 |
+| 3/20/2020 | [开始使用 Teams 零售模板](/MicrosoftTeams/get-started-with-retail-teams-templates) | 修改内容 |
 | 3/20/2020 | [通过 Microsoft Endpoint Configuration Manager 使用 MSI 安装 Microsoft Teams](/MicrosoftTeams/msi-deployment) | 修改内容 |
 | 3/20/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
 | 3/20/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
@@ -145,7 +98,7 @@
 | 3/24/2020 | [Microsoft Teams 管理培训](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
 | 3/24/2020 | [经认证可用于直接路由的会话边界控制器列表](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
 | 3/24/2020 | [创建 Microsoft 365 用户、添加商务语音许可证，并分配电话号码](/MicrosoftTeams/business-voice/create-users) | 修改内容 |
-| 3/25/2020 | [Microsoft Teams 的已知问题](/MicrosoftTeams/known-issues) | 修改内容 |
+| 3/25/2020 | [Microsoft Teams 的已知问题](/MicrosoftTeams/known-issues) | 修改时间 |
 | 3/25/2020 | [Microsoft Teams 来宾访问清单](/MicrosoftTeams/guest-access-checklist) | 修改内容 |
 | 3/25/2020 | [管理 Microsoft 团队中的标记](/MicrosoftTeams/manage-tags) | 修改内容 |
 | 3/25/2020 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改日期 |
@@ -158,11 +111,11 @@
 | 3/26/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
 | 3/26/2020 | [打开和使用呼叫质量仪表板](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 修改内容 |
 | 3/26/2020 | [使用 CQD 数据在 Power BI 中查看 Microsoft 团队的利用率](/MicrosoftTeams/cqd-teams-utilization-report) | 修改内容 |
-| 3/26/2020 | [向 Microsoft 团队中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
+| 3/26/2020 | [向 Microsoft Teams 中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
 | 3/26/2020 | [使用新式验证登录 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 修改内容 |
 | 3/26/2020 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
 | 3/26/2020 | [为用户分配、更改或删除电话号码](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 修改内容 |
-| 3/26/2020 | [用户可以向这些国家和地区进行出站呼叫](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 修改时间 |
+| 3/26/2020 | [用户可以向这些国家和地区进行出站呼叫](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 修改内容 |
 | 3/26/2020 | [Microsoft 团队会议室需求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
 | 3/26/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
 | 3/26/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/resources-teams-edu) | 修改内容 |
@@ -182,7 +135,7 @@
 |------|------------|--------|
 | 3/31/2020 | [常见问题解答：支持远程工作人员](/MicrosoftTeams/faq-support-remote-workforce) | 修改内容 |
 | 3/31/2020 | [Microsoft Teams 中的会议](/MicrosoftTeams/tutorial-meetings-in-teams) | 修改内容 |
-| 3/31/2020 | [向 Microsoft 团队中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
+| 3/31/2020 | [向 Microsoft Teams 中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
 | 3/31/2020 | [为用户设置“致电我”功能](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | 修改内容 |
 | 3/31/2020 | [使用 Microsoft Teams 支持远程政府工作者](/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams) | 修改内容 |
 | 3/31/2020 | [适用于医疗保健组织的安全邮件入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 修改内容 |
@@ -218,11 +171,11 @@
 | 4/1/2020 | [Microsoft 团队会议室需求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
 | 4/1/2020 | [版本支持](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 修改内容 |
 | 4/1/2020 | [使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置](/MicrosoftTeams/rooms/xml-config-file) | 修改内容 |
-| 4/1/2020 | [使用 PowerShell 在 Microsoft Teams 中设置实时事件策略](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 修改日期 |
-| 4/1/2020 | [从 SharePoint Online 网站或页面创建团队 "Intranet 门户应用"](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 修改内容 |
+| 4/1/2020 | [使用 PowerShell 在 Microsoft Teams 中设置实时事件策略](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 修改内容 |
+| 4/1/2020 | [从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 修改内容 |
 | 4/2/2020 | [Microsoft Teams for RealWear 客户端 ITAdmin 信息（预览版）](/MicrosoftTeams/flw-realwear) | 修改内容 |
 | 4/2/2020 | [通过 Microsoft Endpoint Configuration Manager 使用 MSI 安装 Microsoft Teams](/MicrosoftTeams/msi-deployment) | 修改内容 |
-| 4/2/2020 | [Microsoft 团队的安全指南](/MicrosoftTeams/teams-security-guide) | 修改内容 |
+| 4/2/2020 | [Microsoft Teams 安全指南](/MicrosoftTeams/teams-security-guide) | 修改内容 |
 | 4/2/2020 | [联系 PSTN 服务支持](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 修改内容 |
 | 4/2/2020 | [使用新式验证登录 Microsoft Teams](/MicrosoftTeams/sign-in-teams) | 修改内容 |
 | 4/2/2020 | [用于测试直接路由会话边框控制器连接的 PowerShell 脚本](/MicrosoftTeams/sip-tester-powershell-script) | 修改内容 |
@@ -237,7 +190,7 @@
 | 4/3/2020 | [SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互](/MicrosoftTeams/sharepoint-onedrive-interact) | 修改时间 |
 | 4/3/2020 | [Microsoft Teams for RealWear 客户端 ITAdmin 信息（预览版）](/MicrosoftTeams/flw-realwear) | 修改内容 |
 | 4/3/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
-| 4/3/2020 | [Microsoft 团队的安全指南](/MicrosoftTeams/teams-security-guide) | 修改内容 |
+| 4/3/2020 | [Microsoft Teams 安全指南](/MicrosoftTeams/teams-security-guide) | 修改内容 |
 | 4/3/2020 | [Microsoft Teams 中的安全性和合规性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
 | 4/3/2020 | [Teams 升级规划研讨会](/MicrosoftTeams/upgrade-workshops-landing-page) | 修改内容 |
 | 4/3/2020 | [Microsoft Teams 管理培训](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
@@ -246,21 +199,21 @@
 | 4/3/2020 | [评估云语音工作负荷的环境](/MicrosoftTeams/3-envision-evaluate-my-environment) | 修改内容 |
 | 4/3/2020 | [环境兼容性-Microsoft 团队](/MicrosoftTeams/environmental-discovery-for-microsoft-teams-rollout) | 修改内容 |
 | 4/3/2020 | [配置 Exchange 混合组织](/MicrosoftTeams/exchange-hybrid-organization) | 修改内容 |
-| 4/3/2020 | [从 Skype for Business 升级到团队常见问题](/MicrosoftTeams/faq-journey) | 修改内容 |
+| 4/3/2020 | [从 Skype for Business 升级到 Teams 的常见问题解答](/MicrosoftTeams/faq-journey) | 修改内容 |
 | 4/3/2020 | [管理员培训资源-Microsoft 团队](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
 | 4/3/2020 | [Office 365 URL 和 IP 地址范围](/MicrosoftTeams/office-365-urls-ip-address-ranges) | 修改内容 |
 | 4/3/2020 | [使用 Office 365 和自定义连接器](/MicrosoftTeams/office-365-custom-connectors) | 修改内容 |
 | 4/3/2020 | [Office 365 组和 Microsoft Teams](/MicrosoftTeams/office-365-groups) | 修改日期 |
-| 4/3/2020 | [打开 Office 365 组织中的团队](/MicrosoftTeams/office-365-set-up) | 修改日期 |
-| 4/3/2020 | [在团队客户端中实现服务质量](/MicrosoftTeams/qos-in-teams-clients) | 修改日期 |
+| 4/3/2020 | [打开 Office 365 组织中的团队](/MicrosoftTeams/office-365-set-up) | 修改内容 |
+| 4/3/2020 | [在团队客户端中实现服务质量](/MicrosoftTeams/qos-in-teams-clients) | 修改内容 |
 | 4/3/2020 | [在 Microsoft Teams 中实施服务质量](/MicrosoftTeams/qos-in-teams) | 修改内容 |
-| 4/3/2020 | [在 Exchange Online 中将团队 SMTP 域作为允许的发件人域添加](/MicrosoftTeams/smtp-accepted-domain) | 修改日期 |
-| 4/3/2020 | [教程：音频会议-Microsoft 团队](/MicrosoftTeams/tutorial-audio-conferencing) | 修改日期 |
+| 4/3/2020 | [在 Exchange Online 中将团队 SMTP 域作为允许的发件人域添加](/MicrosoftTeams/smtp-accepted-domain) | 修改内容 |
+| 4/3/2020 | [教程：音频会议-Microsoft 团队](/MicrosoftTeams/tutorial-audio-conferencing) | 修改内容 |
 | 4/3/2020 | [合规性声明-法国](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | 修改内容 |
-| 4/3/2020 | [Skype for Business Online 和 Microsoft Teams 辅助功能解决方案](/MicrosoftTeams/accessibility-solutions-in-france) | 修改日期 |
+| 4/3/2020 | [Skype for Business Online 和 Microsoft Teams 辅助功能解决方案](/MicrosoftTeams/accessibility-solutions-in-france) | 修改内容 |
 | 4/3/2020 | [添加、更改、删除紧急位置](/MicrosoftTeams/add-change-remove-emergency-location-organization) | 修改内容 |
-| 4/3/2020 | [添加、更改、删除紧急位置的位置](/MicrosoftTeams/add-change-remove-emergency-place-organization) | 修改日期 |
-| 4/3/2020 | [向团队添加来宾](/MicrosoftTeams/add-guests) | 修改日期 |
+| 4/3/2020 | [添加、更改、删除紧急位置的位置](/MicrosoftTeams/add-change-remove-emergency-place-organization) | 修改内容 |
+| 4/3/2020 | [向团队添加来宾](/MicrosoftTeams/add-guests) | 修改时间 |
 | 4/3/2020 | [应答自动助理和呼叫队列呼叫](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 修改内容 |
 | 4/3/2020 | [AppLocker 控件策略](/MicrosoftTeams/applocker-in-teams) | 修改内容 |
 | 4/3/2020 | [为用户分配或更改紧急位置](/MicrosoftTeams/assign-change-emergency-location-user) | 修改内容 |
@@ -288,29 +241,29 @@
 | 4/3/2020 | [国家/地区可用性-音频会议、通话计划](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 修改内容 |
 | 4/3/2020 | [对这些国家/地区进行出站通话](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 修改内容 |
 | 4/3/2020 | [数据收集做法](/MicrosoftTeams/data-collection-practices) | 修改内容 |
-| 4/3/2020 | [配置音频会议设置-Microsoft 团队](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 修改内容 |
+| 4/3/2020 | [配置音频会议设置 - Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page) | 修改内容 |
 | 4/3/2020 | [从会议拨出，以便其他人可以加入](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it) | 修改内容 |
-| 4/3/2020 | [用于呼叫计划的电话号码的类型](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | 修改日期 |
+| 4/3/2020 | [用于呼叫计划的电话号码的类型](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | 修改内容 |
 | 4/3/2020 | [尺寸和测量-通话质量仪表板](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 修改内容 |
-| 4/3/2020 | [为直接路由认证的会话边框控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改日期 |
+| 4/3/2020 | [为直接路由认证的会话边框控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
 | 4/3/2020 | [规划直接路由](/MicrosoftTeams/direct-routing-plan) | 修改日期 |
 | 4/3/2020 | [配置会话边界控制器-多个租户](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 修改内容 |
-| 4/3/2020 | [混合环境中的用户帐户与 PSTN](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 修改日期 |
-| 4/3/2020 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改日期 |
-| 4/3/2020 | [用户设置更改时向其发送的电子邮件](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | 修改日期 |
-| 4/3/2020 | [紧急呼叫免责声明标签](/MicrosoftTeams/emergency-calling-labels) | 修改日期 |
-| 4/3/2020 | [管理你的组织的设置](/MicrosoftTeams/enable-features-office-365) | 修改日期 |
-| 4/3/2020 | [音频会议设置更改时的电子邮件选项](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | 修改日期 |
-| 4/3/2020 | [允许用户记录其会议名称](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | 修改日期 |
-| 4/3/2020 | [增强现有 Office 365 组](/MicrosoftTeams/enhance-office-365-groups) | 修改日期 |
-| 4/3/2020 | [云语音部署指导委员会](/MicrosoftTeams/envision-steering-committee-complete-guide) | 修改日期 |
-| 4/3/2020 | [在组织中推广 Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 修改日期 |
-| 4/3/2020 | [患者应用和 EHR 集成 DSTU2 界面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 修改日期 |
+| 4/3/2020 | [混合环境中的用户帐户与 PSTN](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 修改内容 |
+| 4/3/2020 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
+| 4/3/2020 | [用户设置更改时向其发送的电子邮件](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | 修改内容 |
+| 4/3/2020 | [紧急呼叫免责声明标签](/MicrosoftTeams/emergency-calling-labels) | 修改内容 |
+| 4/3/2020 | [管理组织设置](/MicrosoftTeams/enable-features-office-365) | 修改内容 |
+| 4/3/2020 | [音频会议设置更改时的电子邮件选项](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | 修改内容 |
+| 4/3/2020 | [允许用户记录其会议名称](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | 修改内容 |
+| 4/3/2020 | [增强现有 Office 365 组](/MicrosoftTeams/enhance-office-365-groups) | 修改内容 |
+| 4/3/2020 | [云语音部署指导委员会](/MicrosoftTeams/envision-steering-committee-complete-guide) | 修改内容 |
+| 4/3/2020 | [在组织中推广 Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 修改内容 |
+| 4/3/2020 | [患者应用和 EHR 集成 DSTU2 界面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 修改内容 |
 | 4/3/2020 | [医疗保健组织的模板](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | 修改内容 |
-| 4/3/2020 | [面向医疗保健组织的安全消息](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 修改日期 |
-| 4/3/2020 | [患者应用概述](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 修改日期 |
-| 4/3/2020 | [患者应用和 EHR 集成 STU3 界面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 修改日期 |
-| 4/3/2020 | [管理你的组织的倒班应用](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 修改日期 |
+| 4/3/2020 | [面向医疗保健组织的安全消息](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | 修改内容 |
+| 4/3/2020 | [患者应用概述](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 修改内容 |
+| 4/3/2020 | [患者应用和 EHR 集成 STU3 界面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 修改内容 |
+| 4/3/2020 | [管理你的组织的倒班应用](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 修改内容 |
 | 4/3/2020 | [Microsoft StaffHub 将停用](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | 修改日期 |
 | 4/3/2020 | [将 StaffHub 团队移动到倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | 修改内容 |
 | 4/3/2020 | [计划将 StaffHub 团队移动到倒班](/MicrosoftTeams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams) | 修改内容 |
@@ -323,15 +276,15 @@
 | 4/3/2020 | [标识模型和身份验证](/MicrosoftTeams/identify-models-authentication) | 修改内容 |
 | 4/3/2020 | [打开内联消息转换](/MicrosoftTeams/inline-message-translation-teams) | 修改内容 |
 | 4/3/2020 | [安装与 Microsoft 团队的 Moodle 集成](/MicrosoftTeams/install-moodle-integration) | 修改内容 |
-| 4/3/2020 | [面向用户的讲师指导培训和视频](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修改内容 |
-| 4/3/2020 | [管理商业云试用版优惠](/MicrosoftTeams/iw-trial-teams) | 修改内容 |
+| 4/3/2020 | [面向用户的讲师引导式培训和视频](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 修改内容 |
+| 4/3/2020 | [管理 Commercial Cloud Trial 产品](/MicrosoftTeams/iw-trial-teams) | 修改内容 |
 | 4/3/2020 | [添加和更新报告标签](/MicrosoftTeams/learn-more-about-site-upload) | 修改内容 |
 | 4/3/2020 | [配置网络设置-基于位置的路由](/MicrosoftTeams/location-based-routing-configure-network-settings) | 修改内容 |
 | 4/3/2020 | [在 Microsoft 团队管理中心中管理你的应用](/MicrosoftTeams/manage-apps) | 修改内容 |
 | 4/3/2020 | [设置和管理渠道裁决](/MicrosoftTeams/manage-channel-moderation-in-teams) | 修改内容 |
 | 4/3/2020 | [管理紧急呼叫路由策略](/MicrosoftTeams/manage-emergency-call-routing-policies) | 修改内容 |
 | 4/3/2020 | [管理外部访问权限（联盟）](/MicrosoftTeams/manage-external-access) | 修改内容 |
-| 4/3/2020 | [在 Microsoft Teams 中管理来宾访问](/MicrosoftTeams/manage-guests) | 修改日期 |
+| 4/3/2020 | [在 Microsoft Teams 中管理来宾访问](/MicrosoftTeams/manage-guests) | 修改内容 |
 | 4/3/2020 | [管理转换到新团队管理中心的团队](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 修改内容 |
 | 4/3/2020 | [管理用户的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | 修改内容 |
 | 4/3/2020 | [管理音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 修改内容 |
@@ -358,7 +311,7 @@
 | 4/3/2020 | [工作组或 Skype for business 中的反馈调查](/MicrosoftTeams/prepare-my-users-feedback-templates) | 修改内容 |
 | 4/3/2020 | [为 Teams 准备贵组织的网络](/MicrosoftTeams/prepare-network) | 修改内容 |
 | 4/3/2020 | [Microsoft Teams 体验质量概述指南](/MicrosoftTeams/quality-of-experience-review-guide) | 修改内容 |
-| 4/3/2020 | [在 Microsoft Teams 中重置用户的会议 ID](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | 修改内容 |
+| 4/3/2020 | [在 Microsoft Teams 中重置用户的会议 ID](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | 修改时间 |
 | 4/3/2020 | [通过 Azure 监视器部署 Microsoft 团队聊天室管理](/MicrosoftTeams/rooms/azure-monitor-deploy) | 修改内容 |
 | 4/3/2020 | [通过 Azure 监视器管理 Microsoft 团队聊天室设备](/MicrosoftTeams/rooms/azure-monitor-manage) | 修改内容 |
 | 4/3/2020 | [通过 Azure 监视器规划 Microsoft 团队聊天室管理](/MicrosoftTeams/rooms/azure-monitor-plan) | 修改内容 |
@@ -379,7 +332,7 @@
 | 4/3/2020 | [为用户设置来电显示](/MicrosoftTeams/set-the-caller-id-for-a-user) | 修改内容 |
 | 4/3/2020 | [设置包含在邀请中的电话号码](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 修改内容 |
 | 4/3/2020 | [设置音频会议的 PIN 长度](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | 修改内容 |
-| 4/3/2020 | [设置通话套餐](/MicrosoftTeams/set-up-calling-plans) | 修改内容 |
+| 4/3/2020 | [设置通话套餐](/MicrosoftTeams/set-up-calling-plans) | 修改时间 |
 | 4/3/2020 | [设置通用区域电话许可证](/MicrosoftTeams/set-up-common-area-phones) | 修改内容 |
 | 4/3/2020 | [为用户设置“致电我”功能](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | 修改内容 |
 | 4/3/2020 | [使用现代身份验证登录到 Teams](/MicrosoftTeams/sign-in-teams) | 修改内容 |
@@ -399,7 +352,7 @@
 | 4/3/2020 | [使用 PowerShell 设置实时事件策略](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 修改内容 |
 | 4/3/2020 | [在 Microsoft Teams 中为实时事件进行设置](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 修改时间 |
 | 4/3/2020 | [免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | 修改内容 |
-| 4/3/2020 | [阿根廷的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | 修改日期 |
+| 4/3/2020 | [阿根廷的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | 修改内容 |
 | 4/3/2020 | [澳大利亚免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia) | 修改内容 |
 | 4/3/2020 | [白俄罗斯的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus) | 修改内容 |
 | 4/3/2020 | [比利时的免费拨号限制](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium) | 修改内容 |
@@ -450,3 +403,53 @@
 | 4/3/2020 | [将本地 Skype for Business 升级到 Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonpremises) | 修改内容 |
 | 4/3/2020 | [为升级到团队准备用户准备情况计划](/MicrosoftTeams/upgrade-user-readiness) | 修改内容 |
 | 4/3/2020 | [规划和管理紧急呼叫](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 修改内容 |
+
+
+## <a name="week-of-april-06-2020"></a>2020年4月6日
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 4/7/2020 | [适用于 Microsoft Teams 的 Office 365 许可](/MicrosoftTeams/office-365-licensing) | 修改内容 |
+| 4/7/2020 | [免费升级 Office 365 订阅的 Microsoft 团队](/MicrosoftTeams/upgrade-freemium) | 修改内容 |
+| 4/7/2020 | [使用 Power BI 分析 Microsoft 团队的 CQD 数据](/MicrosoftTeams/cqd-power-bi-query-templates) | 修改内容 |
+| 4/7/2020 | [Microsoft Teams 中的聊天、团队、频道和应用](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 修改内容 |
+| 4/7/2020 | [配置直接路由](/MicrosoftTeams/direct-routing-configure) | 修改内容 |
+| 4/7/2020 | [在 Microsoft 团队管理中心中管理你的应用](/MicrosoftTeams/manage-apps) | 修改内容 |
+| 4/7/2020 | [管理 Microsoft Teams 的免费版本](/MicrosoftTeams/manage-freemium) | 修改内容 |
+| 4/7/2020 | [管理员快速入门 - Microsoft Teams 中的会议和实时事件](/MicrosoftTeams/quick-start-meetings-live-events) | 修改内容 |
+| 4/7/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
+| 4/7/2020 | [Microsoft Teams 使用情况报告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 修改日期 |
+| 4/7/2020 | [Microsoft Teams 安全指南](/MicrosoftTeams/teams-security-guide) | 修改内容 |
+| 4/7/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 4/7/2020 | [组织团队的最佳做法](/MicrosoftTeams/best-practices-organizing) | 修改内容 |
+| 4/7/2020 | [创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 4/8/2020 | [Exchange 与 Microsoft Teams 如何交互](/MicrosoftTeams/exchange-teams-interact) | 修改时间 |
+| 4/8/2020 | [教程：音频会议-Microsoft 团队](/MicrosoftTeams/tutorial-audio-conferencing) | 修改内容 |
+| 4/8/2020 | [Microsoft Teams 中的会议](/MicrosoftTeams/tutorial-meetings-in-teams) | 修改内容 |
+| 4/8/2020 | [应答自动助理和呼叫队列呼叫](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 修改内容 |
+| 4/8/2020 | [Microsoft Teams 中的会议](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 修改内容 |
+| 4/8/2020 | [联系 PSTN 服务支持](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | 修改内容 |
+| 4/8/2020 | [管理组织的电话号码](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 修改内容 |
+| 4/8/2020 | [在 Teams 中管理资源帐户](/MicrosoftTeams/manage-resource-accounts) | 修改内容 |
+| 4/8/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 4/8/2020 | [版本支持](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 修改内容 |
+| 4/8/2020 | [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改日期 |
+| 4/8/2020 | [Microsoft 365 电话系统-虚拟用户许可证](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 修改内容 |
+| 4/8/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/resources-teams-edu) | 修改内容 |
+| 4/9/2020 | [为一线工作人员大规模预配 Microsoft Teams](/MicrosoftTeams/flw-scripted-deployment) | 修改内容 |
+| 4/9/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 4/9/2020 | [安全性和合规性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
+| 4/9/2020 | [从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 修改内容 |
+| 4/9/2020 | [创建呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue) | 修改内容 |
+| 4/9/2020 | [Microsoft Teams 安全指南](/MicrosoftTeams/teams-security-guide) | 修改内容 |
+| 4/9/2020 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 4/9/2020 | [管理 Microsoft 团队中的标记](/MicrosoftTeams/manage-tags) | 修改内容 |
+| 4/10/2020 | [安装 Power BI Connector 以使用 CQD 查询模板](/MicrosoftTeams/cqd-power-bi-connector) | 修改内容 |
+| 4/10/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/remote-learning-edu) | 修改内容 |
+| 4/10/2020 | [发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
+| 4/10/2020 | [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) | 修改日期 |
+| 4/10/2020 | [安全性和合规性概述](/MicrosoftTeams/security-compliance-overview) | 修改内容 |
+| 4/10/2020 | [为一线工作人员大规模预配 Microsoft Teams](/MicrosoftTeams/flw-scripted-deployment) | 修改内容 |
+| 4/10/2020 | [什么是转网订单？](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 修改内容 |
+| 4/10/2020 | [将电话号码转移到 Microsoft 团队](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 修改内容 |
