@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 2fd1b76b1aaed68cd0c9ce61fe6d6a408a2fd296
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42573999"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240592"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -93,6 +93,7 @@ ms.locfileid: "42573999"
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -103,13 +104,14 @@ ms.locfileid: "42573999"
                     </div>
                     <div class="cardText">
                         <h3>如何为一线工作者服务启用团队</h3>
-                        <p><font color="red"><i>即将推出！</i></font> 准备开始为您的一线劳动力启用数字工作区？ 我们将讨论启动试验以增强沟通、员工参与和运营生产力的最佳做法。</p>
+                        <p>准备开始为您的一线劳动力启用数字工作区？ 我们将讨论启动试验以增强沟通、员工参与和运营生产力的最佳做法。</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksQuality"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,8 +121,8 @@ ms.locfileid: "42573999"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>了解团队中的新增功能</h3>
-                        <p><font color="red"><i>即将推出！</i></font>  您是否正在等待某个功能在团队中发布？ 与团队专家进行交互，因为我们将指导你完成上个月的最新功能和最新功能发布，以及实施它们的最佳做法。</p>
+                        <h3>收取 AV 质量体验</h3>
+                        <p>您是否希望确保用户在团队中有会议和语音功能方面的最佳体验？ 在此会话期间，我们将讨论工具、报告和最佳做法，以帮助你管理&mdash;服务质量，让你能够在出现问题时建立一个主动预防性战略来解决常见问题。</p>
                     </div>
                 </div>
             </div>

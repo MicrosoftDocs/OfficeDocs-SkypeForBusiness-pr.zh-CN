@@ -18,18 +18,21 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中设置用于裁决的频道，包括如何将团队成员添加为渠道审阅者。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 128676bbe4ec27300013836425bf221e3de10f9b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136802"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240612"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在 Microsoft 团队中设置和管理渠道裁决
 
-在 Microsoft 团队中，团队所有者可以为频道启用裁决，以控制哪些人可以开始新文章以及答复该频道中的帖子。
+在 Microsoft 团队中，团队所有者可以为标准频道启用裁决，以控制哪些人可以开始新文章以及答复该频道中的帖子。
 
 团队所有者还可以将团队成员添加为审阅人。 团队所有者可能在频道级别没有主题专业知识，以获得最佳支持渠道裁决。 通过允许特定团队成员来安排频道，管理频道中的内容和上下文的责任由团队所有者和渠道审阅者共享。 例如，团队所有者可以将企业所有者或内容所有者添加为审阅者，从而使他们可以控制该频道中的信息共享。
+
+> [!NOTE]
+> 目前，渠道裁决适用于标准频道。 它不适用于专用频道。
 
 ## <a name="what-can-a-channel-moderator-do"></a>频道审查方可以执行哪些操作？
 

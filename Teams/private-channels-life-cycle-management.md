@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理组织中专用频道的生命周期。
-ms.openlocfilehash: 317cded1be30beac8fefbb579d5f0c24258f2fa1
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637199"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240632"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 团队中管理专用频道的生命周期
 
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>查找团队中所有专用通道的 SharePoint Url
 
-无论您是要针对专用频道中的文件执行电子数据展示或法律封存，还是希望构建一种在特定专用通道中放置文件的业务线应用，您将需要一种方法来查询为其创建的唯一 SharePoint 网站集每个专用频道。
+无论是要针对专用频道中的文件执行电子数据展示或法律封存，还是希望构建一种在特定专用通道中放置文件的业务线应用，您都需要一种方法来查询为每个专用通道创建的唯一 SharePoint 网站集。
 
 作为管理员，你可以使用 PowerShell 或图形 Api 命令查询这些 Url。
 
@@ -271,7 +271,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ### <a name="install-the-latest-teams-powershell-module-from-the-powershell-test-gallery"></a>从 PowerShell 测试库安装最新团队 PowerShell 模块
 
-团队 PowerShell 模块的最新公开可用版本（当前[1.0.3](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.3)）不支持管理专用通道。 使用以下步骤，使用 PowerShell 测试库中的专用通道支持（当前1.0.18）来安装最新版本的团队 PowerShell 模块。
+团队 PowerShell 模块的最新公开可用版本（当前[1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5)）不支持管理专用通道。 使用以下步骤，使用 PowerShell 测试库中的专用通道支持（当前1.0.21）来安装最新版本的团队 PowerShell 模块。
 
 > [!NOTE]
 > 不要使用来自公共 PowerShell 库的模块版本并排从 PowerShell 测试库中安装团队 PowerShell 模块。 按照以下步骤，首先从公共 PowerShell 库中卸载团队 PowerShell 模块，然后从 PowerShell 测试库中安装最新版本的模块。
@@ -324,7 +324,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
-- [使用 Microsoft Graph API 与团队协作](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+- [将 Microsoft Graph API 与 Teams 结合使用](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
     - [列出频道](https://docs.microsoft.com/graph/api/channel-list)
     - [创建频道](https://docs.microsoft.com/graph/api/channel-post)
     - [向频道添加成员](https://docs.microsoft.com/graph/api/conversationmember-add)
