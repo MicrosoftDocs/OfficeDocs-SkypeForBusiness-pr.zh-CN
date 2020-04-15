@@ -17,12 +17,12 @@ f1.keywords:
 description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 2a8775722daa5cd6fc236933fc0e0fd8bad1213a
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096617"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505529"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 
@@ -296,13 +296,6 @@ ms.locfileid: "43096617"
 |**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
 |:-----|:-----|:-----|:-----|
 |电话号码被阻止：|电话号码被阻止：在删除电话号码前删除资源帐户将会导致相应电话号码被阻止。|请与 Microsoft 支持人员联系，以解禁相应电话号码。|2019 年 5 月 18 日|
-
-## <a name="presence"></a>状态
-|**问题标题**|**行为/症状**|**已知解决方法**|**发现日期**|
-|:-----|:-----|:-----|:-----|
-|当用户移至“仅 Teams”**** 模式后，Outlook 和其他 Office 应用程序中的状态未显示。 <br/> |如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。  <br/> |要在 Outlook（和其他 Office 应用程序）中查看状态，即使是在“仅 Teams”**** 模式下运行 Teams，也必须安装 Skype for Business。 Microsoft 已发现此问题且正在开发修补程序。  <br/> |2019 年 9 月  <br/> |
-
-
 
 ## <a name="provisioning"></a>预配
 

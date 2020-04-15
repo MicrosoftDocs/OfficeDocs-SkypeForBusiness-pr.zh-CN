@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: 了解如何配置 Microsoft 团队聊天室的新式验证
-ms.openlocfilehash: bef547ab0b9ade2edc433ec64bb1ef61eee4c040
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: ee95de457d5af82fb68acb4fd79b6b5a5a3a7ed0
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160107"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505609"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft 团队聊天室中的身份验证
 
@@ -33,7 +33,7 @@ Microsoft 团队聊天室版本4.4.25.0 及更高版本支持新式身份验证�
 
 将新式验证用于 Microsoft 团队聊天室应用程序时，将使用 Active Directory 身份验证库（ADAL）连接到 Microsoft 团队、Exchange 和 Skype for business。 Microsoft 团队聊天室设备是一种共享设备，执行夜间重启，以确保正常运行，并获取关键操作系统、驱动程序、固件或应用程序更新。 新式身份验证机制使用 OAuth 2.0 中的[资源所有者密码凭据](https://tools.ietf.org/html/rfc6749#section-1.3.3)授权授权类型，而不需要任何用户干预。 这是现代身份验证对用户帐户和 Microsoft 团队聊天室应用程序使用的资源帐户之间的主要差异之一。 因此，Microsoft 团队室资源帐户不应配置为使用多重身份验证（MFA）、智能卡身份验证或基于客户证书的身份验证（它们均适用于最终用户）。
 
-新式身份验证在 Microsoft 团队聊天室设备和最终用户设备上的工作方式之间的其他主要区别是，你无法使用资源帐户应用设备级别的条件访问策略，例如 "需要设备标记为投诉" 或 "需要混合的 Azure AD 已加入设备" 等。 这是因为设备级概念在应用程序级别使用时不适用于新式身份验证。 而是可以在 Microsoft Intune 中注册设备，并通过使用[本指南来](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)应用合规性策略。
+新式身份验证在 Microsoft 团队聊天室设备和最终用户设备上的工作方式之间的其他主要区别是，你无法使用资源帐户应用设备级别的条件访问策略，例如 "需要设备标记为合规" 或 "需要混合的 Azure AD 已加入设备" 等。 这是因为设备级概念在应用程序级别使用时不适用于新式身份验证。 相反，你可以在 Microsoft Intune 中注册设备，并使用使用[Intune 管理团队](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)会议室中提供的指南来应用合规性策略。
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>在 Microsoft 团队聊天室设备上启用新式验证
 
@@ -73,7 +73,7 @@ Microsoft 团队聊天室版本4.4.25.0 及更高版本支持新式身份验证�
 
 ## <a name="hybrid-modern-authentication"></a>混合新式身份验证
 
-若要确保你的内部部署 Exchange server 和/或 Skype for Business 服务器的身份验证成功，必须确保将用于 Microsoft 团队聊天室的资源帐户配置为从 Azure AD 获取授权。 若要了解有关适用于你的组织的混合标识和方法的详细信息，请阅读以下主题： 
+若要确保对本地 Exchange server 和/或 Skype for business 服务器的身份验证成功，必须确保将用于 Microsoft 团队聊天室的资源帐户配置为从 Azure AD 获取授权。 若要了解有关适用于你的组织的混合标识和方法的详细信息，请阅读以下主题： 
 
 - [什么是密码哈希同步？](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)
 - [什么是直通身份验证？](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta)
@@ -83,13 +83,13 @@ Microsoft 团队聊天室版本4.4.25.0 及更高版本支持新式身份验证�
 
 在混合拓扑中启用新式身份验证的先决条件属于[混合新式身份验证概述以及将其与本地 Skype For business 和 Exchange 服务器配合使用的先决条件](https://docs.microsoft.com/office365/enterprise/hybrid-modern-auth-overview)。 本文中讨论的所有先决条件均适用。
 
-但是，由于 Microsoft 团队聊天室使用[资源所有者密码凭据](https://tools.ietf.org/html/rfc6749#section-1.3.3)授权和基础 REST api 进行新式身份验证，因此下面的重要差异是特定于 Microsoft 团队聊天室的。
+但是，由于 Microsoft 团队聊天室使用[资源所有者密码凭据](https://tools.ietf.org/html/rfc6749#section-1.3.3)授权和基础 REST api 进行新式身份验证，因此以下是特定于 Microsoft 团队聊天室的重要差异。
 
-- 您必须拥有 Exchange server 2016 CU8 或更高版本，或者 Exchange Server 2019 CU1 或更高版本。
+- 您必须拥有 Exchange Server 2016 CU8 或更高版本，或者 Exchange Server 2019 CU1 或更高版本。
 - 您必须拥有 Skype for business Server 2015 CU5 或更高版本，或者使用 Skype for business Server 2019 或更高版本。
 - 不支持 MFA，无论你有何种拓扑。
 - 如果你使用的第三方身份验证提供程序由 Azure AD 支持，则它必须支持 OAuth 并使用资源所有者密码凭据授权。
-- 不要对使用应用程序配置的资源帐户使用设备级条件访问策略。 这样做将导致登录失败。 请改为在 Microsoft Intune 中注册设备，并使用[此处](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)发布的指南应用合规性策略。
+- 不要对使用应用程序配置的资源帐户使用设备级条件访问策略。 这样做将导致登录失败。 而是在 Microsoft Intune 中注册一个设备，并使用使用[Intune 管理团队](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)会议室中发布的指南来应用合规性策略。
 
 ### <a name="configure-exchange-server"></a>配置 Exchange Server
 
@@ -107,4 +107,4 @@ Microsoft 团队聊天室版本4.4.25.0 及更高版本支持新式身份验证�
 
 你可以为基于 IP/位置的访问配置 Microsoft 团队聊天室使用的资源帐户。 若要了解详细信息，请参阅[条件访问：通过位置阻止访问](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)。
 
-不支持任何其他条件访问策略。 有关设备合规性的详细信息，请参阅[此处](https://techcommunity.microsoft.com/t5/intune-customer-success/bg-p/IntuneCustomerSuccess)的指南。  
+不支持任何其他条件访问策略。 有关设备合规性的详细信息，请参阅[用 Intune 管理团队会议室](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。  

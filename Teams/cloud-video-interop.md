@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046495"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505639"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
@@ -43,6 +43,12 @@ ms.locfileid: "42046495"
 - 希望在迁移到本机 Microsoft 团队解决方案的过程中保留其在当前会议室设备和个人视频设备中的投资值
 
 虽然云视频互操作提供出色的中间解决方案，但我们鼓励我们的客户查看我们的本机团队会议解决方案，例如团队房间系统。 
+
+### <a name="office-365-us-government-and-third-party-services"></a>Office 365 美国政府和第三方服务
+
+Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站、Skype for Business、团队和 Office 365 专业增强版中包含的 Office 应用程序（如 Word、Excel、PowerPoint 和 Outlook）和 Outlook Web App 的功能。 此外，Office 365 支持与第三方服务提供商的集成。 这些第三方应用程序和服务可能涉及在 Office 365 基础结构之外的第三方系统上存储、传输和处理你的组织的客户数据，因此不受 Office 365 合规性和数据保护承诺的覆盖。 **建议你查看由第三方提供的隐私和合规声明，以便在评估你的组织的相应服务时使用。**
+
+
 
 ### <a name="partners-certified-for-microsoft-teams"></a>面向 Microsoft 团队认证的合作伙伴
 
@@ -87,7 +93,7 @@ ms.locfileid: "42046495"
 
 ### <a name="schedule"></a>安排
 
-为用户启用云视频互操作后，使用 Outlook 或团队客户端的团队会议加载项安排的任何会议都将自动添加到 "团队会议" 中的相应附加信息，以便该云视频互操作兼容的设备可以加入这些会议。
+为用户启用云视频互操作后，使用 Outlook 或团队客户端的团队会议加载项安排的任何会议都将自动添加到团队会议中，以便与云视频互操作兼容的设备可以加入这些会议。
 
 ### <a name="join"></a>Join
 

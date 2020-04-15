@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: eff5b3e7d29715714513e7c627a1611f6733b70f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43159293"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43508623"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -225,7 +225,7 @@ ms.locfileid: "43159293"
 >    - 手机/MobilePhone
 >    - TelephoneNumber/电话号码
 >    - OtherTelephone
->- 在 "用户电话号码" 字段中输入扩展名所需的格式是 " `+<phonenumber>;ext=<extension>`或`x<extension>`"。
+>- 在 "用户电话号码" 字段中输入扩展名所需的格式是`+<phonenumber>;ext=<extension>` " `x<extension>`或"。
 >- 当前不支持在团队管理中心中分配扩展。 你必须使用[MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell 命令或 Microsoft 365 管理中心。
 >- 在对 AAD 电话号码和 MobilePhone 属性的更改可用之前，最多可能需要12小时。
 >- 请不要为用户的 LineUri 定义扩展名。 目前不支持这种情况。

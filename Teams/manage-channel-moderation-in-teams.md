@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中设置用于裁决的频道，包括如何将团队成员添加为渠道审阅者。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 77622bd2920ce0453d6ccbdbeb55696fc2925271
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240612"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505599"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在 Microsoft 团队中设置和管理渠道裁决
 
@@ -32,7 +32,7 @@ ms.locfileid: "43240612"
 团队所有者还可以将团队成员添加为审阅人。 团队所有者可能在频道级别没有主题专业知识，以获得最佳支持渠道裁决。 通过允许特定团队成员来安排频道，管理频道中的内容和上下文的责任由团队所有者和渠道审阅者共享。 例如，团队所有者可以将企业所有者或内容所有者添加为审阅者，从而使他们可以控制该频道中的信息共享。
 
 > [!NOTE]
-> 目前，渠道裁决适用于标准频道。 它不适用于专用频道。
+> 频道裁决适用于标准频道。 它不适用于常规频道或专用频道。
 
 ## <a name="what-can-a-channel-moderator-do"></a>频道审查方可以执行哪些操作？
 
@@ -54,7 +54,7 @@ ms.locfileid: "43240612"
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>在教育团队中使用渠道进行课堂讨论
 
-在 "教育团队" 中，一位科学老师希望使用频道在特定教室主题的重点讨论中吸引学生。
+在 "教育团队" 中，一位科学老师希望使用频道让学生参与特定教室主题的重点讨论。
 
 在这种情况下，教师可以通过 "教学助手" 来使频道适中。 然后，"教学助手" 可以创建新的文章来启动和推动与学生进行讨论。
 

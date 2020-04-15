@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102363"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505619"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -55,6 +55,7 @@ ms.locfileid: "43102363"
 - Teams 会议中启用屏幕共享（*TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*）。
 - Teams 中启用实时会议安排（*TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling 参数 = True*）。
 - 使用 Stream 创建实时事件的权限（适用于外部应用或设备制作）。
+- 已配置为能够安排团队会议的共存模式（*仅限岛、会议优先或团队*会议）。
 
 > [!IMPORTANT]
 > 未经身份验证的匿名用户不能被邀请为 Teams 实时 事件中的“制作者”或“演示者”。 
@@ -70,8 +71,6 @@ ms.locfileid: "43102363"
 |指定组/人员      |  是            |  是                 |
 
 只有<sup>1</sup>个联盟的与会者才能通过 & 组的人员进行邀请 <br>
-
-
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 实时事件和Skype 会议直播
 
@@ -132,4 +131,3 @@ ms.locfileid: "43102363"
 - [什么是 Teams 实时事件？](what-are-teams-live-events.md)
 - [设置 Teams 实时事件](set-up-for-teams-live-events.md)
 - [配置 Teams 实时事件设置](configure-teams-live-events.md)
-
