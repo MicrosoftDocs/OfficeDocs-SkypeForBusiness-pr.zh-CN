@@ -16,19 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea756b24a0292a35d4e47252383bfc954fcb8fa7
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: ab24c6ee27f3e99a30a18af82f0a26196a049528
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096967"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510771"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
 状态是 Microsoft 团队（以及整个 Office 365）中的用户配置文件的一部分，用于指示用户的当前可用性和其他用户的状态。 默认情况下，使用 Teams 的组织中的任何人都可以（几乎实时）查看其他用户是否在线。
-
-> [!IMPORTANT]
-> 如果在将用户移动到“仅 Teams”**** 模式后卸载 Skype for Business 客户端，则在 Outlook 和其他 Office 应用程序中，状态将停止工作。 状态在 Teams 中显示良好。 解决方法：若要在 Outlook（和其他 Office 应用）中查看状态，必须安装 Skype for Business，即使是在“仅 Teams”**** 模式下运行 Teams，也不例外。 Microsoft 已发现此问题，并正在着手修复它。
 
 Outlook 2013 桌面应用及更高版本支持 Outlook 中的 Teams 状态。
 

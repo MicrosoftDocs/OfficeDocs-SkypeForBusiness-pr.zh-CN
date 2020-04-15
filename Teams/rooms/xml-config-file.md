@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160066"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510761"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
 
@@ -39,12 +39,12 @@ ms.locfileid: "43160066"
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
+        <ModernAuthEnabled>false</ModernAuthEnabled>
         <DomainUsername>Seattle\RanierConf</DomainUsername>
         <Password>password</Password>
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
-    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -85,14 +85,14 @@ ms.locfileid: "43160066"
 |\<HideMeetingName\> |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则隐藏会议名称。 |
 |\<UserAccount\> |容器 |第一 &#x2776;  |凭据参数的容器。 登录地址、Exchange 地址或电子邮件地址通常相同，例如 RanierConf<span></span>@contoso .com。 |
 |\<SkypeMeetingsEnabled\>  |布尔 &#x2777;  |第一 &#x2776;  |默认为启用。 |
-|\<SkypeSignInAddress\> |字符串 &#x2778;  ||该控制台的 SfB 或团队设备帐户的登录名。 |
+|\<SkypeSignInAddress\> |字符串 &#x2778;  ||控制台的 SfB 或团队设备帐户的登录名。 |
 |\<ExchangeAddress\> |字符串 &#x2778;  ||控制台的 Exchange 设备帐户的登录名。 如果省略 ExchangeAddress，则不会自动重复使用 SkypeSignInAddress。 |
+|\<ModernAuthEnabled> |布尔 &#x2777;  |  |默认情况下处于禁用状态。 <br/> <br/>当设置为 true 时，Microsoft 团队聊天室应用程序仅使用新式身份验证连接到资源，不会回退到基本身份验证。|
 |\<DomainUsername\> |字符串 &#x2778;  ||控制台设备的域和用户名，例如 Seattle\RanierConf。 |
 |\<口令\> |String 3  || 密码参数是用于 Skype for Business 设备帐户登录的相同密码。  |
 | \<ConfigureDomain\>  |字符串 &#x2778;  ||你可以列出多个域，以逗号分隔。 |
 |\<TeamsMeetingsEnabled\> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 <br/> <br/> 如果\<SkypeMeetingsEnabled\>和\<TeamsMeetingsEnabled\>都被禁用，XML 文件的格式不正确，但可接受同时启用这两个设置。 |
 |\<IsTeamsDefaultClient> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 |
-|\<ModernAuthEnabled> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 <br/> <br/>当设置为 true 时，Microsoft 团队聊天室应用程序仅使用新式身份验证连接到资源，不会回退到基本身份验证。|
 |\<BluetoothAdvertisementEnabled> |布尔 &#x2777;  |第一 &#x2776;  |默认为启用。 |
 |\<DualScreenMode\>  |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则启用双屏幕模式。 否则，设备使用单一屏幕模式。 |
 | \<DuplicateIngestDefault\> |布尔 &#x2777;  |第一 &#x2776; |如果为 true，则在双屏幕模式下，在两个屏幕上显示的内容在离开会议时显示。 | 
