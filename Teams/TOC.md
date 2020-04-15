@@ -10,7 +10,7 @@
 ## [概述](training-microsoft-teams-landing-page.md)
 ## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.md)
 ## [Teams 管理员培训](itadmin-readiness.md)
-## [Teams 的最终用户培训](enduser-training.md)
+## [Teams 的最终用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [如何部署 Teams](How-to-roll-out-teams.md)
