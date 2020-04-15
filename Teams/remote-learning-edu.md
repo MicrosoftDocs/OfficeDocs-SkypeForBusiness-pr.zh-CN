@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0223d3a29c704b5ab55d2183fd6587c845b351c
-ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
+ms.openlocfilehash: 3c264bba408205f8f00d1df20fffbc6242124220
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43194852"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237955"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -73,6 +73,8 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 当你允许每个人（包括学生）为班级、研究、小组项目和学习小组创建团队时，高等教育客户将会受益。 中小学学校则可能希望限制学生创建团队，确保所有学生与学生之间的交流都在包含成人的论坛内进行。 在这种情况下，可将 Office 365 组和团队的创建人员限制为所有教师和行政人员。
 
+有关如何创建团队的演练，请参阅[在 Microsoft Teams 中创建课堂团队](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)。
+
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 使用策略配置用户体验
 
 [Teams 策略](teams-policies.md)可用于控制可向特定用户或用户组提供的选项。 通过应用策略，可以定义允许哪些用户使用私人聊天、私人呼叫、会议安排以及可共享的内容类型等。
@@ -102,6 +104,10 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 - 将“允许安排频道会议”设置为“关”
 - 将“允许安排私人会议”设置为“关”
 - 将“允许在私人会议中立即开会”设置为“关”
+- 可选：允许设置 IP 视频为“开”
+
+> [!NOTE]
+> 通过此操作，教师可实时查看学生的视频。
 
 #### <a name="live-events-policy"></a>实时事件策略
 
@@ -123,7 +129,7 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 Microsoft Teams 教育版提供了针对教育用途的[特定团队类型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)。 [班级团队类型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)旨在用于课堂教学且具有特定功能，包括作业、OneNote 课堂笔记、用于为学生保护只读内容的[班级资料文件夹](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)以及将捣乱的学生静音的功能。 可通过多种方法来部署班级团队：
 
-1. [学校数据同步](https://sds.microsoft.com/) (SDS) 可**由 IT 设置**，允许根据学校信息系统中的信息为所有班级创建班级团队。 此过程将为每个班级预配团队，并使讲师和学生名单保持同步。[教师可以准备自己的团队](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)，然后再允许学生加入。 如果教师不使用该团队，则学生将无法获准加入，因为教师并未单击“激活”。 SDS 支持 80 多种学校信息系统（SIS 系统）的数据导入，[SDS 支持团队](https://aka.ms/SDSSupport)可以帮助你进行规划和配置。 你还可以查看我们的[实现远程学习的快速部署指南](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)，以便快速入门。
+1. [学校数据同步](https://sds.microsoft.com/) (SDS) 可**由 IT 设置**，允许根据学校信息系统中的信息为所有班级创建班级团队。 此过程为每个部分预配组，并在注册变化时使教师和学生名单保持同步。 教师可以[使用此过程](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)将这些组转换为课堂团队。 创建课堂团队后，在录取学生前，[教师可以为团队做好准备](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) 。 SDS 支持 80 多种学校信息系统（SIS 系统）的数据导入， [SDS 支持团队](https://aka.ms/SDSSupport) 可以帮助你进行规划和配置。 你还可以查看我们的[实现远程学习的快速部署指南](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)，以便快速入门。
 1. **教师设置**自己的班级类型团队并邀请学生。 教师可以通过[将学生添加到团队](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[共享加入代码](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)或[共享指向团队的链接](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)来实现此操作。 如果可能，最好让教师将学生添加到团队，以确保学生获得访问权限并收到其已添加到团队的通知。
 
 团队设置完成后，团队所有者可[自定义团队的设置](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158)（包括添加[团队图片](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0)），[创建班级主题或小组协作区域频道](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45)，[添加应用](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)（如 Quizlet/Flipgrid/Kahoot）来呈现现有教学内容，以及[提及团队来发布首个帖子](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2)以通知每个人并开始对话。
@@ -150,6 +156,8 @@ Microsoft Teams 教育版提供了针对教育用途的[特定团队类型](http
 
 > [!NOTE]
 > 有些关键的 Teams 功能并非仅针对教学用途提供。 有关核心 Teams 功能的使用技巧，请参阅 [Teams 帮助和学习](https://support.office.com/teams)。
+
+如果想要深入了解如何在会议期间保护学生，请参阅[使用 Teams 会议进行远程学习时保证学生安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>禁止用户更改个人资料照片
 
