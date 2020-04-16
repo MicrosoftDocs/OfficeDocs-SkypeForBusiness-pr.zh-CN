@@ -1,5 +1,5 @@
 ---
-title: 向 Microsoft 团队中的用户分配策略
+title: 向 Microsoft Teams 中的用户分配策略
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,14 +16,14 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解在 Microsoft 团队中向用户分配策略的不同方法。
 f1keywords: ''
-ms.openlocfilehash: 0ad4794d0813eec97ea723d86ae6b3c60e0c9129
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 5c46b74519520950d31f01d4c86ae2a5002ae279
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068494"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521618"
 ---
-# <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft 团队中的用户分配策略
+# <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft Teams 中的用户分配策略
 
 > [!NOTE]
 > **本文中讨论的 Microsoft 团队功能之一，目前仅在私人预览版中提供了[对组的策略分配](#assign-a-policy-to-a-group)。此功能的 Powershell cmdlet 位于预发布团队 PowerShell 模块中。** 若要保持在此功能的 "发布" 状态的顶部，请查看[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)。
@@ -66,7 +66,7 @@ ms.locfileid: "43068494"
 | [分配策略包](#assign-a-policy-package)   | 您需要将多个策略分配给组织中具有相同或类似角色的特定用户组。 例如，将教育版（教师）策略包分配给你的学校教师，让他们能够完全访问聊天、通话和会议以及教育（次要学校学生）策略包，以限制某些功能，如私人通话。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
 |[为一批用户分配策略](#assign-a-policy-to-a-batch-of-users)   | 您需要为大型用户组分配策略。 例如，你希望一次为组织中的成百上千个用户分配策略。  |团队 PowerShell 模块中的 PowerShell cmdlet|
 |为[组分配策略](#assign-a-policy-to-a-group)（在预览中）   |您需要根据用户的组成员身份分配策略。 例如，你想要向安全组或组织单位中的所有用户分配策略。| 团队 PowerShell 模块中的 PowerShell cmdlet|
-| 将策略包分配给一批用户（即将推出） |||
+| [将策略包分配给一批用户](#assign-a-policy-package-to-a-batch-of-users)|您需要为组织中具有相同或类似角色的一批用户分配多个策略。 例如，使用批处理作业将教育版（教师）策略包分配给你的学校中的所有教师，让他们能够完全访问聊天、通话和会议，并将教育（次要学校学生）策略包分配给一批次要学生，以限制某些功能（如私人通话）。|团队 PowerShell 模块中的 PowerShell cmdlet|
 | 将策略包分配给组（即将推出）   | ||
 
 ## <a name="assign-a-policy-to-individual-users"></a>为单个用户分配策略
@@ -373,6 +373,57 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $nu
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
 ```
+
+## <a name="assign-a-policy-package-to-a-batch-of-users"></a>将策略包分配给一批用户
+
+通过批处理策略程序包分配，您可以一次性为大型用户分配策略包，而无需使用脚本。 使用```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet 提交要分配的一批用户和策略包。 作业作为后台操作处理，并为每个批处理生成操作 ID。 然后，你可以使用```Get-CsBatchPolicyAssignmentOperation```该 cmdlet 跟踪批处理中作业的进度和状态。
+
+批处理最多可包含20000个用户。 你可以按对象 Id、UPN、SIP 地址或电子邮件地址指定用户。
+
+> [!IMPORTANT]
+> 我们当前建议你一次为每批5000用户分配策略包。 在增加需求的这些时间内，你可能会遇到处理时间方面的延迟。 为了将这些增加的处理时间的影响降到最低，我们建议你向5000用户提交较小的批处理大小，并且仅在上一个批处理完成后再提交。 在正常工作时间内提交批还会有所帮助。
+
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft 团队 PowerShell 模块
+
+运行以下操作以安装[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)（如果尚未安装）。 请确保安装1.0.5 或更高版本。
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
+
+运行以下操作以连接到团队并启动会话。
+
+```powershell
+Connect-MicrosoftTeams
+```
+
+出现提示时，请使用管理员凭据登录。
+
+### <a name="assign-a-policy-package-to-a-batch-of-users"></a>将策略包分配给一批用户
+
+在此示例中，我们使用```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet 将 Education_PrimaryStudent 策略包分配给一批用户。
+
+```powershell
+New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
+```
+
+若要了解详细信息，请参阅[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)。
+
+### <a name="get-the-status-of-a-batch-assignment"></a>获取批处理作业的状态
+
+运行以下操作以获取批处理作业的状态，其中 OperationId 是由给定批处理的```New-CsBatchPolicyAssignmentOperation``` cmdlet 返回的操作 ID。
+
+```powershell
+$Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
+```
+
+如果输出显示发生了错误，请运行以下内容以获取有关```UserState```属性中的错误的详细信息。
+
+```powershell
+Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
+```
+
+若要了解详细信息，请参阅[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)。 
 
 ## <a name="related-topics"></a>相关主题
 

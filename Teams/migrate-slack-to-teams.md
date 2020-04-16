@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845205"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506873"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 
@@ -353,7 +353,7 @@ Write-Host -ForegroundColor Green "$(Get-TimeStamp) Exiting.."
 
 例如，这两种产品均提供频道，但频道在它们中的使用方式各不相同。 例如，Slack 中的频道就像 Teams 中的聊天，通常用于短期事务性对话。 其他明显区别存在于链式/非链式对话和调整通知设置方面。
 
-查看我们内容丰富的[最终用户 Teams 培训](enduser-training.md)库。 
+查看我们内容丰富的[最终用户 Teams 视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)库。 
 
 ## <a name="move-to-teams"></a>迁移到 Teams 
 现在，你已确定了过渡计划，可以开始在 Teams 中创建团队和频道了。 

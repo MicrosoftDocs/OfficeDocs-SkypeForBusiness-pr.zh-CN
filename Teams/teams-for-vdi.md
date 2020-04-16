@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892292"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521608"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -135,7 +135,7 @@ Office 365 专业增强版不支持团队的每计算机安装。 若要使用�
     - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
     - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
-    所需的团队桌面应用的最低版本是1.2.00.31357 版本。 （早期版本不支持 PSTN 保留。）
+    所需的团队桌面应用的最低版本是1.3.00.4461 版本。 （早期版本不支持 PSTN 保留。）
 
 2. 通过运行以下命令之一将 MSI 安装到 VDI VM：
 
@@ -246,21 +246,21 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 要将 DisallowCalling 呼叫策略和 AllOff 会议策略分配给用户，请按照下列步骤操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。
-2. 通过单击用户名左侧的用户选择用户，然后单击 "**编辑设置**"。
-3. 请执行下列操作：
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
+3. 执行以下操作：
     1.  在 "**呼叫策略**" 下，单击 " **DisallowCalling**"。
     2.  在 "**会议策略**" 下，单击 " **AllOff**"。
 4. 单击“**应用**”。
 
-若要一次为多个用户分配策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
+若要将策略一次性分配给多个用户，请参阅[批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)。
 
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
     - 转到 "**语音** > **呼叫策略**"，然后单击 " **DisallowCalling**"。
     - 转到 "**会议** > **会议策略**"，然后单击 " **AllOff**"。
-3. 选择 "**管理用户**"。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后单击 "**添加**"。 对要添加的每个用户重复此步骤。
+3. 选择“管理用户”****。
+4. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
 5. 添加完用户后，单击 "**保存**"。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
@@ -283,7 +283,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>通过通话和会议将团队与聊天和协作迁移到 Citrix
 
-如果您在 VDI 上有一个现有团队的实现，其中你已设置了用户级策略以关闭呼叫和会议功能，并且你要使用 AV 优化功能迁移到 Citrix，则必须设置策略以启用呼叫和适用于 VDI 用户的团队的会议功能。
+如果您在 VDI 上有一个现有团队实现，其中你已设置了用户级策略以关闭呼叫和会议功能，并且你要使用 AV 优化功能迁移到 Citrix，则必须为适用于 VDI 用户的团队设置策略来启用呼叫和会议功能。
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>设置启用呼叫和会议功能的策略
 
@@ -298,21 +298,21 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 要将 AllowCalling 呼叫策略和 AllOn 会议策略分配给用户，请按照下列步骤操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。
-2. 通过单击用户名左侧的用户选择用户，然后单击 "**编辑设置**"。
-3. 请执行下列操作：
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
+3. 执行以下操作：
     1.  在 "**呼叫策略**" 下，单击 " **AllowCalling**"。
     2.  在 "**会议策略**" 下，单击 " **AllOn**"。
 4. 单击“**应用**”。
 
-若要一次为多个用户分配策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
+若要将策略一次性分配给多个用户，请参阅[批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)。
 
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
     - 转到 "**语音** > **呼叫策略**"，然后单击 " **AllowCalling**"。
     - 转到 "**会议** > **会议策略**"，然后单击 " **AllOn**"。
-3. 选择 "**管理用户**"。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后单击 "**添加**"。 对要添加的每个用户重复此步骤。
+3. 选择“管理用户”****。
+4. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
 5. 添加完用户后，单击 "**保存**"。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
