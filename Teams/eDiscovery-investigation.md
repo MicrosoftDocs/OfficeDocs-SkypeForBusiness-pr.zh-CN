@@ -17,12 +17,12 @@ description: 了解需要执行电子数据展示时需要执行的操作，如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75098323afa8aef9e80223cbc1883e9c12cb53c6
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510691"
+ms.locfileid: "43521538"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -43,12 +43,12 @@ ms.locfileid: "43510691"
 | 显示每个用户阅读邮件的时间戳 | 否 | |
 | 录音 | 否 | |
 | 专用频道消息 | 否 | |
-| 表情符号、Gif、贴纸 | 否 | |
+| 表情符号、Gif、贴纸 | 是 | |
 | 代码片段 | 否 | |
 | 聊天链接 | 否 | |
 | 反应（赞、红心大战等） | 否 | |
 | 已编辑邮件 | 是 | 如果用户处于保留状态，将保留已编辑邮件的以前版本。 |
-| 内联图像 | 否 | |
+| 内联图像 | 是 | |
 | 题注 | 否 | |
 | 主题 | 否 | |
 | 引述 | 是 | 已引用内容可搜索。 但是，搜索结果不表示内容已加引号。 |

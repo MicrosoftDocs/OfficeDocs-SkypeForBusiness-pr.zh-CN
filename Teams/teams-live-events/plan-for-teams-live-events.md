@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
 ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/14/2020
 ms.locfileid: "43505619"
@@ -55,7 +55,7 @@ ms.locfileid: "43505619"
 - Teams 会议中启用屏幕共享（*TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*）。
 - Teams 中启用实时会议安排（*TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling 参数 = True*）。
 - 使用 Stream 创建实时事件的权限（适用于外部应用或设备制作）。
-- 已配置为能够安排团队会议的共存模式（*仅限岛、会议优先或团队*会议）。
+- 配置了共存模式，以能够安排 Teams 会议（*并行、会议优先或仅 Teams*）。
 
 > [!IMPORTANT]
 > 未经身份验证的匿名用户不能被邀请为 Teams 实时 事件中的“制作者”或“演示者”。 
@@ -70,7 +70,7 @@ ms.locfileid: "43505619"
 |公司中的所有人           |  是            |  是                 |
 |指定组/人员      |  是            |  是                 |
 
-只有<sup>1</sup>个联盟的与会者才能通过 & 组的人员进行邀请 <br>
+<sup>1</sup> 联盟与会者只能通过“人员和组”邀请。 <br>
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 实时事件和Skype 会议直播
 
@@ -80,8 +80,8 @@ ms.locfileid: "43505619"
 |---------|---------|---------|---------|
 |最大受众规模 |10,000 名与会者 |10,000 名与会者<sup>1</sup> |10,000 名与会者<sup>1</sup> |
 |实时事件最大持续时间 |4 小时 |4 小时 |4 小时 |
-|实时事件中演示者和发生器的最大数量 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|每 Office 365 租户最大并发实时事件数量 |岁  | 岁  | 岁  |
+|现场活动中演示者和制作者最大数量 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
+|每 Office 365 租户最大并发实时事件数量 |15  | 15  | 15  |
 |创建实时事件 |   Skype 会议直播门户 |团队、Yammer （通过 Teams） | Teams、Yammer （通过团队），Stream |
 |受众参与 – Yammer |&#x2714; |&#x2714;（集成体验） |&#x2714;（集成体验） |
 |受众参与 – 已审核问答 |&#x2714;  |&#x2714; |&#x2714; |
@@ -94,7 +94,7 @@ ms.locfileid: "43505619"
 |联合和来宾演示者/参与者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |不适用 |
 |演示者 – PSTN 接入 |&#x274C; |&#x2714; (Teams) |不适用 |
 |演示屏幕 |&#x274C; |&#x2714; (Teams) |不适用 |
-|演示 PowerPoint （PPT 共享） |&#x2714; |&#x274C; （通过屏幕共享缓解） |不适用 |
+|演示 PowerPoint （PPT 共享） |&#x2714; |&#x274C;（通过屏幕共享缓解） |不适用 |
 |云基会议录制 |&#x2714; |&#x2714; |&#x2714; |
 |自动将录制发布到 Stream |&#x274C; |&#x274C; |&#x2714; |
 |实时辅助字幕与字幕 |&#x2714; |&#x2714; |&#x274C; |
@@ -104,8 +104,8 @@ ms.locfileid: "43505619"
 |制作者直播后受众报告 |&#x2714; |&#x2714; |&#x274C; |
 |受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> 设定的限制可能会更改。 [适用于团队的检查限制和规范](../limits-specifications-teams.md)。<br/>
-<sup>2</sup>在实时事件中，你最多可以有250个演示者和发生器，但仅在列表中显示最后10个分支。
+<sup>1</sup> 设定的限制可能会更改。 查看 [Teams 限制和规范](../limits-specifications-teams.md)。<br/>
+<sup>2</sup> 可在实时事件中拥有多达 250 位演示者和制作者，但列表中仅显示最后 10 位发言的人员。
 
 
 ## <a name="regional-availability"></a>区域可用性

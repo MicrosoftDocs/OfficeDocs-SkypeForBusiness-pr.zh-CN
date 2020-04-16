@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170510"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506843"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -67,6 +67,8 @@ ms.locfileid: "43170510"
 
 1. 阅读定期更新的[常见问题：支持远程员工](FAQ-support-remote-workforce.md)。
 
+2. [使用 Advisor for Teams 帮助你推出 Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（Teams 管理中心中）将指导你完成团队部署。
+
 1. 阅读最新博客文章：
    
    - [Microsoft 如何便于员工使用 Microsoft Teams 远程工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
@@ -109,7 +111,7 @@ ms.locfileid: "43170510"
    - 作为 Microsoft 365 企业级安全性最佳做法和程序的一部分，[安全和团队](teams-security-guide.md)需要探究 Teams 安全性的所有技术细节。
 
 
-2.  [发送培训链接](enduser-training.md)，帮助你的员工充分利用 Teams。
+2.  共享 [Teams 视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)链接，帮助你的员工充分利用 Teams。
 
 3. 深入了解：了解有关推出 Teams 的详细信息。
 
