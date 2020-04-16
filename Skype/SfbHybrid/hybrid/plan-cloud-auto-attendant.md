@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 将云自动助理与 Skype for Business Server 2019 结合使用的概述
-ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150473"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510801"
 ---
 # <a name="plan-cloud-auto-attendants"></a>规划云自动助理
 
@@ -25,10 +25,10 @@ Exchange 统一消息（Exchange Server 2013 或 Exchange Server 2016）使用�
 
 这本身就意味着，如果您希望使用统一消息功能（如自动助理），您将拥有 Skype for business Server 2019 的混合实施。 有关详细信息，请参阅[配置 Skype For Business Server 和 Office 365 之间的混合连接](configure-hybrid-connectivity.md)。
 
-自动助理是一种云服务，可接受客户呼叫和播放问候语、为他们提供菜单选项以及使用语音或 dialpad 与呼叫者进行交互，以将呼叫路由到正确的目标。 在 Skype for Business Server 2019 系统上为每个自动助理分配一个**资源帐户**（请参阅[配置资源帐户](configure-onprem-ra.md)），该帐户将直接链接到 Microsoft 团队管理中心中的自动助理。 请参阅[什么是云自动助理？](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)有关自动助理的详细信息以及自动助理存在哪些选项和功能的详细信息，请参阅什么是云自动助理。
+自动助理是一种云服务，它接受客户呼叫并播放问候语，为他们提供菜单选项，并与使用语音或拨号盘的呼叫者进行交互以将呼叫路由到正确的目标。 在 Skype for Business Server 2019 系统上为每个自动助理分配一个*资源帐户*（请参阅[配置资源帐户](configure-onprem-ra.md)），该帐户将直接链接到 Microsoft 团队管理中心中的自动助理。 请参阅[什么是云自动助理？](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)有关自动助理的详细信息以及自动助理存在哪些选项和功能的详细信息，请参阅什么是云自动助理。
 
 > [!NOTE]
-> 您可以将多个 Microsoft 服务号码或混合号码分配给自动助理。
+> 您可以将多个 Microsoft 服务号码、直接传送号码或混合号码分配给自动助理。
 
 对云自动助理的传入呼叫可以采用多个路径之一，如下所示：
 
@@ -62,7 +62,7 @@ Exchange 统一消息（Exchange Server 2013 或 Exchange Server 2016）使用�
 
 ## <a name="migration-and-interoperability"></a>迁移和互操作性
 
-如果您计划部署 Skype for Business Server 2019 和/或 Exchange Server 2019，则必须仔细规划迁移，以确保自动助理的持续支持。 请注意下列事项：
+如果您计划部署 Skype for Business Server 2019 和/或 Exchange Server 2019，则必须仔细规划迁移，以确保自动助理的持续支持。 请注意以下几点：
 
 - Exchange Server 2019 不再提供 Exchange UM 功能
 - Exchange 统一消息处于退休模式
@@ -114,7 +114,7 @@ Microsoft 建议采用以下迁移途径：
 
 Exchange UM：[自动应答和路由传入呼叫](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[规划 Skype for Business Server 和 Office 365 之间的混合连接](plan-hybrid-connectivity.md)
+[规划 Skype for Business Server 与 Office 365 之间的混合连接](plan-hybrid-connectivity.md)
 
 [配置 Skype for Business Server 和 Office 365 之间的混合连接](configure-hybrid-connectivity.md)
 

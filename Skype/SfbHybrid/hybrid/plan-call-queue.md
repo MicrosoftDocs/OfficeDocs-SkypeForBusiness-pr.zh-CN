@@ -1,7 +1,7 @@
 ---
 title: 规划云呼叫队列
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用与 Skype for business Server 2019 的云自动助理的概述。
-ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735222"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510791"
 ---
 # <a name="plan-cloud-call-queues"></a>规划云呼叫队列
 
@@ -31,7 +31,7 @@ ms.locfileid: "41735222"
 将在 Skype for Business Server 2019 系统上为每个呼叫队列分配一个**资源帐户**（请参阅[配置资源帐户](configure-onprem-ra.md)），该帐户将直接链接到 Microsoft 团队管理中心中的呼叫队列。 请参阅[创建云呼叫队列](/MicrosoftTeams/create-a-phone-system-call-queue)，了解有关呼叫队列的内容以及呼叫队列中存在哪些选项和功能的详细信息。
 
 > [!NOTE]
-> 可以将多个电话号码分配给呼叫队列，但这些号码必须是 Microsoft 服务号码或混合号码。
+> 可以将多个电话号码分配给呼叫队列，但这些号码必须是 Microsoft 服务号码、直接路由号码或混合号码。
 
 ## <a name="requirements"></a>Requirements
 
@@ -65,8 +65,8 @@ ms.locfileid: "41735222"
 
 [设置云自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[规划 Skype for Business Server 和 Office 365 之间的混合连接](plan-hybrid-connectivity.md)
+[规划 Skype for Business Server 与 Office 365 之间的混合连接](plan-hybrid-connectivity.md)
 
 [配置 Skype for Business Server 和 Office 365 之间的混合连接](configure-hybrid-connectivity.md)
 
-[在 Microsoft 团队中管理资源帐户](/MicrosoftTeams/manage-resource-accounts)
+[在 Microsoft Teams 中管理资源帐户](/MicrosoftTeams/manage-resource-accounts)
