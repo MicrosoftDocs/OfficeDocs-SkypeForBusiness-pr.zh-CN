@@ -6,12 +6,13 @@
       "build_output_subfolder": "OfficeDocs-LyncServer",
       "locale": "zh-CN",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content",
-        "ContextObject": "Toc"
+        "ContextObject": "Toc" 
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -22,6 +23,7 @@
       "build_output_subfolder": "OfficeDocs-MicrosoftTeams",
       "locale": "zh-CN",
       "monikers": [],
+      "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -52,15 +54,13 @@
       "version": 0
     }
   ],
-  "notification_subscribers": [],
-  "branches_to_filter": [
-    "live"
-  ],
+  "notification_subscribers": ["mor-oitac-eng@moravia.com"],
+  "branches_to_filter": ["live"],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness",
   "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": true,
+  "need_preview_pull_request": false,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
@@ -77,8 +77,8 @@
     },
     {
       "path_to_root": "Skype/common",
-      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr",
-      "branch": "live",
+      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr.zh-CN",
+      "branch": "live-sxs",
       "branch_mapping": {}
     },
     {
@@ -96,7 +96,15 @@
       "Publish",
       "Pdf"
     ],
+    "live-sxs": [
+      "Publish",
+      "Pdf"
+    ],
     "SkypeServer2019": [
+      "Publish",
+      "Pdf"
+    ],
+    "dstrome-SMB-voice": [
       "Publish",
       "Pdf"
     ]
@@ -107,6 +115,6 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "need_generate_pdf": false,
+  "need_generate_pdf": true,
   "need_generate_intellisense": false
 }
