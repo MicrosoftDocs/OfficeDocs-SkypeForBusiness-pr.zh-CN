@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d97f92b56b4a3e38489b1f99f8ba25497485495f
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 18ad8a2808b12eb05e51d781cb422c65ad14e7ad
+ms.sourcegitcommit: edca9c1310b22a7b15ee1e3d00b4064cf647aa1e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43191239"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43580670"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -30,16 +30,18 @@ ms.locfileid: "43191239"
 
 为了获得全面的 Teams 体验，应该为每个用户启用 Exchange Online、SharePoint Online 和 Office 365 组创建。
 
-用户的 Exchange 邮箱可以托管在线上或本地。 但是，某些功能需要与你的 Office 365 租户进行混合部署。
+用户的 Exchange 邮箱可以托管在线上或本地。 与本地 Exchange 集成需要 Exchange 混合部署。 有关设置混合部署的详细信息，请参阅[Exchange Server 混合部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
 
 Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队和频道、创建和查看会议、呼叫和聊天、修改用户个人资料图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），以及添加和配置连接器、选项卡和机器人。
 
 托管在 Exchange Online 专用（旧版）上的用户必须同步到 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道，添加和配置选项卡和机器人，以及利用聊天和通话功能。 但是，他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
 
-拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，还可以更改用户配置文件图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），并且管理会议（如果 Outlook 网页邮箱策略允许他们执行此操作），并且管理会议（如果 web 邮箱策略允许他们执行此操作），以及使用 OAuth 配置的应用（最好通过混合配置向导）来管理2016会议
+拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，此外，还可以更改用户个人资料图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），并且管理会议（提供 Exchange Server 2016 （累积更新3）或更高版本）在本地运行时使用 OAuth 配置（最好通过 Exchange 混合配置向导），如在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要为这些用户启用日历委派，还必须按照在[Skype For Business Online 和 Exchange Server 之间配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。这些步骤将向团队安排应用程序提供确认委派权限所需的权限。   
 
 下表提供了基于 Exchange 环境的功能可用性的有用快速参考。
 
+> [!NOTE]
+> 本地 Exchange 和团队之间的功能集成需要 Exchange 混合部署。 此要求是对下表的某些功能中的特定于版本的要求的补充。
 
 **支持的操作：**
 
@@ -76,7 +78,7 @@ Microsoft 团队与多个 Office 365 服务协同工作，为用户提供丰富�
 
 - 必须为用户启用 Office 365 组创建，用户才能在 Microsoft Teams 中创建团队。
 
-- 若要让 Microsoft 团队使用本地 Exchange，必须按照在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述配置新的 Exchange OAuth 身份验证协议。
+- 若要让 Microsoft 团队使用本地 Exchange，必须配置新的 Exchange OAuth 身份验证协议（最好是运行 Exchange 混合向导），如在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要使具有 Exchange 本地邮箱的用户代表另一个用户安排团队会议，还必须按照[配置 Skype For Business Online 和 Exchange Server 之间的配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。 
 
 > [!NOTE]
 >对于 Exchange 本地和团队集成，需要为 AAD 同步用户分配所需的许可证。
