@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用有关设备、网络和连接的呼叫分析详细信息来解决与 Microsoft 团队和 Skype for business 通话和会议有关的用户问题。
-ms.openlocfilehash: a9ef3265fa86349ef92c6174c6f561b006af4d1a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836762"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749559"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通话分析来排查通话质量不良问题
 
@@ -68,7 +68,7 @@ ms.locfileid: "41836762"
   
 4. 从列表中选择用户。
 
-5. 选择 "**呼叫历史记录**"，然后选择要进行故障排除的呼叫或会议。
+5. 选择 "**呼叫历史记录**"，然后选择要进行故障排除的呼叫或会议。  将返回最多500条记录。
     
     ![用户的 "通话历史记录" 页面的屏幕截图。](media/use-call-analytics-to-troubleshoot-image-2.png)
   

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 241a109a6d6a6809f3bcfe363884f6168e67ef12
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 55b43e9fe156a2b3707cb5e99c57239345bf031e
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858687"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749819"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -33,11 +33,11 @@ ms.locfileid: "42858687"
 
 作为管理员，你可以使用应用设置策略执行以下操作：
 
-- 自定义团队以突出显示对用户最重要的应用。 你可以选择要固定的应用，并设置它们的显示顺序。 固定应用允许你展示组织中的用户所需的应用，包括由第三方或组织中的开发人员构建的应用。
-- 控制用户是否可以将应用固定到团队。
+- 自定义 Teams 以突出显示对用户最为重要的应用。 你可以选择要固定的应用，并设置它们的显示顺序。 通过固定应用，可展示组织中的用户所需的应用，包括由第三方或组织中的开发人员构建的应用。
+- 控制用户是否可以将应用固定到 Teams。
 - 代表用户安装应用 **（在预览中）**。 在用户启动团队时，选择默认为用户安装的应用。 请记住，如果分配给应用的[应用权限策略](teams-app-permission-policies.md)允许，用户仍然可以自行安装应用。
 
-应用程序将固定到应用栏。 这是团队桌面客户端和团队移动客户端（iOS 和 Android）底部的栏。
+将应用程序固定到应用栏。 这是 Teams 桌面客户端的侧边栏和 Teams 移动客户端（iOS 和 Android）的底边栏。
 
 |团队桌面客户端  |团队移动客户端 |
 |---------|---------|
@@ -45,7 +45,7 @@ ms.locfileid: "42858687"
 
 若要查看其预安装应用，请在应用栏中单击 " **..."** 团队桌面和 web 客户端中的更多应用，并在移动客户端中向上轻扫。
 
-在 Microsoft 团队管理中心中管理应用设置策略。 你可以使用全局（组织范围默认）策略或创建自定义策略并将其分配给用户。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。 您必须是全局管理员或团队服务管理员才能管理这些策略。
+在 Microsoft 团队管理中心中管理应用设置策略。 可使用全局（组织范围的默认）策略，或者创建自定义策略并将其分配给用户。 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
 你可以编辑全局策略中的设置以包括所需的应用。 如果要为组织中的不同组用户自定义团队，请创建并分配一个或多个自定义策略。 如果向用户分配了自定义策略，则该策略将应用于用户。 如果未向用户分配自定义策略，则全局策略将应用于该用户。
 
@@ -98,17 +98,17 @@ ms.locfileid: "42858687"
 ### <a name="assign-a-custom-app-setup-policy-to-users"></a>向用户分配自定义应用设置策略
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后单击 "用户"。
-2. 通过单击用户名左侧的用户选择用户，然后单击 "**编辑设置**"。
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
 3. 在 "**应用设置策略**" 下，选择要分配的应用设置策略，然后单击 "**应用**"。
 
-若要一次为多个用户分配策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
+若要将策略一次性分配给多个用户，请参阅[批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)。
 
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **设置策略**"。
-2. 通过单击策略名称的左侧，选择策略。
-3. 选择 "**管理用户**"。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对要添加的每个用户重复此步骤。
+2. 单击策略名称的左侧以选择该策略。
+3. 选择“管理用户”****。
+4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
 5. 添加完用户后，选择 "**保存**"。
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>为组中的用户分配自定义应用设置策略
@@ -134,7 +134,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
 
-## <a name="faq"></a>常见问题解答
+## <a name="faq"></a>常见问题
 
 ### <a name="working-with-app-setup-policies"></a>使用应用设置策略
 
@@ -182,7 +182,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>用户是否可以更改通过策略固定的应用顺序？
 
-当前，用户可以更改团队移动客户端上的固定应用的顺序，但不能更改团队桌面或 web 客户端上的应用。
+如果启用了 "**允许用户固定**" 选项，用户可以更改团队桌面和移动客户端上的固定应用的顺序。 用户无法更改团队 web 客户端上的固定应用的顺序。
 
 ### <a name="custom-teams-apps"></a>自定义团队应用
 

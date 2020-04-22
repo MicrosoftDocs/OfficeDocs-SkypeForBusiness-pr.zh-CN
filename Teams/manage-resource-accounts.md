@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 5d1558f027226845842923140f9f9e64c5f4eae1
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190880"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749999"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -82,7 +82,7 @@ ms.locfileid: "43190880"
 2. 获取电话系统虚拟用户许可证或普通的电话系统许可证。
 
    若要获取虚拟用户许可证，从 Microsoft 365 管理中心开始，请转到**帐单** > **购买服务** > **附加订阅**并滚动到 "结束"，您将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。 成本不为零，但仍需按照这些步骤获取许可证。
-3. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)
+3. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)。
 4. 为资源帐户分配电话系统-[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或电话系统许可证。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
 5. 将服务号码分配给资源帐户。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
 6. 设置下列内容之一：
@@ -96,11 +96,11 @@ ms.locfileid: "43190880"
 
 嵌套的自动助理或呼叫队列将需要资源帐户，但在许多情况下，相应的资源帐户不需要电话号码和支持电话号码所需的许可。 创建不需要电话号码的资源帐户需要按以下顺序执行以下任务：
 
-1. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)
+1. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)。
 2. 设置下列内容之一：
    - [云自动助理](create-a-phone-system-auto-attendant.md)
    - [云呼叫队列](create-a-phone-system-call-queue.md)
-3. 将资源帐户分配给呼叫队列或自动助理。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)
+3. 将资源帐户分配给呼叫队列或自动助理。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中创建资源帐户
@@ -115,7 +115,7 @@ ms.locfileid: "43190880"
 
 ![新资源帐户选项的屏幕截图](media/res-acct.png)
 
-接下来，在 O365 管理中心中对资源帐户应用许可证，如在[Office 365 for business 中向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)中所述。
+接下来，按照在[Office 365 for business 中向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)中所述，将许可证应用于 O365 管理中心中的资源帐户。
 
 ### <a name="edit-resource-account"></a>编辑资源帐户 
 
@@ -175,9 +175,9 @@ ms.locfileid: "43190880"
 
 1. 若要创建联机的资源帐户以与自动助理配合使用，请使用以下命令：
 
-``` Powershell
-New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
-```
+    ``` Powershell
+    New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
+    ```
 
 2. 你将无法使用资源帐户，直到你向其应用许可证。 有关如何将许可证应用到 O365 管理中心中的帐户，请参阅[在 Office 365 for business 中向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user)以及[分配 Skype for business 许可证](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
 
@@ -214,7 +214,7 @@ New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -Applicat
 请确保在删除之前将电话号码与资源帐户取消关联，以避免让你的服务号码滞留在挂起模式下。 你可以使用以下 commandlet 执行此操作：
 
 ``` Powershell
-Set-csonlinevoiceapplicationinstance -identity <Resource Account oid> -TelephoneNumber $null
+Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
 执行此操作后，您可以从 O365 管理门户删除资源帐户，在 "用户" 选项卡下。

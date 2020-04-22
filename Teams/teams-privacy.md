@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: stbyer
 description: Microsoft Teams 的隐私指南和信息。
 localization_priority: Priority
 search.appverid: MET150
@@ -16,32 +16,39 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22abb4bc7c5c68d2e628026c96ca5dc40ca87c98
-ms.sourcegitcommit: c40a7ada120180cd39f18b2e37f23223075abbf4
+ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43535568"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579568"
 ---
 # <a name="privacy-and-microsoft-teams"></a>隐私和 Microsoft Teams
 
 当组织考虑依赖 Microsoft Teams 进行通信和协作时，隐私就成为各个级别需要解决的问题。 我们下面的问题应解决你在规划 Teams 实施，或在 Teams 使用期间的任何时候可能遇到的隐私问题。
 
-## <a name="what-personal-data-does-teams-collect-and-how-does-teams-use-this-data"></a>Teams 会收集哪些个人数据以及 Teams 会如何使用这些数据？
+## <a name="what-personal-data-does-microsoft-teams-collect-and-for-what-purposes-does-microsoft-teams-use-this-data"></a>Microsoft Teams 收集哪些个人数据，以及 Microsoft Teams 将数据用于哪些用途？
 
-由于 Teams 是一种基于云的服务，作为提供服务的一部分，Microsoft 会处理和存储各种类型的数据。 这些数据包括：
+Microsoft 处理 Microsoft Teams 中的个人数据，以提供[联机服务条款](https://go.microsoft.com/fwlink/p/?linkid=2050263)中定义的约定服务，并最终用于由获取服务的数据控制者确定的用途。 Microsoft Teams 是一种基于云的服务，作为提供服务的一部分， 处理多种类型的个人数据。 个人数据包括：
 
-- **客户数据** 客户数据包含你的会议和对话聊天记录、语音邮件、共享的文件、录像和转录等内容。 Microsoft 永远不会访问你的内容。
-  - **个人资料数据** 在公司中共享的有关你的数据。 示例包括电子邮件地址、个人资料图片和电话号码。
-- **通话历史记录、通话质量** Microsoft 会保留你所拨打电话的详细历史记录。 这样，你就可以回顾并查看自己的通话记录。 Microsoft 还会向你的系统管理员提供详细的会议和通话数据。 这样，你的管理员可以诊断与通话质量不佳和服务使用情况相关的问题。 此外，出于提供计费和故障排除等服务的目的，Microsoft 还保留了通话记录。
-- **支持/反馈数据** 在你打开故障票证或向 Microsoft 提交反馈时创建的数据。 Microsoft 承诺仅使用该数据解决你的问题或改进 Teams 产品。
-- **诊断和服务数据** Microsoft 还会收集与服务使用情况相关的各种遥测数据。 Microsoft 能够利用这些数据提供服务（故障排除、保护和更新产品，以及监控性能），以及进行一些内部业务运营。 下面是一些示例：
+- **客户数据** 你的会议和对话聊天记录、语音邮件、共享的文件、录像和转录。
+- **个人资料数据** 在公司中共享的有关你的数据。 示例包括电子邮件地址、个人资料图片和电话号码。
+- **通话记录** 所拨打的电话的详细历史记录，让你可返回查看自己的通话记录。
+- **通话质量数据** 可供系统管理员使用的会议和通话数据详细信息。 这样，管理员可以诊断与通话质量不佳和服务使用情况相关的问题。
+- **支持/反馈数据** 与疑难解答票证或提交给 Microsoft 反馈相关的信息。
+- **诊断和服务数据** 与服务使用相关的诊断数据。 Microsoft 能够利用此个人数据提供服务（故障排除、保护和更新产品，以及监控性能），以及进行一些内部业务运营，如：
   - 确定收入
   - 制定指标
   - 确定服务使用情况
   - 进行产品和容量规划
 
-Microsoft Teams 将仅使用提供的数据来交付[联机服务条款](https://go.microsoft.com/fwlink/p/?linkid=2050263)中定义的约定服务。
+在 Microsoft Teams 处理与 Microsoft 合法业务运营有关的个人数据范围内，Microsoft 将成为此类使用的独立数据控制者，并将负责遵守所有适用的法律和控制者义务。
+
+## <a name="legal-basis-of-processing"></a>处理的法律基础  
+
+根据[联机服务条款](https://go.microsoft.com/fwlink/p/?linkid=2050263)，我们的客户是提供给 Microsoft 数据的控制者，他们确定处理的法律基础。另外 Microsoft 按照客户的处理数据，如处理者。
+
+根据[联机服务条款](https://go.microsoft.com/fwlink/p/?linkid=2050263)所述，在 Microsoft 处理与自身合法业务相关个人数据的范围内，Microsoft 将是此类处理的独立控制者，合法权益是其法律依据。 “ Microsoft 的 合法业务运营”由以下各项组成，每一项都是与向客户提供 Microsoft Teams 有关的事件，包括：(1) 账单和帐户管理；(2) 薪酬（例如，计算员工佣金和合作伙伴奖励）；(3) 内部报告和建模（例如，预测、收入、产能计划、产品策略）；(4) 打击可能影响 Microsoft 或 Microsoft 产品的欺诈、网络犯罪或网络攻击；(5) 改善可访问性、隐私或能效的核心功能；(6) 财务报告和履行法律义务。
 
 ## <a name="what-third-parties-have-access-to-personal-data"></a>哪些第三方有权访问个人数据？
 
@@ -82,6 +89,3 @@ Microsoft Teams 会在提供该服务所需的最短时间期间保留你的数�
 ## <a name="contact-details-of-microsofts-data-protection-officer"></a>Microsoft 数据保护官员的详细联系信息
 
 如果你需要就隐私问题、投诉或疑问联系 Microsoft 首席隐私官和欧盟数据保护官员，请通过 [Web 表单](https://go.microsoft.com/fwlink/?LinkId=321116)联系我们。 我们欧盟数据保护官员的地址是 Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland。 电话：+353 1 706 3117。你还可以向数据保护机构或其他具有司法管辖权的官员提出疑虑或进行投诉。
-
-> [!IMPORTANT]
-> 如果本文档与[联机服务条款](https://go.microsoft.com/fwlink/p/?linkid=2050263)之间存在任何冲突，则应将联机服务条款视为权威。

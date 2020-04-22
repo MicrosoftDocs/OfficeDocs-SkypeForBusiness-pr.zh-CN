@@ -7,26 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
-ms.reviewer: sonua
+ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 在 Microsoft Teams 中部署云语音功能的实用指导。
+description: 如何在 Microsoft 团队中打开和管理会议录制。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
-ms.translationtype: HT
+ms.openlocfilehash: 1098b1e316bb6ed747577183fc144bf2db7d0b9d
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42582999"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43751849"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
-
-> [!IMPORTANT]
-> **将来，我们将会进行一项配置更改**，届时将会为 Teams 数据存储在国内的客户打开 Teams 会议录制功能，即使 Microsoft Stream 在其国内数据驻留区域中不可用也是如此。 此更改生效后，会议录像将默认存储在最近的 Microsoft Stream 区域中。 如果你的 Teams 数据存储在国内，并且你希望在国内存储会议录像，我们建议你关闭会议录制，然后在我们将 Microsoft Stream 部署到你所用的国内区域后再将其打开。 若要了解详细信息，请参阅[会议录像的存储位置](#where-your-meeting-recordings-are-stored)。
 
 在 Microsoft Teams 中，用户可录制其 Teams 会议和组内通话，以便捕获音频、视频和屏幕共享活动。 还有一个用于为录像添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制在云中进行，并保存在 [Microsoft Stream](https://docs.microsoft.com/stream/) 中，因此用户可以安全地在组织中共享录像。
 
@@ -53,13 +49,13 @@ ms.locfileid: "42582999"
 
 本部分介绍如何设置和规划 Teams 会议录制。
 
-### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>为组织中的用户启用 Microsoft Stream
+### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>为组织中的用户打开 Microsoft Stream
 
 Microsoft Stream 可作为符合条件的 Office 365 订阅的一部分或作为独立服务提供。  有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 现可在 Microsoft 365 商业版、Office 365 商业高级版和 Office 365 商业协作版中提供。
 
 深入了解如何[将许可证分配给 Office 365 中的用户](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Microsoft Stream。 请确保不会阻止用户使用 Microsoft Stream，正如[此文](https://docs.microsoft.com/stream/disable-user-organization)中所述。
 
-### <a name="ensure-that-users-have-upload-video-permissions-in-microsoft-stream"></a>确保用户在 Microsoft Stream 中拥有上传视频的权限
+### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>确保用户在 Microsoft Stream 中上载视频权限
 
 默认情况下，只要 Stream 处于启用状态并获得许可证，公司中的每个人都可在 Stream 中创建内容。 Microsoft Stream 管理员可以[限制员工在 Stream 中创建内容](https://docs.microsoft.com/stream/restrict-uploaders)。 此受限列表中的用户将不能录制会议。
 
@@ -93,22 +89,11 @@ Microsoft Stream 可作为符合条件的 Office 365 订阅的一部分或作为
 |                                    我希望公司中的所有用户都能录制自己的会议                                    |                                                                     <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = True<li>所有用户都拥有全局 CsTeamsMeetingPolicy 或拥有 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一 </ol>                                                                     |
 | 我希望大多数用户能够录制会议，但有选择地禁用不允许其进行录制的特定用户 |        <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = True<li>大多数用户都拥有全局 CsTeamsMeetingPolicy 或拥有 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一<li>为所有其他用户授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一</ol>         |
 |                                                   我希望 100% 禁止录制                                                   |                                                                <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False<li>为所有用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一                                                                 |
-|      希望对大多数用户禁用录制，但有选择地启用允许其进行录制的特定用户       | <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False<li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一<li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一 <ol> |
+|      我希望为大多数用户关闭录制，但有选择地启用允许录制的特定用户       | <ol><li>确认全局 CsTeamsMeetingPolicy 中 AllowCloudRecording = False<li>为大多数用户授予了全局 CsTeamsMeetingPolicy 或授予了 AllowCloudRecording = False 的 CsTeamsMeetingPolicy 策略之一<li>为所有其他用户授予了 AllowCloudRecording = True 的 CsTeamsMeetingPolicy 策略之一 <ol> |
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>会议录像的存储位置
 
-会议录制存储在 Microsoft Stream 云存储空间内。 目前，对于 Teams 数据存储在国内的客户而言，如果 Microsoft Stream 在其存放数据的国内数据驻留区域中不可用，则会为其关闭 Teams 会议录制功能。 未来，我们将会为数据存储在国内的客户打开会议录制功能，即使 Microsoft Stream 在其国内数据驻留区域中不可用也是如此。
-
-此更改生效后，会议录像将默认存储在最近的 Microsoft Stream 地理区域中。 如果你的 Teams 数据存储在国内，并且你希望在国内存储会议录像，我们建议你关闭该功能，然后在我们将 Microsoft Stream 部署到你所用的国内数据驻留区域后再将其打开。 若要为组织中的所有用户关闭该功能，请在 Microsoft Teams 管理中心中关闭全局 Teams 会议策略中的“**允许云录制**”设置。
-
-下面总结了当你在此更改生效后打开会议录制时会发生的情况：
-
-|打开会议录制的时间 |会议录像的存储位置  |
-|---------|---------|
-|在 Microsoft Stream 在你所用的国内数据驻留区域中可用之前    |最近的 Microsoft Stream 区域中         |
-|在 Microsoft Stream 在你所用的国内数据驻留区域中可用之后    | 你所用的国内数据驻留区域中        |
-
-对于尚未开启会议录制的新增和现有租户，当 Microsoft Stream 在国内数据驻留区域中可用后，新录制的内容将存储在国内。 如果租户在 Microsoft Stream 在国内数据驻留区域中可用之前便启用了会议记录，则现有和新增的录像都将继续使用相应的 Microsoft Stream 存储空间，即使 Microsoft Stream 在国内数据驻留区域中可用之后也是如此。
+会议录制存储在 Microsoft Stream 云存储空间内。 录制会议后，Microsoft Stream 将永久保留（或直到录制所有者将其删除）。 如果录制未上载到流，则会将其存储在团队云存储中，在这里，可以下载20天。 目前，对于 Teams 数据存储在国内的客户而言，如果 Microsoft Stream 在其存放数据的国内数据驻留区域中不可用，则会为其关闭 Teams 会议录制功能。
 
 若要查找你的 Microsoft Stream 数据的存储区域，请在 Microsoft Stream 中单击右上角的 **?**， 单击“**关于 Microsoft Stream**”，然后单击“**您的数据存储于**”。  若要深入了解 Microsoft Stream 存储数据的区域，请参阅 [Microsoft Stream 常见问题解答](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 
