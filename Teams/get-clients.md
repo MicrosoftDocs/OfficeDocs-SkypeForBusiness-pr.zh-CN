@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327834"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749490"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -45,6 +45,9 @@ Microsoft Teams 桌面客户端是独立的应用程序，也[可以在 Office 3
 桌面客户端为团队会议、群组通话和专线一对一呼叫提供实时通信支持（音频、视频和内容共享）。
 
 如果最终用户有合适的本地权限（在 PC 上安装 Teams 客户端不需要管理权限，但在 Mac 上需要），可以直接从 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下载并安装桌面客户端。
+
+> [!NOTE]
+> 有关在 Chromebook 上安装团队的更多详细信息，请参阅[如何在 Chromebook 上安装和运行 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)。
 
 IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上。 一些示例包括 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 要获取用于 Windows 分发的 MSI 包，请参阅[使用 MSI 安装 Microsoft Teams](msi-deployment.md)。  
 
@@ -75,6 +78,8 @@ Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。
 > [!NOTE]
 > 即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。 将会创建两条针对 teams.exe 的入站规则，操作是阻止 TCP 和 UDP 协议。
 
+如果你想要防止团队在用户第一次从团队发出呼叫时提示用户创建防火墙规则，请使用以下[示例 PowerShell 脚本-入站防火墙规则](#sample-powershell-script---inbound-firewall-rule)。 
+
 ### <a name="mac"></a>Mac
 
 Mac 用户可以使用 macOS 计算机的 PKG 安装文件安装 Teams。 安装 Mac 客户端需要管理访问权限。 将 macOS 客户端安装到 /Applications 文件夹中。
@@ -103,7 +108,7 @@ IT 管理员可以使用 Teams 的托管部署将安装文件分发到其组织�
 ### <a name="linux"></a>Linux
 
 用户将能够以 `.deb` 和 `.rpm` 格式安装本机 Linux 程序包。
-安装 DEB 或 RPM 程序包将自动安装程序包存储库
+安装 DEB 包或 RPM 程序包将自动安装程序包存储库。
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
@@ -214,7 +219,7 @@ Microsoft Teams 移动应用的支持移动平台如下：
 
 ![“通知设置”屏幕截图。](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>示例 PowerShell 脚本
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>PowerShell 脚本示例-入站防火墙规则
 
 需要在提升的管理员帐户上下文中的客户端计算机上运行的此示例脚本将为 c:\users 中找到的每个用户文件夹创建新的入站防火墙规则。 Teams 找到此规则后，当用户通过 Teams 进行首次呼叫时，将阻止 Teams 应用程序提示用户创建防火墙规则。 
 

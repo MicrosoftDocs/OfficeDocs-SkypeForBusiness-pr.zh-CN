@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26eb3af88b6e16de0535d25d4b5205a72626b7b2
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521528"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749569"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -111,22 +111,51 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 Teams 会议外接程序仍是正在构建的功能，因此请注意以下事项：
 
 - 此外接程序用于特定参与者的安排会议，而非用于频道中的会议。 频道会议必须从 Teams 中安排。
-- 若身份验证代理在用户电脑和 Teams 服务的网络路径中，此加载项将无法运行。
+- 如果身份验证代理位于用户的 PC 和团队服务的网络路径中，加载项将不起作用。
 - 用户无法在 Outlook 中安排直播活动。 若要安排直播活动，请转到 Teams。 有关详细信息，请参阅[什么是 Microsoft Teams 直播活动？](teams-live-events/what-are-teams-live-events.md)。
+
+详细了解 [Microsoft Teams 中的会议和通话](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。
 
 ## <a name="troubleshooting"></a>故障排除
 
+使用以下步骤解决团队会议外接程序的问题。
+
+### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Outlook for Windows 中的团队会议外接程序不会显示
+
 若无法安装 Outlook 的 Teams 会议加载项，请尝试下列故障排除步骤。
 
-- 确保已应用所有可用的 Outlook 桌面客户端更新。
-- 重启 Teams 桌面客户端。
-- 注销，然后重新登录到 Teams 桌面客户端。
-- 重启 Outlook 桌面客户端。 （请确保 Outlook 未在管理员模式下运行。）
+- 检查用户是否具有团队升级策略，该策略允许在团队中安排会议。 有关详细信息，请参阅[从 Skype For Business 升级到团队](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
+- 检查用户是否具有允许 Outlook 加载项使用的团队会议策略。 有关详细信息，请参阅[管理团队中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
+- 确保用户安装了团队桌面客户端。 如果仅使用团队 web 客户端，则不会安装会议外接程序。
+- 请确保用户具有执行 regsvr32 的权限。
+- 确保已应用 Outlook 桌面客户端的所有可用更新。
 - 确保登录的用户帐户名称不包含空格。 （这是一个已知问题，将在后续更新中修复。）
-- 确保单一登录 (SSO) 已启用。
+- 请按以下步骤操作：
+  - 重启 Teams 桌面客户端。
+  - 注销，然后重新登录到 Teams 桌面客户端。
+  - 重启 Outlook 桌面客户端。 （请确保 Outlook 未在管理员模式下运行。）
+
+如果您仍然看不到该加载项，请确保它在 Outlook 中未被禁用。
+
+- 在 Outlook 中，依次选择 "**文件**" 和 "**选项**"。
+- 选择 " **Outlook 选项**" 对话框的 "**加载项**" 选项卡。
+- 确认 "**活动应用程序加载项**" 列表中是否列出了 microsoft **Office 的 Microsoft 团队会议加载**项
+- 如果 "团队会议加载项" 列在 "**已禁用的应用程序加载项**" 列表中，请在 "**管理**" 中选择 " **COM 加载项**"，然后选择 "**转到**" .。。
+- 将 microsoft **Office 的 "Microsoft 团队会议加载项**" 旁边的复选框设置为 "microsoft Office"。
+- 在所有对话框上选择 **"确定"** ，然后重新启动 Outlook。
+
+有关如何管理加载项的一般指南，请参阅[在 Office 程序中查看、管理和安装加载项](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
+
+如果外接程序仍未显示，请使用以下步骤验证注册表设置。
+
+> [!NOTE]
+> 错误地编辑注册表可能会严重损坏你的系统。 在对注册表进行更改之前，应备份计算机上的任何重要数据。
+- 启动 RegEdit
+- 导航到 HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
+- 验证 TeamsAddin 是否存在。
+- 在 TeamsAddin 内，验证 LoadBehavior 是否存在并设置为3。
+  - 如果 LoadBehavior 具有3之外的值，请将其更改为3，然后重新启动 Outlook。
+
+### <a name="delegate-scheduling-does-not-work"></a>代理人计划不起作用
 
 若管理员已配置 Microsoft Exchange 来[控制对 Exchange Web Server (EWS) 的访问](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，则代理无法代表上级安排 Teams 会议。 此配置的解决方案正在开发中，未来将予以发布。 
-
-有关如何禁用外接程序的一般指导，请参阅[在 Office 程序中查看、管理和安装外接程序](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
-
-详细了解 [Microsoft Teams 中的会议和通话](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。

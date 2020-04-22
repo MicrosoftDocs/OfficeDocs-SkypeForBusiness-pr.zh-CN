@@ -18,43 +18,48 @@ description: 在 Teams 中为实时事件进行设置，包括设置网络、分
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: HT
+ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140561"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749799"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
 为实时事件进行设置时，必须执行几个步骤。
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>第 1 步：在 Teams 中为实时事件设置网络
+
 在 Teams 中制作的实时事件要求你[为 Teams 准备贵组织的网络](https://docs.microsoft.com/microsoftteams/prepare-network)。  
 
 ## <a name="step-2-get-and-assign-licenses"></a>第 2 步：获取和分配许可证
-请确保为[可以创建和安排实时事件的用户](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events)以及[可以观看实时事件的用户](plan-for-teams-live-events.md#who-can-watch-live-events)分配正确的许可证。
+
+请确保为[可以创建和安排实时事件的用户](plan-for-teams-live-events.md#who-can-attend-create-and-schedule-live-events)以及[可以观看实时事件的用户](plan-for-teams-live-events.md#who-can-watch-live-events)分配正确的许可证。
 
 ## <a name="step-3-set-up-live-events-policies"></a>第 3 步：设置实时事件策略
+
 实时事件策略用于控制组织中的哪些人员可以主持实时事件，以及其创建的事件中的可用功能。 可使用默认策略或创建一个或多个自定义实时事件策略。 创建自定义策略后，将其分配给组织中的一个或多个用户组。
 
 > [!NOTE]
-> 除非你创建并分配了自定义策略，你组织中的用户将获取全局策略。 默认情况下，在全局策略中，已为 Teams 用户启用实时事件安排，已关闭实时辅助字幕与字幕（转录），组织中的每个人都可以加入实时事件，并且录制设置已设置为“始终录制”。 
+> 除非你创建并分配了自定义策略，你组织中的用户将获取全局策略。 默认情况下，在全局策略中，已为 Teams 用户启用实时事件安排，已关闭实时辅助字幕与字幕（转录），组织中的每个人都可以加入实时事件，并且录制设置已设置为“始终录制”。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>创建或编辑实时事件策略
+
 <a name="bkcreatepolicy"> </a>
 
 **![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，转到“**会议**” > “**实时事件策略**”。 
+1. 在左侧导航中，转到“**会议**” > “**实时事件策略**”。
 2. 执行下列操作之一：
-- 如果要编辑现有默认策略，请选择“**全局(默认为组织范围)**”。 
-- 如果要创建新的自定义策略，请选择“**新建策略**”。 
-- 如果要编辑自定义策略，请选择该策略，然后选择“**编辑**”。 
+
+- 如果要编辑现有默认策略，请选择“**全局(默认为组织范围)**”。
+- 如果要创建新的自定义策略，请选择“**新建策略**”。
+- 如果要编辑自定义策略，请选择该策略，然后选择“**编辑**”。
 
     可更改以下设置以满足组织的需求。
 
-    ![实时事件策略设置的屏幕截图](../media/teams-live-events-policies.png "Microsoft Teams 管理中心中的实时事件策略设置屏幕截图") 
+    ![实时事件策略设置的屏幕截图](../media/teams-live-events-policies.png "Microsoft Teams 管理中心中的实时事件策略设置屏幕截图")
 
 |设置  |说明  |
 |---------|---------|

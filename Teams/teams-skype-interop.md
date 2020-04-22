@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中的团队用户与 Skype （消费者）用户之间的互操作性功能。
 localization_priority: Normal
-ms.openlocfilehash: 6e157cb04687d0577ad5b4cb5fd8da7d2f55e0b4
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
+ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42545019"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749549"
 ---
 # <a name="teams-and-skype-interoperability"></a>团队和 Skype 互操作性
 
@@ -72,13 +72,13 @@ Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊�
 
 如果您从 Skype for Business 升级到团队，您在 Skype for business 管理中心配置的外部通信设置将迁移到团队。
 
-### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心
+### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心
 
 在 "Microsoft 团队管理中心" 中，转到 "**组织范围的设置** > **外部访问**"，然后打开 "**用户可以与 Skype 用户通信**"。 有关如何配置此和其他外部访问设置的分步指导，请参阅[管理团队中的外部访问](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-将[CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与```EnablePublicCloudAccess```参数结合使用，以控制用户是否可以与 Skype 用户进行通信。 设置参数以```true```允许团队用户与 Skype 用户进行通信。
+将[CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与```EnablePublicCloudAccess```参数结合使用，以控制用户是否可以与 Skype 用户进行通信。 设置参数以```true```允许团队用户与 Skype 用户进行通信。 请注意， ```EnablePublicCloudAudioVideoAccess```该参数可用于启用/禁用音频/视频呼叫。
 
 ## <a name="related-topics"></a>相关主题
 

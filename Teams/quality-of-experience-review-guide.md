@@ -18,17 +18,17 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137692"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749859"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-本指南介绍 Microsoft 团队和 Skype for business Online 的 "驱动器价值" 阶段。 您可以下载本指南的[Word 版本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true)。
+本指南介绍 Microsoft 团队和 Skype for business Online 的 "驱动器价值" 阶段。 
 
 ## <a name="introduction"></a>简介
 
@@ -114,7 +114,7 @@ CQD 中的实际度量值因工作负荷而异，但为了使质量体验进行�
 
 _表 1-音频质量不佳的指标_
 
-| 平均指标     | Description     | 用户体验 |
+| 平均指标     | 说明     | 用户体验 |
 |-------------|-----------------|-----------------|
 | 抖动\>30 毫秒        | 这是连续数据包之间的延迟的平均变化。 团队和 Skype for business 可以通过缓冲来适应某些级别的抖动。 仅当抖动超过的是参与者注意到抖动效果的缓冲时才会如此。      | 以不同的速度收到的数据包将使扬声器的语音与声音机器人。   |
 | 数据包丢失率\>10% 或0。1        | 这通常定义为丢失的数据包的百分比。 数据包丢失直接影响音频质量-从少量的单个丢失的数据包，几乎不影响对导致音频完全减少的后端到后突发损失的影响。     | 数据包被丢弃且未到达其预期目标会导致媒体出现间隙，导致丢失音节和单词，并且视频和共享断断续续。 |
@@ -478,15 +478,15 @@ CQD 中的许多维度和度量值都属于第一或第二。 CQD 不使用 "调
 
 -   转到 " **Microsoft 团队管理中心**" 并选择指向 CQD 的链接，如下图所示。
 
-![所选通话质量仪表板的屏幕截图。](media/qerguide-image-mopo.png "在左侧导航窗格中，选择 "链接到呼叫质量" 仪表板。")
+    ![所选通话质量仪表板的屏幕截图。](media/qerguide-image-mopo.png "在左侧导航窗格中，选择 "链接到呼叫质量" 仪表板。")
 
-_图 7-通过 Microsoft 团队管理中心访问 CQD_
+    _图 7-通过 Microsoft 团队管理中心访问 CQD_
 
 -   转到旧版**Skype for business 管理中心** > **工具**，然后选择指向 CQD 的链接，如下图所示。
 
-![主窗格中选定的 CQD 的屏幕截图。](media/qerguide-image-legacyui.png "将在左侧导航窗格中选择 "工具"，然后在主窗格中选择 "指向 CQD 的链接"。")
+    ![主窗格中选定的 CQD 的屏幕截图。](media/qerguide-image-legacyui.png "将在左侧导航窗格中选择 "工具"，然后在主窗格中选择 "指向 CQD 的链接"。")
 
-_图 8-通过 Skype for Business 管理中心访问 CQD_
+    _图 8-通过 Skype for Business 管理中心访问 CQD_
 
 
 ### <a name="getting-started"></a>入门
@@ -568,7 +568,7 @@ _图 11-查询编辑器_
 
 _表 3-查询筛选器_
 
-| 筛选器         | Description          | CQD 查询筛选器示例      |
+| 筛选器         | 说明          | CQD 查询筛选器示例      |
 |----------------|----------------------|-------------------------------|
 | 无空值   | 某些筛选器没有用于筛选空值的选项。 若要手动筛选空值，请使用空白表达式，并将筛选器设置为等于或不等于，具体取决于你的需求。      | 第二建筑物\< \> \^ \\名称 s\*\$                       |
 | 排除公共子网 | 如果没有有效的生成文件以从非托管网络单独托管，则报告中将包含家庭网络。 这些主子网位于其控制范围之外，可以从报表中快速排除。 本指南中定义的常用子网是10.0.0.0、192.168.1.0 和192.168.0.0。 | 第二\< \>子\|网\| 10.0.0.0 192.168.0.0 192.168.1。0 |
@@ -580,7 +580,7 @@ _表 3-查询筛选器_
 
 _表 4-报表筛选器_
 
-| 筛选器     | Description                            | CQD 报表筛选器示例         |
+| 筛选器     | 说明                            | CQD 报表筛选器示例         |
 |------------|----------------------------------------|-----------------------------------|
 | Month      | 首先从年开始，然后是 "月"。 | 2017-10                           |
 | 字母 | 筛选任何字母字符。 | [a-z]                             |
@@ -634,7 +634,7 @@ _表 4-报表筛选器_
 
 -   对于每一列，如果数据类型为 String，则数据可以为空（但必须用适当的分隔符（即制表符或逗号）分隔。 这只是将该字段分配为空字符串值。
 
--   每一行必须有14列。 每列必须具有下表中所述的数据类型，并且列必须按照表中列出的顺序排列。
+-   每一行必须有14列（如果要添加可选的 VPN 列，则为15）。 每列必须具有下表中所述的数据类型，并且列必须按照表中列出的顺序排列。
 
 _表 5-构建文件结构_
 

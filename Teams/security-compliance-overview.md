@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237895"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749439"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
@@ -118,9 +118,9 @@ Microsoft 团队中的数据丢失防护（DLP）以及适用于 Office 365 的�
 
 对于详细信息，我们有一个特定团队的文章，[电子数据展示是来宾到来宾聊天的电子数据展示](eDiscovery-investigation.md)。
 
-客户可以根据其[要求](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery)利用就地电子数据展示或 [高级电子数据展示]。 下表概括列出了这两者之间的差异：
+客户可以根据其要求利用电子数据展示或[高级电子数据展示](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery)。 下表概括列出了这两者之间的差异：
 
-| |就地电子数据展示  |高级电子数据展示  |
+| |电子数据展示  |高级电子数据展示  |
 |---------|---------|---------|
 |案例管理     |X        |X         |
 |访问控制  |X         |X         |

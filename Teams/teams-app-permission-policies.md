@@ -22,23 +22,23 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: baf3f025dd9b2340f59aee18d72d3707e4cab8fd
-ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
+ms.openlocfilehash: 3382eff6334c3879c1c30d503101446ceaae4df9
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42601409"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749809"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
-作为管理员，你可以使用应用权限策略控制你的组织中的 Microsoft 团队用户可用的应用。 你可以允许或阻止由 Microsoft、第三方和你的组织发布的所有应用或特定应用。 阻止应用时，具有该策略的用户无法从团队应用商店安装它。 您必须是全局管理员或团队服务管理员才能管理这些策略。
+作为管理员，你可以使用应用权限策略来控制适用于组织中的 Microsoft Teams 用户的应用。 你可以允许或阻止由 Microsoft、第三方和你的组织发布的所有应用或特定应用。 阻止某个应用后，具有该策略的用户将无法从 Teams 应用商店安装它。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
 你可以在 Microsoft 团队管理中心中管理应用权限策略。 可以使用全局（组织范围默认）策略，也可以创建自定义策略并将其分配给组中的单个用户或用户。  
 
 ![应用权限策略的屏幕截图](media/app-permission-policies.png)
 
 > [!NOTE]
-> 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。 组织范围内的应用设置替代全局策略和你创建并分配给用户的任何自定义策略。
+> 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 组织范围内的应用设置替代全局策略和你创建并分配给用户的任何自定义策略。
 
 如果您的组织已在团队中，则在 Microsoft 365 管理中心的**租户范围设置**中配置的应用设置将反映在 "[管理应用](manage-apps.md)程序" 页面上的组织范围内应用设置中。 如果您不熟悉团队，并且只是开始使用，则默认情况下，所有应用都允许在全局策略中使用。 这包括由 Microsoft、第三方和你的组织发布的应用。
 
@@ -87,17 +87,17 @@ ms.locfileid: "42601409"
 ### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>向用户分配自定义应用权限策略
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。
-2. 通过单击用户名左侧的用户选择用户，然后单击 "**编辑设置**"。
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
 3. 在 "**应用权限策略**" 下，选择要分配的应用权限策略，然后单击 "**应用**"。
 
-若要一次为多个用户分配策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
+若要将策略一次性分配给多个用户，请参阅[批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)。
 
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **权限策略**"。
-2. 通过单击策略名称的左侧，选择策略。
-3. 选择 "**管理用户**"。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后单击 "**添加**"。 对要添加的每个用户重复此步骤。
+2. 单击策略名称的左侧以选择该策略。
+3. 选择“管理用户”****。
+4. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
 5. 添加完用户后，单击 "**保存**"。
 
 ### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>将自定义应用权限策略分配给组中的用户
@@ -145,9 +145,12 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 3. 允许在组织级别的第三方应用。 若要执行此操作，请在左侧导航中，转到 "**团队应用** > **管理应用**"。 在应用列表中，单击应用名称的左侧以选择应用，然后选择 "**允许**"。
 4. [创建自定义应用权限策略](#create-a-custom-app-permission-policy)以允许应用，然后[将策略分配](#assign-a-custom-app-permission-policy-to-users)给所需的用户。
 
-## <a name="faq"></a>常见问题解答
+## <a name="faq"></a>常见问题
 
 ### <a name="working-with-app-permission-policies"></a>使用应用权限策略
+
+#### <a name="what-app-interactions-do-permission-policies-affect"></a>权限策略影响的应用交互是什么？
+权限策略通过控制最终用户的安装、发现和交互来控制应用的使用情况。 管理员仍然可以管理 Microsoft 团队管理中心中的应用，而不管分配给他们的权限策略如何。
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>是否可以控制业务线（LOB）应用？
 是的，你可以使用应用权限策略控制自定义（LOB）应用的推出和分发。 你可以创建自定义策略或编辑全局策略，以根据你的组织的需要允许或阻止自定义应用。
@@ -183,7 +186,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 旧版门户允许在组织级别控制应用，这意味着当应用被阻止时，组织中的所有用户都将阻止该应用。 在 "[管理应用程序](manage-apps.md)" 页面上阻止应用的工作方式完全相同。
 
-对于分配给特定用户的应用权限策略，如果允许使用机器人或连接器功能的应用，并且已被阻止，并且如果仅为共享上下文中的某些用户允许该应用，则不具有该应用权限的组聊天或频道的成员 可以查看由机器人或连接器发布的邮件历史记录和消息，但不能与其进行交互。
+对于分配给特定用户的应用权限策略，如果允许使用支持机器人或连接器功能的应用，并且该应用仅允许共享上下文中的某些用户，则不具有该应用权限的组聊天或频道的成员可以查看由 bot 或连接器发布的邮件历史记录和消息，但无法与之交互。
 
 ## <a name="related-topics"></a>相关主题
 
