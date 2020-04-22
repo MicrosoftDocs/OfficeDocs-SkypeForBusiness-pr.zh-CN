@@ -17,12 +17,12 @@ description: 了解如何创建你的第一个团队和通道、板载早期使�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139241"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777837"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "43139241"
 > [!IMPORTANT]
 > 最长可能需要等待 24 小时，更改才会生效。 
 
-**来宾**是 Microsoft 团队中的一种用户类型，其中包括所有 Office 365 Business Premium、Office 365 企业版、Office 365 Business Essentials 和 Office 365 教育版订阅。 无需额外的 Office 365 许可证。 请阅读下面的有关[来宾访问许可](#guest-access-licensing-limits)的详细信息。
+**来宾**是 microsoft 团队中的一种用户类型，其中包括所有 Microsoft 365 Business Standard、Office 365 企业版、Microsoft 365 Business Basic 和 Office 365 教育版订阅。 无需额外的 Office 365 许可证。 请阅读下面的有关[来宾访问许可](#guest-access-licensing-limits)的详细信息。
 
 Teams 来宾访问是租户级别设置，默认情况下关闭。 有关如何启用来宾访问的详细信息，请参阅[打开或关闭对团队的来宾访问](set-up-guests.md)，或使用[来宾访问清单](guest-access-checklist.md)引导你完成设置。
 
@@ -64,7 +64,7 @@ Access 评论适用于 Azure AD 高级 P2 版本，它包含在 Microsoft 企业
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>使来宾访问设置生效的延隔时间
 
-对于 Azure Active Directory 中的来宾访问设置，更改会在你的 Office 365 组织中生效2-24 小时。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾功能尚未打开，或者设置尚未生效。 有关设置来宾访问时出现问题的帮助，请阅读[团队中的来宾访问的疑难解答](troubleshoot-guest-access.md)。
+对于 Azure Active Directory 中的来宾访问设置，在 Microsoft 365 或 Office 365 中，所做的更改将需要2-24 小时才能生效。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾功能尚未打开，或者设置尚未生效。 有关设置来宾访问时出现问题的帮助，请阅读[团队中的来宾访问的疑难解答](troubleshoot-guest-access.md)。
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>外部访问（联合身份验证）与来宾访问

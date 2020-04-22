@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅 Skype for business Online 步骤，将电话拨入式会议许可证和会议 ID 分配给用户以及其他许多电话拨入式会议设置。 '
-ms.openlocfilehash: 46f55ba256759d86e93e9436e949ee49ff337f7c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986517"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777977"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在 Skype for Business Online 中管理我的组织的音频会议设置
 
@@ -43,7 +43,7 @@ ms.locfileid: "41986517"
 
  **为用户分配许可证**
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 在管理中心的左侧导航中，转到 "**用户** > **活动用户**"，然后从可用的用户列表中选择一个或一组用户。
 
@@ -59,9 +59,9 @@ ms.locfileid: "41986517"
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>启用或禁用发送给音频会议用户的电子邮件
 
-![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
+![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype for** business，然后在左侧导航中，单击 "**音频会议**"。
 
@@ -110,7 +110,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="reset-the-meeting-conference-id"></a>重置会议 ID
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
 
@@ -128,7 +128,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype for** business，然后在左侧导航中，单击 "**音频会议**"。
 
@@ -142,7 +142,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype for** business，然后在左侧导航中，单击 "**音频会议**"。
 
@@ -157,7 +157,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>设置邀请中包含的电话号码
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
 
@@ -175,7 +175,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 **设置呼叫者加入会议时的会议体验**
 
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
 
@@ -195,7 +195,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
   
  **设置会议的 PIN 长度**
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
 
@@ -209,7 +209,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
   
  **启用或禁用向音频用户发送电子邮件**
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype for** business，然后在左侧导航中，单击 "**音频会议**"。
 
@@ -226,7 +226,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议桥处查看和设置主要（默认）和辅助（备用）语言
 
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
 
@@ -240,7 +240,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>请参阅音频会议拨入号码
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
 
@@ -258,7 +258,7 @@ Users will receive an email with their PIN when they're enabled for audio confer
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>查看启用的用户的列表
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
 

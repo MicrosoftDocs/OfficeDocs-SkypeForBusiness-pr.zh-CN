@@ -15,12 +15,12 @@ f1.keywords:
 description: 了解如何更新团队桌面客户端。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8058fa1e79b7d415d03c08500213206579029042
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0a76fe4e0cfb896d1bd89a02acebc1c00dff8767
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832612"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776827"
 ---
 # <a name="teams-update-process"></a>团队更新流程
 
@@ -36,11 +36,11 @@ ms.locfileid: "41832612"
 
 从2019年7月31日开始，团队客户端更新在更新期间使用显著降低网络带宽。 默认情况下，此项处于打开状态，不需要管理员或用户执行任何操作。
 
-## <a name="what-about-updates-to-office-365-proplus"></a>Office 365 专业增强版的更新有哪些更新？
+## <a name="what-about-updates-to-microsoft-365-apps-for-enterprise"></a>对企业的 Microsoft 365 应用的更新有何更新？
 
-默认情况下，团队通过 office 365 专业增强版的全新安装进行安装，如[使用 office 365 专业增强版部署 Microsoft 团队](https://docs.microsoft.com/DeployOffice/teams-install)中所述。 
+默认情况下，团队与 microsoft 365 应用的新安装一起安装，如在[适用于企业的 microsoft 365 应用中部署 Microsoft 团队](https://docs.microsoft.com/DeployOffice/teams-install)中所述。 
 
-团队关注其自己的更新过程（如上文所述），而不是其他分支应用（如 Word 和 Excel）的更新过程。 若要了解详细信息，请参阅[Office 365 专业增强版更新频道概述](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+团队关注其自己的更新过程（如上文所述），而不是其他分支应用（如 Word 和 Excel）的更新过程。 若要了解详细信息，请阅读适用[于企业的 Microsoft 365 应用的更新频道概述](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>对 VDI 的团队更新有何区别？
 
@@ -56,7 +56,7 @@ ms.locfileid: "41832612"
 
 若要开始帮助确定桌面客户端何时过期，如果用户的当前版本介于1到3个月之间，并且有新版本可用，则会显示应用内警报。 此应用内消息鼓励用户更新到最新版本的团队，如有必要，可与 IT 管理员联系。 超过三个月的团队桌面客户端用户将看到一个阻止页面，该页面提供了立即更新、与 IT 管理员联系或继续使用 web 上的团队的选项。
 
-首次安装和/或首次运行团队后的桌面客户端版本超过了3个月，则在遇到上述服务信息之前将有28天的宽限期。 在此期间，自动更新过程将更新团队客户端。 如果未更新，用户将看到应用内警报鼓励他们手动更新到最新版本的团队，如有必要，请与 IT 管理员联系。 这包括使用团队桌面客户端作为 Office 365 专业增强版捆绑包的一部分的用户。
+首次安装和/或首次运行团队后的桌面客户端版本超过了3个月，则在遇到上述服务信息之前将有28天的宽限期。 在此期间，自动更新过程将更新团队客户端。 如果未更新，用户将看到应用内警报鼓励他们手动更新到最新版本的团队，如有必要，请与 IT 管理员联系。 这包括使用团队桌面客户端的用户作为适用于企业捆绑包的 Microsoft 365 应用的一部分。
 
 团队桌面客户在政府群上的桌面客户当前对此服务协议有例外，直到进一步通知。
 

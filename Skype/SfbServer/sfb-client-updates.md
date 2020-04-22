@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供有关永久版本的 Skype for business 2016、Skype for Business 2015 和 Lync 2013 客户端的最新更新信息的链接
-ms.openlocfilehash: 4ad81a06fd6360ecc62fdddeb694a1abad07eec3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8a6008845c4218c8682a22cbab110551999d19cb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42009585"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779698"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer （MSI）的 Skype for Business 版本的最新更新
 
@@ -25,7 +25,7 @@ ms.locfileid: "42009585"
 
 > [!NOTE]
 > - 本文中的信息仅适用于使用 Windows Installer （MSI）安装技术的 Skype for business 永久版本。 例如，如果您已安装 Skype for business 的批量许可版本，例如 Office Professional 随附的 Skype for business 加2016。
-> - 本文中的信息不适用于 Skype for business 的 Office 365 版本，例如 Office 365 专业增强版附带的 Skype for business。
+> - 本文中的信息不适用于 Skype for business 的 Office 365 版本，如适用于企业的 Microsoft 365 应用程序附带的 Skype for business。
 > - 有关最新的移动客户端更新，请转到移动客户端（iTunes、Google Play 或 Microsoft Store）的应用商店，以查看详细信息并安装更新。
 > - 若要了解你使用的是哪个版本的 Skype for business，请参阅[我拥有的 skype For business 版本？](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - 有关安装 Office 更新的详细信息，请参阅[安装 Office 更新](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)。

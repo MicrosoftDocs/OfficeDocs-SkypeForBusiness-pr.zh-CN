@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a3ee51fdbbda7c3d49ac5a7b2a65b977f8fb245
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 90ce02e773d20759b90ea090123823b6bf94d9ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137132"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779618"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安装与 Microsoft 团队的 Moodle 集成
 
@@ -73,7 +73,7 @@ Microsoft 团队中的 Moodle 集成由开放源[Office 365 Moodle 插件设置]
 
 > [!VIDEO https://www.youtube.com/embed/FpGEezaJ3SA]
 
-接下来，你需要在 Azure Active Directory 中将 Moodle 注册为应用程序。 我们提供了一个 PowerShell 脚本来帮助你完成此过程。 PowerShell 脚本为 Office 365 租户预配新的 Azure AD 应用程序，该应用程序将由 Office 365 Moodle 插件使用。 该脚本将为 O365 租户设置应用，为预配的应用设置所有所需的答复 Url 和权限，并返回 AppID 和 Key。 你可以在 O365 Moodle 插件设置页面中使用生成的 AppID 和 Key，使用 Azure AD 配置 Moodle 服务器。 如果你想要查看 PowerShell 脚本自动化的详细手动步骤，你可以在插件的完整[文档](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)中找到它们。
+接下来，你需要在 Azure Active Directory 中将 Moodle 注册为应用程序。 我们提供了一个 PowerShell 脚本来帮助你完成此过程。 PowerShell 脚本为 Office 365 组织设置新的 Azure AD 应用程序，该应用程序将由 Office 365 Moodle 插件使用。 该脚本将为 O365 租户设置应用，为预配的应用设置所有所需的答复 Url 和权限，并返回 AppID 和 Key。 你可以在 O365 Moodle 插件设置页面中使用生成的 AppID 和 Key，使用 Azure AD 配置 Moodle 服务器。 如果你想要查看 PowerShell 脚本自动化的详细手动步骤，你可以在插件的完整[文档](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)中找到它们。
 
 ### <a name="moodle-tab-for-microsoft-teams-information-flow"></a>Microsoft 团队信息流的 Moodle 选项卡
 

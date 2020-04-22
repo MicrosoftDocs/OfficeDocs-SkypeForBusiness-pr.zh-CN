@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b5607e9405a777329efa6ad3bb58e204e03879a9
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706962"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776757"
 ---
 # <a name="operate-your-service"></a>运行服务
 
@@ -41,7 +41,7 @@ ms.locfileid: "42706962"
 
 对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实现了与现有服务相关联的流程和任务。 也就是说，计划服务管理以便将来支持团队时，您可能会增加当前流程。
 
-服务管理包括管理团队结束的所有活动和过程。 如前面所述，某些服务管理组件（Office 365 服务本身所包含的基础结构）是 Microsoft 的责任，而你的客户对你的用户负责管理团队、网络的各个方面。以及你提供的终结点。
+服务管理包括管理团队结束的所有活动和过程。 正如前面所述，Office 365 服务本身所包含的基础结构是 Microsoft 的责任，而你的客户对你的用户负责管理你提供的团队、网络和终结点的各个方面。
 
 本指南中的任务和活动按下图所示分为八个类别。 这些类别中的每一个都将在以下部分展开。
 
@@ -114,7 +114,7 @@ Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提�
 
 | 监视工具 | 优势 | 何时使用 |
 |---|---|---|
-| Office 365 门户 | 在具有支持的浏览器的任何设备中可用。 | 在不需要实时通知时使用。 |
+| Microsoft 365 管理中心 | 在具有支持的浏览器的任何设备中可用。 | 在不需要实时通知时使用。 |
 | Office 365 管理应用 | 向移动设备提供推送通知。 | 当您在旅途中需要通知服务事件时，请使用。 |
 | Microsoft System Center | 与 Microsoft System Center 集成。 | 在需要高级监视功能和通知支持时使用。 |
 | Office 365 服务通信 API | 以编程方式访问 Office 365 服务运行状况。 | 在需要与第三方监视工具集成或希望构建自己的解决方案时使用。 |
@@ -122,9 +122,9 @@ Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提�
 > [!NOTE]
 > 只有分配有**全局管理员**或**服务管理员**角色的人员才能查看服务运行状况。
 
-### <a name="monitoring-with-the-office-365-portal"></a>通过 Office 365 门户进行监视
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>通过 Microsoft 365 管理中心进行监视
 
-[Office 365 门户](https://portal.office.com/)提供了[服务运行状况仪表板](https://portal.office.com/adminportal/home#/servicehealth)，您可以在其中查看团队服务的当前运行状况以及相关服务。
+[Microsoft 365 管理中心](https://portal.office.com/)提供一个[服务运行状况仪表板](https://portal.office.com/adminportal/home#/servicehealth)，你可以在其中查看团队服务的当前运行状况以及相关服务。
 
 ### <a name="monitoring-with-the-mobile-app"></a>通过移动应用进行监控
 
@@ -488,7 +488,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 
 ### <a name="team-creation-optional"></a>团队创建（可选）
 
-默认情况下，在 Exchange Online 中具有邮箱的所有用户都具有创建 Office 365 组的权限，因此是 Microsoft 团队中的团队。 如果你希望更严格地控制和[限制新团队的创建](assign-roles-permissions.md#permissions-to-create-teams)（从而创建新的 Office 365 组），你可以将组创建和管理权限委派给一组管理员。 如果你的组织想要使用此选项，请参阅本文中所述的过程，以允许用户提交由分配的团队处理的请求。
+默认情况下，在 Exchange Online 中拥有邮箱的所有用户都具有创建 Microsoft 365 组的权限，因此是 Microsoft 团队中的团队。 如果你希望更严格地控制和[限制新团队的创建](assign-roles-permissions.md#permissions-to-create-teams)（从而创建新的 Microsoft 365 组），你可以将组创建和管理权限委派给一组管理员。 如果你的组织想要使用此选项，请参阅本文中所述的过程，以允许用户提交由分配的团队处理的请求。
 
 <!--ENDOFSECTION-->
 

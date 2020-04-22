@@ -12,12 +12,12 @@ ms:contentKeyID: 48183925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fa0bae9909015ca8cefe52cc09dabbe7a4419b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6ad8735834ab004753444849c529cb4ceec18c16
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190447"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776707"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +41,7 @@ Lync 2013 引入了不同的客户端部署方法。 在以前版本的出发期
 
   - **Office 2013 Windows installer**是一个基于 Windows installer 的安装程序包，它包含多个 MSI 文件。 一个与语言无关的核心 MSI 包与一个或多个特定语言的包组合在一起构成了完整产品。 在用户计算机上安装 Office 的过程中以及安装之后，安装程序将组合各个包并执行自定义和维护任务。 本节中的主题介绍如何使用和自定义 Office 2013 Windows 安装程序以部署 Lync 2013。
 
-  - **Office 2013 即点**即用是从 Microsoft office 365 门户将 Office 安装程序文件流式传输到用户的安装程序。 通过使用针对即点即用的 Office 部署工具，管理员可以自定义安装。 由于 Office 2013 即点即用在 Microsoft Office 365 环境中，因此本部分中不详细介绍了此安装方法。 Office 2013 资源工具包文档中提供了有关使用和自定义即点即用安装的详细信息。 管理员还可以将 Office 2013 即点即用程序和语言源文件下载到本地位置，这在您希望最大限度地减少网络上的需求或阻止用户从 Internet 安装软件时非常有用，因为公司安全要求。
+  - **Office 2013 即点**即用是从 Microsoft 365 管理中心将 Office 安装程序文件流式传输到用户的安装程序。 通过使用针对即点即用的 Office 部署工具，管理员可以自定义安装。 由于 Office 2013 即点即用在 Microsoft Office 365 环境中，因此本部分中不详细介绍了此安装方法。 Office 2013 资源工具包文档中提供了有关使用和自定义即点即用安装的详细信息。 管理员还可以将 Office 2013 即点即用程序和语言源文件下载到本地位置，这在您希望最大限度地减少网络上的需求或防止用户因公司安全要求而从 Internet 安装软件时非常有用。
 
 本节中的主题重点介绍如何使用基于 Office 2013 MSI 的安装程序部署客户端。 您的主要参考应是 Office 2013 资源工具包文档，其中详细介绍了如何准备基础结构、自定义安装程序和部署 Office 2013。 但是，应将 Office 文档与本节中的主题结合使用，以指出特定于 Lync 2013 的部署注意事项。
 

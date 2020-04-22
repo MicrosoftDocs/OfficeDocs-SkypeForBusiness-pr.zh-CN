@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解加载项许可证、功能以及如何购买 Office 365 企业版 E1 和 E3 计划。 '
-ms.openlocfilehash: 18a15c59b93fa0f426c780028b0029dd909abb2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cc29a9cc353f9d0068aeb65b10179f4adfdc804
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029363"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780491"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 企业版（E1 和 E3）
 
@@ -67,7 +67,7 @@ E3 计划包含在你的 Action Pack 中。 若要购买电话系统和音频会
 
 在某些情况下，在 Microsoft 365 管理中心中看不到用于购买 Microsoft 团队外接程序的选项：
 
-- **你已通过 GoDaddy 购买了 Office 365 商业高级版** 。 在这种情况下，您不能购买 Microsoft 团队加载项。 您需要切换到 E3 计划，然后即可购买。 [联系 Office 365 商业版支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **您通过 GoDaddy 购买了 Microsoft 365 商业标准**。 在这种情况下，您不能购买 Microsoft 团队加载项。 您需要切换到 E3 计划，然后即可购买。 [联系商业版产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

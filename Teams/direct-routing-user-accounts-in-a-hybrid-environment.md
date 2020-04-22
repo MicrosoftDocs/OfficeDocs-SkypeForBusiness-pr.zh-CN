@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解用户创建的不同组合以及支持或不支持的组合。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141075"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779991"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>采用 PSTN 连接的混合环境中的用户帐户
 
@@ -31,7 +31,7 @@ ms.locfileid: "43141075"
 本文适用于您拥有以下所有内容的环境： 
  
 - Skype for Business 服务器或 Lync Server 2013 
-- Office 365 租户 
+- Office 365 组织 
 - 在 Skype for Business 服务器与 Skype for business Online 或 Microsoft 团队租户之间配置的混合连接 
 - 在客户端上启用和接收公共交换电话网络（PSTN）呼叫的用户
 

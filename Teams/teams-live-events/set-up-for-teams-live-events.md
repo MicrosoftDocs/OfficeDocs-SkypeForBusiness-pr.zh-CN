@@ -18,12 +18,12 @@ description: 在 Teams 中为实时事件进行设置，包括设置网络、分
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: df54e90f2c895ebf7090fbec2487aae52bd53d66
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749799"
+ms.locfileid: "43779951"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -97,7 +97,7 @@ ms.locfileid: "43749799"
 
 为了让用户安排使用外部应用或设备制作的事件，你还必须执行以下操作：
 
-1. 为组织中的用户启用 Microsoft Stream。 Stream 可作为符合条件的 Office 365 订阅的一部分或作为独立服务提供。 Stream 未包含在商业协作版或商业高级版计划中。 有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。
+1. 为组织中的用户启用 Microsoft Stream。 流可作为符合条件的 Microsoft 365 或 Office 365 订阅的一部分，或用作独立服务。 Stream 未包含在商业协作版或商业高级版计划中。 有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。
 
       深入了解如何[将许可证分配给 Office 365 中的用户](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Stream。 请确保不会阻止用户使用 Stream，正如[此文](https://docs.microsoft.com/stream/disable-user-organization)中所述。
 

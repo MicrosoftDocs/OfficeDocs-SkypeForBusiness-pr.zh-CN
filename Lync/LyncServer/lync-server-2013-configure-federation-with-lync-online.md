@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 957a0f338d0669d0c99570b541d6ddb4753c1145
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197745"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**上次修改的主题：** 2016-08-15_
 
 ## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>为使用 Skype for Business Online 的联盟配置本地边缘服务
 
-联合身份验证允许本地部署中的用户与组织中的 Office 365 用户进行通信。 若要配置联合，请运行以下 cmdlet：
+联合身份验证允许本地部署中的用户与组织中的 Microsoft 365 或 Office 365 用户进行通信。 若要配置联合，请运行以下 cmdlet：
 
    ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
@@ -63,7 +63,7 @@ _**上次修改的主题：** 2016-08-15_
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>为共享的 SIP 地址空间配置 Skype for Business Online 租户
 
-会话初始协议（SIP）地址是网络上每个用户的唯一标识符，类似于电话号码或电子邮件地址。 在尝试将 Lync 用户从本地迁移到 Skype for business Online 之前，需要将 Office 365 租户配置为与本地部署共享共享会话初始协议（SIP）地址空间。 如果未配置此设置，您可能会看到以下错误消息：
+会话初始协议（SIP）地址是网络上每个用户的唯一标识符，类似于电话号码或电子邮件地址。 在尝试将 Lync 用户从本地迁移到 Skype for business Online 之前，需要将 Office 365 组织配置为与本地部署共享共享会话初始协议（SIP）地址空间。 如果未配置此设置，您可能会看到以下错误消息：
 
 Move-Get-csuser： HostedMigration fault： Error = （510），Description = （此用户的租户未启用共享 sip 地址空间。）
 

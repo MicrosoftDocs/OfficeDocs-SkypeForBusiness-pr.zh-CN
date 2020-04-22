@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 2b9cea6e7a4bcb3f7fc34bdf67e77353412d9e13
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 03e92118fd915582030b5259654664121ca96c50
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706307"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777137"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>打开或关闭脱机消息（面向管理员）
 
@@ -62,7 +62,7 @@ ms.locfileid: "41706307"
 
 1. From the **Start Menu** > **Windows PowerShell**.
 
-2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
+2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
 
     > [!NOTE]
     > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
@@ -90,7 +90,7 @@ ms.locfileid: "41706307"
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-若要启用或禁用脱机消息，请为用户发送脱机消息__ ，将`True` EnableIMAutoArchiving `False`设置为或。 默认情况下设置为  `True`。 可以使用现有策略，也可以创建类似于下面的示例的策略。
+若要启用或禁用脱机消息，请为用户发送脱机消息_EnableIMAutoArchiving_ ，将`True` EnableIMAutoArchiving `False`设置为或。 默认情况下设置为  `True`。 可以使用现有策略，也可以创建类似于下面的示例的策略。
 
 
   ```PowerShell

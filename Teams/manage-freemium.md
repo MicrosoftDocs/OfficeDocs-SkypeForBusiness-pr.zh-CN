@@ -18,19 +18,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 247f2b855e3dfc66c3b5b2ef874962bdb2631736
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: bb766eb7f1e5e8ef98afc540bdbb5264877b8142
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170570"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780031"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>管理 Microsoft Teams 的免费版本
 ==========================================
 
 在 Microsoft 团队的免费版本中，第一个注册组织的人员具有有限的管理员角色。 具有此受限角色的人员可以添加和删除团队成员，并指定任何人是否可以邀请其他成员，但此用户没有高级管理功能，也不能访问 Microsoft 团队管理中心。 若要了解详细信息，请阅读[邀请他人加入团队（免费）](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)。
 
-若要获取完整的团队功能集（包括增强的管理），需要通过为用户购买 Office 365 订阅计划来[升级到团队的完整版本](upgrade-freemium.md)。 
+若要获取完整的团队功能集（包括增强的管理），您需要通过购买适用于您的用户的 Microsoft 365 或 Office 365 订阅计划来[升级到团队的完整版本](upgrade-freemium.md)。 
 
 若要了解有关团队版本及其功能的详细信息，请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
 
@@ -39,7 +39,7 @@ ms.locfileid: "43170570"
 ## <a name="more-information"></a>更多信息
 
 - 有关团队和团队之间的差异的快速摘要，请参阅[Microsoft 团队和 Microsoft 团队免费之间的差异](https://support.office.com/article/0b69cf39-eb52-49af-b255-60d46fdf8a9c)。 
-- 有关升级到团队的完整版的详细信息，请参阅[从团队免费升级到团队](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39)并[免费升级到 Office 365 订阅版本的 Microsoft 团队](upgrade-freemium.md)。
+- 有关升级到团队的完整版的详细信息，请参阅[从团队免费升级到团队](https://support.office.com/article/29475bbd-a34f-4175-9b33-d44430f8ad39)和[升级 Microsoft 团队免费订阅版本](upgrade-freemium.md)。
 - 若要开始使用与升级用户相关联的其他管理任务（包括添加用户许可证、更改用户名和分配临时密码），请参阅[用于从团队免费升级到付费订阅的管理员](https://support.office.com/article/75a95e7f-001e-42d0-a787-ae8b992d5a52)。
 
 ## <a name="get-the-right-teams-trial"></a>获得合适的团队试用版

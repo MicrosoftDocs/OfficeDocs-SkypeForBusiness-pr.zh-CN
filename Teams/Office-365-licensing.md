@@ -1,5 +1,5 @@
 ---
-title: 适用于 Microsoft Teams 的 Office 365 许可
+title: Microsoft 团队的 microsoft 365 和 Office 365 许可
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,24 +19,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0a6c14c3fba7e5a303200499c4d158edfb56473
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 5b3dcb5b7859c491470c274b5700eae32b2ac274
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170360"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778568"
 ---
-<a name="office-365-licensing-for-microsoft-teams"></a>适用于 Microsoft Teams 的 Office 365 许可
-========================================
+<a name="microsoft-365-and-office-365-licensing-for-microsoft-teams"></a>Microsoft 团队的 microsoft 365 和 Office 365 许可
+==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-以下 Office 365 订阅使用户可以使用团队。
+以下 Microsoft 365 和 Office 365 订阅使用户可以使用团队。
 
 |小型企业版计划  |企业版计划  |教育版计划  |开发人员计划 |
 |---------|---------|---------|---------|
-|Office 365 商业协作版     |Office 365 企业版 E1  |Office 365 教育版 |Office 365 开发人员     |
-|Office 365 商业高级版     |Office 365 企业版 E3         |Office 365 教育增强版         |      |
+|Microsoft 365 商业版基本版     |Office 365 企业版 E1  |Office 365 教育版 |Office 365 开发人员     |
+|Microsoft 365 商业标准     |Office 365 企业版 E3         |Office 365 教育增强版         |      |
 |Microsoft 365 for business     |Office 365 企业版 E4（已停用）         |Office 365 教育版 E3（已停用）         |  |
 |     |Office 365 企业版 E5         |Office 365 教育版 E5  | 
 |     |Office 365 企业版 F1 |    |     | 
@@ -52,7 +52,7 @@ ms.locfileid: "43170360"
 > [!NOTE]
 > 如果所选许可证的应用中列出了 Skype for Business Online，请不要将其删除。 如果它列出并被删除，团队用户设置将不会成功完成。
         
-在团队核心功能方面，Office 365 订阅之间没有区别。 合规性功能的可用性依赖于正确的订阅级别。 要了解详细信息，请阅读 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。 有关每个订阅中可用的功能的详细列表，请参阅[Office 365 平台服务说明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)。
+在团队核心功能方面，订阅之间没有区别。 合规性功能的可用性依赖于正确的订阅级别。 要了解详细信息，请阅读 [Teams 中的安全性和合规性概述](security-compliance-overview.md)。 有关每个订阅中可用的功能的详细列表，请参阅[Office 365 平台服务说明](https://technet.microsoft.com/library/office-365-platform-service-description.aspx)。
 
 **云语音功能**：对于音频会议，你的组织将需要为每个将要设置电话拨入式会议的用户购买和分配一个音频会议许可证。 对于呼叫计划，每个用户都需要一个电话系统以及一个国内或国内和国际呼叫计划。 若要了解详细信息，请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 

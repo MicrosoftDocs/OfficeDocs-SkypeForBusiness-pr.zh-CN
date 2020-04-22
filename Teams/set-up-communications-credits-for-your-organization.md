@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
-ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889411"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779739"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -56,7 +56,7 @@ ms.locfileid: "41889411"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步骤2：为你的组织设置通讯信用点数
 
-1. 使用你的工作或学校帐户登录到新的 Office 365 门户。
+1. 使用你的工作或学校帐户登录到新的 Microsoft 365 管理中心。
     
 2. 在 Microsoft 365 管理中心的左侧导航中，转到 "**帐单** > **购买服务**"。 向下滚动，然后选择 "**加载项**"。
 
@@ -89,7 +89,7 @@ ms.locfileid: "41889411"
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步骤3：为用户分配通讯信用许可证
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
     
 2. 在 Microsoft 365 管理中心的左侧导航中，转到 "**用户** > **活动用户**"，然后从列表中选择一个或一个用户。
     
@@ -118,7 +118,7 @@ ms.locfileid: "41889411"
 
 - [设置 Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [设置云语音邮件 - 管理帮助](set-up-phone-system-voicemail.md)
+- [设置云语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
     
 - [设置通话套餐](set-up-calling-plans.md) 和 [Office 365 的通话套餐](calling-plans-for-office-365.md)
     

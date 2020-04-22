@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139581"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780611"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>计划将 StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -40,7 +40,7 @@ ms.locfileid: "43139581"
 |---------|---------|---------|
 |1    |准备和识别利益干系人         |         |
 |ppls-2     |查看有关从 StaffHub 切换到团队和团队成员的文档         |[StaffHub 已停用](microsoft-staffhub-to-be-retired.md)<br><br>[将 StaffHub 团队移动到团队中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[开始使用 Teams](../../get-started-with-teams-quick-start.md)         |
-|3    |为你的组织启用 Office 365 组        |[Office 365 组和团队](../../Office-365-groups.md)      |
+|3    |为你的组织启用 Microsoft 365 组        |[Microsoft 365 组和团队](../../Office-365-groups.md)      |
 |4    |请确保满足先决条件         |[检查是否满足先决条件](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |将团队许可证分配给组织中的 StaffHub 用户|[分配 Teams 许可证](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[管理用户对 Teams 的访问管理](../../user-access.md)      |
 |6    |安装 StaffHub PowerShell 模块        |[安装 StaffHub PowerShell 模块](install-the-staffhub-powershell-module.md)        |

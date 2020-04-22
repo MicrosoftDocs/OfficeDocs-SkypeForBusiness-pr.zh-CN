@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 呼叫共享和群组通话分拣允许用户与同事共享传入呼叫，以便可以在用户不可用时捕获呼叫。
-ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141285"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780781"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
@@ -49,7 +49,7 @@ Microsoft 团队的呼叫共享和组呼叫功能允许用户与同事共享传�
 
 若要设置组呼叫装货，用户首先配置呼叫组（这与安全组或 Office 365 组不同），然后添加他们想要与之共享呼叫的用户。 然后，选择 "同时拨打" 或 "呼叫转接" 设置。 有关详细信息和分步过程，请参阅[团队中的呼叫转接和同时拨打](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)。
 
-呼叫组创建和通知首选项是用户驱动的功能;管理员不必为其用户配置这些功能。 无法从安全组或 Office 365 组创建呼叫组;它们必须在团队中创建。
+呼叫组创建和通知首选项是用户驱动的功能;管理员不必为其用户配置这些功能。 无法从安全组或 Microsoft 365 组创建呼叫组;它们必须在团队中创建。
 
 管理员应通过用户的**TeamsCallingPolicy AllowCallGroups**设置启用呼叫组。 管理员还可以通过团队管理员门户启用此操作。  此外，已配置的用户还可以直接通过客户端配置其呼叫组。 管理员或最终用户不能互相阻止配置，但团队管理员门户和团队客户应在这两个位置准确地显示这种关系。 
 

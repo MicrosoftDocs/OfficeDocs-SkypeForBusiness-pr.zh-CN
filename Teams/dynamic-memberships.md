@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44b7a87a003b59543c37feb278462e839d83bd1e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863303"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780181"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 
-Microsoft 团队支持使用*动态成员身份*与 Office 365 组相关联的团队。 动态成员资格允许团队的成员身份由一个或多个在 Azure Active Directory （Azure AD）中检查特定用户属性的规则定义。 当用户属性发生更改或用户加入并离开租户时，用户将自动添加或删除到正确的团队。
+Microsoft 团队支持使用*动态成员身份*与 microsoft 365 组相关联的团队。 动态成员资格允许团队的成员身份由一个或多个在 Azure Active Directory （Azure AD）中检查特定用户属性的规则定义。 当用户属性发生更改或用户加入并离开租户时，用户将自动添加或删除到正确的团队。
 
 利用动态成员身份，你可以为组织中的某些用户设置团队 cohorts。 可能的方案包括：
 - 医院可以为护士、医生和 surgeons 创建独特的团队来广播通信。 如果医院依靠 temp 员工，这一点尤其重要。
@@ -48,7 +48,7 @@ Microsoft 团队支持使用*动态成员身份*与 Office 365 组相关联的�
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>使用 O365 组创建新团队
 
-现在，允许成员身份更改生效，并创建新团队，如[使用 Microsoft 团队增强现有 Office 365 组](enhance-office-365-groups.md)中所述。
+现在，允许成员身份更改生效，并创建新团队，如[使用 Microsoft 团队增强现有 Microsoft 365 组](enhance-office-365-groups.md)中所述。
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>将动态成员身份应用于现有团队
 

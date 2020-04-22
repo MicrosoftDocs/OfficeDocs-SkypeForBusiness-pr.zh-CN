@@ -12,12 +12,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c6cfa255eddc998047f5b404d59b7e6622fbaae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b09ca3c5a80215c0a2d63a018150361671df6859
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204359"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,11 +65,11 @@ _**上次修改的主题：** 2014-05-29_
 
 为**HostedMigrationOverrideUrl**参数指定的 url 的格式必须是运行托管迁移服务的池的 url，格式如下：
 
-Https://\<池 FQDN\>/hostedmigration/hostedmigrationservice.svc。 您可以通过查看适用于 Office 365 租户帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
+Https://\<池 FQDN\>/hostedmigration/hostedmigrationservice.svc。 您可以通过查看 Office 365 组织帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
 
-**确定 Office 365 租户的托管迁移服务 URL**
+**确定 Office 365 组织的托管迁移服务 URL**
 
-1.  以管理员身份登录到 Office 365 租户。
+1.  以管理员身份登录到 Office 365 组织。
 
 2.  打开**Lync 管理中心**。
 

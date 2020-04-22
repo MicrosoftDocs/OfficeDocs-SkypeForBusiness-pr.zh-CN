@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为你的用户设置云语音邮件。 '
-ms.openlocfilehash: dc771847db8dca52d22b4c1db1b8ae585b99f8e4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227496"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779728"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -71,7 +71,7 @@ ms.locfileid: "43227496"
 
 默认情况下，为所有组织和用户启用语音邮件转录并禁用转录亵渎屏蔽；但是，你可以使用 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) 和 [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) cmdlet 对其进行控制。
 
-您的组织中的用户收到的语音邮件是 transcribed 在托管 Office 365 租户的区域中。 租户的托管区域可能与接收语音邮件消息的用户所在的区域不同。 若要查看租户的托管区域，请转到 "[组织配置文件](https://go.microsoft.com/fwlink/p/?linkid=2067339)" 页面，然后单击 "**数据位置**" 旁边的 "**查看详细信息**"。
+您的组织中的用户收到的语音邮件在托管 Office 365 组织的区域中 transcribed。 租户的托管区域可能与接收语音邮件消息的用户所在的区域不同。 若要查看租户的托管区域，请转到 "[组织配置文件](https://go.microsoft.com/fwlink/p/?linkid=2067339)" 页面，然后单击 "**数据位置**" 旁边的 "**查看详细信息**"。
 
 > [!IMPORTANT]
 > 您不能使用**且**cmdlet 创建用于脚本的新策略实例并使用脚本猥亵屏蔽，并且不能使用**且**cmdlet 删除现有策略实例。

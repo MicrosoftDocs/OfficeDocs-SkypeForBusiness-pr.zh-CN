@@ -12,12 +12,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de478ddf104f36fc208f2773c26c772b2cc0addd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195335"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2013-12-03_
 
 ## <a name="enabling-multi-factor-authentication-for-lync-windows-store-app"></a>为 Lync Windows 应用商店应用启用多重身份验证
 
-Lync Server 2013 的累积更新：六月2013为 Lync Windows 应用商店应用程序客户端添加对多重身份验证的支持。 除了用户名和密码之外，还可以要求其他身份验证方法（如智能卡或 Pin），以便在外部用户登录 Lync 会议时对其进行身份验证。 若要启用多重身份验证，请在 Lync Server 2013 中部署 Active Directory 联合身份验证服务（AD FS）联合服务器并启用被动身份验证。 配置 AD FS 后，尝试加入 Lync 会议的外部用户将显示一条 AD FS 多重身份验证网页，其中包含用户名和密码质询以及已配置的任何其他身份验证方法.
+Lync Server 2013 的累积更新：六月2013为 Lync Windows 应用商店应用程序客户端添加对多重身份验证的支持。 除了用户名和密码之外，还可以要求其他身份验证方法（如智能卡或 Pin），以便在外部用户登录 Lync 会议时对其进行身份验证。 若要启用多重身份验证，请在 Lync Server 2013 中部署 Active Directory 联合身份验证服务（AD FS）联合服务器并启用被动身份验证。 配置 AD FS 后，尝试加入 Lync 会议的外部用户将显示一条 AD FS 多重身份验证网页，其中包含用户名和密码质询以及您已配置的任何其他身份验证方法。
 
 <div class=" ">
 
@@ -138,7 +138,7 @@ Lync Windows 应用商店应用可能无法通过网络适配器（如 4G LTE US
 
 ## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a>由于证书名称验证失败，Lync Windows 应用商店应用无法登录
 
-未运行最新版本的 Lync Windows 应用商店应用程序的 Office 365 用户可能会发生登录问题。 此问题通常发生在使用多个域（例如，SIP URI 为**userA@domainZ.com** ，但边缘服务器为**sip.domainX.com**）时。 若要解决此问题，用户应安装最新版本的 Lync Windows 应用商店应用，这也需要 Windows 8.1。
+如果 Microsoft 365 或 Office 365 用户未运行最新版本的 Lync Windows 应用商店应用程序，则可能会发生登录问题。 此问题通常发生在使用多个域（例如，SIP URI 为**userA@domainZ.com** ，但边缘服务器为**sip.domainX.com**）时。 若要解决此问题，用户应安装最新版本的 Lync Windows 应用商店应用，这也需要 Windows 8.1。
 
 </div>
 

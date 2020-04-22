@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 在组织中的人员可以使用 Skype 会议直播之前，您需要启用它。若要执行此操作，您需要了解如何使用 Windows PowerShell。如果不知道 Windows PowerShell，请考虑聘用 Microsoft 合作伙伴来为你执行此步骤。
-ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010605"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778117"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>启用 Skype 会议直播
 
@@ -33,9 +33,9 @@ ms.locfileid: "42010605"
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>使用 Skype for Business 管理中心启用 Skype 会议直播
 
-![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
+![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-1. 在处[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)登录 Office 365 全局管理员帐户或 Skype for business 管理员帐户。
+1. 在上[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)用全局管理员帐户或 Skype for business 管理员帐户登录。
     
 2. 在管理中心，转到 "**管理中心** > "**团队**。
     
@@ -55,7 +55,7 @@ ms.locfileid: "42010605"
     
 6. 从 "**开始" 菜单**中，选择 " **Windows PowerShell**"。
     
-7. 在" **Windows PowerShell**"窗口，通过运行以下命令连接到你的 Office 365 组织：
+7. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
     
    ```PowerShell
    $Credential = get-credential

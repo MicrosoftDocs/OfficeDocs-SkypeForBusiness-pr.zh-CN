@@ -1,5 +1,5 @@
 ---
-title: 在 Office 365 中预配 Skype 会议室系统帐户
+title: 在 Microsoft 365 和 Office 365 中预配 Skype 会议室系统帐户
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: 阅读本主题，了解如何在 Office 365 中设置 Skype 会议室系统帐户。
-ms.openlocfilehash: 141c833bcbdd744a7577c0762cb8ba55dd3d5c54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 阅读本主题，了解如何在 Microsoft 365 或 Office 365 中设置 Skype 会议室系统帐户。
+ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037722"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779708"
 ---
-# <a name="provisioning-skype-room-system-accounts-in-office-365"></a>在 Office 365 中预配 Skype 会议室系统帐户
+# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在 Microsoft 365 和 Office 365 中预配 Skype 会议室系统帐户
  
 阅读本主题，了解如何在 Office 365 中设置 Skype 会议室系统帐户。
   
-以下部分介绍了 Office 365 租户的 Skype 会议室系统帐户设置。
+以下部分介绍了 Office 365 组织的 Skype 会议室系统帐户设置。
   
-## <a name="office-365-prerequisites"></a>Office 365 先决条件
+## <a name="microsoft-365-and-office-365-prerequisites"></a>Microsoft 365 和 Office 365 先决条件
 
 您的联机租户必须满足以下要求：
   
-- Office 365 计划必须包括 Skype for Business Online 计划2或 Office 365 E1、E3 或 E5。 <br/>有关 Skype for business Online 计划的详细信息，请参阅[skype For Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。
+- Microsoft 365 或 Office 365 计划必须包括 Skype for Business Online 计划2或 Office 365 E1、E3 或 E5。 <br/>有关 Skype for business Online 计划的详细信息，请参阅[skype For Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。
     
 - 你的租户必须启用 Skype for Business 的会议功能。
     
@@ -99,7 +99,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 ## <a name="skype-for-business-online-provisioning"></a>Skype for Business Online 设置
 
-在创建并按之前显示的那样启用了 resource 会议室邮箱帐户之后，并且已为 Skype For business Online 授权帐户，该帐户将使用从 Exchange Online 林同步到 Skype for business Online 林，具体方法是使用Windows Azure Active Directory 林。 若要在 Skype for business Online 池中预配 Skype 会议室系统帐户，需要执行以下步骤。 对于现有资源邮箱帐户或新创建的帐户（confrm1 或 confrm2），这些步骤都相同，因为它们在 Exchange Online 中启用后，这两个帐户将以相同的方式同步到 Skype for business Online：
+在创建并按之前显示的那样启用了 resource 会议室邮箱帐户之后，并且已为 Skype For business Online 授权帐户，该帐户将使用 Windows Azure Active Directory 林从 Exchange Online 林同步到 Skype for business Online 林。 若要在 Skype for business Online 池中预配 Skype 会议室系统帐户，需要执行以下步骤。 对于现有资源邮箱帐户或新创建的帐户（confrm1 或 confrm2），这些步骤都相同，因为它们在 Exchange Online 中启用后，这两个帐户将以相同的方式同步到 Skype for business Online：
   
 1. 创建远程 PowerShell 会话。 请注意，你将需要下载 Skype for Business Online 连接器模块和 Microsoft Online Services 登录助手，并确保已配置你的计算机。 有关详细信息，请参阅[设置适用于 Windows PowerShell 的计算机](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
     

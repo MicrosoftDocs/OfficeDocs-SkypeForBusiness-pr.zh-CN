@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749859"
+ms.locfileid: "43780581"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南 
 
@@ -70,16 +70,16 @@ _图 1-本指南中涵盖的关键操作区域_
 
 |  |查看报表  |查看 EUII 字段  |创建报表  |上载构建数据  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Office 365 全局管理员     |必需         |是          |是          |是          |
+|全局管理员     |必需         |是          |是          |是          |
 |Teams 服务管理员     |必需         |是          |是          |是          |
 |Teams 通信管理员     |必需         |是          |是          |是          |
 |Teams 通信支持工程师     |必需         |是          |是         |否         |
 |团队沟通支持专家     |是         |否         |是         |否         |
 |Skype for Business 管理员     |必需         |是          |是          |是          |
 |Azure AD 全局阅读器 |必需         |是          |是         |否         |
-|Office 365 报告阅读器<sup>1</sup>     |是         |否         |是         |否         |
+|Microsoft 365 报告阅读器<sup>1</sup>     |是         |否         |是         |否         |
 
-<sup>1</sup>除了阅读 CQD 报表，Office 365 报表读者还可以查看管理中心中的所有[活动报表](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)和[Microsoft 365 采纳内容包](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的所有报表。
+<sup>1</sup>除了阅读 CQD 报表，Microsoft 365 报表读者还可以查看管理中心中的所有[活动报表](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)以及[Microsoft 365 采纳内容包](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的所有报表。
 
 > [!NOTE]
 > 如果您没有看到 EUII （最终用户的可识别信息），并且您拥有允许查看此信息的角色之一，请记住 CQD 仅保留30天的 EUII。 将删除30天之前的任何内容。
@@ -598,7 +598,7 @@ _表 4-报表筛选器_
 2. 使用 Office 365 管理凭据进行身份验证。
 
    > [!NOTE]
-   > 您必须拥有 Office 365 全局管理员、Skype for business 管理员或报表读者角色才能访问 CQD。 
+   > 您必须具有全局管理员、Skype for business 管理员或报表读者角色才能访问 CQD。 
 
 3. 选择页面顶部的 "**摘要报告**" 菜单，然后选择 "**详细报告**"。
 
@@ -1189,7 +1189,7 @@ _图 30-客户端版本报告_
 Skype for Business 的版本号可通过以下链接找到：
 
 -   [Office 专业增强版更新的发布信息](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Office 365 的更新历史记录专业增强版](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [适用于企业的 Microsoft 365 应用的更新历史记录](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Skype for Business 下载和更新](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>设备

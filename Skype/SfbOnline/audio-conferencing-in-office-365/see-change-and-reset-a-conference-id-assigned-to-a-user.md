@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解如何在 Skype for Business Online 中向用户分配会议 ID，以及会议 Id 参数应该是什么。 '
-ms.openlocfilehash: 8bec76e25df092beb18725467c3041de3c1d7745
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5ed8bb8ec32277e0bebca43338ae233aa6d38f6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010985"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776837"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>查看和重置 Skype for Business Online​  中分配给用户的会议 ID
 
@@ -46,11 +46,11 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### <a name="to-view-the-conference-id"></a>查看会议 ID
 
-![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
+![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
 可以查看他们的会议 ID，并将其发送给用户。
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
 
@@ -76,9 +76,9 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 例如，如果用户忘记了密码，你可以为其重置会议 ID。
 
-![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
+![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
 

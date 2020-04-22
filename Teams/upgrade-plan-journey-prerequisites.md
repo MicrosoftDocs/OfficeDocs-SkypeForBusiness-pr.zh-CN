@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec634105f87c548ed962bdf9f098298f01f1e93e
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: f340146225d7e386233e727bb8c5d181db7f15fb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706862"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776717"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>团队的先决条件和环境依赖关系
 
@@ -38,7 +38,7 @@ ms.locfileid: "42706862"
 
 团队合并多个 Office 365 服务，因此依赖于这些服务的正确实现和操作。 这些服务包括（但不限于） SharePoint Online、Exchange Online 和 OneDrive for business。
 
-尽管并非所有服务都是必需的，但我们强烈建议你实现所有服务。 如果您选择不实施某些服务，它将影响团队可为您的组织提供的功能。 例如，虽然您不必实现 SharePoint Online，但团队确实依赖于 SharePoint Online 执行某些功能（如组对话中的文件共享），因此不实现此服务将减少通过客户端.
+尽管并非所有服务都是必需的，但我们强烈建议你实现所有服务。 如果您选择不实施某些服务，它将影响团队可为您的组织提供的功能。 例如，虽然您不必实现 SharePoint Online，但团队确实依赖于 SharePoint Online 执行某些功能（如组对话中的文件共享），因此不实现此服务将减少通过客户端提供的功能。
 
 请参阅以下文章，了解有关先决条件以及团队如何与其他技术交互的方法：
 
@@ -52,7 +52,7 @@ ms.locfileid: "42706862"
 
 - 如果你的组织没有 SharePoint Online，请参阅[了解 Sharepoint online 和 OneDrive For business 如何与 Microsoft 团队进行交互](SharePoint-OneDrive-interact.md)。
 
-- 了解[Office 365 组和 Microsoft 团队如何交互](Office-365-groups.md)。
+- 了解[microsoft 365 组和 Microsoft 团队如何交互](Office-365-groups.md)。
 
 - 如果您的组织是教育机构，并且您使用学生信息系统，请在部署 Microsoft 团队之前[部署学校数据同步](https://docs.microsoft.com/schooldatasync)。
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题，了解如何通过 Exchange Online 部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: d909174712ba27efdc5e4c5427c51c67049b8e92
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572880"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780551"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 
@@ -101,7 +101,7 @@ ms.locfileid: "42572880"
      ``` -->
 
 2. 用户帐户需要拥有有效的 Office 365 许可证，才能确保 Exchange 和 Skype for business 服务器能够正常工作。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 您将按以下步骤进行分配。
-3. 接下来，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 检索 Office 365 租户的可用 Sku 列表。
+3. 接下来，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 检索 Office 365 组织的可用 Sku 列表。
 4. 列出 Sku 后，您可以使用`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。 
 
     ```PowerShell
@@ -159,10 +159,10 @@ ms.locfileid: "42572880"
 
 [为 Microsoft 团队聊天室配置帐户](rooms-configure-accounts.md)
 
-[规划 Microsoft 团队聊天室](rooms-plan.md)
+[Microsoft Teams 会议室规划](rooms-plan.md)
   
-[部署 Microsoft 团队聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 会议室](rooms-deploy.md)
   
-[配置 Microsoft 团队聊天室控制台](console.md)
+[配置 Microsoft Teams 会议室控制台](console.md)
   
 [管理 Microsoft Teams 会议室](rooms-manage.md)

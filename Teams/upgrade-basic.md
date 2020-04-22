@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c359f1d078448af33a8871ebcbe0f5cb73c1b15
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a3d65b6af52764a28548cb9ddf190959f89e8f97
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836154"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778328"
 ---
 # <a name="upgrade-basic"></a>升级基本信息
 
@@ -114,7 +114,7 @@ Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传
 早早地提前通知你的用户，让其有时间熟悉 Teams，而不会对其工作效率造成负面影响，从而获得比较积极的用户体验。 告诉他们变化内容、变化原因以及如何为其做好准备。
 
 > [!Note]
-> 如果需要，此时可以通过 Office 365 管理门户为你的用户启用 Teams。
+> 如果需要，您可以通过 Microsoft 365 管理中心为用户启用团队。
 
 **资源：**
 

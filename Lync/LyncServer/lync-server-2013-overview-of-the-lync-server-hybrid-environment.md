@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 480e4a097a3faa8dc70d05ff72027fd6e65e5a76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215848"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780751"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Lync Server 2013 混合环境指的是部署中有一些用户驻留在本地 Ly
 
   - [安装 Windows PowerShell 以使用 AD FS 进行单一登录](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Microsoft Online Services 登录助手（msoidcli-7.0）包含在 Office 365 的桌面安装程序中，可从 Office 365 管理门户链接到的下载页面获取。
+  - Microsoft Online Services 登录助手（msoidcli-7.0）包含在 Office 365 的桌面安装程序中，可从 Microsoft 365 管理中心的链接到的下载页面获取。
 
 </div>
 
@@ -67,7 +67,7 @@ Lync Server 2013 混合环境指的是部署中有一些用户驻留在本地 Ly
 
 ## <a name="administrator-credentials"></a>管理员凭据
 
-当系统询问你是否提供管理员凭据时，请使用适用于 Office 365 租户的管理员帐户的用户名和密码。 在将 Active Directory 联合身份验证服务（AD FS）2.0、目录同步、单一登录、联合和移动用户配置为 Lync Online 时，也将使用这些凭据。
+当系统询问您是否提供管理员凭据时，请使用 Office 365 组织的管理员帐户的用户名和密码。 在将 Active Directory 联合身份验证服务（AD FS）2.0、目录同步、单一登录、联合和移动用户配置为 Lync Online 时，也将使用这些凭据。
 
 </div>
 

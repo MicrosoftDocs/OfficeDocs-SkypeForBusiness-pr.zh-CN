@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836752"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780021"
 ---
 <a name="use-the-network-testing-companion"></a>使用网络测试助理
 =================================
@@ -34,7 +34,7 @@ Skype for Business 和 Microsoft 团队[网络测试助理](https://www.powershe
 你可以在 Skype for Business 或 Microsoft 团队部署的计划阶段使用此工具。 如果您当前正在使用团队或 Skype for business Online，则可以使用此工具解决语音质量问题，或者在进行呼叫之前或在出现质量较差的情况下检查网络连接。
 
 > [!NOTE]
-> 不需要 Office 365 订阅即可下载和安装网络测试助理。
+> 不需要 Microsoft 365 或 Office 365 订阅即可下载和安装网络测试助理。
 
 ## <a name="download-the-tool-and-documentation"></a>下载工具和文档
 

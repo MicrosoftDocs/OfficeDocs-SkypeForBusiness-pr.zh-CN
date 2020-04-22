@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 查找有关 Skype for Business 云连接器版本的信息，这是一组打包的虚拟机（Vm），用于实现与 Office 365 （云 PBX）中的电话系统的本地 PSTN 连接。
-ms.openlocfilehash: 9530fa2815dc491e6cda3579a801c3d5430f9b41
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 055149121b5abdb2fa92f72278f94b35f8556dff
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018143"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779258"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>规划 Skype for Business 云连接器版本
 
@@ -40,11 +40,11 @@ ms.locfileid: "42018143"
 > [!NOTE]
 > Microsoft 在发布新版本后的60天内支持云连接器版本的早期版本。 Microsoft 将在2.1 发布后的60天内支持2.0.1 版，以允许你进行升级。 将不再支持2.0.1 之前的所有版本。
 
-云连接器版本是一种混合产品，包含一组打包的虚拟机（Vm），用于实现与 Office 365 中的电话系统的本地 PSTN 连接。 通过在虚拟化环境中部署最少的 Skype for Business Server 拓扑，组织中托管的用户可以从 Microsoft 云接收 PBX 服务，但 PSTN 连接通过现有的本地语音提供基本.
+云连接器版本是一种混合产品，包含一组打包的虚拟机（Vm），用于实现与 Office 365 中的电话系统的本地 PSTN 连接。 通过在虚拟化环境中部署最少的 Skype for Business Server 拓扑，组织中托管的用户可以从 Microsoft 云接收 PBX 服务，但 PSTN 连接是通过现有的内部部署语音基础结构提供的。
 
 ![显示将云 PBX 连接到 Skype for business 的本地部署的云 PBX 网关的拓扑图。](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
-由于云连接器使您能够将 Office 365 服务中的电话系统与现有的电话环境（例如，PBX、模拟设备和呼叫中心）集成，因此您可以从现有电话服务解决方案实施分阶段迁移到电话Office 365 中的系统。
+由于云连接器使您能够将 Office 365 服务中的电话系统与现有电话环境（例如，PBX、模拟设备和呼叫中心）集成，因此您可以在 Office 365 中实施从现有电话解决方案到电话系统的分阶段迁移。
 
 例如，假设您的公司有一个复杂的呼叫中心，其特定功能的电话系统在 Office 365 中不提供。 您可以选择将呼叫中心用户与现有解决方案一起使用，但将其他用户移动到 Office 365 中的电话系统。
 
@@ -52,7 +52,7 @@ ms.locfileid: "42018143"
 
 在规划云连接器版本部署时，请考虑以下事项：
 
-- 若要使用云连接器利用云语音解决方案，你需要注册包括 Office 365 中的电话系统的 Office 365 租户。 如果你还没有 Office 365 租户，你可以在此处了解如何注册： [office 365 For Business](https://products.office.com/business/office)。 请注意，你需要注册包括 Skype for Business Online 的计划。
+- 若要使用云连接器利用云语音解决方案，你需要注册包括 Office 365 中的电话系统的 Office 365 组织。 如果你还没有 Office 365 组织，你可以了解如何在此处注册： [Office 365 For Business](https://products.office.com/business/office)。 请注意，你需要注册包括 Skype for Business Online 的计划。
 
 - 若要使用 Skype for Business Online 服务注册云连接器设备，并运行各种 cmdlet，云连接器2.0 及更高版本需要具有 Skype for Business 租户管理员权限的专用 Office 365 帐户。 2.0 之前的云连接器版本需要具有租户全局管理员权限的专用 Office 365 帐户。
 
@@ -101,7 +101,7 @@ ms.locfileid: "42018143"
 ## <a name="cloud-connector-edition-components"></a>云连接器版本组件
 <a name="BKMK_Components"> </a>
 
-使用云连接器版本，可以部署一组包含最低 Skype for Business Server 拓扑的打包的虚拟机，这些拓扑由边缘组件、中介组件和中央管理存储（CMS）角色组成。 您还将安装域控制器，这是云连接器的内部正常运行所必需的。 这些服务配置为与包含 Skype for Business Online 服务的 Office 365 租户混合使用。
+使用云连接器版本，可以部署一组包含最低 Skype for Business Server 拓扑的打包的虚拟机，这些拓扑由边缘组件、中介组件和中央管理存储（CMS）角色组成。 您还将安装域控制器，这是云连接器的内部正常运行所必需的。 这些服务配置为与包含 Skype for Business Online 服务的 Office 365 组织混合使用。
 
 ![云连接器版本组件](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -262,7 +262,7 @@ ms.locfileid: "42018143"
 
   - 边缘组件的访问边缘服务的外部 DNS 记录;例如，"接入点\<域名"\>。 每个 PSTN 站点都需要一个记录。 此记录必须包含该网站所有边缘的 IP 地址。
 
-- 创建所有必需的 DNS 和 SRV 记录的 Office 365 租户。
+- Office 365 组织，其中创建了所有必需的 DNS 和 SRV 记录。
 
     > [!IMPORTANT]
     > 当您将租户与云连接器版本集成时，不支持使用默认域后缀 onmicrosoft.com，作为组织的 SIP 域。 > 无法使用 sip。\<域名\>作为云连接器边缘访问代理接口的名称，因为此 DNS 记录由 Office 365 使用。
@@ -442,7 +442,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 边缘组件需要解析 Office 365 服务的外部名称和其他云连接器组件的内部名称。
 
-每个边缘组件都是具有外部接口和内部接口的多宿主计算机。 云连接器在外围网络中的域控制器组件上部署 DNS 服务器。 您可以将边缘服务器指向外围中的 DNS 服务器，以获取所有名称解析，但您需要启用云连接器 DNS 服务器以解析外部名称，方法是设置一个 DNS 区域，其中包含引用名称的外部查询的一个或多个 DNS A 记录对其他公用 DNS 服务器的查找。
+每个边缘组件都是具有外部接口和内部接口的多宿主计算机。 云连接器在外围网络中的域控制器组件上部署 DNS 服务器。 您可以将边缘服务器指向外围中的 DNS 服务器，以获取所有名称解析，但您需要使云连接器 DNS 服务器能够解析外部名称，方法是设置一个 DNS 区域，其中包含一个或多个引用名称查找到其他公用 DNS 服务器的外部查询的 DNS A 记录。
 
 在 .ini 文件中，如果将网关的 FQDN 名称设置为来自与 SIP 域相同的域空间，则将在外围环境中的 DNS 服务器中创建此 SIP 域的权威区域。 如果边缘服务器指向此 DNS 服务器以解析名称，则 Edge 将永远不解析 _sipfederationtls。\<yourdomain\> DNS 记录，它是呼叫流所必需的。 在这种情况下，Microsoft 建议您在边缘外部接口上提供一个 DNS 服务器，以解析 Internet 名称查找，并且每个边缘组件都必须使用主机文件将其他云连接器组件名称解析为 IP 地址。
 
@@ -483,7 +483,7 @@ Optional若要限制出站呼叫号码，请更新 LocalRoute 值。
 |名  <br/> |Skype for Business 网站名称;例如，西雅图。  <br/> .Ini 文件中的名称： "SiteName"  <br/> 对于 Release 1.4.1 和更高版本，每个网站的站点名称必须不同，并且名称必须与 PSTN 站点匹配（如果存在），并且在 Office 365 中定义。 请注意，在站点中注册第一台设备时，将自动创建 PSTN 站点。  <br/> ||
 |HardwareType  <br/> 发布1.4.1 和更高版本  <br/> |硬件类型。 默认值为 Normal。 您还可以将设置为 "最小值"。  <br/> ||
 |Country Code  <br/> |用于拨号的国家/地区代码。  <br/> .Ini 文件中的名称： "CountryCode"  <br/> ||
-|城市  <br/> |City （可选）。  <br/> .Ini 文件中的名称： "City"  <br/> ||
+|市/县  <br/> |City （可选）。  <br/> .Ini 文件中的名称： "City"  <br/> ||
 |状态  <br/> |State （可选）。  <br/> .Ini 文件中的名称： "State"  <br/> ||
 |基本 VM IP 地址  <br/> |将用于为所有云连接器虚拟机创建 VHDX 的临时基虚拟机的 IP 地址。 此 IP 必须位于下一步中定义的外围企业网络子网内，需要 Internet 访问。 确保定义企业默认网关和可路由到 internet 的 DNS。  <br/> .Ini 文件中的名称： "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> 发布1.4.1 和更高版本  <br/> |Windows Server Update Services （WSUS）的地址—即承载 Microsoft Update 中的更新的 intranet 服务器。  <br/> 如果不需要 WSUS，可以保留为空。  <br/> ||

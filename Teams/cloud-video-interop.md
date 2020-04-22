@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505639"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779638"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
@@ -46,7 +46,7 @@ ms.locfileid: "43505639"
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365 美国政府和第三方服务
 
-Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站、Skype for Business、团队和 Office 365 专业增强版中包含的 Office 应用程序（如 Word、Excel、PowerPoint 和 Outlook）和 Outlook Web App 的功能。 此外，Office 365 支持与第三方服务提供商的集成。 这些第三方应用程序和服务可能涉及在 Office 365 基础结构之外的第三方系统上存储、传输和处理你的组织的客户数据，因此不受 Office 365 合规性和数据保护承诺的覆盖。 **建议你查看由第三方提供的隐私和合规声明，以便在评估你的组织的相应服务时使用。**
+Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站、Skype for Business、团队、Office 应用程序（如 Word、Excel、PowerPoint 和 Outlook）和 Outlook Web App 365 中的 Office 应用程序的功能。 此外，Office 365 支持与第三方服务提供商的集成。 这些第三方应用程序和服务可能涉及在 Office 365 基础结构之外的第三方系统上存储、传输和处理你的组织的客户数据，因此不受 Office 365 合规性和数据保护承诺的覆盖。 **建议你查看由第三方提供的隐私和合规声明，以便在评估你的组织的相应服务时使用。**
 
 
 

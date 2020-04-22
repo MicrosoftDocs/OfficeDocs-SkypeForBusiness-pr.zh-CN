@@ -23,16 +23,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: 94a5adc1e9f9abf5529aaf5b149d9cfc906efbe8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3488ec2239ba99b2bfe6efa97ed162804f4aa1e6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010565"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777547"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Skype for Business 附加许可
 
-## <a name="what-are-add-on-licenses"></a>什么是附加许可证？
+## <a name="what-are-add-on-licenses"></a>附加许可证是什么？
 
 附加许可证是针对特定 Skype for Business 功能的许可证。某些企业希望灵活地以有竞争力的价格购买特定功能。若要添加功能，请为每个要使用该功能的用户购买一个附加设备许可证。
 
@@ -44,13 +44,13 @@ For most businesses, buying a bundle of software in an Enterprise plan will resu
 
 成本的详细信息，请参阅 [如何查看价格和购买加载项许可证](skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_how) 或下列选项之一：
 
-- [音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing)
+- [音频会议定价](https://products.office.com/skype-for-business/audio-conferencing)
 
 - [电话系统定价](https://products.office.com/skype-for-business/phone-system)
 
 - [通话套餐的定价](https://products.office.com/skype-for-business/calling-plans)
 
-## <a name="what-features-can-i-get-with-add-on-licenses"></a>有了附加许可证，我可以获得哪些功能？
+## <a name="what-features-can-i-get-with-add-on-licenses"></a>通过附加许可证可获得哪些功能？
 
 根据已有的方案，你可以购买以下 Skype for Business 功能的附加许可证：
 
@@ -69,17 +69,17 @@ Need to talk to someone about all the add-on options? [Contact support for busin
 
 The add-on licensing options available to you depends on your Office 365 or Skype for Business plan. See the following topics for information, features, and options that are specific to your plan.
 
-- [Office 365 商业高级版](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-- [Office 365 高级版、Office 365 专业增强订阅版或 Skype for Business Online 计划 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+- [Microsoft 365 商业标准](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+- [Office 365 Premium、Microsoft 365 应用版或 Skype for business Online 计划2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 - [Office 365 企业版 E1、E3 和 E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 企业版 E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5（不含音频会议）](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
 - [Microsoft Teams 会议室](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
-- [GOV、EDU 和非营利性组织](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
+- [政府、教育机构和非营利性组织](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
 有关每个 Skype for Business 计划的功能和比较的详细列表，请参阅[Skype for Business Online 服务说明](https://go.microsoft.com/fwlink/?LinkId=730729)。
 
-## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看价格并购买附加许可证
+## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看价格和购买附加许可证
 <a name="bkmk_how"> </a>
 
  **购买 Office 365 计划后，可通过 Microsoft 365 管理中心查看价格和购买加载项**。
@@ -104,7 +104,7 @@ If you are using on-premises PSTN connectivity for hybrid users, you  *only*  as
 
 - [设置 Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [设置云语音邮件 - 管理帮助](/microsoftteams/set-up-phone-system-voicemail)
+- [设置云语音邮件 - 管理员帮助](/microsoftteams/set-up-phone-system-voicemail)
     
 - [设置通话套餐](/microsoftteams/set-up-calling-plans) 和 [Office 365 的通话套餐](/MicrosoftTeams/calling-plans-for-office-365)
     

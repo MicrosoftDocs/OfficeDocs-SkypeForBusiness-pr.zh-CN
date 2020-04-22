@@ -1,5 +1,5 @@
 ---
-title: Office 365 通话套餐
+title: Microsoft 365 的通话计划
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825250"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779941"
 ---
-# <a name="calling-plans-for-office-365"></a>Office 365 通话套餐
+# <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 的通话计划
 
 呼叫其他 Skype for Business 和 Microsoft 团队用户是免费的，但如果您希望用户能够呼叫普通电话，并且您还没有服务提供商进行语音呼叫，则需要购买呼叫计划。 有关详细信息，请参阅[电话系统和通话计划](calling-plan-landing-page.md)。
   
@@ -77,7 +77,7 @@ ms.locfileid: "41825250"
     
 - [电话系统定价](https://go.microsoft.com/fwlink/?linkid=799763)
     
-- [音频会议的定价](https://go.microsoft.com/fwlink/?linkid=799762)
+- [音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)
     
 ## <a name="for-more-information"></a>有关详细信息
 
@@ -94,7 +94,7 @@ ms.locfileid: "41825250"
 
 - [设置 Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [设置云语音邮件 - 管理帮助](set-up-phone-system-voicemail.md)
+- [设置云语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
     
 - [设置通话套餐](set-up-calling-plans.md)
     

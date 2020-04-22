@@ -1,5 +1,5 @@
 ---
-title: 打开 Office 365 组织中的团队
+title: 在 Microsoft 365 或 Office 365 中启用团队
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: 了解如何在你的 Office 365 组织中启用 Microsoft Teams。
+description: 了解如何为 Microsoft 365 或 Office 365 打开 Microsoft 团队。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3f4225eceea027a87843f5c92047ce98187ce9e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d10e93c1ae5f01a2417502f99ee18ab4d12d7b9d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136472"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778538"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>在组织中打开 Teams
 

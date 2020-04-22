@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: 03aa421a72ab1402e0574a65117fa1eb182f1a47
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147705"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780401"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者应用的审核日志
 
-患者应用活动的审核日志允许事件响应团队查看患者的电子医疗记录（EMR）或患者医疗保健信息（PHI）的更改，并确定要在其中进行 PHI 访问的策略或过程中的更改或改进需要生产工具。 审核日志事件涵盖通过患者应用用户界面执行的操作。
+患者应用活动的审核日志允许事件响应团队查看患者的电子医疗记录（EMR）或患者医疗保健信息（PHI）的更改，并确定是否需要在工作效率工具中进行更改或改进 PHI 访问的策略或流程。 审核日志事件涵盖通过患者应用用户界面执行的操作。
 
 ## <a name="meet-hipaa-requirements"></a>满足 HIPAA 要求
 
@@ -41,7 +41,7 @@ ms.locfileid: "42147705"
 
 1. 管理员必须使用其 FHIR 服务提供商，才能以患者应用使用的格式使用 EMR。 请参阅将[电子医疗保健记录集成到 Microsoft 团队](patients-app.md)。
 2. 医疗保健提供商管理员必须在 "团队管理中心" 中启用 "患者" 应用。 有关详细信息，请参阅 Microsoft 团队和相关文章[中的管理应用设置策略](../../teams-app-setup-policies.md)。
-3. 管理员必须在 O365 中启用活动审核，这与在 Office 365 中启用任何活动日志审核的方式相同，如 "[开始](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) [" 和 "打开或关闭 office 365 审核日志搜索](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)" 中所述。 如果审核日志记录已打开，则患者应用不需要任何特殊内容。 每当医疗保健提供商在团队内部安装和运行应用时，审核日志都会记录其 PHI 活动。
+3. 管理员必须在 O365 中启用活动审核，与在 Office 365 中启用任何活动日志审核的方式相同，如在开始和[打开或关闭审核日志搜索](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)[之前](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)所述。 如果审核日志记录已打开，则患者应用不需要任何特殊内容。 每当医疗保健提供商在团队内部安装和运行应用时，审核日志都会记录其 PHI 活动。
 4. 管理员随后需要宣布患者应用的可用性，并且医疗保健工作人员必须开始生成活动才能纳入审核。
 
 <!-- add link out to client doc when available -->
@@ -80,6 +80,6 @@ Microsoft 团队[活动](https://docs.microsoft.com/office365/securitycompliance
 
 ## <a name="related-topics"></a>相关主题
 
-[搜索 Office 365 审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+[搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 [将电子医疗记录集成到 Microsoft Teams 中](patients-app.md)

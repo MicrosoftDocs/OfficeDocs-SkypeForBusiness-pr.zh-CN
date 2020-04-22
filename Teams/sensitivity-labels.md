@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中定义和使用敏感度标签。
-ms.openlocfilehash: e9f007fd174027443191cd7d2dbb8f8321c7424f
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888731"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779759"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 团队的灵敏度标签
 
@@ -38,12 +38,12 @@ ms.locfileid: "41888731"
 
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>为团队创建、管理和发布灵敏度标签
 
-有关如何为团队启用、创建和发布敏感度标签的详细说明，请参阅[将敏感度标签与 Microsoft 团队、Office 365 组和 SharePoint 网站结合使用](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
+有关如何为团队启用、创建和发布敏感度标签的详细说明，请参阅[将敏感度标签与 Microsoft 团队、microsoft 365 组和 SharePoint 网站结合使用](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
 
 >[!IMPORTANT]
 >创建、更新和删除灵敏度标签需要对用户发布标签的仔细排序。 序列中的任何偏差都可能会导致所有用户的持久团队创建错误。 因此，在<a href="#createpublishlabels">创建和发布标签</a>、<a href="#modifydeletelabels">修改和删除已发布标签</a>以及<a href="#manageerrors">管理团队创建错误</a>时，执行以下操作非常重要。
 
-**创建和发布标签** <a name="createpublishlabels"></a>
+**创建和发布标签** <a name="createpublishlabels"> </a>
 
 在安全 & 合规中心创建和发布标签时，该标签最多可能需要24小时才能在团队创建界面中变为可见。 使用以下步骤为租户中的所有用户发布标签：
 1. 创建标签并将其发布到租户中的几个选择用户帐户。
@@ -51,7 +51,7 @@ ms.locfileid: "41888731"
 3. 24小时后，请尝试使用有权访问标签的用户帐户创建带有标签的团队。
 4. 如果团队在步骤3中成功创建，则继续并为租户中的其余用户发布标签。
 
-**修改和删除已发布的标签** <a name="modifydeletelabels"></a>
+**修改和删除已发布的标签** <a name="modifydeletelabels"> </a>
 
 删除或修改与灵敏度策略相关联的标签可能会导致整个租户中的团队创建失败。 因此，在删除或修改标签之前，必须首先解除标签与其关联的策略的关联。 使用以下步骤  
 要删除或修改标签，请执行以下操作：
@@ -60,7 +60,7 @@ ms.locfileid: "41888731"
 3. 48小时后，启动团队创建界面并确保该标签对于租户中的任何用户不再可见。
 4. 现在，您可以安全地删除或修改标签。
 
-**管理团队创建错误** <a name="manageerrors"></a>
+**管理团队创建错误** <a name="manageerrors"> </a>
 
 如果团队创建在公共预览版中的任何时候开始失败，您有两种选择：
  - 确保在创建团队期间对任何用户不强制使用灵敏度标签。

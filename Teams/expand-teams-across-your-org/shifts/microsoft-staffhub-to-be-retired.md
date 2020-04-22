@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141175"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780631"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 将停用
 
@@ -97,7 +97,7 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 #### <a name="where-is-shifts-data-stored"></a>"移动" 数据存储在何处？
 
-移动数据存储在北美和西欧的数据中心的 Azure 中。 SharePoint 内容利用 Office 365 组，并使用相同的存储和支持。
+移动数据存储在北美和西欧的数据中心的 Azure 中。 SharePoint 内容利用 Microsoft 365 组，并使用相同的存储和支持。
 
 有关详细信息，请参阅[移动数据的位置](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)。
 
@@ -131,9 +131,9 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 是的，团队中使用团队和倒班的每位经理和团队成员必须具有 Office 365 帐户（Azure AD），并且必须分配有有效的许可证。
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>在 StaffHub 中，我可以向 StaffHub 团队创建的所有 Office 365 组添加特殊的前缀。 我是否可以在团队中执行相同操作？
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>在 StaffHub 中，我可以向 StaffHub 团队创建的所有 Microsoft 365 组添加特殊的前缀。 我是否可以在团队中执行相同操作？
 
-从 StaffHub 迁移到团队时，您将无法获得相同的功能。 如果需要对所有 Office 365 组应用名称一致性，则可以使用[Office 365 组命名策略](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。
+从 StaffHub 迁移到团队时，您将无法获得相同的功能。 如果你需要将名称一致性应用到所有 Microsoft 365 组，你可以使用[Microsoft 365 组命名策略](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>团队名称是否将与团队中的名称相同？
 
@@ -149,7 +149,7 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 用户的日程将被移动到倒班，但用户不是团队成员或 Office 365 组的成员。
 
-对于未链接到 Azure AD 用户帐户的非活动帐户，管理员可以通过在 "StaffHub 团队成员" 页面上添加有效的 Office 365 电子邮件地址来确保将用户添加为团队成员，以便用户在其组织中链接到正确的 Azure AD 帐户。
+对于未链接到 Azure AD 用户帐户的非活动帐户，管理员可以通过在 "StaffHub 团队成员" 页面上添加有效的 Microsoft 365 或 Office 365 电子邮件地址来确保将用户添加为团队成员，以便用户在其组织中链接到正确的 Azure AD 帐户。
 
 另一选择是让管理员运行**StaffHubMember**和**StaffHubUser** Cmdlet，以便从 StaffHub 团队中删除非预配帐户，并使用其 UPN 将用户添加回团队。
 

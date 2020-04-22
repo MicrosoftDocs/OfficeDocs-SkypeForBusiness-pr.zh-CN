@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 17ece37fded1d7b0743f3eeb66a300021f568c44
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096997"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779779"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
@@ -29,7 +29,7 @@ ms.locfileid: "43096997"
 
 默认情况下，Teams 聊天、频道和文件数据将永久保留。 作为管理员，你可以为聊天和频道消息设置 Teams 保留策略，并主动决定是保留数据、删除数据还是将其保留一段时间后再删除。
 
-可在 [Office 365 安全与合规中心](https://protection.office.com/)中或通过使用安全与合规中心 PowerShell cmdlet 为 Teams 和其他工作负载创建和管理保留策略。 可将 Teams 保留策略应用于整个组织或特定用户和团队。
+在[Microsoft 365 合规中心](https://protection.office.com/)中创建和管理团队和其他工作负荷的保留策略，或者使用安全 & 合规性中心 PowerShell cmdlet。 可将 Teams 保留策略应用于整个组织或特定用户和团队。
 
 > [!NOTE]
 > 我们尚不支持保留专用频道消息的配置。 支持保留在私人渠道中共享的文件。
@@ -123,7 +123,7 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
         ![“选择位置”页面上的“Teams 频道消息”和“Teams 聊天”选项的屏幕截图](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > Teams 聊天和频道消息不受应用于 **Exchange 电子邮件**或 **Office 365 组**位置中用户或组邮箱的保留策略的影响。 即使 Teams 聊天和频道消息存储在 Exchange 中，它们也仅受到应用于 Teams 位置的保留策略的影响。
+      > 团队聊天和频道消息不受应用于**Exchange 电子邮件**或**Microsoft 365 组**位置中的用户或组邮箱的保留策略的影响。 即使 Teams 聊天和频道消息存储在 Exchange 中，它们也仅受到应用于 Teams 位置的保留策略的影响。
 
 6. 查看设置，在准备就绪后，选择“**创建此策略**”。
 
@@ -160,7 +160,7 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
 
 以下是正在跟踪和调查的 Teams 中的已知保留策略问题。
 
-- 在“**Teams 频道消息**”位置行中的“**选择团队**”下，你可能会看到不属于团队的 Office 365 组。 此问题将在未来得到解决。
+- 在 "**团队频道消息**位置" 行中的 "**选择团队**" 下，你可能会看到还不是团队的 Microsoft 365 组。 此问题将在未来得到解决。
 
 - 在“**Teams 聊天**”位置行中的“**选择用户**”下，你可能会看到来宾和非邮箱用户。 保留策略不是为来宾设置的，我们正致力于从列表中删除来宾。
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 你可以使 Skype for Business 用户能够使用内置的 Skype for business 应用反馈工具，让用户能够直接向 Microsoft 报告问题并向 Microsoft 提供反馈，以了解他们的体验。
-ms.openlocfilehash: 7d9b94b31e51287f535628c8485d263301ef991b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5b696b74d642770c29106706e49e4a8946f4932a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706287"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777037"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>开启或关闭 Skype for Business 客户端反馈报告
 
@@ -61,7 +61,7 @@ ms.locfileid: "41706287"
     
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
+2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
     
     > [!NOTE]
     > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。

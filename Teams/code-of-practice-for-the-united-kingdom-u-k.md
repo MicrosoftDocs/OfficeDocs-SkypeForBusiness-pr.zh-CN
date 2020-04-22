@@ -1,5 +1,5 @@
 ---
-title: 英国的练习代码 -Office 365 通话计划
+title: 英国的练习代码 -Microsoft 365 通话计划
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 了解 Skype for business UK 的适用于 Skype for Business 的 PSTN 呼叫计划代码，包括、获取帮助的位置以及如何提交投诉和解决争议。
-ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139041"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779628"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Office 365 中的通话套餐 - 英国行为准则
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365 中的通话计划-英国的练习代码（英国）
 
 此代码适用于英国（英国）的小型企业客户（即10名员工或更少的组织），根据英国通信法规，在英国（英国）的 Office 365 通话计划服务（"服务"）中。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 

@@ -1,5 +1,5 @@
 ---
-title: 试用或购买 Office 365 for Skype for Business Online 中的音频会议
+title: 在 Microsoft 365 或 Office 365 中试用或购买适用于 Skype for business Online 的音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d5afdc88b4d3c891b66ef3d4fce3860a648db488
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010955"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776767"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>试用或购买 Office 365 for Skype for Business Online 中的音频会议
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>在 Microsoft 365 或 Office 365 中试用或购买适用于 Skype for business Online 的音频会议
 
 > [!Note]
 > 有关 Microsoft Teams 中的音频会议的信息，[请参阅 试用或购买 Office 365 for Skype for Microsoft Teams 中的音频会议​](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)。

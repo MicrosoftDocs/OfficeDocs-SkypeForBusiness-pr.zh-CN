@@ -12,12 +12,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f490a50ade6c10d37a478729c46a5545970afb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5106d4e27921d9407b2663410cc0872892479ebb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184595"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779849"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ _**上次修改的主题：** 2014-05-29_
 
 在开始将用户移动到 Lync Online 之前，您可能需要移动几个试点用户，以确认您的环境已正确配置。 然后，您可以在尝试移动其他用户之前验证 Lync 功能和服务是否按预期方式运行。
 
-若要将本地用户移动到 Lync Online 租户，请使用 Microsoft Office 365 租户的管理员凭据在 Lync Server 命令行管理程序中运行以下 cmdlet。 将 "username@contoso.com" 替换为要移动的用户的信息。
+若要将本地用户移动到 Lync Online 租户，请使用 Microsoft Office 365 组织的管理员凭据在 Lync Server 命令行管理程序中运行以下 cmdlet。 将 "username@contoso.com" 替换为要移动的用户的信息。
 
    ```PowerShell
     $creds=Get-Credential
@@ -65,11 +65,11 @@ _**上次修改的主题：** 2014-05-29_
 
 为**HostedMigrationOverrideUrl**参数指定的 url 的格式必须是运行托管迁移服务的池的 url，格式如下： HTTPS://\<池 FQDN/hostedmigration/hostedmigrationservice.svc。\>
 
-您可以通过查看适用于 Office 365 租户帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
+您可以通过查看 Office 365 组织帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
 
-**确定 Office 365 租户的托管迁移服务 URL**
+**确定 Office 365 组织的托管迁移服务 URL**
 
-1.  以管理员身份登录到 Office 365 租户。
+1.  以管理员身份登录到 Office 365 组织。
 
 2.  打开**Lync 管理中心**。
 

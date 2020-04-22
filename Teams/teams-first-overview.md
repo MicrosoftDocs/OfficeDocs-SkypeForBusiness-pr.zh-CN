@@ -15,12 +15,12 @@ description: 使用本指南可以将 Microsoft 团队作为您的第一个 Offi
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79607004c8f750ceed0325733c8c52a4873e9cdc
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982150"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780371"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>首先部署 Microsoft 团队
 
@@ -37,7 +37,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
 
 若要开始使用你的团队首次部署，你需要至少满足某些预备先决条件。 以下列表将显示在启用团队之前你必须为你的组织设置的内容：
 
-1.  使用您的域名配置的 Office 365 租户
+1.  使用您的域名配置的 Office 365 组织
 
 2.  Azure Active Directory 连接（AAD connect）或类似的云标识同步解决方案-与你的租户同步的所有必需属性  
     若要了解与 AAD 同步同步的属性，请参阅[AZURE AD Connect 同步：属性同步到 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
@@ -104,7 +104,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
 </tr>
 <tr class="even">
 <td>团队中的聊天/外部通信</td>
-<td><p>从团队内部（内部的 Office 365 租户）和外部聊天通信</p>
+<td><p>内部（Office 365 内部组织）和团队外部聊天通信</p>
 <p><em>注意：必须为外部访问配置 DNS 条目。 即使您在本地或 Office 365 中没有 Skype for business，也可以使用 skype for business DNS 记录来允许与 Lync 和 Skype for business 环境进行联盟。<br />
 <a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Office 365 的外部域名系统记录</a></em></p></td>
 </tr>
@@ -264,11 +264,11 @@ Microsoft 团队可以是你的组织的一个启用码，以将所有员工、�
 
   - [提供联机会议和事件](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/delivering-online-meetings-events/)
 
-  - [帮助小型和中型企业与团队远程协作](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+  - [协助中小型企业使用 Teams 远程工作](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
   - [实时事件的数字转换： Bob Bejan 在 frontline 中的观测值](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/13/digital-transformation-live-events-bob-bejans-observations-frontline/)
 
-  - [Microsoft IT 为其员工启用远程工作的前9种方式](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+  - [Microsoft IT 便于员工远程工作的 9 大方式](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
   - [远程工作，保持安全-CISOs 提示](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/work-remotely-stay-secure-ciso-tips/)
 
@@ -278,7 +278,7 @@ Microsoft 团队可以是你的组织的一个启用码，以将所有员工、�
 
 ## <a name="support-services-reference"></a>支持服务参考
 
-团队依赖于 Exchange Online、SharePoint Online、OneDrive for Business 和 Office 365 组，以便为你的用户提供完全集成的 Office 365 体验。 如上所述，团队将在不完全部署这些服务的情况下正常工作-但功能有限。 你可以在此处阅读有关团队及其先决条件的详细信息：[欢迎使用团队](teams-overview.md)。
+团队依赖于 Exchange Online、SharePoint Online、OneDrive for Business 和 Microsoft 365 组，以便为你的用户提供完全集成的 Office 365 体验。 如上所述，团队将在不完全部署这些服务的情况下正常工作-但功能有限。 你可以在此处阅读有关团队及其先决条件的详细信息：[欢迎使用团队](teams-overview.md)。
 
 有关以上列出的每项服务的详细信息，请访问以下链接：
 
@@ -289,7 +289,7 @@ Microsoft 团队可以是你的组织的一个启用码，以将所有员工、�
 
   - SharePoint 用于频道中的文件共享，而/OneDrive 用于在1:1 或群组聊天中进行文件共享。 若要了解详细信息，请参阅[SharePoint Online 和 OneDrive For Business 如何与 Microsoft 团队进行交互](sharepoint-onedrive-interact.md)。
 
-  - [Office 365 组](office-365-groups.md)用于团队和频道创建/管理。
+  - [Microsoft 365 组](office-365-groups.md)用于团队和频道创建/管理。
 
 
 ## <a name="related-topics"></a>相关主题

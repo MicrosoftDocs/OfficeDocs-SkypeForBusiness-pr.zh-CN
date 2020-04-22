@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 阅读本主题，了解使用云连接器版本2.0 和更高版本实现媒体旁路的规划注意事项。 有关部署媒体旁路的信息，请参阅在云连接器版本中部署媒体旁路。
-ms.openlocfilehash: 47b8d9e5d0b69b95c48f89591d75d53591b7426c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010305"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778778"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中规划媒体旁路
  
@@ -37,7 +37,7 @@ ms.locfileid: "42010305"
 
 信号在使用或没有媒体旁路的情况下采用相同的路径，而媒体流将有所不同。 下图显示了具有和没有媒体旁路功能的拓扑中的媒体和信号路径。 
   
-例如，在以下拓扑（不采用媒体旁路）中，Skype for Business 客户端将 PSTN 呼叫放入外部号码，SIP 信号转到 Office 365，然后 Office 365 将根据最终用户的语音指示信号流量。政策. 对于云连接器用户，语音策略将信号流量定向到云连接器边缘服务器，然后通过云连接器中介服务器将信号流量路由到 PSTN 会话边界控制器（SBC）或网关。 媒体从 Skype for Business 客户端流向云连接器中介服务器，然后传递到 SBC 或网关，如下图所示：
+例如，在以下拓扑（不采用媒体旁路）中，Skype for Business 客户端将 PSTN 呼叫放入外部号码，SIP 信号转到 Office 365，然后 Office 365 将根据最终用户的语音策略指示信号流量。 对于云连接器用户，语音策略将信号流量定向到云连接器边缘服务器，然后通过云连接器中介服务器将信号流量路由到 PSTN 会话边界控制器（SBC）或网关。 媒体从 Skype for Business 客户端流向云连接器中介服务器，然后传递到 SBC 或网关，如下图所示：
   
 **没有媒体旁路功能的媒体和信号路径**
 
@@ -75,14 +75,14 @@ ms.locfileid: "42010305"
   
 ## <a name="supported-clients-for-media-bypass"></a>媒体旁路支持的客户端
 
-在首次发布媒体旁路的情况下，唯一受支持的客户端是 Office 365 专业增强版16.0.7870.2020 或更高版本中的 Skype for Business 2016 Windows 客户端。 客户可以使用任何频道： Current、延期或 First Release 延期。 
+第一次释放媒体旁路后，唯一受支持的客户端是适用于企业的 Microsoft 365 应用程序、版本16.0.7870.2020 或更高版本的 Skype for business 2016 Windows 客户端。 客户可以使用任何频道： Current、延期或 First Release 延期。 
   
 > [!NOTE]
 > 如果将客户端 VPN 解决方案与 Skype for Business 客户端结合使用，则仅支持使用 VPN 拆分隧道配置的媒体旁路。 
   
-有关发布频道的详细信息，请参阅[Office 365 的更新频道概述专业增强版](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)。
+有关发布频道的详细信息，请参阅适用[于企业的 Microsoft 365 应用程序的更新通道概述](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)。
   
-有关不同通道中的客户端的当前发布版本，请参阅[release information For Office 365 专业增强版](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)中的更新。 
+有关不同通道中的客户端的当前发布版本，请参阅[版本信息以获取适用于 Microsoft 365 Apps for enterprise 的更新](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)。 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>媒体旁路的云连接器容量注意事项
 
@@ -107,7 +107,7 @@ Always 旁路意味着将对内部客户端作为源或目标点的所有 PSTN �
 ![云连接器容量](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
-> 如果苏黎世的用户向西雅图办事处传播，并且您想要使用内部网络在欧洲的旅行用户和网关之间传递媒体流量（而不是通过 Internet），则必须确保西雅图办事处和阿姆斯特丹office，其中欧洲的 SBCs 或网关已正确连接。 
+> 如果苏黎世的用户向西雅图办事处传播，并且您想要使用内部网络在欧洲的旅行用户和网关之间传递媒体流量（而不是通过 Internet），则必须确保位于西雅图办事处和阿姆斯特丹办公室（其中欧洲的 SBCs 或网关已正确连接）。 
   
 ## <a name="codecs-used-in-media-bypass"></a>媒体旁路中使用的编解码器
 

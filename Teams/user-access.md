@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 379573e7c671c3a5bca906cc3986bce068921b07
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f571dd461c6c783703159dfd6e9beb343612dd58
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833652"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779478"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -39,7 +39,7 @@ ms.locfileid: "41833652"
 
 ## <a name="manage-teams-through-the-microsoft-365-admin-center"></a>通过 Microsoft 365 管理中心管理团队
 
-团队用户级许可证通过 Microsoft 365 管理中心用户管理界面直接管理。 管理员可以在创建新用户帐户时为新用户分配许可证，也可以为已有帐户的用户分配许可证。 管理员必须拥有 Office 365 全局管理员或用户管理管理员权限才能管理 Microsoft Teams 许可证。
+团队用户级许可证通过 Microsoft 365 管理中心用户管理界面直接管理。 管理员可以在创建新用户帐户时为新用户分配许可证，也可以为已有帐户的用户分配许可证。 管理员必须具有全局管理员权限或用户管理管理员权限才能管理 Microsoft 团队许可证。
 
 为用户分配 E3 或 E5 等许可证 SKU 时，会自动分配 Microsoft Teams 许可证，并为用户启用 Microsoft Teams。 管理员可以对所有 Office 365 服务和许可证进行精细的控制，可以针对特定用户或一组用户启用或禁用 Microsoft Teams 许可证。
 
@@ -75,6 +75,6 @@ ms.locfileid: "41833652"
 |![代表决策点的图标](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |决策点         |<ul><li>组织在整个组织中的团队计划的计划是什么？  （试点或开放）</li></ul>         |
 |![表示后续步骤的图标](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |后续步骤         |<ul><li>如果通过已关闭的试用版进行加入，请确定你是否希望通过许可证或目标通信执行此操作。</li><li>根据决策，采取步骤确保仅允许访问团队的试用用户（如果需要）。</li><li>记录将（或不会）有权访问团队的用户的指南。</li></ul>         |
 
-## <a name="manage-teams-at-the-office-365-tenant-level"></a>管理 Office 365 租户级别的团队
+## <a name="manage-teams-at-the-office-365-organization-level"></a>管理 Office 365 组织级别的团队
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
 

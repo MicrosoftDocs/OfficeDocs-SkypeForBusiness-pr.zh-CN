@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何创建和管理呼叫拨号计划（PSTN 呼叫拨号计划）以及如何管理它们。
-ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 9c72745e6dee12ffbac4d91df47df37c327aab33
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160076"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778258"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
 在为您的组织规划拨号计划并查明需要为呼叫路由创建的所有规范化规则后，您就可以创建拨号计划了。 你可以使用 Microsoft 团队管理中心或 Windows PowerShell 创建和管理拨号计划。  
 
-## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 ### <a name="create-a-dial-plan"></a>创建拨号计划
 
@@ -87,7 +87,7 @@ ms.locfileid: "43160076"
   
 1. 单击 "**启动** > **Windows PowerShell**"。
     
-2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
+2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
     
     > [!NOTE]
     > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。

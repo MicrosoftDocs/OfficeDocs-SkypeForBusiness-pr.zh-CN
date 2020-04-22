@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42707002"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780461"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>升级后充分利用团队
 
@@ -37,7 +37,7 @@ ms.locfileid: "42707002"
 
 成功将团队部署到你的组织并使用质量和可靠性运行服务后，下一步是定期评估你是否有机会增强你的服务。 这是一项持续服务改进计划的一部分，它是云服务管理的现代标准。
 
-确保您始终充分利用服务的一种非常好的方法是监视[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)，了解可能对组织感兴趣的新功能增强。 如果您有权访问 Office 365 管理门户，您将通过我们的消息中心接收来自我们的新功能和更改功能的定期更新。
+确保您始终充分利用服务的一种非常好的方法是监视[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)，了解可能对组织感兴趣的新功能增强。 如果您有权访问 Microsoft 365 管理中心，您将通过我们的消息中心接收来自我们的新功能和更改功能的定期更新。
 
 当您看到增强您的服务的机会时，请花一些时间来正确操作。 重新访问[在 Microsoft 团队中部署聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，并对端应用相同的指南。 在进行小的增量更改时，不太可能需要完全完成所有活动和任务，但你应该确保评估每个活动和任务，以便为你提供成功结果的最佳机会。
 

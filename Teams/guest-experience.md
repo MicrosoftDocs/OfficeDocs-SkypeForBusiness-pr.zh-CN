@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160566"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776927"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -51,7 +51,7 @@ ms.locfileid: "42160566"
 |创建会议或访问计划  <br/> |&#x2713;||
 |访问 OneDrive for Business 存储  <br/> |&#x2713;||
 |创建租户范围和团队/频道来宾访问策略  <br/> |&#x2713;||
-|邀请 Office 365 租户的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |&#x2713;||
+|邀请 Office 365 组织的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |&#x2713;||
 |创建团队  <br/> |&#x2713;||
 |发现和加入公用团队  <br/> |&#x2713;||
 |查看组织结构图  <br/> |&#x2713;||

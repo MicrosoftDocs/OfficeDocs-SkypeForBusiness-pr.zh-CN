@@ -21,12 +21,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解附加许可证，每个许可证可提供的功能，如何为产品购买这些许可证，以及如何与现有运营商配合使用这些许可证。
-ms.openlocfilehash: 10f8b8d0af5c0c70d68c6fbdba561b15af41f64b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93d3ea0637063a2422871ba82e037c8f01e36299
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140815"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780511"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Microsoft Teams 附加许可
 
@@ -65,8 +65,8 @@ Microsoft Teams 许可旨在为你提供最大的灵活性。 例如，使用基
 
 可用的附加许可选项取决于你的 Office 365 计划。 有关计划的特定信息、功能和选项，请参阅以下主题。
 
-- [Office 365 商业高级版](office-365-business-premium.md)
-- [Office 365 专业增强版](office-365-premium-pro-plus.md)
+- [Microsoft 365 商业标准](office-365-business-premium.md)
+- [适用于企业的 Microsoft 365 应用](office-365-premium-pro-plus.md)
 - [Office 365 企业版 E1 或 E3](office-365-enterprise-e1-e3.md)
 - [Office 365 企业版 E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5（不含音频会议）](office-365-enterprise-e5-without-audio-conferencing.md)

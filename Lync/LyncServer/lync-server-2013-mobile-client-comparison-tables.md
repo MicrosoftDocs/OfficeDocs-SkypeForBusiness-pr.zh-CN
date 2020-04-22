@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 035d5c95452eebc48f81198fef5cbdf9d95732e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217488"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ _**上次修改的主题：** 2015-09-21_
 
   - 存档与合规性
 
-这些表指出了 lync Server 2013 的本地部署中 Lync 用户可使用的功能。 Skype for Business Online 和 Microsoft Office 365 用户也可以使用相同的功能，除非在表脚注中以其他方式指明。
+这些表指出了 lync Server 2013 的本地部署中 Lync 用户可使用的功能。 Skype for Business Online 和 Microsoft 365 或 Office 365 用户也可以使用相同的功能，除非在表脚注中以其他方式指明。
 
 <div>
 
@@ -412,7 +412,7 @@ _**上次修改的主题：** 2015-09-21_
 </table>
 
 
-1对 Skype for Business Online 和/或 Office 365 用户不可用。
+1对 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户不可用。
 
 </div>
 
@@ -757,11 +757,11 @@ _**上次修改的主题：** 2015-09-21_
 </table>
 
 
-1对于 Office 365 用户，此功能仅适用于启用音频会议提供商（ACP）的会议。
+1对于 Microsoft 365 或 Office 365 用户，此功能仅适用于启用音频会议提供商（ACP）的会议。
 
-2不适用于 Office 365 用户。
+2不适用于 Microsoft 365 或 Office 365 用户。
 
-3对于 Skype for Business Online 和/或 Office 365 用户，可从第三方音频会议提供商处获取此功能。
+3对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，可从第三方音频会议提供商处获取此功能。
 
 无法从 Lync Mobile 2013 查看 Lync Web App 共享的 4A PowerPoint 演示文稿。 在 Lync 2013 桌面客户端上进行的批注在移动设备上不可见。
 
@@ -894,11 +894,11 @@ _**上次修改的主题：** 2015-09-21_
 
 1 Lync Server 2013、Skype for Business Online 和 Office 365 用户可以通过点击图标呼叫其他 Lync 用户和 Skype 用户。 Lync Server 2013 用户也可以通过点击图标放置 PSTN 呼叫。
 
-2对于本地 Lync Server 2013 用户，在 Windows Phone、iPhone 和 iPad 设备上，用户点击联系人卡片中的呼叫图标，并接受来自 Lync Server 2013 的回调。 对于 Office 365 用户，在 Windows Phone、iPhone 和 iPad 设备上，当用户点击 "呼叫" 按钮时，将打开一个对话框，询问用户是否要呼叫该号码。
+2对于本地 Lync Server 2013 用户，在 Windows Phone、iPhone 和 iPad 设备上，用户点击联系人卡片中的呼叫图标，并接受来自 Lync Server 2013 的回调。 对于 Microsoft 365 或 Office 365 用户，在 Windows Phone、iPhone 和 iPad 设备上，当用户点击 "呼叫" 按钮时，将打开一个对话框，要求用户确认他或她要呼叫该号码。
 
-3不适用于 Skype for Business Online 和/或 Office 365 用户。
+3不适用于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户。
 
-4对于 Skype for Business Online 和/或 Office 365 用户，此功能由 Microsoft 合作伙伴支持。
+4对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，Microsoft 合作伙伴支持此功能。
 
 </div>
 

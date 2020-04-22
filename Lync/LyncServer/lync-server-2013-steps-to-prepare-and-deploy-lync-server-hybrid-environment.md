@@ -12,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 207cb9b8435294abeac12f67506eb356a6ca73c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208318"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,8 +64,8 @@ _**上次修改的主题：** 2016-12-08_
 <tr class="even">
 <td></td>
 <td><p>添加域并验证所有权</p></td>
-<td><p>有时，您的域也称为您的<em>虚域</em>。 您必须将您的域添加到 Office 365 租户，然后按照这些步骤使用 Office 365 验证域。 这是为了确认您是域的所有者。</p>
-<p>若要将你的域添加到 Office 365 租户，请按照<a href="https://go.microsoft.com/fwlink/p/?linkid=254983">将域添加到 office 365</a>中所述的步骤操作。</p>
+<td><p>有时，您的域也称为您的<em>虚域</em>。 您必须将您的域添加到 Office 365 组织中，然后按照这些步骤使用 Office 365 验证域。 这是为了确认您是域的所有者。</p>
+<p>若要将您的域添加到 Office 365 组织中，请按照<a href="https://go.microsoft.com/fwlink/p/?linkid=254983">将域添加到 office 365</a>中所述的步骤进行操作。</p>
 <p>完成主题的每一节中的所有步骤，包括&quot;编辑 Office 365 服务的 DNS 记录。&quot;</p></td>
 </tr>
 <tr class="odd">

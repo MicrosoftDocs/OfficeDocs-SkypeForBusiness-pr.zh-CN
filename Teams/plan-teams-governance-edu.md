@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 18476e043268d8b51fdf877b27e23eb926a1885e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137782"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780211"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>面向管理员的 Microsoft 教育版管理常见问题解答
 
@@ -31,14 +31,14 @@ ms.locfileid: "43137782"
 
 ## <a name="how-do-i-control-team-creation-im-worried-students-are-going-to-create-inappropriate-teams"></a>如何控制团队创建？ 我担心学生将创建不恰当的团队。
 
-为避免使用不适当或误导的名称，或者只是为团队命名方式提供更多的结构，您可以使用 Office 365 组命名策略（当前在预览中）：
+为避免使用不适当或误导的名称，或者只是为团队命名方式提供更多的结构，您可以使用 Microsoft 365 组命名策略（当前在预览版中）：
 
 -   **前缀-后缀命名策略**可以使用前缀或后缀定义团队（组）的命名约定，例如， **GRP_US_My Group_Engineering**。 前缀和后缀可以是固定字符串或用户属性（如 **[部门]**），这些属性根据创建团队的用户添加到名称。
 -   **自定义阻止的字词**你可以上载特定组织中的用户在其创建的团队名称中阻止使用的一组字词。 例如，您可以阻止术语 " **CEO**"、"**工资单**" 和 "**人力资源**" 在不适用的组的团队名称中使用。
 -   **分类**你可以创建你的组织中的用户在创建 Office 365 组时可以设置的分类。 
 
 > [!IMPORTANT]
-> 使用 Office 365 组命名策略要求属于一个或多个 Office 365 组成员的每个唯一用户的 Azure Active Directory Premium P1 许可证或 Azure AD 基本教育机构许可证。
+> 使用 Microsoft 365 组命名策略需要针对属于一个或多个 Microsoft 365 组的成员的每个唯一用户的 Azure Active Directory Premium P1 许可证或 Azure AD 基本教育机构许可证。
 
 有关详细说明，请参阅[Office 组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
@@ -55,13 +55,13 @@ ms.locfileid: "43137782"
 
 在我们的经验中，用户教育有助于确保负责人的使用。 一旦用户知道创建团队不是匿名的，他们就会理解 carelessly 创建它们的含义，并倾向于 shy 退出该工具。
 
-如果您确定要控制哪些人可以创建团队，请参阅[管理可创建 Office 365 组的人员](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
+如果您确定要控制哪些人可以创建团队，请参阅[管理可创建 Microsoft 365 组的人员](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
 
 ## <a name="how-do-i-automatically-create-a-team-for-each-course-at-the-beginning-of-the-semester-or-quarter"></a>如何在学期或季度的开始期间自动为每个课程创建团队？
 
 在每个学期或季度开始时，您将需要许多新团队。 使用自动化方法自动创建这些团队、使用适当的用户填充它们以及设置正确的权限，这可能会有意义：
 
--   学校数据同步可以创建适用于 Exchange Online 和 SharePoint Online 的 Office 365 组、Microsoft 团队和 OneNote 课堂笔记本的课堂团队、用于 Intune 教育的学校组以及针对其他许多第三方应用程序的 rostering 和单一登录（SSO）集成。 了解有关[学校数据同步的概览的](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)详细信息。
+-   学校数据同步可创建适用于 Exchange Online 和 SharePoint Online 的 Microsoft 365 组、Microsoft 团队和 OneNote 课堂笔记本的课堂团队、用于 Intune 教育的学校组以及针对其他许多第三方应用程序的 rostering 和单一登录（SSO）集成。 了解有关[学校数据同步的概览的](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)详细信息。
 -   通过 PowerShell，你可以创建团队和频道，并自动配置设置。 有关详细信息，请参阅[Microsoft 团队 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) 。
 -   你可以使用 Microsoft Graph API （当前在 beta 中）来创建、配置、克隆和存档团队。 有关详细信息，请参阅[使用 Microsoft GRAPH API 处理 Microsoft 团队](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)。
 
@@ -78,7 +78,7 @@ ms.locfileid: "43137782"
 -   **存档团队：** 此设置将团队置于只读模式。 它们仍然可以被浏览和搜索，但没有人可以添加任何新帖子。 [存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)介绍团队所有者如何存档团队。团队所有者还可以使用[GRAPH API （beta）](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)来存档或还原团队。
  
 > [!IMPORTANT]
-> 使用 Office 365 组过期策略要求属于一个或多个 Office 365 组成员的每个唯一用户的 Azure Active Directory Premium P1 许可证。
+> 使用 Microsoft 365 组过期策略要求属于一个或多个 Microsoft 365 组成员的每个唯一用户的 Azure Active Directory Premium P1 许可证。
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>我的教职员是否有团队模板可供我创建团队时使用？
 
@@ -122,10 +122,10 @@ ms.locfileid: "43137782"
 可以使用来宾访问邀请来自租户外部的用户，这对于研究协作或来宾讲座非常有用：
 
 -   使用域 whitelisting 根据其域允许或阻止来宾。
--   为特定的 Office 365 组和团队打开和关闭来宾访问权限，以控制哪些团队可以（且无法）邀请来宾。
+-   为特定 Microsoft 365 组和团队打开和关闭来宾访问权限，以控制哪些团队可以（且无法）邀请来宾。
 -   使用审核日志查看向受邀请的来宾发送了哪些警报。
 
-有关详细信息，请参阅[Office 365 组中的来宾访问](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)。
+有关详细信息，请参阅[Microsoft 365 组中的来宾访问](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)。
 
 ## <a name="what-information-can-i-review-about-existing-teams"></a>我可以查看有关现有团队的哪些信息？
 

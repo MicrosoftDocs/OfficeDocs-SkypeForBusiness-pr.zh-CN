@@ -16,12 +16,12 @@ MS.collection:
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队 PSTN 使用情况" 报表大致了解组织中的通话和音频会议使用情况。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3372bc77a4850da0690c2076c5858812e3e80452
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637189"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778248"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 团队 PSTN 使用报告
 
@@ -124,7 +124,7 @@ CSV 的第一行包含列名称。 所有日期均为 UTC，格式为[ISO 8601](
 | utf-16 | 连接费 | `numeric(16, 2)` | 连接费价格 |
 | 日 | 收费 | `numeric(16, 2)` | 为您的帐户收取的通话金额或通话费用 |
 | 18 | 货币 | `nvarchar(3)` | 用于计算通话费用的货币类型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
-| 19 | 能 | `nvarchar(32)` | 用于通话的许可证 |
+| 19 | 功能 | `nvarchar(32)` | 用于通话的许可证 |
 
 ### <a name="exported-direct-routing-usage-report"></a>已导出直接路由使用情况报告
 
@@ -134,7 +134,7 @@ CSV 的第一行包含列名称。 所有日期均为 UTC，格式为[ISO 8601](
 | :-: | :-: | :-: |:------------------- |
 | 0 | True&correlationid | `uniqueidentifier` | 唯一的呼叫标识符 |
 | 1 | SIP 地址 | `nvarchar(128)` | 发出或接收呼叫的用户或 bot 的地址。<br/>请注意，在 Azure Active Directory 中实际是 UserPrincipalName （UPN，登录名称），后者通常与 SIP 地址相同 |
-| ppls-2 | 显示名称 | `nvarchar(128)` | 在 Office 365 门户中设置的用户或呼叫机器人（例如呼叫队列或自动助理）的名称 |
+| ppls-2 | 显示名称 | `nvarchar(128)` | 在 Microsoft 365 管理中心中设置的用户或呼叫机器人（例如呼叫队列或自动助理）的名称 |
 | 3 | 用户所在国 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | 邀请时间 | `datetimeoffset` | 当初始邀请从团队用户或机器人呼叫发送到 SBC，或在入站到团队或 bot 通过 SBC 直接路由的 SIP 代理组件呼叫时收到。 |
 | 5 | 开始时间 | `datetimeoffset` | SIP 代理在来自出站（团队/Bot 到 PSTN 用户）的 SBC 中收到最终答案（SIP 消息 "200 OK"）的时间，或在入站呼叫（从团队/Bot 的 PSTN 用户）将邀请发送到团队后端的下一跃点之后。<br/>对于失败的和未应答的呼叫，这可能等于 "邀请" 或 "失败" 时间 |

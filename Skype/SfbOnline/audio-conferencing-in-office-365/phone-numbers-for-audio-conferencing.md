@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解哪些国家和地区有拨入式会议号码，以及号码是如何自动分配的。
-ms.openlocfilehash: 19f2cb6f0c03ecdbc6890c7c1c24daceb508377a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986507"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777437"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议电话号码
 
@@ -55,7 +55,7 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
  **专用电话号码** 是只有你组织内的用户才可以使用的电话号码。你可以更改当有人呼入其中的某个号码时使用的语言。
   
- **共享电话号码** 是可以与其他 Office 365 组织共享的电话号码。你无法更改当有人呼入其中的某个号码时使用的语言。
+ **共享电话号码**是可以与其他 Microsoft 365 或 Office 365s 共享的电话号码。当某人拨入其中一个号码时，您无法更改使用的语言。
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
@@ -64,7 +64,7 @@ While the default audio conferencing number that is assigned to an organizer is 
 Shared audio conferencing phone numbers are automatically assigned to organizations when they're enabled for audio conferencing. When the phone numbers are assigned, a phone number is assigned as the default phone number of the conferencing bridge. The phone number assigned as the default number of the bridge will be one from the country/region of the organization.
   
 > [!NOTE]
-> 通过登录到 Microsoft 365 管理中心并查看 "**组织配置文件**"，可以找到您的组织的国家或地区位置。 
+> 你可以登录到 Microsoft 365 管理中心，然后在“**组织资料**”下面查找，以确定贵组织所在的国家或地区位置。 
   
 > [!CAUTION]
 > 由于在委内瑞拉、印度尼西亚、越南和阿拉伯联合酋长国（UAE）中的收费电话号码的可用性有限，这些国家/地区的组织不会自动为其分配音频会议收费号码。根据可用库存，来自这些地点的免费号码可用。 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解有关引脚以及如何在 Skype for Business Online 中重置它们的信息。 '
-ms.openlocfilehash: fdd11e3ef9c656b4b2cc6b929a2963e9b5e10824
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a2f91e1ccae53f08507a63ea56b499a3ad968c73
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680559"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777697"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>在 Skype for Business Online 中重置音频会议 PIN
 
@@ -39,7 +39,7 @@ PIN 是由为每个启用了音频会议的 Skype for business 用户创建的�
   
 ## <a name="reset-a-users-pin"></a>重置用户的 PIN
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
     
 2. 转到管理中心 > **Skype for**business，然后在左侧导航中单击 "**音频会议**"。
     

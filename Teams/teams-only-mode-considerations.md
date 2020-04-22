@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795995"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776817"
 ---
 # <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 
-如果你是 Office 365 租户上的管理员，则你现在将在 Microsoft 团队管理中心中看到 "升级到仅团队" 模式的选项。 利用此功能，你可以升级单个用户，或者升级整个租户。  
+如果你是 Office 365 组织的管理员，则你现在将在 Microsoft 团队管理中心中看到升级到 "仅团队" 模式的选项。 利用此功能，你可以升级单个用户，或者升级整个租户。  
 
 升级到 "仅团队" 模式可为用户提供 Microsoft 团队的全部好处，即 Office 365 中团队协作的全部好处，通过单个客户端体验。 此外，"仅工作组" 模式中的用户将收到团队中的所有通话和聊天，无论发件人是使用 Skype for Business 还是团队，都可以通过互操作和联合支持获得好处。
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7fd782df443504a20a6010f07ac15b9078e570a7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836184"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780201"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -45,7 +45,7 @@ ms.locfileid: "41836184"
 > [!TIP]
 > 使用下表来捕获组织的要求。
 
-|能 |详细信息 |Azure AD Premium <br> 需要许可证 |作出 |
+|功能 |详细信息 |Azure AD Premium <br> 需要许可证 |作出 |
 |---------|---------|---------|---------|
 |团队命名策略 | 使用基于前缀的后缀、自定义阻止的字词。 |P1 |TBD |
 |团队分类 |为团队分配分类。 |P1 |TBD |
@@ -57,7 +57,7 @@ ms.locfileid: "41836184"
 > 为了帮助您提前计划，请[了解有关设置这些策略以及所需的许可证的详细信息](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 限制组和团队创建会降低用户的工作效率，因为许多 Office 365 服务都需要创建组才能使服务正常工作。 有关其他信息，请导航到并展开[控制创建 Office 365 组的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
+> 限制组和团队创建会降低用户的工作效率，因为许多 Office 365 服务都需要创建组才能使服务正常工作。 有关其他信息，请导航到并展开[控制创建 Microsoft 365 组的人员的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
 
 
 #### <a name="additional-information"></a>其他信息
@@ -66,14 +66,14 @@ ms.locfileid: "41836184"
 
 - [用于配置组设置的 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
 
-- [在 Azure Active Directory 中强制使用 Office 365 组的命名策略](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
+- [在 Azure Active Directory 中强制使用 Microsoft 365 组的命名策略](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
 
-- [Office 365 组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
+- [Microsoft 365 组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、保留和存档
 
-你的组织可能对为过期、保留和存档团队和团队数据（频道消息和频道文件）设置策略的其他要求。 你可以将组过期策略配置为自动管理组和保留策略的生命周期，以根据需要保留或删除信息，并且可以将团队存档（设置为只读模式）以保留团队的时间点视图不再处于活动状态。
+你的组织可能对为过期、保留和存档团队和团队数据（频道消息和频道文件）设置策略的其他要求。 你可以将组过期策略配置为自动管理组和保留策略的生命周期，以根据需要保留或删除信息，并且你可以将团队（设置为只读模式）保留不再处于活动状态的团队的时间点视图。
 
 |           |            |
 |-----------|------------|
@@ -83,9 +83,9 @@ ms.locfileid: "41836184"
 > [!TIP]
 > 使用下表来捕获组织的要求。
 
-|能 |详细信息 |需要 Azure AD Premium 许可证 |作出 |
+|功能 |详细信息 |需要 Azure AD Premium 许可证 |作出 |
 |---------|---------|---------|---------|
-|过期策略 |通过设置过期策略来管理 Office 365 组的生命周期。 |P1 |TBD|
+|过期策略 |通过设置过期策略来管理 Microsoft 365 组的生命周期。 |P1 |TBD|
 |保留策略 |通过在安全 & 合规中心设置团队的保留策略来保留或删除特定时间段内的数据。 **注意**：使用此功能需要 Office 365 企业版 E3 或更高版本的许可。 |否 |TBD |
 |存档和还原 |如果团队不再处于活动状态，而您想要保留它以供参考或在将来重新激活，请存档团队。 |否 |TBD |
 
@@ -96,7 +96,7 @@ ms.locfileid: "41836184"
 
 有关如何实现这些设置的技术指南，请参阅：
 
-- [设置 Office 365 组过期时间](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)。
+- [设置 Microsoft 365 组过期时间](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)。
 
 - [设置团队保留策略](retention-policies.md)。
 
@@ -105,7 +105,7 @@ ms.locfileid: "41836184"
 
 ## <a name="teams-feature-management"></a>团队功能管理
 
-团队管理和生命周期管理的另一个重要方面是控制你的用户有权访问的功能的能力。 你可以在 Office 365 租户级别或按用户管理消息、会议和呼叫功能。 
+团队管理和生命周期管理的另一个重要方面是控制你的用户有权访问的功能的能力。 您可以在 Office 365 组织级别或按用户管理邮件、会议和呼叫功能。 
 
 
 |         |         |

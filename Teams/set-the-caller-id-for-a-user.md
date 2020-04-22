@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解 Office 365 默认来电显示（用户分配的电话号码），也称为呼叫线路 ID。 你可以更改或阻止用户的呼叫者 ID。
-ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3e19b1de929057880573c29ba75aa0ec1091139f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140905"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780521"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 Office 365 中的电话系统提供一个默认的来电显示，这是用户的已分配电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 通过转到如何[在组织](how-can-caller-id-be-used-in-your-organization.md)中使用来电显示，您可以了解有关如何在您的组织中使用来电显示的详细信息。
@@ -79,7 +79,7 @@ Office 365 中的电话系统提供一个默认的来电显示，这是用户的
     
 1. From the **Start Menu** > **Windows PowerShell**.
     
-2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
+2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
     
    > [!NOTE]
    > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。

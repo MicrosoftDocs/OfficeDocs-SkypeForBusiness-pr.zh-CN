@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: 4c4eaced1b7e3c328d589906ac50cfb8ac805ea3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 405a87be4bd9504c0bdca98c17748f0864ba72ed
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153784"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780191"
 ---
 # <a name="patients-app-overview"></a>患者应用概述
 
@@ -30,12 +30,12 @@ ms.locfileid: "42153784"
 
 应用具有两种模式：
 
-- 通过 FHIR 连接到 EMRs 的 EMR 连接模式。 EMR 连接模式应用保留在私人预览版中，并且感兴趣的客户或管理员可能会通过在[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)中删除 Microsoft 电子邮件，获取有关 Office 365 租户的信息，请求对应用的访问权限。
+- 通过 FHIR 连接到 EMRs 的 EMR 连接模式。 EMR 连接模式应用保留在私人预览版中，并且感兴趣的客户或管理员可能会通过在[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)中删除 Microsoft 电子邮件，获取有关 Office 365 组织的信息，从而请求对应用的访问权限。
 - 允许护理团队手动添加/添加患者信息的手动模式。 应用程序位于团队应用商店中，最终用户可在私人预览版中下载。 可使用团队中的[应用设置策略](../../teams-app-setup-policies.md)将应用限制到特定部分的用户。 若要获取对应用的访问权限，你的租户需要是技术采纳计划（点击）的一部分。 请在[teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)上向我们发送电子邮件，以启动请求访问的流程。
 
 ## <a name="usage-example"></a>用法示例
 
-在医疗 wards 中每个班次的舍入期内，临床医生在 nursing 工作站上进行收集，以便在拖动中讨论患者的最新更新。  他们突出显示关键指标（不一定是医疗或对患者病历的明确指标），并确保患者在合适的 glide 路径上，以根据其诊断而放电。 为了围绕这些患者，"费用" 护士在一个团队中设置患者应用，其中添加了所有临床医生，并将患者添加到患者列表。 在舍入期间，护士和其他护理 givers 在其移动设备上的患者 access Microsoft 团队和患者应用，并在其设备上更新相关的患者信息，并且在护理团队中的其他人可以看到这些更新和笔记以及保持同步。一天两次，在班次的开始和结束时间，他们也有多个专业的团队会议可以通过患者列表，并使用患者应用在大型显示屏上使用患者应用共享有关每个患者的信息。 通常情况下，某些临床医生可能还会远程拨入这些团队会议，并且仍是讨论的一部分。
+在医疗 wards 中每个班次的舍入期内，临床医生在 nursing 工作站上进行收集，以便在拖动中讨论患者的最新更新。  他们突出显示关键指标（不一定是医疗或对患者病历的明确指标），并确保患者在合适的 glide 路径上，以根据其诊断而放电。 为了围绕这些患者，"费用" 护士在一个团队中设置患者应用，其中添加了所有临床医生，并将患者添加到患者列表。 在舍入期间，护士和其他护理 givers 在其移动设备上的患者 access Microsoft 团队和患者应用，并在其设备上更新相关的患者信息，并且在护理团队中的其他人可以看到这些更新和注释并保持同步。一天两次，在班次的开始和结束时间，他们也有多个专业的团队会议可以通过患者列表，并使用患者应用在大型显示屏上使用患者应用共享有关每个患者的信息。 通常情况下，某些临床医生可能还会远程拨入这些团队会议，并且仍是讨论的一部分。
 
 ## <a name="configure-patients-app"></a>配置患者应用
 

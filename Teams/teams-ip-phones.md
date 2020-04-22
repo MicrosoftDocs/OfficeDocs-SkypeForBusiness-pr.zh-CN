@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: 适用于 Microsoft 团队的 IP 桌面和手机认证
-ms.openlocfilehash: a8b8b0f1763aba131fb7ecd242bc63a2de973f44
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728941"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779971"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -70,7 +70,7 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 
 请参阅[在移动设备上查找固件版本](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device)以确定你的移动设备上的设备固件版本。
 
-Microsoft 团队许可证可以作为其[Office 365 订阅](/MicrosoftTeams/Office-365-licensing.md)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的[电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft 团队许可证可以作为其[microsoft 365 或 Office 365 订阅](/MicrosoftTeams/Office-365-licensing.md)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的[电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
 有关获取团队的详细信息，请查看[如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76eb0ed3fbfffc3a30794f1cc8652090235ecc88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6165310a32bbbc7ea13fc6663dfd4cf5ab791435
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201729"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780071"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42201729"
 
 _**上次修改的主题：** 2014-11-26_
 
-Lync Server 2013 支持与 Skype 的连接。 此连接使 Lync 2013 用户能够通过使用 Skype 用户的 Microsoft 帐户（MSA）添加 Skype 联系人。 Skype 客户端也可以将 Lync 用户添加到其联系人列表中。 根据 Lync Server 中管理员设置的策略，Lync 和 Skype 用户将能够使用即时消息进行通信、查看彼此的状态以及启动音频和视频呼叫。 Lync-Skype 连接也是 Lync Online 的一项功能，可以在 Office 365 门户内的 Lync 管理中心中为 Lync Online 客户启用此功能。
+Lync Server 2013 支持与 Skype 的连接。 此连接使 Lync 2013 用户能够通过使用 Skype 用户的 Microsoft 帐户（MSA）添加 Skype 联系人。 Skype 客户端也可以将 Lync 用户添加到其联系人列表中。 根据 Lync Server 中管理员设置的策略，Lync 和 Skype 用户将能够使用即时消息进行通信、查看彼此的状态以及启动音频和视频呼叫。 Lync-Skype 连接也是 Lync Online 的一项功能，可以从 Microsoft 365 管理中心内的 Lync 管理中心为 Lync Online 客户启用此功能。
 
 <div>
 

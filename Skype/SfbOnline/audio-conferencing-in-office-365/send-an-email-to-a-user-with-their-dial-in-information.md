@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 在 Skype for business Online 中向用户发送其音频会议信息的电子邮件。
-ms.openlocfilehash: 78ce937bd9aa3bcdab8c860ce261c419af7cc768
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b499bfb4734d46a671ff4c236b354630f7e0a284
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680399"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776807"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>通过 Skype for Business Online 中的音频会议信息向用户发送电子邮件
 
@@ -55,7 +55,7 @@ ms.locfileid: "41680399"
 
 3. 在 "**音频会议**" 下，单击 "**通过电子邮件发送会议信息**"。
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
     
 2. 转到管理中心 > **Skype for**business，然后在左侧导航中单击 "**音频会议**"。
     

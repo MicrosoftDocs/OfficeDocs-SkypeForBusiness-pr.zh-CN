@@ -1,5 +1,5 @@
 ---
-title: 增强现有 Office 365 组
+title: 增强现有 Microsoft 365 组
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: 了解如何使用 Microsoft Teams 将通讯组列表邀请到团队来增强 Office 365 组，以及如何添加启用邮件的安全组等。
+description: 了解如何通过邀请 ditribution 列表添加到团队、添加启用邮件的安全组等来增强 Microsoft 365 组和 Microsoft 团队。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,14 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 97164b6eeed1a626681cf320fc02c7dd0a74353a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136862"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776597"
 ---
-<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>通过 Microsoft 团队增强现有 Office 365 组
+<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>通过 Microsoft 团队增强现有的 Microsoft 365 组
 =======================================================
 
 Microsoft 团队用户可以使用团队功能增强现有的 Office 365 组。 当查看增强公共 Office 365 组时，如果成员的数量等于或小于5000，用户可以执行此操作。
@@ -43,7 +43,7 @@ Microsoft 团队用户可以使用团队功能增强现有的 Office 365 组。 
 
 你还可以将启用邮件的安全组添加为某个团队的成员。 但是，如果你以后向该安全组添加了更多成员，这些成员不会自动添加到该团队。 你必须单独将新成员添加到该团队，或将该安全组重新添加到该团队。 （如果你重新添加安全组，删除重复操作可确保成员只添加一次。）
 
-Office 365 组有两种类型的隐私设置：**公用和专用**。 虽然可以为团队启用这两个组类型，但在这种情况下，它在自助服务方面也稍有不同。
+有两种类型的隐私设置，包括 Microsoft 365 组、**公共和专用**。 虽然可以为团队启用这两个组类型，但在这种情况下，它在自助服务方面也稍有不同。
 
 -   用户可以搜索公共组，并且可以自行加入，而无需团队所有者的批准。
 

@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 摘要：了解新的 Skype for Business 以及为更新准备您的环境和用户所需执行的步骤，无论您使用的是 Skype for Business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync Server 2013 还是Lync Server 2010。
-ms.openlocfilehash: c54465b2f2c6cb7fb8d131b52de27c3f64d0bcc2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 摘要：了解新的 Skype for Business 以及为更新准备您的环境和用户所需执行的步骤，无论您使用的是 Skype for Business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync Server 2013 还是 Lync Server 2010。
+ms.openlocfilehash: c1fecbdb5a4ec0a19e464a57ee128d2d00ad501f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028003"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777747"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>为你的用户规划 Skype for Business 2015 客户端体验
  
@@ -44,7 +44,7 @@ ms.locfileid: "42028003"
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>你希望为你的用户提供什么客户端体验？
 <a name="clientexperience"> </a>
 
-使用新的 Skype for Business 客户端，您可以控制用户获取的客户端体验，即 Lync 或 Skype for Business。 默认的客户端体验取决于您是在本地使用 Lync 还是 Skype for business，还是在线。 如果你目前使用的是 Skype for Business Online （Lync Online），则使用 Office 365 专业增强版、Office 365 商业高级版或 Office 2013，更新的 Skype for business 客户端体验（受 Skype 的外观的欢迎）将成为默认的用户体验。 如果现在使用的是本地 Lync Server，Lync 客户端体验将为默认设置。
+使用新的 Skype for Business 客户端，您可以控制用户获取的客户端体验，即 Lync 或 Skype for Business。 默认的客户端体验取决于您是在本地使用 Lync 还是 Skype for business，还是在线。 如果你目前使用的是 Skype for Business Online （Lync Online），Microsoft 365 Apps for enterprise、Microsoft 365 商业标准版或 Office 2013，更新后的 Skype for business 客户端体验（受 Skype 的外观的欢迎）将是默认用户体验。 如果现在使用的是本地 Lync Server，Lync 客户端体验将为默认设置。
   
 您可以使用客户端策略来配置您的用户获得的客户端体验。 客户端策略是一组配置设置，当用户登录到 Lync 或 Skype for Business 时，这些设置将应用于这些设置。
   

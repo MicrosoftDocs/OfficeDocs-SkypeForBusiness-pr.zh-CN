@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解提供哪些国家和地区的电话拨入式会议号码，以及如何自动分配这些号码。
-ms.openlocfilehash: 921878c7b0dfd8abd313adffb9b87e07e58ad66d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9f130ec72d398e55ff3f4890ae89422915fc47a2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137852"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779608"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 中音频会议的电话号码
 
@@ -50,7 +50,7 @@ Microsoft Teams 用户在 Outlook 或 Outlook Web App 中安排会议时，为�
   
 - **专用电话号码** 是只有你组织内的用户才可以使用的电话号码。你可以更改当有人呼入其中的某个号码时使用的语言。
   
-- **共享电话号码** 是可以与其他 Office 365 组织共享的电话号码。你无法更改当有人呼入其中的某个号码时使用的语言。
+- **共享电话号码**是可以与其他 Microsoft 365 或 Office 365s 共享的电话号码。当某人拨入其中一个号码时，您无法更改使用的语言。
   
 尽管会议邀请中只包括分配给组织者的默认音频会议号码，但是呼叫者可以使用分配给你的会议网桥的任一电话号码加入会议。 使用每个会议邀请中包含的" **查找本地号码**"链接，可以找到可用于加入会议的电话号码列表。
   

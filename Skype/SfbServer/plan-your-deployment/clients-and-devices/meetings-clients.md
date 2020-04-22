@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要：在规划 Skype for business Server 时，IT 专业人员应查看 Skype for business Web 应用和 Skype 会议应用的支持要求。 本文不适合这些应用程序的用户。
-ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157635"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777787"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端（Web 应用程序和会议应用程序）
  
@@ -70,7 +70,7 @@ Skype 会议应用提供简化的浏览器体验，可用于下载和安装应�
 从 Windows 上的 Chrome 访问 Web 应用程序 &#x2778; 将启动一个小型程序，该程序将在嵌入式 Internet Explorer 框架中加载 Web 应用程序。 此程序需要安装受支持的 Internet Explorer 版本之一，才能正确加载 Web 应用。
   
 > [!NOTE]
-> Office 365 用户可以在 Skype for Business 中使用 Internet Explorer 10 或更高版本。 
+> Microsoft 365 和 Office 365 用户可以将 Internet Explorer 10 或更高版本与 Skype for Business 结合使用。 
   
 ### <a name="skype-meetings-app"></a>Skype 会议应用
 

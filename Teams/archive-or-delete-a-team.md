@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e367fe85f1af35391fa00b4a416b6e796383d962
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826400"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780711"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 ===========================================
@@ -98,7 +98,7 @@ ms.locfileid: "41826400"
     Connect-AzureAD
     ```
     提示登录时，请使用管理员帐户和密码登录。  
-2. 运行以下命令以显示仍在 30 天保留期内所有软删除的 Office 365 组的列表。 如果有大量组，请使用 **-All $True** 参数。
+2. 运行以下操作以显示仍在30天保留期内的所有软删除的 Microsoft 365 组的列表。 如果有大量组，请使用 **-All $True** 参数。
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 

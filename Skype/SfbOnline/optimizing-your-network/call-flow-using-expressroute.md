@@ -20,22 +20,22 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 本文旨在介绍 Skype for Business Online 和 ExpressRoute 的核心呼叫流原理，并提供详细呼叫流示例来帮助你正确理解和规划呼叫流。
-ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8460d845302fbca2ab10e5c43f9feda8af45a321
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706667"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777587"
 ---
 # <a name="call-flow-using-expressroute"></a>使用 ExpressRoute 的呼叫流
 
 本文旨在介绍 Skype for Business Online 和 ExpressRoute 的核心呼叫流原理，并提供详细呼叫流示例来帮助你正确理解和规划呼叫流。
 
-如果你要部署 Skype for business Online 作为 Office 365、Skype for business Server 混合版或 Skype for business 云连接器版的一部分，你需要了解 Skype for Business 客户端和服务器与呼叫流之间的通信，以便您可以有效地计划、部署、操作和解决 Skype for Business Online 服务。
+如果你要在 Office 365、Skype for business Server 混合版或 Skype for business 云连接器版中部署 Skype for Business Online，你需要了解 Skype for Business 客户端和服务器与呼叫流之间的通信，以便你可以有效地计划、部署、操作和解决 Skype for Business Online 服务。
 
 ## <a name="call-flow-overview"></a>呼叫流概述
 
-本文档介绍了可以携带这些通话流的数据的网段，并帮助你了解与通过 Internet 或 ExpressRoute 传输的流量相比，哪些流量将在网络上保持本地。了解使用 ExpressRoute 的流量将帮助你评估贵公司使用 ExpressRoute 接收的好处，并帮助你了解 ExpressRoute 部署指南，以便在你确定后验证和解决你的部署使用 ExpressRoute。
+本文档介绍了可以携带这些通话流的数据的网段，并帮助你了解与通过 Internet 或 ExpressRoute 传输的流量相比，哪些流量将在网络上保持本地。了解使用 ExpressRoute 的流量将帮助你评估贵公司使用 ExpressRoute 接收的好处，并帮助你了解在你决定使用 ExpressRoute 后验证和解决你的部署的 ExpressRoute 部署指南。
 
 本文介绍的呼叫流受你可以控制的一系列因素的影响，包括防火墙规则、NAT 配置、代理和路由器配置。本文假设你使用的是推荐设置。这些推荐设置在以下文档中进行了说明：
 
@@ -47,7 +47,7 @@ ms.locfileid: "41706667"
 
 - [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)
 
-未遵循上述文档中的设置步骤的设置和配置可以有不同于我们在此处介绍的通话流。此外，你可能会发现你有配置问题，如非对称网络路由或非最佳传输协议。当涉及 ExpressRoute 时，非对称路由是一个重要考虑因素，因为 ExpressRoute 引入了第二条指向 Office 365 的路径，这将创建一个方向使用 Internet 的路由，另一个路由使用其他方向上的 ExpressRoute。这可能会导致流量在返回方向被阻止，如果它流经有状态的防火墙。
+未遵循上述文档中的设置步骤的设置和配置可以有不同于我们在此处介绍的通话流。此外，你可能会发现你有配置问题，如非对称网络路由或非最佳传输协议。当涉及 ExpressRoute 时，非对称路由是一个重要考虑因素，因为 ExpressRoute 引入了第二条指向 Office 365 的路径，这将创建在一个方向使用 Internet 的路由以及另一个方向使用 ExpressRoute 的路由。这可能会导致流量在返回方向被阻止，如果它流经有状态的防火墙。
 
 ## <a name="network-segments-and-traffic-types"></a>网络段和流量类型
 
@@ -103,7 +103,7 @@ Skype for business Online 的网络流量分为两大类别，在呼叫流程中
 
 ## <a name="skype-for-business-call-flows-with-expressroute"></a>具有 ExpressRoute 的 Skype for Business 呼叫流
 
-现在，你已了解了四个不同网段以及 Skype for business 呼叫流程的一些一般指导原则，你可以使用该信息来帮助你了解哪些 Skype for business 流量将遍历 ExpressRoute网络段。
+现在，你已了解了四个不同的网段以及 Skype for business 呼叫流程的一些通用指导原则，你可以使用该信息来帮助你了解哪些 Skype for business 流量将遍历 ExpressRoute 网络段。
 
 如果一个端点位于你的网络内，另一个端点位于 Office 365 数据中心，则网络流量通常会通过 ExpressRoute 连接传输。这些网络流量包括客户端和服务器之间的信令流量、会议呼叫期间使用的媒体流量或使用在线边缘服务器的点对点呼叫。
 
@@ -116,7 +116,7 @@ Skype for business Online 的网络流量分为两大类别，在呼叫流程中
 > [!NOTE]
 > Skype for Business 使用的流量子集不会通过 ExpressRoute 进行路由，并且将始终获取 Internet 路径。请参阅[Office 365 url 和 IP 地址范围](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)以确定可能受影响的 url。
 
-### <a name="peer-to-peer-call-for-office-365-users-from-within-customer-network"></a>来自客户网络内的 Office 365 用户的对等呼叫
+### <a name="peer-to-peer-call-for-microsoft-365-or-office-365-user-from-within-customer-network"></a>客户网络内的 Microsoft 365 或 Office 365 用户的对等呼叫
 <a name="bk_Figure2"> </a>
 
 对于点对点呼叫，媒体流量总是采用最直接的路径传输到目标。但是，信令流量会传输到 Online 用户托管地的 Office 365 数据中心。由于两个用户位于同一个 WAN，并且客户端可以畅通无阻地直接通信，因此媒体会直接在用户之间流动。两个用户的信令流量会通过 ExpressRoute 连接传输到每个组织的数据中心。下图说明了此场景中的呼叫流。
@@ -128,7 +128,7 @@ Skype for business Online 的网络流量分为两大类别，在呼叫流程中
 ### <a name="online-user-on-your-network-joining-a-conference-that-is-hosted-online"></a>网络上的联机用户加入联机托管的会议
 <a name="bk_Figure3"> </a>
 
-在对等示例中，媒体流量始终最直接到达其目标。但是，对于联机会议，目标位于 Office 365 cloud 中。这意味着从你的网络中加入会议的所有用户的媒体流量将遍历 ExpressRoute 连接，而信号流量将传播到 Office 365 云。下图显示了媒体和信号将遍历你的网络中的用户的 ExpressRoute 连接，并且将直接从你的网络外部连接到 Internet 的用户（如来自咖啡的用户）对 Internet 进行遍历。商店或酒店。
+在对等示例中，媒体流量始终最直接到达其目标。但是，对于联机会议，目标位于 Office 365 cloud 中。这意味着从你的网络中加入会议的所有用户的媒体流量将遍历 ExpressRoute 连接，而信号流量将传播到 Office 365 云。下图显示了媒体和信号将遍历你的网络中的用户的 ExpressRoute 连接，并且将直接从你的网络外部连接到 Internet 的用户（如咖啡店或旅馆）向 Internet 进行遍历。
 
 请记住，会议的位置由会议组织者定义，而不是由参与者定义。这意味着，如果会议是由本地客户安排的，则媒体流量不会通过 ExpressRoute 流向 Office 365 云，而是将 Internet 转到会议组织者的本地数据中心。
 
@@ -138,7 +138,7 @@ Online 会议的媒体流量的传输目标是 Office 365 云内部的数据中�
 
 - 如果加入会议的用户的所在地与公司组织所在的国家/地区不同，例如公司为跨国公司或加入会议的用户正在出差。
 
-有关在此方案中使用 ExpressRoute 的好消息是使用 ExpressRoute premium 加载项时，ExpressRoute 路径后面的数据将自动传递到 Microsoft 的主干中，而不考虑会议组织者的地理区域组织的数据中心。
+有关在此方案中使用 ExpressRoute 的好消息是使用 ExpressRoute premium 加载项时，ExpressRoute 路径后面的数据将自动传递到 Microsoft 的主干中，与会议组织的数据中心的组织者的地理区域无关。
 
  **Online 用户加入 Online 会议时的呼叫流**
 
@@ -197,7 +197,7 @@ Skype for Business Online 使用方案涉及处于联机状态的用户，并且
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**使用场景** <br/> |**端点** <br/> |**信令路径** <br/> |**媒体路径** <br/> |**示例流** <br/> |**说明** <br/> |
-|点对点呼叫  <br/> |两个客户端，均位于你的网络中。  <br/> |ExpressRoute  <br/> |本地  <br/> |[来自客户网络内的 Office 365 用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
+|点对点呼叫  <br/> |两个客户端，均位于你的网络中。  <br/> |ExpressRoute  <br/> |本地  <br/> |[客户网络内的 Microsoft 365 或 Office 365 用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |点对点呼叫  <br/> |两个客户端，一个位于你的网络（内部），另一个在 Internet 上的客户端（外部）。  <br/> |内部用户：ExpressRoute  <br/> 外部用户：Internet  <br/> |内部用户：ExpressRoute  <br/> 外部用户：Internet 到 Office 365 边缘服务器。  <br/> |[来自客户网络内的 Office 365 用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |假定防火墙阻止客户端之间的直接连接，这需要联机边缘服务器。从内部用户到联机边缘服务器的流量遵循与会议服务器通话的类似路径。  <br/> |
 |点对点呼叫联盟组织中的用户  <br/> |两个客户端，一个位于你的网络（内部），另一个位于联盟组织网络（联盟）中的 Online 用户。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络中的 Online 用户加入托管在 Online 的会议](call-flow-using-expressroute.md#bk_Figure3) <br/> |假设防火墙拦截了客户端之间的直接连接，这时需要使用在线边缘服务器。从内部用户到在线边缘服务器的流量采用的路径与到会议呼叫的会议服务器的流量采用的路径相似。  <br/> |
 |客户网络中的用户加入会议呼叫  <br/> |客户端位于你的网络，会议服务器位于 Office 365 云中。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络中的 Online 用户加入托管在 Online 的会议](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
@@ -216,7 +216,7 @@ Skype for Business Online 使用方案涉及处于联机状态的用户，并且
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**使用场景** <br/> |**端点** <br/> |**信令路径** <br/> |**媒体路径** <br/> |**示例流** <br/> |**说明** <br/> |
-|点对点呼叫  <br/> |两个客户端，一个位于客户网络，另一个在本地托管  <br/> |本地  <br/> |本地  <br/> |[来自客户网络内的 Office 365 用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |由于用户为本地托管用户，因此信令将从本地传输到本地数据中心，而不是 Office 365 云。  <br/> |
+|点对点呼叫  <br/> |两个客户端，一个位于客户网络，另一个在本地托管  <br/> |本地  <br/> |本地  <br/> |[客户网络内的 Microsoft 365 或 Office 365 用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |由于用户为本地托管用户，因此信令将从本地传输到本地数据中心，而不是 Office 365 云。  <br/> |
 |点对点呼叫  <br/> |两个客户端，均从客户网络进行连接。一个为 Online 托管，另一个为本地托管。  <br/> |Online 用户：ExpressRoute  <br/> 本地用户：本地  <br/> |本地  <br/> |[来自客户网络内的 Office 365 用户的对等呼叫](call-flow-using-expressroute.md#bk_Figure2) <br/> |只有 Online 托管用户将信令流量发送到 Office 365 云。  <br/> |
 |对联合组织中的用户的对等呼叫  <br/> |两个客户端，一个位于客户网络（内部）中的本地用户，另一个位于联盟公司的网络（联盟）中的 Online 用户。  <br/> |内部用户：本地  <br/> 联盟用户：ExpressRoute  <br/> |Internet 或 ExpressRoute（取决于使用 Online 还是本地边缘服务器）  <br/> |[您的网络上的联机用户加入一个](call-flow-using-expressroute.md#bk_Figure3)[通过 Office 365 托管会议](call-flow-using-expressroute.md#bk_Figure5)（适用于媒体流量）托管的联机会议和本地边缘服务器的一部分。 <br/> |假定防火墙阻止客户端之间的直接连接，需要联机边缘服务器。ICE 协商将为连接提供联机（由联机用户）和本地边缘服务器（由本地用户）。  <br/> |
 |客户网络中的用户加入会议呼叫（Online 用户安排的会议）  <br/> |本地用户位于你的网络，会议服务器位于 Office 365 云中。  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[你的网络中的 Online 用户加入托管在 Online 的会议](call-flow-using-expressroute.md#bk_Figure3) <br/> |会议呼叫的服务器资源由会议组织者定义。在此情况下，它由联机用户安排，因此资源位于 Office 365 云中。  <br/> |

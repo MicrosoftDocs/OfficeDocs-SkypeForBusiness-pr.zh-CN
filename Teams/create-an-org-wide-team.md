@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99acc2e1756c0915f404f6bf6b1bfab1e30fcaf6
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
-ms.translationtype: HT
+ms.openlocfilehash: 90051eb5ee4faf981ec54efa8049909dde4311d3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288730"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778448"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
@@ -77,7 +77,7 @@ ms.locfileid: "42288730"
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>除了使用 Teams 客户端之外，是否有其他方法可以创建组织范围的团队？
 
-全局管理员只能使用 Teams 客户端创建组织范围的团队。 如果贵组织将创建团队限制为使用 PowerShell，则建议的解决方法是将全局管理员添加到可以创建团队的用户安全组中。 有关详细信息，请参阅[管理哪些人可以创建 Office 365 组](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)。
+全局管理员只能使用 Teams 客户端创建组织范围的团队。 如果贵组织将创建团队限制为使用 PowerShell，则建议的解决方法是将全局管理员添加到可以创建团队的用户安全组中。 有关详细信息，请参阅[管理可创建 Microsoft 365 组的人员](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)。
 
 如果这样做行不通，则可以使用 PowerShell 创建公共团队，并将全局管理员添加为团队所有者。 然后，让全局管理员单击团队名称旁边的“**更多选项**”，单击“**编辑团队**”，然后将隐私更改为“**组织范围 - 将自动添加你的组织中的所有人**”。 请注意，只有团队所有者才能访问“**编辑团队**”选项，并且只有全局管理员才能看到“**组织范围**”选项。
 

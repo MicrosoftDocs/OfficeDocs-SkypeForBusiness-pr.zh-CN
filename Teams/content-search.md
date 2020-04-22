@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: 了解如何在 Microsoft 团队中使用 "内容搜索" 查询来自 Exchange、SharePoint Online、OneDrive for business 和 OneNote 的 Microsoft 团队信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137742"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776447"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 =====================================
@@ -92,4 +92,4 @@ ms.locfileid: "43137742"
 
 ## <a name="related-topics"></a>相关主题
 
-- [Office 365 安全 & 合规中心中的电子数据展示事例](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [Microsoft 365 合规中心中的电子数据展示事例](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

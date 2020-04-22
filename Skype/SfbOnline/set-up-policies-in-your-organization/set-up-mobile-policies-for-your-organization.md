@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 你可以使用移动设备上的 Skype for Business 应用来设置你的用户如何连接到 Skype for business Online，例如允许用户通过其工作电话号码（而不是移动电话号码）在手机上拨打和接听电话的功能。mber.移动策略还可用于在拨打或接听电话时要求 Wlan 连接。
-ms.openlocfilehash: 2d608356e08ae989d0be79bd61f14a4d6ba3b9f0
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 你可以使用移动设备上的 Skype for Business 应用设置用户如何连接到 Skype for business Online，例如允许用户使用其工作电话号码（而不是移动电话号码）在手机上收发电话的功能。移动策略还可用于在拨打或接听电话时要求 Wlan 连接。
+ms.openlocfilehash: ac8f94cb7203b3b0ee4698969db0b76cb1e31a49
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887851"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776257"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>为你的组织设置移动策略
 
-你可以使用移动设备上的 Skype for Business 应用来设置你的用户如何连接到 Skype for business Online，例如允许用户通过其工作电话号码（而不是移动电话号码）在手机上拨打和接听电话的功能。mber.移动策略还可用于在拨打或接听电话时要求 Wlan 连接。
+你可以使用移动设备上的 Skype for Business 应用设置用户如何连接到 Skype for business Online，例如允许用户使用其工作电话号码（而不是移动电话号码）在手机上收发电话的功能。移动策略还可用于在拨打或接听电话时要求 Wlan 连接。
   
 移动策略设置可以在创建策略时进行配置，也可以使用**CsMobilityPolicy** cmdlet 修改现有策略的设置。
   
@@ -55,7 +55,7 @@ ms.locfileid: "41887851"
     
     1. From the **Start Menu** > **Windows PowerShell**.
         
-    2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
+    2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
         
         > [!NOTE]
         > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。

@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解将新服务电话号码分配给你的会议桥所需的步骤，以便为你的用户扩展覆盖范围。
-ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139071"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780351"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
@@ -69,7 +69,7 @@ ms.locfileid: "43139071"
 
 在安排会议时，用户的默认电话号码是会议邀请中包含的电话号码。 有关详细信息（包括如何为新用户分配 defaul 电话号码），请参阅[设置 Microsoft 团队邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)，或[在 Skype for Business Online 中设置邀请中包含的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
   
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到**Microsoft 365 管理中心** > **管理中心** > **团队 & Skype** > **旧版门户** > **音频会议** > **用户**，然后在列表中选择用户。
 
@@ -133,7 +133,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>步骤 3-取消分配音频会议桥的旧电话号码
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到**Microsoft 365 管理中心** > **管理中心** > **团队 & Skype** > **旧门户** > **语音** > **电话号码**。
 
@@ -169,7 +169,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. From the **Start Menu** > **Windows PowerShell**.
 
-2. 在" **Windows PowerShell** "窗口中连接到 Office 365 组织，方法是通过运行：
+2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
 
 >
   ```PowerShell

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ed959f74be1074ab8ed60b3fe54f06384b7990a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b42785d4f8d765e7d9600c2e195e48d7ec60d8ba
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836164"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780651"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>从 Skype for Business Online 到 Microsoft 团队的自动升级
 
@@ -35,7 +35,7 @@ Microsoft 向团队提供自动升级，以帮助小型企业在2021年7月31日
 
 有资格自动升级到团队的 Skype for Business Online 客户将在其计划升级日期之前的30天内收到一系列升级通知。 这些通知将作为 "管理员" 消息中心中的 "更改" 发布的*计划*交付，将电子邮件升级到全局管理员，并将应用内的标记升级到最终用户。
 
-这些通知将传达自动升级的计划日期，将链接到升级资源和培训，以帮助推动团队的采纳和使用，并让客户选择将其自动升级推迟到最新的30天内活动他们的计划日期尚未准备好升级。
+这些通知将与自动升级的计划日期进行通信，并链接到升级资源和培训以帮助推动团队的采纳和使用，并让客户选择将其自动升级推迟30天后，他们的计划日期后还未准备好升级。
 
 ## <a name="the-automated-upgrade-experience"></a>自动升级体验
 
@@ -56,7 +56,7 @@ Microsoft 向团队提供自动升级，以帮助小型企业在2021年7月31日
 
 从 Skype for Business Online 到 Microsoft 团队的成功转换需要技术规划和用户准备工作，以确保你的组织做好充分利用扩展功能和团队性能的准备。 但是，当你规划升级时，你可能会发现你的组织尚未准备好升级到团队。
 
-如果收到有关计划自动升级到团队并希望推迟到更晚日期的通知，则 Office 365 全局管理员可能会登录到团队管理门户，然后单击 "*推迟*" 按钮。 这样做会将自动升级日期推送30天。 在延迟后刷新团队管理门户时，你将看到一个通知，其中包含你的新自动升级日期。
+如果收到有关计划自动升级到团队的通知，并且希望推迟到更晚的日期，全局管理员可能会登录到团队管理门户，然后单击 "*推迟*" 按钮。 这样做会将自动升级日期推送30天。 在延迟后刷新团队管理门户时，你将看到一个通知，其中包含你的新自动升级日期。
 
 ## <a name="requests-to-downgrade-to-skype-for-business"></a>降级到 Skype for business 的请求
 

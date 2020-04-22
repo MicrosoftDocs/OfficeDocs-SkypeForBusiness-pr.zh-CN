@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1dfd82cc10f90616dcdd557e9d1d70f36a9ae1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837812"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780481"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft Teams 管理快速入门
 
@@ -36,7 +36,7 @@ ms.locfileid: "41837812"
 
 若要了解详细信息，请阅读[团队中用于管理的计划](plan-teams-governance.md)和[团队中的生命周期管理规划](plan-teams-lifecycle.md)。
 
-## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![代表决策点的图标](media/teams-adoption-decision-icon.png)判断
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![代表决策点的图标](media/teams-adoption-decision-icon.png)判断
 
 做出以下决策（此时，这些决策仅适用于第2阶段）：
 
@@ -62,7 +62,7 @@ ms.locfileid: "41837812"
 
 ### <a name="decision-6--data-security"></a>决策6：数据安全
 
-为广泛部署做好准备，您可以选择使用安全标签对环境中的团队类型进行分类。 出于本次实验的目的，我们建议你参考[团队中的管理计划](plan-teams-governance.md)，并确保已针对 Office 365 组织中的团队数据设置了基本保留策略。 您可能需要与您的技术团队协调此工作，因为完成此工作需要 Office 365 管理员权限。
+为广泛部署做好准备，您可以选择使用安全标签对环境中的团队类型进行分类。 出于本次实验的目的，我们建议你参考[团队中的管理计划](plan-teams-governance.md)，并确保已针对 Microsoft 365 或 Office 365 中的团队数据设置了基本保留策略。 您可能需要与您的技术团队协调此工作，因为完成此工作需要 Office 365 管理员权限。
 
 ### <a name="decision-7-length-of-your-experiment"></a>决策7：实验的长度
 

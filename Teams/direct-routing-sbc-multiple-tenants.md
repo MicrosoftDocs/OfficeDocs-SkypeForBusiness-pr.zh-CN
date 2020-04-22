@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何配置一个会话边界控制器（SBC）来为多个租户提供服务。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141085"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779568"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -80,7 +80,7 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone
 
 当呼叫到达 Office 365 直接路由接口时，该接口使用联系人标题查找应在其中查找用户的租户。 直接路由不会在邀请上使用电话号码查找，因为某些客户可能具有在多个租户中可能会重叠的非号码。 因此，联系人标头中的 FQDN 名称是标识确切的租户以通过电话号码查找用户所必需的。
 
-*有关在 Office 365 租户中创建域名的详细信息，请参阅[获取有关 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*有关在 Office 365 组织中创建域名的详细信息，请参阅[获取有关 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 下图总结了基本域、子域和联系人标头的要求。
 
@@ -138,7 +138,7 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
 注册域名后，您需要通过至少添加一个 E1、E3 或 E5 许可用户来激活它，并使用与创建的基础域匹配的 SIP 地址的 FQDN 部分分配 SIP 地址。 
 
-*有关在 Office 365 租户中添加用户的详细信息，请参阅[获取有关 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*有关在 Office 365 组织中添加用户的详细信息，请参阅[获取有关 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 例如： test@customers.adatum.biz
 
@@ -200,7 +200,7 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
 注册域名后，您需要通过至少添加一个用户并使用与客户租户中创建的子域相匹配的 SIP 地址的 FQDN 部分来激活该域名。
 
-*有关在 Office 365 租户中添加用户的详细信息，请参阅[获取有关 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*有关在 Office 365 组织中添加用户的详细信息，请参阅[获取有关 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 例如： test@sbc1.customers.adatum.biz
 

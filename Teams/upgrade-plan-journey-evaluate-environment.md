@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d73c40ee6a2ebe906a6a3ca66dbb430b843c6eeb
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 1b7c7910c7c876c01d3192e16f49498e508fcd2c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706922"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776729"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>升级到团队之前先评估你的环境
 
@@ -44,24 +44,24 @@ ms.locfileid: "42706922"
 
 你可以将技术风险标识为环境评估和采纳准备情况评估的一部分，并针对每个确定的风险制定一个缓解计划。 您应将此信息合并到风险注册中。
 
-环境发现问卷问卷中包含与你的现有协作基础结构和 Office 365 租户、网络、终结点、操作以及准备情况和准备情况相关的所有事项。 调查表分为多个部分，用于在几个重要领域确认您的组织准备好团队部署。 与你的项目团队协作，尽可能详细地提供所需的信息，以促进你的规划活动。
+环境发现问卷问卷中包括与您的现有协作基础结构和 Office 365 组织、网络、终结点、操作以及准备情况和准备情况相关的所有事项。 调查表分为多个部分，用于在几个重要领域确认您的组织准备好团队部署。 与你的项目团队协作，尽可能详细地提供所需的信息，以促进你的规划活动。
 
 > [!TIP]
 > 你可以从将调查表复制到 Microsoft Word 文档中开始。 尝试回答所有问题，并在您移动浏览时捕获所有详细信息。
 
 ## <a name="project-team"></a>项目团队
 
-确保您已为您的项目团队预定了合适的人员。 验证在[登记项目 stakekholders](upgrade-enlist-stakeholders.md)中完成的步骤。
+确保您已为您的项目团队预定了合适的人员。 验证在[登记项目利益干系人](upgrade-enlist-stakeholders.md)时完成的步骤。
 
-## <a name="office-365-tenant-details"></a>Office 365 租户详细信息
+## <a name="office-365-organization-details"></a>Office 365 组织详细信息
 
-我们强烈建议您在使用此调查表时拥有一个活动的 Office 365 租户。 如果尚未激活或配置 Office 365 租户，请参阅[规划 office 365 for business 的设置](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)。
+我们强烈建议您在使用此调查表时拥有一个活动的 Office 365 组织。 如果尚未激活或配置 Office 365 组织，请参阅[规划 office 365 for business 的设置](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)。
 
-使用下表捕获有关 Office 365 租户的信息。
+使用下表捕获有关 Office 365 组织的信息。
 
 > | 问题 | 回答 | 备注 |
 > |---|---|---|
-> | 注意生产 Office 365 租户 <br>"应答" 列中的名称和 ID <br/>如果你有多个租户 <br>与您的组织相关联， <br>请注意所有 Id。 | 租户名称： <br/>租户 ID：| |
+> | 注意生产 Office 365 组织 <br>"应答" 列中的名称和 ID <br/>如果你有多个租户 <br>与您的组织相关联， <br>请注意所有 Id。 | 租户名称： <br/>租户 ID：| |
 > | 租户是在哪些地区部署的？| | |
 > | 这些租户是 Office 365 多租户还是 <br>专用? | <input type="checkbox">多<br/> <input type="checkbox">专用 | |
 > | 目前使用哪些 Microsoft Online 产品？ <br/>请注意为每个用户启用的用户数 <br>"评论" 列中的服务。 | <input type="checkbox">Microsoft 团队 <br/> <input type="checkbox">Skype for Business <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox">之外| |
@@ -98,7 +98,7 @@ ms.locfileid: "42706922"
 > | 问题 | 回答 | 备注 |
 > |---|---|---|
 > | 为 Teams 启用了哪些类型的用户？ | <input type="checkbox">组织中的所有用户 <br/> <input type="checkbox">特定用户/用户组 <br>&nbsp;&nbsp; （在 "注释" 列中&nbsp;指定） ||
-> | 哪些团队功能和形式正在使用？ | <input type="checkbox">基于频道的对话 <br/> <input type="checkbox">私人聊天 <br/> <input type="checkbox">来宾访问 <br/> <input type="checkbox">频道会议 <br/> <input type="checkbox">私人会议 <br/> <input type="checkbox">私人通话 <br/> <input type="checkbox">临时频道聚会 <br/> <input type="checkbox">会议中的视频 <br/> <input type="checkbox">会议中的屏幕共享 <br/> <input type="checkbox">音频会议 <br/><input type="checkbox">应用程序（应用）<br> &nbsp;&nbsp; &nbsp;选项<input type="checkbox">卡<br>&nbsp;&nbsp;机器人&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;连接线&nbsp; <input type="checkbox"><br><input type="checkbox">自定义云存储集成 <br>&nbsp;&nbsp; （Box、Dropbox、ShareFile、Google &nbsp; drive） <br/> <input type="checkbox">频道电子邮件集成 <br/> <input type="checkbox">其他（在 "评论" 列中指定。） | |
+> | 哪些团队功能和形式正在使用？ | <input type="checkbox">基于频道的对话 <br/> <input type="checkbox">私人聊天 <br/> <input type="checkbox">来宾访问 <br/> <input type="checkbox">频道会议 <br/> <input type="checkbox">私人会议 <br/> <input type="checkbox">私人通话 <br/> <input type="checkbox">临时频道聚会 <br/> <input type="checkbox">会议中的视频 <br/> <input type="checkbox">会议中的屏幕共享 <br/> <input type="checkbox">音频会议 <br/><input type="checkbox">应用程序（应用）<br> &nbsp;&nbsp; &nbsp;选项<input type="checkbox">卡<br>&nbsp;&nbsp;机器人&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;连接线&nbsp; <input type="checkbox"><br><input type="checkbox">自定义云存储集成 <br>&nbsp;&nbsp; （Dropbox、Box、ShareFile、Google Drive、 &nbsp; Egnyte） <br/> <input type="checkbox">频道电子邮件集成 <br/> <input type="checkbox">其他（在 "评论" 列中指定。） | |
 > | 你已将哪些应用程序部署到团队？ | | |
 > | 你是否专门阻止过任何 Teams 功能？ <br/>如果是，请记下 "评论" 列中的详细信息。 | <input type="checkbox">是的 <br/> <input type="checkbox">不 ||
 > | 目前使用哪些 Teams 客户端？ | <input type="checkbox">站点 <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Mac <br/> <input type="checkbox">输出 <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |

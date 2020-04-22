@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: 了解 Microsoft 团队中的 Office 365 呼叫计划和 Office 365 音频会议的免费拨出期。
-ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137292"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779789"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
@@ -48,7 +48,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 
 此外，在拨出期内有900分钟上限限制，如下所示：
 
-使用许可证使用位置的用户（这是在 Office 365 管理门户的 "授权" 区域中定义的用户国家/地区位置）可以从会议拨出到44区域中的任何国家和地区。 每个用户每月在租户级别共用的国家和地区每个用户收到900分钟。 例如，客户购买了115音频会议套餐，有10名用户，在美国，英国和5名用户中的100用户均已分配给其用户的音频会议订阅许可证。
+使用许可证使用位置的用户（这是 Microsoft 365 管理中心的 "授权" 区域中定义的用户国家/地区的位置）可以从会议拨出到44区域中的任何国家和地区。 每个用户每月在租户级别共用的国家和地区每个用户收到900分钟。 例如，客户购买了115音频会议套餐，有10名用户，在美国，英国和5名用户中的100用户均已分配给其用户的音频会议订阅许可证。
 
 > [!NOTE]
 > 池大小基于分配的许可证，而不是已购买的许可证。

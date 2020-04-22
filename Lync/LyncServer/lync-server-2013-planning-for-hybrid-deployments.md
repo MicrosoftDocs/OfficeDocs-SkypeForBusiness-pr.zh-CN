@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f9572df29681d6b2ee754fe51702fcc8f0b0163
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184285"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**上次修改的主题：** 2016-05-25_
 
 您必须在您的环境中配置以下各项才能实现和部署混合部署。
 
-  - 启用了 Skype for Business Online 的 Microsoft Office 365 租户。 请注意，您只能将一个租户用于与本地部署的混合配置。
+  - 启用了 Skype for Business Online 的 Microsoft Office 365 组织。 请注意，您只能将一个租户用于与本地部署的混合配置。
 
   - 在受支持的拓扑中部署的 Skype for Business Server 或 Lync Server 的单一本地部署（基础架构）。 请参阅拓扑要求。
     
@@ -159,7 +159,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
 若要成功配置混合部署，必须满足以下要求：
 
-  - 必须为您的本地部署和 Office 365 租户配置域匹配。 如果在本地部署上启用了合作伙伴发现，则必须为您的联机租户配置开放联盟。 如果未启用合作伙伴发现，则必须为您的联机租户配置关闭的联合身份验证。
+  - 为本地部署和 Office 365 组织配置的域匹配必须相同。 如果在本地部署上启用了合作伙伴发现，则必须为您的联机租户配置开放联盟。 如果未启用合作伙伴发现，则必须为您的联机租户配置关闭的联合身份验证。
 
   - 本地部署中的阻止域列表必须与您的联机租户的阻止域列表完全匹配。
 
@@ -293,7 +293,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
 在 Lync Server 2013 混合部署中，您要在家中使用的任何用户都必须先在本地部署中创建，以便在 Active Directory 域服务中创建用户帐户。 然后，您可以将用户移动到 Skype for Business Online，这将移动用户的联系人列表。
 
-当您在 Lync 本地部署和使用 AD FS 的 Lync Online 部署之间同步用户帐户时，您需要在本地和联机 Lync 部署之间同步组织中的所有 Lync 用户的 AD 帐户，即使用户不会移动到 Lync Online。 如果不同步所有用户，组织中的内部部署用户和联机用户之间的通信可能无法按预期工作。
+当您在 Lync 本地部署和使用 AD FS 和 Dirsync Online 部署之间同步用户帐户时，您需要在内部部署和联机 Lync 部署之间同步组织中所有 Lync 用户的 AD 帐户，即使用户未移动到 Lync Online 也是如此。 如果不同步所有用户，组织中的内部部署用户和联机用户之间的通信可能无法按预期工作。
 
 <div>
 

@@ -15,12 +15,12 @@ description: 通过确定市场活动的关键利益干系人、业务成果、�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 628c839560423e0e2524bed24082156469faeb36
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 396649f40a3e3413de67aea61eca7f2feb7dac4b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137912"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778378"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================
@@ -145,9 +145,9 @@ Teams 变更管理最佳实践：
 <a name="measure-and-share-success"></a>度量和分享成功
 -------------------------------------------------
 
-项目团队应包含你的组织的 IT 管理员。 这些人将能够访问内置在 Office 365 管理员门户体验中的 Office 365 Microsoft Teams 使用情况报告。 此信息可以显示 Microsoft Teams 在贵公司的使用情况。 我们还建议直接从用户获取关于 Teams 体验以及他们对使用的其他想法的反馈。 从自己公司内部共享这些实际示例对于在用户社区实现持续变更非常有价值。  
+项目团队应包含你的组织的 IT 管理员。 这些人员将有权访问 Office 365 Microsoft 团队使用情况报表，这些报表内置于 Microsoft 365 管理中心体验中。 此信息可以显示 Microsoft Teams 在贵公司的使用情况。 我们还建议直接从用户获取关于 Teams 体验以及他们对使用的其他想法的反馈。 从自己公司内部共享这些实际示例对于在用户社区实现持续变更非常有价值。  
 
-在[此处](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)了解有关 Office 365 管理员门户中的 Microsoft Teams 使用情况报告的详细信息。
+在[此处](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)了解有关 microsoft 365 管理中心中的 microsoft 团队使用情况报表的详细信息
 
 > [!TIP]
 > 使用公共团队或 Yammer 社区收集使用见解。 使用 #TeamsStories 标记共享这些见解以便于检索。  在 Intranet 上每月共享 #TeamsStory 以重点介绍支持变更以提高工作效率和增强环境协作的员工。  

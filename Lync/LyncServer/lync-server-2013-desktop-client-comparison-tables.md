@@ -12,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7596d401687484ec939cf3bad86edf17b16efd8c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204260"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ _**上次修改的主题：** 2018-01-23_
 
   - 新式验证
 
-这些表指出了 lync Server 2013 的本地部署中 Lync 用户可使用的功能。 Skype for Business Online 和 Office 365 用户也可以使用相同的功能，除非另有指示。
+这些表指出了 lync Server 2013 的本地部署中 Lync 用户可使用的功能。 Skype for Business Online 和 Microsoft 365 或 Office 365 用户也可以使用相同的功能，除非另有说明。
 
 <div>
 
@@ -336,7 +336,7 @@ _**上次修改的主题：** 2018-01-23_
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>展开通讯组和 Office 365 组</p></td>
+<td><p>展开通讯组和 Microsoft 365 组</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -451,9 +451,9 @@ _**上次修改的主题：** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，不支持 Lync 2010 助理。
 
-2对于 Skype for Business Online 和/或 Office 365 用户，此功能不可用。
+2对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，此功能不可用。
 
 </div>
 
@@ -668,11 +668,11 @@ _**上次修改的主题：** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，不支持 Lync 2010 助理。
 
 2本地 Lync Server 2013 和本地 SharePoint 2013 是技能搜索所必需的。
 
-3对于 Skype for Business Online 和/或 Office 365 用户，持续聊天不可用。
+3对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，持续聊天不可用。
 
 </div>
 
@@ -1117,11 +1117,11 @@ _**上次修改的主题：** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，不支持 Lync 2010 助理。
 
 2参与者无法控制由 Skype for Business 在 Mac 上共享的桌面、Lync for Mac 2011 或 Mac 2011 用户的 Communicator。 Mac 用户可以控制由 Windows 用户共享的桌面。
 
-3对于 Skype for Business Online 和/或 Office 365 用户，此功能需要音频会议提供商。
+3对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，此功能需要音频会议提供商。
 
 4 Lync for Mac 2011 客户端无法在 Lync Web App 2013 客户端在会议中共享时查看 Microsoft Office 2013 PowerPoint 演示文稿。
 
@@ -1419,11 +1419,11 @@ _**上次修改的主题：** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，不支持 Lync 2010 助理。
 
-2对于 Skype for Business Online 和/或 Office 365 用户，此功能仅适用于 PC 到 PC 呼叫。
+2对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，此功能仅适用于 PC 到 PC 呼叫。
 
-3对于 Skype for Business Online 和/或 Office 365 用户，此功能不可用。
+3对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，此功能不可用。
 
 </div>
 
@@ -1507,9 +1507,9 @@ _**上次修改的主题：** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，不支持 Lync 2010 助理。
 
-2对于 Skype for Business Online 和/或 Office 365 用户，此功能不可用。
+2对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，此功能不可用。
 
 </div>
 
@@ -1596,9 +1596,9 @@ _**上次修改的主题：** 2018-01-23_
 </table>
 
 
-1对于 Skype for business Online 和/或 Office 365 用户，录制在某些 Skype for Business Online 独立计划中不可用。 录制需要完整的 Lync 2013 客户端权限。 有关详细信息，请参阅上[https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)的 Skype For Business Online 服务说明。
+1对于 Skype for business Online 和/或 Microsoft 365 或 Office 365 用户，录制在某些 Skype for Business Online 独立计划中不可用。 录制需要完整的 Lync 2013 客户端权限。 有关详细信息，请参阅上[https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)的 Skype For Business Online 服务说明。
 
-2对于 Skype for Business Online 和/或 Office 365 用户，文件传输、共享的 OneNote 页面和 PowerPoint 注释的录制不可用。
+2对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，文件传输、共享 OneNote 页面和 PowerPoint 注释的录制不可用。
 
 </div>
 
@@ -1701,11 +1701,11 @@ _**上次修改的主题：** 2018-01-23_
 </table>
 
 
-1对于 Skype for Business Online 和/或 Office 365 用户，不支持 Lync 2010 助理。
+1对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，不支持 Lync 2010 助理。
 
-2对于 Skype for Business Online 和/或 Office 365 用户，此功能需要 Exchange Online，并且由用户的 Exchange 邮箱就地保留属性控制。
+2对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，此功能需要 Exchange Online，并且由用户的 Exchange 邮箱就地保留属性控制。
 
-3对于 Skype for Business Online 和/或 Office 365 用户，文件传输、共享的 OneNote 页面和 PowerPoint 注释的存档不可用。
+3对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，文件传输、共享 OneNote 页面和 PowerPoint 注释的存档不可用。
 
 </div>
 

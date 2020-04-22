@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在加拿大 for Microsoft 团队中获取和管理电话号码的信息。
-ms.openlocfilehash: 317de783786d6485d14ede960c9c1811fa69e794
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9b24413ae7e1534e1a39cc76cc943341221e82cc
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707067"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779819"
 ---
 # <a name="phone-number-management-for-canada"></a>加拿大的电话号码管理
 
@@ -40,7 +40,7 @@ ms.locfileid: "41707067"
 | 获取未在 Microsoft 团队管理中心中列出的新服务电话号码。 <br/> | 对于美国以外的服务号码，请[下载此表单](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true)，填写并将[其发送给我们](mailto:ptneu@microsoft.com)。 |
 |获取转接给我们的电话号码。  <br/> | 下载下列表单之一： <br/> [加拿大（用户和服务号码）的授权信（LOA）（）（en）（en-ca）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/> [加拿大授权书 (LOA)（用户和服务号码）(v.1.0)(fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf?raw=true) <br/> [加拿大的授权（LOA）（免费电话号码）（如3.2）（en-ca）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/>[加拿大授权书 (LOA)（免费电话号码）(v.1.1)(fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.1)-(fr-ca).pdf?raw=true)<br/> <br>**注意：** 如果您尝试获取超过999的订阅者或用户电话号码，您需要填写一份授权书（LOA），并将其发送给我们。 有关详细信息，请参阅[将电话号码转移到团队](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。 <br/> <br>填写此申请并[将其发送给我们](mailto:ptn@microsoft.com)。  <br/> |
 |将用户号码更改为服务号码。  <br/>                                 | [向我们发送](mailto:ptn@microsoft.com)你的 PIN 以及你想要转换为服务号码的用户号码列表。 要设置 PIN，请访问[此处](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
-|将数字从一个 Office 365 组织转移到另一个组织。  <br/>               | [向我们发送](mailto:ptn@microsoft.com)你想要转移的用户（订阅者）电话号码列表以及你想要从其转移号码的源组织的 PIN。 要设置 PIN，请访问[此处](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
+|将数字从一个 Microsoft 365 或 Office 365 转移到另一个。  <br/>               | [向我们发送](mailto:ptn@microsoft.com)你想要转移的用户（订阅者）电话号码列表以及你想要从其转移号码的源组织的 PIN。 要设置 PIN，请访问[此处](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider)。  <br/> |
 
 ## <a name="related-topics"></a>相关主题
 

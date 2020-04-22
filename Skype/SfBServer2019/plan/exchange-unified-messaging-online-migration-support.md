@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在停用2020年2月28日的 Exchange 统一消息联机（ExchUMO）服务。 本文总结了受影响的客户应了解的内容，并将为其规划业务连续性而执行此操作。
-ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417617"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780771"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息联机迁移支持
 
@@ -82,7 +82,7 @@ Microsoft 已识别出使用 ExchUMO 中的功能的各种客户部署，并将�
     查看管理员通知中心中有关用户迁移的详细信息和时间线的通知。 通知在迁移期前至少在30天内发送。 
 
     > [!Note]
-    > 如果您收到一条通知，告知用户的迁移时间线，并且希望由于业务关键型原因推迟迁移，您可以通过联系 Microsoft 支持来执行此操作。 请注意，不能推迟超过退休日期（2020年2月28日）的迁移。 对于可能包含更多问题的客户，请联系你的帐户团队或 Microsoft 支持部门。 已使用 Office 365 的客户可以通过 Office 365 管理门户提交支持案例。 
+    > 如果您收到一条通知，告知用户的迁移时间线，并且希望由于业务关键型原因推迟迁移，您可以通过联系 Microsoft 支持来执行此操作。 请注意，不能推迟超过退休日期（2020年2月28日）的迁移。 对于可能包含更多问题的客户，请联系你的帐户团队或 Microsoft 支持部门。 已使用 Office 365 的客户可以通过 Microsoft 365 管理中心提交支持案例。 
 
 6. **考虑在计划迁移中选择加入**
 
@@ -104,7 +104,7 @@ Microsoft 已识别出使用 ExchUMO 中的功能的各种客户部署，并将�
 
 ## <a name="auto-attendant-migration-guidelines"></a>自动助理迁移指南
 
-Office 365 租户管理员需要在 Microsoft 云自动助理服务中重新创建 Exchange UM Online 自动助理，并将其内部部署电话号码切换到2020年2月28日，即 Exchange UMO 服务将被撤出. 这是成功迁移和测试新云自动助理的建议准则。 如果您有大量自动助理，则可以使用[EXCHANGE UM 自动助理到云自动助理迁移脚本](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)，以简化自动助理的批量迁移。
+Office 365 组织管理员需要在 Microsoft 云自动助理服务中重新创建 Exchange UM Online 自动助理，并将其内部部署电话号码切换到2020年2月28日，即 Exchange UMO 服务将停用的时间。 这是成功迁移和测试新云自动助理的建议准则。 如果您有大量自动助理，则可以使用[EXCHANGE UM 自动助理到云自动助理迁移脚本](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)，以简化自动助理的批量迁移。
 
 ### <a name="setup"></a>设置
 

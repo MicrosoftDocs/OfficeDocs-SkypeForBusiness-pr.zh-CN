@@ -1,5 +1,5 @@
 ---
-title: 英国的投诉处理代码 -Office 365 通话计划
+title: 英国的投诉处理代码 -Microsoft 365 通话计划
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 提出有关 Skype for business 呼叫服务的投诉（英国的 PSTN 呼叫）、回复的日程表以及解决未解决的投诉的争议。
-ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137282"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780271"
 ---
-# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Office 365 中的通话套餐 - 英国投诉处理准则
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Microsoft 365 中的通话计划-英国的投诉处理代码（英国）
 
-此代码适用于英国（英国）的小型企业客户（即10名员工或更少的组织），根据英国通信法规，在英国（英国）的 Office 365 通话计划服务（"服务"）中。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+此代码适用于英国（英国）的小型企业客户（具有10个员工或更少的组织），与 Microsoft 365 通话计划服务（"服务"）相关的 Microsoft 呼叫计划服务（"服务"）一致。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 
 ## <a name="how-to-make-a-complaint"></a>如何投诉
 

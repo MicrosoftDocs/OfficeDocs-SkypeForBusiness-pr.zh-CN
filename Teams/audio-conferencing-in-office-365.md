@@ -1,5 +1,5 @@
 ---
-title: Office 365 中的音频会议
+title: Microsoft 365 中的音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-mar2020
 description: 了解 Office 365 中的音频会议，包括成本、可用性和专用电话号码。
-ms.openlocfilehash: 5fef21489bbbceb490a2b97d70ee9dbafd2a791c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139011"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780411"
 ---
-# <a name="audio-conferencing-in-office-365"></a>Office 365 中的音频会议
+# <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 中的音频会议
 Office 365 中的音频会议支持用户从手机呼入会议。 音频会议最多允许 250 名电话与会者。
 
 ## <a name="what-is-audio-conferencing"></a>什么是音频会议？
@@ -68,7 +68,7 @@ Office 365 中的音频会议支持用户从手机呼入会议。 音频会议�
   
  **专用电话号码** 是只有你组织内的用户才可以使用的电话号码。 你可以更改当有人呼入其中的某个号码时使用的语言。 为此，你将需要获得一个服务电话号码。
   
- **共享电话号码** 是可以与其他 Office 365 组织共享的电话号码。你无法更改当有人呼入其中的某个号码时使用的语言。
+ **共享电话号码**是可以与其他 Microsoft 365 或 Office 365s 共享的电话号码。 你无法更改当有人呼入其中的某个号码时使用的语言。
   
 虽然会议邀请中只包括分配给组织者的默认音频会议号码，但是呼叫者可以使用分配给你的会议网桥的任一电话号码加入会议。 使用每个会议邀请中包含的" **查找本地号码**"链接，可以找到可用于加入会议的电话号码列表。
 

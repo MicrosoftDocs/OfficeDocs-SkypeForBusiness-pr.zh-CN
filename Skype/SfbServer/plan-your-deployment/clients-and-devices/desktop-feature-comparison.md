@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： Skype for Business Server 2015 或 Skype for Business Online 管理员可以使用这些表了解哪些客户端支持哪些功能。
-ms.openlocfilehash: 36583ab342daa68f87cffb8600fa54c1ce74d089
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013495"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777797"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Skype for business Server 2015 的桌面客户端功能比较
 
@@ -77,7 +77,7 @@ Skype for business Server 2015 中提供的某些功能在 Skype for Business On
 |搜索企业通讯簿 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |搜索 Microsoft Outlook 联系人 |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |管理联系人组 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
-|展开通讯组和 Office 365 组 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
+|展开通讯组和 Microsoft 365 组 |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
 |搜索响应组  <br/> （在 Skype for Business Online 中不可用） |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |显示“最近的联系人”组 |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |显示“当前对话”组 |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;|||

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139661"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780601"
 ---
 # <a name="define-your-project-scope"></a>定义项目范围
 
@@ -93,7 +93,7 @@ ms.locfileid: "43139661"
 |---|---|---|---|---|
 | **网络和质量** | 较差音频通话百分比应很少 | [通话质量仪表板（CQD）](https://aka.ms/sof-cqd) | \<与团队通话不佳的3% | 每周，然后按月 |
 | **使用和知晓** | 聊天、会议和通话体验等于或优于 Skype for Business | 调查 | 80% 同意或强烈同意 | 每周完成试验，后期部署 |
-| **使用和采纳** | 用户主动使用解决方案 | Office 365 报表或 CQD | 从试验用户处参与的90%，比当前解决方案更好 | 每周，然后按月 |
+| **使用和采纳** | 用户主动使用解决方案 | Microsoft 365 报表或 CQD | 从试验用户处参与的90%，比当前解决方案更好 | 每周，然后按月 |
 | **使用和培训** | 我有足够的培训/帮助资源来成功使用团队 | 试生产后调查 | 80% 同意或强烈同意 | 试生产后，后期部署 |
 | **用户满意度** | 我将向其他人推荐团队 | 通过后期测试[Promoter 的网络分数（NPS）](http://www.npscalculator.com/en)调查 | NPS \> 0 | 试生产后，后期部署 |
 | **商业版驱动程序** | 成本节约 | 应付账款 | \$第三方解决方案中的成本支出为 X 百万 | 六个月，然后一年，后五年后推出 |

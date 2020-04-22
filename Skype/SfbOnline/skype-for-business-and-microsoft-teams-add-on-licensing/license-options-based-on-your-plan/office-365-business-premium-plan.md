@@ -1,5 +1,5 @@
 ---
-title: " Office 365 商业高级版 "
+title: 'Microsoft 365 商业标准 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '了解有关加载项许可证、功能和如何购买 Office 365 企业高级版套餐的信息。 '
-ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: '了解加载项许可证、功能以及如何购买 Microsoft 365 商业标准计划。 '
+ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706107"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777407"
 ---
-# <a name="office-365-business-premium"></a> Office 365 商业高级版
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 商业标准
 
-如果你拥有 [Office 365 商业高级版](https://products.office.com/en/business/office-365-business-premium)，则可以使用 Skype for Business 呼叫企业内部包含在订阅中的其他人。例如，如果你的企业有 10 个人，则可以使用 Skype for Business 相互通话和发送即时消息。
+如果您有[Microsoft 365 商业标准](https://products.office.com/en/business/office-365-business-premium)，则可以使用 Skype for business 与您的企业中的其他人进行通话。例如，如果您的企业有10人，您可以使用 Skype for Business 与对方进行通话和发送即时消息。
 
  **要与企业外部的人员相互拨打和接听电话，可以采用以下两个选项：**
 

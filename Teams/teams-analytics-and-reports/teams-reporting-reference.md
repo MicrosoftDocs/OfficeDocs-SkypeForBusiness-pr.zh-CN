@@ -15,12 +15,12 @@ ms.collection:
 description: 了解 Microsoft 团队管理中心提供的团队报表。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1c4c142ff311debd3f96d08e386df68af953c2b
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240642"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778237"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -33,7 +33,7 @@ Microsoft 团队管理中心提供了适用于 Microsoft 团队的新分析和�
 转到 Microsoft 团队管理中心，在左侧导航中，选择 "**分析 & 报表**"，然后在 "**报表**" 下，选择要运行的报表。
 
 > [!NOTE]
-> Microsoft 团队管理中心中的报表与 "Microsoft 365 管理中心" 中的 Office 365 报表中的团队的活动报表分开。 有关 Microsoft 365 管理中心中的活动报表的详细信息，请参阅[microsoft 365 管理中心中的团队活动报表](../teams-activity-reports.md)
+> Microsoft 团队管理中心中的报表独立于 Microsoft 365 管理中心中的 Microsoft 365 报表部分的活动报表。 有关 Microsoft 365 管理中心中的活动报表的详细信息，请参阅[microsoft 365 管理中心中的团队活动报表](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>团队报告参考
 

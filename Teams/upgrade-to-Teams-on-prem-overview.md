@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157890"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779799"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>从 Skype for Business 升级到 IT &mdash;管理员的团队
 
@@ -201,7 +201,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 当用户迁移到 TeamsOnly 模式时，默认情况下，他们组织的现有 Skype for Business 会议将被转换为团队。 你可以选择禁用向用户分配 TeamsOnly 模式时的默认行为。 从本地移动用户时，必须将会议迁移到云才能使用联机用户帐户运行，但如果未指定-MoveToTeams，则会议将作为 Skype for Business 会议进行迁移，而不是转换为团队。 
 
-在租户级别分配 TeamsOnly 模式时，不会为任何用户触发会议迁移。 如果你希望在租户级别分配 TeamsOnly 模式和迁移会议，则可以使用 PowerShell 获取租户中的用户列表（例如，使用 CsOnlineUser 和需要的任何筛选器），然后遍历这些用户中的每个用户以触发会议使用开始-CsExMeetingMigration 的迁移。 有关详细信息，请参阅[使用会议迁移服务（MMS）](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+在租户级别分配 TeamsOnly 模式时，不会为任何用户触发会议迁移。 如果你希望在租户级别分配 TeamsOnly 模式和迁移会议，则可以使用 PowerShell 获取租户中的用户列表（例如，使用 CsOnlineUser 和需要的任何筛选器），然后遍历这些用户中的每个用户以使用启动-CsExMeetingMigration 触发会议迁移。 有关详细信息，请参阅[使用会议迁移服务（MMS）](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
 
 
 ### <a name="additional-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>适用于本地 Skype for business 服务器的组织的其他注意事项
@@ -221,7 +221,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 - 如果你想要在本地用户的 Skype for Business 客户端中显示通知，则必须在本地工具集中使用 TeamsUpgradePolicy。 仅 NotifySfbUsers 参数对于本地用户是相关的。  本地用户从 TeamsUpgradePolicy 的联机实例接收其模式。 请参阅[授权 CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)中的备注。 
 
 >[!NOTE]
-> 2019在9月3日之后创建的任何新租户均以 TeamsOnly 租户的形式创建，不具备管理员降级的能力。 如果组织的 Skype for Business Server 本地版以前从未使用过 Office 365 订阅9月3日之前的版，2019将需要联系 Microsoft 支持部门，以便在使用 Office 365 购买套餐后，将其租户降级。 
+> 2019在年9月3日之后创建的任何新租户均创建为 TeamsOnly 租户，除非该组织已有 Skype for Business Server 的内部部署。 Microsoft 使用 DNS 记录来标识本地 Skype for Business 服务器组织。 如果您的组织具有本地 Skype for Business 服务器，但没有公共 DNS 条目，则您需要致电 Microsoft 支持部门以使新租户降级。 
 
 
 ## <a name="perform-the-upgrade-for-your-organization"></a>为您的组织执行升级
@@ -286,7 +286,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 1. 查找团队中处于活动状态的用户，如下所示：
 
-   1. 从 Office 365 管理门户的左侧导航中，转到 "报表"，然后转到 "使用情况"。 
+   1. 从 Microsoft 365 管理中心的左侧导航中，转到 "报表"，然后转到 "使用情况"。 
    2. 在 "选择报表" 下拉列表中，选择 "Microsoft 团队"，然后选择 "用户活动"。 这将提供已在团队中处于活动状态的用户的可导出表。 
    3. 单击 "导出"、"打开 Excel" 和 "筛选" 以仅显示团队中处于活动状态的用户。
 
@@ -335,7 +335,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 - *使用企业语音的 Skype For business online 中的用户，这些用户将移动到联机状态并保持本地 PSTN 连接*。  将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并通过将用户迁移到直接路由来协调该用户。 
 
-- *使用企业语音的 Skype For business online 中的用户*，这些用户将移动到联机并使用 Microsoft 通话计划。  将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并将该用户的电话号码的端口协调为 "Microsoft 呼叫计划" 或 "B"，将新的订户号码指定为可用区域。
+- *使用企业语音的 Skype For business online 中的用户*，这些用户将移动到联机并使用 Microsoft 通话计划。  将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并将该用户的电话号码的端口协调为 "Microsoft 呼叫计划" 或 "B"，从可用区域分配新的用户号码。
 
 本文仅提供高级别概述。 有关详细信息，请参阅[电话系统直接路由](direct-routing-landing-page.md)和[通话计划](calling-plan-landing-page.md)。 此外，请注意，仅当用户处于 TeamsOnly 模式时，才支持将电话系统与团队配合使用。  如果用户处于 "孤岛" 模式，则只有 Skype for Business 才支持电话系统。 
 
@@ -469,7 +469,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 | :------------------ | :---------------- |
 | TeamsOnly, SfbWithTeamsCollabAndMeetings |    在团队中安排的所有会议。 Outlook 中不提供 Skype for business 加载项。 | 
 | SfbWithTeamsCollab, SfbOnly   | Skype for Business 中安排的所有会议。 "团队外接程序" 在 Outlook 中不可用。 | 
-| 群岛 |     可在 Skype for Business 或团队中安排会议。 Outlook 中提供了这两个加载项。 | 
+| 孤岛 |     可在 Skype for Business 或团队中安排会议。 Outlook 中提供了这两个加载项。 | 
 
 
 ### <a name="interoperability"></a>交互性

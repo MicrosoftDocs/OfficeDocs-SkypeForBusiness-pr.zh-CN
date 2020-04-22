@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。
-ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 新的 Microsoft 365 "报表" 仪表板显示你的组织中的 Office 365 产品的活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。
+ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692347"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776277"
 ---
 # <a name="session-details-report"></a>会话详细信息报告
 
@@ -49,7 +49,7 @@ ms.locfileid: "41692347"
     > 如果未看到此报告列出，请转到**Skype for business 管理中心** > **报告** > **会话详细信息**。 
   
     > [!IMPORTANT]
-    > [!重要信息] 你可能无法看到此处所示的所有产品和报告，具体取决于你拥有的 Office 365 订阅。 
+    > 你可能无法看到此处所示的所有产品和报告，具体取决于你拥有的 Microsoft 365 或 Office 365 订阅。 
   
 ## <a name="interpret-the-skype-for-business-session-details-report"></a>解释 Skype for Business 会话详细信息报告
 

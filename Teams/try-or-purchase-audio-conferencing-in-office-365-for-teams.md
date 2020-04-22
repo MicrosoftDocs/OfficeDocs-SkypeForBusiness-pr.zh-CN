@@ -1,5 +1,5 @@
 ---
-title: 在 Office 365 for 团队中试用或购买音频会议
+title: 在 Microsoft 365 for 团队中试用或购买音频会议
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '请参阅“如何试用或购买 Office 365 中音频会议 （PSTN 会议）许可证”，以设置人员可以拨入的会议电话。 '
-ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139691"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780161"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>为 Microsoft Teams 试用或购买 Office 365 中的音频会议
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 Microsoft 团队的 Microsoft 365 中试用或购买音频会议
 
 有时，组织中的人员需要使用电话拨入会议。 Microsoft 团队仅为此情况提供音频会议功能！ 用户可以使用手机呼叫 Microsoft 团队会议，而不是在移动设备或电脑上使用 Microsoft 团队应用。
 

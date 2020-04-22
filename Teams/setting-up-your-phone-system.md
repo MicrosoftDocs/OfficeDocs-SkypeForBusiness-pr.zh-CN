@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为你的组织设置电话系统（云 PBX）。 '
-ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888721"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779809"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在组织中设置电话系统
 
@@ -81,7 +81,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>使用团队管理中心获取新的服务号码
 
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
 
 2. 转到 "**团队管理中心**"。
 
@@ -105,12 +105,12 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>步骤 6： 如果您想要设置音频会议
 
-您的组织中的人员有时需要使用电话拨入会议。 Microsoft 团队仅为此情况提供音频会议功能。 用户可以使用电话呼叫团队会议，而不是在移动设备或电脑上使用 "团队" 应用。
+有时，组织中的人员需要使用电话拨入会议。 Microsoft 团队仅为此情况提供音频会议功能。 用户可以使用电话呼叫团队会议，而不是在移动设备或电脑上使用 "团队" 应用。
 有关如何设置音频会议的信息，请参阅[设置团队的音频会议](set-up-audio-conferencing-in-teams.md)。
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>步骤7：要设置云呼叫队列
 
-云呼叫队列包括当某人拨打您的组织的电话号码时使用的问候语、自动保持通话的功能，以及搜索下一个可用的呼叫代理以处理呼叫，而通话的人员在保持状态时收听音乐。 您可以为您的组织创建单个或多个通话队列。
+云呼叫队列包括当某人拨入到您的组织的电话号码时使用的问候语、自动将呼叫置于保持状态的功能，以及搜索下一个可用的呼叫代理以处理呼叫的功能，同时呼叫正在收听音乐的用户。 您可以为您的组织创建单个或多个通话队列。
 
 有关通话队列的详细信息，请参阅[创建云呼叫队列](create-a-phone-system-call-queue.md)。
 

@@ -1,5 +1,5 @@
 ---
-title: " Office 365 商业高级版 "
+title: 'Microsoft 365 商业标准 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,17 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '了解加载项许可证、功能以及如何购买 Office 365 商业高级版计划。 '
-ms.openlocfilehash: b51724524f56fe534c95ede85bca7535ab1be396
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: '了解加载项许可证、功能以及如何购买 Microsoft 365 商业标准计划。 '
+ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826560"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780501"
 ---
-# <a name="office-365-business-premium"></a> Office 365 商业高级版
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 商业标准
 
-如果您有[Office 365 商业高级版](https://products.office.com/en/business/office-365-business-premium)，则可以使用 Microsoft 团队与您的企业中的其他人进行通话，这些人员属于您的订阅。 例如，如果您的企业有10个人，则可以使用团队互相呼叫和发送即时消息。
+如果您有[Microsoft 365 商业标准](https://products.office.com/en/business/office-365-business-premium)，您可以使用 microsoft 团队与您的企业中的其他人进行通话，这些人在您的订阅中。 例如，如果您的企业有10个人，则可以使用团队互相呼叫和发送即时消息。
 
 
 **若要拨打和接收来自企业外部人员的呼叫，您可以使用以下选项**：

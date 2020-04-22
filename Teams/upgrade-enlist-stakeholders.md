@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706992"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780591"
 ---
 # <a name="enlist-your-project-stakeholders"></a>登记项目干系人
 
@@ -61,7 +61,7 @@ ms.locfileid: "42706992"
 | 电话服务主管 | 提供电话设计和实现的见解 |
 | 服务所有者/质量拥护者 | 负责团队的运营，包括用户体验的质量 |
 | 桌面和设备领导 | 向客户端、设备和桌面应用提供输入 |
-| IT 专业人员/租户管理员 | 确保已准备好网络准备情况和 Office 365 门户配置 |
+| IT 专业人员/租户管理员 | 确保已准备好网络准备情况和 Microsoft 365 管理中心配置 |
 | 支持主管 | 管理您的支持台的准备工作 |
 | 更改管理负责人 | 监督用户更改管理和采纳计划 |
 | 市场营销组长 | 设计和实施通信活动 |

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft Phone 系统直接路由如何让你将受支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140281"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780691"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -71,11 +71,11 @@ Microsoft 还提供了所有云语音解决方案，例如呼叫计划。 但是
 |:--- |:--- |
 |会话边框控制器（SBC）|受支持的 SBC。 有关详细信息，请参阅[支持的 SBCs](#supported-session-border-controllers-sbcs)。|
 |连接到 SBC 的电话中继|一个或多个电话中继连接到 SBC。 一端，SBC 通过直接路由连接到 Microsoft 手机系统。 SBC 还可以连接到第三方电话实体，如 Pbx、模拟电话适配器等。 任何连接到 SBC 的 PSTN 连接选项都将正常工作。 （有关将 PSTN 中继到 SBC 的配置，请参阅 SBC 供应商或主干提供商。）|
-|Office 365 租户|用于家庭 Microsoft 团队用户的 Office 365 租户，以及与 SBC 的配置和连接。|
+|Office 365 组织|用于家庭 Microsoft 团队用户的 Office 365 组织以及与 SBC 的配置和连接。|
 |用户注册机构|用户必须托管在 Office 365 中。<br/>如果你的公司有一个本地 Skype for Business 或 Lync 环境以及与 Office 365 的混合连接，则无法为驻留在本地的用户启用团队中的语音。<br/><br/>若要检查用户的注册机构，请使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>该 cmdlet 的输出应显示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|域|添加到您的 Office 365 租户的一个或多个域。<br/><br/>请注意，你无法使用为你的\*租户自动创建的默认域 onmicrosoft.com。<br/><br/>若要查看域，您可以使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有关域和 Office 365 租户的详细信息，请参阅[域常见问题解答](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
+|域|添加到您的 Office 365 组织的一个或多个域。<br/><br/>请注意，你无法使用为你的\*租户自动创建的默认域 onmicrosoft.com。<br/><br/>若要查看域，您可以使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有关域和 Office 365 组织的详细信息，请参阅[域常见问题解答](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |SBC 的公共 IP 地址|可用于连接到 SBC 的公共 IP 地址。 SBC 可以使用 NAT，具体取决于 SBC 的类型。|
-|适用于 SBC 的完全限定的域名（FQDN）|SBC 的 FQDN，其中 FQDN 的域部分是 Office 365 租户中注册的域之一。 有关详细信息，请参阅[SBC 域名](#sbc-domain-names)。|
+|适用于 SBC 的完全限定的域名（FQDN）|SBC 的 FQDN，其中 FQDN 的域部分是 Office 365 组织中的注册域之一。 有关详细信息，请参阅[SBC 域名](#sbc-domain-names)。|
 |SBC 的公共 DNS 条目 |将 SBC FQDN 映射到公共 IP 地址的公共 DNS 条目。 |
 |适用于 SBC 的公共受信任证书 |用于 SBC 的证书，用于与直接路由的所有通信。 有关详细信息，请参阅[SBC 的公共受信任证书](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的连接点 |直接路由的连接点是以下三个 Fqdn：<br/><br/>`sip.pstnhub.microsoft.com`-必须首先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com`-辅助 FQDN，地理位置映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com`-第三方 FQDN-地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息，请参阅[SIP 信号： fqdn](#sip-signaling-fqdns)。|

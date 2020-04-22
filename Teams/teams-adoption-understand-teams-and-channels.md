@@ -19,22 +19,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ff198dcc7898f463c5b2c299ab9b9fb411f3382
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837722"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779588"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
 团队和频道的概念是 Microsoft 团队正常、高效实施的基础。 
 
-- 团队是人员、内容和工具的集合，它们协同工作以生成公司的业务成果。 Teams 是基于 Office 365 组进行构建的，并且对 Office 365 组成员身份的更改会同步到团队。 
+- 团队是人员、内容和工具的集合，它们协同工作以生成公司的业务成果。 团队基于 Microsoft 365 组构建，对 Office 365 组成员身份的更改将同步到团队。 
 
 - 信道是在其中完成实际工作的团队中的协作空间。 
 
-若要阅读有关团队和频道的详细信息，请参阅[Microsoft 团队中的团队和频道概述](teams-channels-overview.md)。 有关综合团队采纳指导，请获取[团队采纳指南](https://aka.ms/teamstoolkit)。 若要了解有关团队和 Office 365 组的详细信息，请参阅[office 365 组和 Microsoft 团队](office-365-groups.md)，[了解有关 Office 365 组的详细信息](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+若要阅读有关团队和频道的详细信息，请参阅[Microsoft 团队中的团队和频道概述](teams-channels-overview.md)。 有关综合团队采纳指导，请获取[团队采纳指南](https://aka.ms/teamstoolkit)。 若要了解有关团队和 Microsoft 365 组的详细信息，请参阅[microsoft 365 组和 Microsoft 团队](office-365-groups.md)，[了解有关 Microsoft 365 组的详细信息](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 |  |  |

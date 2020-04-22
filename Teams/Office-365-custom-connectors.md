@@ -1,5 +1,5 @@
 ---
-title: 使用 Office 365 和自定义连接器
+title: 使用 Microsoft 365 和自定义连接器
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,21 +17,21 @@ description: 连接器通过将你常用的服务中的内容和更新传输到�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6726507b0dd6c0ca0067bf19a3f9a2c37f727c53
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 33a407de891f0d988b1fb32988556059c6adc2e0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136502"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778588"
 ---
-<a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft Teams 中使用 Office 365 和自定义连接器
+<a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 团队中使用 Microsoft 365 和自定义连接线
 =======================================================
 
 连接器将经常使用的内容和服务更新直接提供给频道，从而使你的团队保持最新。 通过连接器，你的 Microsoft 团队用户可以从其团队中的聊天流内的受欢迎的服务（如 Twitter、Trello、奇妙清单、GitHub 和 Azure DevOps 服务）中接收更新。
 
 如果团队权限允许，团队的任何成员都可以将其团队与常用云服务连接起来，并且所有团队成员都将收到来自该服务的活动的通知。 即使最初设置连接器的成员已离开，连接器仍可继续运行。 具有 add\remove 权限的任何团队成员都可以修改其他成员的连接器设置。
 
-Office 365 连接器可以与 Microsoft Teams 和 Office 365 组配合使用，这样，可以更轻松地让所有成员保持同步并快速收到相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，禁用团队所依赖的 Office 365 组的连接器将禁用为该团队创建连接器的功能。
+Microsoft 365 连接器可与 Microsoft 团队和 Microsoft 365 组一起使用，使所有成员能够更轻松地保持同步和快速接收相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，禁用团队所依赖的 Office 365 组的连接器将禁用为该团队创建连接器的功能。
 
 <a name="add-a-connector-to-a-channel"></a>向通道添加连接线
 ----------------------------

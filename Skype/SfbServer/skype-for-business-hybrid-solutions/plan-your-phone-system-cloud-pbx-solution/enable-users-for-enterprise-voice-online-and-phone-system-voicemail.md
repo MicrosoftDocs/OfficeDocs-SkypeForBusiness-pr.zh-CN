@@ -19,18 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 了解如何为你的 Skype for Business 用户启用 Office 365 语音服务中的电话系统。
-ms.openlocfilehash: ae1443fa0f0725b6cbbe722703f24af02139c12d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050194"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780721"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>在 Office 365 语音邮件中为用户启用企业语音在线和电话系统
  
 了解如何为你的 Skype for Business 用户启用 Office 365 语音服务中的电话系统。
   
-在使用本地 PSTN 连接的 Office 365 中部署电话系统的最后一步是为用户启用 Office 365 和语音邮件中的电话系统。 若要启用这些功能，您必须是具有 Office 365 全局管理员角色的用户，并且能够运行远程 PowerShell。 对于尚未为 Skype for business Online 启用企业语音的所有用户帐户，您需要按照本主题中的步骤操作。
+在使用本地 PSTN 连接的 Office 365 中部署电话系统的最后一步是为用户启用 Office 365 和语音邮件中的电话系统。 若要启用这些功能，您必须是具有全局管理员角色的用户，并且能够运行远程 PowerShell。 对于尚未为 Skype for business Online 启用企业语音的所有用户帐户，您需要按照本主题中的步骤操作。
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>启用 Office 365 语音服务中的电话系统
 

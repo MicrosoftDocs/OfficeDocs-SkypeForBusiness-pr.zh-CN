@@ -19,13 +19,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: 全新的 Office 365 报告仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，你可以使用 "Skype for Business 设备使用情况" 报表查看设备（包括基于 Windows 的操作系统和移动设备），其中安装了 Skype for Business 应用并将其用于即时消息和会议。 查看管理中心中的活动报表以了解详细信息。
-ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 新的 Microsoft 365 "报表" 仪表板显示你的组织中的 Office 365 产品的活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，你可以使用 "Skype for Business 设备使用情况" 报表查看设备（包括基于 Windows 的操作系统和移动设备），其中安装了 Skype for Business 应用并将其用于即时消息和会议。 查看管理中心中的活动报表以了解详细信息。
+ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769395"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776297"
 ---
 # <a name="device-usage-report"></a>设备使用报告
 
@@ -46,7 +46,7 @@ ms.locfileid: "41769395"
     
      ![Skype for Business 设备使用情况报告小组件](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
-    [!重要信息] 你可能无法看到此处所示的所有产品和活动报告，具体取决于你拥有的 Office 365 订阅。
+    你可能无法看到此处所示的所有产品和活动报告，具体取决于你拥有的 Microsoft 365 或 Office 365 订阅。
     
 ## <a name="interpret-the-skype-for-business-device-usage-report"></a>解释 Skype for Business 设备使用情况报告
 

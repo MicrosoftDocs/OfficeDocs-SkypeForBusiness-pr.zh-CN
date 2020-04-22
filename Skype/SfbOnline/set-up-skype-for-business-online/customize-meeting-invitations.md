@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '通过图形徽标、帮助和合法 Url 以及页脚文本自定义 Skype 会议邀请。 '
-ms.openlocfilehash: b30c31d3e109fa36e49665c19a7aaebad581c7cc
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769635"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776227"
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 
@@ -41,14 +41,14 @@ ms.locfileid: "41769635"
     
 3. 将图像存储在你的企业中的每个人都可以访问的中心位置，例如网络共享、共享的 OneDrive for business 文件夹、Dropbox 等。
     
-    现在，您可以将其添加到会议邀请。 请参阅后续步骤。
+    现在，你可以将其添加到会议邀请。 查看后续步骤。
     
 ## <a name="customize-your-meeting-invitations"></a>自定义会议邀请
 <a name="__top"> </a>
 
-![](../images/sfb-logo-30x30.png) **使用 skype for business 管理中心**显示 skype for business 徽标的图标
+![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-1. 使用你的工作或学校帐户登录 Office 365。
+1. 使用你的工作或学校帐户登录。
     
 2. 从管理中心，选择 "**管理中心** > "**Skype for business**。
     

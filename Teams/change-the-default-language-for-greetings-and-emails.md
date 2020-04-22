@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 了解如何设置 Skype for Business，以便为您的组织的默认语音邮件问候语使用另一种语言。
-ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752339"
+ms.locfileid: "43780361"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
-如果你是 [Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，你可以将 Skype for Business 设置为以其他语言播放默认语音邮件问候语。 默认系统问候语类似于“请给 John Smith 留言。 听到提示音之后，请录制你的消息。 完成录制后，挂断电话，或者按井号键了解更多选项。” 
+如果您是[全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)，则可以设置 Skype for business，以使用另一种语言播放其默认语音邮件问候语。 默认系统问候语类似于“请给 John Smith 留言。 听到提示音之后，请录制你的消息。 完成录制后，挂断电话，或者按井号键了解更多选项。” 
   
  **首先，请阅读以下重要信息：**
   
@@ -49,7 +49,7 @@ ms.locfileid: "43752339"
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
-1. 在上[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)通过[Office 365 全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户登录。 
+1. 在上[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)用[全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户登录。 
     
 2. 在 Microsoft 365 管理中心，选择 "**设置** > **Settings** > " "**组织配置文件**"。 
     

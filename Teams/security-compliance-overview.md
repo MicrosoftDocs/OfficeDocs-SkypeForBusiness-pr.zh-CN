@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: e226acdc12d4b94b7854f6d4bdb1d2fa618fa21e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749439"
+ms.locfileid: "43777497"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
@@ -53,7 +53,7 @@ Microsoft Teams 建立在 Office 365 超大规模企业级云之上，提供我�
 
 阅读身份[模型和身份验证](identify-models-authentication.md)，以便更深入地了解身份验证和团队，以及[新式身份验证工作方式](sign-in-teams.md)对新式身份验证的帮助尤其如此。
 
-由于团队可与 SharePoint、OneNote、Exchange 等进行合作，因此你应该轻松管理 Office 365 中的安全。 若要了解有关 Office 365 安全的详细信息，请阅读[配置 Office 365 租户以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
+由于团队可与 SharePoint、OneNote、Exchange 等进行合作，因此你应该轻松管理 Office 365 中的安全。 若要了解有关 Office 365 安全性的详细信息，请阅读[配置 Office 365 组织以提高安全性](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
 
 > [!NOTE]
 > 目前，[专用通道](private-channels.md)支持有限的安全和合规性功能。 即将推出专用频道中整套安全和合规性功能的支持。
@@ -84,7 +84,7 @@ Microsoft 团队桌面应用程序支持 AppLocker。  有关 AppLocker 先决�
 
 ## <a name="compliance"></a>符合
 
-团队有大量信息可帮助您处理合规性领域，包括频道、聊天和附件、保留策略、数据丢失保护（DLP）、电子数据丢失保护（DLP）、电子数据展示和法律封存（适用于频道、聊天和文件、审核日志搜索以及与 Microsoft Intune 的移动应用程序管理）。 我们已提供以下有关所有这些主题的信息，并可转到[Microsoft 365 合规性中心](https://compliance.microsoft.com)或[Office 365 安全性 & 合规性中心](https://protection.microsoft.com)来管理这些设置。
+团队有大量信息可帮助您处理合规性领域，包括频道、聊天和附件、保留策略、数据丢失保护（DLP）、电子数据丢失保护（DLP）、电子数据展示和法律封存（适用于频道、聊天和文件、审核日志搜索以及与 Microsoft Intune 的移动应用程序管理）。 我们提供了有关以下所有主题的一些信息，您可以转到[Microsoft 365 合规中心](https://compliance.microsoft.com)来管理这些设置。
 
 ### <a name="information-barriers"></a>信息障碍
 
@@ -140,11 +140,11 @@ Microsoft 团队中的数据丢失防护（DLP）以及适用于 Office 365 的�
 
 在任何一种情况下，设置保留后，它可确保即使最终用户删除或编辑组邮箱中的频道消息，也可通过电子数据展示搜索维护和提供该内容的不可变副本。 法律封存通常在电子数据展示事例的上下文中应用。
 
-请参阅[保留策略文章概述](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)，了解有关在 Office 365 安全 & 合规中心中保留和保留的详细信息。 有关法律封存的更多团队特定信息，我们还让[Microsoft 团队用户或团队在法律封存](legal-hold.md)文章中了解详细信息。
+请参阅[保留策略文章概述](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)，以了解有关 Microsoft 365 合规中心中的保留和保留的详细信息。 有关法律封存的更多团队特定信息，我们还让[Microsoft 团队用户或团队在法律封存](legal-hold.md)文章中了解详细信息。
 
 ### <a name="compliance-content-search"></a>合规性内容搜索
 
-可使用内容搜索通过丰富的筛选功能搜索所有团队数据。 生成的数据可以导出到特定容器，以实现合规性和诉讼支持。 在有无电子数据展示案例的情况下，均可执行此操作。 这使合规性管理员能够跨所有用户收集团队数据、查看和导出它以进行进一步处理。 请参阅[office 365 文章中的内容搜索](https://docs.microsoft.com/microsoft-365/compliance/content-search)，了解有关如何在 Office 365 安全 & 合规中心中执行 Microsoft 团队和其他 office 365 内容的合规性内容搜索的详细信息。
+可使用内容搜索通过丰富的筛选功能搜索所有团队数据。 生成的数据可以导出到特定容器，以实现合规性和诉讼支持。 在有无电子数据展示案例的情况下，均可执行此操作。 这使合规性管理员能够跨所有用户收集团队数据、查看和导出它以进行进一步处理。 请参阅[Office 365 文章中的 "内容搜索"](https://docs.microsoft.com/microsoft-365/compliance/content-search) ，了解有关如何在 microsoft "365 合规中心" 中执行 microsoft 团队以及其他 microsoft 365 或 Office 365 内容的合规性内容搜索的详细信息。
 
 > [!TIP]
 > 使用内容搜索，您可以根据需要筛选仅限 Microsoft 团队的内容，如聊天和频道消息、会议和呼叫。
@@ -153,7 +153,7 @@ Microsoft 团队中的数据丢失防护（DLP）以及适用于 Office 365 的�
 
 ### <a name="auditing-and-reporting"></a>审核和报告
 
-审核日志搜索直接插入到 Office 365 安全 & 合规中心，使你能够设置警报以及报告审核事件，方法是允许导出特定于负载的事件集或常规事件集以供管理员使用，并跨无限审核时间线进行调查。 你可以在 Office 365 安全 & 合规性中心中为所有审核日志数据设置通知，并筛选和导出此数据以进行进一步分析。 请参阅[搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，了解有关如何为 Office 365 执行审核日志的详细信息。 若要了解有关在 Office 365 安全 & 合规中心中搜索 Microsoft 团队事件的详细信息，我们还提供团队文章中的 "[启用审核](audit-log-events.md)"，供你查看。
+审核日志搜索直接插入 Microsoft 365 合规性中心，并使你能够通过导出特定于工作负荷的事件集或常规事件集来针对无限制审核日程表进行管理和调查，从而设置警报以及报告审核事件。 你可以为 Microsoft 365 合规中心内的所有审核日志数据设置通知，并筛选和导出此数据以进行进一步分析。 请参阅[搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，了解有关如何为 Office 365 执行审核日志的详细信息。 若要了解有关在 Microsoft 365 合规中心中搜索 Microsoft 团队事件的详细信息，我们还提供团队文章中的 "[启用审核](audit-log-events.md)"，供你查看。
 
 ## <a name="privacy"></a>隐私
 
@@ -174,7 +174,7 @@ Microsoft 团队中的数据丢失防护（DLP）以及适用于 Office 365 的�
 
 ## <a name="licensing"></a>许可
 
-在信息保护功能方面，Office 365 订阅和关联的独立许可证将确定可用功能集。
+在信息保护功能方面，Microsoft 365 订阅、Office 365 订阅和关联的独立许可证将确定可用功能集。
 
 有关确定授权需要实现安全和合规性功能的信息，请查看[Office 365 或 Microsoft 365 的许可](https://download.microsoft.com/download/8/7/7/877B1713-671E-43AA-BB79-AF8478C64AFF/Licensing-Microsoft-365.pdf)。
 
@@ -183,7 +183,7 @@ Microsoft 团队中的数据丢失防护（DLP）以及适用于 Office 365 的�
 
 ## <a name="location-of-data-in-teams"></a>Teams 中的数据的位置
 
-Teams 中的数据位于与你的 Office 365 租户关联的地理区域。 若要查看当前受支持的区域，请查看[Microsoft 团队中数据的位置](location-of-data-in-teams.md)。
+团队中的数据位于与您的 Office 365 组织相关联的地理区域中。 若要查看当前受支持的区域，请查看[Microsoft 团队中数据的位置](location-of-data-in-teams.md)。
 
 如果需要查看哪个区域驻留你的租户的数据，请转到[Microsoft 365 管理中心](https://portal.office.com/adminportal/home) > **设置** > **组织配置文件**。 向下滚动到“**数据位置**”。
 

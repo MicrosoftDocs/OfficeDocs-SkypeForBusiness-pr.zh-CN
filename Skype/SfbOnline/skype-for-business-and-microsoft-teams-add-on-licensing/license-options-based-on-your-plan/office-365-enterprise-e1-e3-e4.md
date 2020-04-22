@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '了解有关加载项许可证、功能和如何购买 Office 365 企业版 E1、E3 和 E4 计划。 '
-ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8000a71c52c03d82c8d01c92601be01d48db04dd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010585"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777957"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企业版 E1、E3 和 E4
 
@@ -71,7 +71,7 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 少数情况下，在 Microsoft 365 管理中心看不到用于购买 Skype for Business 加载项的选项。
 
-- **你通过 GoDaddy 购买了 Office 365 商业高级版**。在这种情况下，你无法购买 Skype for Business 和 Microsoft Teams 加载项。你需要切换到 E3 计划（GoDaddy 不销售该计划），然后你可以购买它们。[联系商业版产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- **您通过 GoDaddy 购买了 Microsoft 365 商业标准**。 在这种情况下，你无法购买 Skype for Business 附加许可证。 您需要切换到 E3 计划（GoDaddy 不销售的计划），然后您可以购买它们。 [联系商业版产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

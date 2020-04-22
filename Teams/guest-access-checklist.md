@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5470d9ec2ec2d22d8f3b66bac09ba6c67b9982f
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951497"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776947"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 来宾访问清单
 =========================================
@@ -49,7 +49,7 @@ ms.locfileid: "42951497"
 4. 单击“**保存**”。
 
 > [!TIP]
-> 如果使用 Azure Active Directory、SharePoint Online 和 Office 365 组中的默认设置，则可能已完成来宾访问配置。 在此情况下，可以跳过其余步骤。 如果不确定，或者如果使用 AAD、SharePoint Online 或 Office 365 组的自定义设置，请继续完成此清单中的其余步骤。
+> 如果你使用的是 Azure Active Directory、SharePoint Online 和 Microsoft 365 组中的默认设置，则可能会完成来宾访问配置。 在此情况下，可以跳过其余步骤。 如果不确定，或者如果你使用的是 AAD、SharePoint Online 或 Microsoft 365 组的自定义设置，请继续执行此清单中的其余步骤。
 
 ## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>步骤 2：配置 Azure AD 企业对企业设置
 
@@ -75,17 +75,17 @@ ms.locfileid: "42951497"
       
     要详细了解如何控制可邀请来宾的人员，请参阅[委托 Azure Active Directory B2B 协作邀请](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
-## <a name="step-3-configure-office-365-groups"></a>步骤 3：配置 Office 365 组
+## <a name="step-3-configure-microsoft-365-groups"></a>步骤3：配置 Microsoft 365 组
 
-1. 在 Microsoft 365 管理中心中，转至“**设置**” > “**设置**”，单击“**服务**”，然后选择“**Office 365 组**”。
+1. 在 Microsoft 365 管理中心，转到 "**设置** > "**设置**，单击 "**服务**"，然后选择 " **Microsoft 365 组**"。
 
-     ![屏幕截图显示 Office 365 组设置](media/guest-access-checklist-services-settings.png)
+     ![屏幕截图显示 Microsoft 365 组设置](media/guest-access-checklist-services-settings.png)
 2. 确保已选中“**允许组织外部的组成员访问组内容**”复选框。 如果未选中此设置，则来宾无法访问任何组内容。
 
-    ![屏幕截图显示 Office 365 组设置](media/guest-access-checklist-office365.png)
+    ![屏幕截图显示 Microsoft 365 组设置](media/guest-access-checklist-office365.png)
 3. 确保已选中“**允许组拥有者将组织外部的人员添加到组**”复选框。 如果未选中此设置，则团队拥有者无法添加新来宾。 作为最低条件，此设置必须启用才能支持来宾访问。
 
-有关配置这些设置的详细说明，请参阅[管理 Office 365 组中的来宾访问](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)和[控制 Office 365 组中的来宾访问](Teams-dependencies.md#control-guest-access-in-office-365-groups)。
+有关配置这些设置的详细说明，请参阅[在 microsoft 365 组中管理来宾访问](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)和[控制 microsoft 365 组中的来宾访问](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups)。
 
 ## <a name="step-4-configure-sharing-in-office-365"></a>步骤 4：在 Office 365 中配置共享 
 
