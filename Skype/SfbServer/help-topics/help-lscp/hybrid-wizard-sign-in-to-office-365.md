@@ -1,5 +1,5 @@
 ---
-title: 混合向导登录到 Office 365
+title: 混合向导登录到 Microsoft 365 或 Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: 使用 Skype for Business 服务器混合管理版向导，帮助您配置与 Skype for business Online 的混合环境。
-ms.openlocfilehash: a76bdf59ab9bc54d8cabdc642f1a3824b013410e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 使用 Skype for Business Server 混合管理向导可帮助您配置与 Skype for business Online 的混合环境。
+ms.openlocfilehash: 1e94dba9c0aef4a45c00409319f51c87d7e623d4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41822715"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780431"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a><span data-ttu-id="c8c0d-103">混合向导：登录到 Office 365</span><span class="sxs-lookup"><span data-stu-id="c8c0d-103">Hybrid wizard: Sign in to Office 365</span></span>
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a><span data-ttu-id="5af81-103">混合向导：登录到 Microsoft 365 或 Office 365</span><span class="sxs-lookup"><span data-stu-id="5af81-103">Hybrid wizard: Sign in to Microsoft 365 or Office 365</span></span>
 
-<span data-ttu-id="c8c0d-104">使用 Skype for Business 服务器混合管理版向导，帮助您配置与 Skype for business Online 的混合环境。</span><span class="sxs-lookup"><span data-stu-id="c8c0d-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
+<span data-ttu-id="5af81-104">使用 Skype for Business Server 混合管理向导可帮助您配置与 Skype for business Online 的混合环境。</span><span class="sxs-lookup"><span data-stu-id="5af81-104">Use the Skype for Business Server Hybrid Manageability wizard to help you configure your environment for hybrid with Skype for Business Online.</span></span>
 
-## <a name="sign-in-to-office-365"></a><span data-ttu-id="c8c0d-105">登录到 Office 365</span><span class="sxs-lookup"><span data-stu-id="c8c0d-105">Sign in to Office 365</span></span>
+## <a name="sign-in-to-microsoft-365-or-office-365"></a><span data-ttu-id="5af81-105">登录到 Microsoft 365 或 Office 365</span><span class="sxs-lookup"><span data-stu-id="5af81-105">Sign in to Microsoft 365 or Office 365</span></span>
 
-<span data-ttu-id="c8c0d-p101">为您的 Office 365 租户输入用户名和密码以登录并将您的本地部署连接到 Office 365 租户。您需要使用在注册 Office 365 时为 onmicrosoft 域创建的管理员帐户，例如，admin@contoso.onmicrosoft.com。</span><span class="sxs-lookup"><span data-stu-id="c8c0d-p101">Enter the user name and password for your Office 365 tenant to login and connect your on-premises deployment with your Office 365 tenant. You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
+<span data-ttu-id="5af81-106">输入 Microsoft 365 或 Office 365 组织的用户名和密码，以登录并将本地部署与 Microsoft 365 或 Office 365 组织连接。</span><span class="sxs-lookup"><span data-stu-id="5af81-106">Enter the user name and password for your Microsoft 365 or Office 365 organization to login and connect your on-premises deployment with your Microsoft 365 or Office 365 organization.</span></span> <span data-ttu-id="5af81-107">您需要使用在注册 Microsoft 365 或 Office 365 时为 .onmicrosoft 域创建的管理员帐户，例如，admin@contoso.onmicrosoft.com。</span><span class="sxs-lookup"><span data-stu-id="5af81-107">You'll need to use the admin account that was created for the onmicrosoft domain when you signed up for Microsoft 365 or Office 365, for example, admin@contoso.onmicrosoft.com.</span></span>
 
-<span data-ttu-id="c8c0d-108">有关如何配置混合环境的更多信息，请参阅[Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)。</span><span class="sxs-lookup"><span data-stu-id="c8c0d-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
+<span data-ttu-id="5af81-108">有关如何配置混合环境的详细信息，请参阅[混合部署概述](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx)。</span><span class="sxs-lookup"><span data-stu-id="5af81-108">For more information about how to configure your environment for hybrid, see [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).</span></span>
 
 
