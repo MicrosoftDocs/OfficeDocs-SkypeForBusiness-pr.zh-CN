@@ -12,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a95f2fba2d65f0d25f1fa9b843dd7bb47240aa6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44d1f06fcbdbbba7400bf45857dad9ed57971363
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188386"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779718"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +103,7 @@ _**上次修改的主题：** 2017-02-21_
 
     Connect-MsolService
 
-按 Enter 后，随即出现一个凭据对话框。在该对话框中输入您的 Office 365 用户名和密码，然后单击“确定”。
+按 Enter 后，随即出现一个凭据对话框。 在对话框中输入 Microsoft 365 或 Office 365 用户名和密码，然后单击 "确定"。
 
 连接到 Office 365 后，您便能运行以下命令来返回有关您的服务主体的信息：
 

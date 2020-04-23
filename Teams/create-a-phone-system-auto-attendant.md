@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43508623"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788974"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -333,7 +333,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 如果选择 "**所有联机用户**"，则所有符合条件的用户都将包含在目录搜索中。
 
-**自定义用户组**此选项允许你搜索并选择已在你的组织中创建的 Office 365 组、通讯组列表或安全组。 如果用户在所选的 Office 365 组、通讯组列表或安全组中，并且它们是使用**电话系统许可证的在线用户**，或者是使用 Skype For business 服务器内部托管的，则会将用户添加到目录中。 你可以将多个 Office 365 组、通讯组列表和安全组添加到目录中。
+**自定义用户组**此选项允许你搜索并选择已在你的组织中创建的 Office 365 组、通讯组列表或安全组。 如果用户在所选的 Office 365 组、通讯组列表或安全组中，并且它们是使用**电话系统许可证的在线用户**，或者是使用 Skype For business 服务器内部托管的，则会将用户添加到目录中。 你可以将多个 Microsoft 365 组、通讯组列表和安全组添加到目录中。
 
 <a name="dialscope"> </a>
 
@@ -343,7 +343,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 如果您选择 "**无**"，则所有符合条件的用户都将包含在目录搜索中。
 
-**自定义用户组**你可以搜索在你的组织中创建的 Office 365 组、通讯组列表或安全组。 将从目录搜索中排除该组中的用户。 你可以添加多个 Office 365 组、通讯组列表和安全组。
+**自定义用户组**你可以搜索在你的组织中创建的 Office 365 组、通讯组列表或安全组。 将从目录搜索中排除该组中的用户。 你可以添加多个 Microsoft 365 组、通讯组列表和安全组。
 
 
 如果启用 "按名称拨号" 时保留默认设置，则所有符合条件的用户都将包含在目录搜索中。

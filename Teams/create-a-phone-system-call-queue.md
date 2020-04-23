@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 了解如何为 Microsoft 团队设置云呼叫队列的电话系统。
-ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: 0feee280526b432a14f0411ab4787e3b07ce2453
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43213645"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788997"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -186,7 +186,7 @@ ms.locfileid: "43213645"
 
  若要启用企业语音代理，你可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 具有**电话系统**许可证或添加到 Office 365 组的呼叫计划的用户;启用邮件的通讯组列表;或安全组。 将通讯组列表或安全组中的代理添加为呼叫队列代理时，首次通话最多可能需要3个小时。 新创建的通讯组列表或安全组可能需要长达48小时才能与通话队列一起使用。 新创建的 Office 365 组几乎立即就可使用。
+- 具有**电话系统**许可证或添加到 Office 365 组的呼叫计划的用户;启用邮件的通讯组列表;或安全组。 将通讯组列表或安全组中的代理添加为呼叫队列代理时，首次通话最多可能需要3个小时。 新创建的通讯组列表或安全组可能需要长达48小时才能与通话队列一起使用。 新创建的 Microsoft 365 组几乎立即可用。
 
 - 如果你的代理正在使用 Microsoft 团队应用进行呼叫队列呼叫，则他们必须处于 TeamsOnly 模式。
 

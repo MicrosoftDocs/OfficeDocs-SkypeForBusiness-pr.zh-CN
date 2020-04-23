@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: 本文介绍了用于部署 Microsoft 团队聊天室的基础结构准备。
-ms.openlocfilehash: e39624f7b90dbb25424c98f60e6b90e2a883e212
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825861"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779769"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -110,7 +110,7 @@ Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 
 |用途|源或凭据|源端口|目标|CDN|ExpressRoute for Office 365|目标 IP|目标端口|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |身份验证与标识  <br/> |请参阅[Office 365 身份验证和标识](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|门户与共享  <br/> |请参阅[Office 365 门户和共享](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
+|门户与共享  <br/> |请参阅[Microsoft 365 管理中心和共享](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |SIP 信号  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |持久型共享对象模型 (PSOM) 连接 Web 会议  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |HTTPS 下载  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -162,11 +162,11 @@ Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设
 
 [规划 Microsoft 团队聊天室](rooms-plan.md)
 
-[Microsoft 团队会议室需求](requirements.md)
+[Microsoft Teams 会议室要求](requirements.md)
   
-[部署 Microsoft 团队聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 会议室](rooms-deploy.md)
   
-[配置 Microsoft 团队聊天室控制台](console.md)
+[配置 Microsoft Teams 会议室控制台](console.md)
   
 [管理 Microsoft Teams 会议室](rooms-manage.md)
 

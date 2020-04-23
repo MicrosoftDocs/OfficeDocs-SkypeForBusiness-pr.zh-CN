@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 339353c1f4d7dc15b3cec69e275d0dd6111896eb
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825090"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779188"
 ---
 # <a name="enhance-my-service"></a>增强服务
 
 本文概述了为你的组织获取最常用云语音服务的要求。 通过持续监视云语音服务功能，你可以确保为你的组织提供最大价值。
 
 ## <a name="enhance-my-service-overview"></a>增强我的服务概述
-在你成功将音频会议或电话系统与你的组织的呼叫计划服务一起部署并使用质量和可靠性运行服务后，下一步是定期评估是否有机会来增强你的服务。 这是一项持续服务改进计划的一部分，它是云服务管理的现代标准。 
+在你成功地将音频会议或电话系统与你的组织的呼叫计划服务一起部署并使用质量和可靠性运行服务后，下一步是定期评估你是否有机会增强你的服务。 这是一项持续服务改进计划的一部分，它是云服务管理的现代标准。 
 
-确保您始终充分利用服务的一种非常好的方法是监视[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)，了解可能对组织感兴趣的新功能增强。 如果您有权访问 Office 365 管理门户，您将通过我们的消息中心接收来自我们的新功能和更改功能的定期更新。 
+确保您始终充分利用服务的一种非常好的方法是监视[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)，了解可能对组织感兴趣的新功能增强。 如果您拥有 Microsoft 365 管理中心的访问权限，您将通过我们的消息中心接收来自我们的新功能和更改功能的定期更新。 
 
 此外，由于组织的增长和更改，你应该花时间定期重新访问和更新你的业务使用案例，以确保该服务已配置为满足组织的当前需求。  通过在您的组织中建立反馈频道，确保您从您的用户和内部拥护者处获得真实的反馈意见。 这些会议可以是非正式对话、定期会议或通过团队频道或 Yammer 社区进行。 
 

@@ -8,7 +8,7 @@
 
 | 发布日期 |主题标题 | 更改 |
 |------|------------|--------|
-| 3/17/2020 | [Microsoft 团队会议室需求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 3/17/2020 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
 | 3/17/2020 | [适用于团队的电话和设备](/MicrosoftTeams/teams-ip-phones) | 修改内容 |
 | 3/17/2020 | [使用 Power BI 分析 Microsoft 团队的 CQD 数据](/MicrosoftTeams/cqd-power-bi-query-templates) | 修改内容 |
 | 3/17/2020 | [在 Microsoft Teams 中组织团队的最佳做法](/MicrosoftTeams/best-practices-organizing) | 修改内容 |
@@ -86,7 +86,7 @@
 | 3/26/2020 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
 | 3/26/2020 | [为用户分配、更改或删除电话号码](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 修改内容 |
 | 3/26/2020 | [用户可以向这些国家和地区进行出站呼叫](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | 修改内容 |
-| 3/26/2020 | [Microsoft 团队会议室需求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 3/26/2020 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
 | 3/26/2020 | [使用 Microsoft Teams 支持远程工作者](/MicrosoftTeams/support-remote-work-with-teams) | 修改内容 |
 | 3/26/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/resources-teams-edu) | 修改内容 |
 | 3/27/2020 | [面向教育版管理员的 Microsoft Teams 资源](/MicrosoftTeams/resources-teams-edu) | 修改内容 |
@@ -138,7 +138,7 @@
 | 4/1/2020 | [安装 Power BI Connector 以使用 CQD 查询模板](/MicrosoftTeams/cqd-power-bi-connector) | 修改内容 |
 | 4/1/2020 | [为 Microsoft Teams 准备组织的网络](/MicrosoftTeams/prepare-network) | 修改内容 |
 | 4/1/2020 | [已知问题](/MicrosoftTeams/rooms/known-issues) | 修改内容 |
-| 4/1/2020 | [Microsoft 团队会议室需求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 4/1/2020 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
 | 4/1/2020 | [版本支持](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 修改内容 |
 | 4/1/2020 | [使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置](/MicrosoftTeams/rooms/xml-config-file) | 修改内容 |
 | 4/1/2020 | [使用 PowerShell 在 Microsoft Teams 中设置实时事件策略](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 修改内容 |
@@ -173,7 +173,7 @@
 | 4/3/2020 | [管理员培训资源-Microsoft 团队](/MicrosoftTeams/itadmin-readiness) | 修改内容 |
 | 4/3/2020 | [Office 365 URL 和 IP 地址范围](/MicrosoftTeams/office-365-urls-ip-address-ranges) | 修改内容 |
 | 4/3/2020 | [使用 Office 365 和自定义连接器](/MicrosoftTeams/office-365-custom-connectors) | 修改内容 |
-| 4/3/2020 | [Office 365 组和 Microsoft Teams](/MicrosoftTeams/office-365-groups) | 修改内容 |
+| 4/3/2020 | [Microsoft 365 组和 Microsoft 365 或 Office 365softTeams/office-365 组） | 修改内容 |
 | 4/3/2020 | [打开 Office 365 组织中的团队](/MicrosoftTeams/office-365-set-up) | 修改内容 |
 | 4/3/2020 | [在团队客户端中实现服务质量](/MicrosoftTeams/qos-in-teams-clients) | 修改内容 |
 | 4/3/2020 | [在 Microsoft Teams 中实施服务质量](/MicrosoftTeams/qos-in-teams) | 修改内容 |
@@ -225,7 +225,7 @@
 | 4/3/2020 | [管理组织设置](/MicrosoftTeams/enable-features-office-365) | 修改内容 |
 | 4/3/2020 | [音频会议设置更改时的电子邮件选项](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | 修改内容 |
 | 4/3/2020 | [允许用户记录其会议名称](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | 修改内容 |
-| 4/3/2020 | [增强现有 Office 365 组](/MicrosoftTeams/enhance-office-365-groups) | 修改内容 |
+| 4/3/2020 | [增强现有 Microsoft 365 组](/MicrosoftTeams/enhance-office-365-groups) | 修改内容 |
 | 4/3/2020 | [云语音部署指导委员会](/MicrosoftTeams/envision-steering-committee-complete-guide) | 修改内容 |
 | 4/3/2020 | [在组织中推广 Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 修改内容 |
 | 4/3/2020 | [患者应用和 EHR 集成 DSTU2 界面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 修改内容 |
@@ -270,7 +270,7 @@
 | 4/3/2020 | [出站呼叫限制-& PSTN 呼叫的音频会议](/MicrosoftTeams/outbound-calling-restriction-policies) | 修改内容 |
 | 4/3/2020 | [将电话号码转移到 Microsoft 团队](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 修改内容 |
 | 4/3/2020 | [音频会议的电话号码](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams) | 修改内容 |
-| 4/3/2020 | [在创建团队时规划 Office 365 组](/MicrosoftTeams/plan-office-365-groups) | 修改内容 |
+| 4/3/2020 | [在创建团队时规划 Microsoft 365 组](/MicrosoftTeams/plan-office-365-groups) | 修改内容 |
 | 4/3/2020 | [Microsoft 365 政府-DoD 部署](/MicrosoftTeams/plan-for-government-dod) | 修改内容 |
 | 4/3/2020 | [Microsoft 365 政府-GCC 高部署](/MicrosoftTeams/plan-for-government-gcc-high) | 修改内容 |
 | 4/3/2020 | [Microsoft 365 政府版-GCC 部署](/MicrosoftTeams/plan-for-government-gcc) | 修改内容 |
@@ -448,7 +448,7 @@
 | 4/14/2020 | [Teams 中的用户状态](/MicrosoftTeams/presence-admins) | 修改内容 |
 | 4/14/2020 | [远程管理 Microsoft 团队聊天室设备设置](/MicrosoftTeams/rooms/xml-config-file) | 修改内容 |
 | 4/15/2020 | [向 Microsoft Teams 中的用户分配策略](/MicrosoftTeams/assign-policies) | 修改内容 |
-| 4/15/2020 | [Microsoft 团队会议室需求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
+| 4/15/2020 | [Microsoft Teams 会议室要求](/MicrosoftTeams/rooms/requirements) | 修改内容 |
 | 4/15/2020 | [适用于虚拟化桌面基础结构的 Teams](/MicrosoftTeams/teams-for-vdi) | 修改内容 |
 | 4/15/2020 | [对内容进行电子数据展示调查](/MicrosoftTeams/ediscovery-investigation) | 修改内容 |
 | 4/15/2020 | [在 Outlook 中使用 Microsoft Teams 会议加载项](/MicrosoftTeams/teams-add-in-for-outlook) | 修改内容 |

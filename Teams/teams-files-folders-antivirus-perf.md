@@ -10,18 +10,19 @@ audience: admin
 description: 通过从常规防病毒扫描中排除某些文件和文件夹，提高团队性能。
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1519038cb2393687a031e9b2c1ea828f999728
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: a1e890509428b3bfba19f6bfb01916e8ea837147
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265617"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579588"
 ---
 <a name="teams-files-and-folders-to-exclude-from-antivirus-scanning"></a>要从防病毒扫描中排除的 Teams 文件和文件夹
 =================================
@@ -43,11 +44,3 @@ ms.locfileid: "42265617"
 
 **%localappdata%\Microsoft\Teams\Update.exe**
 
-### <a name="folders"></a>Folders
-
-将以下团队文件夹添加到你的防病毒安全列表中。
-
-|类别  |位置  |
-|---------|---------|
-|程序文件  |%localappdata%\Microsoft\Teams|
-|数据文件     |%appdata%\Microsoft\Teams\ |
