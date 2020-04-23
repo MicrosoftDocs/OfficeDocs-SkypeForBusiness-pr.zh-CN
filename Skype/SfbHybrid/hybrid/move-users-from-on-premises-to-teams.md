@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：了解如何迁移用户设置并将用户移动到团队。
-ms.openlocfilehash: af5281faffa9bd9439e045dc40f67283bb740cb5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888771"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779678"
 ---
-# <a name="move-users-from-on-premises-to-teams"></a>将用户从本地移动到团队
+# <a name="move-users-from-on-premises-to-teams"></a>将用户从本地移至团队
 
 当用户仅从本地移动到团队时，用户的 Skype for Business 主页将从本地移动到联机，并向用户分配模式 = TeamsOnly 的 TeamsUpgradePolicy。  将用户从本地移动到 TeamsOnly 模式后：
 
@@ -55,13 +55,13 @@ ms.locfileid: "41888771"
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>仅将本地用户从 Skype for Business 直接移动到团队
 
-Skype for business Server 2015 中的本地管理员工具使用 CU8 以及 Skype for Business Server 2019 中的本地管理员工具，您可以使用 PowerShell 中的 Get-csuser cmdlet 或 Skype for Business Se，在一个步骤中将用户从 "仅本地" 移动到 "仅工作组" 模式。rver "控制面板"，如下所述。
+Skype for business Server 2015 中的本地管理工具使用 CU8，以及 Skype for Business Server 2019 中的本地管理工具，您可以使用 PowerShell 中的 Get-csuser cmdlet 或 Skype for Business Server 控制面板，在一个步骤中将用户从 "仅本地" 移动到 "仅工作组" 模式（如下所述）。
 
 ### <a name="move-to-teams-using-move-csuser"></a>使用 Get-csuser 移动到团队
 
-Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell PowerShell PowerShell 窗口中获取。 以下步骤和所需的权限与将用户移动到 Skype for business Online 相同，不同之处在于，您还必须指定 MoveToTeams 开关，并且必须确保用户也已为团队授予许可证（除了 Skype for Business）。Online）。
+Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell PowerShell PowerShell 窗口中获取。 下面的步骤和需要的权限与将用户移动到 Skype for business Online 相同，不同之处在于，您还必须指定 MoveToTeams 开关，并且必须确保用户也已为团队授予许可证（除了 Skype for Business Online）。
 
-在本地环境和 Office 365 租户中，您必须具有足够的权限，如[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用在两个环境中具有权限的单个帐户，也可以使用本地凭据启动本地 Skype for Business Server Management Shell 窗口，并使用`-Credential`参数指定具有必要的 office 365 管理角色的 office 365 帐户的凭据。
+在本地环境和 Office 365 组织中，您必须具有足够的权限，如[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用在两个环境中具有权限的单个帐户，也可以使用本地凭据启动本地 Skype for Business Server Management Shell 窗口，并使用`-Credential`参数指定具有必要的 office 365 管理角色的 office 365 帐户的凭据。
 
 使用 Get-csuser 将用户移动到仅限工作组模式的步骤：
 
@@ -87,7 +87,7 @@ Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell Powe
 4. 选择用户，然后从列表上方的 "**操作**" 下拉列表中选择 "**将所选用户移动到团队**"。
 5. 在向导中，单击“下一步”****。
 6. 如果出现提示，请使用以 onmicrosoft.com 结尾的帐户登录 Office 365 并拥有足够的权限。
-7. 单击 "**下一步**"，然后再单击一次以移动用户。 ****
+7. 单击 "**下一步**"，然后再单击一次以移动用户。 **Next**
 8. 请注意，有关成功或失败的状态消息是在主控制面板应用程序的顶部提供的，而不是在向导中提供的。
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>将即将推出的 Skype for business 本地用户通知给团队
@@ -121,6 +121,6 @@ New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
 [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
-[与 Skype for Business 一起使用团队的组织的迁移和互操作性指南](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+[面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [与 Skype for Business 共存](/microsoftteams/coexistence-chat-calls-presence)

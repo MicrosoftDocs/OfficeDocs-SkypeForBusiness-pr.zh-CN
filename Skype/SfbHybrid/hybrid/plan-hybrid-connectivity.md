@@ -1,5 +1,5 @@
 ---
-title: 规划混合连接 |Skype for Business Server 2019 Office 365 集成
+title: 规划混合连接 |Skype for Business Server 2019 Microsoft 365 和 Office 365 集成
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,22 +17,22 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 规划在 Skype for business Server 和 Skype for business Online 或团队之间实施混合连接的注意事项。
-ms.openlocfilehash: 1a1513b307c6f55f6b403a0d5db85ac14d1f7a6f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ff0ac03d0f93eaa509badb4462d179b41f77ab21
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043374"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779749"
 ---
-# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>规划 Skype for Business Server 和 Office 365 之间的混合连接
+# <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-microsoft-365-or-office-365"></a>规划 Skype for Business Server 与 Microsoft 365 或 Office 365 之间的混合连接
 
 ## <a name="overview"></a>概述
 
 阅读本主题，了解如何规划 Skype for Business Server 和团队或 Skype for business Online 之间的混合连接。 设置混合连接是将本地环境迁移到云的第一步。
 
-如果您有本地 Skype for Business 用户（同时也使用团队），则这些用户无法与来自其团队客户端的 Skype for Business 用户进行互操作，也无法与联合组织中的用户进行通信。团队客户端。 若要在团队中获取此功能，必须将这些用户从本地 Skype for Business 移动到云，这需要配置 Skype for business 混合模式。 此外，为了获得最佳体验，这些用户应处于 "仅团队" 模式，以确保来自用户团队客户端中的任何用户土地的所有传入呼叫和聊天。
+如果你的本地 Skype for Business 用户也使用 Teams（并行），则这些用户无法从其 Teams 客户端与 Skype for Business 用户进行交互操作，也无法从 Teams 客户端与联合组织中的用户进行通信。 若要在 Teams 中获得此功能，必须将这些用户从本地 Skype for Business 移动到云，这需要配置 Skype for Business 混合模式。 此外，为了获得最佳体验，这些用户应处于 "仅团队" 模式，以确保来自用户团队客户端中的任何用户土地的所有传入呼叫和聊天。
 
-在停止本地 Skype for Business 部署之前，还需要设置混合连接并将所有用户移动到云。  设置混合连接后，你可以选择根据你的计划和业务需求将用户迁移到云。 通过直接路由，你可以在迁移到云时以及在迁移完成后，利用你的本地语音基础结构。
+在弃用本地 Skype for Business 部署之前，还需要设置混合连接并将所有用户移动到云。  设置混合连接后，你可以选择根据你的计划和业务需求将用户移动到云。 借助直接路由，你可以在迁移到云和完成迁移后，利用本地语音基础结构。
 
 本主题介绍在现有的本地 Skype for business Server 部署和团队或 Skype for business Online 之间配置混合连接时所需的基础结构和系统要求。
 
@@ -44,7 +44,7 @@ ms.locfileid: "42043374"
 
  在 Skype for business Server 和团队或 Skype for business Online 的本地部署之间设置混合连接，可以让一些用户驻留在本地，而某些用户驻留在网上。
 
-此类型的配置依赖于共享的 SIP 地址空间功能，有时也称为 "拆分域"--即域的用户（如 contoso.com）在使用 Skype for Business Server 在本地和团队或 Skype for business 之间进行拆分。联机，如下图中所示：
+此类型的配置依赖于共享的 SIP 地址空间功能，有时也称为 "拆分域"--即域的用户（如 contoso.com）在使用 Skype for Business Server on on-premises and team 或 Skype for business Online 之间进行拆分，如下图所示：
 
 ![SfB 混合连接-拆分域](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "42043374"
 若要在本地环境和 Office 365 通信服务之间实现混合连接，需要满足以下基础结构要求：
 
 - 在受支持的拓扑中部署的 Skype for Business Server 或 Lync Server 的单个本地部署。 请参阅本主题中的[拓扑要求](plan-hybrid-connectivity.md#BKMK_Topology)。
-- 启用了 Skype for Business Online 的 Microsoft Office 365 租户。
+- 启用了 Skype for Business Online 的 Microsoft Office 365 组织。
     > [!NOTE]
     > 您可以仅将一个租户用于与本地部署的混合配置。
 - Azure Active Directory Connect，用于将本地目录与 Office 365 同步。 有关详细信息，请参阅[AZURE AD Connect：帐户和权限](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
@@ -109,12 +109,12 @@ Microsoft 支持以下类型的多林混合方案：
   - 将用户正确同步到承载 Skype for Business 的林中。 在混合配置中，这意味着用户必须同步为禁用的用户对象。
   - 托管 Skype for Business 的林必须信任包含用户的林。
     有关资源林混合方案的详细信息，请参阅[为混合 Skype For Business 部署资源林拓扑](configure-a-multi-forest-environment-for-hybrid.md)。
-- **多个林中的 Skype for Business Server 的多个部署。** 这种配置可因合并和收购方案以及在更复杂的企业中而产生。  将所有用户从本地部署到单个 Office 365 租户中的云，可以为具有多个 Skype for Business 部署的任何组织实现，前提是满足以下关键要求：
+- **多个林中的 Skype for Business Server 的多个部署。** 这种配置可因合并和收购方案以及在更复杂的企业中而产生。  将所有用户从本地部署到单个 Office 365 组织中的云的合并可为具有多个 Skype for Business 部署的任何组织实现，前提是满足以下关键要求：
 
-  - 至少必须有一个 Office 365 租户。 不支持在具有多个 Office 365 租户的方案中进行合并。
+  - 至少必须有一个 Office 365 组织。 不支持在具有多个 Office 365 组织的方案中进行合并。
   - 在任何给定时间，只有一个本地 Skype for Business 林可以处于混合模式（共享 SIP 地址空间）。 所有其他本地 Skype for business 林必须在内部部署中保持完全（且大概相互联合）。 请注意，如果需要，可通过新功能将这些其他内部部署组织同步到 AAD，以禁用2018年12月提供的[联机 SIP 域](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain)。
 
-    在多个林中部署 Skype for business 的客户必须将每个 Skype for Business 林单独完全迁移到使用拆分域（共享 SIP 地址空间）功能的 Office 365 租户中，然后再禁用混合本地部署，在继续迁移下一个本地 Skype for Business 部署之前。 此外，在迁移到云之前，本地用户仍将与在同一用户的本地目录中未表示的任何用户保持联合状态。 有关更多详细信息，请参阅[适用于团队和 Skype For business 的云合并](cloud-consolidation.md)。
+    在多个林中部署 Skype for business 的客户必须使用拆分域（共享 SIP 地址空间）功能将每个 Skype for Business 林单独完全迁移到 Office 365 组织中，然后在迁移到迁移下一个本地 Skype for Business 部署之前，先在本地部署中禁用混合。 此外，在迁移到云之前，本地用户仍将与在同一用户的本地目录中未表示的任何用户保持联合状态。 有关更多详细信息，请参阅[适用于团队和 Skype For business 的云合并](cloud-consolidation.md)。
 
 ## <a name="federation-requirements"></a>联合身份验证要求
 
@@ -124,7 +124,7 @@ Microsoft 支持以下类型的多林混合方案：
 
 若要成功配置混合部署，必须满足以下要求：
 
-- 必须为您的本地部署和 Office 365 租户配置域匹配。 如果在本地部署上启用了合作伙伴发现，则必须为您的联机租户配置开放联盟。 如果未启用合作伙伴发现，则必须为您的联机租户配置关闭的联合身份验证。
+- 为本地部署和 Office 365 组织配置的域匹配必须相同。 如果在本地部署上启用了合作伙伴发现，则必须为您的联机租户配置开放联盟。 如果未启用合作伙伴发现，则必须为您的联机租户配置关闭的联合身份验证。
 - 本地部署中的阻止域列表必须与您的联机租户的阻止域列表完全匹配。
 - 本地部署中的允许域列表必须与您的联机租户的允许域列表完全匹配。
 - 必须为联机租户的外部通信启用联合。

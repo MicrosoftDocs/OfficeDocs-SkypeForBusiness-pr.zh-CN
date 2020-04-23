@@ -1,5 +1,5 @@
 ---
-title: 禁用混合以完成到云的迁移
+title: 禁用混合以完成云迁移
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,20 +21,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括将混合禁用作为团队和 Skype for Business 的云整合的一部分的详细步骤。
-ms.openlocfilehash: 8fc9745c75f9b449751164065f974ccd8088218f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726972"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780141"
 ---
-# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>禁用混合以完成到云的迁移
+# <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>禁用混合以完成云迁移
 
-将所有用户从本地迁移到云后，您可以停止本地 Skype for Business 部署。 除删除任何硬件之外，关键步骤是在逻辑上将该本地部署与 Office 365 进行逻辑分离，方法是禁用混合。 禁用混合的步骤包括三个步骤：
+将所有用户从本地移动到云后，可取消本地 Skype for Business 部署。 除了删除任何硬件之外，关键步骤是通过禁用混合，从逻辑上将本地部署与 Office 365 分离开来。 禁用混合的步骤包括三个步骤：
 
-1. 更新 DNS 记录以指向 Office 365。
+1. 将 DNS 记录更新为指向 Office 365。
 
-2. 在 Office 365 租户中禁用拆分域。
+2. 在 Office 365 组织中禁用拆分域。
 
 3. 禁用本地与 Office 365 通信的功能。
 
@@ -47,7 +47,7 @@ ms.locfileid: "41726972"
 1.  *更新 DNS 以指向 Office 365。*
 组织的内部部署组织的外部 DNS 需要更新，以便 Skype for Business 记录指向 Office 365 而不是本地部署。 具体来说：
 
-    |记录类型|姓名|TTL|值|
+    |记录类型|名称|TTL|值|
     |---|---|---|---|
     |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed.online.lync.com>。<span>com|
     |SRV|_sip _tls|3600|100 1 443 sipdir.online.lync.com>。<span>com|
@@ -56,7 +56,7 @@ ms.locfileid: "41726972"
     |CNAME| 法规|   3600|   webdir。<span>com|
     |CNAME| 入  |3600|  webdir。<span>com|
 
-2.  *在 Office 365 租户中禁用共享 SIP 地址空间。*
+2.  *在 Office 365 组织中禁用共享 SIP 地址空间。*
 下面的命令需要从 Skype for business Online PowerShell 窗口中执行。
 
     ```PowerShell

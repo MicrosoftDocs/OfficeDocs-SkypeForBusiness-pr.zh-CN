@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 概述如何使用 Skype for Business Online 遥测工具监视混合方案中的本地实现。
-ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765230"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779658"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 
@@ -62,10 +62,10 @@ ms.locfileid: "41765230"
 
    有关详细信息，请参阅[规划 skype For Business server 和 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 和 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
 
-- 对 Office 365 租户进行身份验证，并确保已启用以下角色：
+- 对 Office 365 组织进行身份验证，并确保已启用以下角色：
 
   - Skype for Business Server 管理员
-  - Office 365 全局管理员
+  - 全局管理员
 
 - 如果尚未执行此操作，请按照[打开和使用 Microsoft 团队和 Skype for Business Online 的通话质量仪表板](/microsoftteams/turning-on-and-using-call-quality-dashboard)中所述，打开呼叫质量仪表板。
 

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 以下各节提供了有关如何配置在资源/用户林模型中具有多个林的环境以在混合方案中提供 Skype for Business 功能的指南。
-ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983037"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780121"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署资源林拓扑
  
@@ -33,7 +33,7 @@ ms.locfileid: "41983037"
   
 ## <a name="topology-requirements"></a>拓扑要求
 
-支持多个用户林。 请注意下列事项： 
+支持多个用户林。 请注意以下几点： 
     
 - 有关混合配置中的 Lync Server 和 Skype for business Server 支持的版本，请参阅在[Skype For Business Server 和 Office 365 之间规划混合连接](plan-hybrid-connectivity.md)中的[服务器版本要求](plan-hybrid-connectivity.md#server-version-requirements)。
     
@@ -52,7 +52,7 @@ ms.locfileid: "41983037"
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>将帐户同步到托管 Skype for Business 的林中
 
-当 Skype for Business Server 部署在一个林中（资源林），但向一个或多个其他林（帐户林）中的用户提供功能时，其他林中的用户必须表示为林中已禁用的用户对象。在其中 Skype for已部署业务服务器。 需要部署和配置身份管理产品（如 Microsoft Identity Manager），以设置帐户林的用户并将其同步到部署 Skype for Business Server 的林中。 用户必须以被禁用的用户对象的形式托管 Skype for Business Server 的林中进行同步。 无法将用户同步为 Active Directory contact 对象，因为 Azure Active Directory Connect 不会将联系人正确同步到 Azure AD，以便与 Skype 一起使用。
+当 Skype for Business Server 部署在一个林中（资源林），但向一个或多个其他林（帐户林）中的用户提供功能时，其他林中的用户必须在部署了 Skype for Business Server 的林中表示为禁用的用户对象。 需要部署和配置身份管理产品（如 Microsoft Identity Manager），以设置帐户林的用户并将其同步到部署 Skype for Business Server 的林中。 用户必须以被禁用的用户对象的形式托管 Skype for Business Server 的林中进行同步。 无法将用户同步为 Active Directory contact 对象，因为 Azure Active Directory Connect 不会将联系人正确同步到 Azure AD，以便与 Skype 一起使用。
   
 无论任何多林配置如何，托管 Skype for Business Server 的林也可以为同一林中存在的任何已启用用户提供功能。
   
@@ -73,9 +73,9 @@ ms.locfileid: "41983037"
     
 - 如果每个用户林中的唯一 UPN 已同步到资源林中关联的禁用对象，则 AD FS 身份验证将失败。 匹配规则将在资源林中的对象上查找 UPN，该 UPN 已被禁用，无法用于身份验证。 
     
-## <a name="create-an-office-365-tenant"></a>创建 Office 365 租户
+## <a name="create-an-office-365-organization"></a>创建 Office 365 组织
 
-接下来，你将需要设置 Office 365 租户以用于你的部署。 有关详细信息，请参阅[Microsoft 云产品服务的订阅、许可证、帐户和租户](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
+接下来，你将需要设置 Office 365 组织以用于你的部署。 有关详细信息，请参阅[Microsoft 云产品服务的订阅、许可证、帐户和租户](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
   
 ## <a name="configure-active-directory-federation-services"></a>配置 Active Directory 联合身份验证服务
 

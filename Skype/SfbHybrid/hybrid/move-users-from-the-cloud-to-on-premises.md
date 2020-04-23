@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 了解如何将用户从 Skype for Business Online 迁移到本地。
-ms.openlocfilehash: 0b2143a1705aff3f0b74fb0194d3d10e3d55771b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0add74a2480f4caed493e6e448427aa2462db714
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726732"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779668"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>将用户从云移动到本地 
 
@@ -49,7 +49,7 @@ ms.locfileid: "41726732"
 
 ### <a name="move-users-with-move-csuser"></a>将用户移动到 Get-csuser
 
-Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell PowerShell PowerShell 窗口中获取。 在本地环境和 Office 365 租户中，您必须具有足够的权限，如[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用在两个环境中具有权限的单个帐户，也可以使用本地凭据启动本地 Skype for Business Server Management Shell 窗口，并使用`-Credential`参数指定具有必要的 office 365 管理角色的 office 365 帐户的凭据。
+Get-csuser 可从本地 Skype for Business 命令行管理程序 PowerShell PowerShell PowerShell 窗口中获取。 在本地环境和 Office 365 组织中，您必须具有足够的权限，如[所需的管理凭据](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述。 您可以使用在两个环境中具有权限的单个帐户，也可以使用本地凭据启动本地 Skype for Business Server Management Shell 窗口，并使用`-Credential`参数指定具有必要的 office 365 管理角色的 office 365 帐户的凭据。
 
 使用 Get-csuser 将用户移动到本地的步骤：
 
@@ -74,7 +74,7 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 4. 选择用户，然后从列表上方的 "**操作**" 下拉列表中选择 "**将所选用户移动到本地"**。
 5. 在向导中，选择将承载用户的用户池并单击 "**下一步**"。
 6. 如果出现提示，请使用以 onmicrosoft.com 结尾的帐户登录 Office 365 并拥有足够的权限。
-7. 单击 "**下一步**"，然后再单击一次以移动用户。 ****
+7. 单击 "**下一步**"，然后再单击一次以移动用户。 **Next**
 8. 请注意，有关成功或失败的状态消息是在主控制面板应用程序的顶部提供的，而不是在向导中提供的。
 
 ### <a name="removing-teamsonly-mode"></a>删除 TeamsOnly 模式

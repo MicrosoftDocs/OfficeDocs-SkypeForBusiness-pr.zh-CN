@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776927"
+ms.locfileid: "43785865"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -34,6 +34,11 @@ ms.locfileid: "43776927"
 所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 如以下示例团队的屏幕截图所示，横幅指示 "此团队拥有来宾"，并且每个来宾的名称旁边显示一个 **（来宾）** 标签。
     
 ![显示横幅通知来宾用户的屏幕截图](media/guest-experience-image2.png "屏幕截图显示了罗斯文商贸的市场营销渠道的一部分，并在顶部横幅中显示通知，表明该团队拥有来宾和来宾用户（其姓名旁边的 "word 来宾" 标识）。")
+
+查看有关团队中的来宾体验的这些视频：
+- [作为来宾加入团队](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [加入与来宾的团队会议](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>工作组成员和来宾功能的比较
 

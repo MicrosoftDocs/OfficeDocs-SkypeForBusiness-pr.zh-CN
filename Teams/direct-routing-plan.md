@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft Phone 系统直接路由如何让你将受支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780691"
+ms.locfileid: "43785935"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -299,8 +299,8 @@ SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 
 |**流量**|**从**|**到**|**源端口**|**目标端口**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|媒体处理器|SBC|49152-53247|在 SBC 上定义|
-|UDP/SRTP|SBC|媒体处理器|在 SBC 上定义|49152-53247|
+|UDP/SRTP|媒体处理器|SBC|3478-3481 和49152–53247|在 SBC 上定义|
+|UDP/SRTP|SBC|媒体处理器|在 SBC 上定义|3478-3481 和49152–53247|
 
   > [!NOTE]
   > Microsoft 建议在 SBC 上对每个并发调用至少有两个端口。
