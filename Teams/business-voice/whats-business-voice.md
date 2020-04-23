@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 商业语音的概述，并介绍它如何帮助中小型企业更高效地沟通。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecce1626a541c14c7175390c086acfa5eb0262f2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096867"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780791"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什么是 Microsoft 365 商务语音？
 
@@ -32,8 +32,8 @@ ms.locfileid: "43096867"
 
 如果你的组织员工不超过 300 人，并且你有以下 Microsoft 365 订阅之一，那么商务语音非常适合你：
 
-* Office 365 商业协作版
-* Office 365 商业高级版
+* Microsoft 365 商业基础版
+* Microsoft 365 商业标准版
 * Office 365 E1
 * Office 365 E3
 * Office 365 F1
