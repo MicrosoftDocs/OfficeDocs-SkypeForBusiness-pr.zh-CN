@@ -17,12 +17,12 @@ description: 了解如何使用外部访问（联合身份验证）和来宾访�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824920"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43785925"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>与 Microsoft Teams 中其他组织的用户通信
 ======================================================
@@ -73,6 +73,7 @@ ms.locfileid: "41824920"
 | 可阻止单个用户 | 否 | 是 |
 | 支持 @提及 | 是<sup>4</sup> | 是 |
 | 拨打私人电话 | 是 | 是 |
+| 查看适用于拨入会议参加者的电话号码 | 否 | 是 |
 | 允许 IP 视频 | 是 | 是 |
 | 屏幕共享模式 | 是<sup>4</sup> | 是 |
 | 允许立即召开会议 | 否 | 是 |
