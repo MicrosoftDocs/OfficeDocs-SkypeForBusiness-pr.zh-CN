@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 29caa32b894c2a407a724f68c11c01cfe567c82e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137822"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780251"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -40,7 +40,7 @@ Teams 提供了一组丰富的工具，用于为组织实施协作生命周期�
 
 **Teams**
 
-_团队_是包含人员、内容和促进协作的工具的集合。 团队规定了其成员以及应用于这些成员的权限和策略。 Teams 是基于 Office 365 组进行构建的，并且对 Office 365 组成员身份的更改会同步到团队。 与其他 Office 365 组一样，Teams 中自动预配了一个 Exchange 邮箱、一个 SharePoint 站点、一个 OneNote 笔记本以及 Office 365 中的其他资源。 [详细了解 Office 365 组](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+_团队_是包含人员、内容和促进协作的工具的集合。 团队规定了其成员以及应用于这些成员的权限和策略。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Office 365 组成员身份的更改会同步到团队。 与其他 Microsoft 365 组一样，Teams 中自动预配了一个 Exchange 邮箱、一个 SharePoint 站点、一个 OneNote 笔记本以及 Office 365 中的其他资源。 [了解有关 Microsoft 365 组的详细信息。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **频道**
 
@@ -57,7 +57,7 @@ _团队_是包含人员、内容和促进协作的工具的集合。 团队规�
 
 团队用户类型确定团队成员拥有的控制权限：
 
--   _团队创建者_有权在目录中创建组或团队。 管理员可以将此用户类型限定于一部分管理员或用户。 有关详细信息，请参阅[管理哪些人可以创建 Office 365 组](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。 
+-   _团队创建者_有权在目录中创建组或团队。 管理员可以将此用户类型限定于一部分管理员或用户。 有关详细信息，请参阅[管理哪些人可以创建 Microsoft 365 组](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。 
 -   _团队所有者_管理团队的成员身份和设置。 每个团队的团队所有者可以多达 100 人。
 -   _团队成员_是组织中加入团队的成员。
 -   _来宾_是组织外部的用户。 如果组织启用了[来宾访问](guest-access.md)，则可以邀请有电子邮件地址的任何人作为来宾。
@@ -79,7 +79,7 @@ _团队_是包含人员、内容和促进协作的工具的集合。 团队规�
 <tbody>
    <tr>
     <td valign="top" colspan="2">Teams 服务管理员</td>
-    <td valign="top">管理 Teams 服务，创建和管理 Office 365 组</td>
+    <td valign="top">管理 Teams 服务，创建和管理 Microsoft 365 组</td>
     <td valign="top">管理会议，包括会议策略、配置和会议网桥<sup>1</sup><br><br>管理语音，包括通话策略、电话号码存量和分配、呼叫队列以及自动助理<sup>1</sup><br><br>管理消息，包括消息策略<sup>1</sup><br><br>管理组织范围的所有设置，包括联合、Teams 升级和 Teams 客户端设置<sup>1</sup><br><br>管理组织中的团队及其关联的设置，包括成员身份<sup>2</sup><br><br>查看用户配置文件页面，以及使用高级故障排除工具集解决用户通话质量问题<sup>3</sup></td>
 </tr>
 <tr>
@@ -197,7 +197,7 @@ _团队_是包含人员、内容和促进协作的工具的集合。 团队规�
 
 当团队的工作完成时，务必要正式确认其已结束。 这是向团队成员告知结束，此外，也防止任何人访问已过时的陈旧信息。 你可以使用团队本身完成结束事项，例如，事后剖析和执行摘要。
 
-你可以删除你知道不需要的团队（例如，只是为了测试而创建的团队，或包含敏感数据的团队）。 团队实际上是通过“软删除”进行删除的，IT 最长可以在 21 天内将其恢复（Office 365 组是 30 天）。 删除团队不会影响按照合规性策略保留的任何聊天或内容。 频道也具有“软删除”，并且可在删除后的最长 21 天内恢复。
+你可以删除你知道不需要的团队（例如，只是为了测试而创建的团队，或包含敏感数据的团队）。 团队实际上是通过“软删除”进行删除的，IT 最长可以在 21 天内将其恢复（Microsoft 365 组是 30 天）。 删除团队不会影响按照合规性策略保留的任何聊天或内容。 频道也具有“软删除”，并且可在删除后的最长 21 天内恢复。
 
 你还可以使用过期和保留策略以及存档功能来减少公开不再使用或其所有者已离开组织的团队。
 

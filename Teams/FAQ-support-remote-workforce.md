@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096957"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780311"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -90,7 +90,7 @@ Microsoft 在最近发布的新型冠状病毒肺炎（COVID-19）疫情公告�
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>如何取得开始使用 Teams 并确保成功部署？
 
-Microsoft 提供[适用于 Office 365 的 FastTrack 中心权益](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365)，帮助你规划、部署、促进使用，并采用最佳做法。 如果至少有 150 个用户，则免费提供此服务。 若要了解详细信息，请参阅[请求 Microsoft 365 FastTrack 协助更轻松](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)。 适用于 Office 365 的 FastTrack 设定准则可供所有 Office 365 租户系统管理员使用。 若要访问此准则，请使用管理员凭据登录 [https://aka.ms/setupguidance](https://aka.ms/setupguidance)。
+Microsoft 提供[适用于 Office 365 的 FastTrack 中心权益](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365)，帮助你规划、部署、促进使用，并采用最佳做法。 如果至少有 150 个用户，则免费提供此服务。 若要了解详细信息，请参阅[请求 Microsoft 365 FastTrack 协助更轻松](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)。 适用于 Microsoft 365 的 FastTrack 设定准则可供所有 Office 365 组织管理员使用。 若要访问此准则，请使用管理员凭据登录 [https://aka.ms/setupguidance](https://aka.ms/setupguidance)。
 
 如果想要自行开始使用，请参阅[如何推出 Teams](How-to-roll-out-teams.md)，并查看我们的[在 30 天内掌握 Teams 的用法](https://aka.ms/Teamsin30)系列网络研讨会，让你在短短 30 天内开始使用 Teams。
 

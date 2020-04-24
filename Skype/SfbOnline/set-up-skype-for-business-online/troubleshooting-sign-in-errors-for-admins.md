@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '了解 Skype for Business Online 登录错误的常见原因, 并解决这些问题。 '
-ms.openlocfilehash: 6014c8af8a3fd39ad3a79d80f7abfbddeaa4340b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 881bb6e41b4b22fe71caeb701ac10d1696147d4b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010755"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777147"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>针对管理员的 Skype for Business Online 登录错误进行故障排除
 
@@ -65,7 +65,7 @@ ms.locfileid: "42010755"
 | 输入了错误的登录地址、用户名或密码  <br/>                                                                                                               | 确认用户的登录名和密码正确。 <br/>  验证用户的登录名格式是否如下所示： <strong>bobk@contoso.com</strong>。 这可能不同于你用于登录到组织的网络中的格式。  <br/>  让用户再次尝试登录。   <br/>                                                                                                                                                                                                                             |
 | 忘记密码  <br/>                                                                                                                                             | 重置用户密码，并通知他或她新的临时密码。  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | 未授权使用 Skype for Business Online  <br/>                                                                                                                  | 确认用户已注册为 Skype for Business Online 用户。 如果尚未注册，请注册该用户，然后让他或她再次登录。  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
-| 安装的 Skype for Business Online 版本错误  <br/>                                                                                                           | 此问题通常与包含以下短语的错误消息相关联：**身份验证服务可能与此版本的程序不兼容**。  <br/> 让用户卸载并重新安装 Office 365 Portal 中的 Skype for Business Online。  <br/>                                                                                                                                                                                                                                                    |
+| 安装的 Skype for Business Online 版本错误  <br/>                                                                                                           | 此问题通常与包含以下短语的错误消息相关联：**身份验证服务可能与此版本的程序不兼容**。  <br/> 让用户卸载并重新安装 Microsoft 365 管理中心中的 Skype for Business Online。  <br/>                                                                                                                                                                                                                                                    |
 | 获得登录所需的个人证书时出现问题  <br/>                                                                                           | 如果用户的登录地址最近已发生更改，他们可能需要删除缓存的登录数据。 若要求用户注销，请在登录屏幕上单击“删除我的登录信息”链接，然后重试。  <br/>                                                                                                                                                                                                                                                                                                                                |
 | 你设置了自定义域名，而所做更改可能未在系统内完成传播。  <br/>                                                         | 首先，确保修改了域名服务 (DNS) 记录以反映更改。  <br/> 如果已经做了必要的 DNS 更改，请建议用户尝试稍后登录。 DNS 更改最多需要 72 个小时才会在整个系统中反映出来。  <br/>                                                                                                                                                                                                                                                        |
 | 系统时钟与服务器时钟不同步  <br/>                                                                                                                     | 确保网络域名控制器与可靠的外部时间源保持同步。 有关详细信息，请参阅 Microsoft 知识库文章 816042 [如何在 Windows Server 中配置权威时间服务器](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=816042)。<br/>                                                                                                                                                                                                                                          |

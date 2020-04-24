@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892312"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749789"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -156,8 +156,8 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 体验持续多长时间？
 
-在下一个企业协议周年纪念日或在 2021 年 1 月或之后续订前，可免费使用 Microsoft Teams Exploratory 体验。 届时，Microsoft Exploratory 体验许可证的最终用户需要迁移到包含 Teams 的付费许可证。 此后启动的任何 Microsoft 探索体验许可证将一直不会收取额外费用，直到下一个周年纪念日或续订周期。 
+在 2021 年 1 月或之后的下一个**协议周年日**或**续订**前，使用 Microsoft Teams 探索体验都是免费的。 届时，Microsoft Exploratory 体验许可证的最终用户需要迁移到包含 Teams 的付费许可证。 此后启动的任何 Microsoft 探索体验许可证在下一个**周年日**或**续订**周期前一直都是免费的。 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>如果最终用户刚好在我的周年纪念或续订日期前启动 Microsoft Teams Exploratory 体验，会发生什么情况？
 
-在你的企业协议周年纪念日或续订之日前 90 天内启动的 Microsoft Teams Exploratory 体验许可证将不需要迁移到付费许可证，直到下一个周年纪念日或续订周期。 
+在**协议周年日**或**续订**后的 90 天内启动的 Microsoft Teams 探索体验许可证无需迁移到付费许可证，直到下一个周年日或续订周期。 

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c264bba408205f8f00d1df20fffbc6242124220
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237955"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780561"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -56,7 +56,7 @@ Teams 拥有台式机（Windows、Mac 和 Linux）、网络和移动（Android �
 
 Teams 利用 Microsoft 365 功能对用户进行身份验证并提供服务。 行政人员、讲师和学生应建立身份标识，以便进行协作。 如果标识尚不存在，请按照以下过程建立。
 
-[需要为用户启用团队许可证](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)，然后[需要向用户分配许可证](teams-edu-licensing.md)，然后他们才能使用 Teams 功能。 Teams 依赖于其他 Microsoft 365 功能（如 [Office 365 组](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)）来实现协作。 如果同时启用了所有这些服务，用户将可获得最佳 Teams 体验。 [由 Google 托管电子邮件服务的用户可以使用 Teams](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
+[需要为用户启用团队许可证](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2)，然后[需要向用户分配许可证](teams-edu-licensing.md)，然后他们才能使用 Teams 功能。 Teams 依赖于其他 Microsoft 365 功能（如 [Microsoft 365 组](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md)）来实现协作。 如果同时启用了所有这些服务，用户将可获得最佳 Teams 体验。 [由 Google 托管电子邮件服务的用户可以使用 Teams](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
 Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费的。 有关如何部署 Office 365 并让整个学校开始在 Teams 上使用的 IT 指南，请参阅[此页面](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 要获得支持，你可以在[此处](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提交票证，如需获取有关 Teams 的培训，请访问当地的 Microsoft Store 以与专家交谈。
 
@@ -69,7 +69,7 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 ### <a name="1-allow-users-to-create-teams"></a>1. 允许用户创建团队
 
-当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 **默认情况下，每个人都可创建 Office 365 组和团队**。 有时，此功能可能并不适用。例如，一些客户可能想限制中小学生创建团队。 如果需要，可在你的环境中将 Office 365 组和团队的创建范围[限制在某些安全组内](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
+当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 **默认情况下，每个人都可创建 Microsoft 365 组和团队**。 有时，此功能可能并不适用。例如，一些客户可能想限制中小学生创建团队。 如果需要，可在你的环境中将 Office 365 组和团队的创建范围[限制在某些安全组内](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
 当你允许每个人（包括学生）为班级、研究、小组项目和学习小组创建团队时，高等教育客户将会受益。 中小学学校则可能希望限制学生创建团队，确保所有学生与学生之间的交流都在包含成人的论坛内进行。 在这种情况下，可将 Office 365 组和团队的创建人员限制为所有教师和行政人员。
 
