@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 473c053036b766ef475c3aed5f0bba2d24dd9e6c
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d2a158f8b43b4cf58e2c5c6c4a4248488f41973d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824880"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780281"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>检查用于企业语音的 Internet 连接
 
@@ -32,8 +32,8 @@ ms.locfileid: "41824880"
 
 若要执行下面的步骤，必须有一个租户包含以下订阅之一：
 
-* Office 365 商业协作版
-* Office 365 商业高级版
+* Microsoft 365 商业基础版
+* Microsoft 365 商业标准版
 * Office 365 E1
 * Office 365 E3
 * Office 365 F1

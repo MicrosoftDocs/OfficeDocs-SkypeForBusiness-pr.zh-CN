@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229897"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776617"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
@@ -62,20 +62,20 @@ Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、
 
 ### <a name="bots-for-private-chats-and-channels"></a>用于私人聊天和频道的聊天机器人
 
-聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户与云服务交互，例如任务管理、计划以及在 Teams 聊天中投票。 Teams 支持在私人聊天和频道中使用聊天机器人。 管理员可以控制是否允许在 Office 365 租户中使用聊天机器人。
+聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户与云服务交互，例如任务管理、计划以及在 Teams 聊天中投票。 Teams 支持在私人聊天和频道中使用聊天机器人。 管理员可以控制是否允许在 Office 365 组织中使用机器人。
 
-| 询问你自己 | 操作 |
+| 询问你自己 | Action |
 |--------------|--------|
-|是否要允许在我的 Office 365 租户中使用自定义聊天机器人？|有关添加聊天机器人的详细信息，请参阅[为 Microsoft Teams 中的私人聊天和频道添加聊天机器人](add-bots.md)。 有关开启或关闭聊天机器人的信息，请参阅[在 Microsoft Teams 中管理应用设置](admin-settings.md)。|
+|是否要允许在我的 Office 365 组织中使用自定义聊天机器人？|有关添加聊天机器人的详细信息，请参阅[为 Microsoft Teams 中的私人聊天和频道添加聊天机器人](add-bots.md)。 有关开启或关闭聊天机器人的信息，请参阅[在 Microsoft Teams 中管理应用设置](admin-settings.md)。|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>内置和自定义选项卡
 
 所有者和团队成员可以向频道、私人聊天和群组聊天中添加选项卡，以帮助集成其云服务。 添加选项卡可帮助用户访问并管理自己需要或最常用的数据。 在频道中，默认情况下已创建了“对话”和“文件”选项卡。 在私人聊天中，默认情况下已创建了“对话”、“文件”、“组织”和“活动”选项卡。 除了这些内置选项卡外，你还可以设计和添加自定义选项卡。 若要了解如何为你的组织开启或关闭 Teams 应用，请阅读[在 Teams 中管理应用设置](admin-settings.md)。
 
-| 询问你自己 | 操作 |
+| 询问你自己 | Action |
 |--------------|--------|
-|是否要允许在我的 Office 365 租户中使用自定义选项卡？|有关详细信息，请参阅[在 Teams 中使用内置和自定义选项卡](built-in-custom-tabs.md)。|
+|是否要允许在我的 Office 365 组织中使用自定义选项卡？|有关详细信息，请参阅[在 Teams 中使用内置和自定义选项卡](built-in-custom-tabs.md)。|
 |||
 
 ### <a name="office-365-and-custom-connectors"></a>Office 365 和自定义连接器

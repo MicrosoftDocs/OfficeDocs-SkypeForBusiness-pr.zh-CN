@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8cc942b1f249a78622d49f2880eed7282e900c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837052"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778438"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>在 Microsoft Teams 中监视使用情况和反馈
 了解用户使用 Teams 的情况以及他们对 Teams 的体验非常重要。 使用情况报告可以帮助你更好地了解使用模式，并且连同用户反馈一起，为你提供相关见解来了解更广泛的部署以及在何处设置培训和通信工作的优先级。
@@ -54,7 +54,7 @@ Microsoft Teams 管理中心中的 Teams 报告能让你了解组织中 Teams �
 若要了解详细信息，请参阅 [Teams 分析和报告](teams-analytics-and-reports/teams-reporting-reference.md)。 
 
 ### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Teams 活动报告（Microsoft 365 管理中心）
-你还可以通过 Microsoft 365 管理中心提供的报告查看 Teams 活动。 这些报告是 Microsoft 365 管理中心中 Office 365 报告的一部分，提供有关用户活动和设备使用情况的信息。 
+你还可以通过 Microsoft 365 管理中心提供的报告查看 Teams 活动。 这些报告是 Microsoft 365 管理中心中 Microsoft 365 报告的一部分，提供有关用户活动和设备使用情况的信息。 
 
 若要查看这些报告，请转到 Microsoft 365 管理中心，单击“**报告**” > “**使用情况**”。 在“**选择报告**”下，单击“**Microsoft Teams**”。 从这里选择要查看的报告。
 

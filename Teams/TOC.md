@@ -58,7 +58,7 @@
 ### [管理适用于 Teams 的应用](manage-apps.md)
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
-### [使用 Office 365 和自定义连接器](Office-365-custom-connectors.md)
+### [使用 Microsoft 365 或 Office 365 连接器和自定义连接器](Office-365-custom-connectors.md)
 ### [管理业务线应用](manage-your-lob-apps.md)
 ### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
@@ -143,10 +143,10 @@
 ## 音频会议
 ### [规划部署](deploy-audio-conferencing-teams-landing-page.md)
 
-### [Office 365 中的音频会议](audio-conferencing-in-office-365.md)
+### [Microsoft 365 中的音频会议](audio-conferencing-in-office-365.md)
 ### [音频会议常见问题](audio-conferencing-common-questions.md)
 ### [教程：Teams 中的音频会议](Tutorial-Audio-Conferencing.yml)
-### [试用或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+### [试用或购买 Microsoft 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [音频会议免费播出时段](complimentary-dial-out-period.md)
 ### [音频会议订阅“拨出”/“给我打电话”的好处](audio-conferencing-subscription-dial-out.md)
 
@@ -717,7 +717,7 @@
 ### [使用适用于 Teams 的 网络规划器](network-planner.md)
 ### [演练](tutorial-network-planner-example.yml)
 ### [Teams 或 Skype for Business Online 的代理服务器](proxy-servers-for-skype-for-business-online.md)
-### [在 Teams 中创建团队时规划 Office 365 组](plan-office-365-groups.md)
+### [在创建 Teams 团队时规划 Microsoft 365 组](plan-office-365-groups.md)
 ### [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 ### [在 Teams 中规划管理](plan-teams-governance.md)
 ### [使用网络测试助理](use-network-testing-companion.md)
@@ -730,7 +730,7 @@
 ### [使用 MSI 安装 Teams](msi-deployment.md)
 ### [在组织中打开 Teams](Office-365-set-up.md)
 ### [Microsoft Teams 如何使用内存](teams-memory-usage-perf.md)
-### [Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)
+### [Microsoft 365 和 Office 365 URL 和 IP 地址范围](office-365-urls-ip-address-ranges.md)。
 ### [虚拟桌面基础结构 (VDI) 的 Teams](teams-for-vdi.md)
 ### [为 Surface Hub 部署 Teams](teams-surface-hub.md)
 ### [Teams 客户端更新](teams-client-update.md)
@@ -738,12 +738,12 @@
 
 ## 许可
 ### [管理对 Teams 的用户访问](user-access.md)
-### [Teams 的 Office 365 授权](office-365-licensing.md)
+### [Teams 的 Microsoft 365 和 Office 365 授权](office-365-licensing.md)
 ### [分配 Teams 许可证](assign-teams-licenses.md)
 ### [Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 #### 基于计划的许可证选项
-##### [Office 365 商业高级版](teams-add-on-licensing/office-365-business-premium.md)
-##### [Office 365 专业增强版](teams-add-on-licensing/office-365-premium-pro-plus.md)
+##### [Microsoft 365 商业标准版](teams-add-on-licensing/office-365-business-premium.md)
+##### [Microsoft 365 企业应用版](teams-add-on-licensing/office-365-premium-pro-plus.md)
 ##### [Office 365 企业版（E1 和 E3）](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
 ##### [Office 365 企业版 E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
 ##### [Office 365 Enterprise E5（不含音频会议）](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -753,20 +753,20 @@
 ### [管理 Teams 商业试用版优惠](iw-trial-teams.md)
 ### [管理 Teams 探索性体验](teams-exploratory.md)
 ### [管理 Teams 的免费版本](manage-freemium.md)
-### [将 Teams 免费升级到 Office 365 订阅版本](upgrade-freemium.md)
+### [将 Teams 免费升级到订阅版本](upgrade-freemium.md)
 ### [消息策略许可](teams-add-on-licensing/pri-message.md)
 ### [虚拟用户许可证](teams-add-on-licensing/virtual-user.md)
 
 
-## 与 Office 365 的互操作性
+## 与 Microsoft 365 和 Office 365 的互操作性
 
-### [Office 365 组和团队](office-365-groups.md)
-### [使用 Teams 增强现有 Office 365 组](enhance-office-365-groups.md)
+### [Microsoft 365 组和 Teams](office-365-groups.md)
+### [使用 Teams 增强现有 Microsoft 365 组](enhance-office-365-groups.md)
 ### [Exchange 与 Teams 如何交互](exchange-teams-interact.md)
 #### [配置 Exchange 混合组织以配合使用 Teams](exchange-hybrid-organization.md)
 #### [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](smtp-accepted-domain.md)
 ### [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)
-### [Office 365 支持多地理位置的租户中的 Teams 体验](teams-experience-o365odb-spo-multi-geo.md)
+### [Microsoft 365 和 Office 365 支持多地理位置的租户中的 Teams 体验](teams-experience-o365odb-spo-multi-geo.md)
 
 
 ## 支持的设备
@@ -899,6 +899,6 @@
 ## 辅助功能和合规性
 ### [法国 Microsoft Teams 辅助功能合规性声明](accessibility-declaration-of-conformance-in-france-for-teams.md)
 ### [Skype for Business Online 和 Microsoft Teams 辅助功能解决方案](accessibility-solutions-in-france.md)
-### [Office 365 中的通话套餐 - 英国操作守则](code-of-practice-for-the-united-kingdom-u-k.md)
-### [Office 365 中的通话套餐 - 英国合规处理守则](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Microsoft 365 中的通话套餐 - 英国操作守则](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Microsoft 365 中的通话套餐 - 英国合规处理守则](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)

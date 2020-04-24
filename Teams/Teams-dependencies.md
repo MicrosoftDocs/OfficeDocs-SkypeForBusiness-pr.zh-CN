@@ -18,24 +18,24 @@ f1.keywords:
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1743b8d2fea354716138800ffe2c1b50d9e71b6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834802"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778478"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
 
-为满足贵组织的要求，你可以通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。 所有这些授权级别都适用于你的 Office 365 租户。 每个授权级别按如下所示控制来宾体验：
+为满足贵组织的要求，你可以通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。 所有这些授权级别都将应用于你的 Office 365 组织。 每个授权级别按如下所示控制来宾体验：
 
 - **Azure Active Directory**：Microsoft Teams 中的来宾体验依赖于 Azure AD 企业到企业 (B2B) 平台。 此授权级别控制目录、租户和应用程序级别的来宾体验。
 - **Microsoft Teams**：仅控制 Microsoft Teams 中的来宾体验。
-- **Office 365 组**：控制 Office 365 组和 Microsoft Teams 中的来宾体验。
-- **SharePoint Online 和 OneDrive for Business**：控制 SharePoint Online、OneDrive for Business、Office 365 组和 Microsoft Teams 中的来宾体验。
+- **Microsoft 365 组**：控制 Microsoft 365 组和 Microsoft Teams 中的来宾体验。
+- **SharePoint Online 和 OneDrive for Business**：控制 SharePoint Online、OneDrive for Business、Microsoft 365 组和 Microsoft Teams 中的来宾体验。
 
-这些不同的授权级别可让你灵活选择为组织设置来宾访问的方式。 例如，如果你不想在 Microsoft Teams 组织中允许来宾用户，但想在组织中全面允许，只需在 Microsoft Teams 中关闭来宾访问即可。 其他示例：你可以在 Azure AD、Teams 和组级别启用来宾访问，然后对匹配一个或多个条件（如数据分类为机密）的选定团队禁用添加来宾用户的功能。 SharePoint Online 和 OneDrive for Business 具有自己的不依赖 Office 365 组的来宾访问设置。
+这些不同的授权级别可让你灵活选择为组织设置来宾访问的方式。 例如，如果你不想在 Microsoft Teams 组织中允许来宾用户，但想在组织中全面允许，只需在 Microsoft Teams 中关闭来宾访问即可。 其他示例：你可以在 Azure AD、Teams 和组级别启用来宾访问，然后对匹配一个或多个条件（如数据分类为机密）的选定团队禁用添加来宾用户的功能。 SharePoint Online 和 OneDrive for Business 具有自己的不依赖 Microsoft 365 组的来宾访问设置。
 
 > [!NOTE]
 > 来宾受 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 服务限制约束。 
@@ -70,41 +70,41 @@ Azure AD 包含用于配置外部用户的以下设置：
 要详细了解如何控制可邀请来宾的人员，请参阅[委托 Azure Active Directory B2B 协作邀请](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
 > [!NOTE]
-> 还可管理可以来宾身份邀请哪些域加入你的租户。 请参阅[允许/阻止对 Office 365 组的来宾访问](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)。
+> 还可管理可以来宾身份邀请哪些域加入你的租户。 请参阅[允许/阻止对 Microsoft 365 组的来宾访问](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups)。
 
 无需将用户来宾帐户手动添加到 Azure AD B2B 中，因为在你向 Teams 添加来宾时，该帐户将自动添加到目录中。
 
 ### <a name="licensing-for-guest-access"></a>来宾访问的许可
-来宾访问许可是 Azure AD 许可的一部分。 来宾访问包含于所有 Office 365 商业高级版和 Office 365 企业版订阅之中。 有关许可的详细信息，请参阅 [Azure Active Directory B2B 协作许可指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
+来宾访问许可是 Azure AD 许可的一部分。 所有 Microsoft 365 商业标准版、Office 365 企业版订阅均包含来宾访问功能。 有关许可的详细信息，请参阅 [Azure Active Directory B2B 协作许可指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
 
 
 > [!NOTE]
-> 你组织中仅拥有独立 Office 365 订阅计划（例如 Exchange Online 计划 2）的用户不可作为来宾被邀请加入你的组织，因为 Teams 将这些用户视为属于该组织。 要让这些用户使用 Teams，必须向他们分配 Office 365 商业高级版、Office 365 企业版或 Office 365 教育版订阅。 
+> 你组织中仅拥有独立 Office 365 订阅计划（例如 Exchange Online 计划 2）的用户不可作为来宾被邀请加入你的组织，因为 Teams 将这些用户视为属于该组织。 要让这些用户使用 Teams，必须向他们分配 Microsoft 365 商业标准版、Office 365 企业版或 Office 365 教育版订阅。 
 
 ## <a name="control-guest-access-in-teams"></a>控制 Teams 中的来宾访问
 
 默认情况下，Teams 中的来宾访问处于关闭状态。 要启用来宾访问，请参阅[开启或关闭对 Microsoft Teams 的来宾访问](set-up-guests.md)。 
 
 
-## <a name="control-guest-access-in-office-365-groups"></a>控制 Office 365 组中的来宾访问
+## <a name="control-guest-access-in-microsoft-365-groups"></a>控制 Microsoft 365 组中的来宾访问
 
-从 Office 365 组中，你可以控制向组织中的所有 Office 365 组和 Microsoft Teams 团队添加来宾用户和来宾访问。
+从 Microsoft 365 组中，你可以控制向组织中的所有 Microsoft 365 组和 Microsoft Teams 团队添加来宾用户和来宾访问。
 
-1. 在 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 处使用 Office 365 全局管理员帐户进行登录。
+1. 在 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 处使用全局管理员帐户进行登录。
 
 2. 在左侧，依次选择“**设置**”和“**服务 &amp; 外接程序**”。
 
-3. 选择“**Office 365 组**”。
+3. 选择 **Microsoft 365 组**。
 
-     ![“设置”中“Office 365 组”的屏幕截图](media/authorize-guest-image2.png)
+     ![“设置”中“Microsoft 365 组”的屏幕截图](media/authorize-guest-image2.png)
   
-4. 在“Office 365 组”页面上，将开关设置为“**开**”或“**关**”，具体取决于你是否允许组织外部的团队和组所有者访问 Office 365 组。 单击或点击“**允许组所有者向组添加组织外部人员**”旁边的开关将其设置为“**开**”。 如果将此开关设置为“**开**”，则会看到另一个选项，它用于控制你是否允许组和团队所有者将组织外的人员添加到 Office 365 组和 Microsoft Teams。 如果你想让组和团队所有者添加来宾用户，请将此切换设置为“**开**”。 
+4. 在“Microsoft 365 组”页面上，将开关设置为“**开**”或“**关**”，具体取决于你是否允许组织外部的团队和组所有者访问 Microsoft 365 组。 单击或点击“**允许组所有者向组添加组织外部人员**”旁边的开关将其设置为“**开**”。 如果将此开关设置为“**开**”，则会看到另一个选项，它用于控制你是否允许组和团队所有者将组织外的人员添加到 Microsoft 365 组和 Microsoft Teams。 如果你想让组和团队所有者添加来宾用户，请将此切换设置为“**开**”。 
  
-   ![“Office 365 组”面板的屏幕截图，其中选项处于打开状态](media/authorize-guest-image3.png)
+   ![“Microsoft 365 组”面板的屏幕截图，其中选项处于打开状态](media/authorize-guest-image3.png)
 
-这些设置应用于租户级别，并控制 Office 365 组和 Teams 中的来宾体验。
+这些设置应用于租户级别，并控制 Microsoft 365 组和 Teams 中的来宾体验。
 
-要详细了解组中的来宾访问功能，例如来宾访问功能如何工作、如何管理来宾访问以及常见问题的解答，请参阅 [Office 365 组的来宾访问](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
+要详细了解组中的来宾访问功能，例如来宾访问功能如何工作、如何管理来宾访问以及常见问题的解答，请参阅 [Microsoft 365 组的来宾访问](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>控制对 SharePoint Online 和 OneDrive for Business 的来宾访问
 
@@ -116,11 +116,11 @@ Teams 依赖 SharePoint Online 和 OneDrive for Business 存储频道和聊天�
 
     有关详细信息，请参阅[打开或关闭外部共享](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off)。
 
-- 在 Office 365 组中：启用**允许组所有者将组织外部的人员添加到组**
+- 在 Microsoft 365 组中：启用**允许组所有者将组织外部的人员添加到组**
 
-    有关详细信息，请参阅上面的[控制 Office 365 组中的来宾访问](#control-guest-access-in-office-365-groups)。
+    有关详细信息，请参阅上面的[控制 Microsoft 365 组中的来宾访问](#control-guest-access-in-microsoft-365-groups)。
   
-这些设置应用于租户级别，并控制 SharePoint Online、OneDrive for Business、Office 365 组和 Teams 中的来宾体验。
+这些设置应用于租户级别，并控制 SharePoint Online、OneDrive for Business、Microsoft 365 组和 Teams 中的来宾体验。
 
 你可以管理与 Teams 连接的团队网站的 SharePoint Online 外部用户设置。 要了解详细信息，请参阅[管理 SharePoint 团队网站设置](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42)。
 
