@@ -19,20 +19,20 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams（公共预览版）帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053615"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780801"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams（公共预览版）为你提供 Microsoft Teams 推出的分步指导。 它将评估 Office 365 租户环境并确定更新或修改所需的最常用配置，帮助你成功推出 Teams。 然后，Advisor for Teams 会创建一个部署团队（在 Teams 中），你要推出的每个工作负载都有对应的频道。部署团队中的每个工作负载都有一个综合 Planner 计划，其中包括每个工作负载的所有推出任务。  使用此 Planner 计划将任务分配给负责推出的每个阶段的人员 - 包括项目经理、Teams 和 Office 365 管理员、支持人员以及你的采用和用户就绪性团队。 每个推出任务包含成功完成任务所需的所有指南和资源。
+Advisor for Teams（公共预览版）为你提供 Microsoft Teams 推出的分步指导。 它评估 Office 365 组织环境，并确定成功推出 Teams 前可能需要更新或修改的最常见配置。 然后，Advisor for Teams 会创建一个部署团队（在 Teams 中），你要推出的每个工作负载都有对应的频道。部署团队中的每个工作负载都有一个综合 Planner 计划，其中包括每个工作负载的所有推出任务。  使用此 Planner 计划将任务分配给负责推出的每个阶段的人员 - 包括项目经理、Teams 和 Office 365 管理员、支持人员以及你的采用和用户就绪性团队。 每个推出任务包含成功完成任务所需的所有指南和资源。
 
-Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的一部分。 至少需要 Office 365 商业协作版许可证，才能利用 Teams 顾问与 Forms 和 Planner 的集成。 若要开始使用 Teams 顾问，请在仪表板上的“**部署 Teams 工作负载**”小组件中单击“**启动**”按钮。 或者转到“**计划**” > “**Teams 顾问**”。
+Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的一部分。 至少必须有 Microsoft 365 商业基础版许可证，才能利用 Teams 顾问与 Forms 和 Planner 的集成。 若要开始使用 Teams 顾问，请在仪表板上的“**部署 Teams 工作负载**”小组件中单击“**启动**”按钮。 或者转到“**计划**” > “**Teams 顾问**”。
 
 > [!IMPORTANT]
 > Advisor for Teams 不适用于 Microsoft 365 政府版 - GCC High 或 DoD 部署。
@@ -96,8 +96,8 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 
 |评估测试  |提供的信息  |
 |---------|---------|
-|已配置 Office 365 组命名策略     |是否已为 Office 365 组配置命名标准。 Office 365 组命名策略使你的组织能够对用户创建的团队应用一致的命名策略，并且也适用于其他组工作负载（包括 Outlook、SharePoint、Planner 和 Yammer）。 此测试通过 Microsoft Graph 查询 Azure AD，检查是否存在适用于 Office 365 组的命名策略。 有关详细信息，请阅读 [Office 365 组命名策略](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
-|已配置 Office 365 组过期策略     |是否已为 Office 365 组定义组过期策略。 这可让你的组织自动删除非活动状态的团队。 默认情况下处于禁用状态。 此测试通过 Microsoft Graph 查询 Azure AD，并报告是否已在默认值的基础上修改该值。 有关详细信息，请阅读 [Office 365 组过期策略](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
+|已配置 Office 365 组命名策略     |是否已为 Microsoft 365 组配置命名标准。 使用 Microsoft 365 组命名策略，组织可以对用户创建的团队应用一致的命名策略，并也能对其他组工作负载（包括 Outlook、SharePoint、Planner 和 Yammer）应用。 此测试通过 Microsoft Graph 查询 Azure AD，以检查是否有应用于 Microsoft 365 组的命名策略。 有关详细信息，请阅读 [Office 365 组命名策略](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
+|已配置 Office 365 组过期策略     |是否已为 Microsoft 365 组定义组过期策略。 这可让你的组织自动删除非活动状态的团队。 默认情况下处于禁用状态。 此测试通过 Microsoft Graph 查询 Azure AD，并报告是否已在默认值的基础上修改该值。 有关详细信息，请阅读 [Office 365 组过期策略](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>有关会话和会议的评估
 
@@ -131,7 +131,7 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Advisor for Teams 的许可要求是什么？
-至少需要 Office 365 商业协作版，才能利用 Teams 顾问与 Forms 和 Planner 的集成。
+至少必须有 Microsoft 365 商业基础版，才能利用 Teams 顾问与 Forms 和 Planner 的集成。
 
 ### <a name="can-i-delete-the-deployment-team"></a>我是否可以删除部署团队？
 在 Advisor for Teams 创建部署团队后，可以像管理任何其他团队那样管理该团队，包括可以删除该团队。 请注意，如果不使用 Teams 管理中心删除该团队，Teams 管理中心将显示该团队仍然存在。 这种情况是暂时的；当 Advisor for Teams 脱离公共预览版并公开发布时，将得到修复。
