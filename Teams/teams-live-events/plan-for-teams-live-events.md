@@ -10,28 +10,32 @@ audience: admin
 ms.reviewer: sonua
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 description: 了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505619"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752359"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
-计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置所有操作之前，需要考虑几个因素。 
+计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置所有操作之前，需要考虑几个因素。
 
-## <a name="who-can-create-and-schedule-live-events"></a>谁可以创建和安排实时事件？ 
+## <a name="who-can-attend-create-and-schedule-live-events"></a>谁可以参加、创建和计划实时事件
+
+任何人都可以在没有许可证的情况下参加实时事件。 请阅读[管理员快速入门 - 会议和实时事件](../quick-start-meetings-live-events.md)。
+
 若要安排 Teams 实时事件，用户必须满足以下前提条件。
 
 下面是必须分配的许可证：  
+
 - Office 365 企业版 E1、E3 或 E5 许可证，或 Office 365 A3 或 A5 许可证
 - Microsoft Teams 许可证
 - Microsoft Stream 许可证
@@ -50,6 +54,7 @@ ms.locfileid: "43505619"
 有关许可的详细信息，请参阅 [Microsoft Teams 附加许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 用户必须：
+
 - Teams 中已启用私人会议安排（*TeamsMeetingPolicy -AllowPrivateMeetingScheduling 参数 = True*）。
 - Teams 会议中已启用视频共享（*TeamsMeetingPolicy -AllowIPVideo 参数 = True*）。
 - Teams 会议中启用屏幕共享（*TeamsMeetingPolicy -ScreenSharingMode parameter = EntireScreen*）。
@@ -58,23 +63,23 @@ ms.locfileid: "43505619"
 - 配置了共存模式，以能够安排 Teams 会议（*并行、会议优先或仅 Teams*）。
 
 > [!IMPORTANT]
-> 未经身份验证的匿名用户不能被邀请为 Teams 实时 事件中的“制作者”或“演示者”。 
- 
-## <a name="who-can-watch-live-events"></a>谁可以观看实时事件？
+> 未经身份验证的匿名用户不能被邀请为 Teams 实时 事件中的“制作者”或“演示者”。
+
+## <a name="who-can-watch-live-events"></a>谁可以观看实时事件
 
 |**参加者可见性**       |**Teams 制作**  |**外部应用或设备制作**  |
 |------------------------------|-----------------|----------------------|
 |公共（匿名用户）      |  是            |  否                  |
 |来宾用户                   |  是            |  否                  |
-|联盟公司中的所有人 |  是<sup>1</sup>|  否                  |
+|外部访问（联盟）公司中的任何人 |  是<sup>1</sup>|  否                  |
 |公司中的所有人           |  是            |  是                 |
 |指定组/人员      |  是            |  是                 |
 
-<sup>1</sup> 联盟与会者只能通过“人员和组”邀请。 <br>
- 
+<sup>1</sup>只能通过“人员和组”邀请外部访问（联盟）与会者。 <br>
+
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 实时事件和Skype 会议直播
 
-下表突出显示了实时事件中提供的核心功能以及区别 Skype 会议直播的方式。 
+下表突出显示了实时事件中提供的核心功能以及区别 Skype 会议直播的方式。
 
 |**功能**   |**Skype 会议直播** |**在 Teams 中制作的事件** |**使用外部应用或设备制作的事件** |
 |---------|---------|---------|---------|
@@ -91,7 +96,7 @@ ms.locfileid: "43505619"
 |允许多个演示者 |&#x2714; (Skype for Business) |&#x2714; (Teams) |不适用  |
 |会议期间邀请演示者 |&#x2714; (Skype for Business) |&#x274C; |不适用 |
 |演示者通过 Web 和移动设备加入 |&#x2714; (Skype for Business)  |&#x274C; |不适用 |
-|联合和来宾演示者/参与者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |不适用 |
+|外部访问（联盟）和来宾演示者/与会者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |不适用 |
 |演示者 – PSTN 接入 |&#x274C; |&#x2714; (Teams) |不适用 |
 |演示屏幕 |&#x274C; |&#x2714; (Teams) |不适用 |
 |演示 PowerPoint （PPT 共享） |&#x2714; |&#x274C;（通过屏幕共享缓解） |不适用 |
@@ -107,27 +112,31 @@ ms.locfileid: "43505619"
 <sup>1</sup> 设定的限制可能会更改。 查看 [Teams 限制和规范](../limits-specifications-teams.md)。<br/>
 <sup>2</sup> 可在实时事件中拥有多达 250 位演示者和制作者，但列表中仅显示最后 10 位发言的人员。
 
-
 ## <a name="regional-availability"></a>区域可用性
-可在全球中的多个区域实用 Teams 实时事件。 以下信息显示事件团队成员和参与者的空闲时间。 
+
+可在全球中的多个区域实用 Teams 实时事件。 以下信息显示事件团队成员和参与者的空闲时间。
 
 > [!IMPORTANT]
 > 事件的地区根据组织者和 Office 365 组织者自动选择。
 
 **可在下列区域可用**
+
 - 美洲
 - 欧洲/非洲
 - 亚太地区
-- 转到本地 加拿大、印度、澳大利亚、日本、英国
+- 加拿大、印度、澳大利亚、日本、英国的数据位置
 
-**排除和注意事项**
-- **转到本地：** 除上述列出国家/地区，不支持 Teams 转到本地。
+**例外和注意事项**
+
+- **数据位置：** 暂不支持除以上所列国家/地区之外的其他任何 Teams 数据位置。
 - **中国：** 事件团队成员和参与者将无法使用 Teams 事件，因为 Azure CDN 在中国不可访问。 解决方法是使用公司 VPN 连接，后者通过客户的公司网络获取连接到 CDN 的客户端。
 
 ## <a name="next-steps"></a>后续步骤
+
 转到[设置 Teams 实时事件](set-up-for-teams-live-events.md)。
 
 ### <a name="related-topics"></a>相关主题
+
 - [什么是 Teams 实时事件？](what-are-teams-live-events.md)
 - [设置 Teams 实时事件](set-up-for-teams-live-events.md)
 - [配置 Teams 实时事件设置](configure-teams-live-events.md)

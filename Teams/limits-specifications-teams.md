@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: bdc38c7ad6f7a7eaef0fa0cfb2a9d48745b92bef
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209444"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749589"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -110,6 +110,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |------------|---------------|
 |会议中的人员数  | 250    |
 |PowerPoint 文件的最大大小 | 2GB|
+|Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
 
 ### <a name="meeting-expiration"></a>会议过期时间
 
