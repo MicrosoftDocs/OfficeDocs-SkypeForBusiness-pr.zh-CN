@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: 未获得 Microsoft Teams 许可的 Office 365 用户可以启动 Exploratory Teams 许可证。
+description: 未获得 Microsoft Teams 许可的 Microsoft 365 或 Office 365 用户可以启动 Exploratory Teams 许可证。
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4991945d47ecda85964068530118bcf3ef1f616a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4cc744b8cbe9942712857309f061b998957661b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749789"
+ms.locfileid: "43780381"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -54,7 +54,7 @@ ms.locfileid: "43749789"
 
 ## <a name="whos-eligible"></a>谁有资格使用？
 
-只要用户拥有托管 AAD 域电子邮件地址，且当前没有/尚未分配有 Teams 许可证，则有资格运行此体验。 例如，如果用户拥有 Office 365 商业版（不包括 Teams），则他们符合获取 Teams Exploratory 体验的条件。
+只要用户拥有托管 AAD 域电子邮件地址，且当前没有/尚未分配有 Teams 许可证，则有资格运行此体验。 例如，如果用户拥有 Microsoft 365 商业应用版（不包括 Teams），则他们符合获取 Teams Exploratory 体验的条件。
 
 必须允许用户注册应用和试用版（在 Microsoft 365 管理中心中）。 有关详细信息，请参阅本文后面部分的[管理 Teams Exploratory 体验](#manage-the-teams-exploratory-experience)。 
 
