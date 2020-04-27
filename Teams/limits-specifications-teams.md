@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc38c7ad6f7a7eaef0fa0cfb2a9d48745b92bef
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: a2e1073736ff927c34c56f3236d98e338384942d
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749589"
+ms.locfileid: "43785875"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -39,7 +39,7 @@ ms.locfileid: "43749589"
 |租户中允许的组织范围内的团队数 | 5     |
 |[组织范围内的团队](create-an-org-wide-team.md)中的成员数 | 5,000       |
 |全局管理员可创建的团队数        |  500,000   |
-|Office 365 租户可拥有的团队数    | 500,000&sup2;     |
+|Office 365 组织可拥有的团队数    | 500,000&sup2;     |
 |每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
 |各团队专用频道数    |30|
 |频道对话文章大小 | 每篇文章约 28 KB<sup>4</sup> |
@@ -63,6 +63,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |功能  | 最大限制  |
 |---------|---------|
 |私人聊天中的人员数<sup>1</sup>  | 100    |
+|通过视频或音频通话聊天的人员数 | 20 |
 |文件附件数<sup>2</sup>  |10     |
 |聊天大小 | 每篇文章约 28 KB<sup>3</sup> |
 
@@ -109,6 +110,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |功能     | 最大限制 |
 |------------|---------------|
 |会议中的人员数  | 250    |
+|通过视频或音频通话聊天的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
 
@@ -128,7 +130,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |------------|---------------|
 |受众规模 | 10,000 名与会者 |
 |事件持续时间 | 4 小时 |
-|Office 365 租户中的并发实时事件数 | 15 |
+|Office 365 组织中的并发实时事件数 | 15 |
 
 要详细了解实时事件以及 Teams 实时事件与 Skype 会议直播之间的比较情况，请转到 [Teams 实时事件和 Skype 会议直播](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)。
 
@@ -146,7 +148,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 
 由于 Teams 运行在 SharePoint Online 后端上来实现文件共享，因此 SharePoint 限制适用于团队中的“文件”部分。 下面是一些适用于 SharePoint Online 的存储限制。
 
-|功能                 |Office 365 商业协作版  | Office 365 商业高级版   |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
+|功能                 |Microsoft 365 商业基础版  |Microsoft 365 商业标准版   |Office 365 企业版 E1  |Office 365 企业版 E3  |Office 365 企业版 E5  |Office 365 企业版 F1  |
 |------------------------|---------|---------|---------|---------|---------|---------|
 |存储空间                 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。   |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 空间           |
 |Teams 文件存储空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |
