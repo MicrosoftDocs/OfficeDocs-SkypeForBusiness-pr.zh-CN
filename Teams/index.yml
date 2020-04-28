@@ -4,7 +4,7 @@ summary: 了解如何向团队推出和管理团队和为团队准备用户
 brand: teams
 metadata:
   title: Microsoft 团队管理员文档
-  description: 了解如何向团队推出和管理团队和为团队准备用户
+  description: 了解有关 Microsoft 团队管理文档的信息，包括如何向团队推出和管理团队和为团队准备用户。
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -12,12 +12,13 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
-  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/02/2020
-  ms.locfileid: "43117530"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43905474"
 highlightedContent:
   items:
   - title: COVID-19 response-支持使用团队的远程工作者
