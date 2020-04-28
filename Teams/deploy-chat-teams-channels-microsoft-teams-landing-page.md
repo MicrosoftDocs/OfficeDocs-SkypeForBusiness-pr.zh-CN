@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 在 Microsoft Teams 中部署聊天、团队、频道和应用的分步指导
+description: 根据组织的配置文件和业务要求在 Microsoft Teams 中部署聊天、团队、频道和应用的分步指导。
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,13 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776567"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901937"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
