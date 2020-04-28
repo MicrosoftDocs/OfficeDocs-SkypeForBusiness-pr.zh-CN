@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: '了解你应该了解的 PIN 相关信息以及如何在 Microsoft Teams 中重置 PIN。 '
-ms.openlocfilehash: 92f0fcf0b5a5e8afe0615b54b08f0fa407c4a969
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 了解如何在 Microsoft 团队中重置用户的音频会议 PIN，了解有关 Pin 的重要事实。
+ms.openlocfilehash: 451031698294fc49acee4a51efa0203cd3eb898d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838222"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905484"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>在 Microsoft Teams 中重置音频会议 PIN
 
@@ -36,7 +37,7 @@ PIN 是指为启用了音频会议的每个 Microsoft Teams 用户创建的由�
 
 ## <a name="reset-a-users-pin"></a>重置用户的 PIN
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
 

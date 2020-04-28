@@ -1,5 +1,5 @@
 ---
-title: 配置 Microsoft 团队聊天室控制台
+title: 配置 Microsoft Teams 会议室控制台
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Travis-Snoozy
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: 本文介绍如何设置 Microsoft 团队聊天室控制台及其外围设备。
-ms.openlocfilehash: c91c570cd83cc07f1f15823623f2b02a2ebcddf4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 本文介绍如何设置和配置 Microsoft 团队聊天室控制台及其外围设备。
+ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826090"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905444"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>配置 Microsoft 团队聊天室控制台
+# <a name="configure-a-microsoft-teams-rooms-console"></a>配置 Microsoft Teams 会议室控制台
 
 本文介绍如何设置 Microsoft 团队聊天室控制台及其外围设备。
   
@@ -101,7 +101,7 @@ CreateSrsMedia 脚本自动执行以下任务：
 
 ### <a name="selecting-a-language"></a>选择语言 
 
-在创建者的更新中，你需要使用 ApplyCurrentRegionAndLanguage 脚本，其中隐式语言选择不向用户提供所需的实际应用程序语言（例如，他们希望控制台应用使用法语，但它将以英语提供。
+在创建者的更新中，你需要使用 ApplyCurrentRegionAndLanguage 脚本，在此方案中，隐式语言选择不向用户提供所需的实际应用程序语言（例如，他们希望控制台应用使用法语，但它将采用英语）。
   
 > [!NOTE]
 > 以下说明仅适用于使用 Windows 创建者更新创建的控制台。 未使用新预配系统的媒体设置的旧/市场系统将无法使用这些说明，但也不会受到需要此手动干预的初始问题（周年纪念版本允许你在设置过程中显式选择应用语言）。
@@ -260,10 +260,10 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 ## <a name="see-also"></a>另请参阅
 <a name="Checklist"> </a>
 
-[规划 Microsoft 团队聊天室](rooms-plan.md)
+[Microsoft Teams 会议室规划](rooms-plan.md)
   
-[部署 Microsoft 团队聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 会议室](rooms-deploy.md)
   
-[配置 Microsoft 团队聊天室控制台](console.md)
+[配置 Microsoft Teams 会议室控制台](console.md)
   
 [管理 Microsoft Teams 会议室](rooms-manage.md)

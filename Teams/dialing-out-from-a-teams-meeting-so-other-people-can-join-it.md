@@ -20,14 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
-description: 了解你需要的信息以及会议组织者如何使用 Teams 向其他人拨出。
-ms.openlocfilehash: fbba74f7d8cd25da4a96237dfc551463681eef20
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: 会议组织者可以了解如何使用 "团队" 应用拨出，让其他人可以使用他们的电话加入同一会议。
+ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137362"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901957"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 

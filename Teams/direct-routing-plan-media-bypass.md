@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 阅读本主题，了解如何使用手机系统直接路由规划媒体旁路。
-ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+description: 了解如何使用手机系统直接路由规划媒体旁路，这使你能够缩短媒体流量的路径并提高性能。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265637"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901837"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -78,7 +79,7 @@ ms.locfileid: "42265637"
 
 如果用户无权访问 SBC 的公共 IP 地址，则以下描述调用流。 
 
-例如，假设用户是外部用户，并且租户管理员决定不将 SBC 的公共 IP 地址打开到 Internet 中的所有人，但仅限于 Microsoft Cloud。 流量的内部组件可以通过团队传输中继流出。 这是为企业网络外部的用户推荐的配置。 请考虑以下事项：
+例如，假设用户是外部用户，并且租户管理员决定不将 SBC 的公共 IP 地址打开到 Internet 中的所有人，但仅限于 Microsoft Cloud。 流量的内部组件可以通过团队传输中继流出。 这是为企业网络外部的用户推荐的配置。 比如以下几种情况：
 
 - 使用团队传输中继。
 
@@ -319,7 +320,7 @@ UDP/SRTP | 媒体处理器 | SBC | 49 152-53 247    | 在 SBC 上定义 |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>为媒体绕过和非媒体旁路配置单独的中继  
 
-如果从非媒体旁路迁移到 "媒体绕过" 并希望在将所有使用迁移到媒体绕过之前确认功能，则可以创建单独的主干和单独的联机语音路由策略以路由到媒体旁路主干并分配到特定那些. 
+如果从非媒体旁路迁移到 "媒体绕过" 并希望在将所有使用迁移到媒体绕过之前确认功能，则可以创建单独的主干和单独的联机语音路由策略以路由到媒体绕过主干并分配给特定用户。 
 
 高级别配置步骤：
 

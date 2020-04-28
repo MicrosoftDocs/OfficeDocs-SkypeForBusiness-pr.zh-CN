@@ -11,20 +11,20 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 有关在 Microsoft 团队中配置呼叫计划的快速入门指南。
+description: 在 Microsoft 团队中配置呼叫计划的快速入门指南，以便你可以获取和运行一组用户。
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137772"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902877"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================

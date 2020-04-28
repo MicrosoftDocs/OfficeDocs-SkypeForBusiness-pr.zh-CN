@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 了解加载项许可证、功能以及如何为适用于企业的 Microsoft 365 应用购买。
-ms.openlocfilehash: e80ccd6a32b9eec9a0ba8973d11acaea7abc3ffc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 了解加载项许可证、其特定功能以及如何为适用于企业的 Microsoft 365 应用购买这些许可证。
+ms.openlocfilehash: b8183276354c41a9f75336b0e4a4e371cc8e55df
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779931"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904694"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>适用于企业的 Microsoft 365 应用
 

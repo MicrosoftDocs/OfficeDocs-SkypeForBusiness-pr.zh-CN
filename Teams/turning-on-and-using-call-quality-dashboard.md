@@ -22,13 +22,14 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: '了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。 '
-ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。
+ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788969"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914036"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -409,11 +410,11 @@ CQD 使用终结点数据文件。 在调用记录的第一个客户端终结点
 
 如果你为 Skype for Business 将报表或已上载的租户数据（映射）文件创建https://cqd.lync.com)到 CQD （并希望将它们迁移到团队https://cqd.teams.microsoft.com)的 CQD （），请执行以下操作：
 
-1.  转到[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)并浏览到要导出的报表集。 
-2.  将鼠标悬停在报表上，然后在 "..."菜单上，选择 "**导出报表树**"。 保存导出文件。
-3.  转到[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)并浏览到要导入报表的位置。
-4.  从左侧的链接中，单击 "**导入**"，然后选择导出的文件。 
-5.  导入报告后，您将看到以下消息： "报告导入成功。 新报表已添加到报表集末尾。 " 
+1.    转到[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)并浏览到要导出的报表集。 
+2.    将鼠标悬停在报表上，然后在 "..."菜单上，选择 "**导出报表树**"。 保存导出文件。
+3.    转到[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)并浏览到要导入报表的位置。
+4.    从左侧的链接中，单击 "**导入**"，然后选择导出的文件。 
+5.    导入报告后，您将看到以下消息： "报告导入成功。 新报表已添加到报表集末尾。 " 
 
 
 ## <a name="create-custom-detailed-reports"></a>创建自定义详细报告

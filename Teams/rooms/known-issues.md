@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 本文按功能区域介绍 Microsoft Teams 会议室的已知问题。
-ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+description: 管理员可以了解 Microsoft 团队聊天室的已知问题列表，包括更新、用户界面、硬件、限制和预期行为。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d8f7dcd6453458885a35bdcf7b39e729cc776f5a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102373"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905414"
 ---
 # <a name="known-issues"></a>已知问题 
  

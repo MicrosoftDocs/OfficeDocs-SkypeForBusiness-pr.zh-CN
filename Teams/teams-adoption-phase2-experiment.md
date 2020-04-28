@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何开展团队采纳的实验阶段。
+description: 在本文中，你将了解如何执行 Microsoft 团队采纳的实验阶段。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26b012fceb1fa888389417b85cb4a08ed3f16a3a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 818189b1ed676c8936ac602022376863e0f13a03
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837762"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905654"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams 采用第 2 阶段 - 试验
 

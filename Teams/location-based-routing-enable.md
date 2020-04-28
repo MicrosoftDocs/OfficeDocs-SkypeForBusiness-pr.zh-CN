@@ -8,7 +8,7 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 了解如何为直接路由启用基于位置的路由。
+description: 了解如何为直接路由启用基于位置的路由，包括为用户、网络站点、网关配置和呼叫策略启用它。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -16,12 +16,13 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 734a2354e81dc88430e8f880c46b0f97862158b5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 56ea3f8b27a582a9cea282244a03be692d0781be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836552"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905774"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>为直接路由启用基于位置的路由
 
@@ -119,8 +120,8 @@ ms.locfileid: "41836552"
 
     在此示例中，我们为与新德里和 Hyderabad 网站中的 PSTN 网关相关联的每个网关启用基于位置的路由。 
     ```PowerShell
-    Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID “Delhi”
-    Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID “Hyderabad” 
+    Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
+    Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
     不要为不将调用路由到 PSTN 的网关启用基于位置的路由。 但是，您仍然必须将网关与系统所在的网络站点相关联。 这是因为基于位置的路由限制需要强制实施 PSTN 呼叫，从而达到通过此网关连接的终结点。 在此示例中，没有为与新德里和 Hyderabad 网站中的 PBX 系统相关联的每个网关启用基于位置的路由。
 
@@ -159,7 +160,7 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 在此示例中，我们将阻止 PSTN 免绕过 User1's 呼叫策略。 
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
 ## <a name="related-topics"></a>相关主题

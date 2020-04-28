@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849d54b5bbdab228d4d91329894da3cdf993017b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706602"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902267"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
 
@@ -156,7 +156,7 @@ ms.locfileid: "42706602"
 | 专业人士     |       各有利弊 |
 | :------------------ | :---------------- |
 | 最终用户的可预测路由。 根据管理员选择，所有通话和聊天均可在 Skype for business 或团队（但不是两者）中进行。|互操作对话缺少对格式文本、文件共享和屏幕共享的支持。 这可以通过利用 "立即开会" 功能启动会议。 |
-|由于给定的功能仅在一个客户端中可用，因此可能会降低最终用户的混乱。 | 对于在 Skype for Business 中执行的常见活动（如聊天和在升级到 TeamsOnly 之前的通话），用户无权访问团队。|
+|由于给定的功能仅在一个客户端中可用，因此可能会降低最终用户的混乱。 | 对于在 Skype for Business 中执行的常见活动（如聊天和呼叫提前升级到 TeamsOnly），用户无法访问团队。|
 |管理员在从 Skype for Business 切换到团队时，对用户可用的一组功能进行了更多的控制。 | |
 | 允许组织在会议中使用团队，即使尚未准备好移动到 TeamsOnly 模式。||
 |由其他人查看的指定用户的状态是相同的，无论他们使用哪种客户端。||

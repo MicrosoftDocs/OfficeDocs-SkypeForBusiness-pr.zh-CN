@@ -7,22 +7,22 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 管理员可以使用 Teams MSI 批量部署 Microsoft Teams 来选择用户或计算机。
+description: 使用 Microsoft 终结点配置管理器批量部署 Microsoft 团队以选择用户或计算机。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9e27199d953eb04c20a10765020b179ff303c5e8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6f4d29790994ba155984077ea9046fc6cf097302
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777827"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902807"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 

@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 了解如何创建和管理呼叫拨号计划（PSTN 呼叫拨号计划）以及如何管理它们。
-ms.openlocfilehash: 9c72745e6dee12ffbac4d91df47df37c327aab33
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 了解如何使用 Microsoft 团队管理中心或 Windows PowerShell 创建和管理拨号计划（PSTN 呼叫拨号计划）。
+ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778258"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902017"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -212,7 +213,7 @@ Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 
 运行此操作以从具有 HostingProvider 的 sipfed.online.lync.com 的所有用户中删除任何分配的 TenantDialPlan。
 ```PowerShell
-Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
+Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
 
 运行这些脚本可为你的组织将名为 OPDP1 的本地拨号计划添加为租户拨号计划。 您需要先将本地拨号计划保存到 .xml 文件，然后使用它创建新的租户拨号计划。

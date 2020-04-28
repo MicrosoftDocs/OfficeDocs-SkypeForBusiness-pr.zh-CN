@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: 了解如何为 Microsoft 团队设置云呼叫队列的电话系统。
-ms.openlocfilehash: 0feee280526b432a14f0411ab4787e3b07ce2453
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 了解如何设置 Microsoft 团队的 "云呼叫" 队列的电话系统，这些团队提供问候语、举行音乐、呼叫重定向和其他功能。
+ms.openlocfilehash: d6a0095e0189c37a8002017fde590e05faf791fe
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788997"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914012"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 

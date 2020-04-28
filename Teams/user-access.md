@@ -13,17 +13,18 @@ f1.keywords:
 - CSH
 ms.reviewer: ritikag
 search.appverid: MET150
-description: 了解如何基于每个用户启用或禁用用户级别访问。
+description: 了解如何通过分配或删除 Microsoft 团队产品许可证，在每用户基础上启用或禁用用户级访问。
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f571dd461c6c783703159dfd6e9beb343612dd58
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 10485fd7f04cfae675ea38967389851d4d72be90
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779478"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903347"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================

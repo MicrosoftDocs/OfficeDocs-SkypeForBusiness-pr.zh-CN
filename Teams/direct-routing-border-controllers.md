@@ -16,14 +16,14 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Microsoft 合作伙伴与选定的 SBC 供应商认证其 SBC 可用于直接路由。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec7dacf18c27eb6aafbb29adc2ce618e9db07e68
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+description: 管理员可以了解哪些会话边界控制器（SBCs）已验证了直接路由。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 4d0a4f5846b120559b2fbaea97e191f1740ad4be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160038"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901827"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 

@@ -14,16 +14,18 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.policypackages.overview
+ms.custom:
+- ms.teamsadmincenter.policypackages.overview
+- seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用和管理 Microsoft 团队中的策略程序包。
-ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
+description: 了解如何在 Microsoft 团队中使用和管理策略程序包，以便在管理用户组策略时简化、简化和帮助提供一致性。
+ms.openlocfilehash: b69ce06d01af624ff73386531d7ef2b77bef3b4e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42942436"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914025"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
 
@@ -85,7 +87,7 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 
 #### <a name="assign-a-policy-package-to-one-user"></a>为一个用户分配策略包
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后单击 "用户"。
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 在用户的页面上，单击 "**策略**"，然后单击 "**策略程序包**" 旁边的 "**编辑**"。
 3. 在 "**分配策略包**" 窗格中，选择要分配的程序包，然后单击 "**保存**"。
 
@@ -93,7 +95,7 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**策略程序包**"，然后通过单击程序包名称左侧的 "选择要分配的策略包"。
 2. 单击 "**管理用户**"。
-3. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后单击 "**添加**"。 对要添加的每个用户重复此步骤。
+3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
 4. 添加完用户后，单击 "**保存**"。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自定义策略包中的策略

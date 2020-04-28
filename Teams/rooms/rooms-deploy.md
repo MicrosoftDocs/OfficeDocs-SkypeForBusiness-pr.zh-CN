@@ -1,5 +1,5 @@
 ---
-title: 部署 Microsoft 团队聊天室
+title: 部署 Microsoft Teams 会议室
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: 阅读本文以了解如何部署 Microsoft 团队聊天室。
-ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: 阅读本文以了解如何部署 Microsoft 团队聊天室，包括部署阶段。
+ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863343"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905404"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -63,7 +63,7 @@ AV techs 可用于最后一项任务，但你所在组织的 IT 部门将需要�
 
 根据你使用 Microsoft 团队聊天室部署确定要启用的协作方案，你需要确定分配给你启用的每个 Microsoft 团队聊天室服务帐户的功能和功能。
 
-| **应用场景** | **说明** | **Microsoft 团队聊天室服务帐户功能** |
+| **使用场景** | **说明** | **Microsoft 团队聊天室服务帐户功能** |
 |---------- |------------- | --- |
 | 交互式会议            | 使用语音、视频和屏幕共享;使 Microsoft 团队聊天室成为 bookable 资源                     | 已启用 Skype for Business，支持 Exchange （资源邮箱） |
 | 电话拨入式会议            | 使用电话拨入式会议坐标*直接*从 Microsoft 团队聊天室控制台开始会议 | 已启用音频会议                                          |
@@ -131,14 +131,14 @@ _Microsoft 团队聊天室服务帐户规划表示例_
 
 当规划部署 Microsoft 团队聊天室时，您有许多选项可考虑安装所需的软件。 下表介绍了常见的方案和方法。 
 
-| **应用场景**            | **实现**         |
+| **使用场景**            | **实现**         |
 |-------------------------|-----------------------|   
 |部署少量 Microsoft 团队聊天室设备（<10）。 | 如果使用基于 Surface Pro 的 Microsoft 团队会议室，请遵循针对[每台设备安装的安装说明](console.md)。 [此方便的视频可引导你完成此过程。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 如果使用集成的解决方案，请使用供应商映像部署，并根据需要配置设置。 |
 | 从单个供应商的10和50设备之间进行部署。     | 创建基于 WIM 的映像，[在指南中的步骤 6](console.md)之后暂停，并捕获要与你的克隆分发技术一起使用的分发映像。    |
 | 部署50多个 Microsoft 团队聊天室设备，从多个供应商处部署设备，或者要求组织特定的代理作为部署的一部分。 | 使用基于任务排序器的软件内部版本和分发平台，如[Microsoft 终结点配置管理器](rooms-scale.md)。  |
 
 
-**Pro 提示**-每个 Microsoft 团队聊天室必须在您的网络上拥有一个有效且唯一的计算机名称。 许多监视和警报系统将计算机名称显示为密钥标识符，因此为 Microsoft 团队聊天室部署开发命名约定非常重要，这使支持人员能够轻松找到已标记的 Microsoft 团队聊天室为需要操作。 示例可能使用了*MTR*-的模式 *（MTR* -CURIE）。 
+**Pro 提示**-每个 Microsoft 团队聊天室必须在您的网络上拥有一个有效且唯一的计算机名称。 许多监视和警报系统将计算机名称显示为密钥标识符，因此开发 Microsoft 团队会议室部署的命名约定非常重要，这使支持人员能够轻松找到已标记为需要操作的 Microsoft 团队聊天室。 示例可能使用了*MTR*-的模式 *（MTR* -CURIE）。 
 
 作为部署的一部分，你还需要考虑管理和配置由 Microsoft 团队聊天室应用程序安装程序创建的[本地帐户](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)的策略。
 
@@ -171,7 +171,7 @@ _示例部署表_
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft 团队聊天室应用程序和外围设备配置 
 
-在每个 Microsoft 团队会议室系统均已进行物理部署且支持的外围设备连接后，你需要配置 Microsoft 团队聊天室应用程序，以分配以前创建的 Microsoft 团队聊天室资源帐户和密码，以使 Microsoft 团队聊天室系统可以登录到 Microsoft 团队或 Skype for business 和 Exchange。 利用在文档中其他位置链接的认证 USB 音频和视频设备的关键。 不要这样做可能会导致不可预测的行为。 
+在每个 Microsoft 团队会议室系统均已进行物理部署且支持的外围设备已连接后，你需要配置 Microsoft 团队聊天室应用程序以分配之前创建的 Microsoft 团队聊天室资源帐户和密码，以使 Microsoft 团队聊天室系统能够登录到 Microsoft 团队或 Skype for business 和 Exchange。 利用在文档中其他位置链接的认证 USB 音频和视频设备的关键。 不要这样做可能会导致不可预测的行为。 
 
 你可以手动配置每个 Microsoft 团队聊天室系统。 或者，你可以使用集中存储的每个-Microsoft 团队聊天室 XML 配置文件来管理应用程序设置，并利用启动 GPO 脚本重新应用所需的配置，每次 Microsoft 团队聊天室系统启动。 
 

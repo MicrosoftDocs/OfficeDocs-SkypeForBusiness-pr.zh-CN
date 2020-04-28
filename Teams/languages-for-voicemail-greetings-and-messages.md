@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '了解在 Skype for Business 中可以为默认系统消息设置哪些语言。 '
-ms.openlocfilehash: 78d3c53782e83ae191983bd8d7af2f1f5072f1df
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 了解您可以在默认系统消息和语音邮件问候语的 Skype for Business 中设置哪些语言。
+ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836582"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904517"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>语音邮件问候语和消息的语言
 
@@ -39,13 +40,13 @@ ms.locfileid: "41836582"
 |**语言** <br/> |**国家/地区** <br/> |**语言代码** <br/> |**是否可供用户在电子邮件中查看？** <br/> |**当用户呼入时是否可用？** <br/> |**转录是否可用？** <br/> |
 |阿拉伯语 <br/> |埃及  <br/> |ar-例如  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |加泰罗尼亚语  <br/> |加泰罗尼亚语  <br/> |ca-ES  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|简体中文  <br/> |中国  <br/> |zh-hans  <br/> |必需  <br/> |是  <br/> |是  <br/> |
+|简体中文  <br/> |中国  <br/> |zh-hans  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |中文（香港）  <br/> |中国  <br/> |zh-hk  <br/> |是，但使用繁体中文 (zh-hant)。  <br/> | 是 <br/> |是，但使用繁体中文 (zh-hant)。  <br/> |
 |繁体中文  <br/> |台湾  <br/> |zh-hant  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |克罗地亚语<br/> |克罗地亚  <br/> |hr-HR  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|捷克语 <br/> |捷克共和国  <br/> |cs-CZ  <br/> |必需  <br/> |是  <br/> |否  <br/> |
-|丹麦语  <br/> |丹麦  <br/> |da-DK  <br/> |必需  <br/> |是  <br/> |否  <br/> |
-|荷兰语  <br/> |荷兰  <br/> |nl-NL  <br/> |必需  <br/> |是  <br/> |否  <br/> |
+|捷克语 <br/> |捷克共和国  <br/> |cs-CZ  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|丹麦语  <br/> |丹麦  <br/> |da-DK  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|荷兰语  <br/> |荷兰  <br/> |nl-NL  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |英语  <br/> |澳大利亚  <br/> |en-AU  <br/> |是，但使用美国英语 (en-US)。  <br/> |是  <br/> |是，但使用美国英语 (en-US)。  <br/> |
 |英语  <br/> |加拿大  <br/> |en-CA  <br/> |是，但使用美国英语 (en-US)。  <br/> |是  <br/> |是，但使用美国英语 (en-US)。  <br/> |
 |英语  <br/> |印度  <br/> |en-IN  <br/> |是，但使用美国英语 (en-US)。  <br/> |是  <br/> |是，但使用美国英语 (en-US)。  <br/> |
@@ -57,7 +58,7 @@ ms.locfileid: "41836582"
 |德语  <br/> |德国  <br/> |de-DE  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |希腊语 <br/> |希腊  <br/> |el-GR  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |匈牙利语 <br/> |匈牙利  <br/> |hu-HU  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|印度尼西亚语 <br/> |印度尼西亚  <br/> |id-ID  <br/> |必需  <br/> |是  <br/> |否  <br/> |
+|印度尼西亚语 <br/> |印度尼西亚  <br/> |id-ID  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |意大利语  <br/> |意大利  <br/> |it-IT  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |日语  <br/> |日本  <br/> |ja-JP  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |韩语  <br/> |韩语  <br/> |ko-KR  <br/> |是  <br/> |是  <br/> |否  <br/> |

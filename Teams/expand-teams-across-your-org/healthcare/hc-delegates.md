@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: 用户可以在其状态消息中将另一用户显式设置为代理人。
-ms.openlocfilehash: e76181ff69f2d4e6ed75183bdb5fbdda695d05e4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: 了解 "离开" 状态或 "请勿打扰" 状态的用户可以在其状态消息中将另一用户显式设置为代理人。
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5fea05e8f316117ae711cc9f00da752c45959f2e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153804"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904734"
 ---
 # <a name="message-delegation"></a>消息委派
 
@@ -47,7 +48,7 @@ ms.locfileid: "42153804"
 |共存模式 | 预期行为|
 |---|---|
 |TeamsOnly |用户只能从团队设置笔记。 <br> 用户的团队备注在团队 & SfB 中可见。 |
-|群岛 | 仅在团队中可见的团队中的用户备注集。 <br> SfB 中的用户备注集仅在 SfB 中可见 |
+|孤岛 | 仅在团队中可见的团队中的用户备注集。 <br> SfB 中的用户备注集仅在 SfB 中可见 |
 |SfB * 模式 | 用户只能从 SfB 设置笔记。 <br> 用户的 SfB 备注在 SfB & 团队中可见。  |
 |||
 

@@ -1,5 +1,5 @@
 ---
-title: GOV、EDU 和非营利性组织
+title: 政府、教育机构和非营利性组织
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '了解有关 GOV、EDU 和非营利组织计划的加载项许可证和功能。 '
-ms.openlocfilehash: 49be4e27997278d1a0b2842ced2c540783b68163
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+- seo-marvel-apr2020
+description: 了解有关政府、教育和非盈利性组织计划的附加许可证和功能。
+ms.openlocfilehash: d16a6f0170acb90a54e24cbf7b24f2480fd4b51a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795965"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904537"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV、EDU 和非营利性组织
+# <a name="gov-edu-and-non-profit-organizations"></a>政府、教育机构和非营利性组织
 
 大多数团队功能可用于美国政府、教育和非盈利性组织。有关详细信息，请参阅下表。
 
@@ -51,4 +52,4 @@ ms.locfileid: "42795965"
 
 ## <a name="related-topics"></a>相关主题
 
-[Office 365 非赢利](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
+[Office 365 非营利组织版](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)

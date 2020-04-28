@@ -7,7 +7,8 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: rakayala
-description: 向管理员介绍了 Teams 中的用户状态。
+description: 了解团队中的状态状态以及状态功能的管理设置。
+ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab24c6ee27f3e99a30a18af82f0a26196a049528
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 6432bac9dbbfe65cf3e139ecae00b02cd5ae8651
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510771"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905764"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 

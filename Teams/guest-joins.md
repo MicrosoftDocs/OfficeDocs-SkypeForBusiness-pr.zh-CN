@@ -14,15 +14,16 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 简要介绍如何在 Microsoft Teams 中邀请来宾加入团队。
+description: 了解将组织外部的人员添加为 Microsoft 团队中的团队的来宾所需的步骤。
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491770bcd3c2f435bbd2ea18c366effea2c8124f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833172"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902547"
 ---
 <a name="how-a-guest-joins-a-team"></a>来宾加入团队的方式
 ========================
@@ -39,7 +40,7 @@ Microsoft Teams 中的团队所有者可以通过 Web 或桌面在其团队中�
 1. 来宾会收到一封来自团队所有者的欢迎电子邮件，其中内附团队信息及其现在作为成员应执行的操作。 
 1. 来宾接受邀请。
   其电子邮件地址属于 Azure Active Directory 或 Office 365 工作/学校帐户的来宾用户可直接接受邀请。 
-  如果来宾尚没有 Microsoft 帐户与其电子邮件地址关联，系统将进行定向，让其免费创建一个。 
+  如果来宾尚未有与他们的电子邮件地址关联的 Microsoft 帐户，他们将被定向到免费创建一个。 
 1. 接受邀请后，来宾可[参与团队和频道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)、接收和答复频道消息、[访问频道中的文件](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)，还能参与聊天、加入会议并协作处理文档等等。 
 
 在 Teams 中，可清楚地识别来宾。 来宾用户的姓名包含 **(来宾)** 标签，而频道中有一个图标来表示团队中存在来宾。 有关更多详细信息，请参阅[来宾体验介绍](guest-experience.md)。

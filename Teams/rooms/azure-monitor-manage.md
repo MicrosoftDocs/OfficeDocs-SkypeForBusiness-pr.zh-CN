@@ -14,13 +14,13 @@ ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
 description: 本文介绍如何使用 Azure 监视器以集成方式管理 Microsoft 团队聊天室设备。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8ddc76c43bf3aff42312f18ed35fc7aec9691edb
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 74c4ba537adeeeffbc7f3f3ca1cfba7481dff6fb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137584"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905454"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>通过 Azure 监视器管理 Microsoft 团队聊天室设备
 
@@ -44,7 +44,7 @@ ms.locfileid: "43137584"
 | 3001  <br> 错误事件  | 这是硬件错误事件。 Microsoft 团队聊天室应用具有一个过程，该过程检查连接的硬件组件（室内、麦克风、扬声器、摄像头）的运行状况是否每隔5分钟。 如果一个或多个组件运行不正常，它会将 EventID 3001 写入事件日志。 此事件每5分钟写入一次，直到修复设备问题。   | {"说明"： "**会议室的前面显示状态：** " 不正常 "。 Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. 相机状态： "完好"。 "，" ResourceState "：" 不正常 "，" 操作名称 "：" HardwareCheckEngine "，" OperationResult "：" 失败 "、" OS "：" Windows 10 "、" OSVersion "：" 10.0.14393.1198 "<span></span>、" "、" "、" DisplayName "：" Yosemite 会议室 "、" AppVersion "：" 2.0.58.0 "、" IPv4Address @contoso "：" 10.10.10.10 "、" IPv6Address "：" IPv6Address "，" IPv4Address2 "} <br><br>  外围硬件显示为正常或不正常。 <br> 在该示例中，在会议室前面配置了两个显示器，目前两个显示器均不可用。 会议麦克风状态不正常，这可能有几个可能的原因。 由于至少有一个资源未通过检查，因此 ResourceState 显示为不正常。 请派遣技术人员做进一步调查。 |
 | 4000  <br> 信息  <br> | 这是应用重启事件。 每次应用重启时，都会将此事件记录到 Windows 事件日志中。  <br> | {"说明"： "应用重启"，"ResourceState"： "完好"，"操作名称"： "重新启动"，"OperationResult"： "Pass"，"OS"： "10.0.14393.693"，""，"Alias"： "alias<span></span>@domain .com"，"DisplayName"： "显示名称"，"AppVersion"： "1.0.38.0"，"IPv4Address"： "10.10.10.10"，"IPv6Address"： "ip v6 地址"} <br><br> 由于各种原因，应用可能会重启。 比较同一建筑物和不同建筑物中的设备重启频率。 请牢记已知问题（如电源波动和故障），因为这可能会提供基础结构问题的线索。|
 
-## <a name="see-also"></a>另请参阅
+## <a name="related-topics"></a>相关主题
  
 
 [通过 Azure 监视器规划 Microsoft 团队聊天室管理](azure-monitor-plan.md)

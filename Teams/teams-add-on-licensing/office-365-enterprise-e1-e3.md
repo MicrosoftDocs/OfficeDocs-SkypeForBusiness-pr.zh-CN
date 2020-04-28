@@ -19,13 +19,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '了解加载项许可证、功能以及如何购买 Office 365 企业版 E1 和 E3 计划。 '
-ms.openlocfilehash: 0cc29a9cc353f9d0068aeb65b10179f4adfdc804
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 了解加载项许可证、其功能以及如何购买 Office 365 企业版 E1 和 E3 计划。
+ms.openlocfilehash: 7038342d704dc6af92dbdc9eaff0c7a6211926e1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780491"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904714"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 企业版（E1 和 E3）
 

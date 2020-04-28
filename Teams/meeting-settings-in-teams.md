@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
-ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: HT
+ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42413292"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898167"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -36,7 +36,6 @@ ms.locfileid: "42413292"
 
 通过匿名加入，任何人都可以通过单击会议邀请中的链接以匿名用户的身份加入会议。 要了解更多信息，请参阅[在没有 Teams 帐户的情况下加入会议](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
 
-
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到“**会议**” > “**会议设置**”。
@@ -44,7 +43,8 @@ ms.locfileid: "42413292"
 
     ![管理中心会议的参与者设置的屏幕截图](media/meeting-settings-participants.png "Microsoft Teams 管理中心 Teams 会议的参与者设置的屏幕截图")
 
-如果不希望匿名用户加入组织中由用户安排的会议，请关闭此设置。
+> [!CAUTION]
+> 如果不希望匿名用户加入组织中由用户安排的会议，请关闭此设置。
 
 ## <a name="customize-meeting-invitations"></a>自定义会议邀请
 
@@ -92,7 +92,7 @@ ms.locfileid: "42413292"
     ![管理中心会议的网络设置的屏幕截图](media/meeting-settings-network.png "Microsoft Teams 管理中心 Teams 会议的网络设置的屏幕截图")
 
     - 要允许对 QoS 使用 DSCP 标记，请打开**插入实时媒体流量的服务质量 (QoS) 标记**。 你只能选择是否使用标记；不能为每种流量类型设置自定义标记。 有关 DSCP 标记的更多信息，请参阅[选择 QoS 实施方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
-        > [!NOTE] 
+        > [!NOTE]
         > 打开**插入实时媒体流量的服务质量 (QoS) 标记**也将启用通过 UDP 端口 3479（音频）、3480（视频）和 3481（共享）与传输中继的流量。
     - 要指定端口范围，请在“**选择每种媒体实时流量的端口范围**”旁选择“**指定端口范围**”，然后输入音频、视频和屏幕共享的起始和结束端口。 要实施 QoS，必须选择此选项。
         > [!IMPORTANT]
@@ -102,7 +102,7 @@ ms.locfileid: "42413292"
 
 如果你不确定要在环境中使用的端口范围，不妨从以下设置开始。 要了解更多信息，请阅读[在 Microsoft Teams 中实施服务质量 (QoS)](QoS-in-Teams.md)。 以下是所需的 DSCP 标记和由 Teams 和 ExpressRoute 使用的建议相应媒体端口范围。
 
-_端口范围和 DSCP 标记_
+### <a name="port-ranges-and-dscp-markings"></a>端口范围和 DSCP 标记
 
 媒体流量类型| 客户端源端口范围\* |协议|DSCP 值|DSCP 类|
 |:---             |:---                         |:---    |:---      |:---      |

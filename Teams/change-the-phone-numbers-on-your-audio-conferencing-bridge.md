@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解将新服务电话号码分配给你的会议桥所需的步骤，以便为你的用户扩展覆盖范围。
-ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780351"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898147"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
@@ -67,7 +67,7 @@ ms.locfileid: "43780351"
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>步骤 3-更改用户的会议邀请中包含的默认电话号码（可选）
 
-在安排会议时，用户的默认电话号码是会议邀请中包含的电话号码。 有关详细信息（包括如何为新用户分配 defaul 电话号码），请参阅[设置 Microsoft 团队邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)，或[在 Skype for Business Online 中设置邀请中包含的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
+在安排会议时，用户的默认电话号码是会议邀请中包含的电话号码。 有关详细信息，包括为新用户分配默认电话号码的方式，请参阅[设置 Microsoft 团队邀请中包含的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)，或[在 Skype for Business Online 中设置邀请中包含的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
   
 1. 使用你的工作或学校帐户登录。
 
@@ -83,7 +83,7 @@ ms.locfileid: "43780351"
 
 对于接下来的两个步骤，你将需要启动 Windows PowerShell。
   
-如果已更新某些或所有用户的会议邀请中 inlcuded 的默认电话号码，则可以选择更新已发送给组织中的用户的会议邀请，并使用会议迁移服务更改其默认电话号码。 有关更多信息，请参阅[设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+如果你更新了某些或所有用户的会议邀请中包含的默认电话号码，你可以选择更新已发送给组织中的用户的会议邀请，并使用会议迁移服务更改其默认电话号码。 有关更多信息，请参阅[设置会议迁移服务 (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
   
 - 为在步骤2中更改了默认电话号码的用户运行会议迁移服务（MMS）。 要执行此操作，请运行以下命令：
 
@@ -139,7 +139,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 3. 如果电话号码是免费号码，请从列表中选择电话号码，然后在 "操作" 窗格中单击 "**取消分配**"。 如果电话号码是收费电话号码，请联系[Microsoft 支持](https://go.microsoft.com/fwlink/?linkid=2091806)部门，让电话号码未分配。
 
-4. 如果电话号码是收费 fre 号码，请在确认窗口中单击 **"是"** 。
+4. 如果电话号码是免费号码，请在确认窗口中单击 **"是"** 。
 
    > [!IMPORTANT]
    > 从音频会议桥中取消分配电话号码后，用户将不再可以使用该电话号码加入新的或现有会议。
@@ -223,9 +223,9 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 ## <a name="troubleshooting"></a>故障排除
 
-**"取消分配" 按钮呈灰显**
+**"取消分配" 按钮不可用**
 
-您想要取消分配某个号码，但该按钮在 hoovering 上时呈灰显状态，如果在上，您将被重定向到联系支持人员，并显示以下消息： _"默认或共享号码可以储存从桥中取消分配。要取消分配专用的收费电话，请联系支持部门。_"。
+您希望取消分配某个号码，但该按钮不可用，如果悬停在该按钮上，则会被重定向到联系支持人员，显示以下消息 _"默认或共享号码可以从桥中取消储存。要取消分配专用的收费电话，请联系支持部门。_"。
 
 若要获取有关桥的详细信息，请运行以下 Powershell：
 ```PowerShell
