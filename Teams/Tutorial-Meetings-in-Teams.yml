@@ -2,7 +2,8 @@
 title: Microsoft Teams 中的会议
 metadata:
   title: Microsoft Teams 中的会议
-  description: 交互式教程将为你提供有关 Microsoft Teams 中的会议的指导。
+  description: 使用此交互式教程了解 Microsoft 团队中的会议的类型、计划步骤和报告。
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -19,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: cbf9b344b9bded2ca98741a743b84a6b7481f95d
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 57fcdcb5fa4fc20f50e1c25e9797128dbcd7fdb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778498"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902377"
 items:
 - durationInMinutes: 1
   content: >

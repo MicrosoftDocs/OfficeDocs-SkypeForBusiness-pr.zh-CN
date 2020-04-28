@@ -1,10 +1,11 @@
 ---
 title: Microsoft Teams 管理培训
 ms.reviewer: ''
-description: 获取管理组织中的 Microsoft 团队所需的培训
+description: 获取管理组织中的 Microsoft 团队所需的管理员培训和支持。
 author: lanachin
 manager: serdars
 audience: admin
+ms.custom: seo-marvel-mar2020
 ms.date: 01/22/2018
 layout: LandingPage
 ms.assetid: ''
@@ -13,17 +14,16 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 0ceec432433170ebdccf890650f559258b02e2fd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 033f745b9414ac49d74c464da039406c660ab532
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140805"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904774"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams 管理培训
 

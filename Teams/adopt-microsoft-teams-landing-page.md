@@ -1,7 +1,7 @@
 ---
 title: 采用 Microsoft Teams
 ms.reviewer: karuanag
-description: 使用这些采纳资源可帮助你在组织中规划和部署 Microsoft 团队。
+description: 了解可用于帮助你在组织中规划和部署 Microsoft 团队的采纳资源。
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
@@ -12,6 +12,7 @@ audience: admin
 ms.service: msteams
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -20,12 +21,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ac8e69afaab1d9055bb2513704ec50cc8790592
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 5224fabff542051438bc523388b96ecf93f7af9a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506833"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905914"
 ---
 # <a name="adopt-microsoft-teams"></a>采用 Microsoft Teams
 

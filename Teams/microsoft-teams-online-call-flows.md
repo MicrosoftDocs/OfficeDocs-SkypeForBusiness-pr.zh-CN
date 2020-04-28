@@ -16,485 +16,486 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: 介绍团队如何使用各种拓扑中的 Office 365 流。
-ms.openlocfilehash: 409af0b815c87e6d8285c3cb9a1bd8a5d61fa98b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: 了解团队如何使用各种拓扑中的 Office 365 流以及用于对等媒体通信的独特团队流。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dd0a5155766ee86bdf03219cdfcbb50cc220177d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832822"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904984"
 ---
-# <a name="microsoft-teams-call-flows"></a><span data-ttu-id="a0080-103">Microsoft Teams 通话流程</span><span class="sxs-lookup"><span data-stu-id="a0080-103">Microsoft Teams call flows</span></span>
+# <a name="microsoft-teams-call-flows"></a><span data-ttu-id="65da9-103">Microsoft Teams 通话流程</span><span class="sxs-lookup"><span data-stu-id="65da9-103">Microsoft Teams call flows</span></span>
 
 > [!TIP]
-> <span data-ttu-id="a0080-104">观看此讲座，了解团队如何利用你的网络以及如何规划最佳网络连接：[团队网络规划](https://aka.ms/teams-networking)。</span><span class="sxs-lookup"><span data-stu-id="a0080-104">Watch this session to learn how Teams leverages your network and how to plan for optimal network connectivity: [Teams Network Planning](https://aka.ms/teams-networking).</span></span>
+> <span data-ttu-id="65da9-104">观看此讲座，了解团队如何利用你的网络以及如何规划最佳网络连接：[团队网络规划](https://aka.ms/teams-networking)。</span><span class="sxs-lookup"><span data-stu-id="65da9-104">Watch this session to learn how Teams leverages your network and how to plan for optimal network connectivity: [Teams Network Planning](https://aka.ms/teams-networking).</span></span>
 
-## <a name="overview"></a><span data-ttu-id="a0080-105">概述</span><span class="sxs-lookup"><span data-stu-id="a0080-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="65da9-105">概述</span><span class="sxs-lookup"><span data-stu-id="65da9-105">Overview</span></span>
 
-<span data-ttu-id="a0080-106">本文介绍团队如何使用各种拓扑中的 Office 365 调用流。</span><span class="sxs-lookup"><span data-stu-id="a0080-106">This article describes how Teams uses Office 365 call flows in various topologies.</span></span> <span data-ttu-id="a0080-107">此外，它还介绍了用于对等媒体通信的独特团队流。</span><span class="sxs-lookup"><span data-stu-id="a0080-107">In addition, it describes unique Teams flows that are used for peer-to-peer media communication.</span></span> <span data-ttu-id="a0080-108">文档介绍这些流、其用途以及它们在网络上的来源和终止。</span><span class="sxs-lookup"><span data-stu-id="a0080-108">The document describes these flows, their purpose, and their origin and termination on the network.</span></span> <span data-ttu-id="a0080-109">为此，请考虑以下事项：</span><span class="sxs-lookup"><span data-stu-id="a0080-109">For purposes of this article, assume the following:</span></span>
+<span data-ttu-id="65da9-106">本文介绍团队如何使用各种拓扑中的 Office 365 调用流。</span><span class="sxs-lookup"><span data-stu-id="65da9-106">This article describes how Teams uses Office 365 call flows in various topologies.</span></span> <span data-ttu-id="65da9-107">此外，它还介绍了用于对等媒体通信的独特团队流。</span><span class="sxs-lookup"><span data-stu-id="65da9-107">In addition, it describes unique Teams flows that are used for peer-to-peer media communication.</span></span> <span data-ttu-id="65da9-108">文档介绍这些流、其用途以及它们在网络上的来源和终止。</span><span class="sxs-lookup"><span data-stu-id="65da9-108">The document describes these flows, their purpose, and their origin and termination on the network.</span></span> <span data-ttu-id="65da9-109">为此，请考虑以下事项：</span><span class="sxs-lookup"><span data-stu-id="65da9-109">For purposes of this article, assume the following:</span></span>
 
-- <span data-ttu-id="a0080-110">流 X 由本地 Office 365 客户端用于与云中的 Office 365 服务通信。</span><span class="sxs-lookup"><span data-stu-id="a0080-110">Flow X is used by the on-premises Office 365 client to communicate with the Office 365 service in the cloud.</span></span> <span data-ttu-id="a0080-111">它源于客户网络，它在 Office 365 中作为终结点终止。</span><span class="sxs-lookup"><span data-stu-id="a0080-111">It originates from the customer network, and it terminates as an endpoint in Office 365.</span></span>
+- <span data-ttu-id="65da9-110">流 X 由本地 Office 365 客户端用于与云中的 Office 365 服务通信。</span><span class="sxs-lookup"><span data-stu-id="65da9-110">Flow X is used by the on-premises Office 365 client to communicate with the Office 365 service in the cloud.</span></span> <span data-ttu-id="65da9-111">它源于客户网络，它在 Office 365 中作为终结点终止。</span><span class="sxs-lookup"><span data-stu-id="65da9-111">It originates from the customer network, and it terminates as an endpoint in Office 365.</span></span>
 
-- <span data-ttu-id="a0080-112">流 Y 由本地 Office 365 客户端用于与 Office 365 有依赖关系的 Internet 上的服务进行通信。</span><span class="sxs-lookup"><span data-stu-id="a0080-112">Flow Y is used by the on-premises Office 365 client to communicate with a service on the Internet that Office 365 has a dependency on.</span></span> <span data-ttu-id="a0080-113">它源于客户网络，并作为 Internet 上的终结点终止。</span><span class="sxs-lookup"><span data-stu-id="a0080-113">It originates from the customer network, and it terminates as an endpoint on the Internet.</span></span>
+- <span data-ttu-id="65da9-112">流 Y 由本地 Office 365 客户端用于与 Office 365 有依赖关系的 Internet 上的服务进行通信。</span><span class="sxs-lookup"><span data-stu-id="65da9-112">Flow Y is used by the on-premises Office 365 client to communicate with a service on the Internet that Office 365 has a dependency on.</span></span> <span data-ttu-id="65da9-113">它源于客户网络，并作为 Internet 上的终结点终止。</span><span class="sxs-lookup"><span data-stu-id="65da9-113">It originates from the customer network, and it terminates as an endpoint on the Internet.</span></span>
 
-<span data-ttu-id="a0080-114">本文介绍以下信息：</span><span class="sxs-lookup"><span data-stu-id="a0080-114">This article covers the following information:</span></span>
+<span data-ttu-id="65da9-114">本文介绍以下信息：</span><span class="sxs-lookup"><span data-stu-id="65da9-114">This article covers the following information:</span></span>
 
-- <span data-ttu-id="a0080-115">**背景**。</span><span class="sxs-lookup"><span data-stu-id="a0080-115">**Background**.</span></span> <span data-ttu-id="a0080-116">提供背景信息，例如 Office 365 流程可能遍历的网络、流量类型、从客户网络到 Office 365 服务终结点的连接指南、与第三方组件的互操作性以及使用的原则按团队选择媒体流。</span><span class="sxs-lookup"><span data-stu-id="a0080-116">Provides background information such as networks that Office 365 flows may traverse, types of traffic, connectivity guidance from the customer network to Office 365 service endpoints, interoperability with third-party components, and principles that are used by Teams to select media flows.</span></span>
+- <span data-ttu-id="65da9-115">**背景**。</span><span class="sxs-lookup"><span data-stu-id="65da9-115">**Background**.</span></span> <span data-ttu-id="65da9-116">提供背景信息，例如 Office 365 流程可能遍历的网络、流量类型、从客户网络到 Office 365 服务终结点的连接指南、与第三方组件的互操作性以及由团队用于选择媒体流的原则。</span><span class="sxs-lookup"><span data-stu-id="65da9-116">Provides background information such as networks that Office 365 flows may traverse, types of traffic, connectivity guidance from the customer network to Office 365 service endpoints, interoperability with third-party components, and principles that are used by Teams to select media flows.</span></span>
 
-- <span data-ttu-id="a0080-117">**各种拓扑中的通话流**。</span><span class="sxs-lookup"><span data-stu-id="a0080-117">**Call flows in various topologies**.</span></span> <span data-ttu-id="a0080-118">说明如何在各种拓扑中使用调用流。</span><span class="sxs-lookup"><span data-stu-id="a0080-118">Illustrates the use of call flows in various topologies.</span></span> <span data-ttu-id="a0080-119">对于每个拓扑，该部分将枚举所有受支持的流，并阐释如何在多个使用案例中使用这些流。</span><span class="sxs-lookup"><span data-stu-id="a0080-119">For each topology, the section enumerates all supported flows and illustrates how these flows are used in several use cases.</span></span> <span data-ttu-id="a0080-120">对于每个用例，它使用流图描述流的序列和选择。</span><span class="sxs-lookup"><span data-stu-id="a0080-120">For each use case, it describes the sequence and selection of flows using a flow diagram.</span></span>
+- <span data-ttu-id="65da9-117">**各种拓扑中的通话流**。</span><span class="sxs-lookup"><span data-stu-id="65da9-117">**Call flows in various topologies**.</span></span> <span data-ttu-id="65da9-118">说明如何在各种拓扑中使用调用流。</span><span class="sxs-lookup"><span data-stu-id="65da9-118">Illustrates the use of call flows in various topologies.</span></span> <span data-ttu-id="65da9-119">对于每个拓扑，该部分将枚举所有受支持的流，并阐释如何在多个使用案例中使用这些流。</span><span class="sxs-lookup"><span data-stu-id="65da9-119">For each topology, the section enumerates all supported flows and illustrates how these flows are used in several use cases.</span></span> <span data-ttu-id="65da9-120">对于每个用例，它使用流图描述流的序列和选择。</span><span class="sxs-lookup"><span data-stu-id="65da9-120">For each use case, it describes the sequence and selection of flows using a flow diagram.</span></span>
 
-- <span data-ttu-id="a0080-121">**具有快速路线优化的团队**。</span><span class="sxs-lookup"><span data-stu-id="a0080-121">**Teams with Express Route optimization**.</span></span> <span data-ttu-id="a0080-122">介绍了在部署快速路由以进行优化时如何使用这些流，使用简单拓扑进行图解。</span><span class="sxs-lookup"><span data-stu-id="a0080-122">Describes how these flows are used when Express Route is deployed for optimization, illustrated using a simple topology.</span></span>
+- <span data-ttu-id="65da9-121">**具有快速路线优化的团队**。</span><span class="sxs-lookup"><span data-stu-id="65da9-121">**Teams with Express Route optimization**.</span></span> <span data-ttu-id="65da9-122">介绍了在部署快速路由以进行优化时如何使用这些流，使用简单拓扑进行图解。</span><span class="sxs-lookup"><span data-stu-id="65da9-122">Describes how these flows are used when Express Route is deployed for optimization, illustrated using a simple topology.</span></span>
 
-## <a name="background"></a><span data-ttu-id="a0080-123">背景</span><span class="sxs-lookup"><span data-stu-id="a0080-123">Background</span></span>
+## <a name="background"></a><span data-ttu-id="65da9-123">背景</span><span class="sxs-lookup"><span data-stu-id="65da9-123">Background</span></span>
 
-### <a name="network-segments"></a><span data-ttu-id="a0080-124">网络段</span><span class="sxs-lookup"><span data-stu-id="a0080-124">Network segments</span></span>
+### <a name="network-segments"></a><span data-ttu-id="65da9-124">网络段</span><span class="sxs-lookup"><span data-stu-id="65da9-124">Network segments</span></span>
 
-<span data-ttu-id="a0080-125">**客户网络**。</span><span class="sxs-lookup"><span data-stu-id="a0080-125">**Customer network**.</span></span> <span data-ttu-id="a0080-126">这是您控制和管理的网络段。</span><span class="sxs-lookup"><span data-stu-id="a0080-126">This is the network segment that you control and manage.</span></span> <span data-ttu-id="a0080-127">这包括客户办公室中的所有客户连接，无论是有线还是无线、office 大楼之间的连接、本地数据中心的连接，还是与 Internet 提供商、快速路线或任何其他私人对等的连接。</span><span class="sxs-lookup"><span data-stu-id="a0080-127">This includes all customer connections within customer offices, whether wired or wireless, connections between office buildings, connections to on-premises datacenters, and your connections to Internet providers, Express Route, or any other private peering.</span></span>
+<span data-ttu-id="65da9-125">**客户网络**。</span><span class="sxs-lookup"><span data-stu-id="65da9-125">**Customer network**.</span></span> <span data-ttu-id="65da9-126">这是您控制和管理的网络段。</span><span class="sxs-lookup"><span data-stu-id="65da9-126">This is the network segment that you control and manage.</span></span> <span data-ttu-id="65da9-127">这包括客户办公室中的所有客户连接，无论是有线还是无线、office 大楼之间的连接、本地数据中心的连接，还是与 Internet 提供商、快速路线或任何其他私人对等的连接。</span><span class="sxs-lookup"><span data-stu-id="65da9-127">This includes all customer connections within customer offices, whether wired or wireless, connections between office buildings, connections to on-premises datacenters, and your connections to Internet providers, Express Route, or any other private peering.</span></span>
 
-<span data-ttu-id="a0080-128">通常情况下，客户网络具有多个具有防火墙和/或代理服务器的网络外围，这些服务器强制实施组织的安全策略，并且仅允许某些已设置和配置的网络流量。</span><span class="sxs-lookup"><span data-stu-id="a0080-128">Typically, a customer network has several network perimeters with firewalls and/or proxy servers, which enforce your organization's security policies, and that only allow certain network traffic that you have set up and configured.</span></span> <span data-ttu-id="a0080-129">由于你管理此网络，你可以直接控制网络性能，我们建议你完成网络评估，以验证网络中的网站和你的网络与 Office 365 网络之间的性能。</span><span class="sxs-lookup"><span data-stu-id="a0080-129">Because you manage this network, you have direct control over the performance of the network, and we recommend that you complete network assessments to validate performance both within sites in your network and from your network to the Office 365 network.</span></span>
+<span data-ttu-id="65da9-128">通常情况下，客户网络具有多个具有防火墙和/或代理服务器的网络外围，这些服务器强制实施组织的安全策略，并且仅允许某些已设置和配置的网络流量。</span><span class="sxs-lookup"><span data-stu-id="65da9-128">Typically, a customer network has several network perimeters with firewalls and/or proxy servers, which enforce your organization's security policies, and that only allow certain network traffic that you have set up and configured.</span></span> <span data-ttu-id="65da9-129">由于你管理此网络，你可以直接控制网络性能，我们建议你完成网络评估，以验证网络中的网站和你的网络与 Office 365 网络之间的性能。</span><span class="sxs-lookup"><span data-stu-id="65da9-129">Because you manage this network, you have direct control over the performance of the network, and we recommend that you complete network assessments to validate performance both within sites in your network and from your network to the Office 365 network.</span></span>
 
-<span data-ttu-id="a0080-130">**互联网**。</span><span class="sxs-lookup"><span data-stu-id="a0080-130">**Internet**.</span></span> <span data-ttu-id="a0080-131">这是您的整个网络的一部分，该网络段将由从客户网络外部连接到 Office 365 的用户使用。</span><span class="sxs-lookup"><span data-stu-id="a0080-131">This is the network segment that is part of your overall network that will be used by users who are connecting to Office 365 from outside of the customer network.</span></span> <span data-ttu-id="a0080-132">它还可由从客户网络到 Office 365 的某些流量使用。</span><span class="sxs-lookup"><span data-stu-id="a0080-132">It is also used by some traffic from the customer network to Office 365.</span></span>
+<span data-ttu-id="65da9-130">**互联网**。</span><span class="sxs-lookup"><span data-stu-id="65da9-130">**Internet**.</span></span> <span data-ttu-id="65da9-131">这是您的整个网络的一部分，该网络段将由从客户网络外部连接到 Office 365 的用户使用。</span><span class="sxs-lookup"><span data-stu-id="65da9-131">This is the network segment that is part of your overall network that will be used by users who are connecting to Office 365 from outside of the customer network.</span></span> <span data-ttu-id="65da9-132">它还可由从客户网络到 Office 365 的某些流量使用。</span><span class="sxs-lookup"><span data-stu-id="65da9-132">It is also used by some traffic from the customer network to Office 365.</span></span>
 
-<span data-ttu-id="a0080-133">已**访问或来宾专用网络**。</span><span class="sxs-lookup"><span data-stu-id="a0080-133">**Visited or guest private network**.</span></span> <span data-ttu-id="a0080-134">这是客户网络外部的网络段，而不是在公共 Internet 中，你的用户及其来宾可能会访问（例如，家庭专用网络或企业专用网络），它不会部署团队，你的用户及其客户与团队服务可能驻留的交互。</span><span class="sxs-lookup"><span data-stu-id="a0080-134">This is the network segment outside your customer network, but not in the public Internet, that your users and their guests may visit (for example, a home private network or an enterprise private network, that does not deploy Teams, where your users and their customers that interact with Teams services may reside).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="a0080-135">与 Office 365 的连接也适用于这些网络。</span><span class="sxs-lookup"><span data-stu-id="a0080-135">Connectivity to Office 365 is also applicable to these networks.</span></span>
-
-<span data-ttu-id="a0080-136">**Office 365**。</span><span class="sxs-lookup"><span data-stu-id="a0080-136">**Office 365**.</span></span> <span data-ttu-id="a0080-137">这是支持 Office 365 服务的网络段。</span><span class="sxs-lookup"><span data-stu-id="a0080-137">This is the network segment that supports Office 365 services.</span></span> <span data-ttu-id="a0080-138">在全球各地，全球各地都有与客户网络邻近的边缘。</span><span class="sxs-lookup"><span data-stu-id="a0080-138">It is distributed worldwide with edges in proximity to the customer network in most locations.</span></span> <span data-ttu-id="a0080-139">函数包括传输中继、会议服务器和媒体处理器。</span><span class="sxs-lookup"><span data-stu-id="a0080-139">Functions include Transport Relay, conferencing server, and Media Processor.</span></span>
-
-<span data-ttu-id="a0080-140">**快速路线（可选）**。</span><span class="sxs-lookup"><span data-stu-id="a0080-140">**Express Route (optional)**.</span></span> <span data-ttu-id="a0080-141">这是您的整个网络的一部分，它将为您提供与 Office 365 网络的专用专用连接。</span><span class="sxs-lookup"><span data-stu-id="a0080-141">This is the network segment that is part of your overall network that will give you a dedicated, private connection to the Office 365 network.</span></span>
-
-### <a name="types-of-traffic"></a><span data-ttu-id="a0080-142">流量类型</span><span class="sxs-lookup"><span data-stu-id="a0080-142">Types of traffic</span></span>
-
-<span data-ttu-id="a0080-143">**实时媒体**。</span><span class="sxs-lookup"><span data-stu-id="a0080-143">**Real-time media**.</span></span> <span data-ttu-id="a0080-144">在支持音频、视频和屏幕共享工作负荷的实时传输协议（RTP）中封装的数据。</span><span class="sxs-lookup"><span data-stu-id="a0080-144">Data encapsulated within Real-time Transport Protocol (RTP) that supports audio, video, and screen sharing workloads.</span></span> <span data-ttu-id="a0080-145">通常情况下，媒体流量很长很长，因此你希望此流量能够充分利用最直接的路径，并将 UDP 与 TCP 用作传输层协议，这是从质量角度看交互式实时媒体的最佳传输.</span><span class="sxs-lookup"><span data-stu-id="a0080-145">In general, media traffic is highly latency sensitive, so you would want this traffic to take the most direct path possible, and to use UDP versus TCP as the transport layer protocol, which is the best transport for interactive real time media from a quality perspective.</span></span> <span data-ttu-id="a0080-146">（请注意，作为最后的手段，媒体可以使用 TCP/IP，也可以在 HTTP 协议中使用隧道，但不建议由于不良的质量影响。）使用 SRTP 保护 RTP 流，其中仅加密负载。</span><span class="sxs-lookup"><span data-stu-id="a0080-146">(Note that as a last resort, media can use TCP/IP and also be tunneled within the HTTP protocol, but it is not recommended due to bad quality implications.) RTP flow is secured using SRTP, in which only the payload is encrypted.</span></span>
-
-<span data-ttu-id="a0080-147">**信号**。</span><span class="sxs-lookup"><span data-stu-id="a0080-147">**Signaling**.</span></span> <span data-ttu-id="a0080-148">客户端和服务器之间的通信链接，或用于控制活动的其他客户端（例如，启动呼叫时）和发送即时消息。</span><span class="sxs-lookup"><span data-stu-id="a0080-148">The communication link between the client and server, or other clients that are used to control activities (for example, when a call is initiated), and deliver instant messages.</span></span> <span data-ttu-id="a0080-149">大多数信号流量使用基于 HTTPS 的 REST 接口，但在某些情况下（例如，Office 365 和会话边界控制器之间的连接），它将使用 SIP 协议。</span><span class="sxs-lookup"><span data-stu-id="a0080-149">Most signaling traffic uses the HTTPS-based REST interfaces, though in some scenarios (for example, connection between Office 365 and a Session Border Controller) it uses SIP protocol.</span></span> <span data-ttu-id="a0080-150">请务必了解此流量对延迟的敏感程度不太大，但如果终结点之间的延迟超过几秒，可能会导致服务中断或呼叫超时。</span><span class="sxs-lookup"><span data-stu-id="a0080-150">It's important to understand that this traffic is much less sensitive to latency but may cause service outages or call timeouts if latency between the endpoints exceeds several seconds.</span></span>
-
-### <a name="connectivity-to-office-365"></a><span data-ttu-id="a0080-151">与 Office 365 的连接</span><span class="sxs-lookup"><span data-stu-id="a0080-151">Connectivity to Office 365</span></span>
-
-<span data-ttu-id="a0080-152">团队需要[连接到 Internet](https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity)。</span><span class="sxs-lookup"><span data-stu-id="a0080-152">Teams requires [connectivity to the Internet](https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity).</span></span> <span data-ttu-id="a0080-153">团队终结点 Url 和 IP 地址范围在[Office 365 url 和 ip 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中列出。</span><span class="sxs-lookup"><span data-stu-id="a0080-153">Teams endpoint URLs and IP address ranges are listed in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).</span></span> <span data-ttu-id="a0080-154">（请注意，与 TCP 端口80和443的开放连接，以及到 UDP 端口3478到3481的连接。）此外，团队对 Skype for business Online 有依赖关系，该功能还必须连接到 Internet。</span><span class="sxs-lookup"><span data-stu-id="a0080-154">(Note that open connectivity to TCP ports 80 and 443, and to UDP ports 3478 through 3481, is required.) Furthermore, Teams has a dependency on Skype for Business Online, which must also be connected to the Internet.</span></span>
-
-<span data-ttu-id="a0080-155">团队媒体流连接是使用标准的 IETF 交互式连接建立（ICE）过程实现的。</span><span class="sxs-lookup"><span data-stu-id="a0080-155">Teams media flows connectivity is implemented using standard IETF Interactive Connectivity Establishment (ICE) procedures.</span></span>
-
-### <a name="interoperability-restrictions"></a><span data-ttu-id="a0080-156">互操作性限制</span><span class="sxs-lookup"><span data-stu-id="a0080-156">Interoperability restrictions</span></span>
-
-<span data-ttu-id="a0080-157">**第三方媒体中继**。</span><span class="sxs-lookup"><span data-stu-id="a0080-157">**Third-party media relays**.</span></span> <span data-ttu-id="a0080-158">团队媒体流（即，其中一个媒体终结点是团队）可能仅遍历团队或 Skype for business 本机媒体中继。</span><span class="sxs-lookup"><span data-stu-id="a0080-158">A Teams media flow (that is, where one of the media endpoints is Teams) may traverse only Teams or Skype for Business native media relays.</span></span> <span data-ttu-id="a0080-159">不支持与第三方媒体中继的互操作。</span><span class="sxs-lookup"><span data-stu-id="a0080-159">Interoperability with a third-party media relay is not supported.</span></span> <span data-ttu-id="a0080-160">（请注意，具有 PSTN 的第三方 SBC 必须终止 RTP/RTCP 流，使用 SRTP 进行保护，而不是将其中继到下一跃点。）</span><span class="sxs-lookup"><span data-stu-id="a0080-160">(Note that a third-party SBC on the boundary with PSTN must terminate RTP/RTCP stream, secured using SRTP, and not relay it to the next hop.)</span></span>
-
-<span data-ttu-id="a0080-161">**第三方 SIP 代理服务器**。</span><span class="sxs-lookup"><span data-stu-id="a0080-161">**Third-party SIP proxy servers**.</span></span> <span data-ttu-id="a0080-162">带有第三方 SBC 和/或网关的团队发来的 "SIP" 对话框可能会遍历团队或 Skype for business 本机 SIP 代理。</span><span class="sxs-lookup"><span data-stu-id="a0080-162">A Teams signaling SIP dialog with a third-party SBC and/or gateway may traverse Teams or Skype for Business native SIP proxies.</span></span> <span data-ttu-id="a0080-163">不支持与第三方 SIP 代理的互操作。</span><span class="sxs-lookup"><span data-stu-id="a0080-163">Interoperability with a third-party SIP proxy is not supported.</span></span>
-
-<span data-ttu-id="a0080-164">**第三方 B2BUA （或 SBC）**。</span><span class="sxs-lookup"><span data-stu-id="a0080-164">**Third-party B2BUA (or SBC)**.</span></span> <span data-ttu-id="a0080-165">由第三方 SBC 终止来自 PSTN 的团队媒体流。</span><span class="sxs-lookup"><span data-stu-id="a0080-165">A Teams media flow to and from the PSTN is terminated by a third-party SBC.</span></span> <span data-ttu-id="a0080-166">但是，不支持与团队网络中的第三方 SBC （第三方 SBC 调节两个团队或 Skype for business 终结点）之间的互操作性。</span><span class="sxs-lookup"><span data-stu-id="a0080-166">However, interoperability with a third-party SBC within the Teams network (where a third-party SBC mediates two Teams or Skype for Business endpoints) is not supported.</span></span>
-
-### <a name="technologies-that-are-not-recommended-with-microsoft-teams"></a><span data-ttu-id="a0080-167">Microsoft 团队不推荐的技术</span><span class="sxs-lookup"><span data-stu-id="a0080-167">Technologies that are not recommended with Microsoft Teams</span></span>
-
-<span data-ttu-id="a0080-168">**VPN 网络**。</span><span class="sxs-lookup"><span data-stu-id="a0080-168">**VPN network**.</span></span> <span data-ttu-id="a0080-169">不建议媒体流量（或流 2 "）。</span><span class="sxs-lookup"><span data-stu-id="a0080-169">It is not recommended for media traffic (or flow 2').</span></span> <span data-ttu-id="a0080-170">VPN 客户端应使用分离的 VPN 和路由媒体流量（如任何外部非 VPN 用户），如[使 Lync 媒体绕过 VPN 隧道](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)指定的任何外部非 VPN 用户。</span><span class="sxs-lookup"><span data-stu-id="a0080-170">The VPN client should use split VPN and route media traffic like any external non-VPN user, as specified in [Enabling Lync media to bypass a VPN tunnel](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210).</span></span>
+<span data-ttu-id="65da9-133">已**访问或来宾专用网络**。</span><span class="sxs-lookup"><span data-stu-id="65da9-133">**Visited or guest private network**.</span></span> <span data-ttu-id="65da9-134">这是客户网络外部的网络段，而不是在公共 Internet 中，您的用户和他们的来宾可能会访问（例如，家庭专用网络或企业专用网络），不会部署团队，您的用户及其与团队服务之间的客户可能会驻留。</span><span class="sxs-lookup"><span data-stu-id="65da9-134">This is the network segment outside your customer network, but not in the public Internet, that your users and their guests may visit (for example, a home private network or an enterprise private network, that does not deploy Teams, where your users and their customers that interact with Teams services may reside).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a0080-171">尽管标题指示 Lync，但它也适用于团队。</span><span class="sxs-lookup"><span data-stu-id="a0080-171">Although the title indicates Lync, it is applicable to Teams as well.</span></span>
+> <span data-ttu-id="65da9-135">与 Office 365 的连接也适用于这些网络。</span><span class="sxs-lookup"><span data-stu-id="65da9-135">Connectivity to Office 365 is also applicable to these networks.</span></span>
 
-<span data-ttu-id="a0080-172">**数据包 shapers**。</span><span class="sxs-lookup"><span data-stu-id="a0080-172">**Packet shapers**.</span></span> <span data-ttu-id="a0080-173">不推荐任何类型的数据包 snippers、数据包检查或数据包整形设备，可能会显著降低质量。</span><span class="sxs-lookup"><span data-stu-id="a0080-173">Any kind of packet snippers, packet inspection, or packet shaper devices are not recommended and may degrade quality significantly.</span></span>
+<span data-ttu-id="65da9-136">**Office 365**。</span><span class="sxs-lookup"><span data-stu-id="65da9-136">**Office 365**.</span></span> <span data-ttu-id="65da9-137">这是支持 Office 365 服务的网络段。</span><span class="sxs-lookup"><span data-stu-id="65da9-137">This is the network segment that supports Office 365 services.</span></span> <span data-ttu-id="65da9-138">在全球各地，全球各地都有与客户网络邻近的边缘。</span><span class="sxs-lookup"><span data-stu-id="65da9-138">It is distributed worldwide with edges in proximity to the customer network in most locations.</span></span> <span data-ttu-id="65da9-139">函数包括传输中继、会议服务器和媒体处理器。</span><span class="sxs-lookup"><span data-stu-id="65da9-139">Functions include Transport Relay, conferencing server, and Media Processor.</span></span>
 
-### <a name="principles"></a><span data-ttu-id="a0080-174">规则</span><span class="sxs-lookup"><span data-stu-id="a0080-174">Principles</span></span>
+<span data-ttu-id="65da9-140">**快速路线（可选）**。</span><span class="sxs-lookup"><span data-stu-id="65da9-140">**Express Route (optional)**.</span></span> <span data-ttu-id="65da9-141">这是您的整个网络的一部分，它将为您提供与 Office 365 网络的专用专用连接。</span><span class="sxs-lookup"><span data-stu-id="65da9-141">This is the network segment that is part of your overall network that will give you a dedicated, private connection to the Office 365 network.</span></span>
 
-<span data-ttu-id="a0080-175">有四个一般原则可帮助你理解 Microsoft 团队的通话流：</span><span class="sxs-lookup"><span data-stu-id="a0080-175">There are four general principles that help you understand call flows for Microsoft Teams:</span></span>
+### <a name="types-of-traffic"></a><span data-ttu-id="65da9-142">流量类型</span><span class="sxs-lookup"><span data-stu-id="65da9-142">Types of traffic</span></span>
 
-- <span data-ttu-id="a0080-176">Microsoft 团队会议由与第一个参与者联接的同一区域中的 Office 365 托管。</span><span class="sxs-lookup"><span data-stu-id="a0080-176">A Microsoft Teams conference is hosted by Office 365 in the same region where the first participant joined.</span></span> <span data-ttu-id="a0080-177">（请注意，如果某些拓扑中存在此规则的例外情况，将在本文档中对其进行介绍，并通过相应的通话流进行说明。）</span><span class="sxs-lookup"><span data-stu-id="a0080-177">(Note that if there are exceptions to this rule in some topologies, they will be described in this document and illustrated by an appropriate call flow.)</span></span>
+<span data-ttu-id="65da9-143">**实时媒体**。</span><span class="sxs-lookup"><span data-stu-id="65da9-143">**Real-time media**.</span></span> <span data-ttu-id="65da9-144">在支持音频、视频和屏幕共享工作负荷的实时传输协议（RTP）中封装的数据。</span><span class="sxs-lookup"><span data-stu-id="65da9-144">Data encapsulated within Real-time Transport Protocol (RTP) that supports audio, video, and screen sharing workloads.</span></span> <span data-ttu-id="65da9-145">通常情况下，媒体流量很高的延迟，因此你希望此流量能够充分利用最直接的路径，并将 UDP 与 TCP 用作传输层协议，这是从质量角度来看交互式实时媒体的最佳传输。</span><span class="sxs-lookup"><span data-stu-id="65da9-145">In general, media traffic is highly latency sensitive, so you would want this traffic to take the most direct path possible, and to use UDP versus TCP as the transport layer protocol, which is the best transport for interactive real time media from a quality perspective.</span></span> <span data-ttu-id="65da9-146">（请注意，作为最后的手段，媒体可以使用 TCP/IP，也可以在 HTTP 协议中使用隧道，但不建议由于不良的质量影响。）使用 SRTP 保护 RTP 流，其中仅加密负载。</span><span class="sxs-lookup"><span data-stu-id="65da9-146">(Note that as a last resort, media can use TCP/IP and also be tunneled within the HTTP protocol, but it is not recommended due to bad quality implications.) RTP flow is secured using SRTP, in which only the payload is encrypted.</span></span>
 
-- <span data-ttu-id="a0080-178">Office 365 中的团队媒体终结点基于媒体处理需求使用，而不是基于呼叫类型。</span><span class="sxs-lookup"><span data-stu-id="a0080-178">A Teams media endpoint in Office 365 is used based on media processing needs and not based on call type.</span></span> <span data-ttu-id="a0080-179">（例如，点到点呼叫可以使用云中的媒体终结点处理媒体进行操作或录制，而两个参与者的会议可能不会使用云中的任何媒体终结点。）但是，大多数会议会将媒体终结点用于混合和路由用途，分配了托管会议的位置。</span><span class="sxs-lookup"><span data-stu-id="a0080-179">(For example, a point-to-point call may use a media endpoint in the cloud to process media for transcription or recording, while a conference with two participants may not use any media endpoint in the cloud.) However, most conferences will use a media endpoint for mixing and routing purposes, allocated where the conference is hosted.</span></span> <span data-ttu-id="a0080-180">从客户端发送到媒体终结点的媒体流量可能会直接路由，或者在 Office 365 中使用传输中继（如果由于客户网络防火墙限制而需要）。</span><span class="sxs-lookup"><span data-stu-id="a0080-180">The media traffic sent from a client to the media endpoint may be routed directly or use a Transport Relay in Office 365 if required due to customer network firewall restrictions.</span></span>
+<span data-ttu-id="65da9-147">**信号**。</span><span class="sxs-lookup"><span data-stu-id="65da9-147">**Signaling**.</span></span> <span data-ttu-id="65da9-148">客户端和服务器之间的通信链接，或用于控制活动的其他客户端（例如，启动呼叫时）和发送即时消息。</span><span class="sxs-lookup"><span data-stu-id="65da9-148">The communication link between the client and server, or other clients that are used to control activities (for example, when a call is initiated), and deliver instant messages.</span></span> <span data-ttu-id="65da9-149">大多数信号流量使用基于 HTTPS 的 REST 接口，但在某些情况下（例如，Office 365 和会话边界控制器之间的连接），它将使用 SIP 协议。</span><span class="sxs-lookup"><span data-stu-id="65da9-149">Most signaling traffic uses the HTTPS-based REST interfaces, though in some scenarios (for example, connection between Office 365 and a Session Border Controller) it uses SIP protocol.</span></span> <span data-ttu-id="65da9-150">请务必了解此流量对延迟的敏感程度不太大，但如果终结点之间的延迟超过几秒，可能会导致服务中断或呼叫超时。</span><span class="sxs-lookup"><span data-stu-id="65da9-150">It's important to understand that this traffic is much less sensitive to latency but may cause service outages or call timeouts if latency between the endpoints exceeds several seconds.</span></span>
 
-- <span data-ttu-id="a0080-181">对等呼叫的媒体流量采用可用的最直接路线，假设该呼叫不会在云中强制使用媒体终结点（请参阅以前的原则）。</span><span class="sxs-lookup"><span data-stu-id="a0080-181">Media traffic for peer-to-peer calls take the most direct route that is available, assuming that the call doesn't mandate a media endpoint in the cloud (see previous principle).</span></span> <span data-ttu-id="a0080-182">首选路由直接发送到远程对等（客户端），但如果该路由不可用，则一个或多个传输中继将中继流量。</span><span class="sxs-lookup"><span data-stu-id="a0080-182">The preferred route is direct to the remote peer (client), but if that route isn't available, then one or more Transport Relays will relay traffic.</span></span> <span data-ttu-id="a0080-183">建议媒体流量不应遍历服务器（如数据包 shapers、VPN 服务器等），因为这将影响媒体质量。</span><span class="sxs-lookup"><span data-stu-id="a0080-183">It is recommended that media traffic shall not transverse servers such as packet shapers, VPN servers, and so on, since this will impact the media quality.</span></span>
+### <a name="connectivity-to-office-365"></a><span data-ttu-id="65da9-151">与 Office 365 的连接</span><span class="sxs-lookup"><span data-stu-id="65da9-151">Connectivity to Office 365</span></span>
 
-- <span data-ttu-id="a0080-184">信号流量始终转到最接近于用户的服务器。</span><span class="sxs-lookup"><span data-stu-id="a0080-184">Signaling traffic always goes to the closest server to the user.</span></span>
+<span data-ttu-id="65da9-152">团队需要[连接到 Internet](https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity)。</span><span class="sxs-lookup"><span data-stu-id="65da9-152">Teams requires [connectivity to the Internet](https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity).</span></span> <span data-ttu-id="65da9-153">团队终结点 Url 和 IP 地址范围在[Office 365 url 和 ip 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中列出。</span><span class="sxs-lookup"><span data-stu-id="65da9-153">Teams endpoint URLs and IP address ranges are listed in [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).</span></span> <span data-ttu-id="65da9-154">（请注意，与 TCP 端口80和443的开放连接，以及到 UDP 端口3478到3481的连接。）此外，团队对 Skype for business Online 有依赖关系，该功能还必须连接到 Internet。</span><span class="sxs-lookup"><span data-stu-id="65da9-154">(Note that open connectivity to TCP ports 80 and 443, and to UDP ports 3478 through 3481, is required.) Furthermore, Teams has a dependency on Skype for Business Online, which must also be connected to the Internet.</span></span>
 
-<span data-ttu-id="a0080-185">若要了解有关所选媒体路径的详细信息，请参阅[了解 Microsoft 团队中的媒体流-BRK4016](https://www.youtube.com/watch?v=1tmHMIlAQdo)。</span><span class="sxs-lookup"><span data-stu-id="a0080-185">To learn more about the details on the media path that is chosen, see [Understanding Media Flows in Microsoft Teams - BRK4016](https://www.youtube.com/watch?v=1tmHMIlAQdo).</span></span>
+<span data-ttu-id="65da9-155">团队媒体流连接是使用标准的 IETF 交互式连接建立（ICE）过程实现的。</span><span class="sxs-lookup"><span data-stu-id="65da9-155">Teams media flows connectivity is implemented using standard IETF Interactive Connectivity Establishment (ICE) procedures.</span></span>
 
-## <a name="call-flows-in-various-topologies"></a><span data-ttu-id="a0080-186">各种拓扑中的呼叫流</span><span class="sxs-lookup"><span data-stu-id="a0080-186">Call flows in various topologies</span></span>
+### <a name="interoperability-restrictions"></a><span data-ttu-id="65da9-156">互操作性限制</span><span class="sxs-lookup"><span data-stu-id="65da9-156">Interoperability restrictions</span></span>
 
-### <a name="teams-topology"></a><span data-ttu-id="a0080-187">团队拓扑</span><span class="sxs-lookup"><span data-stu-id="a0080-187">Teams topology</span></span>
+<span data-ttu-id="65da9-157">**第三方媒体中继**。</span><span class="sxs-lookup"><span data-stu-id="65da9-157">**Third-party media relays**.</span></span> <span data-ttu-id="65da9-158">团队媒体流（即，其中一个媒体终结点是团队）可能仅遍历团队或 Skype for business 本机媒体中继。</span><span class="sxs-lookup"><span data-stu-id="65da9-158">A Teams media flow (that is, where one of the media endpoints is Teams) may traverse only Teams or Skype for Business native media relays.</span></span> <span data-ttu-id="65da9-159">不支持与第三方媒体中继的互操作。</span><span class="sxs-lookup"><span data-stu-id="65da9-159">Interoperability with a third-party media relay is not supported.</span></span> <span data-ttu-id="65da9-160">（请注意，具有 PSTN 的第三方 SBC 必须终止 RTP/RTCP 流，使用 SRTP 进行保护，而不是将其中继到下一跃点。）</span><span class="sxs-lookup"><span data-stu-id="65da9-160">(Note that a third-party SBC on the boundary with PSTN must terminate RTP/RTCP stream, secured using SRTP, and not relay it to the next hop.)</span></span>
 
-<span data-ttu-id="a0080-188">此拓扑由客户使用，它在没有任何本地部署（如 Skype for Business Server 或手机系统直接路由）的情况下利用来自云的团队服务。</span><span class="sxs-lookup"><span data-stu-id="a0080-188">This topology is used by customers that leverage Teams services from the cloud without any on-premises deployment, such as Skype for Business Server or Phone System Direct Routing.</span></span> <span data-ttu-id="a0080-189">此外，在没有 Azure Express 路由的情况下，Office 365 的接口通过 Internet 进行。</span><span class="sxs-lookup"><span data-stu-id="a0080-189">In addition, the interface to Office 365 is done over the Internet without Azure Express Route.</span></span>
+<span data-ttu-id="65da9-161">**第三方 SIP 代理服务器**。</span><span class="sxs-lookup"><span data-stu-id="65da9-161">**Third-party SIP proxy servers**.</span></span> <span data-ttu-id="65da9-162">带有第三方 SBC 和/或网关的团队发来的 "SIP" 对话框可能会遍历团队或 Skype for business 本机 SIP 代理。</span><span class="sxs-lookup"><span data-stu-id="65da9-162">A Teams signaling SIP dialog with a third-party SBC and/or gateway may traverse Teams or Skype for Business native SIP proxies.</span></span> <span data-ttu-id="65da9-163">不支持与第三方 SIP 代理的互操作。</span><span class="sxs-lookup"><span data-stu-id="65da9-163">Interoperability with a third-party SIP proxy is not supported.</span></span>
 
-<span data-ttu-id="a0080-190">[![Microsoft 团队在线通话流程图01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-190">[![Microsoft Teams Online Call Flows Figure 01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)</span></span>
+<span data-ttu-id="65da9-164">**第三方 B2BUA （或 SBC）**。</span><span class="sxs-lookup"><span data-stu-id="65da9-164">**Third-party B2BUA (or SBC)**.</span></span> <span data-ttu-id="65da9-165">由第三方 SBC 终止来自 PSTN 的团队媒体流。</span><span class="sxs-lookup"><span data-stu-id="65da9-165">A Teams media flow to and from the PSTN is terminated by a third-party SBC.</span></span> <span data-ttu-id="65da9-166">但是，不支持与团队网络中的第三方 SBC （第三方 SBC 调节两个团队或 Skype for business 终结点）之间的互操作性。</span><span class="sxs-lookup"><span data-stu-id="65da9-166">However, interoperability with a third-party SBC within the Teams network (where a third-party SBC mediates two Teams or Skype for Business endpoints) is not supported.</span></span>
 
-<span data-ttu-id="a0080-191">*图 1-团队拓扑*</span><span class="sxs-lookup"><span data-stu-id="a0080-191">*Figure 1 - Teams topology*</span></span>
+### <a name="technologies-that-are-not-recommended-with-microsoft-teams"></a><span data-ttu-id="65da9-167">Microsoft 团队不推荐的技术</span><span class="sxs-lookup"><span data-stu-id="65da9-167">Technologies that are not recommended with Microsoft Teams</span></span>
 
-<span data-ttu-id="a0080-192">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-192">Note that:</span></span>
-
-- <span data-ttu-id="a0080-193">上图中箭头的方向反映了在企业外围环境中影响连接的通信的初始方向。</span><span class="sxs-lookup"><span data-stu-id="a0080-193">The direction of the arrows on the diagram above reflect the initiation direction of the communication that affects connectivity at the enterprise perimeters.</span></span> <span data-ttu-id="a0080-194">在 UDP for media 的情况下，第一个数据包可能沿相反方向流动，但这些数据包可能会被阻止，直到其他方向的数据包才会流动。</span><span class="sxs-lookup"><span data-stu-id="a0080-194">In the case of UDP for media, the first packet(s) may flow in the reverse direction, but these packets may be blocked until packets in the other direction will flow.</span></span>
-- <span data-ttu-id="a0080-195">团队与 Skype for Business Online 并排部署，因此客户将显示为 "团队/SFB 用户"。</span><span class="sxs-lookup"><span data-stu-id="a0080-195">Teams is deployed side by side with Skype for Business Online, hence clients are displayed as "Teams/SFB user."</span></span>
-
-<span data-ttu-id="a0080-196">有关详细信息，请查看本文后面的以下可选拓扑：</span><span class="sxs-lookup"><span data-stu-id="a0080-196">You can find more information on the following optional topologies later in the article:</span></span>
-
-- <span data-ttu-id="a0080-197">在**团队混合拓扑**中介绍了 Skype for business 内部部署。</span><span class="sxs-lookup"><span data-stu-id="a0080-197">Skype for Business on-premises deployment is described in **Teams hybrid topology**.</span></span>
-- <span data-ttu-id="a0080-198">手机系统直接路由（适用于 PSTN 连接）在**具有直接路由拓扑的团队**中介绍。</span><span class="sxs-lookup"><span data-stu-id="a0080-198">Phone System Direct Routing (for PSTN connectivity) is described in **Teams with Direct Routing topology**.</span></span>
-- <span data-ttu-id="a0080-199">快速路线在**具有 Express 路线优化的团队**中介绍。</span><span class="sxs-lookup"><span data-stu-id="a0080-199">Express Route is described in **Teams with Express Route optimization**.</span></span>
-
-<span data-ttu-id="a0080-200">**流说明**：</span><span class="sxs-lookup"><span data-stu-id="a0080-200">**Flow descriptions**:</span></span>
-
-- <span data-ttu-id="a0080-201">**流 2** -表示用户在客户网络上作为用户团队体验的一部分启动的流程。</span><span class="sxs-lookup"><span data-stu-id="a0080-201">**Flow 2** – Represents a flow initiated by a user on the customer network to the Internet as a part of the user's Teams experience.</span></span> <span data-ttu-id="a0080-202">这些流的示例是 DNS 和对等媒体。</span><span class="sxs-lookup"><span data-stu-id="a0080-202">Examples of these flows are DNS and peer-to-peer media.</span></span>
-- <span data-ttu-id="a0080-203">**流 2 "** –表示由远程移动团队用户发起的流，其中包含指向客户网络的 VPN。</span><span class="sxs-lookup"><span data-stu-id="a0080-203">**Flow 2'** – Represents a flow initiated by a remote mobile Teams user, with VPN to the customer network.</span></span>
-- <span data-ttu-id="a0080-204">**流 3** -表示由远程移动团队用户从 Office 365/团队终结点发起的流。</span><span class="sxs-lookup"><span data-stu-id="a0080-204">**Flow 3** – Represents a flow initiated by a remote mobile Teams user to Office 365/Teams endpoints.</span></span>
-- <span data-ttu-id="a0080-205">**流 4** -表示用户在客户网络上由 Office 365/团队终结点发起的流程。</span><span class="sxs-lookup"><span data-stu-id="a0080-205">**Flow 4** – Represents a flow initiated by a user on the customer network to Office 365/Teams endpoints.</span></span>
-- <span data-ttu-id="a0080-206">**流 5** -表示团队用户与其他团队之间的对等媒体流，或客户网络中的 Skype for business 用户。</span><span class="sxs-lookup"><span data-stu-id="a0080-206">**Flow 5** – Represents a peer-to-peer media flow between a Teams user and another Teams or Skype for Business user within the customer network.</span></span>
-- <span data-ttu-id="a0080-207">**流 6** -表示远程移动团队用户与其他远程移动团队或 Internet 上的 Skype for business 用户之间的对等媒体流。</span><span class="sxs-lookup"><span data-stu-id="a0080-207">**Flow 6** – Represents a peer-to-peer media flow between a remote mobile Teams user and another remote mobile Teams or Skype for Business user over the Internet.</span></span>
-
-#### <a name="use-case-one-to-one"></a><span data-ttu-id="a0080-208">使用案例：一对一</span><span class="sxs-lookup"><span data-stu-id="a0080-208">Use case: One-to-one</span></span>
-
-<span data-ttu-id="a0080-209">一对一呼叫使用一个通用模型，在该模型中，呼叫者将获得一组候选项，其中包括本地、中继和自反（客户的公共 IP 地址，如中继）候选人。</span><span class="sxs-lookup"><span data-stu-id="a0080-209">One-to-one calls use a common model in which the caller will obtain a set of candidates consisting of IP addresses/ports, including local, relay, and reflexive (public IP address of client as seen by the relay) candidates.</span></span> <span data-ttu-id="a0080-210">呼叫方将这些候选人发送给被呼叫方;被呼叫方还会获取一组类似的候选项，并将其发送给呼叫方。</span><span class="sxs-lookup"><span data-stu-id="a0080-210">The caller sends these candidates to the called party; the called party also obtains a similar set of candidates and sends them to the caller.</span></span> <span data-ttu-id="a0080-211">STUN 连接检查消息用于查找哪些呼叫方/被叫方媒体路径正常工作，并且选择了最佳工作路径。</span><span class="sxs-lookup"><span data-stu-id="a0080-211">STUN connectivity check messages are used to find which caller/called party media paths work, and the best working path is selected.</span></span> <span data-ttu-id="a0080-212">然后，使用所选候选人对发送媒体（即使用 SRTP 的安全的 RTP/RTCP 数据包）。</span><span class="sxs-lookup"><span data-stu-id="a0080-212">Media (that is, RTP/RTCP packets secured using SRTP) are then sent using the selected candidate pair.</span></span> <span data-ttu-id="a0080-213">传输中继作为 Office 365 的一部分进行部署。</span><span class="sxs-lookup"><span data-stu-id="a0080-213">The Transport relay is deployed as part of Office 365.</span></span>
-
-<span data-ttu-id="a0080-214">如果本地 IP 地址/端口候选或反身候选具有连接，则将为媒体选择客户端（或使用 NAT）之间的直接路径。</span><span class="sxs-lookup"><span data-stu-id="a0080-214">If the local IP address/port candidates or the reflexive candidates have connectivity, then the direct path between the clients (or using a NAT) will be selected for media.</span></span> <span data-ttu-id="a0080-215">如果客户端位于客户网络上，则应选择直接路径。</span><span class="sxs-lookup"><span data-stu-id="a0080-215">If the clients are both on the customer network, then the direct path should be selected.</span></span> <span data-ttu-id="a0080-216">这需要客户网络内的直接 UDP 连接。</span><span class="sxs-lookup"><span data-stu-id="a0080-216">This requires direct UDP connectivity within the customer network.</span></span> <span data-ttu-id="a0080-217">如果客户端都是 nomadic 云用户，则根据 NAT/防火墙，媒体可能使用直接连接。</span><span class="sxs-lookup"><span data-stu-id="a0080-217">If the clients are both nomadic cloud users, then depending on the NAT/firewall, media may use direct connectivity.</span></span>
-
-<span data-ttu-id="a0080-218">如果一个客户端是客户网络内部的客户端，而另一个客户端是外部客户端（例如，移动云用户），则本地或反身候选人之间的直接连接不太可能是正常工作。</span><span class="sxs-lookup"><span data-stu-id="a0080-218">If one client is internal on the customer network and one client is external (for example, a mobile cloud user), then it is unlikely that direct connectivity between the local or reflexive candidates is working.</span></span> <span data-ttu-id="a0080-219">在这种情况下，选项是使用来自任何客户端的传输中继候选人之一（例如，内部客户从 Office 365 中的传输中继获得中继候选人）; 外部客户端需要能够将 STUN/RTP/RTCP 数据包发送到传输中继。</span><span class="sxs-lookup"><span data-stu-id="a0080-219">In this case, an option is to use one of the Transport Relay candidates from either client (for example, the internal client obtained a relay candidate from the Transport relay in Office 365; the external client needs to be able to send STUN/RTP/RTCP packets to the transport relay).</span></span> <span data-ttu-id="a0080-220">另一个选项是内部客户端发送到移动云客户端获取的中继候选人。</span><span class="sxs-lookup"><span data-stu-id="a0080-220">Another option is the internal client sends to the relay candidate obtained by the mobile cloud client.</span></span> <span data-ttu-id="a0080-221">请注意，虽然强烈建议媒体的 UDP 连接，但支持 TCP。</span><span class="sxs-lookup"><span data-stu-id="a0080-221">Note that, although UDP connectivity for media is highly recommended, TCP is supported.</span></span>
-
-<span data-ttu-id="a0080-222">**高级别步骤**：</span><span class="sxs-lookup"><span data-stu-id="a0080-222">**High-level steps**:</span></span>
-
-1. <span data-ttu-id="a0080-223">团队用户 A 使用流程2解析 URL 域名（DNS）。</span><span class="sxs-lookup"><span data-stu-id="a0080-223">Teams User A resolves URL domain name (DNS) using flow 2.</span></span>
-1. <span data-ttu-id="a0080-224">团队用户 A 使用流4在团队传输中继上分配媒体中继端口。</span><span class="sxs-lookup"><span data-stu-id="a0080-224">Teams User A allocates a media Relay port on Teams Transport Relay using flow 4.</span></span>
-1. <span data-ttu-id="a0080-225">团队用户 A 通过使用流4到 Office 365 的 ICE 候选人发送 "邀请"。</span><span class="sxs-lookup"><span data-stu-id="a0080-225">Teams User A sends "invite" with ICE candidates using flow 4 to Office 365.</span></span>
-1. <span data-ttu-id="a0080-226">Office 365 使用流4向团队用户 B 发送通知。</span><span class="sxs-lookup"><span data-stu-id="a0080-226">Office 365 sends notification to Teams User B using flow 4.</span></span>
-1. <span data-ttu-id="a0080-227">团队用户 B 使用流4在团队传输中继上分配媒体中继端口。</span><span class="sxs-lookup"><span data-stu-id="a0080-227">Teams User B allocates a media Relay port on Teams Transport Relay using flow 4.</span></span>
-1. <span data-ttu-id="a0080-228">团队用户 B 使用流4向返回到团队用户 A 使用流4向其发送 "应答" 与 ICE 候选人。</span><span class="sxs-lookup"><span data-stu-id="a0080-228">Teams User B sends "answer" with ICE candidates using flow 4, which is forwarded back to Teams User A using Flow 4.</span></span>
-1. <span data-ttu-id="a0080-229">团队用户 A 和团队用户 B 调用 ICE 连接测试，并选择最佳可用媒体路径（请参阅下面的各种使用案例的图表）。</span><span class="sxs-lookup"><span data-stu-id="a0080-229">Teams User A and Teams User B invoke ICE connectivity tests and the best available media path is selected (see diagrams below for various use cases).</span></span>
-1. <span data-ttu-id="a0080-230">团队用户使用流4向 Office 365 发送遥测。</span><span class="sxs-lookup"><span data-stu-id="a0080-230">Teams Users send telemetry to Office 365 using flow 4.</span></span>
-
-<span data-ttu-id="a0080-231">**在客户网络中：**</span><span class="sxs-lookup"><span data-stu-id="a0080-231">**Within customer network:**</span></span>
-
-<span data-ttu-id="a0080-232">[![Microsoft 团队在线通话流程图02](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-232">[![Microsoft Teams Online Call Flows Figure 02](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)</span></span>
-
-<span data-ttu-id="a0080-233">*图 2-客户网络内部*</span><span class="sxs-lookup"><span data-stu-id="a0080-233">*Figure 2 - Within customer network*</span></span>
-
-<span data-ttu-id="a0080-234">在步骤7中，选择了 "对等媒体流 5"。</span><span class="sxs-lookup"><span data-stu-id="a0080-234">In step 7, peer-to-peer media flow 5 is selected.</span></span>
-
-<span data-ttu-id="a0080-235">媒体为双向媒体。</span><span class="sxs-lookup"><span data-stu-id="a0080-235">Media is bidirectional.</span></span> <span data-ttu-id="a0080-236">流5的方向表示，一方从连接的角度启动通信，与本文档中的所有流一致。</span><span class="sxs-lookup"><span data-stu-id="a0080-236">The direction of flow 5 indicates that one side initiates the communication from a connectivity perspective, consistent with all the flows in this document.</span></span> <span data-ttu-id="a0080-237">在这种情况下，使用哪个方向无关紧要，因为这两个终结点位于客户网络内。</span><span class="sxs-lookup"><span data-stu-id="a0080-237">In this case, it doesn't matter which direction is used because both endpoints are within the customer network.</span></span>
-
-<span data-ttu-id="a0080-238">**向外部用户的客户网络（按团队传输中继的媒体中继）：**</span><span class="sxs-lookup"><span data-stu-id="a0080-238">**Customer network to external user (media relayed by Teams Transport Relay):**</span></span>
-
-<span data-ttu-id="a0080-239">[![Microsoft 团队在线通话流程图03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-239">[![Microsoft Teams Online Call Flows Figure 03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)</span></span>
-
-<span data-ttu-id="a0080-240">*图 3-向外部用户（按团队传输中继的媒体中继）的客户网络*</span><span class="sxs-lookup"><span data-stu-id="a0080-240">*Figure 3 - Customer network to external user (media relayed by Teams Transport Relay)*</span></span>
-
-<span data-ttu-id="a0080-241">在步骤7（从客户网络到 Office 365）和流程3（从 "远程移动团队用户到 Office 365"）中，选择 "流程 4"。</span><span class="sxs-lookup"><span data-stu-id="a0080-241">In step 7, flow 4, from customer network to Office 365, and flow 3, from remote mobile Teams user to Office 365, are selected.</span></span> <span data-ttu-id="a0080-242">这些流程由 Office 365 中的团队传输中继进行中继。</span><span class="sxs-lookup"><span data-stu-id="a0080-242">These flows are relayed by Teams Transport Relay within Office 365.</span></span>
-
-<span data-ttu-id="a0080-243">媒体是双向的，其中，方向指示哪一侧从连接的角度开始通信。</span><span class="sxs-lookup"><span data-stu-id="a0080-243">Media is bidirectional, where direction indicates which side initiates the communication from a connectivity perspective.</span></span> <span data-ttu-id="a0080-244">在这种情况下，这些流用于发送信号和媒体，使用不同的传输协议和地址。</span><span class="sxs-lookup"><span data-stu-id="a0080-244">In this case, these flows are used for signaling and media, using different transport protocols and addresses.</span></span>
-
-<span data-ttu-id="a0080-245">**向外部用户（直接媒体）的客户网络：**</span><span class="sxs-lookup"><span data-stu-id="a0080-245">**Customer network to external user (direct media):**</span></span>
-
-<span data-ttu-id="a0080-246">[![Microsoft 团队在线通话流程图04](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-246">[![Microsoft Teams Online Call Flows Figure 04](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)</span></span>
-
-<span data-ttu-id="a0080-247">*图 4-外部用户（直接媒体）的客户网络*</span><span class="sxs-lookup"><span data-stu-id="a0080-247">*Figure 4 - Customer network to external user (direct media)*</span></span>
-
-<span data-ttu-id="a0080-248">在步骤 7 "流程 2" 中，选择 "从客户网络到 Internet （客户端对等）"。</span><span class="sxs-lookup"><span data-stu-id="a0080-248">In step 7, flow 2, from customer network to the Internet (client's peer), is selected.</span></span>
-
-- <span data-ttu-id="a0080-249">带有远程移动用户（未通过 Office 365 中继）的直接媒体是可选的。</span><span class="sxs-lookup"><span data-stu-id="a0080-249">Direct media with remote mobile user (not relayed through Office 365) is optional.</span></span> <span data-ttu-id="a0080-250">换句话说，客户可能会阻止此路径通过 Office 365 中的传输中继强制执行媒体路径。</span><span class="sxs-lookup"><span data-stu-id="a0080-250">In other words, customer may block this path to enforce a media path through Transport Relay in Office 365.</span></span>
-
-- <span data-ttu-id="a0080-251">媒体为双向媒体。</span><span class="sxs-lookup"><span data-stu-id="a0080-251">Media is bidirectional.</span></span> <span data-ttu-id="a0080-252">流2到远程移动用户的方向指示一方从连接的角度启动通信。</span><span class="sxs-lookup"><span data-stu-id="a0080-252">The direction of flow 2 to remote mobile user indicates that one side initiates the communication from a connectivity perspective.</span></span>
-
-<span data-ttu-id="a0080-253">**VPN 用户到内部用户（按团队传输中继的媒体中转）**</span><span class="sxs-lookup"><span data-stu-id="a0080-253">**VPN user to internal user (media relayed by Teams Transport Relay)**</span></span>
-
-<span data-ttu-id="a0080-254">[![Microsoft 团队在线通话流程图05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-254">[![Microsoft Teams Online Call Flows Figure 05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)</span></span>
-
-<span data-ttu-id="a0080-255">*图 5-向内部用户（按团队传输中继的媒体中继）的 VPN 用户*</span><span class="sxs-lookup"><span data-stu-id="a0080-255">*Figure 5 - VPN user to internal user (media relayed by Teams Transport Relay)*</span></span>
-
-<span data-ttu-id="a0080-256">VPN 与客户网络之间的信号传输使用的是流2。</span><span class="sxs-lookup"><span data-stu-id="a0080-256">Signaling between the VPN to the customer network is using flow 2'.</span></span> <span data-ttu-id="a0080-257">客户网络与 Office 365 之间的信号传输使用的是流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-257">Signaling between the customer network and Office 365 is using flow 4.</span></span> <span data-ttu-id="a0080-258">但是，媒体绕过 VPN，并使用流3和4通过 Office 365 中的团队媒体中继进行路由。</span><span class="sxs-lookup"><span data-stu-id="a0080-258">However, media bypasses the VPN and is routed using flows 3 and 4 through Teams media relay in Office 365.</span></span>
-
-<span data-ttu-id="a0080-259">**VPN 用户到内部用户（直接媒体）**</span><span class="sxs-lookup"><span data-stu-id="a0080-259">**VPN user to internal user (direct media)**</span></span>
-
-<span data-ttu-id="a0080-260">[![Microsoft 团队在线通话流程图06](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-260">[![Microsoft Teams Online Call Flows Figure 06](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)</span></span>
-
-<span data-ttu-id="a0080-261">*图 6-向内部用户（直接媒体）的 VPN 用户*</span><span class="sxs-lookup"><span data-stu-id="a0080-261">*Figure 6 - VPN user to internal user (direct media)*</span></span>
-
-<span data-ttu-id="a0080-262">VPN 与客户网络之间的信号传输使用的是流2。</span><span class="sxs-lookup"><span data-stu-id="a0080-262">Signaling between the VPN to the customer network is using flow 2'.</span></span> <span data-ttu-id="a0080-263">客户网络与 Office 365 之间的信号传输使用的是流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-263">Signaling between the customer network and Office 365 is using flow 4.</span></span> <span data-ttu-id="a0080-264">但是，媒体将绕过 VPN，并使用从客户网络到 Internet 的流程2进行路由。</span><span class="sxs-lookup"><span data-stu-id="a0080-264">However, media bypasses the VPN and is routed using flow 2 from the customer network to the Internet.</span></span>
-
-<span data-ttu-id="a0080-265">媒体为双向媒体。</span><span class="sxs-lookup"><span data-stu-id="a0080-265">Media is bidirectional.</span></span> <span data-ttu-id="a0080-266">流2到远程移动用户的方向指示一方从连接的角度启动通信。</span><span class="sxs-lookup"><span data-stu-id="a0080-266">The direction of flow 2 to the remote mobile user indicates that one side initiates the communication from a connectivity perspective.</span></span>
-
-<span data-ttu-id="a0080-267">**向外部用户（直接媒体）的 VPN 用户**</span><span class="sxs-lookup"><span data-stu-id="a0080-267">**VPN user to external user (direct media)**</span></span>
-
-<span data-ttu-id="a0080-268">[![Microsoft 团队通话流程图07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-268">[![Microsoft Teams call flows Figure 07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)</span></span>
-
-<span data-ttu-id="a0080-269">*图 7-向外部用户（直接媒体）的 VPN 用户*</span><span class="sxs-lookup"><span data-stu-id="a0080-269">*Figure 7 - VPN user to external user (direct media)*</span></span>
-
-<span data-ttu-id="a0080-270">VPN 用户与客户网络之间的信号传输使用的是流2，并使用流4到 Office 365。</span><span class="sxs-lookup"><span data-stu-id="a0080-270">Signaling between the VPN user to the customer network is using flow 2' and using flow 4 to Office 365.</span></span> <span data-ttu-id="a0080-271">但是，媒体绕过 VPN 并使用流6进行路由。</span><span class="sxs-lookup"><span data-stu-id="a0080-271">However, media bypasses VPN and is routed using flow 6.</span></span>
-
-<span data-ttu-id="a0080-272">媒体为双向媒体。</span><span class="sxs-lookup"><span data-stu-id="a0080-272">Media is bidirectional.</span></span> <span data-ttu-id="a0080-273">流6到远程移动用户的方向指示一方从连接的角度启动通信。</span><span class="sxs-lookup"><span data-stu-id="a0080-273">The direction of flow 6 to the remote mobile user indicates that one side initiates the communication from a connectivity perspective.</span></span>
-
-#### <a name="use-case-teams-to-pstn-through-office-365-trunk"></a><span data-ttu-id="a0080-274">使用案例：团队到 PSTN 通过 Office 365 主干</span><span class="sxs-lookup"><span data-stu-id="a0080-274">Use Case: Teams to PSTN through Office 365 Trunk</span></span>
-
-<span data-ttu-id="a0080-275">Office 365 具有一个电话系统，允许从公共交换电话网络（PSTN）拨打和接听电话。</span><span class="sxs-lookup"><span data-stu-id="a0080-275">Office 365 has a Phone System that allows placing and receiving calls from the Public Switched Telephone Network (PSTN).</span></span> <span data-ttu-id="a0080-276">如果 PSTN 主干是使用电话系统呼叫计划连接的，则此使用情形没有特殊的连接要求。</span><span class="sxs-lookup"><span data-stu-id="a0080-276">If the PSTN trunk is connected using the Phone System Calling Plan, then there are no special connectivity requirements for this use case.</span></span> <span data-ttu-id="a0080-277">（如果要将自己的本地 PSTN 主干连接到 Office 365，可以使用 "电话系统直接路由"。）</span><span class="sxs-lookup"><span data-stu-id="a0080-277">(If you want to connect your own on-premises PSTN trunk to Office 365, you can use Phone System Direct Routing.)</span></span>
-
-<span data-ttu-id="a0080-278">[![Microsoft 团队在线通话流程（见图08）](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-278">[![Microsoft Teams Online Call Flows Figure 08](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)</span></span>
-
-<span data-ttu-id="a0080-279">*图 8-通过 Office 365 主干的团队到 PSTN*</span><span class="sxs-lookup"><span data-stu-id="a0080-279">*Figure 8 - Teams to PSTN through Office 365 Trunk*</span></span>
-
-#### <a name="use-case-teams-meeting"></a><span data-ttu-id="a0080-280">使用案例：团队会议</span><span class="sxs-lookup"><span data-stu-id="a0080-280">Use case: Teams meeting</span></span>
-
-<span data-ttu-id="a0080-281">音频/视频/屏幕共享（VBSS）会议服务器是 Office 365 的一部分。</span><span class="sxs-lookup"><span data-stu-id="a0080-281">The audio/video/screen sharing (VBSS) conferencing server is part of Office 365.</span></span> <span data-ttu-id="a0080-282">它具有必须可从客户网络访问且必须可从 Nomadic 云客户端访问的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a0080-282">It has a public IP address that must be reachable from the customer network and must be reachable from a Nomadic Cloud client.</span></span> <span data-ttu-id="a0080-283">每个客户端/终结点都需要能够连接到会议服务器。</span><span class="sxs-lookup"><span data-stu-id="a0080-283">Each client/endpoint needs to be able to connect to the conferencing server.</span></span>
-
-<span data-ttu-id="a0080-284">内部客户将按照与一对一通话描述的相同方式获取本地、反身和中继候选人。</span><span class="sxs-lookup"><span data-stu-id="a0080-284">Internal clients will obtain local, reflexive, and relay candidates in the same manner as described for one-to-one calls.</span></span> <span data-ttu-id="a0080-285">客户端会将这些候选人发送到邀请中的会议服务器。</span><span class="sxs-lookup"><span data-stu-id="a0080-285">The clients will send these candidates to the conferencing server in an invite.</span></span> <span data-ttu-id="a0080-286">会议服务器不使用中继，因为它具有可公开访问的 IP 地址，因此它将通过其本地 IP 地址候选进行响应。</span><span class="sxs-lookup"><span data-stu-id="a0080-286">The conferencing server does not use a relay since it has a publicly reachable IP address, so it responds with its local IP address candidate.</span></span> <span data-ttu-id="a0080-287">客户端和会议服务器将以与一对一呼叫描述的相同方式检查连接。</span><span class="sxs-lookup"><span data-stu-id="a0080-287">The client and conferencing server will check connectivity in the same manner described for one-to-one calls.</span></span>
-
-<span data-ttu-id="a0080-288">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-288">Note that:</span></span>
-
-- <span data-ttu-id="a0080-289">团队客户端无法加入 Skype for Business 会议，并且 Skype for business 客户端无法加入团队会议。</span><span class="sxs-lookup"><span data-stu-id="a0080-289">Teams clients cannot join Skype for Business meetings, and Skype for Business clients cannot join Teams meetings.</span></span>
-
-- <span data-ttu-id="a0080-290">PSTN 用户（可选） "拨入" 或 "拨出"，具体取决于会议的组织者 PSTN 呼叫和/或会议设置。</span><span class="sxs-lookup"><span data-stu-id="a0080-290">A PSTN user optionally "Dials IN" or is "Dialed OUT", depending on the meeting's organizer PSTN Calling and/or conferencing provisioning.</span></span>
-
-- <span data-ttu-id="a0080-291">来宾用户或客户用户可以通过使用带有严格规则的 FW/NAT 进行保护的来宾专用网络加入。</span><span class="sxs-lookup"><span data-stu-id="a0080-291">A guest user or a customer user may join from a guest private network, which is protected using FW/NAT with strict rules.</span></span>
-
-<span data-ttu-id="a0080-292">[![Microsoft 团队在线通话流程图09](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-292">[![Microsoft Teams Online Call Flows Figure 09](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)</span></span>
-
-<span data-ttu-id="a0080-293">*图 9-团队会议*</span><span class="sxs-lookup"><span data-stu-id="a0080-293">*Figure 9 - Teams Meeting*</span></span>
-
-#### <a name="use-case-federation-with-skype-for-business-on-premises"></a><span data-ttu-id="a0080-294">使用案例：使用 Skype for business 内部部署联盟</span><span class="sxs-lookup"><span data-stu-id="a0080-294">Use case: Federation with Skype for Business on premises</span></span>
-
-<span data-ttu-id="a0080-295">**按团队在 Office 365 中传输中继的媒体中继**</span><span class="sxs-lookup"><span data-stu-id="a0080-295">**Media relayed by Teams Transport Relay in Office 365**</span></span>
-
-<span data-ttu-id="a0080-296">[![Microsoft 团队在线通话流程图10](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-296">[![Microsoft Teams Online Call Flows Figure 10](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)</span></span>
-
-<span data-ttu-id="a0080-297">*图 10-按组在 Office 365 中传输中继的媒体中继*</span><span class="sxs-lookup"><span data-stu-id="a0080-297">*Figure 10 - Media relayed by Teams Transport Relay in Office 365*</span></span>
-
-<span data-ttu-id="a0080-298">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-298">Note that:</span></span>
-
-- <span data-ttu-id="a0080-299">根据定义，联盟是两个租户之间的通信。</span><span class="sxs-lookup"><span data-stu-id="a0080-299">Federation is, by definition, a communication between two tenants.</span></span> <span data-ttu-id="a0080-300">在这种情况下，租户 A 使用团队，federates 与租户 B 一起使用 Skype for Business 内部部署。</span><span class="sxs-lookup"><span data-stu-id="a0080-300">In this case, tenant A, which uses Teams, federates with tenant B, which uses Skype for Business on premises.</span></span> <span data-ttu-id="a0080-301">如果租户 B 也使用的是 Office 365，则 Skype for Business 客户端将使用流3与 Office 365 连接。</span><span class="sxs-lookup"><span data-stu-id="a0080-301">If tenant B is also using Office 365, then the Skype for Business client would have used flow 3 to connect with Office 365.</span></span>
-
-- <span data-ttu-id="a0080-302">来自联合 Skype for business 客户端到本地 Skype for Business 服务器的信号和媒体已超出本文档的范围。</span><span class="sxs-lookup"><span data-stu-id="a0080-302">Signaling and media from the federated Skype for Business client to on-premises Skype for Business Server is out of scope of this document.</span></span> <span data-ttu-id="a0080-303">但是，此处对此进行了明确说明。</span><span class="sxs-lookup"><span data-stu-id="a0080-303">However, it is illustrated here for clarity.</span></span>
-
-- <span data-ttu-id="a0080-304">团队和 Skype for business 之间的信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="a0080-304">Signaling between Teams and Skype for Business is bridged by a gateway in Office 365.</span></span>
-
-- <span data-ttu-id="a0080-305">在此情况下，媒体由团队将 Office 365 中的传输传输到客户网络和使用流4的远程 Skype for Business 客户端进行中转。</span><span class="sxs-lookup"><span data-stu-id="a0080-305">Media in this case is relayed by Teams Transport Relay in Office 365 to the customer network and remote Skype for Business client using flow 4.</span></span>
-
-<span data-ttu-id="a0080-306">**联合租户中 Skype for business Media 中继的媒体中继**</span><span class="sxs-lookup"><span data-stu-id="a0080-306">**Media relayed by Skype for Business Media Relay in federated tenant**</span></span>
-
-<span data-ttu-id="a0080-307">[![Microsoft 团队在线通话流程图11](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-307">[![Microsoft Teams Online Call Flows Figure 11](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)</span></span>
-
-<span data-ttu-id="a0080-308">*图 11-联合租户中 Skype for business Media 中继的媒体中继*</span><span class="sxs-lookup"><span data-stu-id="a0080-308">*Figure 11 - Media relayed by Skype for Business Media Relay in federated tenant*</span></span>
-
-<span data-ttu-id="a0080-309">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-309">Note that:</span></span>
-
-- <span data-ttu-id="a0080-310">从联合 Skype for business 客户端到本地 Skype for Business 服务器的信号和媒体已超出本文档的范围。</span><span class="sxs-lookup"><span data-stu-id="a0080-310">Signaling and media from the federated Skype for Business client to an on-premises Skype for Business Server is out of scope of this document.</span></span> <span data-ttu-id="a0080-311">但是，此处对此进行了明确说明。</span><span class="sxs-lookup"><span data-stu-id="a0080-311">However, it is illustrated here for clarity.</span></span>
-
-- <span data-ttu-id="a0080-312">团队和 Skype for business 之间的信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="a0080-312">Signaling between Teams and Skype for Business is bridged by a Gateway in Office 365.</span></span>
-
-- <span data-ttu-id="a0080-313">在此情况下，媒体将由 Skype for business 本地媒体中继中继到使用流2的客户网络。</span><span class="sxs-lookup"><span data-stu-id="a0080-313">Media in this case is relayed by Skype for Business on-premises Media Relay to the customer network using flow 2.</span></span> <span data-ttu-id="a0080-314">（请注意，"媒体中继" 中来自团队用户到远程媒体中继的流量最初将由媒体中继阻止，直到流处于相反方向。</span><span class="sxs-lookup"><span data-stu-id="a0080-314">(Note that traffic from Teams user to the remote Media Relay in the federated customer network will be initially blocked by the Media Relay until traffic in the reverse direction starts to flow.</span></span> <span data-ttu-id="a0080-315">但是，双向流将以两种方向打开连接。）</span><span class="sxs-lookup"><span data-stu-id="a0080-315">However, the bidirectional flow will open connectivity in both directions.)</span></span>
-
-<span data-ttu-id="a0080-316">**直接（对等）**</span><span class="sxs-lookup"><span data-stu-id="a0080-316">**Direct (peer-to-peer)**</span></span>
-
-<span data-ttu-id="a0080-317">[![Microsoft 团队在线通话流程图12](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-317">[![Microsoft Teams Online Call Flows Figure 12](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)</span></span>
-
-<span data-ttu-id="a0080-318">*图 12-直接（对等）*</span><span class="sxs-lookup"><span data-stu-id="a0080-318">*Figure 12 - Direct (peer-to-peer)*</span></span>
-
-### <a name="teams-hybrid-topology"></a><span data-ttu-id="a0080-319">团队混合拓扑</span><span class="sxs-lookup"><span data-stu-id="a0080-319">Teams hybrid topology</span></span>
-
-<span data-ttu-id="a0080-320">此拓扑包括具有 Skype for Business 内部部署的团队。</span><span class="sxs-lookup"><span data-stu-id="a0080-320">This topology includes Teams with a Skype for Business on-premises deployment.</span></span>
-
-<span data-ttu-id="a0080-321">[![Microsoft 团队在线通话流程图13](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-321">[![Microsoft Teams Online Call Flows Figure 13](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)</span></span>
-
-<span data-ttu-id="a0080-322">*图 13-团队混合拓扑*</span><span class="sxs-lookup"><span data-stu-id="a0080-322">*Figure 13 - Teams hybrid topology*</span></span>
-
-- <span data-ttu-id="a0080-323">上图中箭头的方向反映了在企业外围环境中影响连接的通信的初始方向。</span><span class="sxs-lookup"><span data-stu-id="a0080-323">The direction of the arrows on the diagram above reflect the initiation direction of the communication that affects connectivity at the enterprise perimeters.</span></span> <span data-ttu-id="a0080-324">在 UDP for media 的情况下，第一个数据包可能沿相反方向流动，但这些数据包可能会被阻止，直到其他方向的数据包才会流动。</span><span class="sxs-lookup"><span data-stu-id="a0080-324">In the case of UDP for media, the first packet(s) may flow in the reverse direction, but these packets may be blocked until packets in the other direction will flow.</span></span>
-
-- <span data-ttu-id="a0080-325">团队与 Skype for Business Online 并排部署，因此客户将显示为 "团队/SFB 用户"。</span><span class="sxs-lookup"><span data-stu-id="a0080-325">Teams is deployed side by side with Skype for Business Online, hence clients are displayed as "Teams/SFB user."</span></span>
-
-<span data-ttu-id="a0080-326">其他流（在团队拓扑之上）：</span><span class="sxs-lookup"><span data-stu-id="a0080-326">Additional flow (on top of Teams topology):</span></span>
-
-- <span data-ttu-id="a0080-327">**流 5a** –表示客户网络中的团队用户之间的对等媒体流和客户网络边缘的 Skype for business 本地媒体中继。</span><span class="sxs-lookup"><span data-stu-id="a0080-327">**Flow 5A** – Represents a peer-to-peer media flow between a Teams user within the customer network and a Skype for Business on-premises media relay at the customer network edge.</span></span>
-
-#### <a name="use-case-teams-to-skype-for-business-one-to-one"></a><span data-ttu-id="a0080-328">使用案例：团队到 Skype for business 一对一</span><span class="sxs-lookup"><span data-stu-id="a0080-328">Use case: Teams to Skype for Business one-to-one</span></span>
-
-<span data-ttu-id="a0080-329">**客户网络中的混合**</span><span class="sxs-lookup"><span data-stu-id="a0080-329">**Hybrid within the customer network**</span></span>
-
-<span data-ttu-id="a0080-330">[![Microsoft 团队在线通话流程图14](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-330">[![Microsoft Teams Online Call Flows Figure 14](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)</span></span>
-
-<span data-ttu-id="a0080-331">*图 14-客户网络中的混合*</span><span class="sxs-lookup"><span data-stu-id="a0080-331">*Figure 14 - Hybrid within customer network*</span></span>
-
-<span data-ttu-id="a0080-332">团队和 Skype for business 之间的信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="a0080-332">Signaling between Teams and Skype for Business is bridged by a gateway in Office 365.</span></span> <span data-ttu-id="a0080-333">但是，媒体在客户网络中使用流量5进行直接对等路由。</span><span class="sxs-lookup"><span data-stu-id="a0080-333">However, media is routed directly peer-to-peer within the customer network using flow 5.</span></span>
-
-<span data-ttu-id="a0080-334">**具有外部 Skype for Business 用户的混合客户网络-由 Office 365 中继**</span><span class="sxs-lookup"><span data-stu-id="a0080-334">**Hybrid customer network with external Skype for Business user – relayed by Office 365**</span></span>
-
-<span data-ttu-id="a0080-335">[![Microsoft 团队在线通话流程图15](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-335">[![Microsoft Teams Online Call Flows Figure 15](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)</span></span>
-
-<span data-ttu-id="a0080-336">*图 15-使用外部 Skype for Business 用户的混合客户网络-由 Office 365 进行中继*</span><span class="sxs-lookup"><span data-stu-id="a0080-336">*Figure 15 - Hybrid customer network with external Skype for Business user - relayed by Office 365*</span></span>
-
-<span data-ttu-id="a0080-337">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-337">Note that:</span></span>
-
-- <span data-ttu-id="a0080-338">从 Skype for business 客户端到本地 Skype for Business 服务器的信号和媒体已超出本文档的范围。</span><span class="sxs-lookup"><span data-stu-id="a0080-338">Signaling and media from the Skype for Business client to an on-premises Skype for Business Server is out of scope of this document.</span></span> <span data-ttu-id="a0080-339">但是，此处对此进行了明确说明。</span><span class="sxs-lookup"><span data-stu-id="a0080-339">However, it is illustrated here for clarity.</span></span>
-
-- <span data-ttu-id="a0080-340">团队和 Skype for business 之间的信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="a0080-340">Signaling between Teams and Skype for Business is bridged by a gateway in Office 365.</span></span>
-
-- <span data-ttu-id="a0080-341">媒体通过团队将 Office 365 中的中继传输到流4中的客户网络来进行中继。</span><span class="sxs-lookup"><span data-stu-id="a0080-341">Media is relayed through Teams Transport Relay in Office 365 to the customer network through flow 4.</span></span>
-
-<span data-ttu-id="a0080-342">**具有外部 Skype for Business 用户的混合客户网络-通过本地边缘进行中继**</span><span class="sxs-lookup"><span data-stu-id="a0080-342">**Hybrid customer network with external Skype for Business user – relayed by on-premises Edge**</span></span>
-
-<span data-ttu-id="a0080-343">[![Microsoft 团队在线通话流程图16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-343">[![Microsoft Teams Online Call Flows Figure 16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)</span></span>
-
-<span data-ttu-id="a0080-344">*图 16-具有外部 Skype for Business 用户的混合客户网络-通过本地边缘进行中继*</span><span class="sxs-lookup"><span data-stu-id="a0080-344">*Figure 16 - Hybrid customer network with external Skype for Business user - relayed by on-premises Edge*</span></span>
-
-<span data-ttu-id="a0080-345">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-345">Note that:</span></span>
-
-- <span data-ttu-id="a0080-346">从 Skype for business 客户端到本地 Skype for Business 服务器的信号和媒体已超出本文档的范围。</span><span class="sxs-lookup"><span data-stu-id="a0080-346">Signaling and media from Skype for Business client to an on-premises Skype for Business Server is out of scope of this document.</span></span> <span data-ttu-id="a0080-347">但是，此处对此进行了明确说明。</span><span class="sxs-lookup"><span data-stu-id="a0080-347">However, it is illustrated here for clarity.</span></span>
-
-- <span data-ttu-id="a0080-348">信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="a0080-348">Signaling is bridged by a gateway in Office 365.</span></span>
-
-- <span data-ttu-id="a0080-349">Skype for business Media 中继中的 skype for business Media 中继将媒体通过媒体流5A 与客户网络中的团队用户进行中继。</span><span class="sxs-lookup"><span data-stu-id="a0080-349">Media is relayed by Skype for Business Media Relay within Skype for Business on-premises Edge to Teams user within the customer network using media flow 5A.</span></span>
-
-### <a name="teams-with-phone-system-direct-routing-topology"></a><span data-ttu-id="a0080-350">具有手机系统直接路由拓扑的团队</span><span class="sxs-lookup"><span data-stu-id="a0080-350">Teams with Phone System Direct Routing topology</span></span>
-
-<span data-ttu-id="a0080-351">此拓扑包括具有手机系统直接路由的团队。</span><span class="sxs-lookup"><span data-stu-id="a0080-351">This topology includes Teams with Phone System Direct Routing.</span></span>
-
-<span data-ttu-id="a0080-352">直接路由使你能够通过将支持的本地客户拥有的会话边界控制器（SBC）硬件设备与 Office 365 配对，然后将电话服务主干连接到该服务提供商，从而使用第三方公共交换电话网络（PSTN）服务提供商该设备。</span><span class="sxs-lookup"><span data-stu-id="a0080-352">Direct Routing enables you to use a third-party Public Switched Telephone Network (PSTN) service provider by pairing a supported on-premises customer-owned Session Border Controller (SBC) hardware device to Office 365, and then connecting the telephony trunk to that device.</span></span>
-
-<span data-ttu-id="a0080-353">若要支持此方案，客户必须部署经认证的 SBC，以便直接从 Microsoft 认证合作伙伴之一进行路由。</span><span class="sxs-lookup"><span data-stu-id="a0080-353">To support this scenario, the customer must deploy a certified SBC for Direct Routing from one of Microsoft's certified partners.</span></span> <span data-ttu-id="a0080-354">SBC 必须按照供应商的建议进行配置，并可路由来自 Office 365 的直接 UDP 流量。</span><span class="sxs-lookup"><span data-stu-id="a0080-354">The SBC must be configured as recommended by the vendor, and be routable from Office 365 for direct UDP traffic.</span></span> <span data-ttu-id="a0080-355">媒体可能直接从团队和/或 Skype for business 客户端传递到 SBC （绕过团队网关）或遍历团队网关。</span><span class="sxs-lookup"><span data-stu-id="a0080-355">The media may flow directly from Teams and/or the Skype for Business client to the SBC (bypassing the Teams gateway) or traverse through the Teams gateway.</span></span> <span data-ttu-id="a0080-356">当主干配置为绕过团队网关时，与 sbc 的连接是基于 ICE 的，其中 SBC 支持 ICE，而团队/Skype for Business media 终结点支持 ICE 完整形式。</span><span class="sxs-lookup"><span data-stu-id="a0080-356">The connectivity with the SBC, when the trunk is configured to bypass the Teams gateway, is based on ICE, where SBC supports ICE-Lite, while the Teams/Skype for Business media endpoint supports ICE Full Form.</span></span>
-
-<span data-ttu-id="a0080-357">[![Microsoft 团队在线通话流程图17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-357">[![Microsoft Teams Online Call Flows Figure 17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)</span></span>
-
-<span data-ttu-id="a0080-358">\* 图 17-具有手机系统直接路由拓扑的团队</span><span class="sxs-lookup"><span data-stu-id="a0080-358">\*Figure 17 - Teams with Phone System Direct Routing topology</span></span>
-
-<span data-ttu-id="a0080-359">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-359">Note that:</span></span>
-
-- <span data-ttu-id="a0080-360">上图中箭头的方向反映了在企业外围环境中影响连接的通信的初始方向。</span><span class="sxs-lookup"><span data-stu-id="a0080-360">The direction of the arrows on the diagram above reflect the initiation direction of the communication that affects connectivity at the enterprise perimeters.</span></span> <span data-ttu-id="a0080-361">在 UDP for media 的情况下，第一个数据包可能沿相反方向流动，但这些数据包可能会被阻止，直到其他方向的数据包才会流动。</span><span class="sxs-lookup"><span data-stu-id="a0080-361">In the case of UDP for media, the first packet(s) may flow in the reverse direction, but these packets may be blocked until packets in the other direction will flow.</span></span>
-
-- <span data-ttu-id="a0080-362">团队与 Skype for Business Online 并排部署，因此客户将显示为 "团队/SFB 用户"。</span><span class="sxs-lookup"><span data-stu-id="a0080-362">Teams is deployed side by side with Skype for Business Online, hence clients are displayed as "Teams/SFB user."</span></span>
-
-<span data-ttu-id="a0080-363">其他流（位于团队联机拓扑的顶部）：</span><span class="sxs-lookup"><span data-stu-id="a0080-363">Additional flows (on top of Teams online topology):</span></span>
-
-- <span data-ttu-id="a0080-364">**流 4 "** -表示从 Office 365 到客户网络的流，用于在云中的团队媒体服务器与 SBC 内部部署之间建立连接。</span><span class="sxs-lookup"><span data-stu-id="a0080-364">**Flow 4'** - Represents a flow from Office 365 to the customer network, used to establish a connection between the Teams media server in the cloud with the SBC on premises.</span></span>
-- <span data-ttu-id="a0080-365">**流 5b** -表示客户网络中的团队用户之间的媒体流，在旁路模式下直接路由 SBC。</span><span class="sxs-lookup"><span data-stu-id="a0080-365">**Flow 5B** – Represents a media flow between the Teams user within the customer network with the Direct Routing SBC in bypass mode.</span></span>
-- <span data-ttu-id="a0080-366">**流 5c** -表示在 PSTN hairpin 呼叫旁路模式下直接路由 sbc 与另一个直接路由 sbc 之间的媒体流。</span><span class="sxs-lookup"><span data-stu-id="a0080-366">**Flow 5C** – Represents a media flow between the Direct Routing SBC to another Direct Routing SBC in a PSTN hairpin call bypass mode.</span></span>
-
-<span data-ttu-id="a0080-367">**具有直接路由的内部用户（按团队在 Office 365 中传输中继的媒体中转）**</span><span class="sxs-lookup"><span data-stu-id="a0080-367">**Internal user with Direct Routing (media relayed by Teams Transport Relay in Office 365)**</span></span>
-
-<span data-ttu-id="a0080-368">[![Microsoft 团队在线通话流程图18](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-368">[![Microsoft Teams Online Call Flows Figure 18](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)</span></span>
-
-<span data-ttu-id="a0080-369">*图 18-直接路由的内部用户（按团队在 Office 365 中传输中继的媒体中继）*</span><span class="sxs-lookup"><span data-stu-id="a0080-369">*Figure 18 - Internal user with Direct Routing (media relayed by Teams Transport Relay in Office 365)*</span></span>
-
-<span data-ttu-id="a0080-370">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-370">Note that:</span></span>
-
-- <span data-ttu-id="a0080-371">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a0080-371">The SBC must have a public IP address that is routable from Office 365.</span></span>
-
-- <span data-ttu-id="a0080-372">从 SBC 到 Office 365 的信号和媒体（反之亦然）使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-372">Signaling and media from the SBC to Office 365 and vice versa use flow 4 and/or flow 4'.</span></span>
-
-- <span data-ttu-id="a0080-373">从客户网络中的客户端到 Office 365 的信号和媒体使用流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-373">Signaling and media from the client within the customer network to Office 365 use flow 4.</span></span>
-
-<span data-ttu-id="a0080-374">**具有直接路由的远程用户（通过 Office 365 中的媒体服务器（MP）路由媒体）**</span><span class="sxs-lookup"><span data-stu-id="a0080-374">**Remote user with Direct Routing (media is routed through a media server (MP) in Office 365)**</span></span>
-
-<span data-ttu-id="a0080-375">[![Microsoft 团队在线通话流程图19](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-375">[![Microsoft Teams Online Call Flows Figure 19](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)</span></span>
-
-<span data-ttu-id="a0080-376">*图 19-使用直接路由的远程用户（通过 Office 365 中的媒体服务器（MP）路由媒体）*</span><span class="sxs-lookup"><span data-stu-id="a0080-376">*Figure 19 - Remote user with Direct Routing (media is routed through a media server (MP) in Office 365)*</span></span>
-
-<span data-ttu-id="a0080-377">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-377">Note that:</span></span>
-
-- <span data-ttu-id="a0080-378">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a0080-378">The SBC must have a public IP address that is routable from Office 365.</span></span>
-
-- <span data-ttu-id="a0080-379">从 SBC 到 Office 365 的信号和媒体（反之亦然）使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-379">Signaling and media from the SBC to Office 365 and vice versa use flow 4 and/or flow 4'.</span></span>
-
-- <span data-ttu-id="a0080-380">从 Internet 上的客户端到 Office 365 的信号和媒体使用流程3。</span><span class="sxs-lookup"><span data-stu-id="a0080-380">Signaling and media from the client on the Internet to Office 365 use flow 3.</span></span>
-
-<span data-ttu-id="a0080-381">**内部用户直接路由（媒体旁路）**</span><span class="sxs-lookup"><span data-stu-id="a0080-381">**Internal user Direct Routing (media bypass)**</span></span>
-
-<span data-ttu-id="a0080-382">[![Microsoft 团队在线通话流程图20](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-382">[![Microsoft Teams Online Call Flows Figure 20](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)</span></span>
-
-<span data-ttu-id="a0080-383">*图 20-内部用户直接路由（媒体旁路）*</span><span class="sxs-lookup"><span data-stu-id="a0080-383">*Figure 20 - Internal user Direct Routing (media bypass)*</span></span>
-
-<span data-ttu-id="a0080-384">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-384">Note that:</span></span>
-
-- <span data-ttu-id="a0080-385">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a0080-385">The SBC must have a public IP address that is routable from Office 365.</span></span>
-
-- <span data-ttu-id="a0080-386">从 SBC 到 Office 365 的信号，反之亦然，使用流程4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-386">Signaling from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.</span></span>
-
-- <span data-ttu-id="a0080-387">从客户网络中的客户端发送到 Office 365 的信号使用流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-387">Signaling from client within the customer network to Office 365 use flow 4.</span></span>
-
-- <span data-ttu-id="a0080-388">从客户网络中的客户端到客户网络内的 SBC 的媒体使用流程5B。</span><span class="sxs-lookup"><span data-stu-id="a0080-388">Media from client within the customer network to SBC within the customer network use flow 5B.</span></span>
-
-<span data-ttu-id="a0080-389">**具有直接路由的远程用户（由团队在 Office 365 中传输中继的媒体绕过中继）**</span><span class="sxs-lookup"><span data-stu-id="a0080-389">**Remote user with Direct Routing (media bypass relayed by Teams Transport Relay in Office 365)**</span></span>
-
-<span data-ttu-id="a0080-390">[![Microsoft 团队在线通话流程图21](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-390">[![Microsoft Teams Online Call Flows Figure 21](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)</span></span>
-
-<span data-ttu-id="a0080-391">*图 21-使用直接路由的远程用户（由团队在 Office 365 中传输中继的媒体旁路中继）*</span><span class="sxs-lookup"><span data-stu-id="a0080-391">*Figure 21 - Remote user with Direct Routing (media bypass relayed by Teams Transport Relay in Office 365)*</span></span>
-
-<span data-ttu-id="a0080-392">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-392">Note that:</span></span>
-
-- <span data-ttu-id="a0080-393">SBC 必须具有可通过 Office 365 和 Internet 进行路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a0080-393">The SBC must have a public IP address that is routable from Office 365 and Internet.</span></span>
-
-- <span data-ttu-id="a0080-394">从 SBC 到 Office 365 的信号，反之亦然，使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-394">Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.</span></span>
-
-- <span data-ttu-id="a0080-395">从 Internet 上的客户端发送到 Office 365 的信号使用流程3。</span><span class="sxs-lookup"><span data-stu-id="a0080-395">Signaling from the client on the Internet to Office 365 uses flow 3.</span></span>
-
-- <span data-ttu-id="a0080-396">从 Internet 上的客户端到客户网络中 SBC 的媒体使用流3和4，并按团队在 Office 365 中传输中继的方式进行中继。</span><span class="sxs-lookup"><span data-stu-id="a0080-396">Media from the client on the Internet to the SBC within the customer network uses flows 3 and 4, relayed by Teams Transport Relay in Office 365.</span></span>
-
-<span data-ttu-id="a0080-397">**远程用户直接路由（媒体旁路直接路由）**</span><span class="sxs-lookup"><span data-stu-id="a0080-397">**Remote user Direct Routing (media bypass direct)**</span></span>
-
-<span data-ttu-id="a0080-398">[![Microsoft 团队在线通话流程图22](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-398">[![Microsoft Teams Online Call Flows Figure 22](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)</span></span>
-
-<span data-ttu-id="a0080-399">*图 22-远程用户直接路由（媒体旁路直接路由）*</span><span class="sxs-lookup"><span data-stu-id="a0080-399">*Figure 22 - Remote user Direct Routing (media bypass direct)*</span></span>
-
-<span data-ttu-id="a0080-400">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-400">Note that:</span></span>
-
-- <span data-ttu-id="a0080-401">SBC 必须具有可通过 Office 365 和 Internet 进行路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a0080-401">The SBC must have a public IP address that is routable from Office 365 and the Internet.</span></span>
-
-- <span data-ttu-id="a0080-402">从 SBC 到 Office 365 的信号，反之亦然，使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-402">Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.</span></span>
-
-- <span data-ttu-id="a0080-403">从 Internet 上的客户端发送到 Office 365 的信号使用流程3。</span><span class="sxs-lookup"><span data-stu-id="a0080-403">Signaling from the client on the Internet to Office 365 uses flow 3.</span></span>
-
-- <span data-ttu-id="a0080-404">从 Internet 上的客户端到客户网络中的 SBC 的媒体使用流2。</span><span class="sxs-lookup"><span data-stu-id="a0080-404">Media from the client on the Internet to the SBC within the customer network uses flow 2.</span></span>
-
-<span data-ttu-id="a0080-405">**直接路由（媒体旁路）-PSTN hairpin 呼叫（由于呼叫转发/传输）**</span><span class="sxs-lookup"><span data-stu-id="a0080-405">**Direct Routing (media bypass) – PSTN hairpin call (due to call forward/transfer)**</span></span>
-
-<span data-ttu-id="a0080-406">[![Microsoft 团队在线通话流程图23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-406">[![Microsoft Teams Online Call Flows Figure 23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)</span></span>
-
-<span data-ttu-id="a0080-407">*图 23-直接路由（媒体旁路）-PSTN hairpin 呼叫（由于呼叫转发/传输）*</span><span class="sxs-lookup"><span data-stu-id="a0080-407">*Figure 23 - Direct Routing (media bypass) - PSTN hairpin call (due to call forward/transfer)*</span></span>
-
-<span data-ttu-id="a0080-408">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-408">Note that:</span></span>
-
-- <span data-ttu-id="a0080-409">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a0080-409">The SBC must have a public IP address that is routable from Office 365.</span></span>
-
-- <span data-ttu-id="a0080-410">从 SBC 到 Office 365 的信号，反之亦然，使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-410">Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.</span></span>
-
-- <span data-ttu-id="a0080-411">从 PSTN 到 PSTN hairpinned 呼叫后，客户端不会发出信号和媒体循环。</span><span class="sxs-lookup"><span data-stu-id="a0080-411">The client is out of the signaling and media loop after the call is hairpinned from PSTN to PSTN.</span></span>
-
-- <span data-ttu-id="a0080-412">从客户网络内的 SBC 实例 A 到客户网络（其中 A 和 B 可以是同一实例）内的 sbc 实例 B 的媒体使用流程5C。</span><span class="sxs-lookup"><span data-stu-id="a0080-412">Media from SBC instance A within the customer network to SBC instance B within the customer network (where, A and B can be the same instance) uses flow 5C.</span></span>
-
-<span data-ttu-id="a0080-413">**直接路由（通过 Office 365 的媒体）-跨两个租户的 PSTN hairpin 呼叫**</span><span class="sxs-lookup"><span data-stu-id="a0080-413">**Direct Routing (media through Office 365) – PSTN hairpin call across two tenants**</span></span>
-
-<span data-ttu-id="a0080-414">[![Microsoft 团队在线通话流程图24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-414">[![Microsoft Teams Online Call Flows Figure 24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)</span></span>
-
-<span data-ttu-id="a0080-415">*图 24-直接路由（通过 Office 365 的媒体）-跨两个租户的 PSTN hairpin 呼叫*</span><span class="sxs-lookup"><span data-stu-id="a0080-415">*Figure 24 - Direct Routing (media through Office 365) – PSTN hairpin call across two tenants*</span></span>
-
-<span data-ttu-id="a0080-416">请注意：</span><span class="sxs-lookup"><span data-stu-id="a0080-416">Note that:</span></span>
-
-- <span data-ttu-id="a0080-417">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a0080-417">The SBC must have a public IP address that is routable from Office 365.</span></span>
-
-- <span data-ttu-id="a0080-418">从 SBC 到 Office 365 的信号，反之亦然，使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="a0080-418">Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.</span></span>
-
-- <span data-ttu-id="a0080-419">从 PSTN 到 PSTN hairpinned 呼叫后，客户端不会发出信号和媒体循环。</span><span class="sxs-lookup"><span data-stu-id="a0080-419">The client is out of the signaling and media loop after the call is hairpinned from PSTN to PSTN.</span></span>
-
-- <span data-ttu-id="a0080-420">来自 SBC 实例 A （从客户网络 X 到 SBC 实例 B）内部的媒体必须通过 Office 365 媒体服务器中继，并且无法使用绕过模式。</span><span class="sxs-lookup"><span data-stu-id="a0080-420">Media from SBC instance A within the customer network X to SBC instance B must be relayed through the Office 365 Media Server and can't use bypass mode.</span></span>
-
-## <a name="teams-with-express-route-optimization"></a><span data-ttu-id="a0080-421">具有快速路线优化的团队</span><span class="sxs-lookup"><span data-stu-id="a0080-421">Teams with Express Route optimization</span></span>
-
-<span data-ttu-id="a0080-422">[![Microsoft 团队在线通话流程图25](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-422">[![Microsoft Teams Online Call Flows Figure 25](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)</span></span>
-
-<span data-ttu-id="a0080-423">*图 25-具有快速路线优化的团队*</span><span class="sxs-lookup"><span data-stu-id="a0080-423">*Figure 25 - Teams with Express Route optimization*</span></span>
-
-<span data-ttu-id="a0080-424">在显示和部署快速路由的情况下，团队流可以从流4重新路由到流1，从流 4 "重新路由到流 1"。</span><span class="sxs-lookup"><span data-stu-id="a0080-424">In the case that Express Route is justified and deployed, then Teams flows could be re-routed from flow 4 to flow 1 and from flow 4' to flow 1'.</span></span> <span data-ttu-id="a0080-425">但是，团队应用程序与通过 Internet 使用流4和4的其他 Office 365 流的相关性很难因此，不能阻止这些流程。</span><span class="sxs-lookup"><span data-stu-id="a0080-425">However, the Teams application has a hard dependency on other Office 365 flows over the Internet using flows 4 and 4'; hence these flows must not be blocked.</span></span>
-
-<span data-ttu-id="a0080-426">请注意，Skype for Business 混合边缘流量将路由到 Internet，而不是快速路由以与外部用户通信并与其他租户联盟。</span><span class="sxs-lookup"><span data-stu-id="a0080-426">Note that Skype for Business hybrid Edge traffic is routed to the Internet and not to Express Route to communicate with external users and federate with other tenants.</span></span>
-
-<span data-ttu-id="a0080-427">若要防止非对称流，重新路由必须在两个方向上。</span><span class="sxs-lookup"><span data-stu-id="a0080-427">To prevent asymmetrical flows, re-routing must be in both directions.</span></span> <span data-ttu-id="a0080-428">换句话说，客户网络中的地址通过 Internet 或快速路由进行路由，基于优化，但不能通过这两者进行路由。</span><span class="sxs-lookup"><span data-stu-id="a0080-428">In other words, an address within the customer network is routable either through Internet or Express Route, based on optimization, but not through both.</span></span>
-
-
-<span data-ttu-id="a0080-429">**向外部用户的客户网络（按团队传输中继的媒体中继）：**</span><span class="sxs-lookup"><span data-stu-id="a0080-429">**Customer network to external user (media relayed by Teams Transport Relay):**</span></span>
-
-<span data-ttu-id="a0080-430">[![Microsoft 团队在线通话流程图26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)</span><span class="sxs-lookup"><span data-stu-id="a0080-430">[![Microsoft Teams Online Call Flows Figure 26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)</span></span>
-
-<span data-ttu-id="a0080-431">*图 26-向外部用户（按团队传输中继的媒体中继）的客户网络*</span><span class="sxs-lookup"><span data-stu-id="a0080-431">*Figure 26 - Customer network to external user (media relayed by Teams Transport Relay)*</span></span>
-
-<span data-ttu-id="a0080-432">**高级别步骤：**</span><span class="sxs-lookup"><span data-stu-id="a0080-432">**High Level Steps:**</span></span>
-
-1. <span data-ttu-id="a0080-433">客户网络中的团队用户使用 flow2 解析 URL 域名（DNS）。</span><span class="sxs-lookup"><span data-stu-id="a0080-433">Teams User within customer network resolves URL domain name (DNS) using flow2.</span></span>
-1. <span data-ttu-id="a0080-434">客户网络中的 "团队用户" 使用流1分配团队传输中继的媒体中继端口。</span><span class="sxs-lookup"><span data-stu-id="a0080-434">Teams User within customer network allocates a media Relay port on Teams Transport Relay using flow 1.</span></span>
-1. <span data-ttu-id="a0080-435">客户网络内的团队用户通过使用流1到 Office 365 的 ICE 候选人发送 "邀请"。</span><span class="sxs-lookup"><span data-stu-id="a0080-435">Teams User within customer network sends "invite" with ICE candidates using flow 1 to Office 365.</span></span>
-1. <span data-ttu-id="a0080-436">Office 365 使用流程3向外部团队用户发送通知。</span><span class="sxs-lookup"><span data-stu-id="a0080-436">Office 365 sends notification to external Teams user using flow 3.</span></span>
-1. <span data-ttu-id="a0080-437">团队外部用户使用流3在团队传输中继上分配媒体中继端口。</span><span class="sxs-lookup"><span data-stu-id="a0080-437">Teams external user allocates a media Relay port on Teams Transport Relay using flow 3.</span></span>
-1. <span data-ttu-id="a0080-438">团队外部用户通过使用流3向返回到团队用户 A 的 ICE 发送 "应答"。</span><span class="sxs-lookup"><span data-stu-id="a0080-438">Teams external user sends "answer" with ICE candidates using flow 3, which is forwarded back to Teams user A using Flow 1.</span></span>
-1. <span data-ttu-id="a0080-439">团队用户 A 和团队用户 B 调用 ICE 连接测试，并选择流1和3（由 Office 365 中的团队传输中继进行中继）。</span><span class="sxs-lookup"><span data-stu-id="a0080-439">Teams User A and Teams User B invoke ICE connectivity tests and selects flows 1 and 3, which are relayed by Teams Transport Relay in Office 365.</span></span>
-1. <span data-ttu-id="a0080-440">团队用户使用流1和3将遥测发送到 Office 365。</span><span class="sxs-lookup"><span data-stu-id="a0080-440">Teams Users send telemetry to Office 365 using flows 1 and 3.</span></span>
+<span data-ttu-id="65da9-168">**VPN 网络**。</span><span class="sxs-lookup"><span data-stu-id="65da9-168">**VPN network**.</span></span> <span data-ttu-id="65da9-169">不建议媒体流量（或流 2 "）。</span><span class="sxs-lookup"><span data-stu-id="65da9-169">It is not recommended for media traffic (or flow 2').</span></span> <span data-ttu-id="65da9-170">VPN 客户端应使用分离的 VPN 和路由媒体流量（如任何外部非 VPN 用户），如[使 Lync 媒体绕过 VPN 隧道](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)指定的任何外部非 VPN 用户。</span><span class="sxs-lookup"><span data-stu-id="65da9-170">The VPN client should use split VPN and route media traffic like any external non-VPN user, as specified in [Enabling Lync media to bypass a VPN tunnel](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a0080-441">必须启用流4以支持团队应用程序依赖于其他微服务的依赖关系4。</span><span class="sxs-lookup"><span data-stu-id="a0080-441">Flow 4 must be enabled to support dependencies of Teams application on other micro-services that mandates flow 4.</span></span>
+> <span data-ttu-id="65da9-171">尽管标题指示 Lync，但它也适用于团队。</span><span class="sxs-lookup"><span data-stu-id="65da9-171">Although the title indicates Lync, it is applicable to Teams as well.</span></span>
+
+<span data-ttu-id="65da9-172">**数据包 shapers**。</span><span class="sxs-lookup"><span data-stu-id="65da9-172">**Packet shapers**.</span></span> <span data-ttu-id="65da9-173">不推荐任何类型的数据包 snippers、数据包检查或数据包整形设备，可能会显著降低质量。</span><span class="sxs-lookup"><span data-stu-id="65da9-173">Any kind of packet snippers, packet inspection, or packet shaper devices are not recommended and may degrade quality significantly.</span></span>
+
+### <a name="principles"></a><span data-ttu-id="65da9-174">规则</span><span class="sxs-lookup"><span data-stu-id="65da9-174">Principles</span></span>
+
+<span data-ttu-id="65da9-175">有四个一般原则可帮助你理解 Microsoft 团队的通话流：</span><span class="sxs-lookup"><span data-stu-id="65da9-175">There are four general principles that help you understand call flows for Microsoft Teams:</span></span>
+
+- <span data-ttu-id="65da9-176">Microsoft 团队会议由与第一个参与者联接的同一区域中的 Office 365 托管。</span><span class="sxs-lookup"><span data-stu-id="65da9-176">A Microsoft Teams conference is hosted by Office 365 in the same region where the first participant joined.</span></span> <span data-ttu-id="65da9-177">（请注意，如果某些拓扑中存在此规则的例外情况，将在本文档中对其进行介绍，并通过相应的通话流进行说明。）</span><span class="sxs-lookup"><span data-stu-id="65da9-177">(Note that if there are exceptions to this rule in some topologies, they will be described in this document and illustrated by an appropriate call flow.)</span></span>
+
+- <span data-ttu-id="65da9-178">Office 365 中的团队媒体终结点基于媒体处理需求使用，而不是基于呼叫类型。</span><span class="sxs-lookup"><span data-stu-id="65da9-178">A Teams media endpoint in Office 365 is used based on media processing needs and not based on call type.</span></span> <span data-ttu-id="65da9-179">（例如，点到点呼叫可以使用云中的媒体终结点处理媒体进行操作或录制，而两个参与者的会议可能不会使用云中的任何媒体终结点。）但是，大多数会议会将媒体终结点用于混合和路由用途，分配了托管会议的位置。</span><span class="sxs-lookup"><span data-stu-id="65da9-179">(For example, a point-to-point call may use a media endpoint in the cloud to process media for transcription or recording, while a conference with two participants may not use any media endpoint in the cloud.) However, most conferences will use a media endpoint for mixing and routing purposes, allocated where the conference is hosted.</span></span> <span data-ttu-id="65da9-180">从客户端发送到媒体终结点的媒体流量可能会直接路由，或者在 Office 365 中使用传输中继（如果由于客户网络防火墙限制而需要）。</span><span class="sxs-lookup"><span data-stu-id="65da9-180">The media traffic sent from a client to the media endpoint may be routed directly or use a Transport Relay in Office 365 if required due to customer network firewall restrictions.</span></span>
+
+- <span data-ttu-id="65da9-181">对等呼叫的媒体流量采用可用的最直接路线，假设该呼叫不会在云中强制使用媒体终结点（请参阅以前的原则）。</span><span class="sxs-lookup"><span data-stu-id="65da9-181">Media traffic for peer-to-peer calls take the most direct route that is available, assuming that the call doesn't mandate a media endpoint in the cloud (see previous principle).</span></span> <span data-ttu-id="65da9-182">首选路由直接发送到远程对等（客户端），但如果该路由不可用，则一个或多个传输中继将中继流量。</span><span class="sxs-lookup"><span data-stu-id="65da9-182">The preferred route is direct to the remote peer (client), but if that route isn't available, then one or more Transport Relays will relay traffic.</span></span> <span data-ttu-id="65da9-183">建议媒体流量不应遍历服务器（如数据包 shapers、VPN 服务器等），因为这将影响媒体质量。</span><span class="sxs-lookup"><span data-stu-id="65da9-183">It is recommended that media traffic shall not transverse servers such as packet shapers, VPN servers, and so on, since this will impact the media quality.</span></span>
+
+- <span data-ttu-id="65da9-184">信号流量始终转到最接近于用户的服务器。</span><span class="sxs-lookup"><span data-stu-id="65da9-184">Signaling traffic always goes to the closest server to the user.</span></span>
+
+<span data-ttu-id="65da9-185">若要了解有关所选媒体路径的详细信息，请参阅[了解 Microsoft 团队中的媒体流-BRK4016](https://www.youtube.com/watch?v=1tmHMIlAQdo)。</span><span class="sxs-lookup"><span data-stu-id="65da9-185">To learn more about the details on the media path that is chosen, see [Understanding Media Flows in Microsoft Teams - BRK4016](https://www.youtube.com/watch?v=1tmHMIlAQdo).</span></span>
+
+## <a name="call-flows-in-various-topologies"></a><span data-ttu-id="65da9-186">各种拓扑中的呼叫流</span><span class="sxs-lookup"><span data-stu-id="65da9-186">Call flows in various topologies</span></span>
+
+### <a name="teams-topology"></a><span data-ttu-id="65da9-187">团队拓扑</span><span class="sxs-lookup"><span data-stu-id="65da9-187">Teams topology</span></span>
+
+<span data-ttu-id="65da9-188">此拓扑由客户使用，它在没有任何本地部署（如 Skype for Business Server 或手机系统直接路由）的情况下利用来自云的团队服务。</span><span class="sxs-lookup"><span data-stu-id="65da9-188">This topology is used by customers that leverage Teams services from the cloud without any on-premises deployment, such as Skype for Business Server or Phone System Direct Routing.</span></span> <span data-ttu-id="65da9-189">此外，在没有 Azure Express 路由的情况下，Office 365 的接口通过 Internet 进行。</span><span class="sxs-lookup"><span data-stu-id="65da9-189">In addition, the interface to Office 365 is done over the Internet without Azure Express Route.</span></span>
+
+<span data-ttu-id="65da9-190">[![Microsoft 团队在线通话流程图01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-190">[![Microsoft Teams Online Call Flows Figure 01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)</span></span>
+
+<span data-ttu-id="65da9-191">*图 1-团队拓扑*</span><span class="sxs-lookup"><span data-stu-id="65da9-191">*Figure 1 - Teams topology*</span></span>
+
+<span data-ttu-id="65da9-192">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-192">Note that:</span></span>
+
+- <span data-ttu-id="65da9-193">上图中箭头的方向反映了在企业外围环境中影响连接的通信的初始方向。</span><span class="sxs-lookup"><span data-stu-id="65da9-193">The direction of the arrows on the diagram above reflect the initiation direction of the communication that affects connectivity at the enterprise perimeters.</span></span> <span data-ttu-id="65da9-194">在 UDP for media 的情况下，第一个数据包可能沿相反方向流动，但这些数据包可能会被阻止，直到其他方向的数据包才会流动。</span><span class="sxs-lookup"><span data-stu-id="65da9-194">In the case of UDP for media, the first packet(s) may flow in the reverse direction, but these packets may be blocked until packets in the other direction will flow.</span></span>
+- <span data-ttu-id="65da9-195">团队与 Skype for Business Online 并排部署，因此客户将显示为 "团队/SFB 用户"。</span><span class="sxs-lookup"><span data-stu-id="65da9-195">Teams is deployed side by side with Skype for Business Online, hence clients are displayed as "Teams/SFB user."</span></span>
+
+<span data-ttu-id="65da9-196">有关详细信息，请查看本文后面的以下可选拓扑：</span><span class="sxs-lookup"><span data-stu-id="65da9-196">You can find more information on the following optional topologies later in the article:</span></span>
+
+- <span data-ttu-id="65da9-197">在**团队混合拓扑**中介绍了 Skype for business 内部部署。</span><span class="sxs-lookup"><span data-stu-id="65da9-197">Skype for Business on-premises deployment is described in **Teams hybrid topology**.</span></span>
+- <span data-ttu-id="65da9-198">手机系统直接路由（适用于 PSTN 连接）在**具有直接路由拓扑的团队**中介绍。</span><span class="sxs-lookup"><span data-stu-id="65da9-198">Phone System Direct Routing (for PSTN connectivity) is described in **Teams with Direct Routing topology**.</span></span>
+- <span data-ttu-id="65da9-199">快速路线在**具有 Express 路线优化的团队**中介绍。</span><span class="sxs-lookup"><span data-stu-id="65da9-199">Express Route is described in **Teams with Express Route optimization**.</span></span>
+
+<span data-ttu-id="65da9-200">**流说明**：</span><span class="sxs-lookup"><span data-stu-id="65da9-200">**Flow descriptions**:</span></span>
+
+- <span data-ttu-id="65da9-201">**流 2** -表示用户在客户网络上作为用户团队体验的一部分启动的流程。</span><span class="sxs-lookup"><span data-stu-id="65da9-201">**Flow 2** – Represents a flow initiated by a user on the customer network to the Internet as a part of the user's Teams experience.</span></span> <span data-ttu-id="65da9-202">这些流的示例是 DNS 和对等媒体。</span><span class="sxs-lookup"><span data-stu-id="65da9-202">Examples of these flows are DNS and peer-to-peer media.</span></span>
+- <span data-ttu-id="65da9-203">**流 2 "** –表示由远程移动团队用户发起的流，其中包含指向客户网络的 VPN。</span><span class="sxs-lookup"><span data-stu-id="65da9-203">**Flow 2'** – Represents a flow initiated by a remote mobile Teams user, with VPN to the customer network.</span></span>
+- <span data-ttu-id="65da9-204">**流 3** -表示由远程移动团队用户从 Office 365/团队终结点发起的流。</span><span class="sxs-lookup"><span data-stu-id="65da9-204">**Flow 3** – Represents a flow initiated by a remote mobile Teams user to Office 365/Teams endpoints.</span></span>
+- <span data-ttu-id="65da9-205">**流 4** -表示用户在客户网络上由 Office 365/团队终结点发起的流程。</span><span class="sxs-lookup"><span data-stu-id="65da9-205">**Flow 4** – Represents a flow initiated by a user on the customer network to Office 365/Teams endpoints.</span></span>
+- <span data-ttu-id="65da9-206">**流 5** -表示团队用户与其他团队之间的对等媒体流，或客户网络中的 Skype for business 用户。</span><span class="sxs-lookup"><span data-stu-id="65da9-206">**Flow 5** – Represents a peer-to-peer media flow between a Teams user and another Teams or Skype for Business user within the customer network.</span></span>
+- <span data-ttu-id="65da9-207">**流 6** -表示远程移动团队用户与其他远程移动团队或 Internet 上的 Skype for business 用户之间的对等媒体流。</span><span class="sxs-lookup"><span data-stu-id="65da9-207">**Flow 6** – Represents a peer-to-peer media flow between a remote mobile Teams user and another remote mobile Teams or Skype for Business user over the Internet.</span></span>
+
+#### <a name="use-case-one-to-one"></a><span data-ttu-id="65da9-208">使用案例：一对一</span><span class="sxs-lookup"><span data-stu-id="65da9-208">Use case: One-to-one</span></span>
+
+<span data-ttu-id="65da9-209">一对一呼叫使用一个通用模型，在该模型中，呼叫者将获得一组候选项，其中包括本地、中继和自反（客户的公共 IP 地址，如中继）候选人。</span><span class="sxs-lookup"><span data-stu-id="65da9-209">One-to-one calls use a common model in which the caller will obtain a set of candidates consisting of IP addresses/ports, including local, relay, and reflexive (public IP address of client as seen by the relay) candidates.</span></span> <span data-ttu-id="65da9-210">呼叫方将这些候选人发送给被呼叫方;被呼叫方还会获取一组类似的候选项，并将其发送给呼叫方。</span><span class="sxs-lookup"><span data-stu-id="65da9-210">The caller sends these candidates to the called party; the called party also obtains a similar set of candidates and sends them to the caller.</span></span> <span data-ttu-id="65da9-211">STUN 连接检查消息用于查找哪些呼叫方/被叫方媒体路径正常工作，并且选择了最佳工作路径。</span><span class="sxs-lookup"><span data-stu-id="65da9-211">STUN connectivity check messages are used to find which caller/called party media paths work, and the best working path is selected.</span></span> <span data-ttu-id="65da9-212">然后，使用所选候选人对发送媒体（即使用 SRTP 的安全的 RTP/RTCP 数据包）。</span><span class="sxs-lookup"><span data-stu-id="65da9-212">Media (that is, RTP/RTCP packets secured using SRTP) are then sent using the selected candidate pair.</span></span> <span data-ttu-id="65da9-213">传输中继作为 Office 365 的一部分进行部署。</span><span class="sxs-lookup"><span data-stu-id="65da9-213">The Transport relay is deployed as part of Office 365.</span></span>
+
+<span data-ttu-id="65da9-214">如果本地 IP 地址/端口候选或反身候选具有连接，则将为媒体选择客户端（或使用 NAT）之间的直接路径。</span><span class="sxs-lookup"><span data-stu-id="65da9-214">If the local IP address/port candidates or the reflexive candidates have connectivity, then the direct path between the clients (or using a NAT) will be selected for media.</span></span> <span data-ttu-id="65da9-215">如果客户端位于客户网络上，则应选择直接路径。</span><span class="sxs-lookup"><span data-stu-id="65da9-215">If the clients are both on the customer network, then the direct path should be selected.</span></span> <span data-ttu-id="65da9-216">这需要客户网络内的直接 UDP 连接。</span><span class="sxs-lookup"><span data-stu-id="65da9-216">This requires direct UDP connectivity within the customer network.</span></span> <span data-ttu-id="65da9-217">如果客户端都是 nomadic 云用户，则根据 NAT/防火墙，媒体可能使用直接连接。</span><span class="sxs-lookup"><span data-stu-id="65da9-217">If the clients are both nomadic cloud users, then depending on the NAT/firewall, media may use direct connectivity.</span></span>
+
+<span data-ttu-id="65da9-218">如果一个客户端是客户网络内部的客户端，而另一个客户端是外部客户端（例如，移动云用户），则本地或反身候选人之间的直接连接不太可能是正常工作。</span><span class="sxs-lookup"><span data-stu-id="65da9-218">If one client is internal on the customer network and one client is external (for example, a mobile cloud user), then it is unlikely that direct connectivity between the local or reflexive candidates is working.</span></span> <span data-ttu-id="65da9-219">在这种情况下，选项是使用来自任何客户端的传输中继候选人之一（例如，内部客户从 Office 365 中的传输中继获得中继候选人）; 外部客户端需要能够将 STUN/RTP/RTCP 数据包发送到传输中继。</span><span class="sxs-lookup"><span data-stu-id="65da9-219">In this case, an option is to use one of the Transport Relay candidates from either client (for example, the internal client obtained a relay candidate from the Transport relay in Office 365; the external client needs to be able to send STUN/RTP/RTCP packets to the transport relay).</span></span> <span data-ttu-id="65da9-220">另一个选项是内部客户端发送到移动云客户端获取的中继候选人。</span><span class="sxs-lookup"><span data-stu-id="65da9-220">Another option is the internal client sends to the relay candidate obtained by the mobile cloud client.</span></span> <span data-ttu-id="65da9-221">请注意，虽然强烈建议媒体的 UDP 连接，但支持 TCP。</span><span class="sxs-lookup"><span data-stu-id="65da9-221">Note that, although UDP connectivity for media is highly recommended, TCP is supported.</span></span>
+
+<span data-ttu-id="65da9-222">**高级别步骤**：</span><span class="sxs-lookup"><span data-stu-id="65da9-222">**High-level steps**:</span></span>
+
+1. <span data-ttu-id="65da9-223">团队用户 A 使用流程2解析 URL 域名（DNS）。</span><span class="sxs-lookup"><span data-stu-id="65da9-223">Teams User A resolves URL domain name (DNS) using flow 2.</span></span>
+1. <span data-ttu-id="65da9-224">团队用户 A 使用流4在团队传输中继上分配媒体中继端口。</span><span class="sxs-lookup"><span data-stu-id="65da9-224">Teams User A allocates a media Relay port on Teams Transport Relay using flow 4.</span></span>
+1. <span data-ttu-id="65da9-225">团队用户 A 通过使用流4到 Office 365 的 ICE 候选人发送 "邀请"。</span><span class="sxs-lookup"><span data-stu-id="65da9-225">Teams User A sends "invite" with ICE candidates using flow 4 to Office 365.</span></span>
+1. <span data-ttu-id="65da9-226">Office 365 使用流4向团队用户 B 发送通知。</span><span class="sxs-lookup"><span data-stu-id="65da9-226">Office 365 sends notification to Teams User B using flow 4.</span></span>
+1. <span data-ttu-id="65da9-227">团队用户 B 使用流4在团队传输中继上分配媒体中继端口。</span><span class="sxs-lookup"><span data-stu-id="65da9-227">Teams User B allocates a media Relay port on Teams Transport Relay using flow 4.</span></span>
+1. <span data-ttu-id="65da9-228">团队用户 B 使用流4向返回到团队用户 A 使用流4向其发送 "应答" 与 ICE 候选人。</span><span class="sxs-lookup"><span data-stu-id="65da9-228">Teams User B sends "answer" with ICE candidates using flow 4, which is forwarded back to Teams User A using Flow 4.</span></span>
+1. <span data-ttu-id="65da9-229">团队用户 A 和团队用户 B 调用 ICE 连接测试，并选择最佳可用媒体路径（请参阅下面的各种使用案例的图表）。</span><span class="sxs-lookup"><span data-stu-id="65da9-229">Teams User A and Teams User B invoke ICE connectivity tests and the best available media path is selected (see diagrams below for various use cases).</span></span>
+1. <span data-ttu-id="65da9-230">团队用户使用流4向 Office 365 发送遥测。</span><span class="sxs-lookup"><span data-stu-id="65da9-230">Teams Users send telemetry to Office 365 using flow 4.</span></span>
+
+<span data-ttu-id="65da9-231">**在客户网络中：**</span><span class="sxs-lookup"><span data-stu-id="65da9-231">**Within customer network:**</span></span>
+
+<span data-ttu-id="65da9-232">[![Microsoft 团队在线通话流程图02](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-232">[![Microsoft Teams Online Call Flows Figure 02](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)</span></span>
+
+<span data-ttu-id="65da9-233">*图 2-客户网络内部*</span><span class="sxs-lookup"><span data-stu-id="65da9-233">*Figure 2 - Within customer network*</span></span>
+
+<span data-ttu-id="65da9-234">在步骤7中，选择了 "对等媒体流 5"。</span><span class="sxs-lookup"><span data-stu-id="65da9-234">In step 7, peer-to-peer media flow 5 is selected.</span></span>
+
+<span data-ttu-id="65da9-235">媒体为双向媒体。</span><span class="sxs-lookup"><span data-stu-id="65da9-235">Media is bidirectional.</span></span> <span data-ttu-id="65da9-236">流5的方向表示，一方从连接的角度启动通信，与本文档中的所有流一致。</span><span class="sxs-lookup"><span data-stu-id="65da9-236">The direction of flow 5 indicates that one side initiates the communication from a connectivity perspective, consistent with all the flows in this document.</span></span> <span data-ttu-id="65da9-237">在这种情况下，使用哪个方向无关紧要，因为这两个终结点位于客户网络内。</span><span class="sxs-lookup"><span data-stu-id="65da9-237">In this case, it doesn't matter which direction is used because both endpoints are within the customer network.</span></span>
+
+<span data-ttu-id="65da9-238">**向外部用户的客户网络（按团队传输中继的媒体中继）：**</span><span class="sxs-lookup"><span data-stu-id="65da9-238">**Customer network to external user (media relayed by Teams Transport Relay):**</span></span>
+
+<span data-ttu-id="65da9-239">[![Microsoft 团队在线通话流程图03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-239">[![Microsoft Teams Online Call Flows Figure 03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)</span></span>
+
+<span data-ttu-id="65da9-240">*图 3-向外部用户（按团队传输中继的媒体中继）的客户网络*</span><span class="sxs-lookup"><span data-stu-id="65da9-240">*Figure 3 - Customer network to external user (media relayed by Teams Transport Relay)*</span></span>
+
+<span data-ttu-id="65da9-241">在步骤7（从客户网络到 Office 365）和流程3（从 "远程移动团队用户到 Office 365"）中，选择 "流程 4"。</span><span class="sxs-lookup"><span data-stu-id="65da9-241">In step 7, flow 4, from customer network to Office 365, and flow 3, from remote mobile Teams user to Office 365, are selected.</span></span> <span data-ttu-id="65da9-242">这些流程由 Office 365 中的团队传输中继进行中继。</span><span class="sxs-lookup"><span data-stu-id="65da9-242">These flows are relayed by Teams Transport Relay within Office 365.</span></span>
+
+<span data-ttu-id="65da9-243">媒体是双向的，其中，方向指示哪一侧从连接的角度开始通信。</span><span class="sxs-lookup"><span data-stu-id="65da9-243">Media is bidirectional, where direction indicates which side initiates the communication from a connectivity perspective.</span></span> <span data-ttu-id="65da9-244">在这种情况下，这些流用于发送信号和媒体，使用不同的传输协议和地址。</span><span class="sxs-lookup"><span data-stu-id="65da9-244">In this case, these flows are used for signaling and media, using different transport protocols and addresses.</span></span>
+
+<span data-ttu-id="65da9-245">**向外部用户（直接媒体）的客户网络：**</span><span class="sxs-lookup"><span data-stu-id="65da9-245">**Customer network to external user (direct media):**</span></span>
+
+<span data-ttu-id="65da9-246">[![Microsoft 团队在线通话流程图04](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-246">[![Microsoft Teams Online Call Flows Figure 04](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)</span></span>
+
+<span data-ttu-id="65da9-247">*图 4-外部用户（直接媒体）的客户网络*</span><span class="sxs-lookup"><span data-stu-id="65da9-247">*Figure 4 - Customer network to external user (direct media)*</span></span>
+
+<span data-ttu-id="65da9-248">在步骤 7 "流程 2" 中，选择 "从客户网络到 Internet （客户端对等）"。</span><span class="sxs-lookup"><span data-stu-id="65da9-248">In step 7, flow 2, from customer network to the Internet (client's peer), is selected.</span></span>
+
+- <span data-ttu-id="65da9-249">带有远程移动用户（未通过 Office 365 中继）的直接媒体是可选的。</span><span class="sxs-lookup"><span data-stu-id="65da9-249">Direct media with remote mobile user (not relayed through Office 365) is optional.</span></span> <span data-ttu-id="65da9-250">换句话说，客户可能会阻止此路径通过 Office 365 中的传输中继强制执行媒体路径。</span><span class="sxs-lookup"><span data-stu-id="65da9-250">In other words, customer may block this path to enforce a media path through Transport Relay in Office 365.</span></span>
+
+- <span data-ttu-id="65da9-251">媒体为双向媒体。</span><span class="sxs-lookup"><span data-stu-id="65da9-251">Media is bidirectional.</span></span> <span data-ttu-id="65da9-252">流2到远程移动用户的方向指示一方从连接的角度启动通信。</span><span class="sxs-lookup"><span data-stu-id="65da9-252">The direction of flow 2 to remote mobile user indicates that one side initiates the communication from a connectivity perspective.</span></span>
+
+<span data-ttu-id="65da9-253">**VPN 用户到内部用户（按团队传输中继的媒体中转）**</span><span class="sxs-lookup"><span data-stu-id="65da9-253">**VPN user to internal user (media relayed by Teams Transport Relay)**</span></span>
+
+<span data-ttu-id="65da9-254">[![Microsoft 团队在线通话流程图05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-254">[![Microsoft Teams Online Call Flows Figure 05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)</span></span>
+
+<span data-ttu-id="65da9-255">*图 5-向内部用户（按团队传输中继的媒体中继）的 VPN 用户*</span><span class="sxs-lookup"><span data-stu-id="65da9-255">*Figure 5 - VPN user to internal user (media relayed by Teams Transport Relay)*</span></span>
+
+<span data-ttu-id="65da9-256">VPN 与客户网络之间的信号传输使用的是流2。</span><span class="sxs-lookup"><span data-stu-id="65da9-256">Signaling between the VPN to the customer network is using flow 2'.</span></span> <span data-ttu-id="65da9-257">客户网络与 Office 365 之间的信号传输使用的是流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-257">Signaling between the customer network and Office 365 is using flow 4.</span></span> <span data-ttu-id="65da9-258">但是，媒体绕过 VPN，并使用流3和4通过 Office 365 中的团队媒体中继进行路由。</span><span class="sxs-lookup"><span data-stu-id="65da9-258">However, media bypasses the VPN and is routed using flows 3 and 4 through Teams media relay in Office 365.</span></span>
+
+<span data-ttu-id="65da9-259">**VPN 用户到内部用户（直接媒体）**</span><span class="sxs-lookup"><span data-stu-id="65da9-259">**VPN user to internal user (direct media)**</span></span>
+
+<span data-ttu-id="65da9-260">[![Microsoft 团队在线通话流程图06](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-260">[![Microsoft Teams Online Call Flows Figure 06](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)</span></span>
+
+<span data-ttu-id="65da9-261">*图 6-向内部用户（直接媒体）的 VPN 用户*</span><span class="sxs-lookup"><span data-stu-id="65da9-261">*Figure 6 - VPN user to internal user (direct media)*</span></span>
+
+<span data-ttu-id="65da9-262">VPN 与客户网络之间的信号传输使用的是流2。</span><span class="sxs-lookup"><span data-stu-id="65da9-262">Signaling between the VPN to the customer network is using flow 2'.</span></span> <span data-ttu-id="65da9-263">客户网络与 Office 365 之间的信号传输使用的是流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-263">Signaling between the customer network and Office 365 is using flow 4.</span></span> <span data-ttu-id="65da9-264">但是，媒体将绕过 VPN，并使用从客户网络到 Internet 的流程2进行路由。</span><span class="sxs-lookup"><span data-stu-id="65da9-264">However, media bypasses the VPN and is routed using flow 2 from the customer network to the Internet.</span></span>
+
+<span data-ttu-id="65da9-265">媒体为双向媒体。</span><span class="sxs-lookup"><span data-stu-id="65da9-265">Media is bidirectional.</span></span> <span data-ttu-id="65da9-266">流2到远程移动用户的方向指示一方从连接的角度启动通信。</span><span class="sxs-lookup"><span data-stu-id="65da9-266">The direction of flow 2 to the remote mobile user indicates that one side initiates the communication from a connectivity perspective.</span></span>
+
+<span data-ttu-id="65da9-267">**向外部用户（直接媒体）的 VPN 用户**</span><span class="sxs-lookup"><span data-stu-id="65da9-267">**VPN user to external user (direct media)**</span></span>
+
+<span data-ttu-id="65da9-268">[![Microsoft 团队通话流程图07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-268">[![Microsoft Teams call flows Figure 07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)</span></span>
+
+<span data-ttu-id="65da9-269">*图 7-向外部用户（直接媒体）的 VPN 用户*</span><span class="sxs-lookup"><span data-stu-id="65da9-269">*Figure 7 - VPN user to external user (direct media)*</span></span>
+
+<span data-ttu-id="65da9-270">VPN 用户与客户网络之间的信号传输使用的是流2，并使用流4到 Office 365。</span><span class="sxs-lookup"><span data-stu-id="65da9-270">Signaling between the VPN user to the customer network is using flow 2' and using flow 4 to Office 365.</span></span> <span data-ttu-id="65da9-271">但是，媒体绕过 VPN 并使用流6进行路由。</span><span class="sxs-lookup"><span data-stu-id="65da9-271">However, media bypasses VPN and is routed using flow 6.</span></span>
+
+<span data-ttu-id="65da9-272">媒体为双向媒体。</span><span class="sxs-lookup"><span data-stu-id="65da9-272">Media is bidirectional.</span></span> <span data-ttu-id="65da9-273">流6到远程移动用户的方向指示一方从连接的角度启动通信。</span><span class="sxs-lookup"><span data-stu-id="65da9-273">The direction of flow 6 to the remote mobile user indicates that one side initiates the communication from a connectivity perspective.</span></span>
+
+#### <a name="use-case-teams-to-pstn-through-office-365-trunk"></a><span data-ttu-id="65da9-274">使用案例：团队到 PSTN 通过 Office 365 主干</span><span class="sxs-lookup"><span data-stu-id="65da9-274">Use Case: Teams to PSTN through Office 365 Trunk</span></span>
+
+<span data-ttu-id="65da9-275">Office 365 具有一个电话系统，允许从公共交换电话网络（PSTN）拨打和接听电话。</span><span class="sxs-lookup"><span data-stu-id="65da9-275">Office 365 has a Phone System that allows placing and receiving calls from the Public Switched Telephone Network (PSTN).</span></span> <span data-ttu-id="65da9-276">如果 PSTN 主干是使用电话系统呼叫计划连接的，则此使用情形没有特殊的连接要求。</span><span class="sxs-lookup"><span data-stu-id="65da9-276">If the PSTN trunk is connected using the Phone System Calling Plan, then there are no special connectivity requirements for this use case.</span></span> <span data-ttu-id="65da9-277">（如果要将自己的本地 PSTN 主干连接到 Office 365，可以使用 "电话系统直接路由"。）</span><span class="sxs-lookup"><span data-stu-id="65da9-277">(If you want to connect your own on-premises PSTN trunk to Office 365, you can use Phone System Direct Routing.)</span></span>
+
+<span data-ttu-id="65da9-278">[![Microsoft 团队在线通话流程（见图08）](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-278">[![Microsoft Teams Online Call Flows Figure 08](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)</span></span>
+
+<span data-ttu-id="65da9-279">*图 8-通过 Office 365 主干的团队到 PSTN*</span><span class="sxs-lookup"><span data-stu-id="65da9-279">*Figure 8 - Teams to PSTN through Office 365 Trunk*</span></span>
+
+#### <a name="use-case-teams-meeting"></a><span data-ttu-id="65da9-280">使用案例：团队会议</span><span class="sxs-lookup"><span data-stu-id="65da9-280">Use case: Teams meeting</span></span>
+
+<span data-ttu-id="65da9-281">音频/视频/屏幕共享（VBSS）会议服务器是 Office 365 的一部分。</span><span class="sxs-lookup"><span data-stu-id="65da9-281">The audio/video/screen sharing (VBSS) conferencing server is part of Office 365.</span></span> <span data-ttu-id="65da9-282">它具有必须可从客户网络访问且必须可从 Nomadic 云客户端访问的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="65da9-282">It has a public IP address that must be reachable from the customer network and must be reachable from a Nomadic Cloud client.</span></span> <span data-ttu-id="65da9-283">每个客户端/终结点都需要能够连接到会议服务器。</span><span class="sxs-lookup"><span data-stu-id="65da9-283">Each client/endpoint needs to be able to connect to the conferencing server.</span></span>
+
+<span data-ttu-id="65da9-284">内部客户将按照与一对一通话描述的相同方式获取本地、反身和中继候选人。</span><span class="sxs-lookup"><span data-stu-id="65da9-284">Internal clients will obtain local, reflexive, and relay candidates in the same manner as described for one-to-one calls.</span></span> <span data-ttu-id="65da9-285">客户端会将这些候选人发送到邀请中的会议服务器。</span><span class="sxs-lookup"><span data-stu-id="65da9-285">The clients will send these candidates to the conferencing server in an invite.</span></span> <span data-ttu-id="65da9-286">会议服务器不使用中继，因为它具有可公开访问的 IP 地址，因此它将通过其本地 IP 地址候选进行响应。</span><span class="sxs-lookup"><span data-stu-id="65da9-286">The conferencing server does not use a relay since it has a publicly reachable IP address, so it responds with its local IP address candidate.</span></span> <span data-ttu-id="65da9-287">客户端和会议服务器将以与一对一呼叫描述的相同方式检查连接。</span><span class="sxs-lookup"><span data-stu-id="65da9-287">The client and conferencing server will check connectivity in the same manner described for one-to-one calls.</span></span>
+
+<span data-ttu-id="65da9-288">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-288">Note that:</span></span>
+
+- <span data-ttu-id="65da9-289">团队客户端无法加入 Skype for Business 会议，并且 Skype for business 客户端无法加入团队会议。</span><span class="sxs-lookup"><span data-stu-id="65da9-289">Teams clients cannot join Skype for Business meetings, and Skype for Business clients cannot join Teams meetings.</span></span>
+
+- <span data-ttu-id="65da9-290">PSTN 用户（可选） "拨入" 或 "拨出"，具体取决于会议的组织者 PSTN 呼叫和/或会议设置。</span><span class="sxs-lookup"><span data-stu-id="65da9-290">A PSTN user optionally "Dials IN" or is "Dialed OUT", depending on the meeting's organizer PSTN Calling and/or conferencing provisioning.</span></span>
+
+- <span data-ttu-id="65da9-291">来宾用户或客户用户可以通过使用带有严格规则的 FW/NAT 进行保护的来宾专用网络加入。</span><span class="sxs-lookup"><span data-stu-id="65da9-291">A guest user or a customer user may join from a guest private network, which is protected using FW/NAT with strict rules.</span></span>
+
+<span data-ttu-id="65da9-292">[![Microsoft 团队在线通话流程图09](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-292">[![Microsoft Teams Online Call Flows Figure 09](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)</span></span>
+
+<span data-ttu-id="65da9-293">*图 9-团队会议*</span><span class="sxs-lookup"><span data-stu-id="65da9-293">*Figure 9 - Teams Meeting*</span></span>
+
+#### <a name="use-case-federation-with-skype-for-business-on-premises"></a><span data-ttu-id="65da9-294">使用案例：使用 Skype for business 内部部署联盟</span><span class="sxs-lookup"><span data-stu-id="65da9-294">Use case: Federation with Skype for Business on premises</span></span>
+
+<span data-ttu-id="65da9-295">**按团队在 Office 365 中传输中继的媒体中继**</span><span class="sxs-lookup"><span data-stu-id="65da9-295">**Media relayed by Teams Transport Relay in Office 365**</span></span>
+
+<span data-ttu-id="65da9-296">[![Microsoft 团队在线通话流程图10](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-296">[![Microsoft Teams Online Call Flows Figure 10](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)</span></span>
+
+<span data-ttu-id="65da9-297">*图 10-按组在 Office 365 中传输中继的媒体中继*</span><span class="sxs-lookup"><span data-stu-id="65da9-297">*Figure 10 - Media relayed by Teams Transport Relay in Office 365*</span></span>
+
+<span data-ttu-id="65da9-298">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-298">Note that:</span></span>
+
+- <span data-ttu-id="65da9-299">根据定义，联盟是两个租户之间的通信。</span><span class="sxs-lookup"><span data-stu-id="65da9-299">Federation is, by definition, a communication between two tenants.</span></span> <span data-ttu-id="65da9-300">在这种情况下，租户 A 使用团队，federates 与租户 B 一起使用 Skype for Business 内部部署。</span><span class="sxs-lookup"><span data-stu-id="65da9-300">In this case, tenant A, which uses Teams, federates with tenant B, which uses Skype for Business on premises.</span></span> <span data-ttu-id="65da9-301">如果租户 B 也使用的是 Office 365，则 Skype for Business 客户端将使用流3与 Office 365 连接。</span><span class="sxs-lookup"><span data-stu-id="65da9-301">If tenant B is also using Office 365, then the Skype for Business client would have used flow 3 to connect with Office 365.</span></span>
+
+- <span data-ttu-id="65da9-302">来自联合 Skype for business 客户端到本地 Skype for Business 服务器的信号和媒体已超出本文档的范围。</span><span class="sxs-lookup"><span data-stu-id="65da9-302">Signaling and media from the federated Skype for Business client to on-premises Skype for Business Server is out of scope of this document.</span></span> <span data-ttu-id="65da9-303">但是，此处对此进行了明确说明。</span><span class="sxs-lookup"><span data-stu-id="65da9-303">However, it is illustrated here for clarity.</span></span>
+
+- <span data-ttu-id="65da9-304">团队和 Skype for business 之间的信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="65da9-304">Signaling between Teams and Skype for Business is bridged by a gateway in Office 365.</span></span>
+
+- <span data-ttu-id="65da9-305">在此情况下，媒体由团队将 Office 365 中的传输传输到客户网络和使用流4的远程 Skype for Business 客户端进行中转。</span><span class="sxs-lookup"><span data-stu-id="65da9-305">Media in this case is relayed by Teams Transport Relay in Office 365 to the customer network and remote Skype for Business client using flow 4.</span></span>
+
+<span data-ttu-id="65da9-306">**联合租户中 Skype for business Media 中继的媒体中继**</span><span class="sxs-lookup"><span data-stu-id="65da9-306">**Media relayed by Skype for Business Media Relay in federated tenant**</span></span>
+
+<span data-ttu-id="65da9-307">[![Microsoft 团队在线通话流程图11](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-307">[![Microsoft Teams Online Call Flows Figure 11](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)</span></span>
+
+<span data-ttu-id="65da9-308">*图 11-联合租户中 Skype for business Media 中继的媒体中继*</span><span class="sxs-lookup"><span data-stu-id="65da9-308">*Figure 11 - Media relayed by Skype for Business Media Relay in federated tenant*</span></span>
+
+<span data-ttu-id="65da9-309">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-309">Note that:</span></span>
+
+- <span data-ttu-id="65da9-310">从联合 Skype for business 客户端到本地 Skype for Business 服务器的信号和媒体已超出本文档的范围。</span><span class="sxs-lookup"><span data-stu-id="65da9-310">Signaling and media from the federated Skype for Business client to an on-premises Skype for Business Server is out of scope of this document.</span></span> <span data-ttu-id="65da9-311">但是，此处对此进行了明确说明。</span><span class="sxs-lookup"><span data-stu-id="65da9-311">However, it is illustrated here for clarity.</span></span>
+
+- <span data-ttu-id="65da9-312">团队和 Skype for business 之间的信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="65da9-312">Signaling between Teams and Skype for Business is bridged by a Gateway in Office 365.</span></span>
+
+- <span data-ttu-id="65da9-313">在此情况下，媒体将由 Skype for business 本地媒体中继中继到使用流2的客户网络。</span><span class="sxs-lookup"><span data-stu-id="65da9-313">Media in this case is relayed by Skype for Business on-premises Media Relay to the customer network using flow 2.</span></span> <span data-ttu-id="65da9-314">（请注意，"媒体中继" 中来自团队用户到远程媒体中继的流量最初将由媒体中继阻止，直到流处于相反方向。</span><span class="sxs-lookup"><span data-stu-id="65da9-314">(Note that traffic from Teams user to the remote Media Relay in the federated customer network will be initially blocked by the Media Relay until traffic in the reverse direction starts to flow.</span></span> <span data-ttu-id="65da9-315">但是，双向流将以两种方向打开连接。）</span><span class="sxs-lookup"><span data-stu-id="65da9-315">However, the bidirectional flow will open connectivity in both directions.)</span></span>
+
+<span data-ttu-id="65da9-316">**直接（对等）**</span><span class="sxs-lookup"><span data-stu-id="65da9-316">**Direct (peer-to-peer)**</span></span>
+
+<span data-ttu-id="65da9-317">[![Microsoft 团队在线通话流程图12](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-317">[![Microsoft Teams Online Call Flows Figure 12](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)</span></span>
+
+<span data-ttu-id="65da9-318">*图 12-直接（对等）*</span><span class="sxs-lookup"><span data-stu-id="65da9-318">*Figure 12 - Direct (peer-to-peer)*</span></span>
+
+### <a name="teams-hybrid-topology"></a><span data-ttu-id="65da9-319">团队混合拓扑</span><span class="sxs-lookup"><span data-stu-id="65da9-319">Teams hybrid topology</span></span>
+
+<span data-ttu-id="65da9-320">此拓扑包括具有 Skype for Business 内部部署的团队。</span><span class="sxs-lookup"><span data-stu-id="65da9-320">This topology includes Teams with a Skype for Business on-premises deployment.</span></span>
+
+<span data-ttu-id="65da9-321">[![Microsoft 团队在线通话流程图13](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-321">[![Microsoft Teams Online Call Flows Figure 13](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)</span></span>
+
+<span data-ttu-id="65da9-322">*图 13-团队混合拓扑*</span><span class="sxs-lookup"><span data-stu-id="65da9-322">*Figure 13 - Teams hybrid topology*</span></span>
+
+- <span data-ttu-id="65da9-323">上图中箭头的方向反映了在企业外围环境中影响连接的通信的初始方向。</span><span class="sxs-lookup"><span data-stu-id="65da9-323">The direction of the arrows on the diagram above reflect the initiation direction of the communication that affects connectivity at the enterprise perimeters.</span></span> <span data-ttu-id="65da9-324">在 UDP for media 的情况下，第一个数据包可能沿相反方向流动，但这些数据包可能会被阻止，直到其他方向的数据包才会流动。</span><span class="sxs-lookup"><span data-stu-id="65da9-324">In the case of UDP for media, the first packet(s) may flow in the reverse direction, but these packets may be blocked until packets in the other direction will flow.</span></span>
+
+- <span data-ttu-id="65da9-325">团队与 Skype for Business Online 并排部署，因此客户将显示为 "团队/SFB 用户"。</span><span class="sxs-lookup"><span data-stu-id="65da9-325">Teams is deployed side by side with Skype for Business Online, hence clients are displayed as "Teams/SFB user."</span></span>
+
+<span data-ttu-id="65da9-326">其他流（在团队拓扑之上）：</span><span class="sxs-lookup"><span data-stu-id="65da9-326">Additional flow (on top of Teams topology):</span></span>
+
+- <span data-ttu-id="65da9-327">**流 5a** –表示客户网络中的团队用户之间的对等媒体流和客户网络边缘的 Skype for business 本地媒体中继。</span><span class="sxs-lookup"><span data-stu-id="65da9-327">**Flow 5A** – Represents a peer-to-peer media flow between a Teams user within the customer network and a Skype for Business on-premises media relay at the customer network edge.</span></span>
+
+#### <a name="use-case-teams-to-skype-for-business-one-to-one"></a><span data-ttu-id="65da9-328">使用案例：团队到 Skype for business 一对一</span><span class="sxs-lookup"><span data-stu-id="65da9-328">Use case: Teams to Skype for Business one-to-one</span></span>
+
+<span data-ttu-id="65da9-329">**客户网络中的混合**</span><span class="sxs-lookup"><span data-stu-id="65da9-329">**Hybrid within the customer network**</span></span>
+
+<span data-ttu-id="65da9-330">[![Microsoft 团队在线通话流程图14](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-330">[![Microsoft Teams Online Call Flows Figure 14](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)</span></span>
+
+<span data-ttu-id="65da9-331">*图 14-客户网络中的混合*</span><span class="sxs-lookup"><span data-stu-id="65da9-331">*Figure 14 - Hybrid within customer network*</span></span>
+
+<span data-ttu-id="65da9-332">团队和 Skype for business 之间的信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="65da9-332">Signaling between Teams and Skype for Business is bridged by a gateway in Office 365.</span></span> <span data-ttu-id="65da9-333">但是，媒体在客户网络中使用流量5进行直接对等路由。</span><span class="sxs-lookup"><span data-stu-id="65da9-333">However, media is routed directly peer-to-peer within the customer network using flow 5.</span></span>
+
+<span data-ttu-id="65da9-334">**具有外部 Skype for Business 用户的混合客户网络-由 Office 365 中继**</span><span class="sxs-lookup"><span data-stu-id="65da9-334">**Hybrid customer network with external Skype for Business user – relayed by Office 365**</span></span>
+
+<span data-ttu-id="65da9-335">[![Microsoft 团队在线通话流程图15](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-335">[![Microsoft Teams Online Call Flows Figure 15](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)</span></span>
+
+<span data-ttu-id="65da9-336">*图 15-使用外部 Skype for Business 用户的混合客户网络-由 Office 365 进行中继*</span><span class="sxs-lookup"><span data-stu-id="65da9-336">*Figure 15 - Hybrid customer network with external Skype for Business user - relayed by Office 365*</span></span>
+
+<span data-ttu-id="65da9-337">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-337">Note that:</span></span>
+
+- <span data-ttu-id="65da9-338">从 Skype for business 客户端到本地 Skype for Business 服务器的信号和媒体已超出本文档的范围。</span><span class="sxs-lookup"><span data-stu-id="65da9-338">Signaling and media from the Skype for Business client to an on-premises Skype for Business Server is out of scope of this document.</span></span> <span data-ttu-id="65da9-339">但是，此处对此进行了明确说明。</span><span class="sxs-lookup"><span data-stu-id="65da9-339">However, it is illustrated here for clarity.</span></span>
+
+- <span data-ttu-id="65da9-340">团队和 Skype for business 之间的信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="65da9-340">Signaling between Teams and Skype for Business is bridged by a gateway in Office 365.</span></span>
+
+- <span data-ttu-id="65da9-341">媒体通过团队将 Office 365 中的中继传输到流4中的客户网络来进行中继。</span><span class="sxs-lookup"><span data-stu-id="65da9-341">Media is relayed through Teams Transport Relay in Office 365 to the customer network through flow 4.</span></span>
+
+<span data-ttu-id="65da9-342">**具有外部 Skype for Business 用户的混合客户网络-通过本地边缘进行中继**</span><span class="sxs-lookup"><span data-stu-id="65da9-342">**Hybrid customer network with external Skype for Business user – relayed by on-premises Edge**</span></span>
+
+<span data-ttu-id="65da9-343">[![Microsoft 团队在线通话流程图16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-343">[![Microsoft Teams Online Call Flows Figure 16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)</span></span>
+
+<span data-ttu-id="65da9-344">*图 16-具有外部 Skype for Business 用户的混合客户网络-通过本地边缘进行中继*</span><span class="sxs-lookup"><span data-stu-id="65da9-344">*Figure 16 - Hybrid customer network with external Skype for Business user - relayed by on-premises Edge*</span></span>
+
+<span data-ttu-id="65da9-345">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-345">Note that:</span></span>
+
+- <span data-ttu-id="65da9-346">从 Skype for business 客户端到本地 Skype for Business 服务器的信号和媒体已超出本文档的范围。</span><span class="sxs-lookup"><span data-stu-id="65da9-346">Signaling and media from Skype for Business client to an on-premises Skype for Business Server is out of scope of this document.</span></span> <span data-ttu-id="65da9-347">但是，此处对此进行了明确说明。</span><span class="sxs-lookup"><span data-stu-id="65da9-347">However, it is illustrated here for clarity.</span></span>
+
+- <span data-ttu-id="65da9-348">信号由 Office 365 中的网关桥接。</span><span class="sxs-lookup"><span data-stu-id="65da9-348">Signaling is bridged by a gateway in Office 365.</span></span>
+
+- <span data-ttu-id="65da9-349">Skype for business Media 中继中的 skype for business Media 中继将媒体通过媒体流5A 与客户网络中的团队用户进行中继。</span><span class="sxs-lookup"><span data-stu-id="65da9-349">Media is relayed by Skype for Business Media Relay within Skype for Business on-premises Edge to Teams user within the customer network using media flow 5A.</span></span>
+
+### <a name="teams-with-phone-system-direct-routing-topology"></a><span data-ttu-id="65da9-350">具有手机系统直接路由拓扑的团队</span><span class="sxs-lookup"><span data-stu-id="65da9-350">Teams with Phone System Direct Routing topology</span></span>
+
+<span data-ttu-id="65da9-351">此拓扑包括具有手机系统直接路由的团队。</span><span class="sxs-lookup"><span data-stu-id="65da9-351">This topology includes Teams with Phone System Direct Routing.</span></span>
+
+<span data-ttu-id="65da9-352">直接路由使你能够通过将支持的本地客户拥有的会话边界控制器（SBC）硬件设备与 Office 365 配对，然后将电话服务主干连接到该设备，从而使用第三方公共交换电话网络（PSTN）服务提供程序。</span><span class="sxs-lookup"><span data-stu-id="65da9-352">Direct Routing enables you to use a third-party Public Switched Telephone Network (PSTN) service provider by pairing a supported on-premises customer-owned Session Border Controller (SBC) hardware device to Office 365, and then connecting the telephony trunk to that device.</span></span>
+
+<span data-ttu-id="65da9-353">若要支持此方案，客户必须部署经认证的 SBC，以便直接从 Microsoft 认证合作伙伴之一进行路由。</span><span class="sxs-lookup"><span data-stu-id="65da9-353">To support this scenario, the customer must deploy a certified SBC for Direct Routing from one of Microsoft's certified partners.</span></span> <span data-ttu-id="65da9-354">SBC 必须按照供应商的建议进行配置，并可路由来自 Office 365 的直接 UDP 流量。</span><span class="sxs-lookup"><span data-stu-id="65da9-354">The SBC must be configured as recommended by the vendor, and be routable from Office 365 for direct UDP traffic.</span></span> <span data-ttu-id="65da9-355">媒体可能直接从团队和/或 Skype for business 客户端传递到 SBC （绕过团队网关）或遍历团队网关。</span><span class="sxs-lookup"><span data-stu-id="65da9-355">The media may flow directly from Teams and/or the Skype for Business client to the SBC (bypassing the Teams gateway) or traverse through the Teams gateway.</span></span> <span data-ttu-id="65da9-356">当主干配置为绕过团队网关时，与 sbc 的连接是基于 ICE 的，其中 SBC 支持 ICE，而团队/Skype for Business media 终结点支持 ICE 完整形式。</span><span class="sxs-lookup"><span data-stu-id="65da9-356">The connectivity with the SBC, when the trunk is configured to bypass the Teams gateway, is based on ICE, where SBC supports ICE-Lite, while the Teams/Skype for Business media endpoint supports ICE Full Form.</span></span>
+
+<span data-ttu-id="65da9-357">[![Microsoft 团队在线通话流程图17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-357">[![Microsoft Teams Online Call Flows Figure 17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)</span></span>
+
+<span data-ttu-id="65da9-358">\* 图 17-具有手机系统直接路由拓扑的团队</span><span class="sxs-lookup"><span data-stu-id="65da9-358">\*Figure 17 - Teams with Phone System Direct Routing topology</span></span>
+
+<span data-ttu-id="65da9-359">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-359">Note that:</span></span>
+
+- <span data-ttu-id="65da9-360">上图中箭头的方向反映了在企业外围环境中影响连接的通信的初始方向。</span><span class="sxs-lookup"><span data-stu-id="65da9-360">The direction of the arrows on the diagram above reflect the initiation direction of the communication that affects connectivity at the enterprise perimeters.</span></span> <span data-ttu-id="65da9-361">在 UDP for media 的情况下，第一个数据包可能沿相反方向流动，但这些数据包可能会被阻止，直到其他方向的数据包才会流动。</span><span class="sxs-lookup"><span data-stu-id="65da9-361">In the case of UDP for media, the first packet(s) may flow in the reverse direction, but these packets may be blocked until packets in the other direction will flow.</span></span>
+
+- <span data-ttu-id="65da9-362">团队与 Skype for Business Online 并排部署，因此客户将显示为 "团队/SFB 用户"。</span><span class="sxs-lookup"><span data-stu-id="65da9-362">Teams is deployed side by side with Skype for Business Online, hence clients are displayed as "Teams/SFB user."</span></span>
+
+<span data-ttu-id="65da9-363">其他流（位于团队联机拓扑的顶部）：</span><span class="sxs-lookup"><span data-stu-id="65da9-363">Additional flows (on top of Teams online topology):</span></span>
+
+- <span data-ttu-id="65da9-364">**流 4 "** -表示从 Office 365 到客户网络的流，用于在云中的团队媒体服务器与 SBC 内部部署之间建立连接。</span><span class="sxs-lookup"><span data-stu-id="65da9-364">**Flow 4'** - Represents a flow from Office 365 to the customer network, used to establish a connection between the Teams media server in the cloud with the SBC on premises.</span></span>
+- <span data-ttu-id="65da9-365">**流 5b** -表示客户网络中的团队用户之间的媒体流，在旁路模式下直接路由 SBC。</span><span class="sxs-lookup"><span data-stu-id="65da9-365">**Flow 5B** – Represents a media flow between the Teams user within the customer network with the Direct Routing SBC in bypass mode.</span></span>
+- <span data-ttu-id="65da9-366">**流 5c** -表示在 PSTN hairpin 呼叫旁路模式下直接路由 sbc 与另一个直接路由 sbc 之间的媒体流。</span><span class="sxs-lookup"><span data-stu-id="65da9-366">**Flow 5C** – Represents a media flow between the Direct Routing SBC to another Direct Routing SBC in a PSTN hairpin call bypass mode.</span></span>
+
+<span data-ttu-id="65da9-367">**具有直接路由的内部用户（按团队在 Office 365 中传输中继的媒体中转）**</span><span class="sxs-lookup"><span data-stu-id="65da9-367">**Internal user with Direct Routing (media relayed by Teams Transport Relay in Office 365)**</span></span>
+
+<span data-ttu-id="65da9-368">[![Microsoft 团队在线通话流程图18](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-368">[![Microsoft Teams Online Call Flows Figure 18](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)</span></span>
+
+<span data-ttu-id="65da9-369">*图 18-直接路由的内部用户（按团队在 Office 365 中传输中继的媒体中继）*</span><span class="sxs-lookup"><span data-stu-id="65da9-369">*Figure 18 - Internal user with Direct Routing (media relayed by Teams Transport Relay in Office 365)*</span></span>
+
+<span data-ttu-id="65da9-370">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-370">Note that:</span></span>
+
+- <span data-ttu-id="65da9-371">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="65da9-371">The SBC must have a public IP address that is routable from Office 365.</span></span>
+
+- <span data-ttu-id="65da9-372">从 SBC 到 Office 365 的信号和媒体（反之亦然）使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-372">Signaling and media from the SBC to Office 365 and vice versa use flow 4 and/or flow 4'.</span></span>
+
+- <span data-ttu-id="65da9-373">从客户网络中的客户端到 Office 365 的信号和媒体使用流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-373">Signaling and media from the client within the customer network to Office 365 use flow 4.</span></span>
+
+<span data-ttu-id="65da9-374">**具有直接路由的远程用户（通过 Office 365 中的媒体服务器（MP）路由媒体）**</span><span class="sxs-lookup"><span data-stu-id="65da9-374">**Remote user with Direct Routing (media is routed through a media server (MP) in Office 365)**</span></span>
+
+<span data-ttu-id="65da9-375">[![Microsoft 团队在线通话流程图19](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-375">[![Microsoft Teams Online Call Flows Figure 19](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)</span></span>
+
+<span data-ttu-id="65da9-376">*图 19-使用直接路由的远程用户（通过 Office 365 中的媒体服务器（MP）路由媒体）*</span><span class="sxs-lookup"><span data-stu-id="65da9-376">*Figure 19 - Remote user with Direct Routing (media is routed through a media server (MP) in Office 365)*</span></span>
+
+<span data-ttu-id="65da9-377">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-377">Note that:</span></span>
+
+- <span data-ttu-id="65da9-378">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="65da9-378">The SBC must have a public IP address that is routable from Office 365.</span></span>
+
+- <span data-ttu-id="65da9-379">从 SBC 到 Office 365 的信号和媒体（反之亦然）使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-379">Signaling and media from the SBC to Office 365 and vice versa use flow 4 and/or flow 4'.</span></span>
+
+- <span data-ttu-id="65da9-380">从 Internet 上的客户端到 Office 365 的信号和媒体使用流程3。</span><span class="sxs-lookup"><span data-stu-id="65da9-380">Signaling and media from the client on the Internet to Office 365 use flow 3.</span></span>
+
+<span data-ttu-id="65da9-381">**内部用户直接路由（媒体旁路）**</span><span class="sxs-lookup"><span data-stu-id="65da9-381">**Internal user Direct Routing (media bypass)**</span></span>
+
+<span data-ttu-id="65da9-382">[![Microsoft 团队在线通话流程图20](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-382">[![Microsoft Teams Online Call Flows Figure 20](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)</span></span>
+
+<span data-ttu-id="65da9-383">*图 20-内部用户直接路由（媒体旁路）*</span><span class="sxs-lookup"><span data-stu-id="65da9-383">*Figure 20 - Internal user Direct Routing (media bypass)*</span></span>
+
+<span data-ttu-id="65da9-384">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-384">Note that:</span></span>
+
+- <span data-ttu-id="65da9-385">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="65da9-385">The SBC must have a public IP address that is routable from Office 365.</span></span>
+
+- <span data-ttu-id="65da9-386">从 SBC 到 Office 365 的信号，反之亦然，使用流程4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-386">Signaling from SBC to Office 365 and vice versa use flow 4 and/or flow 4'.</span></span>
+
+- <span data-ttu-id="65da9-387">从客户网络中的客户端发送到 Office 365 的信号使用流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-387">Signaling from client within the customer network to Office 365 use flow 4.</span></span>
+
+- <span data-ttu-id="65da9-388">从客户网络中的客户端到客户网络内的 SBC 的媒体使用流程5B。</span><span class="sxs-lookup"><span data-stu-id="65da9-388">Media from client within the customer network to SBC within the customer network use flow 5B.</span></span>
+
+<span data-ttu-id="65da9-389">**具有直接路由的远程用户（由团队在 Office 365 中传输中继的媒体绕过中继）**</span><span class="sxs-lookup"><span data-stu-id="65da9-389">**Remote user with Direct Routing (media bypass relayed by Teams Transport Relay in Office 365)**</span></span>
+
+<span data-ttu-id="65da9-390">[![Microsoft 团队在线通话流程图21](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-390">[![Microsoft Teams Online Call Flows Figure 21](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)</span></span>
+
+<span data-ttu-id="65da9-391">*图 21-使用直接路由的远程用户（由团队在 Office 365 中传输中继的媒体旁路中继）*</span><span class="sxs-lookup"><span data-stu-id="65da9-391">*Figure 21 - Remote user with Direct Routing (media bypass relayed by Teams Transport Relay in Office 365)*</span></span>
+
+<span data-ttu-id="65da9-392">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-392">Note that:</span></span>
+
+- <span data-ttu-id="65da9-393">SBC 必须具有可通过 Office 365 和 Internet 进行路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="65da9-393">The SBC must have a public IP address that is routable from Office 365 and Internet.</span></span>
+
+- <span data-ttu-id="65da9-394">从 SBC 到 Office 365 的信号，反之亦然，使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-394">Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.</span></span>
+
+- <span data-ttu-id="65da9-395">从 Internet 上的客户端发送到 Office 365 的信号使用流程3。</span><span class="sxs-lookup"><span data-stu-id="65da9-395">Signaling from the client on the Internet to Office 365 uses flow 3.</span></span>
+
+- <span data-ttu-id="65da9-396">从 Internet 上的客户端到客户网络中 SBC 的媒体使用流3和4，并按团队在 Office 365 中传输中继的方式进行中继。</span><span class="sxs-lookup"><span data-stu-id="65da9-396">Media from the client on the Internet to the SBC within the customer network uses flows 3 and 4, relayed by Teams Transport Relay in Office 365.</span></span>
+
+<span data-ttu-id="65da9-397">**远程用户直接路由（媒体旁路直接路由）**</span><span class="sxs-lookup"><span data-stu-id="65da9-397">**Remote user Direct Routing (media bypass direct)**</span></span>
+
+<span data-ttu-id="65da9-398">[![Microsoft 团队在线通话流程图22](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-398">[![Microsoft Teams Online Call Flows Figure 22](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)</span></span>
+
+<span data-ttu-id="65da9-399">*图 22-远程用户直接路由（媒体旁路直接路由）*</span><span class="sxs-lookup"><span data-stu-id="65da9-399">*Figure 22 - Remote user Direct Routing (media bypass direct)*</span></span>
+
+<span data-ttu-id="65da9-400">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-400">Note that:</span></span>
+
+- <span data-ttu-id="65da9-401">SBC 必须具有可通过 Office 365 和 Internet 进行路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="65da9-401">The SBC must have a public IP address that is routable from Office 365 and the Internet.</span></span>
+
+- <span data-ttu-id="65da9-402">从 SBC 到 Office 365 的信号，反之亦然，使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-402">Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.</span></span>
+
+- <span data-ttu-id="65da9-403">从 Internet 上的客户端发送到 Office 365 的信号使用流程3。</span><span class="sxs-lookup"><span data-stu-id="65da9-403">Signaling from the client on the Internet to Office 365 uses flow 3.</span></span>
+
+- <span data-ttu-id="65da9-404">从 Internet 上的客户端到客户网络中的 SBC 的媒体使用流2。</span><span class="sxs-lookup"><span data-stu-id="65da9-404">Media from the client on the Internet to the SBC within the customer network uses flow 2.</span></span>
+
+<span data-ttu-id="65da9-405">**直接路由（媒体旁路）-PSTN hairpin 呼叫（由于呼叫转发/传输）**</span><span class="sxs-lookup"><span data-stu-id="65da9-405">**Direct Routing (media bypass) – PSTN hairpin call (due to call forward/transfer)**</span></span>
+
+<span data-ttu-id="65da9-406">[![Microsoft 团队在线通话流程图23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-406">[![Microsoft Teams Online Call Flows Figure 23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)</span></span>
+
+<span data-ttu-id="65da9-407">*图 23-直接路由（媒体旁路）-PSTN hairpin 呼叫（由于呼叫转发/传输）*</span><span class="sxs-lookup"><span data-stu-id="65da9-407">*Figure 23 - Direct Routing (media bypass) - PSTN hairpin call (due to call forward/transfer)*</span></span>
+
+<span data-ttu-id="65da9-408">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-408">Note that:</span></span>
+
+- <span data-ttu-id="65da9-409">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="65da9-409">The SBC must have a public IP address that is routable from Office 365.</span></span>
+
+- <span data-ttu-id="65da9-410">从 SBC 到 Office 365 的信号，反之亦然，使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-410">Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.</span></span>
+
+- <span data-ttu-id="65da9-411">从 PSTN 到 PSTN hairpinned 呼叫后，客户端不会发出信号和媒体循环。</span><span class="sxs-lookup"><span data-stu-id="65da9-411">The client is out of the signaling and media loop after the call is hairpinned from PSTN to PSTN.</span></span>
+
+- <span data-ttu-id="65da9-412">从客户网络内的 SBC 实例 A 到客户网络（其中 A 和 B 可以是同一实例）内的 sbc 实例 B 的媒体使用流程5C。</span><span class="sxs-lookup"><span data-stu-id="65da9-412">Media from SBC instance A within the customer network to SBC instance B within the customer network (where, A and B can be the same instance) uses flow 5C.</span></span>
+
+<span data-ttu-id="65da9-413">**直接路由（通过 Office 365 的媒体）-跨两个租户的 PSTN hairpin 呼叫**</span><span class="sxs-lookup"><span data-stu-id="65da9-413">**Direct Routing (media through Office 365) – PSTN hairpin call across two tenants**</span></span>
+
+<span data-ttu-id="65da9-414">[![Microsoft 团队在线通话流程图24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-414">[![Microsoft Teams Online Call Flows Figure 24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)</span></span>
+
+<span data-ttu-id="65da9-415">*图 24-直接路由（通过 Office 365 的媒体）-跨两个租户的 PSTN hairpin 呼叫*</span><span class="sxs-lookup"><span data-stu-id="65da9-415">*Figure 24 - Direct Routing (media through Office 365) – PSTN hairpin call across two tenants*</span></span>
+
+<span data-ttu-id="65da9-416">请注意：</span><span class="sxs-lookup"><span data-stu-id="65da9-416">Note that:</span></span>
+
+- <span data-ttu-id="65da9-417">SBC 必须具有可通过 Office 365 路由的公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="65da9-417">The SBC must have a public IP address that is routable from Office 365.</span></span>
+
+- <span data-ttu-id="65da9-418">从 SBC 到 Office 365 的信号，反之亦然，使用流4和/或流4。</span><span class="sxs-lookup"><span data-stu-id="65da9-418">Signaling from the SBC to Office 365 and vice versa uses flow 4 and/or flow 4'.</span></span>
+
+- <span data-ttu-id="65da9-419">从 PSTN 到 PSTN hairpinned 呼叫后，客户端不会发出信号和媒体循环。</span><span class="sxs-lookup"><span data-stu-id="65da9-419">The client is out of the signaling and media loop after the call is hairpinned from PSTN to PSTN.</span></span>
+
+- <span data-ttu-id="65da9-420">来自 SBC 实例 A （从客户网络 X 到 SBC 实例 B）内部的媒体必须通过 Office 365 媒体服务器中继，并且无法使用绕过模式。</span><span class="sxs-lookup"><span data-stu-id="65da9-420">Media from SBC instance A within the customer network X to SBC instance B must be relayed through the Office 365 Media Server and can't use bypass mode.</span></span>
+
+## <a name="teams-with-express-route-optimization"></a><span data-ttu-id="65da9-421">具有快速路线优化的团队</span><span class="sxs-lookup"><span data-stu-id="65da9-421">Teams with Express Route optimization</span></span>
+
+<span data-ttu-id="65da9-422">[![Microsoft 团队在线通话流程图25](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-422">[![Microsoft Teams Online Call Flows Figure 25](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)</span></span>
+
+<span data-ttu-id="65da9-423">*图 25-具有快速路线优化的团队*</span><span class="sxs-lookup"><span data-stu-id="65da9-423">*Figure 25 - Teams with Express Route optimization*</span></span>
+
+<span data-ttu-id="65da9-424">在显示和部署快速路由的情况下，团队流可以从流4重新路由到流1，从流 4 "重新路由到流 1"。</span><span class="sxs-lookup"><span data-stu-id="65da9-424">In the case that Express Route is justified and deployed, then Teams flows could be re-routed from flow 4 to flow 1 and from flow 4' to flow 1'.</span></span> <span data-ttu-id="65da9-425">但是，团队应用程序与通过 Internet 使用流4和4的其他 Office 365 流的相关性很难因此，不能阻止这些流程。</span><span class="sxs-lookup"><span data-stu-id="65da9-425">However, the Teams application has a hard dependency on other Office 365 flows over the Internet using flows 4 and 4'; hence these flows must not be blocked.</span></span>
+
+<span data-ttu-id="65da9-426">请注意，Skype for Business 混合边缘流量将路由到 Internet，而不是快速路由以与外部用户通信并与其他租户联盟。</span><span class="sxs-lookup"><span data-stu-id="65da9-426">Note that Skype for Business hybrid Edge traffic is routed to the Internet and not to Express Route to communicate with external users and federate with other tenants.</span></span>
+
+<span data-ttu-id="65da9-427">若要防止非对称流，重新路由必须在两个方向上。</span><span class="sxs-lookup"><span data-stu-id="65da9-427">To prevent asymmetrical flows, re-routing must be in both directions.</span></span> <span data-ttu-id="65da9-428">换句话说，客户网络中的地址通过 Internet 或快速路由进行路由，基于优化，但不能通过这两者进行路由。</span><span class="sxs-lookup"><span data-stu-id="65da9-428">In other words, an address within the customer network is routable either through Internet or Express Route, based on optimization, but not through both.</span></span>
+
+
+<span data-ttu-id="65da9-429">**向外部用户的客户网络（按团队传输中继的媒体中继）：**</span><span class="sxs-lookup"><span data-stu-id="65da9-429">**Customer network to external user (media relayed by Teams Transport Relay):**</span></span>
+
+<span data-ttu-id="65da9-430">[![Microsoft 团队在线通话流程图26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)</span><span class="sxs-lookup"><span data-stu-id="65da9-430">[![Microsoft Teams Online Call Flows Figure 26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)</span></span>
+
+<span data-ttu-id="65da9-431">*图 26-向外部用户（按团队传输中继的媒体中继）的客户网络*</span><span class="sxs-lookup"><span data-stu-id="65da9-431">*Figure 26 - Customer network to external user (media relayed by Teams Transport Relay)*</span></span>
+
+<span data-ttu-id="65da9-432">**高级别步骤：**</span><span class="sxs-lookup"><span data-stu-id="65da9-432">**High Level Steps:**</span></span>
+
+1. <span data-ttu-id="65da9-433">客户网络中的团队用户使用 flow2 解析 URL 域名（DNS）。</span><span class="sxs-lookup"><span data-stu-id="65da9-433">Teams User within customer network resolves URL domain name (DNS) using flow2.</span></span>
+1. <span data-ttu-id="65da9-434">客户网络中的 "团队用户" 使用流1分配团队传输中继的媒体中继端口。</span><span class="sxs-lookup"><span data-stu-id="65da9-434">Teams User within customer network allocates a media Relay port on Teams Transport Relay using flow 1.</span></span>
+1. <span data-ttu-id="65da9-435">客户网络内的团队用户通过使用流1到 Office 365 的 ICE 候选人发送 "邀请"。</span><span class="sxs-lookup"><span data-stu-id="65da9-435">Teams User within customer network sends "invite" with ICE candidates using flow 1 to Office 365.</span></span>
+1. <span data-ttu-id="65da9-436">Office 365 使用流程3向外部团队用户发送通知。</span><span class="sxs-lookup"><span data-stu-id="65da9-436">Office 365 sends notification to external Teams user using flow 3.</span></span>
+1. <span data-ttu-id="65da9-437">团队外部用户使用流3在团队传输中继上分配媒体中继端口。</span><span class="sxs-lookup"><span data-stu-id="65da9-437">Teams external user allocates a media Relay port on Teams Transport Relay using flow 3.</span></span>
+1. <span data-ttu-id="65da9-438">团队外部用户通过使用流3向返回到团队用户 A 的 ICE 发送 "应答"。</span><span class="sxs-lookup"><span data-stu-id="65da9-438">Teams external user sends "answer" with ICE candidates using flow 3, which is forwarded back to Teams user A using Flow 1.</span></span>
+1. <span data-ttu-id="65da9-439">团队用户 A 和团队用户 B 调用 ICE 连接测试，并选择流1和3（由 Office 365 中的团队传输中继进行中继）。</span><span class="sxs-lookup"><span data-stu-id="65da9-439">Teams User A and Teams User B invoke ICE connectivity tests and selects flows 1 and 3, which are relayed by Teams Transport Relay in Office 365.</span></span>
+1. <span data-ttu-id="65da9-440">团队用户使用流1和3将遥测发送到 Office 365。</span><span class="sxs-lookup"><span data-stu-id="65da9-440">Teams Users send telemetry to Office 365 using flows 1 and 3.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="65da9-441">必须启用流4以支持团队应用程序依赖于其他微服务的依赖关系4。</span><span class="sxs-lookup"><span data-stu-id="65da9-441">Flow 4 must be enabled to support dependencies of Teams application on other micro-services that mandates flow 4.</span></span>

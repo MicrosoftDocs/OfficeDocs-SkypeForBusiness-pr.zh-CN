@@ -2,7 +2,8 @@
 title: 了解 Microsoft Teams 中的通话功能
 metadata:
   title: 了解 Microsoft Teams 中的通话功能
-  description: 交互式教程将引导您了解如何在 Microsoft 团队中了解和启用呼叫。
+  description: 使用此交互式教程了解 Microsoft 团队中的通话以及如何激活通话功能。
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -16,12 +17,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 3df03c8d388cc03f60c2fc6d50847e6330d30bb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778508"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902387"
 items:
 - durationInMinutes: 1
   content: >

@@ -1,6 +1,6 @@
 ---
 title: 在组织中推广 Microsoft Teams
-description: 了解 Microsoft 团队资源，包括团队的倒班、医疗保健团队、教育团队、面向零售业的团队和政府团队。
+description: 了解可用于构建标准团队部署的资源，以帮助您充分利用特定组织类型的团队。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4b6e2b1706f64a37aa8174ca919bd7582b90772
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 91a584f7dea5ae9c6ea23f8c4ee30b5eadf3dc20
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136933"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904367"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>在组织中推广 Microsoft Teams
 
