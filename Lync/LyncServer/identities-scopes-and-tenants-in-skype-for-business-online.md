@@ -12,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c6f0c08d03cd746f5929f6a7f1d82373a527a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 598f1cb760a6b4ca969c1e8df25f9735fd0df7c1
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180289"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +89,7 @@ _**上次修改的主题：** 2015-03-09_
 
 正如您所看到的，允许 Ken Myer 与公共 IM 提供商通信。 这是因为分配给他的每用户策略中的设置将覆盖全局策略中的设置。 Pilar Ackerman 无法与公共 IM 提供商通信。 这是因为她由全局策略进行管理，而全局策略将禁止此类通信。
 
-必须由 Office 365 支持为您创建每个用户的策略。 创建策略后，可以使用相应的**Grant-Cs** cmdlet 将它们分配给用户（例如， [set-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)）。 由于策略标识总是以标记**前缀**开头，因此每个用户的策略易于识别。 例如：
+必须由 Microsoft 支持为您创建每个用户的策略。 创建策略后，可以使用相应的**Grant-Cs** cmdlet 将它们分配给用户（例如， [set-csexternalaccesspolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)）。 由于策略标识总是以标记**前缀**开头，因此每个用户的策略易于识别。 例如：
 
     Identity : tag:AllowPublicIMCommunication
 

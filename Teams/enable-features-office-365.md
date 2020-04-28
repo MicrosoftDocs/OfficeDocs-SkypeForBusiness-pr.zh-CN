@@ -75,7 +75,7 @@ ms.locfileid: "43579558"
 
 你可以在此处打开或关闭文件共享和云文件存储选项。
 
-用户可以在 Teams 频道和聊天中从云存储服务上载和共享文件。Teams 中的云存储选项当前包括 Dropbox、Box、ShareFile、 Google Drive 和 [Egnyte](https://helpdesk.egnyte.com/hc/requests/new)。可打开贵组织要使用的云存储提供商对应的开关。
+用户可以在 Teams 频道和聊天中从云存储服务上载和共享文件。当前 Teams 中的云存储选项包括 Dropbox、Box、ShareFile、Google Drive 和 [Egnyte](https://helpdesk.egnyte.com/hc/requests/new)。可将组织要使用的云存储提供商切换为开启。
 
 #### <a name="organization"></a>组织
 
