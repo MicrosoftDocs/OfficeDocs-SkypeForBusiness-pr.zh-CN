@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 本文讨论 Microsoft 团队聊天室中的累积改进。
-ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+description: 管理员可以阅读 Microsoft 团队聊天室的发行说明，其中列出了 Microsoft 团队聊天室中的累积改进。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227516"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905334"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -70,7 +71,6 @@ ms.locfileid: "43227516"
 - 使用 XML 在双重显示的会议中禁用重复内容的功能
 - 应用程序初始屏幕
 - 设备设置中的开放源代码软件（OSS）声明
-- 在 Skype for Business Server 2015/2019 中禁用 TLS 1.0 和 TLS 1.1 时，修复 PSOM 连接。
 
 ### <a name="43420-03022020"></a>4.3.42.0 （03/02/2020）
 
@@ -348,6 +348,6 @@ Microsoft 团队聊天室版本3.0.12.0 （update 3）不再支持64位版本的
 
 [Microsoft 团队聊天室的已知问题](known-issues.md)
 
-[规划 Microsoft 团队聊天室](rooms-plan.md)
+[Microsoft Teams 会议室规划](rooms-plan.md)
 
 [管理 Microsoft Teams 会议室](rooms-manage.md)

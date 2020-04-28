@@ -14,13 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 阅读本主题，了解如何通过 Skype for Business 服务器部署 Microsoft 团队聊天室的相关信息。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f1f0788e9c2342f2bac8484ceb1cc83bf30fd8d3
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9e827f4d1fc020160b59f26dffde960394c3a69e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140995"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905264"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>通过 Skype for Business 服务器部署 Microsoft 团队聊天室
   
@@ -117,14 +117,14 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="see-also"></a>另请参阅
+## <a name="related-topics"></a>相关主题
 
 [为 Microsoft 团队聊天室配置帐户](rooms-configure-accounts.md)
 
-[规划 Microsoft 团队聊天室](rooms-plan.md)
+[Microsoft Teams 会议室规划](rooms-plan.md)
   
-[部署 Microsoft 团队聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 会议室](rooms-deploy.md)
   
-[配置 Microsoft 团队聊天室控制台](console.md)
+[配置 Microsoft Teams 会议室控制台](console.md)
   
 [管理 Microsoft Teams 会议室](rooms-manage.md)

@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: 了解如何在 Microsoft 团队中调用策略设置。
+description: 了解如何创建、修改用户以及将用户添加到 Microsoft 团队中的自定义呼叫策略以及各种通话策略设置。
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972443"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914056"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams 中的呼叫策略
 ===================================
@@ -105,6 +106,10 @@ ms.locfileid: "37972443"
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>通话时，忙闲电话可用
 
 忙/闲（忙碌选项））是团队调用策略的新设置，可让你配置当用户已加入通话或会议或有呼叫处于保持状态时如何处理传入呼叫。 可以使用占线信号拒绝新电话或拨入电话。 你可以在租户级别或用户级别启用繁忙选项。 无论其繁忙选项是如何配置的，通话或会议中的用户或通话暂停的用户都不会被阻止发起新的通话或会议。 默认情况下，此设置处于禁用状态。
+
+### <a name="allow-music-on-hold"></a>允许暂停音乐
+
+在将 PSTN 呼叫者置于保持状态时，此设置允许你打开或关闭已保留的音乐。 默认情况下，它处于打开状态。 此设置不会应用于呼叫寄存和老板代理人的功能，并且仅通过当前的 powershell 提供。 
 
 ## <a name="see-also"></a>另请参阅
 

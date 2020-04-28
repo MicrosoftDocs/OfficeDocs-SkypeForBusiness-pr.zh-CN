@@ -18,19 +18,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
-description: 了解邮件策略以及如何使用它们控制团队中的聊天消息服务。
-ms.openlocfilehash: a589b676a6c1da24eae7a25218fcfd449160f374
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+- seo-marvel-apr2020
+description: 在本文中，你将了解消息策略以及如何使用它们控制团队中的聊天消息服务。
+ms.openlocfilehash: d9cc2fbd9d3ba2eef77114228130a763d3f4fd25
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079434"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904417"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
 <!--- Add zone marker here--->
 
-邮件策略用于控制 Microsoft 团队中的用户可以使用哪些聊天和频道消息功能。 你可以使用为组织中的人员自动创建或创建一个或多个自定义消息策略的默认策略。 创建策略后，您可以将其分配给组织中的用户或用户组。
+消息传递策略用于控制为 Microsoft Teams 中的用户提供哪些聊天和频道消息功能。 你可以使用为组织中的人员自动创建或创建一个或多个自定义消息策略的默认策略。 创建策略后，您可以将其分配给组织中的用户或用户组。
 
 默认情况下，将创建名为 Global 的策略（组织范围的默认设置）。 默认情况下，将为组织中的所有用户分配此邮件策略。 你可以更改此策略，也可以创建一个或多个自定义策略并向其分配用户。 创建自定义策略时，你可以允许或阻止你的用户使用某些功能，然后将其分配给需要应用这些设置的一个或多个用户。 
 
@@ -60,8 +61,8 @@ ms.locfileid: "43079434"
 1. 转到**Microsoft 团队管理中心** > **消息策略**。
 2. 单击策略名称的左侧以选择该策略。
 3. 选择“管理用户”****。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对想要添加的每一个用户重复此步骤。
-5. 完成添加用户后，请选择 "**保存**"。
+4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
+5. 完成添加用户后，选择“**保存**”。
 
 > [!NOTE]
 > 如果向用户分配了该策略，则不能删除该策略。 必须先为所有受影响的用户分配不同的策略，然后才能删除原始策略。

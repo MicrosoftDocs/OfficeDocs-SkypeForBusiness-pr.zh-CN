@@ -12,11 +12,11 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: 阅读本主题，了解如何在大规模部署中部署 Microsoft 团队聊天室。
+description: 了解如何使用 Microsoft 终结点配置管理器在大规模部署中部署 Microsoft 团队聊天室。
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141015"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905314"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft 终结点配置管理器部署 Microsoft 团队聊天室
 
@@ -728,7 +728,7 @@ Surface Pro 和 Surface Pro 4 均支持 Microsoft 球队会议室。 您需要�
 
     5.  选择 "**启动配置**"。
 
-    6.  请执行下列操作之一：
+    6.  执行下列操作之一：
 
         -   选择 " **PXE 启动**"，然后将其拖动到列表顶部。 或者，你可以在网络适配器上向左轻扫以立即启动到设备。 这不会影响启动顺序。
         -   选择包含启动媒体的 u 盘。

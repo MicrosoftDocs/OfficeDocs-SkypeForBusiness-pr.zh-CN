@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: '了解如何为你的组织设置电话系统（云 PBX）。 '
-ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 详细介绍如何在 Office 365 中为您的组织设置电话系统（云 PBX）的分步指南。
+ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779809"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905564"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在组织中设置电话系统
 
@@ -33,9 +34,9 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>步骤 1： 请确保您的国家或地区可用使用电话系统
 
-1.  首先转到 [国家和地区的音频会议和呼叫计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ，并从页面顶部列表中选择您的国家或地区。 
-2.  在 **电话系统** ，下查看的功能和详细信息的列表。 
-3.  如果可用电话系统，转到步骤 2。 
+1.    首先转到 [国家和地区的音频会议和呼叫计划的可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ，并从页面顶部列表中选择您的国家或地区。 
+2.    在 **电话系统** ，下查看的功能和详细信息的列表。 
+3.    如果可用电话系统，转到步骤 2。 
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步骤 2： 购买和分配电话系统和通话套餐许可证
 

@@ -16,12 +16,13 @@ MS.collection:
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队 PSTN 使用情况" 报表大致了解组织中的通话和音频会议使用情况。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778248"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904297"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 团队 PSTN 使用报告
 
@@ -29,7 +30,7 @@ Microsoft 团队管理中心中的 "团队 PSTN 使用情况" 报表概括介绍
 
 "**呼叫计划**" 选项卡显示信息，包括用户在入站和出站 PSTN 呼叫中花费的分钟数以及这些呼叫的开销。 **直接路由**选项卡显示您的信息，包括 SIP 地址和通话开始和结束时间。 使用此报告中的信息可深入了解你的组织中的 PSTN 使用情况，并帮助你调查、规划和制定业务决策。
 
-## <a name="view-the-report"></a>查看报告
+## <a name="view-the-pstn-usage-report"></a>查看 PSTN 使用情况报告
 
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 " **PSTN 使用情况报告**"。
 2. 在 "**日期范围**" 下，选择7天或28天的预定义范围，或设置自定义范围，然后选择 "**运行报表**"。
@@ -79,10 +80,10 @@ Microsoft 团队管理中心中的 "团队 PSTN 使用情况" 报表概括介绍
 
 共享相关 ID 仅存在于你下载的导出的 Excel 文件中，并且指示两个或多个调用相互关联。 下面介绍了不同的方案，以及何时存在共享的相关 ID。
 
-1.  在团队客户端上名为 "团队用户 1" 的 pstn 终结点上的 PSTN 用户1，呼叫类型 Dr_In，相关 ID 57f28917-42k5-4c0c-9433-79734873f2ac，没有共享的相关 ID。
-2.  团队用户1在 PSTN 终结点上名为 PSTN 用户1的团队客户端上，呼叫类型 Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4，没有共享的相关 ID。
-3.  在团队客户端上称为团队用户2的 pstn 终结点上的 PSTN 用户1，呼叫类型 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9、共享相关 ID f45e9a25-9f94-46e7-a457-84f5940efde9。
-4.  与相关 ID 为 "f45e9a25-9f94-46e7-a457-84f5940efde9" 的现有呼叫3。 使用团队用户2进行呼叫的 PSTN 用户1。 团队用户2已转移（盲人或咨询）对团队或 PSTN 用户的呼叫、呼叫类型 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0、共享相关 ID f45e9a25-9f94-46e7-a457-84f5940efde9。
+1.    在团队客户端上名为 "团队用户 1" 的 pstn 终结点上的 PSTN 用户1，呼叫类型 Dr_In，相关 ID 57f28917-42k5-4c0c-9433-79734873f2ac，没有共享的相关 ID。
+2.    团队用户1在 PSTN 终结点上名为 PSTN 用户1的团队客户端上，呼叫类型 Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4，没有共享的相关 ID。
+3.    在团队客户端上称为团队用户2的 pstn 终结点上的 PSTN 用户1，呼叫类型 Dr_In f45e9a25-9f94-46e7-a457-84f5940efde9、共享相关 ID f45e9a25-9f94-46e7-a457-84f5940efde9。
+4.    与相关 ID 为 "f45e9a25-9f94-46e7-a457-84f5940efde9" 的现有呼叫3。 使用团队用户2进行呼叫的 PSTN 用户1。 团队用户2已转移（盲人或咨询）对团队或 PSTN 用户的呼叫、呼叫类型 Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0、共享相关 ID f45e9a25-9f94-46e7-a457-84f5940efde9。
 
 ## <a name="exporting-the-reports"></a>导出报表
 单击 "**导出到 Excel**"，然后在 "**下载**" 选项卡上，单击 "**下载**" 以在准备就绪后下载报告。 导出过程可能需要几秒钟到几分钟才能完成，具体取决于数据的数量。
@@ -107,7 +108,7 @@ CSV 的第一行包含列名称。 所有日期均为 UTC，格式为[ISO 8601](
 | :-: | :-: | :-: |:------------------- |
 | 0 | UsageId | `uniqueidentifier` | 唯一的呼叫标识符 |
 | 1 | 通话 ID | `nvarchar(64)` | 通话标识符。 不保证唯一性 |
-| ppls-2 | 会议 ID | `nvarchar(64)` | 音频会议的 ID |
+| 2 | 会议 ID | `nvarchar(64)` | 音频会议的 ID |
 | 3 | 用户位置 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中调用用户的 ID。<br/> 对于 bot 呼叫类型（ucap_in，ucap_out），此和其他用户信息将为 null/空 |
 | 5 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登录名称）。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
@@ -134,7 +135,7 @@ CSV 的第一行包含列名称。 所有日期均为 UTC，格式为[ISO 8601](
 | :-: | :-: | :-: |:------------------- |
 | 0 | True&correlationid | `uniqueidentifier` | 唯一的呼叫标识符 |
 | 1 | SIP 地址 | `nvarchar(128)` | 发出或接收呼叫的用户或 bot 的地址。<br/>请注意，在 Azure Active Directory 中实际是 UserPrincipalName （UPN，登录名称），后者通常与 SIP 地址相同 |
-| ppls-2 | 显示名称 | `nvarchar(128)` | 在 Microsoft 365 管理中心中设置的用户或呼叫机器人（例如呼叫队列或自动助理）的名称 |
+| 2 | 显示名称 | `nvarchar(128)` | 在 Microsoft 365 管理中心中设置的用户或呼叫机器人（例如呼叫队列或自动助理）的名称 |
 | 3 | 用户所在国 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | 邀请时间 | `datetimeoffset` | 当初始邀请从团队用户或机器人呼叫发送到 SBC，或在入站到团队或 bot 通过 SBC 直接路由的 SIP 代理组件呼叫时收到。 |
 | 5 | 开始时间 | `datetimeoffset` | SIP 代理在来自出站（团队/Bot 到 PSTN 用户）的 SBC 中收到最终答案（SIP 消息 "200 OK"）的时间，或在入站呼叫（从团队/Bot 的 PSTN 用户）将邀请发送到团队后端的下一跃点之后。<br/>对于失败的和未应答的呼叫，这可能等于 "邀请" 或 "失败" 时间 |

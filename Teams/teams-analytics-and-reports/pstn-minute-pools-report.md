@@ -16,19 +16,19 @@ MS.collection:
 description: 如何使用 Microsoft 团队管理中心中的 "团队 PSTN 分钟池" 报表查看当前月内组织内消耗的分钟数。
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d00e6f76258caad7899ddd589e037718928741e0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140663"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904894"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft 团队 PSTN 分钟池报告
 
 Microsoft 团队管理中心中的 "团队 PSTN 分钟池" 报表通过显示在当前月份内消耗的分钟数，为你提供有关你的组织中的音频会议和通话活动的概述。 你可以看到活动的细目，包括用于通话的许可证、可用总分钟数、已用分钟数以及按位置的许可证使用情况。
 
-## <a name="view-the-report"></a>查看报告
+## <a name="view-the-pstn-minute-pools-report"></a>查看 PSTN 分钟池报告
 
 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 " **PSTN 分钟池**"，然后单击 "**运行报告**"。
 

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何让自定义团队应用从开发到部署。
-ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: dd34b96a40affc2ffd7e5ddeb6a118a122831296
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229932"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904944"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>管理 Microsoft 团队中的业务线应用
 
@@ -126,6 +126,20 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 若要更新应用，开发人员应继续执行[步骤 1](#step-1-develop-and-test)和[步骤 2](#step-2-validate-in-production)。
 
 你可以通过租户应用目录更新应用。 若要执行此操作，请在 Microsoft 团队管理中心中，转到 "**团队应用** > **管理应用**"。 在应用列表中，单击应用名称，然后单击 "**更新**"。 执行此操作将替换租户应用目录中的现有应用，并且所有应用权限策略和应用设置策略都将对已更新的应用强制实施。
+
+### <a name="end-user-update-experience"></a>最终用户更新体验
+
+在大多数情况下，完成应用更新后，最终用户将自动显示新版本。 但是，对<a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft 团队清单</a>有一些更新需要用户接受才能完成：
+
+* 已添加或删除机器人
+* 现有 bot 的 "botId" 属性已更改
+* 现有 bot 的 "isNotificationOnly" 属性已更改
+* bot 的 "supportsFiles" 属性已更改
+* 添加或删除了消息传递扩展
+* 添加了新的连接器
+* 添加了新的静态选项卡
+* 添加了新的 "可配置" 选项卡
+* "webApplicationInfo" 中的属性已更改
 
 ## <a name="related-apps"></a>相关应用
 

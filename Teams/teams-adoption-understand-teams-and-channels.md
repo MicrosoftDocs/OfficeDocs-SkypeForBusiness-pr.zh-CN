@@ -10,27 +10,29 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 了解有关在 Microsoft 团队中组织团队和频道的详细信息。
+description: 了解有关在 Microsoft 团队中组织团队和频道以及如何使用团队推动跨组织协作的详细信息。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779588"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904934"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
 团队和频道的概念是 Microsoft 团队正常、高效实施的基础。 
 
-- 团队是人员、内容和工具的集合，它们协同工作以生成公司的业务成果。 团队基于 Microsoft 365 组构建，对 Office 365 组成员身份的更改将同步到团队。 
+- 团队是人员、内容和工具的集合，它们协同工作以生成公司的业务成果。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Office 365 组成员身份的更改会同步到团队。 
 
 - 信道是在其中完成实际工作的团队中的协作空间。 
 

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 了解 Skype for Business Online 停用。
+description: 了解 Skype for business Online 的退休计划以及 Microsoft 如何帮助客户迁移到团队。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029393"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905534"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 

@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: daryav
 search.appverid: MET150
-description: 了解团队中的管理员功能免费。
+description: 了解哪些人可以免费管理团队中的用户，并了解各种团队计划之间的差异。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb766eb7f1e5e8ef98afc540bdbb5264877b8142
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 0d8d7edb5710883c7725a0784819d3a35c1c2f2f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780031"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905094"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>管理 Microsoft Teams 的免费版本
 ==========================================

@@ -16,18 +16,19 @@ ms.collection:
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队用户活动" 报表查看组织中的用户使用团队的方式。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2e6d747afdf5dc5d381c11c83521e8a56ee38fe
-ms.sourcegitcommit: f4beced1a74d123253e166c7d402c1f24653d452
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528427"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903867"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 用户活动报告
 
 团队用户活动报表使你可以深入了解你的组织中的用户在团队中执行的活动类型。 例如，你可以查看多少个用户通过1:1 呼叫进行通信、通过通道消息进行通信的用户数以及参与私人聊天消息的用户数。
 
-## <a name="view-the-report"></a>查看报告
+## <a name="view-the-user-activity-report"></a>查看用户活动报表
 
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队用户活动**"。
 2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。

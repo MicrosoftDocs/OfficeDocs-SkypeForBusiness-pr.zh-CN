@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43adfb71c287677a6390d371a05bd1aea35ceda3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779981"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903117"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -161,12 +161,6 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
     > 这些示例还使用**ALLUSERS = 1**参数。 设置此参数时，团队计算机范围的安装程序将显示在 "控制面板" 的 "程序和功能" 和 "应用程序" 中的 "Windows 设置" 中的 "应用 & 功能" 中。 如果团队拥有管理员凭据，则所有用户都可以卸载团队。 了解**ALLUSERS = 1**和**ALLUSER = 1**之间的区别非常重要。 **ALLUSERS = 1**参数可在非 VDI 和 VDI 环境中使用， **ALLUSER = 1**参数仅在 VDI 环境中用于指定每计算机安装。
 
 3. 从 VDI VM 卸载 MSI。
-
-    可通过两种方式卸载团队：  
-  
-    - PowerShell 脚本（推荐）
-
-    - 命令行：
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>

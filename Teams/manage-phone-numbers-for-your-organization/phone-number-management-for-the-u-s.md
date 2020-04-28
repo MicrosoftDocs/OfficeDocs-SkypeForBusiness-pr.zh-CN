@@ -20,13 +20,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
+- seo-marvel-apr2020
 description: 使用此表查找有关在 Microsoft 团队的美国（包括波多黎各）中获取和管理电话号码的信息。
-ms.openlocfilehash: af8d93eabd8c4b033918ab7bce7e4c1fc9ab6d3d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 665d17ac8df753c3c11e149518b8a2eb686bc91e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778388"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904377"
 ---
 # <a name="phone-number-management-for-the-us"></a>美国的电话号码管理
 

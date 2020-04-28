@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: 了解有关在 Microsoft 团队中管理资源帐户的信息
-ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+- seo-marvel-apr2020
+description: 在本文中，你将了解如何在 Microsoft 团队中创建、编辑和管理资源帐户。
+ms.openlocfilehash: 07f6f15f3ed3fc1e115ae672ef1eac89b5eab12f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749999"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905004"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -37,7 +38,7 @@ ms.locfileid: "43749999"
 > [!NOTE]
 > 本文适用于 Microsoft 团队和 Skype for business Online。 对于驻留在 Skype for business Server 2019 上的资源帐户，请参阅[配置资源帐户](/SkypeForBusiness/hybrid/configure-onprem-ra)。
 
-## <a name="overview"></a>概述
+## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a>将电话号码分配给电话系统呼叫队列
 
 如果您的组织已使用至少一个电话系统许可证，要向电话系统呼叫队列分配电话号码，该过程如下所示：
 

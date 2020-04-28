@@ -1,5 +1,5 @@
 ---
-title: Teams PowerShell 概览
+title: 团队 PowerShell 概述
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -12,17 +12,18 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-description: 了解如何使用 PowerShell 控件管理 Microsoft 团队。
+description: 了解如何使用用于管理 Microsoft 团队的 PowerShell 控件，包括 PowerShell cmdlet 的结构。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052519"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903037"
 ---
-# <a name="teams-powershell-overview"></a>Teams PowerShell 概览
+# <a name="teams-powershell-overview"></a>团队 PowerShell 概述
 
 Microsoft 团队拥有一组丰富的工具，可供 IT 管理员通过 Microsoft 团队管理中心、PowerShell 控件和图形 Api 管理产品。 本指南介绍我们如何构建我们的 PowerShell cmdlet 以供 IT 管理员使用，并提供了指向更多文档的指针。 请注意，不同的团队管理员角色具有访问不同 cmdlet 的权限。 有关详细信息，请参阅[使用 Microsoft 团队管理员角色管理团队](using-admin-roles.md)。
 
@@ -124,7 +125,7 @@ PowerShell 控件的参考文档将告诉你你正在调查的 cmdlet 所在的�
 
 有关如何使用用于管理 Microsoft 团队和 Skype for business 的所有 PowerShell 控件的详细说明，包括每个策略中的设置的详细说明，请参阅[Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)和[Skype for business cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
 
-## <a name="learn-more"></a>了解更多信息
+## <a name="learn-more"></a>了解详细信息
 
 - [Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
 - [Skype for Business cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)

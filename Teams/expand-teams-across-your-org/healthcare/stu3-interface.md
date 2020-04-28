@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 了解团队中的 STU3 界面规范，包括设置或重新配置 FHIR 服务器以使用 Microsoft 团队患者应用。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 35d887575ffb894b7a47e50511e6bd6c3a9a75d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 了解如何将电子医疗记录集成到 Microsoft 团队患者应用和 STU3 界面规范中。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2e101f6ca50a76b4b8bb9d3dd33d35fd7706a81f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141195"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905744"
 ---
 # <a name="stu3-interface-specification"></a>STU3 接口规范
 

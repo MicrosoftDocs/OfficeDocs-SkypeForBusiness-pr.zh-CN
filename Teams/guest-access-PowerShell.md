@@ -13,15 +13,16 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 使用 PowerShell 在 Microsoft Teams 中允许或阻止对团队的来宾访问
+description: 了解如何使用 PowerShell 允许或阻止对 Microsoft 团队中的所有团队或特定团队的来宾访问。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e15e2e70559f75cff6be97f2996dc45666f963b8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776957"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902587"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制对团队的来宾访问
 ================================================
@@ -43,9 +44,9 @@ ms.locfileid: "43776957"
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 打开或关闭来宾访问
 
-1.  从下载 Skype for Business Online PowerShell 模块https://www.microsoft.com/download/details.aspx?id=39366
+1.    从下载 Skype for Business Online PowerShell 模块https://www.microsoft.com/download/details.aspx?id=39366
  
-2.  将 PowerShell 会话连接到 Skype for Business Online 终结点。
+2.    将 PowerShell 会话连接到 Skype for Business Online 终结点。
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -53,7 +54,7 @@ ms.locfileid: "43776957"
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.  检查您的配置， `AllowGuestUser`如果`$False`是，请使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet 将其设置为`$True`。
+3.    检查您的配置， `AllowGuestUser`如果`$False`是，请使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet 将其设置为`$True`。
 
     ```PowerShell
     Get-CsTeamsClientConfiguration

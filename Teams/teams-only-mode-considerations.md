@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
-description: 准备升级到 "仅 Microsoft 团队" 模式
+description: 管理员可以了解如何准备升级到 Microsoft 团队管理中心中的 Microsoft 团队专用模式。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,17 +16,18 @@ f1.keywords:
 ms.custom:
 - Teams-upgrade-guidance
 - ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c45a21a1aae9facd10dafe675d10955b3fa90c62
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776817"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903057"
 ---
 # <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 
@@ -37,7 +38,7 @@ ms.locfileid: "43776817"
 虽然数以千计的客户成功升级到 Microsoft 团队，但仍有可能会影响组织的升级时间线和用户体验。 特别是，选择升级选项并不一定意味着你的组织已准备好进行此更改。 为了实现最佳用户体验，请先确认 Teams 满足你的协作和通信要求，确保你的网络可以支持 Teams，以及实施你的用户就绪计划，然后再将用户升级到 Teams。 
 
 > [!IMPORTANT]
-> 如果您刚刚开始升级规划，请务必查看我们的完整升级指南和规划资源。 [从这里开始](upgrade-start-here.md)。 
+> 如果你刚刚开始升级计划，请务必查看我们[开始熟悉 Microsoft 团队升级](upgrade-start-here.md)指南。 
 
 **共存注意事项**：已使用 Skype For business Online 和/或 Skype For business 服务器的组织可以按满足其需求的节奏将团队引入到其环境中。 组织可以根据需要以增量方式向所需的一组用户推出团队，并且使用团队的用户可以与使用 Skype for Business 的用户进行通信，反之亦然。 为管理此体验，管理员使用共存模式，这些模式定义了最终用户客户体验、传入聊天和通话的传送行为，以及团队或 Skype for business 中是否安排新会议。 如果用户仅升级到**团队**，则用户可以与其他组织中的用户联盟;但是，当两个用户都使用团队时，将提供最佳体验。 已升级到团队的用户仍可加入 Skype for Business 会议。 
 

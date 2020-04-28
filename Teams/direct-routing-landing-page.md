@@ -13,19 +13,20 @@ ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 直接路由的登陆页面
+description: 了解有关直接路由的详细信息，并了解你将面临的必要部署决策。
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: ba1732864a765af5bb5a0dfc5504f1d37b5460b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157900"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904577"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 
-你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许你已将[会议部署 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在，你已准备好添加云语音工作负载，并且你已决定通过使用电话系统直接路由将自己的电话运营商用于公共交换电话网络（PSTN）连接。 通过直接路由，您可以在任何电话运营商处使用电话系统。
+你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许你已将[会议部署 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在，你已准备好添加云语音工作负载，并且你已决定通过使用电话系统直接路由将自己的电话运营商用于公共交换电话网络（PSTN）连接。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
 
 本文介绍直接路由的核心部署决策，以及你可能希望考虑的基于组织需求的其他注意事项。 您还应阅读[Microsoft 团队中的云语音](cloud-voice-landing-page.md)，了解有关 Microsoft 云语音服务的详细信息。
 

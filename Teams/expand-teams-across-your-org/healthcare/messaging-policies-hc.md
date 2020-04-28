@@ -16,20 +16,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: 适用于医疗保健组织的安全邮件入门
+description: 了解如何自定义可包括已读回执和优先级通知的安全邮件策略。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136982"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905524"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>适用于医疗保健组织的安全邮件入门
 
 邮件策略用于控制 Microsoft 团队中的用户可以使用哪些聊天和频道消息功能，以及针对医疗保健组织（如医院、诊所或医生的办事处）的安全消息整体部署的一部分，在这种情况下，无论何时阅读重要邮件，都将对这些信息进行及时挑选并采取行动。
 
-你可以使用全局（组织范围默认）策略，或为组织中的人员创建一个或多个自定义消息策略。 除非你创建并分配自定义策略，否则你组织中的用户将自动获取全局策略。 创建自定义策略后，为其分配您的组织中的一个用户或一组用户。 例如，您可以选择仅允许特定工作角色（如医生和护士）和其他工作人员（如医生和护士）和其他工作人员（如医生和护士）和其他工作人员（如 janitorial 或厨房员工）获取更有限的一组功能。 确定你的组织需要哪些内容，此处的指南最多仅有一个建议。
+你可以使用全局（组织范围默认）策略，或为组织中的人员创建一个或多个自定义消息策略。 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 创建自定义策略后，为其分配您的组织中的一个用户或一组用户。 例如，您可以选择仅允许特定工作角色（如医生和护士）和其他工作人员（如医生和护士）和其他工作人员（如医生和护士）和其他工作人员（如 janitorial 或厨房员工）获取更有限的一组功能。 确定你的组织需要哪些内容，此处的指南最多仅有一个建议。
 
 通过使用管理员凭据登录并在左侧导航窗格中选择**消息策略**，可以轻松地在[Microsoft 团队管理中心](https://admin.teams.microsoft.com)中管理策略。
 

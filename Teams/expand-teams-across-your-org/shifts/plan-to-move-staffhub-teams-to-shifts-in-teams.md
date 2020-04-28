@@ -8,7 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 获取有关如何计划将 StaffHub 团队移动到 Microsoft 团队倒班的指南。
+description: 使用此日程表帮助你的组织从 StaffHub 团队过渡到 Microsoft 团队中的倒班。
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,13 +18,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f296beffa5d9d97bd34035a80cac8068783cea54
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 67c7a34a1051f68183429d9850561748d34568ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780611"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905714"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>计划将 StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -39,7 +39,7 @@ ms.locfileid: "43780611"
 |步骤 |指引  |源 |
 |---------|---------|---------|
 |1    |准备和识别利益干系人         |         |
-|ppls-2     |查看有关从 StaffHub 切换到团队和团队成员的文档         |[StaffHub 已停用](microsoft-staffhub-to-be-retired.md)<br><br>[将 StaffHub 团队移动到团队中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[开始使用 Teams](../../get-started-with-teams-quick-start.md)         |
+|2     |查看有关从 StaffHub 切换到团队和团队成员的文档         |[StaffHub 已停用](microsoft-staffhub-to-be-retired.md)<br><br>[将 StaffHub 团队移动到团队中的倒班](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[开始使用 Teams](../../get-started-with-teams-quick-start.md)         |
 |3    |为你的组织启用 Microsoft 365 组        |[Microsoft 365 组和团队](../../Office-365-groups.md)      |
 |4    |请确保满足先决条件         |[检查是否满足先决条件](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |将团队许可证分配给组织中的 StaffHub 用户|[分配 Teams 许可证](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[管理用户对 Teams 的访问管理](../../user-access.md)      |
@@ -58,7 +58,7 @@ ms.locfileid: "43780611"
 |步骤 |指引 |源  |
 |---------|---------|---------|
 |1  |确定试点团队并移动一个团队          |[移动 StaffHub 团队](move-staffhub-teams-to-shifts-in-teams.md#move-a-staffhub-team)          |
-|ppls-2    |验证试点团队并确定任何移动问题。 根据需要更新培训文档。         |         |
+|2    |验证试点团队并确定任何移动问题。 根据需要更新培训文档。         |         |
 |3     |确定其他试点团队并移动五到十个团队         |[移动 StaffHub 团队](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |4     |识别剩余的 StaffHub 团队并以分阶段方式移动         |[移动 StaffHub 团队](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |5     |继续为倒班和团队提供支持         |         |

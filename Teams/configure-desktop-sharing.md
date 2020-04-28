@@ -11,17 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 配置会议策略，让用户在 Teams 聊天或会议中共享其桌面
+description: 了解如何配置会议策略以让用户在团队聊天或会议中共享其桌面。
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 366aaeb4f48670ae04d4b53d21196ef2d9e81fb4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825540"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905894"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中配置桌面共享
 ============================================
@@ -52,8 +53,8 @@ ms.locfileid: "41825540"
 
 5. 打开或关闭以下设置：
 
-    - **允许参与者提供或请求控制权** - 允许团队成员提供自己桌面或应用程序的控制权或请求演示者的桌面或应用程序的控制权。
-    - **允许外部参与者提供或请求控制权** - 允许来宾和外部（联合）用户提供自己桌面或应用程序的控制权或请求演示者的桌面或应用程序的控制权。
+    - **允许参与者授予或请求控制**–允许团队成员授予或请求演示者的桌面或应用程序的控制权。
+    - **允许外部参与者授予或请求控制**-允许来宾和外部（联合）用户向演示者的桌面或应用程序提供或请求控制。
     - **允许 PowerPoint 共享** - 允许用户创建可上传和共享 PowerPoint 演示文稿的会议。
     - **允许白板** - 允许用户共享白板。
     - **允许共享笔记** - 允许用户记录共享笔记。

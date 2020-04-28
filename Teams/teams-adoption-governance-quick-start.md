@@ -10,21 +10,23 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 为采纳计划的第2阶段制定关键决定
+description: 快速入门，其中介绍了你将在 Microsoft 团队采纳计划的第2阶段中需要执行的关键决策。
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7b24fd6e6ea957c085050dd1311ec536800b706b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780481"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904317"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft Teams 管理快速入门
 

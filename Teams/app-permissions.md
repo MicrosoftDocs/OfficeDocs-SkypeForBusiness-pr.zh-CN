@@ -12,18 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: 了解贵组织要求的数据和权限应用。
+description: 管理员可以了解 Microsoft 团队应用从其组织请求哪些数据和权限。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845223"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904587"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -135,9 +136,9 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - 选项卡的风险配置文件与在浏览器选项卡中运行的同一网站几乎完全相同。 
 
-- 选项卡还获取正在运行的上下文，包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、它所在的 Office 365 组的 ID （如果它是团队），租户 ID以及用户的当前区域设置。 但是，若要将这些 Id 映射到用户的信息，选项卡将必须使用户登录到 Azure AD。
+- 选项卡还获取正在运行的上下文，其中包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、当前用户的 Azure AD 对象 ID、它所在的 Office 365 组的 ID （如果是团队）、租户 ID 以及用户的当前区域设置。 但是，若要将这些 Id 映射到用户的信息，选项卡将必须使用户登录到 Azure AD。
 
-## <a name="connectors"></a>接口
+## <a name="connectors"></a>连接器
 
 当发生外部系统中的事件时，连接器将消息发送到频道。
 

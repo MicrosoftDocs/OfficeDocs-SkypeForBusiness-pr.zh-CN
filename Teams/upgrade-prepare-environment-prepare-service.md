@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 使用本指南为团队部署和推出准备租户
+description: 了解在团队中为协作和云语音服务准备组织的要求。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b9e55a4189556c69e93c86286dd1b9b585bb726
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b51897aa0c135f13a0f7950576665527d5dbc834
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706882"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905244"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>准备要升级到团队的服务
 

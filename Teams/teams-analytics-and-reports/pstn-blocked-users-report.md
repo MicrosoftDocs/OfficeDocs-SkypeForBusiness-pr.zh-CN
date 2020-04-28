@@ -16,19 +16,19 @@ MS.collection:
 description: 使用 Microsoft 团队管理中心中的 PSTN "阻止的用户" 报表，大致了解组织的团队用户是否已阻止进行 PSTN 呼叫。
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 511485fa156ba448368809edf54728ada1b80be7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140683"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904904"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft 团队 PSTN 已阻止用户报告
 
 Microsoft 团队管理中心中的 PSTN "已阻止用户" 报表显示你的组织中阻止在团队中进行 PSTN 呼叫的用户。 您可以查看有关每个被阻止用户的详细信息，包括其分配的电话号码以及阻止他们进行呼叫的原因。
 
-## <a name="view-the-report"></a>查看报告
+## <a name="view-the-pstn-blocked-users-report"></a>查看 PSTN 已阻止用户报告
 
 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 " **PSTN 阻止的用户**"，然后单击 "**运行报告**"。
 

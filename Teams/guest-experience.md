@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: 了解来宾用户可用的 Microsoft Teams 功能。
+description: 本文介绍了适用于来宾用户的 Microsoft 团队功能，还将回答与之相关的一些最常见的常见问题。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785865"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902597"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -76,8 +77,8 @@ ms.locfileid: "43785865"
 | 可协商转接 | 是 | 是  | 是  |
 | 可通过 VOIP 将其他用户添加到通话中 | 是 | 是  | 是  |
 | 可通过电话号码将用户添加到通话中 | 否 | 否 | 是 |
-| 转发目标 | 否 | 是 | 是  |
-| 通话群组目标 | 否 | 是 | 是 |
+| 转发目标 | 否 | 是 | 是 |
+| 通话群组目标 | 否 | 是 | 是  |
 | 未应答目标 | 否 | 是 | 是  |
 | 可为联合呼叫的目标 | 否 | 是 | 是  |
 | 可进行联合呼叫 | 否 | 是 | 是  |

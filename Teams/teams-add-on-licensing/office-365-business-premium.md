@@ -1,5 +1,5 @@
 ---
-title: 'Microsoft 365 商业标准 '
+title: 'Microsoft 365 商业标准版 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,15 +18,16 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '了解加载项许可证、功能以及如何购买 Microsoft 365 商业标准计划。 '
-ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 了解加载项许可证及其功能，以及如何为 Microsoft 365 商业标准计划购买这些许可证。
+ms.openlocfilehash: 136dbf60f728d4c4455c466dd8a8a02376e20f1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780501"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904607"
 ---
-# <a name="microsoft-365-business-standard"></a>Microsoft 365 商业标准
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 商业标准版
 
 如果您有[Microsoft 365 商业标准](https://products.office.com/en/business/office-365-business-premium)，您可以使用 microsoft 团队与您的企业中的其他人进行通话，这些人在您的订阅中。 例如，如果您的企业有10个人，则可以使用团队互相呼叫和发送即时消息。
 

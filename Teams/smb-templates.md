@@ -15,14 +15,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: 面向中小型企业的团队模板入门
+description: 使用 Microsoft 团队预定义模板快速轻松地为中小型企业创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4aa620e241bd59ce39f415fca3e33583a3c26c01
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 89555c13504b621b5cb9c43ae9edb33c9f2bbe54
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140845"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904884"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>面向中小型企业的团队模板入门
 

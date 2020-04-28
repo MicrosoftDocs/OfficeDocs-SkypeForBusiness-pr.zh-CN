@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
-description: 在 Microsoft Teams 中使用此清单帮助设置来宾访问。
+description: 了解如何在 Microsoft 团队中作为全局管理员或团队管理员打开和配置来宾访问。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22a0c2a8641203e764d6c490a008525cf71e8d5c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776947"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902577"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 来宾访问清单
 =========================================
@@ -30,7 +31,7 @@ ms.locfileid: "43776947"
 在 Microsoft Teams 中使用此清单来帮助您启用和配置来宾访问。 你需要成为全局管理员或 Teams 管理员才能进行这些更改。
 
 > [!IMPORTANT]
-> 可能需要等待长达 24 小时才能使更改生效。 
+> 您可能需要等待几个小时才能使所做的更改生效。 
 
 观看此短视频（5 分 31 秒），了解如何通过 Microsoft 365（包括 Teams）启用来宾访问。
 

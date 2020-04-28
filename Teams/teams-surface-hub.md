@@ -8,23 +8,24 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: 配置 Microsoft 团队 Surface Hub 的管理员设置。
+description: 了解如何为 Surface Hub 应用安装和配置团队，以便团队是默认的呼叫和会议应用程序。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Devices
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 589bbfe75f0beea88066b5a6188b1d29c98ddd5f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836932"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905644"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>为 Surface Hub 部署 Microsoft Teams
 ======================================
@@ -64,7 +65,7 @@ ms.locfileid: "41836932"
 |---------|---------|
 |0     | "开始" 屏幕上的 Skype 首选应用，团队会议可用        |
 |1     | 团队首选应用在 "开始" 屏幕上，Skype 会议可用        |
-|ppls-2     | "开始" 屏幕上的 "团队专用应用" （Skype 应用程序不可用）        |
+|2     | "开始" 屏幕上的 "团队专用应用" （Skype 应用程序不可用）        |
  
 1. 将 USB 密钥附加到 Surface Hub 设备。 
 2. 在 Surface Hub 设备上打开 "**设置**" 应用。 

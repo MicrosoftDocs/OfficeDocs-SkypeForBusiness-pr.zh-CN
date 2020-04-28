@@ -16,14 +16,14 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 了解如何为组织中的用户分配或更改紧急位置的位置。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6390ebf3cc366d41b36d09f597dd2bf76ba2d2a2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 在本文中，你将了解如何为你的组织中的用户分配或更改紧急位置的位置。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8689c6a578beac3a93fa8ef9214d6c33cd2d071a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137482"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904844"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置的位置
 

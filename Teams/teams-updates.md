@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: 查看已更新的团队文章的列表。
+description: 本主题是最近更新的 Microsoft 团队帮助主题的列表，包括已更新主题的链接。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,12 +17,13 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c4923143bf835da930a0193618db9c600c45d4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d8c037be9b1aa55d97e39fc5821d6a4ad87ffaf
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836922"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905625"
 ---
 # <a name="microsoft-teams-content-updates"></a>Microsoft 团队内容更新
 

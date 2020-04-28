@@ -16,16 +16,17 @@ ms.custom:
 - ms.teamsadmincenter.errorpage.needadminperms.assignadminrolesarticle
 - ms.teamsadmincenter.signin.error.nopermissions
 - ms.teamsadmincenter.directrouting.cqd
+- seo-marvel-apr2020
 ms.reviewer: islubin
-description: 了解如何使用不同的管理角色管理团队。
+description: 了解如何使用管理角色指定需要不同级别的访问权限的管理员来管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07cf86f9253a9b7a7c3e9cbe6862f4464a12464b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 77ba123afadb3c5b5070d9c6a074d855ee8eab3e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780011"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905144"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色管理团队
 

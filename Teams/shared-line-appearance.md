@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
-description: 共享行的外观使用户可以选择代表代表他们应答或处理呼叫的代理人。
-ms.openlocfilehash: bb6728de67d1bf29a5e00ed9b62d8957391dd8ba
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 了解如何在 Microsoft 团队中向用户发送包含其音频会议信息的电子邮件。
+ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837962"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905544"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams 中的共享线路外观
 
@@ -56,7 +57,7 @@ ms.locfileid: "41837962"
 
 以下应用和设备当前支持共享行的外观。
 
-| 能 | 团队桌面版 | 团队 Mac 应用 | 团队 Web App （Edge） |团队移动 iOS/Android 应用程序 | 团队 IP 电话 |
+| 功能 | 团队桌面版 | 团队 Mac 应用 | 团队 Web App （Edge） |团队移动 iOS/Android 应用程序 | 团队 IP 电话 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | 设置委派 | 必需 | 是  | 是 | 否 | 否 |
 | 代表他人接听电话 | 必需 | 是  | 是  | 是  | 是 |

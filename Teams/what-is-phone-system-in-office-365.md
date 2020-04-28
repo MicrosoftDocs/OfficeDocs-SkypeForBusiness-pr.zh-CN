@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 了解手机系统可以为你执行的操作。
-ms.openlocfilehash: 398b1e159a54da21ca83ced5014f54d758420c2d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 在本文中，你将了解 Microsoft Office 365 中的电话系统技术。
+ms.openlocfilehash: d64c8c0998b37446051b067af629f49eb2b4bd28
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836652"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905124"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
 

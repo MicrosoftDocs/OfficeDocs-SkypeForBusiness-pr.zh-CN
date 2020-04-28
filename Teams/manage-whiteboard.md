@@ -9,22 +9,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: 了解如何在 Microsoft 团队中使用白板 web 应用
+description: 在本文中，你将了解如何在 Microsoft 团队中管理和使用白板 web 应用。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb6c4a1773996101d916c8fe11c0e46bc78b287
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b8f17a65ca4ce10497b4f05d6b2762f1f430909b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837512"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904954"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>在 Microsoft 团队中管理白板
 ==========================================

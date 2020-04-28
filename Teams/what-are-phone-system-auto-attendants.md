@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
-description: 了解什么是云自动助理以及如何使用它们。
-ms.openlocfilehash: d9f108acd4c1ebe3c275d79555145c6c92a78737
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: 了解云自动助理以及如何使用它们让呼叫者在菜单系统中移动，以找到并将呼叫放入或转移到用户或部门。
+ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836662"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905134"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
@@ -91,7 +92,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部呼叫者和
 |语音（语音识别） |名  <br/> 姓名  <br/> 名字 + 姓氏  <br/> 姓氏 + 名字  | 80000用户 |
 
 > [!NOTE]
-> 如果你使用的是使用语音识别的 "按名称拨入"，但你的组织的 Active Directory 大于80000用户，并且你未使用 "拨号作用域" 功能限制按名称进行拨号的范围，则使用电话键盘，"按名称拨号" 仍将适用于呼叫者，并且语音输入将可用于所有其他方案。 你可以使用"拨号范围"功能，通过更改按名字拨叫的范围，减少可以呼叫的姓名，以找到特定自动助理。
+> 如果你使用的是使用语音识别的 "按名称拨号"，但你的组织的 Active Directory 大于80000用户，并且你没有通过 "拨号作用域" 功能限制按名称进行拨号的范围，则按名称使用电话键盘仍可使用呼叫者，并且语音输入将可用于所有其他方案。 你可以使用"拨号范围"功能，通过更改按名字拨叫的范围，减少可以呼叫的姓名，以找到特定自动助理。
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>按名字拨叫 - 键盘 (DTMF) 输入
 拨入者可以通过指定要访问的人员的全名或部分名称，使用 "按名称拨号" 访问用户。 输入姓名时可以使用不同的格式。

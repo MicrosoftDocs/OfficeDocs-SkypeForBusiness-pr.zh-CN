@@ -18,13 +18,14 @@ f1.keywords:
 ms.custom:
 - Skype for Business Certification
 - dn947482
-description: 适用于 Microsoft 团队的 IP 桌面和手机认证
-ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: 了解哪些桌面和会议已认证，可供 Microsoft 团队获得最佳效果。
+ms.openlocfilehash: 655de2414203525d305c0097ba9301e2ef513f87
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779971"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903107"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 

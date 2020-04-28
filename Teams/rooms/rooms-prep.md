@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: 本文介绍了用于部署 Microsoft 团队聊天室的基础结构准备。
-ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 了解如何为部署 Microsoft 团队聊天室准备基础结构，以便你可以充分利用所有功能。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779769"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905344"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -158,7 +159,7 @@ Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设
   
  如果您想要在将计算机加入到域之后重命名该计算机，请使用 "重命名计算机 PowerShell" 命令，后跟计算机的新名称。
   
-## <a name="see-also"></a>另请参阅
+## <a name="related-topics"></a>相关主题
 
 [规划 Microsoft 团队聊天室](rooms-plan.md)
 

@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
+- seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779739"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905584"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -37,7 +38,7 @@ ms.locfileid: "43779739"
   
 ## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>步骤1：为用户分配音频会议或呼叫计划许可证
 
-当您注册时，您将获得一定的分钟数，具体取决于您所在的国家/地区。 您可以在此处看到您将在[此处](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)搜索国家或地区的分钟数。 使用这些分钟数后，通话将断开。 要防止这种情况发生，您需要设置通讯信用点数。
+当您注册时，您将获得一定的分钟数，具体取决于您所在的国家/地区。 可以在 "[国家或地区" 列表中搜索音频会议和通话计划](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization)的国家或地区，以查看您将获得的分钟数。 使用这些分钟数后，通话将断开。 要防止这种情况发生，您需要设置通讯信用点数。
   
 若要执行此操作，你需要为你的用户**分配音频会议或电话系统许可证**。
   

@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在 Microsoft 团队中使用和管理紧急呼叫路由策略。
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 了解如何使用和管理 Microsoft 团队中的紧急呼叫路由策略来设置紧急电话号码，并指定如何路由紧急电话。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 310f2d3177f7a601013859d06a90f6d1ba44c656
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141115"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905114"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫路由策略
 
@@ -36,7 +36,7 @@ ms.locfileid: "43141115"
 
 ## <a name="create-a-custom-emergency-call-routing-policy"></a>创建自定义紧急呼叫路由策略
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫路由策略**" 选项卡。
 2. 单击“添加”****。
@@ -60,7 +60,7 @@ ms.locfileid: "43141115"
 
 ## <a name="edit-an-emergency-call-routing-policy"></a>编辑紧急呼叫路由策略
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 你可以编辑全局策略或你创建的任何自定义策略。
 
@@ -74,7 +74,7 @@ ms.locfileid: "43141115"
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>为用户分配自定义紧急呼叫路由策略
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
@@ -87,7 +87,7 @@ ms.locfileid: "43141115"
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫路由策略**" 选项卡。
 2. 单击策略名称的左侧以选择该策略。
 3. 选择“管理用户”****。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对想要添加的每一个用户重复此步骤。
+4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
 5. 添加完用户后，单击 "**保存**"。
 
 ### <a name="using-powershell"></a>使用 PowerShell

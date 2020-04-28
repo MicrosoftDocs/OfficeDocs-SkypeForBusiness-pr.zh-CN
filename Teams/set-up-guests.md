@@ -11,25 +11,25 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: 开启或关闭 Microsoft Teams 中的来宾访问功能。
+description: 了解如何在 Microsoft 团队中打开或关闭来宾访问功能，作为 Office 365 管理员。
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bcdbc3251820bdcee860323ad993efc8d6673c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e634c58d34787a76477591ab4262c703e5773cbe
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835642"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903787"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>打开或关闭对 Microsoft 团队的来宾访问
 ===================================================
 
-默认情况下，来宾访问处于关闭状态。 作为 Office 365 管理员，必须先为团队启用来宾访问权限，管理员或团队所有者才能添加来宾。 若要启用来宾访问，请使用[来宾访问清单](guest-access-checklist.md)。 
+默认情况下会关闭来宾访问。 作为 Office 365 管理员，必须先为团队启用来宾访问权限，管理员或团队所有者才能添加来宾。 若要启用来宾访问，请使用[来宾访问清单](guest-access-checklist.md)。 
 
-启用来宾访问后，更改将花费2-24 小时才能生效。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾访问尚未打开，或者设置尚未生效。
+启用来宾访问后，可能需要几个小时才能使更改生效。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾访问尚未打开，或者设置尚未生效。
 
 > [!IMPORTANT]
 > 打开来宾访问取决于 Azure Active Directory、Office 365、SharePoint Online 和团队中的设置。 有关详细信息，请参阅[授权团队中的来宾访问](Teams-dependencies.md)。
@@ -38,15 +38,15 @@ ms.locfileid: "41835642"
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>配置团队管理中心中的来宾访问
 
-1.  登录到 Microsoft 团队管理中心。
+1.    登录到 Microsoft 团队管理中心。
 
-2.  选择 "**组织范围设置** > "**来宾访问**。
+2.    选择 "**组织范围设置** > "**来宾访问**。
 
 3. 将 "**允许 Microsoft 团队中的来宾访问**" 设置为 **"打开"**。
 
     ![允许来宾访问开关设置为 "开" ](media/set-up-guests-image1.png)
 
-4.  在 "**呼叫**、**会议**和**消息**" 下，为每个功能选择 **"开" 或 "** **关**"，具体取决于您希望来宾用户允许的功能。
+4.    在 "**呼叫**、**会议**和**消息**" 下，为每个功能选择 **"开" 或 "** **关**"，具体取决于您希望来宾用户允许的功能。
 
     - **进行专用通话**–打开此设置可允许来宾**进行对等**呼叫。
     - **允许使用 IP 视频**-打开此**设置可允许来宾在其**呼叫和会议中使用视频。
@@ -67,7 +67,7 @@ ms.locfileid: "41835642"
     - **在对话中使用贴纸**-启用**此设置可允许来宾在对话**中使用贴纸。 
 
 
-5.  单击“**保存**”。
+5.    单击“**保存**”。
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 打开或关闭来宾访问
 已阅读["使用 PowerShell" 打开或关闭来宾访问](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)

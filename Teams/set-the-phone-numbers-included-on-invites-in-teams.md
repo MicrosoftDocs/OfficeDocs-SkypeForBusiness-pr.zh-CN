@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '获取为呼叫者创建默认电话号码以加入 Microsoft 团队会议的步骤。 '
-ms.openlocfilehash: 6c45a28ab48add26eef8929e37e5cf60113185ea
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 按照以下步骤为呼叫者创建用于加入 Microsoft 团队会议的默认电话号码。
+ms.openlocfilehash: 22950bed0b09caf96e9fc26060f466eb6c00ff30
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140895"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905594"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 

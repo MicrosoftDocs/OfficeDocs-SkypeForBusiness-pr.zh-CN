@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Microsoft 团队聊天室的管理概述。
-ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 了解如何开发和执行持续维护和操作，以确保你的 Microsoft 团队聊天室系统可供你的用户使用。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825880"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905364"
 ---
 # <a name="management-overview"></a>管理概述
 
@@ -75,7 +76,7 @@ ms.locfileid: "41825880"
 Microsoft 团队聊天室在 Windows 10 企业版 IoT 或 Windows 10 企业版（VL）上运行，并作为标准桌面接收相同的 Windows 更新和 OS 版本。 有关详细信息，请参阅[管理 Windows 更新](updates.md)。
 
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 我们建议你按照上述部分所述设置 Operations Management Suite 警报，以便你的运营团队和帮助人员将收到任何 Microsoft 团队聊天室问题的通知。 在[使用 powershell 的远程管理](rooms-operations.md#remote-management-using-powershell)中介绍了用于 PowerShell 远程管理的选项。 当外围设备断开连接时，你可能需要依赖本地 "smart 手" 或 IT 支持来调查和重新连接设备。 
 
@@ -86,10 +87,10 @@ Microsoft 团队聊天室在 Windows 10 企业版 IoT 或 Windows 10 企业版�
 
 [Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[规划 Microsoft 团队聊天室](rooms-plan.md)
+[Microsoft Teams 会议室规划](rooms-plan.md)
 
-[部署 Microsoft 团队聊天室](rooms-deploy.md)
+[部署 Microsoft Teams 会议室](rooms-deploy.md)
 
-[配置 Microsoft 团队聊天室控制台](console.md)
+[配置 Microsoft Teams 会议室控制台](console.md)
 
 [使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置](xml-config-file.md)

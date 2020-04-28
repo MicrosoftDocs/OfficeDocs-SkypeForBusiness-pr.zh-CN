@@ -16,18 +16,19 @@ ms.collection:
 description: 了解如何使用 Microsoft 团队管理中心中的 "团队实时事件使用率" 报表大致了解组织中的团队活动事件活动。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af8a7d0225c3098f48de689a15921cd6f1f2f1c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: faf4a19b8a9bcd4b6fbdc2b3fd55882121015da2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827240"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904287"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft 团队实时事件使用率报告
 
 Microsoft 团队管理中心中的 "团队实时事件使用率" 报表显示组织中的实时事件的活动概述。 你可以查看每个事件的使用信息，包括事件状态、开始时间、视图和生产类型。 你可以深入了解使用趋势，并查看你的组织安排、提出和生成实时事件的人员。
 
-## <a name="view-the-report"></a>查看报告
+## <a name="view-the-live-event-usage-report"></a>查看实时事件使用率报告
 
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队实时事件使用率**"。
 2. 在 "**日期范围**" 下，选择预定义区域或设置自定义范围。 你可以将区域设置为在当前日期前后的六个月显示数据。

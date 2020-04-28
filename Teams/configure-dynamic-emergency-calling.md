@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 配置动态紧急呼叫
+description: 了解如何配置 Microsoft 通话计划和电话系统直接路由动态紧急呼叫功能。
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417587"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905884"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -96,7 +97,7 @@ Azure 映射用于基于位置的服务。  使用 Microsoft 团队管理中心�
 
 网络设置用于确定团队客户端的位置，并动态获取紧急呼叫策略和紧急位置。 您可以根据组织希望的紧急呼叫功能来配置网络设置。
 
-网络设置包括包含子网集合的网站-这些网站专门用于向用户分配动态策略。  例如，TeamsEmergencyCalling 策略和 TeamsEmergencyCallRouting 策略可能分配给 "雷德蒙" 网站，以便从家庭或其他 Microsoft 位置漫游的任何用户都配置有紧急号码、路由和安全桌面特定于雷德蒙。  
+网络设置包括包含子网集合的网站-这些网站专门用于向用户分配动态策略。  例如，TeamsEmergencyCalling 策略和 TeamsEmergencyCallRouting 策略可能分配给 "雷德蒙" 网站，以便从家里或其他 Microsoft 位置漫游的任何用户都使用特定于 Redmond 的紧急号码、路线和安全桌面进行配置。  
 
 >[!Note]
 >子网也可以在 .LIS 中定义，并且可以与紧急位置相关联。  

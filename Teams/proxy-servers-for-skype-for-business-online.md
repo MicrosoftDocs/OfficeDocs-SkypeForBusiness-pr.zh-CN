@@ -1,5 +1,5 @@
 ---
-title: 团队或 Skype for business Online 的代理服务器
+title: Teams 或 Skype for Business Online 的代理服务器
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,15 +20,16 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 本文提供有关将代理服务器与团队或 Skype for Business 配合使用的信息。
-ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+- seo-marvel-apr2020
+description: 本文提供有关将代理服务器用于 Microsoft 团队或 Skype for Business 的信息。
+ms.openlocfilehash: 5a0d35ee2b8c95c4dea30886497e184f57077264
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863183"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905674"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>团队或 Skype for business Online 的代理服务器
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Teams 或 Skype for Business Online 的代理服务器
 
 本文提供有关将代理服务器与团队或 Skype for Business 配合使用的指南。
   

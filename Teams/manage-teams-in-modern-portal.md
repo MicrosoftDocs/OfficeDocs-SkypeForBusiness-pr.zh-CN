@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-description: 了解如何在 Microsoft 团队管理中心查看或更新团队。
+description: 了解如何在 Microsoft 团队管理中心查看或更新您的组织为协作设置的团队。
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d07c9c1f19b86b3b95a597a52290acb2fdaa80cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836264"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904994"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>管理 Microsoft 团队管理中心中的团队
 ==========================================
@@ -108,7 +109,7 @@ ms.locfileid: "41836264"
 
 将记录对团队所做的更改。 如果你要修改组设置（更改名称、说明、照片、隐私、分类或团队成员），则通过审核管道对这些更改进行了设置。 如果你正在针对特定于团队的设置执行操作，你的更改将在团队的常规频道中进行跟踪和设置。
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 **问题：团队概述网格中缺少团队**
 
@@ -132,7 +133,7 @@ ms.locfileid: "41836264"
 
 6. 确认团队是否正确显示在 Microsoft 团队管理中心-团队概述。
 
-## <a name="learn-more"></a>了解更多信息
+## <a name="learn-more"></a>了解详细信息
 
 - [团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
 - [使用团队管理员角色管理团队](using-admin-roles.md)

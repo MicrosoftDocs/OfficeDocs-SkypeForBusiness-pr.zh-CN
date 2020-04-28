@@ -2,7 +2,7 @@
 title: 小型企业版示例-设置自动助理
 metadata:
   title: 小型企业版示例-设置自动助理
-  description: 对于 IT 管理员，在您的组织中规划自动助理。
+  description: IT 管理员可以使用团队中的电话系统为传入呼叫设置自动助理和自动菜单系统。
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -21,12 +21,12 @@ metadata:
   - M365-voice
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: 2fe6c5c39d63fe2adc46ffad32d342520b17b874
-  ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+  ms.openlocfilehash: ad9738ef2c4701871c4d960ad664b589f05f6cc0
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 02/20/2020
-  ms.locfileid: "42160756"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904497"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft 团队](/MicrosoftTeams/Teams-overview)和[Skype for business Online](https://support.office.com/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7)都是 Office 365 的一部分，可同时在一个位置提供聊天、电话对话、语音邮件、会议、文件和应用。 他们都需要[**电话系统**](/MicrosoftTeams/what-is-phone-system-in-office-365)许可证才能在 Office 365 云中启用呼叫控制和 PBX 功能。 许可证可用作加载项或企业版 E5 许可证的一部分。 许可证详情位于[Skype For business 附加许可](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)。 \n\n通过电话系统许可证，你可以使用一[组功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)（包括语音邮件、呼叫队列和[自动助理](/microsoftteams/what-are-phone-system-auto-attendants)）替换现有的 PBX 系统，这使呼叫你的企业的用户可以导航到相应的部门、人员或运营商。 自动助理可与团队或 Skype for business 配合使用。 使用 Microsoft 团队管理中心为您的组织创建自动助理系统。\n\n如果系统要求您设置自动助理，本文将介绍在假想小型企业版中自动助理的计划、设计和实现过程插图。 这不是一种大小适合的解决方案，而是在多个自动助理的工作结构背后的思想过程。 \n\n## <a name=\"before-you-begin\"></a>开始之前\n\n本教程假定你已完成以下任务： \n- [在组织中设置电话系统](/MicrosoftTeams/setting-up-your-phone-system)以向用户提供电话号码。\n- [设置云语音邮件](/MicrosoftTeams/set-up-phone-system-voicemail) \n- [已查看什么是云自动助理？](/MicrosoftTeams/what-are-phone-system-auto-attendants)以更好地了解可与自动助理交互的电话系统功能。\n\n此外，你将很高兴地发现，使用白板或索引卡可以完成大部分规划和设计部分：在技术要求下，计划和设计的计划非常苛刻。\n"

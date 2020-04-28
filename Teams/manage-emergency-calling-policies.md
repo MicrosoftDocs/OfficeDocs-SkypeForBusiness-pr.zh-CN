@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何在 Microsoft 团队中使用和管理紧急呼叫策略。
-ms.openlocfilehash: 90f278487b1b8d2e0e0b9b165e7d15023d6c0aaa
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 了解如何使用和管理 Microsoft 团队中的紧急呼叫策略，定义当组织中的团队用户拨打紧急电话时会发生什么情况。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888691"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905104"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫策略
 
@@ -35,7 +36,7 @@ ms.locfileid: "41888691"
 
 ## <a name="create-a-custom-emergency-calling-policy"></a>创建自定义紧急呼叫策略
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫策略**" 选项卡。
 2. 单击“添加”****。
@@ -53,7 +54,7 @@ ms.locfileid: "41888691"
 
 ## <a name="edit-an-emergency-calling-policy"></a>编辑紧急呼叫策略
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 你可以编辑全局策略或你创建的任何自定义策略。
 
@@ -67,9 +68,9 @@ ms.locfileid: "41888691"
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>为用户分配自定义紧急呼叫策略
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后单击 "用户"。
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
 3. 在 "**紧急呼叫策略**" 下，选择要分配的策略，然后单击 "**保存**"。
 
@@ -78,9 +79,9 @@ ms.locfileid: "41888691"
 或者，您也可以执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫策略**" 选项卡。
-2. 通过单击策略名称的左侧，选择策略。
-3. 选择 "**管理用户**"。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对要添加的每个用户重复此步骤。
+2. 单击策略名称的左侧以选择该策略。
+3. 选择“管理用户”****。
+4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
 5. 添加完用户后，单击 "**保存**"。
 
 ### <a name="using-powershell"></a>使用 PowerShell

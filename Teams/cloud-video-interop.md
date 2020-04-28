@@ -10,19 +10,21 @@ search.appverid: MET150
 ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
-description: 云视频互操作允许第三方会议室设备加入 Microsoft 团队会议。
+description: 将云视频互操作用作中间解决方案，以允许第三方会议室设备加入 Microsoft 团队会议。
 localization_priority: Normal
+ms.custom:
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5c7cb1888856ff8dba910e4f4735516876a8ade2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779638"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905874"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
@@ -89,7 +91,7 @@ Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站�
 
 ### <a name="provision"></a>提供  
 
-在设置阶段，你将根据合作伙伴配置指南将许可证分配给相应的用户。 您还需要通过 Azure 同意流程来向您的团队环境提供合作伙伴访问权限。 可在此处找到有关 Azure 同意流程的详细信息：https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
+在设置阶段，你将根据合作伙伴配置指南将许可证分配给相应的用户。 您还需要通过 Azure 同意流程来向您的团队环境提供合作伙伴访问权限。 有关 Azure 同意流程的详细信息，请参阅[Microsoft 标识平台终结点中的权限和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。
 
 ### <a name="schedule"></a>安排
 

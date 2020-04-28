@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: 管理员可以控制组织者在其会议中使用免费电话号码的情况。
-ms.openlocfilehash: 7bc830529fc24a61be914998e923ad2d5288b7c5
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: 了解如何控制组织者如何为其音频会议桥会议使用免费电话号码。
+ms.openlocfilehash: 517ffea6a15cd625320f33e3eb4911f4a250d51d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837262"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904567"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>对特定 Teams 用户禁用免费电话号码
 

@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
-description: 使用呼叫驻留和检索将呼叫置于云中的团队服务中的 "暂候" 状态。
-ms.openlocfilehash: b4b5200f139f5610ff1109b97742607d3b633ff6
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: 了解如何使用呼叫驻留和检索在云中的团队服务中将呼叫置于保持状态。
+ms.openlocfilehash: 2420652fc908a943e798ac1acade53eca4c5b55f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824590"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905034"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
@@ -49,7 +50,7 @@ ms.locfileid: "41824590"
 
 电话寄存和检索目前由以下客户和设备支持。 （在 "仅限团队" 模式下受支持，有或没有 PSTN 连接。）
 
-| 能 | 团队桌面版 | 团队 Mac 应用 | 团队 Web App （Edge） |团队移动 iOS/Android 应用程序 | 团队 IP 电话 | Skype for Business IP 电话 |
+| 功能 | 团队桌面版 | 团队 Mac 应用 | 团队 Web App （Edge） |团队移动 iOS/Android 应用程序 | 团队 IP 电话 | Skype for Business IP 电话 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | 寄存 a 呼叫 | 是 | 是 | 是 | 是 | 即将提供| 否 |
 | 检索寄存的呼叫 | 是 | 是 | 是 | 是 | 即将提供| 否 |
@@ -75,10 +76,10 @@ ms.locfileid: "41824590"
 按照以下步骤将呼叫寄存策略分配给一个或多个用户：
 
 1. 转到**Microsoft 团队管理中心** > **语音** > **呼叫寄存策略**。
-2. 通过单击策略名称的左侧，选择策略。
-3. 选择 "**管理用户**"。
-4. 在 "**管理用户**" 窗格中，按 "显示名称" 或 "按用户名搜索用户"，选择名称，然后选择 "**添加**"。 对要添加的每个用户重复此步骤。
-5. 完成添加用户后，请选择 "**保存**"。
+2. 单击策略名称的左侧以选择该策略。
+3. 选择“管理用户”****。
+4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
+5. 完成添加用户后，选择“**保存**”。
  
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>配置与 PowerShell 的通话寄存和检索
 
@@ -91,7 +92,7 @@ ms.locfileid: "41824590"
 `Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true`
 
 
-## <a name="troubleshooting"></a>疑难解答
+## <a name="troubleshooting"></a>故障排除
 
 如果用户看不到 "寄存" 或 "检索" 按钮： 
 

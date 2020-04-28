@@ -8,27 +8,27 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 在配置团队时，请按照此清单中的核心、待办任务和活动进行操作。
+description: 在为组织配置团队时，请按照此清单中的核心、待办任务和活动。
+ms.custom: seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords:
 - NOCSH
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 385262789d243e7e504532fbac5003e5b3e35fed
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 69874e9d75cea1377b0aae110b5e1b3ce681d84f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777263"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903897"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>配置 Microsoft 团队核心功能
 
 | 否 | 活动或任务 | 说明 | 已完成？ | 其他信息 |
 |----|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | 验证你的环境是否包括所有团队先决条件 | 团队依赖于其他平台来构建端到端协作解决方案。 与你的 IT 团队协作，确保你已部署并正确配置了 Exchange、SharePoint Online 和 OneDrive for business。 | | [SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互](sharepoint-onedrive-interact.md) <br/><br/>[Exchange 与 Microsoft Teams 如何交互](exchange-teams-interact.md) |
-| ppls-2  | 验证是否已为租户启用团队 | 默认情况下，团队为所有组织启用团队。 检查 Microsoft 365 管理中心中的 "**服务 & 加载项**" 页面，验证是否已为租户启用团队，并根据需要启用团队。 | | [在 Microsoft 365 或 Office 365 中设置 Microsoft 团队](office-365-set-up.md) |
+| 2  | 验证是否已为租户启用团队 | 默认情况下，团队为所有组织启用团队。 检查 Microsoft 365 管理中心中的 "**服务 & 加载项**" 页面，验证是否已为租户启用团队，并根据需要启用团队。 | | [在 Microsoft 365 或 Office 365 中设置 Microsoft 团队](office-365-set-up.md) |
 | 3  | 配置角色和权限 | 团队支持两种类型的角色：成员和所有者。 <br/><br/>将成员添加到团队后，所有者还可以将成员提升为所有者角色。 最佳做法是，建议您至少为每个团队分配两个所有者。 <br/><br/>默认情况下，组织中拥有 Exchange Online 托管邮箱的每个人都可以创建团队。 创建新团队的用户将自动授予该团队的所有者角色。 <br/><br/>如果需要，您可以将 Office 365 组设置配置为仅让特定用户创建新团队。 | | [在 Microsoft Teams 中分配角色和权限](assign-roles-permissions.md) <br/><br/>[Microsoft 365 组和 Microsoft 团队](office-365-groups.md) <br/><br/>[管理可创建 Microsoft 365 组的人员](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) |
 | 4  | 配置租户范围的团队设置 | 你可以在租户级别配置某些团队设置。 已启用团队的用户从租户配置继承这些设置：<ul><li>常规</li><li>电子邮件集成</li><li>应用</li><li>自定义云存储</li><li>通话和会议</li><li>消息传递</li></ul>| | [为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md) |
 | 5  | 可选：配置来宾访问 | 你可以使用团队中的来宾访问通过向团队和频道授予访问权限来与组织外部的人员进行协作。 来宾访问是团队中的租户级别设置。 默认情况下处于禁用状态。 <br/>如果你的组织计划使用该功能，请启用来宾访问和配置租户范围的来宾设置。 | | [Microsoft Teams 中的来宾访问](guest-access.md) |

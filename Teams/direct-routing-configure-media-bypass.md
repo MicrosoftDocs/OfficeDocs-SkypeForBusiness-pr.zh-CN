@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 阅读本主题，了解如何使用 "电话系统直接路由" 配置 "绕过媒体"。
-ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: 了解如何通过直接切换所有用户或实施分阶段接近（推荐）来使用手机系统直接路由配置媒体旁路。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837602"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904834"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>使用直接路由配置媒体旁路
 
@@ -29,11 +30,11 @@ ms.locfileid: "41837602"
 
 若要打开媒体绕过，必须满足以下条件：
 
-1.  确保你的会话边框控制器（SBC）供应商选择支持媒体旁路，并提供有关如何在 SBC 上配置旁路的说明。 请参阅证书页面，了解有关 SBCs、支持媒体旁路的信息以及相关说明。
+1.    确保你的会话边框控制器（SBC）供应商选择支持媒体旁路，并提供有关如何在 SBC 上配置旁路的说明。 请参阅证书页面，了解有关 SBCs、支持媒体旁路的信息以及相关说明。
 
-2.  您需要使用以下命令打开 trunk 上的媒体旁路： **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**。
+2.    您需要使用以下命令打开 trunk 上的媒体旁路： **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**。
 
-3.  请确保打开所需的端口。 
+3.    请确保打开所需的端口。 
 
 
 ## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>从非绕过中继迁移到绕过启用中继
@@ -59,7 +60,7 @@ ms.locfileid: "41837602"
 
 
 
-## <a name="see-also"></a>另请参阅
+## <a name="related-topics"></a>相关主题
 
 [使用直接路由规划媒体旁路](direct-routing-plan-media-bypass.md)
 

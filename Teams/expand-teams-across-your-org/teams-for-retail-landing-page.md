@@ -1,6 +1,6 @@
 ---
 title: 适用于零售业的 Teams
-description: 使用这些资源管理零售组织的团队。
+description: 了解可用于管理和充分利用零售商店和劳动力团队的管理资源。
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -16,12 +16,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d350812598737215521db8e675fb884336c7ee37
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d1db862ce796ab64b96df0c36de6931cc6fe0a5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008104"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905684"
 ---
 # <a name="teams-for-retail"></a>适用于零售业的 Teams
 

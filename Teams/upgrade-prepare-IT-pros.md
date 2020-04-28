@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: 为你的组织中的 IT 员工准备部署和支持 Microsoft 团队。
+description: 了解如何为你的组织中的 IT 员工准备部署和支持 Microsoft 团队。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,14 +16,15 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de62e9e8c55af81b68188d3f5b8ad63975bb9058
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776728"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905254"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>为 Microsoft 团队准备 IT 员工
 

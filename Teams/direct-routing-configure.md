@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 了解如何配置 Microsoft Phone 系统直接路由。
-ms.openlocfilehash: b596e5acb0002ad90f5c0298b56973f2490ad2e6
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+description: 了解如何配置 Microsoft Phone 系统直接路由以将本地电话基础结构连接到 Microsoft 团队。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f12eb67fd63a3d1bbed3ddcd0c4fadce16529083
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170580"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904824"
 ---
 # <a name="configure-direct-routing"></a>配置直接路由
 
@@ -54,7 +55,7 @@ Microsoft 手机系统直接路由使你能够将本地电话基础结构连接�
 如果你要为多个租户配置 SBC，你还需要阅读[为多个租户配置 sbc](direct-routing-sbc-multiple-tenants.md)。
 
 
-## <a name="see-also"></a>另请参阅
+## <a name="related-topics"></a>相关主题
 
 [电话系统直接路由](direct-routing-landing-page.md)
 

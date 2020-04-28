@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 阅读本文，查找用于直接路由的媒体路径国家代码。
-ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: 阅读本文以查找直接路由的 "国家/地区" 代码，以便您可以选择最佳媒体路径。
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836092"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904804"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒体路径国家代码
 
@@ -48,18 +49,18 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 美属萨摩亚  | 方式 |
 | 安道尔         | AD |
 | 安哥拉          | AO |
-| 安圭拉        | AI |
+| 安圭拉岛        | AI |
 | Antarctica      | AQ | 
 | 安提瓜和巴布达 | 集团 |
 | 阿根廷       | AR |
 | 亚美尼亚         | 格林威治 |
-| 阿鲁巴           | AW |
+| 阿鲁巴岛           | AW |
 | 澳大利亚       | AU |
 | 奥地利         | 看 |
 | 阿塞拜疆      | AZ |
 | 巴哈马         | BS |
 | 巴林         | BH |
-| 孟加拉国      | BD |
+| 孟加拉      | BD |
 | 巴巴多斯        | BB |
 | 白俄罗斯         | BY |
 | 比利时         | 会 |
@@ -104,7 +105,7 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | Czechia         | CZ |
 | 丹麦         | DK |
 | 吉布提        | DJ |
-| 多米尼克        | 私信 |
+| 多米尼加        | 私信 |
 | 多米尼加共和国 | 切勿 |
 | 厄瓜多尔         | EC |
 | 埃及           | EG |
@@ -141,7 +142,7 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 海地           | 你好 |
 | 赫德岛和麦克唐纳群岛 | HM |
 | 洪都拉斯        | HN |
-| 中国香港特别行政区   | HK |
+| 香港特别行政区   | HK |
 | 匈牙利         | HU |
 | 冰岛         | 是 |
 | 印度           | 登录 |
@@ -181,16 +182,16 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 马里            | ML |
 | 马耳他           | 幼圆 |
 | 马绍尔群岛 | MH |
-| 马提尼克      | .MQ |
+| 马提尼克岛      | .MQ |
 | 毛里塔尼亚      | MR |
 | 毛里求斯       | MU |
-| 马约特         | YT |
+| 马约特岛         | YT |
 | 墨西哥          | MX |
 | 密克罗尼西亚      | 调频广播 |
 | 摩尔多瓦         | MD |
 | 摩纳哥          | MC |
 | 蒙古        | MN |
-| 黑山      | 一下 |
+| 黑山共和国      | 一下 |
 | 蒙特塞拉特      | MS-DOS |
 | 摩洛哥         | 州 |
 | 莫桑比克      | MZ |
@@ -213,7 +214,7 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 阿曼            | 模型 |
 | 巴基斯坦        | 主键 |
 | 帕劳           | PW |
-| 巴勒斯坦民族权力机构 | PS |
+| 巴勒斯坦权力机构 | PS |
 | 巴拿马          | PA |
 | 巴布亚新几内亚 | 页码 |
 | 巴拉圭        | PY |
@@ -224,7 +225,7 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 葡萄牙        | PT |
 | 波多黎各     | 公共 |
 | 卡塔尔           | QA |
-| 留尼汪岛         | & |
+| 留尼旺         | & |
 | 罗马尼亚         | RO |
 | 俄罗斯          | RU-RU&PLATFORM |
 | 卢旺达          | RW-RW&PLATFORM |
@@ -262,7 +263,7 @@ CSOnlinePSTNGateway-身份 sbc1.contoso.com-MediaRelayRoutingLocationOverride DE
 | 瑞典          | SE |
 | 瑞士     | 48 |
 | 叙利亚           | SY |
-| 中国台湾          | TW |
+| 台湾          | TW |
 | 塔吉克斯坦      | TJ |
 | 坦桑尼亚        | TZ |
 | 泰国        | TH |
