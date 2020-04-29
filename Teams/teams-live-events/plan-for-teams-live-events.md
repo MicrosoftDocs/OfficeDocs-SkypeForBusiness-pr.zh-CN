@@ -14,15 +14,16 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
+description: 在本文中，你将了解在 Microsoft Teams 中设置实时事件之前要考虑的因素。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779961"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903077"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -99,6 +100,7 @@ ms.locfileid: "43779961"
 |外部访问（联盟）和来宾演示者/与会者 |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |不适用 |
 |演示者 – PSTN 接入 |&#x274C; |&#x2714; (Teams) |不适用 |
 |演示屏幕 |&#x274C; |&#x2714; (Teams) |不适用 |
+|在 Windows 上共享系统音频（仅在屏幕共享时可用）|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |演示 PowerPoint （PPT 共享） |&#x2714; |&#x274C;（通过屏幕共享缓解） |不适用 |
 |云基会议录制 |&#x2714; |&#x2714; |&#x2714; |
 |自动将录制发布到 Stream |&#x274C; |&#x274C; |&#x2714; |

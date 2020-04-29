@@ -8,7 +8,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 了解如何在 Teams 中规划实施生命周期管理规划功能。
+description: 在本文中，你将了解如何进行相关规划，以便在 Teams 中实施生命周期管理功能。
 localization_priority: Priority
 f1.keywords:
 - NOCSH
@@ -16,13 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 29caa32b894c2a407a724f68c11c01cfe567c82e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 4080c16d78ca50037b9ae3e2579284466acbe37c
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780251"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905814"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 

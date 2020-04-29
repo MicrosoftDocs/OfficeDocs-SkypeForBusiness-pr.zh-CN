@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: LolaJ
 audience: admin
-description: 找到在组织中部署 Microsoft Teams 的正确途径。
+description: 无论是一次性部署，还是分阶段开始，请规划一个课程以成功地在组织中实施 Microsoft Teams。
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
@@ -18,14 +18,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb11c6a7386abb9a83e178692a84cef1dfe8bd05
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 7cb1178771ad0616a28fcc9e8a22c08b2851c4cf
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053555"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904874"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>如何部署 Microsoft Teams
 
