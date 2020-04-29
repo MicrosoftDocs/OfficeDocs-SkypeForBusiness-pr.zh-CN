@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 以下各节提供了有关如何配置在资源/用户林模型中具有多个林的环境以在混合方案中提供 Skype for Business 功能的指南。
-ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780121"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918681"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署资源林拓扑
  
@@ -65,7 +65,7 @@ ms.locfileid: "43780121"
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-[选择的帐户链接属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)将用作源定位点。 如果您希望使用不同且不可变的属性，则可以执行此操作;只需确保编辑 AD FS 声明规则并在 AAD 连接配置过程中选择属性。
+[选择的帐户链接属性](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts)将用作源定位点。 如果您希望使用不同且不可变的属性，则可以执行此操作;只需确保编辑 AD FS 声明规则并在 AAD 连接配置过程中选择属性。
   
 请勿在林之间同步 Upn。 我们在测试过程中发现，我们需要对每个用户林使用唯一的 UPN，因为不能在多个林之间使用同一 UPN。 因此，我们提供了两种可能性，即同步 UPN 或不同步。 
   
@@ -121,14 +121,16 @@ ms.locfileid: "43780121"
     
 3. 标识本地目录中的用户：选择**多个目录中存在的用户标识**，然后选择**ObjectSID**和**msExchangeMasterAccountSID**属性。
     
-4. 在 Azure AD 中标识用户：源锚点：选择您在阅读[选择一个好的 sourceAnchor 属性](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/)（用户主体名称- **userPrincipalName**）后选择的属性。
+4. 在 Azure AD 中标识用户：源锚点：选择您在阅读[选择一个好的 sourceAnchor 属性](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute)（用户主体名称- **userPrincipalName**）后选择的属性。
     
 5.  可选功能：选择是否已部署 Exchange 混合。
     
     > [!NOTE]
     >  如果您仅拥有 Exchange Online，则在自动发现过程中可能存在由于 CNAME 重定向导致 OAuth 故障的问题。 若要更正此错误，您需要通过从 Skype for Business Server 命令行管理程序运行以下 cmdlet 来设置 Exchange 自动发现 URL：
-  
-    Set-csoauthconfiguration-ExchangeAutoDiscoverURL https://<span>autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    >
+    > ```powershell
+    > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    > ```
     
 6.  AD FS 服务器场：选择 "**使用现有 Windows Server 2012 R2 AD fs 场**"，并输入 AD FS 服务器的名称。
     
@@ -142,4 +144,3 @@ ms.locfileid: "43780121"
 
 如有必要，请遵循配置 Exchange 混合的最佳实践。 有关详细信息，请参阅[Exchange Server 混合部署](https://docs.microsoft.com/exchange/exchange-hybrid)。 
   
-

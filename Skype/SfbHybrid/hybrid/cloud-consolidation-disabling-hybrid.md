@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括将混合禁用作为团队和 Skype for Business 的云整合的一部分的详细步骤。
-ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 039e8a30495567fe818fe4d60b863f37cf94e049
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780141"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918731"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>禁用混合以完成云迁移
 
@@ -42,7 +42,7 @@ ms.locfileid: "43780141"
 
 > [!Note] 
 > 在极少数情况下，将 DNS 从指向 Office 365 的本地位置更改为您的组织可能导致其他组织的联盟停止工作，直到其他组织更新其联合配置：<ul><li>
-任何使用旧直接联盟模型（也称为 "允许的伙伴服务器"）的联合组织都需要更新其组织的允许的域条目，以删除代理 FQDN。 此旧版联合模型不基于 DNS SRV 记录，因此一旦您的组织移动到云，这样的配置就会过期。 </li><li>没有已启用 sipfed.online.lync.com> 的托管提供程序的任何联合组织。<span>com 将需要更新其配置才能启用。 只有在联合组织纯粹在本地并且从未与任何混合或联机租户联合的情况下，这种情况才可行。 在这种情况下，与这些组织的联盟在启用其承载提供程序之前将不起作用。</li></ul>如果您怀疑任何联盟伙伴可能正在使用直接联盟或与任何在线或混合组织联合，我们建议您在准备完成到云的迁移时向其发送有关此的通信。
+任何使用旧直接联盟模型（也称为 "允许的伙伴服务器"）的联合组织都需要更新其组织的允许的域条目，以删除代理 FQDN。 此旧版联合模型不基于 DNS SRV 记录，因此一旦您的组织移动到云，这样的配置就会过期。 </li><li>没有已启用 sipfed.online.lync.com> 的托管提供程序的任何联合组织。<span>com 将需要更新其配置才能启用。 仅当联合组织完全在本地，且从未与任何混合或联机租户联合时，这种情况才可行。 在这种情况下，与这些组织的联盟在启用其承载提供程序之前将不起作用。</li></ul>如果您怀疑任何联盟伙伴可能正在使用直接联盟，或者未与任何 online 或混合组织联合，我们建议您在准备完成到云的迁移时向其发送有关这方面的通信。
 
 1.  *更新 DNS 以指向 Office 365。*
 组织的内部部署组织的外部 DNS 需要更新，以便 Skype for Business 记录指向 Office 365 而不是本地部署。 具体来说：
@@ -65,9 +65,10 @@ ms.locfileid: "43780141"
  
 3.  *禁用本地与 Office 365 通信的功能。*  
 需要从内部部署 PowerShell 窗口中执行以下命令：
-```PowerShell
+
+    ```PowerShell
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
-```
+    ```
 
 ### <a name="manage-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>管理从本地迁移的用户的电话号码
 

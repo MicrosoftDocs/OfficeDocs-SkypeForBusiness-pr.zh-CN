@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表，让您更细致地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息，包括通话费用，以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
-ms.openlocfilehash: 4161f0f9f0b6e011b67f94afc14b5ac793fc1009
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776267"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918510"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -77,8 +77,9 @@ ms.locfileid: "43776267"
      **统一通信应用程序（UCAP）** 
      *    **ucap_in** （对 UC 应用程序（如自动助理或呼叫队列）的入站 PSTN 呼叫 
      *    **ucap_out** （来自 UC 应用程序的出站 PSTN 呼叫，如自动助理或呼叫队列）
-     *    **注意：** 从 UC 应用程序（如自动助理或呼叫队列）转移到用户的呼叫不会显示在 PSTN 使用报告中，因为这些呼叫条是对等（P2P）音频呼叫。 你可以在 "工具 > Skype for business 呼叫分析" 下访问 Skype for Business 管理中心中的 P2P 呼叫，并按用户名或 SIP 地址进行搜索，按日期/时间和/或始发 CLID （呼叫行 ID）将呼叫关联起来。 
-*     
+         > [!NOTE]
+         > 从 UC 应用程序（如自动助理或呼叫队列）转移到用户的呼叫不会显示在 PSTN 使用报告中，因为这些呼叫条是对等（P2P）音频呼叫。 你可以在 "工具 > Skype for business 呼叫分析" 下访问 Skype for Business 管理中心中的 P2P 呼叫，并按用户名或 SIP 地址进行搜索，按日期/时间和/或始发 CLID （呼叫行 ID）将呼叫关联起来。 
+
      "**国内/国际**" 告诉您所拨的电话是否被视为国内（在国家/地区内）还是国际（国家/地区外）的电话（基于用户的位置）。 
 *    "**目的地已拨**" 表示拨打的国家/地区目的地的名称，如法国、德国或美国（美国）。 
 *    **Number type**指由用户电话号码、服务或免费电话号码组成的电话号码类型。  
@@ -125,28 +126,29 @@ CSV 的第一行包含列名称。
 
 导出的文件包含在联机报表中不可用的其他字段。 这些可用于疑难解答和自动化工作流。
 
-| #  | 名称 | [数据类型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | UsageId | `uniqueidentifier` | 唯一的呼叫标识符 |
-| 1 | 通话 ID | `nvarchar(64)` | 通话标识符。 不保证唯一性 |
-| ppls-2 | 会议 ID | `nvarchar(64)` | 音频会议的 ID |
-| 3 | 用户位置 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中调用用户的 ID。<br/> 对于 bot 呼叫类型（ucap_in，ucap_out），此和其他用户信息将为 null/空 |
-| 5 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登录名称）。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
-| 6 | 用户显示名称 | `nvarchar(128)` | 用户的显示名称 |
-| 7 | 来电显示 | `nvarchar(128)` | 为拨入电话或拨出电话拨出的电话号码接收呼叫的号码。 [E. 164](https://en.wikipedia.org/wiki/E.164)格式 |
-| 个 | 呼叫类型 | `nvarchar(32)` | 呼叫是 PSTN 出站通话还是入站呼叫以及呼叫类型，例如由用户或音频会议发出的呼叫 |
-| db-9 | 号码类型 | `nvarchar(16)` | 用户的电话号码类型，例如免费号码的服务 |
-| 10 | 国内/国际 | `nvarchar(16)` | 呼叫是国内的（在国家或地区内）还是国际（在国家或地区之外）基于用户的位置 |
-| 11 | 已拨目标 | `nvarchar(64)` | 拨打的国家或地区 |
-| 至 | 目标号码 | `nvarchar(32)` | 以[164](https://en.wikipedia.org/wiki/E.164)格式拨打的号码 |
-| 13 | 开始时间 | `datetimeoffset` | 调用开始时间（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
-| 14 | 结束时间 | `datetimeoffset` | 通话结束时间（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
-| 岁 | 持续秒数 | `int` | 通话的连接时间 |
-| utf-16 | 连接费 | `numeric(16, 2)` | 连接费价格 |
-| 日 | 收费 | `numeric(16, 2)` | 为您的帐户收取的通话金额或通话费用 |
-| 18 | 货币 | `nvarchar(3)` | 用于计算通话费用的货币类型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
-| 19 | 功能 | `nvarchar(32)` | 用于通话的许可证 |
+> [!div class="has-no-wrap"]  
+> | #  | 名称 | [数据类型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | UsageId | `uniqueidentifier` | 唯一的呼叫标识符 |
+> | 1 | 通话 ID | `nvarchar(64)` | 通话标识符。 不保证唯一性 |
+> | 2 | 会议 ID | `nvarchar(64)` | 音频会议的 ID |
+> | 3 | 用户位置 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中调用用户的 ID。<br/> 对于 bot 呼叫类型（ucap_in，ucap_out），此和其他用户信息将为 null/空 |
+> | 5 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登录名称）。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
+> | 6 | 用户显示名称 | `nvarchar(128)` | 用户的显示名称 |
+> | 7 | 来电显示 | `nvarchar(128)` | 为拨入电话或拨出电话拨出的电话号码接收呼叫的号码。 [E. 164](https://en.wikipedia.org/wiki/E.164)格式 |
+> | 个 | 呼叫类型 | `nvarchar(32)` | 呼叫是 PSTN 出站通话还是入站呼叫以及呼叫类型，例如由用户或音频会议发出的呼叫 |
+> | db-9 | 号码类型 | `nvarchar(16)` | 用户的电话号码类型，例如免费号码的服务 |
+> | 10 | 国内/国际 | `nvarchar(16)` | 呼叫是国内的（在国家或地区内）还是国际（在国家或地区之外）基于用户的位置 |
+> | 11 | 已拨目标 | `nvarchar(64)` | 拨打的国家或地区 |
+> | 至 | 目标号码 | `nvarchar(32)` | 以[164](https://en.wikipedia.org/wiki/E.164)格式拨打的号码 |
+> | 13 | 开始时间 | `datetimeoffset` | 调用开始时间（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
+> | 14 | 结束时间 | `datetimeoffset` | 通话结束时间（UTC， [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)） |
+> | 岁 | 持续秒数 | `int` | 通话的连接时间 |
+> | utf-16 | 连接费 | `numeric(16, 2)` | 连接费价格 |
+> | 日 | 收费 | `numeric(16, 2)` | 为您的帐户收取的通话金额或通话费用 |
+> | 18 | 货币 | `nvarchar(3)` | 用于计算通话费用的货币类型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
+> | 19 | 功能 | `nvarchar(32)` | 用于通话的许可证 |
 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他 Skype for Business 报告？
