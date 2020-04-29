@@ -17,12 +17,12 @@ description: 了解如何使用 Microsoft 团队管理中心中的 "团队 PSTN 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904297"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918570"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 团队 PSTN 使用报告
 
@@ -104,56 +104,58 @@ CSV 的第一行包含列名称。 所有日期均为 UTC，格式为[ISO 8601](
 
  您可以从当前日期导出一年的数据，除非特定国家/地区的法规禁止将数据保留12个月。
 
-| # | 名称 | [数据类型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | UsageId | `uniqueidentifier` | 唯一的呼叫标识符 |
-| 1 | 通话 ID | `nvarchar(64)` | 通话标识符。 不保证唯一性 |
-| 2 | 会议 ID | `nvarchar(64)` | 音频会议的 ID |
-| 3 | 用户位置 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中调用用户的 ID。<br/> 对于 bot 呼叫类型（ucap_in，ucap_out），此和其他用户信息将为 null/空 |
-| 5 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登录名称）。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
-| 6 | 用户显示名称 | `nvarchar(128)` | 用户的显示名称 |
-| 7 | 来电显示 | `nvarchar(128)` | 为拨入电话或拨出电话拨出的电话号码接收呼叫的号码。 [E. 164](https://en.wikipedia.org/wiki/E.164)格式 |
-| 个 | 呼叫类型 | `nvarchar(32)` | 呼叫是 PSTN 出站通话还是入站呼叫以及呼叫类型，例如由用户或音频会议发出的呼叫 |
-| db-9 | 号码类型 | `nvarchar(16)` | 用户的电话号码类型，例如免费号码的服务 |
-| 10 | 国内/国际 | `nvarchar(16)` | 呼叫是国内的（在国家或地区内）还是国际（在国家或地区之外）基于用户的位置 |
-| 11 | 已拨目标 | `nvarchar(64)` | 拨打的国家或地区 |
-| 至 | 目标号码 | `nvarchar(32)` | 以[164](https://en.wikipedia.org/wiki/E.164)格式拨打的号码 |
-| 13 | 开始时间 | `datetimeoffset` | 通话开始时间 |
-| 14 | 结束时间 | `datetimeoffset` | 通话结束时间 |
-| 岁 | 持续秒数 | `int` | 通话的连接时间 |
-| utf-16 | 连接费 | `numeric(16, 2)` | 连接费价格 |
-| 日 | 收费 | `numeric(16, 2)` | 为您的帐户收取的通话金额或通话费用 |
-| 18 | 货币 | `nvarchar(3)` | 用于计算通话费用的货币类型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
-| 19 | 功能 | `nvarchar(32)` | 用于通话的许可证 |
+> [!div class="has-no-wrap"]  
+> | # | 名称 | [数据类型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | UsageId | `uniqueidentifier` | 唯一的呼叫标识符 |
+> | 1 | 通话 ID | `nvarchar(64)` | 通话标识符。 不保证唯一性 |
+> | 2 | 会议 ID | `nvarchar(64)` | 音频会议的 ID |
+> | 3 | 用户位置 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | AAD ObjectId | `uniqueidentifier` | 在 Azure Active Directory 中调用用户的 ID。<br/> 对于 bot 呼叫类型（ucap_in，ucap_out），此和其他用户信息将为 null/空 |
+> | 5 | UPN | `nvarchar(128)` | Azure Active Directory 中的 UserPrincipalName （登录名称）。<br/>这通常与用户的 SIP 地址相同，并且可以与用户的电子邮件地址相同 |
+> | 6 | 用户显示名称 | `nvarchar(128)` | 用户的显示名称 |
+> | 7 | 来电显示 | `nvarchar(128)` | 为拨入电话或拨出电话拨出的电话号码接收呼叫的号码。 [E. 164](https://en.wikipedia.org/wiki/E.164)格式 |
+> | 个 | 呼叫类型 | `nvarchar(32)` | 呼叫是 PSTN 出站通话还是入站呼叫以及呼叫类型，例如由用户或音频会议发出的呼叫 |
+> | db-9 | 号码类型 | `nvarchar(16)` | 用户的电话号码类型，例如免费号码的服务 |
+> | 10 | 国内/国际 | `nvarchar(16)` | 呼叫是国内的（在国家或地区内）还是国际（在国家或地区之外）基于用户的位置 |
+> | 11 | 已拨目标 | `nvarchar(64)` | 拨打的国家或地区 |
+> | 至 | 目标号码 | `nvarchar(32)` | 以[164](https://en.wikipedia.org/wiki/E.164)格式拨打的号码 |
+> | 13 | 开始时间 | `datetimeoffset` | 通话开始时间 |
+> | 14 | 结束时间 | `datetimeoffset` | 通话结束时间 |
+> | 岁 | 持续秒数 | `int` | 通话的连接时间 |
+> | utf-16 | 连接费 | `numeric(16, 2)` | 连接费价格 |
+> | 日 | 收费 | `numeric(16, 2)` | 为您的帐户收取的通话金额或通话费用 |
+> | 18 | 货币 | `nvarchar(3)` | 用于计算通话费用的货币类型（[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)） |
+> | 19 | 功能 | `nvarchar(32)` | 用于通话的许可证 |
 
 ### <a name="exported-direct-routing-usage-report"></a>已导出直接路由使用情况报告
 
 您可以从当前日期导出最多五个月（150天）的数据，除非特定于国家的法规禁止保留该时间段的数据。
 
-| # | 名称 | [数据类型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
-| :-: | :-: | :-: |:------------------- |
-| 0 | True&correlationid | `uniqueidentifier` | 唯一的呼叫标识符 |
-| 1 | SIP 地址 | `nvarchar(128)` | 发出或接收呼叫的用户或 bot 的地址。<br/>请注意，在 Azure Active Directory 中实际是 UserPrincipalName （UPN，登录名称），后者通常与 SIP 地址相同 |
-| 2 | 显示名称 | `nvarchar(128)` | 在 Microsoft 365 管理中心中设置的用户或呼叫机器人（例如呼叫队列或自动助理）的名称 |
-| 3 | 用户所在国 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | 邀请时间 | `datetimeoffset` | 当初始邀请从团队用户或机器人呼叫发送到 SBC，或在入站到团队或 bot 通过 SBC 直接路由的 SIP 代理组件呼叫时收到。 |
-| 5 | 开始时间 | `datetimeoffset` | SIP 代理在来自出站（团队/Bot 到 PSTN 用户）的 SBC 中收到最终答案（SIP 消息 "200 OK"）的时间，或在入站呼叫（从团队/Bot 的 PSTN 用户）将邀请发送到团队后端的下一跃点之后。<br/>对于失败的和未应答的呼叫，这可能等于 "邀请" 或 "失败" 时间 |
-| 6 | 失败时间 | `datetimeoffset` | 仅存在失败（未完全建立）通话的情况 |
-| 7 | 结束时间 | `datetimeoffset` | 仅适用于成功（完全建立的）通话。 通话结束的时间 |
-| 个 | 持续时间（秒） | `int` | 通话持续时间 |
-| db-9 | 成功 | `nvarchar(3)` | "是/否"。 成功或尝试 |
-| 10 | 来电显示号码 | `nvarchar(32)` | 发出呼叫的用户或机器人的号码。 在入站到团队用户呼叫时，它将是 PSTN 用户，在来自团队用户的出站用户呼叫中，将成为团队用户编号 |
-| 至 | 被呼叫方号码 | `nvarchar(32)` | 接收呼叫的用户或机器人的号码。 在入站到团队用户呼叫它将是团队用户，在来自团队用户的出站用户呼叫将是 PSTN 用户 |
-| 13 | 呼叫类型 | `nvarchar(32)` | 呼叫类型和方向 |
-| 14 | 媒体的 Azure 区域 | `nvarchar(8)` | 用于非绕过呼叫的媒体路径的数据中心 |
-| 岁 | 用于发送信号的 Azure 区域 | `nvarchar(8)` | 用于发送绕过和非绕过调用的信号的数据中心 |
-| utf-16 | 最终 SIP 代码 | `int` | 通话结束的代码， [RFC 3261](https://tools.ietf.org/html/rfc3261) |
-| 日 | 最终 Microsoft 子代码 | `int` | 除了 SIP 代码，Microsoft 还拥有指示特定问题的子代码 |
-| 18 | 最终 SIP 短语 | `nvarchar(256)` | SIP 代码和 Microsoft 子代码的说明 |
-| 19 | SBC FQDN | `nvarchar(64)` | 会话边界控制器的完全限定的域名 |
-| 名 | 媒体绕过 | `nvarchar(3)` | "是/否"。 指示是否为媒体绕过启用了主干 |
-| 21日 | 共享的相关 ID | `uniqueidentifier` | 指示两个或多个通话是相关的 |
+> [!div class="has-no-wrap"]  
+> | # | 名称 | [数据类型（SQL Server）](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | 说明 |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | True&correlationid | `uniqueidentifier` | 唯一的呼叫标识符 |
+> | 1 | SIP 地址 | `nvarchar(128)` | 发出或接收呼叫的用户或 bot 的地址。<br/>请注意，在 Azure Active Directory 中实际是 UserPrincipalName （UPN，登录名称），后者通常与 SIP 地址相同 |
+> | 2 | 显示名称 | `nvarchar(128)` | 在 Microsoft 365 管理中心中设置的用户或呼叫机器人（例如呼叫队列或自动助理）的名称 |
+> | 3 | 用户所在国 | `nvarchar(2)` | 用户的国家/地区代码， [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | 邀请时间 | `datetimeoffset` | 当初始邀请从团队用户或机器人呼叫发送到 SBC，或在入站到团队或 bot 通过 SBC 直接路由的 SIP 代理组件呼叫时收到。 |
+> | 5 | 开始时间 | `datetimeoffset` | SIP 代理在来自出站（团队/Bot 到 PSTN 用户）的 SBC 中收到最终答案（SIP 消息 "200 OK"）的时间，或在入站呼叫（从团队/Bot 的 PSTN 用户）将邀请发送到团队后端的下一跃点之后。<br/>对于失败的和未应答的呼叫，这可能等于 "邀请" 或 "失败" 时间 |
+> | 6 | 失败时间 | `datetimeoffset` | 仅存在失败（未完全建立）通话的情况 |
+> | 7 | 结束时间 | `datetimeoffset` | 仅适用于成功（完全建立的）通话。 通话结束的时间 |
+> | 个 | 持续时间（秒） | `int` | 通话持续时间 |
+> | db-9 | 成功 | `nvarchar(3)` | "是/否"。 成功或尝试 |
+> | 10 | 来电显示号码 | `nvarchar(32)` | 发出呼叫的用户或机器人的号码。 在入站到团队用户呼叫时，它将是 PSTN 用户，在来自团队用户的出站用户呼叫中，将成为团队用户编号 |
+> | 至 | 被呼叫方号码 | `nvarchar(32)` | 接收呼叫的用户或机器人的号码。 在入站到团队用户呼叫它将是团队用户，在来自团队用户的出站用户呼叫将是 PSTN 用户 |
+> | 13 | 呼叫类型 | `nvarchar(32)` | 呼叫类型和方向 |
+> | 14 | 媒体的 Azure 区域 | `nvarchar(8)` | 用于非绕过呼叫的媒体路径的数据中心 |
+> | 岁 | 用于发送信号的 Azure 区域 | `nvarchar(8)` | 用于发送绕过和非绕过调用的信号的数据中心 |
+> | utf-16 | 最终 SIP 代码 | `int` | 通话结束的代码， [RFC 3261](https://tools.ietf.org/html/rfc3261) |
+> | 日 | 最终 Microsoft 子代码 | `int` | 除了 SIP 代码，Microsoft 还拥有指示特定问题的子代码 |
+> | 18 | 最终 SIP 短语 | `nvarchar(256)` | SIP 代码和 Microsoft 子代码的说明 |
+> | 19 | SBC FQDN | `nvarchar(64)` | 会话边界控制器的完全限定的域名 |
+> | 名 | 媒体绕过 | `nvarchar(3)` | "是/否"。 指示是否为媒体绕过启用了主干 |
+> | 21日 | 共享的相关 ID | `uniqueidentifier` | 指示两个或多个通话是相关的 |
 
 
 ## <a name="related-topics"></a>相关主题

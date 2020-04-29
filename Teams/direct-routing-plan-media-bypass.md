@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何使用手机系统直接路由规划媒体旁路，这使你能够缩短媒体流量的路径并提高性能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901837"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918691"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>使用直接路由规划媒体旁路
 
@@ -254,7 +254,8 @@ UDP/SRTP | 客户端 | SBC | 50 000-50 019  | 在 SBC 上定义 |
 | UDP/SRTP | SBC | 客户端 | 在 SBC 上定义 | 50 000-50 019  |
 
 
-注意：如果你有转换客户端源端口的网络设备，请确保在网络设备和 SBC 之间打开已转换的端口。 
+> [!NOTE]
+> 如果你有转换客户端源端口的网络设备，请确保在网络设备和 SBC 之间打开已转换的端口。 
 
 ### <a name="requirements-for-using-transport-relays"></a>使用传输中继的要求
 
@@ -262,7 +263,7 @@ UDP/SRTP | 客户端 | SBC | 50 000-50 019  | 在 SBC 上定义 |
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
 
--52.112.0.0/14 （从52.112.0.1 到52.115.255.254 的 IP 地址）
+- 52.112.0.0/14 （从52.112.0.1 到52.115.255.254 的 IP 地址）
 
 ## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
 
@@ -282,11 +283,12 @@ UDP/SRTP | 传输中继 | SBC | 50 000-59 999    | 在 SBC 上定义 |
 | UDP/SRTP | SBC | 传输中继 | 在 SBC 上定义 | 50 000-59 999、3478、3479     |
 
 
-注意： Microsoft 建议在 SBC 上对每个并发调用至少有两个端口。 由于 Microsoft 具有两个版本的传输中继，因此需要以下内容：
-
-- v4，它只能使用端口范围 50 000 到 59 999
-
-- v6，它适用于端口3478、3479
+> [!NOTE]
+> Microsoft 建议在 SBC 上对每个并发调用至少有两个端口。 由于 Microsoft 具有两个版本的传输中继，因此需要以下内容：
+> 
+> - v4，它只能使用端口范围 50 000 到 59 999
+> 
+> - v6，它适用于端口3478、3479
 
 此时，媒体绕过仅支持传输中继的 v4 版本。 我们将在将来介绍 v6 的支持。 
 
@@ -301,7 +303,7 @@ UDP/SRTP | 传输中继 | SBC | 50 000-59 999    | 在 SBC 上定义 |
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
 
--52.112.0.0/14 （从52.112.0.1 到52.115.255.254 的 IP 地址）
+- 52.112.0.0/14 （从52.112.0.1 到52.115.255.254 的 IP 地址）
 
 ## <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 环境
 
@@ -315,8 +317,8 @@ UDP/SRTP | 传输中继 | SBC | 50 000-59 999    | 在 SBC 上定义 |
 
 | 流量 | 从 | 到 | 源端口 | 目标端口|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | 媒体处理器 | SBC | 49 152-53 247    | 在 SBC 上定义 |
-| UDP/SRTP | SBC | 媒体处理器 | 在 SBC 上定义 | 49 152-53 247     |
+UDP/SRTP | 媒体处理器 | SBC | 3478、3479和 49 152-53 247    | 在 SBC 上定义 |
+| UDP/SRTP | SBC | 媒体处理器 | 在 SBC 上定义 | 3478、3479和 49 152-53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>为媒体绕过和非媒体旁路配置单独的中继  
 

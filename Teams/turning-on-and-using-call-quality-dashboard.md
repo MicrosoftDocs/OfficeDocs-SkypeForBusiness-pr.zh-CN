@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。
-ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914036"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918837"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -38,6 +38,30 @@ ms.locfileid: "43914036"
 通话质量仪表板（CQD）可深入了解使用 Microsoft 团队和 Skype for business Online 服务进行的通话的质量。 本主题介绍了开始收集可用于解决通话质量问题的数据的步骤。
 
 目前，高级 CQD 和 CQD 都可供使用。 可在<span>https://cqd.teams.microsoft.com</span>使用高级 CQD。 新 URL，但具有管理员凭据的相同日志。
+
+## <a name="assign-roles-for-accessing-cqd"></a>为访问 CQD 分配角色
+
+将 CQD 的[角色](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)分配给需要使用它的人员。 
+
+下表显示了每个角色在 CQD 中可以执行的操作：
+
+
+|  |查看报表  |查看 EUII 字段  |创建报表  |上载构建数据  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|全局管理员     |必需         |是          |是          |是          |
+|Teams 服务管理员     |必需         |是          |是          |是          |
+|Teams 通信管理员     |必需         |是          |是          |是          |
+|Teams 通信支持工程师     |必需         |是          |是         |否         |
+|团队沟通支持专家     |是         |否         |是         |否         |
+|Skype for Business 管理员     |必需         |是          |是          |是          |
+|Azure AD 全局阅读器 |必需         |是          |是         |否         |
+|Microsoft 365 报告阅读器<sup>1</sup>     |是         |否         |是         |否         |
+
+<sup>1</sup>除了阅读 CQD 报表，Microsoft 365 报表读者还可以查看管理中心中的所有[活动报表](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)以及[Microsoft 365 采纳内容包](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的所有报表。
+
+> [!NOTE]
+> 如果您没有看到 EUII （最终用户的可识别信息），并且您拥有允许查看此信息的角色之一，请记住 CQD 仅保留30天的 EUII。 将删除30天之前的任何内容。
+
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>使用 Power BI 分析 CQD 数据
 
@@ -500,7 +524,7 @@ CQD v2 和 CQD v3 具有不同的总数，因为 CQD v3 具有 CQD v2 中不存�
 - Microsoft 365 报表读者
 - 团队沟通支持专家
 
-若要了解有关可访问 CQD 的角色的详细信息-包括 EUII-读取[分配角色以访问 CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd)。
+若要了解有关可访问 CQD 的角色的详细信息-包括 EUII-读取[分配角色以访问 CQD](#assign-roles-for-accessing-cqd)。
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>为什么我仅当我筛选了团队时，我在 CQD 中看到 Skype for Business 信息？
 

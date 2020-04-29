@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何配置一个会话边界控制器（SBC）来为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 061d0afec96e6c76e49f6471ea8ed2f673e33eba
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901847"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918711"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -119,8 +119,8 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>将基础域添加到租户并验证它
 
-1.    在 Microsoft 365 管理中心中，转到 "**设置** > **域** > **添加域**"。
-2.    在 "**输入您拥有的域**" 框中，键入基础域的 FQDN。 在以下示例中，基本域为*customers.adatum.biz*。
+1. 在 Microsoft 365 管理中心中，转到 "**设置** > **域** > **添加域**"。
+2. 在 "**输入您拥有的域**" 框中，键入基础域的 FQDN。 在以下示例中，基本域为*customers.adatum.biz*。
 
     ![显示 "添加域" 页面的屏幕截图](media/direct-routing-2-sbc-add-domain.png)
 
@@ -129,8 +129,8 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
     ![显示验证的域名确认的屏幕截图](media/direct-routing-3-sbc-verify-domain.png)
 
-5.    单击 "**下一步**"，然后在 "**更新 DNS 设置**" 页面上，选择**我将自己添加 DNS 记录**，然后单击 "**下一步**"。
-6.    在下一页上，清除所有值（除非要使用 Exchange、SharePoint 或团队/Skype for Business 的域名），单击 "**下一步**"，然后单击 "**完成**"。 请确保您的新域处于 "设置完成" 状态。
+5. 单击 "**下一步**"，然后在 "**更新 DNS 设置**" 页面上，选择**我将自己添加 DNS 记录**，然后单击 "**下一步**"。
+6. 在下一页上，清除所有值（除非要使用 Exchange、SharePoint 或团队/Skype for Business 的域名），单击 "**下一步**"，然后单击 "**完成**"。 请确保您的新域处于 "设置完成" 状态。
 
     ![显示 "设置" 状态为 "完成" 的域的屏幕截图](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -227,7 +227,7 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
 -    运营商仅需要使用 Set-CSOnlinePSTNGateway 命令设置和管理单个中继（运营公司域中的载波干线）。 在上面的示例中，它是 adatum.biz;
 -    在客户租户中，运营商只需将派生的干线 FQDN 添加到用户的语音路由策略。 无需为主干运行新的 CSOnlinePSTNGateway。
--     顾名思义，派生的主干会继承或派生载波主干中的所有配置参数。 说明
+-    顾名思义，派生的主干会继承或派生载波主干中的所有配置参数。 说明
 -    Customers.adatum.biz-需要在运营商租户中创建的运营商主干。
 -    Sbc1.customers.adatum.biz-不需要在 PowerShell 中创建的客户租户中的派生主干。  您只需在 "联机语音路由策略" 中添加派生的主干的名称，而无需创建它。
 -   运营商将需要将派生的干线 FQDN 的 DNS 记录设置为载波 SBC ip 地址。

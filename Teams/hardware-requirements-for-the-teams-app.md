@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b85df2a7a5cf341c61d86baef89b0df8a3c4f439
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4eb43e79a7ad45596876a3fc932ad405271b0dda
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902527"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918500"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -72,7 +72,7 @@ ms.locfileid: "43902527"
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    | 
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
-|视频通话和会议 | <ul><li>为获得更好的视频通话和联机会议体验，建议使用搭载 2.0 GHz 处理器和 4.0 GB RAM（或更高）的计算机。 </li><li>可选的“模糊我的背景”视频效果需要一种支持高级矢量扩展 2 (AVX2) 的处理器（在最新 2013 年 Mac 设备和更高版本上支持）。 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Linux 上不可用。</li></ul>
+|视频通话和会议 | <ul><li>为获得更好的视频通话和联机会议体验，建议使用搭载 2.0 GHz 处理器和 4.0 GB RAM（或更高）的计算机。 </li><li>后台视频效果需要具有高级矢量扩展2（AVX2）支持的处理器（最迟 2013 Mac 设备和更高版本支持）。 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Linux 上不可用。</li></ul>
 |支持的 Linux 发行版 | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Teams 在移动设备上的硬件要求

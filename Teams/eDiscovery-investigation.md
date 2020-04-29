@@ -1,7 +1,7 @@
 ---
 title: 对内容进行电子数据展示调查
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: hakank
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 了解需要执行电子数据展示时需要执行的操作，如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521538"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918580"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -40,17 +40,15 @@ ms.locfileid: "43521538"
 |:--- | --- |:--- |
 | 团队聊天消息 | 是 | 聊天来自聊天的消息，其中来宾用户是1:1 或1： N 聊天中的唯一参与者不 eDiscoverable。 |
 | 录音 | 否 | |
-| 显示每个用户阅读邮件的时间戳 | 否 | |
-| 录音 | 否 | |
 | 专用频道消息 | 否 | |
 | 表情符号、Gif、贴纸 | 是 | |
 | 代码片段 | 否 | |
-| 聊天链接 | 否 | |
+| 聊天链接 | 是 | |
 | 反应（赞、红心大战等） | 否 | |
 | 已编辑邮件 | 是 | 如果用户处于保留状态，将保留已编辑邮件的以前版本。 |
 | 内联图像 | 是 | |
-| 题注 | 否 | |
-| 主题 | 否 | |
+| 题注 | 是 | |
+| 主题 | 是 | |
 | 引述 | 是 | 已引用内容可搜索。 但是，搜索结果不表示内容已加引号。 |
 | 频道的名称 | 否 | |
 
@@ -162,7 +160,7 @@ ms.locfileid: "43521538"
 
 在两种类型的审阅集中都提供了密文之类的功能。
 
-有关审阅集的详细信息，请参阅[在高级电子数据展示中查看对话](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)
+有关审阅集的详细信息，请参阅[在高级电子数据展示中查看对话](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)。
 
 #### <a name="collection-options"></a>收集选项
 

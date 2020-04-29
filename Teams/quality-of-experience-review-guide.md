@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: bb0b28805f06109109a1d7ba47b08f57112c9ee4
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780581"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918721"
 ---
 # <a name="quality-of-experience-review-guide"></a>体验质量检查指南 
 
@@ -61,28 +61,6 @@ _图 1-本指南中涵盖的关键操作区域_
 
 本指南还旨在供指定的质量专家使用。 有关详细信息，请参阅[质量拥护者角色](4-envision-plan-my-service-management.md#the-quality-champion-role)。
 
-## <a name="assign-roles-for-accessing-cqd"></a>为访问 CQD 分配角色
-
-使用本指南之前，请确保你已分配正确的租户[角色](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)，以便你可以访问 CQD。
-
-下表显示了每个角色在 CQD 中可以执行的操作：
-
-
-|  |查看报表  |查看 EUII 字段  |创建报表  |上载构建数据  |
-|---------|:-------:|:-------:|:-------:|:-------:|
-|全局管理员     |必需         |是          |是          |是          |
-|Teams 服务管理员     |必需         |是          |是          |是          |
-|Teams 通信管理员     |必需         |是          |是          |是          |
-|Teams 通信支持工程师     |必需         |是          |是         |否         |
-|团队沟通支持专家     |是         |否         |是         |否         |
-|Skype for Business 管理员     |必需         |是          |是          |是          |
-|Azure AD 全局阅读器 |必需         |是          |是         |否         |
-|Microsoft 365 报告阅读器<sup>1</sup>     |是         |否         |是         |否         |
-
-<sup>1</sup>除了阅读 CQD 报表，Microsoft 365 报表读者还可以查看管理中心中的所有[活动报表](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)以及[Microsoft 365 采纳内容包](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)中的所有报表。
-
-> [!NOTE]
-> 如果您没有看到 EUII （最终用户的可识别信息），并且您拥有允许查看此信息的角色之一，请记住 CQD 仅保留30天的 EUII。 将删除30天之前的任何内容。
 
 ## <a name="what-is-quality"></a>什么是质量？
 
