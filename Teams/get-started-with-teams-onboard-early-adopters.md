@@ -8,33 +8,34 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
-description: 为早期采用者上线你在 Microsoft Teams 中创建的第一组团队和频道。
+description: 了解如何为早期采用者上线你在 Microsoft Teams 中创建的首批团队和频道。
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fff82f709c215b4a276258a7a57e1790956d0e70
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 75df0cb2212aa4efd826865ce1fe403b6d366342
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888621"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904637"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a><span data-ttu-id="78dcd-103">为早期采用者上线 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="78dcd-103">Onboard early adopters to Microsoft Teams</span></span>
+# <a name="onboard-early-adopters-to-microsoft-teams"></a><span data-ttu-id="a9e0e-103">为早期采用者上线 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="a9e0e-103">Onboard early adopters to Microsoft Teams</span></span>
 
-## <a name="invite-users-to-teams"></a><span data-ttu-id="78dcd-104">邀请用户使用 Teams</span><span class="sxs-lookup"><span data-stu-id="78dcd-104">Invite users to Teams</span></span>
+## <a name="invite-users-to-teams"></a><span data-ttu-id="a9e0e-104">邀请用户使用 Teams</span><span class="sxs-lookup"><span data-stu-id="a9e0e-104">Invite users to Teams</span></span>
 
-<span data-ttu-id="78dcd-105">向用户发送包含你创建的团队的名称和说明的欢迎电子邮件，并邀请他们在 Teams 中加入对话。</span><span class="sxs-lookup"><span data-stu-id="78dcd-105">Send a welcome email to users with the names and descriptions of the teams you created and invite them to join the conversations in Teams.</span></span> <span data-ttu-id="78dcd-106">确保在电子邮件中包括以下链接，让用户知道可在何处获取 Teams 客户端、培训以及支持：</span><span class="sxs-lookup"><span data-stu-id="78dcd-106">Be sure to include the following links in the email so they know where to get Teams clients, training, and support:</span></span>
-- [<span data-ttu-id="78dcd-107">Teams Web 客户端</span><span class="sxs-lookup"><span data-stu-id="78dcd-107">Teams web client</span></span>](https://teams.microsoft.com)
-- [<span data-ttu-id="78dcd-108">桌面和移动客户端下载链接</span><span class="sxs-lookup"><span data-stu-id="78dcd-108">Desktop and mobile client download links</span></span>](https://teams.microsoft.com/downloads)
-- [<span data-ttu-id="78dcd-109">Teams 培训视频</span><span class="sxs-lookup"><span data-stu-id="78dcd-109">Teams training videos</span></span>](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [<span data-ttu-id="78dcd-110">Teams 帮助文档</span><span class="sxs-lookup"><span data-stu-id="78dcd-110">Teams Help documentation</span></span>](https://support.office.com/teams)
+<span data-ttu-id="a9e0e-105">向用户发送包含你创建的团队的名称和说明的欢迎电子邮件，并邀请他们在 Teams 中加入对话。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-105">Send a welcome email to users with the names and descriptions of the teams you created and invite them to join the conversations in Teams.</span></span> <span data-ttu-id="a9e0e-106">确保在电子邮件中包括以下链接，让用户知道可在何处获取 Teams 客户端、培训以及支持：</span><span class="sxs-lookup"><span data-stu-id="a9e0e-106">Be sure to include the following links in the email so they know where to get Teams clients, training, and support:</span></span>
+- [<span data-ttu-id="a9e0e-107">Teams Web 客户端</span><span class="sxs-lookup"><span data-stu-id="a9e0e-107">Teams web client</span></span>](https://teams.microsoft.com)
+- [<span data-ttu-id="a9e0e-108">桌面和移动客户端下载链接</span><span class="sxs-lookup"><span data-stu-id="a9e0e-108">Desktop and mobile client download links</span></span>](https://teams.microsoft.com/downloads)
+- [<span data-ttu-id="a9e0e-109">Teams 培训视频</span><span class="sxs-lookup"><span data-stu-id="a9e0e-109">Teams training videos</span></span>](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [<span data-ttu-id="a9e0e-110">Teams 帮助文档</span><span class="sxs-lookup"><span data-stu-id="a9e0e-110">Teams Help documentation</span></span>](https://support.office.com/teams)
 
-<span data-ttu-id="78dcd-111">例如，对于“了解 Teams”团队，你可能希望像下面这样开始你的电子邮件：</span><span class="sxs-lookup"><span data-stu-id="78dcd-111">For example, for the "Get to know Teams" team, you might want to start your email like this:</span></span>
+<span data-ttu-id="a9e0e-111">例如，对于“了解 Teams”团队，你可能希望像下面这样开始你的电子邮件：</span><span class="sxs-lookup"><span data-stu-id="a9e0e-111">For example, for the "Get to know Teams" team, you might want to start your email like this:</span></span>
 
    ```console
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
@@ -44,58 +45,58 @@ ms.locfileid: "41888621"
    To join, click <link to the team>.
    ```
 
-<span data-ttu-id="78dcd-112">在用户首次加入时与用户接触。</span><span class="sxs-lookup"><span data-stu-id="78dcd-112">Engage with users when they first join.</span></span> <span data-ttu-id="78dcd-113">在 Teams 中发布一条欢迎消息，并开始在频道中聊天。</span><span class="sxs-lookup"><span data-stu-id="78dcd-113">Post a welcome message in Teams and start a chat in a channel.</span></span> <span data-ttu-id="78dcd-114">这样做可设置基调，并鼓励用户转换到 Teams。</span><span class="sxs-lookup"><span data-stu-id="78dcd-114">Doing this sets the tone and encourages users to make the switch to Teams.</span></span> <span data-ttu-id="78dcd-115">在欢迎消息中，包括你在电子邮件中发送的相同链接，以便用户知道从何处获取 Teams，以及可让用户快速上手运行的任何其他有用信息。</span><span class="sxs-lookup"><span data-stu-id="78dcd-115">In the welcome message, include the same links you sent in email so users know where to get Teams as well as any other helpful information to get users up and running quickly.</span></span> <span data-ttu-id="78dcd-116">与用户联系，确保用户知道如何下载、安装并登录到 Teams，以便他们可以开始聊天、共享文件以及相互协作。</span><span class="sxs-lookup"><span data-stu-id="78dcd-116">Touch base with users to ensure they know how to download, install, and sign in to Teams so they can start chatting, sharing files, and collaborating with each other.</span></span>  
+<span data-ttu-id="a9e0e-112">在用户首次加入时与用户接触。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-112">Engage with users when they first join.</span></span> <span data-ttu-id="a9e0e-113">在 Teams 中发布一条欢迎消息，并开始在频道中聊天。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-113">Post a welcome message in Teams and start a chat in a channel.</span></span> <span data-ttu-id="a9e0e-114">这样做可设置基调，并鼓励用户转换到 Teams。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-114">Doing this sets the tone and encourages users to make the switch to Teams.</span></span> <span data-ttu-id="a9e0e-115">在欢迎消息中，包括你在电子邮件中发送的相同链接，以便用户知道从何处获取 Teams，以及可让用户快速上手运行的任何其他有用信息。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-115">In the welcome message, include the same links you sent in email so users know where to get Teams as well as any other helpful information to get users up and running quickly.</span></span> <span data-ttu-id="a9e0e-116">与用户联系，确保用户知道如何下载、安装并登录到 Teams，以便他们可以开始聊天、共享文件以及相互协作。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-116">Touch base with users to ensure they know how to download, install, and sign in to Teams so they can start chatting, sharing files, and collaborating with each other.</span></span>  
 
-## <a name="get-teams-clients"></a><span data-ttu-id="78dcd-117">获取 Teams 客户端</span><span class="sxs-lookup"><span data-stu-id="78dcd-117">Get Teams clients</span></span>
-<span data-ttu-id="78dcd-118">Teams 具有适用于桌面（Windows 和 Mac）、Web 和移动设备（iOS 和 Android）的客户端。</span><span class="sxs-lookup"><span data-stu-id="78dcd-118">Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Android).</span></span> <span data-ttu-id="78dcd-119">我们建议用户安装桌面和移动客户端来获得 Teams 的最佳体验。</span><span class="sxs-lookup"><span data-stu-id="78dcd-119">We recommend users install the desktop and mobile clients to have the best experience with Teams.</span></span> 
+## <a name="get-teams-clients"></a><span data-ttu-id="a9e0e-117">获取 Teams 客户端</span><span class="sxs-lookup"><span data-stu-id="a9e0e-117">Get Teams clients</span></span>
+<span data-ttu-id="a9e0e-118">Teams 具有适用于桌面（Windows 和 Mac）、Web 和移动设备（iOS 和 Android）的客户端。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-118">Teams has clients for desktop (Windows and Mac), web, and mobile (iOS and Android).</span></span> <span data-ttu-id="a9e0e-119">我们建议用户安装桌面和移动客户端来获得 Teams 的最佳体验。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-119">We recommend users install the desktop and mobile clients to have the best experience with Teams.</span></span> 
 
-<span data-ttu-id="78dcd-120">跳转到：[Windows 版 Teams](#teams-for-windows) | [Mac 版 Teams](#teams-for-mac) | [Web 浏览器版 Teams](#web-client) | [iOS 版 Teams](#teams-for-ios) |  [Android 版 Teams](#teams-for-android)</span><span class="sxs-lookup"><span data-stu-id="78dcd-120">Jump to: [Teams for Windows](#teams-for-windows) | [Teams for Mac](#teams-for-mac) | [Teams for web browsers](#web-client) | [Teams for iOS](#teams-for-ios) | [Teams for Android](#teams-for-android)</span></span>
+<span data-ttu-id="a9e0e-120">跳转到：[Windows 版 Teams](#teams-for-windows) | [Mac 版 Teams](#teams-for-mac) | [Web 浏览器版 Teams](#web-client) | [iOS 版 Teams](#teams-for-ios) |  [Android 版 Teams](#teams-for-android)</span><span class="sxs-lookup"><span data-stu-id="a9e0e-120">Jump to: [Teams for Windows](#teams-for-windows) | [Teams for Mac](#teams-for-mac) | [Teams for web browsers](#web-client) | [Teams for iOS](#teams-for-ios) | [Teams for Android](#teams-for-android)</span></span>
 
-### <a name="desktop-client"></a><span data-ttu-id="78dcd-121">桌面客户端</span><span class="sxs-lookup"><span data-stu-id="78dcd-121">Desktop client</span></span>
+### <a name="desktop-client"></a><span data-ttu-id="a9e0e-121">桌面客户端</span><span class="sxs-lookup"><span data-stu-id="a9e0e-121">Desktop client</span></span>
 
-<span data-ttu-id="78dcd-122">Teams 桌面客户端为 Windows 和 Mac 用户提供最佳整体体验。</span><span class="sxs-lookup"><span data-stu-id="78dcd-122">The Teams desktop client gives Windows and Mac users the best overall experience.</span></span> <span data-ttu-id="78dcd-123">若要了解详细信息，请参阅[获取 Teams 客户端（桌面客户端）](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client)和 [Microsoft Teams 应用的硬件要求](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)。</span><span class="sxs-lookup"><span data-stu-id="78dcd-123">To learn more, see [Get clients for Teams (Desktop client)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) and [Hardware requirements for the Microsoft Teams app](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="78dcd-124">作为管理员，你可以选择为组织中的计算机分发安装文件的方法，例如 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。</span><span class="sxs-lookup"><span data-stu-id="78dcd-124">As an admin, you can choose the method to distribute the installation files to computers in your organization, such as Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS).</span></span>
-
-#### <a name="teams-for-windows"></a><span data-ttu-id="78dcd-125">Windows 版 Teams</span><span class="sxs-lookup"><span data-stu-id="78dcd-125">Teams for Windows</span></span> 
-<span data-ttu-id="78dcd-126">安装 Windows 桌面客户端的最简单方法是：</span><span class="sxs-lookup"><span data-stu-id="78dcd-126">The easiest way to install the Windows desktop client is to:</span></span>
-
-1. <span data-ttu-id="78dcd-127">从 [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads) 下载 Windows 桌面客户端。</span><span class="sxs-lookup"><span data-stu-id="78dcd-127">Download the Windows desktop client from [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).</span></span>
-2. <span data-ttu-id="78dcd-128">运行安装程序（不需要管理员权限）。</span><span class="sxs-lookup"><span data-stu-id="78dcd-128">Run the installer (doesn't require admin permissions).</span></span> 
-3. <span data-ttu-id="78dcd-129">安装完成后启动 Teams。</span><span class="sxs-lookup"><span data-stu-id="78dcd-129">Start Teams after installation completes.</span></span>
+<span data-ttu-id="a9e0e-122">Teams 桌面客户端为 Windows 和 Mac 用户提供最佳整体体验。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-122">The Teams desktop client gives Windows and Mac users the best overall experience.</span></span> <span data-ttu-id="a9e0e-123">若要了解详细信息，请参阅[获取 Teams 客户端（桌面客户端）](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client)和 [Microsoft Teams 应用的硬件要求](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-123">To learn more, see [Get clients for Teams (Desktop client)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) and [Hardware requirements for the Microsoft Teams app](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="78dcd-130">以后，如果你考虑在整个组织中更正式地大规模部署 Teams，请观看 [Teams Windows 桌面客户端](https://aka.ms/teams-clients)视频，了解如何规划和部署 Teams。</span><span class="sxs-lookup"><span data-stu-id="78dcd-130">Later, when you're considering a more formal, mass rollout of Teams across your organization, check out the [Teams Windows desktop client](https://aka.ms/teams-clients) video to learn how to plan for and deploy it.</span></span> 
+> <span data-ttu-id="a9e0e-124">作为管理员，你可以选择为组织中的计算机分发安装文件的方法，例如 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-124">As an admin, you can choose the method to distribute the installation files to computers in your organization, such as Microsoft Endpoint Configuration Manager (Windows) or Jamf Pro (macOS).</span></span>
 
-#### <a name="teams-for-mac"></a><span data-ttu-id="78dcd-131">Mac 版 Teams</span><span class="sxs-lookup"><span data-stu-id="78dcd-131">Teams for Mac</span></span> 
-<span data-ttu-id="78dcd-132">安装 Mac 桌面客户端的最简单方法是：</span><span class="sxs-lookup"><span data-stu-id="78dcd-132">The easiest way to install the Mac desktop client is to:</span></span>
+#### <a name="teams-for-windows"></a><span data-ttu-id="a9e0e-125">Windows 版 Teams</span><span class="sxs-lookup"><span data-stu-id="a9e0e-125">Teams for Windows</span></span> 
+<span data-ttu-id="a9e0e-126">安装 Windows 桌面客户端的最简单方法是：</span><span class="sxs-lookup"><span data-stu-id="a9e0e-126">The easiest way to install the Windows desktop client is to:</span></span>
 
-1. <span data-ttu-id="78dcd-133">从 [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads) 下载 Mac 桌面客户端。</span><span class="sxs-lookup"><span data-stu-id="78dcd-133">Download the Mac desktop client from [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).</span></span>
-2. <span data-ttu-id="78dcd-134">运行安装程序（需要管理员权限）。</span><span class="sxs-lookup"><span data-stu-id="78dcd-134">Run the installer (requires admin permissions).</span></span> 
-3. <span data-ttu-id="78dcd-135">安装完成后启动 Teams。</span><span class="sxs-lookup"><span data-stu-id="78dcd-135">Start Teams after installation completes.</span></span>
+1. <span data-ttu-id="a9e0e-127">从 [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads) 下载 Windows 桌面客户端。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-127">Download the Windows desktop client from [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).</span></span>
+2. <span data-ttu-id="a9e0e-128">运行安装程序（不需要管理员权限）。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-128">Run the installer (doesn't require admin permissions).</span></span> 
+3. <span data-ttu-id="a9e0e-129">安装完成后启动 Teams。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-129">Start Teams after installation completes.</span></span>
 
-### <a name="web-client"></a><span data-ttu-id="78dcd-136">Web 客户端</span><span class="sxs-lookup"><span data-stu-id="78dcd-136">Web client</span></span>
-<span data-ttu-id="78dcd-137">Teams 提供功能丰富的 Web 客户端 [https://teams.microsoft.com](https://teams.microsoft.com)，该客户端支持各种浏览器。</span><span class="sxs-lookup"><span data-stu-id="78dcd-137">Teams provides a feature-rich web client, [https://teams.microsoft.com](https://teams.microsoft.com), that supports a variety of browsers.</span></span>
+> [!NOTE]
+> <span data-ttu-id="a9e0e-130">以后，如果你考虑在整个组织中更正式地大规模部署 Teams，请观看 [Teams Windows 桌面客户端](https://aka.ms/teams-clients)视频，了解如何规划和部署 Teams。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-130">Later, when you're considering a more formal, mass rollout of Teams across your organization, check out the [Teams Windows desktop client](https://aka.ms/teams-clients) video to learn how to plan for and deploy it.</span></span> 
+
+#### <a name="teams-for-mac"></a><span data-ttu-id="a9e0e-131">Mac 版 Teams</span><span class="sxs-lookup"><span data-stu-id="a9e0e-131">Teams for Mac</span></span> 
+<span data-ttu-id="a9e0e-132">安装 Mac 桌面客户端的最简单方法是：</span><span class="sxs-lookup"><span data-stu-id="a9e0e-132">The easiest way to install the Mac desktop client is to:</span></span>
+
+1. <span data-ttu-id="a9e0e-133">从 [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads) 下载 Mac 桌面客户端。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-133">Download the Mac desktop client from [https://teams.microsoft.com/downloads](https://teams.microsoft.com/downloads).</span></span>
+2. <span data-ttu-id="a9e0e-134">运行安装程序（需要管理员权限）。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-134">Run the installer (requires admin permissions).</span></span> 
+3. <span data-ttu-id="a9e0e-135">安装完成后启动 Teams。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-135">Start Teams after installation completes.</span></span>
+
+### <a name="web-client"></a><span data-ttu-id="a9e0e-136">Web 客户端</span><span class="sxs-lookup"><span data-stu-id="a9e0e-136">Web client</span></span>
+<span data-ttu-id="a9e0e-137">Teams 提供功能丰富的 Web 客户端 [https://teams.microsoft.com](https://teams.microsoft.com)，该客户端支持各种浏览器。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-137">Teams provides a feature-rich web client, [https://teams.microsoft.com](https://teams.microsoft.com), that supports a variety of browsers.</span></span>
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-### <a name="mobile-client"></a><span data-ttu-id="78dcd-138">移动客户端</span><span class="sxs-lookup"><span data-stu-id="78dcd-138">Mobile client</span></span>
+### <a name="mobile-client"></a><span data-ttu-id="a9e0e-138">移动客户端</span><span class="sxs-lookup"><span data-stu-id="a9e0e-138">Mobile client</span></span>
 
-<span data-ttu-id="78dcd-139">iOS 和 Android 版 Teams 移动客户端使用户能在外出时保持联络并高效工作。</span><span class="sxs-lookup"><span data-stu-id="78dcd-139">The Teams mobile clients for iOS and Android keep users connected and productive when on-the-go.</span></span> <span data-ttu-id="78dcd-140">若要了解详细信息，请参阅[获取 Teams 客户端（移动客户端）](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients)。</span><span class="sxs-lookup"><span data-stu-id="78dcd-140">To learn more, see [Get clients for Teams (Mobile clients)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients).</span></span>
+<span data-ttu-id="a9e0e-139">iOS 和 Android 版 Teams 移动客户端使用户能在外出时保持联络并高效工作。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-139">The Teams mobile clients for iOS and Android keep users connected and productive when on-the-go.</span></span> <span data-ttu-id="a9e0e-140">若要了解详细信息，请参阅[获取 Teams 客户端（移动客户端）](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients)。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-140">To learn more, see [Get clients for Teams (Mobile clients)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients).</span></span>
 
-#### <a name="teams-for-ios"></a><span data-ttu-id="78dcd-141">iOS 版 Teams</span><span class="sxs-lookup"><span data-stu-id="78dcd-141">Teams for iOS</span></span> 
+#### <a name="teams-for-ios"></a><span data-ttu-id="a9e0e-141">iOS 版 Teams</span><span class="sxs-lookup"><span data-stu-id="a9e0e-141">Teams for iOS</span></span> 
 
-<span data-ttu-id="78dcd-142">运行 iOS 10.0 或更高版本的用户可从 Apple App Store 下载 Teams 移动应用并立即开始使用。</span><span class="sxs-lookup"><span data-stu-id="78dcd-142">Users running iOS 10.0 or later can download the Teams mobile app from the Apple App Store and get started right away.</span></span>  
+<span data-ttu-id="a9e0e-142">运行 iOS 10.0 或更高版本的用户可从 Apple App Store 下载 Teams 移动应用并立即开始使用。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-142">Users running iOS 10.0 or later can download the Teams mobile app from the Apple App Store and get started right away.</span></span>  
 
-#### <a name="teams-for-android"></a><span data-ttu-id="78dcd-143">Android 版 Teams</span><span class="sxs-lookup"><span data-stu-id="78dcd-143">Teams for Android</span></span> 
-<span data-ttu-id="78dcd-144">运行 Android 4.4 或更高版本的用户可从 Google Play 商店下载 Teams 移动应用并立即开始使用。</span><span class="sxs-lookup"><span data-stu-id="78dcd-144">Users running Android 4.4 or later can download the Teams mobile app from the Google Play Store and get started right away.</span></span>  
+#### <a name="teams-for-android"></a><span data-ttu-id="a9e0e-143">Android 版 Teams</span><span class="sxs-lookup"><span data-stu-id="a9e0e-143">Teams for Android</span></span> 
+<span data-ttu-id="a9e0e-144">运行 Android 4.4 或更高版本的用户可从 Google Play 商店下载 Teams 移动应用并立即开始使用。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-144">Users running Android 4.4 or later can download the Teams mobile app from the Google Play Store and get started right away.</span></span>  
 
-## <a name="drive-initial-adoption"></a><span data-ttu-id="78dcd-145">促使首次采用</span><span class="sxs-lookup"><span data-stu-id="78dcd-145">Drive initial adoption</span></span>
+## <a name="drive-initial-adoption"></a><span data-ttu-id="a9e0e-145">促使首次采用</span><span class="sxs-lookup"><span data-stu-id="a9e0e-145">Drive initial adoption</span></span>
 
-<span data-ttu-id="78dcd-146">请务必鼓励早期采用者积极使用 Teams，以便宣传新的协作体验并开发 Teams 支持者。</span><span class="sxs-lookup"><span data-stu-id="78dcd-146">It's important to encourage your early adopters to actively use Teams to promote new collaboration experiences and develop Teams champions.</span></span> <span data-ttu-id="78dcd-147">我们建议使用你创建的“了解 Teams”团队中的“如何”频道与用户分享相关指引，从而帮助促进采用。</span><span class="sxs-lookup"><span data-stu-id="78dcd-147">We recommend using the "How do I" channel in the "Get to know Teams" team you created to share guidance with your users to help drive adoption.</span></span> 
+<span data-ttu-id="a9e0e-146">请务必鼓励早期采用者积极使用 Teams，以便宣传新的协作体验并开发 Teams 支持者。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-146">It's important to encourage your early adopters to actively use Teams to promote new collaboration experiences and develop Teams champions.</span></span> <span data-ttu-id="a9e0e-147">我们建议使用你创建的“了解 Teams”团队中的“如何”频道与用户分享相关指引，从而帮助促进采用。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-147">We recommend using the "How do I" channel in the "Get to know Teams" team you created to share guidance with your users to help drive adoption.</span></span> 
 
-<span data-ttu-id="78dcd-148">有关为你的组织推动 Teams 采用的详细指引，请参阅[采用 Teams](adopt-microsoft-teams-landing-page.md)。</span><span class="sxs-lookup"><span data-stu-id="78dcd-148">For detailed guidance on driving Teams adoption for your organization, see [Adopt Teams](adopt-microsoft-teams-landing-page.md).</span></span>
+<span data-ttu-id="a9e0e-148">有关为你的组织推动 Teams 采用的详细指引，请参阅[采用 Teams](adopt-microsoft-teams-landing-page.md)。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-148">For detailed guidance on driving Teams adoption for your organization, see [Adopt Teams](adopt-microsoft-teams-landing-page.md).</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="78dcd-149">后续步骤</span><span class="sxs-lookup"><span data-stu-id="78dcd-149">Next steps</span></span>
-<span data-ttu-id="78dcd-150">转到[监视使用情况和反馈](get-started-with-teams-monitor-usage-and-feedback.md)。</span><span class="sxs-lookup"><span data-stu-id="78dcd-150">Go to [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md).</span></span>
+## <a name="next-steps"></a><span data-ttu-id="a9e0e-149">后续步骤</span><span class="sxs-lookup"><span data-stu-id="a9e0e-149">Next steps</span></span>
+<span data-ttu-id="a9e0e-150">转到[监视使用情况和反馈](get-started-with-teams-monitor-usage-and-feedback.md)。</span><span class="sxs-lookup"><span data-stu-id="a9e0e-150">Go to [Monitor usage and feedback](get-started-with-teams-monitor-usage-and-feedback.md).</span></span>
