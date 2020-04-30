@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903117"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940669"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -345,6 +345,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 传入和传出视频流分辨率仅限于720p 分辨率。 这是一个 WebRTC 限制。
 - 仅支持来自传入相机或屏幕共享流的一个视频流。 当存在传入屏幕共享时，将显示该屏幕共享，而不是主扬声器的视频。
 - 出站屏幕共享：
+    - 不支持来自聊天的屏幕共享。
     - 不支持应用程序共享。
 - 授予控制权并获得控制权：  
     - 在屏幕共享或应用程序共享会话期间不受支持。

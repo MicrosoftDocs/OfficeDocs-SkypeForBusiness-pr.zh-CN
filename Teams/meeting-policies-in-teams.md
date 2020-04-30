@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 689b22a98c986ca73ae3926785f75dcb6c6a9e74
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 3a482ce562c0d0281c1bc289dfc953f416a8f133
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918701"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940699"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -44,7 +44,10 @@ ms.locfileid: "43918701"
 |每个组织者和每用户     |当你实现每个组织单位和每用户策略的组合时，某些功能将根据其策略和组织者的策略来限制会议参与者。 例如，"**允许云录制**" 是基于每个组织者和每个用户的策略。 启用此设置可允许会议组织者和参与者开始和停止录制。
 
 默认情况下，将创建名为 Global 的策略（组织范围的默认设置）。 默认情况下，组织中的所有用户都分配有 "全局会议策略"。 你可以对其进行更改或创建一个或多个自定义策略，并向其分配用户。 除非你创建和分配自定义策略，否则用户将获取全局策略。 创建自定义策略时，你可以允许或阻止你的用户使用某些功能，然后将其分配给将对其应用设置的一个或多个用户。
--注意-会议详细信息按钮将为 availiable 如果用户已启用 audioconference 许可证，或者用户允许 audioconferencing，则不会 availiable 会议详细信息。
+
+> [!NOTE]
+> "会议详细信息" 按钮在用户启用音频会议许可证或用户允许音频会议时可用，如果不是，则会议详细信息将不可用
+
 ## <a name="change-or-create-a-meeting-policy"></a>更改或创建会议策略
 
 若要更改或创建会议策略，请转到 Microsoft Teams 管理中心 >“**会议**” > “**会议策略**”。 从列表中选择一个策略，或者选择“**添加**”。 若正在创建新策略，则添加名称和说明。 名称不能包含特殊字符或超过 64 个字符。 选择您的设置，然后选择 "**保存**"。
@@ -139,7 +142,7 @@ ms.locfileid: "43918701"
 - [允许脚本](#allow-transcription)
 - [允许云录制](#allow-cloud-recording)
 - [允许 IP 视频](#allow-ip-video)
-- [媒体比特率（Kps）](#media-bit-rate-kps)
+- [媒体比特率（Kbs）](#media-bit-rate-kbs)
 
 ### <a name="allow-transcription"></a>允许脚本
 
@@ -188,9 +191,9 @@ ms.locfileid: "43918701"
 
 如果 Daniela 通过视频 Amanda 调用，Amanda 只能通过音频应答呼叫。  当呼叫连接时，Amanda 可以看到 Daniela 的视频，但无法打开视频。 如果 Amanda 呼叫 Daniela，Daniela 可以通过视频和音频接听呼叫。 通话接通后，Daniela 可以根据需要打开或关闭她的视频。
 
-### <a name="media-bit-rate-kps"></a>媒体比特率（Kps）
+### <a name="media-bit-rate-kbs"></a>媒体比特率（Kbs）
 
-这是每个用户的策略。 此设置确定用户的通话和会议中音频、视频和基于视频的应用共享传输的媒体比特率。 它同时应用于呼叫或会议中用户的上行媒体和下行媒体遍历。 此设置使你能够更细致地控制组织中的带宽管理。 根据用户所需的会议方案，我们建议有足够的带宽来实现优质体验。 最小值为30个 Kps，最大值取决于会议方案。 若要了解更多有关建议的最小带宽以供团队的优质会议、通话和实时活动，请参阅[带宽要求](prepare-network.md#bandwidth-requirements)。
+这是每个用户的策略。 此设置确定用户的通话和会议中音频、视频和基于视频的应用共享传输的媒体比特率。 它同时应用于呼叫或会议中用户的上行媒体和下行媒体遍历。 此设置使你能够更细致地控制组织中的带宽管理。 根据用户所需的会议方案，我们建议有足够的带宽来实现优质体验。 最小值为 30 Kbps，最大值取决于会议方案。 若要了解更多有关建议的最小带宽以供团队的优质会议、通话和实时活动，请参阅[带宽要求](prepare-network.md#bandwidth-requirements)。
 
 如果会议带宽不足，参与者会看到指示网络质量不佳的消息。
 

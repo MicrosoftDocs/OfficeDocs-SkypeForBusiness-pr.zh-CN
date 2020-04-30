@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的应用、聊天机器人和连接器
 ms.reviewer: ''
-description: 使用这些部署资源帮助你在 Microsoft Teams 中部署应用。
+description: 了解应用、聊天机器人和连接器，以及如何根据组织的情况和业务需求决定在 Microsoft Teams 中部署其中的哪些。
 ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 83e5c452cd2e9056818059c5f0b1ddcdeca2c235
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776617"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901947"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
@@ -93,7 +94,7 @@ Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、
 
 ### <a name="activity-reports"></a>活动报告
 
-你可以使用活动报告来查看组织中的用户使用 Teams 的情况。 例如，如果某些用户尚未使用 Teams，他们可能不知道如何开始使用或了解如何使用 Teams 提高效率和改善协作。 组织可以使用活动报告来决定在何处优先安排培训和沟通工作。 若要查看活动报告，你必须是 Office 365 中的全局管理员、Teams 服务管理员或 Skype for Business 管理员。
+你可以使用活动报告来查看组织中的用户使用 Teams 的情况。 例如，如果某些用户尚未使用 Teams，他们可能不知道如何开始使用或了解如何使用 Teams 提高工作效率和改善协作。 组织可以使用活动报告来决定在何处优先安排培训和沟通工作。 若要查看活动报告，你必须是 Office 365 中的全局管理员、Teams 服务管理员或 Skype for Business 管理员。
 
 | 询问你自己 | 操作 |
 |--------------|--------|

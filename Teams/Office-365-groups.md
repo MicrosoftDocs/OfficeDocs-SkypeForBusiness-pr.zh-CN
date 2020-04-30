@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 414ca42153ab336500aa7b2e9de42dd9fe7f2708
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902117"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940689"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 组和 Microsoft 团队
 =====================================
@@ -55,4 +55,4 @@ Office 365 管理员可以定义 Office 365 组、添加成员和受益于诸如
 
 您的用户的组功能和功能取决于您从哪里推动组成员身份。 例如，如果删除团队的成员，则也会从 Office 365 组中删除这些成员。 从组中删除立即从团队客户端删除团队和频道。 如果您使用 Microsoft 365 管理中心从组中删除人员，他们将无法再访问其他协作方面，例如 SharePoint Online 文档库、Yammer 组或共享的 OneNote。 但是，他们在大约两个小时内仍可访问团队的聊天功能。
 
-作为管理团队成员的最佳做法，在团队客户端添加和删除成员以确保应用对其他从属云应用程序的正确的级联访问控制。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果你在团队客户端外部添加或删除团队成员（使用 Microsoft 365 管理中心、Azure AD 或 Exchange Online PowerShell），则可能需要长达两个小时才能在团队中反映更改。
+作为管理团队成员的最佳做法，在团队客户端添加和删除成员以确保应用对其他从属云应用程序的正确的级联访问控制。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果你在团队客户端外部添加或删除团队成员（使用 Microsoft 365 管理中心、Azure AD 或 Exchange Online PowerShell），则可能需要长达24小时（在某些情况下）才能在团队中反映更改。

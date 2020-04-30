@@ -8,21 +8,22 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 ms.reviewer: marcl
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft Teams 客户端应用和管理体验的已知问题当前列表
+description: 使用有关 Microsoft Teams 客户端应用和管理员体验的这一已知问题列表来解决组织中的问题。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d6e2a03b7d0ab5b09a71bc7b7a8a944740f223c
-ms.sourcegitcommit: c40a7ada120180cd39f18b2e37f23223075abbf4
+ms.openlocfilehash: 1343317d29f196caf151ead5a6429fb3edf19d87
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43535527"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902297"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
 

@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506843"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940709"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -77,7 +77,7 @@ ms.locfileid: "43506843"
    - [Microsoft IT 便于员工远程工作的 9 大方式](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
-1. Teams 教育版
+1. Teams 教育版 
    - 如果你从事教育工作，并且需要在 Teams 上设置教师、学生和管理员，请使用 Office 365 A1。 Office 365 免费版可供所有教育机构使用。 请转到[为整个学校免费获取 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) 注册。
 
    - 不要错过[开始使用 Teams 进行远程学习](remote-learning-edu.md)。

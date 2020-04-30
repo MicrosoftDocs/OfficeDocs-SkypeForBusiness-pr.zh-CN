@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: bc81781e17b16820eebb134a0ee57f1fb82d403c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43143783"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43945578"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备组织的网络 
 
@@ -37,6 +37,16 @@ ms.locfileid: "43143783"
     |---------|---------|
     |端口     |UDP 端口<strong>3478</strong>到<strong>3481</strong>        |
     |[IP 地址](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>、 <strong>52.112.0.0/14</strong>和<strong>52.120.0.0/14</strong>         |
+
+> [!IMPORTANT]
+> 如果你需要与 Skype for Business （本地或联机）联盟，你将需要配置一些其他 DNS 记录。
+>
+>|CNAME 记录/主机名  |TTL  |指向 "地址" 或 "值"  |
+>|---------|---------|---------|
+>|sip     |    3600     |    sipdir.online.lync.com     |
+>|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+>
+
 
     
 2.  您是否有经验证的 Office 365 域（例如，contoso.com）？

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何使用运行状况仪表板监视会话边界控制器与直接路由之间的连接。
-ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051798"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940739"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接路由的运行状况仪表板
 
@@ -55,7 +55,7 @@ ms.locfileid: "42051798"
 
    用于计算 NER 的公式为：
 
-   NER = 接听电话 + 用户占线 + 环无应答 + 终端拒绝病情发作 x 100
+   NER = 100 x （接听电话 + 用户占线 + 环无应答 + 终端拒绝病情发作）/Total 呼叫
 
  
 - **平均通话持续时间**-有关平均通话持续时间的信息可以帮助您监控通话的质量。 1:1 PSTN 呼叫的平均持续时间为4至5分钟。  但是，对于每个公司，此平均值可能有所不同。  Microsoft 建议为您的公司的平均通话时间建立一个基准。 如果此参数显著地低于基准，它可能表示用户在通话质量或可靠性方面遇到问题，并且之前挂断。 如果您开始看到极低的平均通话持续时间（例如15秒），则呼叫方可能会挂断，因为您的服务不能可靠地执行。 

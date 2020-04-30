@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170481"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940779"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理员快速入门 - Microsoft Teams 中的会议和实时事件
 
@@ -59,7 +59,7 @@ ms.locfileid: "43170481"
 
 - 如果你的用户是 Teams 会议的新用户，请与他们共享[管理会议](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)培训。 观看我们的讲师指导在线课堂，[使用 Teams 举行高效会议](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings)。
 
-- 要了解有关管理会议选项的信息，请参阅[更改 Teams 会议的参与者设置](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。
+- 要了解有关管理会议选项的信息，请参阅[更改 Teams 会议的参与者设置](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。
 
 - 请不要忘记[管理用户的设备](device-management.md) - 电话、耳机和相机。 要获取有关经过 Teams 认证的设备的最新信息，请转到 [Teams 设备](https://office.com/teamsdevices)。
 

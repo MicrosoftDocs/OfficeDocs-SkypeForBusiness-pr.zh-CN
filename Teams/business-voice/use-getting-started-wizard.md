@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95ad893b3070a560edfa0e4afe46ab10df2960ad
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096877"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898127"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用“入门”向导设置商务语音
 
@@ -49,7 +49,7 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
 
 <table>
     <tr>
-        <td>若要更改紧急地址，请单击“<b>编辑</b>”，然后输入新地址。 系统将验证所提供的地址，确保它合规并且符合紧急响应服务的正确格式。 系统会将此地址分配给所有用户（将在下一步中为这些用户分配号码）。 如果你的员工分布在多个位置，请参阅<a href="./customize-business-voice.md">商务语音设计自定义</a>，以便在准备好“入门”向导后添加和分配更多紧急地址。</td> 
+        <td>若要更改紧急地址，请单击“<b>编辑</b>”，然后输入新地址。 系统将验证所提供的地址，确保它合规并且符合紧急响应服务的正确格式。 系统会将此地址分配给所有用户（将在下一步中为这些用户分配号码）。 如果你的员工分布在多个位置，请参阅<a href="./customize-business-voice.md">商务语音设计自定义</a>，以便在准备好“入门”向导后添加和分配更多紧急地址。</td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
 </table>
 
@@ -59,7 +59,7 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
 
 <table>
     <tr>
-        <td>除新的本地电话号码以外，还可以购买免付费号码，或将现有号码移植到 Microsoft 365。 若要设置免付费号码，必须购买通话套餐。 若要将一个或多个号码移植到 Microsoft 365，请在向导完成后，转到 <a href="https://admin.teams.microsoft.com">Teams 管理中心</a>。
+        <td>除新的本地电话号码以外，还可以购买免付费号码，或将现有号码移植到 Microsoft 365。 若要设置免费电话号码，需购买通讯信用额度。 若要将一个或多个号码移植到 Microsoft 365，请在向导完成后，转到 <a href="https://admin.teams.microsoft.com">Teams 管理中心</a>。
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>

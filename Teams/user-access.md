@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10485fd7f04cfae675ea38967389851d4d72be90
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 823038671ac03669808e8a3dec5d065a60682b19
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903347"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940609"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>管理对 Microsoft Teams 的用户访问
 =====================================
@@ -53,7 +53,7 @@ ms.locfileid: "43903347"
 ## <a name="manage-via-powershell"></a>通过 PowerShell 管理
 
 > [!IMPORTANT]
-> 新的 MsolLicenseOptions 将启用之前已禁用的所有服务，除非你的自定义脚本中明确标识。 例如，如果你希望同时禁用两个 Exchange & Sway 同时禁用团队，你需要在脚本中包含此项，或者将此操作包含在你已标识的用户的 Exchange & Sway 中。 若要使用 GUI 管理此功能，请参阅[Office 365 许可证报告和管理工具-批量分配删除许可证](https://gallery.technet.microsoft.com/Office365-License-cfd9489c)以了解详细信息。
+> 新的 MsolLicenseOptions 将启用之前已禁用的所有服务，除非你的自定义脚本中明确标识。 例如，如果你希望同时禁用两个 Exchange & Sway 同时禁用团队，你需要在脚本中包含此项，或者将此操作包含在你已标识的用户的 Exchange & Sway 中。
 
 正如任何其他工作负荷一样，通过 PowerShell 以工作负荷许可证方式启用和禁用 Teams。 Microsoft Teams 的服务计划名称为 TEAMS1。 对于 GCC，服务计划名称为 TEAMS_GOV。 对于 GCC 高版，服务计划名称为 TEAMS_GCCHIGH。 对于 DoD，服务计划名称为 TEAMS_DOD （有关详细信息，请参阅[禁用 Office 365 PowerShell 的服务访问](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)。）
 

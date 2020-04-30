@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams 中的保留策略
 author: LanaChin
-ms.author: v-lanac
-manager: serdars
+ms.author: anwara
+manager: prvijay
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -17,18 +17,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dde12e5197031cd768cecf539ae2213f2a5b4d92
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905464"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940769"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
 保留策略可帮助你更高效地管理组织中的信息。 使用保留策略可以保留满足组织的内部政策、行业法规或法律要求所需的数据，以及删除被视为负担、不再需要保留或没有法律或业务价值的数据。
 
-默认情况下，Teams 聊天、频道和文件数据将永久保留。 作为管理员，你可以为聊天和频道消息设置 Teams 保留策略，并主动决定是保留数据、删除数据还是将其保留一段时间后再删除。
+默认情况下，团队聊天、频道和文件数据将永久保留，除非有尝试通过保留策略、用户删除、管理员删除等删除内容。作为管理员，你可以为聊天和频道消息设置团队保留策略，并提前确定是保留数据、删除数据还是在特定时间段内保留数据，然后将其删除。
 
 在[Microsoft 365 合规中心](https://protection.office.com/)中创建和管理团队和其他工作负荷的保留策略，或者使用安全 & 合规性中心 PowerShell cmdlet。 可将 Teams 保留策略应用于整个组织或特定用户和团队。
 
