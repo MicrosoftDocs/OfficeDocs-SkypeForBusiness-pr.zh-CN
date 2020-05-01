@@ -14,14 +14,15 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-voice
+search.appverid: MET150
 localization_priority: Normal
 description: 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。
-ms.openlocfilehash: 94ee5e2dc1b55da190c4b6afa736fab2ced3e1d1
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f7f579fcd5c939c5c844a0f4f4e3ba9a2aba97f8
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780221"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951277"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 

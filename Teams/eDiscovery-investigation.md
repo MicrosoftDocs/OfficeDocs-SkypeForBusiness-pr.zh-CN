@@ -17,12 +17,12 @@ description: 了解需要执行电子数据展示时需要执行的操作，如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918580"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950887"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -38,9 +38,9 @@ ms.locfileid: "43918580"
 
 | 内容类型 | eDiscoverable | 注释 |
 |:--- | --- |:--- |
-| 团队聊天消息 | 是 | 聊天来自聊天的消息，其中来宾用户是1:1 或1： N 聊天中的唯一参与者不 eDiscoverable。 |
+| 团队聊天消息 | 是 |  |
 | 录音 | 否 | |
-| 专用频道消息 | 否 | |
+| 专用频道消息 | 是 | |
 | 表情符号、Gif、贴纸 | 是 | |
 | 代码片段 | 否 | |
 | 聊天链接 | 是 | |

@@ -9,6 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
+search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +22,12 @@ ms.reviewer: islubin
 description: 了解如何使用管理角色指定需要不同级别的访问权限的管理员来管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77ba123afadb3c5b5070d9c6a074d855ee8eab3e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 3917e64f7c50ad51d2b9f9fca48bedf0f4a96c66
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905144"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951067"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色管理团队
 

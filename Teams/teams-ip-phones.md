@@ -13,6 +13,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
+search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议已认证，可供 Microsoft 团队获得最佳效果。
-ms.openlocfilehash: 389262df9117e07eefa1c78d6fd255bfc437fdad
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: fddb09ee2da24629cce7c942847d5a2ae445d7a1
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940649"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951207"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 

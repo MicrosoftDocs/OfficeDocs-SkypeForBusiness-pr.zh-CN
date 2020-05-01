@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的紧急呼叫策略，定义当组织中的团队用户拨打紧急电话时会发生什么情况。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e697e05c4ade1e14ee2f59da5b60413e60e2367
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 62a6314435aa3af44d0c44ab6a6790212c62d8de
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905104"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952431"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫策略
 
@@ -42,9 +42,10 @@ ms.locfileid: "43905104"
 2. 单击“添加”****。
 3. 输入策略的名称和说明。
 4. 设置当进行紧急呼叫时，您希望将组织中的人员（通常是安全桌面）通知的方式。 若要执行此操作，请在 "**通知模式**" 下，选择下列操作之一：
-    - **仅通知**：将团队聊天消息发送给你指定的用户和组。
+    - **仅发送通知**：团队聊天消息将发送到您指定的用户和组。
     - **Conferenced in 但静音**：将团队聊天消息发送给你指定的用户和组，他们可以在呼叫方和 PSAP 运营商之间的对话中侦听（但不参与）。
-5.  如果在 "**通知的拨出号码**" 框中选择了 "Conferenced"，**但处于静音**通知模式，则可以输入用户或组的 PSTN 电话号码呼叫并加入紧急呼叫。 例如，输入您的组织的安全桌面号码，当进行紧急呼叫时，您将收到呼叫，然后可以接听或参与呼叫。
+    - **Conferenced 在已取消静音** **（即将推出）**：团队聊天消息将发送给你指定的用户和组，并且可以取消静音以侦听和参与调用方和 PSAP 运算符之间的对话。
+5.  如果在 "**通知的拨出号码**" 框中选择了 "Conferenced"，**但处于静音**通知模式，则可以输入用户或组的 PSTN 电话号码呼叫并加入紧急呼叫。 例如，输入您的组织的安全桌面号码，当进行紧急呼叫时，您将收到呼叫，然后就能接听电话。
 6. 搜索并选择一个或多个用户或组（如组织的安全桌面），以便在发生紧急呼叫时发出通知。  通知可以发送到用户、通讯组和安全组的电子邮件地址。 最多可通知50用户。
 7. 单击“**保存**”。
 
@@ -100,15 +101,15 @@ ms.locfileid: "43905104"
 > 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
 
 获取特定组的 GroupObjectId。
-```
+```powershell
 $group = Get-AzureADGroup -SearchString "Contoso Operations"
 ```
 获取指定组的成员。
-```
+```powershell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 将组中的所有用户分配到特定团队策略。 在此示例中，它是运行紧急呼叫路由策略的操作。
-```
+```powershell
 $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
@@ -119,9 +120,9 @@ $members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Oper
 
 以下示例显示了如何将名为 Contoso 紧急呼叫策略1的策略分配给 Site1 网站。
 
-    ```
-    Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
-    ```
+```powershell
+Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
+```
 
 ## <a name="related-topics"></a>相关主题
 

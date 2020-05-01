@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '了解如何为团队获取新的、移植或转移现有号码，以及如何向用户显示所做的更改。 '
-ms.openlocfilehash: d2ac4a0a5e487b99cf8dbc303b85e6f4e3446ec8
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: 97d827d2fedbf12fd18519ac70a23bacdc78a58c
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170748"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951007"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -35,7 +35,7 @@ ms.locfileid: "42170748"
 
 - **使用 Microsoft 团队管理中心。** 对于某些国家和地区，你可以使用 Microsoft 团队管理中心为你的用户获取数字。 请参阅[为您的用户获取新电话号码](#get-new-phone-numbers-for-your-users)。
     
-- **转网现有的号码。** 您可以从当前服务提供商或电话运营商处移植或转移现有号码。 有关详细信息，请参阅将[电话号码转移到团队](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)以帮助你执行此操作。  
+- **转网现有的号码。** 您可以从当前服务提供商或电话运营商处移植或转移现有号码。 如需获取有助于执行此操作的详细信息，请参阅[将电话号码转接到 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。  
   
 - **使用新号码的请求表单。** 有时（取决于您所在的国家或地区）您将无法使用 Microsoft 团队管理中心获取新的电话号码，或者您需要特定的电话号码或区号。 如果是这样，您将需要下载表单并将其发送给我们。 有关详细信息，请参阅[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。
   
@@ -44,10 +44,10 @@ ms.locfileid: "42170748"
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>为用户获取新电话号码
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
     
 1. 在左侧导航中，转到 "**语音** > **电话号码**"，然后单击 "**添加**"。
-2. 输入订单的名称，如果需要，请添加说明。
+2. 输入订单的名称并添加说明。
 3. 在 "位置和数量" 页面上，执行下列操作：
     1. 在 "**国家或地区**" 下，选择一个国家或地区。
     2. 在 "**数字类型**" 下，选择 "**用户（订阅者）**"。
@@ -68,7 +68,7 @@ ms.locfileid: "42170748"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看您的组织的电话号码
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标 
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心** 
 
 在左侧导航中，转到 "**语音** > **电话号码**" 以查看您的组织的号码，包括位置、号码类型和状态信息。
   

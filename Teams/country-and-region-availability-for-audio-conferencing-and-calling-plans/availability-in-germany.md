@@ -25,39 +25,39 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于德国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: fedbd51600ae2d21d2221446eeeb6267b2406676
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: af11dafc34947f2ef162252029795d1465f6d43a
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683905"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951197"
 ---
 # <a name="availability-in-germany"></a>在德国的可用性
 
-[查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
+[查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
 以下是适用于德国的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
-|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 法兰克福</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
+|是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 慕尼黑</ul>如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |在线  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |有空  <br/> |
-|呼叫队列  <br/> |有空  <br/> |
+| 自动助理 <br/> |在线  <br/> |
+|呼叫队列  <br/> |在线  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐
     
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |是  <br/> |
 |通话计划可用的分钟数。 |每个日历月提供四个计划选项： <ul><li>120分钟国内通话计划 </li><li>240分钟国内通话计划</li></li><li>1200分钟国内通话计划 </li></li><li>国内和国际通话计划：1200分钟的国内呼叫或600分钟的国际通话（在日历月份内首先达到）</li></li> 
@@ -66,9 +66,9 @@ ms.locfileid: "41683905"
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？  <br/> |法兰克福  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？  <br/> |<ul> <li>法兰克福  <li> 慕尼黑 </ul> <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
 |是否提供免费电话号码？  <br/> |是  <br/> |
    
@@ -76,7 +76,7 @@ ms.locfileid: "41683905"
   
 ## <a name="communications-credits"></a>通信点数
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
    

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI Connector 以使用 CQD 查询模板
-ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227546"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952441"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI Connector 以使用 CQD 查询模板
 
@@ -153,7 +153,11 @@ Power BI 连接器不支持日期切片器。 若要指定日期范围，请将�
 
 **<sup>2</sup>** 用于 CQD 的登录凭据*不*需要与用于登录到 power BI 桌面应用本身的凭据相同。
 
+## <a name="frequently-asked-questions"></a>常见问题解答
 
+### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>何时将 Power BI Connector 从 "Beta" 状态更新？
+
+尽管有 Beta 标记，Power BI 的通话质量连接器是连接器的发行版本，由 Power BI 团队正式进行安全签名以反映此情况。 要删除该 Beta 标记的认证过程非常广泛，并且需要来自 Power BI 团队的承诺，才能向连接器提供直接支持。 由于时间限制，Power BI 团队目前无法提供该支持和更广泛的认证，但仍准备证明 Microsoft 通话质量连接器的安全、真实性和常规功能。
 
 ## <a name="related-topics"></a>相关主题
 
