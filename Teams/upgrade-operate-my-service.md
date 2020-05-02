@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5607e9405a777329efa6ad3bb58e204e03879a9
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3183eac6851531bcaefbddd72cc445844755b307
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776757"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997283"
 ---
 # <a name="operate-your-service"></a>运行服务
 
@@ -433,7 +433,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 
 2. **验证客户端连接：** 连接问题导致团队中的功能或登录问题。 我们建议（特别是对于新网站或位置）验证与该服务的连接。 确保为每个网站遵循以下[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)指南。 你可以利用[Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)执行连接测试，以验证是否已正确打开团队功能的媒体端口。 有关如何运行连接测试的详细步骤在[网络准备情况](prepare-network.md)指南中提供。
 
-3. **检查已知问题列表：** 查看[团队的已知问题列表](known-issues.md)，以确定用户是否已受到这些问题中的任何一项的不良影响。 按照提供的解决方法（如果有）解决问题。
+3. **检查已知问题列表：** 请咨询[组织中的支持团队](known-issues.md)，确定用户是否已受到这些问题之一的负面影响。 按照提供的解决方法（如果有）解决问题。
 
 4. **访问 Microsoft 团队社区：**[Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)为团队提供专用空间。 团队社区围绕团队提供讨论列表、博客文章和公告。 你可以发布问题或搜索以前的讨论，以查找你的问题的解决方案。
 
@@ -457,7 +457,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 
 [Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)
 
-[Microsoft Teams 的已知问题](known-issues.md)
+[组织中的支持团队](known-issues.md)
 
 [验证 Microsoft Teams 的服务运行状况](service-health.md)
 

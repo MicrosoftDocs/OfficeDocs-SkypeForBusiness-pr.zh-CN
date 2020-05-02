@@ -1,5 +1,5 @@
 ---
-title: 规划 Microsoft 团队聊天室
+title: Microsoft Teams 会议室规划
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: 本文介绍了部署 Microsoft 团队聊天室的相关规划注意事项，以及下一代 Skype 会议室系统。
-ms.openlocfilehash: 1d5236c522a0f3da6f2c2686e34db9d665a93d15
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825890"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997303"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>规划 Microsoft 团队聊天室
 
@@ -65,9 +65,9 @@ Microsoft 团队聊天室包含以下关键组件，可提供出色的用户体�
 
 使用下面所示的方法指导你完成部署，并根据组织的需要自定义本文中提供的示例输出。
 
-首先了解你拥有哪些会议室，构思未来最适合你的内容，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。
+首先了解你所拥有的会议室并展望未来最适合你的内容，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。
 
-![首先了解你拥有的内容和展望最适合你的内容，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。](../media/room-systems-image2.png "首先了解你拥有的内容和展望最适合你的内容，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。")
+![首先了解你拥有的内容并构思哪些内容最适合你，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。](../media/room-systems-image2.png "首先了解你拥有的内容并构思哪些内容最适合你，然后通过选择和 procuring 所需的设备、管理你的网站、配置和部署你的服务、管理更改和用户采纳以及开发操作和维护过程。")
 
 你可能需要跨多个团队协调这些活动。 我们提供了你应涵盖的主要活动的高级视图，还提供了有关团队（通常涉及到部署和管理会议室系统）的建议，可帮助你确定需要使用的人员。
 
@@ -87,7 +87,7 @@ Microsoft 团队聊天室包含以下关键组件，可提供出色的用户体�
 
 ## <a name="room-inventory-and-capability-planning"></a>会议室库存和功能规划
 
-第一步是清点组织的现有会议和会议室，以了解其环境、空间大小、布局和用途，并确定你希望未来范围内的每个房间的功能，例如，哪些功能更丰富将在聊天室中启用协作功能。 
+第一步是清点组织的现有会议和会议室，以了解其环境、空间大小、布局和用途，并确定你希望未来范围内的每个房间的功能，例如在聊天室中启用哪些丰富的协作功能。 
 
 在每个现有房间内创建设备和功能的库存后，您对设备选择计划的要求将置于您的设备选择计划中，以便创建富会议解决方案。 每个房间所需的形式（音频、视频），除了空间大小和用途之外，在确定哪种解决方案最适合每个房间时，所有功能都扮演着重要的角色。 
 
@@ -150,7 +150,7 @@ _适用于你的组织的 Microsoft 团队聊天室部署模板示例_
 
 许多组织拥有一个 AV 团队或管理其会议室和设备的合作伙伴。 此团队应参与同意负责管理 Microsoft 团队聊天室设备以监控性能、部署软件更新和修补程序的人员。 
 
-考虑哪些 "帮助台" 队列你将向 Microsoft 团队 Rooms֪提供相关呼叫，并向帮助台团队提供常见问题，以便他们能够更好地了解如何使用 Microsoft 团队聊天室和他们可以执行的关键疑难解答步骤。 此常见问题的一个良好起点是[用户帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)和[已知问题列表](known-issues.md)。
+考虑哪些 "帮助台" 队列你将向 Microsoft 团队 Rooms֪提供相关呼叫，并向帮助台团队提供常见问题，以便他们能够更好地了解如何使用 Microsoft 团队聊天室和他们可以执行的关键疑难解答步骤。 此常见问题的一个良好起点是组织中的[用户帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)和[支持团队](known-issues.md)。
 
 |    |     |
 |-----------|------------|

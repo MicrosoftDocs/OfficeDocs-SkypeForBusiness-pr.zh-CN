@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904587"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997183"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -43,7 +43,7 @@ ms.locfileid: "43904587"
 |    |     |
 |-----------|------------|
 | ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>使用下表作为指南，了解正在调查的应用所请求的权限。</li></ul> |
-| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>研究应用或服务本身，确定是否希望允许在组织内访问它。 例如，bot 从用户发送和接收消息，除了企业业务线机器人外，它们还位于合规性边界之外。 因此，任何包含机器人的应用都需要这些权限，并且至少具有该风险配置文件。 </li></ul>|
+| ![描述后续步骤的图标](media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>研究应用或服务本身，确定是否希望允许在组织内访问它。 例如，bot 从用户发送和接收消息，除了企业自定义机器人外，它们位于合规性边界之外。 因此，任何包含机器人的应用都需要这些权限，并且至少具有该风险配置文件。 </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>全局应用权限和注意事项
 

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理组织中专用频道的生命周期。
-ms.openlocfilehash: 39830035ba91b2fa50c7d5bbd82e6da6e60d0f00
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 10746605895732af19a43ffb85df06a81ae34316
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240632"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997243"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 团队中管理专用频道的生命周期
 
@@ -51,7 +51,7 @@ PATCH /teams/<team_id>
 
 作为管理员，你可以使用 Microsoft 团队管理中心或 PowerShell 来设置策略，以控制允许组织中的哪些用户创建专用通道。
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft 团队管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 使用团队策略设置允许组织中的哪些用户创建专用频道。 若要了解详细信息，请参阅[管理团队中的团队策略](teams-policies.md)。
 
@@ -68,7 +68,7 @@ PATCH /teams/<team_id>
 ### <a name="using-powershell"></a>使用 PowerShell
 
 ```PowerShell
-New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
+New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName "<Channel_Name>" –Owner <Owner_UPN>
 ```
 
 ### <a name="using-graph-api"></a>使用图形 API
@@ -95,7 +95,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>查找团队中所有专用通道的 SharePoint Url
 
-无论是要针对专用频道中的文件执行电子数据展示或法律封存，还是希望构建一种在特定专用通道中放置文件的业务线应用，您都需要一种方法来查询为每个专用通道创建的唯一 SharePoint 网站集。
+无论是要针对专用频道中的文件执行电子数据展示或法律封存，还是希望构建一个自定义应用来将文件放入特定的专用通道中，你将需要一种方法来查询为每个专用通道创建的唯一 SharePoint 网站集。
 
 作为管理员，你可以使用 PowerShell 或图形 Api 命令查询这些 Url。
 
@@ -106,7 +106,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “<group_id>"
+    $groupID = "<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
     $site.url -Detail; if ($x.RelatedGroupId -eq $groupID)
     {$x.RelatedGroupId;$x.url}}
@@ -236,7 +236,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
           ]
     }
     ```    
-2.  使用以下将成员提升为所有者&lt;，其中 group_id&gt;、 &lt;channel_id&gt;和&lt;id&gt;从以前的调用中返回。 请注意&lt;，&gt;从&lt;以前&gt;的调用返回的 id 和 userId 不相同，并且不能互换。 请确保使用&lt;id&gt;。
+2.     使用以下将成员提升为所有者&lt;，其中 group_id&gt;、 &lt;channel_id&gt;和&lt;id&gt;从以前的调用中返回。 请注意&lt;，&gt;从&lt;以前&gt;的调用返回的 id 和 userId 不相同，并且不能互换。 请确保使用&lt;id&gt;。
 
     **请求**
 

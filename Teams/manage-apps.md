@@ -17,12 +17,12 @@ description: 了解如何在 Microsoft 团队管理中心的 "管理应用" 页�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ea73b460fee758a45f19d6acbd5ff8172e2b8304
+ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170550"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "44006038"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理你的应用
 ======================================================
@@ -53,13 +53,13 @@ ms.locfileid: "43170550"
 
 ## <a name="upload-a-new-app"></a>上载新应用程序
 
-你可以使用应用目录来测试和分发专为你的组织构建的业务线应用程序。 团队应用包是使用[团队应用 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建的。 当你有应用包时，你可以将其添加到你的应用程序目录。 虽然组织中的所有用户都可以查看应用程序目录，但只有全局管理员和团队服务管理员可以发布和管理它。
+你可以使用你的应用程序目录来测试和分发专为你的组织构建的自定义应用程序。 团队应用包是使用[团队应用 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建的。 当你有应用包时，你可以将其添加到你的应用程序目录。 虽然组织中的所有用户都可以查看应用程序目录，但只有全局管理员和团队服务管理员可以发布和管理它。
 
 若要将新的自定义应用上载到租户应用目录，请单击 "**上传新应用**" 以将你的应用包上载为 .zip 格式。 应用在上载后不会突出显示，因此你需要搜索你的应用目录才能找到它。
 
 若要在上载应用后更新该应用，请在 "**管理应用**" 页面上的应用列表中单击应用名称，然后单击 "**更新**"。 执行此操作将替换你的应用目录中的现有应用，并且所有应用权限策略和应用设置策略都将对已更新的应用保持强制。
 
-若要了解详细信息，请参阅[管理团队中的业务线应用](manage-your-lob-apps.md)。
+若要了解详细信息，请参阅[管理团队中的自定义应用](manage-your-custom-apps.md)。
 
 ## <a name="allow-and-block-apps"></a>允许和阻止应用
 

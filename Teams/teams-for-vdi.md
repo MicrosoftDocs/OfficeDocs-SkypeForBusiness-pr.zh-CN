@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940669"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997163"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -353,7 +353,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 在多监视器设置中进行屏幕共享时，仅共享主监视器。
 - 不支持 CWA 上的高 DPI 缩放。
 
-对于不与 VDI 无关的团队已知问题，请参阅[团队的已知问题](Known-issues.md)。
+对于不与 VDI 无关的团队已知问题，请参阅[组织中的支持团队](Known-issues.md)。
 
 ## <a name="troubleshooting"></a>故障排除
 

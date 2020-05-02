@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75a76ca7a98191f90005ebe6c1edf915fde4571
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d7411ab9862dc07b7c3bb5f8f4bed6f1cca62b47
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778298"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997013"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -115,7 +115,7 @@ IT 管理员可以使用 Teams 的托管部署将安装文件分发到其组织�
 使用系统的程序包管理器启用自动更新的签名密钥将自动安装。 但是，也可以在以下位置找到它：(https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams 每月发布一次，并且如果正确安装了存储库，则系统程序包管理器应按照与系统中其他程序包相同的方式处理自动更新。
 
 > [!NOTE] 
-> 如果发现 Bug，请使用客户端中的 `Report a Problem` 进行提交。 有关已知问题，请参阅[已知问题](Known-issues.md)。
+> 如果发现 Bug，请使用客户端中的 `Report a Problem` 进行提交。 对于已知问题，请参阅[组织中的支持团队](Known-issues.md)。
 > 对于适用于 Linux 的 Teams 支持，可以使用 [Microsoft 问答上的 Linux 论坛支持频道](https://docs.microsoft.com/answers/topics/teams.html)。 发布问题时，请务必使用 `teams-linux` 标记。 
 
 #### <a name="install-teams-using-deb-package"></a>使用 DEB 程序包安装团队

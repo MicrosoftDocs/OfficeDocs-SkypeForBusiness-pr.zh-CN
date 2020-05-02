@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b92307510b93e03157fd3c337d5d1928d4afa7d6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905864"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997263"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>为 Microsoft Teams 定义使用方案
 
@@ -70,6 +70,6 @@ ms.locfileid: "43905864"
 ![显示方案影响与难点的插图](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 我们始终渴望了解我们的客户如何以全新的创新方式使用团队。 在 [推动采纳讨论论坛] 中与我们分享你的 #TeamsStories。 在帖子中包括井号 **#TeamsStories** 。 我们始终对您在组织中使用团队感兴趣。
+> 我们始终渴望了解我们的客户如何以全新的创新方式使用团队。 在我们的[推动采纳论坛](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)中与我们分享您的 #TeamsStories。 在帖子中包括井号 **#TeamsStories** 。 我们始终对您在组织中使用团队感兴趣。
 
 ![表示下一步骤](media/teams-adoption-next-icon.png)的图标：[板载早期采纳者和收集反馈](teams-adoption-onboard-early-adopters.md)。
