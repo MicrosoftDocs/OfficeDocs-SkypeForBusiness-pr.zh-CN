@@ -32,7 +32,7 @@ ms.locfileid: "43940679"
 
 <span data-ttu-id="2b0f4-108">不要错过我们的视频“欢迎使用 Teams（针对 Teams 管理员）”（3 分多钟）：</span><span class="sxs-lookup"><span data-stu-id="2b0f4-108">Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxW4]
 
 <span data-ttu-id="2b0f4-109">若要获取最终用户 Teams 帮助，请单击应用左侧的“帮助”\*\*\*\*，或转到 [Microsoft Teams 帮助中心](https://support.office.com/teams)。</span><span class="sxs-lookup"><span data-stu-id="2b0f4-109">If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams).</span></span> <span data-ttu-id="2b0f4-110">有关培训，请访问 [Microsoft Teams 培训](training-microsoft-teams-landing-page.md)。</span><span class="sxs-lookup"><span data-stu-id="2b0f4-110">For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md).</span></span> 
 
