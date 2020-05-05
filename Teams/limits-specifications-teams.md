@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03cc795f9d3df5500c4eafceee4a1fd5d3605fb6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904027"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43950967"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -134,6 +134,16 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |Office 365 组织中的并发实时事件数 | 15 |
 
 要详细了解实时事件以及 Teams 实时事件与 Skype 会议直播之间的比较情况，请转到 [Teams 实时事件和 Skype 会议直播](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)。
+
+> [!IMPORTANT]
+> **Microsoft 365 实时事件限制的增加**
+> 
+> 为帮助客户满足快速变化的沟通需求，Microsoft 365 实时事件将暂时对 Teams 中托管的活动提高默认限制，直到 2020 年 7 月 1 日。 2020 年 4 月底实施以下增加：
+> - 参与者限制：事件最多可以支持 20000 名参与者
+> - 并发事件：同一租户可以同时托管 50 件事件
+> - 事件持续时间：每个播报的事件持续时间增加到 16 小时
+
+
 
 ## <a name="presence-in-outlook"></a>Outlook 中的状态
 

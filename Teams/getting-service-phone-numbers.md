@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 了解如何为团队获取新的电话号码和端口，或传输音频会议、自动助理和通话队列（服务号码）的现有号码。
-ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136712"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021984"
 ---
 # <a name="getting-service-phone-numbers"></a>获取服务电话号码
 
@@ -51,7 +51,7 @@ ms.locfileid: "43136712"
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
 1. 在左侧导航中，转到 "**语音** > **电话号码**"，然后单击 "**添加**"。
-2. 输入订单的名称，如果需要，请添加说明。
+2. 输入订单的名称并添加说明。
 3. 在 "位置和数量" 页面上，执行下列操作：
     1. 在 "**国家或地区**" 下，选择一个国家或地区。
     1. 在 "**号码类型**" 下，选择所需的服务号码类型。
