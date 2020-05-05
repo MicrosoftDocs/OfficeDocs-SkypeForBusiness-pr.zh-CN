@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 的已知问题
+title: 在组织中提供 Microsoft Teams 支持
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -9,25 +9,33 @@ ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
-ms.reviewer: marcl
+ms.reviewer: marcl, billkau
 audience: admin
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 使用有关 Microsoft Teams 客户端应用和管理员体验的这一已知问题列表来解决组织中的问题。
+description: 无论你是 Teams 管理员还是技术支持工程师，均可使用这些资源在组织中提供 Microsoft Teams 支持。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1343317d29f196caf151ead5a6429fb3edf19d87
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 362958a7307a71b68a2582bffca2e323966b1977
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902297"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997003"
 ---
-# <a name="known-issues-for-microsoft-teams"></a>Microsoft Teams 的已知问题
+# <a name="support-microsoft-teams-in-your-organization"></a>在组织中提供 Microsoft Teams 支持
 
-本文按功能区域列出了 Microsoft Teams 的已知问题。
+如果你正在查找 Teams 的已知问题，那么本页的内容正好适合你。 本文中的资源可帮助你在组织中提供 Teams 支持。 
+
+请首先查看本文中下方的最[常见问题和解决方案](#common-issues-and-resolutions)列表。
+
+然后，如果未找到所需的内容，请转到 [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)，然后在目录中或在“**按标题筛选**”框中搜索你的问题。 
+:::image type="content" source="media/known-issues1.png" alt-text="“Teams 疑难解答”页面上的目录和筛选框的屏幕截图":::
+
+如果仍然有困难，请联系 [Microsoft 支持部门](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
+
 
 ## <a name="common-issues-and-resolutions"></a>常见问题和解决方法
 
@@ -55,4 +63,9 @@ ms.locfileid: "43902297"
 |---------|---------|
 |你的用户看到“你错过了！” 消息。   |请确保[为学校启用 Microsoft Teams](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)。 在 EDU 租户中，默认情况下不启用 Teams，因此必须先将它打开。 <br><br>下一步，请参阅[使用 Office 365 教育版远程教学和学习](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)，了解如何设置学校、课程规划、虚拟会议和与学生共享内容。<br><br>最后，请务必在 [Teams 管理员培训](itadmin-readiness.md)中查看 Microsoft Teams IT 管理员培训视频和幻灯片等等。        |
 
-有关解决 Microsoft Teams 问题的详细信息，请参阅 [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)。
+
+## <a name="related-topics"></a>相关主题
+
+[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+
+[Teams 的支持资源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
