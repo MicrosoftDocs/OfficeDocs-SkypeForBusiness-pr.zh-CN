@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 为 Skype for business Server 2019 设置资源帐户。
-ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510781"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042839"
 ---
 # <a name="configure-resource-accounts"></a>配置资源帐户
 
@@ -43,7 +43,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
 如果自动助理或呼叫队列嵌套在顶级自动助理下，则关联的资源帐户只需要一个电话号码，如果您希望将多个点输入到自动助理和呼叫队列的结构中。
 
-若要将呼叫重定向到组织中已联机的人员，他们必须具有**电话系统**许可证并启用企业语音或拥有 Office 365 通话套餐。 请参阅[分配 Microsoft 团队许可证](/MicrosoftTeams/assign-teams-licenses)。 若要为企业语音启用它们，可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+若要将呼叫重定向到组织中已联机的人员，他们必须具有**电话系统**许可证并启用企业语音或拥有 Office 365 通话套餐。 请参阅[分配 Microsoft 团队附加许可证](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)。 若要为企业语音启用它们，可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 如果要创建的电话系统自动助理或呼叫队列将嵌套，并且不需要电话号码，则该过程为：
 
@@ -84,7 +84,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
     有关此命令的更多详细信息，请参阅[ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 。
 
-5. 将电话系统-虚拟用户或电话系统许可证分配给资源帐户。 请参阅[分配 Microsoft 团队许可证](/MicrosoftTeams/assign-teams-licenses)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
+5. 将电话系统-虚拟用户或电话系统许可证分配给资源帐户。 请参阅[分配 Microsoft 团队附加许可证](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
 
    如果要将电话号码分配给资源帐户，现在可以使用免费电话系统-虚拟用户许可证。 这样可以在组织级别为电话号码提供电话系统功能，并允许您创建自动助理和呼叫队列功能。
 

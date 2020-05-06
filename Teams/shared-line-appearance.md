@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft 团队中向用户发送包含其音频会议信息的电子邮件。
-ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905544"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042579"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams 中的共享线路外观
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905544"
 
 用户必须使用具有 PSTN 连接的电话系统（呼叫计划许可证或直接路由 OnlineVoiceRoutingPolicy）作为代理人，或者设置委派并允许其他人代表他们进行或接收呼叫。
 
-管理者和代理人都需要具有 PSTN 连接的电话系统（呼叫计划许可证或直接路由 OnlineVoiceRoutingPolicy）。 共享线路体验是委派的一部分，并包含在电话系统中。 有关许可模型的其他详细信息，请参阅[Microsoft 团队的 Office 365 授权](office-365-licensing.md)。
+管理者和代理人都需要具有 PSTN 连接的电话系统（呼叫计划许可证或直接路由 OnlineVoiceRoutingPolicy）。 共享线路体验是委派的一部分，并包含在电话系统中。 有关许可模型的其他详细信息，请参阅[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>配置委派和共享行的外观
 

@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。
-ms.openlocfilehash: f7f579fcd5c939c5c844a0f4f4e3ba9a2aba97f8
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 5f8eaa1e4acd9563f31ed39e365c7699dbbaec04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951277"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042919"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
@@ -142,7 +142,7 @@ Microsoft 团队用户在导航到 "**语音邮件**" 选项卡时可以访问�
 
 ## <a name="required-licenses"></a>需要的许可证
 
-Microsoft 团队许可证可以作为其[microsoft 365 和 Office 365 订阅](Office-365-licensing.md)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的[电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft 团队许可证可以作为其[microsoft 365 和 Office 365 订阅](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的[电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
 有关获取团队的详细信息，请查看[如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

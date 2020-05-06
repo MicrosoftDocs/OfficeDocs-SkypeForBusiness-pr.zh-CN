@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 详细介绍如何在 Office 365 中为您的组织设置电话系统（云 PBX）的分步指南。
-ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 01e5016761481a49af5a2946dd151acb7c3930ea
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905564"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042429"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在组织中设置电话系统
 
@@ -40,7 +40,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步骤 2： 购买和分配电话系统和通话套餐许可证
 
-若要向单个用户分配电话系统和呼叫计划许可证，步骤与分配 Office 365 许可证相同。  您还可以批量将许可证分配给多个用户。 有关详细信息，请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
+若要向单个用户分配电话系统和呼叫计划许可证，步骤与分配 Office 365 许可证相同。  您还可以批量将许可证分配给多个用户。 有关详细信息，请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
 如果通话计划不适用于您所在的国家或地区，请考虑使用直接路由将本地电话基础结构连接到电话系统。  有关详细信息，请参阅[手机系统直接路由](direct-routing-landing-page.md)。
 

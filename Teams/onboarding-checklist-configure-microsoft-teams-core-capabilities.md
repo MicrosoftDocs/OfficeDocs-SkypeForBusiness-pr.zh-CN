@@ -16,12 +16,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69874e9d75cea1377b0aae110b5e1b3ce681d84f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e7d167b8e1e868f550067b08f2f7dbfb22cb0a41
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903897"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042099"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>配置 Microsoft 团队核心功能
 
@@ -35,5 +35,5 @@ ms.locfileid: "43903897"
 | 6  | 可选：配置团队命名策略 | 当用户创建或编辑团队名称时，团队会利用 Microsoft 365 组的命名策略。 <br/><br/>默认情况下，当用户创建团队时，不会应用任何命名限制。 <br/><br/>如果需要强制执行团队名称规则，请配置适用于你的组织的 Microsoft 365 组命名策略。 可以设置强制前缀和后缀并指定阻止的字词。 | | [在 Microsoft 团队中创建团队时规划 Microsoft 365 组](plan-office-365-groups.md) <br/><br/>[Microsoft 365 组命名策略](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
 | 7  | 配置团队 SMTP 域的 Exchange | 团队使用 Exchange Online 通过 SMTP 域（email.teams.microsoft.com）向团队成员发送通知（在添加或删除它们时）。 <br/><br/>请确保将此 SMTP 域添加到 Exchange 基础结构中的 "接受的域" 列表。 | | [在 Exchange Online 中将 Microsoft Teams SMTP 域添加为接受的域](smtp-accepted-domain.md) |
 | 个  | 配置和管理用户对团队的访问权限 | 虽然我们强烈建议你为团队启用所有用户，但你可以通过分配或删除团队产品许可证，允许或禁止基于每个用户访问团队。 | | [管理 Microsoft Teams 的用户访问](user-access.md) |
-| db-9  | 为用户分配许可证 | 将许可证分配给用户以获取音频会议、电话系统和通话计划等功能 | | [分配 Skype for Business 和 Microsoft Teams 许可证](assign-teams-licenses.md)|
+| db-9  | 为用户分配许可证 | 将许可证分配给用户以获取音频会议、电话系统和通话计划等功能 | | [分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)|
 | 10 | 可选：使用 PowerShell 管理团队 | 你可以使用 PowerShell cmdlet （而不是 Microsoft 365 管理中心）管理和管理团队设置。 | | [Microsoft 团队 PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |

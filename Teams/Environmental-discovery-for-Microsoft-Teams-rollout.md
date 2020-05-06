@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 16e02d3a1948ece53fbb51189880bb3dbd737b23
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c067abec99c032b8343de0a5c5fc0a1f3869efe5
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778738"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042219"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Microsoft 团队推出环境发现
 ===================================================
@@ -115,7 +115,7 @@ ms.locfileid: "43778738"
 > | 问题 | 回答 | 备注 |
 > |---|---|---|
 > | 为 Teams 启用了哪些类型的用户？ | <input type="checkbox">组织中的所有用户 <br/> <input type="checkbox">特定用户/用户组 <br>&nbsp;&nbsp; （在 "注释" 列中&nbsp;指定） ||
-> | 哪些团队功能和形式正在使用？ | <input type="checkbox">基于频道的对话 <br/> <input type="checkbox">私人聊天 <br/> <input type="checkbox">来宾访问 <br/> <input type="checkbox">频道会议 <br/> <input type="checkbox">私人会议 <br/> <input type="checkbox">私人通话 <br/> <input type="checkbox">临时频道聚会 <br/> <input type="checkbox">会议中的视频 <br/> <input type="checkbox">会议中的屏幕共享 <br/> <input type="checkbox">音频会议 <br/><input type="checkbox">应用程序（应用）<br> &nbsp;&nbsp; &nbsp;选项<input type="checkbox">卡<br>&nbsp;&nbsp;机器人&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;连接线&nbsp; <input type="checkbox"><br><input type="checkbox">自定义云存储集成 <br>&nbsp;&nbsp; （Dropbox、Box、ShareFile、Google Drive、 &nbsp; Egnyte） <br/> <input type="checkbox">频道电子邮件集成 <br/> <input type="checkbox">其他（在 "评论" 列中指定。） | |
+> | 哪些团队功能和形式正在使用？ | <input type="checkbox">基于频道的对话 <br/> <input type="checkbox">私人聊天 <br/> <input type="checkbox">来宾访问 <br/> <input type="checkbox">频道会议 <br/> <input type="checkbox">私人会议 <br/> <input type="checkbox">私人通话 <br/> <input type="checkbox">临时频道聚会 <br/> <input type="checkbox">会议中的视频 <br/> <input type="checkbox">会议中的屏幕共享 <br/> <input type="checkbox">音频会议 <br/><input type="checkbox">应用程序（应用）<br> &nbsp;&nbsp; &nbsp;选项<input type="checkbox">卡<br>&nbsp;&nbsp;机器人&nbsp; <input type="checkbox"> <br>&nbsp;&nbsp;连接线&nbsp; <input type="checkbox"><br><input type="checkbox">自定义云存储集成 <br>&nbsp;&nbsp; Dropbox、Box、ShareFile、Google Drive、Egnyte （即将&nbsp;推出） <br/> <input type="checkbox">频道电子邮件集成 <br/> <input type="checkbox">其他（在 "评论" 列中指定。） | |
 > | 你已将哪些应用程序部署到团队？ | | |
 > | 你是否专门阻止过任何 Teams 功能？ <br/>如果是，请记下 "评论" 列中的详细信息。 | <input type="checkbox">是的 <br/> <input type="checkbox">不 ||
 > | 目前使用哪些 Teams 客户端？ | <input type="checkbox">站点 <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Mac <br/> <input type="checkbox">厂商 <br/>  <input type="checkbox">输出 <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |

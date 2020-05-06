@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 161022a385ec703ca4da9c5ea26840513ffa38b4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1240ebc29be11241c26054a9281e59d2654dca82
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902427"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041859"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>在组织中打开 Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "43902427"
 
 
  
-要了解有关管理单个许可证的更多信息，请阅读[用于 Microsoft Teams 的 Office 365 许可证](Office-365-licensing.md)。 
+若要了解有关管理个人许可证的详细信息，请阅读[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>为整个组织开启或关闭 Teams 

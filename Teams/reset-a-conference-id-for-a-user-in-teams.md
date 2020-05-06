@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解在 Microsoft Teams 中重置用户的会议 ID 以及获取会议更新和迁移工具链接的步骤。
-ms.openlocfilehash: 4874630d27f0ded2cdf9cf4bb0bc0912a426e544
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 008a479677723dedbfe1923f57358808b16fd9ec
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137612"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042449"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
@@ -59,7 +59,7 @@ ms.locfileid: "43137612"
 
 - 你可以在包含会议 ID 和拨入电话号码的电子邮件中，通过单击 "**音频会议**" 部分中的用户**电子邮件中的 "发送会议信息**"，向用户发送所有会议信息。 它不会发送 PIN。
     
-- 会议 ID 将包含7位数字，不能更改其长度。
+- 会议 ID 将包含8个数字，您不能更改其长度。
     
 - 重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。
     

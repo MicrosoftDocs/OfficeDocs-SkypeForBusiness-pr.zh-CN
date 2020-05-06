@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 853e897a31b229962acec8f85d8a0a3e966c507b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905854"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041869"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>开始推动采用 Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "43905854"
 
 开始之前，请确保：
 
-- [已安装团队](get-clients.md)并在你的环境中[分配了许可证](office-365-licensing.md)。 至少应将许可证分配给你的核心团队和将参与此初始项目阶段的早期使用者。
+- [已安装团队](get-clients.md)并在你的环境中[分配了许可证](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 至少应将许可证分配给你的核心团队和将参与此初始项目阶段的早期使用者。
 
 - 您已下载桌面和移动应用程序。 
 

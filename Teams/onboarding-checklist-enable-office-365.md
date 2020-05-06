@@ -16,19 +16,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e40902fdb01ba6c639e37395d9e63c1776c1e83
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 96d5021b9760d8db875ddeb979cf147086eb755e
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777257"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042079"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>启用 Microsoft 365 或 Office 365
  
 | 否 | 活动或任务| 说明| 已完成？ | 其他信息|
 |----|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | $1  | 创建 Microsoft 365 或 Office 365 组织| 在你的组织可以享受团队的好处之前，你必须设置 Microsoft 365 或 Office 365 组织。 如果您没有 Microsoft 365 或 Office 365 组织，请参阅 "**其他信息**" 列中的指南。 | | [设置 Office 365 商业版](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) <br/><br/>[如果你需要其他帮助，请联系 Microsoft FastTrack for Office 365 团队](https://fasttrack.microsoft.com/office)。 |
-| ●2  | 购买 Office 365 许可证 | 根据你在团队构想阶段执行的工作结果，与你的采购组协作，确保你的组织已购买所需的许可证 Sku 或加载项服务，并已准备好将其分配给租户。 | | [适用于 Microsoft Teams 的 Office 365 许可](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing) <br/><br/>[购买 Office 365 商业版订阅许可证](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1) |
+| ●2  | 购买 Office 365 许可证 | 根据你在团队构想阶段执行的工作结果，与你的采购组协作，确保你的组织已购买所需的许可证 Sku 或加载项服务，并已准备好将其分配给租户。 | | [Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) <br/><br/>[购买 Office 365 商业版订阅许可证](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1) |
 | 3%  | 为租户分配 Office 365 许可证 | 通常，你或你的授权管理员将收到来自 Microsoft 许可证的链接，以将你的许可证添加到你的 Office 365 组织。 <br/><br/>根据你购买许可证时使用的渠道，你可能需要访问**其他信息**列中所列的指南之一。 | | [将许可证添加到为使用产品密钥购买的订阅](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53) <br/><br/>[将许可证添加到通过批量许可服务中心购买的订阅](https://support.office.com/article/Add-licenses-to-a-subscription-purchased-through-the-Volume-Licensing-Service-Center-82ba88fa-ebdf-4d44-a7b3-cea82b25d71a) |
 | √(4)  | 可选：启用通信点数 | 通讯信用点数是一项可选功能，可用于提供您的组织的会议桥电话号码的免费访问权限，或者让会议组织者能够拨出到国际会议参与者。 <br/><br/>除了标准音频会议每用户许可证，批量和许可组织可以选择按分钟付费服务来启用音频会议功能。 <br/><br/>确定贵组织是否需要通信点数，如果需要，应通过将通信点数加载项许可证添加到你的租户来启用此功能。 | | [什么是通信点数？](what-are-communications-credits.md) <br/><br/>[为组织设置通信点数](set-up-communications-credits-for-your-organization.md) <br/><br/>[音频会议按分钟付费](audio-conferencing-pay-per-minute.md) |
 | 5 个参与者  | 确认许可证对 Office 365 组织可用 | 转到 Microsoft 365 管理中心并验证它是否显示你的 Office 365 组织中所需的许可证 Sku 和数量。 <br/><br/>使用**其他信息**中的参考完成此过程。 | | [我拥有什么 Office 365 商业版订阅？](https://support.office.com/article/What-Office-365-for-business-subscription-do-I-have-092252f8-08df-4cdb-a8d2-b8653caa29a1) |

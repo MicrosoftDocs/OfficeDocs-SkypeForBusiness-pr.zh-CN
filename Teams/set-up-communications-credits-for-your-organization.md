@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5fb963bbea97a41b6dbd6b68d5d7e0c162dc5a05
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905584"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042939"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>设置组织的通信点数
 
@@ -42,11 +42,11 @@ ms.locfileid: "43905584"
   
 若要执行此操作，你需要为你的用户**分配音频会议或电话系统许可证**。
   
-- 将**音频会议**许可证分配给你的用户。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
+- 将**音频会议**许可证分配给你的用户。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
     
     分配此许可证后，你将需要设置音频会议。 有关分步说明，请参阅[在 Office 365 中试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
     
-- 为你的用户分配**电话系统**和**国内或国内和国际**呼叫计划许可证。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
+- 为你的用户分配**电话系统**和**国内或国内和国际**呼叫计划许可证。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
     
     > [!NOTE]
     > 虽然通信信用点数不是必需的，但您仍然需要分配**国内呼叫计划**或**国内和国际呼叫计划**许可证。

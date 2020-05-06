@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905014"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041729"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 的通话计划
 
@@ -58,19 +58,19 @@ ms.locfileid: "43905014"
     ![显示用于购买语音呼叫计划选项的屏幕截图。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > 根据你的计划，你可能需要购买更多加载项，然后才能购买电话系统许可证。 若要了解详细信息，请参阅[Microsoft 团队附加](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)许可证中的 "基于你的计划的许可证选项"。
+    > 根据你的计划，你可能需要购买更多加载项，然后才能购买电话系统许可证。 若要了解详细信息，请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 2. 购买电话系统许可证后，您可以通过登录到**Microsoft 365 管理中心**来购买呼叫计划，选择 "**计费** > **购买服务** > **附加订阅**"，然后单击 "**立即购买**"。 您将在那里看到通话计划。
     
     ![显示语音通话计划选项的屏幕截图。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-您可以根据组织的需要，为不同用户购买和分配不同的通话计划。 选择所需的呼叫计划后，请继续结帐。 将计划分配给 Microsoft 365 管理中心中的每个用户。 若要了解操作方法，请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
+您可以根据组织的需要，为不同用户购买和分配不同的通话计划。 选择所需的呼叫计划后，请继续结帐。 将计划分配给 Microsoft 365 管理中心中的每个用户。 若要了解操作方法，请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>是否有为混合用户提供本地 PSTN 连接的服务提供商？
 
 如果是这样，则无需购买呼叫计划。 Office 365 企业版 E5 包括 "**电话系统**加载项"，因此您可以继续结帐。
   
-然后，为 Microsoft 365 管理中心中的用户分配 "企业版 E5" 或 "**电话系统**加载项" 许可证。 若要了解操作方法，请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
+然后，为 Microsoft 365 管理中心中的用户分配 "企业版 E5" 或 "**电话系统**加载项" 许可证。 若要了解操作方法，请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
   
 ## <a name="pricing-information"></a>定价信息
 

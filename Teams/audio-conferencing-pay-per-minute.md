@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 了解有关使用 Microsoft 批量许可的组织启用音频会议功能的每分钟费率选项。
-ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139161"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041719"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -74,7 +74,7 @@ ms.locfileid: "43139161"
   
 ## <a name="want-to-find-out-more-about-pricing"></a>想要了解有关定价的详细信息？
 
- **正在搜索价格？** 了解[如何查看价格并购买附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md#bkmk_how)或下列内容之一：
+ **正在搜索价格？** 请参阅以下内容：
   
 - [音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是适用于沙特阿拉伯的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: 36d59a1c77824f86d4eca6d94450c71c4cd87cb6
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: ba64a0e3cb0e9bfd6da12cfaf70516cf3c508955
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958457"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047828"
 ---
 # <a name="availability-in-saudi-arabia"></a>在沙特阿拉伯的可用性
 
@@ -71,7 +71,7 @@ ms.locfileid: "43958457"
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> | 不适用  <br/> |
 |是否提供收费电话号码？  <br/> |否  <br/> |
-|是否提供免费电话号码？  <br/> |否  <br/> |
+|是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   

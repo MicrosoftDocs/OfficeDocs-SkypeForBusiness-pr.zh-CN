@@ -15,12 +15,12 @@ description: 使用本指南可以将 Microsoft 团队作为您的第一个 Offi
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780371"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041709"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>首先部署 Microsoft 团队
 
@@ -43,7 +43,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
     若要了解与 AAD 同步同步的属性，请参阅[AZURE AD Connect 同步：属性同步到 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  为团队分配的相应用户许可证  
-    若要了解团队许可，请阅读[Microsoft 团队的 Office 365 授权](office-365-licensing.md)
+    若要了解团队许可，请阅读[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 4.  为团队准备的组织网络  
     若要了解网络准备，请阅读为[团队准备组织的网络](prepare-network.md)。
@@ -54,7 +54,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
 > 在2019年9月1日之后创建的租户将在 "仅团队" 模式下预配。
 > 
 > [!IMPORTANT]
-> 如果您已部署 Skype for Business 服务器，并且您的租户是在2019年9月1日之后预配的，请联系 premier 支持部门以启用团队的共存功能。 在向用户分配任何团队许可证<span class="underline">之前</span>，请确保 "组织范围升级策略" 已设置为 "安全岛模式"。
+> 如果你已部署 Skype for Business 服务器，并且你的租户是在2019年9月1日之后预配的，请联系支持人员以启用团队的共存功能。 在向用户分配任何团队许可证<span class="underline">之前</span>，请确保 "组织范围升级策略" 已设置为 "安全岛模式"。
 
 ## <a name="migration-starting-points"></a>迁移起始点
 
@@ -233,7 +233,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
 
 1.  在上面的 "开始" 部分中，满足上述先决条件。
 
-2.  将租户切换到 "孤岛" 模式（在9/1/2019 之后预配租户），请联系 premier 支持人员进行此更改）  
+2.  将租户切换到 "孤岛" 模式（在9/1/2019 之后预配租户），请联系支持人员进行此更改）  
     [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  根据公司的企业/公司策略配置租户  

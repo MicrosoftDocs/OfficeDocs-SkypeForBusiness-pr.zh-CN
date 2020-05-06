@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在停用2020年2月28日的 Exchange 统一消息联机（ExchUMO）服务。 本文总结了受影响的客户应了解的内容，并将为其规划业务连续性而执行此操作。
-ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780771"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042829"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息联机迁移支持
 
@@ -135,6 +135,7 @@ Office 365 组织管理员需要在 Microsoft 云自动助理服务中重新创�
 | VMNETWORK | 服务功能 | 电子数据展示和保留  | 出于安全和合规性  | Y | Y    |
 | VMNETWORK | 服务功能 | Exchange 规则支持 | 出于安全和合规性  | Y | Y    |
 | VMNETWORK | 用户功能 | PSTN 电话拨入访问  | 订阅者访问  | N | Y    |
+| VMNETWORK | 用户功能 | 委派用户  | 未接来电电子邮件  | N | Y    |
 | VMNETWORK | 用户功能 | PSTN Outlook Voice Access   | 订阅者访问  | N | Y    |
 | VMNETWORK | 用户功能 | 使用经过身份验证的终结点拨入 | 调用语音邮件服务收听语音邮件和更改语音邮件设置| Y | Y    |
 | VMNETWORK | 用户功能 | 禁用语音邮件的用户设置   |  | Y | Y    |
@@ -162,13 +163,13 @@ Office 365 组织管理员需要在 Microsoft 云自动助理服务中重新创�
 | VMNETWORK | 呼叫者功能  | 静音检测   |  | N | Y    |
 | VMNETWORK | 租户-管理员功能 | 服务器级别的受保护语音邮件    | 租户-管理员可以配置服务级别规则以将传入语音邮件标记为受保护 | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改录制持续时间限制  |     | Y | Y    |
-| VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 不适用    | Y    |
+| VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 无    | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改输入失败的次数 | CVM：硬编码为3 | N | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改默认语言 |  | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | Disable/enable |  | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | 禁用/启用未接来电通知 |  | N | Y    |
 | VMNETWORK | 租户-管理员功能 | 帮助 Microsoft 改进语音邮件预览    |  | Y | Y    |
-| VMNETWORK | 租户-管理员功能 | 为已启用的用户自定义短信|  | 不适用    | Y    |
+| VMNETWORK | 租户-管理员功能 | 为已启用的用户自定义短信|  | 无    | Y    |
 | VMNETWORK | 租户-管理员功能 | 应对猥亵屏蔽|  | Y | N    |
 | VMNETWORK | 租户-管理员功能 | 语音邮件策略    |   | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | Web 门户管理   |  | CY19   | Y    |

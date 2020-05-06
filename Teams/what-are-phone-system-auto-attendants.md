@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解云自动助理以及如何使用它们让呼叫者在菜单系统中移动，以找到并将呼叫放入或转移到用户或部门。
-ms.openlocfilehash: bfe142db0322757dd8fefe55c4de529168939126
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 614077237f95c97c584a467c5852f97f438e92b8
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905134"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042599"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
@@ -64,7 +64,7 @@ Office 365 中的电话系统提供自动助理，可用于让外部呼叫者和
 > 只有 Microsoft 团队用户和呼叫代理才支持自动助理和呼叫队列的直接路由服务号码。
 
    > [!TIP]
-   > 若要将呼叫重定向到使用**电话系统**许可证的联机用户的操作员或菜单选项，您需要为企业语音启用其帐户或为其分配呼叫计划。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。 你还可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > 若要将呼叫重定向到使用**电话系统**许可证的联机用户的操作员或菜单选项，您需要为企业语音启用其帐户或为其分配呼叫计划。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 你还可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - 若要为自动助理获取和使用免费服务号码，您需要设置通讯信用点数。 若要执行此操作，请参阅[什么是通讯信用点数？](what-are-communications-credits.md)并[为您的组织设置通讯信用点数](set-up-communications-credits-for-your-organization.md)。
 

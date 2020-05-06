@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解如何设置呼叫计划（包括您所在区域中可用的查看计划）、购买 & 分配许可证、获取电话号码以及将紧急地址添加 & 位置。
-ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140875"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042399"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 
@@ -45,7 +45,7 @@ ms.locfileid: "43140875"
     > [!TIP]
     > Office 365 中的**电话系统**许可证和通话计划一起使用，因此若要查看购买呼叫计划的选项，您必须首先拥有**电话系统**许可证。
   
-2. 首先分配许可证，然后将呼叫计划分配给组织中的人员。 请参阅[分配 Microsoft 团队许可证](assign-teams-licenses.md)。
+2. 首先分配许可证，然后将呼叫计划分配给组织中的人员。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
     
 ## <a name="step-3-get-phone-numbers"></a>步骤3：获取电话号码
 有三种方法，以获得新的用户数：

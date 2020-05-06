@@ -16,12 +16,12 @@ f1.keywords:
 description: 为直接路由配置本地媒体优化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a69a46d7620628c7afffb706354c0f6e7868f3d
-ms.sourcegitcommit: 3dd6499416e9fbdcb48187c6322bd607290502ce
+ms.openlocfilehash: 518445e10b757adc9a21c426fb885bb04b7a878b
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541589"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047851"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>为直接路由配置本地媒体优化
 
@@ -71,9 +71,6 @@ ms.locfileid: "43541589"
 |            |  SBC 5400         | 8.2  |
 |            |  SBC 7000         | 8.2  |
 |            |  SBC SWe          | 8.2  |
-| [功能区 SBC 边缘](https://support.sonus.net/display/UXDOC81/Microsoft+Teams+Direct+Routing+-+On+Premises+Deployment)  |  SBC 1000         | 8.1.1，内部版本527 |
-|            |  SBC 2000         | 8.1.1，内部版本527 |
-|            |  SBC SWe Lite     | 8.1.0，内部版本222 |
 | [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1 + |
 | [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
 |        | AP 3900 | 8.4.0.0.0 |

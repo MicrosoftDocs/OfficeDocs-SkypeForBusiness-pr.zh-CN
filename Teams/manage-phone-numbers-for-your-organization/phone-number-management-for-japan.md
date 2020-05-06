@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在日本 for Microsoft 团队中获取和管理电话号码的信息。
-ms.openlocfilehash: 47a4e034b298cdf751349e9cfbdc9947c8cc898f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 50c3509d19041dbf08440c7484a384def71aee57
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706987"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047841"
 ---
 # <a name="phone-number-management-for-japan"></a>日本的电话号码管理
 
@@ -41,11 +41,11 @@ ms.locfileid: "41706987"
   
 |**你要做什么？**|**执行下列步骤并下载正确的表单**|
 |:-----|:-----|
-|为日本的通话计划获取新的用户电话号码。   <br/> |请与[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)联系，为您的用户提供新电话号码。 稍后将相关号码添加至您所属组织，以便您向您的用户进行分发。 <br/>
-|为音频会议、自动助理和日本电话队列获取新的服务电话号码。  <br/> |[请联系我们](mailto:ptnapac@microsoft.com)。|
-|为日本的用户获取转移到 Office 365 的电话号码。  <br/> |请联系[SoftBank 呼叫 For Office 365](https://aka.ms/SoftBankVoicePlan)以转移电话号码。 稍后将相关号码添加到您所在组织。  <br/> |
-|获取已转到 Office 365 的电话号码，用于音频会议、自动助理和日本的通话队列。  |[请联系我们](mailto:ptnapac@microsoft.com) |
-|更改分配给具有呼叫计划电话号码的用户的紧急地址。 |请联系[SoftBank 呼叫 For Office 365](https://aka.ms/SoftBankVoicePlan)以进行紧急地址更改。 他们可以为您更新相关信息。|
+|为日本的通话计划获取新的用户电话号码。|请与[Office 365 的 SoftBank 通话](https://aka.ms/SoftBankVoicePlan)联系，为您的用户提供新电话号码。 稍后将相关号码添加至您所属组织，以便您向您的用户进行分发。 <br/>
+|为音频会议、自动助理和日本电话队列获取新的服务电话号码。|[请联系我们](mailto:ptnapac@microsoft.com)。|
+|为日本的**用户**获取转移到 Office 365 的电话号码。|请联系[SoftBank 呼叫 For Office 365](https://aka.ms/SoftBankVoicePlan)以转接用户电话号码。 稍后将相关号码添加到您所在组织。  <br/> |
+|为日本的**通话队列**获取转接到 Office 365 的电话号码。|请联系[SoftBank 呼叫 For Office 365](https://aka.ms/SoftBankVoicePlan)以传送服务电话号码。 稍后将相关号码添加到您所在组织。|
+|更改分配给具有呼叫计划电话号码的用户的紧急地址。|请联系[SoftBank 呼叫 For Office 365](https://aka.ms/SoftBankVoicePlan)以进行紧急地址更改。 他们可以为您更新相关信息。|
 |将用户号码更改为服务号码。 |目前不支持使用 SoftBank 通话进行 Office 365。
 
 ## <a name="related-topics"></a>相关主题

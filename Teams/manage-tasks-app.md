@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ae16216c5975407b3ec1c60a67231edd2ee8f1
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940905"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042489"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 团队中管理组织的 "任务" 应用
 
@@ -28,7 +28,7 @@ ms.locfileid: "43940905"
 
 ## <a name="overview-of-tasks"></a>任务概述
 
-"任务" 应用为 Microsoft 团队带来了一种内聚的任务管理体验，将由 Planner 提供的个人任务与由 Planner 提供支持的团队任务集成在一个位置。 用户可以将任务作为应用访问到团队的左侧，以及在单个团队中的频道中作为选项卡。 "任务" 中的**个人列表**和**团队列表**使用户可以查看和管理其所有个人和工作组任务，并确定其工作优先级。 任务在团队桌面版、web 版和移动客户端中可用。 
+"任务" 应用为 Microsoft 团队带来了一种内聚的任务管理体验，将由[microsoft](https://todo.microsoft.com/tasks/)提供的个人任务与由 Planner 提供支持的团队任务集成在一个位置。 用户可以将任务作为应用访问到团队的左侧，以及在单个团队中的频道中作为选项卡。 "任务" 中的**个人列表**和**团队列表**使用户可以查看和管理其所有个人和工作组任务，并确定其工作优先级。 任务在团队桌面版、web 版和移动客户端中可用。 
 
 > [!NOTE]
 > 当我们推出团队桌面客户端的任务体验时，应用名称最初将显示为用户的**Planner** 。 该名称随后会暂时更改为 "**按 Planner" 和 "待办事项**"，稍后将重命名为 "**任务**"。 在团队移动客户端上，用户将始终看到应用名称为 "**任务**"。 桌面体验推出后，移动体验的可用性可能会出现短暂延迟。
