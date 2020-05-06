@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 57fcdcb5fa4fc20f50e1c25e9797128dbcd7fdb6
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: 9558dfafb65d91f475dddbc393010135654e9072
+  ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43902377"
+  ms.lasthandoff: 05/05/2020
+  ms.locfileid: "44042189"
 items:
 - durationInMinutes: 1
   content: >
@@ -79,7 +79,7 @@ items:
   content: "\n可以从多种客户端加入会议。 查看[获取 Microsoft Teams 的客户端](https://docs.microsoft.com/MicrosoftTeams/get-clients)（预计阅读时间为 3 分钟），了解 Teams 对哪些平台适用。\n\n此外，通过使用音频会议，参与者可以通过拨入会议或从会议拨出来从普通电话参加会议。\n有关音频会议的详细信息将在一个专门培训中介绍。\n\n在 Outlook for Windows 中，你可以使用外接程序，直接从日历安排会议。 查看[在 Outlook 中使用 Teams 会议外接程序](https://docs.microsoft.com/MicrosoftTeams/teams-add-in-for-outlook)（预计阅读时间为 2 分钟）。\n"
 - title: 会议的要求和注意事项
   durationInMinutes: 4
-  content: "\n### <a name=\"licensing\"></a>许可\n尽管你无需任何附加许可证即可举行会议（只需具有 Microsoft Teams 许可证），但有些方案需要附加许可。\n\n允许参与者从普通电话加入 Teams 会议的音频会议需要附加许可证。 这将在关于音频会议的专门培训中进行介绍。\n\n有关详细信息，请参阅[适用于 Microsoft Teams 的 Office 365 许可](https://docs.microsoft.com/microsoftteams/office-365-licensing)。\n\n### <a name=\"bandwidth-and-media-flow\"></a>带宽和媒体流\n在 Teams 中，有两种方法可以启动实时通讯：\n-   用户可以直接给其他用户打电话\n-   用户可以创建会议（临时会议或安排的会议） 对于通话，媒体（音频、视频或者桌面或应用程序共享）尽可能直接传输。 例如，如果两个用户之间没有防火墙（例如，两个用户位于同一个网络内），媒体流量将直接从一个用户传输到另一个用户。 如果有防火墙阻止流量在用户之间直接传输，流量将通过中继发送。\n\n对于会议，所有流量均首先发送到托管在 Office 365 中的会议服务。 音频流量在发回之前在其中收集和混合；将会接收视频流量和应用程序或桌面共享并将其分发给与会者。\n\n<strong>必要!</strong>\n在新型冠状肺炎（COVID-19） 爆发期间，建议用户通过单击“<strong>加入团队会议</strong>”按钮来加入会议，而不是使用 PSTN 会议号码或 <strong>给我打电话</strong>。 这主要是由于新型冠状病毒（COVID-19）所影响国家/地区的电话基础设施拥堵而导致。 通过避免 PSTN 呼叫，你可能会体验到更好的音频质量。 \n\n此培训中未涵盖规划带宽，但它对用户体验至关重要。\n\n有关详细信息，请参阅[为 Microsoft Teams 准备好组织的网络](https://docs.microsoft.com/microsoftteams/prepare-network)。\n\n### <a name=\"exchange-dependencies\"></a>Exchange 依赖项\n\n对于使用本地 Exchange Server 的客户，在从 Teams 客户端创建和查看会议时以及合规性方面可能存在限制，具体取决于 Exchange Server 的版本。\n查看 [Exchange 与 Microsoft Teams 如何交互](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)（预计阅读时间为 3 分钟）以了解可能的限制。\n\n### <a name=\"end-meetings-for-all-participants\"></a>结束所有参与者的会议\n\n会议组织者可以通过单击会议中的 \"**结束会议**\" 来结束所有参与者的会议。 这在以下情况下很有用：\n-   在课堂完成后，教师可以确保学生不会在会议 unsupervised 中继续。\n-   对于正在录制的会议（如网络研讨会），会议组织者可以确保录制在会议结束时结束。  \n"
+  content: "\n### <a name=\"licensing\"></a>许可\n尽管你无需任何附加许可证即可举行会议（只需具有 Microsoft Teams 许可证），但有些方案需要附加许可。\n\n允许参与者从普通电话加入 Teams 会议的音频会议需要附加许可证。 这将在关于音频会议的专门培训中进行介绍。\n\n有关详细信息，请参阅[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。\n\n### <a name=\"bandwidth-and-media-flow\"></a>带宽和媒体流\n在 Teams 中，有两种方法可以启动实时通讯：\n-   用户可以直接给其他用户打电话\n-   用户可以创建会议（临时会议或安排的会议） 对于通话，媒体（音频、视频或者桌面或应用程序共享）尽可能直接传输。 例如，如果两个用户之间没有防火墙（例如，两个用户位于同一个网络内），媒体流量将直接从一个用户传输到另一个用户。 如果有防火墙阻止流量在用户之间直接传输，流量将通过中继发送。\n\n对于会议，所有流量均首先发送到托管在 Office 365 中的会议服务。 音频流量在发回之前在其中收集和混合；将会接收视频流量和应用程序或桌面共享并将其分发给与会者。\n\n<strong>必要!</strong>\n在新型冠状肺炎（COVID-19） 爆发期间，建议用户通过单击“<strong>加入团队会议</strong>”按钮来加入会议，而不是使用 PSTN 会议号码或 <strong>给我打电话</strong>。 这主要是由于新型冠状病毒（COVID-19）所影响国家/地区的电话基础设施拥堵而导致。 通过避免 PSTN 呼叫，你可能会体验到更好的音频质量。 \n\n此培训中未涵盖规划带宽，但它对用户体验至关重要。\n\n有关详细信息，请参阅[为 Microsoft Teams 准备好组织的网络](https://docs.microsoft.com/microsoftteams/prepare-network)。\n\n### <a name=\"exchange-dependencies\"></a>Exchange 依赖项\n\n对于使用本地 Exchange Server 的客户，在从 Teams 客户端创建和查看会议时以及合规性方面可能存在限制，具体取决于 Exchange Server 的版本。\n查看 [Exchange 与 Microsoft Teams 如何交互](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact)（预计阅读时间为 3 分钟）以了解可能的限制。\n\n### <a name=\"end-meetings-for-all-participants\"></a>结束所有参与者的会议\n\n会议组织者可以通过单击会议中的 \"**结束会议**\" 来结束所有参与者的会议。 这在以下情况下很有用：\n-   在课堂完成后，教师可以确保学生不会在会议 unsupervised 中继续。\n-   对于正在录制的会议（如网络研讨会），会议组织者可以确保录制在会议结束时结束。  \n"
 - title: 会议配置选项
   durationInMinutes: 20
   content: "\n作为 IT 管理员，您可以设置会议策略和设置以定义会议体验。\n\n### <a name=\"meeting-policies\"></a>会议策略\n\n使用团队会议策略控制由组织中的用户安排的会议参与者可使用的功能。 若要了解详细信息，请参阅[管理团队中的会议策略](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)（估计的阅读时间16分钟）。 \n\n### <a name=\"meeting-settings\"></a>会议设置\n\n使用团队会议设置控制匿名用户是否可以加入团队会议、自定义会议邀请，以及是否要启用服务质量（QoS），并为实时流量设置端口范围。 这些设置适用于用户在组织中安排的所有 Teams 会议。 若要了解详细信息，请参阅[管理团队中的会议设置](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)。\n（估计时间：估计时间为4分钟）。\n"

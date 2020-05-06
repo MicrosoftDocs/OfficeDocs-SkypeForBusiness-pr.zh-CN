@@ -20,28 +20,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 161022a385ec703ca4da9c5ea26840513ffa38b4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1240ebc29be11241c26054a9281e59d2654dca82
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902427"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041859"
 ---
-# <a name="turn-on-teams-in-your-organization"></a><span data-ttu-id="3b536-103">在组织中打开 Teams</span><span class="sxs-lookup"><span data-stu-id="3b536-103">Turn on Teams in your organization</span></span>
+# <a name="turn-on-teams-in-your-organization"></a><span data-ttu-id="7224e-103">在组织中打开 Teams</span><span class="sxs-lookup"><span data-stu-id="7224e-103">Turn on Teams in your organization</span></span>
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-<span data-ttu-id="3b536-104">默认情况下，会为所有组织开启 Teams。</span><span class="sxs-lookup"><span data-stu-id="3b536-104">By default, Teams is turned on for all organizations.</span></span> <span data-ttu-id="3b536-105">如果你在预览期间使用过 Teams，则你在 Teams 预览期间所做的设置将保持不变。</span><span class="sxs-lookup"><span data-stu-id="3b536-105">If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview.</span></span> 
+<span data-ttu-id="7224e-104">默认情况下，会为所有组织开启 Teams。</span><span class="sxs-lookup"><span data-stu-id="7224e-104">By default, Teams is turned on for all organizations.</span></span> <span data-ttu-id="7224e-105">如果你在预览期间使用过 Teams，则你在 Teams 预览期间所做的设置将保持不变。</span><span class="sxs-lookup"><span data-stu-id="7224e-105">If you used Teams during the preview period, the setting stays the same as what you set during your Teams preview.</span></span> 
 
 
-<span data-ttu-id="3b536-106">作为贵组织的管理员，你可以为用户分配许可证以控制对 Teams 的个人访问，并且你可以允许或阻止可以在 Teams 中使用的内容源。</span><span class="sxs-lookup"><span data-stu-id="3b536-106">As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams.</span></span> <span data-ttu-id="3b536-107">有关详细信息，请参阅[为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)或 [Microsoft Teams 中应用程序管理员设置](admin-settings.md)。</span><span class="sxs-lookup"><span data-stu-id="3b536-107">See [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information.</span></span> 
+<span data-ttu-id="7224e-106">作为贵组织的管理员，你可以为用户分配许可证以控制对 Teams 的个人访问，并且你可以允许或阻止可以在 Teams 中使用的内容源。</span><span class="sxs-lookup"><span data-stu-id="7224e-106">As an administrator for your organization, you can assign user licenses to control individual access to Teams, and you can allow or block what content sources can be used in Teams.</span></span> <span data-ttu-id="7224e-107">有关详细信息，请参阅[为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)或 [Microsoft Teams 中应用程序管理员设置](admin-settings.md)。</span><span class="sxs-lookup"><span data-stu-id="7224e-107">See [Manage Microsoft Teams settings for your organization](enable-features-office-365.md) or [Admin settings for apps in Microsoft Teams](admin-settings.md) for more information.</span></span> 
 
 
  
-<span data-ttu-id="3b536-108">要了解有关管理单个许可证的更多信息，请阅读[用于 Microsoft Teams 的 Office 365 许可证](Office-365-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="3b536-108">To learn more about managing individual licenses, read [Office 365 licensing for Microsoft Teams](Office-365-licensing.md).</span></span> 
+<span data-ttu-id="7224e-108">若要了解有关管理个人许可证的详细信息，请阅读[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。</span><span class="sxs-lookup"><span data-stu-id="7224e-108">To learn more about managing individual licenses, read [Microsoft Teams service description](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).</span></span> 
 
  
-## <a name="turn-teams-on-or-off-for-your-entire-organization"></a><span data-ttu-id="3b536-109">为整个组织开启或关闭 Teams</span><span class="sxs-lookup"><span data-stu-id="3b536-109">Turn Teams on or off for your entire organization</span></span> 
+## <a name="turn-teams-on-or-off-for-your-entire-organization"></a><span data-ttu-id="7224e-109">为整个组织开启或关闭 Teams</span><span class="sxs-lookup"><span data-stu-id="7224e-109">Turn Teams on or off for your entire organization</span></span> 
  
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)] 
