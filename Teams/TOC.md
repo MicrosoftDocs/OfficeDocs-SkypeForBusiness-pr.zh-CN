@@ -43,7 +43,7 @@
 ## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [Teams 中的用户状态](presence-admins.md)
 ## [管理 Teams 中的标记](manage-tags.md)
-## [查看 Teams 中的跨团队和每团队分析](teams-analytics-and-reports/cross-team-per-team-analytics.md)
+## [查看 Teams 中的分析](teams-analytics-and-reports/view-analytics.md)
 ## [团队到期和续订](team-expiration-renewal.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
 ## [从 Slack 迁移到 Teams](migrate-slack-to-teams.md)
@@ -59,9 +59,11 @@
 ### [Teams 中适用于应用的管理设置](admin-settings.md)
 ### [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ### [使用 Microsoft 365 或 Office 365 连接器和自定义连接器](Office-365-custom-connectors.md)
-### [管理业务线应用](manage-your-lob-apps.md)
+### [管理自定义应用](manage-your-custom-apps.md)
 ### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [为组织管理任务应用](manage-tasks-app.md)
+### [设置团队目标层次结构](set-up-your-team-hierarchy.md)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 与外部用户通信
@@ -274,14 +276,6 @@
 #### [如何将模拟设备与直接路由结合使用](direct-routing-analog-devices.md)
 
 
-### [迁移到直接路由](direct-routing-migrating.md)
-
-### 对直接路由进行监视和故障排除
-#### [概述](direct-routing-monitor-and-troubleshoot.md)
-#### [运行状况仪表板](direct-routing-health-dashboard.md)
-### [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### 基于位置的路由
 #### [为直接路由计划基于位置的路由](location-based-routing-plan.md)
 #### [为基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)
@@ -295,12 +289,14 @@
 #### [本地媒体优化计划](direct-routing-media-optimization.md)
 #### [配置本地媒体优化](direct-routing-media-optimization-configure.md)
 
-### 对直接路由进行监视和故障排除
-#### [概述](direct-routing-monitor-and-troubleshoot.md)
-#### [运行状况仪表板](direct-routing-health-dashboard.md)
 ### [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [迁移到直接路由](direct-routing-migrating.md)
+
+### 对直接路由进行监视和故障排除
+#### [概述](direct-routing-monitor-and-troubleshoot.md)
+#### [运行状况仪表板](direct-routing-health-dashboard.md)
+
 
 ### 直接路由技术参考
 #### [出站呼叫发生 Trunk 故障转移](direct-routing-trunk-failover-on-outbound-call.md)
@@ -628,14 +624,14 @@
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
 ### [远程学习入门](remote-learning-edu.md)
+### [用于 EDU 管理员的 Microsoft Teams 政策包](policy-packages-edu.md)
 ### [向大型用户组分配策略](batch-policy-assignment-edu.md)
-### [Teams 许可教育版](teams-edu-licensing.md)
 ### [教育版管理员低带宽指南](edu-remote-low-bandwidth.md)
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
-### [用于 EDU 管理员的 Microsoft Teams 政策包](policy-packages-edu.md)
 ### [面向管理员的 Microsoft 教育版管理常见问题解答](plan-teams-governance-edu.md)
 ### [安装 Moodle 集成](install-moodle-integration.md)
+### [Teams 许可教育版](teams-edu-licensing.md)
 ### [教育 SKU 参考](sku-reference-edu.md)
 
 ## 适合于一线工作者的 Teams
@@ -680,6 +676,7 @@
 
 <!-- ============================================================ -->
 # 监视、维护和疑难解答
+## [组织中的支持团队](Known-issues.md)
 ## [监视和管理通话质量](monitor-call-quality-qos.md)
 ### [体验质量检查指南](quality-of-experience-review-guide.md)
 ### [在 Teams 中设置 QoS](QoS-in-Teams.md)
@@ -700,7 +697,6 @@
 ## [在对 Teams 进行故障排除时使用日志文件](log-files.md)
 ## [常见问题解答：支持远程工作人员](FAQ-support-remote-workforce.md)
 ## [验证 Teams 的服务运行状况](service-health.md)
-## [Teams 的已知问题](Known-issues.md)
 ## [Teams 的支持资源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
@@ -738,16 +734,8 @@
 
 ## 许可
 ### [管理对 Teams 的用户访问](user-access.md)
-### [Teams 的 Microsoft 365 和 Office 365 授权](office-365-licensing.md)
-### [分配 Teams 许可证](assign-teams-licenses.md)
-### [Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-#### 基于计划的许可证选项
-##### [Microsoft 365 商业标准版](teams-add-on-licensing/office-365-business-premium.md)
-##### [Microsoft 365 企业应用版](teams-add-on-licensing/office-365-premium-pro-plus.md)
-##### [Office 365 企业版（E1 和 E3）](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-##### [Office 365 企业版 E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-##### [Office 365 Enterprise E5（不含音频会议）](teams-add-on-licensing/office-365-enterprise-e5-without-audio-conferencing.md)
-##### [GOV、EDU 和非营利性组织](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
+### [Teams 加载许可证选项](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+### [分配 Teams 加载许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [管理 Office 365 E1 试用版优惠](e1-trial-license.md)
 ### [管理 Office 365 G1 试用版优惠](g1-trial-license.md)
 ### [管理 Teams 商业试用版优惠](iw-trial-teams.md)
@@ -755,7 +743,7 @@
 ### [管理 Teams 的免费版本](manage-freemium.md)
 ### [将 Teams 免费升级到订阅版本](upgrade-freemium.md)
 ### [消息策略许可](teams-add-on-licensing/pri-message.md)
-### [虚拟用户许可证](teams-add-on-licensing/virtual-user.md)
+### [Microsoft 365 电话系统 - 虚拟用户许可证](teams-add-on-licensing/virtual-user.md)
 
 
 ## 与 Microsoft 365 和 Office 365 的互操作性
