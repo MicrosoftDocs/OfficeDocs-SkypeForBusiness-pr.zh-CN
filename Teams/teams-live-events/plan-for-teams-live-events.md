@@ -18,12 +18,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903077"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042849"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -119,14 +119,21 @@ ms.locfileid: "43903077"
 可在全球中的多个区域实用 Teams 实时事件。 以下信息显示事件团队成员和参与者的空闲时间。
 
 > [!IMPORTANT]
-> 事件的区域根据组织者和 Microsoft 365 或 Office 365 自动选择。
+> 将根据组织者和 Microsoft 365 租户的位置自动选择事件的区域。
 
-**可在下列区域可用**
+**可用于以下区域数据中心**
 
 - 美洲
-- 欧洲/非洲
 - 亚太地区
-- 加拿大、印度、澳大利亚、日本、英国的数据位置
+- 欧洲/非洲
+
+**以下国家/地区的数据位置**
+
+- 澳大利亚
+- 加拿大
+- 印度
+- 日本
+- 英国
 
 **例外和注意事项**
 

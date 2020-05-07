@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 1f503bbfbc582fc3713a9f40e435382772e7ab63
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: e8e2f2b09ab448e0460c82af0fba776f2ce1126a
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901937"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041839"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -151,11 +151,11 @@ Teams 提供一些第一方（Microsoft 提供）和第三方应用来吸引用�
 
 ### <a name="teams-licensing"></a>Teams 许可
 
-Teams 作为许多 Office 365 许可证的一部分提供。 若要详细了解 Teams 许可，请参阅[适用于 Teams 的 Office 365 许可](office-365-licensing.md)。
+Teams 作为许多 Office 365 许可证的一部分提供。 若要了解有关 Teams 许可的详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 |询问你自己|操作 |
 |------------|-------|
-|我的用户是否有使用要部署的所有 Teams 功能所需的许可证？ | 若要了解许可要求，请阅读[适用于 Teams 的 Office 365 许可](office-365-licensing.md)。|
+|我的用户是否有使用要部署的所有 Teams 功能所需的许可证？ | 若要了解有关许可要求的信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。|
 |||
 
 ### <a name="exchange-and-sharepoint-interoperability"></a>Exchange 和 SharePoint 互操作性 

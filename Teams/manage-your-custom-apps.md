@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何让自定义团队应用从开发到部署。
-ms.openlocfilehash: 8166ba6b46853510a9f4e966ddca4e5b8686b551
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006049"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064527"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>在 Microsoft 团队中管理自定义应用
 
@@ -134,12 +134,16 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 * 已添加或删除机器人
 * 现有 bot 的 "botId" 属性已更改
 * 现有 bot 的 "isNotificationOnly" 属性已更改
-* bot 的 "supportsFiles" 属性已更改
+* Bot 的 "supportsFiles" 属性已更改
 * 添加或删除了消息传递扩展
 * 添加了新的连接器
 * 添加了新的静态选项卡
 * 添加了新的 "可配置" 选项卡
-* "webApplicationInfo" 中的属性已更改
+* "WebApplicationInfo" 中的属性已更改
+
+![应用列表的屏幕截图，显示新版本可用的应用](media/manage-your-custom-apps-update1.png)
+
+![应用的升级选项的屏幕截图](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-apps"></a>相关应用
 

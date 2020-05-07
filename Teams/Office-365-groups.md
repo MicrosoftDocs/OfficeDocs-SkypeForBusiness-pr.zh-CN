@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: b83113df089d22aeab705f0eb4ebc1d808b25c28
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940689"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041929"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 组和 Microsoft 团队
 =====================================
@@ -56,3 +56,11 @@ Office 365 管理员可以定义 Office 365 组、添加成员和受益于诸如
 您的用户的组功能和功能取决于您从哪里推动组成员身份。 例如，如果删除团队的成员，则也会从 Office 365 组中删除这些成员。 从组中删除立即从团队客户端删除团队和频道。 如果您使用 Microsoft 365 管理中心从组中删除人员，他们将无法再访问其他协作方面，例如 SharePoint Online 文档库、Yammer 组或共享的 OneNote。 但是，他们在大约两个小时内仍可访问团队的聊天功能。
 
 作为管理团队成员的最佳做法，在团队客户端添加和删除成员以确保应用对其他从属云应用程序的正确的级联访问控制。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果你在团队客户端外部添加或删除团队成员（使用 Microsoft 365 管理中心、Azure AD 或 Exchange Online PowerShell），则可能需要长达24小时（在某些情况下）才能在团队中反映更改。
+
+<a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>在安排会议时将组添加为与会者的能力
+----------------------------------------------------------
+
+从五月2020开始，您现在可以邀请组加入计划会议，但有以下注意事项：
+1. 从现有 Microsoft 365 组创建的所有现有 Microsoft 365 组和团队均可搜索，并可添加到会议。 但是，成员将根据其对组的订阅收到会议邀请。
+2. 在 5 2018 月之前从头开始创建的团队也可以搜索，但由于其默认组订阅是 "仅答复您"，因此成员不会收到会议邀请。 这可以通过修改组设置在 Outlook 中进行更改
+3. 在5月2018后从头开始创建的团队将不可搜索，并使用属性 "HiddenFromAddressListsEnabled" 隐藏。 这是管理员控制的设置，可由管理员进行修改。

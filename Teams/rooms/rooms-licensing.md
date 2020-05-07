@@ -22,18 +22,18 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解 Microsoft 团队聊天室中不同类型的呼叫和会议功能的可用许可证。
-ms.openlocfilehash: cc736fad2e7050f4989250917d8fc0d1a7c22fae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905384"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064487"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>团队会议室许可更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共享通信设备的授权解决方案
 
-Microsoft 有一个专用的 SKU，用于针对会议室设备（如 Microsoft 团队聊天室、Microsoft Surface Hub 和 Microsoft 团队的 collaboartion 栏）授权会议和呼叫每台设备。
+Microsoft 有一个专用的 SKU，用于针对会议室设备（如 Microsoft 团队聊天室、Microsoft Surface Hub 和协作栏，适用于 Microsoft 团队）授权会议和呼叫每台设备。
 
 ||会议室 SKU |  
 |:--- |:---: |

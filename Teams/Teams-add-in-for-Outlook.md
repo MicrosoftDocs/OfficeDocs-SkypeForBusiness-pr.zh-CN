@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749569"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042209"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -124,12 +124,12 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 若无法安装 Outlook 的 Teams 会议加载项，请尝试下列故障排除步骤。
 
+- Windows 7 用户必须安装[windows 中通用 C 运行时的更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，团队会议外接程序才能正常工作。
 - 检查用户是否具有团队升级策略，该策略允许在团队中安排会议。 有关详细信息，请参阅[从 Skype For Business 升级到团队](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
 - 检查用户是否具有允许 Outlook 加载项使用的团队会议策略。 有关详细信息，请参阅[管理团队中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
 - 确保用户安装了团队桌面客户端。 如果仅使用团队 web 客户端，则不会安装会议外接程序。
-- 请确保用户具有执行 regsvr32 的权限。
+- 请确保用户具有执行 regsvr32 的权限。  有关详细信息，请查看https://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
 - 确保已应用 Outlook 桌面客户端的所有可用更新。
-- 确保登录的用户帐户名称不包含空格。 （这是一个已知问题，将在后续更新中修复。）
 - 请按以下步骤操作：
   - 重启 Teams 桌面客户端。
   - 注销，然后重新登录到 Teams 桌面客户端。

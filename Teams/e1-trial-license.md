@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978484"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042389"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 试用版
 ==============================
@@ -59,7 +59,7 @@ ms.locfileid: "42978484"
 
 ## <a name="manage-the-e1-trial"></a>管理 E1 试用版
 
-激活 Office 365 E1 试用版后，请打开许可证供需要它的任何用户使用。 要了解操作方式，请参阅[管理用户对 Teams 的访问](user-access.md#manage-teams-through-the-microsoft-365-admin-center)。
+激活 Office 365 E1 试用版后，请打开许可证供需要它的任何用户使用。 要了解操作方式，请参阅[管理用户对 Teams 的访问](user-access.md)。
 
 
 为需要 E1 试用版的用户启用该版本后，你可像管理拥有付费许可证的用户一样管理这些用户。 有关详细信息，请参阅[为你的组织管理 Teams 设置](enable-features-office-365.md)。
@@ -76,7 +76,7 @@ ms.locfileid: "42978484"
 
 3. 分配新购买的许可证。
 
-有关详细信息，请参阅[适用于 Microsoft Teams 的 Office 365 许可](Office-365-licensing.md)。
+有关详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 > [!NOTE]
 > 如果 E1 试用版结束，而用户未立即升级到包含 Teams 的订阅，则不删除该用户数据。 该用户仍保留在 Azure Active Directory 中，且 Teams 中的所有数据都将保留。 一旦向该用户分配新的许可证来重新启用 Teams 功能，则所有内容仍将存在。 
@@ -90,7 +90,7 @@ ms.locfileid: "42978484"
 
 ## <a name="related-topics"></a>相关主题
 
-[管理用户对 Teams 的访问管理](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[管理用户对 Teams 的访问管理](user-access.md)
 
 [为你的组织管理 Teams 设置](enable-features-office-365.md)
 

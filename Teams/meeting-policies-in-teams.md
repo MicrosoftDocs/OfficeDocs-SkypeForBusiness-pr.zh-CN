@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 3a482ce562c0d0281c1bc289dfc953f416a8f133
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940699"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139206"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -106,10 +106,11 @@ ms.locfileid: "43940699"
 - [允许 Outlook 加载项](#allow-the-outlook-add-in)
 - [允许频道会议安排](#allow-channel-meeting-scheduling)
 - [允许安排私人会议](#allow-scheduling-private-meetings)
+- [允许在私人会议中立即开会](#allow-meet-now-in-private-meetings)
 
 ### <a name="allow-meet-now-in-channels"></a>允许在频道中立即开会
 
-这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队频道中启动临时会议。 如果启用此操作，当用户在团队频道中发布消息时，用户可以单击 "撰写" 框下的 "**立即开会**" 以在频道中启动临时会议。
+这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队频道中启动临时会议。 如果启用此操作，当用户在团队频道中发布消息时，用户可以单击 "撰写" 框下的 "**立即开会**" 以在频道中启动临时会议。 默认值为 True。
 
 ![显示邮件下方的 "立即开会" 图标的屏幕截图](media/meeting-policies-meet-now.png)
 
@@ -123,7 +124,7 @@ ms.locfileid: "43940699"
 
 ### <a name="allow-channel-meeting-scheduling"></a>允许频道会议安排
 
-这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队频道中安排会议。  如果关闭此功能，则当用户在团队频道中启动会议，并且为团队中的用户禁用 "**添加频道**" 选项时，"**安排会议**" 选项将不可用。
+这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队频道中安排会议。  如果关闭此功能，则当用户在团队频道中启动会议，并且为团队中的用户禁用 "**添加频道**" 选项时，"**安排会议**" 选项将不可用。 默认值为 True。
 
 ![显示团队中的 "安排会议" 选项的屏幕截图](media/meeting-policies-schedule-a-meeting.png)
 
@@ -133,7 +134,11 @@ ms.locfileid: "43940699"
 
 这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队中安排私人会议。 当会议未发布到团队中的频道时，它是私有的。
 
-请注意，如果关闭 "**允许安排私人会议**" 和 "**允许频道会议计划**"，则会为团队中的用户禁用 "**添加必需与会者**" 和 "**添加频道**" 选项。
+请注意，如果关闭 "**允许安排私人会议**" 和 "**允许频道会议计划**"，则会为团队中的用户禁用 "**添加必需与会者**" 和 "**添加频道**" 选项。 默认值为 True。
+
+### <a name="allow-meet-now-in-private-meetings"></a>允许在私人会议中立即开会
+
+这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以启动 ad hoc 私人会议。  默认值为 True。
 
 <a name="bkaudioandvideo"> </a>
 
@@ -314,7 +319,6 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 - [让匿名人员开始会议](#let-anonymous-people-start-a-meeting)
 - [自动允许人员](#automatically-admit-people)
 - [允许拨入用户绕过大厅](#allow-dial-in-users-to-bypass-the-lobby)
-- [允许在私人会议中立即开会](#allow-meet-now-in-private-meetings)
 - [启用实时字幕](#enable-live-captions)
 - [允许在会议中聊天](#allow-chat-in-meetings)
 
@@ -378,9 +382,6 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 |   | 您的组织中的每个人     |在大厅中等待         |
 |   | 组织和联盟组织中的每个人      | 在大厅中等待         |
 
-### <a name="allow-meet-now-in-private-meetings"></a>允许在私人会议中立即开会
-
-这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以启动 ad hoc 私人会议。 
 
 ### <a name="enable-live-captions"></a>启用实时字幕
 

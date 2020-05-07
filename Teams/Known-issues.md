@@ -18,12 +18,12 @@ f1.keywords:
 description: 无论你是 Teams 管理员还是技术支持工程师，均可使用这些资源在组织中提供 Microsoft Teams 支持。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 362958a7307a71b68a2582bffca2e323966b1977
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 2af4f29ade3e360f4802077d503fd5ad66b081c9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997003"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041939"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>在组织中提供 Microsoft Teams 支持
 
@@ -54,7 +54,7 @@ ms.locfileid: "43997003"
 |**会议策略**|[会议策略Meeting policies](meeting-policies-in-teams.md)用于控制组织中用户安排的会议的与会者可用的功能。 创建策略并进行更改后，即可以将用户分配到策略。         |
 ||**更改或创建会议策略**<br><br>若要更改或创建会议策略，请转到 Microsoft Teams 管理中心 >“**会议**” > “**会议策略**”。 从列表中选择一个策略，或者选择“**添加**”。 若正在创建新策略，则添加名称和说明。 名称不能包含特殊字符或超过 64 个字符。 选择设置，然后单击“保存”****。 例如，假设你有一组用户并且你想要限制这组用户的会议所需的带宽量。 你要创建新的自定义策略并命名为“带宽限制”，然后禁用以下设置：<br><br>在“音频和视频”中：****<ul><li>禁用“允许云录制”。</li><li>禁用“允许 IP 视频”。</li></ul>在“内容共享”中：****<ul><li>禁用屏幕共享模式。</li><li>禁用“允许白板”。</li><li>禁用“允许共享笔记”。</li></ul>然后将此策略分配给用户。         |
 | |**将会议策略分配给用户**<br><br><ol><li>在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****</li><li>单击用户名的左侧以选择用户，然后单击“编辑设置”。****</li><li>在“会议策略”中，选择想要分配的策略，然后单击“应用”。********</li></ol>若要将策略一次性分配给多个用户，请参阅[批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)。 或者可以执行以下操作：<ol><li>在 Microsoft Teams 管理员中心的左侧导航中，转到“**会议 > 会议策略**”。</li><li>单击策略名称的左侧以选择该策略。</li><li>选择“管理用户”****。</li><li>在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。</li><li>添加完用户后，单击“**保存**”。</li>         |
-|**排查拨号盘缺失问题**     |执行以下操作： <ul><li>确保已向用户分配 [Teams 许可证](assign-teams-licenses.md)。</li><li>确保已向用户分配[通话套餐](calling-plan-landing-page.md)。</li><li>为用户启用[企业语音](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)。</li></ul>      |
+|**排查拨号盘缺失问题**     |执行以下操作： <ul><li>确保已向用户分配 [Teams 许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。</li><li>确保已向用户分配[通话套餐](calling-plan-landing-page.md)。</li><li>为用户启用[企业语音](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)。</li></ul>      |
 |** 登录疑难解答**   |首先，请确保 [Microsoft Teams 服务正常](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth)。 然后查看任何常见的错误代码，查看[为什么我在登录 Microsoft 团队时遇到问题？](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)  还可需要查看 [Microsoft Teams 中的身份模型和身份验证](identify-models-authentication.md)。         |
 
 ### <a name="for-education-customers"></a>教育版客户

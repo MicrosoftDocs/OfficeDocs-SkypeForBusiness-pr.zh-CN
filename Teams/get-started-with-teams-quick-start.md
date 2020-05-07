@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72c6c4c959350c8320c908b4e9f4a9c649eb8d7b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136772"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042799"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
@@ -55,7 +55,7 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
 - [为 Teams 准备贵组织的网络](prepare-network.md)
     - 这包括配置 Office 365 域、SharePoint Online、Exchange Online 和 OneDrive for Business。
 
-- 为每个人获得 Teams 许可证。 请查看 [Teams 计划](https://products.office.com/microsoft-teams/free)和[适用于 Teams 的 Office 365 许可](office-365-licensing.md)。 
+- 为每个人获得 Teams 许可证。 查看 [Teams 计划](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)和 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 - [了解安装桌面、网页和移动版客户端的好处](get-clients.md)
 
@@ -65,7 +65,7 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
    - [规划 Skype for Business Server 与 Office 365 之间的混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-> 如果你的组织正在运行本地 Skype for Business Server（或 Lync Server），则你必须[配置Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)，才能将本地目录与 Office 365 进行同步。 
+   > 如果你的组织正在运行本地 Skype for Business Server（或 Lync Server），则你必须[配置Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)，才能将本地目录与 Office 365 进行同步。 
 
 
 ## <a name="next-steps"></a>后续步骤

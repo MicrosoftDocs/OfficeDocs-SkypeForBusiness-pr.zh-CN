@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858717"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042809"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理适用于美国政府的 Office 365 G1 试用版 
 ==============================
@@ -55,7 +55,7 @@ ms.locfileid: "42858717"
 
 ## <a name="manage-the-g1-trial"></a>管理 G1 试用版
 
-激活 Office 365 G1 试用版后，请打开许可证供需要它的任何用户使用。 要了解操作方式，请参阅 [管理用户对 Teams 的访问权限](user-access.md#manage-teams-through-the-microsoft-365-admin-center)。
+激活 Office 365 G1 试用版后，请打开许可证供需要它的任何用户使用。 要了解操作方式，请参阅 [管理用户对 Teams 的访问权限](user-access.md)。
 
 为需要 G1 试用版的用户启用该版本后，你可像管理拥有付费许可证的用户一样管理这些用户。 有关详细信息，请参阅 [为你的组织管理 Teams 设置](enable-features-office-365.md)。
 
@@ -82,7 +82,6 @@ ms.locfileid: "42858717"
 
 ## <a name="related-topics"></a>相关主题
 
-[管理用户对 Teams 的访问管理](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[管理用户对 Teams 的访问管理](user-access.md)
 
 [为你的组织管理 Teams 设置](enable-features-office-365.md)
-

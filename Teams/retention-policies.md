@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940769"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042439"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
@@ -55,7 +55,7 @@ ms.locfileid: "43940769"
 
 如果数据受保留策略的约束，用户可以继续使用它，因为该数据将保留在其原始位置。 如果用户编辑或删除受策略约束的数据，则副本将保存到该策略生效时保留该副本的安全位置。
 
-保留策略的最低许可要求是 Office 365 E3。 若要了解有关许可的详细信息，请参阅[适用于 Teams 的 Office 365 许可](Office-365-licensing.md)。
+保留策略的最低许可要求是 Office 365 E3。 若要了解有关许可的详细信息，请参阅[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="how-teams-retention-policies-work"></a>Teams 保留策略的工作方式
 

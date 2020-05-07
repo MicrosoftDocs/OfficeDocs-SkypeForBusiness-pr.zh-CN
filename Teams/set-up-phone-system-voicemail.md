@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为你的用户设置云语音邮件。 '
-ms.openlocfilehash: 4f85e8db6f50becb4ae2406e84621c08507e9737
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779728"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042929"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -41,7 +41,7 @@ ms.locfileid: "43779728"
   
 1. 如果您的计划中未包含电话系统功能，您可能需要购买 "**电话系统**加载项" 许可证。 您可能还需要购买 Exchange Online 许可证。 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [分配或删除 Office 365 for business 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，向企业中的人员[分配 Microsoft 团队许可证](assign-teams-licenses.md)和 Exchange Online 许可证。 分配完成后，他们将能够接收语音邮件消息！
+2. 为企业中的人员[分配或删除 Office 365 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、"[分配 Microsoft 团队附加许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)" 和 "Exchange Online" 许可证。 分配完成后，他们将能够接收语音邮件消息！
     
 3. 对语音邮件脚本的支持已添加到2017年3月，并且默认情况下为所有组织和用户启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
 
@@ -51,7 +51,7 @@ ms.locfileid: "43779728"
   
 1. 如果您的计划中未包含电话系统功能，您可能需要购买 "**电话系统**加载项" 许可证。 您还需要购买 Exchange Online 许可证。 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. [分配或删除 Office 365 for business 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)，向企业中的人员[分配 Microsoft 团队许可证](assign-teams-licenses.md)和 Exchange Online 许可证。
+2. 为企业中的人员[分配或删除 Office 365 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、"[分配 Microsoft 团队附加许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)" 和 "Exchange Online" 许可证。
     
 3. 按照为你的用户部署的本地 PSTN 呼叫解决方案匹配说明。 对于云连接器版本，请按照 "[配置 Skype for Business 云连接器](https://technet.microsoft.com/library/mt605228.aspx)的**用户电话语音和语音邮件服务**" 部分中的说明操作。 对于使用 Skype for Business 服务器的 PSTN 呼叫，请遵循[启用企业内部部署企业语音的用户](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)。 对于团队直接路由，请按照配置电话号码和启用 "[配置直接路由](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)" 部分中的 "**启用企业语音和语音邮件**" 部分。
 

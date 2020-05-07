@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 呼叫共享和群组通话分拣允许用户与同事共享传入呼叫，以便可以在用户不可用时捕获呼叫。
-ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8ed53ca5103d3ee4264e0dc1aef3267172d37527
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780781"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042949"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 
@@ -43,7 +43,7 @@ Microsoft 团队的呼叫共享和组呼叫功能允许用户与同事共享传�
 
 ## <a name="license-required"></a>需要许可证
 
-用户必须是启用企业语音才能设置和使用呼叫共享和组呼叫装货。 有关许可模型的其他详细信息，请参阅[Microsoft 团队的 Office 365 授权](office-365-licensing.md)。
+用户必须是启用企业语音才能设置和使用呼叫共享和组呼叫装货。 有关许可模型的其他详细信息，请参阅[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="configure-group-call-pickup"></a>配置组呼叫装货
 
