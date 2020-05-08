@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '了解有关引脚以及如何在 Skype for Business Online 中重置它们的信息。 '
-ms.openlocfilehash: a2f91e1ccae53f08507a63ea56b499a3ad968c73
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 21e2742653e72919df0647c0539fdb335585cc84
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777697"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164691"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>在 Skype for Business Online 中重置音频会议 PIN
 
@@ -68,11 +68,11 @@ PIN 是由为每个启用了音频会议的 Skype for business 用户创建的�
     
 - 默认设置是不允许匿名呼叫者启动会议。
     
-- 当为用户启用音频会议时，默认情况下，会向他们发送包含会议信息的电子邮件及其 PIN 码。 用户必须拥有 Office 365 邮箱，因为当重置 PIN 时，将向用户发送电子邮件中的新 PIN，以发送到为用户设置的主 SMTP 地址（别名）。
+- 当为用户启用音频会议时，默认情况下，会向他们发送包含会议信息的电子邮件及其 PIN 码。 用户必须具有 Microsoft 365 或 Office 365 邮箱，因为当重置 PIN 时，将向用户发送电子邮件中的新 PIN，以发送到为用户设置的主 SMTP 地址（别名）。
     
 - 设置音频会议时，设置您的组织中的 Pin 所需的数字。 PIN 可以包含 4 至 12 个数字，默认情况下为 5 个。 如果您更改了 "引脚长度" 设置，则该设置仅应用于新生成的引脚，并且不会应用到已启用音频会议的现有用户的引脚设置。 请参阅[设置音频会议会议的 PIN 长度](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)。
     
-- 默认情况下，电子邮件将设置为用户的 Office 365 主 SMTP 地址。 您可以向非 Office 365 地址（如 Hotmail 或 MSN 电子邮件地址）发送电子邮件。 你可以使用 Windows PowerShell 替代默认电子邮件地址。 如果用户在 Office 365 中没有 Exchange 邮箱，则此功能非常有用。
+- 默认情况下，电子邮件将设置为用户的 Microsoft 365 或 Office 365 主 SMTP 地址。 你可以将电子邮件发送到非 Microsoft 365 或非 Office 365 地址，例如 Hotmail 或 MSN 电子邮件地址。 你可以使用 Windows PowerShell 替代默认电子邮件地址。 如果用户在 Microsoft 365 或 Office 365 中没有 Exchange 邮箱，这将非常有用。
     
 - 若要覆盖发送电子邮件的默认用户地址，租户管理员可以使用以下 cmdlet： Get-csonlinedialinconferencinguser-amos-ResetLeaderPIN-SendEmail-SendEmailToAddress "u@hotmail.com"。 需要使用 SendEmail 参数来替代用户的电子邮件地址。
     
@@ -86,11 +86,11 @@ PIN 是由为每个启用了音频会议的 Skype for business 用户创建的�
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你在一次为多个用户进行设置更改时。 请在以下主题中了解这些优点：
     

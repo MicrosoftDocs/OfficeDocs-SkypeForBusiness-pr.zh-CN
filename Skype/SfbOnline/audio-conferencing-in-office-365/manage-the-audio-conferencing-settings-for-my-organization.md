@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '请参阅 Skype for business Online 步骤，将电话拨入式会议许可证和会议 ID 分配给用户以及其他许多电话拨入式会议设置。 '
-ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa8e9cbaf063ebf1780e3f8ce45b7bd54ced474f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777977"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164141"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在 Skype for Business Online 中管理我的组织的音频会议设置
 
@@ -88,7 +88,7 @@ ms.locfileid: "43777977"
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>更改发送给用户的电子邮件中的发件人的联系人信息
 
-You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet. To make changes to the email address that is sending the email to the users, you must:
+您可以对自动发送给您的用户的电子邮件进行更改，包括实际电子邮件地址和发件人的联系人信息的显示名称。默认情况下，电子邮件的发件人是 Microsoft 365 或 Office 365，但你可以使用 Windows PowerShell 和[set-csonlinedialinconferencingtenantsettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet 更改电子邮件地址和显示名称。若要对向用户发送电子邮件的电子邮件地址进行更改，必须执行以下操作：
 
 - 在_SendEmailFromAddress_参数中输入电子邮件地址。
 
@@ -243,10 +243,10 @@ Users will receive an email with their PIN when they're enabled for audio confer
 1. 使用你的工作或学校帐户登录。
 
 2. 转到管理中心 > **Skype For business**。
-
+ 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
-   - 查看由 Office 365 设置用于音频会议的电话号码。
+   - 查看由 Microsoft 365 或 Office 365 设置用于音频会议的电话号码。
 
    - 查看音频会议自动助理将使用的位置以及主要和辅助语言。
 
@@ -315,11 +315,11 @@ There are several settings that you can manage at the organization level using W
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>希望了解有关 Windows PowerShell 的详细信息
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell 全部用于管理用户以及允许或禁止用户执行的操作。使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。若要开始使用 Windows PowerShell，请参阅以下主题：
 
-  - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
 
 - Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用管理中心，例如当你为多个用户同时进行设置更改时。了解以下主题中的这些优势：
 

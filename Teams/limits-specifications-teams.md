@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcda9b15a3bfe5204bc410728449672707e614fd
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047761"
+ms.locfileid: "44064417"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -131,7 +131,9 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |------------|---------------|
 |受众规模 | 10,000 名与会者 |
 |事件持续时间 | 4 小时 |
-|Office 365 组织中的并发实时事件数 | 15 |
+|Office 365 组织中运行的并发实时事件数 <sup>1</sup> | 15 |
+
+<sup>1</sup> 可以根据需要安排许多实时事件，但每次只能运行 15 个。 一旦制造者加入实时事件，即被视为正在运行。 尝试加入第 16 个实时事件的制造者将收到错误消息。
 
 要详细了解实时事件以及 Teams 实时事件与 Skype 会议直播之间的比较情况，请转到 [Teams 实时事件和 Skype 会议直播](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast)。
 

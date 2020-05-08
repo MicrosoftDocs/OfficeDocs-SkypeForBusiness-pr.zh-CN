@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692817"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164291"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>设置 Skype for Business Online 安装
 
@@ -32,7 +32,7 @@ ms.locfileid: "41692817"
 
 以下是您需要的内容：
 
-- 至少三个 Office 365 帐户（您的帐户以及至少两个其他帐户）。
+- 至少三个 Microsoft 365 或 Office 365 帐户（您的帐户以及至少两个其他帐户）。
 
 - 每个测试帐户一台计算机。就像您的组织中的常用计算机一样设置它们。
 
@@ -51,7 +51,7 @@ ms.locfileid: "41692817"
 ## <a name="set-up-test-accounts"></a>设置测试帐户
 <a name="__toc328126910"> </a>
 
-1. 转到 "**管理** > **Office 365** > **用户和组**"，然后选择!["](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png)添加"，然后输入所需的信息。
+1. 转到 "**管理员** > **Microsoft 365** " 或 " **Office 365** > **用户和组**"，![然后](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png)选择 "添加"，然后输入所需的信息。
 
 2. 执行步骤 4（电子邮件）时，输入你自己的电子邮件地址。这样，就有新用户的名称和密码记录。
 
@@ -62,7 +62,7 @@ ms.locfileid: "41692817"
 
 在每台测试计算机上：
 
-1. 转至 Office 365 主页，使用其中一个测试帐户的凭据登录。
+1. 转到 Microsoft 365 或 Office 365 主页，并通过其中一个测试帐户的凭据登录。
 
 2. 转至" **设置**"![设置：更新配置文件，安装软件和将其连接到云](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png)，然后单击" **安装软件并将其连接到云**"。
 
@@ -114,7 +114,7 @@ ms.locfileid: "41692817"
 |[在 Skype for Business 中发送即时消息](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Skype for Business 对话窗口显示，你键入内容，并且你从联系的人员收到响应。  <br/> |
 |[在 Skype for Business 中发送即时消息](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Skype for Business 对话窗口显示，你键入内容，对话中的每个人都做出响应。  <br/> |
 |[使用名字或姓氏搜索联系人](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |一旦您开始键入，您的搜索结果开始显示。  <br/> |
-|[有关 Lync for Office 365 的常见问题](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |您添加的联系人显示在您选择的联系人组中。  <br/> |
+|[有关 Lync for Microsoft 365 的常见问题](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |您添加的联系人显示在您选择的联系人组中。  <br/> |
 |[在 Lync 中更改状态](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |新的状态反映在其他人的联系人列表中。  <br/> |
 |[使用联系人卡片](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |该联系人的联系人卡片显示其名称附近。  <br/> |
 

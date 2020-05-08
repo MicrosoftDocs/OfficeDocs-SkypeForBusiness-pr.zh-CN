@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 581d67f0083ea8b0e91615a96685f10f4cd64785
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940900"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158999"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
@@ -118,7 +118,7 @@ CSV 文件必须包含以下三列，顺序从第一列开始。 必须将节点
 > [!IMPORTANT]
 > 若要执行此步骤，必须从 PowerShell 测试库安装并使用团队 PowerShell 模块的最新版本。 有关如何执行此操作的步骤，请参阅[从 PowerShell 测试库中安装最新团队 PowerShell 模块](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery)。
 
-在架构 CSV 文件中定义层次结构后，即可将其上载到团队。 若要执行此操作，请运行以下命令。 只有管理员才能执行此步骤。 
+在架构 CSV 文件中定义层次结构后，即可将其上载到团队。 若要执行此操作，请运行以下命令。 您必须是全局管理员或团队服务管理员才能执行此步骤。
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
