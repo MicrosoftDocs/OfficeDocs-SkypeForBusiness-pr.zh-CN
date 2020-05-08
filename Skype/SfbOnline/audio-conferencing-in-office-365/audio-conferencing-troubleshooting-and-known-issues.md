@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '获取在使用 Microsoft 作为其电话拨入式会议提供商、状态和某些解决方法时的已知问题列表。 '
-ms.openlocfilehash: 6c462fea8a6ff1ebdae25a09ef8471d82559f3eb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fba5bfff687121c7b1b64c0e51233ccb576497e2
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695767"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164513"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>音频会议故障排除和已知问题
 
@@ -34,7 +34,7 @@ ms.locfileid: "41695767"
   
 ## <a name="troubleshooting-and-known-issues"></a>疑难解答和已知问题
 
-使用 Microsoft 作为音频会议提供商的音频会议包含当前正在跟踪和主动调查的问题，并且在 Office 365 的未来版本中更新功能时可能会解决这些问题。
+使用 Microsoft 作为音频会议提供商的音频会议包含当前正在跟踪和主动调查的问题，并且在 Microsoft 365 的未来版本中更新功能时可能会解决这些问题。
   
 现在，当你解决在你的组织中使用 Skype for Business 设置和处理人员的潜在问题时，请使用此参考。
 
@@ -48,4 +48,4 @@ ms.locfileid: "41695767"
    
 ## <a name="related-topics"></a>相关主题
 
-[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

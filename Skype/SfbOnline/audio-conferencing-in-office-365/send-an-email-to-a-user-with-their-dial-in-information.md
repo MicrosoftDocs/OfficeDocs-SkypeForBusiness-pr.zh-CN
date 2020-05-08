@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 在 Skype for business Online 中向用户发送其音频会议信息的电子邮件。
-ms.openlocfilehash: b499bfb4734d46a671ff4c236b354630f7e0a284
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f2137d05ebe588a316704fabf4c8878910a40bc0
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776807"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163892"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>通过 Skype for Business Online 中的音频会议信息向用户发送电子邮件
 
@@ -82,7 +82,7 @@ ms.locfileid: "43776807"
     
   - 当用户的音频会议提供商更改为 Microsoft 时。
     
-- 默认情况下，电子邮件的发件人将来自 Office 365，但你可以使用 Windows PowerShell 和[set-csonlinedialinconferencingtenantsettings](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet 更改电子邮件地址和显示名称。 若要对向用户发送电子邮件的电子邮件地址进行更改，必须执行以下操作：
+- 默认情况下，电子邮件的发件人将来自 Microsoft 365 或 Office 365，但你可以使用 Windows PowerShell 和[set-csonlinedialinconferencingtenantsettings](https://go.microsoft.com/fwlink/?LinkId=708983) cmdlet 更改电子邮件地址和显示名称。 若要对向用户发送电子邮件的电子邮件地址进行更改，必须执行以下操作：
     
   - 在 SendEmailFromAddress 参数中输入电子邮件地址。
     
@@ -105,11 +105,11 @@ ms.locfileid: "43776807"
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- 对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。使用 Windows PowerShell，可以通过单点管理来管理 Office 365，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+- 对于 Windows PowerShell，Skype for Business Online 的功能是管理用户以及允许或不允许用户执行的操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
-  - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [为什么需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你为多个用户同时进行设置更改时。 请在以下主题中了解这些优点： 
     
@@ -124,4 +124,4 @@ ms.locfileid: "43776807"
   
 ## <a name="related-topics"></a>相关主题
 
-[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -20,24 +20,24 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '此 Skype for business 组织和用户设置摘要可帮助你了解有关公用 IM 连接、会议邀请、录制呼叫和会议等的详细信息。  '
-ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706457"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164121"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online 设置摘要
 
 **Skype For business 管理中心**包括您的整个组织和单个用户的设置。 
   
 > [!NOTE]
->  你可能无法访问 Skype for Business Online 的所有功能，具体取决于你的位置。有关详细信息，请参阅[Office 365 的许可限制](https://go.microsoft.com/fwlink/?LinkId=529483)。 
+>  你可能无法访问 Skype for Business Online 的所有功能，具体取决于你的位置。有关详细信息，请参阅[Microsoft 365 和 Office 365 的许可限制](https://go.microsoft.com/fwlink/?LinkId=529483)。 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online 组织设置
 <a name="__top"> </a>
 
-|**设置**|**说明**|**Default**|**了解更多信息**|
+|**设置**|**说明**|**Default**|**了解详细信息**|
 |:-----|:-----|:-----|:-----|
 |域联盟  <br/> |与使用 Skype for Business Online 的其他组织通信。  <br/> |已启用  <br/> |[允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |公共 IM 连接  <br/> |与 Skype for Business Online 用户通信。  <br/> |已启用  <br/> |[允许用户联系外部 Skype for Business 用户](allow-users-to-contact-external-skype-for-business-users.md) <br/> |

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 了解哪些国家和地区有拨入式会议号码，以及号码是如何自动分配的。
-ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777437"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164711"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online 中的音频会议电话号码
 
@@ -55,7 +55,7 @@ There are two types of audio conferencing phone numbers that can be assigned to 
   
  **专用电话号码** 是只有你组织内的用户才可以使用的电话号码。你可以更改当有人呼入其中的某个号码时使用的语言。
   
- **共享电话号码**是可以与其他 Microsoft 365 或 Office 365s 共享的电话号码。当某人拨入其中一个号码时，您无法更改使用的语言。
+ **共享电话号码**是可以与其他 Microsoft 365 或 Office 365 帐户共享的电话号码。当某人拨入其中一个号码时，您无法更改使用的语言。
   
 While the default audio conferencing number that is assigned to an organizer is only included in the meeting invite, a caller can use any of the phone numbers that are assigned to your conferencing bridge to join a meeting. The list of phone numbers that can be used to join a meeting is available using the **Find a local number** link that is included on every meeting invite.
   
@@ -89,4 +89,4 @@ Dedicated audio conferencing phone numbers are service numbers that you can get 
    
 ## <a name="related-topics"></a>相关主题
 
-[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

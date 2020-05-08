@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要： Skype for Business Server 2015 或 Skype for Business Online 管理员可以使用这些表了解哪些客户端支持哪些功能。
-ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4d23a23b133366401d784d4e403b283af1967162
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041949"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158919"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Skype for business Server 2015 的桌面客户端功能比较
 
@@ -165,7 +165,7 @@ Skype for business Server 2015 中提供的某些功能在 Skype for Business On
 此表涵盖了与语音服务支持相关的功能。
   
 > [!NOTE]
-> Skype for business 语音（电话）功能仅限于某些 Skype for Business Online 订阅计划。 > 有关详细信息，请参阅[Skype For Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。
+> Skype for business 语音（电话）功能仅限于某些 Skype for Business Online 订阅计划。 有关详细信息，请参阅[Skype For Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。
   
 | 功能/功能 | Skype for Business 2015 或2016客户端 | Mac 版 Skype for Business | Lync 2013 客户端 | Lync Windows 应用商店应用 | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Communicator for Mac 2011 | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -189,7 +189,8 @@ Skype for business Server 2015 中提供的某些功能在 Skype for Business On
 |基于位置的路由  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |管理响应组/团队呼叫组 |&#x2714;||&#x2714;|||||||
 |应答自动助理呼叫 |&#x2714;||&#x2714;|||||||
- &#x2776; 此功能在 Skype for Business Online 中不可用。
+
+&#x2776; 此功能在 Skype for Business Online 中不可用。
   
 ## <a name="external-users-support"></a>外部用户支持
 

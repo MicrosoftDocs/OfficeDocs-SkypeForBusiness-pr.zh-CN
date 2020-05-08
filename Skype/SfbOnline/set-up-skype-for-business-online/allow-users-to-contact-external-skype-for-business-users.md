@@ -28,17 +28,17 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1f399f7b127596aaf28c7e22b2c65525c72a8e4
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010935"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164821"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允许用户联系外部 Skype for Business 用户
 
 > [!NOTE]
-> 由世纪互联运营的 Office 365 和 Office 365 德国组织无法使用 Skype for Business 联合身份验证。 
+> Skype for Business federation 不适用于由世纪互联运营、Microsoft 365 或 Office 365 德国组织运营的 Microsoft 365 或 Office 365。 
   
 在下列情况下，请按照本文的步骤进行操作：
   
@@ -51,11 +51,11 @@ ms.locfileid: "42010935"
 ## <a name="enable-business-to-business-communications-for-your-users"></a>为你的用户启用企业到企业通信
 <a name="bk_preview"> </a>
 
-您必须在两个组织的 Office 365 中具有[管理员权限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此操作。
+您必须在两个组织的 Microsoft 365 或 Office 365 中具有[管理员权限](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)才能执行此操作。
 
 ![](../images/teams-logo-30x30.png) **使用团队管理中心**显示 Microsoft 团队徽标的图标
   
-1. 通过 Office 365 管理员帐户登录。 
+1. 通过 Microsoft 365 或 Office 365 管理员帐户登录。 
     
 2. 在管理中心，转到 "**管理中心** > "**团队**。
     
@@ -65,7 +65,7 @@ ms.locfileid: "42010935"
  ![" 选择 "SfB 旧版门户"。](../images/SFBlegacy-size65.png)
  
 4. 在**Skype for business 管理中心**，选择 "**组织** > **外部通信**"。
-5. 若要设置与特定企业或与其他域中的用户的通信，请在下拉框中选择 **"仅针对允许的域"**。
+5. 要设置与特定企业或另一个域中的用户之间的通信，在下拉框中选择“**打开(仅针对被允许的域)**”。
     
     或者，你希望能够与世界各地采用公开的 Skype for Business 策略的所有其他人通信，请选择" **打开(被阻止的域除外)**"。这是默认设置。
     
@@ -116,7 +116,7 @@ ms.locfileid: "42010935"
     
 - 要配置 Lync 与 Skype for business Online 之间的联盟，请参阅本文：[为 Lync Online 客户配置联合身份验证支持](https://technet.microsoft.com/library/hh202193.aspx)。
     
-- 当 Office 365 中的两个 Skype for Business 用户在单独的域上相互通信时，他们只能使用在两个组织中都启用的 Skype for Business 功能（例如，视频对话或桌面共享）。
+- 当 Microsoft 365 或 Office 365 中的两个 Skype for Business 用户在单独的域上互相通信时，他们只能使用在两个组织中打开的 Skype for business 功能（例如，视频对话或桌面共享）。
     
 - 如果你的组织中的 Skype for Business 用户已加入现场或诉讼封存，则该用户和其他 Skype for business 或 Skype 用户之间的任何 IM 对话都将保存在其邮箱中的**可恢复项目**中。 这些对话将不保存在其邮箱中的" **对话历史记录**"文件夹中。
     
@@ -125,7 +125,7 @@ ms.locfileid: "42010935"
 
 为你的整个企业启用外部通信后，你可以仅为特定的个人关闭它。
   
-1. 通过 Office 365 管理员帐户登录。
+1. 通过 Microsoft 365 或 Office 365 管理员帐户登录。
     
 2. 在管理中心中，转到 "**用户** > **活动用户**"。
     

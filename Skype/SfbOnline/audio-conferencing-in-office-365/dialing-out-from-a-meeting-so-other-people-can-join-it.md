@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 了解你需要做些什么以及会议组织者可以如何使用 Skype for Business 拨叫其他人。
-ms.openlocfilehash: e69fa266b9e10091f0936baee45c140ba198661f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41982817"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164281"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>从 Skype for Business 会议拨出，以便其他人可以加入
 
@@ -39,7 +39,7 @@ As the meeting organizer, you can dial out using the Skype for Business app to l
     
 - 您已启用音频会议的会议组织者。
 
-为了将其他参与者通过拨出添加到你的组织中的会议，必须在会议中至少有一个身份验证用户（组织）与组织者（你的组织）相同，才能允许添加其他参与者通过拨出。 
+为了通过拨出功能将其他参与者添加到您的组织的会议，必须在会议中至少有一名经过身份验证的用户（您的组织）位于同一组织中，以便允许通过拨出添加其他参与者。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ As the meeting organizer, you can dial out using the Skype for Business app to l
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要了解有关音频会议的详细信息？
 
-[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Skype for Business 加载项授权](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

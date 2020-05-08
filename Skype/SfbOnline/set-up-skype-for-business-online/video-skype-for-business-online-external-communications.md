@@ -19,18 +19,18 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
-ms.openlocfilehash: ec10b29c87d4dcab00bb2e680c0ed594aa9de2d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 52b43ea21f9f0aa56b923355cfc936f334f1607f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010735"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164481"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>视频：Skype for Business Online 外部通信
 
 设置 Skype for Business Online 外部通信以便用户可与外部 Skype for Business、Lync 和 Skype 联系人通信。
 
- **受众：** Office 365 管理员
+ **受众：** Microsoft 365 和 Office 365 管理员
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]

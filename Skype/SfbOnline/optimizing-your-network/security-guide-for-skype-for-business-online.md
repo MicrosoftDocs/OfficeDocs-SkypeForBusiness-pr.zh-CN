@@ -21,27 +21,27 @@ f1.keywords:
 ms.custom:
 - Security
 description: Skype for Business Online 安全指南 <add description>
-ms.openlocfilehash: e1cb2c51e688c460f86b1ee4956155bbaa2ea293
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c10dc554cc1d07dbefb4fba84aed55ae14e9374e
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006007"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164891"
 ---
 # <a name="security-and-skype-for-business-online"></a>安全和 Skype for business Online
 
-Skype for business Online （SfBO）作为 Office 365 服务的一部分，可通过纵深防御、服务内的客户控件、安全强化和操作最佳做法等所有安全最佳做法和过程（如服务级别安全）。有关完整的详细信息，请参阅 Microsoft 信任中心https://microsoft.com/trustcenter)（。
+作为 Microsoft 365 和 Office 365 服务的一部分，Skype for business Online （SfBO）通过纵深防御、服务中的客户控件、安全强化和操作最佳做法等所有安全最佳做法和过程（如服务级别安全）。有关完整的详细信息，请参阅 Microsoft 信任中心https://microsoft.com/trustcenter)（。
 
-## <a name="trustworthy-by-design"></a>设计方面的可信赖性
+## <a name="trustworthy-by-design"></a>设计上可信任
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
 
-## <a name="trustworthy-by-default"></a>默认的可信赖性
+## <a name="trustworthy-by-default"></a>默认可信任
 Network communications in Skype for Business Online are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Skype for Business Online data is protected on the network.
 
 ## <a name="how-sfbo-handles-common-security-threats"></a>SfBO 如何处理常见的安全威胁
 本部分确定 SfBO 服务安全性的更常见威胁以及 Microsoft 如何降低每个威胁。
 
-### <a name="compromised-key-attack"></a>破解密钥攻击
+### <a name="compromised-key-attack"></a>被盗用密钥攻击
 密钥是用于加密、解密或验证机密信息的机密代码或数字。必须考虑的公钥基础结构（PKI）中使用两个敏感密钥：每个证书持有者具有的私钥以及通信合作伙伴成功识别和会话密钥交换后使用的会话密钥。攻击者确定私钥或会话密钥时会发生受损密钥攻击。当攻击者成功确定密钥时，攻击者可以使用密钥解密加密的数据，而不知道发件人的知识。
 
 Skype for Business Online uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections. The keys used for media encryptions are exchanged over TLS connections. 
@@ -58,11 +58,11 @@ SfBO 通过运行 Azure DDOS 网络保护和限制来自相同终结点、子网
 ### <a name="eavesdropping"></a>窃听
 在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生窃听。窃听也称为监听或窥探。如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。例如，通过控制数据路径上的路由器进行攻击。 
 
-SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
+SfBO 使用相互 TLS （MTLS）来实现 Microsoft 365 或 Office 365 中的服务器通信和从客户端到服务的 TLS，因此在给定对话可能遭受攻击的时段内，呈现此攻击很难实现。TLS 对所有方进行身份验证，并加密所有通信。这不会阻止窃听，但攻击者无法读取流量，除非加密已损坏。
 
 TURN 协议用于实时媒体用途。TURN 协议不要求加密通信，并且它正在发送的信息受消息完整性保护。尽管它是开放的，但通过查看数据包的源地址和目标地址即可直接提取发送的信息（即 IP 地址和端口）。SfBO 服务通过检查邮件的消息完整性来确保数据的有效性，方法是使用从一些项目派生的密钥，包括一个密码，这些项目从不以明文形式发送。SRTP 用于媒体流量，也是加密的。
 
-### <a name="identity-spoofing-ip-address-spoofing"></a>身份欺骗（IP 地址欺骗）
+### <a name="identity-spoofing-ip-address-spoofing"></a>标识欺骗（IP 地址欺骗）
 Spoofing occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address. Within the context of Microsoft Lync Server 2010, this situation comes into play only if an administrator has done both of the following:
 - 已配置仅支持传输控制协议 (TCP) 的连接（建议不要这样做，因为 TCP 通信未经过加密）。
 - 将这些连接的 IP 地址标记为受信任的主机。 
@@ -74,13 +74,13 @@ A man-in-the-middle attack occurs when an attacker reroutes communication betwee
 
 中间人攻击还可能发生在两个客户端之间的媒体流量中，但在 SfBO 中点对点音频、视频和应用程序共享流使用基于 TLS 的会话启动协议 (SIP) 在对等设备之间协商的加密密钥通过 SRTP 进行加密。 
 
-### <a name="rtp-replay-attack"></a>RTP 重播攻击
+### <a name="rtp-replay-attack"></a>RTP 重放攻击
 A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
 ### <a name="spim"></a>SPIM
 Spim 是主动提供的商业即时消息或状态订阅请求。虽然 Spim 本身并不会导致网络问题，但至少会有些烦人，占用资源和生产时间，而且可能会导致网络问题。例如，用户通过发送请求相互发送垃圾消息。用户可以相互阻止对方来防止出现这种情况，但对于联盟，如果建立了协作的 Spim 攻击，则很难防止出现这种情况，除非你禁用联盟伙伴关系。
 
-### <a name="viruses-and-worms"></a>病毒和蠕虫
+### <a name="viruses-and-worms"></a>病毒与蠕虫
 病毒是一种代码单元，其用途是重现其他类似的代码单元。若要工作，病毒需要一个主机，例如文件、电子邮件或程序。与病毒一样，蠕虫是编码为再现其他类似代码单元的代码单元，但与病毒不需要主机。病毒和蠕虫主要在客户端之间的文件传输期间或从其他用户发送 Url 时显示。如果您的计算机上有病毒，则可以使用您的身份，并以您的名义发送即时消息。标准客户端安全最佳做法（如定期扫描病毒）可缓解此问题。 
 
 ## <a name="personally-identifiable-information"></a>个人身份信息
@@ -127,9 +127,9 @@ This section provides an overview of the fundamental elements that form the secu
 - 用于用户身份验证的行业标准协议，如果可能。
 
 本部分中的主题介绍了每个基本元素的工作方式，以增强 SfBO 服务的安全性。
-
+ 
 ### <a name="azure-active-directory"></a>Azure Active Directory
-Azure Active Directory functions as the directory service for O365. It stores all user directory information and policy assignments. 
+Azure Active Directory 函数作为 Microsoft 365 和 Office 365 的目录服务。它存储所有用户目录信息和策略分配。 
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>SfBO 的公钥基础架构
 SfBO service relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles. The Windows Server public key infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust. Certificates are digital IDs. They identify a server by name and specify its properties. To ensure that the information on a certificate is valid, the certificate must be issued by a Certificate Authority (CA) that is trusted by clients or other servers that connect to the server. If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA. If the server interacts with entities outside the private network, a public CA might be required.
@@ -184,10 +184,10 @@ SfBO generates username/passwords for secure access to media relays over TURN. M
 SfBO 使用符合 FIPS（联邦信息处理标准）的算法进行加密密钥交换。 
 
 ### <a name="user-and-client-authentication"></a>用户和客户端身份验证 
-受信任用户是其凭据已通过 O365 的 AAD 身份验证的用户。 
+受信任的用户是其凭据已通过 Microsoft 365 或 Office 365 中的 AAD 进行身份验证的用户。 
 
 Authentication is the provision of user credentials to a trusted server or service. SfBO uses the following authentication protocols, depending on the status and location of the user.
-- **新式验证**是用于客户端到服务器通信的 OAUTH 2.0 的 Microsoft 实现。它支持基于 O365 证书的身份验证、O365 多因素身份验证和 O365 条件访问等安全功能。为了使用 MA，需要为 MA 启用联机租户和客户端。默认情况下，在 2017 5 月后创建的 SfBO 租户已启用 MA。对于在此时间之前创建的租户，请按照此处的说明将其打开。以下客户端都支持 MA： Skype for business 2015 或2016客户端、Mac 版 Skype for business、Lync 2013 客户端、3PIP IP 手机、iOS 和 Android。 
+- **新式验证**是用于客户端到服务器通信的 OAUTH 2.0 的 Microsoft 实现。它支持诸如基于证书的身份验证、多重身份验证和条件访问等安全功能。为了使用 MA，需要为 MA 启用联机租户和客户端。默认情况下，在 2017 5 月后创建的 SfBO 租户已启用 MA。对于在此时间之前创建的租户，请按照此处的说明将其打开。以下客户端都支持 MA： Skype for business 2015 或2016客户端、Mac 版 Skype for business、Lync 2013 客户端、3PIP IP 手机、iOS 和 Android。 
 - 当新式身份验证未启用（或不可用）时，将使用**组织 ID** 。
 - **摘要式协议** - 用于所谓的匿名用户。匿名用户是指满足以下条件的外部用户：这些用户虽然不具备认可的 Active Directory 凭据，但已被邀请参与内部会议并且拥有有效的会议密钥。摘要式身份验证不用于其他客户端交互。
 
@@ -239,11 +239,11 @@ Enabling external users and internal users to exchange media requires an Access 
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
 ### <a name="federation-safeguards-for-sfbo"></a>SfBO 的联盟安全措施
-联合身份验证为你的组织提供与其他组织进行通信以共享 IM 和状态的功能。默认情况下，SfBO 联盟处于打开状态。但是，租户管理员有权通过 O365 管理门户控制此情况。查看更多信息。
+联合身份验证为你的组织提供与其他组织进行通信以共享 IM 和状态的功能。默认情况下，SfBO 联盟处于打开状态。但是，租户管理员可以通过 Microsoft 365 或 Office 365 管理门户控制此功能。查看更多信息。
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>应对 SfBO 会议的威胁
 
-SfBO provides the capability for enterprise users to create and join real-time Web conferences. Enterprise users can also invite external users who do not have an AAD/O365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+SfBO 为企业用户提供创建和加入实时 Web 会议的功能。企业用户还可以邀请没有 AAD、Microsoft 365 或 Office 365 帐户的外部用户参与这些会议。联盟合作伙伴使用安全和经过身份验证的标识的用户也可以加入会议，并且，如果提升该用户，则可以充当演示者。匿名用户无法作为演示者创建或加入会议，但他们可以在加入后提升为演示者。
 
 Enabling external users to participate in SfBO meetings greatly increases the value of this feature, but it also entails some security risks. To address these risks, SfBO provides the following additional safeguards:
 - 参与者的角色决定了其会议控制权限。
@@ -256,7 +256,7 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 会议参与者分为三组，每组都有自己的权利和限制：
 - **组织者** &nbsp; &nbsp;创建会议的用户，无论是即席还是按日程安排。组织者必须是经过身份验证的企业用户，并且能够控制会议的所有最终用户方面。
 - **演示者** &nbsp; &nbsp;授权在会议中显示信息的用户，使用受支持的任何媒体。会议组织者也是由演示者定义的，它决定了其他人可以成为演示者。组织者可以在安排会议或正在会议时做出此决定。
-- **** &nbsp;与会者&nbsp;已被邀请参加会议但无权充当演示者的用户。
+- **Attendee** &nbsp;与会者&nbsp;已被邀请参加会议但无权充当演示者的用户。
 
 演示者还可以在会议期间将某一与会者升格为演示者。
 
@@ -275,8 +275,8 @@ In SfBO, anonymous users are transferred to a waiting area called the lobby. Pre
 Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
 - **只有我，会议组织者**&nbsp;&nbsp;除组织者之外，每个人都必须在大厅等候，直到被允许参加会议。
 - **我从我公司邀请的人**&nbsp;&nbsp;即使没有被邀请，公司内的任何人都可以直接参加会议。
-- **Anyone from my organization**&nbsp;&nbsp;All SfBO users in the O365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
-- **** 有权访问会议链接的任何人（无限制）将直接进入会议。&nbsp;&nbsp;如果指定了 "仅组织者（已锁定）" 以外的任何方法，则会议组织者还可以通过 "通过电话绕过会议厅" 指定拨入的人员。 
+- **来自我的组织**&nbsp;&nbsp;的任何人 SfBO Microsoft 365 或 Office 365 租户中的所有用户都可以加入会议，而无需在大厅中等待，即使他们不在通讯组列表中。所有其他用户（包括所有外部和匿名用户）都必须在大厅中等待，直到获准。
+- **Anyone**有权访问会议链接的任何人（无限制）将直接进入会议。&nbsp;&nbsp;如果指定了 "仅组织者（已锁定）" 以外的任何方法，则会议组织者还可以通过 "通过电话绕过会议厅" 指定拨入的人员。 
 
 ### <a name="presenter-capabilities"></a>演示者功能
 Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:

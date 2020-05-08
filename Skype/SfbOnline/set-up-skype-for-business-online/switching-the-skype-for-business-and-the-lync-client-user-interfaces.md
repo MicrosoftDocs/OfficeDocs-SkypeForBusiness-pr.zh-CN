@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 02221d0edde6a37ec16a4820792d1d18756d4bb7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: '了解如何在 Microsoft 365 或 Office 365 中使用 PowerShell 在 Skype for Business 和 Lync 客户端用户界面之间切换 '
+ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706447"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164301"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>在 Skype for Business 与 Lync 客户端用户界面之间切换
 
-对于 Skype for Business Online 组织，你可以使用 Office 365 中的 Remote PowerShell 让你的 Skype for Business 用户使用 Skype for Business 客户端或 Skype for Business (Lync) 客户端用户界面。 默认设置是让用户使用 Skype for Business 客户端用户界面。 如果你希望使用 Lync 客户端体验，你可以通过执行本主题后面的步骤来管理首次启动客户端行为以显示 Lync 用户界面。
+对于 Skype for Business Online 组织，你可以使用 Microsoft 365 或 Office 365 中的远程 PowerShell，使 Skype for Business 用户能够使用 Skype for business 客户端或 Skype for Business （Lync）客户端用户界面。 默认设置是让用户使用 Skype for Business 客户端用户界面。 如果你希望使用 Lync 客户端体验，你可以通过执行本主题后面的步骤来管理首次启动客户端行为以显示 Lync 用户界面。
   
 > [!NOTE]
 > [!注释] Lync 2013 客户端体验不是 Skype for Business 2016 客户端版本的一个选项。 在尝试将你的客户端环境配置为使用 Lync 2013 客户端之前，请检查客户端版本，以确保它不会以数字 16 开头；例如：16.x.x.x。 
@@ -167,9 +167,9 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
    
 若要开始使用 Windows PowerShell，请参阅下列主题：
   
-- [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [为什么需要使用 Microsoft 365 或 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## <a name="first-launch-client-behaviors"></a>首次启动客户端行为
 

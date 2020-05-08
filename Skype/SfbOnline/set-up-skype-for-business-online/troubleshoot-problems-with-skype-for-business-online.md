@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: 812df872775e31109df300e3bad1911de975c07e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 了解如何修复 Microsoft 365 和 Office 365 中的管理员和 Skype for business 用户的问题。
+ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777157"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164311"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>解决 Skype for Business Online 中的问题
 
@@ -75,9 +75,9 @@ Skype for Business Online 用户遇到的大部分问题都与忘记密码有关
 ## <a name="still-need-help-contact-support"></a>是否仍需要帮助？请联系支持人员。
 <a name="BK_SupportBridge_1"> </a>
 
-作为 Office 365 for business 的管理员，您可以免费访问我们的知识渊博的支持工程师，获取售前、帐户和帐单支持以及解决技术问题的帮助。您也可以代表您的组织中的 Microsoft 365 和 Office 365 用户[联系支持人员](https://go.microsoft.com/fwlink/p/?LinkID=518322)。
+作为适用于企业的 Microsoft 365 应用的管理员，您可以免费访问我们的知识渊博的支持工程师以获取售前、帐户和帐单支持以及解决技术问题的帮助。您也可以代表您的组织中的 Microsoft 365 和 Office 365 用户[联系支持人员](https://go.microsoft.com/fwlink/p/?LinkID=518322)。
 
-- [从 Office 365 社区论坛获取帮助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [从 Microsoft 365 和 Office 365 社区论坛获取帮助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [管理员：呼叫支持](https://go.microsoft.com/fwlink/p/?LinkID=518322)
 
@@ -88,5 +88,3 @@ Skype for Business Online 用户遇到的大部分问题都与忘记密码有关
 [设置 Skype for Business Online](set-up-skype-for-business-online.md)
 
 [允许 Skype for Business 用户添加 Skype 联系人](let-skype-for-business-users-add-skype-contacts.md)
-
-

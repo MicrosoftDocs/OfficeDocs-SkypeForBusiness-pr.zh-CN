@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft 团队聊天室的发行说明，其中列出了 Microsoft 团队聊天室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ffc6b052fca002493b31a2f7c55f43cf9ce8804a
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 0a4af973e02c8ae3799ee0abe6df5c9694956635
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997213"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158949"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -29,6 +29,7 @@ ms.locfileid: "43997213"
 
 |新版 |已发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
@@ -62,6 +63,12 @@ ms.locfileid: "43997213"
 |RTM （1.0.8） |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和问题解决
+
+### <a name="44410-05062020"></a>4.4.41.0 （05/06/2020）
+
+此更新中引入的内容：
+- Windows 10 展台中的应用程序启动的可靠性修复程序
+
 ### <a name="44250-03312020"></a>4.4.25.0 （03/31/2020）
 
 此更新中引入的内容：

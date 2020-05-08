@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 2021年7月31日，生命期结束计划将结束与第三方音频会议提供商（第三方 ACP）的 Skype for Business 的集成。
-ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5b49bf573ad79cbdacbc538a0ef67faf1b2b634e
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985027"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164451"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>将 Skype for Business 与第三方音频会议提供商集成的生命周期结束 
 
@@ -59,7 +59,7 @@ Microsoft 已宣布开始使用第三方音频会议提供商（ACPs）与 Skype
 
 如果组织决定迁移到 Microsoft 音频会议并在2021年7月31日之前完成迁移，将不会在该日期期间或之后遇到任何服务影响。 迁移到 Microsoft 音频会议将对组织引入以下更改： 
 
-- 将向所有其他 Office 365 服务收取服务费用。 
+- 将向所有其他 Microsoft 365 或 Office 365 服务收取服务费用。 
 
 - 如果购买了标准套餐，则按每个用户的每月订阅费用包括收费电话拨入费。 
 
@@ -73,13 +73,13 @@ Microsoft 已宣布开始使用第三方音频会议提供商（ACPs）与 Skype
 
 迁移到 Microsoft 音频会议非常简单，只需在为服务获取许可证后的几个步骤中完成迁移即可。 若要了解如何迁移到 Microsoft 音频会议，请参阅：
 
-- [试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+- [在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
  
 **摘要：**
 
 - 迁移到 Microsoft 音频会议并在2021年7月31日之前完成迁移的组织将不会在该日期期间或之后看到对其服务的任何影响。
 
-- 若要了解有关迁移到 Microsoft 音频会议的详细信息，请参阅[在 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)。 
+- 若要了解有关迁移到 Microsoft 音频会议的详细信息，请参阅[在 microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)。 
 
 ### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>路径 #2：继续单独使用第三方音频会议提供商
 
@@ -91,7 +91,7 @@ Microsoft 已宣布开始使用第三方音频会议提供商（ACPs）与 Skype
  
 根据日程安排和2021年7月31日起，第三方 ACP 的拨入信息将不再自动包含在 Skype for Business 会议邀请中。 如果用户希望继续将此信息包含在会议的一部分中，用户将需要手动在其 Skype for Business 会议邀请上添加拨入信息。 
 
-请注意，在2021年7月31日，将不会自动重新安排用户的现有会议以删除任何第三方 ACP 的拨入信息。 决定为用户的会议启用 VoIP 的组织应考虑禁用其用户的第三方 ACP 的集成，并使用会议迁移服务重新安排其会议以删除第三方音频从现有会议中会议拨入信息，并在已计划的会议上阻止音频碎片。 
+请注意，在2021年7月31日，将不会自动重新安排用户的现有会议以删除任何第三方 ACP 的拨入信息。 决定将 VoIP 保留为其用户的会议的组织应考虑禁用其用户的第三方 ACP 的集成，并使用会议迁移服务将第三方音频会议拨入信息从现有会议中删除并阻止已安排的会议的音频碎片。 
 
 - 若要禁用给定组织者的第三方音频会议的集成，请使用 CsUserAcp cmdlet。 有关其他信息，请参阅[Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
 
@@ -105,7 +105,7 @@ Microsoft 已宣布开始使用第三方音频会议提供商（ACPs）与 Skype
 
     - 若要从给定组织者的所有会议中禁用 VoIP，请通过 CsConferencingPolicy cmdlet 将用户的会议策略的 AllowIPAudio 参数设置为 false。 有关详细信息，请参阅[设置 CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
-- 如果组织没有为所有会议禁用 VoIP，则建议禁用用户使用 Skype for Business Online 与第三方 ACP 集成，并重新安排其会议以删除第三方 ACP 拨入信息，以阻止音频碎片。
+- 如果组织没有为所有会议禁用 VoIP，则建议禁用用户使用 Skype for Business Online 与第三方 ACP 集成，并重新安排其会议以删除第三方 ACP 的拨入信息，以防止音频碎片。
 
     - 若要禁用给定组织者的第三方音频会议的集成，请使用[CsUserAcp](https://docs.microsoft.com/powershell/module/skype/remove-csuseracp?view=skype-ps) cmdlet。 
 

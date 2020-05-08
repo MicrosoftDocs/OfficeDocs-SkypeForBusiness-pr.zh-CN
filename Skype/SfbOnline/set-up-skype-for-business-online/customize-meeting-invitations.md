@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '通过图形徽标、帮助和合法 Url 以及页脚文本自定义 Skype 会议邀请。 '
-ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f4622a964037feab0c06e731606aded7a9fb758
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776227"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164331"
 ---
 # <a name="customize-meeting-invitations"></a>自定义会议邀请
 
@@ -69,14 +69,14 @@ ms.locfileid: "43776227"
    
 5. 选择" **保存**"。
     
-6. 等待一小时后，即可在所有 Office 365 服务中填充所做的更改。 然后，转到 Outlook 并安排 Skype 会议，以查看您的更改的外观。 
+6. 等待一小时，以便在所有 Microsoft 365 或 Office 365 服务中填充所做的更改。 然后，转到 Outlook 并安排 Skype 会议，以查看您的更改的外观。 
     
     ![下面是自定义邀请（没有图形）的外观](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>相关主题
 <a name="__top"> </a>
 
-[试用或购买 Office 365 中的音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[在 Microsoft 365 或 Office 365 中试用或购买音频会议](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  
