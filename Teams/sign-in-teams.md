@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43bbb3018b1c0cbe9f225a8a78acd4007b9232c2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 344cf0d38926af200f4d92b664761d2c8868df57
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903727"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139135"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式验证登录 Microsoft Teams
 ==========================
@@ -46,6 +46,8 @@ Microsoft Teams 使用新式验证保持登录体验简单而安全。 若要了
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
+
+  如果运行的是 Outlook 2013 或 2016，请阅读[更新为在 Outlook 2016 和 2013 中跳过用户主体名称 (UPN) 查找](https://support.microsoft.com/help/4022165/update-to-skip-user-principal-name-upn-lookup-in-outlook-2016-and-2013)
 
     > [!NOTE]
     > 默认情况下会跳过或忽略以“.local”或“.corp”结尾的用户名的用户名预填充，因此无需设置注册表项来关闭该功能。 
