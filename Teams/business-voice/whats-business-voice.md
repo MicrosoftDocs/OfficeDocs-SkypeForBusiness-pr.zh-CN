@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 商业语音的概述，并介绍它如何帮助中小型企业更高效地沟通。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780791"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170673"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什么是 Microsoft 365 商务语音？
 
@@ -32,15 +32,19 @@ ms.locfileid: "43780791"
 
 如果你的组织员工不超过 300 人，并且你有以下 Microsoft 365 订阅之一，那么商务语音非常适合你：
 
-* Microsoft 365 商业基础版
-* Microsoft 365 商业标准版
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-* Microsoft 365 商业版
+- Microsoft 365 商业基础版
+- Microsoft 365 商业标准版
+- Microsoft 365 商业高级版
+- Microsoft 商业应用版 
+- Microsoft 企业应用版
+- Microsoft 365 F1
+- Office 365 F1
+- Microsoft 和 Office 365 企业版 E1、E3 或 E5
+- Microsoft 365 和 Office 365 教育版 A1、A3 或 A5
+- Microsoft 365 和 Office 365 政府版 G1、G3 或 G5 （仅适用于 GCC）
+- Microsoft 365 非盈利性企业基本版
+- Microsoft 365 非盈利性企业标准版
+- Microsoft 365 和 Office 365 非营利组织版 E1、E3 或 E5
 
 商务语音在 70 国家和地区可用。 是否可以自行设置商务语音，将电话号码转移到 Microsoft 365 以及在 Microsoft 365 中管理电话号码，取决于 Microsoft 365 租户所在的国家或地区。 有关详细信息，请查看“[通话套餐的国家和地区可用性](country-region-availability.md)。
 
