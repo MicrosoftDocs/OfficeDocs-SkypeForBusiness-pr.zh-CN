@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams（公共预览版）帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 1357829330f4d2ef7ad95e0eda1cebcbe8492756
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042909"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139195"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -65,6 +65,12 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
     - Planner 计划，包括采用任务
     - Forms 用户调查
     - Teams 顾问机器人
+1. Skype for Business 升级
+    - 租户评估
+    - Planner 计划，包括采用任务
+    - Forms 用户调查
+    - Teams 顾问机器人
+    - Skype for Business 升级计划专为当前正在使用 Skype for Business Online 或 Skype for business 本地环境的客户而设计，将帮助你摆脱升级旅程中的猜测。 通过利用经过验证的成功框架实施更改，无论是刚开始使用 Teams、已在 Skype for Business 中使用 Teams，还是已准备好升级，该计划都将指导你完成分步操作。 该计划还将连接到[联机指南和最佳实践](https://aka.ms/SkypeToTeams)、[可下载资产](https://aka.ms/UpgradeSuccessKit)、[实时 1：许多规划研讨会](https://aka.ms/UpgradeWorkshops)，以及支持成功的其他资源。
 
 建议从“聊天、团队、频道和应用”计划开始。 该工作负载部署完成后，请返回到 Teams 顾问，然后单击“**添加频道**”以开始下一个工作负载。
 
@@ -108,6 +114,9 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 |音频会议许可证    |你是否有具有音频会议许可证的活动订阅。 如果要部署音频会议网桥，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有音频会议许可证（至少有一个许可证可供分配）。有关详细信息，请阅读 [Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。    |
 |Stream 许可证     |你是否有具有 Microsoft Stream 许可证的活动订阅。 如果你想要启用“会议录制”，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有 Microsoft Stream 许可证（至少有一个许可证可供分配）。 有关 Stream 及其启用方法的详细信息，请阅读 [Teams 云会议录制](cloud-recording.md)。
 
+### <a name="assessments-for-skype-for-business-upgrade"></a>Skype for Business 升级评估
+除了[针对所有工作负载的评估测试](#assessment-tests-for-all-workloads)，Skype for Business 升级还包括在会议和会议计划中使用的评估。
+
 ### <a name="advisor-for-teams-bot"></a>Teams 顾问机器人
 
 Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道中提供以下消息：
@@ -148,6 +157,9 @@ Teams 顾问创建部署团队后，顾问机器人就会在“常规”频道�
 ### <a name="can-i-modify-the-forms-survey"></a>能否修改 Forms 调查？
 可以，Advisor for Teams 创建部署团队后，可以按需修改 Forms 调查。
 
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>GCC 中的 Advisor for Teams 是否有任何差异？
+是的，用户调查 Forms 已创建，但未固定到计划频道中，因为 GCC 中当前未提供 Teams Forms 应用。
+
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Advisor for Teams 会收集关于我的组织的什么信息？
 Advisor for Teams 请求你同意收集非 EUII（最终用户标识信息）。 收集的信息采用遥测的形式，用于向 Microsoft 提供有关 Advisor for Teams 在促进成功结果方面的作用以及需要改进之处的反馈。 此类数据用于帮助 Microsoft 识别与你的组织积极互动，从而为你的部署提供协助的机会。
 
@@ -170,4 +182,4 @@ Advisor for Teams 请求你同意收集非 EUII（最终用户标识信息）。
 [在 Teams 中组织团队的最佳做法](best-practices-organizing.md)
 
 [用于许可的产品名称和服务计划标识符](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-) 
+)
