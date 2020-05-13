@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍了实施 Microsoft 云语音邮件服务的好处、规划注意事项和要求。 有关配置云语音邮件的信息，请参阅配置云语音邮件。
-ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341762"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210628"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>为本地用户规划云语音邮件服务
 
@@ -79,11 +79,11 @@ Skype for Business Server 2019 继续为其邮箱位于早期版本的 Exchange 
 
 - 外部 Exchange Web 服务（EWS） URL 和自动发现必须设置，否则一些云语音邮件功能将受到限制。
 
-- 如果您具有仅限本地部署&#x2014;也就是说，仅 Exchange 和 Skype for business 内部部署服务器&#x2014;但您希望利用云语音邮件，则不需要其他许可证。
+- 如果您具有仅限本地部署&#x2014;也就是说，仅 Exchange 和 Skype for business 内部部署服务器&#x2014;但您希望充分利用云语音邮件，则需要电话系统许可证。
 
 ## <a name="migration-and-interoperability"></a>迁移和互操作性
 
-如果您计划部署 Skype for Business Server 2019 和/或 Exchange Server 2019，则必须仔细规划迁移以确保语音邮件的持续服务。 请注意下列事项：
+如果您计划部署 Skype for Business Server 2019 和/或 Exchange Server 2019，则必须仔细规划迁移以确保语音邮件的持续服务。 请注意以下几点：
 
 - Exchange Server 2019 不再提供 Exchange UM 功能
 - Skype for Business Server 2019 不再与 Exchange Online UM 集成
@@ -100,6 +100,6 @@ Microsoft 建议采用以下迁移途径：
 
 - 如果要升级到 Skype for business Server 2019，可以在 Exchange Server 2013 或2016中使用 Exchange UM，但如果使用的是 Exchange Server 2019，则必须升级到云语音邮件。
 - 如果要升级到 Exchange Server 2019，并且使用的是以前版本的 Exchange Server UM for Skype for business Server voice 消息，Microsoft 建议您先升级到 Skype for business Server 2019，然后再升级邮箱。  否则，语音邮件功能将丢失。
-- 如果要升级到 Skype for business Server 2019，并且已为使用 Exchange Online UM 的语音邮件配置了 Skype for Business Server 2015，则用户的语音邮件将在其帐户移动到云语音邮件时自动从 Exchange Online UM 迁移到云语音邮件Skype for Business Server 2019。 
+- 如果要升级到 Skype for business Server 2019，并且已为使用 Exchange Online UM 的语音邮件配置了 Skype for Business Server 2015，则用户的语音邮件将在其帐户移动到 Skype for business Server 2019 时自动从 Exchange Online UM 迁移到云语音邮件。 
 
 有关规划迁移的详细信息，请参阅[Plan For Skype For Business Server 和 Exchange Server 迁移](plan-um-migration.md)。
