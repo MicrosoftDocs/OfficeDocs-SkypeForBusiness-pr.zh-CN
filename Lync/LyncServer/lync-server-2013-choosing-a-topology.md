@@ -12,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc30881da768d8dad9f952df37bdf1accdf091b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192015"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221736"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +69,7 @@ _**上次修改的主题：** 2013-02-21_
 
 下表汇总了支持的 Microsoft Lync Server 2013 拓扑结构中提供的功能。 列标题指明了给定的边缘配置选项可用的功能。 以“扩展边缘”（DNS 负载已平衡）选项为例，您可以了解到它支持高可用性、可以使用分配给边缘外部接口的不可路由专用 IP 地址（具有 NAT）或可路由的公用 IP 地址，并可降低成本（因为不需要硬件负载平衡器）。
 
-DNS 负载平衡支持的边缘故障转移方案为 Lync 到 Lync 的点对点会话、Lync 会议会话、Lync 到 PSTN 会话和 Office 365。 无法从 DNS 负载平衡中受益的边缘故障转移方案是远程用户 Exchange 统一消息（UM）的故障转移（Exchange 2010 SP1 之前）、公共即时消息（IM）连接以及与运行 Office 通信的服务器的联盟服务器主板.
+DNS 负载平衡支持的边缘故障转移方案为 Lync 到 Lync 的点对点会话、Lync 会议会话、Lync 到 PSTN 会话、Office 365 和 Microsoft 365。 无法从 DNS 负载平衡获益的边缘故障转移方案针对远程用户 Exchange 统一消息（UM）（Exchange 2010 SP1 之前）、公共即时消息（IM）连接以及与运行 Office 通信服务器的服务器的联盟进行故障转移。
 
 ### <a name="summary-of-edge-server-topology-options"></a>边缘服务器拓扑选项摘要
 
@@ -153,7 +153,7 @@ Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在
 
   - Lync Server 2013 扩展的合并边缘（DNS 负载平衡）对边缘池中的每台边缘服务器都需要三个公共 IP 地址。
 
-  - Lync Server 2013 扩展的合并边缘（硬件负载平衡）需要三个公共 IP 地址用于负载平衡器虚拟 IP 地址（一种时间要求，在将更多边缘服务器添加到池中时不增加）加上每个服务器的三个公用 IP 地址。池中的边缘服务器。
+  - Lync Server 2013 扩展的合并边缘（硬件负载平衡）需要三个公用 IP 地址用于负载平衡器虚拟 IP 地址（一种时间要求，在将更多边缘服务器添加到池中时不增加）加池中的每台边缘服务器的三个公用 IP 地址。
 
 ### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>扩展的合并边缘的 IP 地址要求（每个角色一个 IP 地址）
 
@@ -172,22 +172,22 @@ Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>双面</p></td>
+<td><p>2 </p></td>
 <td><p>6 </p></td>
 <td><p>3（每个 VIP 1 个）+ 6</p></td>
 </tr>
 <tr class="even">
-<td><p>第三章</p></td>
+<td><p>3 </p></td>
 <td><p>9 </p></td>
 <td><p>3（每个 VIP 1 个）+9</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>12</p></td>
+<td><p>4 </p></td>
+<td><p>12 </p></td>
 <td><p>3（每个 VIP 1 个）+12</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>15 </p></td>
 <td><p>3（每个 VIP 1 个）+15</p></td>
 </tr>
@@ -212,22 +212,22 @@ Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>双面</p></td>
-<td><p>双面</p></td>
+<td><p>2 </p></td>
+<td><p>2 </p></td>
 <td><p>1（每个 VIP 1 个）2</p></td>
 </tr>
 <tr class="even">
-<td><p>第三章</p></td>
-<td><p>第三章</p></td>
+<td><p>3 </p></td>
+<td><p>3 </p></td>
 <td><p>1（每个 VIP 1 个）+ 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
+<td><p>4 </p></td>
 <td><p>1（每个 VIP 1 个）4</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>5</p></td>
 <td><p>1（每个 VIP 1 个）5</p></td>
 </tr>
@@ -271,7 +271,7 @@ Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在
 
 
 > [!IMPORTANT]
-> 如果要与使用 Lync Server 2010 和 Microsoft Office 365 的公司进行联盟，则建议使用 DNS 负载平衡。 请注意，如果大多数联盟伙伴使用的是 Office 通信服务器2007或 Office 通信服务器 2007 R2，则会对性能产生重大影响。
+> 如果要与使用 Lync Server 2010 和 Office 365 或 Microsoft 365 的公司进行联盟，则建议使用 DNS 负载平衡。 请注意，如果大多数联盟伙伴使用的是 Office 通信服务器2007或 Office 通信服务器 2007 R2，则会对性能产生重大影响。
 
 
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cea596f571064a3b72ecbb3b0c2b56c2179aa315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27b955def7b7648f274125353673d6973afb59b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182036"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221586"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +78,7 @@ _**上次修改的主题：** 2014-03-27_
 
 ## <a name="configuring-federation-with-partners"></a>对合作伙伴配置联盟
 
-1.  若要设置与另一台 Microsoft Lync Server 2013、Lync Server 2010、Office 通信服务器 2007 R2 或 Office Communicator 2007 的成功联合，请选择下表中的联合身份验证类型并定义 DNS SRV 记录、DNS 主机（A 或 AAAA）。IPv6）和配置适用于联合类型的策略：
+1.  若要设置与另一台 Microsoft Lync Server 2013、Lync Server 2010、Office 通信服务器 2007 R2 或 Office Communicator 2007 的成功联合，请选择下表中的联合身份验证类型并定义 DNS SRV 记录、DNS 主机（A 或 AAAA for IPv6），并配置适用于联合类型的策略：
     
     
     <table>
@@ -99,7 +99,7 @@ _**上次修改的主题：** 2014-03-27_
     <tbody>
     <tr class="odd">
     <td><p>已发现的伙伴域</p></td>
-    <td><p>配置 _sipfederationtls _tcp 格式的 SRV 记录。&lt;外部域名&gt;，其中 SRV 记录的端口值为 TCP 5061，并且<strong>提供此服务的主机</strong>定义为 sip。 &lt;外部域名&gt; –访问边缘服务的 FQDN。 有关创建 SRV 记录的详细信息，请参阅<a href="lync-server-2013-configure-dns-for-edge-support.md">CONFIGURE DNS for edge 支持在 Lync Server 2013 中</a></p></td>
+    <td><p>配置 _sipfederationtls _tcp 格式的 SRV 记录。 &lt;外部域名 &gt; ，其中 SRV 记录的端口值为 TCP 5061，并且<strong>提供此服务的主机</strong>定义为 sip。 &lt;外部域名 &gt; –访问边缘服务的 FQDN。 有关创建 SRV 记录的详细信息，请参阅<a href="lync-server-2013-configure-dns-for-edge-support.md">CONFIGURE DNS for edge 支持在 Lync Server 2013 中</a></p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">在 Lync Server 2013 中启用或禁用联盟伙伴发现</a></p></li>
@@ -108,7 +108,7 @@ _**上次修改的主题：** 2014-03-27_
     </tr>
     <tr class="even">
     <td><p>所允许的伙伴域</p></td>
-    <td><p>配置 _sipfederationtls _tcp 格式的 SRV 记录。&lt;外部域名&gt;，其中 SRV 记录的端口值为 TCP 5061，并且<strong>提供此服务的主机</strong>定义为 sip。 &lt;外部域名&gt; –访问边缘服务的 FQDN。 有关创建 SRV 记录的详细信息，请参阅<a href="lync-server-2013-configure-dns-for-edge-support.md">CONFIGURE DNS for edge 支持在 Lync Server 2013 中</a></p></td>
+    <td><p>配置 _sipfederationtls _tcp 格式的 SRV 记录。 &lt;外部域名 &gt; ，其中 SRV 记录的端口值为 TCP 5061，并且<strong>提供此服务的主机</strong>定义为 sip。 &lt;外部域名 &gt; –访问边缘服务的 FQDN。 有关创建 SRV 记录的详细信息，请参阅<a href="lync-server-2013-configure-dns-for-edge-support.md">CONFIGURE DNS for edge 支持在 Lync Server 2013 中</a></p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">在 Lync Server 2013 中启用或禁用联盟和公共 IM 连接</a></p></li>
     </ul></td>
@@ -132,7 +132,7 @@ _**上次修改的主题：** 2014-03-27_
     <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">在 Lync Server 2013 中创建或编辑公共 SIP 联合提供程序</a></p></li>
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">创建或编辑托管的 SIP 联合提供商 Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>此联盟类型定义您要为用户配置的服务和宿主提供程序。 典型用法包括配置 Windows Live Messenger、Yahoo! 和 AOL 以及 Lync Online 和 Office 365 等托管提供程序</p>
+    <td><p>此联盟类型定义您要为用户配置的服务和宿主提供程序。 典型用法包括配置 Windows Live Messenger、Yahoo! 和 AOL 以及 Lync Online 和 Microsoft 365 等托管提供程序</p>
     <div>
 
     > [!IMPORTANT]  

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca81e26e6a4b634b7b1f861ddfb0e0aedebca23f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05c4b2845f4146c6394712951089750299ce60b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204677"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,13 +64,13 @@ _**上次修改的主题：** 2014-05-29_
 
 边缘服务器发送和接收外部用户由内部部署提供的服务的网络流量。 边缘服务器运行下列服务：
 
-  - **访问边缘服务**   ： access edge 服务为出站和入站会话初始协议（SIP）流量提供单个受信任的连接点。
+  - **访问边缘服务**    访问边缘服务为出站和入站会话初始协议（SIP）流量提供单个受信任的连接点。
 
-  - **Web 会议边缘服务**   web 会议边缘服务使外部用户能够加入托管在内部 Lync Server 2013 部署上的会议。
+  - **Web 会议边缘服务**    Web 会议边缘服务使外部用户能够加入托管在内部 Lync Server 2013 部署上的会议。
 
-  - **A/v 边缘服务**   a/v 边缘服务使音频、视频、应用程序共享和文件传输可供外部用户使用。 您的用户可以向包含外部参与者的会议添加音频和视频，并且可以在点对点会话中使用音频和/或视频直接与外部用户进行通信。 A/V 边缘服务还提供对桌面共享和文件传输的支持。
+  - **A/V 边缘服务**    A/V 边缘服务使音频、视频、应用程序共享和文件传输对外部用户可用。 您的用户可以向包含外部参与者的会议添加音频和视频，并且可以在点对点会话中使用音频和/或视频直接与外部用户进行通信。 A/V 边缘服务还提供对桌面共享和文件传输的支持。
 
-  - **XMPP 代理服务**   XMPP 代理服务接受并发送可扩展消息和状态协议（XMPP）消息，并发送到已配置的 XMPP 联盟伙伴。
+  - **XMPP 代理服务**    XMPP 代理服务接受并发送可扩展消息和状态协议（XMPP）消息，并发送到已配置的 XMPP 联盟伙伴。
 
 授权的外部用户可以访问边缘服务器，以便连接到内部 Lync Server 2013 部署，但边缘服务器不提供对内部网络的任何其他访问的方法。
 
@@ -106,7 +106,7 @@ _**上次修改的主题：** 2014-05-29_
 
   - 允许移动设备自动发现提供 Mobility Service 的前端服务器
 
-  - 允许通过 Office 365 或 Apple 推送通知服务向移动设备发送推送通知
+  - 从 Microsoft 365、Office 365 或 Apple 推送通知服务为移动设备启用推送通知
 
 有关与反向代理和反向代理必须满足的要求相关的其他信息，请参阅[Lync Server 2013 中反向代理的配置要求](lync-server-2013-configuration-requirements-for-reverse-proxy.md)中的详细信息。
 
@@ -114,7 +114,7 @@ _**上次修改的主题：** 2014-05-29_
 
 
 > [!NOTE]  
-> 外部用户不需要与您的组织的虚拟专用网络（VPN）连接即可参与使用 Lync Server 2013 的通信。 如果您在组织中实施了 VPN 技术，并且您的用户使用的是 Lync 的 VPN，媒体流量（如视频会议）可能会受到负面影响。 应考虑为媒体通信提供直接连接到 AV 边缘服务的方法，并绕过 VPN。 有关详细信息，请参阅 NextHop 博客文章 "启用 Lync Media 绕过 VPN 隧道" <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>。
+> 外部用户不需要与您的组织的虚拟专用网络（VPN）连接即可参与使用 Lync Server 2013 的通信。 如果您在组织中实施了 VPN 技术，并且您的用户使用的是 Lync 的 VPN，媒体流量（如视频会议）可能会受到负面影响。 应考虑为媒体通信提供直接连接到 AV 边缘服务的方法，并绕过 VPN。 有关详细信息，请参阅 NextHop 博客文章 "启用 Lync Media 绕过 VPN 隧道" <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A> 。
 
 
 

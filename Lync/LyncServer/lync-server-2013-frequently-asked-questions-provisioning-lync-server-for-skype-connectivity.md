@@ -12,12 +12,12 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214666"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,9 +73,9 @@ _**上次修改的主题：** 2019-03-22_
 
 **问：与 Windows Live 的联盟是否仍然可用？**
 
-**A：** 从2012年10月起，Microsoft 开始帮助 Windows Live Messenger （WLM）用户转到 Skype，途中是最终淘汰 WLM 的路线。只要 WLM 在市场中，Lync 将继续支持与 WLM 联合身份验证，但不允许其他任何 Windows Live 域激活。WLM 用户的移动由 Skype 6.0 for Mac 和 Windows （在10月25日发布，2012）启用，允许使用 Microsoft 帐户（即与 WLM 相同的凭据）登录。 在简单登录到 Skype 后，WLM 好友列表将自动填充到 Skype，用户可以利用 Skype 的扩展通信功能，如呼叫座机和 mobiles、屏幕共享、分组视频呼叫和支持宽各种设备。此外，WLM 用户的联合 Lync 联系人将转到 Skype 并将其好友列表的其余部分转换为 Skype，并且这些联系人的 Skype 和 Lync 之间的 IM 将立即可用。 Lync 客户无需执行任何操作即可启用此服务的连续性。
+**A：** 从2012年10月起，Microsoft 开始帮助 Windows Live Messenger （WLM）用户转到 Skype，途中是最终淘汰 WLM 的路线。只要 WLM 在市场中，Lync 将继续支持与 WLM 联合身份验证，但不允许其他任何 Windows Live 域激活。WLM 用户的移动由 Skype 6.0 for Mac 和 Windows （在10月25日发布，2012）启用，允许使用 Microsoft 帐户（即与 WLM 相同的凭据）登录。 简单地登录到 Skype 后，WLM 好友列表将自动填充到 Skype，用户可以利用 Skype 的扩展通信功能，如呼叫座机和 mobiles、屏幕共享、分组视频呼叫，以及对各种设备的支持。此外，WLM 用户的联合 Lync 联系人将转到 Skype 并将其好友列表的其余部分转换为 Skype，并且这些联系人的 Skype 和 Lync 之间的 IM 将立即可用。 Lync 客户无需执行任何操作即可启用此服务的连续性。
 
-**问：与 Yahoo\!或 AOL 的联盟是否仍然可用？**
+**问：与 Yahoo 或 AOL 的联盟是否 \! 仍然可用？**
 
 **A：** 不。 与 Yahoo 的联盟\! 而且 AOL 因 Yahoo 提供了支持\! 和 AOL。对于这两个 Yahoo\! 和 AOL，服务在2014年6月30日结束。 
 
@@ -126,7 +126,7 @@ _**上次修改的主题：** 2019-03-22_
 
 3.  在您看到确认后，请使用 Lync 管理中心打开 "外部通信"。 有关详细信息，请参阅[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
-此顺序非常重要。您必须先设置本地连接，然后才能在 Lync Online 中启用通信。 如果订单已冲销，则在内部部署中<https://pic.lync.com>输入的信息将不会经过。 如果已经为与此域的外部通信设置了 Lync Online，则必须将其关闭，等待24小时，然后重新开始，首先在<https://pic.lync.com>中输入本地信息，然后再打开 Lync Online 的外部通信。
+此顺序非常重要。您必须先设置本地连接，然后才能在 Lync Online 中启用通信。 如果订单已冲销，则在内部部署中输入的信息 <https://pic.lync.com> 将不会经过。 如果已经为与此域的外部通信设置了 Lync Online，则必须将其关闭，等待24小时，然后重新开始，首先在中输入本地信息， <https://pic.lync.com> 然后再打开 Lync Online 的外部通信。
 
 **问：是否可以为 Skype 连接设置多个访问边缘服务 Fqdn？**
 
@@ -138,7 +138,7 @@ _**上次修改的主题：** 2019-03-22_
 
 **问：我如何添加 ID 包含 Windows Live 不支持的域的 Windows Live Messenger 联系人？**
 
-**A：** 如果要使用包含非 Windows live 域的帐户或 ID 添加 Windows live Messenger 用户，请按以下格式输入该地址\<：用户名\>（\<域名\>） @msn .com，其中\<的域名\>是用户电子邮件地址中的域名称。 例如，如果您想要添加 ted@contoso.com，则可以使用以下格式：李小明（contoso） @msn .com。 有关 Windows Live 管理的域的列表，请参阅中的 "在安装 Live 通信服务器 Service Pack 1 后，公共即时消息中出现的已知问题" 部分中的 "支持https://support.microsoft.com/?kbid=897567的域" 部分。
+**A：** 如果要使用包含非 Windows Live 域的帐户或 ID 添加 Windows Live Messenger 用户，请按以下格式输入该地址： \< 用户名 \> （ \< 域名 \> ） @msn .com，其中的 \< 域名 \> 是用户电子邮件地址中的域名称。 例如，如果您想要添加 ted@contoso.com，则可以使用以下格式：李小明（contoso） @msn .com。 有关 Windows Live 管理的域的列表，请参阅中的 "在安装 Live 通信服务器 Service Pack 1 后，公共即时消息中出现的已知问题" 部分中的 "支持的域" 部分 https://support.microsoft.com/?kbid=897567 。
 
 **问：预配过程需要多长时间？**
 
@@ -161,4 +161,3 @@ _**上次修改的主题：** 2019-03-22_
 </div>
 
 </div>
-

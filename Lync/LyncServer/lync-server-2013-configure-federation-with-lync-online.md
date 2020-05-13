@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779558"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**上次修改的主题：** 2016-08-15_
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>为共享的 SIP 地址空间配置 Skype for Business Online 租户
 
-会话初始协议（SIP）地址是网络上每个用户的唯一标识符，类似于电话号码或电子邮件地址。 在尝试将 Lync 用户从本地迁移到 Skype for business Online 之前，需要将 Office 365 组织配置为与本地部署共享共享会话初始协议（SIP）地址空间。 如果未配置此设置，您可能会看到以下错误消息：
+会话初始协议（SIP）地址是网络上每个用户的唯一标识符，类似于电话号码或电子邮件地址。 在尝试将 Lync 用户从本地迁移到 Skype for business Online 之前，你需要将 Microsoft 365 或 Office 365 组织配置为与本地部署共享共享会话初始协议（SIP）地址空间。 如果未配置此设置，您可能会看到以下错误消息：
 
 Move-Get-csuser： HostedMigration fault： Error = （510），Description = （此用户的租户未启用共享 sip 地址空间。）
 
@@ -71,7 +71,7 @@ Move-Get-csuser： HostedMigration fault： Error = （510），Description = �
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-若要建立与 Skype for Business Online 的远程 PowerShell 会话，首先需要安装可在此处获取的适用于 Windows PowerShell 的 Skype for Business Online 模块： [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911)。
+若要建立与 Skype for Business Online 的远程 PowerShell 会话，首先需要安装可在此处获取的适用于 Windows PowerShell 的 Skype for Business Online 模块： [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) 。
 
 安装该模块后，可以使用以下 cmdlet 建立远程会话：
 
@@ -116,4 +116,3 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 </div>
 
 </div>
-

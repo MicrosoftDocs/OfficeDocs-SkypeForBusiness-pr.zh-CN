@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Managing the Centralized Logging Service configuration settings
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721938(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ721938(v=OCS.15)
 ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7811c8c55a7c759076382ecf102868cc6c7abf09
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6c6e156fbae7147b650c7360394cbd0d277b937b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185415"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42185415"
 
 _**上次修改的主题：** 2012-11-01_
 
-集中日志记录服务由集中日志记录服务控制器（CLSController）创建并使用的设置和参数进行控制和配置，以将命令发送到单个计算机的集中日志记录服务代理（CLSAgent）。 该代理处理发送给它的命令，并（如果是启动命令）根据提供的配置信息使用方案、提供程序、日志大小、跟踪持续时间和标志的配置开始收集跟踪日志。
+集中日志记录服务由集中日志记录服务控制器（CLSController）创建和使用的设置和参数进行控制和配置，以将命令发送到单个计算机的集中日志记录服务代理（CLSAgent）。 该代理处理发送给它的命令，并（如果是启动命令）根据提供的配置信息使用方案、提供程序、日志大小、跟踪持续时间和标志的配置开始收集跟踪日志。
 
 <div>
 
@@ -50,8 +50,7 @@ _**上次修改的主题：** 2012-11-01_
 > <LI>
 > <P><STRONG>CsClsSearchTerm cmdlet：</STRONG> <A href="https://technet.microsoft.com/library/JJ205061(v=OCS.15)">Get-CsClsSearchTerm</A> 和 <A href="https://technet.microsoft.com/library/JJ204911(v=OCS.15)">Set-CsClsSearchTerm</A>。</P>
 > <LI>
-> <P><STRONG>CsClsSecurityGroup cmdlet：</STRONG> <A href="https://technet.microsoft.com/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>、<A href="https://technet.microsoft.com/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>、<A href="https://technet.microsoft.com/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A> 和 <A href="https://technet.microsoft.com/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>。</P></LI></UL>这些 cmdlet 中定义的设置不会妨碍或导致任何不利行为，但它们设计为与 Microsoft Office 365 配合使用，并且不会在本地部署中生成预期结果。 这并不是说在内部部署中没有使用这些 cmdlet，而是其使用是一个更高级的主题，在本文档中没有概述。
-
+> <P><STRONG>CsClsSecurityGroup cmdlet：</STRONG> <A href="https://technet.microsoft.com/library/JJ205285(v=OCS.15)">Get-CsClsSecurityGroup</A>、<A href="https://technet.microsoft.com/library/JJ204700(v=OCS.15)">Set-CsClsSecurityGroup</A>、<A href="https://technet.microsoft.com/library/JJ205359(v=OCS.15)">New-CsClsSecurityGroup</A> 和 <A href="https://technet.microsoft.com/library/JJ204958(v=OCS.15)">Remove-CsClsSecurityGroup</A>。</P></LI></UL>这些 cmdlet 中定义的设置不会妨碍或导致任何不利行为，但它们设计为与 Microsoft 365 配合使用，并且不会在本地部署中生成预期结果。 这并不是说在内部部署中没有使用这些 cmdlet，而是其使用是一个更高级的主题，在本文档中没有概述。
 
 
 </div>

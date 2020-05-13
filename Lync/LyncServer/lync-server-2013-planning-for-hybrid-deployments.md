@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 47e8bc57edbf3b6414820aba1613be8b44fc670e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780321"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**上次修改的主题：** 2016-05-25_
 
 您必须在您的环境中配置以下各项才能实现和部署混合部署。
 
-  - 启用了 Skype for Business Online 的 Microsoft Office 365 组织。 请注意，您只能将一个租户用于与本地部署的混合配置。
+  - 启用了 Skype for Business Online 的 Microsoft 365 或 Office 365 组织。 请注意，您只能将一个租户用于与本地部署的混合配置。
 
   - 在受支持的拓扑中部署的 Skype for Business Server 或 Lync Server 的单一本地部署（基础架构）。 请参阅拓扑要求。
     
@@ -53,7 +53,7 @@ _**上次修改的主题：** 2016-05-25_
 
   - Skype for Business Server 2015 管理工具。 如果您使用的是 Lync Server 2013 或 Lync Server 2010，则可以使用 Lync Server 2013 管理工具。
 
-  - 若要支持 Office 365 单一登录，以便用户可以使用与在本地登录 Office 时相同的登录凭据来登录 Office，您可以使用 Azure Active Directory （AAD）连接的密码同步功能。 您还可以将 Active Directory 联合身份验证服务（AD FS）用于 Office 365 的单一登录。
+  - 若要在 Microsoft 365 或 Office 365 中支持单一登录，以便用户可以使用相同的登录凭据来登录 Office，就像在本地登录一样，您可以使用 Azure Active Directory （AAD）连接的密码同步功能。 您还可以使用 Active Directory 联合身份验证服务（AD FS）进行单一登录（使用 Microsoft 365 或 Office 365）。
     
     有关详细信息，请参阅[将您的本地标识与 Azure Active Directory 集成](https://go.microsoft.com/fwlink/p/?linkid=619754)。
 
@@ -159,7 +159,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
 若要成功配置混合部署，必须满足以下要求：
 
-  - 为本地部署和 Office 365 组织配置的域匹配必须相同。 如果在本地部署上启用了合作伙伴发现，则必须为您的联机租户配置开放联盟。 如果未启用合作伙伴发现，则必须为您的联机租户配置关闭的联合身份验证。
+  - 为本地部署和 Microsoft 365 或 Office 365 组织配置的域匹配必须相同。 如果在本地部署上启用了合作伙伴发现，则必须为您的联机租户配置开放联盟。 如果未启用合作伙伴发现，则必须为您的联机租户配置关闭的联合身份验证。
 
   - 本地部署中的阻止域列表必须与您的联机租户的阻止域列表完全匹配。
 
@@ -191,7 +191,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 <td><p>DNS 要求</p></td>
 </tr>
 <tr class="even">
-<td><p>_Sipfederationtls _tcp 的 DNS SRV 记录。&lt;sipdomain.com&gt;用于所有受支持的 SIP 域解析为访问边缘外部 IP （s）</p></td>
+<td><p>_Sipfederationtls _tcp 的 DNS SRV 记录。 &lt;sipdomain.com &gt; 用于所有受支持的 SIP 域解析为访问边缘外部 IP （s）</p></td>
 <td><p>边缘服务器</p></td>
 <td><p>在混合配置中启用联合通信。 边缘服务器需要知道为在本地和联机之间拆分的 SIP 域路由联盟流量的位置。</p></td>
 </tr>
@@ -214,7 +214,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
 您的网络上的计算机必须能够执行标准 Internet DNS 查找。如果这些计算机可以连接标准 Internet 站点，表明您的网络符合此要求。
 
-根据 Microsoft Online Services 数据中心的位置，您还必须将网络防火墙设备配置为根据通配符域名（例如，所有来自\*outlook.com 的流量）接受连接。 如果组织的防火墙不支持通配符名称配置，则必须手动确定要允许和指定端口的 IP 地址范围。
+根据 Microsoft Online Services 数据中心的位置，您还必须将网络防火墙设备配置为根据通配符域名（例如，所有来自 outlook.com 的流量）接受连接 \* 。 如果组织的防火墙不支持通配符名称配置，则必须手动确定要允许和指定端口的 IP 地址范围。
 
 请参阅帮助主题 " [Office 365 url 和 IP 地址范围](https://go.microsoft.com/fwlink/p/?linkid=252942)"。
 
@@ -299,7 +299,7 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
 
 > [!IMPORTANT]  
-> 如果用户是使用适用于 Office 365 的联机门户创建的，则该用户帐户将不会与本地 Active Directory 同步，并且该用户将不会存在于本地 Active Directory 中。 如果你已在 Lync Online 中创建用户，并且想要使用本地 Lync Server 配置混合，请参阅<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Lync Server 2013 中的将用户从 Lync Online 移动到 lync 本地</A>。
+> 如果用户是使用 "Microsoft 365 管理中心" 的 "联机门户" 创建的，则该用户帐户将不会与本地 Active Directory 同步，并且该用户将不会存在于本地 Active Directory 中。 如果你已在 Lync Online 中创建用户，并且想要使用本地 Lync Server 配置混合，请参阅<A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Lync Server 2013 中的将用户从 Lync Online 移动到 lync 本地</A>。
 
 
 
@@ -307,11 +307,11 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
 在规划混合部署时，还应考虑以下与用户相关的问题。
 
-  - **用户联系人**   Lync Online 用户的联系人限制为250。 当帐户移动到 Lync Online 时，该号码之外的所有联系人都将从用户的联系人列表中删除。
+  - **用户联系人**    Lync Online 用户的联系人限制为250。 当帐户移动到 Lync Online 时，该号码之外的所有联系人都将从用户的联系人列表中删除。
 
-  - **即时消息和状态**   用户联系人列表、组和访问控制列表（acl）随用户帐户一起迁移。
+  - **即时消息和状态**    用户联系人列表、组和访问控制列表（Acl）随用户帐户一起迁移。
 
-  - **会议数据、会议内容和计划会议**   此内容不会随用户帐户一起迁移。 用户必须在其帐户迁移到 Lync Online 之后重新安排会议。
+  - **会议数据、会议内容和计划会议**    此内容不会随用户帐户一起迁移。 用户必须在其帐户迁移到 Lync Online 之后重新安排会议。
 
 </div>
 
@@ -321,11 +321,11 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 
   - 在 Lync Server 2013 混合环境中，可以对本地或联机的即时消息、语音和会议启用用户，但不能同时启用两者。
 
-  - **Lync 客户端**   在移动到 Lync Online 时，某些用户可能需要新的客户端版本。 对于 Office 通信服务器 2007 R2，在迁移到 Lync Online 之前，必须将用户移动到 Lync Server 2013 池。
+  - **Lync 客户端**    某些用户可能需要在将新的客户端版本移动到 Lync Online 时使用新的客户端版本。 对于 Office 通信服务器 2007 R2，在迁移到 Lync Online 之前，必须将用户移动到 Lync Server 2013 池。
     
     有关客户端支持的详细信息，请参阅[适用于 Lync Online 的客户端](https://go.microsoft.com/fwlink/p/?linkid=281902)和[支持的 lync 客户端和网络端口配置](https://go.microsoft.com/fwlink/p/?linkid=281901)。
 
-  - **本地策略和配置（非用户）**   联机和本地策略需要单独的配置。 无法设置同适用于二者的全局策略。
+  - **内部部署策略和配置（非用户）**    在线策略和本地策略需要单独的配置。 无法设置同适用于二者的全局策略。
 
 </div>
 
@@ -338,4 +338,3 @@ Lync 客户端支持的功能以及本地和联机环境中提供的功能存在
 </div>
 
 </div>
-

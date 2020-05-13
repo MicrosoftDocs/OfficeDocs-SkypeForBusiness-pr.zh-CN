@@ -12,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b8718d5f3dda34b97b4c3e96c2fe9531d6658b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6203e6a7ee99f4b080fa93976a2a937e62fe9d3c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216778"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221556"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,9 +51,9 @@ Lync Server 2013、持久聊天服务器使您能够参与在一段时间内保�
 
   - 扩大重要知识和信息的传播范围
 
-Lync Server 2013，持久聊天服务器在 Microsoft Office 365 中不可用。 目前，它仅适用于本地 Lync 2013 客户。
+Lync Server 2013、持久聊天服务器在 Microsoft 365 或 Office 365 中不可用。 目前，它仅适用于本地 Lync 2013 客户。
 
-在 Lync 2013 中，持久聊天功能集成到 Lync 2013 客户端中。 因此，用户可以访问 Lync 2013 客户端中的即时消息/状态、音频/视频、会议和持久聊天。 有关 Lync 2013 客户端的详细信息，请<https://go.microsoft.com/fwlink/p/?linkid=270877>参阅。
+在 Lync 2013 中，持久聊天功能集成到 Lync 2013 客户端中。 因此，用户可以访问 Lync 2013 客户端中的即时消息/状态、音频/视频、会议和持久聊天。 有关 Lync 2013 客户端的详细信息，请参阅 <https://go.microsoft.com/fwlink/p/?linkid=270877> 。
 
 本主题介绍了新版本的 Lync Server 2013、持久聊天服务器和早期版本（Microsoft Lync Server 2010、组聊天）之间的功能更改，包括：
 
@@ -67,9 +67,9 @@ Lync Server 2013，持久聊天服务器在 Microsoft Office 365 中不可用。
 
 有关持久聊天服务器的最新版本的其他详细信息，请参阅以下内容：
 
-  - 持续聊天帮助<https://go.microsoft.com/fwlink/p/?linkid=270945>提供了持久聊天功能的详细列表，以及它们的工作方式，以及如何在运行持久聊天服务器的情况下使用它们。
+  - 持续聊天帮助提供了 <https://go.microsoft.com/fwlink/p/?linkid=270945> 持久聊天功能的详细列表，以及它们的工作方式，以及如何在运行持久聊天服务器的情况下使用它们。
 
-  - 在规划文档中[规划 Lync server 2013 中的持久聊天服务器](lync-server-2013-planning-for-persistent-chat-server.md)，在[lync Server 2013 中部署持久聊天服务器](lync-server-2013-deploying-persistent-chat-server.md)在部署文档中，[从 Lync server 2010、组聊天版或 Office 通信服务器迁移到 Lync Server 2013、持久聊天服务器在](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)迁移文档中2007以及在操作文档中[管理 lync server 2013、持久聊天服务器](managing-lync-server-2013-persistent-chat-server.md)，所有这些操作都提供了有关设置持久聊天服务器。
+  - 在规划文档中[规划 Lync server 2013 中的持久聊天服务器](lync-server-2013-planning-for-persistent-chat-server.md)，在[lync Server 2013 中部署持久聊天服务器](lync-server-2013-deploying-persistent-chat-server.md)在部署文档中，[从 Lync server 2010、组聊天版或 Office 通信服务器迁移到 Lync Server 2013、持久聊天服务器在](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)迁移文档中2007以及在操作文档中[管理 lync server 2013、持久聊天服务器](managing-lync-server-2013-persistent-chat-server.md)，所有这些操作均提供有关设置持久聊天服务器的说明。
 
   - 持久聊天服务器文档 .msi 文件（Windows Installer 文件）允许用户访问有关持久聊天服务器的全面脱机文档。
 
@@ -103,13 +103,13 @@ Lync Server 2013，持久聊天服务器在 Microsoft Office 365 中不可用。
 
 
 > [!IMPORTANT]  
-> 仅当该前端服务器是 Standard Edition&nbsp;前端服务器时， <STRONG>PersistentChatService</STRONG>角色&nbsp;才能在与 Lync server 2013 前端服务器相同的服务器上运行。 <STRONG>PersistentChatService</STRONG>角色无法独立于 Lync server 2013&nbsp;前端服务器运行。 它只能在 Lync Server 2013 部署的上下文中进行安装。
+> <STRONG>PersistentChatService</STRONG> &nbsp; 仅当该前端服务器是 Standard Edition 前端服务器时，PersistentChatService 角色才能在与 Lync Server 2013 前端服务器相同的服务器上运行 &nbsp; 。 <STRONG>PersistentChatService</STRONG>角色无法独立于 Lync server 2013 &nbsp; 前端服务器运行。 它只能在 Lync Server 2013 部署的上下文中进行安装。
 
 
 
 </div>
 
-在持久聊天服务器中，已消除了查找服务。 在 Lync Server 2010 中，"组聊天" 中，查找服务在每个组聊天服务器前端服务器上运行，并执行到其中一个通道服务器的路由。 Lync Server 2013 依靠 contact 对象进行路由，其中每个持久聊天服务器池都由 Lync Server 前端服务器使用的 contact 对象表示并将请求路由到相应的持久聊天服务器池，并可池中的一台运行持久聊天服务器的计算机。
+在持久聊天服务器中，已消除了查找服务。 在 Lync Server 2010 中，"组聊天" 中，查找服务在每个组聊天服务器前端服务器上运行，并执行到其中一个通道服务器的路由。 Lync Server 2013 依靠 contact 对象进行路由，其中每个持久聊天服务器池都由 Lync Server 前端服务器使用的 contact 对象表示并将请求路由到相应的持久聊天服务器池，以及在池中运行持久聊天服务器的一台计算机。
 
 在 Lync Server 2013 中，存在合规性服务修改：
 
@@ -139,7 +139,7 @@ Lync Server 2013，持久聊天服务器在 Microsoft Office 365 中不可用。
 
   - 高可用性改进： SQL Server 镜像用于为持久聊天服务器内容数据库和数据中心内的持久聊天合规性数据库（现场内）提供高可用性。
 
-  - 灾难恢复改进：持久聊天服务器支持扩展池体系结构，使单个持久聊天服务器池能够跨两个站点（即拓扑中的单个逻辑池）扩展，并将池中的服务器物理位于两个网站上）。 SQL Server 日志传送用于跨站点灾难恢复。
+  - 灾难恢复改进：持久聊天服务器支持扩展池体系结构，使单个持久聊天服务器池能够跨两个站点（即拓扑中的单个逻辑池）扩展，并在物理上位于两个站点的池中的服务器之间扩展。 SQL Server 日志传送用于跨站点灾难恢复。
 
 有关高可用性和灾难恢复的详细信息，请参阅部署文档中的在[Lync server 2013 中配置持久聊天服务器以实现高可用性和灾难恢复](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)。
 
@@ -165,7 +165,7 @@ Lync Server 2013 通过提供以下功能使您更易于管理和管理持久聊
 
 ## <a name="whats-different-about-user-roles-from-previous-group-chat-server-versions"></a>来自以前的组聊天服务器版本的用户角色有何不同？
 
-Lync Server 2010，组聊天具有用户管理员角色、聊天室管理员角色和可管理外接程序的 Lync Server 管理员角色。持久聊天服务器只提供一个持久聊天管理员角色（类似于其他 Lync）基于服务器角色的访问控制（RBAC）角色）。 此 RBAC 角色的成员的任何人都可以管理聊天室、外接程序和类别（因此获取这些类别的用户访问权限）以及持久聊天服务器池的配置。
+Lync Server 2010，组聊天具有用户管理员角色、聊天室管理员角色和可管理外接程序的 Lync Server 管理员角色。持久聊天服务器只提供一个持久聊天管理员角色（类似于其他 Lync Server 角色的访问控制（RBAC）角色）。 此 RBAC 角色的成员的任何人都可以管理聊天室、外接程序和类别（因此获取这些类别的用户访问权限）以及持久聊天服务器池的配置。
 
 </div>
 
@@ -234,4 +234,3 @@ Lync Server 2013、持久聊天服务器中存在开放式聊天室的新概念�
 </div>
 
 </div>
-

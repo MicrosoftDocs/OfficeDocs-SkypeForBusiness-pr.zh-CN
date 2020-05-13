@@ -12,12 +12,12 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7ce430ccc808d98d38e718e0628bb62f3b5aa08
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dad03a196b6909d2657b7dbc8463653bb004a310
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184235"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221506"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,19 +83,19 @@ Microsoft Lync Server 2010 根据 Microsoft Lync Online 2010 和 Microsoft Offic
         
 
         > [!NOTE]
-        > 对于<STRONG>新的 SIP 联盟域</STRONG>，您必须为 Microsoft Lync Online （microsoft Office 365 <STRONG>）提供域名（或 FQDN）</STRONG> 。 对于 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器，你还必须提供<STRONG>访问边缘服务（FQDN）</STRONG>
+        > 对于<STRONG>新的 SIP 联盟域</STRONG>，您必须为 Microsoft Lync Online 和 microsoft 365 或 Office 365 提供<STRONG>域名（或 FQDN）</STRONG> 。 对于 Microsoft Lync Server 2013、Lync Server 2010 和 Office 通信服务器，你还必须提供<STRONG>访问边缘服务（FQDN）</STRONG>
 
         
         </div>
     
       - <span></span>  
-        对于已发现的合作伙伴联盟（合作伙伴可以在其中发现你的边缘服务器），请在外部 DNS- \_sipfederationtls 中创建一个 SRV 记录。\_tcp.contoso.com –指向边缘服务器的端口5061和主机（A）记录
+        对于已发现的合作伙伴联盟（合作伙伴可以在其中发现你的边缘服务器），请在外部 DNS-sipfederationtls 中创建一个 SRV 记录 \_ 。 \_tcp.contoso.com –指向边缘服务器的端口5061和主机（A）记录
         
         <div>
         
 
         > [!IMPORTANT]
-        > 如果要在 Windows Phone 或 Apple iPhone、iPad 或其他 Apple 设备上支持 Microsoft Lync 移动客户端，并且使用的是推送通知服务或推送通知服务，则必须规划 _sipfederationtls _tcp。 &lt;您拥有&gt; Lync 移动客户端的每个 sip 域的 SIP 域 SRV 记录。 Android 和 Nokia Symbian Lync Mobile 不使用推送通知，也不受此要求的制约。
+        > 如果要在 Windows Phone 或 Apple iPhone、iPad 或其他 Apple 设备上支持 Microsoft Lync 移动客户端，并且使用的是推送通知服务或推送通知服务，则必须规划 _sipfederationtls _tcp。 &lt;&gt;您拥有 Lync 移动客户端的每个 sip 域的 SIP 域 SRV 记录。 Android 和 Nokia Symbian Lync Mobile 不使用推送通知，也不受此要求的制约。
 
         
         </div>

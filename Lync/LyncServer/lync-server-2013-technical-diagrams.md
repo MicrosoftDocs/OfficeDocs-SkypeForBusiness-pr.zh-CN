@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a76769398b93e422a3d9cad2f8f84ad1c6f8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194975"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219682"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42194975"
 
 _**上次修改的主题：** 2014-03-14_
 
-**摘要：** 这些关系图提供了适用于 Lync 2013 的推荐解决方案的直观表示形式。
+**摘要：**  这些图表提供了适用于 Lync 2013 的推荐解决方案的直观表示形式。
 
 这些资源可用于 Visio （.vsd）格式（Visio 2010 或 Visio 2013）和 PDF 格式。 有关如何打印文档的信息，请参阅打印海报的提示。
 
@@ -136,7 +136,7 @@ _**上次修改的主题：** 2014-03-14_
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">使用 Microsoft 的 Zoom.it 充分了解海报的详细信息</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">PDF 版本</a>（最适用于移动设备或平板电脑）</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Visio 版本</a>（最适用于 visio 用户）</p></td>
-<td><p>此海报介绍了适用于 Lync 2013 的平台选项： Bdm 和架构师客户可以使用 Office 365、混合 Lync、Lync Server 本地和托管 Lync 从 Lync Online 中进行选择。 此海报包括每个体系结构选项的详细信息，包括每个选项最理想的方案、许可要求和 IT 专业人员的职责。</p>
+<td><p>此海报介绍了适用于 Lync 2013 的平台选项，以及客户可以使用 Microsoft 365、混合 Lync、Lync Server 本地和托管 Lync 从 Lync Online 中进行选择。 此海报包括每个体系结构选项的详细信息，包括每个选项最理想的方案、许可要求和 IT 专业人员的职责。</p>
 <p>大小： 34-x 44 英寸</p>
 <p>此海报是使用 Visio 2013 创建的。 特定环境不需要进行任何修改。</p></td>
 </tr>

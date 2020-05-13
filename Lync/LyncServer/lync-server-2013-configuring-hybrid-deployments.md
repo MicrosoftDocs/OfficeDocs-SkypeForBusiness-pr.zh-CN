@@ -12,12 +12,12 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb9719b4a894ebd0f6cfb0e457eb557062861352
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fa4e4250288a31cab708d7c3eb11087b00c5d6a9
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206368"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221232"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2016-05-26_
 
 ## <a name="in-this-section"></a>本部分内容
 
-  - 如果你具有本地 Lync 部署，并且要在 Office 365 中将一些用户移动到云以使用 Lync Online，请参阅[使用 Lync online 为混合配置本地部署](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)。
+  - 如果你具有本地 Lync 部署，并且要在 Microsoft 365 或 Office 365 中将一些用户移动到云以使用 Lync Online，请参阅[使用 Lync online 为混合配置本地部署](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md)。
 
   - 如果你已在 Lync Online 中为 Lync 启用了用户，但在本地部署中未启用此功能，请参阅在[Lync Server 2013 中将用户从 Lync Online 移动到 lync 本地](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md)。
 

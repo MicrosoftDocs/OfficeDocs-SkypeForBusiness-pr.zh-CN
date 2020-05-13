@@ -12,12 +12,12 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b326f7ee869b060a423696817c21d7cb763bb0a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193175"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ _**上次修改的主题：** 2013-02-21_
     
 
     > [!TIP]
-    > 您可以缩小或扩展由定义<CODE>-Identity</CODE>和作用域（例如 "Site： Redmond"）返回的配置设置的范围，以仅返回网站 Redmond 的 new-csclsconfiguration。 如果您需要有关配置的给定部分的详细信息，您可以通过管道将输出传送到另一个 Windows PowerShell cmdlet。 例如，若要获取有关站点 "Redmond" 的配置中定义的方案的详细信息，请键入：<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > 您可以缩小或扩展由定义 <CODE>-Identity</CODE> 和作用域（例如 "site： Redmond"）返回的配置设置的范围，以仅返回网站 Redmond 的 new-csclsconfiguration。 如果您需要有关配置的给定部分的详细信息，您可以通过管道将输出传送到另一个 Windows PowerShell cmdlet。 例如，若要获取有关站点 "Redmond" 的配置中定义的方案的详细信息，请键入：<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>
@@ -85,7 +85,7 @@ _**上次修改的主题：** 2013-02-21_
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>为此配置定义的搜索词。 Office 365，不是本地部署。</p></td>
+    <td><p>为此配置定义的搜索词。 Office 365 或 Microsoft 365，不是本地部署。</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>SecurityGroups</strong></p></td>
@@ -137,7 +137,7 @@ _**上次修改的主题：** 2013-02-21_
     </tr>
     <tr class="even">
     <td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
-    <td><p>允许运行的 CLSAgent 的最低版本。 此元素适用于 Office 365。</p></td>
+    <td><p>允许运行的 CLSAgent 的最低版本。 此元素适用于 Office 365 或 Microsoft 365。</p></td>
     </tr>
     </tbody>
     </table>

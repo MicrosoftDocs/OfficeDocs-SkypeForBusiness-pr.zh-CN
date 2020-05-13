@@ -12,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e87b977dd70227d134e5feae8df2ea089e216df3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780741"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ _**上次修改的主题：** 2015-11-13_
     
       - 安装 Azure Active Directory 同步工具。 有关详细信息，请参阅 <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>。
     
-      - 若要使用户能够使用 Lync Online 的单一登录，请安装 Active Directory 联合身份验证<https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>服务。
+      - 若要使用户能够使用 Lync Online 的单一登录，请安装 Active Directory 联合身份验证服务 <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx> 。
     
       - 在本地部署中，在 Lync Server 命令行管理程序中，键入以下 cmdlet 以创建 Lync Online 的托管提供程序：
         
@@ -117,13 +117,13 @@ _**上次修改的主题：** 2015-11-13_
     
       - 将**Lyncdiscover.contoso.com** A 记录更新为指向本地反向代理服务器的 FQDN。
     
-      - 更新 ***\_sip *。\_** 要解析为本地 Lync 服务访问边缘服务的公共 IP 或 VIP 地址的 Tls.contoso.com SRV 记录。
+      - 更新 *** \_ sip *。 \_** 要解析为本地 Lync 服务访问边缘服务的公共 IP 或 VIP 地址的 Tls.contoso.com SRV 记录。
     
-      - 更新 ***\_sipfederationtls *。\_** 要解析为本地 Lync 服务访问边缘服务的公共 IP 或 VIP 地址的 Tcp.contoso.com SRV 记录。
+      - 更新 *** \_ sipfederationtls *。 \_** 要解析为本地 Lync 服务访问边缘服务的公共 IP 或 VIP 地址的 Tcp.contoso.com SRV 记录。
     
       - 如果您的组织使用拆分 DNS （有时称为 "split-大脑 DNS"），请确保通过内部 DNS 区域解析名称的用户被定向到前端池。
 
-6.  键入`Get-CsUser` cmdlet 以检查您要移动的用户的一些属性。 您希望确保将 HostingProviderProxyFQDN 设置为`"sipfed.online.lync.com"` ，并且正确设置了 SIP 地址。
+6.  键入 `Get-CsUser` cmdlet 以检查您要移动的用户的一些属性。 您希望确保将 HostingProviderProxyFQDN 设置为 `"sipfed.online.lync.com"` ，并且正确设置了 SIP 地址。
 
 7.  将 Lync Online 用户移动到本地 Lync。
     
@@ -141,15 +141,15 @@ _**上次修改的主题：** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    为**HostedMigrationOverrideUrl**参数指定的 url 的格式必须是运行托管迁移服务的池的 url，格式如下： *Https://\<pool FQDN\>/HostedMigration/hostedmigrationService.svc*。
+    为**HostedMigrationOverrideUrl**参数指定的 url 的格式必须是运行托管迁移服务的池的 url，格式如下： *Https:// \< pool FQDN \> /HostedMigration/hostedmigrationService.svc*。
     
-    您可以通过查看 Office 365 组织帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
+    您可以通过查看适用于 Microsoft 365 或 Office 365 组织帐户的 Lync Online 控制面板的 URL 来确定托管迁移服务的 URL。
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-organization"></a>确定 Office 365 组织的托管迁移服务 URL
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-organizaton"></a>确定您的 organizaton 的托管迁移服务 URL
     
-    1.  以管理员身份登录到 Office 365 组织。
+    1.  以管理员身份登录到你的 Microsoft 365 或 Office 365 组织。
     
     2.  打开**Lync 管理中心**。
     
@@ -173,7 +173,7 @@ _**上次修改的主题：** 2015-11-13_
     
 
     > [!NOTE]  
-    > Rtcxds 数据库的事务日志文件的默认最大大小为 16 GB。 如果一次移动大量用户，尤其是在启用了镜像的情况下，这可能不够大。 若要解决此情况，可以增加文件大小，也可以定期备份日志文件。 有关详细信息，请<A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>参阅。
+    > Rtcxds 数据库的事务日志文件的默认最大大小为 16 GB。 如果一次移动大量用户，尤其是在启用了镜像的情况下，这可能不够大。 若要解决此情况，可以增加文件大小，也可以定期备份日志文件。 有关详细信息，请参阅 <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A> 。
 
     
     </div>

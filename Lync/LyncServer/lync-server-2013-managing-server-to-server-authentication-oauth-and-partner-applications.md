@@ -12,12 +12,12 @@ ms:contentKeyID: 48183894
 ms.date: 05/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33f382fcbed7316948a865e7e7c75cf518b157fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7f3f32b4e0c13ea68df183d19b020118e32205b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185515"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,9 +57,9 @@ Lync Server 2013 支持三种服务器到服务器身份验证方案。 使用 L
 
   - 在本地安装 Lync Server 2013 和本地安装 Exchange 2013 和/或 Microsoft SharePoint Server 之间配置服务器到服务器的身份验证。
 
-  - 配置一对 Office 365 组件之间的服务器到服务器身份验证（例如，在 Microsoft Exchange 和 Microsoft Lync Server 之间，或在 Microsoft Lync Server 和 Microsoft SharePoint 之间）。
+  - 配置一对 Microsoft 365 组件之间的服务器到服务器身份验证（例如，在 Microsoft Exchange 和 Microsoft Lync Server 之间，或在 Microsoft Lync Server 和 Microsoft SharePoint 之间）。
 
-  - 在跨域环境中配置服务器到服务器身份验证（即，本地服务器和 Office 365 组件之间的服务器到服务器身份验证）。
+  - 在跨界环境中配置服务器到服务器身份验证（即，在本地服务器和 Microsoft 365 组件之间进行服务器到服务器的身份验证）。
 
 请注意，在此时间点，只有 Exchange 2013、SharePoint Server 和 Lync Server 2013 支持服务器到服务器身份验证;如果没有运行这些服务器之一，则将无法完全实现 OAuth 身份验证。
 
@@ -67,7 +67,7 @@ Lync Server 2013 支持三种服务器到服务器身份验证方案。 使用 L
 
 但是，如果您想使用 Lync Server 的某些新功能（例如“统一联系人存储”），则需要服务器到服务器身份验证。 使用统一的联系人存储，Lync Server 2013 联系人信息存储在 Exchange 2013 中，而不是存储在 Lync Server 中;这使用户可以在 Lync、Microsoft Outlook 或 Microsoft Outlook Web Access 中提供一组可随时访问的联系人。 由于统一联系人存储要求 Lync Server 2013 与 Exchange 2013 共享信息，因此必须使用服务器到服务器身份验证才能部署该功能。 如果您选择使用 Exchange 存档（其中即时消息会话的脚本保存为 Exchange 2013 电子邮件，而不是单个数据库记录），则也需要服务器到服务器身份验证。
 
-对于 Office 365 版本的 Lync Server，若要与其 Exchange 副本进行通信，Lync Server 2013 必须首先从授权服务器获取一个安全令牌。 然后，Lync Server 使用该安全令牌向 Exchange 标识自己。 Office 365 版本的 Exchange 必须经过相同的过程才能与 Lync Server 2013 通信。
+对于 Microsoft 365 版本的 Lync Server，若要与其 Exchange 副本进行通信，Lync Server 2013 必须首先从授权服务器获取一个安全令牌。 然后，Lync Server 使用该安全令牌向 Exchange 标识自己。 Microsoft 365 版本的 Exchange 必须经过相同的过程才能与 Lync Server 2013 通信。
 
 但是，对于两台 Microsoft 服务器之间的本地服务器到服务器身份验证，不需要使用第三方令牌服务器。 服务器产品（例如 Lync Server 2013 和 Exchange 2013）具有内置令牌服务器，可用于与支持服务器到服务器身份验证的其他 Microsoft 服务器（如 SharePoint Server）进行身份验证。 例如，Lync Server 2013 本身可以颁发和签署安全令牌，然后使用该令牌与 Exchange 2013 进行通信。 在此类情况下，不需要第三方令牌服务器。
 

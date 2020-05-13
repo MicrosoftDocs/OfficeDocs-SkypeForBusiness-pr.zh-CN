@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de331cc4742a3a995a63ea4848e2515871fb5f69
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780241"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221212"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -412,8 +412,7 @@ _**上次修改的主题：** 2015-09-21_
 </table>
 
 
-1对 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户不可用。
-
+1对 Skype for Business Online、Microsoft 365 或 Office 365 用户不可用。
 </div>
 
 <div>
@@ -757,11 +756,11 @@ _**上次修改的主题：** 2015-09-21_
 </table>
 
 
-1对于 Microsoft 365 或 Office 365 用户，此功能仅适用于启用音频会议提供商（ACP）的会议。
+1对于 Office 365 和 Microsoft 365 用户，此功能仅适用于启用音频会议提供商（ACP）的会议。
 
 2不适用于 Microsoft 365 或 Office 365 用户。
 
-3对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，可从第三方音频会议提供商处获取此功能。
+3对于 Skype for Business Online、Microsoft 365 或 Office 365 用户，可从第三方音频会议提供商处获取此功能。
 
 无法从 Lync Mobile 2013 查看 Lync Web App 共享的 4A PowerPoint 演示文稿。 在 Lync 2013 桌面客户端上进行的批注在移动设备上不可见。
 
@@ -892,13 +891,13 @@ _**上次修改的主题：** 2015-09-21_
 </table>
 
 
-1 Lync Server 2013、Skype for Business Online 和 Office 365 用户可以通过点击图标呼叫其他 Lync 用户和 Skype 用户。 Lync Server 2013 用户也可以通过点击图标放置 PSTN 呼叫。
+1 Lync Server 2013、Skype for Business Online 和 Microsoft 365 或 Office 365 用户可以通过点击图标呼叫其他 Lync 用户和 Skype 用户。 Lync Server 2013 用户也可以通过点击图标放置 PSTN 呼叫。
 
 2对于本地 Lync Server 2013 用户，在 Windows Phone、iPhone 和 iPad 设备上，用户点击联系人卡片中的呼叫图标，并接受来自 Lync Server 2013 的回调。 对于 Microsoft 365 或 Office 365 用户，在 Windows Phone、iPhone 和 iPad 设备上，当用户点击 "呼叫" 按钮时，将打开一个对话框，要求用户确认他或她要呼叫该号码。
 
-3不适用于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户。
+3不适用于 Skype for Business Online、Microsoft 365 或 Office 365 用户
 
-4对于 Skype for Business Online 和/或 Microsoft 365 或 Office 365 用户，Microsoft 合作伙伴支持此功能。
+4对于 Skype for Business Online、Microsoft 365 或 Office 365 用户，Microsoft 合作伙伴支持此功能。
 
 </div>
 
@@ -973,7 +972,7 @@ _**上次修改的主题：** 2015-09-21_
 
 1默认情况下，向联合用户分配外部联系人隐私关系。 若要能够通过呼叫其发布的工作电话号码来访问其移动电话上的联盟联系人，联合联系人必须手动为你分配同事隐私关系。
 
-2不适用于 Office 365 用户。
+2不适用于 Microsoft 365 或 Office 365 用户。
 
 </div>
 
@@ -1080,4 +1079,3 @@ _**上次修改的主题：** 2015-09-21_
 </div>
 
 </div>
-
