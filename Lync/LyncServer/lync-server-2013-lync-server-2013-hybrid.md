@@ -12,12 +12,12 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1626b01f1cf008285e7d7fd12c6987c8da9f9ba4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 538f2163fe983e8ab886964e379b0c54c9de6dd8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186175"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42186175"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-hybrid"></a><span data-ttu-id="38f34-102">Lync Server 2013 混合</span><span class="sxs-lookup"><span data-stu-id="38f34-102">Lync Server 2013 hybrid</span></span>
+# <a name="lync-server-2013-hybrid"></a><span data-ttu-id="2854a-102">Lync Server 2013 混合</span><span class="sxs-lookup"><span data-stu-id="2854a-102">Lync Server 2013 hybrid</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42186175"
 
 <span> </span>
 
-<span data-ttu-id="38f34-103">_**上次修改的主题：** 2016-05-25_</span><span class="sxs-lookup"><span data-stu-id="38f34-103">_**Topic Last Modified:** 2016-05-25_</span></span>
+<span data-ttu-id="2854a-103">_**上次修改的主题：** 2016-05-25_</span><span class="sxs-lookup"><span data-stu-id="2854a-103">_**Topic Last Modified:** 2016-05-25_</span></span>
 
-<span data-ttu-id="38f34-104">使用 Lync 混合部署，您可以在本地拥有一些 Lync 用户，并且 Lync Online 中的其他用户都共享同一个域。</span><span class="sxs-lookup"><span data-stu-id="38f34-104">With Lync hybrid deployments, you can have some of your Lync users on-premises, and other users in Lync Online, both sharing the same domain.</span></span> <span data-ttu-id="38f34-105">这使您可以在不同的地理位置或远程连接的用户中更轻松地为组织的用户提供 Lync 服务。</span><span class="sxs-lookup"><span data-stu-id="38f34-105">This can make it easier to provide Lync services to users of your organization in different geographic locations or users that connect remotely.</span></span> <span data-ttu-id="38f34-106">您还可以利用 Lync 混合配置作为 Office 365 的迁移路径。</span><span class="sxs-lookup"><span data-stu-id="38f34-106">You can also take advantage of Lync hybrid configurations as a migration path to Office 365.</span></span>
+<span data-ttu-id="2854a-104">使用 Lync 混合部署，您可以在本地拥有一些 Lync 用户，并且 Lync Online 中的其他用户都共享同一个域。</span><span class="sxs-lookup"><span data-stu-id="2854a-104">With Lync hybrid deployments, you can have some of your Lync users on-premises, and other users in Lync Online, both sharing the same domain.</span></span> <span data-ttu-id="2854a-105">这使您可以在不同的地理位置或远程连接的用户中更轻松地为组织的用户提供 Lync 服务。</span><span class="sxs-lookup"><span data-stu-id="2854a-105">This can make it easier to provide Lync services to users of your organization in different geographic locations or users that connect remotely.</span></span> <span data-ttu-id="2854a-106">您还可以利用 Lync 混合配置作为 Microsoft 365 的迁移路径。</span><span class="sxs-lookup"><span data-stu-id="2854a-106">You can also take advantage of Lync hybrid configurations as a migration path to Microsoft 365.</span></span>
 
-<span data-ttu-id="38f34-107">本节介绍 Lync Server 2013 的混合配置。</span><span class="sxs-lookup"><span data-stu-id="38f34-107">This section describes hybrid configurations for Lync Server 2013.</span></span>
+<span data-ttu-id="2854a-107">本节介绍 Lync Server 2013 的混合配置。</span><span class="sxs-lookup"><span data-stu-id="2854a-107">This section describes hybrid configurations for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="38f34-108">本部分内容</span><span class="sxs-lookup"><span data-stu-id="38f34-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2854a-108">本部分内容</span><span class="sxs-lookup"><span data-stu-id="2854a-108">In This Section</span></span>
 
-[<span data-ttu-id="38f34-109">Lync Server 2013 混合部署概述</span><span class="sxs-lookup"><span data-stu-id="38f34-109">Overview of Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-overview-of-hybrid-deployments.md)
+[<span data-ttu-id="2854a-109">Lync Server 2013 混合部署概述</span><span class="sxs-lookup"><span data-stu-id="2854a-109">Overview of Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-overview-of-hybrid-deployments.md)
 
-[<span data-ttu-id="38f34-110">规划 Lync Server 2013 混合部署</span><span class="sxs-lookup"><span data-stu-id="38f34-110">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
+[<span data-ttu-id="2854a-110">规划 Lync Server 2013 混合部署</span><span class="sxs-lookup"><span data-stu-id="2854a-110">Planning for Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-planning-for-hybrid-deployments.md)
 
-[<span data-ttu-id="38f34-111">配置 Lync Server 2013 混合部署</span><span class="sxs-lookup"><span data-stu-id="38f34-111">Configuring Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-configuring-hybrid-deployments.md)
+[<span data-ttu-id="2854a-111">配置 Lync Server 2013 混合部署</span><span class="sxs-lookup"><span data-stu-id="2854a-111">Configuring Lync Server 2013 hybrid deployments</span></span>](lync-server-2013-configuring-hybrid-deployments.md)
 
 </div>
 
