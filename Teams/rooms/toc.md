@@ -7,6 +7,7 @@
 ### [要求](requirements.md)
 ### [联机许可](rooms-licensing.md)
 ### [利用 Azure Monitor 进行套餐管理](azure-monitor-plan.md)
+### [利用托管会议室进行计划管理](managed-meeting-rooms.md)
 
 ## 部署
 ### [部署概述](rooms-deploy.md)
@@ -25,7 +26,7 @@
 ## 管理
 ### [管理概述](rooms-manage.md)
 ### [维护和操作](rooms-operations.md)
-### [已知问题](known-issues.md)
+### [组织中的支持团队](known-issues.md)
 ### [具有 Azure Monitor 的设备](azure-monitor-manage.md)
 ### [具有 XML 文件的设置](xml-config-file.md)
 ### [使用恢复工具](recovery-tool.md)
