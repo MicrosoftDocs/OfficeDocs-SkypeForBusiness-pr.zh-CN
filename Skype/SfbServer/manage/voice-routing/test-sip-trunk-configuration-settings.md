@@ -1,5 +1,5 @@
 ---
-title: 在 Skype for Business 服务器中测试 SIP 中继配置设置
+title: 在 Skype for Business Server 中测试 SIP 中继配置设置
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。 '
-ms.openlocfilehash: 911947b33f0e609b4dd532ec5cc2c3d56a08618c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。 '
+ms.openlocfilehash: bed342de3f602499f16b9f27ee0726f10d2c867e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816932"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "42048185"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business 服务器中测试 SIP 中继配置设置
+# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在 Skype for Business Server 中测试 SIP 中继配置设置
 
-SIP 中继配置设置定义了在服务提供商处中介服务器和公共交换电话网络（PSTN）网关、IP 公共分支 exchange （PBX）或会话边界控制器（SBC）之间的关系和能力。 这些设置可执行如下所指定内容的操作：
+SIP 中继配置设置定义了中介服务器和服务提供商的公用电话交换网 (PSTN) 网关、IP 公用交换机 (PBX) 或会话边界控制器 (SBC) 之间的关系和功能。这些设置按下面的指示执行此类操作：
 
-- 是否在中继上启用媒体旁路功能。
-- 发送实时传输控制协议（RTCP）数据包的条件。
-- 每个主干上是否需要安全的实时协议（SRTP）加密。
+- 是否应对中继启用媒体旁路。
+- 发送实时传输控制协议 (RTCP) 数据包的条件。
+- 每个中继上是否需要安全实时协议 (SRTP) 加密。
 
-安装 Skype for Business 服务器时，将为你创建一个全局 SIP 中继配置设置集合。 此外，管理员可以在站点作用域或服务作用域创建自定义设置集合（仅适用于 PSTN 网关服务）。 管理员还可以使用[new-cstrunkconfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet 验证主干能否将用户所拨的号码转换为可由网关处理的号码。
+当您安装 Skype for Business Server 时，将为您创建 SIP 中继配置设置的全局集合。 此外，管理员还可以在站点作用域或服务作用域（仅针对 PSTN 网关服务）内创建自定义设置集合。 管理员还可以使用[remove-cstrunkconfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration) cmdlet 来验证中继是否可以将用户拨打的号码转换为可由网关处理的号码。
 
-只能使用 Windows PowerShell 和 Test-CsTrunkConfiguration cmdlet 测试中继配置设置。 此 cmdlet 既可以从 Skype for Business 服务器管理外壳运行，也可以从 Windows PowerShell 的远程会话运行。 
+只能使用 Windows PowerShell 和 Test-CsTrunkConfiguration cmdlet 测试中继配置设置。 此 cmdlet 可从 Skype for Business Server 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 
 
 **测试 SIP 中继配置设置**
 

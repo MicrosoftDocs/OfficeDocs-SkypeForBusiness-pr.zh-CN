@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何手动提交端口订单请求。
-ms.openlocfilehash: db47bd98b165607be778000538756b8821340488
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d4c0c594cd9cb26d3f0b8b054c140facd2733239
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827970"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224215"
 ---
 # <a name="manually-submit-a-port-order"></a>手动提交转网订单
 
@@ -31,28 +31,28 @@ ms.locfileid: "41827970"
 
 如果您的国家或地区未在 " [Microsoft 团队管理中心" 的迁移向导](transfer-phone-numbers-to-teams.md)中列出，请使用本文中的步骤手动创建和提交端口顺序。
 
-## <a name="manually-submit-a-port-order-request"></a>手动提交端口订单请求
+## <a name="manually-submit-a-new-port-order-request"></a>手动提交新的端口订单请求
 
-你可以通过在 Microsoft 365 管理中心创建服务请求或将已完成的授权（LOA）表单直接发送到你所在区域的 PSTN 服务中心，手动提交一个端口订单。
+你可以通过创建服务请求来手动提交新的端口订单，方法是通过将已完成的授权书（LOA）表单直接发送到你的区域或 Microsoft 365 管理中心中的 PSTN 服务台。
+
+### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>直接向 PSTN 服务支持部门发送您的授权信
+
+下载您所在国家或地区的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) ，完成表单，然后将其发送到您所在区域的[PSTN 服务台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)：
+
+- 在美国和加拿大，[发送您的请求](mailto:ptn@microsoft.com)。
+- 在欧洲，[发送您的请求](mailto:ptneu@microsoft.com)。
+- 在亚洲中，[发送您的请求](mailto:ptnapac@microsoft.com)。
 
 ### <a name="submit-a-service-request-in-the-microsoft-365-admin-center"></a>在 Microsoft 365 管理中心提交服务请求
 
-1. 在 Microsoft 365 管理中心的左侧导航中，转到 "**支持** > **新服务请求**"。  如果未看到 "**支持**" 列出，请通过在左侧导航中转到 "**自定义导航**" 来添加它，然后选中 "**支持**" 复选框。
+1. 在 Microsoft 365 管理中心的左侧导航中，转到 "**支持**  >  **新服务请求**"。  如果未看到 "**支持**" 列出，请通过在左侧导航中转到 "**自定义导航**" 来添加它，然后选中 "**支持**" 复选框。
 2. 在 "**需要帮助？** " 窗格中，选择 "**联系支持**人员"。
 3. 在 "**联系人支持**" 窗格中，执行下列操作：
 
     1. 输入你的请求的标题（例如，"端口订单请求"）和说明，确认你的电话号码和电子邮件地址，然后选择你的首选联系方法。
-    2. 在 "**附件**" 下，单击 "**添加文件**"，然后上传已完成的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers)。
+    2. 在 "**附件**" 下，单击 "**添加文件**"，然后上传已完成的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
     3. 单击 "**与我联系**"。
-
-### <a name="send-your-letter-of-authorization-directly-to-the-pstn-service-desk"></a>直接向 PSTN 服务支持部门发送您的授权信
-
-下载您所在国家或地区的[LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md#letters-of-authorization-loas-for-transferring-numbers) ，完成表单，然后将其发送到您所在区域的[PSTN 服务台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)：
-
-- 在美国，[发送您的请求](mailto:ptn@microsoft.com)。
-- 在欧洲，[发送您的请求](mailto:ptneu@microsoft.com)。
-- 在亚洲中，[发送您的请求](mailto:ptnapac@microsoft.com)。
-  
+    
 ## <a name="what-else-should-you-know-about-number-porting"></a>你还应该知道有关订单移植的哪些信息？
 
 - 要使用通话计划，您必须为用户购买和分配许可证。 请参阅[团队附加许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。

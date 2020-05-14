@@ -1,5 +1,5 @@
 ---
-title: 在 Office 365 语音邮件中为用户启用企业语音在线和电话系统
+title: 为用户启用企业语音在线和电话系统语音邮件
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,25 +18,25 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: 了解如何为你的 Skype for Business 用户启用 Office 365 语音服务中的电话系统。
-ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 了解如何为你的 Skype for Business 用户启用电话系统语音服务。
+ms.openlocfilehash: 522da56969f851280812670692a27d94e4df09a8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780721"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221102"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>在 Office 365 语音邮件中为用户启用企业语音在线和电话系统
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>为用户启用企业语音在线和电话系统语音邮件
  
-了解如何为你的 Skype for Business 用户启用 Office 365 语音服务中的电话系统。
+了解如何为你的 Skype for Business 用户启用电话系统语音服务。
   
-在使用本地 PSTN 连接的 Office 365 中部署电话系统的最后一步是为用户启用 Office 365 和语音邮件中的电话系统。 若要启用这些功能，您必须是具有全局管理员角色的用户，并且能够运行远程 PowerShell。 对于尚未为 Skype for business Online 启用企业语音的所有用户帐户，您需要按照本主题中的步骤操作。
+部署具有本地 PSTN 连接的电话系统的最后一步是为用户启用电话系统和语音邮件。 若要启用这些功能，您必须是具有全局管理员角色的用户，并且能够运行远程 PowerShell。 对于尚未为 Skype for business Online 启用企业语音的所有用户帐户，您需要按照本主题中的步骤操作。
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>启用 Office 365 语音服务中的电话系统
+## <a name="enable-phone-system-voice-services"></a>启用电话系统语音服务
 
-若要为用户启用 Office 365 语音和语音邮件中的电话系统，需要执行一些初始步骤，如检查是否在服务器上部署了 Skype for Business Online 连接器并为用户启用托管语音邮件。
+若要为用户启用电话系统语音和语音邮件，您需要执行一些初始步骤，如检查是否在服务器上部署了 Skype for Business Online 连接器以及是否为您的用户启用托管的语音邮件。
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>为用户启用 Office 365 语音和语音邮件中的电话系统
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>为用户启用电话系统语音和语音邮件
 
 1. 在开始之前，请检查是否在前端服务器上部署了 Skype for Business Online 连接器（Windows PowerShell 模块）。 如果不是，则可以从[下载中心](https://www.microsoft.com/download/details.aspx?id=39366)下载它。 您可以在[为计算机配置 Skype for Business Online 管理](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx)中找到有关使用此模块的详细信息。
     
@@ -87,9 +87,9 @@ ms.locfileid: "43780721"
     > [!NOTE]
     > 您还可以通过其 SIP 地址、用户主体名称（UPN）、域名和用户名（域 \ 用户名）以及 Active Directory 中的显示名称（"Bob 凯利"）来指定用户。 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>为 Office 365 中启用了电话系统的用户更新线路 URI 和拨号计划
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>为已为电话系统启用的用户更新线路 URI 和拨号计划
 
-本节介绍如何为在 Office 365 中启用电话系统的用户更新线路 URI 和拨号计划。 
+本节介绍如何为启用了电话系统的用户更新线路 URI 和拨号计划。 
   
 ### <a name="to-update-the-line-uri"></a>更新线路 URI
 
@@ -141,12 +141,12 @@ ms.locfileid: "43780721"
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>使用本地 Windows PowerShell cmdlet 更新语音路由策略
 
-本节介绍如何更新为 Office 365 中的电话系统启用的用户的语音路由策略。
+本节介绍如何更新为电话系统启用的用户的语音路由策略。
   
-Office 365 中的电话系统用户必须为其分配一个语音路由策略，以便呼叫能够成功路由。 这与需要向其分配语音策略以允许呼叫成功路由的本地业务语音用户不同。 语音路由策略应包含 PSTN 用法，用于定义适用于 Office 365 用户的电话系统的授权呼叫和路由。 您可以将这些 PSTN 用法从现有语音策略复制到新的语音路由策略。 有关详细信息，请参阅[grant-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
+电话系统用户必须为其分配一个语音路由策略，以便呼叫能够成功路由。 这与需要向其分配语音策略以允许呼叫成功路由的本地业务语音用户不同。 语音路由策略应包含 PSTN 用法，用于定义电话系统用户的授权呼叫和路由。 您可以将这些 PSTN 用法从现有语音策略复制到新的语音路由策略。 有关详细信息，请参阅[grant-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
   
 > [!NOTE]
-> Office 365 用户中的所有电话系统均被分配了名为 BusinessVoice 的相同联机语音策略，用于定义允许的呼叫功能;例如，允许同时响铃。 
+> 所有电话系统用户都被分配了名为 BusinessVoice 的相同联机语音策略，该策略定义了允许的呼叫功能;例如，允许同时响铃。 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>向单个用户分配每用户语音路由策略
 

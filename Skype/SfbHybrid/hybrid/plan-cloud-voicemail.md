@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍了实施 Microsoft 云语音邮件服务的好处、规划注意事项和要求。 有关配置云语音邮件的信息，请参阅配置云语音邮件。
-ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
-ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
+ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210628"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221282"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>为本地用户规划云语音邮件服务
 
@@ -31,7 +31,7 @@ ms.locfileid: "44210628"
 
 - 使用 Skype for Business Online 或 Outlook 客户端访问用户的 Exchange 邮箱中的语音邮件
 
-- 使用基于 web 的 Office 365 门户管理语音邮件选项的能力
+- 使用 Microsoft 365 管理中心管理语音邮件选项的功能
 
 - 在本地或在云中支持 Exchange 邮箱
 
@@ -46,7 +46,7 @@ Skype for Business Server 2019 继续为其邮箱位于早期版本的 Exchange 
 - 无需配置 Exchange UM 角色。
 - 云语音邮件的设置任务更简单。
 - 对语音邮件功能的更新是直接在云中传递的，因此，您的用户始终可以访问最新的功能和更新，而不依赖于累积更新（Cu）。
-- 对于内部部署和联机 Exchange 邮箱，都具有相同的控件集。 有关这些控件的详细信息，请参阅[设置电话系统语音邮件](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US)。
+- 对于内部部署和联机 Exchange 邮箱，都具有相同的控件集。 有关这些控件的详细信息，请参阅[设置电话系统语音邮件](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d)。
 
 下图显示了混合部署中的云语音邮件：
 
@@ -73,7 +73,7 @@ Skype for Business Server 2019 继续为其邮箱位于早期版本的 Exchange 
 
 - 混合连接性。 如果已部署 Skype for Business Server，并且要为本地用户启用云语音邮件，则必须确保在本地和联机环境之间设置混合连接。 这有时称为拆分域配置。
 
-   有关详细信息，请参阅[规划 skype For Business server 和 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 和 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
+   有关详细信息，请参阅[规划 skype For Business server 与 Microsoft 365 或 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 和 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
 
 - 必须在 Skype for Business Server 中为企业语音和托管语音邮件启用本地用户。
 

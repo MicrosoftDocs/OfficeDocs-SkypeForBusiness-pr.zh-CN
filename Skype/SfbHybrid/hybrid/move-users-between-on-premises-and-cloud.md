@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在启用了混合的 Skype for Business Server 的本地部署中，可以在本地环境和云（无论是 Microsoft 团队还是 Skype for Business Online）之间移动用户。。
-ms.openlocfilehash: aea3bed7db6c7821d957aa0e6d56cbafd548edb7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: eede6062bd9d03a2d9d6062a6dacb861ce37e14c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780081"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221122"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在本地与云之间移动用户
 
@@ -41,8 +41,8 @@ ms.locfileid: "43780081"
 - 组织必须正确配置 Azure AD Connect，并按照[Configure AZURE AD Connect](configure-azure-ad-connect.md)中所述，同步用户的所有相关属性。
 - 必须配置 skype for Business 混合，如[配置 skype For business 混合](configure-federation-with-skype-for-business-online.md)中所述。
 - 必须为用户分配 Skype for Business Online（计划 2）许可证，如果他们将使用 Teams，还必须具有 Teams 许可证。  此外：
-    - 如果用户在本地启用了电话拨入式会议，默认情况下，在运行 "移动用户" 联机之前，用户还必须具有在 Office 365 中分配的音频会议许可证。 迁移到云后，将在云中为用户预配音频会议。 如果由于某种原因需要将用户移动到云，但不使用音频会议功能，则可以通过在中`BypassAudioConferencingCheck` `Move-CsUser`指定参数来覆盖此检查。
-    - 如果用户在本地启用了企业语音，则默认情况下，用户必须具有在 Office 365 中分配的电话系统许可证，然后才能将用户联机。 迁移到云后，将在云中为用户预配手机系统。 如果出于某种原因您想要将用户移动到云，但不使用电话系统功能，则可以通过在中`BypassEnterpriseVoiceCheck` `Move-CsUser`指定参数来覆盖此检查。
+    - 如果用户在本地启用了电话拨入式会议，默认情况下，在运行 "移动用户" 联机之前，用户还必须具有在 Microsoft 365 或 Office 365 中分配的音频会议许可证。 迁移到云后，将在云中为用户预配音频会议。 如果由于某种原因需要将用户移动到云，但不使用音频会议功能，则可以通过在中指定参数来覆盖此检查 `BypassAudioConferencingCheck` `Move-CsUser` 。
+    - 如果用户在本地启用了企业语音，则默认情况下，用户必须具有在 Microsoft 365 或 Office 365 中分配的电话系统许可证，然后才能将用户联机。 迁移到云后，将在云中为用户预配手机系统。 如果出于某种原因您想要将用户移动到云，但不使用电话系统功能，则可以通过在中指定参数来覆盖此检查 `BypassEnterpriseVoiceCheck` `Move-CsUser` 。
 
 
 ## <a name="moving-users"></a>移动用户
@@ -62,13 +62,13 @@ ms.locfileid: "43780081"
 
 ## <a name="required-administrative-credentials"></a>所需管理凭据
 
-若要在本地和云之间移动用户，必须在本地 Skype for Business Server 环境以及 Office 365 组织中使用具有足够权限的帐户。 可使用一个具有所有所需权限的帐户，也可以使用两个帐户，在这种情况下，可使用本地凭据访问本地工具，然后在这些工具中为 Office 365 管理帐户提供额外凭据。  
+若要在内部部署和云之间移动用户，您必须在本地 Skype for Business Server 环境以及 Microsoft 365 或 Office 365 组织中使用具有足够权限的帐户。 您可以使用一个具有所有必要权限的帐户，也可以使用两个帐户，在这种情况下，可以使用本地凭据访问本地工具，然后在这些工具中为 Microsoft 365 或 Office 365 管理帐户提供其他凭据。  
 
 - 在本地环境中，执行移动的用户必须具有 Skype for Business Server 中的 CSServerAdminstrator 角色。
-- 在 Office 365 中，执行移动的用户必须是全局管理员，或者必须同时具有 Skype for Business 管理员和用户管理员角色。  
+- 在 Microsoft 365 和 Office 365 中，执行移动的用户必须是全局管理员，或者必须具有 Skype for Business 管理员和用户管理员角色。  
 
     > [!Important]
-    > - 如果使用的是 Skype for Business 管理员控制面板，系统将提示你提供具有适当角色的 Office 365 帐户凭据，如上文所述。 您必须提供以. onmicrosoft.com 结尾的帐户。 如果不可能，请使用 Get-csuser cmdlet。
+    > - 如果使用的是 Skype for Business 管理控制面板，系统会提示你为 Microsoft 365 或 Office 365 帐户提供凭据，如上文所述。 您必须提供以. onmicrosoft.com 结尾的帐户。 如果不可能，请使用 Get-csuser cmdlet。
     >- 如果您在 PowerShell 中使用 Get-csuser，则可以使用 onmicrosoft.com 中的某个帐户，也可以使用任何已同步到 Azure AD 的本地帐户，前提是您还在 cmdlet 中指定了 HostedMigrationOverrideUrl 参数。 托管迁移替代 URL 的值是以下 URL 的变体：https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>在上面的 URL 中，将 XX 替换为两个或三个字符，按如下所示进行确定：
     >   - 在 Skype for Business Online PowerShell 会话中，运行以下 cmdlet：<br>`Get-CsTenant|ft identity`
     >    - 结果值将采用以下格式：<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`

@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 阅读本主题，了解如何在 Microsoft 365 或 Office 365 中设置 Skype 会议室系统帐户。
-ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: dd79081c690863a5851295ab48a950b3f7af66af
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779708"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221846"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在 Microsoft 365 和 Office 365 中预配 Skype 会议室系统帐户
  
-阅读本主题，了解如何在 Office 365 中设置 Skype 会议室系统帐户。
+阅读本主题，了解如何在 Microsoft 365 或 Office 365 中设置 Skype 会议室系统帐户。
   
-以下部分介绍了 Office 365 组织的 Skype 会议室系统帐户设置。
+以下部分介绍了 Skype 会议室系统帐户预配。
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Microsoft 365 和 Office 365 先决条件
 
@@ -41,7 +41,7 @@ ms.locfileid: "43779708"
     
   - Skype for Business Online 远程 PowerShell 访问
     
-  - 用于 Windows PowerShell 的 windows Azure Active Directory 模块以访问 Office 365 目录访问
+  - 用于 Windows PowerShell 的 windows Azure Active Directory 模块，用于访问 Microsoft 365 或 Office 365 目录访问权限
     
 对于 Skype 会议室帐户，需要以下许可：
   
@@ -55,9 +55,9 @@ ms.locfileid: "43779708"
     
 ## <a name="provisioning-overview"></a>预配概述
 
-下图概述了 Office 365 中的 Skype 会议室系统帐户预配流。
+下图提供了 Skype 会议室系统帐户预配流的概述。
   
-![O365 的 Skype 会议室系统预配步骤](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype 会议室系统预配步骤](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>标识新的会议室
 
@@ -93,7 +93,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>分配 Skype for Business Online 许可证
 
-现在，您可以使用 Office 365 管理门户（如在 Office 365 for business 或[Skype For business 附加许可](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)中[分配或删除许可证](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)中所述），分配 skype For business online （计划2）或 skype For business online （计划3）许可证。 
+现在，您可以使用 Microsoft 365 管理门户（在为 Microsoft 365 for business 或[Skype For business 附加许可](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)中[分配或删除许可证](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US)中所述），分配 skype For business online （计划2）或 skype For business online （计划3）许可证。 
   
 为 Skype for business Online 分配许可证后，你将能够使用任何 Skype for business 客户端登录并验证帐户是否处于活动状态。
   
@@ -126,7 +126,7 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
 
 ## <a name="password-expiration"></a>密码有效期
 
-在 Office 365 中，除非您配置不同的密码过期策略，否则所有用户帐户的默认密码过期策略都是90天。 对于 Skype 会议室系统帐户，你可以使用以下步骤选择 "密码永不过期" 设置。
+在 Microsoft 365 或 Office 365 中，所有用户帐户的默认密码过期策略都是90天，除非您配置了不同的密码过期策略。 对于 Skype 会议室系统帐户，你可以使用以下步骤选择 "密码永不过期" 设置。
   
 1. 使用租户全局管理员凭据创建 Windows Azure Active Directory 会话。
     

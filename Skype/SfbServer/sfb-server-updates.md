@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一个位置查找并管理 Skype for business Server 2015/2019 和 Lync 2013 的更新。 单击此页面上的链接可以详细了解并下载这些更新。
-ms.openlocfilehash: f1644a96542ae6b7a1ee5842d640b1581d660cae
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 5530816da6ca5561439a8a6620cd132eeb86ab44
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928245"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220542"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新
 
 在一个位置查找和管理[skype for Business server 2019](#skype-for-business-server-2019-update-history)、 [Skype for business server 2015](#skype-for-business-server-2015-update-history)、 [Lync server 2013](#lync-server-2013-update-history)和[lync server 2010](#lync-server-2010-update-history)更新。 单击此页面上的链接可以详细了解并下载这些更新。
 
-有关最新的 Skype for Business Online 和 Office 365 更新，请参阅[Microsoft 365 路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
+有关最新的 Skype for Business Online 和 Microsoft 365 更新，请参阅[Microsoft 365 路线图](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Skype for Business Server 2019 更新历史记录
 

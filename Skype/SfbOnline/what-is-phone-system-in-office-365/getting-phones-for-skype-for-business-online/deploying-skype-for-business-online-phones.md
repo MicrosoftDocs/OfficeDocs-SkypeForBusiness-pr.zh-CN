@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解部署步骤以获取正确的固件、根据需要更新、分配许可证以及配置 Skype for Business online 手机的设置
-ms.openlocfilehash: f4f1a36e5a2e98c4566a81b41bc6e6c281ac9a3b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 41c6ef53469ab2de3699fd17a2d181477e143fae
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113145"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220442"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署 Skype for Business Online 电话
 
@@ -222,7 +222,7 @@ BToE can be configured to operate in two modes:  *Auto*  (default) and *Manual* 
 ## <a name="related-topics"></a>相关主题
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../../what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
 
-[以下是 Office 365 中的电话系统功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[电话系统的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 概述如何使用 Skype for Business Online 遥测工具监视混合方案中的本地实现。
-ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30ff8aebc739e0602f9700cbe9120d230845a023
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779658"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221312"
 ---
 # <a name="plan-call-data-connector"></a>规划呼叫数据连接器
 
@@ -60,12 +60,12 @@ ms.locfileid: "43779658"
 
 - 启用混合连接。 如果已部署 Skype for Business Server，并且想要启用呼叫数据连接器，则必须确保在本地和联机环境之间设置混合连接。 这有时称为拆分域配置。
 
-   有关详细信息，请参阅[规划 skype For Business server 和 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 和 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
+   有关详细信息，请参阅[规划 skype for Business server 与 microsoft 365 或 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 与 Microsoft 365 或 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
 
-- 对 Office 365 组织进行身份验证，并确保已启用以下角色：
+- 对 Microsoft 365 或 Office 365 组织进行身份验证，并确保已启用以下角色：
 
   - Skype for Business Server 管理员
-  - 全局管理员
+  - Microsoft 365 或 Office 365 全局管理员
 
 - 如果尚未执行此操作，请按照[打开和使用 Microsoft 团队和 Skype for Business Online 的通话质量仪表板](/microsoftteams/turning-on-and-using-call-quality-dashboard)中所述，打开呼叫质量仪表板。
 

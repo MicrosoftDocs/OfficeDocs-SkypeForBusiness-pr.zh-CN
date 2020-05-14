@@ -16,12 +16,12 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 58c264075608817ef805f7b6c58f8b39394fc369
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905494"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224225"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -40,11 +40,12 @@ ms.locfileid: "43905494"
 - 用户在 Microsoft Stream 中有足够的存储空间来保存录像
 - 用户的 TeamsMeetingPolicy-AllowCloudRecording 设置已设置为 true
 - 用户不是会议中的匿名、来宾或联合用户
+- 若要为用户的会议启用脚本，则分配给他们的团队会议策略必须具有-AllowTranscription 设置才能设置为 true。
 
-> [!NOTE]
-> 此外，若要允许发起录制的人员选择是否自动转录录制，该用户的 TeamsMeetingPolicy -AllowTranscription 设置必须设置为 true
+需要授予<sup>1</sup>个用户将会议上载/下载到 Microsoft Stream 的许可证，但不需要许可证即可录制会议。 如果你希望阻止用户录制 Microsoft Teams 会议，则必须为其授予将 AllowCloudRecording 设置为 $False 的 TeamsMeetingPolicy。
 
-<sup>1</sup>用户需要获得许可才能将会议上传到 Microsoft Stream 以及/或从中下载会议，但录制会议不需要许可证。 如果你希望阻止用户录制 Microsoft Teams 会议，则必须为其授予将 AllowCloudRecording 设置为 $False 的 TeamsMeetingPolicy。
+> [!IMPORTANT] 
+> 如果你希望用户仅记录和下载录制，则用户不需要分配 Microsoft Stream 许可证。 这意味着录制不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务（AMS）中，在删除之前将有30天的限制。 管理员可以控制或管理的内容不包括删除的功能。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>为组织中的用户设置 Teams 云会议录制
 
@@ -54,7 +55,7 @@ ms.locfileid: "43905494"
 
 Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一部分，或作为独立服务提供。  有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 现已包含在 Microsoft 365 商业版、Microsoft 365 商业标准版和 Microsoft 365 商业版中。
 
-深入了解如何[将许可证分配给 Office 365 中的用户](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Microsoft Stream。 请确保不会阻止用户使用 Microsoft Stream，正如[此文](https://docs.microsoft.com/stream/disable-user-organization)中所述。
+深入了解如何[将许可证分配给 Office 365 中的用户](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Microsoft Stream。 确保未阻止用户的 Microsoft Stream，如[Microsoft stream 的 "阻止登录](https://docs.microsoft.com/stream/disable-user-organization)" 中所定义。
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>确保用户在 Microsoft Stream 中上载视频权限
 
@@ -132,7 +133,7 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 
 ### <a name="planning-for-storage"></a>存储规划
 
-1 小时录像的大小为 400 MB。 请务必了解所录文件所需要的容量，并确保在 Microsoft Stream 中有足够的可用存储空间。  阅读[此文](https://docs.microsoft.com/stream/license-overview)，了解订阅中包含的基础存储空间以及如何购买额外的存储空间。
+1 小时录像的大小为 400 MB。 请务必了解所录文件所需要的容量，并确保在 Microsoft Stream 中有足够的可用存储空间。  阅读[Microsoft Stream 许可概述](https://docs.microsoft.com/stream/license-overview)以了解订阅中包含的基本存储以及如何购买其他存储空间。
 
 ## <a name="manage-meeting-recordings"></a>管理会议录像
 
@@ -140,7 +141,6 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 
 > [!NOTE]
 > 有关管理录像和用户访问的其他信息，请参阅[管理 Microsoft Stream 中的用户数据](https://docs.microsoft.com/stream/managing-user-data)和 [Microsoft Stream 中的权限和隐私](https://docs.microsoft.com/stream/portal-permissions)。
-
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会议录像的合规性和电子数据展示
 

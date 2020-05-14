@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 本主题讨论在连接到远程虚拟桌面时使用 Skype for Business 的规划注意事项。
-ms.openlocfilehash: c2972e2b453b6cf5592ddc8b3b48dfceee9a4e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6886eab8a13db852e0aa86b63d08aa33f82fdaed
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027993"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219522"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>在 VDI 环境中规划 Skype for Business
  
@@ -43,7 +43,7 @@ Microsoft、Citrix 或 VMWare 提供了三个可用于 VDI 插件组件的解决
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX 实时优化包
 <a name="Citrix_RT"> </a>
 
-Citrix 的 VDI 环境插件（XenApp 和 XenDesktop 的功能）与 Lync 2013 和 Skype for Business 2015 和2016（使用任意单击运行安装程序的完整客户端，或在已安装在虚拟机上的年1月 1 2017 日之后发布的 MSI 安装程序）兼容desktop. 其总体功能基于 Microsoft Lync VDI 插件，但在更广泛的客户端操作系统（包括 Windows 10、Macintosh 和 Linux）上运行。
+Citrix 的 VDI 环境插件（XenApp 和 XenDesktop 的一个功能）与 Lync 2013 和 Skype for Business 2015 和2016（使用任意单击运行安装程序的完整客户端，或在安装在虚拟机上的年 1 2017 月的更新之后发布的 MSI 安装程序）兼容。 其总体功能基于 Microsoft Lync VDI 插件，但在更广泛的客户端操作系统（包括 Windows 10、Macintosh 和 Linux）上运行。
   
 在将[Microsoft Skype For Business 发送到 XenApp 和 XenDesktop 用户](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)的 Citrix 网站上，可以找到功能和受支持的技术的完整列表。
   
@@ -62,7 +62,7 @@ VMWare 的 VDI 环境解决方案与安装在虚拟桌面上的 Skype for Busine
   
 可在 VMWare 网站上找到有关功能和受支持的技术的完整讨论，这些链接如下所示：
   
-- [VMware 地平线 7.4 &amp;地平线客户端4.7 中的新增功能](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
+- [VMware 地平线 7.4 &amp; 地平线客户端4.7 中的新增功能](https://blogs.vmware.com/euc/2018/01/vmware-horizon-7-4-horizon-client-4-7-whats-new.mdl)
     
 - [Skype for business 的地平线虚拟化包](https://www.vmware.com/products/horizon/skype-for-business.mdl)
     
@@ -161,10 +161,10 @@ Microsoft VDI 插件在[Microsoft LYNC vdi 2013 插件（32位）](https://www.m
     
 - 自定义铃声和保持音乐功能。
     
-Office 365 环境不支持 Lync VDI 插件。
+Microsoft 365 或 Office 365 环境中不支持 Lync VDI 插件。
   
 > [!NOTE]
-> Citrix 实时优化包支持 Office 365。 对于基于 Citrix 的虚拟环境，请查看 Citrix 的[技术概述](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl)文档，了解支持的功能和版本的列表。
+> Citrix 实时优化包支持 Microsoft 365 和 Office 365。 对于基于 Citrix 的虚拟环境，请查看 Citrix 的[技术概述](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl)文档，了解支持的功能和版本的列表。
   
 ## <a name="see-also"></a>另请参阅
 <a name="Citrix_RT"> </a>

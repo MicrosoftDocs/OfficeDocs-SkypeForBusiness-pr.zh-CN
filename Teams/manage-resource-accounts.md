@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，你将了解如何在 Microsoft 团队中创建、编辑和管理资源帐户。
-ms.openlocfilehash: a8023ddf27b28fc64cd76b38127f43d4509a702d
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 96c8b9028a63b87b19bebbd3d4724a202f798324
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041759"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224265"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -76,13 +76,13 @@ ms.locfileid: "44041759"
 
 1. 或获取收费或免费服务号码。 该号码不能分配给任何其他语音服务或资源帐户。
 
-   将电话号码分配给资源帐户之前，您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后，这些电话号码将显示在**Microsoft 团队管理中心** > **的语音** > **电话号码**中，**号码类型**将列为 "**服务-** 免费"。 若要获取你的服务号码，请参阅[获取服务电话号码](getting-service-phone-numbers.md)或要转移现有服务号码，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+   将电话号码分配给资源帐户之前，您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后，这些电话号码将显示在**Microsoft 团队管理中心**的  >  **语音**  >  **电话号码**中，**号码类型**将列为 "**服务-** 免费"。 若要获取你的服务号码，请参阅[获取服务电话号码](getting-service-phone-numbers.md)或要转移现有服务号码，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
    如果您要为资源帐户分配电话号码，您现在可以使用免费的电话系统虚拟用户许可证。 这将为组织级别的电话号码提供电话系统功能，并允许你创建自动助理和呼叫队列功能。
 
 2. 获取电话系统虚拟用户许可证或普通的电话系统许可证。
 
-   若要获取虚拟用户许可证，从 Microsoft 365 管理中心开始，请转到**帐单** > **购买服务** > **附加订阅**并滚动到 "结束"，您将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。 成本不为零，但仍需按照这些步骤获取许可证。
+   若要获取虚拟用户许可证，从 Microsoft 365 管理中心开始，请转到**帐单**  >  **购买服务**  >  **附加订阅**并滚动到 "结束"，您将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。 成本不为零，但仍需按照这些步骤获取许可证。
 3. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)。
 4. 为资源帐户分配电话系统-[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或电话系统许可证。 请参阅[分配 Microsoft 团队附加许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)和[向一个用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
 5. 将服务号码分配给资源帐户。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
@@ -106,7 +106,7 @@ ms.locfileid: "44041759"
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中创建资源帐户
 
-购买电话系统许可证后，使用 Microsoft 团队管理中心导航到**组织范围的设置** > **资源帐户**。
+购买电话系统许可证后，使用 Microsoft 团队管理中心导航到**组织范围的设置**  >  **资源帐户**。
 
 !["资源帐户" 页面的屏幕截图](media/r-a-master.png)
 
@@ -120,7 +120,7 @@ ms.locfileid: "44041759"
 
 ### <a name="edit-resource-account"></a>编辑资源帐户 
 
-![](media/teamscallout2.png)数字2的图标，引用上一个屏幕截图中的标注，您可以使用 "**编辑**" 选项编辑资源帐户的 "**显示名称**" 和 "**资源帐户**" 类型。 完成后单击 "**保存**"。
+![数字2的图标，引用上一个屏幕截图中的标注， ](media/teamscallout2.png) 您可以使用 "**编辑**" 选项编辑资源帐户的 "**显示名称**" 和 "**资源帐户**" 类型。 完成后单击 "**保存**"。
 
 !["编辑资源帐户" 选项的屏幕截图](media/r-a-edit.png)
 
@@ -128,7 +128,7 @@ ms.locfileid: "44041759"
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>分配/取消分配电话号码和服务
 
-![数字3的图标在以前的屏幕截图](media/teamscallout3.png)中引用标注一旦创建了资源帐户并分配了许可证，您可以单击 "**分配/取消**分配" 以将服务编号分配给资源帐户、设置电话号码类型或将资源帐户分配给已存在的特定自动助理或呼叫队列。 分配直接路由号码只能使用 Cmdlet 完成。 如果尚未创建要与资源帐户关联的呼叫队列或自动助理，请将该字段留空。 你可以在创建资源帐户时将其链接到该帐户。 完成后单击 "**保存**"。
+![数字3的图标在以前的屏幕截图中引用标注 ](media/teamscallout3.png) 一旦创建了资源帐户并分配了许可证，您可以单击 "**分配/取消**分配" 以将服务编号分配给资源帐户、设置电话号码类型或将资源帐户分配给已存在的特定自动助理或呼叫队列。 分配直接路由号码只能使用 Cmdlet 完成。 如果尚未创建要与资源帐户关联的呼叫队列或自动助理，请将该字段留空。 你可以在创建资源帐户时将其链接到该帐户。 完成后单击 "**保存**"。
 
 **电话号码类型**选项包括：
 
@@ -202,7 +202,7 @@ ms.locfileid: "44041759"
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理资源帐户设置
 
-若要在 Microsoft 团队管理中心中管理资源帐户设置，请导航到 "**组织范围的设置** > "**资源帐户**，选择要更改其设置所需的资源帐户，然后单击 "**编辑**" 按钮。 在 "**编辑资源帐户**" 屏幕中，你将能够更改这些设置：
+若要在 Microsoft 团队管理中心中管理资源帐户设置，请导航到 "**组织范围的设置**"  >  **资源帐户**，选择要更改其设置所需的资源帐户，然后单击 "**编辑**" 按钮。 在 "**编辑资源帐户**" 屏幕中，你将能够更改这些设置：
 
 - 帐户的**显示名称**
 - 呼叫队列或使用该帐户的自动助理
@@ -267,5 +267,7 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 [新-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
 [新-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
+
+[新-CsOnlineApplicationInstanceAssociation](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstanceassociation?view=skype-ps)
 
 [电话系统-虚拟用户许可证](teams-add-on-licensing/virtual-user.md)

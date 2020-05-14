@@ -13,16 +13,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 为 Skype for business Server 2019 设置资源帐户。
-ms.openlocfilehash: 0d7e52892c718f215a269201b73a547a97c13f96
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042839"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221132"
 ---
 # <a name="configure-resource-accounts"></a>配置资源帐户
 
-Skype for Business Server 2019 混合实施仅使用电话系统提供的用于统一消息的云服务，不与 Exchange Online 集成。 在 Skype for Business Server 2019 中，你现在可以使用[Office 365 中的电话系统获取](/MicrosoftTeams/here-s-what-you-get-with-phone-system)的云呼叫队列和自动助理。
+Skype for Business Server 2019 混合实施仅使用电话系统提供的用于统一消息的云服务，不与 Exchange Online 集成。 在 Skype for Business Server 2019 中，你现在可以使用此处介绍的云呼叫队列和自动助理，这些[是 Microsoft 365 或 Office 365 中的电话系统获取的内容](/MicrosoftTeams/here-s-what-you-get-with-phone-system)。
 
 若要将电话系统自动助理或呼叫队列与 Skype for Business Server 2019 一起使用，您需要创建充当应用程序终结点且可分配电话号码的资源帐户，然后使用联机团队管理中心配置呼叫队列或自动助理。 此资源帐户可以联机（请参阅[在 Microsoft 团队中管理资源帐户](/MicrosoftTeams/manage-resource-accounts)以创建托管资源帐户）或本地部署，如本文中所述。 通常，您将具有多个电话系统自动助理或呼叫队列节点，每个节点都映射到可联机或在 Skype for business Server 2019 中的资源帐户。
 
@@ -43,7 +43,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
 如果自动助理或呼叫队列嵌套在顶级自动助理下，则关联的资源帐户只需要一个电话号码，如果您希望将多个点输入到自动助理和呼叫队列的结构中。
 
-若要将呼叫重定向到组织中已联机的人员，他们必须具有**电话系统**许可证并启用企业语音或拥有 Office 365 通话套餐。 请参阅[分配 Microsoft 团队附加许可证](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)。 若要为企业语音启用它们，可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+若要将呼叫重定向到组织中已联机的人员，他们必须具有**电话系统**许可证并启用企业语音或拥有 Microsoft 365 或 Office 365 通话套餐。 请参阅[分配 Microsoft 团队许可证](/MicrosoftTeams/assign-teams-licenses)。 若要为企业语音启用它们，可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 如果要创建的电话系统自动助理或呼叫队列将嵌套，并且不需要电话号码，则该过程为：
 
@@ -58,7 +58,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
 1. 端口或获取收费或免费服务号码。 该号码不能分配给任何其他语音服务或资源帐户。
 
-   在向资源帐户分配电话号码之前，需要获取或移植现有收费或免费服务号码。 获取收费或免费服务电话号码后，它们将显示在**Microsoft 团队管理中心** > **的语音** > **电话号码**中，并且列出的**号码类型**将列为 "**服务-免费**"。 若要获取服务号码，请参阅[获取服务电话号码](/MicrosoftTeams/getting-service-phone-numbers); 如果要转移现有服务号码，请参阅[将电话号码转移给团队](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
+   在向资源帐户分配电话号码之前，需要获取或移植现有收费或免费服务号码。 获取收费或免费服务电话号码后，它们将显示在**Microsoft 团队管理中心**的  >  **语音**  >  **电话号码**中，并且列出的**号码类型**将列为 "**服务-免费**"。 若要获取服务号码，请参阅[获取服务电话号码](/MicrosoftTeams/getting-service-phone-numbers); 如果要转移现有服务号码，请参阅[将电话号码转移给团队](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)。
 
    如果你在美国之外，则无法使用 Microsoft 团队管理中心获取服务号码。 转到 "[管理你的组织的电话号码](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)"，以了解如何从美国以外的地区执行此操作。
 
@@ -68,7 +68,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
    - [Office 365 企业版 E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 企业版 E5 商业版软件](https://products.office.com/business/office-365-enterprise-e5-business-software)
 
-3. 通过对每个电话系统自动助理或呼叫`New-CsHybridApplicationEndpoint`队列运行 cmdlet 来创建本地资源帐户，并为每个电话系统自动助理或呼叫队列分配一个名称、sip 地址等。
+3. 通过对 `New-CsHybridApplicationEndpoint` 每个电话系统自动助理或呼叫队列运行 cmdlet 来创建本地资源帐户，并为每个电话系统自动助理或呼叫队列分配一个名称、sip 地址等。
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -76,7 +76,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
     有关此命令的更多详细信息，请参阅[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
 
-4. Optional创建资源帐户后，您可以等待 AD 在联机和内部部署之间同步，或者强制进行同步并继续进行电话系统自动助理或呼叫队列的联机配置。 若要强制进行同步，请在运行 AAD 连接的计算机上运行以下命令（如果尚未执行此操作，则需要加载`import-module adsync`才能运行该命令）：
+4. Optional创建资源帐户后，您可以等待 AD 在联机和内部部署之间同步，或者强制进行同步并继续进行电话系统自动助理或呼叫队列的联机配置。 若要强制进行同步，请在运行 AAD 连接的计算机上运行以下命令（如果尚未执行此操作，则需要加载 `import-module adsync` 才能运行该命令）：
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -89,7 +89,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
    如果要将电话号码分配给资源帐户，现在可以使用免费电话系统-虚拟用户许可证。 这样可以在组织级别为电话号码提供电话系统功能，并允许您创建自动助理和呼叫队列功能。
 
 
-6. 向资源帐户分配服务号码。 使用`Set-CsHybridApplicationEndpoint`命令将电话号码（带有-LineURI 选项）分配给资源帐户。
+6. 向资源帐户分配服务号码。 使用 `Set-CsHybridApplicationEndpoint` 命令将电话号码（带有-LineURI 选项）分配给资源帐户。
 
     ``` Powershell
     Set-CsHybridApplicationEndpoint -Identity appinstance01@contoso.com -LineURI tel:+14255550100
@@ -127,7 +127,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
 登录到 Skype for Business 前端服务器并运行以下 PowerShell cmdlet：
 
-1. 通过对每个电话系统自动助理或呼叫`New-CsHybridApplicationEndpoint`队列运行 cmdlet 来创建本地资源帐户，并为每个电话系统自动助理或呼叫队列分配一个名称、sip 地址等。
+1. 通过对 `New-CsHybridApplicationEndpoint` 每个电话系统自动助理或呼叫队列运行 cmdlet 来创建本地资源帐户，并为每个电话系统自动助理或呼叫队列分配一个名称、sip 地址等。
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -135,7 +135,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
     有关此命令的更多详细信息，请参阅[CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) 。
 
-2. Optional创建资源帐户后，您可以等待 AD 在联机和内部部署之间同步，或者强制进行同步并继续进行电话系统自动助理或呼叫队列的联机配置。 若要强制进行同步，请在运行 AAD 连接的计算机上运行以下命令（如果尚未执行此操作，则需要加载`import-module adsync`才能运行该命令）：
+2. Optional创建资源帐户后，您可以等待 AD 在联机和内部部署之间同步，或者强制进行同步并继续进行电话系统自动助理或呼叫队列的联机配置。 若要强制进行同步，请在运行 AAD 连接的计算机上运行以下命令（如果尚未执行此操作，则需要加载 `import-module adsync` 才能运行该命令）：
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -209,4 +209,4 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
 [新 CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps)
 
-[在 Microsoft 团队](/MicrosoftTeams/manage-resource-accounts) - \(中管理资源帐户以创建托管联机的资源帐户\)
+[在 Microsoft 团队](/MicrosoftTeams/manage-resource-accounts)  -  \( 中管理资源帐户创建驻留在网上的资源帐户\)

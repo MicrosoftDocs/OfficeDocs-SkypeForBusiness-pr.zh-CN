@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关为驻留在 Skype for business Server 上的用户实施基于云的语音邮件的说明。
-ms.openlocfilehash: 4542207beb3ccd090c1215a8832f53b3ab08ed97
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288710"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221456"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>为本地用户配置云语音邮件服务
 
@@ -84,7 +84,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - "**组织**" 是分配给租户的默认域。 您可以通过让租户管理员登录到 office.com，单击 "管理中心" 应用程序，导航到左侧的 "**安装**"，然后单击 "**域**" 来检索此信息。 例如： mytenant.onmicrosoft.com。
 
-    组织名称也是 Office 365 中的默认域名。
+    组织名称也是 Microsoft 365 或 Office 365 中的默认域名。
 
 若要确保已成功创建托管的语音邮件策略，请运行以下命令：
 
@@ -100,7 +100,7 @@ Get-CsHostedVoicemailPolicy
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>为用户启用云语音邮件

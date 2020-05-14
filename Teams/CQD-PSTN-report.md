@@ -3,7 +3,7 @@ title: 使用 CQD PSTN 直接路由报告
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: siunies
+ms.reviewer: siunies, fan.fan
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -15,19 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 CQD PSTN 直接路由报告监控 Microsoft 团队中的 PSTN 呼叫并进行故障排除。
-ms.openlocfilehash: 32d91d56e51c5706c3e460029312f3b6bb6948c3
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: a3a7d84a21858b8cb2039f3f5bb6efde6b9adaaa
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559388"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221746"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>使用 CQD PSTN 直接路由报告
 
 2020年3月新增，我们已将 CQD PSTN 直接路由报告添加到可下载[的 POWER BI 查询模板 FOR CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
 
 
-CQD PSTN 直接路由报告可帮助客户了解其 PSTN 服务的使用模式和质量。有关 SBC、电话服务、网络参数和网络有效性比率的详细信息和用法的信息业务. 此信息可帮助你识别问题，包括断开呼叫的原因。 例如，你将能够知道何时丢弃卷，多少通话受到了原因的影响。
+CQD PSTN 直接路由报告（CQD PSTN 直接路由报告 pbit）可帮助你了解 PSTN 服务的使用模式和质量。 使用此报告可监视服务使用情况、有关会话边界控制器（SBC）、电话服务、网络参数和网络有效性比率详细信息的信息。 此信息可帮助你识别问题，包括断开呼叫的原因。 例如，你将能够查看何时丢弃卷，或查看受影响的通话次数以及原因。
+
 
 CQD PSTN 直接路由报告包含四个部分：
 
@@ -39,6 +40,24 @@ CQD PSTN 直接路由报告包含四个部分：
 
   - [网络参数](#network-parameters)
 
+## <a name="highlights"></a>讲述
+
+1. 按呼叫类型、SBC、呼叫方和被叫方国家分析
+
+   CQD PSTN 直接路由报告将租户上所有 SBCs 的可靠性和使用指标聚合到最近7天、30天或180天（6个月）。 你可以按呼叫类型、SBC、呼叫方和被叫方国家/地区分析数据。 如果你对特定的 SBC 或国家感兴趣，你将能够识别所选时间范围内趋势的变化。
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="CQD PSTN 直接路由报告中提供的筛选器的屏幕截图":::
+   
+2. 跟踪趋势
+
+    当您尝试了解服务使用情况和可靠性时，趋势分析非常重要。 每小时趋势可提供一种密切了解的日常性能，可帮助确定实时事件。 每日趋势让你可以从长期角度查看你的服务运行状况。 在这两种模式之间进行移位非常重要，因为它具有适当的数据粒度。 CQD PSTN 直接路由报告提供6个月的趋势概述、7天和30天的每日趋势以及每小时趋势，以便你可以在每个级别分析性能。
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="CQD PSTN 直接路由报告中趋势图的屏幕截图":::
+
+3. 钻取至 SBC 或用户级别
+
+   我们已在 CQD 中构建了许多数据类别的钻取功能，这使你能够快速了解 SBC 或用户级别的使用情况或可靠性分布。 通过使用钻取，你可以快速 poinpoint 问题并了解实际的用户影响。 CQD PSTN 直接路由报告功能将在 "服务详细信息" 和 "网络有效性比率" 指标中进行钻取。 单击你感兴趣的数据点以钻取到 SBC 或用户级别的详细信息。
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="显示数据点上的钻取功能的屏幕截图":::
+
+
 ## <a name="pstn-overview"></a>PSTN 概述
 
 CQD PSTN 直接路由报告提供有关过去180天内服务的整体运行状况的以下信息。
@@ -49,7 +68,7 @@ CQD PSTN 直接路由报告提供有关过去180天内服务的整体运行状�
 | **拨出** | **说明**                                                                                                                                                 |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1            | 你可以使用顶部的筛选器向下钻取，并选择 "ByotIn" 作为 "呼叫类型"、"abc.bca.contoso.com" 作为 "会话 Boarder" 控制器和 "美国内部国家"。 |
-| ppls-2            | 过去180天的使用趋势。 你可以在服务详细信息页面上找到使用率详细信息报表。                                                                     |
+| 2            | 过去180天的使用趋势。 你可以在服务详细信息页面上找到使用率详细信息报表。                                                                     |
 | 3            | 过去180天后的拨号延迟、延迟、抖动和数据包损失趋势。 你可以在 "网络参数" 页面上找到详细报告。                           |
 | 4            | 过去180天内的同时通话和每日活动用户趋势。 此图可帮助你了解服务的最大数量。                            |
 | 5            | 最大通话结束原因过去180天受影响的服务质量。 你可以在 "网络有效比率（NER）" 页面上找到服务运行状况详细信息。                    |

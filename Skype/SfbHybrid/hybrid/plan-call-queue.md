@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用与 Skype for business Server 2019 的云自动助理的概述。
-ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 2186909b3ec905d6ec6d387bcea172d8fb80287c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510791"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221302"
 ---
 # <a name="plan-cloud-call-queues"></a>规划云呼叫队列
 
@@ -43,7 +43,7 @@ ms.locfileid: "43510791"
 
 - 混合连接性。 如果已部署 Skype for Business Server，并且要为本地用户启用云呼叫队列，则必须确保在本地和联机环境之间设置混合连接。 这有时称为拆分域配置。
 
-   有关详细信息，请参阅[规划 skype For Business server 和 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 和 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
+   有关详细信息，请参阅[规划 skype for Business server 与 microsoft 365 或 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 与 Microsoft 365 或 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
 
 - 如果要将电话号码分配给资源帐户，现在可以使用免费电话系统虚拟用户许可证。 这样可以在组织级别为电话号码提供电话系统功能，并允许您创建自动助理和呼叫队列功能。
 
@@ -65,8 +65,8 @@ ms.locfileid: "43510791"
 
 [设置云自动助理](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
-[规划 Skype for Business Server 与 Office 365 之间的混合连接](plan-hybrid-connectivity.md)
+[规划 Skype for Business Server 与 Microsoft 365 或 Office 365 之间的混合连接](plan-hybrid-connectivity.md)
 
-[配置 Skype for Business Server 和 Office 365 之间的混合连接](configure-hybrid-connectivity.md)
+[配置 Skype for Business Server 与 Microsoft 365 或 Office 365 之间的混合连接](configure-hybrid-connectivity.md)
 
 [在 Microsoft Teams 中管理资源帐户](/MicrosoftTeams/manage-resource-accounts)

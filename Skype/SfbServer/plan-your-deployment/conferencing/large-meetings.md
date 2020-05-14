@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要：阅读本主题，了解在 Skype for business Server 中实施和管理大型会议的最佳做法。
-ms.openlocfilehash: 18b0f036e49996564aa68735300f4e677ce5b1cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acb0dd1dbd0efe93b985ed2f9e143ef1538ecb86
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780231"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221252"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>在 Skype for Business Server 中规划大型会议
  
@@ -26,10 +26,10 @@ ms.locfileid: "43780231"
 Skype for Business Server 可以支持的会议大小取决于会议是位于共享池上，还是位于专用池上的1000参与者上，从共享池上的250参与者到任何位置。 
   
 > [!NOTE]
-> 本主题重点介绍 Skype for business Server 支持的大型会议的最佳实践。 如果您的组织需要更大的会议功能，应考虑实施使用 Skype 会议直播的混合环境，这是 Office 365 中的一种新联机服务。 
+> 本主题重点介绍 Skype for business Server 支持的大型会议的最佳实践。 如果您的组织需要更大的会议功能，应考虑实施使用 Skype 会议直播的混合环境，这是 Microsoft 365 和 Office 365 中的一种新联机服务。 
 
 > [!NOTE]
-> 通过 Skype 会议直播，用户可以将会议托管和广播到最多为10000个参与者的大型 online 访问群体。 使用 Skype 会议直播要求已在包含生产 Office 365 组织的混合设置中配置 Skype for Business Server。 所有用户必须具有作为先决条件建立的联机租户。 如果您希望部署可利用 Skype 会议直播功能的混合解决方案，请参阅[什么是 Skype 会议直播？](https://go.microsoft.com/fwlink/?LinkId=617071)并[为 Skype 会议直播配置本地部署](../../deploy/configure-skype-meeting-broadcast.md)。 
+> 通过 Skype 会议直播，用户可以将会议托管和广播到最多为10000个参与者的大型 online 访问群体。 使用 Skype 会议广播要求已在混合设置中使用生产 Microsoft 365 或 Office 365 组织配置 Skype for Business Server。 所有用户必须具有作为先决条件建立的联机租户。 如果您希望部署可利用 Skype 会议直播功能的混合解决方案，请参阅[什么是 Skype 会议直播？](https://go.microsoft.com/fwlink/?LinkId=617071)并[为 Skype 会议直播配置本地部署](../../deploy/configure-skype-meeting-broadcast.md)。 
   
 大型会议通常具有以下特征：
   

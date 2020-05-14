@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
-description: 地址验证是在 Office 365 中设置通话套餐的重要步骤。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
-ms.openlocfilehash: 12cd21d0be899b69abeeb787759fea702a98791c
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 地址验证是设置通话计划的重要部分。 它为组织中的用户提供了一个可供紧急响应服务使用的紧急通话地址。
+ms.openlocfilehash: 879c8681a65fc491fb9b0573b3cbf7f15e3276b1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769135"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220672"
 ---
 # <a name="why-is-number-activation-just-pending"></a>为什么数字激活仅待处理？
 
-地址验证是在 Office 365 中设置通话套餐的重要步骤。 如果由于某些原因而未激活电话号码，并且由于地址验证而列为**挂起**，则需要创建并提交服务请求。 你执行此操作的方式基于你的组织规模。
+地址验证是设置通话计划的重要部分。 如果由于某些原因而未激活电话号码，并且由于地址验证而列为**挂起**，则需要创建并提交服务请求。 你执行此操作的方式基于你的组织规模。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>对于人数为 150 人或更少的组织，请遵循下列步骤
 1. 在管理中心，选择 "**需要帮助**？"
@@ -39,12 +39,12 @@ ms.locfileid: "41769135"
 3. 如果“**查看解决方案**”部分中的结果没有帮助，请选择下列选项之一：
     - **允许我们呼叫你(建议)**：确认你的联系号码，然后按“**呼叫我**”。 “**需要帮助?**”窗格中会显示回拨的预期等待时间。
     - **给我们发送电子邮件**：确认你的电子邮件地址，然后选择“**发送**”。 “**需要帮助?**”窗格中会显示呼叫响应时间。
-
+ 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>对于人数超过 150 人的组织，创建验证紧急地址的服务请求
 
-1. 使用你的工作或学校帐户以管理员身份登录 Office 365。
+1. 使用你的工作或学校帐户以管理员身份登录 Microsoft 365 或 Office 365。
     
-2. 在管理中心的左侧导航中，单击 "**支持** > **新服务请求**"。
+2. 在管理中心的左侧导航中，单击 "**支持**  >  **新服务请求**"。
     
 3. 在“**服务请求**”下，单击“**添加**”。
     
@@ -69,7 +69,7 @@ ms.locfileid: "41769135"
       - 国家或地区
     
      > [!IMPORTANT]
-     > **填入我们在 Office 365 中提供通话套餐，并且当你分配电话号码时尝试验证其中的紧急地址的国家/地区。**
+     > **将您在分配电话号码时尝试验证紧急地址的电话计划放在该国家/地区。**
   
       - 邮政编码
     

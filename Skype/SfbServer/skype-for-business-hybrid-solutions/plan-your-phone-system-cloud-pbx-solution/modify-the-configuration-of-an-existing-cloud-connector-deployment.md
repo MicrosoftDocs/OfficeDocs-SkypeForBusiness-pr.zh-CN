@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: 按照本主题中的步骤修改现有 Skype for Business 云连接器 Edition 1.4.1 或更高版本部署的配置。
-ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4b551d7cd7a61a1113b4b2bb05e2c0f5ca4f3288
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779378"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220292"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改现有云连接器部署的配置
  
@@ -109,7 +109,7 @@ ms.locfileid: "43779378"
 
 若要修改部署中多个站点的配置，请按照单个站点的步骤操作，一次更新一个站点。
   
-## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>修改 Office 365 组织的配置以启用自动更新
+## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>修改 Microsoft 365 或 Office 365 组织的配置以启用自动更新
 <a name="BKMK_MultipleSites"> </a>
 
 若要启用操作系统自动更新和 Bits 自动更新，必须使用 Skype for Business 租户管理员帐户进行联机管理，并使用租户远程 PowerShell，如下所示。
@@ -161,9 +161,9 @@ ms.locfileid: "43779378"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>更新专用租户管理员凭据
 <a name="BKMK_MultipleSites"> </a>
 
-Office 365 组织中的云连接器管理更改是从具有所需权限的帐户进行的。 在2.0 之前的云连接器版本中，该帐户是专用的全局租户管理员帐户。 在云连接器版本2.0 及更高版本中，该帐户可以是具有 Skype for Business 管理员权限的 Office 365 帐户。
+Microsoft 365 或 Office 365 组织中的云连接器的管理更改是从具有所需权限的帐户进行的。 在2.0 之前的云连接器版本中，该帐户是专用的全局租户管理员帐户。 在云连接器版本2.0 及更高版本中，该帐户可以是具有 Skype for Business 管理员权限的 Microsoft 365 或 Office 365 帐户。
   
-如果您的管理员帐户凭据在 Office 365 中更改，您还需要在部署的每个云连接器设备上运行以下管理员 PowerShell 命令，以更新云连接器中的本地缓存凭据：
+如果您的管理员帐户凭据在 Microsoft 365 或 Office 365 中发生更改，您还需要在部署的每个云连接器设备上运行以下管理员 PowerShell 命令，以更新云连接器中的本地缓存凭据：
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
@@ -175,7 +175,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本节适用于云连接器版本2.0 及更高版本。 
   
-所有云连接器凭据都存储在以下文件中： "%Systemdrive%\programdata\cloudconnector\credentials. .xml\<CurrentUser\>"。 当主机服务器上的密码更改时，您将需要更新本地存储的凭据。
+所有云连接器凭据都存储在以下文件中： "%Systemdrive%\programdata\cloudconnector\credentials. .xml \<CurrentUser \> "。 当主机服务器上的密码更改时，您将需要更新本地存储的凭据。
   
 若要在云连接器设备上更新本地存储的凭据，请使用[set-cccredential](get-cccredential.md)和[set-cccredential](set-cccredential.md) cmdlet，并执行以下步骤：
   
@@ -191,7 +191,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. 重新启动主机服务器。
     
-4. 删除以下文件： "%Systemdrive%\programdata\cloudconnector\credentials. .xml\<CurrentUser\>"。
+4. 删除以下文件： "%Systemdrive%\programdata\cloudconnector\credentials. .xml \<CurrentUser \> "。
     
 5. 以管理员身份启动 PowerShell 控制台，然后运行 "Register-ccappliance-Local" 以在说明后面重新输入密码。 请确保输入的密码与您在云连接器部署之前输入的密码相同。
     
@@ -215,7 +215,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本节适用于云连接器2.0.1 和更高版本。 
   
-云连接器服务运行云连接器管理服务。 在云连接器版本部署过程中创建 CceService 帐户，并将其存储在以下文件中： "%Systemdrive%\programdata\cloudconnector\credentials. .xml\<CurrentUser\>"和"%SystemDrive%\Programdata\Cloudconnector\credentials。。CceService "。
+云连接器服务运行云连接器管理服务。 在云连接器版本部署过程中创建 CceService 帐户，并将其存储在以下文件中： "%Systemdrive%\programdata\cloudconnector\credentials. .xml \<CurrentUser \> "和"%SystemDrive%\Programdata\Cloudconnector\credentials。。CceService "。
   
 若要确保所有设备都能访问网站目录共享，CceService 帐户的密码必须在网站中部署的所有设备上都相同。 请注意以下几点：
   
@@ -271,18 +271,18 @@ Set-CcCredential -AccountType TenantAdmin
     
     - CcLockFile
     
-    - Site_\<边缘外部 Sip 池 fqdn\>
+    - Site_ \< 边缘外部 Sip 池 fqdn\>
     
-    - Tenant_\<边缘外部 Sip 池 fqdn\>
+    - Tenant_ \< 边缘外部 Sip 池 fqdn\>
     
-    - TenantConfigLock_\<边缘外部 Sip 池 fqdn\>
+    - TenantConfigLock_ \< 边缘外部 Sip 池 fqdn\>
     
 ## <a name="add-a-new-sip-domain"></a>添加新的 SIP 域
 <a name="BKMK_UpdatePassword"> </a>
 
 若要向现有云连接器部署添加新的 SIP 域（或多个 SIP 域），请执行以下操作：
   
-1. 请确保已完成在 Office 365 中更新域的步骤，并且能够添加 DNS 记录。 有关如何在 Office 365 中设置域的详细信息，请参阅[Add a domain To Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 请确保已完成在 Microsoft 365 或 Office 365 中更新域的步骤，并且能够添加 DNS 记录。 有关如何在 Microsoft 365 或 Office 365 中设置域的详细信息，请参阅[将域添加到 microsoft 365 或 office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 使用新的 SIP 域或域更新云连接器配置文件。
     
@@ -303,7 +303,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 如果您需要在云连接器部署中更改主要 SIP 域，请执行以下操作：
   
-1. 请确保已完成在 Office 365 中更新域的步骤，并且能够添加 DNS 记录。 有关如何在 Office 365 中设置域的详细信息，请参阅[Add a domain To Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 请确保已完成在 Microsoft 365 或 Office 365 中更新域的步骤，并且能够添加 DNS 记录。 有关如何在 Microsoft 365 或 Office 365 中设置域的详细信息，请参阅[将域添加到 microsoft 365 或 office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 使用新的 SIP 域更新云连接器配置文件。
     

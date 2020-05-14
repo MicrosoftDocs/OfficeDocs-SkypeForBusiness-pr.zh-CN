@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 部署一台或多台 Edge 服务器后，必须启用组织支持的外部访问类型。
-ms.openlocfilehash: e4405585da71dc48f5fa1790f83938a814270d84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
-ms.translationtype: HT
+ms.openlocfilehash: e3feecfffa591df5433ce45526ec236ca6ef8b42
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41818273"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221656"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>管理组织的外部访问策略
 
@@ -41,7 +41,7 @@ ms.locfileid: "41818273"
 
 这些选项包括以下类型的外部访问：
 
-  - **启用与联盟用户的通信**   如果要支持用户对联合伙伴域的访问，则启用此选项。 此设置配置用户与其他 SIP 联盟域以及托管提供商（如 Microsoft Office 365）进行通信的功能。 
+  - **启用与联盟用户的通信**   如果要支持用户对联合伙伴域的访问，则启用此选项。 此设置配置用户与其他 SIP 联盟域进行通信的能力，以及 Microsoft 365 或 Office 365 等托管提供商。 
 
 
   - **启用与远程用户的通信**   如果您希望组织中位于防火墙之外的用户（如远程工作者和正在旅行的用户）能够通过 Internet 连接到 Skype for Business，请启用此选项。

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。
-ms.openlocfilehash: af578cf92f6c19e8ac612dfe8301914c9e55833b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836304"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224205"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
@@ -46,7 +46,7 @@ ms.locfileid: "41836304"
   
 ## <a name="outbound-caller-id"></a>出站来电显示
 
-出站 PSTN 来电显示有三个对应选项：
+出站 PSTN 呼叫方 ID 有三个可用选项：
   
 - 分配给用户的电话号码（默认值）。
     
@@ -62,11 +62,11 @@ ms.locfileid: "41836304"
     
 要设置出站来电显示，请参见[为用户设置来电显示](/microsoftteams/set-the-caller-id-for-a-user)。
   
-### <a name="end-user-control-of-outbound-caller-id"></a>出站来电显示的最终用户控制
+### <a name="end-user-control-of-outbound-caller-id"></a>终端用户对出站呼叫程序 ID 的控制
 
-The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
+EnableUserOverride 属性允许单个或多个用户将其来电显示设置更改为**匿名**。这仅适用于使用 LineURI 或替代的 CallingIDSubstitute 参数配置了 CallingLineIdentity 策略。EnableUserOverride 的默认值为 False。
   
-最终用户可以使用 Skype for Business 桌面客户端中的 "**设置**" 选项卡将其来电显示设置为**匿名**，选择 "**调用最终用户**（如果由管理员启用）"，选择 "**隐藏所有呼叫的电话号码和配置文件信息**"。
+最终用户可以使用 Skype for Business 桌面客户端中的 "**设置**" 选项卡将其来电显示设置为**匿名**，选择 "**调用最终用户**（如果由管理员启用）"，然后选择 **"隐藏所有呼叫的电话号码和配置文件信息**"。 在团队中，用户可以在右上角转到其个人资料图片，选择 "**设置**  >  **呼叫**"，然后在 "**来电**显示" 下，选择 "**隐藏所有呼叫的电话号码和配置文件信息**"。
   
 ||||
 |:-----|:-----|:-----|
@@ -77,7 +77,7 @@ The EnableUserOverride attribute enables single or multiple users to change thei
 |MSI  <br/> |Skype for Business  <br/> |否  <br/> |
 |Mac  <br/> |Skype for Business  <br/> |否  <br/> |
    
-## <a name="inbound-caller-id"></a>入站来电显示
+## <a name="inbound-caller-id"></a>入站呼叫者 ID
 
 如果数字与 Azure AD 中的用户关联，则电话系统将显示为外部电话号码调用的 ID。 如果电话号码不在 Azure AD 中，则将显示通讯提供的显示名称（如果可用）。
 

@@ -1,5 +1,5 @@
 ---
-title: Set-cccredential
+title: Set-CcCredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: Set-cccredential cmdlet 设置当前 Skype for Business 云连接器版本部署的凭据。
-ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3717eb0dcaa46bb6708f40ecb7f94869f24774a2
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780671"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221566"
 ---
-# <a name="set-cccredential"></a>Set-cccredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 Set-cccredential cmdlet 设置当前 Skype for Business 云连接器版本部署的凭据。 
   
@@ -44,7 +44,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>详细说明
 <a name="DetailedDescription"> </a>
 
-Set-cccredential cmdlet 用于设置租户管理员的帐户名称和密码。 对于2.0 之前的版本，此管理员必须是全局管理员。 云连接器使用此帐户获取配置信息、设置配置参数并将设备状态更新为 Office 365 组织配置。 在版本2.0 及更高版本中，您还可以使用此 cmdlet 更新 VmAdmin 和 DomainAdmin 帐户的密码。
+Set-cccredential cmdlet 用于设置租户管理员的帐户名称和密码。 对于2.0 之前的版本，此管理员必须是全局管理员。 云连接器使用此帐户获取配置信息、设置配置参数并将设备状态更新为 Microsoft 365 或 Office 365 组织配置。 在版本2.0 及更高版本中，您还可以使用此 cmdlet 更新 VmAdmin 和 DomainAdmin 帐户的密码。
   
 ## <a name="parameters"></a>参数
 <a name="DetailedDescription"> </a>
@@ -66,6 +66,6 @@ Set-cccredential cmdlet 用于设置租户管理员的帐户名称和密码。 �
 ## <a name="see-also"></a>另请参阅
 <a name="ReturnTypes"> </a>
 
-[Set-cccredential](get-cccredential.md)
+[Get-CcCredential](get-cccredential.md)
   
 

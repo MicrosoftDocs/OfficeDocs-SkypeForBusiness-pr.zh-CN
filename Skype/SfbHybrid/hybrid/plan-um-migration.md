@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: 本主题介绍在决定将现有的 Skype for Business 服务器或 Exchange Server 部署迁移到最新版本或 Skype for Business Online 或 Exchange Online 时需要考虑的事项。
-ms.openlocfilehash: ce2e0712c75e5aa052c7eff7667f09ff34c3908a
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+ms.openlocfilehash: fec12eb5b386222ad0a69115ca3fc9e2de9e2fea
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265607"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221262"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>规划 Skype for Business Server 和 Exchange Server 迁移
 
@@ -33,7 +33,7 @@ ms.locfileid: "42265607"
 - 语音邮件
 - 自动助理
 
-如果您已在 exchange 2013 或 Exchange 2016 中的 UM 服务中部署 UM 角色，并且您希望升级到 Exchange 2019，则需要将语音邮件迁移到 Office 365 中的 Microsoft 云语音邮件服务。 如果要将语音邮件迁移到云语音邮件，请查看下面的[exchange 2013/exchange 2016 和 skype for business 2015 To exchange 2019 和 skype for business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019)部分。
+如果已在 exchange 2013 或 Exchange 2016 中的 UM 服务中部署 UM 角色，并且您希望升级到 Exchange 2019，则需要将语音邮件迁移到 Microsoft Microsoft 365 或 Office 365 中的 Microsoft 云语音邮件服务。 如果要将语音邮件迁移到云语音邮件，请查看下面的[exchange 2013/exchange 2016 和 skype for business 2015 To exchange 2019 和 skype for business 2019](#exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019)部分。
 > [!IMPORTANT]
 > 如果 Exchange 2013 或 Exchange 2016 服务器上的用户具有已启用 UM 的邮箱，请不要在将 Skype for business 服务器升级到 Skype for Business Server 2019 之前将它们移动到 Exchange 2019 中，并将用户移动到这些服务器以避免语音邮件中断。
 
@@ -55,13 +55,13 @@ ms.locfileid: "42265607"
 - Exchange 2013/Exchange 2016 和 Skype for Business Server 2015 至 Exchange 2019 和 Skype for business Server 2019
 - Skype for business Server 2015 至 Skype for business Server 2019 with Exchange 2013/Exchange 2016
 
-以下方案要求在当前部署中不存在任何 PBX 或 SBC 配置，并假设您在本地 Exchange 服务器上配置了 UM。 这些解决方案中的每一项都假设您已决定在本地 Skype for Business 服务器和 Office 365 之间配置混合部署。 有关 Skype for business 混合部署的详细信息，请参阅[规划混合连接](plan-hybrid-connectivity.md)。
+以下方案要求在当前部署中不存在任何 PBX 或 SBC 配置，并假设您在本地 Exchange 服务器上配置了 UM。 这些解决方案中的每一项都假设您已决定在本地 Skype for Business 服务器与 Microsoft 365 或 Office 365 之间配置混合部署。 有关 Skype for business 混合部署的详细信息，请参阅[规划混合连接](plan-hybrid-connectivity.md)。
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 和 Skype for Business 2015 至 Exchange 2019 和 Skype for business 2019
 
 在这种情况下，您需要将现有的 Exchange 2013、Exchange 2016 和 Skype for Business 2015 服务器迁移到 Exchange 2019 和 Skype for business 2019。
 
-如本主题前面所述，Exchange 2019 不再包含 UM 服务。 这意味着，对于要移动到 Exchange 2019 的任何邮箱，都需要使用云语音邮件替换 UM 服务提供的功能。 当您设置 Skype for business Server 2019 以及 it 与 Office 365 之间的混合部署时，云语音邮件将替换这些 Exchange UM 语音邮件服务。
+如本主题前面所述，Exchange 2019 不再包含 UM 服务。 这意味着，对于要移动到 Exchange 2019 的任何邮箱，都需要使用云语音邮件替换 UM 服务提供的功能。 当您设置 Skype for business Server 2019 以及它与 Microsoft 365 或 Office 365 之间的混合部署时，云语音邮件将替换这些 Exchange UM 语音邮件服务。
 
 将用户移动到 Exchange 2019 和 Skype for Business Server 2019 的顺序对于确保所有用户仍然可以使用语音邮件功能至关重要。 处理语音邮件的位置也由 Exchange 和 Skype for Business 邮箱和用户所在的位置决定。 查看下表以查看支持哪些 Exchange 和 Skype for business Server 组合以及处理语音邮件的位置。
 

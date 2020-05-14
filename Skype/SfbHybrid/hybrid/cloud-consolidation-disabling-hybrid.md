@@ -21,20 +21,22 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括将混合禁用作为团队和 Skype for Business 的云整合的一部分的详细步骤。
-ms.openlocfilehash: c6d042095298f6cab8d9474a521b9362ece13e0d
-ms.sourcegitcommit: 0dda90122769385529f78f70b0467848da97e5ec
+ms.openlocfilehash: a049491550ed26c61c587824034035a4c3a40a07
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2020
-ms.locfileid: "44173968"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221496"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>禁用混合以完成云迁移
 
-将所有用户从本地移动到云后，可取消本地 Skype for Business 部署。 除了删除任何硬件之外，关键步骤是通过禁用混合，从逻辑上将本地部署与 Office 365 分离开来。 禁用混合的步骤包括三个步骤：
+将所有用户从本地移动到云后，可取消本地 Skype for Business 部署。 除删除任何硬件之外，关键步骤是在逻辑上将该本地部署与 Microsoft 365 或 Office 365 分开，方法是禁用混合。 禁用混合的步骤包括三个步骤：
 
-- 将 DNS 记录更新为指向 Office 365。
-- 在 Office 365 组织中禁用拆分域。
-- 禁用本地与 Office 365 通信的功能。
+1. 更新 DNS 记录以指向 Microsoft 365 或 Office 365。
+
+2. 在 Microsoft 365 或 Office 365 组织中禁用拆分域。
+
+3. 禁用内部部署中与 Microsoft 365 或 Office 365 通信的功能。
 
 这些步骤应作为一个单元一起完成。 下面提供了详细信息。 此外，在本地部署断开连接后，将提供准则来管理迁移用户的电话号码。
 
@@ -42,37 +44,42 @@ ms.locfileid: "44173968"
 >应继续让 Active Directory 同步中的 msRTCSIP 属性通过 Azure AD 连接到 Azure AD。  请勿清除这些属性中的任何一个，除非由支持定向。  请勿在本地环境中运行 Disable-Get-csuser。 如果需要修改用户的 SIP 地址，请在本地 Active Directory 中执行此操作，并通过 Azure AD Connect 将此更改同步到 Azure AD，如下所述。 同样，如果需要更改电话号码，并且用户已在本地定义了用户的 LineURI，则应在本地 Active Directory 中进行修改。
 >从本地迁移后清除本地 msRTCSIP 属性可能会导致用户的服务丢失！
 
+> [!Note] 
+> 在极少数情况下，将 DNS 从指向 Microsoft 365 或 Office 365 的本地位置更改为您的组织可能导致其他组织的联盟停止工作，直到其他组织更新其联合身份验证配置：<ul><li>
+任何使用旧直接联盟模型（也称为 "允许的伙伴服务器"）的联合组织都需要更新其组织的允许的域条目，以删除代理 FQDN。 此旧版联合模型不基于 DNS SRV 记录，因此一旦您的组织移动到云，这样的配置就会过期。 </li><li>没有已启用 sipfed.online.lync.com> <span> 的托管提供程序的任何联合组织。com 将需要更新其配置才能启用。 只有在联合组织纯粹在本地并且从未与任何混合或联机租户联合的情况下，这种情况才可行。 在这种情况下，与这些组织的联盟在启用其承载提供程序之前将不起作用。</li></ul>如果您怀疑任何联盟伙伴可能正在使用直接联盟或与任何在线或混合组织联合，我们建议您在准备完成到云的迁移时向其发送有关此的通信。
 
+1.  *更新 DNS 以指向 Microsoft 365 或 Office 365。*
+组织的内部部署组织的外部 DNS 需要更新，以便 Skype for Business 记录指向 Microsoft 365 或 Office 365 而不是本地部署。 具体来说：
 
-1.  *更新 DNS 以指向 Office 365。*
-组织现有的内部部署组织的外部 DNS 记录需要更新，以便 Skype for Business 记录指向 Office 365 而不是本地部署。 具体来说：
+    |记录类型|名称|TTL|值|
+    |---|---|---|---|
+    |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed.online.lync.com>。 <span>com|
+    |SRV|_sip _tls|3600|100 1 443 sipdir.online.lync.com>。 <span>com|
+    |CNAME| lyncdiscover|   3600|   webdir。 <span>com|
+    |CNAME| sip|    3600|   sipdir.online.lync.com>。 <span>com|
+    |CNAME| 法规|   3600|   webdir。 <span>com|
+    |CNAME| 入  |3600|  webdir。 <span>com|
 
-    |记录类型|名称|TTL|值|用途|
-    |---|---|---|---|---|
-    |SRV|_sipfederationtls _tcp|3600|100 1 5061 sipfed.online.lync.com>。<span>com|启用联合|
-    |SRV|_sip _tls|3600|100 1 443 sipdir.online.lync.com>。<span>com|对于 Skype for Business 用户是必需的|
-    |CNAME| lyncdiscover|   3600|   webdir。<span>com|对于 Skype for Business 用户是必需的|
-    |CNAME| sip|    3600|   sipdir.online.lync.com>。<span>com|仅对较旧的旧 SIP 电话是必需的|
-
-    此外，可以删除符合或拨入的 CNAME 记录（如果存在）。
+    此外，可以删除符合或拨入的 CNAME 记录（如果存在）。 最后，应删除内部网络中 Skype for Business 的任何 DNS 记录。
 
     > [!Note] 
     > 在极少数情况下，将 DNS 从指向 Office 365 的本地位置更改为您的组织可能导致其他组织的联盟停止工作，直到其他组织更新其联合配置：
     >
     > - 任何使用旧直接联盟模型（也称为 "允许的伙伴服务器"）的联合组织都需要更新其组织的允许的域条目，以删除代理 FQDN。 此旧版联合模型不基于 DNS SRV 记录，因此一旦您的组织移动到云，这样的配置就会过期。
     > 
-    > - 没有已启用 sipfed.online.lync.com> 的托管提供程序的任何联合组织。<span>com 将需要更新其配置才能启用。 仅当联合组织完全在本地，且从未与任何混合或联机租户联合时，这种情况才可行。 在这种情况下，与这些组织的联盟在启用其承载提供程序之前将不起作用。
+    > - 没有已启用 sipfed.online.lync.com> <span> 的托管提供程序的任何联合组织。com 将需要更新其配置才能启用。 仅当联合组织完全在本地，且从未与任何混合或联机租户联合时，这种情况才可行。 在这种情况下，与这些组织的联盟在启用其承载提供程序之前将不起作用。
     >
     > 如果您怀疑任何联盟伙伴可能正在使用直接联盟，或者未与任何 online 或混合组织联合，我们建议您在准备完成到云的迁移时向其发送有关这方面的通信。
 
-2.  *在 Office 365 组织中禁用共享 SIP 地址空间。*
+
+2.  *在 Microsoft 365 或 Office 365 组织中禁用共享 SIP 地址空间。*
 下面的命令需要从 Skype for business Online PowerShell 窗口中执行。
 
     ```PowerShell
     Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
     ```
  
-3.  *禁用本地与 Office 365 通信的功能。*  
+3.  *在本地中禁用与 Microsoft 365 或 Office 365 通信的功能。*  
 需要从内部部署 PowerShell 窗口中执行以下命令：
 
     ```PowerShell
@@ -83,13 +90,13 @@ ms.locfileid: "44173968"
 
 管理员可以管理以前从本地 Skype for Business 服务器移动到云的用户，即使在本地部署已停止后也是如此。 如果要更改用户的 SIP 地址或用户的线路 URI （且 SIP 地址或线路 URI 已在内部部署 Active Directory 中定义），则必须在本地 Active Directory 中执行此操作，并让值（s）流入 Azure AD。 这不需要本地 Skype for Business Server。 相反，您可以使用 Active Directory 用户和计算机 MMC 管理单元或使用 PowerShell，直接在内部部署 Active Directory 中修改这些属性。 如果使用的是 MMC 管理单元，请打开用户的 "属性" 页，单击 "属性编辑器" 选项卡，然后找到要修改的相应属性：
 
-- 若要修改用户的 SIP 地址，请修改`msRTCSIP-PrimaryUserAddress`。 此外，如果该`ProxyAddresses`属性包含 sip 值，请更新该 sip 值以匹配的新值。 `msRTCSIP-PrimaryUserAddress` 如果不包含 SIP 值，则可以将其保留为空。
+- 若要修改用户的 SIP 地址，请修改 `msRTCSIP-PrimaryUserAddress` 。 此外，如果该 `ProxyAddresses` 属性包含 sip 值，请更新该 sip 值以匹配的新值 `msRTCSIP-PrimaryUserAddress` 。 如果不包含 SIP 值，则可以将其保留为空。
 
-- 若要修改用户的电话号码，请`msRTCSIP-Line`修改（*如果它已有值*）。
+- 若要修改用户的电话号码，请修改（ `msRTCSIP-Line` *如果它已有值*）。
 
   ![Active Directory 用户和计算机工具](../media/disable-hybrid-1.png)
   
-如果用户最初没有`LineURI`在移动前的本地值，则可以使用 Skype For Business Online PowerShell 模块中的[get-csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)中`onpremLineUri`的-参数修改 LineURI。
+如果用户最初没有 `LineURI` 在移动前的本地值，则可以使用 `onpremLineUri` Skype For Business Online PowerShell 模块中的[get-csuser cmdlet](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)中的-参数修改 LineURI。
 
 
 ## <a name="see-also"></a>另请参阅

@@ -1,5 +1,5 @@
 ---
-title: 在云连接器版本中规划媒体旁路
+title: 云连接器版本中的媒体旁路规划
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 阅读本主题，了解使用云连接器版本2.0 和更高版本实现媒体旁路的规划注意事项。 有关部署媒体旁路的信息，请参阅在云连接器版本中部署媒体旁路。
-ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 568fa13584a44540d8351ea2eb32475c1d276ff7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778778"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220252"
 ---
-# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>在云连接器版本中规划媒体旁路
+# <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>云连接器版本中的媒体旁路规划
  
 阅读本主题，了解使用云连接器版本2.0 和更高版本实现媒体旁路的规划注意事项。 有关部署媒体旁路的信息，请参阅[在云连接器版本中部署媒体旁路](deploy-media-bypass-in-cloud-connector.md)。
   
@@ -37,7 +37,7 @@ ms.locfileid: "43778778"
 
 信号在使用或没有媒体旁路的情况下采用相同的路径，而媒体流将有所不同。 下图显示了具有和没有媒体旁路功能的拓扑中的媒体和信号路径。 
   
-例如，在以下拓扑（不采用媒体旁路）中，Skype for Business 客户端将 PSTN 呼叫放入外部号码，SIP 信号转到 Office 365，然后 Office 365 将根据最终用户的语音策略指示信号流量。 对于云连接器用户，语音策略将信号流量定向到云连接器边缘服务器，然后通过云连接器中介服务器将信号流量路由到 PSTN 会话边界控制器（SBC）或网关。 媒体从 Skype for Business 客户端流向云连接器中介服务器，然后传递到 SBC 或网关，如下图所示：
+例如，在以下拓扑（不采用媒体旁路）中，Skype for Business 客户端将 PSTN 呼叫放入外部号码，SIP 信号转到 Microsoft 365 或 Office 365，这将根据最终用户的语音策略指示信号流量。 对于云连接器用户，语音策略将信号流量定向到云连接器边缘服务器，然后通过云连接器中介服务器将信号流量路由到 PSTN 会话边界控制器（SBC）或网关。 媒体从 Skype for Business 客户端流向云连接器中介服务器，然后传递到 SBC 或网关，如下图所示：
   
 **没有媒体旁路功能的媒体和信号路径**
 
@@ -59,7 +59,7 @@ ms.locfileid: "43778778"
 
 ![云连接器多站点示例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. SIP 流量从位于苏黎世的用户流向 Office 365。
+1. SIP 流量从位于苏黎世的用户流向 Microsoft 365 或 Office 365。
     
 2. 然后，流量将路由到位于阿姆斯特丹中的云连接器设备，如用户语音路由策略中所指定。
     

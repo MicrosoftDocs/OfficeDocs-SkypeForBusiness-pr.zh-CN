@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：查看适用于 Skype for business 的受支持的客户端和应用程序。
-ms.openlocfilehash: 71960fe7f450bbf4073c80d584e1eb1b0eb259d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bcb6cfdaa0797e46ebc01f551a46600577d4dc27
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013485"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220552"
 ---
 # <a name="plan-for-clients-and-devices"></a>规划客户端和设备
 
@@ -36,7 +36,7 @@ Skype for Business Server 支持多种类型的客户端，包括计算机安装
 
 ### <a name="skype-for-business-2019"></a>Skype for Business （2019）
 
-Skype for business （2019）是适用于 Skype for Business Server 2015 和2019的功能齐全的客户端。 有关新功能的说明，请参阅[遵循 Skype For business 中的最新更新](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)。 Skype for business 的[桌面客户端功能比较](desktop-feature-comparison.md)中详细介绍了客户端功能支持，用户文档位于[skype for business 帮助](https://support.office.com/Skype-for-business)中。 当用户安装 Office 365 时，将包含此客户端。
+Skype for business （2019）是适用于 Skype for Business Server 2015 和2019的功能齐全的客户端。 有关新功能的说明，请参阅[遵循 Skype For business 中的最新更新](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781)。 Skype for business 的[桌面客户端功能比较](desktop-feature-comparison.md)中详细介绍了客户端功能支持，用户文档位于[skype for business 帮助](https://support.office.com/Skype-for-business)中。 当用户安装 Microsoft 365 或 Office 365 时，将包含此客户端。
 
 此外，还提供了支持较少功能的免费基本客户端。 这两个版本都可在[下载 Skype For business 中的所有设备](https://products.office.com/skype-for-business/download-app?tab=tabs-3)时下载。 "[基本客户端限制](desktop-feature-comparison.md#Full-Basic)" 部分介绍了完全和基本客户端之间的差异。
 
@@ -78,9 +78,9 @@ Mac 客户端[上的 Skype For business](https://www.microsoft.com/download/deta
 
 在某些组织中，在安全和合规性问题尤其敏感的组织中使用虚拟桌面基础结构（VDI）环境。 在连接上使用 Skype for Business （如这样的连接）需要大量在虚拟机上托管客户端上的音频和视频处理负载。 另外还提供了其他 VDI 插件软件，用于将该处理降到最终用户的本地计算机上，并减少了虚拟机上的负载。 有关使用这些插件的详细信息，请参阅[在 VDI 环境中规划 Skype For business](vdi-environments.md) 。
 
-### <a name="microsoft-teams-rooms"></a>Microsoft 团队聊天室
+### <a name="microsoft-teams-rooms"></a>Microsoft Teams 会议室
 
-Microsoft 团队聊天室是 Microsoft 的最新会议解决方案，它使用熟悉的界面且易于部署和管理，利用像 LCD 面板这样的现有设备来实现易于安装。 Microsoft 团队聊天室使用专门构建的 UWP 应用程序，该应用程序在控制台模式下在 Surface Pro 4 或 Surface Pro 上运行（一旦部署了 UWP 应用程序，就是将在设备上运行的唯一应用程序），它需要在实施中拥有自己的设备帐户。 软件通过 Windows 应用商店和 Windows 更新进行更新。 有关https://aka.ms/MTRDocs在部署中使用这些会议室控制台的详细信息，请参阅。 
+Microsoft 团队聊天室是 Microsoft 的最新会议解决方案，它使用熟悉的界面且易于部署和管理，利用像 LCD 面板这样的现有设备来实现易于安装。 Microsoft 团队聊天室使用专门构建的 UWP 应用程序，该应用程序在控制台模式下在 Surface Pro 4 或 Surface Pro 上运行（一旦部署了 UWP 应用程序，就是将在设备上运行的唯一应用程序），它需要在实施中拥有自己的设备帐户。 软件通过 Windows 应用商店和 Windows 更新进行更新。 https://aka.ms/MTRDocs有关在部署中使用这些会议室控制台的详细信息，请参阅。 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 上的 Skype for Business
 
@@ -91,7 +91,7 @@ Microsoft Surface Hub 是一种适用于集体讨论、协作和演示文稿的�
 
 如果您的组织购买了相应的许可证，请选择完整客户端，否则请选择 "基本客户端"。
 
-您的用户可以通过在[所有设备上下载 Skype For business](https://products.office.com/skype-for-business/download-app?tab=tabs-3)来自行安装客户端。 当用户在 Windows 上安装 Office 365 时，也会安装客户端。 如果某些用户具有 Mac，这些用户将具有一组不同的功能，如前面的部分中所述。
+您的用户可以通过在[所有设备上下载 Skype For business](https://products.office.com/skype-for-business/download-app?tab=tabs-3)来自行安装客户端。 当用户在 Windows 上安装 Microsoft 365 或 Office 365 时，也会安装客户端。 如果某些用户具有 Mac，这些用户将具有一组不同的功能，如前面的部分中所述。
 
 Skype for business Server 2015 中提供的某些功能在 Skype for Business Online 或 Skype for business Server 2019 中不可用。有关详细信息，请参阅[在线或混合用户帐户限制的 2015](desktop-feature-comparison.md#Online-Hybrid)或[在线或混合用户帐户2019限制](desktop-feature-comparison.md#Online-Hybrid)。 Skype for business Online 管理员可能需要参考[skype for Business Online 服务说明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)，以了解有关可用的不同计划的信息。
 

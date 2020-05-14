@@ -1,5 +1,5 @@
 ---
-title: Skype 会议应用程序最低网络要求
+title: Skype 会议应用最低网络要求
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: PhillipGarding
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
-description: 摘要：有关不使用 Office 365 并需要访问由组织托管的会议的组织的信息。
-ms.openlocfilehash: 162d05f9786f02258afa080e630c85d4b513db4e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 摘要：有关不使用 Microsoft 365 或 Office 365 的组织的信息，并且需要访问由组织托管的会议。
+ms.openlocfilehash: 656f8fa52f4a1080cca0b8464becf77c8c2a0ef0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033186"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219722"
 ---
-# <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 会议应用程序最低网络要求
+# <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 会议应用最低网络要求
  
-**摘要：** 有关未使用 Office 365 并需要访问由组织托管的会议的组织的信息。 本文不适合这些应用程序的用户。
+**摘要：** 有关未使用 Microsoft 365 或 Office 365 并需要访问由组织托管的会议的组织的信息。 本文不适合这些应用程序的用户。
   
-若要允许用户使用 Skype 会议应用来参加托管在 Skype for Business Online 中的会议，不使用 Office 365 的组织的网络管理员应使用白名单或以其他方式提供以下所述的 Fqdn、Ip 和端口。
+若要允许用户使用 Skype 会议应用来参加托管在 Skype for Business Online 中的会议，不使用 Microsoft 365 或 Office 365 的组织的网络管理员应使用白名单或以其他方式提供以下所述的 Fqdn、Ip 和端口。
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Skype 会议应用程序连接的要求
 

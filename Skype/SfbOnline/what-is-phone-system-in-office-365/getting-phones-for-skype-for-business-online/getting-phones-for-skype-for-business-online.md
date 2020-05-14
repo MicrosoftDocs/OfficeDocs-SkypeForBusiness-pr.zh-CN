@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解哪些电话可从 Polycom、HP 和 Mitel 使用 Skype for Business，以及需要的许可证。 '
-ms.openlocfilehash: f779462ad6def85cee43139d450d19b5d70195a3
-ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
+ms.openlocfilehash: f51465cc86baa37e54acddf732cc5f63e6274aa1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784759"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220432"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>获取适用于 Skype for Business Online 的电话
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
 
 > [!NOTE]
-> 在 Office 365 中，Skype For business 将慢慢地替换为 Microsoft 团队的主要通信方法。  有关详细信息，请参阅[Office 365 中智能通信的新愿景](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)。
+> 在 Microsoft 365 和 Office 365 中，Skype For business 将慢慢地替换为 Microsoft 团队的主要通信方法。  有关详细信息，请参阅[Office 365 中智能通信的新愿景](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)。
 >
 >若要获取有关受支持设备的最新更新和最新信息，请参阅[Microsoft 团队设备以进行智能通信](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
   
 ## <a name="supported-phones"></a>支持的电话
   
-Microsoft 致力于与 Polycom、Yealink 和 AudioCodes 密切合作，通过 Office 365 和 Skype for business 服务器中的 "合作伙伴 IP 电话计划" （PIP）为各种设备进行开发和认证。
+Microsoft 致力于与 Polycom、Yealink 和 AudioCodes 密切合作，通过手机系统的合作伙伴 IP 电话计划（PIP）开发和认证各种设备。
   
 对 Skype for business 的新电话进行排序时，购买具有*正确产品 ID*的手机非常重要。 这些产品 Id 将确保你收到的手机已安装 Skype for business Online 合格的版本。
   
@@ -64,7 +64,7 @@ Microsoft 致力于与 Polycom、Yealink 和 AudioCodes 密切合作，通过 Of
   
 ## <a name="supported-firmware"></a>支持的固件
 
-这里是受支持的电话使用 Office 365 中电话系统所需的最低软件版本：
+这是支持的电话与电话系统配合使用所需的最低软件版本：
   
 ||||
 |:-----|:-----|:-----|
@@ -123,7 +123,7 @@ Skype for business Online 不需要除用户许可证之外的任何其他 Micro
 ## <a name="related-topics"></a>相关主题
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](../getting-service-phone-numbers.md)
 
-[以下是 Office 365 中的电话系统功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[电话系统的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 

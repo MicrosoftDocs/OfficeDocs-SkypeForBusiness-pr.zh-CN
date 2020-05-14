@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 阅读本主题，了解 Microsoft 球队会议室的管理、下一代 Skype 会议室系统的管理。
-ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157756"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "43580700"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 团队会议室维护和操作 
  
@@ -31,10 +31,10 @@ Microsoft 团队聊天室是 Microsoft 的最新会议解决方案，旨在将�
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>在 Microsoft 团队聊天室上收集日志
 <a name="Logs"> </a>
 
-若要收集日志，必须调用 Microsoft 团队聊天室应用随附的日志收集脚本。 在 "管理员模式" 下，启动提升的 PowerShell 提示，然后发出以下命令：
+若要收集日志，必须调用 Microsoft 团队聊天室应用随附的日志收集脚本。 在管理模式中，启动提升的命令提示符并发出以下命令：
   
 ```PowerShell
-c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
+powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
 ```
 
 日志将以 ZIP 文件的形式输出至 c:\rigel 中。
@@ -78,7 +78,7 @@ c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -Executi
 |设置|这样|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = （REG_SZ）1  <br/> |支持 Microsoft 团队会议室启动  <br/> |
-|电源管理-\>通过交流，10分钟后关闭屏幕  <br/> 电源管理-\>在交流上，从不将系统置于睡眠状态  <br/> |使 Microsoft 团队会议室能够关闭附加的显示并自动唤醒  <br/> |
+|电源管理-通过 \> 交流，10分钟后关闭屏幕  <br/> 电源管理- \> 在交流上，从不将系统置于睡眠状态  <br/> |使 Microsoft 团队会议室能够关闭附加的显示并自动唤醒  <br/> |
 |net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
    
 在 "[配置文件" 项目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)中讨论了使用组策略传输文件的内容。
@@ -112,8 +112,8 @@ c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -Executi
 1. 使用具有在 Microsoft 团队聊天室设备上运行 PowerShell 命令的权限的帐户凭据登录到电脑。
 2. 在电脑上打开常规 PowerShell 命令提示符。
 3. 从下表中复制命令文本，并在出现提示时粘贴它。
-4. 将`<Device fqdn>`具有相应环境的 FQDN 值替换为相应的字段。
-5. 将* \<路径\> *替换为 master SkypeSettings 配置文件的文件名和本地路径（或主题图像）。
+4. `<Device fqdn>`将具有相应环境的 FQDN 值替换为相应的字段。
+5. 将* \< 路径 \> *替换为 master SkypeSettings 配置文件的文件名和本地路径（或主题图像）。
     
 获取连接的设备
   
@@ -173,11 +173,11 @@ Copy-Item $movefile $targetDevice
 ### <a name="to-update-using-powershell"></a>使用 Powershell 更新
 
 1. 将程序包从安装[MSI](https://go.microsoft.com/fwlink/?linkid=851168)解压缩到设备可以访问的共享。
-2. 运行以下针对 Microsoft 团队聊天室设备的脚本，根据需要\<将\>共享更改为设备共享：
+2. 运行以下针对 Microsoft 团队聊天室设备的脚本， \< \> 根据需要将共享更改为设备共享：
     
-```PowerShell
-Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
-```
+    ```PowerShell
+    Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
+    ```
 
 ## <a name="admin-mode-and-device-management"></a>管理模式和设备管理
 <a name="AdminMode"> </a>

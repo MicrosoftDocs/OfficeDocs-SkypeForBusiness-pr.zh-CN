@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要：了解如何将 Skype for Business Server 与 Skype 消费者连接。 也称为 Skype 连接。
-ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b0cae57ac357b2b88d74b6326176c7cb7cdaf22e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780061"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219742"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>在 Skype for Business Server 中部署 Skype 连接
 
@@ -73,13 +73,13 @@ Skype 目录搜索功能为 Skype for Business 用户提供了搜索 Skype 联�
 > [!NOTE]
 > 如果队列中的挂起请求过多，Skype for Business Server 将限制传入的请求。 
   
-## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>在 Office 365 中为 Skype for business Online 部署 Skype 连接
+## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>为 Skype for business Online 部署 Skype 连接
 
-Skype 连接也是 Skype for business Online 的一项功能，它是 Office 365 的一部分。 您可以从 Microsoft 365 管理中心内的 Skype for Business 管理中心启用 Skype 连接功能。
+Skype 连接也是 Skype for business Online 的一项功能，它是 Microsoft 365 和 Office 365 的一部分。 您可以从 Microsoft 365 管理中心内的 Skype for Business 管理中心启用 Skype 连接功能。
   
-对于 Office 365 中型企业版、Office 365 企业版、Office 365 教育版和 Office 365 for 政府版：登录 Microsoft 365 管理中心并导航到 Skype for Business 管理中心。 转到 "外部通信"。 在 "公共 IM 服务提供商" 下，单击 "启用"。 如果要控制各个用户对 Skype 连接的访问权限，您可以通过编辑单个用户的外部通信设置来执行此操作。
+对于 Microsoft 365 中型企业版、Office 365 企业版、Microsoft 365 教育版和 Office 365 for 政府版：登录 Microsoft 365 管理中心并导航到 Skype for Business 管理中心。 转到 "外部通信"。 在 "公共 IM 服务提供商" 下，单击 "启用"。 如果要控制各个用户对 Skype 连接的访问权限，您可以通过编辑单个用户的外部通信设置来执行此操作。
   
-对于 Office 365 小型企业高级版：登录到 Office 365，然后转到 " \>管理服务\>设置即时消息、会议和会议"。 打开外部通信。 外部通信交换机可同时启用 Skype 连接和与使用 Skype for Business 的其他组织的通信。
+对于 Office 365 小型企业高级版：登录到 Office 365，然后转到 "管理 \> 服务设置 \> 即时消息、会议和会议"。 打开外部通信。 外部通信交换机可同时启用 Skype 连接和与使用 Skype for Business 的其他组织的通信。
   
 有关 Skype for business Online 管理的详细信息，请参阅：
   
@@ -114,7 +114,7 @@ Skype for Business Server 使用联合身份验证访问体系结构支持与 Sk
 |sip.contoso.com   ||
 |sipfed.contoso.com   |在每种情况下，确切的 FQDN 都必须存在于安装在边缘服务器上的外部证书的 SN 或 SAN 中。   |
 |access.contoso.com   ||
-|**Fqdn 无效**|**原因**|
+|**Fqdn 无效**|**Reason**|
 |sip.contoso-edge.com   |后缀不匹配。  |
 |sip.it.contoso.com   |不是最高级别的后缀匹配项。   |
 
@@ -204,7 +204,7 @@ Skype for Business Server 使用联合身份验证访问体系结构支持与 Sk
     
    - ProxyFqdn： Skype 联盟边缘的位置（由 Microsoft 拥有/维护）
     
-   - IconURL： Lync &amp; Skype for business 客户端用来直观标识 Skype 联系人的图标
+   - IconURL： Lync &amp; Skype For business 客户端用来直观标识 Skype 联系人的图标
     
    - NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList：设置这些设置使用户可以输入 Skype 用户的 Msa，而无需了解有关 "修饰" 非 Microsoft 域的 "msn.com"。 这样就无需为 ExcludedDomainList 中不的所有域键入 "user （contoso .com） @msn"。 如果域不在排除列表中，则 SfB 客户端将自动设置 MSA 的格式。 我们已将最常见的 Microsoft 帐户域添加到了排除列表中。
     
@@ -212,7 +212,7 @@ Skype for Business Server 使用联合身份验证访问体系结构支持与 Sk
      > 如果进行了更改，则必须删除公共提供程序并添加新的提供程序。 不允许就地更改。 
   
      > [!NOTE]
-     > 在 Lync Server 2013 CU5 &amp; lync desktop Client in OFFICE 2013 SP1 中，NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList 改进了 Lync 用户在其中添加需要 "装饰" 非 Microsoft 域的 skype 联系人以标识并将其路由到 Skype （格式为： user （contoso） @msn .com）的情况。 如果在 NameDecorationExcludedDomainList 中不包含域（我们当前可以支持 msn.com、live.com、Hotmail.com、outlook.com），则这些新设置将允许使用 NameDecorationRoutingDomain （应设置为 msn.com）的 "添加 Skype 联系人" 对话框中的地址用户输入自动设置格式。 
+     > 在 Lync Server 2013 CU5 &amp; lync desktop client In Office 2013 SP1 中，NameDecorationRoutingDomain 和 NameDecorationExcludedDomainList 改进了 Lync 用户在其中添加需要 "装饰" 非 Microsoft 域的 skype 联系人以标识并将其路由到 Skype （格式为： user （contoso） @msn .com）的情况。 如果在 NameDecorationExcludedDomainList 中不包含域（我们当前可以支持 msn.com、live.com、Hotmail.com、outlook.com），则这些新设置将允许使用 NameDecorationRoutingDomain （应设置为 msn.com）的 "添加 Skype 联系人" 对话框中的地址用户输入自动设置格式。 
   
 3. 从 Skype for Business 客户端，用户现在可以搜索和添加 Skype 用户。
     
@@ -247,4 +247,3 @@ Skype for Business Server 使用联合身份验证访问体系结构支持与 Sk
 |Lync Phone Edition  <br/> |不适用  <br/> |不适用  <br/> |
 |Lync 助理  <br/> |不适用  <br/> |不适用  <br/> |
    
-

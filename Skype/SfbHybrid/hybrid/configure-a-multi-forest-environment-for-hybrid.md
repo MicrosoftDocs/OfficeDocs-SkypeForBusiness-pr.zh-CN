@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 以下各节提供了有关如何配置在资源/用户林模型中具有多个林的环境以在混合方案中提供 Skype for Business 功能的指南。
-ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: cf3a162001756661afd0f204e9968713d9db0f5b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918681"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221476"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署资源林拓扑
  
@@ -35,7 +35,7 @@ ms.locfileid: "43918681"
 
 支持多个用户林。 请注意以下几点： 
     
-- 有关混合配置中的 Lync Server 和 Skype for business Server 支持的版本，请参阅在[Skype For Business Server 和 Office 365 之间规划混合连接](plan-hybrid-connectivity.md)中的[服务器版本要求](plan-hybrid-connectivity.md#server-version-requirements)。
+- 有关混合配置中的 Lync Server 和 Skype for business Server 支持的版本，请参阅在[Skype For Business Server 与 Microsoft 365 或 Office 365 之间规划混合连接](plan-hybrid-connectivity.md)中的[服务器版本要求](plan-hybrid-connectivity.md#server-version-requirements)。
     
 - 可以在一个或多个林中部署 Exchange 服务器，其中可能包含（也可能不包含）包含 Skype for Business Server 的林。 请确保您已应用最新的累积更新。
     
@@ -73,9 +73,9 @@ ms.locfileid: "43918681"
     
 - 如果每个用户林中的唯一 UPN 已同步到资源林中关联的禁用对象，则 AD FS 身份验证将失败。 匹配规则将在资源林中的对象上查找 UPN，该 UPN 已被禁用，无法用于身份验证。 
     
-## <a name="create-an-office-365-organization"></a>创建 Office 365 组织
+## <a name="create-a-microsoft-365-or-office-365-organization"></a>创建 Microsoft 365 或 Office 365 组织
 
-接下来，你将需要设置 Office 365 组织以用于你的部署。 有关详细信息，请参阅[Microsoft 云产品服务的订阅、许可证、帐户和租户](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
+接下来，你将需要设置 Microsoft 365 或 Office 365 组织以用于你的部署。 有关详细信息，请参阅[Microsoft 云产品服务的订阅、许可证、帐户和租户](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
   
 ## <a name="configure-active-directory-federation-services"></a>配置 Active Directory 联合身份验证服务
 
@@ -91,9 +91,9 @@ ms.locfileid: "43918681"
     
 通过在每个用户林中放置 AD FS 服务器场，并对每个林使用唯一的 SIP/SMTP/UPN，我们会解决这两个问题。 在身份验证尝试过程中，仅搜索特定用户林中的帐户并匹配这些帐户。 这将有助于提供更无缝的身份验证过程。 
   
-这将是 Windows Server 2012 R2 AD FS 的标准部署，在继续之前，它应正常工作。 有关说明，请参阅 how [To INSTALL AD FS 2012 R2 For Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
+这将是 Windows Server 2012 R2 AD FS 的标准部署，在继续之前，它应正常工作。 有关说明，请参阅 how [To INSTALL AD FS 2012 R2 For Microsoft 365 或 Office 365](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
   
-部署后，您必须编辑声明规则以匹配之前选择的源定位点。 在 AD FS MMC 中，在 "信赖方信任" 下，右键单击 " **Microsoft Office 365 Identity Platform**"，然后单击 "**编辑声明规则**"。 编辑第一个规则，然后将 ObjectSID 更改为**employeeNumber**。 
+部署后，您必须编辑声明规则以匹配之前选择的源定位点。 在 AD FS MMC 中，在 "信赖方信任" 下，右键单击 " **microsoft 365 Identity platform** " 或 " **Microsoft Office 365 标识平台**"，然后选择 "**编辑声明规则**"。 编辑第一个规则，然后将 ObjectSID 更改为**employeeNumber**。 
   
 ![多林编辑规则屏幕](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
@@ -107,9 +107,9 @@ ms.locfileid: "43918681"
   
 ![多林元节对象屏幕](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-绿色突出显示的属性已从 Office 365 合并，黄色来自用户林，蓝色来自资源林。 
+绿色突出显示的属性已从 Microsoft 365 或 Office 365 合并，黄色来自用户林，蓝色来自资源林。 
   
-这是一种测试用户，您可以看到 AAD 连接已识别来自用户的 sourceAnchor 和 cloudSourceAnchor 和 Office 365 中的资源林对象，在我们的1101示例中，是之前选择的 employeeNumber。 然后，它能够将此对象合并到上面看到的内容中。 
+这是一种测试用户，可以看到 AAD 连接已识别来自用户的 sourceAnchor 和 cloudSourceAnchor，以及 Microsoft 365 或 Office 365 中的资源林对象，在我们的1101示例中，这是之前选择的 employeeNumber。 然后，它能够将此对象合并到上面看到的内容中。 
   
 有关详细信息，请参阅[将本地目录与 Azure Active Directory 集成](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)。 
   

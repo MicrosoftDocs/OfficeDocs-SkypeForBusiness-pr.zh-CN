@@ -1,5 +1,5 @@
 ---
-title: 在云连接器中部署单个网站
+title: 在云连接器中部署单个站点
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 了解如何在云连接器版本中部署单个 PSTN 站点。
-ms.openlocfilehash: cc508d21f9e39c215ce3c07403ab75e791e2414a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779348"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220532"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>在云连接器中部署单个网站
+# <a name="deploy-a-single-site-in-cloud-connector"></a>在云连接器中部署单个站点
  
 了解如何在云连接器版本中部署单个 PSTN 站点。
   
@@ -55,7 +55,7 @@ Install-CcAppliance
   
 1. 按照[准备云连接器设备](prepare-your-cloud-connector-appliance.md)中所述的步骤准备云连接器设备。 请注意，仅在部署中的第一台设备上需要一些步骤。 确认网站目录存在，并且已正确配置 HA 支持。
     
-2. 仅在新添加的主机服务器上运行以下 cmdlet，以更新 Office 365 组织配置中的拓扑信息。 如果要同时添加多个设备，请逐个在每个新添加的主机服务器上运行 cmdlet：
+2. 仅在新添加的主机服务器上运行以下 cmdlet，以更新 Microsoft 365 或 Office 365 组织配置中的拓扑信息。 如果要同时添加多个设备，请逐个在每个新添加的主机服务器上运行 cmdlet：
     
    ```powershell
    Register-CcAppliance
@@ -80,7 +80,7 @@ Install-CcAppliance
 
 如果要从现有站点中删除设备，请执行以下操作：
   
-1. 仅在要从网站中删除的主机服务器上运行以下 cmdlet，以更新 Office 365 组织配置中的拓扑信息。
+1. 仅在要从网站中删除的主机服务器上运行以下 cmdlet，以更新 Microsoft 365 或 Office 365 组织配置中的拓扑信息。
     
    ```powershell
    Unregister-CcAppliance

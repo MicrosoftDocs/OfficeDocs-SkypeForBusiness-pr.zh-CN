@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: 了解如何为 Office 365 （云 PBX）中的电话系统准备部署和使用云连接器设备。
-ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 了解如何为你的云连接器设备准备部署并与电话系统（云 PBX）结合使用。
+ms.openlocfilehash: d00002719ed8aaac7d0f0fb0e5ceb5722acc289c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779238"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220062"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>准备云连接器设备
 
-了解如何为 Office 365 （云 PBX）中的电话系统准备部署和使用云连接器设备。
+了解如何为你的云连接器设备准备部署并与电话系统（云 PBX）结合使用。
 
 本节介绍如何获取 Skype for Business 云连接器版本安装文件、安装云连接器软件以及准备云连接器设备以进行部署。 完成本节中的所有步骤后，你将准备为单个网站或多个网站部署云连接器。 如果你已有云连接器部署且尚未升级到云连接器版本2.1，请参阅[升级到新版本的云连接器](upgrade-to-a-new-version-of-cloud-connector.md)。
 
@@ -43,7 +43,7 @@ ms.locfileid: "43779238"
 
 ## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>下载 Skype for Business 云连接器版本安装程序
 
-1. 在将运行云连接器虚拟机的主机服务器上，下载安装文件： [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)。 
+1. 在将运行云连接器虚拟机的主机服务器上，下载安装文件： [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。 
 
     > [!IMPORTANT]
     > 在安装云连接器的过程中，主机服务器必须能够访问 Internet，因为在安装过程中会下载其他文件。 
@@ -136,7 +136,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="create-virtual-switches-in-hyper-v-manager"></a>在 Hyper-v 管理器中创建虚拟交换机
 
-1. 打开**hyper-v 管理器** > **虚拟交换机管理器**，然后选择 "**新建虚拟交换机管理器**"。
+1. 打开**hyper-v 管理器**  >  **虚拟交换机管理器**，然后选择 "**新建虚拟交换机管理器**"。
 
 2. 创建外部虚拟交换机并将其绑定到连接到内部网络域的物理网络适配器：
 
@@ -171,7 +171,7 @@ Export-CcConfigurationSampleFile
 
 - **SiteName：** 默认值为**Site1**。 您必须在部署云连接器之前对其进行更新，因为在运行**register-ccappliance**将设备注册到现有或新网站时，cmdlet 将使用**SiteName**确定要注册的网站。
 
-     如果要将设备注册到新网站， **SiteName**的值必须是唯一的，并且不同于现有网站。 如果要将设备注册到现有站点，则 .ini 文件中的**SiteName**的值必须与在 Office 365 组织配置中定义的名称相匹配。 如果要将配置文件从一个网站复制到另一个网站，请确保相应地为每个网站更新**SiteName**的值。
+     如果要将设备注册到新网站， **SiteName**的值必须是唯一的，并且不同于现有网站。 如果要将设备注册到现有站点，则 .ini 文件中的**SiteName**的值必须与在 Microsoft 365 或 Office 365 组织配置中定义的名称相匹配。 如果要将配置文件从一个网站复制到另一个网站，请确保相应地为每个网站更新**SiteName**的值。
 
 - **ServerName：** 服务器名称不应包含域名，且不应超过15个字符。
 
@@ -305,11 +305,11 @@ Set-ExecutionPolicy RemoteSigned
 
 3. 将其值设置为 "**启用**"。
 
-## <a name="set-up-your-office-365-organization"></a>设置 Office 365 组织
+## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>设置你的 Microsoft 365 或 Office 365 组织
 
-需要具有 Office 365 中的 Skype for Business Online 和电话系统的 Office 365 组织。 在尝试使用云连接器之前，请确保已设置并配置租户。
+具有 Skype for Business Online 和电话系统的 Microsoft 365 或 Office 365 组织是必需的。 在尝试使用云连接器之前，请确保已设置并配置租户。
 
-某些 Office 365 安装步骤要求使用租户远程 PowerShell （TRPS）配置 Office 365 组织。 **此项应安装在主机服务器上。** 您可以从： [skype For Business online、Windows PowerShell 模块](https://www.microsoft.com/download/details.aspx?id=39366)下载适用于 PowerShell 的 skype For business online 模块： Skype For business online。
+某些 Microsoft 365 和 Office 365 安装步骤要求使用租户远程 PowerShell （TRPS）配置 Microsoft 365 或 Office 365 组织。 **此项应安装在主机服务器上。** 您可以从： [skype For Business online、Windows PowerShell 模块](https://www.microsoft.com/download/details.aspx?id=39366)下载适用于 PowerShell 的 skype For business online 模块： Skype For business online。
 
 为云连接器在线管理创建专用的 Skype for Business 管理员帐户，例如 CceOnlineManagmentAdministrator。 设备将使用此帐户添加或删除设备、启用或禁用自动 OS 更新、启用或禁用自动二进制更新。 将此帐户的密码设置为永不过期，这样就无需在每次过期时为其更改服务。
 

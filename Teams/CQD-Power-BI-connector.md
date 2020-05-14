@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI Connector 以使用 CQD 查询模板
-ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158979"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219832"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI Connector 以使用 CQD 查询模板
 
@@ -34,11 +34,11 @@ ms.locfileid: "44158979"
 
 [POWER BI 文档](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)中详细介绍了安装自定义连接线和调整安全性以启用连接器使用的过程。 为了简便起见，下面是一个快速说明：
 
-1.  检查 您的* \[\]\\计算机是否已有 "Power\\BI desktop 自定义连接线*" 文件夹。 如果不是，请创建此文件夹。<sup>1</sup>
+1.  检查您的计算机是否已有 " * \[ \] \\ Power BI desktop \\ 自定义连接线*"   文件夹。 如果不是，请创建此文件夹。<sup>1</sup>
 
-2.  下载连接器文件（即* \*mez*或* \*pqx*文件），并将其放在 "*自定义连接器*" 目录中。
+2.  下载连接器文件（即* \* mez*或* \* pqx*文件），并将其放在 "*自定义连接器*" 目录中。
 
-3.  **如果连接器文件是* \*mez*文件，** 则还需要调整您的安全设置，如[自定义连接器设置文档](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)中所述。
+3.  **如果连接器文件是* \* mez*文件，** 则还需要调整您的安全设置，如[自定义连接器设置文档](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)中所述。
 
 如果已释放此 Power BI Connector for Microsoft 团队的新版本，只需将*自定义连接器*目录中的旧的连接线文件替换为新文件。
 
@@ -150,7 +150,7 @@ Power BI 连接器不支持日期切片器。 若要指定日期范围，请将�
 
 ## <a name="footnotes"></a>页脚
 
-**<sup>1</sup>** 某些流程和应用（例如，OneDrive）可能会导致您的文档根文件夹发生更改;请确保*POWER BI 桌面\\自定义连接器*目录位于当前根文件夹 "文档" 文件夹内。
+**<sup>1</sup>** 某些流程和应用（例如，OneDrive）可能会导致您的文档根文件夹发生更改;请确保*POWER BI 桌面 \\ 自定义连接器*目录位于当前根文件夹 "文档" 文件夹内。
 
 **<sup>2</sup>** 用于 CQD 的登录凭据*不*需要与用于登录到 power BI 桌面应用本身的凭据相同。
 
@@ -160,7 +160,7 @@ Power BI 连接器不支持日期切片器。 若要指定日期范围，请将�
 
 尽管有 Beta 标记，Power BI 的通话质量连接器是连接器的发行版本，由 Power BI 团队正式进行安全签名以反映此情况。 要删除该 Beta 标记的认证过程非常广泛，并且需要来自 Power BI 团队的承诺，才能向连接器提供直接支持。 由于时间限制，Power BI 团队目前无法提供该支持和更广泛的认证，但仍准备证明 Microsoft 通话质量连接器的安全、真实性和常规功能。
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>与浏览器中的高级 CQD 相比，连接线的速度似乎较慢？ 我可以采取哪些措施来提高性能？
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>与浏览器中的高级 CQD 相比，连接线的速度似乎较慢？ 我可以采取哪些措施来提高性能？
 
 浏览器和连接器中的各种模板的查询性能实际上是相同的。 不同之处在于正在运行的并发查询的数量。 由于 CQD 的浏览器版本具有不太好开发和信息密集的可视化选项，因此我们的大部分报表限制为每次加载2-3 查询。 另一方面，连接线模板通常显示20个并发查询。 如果你希望生成的报表与你以前使用过的旧报表保持响应，请尝试在每个选项卡上创建不超过2-3 个查询的报表。
 
@@ -169,6 +169,8 @@ Power BI 连接器不支持日期切片器。 若要指定日期范围，请将�
 10000行限制实际上是在 API end 上指定的，它旨在帮助显著提高性能并减少因内存不足而导致的查询执行错误的风险。
 
 最好根据连接器最佳做法重新组织报表，而不是尝试增加结果行计数。 我们包含的模板旨在演示这些最佳做法。 在可能的情况下，首先使用较广的较低基数维度（如月、年、日期、地区、国家等）查看 Kpi。从这里，您可以向下钻取到逐渐更高的基数维度。 帮助台和位置增强的报表都提供了此深入查询工作流的良好示例。
+
+
 
 ## <a name="related-topics"></a>相关主题
 

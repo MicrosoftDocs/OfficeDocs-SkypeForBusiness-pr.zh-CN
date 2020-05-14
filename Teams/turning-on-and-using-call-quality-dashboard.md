@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。
-ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44047362"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44226009"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -37,7 +37,7 @@ ms.locfileid: "44047362"
   
 通话质量仪表板（CQD）可深入了解使用 Microsoft 团队和 Skype for business Online 服务进行的通话的质量。 本主题介绍了开始收集可用于解决通话质量问题的数据的步骤。
 
-目前，高级 CQD 和 CQD 都可供使用。 可在<span>https://cqd.teams.microsoft.com</span>使用高级 CQD。 新 URL，但具有管理员凭据的相同日志。
+目前，高级 CQD 和 CQD 都可供使用。 可在使用高级 CQD <span>https://cqd.teams.microsoft.com</span> 。 新 URL，但具有管理员凭据的相同日志。
 
 ## <a name="assign-roles-for-accessing-cqd"></a>为访问 CQD 分配角色
 
@@ -148,9 +148,9 @@ URL 日期参数现在可接受 "天" 字段。 "滚动日期" 报告将 "YYYY-M
 
 |URL| 滚动日趋势的结束日期|
 |:---|:---|
-|<span>https://<cqdv3>/Spd/#/Dashboard/<reportid>/2019-02/</span>   |2019年2月的当前日期|
-|<span>https://<cqdv3>/Spd/#/Dashboard/<reportid>/2019-02-15/</span>|2019年2月15日|
-|<span>https://<cqdv3>/Spd/#/Dashboard/<reportid>/00/</span>        |当前日期|
+|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02/</span>   |2019年2月的当前日期|
+|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02-15/</span>|2019年2月15日|
+|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /00/</span>        |当前日期|
 |||
 
 默认情况下，该月的当前日期用作滚动日期趋势的最后一天。
@@ -176,12 +176,12 @@ CQD v3 支持使用 SPD 报表中的钻取或向下钻取字段。 如果选择�
 
 在开始使用 CQD 之前，请为您的 Microsoft 365 或 Office 365 激活它，如下所示：
 
-![](media/teams-logo-30x30.png) **使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
+![](media/teams-logo-30x30.png)**使用 microsoft 团队管理中心**显示 microsoft 团队徽标的图标
 
 1. 使用 Microsoft 团队服务管理员帐户登录到 Microsoft 365 或 Office 365，然后选择 "**管理员**" 磁贴以打开管理中心。
 2. 在左窗格中的 "**管理中心**" 下，选择 " **microsoft 团队**" 以打开 "microsoft 团队管理中心"。
 3. 在 "Microsoft 团队管理中心" 中，在左窗格中选择 "**呼叫质量" 仪表板**。
-4. \(在打开 https://<span>cqd.teams.microsoft.com<span/>\)的页面上，单击 "**登录**"，然后输入全局管理员帐户或 microsoft 团队服务管理员帐户信息。
+4. 在打开 https://cqd.teams.microsoft.com 的页面上 \( <span> <span/> \) ，单击 "**登录**"，然后输入全局管理员帐户或 microsoft 团队服务管理员帐户信息。
 
     ![屏幕截图：显示凭据提示](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
@@ -189,7 +189,7 @@ CQD v3 支持使用 SPD 报表中的钻取或向下钻取字段。 如果选择�
 > [!NOTE]
 > 可能需要一个或多个小时才能处理足够的数据，以在报表中显示有意义的结果。
 
-![](media/sfb-logo-30x30.png) **使用 skype for business 旧版门户**的 skype for business 徽标的图标
+![](media/sfb-logo-30x30.png)**使用 skype for business 旧版门户**的 skype for business 徽标的图标
 
 1. 使用管理员帐户登录到 Microsoft 365 或 Office 365，然后选择 "**管理员**" 磁贴以打开管理中心。
 2. 在左窗格中的 "**管理中心**" 下，选择 " **microsoft 团队**" 以打开 "microsoft 团队管理中心"。
@@ -212,7 +212,7 @@ CQD 摘要报告提供为详细报告规划的功能的子集。 此处概括介
 |:--- |:--- |:--- |
 |应用程序共享跃点数 | 否 | 是 |
 |客户构建信息支持 | 是 | 是  |
-|客户终结点信息支持 | 仅在<span>cqd.teams.microsoft.com 中<span/> | 仅在<span>cqd.teams.microsoft.com 中<span/> |
+|客户终结点信息支持 | 仅在 <span> cqd.teams.microsoft.com 中<span/> | 仅在 <span> cqd.teams.microsoft.com 中<span/> |
 |向下钻取分析支持   | 否   | 是   |
 |媒体可靠性指标   | 否   | 是   |
 |现成的报表   | 是   | 是    |
@@ -359,7 +359,7 @@ CQD 摘要报告仪表板包括**租户数据上载**页面，该页面从右上
 
    - 数据文件必须为 tsv （以制表符分隔的值）文件或 .csv （以逗号分隔的值）文件。 使用 .csv 文件时，包含逗号的任何字段都必须用引号引起来，或者删除逗号。 例如，如果建筑物名称为 NY，则在 .csv 文件中输入 "纽约州，NY"。
    - 数据文件不能大于 50 MB。
-   - 上载到 cqd.teams.microsoft.com 的文件具有展开的行限制1000000以使查询性能更快。 此限制也适用于 CQD<span></span><span></span>上的 CQD v2。
+   - 上载到 cqd.teams.microsoft.com 的文件具有展开的行限制1000000以使查询性能更快。 此限制也适用于 CQD 上的 CQD v2 <span></span> <span></span> 。
    - 对于每个数据文件，文件中的每一列都必须与本主题后面部分所述的预定义数据类型匹配。
 3. 接下来，指定**开始日期**，并根据需要**指定结束日期**。
 4. 最后，选择 "**上传**" 将文件上载到 CQD 服务器。
@@ -432,11 +432,11 @@ CQD 使用终结点数据文件。 在调用记录的第一个客户端终结点
 
 ## <a name="migrate-reports-from-previous-version-of-cqd"></a>从早期版本的 CQD 迁移报表
 
-如果你为 Skype for Business 将报表或已上载的租户数据（映射）文件创建https://cqd.lync.com)到 CQD （并希望将它们迁移到团队https://cqd.teams.microsoft.com)的 CQD （），请执行以下操作：
+如果你为 Skype for Business 将报表或已上载的租户数据（映射）文件创建到 CQD （ https://cqd.lync.com) 并希望将它们迁移到团队的 CQD （ https://cqd.teams.microsoft.com) ），请执行以下操作：
 
-1.    转到[https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/)并浏览到要导出的报表集。 
+1.    转到 [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) 并浏览到要导出的报表集。 
 2.    将鼠标悬停在报表上，然后在 "..."菜单上，选择 "**导出报表树**"。 保存导出文件。
-3.    转到[https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/)并浏览到要导入报表的位置。
+3.    转到 [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) 并浏览到要导入报表的位置。
 4.    从左侧的链接中，单击 "**导入**"，然后选择导出的文件。 
 5.    导入报告后，您将看到以下消息： "报告导入成功。 新报表已添加到报表集末尾。 " 
 
@@ -445,7 +445,7 @@ CQD 使用终结点数据文件。 在调用记录的第一个客户端终结点
 
 如果您想要创建一个特定报表，使其关注所提供的详细报表所提供的数据的维度，请创建一个自定义报表。
 
-在 "登录\(**摘要报告**"\)屏幕上显示的屏幕顶部显示的报告下拉列表中，选择 "**详细报告**"，然后**单击**报表的 "操作" 菜单中的 "编辑"，以查看查询编辑器。 每个报告都可以通过对多维数据集进行查询得到。 报告是其查询返回的数据的可视化形式。 查询编辑器可帮助您编辑报表的这些查询和显示选项。 为新报表打开 "查询编辑器" 时，你会看到类似于以下屏幕截图的内容：
+在 "登录摘要报告" 屏幕上显示的屏幕顶部显示的报告下拉列表 \( 中**Summary Reports** ，选择 " \) **详细报告**"，然后**New**单击报表的 "操作" 菜单中的 "编辑"，以查看查询编辑器。 每个报告都可以通过对多维数据集进行查询得到。 报告是其查询返回的数据的可视化形式。 查询编辑器可帮助您编辑报表的这些查询和显示选项。 为新报表打开 "查询编辑器" 时，你会看到类似于以下屏幕截图的内容：
 
 ![编辑新报表](media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
@@ -489,9 +489,17 @@ CQD 使用终结点数据文件。 在调用记录的第一个客户端终结点
 
 如果你看到 CQD v2 和 v3 之间的数据差异，请确保在 "苹果" 和 "窄" 级别（而不是聚合级别）上执行数据比较或验证。 例如，如果你筛选 MSIT "建筑物 30" WiFi 团队桌面客户端数据的两个报表，则 v2 和 v3 的低质量百分比应该相同。
 
-CQD v2 和 CQD v3 具有不同的总数，因为 CQD v3 具有 CQD v2 中不存在的新方案。 摘要总数或聚合的所有不带筛选器的数字均应不同。  
+CallSetup 失败的 CQDv2 分类是 inly 针对 "音频" 模态而考虑的，在 CQDv3 中，对于每个模态（音频、视频和应用共享），都会发生此分类，并在各自的模态流中表示。 
 
-如果使用方案包括 Skype for Business Server 2019 调用，CQD v3 数据包括 Skype 机器人呼叫（自动助理、CVI、虚拟桌面界面）、实时事件和 PSTN 呼叫。 CQD v2 不使用此数据。 （CQD v3 需要配置了 cloud data connector 的 Skype for business Server 2019。）
+对于团队，CQDv2 将相同的用户反馈应用到所有形式 CQDv3 应用针对团队的模态的反馈基础。
+
+CQD V3 包括 
+1. Skype for Business Server 2019 通话， 
+2. Skype 机器人呼叫，例如：自动助理、呼叫队列、会议通知服务 
+3. 虚拟桌面界面，
+4. 会议视频互操作，
+3. 实时事件发布者和演示者通话，以及 
+4. PSTN 呼叫。 
 
 例如，如果在 CQD v2 摘要报告中看到200000音频流，但在中看到5000失败的音频流，则在 CQD v3 摘要报告中看到300000音频5500流（区别可能是由于 Skype for Business 服务器2019通话、CVI 通话、PSTN 呼叫等）。
 
@@ -500,6 +508,18 @@ CQD v2 和 CQD v3 具有不同的总数，因为 CQD v3 具有 CQD v2 中不存�
 - User Agent Category Pair
 - 第一产品
 - 第二产品
+
+下面是一个应用特定筛选器以比较 CQD v2 和 CQD v3 数据的示例：
+
+1. QoE 记录可用 = True
+
+2. Add 是服务器对筛选器，其值：客户端：客户端和客户端：服务器。 大多数租户更喜欢排除服务器：服务器调用。
+
+3. 为用户代理类别添加筛选器并筛选出自动助理、呼叫队列、Bot、房间系统、MediationServer、会议公告服务、VDI 等。
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="在 CQD v3 中应用特定筛选器的屏幕截图":::
+
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="在 CQD v2 中应用特定筛选器的屏幕截图":::
 
 ### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>CQD v2 和 CQD v3 之间的其他预期差异
 

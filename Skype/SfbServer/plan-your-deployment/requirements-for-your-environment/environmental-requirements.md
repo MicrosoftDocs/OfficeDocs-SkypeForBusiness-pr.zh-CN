@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 摘要：为 Skype for business Server 2015 配置非服务器要求。 在部署（包括 Active Directory、DNS、证书和 Fileshares）之前，您需要配置各种不同的内容。
-ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: d552c0c2c6b9f129b6dcf08e927634c6e3bdde6e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572800"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220872"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Skype for business Server 2015 的环境要求
  
@@ -47,7 +47,7 @@ Skype for Business Server 2015 的环境要求是什么？ 我们已将并非直
 |:-----|:-----|
 |架构扩展  <br/> |用户对象扩展  <br/> |
 ||Lync Server 2013 和 Lync Server 2010 的扩展，以保持与以前支持的版本的向后兼容性。  <br/> |
-|数据  <br/> |用户 SIP URI 和其他用户设置  <br/> |
+|Data  <br/> |用户 SIP URI 和其他用户设置  <br/> |
 ||应用程序的 Contact 对象（如响应组应用程序和会议助理应用程序）。  <br/> |
 ||为了向后兼容而发布的数据。  <br/> |
 ||中央管理存储的服务控制点（SCP）。  <br/> |
@@ -168,11 +168,11 @@ Skype for Business Server 2015 支持在中央林拓扑中配置多个林。 如
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>具有 Skype for Business Online 和 Azure Active Directory Connect 的资源林拓扑中的多个林
 <a name="BKMK_multipleforestopology"> </a>
 
-![显示两个 AD 林、一个用户林和一个资源林。 这两个林具有信任关系。 它们使用 Azure AD Connect 与 Office 365 同步。 所有用户通过 Office 365 启用 Skype for Business。](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![显示两个 AD 林、一个用户林和一个资源林。 这两个林具有信任关系。 它们使用 Azure AD Connect 与 Microsoft 365 或 Office 365 同步。 所有用户通过 Microsoft 365 或 Office 365 启用 Skype for Business。](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
-在此方案中，有多个具有资源林拓扑的本地林。 Active Directory 林之间存在完全信任关系。 Azure Active Directory Connect 工具用于在本地用户林与 Office 365 之间同步帐户。
+在此方案中，有多个具有资源林拓扑的本地林。 Active Directory 林之间存在完全信任关系。 Azure Active Directory Connect 工具用于在本地用户林与 Microsoft 365 或 Office 365 之间同步帐户。
   
- 组织还具有 Office 365，并使用[Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836)将其本地帐户与 Office 365 同步。 为 Skype for business 启用的用户是通过 Office 365 和 Skype for Business Online 启用的。 未在本地部署 Skype for Business Server。
+ 组织还具有 Microsoft 365 或 Office 365，并使用[Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=614836)将其本地帐户与 Microsoft 365 或 office 365 同步。 为 Skype for business 启用的用户可通过 Microsoft 365 或 Office 365 和 Skype for Business Online 启用。 未在本地部署 Skype for Business Server。
   
 单一登录身份验证由位于用户林中的 Active Directory 联合身份验证服务场提供。
   
@@ -210,7 +210,7 @@ Skype for Business Server 2015 需要 DNS，原因如下：
   
 这似乎是已加入域的任何计算机的逻辑，但如果您的边缘服务器未加入您的域，则它可能具有一个短名称的默认值，没有域后缀。 请确保在 DNS 或边缘服务器上或者在此情况下的任何 Skype for Business Server 2015 服务器或池上都不是这种情况。
   
-且绝对不要使用 Unicode 字符或下划线。 标准字符（即 A-z、a-z、0-9 和连字符）是要由外部 DNS 和公共证书颁发机构支持的字符（需要将 Fqdn 分配给证书中的 SN，别忘了），因此，在 grief 的情况下，你将亲自为自己备了大量的文件。为此，请记住这一点。
+且绝对不要使用 Unicode 字符或下划线。 标准字符（即 A-z、a-z、0-9 和连字符）是要由外部 DNS 和公共证书颁发机构支持的字符（需要将 Fqdn 分配给证书中的 SN，不要忘记），因此，如果考虑到这一点，你将会为自己准备大量 grief。
   
 有关网络的 DNS 要求的进一步阅读，请参阅我们的规划文档的[网络](../../plan-your-deployment/network-requirements/network-requirements.md)部分。
   
@@ -248,7 +248,7 @@ Skype for Business Server 2015 需要 DNS，原因如下：
 - 向 Windows Server 2003 CA 提交基于 Web 的证书请求时，必须在运行 Windows Server 2003 SP2 或 Windows XP 的计算机上进行提交。
     
 > [!NOTE]
-> 尽管 KB922706 为解决使用 Windows Server 2003 证书服务 web 注册的 web 证书的问题提供支持，但不能使用 Windows Server 2008、Windows Vista 或 Windows 7 来请求证书。从 Windows Server 2003 CA。 
+> 虽然 KB922706 提供了对使用 windows server 2003 证书服务 web 注册对 web 证书进行注册的解决问题的支持，但不能使用 Windows Server 2008、Windows Vista 或 Windows 7 从 Windows Server 2003 CA 请求证书。 
   
 > [!NOTE]
 > 不支持使用 RSASSA-PSS 签名算法，这可能会导致登录和呼叫转发问题，以及其他问题中的错误。 
@@ -270,7 +270,7 @@ Skype for Business Server 2015 需要 DNS，原因如下：
   
 Skype for Business Server 2015 还包括对（无需）使用 SHA-256 加密哈希函数签名的（无需）证书的支持。 若要使用 SHA-256 支持外部访问，外部证书需要由使用 SHA-256 的公共 CA 颁发。
   
-为尽量简单地进行处理，我们已将 Standard Edition 服务器、前端池和其他角色的证书要求放在下表中，并将使用虚构的 contoso.com 用于示例（您可能会使用一些东西）。适用于您的环境的其他）。 这些是包含不可导出的私钥的所有标准 web 服务器证书。 需要注意的一些其他事项：
+为尽量简单地进行处理，我们已将 Standard Edition 服务器、前端池和其他角色的证书要求放在下表中，并将使用虚构的 contoso.com 用于示例（您可能会在您的环境中使用其他内容）。 这些是包含不可导出的私钥的所有标准 web 服务器证书。 需要注意的一些其他事项：
   
 - 当您使用证书向导请求证书时，将自动配置服务器增强型密钥用法（EKU）。
     
@@ -283,24 +283,24 @@ Standard Edition 服务器的证书：
 |**证书**|**使用者名称/常用名称**|**使用者替代名称**|**示例**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |默认值  <br/> |池的 FQDN  <br/> |服务器池和 FQDN 的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN = se01;SAN = se01  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |在 Standard Edition servers Standard Edition server 上，服务器 FQDN 与池 FQDN 相同。  <br/> 证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者替代名称中。  <br/> 您还可以使用此证书进行服务器到服务器身份验证。  <br/> |
-|Web 内部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> •内部 web FQDN （与服务器的 FQDN 相同）  <br/> AND  <br/> •满足简单 Url  <br/> •电话拨入式简单 URL  <br/> •管理员简单 URL  <br/> 或  <br/> •简单 Url 的通配符条目  <br/> |SN = se01;SAN = se01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = contoso .com;SAN = .com  <br/> 使用通配符证书：  <br/> SN = se01;SAN = se01;SAN =\*contoso.com  <br/> |您不能在拓扑生成器中覆盖内部 web FQDN。  <br/> 如果您有多个满足简单 Url 的简单 Url，则必须将其全部包含为 SANs。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
-|Web 外部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> •外部 web FQDN  <br/> AND  <br/> •电话拨入式简单 URL  <br/> •满足每个 SIP 域的简单 Url  <br/> 或  <br/> •简单 Url 的通配符条目  <br/> |SN = se01;SAN = webcon01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = "contoso .com"  <br/> 使用通配符证书：  <br/> SN = se01;SAN = webcon01;SAN =\*contoso.com  <br/> |如果您有多个满足简单 Url 的简单 Url，则必须将其全部包含为主题替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
+|Web 内部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> •内部 web FQDN （与服务器的 FQDN 相同）  <br/> AND  <br/> •满足简单 Url  <br/> •电话拨入式简单 URL  <br/> •管理员简单 URL  <br/> OR  <br/> •简单 Url 的通配符条目  <br/> |SN = se01;SAN = se01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = contoso .com;SAN = .com  <br/> 使用通配符证书：  <br/> SN = se01;SAN = se01;SAN = \* contoso.com  <br/> |您不能在拓扑生成器中覆盖内部 web FQDN。  <br/> 如果您有多个满足简单 Url 的简单 Url，则必须将其全部包含为 SANs。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
+|Web 外部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> •外部 web FQDN  <br/> AND  <br/> •电话拨入式简单 URL  <br/> •满足每个 SIP 域的简单 Url  <br/> OR  <br/> •简单 Url 的通配符条目  <br/> |SN = se01;SAN = webcon01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = "contoso .com"  <br/> 使用通配符证书：  <br/> SN = se01;SAN = webcon01;SAN = \* contoso.com  <br/> |如果您有多个满足简单 Url 的简单 Url，则必须将其全部包含为主题替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
    
 前端服务器在前端池中的证书：
   
 |**证书**|**使用者名称/常用名称**|**使用者替代名称**|**示例**|**Comments**|
 |:-----|:-----|:-----|:-----|:-----|
 |默认值  <br/> |池的 FQDN  <br/> |服务器池和 FQDN 的 FQDN  <br/> 如果具有多个 SIP 域并已启用自动客户端配置，则证书向导会检测并添加所有受支持的 SIP 域 FQDN。  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的域名系统 (DNS) 匹配，那么还需要 sip.sipdomain 条目（对应于您拥有的每个 SIP 域）。  <br/> |SN = eepool;SAN = eepool;SAN = ee01  <br/> 如果此池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，则还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |证书向导会检测您在安装过程中所指定的任何 SIP 域，然后自动将它们添加到使用者替代名称中。  <br/> 您还可以使用此证书进行服务器到服务器身份验证。  <br/> |
-|Web 内部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> •内部 web FQDN （与服务器的 FQDN 不同）  <br/> •服务器 FQDN  <br/> • Skype for Business 池 FQDN  <br/> AND  <br/> •满足简单 Url  <br/> •电话拨入式简单 URL  <br/> •管理员简单 URL  <br/> 或  <br/> •简单 Url 的通配符条目  <br/> |SN = ee01;SAN = ee01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = contoso .com;SAN = .com  <br/> 使用通配符证书：  <br/> SN = ee01;SAN = ee01;SAN =\*contoso.com  <br/> |如果您有多个满足简单 Url 的简单 Url，则必须将其全部包含为主题替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
-|Web 外部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> •外部 web FQDN  <br/> AND  <br/> •电话拨入式简单 URL  <br/> •管理员简单 URL  <br/> 或  <br/> •简单 Url 的通配符条目  <br/> |SN = ee01;SAN = webcon01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = "contoso .com"  <br/> 使用通配符证书：  <br/> SN = ee01;SAN = webcon01;SAN =\*contoso.com  <br/> |如果您有多个满足简单 Url 的简单 Url，则必须将其全部包含为主题替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
+|Web 内部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> •内部 web FQDN （与服务器的 FQDN 不同）  <br/> •服务器 FQDN  <br/> • Skype for Business 池 FQDN  <br/> AND  <br/> •满足简单 Url  <br/> •电话拨入式简单 URL  <br/> •管理员简单 URL  <br/> OR  <br/> •简单 Url 的通配符条目  <br/> |SN = ee01;SAN = ee01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = contoso .com;SAN = .com  <br/> 使用通配符证书：  <br/> SN = ee01;SAN = ee01;SAN = \* contoso.com  <br/> |如果您有多个满足简单 Url 的简单 Url，则必须将其全部包含为主题替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
+|Web 外部  <br/> |池的 FQDN  <br/> |以下各项：  <br/> •外部 web FQDN  <br/> AND  <br/> •电话拨入式简单 URL  <br/> •管理员简单 URL  <br/> OR  <br/> •简单 Url 的通配符条目  <br/> |SN = ee01;SAN = webcon01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = "contoso .com"  <br/> 使用通配符证书：  <br/> SN = ee01;SAN = webcon01;SAN = \* contoso.com  <br/> |如果您有多个满足简单 Url 的简单 Url，则必须将其全部包含为主题替代名称。  <br/> 简单 URL 条目支持通配符条目。  <br/> |
    
 Director 的证书：
   
 |**证书**|**使用者名称/常用名称**|**使用者替代名称**|**示例**|
 |:-----|:-----|:-----|:-----|
 |默认值  <br/> |控制器池  <br/> |控制器的 FQDN、控制器池的 FQDN。  <br/> 如果此池是客户端的自动登录服务器，并且组策略中需要严格的 DNS 匹配，则还需要 sipdomain （针对每个 SIP 域）的条目。  <br/> |pool.contoso.com;SAN = dir01  <br/> 如果此控制器池是客户端的自动登录服务器，而且组策略要求执行严格的 DNS 匹配，那么您还需要 SAN=sip.contoso.com; SAN=sip.fabrikam.com。  <br/> |
-|Web 内部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> •内部 web FQDN （与服务器的 FQDN 相同）  <br/> •服务器 FQDN  <br/> • Skype for Business 池 FQDN  <br/> AND  <br/> •满足简单 Url  <br/> •电话拨入式简单 URL  <br/> •管理员简单 URL  <br/> 或  <br/> •简单 Url 的通配符条目  <br/> |SN = dir01;SAN = dir01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = contoso .com;SAN = .com  <br/> 使用通配符证书：  <br/> SN = dir01;SAN = dir01 SAN =\*. contoso.com  <br/> |
-|Web 外部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> •外部 web FQDN  <br/> AND  <br/> •满足每个 SIP 域的简单 Url  <br/> •电话拨入式简单 URL  <br/> 或  <br/> •简单 Url 的通配符条目  <br/> |控制器外部 web FQDN 必须不同于前端池或前端服务器。  <br/> SN = dir01;SAN = directorwebcon01 SAN = "contoso. .com";SAN = 符合 fabrikam .com;SAN = "contoso .com"  <br/> 使用通配符证书：  <br/> SN = dir01;SAN = directorwebcon01 SAN =\*. contoso.com  <br/> |
+|Web 内部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> •内部 web FQDN （与服务器的 FQDN 相同）  <br/> •服务器 FQDN  <br/> • Skype for Business 池 FQDN  <br/> AND  <br/> •满足简单 Url  <br/> •电话拨入式简单 URL  <br/> •管理员简单 URL  <br/> OR  <br/> •简单 Url 的通配符条目  <br/> |SN = dir01;SAN = dir01;SAN = "contoso .com";SAN = 符合 fabrikam .com;SAN = contoso .com;SAN = .com  <br/> 使用通配符证书：  <br/> SN = dir01;SAN = dir01 SAN = \* . contoso.com  <br/> |
+|Web 外部  <br/> |服务器的 FQDN  <br/> |以下各项：  <br/> •外部 web FQDN  <br/> AND  <br/> •满足每个 SIP 域的简单 Url  <br/> •电话拨入式简单 URL  <br/> OR  <br/> •简单 Url 的通配符条目  <br/> |控制器外部 web FQDN 必须不同于前端池或前端服务器。  <br/> SN = dir01;SAN = directorwebcon01 SAN = "contoso. .com";SAN = 符合 fabrikam .com;SAN = "contoso .com"  <br/> 使用通配符证书：  <br/> SN = dir01;SAN = directorwebcon01 SAN = \* . contoso.com  <br/> |
    
 独立中介服务器的证书：
   
@@ -312,7 +312,7 @@ Survivable 分支设备的证书：
   
 |**证书**|**使用者名称/常用名称**|**使用者替代名称**|**示例**|
 |:-----|:-----|:-----|:-----|
-|默认值  <br/> |设备的 FQDN  <br/> |SIP.\<sipdomain\> （每个 SIP 域仅需要一个条目）  <br/> |SN = sba01;SAN = "contoso .com";SAN = sip. .com  <br/> |
+|默认值  <br/> |设备的 FQDN  <br/> |SIP。 \<sipdomain \> （每个 SIP 域仅需要一个条目）  <br/> |SN = sba01;SAN = "contoso .com";SAN = sip. .com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>持久聊天服务器的证书
 
@@ -340,22 +340,22 @@ Skype for Business Server 2015 支持使用**单个公共证书**访问和 Web �
   
 现在，这是一个很好的预规划，但有时您已部署 Skype for Business Server 2015，而不打算部署移动性，并且在您的环境中已经有证书的情况下。 通过内部 CA 重新发起它们通常相当简单，但使用公共 CA 的公共证书可能会更 pricy。
   
-如果这是您要查看的内容，并且有很多 SIP 域（这将增加 SAN 的成本），则可以将反向代理配置为对初始自动发现服务请求使用 HTTP，而不是使用 HTTPS （这是默认值配置）。 "规划移动性" 主题包含有关此功能的详细信息。
+如果这是您要查看的内容，并且有很多 SIP 域（这将增加 SAN 的成本），则可以将反向代理配置为对初始自动发现服务请求使用 HTTP，而不是使用 HTTPS （这是默认配置）。 "规划移动性" 主题包含有关此功能的详细信息。
   
 控制器池和前端池证书要求：
   
 |**说明**|**SAN 条目**|
 |:-----|:-----|
-|内部自动发现服务 URL  <br/> |SAN = lyncdiscoverinternal.。\<sipdomain\>  <br/> |
-|外部自动发现服务 URL  <br/> |SAN = lyncdiscover.。\<sipdomain\>  <br/> |
+|内部自动发现服务 URL  <br/> |SAN = lyncdiscoverinternal.。 \<sipdomain\>  <br/> |
+|外部自动发现服务 URL  <br/> |SAN = lyncdiscover.。 \<sipdomain\>  <br/> |
    
-您也可以使用 SAN =\*。\<sipdomain\>
+您也可以使用 SAN = \* 。 \<sipdomain\>
   
 反向代理（公用 CA）证书要求：
   
 |**说明**|**SAN 条目**|
 |:-----|:-----|
-|外部自动发现服务 URL  <br/> |SAN = lyncdiscover.。\<sipdomain\>  <br/> |
+|外部自动发现服务 URL  <br/> |SAN = lyncdiscover.。 \<sipdomain\>  <br/> |
    
 此 SAN 需要分配给在反向代理上分配给 SSL 侦听器的证书。
   

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 摘要：阅读本主题，了解 Skype for Business Server 中的会议特性和功能。
-ms.openlocfilehash: feaa3dbbe3d05b09e3490ef160ceb21816ae7d5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 1c67eecda6c7691dfbb042f4743733b73864a426
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780421"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221162"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>在 Skype for Business Server 中规划会议
  
@@ -31,7 +31,7 @@ Skype for Business Server 中的会议允许用户使用其 Skype for business �
     
 - 会议组件
     
-- 会议策略。
+- 会议策略
     
 - 对大型会议的支持
     
@@ -122,7 +122,7 @@ Skype for Business Server 中提供了四种类型的会议： web 会议、音�
     
 - **Office Web Apps 服务器。** 为了使用 web 会议功能，管理员必须安装 Office Web Apps Server，并且必须将 Skype for Business Server 配置为与 Office Web Apps Server 进行通信。
     
-## <a name="conferencing-policies"></a>会议策略。
+## <a name="conferencing-policies"></a>会议策略
 
 若要强制实施组织的策略并控制带宽使用情况，可以为用户可组织的会议类型设置策略。 您可以定义各种各样的会议策略，并将它们分配给各个用户和用户组。 还可以设置用于管理对等对话的策略。 有关设置会议策略的详细信息，请参阅[在 Skype For Business Server 中管理会议策略](../../manage/conferencing/conferencing-policies.md)。 有关带宽管理的详细信息，请参阅[在 Skype For Business Server 中规划呼叫允许控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
@@ -136,7 +136,7 @@ Skype for Business Server 可以支持的会议大小取决于会议是否托管
     
 有关管理大型会议的详细信息，请参阅[在 Skype For Business Server 中规划大型会议](large-meetings.md)。
   
-如果您的组织需要更大的会议功能，则应考虑实施使用 Skype 会议直播的混合环境，这是 Office 365 中的一部分的在线服务。 通过 Skype 会议直播，用户可以将会议托管和广播到最多为10000个参与者的大型 online 访问群体。 使用 Skype 会议直播要求已在包含生产 Office 365 组织的混合设置中配置 Skype for Business Server。 所有用户必须具有作为先决条件建立的联机租户。 如果您希望部署可利用 Skype 会议直播的混合解决方案，请参阅[为 Skype 会议直播配置本地部署](../../deploy/configure-skype-meeting-broadcast.md)。
+如果您的组织需要更大的会议功能，应考虑实施一个使用 Skype 会议直播的混合环境，该环境是 Microsoft 365 和 Office 365 中的一种联机服务。 通过 Skype 会议直播，用户可以将会议托管和广播到最多为10000个参与者的大型 online 访问群体。 使用 Skype 会议广播要求已在混合设置中使用生产 Microsoft 365 或 Office 365 组织配置 Skype for Business Server。 所有用户必须具有作为先决条件建立的联机租户。 如果您希望部署可利用 Skype 会议直播的混合解决方案，请参阅[为 Skype 会议直播配置本地部署](../../deploy/configure-skype-meeting-broadcast.md)。
   
 ## <a name="determine-your-organizations-needs"></a>确定您的组织需要
 

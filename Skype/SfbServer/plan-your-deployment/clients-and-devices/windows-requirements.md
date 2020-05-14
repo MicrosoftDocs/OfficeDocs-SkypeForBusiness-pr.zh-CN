@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 摘要：在规划 Skype for Business Server 时，请查看 Windows 客户端支持要求。
-ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 67208fc25344ff417094419f22068822e03b13db
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928235"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219822"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 客户端要求和软件支持
  
 **摘要：** 在规划 Skype for Business Server 时，请查看 Windows 客户端支持要求。
   
-本节概述了支持 Skype for Business Windows 客户端所需的软件。  这些客户端是在安装 Office 365 时安装的，也可用于在[所有设备上下载 Skype For business](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。
+本节概述了支持 Skype for Business Windows 客户端所需的软件。 这些客户端在 Microsoft 365 或 Office 365 安装时安装，也可用于在[所有设备上下载 Skype For business](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。
   
 > [!NOTE]
 > 适用于 Skype for Business 的联机会议外接程序（它支持从 Outlook 消息传递和协作客户端中进行会议管理）通过 Skype for Business 自动安装。 
@@ -45,7 +45,7 @@ ms.locfileid: "42928235"
    
 ## <a name="hardware"></a>硬件
 
-有关运行 Skype for Business 客户端所需的硬件，请参阅 Office 365[系统要求](https://products.office.com/office-system-requirements)。
+有关运行 Skype for Business 客户端所需的硬件，请参阅 Microsoft 365 和 Office[系统要求](https://products.office.com/office-system-requirements)。
   
 ## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype 会议应用和 Skype for Business Web 应用 
 
@@ -81,4 +81,4 @@ Skype 会议应用和 Skype for Business Web 应用支持特定的操作系统�
 
 [在所有设备上下载 Skype for Business](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Office 365 系统要求](https://products.office.com/office-system-requirements)
+[Microsoft 365 和 Office 系统要求](https://products.office.com/office-system-requirements)

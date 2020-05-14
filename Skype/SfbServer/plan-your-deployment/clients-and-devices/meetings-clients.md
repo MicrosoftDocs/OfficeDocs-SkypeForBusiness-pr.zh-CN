@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要：在规划 Skype for business Server 时，IT 专业人员应查看 Skype for business Web 应用和 Skype 会议应用的支持要求。 本文不适合这些应用程序的用户。
-ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 30397c922dbc5bb8578714d70712f90d7e14ca4c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777787"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221042"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>规划会议客户端（Web 应用程序和会议应用程序）
  
@@ -33,14 +33,14 @@ ms.locfileid: "43777787"
 稍后，这些用户可能会创建会议并邀请来自组织外部的用户，并且这些会议被邀请者可能没有任何版本的 Skype for Business 客户端。 当这些用户单击会议邀请的 URL 时，将会检测到缺少客户端，且没有 Skype for Business 客户端的被邀请者将被要求下载并安装一个轻型的、仅会议的客户端，以便他们可以加入会议。
   
 > [!NOTE]
-> Skype for Business Web 应用和 Skype 会议应用仅在尝试登录会议时没有 Skype for business 时可用。 这些应用程序的用户帮助位于[https://aka.ms/smahelp](https://aka.ms/smahelp)。 
+> Skype for Business Web 应用和 Skype 会议应用仅在尝试登录会议时没有 Skype for business 时可用。 这些应用程序的用户帮助位于 [https://aka.ms/smahelp](https://aka.ms/smahelp) 。 
   
 > [!NOTE]
 > 您不能预安装 Skype for Business Web 应用或 Skype 会议应用程序，但[智能手机](https://products.office.com/skype-for-business/download-app?tab=tabs-1)和[平板电脑](https://products.office.com/skype-for-business/download-app?tab=tabs-2)用户可能能够安装可用于参加会议的廉价移动客户端。
   
 默认情况下，主持会议的服务器将引导用户下载并安装 Skype for Business Web 应用以加入会议。 Skype for Business Web 应用程序存储在前端服务器上，并发送给会议与会者。 
   
-对于 Skype for Business Server，skype 会议应用（在 Windows 上）和 Skype for Business for Mac （基于 Mac）可作为 Skype for business Web 应用程序的替换功能，以 CU5 开头，但提供替换应用程序需要在[启用 Skype 会议应用程序中描述的其他配置来替换 Skype For Business Web app （可选）](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。  如果启用 Skype 会议应用和 Skype for business for Mac，用户将从 Office 365 内容传送网络（CDN）而不是从 Skype for Business 服务器下载最新版本的应用程序。 对于 Skype for business Server 2019，使用 Skype 会议应用程序和 Skype for business for Mac 是唯一的选择。
+对于 Skype for Business Server，skype 会议应用（在 Windows 上）和 Skype for Business for Mac （基于 Mac）可作为 Skype for business Web 应用程序的替换功能，以 CU5 开头，但提供替换应用程序需要在[启用 Skype 会议应用程序中描述的其他配置来替换 Skype For Business Web app （可选）](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。 如果启用 Skype 会议应用和 Skype for business for Mac，用户将从 Microsoft 365 或 Office 365 内容传送网络（CDN）下载最新版本的应用程序，而不是从 Skype for business 服务器下载。 对于 Skype for business Server 2019，使用 Skype 会议应用程序和 Skype for business for Mac 是唯一的选择。
   
 Skype 会议应用提供简化的浏览器体验，可用于下载和安装应用程序并加入会议，包括 Internet Explorer 用户的点击式加入。 Skype 会议应用程序对 Skype for business Web 应用程序的可靠性和会议体验也有很多改进。 
   
@@ -130,7 +130,7 @@ Skype for business for Mac 在使用 macOS 版本10.8 或更高版本的计算�
 |发起投票  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |上载文件以与其他人共享  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |安排会议  <br/> |Outlook 或 Skype for Business Web 计划程序  <br/> |Outlook 或 Skype for Business Web 计划程序  <br/> |Skype for Business Web 计划程序  <br/> |Skype for Business Web 计划程序  <br/> |Skype for Business Web 计划程序  <br/> |
-|问&amp;：经理  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|问： &amp; 经理  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |禁用与会者视频  <br/> |&#x2714;|||||
 |禁用会议即时消息  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |静音受众  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|

@@ -20,16 +20,16 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: '了解地址验证是什么、它很重要的原因以及它与紧急地址和服务的关联关系。 '
-ms.openlocfilehash: 695698f8d1b6a466829174802f2ece0b92398f7e
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769245"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220692"
 ---
 # <a name="what-is-address-validation"></a>什么是地址验证？
 
-在 Office 365 中设置通话套餐时，需要为每个用户分配一个电话号码和紧急地址。
+设置呼叫计划时，您需要为每个用户分配电话号码和紧急地址。
   
 验证街道或市镇地址是为了确保地址本身正确以及它的格式正确。 部分正确的紧急地址（如城市名称错误）可能仍通过验证。 验证过程使用给定地址的所有部分来确定其是否包含足够的信息以将呼叫路由至正确的紧急服务中心。 如果是，则为其返回已验证，之后该地址可以分配给某个电话号码。
 

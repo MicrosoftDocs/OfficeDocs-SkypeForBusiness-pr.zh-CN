@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 为 IT 专业人员提供有关永久版本的 Skype for business 2016、Skype for Business 2015 和 Lync 2013 客户端的最新更新信息的链接
-ms.openlocfilehash: 8a6008845c4218c8682a22cbab110551999d19cb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f8ee4756c38f6917a814db1672b29db3c7f6ca6c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779698"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221876"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer （MSI）的 Skype for Business 版本的最新更新
 
@@ -25,14 +25,14 @@ ms.locfileid: "43779698"
 
 > [!NOTE]
 > - 本文中的信息仅适用于使用 Windows Installer （MSI）安装技术的 Skype for business 永久版本。 例如，如果您已安装 Skype for business 的批量许可版本，例如 Office Professional 随附的 Skype for business 加2016。
-> - 本文中的信息不适用于 Skype for business 的 Office 365 版本，如适用于企业的 Microsoft 365 应用程序附带的 Skype for business。
+> - 本文中的信息不适用于 Skype for Business 的 Microsoft 365 或 Office 365 版本，如适用于企业的 Microsoft 365 应用程序附带的 Skype for business。
 > - 有关最新的移动客户端更新，请转到移动客户端（iTunes、Google Play 或 Microsoft Store）的应用商店，以查看详细信息并安装更新。
 > - 若要了解你使用的是哪个版本的 Skype for business，请参阅[我拥有的 skype For business 版本？](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - 有关安装 Office 更新的详细信息，请参阅[安装 Office 更新](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5)。
 
-Skype for business 与 Office 365 和本地环境的兼容性取决于部署的系统要求：
+与 Microsoft 365 或 Office 365 和本地环境的 Skype for Business 兼容性取决于部署的系统要求：
 
-- Office 365 适用于主流支持中的任何版本的 Skype for Business，其中包括最新版本的 Skype for Business 2016。 对于早期版本的 Skype for Business，只有那些具有扩展支持的人员才能继续使用 Office 365，尽管功能降低。 有关详细信息，请参阅[Microsoft 生命周期策略](https://support.microsoft.com/lifecycle)。
+- Microsoft 365 和 Office 365 适用于主流支持中的任何版本的 Skype for Business，其中包括最新版本的 Skype for Business 2016。 对于早期版本的 Skype for Business，只有那些具有扩展支持的人员才能继续使用 Microsoft 365 或 Office 365，但功能较少。 有关详细信息，请参阅[Microsoft 生命周期策略](https://support.microsoft.com/lifecycle)。
 
 - 对于 Skype for business Server 本地部署，请遵循你的 Skype for Business 版本的系统要求：
 

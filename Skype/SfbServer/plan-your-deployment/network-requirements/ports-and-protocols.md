@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要：在实施 Skype for Business Server 之前，请查看端口使用注意事项。
-ms.openlocfilehash: 33199855d020af08e306022be47a0a9757125adb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 09b0d187195faa0aa4b5278456991d9223427f9d
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42025783"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44220382"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>服务器的端口和协议要求
  
@@ -34,7 +34,7 @@ Skype for Business Server 要求外部和内部防火墙上的特定端口处于
   
 您还可以通过查看链接到[Skype for Business Server 2015 文章的技术图表](../../technical-diagrams.md)中的协议工作负荷海报，在图表窗体中查找这些表中的信息。
 > [!NOTE]
-> - 如果要实现 Skype for Business Online （O365），请参阅[Office 365 url 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境将需要参考此主题，同时[规划混合连接](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)。
+> - 如果你正在实施 Skype for Business Online （Microsoft 365 或 Office 365），请参阅[microsoft 365 和 office 365 url 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)。 混合环境将需要参考此主题，同时[规划混合连接](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)。
 > - 您可以拥有硬件或软件防火墙，我们不需要特定的模型或版本。 重要的是哪些端口是白名单，因此防火墙不会影响 Skype for business Server 的功能。
   
 ## <a name="port-and-protocol-details"></a>端口和协议详细信息
@@ -62,7 +62,7 @@ Skype for Business Server 要求外部和内部防火墙上的特定端口处于
 |前端服务器  |Skype for Business Server Web 会议兼容性服务  |8058  |TCP (TLS)  |用于侦听来自 Live Meeting 客户端和早期版本的 Skype for Business Server 的永久共享对象模型（PSOM）连接。  |
 |前端服务器  |Skype for Business Server 音频/视频会议服务  |5063  |TCP  |用于音频/视频 (A/V) 会议的传入 SIP 请求。  |
 |前端服务器  |Skype for Business Server 音频/视频会议服务  |57501-65535  |TCP/UDP  |用于视频会议的媒体端口范围。  |
-|前端服务器  |Skype for Business Server Web 兼容性服务  |80  |HTTP  |用于未使用 HTTPS 时从前端服务器到 Web 场 FQDN（IIS Web 组件使用的 URL）的通信。  |
+|前端服务器  |Skype for Business Server Web 兼容性服务  |80  |HTTP.SYS  |用于未使用 HTTPS 时从前端服务器到 Web 场 FQDN（IIS Web 组件使用的 URL）的通信。  |
 |前端服务器  |Skype for Business Server Web 兼容性服务  |443  |IP-HTTPS  |用于从前端服务器到 Web 场 FQDN（IIS Web 组件使用的 URL）的通信。  |
 |前端服务器  |Skype for Business Server Web 兼容性服务  |8080  |TCP 和 HTTP  |供用于外部访问的 web 组件使用。  |
 |前端服务器  |Web 服务器组件  |4443  |IP-HTTPS  |HTTPS （来自反向代理）和 HTTPS 前端池之间的通信，用于自动发现登录。  |
@@ -107,7 +107,7 @@ Skype for Business Server 要求外部和内部防火墙上的特定端口处于
 |持久聊天前端服务器  |持久聊天文件传输服务  |443  |TCP (TLS)  ||
    
 > [!NOTE]
-> 某些远程呼叫控制方案需要前端服务器或控制器与 PBX 之间的 TCP 连接。 尽管 Skype for Business Server 不再使用 TCP 端口5060，但在远程呼叫控制部署期间，您可以创建一个受信任的服务器配置，该配置将 RCC 线路服务器的 FQDN 与 TCP 端口关联，前端服务器或控制器将使用该端口连接到PBX 系统。 有关详细信息，请参阅 Skype for Business Server 命令行管理程序文档中的**CsTrustedApplicationComputer** cmdlet。
+> 某些远程呼叫控制方案需要前端服务器或控制器与 PBX 之间的 TCP 连接。 尽管 Skype for Business Server 不再使用 TCP 端口5060，但在远程呼叫控制部署过程中，将创建一个受信任的服务器配置，该配置将 RCC 线路服务器 FQDN 与前端服务器或控制器用于连接 PBX 系统的 TCP 端口相关联。 有关详细信息，请参阅 Skype for Business Server 命令行管理程序文档中的**CsTrustedApplicationComputer** cmdlet。
   
 对于仅使用硬件负载平衡（不是 DNS 负载平衡）的池，下表显示了需要打开硬件负载平衡器的端口。
   
@@ -118,7 +118,7 @@ Skype for Business Server 要求外部和内部防火墙上的特定端口处于
 |前端服务器负载平衡器  |5061  |TCP (TLS)  |
 |前端服务器负载平衡器  |444  |IP-HTTPS  |
 |前端服务器负载平衡器  |135  |DCOM 和远程过程调用 (RPC)  |
-|前端服务器负载平衡器  |80  |HTTP  |
+|前端服务器负载平衡器  |80  |HTTP.SYS  |
 |前端服务器负载平衡器  |8080  |来自前端服务器-客户端和受 NTLM 身份验证的设备的根证书的 TCP 客户端和设备检索  |
 |前端服务器负载平衡器  |443  |IP-HTTPS  |
 |前端服务器负载平衡器  |4443  |HTTPS（来自反向代理）  |
@@ -142,7 +142,7 @@ Skype for Business Server 要求外部和内部防火墙上的特定端口处于
 
 |负载平衡器|端口|协议|
 |:-----|:-----|:-----|
-|前端服务器负载平衡器  |80  |HTTP  |
+|前端服务器负载平衡器  |80  |HTTP.SYS  |
 |前端服务器负载平衡器  |443  |IP-HTTPS  |
 |前端服务器负载平衡器  |8080  |来自前端服务器-客户端和受 NTLM 身份验证的设备的根证书的 TCP 客户端和设备检索  |
 |前端服务器负载平衡器  |4443  |HTTPS（来自反向代理）  |

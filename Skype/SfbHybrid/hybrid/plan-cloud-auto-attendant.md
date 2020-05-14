@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 将云自动助理与 Skype for Business Server 2019 结合使用的概述
-ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: d85c846a05448d8b1021bb5c1cac62c80ee1bf22
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510801"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221292"
 ---
 # <a name="plan-cloud-auto-attendants"></a>规划云自动助理
 
 Exchange 统一消息（Exchange Server 2013 或 Exchange Server 2016）使用的自动助理已不再在 Exchange Server 2019 或 Exchange Online 中可用。 如果实施 Skype for Business Server 2019 与上述任一 Exchange 版本集成，则需要使用与电话系统相关联的联机云语音功能。 请参阅[Plan For Skype For Business Server 和 Exchange Server 迁移](plan-um-migration.md)，了解有关将 exchange UM 服务托管在 exchange server 2013 和2016上的信息移动到云。
 
-这本身就意味着，如果您希望使用统一消息功能（如自动助理），您将拥有 Skype for business Server 2019 的混合实施。 有关详细信息，请参阅[配置 Skype For Business Server 和 Office 365 之间的混合连接](configure-hybrid-connectivity.md)。
+这本身就意味着，如果您希望使用统一消息功能（如自动助理），您将拥有 Skype for business Server 2019 的混合实施。 有关详细信息，请参阅[配置 Skype For Business Server 与 Microsoft 365 或 Office 365 之间的混合连接](configure-hybrid-connectivity.md)。
 
 自动助理是一种云服务，它接受客户呼叫并播放问候语，为他们提供菜单选项，并与使用语音或拨号盘的呼叫者进行交互以将呼叫路由到正确的目标。 在 Skype for Business Server 2019 系统上为每个自动助理分配一个*资源帐户*（请参阅[配置资源帐户](configure-onprem-ra.md)），该帐户将直接链接到 Microsoft 团队管理中心中的自动助理。 请参阅[什么是云自动助理？](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md)有关自动助理的详细信息以及自动助理存在哪些选项和功能的详细信息，请参阅什么是云自动助理。
 
@@ -36,7 +36,7 @@ Exchange 统一消息（Exchange Server 2013 或 Exchange Server 2016）使用�
 
 1. 通过 Skype for Business Server 2019
 2. 通过[会话边界控制器](/MicrosoftTeams/direct-routing-border-controllers.md)和[直接路由](/MicrosoftTeams/direct-routing-plan.md)
-3. 通过在 Office 365 中托管的号码联机。
+3. 通过 Microsoft 365 或 Office 365 中托管的号码联机。
 
 另请参阅：
 
@@ -55,7 +55,7 @@ Exchange 统一消息（Exchange Server 2013 或 Exchange Server 2016）使用�
 
 - 混合连接性。 如果已部署 Skype for Business Server，并且要为本地用户启用云自动助理，则必须确保在本地和联机环境之间设置混合连接。 这有时称为拆分域配置。
 
-   有关详细信息，请参阅[规划 skype For Business server 和 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 和 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
+   有关详细信息，请参阅[规划 skype for Business server 与 microsoft 365 或 office 365 之间的混合连接](plan-hybrid-connectivity.md)和[配置 Skype for Business server 与 Microsoft 365 或 office 365 之间的混合连接](configure-hybrid-connectivity.md)。
 
 - 如果你要向自动助理分配电话号码，你将需要[Office 365 企业版 E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing)许可证。
 - 为每个自动助理创建一个联机[资源帐户](/MicrosoftTeams/manage-resource-accounts.md)或本地[资源帐户](configure-onprem-ra.md)，并分配电话号码和许可证。 
@@ -114,8 +114,8 @@ Microsoft 建议采用以下迁移途径：
 
 Exchange UM：[自动应答和路由传入呼叫](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-[规划 Skype for Business Server 与 Office 365 之间的混合连接](plan-hybrid-connectivity.md)
+[规划 Skype for Business Server 与 Microsoft 365 或 Office 365 之间的混合连接](plan-hybrid-connectivity.md)
 
-[配置 Skype for Business Server 和 Office 365 之间的混合连接](configure-hybrid-connectivity.md)
+[配置 Skype for Business Server 与 Microsoft 365 或 Office 365 之间的混合连接](configure-hybrid-connectivity.md)
 
 [KB4480742：将联系人对象移至 Skype for business Server 2019 后，对订阅者访问或自动助理的呼叫失败，并出现 "500 服务器内部" 错误](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)
