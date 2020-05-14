@@ -42,8 +42,8 @@ ms.locfileid: "44170673"
 - Microsoft 和 Office 365 企业版 E1、E3 或 E5
 - Microsoft 365 和 Office 365 教育版 A1、A3 或 A5
 - Microsoft 365 和 Office 365 政府版 G1、G3 或 G5 （仅适用于 GCC）
-- Microsoft 365 非盈利性企业基本版
-- Microsoft 365 非盈利性企业标准版
+- Microsoft 365 非营利组织商业基本版
+- Microsoft 365 非营利组织商业标准版
 - Microsoft 365 和 Office 365 非营利组织版 E1、E3 或 E5
 
 商务语音在 70 国家和地区可用。 是否可以自行设置商务语音，将电话号码转移到 Microsoft 365 以及在 Microsoft 365 中管理电话号码，取决于 Microsoft 365 租户所在的国家或地区。 有关详细信息，请查看“[通话套餐的国家和地区可用性](country-region-availability.md)。
