@@ -11,14 +11,14 @@
 
 ## [Microsoft 电话解决方案](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
-### [使用本地 PSTN 连接规划电话系统](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+### [ Skype for Business Server 中本地 PSTN 连接的计划电话系统](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
 
 ### [在 Skype for Business Server 中使用本地 PSTN 连接启用电话系统用户](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md)
 
 
 #### [为用户启用本地企业语音](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises.md)
 #### [分配语音路由策略](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/assign-a-voice-routing-policy.md)
-#### [为用户启用联机企业语音和 Office 365 电话系统语音邮件](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
+#### [为用户启用联机企业语音和 电话系统语音邮件](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md)
 
 
 ### [规划 Skype for Business 云连接器版本](../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)
