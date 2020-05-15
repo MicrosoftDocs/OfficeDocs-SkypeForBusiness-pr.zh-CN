@@ -18,12 +18,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
+ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042849"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44224235"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -35,14 +35,16 @@ ms.locfileid: "44042849"
 
 若要安排 Teams 实时事件，用户必须满足以下前提条件。
 
-下面是必须分配的许可证：  
+以下是制作或呈现 Teams 现场活动必须分配的许可证：  
 
-- Office 365 企业版 E1、E3 或 E5 许可证，或 Office 365 A3 或 A5 许可证
-- Microsoft Teams 许可证
-- Microsoft Stream 许可证
+- Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，或 Office 365 教育版 A3 或 A5 许可证。
+- Microsoft Teams 许可证。 - 这包含在上述许可证中。 
+- 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](https://docs.microsoft.com/stream/license-overview)。 
 
-> [!IMPORTANT]
-> 创建和安排实时事件的用户必须拥有 Exchange Online 邮箱。
+  如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这意味着不会将录制存储在 Microsoft Stream 中，而是将其存储在 Azure 媒体服务 (AMS) 中，且仅有 30 天存储期限，之后将被删除。 目前管理员无法控制或管理它，包括无法删除它。
+
+> [!NOTE]
+> 目前，没有任何 Microsoft 365 小型企业版计划可用于创建和保留 Teams 实时事件。
 
 注意，Office 365 许可证是经过身份验证的用户参见实时事件的必要条件，但是此要求取决于所使用的制作方式：
 
@@ -81,6 +83,14 @@ ms.locfileid: "44042849"
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams 实时事件和Skype 会议直播
 
 下表突出显示了实时事件中提供的核心功能以及区别 Skype 会议直播的方式。
+
+> [!IMPORTANT]
+> **Microsoft 365 实时事件限制的增加**
+> 
+> 为帮助客户满足快速变化的沟通需求，Microsoft 365 实时事件将暂时对 Teams 中托管的活动提高默认限制，直到 2020 年 7 月 1 日。 2020 年 4 月底实施以下增加：
+> - 参与者限制：事件最多可以支持 20000 名参与者
+> - 并发事件：同一租户可以同时托管 50 件事件
+> - 事件持续时间：每个播报的事件持续时间增加到 16 小时
 
 |**功能**   |**Skype 会议直播** |**在 Teams 中制作的事件** |**使用外部应用或设备制作的事件** |
 |---------|---------|---------|---------|
@@ -123,17 +133,29 @@ ms.locfileid: "44042849"
 
 **可用于以下区域数据中心**
 
-- 美洲
+- 北美洲
+- 中美洲
+- 南美洲
 - 亚太地区
 - 欧洲/非洲
 
-**以下国家/地区的数据位置**
-
+**以下国家/地区（支持）的数据位置**
 - 澳大利亚
 - 加拿大
 - 印度
 - 日本
 - 英国
+
+**不支持这些国家/地区和云**
+- 德国
+- 法国
+- 挪威
+- 南非
+- 韩国
+- 瑞士
+- 阿拉伯联合酋长国
+- 政府社区云 (GCC)-H
+- DOD
 
 **例外和注意事项**
 
