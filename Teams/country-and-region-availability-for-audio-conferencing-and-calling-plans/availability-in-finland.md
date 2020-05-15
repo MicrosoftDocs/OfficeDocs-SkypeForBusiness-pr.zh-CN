@@ -24,68 +24,68 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于芬兰的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: e4330aa30b6c3c36419c1d760556f6e9654f5e3e
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: 以下是适用于芬兰的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 0668bb9868415395ff4234916c3061e229ae807e
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853547"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230921"
 ---
-# <a name="availability-in-finland"></a><span data-ttu-id="b0e88-103">在芬兰的可用性</span><span class="sxs-lookup"><span data-stu-id="b0e88-103">Availability in Finland</span></span>
+# <a name="availability-in-finland"></a><span data-ttu-id="a26fc-103">在芬兰的可用性</span><span class="sxs-lookup"><span data-stu-id="a26fc-103">Availability in Finland</span></span>
 
-<span data-ttu-id="b0e88-104">[查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。</span><span class="sxs-lookup"><span data-stu-id="b0e88-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
+<span data-ttu-id="a26fc-104">[查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。</span><span class="sxs-lookup"><span data-stu-id="a26fc-104">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
 
-<span data-ttu-id="b0e88-105">以下是适用于芬兰的 Skype for business 和 Microsoft 团队的 Office 365 服务。</span><span class="sxs-lookup"><span data-stu-id="b0e88-105">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Finland.</span></span>
+<span data-ttu-id="a26fc-105">以下是适用于芬兰的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。</span><span class="sxs-lookup"><span data-stu-id="a26fc-105">Here are the Microsoft 365 and Office 365 services for Skype for Business and Microsoft Teams available for Finland.</span></span>
   
-## <a name="audio-conferencing"></a><span data-ttu-id="b0e88-106">音频会议</span><span class="sxs-lookup"><span data-stu-id="b0e88-106">Audio Conferencing</span></span>
+## <a name="audio-conferencing"></a><span data-ttu-id="a26fc-106">音频会议</span><span class="sxs-lookup"><span data-stu-id="a26fc-106">Audio Conferencing</span></span>
 
-|<span data-ttu-id="b0e88-107">**功能**</span><span class="sxs-lookup"><span data-stu-id="b0e88-107">**Feature**</span></span>|<span data-ttu-id="b0e88-108">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="b0e88-108">**Details**</span></span>|
+|<span data-ttu-id="a26fc-107">**功能**</span><span class="sxs-lookup"><span data-stu-id="a26fc-107">**Feature**</span></span>|<span data-ttu-id="a26fc-108">**Details**</span><span class="sxs-lookup"><span data-stu-id="a26fc-108">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b0e88-109">是否可购买音频会议？</span><span class="sxs-lookup"><span data-stu-id="b0e88-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="b0e88-110">是</span><span class="sxs-lookup"><span data-stu-id="b0e88-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="b0e88-111">是否会为音频会议自动分配电话号码？</span><span class="sxs-lookup"><span data-stu-id="b0e88-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="b0e88-112">是，适用于：</span><span class="sxs-lookup"><span data-stu-id="b0e88-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="b0e88-113">赫尔辛基</span><span class="sxs-lookup"><span data-stu-id="b0e88-113">Helsinki</span></span></ul><span data-ttu-id="b0e88-114">如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="b0e88-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>  <br/> |
-|<span data-ttu-id="b0e88-115">使用“呼叫我”功能的拨出功能</span><span class="sxs-lookup"><span data-stu-id="b0e88-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="b0e88-116">有空</span><span class="sxs-lookup"><span data-stu-id="b0e88-116">Available</span></span>  <br/> |
+|<span data-ttu-id="a26fc-109">是否可购买音频会议？</span><span class="sxs-lookup"><span data-stu-id="a26fc-109">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="a26fc-110">是</span><span class="sxs-lookup"><span data-stu-id="a26fc-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="a26fc-111">是否会为音频会议自动分配电话号码？</span><span class="sxs-lookup"><span data-stu-id="a26fc-111">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="a26fc-112">是，适用于：</span><span class="sxs-lookup"><span data-stu-id="a26fc-112">Yes, for:</span></span><br/><ul><li> <span data-ttu-id="a26fc-113">赫尔辛基</span><span class="sxs-lookup"><span data-stu-id="a26fc-113">Helsinki</span></span></ul><span data-ttu-id="a26fc-114">如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="a26fc-114">If you want dedicated phone numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>  <br/> |
+|<span data-ttu-id="a26fc-115">使用“呼叫我”功能的拨出功能</span><span class="sxs-lookup"><span data-stu-id="a26fc-115">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="a26fc-116">在线</span><span class="sxs-lookup"><span data-stu-id="a26fc-116">Available</span></span>  <br/> |
    
-## <a name="phone-system"></a><span data-ttu-id="b0e88-117">电话系统</span><span class="sxs-lookup"><span data-stu-id="b0e88-117">Phone System</span></span>
+## <a name="phone-system"></a><span data-ttu-id="a26fc-117">电话系统</span><span class="sxs-lookup"><span data-stu-id="a26fc-117">Phone System</span></span>
 
-|<span data-ttu-id="b0e88-118">**功能**</span><span class="sxs-lookup"><span data-stu-id="b0e88-118">**Feature**</span></span>|<span data-ttu-id="b0e88-119">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="b0e88-119">**Details**</span></span>|
+|<span data-ttu-id="a26fc-118">**功能**</span><span class="sxs-lookup"><span data-stu-id="a26fc-118">**Feature**</span></span>|<span data-ttu-id="a26fc-119">**Details**</span><span class="sxs-lookup"><span data-stu-id="a26fc-119">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b0e88-120">是否可购买电话系统？</span><span class="sxs-lookup"><span data-stu-id="b0e88-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="b0e88-121">是</span><span class="sxs-lookup"><span data-stu-id="b0e88-121">Yes</span></span>  <br/> |
-| <span data-ttu-id="b0e88-122">自动助理</span><span class="sxs-lookup"><span data-stu-id="b0e88-122">Auto attendants</span></span> <br/> |<span data-ttu-id="b0e88-123">有空</span><span class="sxs-lookup"><span data-stu-id="b0e88-123">Available</span></span>  <br/> |
-|<span data-ttu-id="b0e88-124">呼叫队列</span><span class="sxs-lookup"><span data-stu-id="b0e88-124">Call queues</span></span>  <br/> |<span data-ttu-id="b0e88-125">有空</span><span class="sxs-lookup"><span data-stu-id="b0e88-125">Available</span></span>  <br/> |
-|<span data-ttu-id="b0e88-126">语音邮件</span><span class="sxs-lookup"><span data-stu-id="b0e88-126">Voicemail</span></span>  <br/> |<span data-ttu-id="b0e88-127">可用</span><span class="sxs-lookup"><span data-stu-id="b0e88-127">Available</span></span>  <br/> |
+|<span data-ttu-id="a26fc-120">是否可购买电话系统？</span><span class="sxs-lookup"><span data-stu-id="a26fc-120">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="a26fc-121">是</span><span class="sxs-lookup"><span data-stu-id="a26fc-121">Yes</span></span>  <br/> |
+| <span data-ttu-id="a26fc-122">自动助理</span><span class="sxs-lookup"><span data-stu-id="a26fc-122">Auto attendants</span></span> <br/> |<span data-ttu-id="a26fc-123">在线</span><span class="sxs-lookup"><span data-stu-id="a26fc-123">Available</span></span>  <br/> |
+|<span data-ttu-id="a26fc-124">呼叫队列</span><span class="sxs-lookup"><span data-stu-id="a26fc-124">Call queues</span></span>  <br/> |<span data-ttu-id="a26fc-125">在线</span><span class="sxs-lookup"><span data-stu-id="a26fc-125">Available</span></span>  <br/> |
+|<span data-ttu-id="a26fc-126">语音邮件</span><span class="sxs-lookup"><span data-stu-id="a26fc-126">Voicemail</span></span>  <br/> |<span data-ttu-id="a26fc-127">可用</span><span class="sxs-lookup"><span data-stu-id="a26fc-127">Available</span></span>  <br/> |
    
-## <a name="calling-plans"></a><span data-ttu-id="b0e88-128">通话套餐</span><span class="sxs-lookup"><span data-stu-id="b0e88-128">Calling Plans</span></span>
+## <a name="calling-plans"></a><span data-ttu-id="a26fc-128">通话套餐</span><span class="sxs-lookup"><span data-stu-id="a26fc-128">Calling Plans</span></span>
 
-|<span data-ttu-id="b0e88-129">**功能**</span><span class="sxs-lookup"><span data-stu-id="b0e88-129">**Feature**</span></span>|<span data-ttu-id="b0e88-130">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="b0e88-130">**Details**</span></span>|
+|<span data-ttu-id="a26fc-129">**功能**</span><span class="sxs-lookup"><span data-stu-id="a26fc-129">**Feature**</span></span>|<span data-ttu-id="a26fc-130">**Details**</span><span class="sxs-lookup"><span data-stu-id="a26fc-130">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b0e88-131">是否可购买通话套餐？</span><span class="sxs-lookup"><span data-stu-id="b0e88-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="b0e88-132">否</span><span class="sxs-lookup"><span data-stu-id="b0e88-132">No</span></span>  <br/> |
-|<span data-ttu-id="b0e88-133">通话套餐的可用分钟数</span><span class="sxs-lookup"><span data-stu-id="b0e88-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="b0e88-134">不适用</span><span class="sxs-lookup"><span data-stu-id="b0e88-134">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="b0e88-135">是否可以拨打呼出电话？</span><span class="sxs-lookup"><span data-stu-id="b0e88-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="b0e88-136">不适用</span><span class="sxs-lookup"><span data-stu-id="b0e88-136">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="a26fc-131">是否可购买通话套餐？</span><span class="sxs-lookup"><span data-stu-id="a26fc-131">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="a26fc-132">否</span><span class="sxs-lookup"><span data-stu-id="a26fc-132">No</span></span>  <br/> |
+|<span data-ttu-id="a26fc-133">通话套餐的可用分钟数</span><span class="sxs-lookup"><span data-stu-id="a26fc-133">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="a26fc-134">不适用</span><span class="sxs-lookup"><span data-stu-id="a26fc-134">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="a26fc-135">是否可以拨打呼出电话？</span><span class="sxs-lookup"><span data-stu-id="a26fc-135">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="a26fc-136">不适用</span><span class="sxs-lookup"><span data-stu-id="a26fc-136">Not applicable</span></span>  <br/> |
 
-<span data-ttu-id="b0e88-137">如果通话计划不能购买，请考虑使用[电话系统直接路由](../direct-routing-landing-page.md)。</span><span class="sxs-lookup"><span data-stu-id="b0e88-137">If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md).</span></span> <span data-ttu-id="b0e88-138">通过直接路由，您可以在任何电话运营商处使用电话系统。</span><span class="sxs-lookup"><span data-stu-id="b0e88-138">With Direct Routing, you can use Phone System with virtually any telephony carrier.</span></span>
+<span data-ttu-id="a26fc-137">如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。</span><span class="sxs-lookup"><span data-stu-id="a26fc-137">If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md).</span></span> <span data-ttu-id="a26fc-138">使用直接路由，可以结合使用电话系统与几乎任何电话运营商。</span><span class="sxs-lookup"><span data-stu-id="a26fc-138">With Direct Routing, you can use Phone System with virtually any telephony carrier.</span></span>
    
-## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="b0e88-139">服务的收费和免费电话号码</span><span class="sxs-lookup"><span data-stu-id="b0e88-139">Toll and toll-free numbers for services</span></span>
+## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="a26fc-139">服务的收费和免费电话号码</span><span class="sxs-lookup"><span data-stu-id="a26fc-139">Toll and toll-free numbers for services</span></span>
 
-|<span data-ttu-id="b0e88-140">**功能**</span><span class="sxs-lookup"><span data-stu-id="b0e88-140">**Feature**</span></span>|<span data-ttu-id="b0e88-141">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="b0e88-141">**Details**</span></span>|
+|<span data-ttu-id="a26fc-140">**功能**</span><span class="sxs-lookup"><span data-stu-id="a26fc-140">**Feature**</span></span>|<span data-ttu-id="a26fc-141">**Details**</span><span class="sxs-lookup"><span data-stu-id="a26fc-141">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b0e88-142">你可以获取哪些首都或大城市的收费电话号码？</span><span class="sxs-lookup"><span data-stu-id="b0e88-142">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<ul><li> <span data-ttu-id="b0e88-143">赫尔辛基</span><span class="sxs-lookup"><span data-stu-id="b0e88-143">Helsinki</span></span> <li>  <span data-ttu-id="b0e88-144">Tampere</span><span class="sxs-lookup"><span data-stu-id="b0e88-144">Tampere</span></span> <li>  <span data-ttu-id="b0e88-145">Turku</span><span class="sxs-lookup"><span data-stu-id="b0e88-145">Turku</span></span> </ul> |
-|<span data-ttu-id="b0e88-146">是否提供收费电话号码？</span><span class="sxs-lookup"><span data-stu-id="b0e88-146">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="b0e88-147">是</span><span class="sxs-lookup"><span data-stu-id="b0e88-147">Yes</span></span>  <br/> |
-|<span data-ttu-id="b0e88-148">是否提供免费电话号码？</span><span class="sxs-lookup"><span data-stu-id="b0e88-148">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="b0e88-149">是</span><span class="sxs-lookup"><span data-stu-id="b0e88-149">Yes</span></span>  <br/> |
+|<span data-ttu-id="a26fc-142">你可以获取哪些首都或大城市的收费电话号码？</span><span class="sxs-lookup"><span data-stu-id="a26fc-142">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<ul><li> <span data-ttu-id="a26fc-143">赫尔辛基</span><span class="sxs-lookup"><span data-stu-id="a26fc-143">Helsinki</span></span> <li>  <span data-ttu-id="a26fc-144">Tampere</span><span class="sxs-lookup"><span data-stu-id="a26fc-144">Tampere</span></span> <li>  <span data-ttu-id="a26fc-145">Turku</span><span class="sxs-lookup"><span data-stu-id="a26fc-145">Turku</span></span> </ul> |
+|<span data-ttu-id="a26fc-146">是否提供收费电话号码？</span><span class="sxs-lookup"><span data-stu-id="a26fc-146">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="a26fc-147">是</span><span class="sxs-lookup"><span data-stu-id="a26fc-147">Yes</span></span>  <br/> |
+|<span data-ttu-id="a26fc-148">是否提供免费电话号码？</span><span class="sxs-lookup"><span data-stu-id="a26fc-148">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="a26fc-149">是</span><span class="sxs-lookup"><span data-stu-id="a26fc-149">Yes</span></span>  <br/> |
    
- <span data-ttu-id="b0e88-150">如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="b0e88-150">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
+ <span data-ttu-id="a26fc-150">如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。</span><span class="sxs-lookup"><span data-stu-id="a26fc-150">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
   
-## <a name="communications-credits"></a><span data-ttu-id="b0e88-151">通信点数</span><span class="sxs-lookup"><span data-stu-id="b0e88-151">Communications Credits</span></span>
+## <a name="communications-credits"></a><span data-ttu-id="a26fc-151">通信点数</span><span class="sxs-lookup"><span data-stu-id="a26fc-151">Communications Credits</span></span>
 
-|<span data-ttu-id="b0e88-152">**功能**</span><span class="sxs-lookup"><span data-stu-id="b0e88-152">**Feature**</span></span>|<span data-ttu-id="b0e88-153">**详细信息**</span><span class="sxs-lookup"><span data-stu-id="b0e88-153">**Details**</span></span>|
+|<span data-ttu-id="a26fc-152">**功能**</span><span class="sxs-lookup"><span data-stu-id="a26fc-152">**Feature**</span></span>|<span data-ttu-id="a26fc-153">**Details**</span><span class="sxs-lookup"><span data-stu-id="a26fc-153">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b0e88-154">是否提供通信点数？</span><span class="sxs-lookup"><span data-stu-id="b0e88-154">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="b0e88-155">是</span><span class="sxs-lookup"><span data-stu-id="b0e88-155">Yes</span></span>  <br/> |
+|<span data-ttu-id="a26fc-154">是否提供通信点数？</span><span class="sxs-lookup"><span data-stu-id="a26fc-154">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="a26fc-155">是</span><span class="sxs-lookup"><span data-stu-id="a26fc-155">Yes</span></span>  <br/> |
    
-<span data-ttu-id="b0e88-156">如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="b0e88-156">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
+<span data-ttu-id="a26fc-156">如果你想进行设置，请参阅[为你的组织设置通信点数](../set-up-communications-credits-for-your-organization.md)。</span><span class="sxs-lookup"><span data-stu-id="a26fc-156">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="b0e88-157">相关主题</span><span class="sxs-lookup"><span data-stu-id="b0e88-157">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="a26fc-157">相关主题</span><span class="sxs-lookup"><span data-stu-id="a26fc-157">Related topics</span></span>
 
-[<span data-ttu-id="b0e88-158">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="b0e88-158">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="a26fc-158">获取 Skype for Business 和 Microsoft Teams 的服务电话号码</span><span class="sxs-lookup"><span data-stu-id="a26fc-158">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
-[<span data-ttu-id="b0e88-159">音频会议和通话套餐的国家/地区可用性</span><span class="sxs-lookup"><span data-stu-id="b0e88-159">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[<span data-ttu-id="a26fc-159">音频会议和通话套餐的国家/地区可用性</span><span class="sxs-lookup"><span data-stu-id="a26fc-159">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
