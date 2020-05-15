@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 8730c1522439660652bd164d6628fdf2f78f37cb
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064417"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44229880"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -35,7 +35,7 @@ ms.locfileid: "44064417"
 |-----------|---------------|
 |用户可创建的团队数 | 限制为 250 个对象&sup1;         |
 |用户可以成为其成员的团队数|1,000|
-|团队中的成员数 | 5,000       |
+|团队中的成员数 | 10,000       |
 |每个团队的所有者数 | 100   |
 |租户中允许的组织范围内的团队数 | 5     |
 |[组织范围内的团队](create-an-org-wide-team.md)中的成员数 | 5,000       |
