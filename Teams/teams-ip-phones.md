@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议已认证，可供 Microsoft 团队获得最佳效果。
-ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 517cea81f2cbe47f43fe38b2761b774f49c425c4
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041830"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230650"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -48,8 +48,8 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 |:---|:---|:---|
 |Audiocodes C450HD | C450HD_TEAMS_0. 225 | 2019年3月|
 |Audiocodes C448HD （仅限 CAP 模式） | C450HD_TEAMS_0. 225 | 2019年3月|
-|Crestron M100|2.3875.00068|2018年12月|
-|Crestron Flex UC-P100 & UC-t  | 58.15.91.6 |2019年1月|
+|Crestron M100| 本产品已停产。 有关详细信息，请访问 Crestron 网站上的[Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 从5/11/2020 终止|
+|Crestron Flex UC-P100 & UC-t  | 本产品已停产。 有关详细信息，请访问 Crestron 网站上的 " [UC 电话]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)"。 |从5/11/2020 终止|
 |联想 ThinkSmart 视图|18781Y 200410.067|2020年4月|
 |Poly CCX400 | 1.0.0.0200 | 2020年1月|
 |Poly CCX600 | 5.9.12.1111| 2020年1月|
@@ -86,3 +86,5 @@ Microsoft 团队许可证可以作为其[microsoft 365 或 Office 365 订阅](ht
 了解[Skype For business 和 Microsoft 团队认证计划](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
 
 [了解 Microsoft 团队的手机和认证设备。](https://products.office.com/microsoft-teams/across-devices/devices)
+
+[团队和 Skype 互操作性](teams-skype-interop.md)

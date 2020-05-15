@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在停用2020年2月28日的 Exchange 统一消息联机（ExchUMO）服务。 本文总结了受影响的客户应了解的内容，并将为其规划业务连续性而执行此操作。
-ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: cf8b62d4a36059a90631e139910dab3f9f40aa38
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042829"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232557"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息联机迁移支持
 
@@ -82,7 +82,7 @@ Microsoft 已识别出使用 ExchUMO 中的功能的各种客户部署，并将�
     查看管理员通知中心中有关用户迁移的详细信息和时间线的通知。 通知在迁移期前至少在30天内发送。 
 
     > [!Note]
-    > 如果您收到一条通知，告知用户的迁移时间线，并且希望由于业务关键型原因推迟迁移，您可以通过联系 Microsoft 支持来执行此操作。 请注意，不能推迟超过退休日期（2020年2月28日）的迁移。 对于可能包含更多问题的客户，请联系你的帐户团队或 Microsoft 支持部门。 已使用 Office 365 的客户可以通过 Microsoft 365 管理中心提交支持案例。 
+    > 如果您收到一条通知，告知用户的迁移时间线，并且希望由于业务关键型原因推迟迁移，您可以通过联系 Microsoft 支持来执行此操作。 请注意，不能推迟超过退休日期（2020年2月28日）的迁移。 对于可能包含更多问题的客户，请联系你的帐户团队或 Microsoft 支持部门。 已使用 Microsoft 365 或 Office 365 的客户可以通过 Microsoft 365 管理中心提交支持案例。 
 
 6. **考虑在计划迁移中选择加入**
 
@@ -104,7 +104,7 @@ Microsoft 已识别出使用 ExchUMO 中的功能的各种客户部署，并将�
 
 ## <a name="auto-attendant-migration-guidelines"></a>自动助理迁移指南
 
-Office 365 组织管理员需要在 Microsoft 云自动助理服务中重新创建 Exchange UM Online 自动助理，并将其内部部署电话号码切换到2020年2月28日，即 Exchange UMO 服务将停用的时间。 这是成功迁移和测试新云自动助理的建议准则。 如果您有大量自动助理，则可以使用[EXCHANGE UM 自动助理到云自动助理迁移脚本](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)，以简化自动助理的批量迁移。
+Microsoft 365 和 Office 365 组织管理员需要在 Microsoft 云自动助理服务中重新创建 Exchange UM Online 自动助理，并在2月 28 2020 日（即 Exchange UMO service 将停用时）将其内部部署电话号码切换到这些号码。 这是成功迁移和测试新云自动助理的建议准则。 如果您有大量自动助理，则可以使用[EXCHANGE UM 自动助理到云自动助理迁移脚本](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)，以简化自动助理的批量迁移。
 
 ### <a name="setup"></a>设置
 
@@ -127,7 +127,7 @@ Office 365 组织管理员需要在 Microsoft 云自动助理服务中重新创�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 和基于 Azure 云的服务功能矩阵
 
-| 服务 | 功能级别 | 功能 | 注释  | 云 VM/AA  | ExUMO |
+| 服务 | 功能级别 | 功能 | 备注  | 云 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VMNETWORK  | 服务功能| 支持第三方 PBX    | 使用来自 Exchange UM Online 的 SIP 通知邮件的第三方 PBX （邮件等待指示器）提供的所有功能（包括 MWI （邮件等待指示器）） | N   | Y    |
 | VMNETWORK | 服务功能  | 支持 Skype for Business Server   |  | Y | Y    |
@@ -163,13 +163,13 @@ Office 365 组织管理员需要在 Microsoft 云自动助理服务中重新创�
 | VMNETWORK | 呼叫者功能  | 静音检测   |  | N | Y    |
 | VMNETWORK | 租户-管理员功能 | 服务器级别的受保护语音邮件    | 租户-管理员可以配置服务级别规则以将传入语音邮件标记为受保护 | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改录制持续时间限制  |     | Y | Y    |
-| VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 无    | Y    |
+| VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 不适用    | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改输入失败的次数 | CVM：硬编码为3 | N | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改默认语言 |  | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | Disable/enable |  | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | 禁用/启用未接来电通知 |  | N | Y    |
 | VMNETWORK | 租户-管理员功能 | 帮助 Microsoft 改进语音邮件预览    |  | Y | Y    |
-| VMNETWORK | 租户-管理员功能 | 为已启用的用户自定义短信|  | 无    | Y    |
+| VMNETWORK | 租户-管理员功能 | 为已启用的用户自定义短信|  | 不适用    | Y    |
 | VMNETWORK | 租户-管理员功能 | 应对猥亵屏蔽|  | Y | N    |
 | VMNETWORK | 租户-管理员功能 | 语音邮件策略    |   | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | Web 门户管理   |  | CY19   | Y    |

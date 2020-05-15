@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 了解紧急电话，包括有关紧急地址、紧急呼叫路由和动态紧急呼叫的信息。
-ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c2de31aa81ac36338560c9b75d5c7ef27e460f8
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141025"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232543"
 ---
 # <a name="manage-emergency-calling"></a>管理紧急电话
 
@@ -90,7 +90,7 @@ ms.locfileid: "43141025"
 
 Microsoft 通话计划的动态紧急呼叫提供根据团队客户端的当前位置配置和路由紧急呼叫的功能。 自动路由到相应的公共安全应答点（PSAP）或通知安全桌面人员的能力会有所不同，具体取决于团队用户使用的国家/地区。  
 
-目前，只有美国的通话计划用户可以利用动态位置来路由紧急呼叫，如下所示：
+对于呼叫计划用户，仅在美国才支持用于路由紧急呼叫的动态位置，如下所示。 （有关动态紧急呼叫和直接路由的信息，请参阅[直接路由的注意事项](#considerations-for-direct-routing)。
 
 - 如果美国呼叫计划的团队客户在美国动态获取紧急地址，则该地址将用于紧急路由，而不是注册地址，并且呼叫将自动路由到地址的服务区域中的 PSAP。
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于沙特阿拉伯的 Skype for business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: ba64a0e3cb0e9bfd6da12cfaf70516cf3c508955
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+description: 以下是适用于沙特阿拉伯的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 01232ae21c0a5a6a442380ebbfb0c587f1b45093
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047828"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231051"
 ---
 # <a name="availability-in-saudi-arabia"></a>在沙特阿拉伯的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于沙特阿拉伯的 Skype for business 和 Microsoft 团队的 Office 365 服务。
+以下是适用于沙特阿拉伯的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

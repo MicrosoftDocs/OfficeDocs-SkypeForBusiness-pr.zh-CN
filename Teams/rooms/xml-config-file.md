@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 8d723423cc8e93429d193f4340eceddcc55ca10d
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510761"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230500"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
 
@@ -46,6 +46,7 @@ ms.locfileid: "43510761"
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
+    <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
@@ -83,7 +84,7 @@ ms.locfileid: "43510761"
 |\<SkypeSettings\> |所有元素的容器。 ||必需。 |
 | \<AutoScreenShare\>  |布尔 &#x2777;  |第一 &#x2776;  | 如果为 true，则启用自动屏幕共享。  |
 |\<HideMeetingName\> |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则隐藏会议名称。 |
-|\<UserAccount\> |容器 |第一 &#x2776;  |凭据参数的容器。 登录地址、Exchange 地址或电子邮件地址通常相同，例如 RanierConf<span></span>@contoso .com。 |
+|\<UserAccount\> |容器 |第一 &#x2776;  |凭据参数的容器。 登录地址、Exchange 地址或电子邮件地址通常相同，例如 RanierConf <span></span> @contoso .com。 |
 |\<SkypeMeetingsEnabled\>  |布尔 &#x2777;  |第一 &#x2776;  |默认为启用。 |
 |\<SkypeSignInAddress\> |字符串 &#x2778;  ||控制台的 SfB 或团队设备帐户的登录名。 |
 |\<ExchangeAddress\> |字符串 &#x2778;  ||控制台的 Exchange 设备帐户的登录名。 如果省略 ExchangeAddress，则不会自动重复使用 SkypeSignInAddress。 |
@@ -91,9 +92,10 @@ ms.locfileid: "43510761"
 |\<DomainUsername\> |字符串 &#x2778;  ||控制台设备的域和用户名，例如 Seattle\RanierConf。 |
 |\<口令\> |String 3  || 密码参数是用于 Skype for Business 设备帐户登录的相同密码。  |
 | \<ConfigureDomain\>  |字符串 &#x2778;  ||你可以列出多个域，以逗号分隔。 |
-|\<TeamsMeetingsEnabled\> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 <br/> <br/> 如果\<SkypeMeetingsEnabled\>和\<TeamsMeetingsEnabled\>都被禁用，XML 文件的格式不正确，但可接受同时启用这两个设置。 |
+|\<TeamsMeetingsEnabled\> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 <br/> <br/> 如果 \< SkypeMeetingsEnabled \> 和 TeamsMeetingsEnabled 都被禁用，XML 文件的格式不正确 \< \> ，但可接受同时启用这两个设置。 |
 |\<IsTeamsDefaultClient> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 |
 |\<BluetoothAdvertisementEnabled> |布尔 &#x2777;  |第一 &#x2776;  |默认为启用。 |
+|\<AutoAcceptProximateMeetingInvitations> |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则自动接受基于邻近感应的会议。 默认情况下处于禁用状态。 |
 |\<DualScreenMode\>  |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则启用双屏幕模式。 否则，设备使用单一屏幕模式。 |
 | \<DuplicateIngestDefault\> |布尔 &#x2777;  |第一 &#x2776; |如果为 true，则在双屏幕模式下，在两个屏幕上显示的内容在离开会议时显示。 | 
 |\<SendLogs\> |容器 |第一 &#x2776;  |  |
@@ -109,7 +111,7 @@ ms.locfileid: "43510761"
 | \<主题\>  |容器 |第一 &#x2776;  |可与 XML 文件一起应用的功能之一是组织的自定义主题。 你可以指定主题名称、背景图像和颜色。 |
 |\<ThemeName\> |字符串 &#x2778;  || 用于识别客户端上的主题。 主题名称选项包括“默认”、提供的预设主题之一或“自定义”。 <br/>  自定义主题名称始终使用 "*自定义*" 名称。 客户端 UI 可在控制台上设置为默认值或其中一个预设，但是使用自定义主题必须由管理员进行远程设置。 <br/>  预设主题包括： <br/>  默认 <br/>  蓝色波浪 <br/>  数字丛林 <br/>  追梦人 <br/>  莱姆汁 <br/>  完美像素 <br/>  路线图 <br/>  夕阳 <br/>  若要禁用当前主题，请对 ThemeName 使用 "无主题"。  |
 |\<CustomThemeImageUrl\> |字符串 &#x2778;  ||对于自定义主题是必需的，否则为可选。 仅输入文件名。   |有关自定义主题图像的详细信息，请参阅[自定义主题图像](xml-config-file.md#Themes)部分。
-|\<CustomThemeColor\> |容器 ||\<\>RedComponent \<、\>GreenComponent 和\<BlueComponent\>值的容器。 这些值是自定义主题所必需的。 |
+|\<CustomThemeColor\> |容器 ||\<RedComponent \> 、 \< GreenComponent \> 和 \< BlueComponent \> 值的容器。 这些值是自定义主题所必需的。 |
 |\<RedComponent\> |字节 (0-255) ||代表红色组件。 |
 |\<GreenComponent\> |字节 (0-255) ||代表绿色组件。 |
 |\<BlueComponent\> |字节 (0-255) ||代表蓝色组件。 | 
@@ -123,7 +125,7 @@ ms.locfileid: "43510761"
   
 ## <a name="manage-console-settings-with-an-xml-configuration-file"></a>使用 XML 配置文件管理控制台设置
 
-在启动时，如果 Microsoft 团队聊天室控制台发现名为 SkypeSettings 的 XML 文件`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`，则应用由 xml 文件指示的配置设置，然后删除 xml 文件。
+在启动时，如果 Microsoft 团队聊天室控制台发现名为 SkypeSettings 的 XML 文件 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` ，则应用由 xml 文件指示的配置设置，然后删除 xml 文件。
   
 根据你的企业拥有的 Microsoft 团队会议室设备的数量以及你选择的管理方式来配置它们，有多种方法可以放置 XML 配置文件。 文件推送到控制台之后，重启以处理配置更改。 成功处理 XML 配置文件后会将其删除。 有关 Microsoft 团队聊天室设备的建议的管理方法，请参见：
   
@@ -136,7 +138,7 @@ ms.locfileid: "43510761"
 
 <a name="Themes"> </a>
 
-自定义主题图像文件必须放置在`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`文件夹中。 在\<CustomThemeImageUrl\>变量中输入文件名和扩展名。
+自定义主题图像文件必须放置在文件夹中 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 。 在 CustomThemeImageUrl 变量中输入文件名和扩展名 \< \> 。
   
 图像文件应正好3840X1080 像素，并且必须是以下文件格式之一： jpg、jpeg、png 和 bmp。 如果你的组织需要自定义图像，图形设计器可以使用[自定义主题 Photoshop 模板](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)。 它包含有关各种用户界面元素相对于其他主题图像的位置以及哪些区域显示在控制台和显示中的详细信息。
   
@@ -148,11 +150,11 @@ XML 配置文件必须在设备启动时更新以识别主题图像。 处理并
 
 1. 转到 Microsoft 团队聊天室控制台上的 Windows 设置。
 2. 输入管理员密码。
-3. 从命令提示符处，键入`devmgmt.msc`以调出设备管理器。
+3. 从命令提示符处，键入 `devmgmt.msc` 以调出设备管理器。
 4. 在 "**设备管理器**" 中，查看 "**图像设备**" 节点并找到 "内容照相机"。
 5. 右键单击相机，然后打开 "**属性**"。
 6. 选择 "**详细信息**" 选项卡，然后在下拉列表中找到 "**设备实例路径**" 属性。
-7. 显示的值是要在 XML 配置文件中设置的设备实例路径。 在 XML 中指定路径时，请将与号（&） `&amp;`替换为。
+7. 显示的值是要在 XML 配置文件中设置的设备实例路径。 在 XML 中指定路径时，请将与号（&）替换为 `&amp;` 。
 
 ## <a name="see-also"></a>另请参阅
 

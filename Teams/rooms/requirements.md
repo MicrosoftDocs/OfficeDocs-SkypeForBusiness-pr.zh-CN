@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持 Microsoft 团队聊天室的要求，包括选择相应的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 098b5e9fd46c52957eecf288962b3f4e212c5b83
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: fcd7f0929c0c5beeccc1148aad7a54515836ee9f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905394"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230820"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -79,7 +79,7 @@ ms.locfileid: "43905394"
   |Surface Pro </br>（第五代） |Core i5 |8 GB 或 4 GB |128 GB 或更多 |
   |Surface Pro 4 |Core i5 |8 GB 或 4 GB |128 GB 或更多 |
 
-- Surface Pro 设备要求以下坞站选项之一，以便将平板电脑固定到会议室桌子上。
+- Surface Pro 设备需要下列插接站选项之一：
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -92,6 +92,8 @@ ms.locfileid: "43905394"
 |Microsoft Teams 会议室外围设备|认证的固件版本 | 相机支持内容相机使用|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
+|[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
+|[Jabra evolve Panacast 摄像头](https://www.jabra.com/business/video-conferencing/jabra-panacast)|3.8.22|
 |[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
 |[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
 |[Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
@@ -144,7 +146,7 @@ ms.locfileid: "43905394"
 |:-----|:-----|:-----|:-----|:-----|
 |**焦点** <br/> 10' x 9'   |2–4  |1.5 米  |Logitech Connect  |Logitech Connect 设备包括摄像头，它必须放置在会议室前方（不是桌子中心）以拍摄本地会议与会者。 |
 |**小型** <br/> 16' x 16'  |4–6  |2.0 米  |Jabra 510 <br/> Sennheiser SP20  |对于较大的会议室，播放音量可能会受到限制。  |
-|**中型** <br/> 18' x 20'  |6–12  |2.4 米  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Logitech MeetUp 设备包括摄像头，因此它必须放置在会议室前方（不是桌子中心）以拍摄本地会议与会者。 <br/> 通常，配备长矩形或 U 形桌子的会议室可以使用卫星麦克风。 <br/> SP 220 MS 必须采用菊花链配置。  |
+|**中型** <br/> 18' x 20'  |6–12  |2.4 米  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Logitech MeetUp 设备包括摄像头，因此它必须放置在会议室前方（不是桌子中心）以拍摄本地会议与会者。 <br/> 通常，配备长矩形或 U 形桌子的会议室可以使用卫星麦克风。 <br/> SP 220 MS 必须采用菊花链配置。  |
 |**大型** <br/> 15' x 32'  |12–16  |3 米 <br/> 此距离也适用于每个连接的卫星麦克风所覆盖的区域。  |Logitech Group + 卫星麦克风 <br/> Polycom Trio+ 卫星麦克风 <br/> Polycom CX5100 + 卫星麦克风 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + 卫星麦克风  |此行中列出的所有音频设备均支持卫星麦克风选项。 <br/> CX5100 包括内置的 360 度摄像头，因此该设备可以放置在桌子中心。 <br/> SP 220 MS 必须采用菊花链配置。  |
 
 **Microsoft Teams 会议室认证的视频外围设备**

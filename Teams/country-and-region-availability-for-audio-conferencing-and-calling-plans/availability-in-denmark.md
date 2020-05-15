@@ -24,40 +24,40 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是适用于丹麦的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: e3c37c969cfca750637e7ad5aa4539f6ec140083
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 下面是适用于丹麦的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 983e21ca86e135678fca4b293d9e223d73a47589
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695227"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230290"
 ---
 # <a name="availability-in-denmark"></a>在丹麦的可用性
 
-[查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
+[查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于丹麦的 Skype for Business 和 Microsoft 团队的 Office 365 服务。
+下面是适用于丹麦的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否可购买音频会议？  <br/> |是  <br/> |
 |是否会为音频会议自动分配电话号码？  <br/> |是，适用于：<br/><ul><li> 哥本哈根</ul> 如果你需要专用电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。  <br/> |
-|使用“呼叫我”功能的拨出功能  <br/> |有空  <br/> |
+|使用“呼叫我”功能的拨出功能  <br/> |在线  <br/> |
    
 ## <a name="phone-system"></a>电话系统
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |有空  <br/> |
-|呼叫队列  <br/> |有空  <br/> |
+| 自动助理 <br/> |在线  <br/> |
+|呼叫队列  <br/> |在线  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
@@ -65,7 +65,7 @@ ms.locfileid: "41695227"
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |哥本哈根  <br/> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
@@ -75,7 +75,7 @@ ms.locfileid: "41695227"
   
 ## <a name="communications-credits"></a>通信点数
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
    

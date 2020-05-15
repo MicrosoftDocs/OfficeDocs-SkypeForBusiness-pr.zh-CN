@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 本文列出了在哥伦比亚可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
-ms.openlocfilehash: 57d93d1e4fd447f21a0e395d6a7ef0880bc31d86
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+description: 下面是适用于哥伦比亚的 Skype for Business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: cff465acc697803ab94cd9fb8da867c1f490651e
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853677"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44231191"
 ---
 # <a name="availability-in-colombia"></a>哥伦比亚可用性
 
 [查找其他国家或地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或者了解有关音频会议和通话套餐的国家和地区可用性的详细信息。
 
-本文列出了在哥伦比亚可用的适用于 Skype for Business 和 Microsoft Teams 的 Office 365 服务。
+下面是适用于哥伦比亚的 Skype for Business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
@@ -48,26 +48,26 @@ ms.locfileid: "41853677"
    
 ## <a name="phone-system"></a>电话系统
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否可购买电话系统？  <br/> |是  <br/> |
-| 自动助理 <br/> |有空  <br/> |
-|呼叫队列  <br/> |有空  <br/> |
+| 自动助理 <br/> |在线  <br/> |
+|呼叫队列  <br/> |在线  <br/> |
 |语音邮件  <br/> |可用  <br/> |
    
 ## <a name="calling-plans"></a>通话套餐
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否可购买通话套餐？  <br/> |否  <br/> |
 |通话套餐的可用分钟数  <br/> |不适用  <br/> |
 |是否可以拨打呼出电话？  <br/> |不适用  <br/> |
 
-如果通话计划不能购买，请考虑使用[电话系统直接路由](../direct-routing-landing-page.md)。 通过直接路由，您可以在任何电话运营商处使用电话系统。
+如果通话套餐不可购买，不妨使用[电话系统直接路由](../direct-routing-landing-page.md)。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服务的收费和免费电话号码
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> | <ul><li>波哥大 <li>  麦德林 </ul> |
 |是否提供收费电话号码？  <br/> |是  <br/> |
@@ -77,7 +77,7 @@ ms.locfileid: "41853677"
   
 ## <a name="communications-credits"></a>通信点数
 
-|**功能**|**详细信息**|
+|**功能**|**Details**|
 |:-----|:-----|
 |是否提供通信点数？  <br/> |是  <br/> |
    

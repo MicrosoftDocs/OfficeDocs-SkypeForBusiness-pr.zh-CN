@@ -25,19 +25,19 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: 在摩尔多瓦中查找有关 Skype for business 和 Microsoft 团队的 Office 365 服务的信息。
-ms.openlocfilehash: 04e387d28ba798010ca3049d35b6aeba281e3d76
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 查找有关 Skype for business 和 Microsoft 团队在摩尔多瓦中可用的 Microsoft 365 和 Office 365 服务的信息。
+ms.openlocfilehash: f740c172649e043a5f269da93a514ea41d0ba58d
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141125"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230390"
 ---
 # <a name="availability-in-moldova"></a>在摩尔多瓦的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是适用于摩尔多瓦的 Skype for business 和 Microsoft 团队的 Office 365 服务。
+以下是适用于摩尔多瓦的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business 服务器2019控制面板身份验证脚本
+title: Skype for Business Server 2019 控制面板身份验证脚本
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 帮助程序脚本通过 OAuth 协议将 SFB 2019 控制面板身份验证配置为 Office 365。。
-ms.openlocfilehash: ad6c41c70cc885ca8eee2a19e7dcc4173ef714c2
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 用于通过 OAuth 协议配置 SFB 2019 控制面板身份验证与 Microsoft 365 或 Office 365 的帮助程序脚本。
+ms.openlocfilehash: 92c13da1146698d130439c1f76e3885b561bec1b
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887721"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232593"
 ---
-# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Skype for Business 服务器2019控制面板身份验证脚本
+# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Skype for Business Server 2019 控制面板身份验证脚本
 
-在安装 Skype for Business Server 2019 累积更新1（作为全新控制面板的一部分设置）之后，应运行此脚本。 此脚本将在 Azure 上创建 Azure AD 应用程序。 这将帮助使用新控制面板中的 OAuth 登录 Office 365。
+在安装 Skype for Business Server 2019 累积更新1（作为新控制面板设置的一部分）后，应运行此脚本。 此脚本将在 Azure 上创建 Azure AD 应用程序。 这将有助于在新控制面板中使用 OAuth 登录 Microsoft 365 或 Office 365。
 
 ```powershell
 <#
  .SYNOPSIS
- Helper script to configure SFB 2019 control panel authentication with Office 365 via OAuth protocol.
+ Helper script to configure SFB 2019 control panel authentication with Microsoft 365 or Office 365 via OAuth protocol.
 
  .DESCRIPTION
  Copyright (c) Microsoft Corporation. All rights reserved.

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要：浏览这些链接，了解如何为配置 Skype for Business Server 2019 功能、服务器和拓扑开发概念性、逻辑设计和物理设计。
-ms.openlocfilehash: 2948010c99019cbb3329c6770d56ff93fb6b86d7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4c7b969c41761441889c5d0963b1a3c6b6b644f7
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129465"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232363"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>规划 Skype for business Server 2019 部署
  
@@ -62,4 +62,4 @@ Skype for Business Server 提供可支持企业级协作要求的即时消息（
 |:--- |:--- |:--- |
 |![DMC 图标](../media/paragraph_writing.png)| [适用于 IT 专业人员的 Skype for Business Server](https://go.microsoft.com/fwlink/p/?LinkId=527960)   |请访问 docs.microsoft.com 和资源中心以访问视频、社区网站、文档、下载内容等。    |
 |![开发人员内容图标](../media/developer.png)|[Skype 开发人员平台](https://go.microsoft.com/fwlink/?LinkId=619775)   | 查找 Skype for business Server 的开发人员资源，包括代码示例、培训和 Sdk。    |
-|![新闻、博客等的图标](../media/blog_site.png) | <UL><LI>[更改管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Office 365 技术博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 团队博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |跟踪来自创建和记录 Skype for Business Server 的团队的新闻。    |
+|![新闻、博客等的图标](../media/blog_site.png) | <UL><LI>[更改管理和采用](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 博客](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365 技术博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 团队博客](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |跟踪来自创建和记录 Skype for Business Server 的团队的新闻。    |

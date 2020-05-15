@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。
-ms.openlocfilehash: 59f905315eebe1e2f3e3b24b157eb198173a94e8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44226009"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44243578"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -483,13 +483,13 @@ CQD 使用终结点数据文件。 在调用记录的第一个客户端终结点
 遥测不一定会解决该问题，但它可以帮助您更好地了解在何处查看和通知您的决策。 是网络、设备、驱动程序还是固件更新、使用或用户？
 
 ### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>为什么在度量值和用户计数值中看到最高0.2% 的差异以及如何获取最准确的卷？ 
-若要计算 "呼叫计数" 和 "用户计数" 度量值，请对数据集中的调用或用户标识符执行不同的 countif 操作。 在大型数据集上，有一种最大的0.2% 错误 inherient 与独特的 countif opeartion。 对于最准确的卷，你应该依赖流计数度量值，因为它们不依赖于此不同的 countif 操作。 筛选以减少数据量可能会减少错误，但可能无法在不同的调用和用户计数中 elimnate 此错误来源。 请参阅["呼叫质量" 仪表板中可用的尺寸和测量](dimensions-and-measures-available-in-call-quality-dashboard.md)值，这些测量受影响。
+若要计算 "呼叫计数" 和 "用户计数" 度量值，请对数据集中的调用或用户标识符执行不同的 countif 操作。 在大型数据集上，具有不同的 countif 操作固有的最大0.2% 错误。 对于最准确的卷，你应该依赖流计数度量值，因为它们不依赖于此不同的 countif 操作。 筛选以减少数据量可能会减少错误，但可能无法在不同的调用和用户计数中消除此错误来源。 请参阅["呼叫质量" 仪表板中可用的尺寸和测量](dimensions-and-measures-available-in-call-quality-dashboard.md)值，这些测量受影响。
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>为什么 CQD v2 报表数据看起来与 CQD v3 报表数据不同？ 
 
 如果你看到 CQD v2 和 v3 之间的数据差异，请确保在 "苹果" 和 "窄" 级别（而不是聚合级别）上执行数据比较或验证。 例如，如果你筛选 MSIT "建筑物 30" WiFi 团队桌面客户端数据的两个报表，则 v2 和 v3 的低质量百分比应该相同。
 
-CallSetup 失败的 CQDv2 分类是 inly 针对 "音频" 模态而考虑的，在 CQDv3 中，对于每个模态（音频、视频和应用共享），都会发生此分类，并在各自的模态流中表示。 
+CallSetup 失败的 CQDv2 分类仅考虑 "音频" 模态，在 CQDv3 中，对每个模态（音频、视频和应用共享）进行分类，并在各自的模态流中表示。 
 
 对于团队，CQDv2 将相同的用户反馈应用到所有形式 CQDv3 应用针对团队的模态的反馈基础。
 

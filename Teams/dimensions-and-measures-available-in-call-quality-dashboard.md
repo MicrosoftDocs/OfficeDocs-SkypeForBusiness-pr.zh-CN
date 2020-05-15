@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板使用的维度和度量的详细信息。
-ms.openlocfilehash: c1c277e29f46fe9c748b82e4ebfcfe29897a60da
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137332"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232583"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>"呼叫质量" 仪表板中可用的尺寸和测量
 
@@ -60,7 +60,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 
 维度信息基于上载到 CQD 门户的数据的一部分。 许多维度值也可以用作筛选器。 下表按查询编辑器中列出的顺序列出了 CQD 中当前可用的维度，这些维度是用于创建报表或编辑以前定义的报表。
 
-| 名称 | 数据类型  | Description | 空值的可能原因 |
+| 名称 | 数据类型  | 说明 | 空值的可能原因 |
 |:---  |:---        |:---         |:--- |
 |**Endpoint**|||
 | First CPU Name  | String  | 第一终结点使用的 CPU 的名称。 <br/> **示例值：** Contoso CPU X11 @ 1.80 GHz | <br/>&bull;终结点未报告此数据   |
@@ -123,7 +123,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 |**Deployment**| | | |
 | First Tenant Id  | 字符串  | 第一终结点的 Office 365 租户 ID。 <br/> **示例值：** 00000000 （0000-0000-0000）-000000000000  | <br/>&bull;无法确定第一个终结点的租户 id。 这可能表示终结点已登录到内部部署的 Skype for business 服务器部署。  |
 | Second Tenant Id  | String  | 第二终结点的 Office 365 租户 ID。 <br/> **示例值：** 00000000 （0000-0000-0000）-000000000000  |  <br/>&bull;无法确定第二终结点的租户 id。 这可能表示终结点已登录到内部部署的 Skype for business 服务器部署。  |
-| First Pool  | String  | 分配给第一终结点的 Skype for Business Online 池 FQDN <br/> **示例值：** pool1<span></span><span></span>  | <br/>&bull;指示终结点已登录到 Microsoft 团队或 Skype for Business。 将仅为使用内部部署 Skype for Business 服务器部署的流填充此字段。 |
+| First Pool  | String  | 分配给第一终结点的 Skype for Business Online 池 FQDN <br/> **示例值：** pool1 <span></span> <span></span>  | <br/>&bull;指示终结点已登录到 Microsoft 团队或 Skype for Business。 将仅为使用内部部署 Skype for Business 服务器部署的流填充此字段。 |
 | Second Pool  | String  | 分配给第二终结点的 Skype for Business Online 池 FQDN <br/> **示例值：** <span>pool1.lync.com</span>   | &bull;无法确定第二终结点的 Skype for Business Online 池。 这可能表示终结点已登录到内部部署的 Skype for business 服务器部署。  |
 | Is Federated  | Boolean  | 如果流在两个联合租户之间，则为 True，否则为 False。   | <br/>&bull;无法确定它是否是联合流 <br/>&bull;未收集某些信号数据   |
 |区域 | String   |  基于租户的主区域的部署所在的地区。 <br/> **示例值：** 北美 | <br/>&bull;未报告网络数据 <br/>&bull;网络不在企业网络中 <br/>&bull;网络没有在子网映射数据中定义区域。 |
@@ -163,8 +163,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | Full Month  | 日期时间  | 流末尾的完整月份。 在 UTC 时区中报告值。 <br/> **示例值：** 2017-02-01T00：00：00 | |
 |开始时间|String  |通话开始的时间。|&bull;呼叫设置失败 |
 |**UserAgent** | | |
-| First Domain  | String  | 第一个终结点的用户的域。 如果第一个终结点是会议服务器，它将使用会议组织者的域。 也可能是场景中使用的服务帐户的域。  <br/> **示例值：** contoso<span></span> | |
-| Second Domain  | String  | 第二终结点用户的域。 如果第二个终结点是会议服务器，它将使用会议组织者的域。 也可能是场景中使用的服务帐户的域。 <br/> **示例值：** contoso<span></span>  | |
+| First Domain  | String  | 第一个终结点的用户的域。 如果第一个终结点是会议服务器，它将使用会议组织者的域。 也可能是场景中使用的服务帐户的域。  <br/> **示例值：** contoso <span></span> | |
+| Second Domain  | String  | 第二终结点用户的域。 如果第二个终结点是会议服务器，它将使用会议组织者的域。 也可能是场景中使用的服务帐户的域。 <br/> **示例值：** contoso <span></span>  | |
 | First User Agent Category  | String  | 第一终结点的用户代理的类别。 <br/> **示例值：** OC | &bull;用户代理目前没有映射    |
 | Second User Agent Category  | String  | 第二终结点的用户代理的类别。 <br/> **示例值：** OC | &bull;用户代理目前没有映射    |
 | First User Agent  | String  | 第一终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （Skype for Business） | &bull;第一个终结点未报告任何用户代理   |
@@ -243,8 +243,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第二个 Wi-fi 频道  | String  | 第二终结点使用的 Wifi 频道。 <br/> **示例值：** 10  | <br/>&bull;未使用 WiFi <br/>&bull;未报告频道  |
 | 第一 Wi-fi 无线电类型  | 字符串  | 第一终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
 | 第二个 Wi-fi 无线电类型  | String  | 第二终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
-| First DNS Suffix  | 字符串  | 第一终结点报告的与网络适配器关联的 DNS 后缀。 请注意，可能会为任何类型的网络适配器报告此值。 **示例值：** corp<span></span><span></span>.com  | <br/>&bull;终结点未报告此值 <br/>  |
-| Second DNS Suffix  | 字符串  | 第二终结点报告的与网络适配器关联的 DNS 后缀。请注意，可能会为任何类型的网络适配器报告此值。<br/> **示例值：** corp<span></span><span></span>.com   | <br/>&bull;终结点未报告此值  |
+| First DNS Suffix  | 字符串  | 第一终结点报告的与网络适配器关联的 DNS 后缀。 请注意，可能会为任何类型的网络适配器报告此值。 **示例值：** corp <span></span> <span></span> .com  | <br/>&bull;终结点未报告此值 <br/>  |
+| Second DNS Suffix  | 字符串  | 第二终结点报告的与网络适配器关联的 DNS 后缀。请注意，可能会为任何类型的网络适配器报告此值。<br/> **示例值：** corp <span></span> <span></span> .com   | <br/>&bull;终结点未报告此值  |
 | 第一 Wi-fi 频带  | String  | 第一终结点报告的所使用的 Wifi 波段。 <br/> **示例值：** 5.0 Ghz  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
 | 第二个 Wi-fi 频带  | String  | 第二终结点报告的所使用的 Wifi 波段。 <br/> **示例值：** 5.0 Ghz  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
 | 第一 wi-fi 信号强度  | String  | 第一个终结点报告的 WiFi 信号强度百分比 [0-100]。 <br/> **示例值：** 081： [90-100）  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
@@ -455,7 +455,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 
 按范围或分组表示的维度值使用以下格式显示：
 
- _\<排序顺序字符串\> [\<下限非\> - \<独占上限\>_
+ _\<排序顺序字符串 \> [下限 \< 非独占 \>  -  \< 上限\>_
 
 例如，持续时间（分钟）维度表示以分钟为单位的通话持续时间，报告的值以取值范围的形式表示。
 
@@ -480,7 +480,7 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 
 按枚举对表示的维度使用以下格式显示：
 
- _\<一个终结点的枚举值\> ： \<来自其他终结点的枚举值\>_
+ _\<一个终结点的枚举值 \> ： \< 来自其他终结点的枚举值\>_
 
 枚举值的顺序一致，但此顺序不反映第一或第二终结点的顺序。
 
@@ -499,9 +499,9 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 
 ## <a name="measurements"></a>计量
 
-许多度量值也可以用作筛选器。 下表列出了 CQD 中当前可用的度量值，按查询编辑器中列出的顺序显示：
+许多度量值也可以用作筛选器。 下表列出了 CQD 中当前可用的度量值，按查询编辑器中列出的顺序显示。
 
-|衡量指标名称 |单位 |Description |
+|衡量指标名称 |单位 |说明 |
 |:--- |:--- |:--- |
 |Total Stream Count |流的数量 |无论使用哪种介质，都可对媒体流进行编号，包括不具有媒体类型的可靠性/诊断流。 |
 | CDR 可用流计数总数 | 流的数量 |可用可靠性/诊断信息的媒体流的数量。 请参阅[Skype For Business 服务器中的呼叫详细记录（CDR）](https://docs.microsoft.com/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
@@ -511,7 +511,7 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Total Media Succeeded Stream Count |流的数量 |媒体路径成功建立并正常终止的流的数量。 |
 |Total Call Setup Succeeded Stream Count |流的数量 |呼叫之初在终结点之间成功建立媒体路径的流的数量。|
 |Total Call Setup Failure Percentage |百分比 |呼叫之初无法在终结点之间建立媒体路径的所有流的百分比。 |
-|Total Call Dropped Failure Percentage |百分比 |媒体路径未正常终止的已成功建立的数据流的百分比。 | 短通话总次数
+|Total Call Dropped Failure Percentage |百分比 |媒体路径未正常终止的已成功建立的数据流的百分比。| 
 |Total Answer Seizure Ratio |比率 |持续时间低于 5 秒钟的通话占通话总数的比率。 |
 |Total Short Call Percentage |百分比 |长时间不超过1分钟的通话总次数的百分比。 |
 |Total Media Failure Percentage |百分比 |媒体路径未能建立或未正常终止的所有流的百分比。 |
@@ -521,8 +521,8 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Firewall IP Blocked Media Failure Percentage |百分比 |由于网络设备阻止访问 Skype for business 服务器而无法建立的数据流的百分比。 这些故障通常表示代理服务器、防火墙或其他网络安全设备未正确配置为访问 Office 365 中 Skype for Business 使用的 IP 地址和端口。 |
 | 媒体因其他流计数而失败|流的数量| 由于不确定/未分类原因而无法在终结点之间建立媒体路径的流的数量。| |
 | 其他媒体故障百分比|百分比| 由于不确定/未分类原因而无法在终结点之间建立媒体路径的流的百分比。 ||
-| CDR 可用通话计数总数|流的数量|可用可靠性/诊断信息的媒体流总数。|
-| 媒体总通话失败次数|流的数量|无法在终结点之间建立媒体路径的流的数量。|
+| CDR 可用通话计数总数|流的数量|可用可靠性/诊断信息的媒体流总数。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
+| 媒体总通话失败次数|流的数量|无法在终结点之间建立媒体路径的流的数量。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
 |Audio Stream Count |流的数量 |音频流的数量。 |
 |Audio Poor Stream Count |流的数量 |根据此处列出的网络指标被分类为差的音频流的数量：[在 "通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
  |Audio Good Stream Count |流的数量 |根据此处列出的网络指标被分类为好的音频流的数量：[在 "通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
@@ -543,11 +543,11 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Audio Poor Call Stream Count |流的数量 |通话中至少有一个音频流的音频流的数量（呼叫条）根据此处列出的网络指标被分类为差：[在 "通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Audio Unclassified Call Stream Count |流的数量 |由于缺少网络指标，呼叫中的两个音频流（呼叫路）无法分类的音频流的数量。 |
 |音频不太好通话级别百分比 |百分比 |在呼叫中至少有一个音频流的所有音频流的百分比（呼叫条）根据以下列出的网络指标被分类为差： "[通话质量" 仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)。 |
-| 音频呼叫计数 | 数字 |涉及音频的通话次数。| |
-| 音频不佳通话计数|数字  |涉及音频分类为差的通话次数。|
-| 音频完好通话计数 |通话的数量|涉及音频分类为良好的通话的次数。|
-| 音频未分类通话计数 |通话的数量|涉及音频的通话次数无法进行保密或不太好的通话。|
-| Audio Poor Call Percentage |通话百分比|涉及音频分类为差的通话百分比。|
+| 音频呼叫计数 | 数字 |涉及音频的通话次数。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
+| 音频不佳通话计数|数字  |涉及音频分类为差的通话次数。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
+| 音频完好通话计数 |通话的数量|涉及音频分类为良好的通话的次数。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的备注。|
+| 音频未分类通话计数 |通话的数量|涉及音频的通话次数无法进行保密或不太好的通话。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
+| Audio Poor Call Percentage |通话百分比|涉及音频分类为差的通话百分比。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
 |AppSharing Stream Count |流的数量 |基于 RDP 的应用程序共享流的数量。 |
 |AppSharing Poor Due To SpoiledTilePercentTotal Count |流的数量 |损坏磁贴百分比总指标超过以下所列阈值的应用程序共享流的数量：[在 "通话质量" 仪表板中流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Poor Due To RelativeOneWayAverage Count |流的数量 |损坏磁贴百分比总指标超过以下所列阈值的应用程序共享流的数量：[在 "通话质量" 仪表板中流分类](stream-classification-in-call-quality-dashboard.md)。 |
@@ -662,18 +662,18 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 | 平均第二个麦克风故障率|故障次数|流的平均每秒 Mic 故障率（每5分钟的故障）。 ||
 | 平均第一个扬声器故障率|故障次数|流的平均第一次扬声器故障率（终结点扬声器的每5分钟故障）。 |
 | 平均第二扬声器故障率|故障次数|流的平均第二个扬声器故障率（终结点扬声器的每5分钟故障）。 |
-| 第一个用户计数|数字 | 唯一或独特的第一个终结点用户的数量。| |
-| 第二用户计数|数字|唯一或独特的第二终结点用户的数量。|
+| 第一个用户计数|数字 | 唯一或独特的第一个终结点用户的数量。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。| 
+| 第二用户计数|数字|唯一或独特的第二终结点用户的数量。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
 | 第一设备的平均故障率事件比率|百分比|第一个终结点检测到或捕获的媒体中导致无法发送或接收的较差媒体质量的问题的平均分数。|
 | 平均第二设备故障事件比率|百分比|第二终结点检测到或捕获的媒体中导致无法发送或接收的较差媒体质量的问题的平均分数。|
 | 第一设备故障事件计数|第一个终结点检测到或捕获的媒体中的严重故障或中断，导致发送或接收的媒体质量不佳的流的数量。||
 | 第二设备故障事件计数|第二终结点在播放或捕获的媒体中检测到的、导致无法发送或接收的媒体质量较差的流的数量。||
-| PSTN 总尝试次数 | 通话的数量 | 已尝试的通话总次数，包括成功的呼叫和在所选时间范围内失败的通话。|
-|PSTN 总连接计数 | 通话的数量 | 所选时间范围内已成功连接的通话总数。|
-|PSTN 入站尝试计数 | 通话的数量 | 入站尝试的通话总数，包括成功的呼叫和选择时间范围内的失败呼叫。|
-|PSTN 入站连接计数 | 通话的数量 | 所选时间范围内入站成功连接的通话总数。|
-|PSTN 出站尝试计数 | 通话的数量 | 拨出的通话总次数，包括成功的呼叫和在所选时间范围内失败的通话。|
-|PSTN 出站连接计数 | 通话次数 | 所选时间范围内的出站成功连接的通话总数。|
+| PSTN 总尝试次数 | 通话的数量 | 已尝试的通话总次数，包括成功的呼叫和在所选时间范围内失败的通话。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
+|PSTN 总连接计数 | 通话的数量 | 所选时间范围内已成功连接的通话总数。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
+|PSTN 入站尝试计数 | 通话的数量 | 入站尝试的通话总数，包括成功的呼叫和选择时间范围内的失败呼叫。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
+|PSTN 入站连接计数 | 通话的数量 | 所选时间范围内入站成功连接的通话总数。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
+|PSTN 出站尝试计数 | 通话的数量 | 拨出的通话总次数，包括成功的呼叫和在所选时间范围内失败的通话。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
+|PSTN 出站连接计数 | 通话次数 | 所选时间范围内的出站成功连接的通话总数。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|
 |PSTN 总分钟数 | 分钟 | 总分钟数 | 所选时间范围内的总分钟使用率。|
 |PSTN 入站总分钟数 | 分钟 | 所选时间范围内的入站分钟使用率总计。|
 |PSTN 出站总分钟数 | 分钟 | 所选时间范围内的总出站分钟使用率。|
@@ -686,8 +686,13 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |P50 数据包丢失率 | 百分比 | 50% 的请求应低于给定的数据包丢失速率。|
 |PSTN 传出的拨出后延迟| 毫秒 | 拨出电话拨出的电话上的延迟，从拨打电话到呼叫方或呼叫方听到铃声的时间开始。|
 |PSTN 传入后拨号延迟 | 毫秒 | 拨入电话时，从拨打电话到呼叫方或呼叫方听到响铃的时间或延迟。|
-|PSTN NER 优惠百分比 | 百分比 | NER 衡量网络通过测量发送的呼叫数与发送给收件人的呼叫次数之间传递呼叫的能力。<br/>NER = （接听电话 + 用户占线 + 环无应答 + 终端拒绝病情发作）/总尝试拨打 x 100|
+|PSTN NER 优惠百分比 | 百分比 | NER 衡量网络通过测量发送的呼叫数与发送给收件人的呼叫次数之间传递呼叫的能力。<br/>NER = （接听电话 + 用户占线 + 环没有应答 + 终端拒绝病情发作）/总尝试拨打 x 100。此测量值最多可有0.2% 的错误。 有关详细信息，请参阅下面的说明。|
 ||||
+
+### <a name="notes-on-measurements"></a>有关度量的注意事项
+
+#### <a name="accuracy-limitations"></a>精确度限制
+某些用户和通话计数度量依赖于对数据集执行不同的 countif 操作来计算计数。 根据执行操作的行数，当前最多有0.2% 的错误与不同的 countif 操作固有。 对于最准确的卷，你应使用流计数度量，因为它们不依赖于此不同的 countif 操作。 筛选以减少数据量可能会减少错误，但可能无法在不同的调用和用户计数中消除此错误来源。 有关此限制的详细信息可在此处[dcount 聚合函数](https://docs.microsoft.com/azure/data-explorer/kusto/query/dcount-aggfunction)中找到。
 
 ## <a name="filters"></a>筛选器
 

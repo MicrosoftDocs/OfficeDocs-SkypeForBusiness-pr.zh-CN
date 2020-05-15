@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是 Skype for business 和适用于埃及的 Microsoft 团队的 Office 365 服务。
-ms.openlocfilehash: d591e217320e7c83af7b196cf7a74126a027cbb8
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+description: 下面是用于埃及版 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 7a7ecae60201ac6081566d231ff47e2cf11f775a
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047821"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230250"
 ---
 # <a name="availability-in-egypt"></a>在埃及的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-以下是 Skype for business 和适用于埃及的 Microsoft 团队的 Office 365 服务。
+下面是用于埃及版 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

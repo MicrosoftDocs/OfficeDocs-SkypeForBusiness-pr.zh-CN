@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解在国家或地区是否可以使用音频会议、电话系统、通话计划、通讯信用点数以及收费电话号码和免费电话号码。
-ms.openlocfilehash: d6c989ea073a3d12f5bd4f04496f57977534e05c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: eae54b4b8957f588afab45758f9be5d2f678b3ea
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141055"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230190"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
@@ -178,14 +178,14 @@ ms.locfileid: "43141055"
 音频会议有一项名为“呼叫我”** 的功能，可便于其他人加入拨入会议。 使用上面的下拉列表搜索国家/地区，以确定此功能是否可用。
 
 > [!CAUTION]
-> 可能无法拨出免费电话号码，因为一些免费号码仅适用于某些国家/地区或某个国家/地区的特定区域。 例如，如果从美国拨出到巴西的免费号码，呼叫可能会失败，因为呼叫不是源自巴西或巴西的特定区域。 拨出到免费号码这一功能因拨打的免费号码的限制而差异巨大。 遗憾的是，Office 365 无法控制此行为，因此体验可能会因拨打的免费号码以及免费号码的限制而异。 
+> 可能无法拨出免费电话号码，因为一些免费号码仅适用于某些国家/地区或某个国家/地区的特定区域。 例如，如果从美国拨出到巴西的免费号码，呼叫可能会失败，因为呼叫不是源自巴西或巴西的特定区域。 拨出到免费号码这一功能因拨打的免费号码的限制而差异巨大。 很抱歉，我们无法控制此行为，因此，你的体验可能会有所不同，具体取决于拨打的免费电话号码和免费号码的限制。 
   
-可以使用 [Office 365 通信点数](../what-are-communications-credits.md)从会议拨出到下方未列出的世界上另一个国家/地区。 对于这些用户，你需要[设置组织的通信点数](../set-up-communications-credits-for-your-organization.md)。
+使用[通信信用点数](../what-are-communications-credits.md)，从某个会议拨出到世界上未列出的其他国家/地区。 对于这些用户，你需要[设置组织的通信点数](../set-up-communications-credits-for-your-organization.md)。
   
 ### <a name="phone-system"></a>电话系统
 借助电话系统，可以创建自动助理和呼叫队列（包含收费或免费号码），用于接听组织的传入呼叫。此外，在你为用户添加通话套餐后，用户可以使用 Skype for Business 处理基本的呼叫控制任务，如拨打和接听电话、转接电话以及将电话静音和取消静音。 **电话系统**用户可以单击自己通讯簿中的姓名，Skype for Business 会向此人拨打电话。 若要拨打和接听电话，**电话系统**用户可以使用自己的移动设备，也可以结合使用耳机与笔记本电脑或电脑，亦可以使用 Skype for Business 适用的许多 IP 电话之一。
 
-> 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了从 Office 365 获取个人用户的电话号码之外，还可以搜索和获取音频会议（对于会议网桥）、自动助理和呼叫队列等服务的收费或免费电话号码。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。 还可以参阅[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。 
+> 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了获取单个用户的电话号码，还可以搜索和获取服务的收费电话号码或免费电话号码，如音频会议（适用于会议桥）、自动助理和呼叫队列。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。 还可以参阅[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。 
 
 [电话系统定价](https://products.office.com/skype-for-business/phone-system#Requirements)
 
@@ -204,7 +204,7 @@ ms.locfileid: "43141055"
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>服务的收费和免费电话号码
 
-除了从 Office 365 获取个人用户的电话号码之外，还可以搜索和获取音频会议（对于会议网桥）、自动助理和呼叫队列等服务的收费或免费电话号码。 这些称为“服务号码”。
+除了获取单个用户的电话号码，还可以搜索和获取服务的收费电话号码或免费电话号码，例如音频会议（适用于会议桥）、自动助理和呼叫队列。 这些称为“服务号码”。
   
 下面列出了可以获取用于音频会议和通话套餐的收费服务号码的首都和主要城市。 可以使用“Skype for Business 管理中心”**** 从这些位置获取收费服务号码。
   

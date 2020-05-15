@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 本文列出了在中国可以对 Skype for Business 和 Microsoft Teams 使用的 Office 365 服务。
-ms.openlocfilehash: 810e2a6c8644c1ccbe65fe0795d99cc970e158bf
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: HT
+description: 以下是适用于中国的 Skype for Business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: d0629cfe16e5e917a358c55d0b6ec6b78bfbcf29
+ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853667"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44230570"
 ---
 # <a name="availability-in-china"></a>在中国可用的服务
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-本文列出了在中国可以对 Skype for Business 和 Microsoft Teams 使用的 Office 365 服务。
+以下是适用于中国的 Skype for Business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

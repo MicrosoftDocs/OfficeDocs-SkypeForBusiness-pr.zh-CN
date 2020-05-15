@@ -17,18 +17,18 @@ description: 了解如何配置 Microsoft 通话计划和电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b76f8605aa1151911c26e0724db161b3a497fcf6
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
+ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164551"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44232573"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
 Microsoft 通话计划和电话系统直接路由的动态紧急呼叫提供了配置和路由紧急呼叫的功能，并根据团队客户的当前位置通知安全人员。  
 
-根据租户管理员定义的网络拓扑，团队客户端在对位置信息服务（.LIS）的请求中提供网络连接信息。  如果存在匹配项，则 IIS 将向客户端返回一个位置。 此位置数据将传回客户端。  
+根据租户管理员定义的网络拓扑，团队客户端在对位置信息服务（.LIS）的请求中提供网络连接信息。 如果存在匹配项，则 IIS 将向客户端返回一个位置。 此位置数据将传回客户端。  
 
 团队客户端包括作为紧急呼叫的一部分的位置数据。 这些数据随后由紧急服务提供商用于确定相应的公共安全应答点（PSAP），并将呼叫路由到该 PSAP，从而允许 PSAP dispatcher 获取呼叫者的位置。  
 
@@ -42,7 +42,7 @@ Microsoft 通话计划和电话系统直接路由的动态紧急呼叫提供了�
 
    - 如果存在网络设置网站匹配项，则会将紧急呼叫策略从该网站返回到团队客户端。 （有关策略的详细信息，请参阅[配置紧急策略](#configure-emergency-policies)）。
 
-   - 如果存在一个 IIS 匹配项-来自团队客户端连接到的网络元素的紧急位置将返回到团队客户端。
+   - 如果存在一个 .LIS 匹配项-来自团队客户端连接到的网络元素的紧急位置将返回到团队客户端。
 
 3. 当团队客户端进行紧急呼叫时，会将紧急位置传达给 PSTN 网络。
 
@@ -57,15 +57,13 @@ Microsoft 通话计划和电话系统直接路由的动态紧急呼叫提供了�
 - [启用用户和网站](#enable-users-and-sites)
 - [测试紧急电话](#test-emergency-calling)
 
+自动路由到相应的公共安全应答点（PSAP）的功能会有所不同，具体取决于团队用户使用的国家/地区。
 
-自动路由到相应的公共安全应答点（PSAP）的功能会有所不同，具体取决于团队用户使用的国家/地区。 
-
-有关紧急呼叫的详细信息-包括有关紧急地址和紧急呼叫路由的信息、特定于国家/地区的信息以及有关网络设置和网络拓扑的信息，请参阅以下内容：
+有关紧急呼叫的详细信息，包括有关紧急地址和紧急呼叫路由的信息、特定于国家/地区的信息以及有关网络设置和网络拓扑的信息，请参阅以下内容：
 
 - [管理紧急电话](what-are-emergency-locations-addresses-and-call-routing.md)
 - [管理云语音功能的网络设置](cloud-voice-network-settings.md)
 - [管理云语音功能的网络拓扑](manage-your-network-topology.md)
-
 
 ## <a name="supported-clients"></a>支持的客户端
 
@@ -87,24 +85,24 @@ Azure 映射用于基于位置的服务。  使用 Microsoft 团队管理中心�
 
 - 如果找到匹配项，则自动包括 geo 代码。
 
-- 如果找不到匹配项，您将有机会手动创建紧急地址。 你可以使用 "固定放置" 功能执行此操作。   
+- 如果找不到匹配项，您将有机会手动创建紧急地址。 你可以使用 "固定放置" 功能执行此操作。 
 
 这意味着，如果为分配给呼叫计划用户而创建的现有紧急位置适用于动态位置，则需要重新创建相同的地址以包括 geo 代码。 若要区分这两个位置，应包含不同的说明。 新的紧急位置可分配给具有旧位置的用户。 完全迁移时，可以删除旧位置。
 
-有关配置紧急地址的详细信息，请参阅为[你的组织添加紧急位置](add-change-remove-emergency-location-organization.md)和为[你的用户分配紧急位置](assign-change-emergency-location-user.md)。
+在 Microsoft 团队管理中心或使用 PowerShell 中添加和分配紧急地址。 有关详细信息，请参阅为[你的组织添加紧急位置](add-change-remove-emergency-location-organization.md)和为[用户分配紧急位置](assign-change-emergency-location-user.md)。
 
 ## <a name="configure-network-settings"></a>配置网络设置
 
 网络设置用于确定团队客户端的位置，并动态获取紧急呼叫策略和紧急位置。 您可以根据组织希望的紧急呼叫功能来配置网络设置。
 
-网络设置包括包含子网集合的网站-这些网站专门用于向用户分配动态策略。  例如，TeamsEmergencyCalling 策略和 TeamsEmergencyCallRouting 策略可能分配给 "雷德蒙" 网站，以便从家里或其他 Microsoft 位置漫游的任何用户都使用特定于 Redmond 的紧急号码、路线和安全桌面进行配置。  
+网络设置包括包含子网集合的网站，这些网站专门用于向用户分配动态策略。 例如，紧急呼叫策略和紧急呼叫路由策略可能会分配给 "雷德蒙" 网站，以便从家里或其他 Microsoft 位置漫游的任何用户都使用特定于 Redmond 的紧急号码、路线和安全桌面进行配置。  
 
 >[!Note]
 >子网也可以在 .LIS 中定义，并且可以与紧急位置相关联。  
 
-请记住以下定义：
+请记住以下定义。 有关详细信息，请参阅[云语音功能的网络设置](cloud-voice-network-settings.md)。
 
-- 受信任的 IP 包含企业网络的 Internet 外部 Ip 的集合，用于确定用户的终结点是否位于企业网络内。 仅当用户的外部 IP 与信任的 IP 地址中的 IP 相匹配时，才会尝试获取动态策略或位置。 可以针对 IPv4 或 IPv6 IP 地址进行匹配，取决于发送到网络设置的 IP 数据包的格式。  （如果公共 IP 地址同时具有 IPv4 和 IPv6，则你需要将两者都添加为受信任的 IP 地址。）
+- "受信任的 IP 地址" 包含企业网络的 internet 外部 IP 地址的集合，用于确定用户的终结点是否位于企业网络内。 仅当用户的外部 IP 地址与受信任的 IP 地址中的 IP 地址匹配时，才会尝试获取动态策略或位置。 可以针对 IPv4 或 IPv6 IP 地址进行匹配，取决于发送到网络设置的 IP 数据包的格式。  （如果公共 IP 地址同时具有 IPv4 和 IPv6，则你需要将两者都添加为受信任的 IP 地址。）
 
 - 网络区域包含网络站点的集合。 
 
@@ -112,7 +110,7 @@ Azure 映射用于基于位置的服务。  使用 Microsoft 团队管理中心�
 
 - 网络子网必须与特定的网络站点相关联。 根据网络子网和关联的网络站点确定客户端的位置。  
 
-有关详细信息，请参阅[云语音功能的网络设置](cloud-voice-network-settings.md)和[管理云语音功能的网络拓扑](manage-your-network-topology.md)。
+在 Microsoft 团队管理中心或通过使用 PowerShell 配置网络设置。 若要了解详细信息，请参阅[管理云语音功能的网络拓扑](manage-your-network-topology.md)。
 
 请注意，对于网络设置（如新地址、网络标识符等）进行某些更改（如新地址、网络标识符等）以传播并供团队客户端使用，可能需要花费一些时间（长达几小时）。  
 
@@ -120,7 +118,7 @@ Azure 映射用于基于位置的服务。  使用 Microsoft 团队管理中心�
 
 - 如果需要对 security 办公桌通知进行动态配置，则必须同时配置受信任的 IP 地址和网络站点。
 
-- 如果仅需要动态位置，则必须仅配置受信任的 IP 地址。 
+- 如果仅需要动态位置，则必须仅配置受信任的 IP 地址。
 
 - 如果两者都不是必需的，则不需要配置网络设置。 
 
@@ -135,40 +133,48 @@ Azure 映射用于基于位置的服务。  使用 Microsoft 团队管理中心�
 
 ## <a name="configure-location-information-service"></a>配置位置信息服务
 
-团队客户端从与不同网络标识符关联的位置获取紧急地址。 子网和无线访问点（WAPs）均受支持。 如果找到多个位置，则 WAP 优先于子网。 （对以太网交换机/端口的支持已挂起。）
+团队客户端从与不同网络标识符关联的位置获取紧急地址。 子网和无线访问点（WAPs）均受支持。 （对以太网交换机/端口的支持已挂起。）
 
-要获取位置的客户端，您必须使用以下 cmdlet 填充网络标识符和紧急位置的位置信息服务（.LIS）：  
+若要获取某个位置的客户端，必须使用网络标识符（子网、WAPs、开关、端口）和紧急位置填充 IIS。 可以在 Microsoft 团队管理中心或使用 PowerShell 执行此操作。
 
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps)CsOnlineLisPort
-- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps)CsOnlineLisSwitch
+1. 在左侧导航中，转到 "**位置**  >  **网络" & 位置**。
+2. 单击表示要添加的网络标识符的选项卡。 例如，单击 "**子网**"、" **wi-fi 访问点**"、"**交换机**" 或 "**端口**"。 然后单击 "**添加**"。
+3. 填写字段，添加紧急位置，然后单击 "**应用**"。
+
+### <a name="using-powershell"></a>使用 PowerShell
+
+使用以下 cmdlet 将端口、开关、子网和 WAPs 添加到 .LIS。
+
 - [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps)CsOnlineLisSubnet
-- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps
-)CsOnlineLisWirelessAccessPoint 
+- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps)CsOnlineLisPort
+- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps)CsOnlineLisWirelessAccessPoint
+- [获取](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、[设置](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)、[删除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps)CsOnlineLisSwitch
 
-
->[!Important] 
+>[!Important]
 >如果子网用作网络站点的一部分，则必须在位置信息服务中重新定义它们以呈现动态位置。
-
 
 ## <a name="configure-emergency-policies"></a>配置紧急策略
 
-你可以使用以下策略配置紧急呼叫：
+使用以下策略配置紧急呼叫。 你可以在 Microsoft 团队管理中心或通过使用 PowerShell 管理这些策略。
 
-- **TeamsEmergencyCallRoutingPolicy** –仅适用于直接路由。 此政策配置紧急号码、每个号码的掩码（如果需要），以及每个号码的 PSTN 路由。  你可以将此策略分配给用户和/或网络站点。 （通话计划团队客户将根据其 Office 365 的使用位置，自动为紧急呼叫启用来自国家/地区的紧急电话号码。） 你可以使用新的-、Set 和 Grant CsTeamsEmergencyCallRouting cmdlet 管理此策略。 
+- **紧急呼叫路由策略**-仅适用于直接路由。 此政策配置紧急号码、每个号码的掩码（如果需要），以及每个号码的 PSTN 路由。  你可以将此策略分配给用户和/或网络站点。 （通话计划团队客户将根据其 Office 365 的使用位置，自动为紧急呼叫启用来自国家/地区的紧急电话号码。） 若要了解详细信息，请参阅[管理直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。
 
-- **TeamsEmergencyCallingPolicy** -适用于通话计划和直接路由。 此策略配置在进行紧急呼叫时的安全桌面通知体验。 可以设置要通知的人员以及通知的方式。 例如，自动通知组织的安全桌面并让他们在紧急电话上侦听。  此策略既可以分配给用户，也可以同时分配给用户或网络站点。 你可以使用新的-Set 和 CsTeamsEmergencyCallingPolicy cmdlet 管理此策略。 
-
-有关详细信息，请参阅[管理团队中的紧急呼叫策略](manage-emergency-calling-policies.md)和[管理直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。
-
+- **紧急呼叫政策**-适用于通话计划和直接路由。 此策略配置在进行紧急呼叫时的安全桌面通知体验。 可以设置要通知的人员以及通知的方式。 例如，自动通知组织的安全桌面并让他们在紧急电话上侦听。  此策略既可以分配给用户，也可以同时分配给用户或网络站点。 若要了解详细信息，请参阅[管理团队中的紧急呼叫策略](manage-emergency-calling-policies.md)。
 
 ## <a name="enable-users-and-sites"></a>启用用户和网站
 
-你可以将**TeamsEmergencyCalling**和**TeamsEmergencyCallROuting**策略分配给用户和网站。  
+您可以为用户和网站分配紧急呼叫路由策略和紧急呼叫策略。 请记住，紧急呼叫路由策略仅适用于直接路由。 （虽然可以将此策略分配给通话计划用户，但该策略不起作用。）
 
-TeamsEmergencyCallRouting 策略仅适用于直接路由。 （虽然可以将此策略分配给通话计划用户，但该策略不起作用。）
+在 Microsoft 团队管理中心或通过使用 PowerShell 分配策略。 要了解详细信息，请参阅：
 
-例如，若要为安全桌面通知启用特定用户，请使用以下命令：
+- [管理直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)
+- [管理团队中的紧急呼叫策略](manage-emergency-calling-policies.md)
+
+下面是一些 PowerShell 示例。
+
+若要为安全桌面通知启用特定用户，请使用以下命令：
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
@@ -193,7 +199,6 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 ```
 
 如果你为网络网站和用户分配了紧急呼叫策略，并且如果该用户位于该网络站点，则分配给网络网站的策略将覆盖分配给该用户的策略。
-
 
 ## <a name="test-emergency-calling"></a>测试紧急电话
 
