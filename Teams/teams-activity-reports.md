@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f9ecbbce3146a2b5d36a70b485a2106f12ab6e
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902347"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256387"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft Teams 用户活动报告 
 ========================================
@@ -32,7 +32,7 @@ ms.locfileid: "43902347"
 
 ## <a name="how-to-view-the-teams-reports-in-the-reports-dashboard"></a>如何在 "报表" 仪表板中查看团队报表
 
-1. 在[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，选择 "**报告** > **使用情况**"。
+1. 在[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，选择 "**报告**  >  **使用情况**"。
  
 2. 在 "**使用情况**" 页面上，选择 "**选择报表**"，然后在报表列表中的 " **Microsoft 团队**" 下，选择要查看的报表。
 
@@ -101,7 +101,7 @@ ms.locfileid: "43902347"
 
 ### <a name="reports-reader-role"></a>报表读者角色
 
-你可以将*报表读者*角色分配给你希望其访问这些报表的非 IT 员工。 通过将此角色分配给培训经理或业务利益干系人，你可以确保他们有权访问有助于推动和跟踪团队采纳的见解。
+你可以将*报表读者*角色分配给你希望其访问这些报表的非 IT 员工。 通过将此角色分配给培训经理或业务利益干系人，你可以确保他们有权访问有助于推动和跟踪团队采纳的见解。 若要了解如何分配角色，请参阅[将管理员和管理员角色分配给具有 Azure Active Directory 的用户](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
 
 ## <a name="other-information-on-the-reports-dashboard"></a>报表仪表板上的其他信息
 

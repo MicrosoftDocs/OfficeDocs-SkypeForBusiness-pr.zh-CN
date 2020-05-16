@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: a2c921da824bdbbcd6b0f6baf49887e55df08ca9
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139206"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256497"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -46,7 +46,7 @@ ms.locfileid: "44139206"
 默认情况下，将创建名为 Global 的策略（组织范围的默认设置）。 默认情况下，组织中的所有用户都分配有 "全局会议策略"。 你可以对其进行更改或创建一个或多个自定义策略，并向其分配用户。 除非你创建和分配自定义策略，否则用户将获取全局策略。 创建自定义策略时，你可以允许或阻止你的用户使用某些功能，然后将其分配给将对其应用设置的一个或多个用户。
 
 > [!NOTE]
-> "会议详细信息" 按钮在用户启用音频会议许可证或用户允许音频会议时可用，如果不是，则会议详细信息将不可用
+> "会议详细信息" 按钮在用户启用音频会议许可证或用户允许音频会议的情况下可用时，会议详细信息将不可用。
 
 ## <a name="change-or-create-a-meeting-policy"></a>更改或创建会议策略
 
@@ -78,7 +78,7 @@ ms.locfileid: "44139206"
 
 或者，您也可以执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**会议** > **会议策略**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**会议**  >  **会议策略**"。
 2. 单击策略名称的左侧以选择该策略。
 3. 选择“管理用户”****。
 4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
@@ -327,7 +327,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>让匿名人员开始会议
 
-这是每个组织者的策略。 此设置控制匿名人员（包括 B2B）和联盟用户是否可以在没有经过身份验证的组织中加入用户的会议。 
+这是每个组织者的策略。 此设置控制匿名人员（包括 B2B）和联盟用户是否可以在没有经过身份验证的组织中加入用户的会议。 默认值为 False。
 
 ![显示一条消息给正在等待的用户的屏幕截图](media/meeting-policies-anonymous-user-lobby.png)
 
@@ -365,11 +365,11 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 |---------|---------|
 |**所有人**   |所有会议参与者都直接加入会议，而无需在大厅中等待。 这包括经过身份验证的用户、联盟用户、来宾、匿名用户和通过电话拨入的用户。       |
 |**组织和联盟组织中的每个人**     |组织内的经过身份验证的用户，包括来宾用户和联盟组织中的用户，直接加入会议，而无需在大厅中等待。  通过电话拨入的匿名用户和用户在大厅中等待。   |
-|**您的组织中的每个人**    |来自组织内部的经过身份验证的用户（包括来宾用户）直接加入会议，而无需在大厅中等待。  联合用户、匿名用户和通过电话拨入的用户在大厅中等待。           |
+|**您的组织中的每个人**    |来自组织内部的经过身份验证的用户（包括来宾用户）直接加入会议，而无需在大厅中等待。  联合用户、匿名用户和通过电话拨入的用户在大厅中等待。 这是默认设置。           |
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允许拨入用户绕过大厅
 
-这是每个组织者的策略。 此设置控制通过电话拨入的用户是否直接加入会议或在会议厅中等待，而不管 "是否**自动允许人员**" 设置。
+这是每个组织者的策略。 此设置控制通过电话拨入的用户是否直接加入会议或在会议厅中等待，而不管 "是否**自动允许人员**" 设置。 默认值为 False。
 
 下面是通过电话拨入的用户的加入行为。
 
@@ -402,6 +402,16 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="meeting-policy-settings---meeting-attendance-report"></a>会议策略设置-会议出席情况报告
+
+这是每个用户的策略。 此设置控制会议组织者是否可以下载[会议出席报告](teams-analytics-and-reports/meeting-attendance-report.md)。
+
+目前，您只能使用 PowerShell 配置此策略设置。 你可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有团队会议策略。 或者，使用 CsTeamsMeetingPolicy cmdlet 创建新[的](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)团队会议策略，并将其分配给用户。
+
+若要使会议组织者能够下载会议出席报告，请将**AllowEngagementReport**参数设置为 "**已启用**"。 启用后，用于下载报告的选项将显示在 "**参与者**" 窗格中。
+
+若要阻止会议组织者下载报表，请将该参数设置为 "**已禁用**"。 默认情况下，此设置处于禁用状态，无法使用下载报表的选项。
+
 ## <a name="related-topics"></a>相关主题
 
-[团队中的消息传递策略](messaging-policies-in-teams.md)
+- [Teams PowerShell 概览](teams-powershell-overview.md)

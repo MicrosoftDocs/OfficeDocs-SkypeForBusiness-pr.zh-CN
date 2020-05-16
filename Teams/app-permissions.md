@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ed1e7d4f90fa1be96ac48f376c3cb1b939a39c4
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
+ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997183"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "44256477"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -57,17 +57,21 @@ ms.locfileid: "43997183"
 
 ### <a name="considerations"></a>考虑事项
 
-应用必须公开它所使用的数据以及数据在其使用条款和隐私策略链接中的用途。</td>
+- 应用必须公开它所使用的数据以及数据在其使用条款和隐私策略链接中的用途。
+
+- [特定于资源的同意](resource-specific-consent.md)提供了一组应用可以请求的权限，这些权限显示在应用的安装屏幕上。 若要了解有关特定于资源的同意权限的详细信息，请参阅[图表权限参考](https://docs.microsoft.com/graph/permissions-reference)。
+
+- 应用还可能需要除特定于资源的同意权限之外的权限。 安装应用后，应用可能会通过同意提示请求 Graph 权限。 若要了解详细信息，请参阅[了解 AZURE AD 应用程序同意体验](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)。 你可以在 Azure 门户中配置 API 权限和同意。 若要了解详细信息，请参阅[Azure Active Directory 同意框架](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>机器人和消息扩展
 
 ### <a name="required-permissions"></a>所需权限
 
-- RECEIVE_MESSAGE、REPLYTO_MESSAGE。 聊天机器人可以接收来自用户的消息以及回复用户。<sup>1</sup>
+- RECEIVE_MESSAGE，REPLYTO_MESSAGE。 机器人可以接收来自用户的消息并回复。<sup>1</sup>
 
 - POST_MESSAGE_USER。 用户将消息发送到 bot 后，机器人可以随时发送用户直接消息（也称为*主动消息*）。
 
-- GET_CHANNEL_LIST。 添加到团队的聊天机器人可以获取团队中的频道的名称和 ID 列表。
+- GET_CHANNEL_LIST。 添加到团队的智能机器人可以获取团队中频道的名称和 Id 列表。
 
 ### <a name="optional-permissions"></a>可选权限
 
@@ -95,13 +99,13 @@ ms.locfileid: "43997183"
 
 - 从理论上讲，bot 邮件包含指向网络钓鱼或恶意网站的链接，但用户可以通过 Microsoft、租户管理员或由 Microsoft 全局阻止。
 
-- Bot 可以为应用添加到的团队成员或个人或群组聊天中的单个用户检索和存储非常基本的标识信息。 若要获取有关这些用户的详细信息，机器人必须要求他们登录到 Azure Active Directory （Azure AD）
+- Bot 可以为应用添加到的团队成员或个人或群组聊天中的单个用户检索和存储非常基本的标识信息。 若要获取有关这些用户的详细信息，机器人必须要求他们登录到 Azure Active Directory （Azure AD）。
 
 - 机器人可以检索团队中的频道列表，并可以存储这些频道的列表;此数据将离开公司网络。
 
 - 将文件发送到机器人时，该文件将离开公司网络。 发送和接收文件需要对每个文件进行用户审批。 
 
-- 默认情况下，bot 无法代表用户执行操作，但机器人可以让用户登录;一旦用户登录，bot 将拥有一个访问令牌，它可以执行其他操作。 这些附加内容的具体内容取决于 bot 和用户登录的位置： bot 是注册的 Azure AD 应用https://apps.dev.microsoft.com/ ，并且可以拥有自己的权限集。
+- 默认情况下，bot 无法代表用户执行操作，但机器人可以让用户登录;一旦用户登录，bot 将拥有一个访问令牌，它可以执行其他操作。 这些附加内容的具体内容取决于 bot 和用户登录的位置： bot 是注册的 Azure AD 应用 https://apps.dev.microsoft.com/ ，并且可以拥有自己的权限集。
 
 - 只要向团队中添加或删除用户，就会通知机器人。
 
