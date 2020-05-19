@@ -64,8 +64,8 @@
 ### [管理自定义应用](manage-your-custom-apps.md)
 ### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [为组织管理任务应用](manage-tasks-app.md)
 ### [设置团队目标层次结构](set-up-your-team-hierarchy.md)
+### [为组织管理任务应用](manage-tasks-app.md)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 与外部用户通信
@@ -604,6 +604,7 @@
 # 行业和政府指南
 ## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
+## [预订应用和虚拟参观](bookings-app-admin.md)
 ## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [安装 Microsoft StaffHub PowerShell 模块](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -628,7 +629,7 @@
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
 ### [远程学习入门](remote-learning-edu.md)
-### [用于 EDU 管理员的 Microsoft Teams 政策包](policy-packages-edu.md)
+### [Teams EDU 策略和策略包](policy-packages-edu.md)
 ### [向大型用户组分配策略](batch-policy-assignment-edu.md)
 ### [教育版管理员低带宽指南](edu-remote-low-bandwidth.md)
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
@@ -763,12 +764,12 @@
 
 
 ## 支持的设备
-### [在 Teams 中管理设备](device-management.md)
-### [Teams 电话](phones-for-teams.md)
+### [在 Teams 中管理设备](devices/device-management.md)
+### [Teams 电话](devices/phones-for-teams.md)
+### [USB 音频和视频设备](devices/usb-devices.md)
 ### [为 Microsoft Teams 部署协作栏](devices/collab-bar-deploy.md)
-### [USB 音频和视频设备](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [会议室设备和解决方案](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Microsoft Teams 认证的 IP 电话](teams-ip-phones.md)
+### [Microsoft Teams 认证的 IP 电话](devices/teams-ip-phones.md)
 ### [Skype for Business Online 电话](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 
