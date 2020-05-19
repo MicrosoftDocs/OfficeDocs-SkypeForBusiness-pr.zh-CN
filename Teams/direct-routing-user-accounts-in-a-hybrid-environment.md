@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解用户创建的不同组合以及支持或不支持的组合。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
+ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779991"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44280251"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>采用 PSTN 连接的混合环境中的用户帐户
 
@@ -65,7 +65,7 @@ ms.locfileid: "43779991"
 |**不支持的组合**    | |         |         |      |
 |Azure AD| 本地/联机 | Skype for Business/Microsoft 团队|企业语音/混合语音连接/直接路由  |否，必须先在本地广告中创建用户对象 |
 |本地广告  |内部部署| Microsoft Teams| 企业语音/混合语音连接/直接路由   |否，本地 Skype for business 不支持 Microsoft 团队客户端 |     
-|本地广告  |Online |Skype for Business  | 直接路由  |否，Skype for Business 客户端不支持直接路由，用户必须在 Skype for business 中首先启用企业语音  |
+|本地广告  |Online |Skype for Business  | 直接路由  |否，Skype for Business 客户端不支持直接路由  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>适用于具有 PSTN 的混合环境的可支持性声明

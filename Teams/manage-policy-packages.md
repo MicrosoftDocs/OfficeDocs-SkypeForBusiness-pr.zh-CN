@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理策略程序包，以便在管理用户组策略时简化、简化和帮助提供一致性。
-ms.openlocfilehash: b900e7ad8e41b8ebad0ff2af774e36478c956f59
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 742269fd85cb912e52d727a03a6123acd0b87a72
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243562"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44281503"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
 
@@ -51,7 +51,7 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 |教育版（使用远程学习的主要学校学生）（预览）    |创建一组适用于主要学生的策略，以便在使用远程学习时最大化学生的安全和协作。      |
 |医疗保健临床工作者  |创建一组策略和策略设置，为临床工作者（如注册的护士、费用护理、医生和社会工作者）提供对聊天、通话、班次管理和会议的完全访问权限。 |
 |医疗保健信息工作者  |创建一组策略和策略设置，提供信息工作者，如 IT 人员、informatics 员工、财务人员和合规性监察官、对聊天、通话和会议的完全访问权限。|
-|医疗保健患者聊天室（预览版）  |创建一组策略和策略设置，这些策略设置适用于您的医疗保健组织中的患者聊天室。|
+|医疗保健患者聊天室  |创建一组策略和策略设置，这些策略设置适用于您的医疗保健组织中的患者聊天室。|
 |中小型企业用户（企业语音） |创建包含商业语音体验应用的应用安装策略。|
 |中小型企业用户（无业务语音） |创建一组策略和策略设置，适用于不带任何商业语音功能的中小型企业用户。|
 |公共安全专员   |创建一组策略和策略设置，这些策略设置适用于您的组织中的公共安全专员。|

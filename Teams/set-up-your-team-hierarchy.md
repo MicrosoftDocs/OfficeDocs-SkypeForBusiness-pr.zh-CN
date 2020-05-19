@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 26e4ee05b9f94fa0883aef5bbe98b691c9e0c46d
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158999"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278165"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
@@ -57,7 +57,7 @@ CSV 文件必须包含以下三列，顺序从第一列开始。 必须将节点
 ----------------|----------|---------------|
 | TargetName    | 是      | 这是节点的名称。 该名称最多可包含100个字符，并且仅包含字符 a-z、A-z 和0-9。 节点名称必须是唯一的。 |
 | ParentName    | 是       | 这是父节点的名称。 此处指定的值必须与父节点的 TargetName 字段中的值完全匹配。 如果要添加多个父节点，请使用分号（;) 分隔每个父节点名称。 最多可添加25个父节点，每个父节点名称最多可以为2500个字符。 只有当父节点为根节点时，节点才可以有多个父节点。   <br><br>**重要提示**请注意不要创建一个循环，层次结构中的父节点将在层次结构中较低的位置引用该子节点。 这不受支持。 |
-| TeamID        | 是，如果团队从父节点发布任务或接收任务       | 这包含要将节点链接到的团队的 ID。 如果你希望用户能够从该节点发布，或者希望用户能够查看该节点及其后代的报告，则必须将该节点链接到团队（如果你的层次结构位于该节点的底部）。 例如，如果您的经理针对西部地区，则 Office 希望查看属于该区域的节点的任务完成报告。<br><br>如果只想添加节点以对层次结构中的其他节点进行分组，则无需将该节点链接到团队，并且可以将此字段保留为空。 您只能将每个节点链接到一个团队。<br>若要获取要将节点链接到的团队的 ID，请运行以下 PowerShell 命令： `Get-Team | Export-Csv TeamList.csv`。 这将列出组织中的团队并包括每个团队的名称和 ID。 找到要链接到的团队的名称，然后将该 ID 复制到此字段中。|
+| TeamId        | 是，如果团队从父节点发布任务或接收任务       | 这包含要将节点链接到的团队的 ID。 如果你希望用户能够从该节点发布，或者希望用户能够查看该节点及其后代的报告，则必须将该节点链接到团队（如果你的层次结构位于该节点的底部）。 例如，如果您的经理针对西部地区，则 Office 希望查看属于该区域的节点的任务完成报告。<br><br>如果只想添加节点以对层次结构中的其他节点进行分组，则无需将该节点链接到团队，并且可以将此字段保留为空。 您只能将每个节点链接到一个团队。<br>若要获取要将节点链接到的团队的 ID，请运行以下 PowerShell 命令： `Get-Team | Export-Csv TeamList.csv` 。 这将列出组织中的团队并包括每个团队的名称和 ID。 找到要链接到的团队的名称，然后将该 ID 复制到此字段中。|
 
 ### <a name="add-attribute-columns"></a>添加属性列
 
@@ -90,14 +90,14 @@ CSV 文件必须包含以下三列，顺序从第一列开始。 必须将节点
 
 下面是一个架构 CSV 文件的示例，将创建该文件以支持上面的图像中所示的层次结构。 此架构包含以下内容：
 
-- 名为`TargetName`、 `ParentName`和的三个必需列`TeamID`
-- 名为`Store layout`、 `Departments:Clothing`和的三个属性列`Departments:Foods`
-- 名为`Fresh Foods`、 `Frozen Foods`和的三个 bucket 列`Womenswear`
+- 名为 `TargetName` 、 `ParentName` 和的三个必需列`TeamId`
+- 名为 `Store layout` 、 `Departments:Clothing` 和的三个属性列`Departments:Foods`
+- 名为 `Fresh Foods` 、 `Frozen Foods` 和的三个 bucket 列`Womenswear`
 
-该`Store layout`属性具有值，其中`Compact`包括`Standard`、和`Large`。 可以`Departments`将属性列设置为值`0` （零）或。 `1` `Store`布局和`Departments`属性未显示在上述图像中。 此处添加它们是为了帮助演示如何将属性添加到节点条目。 这一点同样适用于三个存储桶列。
+该 `Store layout` 属性具有值，其中包括 `Compact` 、 `Standard` 和 `Large` 。 `Departments`可以将属性列设置为值 `0` （零）或 `1` 。 `Store`布局和 `Departments` 属性未显示在上述图像中。 此处添加它们是为了帮助演示如何将属性添加到节点条目。 这一点同样适用于三个存储桶列。
 
 
-| TargetName             | ParentName                      | TeamID                       | 应用商店布局|部门：衣服|部门：食品|#Fresh 食品|#Frozen 食品|#Womenswear|
+| TargetName             | ParentName                      | TeamId                       | 应用商店布局|部门：衣服|部门：食品|#Fresh 食品|#Frozen 食品|#Womenswear|
 |------------------------|-------------------------|--------------------------------------|-------------|---|---|---|---|---|
 | 取回                 |                         | db23e6ba-04a6-412a-95e8-49e5b01943ba |||||||
 | 通讯         |                         | 145399ce-a761-4843-a110-3077249037fc |||||||
