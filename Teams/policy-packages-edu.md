@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或 EDU 设置中的策略，以及如何在 Microsoft Teams 中使用和管理策略包。
-ms.openlocfilehash: 7aab40ce5cd3e82d884faffea29c0a1f47be6d26
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: c602327321319c9924501d7879abcadf2a2c019e
+ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139225"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "44278185"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>面向教育的 Teams 策略和策略包
 
@@ -269,8 +269,14 @@ Microsoft Teams 当前包含以下策略包：
 - **允许匿名人员发起会议**：**关闭**
 - **自动允许人员**：**你所在组织中的所有人**
 - **允许拨号加入的用户绕过大厅**：**关闭**
+- <sup>1</sup>**DesignatedPresenterRoleMode**: **OrganizerOnlyUserOverride**
 
-### <a name="message-policies"></a>消息策略
+<sup>1</sup> 该设置不在 Microsoft Teams 管理中心中，因此你将需要使用 PowerShell 通过 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) 或 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) cmdlet 设置 **DesignatedPresenterRoleMode** 参数。 这将把 Teams“**会议选项**”中的“**谁可以参加?** 设置的默认值设置为“**只有我**”。 通过此设置，只有会议组织者可以成为演示者，所有其他会议参与者都将被指定为与会者。 若要了解详细信息，请参阅“[会议策略设置 - 指定的演示者角色模式](meeting-policies-in-teams.md#meeting-policy-settings---designated-presenter-role-mode)”。
+
+> [!NOTE]
+> 对于不是教师的教职员工，你可能希望将参数设置为 **EveryoneUserOverride**（对应于 Teams 中的“**每个人**”设置）或 **EveryoneInCompanyUserOverride**（对应于 Teams 中的“**我的组织中的人员**”设置。）
+
+### <a name="messaging-policies"></a>消息传递策略
 
 将“**所有者可以删除已发送的消息**”设置为“**打开**”时，教师能够监视聊天会话并删除频道会议中不适当的消息。
 
