@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
+ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042209"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "44321611"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -32,7 +32,7 @@ ms.locfileid: "44042209"
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Windows 版 Outlook 中的 Teams 会议加载项
 
-对于在其 Windows PC 上安装了 Microsoft Teams 和 Office 2010、Office 2013 或 Office 2016 的用户，会自动安装 Teams 会议加载项。 用户将在 Outlook 日历功能区看到 Teams 会议加载项。
+将为在 Windows 电脑上安装了 Microsoft 团队和 office 2013、Office 2016 或 Office 2019 的用户自动安装团队会议加载项。 用户将在 Outlook 日历功能区看到 Teams 会议加载项。
 
 ![Outlook 功能区中的 Teams 会议加载项屏幕截图](media/Teams-add-in-for-Outlook.png)
 
@@ -65,12 +65,12 @@ ms.locfileid: "44042209"
 用户单击“发送”后，会议协调（Teams 联接链接和拨入号码）将添加到会议邀请。****  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teams 会议加载项和 Outlook 的 FindTime
-FindTime 是帮助公司之间在会议时间上达成一致的 Outlook 加载项。 会议受邀者提供首选时间后，FindTime 将代表用户发出会议邀请。 若在 FindTime 中选择了“联机会议”选项，FindTime 将安排 Skype for Business 或 Microsoft Teams 会议。**** （FindTime 会将组织设置的内容用作默认的联机会议频道。）
+FindTime 是 Outlook 的加载项，可帮助用户在各公司的会议时间达成共识。 会议受邀者提供首选时间后，FindTime 将代表用户发出会议邀请。 若在 FindTime 中选择了“联机会议”选项，FindTime 将安排 Skype for Business 或 Microsoft Teams 会议。**** （FindTime 会将组织设置的内容用作默认的联机会议频道。）
 
 > [!NOTE]  
 > 若在 [Findtime 仪表板](https://findtime.microsoft.com/UserDashboard)中保存了 Skype for Business 设置，FindTime 将使用此设置，而不使用 Microsoft Teams。 若想要使用 Microsoft Teams，请在仪表板中删除 Skype for Business 设置。
 
-有关详细信息，请参阅[使用 FindTime 安排会议](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)。
+有关详细信息，请参阅[通过 FindTime 安排会议](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6)。
 
 ## <a name="authentication-requirements"></a>身份验证要求
 
@@ -128,7 +128,8 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 - 检查用户是否具有团队升级策略，该策略允许在团队中安排会议。 有关详细信息，请参阅[从 Skype For Business 升级到团队](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
 - 检查用户是否具有允许 Outlook 加载项使用的团队会议策略。 有关详细信息，请参阅[管理团队中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
 - 确保用户安装了团队桌面客户端。 如果仅使用团队 web 客户端，则不会安装会议外接程序。
-- 请确保用户具有执行 regsvr32 的权限。  有关详细信息，请查看https://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
+- 确保用户安装了 Outlook 2013 或更高版本。
+- 请确保用户具有执行 regsvr32 的权限。
 - 确保已应用 Outlook 桌面客户端的所有可用更新。
 - 请按以下步骤操作：
   - 重启 Teams 桌面客户端。
