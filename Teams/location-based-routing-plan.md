@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c3d5f4eb0cd63dd252d5fcc01bff21f8643a788
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: 6f72360f4462a64e357d58489aa70203bf10c532
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280271"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326639"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
@@ -252,7 +252,7 @@ ms.locfileid: "44280271"
 
 ### <a name="media-bypass-requirement-for-location-based-routing"></a>基于位置的路由的媒体绕过要求
 
-如果要在印度中部署基于位置的路由，则还需要配置 "绕过媒体"。 若要了解详细信息，请参阅[使用直接路由规划媒体旁路](direct-routing-plan-media-bypass.md)。
+如果要在印度中部署基于位置的路由，则还需要配置 "绕过媒体"。 若要了解详细信息，请参阅使用直接路由和[本地媒体优化进行](direct-routing-media-optimization.md)[媒体绕过的计划](direct-routing-plan-media-bypass.md)，直接路由。
 
 ## <a name="next-steps"></a>后续步骤
 

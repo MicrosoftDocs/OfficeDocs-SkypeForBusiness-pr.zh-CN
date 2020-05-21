@@ -21,12 +21,12 @@ description: 了解如何在 "团队教育版" 的 "Microsoft 团队管理中心
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78ce963b8d675aa6d5c851c1081472559d24c3a3
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 61caf4bc59387fd5c00cabf459976506b97ef9a0
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256447"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326759"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的分配
 
@@ -51,7 +51,7 @@ Microsoft MakeCode 是一种基于块的编码平台，让所有学生都能使�
 
 MakeCode 是一种受 Microsoft[使用条款](https://go.microsoft.com/fwlink/?LinkID=206977)和[隐私](https://go.microsoft.com/fwlink/?LinkId=521839)政策制约的 microsoft 产品。
 
-默认情况下，此设置处于关闭状态。 若要启用团队中的 MakeCode 作业，请在 "**团队管理中心**" 中，导航到 "**作业**" 部分，然后将 MakeCode 切换选项转换为 **"开**"。 单击 "**保存**"，并允许最多24小时才能使这些设置生效。
+默认情况下，此设置处于关闭状态。 若要启用团队中的 MakeCode 作业，请在 "**团队管理中心**" 中，导航到 "**作业**" 部分，然后将 MakeCode 切换选项转换为 **"开**"。 单击 "**保存**"，并允许几个小时才能使这些设置生效。
 
 有关此功能的工作原理的详细信息，请参阅此[视频演示](https://makecode.com/blog/teams/teams-assignments)。
 
@@ -82,6 +82,6 @@ TurnitinApiUrl 是您的管理员控制台的主机地址。
 按照提示操作后，将为您提供 TurnitinApiKey。 复制 API 密钥并将其粘贴到 Microsoft 团队管理中心。  这是唯一可以查看密钥的时候。
 ![显示复制 API 密钥的屏幕截图](./educationImages/Assignments_mopo_turnitin3.png)
 
-单击管理中心中的 "**保存**" 按钮以使用此设置后，这些设置的生效时间最多为24小时。
+单击管理中心中的 "**保存**" 按钮后，此设置才会生效。
 
 准备好开始使用团队中的 Turnitin 集成？ 注册[早期访问计划](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)。

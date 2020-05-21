@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b06e675e93dd022847fc7af202045c3ecdebe63
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341774"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326589"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 
@@ -51,7 +51,7 @@ Microsoft 团队允许组织向其用户提供目录的自定义视图。 Micros
 
 1. 使用信息屏障策略将组织配置为虚拟子组。 有关详细信息，请参阅[定义信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)。
 
-2. 在 "Microsoft 团队管理中心" 中，选择 "**组织范围设置** > "**团队设置**。
+2. 在 "Microsoft 团队管理中心" 中，选择 "**组织范围设置**"  >  **团队设置**。
 
 3. 在 "**搜索**" 下，在**使用 Exchange 通讯簿策略（ABP）的团队中的 "范围目录搜索**" 旁边，打开 "打开 **"。**
 
@@ -59,4 +59,4 @@ Microsoft 团队允许组织向其用户提供目录的自定义视图。 Micros
 
 
 > [!IMPORTANT]
-> 此更改可能需要长达24小时才能进行复制。
+> 此更改可能需要几个小时才能进行复制。

@@ -17,18 +17,18 @@ description: 了解如何创建你的第一个团队和通道、板载早期使�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 83f4e4cdff4515f89a5b3fe68c91d848f9ae5dda
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777837"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326449"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理来宾访问
 ======================================
 
 > [!IMPORTANT]
-> 最长可能需要等待 24 小时，更改才会生效。 
+> 您可能需要等待几个小时才能使所做的更改生效。 
 
 **来宾**是 microsoft 团队中的一种用户类型，其中包括所有 Microsoft 365 Business Standard、Office 365 企业版、Microsoft 365 Business Basic 和 Office 365 教育版订阅。 无需额外的 Office 365 许可证。 请阅读下面的有关[来宾访问许可](#guest-access-licensing-limits)的详细信息。
 
@@ -38,7 +38,7 @@ Teams 来宾访问是租户级别设置，默认情况下关闭。 有关如何�
     
 IT 管理员可以在租户级别添加来宾、设置和管理来宾用户策略和权限，以及获取有关来宾用户活动的报告。 这些控件在团队管理中心中可用。 来宾用户内容和活动与 Office 365 的其余部分具有相同的合规性和审核保护。
 
-团队所有者可以邀请新来宾，并将现有的目录来宾用户添加到团队管理中心中的团队。 在 "**团队** > **管理团队**" 页面上标识来宾用户，并在 "**组织范围设置** > **来宾访问**" 页面上为来宾设置与频道相关的功能。 设置包括允许来宾创建、更新和删除频道，如下图所示。
+团队所有者可以邀请新来宾，并将现有的目录来宾用户添加到团队管理中心中的团队。 在 "**团队**  >  **管理团队**" 页面上标识来宾用户，并在 "**组织范围设置**  >  **来宾访问**" 页面上为来宾设置与频道相关的功能。 设置包括允许来宾创建、更新和删除频道，如下图所示。
 
 ![团队中的来宾权限设置](media/manage-guest-access-image1.png)
   
@@ -64,7 +64,7 @@ Access 评论适用于 Azure AD 高级 P2 版本，它包含在 Microsoft 企业
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>使来宾访问设置生效的延隔时间
 
-对于 Azure Active Directory 中的来宾访问设置，在 Microsoft 365 或 Office 365 中，所做的更改将需要2-24 小时才能生效。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾功能尚未打开，或者设置尚未生效。 有关设置来宾访问时出现问题的帮助，请阅读[团队中的来宾访问的疑难解答](troubleshoot-guest-access.md)。
+对于 Azure Active Directory 中的来宾访问设置，需要几个小时才能使更改在 Microsoft 365 或 Office 365 中生效。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾功能尚未打开，或者设置尚未生效。 有关设置来宾访问时出现问题的帮助，请阅读[团队中的来宾访问的疑难解答](troubleshoot-guest-access.md)。
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>外部访问（联合身份验证）与来宾访问

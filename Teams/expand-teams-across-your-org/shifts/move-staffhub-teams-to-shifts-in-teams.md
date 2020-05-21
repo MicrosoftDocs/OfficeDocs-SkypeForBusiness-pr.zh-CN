@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e0bf24c32854ddf2498b8a00874ad1d358c8fb8a
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780621"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326789"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>将 Microsoft StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -91,7 +91,7 @@ ms.locfileid: "43780621"
 
 每个用户都必须具有[符合条件的计划](microsoft-staffhub-to-be-retired.md#which-plans-is-shifts-available-in)的活动 Microsoft 365 或 Office 365 许可证，并且必须分配有团队许可证。 为用户分配团队许可证后，他们可以访问团队。
 
-可在 Microsoft 365 管理中心内管理团队许可证。 若要了解详细信息，请参阅[管理用户对团队的访问权限](../../user-access.md)。
+可在 Microsoft 365 管理中心内管理团队许可证。 若要了解详细信息，请参阅[管理用户对 Teams 的访问权限](../../user-access.md)。
 
 > [!NOTE]
 > 如果你的组织使用 Skype for Business，并且尚未准备好将所有用户移到团队，你可以为你的一线工作人员启用团队，然后将团队与 Skype for Business 一起运行。 在此共存模式（名为 "*岛*"）中，每个客户端应用都作为单独的解决方案运行。 若要了解详细信息，请参阅[了解团队和 Skype for business 共存和互操作性](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
@@ -156,7 +156,7 @@ $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation
 
 团队包含内置的 FirstlineWorker 应用设置策略，可用于自定义团队，以突出显示对于组织中的一线工作人员而言最重要的应用。 向用户分配此策略时，策略中的应用将固定到团队中的应用栏，以便快速轻松地访问。 添加到团队的其他应用可以通过单击 "..." 在应用栏中找到 **。** 团队桌面和 web 客户端中的更多应用，并可通过团队移动客户端向上轻扫。 默认情况下，FirstlineWorker 应用设置策略包括活动、班次、聊天和调用应用。
 
-有关如何将 FirstlineWorker 应用设置策略分配给用户的步骤，请参阅[使用 FirstlineWorker 应用设置策略固定对团队的倒班](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)。 分配策略后，可能需要长达24小时才能生效。
+有关如何将 FirstlineWorker 应用设置策略分配给用户的步骤，请参阅[使用 FirstlineWorker 应用设置策略固定对团队的倒班](manage-the-shifts-app-for-your-organization-in-teams.md#use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams)。 分配策略后，可能需要几个小时才能生效。
 
 我们建议您至少一周完成此步骤，然后再将 StaffHub 团队和用户移到团队。 当用户位于团队中时，请确认他们可以查看和访问 "倒班" 应用。
 
@@ -300,7 +300,7 @@ JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f10
 Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-在之前运行的`Get-StaffHubteamsForTenant` cmdlet 返回的结果中，选择要移动的团队 id，然后将其添加到逗号分隔值（CSV）文件。
+在之前运行的 cmdlet 返回的结果中 `Get-StaffHubteamsForTenant` ，选择要移动的团队 id，然后将其添加到逗号分隔值（CSV）文件。
 
 下面是如何设置 CSV 文件格式的示例。
 

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 3cbf3ec38876d57fe1c2b8ac61abf5b86d5c2106
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064477"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326769"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -58,7 +58,7 @@ ms.locfileid: "44064477"
 
 你可以使用 Microsoft 团队管理中心创建自定义策略。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **设置策略**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **设置策略**"。
 2. 单击“添加”****。
     ![显示 "添加应用设置策略" 页面的屏幕截图](media/app-setup-policies-add.png)
 3. 输入策略的名称和说明。
@@ -86,7 +86,7 @@ ms.locfileid: "44064477"
 
 你可以使用 Microsoft 团队管理中心编辑策略，包括全局（组织范围默认）策略和你创建的自定义策略。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **设置策略**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **设置策略**"。
 2. 通过单击策略名称左侧，然后单击 "**编辑**"，选择策略。
 3. 在此处进行所需的更改。
 4. 单击“**保存**”。
@@ -105,7 +105,7 @@ ms.locfileid: "44064477"
 
 或者，您也可以执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **设置策略**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **设置策略**"。
 2. 单击策略名称的左侧以选择该策略。
 3. 选择“管理用户”****。
 4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
@@ -161,7 +161,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>策略更改需要多长时间才能生效？
 
-编辑全局策略或分配策略后，所做的更改可能需要长达24小时才能生效。
+编辑全局策略或分配策略后，可能需要几个小时才能使更改生效。
 
 ### <a name="user-experience"></a>用户体验
 

@@ -23,19 +23,19 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 7c3c7958994c50e1ae0e90ed13437601dabc0688
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a0002ed8312f2a100ab61aa98923c7f4aeb0dc26
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140653"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326779"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
 > [!NOTE]
 > 若要使用应用 Studio，请参阅[Microsoft 团队平台上使用 c #/.NET 和应用 studio 的入门](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio)。最后一步尚不起作用，因此你需要下载 zip 并在将[应用包上载到 Microsoft 团队](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload)时以旧方式安装它。
 
-作为管理员，你可以使用自定义应用策略和设置来控制你的组织中哪些人可以将自定义应用上载到 Microsoft 团队。 管理员决定哪些用户可以上载自定义应用，管理员和团队所有者可以确定你的组织中的特定团队是否允许将自定义应用添加到其中。  编辑自定义应用策略后，所做的更改可能需要长达24小时才能生效。 您必须是全局管理员或团队服务管理员才能管理这些策略。
+作为管理员，你可以使用自定义应用策略和设置来控制你的组织中哪些人可以将自定义应用上载到 Microsoft 团队。 管理员决定哪些用户可以上载自定义应用，管理员和团队所有者可以确定你的组织中的特定团队是否允许将自定义应用添加到其中。  编辑自定义应用策略后，更改可能需要几个小时才能生效。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
 ## <a name="overview-of-custom-apps"></a>自定义应用概述
 
@@ -72,7 +72,7 @@ ms.locfileid: "43140653"
 
 #### <a name="set-a-user-custom-app-policy"></a>设置用户自定义应用策略
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **设置策略**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **设置策略**"。
 2. 单击“添加”****。
 3. 打开或关闭 "**上载自定义应用**"。
 4. 为策略选择所需的任何其他设置。
@@ -94,7 +94,7 @@ ms.locfileid: "43140653"
 
 #### <a name="configure-the-team-custom-app-setting"></a>配置团队自定义应用设置
 
-1. 在团队中，转到团队，单击 "**更多选项" ̇̇̇** > "**管理团队**"。
+1. 在团队中，转到团队，单击 "**更多选项" ̇̇̇**"  >  **管理团队**"。
 2. 单击 "**设置**"，然后展开 "**成员权限**"。
 3. 选中或清除 "**允许成员上载自定义应用**" 复选框。
 
@@ -106,7 +106,7 @@ ms.locfileid: "43140653"
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>配置组织范围的自定义应用设置
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **管理应用**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **管理应用**"。
 2. 单击 "**组织范围的应用设置**"。
 3. 在 "**自定义应用**" 下，打开或关闭 "**允许与自定义应用交互**"。
 

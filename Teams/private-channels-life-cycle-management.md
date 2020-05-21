@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理组织中专用频道的生命周期。
-ms.openlocfilehash: 154cde6ad8371b2d9f902bf3803f48e72ade0a77
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321693"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326689"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 团队中管理专用频道的生命周期
 
@@ -180,7 +180,11 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 你可能希望列出专用通道的所有者和成员，以确定是否需要将专用通道的某些成员提升为所有者。 如果您拥有已离开组织的专用频道的所有者，并且专用频道需要管理员帮助来声明频道所有权，则可能会发生这种情况。
 
-作为管理员，你可以使用 PowerShell 或图形 Api 命令查询这些 Url。
+作为管理员，你可以使用 Microsoft 团队管理中心、PowerShell 或图形 API 来执行这些操作。
+
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
+
+若要了解如何使用 Microsoft 团队管理中心管理团队成员，请参阅[管理 Microsoft 团队管理中心中的团队](manage-teams-in-modern-portal.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

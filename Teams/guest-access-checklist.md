@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04627c74528972aad69b1e810e222f55cae49588
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9d91731792dd049f76d781c4a0be08e92d09e0bb
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902577"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326599"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 来宾访问清单
 =========================================
@@ -39,7 +39,7 @@ ms.locfileid: "43902577"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>步骤 1：在 Teams 组织范围内级别启用来宾访问
 
-要启用来宾访问，请转至 **Microsoft Teams 管理中心**。 
+若要启用来宾访问，请转到管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。 
 
 1. 在 Teams 管理中心中，选择“**组织范围的设置**” > “**来宾访问**”。
 2. 将“**在 Microsoft Teams 中允许来宾访问**”开关设置为“**打开**”。
@@ -78,7 +78,7 @@ ms.locfileid: "43902577"
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>步骤3：配置 Microsoft 365 组
 
-1. 在 Microsoft 365 管理中心，转到 "**设置** > "**设置**，单击 "**服务**"，然后选择 " **Microsoft 365 组**"。
+1. 在 Microsoft 365 管理中心，转到 "**设置**  >  "**设置**，单击 "**服务**"，然后选择 " **Microsoft 365 组**"。
 
      ![屏幕截图显示 Microsoft 365 组设置](media/guest-access-checklist-services-settings.png)
 2. 确保已选中“**允许组织外部的组成员访问组内容**”复选框。 如果未选中此设置，则来宾无法访问任何组内容。
