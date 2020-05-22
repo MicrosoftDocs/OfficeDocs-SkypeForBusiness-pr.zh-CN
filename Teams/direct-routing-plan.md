@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft Phone 系统直接路由如何让你将受支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: 7d5a69ff3b0533d17d6582489fad6e156d8df1c7
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 14b14302aa3f75a164e6e6dbbef5cc91fc2b47cf
+ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785935"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "44338232"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -73,7 +73,7 @@ Microsoft 还提供了所有云语音解决方案，例如呼叫计划。 但是
 |连接到 SBC 的电话中继|一个或多个电话中继连接到 SBC。 一端，SBC 通过直接路由连接到 Microsoft 手机系统。 SBC 还可以连接到第三方电话实体，如 Pbx、模拟电话适配器等。 任何连接到 SBC 的 PSTN 连接选项都将正常工作。 （有关将 PSTN 中继到 SBC 的配置，请参阅 SBC 供应商或主干提供商。）|
 |Office 365 组织|用于家庭 Microsoft 团队用户的 Office 365 组织以及与 SBC 的配置和连接。|
 |用户注册机构|用户必须托管在 Office 365 中。<br/>如果你的公司有一个本地 Skype for Business 或 Lync 环境以及与 Office 365 的混合连接，则无法为驻留在本地的用户启用团队中的语音。<br/><br/>若要检查用户的注册机构，请使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>该 cmdlet 的输出应显示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|域|添加到您的 Office 365 组织的一个或多个域。<br/><br/>请注意，你无法使用为你的\*租户自动创建的默认域 onmicrosoft.com。<br/><br/>若要查看域，您可以使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有关域和 Office 365 组织的详细信息，请参阅[域常见问题解答](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
+|域|添加到您的 Office 365 组织的一个或多个域。<br/><br/>请注意，你无法使用 \* 为你的租户自动创建的默认域 onmicrosoft.com。<br/><br/>若要查看域，您可以使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有关域和 Office 365 组织的详细信息，请参阅[域常见问题解答](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |SBC 的公共 IP 地址|可用于连接到 SBC 的公共 IP 地址。 SBC 可以使用 NAT，具体取决于 SBC 的类型。|
 |适用于 SBC 的完全限定的域名（FQDN）|SBC 的 FQDN，其中 FQDN 的域部分是 Office 365 组织中的注册域之一。 有关详细信息，请参阅[SBC 域名](#sbc-domain-names)。|
 |SBC 的公共 DNS 条目 |将 SBC FQDN 映射到公共 IP 地址的公共 DNS 条目。 |
@@ -132,7 +132,7 @@ Microsoft 还提供了所有云语音解决方案，例如呼叫计划。 但是
 
 ## <a name="sbc-domain-names"></a>SBC 域名称
 
-SBC 域名必须来自租户域中注册的一个名称。 不能将\*onmicrosoft.com 租户用于 SBC 的 FQDN 名称。
+SBC 域名必须来自租户域中注册的一个名称。 不能将 \* onmicrosoft.com 租户用于 SBC 的 FQDN 名称。
 
 下表显示为租户注册的 DNS 名称的示例、该名称是否可以用作 SBC 的 FQDN 以及有效 FQDN 名称的示例：
 
@@ -155,9 +155,9 @@ Microsoft 建议你通过生成证书签名请求（CSR）来请求 SBC 的证�
   > [!NOTE]
   > 大多数证书颁发机构（Ca）要求私钥大小至少为2048。 在生成 CSR 时请记住这一点。
 
-证书需要在 "主题"、"公用名" 或 "使用者备用名称" 字段中具有 SBC FQDN。
+证书需要将 SBC FQDN 用作 "主题" 字段中的公用名（CN）。
 
-或者，直接路由支持 SAN 中的通配符，并且通配符需要符合 TLS 上的标准[RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)。 SAN 中将使用\*contoso.com，这将与 SBC FQDN sbc.contoso.com 相匹配，但与 sbc.test.contoso.com 不匹配。
+或者，直接路由支持 SAN 中的通配符，并且通配符需要符合 TLS 上的标准[RFC HTTP](https://tools.ietf.org/html/rfc2818#section-3.1)。 \*SAN 中将使用 contoso.com，这将与 SBC FQDN sbc.contoso.com 相匹配，但与 sbc.test.contoso.com 不匹配。
 
 证书需要由以下根证书颁发机构之一生成：
 
@@ -280,7 +280,7 @@ SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 
 
 
-媒体流量从 Microsoft 云中单独的服务流出。 媒体流量的 IP 范围如下所示。
+媒体流量从 Microsoft 云中单独的服务流出。 媒体流量的 IP 地址范围如下所示。
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
 

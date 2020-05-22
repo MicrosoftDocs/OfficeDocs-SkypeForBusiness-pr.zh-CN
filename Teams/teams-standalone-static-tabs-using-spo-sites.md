@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 获取现有 SharePoint Online 网站或页面，并创建一个可用作组织 Intranet 门户的独立静态选项卡。
 localization_priority: Priority
-ms.openlocfilehash: 63527cb3cccc5f882f44ff39911d33270bafb4c8
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: 4777b744d76415f45718cb274f402556e1e28240
+ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207071"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44326579"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>从 SharePoint Online 网站或页面创建 Teams Intranet 门户应用
 
@@ -96,7 +96,7 @@ ms.locfileid: "43207071"
 
 若要在 Teams 桌面上查看新选项卡，请导航至应用栏左侧的省略号 (**…**)。 查找新应用程序、加载、然后在 Teams 中测试你的独立应用。
 
-如果要使新应用在更高位置的左侧菜单中可用，必须为其使用应用程序策略设置。 可以在“团队管理员”部分 > “应用策略” > “添加固定应用”下找到此设置。 将策略分配给用户进行测试时，更改将在 24 小时后显示。 考虑到这一点，请确定应尽早在哪里显示此应用程序，以帮助避免延迟。
+如果要使新应用在更高位置的左侧菜单中可用，必须为其使用应用程序策略设置。 可以在“团队管理员”部分 > “应用策略” > “添加固定应用”下找到此设置。 将策略分配给用户进行测试时，更改将在几个小时后显示。 考虑到这一点，请确定应尽早在哪里显示此应用程序，以帮助避免延迟。
 
 如果要在移动设备上查看和测试新应用，请点击屏幕底部附近选项卡栏上方的人字形(**^**)，打开应用列表。 查找你的应用程序，然后在移动设备上导航到此应用。
 
