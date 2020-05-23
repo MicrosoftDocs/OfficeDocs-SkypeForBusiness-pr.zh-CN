@@ -16,77 +16,84 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中创建和管理语音路由策略。
-ms.openlocfilehash: 7fa2530e170d398598e56d4b4f846cc316871b16
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44160966"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350186"
 ---
-# <a name="manage-voice-routing-policies-in-microsoft-teams"></a><span data-ttu-id="e81d1-103">管理 Microsoft 团队中的语音路由策略</span><span class="sxs-lookup"><span data-stu-id="e81d1-103">Manage voice routing policies in Microsoft Teams</span></span>
+# <a name="manage-voice-routing-policies-in-microsoft-teams"></a><span data-ttu-id="b53fc-103">管理 Microsoft 团队中的语音路由策略</span><span class="sxs-lookup"><span data-stu-id="b53fc-103">Manage voice routing policies in Microsoft Teams</span></span>
 
-<span data-ttu-id="e81d1-104">如果你已在组织中部署了[手机系统直接路由](direct-routing-landing-page.md)，则使用语音路由策略允许团队和 Skype For business Online 用户使用本地电话基础结构接收和拨打电话给公共交换电话网络（PSTN）。</span><span class="sxs-lookup"><span data-stu-id="e81d1-104">If you've deployed [Phone System Direct Routing](direct-routing-landing-page.md) in your organization, you use voice routing policies to allow Teams and Skype for Business Online users to receive and make phone calls to the Public Switched Telephone Network (PSTN) using your on-premises telephony infrastructure.</span></span>
+<span data-ttu-id="b53fc-104">如果你已在组织中部署了[手机系统直接路由](direct-routing-landing-page.md)，则使用语音路由策略允许团队和 Skype For business Online 用户使用本地电话基础结构接收和拨打电话给公共交换电话网络（PSTN）。</span><span class="sxs-lookup"><span data-stu-id="b53fc-104">If you've deployed [Phone System Direct Routing](direct-routing-landing-page.md) in your organization, you use voice routing policies to allow Teams and Skype for Business Online users to receive and make phone calls to the Public Switched Telephone Network (PSTN) using your on-premises telephony infrastructure.</span></span>
 
-<span data-ttu-id="e81d1-105">"语音路由策略" 是 PSTN 使用记录的容器。</span><span class="sxs-lookup"><span data-stu-id="e81d1-105">A voice routing policy is a container for PSTN usage records.</span></span> <span data-ttu-id="e81d1-106">通过转到 Microsoft 团队管理中心或使用 Windows PowerShell 中的**语音** > **语音路由策略**来创建和管理语音路由策略。</span><span class="sxs-lookup"><span data-stu-id="e81d1-106">You create and manage voice routing policies by going to **Voice** > **Voice routing policies** in the Microsoft Teams admin center or by using Windows PowerShell.</span></span>
+<span data-ttu-id="b53fc-105">"语音路由策略" 是 PSTN 使用记录的容器。</span><span class="sxs-lookup"><span data-stu-id="b53fc-105">A voice routing policy is a container for PSTN usage records.</span></span> <span data-ttu-id="b53fc-106">通过转到**Voice**  >  Microsoft 团队管理中心或使用 Windows PowerShell 中的语音**语音路由策略**来创建和管理语音路由策略。</span><span class="sxs-lookup"><span data-stu-id="b53fc-106">You create and manage voice routing policies by going to **Voice** > **Voice routing policies** in the Microsoft Teams admin center or by using Windows PowerShell.</span></span>
 
-<span data-ttu-id="e81d1-107">你可以使用全局（组织范围默认）策略或创建并分配自定义策略。</span><span class="sxs-lookup"><span data-stu-id="e81d1-107">You can use the global (Org-wide default) policy or create and assign custom policies.</span></span> <span data-ttu-id="e81d1-108">除非你创建并分配自定义策略，否则用户将自动获取全局策略。</span><span class="sxs-lookup"><span data-stu-id="e81d1-108">Users will automatically get the global policy unless you create and assign a custom policy.</span></span> <span data-ttu-id="e81d1-109">请记住，你可以编辑全局策略中的设置，但不能重命名或删除它。</span><span class="sxs-lookup"><span data-stu-id="e81d1-109">Keep in mind that you can edit the settings in the global policy but you can't rename or delete it.</span></span>
+<span data-ttu-id="b53fc-107">你可以使用全局（组织范围默认）策略或创建并分配自定义策略。</span><span class="sxs-lookup"><span data-stu-id="b53fc-107">You can use the global (Org-wide default) policy or create and assign custom policies.</span></span> <span data-ttu-id="b53fc-108">除非你创建并分配自定义策略，否则用户将自动获取全局策略。</span><span class="sxs-lookup"><span data-stu-id="b53fc-108">Users will automatically get the global policy unless you create and assign a custom policy.</span></span> <span data-ttu-id="b53fc-109">请记住，你可以编辑全局策略中的设置，但不能重命名或删除它。</span><span class="sxs-lookup"><span data-stu-id="b53fc-109">Keep in mind that you can edit the settings in the global policy but you can't rename or delete it.</span></span>
 
-<span data-ttu-id="e81d1-110">请务必知道，向用户分配语音路由策略不会使其能够在团队中进行 PSTN 呼叫。</span><span class="sxs-lookup"><span data-stu-id="e81d1-110">It's important to know that assigning a voice routing policy to a user doesn't enable them to make PSTN calls in Teams.</span></span> <span data-ttu-id="e81d1-111">您还需要为用户启用 "电话系统直接路由"，并完成其他配置步骤。</span><span class="sxs-lookup"><span data-stu-id="e81d1-111">You'll also need to enable the user for Phone System Direct Routing and complete other configuration steps.</span></span> <span data-ttu-id="e81d1-112">若要了解详细信息，请参阅[配置直接路由](direct-routing-configure.md)。</span><span class="sxs-lookup"><span data-stu-id="e81d1-112">To learn more, see [Configure Direct Routing](direct-routing-configure.md).</span></span>
+<span data-ttu-id="b53fc-110">请务必知道，向用户分配语音路由策略不会使其能够在团队中进行 PSTN 呼叫。</span><span class="sxs-lookup"><span data-stu-id="b53fc-110">It's important to know that assigning a voice routing policy to a user doesn't enable them to make PSTN calls in Teams.</span></span> <span data-ttu-id="b53fc-111">您还需要为用户启用 "电话系统直接路由"，并完成其他配置步骤。</span><span class="sxs-lookup"><span data-stu-id="b53fc-111">You'll also need to enable the user for Phone System Direct Routing and complete other configuration steps.</span></span> <span data-ttu-id="b53fc-112">若要了解详细信息，请参阅[配置直接路由](direct-routing-configure.md)。</span><span class="sxs-lookup"><span data-stu-id="b53fc-112">To learn more, see [Configure Direct Routing](direct-routing-configure.md).</span></span>
 
-## <a name="create-a-custom-voice-routing-policy"></a><span data-ttu-id="e81d1-113">创建自定义语音路由策略</span><span class="sxs-lookup"><span data-stu-id="e81d1-113">Create a custom voice routing policy</span></span>
+## <a name="create-a-custom-voice-routing-policy"></a><span data-ttu-id="b53fc-113">创建自定义语音路由策略</span><span class="sxs-lookup"><span data-stu-id="b53fc-113">Create a custom voice routing policy</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="e81d1-114">使用 Microsoft Teams 管理中心</span><span class="sxs-lookup"><span data-stu-id="e81d1-114">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="b53fc-114">使用 Microsoft Teams 管理中心</span><span class="sxs-lookup"><span data-stu-id="b53fc-114">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="e81d1-115">在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **语音路由策略**"，然后单击 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="e81d1-115">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.</span></span><br>
-    <span data-ttu-id="e81d1-116">![Microsoft 团队管理中心中 "添加语音路由策略" 页面的屏幕截图](media/manage-voice-routing-policies.png)</span><span class="sxs-lookup"><span data-stu-id="e81d1-116">![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center ](media/manage-voice-routing-policies.png)</span></span> 
-2. <span data-ttu-id="e81d1-117">输入策略的名称和说明。</span><span class="sxs-lookup"><span data-stu-id="e81d1-117">Enter a name and description for the policy.</span></span>
-3. <span data-ttu-id="e81d1-118">在 " **PSTN 使用记录**" 下，单击 "**添加 PSTN 使用情况**"，然后选择要添加的记录。</span><span class="sxs-lookup"><span data-stu-id="e81d1-118">Under **PSTN usage records**, click **Add PSTN usage**, and then select the records that you want to add.</span></span> <span data-ttu-id="e81d1-119">如果需要创建新的 PSTN 使用记录，请单击 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="e81d1-119">If you need to create a new PSTN usage record, click **Add**.</span></span>
-4. <span data-ttu-id="e81d1-120">如果您添加了多个 PSTN 使用记录，请按所需顺序排列它们。</span><span class="sxs-lookup"><span data-stu-id="e81d1-120">If you added multiple PSTN usage records, arrange them in the order that you want.</span></span>
-5. <span data-ttu-id="e81d1-121">完成后，单击 "**应用**"。</span><span class="sxs-lookup"><span data-stu-id="e81d1-121">When you're done, click **Apply**.</span></span>
-6. <span data-ttu-id="e81d1-122">单击“**保存**”。</span><span class="sxs-lookup"><span data-stu-id="e81d1-122">Click **Save**.</span></span>
+1. <span data-ttu-id="b53fc-115">在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **语音路由策略**"，然后单击 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-115">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**, and then click **Add**.</span></span><br>
+    <span data-ttu-id="b53fc-116">![Microsoft 团队管理中心中 "添加语音路由策略" 页面的屏幕截图](media/manage-voice-routing-policies.png)</span><span class="sxs-lookup"><span data-stu-id="b53fc-116">![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center ](media/manage-voice-routing-policies.png)</span></span> 
+2. <span data-ttu-id="b53fc-117">输入策略的名称和说明。</span><span class="sxs-lookup"><span data-stu-id="b53fc-117">Enter a name and description for the policy.</span></span>
+3. <span data-ttu-id="b53fc-118">在 " **PSTN 使用记录**" 下，单击 "**添加 PSTN 使用情况**"，然后选择要添加的记录。</span><span class="sxs-lookup"><span data-stu-id="b53fc-118">Under **PSTN usage records**, click **Add PSTN usage**, and then select the records that you want to add.</span></span> <span data-ttu-id="b53fc-119">如果需要创建新的 PSTN 使用记录，请单击 "**添加**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-119">If you need to create a new PSTN usage record, click **Add**.</span></span>
+4. <span data-ttu-id="b53fc-120">如果您添加了多个 PSTN 使用记录，请按所需顺序排列它们。</span><span class="sxs-lookup"><span data-stu-id="b53fc-120">If you added multiple PSTN usage records, arrange them in the order that you want.</span></span>
+5. <span data-ttu-id="b53fc-121">完成后，单击 "**应用**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-121">When you're done, click **Apply**.</span></span>
+6. <span data-ttu-id="b53fc-122">单击“**保存**”。</span><span class="sxs-lookup"><span data-stu-id="b53fc-122">Click **Save**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="e81d1-123">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="e81d1-123">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="b53fc-123">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="b53fc-123">Using PowerShell</span></span>
 
-<span data-ttu-id="e81d1-124">请参阅[新-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="e81d1-124">See [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).</span></span>
+<span data-ttu-id="b53fc-124">请参阅[新-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="b53fc-124">See [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).</span></span>
 
-## <a name="edit-a-voice-routing-policy"></a><span data-ttu-id="e81d1-125">编辑语音路由策略</span><span class="sxs-lookup"><span data-stu-id="e81d1-125">Edit a voice routing policy</span></span>
+## <a name="edit-a-voice-routing-policy"></a><span data-ttu-id="b53fc-125">编辑语音路由策略</span><span class="sxs-lookup"><span data-stu-id="b53fc-125">Edit a voice routing policy</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="e81d1-126">使用 Microsoft Teams 管理中心</span><span class="sxs-lookup"><span data-stu-id="e81d1-126">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="b53fc-126">使用 Microsoft Teams 管理中心</span><span class="sxs-lookup"><span data-stu-id="b53fc-126">Using the Microsoft Teams admin center</span></span>
 
-<span data-ttu-id="e81d1-127">你可以编辑全局策略或你创建的任何自定义策略。</span><span class="sxs-lookup"><span data-stu-id="e81d1-127">You can edit the global policy or any custom policies that you create.</span></span>
+<span data-ttu-id="b53fc-127">你可以编辑全局策略或你创建的任何自定义策略。</span><span class="sxs-lookup"><span data-stu-id="b53fc-127">You can edit the global policy or any custom policies that you create.</span></span>
 
-1. <span data-ttu-id="e81d1-128">在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **语音路由策略**"。</span><span class="sxs-lookup"><span data-stu-id="e81d1-128">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**.</span></span>
-2. <span data-ttu-id="e81d1-129">通过单击策略名称左侧，然后单击 "**编辑**"，选择策略。</span><span class="sxs-lookup"><span data-stu-id="e81d1-129">Select the policy by clicking to the left of the policy name, and then click **Edit**.</span></span>
-3. <span data-ttu-id="e81d1-130">单击 "**添加/删除 PSTN 使用记录**"，进行所需的更改，然后单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="e81d1-130">Click **Add/remove PSTN usage records**, make the changes that you want, and then click **Save**.</span></span>
+1. <span data-ttu-id="b53fc-128">在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **语音路由策略**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-128">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**.</span></span>
+2. <span data-ttu-id="b53fc-129">通过单击策略名称左侧，然后单击 "**编辑**"，选择策略。</span><span class="sxs-lookup"><span data-stu-id="b53fc-129">Select the policy by clicking to the left of the policy name, and then click **Edit**.</span></span>
+3. <span data-ttu-id="b53fc-130">单击 "**添加/删除 PSTN 使用记录**"，进行所需的更改，然后单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-130">Click **Add/remove PSTN usage records**, make the changes that you want, and then click **Save**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="e81d1-131">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="e81d1-131">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="b53fc-131">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="b53fc-131">Using PowerShell</span></span>
 
-<span data-ttu-id="e81d1-132">请参阅[设置-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceroutingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="e81d1-132">See [Set-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceroutingpolicy).</span></span>
+<span data-ttu-id="b53fc-132">请参阅[设置-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceroutingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="b53fc-132">See [Set-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceroutingpolicy).</span></span>
 
-## <a name="assign-a-custom-voice-routing-policy-to-users"></a><span data-ttu-id="e81d1-133">为用户分配自定义语音路由策略</span><span class="sxs-lookup"><span data-stu-id="e81d1-133">Assign a custom voice routing policy to users</span></span>
+## <a name="assign-a-custom-voice-routing-policy-to-users"></a><span data-ttu-id="b53fc-133">为用户分配自定义语音路由策略</span><span class="sxs-lookup"><span data-stu-id="b53fc-133">Assign a custom voice routing policy to users</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="e81d1-134">使用 Microsoft Teams 管理中心</span><span class="sxs-lookup"><span data-stu-id="e81d1-134">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="b53fc-134">使用 Microsoft Teams 管理中心</span><span class="sxs-lookup"><span data-stu-id="b53fc-134">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="e81d1-135">在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。\*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="e81d1-135">In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.</span></span>
-2. <span data-ttu-id="e81d1-136">单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。</span><span class="sxs-lookup"><span data-stu-id="e81d1-136">Click **Policies**, and then next to **Assigned policies**, click **Edit**.</span></span>
-3. <span data-ttu-id="e81d1-137">在 "**语音路由策略**" 下，选择要分配的策略，然后单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="e81d1-137">Under **Voice routing policy**, select the policy you want to assign, and then click **Save**.</span></span>
+<span data-ttu-id="b53fc-135">若要向一个用户分配策略，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="b53fc-135">To assign a policy to one user:</span></span>
 
-<span data-ttu-id="e81d1-138">若要一次为多个用户分配自定义团队策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。</span><span class="sxs-lookup"><span data-stu-id="e81d1-138">To assign a custom teams policy to multiple users at a time, see [Edit Teams user settings in bulk](edit-user-settings-in-bulk.md).</span></span>
+1. <span data-ttu-id="b53fc-136">在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。\*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="b53fc-136">In the left navigation of the Microsoft Teams admin center, go to **Users**, and then click the user.</span></span>
+2. <span data-ttu-id="b53fc-137">单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-137">Click **Policies**, and then next to **Assigned policies**, click **Edit**.</span></span>
+3. <span data-ttu-id="b53fc-138">在 "**语音路由策略**" 下，选择要分配的策略，然后单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-138">Under **Voice routing policy**, select the policy you want to assign, and then click **Save**.</span></span>
 
-<span data-ttu-id="e81d1-139">或者，您也可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="e81d1-139">Or, you can also do the following:</span></span>
+<span data-ttu-id="b53fc-139">要一次为多个用户分配策略，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="b53fc-139">To assign a policy to multiple users at a time:</span></span>
 
-1. <span data-ttu-id="e81d1-140">在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **语音路由策略**"。</span><span class="sxs-lookup"><span data-stu-id="e81d1-140">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**.</span></span>
-2. <span data-ttu-id="e81d1-141">单击策略名称的左侧以选择该策略。</span><span class="sxs-lookup"><span data-stu-id="e81d1-141">Select the policy by clicking to the left of the policy name.</span></span>
-3. <span data-ttu-id="e81d1-142">选择“管理用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="e81d1-142">Select **Manage users**.</span></span>
-4. <span data-ttu-id="e81d1-143">在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。</span><span class="sxs-lookup"><span data-stu-id="e81d1-143">In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**.</span></span> <span data-ttu-id="e81d1-144">对想要添加的每一个用户重复此步骤。</span><span class="sxs-lookup"><span data-stu-id="e81d1-144">Repeat this step for each user that you want to add.</span></span>
-5. <span data-ttu-id="e81d1-145">添加完用户后，单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="e81d1-145">When you're finished adding users, click **Save**.</span></span>
+1. <span data-ttu-id="b53fc-140">在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。</span><span class="sxs-lookup"><span data-stu-id="b53fc-140">In the left navigation of the Microsoft Teams admin center, go to **Users**, and then search for the users or filter the view to show the users you want.</span></span>
+2. <span data-ttu-id="b53fc-141">在 " **&#x2713;** " （复选标记）列中，选择用户。</span><span class="sxs-lookup"><span data-stu-id="b53fc-141">In the **&#x2713;** (check mark) column, select the users.</span></span> <span data-ttu-id="b53fc-142">若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。</span><span class="sxs-lookup"><span data-stu-id="b53fc-142">To select all users, click the &#x2713; (check mark) at the top of the table.</span></span>
+3. <span data-ttu-id="b53fc-143">单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-143">Click **Edit settings**, make the changes that you want, and then click **Apply**.</span></span>  
 
-### <a name="using-powershell"></a><span data-ttu-id="e81d1-146">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="e81d1-146">Using PowerShell</span></span>
+<span data-ttu-id="b53fc-144">或者，您也可以执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="b53fc-144">Or, you can also do the following:</span></span>
 
-<span data-ttu-id="e81d1-147">请参阅[授权-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="e81d1-147">See [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).</span></span>
+1. <span data-ttu-id="b53fc-145">在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **语音路由策略**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-145">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Voice routing policies**.</span></span>
+2. <span data-ttu-id="b53fc-146">单击策略名称的左侧以选择该策略。</span><span class="sxs-lookup"><span data-stu-id="b53fc-146">Select the policy by clicking to the left of the policy name.</span></span>
+3. <span data-ttu-id="b53fc-147">选择“管理用户”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="b53fc-147">Select **Manage users**.</span></span>
+4. <span data-ttu-id="b53fc-148">在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。</span><span class="sxs-lookup"><span data-stu-id="b53fc-148">In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**.</span></span> <span data-ttu-id="b53fc-149">对想要添加的每一个用户重复此步骤。</span><span class="sxs-lookup"><span data-stu-id="b53fc-149">Repeat this step for each user that you want to add.</span></span>
+5. <span data-ttu-id="b53fc-150">添加完用户后，单击 "**保存**"。</span><span class="sxs-lookup"><span data-stu-id="b53fc-150">When you're finished adding users, click **Save**.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="e81d1-148">相关主题</span><span class="sxs-lookup"><span data-stu-id="e81d1-148">Related topics</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="b53fc-151">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="b53fc-151">Using PowerShell</span></span>
 
-- [<span data-ttu-id="e81d1-149">Teams PowerShell 概览</span><span class="sxs-lookup"><span data-stu-id="e81d1-149">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
-- [<span data-ttu-id="e81d1-150">为直接路由配置语音路由</span><span class="sxs-lookup"><span data-stu-id="e81d1-150">Configure voice routing for Direct Routing</span></span>](direct-routing-voice-routing.md)
-- [<span data-ttu-id="e81d1-151">为直接路由启用基于位置的路由</span><span class="sxs-lookup"><span data-stu-id="e81d1-151">Enable Location-Based Routing for Direct Routing</span></span>](location-based-routing-enable.md)
+<span data-ttu-id="b53fc-152">请参阅[授权-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。</span><span class="sxs-lookup"><span data-stu-id="b53fc-152">See [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="b53fc-153">相关主题</span><span class="sxs-lookup"><span data-stu-id="b53fc-153">Related topics</span></span>
+
+- [<span data-ttu-id="b53fc-154">Teams PowerShell 概览</span><span class="sxs-lookup"><span data-stu-id="b53fc-154">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
+- [<span data-ttu-id="b53fc-155">为直接路由配置语音路由</span><span class="sxs-lookup"><span data-stu-id="b53fc-155">Configure voice routing for Direct Routing</span></span>](direct-routing-voice-routing.md)
+- [<span data-ttu-id="b53fc-156">为直接路由启用基于位置的路由</span><span class="sxs-lookup"><span data-stu-id="b53fc-156">Enable Location-Based Routing for Direct Routing</span></span>](location-based-routing-enable.md)
+- [<span data-ttu-id="b53fc-157">向团队中的用户分配策略</span><span class="sxs-lookup"><span data-stu-id="b53fc-157">Assign policies to your users in Teams</span></span>](assign-policies.md)
