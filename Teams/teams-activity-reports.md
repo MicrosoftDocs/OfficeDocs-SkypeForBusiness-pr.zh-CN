@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1eb02b7755ecfaa78b3b5ad511f45052a7807b5
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 211bf51e0221ecaba29cee9e9a859c0a6acf9332
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256387"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349976"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>使用 Microsoft Teams 用户活动报告 
 ========================================
@@ -107,7 +107,7 @@ ms.locfileid: "44256387"
 
 ### <a name="at-a-glance-activity-widget"></a>一览式活动小组件
 
-"报表" 仪表板在 "一览式活动" 小组件中包含来自团队的使用数据，这使你可以通过使用 Office 365 中的其他各种服务来与用户进行通信和协作的交叉产品视图。
+"报表" 仪表板在 "一览式活动" 小组件中包含来自团队的使用数据，这使你可以通过使用 Microsoft 365 或 Office 365 中的其他各种服务与用户进行通信和协作的交叉产品视图。
 
 !["团队一览" 活动小组件的屏幕截图。](media/at-a-glance-activity-widget.png)
 

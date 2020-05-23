@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fcaa545f2a704dfad856a4cebbcc9cb9f31d7481
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140693"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349766"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用优化反馈和报告功能
 
-通过关注用户反馈和服务运行状况报告的最佳做法，确保您从您的服务和员工那里获得信号。  在某些情况下，你可能需要 Office 365 管理员权限来访问某些服务使用情况和运行状况报告。 如果您不是您的组织的 Office 365 管理员，请与该人员合作，在 Microsoft 365 管理中心向其授予 "报表读者" 角色，以访问这些数据。 
+通过关注用户反馈和服务运行状况报告的最佳做法，确保您从您的服务和员工那里获得信号。  在某些情况下，你可能需要管理员权限才能访问某些服务使用情况和运行状况报告。 如果您不是您的组织的 Microsoft 365 或 Office 365 管理员，请与该人员合作，在 Microsoft 365 管理中心授予 "报表读者" 角色以访问其中的某些数据。
 
 ## <a name="incorporating-feedback"></a>合并反馈 
 
@@ -56,8 +56,8 @@ ms.locfileid: "43140693"
 
 部署和采用 Microsoft 团队时，应查看三种类型的报告：
 
-- [服务运行状况](https://status.office365.com/)-从 Office 365 和内部 IT 支持部门。
-- [服务活动](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)-从 Office 365 查看[Microsoft 团队的报告](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)。 您还可以使用您的组织内的其他系统中的信息。
+- [服务运行状况](https://status.office365.com/)-来自 Microsoft 365 或 Office 365 以及内部 IT 支持部门。
+- [服务活动](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)-来自 microsoft 365 或 Office 365 查看[有关 microsoft 团队的报告](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)。 您还可以使用您的组织内的其他系统中的信息。
 - 服务满意度-从内部社区论坛和调查收集到特定体验
 
-![表示下一步骤](media/teams-adoption-next-icon.png)的图标：[驱动器感知和实施培训](teams-adoption-drive-awareness.md)
+![表示下一步骤的图标 ](media/teams-adoption-next-icon.png) ：[驱动器感知和实施培训](teams-adoption-drive-awareness.md)

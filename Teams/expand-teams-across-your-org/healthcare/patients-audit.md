@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: fbbb3361968ae928638fedca09fbd8d4c2ff33b6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780401"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350176"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者应用的审核日志
 
@@ -28,7 +28,7 @@ ms.locfileid: "43780401"
 
 ## <a name="meet-hipaa-requirements"></a>满足 HIPAA 要求
 
-根据 HIPAA 指南，医疗保健提供商需要保留对 PHI 的所有访问的记录，以便审核所做的更改。 Microsoft 致力于使用 Microsoft 团队的企业客户，并帮助他们满足 HIPAA 要求和控制措施。 通过 "患者" 应用对 PHI 进行完全跟踪，日志可在 M365 安全和合规性中心提供，如 "[审核日志搜索功能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)" 文章中所述。
+根据 HIPAA 指南，医疗保健提供商需要保留对 PHI 的所有访问的记录，以便审核所做的更改。 Microsoft 致力于使用 Microsoft 团队的企业客户，并帮助他们满足 HIPAA 要求和控制措施。 通过 "患者" 应用对 PHI 的访问已完全被跟踪，在 Microsoft 365 合规性中心中提供了日志，如 "[审核日志搜索功能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)" 文章中所述。
 
 > [!IMPORTANT]
 > 法律规定，保持患者隐私的负担由医疗保健提供商承担。 法律证明病人对隐私的要求，并要求 IT 管理员或 HIPAA 控制器能够轻松地确定哪些护士、clinician 或社会工作者访问或更改了患者记录。 最常见的 PHI 访问冲突示例之一是访问 VIP 患者。 审核日志功能是执行任何 PHI 访问冲突调查和满足 HIPAA 要求所必需的。
@@ -41,7 +41,7 @@ ms.locfileid: "43780401"
 
 1. 管理员必须使用其 FHIR 服务提供商，才能以患者应用使用的格式使用 EMR。 请参阅将[电子医疗保健记录集成到 Microsoft 团队](patients-app.md)。
 2. 医疗保健提供商管理员必须在 "团队管理中心" 中启用 "患者" 应用。 有关详细信息，请参阅 Microsoft 团队和相关文章[中的管理应用设置策略](../../teams-app-setup-policies.md)。
-3. 管理员必须在 O365 中启用活动审核，与在 Office 365 中启用任何活动日志审核的方式相同，如在开始和[打开或关闭审核日志搜索](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)[之前](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)所述。 如果审核日志记录已打开，则患者应用不需要任何特殊内容。 每当医疗保健提供商在团队内部安装和运行应用时，审核日志都会记录其 PHI 活动。
+3. 管理员必须启用活动审核，这与启用任何活动日志审核的方式相同，详见 "[开始](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) [" 和 "打开或关闭审核日志搜索](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)"。 如果审核日志记录已打开，则患者应用不需要任何特殊内容。 每当医疗保健提供商在团队内部安装和运行应用时，审核日志都会记录其 PHI 活动。
 4. 管理员随后需要宣布患者应用的可用性，并且医疗保健工作人员必须开始生成活动才能纳入审核。
 
 <!-- add link out to client doc when available -->

@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: fcc4c872b584765791ba17b3a2a66c3892e7a7b5
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780631"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350156"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub 将停用
 
-2019年12月31日生效，Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天，团队包括 "倒班" 应用，用于计划管理，而其他功能将随着时间的推移而推出。
+2020年6月30日生效，Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天，团队包括 "倒班" 应用，用于计划管理，而其他功能将随着时间的推移而推出。
 
 这些更改是我们继续努力的一部分，可通过 Microsoft 365 为每位员工提供支持。 通过在团队中使用一线工作人员的功能，组织中的每个员工都可以使用团队来简化其 workday、与同事协作以及访问信息和专业知识，以帮助他们完成最佳工作。
 
@@ -37,13 +37,13 @@ ms.locfileid: "43780631"
 
 #### <a name="when-will-staffhub-be-retired"></a>何时 StaffHub 将停用？
 
-从2019年4月开始，Microsoft StaffHub 将不再可用于新的租户，并且您将无法再从现有租户中的 Office 365 应用启动器访问该应用。 当前用户仍可在2019年12月31日之前使用该服务，但不会提供任何其他功能。
+从2019年4月开始，Microsoft StaffHub 将不再可用于新的租户，并且你将无法再从现有租户中的 Microsoft 365 或 Office 365 应用启动器中访问该应用。 当前用户仍可在2019年12月31日之前使用该服务，但不会提供任何其他功能。
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>一旦 StaffHub 停用，将会发生什么情况？
 
-Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打开应用的任何人都将显示一条消息，引导他们下载团队。 如果用户有一个包含团队的活动许可证，并且组织已采取相应步骤来启用团队，则他们的数据和 StaffHub 中的核心功能将在其对团队的过渡时供他们使用。
+Microsoft StaffHub 将在2020年6月30日停止为所有用户工作。 尝试打开应用的任何人都将显示一条消息，引导他们下载团队。 如果用户有一个包含团队的活动许可证，并且组织已采取相应步骤来启用团队，则他们的数据和 StaffHub 中的核心功能将在其对团队的过渡时供他们使用。
 
-在2019年4月到2019之间，StaffHub 用户将收到应用内通知，鼓励他们使用团队。
+在2019年4月到6月2020之间，StaffHub 用户将收到应用内通知，鼓励他们使用团队。
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>团队是否会提供当前在 StaffHub 中提供的所有功能？
 
@@ -103,7 +103,7 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>在哪里可以了解有关班次的详细信息？
 
-有关产品信息，请转[https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software)到。
+有关产品信息，请转到 [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software) 。
 
 有关管理员指南，请参阅[管理团队中组织的倒班应用](manage-the-shifts-app-for-your-organization-in-teams.md)
 
@@ -127,9 +127,9 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 团队支持与 Skype for Business 共存。 有关详细信息，请参阅[了解团队和 skype for business 共存和互操作性](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)以及[与 skype for Business 配合使用团队的组织的迁移和互操作性指南](../../migration-interop-guidance-for-teams-with-skype.md)。
 
-#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>每个用户是否需要拥有 Office 365 帐户或 Azure Active Directory （Azure AD）帐户？
+#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>每个用户是否需要拥有 Microsoft 365 或 Office 365 帐户或 Azure Active Directory （Azure AD）帐户？
 
-是的，团队中使用团队和倒班的每位经理和团队成员必须具有 Office 365 帐户（Azure AD），并且必须分配有有效的许可证。
+是的，团队中使用团队和倒班的每位经理和团队成员必须具有 Microsoft 365 或 Office 365 帐户（Azure AD），并且必须分配有有效许可证。
  
 #### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>在 StaffHub 中，我可以向 StaffHub 团队创建的所有 Microsoft 365 组添加特殊的前缀。 我是否可以在团队中执行相同操作？
 
@@ -137,7 +137,7 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>团队名称是否将与团队中的名称相同？
 
-团队的名称可能会有所不同。 团队中的团队名称使用 Office 365 组名称。 如果 StaffHub 团队名称不同于对应 Office 365 组的名称，则当您切换到团队时，您将看到不同的名称。
+团队的名称可能会有所不同。 团队中的团队名称使用 Microsoft 365 组名称。 如果 StaffHub 团队名称不同于相应 Microsoft 365 组的名称，则当您切换到团队时，您将看到另一个名称。
 
 #### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>将 StaffHub 团队移到团队时，团队成员会发生什么情况？
 
@@ -147,7 +147,7 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
  
 #### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>StaffHub 未预配或状态为非活动的团队成员将会发生什么情况？
 
-用户的日程将被移动到倒班，但用户不是团队成员或 Office 365 组的成员。
+用户的计划将被移动到倒班，但用户不是团队成员或 Microsoft 365 组的成员。
 
 对于未链接到 Azure AD 用户帐户的非活动帐户，管理员可以通过在 "StaffHub 团队成员" 页面上添加有效的 Microsoft 365 或 Office 365 电子邮件地址来确保将用户添加为团队成员，以便用户在其组织中链接到正确的 Azure AD 帐户。
 
@@ -157,9 +157,9 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
  
 #### <a name="what-happens-to-chats-in-staffhub"></a>StaffHub 中的聊天会发生什么变化？
 
-为了帮助过渡用户，我们计划将 StaffHub 中的数据聊天历史记录迁移到团队。 将在团队中可用的聊天历史记录量取决于你为组织配置过渡的时间。 我们建议您在2019年6月 2019 31 日之前，不超过6月30日采取行动，以提供足够的时间来转换90天的数据。
+为了帮助过渡用户，我们计划将 StaffHub 中的数据聊天历史记录迁移到团队。 将在团队中可用的聊天历史记录量取决于你为组织配置过渡的时间。 我们建议你 2020 90 在2019年6月30日之前采取行动不晚于年6月30日。
 
-确保在过渡开始之前，在 Microsoft 365 管理中心中启用了 Office 365 组创建，因为这对于能够将 StaffHub 聊天数据移动到团队中是必不可少的。 2019 6 月30日无法启用此服务将导致更晚的迁移日期或较少的聊天数据被复制。
+确保在过渡开始之前，在 Microsoft 365 管理中心中启用 Microsoft 365 组创建，因为这对于能够将 StaffHub 聊天数据移动到团队中是必不可少的。 2019 6 月30日无法启用此服务将导致更晚的迁移日期或较少的聊天数据被复制。
 
 #### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>已上载到 StaffHub 的文件会发生什么变化？
 
@@ -175,7 +175,7 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>什么是团队中的文件共享功能？ 文件存储在何处？
 
-文件共享功能：管理器将文件分发给团队成员的能力由 SharePoint Online 在后端打开。 创建团队后，将在后台为该团队自动设置 Office 365 组。
+文件共享功能：管理器将文件分发给团队成员的能力由 SharePoint Online 在后端打开。 创建团队后，将在后台为该团队自动设置 Microsoft 365 组。
 
 若要了解详细信息，请参阅[SharePoint Online 和 OneDrive For Business 如何与团队进行交互](../../SharePoint-OneDrive-interact.md)。
  
@@ -209,4 +209,4 @@ Microsoft StaffHub 将停止在2020年1月1日为所有用户工作。 尝试打
 
 #### <a name="where-can-i-provide-feedback"></a>在哪里可以提供反馈？
   
-在移动应用中，点击屏幕左上角的 "**更多**"，转到 "**设置** > " "**发送反馈**" 或 "**报告问题**"。 同样，在桌面和 web 应用中，在屏幕左下角，转到**帮助** > **分享想法**或**报告问题**。
+在移动应用中，点击屏幕左上角的 "**更多**"，转到 "**设置**" "  >  **发送反馈**" 或 "**报告问题**"。 同样，在桌面和 web 应用中，在屏幕左下角，转到**帮助**  >  **分享想法**或**报告问题**。

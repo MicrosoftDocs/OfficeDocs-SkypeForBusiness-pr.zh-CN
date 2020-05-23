@@ -21,12 +21,12 @@ f1.keywords:
 description: 了解如何衡量团队规模广泛启用的成果和成功。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f963acb58369e7b623969cb518f53249912bfd67
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5a51caae2e8d8e9005aad3d8e669eead3b7a0765
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140795"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350136"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用定义结果和成功
 
@@ -79,13 +79,13 @@ ms.locfileid: "43140795"
 | 团队优先 | 团队核心 | 团队走向很大 | 并排 Skype | 迁移 |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | 与团队领导云部署 | 团队负责人协作方案启用 | 团队和组织范围的团队中的所有员工 | 启用团队和 Skype for business | 将用户从 Skype for Business 迁移到团队 |
-| -适用于新的或低使用率的 Office 365 客户 <br/>-在特定于客户的方案中领导团队 <br/>-突出显示集成的用户体验，并加快实现 Office 365 价值的速度 <br/>-实施规划工作负载以避免串行实施 | -启用团队以及 OneDrive 和 SharePoint Online <br/>-创建公司 intranet 以与 Microsoft Stream 共享新闻资源和视频<br/>**更好地协作**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-适用于低于5000的座位的客户（当前限制）<br/>-启用跨组织协作与一个团队协作处理所有<br/>-自动化常见任务（休假请求、员工调查、执行官参与） |-使用团队核心战术加速协作<br/>-根据需要的大小和功能集突出显示会议方案指南</br>-使用 Skype for Business 进行企业呼叫、互操作性和混合方案<br/>-使用公共路线图进行功能规划。 |-通过为客户创建服务战略路线图，规划从 Skype for Business 迁移到团队<br/>-附加到功能发布计划<br/>-建议包括并排和团队核心以轻松切换
+| -适用于 Microsoft 365 或 Office 365 客户的最新或较低使用 <br/>-在特定于客户的方案中领导团队 <br/>-重点介绍了集成的用户体验，并加快了 Microsoft 365 或 Office 365 的价值实现 <br/>-实施规划工作负载以避免串行实施 | -启用团队以及 OneDrive 和 SharePoint Online <br/>-创建公司 intranet 以与 Microsoft Stream 共享新闻资源和视频<br/>**更好地协作**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-适用于低于5000的座位的客户（当前限制）<br/>-启用跨组织协作与一个团队协作处理所有<br/>-自动化常见任务（休假请求、员工调查、执行官参与） |-使用团队核心战术加速协作<br/>-根据需要的大小和功能集突出显示会议方案指南</br>-使用 Skype for Business 进行企业呼叫、互操作性和混合方案<br/>-使用公共路线图进行功能规划。 |-通过为客户创建服务战略路线图，规划从 Skype for Business 迁移到团队<br/>-附加到功能发布计划<br/>-建议包括并排和团队核心以轻松切换
 
 以下是我们针对大多数客户组织的建议。 但是，也存在例外情况。 若要获取此处未介绍的任何方案的指南，请在我们的推动采纳社区中提出问题，或与 FastTrack 团队或 Microsoft 合作伙伴网络联系。
 
 - **选择 "团队优先" 或 "团队核心**"：大多数组织都有 Microsoft 技术方面的现有投资。 你可能会同时启用多个工作负荷，例如 Exchange Online、OneDrive for business 或 SharePoint。 在这些情况下，选择 "团队优先" 或 "团队核心" 是明智的选择。 它将使你的用户能够用于团队的增强协作体验。 然后，你的协作项目团队可以计划推出其他功能以及他们成功所需的培训和支持。 
 
-- **选择团队规模较大**：在新的 Office 365 客户组织中，通常最好让团队更大程度地减少因多次学习新技术而导致的更改 fatigue。 通过为核心协作和会议、SharePoint、OneDrive、Planner 和其他工作负荷启用团队，您将获得最大的好处，并允许员工在团队部署的上下文中了解这些信息。 
+- **选择团队大大地**功能：在新的 Microsoft 365 或 Office 365 客户组织中，通常最好让团队更大程度地减少因多次学习新技术而导致的更改 fatigue。 通过为核心协作和会议、SharePoint、OneDrive、Planner 和其他工作负荷启用团队，您将获得最大的好处，并允许员工在团队部署的上下文中了解这些信息。 
 
     团队规模较大也是适用于1000员工的团队的首选支持策略，这些组织希望简化员工的沟通和接洽。 使用组织范围的团队可以让多人共同查看任何设备上的常见任务和计划。 
 
@@ -137,7 +137,7 @@ ms.locfileid: "43140795"
 
 在 Microsoft 团队中推动数字转换和使用的重要部分是与业务部门合作，了解他们有哪些需求、机遇和困难。 尽管与传统 IT 部门的业务对话类似，但你的重点应在需要什么。 在转到技术要求之前收听。 在许多情况下，团队的现成功能将满足组织的需求。   
 
-最佳做法：在考虑开发自定义解决方案之前，请确保你的组织完全使用了 Office 365 的全新功能。 自定义解决方案开发始终会为 IT 和支持部门带来长期成本。
+最佳做法：在考虑开发自定义解决方案之前，请确保你的组织完全使用了 Microsoft 365 或 Office 365 的全新功能。 自定义解决方案开发始终会为 IT 和支持部门带来长期成本。
  
 执行下列步骤以使用业务单元简化工作。  认识到在非常大的多国公司，此过程可能会在你的 Microsoft 团队的第一大规模部署之后持续很长：
 
@@ -147,4 +147,4 @@ ms.locfileid: "43140795"
 4. 捕获反馈并利用业务单元知识开发拥护人员以支持过渡
 5. 设置每月检查点以讨论进度和优先处理其他项目的待办事项。
 
-![表示下一步骤](media/teams-adoption-next-icon.png)的图标：[优化反馈和报告](teams-adoption-optimize-feedback-and-reporting.md)
+![表示下一步骤的图标 ](media/teams-adoption-next-icon.png) ：[优化反馈和报告](teams-adoption-optimize-feedback-and-reporting.md)

@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的呼叫者 ID 策略更改或阻止组织中的团队用户的来电显示 ID。
-ms.openlocfilehash: a4dbdbac0922bb475f47447a3cf8b2d0f001909c
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: dde534d0c74b11b3c3131a7d5c9eb8611135f70f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224247"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349776"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的呼叫者 ID 策略
 
@@ -67,17 +67,21 @@ ms.locfileid: "44224247"
 
 ## <a name="assign-a-custom-caller-id-policy-to-users"></a>为用户分配自定义呼叫者 ID 策略
 
-你可以使用 Microsoft 团队管理中心将自定义策略分配给一个或多个用户或 Skype for business PowerShell 模块，以便为用户组（如安全组或通讯组）分配自定义策略。
+你可以使用 Microsoft 团队管理中心将自定义策略分配给一个或多个用户或 Skype for business PowerShell 模块，以便将自定义策略分配给组中的用户，例如安全组或通讯组。
 
-### <a name="assign-a-custom-caller-line-id-policy-to-a-user"></a>为用户分配自定义呼叫者线路 ID 策略
+### <a name="assign-a-custom-caller-line-id-policy-to-users"></a>为用户分配自定义呼叫者线路 ID 策略
+
+若要向一个用户分配策略，请执行以下操作：
 
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
 3. 在 "**呼叫者 ID 策略**" 下，选择要分配的策略，然后选择 "**保存**"。
 
-### <a name="assign-a-custom-calling-line-id-policy-to-multiple-users-at-a-time"></a>一次为多个用户分配自定义呼叫线路 ID 策略
+要一次为多个用户分配策略，请执行以下操作：
 
-若要一次为多个用户分配自定义呼叫线路 Id 策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
+2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
+3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
 
 或者，您也可以执行以下操作：
 
@@ -113,4 +117,4 @@ $members | ForEach-Object { Grant-CsCallingLineIdentity -PolicyName "Support Cal
  ## <a name="related-topics"></a>相关主题
 
 - [新-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
-
+- [向团队中的用户分配策略](assign-policies.md)

@@ -18,21 +18,21 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9298ed02c6b8559bdaf1e59c74a149a9d5164124
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 745644c7a6cf2207412faacd78e7b5a26d7b754d
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141185"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349656"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
 > [!IMPORTANT]
-> 2019年12月31日生效，Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天，团队包括 "倒班" 应用，用于计划管理，而其他功能将随着时间的推移而推出。 StaffHub 将停止为2019年12月31日的所有用户工作。 任何试图打开 StaffHub 的人都将显示一条消息，指导他们下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
+> 2020年6月30日生效，Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天，团队包括 "倒班" 应用，用于计划管理，而其他功能将随着时间的推移而推出。 StaffHub 将在2020年6月30日停止为所有用户工作。 任何试图打开 StaffHub 的人都将显示一条消息，指导他们下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
 
 ## <a name="overview-of-shifts"></a>倒班概述
 
-Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步。它首先构建了移动，为团队提供快速、有效的时间管理和沟通。 倒班让一线工作者和他们的经理使用自己的移动设备管理计划和保持联系。 
+Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步。它首先构建了移动，为团队提供快速、有效的时间管理和沟通。 倒班让一线工作者和他们的经理使用自己的移动设备管理计划和保持联系。
 
 - 经理负责创建、更新和管理团队的倒班计划。 他们可以向一个人发送消息（"在地面上有溢出"）或整个团队（"区域 GM 在20分钟内送达"）。 他们还可以发送策略文档、新闻公告和视频。 
 - 员工查看他们的即将到来的班次，可查看当天安排的其他人、请求交换或提供班次，以及请求下班时间。 
@@ -53,7 +53,7 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 默认情况下，将为组织中的所有团队用户启用倒班。 你可以在 Microsoft 团队管理中心的 "[管理应用](../../manage-apps.md)" 页面上，关闭或打开组织级别的应用。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **管理应用**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **管理应用**"。
 2. 在应用列表中，执行下列操作之一：
 
     - 若要为你的组织关闭班次，请搜索 "倒班" 应用，选择它，然后单击 "**阻止**"。
@@ -65,18 +65,18 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstlineWorker 应用设置策略固定对团队的倒班
 
-应用设置策略允许你自定义团队，以突出显示你的组织中的用户最重要的应用。 策略中设置的应用将固定到应用程序栏，&mdash;应用栏位于团队桌面客户端和团队移动客户&mdash;端的底部，用户可在其中快速轻松地访问它们。 
+应用设置策略允许你自定义团队，以突出显示你的组织中的用户最重要的应用。 策略中设置的应用将固定到应用程序栏，应用栏 &mdash; 位于团队桌面客户端和团队移动客户端的底部， &mdash; 用户可在其中快速轻松地访问它们。 
  
 团队包括一个内置的 FirstlineWorker 应用设置策略，可分配给你的组织中的一线工作人员。 默认情况下，该策略包括活动、班次、聊天和呼叫应用。 
 
-若要查看 FirstlineWorker 策略，请在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **应用" 设置策略**。
+若要查看 FirstlineWorker 策略，请在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **应用" 设置策略**。
 
 ![FirstlineWorker 应用设置策略的屏幕截图](../../media/firstline-worker-app-setup-policy.png "Microsoft 团队管理中心中的 FirstlineWorker 应用设置策略的屏幕截图")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>将 FirstlineWorker 策略分配给单个用户
 
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
-2. 在 "**分配的策略**" 旁边，选择 "**编辑**"。
+2. 在“**已分配的策略**”旁，选择“**编辑**”。
 3. 在 "**团队应用设置策略**" 下，选择 " **FirstlineWorker**"，然后选择 "**保存**"。
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>将 FirstlineWorker 应用设置策略分配给组的用户成员

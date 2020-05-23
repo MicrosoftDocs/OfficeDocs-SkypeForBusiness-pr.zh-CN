@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为你的用户设置云语音邮件。 '
-ms.openlocfilehash: eb25d18dc0414edcc3b143487cced1f0e13b2b60
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042929"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349716"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -35,7 +35,7 @@ ms.locfileid: "44042929"
 > [!NOTE]
 > 云语音邮件支持仅在 Exchange 邮箱中发送语音邮件消息，并且不支持任何第三方电子邮件系统。 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>仅限云的环境：设置云语音邮件
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>仅限云的环境：为云 Psystem 用户设置云语音邮件
 
 对于 Skype for Business Online 和通话计划用户，向用户分配**电话系统**许可证和电话号码后，将自动为用户设置和设置云语音邮件。
   
@@ -45,21 +45,32 @@ ms.locfileid: "44042929"
     
 3. 对语音邮件脚本的支持已添加到2017年3月，并且默认情况下为所有组织和用户启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
 
-## <a name="phone-system-with-on-premises-environments"></a>本地环境的电话系统
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>为 Exchange Server 邮箱用户设置云语音邮件
 
-以下信息介绍如何配置云语音邮件以使用本地通话计划环境。
+以下信息介绍了如何配置云语音邮件，以便与联机电话系统的用户进行协作，但其邮箱位于 Exchange 服务器上。 
   
-1. 如果您的计划中未包含电话系统功能，您可能需要购买 "**电话系统**加载项" 许可证。 您还需要购买 Exchange Online 许可证。 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+1. 如果您的计划中未包含电话系统功能，您可能需要购买 "**电话系统**加载项" 许可证。 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
-2. 为企业中的人员[分配或删除 Office 365 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)、"[分配 Microsoft 团队附加许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)" 和 "Exchange Online" 许可证。
+2. [将 Microsoft 团队附加许可证分配](teams-add-on-licensing/assign-teams-add-on-licenses.md)给你的企业中的人员。
     
-3. 按照为你的用户部署的本地 PSTN 呼叫解决方案匹配说明。 对于云连接器版本，请按照 "[配置 Skype for Business 云连接器](https://technet.microsoft.com/library/mt605228.aspx)的**用户电话语音和语音邮件服务**" 部分中的说明操作。 对于使用 Skype for Business 服务器的 PSTN 呼叫，请遵循[启用企业内部部署企业语音的用户](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises)。 对于团队直接路由，请按照配置电话号码和启用 "[配置直接路由](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)" 部分中的 "**启用企业语音和语音邮件**" 部分。
+3. 对语音邮件脚本的支持已添加到2017年3月，并且默认情况下为所有组织和用户启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
 
-4. 对语音邮件脚本的支持已添加到2017年3月，并且默认情况下为所有组织和用户启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
-
-5. 语音邮件通过 Exchange Online Protection 通过 SMTP 路由发送到用户的 Exchange 邮箱。 若要支持成功传递这些邮件，请确保 exchange 连接器在 Exchange 服务器和 Exchange Online Protection 之间正确配置;[使用连接器配置邮件流](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
+4. 语音邮件通过 Exchange Online Protection 通过 SMTP 路由发送到用户的 Exchange 邮箱。 若要支持成功传递这些邮件，请确保 exchange 连接器在 Exchange 服务器和 Exchange Online Protection 之间正确配置;[使用连接器配置邮件流](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
 
 6. 若要启用语音邮件功能（如自定义问候语）和 Skype for business 客户端中的视觉语音邮件，需要通过 Exchange Web 服务将来自 Office 365 的连接到 Exchange server 邮箱。 若要启用此连接，必须配置[exchange 和 Exchange Online 组织之间的 "配置 Oauth 身份验证](https://technet.microsoft.com/library/dn594521(v=exchg.150).aspx)" 中介绍的新 Exchange Oauth 身份验证协议，或者从 EXCHANGE 2013 CU5 或更高版本运行 Exchange 混合向导。 此外，你必须在 Skype for business [online 和 Exchange server 之间配置集成和 oauth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中介绍的 Skype For business Online 和 exchange server 之间配置集成和 oauth。 
+
+## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>为 Skype for business Server 用户设置云语音邮件
+
+以下信息介绍了如何配置云语音邮件，以便与联机使用 Skype 和本地 Skype for business 的用户配合使用。 
+  
+1. 您可能需要向企业中的人员购买 Exchange Online 许可证。 请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+    
+2. 为企业中的人员[分配或删除 Office 365 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+    
+3. 对语音邮件脚本的支持已添加到2017年3月，并且默认情况下为所有组织和用户启用。 通过使用 Windows PowerShell 并执行以下步骤，你可以为组织禁用转录。
+
+4. 为云语音邮件配置 Skype for Business 服务器用户请参阅为[本地用户规划云语音邮件服务](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-cloud-voicemail)
+
 
 > [!NOTE]
 > 当代理人代表委托人进行通话应答呼叫时，通知在云语音邮件中不可用。 用户可以接收有关未接来电的通知。

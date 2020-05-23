@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 47b391fa734b06ba9ffbab9cea3d049322bfc034
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041869"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350116"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>开始推动采用 Microsoft Teams
 
@@ -40,9 +40,9 @@ ms.locfileid: "44041869"
 
 - 您已下载桌面和移动应用程序。 
 
-## <a name="office-365-adoption-framework"></a>Office 365 采纳框架
+## <a name="adoption-framework"></a>采纳框架
 
-Office 365 具有适用于服务中的主要工作负荷的采纳框架。 此框架解决了组织支持云服务时应采取的核心步骤。 若要了解有关整个采纳框架的详细信息，请参阅[Microsoft 企业文档和资源](https://aka.ms/O365AdoptionHub)。 
+Microsoft 365 和 Office 365 具有适用于该服务中的主要工作负荷的采纳框架。 此框架解决了组织支持云服务时应采取的核心步骤。 若要了解有关整个采纳框架的详细信息，请参阅[Microsoft 企业文档和资源](https://aka.ms/O365AdoptionHub)。 
 
 在此团队采纳计划中，我们按阶段组织了步骤，并提供了特定团队指南（如[采纳阶段](#adoption-phases)中所述）。
 
@@ -54,9 +54,9 @@ Office 365 具有适用于服务中的主要工作负荷的采纳框架。 此�
 
 - 在此**阶段的 "** 受控增长" 中，你将让内部拥护者和早期采纳者板载。 你将与你的业务用户进行沟通，以确定可立即受益于团队所提供的协作和通信功能的方案。 你将收集可通知你的广泛使用阶段的反馈，你将做出有关管理和生命周期管理的服务决策，这些管理将确保成功部署。
 
-- **缩放**-这是一个规模广泛的部署阶段，你将在其中为你的所有员工启用团队功能。 在此阶段中，你的组织的规模将确定这是否是一个 "最大" 项目，该项目将同时为所有员工启用团队，或者，如果你按地区、业务部门或其他划分员工群体的方法来执行此操作。 在此阶段中，你将转到持续交付模型。 员工、领导人和业务单位将希望扩大团队的使用，并需要培训和你的参与，以了解如何最好地使用 Office 365 的团队和其他功能。   
+- **缩放**-这是一个规模广泛的部署阶段，你将在其中为你的所有员工启用团队功能。 在此阶段中，你的组织的规模将确定这是否是一个 "最大" 项目，该项目将同时为所有员工启用团队，或者，如果你按地区、业务部门或其他划分员工群体的方法来执行此操作。 在此阶段中，你将转到持续交付模型。 员工、领导人和业务单位将希望扩大团队的使用，并需要培训和你的参与，以了解如何最好地使用 Microsoft 365 或 Office 365 的团队和其他功能。
 
 这些采纳阶段都取决于团队的技术和环境准备情况。 让我们开始吧！
 
 
-![表示下一步骤](media/teams-adoption-next-icon.png)的图标： [Microsoft 团队采纳阶段1：开始](teams-adoption-phase1.md)|
+![表示下一步骤的图标 ](media/teams-adoption-next-icon.png) ： [Microsoft 团队采纳阶段1：开始](teams-adoption-phase1.md)|

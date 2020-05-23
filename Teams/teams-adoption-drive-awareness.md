@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5539d13811a5bc4a59ef5fa8767d229baf38dea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904347"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350126"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
-"意识" 和 "培训" 是整个采纳战略的营销和通信领域。 这将确保你的员工知道 Microsoft 团队及其基础 Office 365 服务和应用的新功能。
+"意识" 和 "培训" 是整个采纳战略的营销和通信领域。 这将确保你的员工知道 Microsoft 团队及其基础 Microsoft 365 或 Office 365 服务和应用的新功能。
    
 对于初始试点和最终公司范围内的部署，内部沟通都应该是一个优先事项。 它们应包括：
 
@@ -49,13 +49,13 @@ ms.locfileid: "43904347"
 
 ## <a name="implement-end-user-training"></a>实施最终用户培训
 
-在用户开始使用 Microsoft 团队和其他 Office 365 服务时，可使用我们的资源提供最终用户培训。 请访问我们的资源页面，了解详细信息：
+在用户开始使用 Microsoft 团队和其他 Microsoft 365 或 Office 365 服务时，可使用我们的资源提供最终用户培训。 请访问我们的资源页面，了解详细信息：
 
 - [面向团队的讲师指导最终用户培训](instructor-led-training-teams-landing-page.md)
 - [团队的管理员培训](itadmin-readiness.md)
 - [在线最终用户视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [有关拥护 & IT 专业人员的云在线培训的咖啡](https://aka.ms/CoffeeintheCloud) 
-- [Office 365 培训中的一天是工作表](https://aka.ms/O365AdoptionTools)
+- [Microsoft 365 和 Office 365 培训生活中的一天是工作表](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>度量和分享成功
 
@@ -71,4 +71,4 @@ ms.locfileid: "43904347"
 
 [了解有关 Microsoft 365 管理中心中的 Microsoft 团队使用情况报表的详细信息。](teams-activity-reports.md)
 
-![描述后续步骤](media/teams-adoption-next-icon.png)的图标下一步：[计划服务运行状况评审](teams-adoption-schedule-service-health-reviews.md)
+![描述后续步骤的图标下一步 ](media/teams-adoption-next-icon.png) ：[计划服务运行状况评审](teams-adoption-schedule-service-health-reviews.md)

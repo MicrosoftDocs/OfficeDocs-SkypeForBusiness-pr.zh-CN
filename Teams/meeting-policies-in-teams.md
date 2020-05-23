@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 2b7579b9dfe1d70c0a570d6ca519491a263e9f09
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: 2f6a88276a2b5d3214b89555d0008e2b58cf1aa2
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278195"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349556"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -70,11 +70,17 @@ ms.locfileid: "44278195"
 
 ## <a name="assign-a-meeting-policy-to-users"></a>将会议策略分配给用户
 
+若要向一个用户分配会议策略，请执行以下操作：
+
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
 3. 在“会议策略”中，选择想要分配的策略，然后单击“应用”。********
 
-若要将策略一次性分配给多个用户，请参阅[批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)。
+要一次为多个用户分配策略，请执行以下操作：
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
+2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
+3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
 
 或者，您也可以执行以下操作：
 
@@ -391,7 +397,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 |设置值 |行为  |
 |---------|---------|
-|**已禁用，但组织者可以替代**     | 会议期间不会为用户自动打开实时字幕。 用户可以在 "溢出（**...**）" 菜单中看到 "**打开实时标题**" 选项以将其打开。 这是默认设置。 |
+|**已禁用，但用户可以替代**     | 会议期间不会为用户自动打开实时字幕。 用户可以在 "溢出（**...**）" 菜单中看到 "**打开实时标题**" 选项以将其打开。 这是默认设置。 |
 |**已禁用**     | 会议期间，用户已禁用实时字幕。 用户不能选择将其打开。          |
 
 <a name="bkcontentsharing"> </a>
@@ -432,3 +438,4 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
+- [向团队中的用户分配策略](assign-policies.md)

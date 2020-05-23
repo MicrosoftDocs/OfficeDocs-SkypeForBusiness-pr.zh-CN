@@ -17,18 +17,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的紧急呼叫策略，定义当组织中的团队用户拨打紧急电话时会发生什么情况。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62a6314435aa3af44d0c44ab6a6790212c62d8de
-ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
+ms.openlocfilehash: ea02c1c7f9d4142db9cb25c00714e04a28e0e5e3
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952431"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350196"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫策略
 
 如果您的组织使用呼叫计划或部署的电话系统直接路由，则可以使用 Microsoft 团队中的紧急呼叫策略定义当组织中的团队用户进行紧急呼叫时发生的情况。 你可以设置被分配了策略的用户呼叫紧急服务时通知的人员以及通知的方式。 例如，你可以将策略设置配置为自动通知组织的安全桌面，并让他们在紧急呼叫中进行侦听。  
 
-通过转到 Microsoft 团队管理中心或使用 Windows PowerShell 中的**语音** > **紧急策略**来管理紧急呼叫策略。 可将策略分配给用户和[网络站点](cloud-voice-network-settings.md)。
+通过转到**Voice**  >  Microsoft 团队管理中心或使用 Windows PowerShell 中的语音**紧急策略**来管理紧急呼叫策略。 可将策略分配给用户和[网络站点](cloud-voice-network-settings.md)。
 
 对于用户，你可以使用全局（组织范围默认）策略或创建并分配自定义策略。 除非你创建并分配自定义策略，否则用户将自动获取全局策略。 请记住，你可以编辑全局策略中的设置，但不能重命名或删除它。 对于网络站点，您可以创建和分配自定义策略。
 
@@ -38,7 +38,7 @@ ms.locfileid: "43952431"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫策略**" 选项卡。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **紧急策略**"，然后单击 "**呼叫策略**" 选项卡。
 2. 单击“添加”****。
 3. 输入策略的名称和说明。
 4. 设置当进行紧急呼叫时，您希望将组织中的人员（通常是安全桌面）通知的方式。 若要执行此操作，请在 "**通知模式**" 下，选择下列操作之一：
@@ -59,7 +59,7 @@ ms.locfileid: "43952431"
 
 你可以编辑全局策略或你创建的任何自定义策略。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫策略**" 选项卡。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **紧急策略**"，然后单击 "**呼叫策略**" 选项卡。
 2. 通过单击策略名称左侧，然后单击 "**编辑**"，选择策略。
 3. 进行所需的更改，然后单击 "**保存**"。
 
@@ -71,15 +71,21 @@ ms.locfileid: "43952431"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
+若要向一个用户分配策略，请执行以下操作：
+
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
 3. 在 "**紧急呼叫策略**" 下，选择要分配的策略，然后单击 "**保存**"。
 
-若要一次为多个用户分配自定义团队策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
+要一次为多个用户分配策略，请执行以下操作：
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
+2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
+3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
 
 或者，您也可以执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **紧急策略**"，然后单击 "**呼叫策略**" 选项卡。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **紧急策略**"，然后单击 "**呼叫策略**" 选项卡。
 2. 单击策略名称的左侧以选择该策略。
 3. 选择“管理用户”****。
 4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
@@ -128,3 +134,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emerg
 
 - [管理团队中的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)
 - [Teams PowerShell 概览](teams-powershell-overview.md)
+- [向团队中的用户分配策略](assign-policies.md)

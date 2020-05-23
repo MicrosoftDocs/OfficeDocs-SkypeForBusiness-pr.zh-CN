@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904934"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350296"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
 团队和频道的概念是 Microsoft 团队正常、高效实施的基础。 
 
-- 团队是人员、内容和工具的集合，它们协同工作以生成公司的业务成果。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Office 365 组成员身份的更改会同步到团队。 
+- 团队是人员、内容和工具的集合，它们协同工作以生成公司的业务成果。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Office 365 组成员身份的更改会同步到团队。
 
 - 信道是在其中完成实际工作的团队中的协作空间。 
 
@@ -61,4 +61,4 @@ ms.locfileid: "43904934"
   
 在实现的[第2阶段](teams-adoption-phase2-experiment.md)中，你将更详细地了解团队的结构。
 
-![描述下一步骤](media/teams-adoption-next-icon.png)的图标：[创建你的第一个团队](teams-adoption-your-first-teams.md)
+![描述下一步骤的图标 ](media/teams-adoption-next-icon.png) ：[创建你的第一个团队](teams-adoption-your-first-teams.md)

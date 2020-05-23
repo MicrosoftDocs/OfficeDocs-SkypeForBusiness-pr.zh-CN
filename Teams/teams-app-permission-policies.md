@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3382eff6334c3879c1c30d503101446ceaae4df9
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5456bb7cece960796308a2d987cecaedc9828a3c
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749809"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350106"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -51,7 +51,7 @@ ms.locfileid: "43749809"
 
 如果你希望控制组织中不同组用户可用的应用，请创建并分配一个或多个自定义应用权限策略。 你可以基于 Microsoft、第三方或你的组织发布的应用创建和分配单独的自定义策略。 请务必注意，在创建自定义策略后，如果在组织范围的应用设置中禁用了第三方应用，则无法更改它。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **权限策略**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **权限策略**"。
 2. 单击“添加”****。
     ![新应用权限策略的屏幕截图](media/app-permission-policies-new-policy.png)
 3. 输入策略的名称和说明。
@@ -75,26 +75,32 @@ ms.locfileid: "43749809"
 
 你可以使用 Microsoft 团队管理中心编辑策略，包括全局策略和你创建的自定义策略。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **权限策略**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **权限策略**"。
 2. 通过单击策略名称左侧，然后单击 "**编辑**"，选择策略。
 3. 在此处进行所需的更改。 你可以基于应用发布者管理设置，并根据 "允许/阻止" 设置添加和删除应用。
 4. 单击“**保存**”。
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>向用户分配自定义应用权限策略
 
-你可以使用 Microsoft 团队管理中心将自定义策略分配给一个或多个用户或 Skype for business PowerShell 模块，以便向用户组（如安全组或通讯组中的所有用户）分配自定义策略。
+你可以使用 Microsoft 团队管理中心将自定义策略分配给一个或多个用户或 Skype for business PowerShell 模块，以便为组中的用户分配自定义策略，例如安全组或通讯组中的所有用户。
 
-### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>向用户分配自定义应用权限策略
+### <a name="assign-a-custom-app-permission-policy-to-users"></a>向用户分配自定义应用权限策略
+
+若要向一个用户分配策略，请执行以下操作：
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
 3. 在 "**应用权限策略**" 下，选择要分配的应用权限策略，然后单击 "**应用**"。
 
-若要将策略一次性分配给多个用户，请参阅[批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)。
+要一次为多个用户分配策略，请执行以下操作：
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
+2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
+3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
 
 或者，您也可以执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **权限策略**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **权限策略**"。
 2. 单击策略名称的左侧以选择该策略。
 3. 选择“管理用户”****。
 4. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
@@ -133,16 +139,16 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 若要为你的组织中的一个用户或一组用户启用第三方应用，请执行下列操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **管理应用**"，然后在应用列表中，确认要为一组用户允许的第三方应用是否设置为 "在组织级别**阻止**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **管理应用**"，然后在应用列表中，确认要为一组用户允许的第三方应用是否设置为 "在组织级别**阻止**"。
 
-2. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **权限策略**"，然后编辑全局策略以阻止第三方应用。 要执行此操作：
+2. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **权限策略**"，然后编辑全局策略以阻止第三方应用。 要执行此操作：
     1. 在 "应用权限策略" 页面上，单击 "**全局（组织范围默认）**"，然后单击 "**编辑**"。
     2. 在 "**第三方应用**" 下，选择 "**阻止特定应用并允许所有其他**应用"，添加应用，然后单击 "**保存**"。
 
     > [!NOTE]
     > 请务必先执行此操作，然后再转到下一步，以便在组织级别允许应用。 这是因为如果在全局应用权限策略中未阻止第三方应用，则全局策略适用的所有用户都可以在组织级别允许访问第三方应用。
 
-3. 允许在组织级别的第三方应用。 若要执行此操作，请在左侧导航中，转到 "**团队应用** > **管理应用**"。 在应用列表中，单击应用名称的左侧以选择应用，然后选择 "**允许**"。
+3. 允许在组织级别的第三方应用。 若要执行此操作，请在左侧导航中，转到 "**团队应用**  >  **管理应用**"。 在应用列表中，单击应用名称的左侧以选择应用，然后选择 "**允许**"。
 4. [创建自定义应用权限策略](#create-a-custom-app-permission-policy)以允许应用，然后[将策略分配](#assign-a-custom-app-permission-policy-to-users)给所需的用户。
 
 ## <a name="faq"></a>常见问题
@@ -191,3 +197,4 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ## <a name="related-topics"></a>相关主题
 
 - [Teams 中适用于应用的管理设置](admin-settings.md)
+- [向团队中的用户分配策略](assign-policies.md)

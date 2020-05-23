@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 392bbb3c97cf32e815f81073bf662d4d6280ae75
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: ce387ec406a9ccfd6ee45a67f2613a45c219f21f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326649"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349696"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的团队策略
 
@@ -65,13 +65,19 @@ ms.locfileid: "44326649"
 
 你可以使用 Microsoft 团队管理中心将自定义策略分配给一个或多个用户或 Skype for business PowerShell 模块，以便为用户组（如安全组或通讯组）分配自定义策略。
 
-### <a name="assign-a-custom-teams-policy-to-a-user"></a>向用户分配自定义团队策略
+### <a name="assign-a-custom-teams-policy-to-users"></a>向用户分配自定义团队策略
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后单击 "用户"。
+若要向一个用户分配策略，请执行以下操作：
+
+1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
 3. 在 "**团队策略**" 下，选择要分配的策略，然后单击 "**保存**"。
 
-若要一次为多个用户分配自定义团队策略，请参阅[批量编辑团队用户设置](edit-user-settings-in-bulk.md)。
+要一次为多个用户分配策略，请执行以下操作：
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
+2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
+3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
 
 或者，您也可以执行以下操作：
 
@@ -108,3 +114,4 @@ $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing T
 
 - [在 Teams 中管理私人团队的发现](manage-discovery-of-private-teams.md)
 - [团队中的专用频道](private-channels.md)
+- [向团队中的用户分配策略](assign-policies.md)

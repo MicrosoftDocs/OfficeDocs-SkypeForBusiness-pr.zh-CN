@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9475b323e1b9b04c5735a656eac5766b8a110810
-ms.sourcegitcommit: 48b24ccf133c9d03b0d1d4eea1ec275b2be5e3bb
+ms.openlocfilehash: ca63f95bb95a304fc410b402a68a52e5b1aeca9e
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016176"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349636"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
 > [!Tip]
 > 观看以下会话，了解团队如何与 Azure Active Directory （AAD）、Microsoft 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队基础](https://aka.ms/teams-foundations)
 
-为了获得全面的 Teams 体验，应该为每个用户启用 Exchange Online、SharePoint Online 和 Office 365 组创建。
+对于完整团队体验，应为每个用户启用 Exchange Online、SharePoint Online 和 Microsoft 365 组创建。
 
 用户的 Exchange 邮箱可以托管在线上或本地。 与本地 Exchange 集成需要 Exchange 混合部署。 有关设置混合部署的详细信息，请参阅[Exchange Server 混合部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
 
 Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队和频道、创建和查看会议、呼叫和聊天、修改用户个人资料图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），以及添加和配置连接器、选项卡和机器人。
 
-托管在 Exchange Online 专用（旧版）上的用户必须同步到 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道，添加和配置选项卡和机器人，以及利用聊天和通话功能。 但是，他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
+托管在 Exchange Online 专用（旧版）上的用户必须同步到 Microsoft 365 或 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道，添加和配置选项卡和机器人，以及利用聊天和通话功能。 但是，他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
 
 拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，此外，还可以更改用户个人资料图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），并且管理会议（提供 Exchange Server 2016 （累积更新3）或更高版本）在本地运行时使用 OAuth 配置（最好通过 Exchange 混合配置向导），如在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要为这些用户启用日历委派，还必须按照在[Skype For Business Online 和 Exchange Server 之间配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。这些步骤将向团队安排应用程序提供确认委派权限所需的权限。   
 
@@ -45,12 +45,12 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 **支持的操作：**
 
-| 用户的邮箱托管在： | 电子数据展示| 法律&nbsp;封存 | 保存| 团队和频道管理 |在团队中创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
+| 用户的邮箱托管在： | 电子数据展示| 法律 &nbsp; 封存 | 保存| 团队和频道管理 |在团队中创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是 |
 |**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是|
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是<sup>4|是|否|否|必需|是|否|是<sup>5|是<sup>6|必需|是 |
-|**本地 Exchange** （需要同步至 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2</sup> |是<sup>4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|必需|是|否|是<sup>5|是<sup>6|必需|是 |
+|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是 <sup> 4|是|否|否|必需|是|否|是 <sup> 5|是 <sup> 6|必需|是 |
+|**本地 Exchange** （需要同步至 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2</sup> |是 <sup> 4|是|是（Exchange 2016 CU3 +）|是<sup>8</sup> （EXCHANGE 2016 CU3 +）|必需|是|否|是 <sup> 5|是 <sup> 6|必需|是 |
 
 <sup>1</sup> EXCHANGE 2016 CU3 及以上版本均受支持。  
 
@@ -70,18 +70,21 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 团队的要求
 
-Microsoft 团队与多个 Office 365 服务协同工作，为用户提供丰富的体验。 若要支持此体验，你需要启用某些功能或服务并分配许可证。
+Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为用户提供丰富的体验。 若要支持此体验，你需要启用某些功能或服务并分配许可证。
 
 - 要在团队对话中共享和存储文件，需要 SharePoint Online。 Microsoft Teams 不支持本地 SharePoint。
 
-- 如果用户想要在聊天中共享文件，则必须分配有 SharePoint Online 许可证。 如果没有为用户分配和启用 SharePoint Online 许可证，则他们在 Office 365 中没有 OneDrive for Business 存储空间。 在频道中可以继续共享文件，但在 Office 365 中没有 OneDrive for Business 存储空间的情况下，用户无法在聊天中共享文件。
+- 如果用户想要在聊天中共享文件，则必须分配有 SharePoint Online 许可证。 如果未使用 SharePoint Online 许可证分配和启用用户，则他们在 Microsoft 365 或 Office 365 中没有 OneDrive for business 存储。 文件共享将继续在频道中工作，但是在 Microsoft 365 或 Office 365 中，用户无法在不使用 OneDrive for Business 存储的聊天中共享文件。
 
-- 必须为用户启用 Office 365 组创建，用户才能在 Microsoft Teams 中创建团队。
+- 必须为用户启用 Microsoft 365 组创建，才能在 Microsoft 团队中创建团队。
 
 - 若要让 Microsoft 团队使用本地 Exchange，必须配置新的 Exchange OAuth 身份验证协议（最好是运行 Exchange 混合向导），如在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要使具有 Exchange 本地邮箱的用户代表另一个用户安排团队会议，还必须按照[配置 Skype For Business Online 和 Exchange Server 之间的配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。 
 
 > [!NOTE]
->对于 Exchange 本地和团队集成，需要为 AAD 同步用户分配所需的许可证。
+> Outlook 团队外接程序可用于为托管在本地 Exchange 中的邮箱安排团队会议。 但是，如果使用 Exchange 本地 Exchange 代表另一个用户安排团队会议，则需要 Exchange 2013 CU9 和更高版本以及新的 Exchange OAuth 身份验证协议。 代理人和委托人进行通话都必须在 Exchange 内部部署邮箱。
+
+> [!NOTE]
+> 对于 Exchange 本地和团队集成，需要为 AAD 同步用户分配所需的许可证。
 
 > [!IMPORTANT]
 > 如果你在将用户移动到 "**仅团队**" 模式后卸载 Skype for business 客户端，则在 Outlook 和其他 Office 应用中，联机状态可能会停止工作。 状态在 Teams 中显示良好。 若要解决此问题，请在 Microsoft 团队的右上角选择您的个人资料图片，然后选择 "**设置**"。 在 "**应用程序**" 下的 "**常规**" 选项卡上，选择 "**注册团队作为 Office 的聊天应用（需要重启 office 应用程序）**"。 选择此选项后，关闭并重新打开所有 Office 应用（包括 Outlook）。 打开 Outlook 后，状态信息将可用。
@@ -96,7 +99,7 @@ Microsoft 团队与多个 Office 365 服务协同工作，为用户提供丰富�
 
 - 如果你的组织具有合规性要求以确保所有会议讨论均可发现，则应禁用私人会议（如果组织者具有 Exchange 本地邮箱）。
 
-- 在 Exchange 混合部署中，无论聊天参与者是否具有基于云的邮箱或本地邮箱，都可以搜索聊天消息中的内容。 若要了解详细信息，请阅读[在 Office 365 中搜索本地用户的基于云的邮箱](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解有关在团队中搜索内容的信息，请阅读[Microsoft 365 合规中心中的内容搜索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
+- 在 Exchange 混合部署中，无论聊天参与者是否具有基于云的邮箱或本地邮箱，都可以搜索聊天消息中的内容。 若要了解详细信息，请阅读[搜索本地用户的基于云的邮箱](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要了解有关在团队中搜索内容的信息，请阅读[Microsoft 365 合规中心中的内容搜索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 
 > [!TIP]
 > 有关如何使用 Azure AD Connect 与 Azure Active Directory 同步的信息，请参阅[将本地标识与 Azure Active Directory 集成](https://go.microsoft.com/fwlink/?linkid=854600)。

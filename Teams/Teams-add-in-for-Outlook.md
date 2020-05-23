@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a836ac2e2c5e461e8c2feacda4bfd3b569593a6a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321611"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349606"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -44,7 +44,7 @@ ms.locfileid: "44321611"
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Outlook for Mac 中的 Teams 会议加载项
 
-如果 Outlook 运行生产内部版本 16.24.414.0 和更高版本并使用 Office 365 客户端订阅激活，则 Outlook for Mac 中的“Teams 会议”按钮将显示在 Outlook for Mac 功能区中。
+Outlook for Mac 中的 "团队会议" 按钮将在 outlook for Mac 功能区中显示，前提是 Outlook 正在运行生产内部版本16.24.414.0 和更高版本，并且已使用 Microsoft 365 或 Office 365 客户端订阅激活。
 
 用户单击“发送”后，会议协调（Teams 联接链接和拨入号码）将添加到会议邀请。****  
 

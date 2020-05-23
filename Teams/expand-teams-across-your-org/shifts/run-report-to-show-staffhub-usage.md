@@ -17,17 +17,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe7851e57cd6d812d0b8904668ca5fd67fd5999d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5701e508440a338e0f0ba1fd133dac98ec35d57f
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826690"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44349626"
 ---
 # <a name="run-a-report-to-show-active-staffhub-usage"></a>运行报告以显示活动 StaffHub 的使用情况
 
 > [!IMPORTANT]
-> 2019年12月31日生效，Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天，团队包括 "倒班" 应用，用于计划管理，而其他功能将随着时间的推移而推出。 StaffHub 将停止为2019年12月31日的所有用户工作。 任何试图打开 StaffHub 的人都将显示一条消息，指导他们下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
+> 2020年6月30日生效，Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天，团队包括 "倒班" 应用，用于计划管理，而其他功能将随着时间的推移而推出。 StaffHub 将在2020年6月30日停止为所有用户工作。 任何试图打开 StaffHub 的人都将显示一条消息，指导他们下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
 
 使用本文中的步骤运行报表，获取组织中活动 StaffHub 用户的列表。 当你准备[将 StaffHub 团队移动到 Microsoft 团队](move-staffhub-teams-to-shifts-in-teams.md)时，此信息可能会很方便。 在报表中，当你将 StaffHub 切换到团队时，你将知道你需要在通信中加入的人员。
 

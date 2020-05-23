@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c34494c08b6c81671c7f36e1ca76593e8d204be
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: aeca6da477147c420c9dea053dbebc465fb491f6
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904764"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350266"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>贵组织为 Microsoft Teams 准备到什么程度？
 
@@ -64,7 +64,7 @@ ms.locfileid: "43904764"
 - 愿意与组分享他们的意见和发现
 - 风险记录者;也就是说，他们愿意尝试看看它是否正常工作
 
-在 Office 365 中使用简单的表单以允许这些人员选择加入团队的早期使用者计划。 根据组织的规模和复杂程度，你可以选择为实验阶段启用部分或全部这些人员。 在此计划中，他们同意积极参与你的实验阶段，并向项目团队提供定期反馈。 避免让只想要测试驱动新技术的人参与。 让他们知道，通过提供此活动的反馈，他们将帮助创建项目的结果。 您将在[第二阶段](teams-adoption-phase2-experiment.md)中使用此列表中的人员-实验。
+使用 Microsoft 365 或 Office 365 中的简单表单，允许这些人选择加入团队的早期使用者计划。 根据组织的规模和复杂程度，你可以选择为实验阶段启用部分或全部这些人员。 在此计划中，他们同意积极参与你的实验阶段，并向项目团队提供定期反馈。 避免让只想要测试驱动新技术的人参与。 让他们知道，通过提供此活动的反馈，他们将帮助创建项目的结果。 您将在[第二阶段](teams-adoption-phase2-experiment.md)中使用此列表中的人员-实验。
 
 我们的先期使用计划指南是在你的环境中工作此计划的有用资源。  
  
@@ -104,4 +104,4 @@ ms.locfileid: "43904764"
 
 您可以使用内部拥护人解决具有不同更改类型的问题。 在这里，反馈是成功的关键：鼓励人们分享他们的挑战和需要。 通过在实验期间为这些个人或组提供 disrupters 和 dissenters，来接纳。 这种最佳做法将 pave 更丰富的协作改进部署方式。  
 
-![表示下一步骤](media/teams-adoption-next-icon.png)的图标： [Microsoft 团队采纳阶段2：实验](teams-adoption-phase2-experiment.md) 
+![表示下一步骤的图标 ](media/teams-adoption-next-icon.png) ： [Microsoft 团队采纳阶段2：实验](teams-adoption-phase2-experiment.md) 

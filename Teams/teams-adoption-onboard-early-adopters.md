@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7000c3555a660fc692b7b88b0d94fb3ea42742c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 2c71cc945c3de6b6a4446ab44db4fbc2a4e43520
+ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140739"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "44350236"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>为早期采用者上线 Microsoft Teams 并收集反馈
 
@@ -41,7 +41,7 @@ ms.locfileid: "43140739"
 
 ## <a name="gather-feedback"></a>收集反馈
 
-使用 Office 365 的组件收集有关你的项目的反馈。
+使用 Microsoft 365 或 Office 365 的组件收集有关你的项目的反馈。
   
 ![代表决策点的图标](media/teams-adoption-decision-icon.png) 决策：如果你的组织已在 Yammer 网络中拥有投资，则可以将其用作你的早期使用计划计划的反馈论坛。 如果不是，并且您的早期使用程序计划的成员少于5000个，请在团队中创建团队以收集反馈和提供培训。
   
@@ -49,4 +49,4 @@ ms.locfileid: "43140739"
 > 某些组织会将早期的先期采用反馈的渠道合并到团队成员拥护团队中。 这是一种很好的方法，因为许多早期使用者可能会在将来成为拥护者，并且将构建更强大的社区。 
 
 
-![表示下一步骤](media/teams-adoption-next-icon.png)的图标：[板载支持](teams-adoption-onboard-support.md)。
+![表示下一步骤的图标 ](media/teams-adoption-next-icon.png) ：[板载支持](teams-adoption-onboard-support.md)。
