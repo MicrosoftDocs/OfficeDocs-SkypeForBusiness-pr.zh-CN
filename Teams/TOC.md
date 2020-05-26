@@ -64,8 +64,8 @@
 ### [管理自定义应用](manage-your-custom-apps.md)
 ### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [设置团队目标层次结构](set-up-your-team-hierarchy.md)
 ### [为组织管理任务应用](manage-tasks-app.md)
+### [设置团队目标层次结构](set-up-your-team-hierarchy.md)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 与外部用户通信
@@ -129,6 +129,7 @@
 ## [快速入门 - 会议和实时事件](quick-start-meetings-live-events.md)
 ## [规划部署](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
+## [Teams 会议中的演示者和参与者功能](roles-in-meetings.md)
 ## [管理会议策略](meeting-policies-in-teams.md)
 ## [管理会议设置](meeting-settings-in-teams.md)
 ## [用户设置更改时向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -137,6 +138,7 @@
 ## [在不受支持的浏览器上举行 Teams 会议](unsupported-browsers.md)
 ## [在 Teams 中配置桌面共享](configure-desktop-sharing.md)
 ## [Teams 云会议录制](cloud-recording.md)
+## [联系人中心集成](teams-contact-center.md)
 ## [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ## [为用户设置“致电我”功能](set-up-the-call-me-feature-for-your-users.md)
 ## [获取会议出席情况报告](teams-analytics-and-reports/meeting-attendance-report.md)
@@ -213,6 +215,7 @@
 ## 实时事件
 ### [什么是 Teams 实时事件？](teams-live-events/what-are-teams-live-events.md)
 ### [规划 Teams 实时事件](teams-live-events/plan-for-teams-live-events.md)
+### [直播活动中的演示者和参与者功能](roles-in-live-events.md)
 ### [设置 Teams 实时事件](teams-live-events/set-up-for-teams-live-events.md)
 ### [使用 PowerShell 设置 Teams 实时事件策略](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [配置 Teams 实时事件设置](teams-live-events/configure-teams-live-events.md)
@@ -670,6 +673,7 @@
 ## 合规性
 ### [信息屏障](information-barriers-in-teams.md)
 ### [保留策略](retention-policies.md)
+### [通话和会议的基于策略的录制](teams-recording-policy.md)
 ### [数据丢失防护](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 电子数据展示
 #### [对内容进行电子数据展示调查](ediscovery-investigation.md)
@@ -776,6 +780,7 @@
 ## Teams PowerShell
 ### [概述](teams-powershell-overview.md)
 ### [Teams 的 Cmdlet 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
+### [安装 Teams PowerShell 模块的预发布版本](install-prerelease-teams-powershell-module.md)
 
 ## [Teams 开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
 ## [在 Teams 中获取帮助](get-help-in-microsoft-teams.md)
