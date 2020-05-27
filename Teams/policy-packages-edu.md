@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或 EDU 设置中的策略，以及如何在 Microsoft Teams 中使用和管理策略包。
-ms.openlocfilehash: c602327321319c9924501d7879abcadf2a2c019e
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
+ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278185"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "44330567"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>面向教育的 Teams 策略和策略包
 
@@ -130,6 +130,8 @@ Microsoft Teams 当前包含以下策略包：
 |**Education_PrimaryStudent**| 小学适龄学生  | 你所在机构内年幼的小学适龄学生可能需要 Microsoft Teams 中的更多限制。 使用这组策略和策略设置可限制会议创建和管理、聊天管理和私人通话等功能。 |
 |**Education_SecondaryStudent**| 中学学龄学生 | 你所在机构内的中学适龄学生可能需要 Microsoft Teams 中的更多限制。 使用这组策略和策略设置可限制会议创建和管理、聊天管理和私人通话等功能。 |
 |**Education_HigherEducationStudent**| 高等教育学生 | 你所在机构内的高等教育学生所需的限制可能比年幼学生要少，但是可能建议采用某些限制。 可以使用这组策略和策略设置来授予对组织内的聊天、通话和会议的访问权限，但限制学生与外部参与者一起使用 Microsoft Teams 的方式。 |
+|**Education_PrimaryTeacher_RemoteLearning**| 教师和教职员工 | 创建一组适用于主要教师的策略，在远程学习中最大化学生的安全和协作。 |
+|**Education_PrimaryStudent_RemoteLearning**| 小学适龄学生| 创建一组适用于主要学生的策略，在远程学习中最大化学生的安全和协作。
 |||
 
 :::image type="content" source="media/edu-policy-packages-list.png" alt-text="策略包页面，其中包含可供选择的策略包列表。":::

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e34bc0b15186afdbbe33edb154f02b4decdc3b12
+ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140673"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44374300"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype for business 共存和互操作性
 
@@ -82,6 +82,8 @@ ms.locfileid: "43140673"
 **只有团队**用户（也称为已*升级*用户）可以访问团队中的所有功能。 他们可以保留 Skype for Business 客户端，以便在已由非升级用户或外部团体组织的 Skype for business 上加入会议。 通过使用团队和 Skype for business 之间的互操作性功能（前提是这些 Skype for business 用户未处于**孤岛**模式），升级后的用户可以继续与仍在使用 Skype for business 的组织中的其他用户进行通信。 但是，升级后的用户无法启动 Skype for Business 聊天、通话或会议。
 
 一旦你的组织准备好让部分或所有用户使用团队作为唯一的通信和协作工具，你可以将这些用户升级到 "**仅团队**" 模式。 如果你从**孤岛**模式升级，我们建议你首先让团队在开始升级过程之前饱和整个组织中的团队。 这可避免由于**孤岛**模式不提供互操作而导致的通信方案中断。
+
+在 "**仅限团队**" 模式下，"团队" 是 SIP/电话协议的默认应用。 这意味着 Outlook for 通话或聊天中的用户联系人卡片中的链接将由团队处理。
 
 有关移动到 "**仅团队**" 模式的其他注意事项，请参阅[仅团队模式注意事项](teams-only-mode-considerations.md)。
 
@@ -204,7 +206,7 @@ Skype for Business 中的互操作性和互操作性升级已于7月2019日的 C
  
 同时，Skype for Business 用户将收到一条传入聊天消息，其中包含指向会议的链接，并引导您加入会议。
 
-此向团队会议的升级适用于租户互操作和跨租户联合呼叫和聊天。 它在默认情况下处于打开状态，并且管理员尚未提供任何设置。 但是，如果管理员设置``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy``为``$false``，将对用户关闭该功能。
+此向团队会议的升级适用于租户互操作和跨租户联合呼叫和聊天。 它在默认情况下处于打开状态，并且管理员尚未提供任何设置。 但是，如果管理员设置为，将对用户关闭该功能 ``-AllowPrivateMeetNow`` ``CsTeamsMeetingPolicy`` ``$false`` 。
 
 查看本文后，请参阅[选择升级旅行](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)、[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)、[与 Skype for business 共存](coexistence-chat-calls-presence.md)，以及为实施详细信息[设置你的共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)。
 
