@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 的硬件要求
-ms.reviewer: ''
+ms.reviewer: microthk
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e6b61a610d01a50d09af77c626001ca2aff5918
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 9c37bc3aa89a92cf4fdd1e870f49653c8915355e
+ms.sourcegitcommit: d675569fe51c20d0ad1b9855191297530f922d75
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224115"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44385983"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -86,6 +86,7 @@ ms.locfileid: "44224115"
 - iOS：与 iPhone、iPad 和 iPod touch 兼容。
 
   仅支持 iOS 最新的两个主要版本。 新的 iOS 主要版本发布后，将正式支持 iOS 新版本和前一版本。
+  在 iOS 中，"**我的背景**视频" 效果的可选模糊需要操作系统为 ios 12 或更高版本，并且与以下设备兼容： iPhone 7 或更高版本、iPad 2018 （第6代）或更高版本，以及 iPod touch 2019 （第7代）。
 
 为获得 Teams 的最佳体验，请使用最新版本的 iOS 和 Android。
 

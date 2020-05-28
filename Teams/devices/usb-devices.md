@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 Microsoft 团队认证了哪些 USB 外围设备和设备，如耳机、免提、网络摄像头和监视器。
-ms.openlocfilehash: 8ecb8fcd065cb43c37fa4c55cc5b7106218d6eca
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
+ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281757"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44407404"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>为 Microsoft 团队认证的 USB 音频和视频设备
 
@@ -74,10 +74,16 @@ ms.locfileid: "44281757"
 
 ## <a name="certified-devices"></a>认证的设备
 
-*2020年4月更新*
+*更新的表格可能2020*
 
 | 制造商    | 型                   | 获  | 认证计划                                  |
 |:----------------|:------------------------|:-----------|:---------------------------------------------------|
+|Jabra evolve             |通过 Jabra evolve 链接 370 USB 转换器讲话750免提电话|5/21/2020 | 适用于 Microsoft 团队的认证  | 
+|EPOS              | Sennheiser 调整660耳机 |5/15/2020 |适用于 Microsoft 团队的认证  | 
+|EPOS              | Sennheiser 调整560耳机|5/15/2020 |适用于 Microsoft 团队的认证  | 
+|EPOS              | Sennheiser 460T 耳机 |5/15/2020 |适用于 Microsoft 团队的认证  | 
+|EPOS              | Sennheiser 调整360耳机| 5/15/2020 |适用于 Microsoft 团队的认证  | 
+|Yealink           |UH36 耳机 | 5/13/2020 |适用于 Microsoft 团队的认证  | 
 | Poly            | Savi 8210 Office        | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
 | Poly            | Savi 8210 UC            | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
 | Poly            | Savi 8220 Office        | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
