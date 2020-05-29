@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文，了解如何为 Microsoft 团队部署协作栏。
-ms.openlocfilehash: 4593d6b42e61efbd7d57f27fd0a10ed8f97b82f5
-ms.sourcegitcommit: f0ccafb7e9c2d382ab4545e085657e8129024f1d
+ms.openlocfilehash: 71f9482dd5f42ddeb56b32c1a92db033d1f179f7
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "44268016"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410447"
 ---
 # <a name="deploy-collaboration-bars-for-microsoft-teams"></a>为 Microsoft 团队部署协作栏
 
@@ -62,7 +62,7 @@ ms.locfileid: "44268016"
 
 如果您决定设置 Microsoft 365 资源帐户，您需要为其购买会议室许可证。 会议室许可证包括一个资源邮箱，使组织中的人员可以通过 Outlook 或团队预订会议室。 许可证还支持会议参与者之间的视频和音频会议以及屏幕共享。
 
-如果您需要从外部电话号码接收或拨打电话，您还需要 Microsoft 365 手机系统或 Microsoft 365 商业语音许可证。
+如果您需要接收或拨出外部电话号码，您可能需要一个呼叫计划或 Microsoft 365 Business Voice[附加设备许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)。 如果您的组织中已启用直接路由，则只需要会议室 SKU。
 
 创建资源帐户时，可以选择是让帐户自动接受或拒绝会议请求、允许定期会议、指定提前的人员可以预订资源的进度，等等。
 
@@ -87,7 +87,7 @@ ms.locfileid: "44268016"
 
 ### <a name="account-provisioning"></a>帐户预配
 
-如果您计划使用 Microsoft 365 资源帐户让用户预订协作栏，请按照[使用 microsoft 365 管理中心创建资源帐户](resource-account-ui.md)中的说明为需要其中一个的每个协作栏创建 Microsoft 365 资源帐户。 这也是你需要向资源帐户添加会议室许可证的地方，并且如果你想要拨打或接听外部电话号码、电话系统或商业语音许可证的来电，也是如此。
+如果您计划使用 Microsoft 365 资源帐户让用户预订协作栏，请按照[使用 microsoft 365 管理中心创建资源帐户](resource-account-ui.md)中的说明为需要其中一个的每个协作栏创建 Microsoft 365 资源帐户。 这也是你需要向资源帐户添加会议室许可证的地方，如果你想要在你的组织未使用直接路由的情况下拨打或接听外部电话号码、呼叫计划或商业语音许可证，请使用呼叫计划或商业语音许可证。
 
 如果要为单个用户分配协作栏以供其私人使用，则无需设置任何其他帐户。 用户可以使用其个人帐户登录到协作栏。
 

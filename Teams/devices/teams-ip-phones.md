@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议已认证，可供 Microsoft 团队获得最佳效果。
-ms.openlocfilehash: ceb1a1a0a6668b09c51713bac539b0916aaab838
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 37fd96db69b456ac5659cc430da19d2aad6fa560
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281756"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412629"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -65,9 +65,9 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 
 以下协作栏针对 Microsoft 团队进行了认证：
 
-|协作栏模型|固件版本|发布日期 |
-|:---|:---|:---|
-|Yealink VC210| 118.15.0.14|2020年2月|
+|协作栏模型|固件版本|发布日期 |会议室大小（最多）|
+|:---|:---|:---|:---|
+|Yealink VC210| 118.15.0.14|2020年2月|Focus 房间（3m x 3m） </br> 小会议室（4.5 米 x 4.5 米）|
 
 有关这些设备支持的功能的信息，请参阅[Microsoft 团队手机功能设置](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set)。
 

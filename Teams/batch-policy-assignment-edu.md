@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用 "批处理策略分配" 为远程学校（teleschool、长途）批量为您的教育机构中的大型用户分配策略。
 f1keywords: ''
-ms.openlocfilehash: bb851981f9923869d39c690dff6d22e446e0e844
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 5772a260642b09232e4df5eec57751a39ec2a74a
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033356"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410437"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>向学校的大型用户组分配策略
 
@@ -108,10 +108,8 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 ## <a name="assign-a-policy-in-bulk"></a>批量分配策略
 
-现在，我们会批量向用户分配适当的策略。 你可以为其分配或更新策略的最大用户数为每次20000。 例如，如果您有超过20000的员工和教育版，则需要提交多个批次。
+现在，我们会批量向用户分配适当的策略。 你可以为其分配或更新策略的最大用户数为每次5000。 例如，如果您有超过5000的员工和教育版，则需要提交多个批次。
 
-> [!IMPORTANT]
-> 我们当前建议你一次为每批5000用户分配策略。 在增加需求的这些时间内，你可能会遇到处理时间方面的延迟。 为了将这些增加的处理时间的影响降到最低，我们建议你向5000用户提交较小的批处理大小，并且仅在上一个批处理完成后再提交。 在正常工作时间内提交批还会有所帮助。
 
 运行以下操作，将名为 EducatorMeetingPolicy 的会议策略分配给你的员工和教育版。
 
@@ -120,7 +118,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> 若要批量分配不同的策略类型（如 TeamsMessagingPolicy），你需要更改```PolicyType```为你分配的策略和```PolicyName```策略名称。
+> 若要批量分配不同的策略类型（如 TeamsMessagingPolicy），你需要更改 ```PolicyType``` 为你分配的策略和 ```PolicyName``` 策略名称。
 
 ## <a name="get-the-status-of-a-bulk-assignment"></a>获取批量作业的状态
 
@@ -130,13 +128,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | fl
 ```
 
-若要查看批处理操作中每个用户的作业状态，请运行以下。 每个用户的详细信息都```UserState```在该属性中。
+若要查看批处理操作中每个用户的作业状态，请运行以下。 每个用户的详细信息都在该 ```UserState``` 属性中。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8173c8c | Select -ExpandProperty UserState
 ```
 
-## <a name="assign-a-policy-in-bulk-if-you-have-more-than-20000-users"></a>如果用户超过20000个用户，则批量分配策略
+## <a name="assign-a-policy-in-bulk-if-you-have-more-than-5000-users"></a>如果用户超过5000个用户，则批量分配策略
 
 首先，运行以下内容查看您拥有的职员和教育人数：
 
@@ -144,13 +142,13 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 3964004e-caa8-4eb4-b0d2-7dd2c8
 $faculty.count
 ```
 
-请运行以下操作以指定第一个20000，然后再指定下一个20000，依此类推，而不是提供整个用户 Id 列表。
+请运行以下操作以指定第一个5000，然后再指定下一个5000，依此类推，而不是提供整个用户 Id 列表。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-你可以更改用户 Id 的范围，直到到达用户的完整列表。 例如，输入```$faculty[0..19999```第一个批处理，为第二```$faculty[20000..39999```个批次使用，为```$faculty[40000..59999```第三个批处理输入，依此类推。
+你可以更改用户 Id 的范围，直到到达用户的完整列表。 例如，输入 ```$faculty[0..4999``` 第一个批处理，为第二个批次使用， ```$faculty[5000..9999``` ```$faculty[10000..14999``` 为第三个批处理输入，依此类推。
 
 ## <a name="get-the-policies-assigned-to-a-user"></a>获取分配给用户的策略
 

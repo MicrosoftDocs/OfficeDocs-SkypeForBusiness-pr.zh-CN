@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI Connector 以使用 CQD 查询模板
-ms.openlocfilehash: c9e644d9b21a21a9e87c9a51440610f1b4a15c6d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219832"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410467"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI Connector 以使用 CQD 查询模板
 
@@ -160,9 +160,9 @@ Power BI 连接器不支持日期切片器。 若要指定日期范围，请将�
 
 尽管有 Beta 标记，Power BI 的通话质量连接器是连接器的发行版本，由 Power BI 团队正式进行安全签名以反映此情况。 要删除该 Beta 标记的认证过程非常广泛，并且需要来自 Power BI 团队的承诺，才能向连接器提供直接支持。 由于时间限制，Power BI 团队目前无法提供该支持和更广泛的认证，但仍准备证明 Microsoft 通话质量连接器的安全、真实性和常规功能。
 
-### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>与浏览器中的高级 CQD 相比，连接线的速度似乎较慢？ 我可以采取哪些措施来提高性能？
+### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>与浏览器中的高级 CQD 相比，连接线看起来的速度慢吗？ 我可以采取哪些措施来提高性能？
 
-浏览器和连接器中的各种模板的查询性能实际上是相同的。 不同之处在于正在运行的并发查询的数量。 由于 CQD 的浏览器版本具有不太好开发和信息密集的可视化选项，因此我们的大部分报表限制为每次加载2-3 查询。 另一方面，连接线模板通常显示20个并发查询。 如果你希望生成的报表与你以前使用过的旧报表保持响应，请尝试在每个选项卡上创建不超过2-3 个查询的报表。
+浏览器和连接器中的各种模板的查询性能实际上是相同的。  与任何其他独立应用一样，Power BI 还会将其身份验证和呈现时间添加到我们的性能。 此外，二者之间的差异在于正在运行的并发查询的数量。 由于 CQD 的浏览器版本具有不太好开发和信息密集的可视化选项，因此我们的大部分报表限制为每次加载2-3 查询。 另一方面，连接线模板通常显示20个并发查询。 如果你希望生成的报表与你以前使用过的旧报表保持响应，请尝试在每个选项卡上创建不超过2-3 个查询的报表。
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>我发现运行查询时经常遇到10000行限制。 如何使连接线返回超过10000行？
 

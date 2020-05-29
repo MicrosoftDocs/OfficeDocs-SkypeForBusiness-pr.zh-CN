@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69f2ee37e63f83d6fc1d19ea733ff44ad23e7011
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 4daf270dcd67dc732bba5e5fe134d5a0994dcd75
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158989"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412639"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>为直接路由启用基于位置的路由
 
@@ -36,7 +36,7 @@ ms.locfileid: "44158989"
 - 用户
 - 网络站点
 - 网关配置
-- 通话政策
+- 通话策略
 
 你可以使用[Microsoft Team 管理中心](#using-the-microsoft-teams-admin-center)或[PowerShel](#using-powershell)l 启用基于位置的路由。
 
@@ -54,7 +54,7 @@ ms.locfileid: "44158989"
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>为网络站点启用基于位置的路由
 
-为需要强制实施路由限制的网站启用基于位置的路由。 若要执行此操作，请在 Microsoft 团队管理中心的左侧导航中，转到 "**位置** > **网络拓扑**"，选择一个网络网站，单击 "**编辑**"，然后打开 "**基于位置的路由**"。  
+为需要强制实施路由限制的网站启用基于位置的路由。 若要执行此操作，请在 Microsoft 团队管理中心的左侧导航中，转到 "**位置**  >  **网络拓扑**"，选择一个网络网站，单击 "**编辑**"，然后打开 "**基于位置的路由**"。  
 
 若要了解详细信息，请参阅[管理你的网络拓扑](manage-your-network-topology.md)。
 
@@ -62,7 +62,7 @@ ms.locfileid: "44158989"
 
 支持将呼叫路由到将呼叫路由到 PSTN 的 PSTN 网关的基于位置的路由，并关联网关所在的网络站点。 
 
-1. 在左侧导航中，转到 "**语音** > **直接路由**"，然后单击 " **SBCs** " 选项卡。
+1. 在左侧导航中，转到 "**语音**  >  **直接路由**"，然后单击 " **SBCs** " 选项卡。
 2. 选择 SBC，然后单击 "**编辑**"。 
 3. 在 "**基于位置的路由和媒体优化**" 下，打开 "**启用基于位置的路由**"。
 4. 指定网关站点 ID，然后设置绕过模式。
@@ -176,17 +176,6 @@ ms.locfileid: "44158989"
     Identity: sbc2.contoso.com 
     GatewaySiteLbrEnabled: $false 
     ```
-
-    连接到不路由到 PSTN 的系统的终结点（例如，PBX）将具有类似于为基于位置的路由启用的团队用户的终结点的限制。 这意味着，无论用户的位置如何，这些用户都可以与团队用户进行呼叫和接收呼叫。 他们还可以在不将呼叫路由到 PSTN 网络的其他系统（例如，连接到其他 PBX 的终结点）的情况下与其他系统进行呼叫和接收呼叫，而不管与系统关联的网络站点。 所有入站呼叫、出站呼叫、呼叫转移以及涉及 PSTN 终结点的呼叫转移将受到基于位置的路由 enforcements。 这些调用必须仅使用定义为此类系统本地的 PSTN 网关。 
-
-    下表显示两个不同网络站点中的四个网关的网关配置：两个连接到 PSTN 网关的两个网关和连接到 PBX 系统的两个。 
-
-    ||GatewaySiteLbrEnabled   |NetworkSiteID  |
-    |---------|---------|---------|
-    |PstnGateway：网关 1 DEL-GW    |    True     |   站点1（新德里）      |
-    |PstnGateway：网关 2 HYD-GW     |   True      |      Site 2 （Hyderabad）   |
-    |PstnGateway：网关 3 DEL-PBX    |    False     |     站点1（新德里）    |
-    |PstnGateway：网关 4 HYD-PBX    |    False     |    Site 2 （Hyderabad）     |
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>为呼叫策略启用基于位置的路由
 

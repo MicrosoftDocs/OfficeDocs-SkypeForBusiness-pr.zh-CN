@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中的团队用户与 Skype （消费者）用户之间的互操作性功能。
 localization_priority: Normal
-ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
+ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749549"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "44410427"
 ---
 # <a name="teams-and-skype-interoperability"></a>团队和 Skype 互操作性
 
@@ -68,17 +68,17 @@ Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊�
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>设置团队用户是否可以与 Skype 用户进行通信
 
-作为管理员，你可以使用 Microsoft 团队管理中心或 PowerShell 设置外部访问设置，以控制你的组织中的团队用户是否可以与 Skype 用户通信。 默认情况下，新租户的此功能处于关闭状态。
+作为管理员，你可以使用 Microsoft 团队管理中心或 PowerShell 设置外部访问设置，以控制你的组织中的团队用户是否可以与 Skype 用户通信。 默认情况下，对于新租户，此功能处于打开状态。
 
 如果您从 Skype for Business 升级到团队，您在 Skype for business 管理中心配置的外部通信设置将迁移到团队。
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 管理中心
 
-在 "Microsoft 团队管理中心" 中，转到 "**组织范围的设置** > **外部访问**"，然后打开 "**用户可以与 Skype 用户通信**"。 有关如何配置此和其他外部访问设置的分步指导，请参阅[管理团队中的外部访问](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
+在 "Microsoft 团队管理中心" 中，转到 "**组织范围的设置**  >  **外部访问**"，然后打开 "**用户可以与 Skype 用户通信**"。 有关如何配置此和其他外部访问设置的分步指导，请参阅[管理团队中的外部访问](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-将[CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与```EnablePublicCloudAccess```参数结合使用，以控制用户是否可以与 Skype 用户进行通信。 设置参数以```true```允许团队用户与 Skype 用户进行通信。 请注意， ```EnablePublicCloudAudioVideoAccess```该参数可用于启用/禁用音频/视频呼叫。
+将[CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与参数结合使用 ```EnablePublicCloudAccess``` ，以控制用户是否可以与 Skype 用户进行通信。 设置参数以 ```true``` 允许团队用户与 Skype 用户进行通信。 请注意，该 ```EnablePublicCloudAudioVideoAccess``` 参数可用于启用/禁用音频/视频呼叫。
 
 ## <a name="related-topics"></a>相关主题
 
