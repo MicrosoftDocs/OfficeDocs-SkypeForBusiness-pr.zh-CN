@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 443a59513d3a3151bdcc83250bf40ec4ac4398bb
+ms.sourcegitcommit: 2295a668a6f118b95f010e81150351741572b076
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898127"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44412619"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>使用“入门”向导设置商务语音
 
@@ -37,6 +37,8 @@ Microsoft 365 商务语音“入门”向导可让你快速设置以在 Microsof
 
 > [!IMPORTANT]
 > 只有在用户的邮箱位于 Microsoft 365 中时，Microsoft Teams 和商务语音才可用。  不支持本地 Exchange Server 上的邮箱。
+>
+> 入门向导不支持 Skype for Business 混合部署。 如果你有 Skype for Business 混合部署，并且想要设置商务语音，请检查[在组织中设置电话系统](../setting-up-your-phone-system.md)。
 
 <!-- After you've finished the wizard, you may want to check out the following articles:
 
