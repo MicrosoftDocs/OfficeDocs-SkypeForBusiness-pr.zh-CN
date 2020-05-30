@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 745644c7a6cf2207412faacd78e7b5a26d7b754d
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349656"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416882"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
@@ -73,11 +73,27 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 ![FirstlineWorker 应用设置策略的屏幕截图](../../media/firstline-worker-app-setup-policy.png "Microsoft 团队管理中心中的 FirstlineWorker 应用设置策略的屏幕截图")
 
-#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>将 FirstlineWorker 策略分配给单个用户
+#### <a name="assign-the-firstlineworker-policy-to-users"></a>将 FirstlineWorker 策略分配给用户
+
+若要向一个用户分配 FirstlineWorker 应用设置策略，请执行以下操作：
 
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
-2. 在“**已分配的策略**”旁，选择“**编辑**”。
-3. 在 "**团队应用设置策略**" 下，选择 " **FirstlineWorker**"，然后选择 "**保存**"。
+2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
+3. 在 "**应用设置策略**" 下，选择 " **FirstlineWorker**"，然后单击 "**应用**"。
+
+要一次为多个用户分配策略，请执行以下操作：
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
+2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
+3. 单击 "**应用设置策略**" 下的 "**编辑设置**"，选择 " **FirstlineWorker**"，然后单击 "**应用**"。  
+
+或者，您也可以执行以下操作：
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **设置策略**"。
+2. 通过单击策略名称的左侧，选择 FirstlineWorker 策略。
+3. 选择“管理用户”****。
+4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
+5. 添加完用户后，选择 "**应用**"。
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>将 FirstlineWorker 应用设置策略分配给组的用户成员
 
@@ -102,5 +118,15 @@ $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWor
 ``` 
 此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
 
+## <a name="search-the-audit-log-for-shifts-events"></a>在审核日志中搜索倒班事件
+
+**（处于预览阶段）**
+
+您可以在您的组织中搜索 "审核日志" 以查看倒班活动。  若要了解有关如何搜索审核日志和查看审核日志中记录的[班次活动](../../audit-log-events.md#shifts-in-teams-activities)列表的详细信息，请参阅[在审核日志中搜索团队中的事件](../../audit-log-events.md)。
+
+在搜索审核日志之前，必须先在[安全 & 合规中心](https://protection.office.com)启用审核。 若要了解详细信息，请参阅[打开或关闭审核日志搜索](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。 请记住，审核数据仅在你打开审核的位置可用。
+
 ## <a name="related-topics"></a>相关主题
+
 - [倒班一线工作者的帮助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [向团队中的用户分配策略](../../assign-policies.md)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e7db133b8878e77dbf14025b97c658b0de21e4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349606"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416722"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -37,6 +37,7 @@ ms.locfileid: "44349606"
 ![Outlook 功能区中的 Teams 会议加载项屏幕截图](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - 没有链接到团队外接程序的**直接 URL** 。
 > - 如果你的组织同时运行团队和 Skype for business，则有其他注意事项。 在某些情况下，"团队外接程序" 在 Outlook 中不可用。 有关详细信息，请参阅[从 Skype For Business 升级到团队](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
 > - 执行 Regsvr32.exe 文件的用户权限是将 Teams 会议加载项安装在计算机上的最低要求。
 > - 如果用户未看到 Teams 会议外接程序，请指示他们关闭 Outlook 和 Teams，然后按以下顺序执行操作：先重新启动 Teams 客户端，然后登录 Teams，再重新启动 Outlook 客户端。
@@ -65,6 +66,7 @@ Outlook for Mac 中的 "团队会议" 按钮将在 outlook for Mac 功能区中�
 用户单击“发送”后，会议协调（Teams 联接链接和拨入号码）将添加到会议邀请。****  
 
 ## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teams 会议加载项和 Outlook 的 FindTime
+
 FindTime 是 Outlook 的加载项，可帮助用户在各公司的会议时间达成共识。 会议受邀者提供首选时间后，FindTime 将代表用户发出会议邀请。 若在 FindTime 中选择了“联机会议”选项，FindTime 将安排 Skype for Business 或 Microsoft Teams 会议。**** （FindTime 会将组织设置的内容用作默认的联机会议频道。）
 
 > [!NOTE]  
@@ -96,7 +98,9 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 
 客户可以[选择从 Skype for Business 到 Teams 的升级过程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)。 租户管理员可以使用 Teams 共存模式来定义用户的这一过程。 租户管理员可以选择允许用户并行使用 Teams 和 Skype for Business（孤岛模式）。 
 
-处于孤岛模式的用户在 Outlook 中安排会议时，这些用户通常希望能够选择是安排 Skype for Business 还是 Teams 会议。 在 Outlook 网页版、Outlook Windows 和 Outlook Mac 中，用户处于孤岛模式时将同时看到 Skype for Business 和 Teams 加载项。 由于初始版本中的某些限制，Outlook 移动版仅可以支持创建 Skype for Business **或** Teams 会议。 有关详细信息，请参阅下表。
+处于孤岛模式的用户在 Outlook 中安排会议时，这些用户通常希望能够选择是安排 Skype for Business 还是 Teams 会议。 在 Outlook 网页版、Outlook 窗口和 Outlook Mac 版中，用户在默认情况下以 "孤岛" 模式查看 Skype for business 和团队外接程序。 你可以配置团队会议策略设置，以控制孤岛模式中的用户是否只能使用团队会议加载项或同时使用团队会议外接程序和 Skype for business 会议加载项。
+
+由于初始版本中的某些限制，Outlook 移动版仅可以支持创建 Skype for Business **或** Teams 会议。 有关详细信息，请参阅下表。
 
 | Teams 管理中心中的共存模式 | Outlook 移动版中的默认会议提供商 |
 | --------------------------------------|---------------------------------------------|
@@ -105,6 +109,14 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 | Skype for Business 和 Teams 协作 | Skype for Business |
 | Skype for Business 和 Teams 协作及会议 | Teams |
 | 仅 Teams | Teams |
+
+### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>设置 "孤岛" 模式中的用户是否只能使用团队会议加载项或同时使用团队会议和 Skype for business 会议加载项
+
+**（即将推出）**
+
+作为管理员，你可以配置团队会议策略设置，以控制将哪些 Outlook 会议加载项用于使用*孤岛模式的用户*。 你可以指定用户是否只能使用团队会议加载项或团队会议和 Skype for business 会议加载项在 Outlook 中安排会议。
+
+你只能将此策略应用到处于孤岛模式的用户，并在其团队会议策略中将**AllowOutlookAddIn**参数设置为**True** 。 有关如何设置此策略的步骤，请参阅为[用户在 "孤岛" 模式下设置会议提供商](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。
 
 ## <a name="other-considerations"></a>其他注意事项
 

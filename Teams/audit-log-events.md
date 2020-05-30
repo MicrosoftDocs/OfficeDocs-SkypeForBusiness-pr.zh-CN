@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解如何从审核日志中检索 Microsoft 团队数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88eda5d9acaeb876008b3eb35d38b348830cce48
-ms.sourcegitcommit: 67466cde3ffd5c42d632300b8a2adf7aab7df5d1
+ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43958407"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416732"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -34,7 +34,7 @@ ms.locfileid: "43958407"
 - 添加频道
 - 更改设置
 
-有关审核的团队活动的完整列表，请参阅[团队活动](#teams-activities)。
+有关审核的团队活动的完整列表，请参阅[团队](#teams-activities)活动和[团队活动倒班（在预览中）](#shifts-in-teams-activities)。
 
 > [!NOTE]
 > 来自专用频道的审核事件也会被记录为团队和标准频道。
@@ -59,7 +59,7 @@ ms.locfileid: "43958407"
 
 ## <a name="tips-for-searching-the-audit-log"></a>有关搜索审核日志的提示
 
-下面是在审核日志中搜索[团队活动](#teams-activities)的提示。
+下面是在审核日志中搜索团队活动的提示。
 
 ![审核日志搜索页面的屏幕截图](media/audit-log-search-page.png)
 
@@ -67,7 +67,7 @@ ms.locfileid: "43958407"
     ![审核日志搜索的屏幕截图](media/audit-log-search.png)
 - 若要显示使用 cmdlet 运行的活动事件，请在 "**活动**" 列表中选择 "**显示所有活动的结果**"。 如果您知道这些活动的操作的名称，请搜索所有活动，然后通过在 "**活动**" 列的框中键入操作的名称来筛选结果。 若要了解详细信息，请参阅[步骤3：筛选搜索结果](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)。
 - 若要清除当前搜索条件，请单击 "**清除**"。 日期范围将返回到过去七天的默认值。 您也可以单击 "全部**清除" 以显示所有活动的结果**，以取消所有选定的活动。
-- 如果找到5000结果，则可能假设有超过5000个事件满足搜索条件。 你可以优化搜索条件，然后重新运行搜索以返回较少结果，也可以通过选择 "**导出结果** > "**下载所有结果**来导出所有搜索结果。
+- 如果找到5000结果，则可能假设有超过5000个事件满足搜索条件。 你可以优化搜索条件，然后重新运行搜索以返回较少结果，也可以通过选择 "**导出结果**"  >  **下载所有结果**来导出所有搜索结果。
 
 查看[此视频](https://www.youtube.com/embed/UBxaRySAxyE)，以使用音频日志搜索。 加入团队的计划经理 Ansuman Acharya，因为他演示了如何执行审核日志搜索团队。
 
@@ -142,6 +142,41 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 |已更新连接线    |ConnectorUpdated         |用户修改了频道中的连接器。         |
 |已更新选项卡   |TabUpdated         |用户修改了频道中的选项卡。         |
 |用户已登录到团队     |TeamsSessionStarted         |用户登录到 Microsoft 团队客户端。 此事件不会捕获令牌刷新活动。         |
+
+## <a name="shifts-in-teams-activities"></a>团队活动的倒班
+
+**（处于预览阶段）**
+
+如果你的组织使用团队中的倒班应用，则可以在审核日志中搜索与倒班应用相关的活动。 下面是在 Microsoft 365 审核日志的团队中为倒班活动记录的所有事件的列表。
+
+|友好名称  |操作  |说明  |
+|---------|---------|---------|
+|已添加计划组      |SchedulingGroupAdded          |用户成功将新的计划组添加到计划。          |
+|已编辑的计划组     |SchedulingGroupEdited         |用户成功编辑计划组。          |
+|已删除的日程安排组         |SchedulingGroupDeleted              |用户从计划中成功删除计划组。|
+|已添加班次      |ShiftAdded          |用户成功地添加了班次。           |
+|已编辑班次       |ShiftEdited       |用户成功编辑班次。        |
+|删除的班次          |ShiftDeleted          | 用户成功删除班次。               |
+|已添加下班时间      |TimeOffAdded          |用户成功地为计划添加了时间。          |
+|编辑时间         |TimeOffEdited           |用户成功编辑超时。          |
+|删除的超时     |TimeOffDeleted              |用户成功删除超时。           |
+|已添加左移位     |OpenShiftAdded          |用户成功将打开的班次添加到了计划组。          |
+|已编辑的左移位    |OpenShiftEdited          |用户成功编辑计划组中打开的班次。          |
+|已删除的打开班次      |OpenShiftDeleted          |用户成功地从计划组中删除了一个打开的班次。         |
+|共享计划     |ScheduleShared                  |用户成功地为日期范围共享团队日程。          |
+|使用时间时钟上班打卡         |ClockedIn          |用户使用时间时钟成功地上班打卡。          |
+|使用时间时钟下班打卡      |ClockedOut          |用户使用时间时钟成功地下班打卡。          |
+|使用时间时钟启动中断      |BreakStarted          |用户在处于活动状态的时间时钟会话期间成功启动了中断。          |
+|使用时间时钟结束休息    |BreakEnded          |用户在活动时间时钟会话期间成功结束中断。          |
+|已添加时间时钟条目     |TimeClockEntryAdded          |用户成功地在工时单上添加了新的手动时间时钟条目。          |
+|已编辑的时间时钟条目     | TimeClockEntryEdited             |用户成功编辑工时单上的时间时钟条目。          |
+|已删除的时间时钟条目    |TimeClockEntryDeleted              |用户成功删除工时单上的时间时钟条目。          |
+|已添加班次请求         |RequestAdded              |用户添加了班次请求。          |
+|已响应班次请求     |RequestRespondedTo                  |用户响应了班次请求。          |
+|已取消班次请求         |RequestCanceled               |用户取消了班次请求。          |
+|已更改的日程安排设置      |ScheduleSettingChanged          |用户更改了 "倒班" 设置中的设置。         |
+|添加劳动力集成      |WorkforceIntegrationAdded                  | 倒班应用与第三方系统集成。         |
+|已接受的离开班次消息         |OffShiftDialogAccepted          |用户在倒班小时后确认访问团队的非班次消息。           |
 
 ## <a name="office-365-management-activity-api"></a>Office 365 管理活动 API
 

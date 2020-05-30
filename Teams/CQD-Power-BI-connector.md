@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI Connector 以使用 CQD 查询模板
-ms.openlocfilehash: 7c54c34bcdbdd7227e40dab52f9a765bf4336e37
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 84177d98addfa3efc96db4e77148556a941a74dc
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410467"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416862"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI Connector 以使用 CQD 查询模板
 
@@ -163,6 +163,10 @@ Power BI 连接器不支持日期切片器。 若要指定日期范围，请将�
 ### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>与浏览器中的高级 CQD 相比，连接线看起来的速度慢吗？ 我可以采取哪些措施来提高性能？
 
 浏览器和连接器中的各种模板的查询性能实际上是相同的。  与任何其他独立应用一样，Power BI 还会将其身份验证和呈现时间添加到我们的性能。 此外，二者之间的差异在于正在运行的并发查询的数量。 由于 CQD 的浏览器版本具有不太好开发和信息密集的可视化选项，因此我们的大部分报表限制为每次加载2-3 查询。 另一方面，连接线模板通常显示20个并发查询。 如果你希望生成的报表与你以前使用过的旧报表保持响应，请尝试在每个选项卡上创建不超过2-3 个查询的报表。
+
+有关详细信息，请参阅以下文章： 
+- [Power BI 的优化指南](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
+- [DirectQuery 模型指南](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>我发现运行查询时经常遇到10000行限制。 如何使连接线返回超过10000行？
 

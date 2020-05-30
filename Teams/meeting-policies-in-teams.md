@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 87f790db77d2f98f66f53e399bf13f134a8e0a6e
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374310"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416872"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -335,7 +335,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 这是每个组织单位策略，允许在会议会议中进行 leaderless 拨号。 此设置控制在没有经过身份验证的组织中，拨号用户是否可以加入会议。 默认值为 False，表示用户将在大厅中等待，直到组织中的经过身份验证的用户加入会议。 
 
-**注意**如果为 False 且用户先加入会议，并将其放在会议厅中，则组织用户必须通过团队客户端加入会议，以便从 lobbby 中允许用户。 没有可用于在用户中拨打的会议厅控件。 
+**注意**如果为 False 且用户先加入会议，并将其放置在会议厅中，则组织用户必须使用团队客户端加入会议，以便从会议厅中允许用户。 没有可用于在用户中拨打的会议厅控件。 
 
 
 ### <a name="automatically-admit-people"></a>自动允许人员
@@ -346,7 +346,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
  会议组织者可以单击会议邀请中的 "**会议选项**"，为其计划的每个会议更改此设置。
  
- **注意**在会议选项中，该设置为具有类似标签 "哪些人可以绕过会议厅"
+ **注意**在会议选项中，该设置标记为 "哪些人可以绕过会议厅"
   
 |设置值  |联接行为 |
 |---------|---------|
@@ -406,6 +406,23 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 若要使会议组织者能够下载会议出席报告，请将**AllowEngagementReport**参数设置为 "**已启用**"。 启用后，用于下载报告的选项将显示在 "**参与者**" 窗格中。
 
 若要阻止会议组织者下载报表，请将该参数设置为 "**已禁用**"。 默认情况下，此设置处于禁用状态，无法使用下载报表的选项。
+
+## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>会议策略设置-岛模式的会议提供商
+
+**（即将推出）**
+
+这是每个用户的策略。 此设置控制将哪些 Outlook 会议加载项用于*以孤岛模式*使用的用户。 你可以指定用户是否只能使用团队会议加载项或团队会议和 Skype for business 会议加载项在 Outlook 中安排会议。
+
+你只能将此策略应用到处于孤岛模式的用户，并在其团队会议策略中将**AllowOutlookAddIn**参数设置为**True** 。
+
+目前，您只能使用 PowerShell 设置此策略。 你可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有团队会议策略。 或者，使用 CsTeamsMeetingPolicy cmdlet 创建新[的](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)团队会议策略，并将其分配给用户。
+
+若要指定希望用户可以使用哪个会议加载项，请按如下方式设置**PreferredMeetingProviderForIslandsMode**参数：
+
+- 将参数设置为**TeamsAndSfB**可在 Outlook 中启用团队会议加载项和 Skype for business 加载项。 此值为默认值。
+- 将参数设置为**TeamsOnly**以仅在 Outlook 中启用团队会议外接程序。 此策略设置可确保所有未来会议都有团队会议加入链接。 它不会将现有 Skype for Business 会议加入链接迁移到团队。 此政策设置不会影响 Skype for Business 中的状态、聊天、PSTN 呼叫或任何其他功能，这意味着用户将继续使用 Skype for Business 进行这些功能。
+
+  如果将参数设置为**TeamsOnly**，然后切换回**TeamsAndSfB**，则会启用两个会议加载项。 但是，请注意，现有团队会议联接链接不会迁移到 Skype for business。 只有在更改后安排的 Skype for Business 会议才会有 Skype for business 会议加入链接。
 
 ## <a name="related-topics"></a>相关主题
 

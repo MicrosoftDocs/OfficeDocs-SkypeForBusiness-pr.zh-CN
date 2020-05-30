@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a6a1e54d677436b2441e9174cc265eb67b7664d2
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902267"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416742"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
 
@@ -104,7 +104,7 @@ ms.locfileid: "43902267"
 | 传入聊天和通话接收时间：|  团队或 Skype for business | Teams |
 | 在以下情况中接收 PSTN 呼叫： | Skype for Business <br>（在孤岛模式下不支持使用团队中的 PSTN 功能。）     | Teams |   
  |状态    | Skype for business 和团队中的状态是独立的。 对于同一孤岛用户，用户可能会看到不同的状态，具体取决于他们使用的客户端。 | 状态仅基于用户在团队中的活动。 所有其他用户，无论他们使用哪种客户端，都可以查看该状态。 | 
- | 会议计划    | 用户可以在团队或 Skype for Business 中安排会议。 它们将在 Outlook 中看到两个外接程序。    |     用户仅在团队中安排会议。 Outlook 中仅提供团队外接程序。 | 
+ | 会议计划    | 用户可以在团队或 Skype for Business 中安排会议。 默认情况下，他们将在 Outlook 中看到两个外接程序。 你可以设置团队会议策略来控制用户是否只能使用团队会议加载项或同时使用团队会议外接程序和 Skype for business 会议加载项（即将**推出**）。 若要了解详细信息，请参阅[为用户在 "孤岛" 模式下设置会议提供商](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。 |     用户仅在团队中安排会议。 Outlook 中仅提供团队外接程序。 | 
 
 下表总结了使用重叠的功能方法将组织迁移到团队的优点和缺点。
 

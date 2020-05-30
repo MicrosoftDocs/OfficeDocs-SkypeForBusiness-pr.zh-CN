@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解 Microsoft 团队聊天室中不同类型的呼叫和会议功能的可用许可证。
-ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 581be3b73e951ff4d3409ccf9f4ee10f212c7f23
+ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064487"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "44416842"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>团队会议室许可更新
 
@@ -67,7 +67,7 @@ Microsoft 有一个专用的 SKU，用于针对会议室设备（如 Microsoft �
 |加入计划的会议  | 会议室 SKU  |Skype for Business Server 标准 CAL  |
 |启动临时会议 | 会议室 SKU  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server 企业 CAL|
 |启动临时会议并从会议拨出到电话号码 |  会议室 SKU |Skype for Business 标准 CAL  <br/> Skype for Business Server 企业 CAL|
-|为会议室提供电话号码，使用电话号码拨打或接听会议室或加入音频会议  | 会议室 SKU  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  |
+|为会议室提供电话号码，使用电话号码拨打或接听会议室或加入音频会议  | 通过直接路由：会议室 SKU<br/>无直接路由：国内或国际通话计划<br/>Microsoft 365 商务语音  |Skype for Business Server 标准 CAL  <br/> Skype for Business Server Plus CAL  |
 |通过 Microsoft Intune 管理会议室设备 |会议室 SKU  |包含[本地 MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm)的 Microsoft Intune 订阅 |
 | |||
 
