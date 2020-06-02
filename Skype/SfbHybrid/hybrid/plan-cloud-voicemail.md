@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文介绍了实施 Microsoft 云语音邮件服务的好处、规划注意事项和要求。 有关配置云语音邮件的信息，请参阅配置云语音邮件。
-ms.openlocfilehash: e07dfe76a60d107702891384458cf164a4744578
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: b78608f3fd1e60421ad0edc4318b2b44217851c2
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221282"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472251"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>为本地用户规划云语音邮件服务
 
@@ -79,7 +79,7 @@ Skype for Business Server 2019 继续为其邮箱位于早期版本的 Exchange 
 
 - 外部 Exchange Web 服务（EWS） URL 和自动发现必须设置，否则一些云语音邮件功能将受到限制。
 
-- 如果您具有仅限本地部署&#x2014;也就是说，仅 Exchange 和 Skype for business 内部部署服务器&#x2014;但您希望充分利用云语音邮件，则需要电话系统许可证。
+- 如果您有一个内部部署 Exchange 服务器，请使用为[Exchange Server 邮箱用户设置云语音邮件](https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users)中的步骤设置云语音邮件。
 
 ## <a name="migration-and-interoperability"></a>迁移和互操作性
 

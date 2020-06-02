@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: efe9e50ae7f3365917ea31ef722a47c1f1fe95ec
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416872"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489144"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -423,6 +423,24 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 - 将参数设置为**TeamsOnly**以仅在 Outlook 中启用团队会议外接程序。 此策略设置可确保所有未来会议都有团队会议加入链接。 它不会将现有 Skype for Business 会议加入链接迁移到团队。 此政策设置不会影响 Skype for Business 中的状态、聊天、PSTN 呼叫或任何其他功能，这意味着用户将继续使用 Skype for Business 进行这些功能。
 
   如果将参数设置为**TeamsOnly**，然后切换回**TeamsAndSfB**，则会启用两个会议加载项。 但是，请注意，现有团队会议联接链接不会迁移到 Skype for business。 只有在更改后安排的 Skype for Business 会议才会有 Skype for business 会议加入链接。
+
+## <a name="meeting-policy-settings---video-filters-mode"></a>会议策略设置-视频筛选器模式
+
+这是每个用户的策略。 此设置控制用户是否可以在会议中自定义其视频背景。
+
+目前，您只能使用 PowerShell 设置此策略。 你可以使用[CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) cmdlet 编辑现有团队会议策略。 或者，使用 CsTeamsMeetingPolicy cmdlet 创建新[的](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy)团队会议策略，然后将策略分配给用户。
+
+若要指定用户是否可以在会议中自定义其视频背景，请设置**VideoFiltersMode**参数，如下所示：
+
+|在 PowerShell 中设置值 |行为  |
+|---------|---------|
+|**NoFilters**     |用户无法自定义其视频背景。|
+|**BlurOnly**     |用户可以选择对视频背景进行模糊处理。 |
+|**BlurandDefaultBackgrounds**     |用户可以选择对其视频背景进行模糊处理，或从一组图像中进行选择以用作背景。 |
+|**AllFilters**     |使用可选择对视频背景进行模糊处理、从一组图像中进行选择，或上载自定义图像以用作其背景。 |
+
+> [!NOTE]
+> 用户上载的图像不会由团队进行筛选。 使用**AllFilters**设置时，你应具有内部组织策略，以防止用户上传攻击性或不合适的图像，或者你的组织无权使用团队会议背景的图像。
 
 ## <a name="related-topics"></a>相关主题
 

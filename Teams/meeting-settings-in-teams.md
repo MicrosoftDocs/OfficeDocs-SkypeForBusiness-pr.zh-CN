@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898167"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489134"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -38,8 +38,11 @@ ms.locfileid: "43898167"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，转到“**会议**” > “**会议设置**”。
-2. 在“**参与者**”下，打开“**匿名用户可以加入会议**”。
+1. 转到管理中心 <a href="https://go.microsoft.com/fwlink/?linkid=867439" target="_blank">https://admin.teams.microsoft.com</a> 。
+
+2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
+
+3. 在“**参与者**”下，打开“**匿名用户可以加入会议**”。
 
     ![管理中心会议的参与者设置的屏幕截图](media/meeting-settings-participants.png "Microsoft Teams 管理中心 Teams 会议的参与者设置的屏幕截图")
 
@@ -62,8 +65,9 @@ ms.locfileid: "43898167"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，转到“**会议**” > “**会议设置**”。
-2. 在“**电子邮件邀请**”下，执行以下操作：
+1. 转到<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>。。
+2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
+3. 在“**电子邮件邀请**”下，执行以下操作：
 
     ![可自定义的会议邀请设置的屏幕截图](media/meeting-settings-invitation.png "可以为 Teams 会议自定义的会议邀请设置的屏幕截图")
 
@@ -71,9 +75,9 @@ ms.locfileid: "43898167"
     - **法律 URL** 如果你的组织有一个法律网站，并且你希望其他人转至该网站了解任何法律问题，请在此处输入其 URL。
     - **帮助 URL** 如果你的组织有一个支持网站，并且你希望人们在遇到问题时转至该网站，请在此处输入其 URL。
     - **页脚**输入要作为页脚包含在内的文本。
-3. 单击“**预览邀请**”可查看会议邀请的预览。
-4. 完成时单击“**保存**”。
-5. 等待一个小时左右，以便传播所作的更改。 然后，安排一次 Teams 会议，查看会议邀请的外观。  
+4. 单击“**预览邀请**”可查看会议邀请的预览。
+5. 完成时单击“**保存**”。
+6. 等待一个小时左右，以便传播所作的更改。 然后，安排一次 Teams 会议，查看会议邀请的外观。  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>设置你希望如何处理 Teams 会议的实时媒体流量
 
@@ -85,9 +89,9 @@ ms.locfileid: "43898167"
 > 如果要在 Microsoft Teams 管理中心为 Microsoft Teams 服务启用 QoS 或更改设置，还需[向所有用户设备和所有内部网络设备应用匹配设置](QoS-in-Teams-clients.md)，以完全实施对 Teams 中的 QoS 所作的更改。
 
  ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
-
-1. 在左侧导航中，转到“**会议**” > “**会议设置**”。
-2. 在“**网络**”下，执行以下操作：
+1. 转到<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>。
+2. 在左侧导航中，转到“**会议**” > “**会议设置**”。
+3. 在“**网络**”下，执行以下操作：
 
     ![管理中心会议的网络设置的屏幕截图](media/meeting-settings-network.png "Microsoft Teams 管理中心 Teams 会议的网络设置的屏幕截图")
 

@@ -15,12 +15,12 @@ description: 使用本指南可以将 Microsoft 团队作为您的第一个 Offi
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
+ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041709"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44472343"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>首先部署 Microsoft 团队
 
@@ -142,9 +142,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
 <li><p>支持针对频道消息的电子数据展示和法律封存</p></li>
 <li><p>数据丢失防护策略（DLP）可用</p></li>
 </ul>
-<p>完整功能集通过 Exchange Online 提供，本地 Exchange 支持这些功能中的大部分，请参阅</p>
-<p><a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">Exchange 与 Teams 如何交互</a></p>
-<p>对于完整列表</p></td>
+<p>完整功能集在 Exchange Online 中可用，本地 Exchange 支持大多数功能，请参阅<a href="https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact">exchange 和团队如何与</a>完整列表交互。</p></td>
 </tr>
 </tbody>
 </table>
@@ -243,8 +241,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
     [获取 Teams 客户端](get-clients.md)
 
 5.   推动你的采纳计划  
-    [采用 Microsoft Teams](adopt-microsoft-teams-landing-page.md)
-    
+    [采用 Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft Teams 采用快速入门清单](teams-adoption-quick-start-checklist.md)
 
 6.  开始规划将其他工作负荷移动到 Office 365
