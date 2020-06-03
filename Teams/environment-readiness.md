@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 如何在计划从 Skype for Business 迁移到 Microsoft 团队时执行详细的环境发现。
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 495afddf585f0a94c6927d1f8001c0ad007d809c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e233664f2110b342e0a81ccf64d66c32ea3d7648
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706632"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523297"
 ---
 # 
 
