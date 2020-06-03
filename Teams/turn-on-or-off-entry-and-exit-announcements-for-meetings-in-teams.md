@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 管理员可以了解如何在 Microsoft 团队会议中打开或关闭 "进入" 和 "退出" 通知。
-ms.openlocfilehash: b5c9227ad50816fecf64690b4a2de3233e7a669f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 5b3cdabac41c5c79827df714ccf3192f06b55440
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904744"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539469"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>在 Microsoft Teams 中打开或关闭会议的进入和退出公告
 
@@ -41,17 +41,23 @@ ms.locfileid: "43904744"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
+只有管理员才能进行这些更改。
 
-2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
+1. 登录到管理中心  <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
 
-3. 在“**网桥设置**”窗格中，启用或禁用“**会议进入和退出通知**”。 默认情况下，此选项处于选中状态。 如果你将其取消选中，则当有人进入或离开会议时，已加入会议的用户不会收到通知。
+2. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
+
+3. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
+
+4. 在“**网桥设置**”窗格中，启用或禁用“**会议进入和退出通知**”。 默认情况下，此选项处于选中状态。 如果你将其取消选中，则当有人进入或离开会议时，已加入会议的用户不会收到通知。
     
-4. 在“**进入/退出公告类型**”下，选择“**姓名或电话号码**”或“**声音**”。
+5. 在**进入/退出公告类型**下，选择**姓名或电话号码** 或 **提示音**。
+  > [!NOTE]
+  > 默认情况下，外部参与者看不到拨入的参与者的电话号码。 如果您想要维护这些电话号码的隐私，请选择 "**输入/退出通知类型**" 的 "**声音**" （这可防止 "团队" 朗读数字）。
     
-5. 如果你选择“**姓名或电话号码**”，请启用或禁用“**要求呼叫者在加入会议之前录制其姓名**”。
+6. 如果你选择“**姓名或电话号码**”，请启用或禁用“**要求呼叫者在加入会议之前录制其姓名**”。
     
-6. 单击“**保存**”。
+7. 单击“**保存**”。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 

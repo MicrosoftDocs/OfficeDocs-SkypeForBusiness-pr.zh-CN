@@ -17,16 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的紧急呼叫策略，定义当组织中的团队用户拨打紧急电话时会发生什么情况。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea02c1c7f9d4142db9cb25c00714e04a28e0e5e3
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 98d6fb5eba98701cddccb808e5670fb34a00efbf
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350196"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539479"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫策略
 
-如果您的组织使用呼叫计划或部署的电话系统直接路由，则可以使用 Microsoft 团队中的紧急呼叫策略定义当组织中的团队用户进行紧急呼叫时发生的情况。 你可以设置被分配了策略的用户呼叫紧急服务时通知的人员以及通知的方式。 例如，你可以将策略设置配置为自动通知组织的安全桌面，并让他们在紧急呼叫中进行侦听。  
+如果您的组织使用[呼叫计划](set-up-calling-plans.md)或部署的[电话系统直接路由](direct-routing-landing-page.md)，则可以使用 Microsoft 团队中的紧急呼叫策略定义当组织中的团队用户进行紧急呼叫时发生的情况。 你可以设置被分配了策略的用户呼叫紧急服务时通知的人员以及通知的方式。 例如，你可以将策略设置配置为自动通知组织的安全桌面，并让他们在紧急呼叫中进行侦听。  
 
 通过转到**Voice**  >  Microsoft 团队管理中心或使用 Windows PowerShell 中的语音**紧急策略**来管理紧急呼叫策略。 可将策略分配给用户和[网络站点](cloud-voice-network-settings.md)。
 
@@ -45,9 +45,9 @@ ms.locfileid: "44350196"
     - **仅发送通知**：团队聊天消息将发送到您指定的用户和组。
     - **Conferenced in 但静音**：将团队聊天消息发送给你指定的用户和组，他们可以在呼叫方和 PSAP 运营商之间的对话中侦听（但不参与）。
     - **Conferenced 在已取消静音** **（即将推出）**：团队聊天消息将发送给你指定的用户和组，并且可以取消静音以侦听和参与调用方和 PSAP 运算符之间的对话。
-5.  如果在 "**通知的拨出号码**" 框中选择了 "Conferenced"，**但处于静音**通知模式，则可以输入用户或组的 PSTN 电话号码呼叫并加入紧急呼叫。 例如，输入您的组织的安全桌面号码，当进行紧急呼叫时，您将收到呼叫，然后就能接听电话。
+5.  如果您选择了 "Conferenced"，**但处于静音**通知模式，请在 "**拨打紧急电话通知的号码**" 框中，输入用户或组的 PSTN 电话号码以呼叫并加入紧急呼叫。 例如，输入您的组织的安全桌面号码，当进行紧急呼叫时，您将收到呼叫，然后就能接听电话。
 6. 搜索并选择一个或多个用户或组（如组织的安全桌面），以便在发生紧急呼叫时发出通知。  通知可以发送到用户、通讯组和安全组的电子邮件地址。 最多可通知50用户。
-7. 单击“**保存**”。
+7. 单击“**应用**”。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

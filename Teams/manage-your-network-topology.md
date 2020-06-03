@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何为 Microsoft 团队中的云语音功能配置网络设置。
-ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 03eaeac1bce07cffa7dc000f964f080361a37d40
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888701"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539620"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>在 Microsoft 团队中管理云语音功能的网络拓扑
 
@@ -39,12 +39,12 @@ ms.locfileid: "41888701"
 
 #### <a name="add-and-configure-a-network-site"></a>添加和配置网络网站
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**位置** > **网络拓扑**"，然后单击 "**网络站点**" 选项卡。
-2. 单击 "**新建**"，然后输入网站的名称和说明。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**位置**  >  **网络拓扑**"，然后单击 "**网络站点**" 选项卡。
+2. 单击 "**添加**"，然后输入网站的名称和说明。
 
     !["添加网络" 网站页面的屏幕截图](media/manage-network-topology-add-site.png)
 
-3. 若要将网站与网络区域相关联，请单击 "**链接网络区域**"，选择现有区域或单击 "**添加**" 以添加区域，然后单击 "**链接**"。  
+3. 若要将网站与网络区域相关联，请单击 "**添加网络区域**"，选择现有区域或单击 "**添加**" 以添加区域，然后单击 "**链接**"。  
 4. 若要为网站启用基于位置的路由，请打开**基于位置的路由**。
 5. 若要向网站分配紧急服务策略，请执行下列一项或两项操作：
 
@@ -56,7 +56,7 @@ ms.locfileid: "41888701"
 
 #### <a name="modify-a-network-site"></a>修改网络网站
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**位置** > **网络拓扑**"，然后单击 "**网络站点**" 选项卡。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**位置**  >  **网络拓扑**"，然后单击 "**网络站点**" 选项卡。
 2. 通过单击网站名称左侧的位置选择网站，然后单击 "**编辑**"。
 3. 进行所需的更改，然后单击 "**保存"。**
 
@@ -66,7 +66,7 @@ ms.locfileid: "41888701"
 
 #### <a name="add-a-trusted-ip-address"></a>添加受信任的 IP 地址
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**位置** > **网络拓扑**"，然后单击 "**受信任的 ip** " 选项卡。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**位置**  >  **网络拓扑**"，然后单击 "**受信任的 ip** " 选项卡。
 2. 单击“新建”****。
 3. 在 "**添加信任的 IP 地址**" 窗格中，指定 "ip 版本"、"ip 地址"、"网络范围"、"添加说明"，然后单击 "**应用**"。
 
@@ -74,7 +74,7 @@ ms.locfileid: "41888701"
 
 #### <a name="edit-a-trusted-ip-address"></a>编辑受信任的 IP 地址
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**位置** > **网络拓扑**"，然后单击 "**受信任的 ip** " 选项卡。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**位置**  >  **网络拓扑**"，然后单击 "**受信任的 ip** " 选项卡。
 2. 通过单击 IP 地址左侧的，然后单击 "**编辑**" 来选择 IP 地址。
 3. 在 "**编辑信任的 IP 地址**" 窗格中，进行所需的更改，然后单击 "**应用**"。
 
@@ -84,7 +84,7 @@ ms.locfileid: "41888701"
 
 ### <a name="define-network-regions"></a>定义网络区域
 
- 使用[CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet 定义网络区域。 请注意，RegionID 参数是一个逻辑名称，表示区域的地理位置，并且没有相关性或限制，并且 CentralSite &lt;site ID&gt;参数是可选的。
+ 使用[CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion) cmdlet 定义网络区域。 请注意，RegionID 参数是一个逻辑名称，表示区域的地理位置，并且没有相关性或限制，并且 CentralSite &lt; SITE ID &gt; 参数是可选的。
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  

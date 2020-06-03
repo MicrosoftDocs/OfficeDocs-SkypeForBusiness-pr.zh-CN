@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b245566c0920604dac0e10e6a6cfe49937570bc2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: bace73e411970ee1b907890b08a5e501daf90e50
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137112"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539639"
 ---
 <a name="add-and-update-reporting-labels"></a>添加和更新报告标签
 ============================
@@ -38,7 +38,7 @@ ms.locfileid: "43137112"
 
 **编辑子网和位置表**
 
-1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**位置** > **报告标签**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**位置**  >  **报告标签**"。
 2. 单击 "**替换位置数据**"。
 3. 在 "**替换位置数据**" 窗格中，单击 "**选择文件**"，然后浏览到并上载已编辑的 .csv 或 tsv 文件。
 4. 单击 "**上载**"。

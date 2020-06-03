@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 在本文中，你将了解如何为你的组织中的用户分配或更改紧急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 096e2dead1ede4f9769dafd85dfac23d6c44f399
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: f11bfd9762667823b4ec6b2883c9661f9f5754d0
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232473"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539499"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>为用户分配或更改紧急位置
 
@@ -37,7 +37,7 @@ ms.locfileid: "44232473"
 
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**语音**  >  **电话号码**"。
 
-2. 在 "**电话号码**" 页面上，选择列表中的一个用户号码，然后单击 "**编辑**"。
+2. 在 "**电话号码**" 页面上，单击 "**数字**" 选项卡，选择列表中的用户号码，然后单击 "**编辑**"。
 
 3. 在 "**编辑**" 窗格的 "**紧急位置**" 下，执行下列操作之一：
 
@@ -45,7 +45,9 @@ ms.locfileid: "44232473"
 
    - 若要更改已分配给用户的紧急位置，请单击 " **X** " 以删除现有位置，然后搜索并选择要分配的位置。
 
-4. 单击“**保存**”。
+4. 根据您是否想要使用电话号码信息向用户发送电子邮件，请关闭或打开**包含电话号码信息的电子邮件用户**。 默认情况下，此项处于打开状态。
+
+5. 单击“**应用**”。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 

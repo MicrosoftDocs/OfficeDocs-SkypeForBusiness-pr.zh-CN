@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: '了解如何在 Microsoft 团队管理中心添加、更改或删除你的组织的紧急位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72730a326c6239b195d77f8a7bdde1b376da646f
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232483"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539459"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>添加、 更改或删除您的组织紧急地点
 
@@ -40,13 +40,13 @@ ms.locfileid: "44232483"
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**位置**  >  **紧急地址**"。
-2. 单击 "**添加位置**"。
+2. 单击“添加”****。
 3. 输入位置的名称和说明。
 4. 选择国家或地区，然后输入地址。
 
    > [!NOTE]
    > 在比利时、法国、德国、爱尔兰、荷兰和西班牙，请务必了解要在 Office 365 中成功激活电话号码，在紧急位置（用于获取号码）中设置的地址必须与电话号码的区号匹配。
-5. 如果找不到地址，并且想要手动编辑地址，请打开 "**如果找不到所选地址，请手动编辑地址表单**"。
+5. 如果找不到地址，而您想要手动编辑地址，请打开 "**手动编辑地址"**。
 6. 单击“**保存**”。
 
 ### <a name="using-powershell"></a>使用 PowerShell
