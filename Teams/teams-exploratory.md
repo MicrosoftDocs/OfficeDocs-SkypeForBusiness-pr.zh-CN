@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c40e9f89d56329dc8f4f450b72a76c031315b9a
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 502bdb8c5e441449680fa383b20f3e570d8a8ecc
+ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041749"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44489124"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -79,7 +79,7 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>阻止用户安装试用版应用和服务
 
-可以禁用用户安装试用版应用和服务的功能，这会阻止用户运行 Teams 探索体验。
+可以禁用用户安装试用版应用和服务的功能，这会阻止用户运行 Teams 探索体验。 必须具有管理员权限。 若要详细了解管理员角色，请参阅[使用 Microsoft Teams 管理员角色来管理 Teams](teams-exploratory.md)。
 
 1. 从 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **设置**，选择**服务**，然后选择**用户自有应用和服务**。
 
@@ -94,11 +94,11 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>为拥有包含 Teams 的许可证的用户管理可用性
 
-分配了包含 Teams 的许可证的用户不符合获取 Teams Exploratory 的条件。 启用 Teams 服务计划时，用户可登录并使用 Teams。 如果禁用服务计划，则用户无法登录，并且 Teams Exploratory 体验不可用。
+分配了包含 Teams 的许可证的用户不符合获取 Teams Exploratory 的条件。 启用 Teams 服务计划时，用户可登录并使用 Teams。 如果禁用服务计划，则用户无法登录，并且 Teams Exploratory 体验不可用。 必须具有管理员权限。 
 
 关闭对 Teams 的访问：
 
-1. 在 Microsoft 365 管理中心中，选择“**用户**” > “**活动用户**”。
+1. 在 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)中，选择“**用户**” > “**活动用户**”。
 
 2. 选择用户姓名旁的框。
 
@@ -110,7 +110,7 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>为已在使用 Teams Exploratory 体验的用户管理团队可用性
 
-如果用户运行 Teams Exploratory 体验，则可以通过删除许可证或服务计划将其关闭。
+如果用户运行 Teams Exploratory 体验，则可以通过删除许可证或服务计划将其关闭。 必须具有管理员权限。 
 
 若要关闭 Teams Exploratory 体验许可证，请执行以下操作：
 
@@ -131,7 +131,7 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ### <a name="upgrade-users-from-the-teams-exploratory-license"></a>从 Teams Exploratory 许可证升级用户
 
-要从 Teams Exploratory 许可证升级用户，请执行以下操作：
+要从 Teams Exploratory 许可证升级用户（必须拥有管理员权限），请执行以下操作：
 
 1. 购买包含 Teams 的订阅。
 
@@ -161,3 +161,10 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>如果最终用户刚好在我的周年纪念或续订日期前启动 Microsoft Teams Exploratory 体验，会发生什么情况？
 
 在**协议周年日**或**续订**后的 90 天内启动的 Microsoft Teams 探索体验许可证无需迁移到付费许可证，直到下一个周年日或续订周期。 
+
+### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>如果我的协议没有周年日或每年的续约日期（例如逐月协议），该怎么办？
+
+对于无周年日或年度续订日期的协议，第一位最终用户后面的年份激活 Microsoft 团队探索体验许可证将被视为周年日或续订日期。 根据上述策略，必须在每年的此日期之前将拥有 Microsoft Teams 探索许可证的用户转换为付费许可证。
+
+例如，如果第一位最终用户在 2020 年 6 月 19 日激活了 Microsoft Teams 探索，则他们和客户租户中的所有其他符合条件的用户必须在 2021 年 6月 19 日之前转换为 Teams 付费许可证。 
+

@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 577ed8ea84326510ad1c2943dcbf0b280a2bd9ae
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f50b8c03304a308594fd7bd920ee92e8d38a1f43
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769415"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205553"
 ---
 # <a name="activity-report"></a>活动报告
 
-Office 365 "**报表**" 仪表板显示组织中的 office 365 产品的活动概述。 它使您能够深入查看各个产品级别的报表，让您更细致地了解每个产品内的活动。 例如，你可以使用**Skype For business 活动**报表查看你的用户使用的是对等会议会话还是组织的会议会话的数量，或者他们参与会议会话的数量。 
+"**报告**" 仪表板显示你的组织中的 Microsoft 365 或 Office 365 产品的活动概述。 它使您能够深入查看各个产品级别的报表，让您更细致地了解每个产品内的活动。 例如，你可以使用**Skype For business 活动**报表查看你的用户使用的是对等会议会话还是组织的会议会话的数量，或者他们参与会议会话的数量。 
 
 查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以了解详细信息。
   
@@ -40,9 +40,9 @@ Office 365 "**报表**" 仪表板显示组织中的 office 365 产品的活动�
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>如何访问 Skype for Business 活动报告
 
-1. 转到管理中心 >**报告** > **使用情况**。
+1. 转到管理中心 >**报告**  >  **使用情况**。
     
-2. 在 "**使用情况**" 页面上，在左侧的 "**选择报表" 列表**中选择 " **skype for business** > **活动**"，或单击 " **skype for business 活动**" 小组件。
+2. 在 "**使用情况**" 页面**Skype for Business**上，在  >  左侧的 "**选择报表" 列表**中选择 "skype for business**活动**"，或单击 " **skype for business 活动**" 小组件。
 
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>解释 Skype for Business 活动报告
@@ -89,7 +89,7 @@ Office 365 "**报表**" 仪表板显示组织中的 office 365 产品的活动�
 * **对等**显示用户使用的对等会议会话的总数。
 * " **组织会议**"显示该用户组织的会议的总数。
 * " **参与会议**"显示该用户参与的会议总数。
-* " **分配的产品**"表示分配给此用户的 Office 365 产品。<br/>
+* "**分配的产品**" 表示分配给此用户的 Microsoft 365 或 Office 365 产品。<br/>
 
 如果你的组织的策略阻止你查看用户信息可标识的报表，你可以更改所有这些报表的隐私设置。 查看[管理中心中活动报表](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)**的 "报表" 部分中的 "隐藏用户详细信息**"。
 ***

@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: cd5056b2252d4aaad7f1bc8c104c43f43aa516fd
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489144"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523145"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
 ::: zone target="docs"
 会议策略Meeting policies用于控制组织中用户安排的会议的与会者可用的功能。 创建策略并进行更改后，即可以将用户分配到策略。 可在 Microsoft 团队管理中心或通过使用[PowerShell](teams-powershell-overview.md)管理会议策略。
+
+> [!NOTE]
+> 有关使用角色管理会议演示者和与会者的权限的信息，请参阅[团队会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
 
 你可以通过以下方式实施策略，这会在会议开始之前、会议期间或会议后影响用户的会议体验。
 

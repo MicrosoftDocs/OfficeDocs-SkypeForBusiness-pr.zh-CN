@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen, bjwhalen
+ms.reviewer: landerl, bjwhalen
 description: Skype for business 和 Microsoft 团队共存选项和模式的详细信息，以及通过示例方案将慷慨升级到来自 Skype for Business 的团队。
 localization_priority: Normal
 search.appverid: MET150
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6a1e54d677436b2441e9174cc265eb67b7664d2
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 548b1f9adbd964737c664baab108201412b6e90f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416742"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522775"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
 

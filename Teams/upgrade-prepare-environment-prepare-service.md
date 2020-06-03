@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 了解在团队中为协作和云语音服务准备组织的要求。
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b51897aa0c135f13a0f7950576665527d5dbc834
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ae0a9f0e3d82dcfeb62a90d4601394bf39a03877
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905244"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523025"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>准备要升级到团队的服务
 

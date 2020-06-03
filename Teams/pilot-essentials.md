@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 有关启动 Microsoft 团队试点项目的指南，了解所有团队可以在你继续使用 Skype for Business 时提供你的组织
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 0849c2aae273953e7cb67b95f32cf30f4e17297f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706452"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522685"
 ---
 # <a name="conduct-a-user-pilot"></a>执行用户试点
 
@@ -38,7 +38,7 @@ ms.locfileid: "42706452"
 - [准备好你的环境](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 
-通过部署新技术，你的组织可以实现成本节约、安全合规性、员工满意度和操作效率等业务价值，但也会影响用户的生产力和组织基础结构（您的网络）。 在您的组织中启用新技术之前，请进行正式的用户试验。 就像在绘制整个聊天室之前在墙上绘制小的颜色片一样，你可以通过执行试验来验证技术和用户准备情况、识别和缓解问题，从而在较小的范围内测试广泛的推出，并帮助确保成功组织范围的实现。
+通过部署新技术，你的组织可以实现成本节约、安全合规性、员工满意度和操作效率等业务价值，但也会影响用户的生产力和组织基础结构（你的网络）。 在您的组织中启用新技术之前，请进行正式的用户试验。 就像在绘制整个聊天室之前在墙上绘制小的颜色片一样，你可以通过执行试验来验证技术和用户准备情况、确定和缓解问题，并帮助确保组织范围内成功实现，来在较小的范围内测试大量推出。
 
 为了实现最真实的结果，试验应包括实际用户、模仿其通信和协作的方式以及验证技术和用户体验。 无论您的组织正在考虑并排运行 Skype for Business 和团队，升级到团队，还是部署新功能（如呼叫或会议），试验都可以帮助您为您的组织确定更合适的前进途径。 有时考虑推出第1阶段，理想的测试版利用已启动的准备工作，并使用目标组用户实现定义的计划。
 
@@ -78,14 +78,14 @@ ms.locfileid: "42706452"
 
 ## <a name="5-conduct-your-pilot"></a>5. 开展试验
 
-随着所有后勤工作，您现在已准备好开始试用。 执行试验包括与你的用户进行通信、监视你的网络和使用情况以确保你的网络性能和通话质量保持正常、收集参与者的反馈和查看技术支持票证，以了解有关的问题足球队.
+随着所有后勤工作，您现在已准备好开始试用。 执行试验包括与用户进行通信、监视网络和使用情况以确保你的网络性能和通话质量保持正常运行、收集参与者的反馈和查看帮助者票证以获取与团队相关的问题。
 
 ### <a name="tips-for-pilot-success"></a>有关试点成功的提示
 
 以下提示可帮助确保试验成功：
 
 - 在开始试用之前，请确认所有试点参与者均已启用相应的 [共存模式]
-- （https://aka.ms/SkypeToTeams-SetCoexistence)您想要验证。
+- （ https://aka.ms/SkypeToTeams-SetCoexistence) 您想要验证。
 - 每周，在您的整个试点中，与项目利益干系人会面，了解用户反馈、使用数据、网络数据和技术支持人员，确保您的试运行顺利运行。 根据需要进行调整。
 
 ### <a name="suggested-timeline"></a>建议的日程表

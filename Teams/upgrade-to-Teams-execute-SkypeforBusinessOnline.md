@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 了解如何从 Skype for Business Online deployement 将组织升级到 Microsoft 团队。
 localization_priority: Normal
 search.appverid: MET150
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37deecdbff083718dcb5b8a16e77ac8da4b998ff
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905354"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523165"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>从 Skype for Business Online 升级到 Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "43905354"
 
 ### <a name="step-1-notify-the-users-of-the-change-optional"></a>步骤1：将更改通知给用户（可选）
 
-1. 在 "Microsoft 团队管理中心" 中，选择 "**组织范围设置** > **团队升级**"。
+1. 在 "Microsoft 团队管理中心" 中，选择 "**组织范围设置**  >  **团队升级**"。
 2. 在 "**共存模式**" 下，更改 "**通知 Skype for business" 用户是否有升级到团队的功能**切换到 **"开**"。
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>步骤2：将组织的共存模式设置为 TeamsOnly

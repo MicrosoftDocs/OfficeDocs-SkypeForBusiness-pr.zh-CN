@@ -5,7 +5,7 @@ ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 根据您当前的 Skype for Business 部署确定 Microsoft 团队的最佳升级途径。
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 030081b4fbf633e808e1c340f7b88b8224c13700
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 381a4475a4e6464586e25e5cc8b6c9b7902acc2f
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905184"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523385"
 ---
 # <a name="overview"></a>概述
 

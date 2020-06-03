@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 90326597b6df3a96e7624852d849a64e3eec348f
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705947"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205483"
 ---
 # <a name="skype-for-business-online-reporting"></a>Skype for Business Online 报告
 
@@ -33,15 +33,15 @@ ms.locfileid: "41705947"
 若要访问 Skype for Business Online 报表，请使用你的用户帐户和密码登录到 Microsoft 365 管理中心。用于登录的帐户必须分配有全局管理员角色，或者委派 Skype for business 服务管理员角色才能查看报告。
   
 > [!NOTE]
-> 若要验证权限，请在管理中心 >**用户** > **活动用户**。单击用户的显示名称，然后单击 "**编辑**" 和 "帐户属性" 页面，单击 "**角色**"
+> 若要验证权限，请在管理中心 >**用户**  >  **活动用户**。单击用户的显示名称，然后单击 "**编辑**" 和 "帐户属性" 页面，单击 "**角色**"
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Skype for Business Online 报告参考
 
-在 Office 365 和 Skype for business 管理中心中，您可以使用不同类型的报告，包括 Skype for business Online 的报告。
+在管理中心，你可以使用不同类型的报表，包括 Skype for business Online 的报表。
   
  **查看报表**
   
-1. 转到 "管理中心" 或 " **Skype for business 管理中心** > "**报表**。
+1. 转到 "管理中心" 或 " **Skype for business 管理中心**"  >  **报表**。
     
 2. 在仪表板窗口中，单击报告小组件或从列表中进行选择，以选择所需的报告。
     

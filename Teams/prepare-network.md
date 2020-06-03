@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f06599b7e3ed06a26715de30d59dd25a61c0f197
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 6d811db9759b2876520b307140a3a1967047f482
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43945578"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44523296"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>为 Microsoft Teams 准备组织的网络 
 
@@ -106,7 +106,10 @@ ms.locfileid: "43945578"
 <td>请确保运行团队客户端的所有计算机都可以解析外部 DNS 查询以发现 Office 365 提供的服务，并且你的防火墙不会阻止访问。 有关配置防火墙端口的信息，请转到<a href="https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges">Office 365 url 和 IP 范围</a>。</td>
 </tr>
 <tr class="odd">
-<td>验证（NAT）池大小</td>
+<td>维护会话持久性</td>
+<td>确保你的防火墙不会更改用于 UDP 的映射网络地址转换（NAT）地址或端口。</td>
+</tr><tr class="odd">
+<td>验证 NAT 池大小</td>
 <td>验证用户连接所需的网络地址转换（NAT）池大小。 当多个用户和设备使用<a href="https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365">网络地址转换（NAT）或端口地址转换（PAT）</a>访问 Office 365 时，您需要确保隐藏在每个可访问的 IP 地址后面的设备不会超过支持的号码。 确保为 NAT 池分配了足够的公共 IP 地址以防止端口耗尽。 端口耗尽将对内部用户和无法连接到 Office 365 服务的设备造成影响。</td>
 </tr>
 <tr class="even">

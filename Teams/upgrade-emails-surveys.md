@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 在 conjunciton 中使用的电子邮件和调查示例，以及从 Skype for Business 升级到团队的加速10步行动计划
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 202a1b4b1ac253979f264570368ec5ab4c819108
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837222"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522485"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升级基本通信的电子邮件和调查示例
 
@@ -225,7 +225,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 **你向朋友/同事推荐 Microsoft 团队的可能性有多大？（0 = 根本不可能 .。。10 = 极有可能）**
 
-| 0 | 1 | ppls-2 | 3 | 4 | 5 | 6 | 7 | 个 | db-9 | 10 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 个 | db-9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

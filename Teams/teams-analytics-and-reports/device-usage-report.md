@@ -18,10 +18,10 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 128a9e816249dd918a5bf5fb380fde78d3ed9ce2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "43904914"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 设备使用情况报告
@@ -30,7 +30,7 @@ Microsoft 团队管理中心中的 "团队设备使用情况" 报表为你提供
 
 ## <a name="view-the-device-usage-report"></a>查看设备使用情况报表
 
-1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队设备使用情况**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告**  >  **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队设备使用情况**"。
 2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
     ![团队管理员中心中使用标注的团队设备使用情况报告的屏幕截图](../media/teams-reports-device-usage-with-callouts.png "团队管理员中心中使用标注的团队设备使用情况报告的屏幕截图")

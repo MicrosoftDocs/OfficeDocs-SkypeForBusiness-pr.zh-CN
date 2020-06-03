@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 团队服务管理所需的任务和活动，包括监视服务运行状况以及评估和确保网络质量和使用情况
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3183eac6851531bcaefbddd72cc445844755b307
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997283"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523315"
 ---
 # <a name="operate-your-service"></a>运行服务
 
@@ -166,7 +166,7 @@ Microsoft System Center 是一个集成的管理平台，可帮助你管理数�
 
 Microsoft 团队是基于云的服务。 这使您能够以快速的步调提供新的功能和功能。 不断进行的创新为组织带来了明显的好处，但需要在组织内适当地管理这些更改，以避免用户对您的支持人员的抵抗或上报。
 
-对团队的更新会自动向你的用户推出。 你的用户将始终拥有团队服务中提供的最新客户端和功能。 不能管理团队更新对你的用户的推出，因此，通过有效的通信、培训和采纳计划管理更改至关重要。 如果你的用户知道所做的更改、对好处的了解，以及能够利用新功能&mdash;，他们能够更快地适应所做的更改。
+对团队的更新会自动向你的用户推出。 你的用户将始终拥有团队服务中提供的最新客户端和功能。 不能管理团队更新对你的用户的推出，因此，通过有效的通信、培训和采纳计划管理更改至关重要。 如果你的用户知道所做的更改、对好处的了解，以及能够利用新功能， &mdash; 他们能够更快地适应所做的更改。
 
 ### <a name="monitoring-for-change"></a>监视更改
 

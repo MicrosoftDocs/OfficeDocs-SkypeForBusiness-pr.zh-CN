@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '了解如何为电话系统、音频会议、通话套餐和通信点数分配 Skype for Business 许可证。 '
-ms.openlocfilehash: f2b2e2ad4952b55fade7e0b8eddb1755ea3f2cea
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: e17050c133643d44cd4811ddc5d70852f1ad50d5
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887811"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44204843"
 ---
 # <a name="assign-skype-for-business-licenses"></a>分配 Skype for Business 许可证
 
 This article gives you tips about assigning licenses to your users for features like Audio Conferencing, Phone System, and Calling Plans. It also provides scripts for assigning licenses in bulk.
 
 > [!IMPORTANT]
-> 有关需要购买哪些许可证以及**如何购买**许可证的信息，请参阅[Skype for business 加载项许可](skype-for-business-and-microsoft-teams-add-on-licensing.md)（具体取决于 Office 365 计划），以便用户获得音频会议、免费电话号码以及拨打企业外部的电话号码的能力。
+> 有关需要购买哪些许可证以及**如何购买**许可证的信息，请参阅[Skype for business 加载项许可](skype-for-business-and-microsoft-teams-add-on-licensing.md)（取决于 Microsoft 365 或 Office 365 计划），以便用户获得音频会议、免费电话号码以及拨打企业外部电话号码的能力。
 
 
 ## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>电话系统和通话套餐：分配许可证的提示和脚本
@@ -42,7 +42,7 @@ This article gives you tips about assigning licenses to your users for features 
 
 - **Using on-premises PSTN connectivity for hybrid users?** If so, you only need to assign a **Phone System** license. You should **NOT** assign a Calling Plan.
 
-- **Latency after assigning licenses**: Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for a user to be assigned a Calling Plan after you assign a license. If after 24 hours the user isn't assigned a Calling Plan, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **分配许可证后的延迟**：由于 Microsoft 365 或 Office 365 与 Skype For business Online 之间的延迟，在分配许可证后，可能需要长达24小时才能向用户分配呼叫计划。如果24小时后未向用户分配呼叫计划，请[联系业务产品支持-管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - **Error messages**: You will get an error message if you haven't purchased the correct number of licenses. If you need to buy more Calling Plan licenses, choose **Buy more**.
     
@@ -50,7 +50,7 @@ This article gives you tips about assigning licenses to your users for features 
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>如何向一个用户分配电话系统和呼叫计划许可证
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+这些步骤与分配 Microsoft 365 或 Office 365 许可证相同。 请参阅[分配或删除 Microsoft 365 for business 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-phone-system-and-calling-plan-licenses-in-bulk"></a>如何批量分配电话系统和通话套餐许可证
 
@@ -65,7 +65,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
    脚本中的许可证或产品名称的名称以斜体文本列出（请参阅在此示例之后的**电话系统和通话计划产品名称或用于脚本的 sku**）。
 
    ```powershell
-   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+   #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
 
    #Example of text file:
    #user1@domain.com
@@ -123,7 +123,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>如何向一个用户分配音频会议许可证
 
-步骤与分配 Office 365 许可证相同。 请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+这些步骤与分配 Microsoft 365 或 Office 365 许可证相同。 请参阅[分配或删除 Microsoft 365 for business 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>如何批量分配音频会议许可证
 
@@ -138,7 +138,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
     此示例分配了一个企业版 E3 许可证和一个音频会议许可证。
 
     ```powershell
-    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Office 365.
+    #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
     #Example of text file:
     #user1@domain.com
     #user2@domain.com
@@ -194,7 +194,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>如何向一个用户分配通讯信用许可证
 
-步骤与分配 Office 365 许可证相同。 请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+这些步骤与分配 Microsoft 365 或 Office 365 许可证相同。 请参阅[分配或删除 Microsoft 365 for business 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
 ### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>如何批量分配通讯信用许可证
 

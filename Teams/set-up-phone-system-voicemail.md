@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解如何为你的用户设置云语音邮件。 '
-ms.openlocfilehash: d747b86d50cf4e81398d53bbc3602bff9cc4351c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5526bee2bd365a4047e3641ea223941227858d1a
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349716"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44523115"
 ---
 # <a name="set-up-cloud-voicemail"></a>设置云语音邮件
 
@@ -35,7 +35,7 @@ ms.locfileid: "44349716"
 > [!NOTE]
 > 云语音邮件支持仅在 Exchange 邮箱中发送语音邮件消息，并且不支持任何第三方电子邮件系统。 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-cloud-psystem-users"></a>仅限云的环境：为云 Psystem 用户设置云语音邮件
+## <a name="cloud-only-environments-set-up-cloud-voicemail-for-phone-system-users"></a>仅限云的环境：为电话系统用户设置云语音邮件
 
 对于 Skype for Business Online 和通话计划用户，向用户分配**电话系统**许可证和电话号码后，将自动为用户设置和设置云语音邮件。
   
@@ -74,6 +74,26 @@ ms.locfileid: "44349716"
 
 > [!NOTE]
 > 当代理人代表委托人进行通话应答呼叫时，通知在云语音邮件中不可用。 用户可以接收有关未接来电的通知。
+
+## <a name="enabling-protected-voicemail-in-your-organization"></a>在你的组织中启用受保护的语音邮件
+
+当某人为您的组织中的用户留下语音邮件时，语音邮件将作为电子邮件附件发送到用户的邮箱。 使用邮件流规则应用邮件加密，可以防止将这些语音邮件转发给其他收件人。 当您启用受保护的语音邮件时，用户可以通过呼叫其语音邮件邮箱或打开 outlook、Outlook 网页版或适用于 Android 或 iOS 中的邮件来收听受保护的语音邮件。 不能在 Skype for Business 中打开受保护的语音邮件。
+
+有关邮件加密的详细信息，请参阅[电子邮件加密](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
+
+若要设置受保护的语音邮件，请执行下列操作：
+
+1. 转到 https://admin.microsoft.com 使用具有全局管理员权限的帐户登录并登录。
+2. 选择 "**全部显示**"，然后转到 "**管理中心**  >  **Exchange**"。
+3. 在 Exchange 管理中心中，选择 "**邮件流**  >  **规则**"。
+4. 选择 **+** "**添加**"，然后选择 "向**邮件应用 Office 365 邮件加密和权限保护**"。
+5. 为新邮件流规则提供一个名称，然后在 "**应用此规则条件**" 下，选择**邮件属性**  >  **包括 "**  >  **语音邮件**" 这一邮件类型。 选择 **"确定"**。
+6. 在 "**执行以下操作**" 下，选择 **"向邮件应用 Office 365 邮件加密和权限保护"** ，然后选择 "**选择一个**"。 在 " **RMS 模板**" 下，选择 "**不转发**"。 选择 **"确定"** ，然后单击 "**保存**"。
+    > [!NOTE]
+    > 如果**RMS 模板**列表为空，则需要设置 Office 365 邮件加密。 有关设置 Office 365 邮件加密的详细信息，请参阅以下文章：
+    > - [设置新的 Office 365 邮件加密功能](https://docs.microsoft.com/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+    > - [配置和管理 Azure 信息保护模板](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-templates)
+    > - [电子邮件的 "不转发" 选项](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>设置组织的语音邮件策略
 

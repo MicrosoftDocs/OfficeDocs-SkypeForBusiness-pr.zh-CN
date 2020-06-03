@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825130"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512809"
 ---
 # <a name="document-my-success-plan"></a>记录成功计划
 
@@ -108,11 +108,11 @@ ms.locfileid: "41825130"
 
 ## <a name="communications-and-governance-plan"></a>沟通和管理计划
 
-若要让项目利益干系人与部署进度保持最新，你需要制定一套计划，了解如何在核心项目团队成员以及利益干系人讨论与项目状态相关的问题？针对已建立的 KSIs、操作指标和战略目标的项目里程碑、阻止和各种评价。
+若要让项目利益干系人与部署进度保持最新，你需要建立一个计划，了解如何在核心项目团队成员和利益干系人之间进行通信，以讨论项目状态、关键里程碑、阻止者和项目的各种评论（针对既定的 KSIs、操作指标和战略目标）的相关事宜。
 
 下面是您可以在云语音实现项目中利用的通信和管理计划的示例。
 
-| 类型                                        | 目的                                                                                                                                                      | 者 | 天/时间                                     | 位置             | 会议所有者 |
+| 类型                                        | 目的                                                                                                                                                      | 参与者 | 天/时间                                     | 位置             | 会议所有者 |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
 | Project standup 通话                       | 项目状态的同步，跟踪关键里程碑和阻止程序                                                                                           | TBA          | 星期一、星期二、星期三、星期四下午5点 PST | 虚拟              | TBA           |
 | 每周筹划指导委员会                   | 查看云语音项目的状态，向主管人员报告，提出需要管理人员帮助解决的问题                                        | TBA          | 每个星期五上午11点 PST                        | 虚拟              | TBA           |
@@ -173,7 +173,7 @@ ms.locfileid: "41825130"
 
 标识支持采纳活动（如传单、欢迎电子邮件和培训资料）的资源，以及满足组织要求所需的自定义。
 
-从[Microsoft 团队客户成功工具包](https://www.microsoft.com/download/details.aspx?id=54244)下载采纳活动的模板。
+从[Microsoft 团队客户成功工具包](https://aka.ms/TeamsCustomerSuccess)下载采纳活动的模板。
 
 ### <a name="operational-plan"></a>运营计划
 

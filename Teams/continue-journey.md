@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 search.appverid: MET150
 description: 了解如何使用团队监视网络运行状况、让用户参与并准备新功能。
 localization_priority: Normal
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b414cd4a6e312270520560edd3ed4d14c874bacb
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
+ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904087"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44522805"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 团队
 

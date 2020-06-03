@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，你将了解如何在 Microsoft 团队中创建、编辑和管理资源帐户。
-ms.openlocfilehash: 96c8b9028a63b87b19bebbd3d4724a202f798324
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224265"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44512882"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -82,9 +82,9 @@ ms.locfileid: "44224265"
 
 2. 获取电话系统虚拟用户许可证或普通的电话系统许可证。
 
-   若要获取虚拟用户许可证，从 Microsoft 365 管理中心开始，请转到**帐单**  >  **购买服务**  >  **附加订阅**并滚动到 "结束"，您将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。 成本不为零，但仍需按照这些步骤获取许可证。
-3. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)。
-4. 为资源帐户分配电话系统-[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或电话系统许可证。 请参阅[分配 Microsoft 团队附加许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)和[向一个用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
+   若要获取虚拟用户许可证，请在 Microsoft 365 管理中心中，转到 "**计费**  >  **购买服务**  >  **附加订阅**"，然后滚动到 "结束"，你将看到 "电话系统-虚拟用户" 许可证。 选择 "**立即购买**"。 成本不为零，但仍需按照这些步骤获取许可证。
+3. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-the-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)。
+4. 为资源帐户分配电话系统-[虚拟用户许可证](teams-add-on-licensing/virtual-user.md)或电话系统许可证。 请参阅[分配 Microsoft 团队附加许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)和为[用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
 5. 将服务号码分配给资源帐户。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
 6. 设置下列内容之一：
    - [云自动助理](create-a-phone-system-auto-attendant.md)
@@ -97,26 +97,36 @@ ms.locfileid: "44224265"
 
 嵌套的自动助理或呼叫队列将需要资源帐户，但在许多情况下，相应的资源帐户不需要电话号码和支持电话号码所需的许可。 创建不需要电话号码的资源帐户需要按以下顺序执行以下任务：
 
-1. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)。
+1. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-the-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)。
 2. 设置下列内容之一：
    - [云自动助理](create-a-phone-system-auto-attendant.md)
    - [云呼叫队列](create-a-phone-system-call-queue.md)
 3. 将资源帐户分配给呼叫队列或自动助理。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
 
 
-## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中创建资源帐户
+## <a name="create-a-resource-account-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中创建资源帐户
 
-购买电话系统许可证后，使用 Microsoft 团队管理中心导航到**组织范围的设置**  >  **资源帐户**。
+购买电话系统许可证后，在 Microsoft 团队管理中心的左侧导航中，转到 "**组织范围的设置**  >  **资源帐户**"。
 
 !["资源帐户" 页面的屏幕截图](media/r-a-master.png)
 
 ![数字1的图标，引用上一个屏幕截图中的标注](media/teamscallout1.png)
 
-若要创建新的资源帐户，请单击 " **+ 添加**"。 在弹出窗口中，填写 "**显示名称**"、"**用户名**" （域名应自动填充）和资源帐户**类型**。 资源帐户类型可以是**自动助理**或**呼叫队列**，具体取决于你想要关联到资源帐户的应用。 准备就绪后，单击 "**保存**"。
+若要创建新的资源帐户，请单击 "**添加**"。 在 "**添加资源帐户**" 窗格中，填写 "**显示名称**"、"**用户名**" （域名应自动填充）和资源帐户**类型**。 资源帐户类型可以是**自动助理**或**呼叫队列**，具体取决于你想要关联到资源帐户的应用。 准备就绪后，单击 "**保存**"。
 
 ![新资源帐户选项的屏幕截图](media/res-acct.png)
 
-接下来，按照在[Office 365 for business 中向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)中所述，将许可证应用于 O365 管理中心中的资源帐户。
+<a name="enablesignin"> </a>
+
+创建资源帐户时，帐户的登录已被阻止。 你将在窗格顶部看到一条横幅，显示无法加载资源帐户。 你必须取消阻止在 Microsoft 365 管理中心中为资源帐户登录，以便允许资源帐户登录。 若要执行此操作，请在 Microsoft 365 管理中心中，转到 "**用户**"，"搜索"，然后选择资源帐户。 在 "显示名称" 下的窗格顶部，单击 "**取消阻止此用户？**"，清除 "**阻止此用户登录**" 复选框，然后单击 "**保存更改**"。
+
+!["取消阻止此用户" 选项的屏幕截图](media/res-acct-unblock.png)
+
+执行此操作后，你将在 "显示名称" 下看到 "允许登录"。 
+
+!["允许登录" 消息的屏幕截图](media/res-acct-sign-in-allowed.png)
+
+接下来，在 Microsoft 365 管理中心中对资源帐户应用许可证，如向[用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)中所述。
 
 ### <a name="edit-resource-account"></a>编辑资源帐户 
 
@@ -128,7 +138,7 @@ ms.locfileid: "44224265"
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>分配/取消分配电话号码和服务
 
-![数字3的图标在以前的屏幕截图中引用标注 ](media/teamscallout3.png) 一旦创建了资源帐户并分配了许可证，您可以单击 "**分配/取消**分配" 以将服务编号分配给资源帐户、设置电话号码类型或将资源帐户分配给已存在的特定自动助理或呼叫队列。 分配直接路由号码只能使用 Cmdlet 完成。 如果尚未创建要与资源帐户关联的呼叫队列或自动助理，请将该字段留空。 你可以在创建资源帐户时将其链接到该帐户。 完成后单击 "**保存**"。
+![数字3的图标在你创建资源帐户并分配许可证后，在上一个屏幕截图中引用标注 ](media/teamscallout3.png) ，你可以单击 "**分配/取消**分配" 以将服务号码分配给资源帐户、设置电话号码类型或将资源帐户分配给已存在的特定自动助理或呼叫队列。 分配直接路由号码只能使用 Cmdlet 完成。 如果尚未创建要与资源帐户关联的呼叫队列或自动助理，请将该字段留空。 你可以在创建资源帐户时将其链接到该帐户。 完成后单击 "**保存**"。
 
 **电话号码类型**选项包括：
 
@@ -151,7 +161,7 @@ ms.locfileid: "44224265"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>更改现有资源帐户以使用虚拟用户许可证
 
-如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证，你将需要获取免费的虚拟用户许可证，然后按照 Microsoft 365 管理中心中的链接步骤[将用户移动到其他订阅](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证，你将需要获取免费的虚拟用户许可证，然后按照 Microsoft 365 管理中心中的步骤[将用户移动到其他订阅](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
 
 > [!WARNING]
 > 始终删除完整的电话系统许可证，并在同一许可证活动中分配虚拟用户许可证。 如果删除旧许可证，请保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再按预期运行。 如果发生这种情况，我们建议你为虚拟用户许可证创建新的资源帐户，并删除断开的资源帐户。 
@@ -180,7 +190,7 @@ ms.locfileid: "44224265"
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. 你将无法使用资源帐户，直到你向其应用许可证。 有关如何将许可证应用到 O365 管理中心中的帐户，请参阅[在 Office 365 for business 中向用户分配许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide#assign-licenses-to-one-user)以及[分配 Skype for business 许可证](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+2. 你将无法使用资源帐户，直到你向其应用许可证。 有关如何将许可证应用于 Microsoft 365 管理中心中的帐户，请参阅[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)和[分配 Skype for business 许可证](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
 
 3. 可选将正确的许可证应用到资源帐户后，您可以为资源帐户分配一个电话号码，如下所示。 并非所有资源帐户都需要电话号码。 如果未对资源帐户应用许可证，则电话号码分配将失败。
 
@@ -200,9 +210,9 @@ ms.locfileid: "44224265"
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理资源帐户设置
+## <a name="manage-resource-account-settings-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理资源帐户设置
 
-若要在 Microsoft 团队管理中心中管理资源帐户设置，请导航到 "**组织范围的设置**"  >  **资源帐户**，选择要更改其设置所需的资源帐户，然后单击 "**编辑**" 按钮。 在 "**编辑资源帐户**" 屏幕中，你将能够更改这些设置：
+若要在 Microsoft 团队管理中心中管理资源帐户设置，请转到 "**组织范围的设置**  >  **资源帐户**"，选择需要更改设置的资源帐户，然后单击 "**编辑**"。 在 "**编辑资源帐户**" 窗格中，您可以更改以下设置：
 
 - 帐户的**显示名称**
 - 呼叫队列或使用该帐户的自动助理
@@ -212,13 +222,13 @@ ms.locfileid: "44224265"
 
 ## <a name="delete-a-resource-account"></a>删除资源帐户
 
-请确保在删除之前将电话号码与资源帐户取消关联，以避免让你的服务号码滞留在挂起模式下。 你可以使用以下 commandlet 执行此操作：
+请确保在删除之前将电话号码与资源帐户取消关联，以避免让你的服务号码滞留在挂起模式下。 你可以使用以下 cmdlet 执行此操作：
 
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity <Resource Account oid> -TelephoneNumber $null
 ```
 
-执行此操作后，您可以从 O365 管理门户删除资源帐户，在 "用户" 选项卡下。
+执行此操作后，您可以在 Microsoft 365 管理中心的 "用户" 选项卡下删除该资源帐户。
 
 若要解除直接路由电话号码与资源帐户的关联，请使用以下 cmdlet：
 

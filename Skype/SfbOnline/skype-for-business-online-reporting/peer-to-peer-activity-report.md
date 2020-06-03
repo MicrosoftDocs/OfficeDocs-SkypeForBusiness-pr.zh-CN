@@ -22,16 +22,16 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 53d36b29961991a6d87ccd8b3ccfb94335693ac8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 3708bff31f0034347c23d67d58cf4be7cb3bc956
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769335"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205053"
 ---
 # <a name="peer-to-peer-activity-report"></a>对等活动报告
 
-全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用**Skype For business 对等活动**报告查看用户使用 IM、音频、视频、应用程序共享和传输文件的程度。 
+"**报告**" 仪表板显示你的组织中的 Microsoft 365 或 Office 365 产品的活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用**Skype For business 对等活动**报告查看用户使用 IM、音频、视频、应用程序共享和传输文件的程度。 
 
 查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
@@ -42,9 +42,9 @@ ms.locfileid: "41769335"
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>如何获取 Skype for Business 对等活动报告
 
-1. 转到管理中心 >**报告** > **使用情况**。
+1. 转到管理中心 >**报告**  >  **使用情况**。
     
-2. 在 "**使用情况**" 页面上，在左侧的 "**选择报表" 列表**中选择 " **Skype for business** > **对等活动**"。 或者，单击 " **skype For business 活动**" 小组件，然后单击 "skype for business**活动**" 列表上的 " **skype for business 对等活动**"。
+2. 在 "**使用情况**" 页面上，在左侧的 "选择报表" 列表中选择 " **Skype for business**  >  **对等活动**"。 **Select a report list** 或者，单击 " **skype For business 活动**" 小组件，然后单击 "skype for business**活动**" 列表上的 " **skype for business 对等活动**"。
 
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>解释 Skype for Business 对等活动报告
 

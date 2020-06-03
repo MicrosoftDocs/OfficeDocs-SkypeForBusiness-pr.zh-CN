@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 新的 Microsoft 365 "报表" 仪表板显示你的组织中的 Office 365 产品的活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。
-ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: "\"报告\" 仪表板显示你的组织中的 Microsoft 365 或 Office 365 产品的活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。"
+ms.openlocfilehash: 951f93aabe66bdb7e6b92f9b2c6cf1627e7e1a10
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776277"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205503"
 ---
 # <a name="session-details-report"></a>会话详细信息报告
 
-全新的 Office 365" **报告**"仪表板会为你显示组织中不同 Office 365 产品上所发生活动的概况。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用**Skype For business "会话详细信息**" 报表查看有关单个用户的呼叫体验的详细信息。
+"**报告**" 仪表板显示你的组织中的 Microsoft 365 或 Office 365 产品的活动概述。 利用它，你可以深入了解各个产品级别的报告，从而更加详细地了解每个产品中的活动。 例如，您可以使用**Skype For business "会话详细信息**" 报表查看有关单个用户的呼叫体验的详细信息。
   
 查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以了解更多可用报表。
   
@@ -46,7 +46,7 @@ ms.locfileid: "43776277"
 3. 在 "**选择报表**" 下的列表中，单击 " **Skype for business 会话详细信息**"。
     
     > [!TIP]
-    > 如果未看到此报告列出，请转到**Skype for business 管理中心** > **报告** > **会话详细信息**。 
+    > 如果未看到此报告列出，请转到**Skype for business 管理中心**  >  **报告**  >  **会话详细信息**。 
   
     > [!IMPORTANT]
     > 你可能无法看到此处所示的所有产品和报告，具体取决于你拥有的 Microsoft 365 或 Office 365 订阅。 

@@ -20,16 +20,16 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BPartActivity
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 86bbc6532b556ee683184f5940117a71387d8c42
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 1fe925708356d31a50d6f5a6f2dcc5a3b89a6805
+ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769365"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "44205473"
 ---
 # <a name="conference-participant-activity-report"></a>会议参与者活动报告
 
-作为 Office 365 管理员，"新建**报表**" 仪表板显示有关您的组织中的 Office 365 产品的使用情况的数据。 你可以使用**Skype For business 会议参与者活动**报表来查看你的组织中的用户参与了多少个 IM、音频/视频、应用程序共享、Web 和电话拨入/拨出式会议。
+"**报告**" 仪表板显示有关您的组织内的 Microsoft 365 或 Office 365 产品的使用情况的数据。 你可以使用**Skype For business 会议参与者活动**报表来查看你的组织中的用户参与了多少个 IM、音频/视频、应用程序共享、Web 和电话拨入/拨出式会议。
 
 查看[报表概述](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)以了解详细信息。
   
@@ -40,9 +40,9 @@ ms.locfileid: "41769365"
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>如何访问 Skype for Business 会议参与者报告
 
-1. 转到管理中心 >**报告** > **使用情况**。
+1. 转到管理中心 >**报告**  >  **使用情况**。
     
-2. 在 "**使用情况**" 页面上，在左侧的 "**选择报表" 列表**中选择 " **Skype for business** > **会议参与者活动**"。 或者，单击 " **skype For business 活动**" 小组件，然后单击 " **skype for business 活动**" 列表上的 " **skype for business 会议参与者活动**"。
+2. 在 "**使用情况**" 页面上，在左侧的 "选择报表" 列表中选择 " **Skype for business**  >  **会议参与者活动**"。 **Select a report list** 或者，单击 " **skype For business 活动**" 小组件，然后单击 " **skype for business 活动**" 列表上的 " **skype for business 会议参与者活动**"。
     
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>解释 Skype for Business 会议参与者活动报告
