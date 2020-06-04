@@ -17,12 +17,12 @@ description: 了解如何使用外部访问（联合身份验证）和来宾访�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.openlocfilehash: 4c9b77d01469cb5893a826ae85a1744408623361
+ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785925"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "44539439"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>与 Microsoft Teams 中其他组织的用户通信
 ======================================================
@@ -73,7 +73,7 @@ ms.locfileid: "43785925"
 | 可阻止单个用户 | 否 | 是 |
 | 支持 @提及 | 是<sup>4</sup> | 是 |
 | 拨打私人电话 | 是 | 是 |
-| 查看适用于拨入会议参加者的电话号码 | 否 | 是 |
+| 查看适用于拨入会议参加者的电话号码 | 否<sup>5</sup> | 是 |
 | 允许 IP 视频 | 是 | 是 |
 | 屏幕共享模式 | 是<sup>4</sup> | 是 |
 | 允许立即召开会议 | 否 | 是 |
@@ -88,6 +88,8 @@ ms.locfileid: "43785925"
 <sup>2</sup> 仅通过电子邮件或会话初始协议 (SIP) 地址。<br>
 <sup>3</sup> 外部（联合）聊天仅可为一对一。<br>
 <sup>4</sup> 支持来自两个不同组织的仅 Teams 对仅 Teams 用户的一对一聊天。 
+<sup>5</sup> 默认情况下，外部参与者看不到拨入参与者的电话号码。 如果想要保护这些电话号码的隐私，请选择“**进入/退出公告类型**”的“**提示音**”（这会阻止 Teams 读出电话号码）。如果不希望向外部用户显示外部 PSTN 电话号码，请在打开“**进入/退出公告**”后，为相应公告类型选择“**提示音**”。 若要了解详细信息，请参阅[在 Microsoft Teams 中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
+
 
 ## <a name="related-topics"></a>相关主题
 
