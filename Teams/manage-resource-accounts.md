@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，你将了解如何在 Microsoft 团队中创建、编辑和管理资源帐户。
-ms.openlocfilehash: 1ea9d4ebd6cbbb93646555787a04ab5b5516be03
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
+ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512882"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44565889"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -98,9 +98,11 @@ ms.locfileid: "44512882"
 嵌套的自动助理或呼叫队列将需要资源帐户，但在许多情况下，相应的资源帐户不需要电话号码和支持电话号码所需的许可。 创建不需要电话号码的资源帐户需要按以下顺序执行以下任务：
 
 1. 创建新的资源帐户。 请参阅[在 Microsoft 团队管理中心创建资源帐户](#create-a-resource-account-in-the-microsoft-teams-admin-center)或[在 Powershell 中创建资源帐户](#create-a-resource-account-in-powershell)。
+
 2. 设置下列内容之一：
    - [云自动助理](create-a-phone-system-auto-attendant.md)
    - [云呼叫队列](create-a-phone-system-call-queue.md)
+   
 3. 将资源帐户分配给呼叫队列或自动助理。 请参阅[分配/取消分配电话号码和服务](#assignunassign-phone-numbers-and-services)。
 
 
@@ -115,16 +117,6 @@ ms.locfileid: "44512882"
 若要创建新的资源帐户，请单击 "**添加**"。 在 "**添加资源帐户**" 窗格中，填写 "**显示名称**"、"**用户名**" （域名应自动填充）和资源帐户**类型**。 资源帐户类型可以是**自动助理**或**呼叫队列**，具体取决于你想要关联到资源帐户的应用。 准备就绪后，单击 "**保存**"。
 
 ![新资源帐户选项的屏幕截图](media/res-acct.png)
-
-<a name="enablesignin"> </a>
-
-创建资源帐户时，帐户的登录已被阻止。 你将在窗格顶部看到一条横幅，显示无法加载资源帐户。 你必须取消阻止在 Microsoft 365 管理中心中为资源帐户登录，以便允许资源帐户登录。 若要执行此操作，请在 Microsoft 365 管理中心中，转到 "**用户**"，"搜索"，然后选择资源帐户。 在 "显示名称" 下的窗格顶部，单击 "**取消阻止此用户？**"，清除 "**阻止此用户登录**" 复选框，然后单击 "**保存更改**"。
-
-!["取消阻止此用户" 选项的屏幕截图](media/res-acct-unblock.png)
-
-执行此操作后，你将在 "显示名称" 下看到 "允许登录"。 
-
-!["允许登录" 消息的屏幕截图](media/res-acct-sign-in-allowed.png)
 
 接下来，在 Microsoft 365 管理中心中对资源帐户应用许可证，如向[用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)中所述。
 
@@ -238,7 +230,9 @@ Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNu
 
 ## <a name="troubleshooting"></a>故障排除
 
-如果您没有看到分配给团队管理中心中的资源帐户的电话号码，并且您无法分配该号码，请检查以下事项：
+### <a name="you-dont-see-the-phone-number-assigned-to-the-resource-account-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中看不到分配给资源帐户的电话号码
+
+如果在 Microsoft 团队管理中心中看不到分配给资源帐户的电话号码，并且无法分配该号码，请检查以下事项：
 
 ``` Powershell
 Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
@@ -252,6 +246,25 @@ Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance
 
 > [!NOTE]
 > 在运行 cmldet 后刷新团队管理中心网页，您应该能够正确分配号码。
+
+### <a name="you-get-a-we-cant-use-this-resource-account-for-services-error-message"></a>您收到 "无法使用此资源帐户进行服务"。 错误消息
+
+<a name="blocksignin"> </a>
+
+尝试使用资源帐户时收到以下错误消息：
+
+"无法将此资源帐户用于服务。 必须禁用该资源帐户并阻止其登录。 必须在 Microsoft 365 管理中心的 "用户" 页面上阻止此资源帐户的登录。
+
+创建资源帐户时，默认情况下，它已禁用，并且已阻止帐户登录。 不应更改这些设置。 若要解决此错误消息，请阻止资源帐户登录。 要执行此操作：
+
+1. 在 Microsoft 365 管理中心中，转到 "**用户**"，然后选择 "搜索"，然后选择资源帐户。
+2. 在窗格顶部的 "显示名称" 下，单击 "**阻止此用户"**，选中 "**阻止此用户登录**" 复选框，然后选择 "**保存更改**"。
+
+   !["阻止此用户" 选项的屏幕截图](media/res-acct-block.png)
+
+    执行此操作后，你将在 "显示名称" 下看到 "登录被阻止"。
+
+      ![登录阻止的邮件的屏幕截图](media/res-acct-sign-in-blocked.png)
 
 ## <a name="related-information"></a>相关信息
 

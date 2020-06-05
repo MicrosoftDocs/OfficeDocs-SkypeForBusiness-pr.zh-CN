@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '了解为用户分配电话拨入式会议许可证和会议 ID 的 Microsoft Teams 步骤以及许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: f887e6567052f80d6353202906f77a51e6403372
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: eecf5e015c1be21870221ba3b41a43640a6c0869
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539449"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562057"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理贵组织的音频会议设置
 
@@ -145,6 +145,8 @@ ms.locfileid: "44539449"
 4. 在 "**输入/退出通知类型**" 下，选择 "**声音**" 或 "姓名"**或 "电话号码**"。 
 
     如果选择 "**姓名" 或 "电话号码**"，还可以选择在**加入会议之前启用或禁用 Ask 呼叫者录制其姓名**。 
+    > [!NOTE]
+> 默认情况下，外部参与者看不到拨入的参与者的电话号码。 如果您想要维护这些电话号码的隐私，请选择 "**输入/退出通知类型**" 的 "**声音**" （这可防止 "团队" 朗读数字）。
 
     > [!NOTE]
     > 默认情况下，外部参与者看不到拨入的参与者的电话号码。 如果您想要维护这些电话号码的隐私，请选择 "**输入/退出通知类型**" 的 "**声音**" （这可防止 "团队" 朗读数字）。
@@ -158,11 +160,11 @@ ms.locfileid: "44539449"
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
+2. 在 "**会议桥**" 页面顶部，单击 "**桥接设置**"。 
 
-3. 在“**网桥设置**”窗格中的“**PIN 长度**”列表中输入所需的 PIN 位数，然后单击“**保存**”。
+3. 在 "**桥设置**" 窗格中，在 " **pin 长度**" 列表中输入 pin 所需的位数，然后单击 "**保存**"。
 
-    PIN 必须介于 4 到 12 位之间。 默认值为 5。
+    PIN 必须介于4到12位之间。 默认值为 5。
 
     
 请参阅[更改音频会议网桥的设置](change-the-settings-for-an-audio-conferencing-bridge.md)。
@@ -171,19 +173,19 @@ ms.locfileid: "44539449"
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 在“**会议网桥**”页面顶部，单击“**网桥设置**”。 
+2. 在 "**会议桥**" 页面顶部，单击 "**桥接设置**"。 
 
-3. 在“**网桥设置**”窗格中，启用或禁用“**当用户的音频会议设置更改时自动向用户发送电子邮件**”。
+3. 在 "**桥设置**" 窗格中，**如果用户的音频会议设置发生更改**，则启用或禁用 "自动向用户发送电子邮件"。
 
 4. 单击“**保存**”。 
  
-    你还可以转到用户的音频会议属性并单击“**通过电子邮件发送会议信息**”以向用户发送包含音频会议设置的电子邮件。
+    您还可以通过音频会议设置向用户发送电子邮件，方法是转到用户的音频会议属性，然后单击 **"在电子邮件中发送会议信息**"。
     
     如果执行此操作，则将发送仅包括会议 ID 和会议电话号码的电子邮件，但不包括 PIN。
 
-请参阅[向用户发送包含其音频会议信息的电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。
+请参阅[对其音频会议信息的用户发送电子邮件](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>查看和设置音频会议网桥的主要（默认）和辅助（备用）语言
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音频会议桥处查看和设置主要（默认）和辅助（备用）语言
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 

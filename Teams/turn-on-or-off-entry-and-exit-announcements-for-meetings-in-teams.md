@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 管理员可以了解如何在 Microsoft 团队会议中打开或关闭 "进入" 和 "退出" 通知。
-ms.openlocfilehash: 5b3cdabac41c5c79827df714ccf3192f06b55440
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 4e263328e0f38e1c058fd9036e22eefbfa50f6fd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539469"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562047"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>在 Microsoft Teams 中打开或关闭会议的进入和退出公告
 
@@ -52,8 +52,9 @@ ms.locfileid: "44539469"
 4. 在“**网桥设置**”窗格中，启用或禁用“**会议进入和退出通知**”。 默认情况下，此选项处于选中状态。 如果你将其取消选中，则当有人进入或离开会议时，已加入会议的用户不会收到通知。
     
 5. 在**进入/退出公告类型**下，选择**姓名或电话号码** 或 **提示音**。
-  > [!NOTE]
-  > 默认情况下，外部参与者看不到拨入的参与者的电话号码。 如果您想要维护这些电话号码的隐私，请选择 "**输入/退出通知类型**" 的 "**声音**" （这可防止 "团队" 朗读数字）。
+
+   > [!NOTE]
+   > 默认情况下，外部参与者看不到拨入的参与者的电话号码。 如果您想要维护这些电话号码的隐私，请选择 "**输入/退出通知类型**" 的 "**声音**" （这可防止 "团队" 朗读数字）。
     
 6. 如果你选择“**姓名或电话号码**”，请启用或禁用“**要求呼叫者在加入会议之前录制其姓名**”。
     

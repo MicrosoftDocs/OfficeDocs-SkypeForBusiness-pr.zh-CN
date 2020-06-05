@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中定义和使用敏感度标签。
-ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779759"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44562067"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 团队的灵敏度标签
 
@@ -109,6 +109,10 @@ $setting["EnableMIPLabels"] = "False"
 **对团队图形 Api、Powershell cmdlet 和模板中的灵敏度标签的支持**
 
 当前，用户无法对直接通过图形 Api、Powershell cmdlet 和模板创建的团队应用敏感度标签。
+
+**团队教育机构 Sku 中的灵敏度标签支持**
+
+当前使用团队教育 Sku 的客户不支持灵敏度标签。
 
 **直接在专用频道的 SharePoint 网站集上编辑灵敏度标签**
 
