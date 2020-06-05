@@ -215,7 +215,6 @@
 ## 实时事件
 ### [什么是 Teams 实时事件？](teams-live-events/what-are-teams-live-events.md)
 ### [规划 Teams 实时事件](teams-live-events/plan-for-teams-live-events.md)
-### [直播活动中的演示者和参与者功能](roles-in-live-events.md)
 ### [设置 Teams 实时事件](teams-live-events/set-up-for-teams-live-events.md)
 ### [使用 PowerShell 设置 Teams 实时事件策略](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [配置 Teams 实时事件设置](teams-live-events/configure-teams-live-events.md)
