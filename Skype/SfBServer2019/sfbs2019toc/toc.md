@@ -2,6 +2,7 @@
 
 ## [新增功能](../whats-new.md)
 ## [弃用功能](../deprecated.md)
+## [虚拟化指南](../virtualization-guidance.md)
 ## [Microsoft 电话解决方案](../../sfbhybrid/hybrid/msft-telephony-solutions.md)
 
 ## [Skype for Business 下载和更新](../../SfbServer/software-updates.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
