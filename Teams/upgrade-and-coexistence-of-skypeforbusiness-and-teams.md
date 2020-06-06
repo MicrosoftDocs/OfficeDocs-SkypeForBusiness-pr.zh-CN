@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 548b1f9adbd964737c664baab108201412b6e90f
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522775"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583445"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
 
@@ -55,7 +55,7 @@ ms.locfileid: "44522775"
 
 若要正式准备您的组织以供团队旅行，您需要开始规划升级方案，最终让您的组织完全接纳团队作为您的唯一的通信和协作解决方案。
 
-为帮助指导制定决策过程，请熟悉各种模式、概念和与从 Skype for Business 升级到团队相关的术语。 有关详细信息，请参阅[Microsoft 团队和 Skype for business 共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
+为帮助指导制定决策过程，请熟悉各种模式、概念和与从 Skype for Business 升级到团队相关的术语。 有关详细信息，请参阅[Microsoft 团队和 Skype for business 共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)。
 
 已迁移到团队的用户不再使用 Skype for business 客户端，除非加入 Skype for business 中托管的会议。 所有传入聊天和呼叫用户团队客户端中的土地，无论发件人是使用团队还是 Skype for business。 由升级用户组织的任何新会议都将计划为团队会议。 如果用户尝试使用 Skype for Business 客户端，则聊天和通话的启动将被阻止<sup>1</sup>。 但是，用户可以（且必须）使用 Skype for Business 客户端加入他们受邀参加的会议。
 
@@ -64,9 +64,10 @@ ms.locfileid: "44522775"
 有两种方法可将现有组织与 Skype for Business （无论是在线还是本地）迁移到团队：
 
 - **重叠的功能方法**（使用 "孤岛" 模式）：现有的 Skype for business 组织中的用户将引入团队，以便他们可以在过渡阶段同时使用这两个客户端。 在此期间内，团队的大部分功能（但不是所有）都可供他们使用。 此配置的模式称为 "岛"，这是任何具有 Skype for Business 的现有组织的默认模式。 组织准备就绪后，管理员会将用户移动到 TeamsOnly 模式。
+
 - **选择 "功能" 方法**（使用一个或多个 Skype for business 模式）：管理员为组织中的用户管理聊天、通话和会议安排功能的过渡（从 Skype for Business 到团队）。 其中的每个功能均可在 Skype for Business 或团队中使用，但不能同时使用。 管理员使用 TeamsUpgradePolicy 控制何时将此功能转移给其用户的团队。 尚未处于 TeamsOnly 模式的用户将继续使用 Skype for Business 进行聊天和通话，两组用户可以通过互操作功能进行通信。 管理员通过将更多用户逐步迁移到 TeamsOnly 模式来管理切换。
 
-<sup>1</sup>2017之前发运的较旧的 Skype for business 客户端不接受 TeamsUpgradePolicy。 请确保您使用的是 Office 频道中可用的最新 Skype for Business 客户端。
+<sup>1</sup>在2017之前发运的 Skype for business 客户端超过 TeamsUpgradePolicy。 请确保您使用的是 Office 频道中可用的最新 Skype for Business 客户端。
 
 下面是帮助你确定组织的相应路径的关键因素。 
 
@@ -77,7 +78,9 @@ ms.locfileid: "44522775"
 使用重叠的功能方法时，Skype for business 和团队的通信流量保持独立（即使对于同一用户），并且两个不同的客户端彼此之间不会相互通信（对于同一组织内的用户）。 用户体验基于收件人的配置。 例如，假设收件人用户 A 使用此升级方法：
 
 - 从其他用户的 Skype for business 客户端发起的通信将始终位于用户 A 的 Skype for business 客户端。
+
 - 从*同一组织中的用户*发起的来自团队客户端的通信将始终位于用户 a 的团队客户端。
+
 - 从*外部组织中的用户*发起的通讯将始终位于用户 a 的 Skype for business 客户端中。
 
 如果你为用户分配了 Office 365 许可证，这将是你的组织的默认升级体验。 分配 Office 365 许可证时，默认情况下会分配团队和 Skype for business Online 许可证。<sup>2</sup>
@@ -89,6 +92,7 @@ ms.locfileid: "44522775"
 状态还独立于团队和 Skype for business 之间使用此升级方法。 这意味着其他用户可能会看到用户 A 的不同状态，具体取决于其使用的客户端。 有关详细信息，请参阅[联机状态](upgrade-to-Teams-on-prem-overview.md#presence)。
 
 - 其他用户在使用团队时，将根据用户 A 的团队活动查看状态。
+
 - 使用 Skype for Business 时，其他用户将根据用户 A 在 Skype for Business 中的活动查看状态。
 
 准备好将用户升级到 TeamsOnly 模式后，您可以单独升级用户，也可以使用租户范围内的策略<sup>3</sup>一次性升级整个租户。 用户升级到 TeamsOnly 模式后，他们将收到团队中的所有传入聊天和通话。
@@ -104,7 +108,7 @@ ms.locfileid: "44522775"
 | 传入聊天和通话接收时间：|  团队或 Skype for business | Teams |
 | 在以下情况中接收 PSTN 呼叫： | Skype for Business <br>（在孤岛模式下不支持使用团队中的 PSTN 功能。）     | Teams |   
  |状态    | Skype for business 和团队中的状态是独立的。 对于同一孤岛用户，用户可能会看到不同的状态，具体取决于他们使用的客户端。 | 状态仅基于用户在团队中的活动。 所有其他用户，无论他们使用哪种客户端，都可以查看该状态。 | 
- | 会议计划    | 用户可以在团队或 Skype for Business 中安排会议。 默认情况下，他们将在 Outlook 中看到两个外接程序。 你可以设置团队会议策略来控制用户是否只能使用团队会议加载项或同时使用团队会议外接程序和 Skype for business 会议加载项（即将**推出**）。 若要了解详细信息，请参阅[为用户在 "孤岛" 模式下设置会议提供商](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。 |     用户仅在团队中安排会议。 Outlook 中仅提供团队外接程序。 | 
+ | 会议计划    | 用户可以在团队或 Skype for Business 中安排会议。 默认情况下，他们将在 Outlook 中看到两个外接程序。 你可以设置团队会议策略来控制用户是否只能使用团队会议加载项或同时使用团队会议外接程序和 Skype for business 会议加载项。若要了解详细信息，请参阅[为用户在 "孤岛" 模式下设置会议提供商](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)。 |     用户仅在团队中安排会议。 Outlook 中仅提供团队外接程序。 | 
 
 下表总结了使用重叠的功能方法将组织迁移到团队的优点和缺点。
 
@@ -115,16 +119,18 @@ ms.locfileid: "44522775"
 | 在团队中开始的最少管理工作。 | 如果用户和他们经常与之通信的用户与不在使用团队的用户和他们进行通信的用户以及它们之间的通信，则 "使用孤岛" 模式会很难。|
 |使用户能够利用功能增强 Skype for Business 中不可用的团队协作。| 在本地和团队使用 Skype for Business 的用户将无法与使用 Skype for business 的其他用户进行通信，但没有团队。  |
 
-<sup>2</sup>即使用户在 Skype for Business 服务器内部托管，也是如此。 无论用户是在本地还是在网上托管，都将启用 Skype for Business Online 许可证，因为当前需要完整的团队功能。
+<sup>2</sup>即使用户在 Skype For business 服务器内部托管，也是如此。 无论用户是在本地还是在网上托管，都将启用 Skype for Business Online 许可证，因为当前需要完整的团队功能。
 
-<sup>3</sup>请注意，仅当向单个用户应用 TeamsUpgradePolicy 时，才会触发将 Skype for Business 会议迁移到团队会议，而不是在每租户基础上进行。 有关详细信息，请参阅[会议迁移](upgrade-to-Teams-on-prem-overview.md#meeting-migration)。
+<sup>3</sup>请注意，仅当向单个用户应用 TeamsUpgradePolicy 时，才会触发将 Skype for business 会议迁移到团队会议，而不是在每租户基础上进行。 有关详细信息，请参阅[会议迁移](upgrade-to-Teams-on-prem-overview.md#meeting-migration)。
 
 ## <a name="select-capabilities-method-using-skype-for-business-modes"></a>"选择功能" 方法（使用 Skype for Business 模式）
 
 某些组织可能更希望向最终用户提供其组织从 Skype for Business 转换到团队的更可预测的体验。 在此模型中，IT 管理员使用 TeamsUpgradePolicy 中的 Skype for Business 模式之一，显式指定在迁移到 TeamsOnly 模式之前在 Skype for business 中保留的功能。 当他们准备将选定的功能移动到 TeamsOnly 模式时，管理员会将这些用户的模式更新为 TeamsOnly。 在此过渡期间：
 
 - 管理员拥有为用户启用某些团队功能的选项，同时在用户迁移到 TeamsOnly 体验之前在 Skype for business 中保持聊天和通话功能。 管理可以启用团队协作功能或团队会议 + 协作功能。
+
 - 无论通信来源于其他用户的团队还是 Skype for business 客户端，仍在使用 Skype for business 的用户接收 Skype for business 客户端的所有传入聊天和呼叫。 此外，对于这些 Skype for Business 用户，将禁用团队客户端中的 "调用和聊天" 功能，以帮助防止最终用户混淆和确保正确的路由和状态。
+
 - TeamsOnly 模式中的用户接收其团队客户端中的所有传入聊天和通话状态由团队提供，无论通信来源：团队、Skype for Business 或任何类型的联盟用户。
 
 与重叠的功能方法不同，使用 Skype for Business 的用户可以与 TeamsOnly 中的用户进行通信。 Skype for Business 用户和团队用户之间的通信称为[互操作性](upgrade-to-Teams-on-prem-overview.md#interoperability)或 "互操作"。 在 Skype for business 中的用户与团队中的另一用户之间进行聊天和通话之间，互操作通信是可行的。 此外，受邀请的用户始终可以加入 Skype for business 或团队会议，但是他们必须使用对应于会议类型的客户端。 有关详细信息，请参阅[会议](upgrade-to-Teams-on-prem-overview.md#meetings)。

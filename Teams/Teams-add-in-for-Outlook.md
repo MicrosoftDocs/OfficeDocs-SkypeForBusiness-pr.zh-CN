@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 052cf825e2f05dd17a77043ab87bedbb2f3f8d9c
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416722"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583435"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -111,8 +111,6 @@ Teams 客户端通过确定用户需要 32 位还是 64 位版本来安装正确
 | 仅 Teams | Teams |
 
 ### <a name="set-whether-users-in-islands-mode-can-only-use-the-teams-meeting-add-in-or-both-the-teams-meeting-and-skype-for-business-meeting-add-ins"></a>设置 "孤岛" 模式中的用户是否只能使用团队会议加载项或同时使用团队会议和 Skype for business 会议加载项
-
-**（即将推出）**
 
 作为管理员，你可以配置团队会议策略设置，以控制将哪些 Outlook 会议加载项用于使用*孤岛模式的用户*。 你可以指定用户是否只能使用团队会议加载项或团队会议和 Skype for business 会议加载项在 Outlook 中安排会议。
 

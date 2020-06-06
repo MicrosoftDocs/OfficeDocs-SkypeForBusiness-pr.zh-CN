@@ -18,16 +18,19 @@ f1.keywords:
 description: 无论你是 Teams 管理员还是技术支持工程师，均可使用这些资源在组织中提供 Microsoft Teams 支持。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2af4f29ade3e360f4802077d503fd5ad66b081c9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 31951747565d7e226c89683b48fc1f09130af1bd
+ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041939"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44561977"
 ---
 # <a name="support-microsoft-teams-in-your-organization"></a>在组织中提供 Microsoft Teams 支持
 
-如果你正在查找 Teams 的已知问题，那么本页的内容正好适合你。 本文中的资源可帮助你在组织中提供 Teams 支持。 
+> [!NOTE]
+> 本文替代“Teams 已知问题”文章。 
+
+本文中的资源可帮助你在组织中提供 Teams 支持。 
 
 请首先查看本文中下方的最[常见问题和解决方案](#common-issues-and-resolutions)列表。
 
@@ -53,9 +56,7 @@ ms.locfileid: "44041939"
 |**私人频道**    |Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅属于私人频道的所有者或成员的团队用户可以访问此频道。 只要已是团队的成员（包括来宾），均可将其添加为专用渠道的成员。<br><br>如果想要将协作限制为有知情需求的人员之间，或者想要促进分配到特定项目的一组人员之间的通信，你可能会需要使用私人频道，而不必创建额外的团队并进行管理。<br><br>其他资源：<ul><li>[如何注册 Teams 探索性体验？](teams-exploratory.md#how-users-sign-up-for-the-teams-exploratory-experience)</li><li>[管理 Teams 探索性体验](teams-exploratory.md#manage-the-teams-exploratory-experience)</li><ul>        |
 |**会议策略**|[会议策略Meeting policies](meeting-policies-in-teams.md)用于控制组织中用户安排的会议的与会者可用的功能。 创建策略并进行更改后，即可以将用户分配到策略。         |
 ||**更改或创建会议策略**<br><br>若要更改或创建会议策略，请转到 Microsoft Teams 管理中心 >“**会议**” > “**会议策略**”。 从列表中选择一个策略，或者选择“**添加**”。 若正在创建新策略，则添加名称和说明。 名称不能包含特殊字符或超过 64 个字符。 选择设置，然后单击“保存”****。 例如，假设你有一组用户并且你想要限制这组用户的会议所需的带宽量。 你要创建新的自定义策略并命名为“带宽限制”，然后禁用以下设置：<br><br>在“音频和视频”中：****<ul><li>禁用“允许云录制”。</li><li>禁用“允许 IP 视频”。</li></ul>在“内容共享”中：****<ul><li>禁用屏幕共享模式。</li><li>禁用“允许白板”。</li><li>禁用“允许共享笔记”。</li></ul>然后将此策略分配给用户。         |
-| |**将会议策略分配给用户**<br><br><ol><li>在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****</li><li>单击用户名的左侧以选择用户，然后单击“编辑设置”。****</li><li>在“会议策略”中，选择想要分配的策略，然后单击“应用”。********</li></ol>若要将策略一次性分配给多个用户，请参阅[批量编辑 Teams 用户设置](edit-user-settings-in-bulk.md)。 或者可以执行以下操作：<ol><li>在 Microsoft Teams 管理员中心的左侧导航中，转到“**会议 > 会议策略**”。</li><li>单击策略名称的左侧以选择该策略。</li><li>选择“管理用户”****。</li><li>在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。</li><li>添加完用户后，单击“**保存**”。</li>         |
-|**排查拨号盘缺失问题**     |执行以下操作： <ul><li>确保已向用户分配 [Teams 许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。</li><li>确保已向用户分配[通话套餐](calling-plan-landing-page.md)。</li><li>为用户启用[企业语音](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)。</li></ul>      |
-|** 登录疑难解答**   |首先，请确保 [Microsoft Teams 服务正常](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth)。 然后查看任何常见的错误代码，查看[为什么我在登录 Microsoft 团队时遇到问题？](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)  还可需要查看 [Microsoft Teams 中的身份模型和身份验证](identify-models-authentication.md)。         |
+| |**将会议策略分配给用户**<br><br>若要向一个用户分配会议策略，请执行以下操作：<ol><li>在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****</li><li>单击用户名的左侧以选择用户，然后单击“编辑设置”。****</li><li>在“会议策略”中，选择想要分配的策略，然后单击“应用”。********</li></ol> 若要一次向多个用户分配策略，请执行以下操作： <ol><li>在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。</li><li>在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。</li><li>单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。</li></ol>或者可以执行以下操作：<ol><li>在 Microsoft Teams 管理员中心的左侧导航中，转到“**会议 > 会议策略**”。</li><li>单击策略名称的左侧以选择该策略。</li><li>选择“管理用户”****。</li><li>在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。</li><li>添加完用户后，单击“**保存**”。</li></ol> ||**排查拨号盘缺失问题**     |执行以下操作： <ul><li>确保已向用户分配 [Teams 许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。</li><li>确保已向用户分配[通话套餐](calling-plan-landing-page.md)。</li><li>为用户启用[企业语音](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-enterprise-voice-online-and-phone-system-voicemail#to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail)。</li></ul>      ||** 登录疑难解答**   |首先，请确保 [Microsoft Teams 服务正常](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/servicehealth)。 然后查看任何常见的错误代码，查看[为什么我在登录 Microsoft 团队时遇到问题？](https://support.office.com/article/a02f683b-61a3-4008-9447-ee60c5593b0f)  还可需要查看 [Microsoft Teams 中的身份模型和身份验证](identify-models-authentication.md)。         |
 
 ### <a name="for-education-customers"></a>教育版客户
 

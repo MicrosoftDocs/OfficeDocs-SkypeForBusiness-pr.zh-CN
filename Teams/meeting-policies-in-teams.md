@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 015a127b90aeb24dd9b2c2bcfca2389e95bf1496
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
+ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523145"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44583495"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -411,8 +411,6 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 若要阻止会议组织者下载报表，请将该参数设置为 "**已禁用**"。 默认情况下，此设置处于禁用状态，无法使用下载报表的选项。
 
 ## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>会议策略设置-岛模式的会议提供商
-
-**（即将推出）**
 
 这是每个用户的策略。 此设置控制将哪些 Outlook 会议加载项用于*以孤岛模式*使用的用户。 你可以指定用户是否只能使用团队会议加载项或团队会议和 Skype for business 会议加载项在 Outlook 中安排会议。
 

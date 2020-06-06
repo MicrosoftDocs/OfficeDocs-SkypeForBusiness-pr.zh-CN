@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 Microsoft 团队认证了哪些 USB 外围设备和设备，如耳机、免提、网络摄像头和监视器。
-ms.openlocfilehash: 25099435d4a62d404571c87a42b29698a64b75f8
-ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
+ms.openlocfilehash: 9ad1e4f564306872588dda2ce82ca1c1504db95d
+ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407404"
+ms.lasthandoff: 06/06/2020
+ms.locfileid: "44591292"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>为 Microsoft 团队认证的 USB 音频和视频设备
 
@@ -76,59 +76,62 @@ ms.locfileid: "44407404"
 
 *更新的表格可能2020*
 
-| 制造商    | 型                   | 获  | 认证计划                                  |
-|:----------------|:------------------------|:-----------|:---------------------------------------------------|
-|Jabra evolve             |通过 Jabra evolve 链接 370 USB 转换器讲话750免提电话|5/21/2020 | 适用于 Microsoft 团队的认证  | 
-|EPOS              | Sennheiser 调整660耳机 |5/15/2020 |适用于 Microsoft 团队的认证  | 
-|EPOS              | Sennheiser 调整560耳机|5/15/2020 |适用于 Microsoft 团队的认证  | 
-|EPOS              | Sennheiser 460T 耳机 |5/15/2020 |适用于 Microsoft 团队的认证  | 
-|EPOS              | Sennheiser 调整360耳机| 5/15/2020 |适用于 Microsoft 团队的认证  | 
-|Yealink           |UH36 耳机 | 5/13/2020 |适用于 Microsoft 团队的认证  | 
-| Poly            | Savi 8210 Office        | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Savi 8210 UC            | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Savi 8220 Office        | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Savi 8220 UC            | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Savi 8240 Office        | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Savi 8240 UC            | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Blackwire 5210 耳机  | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Blackwire 5220 耳机  | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Blackwire 7225 耳机  | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Voyager Focus UC        | 4/20/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Yealink         | CP700                   | 4/13/2020  | 适用于 Microsoft 团队的认证                      |
-| Jabra evolve           | Evolve2 65 耳机      | 4/13/2020  | 适用于 Microsoft 团队的认证                      |
-| EPOS/Sennheiser | 对 SC 30 的影响            | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 45            | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 60            | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 75 MS         | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 75 MS EUL     | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 230 USB MS II | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 260 USB MS II | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 630 USB MS    | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 635 USB       | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 660 USB MS    | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 660 ANC USB   | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| EPOS/Sennheiser | 影响 SC 665 USB       | 4/9/2020   | 升级到 Microsoft 团队的 Skype for Business |
-| Logitech        | 无线区域无线           | 4/8/2020   | 适用于 Microsoft 团队的认证                      |
-| Poly            | Voyager 8200 耳机    | 3/26/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Logitech        | 区域有线              | 3/26/2020  | 适用于 Microsoft 团队的认证                      |
-| Jabra evolve           | Evolve2 40 耳机      | 3/26/2020  | 适用于 Microsoft 团队的认证                      |
-| Poly            | Voyager 6200 耳机    | 3/23/2020  | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Voyager 4245 Office     | 3/23/2020  | 适用于 Microsoft 团队的认证                      |
-| Poly            | Blackwire 8225 耳机  | 3/23/2020  | 适用于 Microsoft 团队的认证                      |
-| Poly            | Calisto 5300-M          | 03/05/2020 | 适用于 Microsoft 团队的认证                      |
-| Poly            | Voyager 4210 Office     | 03/05/2020 | 适用于 Microsoft 团队的认证                      |
-| Poly            | Voyager 4210 UC         | 03/05/2020 | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Voyager 4220 Office     | 03/05/2020 | 适用于 Microsoft 团队的认证                      |
-| Poly            | Voyager 4220 UC         | 03/05/2020 | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Voyager 5200 Office     | 03/05/2020 | 适用于 Microsoft 团队的认证                      |
-| Poly            | Voyager 5200 UC         | 03/05/2020 | 升级到 Microsoft 团队的 Skype for Business |
-| Poly            | Blackwire 3310-M        | 03/05/2020 | 适用于 Microsoft 团队的认证                      |
-| Poly            | Blackwire 3315-M        | 03/03/2020 | 适用于 Microsoft 团队的认证                      |
-| Poly            | Blackwire 3320-M        | 03/05/2020 | 适用于 Microsoft 团队的认证                      |
-| poly            | Blackwire 3325-M        | 03/05/2020 | 适用于 Microsoft 团队的认证                      |
-| Poly            | Calisto 3200-M          | 01/27/2020 | 适用于 Microsoft 团队的认证                      |
-| Crestron        | CCS---MIC             | 12/18/2019 | 适用于 Microsoft 团队的认证                      |
-| Sennheiser      | SP 30T                  | 12/05/2019 | 适用于 Microsoft 团队的认证                      |
-| Polycom         | Elara                   | 11/06/2019 | 适用于 Microsoft 团队的认证                      |
-| Polycom         | Studio Soundbar         | 10/18/2019 | 适用于 Microsoft 团队的认证                      |
-| Yealink         | UVC30                   | 10/18/2019 | 适用于 Microsoft 团队的认证                      |
+| 制造商        | 型                                                     | 获      | 认证计划                                      |
+|:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+| EPOS                | Sennheiser 调整660耳机                              | 5/15/2020      | 适用于 Microsoft 团队的认证                          |
+| EPOS                | Sennheiser 调整560耳机                              | 5/15/2020      | 适用于 Microsoft 团队的认证                          |
+| EPOS                | Sennheiser 460T 耳机                             | 5/15/2020      | 适用于 Microsoft 团队的认证                          |
+| EPOS                | Sennheiser 调整360耳机                              | 5/15/2020      | 适用于 Microsoft 团队的认证                          |
+| Yealink             | UH36 耳机                                              | 5/13/2020      | 适用于 Microsoft 团队的认证                          |
+| Poly                | Savi 8210 Office                                          | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Savi 8210 UC                                              | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Savi 8220 Office                                          | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Savi 8220 UC                                              | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Savi 8240 Office                                          | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Savi 8240 UC                                              | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Savi 8245 Office                                          | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Savi 8245 UC                                             | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Blackwire 5210 耳机                                    | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Blackwire 5220 耳机                                    | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Blackwire 7225 耳机                                    | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Voyager Focus UC                                          | 4/20/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Yealink             | CP700                                                     | 4/13/2020      | 适用于 Microsoft 团队的认证                          |
+| Jabra evolve               | Evolve2 65 耳机                                        | 4/13/2020      | 适用于 Microsoft 团队的认证                          |
+| EPOS/Sennheiser     | 对 SC 30 的影响                                              | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 45                                              | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 60                                              | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 75 MS                                           | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 75 MS EUL                                       | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 230 USB MS II                                   | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 260 USB MS II                                   | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 630 USB MS                                      | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 635 USB                                         | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 660 USB MS                                      | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 660 ANC USB                                     | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| EPOS/Sennheiser     | 影响 SC 665 USB                                         | 4/9/2020       | 升级到 Microsoft 团队的 Skype for Business     |
+| Logitech            | 无线区域无线                                             | 4/8/2020       | 适用于 Microsoft 团队的认证                          |
+| Poly                | Voyager 8200 耳机                                      | 3/26/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Logitech            | 区域有线                                                | 3/26/2020      | 适用于 Microsoft 团队的认证                          |
+| Jabra evolve               | Evolve2 40 耳机                                        | 3/26/2020      | 适用于 Microsoft 团队的认证                          |
+| Poly                | Voyager 6200 耳机                                      | 3/23/2020      | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Voyager 4245 Office                                       | 3/23/2020      | 适用于 Microsoft 团队的认证                          |
+| Poly                | Blackwire 8225 耳机                                    | 3/23/2020      | 适用于 Microsoft 团队的认证                          |
+| Poly                | Calisto 5300-M                                            | 03/05/2020     | 适用于 Microsoft 团队的认证                          |
+| Poly                | Voyager 4210 Office                                       | 03/05/2020     | 适用于 Microsoft 团队的认证                          |
+| Poly                | Voyager 4210 UC                                           | 03/05/2020     | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Voyager 4220 Office                                       | 03/05/2020     | 适用于 Microsoft 团队的认证                          |
+| Poly                | Voyager 4220 UC                                           | 03/05/2020     | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Voyager 5200 Office                                       | 03/05/2020     | 适用于 Microsoft 团队的认证                          |
+| Poly                | Voyager 5200 UC                                           | 03/05/2020     | 升级到 Microsoft 团队的 Skype for Business     |
+| Poly                | Blackwire 3310-M                                          | 03/05/2020     | 适用于 Microsoft 团队的认证                          |
+| Poly                | Blackwire 3315-M                                          | 03/03/2020     | 适用于 Microsoft 团队的认证                          |
+| Poly                | Blackwire 3320-M                                          | 03/05/2020     | 适用于 Microsoft 团队的认证                          |
+| poly                | Blackwire 3325-M                                          | 03/05/2020     | 适用于 Microsoft 团队的认证                          |
+| Poly                | Calisto 3200-M                                            | 01/27/2020     | 适用于 Microsoft 团队的认证                          |
+| Crestron            | CCS---MIC                                               | 12/18/2019     | 适用于 Microsoft 团队的认证                          |
+| Sennheiser          | SP 30T                                                    | 12/05/2019     | 适用于 Microsoft 团队的认证                          |
+| Polycom             | Elara                                                     | 11/06/2019     | 适用于 Microsoft 团队的认证                          |
+| Polycom             | Studio Soundbar                                           | 10/18/2019     | 适用于 Microsoft 团队的认证                          |
+| Yealink             | UVC30                                                     | 10/18/2019     | 适用于 Microsoft 团队的认证                          |
+| Jabra evolve               | PanaCast                                                  | 08/14/2019     | 已认证 Microsoft                                |
+
