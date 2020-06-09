@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7151c7a84ec6273e14f41330eb4fd2afcd8d989
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: df6f40fb439d4bef106671a8a21e211fb52fa50f
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776937"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637281"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -38,7 +38,7 @@ ms.locfileid: "43776937"
 
 利用来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问 Teams 中现有团队和频道的权限来与其协作。 具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。 作为 Teams 管理员，你可以控制来宾可以（及不可）在 Teams 中使用的功能 - 请查看[管理来宾访问](manage-guests.md)。
 
-来宾访问是 Teams 组织范围内的设置且默认关闭。 来宾访问受制于 Azure AD 和 Office 365 服务限制。
+来宾访问是 Teams 组织范围内的设置且默认关闭。 来宾访问受到 Azure AD 和 Microsoft 365 或 Office 365 服务限制的约束。
 
 
 > [!IMPORTANT]
@@ -46,11 +46,11 @@ ms.locfileid: "43776937"
 
 ## <a name="licensing-for-guest-access"></a>来宾访问的许可
 
-所有 Microsoft 365 商业标准版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Office 365 许可证。 Teams 不限制可添加的来宾数量。 但是，可添加到租户的来宾总数取决于 Azure AD 许可所允许的数量（通常为每个许可用户可添加 5 个来宾）。 有关详细信息，请参阅 [Azure AD B2B 协作授权](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
+所有 Microsoft 365 商业标准版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 或 Office 365 许可证。 Teams 不限制可添加的来宾数量。 但是，可添加到租户的来宾总数取决于 Azure AD 许可所允许的数量（通常为每个许可用户可添加 5 个来宾）。 有关详细信息，请参阅 [Azure AD B2B 协作授权](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
 
 
 > [!NOTE]
-> 你组织中仅拥有独立 Office 365 订阅计划（例如 Exchange Online 计划 2）的用户不可作为来宾被邀请加入你的组织，因为 Teams 将这些用户视为属于该组织。 要让这些用户使用 Teams，必须向他们分配 Microsoft 365 商业标准版、Office 365 企业版或 Office 365 教育版订阅。 
+> 你组织中仅拥有独立Microsoft 365 或 Office 365 订阅计划（例如 Exchange Online 计划 2）的用户不可作为来宾被邀请加入你的组织，因为 Teams 将这些用户视为属于该组织。 要让这些用户使用 Teams，必须向他们分配 Microsoft 365 商业标准版、Office 365 企业版或 Office 365 教育版订阅。 
 
 ## <a name="who-is-a-guest"></a>来宾具体是什么？
 
@@ -58,11 +58,11 @@ ms.locfileid: "43776937"
 
 要了解有关来宾可以操作和无法执行的操作的更多信息，请参阅[授权 Microsoft Teams 中的来宾访问](teams-dependencies.md)。 或查看[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表。 
 
-最后，Teams 中的所有来宾与其他 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。
+最后，Teams 中的所有来宾与其他 Microsoft 365 和 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。
 
 ## <a name="why-use-guest-access"></a>为何要使用来宾访问？
 
-借助来宾访问权限，使用 Teams 的组织可向其合作伙伴提供对团队、频道中的文档、资源、聊天和应用的访问权限，同时对其自己的公司数据维护完全控制。 Teams 中的所有来宾与其他 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。  
+借助来宾访问权限，使用 Teams 的组织可向其合作伙伴提供对团队、频道中的文档、资源、聊天和应用的访问权限，同时对其自己的公司数据维护完全控制。 Teams 中的所有来宾与其他 Microsoft 365 和 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。  
 
 ## <a name="understand-the-limitations-for-guests"></a>了解来宾的限制
 
@@ -78,7 +78,7 @@ ms.locfileid: "43776937"
 - 将文件上传到个人对个人聊天
 - 目前，Teams 仅支持 [Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties) 定义的状态 1 和状态 2 类来宾用户。
 
-有关来宾在 Teams 中可以和不可执行的操作的完整列表，请参阅[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表。 若要了解有关 Office 365 级别的来宾访问的更多信息，请参阅[将来宾添加到 Microsoft 365 组](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
+有关来宾在 Teams 中可以和不可执行的操作的完整列表，请参阅[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表。 若要了解有关 Microsoft 365 和 Office 365 级别的来宾访问的更多信息，请参阅[将来宾添加到 Microsoft 365 组](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
 
 ## <a name="more-information"></a>更多信息
