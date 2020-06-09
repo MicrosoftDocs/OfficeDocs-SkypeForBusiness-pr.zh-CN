@@ -26,10 +26,10 @@ ms.custom:
 - Calling Plans
 description: 以下是适用于美国的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
 ms.openlocfilehash: 1a33ad9909b7caa76acb2b4e042b24aa98cc86f1
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
+ms.lasthandoff: 06/09/2020
 ms.locfileid: "44230330"
 ---
 # <a name="availability-in-the-united-states-us"></a>在美国 (U.S.) 的可用性

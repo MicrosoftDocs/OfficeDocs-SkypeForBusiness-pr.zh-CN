@@ -17,12 +17,12 @@ description: 连接器通过将你常用的服务中的内容和更新传输到�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 33a407de891f0d988b1fb32988556059c6adc2e0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9ea72fbe054e3a6d0e89f87f1a8c23303ef55c5c
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778588"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637751"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 团队中使用 Microsoft 365 和自定义连接线
 =======================================================
@@ -31,7 +31,7 @@ ms.locfileid: "43778588"
 
 如果团队权限允许，团队的任何成员都可以将其团队与常用云服务连接起来，并且所有团队成员都将收到来自该服务的活动的通知。 即使最初设置连接器的成员已离开，连接器仍可继续运行。 具有 add\remove 权限的任何团队成员都可以修改其他成员的连接器设置。
 
-Microsoft 365 连接器可与 Microsoft 团队和 Microsoft 365 组一起使用，使所有成员能够更轻松地保持同步和快速接收相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，禁用团队所依赖的 Office 365 组的连接器将禁用为该团队创建连接器的功能。
+Microsoft 365 连接器可与 Microsoft 团队和 Microsoft 365 组一起使用，使所有成员能够更轻松地保持同步和快速接收相关信息。 Microsoft Teams 和 Exchange 使用相同的连接器模型，这样，你可以在两个平台中使用相同的连接器。 但值得注意的是，禁用团队依赖的 Microsoft 365 组的连接器将禁用为该团队创建连接器的功能。
 
 <a name="add-a-connector-to-a-channel"></a>向通道添加连接线
 ----------------------------

@@ -17,79 +17,20 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a091c3b3c93f6b3769c538b74c17b4235a09a5
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 5ba2118defb86ac6b957ac181c9a02afc5eed82f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079394"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610272"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的排班
 
 团队为你的组织中的一线工作人员提供了他们进行通信和高效协作所需的工具，并执行最佳工作。 在此处，你将找到你需要设置和管理团队中的倒班、计划管理工具的管理指南。
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>从 StaffHub 移到团队中的倒班
-
-<ul class="panelContent cardsFTitle">
- <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>了解 StaffHub 退休和切换到团队中的倒班</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-<a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>计划将 StaffHub 团队迁移到 Teams 中的班次</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>将 StaffHub 团队移动到团队中的倒班</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-
-</ul>
-
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>为您的组织设置和管理倒班
 
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">
         <div class="cardSize">
@@ -120,6 +61,68 @@ ms.locfileid: "43079394"
                     </div>
                     <div class="cardText">
                         <h3>倒班一线工作者的帮助</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
+
+### <a name="shifts-extensions"></a>班次延长
+
+<ul class="panelContent cardsF">
+    <li>
+        <a href="https://docs.microsoft.com/graph/api/resources/shift?view=graph-rest-1.0">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>移动图形 Api</h3>
+                        <p>通过移动 Api，你可以将倒班数据与外部劳动力管理系统集成，让你能够灵活地在后端构建自定义倒班体验，同时为用户提供团队中的丰富的前端体验。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/api.svg" alt="Three gears - API"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>劳动力管理集成</h3>
+                        <p>如果您使用的是第三方劳动力管理系统（如 Kronos 和 JDA）来安排、时间和出勤，则可以通过开放源代码集成，与倒班直接集成。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+   <li>
+        <a href="https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow-teams.svg" alt="Process/flow chart symbol"/>
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>自动切换 + 电源</h3>
+                        <p>倒班 + Power "自动处理" 使你可以从倒班中获取信息，并使用其他应用创建自定义工作流，并以比例执行操作。 只需少量代码即可自动化关键流程。 触发器和模板支持各种方案，例如，在不需要经理批准时为倒班请求启用自动审批。</p>
                     </div>
                 </div>
             </div>

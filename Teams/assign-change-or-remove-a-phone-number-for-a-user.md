@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 了解如何为团队用户分配、更改或删除工作电话号码，以便外部企业和客户可以呼叫。
-ms.openlocfilehash: a8dea997df1511406a302922b291fa2248f29356
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 858c6c5f9995d4d9b3914ee769de1bb75d1951af
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326799"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44609957"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>为用户分配、更改或删除电话号码
 
@@ -51,7 +51,8 @@ ms.locfileid: "44326799"
 5. 根据您是否想要使用电话号码信息向用户发送电子邮件，请关闭或打开**包含电话号码信息的电子邮件用户**。 默认情况下，此项处于打开状态。 
 6. 单击“**保存**”。
     > [!NOTE]
-    > 由于 Office 365 和团队之间的延迟，可能需要几个小时才能启用用户。 如果在几个小时后未正确分配电话号码，请[联系业务产品支持-管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。 我们随时为你提供帮助！
+    > 由于 Microsoft 365 或 Office 365 与团队之间的延迟，用户可能需要长达24小时才能启用。 如果24小时后电话号码未正确分配，请[联系业务产品支持-管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。 我们随时为你提供帮助！
+
   
 ## <a name="change-a-phone-number-for-a-user"></a>更改用户的电话号码
  

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574019"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637501"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -56,7 +56,7 @@ ms.locfileid: "42574019"
 
 为您的整个组织激活 Microsoft 团队后，指定的团队所有者可以邀请他们使用的任何员工加入其团队。 Microsoft Teams 使团队所有者能够根据用户姓名在组织中轻松添加。 根据你的组织的设置，属于团队成员但不属于你的组织的来宾也可以添加到你的团队。 有关更多信息，请参阅 [Microsoft Teams 中的来宾访问](guest-access.md)。 
 
-团队所有者也可以根据现有 Office 365 组创建团队。 对组所做的任何更改都将自动与 Microsoft 团队同步。 根据现有 Office 365 组创建团队不仅可以简化邀请和管理成员的流程，还可以同步 Microsoft Teams 内的组文件。
+团队所有者还可以基于现有 Microsoft 365 组创建团队。 对组所做的任何更改都将自动与 Microsoft 团队同步。 基于现有 Microsoft 365 组创建团队不仅可以简化邀请和管理成员的过程，还可以同步 Microsoft 团队内部的组文件。
 
 **团队角色**
 
@@ -65,7 +65,7 @@ Microsoft 团队中有两个主要角色：
 - **团队所有者**-创建团队的人员。 团队所有者可以在邀请联系人加入团队时或者在他们加入团队后将团队的任意成员设为共同所有者。 有了多个团队所有者，您可以分享管理设置和成员身份的责任，包括邀请。
 - **工作组成员**-所有者邀请加入其团队的人员。
 
-此外，如果设置了 "裁决"，团队所有者和成员可以拥有频道的版主功能。 审阅人可以在频道中启动新的文章，并控制团队成员是否可以答复现有频道消息。 团队所有者可在频道内分配监督人。 （默认情况下，团队所有者具有审阅者功能。）频道内的审阅人可以在该频道中添加或删除其他监督人。 有关详细信息，请参阅[在 Microsoft 团队中设置和管理通道裁决](manage-channel-moderation-in-teams.md)。
+此外，如果设置了 "裁决"，团队所有者和成员可以拥有频道的版主功能。 审阅人可以在频道中启动新的文章，并控制团队成员是否可以答复现有频道消息。 团队所有者可在频道内分配监督人。 （默认情况下，团队所有者具有审阅者功能。）频道内的审阅人可以在该频道中添加或删除其他监督人。 有关详细信息，请参阅[在 Microsoft Teams 中设置和管理频道审核](manage-channel-moderation-in-teams.md)。
 
 **团队设置** 
 
@@ -77,7 +77,7 @@ Microsoft 团队中有两个主要角色：
 
 如果你是 Office 365 中的 Microsoft 团队管理员，则可以访问 Microsoft 团队管理中心中的系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围内的通知、讨论和资源启用默认频道 "常规"，这些通知将显示在所有团队中。
 
-默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅[在 Teams 中指定角色和权限](assign-roles-permissions.md)）。 现有 Office 365 组的用户还可以使用团队功能增强其权限。
+默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅[在 Teams 中指定角色和权限](assign-roles-permissions.md)）。 现有 Microsoft 365 组的用户还可以使用团队功能增强其权限。
 
 与 Microsoft 团队接洽用户的一个重要计划活动是帮助人们思考和理解团队如何在日常生活中增强协作。 与其他人交谈，帮助他们选择当前以零碎方式进行协作的业务方案。 将它们放在一个频道中，并显示相关选项卡，帮助他们完成工作。 Teams 最强大的用例之一就是跨组织流程。 
 

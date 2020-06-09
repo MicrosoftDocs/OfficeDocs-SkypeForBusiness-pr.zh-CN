@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。
-ms.openlocfilehash: 2547e6ca3aed10d112897aa1b24900a479c5c8ef
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 67bb9d13d9cdece2793837044e280927e03c5795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224205"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638892"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
@@ -50,7 +50,7 @@ ms.locfileid: "44224205"
   
 - 分配给用户的电话号码（默认值）。
     
-- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
+- 您的通话计划电话号码库存中归类为*服务*和免费号码的*电话号码。* 它通常分配给组织的自动助理或呼叫队列。
     
 - 设置为匿名。
     

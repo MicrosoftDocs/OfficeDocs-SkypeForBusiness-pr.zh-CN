@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ad827244baaacde8ee5c7166590c81347c8eea5b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42021593"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610017"
 ---
 # <a name="plan-my-users-experience"></a>规划我的用户体验
 
@@ -58,7 +58,7 @@ Microsoft 团队拥有适用于 web、桌面（Windows 和 Mac）和移动设备
 ## <a name="endpoint-firewalls"></a>终结点防火墙
 
 客户端防火墙会对用户体验产生很大影响。
-客户端防火墙会影响通话质量，以及阻止建立通话。 应根据 [Office 365 URL 和 IP 地址范围](https://aka.ms/o365ips)中的信息在客户端防火墙上配置适当的排除项。 你的第三方供应商会提供有关如何创建排除项的具体指导。
+客户端防火墙会影响通话质量，以及阻止建立通话。 基于[Microsoft 365 或 Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)中的信息，在客户端防火墙上配置相应的排除项。 你的第三方供应商会提供有关如何创建排除项的具体指导。
 
 >[!NOTE]
 > Microsoft Teams 会自动为 Windows 防火墙更新适当的防火墙配置。

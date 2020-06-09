@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb06a50d8a61d78abd84d8bf4f54295ece6d68ab
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 82b1397e597ae6dea218a8f3c27f50d26a60d05f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997123"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610074"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -33,11 +33,11 @@ ms.locfileid: "43997123"
 
 操作指南概括介绍了 Microsoft 团队服务管理功能所需的所有任务和活动。
 
-服务管理是一个非常广泛的主题，涵盖了部署 Microsoft Teams 服务并为用户启用该服务后该服务的日常操作。 Teams 服务包括 Microsoft Office 365 和在本地部署的基础结构组件（例如网络）。
+服务管理是一个非常广泛的主题，涵盖了部署 Microsoft Teams 服务并为用户启用该服务后该服务的日常操作。 团队服务涵盖 Microsoft 365 或 Office 365 以及本地部署的基础结构组件（例如，网络）。
 
 对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实现了与现有服务相关联的流程和任务。 也就是说，计划服务管理以便将来支持团队时，您可能会增加当前流程。
 
-服务管理包括管理团队结束的所有活动和过程。 正如前面所述，Office 365 服务本身所包含的基础结构是 Microsoft 的责任，而你的客户对你的用户负责管理你提供的团队、网络和终结点的各个方面。
+服务管理包括管理团队结束的所有活动和过程。 如前面所述，某些服务管理组件（Microsoft 365 或 Office 365 服务本身所包含的基础架构）是 Microsoft 的责任，而你的客户负责管理你提供的团队、网络和终结点的各个方面。
 
 本指南中的任务和活动按下图所示分为八个类别。 这些类别中的每一个都将在以下部分展开。
 
@@ -70,7 +70,7 @@ ms.locfileid: "43997123"
 
 ### <a name="teams-service-dependencies"></a>团队服务相关性
 
-Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提供中心。 示例包括：
+Microsoft 团队将跨 Microsoft 365 或 Office 365 的技术汇集到一起，为团队协作提供中心。 示例包括：
 
 -   Azure Active Directory （Azure AD）为团队提供身份验证和授权服务。
 
@@ -104,7 +104,7 @@ Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提�
 
 ## <a name="monitor-service-health"></a>监视服务运行状况
 
-了解 Microsoft 团队服务的整体运行状况非常重要，这样你就可以在组织中向其他影响该服务的事件主动发出通知。 正如前面所述，团队依赖于其他 Office 365 服务，如 Azure Active Directory、Exchange Online、SharePoint Online 和 OneDrive for business。 因此，监视相关服务的运行状况同样重要。
+了解 Microsoft 团队服务的整体运行状况非常重要，这样你就可以在组织中向其他影响该服务的事件主动发出通知。 正如前面所述，团队依赖于其他 Microsoft 365 或 Office 365 服务，如 Azure Active Directory、Exchange Online、SharePoint Online 和 OneDrive for business。 因此，监视相关服务的运行状况同样重要。
 
 将此活动纳入你的事件管理流程，以主动通知用户、帮助台和运营团队准备处理用户升级。
 
@@ -113,9 +113,9 @@ Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提�
 | 监视工具                       | 优势                                            | 何时使用                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Microsoft 365 管理中心                     | 在具有支持的浏览器的任何设备中可用。 | 在不需要实时通知时使用。                                          |
-| Office 365 管理应用                  | 向移动设备提供推送通知。  | 当您在旅途中需要通知服务事件时，请使用。                  |
+| Microsoft 365 或 Office 365 管理应用                  | 向移动设备提供推送通知。  | 当您在旅途中需要通知服务事件时，请使用。                  |
 | Microsoft System Center               | 与 Microsoft System Center 集成。           | 在需要高级监视功能和通知支持时使用。                       |
-| Office 365 服务通信 API | 以编程方式访问 Office 365 服务运行状况。   | 在需要与第三方监视工具集成或希望构建自己的解决方案时使用。 |
+| Microsoft 365 或 Office 365 服务通信 API | 以编程方式访问 Microsoft 365 或 Office 365 服务运行状况。   | 在需要与第三方监视工具集成或希望构建自己的解决方案时使用。 |
 
 > [!NOTE]
 > 只有分配有**全局管理员**或**服务管理员**角色的人员才能查看服务运行状况。
@@ -126,7 +126,7 @@ Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提�
 
 ### <a name="monitoring-with-the-mobile-app"></a>通过移动应用进行监控
 
-Office 365 管理应用在 Apple iOS、Android 和 Windows （PC 和手机）上可用。 该应用提供有关服务运行状况和即将进行的更改的服务管理员信息。 该应用支持推送通知，在发布公告后几乎可以立即向您发出通知。 这可帮助你及时了解服务的状态、运行状况和任何即将到来的更改。 通知支持使其成为管理员推荐的监视工具。 有关详细信息，请参阅：
+Microsoft 365 或 Office 365 管理应用可在 Apple iOS、Android 和 Windows （PC 和手机）上使用。 该应用提供有关服务运行状况和即将进行的更改的服务管理员信息。 该应用支持推送通知，在发布公告后几乎可以立即向您发出通知。 这可帮助你及时了解服务的状态、运行状况和任何即将到来的更改。 通知支持使其成为管理员推荐的监视工具。 有关详细信息，请参阅：
 
 [Office 365 管理员移动应用](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
@@ -164,7 +164,7 @@ Microsoft System Center 是一个集成的管理平台，可帮助你管理数�
 
 Microsoft 团队是基于云的服务。 这使您能够以快速的步调提供新的功能和功能。 不断进行的创新为组织带来了明显的好处，但需要在组织内适当地管理这些更改，以避免用户对您的支持人员的抵抗或上报。
 
-对团队的更新会自动向你的用户推出。 你的用户将始终拥有团队服务中提供的最新客户端和功能。 不能管理团队更新对你的用户的推出，因此，通过有效的通信、培训和采纳计划管理更改至关重要。 如果你的用户知道所做的更改、对好处的了解，以及能够利用新功能&mdash;，他们能够更快地适应所做的更改。
+对团队的更新会自动向你的用户推出。 你的用户将始终拥有团队服务中提供的最新客户端和功能。 不能管理团队更新对你的用户的推出，因此，通过有效的通信、培训和采纳计划管理更改至关重要。 如果你的用户知道所做的更改、对好处的了解，以及能够利用新功能， &mdash; 他们能够更快地适应所做的更改。
 
 ### <a name="monitoring-for-change"></a>监视更改
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 4e77127d6840473cfb6238d9150ac692230181e1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862812"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610044"
 ---
 # <a name="deploy-my-service"></a>部署服务
 
@@ -33,7 +33,7 @@ ms.locfileid: "41862812"
 
 使用本行动手册可帮助你的组织在逐个网站的基础上成功地计划和执行 Microsoft 团队语音功能的推出。
 
-包括所有所需的活动、推荐的时间线和指向每个活动的相应指南的链接，此操作手册介绍了端到端指南以帮助确保成功的团队为特定网站进行语音部署，重点关注重要因素给用户。
+包括所有所需的活动、推荐的日程表和指向每个活动的相应指南的链接，此行动手册将介绍端到端指南，以帮助确保成功的团队为特定网站进行语音部署，重点关注对用户很重要的因素。
 
 通过完成本操作手册中的活动，你的组织可以：
 
@@ -44,7 +44,7 @@ ms.locfileid: "41862812"
 -   减少支持需求并提高用户满意度。
 
 > [!NOTE]
-> 本文和关联的操作手册不用于描述服务启用所需的每个技术配置步骤或向特定网站提供拨号音。 而是将重点放在最适合于板载用户的活动和任务，并让他们通过快速平稳过渡来开始使用团队语音工作负载，同时将支持需求降至最低。 有关如何为团队语音配置你的环境的技术指导，请参阅用于[配置团队语音工作负荷](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)、[配置团队中的直接路由](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[团队核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[团队网络](prepare-network.md)以及[启用 Office 365](onboarding-checklist-enable-office-365.md)的加入清单。
+> 本文和关联的操作手册不用于描述服务启用所需的每个技术配置步骤或向特定网站提供拨号音。 而是将重点放在最适合于板载用户的活动和任务，并让他们通过快速平稳过渡来开始使用团队语音工作负载，同时将支持需求降至最低。 有关如何为团队语音配置你的环境的技术指导，请参阅用于[配置团队语音工作负荷](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)、[配置团队中的直接路由](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)、[团队核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)、[团队网络](prepare-network.md)以及[启用 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)的加入核对清单。
 
 <!--ENDOFSECTION-->
 
@@ -90,9 +90,9 @@ ms.locfileid: "41862812"
 
 5. 检查每个活动，执行必要的操作，并在遍历日程表时更新状态。 状态以图形形式表示，如下所述：
   
-   - ![绿色复选标记](media/deploy-my-service-image3.png)为 **"是" 或 "不适用" （绿色）** 的插图：活动已完成，或者不适用于此网站，不需要执行其他操作。</li>
-   - ![](media/deploy-my-service-image4.png) <strong>活动尚未完成的黄色感叹号的插图（黄色）：</strong>该活动尚未完成，并且必须在其计划中更新为 "是" 或 "否"。</li>
-   - ![红色 X 表示 "不](media/deploy-my-service-image5.png) <strong>否" （红色）</strong>的插图：由于存在问题，无法完成活动，并且必须携带给项目状态会议。</li></ul>
+   - ![绿色复选标记为 ](media/deploy-my-service-image3.png) **"是" 或 "不适用" （绿色）** 的插图：活动已完成，或者不适用于此网站，不需要执行其他操作。</li>
+   - ![](media/deploy-my-service-image4.png)<strong>活动尚未完成的黄色感叹号的插图（黄色）：</strong>该活动尚未完成，并且必须在其计划中更新为 "是" 或 "否"。</li>
+   - ![红色 X 表示 "不 ](media/deploy-my-service-image5.png) <strong>否" （红色）</strong>的插图：由于存在问题，无法完成活动，并且必须携带给项目状态会议。</li></ul>
 
 6. 状态将在每个分区内进行汇总，分区标题将设置为这些状态标记之一。 **每周状态**也会自动更新。
 

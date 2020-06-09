@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解您可以在默认系统消息和语音邮件问候语的 Skype for Business 中设置哪些语言。
-ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0931ee7923b26fe5c81c442a895dbb1bfde8c601
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904517"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638761"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>语音邮件问候语和消息的语言
 
@@ -80,7 +80,7 @@ ms.locfileid: "43904517"
 ## <a name="related-topics"></a>相关主题
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Office 365 中的电话系统的功能](here-s-what-you-get-with-phone-system.md)
+[电话系统的功能](here-s-what-you-get-with-phone-system.md)
   
   
  

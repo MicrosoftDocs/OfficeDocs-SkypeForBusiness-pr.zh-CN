@@ -18,16 +18,16 @@ f1.keywords:
 - NOCSH
 description: '了解如何在 Microsoft 团队管理中心添加、更改或删除你的组织的紧急位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bed76fdfff2a6af2dabb3eef5c01dcfb39f422a
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: ae3a224b38fba412b9c0dc4ec0bfde5028440a79
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539459"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610321"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>添加、 更改或删除您的组织紧急地点
 
-紧急位置必须与电话号码相关联，但是如果发生这种情况，国家和地区之间可能会有所不同。 例如，在美国，当您为用户分配电话号码时，您需要关联紧急位置。 在英国，当您获得 Office 365 中的电话号码或从您的当前服务提供商转移电话号码时，您需要将紧急位置与电话号码相关联。
+紧急位置必须与电话号码相关联，但是如果发生这种情况，国家和地区之间可能会有所不同。 例如，在美国，当您为用户分配电话号码时，您需要关联紧急位置。 在英国，当您从 Microsoft 365 或 Office 365 获取电话号码或从当前服务提供商转移电话号码时，您需要将紧急位置与电话号码相关联。
 
 无论您所在的国家或地区如何，您都可以将一个或多个地点添加到紧急地点，并删除紧急位置。 根据您的组织中的物理位置数，您可以为建筑物、楼层和办事处创建场所。 请参阅[管理紧急电话](what-are-emergency-locations-addresses-and-call-routing.md)。
   
@@ -45,7 +45,7 @@ ms.locfileid: "44539459"
 4. 选择国家或地区，然后输入地址。
 
    > [!NOTE]
-   > 在比利时、法国、德国、爱尔兰、荷兰和西班牙，请务必了解要在 Office 365 中成功激活电话号码，在紧急位置（用于获取号码）中设置的地址必须与电话号码的区号匹配。
+   > 在比利时、法国、德国、爱尔兰、荷兰和西班牙，请务必了解要在 Microsoft 365 或 Office 365 中成功激活电话号码，在用于获取号码的紧急位置中设置的地址必须与电话号码的区域代码匹配。
 5. 如果找不到地址，而您想要手动编辑地址，请打开 "**手动编辑地址"**。
 6. 单击“**保存**”。
 

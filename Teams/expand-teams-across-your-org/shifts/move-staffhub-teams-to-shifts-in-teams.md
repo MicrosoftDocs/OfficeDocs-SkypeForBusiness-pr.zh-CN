@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f449d20f4364629185f719c3217023107f774dd9
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 62686c87d653532f7f64b797fbe301a1cf0d2610
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350306"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638391"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>将 Microsoft StaffHub 团队移动到 Microsoft 团队中的倒班
 
@@ -56,7 +56,7 @@ ms.locfileid: "44350306"
 
 移动 StaffHub 团队时，团队成员、用户详细信息、工作组日程和聊天数据将移到团队。 移动 StaffHub 团队时，文件不会移动。 如果 StaffHub 团队包含你还想要移动到团队的文件，请在单独的步骤中移动文件。
 
-每个 StaffHub 团队都需要一个相应的 Microsoft 365 或 Office 365 组。 如果 StaffHub 团队与 Microsoft 365 组关联，则当您移动团队时，将保留该组的隐私设置。 如果 StaffHub 团队没有与之关联的 Microsoft 365 组，则会自动为您创建一个私密隐私设置的组以支持该转换。  由于团队和 StaffHub 之间的团队和组命名之间的差异，团队中可能会显示不同的团队名称。 
+每个 StaffHub 团队都需要一个相应的 Microsoft 365 或 Microsoft 365 组。 如果 StaffHub 团队与 Microsoft 365 组关联，则当您移动团队时，将保留该组的隐私设置。 如果 StaffHub 团队没有与之关联的 Microsoft 365 组，则会自动为您创建一个私密隐私设置的组以支持该转换。  由于团队和 StaffHub 之间的团队和组命名之间的差异，团队中可能会显示不同的团队名称。 
 
 当您将团队从 StaffHub 过渡到团队时，用户将无法再访问其在 StaffHub 中的日程安排，并且会被重定向到团队中的倒班。 我们建议你将此更改与你的组织进行沟通，以最大限度地减少中断，并鼓励用户采纳和探索团队。 如果你有 Azure AD Premium，则可以[运行报表](run-report-to-show-staffhub-usage.md)来获取组织中需要了解此更改的 StaffHub 用户的列表。  
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8c88ba4ddb8b2e9af83e227388232e243dcabe1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140291"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637941"
 ---
 # <a name="meetings-first"></a>会议优先
 
@@ -78,9 +78,9 @@ ms.locfileid: "43140291"
 
 任何版本的 Skype for Business 服务器（和不再支持的 Lync 服务器）都支持会议优先。 任何受支持的 Skype for Business 客户端都支持它，但是更好的功能需要最新的客户端。
 
-一旦满足这些要求（而不是之前），用户可以[获得 Office 365 和团队的许可](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)。
+一旦满足这些要求（而不是之前），用户可以[获得 Microsoft 365 或 Office 365 和团队的许可](https://docs.microsoft.com/office365/enterprise/assign-licenses-to-user-accounts)。
 
-为获得最佳会议首次体验，应为用户启用[Exchange Online](exchange-teams-interact.md)、 [SharePoint online 和 OneDrive For](sharepoint-onedrive-interact.md)Business 以及 Office 365 组创建。 只有邮箱位于本地 Exchange 的用户或没有 SharePoint Online 或 OneDrive for Business 或 Office 365 组创建的用户，才支持会议优先。 但是，其体验将不会很完整。 特别是，对于使用 Exchange Server 本地版的组织，可能有一些限制：创建和查看来自团队客户的会议以及与合规性功能相关。
+为获得最佳会议首次体验，应为用户启用[Exchange Online](exchange-teams-interact.md)、 [SharePoint online 和 OneDrive For](sharepoint-onedrive-interact.md)business 以及 Microsoft 365 组创建。 只有邮箱位于本地 Exchange 的用户或没有 SharePoint Online 或 OneDrive for Business 的用户或 Microsoft 365 组创建时，才支持会议优先。 但是，其体验将不会很完整。 特别是，对于使用 Exchange Server 本地版的组织，可能有一些限制：创建和查看来自团队客户的会议以及与合规性功能相关。
 
 至少，用户必须获得[团队许可](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)。 此外，如果需要，可以为[音频会议](set-up-audio-conferencing-in-teams.md)授权。
 

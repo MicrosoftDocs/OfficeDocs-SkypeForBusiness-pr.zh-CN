@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 了解有关使用 Microsoft 批量许可的组织启用音频会议功能的每分钟费率选项。
-ms.openlocfilehash: 18324a5e2f0ec97311675fa4dcb7293a456486a0
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44041719"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610507"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -56,7 +56,7 @@ ms.locfileid: "44041719"
   
 按分钟付费要求你的组织启用[通信信用点数](what-are-communications-credits.md)，并为每位用户分配许可证，以便音频会议正常工作。 如果需要更多详细信息，请参阅为你的组织和/或[Microsoft 团队附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)[设置通信信用点数](set-up-communications-credits-for-your-organization.md)。
   
-若要为组织中的用户启用音频会议每分钟支付，请参阅[在 Office 365 中试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
+若要为组织中的用户启用音频会议每分钟支付，请参阅[在 Microsoft Office 365 或 Office 365 中试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
 
 ## <a name="why-is-it-best-for-you"></a>为什么最适合您？
 

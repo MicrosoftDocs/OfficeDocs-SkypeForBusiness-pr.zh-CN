@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45cfe8ed255e889093044672cb738152adaaf6ae
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778928"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610134"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中分配团队所有者和成员
 =================================================
@@ -29,7 +29,7 @@ ms.locfileid: "43778928"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-在 Microsoft Teams 中有两种用户角色：**所有者**和**成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 此外，团队所有者和成员可以拥有频道的审核员功能（前提是设置了审核）。 如果团队是通过现有 Office 365 组创建的，则会继承权限。
+在 Microsoft Teams 中有两种用户角色：**所有者**和**成员**。 默认情况下，会为创建新团队的用户授予所有者状态。 此外，团队所有者和成员可以拥有频道的审核员功能（前提是设置了审核）。 如果团队是从现有 Microsoft 365 组创建的，则权限将被继承。
 
 下表显示了所有者与成员之间的权限差异。
 

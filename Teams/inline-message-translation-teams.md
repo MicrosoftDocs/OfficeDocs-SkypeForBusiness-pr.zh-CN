@@ -20,17 +20,17 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fabdbde6f8307694457d4861d67c6ed2eb22ac1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 391814e9197ebcf4839adac35dc2a8b96085b545
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905804"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638511"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>在 Microsoft 团队中启用内联邮件翻译 
 =================================================
 
-内联邮件转换是一种新的 Microsoft 团队功能，可让用户将团队邮件转换为 Office 365 的个人语言设置所指定的[语言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)。
+内联邮件转换是一种新的 Microsoft 团队功能，可让用户将团队邮件转换为其个人语言设置指定的[语言](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194)。
 
 默认会为贵组织部署内联消息翻译。 如果您希望允许用户在团队客户端中使用此功能，则必须启用此设置。
 

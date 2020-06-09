@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用反馈策略控制组织中的团队用户是否可以向 Microsoft 提交有关团队的反馈。
-ms.openlocfilehash: b016a1d566f15cdabea55913b7fe107d86dee358
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326679"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637951"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的反馈策略
 
@@ -32,7 +32,7 @@ ms.locfileid: "44326679"
 
 **"提供反馈" 功能**
 
-用户可通过**转到**  >  团队**提供反馈**来向我们发送有关团队的评论和建议。 通过 "**提供反馈**" 发送的数据在您的 Office 365 协议下被视为 "支持数据"，包括其他人被视为 "客户数据" 或 "个人资料" 的信息。
+用户可通过**转到**  >  团队**提供反馈**来向我们发送有关团队的评论和建议。 通过 "**提供反馈**" 发送的数据被视为 "支持数据" （您的 Microsoft 365 或 Office 365 协议），其中包括将以其他方式被视为 "客户数据" 或 "个人资料" 的信息。
 
 ![团队中的 "提供反馈" 选项的屏幕截图](media/manage-feedback-policies-in-teams-give-feedback.png)
 

@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 061458585854cf9a80113dce9877779806c7c418
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2718db11c905678a49650ad41f851e8f6e4e393c
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826220"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610291"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音频会议支持的语言
 
-在 Office 365 中设置和配置音频会议时，你可以选择在呼叫者拨入到 Skype for Business 或 Microsoft 团队会议时使用的主要和辅助（最多4个）语言。下面是音频会议支持语言的列表： 
+在 Microsoft 365 或 Office 365 中设置和配置音频会议时，你可以选择在呼叫者拨入到 Skype for Business 或 Microsoft 团队会议时使用的主要和辅助（最多4个）语言。下面是音频会议支持语言的列表： 
   
 > [!IMPORTANT]
 > 主语言和辅助语言只能在专用音频会议电话号码上更改。 
@@ -93,11 +93,11 @@ ms.locfileid: "41826220"
 
 - 为节省时间或自动执行此操作，您可以使用[get-csonlinedialinconferencinglanguagessupported](https://go.microsoft.com/fwlink/?LinkId=617684)或[set-csonlinedialinconferencingservicenumber](https://go.microsoft.com/fwlink/?LinkId=617689) cmdlet。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell 全部用于管理用户以及允许或禁止用户执行的操作。使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。若要开始使用 Windows PowerShell，请参阅以下主题：
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你在一次为多个用户进行设置更改时。了解以下主题中的这些优势： 
     
@@ -112,6 +112,6 @@ ms.locfileid: "41826220"
   
 ## <a name="related-topics"></a>相关主题
 
-[试用或购买 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 

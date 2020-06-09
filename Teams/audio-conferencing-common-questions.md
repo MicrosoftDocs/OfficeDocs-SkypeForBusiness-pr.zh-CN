@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 下面列出了我们的客户希望使用音频会议的一些主要问题。
-ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: c181c6cf2da1f1573b10f6e206bd1d658c6af00b
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236842"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611031"
 ---
 # <a name="audio-conferencing-common-questions"></a>音频会议常见问题
 
@@ -35,7 +35,7 @@ ms.locfileid: "42236842"
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>音频会议有哪些优点？
 
-例如，当人们在旅途中时，呼叫会议非常有用，并且不能使用笔记本电脑或移动设备上的 Skype for business 或 Microsoft 团队应用参加会议。 但是，在某些情况下，使用手机参加 Skype for Business 或 Microsoft 团队会议可能比在计算机上使用应用更好。
+例如，当人们在旅途中时，呼叫会议非常有用，并且不能使用笔记本电脑或移动设备上的 Skype for business 或 Microsoft 团队应用参加会议。 但还有其他一些情况，使用手机参加 Skype for Business 或 Microsoft Teams 会议可能比在计算机上使用应用更好：
   
 - Internet 连接受限。
     
@@ -45,9 +45,9 @@ ms.locfileid: "42236842"
     
 - 如果拨入，通话质量更好。
     
-- 用户可以使用蓝牙设备采用"免提"方式加入会议。
+- 用户可以使用蓝牙设备“免提”加入会议。
     
-- 人们发现它更方便、更方便地实现其状况。
+- 用户发现对于他们的情况而言，这样更加简便。
     
 ## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>谁可以参加音频会议会议？ 我可以听到哪些人？
 
@@ -65,7 +65,7 @@ ms.locfileid: "42236842"
   
 本地拨入号码以及在某些情况下你的组织所在的国家或地区的国际拨入号码，将包含在会议邀请中。如果一名与会者使用了邀请中包含的不同号码，它将成为共享的电话号码。
   
-## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-office-365-support"></a>Office 365 中的音频会议有多少个国际拨入号码？
+## <a name="how-many-international-dial-in-numbers-does-audio-conferencing-in-microsoft-365-or-office-365-support"></a>Microsoft 365 或 Office 365 支持音频会议有多少个国际拨入号码？
 
 有关国家/地区的当前列表，请参阅[Microsoft 团队中的音频会议电话号码](phone-numbers-for-audio-conferencing-in-teams.md)或[Skype for Business Online 中音频会议的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)。
   
@@ -85,7 +85,7 @@ ms.locfileid: "42236842"
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>我可以在会议中拥有多少个电话参与者？
 
-音频会议最多允许250个电话与会者。
+音频会议最多允许 250 名电话与会者。
   
 若要了解会议限制，请参阅 [Skype for Business Online 限制](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)。
   
@@ -155,5 +155,5 @@ Skype for Business 或 Microsoft 团队用户可以在设置电子邮件后找�
   
 [Microsoft Teams 中用于音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md) 
 
-[Skype for Business Online 中的音频会议电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
+[Skype for Business Online 中用于音频会议的电话号码](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
   

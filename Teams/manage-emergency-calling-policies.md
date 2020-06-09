@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft 团队中的紧急呼叫策略，定义当组织中的团队用户拨打紧急电话时会发生什么情况。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 98d6fb5eba98701cddccb808e5670fb34a00efbf
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: 79332a8675273e86476a68f43489c202b03faea9
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539479"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638681"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫策略
 
@@ -77,11 +77,11 @@ ms.locfileid: "44539479"
 2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
 3. 在 "**紧急呼叫策略**" 下，选择要分配的策略，然后单击 "**保存**"。
 
-要一次为多个用户分配策略，请执行以下操作：
+若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
-2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
+3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。  
 
 或者，您也可以执行以下操作：
 
@@ -104,7 +104,7 @@ ms.locfileid: "44539479"
 在此示例中，我们将名为 "操作紧急呼叫策略" 的策略分配给 "Contoso 操作" 组中的所有用户。  
 
 > [!NOTE]
-> 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
+> 通过按照[连接到单个 Windows PowerShell 窗口中的所有 Microsoft 365 或 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
 
 获取特定组的 GroupObjectId。
 ```powershell

@@ -21,18 +21,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c10fcf4f93319a351304ded03f1b3889f8d5c7ca
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 736ed72a4f4aacd41ed2db746976a9ff848aa74e
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350296"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638541"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>了解 Microsoft Teams 中的团队和频道
 
 团队和频道的概念是 Microsoft 团队正常、高效实施的基础。 
 
-- 团队是人员、内容和工具的集合，它们协同工作以生成公司的业务成果。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Office 365 组成员身份的更改会同步到团队。
+- 团队是人员、内容和工具的集合，它们协同工作以生成公司的业务成果。 团队基于 Microsoft 365 组构建，对 Microsoft 365 组成员身份的更改将与团队同步。
 
 - 信道是在其中完成实际工作的团队中的协作空间。 
 

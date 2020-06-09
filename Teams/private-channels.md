@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft Teams 中使用和管理私人频道。
-ms.openlocfilehash: 761d6a06da6bb02991e706f6e18ac8ce7d4106f4
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
-ms.translationtype: HT
+ms.openlocfilehash: 769fd2b489d65b276823abd7c3ff8f579100617a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265627"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637931"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人频道
 
@@ -68,10 +68,12 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 ### <a name="who-can-create-private-channels"></a>谁可以创建私人频道？
 
-默认情况下，任何团队所有者或团队成员都可以创建私人频道。 来宾无法创建私人频道。 可在团队级别和组织级别管理创建私人频道的功能：
+默认情况下，任何团队所有者或团队成员都可以创建私人频道。 来宾无法创建私人频道。 可以在团队级别和组织级别管理创建专用通道的功能。
 
-- 在团队的“**设置**”选项卡上，团队所有者可以关闭或开启成员创建私人频道的功能。
-- 作为管理员，你可以使用[策略](teams-policies.md)来控制允许组织中的哪些用户创建私人频道。
+> 1. 转到管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
+
+> 2. 使用[策略](teams-policies.md)控制允许组织中的哪些用户创建专用频道。
+    设置策略后，团队所有者可以关闭或打开成员在团队的 "**设置**" 选项卡中创建专用频道的功能。
 
 创建私人频道的人员是私人频道所有者，只有私人频道所有者才能直接从中添加或删除人员。 私人频道所有者可将任何团队成员添加到自己创建的私人频道，包括来宾。 私人频道的成员具有安全的对话空间，添加新成员后，他们可以查看该私人频道中的所有对话（甚至是旧对话）。
 
@@ -83,7 +85,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 
 如果私人频道所有者是一个或多个私人频道的最后一个所有者，则无法通过 Teams 客户端将其删除。
 
-如果私人频道所有者离开你的组织，或者将其从与团队相关联的 Office 365 组中删除，则私人频道的成员将自动晋升为私人频道所有者。
+如果专用频道所有者离开你的组织，或者从与团队关联的 Microsoft 365 组中删除了它们，则专用通道的成员将自动提升为专用通道所有者。
 
 ### <a name="what-can-team-owners-and-team-members-see-in-a-private-channel"></a>团队所有者和团队成员可以在私人频道中查看哪些信息？
 
@@ -107,7 +109,7 @@ Microsoft Teams 中的私人频道创建专用空间供团队展开协作。 仅
 |---------|---------|---------|---------|---------|---------|---------|
 |创建私人频道|是<sup>1</sup>|是<sup>1、2</sup>|否|不适用|不适用|不适用|
 |删除私人频道|是|否|否|是|否|否|
-|离开私人频道|不适用|不适用|不适用|是<sup>3</sup>|是|是|
+|离开私人频道|不适用|不适用|不适用|是<sup>3</sup>|必需|是|
 |编辑私人频道|否|不适用|不适用|是|否|否|
 |还原已删除的私人频道|是|否|否|是|否|否|
 |添加成员|否|不适用|不适用|是|否|否|

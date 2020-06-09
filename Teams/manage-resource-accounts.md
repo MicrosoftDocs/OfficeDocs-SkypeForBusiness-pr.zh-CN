@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，你将了解如何在 Microsoft 团队中创建、编辑和管理资源帐户。
-ms.openlocfilehash: 2bf333eef72de4744f13cfe25a4457facaf4b3e6
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: f454658cb051ed9e918ca8a1d90c716a35933f68
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565889"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637971"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -54,7 +54,7 @@ ms.locfileid: "44565889"
 
 如果自动助理或呼叫队列嵌套在顶级自动助理下方，并且如果你希望将多个点输入到自动助理的结构中并调用队列，则关联的资源帐户仅需要电话号码。
 
-若要将呼叫重定向到您的组织中联机的人员，他们必须具有**电话系统**许可证并启用企业语音或拥有 Office 365 通话计划。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 To enable them for Enterprise Voice, you can use Windows PowerShell. 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+若要将呼叫重定向到您的组织中联机的人员，他们必须具有**电话系统**许可证并启用企业语音或安装 Microsoft 365 或 Office 365 通话计划。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 To enable them for Enterprise Voice, you can use Windows PowerShell. 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > 为了避免资源帐户出现问题，请按照此顺序执行这些步骤。
@@ -118,7 +118,7 @@ ms.locfileid: "44565889"
 
 ![新资源帐户选项的屏幕截图](media/res-acct.png)
 
-接下来，在 Microsoft 365 管理中心中对资源帐户应用许可证，如向[用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)中所述。
+接下来，按照[单独或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)中的说明，将许可证应用于 Microsoft 365 管理中心中的资源帐户。
 
 ### <a name="edit-resource-account"></a>编辑资源帐户 
 
@@ -182,7 +182,7 @@ ms.locfileid: "44565889"
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. 你将无法使用资源帐户，直到你向其应用许可证。 有关如何将许可证应用于 Microsoft 365 管理中心中的帐户，请参阅[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)和[分配 Skype for business 许可证](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+2. 你将无法使用资源帐户，直到你向其应用许可证。 若要了解如何将许可证应用于 Microsoft 365 管理中心中的帐户，请参阅[单独或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)以及[分配 Skype for business 许可证](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
 
 3. 可选将正确的许可证应用到资源帐户后，您可以为资源帐户分配一个电话号码，如下所示。 并非所有资源帐户都需要电话号码。 如果未对资源帐户应用许可证，则电话号码分配将失败。
 

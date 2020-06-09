@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: a2d1cf256829cccd27bde2dce311145b8861ae84
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 55f65bf14973b54b091e0a6c3ecdc3edf49e6ed3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583495"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637961"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -79,11 +79,11 @@ ms.locfileid: "44583495"
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
 3. 在“会议策略”中，选择想要分配的策略，然后单击“应用”。********
 
-要一次为多个用户分配策略，请执行以下操作：
+若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
-2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
+3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。  
 
 或者，您也可以执行以下操作：
 
@@ -332,7 +332,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 - [允许在会议中聊天](#allow-chat-in-meetings)
 
 > [!NOTE]
->用于加入会议的选项会有所不同，具体取决于每个团队组的设置和连接方法。 如果你的组具有音频会议，并使用它进行连接，请参阅[Office 365 中的音频会议](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)。 如果你的团队组没有音频会议，请参阅[在团队中加入会议](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
+>用于加入会议的选项会有所不同，具体取决于每个团队组的设置和连接方法。 如果你的组具有音频会议，并使用它进行连接，请参阅[音频会议](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365)。 如果你的团队组没有音频会议，请参阅[在团队中加入会议](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>让匿名人员开始会议
 

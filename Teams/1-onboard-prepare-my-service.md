@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 使用 "加入清单" 为团队准备 Office 365 并配置团队核心功能、网络和云语音工作负荷。
+description: 使用加入核对清单为团队准备 Microsoft 365 或 Office 365，并配置团队核心功能、网络和云语音工作负荷。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3c805e8ff14ddb1c46f83db819c5dd8a2c305914
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137992"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610064"
 ---
 # <a name="prepare-my-service"></a>准备服务
 
@@ -34,7 +34,7 @@ ms.locfileid: "43137992"
 
 以下清单将指导你完成以下步骤：使用呼叫计划（"呼叫计划"）实现音频会议、电话系统和 Microsoft 团队中的电话系统直接路由（"直接路由"）功能。
 
-*  [为团队准备 Office 365](onboarding-checklist-enable-office-365.md)
+*  [为团队准备 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)
 
 *  [配置团队核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

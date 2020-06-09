@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de92e52b50ce863ba940badbdeff32c90f083fde
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583435"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637711"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -65,7 +65,7 @@ Outlook for Mac 中的 "团队会议" 按钮将在 outlook for Mac 功能区中�
 
 用户单击“发送”后，会议协调（Teams 联接链接和拨入号码）将添加到会议邀请。****  
 
-## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Teams 会议加载项和 Outlook 的 FindTime
+## <a name="teams-meeting-add-in-and-findtime-for-outlook"></a>适用于 Outlook 的团队会议加载项和 FindTime
 
 FindTime 是 Outlook 的加载项，可帮助用户在各公司的会议时间达成共识。 会议受邀者提供首选时间后，FindTime 将代表用户发出会议邀请。 若在 FindTime 中选择了“联机会议”选项，FindTime 将安排 Skype for Business 或 Microsoft Teams 会议。**** （FindTime 会将组织设置的内容用作默认的联机会议频道。）
 

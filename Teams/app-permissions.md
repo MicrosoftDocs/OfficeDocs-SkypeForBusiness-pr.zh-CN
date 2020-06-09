@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f19cbbba6df7c43c69af35893466344e8df1d17d
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256477"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44611011"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -140,7 +140,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - 选项卡的风险配置文件与在浏览器选项卡中运行的同一网站几乎完全相同。 
 
-- 选项卡还获取正在运行的上下文，其中包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、当前用户的 Azure AD 对象 ID、它所在的 Office 365 组的 ID （如果是团队）、租户 ID 以及用户的当前区域设置。 但是，若要将这些 Id 映射到用户的信息，选项卡将必须使用户登录到 Azure AD。
+- 选项卡还获取正在运行的上下文，包括当前用户的登录名和 UPN、当前用户的 Azure AD 对象 ID、当前用户所驻留的 Microsoft 365 组的 ID （如果是团队）、租户 ID 和用户的当前区域设置。 但是，若要将这些 Id 映射到用户的信息，选项卡将必须使用户登录到 Azure AD。
 
 ## <a name="connectors"></a>连接器
 

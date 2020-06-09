@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 了解 Microsoft 团队如何通过使用动态成员资格支持与 Office 365 组关联的团队。
+description: 了解 Microsoft 团队如何通过使用动态成员资格支持与 Microsoft 365 组关联的团队。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905794"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638401"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 
@@ -35,7 +35,7 @@ Microsoft 团队支持使用*动态成员身份*与 microsoft 365 组相关联�
 
 使用此功能时，给定团队的成员会根据一组特定条件自动更新，而不是手动管理成员身份。 执行此操作需要使用 Azure AD Premium P1 许可证，并且团队成员可以[由租户管理员分配](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)给任何用户的 Azure AD 属性（前提是你有租户和管理员帐户）。
 
-在团队的 Office 365 组中，Microsoft 团队可能会从几分钟到最多2小时的时间来反映动态成员身份更改。
+Microsoft 团队可能会从几分钟到最多2小时的时间，以反映动态成员身份更改一旦在团队的 Microsoft 365 组中生效。
 
 > [!NOTE]
 > - 规则可定义团队成员，但不能定义团队所有者。
@@ -44,7 +44,7 @@ Microsoft 团队支持使用*动态成员身份*与 microsoft 365 组相关联�
 > -    成员将无法退出由动态组支持的团队。
 
 
-## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>使用动态成员身份创建和管理 Office 365 组
+## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>使用动态成员身份创建和管理 Microsoft 365 组
 以租户管理员身份登录时，按照[创建动态组和检查状态](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)中的说明进行操作。 根据需要，请参阅[Azure Active Directory 中的组的动态成员身份规则](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)。
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>使用 O365 组创建新团队

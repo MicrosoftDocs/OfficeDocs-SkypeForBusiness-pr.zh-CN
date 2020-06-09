@@ -18,12 +18,12 @@ description: 了解将组织外部的人员添加为 Microsoft 团队中的团�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7a30aa56260da8c5e07c8c08c1a8c3745ffb6ee5
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902547"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637221"
 ---
 <a name="how-a-guest-joins-a-team"></a>来宾加入团队的方式
 ========================
@@ -35,11 +35,11 @@ Microsoft Teams 中的团队所有者可以通过 Web 或桌面在其团队中�
   
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>来宾如何成为团队成员
 
-1. 团队所有者或 Office 365 管理员[向团队添加来宾](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
-1. Office 365 管理员或团队所有者根据需要管理来宾的功能：例如，允许来宾添加或删除频道，或者禁用对文件的访问权限。
+1. 团队所有者或 Microsoft 365 或 Office 365 管理员[将来宾添加到团队](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
+1. Microsoft 365 或 Office 365 管理员或团队所有者根据需要管理来宾的功能：例如，允许来宾添加或删除频道或禁用对文件的访问。
 1. 来宾会收到一封来自团队所有者的欢迎电子邮件，其中内附团队信息及其现在作为成员应执行的操作。 
 1. 来宾接受邀请。
-  其电子邮件地址属于 Azure Active Directory 或 Office 365 工作/学校帐户的来宾用户可直接接受邀请。 
+  拥有属于 Azure Active Directory、Microsoft 365 或 Office 365 工作或学校帐户的电子邮件地址的来宾用户可以直接接受邀请。 
   如果来宾尚未有与他们的电子邮件地址关联的 Microsoft 帐户，他们将被定向到免费创建一个。 
 1. 接受邀请后，来宾可[参与团队和频道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)、接收和答复频道消息、[访问频道中的文件](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)，还能参与聊天、加入会议并协作处理文档等等。 
 

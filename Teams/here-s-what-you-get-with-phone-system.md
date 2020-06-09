@@ -1,5 +1,5 @@
 ---
-title: 以下是 Office 365 中的电话系统功能
+title: 电话系统的功能
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解功能、可用性以及如何为你的企业规划和设置 Microsoft Phone 系统。 '
-ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: fa7acbd4593b44805b2f9044602f3521baacaaaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288700"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638341"
 ---
-# <a name="heres-what-you-get-with-phone-system-in-office-365"></a>以下是 Office 365 中的电话系统功能
+# <a name="heres-what-you-get-with-phone-system"></a>电话系统的功能
 
-本文介绍 Office 365 功能中的电话系统。 有关将电话系统用作专用分支交换（PBX）替换的详细信息，以及用于连接到公共交换电话网络（PSTN）的选项，请参阅[Office 365 中的 "电话系统是什么](what-is-phone-system-in-office-365.md)"。
+本文介绍电话系统功能。 有关将电话系统用作专用分支交换（PBX）替换的详细信息，以及用于连接到公共交换电话网络（PSTN）的选项，请参阅[什么是电话系统](what-is-phone-system-in-office-365.md)。
 
 客户端适用于电脑、Mac 和手机，可通过平板电脑和移动电话将设备上的功能提供给电脑和桌面 IP 电话。 有关详细信息，请参阅[获取 Microsoft 团队客户端](get-clients.md)。
 
   
-## <a name="phone-system-in-office-365-features"></a>Office 365 功能中的电话系统
+## <a name="phone-system-features"></a>电话系统功能
 
 电话系统提供下列功能。 除非另有说明，否则功能在团队和 Skype for business Online 中均可使用。
   
 |||
 |:-----|:-----|
-|**Office 365 功能中的电话系统** <br/> |**说明** <br/> |
+|**电话系统功能** <br/> |**说明** <br/> |
 |[云自动助理](what-are-phone-system-auto-attendants.md) <br/> |允许您创建一个菜单系统，使外部和内部呼叫者能够找到并将呼叫放入或转移到组织中的公司用户或部门。  <br/> |
 |[云呼叫队列](create-a-phone-system-call-queue.md) <br/> |允许你配置为你的组织管理呼叫队列的方式：例如，设置问候语和暂停的音乐、搜索下一个可用的呼叫代理以处理呼叫等。  <br/> |
 |保留音乐 | 当来自公共交换电话网络（PSTN）的外部呼叫处于暂候状态时，播放由该服务定义的默认音乐。 除了对呼叫队列拨打电话之外，此功能适用于一对一的 PSTN 到团队通话。 此功能提供与其他平台的保持状态通知奇偶校验。 此功能可由管理员配置，但[当前只能通过 PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)进行配置。 在 PSTN 呼叫的咨询转移中也不支持 "保留音乐"。|
@@ -82,7 +82,7 @@ ms.locfileid: "42288700"
 
 ## <a name="related-topics"></a>相关主题
 
-- [什么是 Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
+- [什么是电话系统？](what-is-phone-system-in-office-365.md)
 - [Cloud voice in Microsoft Teams](cloud-voice-landing-page.md)
 - [设置电话系统](setting-up-your-phone-system.md)
 - [哪种通话套餐适合你？](calling-plan-landing-page.md)

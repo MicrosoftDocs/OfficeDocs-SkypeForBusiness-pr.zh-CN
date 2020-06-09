@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 631d41d15eb727a9b9919e56720238189159f669
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780211"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638912"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>面向管理员的 Microsoft 教育版管理常见问题解答
 
@@ -35,7 +35,7 @@ ms.locfileid: "43780211"
 
 -   **前缀-后缀命名策略**可以使用前缀或后缀定义团队（组）的命名约定，例如， **GRP_US_My Group_Engineering**。 前缀和后缀可以是固定字符串或用户属性（如 **[部门]**），这些属性根据创建团队的用户添加到名称。
 -   **自定义阻止的字词**你可以上载特定组织中的用户在其创建的团队名称中阻止使用的一组字词。 例如，您可以阻止术语 " **CEO**"、"**工资单**" 和 "**人力资源**" 在不适用的组的团队名称中使用。
--   **分类**你可以创建你的组织中的用户在创建 Office 365 组时可以设置的分类。 
+-   **分类**你可以创建你的组织中的用户在创建 Microsoft 365 组时可以设置的分类。 
 
 > [!IMPORTANT]
 > 使用 Microsoft 365 组命名策略需要针对属于一个或多个 Microsoft 365 组的成员的每个唯一用户的 Azure Active Directory Premium P1 许可证或 Azure AD 基本教育机构许可证。
@@ -66,14 +66,14 @@ ms.locfileid: "43780211"
 -   你可以使用 Microsoft Graph API （当前在 beta 中）来创建、配置、克隆和存档团队。 有关详细信息，请参阅[使用 Microsoft GRAPH API 处理 Microsoft 团队](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)。
 
 > [!TIP]
-> 学校数据同步为每个已同步的类创建 Office 365 组，并[启用隐藏的组成员身份](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)，以便只有课堂中的教师和学生才能看到该类的成员。 如果使用不同的进程创建类组，请使用 UnifiedGroup cmdlet 的 HiddenGroupMembershipEnabled 参数来满足相同的隐私要求。
+> 学校数据同步为每个已同步的类创建 Microsoft 365 组，并[启用隐藏的组成员身份](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)，以便只有课堂中的教师和学生才能看到该类的成员。 如果使用不同的进程创建类组，请使用 UnifiedGroup cmdlet 的 HiddenGroupMembershipEnabled 参数来满足相同的隐私要求。
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>在学期或季度结束时如何处理团队？
 
 我们建议您首先考虑在学校半学期或季度结束时如何处理团队数据：是删除它还是让学生在完成课程后仍可供学生使用。 您需要记住学校日历，以便您设置的任何策略不会与假日冲突。 你可以使用以下工具实现你的策略：
 
 -   **保留策略：** 使用此功能可删除早于指定时期的所有数据，以确保从聊天中删除旧数据（适用于所有或部分用户）和频道。 您还可以将团队配置为保留内容，使其无法删除。 有关详细信息，请参阅[Microsoft 团队的保留策略](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)。
--   **过期策略：** 将团队配置为在特定天数后过期。 过期之前的三十天，将通知团队的所有所有者需要续订其团队，否则将被删除（尽管管理员可以恢复已删除的团队还需30天）。 此设置对于确保未使用的团队 sunsetted 非常有用。 有关详细信息，请参阅[Office 365 组过期策略](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)。
+-   **过期策略：** 将团队配置为在特定天数后过期。 过期之前的三十天，将通知团队的所有所有者需要续订其团队，否则将被删除（尽管管理员可以恢复已删除的团队还需30天）。 此设置对于确保未使用的团队 sunsetted 非常有用。 有关详细信息，请参阅[Microsoft 365 组过期策略](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)。
 
 -   **存档团队：** 此设置将团队置于只读模式。 它们仍然可以被浏览和搜索，但没有人可以添加任何新帖子。 [存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)介绍团队所有者如何存档团队。团队所有者还可以使用[GRAPH API （beta）](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)来存档或还原团队。
  

@@ -16,17 +16,17 @@ f1.keywords:
 description: 了解如何将 Microsoft 团队 SMTP 域添加为 Exchange Online 中允许的发件人域，以向团队成员发送通知。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc35a4797cf5b5fde001090e386f9c172c5b9458
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b0efec3be7bbd9cf14ee7d0f1ca826ca76996795
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137262"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637741"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>在 Exchange Online 中将 Microsoft Teams SMTP 域添加为允许的发件人域 
 =============================================================================
 
-在管理控制台中或通过使用 Outlook 创建 Office 365 组时，使用 Exchange Online 发送向组添加团队成员的通知。 这些邮件是从你的租户生成的，因为其代表你的默认域 SMTP FQDN。
+无论是在管理员控制台还是使用 Outlook 创建 Microsoft 365 组，Exchange Online 都用于发送添加到组的团队成员的通知。 这些邮件是从你的租户生成的，因为其代表你的默认域 SMTP FQDN。
 
 ![显示添加到组中的用户的邮件头的屏幕截图。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca63f95bb95a304fc410b402a68a52e5b1aeca9e
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 5debf9eb72066c90ff0af002b4e5f3b3bafe8383
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349636"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637061"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -36,7 +36,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 托管在 Exchange Online 专用（旧版）上的用户必须同步到 Microsoft 365 或 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道，添加和配置选项卡和机器人，以及利用聊天和通话功能。 但是，他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
 
-拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，此外，还可以更改用户个人资料图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），并且管理会议（提供 Exchange Server 2016 （累积更新3）或更高版本）在本地运行时使用 OAuth 配置（最好通过 Exchange 混合配置向导），如在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要为这些用户启用日历委派，还必须按照在[Skype For Business Online 和 Exchange Server 之间配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。这些步骤将向团队安排应用程序提供确认委派权限所需的权限。   
+拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，此外，还可以更改用户个人资料图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），并且管理会议（提供 Exchange Server 2016 （累积更新3）或更高版本）在本地运行时使用 OAuth 配置（最好通过 Exchange 混合配置向导），如在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要为这些用户启用日历委派，还必须按照在[Skype For Business Online 和 Exchange Server 之间配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。这些步骤将向团队安排应用程序提供确认委派权限所需的权限。
 
 下表提供了基于 Exchange 环境的功能可用性的有用快速参考。
 
@@ -45,7 +45,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 **支持的操作：**
 
-| 用户的邮箱托管在： | 电子数据展示| 法律 &nbsp; 封存 | 保存| 团队和频道管理 |在团队中创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人| 
+| 用户的邮箱托管在： | 电子数据展示| 法律 &nbsp; 封存 | 保存| 团队和频道管理 |在团队中创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是 |
 |**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是|
@@ -78,7 +78,7 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 
 - 必须为用户启用 Microsoft 365 组创建，才能在 Microsoft 团队中创建团队。
 
-- 若要让 Microsoft 团队使用本地 Exchange，必须配置新的 Exchange OAuth 身份验证协议（最好是运行 Exchange 混合向导），如在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要使具有 Exchange 本地邮箱的用户代表另一个用户安排团队会议，还必须按照[配置 Skype For Business Online 和 Exchange Server 之间的配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。 
+- 若要让 Microsoft 团队使用本地 Exchange，必须配置新的 Exchange OAuth 身份验证协议（最好是运行 Exchange 混合向导），如在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要使具有 Exchange 本地邮箱的用户代表另一个用户安排团队会议，还必须按照[配置 Skype For Business Online 和 Exchange Server 之间的配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。
 
 > [!NOTE]
 > Outlook 团队外接程序可用于为托管在本地 Exchange 中的邮箱安排团队会议。 但是，如果使用 Exchange 本地 Exchange 代表另一个用户安排团队会议，则需要 Exchange 2013 CU9 和更高版本以及新的 Exchange OAuth 身份验证协议。 代理人和委托人进行通话都必须在 Exchange 内部部署邮箱。
@@ -103,3 +103,23 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 
 > [!TIP]
 > 有关如何使用 Azure AD Connect 与 Azure Active Directory 同步的信息，请参阅[将本地标识与 Azure Active Directory 集成](https://go.microsoft.com/fwlink/?linkid=854600)。
+
+## <a name="requirements-for-on-premises-exchange-mailbox-user"></a>本地 Exchange 邮箱用户的要求
+
+如果用户希望能够使用 Exchange 安排团队会议，则需要确保以下内容：
+
+- 代理人和委托人进行通话都必须在 Exchange 服务器上有邮箱。
+
+- 自动发现（AutoD） V2 是允许团队服务执行用户邮箱未经身份验证的发现所必需的。 AutoD V2 在 Exchange 2013 CU19 + 中受支持。
+
+- 必须为 EVOSTS 配置认证服务器的 Exchange 服务器。 这将自动配置为 Exchange 的混合向导（HWA）的一部分。
+
+    如果不想运行 HWA，则可以按照以下说明在 exchange Server 上手动创建 EVO STS 的身份验证服务器在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。 但是，我们建议你使用 HWA。
+
+- Exchange 服务器必须为合作伙伴应用程序配置了**Skype For business online**的应用程序 ID 00000004-0000-0ff1-ce00-000000000000。 ID 由团队计划服务和具有以下属性的链接的用户帐户使用：
+
+  - 从 Exchange 通讯簿中隐藏。 最佳做法是将其从通讯簿中隐藏，因为它是禁用的用户帐户。
+
+  - **UserApplication**的 Exchange 管理角色分配。
+
+若要完成集成，请按照步骤1-3 操作，[了解如何在本地 Exchange 和 Exchange Online 组织之间配置 OAuth 身份验证？](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help#how-do-you-configure-oauth-authentication-between-your-on-premises-exchange-and-exchange-online-organizations) 请注意，步骤2包括 ArchiveApplication 的角色分配，这不是委派所必需的，而是用于存档 SfB 在线聊天到 Exchange 邮箱。

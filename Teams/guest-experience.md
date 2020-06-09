@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bf160e53fcbdd13fefac06c706d743a8b55643
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 20fc95f14782057c6c493d9835fd17a7339018ca
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902597"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637271"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -57,7 +57,7 @@ ms.locfileid: "43902597"
 |创建会议或访问计划  <br/> |&#x2713;||
 |访问 OneDrive for Business 存储  <br/> |&#x2713;||
 |创建租户范围和团队/频道来宾访问策略  <br/> |&#x2713;||
-|邀请 Office 365 组织的域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |&#x2713;||
+|邀请 Microsoft 365 或 Office 365 组织域外部的用户 <br/>  *团队所有者控制此设置。*  <br/> <br/> |&#x2713;||
 |创建团队  <br/> |&#x2713;||
 |发现和加入公用团队  <br/> |&#x2713;||
 |查看组织结构图  <br/> |&#x2713;||
@@ -99,7 +99,7 @@ ms.locfileid: "43902597"
 <sup>1</sup>即将推出此功能。
 
 > [!NOTE]
-> 由 Office 365 管理员控制可供来宾使用的功能。 
+> Microsoft 365 和 Office 365 管理员控制来宾可用的功能。 
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

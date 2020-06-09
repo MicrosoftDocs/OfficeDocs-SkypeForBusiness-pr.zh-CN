@@ -29,16 +29,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: '了解如何为 Skype for business 服务支付通信信用点数（PSTN 使用），并查看计划，让你的用户拥有连续的电话系统访问权限。 '
-ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba3ca7b50b39915997096d28af3dc52e33455088
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827210"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610273"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>添加资金并管理通信点数
 
-通讯信用点数是在 Office 365 中支付电话系统和通话计划的便利方式。 通讯信用点数有助于确保你和你的用户不能：
+通讯信用点数是在 Microsoft 365 或 Office 365 中支付电话系统和通话计划的便利方式。 通讯信用点数有助于确保你和你的用户不能：
   
 - 使用免费拨入电话号码拨入音频会议会议。
     
@@ -76,7 +76,7 @@ ms.locfileid: "41827210"
     
 - [电话系统计划](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-您也可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单** > **订阅** > **添加订阅**来查看信息。
+您也可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单**  >  **订阅**  >  **添加订阅**来查看信息。
   
 若要查看一个表，其中包含每个功能所需的许可证或许可证，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
@@ -84,9 +84,9 @@ ms.locfileid: "41827210"
 
 - [设置 Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [设置云语音邮件 - 管理帮助](set-up-phone-system-voicemail.md)
+- [设置云语音邮件 - 管理员帮助](set-up-phone-system-voicemail.md)
     
-- [设置通话套餐](set-up-calling-plans.md) 和 [Office 365 的通话套餐](calling-plans-for-office-365.md)
+- [为 Microsoft 365 或 Office 365](calling-plans-for-office-365.md) [设置呼叫计划](set-up-calling-plans.md)和通话计划
         
  
  

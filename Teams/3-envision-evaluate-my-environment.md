@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 17843b886fc334d7b02907882a82dffdf302e9f5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 698d63f0d53119569f6b212fa7db7a16c827f571
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137982"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610054"
 ---
 # <a name="evaluate-my-environment"></a>评估环境
 
@@ -66,8 +66,8 @@ ms.locfileid: "43137982"
 使用以下注意事项评估组织的准备情况以解决用户更改管理问题。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>您是否曾对使用软件或服务的用户进行了以前的成功？</li><li>是否可以跟踪使用 uptake？</li><li>您是否有用于设计和管理初始&mdash;和正在进行&mdash;的采纳活动（意识、培训和支持）的资源？</li><li>您是否有专门的用户采纳/更改管理团队，是否可以购买这些资源以确保业务成果？</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>如果对上述&quot;全部&quot;项回答 "是"，请确定合适的用户变更管理利益干系人并开始准备用户规划。</li><li>如果您回答&quot;的&quot;不是上述部分或全部，请考虑向外部资源提供帮助，帮助您组织的变更管理和与采纳相关的活动。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>您是否曾对使用软件或服务的用户进行了以前的成功？</li><li>是否可以跟踪使用 uptake？</li><li>您是否有用于设计和管理初始 &mdash; 和正在进行的 &mdash; 采纳活动（意识、培训和支持）的资源？</li><li>您是否有专门的用户采纳/更改管理团队，是否可以购买这些资源以确保业务成果？</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>如果 &quot; &quot; 对上述全部项回答 "是"，请确定合适的用户变更管理利益干系人并开始准备用户规划。</li><li>如果您回答 &quot; &quot; 的不是上述部分或全部，请考虑向外部资源提供帮助，帮助您组织的变更管理和与采纳相关的活动。</li></ol></td></tr>
 </table>
 
 
@@ -124,7 +124,7 @@ ms.locfileid: "43137982"
 VPN 为许多组织提供很有用的服务。 很遗憾，它们通常不是为支持实时媒体而设计或配置的。 一些 VPN 可能还不支持 UDP。 Vpn 还会在已加密的媒体流量顶部引入额外的加密层。 此外，由于通过 VPN 设备有头发的流量，到团队服务的连接可能不会有效。
 此外，它们不一定从容量角度进行设计，以适应团队需要的预期负载。
 
-建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为*拆分隧道 VPN*。 拆分隧道意味着 Office 365 的流量不会遍历 VPN，但会直接转到 Office 365。 此更改将对质量产生积极影响，但也会提供从 VPN 设备和组织网络减少负载的辅助优点。
+建议提供一个备用路径，以便 Teams 流量绕过 VPN。 这通常称为*拆分隧道 VPN*。 拆分隧道意味着 Microsoft 365 或 Office 365 的流量不会遍历 VPN，但会直接转到 Microsoft 365 或 Office 365。 此更改将对质量产生积极影响，但也会提供从 VPN 设备和组织网络减少负载的辅助优点。
 
 要实施拆分通道，请咨询 VPN 供应商了解配置详细信息。
 
@@ -153,10 +153,10 @@ Microsoft 团队连接到 Microsoft Online 服务，并且需要 internet 连接
 
 打开这些端口对于可靠的团队部署非常重要。 阻止这些端口不受支持，并且将对媒体质量产生影响。
 
-如果你的组织要求你指定应在其中打开这些端口的确切 IP 地址范围和域，则可以限制这些端口的目标 IP 范围和域。 有关确切的端口、协议和 IP 范围的列表，请参阅[Office 365 url 和 ip 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
+如果你的组织要求你指定应在其中打开这些端口的确切 IP 地址范围和域，则可以限制这些端口的目标 IP 范围和域。 有关确切的端口、协议和 IP 范围的列表，请参阅[Microsoft 365 或 Office 365 url 和 ip 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
 如果你选择限制目标 IP 地址范围和域，则必须确保将端口和范围的列表保持为最新，因为它们可能会发生更改。 你可以订阅[此 RSS 源](https://go.microsoft.com/fwlink/p/?linkid=236301)，以便在发生更改时进行更新。 这也是一种很好的做法，通过定期运行[Skype For Business 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)来测试所有端口是否已打开。 可在下一节中了解有关此工具的功能的详细信息。
 
-在正在部署的代理服务器事件中，我们建议您绕过所有团队服务的代理服务器。 虽然使用代理可能有效，但由于媒体被强制使用 TCP 而不是 UDP，因此很可能会降低质量。 有关代理服务器和绕过的详细信息，请参阅[Office 365 url 和 IP 地址范围](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)。
+在正在部署的代理服务器事件中，我们建议您绕过所有团队服务的代理服务器。 虽然使用代理可能有效，但由于媒体被强制使用 TCP 而不是 UDP，因此很可能会降低质量。 有关代理服务器和绕过的详细信息，请参阅[Microsoft 365 或 Office 365 url 和 IP 地址范围](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)。
 
 <!--ENDOFSECTION-->
 
@@ -166,14 +166,14 @@ Microsoft 团队连接到 Microsoft Online 服务，并且需要 internet 连接
 
 你可以下载[Skype For Business 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)来测试你的网络是否已准备好进行团队。 此工具提供双重功能：它可以测试是否已打开所有正确的端口，并且它可以测试网络是否有障碍。
 
-下载并安装该工具后，您可以在 C：\\Program Files\\Microsoft Skype For business 网络评估工具中找到它。 有关如何使用该工具的详细指南（如 .docx）包含在该目录中。
+下载并安装该工具后，您可以在 C： \\ Program Files \\ Microsoft Skype For Business 网络评估工具中找到它。 有关如何使用该工具的详细指南（如 .docx）包含在该目录中。
 
 ### <a name="test-for-opened-ports"></a>测试打开的端口
 
-打开命令提示符窗口，然后导航到 "网络评估" 工具目录，方法是输入**Cd\\C\\： Program Files Microsoft Skype for business 网络评估工具**。 在命令提示符处，通过输入**networkassessmenttool/connectivitycheck**开始测试已打开的端口
+打开命令提示符窗口，然后导航到 "网络评估" 工具目录，方法是输入**Cd C： \\ Program Files \\ Microsoft Skype For Business 网络评估工具**。 在命令提示符处，通过输入**networkassessmenttool/connectivitycheck**开始测试已打开的端口
 
 运行检查后，该工具将显示消息 "验证已成功完成" 或报告已阻止的端口。
-它还会生成一个名为 Connectivity_results .txt 的文件，其中包含该工具的输出，并将其存储在%\\userprofile\\%\\appdata 本地 microsoft skype for business 网络\\评估工具目录中。
+它还会生成一个名为 Connectivity_results .txt 的文件，其中包含该工具的输出，并将其存储在% userprofile% \\ appdata \\ 本地 \\ microsoft skype for business 网络评估工具 \\ 目录中。
 
 我们建议你定期运行连接检查，以确保端口已打开并正常运行。
 
@@ -206,7 +206,7 @@ Microsoft 团队连接到 Microsoft Online 服务，并且需要 internet 连接
 
 如果带宽规划、端口测试或网络要求测试的结果显示您当前的网络需要补救措施才能部署团队，则可以通过以下几种方式实现此目的：
 
--   如果带宽不足，请升级连接，以便到 Office 365 的通信流 unhindered。
+-   如果带宽不足，请升级连接，以便 Microsoft 365 或 Office 365 的流量可以流过 unhindered。
 
 -   对于已阻止的端口，请更改防火墙规则并重新测试端口。
 
