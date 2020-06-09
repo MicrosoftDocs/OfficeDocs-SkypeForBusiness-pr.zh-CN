@@ -21,16 +21,16 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5224fabff542051438bc523388b96ecf93f7af9a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 76086d7e34d56a9bab59c7ca10ed40472aecd7a1
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905914"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610241"
 ---
 # <a name="adopt-microsoft-teams"></a>采用 Microsoft Teams
 
-如果你是小型企业版，或者想要推出从聊天开始的团队，团队 & 频道和会议，请使用我们的规范性[入门指南](get-started-with-teams-quick-start.md)，它旨在让你快速开始使用并运行。 如果你是具有混合或本地 Skype for business 配置的大型组织，或者你想要推出语音功能（如 Office 365 呼叫计划或电话系统），则可以从我们的入门指南开始，但你需要更多指南，请参阅**更深的采纳指南**。
+如果你是小型企业版，或者想要推出从聊天开始的团队，团队 & 频道和会议，请使用我们的规范性[入门指南](get-started-with-teams-quick-start.md)，它旨在让你快速开始使用并运行。 如果你是具有混合或本地 Skype for business 配置的大型组织，或者你想要推出语音功能（如 Microsoft 365 或 Office 365 通话计划或电话系统），则可以从我们的入门指南开始，但你需要更多的指南，请参阅**更深的采纳指南**。
 
 <ul class="panelContent cardsFTitle">
     <li>
