@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams（公共预览版）帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139195"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637171"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -78,7 +78,7 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 每个计划都包括租户就绪性评估，可用于在推出 Teams 前快速识别任何可能需要修正的环境问题。 评估包括先决条件和最佳做法。 每个评估测试都会显示绿色勾号或橙色警告三角形。 
 
 - <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>绿色勾号表示你的租户已通过特定测试。 
-- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>橙色警告三角形表示我们建议你跟进，确定是否需要执行任何操作（例如，推荐使用 Office 365 组过期策略，但不是必需的）。
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>橙色警告三角形表示我们建议你跟进，确定是否需要执行任何操作（例如，推荐使用 Microsoft 365 组过期策略，但不是必需的）。
 
 > [!IMPORTANT]
 > 拥有管理角色的用户启动 Teams 顾问后，所有评估都将在后台运行。 如果你进行某种更新或修正，这些内容可能在长达 24 小时内都不会反映到评估中。 这种情况是暂时的；只要 Advisor for Teams 脱离公共预览版并公开发布，届时评估将几乎实时更新。
@@ -102,8 +102,8 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 
 |评估测试  |提供的信息  |
 |---------|---------|
-|已配置 Office 365 组命名策略     |是否已为 Microsoft 365 组配置命名标准。 使用 Microsoft 365 组命名策略，组织可以对用户创建的团队应用一致的命名策略，并也能对其他组工作负载（包括 Outlook、SharePoint、Planner 和 Yammer）应用。 此测试通过 Microsoft Graph 查询 Azure AD，以检查是否有应用于 Microsoft 365 组的命名策略。 有关详细信息，请阅读 [Office 365 组命名策略](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
-|已配置 Office 365 组过期策略     |是否已为 Microsoft 365 组定义组过期策略。 这可让你的组织自动删除非活动状态的团队。 默认情况下处于禁用状态。 此测试通过 Microsoft Graph 查询 Azure AD，并报告是否已在默认值的基础上修改该值。 有关详细信息，请阅读 [Office 365 组过期策略](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
+|已配置 Microsoft 365 组命名策略     |是否已为 Microsoft 365 组配置命名标准。 使用 Microsoft 365 组命名策略，组织可以对用户创建的团队应用一致的命名策略，并也能对其他组工作负载（包括 Outlook、SharePoint、Planner 和 Yammer）应用。 此测试通过 Microsoft Graph 查询 Azure AD，以检查是否有应用于 Microsoft 365 组的命名策略。 有关详细信息，请阅读 [Microsoft 365 组命名策略](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
+|已配置 Microsoft 365 组过期策略     |是否已为 Microsoft 365 组定义组过期策略。 这可让你的组织自动删除非活动状态的团队。 默认情况下处于禁用状态。 此测试通过 Microsoft Graph 查询 Azure AD，并报告是否已在默认值的基础上修改该值。 有关详细信息，请阅读 [Microsoft 365 组过期策略](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>有关会话和会议的评估
 
