@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44dfc985f213141e20e15eb29198004d10030280
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583445"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665414"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
 
@@ -83,7 +83,7 @@ ms.locfileid: "44583445"
 
 - 从*外部组织中的用户*发起的通讯将始终位于用户 a 的 Skype for business 客户端中。
 
-如果你为用户分配了 Office 365 许可证，这将是你的组织的默认升级体验。 分配 Office 365 许可证时，默认情况下会分配团队和 Skype for business Online 许可证。<sup>2</sup>
+如果你为用户分配了 Microsoft 365 或 Office 365 许可证，这将是你的组织的默认升级体验。 分配 Microsoft 365 或 Office 365 许可证时，默认情况下会分配团队和 Skype for business Online 许可证。<sup>2</sup>
 
 为使此方法有效工作，所有用户都必须同时运行这两个客户端。 在 "Skype for business" 或 "团队客户端" 中，组织内部的聊天和从组织内部进行的通话可以居住在 Skype for business 或团队客户端中，这不受收件人的控制。 这取决于发件人用于发起通信的客户端。 如果发件人和收件人位于不同组织中，则在 "岛" 模式下传入呼叫和聊天始终位于 Skype for Business 客户端中。
 
@@ -178,7 +178,7 @@ ms.locfileid: "44583445"
 |当两个用户都处于 "孤岛" 模式时，Skype for Business 和团队之间的互操作不存在。      |Skype for business 和团队用户之间的通信需要互操作。         |
 
 > [!NOTE]
-> 如果无法关注将 Skype for Business 服务器用户迁移到团队所支持的方法，则可以通过删除 Active Directory 中的 Skype for business 服务器和所有相关用户属性来将用户切换到团队。 一旦用户 Azure Active Directory 属性已清除 Skype for Business 服务器属性，并且 DNS 记录已重新指向 Office 365，则可以在 Office 365 中向用户授予许可证并将其升级到团队。 
+> 如果无法关注将 Skype for Business 服务器用户迁移到团队所支持的方法，则可以通过删除 Active Directory 中的 Skype for business 服务器和所有相关用户属性来将用户切换到团队。 一旦用户 Azure Active Directory 属性已清除 Skype for Business 服务器属性，并且 DNS 记录已重新指向 Microsoft 365 或 Office 365，则可以在 Microsoft 365 或 Office 365 中向用户授予许可证，并将其升级到团队。 
 
 > [!IMPORTANT]
 > 通过转换迁移，联系人数据和会议数据将不会从本地环境迁移到 Microsoft 团队。

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68d8ff88e34fac291560b414c18055a12d838a91
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: da8f257e6e5d3a3adaaa8e1412187de9cbf8dbe3
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042789"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638771"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -55,7 +55,7 @@ Microsoft Teams Commercial Cloud Trial 为组织中未获得 Microsoft Teams 许
 
 必须允许用户注册应用和试用版（在 Microsoft 365 管理中心中）。 有关详细信息，请参阅本文后面的[管理试用版](#manage-the-trial)。 
 
-没有 Office 365 许可证（包含 Teams）的用户可以启动 Microsoft Teams Commercial Cloud Trial 优惠。 例如，如果用户拥有 Microsoft 365 商业应用版（不包括 Teams），则他们符合该试用版的条件。
+没有 Microsoft 365 或 Office 365 许可证（包含 Teams）的用户可以启动 Microsoft Teams Commercial Cloud Trial 优惠。 例如，如果用户拥有 Microsoft 365 商业应用版（不包括 Teams），则他们符合该试用版的条件。
 
 ## <a name="who-is-not-eligible"></a>哪些人不符合条件
 
@@ -148,6 +148,6 @@ Teams 试用版设计为由单独的最终用户启动，你不能代表最终�
 
 2019 年 4 月 22 日起，用户可以开始申请最新的 Microsoft Teams 商业云试用许可证。 如果要将组织中的用户从旧版试用许可证移到最新的试用许可证，则需要首先删除每个用户的旧版 Microsoft Teams 试用许可证。 删除旧版许可证后，每个受影响的用户都可以申请更新的 Microsoft Teams 商业云试用许可证。
 
-- 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+- 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Microsoft 365 或 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- 如果要通过管理门户删除此许可证，请参阅：[在 Office 365 商业版中删除用户许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- 如果要通过管理门户删除此许可证，请参阅[删除用户许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)

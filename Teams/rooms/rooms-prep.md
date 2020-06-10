@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何为部署 Microsoft 团队聊天室准备基础结构，以便你可以充分利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905344"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666164"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -55,7 +55,7 @@ ms.locfileid: "43905344"
 - 可访问 Active Directory 或 Azure Active Directory (Azure AD) 实例以及 Microsoft Exchange 和 Skype for Business 服务器。
 - 可访问能够使用 DHCP 提供 IP 地址的服务器。 不能使用静态 IP 地址配置 Microsoft 团队聊天室。
 - 访问 HTTP 端口 80 和 443。
-- 配置为本地 Skype for business 服务器实施[的服务器的端口和协议要求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)中所述的 TCP 和 UDP 端口，或者 Microsoft 团队或 Skype for business online 实现的[Office 365 url 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)。
+- TCP 和 UDP 端口配置为针对本地 Skype for Business 服务器实施，或 microsoft 团队或 Skype for business online 实施的[microsoft 365 和 Office 365 url 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)的服务器的 "[端口和协议要求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)" 中所述。
 
 > [!IMPORTANT]
 > 务必使用 1 Gbps 的有线网络连接来确保获得所需带宽。
@@ -110,7 +110,7 @@ Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 
 
 |用途|源或凭据|源端口|目标|CDN|ExpressRoute for Office 365|目标 IP|目标端口|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|身份验证与标识  <br/> |请参阅[Office 365 身份验证和标识](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
+|身份验证与标识  <br/> |请参阅[Microsoft 365 和 Office 365 身份验证和标识](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
 |门户与共享  <br/> |请参阅[Microsoft 365 管理中心和共享](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |SIP 信号  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |持久型共享对象模型 (PSOM) 连接 Web 会议  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -123,11 +123,11 @@ Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 
 |Skype 客户端快速提示  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |quicktips.skypeforbusiness.com  <br/> |否  <br/> |否  <br/> |不适用  <br/> |TCP 443  <br/> |
 
 > [!NOTE]
-> 用于 contoso.com 和 broadcast.skype.com 的通配符表示供 Office 365 独占使用的长节点列表。 
+> Contoso.com 和 broadcast.skype.com 的通配符代表专门用于 Microsoft 365 或 Office 365 的节点的长列表。 
   
 ### <a name="create-provisioning-packages"></a>创建设置包
 
-你将使用预配包对 Exchange Server 或 Office 365 进行身份验证。
+你将使用预配包对 Exchange Server、Microsoft 365 或 Office 365 进行身份验证。
   
 ### <a name="admin-group-management"></a>管理员组管理
 
@@ -144,7 +144,7 @@ Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 
   
 ### <a name="admin---local-administrator-account"></a>“Admin”- 本地管理员帐户
 
-Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设置\> ，可在本地更改密码。转到 Windows 或 AutoUnattend 文件（使用 ADK 的 Windows 系统映像管理器对 xml 文件进行更改）。
+Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设置，可在本地更改密码 \> 。转到 windows 或 AutoUnattend 文件（使用 ADK 的 Windows 系统映像管理器对 xml 文件进行更改）。
   
 > [!CAUTION]
 > 请务必尽快更改 Microsoft 团队聊天室密码。 
@@ -155,7 +155,7 @@ Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设
   
 ### <a name="machine-account"></a>计算机帐户
 
-与任何 Windows 设备很相似，可通过右键单击 " \> \>重命名 PC" 的设置来重命名计算机名称。
+与任何 Windows 设备很相似，可通过右键单击 " \> 重命名 PC" 的设置来重命名计算机名称 \> 。
   
  如果您想要在将计算机加入到域之后重命名该计算机，请使用 "重命名计算机 PowerShell" 命令，后跟计算机的新名称。
   

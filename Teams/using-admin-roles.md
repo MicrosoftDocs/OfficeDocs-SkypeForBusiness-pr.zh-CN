@@ -22,12 +22,12 @@ ms.reviewer: islubin
 description: 了解如何使用管理角色指定需要不同级别的访问权限的管理员来管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3917e64f7c50ad51d2b9f9fca48bedf0f4a96c66
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951067"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665204"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色管理团队
 
@@ -36,6 +36,8 @@ ms.locfileid: "43951067"
 ## <a name="teams-roles-and-capabilities"></a>团队角色和功能
 
 有四个团队管理员角色可用：团队服务管理员、团队通信管理员、团队通信支持专家和团队通信支持工程师。 查看下表，了解每个角色可以执行的操作以及管理员可在 Microsoft 团队管理中心和 PowerShell 中使用的工具。
+
+若要继续操作，请转到管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
 
 
 
@@ -51,8 +53,8 @@ ms.locfileid: "43951067"
 <sup>1</sup> [PowerShell-Skype for business 模块](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)<br>
 <sup>2</sup> [PowerShell-Microsoft 团队模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)<br>
 <sup>3</sup> [Microsoft 团队管理中心](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)
-<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to O365 Group management>> 
-<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to O365 Group management>> 
+<!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
+<sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
 有关可用于管理 Microsoft 团队的管理员工具的详细信息，请参阅[管理 Microsoft 团队](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center)。
 
@@ -73,7 +75,7 @@ ms.locfileid: "43951067"
    a. $session = new-csonlinesession<br>
    b. Import-pssession $session<br>
    c. 使用 "**获取模块**" 标识导入会话的名称（它将是随机生成的名称）。<br>
-3. 使用上述> 的**Get Command Module** <*name*标识所有可用 cmdlet
+3. 使用上述> 的**Get Command Module**  < *name*标识所有可用 cmdlet
 
 ### <a name="related-topics"></a>相关主题
 

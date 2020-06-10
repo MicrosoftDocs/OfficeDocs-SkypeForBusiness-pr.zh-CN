@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52c259098a1d31fdd601d1cce06ea1b685e774bf
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: d0744c78062b2ecd507cc16658819ba101930597
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350126"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665964"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
@@ -55,7 +55,7 @@ ms.locfileid: "44350126"
 - [团队的管理员培训](itadmin-readiness.md)
 - [在线最终用户视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [有关拥护 & IT 专业人员的云在线培训的咖啡](https://aka.ms/CoffeeintheCloud) 
-- [Microsoft 365 和 Office 365 培训生活中的一天是工作表](https://aka.ms/O365AdoptionTools)
+- [采纳工具](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>度量和分享成功
 

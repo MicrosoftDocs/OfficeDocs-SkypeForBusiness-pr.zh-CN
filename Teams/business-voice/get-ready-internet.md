@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a158f8b43b4cf58e2c5c6c4a4248488f41973d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
+ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780281"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "44610971"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>检查用于企业语音的 Internet 连接
 
@@ -60,7 +60,7 @@ ms.locfileid: "43780281"
 
 请按以下步骤操作：
 
-1. 在浏览器中，转到 https://admin.teams.microsoft.com。 使用具有全局管理员权限的帐户登录。 用于注册 Office 365 的帐户便拥有这些权限。
+1. 在浏览器中，转到 https://admin.teams.microsoft.com。 使用具有全局管理员权限的帐户登录。 用于注册 Microsoft 365 或 Office 365 的帐户便拥有这些权限。
 2. 打开“**计划**”，然后选择“**网络规划器**”。
 3. 在“**网络计划**”下，选择“**添加**”。 输入计划的名称，然后选择“**应用**”。 网络计划应如下所示：
 
@@ -77,13 +77,13 @@ ms.locfileid: "43780281"
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>查找最低的 Internet 连接速度
 
-选择“**生成报告**”时，Office 365 将创建如下所示的报告：
+选择“**生成报告**”时，Microsoft 365 或 Office 365 将创建如下所示的报告：
 
 ![网络规划器报告详细信息](../media/network-planner-report.png)
 
 突出显示的数字显示了 Teams 和企业语音将使用的 Internet 连接带宽。 建议该数字不超过 Internet 总连接速度的 30%。 例如，如果 Internet 连接速度是 60 Mbps，则 Teams 和企业语音的使用量不应超过 18 Mbps。
 
-使用以下公式可以确定最低的 Internet 连接速度：*\<突出显示的数字> / 0.3*。 根据上图中突出显示的数字，计算结果为 *4.6875 / 0.3 = 15.6*。 在这种情况下，Internet 连接速度应至少为 15.6 Mbps。
+使用以下公式可以确定最低的 Internet 连接速度：*\<highlighted number> / 0.3*。 根据上图中突出显示的数字，计算结果为 *4.6875 / 0.3 = 15.6*。 在这种情况下，Internet 连接速度应至少为 15.6 Mbps。
 
 如果 Teams 和企业语音的使用量将超过 Internet 总连接速度的 30%，则突出显示的数字将显示为红色。 在这种情况下，可能需要升级 Internet 连接。
 

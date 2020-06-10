@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9cc76313bb65a79241e26ab70a38d8698f27e7c
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 2866ae5bdaf38c0269efda13beed98982a057a4d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523435"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666034"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>从 Skype for Business 混合部署升级到团队
 
@@ -41,7 +41,7 @@ ms.locfileid: "44523435"
 - [准备好您的组织](https://aka.ms/SkypeToTeams-UserReadiness)
 - [开展了一个试验](https://aka.ms/SkypeToTeams-Pilot)
 
-如果你已在 Office 365 组织部署了 Skype for business 或 Microsoft Lync 并在混合部署中对其进行了配置，并且你的组织希望通过使用多种共存模式（或多功能）升级到团队，请按照本文中的指南进行操作。 对于升级旅程，你需要将用户移动到 Skype for business Online （如果他们尚未联机），然后为他们分配适当的共存和升级模式。
+如果你已在本地部署 Skype for business 或 Microsoft Lync，并在与你的 Microsoft 365 或 Office 365 组织进行混合部署中配置它，并且你的组织希望通过使用多种共存模式（或多功能）升级到团队，请按照本文中的指南操作。 对于升级旅程，你需要将用户移动到 Skype for business Online （如果他们尚未联机），然后为他们分配适当的共存和升级模式。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

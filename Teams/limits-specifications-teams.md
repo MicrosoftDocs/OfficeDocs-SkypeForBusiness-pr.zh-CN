@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebdd3204be74e3f7b923d977e6de25c041c2038e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512819"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637641"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -40,7 +40,7 @@ ms.locfileid: "44512819"
 |租户中允许的组织范围内的团队数 | 5     |
 |[组织范围内的团队](create-an-org-wide-team.md)中的成员数 | 5,000       |
 |全局管理员可创建的团队数        |  500,000   |
-|Office 365 组织可拥有的团队数    | 500,000&sup2;     |
+|Microsoft 365 或 Office 365 组织可拥有的团队数    | 500,000&sup2;     |
 |每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
 |各团队专用频道数    |30|
 |专用频道中的成员数    |250|
@@ -93,7 +93,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 有关详细信息，请参阅 [Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
 
 > [!NOTE]
-> 所有 Office 365 许可证中的邮件大小、文件附件数和内嵌图像限制均相同。
+> 所有 Microsoft 365 和 Office 365 许可证中的邮件大小、文件附件数和内嵌图像限制均相同。
 
 ## <a name="channel-names"></a>频道名称
 
@@ -132,7 +132,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |------------|---------------|
 |受众规模 | 10,000 名与会者 |
 |事件持续时间 | 4 小时 |
-|Office 365 组织中运行的并发实时事件数 <sup>1</sup> | 15 |
+|Microsoft 365 或 Office 365 组织中运行的并发实时事件数 <sup>1</sup> | 15 |
 
 <sup>1</sup> 可以根据需要安排许多实时事件，但每次只能运行 15 个。 一旦制造者加入实时事件，即被视为正在运行。 尝试加入第 16 个实时事件的制造者将收到错误消息。
 

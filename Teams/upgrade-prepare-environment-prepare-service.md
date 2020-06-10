@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0a9f0e3d82dcfeb62a90d4601394bf39a03877
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523025"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666054"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>准备要升级到团队的服务
 
@@ -44,7 +44,7 @@ ms.locfileid: "44523025"
 
 以下清单将引导你完成在你的组织中部署 Microsoft 团队的步骤：
 
-- [为团队准备 Office 365](onboarding-checklist-enable-office-365.md)
+- [为团队准备 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)
 
 - [配置团队核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 

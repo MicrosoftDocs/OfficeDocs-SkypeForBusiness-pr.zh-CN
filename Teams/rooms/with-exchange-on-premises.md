@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 阅读本主题，了解如何使用 Exchange on on-premises 在混合环境中部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d017706a0e512a4945eaccd69c0e11a7962ca518
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905294"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666154"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>使用 Exchange on premises 部署 Microsoft Teams Rooms
 
@@ -36,17 +36,17 @@ Microsoft 提供了[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink
 
 在使用 Exchange 内部部署部署 Microsoft 团队聊天室之前，请确保满足这些要求。 有关详细信息，请参阅[Microsoft 团队会议室要求](requirements.md)。
   
-如果要使用 Exchange on on-premises 部署 Microsoft 团队聊天室，您将使用 Active Directory 管理工具为本地域帐户添加电子邮件地址。 此帐户将同步到 Office 365。 你将需要执行以下操作：
+如果要使用 Exchange on on-premises 部署 Microsoft 团队聊天室，您将使用 Active Directory 管理工具为本地域帐户添加电子邮件地址。 此帐户将同步到 Microsoft 365 或 Office 365。 你将需要执行以下操作：
   
 - 创建一个帐户并将该帐户与 Active Directory 同步。
 
 - 启用远程邮箱并设置属性。
 
-- 分配 Office 365 许可证。
+- 分配 Microsoft 365 或 Office 365 许可证。
 
 - 启用使用 Skype for Business 服务器的设备帐户。 要启用设备帐户，你的环境需要满足以下先决条件：
 
-  - 您需要在 Office 365 计划中安装 Skype for Business Online （计划2）或更高版本。 该计划需要支持会议功能。
+  - 您需要在 Microsoft 365 或 Office 365 计划中安装 Skype for business Online （计划2）或更高版本。 该计划需要支持会议功能。
   
   - 如果您需要使用适用于 Microsoft 团队聊天室的电话服务提供商的企业语音（PSTN 电话），您需要 Skype for Business Online （计划3）。
   
@@ -105,14 +105,14 @@ Microsoft 提供了[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink
 
    有关详细的语法和参数信息，请参阅[Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>分配 Microsoft 365 或 Office 365 许可证
 
 1. 连接到 Azure Active Directory。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
 
-2. 设备帐户需要拥有有效的 Office 365 许可证，否则 Exchange 和 Microsoft 团队将不起作用。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 你可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 检索可用 Sku 的列表。
+2. 设备帐户需要有有效的 Microsoft 365 或 Office 365 许可证，否则 Exchange 和 Microsoft 团队将不起作用。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 你可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 检索可用 Sku 的列表。
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -166,7 +166,7 @@ Skype for Business Online PowerShell 用于管理 Microsoft 团队和 Skype for 
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>将许可证分配给你的 Microsoft 团队聊天室帐户
 
-1. 以租户管理员身份登录，打开 Office 365 管理门户，然后单击 "管理" 应用。
+1. 以租户管理员身份登录，打开 Microsoft 365 管理中心，然后单击 "管理" 应用。
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
 3. 单击 "Microsoft 团队聊天室帐户"，然后单击 "笔" 图标以编辑帐户信息。
 4. 单击“**许可证**”。

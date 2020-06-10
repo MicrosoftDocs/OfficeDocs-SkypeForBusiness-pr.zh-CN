@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解如何设置呼叫计划（包括您所在区域中可用的查看计划）、购买 & 分配许可证、获取电话号码以及将紧急地址添加 & 位置。
-ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 84dbff3ed660f6d436f01f0737141d8b261c1318
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042399"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666234"
 ---
 # <a name="set-up-calling-plans"></a>设置通话套餐
 
@@ -57,7 +57,7 @@ ms.locfileid: "44042399"
 - **使用新号码的请求表单。** 有时（取决于您所在的国家/地区）您将无法使用团队管理中心获取您的新电话号码，或者您需要特定的电话号码或区号。 如果是这样，则需下载表单并将其发回给我们。 有关详细信息，请参阅[为你的组织管理电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步骤4：为你的组织添加紧急地址和位置
-<a name="bkmk_add_addresses"> </a>紧急地址必须与电话号码相关联。 此关联发生的时间可能因国家和地区而异。 例如在美国，向用户分配电话号码时需要关联紧急地址。 在英国，从 Office 365 获取的电话号码或将电话号码从当前的服务提供商转移时号码时需要将紧急地址关联到电话号码。 
+<a name="bkmk_add_addresses"> </a>紧急地址必须与电话号码相关联。 此关联发生的时间可能因国家和地区而异。 例如在美国，向用户分配电话号码时需要关联紧急地址。 在英国，当您获取来自 Microsoft 365 或 Office 365 的电话号码时，或者从当前的服务提供商处转移电话号码时，您需要将紧急地址与电话号码相关联。 
 
 有关紧急呼叫和管理紧急地址的信息，请参阅[管理紧急呼叫](what-are-emergency-locations-addresses-and-call-routing.md)和[添加、更改或删除您的组织的紧急位置](add-change-remove-emergency-location-organization.md)。
     

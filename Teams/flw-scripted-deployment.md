@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c747d68b53e428678fd07cd690fa7575262d4ae6
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227556"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638381"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -315,7 +315,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>通过基于组的许可向用户分配许可
 
-Microsoft 付费的云服务（如 Office 365、企业移动性 + 安全性、Dynamics 365 和其他类似产品）需要许可证。 这些许可证将分配给需要访问这些服务的每个用户。 为管理许可证，管理员将使用其中一个管理门户（Office 或 Azure）和 PowerShell cmdlet。 Azure Active Directory (Azure AD) 是支持所有 Microsoft 云服务标识管理的基础结构。 Azure AD 存储有关用户许可证分配状态的信息。
+Microsoft 付费的云服务（如 Microsoft 365、Office 365、企业移动性 + 安全性、Dynamics 365 和其他类似产品）需要许可证。 这些许可证将分配给需要访问这些服务的每个用户。 为管理许可证，管理员将使用其中一个管理门户（Office 或 Azure）和 PowerShell cmdlet。 Azure Active Directory (Azure AD) 是支持所有 Microsoft 云服务标识管理的基础结构。 Azure AD 存储有关用户许可证分配状态的信息。
 
 为了大规模启用许可，Azure AD 现在包含基于组的许可，因此我们在本文前面创建了安全组。 可向组分配一个或多个产品许可证。 Azure AD 可确保许可证分配给组的所有成员。 任何加入该组的新成员都获得了相应的许可证。 离开组的成员的许可证将被删除。 此许可管理无需通过 PowerShell 自动执行许可证管理，以根据用户的具体情况反映组织中的变化和部门结构。
 

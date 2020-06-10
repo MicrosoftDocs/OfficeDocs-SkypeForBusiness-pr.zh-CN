@@ -1,5 +1,5 @@
 ---
-title: Office 365 中的电话系统是什么？
+title: 什么是电话系统？
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: 在本文中，你将了解 Microsoft Office 365 中的电话系统技术。
-ms.openlocfilehash: e3db8806733cff76ba69c19338c9d562bdbe6e83
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+description: 在本文中，你将了解 Microsoft 365 和 Office 365 中的电话系统技术。
+ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951217"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666124"
 ---
-# <a name="what-is-phone-system-in-office-365"></a>Office 365 中的电话系统是什么？
+# <a name="what-is-phone-system"></a>什么是电话系统？
 
-专用分支交换（PBX）是企业内部的电话系统。 Office 365 中的电话系统提供了 PBX 功能，但没有复杂且昂贵的设备。 
+专用分支交换（PBX）是企业内部的电话系统。 电话系统提供了 PBX 功能，但没有复杂且昂贵的设备。 
 
-通过电话系统，你可以将现有的本地 PBX 系统替换为从 Office 365 提供的一组功能，这些功能紧密集成到你的云体验中。 有关这些功能的详细信息，请参阅[在 Office 365 中使用手机系统获取的](here-s-what-you-get-with-phone-system.md)功能。
+通过电话系统，你可以将现有的本地 PBX 系统替换为从 Microsoft 365 或 Office 365 提供的一组功能，这些功能紧密集成到你的云体验中。 有关这些功能的详细信息，请参阅[使用电话系统获取的](here-s-what-you-get-with-phone-system.md)功能。
 
 ## <a name="phone-system-technology"></a>电话系统技术
 
-电话系统支持 Office 365 云中的呼叫控制和 PBX 功能与 Microsoft 团队和 Skype for business Online。 
+电话系统支持 Microsoft 团队和 Skype for business Online 的云中的呼叫控制和 PBX 功能。 
   
 通过电话系统，用户可以使用团队或 Skype for business Online 来拨打和接听呼叫、转移呼叫以及静音或取消静音呼叫。 电话系统用户可以单击其通讯簿中的姓名，并将团队或 Skype for business Online 呼叫安排给该人。 要拨打和接听电话，电话系统用户可以使用其移动设备、便携式计算机或电脑的耳机，或者与团队和 Skype for business Online 配合使用的多个 IP 电话之一。 电话系统管理员可以管理用于通信、协作等的同一控制台中的呼叫选项和设置。
   
@@ -48,7 +48,7 @@ ms.locfileid: "43951217"
   
 可以通过以下两种方式之一将电话系统连接到 PSTN：
   
-- 购买适用于 Office 365 的 Microsoft 通话计划（国内或国内和国际）。 Microsoft 通话计划是 Microsoft 作为 PSTN 运营商提供的所有云解决方案。 有关详细信息，请参阅[电话系统和通话计划](calling-plan-landing-page.md)。
+- 购买 Microsoft 通话计划（国内或国内和国际）。 Microsoft 通话计划是 Microsoft 作为 PSTN 运营商提供的所有云解决方案。 有关详细信息，请参阅[电话系统和通话计划](calling-plan-landing-page.md)。
 
 - 使用现有的电话基础结构进行本地 PSTN 连接。
 
@@ -67,7 +67,7 @@ ms.locfileid: "43951217"
 
 - **语音邮件**-当你为用户获取电话系统许可证时，该用户可以获取由呼叫者留下的语音邮件。 向用户分配电话系统许可证和电话号码后，将自动为用户设置和设置云语音邮件。 请参阅[设置云语音邮件](set-up-phone-system-voicemail.md)。
 
-有关功能的详细信息，请参阅[在 Office 365 中使用手机系统获取的](here-s-what-you-get-with-phone-system.md)功能。 如果已准备好开始使用，请参阅[在组织中设置电话系统](setting-up-your-phone-system.md)。
+有关功能的详细信息，请参阅[以下是使用手机系统获取的](here-s-what-you-get-with-phone-system.md)功能。 如果已准备好开始使用，请参阅[在组织中设置电话系统](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相关主题
 

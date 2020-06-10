@@ -17,12 +17,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: 从 Slack 迁移到 Microsoft Teams 的完整指南。
-ms.openlocfilehash: 8e6b7383176713a34f5a00ca3914e42ac50f9834
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: ca104baf5baebaa0e44c2202794c1b8ed6862633
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506873"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638641"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>从 Slack 迁移到 Microsoft Teams
 
@@ -79,12 +79,12 @@ Slack 服务计划将明确可以迁移和无法迁移的内容。 例如，某�
 
 Slack 中的应用与 Teams 中的应用相差无几。 获得工作区中的应用及其配置的列表后，你可以在 Teams 应用商店中进行搜索，看看这些应用是否适用于 Teams*。 
 
-转至 <your Slack workspace>.slack.com/apps/manage，获取应用和自定义集成的列表。 此页面还显示了使用每个应用的配置数目。 自定义集成的“迁移能力”各不相同。 如果是 Webhook，你通常可以将其发送到 Office 365 连接器，将工作流转入 Teams。 逐个评估机器人和其他应用，做好将其迁移到 Teams 的规划。
+转至 <your Slack workspace>.slack.com/apps/manage，获取应用和自定义集成的列表。 此页面还显示了使用每个应用的配置数目。 自定义集成的“迁移能力”各不相同。 如果是 Webhook，你通常可以将其发送到 Microsoft 365 或 Office 365 连接器，将工作流转入 Teams。 逐个评估机器人和其他应用，做好将其迁移到 Teams 的规划。
 
 \* 如果管理员限制了应用使用，则你可能无法查看可用应用的完整列表。
 
 ### <a name="users"></a>用户
-你在 Slack 中使用的身份方案可能不会直接映射到 Office 365。 例如，Slack 用户的电子邮件地址可能不会映射到 Office 365 的工作或学校帐户。 开始规划 Teams 部署之前，你应创建用户 ID 映射。
+你在 Slack 中使用的身份方案可能不会直接映射到 Microsoft 365 或 Office 365。 例如，Slack 用户的电子邮件地址可能不会映射到 Microsoft 365 或 Office 365 的工作或学校帐户。 开始规划 Teams 部署之前，你应创建用户 ID 映射。
 
 如果你使用的是 Slack 付费服务计划，可以转至 *<your Slack workspace>.slack.com/admin/stats#members*，获取每位用户的电子邮件地址和帐户类型等成员详细信息（例如，单频道来宾还是多频道来宾）。
 
@@ -335,7 +335,7 @@ Write-Host -ForegroundColor Green "$(Get-TimeStamp) Exiting.."
 
 在许多情况下，应用主要接收来自外部服务（如监控系统）的事件驱动数据，并将消息推送到 Slack。 通过使用可根据事件将消息推送到 Teams 的 Microsoft 365 连接器，也可以实现相同的结果。
 
-下面是 Slack 解决方案示例，其中在 Teams 中使用了 Office 365 连接器进行集成。
+下面是 Slack 解决方案示例，其中在 Teams 中使用了 Microsoft 365 连接器进行集成。
 - Ansible
   - 可通过 [Ansible Webhook](https://docs.ansible.com/ansible-tower/latest/html/userguide/notifications.html#webhook) 向 Teams 发送警报
 - New Relic

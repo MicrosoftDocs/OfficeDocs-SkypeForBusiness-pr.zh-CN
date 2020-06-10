@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780311"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637901"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -34,7 +34,7 @@ ms.locfileid: "43780311"
 Microsoft 在最近发布的新型冠状病毒肺炎（COVID-19）疫情公告中，对重点地区显著扩容。 我们密切监视事态和自身服务，确保我们的服务可供客户使用。云服务的优势之一是能够动态扩展，包括对我们重要供应链的利用，服务间资源的重新分配以及负载的重新分配。我们已经看到 Microsoft Teams 的使用率有所增加，因此我们已经做出了响应并继续密切监视。 我们还致力于提前了解通话套餐需求，并根据需要购买足够多的电话号码。
 
 > [!NOTE]
-> 如果你已设置 M365，并且想要详细了解 Microsoft 正在采取的行动，请转到消息中心，并查看 **MC205458** 消息中心帖子。
+> 如果你已设置 Microsoft 365，并且想要详细了解 Microsoft 正在采取的行动，请转到消息中心，并查看 **MC205458** 消息中心帖子。
 
 请不要错过 Microsoft 365 企业副总裁 Jared Spataro 在 2020 年 3 月 5 日发布的博文：[我们在新型冠状病毒肺炎（COVID-19）期间提供给客户的承诺](https://www.microsoft.com/zh-CN/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)。
 
@@ -102,21 +102,21 @@ Microsoft 提供[适用于 Office 365 的 FastTrack 中心权益](https://docs.m
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>我刚开始使用 Microsoft 365，因此我可以使用 Teams 支持我的远程工作者或学生。 我已注册该服务，但当用户尝试使用 Teams 时，他们收到以下错误: "你错过了! 请求你的管理员启用 Microsoft Teams。" 该怎么办？
 
-激活 Teams 中的某个免费服务后，你仍需为你的用户启用该服务。 阅读[管理用户对 Teams 的访问权限](user-access.md)和[向 Office 365 逐一或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)。
+激活 Teams 中的某个免费服务后，你仍需为你的用户启用该服务。 阅读[管理用户对 Teams 的访问权限](user-access.md)和[逐一或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)。
 
 如果是首次授权或启用用户，但已拥有 Microsoft 365 一段时间，则你可能需要为你的组织[启用 Teams](Office-365-set-up.md)。 请参阅本文中中的“[我已有 Microsoft 365，但没有使用 Teams。是否提供试用版许可证？](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)”。
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>是否可以搭配 Microsoft 提供的 Office 365 E1 试用版使用通话计划？ 是否可以将电话号码分配给给我的用户？ 我要花多少钱？
 
-用户可以在任何版本的 Teams 中，进行应用至应用语音和视频通话。 若要将电话号码分配给员工，需要 [Office 365 电话系统](what-is-phone-system-in-office-365.md)。 建议与 Microsoft 合作伙伴或销售代表合作，以获取并部署此电话系统。 若要深入了解，请参阅[使用 Microsoft Teams 进行语音和视频通话](https://products.office.com/microsoft-teams/voice-calling)。
+用户可以在任何版本的 Teams 中，进行应用至应用语音和视频通话。 若要将电话号码分配给员工，需要[电话系统](what-is-phone-system-in-office-365.md)。 建议与 Microsoft 合作伙伴或销售代表合作，以获取并部署此电话系统。 若要深入了解，请参阅[使用 Microsoft Teams 进行语音和视频通话](https://products.office.com/microsoft-teams/voice-calling)。
 
 ### <a name="can-i-set-up-an-auto-attendant-with-the-new-teams-e1-trial-so-i-can-have-an-emergency-line-internally-at-my-company-to-deal-with-covid-19-coronavirus"></a>是否可以使用新的 Teams E1 试用版设置自动助理，以便在公司内部设置紧急电话来处理新型冠状病毒肺炎（COVID-19）？
 
-若要在 Teams 中设置[云自动助理](what-are-phone-system-auto-attendants.md)，除 Teams 外，还需要 [Office 365 电话系统](what-is-phone-system-in-office-365.md)。 建议与 Microsoft 合作伙伴或销售代表合作，以获取并部署此电话系统。
+若要在 Teams 中设置[云自动助理](what-are-phone-system-auto-attendants.md)，除 Teams 外，还需要[电话系统](what-is-phone-system-in-office-365.md)。 建议与 Microsoft 合作伙伴或销售代表合作，以获取并部署此电话系统。
 
 ### <a name="where-can-i-find-more-information-to-help-remote-workers"></a>哪里可以找到协助远程工作者的更多信息？
 
-用户：[使用 Office 365 协作](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - 如何在所有 Office 365 工作负载中更有效地协作
+用户：[使用 Microsoft 365 协作](https://support.office.com/article/collaborate-with-office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4) - 如何在所有 Microsoft 365 工作负载中更有效地协作
 
 IT 管理员/IT 专业人员：[使用 Teams 支持远程工作人员](support-remote-work-with-teams.md)。
 

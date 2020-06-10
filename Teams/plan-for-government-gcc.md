@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 政府版-GCC 部署
+title: Office 365 政府版-GCC 部署
 author: lolajacobsen
 ms.author: heidip
 manager: serdars
@@ -20,16 +20,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab398d4d76eb0c1ae6bac37b7c9c198ebc82d86
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b93762c92d9681074124ba8ddb3fd066bdf8a60a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137802"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665224"
 ---
-# <a name="plan-for-microsoft-365-government---gcc-deployments"></a>规划 Microsoft 365 政府版-GCC 部署
+# <a name="plan-for-office-365-government---gcc-deployments"></a>规划 Office 365 政府版-GCC 部署
 
-本指南适用于在美国联邦、州、当地、tribal 或 territorial 政府实体或其他处理365由政府法规和要求使用的数据的 IT 专业人员，以及 Microsoft 365 政府-GCC 适用于满足这些要求的其他实体。 2020年3月26日，：不要错过我们可下载[的适用于 GCC 的快速入门指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)。
+本指南适用于在美国联邦、州、当地、tribal 或 territorial 政府实体或其他处理受政府管理法规要求的数据（其中，Office 365 政府-GCC 适用于满足这些要求）的 IT 专业365人员。 2020年3月26日，：不要错过我们可下载[的适用于 GCC 的快速入门指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)。
 
 > [!IMPORTANT]
 > 由于 coronavirus （COVID-19） pandemic，Microsoft 团队在在线通话和音频/视频会议方面遇到了极大的高峰。<br/>
@@ -44,20 +44,20 @@ ms.locfileid: "43137802"
 
 
 > [!NOTE]
-> 如果您的组织已满足 Microsoft 365 政府-GCC 资格要求，并已接受并接受该计划，则可以跳过步骤1和步骤2，直接转到步骤3。 
+> 如果您的组织已满足 Office 365 政府-GCC 资格要求，并已接受并接受该计划，则可以跳过步骤1和2，然后直接转到步骤3。 
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>第 1 步 确定你的组织是否需要 Microsoft 365 政府-GCC 并满足资格要求。 
+## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-and-meets-eligibility-requirements"></a>第 1 步 确定你的组织是否需要 Office 365 政府-GCC 并满足资格要求。 
 
-Microsoft 365 政府版-GCC 环境为云服务（包括 FedRAMP 中等）和针对犯罪分子和联邦税务信息系统（CJI 和 FTI 数据类型）的要求遵守美国政府规定。
+Office 365 政府版-GCC 环境为云服务（包括 FedRAMP 中等）和针对犯罪分子和联邦税务信息系统（CJI 和 FTI 数据类型）的要求遵守美国政府的要求。
 
-除了享受 Office 365 的功能和功能之外，组织还受益于 Microsoft 365 政府-GCC 所特有的以下功能：
+除了享受 Office 365 的功能和功能之外，组织还受益于 Office 365 政府-GCC 所特有的以下功能：
 
 -   你的组织的客户内容在 Microsoft 的商业版 Office 365 服务中与客户内容逻辑隔离。
 -   您的组织的客户内容存储在美国。
 -   对您的组织的客户内容的访问权限受到限制，无法对 Microsoft 人员进行筛选。
--   Microsoft 365 政府版-GCC 遵循美国公共事业部门客户所需的认证和 accreditations。
+-   Office 365 政府版-GCC 遵循美国公共事业部门客户所需的认证和 accreditations。
 
-您可以在[Office 365 政府计划](https://products.office.com/government/compare-office-365-government-plans)（包括[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)）中找到有关 Microsoft 365 政府版（美国）政府客户的详细信息。
+您可以在[office 365 政府计划](https://products.office.com/government/compare-office-365-government-plans)（包括[资格要求](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)）中找到有关 office 365 政府版（适用于美国政府客户）的详细信息。
 
 [Office 365 美国政府服务说明](https://technet.microsoft.com/library/mt774581.aspx)介绍了平台的优势，这些优势在美国的会议合规性要求的中心。
 
@@ -66,27 +66,27 @@ Microsoft 365 政府版-GCC 环境为云服务（包括 FedRAMP 中等）和针�
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Microsoft 365 政府版-GCC 是否适合您的组织。</li><li>确认您的组织满足资格要求。</li></ul> |
+| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定 Office 365 政府版-GCC 是否适合您的组织。</li><li>确认您的组织满足资格要求。</li></ul> |
 
 > [!Note]
-> Microsoft 365 政府版-GCC 仅适用于美国。 非美国政府客户可以从多个[Office 365 政府计划](https://products.office.com/en/government/compare-office-365-government-plans)中进行选择。
+> Office 365 政府版-GCC 仅适用于美国。 非美国政府客户可以从多个[Office 365 政府计划](https://products.office.com/en/government/compare-office-365-government-plans)中进行选择。
 
 
-## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>第 2 步 适用于 Microsoft 365 政府版-GCC
+## <a name="step-2-apply-for-office-365-government---gcc"></a>第 2 步 适用于 Office 365 政府版-GCC
 
 如果确定此服务适合你的组织，请在[此处开始应用此服务](https://products.office.com/government/eligibility-validation)的过程。
 
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>第 3 步 了解 Microsoft 365 政府版-GCC 默认安全设置。
+## <a name="step-3-understand-office-365-government---gcc-default-security-settings"></a>第 3 步 了解 Office 365 政府版-GCC 默认安全设置。
 
 我们建议你在修改你的管理员和安全设置之前认真检查你的[管理员和安全设置](enable-features-office-365.md)，并考虑对默认安全设置进行任何更改之前对合规性产生的影响。
 
 |    |     |
 |-----------|------------|
-| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定你是否要修改任何默认的 Microsoft 365 政府-GCC 安全设置，首先要了解你可能做出的任何更改的影响。</li></ul> |
+| ![描述决策点的图标](media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确定您是否要修改任何默认的 Office 365 政府版-GCC 安全设置，解析以首先了解您所做的任何更改的影响。</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>第 4 步 了解默认情况下当前不可用或已禁用的功能。
 
-为了满足政府云客户的要求，Microsoft 365 政府版和企业版计划之间存在一些差异。 请参考下表，查看哪些功能可用。
+为了满足政府云客户的要求，Office 365 政府版和企业版计划之间存在一些差异。 请参考下表，查看哪些功能可用。
 
 [Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
@@ -108,7 +108,7 @@ Microsoft 365 政府版-GCC 环境为云服务（包括 FedRAMP 中等）和针�
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>第 6 步 部署协作团队
 
-在 onboarded 到 Microsoft 365 政府-GCC 后，请按照[如何部署 Microsoft 团队](How-to-roll-out-teams.md)中介绍的推荐部署途径进行操作。 请确保与你的采纳和更改管理团队和团队拥护人员联系。
+在 onboarded 到 Office 365 政府版-GCC 后，请按照[如何部署 Microsoft 团队](How-to-roll-out-teams.md)中介绍的推荐部署路径进行操作。 请确保与你的采纳和更改管理团队和团队拥护人员联系。
 
 您还可以与[FastTrack](https://www.microsoft.com/fasttrack)或您的选定合作伙伴进行服务。
 

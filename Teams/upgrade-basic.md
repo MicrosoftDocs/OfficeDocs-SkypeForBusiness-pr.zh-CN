@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 audience: admin
 description: 按照此加速的10步操作计划从基本的 Skype for Business 设置切换到 Microsoft 团队设置。
 localization_priority: Normal
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6489362a37be76c44f2b0dbf58e094c58c85d21
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ef27d9faac30003edbb4c21ee7d9060d41ea454b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904467"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666224"
 ---
 # <a name="upgrade-basic"></a>升级基本信息
 
@@ -50,7 +50,7 @@ ms.locfileid: "43904467"
 
 有关升级的其他问题，请参见我们的[常见问题解答](https://aka.ms/SkypeToTeams-FAQ)。
 
-不熟悉 Teams？ [了解 Teams](https://products.office.com/microsoft-teams/group-chat-software) 如何将对话、会议、文件、Office 应用程序和第三方集成整合在一起，从而在 Office 365 中提供一个团队合作中心。
+不熟悉 Teams？ [了解团队如何](https://products.office.com/microsoft-teams/group-chat-software)将对话、会议、文件、Office 应用和第三方集成结合在一起，为 Microsoft 365 和 Office 365 中的协作提供单个中心。
 
 <!--ENDOFSECTION-->
 
@@ -100,7 +100,7 @@ Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传
 
 **资源：**
 
-- [查看 Office 365 活动报告中的使用数据](https://support.office.com/article/activity-reports-in-the-office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+- [管理中心中的 Microsoft 365 报表](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)
 
 [返回顶部](#about-upgrade-basic)
 
@@ -164,7 +164,7 @@ Teams 不仅提供与 Skype for Business 兼容的功能（例如即时消息传
 
 *（升级当天）*
 
-今天贵组织正式升级到 Teams，将其作为通信和协作解决方案。 在 Microsoft 团队管理中心，通过将 "共存模式" 设置为 "**仅限团队**" 来激活升级切换器。 （在管理中心中，转到 "**组织范围设置** > "**团队升级**。）用户将在其 Skype for Business 客户端中收到通知，他们已升级到团队。
+今天贵组织正式升级到 Teams，将其作为通信和协作解决方案。 在 Microsoft 团队管理中心，通过将 "共存模式" 设置为 "**仅限团队**" 来激活升级切换器。 （在管理中心中，转到**组织范围的设置**  > **团队升级**。）用户将在其 Skype for Business 客户端中收到通知，他们已升级到团队。
 
 我们建议在所有人都升级后，发送一封欢迎大家使用 Teams 的电子邮件。
 

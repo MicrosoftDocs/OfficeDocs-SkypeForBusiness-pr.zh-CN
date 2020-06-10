@@ -18,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 6a864828ce925ea289f27de1b3340a50770b4e88
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779799"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665264"
 ---
-# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>从 Skype for Business 升级到 IT &mdash;管理员的团队
+# <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>从 Skype for Business 升级到 &mdash; IT 管理员的团队
 
 ## <a name="overview"></a>概述
 
@@ -54,7 +54,7 @@ ms.locfileid: "43779799"
 - 从另一个用户的团队客户端发起的通信将始终位于用户 A 的团队客户端（*如果其他用户位于同一组织中*）。 
 - 从另一个用户的团队客户发起的通信将始终位于用户 A 的 Skype for business 客户端中（*如果其他用户位于联合组织*中）。
 
-孤岛模式是 TeamsUpgradePolicy 尚未 TeamsOnly 的任何现有组织的默认模式。 分配 Office 365 许可证时，默认情况下会分配团队和 Skype for business Online 许可证。 （即使用户在 Skype for Business 服务器内部托管，也是如此。 无论用户是在本地还是在网上托管，都将启用 Skype for Business Online 许可证，因为当前需要完整的团队功能。事实上，如果您没有执行任何步骤来更改默认配置，您的组织中可能已有团队的大量使用。  这是重叠功能方法的优点之一。 它允许在组织内快速、最终用户推动采用。
+孤岛模式是 TeamsUpgradePolicy 尚未 TeamsOnly 的任何现有组织的默认模式。 分配 Microsoft 365 或 Office 365 许可证时，默认情况下会分配团队和 Skype for business Online 许可证。 （即使用户在 Skype for Business 服务器内部托管，也是如此。 无论用户是在本地还是在网上托管，都将启用 Skype for Business Online 许可证，因为当前需要完整的团队功能。事实上，如果您没有执行任何步骤来更改默认配置，您的组织中可能已有团队的大量使用。  这是重叠功能方法的优点之一。 它允许在组织内快速、最终用户推动采用。
 
 为使此方法有效工作，它要求所有用户同时运行两个客户端。 在 "Skype for business" 或 "团队客户端" 中，组织内部的聊天和从组织内部进行的通话可以居住在 Skype for business 或团队客户端中，这不受收件人的控制。 这取决于发件人用于发起通信的客户端。 如果发件人和收件人位于不同组织中，则在 "岛" 模式下传入呼叫和聊天始终位于 Skype for Business 客户端中。  
 
@@ -148,7 +148,7 @@ ms.locfileid: "43779799"
 
 -   2个步骤：运行移动 Move-csuser 后，使用 TeamsUpgradePolicy 向用户授予 TeamsOnly 模式。
 
-与其他策略不同，不能在 Office 365 中创建新的 TeamsUpgradePolicy 实例。 所有现有实例都内置在该服务中。  （请注意，mode 是 TeamsUpgradePolicy 内的一个属性，而不是策略实例的名称。）在某些（但不是全部）情况下，策略实例的名称与模式相同。 特别是，若要为用户分配 TeamsOnly 模式，请将 TeamsUpgradePolicy 的 "UpgradeToTeams" 实例授予该用户。 若要查看所有实例的列表，可以运行以下命令：
+与其他策略不同，不能在 Microsoft 365 或 Office 365 中创建新的 TeamsUpgradePolicy 实例。 所有现有实例都内置在该服务中。  （请注意，mode 是 TeamsUpgradePolicy 内的一个属性，而不是策略实例的名称。）在某些（但不是全部）情况下，策略实例的名称与模式相同。 特别是，若要为用户分配 TeamsOnly 模式，请将 TeamsUpgradePolicy 的 "UpgradeToTeams" 实例授予该用户。 若要查看所有实例的列表，可以运行以下命令：
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -238,7 +238,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 - 如果您可以快速升级整个组织，请考虑此选项。  由于运行这两个客户端有潜在的风险，因此最好将此时间段最小化。 你应该确保你的用户知道运行这两个客户端。
 
-- 此选项是现成模型，不需要管理员操作即可开始使用 Office 365 许可证，而不需要管理员操作。 如果你的用户已有 Skype for Business Online，则你可能已在使用此模型。
+- 此选项是现成模型，不需要管理员操作即可开始使用团队，除非分配 Microsoft 365 或 Office 365 许可证。 如果你的用户已有 Skype for Business Online，则你可能已在使用此模型。
 
 - 在重叠的功能模式和移动到 TeamsOnly 时，可能会有挑战性。 由于升级用户仅通过团队进行通信，因此组织中与该用户通信的任何其他用户都必须使用团队。  如果你有尚未开始使用团队的用户，这些用户将暴露给缺失的消息。 此外，他们在 Skype for Business 中看不到 TeamsOnly 用户在线。 某些组织选择使用租户全局策略执行租户范围的升级以避免这种情况，但需要等待所有用户都准备好升级。
 
@@ -343,7 +343,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 这是涉及语音的最简单的升级方案。 
 
-1. 请确保已为用户分配了团队许可证。 默认情况下，当你分配 Office 365 许可证时，团队已启用，因此除非你以前禁用了团队许可证，否则不需要执行任何操作。
+1. 请确保已为用户分配了团队许可证。 默认情况下，当你分配 Microsoft 365 或 Office 365 许可证时，团队已启用，因此除非你以前禁用了团队许可证，否则不需要执行任何操作。
 
 2.  如果用户已有一个包含电话号码的 Microsoft 通话计划，则唯一所需的更改是在 TeamsUpgradePolicy 中分配用户 TeamsOnly 模式。  在分配 TeamsOnly 模式之前，传入的 PSTN 呼叫将位于用户的 Skype for Business 客户端中。 升级到 TeamsOnly 模式后，传入的 PSTN 呼叫将位于用户的团队客户端。  
 
@@ -365,7 +365,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 5. 升级用户：这些步骤应协调。 
 
-   - 在 Office 365 中，将用户升级到 TeamsOnly 模式（Grant-CsTeamsUpgradePolicy）。
+   - 在 Microsoft 365 或 Office 365 中，将用户升级到 TeamsOnly 模式（Grant-CsTeamsUpgradePolicy）。
    - 在 SBC 上，将语音路由配置为通过将呼叫发送到直接路由（而不是本地中介服务器）来启用传入呼叫。
 
 
@@ -383,7 +383,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 4. 如果需要，为这些用户配置各种团队策略（例如 TeamsMessagingPolicy、TeamsMeetingPolicy 等）。 可以随时执行此操作，但如果你希望确保用户在升级时具有正确的配置，最好在将用户升级到 TeamsOnly 之前执行此操作。
 
-5. 如有必要，请分配 Office 365 许可证。  用户应同时拥有团队和 Skype for business Online 计划2以及电话系统。 如果 "Skype for Business Online 计划 2" 已禁用，请重新启用它。  
+5. 如有必要，请分配 Microsoft 365 或 Office 365 许可证。  用户应同时拥有团队和 Skype for business Online 计划2以及电话系统。 如果 "Skype for Business Online 计划 2" 已禁用，请重新启用它。  
 
 6. 升级用户：这些步骤应协调。 
 
@@ -391,7 +391,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
    - 在 SBC 上，将语音路由配置为通过将呼叫发送到直接路由（而不是本地中介服务器）来启用传入呼叫。 
 
-   - 在 Office 365 中：分配相关的 OnlineVoiceRoutingPolicy 以启用传出呼叫。 
+   - 在 Microsoft 365 或 Office 365 中：分配相关的 OnlineVoiceRoutingPolicy 以启用传出呼叫。 
 
 
 ### <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>从具有企业语音的本地 Skype for Business 服务器到 Microsoft 通话计划
@@ -406,7 +406,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 3. 如果需要，为这些用户配置各种团队策略（例如，TeamsMessagingPolicy、TeamsMeetingPolicy 等）。 可以随时执行此操作，但如果你希望确保用户在升级时具有正确的配置，最好在将用户升级到 TeamsOnly 之前执行此操作。 
 
-4. 如有必要，请分配 Office 365 许可证。用户应同时拥有团队和 Skype for business Online 计划2以及电话系统。 如果 "Skype for Business Online 计划 2" 已禁用，请重新启用它。  
+4. 如有必要，请分配 Microsoft 365 或 Office 365 许可证。用户应同时拥有团队和 Skype for business Online 计划2以及电话系统。 如果 "Skype for Business Online 计划 2" 已禁用，请重新启用它。  
 
 5. 为您的用户获取电话号码。 （有关详细信息，请参阅[管理你的组织的电话号码](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。）
 
@@ -556,7 +556,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 [面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导](migration-interop-guidance-for-teams-with-skype.md) 
 
-[配置 Skype for Business 服务器与 Office 365 之间的混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[配置 Skype for Business 服务器与 Microsoft 365 或 Office 365 之间的混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
 [在本地和云之间移动用户](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 

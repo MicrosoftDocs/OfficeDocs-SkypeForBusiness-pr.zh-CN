@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题，了解如何在本地通过 Exchange Online 和 Skype for business 服务器部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 03999e5717f784166387c823c95af1e333d4f942
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905284"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666144"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 
@@ -86,7 +86,7 @@ ms.locfileid: "43905284"
 4. 单击“**完成**”创建帐户。
 5. 创建帐户后，运行目录同步。 这可以通过在 PowerShell 中使用[MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0)来实现。 完成后，转到 "用户" 页面并验证之前步骤中创建的两个帐户是否已合并。
 
-### <a name="assign-an-office-365-license"></a>分配一个 Office 365 许可证
+### <a name="assign-a-microsoft-365-or-office-365-license"></a>分配 Microsoft 365 或 Office 365 许可证
 
 1. 首先，连接到 Azure AD 以应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。
 
@@ -100,8 +100,8 @@ ms.locfileid: "43905284"
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. 用户帐户需要拥有有效的 Office 365 许可证，才能确保 Exchange 和 Skype for business 服务器能够正常工作。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 您将按以下步骤进行分配。
-3. 接下来，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 检索 Office 365 组织的可用 Sku 列表。
+2. 用户帐户需要拥有有效的 Microsoft 365 或 Office 365 许可证，才能确保 Exchange 和 Skype for business 服务器能够正常工作。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 您将按以下步骤进行分配。
+3. 接下来，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 检索 Microsoft 365 或 Office 365 组织的可用 Sku 列表。
 4. 列出 Sku 后，您可以使用`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。 
 
     ```PowerShell
@@ -140,7 +140,7 @@ ms.locfileid: "43905284"
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>将 Skype for Business Server 许可证分配给你的 Microsoft 团队聊天室帐户
 
-1. 以租户管理员身份登录，打开 Office 365 管理门户，然后单击 "管理" 应用。
+1. 以租户管理员身份登录，打开 Microsoft 365 管理中心，然后单击 "管理" 应用。
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
 3. 单击 "Microsoft 团队聊天室帐户"，然后单击 "笔" 图标以编辑帐户信息。
 4. 单击“**许可证**”。
@@ -150,7 +150,7 @@ ms.locfileid: "43905284"
 对于验证，你应该能够使用任何 Skype for Business 客户端登录到此帐户。
 
 > [!NOTE]
-> 如果您当前使用的是 E1、E3、E4 或 E5 Sku，并且使用具有音频会议或 Office 365 电话系统和通话计划的 Skype for business 计划2，这些功能将继续有效。 但是，在当前许可证过期后，应考虑移动到 "[团队会议会议室许可更新](rooms-licensing.md)" 中描述的更简单的许可模型。
+> 如果您当前使用的是 E1、E3、E4 或 E5 Sku，并且使用带音频会议或电话系统和通话计划的 Skype for business 计划2，这些功能将继续有效。 但是，在当前许可证过期后，应考虑移动到 "[团队会议会议室许可更新](rooms-licensing.md)" 中描述的更简单的许可模型。
 
 > [!IMPORTANT]
 > 如果你使用的是 Skype for Business 计划2，则只能在 Skype for business 模式下使用 Microsoft 团队聊天室，这意味着你的所有会议都将是 Skype for business 会议。 为了为 Microsoft 团队会议启用会议室，我们建议你购买会议室许可证。

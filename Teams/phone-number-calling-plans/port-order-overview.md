@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 大致了解哪些端口订单，以及如何将电话号码从服务提供商转移到团队。
-ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: bc15d7be98f83b39a7dde006e3043b407b76a63e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227536"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665894"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 
@@ -65,7 +65,7 @@ ms.locfileid: "43227536"
 
 - 来自电话提供商（如 Vonage 或 RingCentral）的电话号码。
 
-- Skype for Business 混合电话号码。 如果您想要转移这些号码，请通过电子<ptn@microsoft.com>邮件发送给我们。
+- Skype for Business 混合电话号码。 如果您想要转移这些号码，请通过电子邮件发送给我们 <ptn@microsoft.com> 。
 
   **您无法转移：**
   
@@ -112,7 +112,7 @@ ms.locfileid: "43227536"
 
 - 移动电话号码
 
-- 可用于 Office 365 中音频会议的服务号码。
+- 可用于 Microsoft 365 或 Office 365 中的音频会议的服务号码。
 
 下面是有关如何为每种类型的号码提交号码移植请求的详细信息：
   
@@ -131,7 +131,7 @@ ms.locfileid: "43227536"
 
 完成了端口订单请求后，将在7-14 天内处理。 但是，根据你的服务提供商，可能需要花费长达 30 天时间。 拨打电话号码后，您将收到一封电子邮件，让您可以使用。
   
-若要检查您的端口顺序的状态，请在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **电话号码**"，然后单击 "**订单历史记录**"。 每个端口订单状态都在 "**状态**" 列中列出。
+若要检查您的端口顺序的状态，请在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **电话号码**"，然后单击 "**订单历史记录**"。 每个端口订单状态都在 "**状态**" 列中列出。
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>用户（订阅者）电话号码是否可以转换为服务号码？
 <a name="bkmk_type_1"> </a>

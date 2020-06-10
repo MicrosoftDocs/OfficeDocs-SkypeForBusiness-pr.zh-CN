@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ad4592799efef11b7d09d564af5217dd9cdd550
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951267"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638841"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -41,7 +41,7 @@ Teams 提供了一组丰富的工具，用于为组织实施协作生命周期�
 
 **Teams**
 
-_团队_是包含人员、内容和促进协作的工具的集合。 团队规定了其成员以及应用于这些成员的权限和策略。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Office 365 组成员身份的更改会同步到团队。 与其他 Microsoft 365 组一样，Teams 中自动预配了一个 Exchange 邮箱、一个 SharePoint 站点、一个 OneNote 笔记本以及 Office 365 中的其他资源。 [了解有关 Microsoft 365 组的详细信息。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+_团队_是包含人员、内容和促进协作的工具的集合。 团队规定了其成员以及应用于这些成员的权限和策略。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Microsoft 365 组成员身份的更改会同步到团队。 与其他 Microsoft 365 组一样，Teams 中自动预配了一个 Exchange 邮箱、一个 SharePoint 站点、一个 OneNote 笔记本以及 Office 365 中的其他资源。 [了解有关 Microsoft 365 组的详细信息。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **频道**
 
@@ -141,7 +141,7 @@ _团队_是包含人员、内容和促进协作的工具的集合。 团队规�
 
 -   从头开始创建团队。 通过使用各个电子邮件别名或用户名添加成员，或者扩展通讯组列表。
 -   基于某个现有团队创建团队，并将其频道配置和任何应用配置用作模板。 你也可以选择使用其成员身份列表。
--   将某个团队添加到某个现有 Office 365 组，这还会为该团队提供访问其邮箱和 SharePoint 站点的权限。
+-   将某个团队添加到某个现有 Microsoft 365 组，这还会为该团队提供访问其邮箱和 SharePoint 站点的权限。
 -   使用 Microsoft Graph Teams API 或 PowerShell cmdlet 创建团队。 这些 API 可以根据全球通讯簿属性（例如，区域或部门）或业务流程（例如，客户端参与或教室名册）以编程方式创建团队。
 
 可访问以下链接获取有关组织团队的详细信息：

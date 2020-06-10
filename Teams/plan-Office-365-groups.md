@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 3c428966f07fc82d37520025ea3526c067003373
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: be5b6244c11d3d65b83719ac4f55cf2e0fbef598
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637831"
+ms.locfileid: "44665114"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>在 Microsoft 团队中创建团队时规划 Microsoft 365 组
 ==========================================================
@@ -33,11 +33,9 @@ ms.locfileid: "44637831"
 
 有两种方案可针对 Microsoft 365 组的规划以及对 microsoft 团队的影响进行一些讨论：
 
--   首先，由于客户可以在组中拥有现有投资，因此我们目前同时支持少于5000个成员的公共和专用组。 如前面所述，你希望使用团队客户端（而不是 Office 365 管理 web 控制台）管理人员对团队的成员身份。 在此情况下，如果人员用于 Microsoft 365 组中的线程对话，则值得注意，组对话实质上是电子邮件，而不是与团队频道中的聊天消息相同。 向你的用户解释此差异，并建议他们采用 Teams 中更加灵活的聊天消息，而不是使用 Outlook 或 OWA 向组发送电子邮件。
+-   首先，由于客户可以在组中拥有现有投资，因此我们目前同时支持少于5000个成员的公共和专用组。 如前面所述，你希望使用团队客户端（而不是 Microsoft 365 管理中心）管理人员对团队的成员身份。 在此情况下，如果人员用于 Microsoft 365 组中的线程对话，则值得注意，组对话实质上是电子邮件，而不是与团队频道中的聊天消息相同。 向你的用户解释此差异，并建议他们采用 Teams 中更加灵活的聊天消息，而不是使用 Outlook 或 OWA 向组发送电子邮件。
 
--   其次，对于没有在 Office 365 中定义的现有组的客户，您可以使用 Microsoft 365 管理中心、团队 web 站点或桌面客户端创建它们。 如前面所述，使用团队客户端管理 Microsoft 365 组的所有未来成员身份。 由于对团队的成员身份也定义了 Microsoft 365 组的成员身份，因此你应该为用户准备此更改。
- 
-
+-   其次，对于没有在 Microsoft 365 中定义的现有组的客户，您可以使用 Microsoft 365 管理中心、团队 web 站点或桌面客户端创建它们。 如前面所述，使用团队客户端管理 Microsoft 365 组的所有未来成员身份。 由于对团队的成员身份也定义了 Microsoft 365 组的成员身份，因此你应该为用户准备此更改。
 
 ## <a name="teams-respects-microsoft-365-groups-naming-policy-in-private-preview"></a>团队尊重 Microsoft 365 组命名策略（在私人预览版中）
 
@@ -54,4 +52,4 @@ ms.locfileid: "44637831"
 
 -   [使用 Microsoft 365 管理中心添加或删除 Microsoft 365 组中的成员](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [还原已删除的 Microsoft 365 组](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+-   [还原已删除的组](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)

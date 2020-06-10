@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: 通过为你的用户购买 Office 365 订阅计划，了解如何从 Microsoft 团队的免费版本轻松升级到完整版本。
+description: 了解如何通过购买适用于你的用户的 Microsoft 365 或 Office 365 订阅计划，从免费版本的 Microsoft 团队轻松升级到完整版本。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c760285655d9bb2557fbf981c333e1019cef379
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1b60ea0159207c88a9aab7030a1d058a44c649eb
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904447"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666004"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>免费升级 Microsoft 团队订阅版本
 ======================================================
 
-如果你的组织使用的是免费版本的 Microsoft 团队，则可以通过购买适用于你的用户的 Microsoft 365 或 Office 365 订阅计划轻松升级到完整版本。 完整版本提供了更多团队功能，如计划、音频会议、增强的管理和安全功能——免费版本不提供。 Office 365 将熟悉的 Microsoft Office 桌面套件与基于云的 Microsoft 新一代通信和协作服务（包括 Exchange Online、SharePoint Online 和 Office）结合使用，以帮助用户从几乎任何地方通过 internet 进行工作。 升级团队时，现有团队数据将不会丢失;你的所有团队、频道、聊天、文件和权限都将随你提供。 
+如果你的组织使用的是免费版本的 Microsoft 团队，则可以通过购买适用于你的用户的 Microsoft 365 或 Office 365 订阅计划轻松升级到完整版本。 完整版本提供了更多团队功能，如计划、音频会议、增强的管理和安全功能——免费版本不提供。 Microsoft 365 和 Office 365 将熟悉的 Microsoft Office 桌面套件与基于云的 Microsoft 下一代通信和协作服务（包括 Exchange Online、SharePoint Online 和 Office）结合使用，以帮助用户从几乎任何地方通过 internet 进行工作。 升级团队时，现有团队数据将不会丢失;你的所有团队、频道、聊天、文件和权限都将随你提供。 
 
 > [!NOTE]
 > 如果您已有 Microsoft 365 或 Office 365 订阅，则可以使用团队试用版（使用您的公司标识），而不是免费版本。 团队试用版在有限的时间段里提供团队的完整版本。 有关详细信息，请参阅[管理 Microsoft 团队商业版云试用版优惠](iw-trial-teams.md)。
@@ -51,12 +51,12 @@ ms.locfileid: "43904447"
 
 - 无用户限制（使用企业许可证）
 - Exchange 电子邮件托管和自定义电子邮件域
-- OneDrive、SharePoint、Planner、Yammer 和更多 Office 365 服务
+- OneDrive、SharePoint、Planner、Yammer 以及更多 Microsoft 365 和 Office 365 服务
 - 每个用户 1 TB 的存储空间
 - 计划会议
 - 音频会议
 - 增强的安全性和合规性功能，包括多重身份验证、单一登录和高级审核和报告
-- 管理控制和支持功能，包括 24 x 7 电话和 web 支持、用于管理用户和应用的管理工具、Office 365 服务的使用情况报告、服务级别协议以及可配置的用户设置和策略
+- 管理控制和支持功能，包括 24 x 7 电话和 web 支持、用于管理用户和应用的管理工具、Microsoft 365 或 Office 365 服务的使用情况报告、服务级别协议以及可配置的用户设置和策略
 
 有关团队免费和团队功能的详细比较，请参阅[比较团队计划](https://products.office.com/microsoft-teams/free)。
 
@@ -65,10 +65,10 @@ ms.locfileid: "43904447"
 如果满足下列要求，则可以升级到团队的完整版本：
 
 - 您是注册现有团队免费订阅的人员。
-- 如果你正在携带自己的域，则它尚未与 Azure Active Directory 相关联（通过试用版或已购买的 O365 订阅）。
+- 如果你正在携带自己的域，则它尚未与 Azure Active Directory 相关联（通过试用版或已购买的 Microsoft 365 或 Office 365 订阅）。
 
 > [!NOTE]
-> 若要升级和传输数据，必须通过团队应用程序中的升级过程购买订阅。 如果你在不执行升级过程的情况下向团队购买了 Office 365，则无法传输你的数据，因为你已经有了单独的租户。
+> 若要升级和传输数据，必须通过团队应用程序中的升级过程购买订阅。 如果你在不执行升级过程的情况下向团队购买 Microsoft 365 或 Office 365，则无法传输你的数据，因为你已经有了单独的租户。
 
 ## <a name="limitations"></a>优缺点
 
@@ -76,7 +76,7 @@ ms.locfileid: "43904447"
 
 - 升级后，您不能再切换回团队。
 - 无法将多个团队免费租户合并到单个付费租户中。
-- 所有用户都必须位于同一个域中。 （所有用户都将通过格式*用户名*@*domain.com*获取登录。）
+- 所有用户都必须位于同一个域中。 （所有用户都将在格式*用户名* @ 中获取登录*domain.com*。）
 - 必须升级所有用户：不支持与同一租户中的免费和付费订阅用户混合的团队。
 
 ## <a name="how-do-i-upgrade-my-organization"></a>如何升级我的组织？

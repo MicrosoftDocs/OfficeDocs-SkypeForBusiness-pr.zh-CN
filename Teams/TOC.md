@@ -41,6 +41,7 @@
 ## [Teams 的敏感度标签](sensitivity-labels.md)
 ## [在 Teams 中管理私人团队的发现](manage-discovery-of-private-teams.md)
 ## [在 Teams 中设置频道审查](manage-channel-moderation-in-teams.md)
+## [Teams 和 Outlook 电子邮件集成](teams-outlook-email-integration.md)
 ## [管理消息传递策略](messaging-policies-in-teams.md)
 ## [Teams 中的用户状态](presence-admins.md)
 ## [管理 Teams 中的标记](manage-tags.md)

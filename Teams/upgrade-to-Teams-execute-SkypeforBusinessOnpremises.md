@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bea614da76bd61cf7c29b0e8f150f1aac85223a7
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 34502fe9883c98179a6b2e23cd8360ae823c1853
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523155"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666014"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>从 Skype for Business 内部部署升级到团队
 
@@ -54,7 +54,7 @@ ms.locfileid: "44523155"
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步骤2：为你的组织实施所选升级旅程
 
-完成混合设置后，您可以计划将用户移动到 Office 365。
+完成混合设置后，您可以计划将用户移动到 Microsoft 365 或 Office 365。
 
 有关详细信息，请参阅：
 
@@ -64,8 +64,8 @@ ms.locfileid: "44523155"
 
 ## <a name="phone-system-and-teams-upgrade"></a>电话系统和团队升级
 
-从本地电话系统过渡到团队将允许你利用手机系统直接路由（"直接路由"）或 Microsoft 提供的适用于 Office 365 的呼叫计划。
+从本地电话系统过渡到团队将允许你利用手机系统直接路由（"直接路由"）或 microsoft 为 Microsoft 365 或 Office 365 提供的呼叫计划。
 
-如果您不使用 Office 365 中的通话计划，则您需要将企业语音部署切换到手机系统直接路由，作为您的团队升级的一部分。
+如果未使用通话计划，则需要将企业语音部署转换为手机系统直接路由，作为团队的升级的一部分。
 
-有关详细信息，请参阅[手机系统直接路由的其他注意事项](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)。 如果您计划在 Office 365 中使用呼叫计划，请参阅我们关于将[电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)的指南。
+有关详细信息，请参阅[手机系统直接路由的其他注意事项](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)。 如果您计划使用通话计划，请参阅我们关于将[电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)的指南。

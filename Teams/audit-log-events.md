@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解如何从审核日志中检索 Microsoft 团队数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62b4c462cec58facca274883c98f1aad23042f16
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416732"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665634"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -93,7 +93,7 @@ ms.locfileid: "44416732"
 
 ### <a name="mass-delete-scenario"></a>批量删除方案
 
-正如前面所述，你可以监视删除方案。 可以创建一个策略来监视团队网站的大量删除。 在此示例中，会将基于警报的策略设置为在30分钟跨度内检测团队的批量删除。 
+正如前面所述，你可以监视删除方案。 可以创建一个策略来监视团队网站的大量删除。 在此示例中，会将基于警报的策略设置为在30分钟跨度内检测团队的批量删除。
 
 ![策略创建页面的屏幕截图，显示用于批量工作组删除检测的策略设置](media/TeamsMassDeletePolicy.png)
 
@@ -115,7 +115,7 @@ ms.locfileid: "44416732"
 
 Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy)提供现成的用户和实体行为分析（UEBA）和机器学习（ML），以便你可以在云环境中立即运行高级威胁检测。 由于它们会自动启用，因此新的异常检测策略通过提供即时检测来提供即时的结果，它针对你的用户和连接到你的网络的计算机和设备提供了多个行为异常。 此外，新策略会从 Cloud App Security 检测引擎中公开更多数据，以帮助你加快调查过程并包含持续威胁。
 
-我们正在努力将团队事件集成到异常检测策略中。 现在，你可以为其他 Office 产品设置异常情况检测策略，并在与这些策略匹配的用户上执行操作项目。 
+我们正在努力将团队事件集成到异常检测策略中。 现在，你可以为其他 Office 产品设置异常情况检测策略，并在与这些策略匹配的用户上执行操作项目。
 
 ## <a name="teams-activities"></a>团队活动
 
@@ -133,14 +133,21 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 |已更改团队成员的角色    |MemberRoleChanged         |团队所有者更改团队成员的角色。 以下值表示分配给用户的角色类型。 <br><br>**1** -指示所有者角色。<br>**2** -指示成员角色。<br>**3** -指示来宾角色。<br><br>Members 属性还包括您的组织的名称和成员的电子邮件地址。        |
 |已更改的团队设置    |TeamSettingChanged        |当团队所有者执行以下活动时，将记录 TeamSettingChanged 操作。 对于这些活动中的每个活动，在审核日志搜索结果的 "**项目**" 列中显示已更改（在括号中显示）的设置的说明。<ul><li>更改团队的访问权限类型。 可将团队设置为私有或公共（**团队访问类型**）。 当团队是专用的（默认设置）时，用户只能通过邀请访问团队。 当团队是公共团队时，它会被任何人发现。</li><li>更改团队的信息分类（**团队分类**）。 例如，可以将团队数据分类为高业务影响、中型企业影响或低业务影响。</li><li>更改团队的名称（**团队名称**）。</li><li>更改团队说明（**团队说明**）。</li><li>对团队设置所做的更改。 若要访问这些设置，团队所有者可以右键单击团队，选择 "**管理团队**"，然后单击 "**设置**" 选项卡。对于这些活动，已更改的设置的名称将显示在审核日志搜索结果的 "**项目**" 列中。</li></ul>         |
 |已创建团队    |TeamCreated         |用户创建团队。         |
+|已删除所有组织应用|DeletedAllOrganizationApps           |已从目录中删除所有组织应用。     |
+|已删除应用 |AppDeletedFromCatalog           |已从目录中删除应用。     |
 |已删除频道     |ChannelDeleted         |用户从团队中删除频道。         |
 |已删除团队  |TeamDeleted            |团队所有者删除团队。      |
+|已安装应用 |AppInstalled         |已安装应用。   |
+|已发布应用 |AppPublishedToCatalog           |已将应用添加到目录中。     |
 |已从团队中删除机器人   |BotRemovedFromTeam         |用户从团队中删除机器人。       |
 |已删除连接线     |ConnectorRemoved         |用户从频道中删除连接线。         |
 |已删除成员    |MemberRemoved        |团队所有者从团队、频道或群组聊天中删除成员。         |
 |已删除选项卡    |TabRemoved         |用户从频道中删除选项卡。         |
+|已卸载应用 |AppUninstalled           |已卸载应用。     |
+|已更新应用 |AppUpdatedInCatalog           |目录中的应用已更新。     |
 |已更新连接线    |ConnectorUpdated         |用户修改了频道中的连接器。         |
 |已更新选项卡   |TabUpdated         |用户修改了频道中的选项卡。         |
+|升级的应用 |AppUpgraded           |已将应用升级到目录中的最新版本。     |
 |用户已登录到团队     |TeamsSessionStarted         |用户登录到 Microsoft 团队客户端。 此事件不会捕获令牌刷新活动。         |
 
 ## <a name="shifts-in-teams-activities"></a>团队活动的倒班
@@ -184,4 +191,4 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 
 ## <a name="related-topics"></a>相关主题
 
-- [在 Microsoft 365 合规性中心中搜索审核日志](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c)
+- [在 Microsoft 365 合规性中心中搜索审核日志](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 

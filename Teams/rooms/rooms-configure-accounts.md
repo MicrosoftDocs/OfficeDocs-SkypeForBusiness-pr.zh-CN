@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 阅读本主题，了解如何在 Exchange 和 Skype for Business 中配置 Microsoft 团队聊天室的帐户。
-ms.openlocfilehash: 66eecbb0773f04599a0b5255cb5f83f158eb74f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 97367427aa2629fab3e40bae064c02f521ff710d
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825940"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666244"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>为 Microsoft 团队聊天室配置帐户
  
@@ -28,11 +28,11 @@ ms.locfileid: "41825940"
   
 本主题介绍如何在 Microsoft Exchange 和 Skype for Business 中创建 Microsoft 团队聊天室使用的帐户。 有关 Microsoft 团队聊天室设备的部署说明，请在[配置 Microsoft 团队聊天室控制台](console.md)中介绍。 你的基础结构很可能属于以下配置之一：
   
-- 联机部署：你的组织的环境完全部署在 Office 365 上。 有关详细信息，请参阅[通过 Office 365 部署 Microsoft 团队聊天室](with-office-365.md)。
+- 联机部署：你的组织的环境完全部署在 Microsoft 365 或 Office 365 上。 有关详细信息，请参阅[通过 microsoft 365 或 Office 365 部署 Microsoft 团队聊天室](with-office-365.md)。
     
 - 本地部署：你的组织具有其控制的服务器，其中托管了 Active Directory、Exchange 和 Skype for business 服务器。 有关详细信息，请参阅[用 Skype For Business 服务器部署 Microsoft 团队聊天室](with-skype-for-business-server-2015.md)
     
-- 混合部署：你的组织具有混合服务，其中一些托管在本地，而某些托管联机通过 Office 365。 在 Microsoft 团队聊天室中，支持以下混合方案： 
+- 混合部署：你的组织有多种服务，其中一些托管在本地，并且某些通过 Microsoft 365 或 Office 365 联机托管。 在 Microsoft 团队聊天室中，支持以下混合方案：
     
   - 与本地 Skype for business 服务器的 Exchange Online。 有关详细信息，请参阅[通过 Exchange Online （混合）部署 Microsoft 团队聊天室](with-exchange-online.md)。
     
@@ -52,7 +52,7 @@ ms.locfileid: "41825940"
 - 你的基础结构必须配置为允许 Microsoft 团队聊天室验证设备帐户，并访问相应的 Microsoft 服务。
     
 > [!IMPORTANT]
-> 强烈建议你在实际安装硬件之前完成帐户创建。 理想情况下，应在安装之前两至三周开始帐户准备工作。 在混合环境中，用于 Microsoft 团队聊天室的帐户必须在 AAD 同步中启用密码同步，因为 Microsoft 团队聊天室身份验证需要 Office 365 身份验证。
+> 强烈建议你在实际安装硬件之前完成帐户创建。 理想情况下，应在安装之前两至三周开始帐户准备工作。 在混合环境中，用于 Microsoft 团队聊天室的帐户必须在 AAD 同步中启用密码同步，因为 Microsoft 团队聊天室身份验证需要 Microsoft 365 或 Office 365 身份验证。
   
 你可以将设备帐户视为用户将其识别为会议室或会议空间的帐户的资源帐户。 当你要使用该会议室安排会议时，可邀请帐户加入该会议。 为了最有效地使用 Microsoft 团队聊天室，您可以使用分配给每个团队聊天室的设备帐户执行相同操作。
   
@@ -72,7 +72,7 @@ ms.locfileid: "41825940"
    
 ## <a name="advanced-configuration"></a>高级配置
 
-虽然基本配置的属性将允许在简单环境中设置设备帐户，但你的环境可能对必须满足的目录帐户具有其他限制，以便 Microsoft 团队聊天室成功使用设备帐户。
+虽然基本配置的属性允许在简单环境中设置设备帐户，但你的环境可能对必须满足的目录帐户有其他限制，才能使 Microsoft 团队聊天室成功使用设备帐户。
   
 |**属性**|**用途**|
 |:-----|:-----|
@@ -80,13 +80,13 @@ ms.locfileid: "41825940"
    
 设置设备帐户最简单的方法是使用远程 Windows PowerShell 进行配置。 Microsoft 提供了[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink/?linkid=870105)，该脚本将帮助创建新的设备帐户，或验证你拥有的现有资源帐户，以帮助你将它们转换为兼容的 Microsoft 团队聊天室设备帐户。
   
-如果你希望通过 Windows PowerShell cmdlet 使用 Office 365 UI，则可以手动执行某些步骤。 请参阅[使用 Office 365 创建设备帐户](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)。
+如果你希望在 Windows PowerShell cmdlet 上使用 Microsoft 365 或 Office 365 UI，则可以手动执行某些步骤。 请参阅[使用 Microsoft 365 或 Office 365 创建设备帐户](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)。
   
 ## <a name="see-also"></a>另请参阅
 
-[规划 Microsoft 团队聊天室](rooms-plan.md)
+[Microsoft Teams 会议室规划](rooms-plan.md)
   
-[配置 Microsoft 团队聊天室控制台](console.md)
+[配置 Microsoft Teams 会议室控制台](console.md)
   
 [管理 Microsoft Teams 会议室](rooms-manage.md)
 

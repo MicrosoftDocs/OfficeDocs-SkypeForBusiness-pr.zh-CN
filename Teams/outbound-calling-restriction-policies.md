@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理员可以控制音频会议和最终用户 PSTN 的呼叫可以由用户所做的类型。
-ms.openlocfilehash: 84acbed4017a709b63e657f12ef0bbe3c1eb620c
-ms.sourcegitcommit: 5a88788bd0a0b2ccbc5b977b38dcfe4681cd5d10
+ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44278175"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665904"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -42,7 +42,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 若要了解哪些国家/地区被视为区域 A，请参阅将[国家/地区分区](https://docs.microsoft.com/microsoftteams/calling-plans-for-office-365)。
 
    > [!NOTE]
-   > 如果所拨打的号码位于与为会议组织者设置的 Office 365 相同的国家/地区（对于音频会议）或最终用户（如果最终用户 PSTN 呼叫），则会将呼叫视为国内呼叫。 
+   > 如果所拨打的号码位于与为会议组织者设置的 Microsoft 365 或 Office 365 相同的国家/地区（对于音频会议）或最终用户（如果最终用户 PSTN 呼叫），则会将呼叫视为国内呼叫。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

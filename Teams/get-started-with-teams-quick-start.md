@@ -18,22 +18,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e92cc870eca689206df0e497ebd174c364b55968
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: bc5cc912a90320b7d7221fcd99df702020c69eaf
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042799"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44638351"
 ---
 # <a name="get-started-with-microsoft-teams"></a>开始使用 Microsoft Teams
 
 > [!IMPORTANT]
-> 如果你要快速部署 Microsoft Teams 来应对增长的支持**远程办公**的需求，请使用这份入门指南向你的整个组织部署 Teams。 即使 Teams 已经是你的第一个 Office 365 工作负载，也可使用本指南。
+> 如果你要快速部署 Microsoft Teams 来应对增长的支持**远程办公**的需求，请使用这份入门指南向你的整个组织部署 Teams。 即使 Teams 已经是你的第一个 Microsoft 365 或 Office 365 工作负载，也可使用本指南。
 
 若要快速开始使用 Teams，我们建议为挑选出的一组早期采用者创建两三个团队和频道。 通过首先小规模部署 Teams，你将通过使用 Teams 来学习 Teams，并获得宝贵的见解来了解如何在整个组织中部署 Teams。 如果是小型企业，你只需通过本快速入门指南便可将 Teams 部署到整个组织。
 
 
-Teams 使你能将组织内外的人员快速集中到一起形成一个团队，与其他人聊天来推动快速包容性对话，安全地共享和共同创作文档，并不断完善项目。 通过为共享笔记、网页和应用添加即时访问权限来自定义 Teams。 无论用户身处何处，都可使用会议和呼叫进行实时协作。 Teams 将简化你对 Office 365 服务和第三方应用的访问，使之成为你的协作和沟通需求的新重心。 鼓励早期采用者同时安装桌面和移动应用以获得最佳体验和最准确的反馈。
+Teams 使你能将组织内外的人员快速集中到一起形成一个团队，与其他人聊天来推动快速包容性对话，安全地共享和共同创作文档，并不断完善项目。 通过为共享笔记、网页和应用添加即时访问权限来自定义 Teams。 无论用户身处何处，都可使用会议和呼叫进行实时协作。 Teams 将简化你对 Microsoft 365 或 Office 365 服务和第三方应用的访问，使之成为你的协作和沟通需求的新重心。 鼓励早期采用者同时安装桌面和移动应用以获得最佳体验和最准确的反馈。
 
 ![显示桌面和移动客户端用户接口的屏幕截图](media/get-started-microsoft-teams.png "显示桌面客户端和移动客户端用户接口的屏幕截图" ) 
 
@@ -50,10 +50,10 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
 
 ## <a name="before-you-get-started"></a>开始之前
 
-为准备好进行 Teams 部署，可在下面了解你需要执行哪些操作、Teams 是你在现有 Office 365 部署中的第一个工作负载（“Teams 第一”）还是下一个工作负载：
+为准备好进行 Teams 部署，可在下面了解你需要执行哪些操作、Teams 是你在现有 Microsoft 365 或 Office 365 部署中的第一个工作负载（“Teams 第一”）还是下一个工作负载：
 
 - [为 Teams 准备贵组织的网络](prepare-network.md)
-    - 这包括配置 Office 365 域、SharePoint Online、Exchange Online 和 OneDrive for Business。
+    - 这包括配置 Microsoft 365 或 Office 365 域、SharePoint Online、Exchange Online 和 OneDrive for Business。
 
 - 为每个人获得 Teams 许可证。 查看 [Teams 计划](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)和 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
@@ -65,7 +65,7 @@ Teams 使你能将组织内外的人员快速集中到一起形成一个团队�
    - [规划 Skype for Business Server 与 Office 365 之间的混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
    
    > [!NOTE]
-   > 如果你的组织正在运行本地 Skype for Business Server（或 Lync Server），则你必须[配置Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)，才能将本地目录与 Office 365 进行同步。 
+   > 如果你的组织正在运行本地 Skype for Business Server（或 Lync Server），则你必须[配置Azure AD Connect](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)，才能将本地目录与 Microsoft 365 或 Office 365 进行同步。 
 
 
 ## <a name="next-steps"></a>后续步骤

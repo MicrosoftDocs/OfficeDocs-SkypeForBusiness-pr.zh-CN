@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用有关设备、网络和连接的呼叫分析详细信息来解决与 Microsoft 团队和 Skype for business 通话和会议有关的用户问题。
-ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 71a1e1c339c502da5cbbf998c75e758f2bbe3be2
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749559"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665244"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通话分析来排查通话质量不良问题
 
-呼叫分析可帮助你解决 Microsoft 团队和 Skype for business 的通话或连接问题。 "呼叫分析" 显示有关 Office 365 帐户中每个用户的呼叫和会议的设备、网络和连接的详细信息。 如果 "生成"、"网站" 和 "租户" 信息已添加到调用分析，则它还将针对每个通话和会话显示。 通过呼叫分析提供的信息可以帮助你了解为什么用户的通话或会议体验不佳的原因。 
+呼叫分析可帮助你解决 Microsoft 团队和 Skype for business 的通话或连接问题。 "呼叫分析" 显示有关 Microsoft 365 或 Office 365 帐户中每个用户的呼叫和会议的设备、网络和连接的详细信息。 如果 "生成"、"网站" 和 "租户" 信息已添加到调用分析，则它还将针对每个通话和会话显示。 通过呼叫分析提供的信息可以帮助你了解为什么用户的通话或会议体验不佳的原因。 
   
 ## <a name="call-analytics-permissions"></a>调用分析权限
 
@@ -60,7 +60,7 @@ ms.locfileid: "43749559"
 
 1. 通过团队通信支持或团队管理员凭据登录。
 
-2. 在 web 浏览器中， *https://admin.teams.microsoft.com*转到。
+2. 在 web 浏览器中，转到 *https://admin.teams.microsoft.com* 。
     
 3. 在**仪表板**上的 "**用户搜索**" 中，开始键入要对其进行故障排除的用户的名称或 sip 地址，或选择 "**查看用户**" 以查看用户列表。
     

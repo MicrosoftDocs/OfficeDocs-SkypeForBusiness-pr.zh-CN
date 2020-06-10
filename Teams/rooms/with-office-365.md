@@ -15,26 +15,26 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何在 Microsoft 365 或 Office 365 （团队或 Skype for Business 和 Exchange 均在线）上部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 2b7574b54782140e3f082c8c3859c9caee7712eb
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9a4ee558cfa9901566afc7f30f1f64a8b745331b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905274"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666134"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>通过 Microsoft 365 或 Office 365 部署 Microsoft 团队聊天室
 
-阅读本主题，了解如何在 Microsoft 团队或 Skype for business 和 Exchange 均在线的情况下，通过 Office 365 部署 Microsoft 团队聊天室的相关信息。
+阅读本主题，了解如何在 microsoft 团队或 Skype for business 和 Exchange 均在线的情况下，通过 Microsoft 365 或 Office 365 部署 Microsoft 团队聊天室的相关信息。
 
 设置用户帐户最简单的方法是使用远程 Windows PowerShell 进行配置。 Microsoft 提供了[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink/?linkid=870105)，该脚本可帮助创建新的用户帐户，或验证你拥有的现有资源帐户，以帮助你将其转换为兼容的 Microsoft 团队聊天室用户帐户。 如果你愿意，可以按照以下步骤配置 Microsoft 团队聊天室设备将使用的帐户。
 
 ## <a name="requirements"></a>要求
 
-在使用 Office 365 部署 Microsoft 团队聊天室之前，请确保满足这些要求。 有关详细信息，请参阅[Microsoft 团队会议室要求](requirements.md)。
+在使用 Microsoft 365 或 Office 365 部署 Microsoft 团队聊天室之前，请确保满足这些要求。 有关详细信息，请参阅[Microsoft 团队会议室要求](requirements.md)。
 
 若要启用 Skype for Business，您必须具有以下各项：
 
-- Office 365 计划中的 Skype for business Online （计划2或基于企业的计划）或更高版本。 该计划需要允许电话拨入式会议功能。
+- 您的 Microsoft 365 或 Office 365 计划中的 Skype for business Online （计划2或基于企业的计划）或更高版本。 该计划需要允许电话拨入式会议功能。
 
 - 如果需要来自会议的电话拨入式功能，您需要音频会议和电话系统许可证。  如果需要来自会议的拨出功能，您将需要音频会议许可证。
 
@@ -58,16 +58,16 @@ ms.locfileid: "43905274"
 
      此示例使用以下设置创建新的会议室邮箱：
 
-     - 名称： Project-Rigel
+     - 名称： Rigel-01
 
-     - 别名： ProjectRigel01
+     - 别名： Rigel1
 
-     - 帐户： ProjectRigel01@contoso.onmicrosoft.com
+     - 帐户： Rigel1@contoso.onmicrosoft.com
 
      - 帐户密码： P@ $ $W 0rd5959
 
      ``` PowerShell
-     New-Mailbox -Name "Project-Rigel-01" -Alias ProjectRigel01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID ProjectRigel01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     New-Mailbox -Name "Rigel-01" -Alias Rigel1 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
    - 若要修改现有的会议室邮箱，请使用以下语法：
@@ -76,10 +76,10 @@ ms.locfileid: "43905274"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     此示例启用具有 alias 值 ProjectRigel02 的现有聊天室邮箱的帐户，并将密码设置为 9898P@ $ $W 0rd。 请注意，由于现有的别名值，该帐户将 ProjectRigel02@contoso.onmicrosoft.com。
+     此示例启用具有 alias 值 Rigel2 的现有聊天室邮箱的帐户，并将密码设置为 9898P@ $ $W 0rd。 请注意，由于现有的别名值，该帐户将 Rigel2@contoso.onmicrosoft.com。
 
      ``` PowerShell
-     Set-Mailbox -Identity ProjectRigel02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
    有关详细的语法和参数信息，请参阅[新邮箱](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox)和[设置邮箱](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)。
@@ -101,15 +101,15 @@ ms.locfileid: "43905274"
 
    - AdditionalResponse： "这是 Skype 会议室！" （要添加到会议请求的其他文本。）
 
-   此示例在名为 Project-01 的聊天室邮箱上配置这些设置 Rigel。
+   此示例在名为 Rigel-01 的聊天室邮箱上配置这些设置。
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
    有关详细的语法和参数信息，请参阅[Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-4. 通过运行`Connect-MsolService -Credential $cred` PowerShell cmdlet 连接到 MS Online PowerShell 以进行 Active Directory 设置。   有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+4. 通过运行 PowerShell cmdlet 连接到 MS Online PowerShell 以进行 Active Directory 设置 `Connect-MsolService -Credential $cred` 。   有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
@@ -124,14 +124,14 @@ ms.locfileid: "43905274"
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   此示例将帐户 ProjectRigel01@contoso.onmicrosoft.com 的密码设置为永不过期。
+   此示例将帐户 Rigel1@contoso.onmicrosoft.com 的密码设置为永不过期。
 
   ``` PowerShell
     Set-MsolUser -UserPrincipalName $acctUpn -PasswordNeverExpires $true
   ```
 <!-- 
    ``` PowerShell
-   Set-AzureADUserPassword -UserPrincipalName ProjectRigel01@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
+   Set-AzureADUserPassword -UserPrincipalName Rigel1@contoso.onmicrosoft.com -EnforceChangePasswordPolicy $false
    ``` -->
 
    您也可以通过运行以下命令为帐户设置电话号码：
@@ -144,7 +144,7 @@ ms.locfileid: "43905274"
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. 设备帐户需要拥有有效的 Office 365 许可证，否则 Exchange 和 Microsoft 团队或 Skype for business 将无法正常工作。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 你可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 若要检索 Office 365 组织的可用 Sku 列表，请执行以下操作：
+6. 设备帐户需要有有效的 Microsoft 365 或 Office 365 许可证，或者 Exchange 和 Microsoft 团队或 Skype for Business 将无法正常工作。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 你可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 若要检索 Microsoft 365 或 Office 365 组织的可用 Sku 列表，请执行以下操作：
 
   ``` Powershell
   Get-MsolAccountSku
@@ -195,11 +195,11 @@ ms.locfileid: "43905274"
     > [!NOTE]
     > 新用户帐户可能不会在与租户中的现有用户帐户相同的注册机构池中创建。 上面的命令将防止由于此情况而导致帐户设置出错。
 
-完成上述步骤以在 Microsoft 团队或 Skype for business Online 中启用 Microsoft 团队聊天室帐户之后，你需要向 Microsoft 团队聊天室设备分配许可证。 使用 Office 365 管理门户为设备分配 Skype for business Online （计划2）或 Skype for business Online （计划3）许可证。
+完成上述步骤以在 Microsoft 团队或 Skype for business Online 中启用 Microsoft 团队聊天室帐户之后，你需要向 Microsoft 团队聊天室设备分配许可证。 使用 Microsoft 365 管理中心，为设备分配 Skype for business Online （计划2）或 Skype for business Online （计划3）许可证。
 
 ### <a name="assign-a-license-to-your-account"></a>向你的帐户分配许可证
 
-1. 以租户管理员身份登录，打开 Office 365 管理门户，然后单击 "管理" 应用。
+1. 以租户管理员身份登录，打开 Microsoft 365 管理中心，然后单击 "管理" 应用。
 
 2. 单击“**用户和组**”，然后单击“**添加用户、重置密码等**”。
 
@@ -216,27 +216,27 @@ ms.locfileid: "43905274"
 Exchange Online PowerShell 命令：
 
 ``` Powershell
-New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+New-Mailbox -MicrosoftOnlineServicesID Rigel1@contoso.onmicrosoft.com -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept-AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
+Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true
 -AdditionalResponse "This is a Rigel room!"
 ```
 
 Azure Active Directory PowerShell 命令：
 
 ``` PowerShell
-Set-MsolUser -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-MsolUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-MsolUser -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```
 
 <!-- 
 ``` PowerShell
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -PasswordNeverExpires $true -UsageLocation "US"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOEV"
-Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.com -AddLicenses "sfblab:MCOPSTN2"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -PasswordNeverExpires $true -UsageLocation "US"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:O365_BUSINESS_PREMIUM"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOEV"
+Set-AzureADUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "sfblab:MCOPSTN2"
 ```  -->
 
 Skype for business PowerShell 命令：

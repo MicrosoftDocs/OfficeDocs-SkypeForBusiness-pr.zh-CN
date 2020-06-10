@@ -21,12 +21,12 @@ f1.keywords:
 description: 了解如何通过在你的组织中推动意识、采纳和教育来培训拥护者团队的参与。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c44be9ac59b3a7c076540b658cf27bf74ef0e8
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 9f6a54a6da5aa12e92e6ae50960cca5e5faf6d0a
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350256"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665994"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>为 Microsoft Teams 创建支持者计划
 
@@ -45,7 +45,7 @@ ms.locfileid: "44350256"
 
 使用我们的[冠军拥护程序指南](https://go.microsoft.com/fwlink/?linkid=854665)在你的组织中构建此计划。 本社区的最佳做法是：
 
-- 加入 Microsoft 365 或 Microsoft Office 365[冠军计划程序](https://aka.ms/O365Champions)。 请确保在拥护者（及其所有公司拥护者）最少的领导者是该计划的成员。 这一免费的每月社区通话将提供有价值的信息来运行您自己的程序，并最大程度地获得团队和其他 Microsoft 365 或 Office 365 服务。 可以在自己的内部程序中重用程序资料。
+- 加入[拥护器程序](https://aka.ms/O365Champions)。 确保在 "拥护者" （及其所有公司拥护者）最少的领导者是该计划的成员。 这一免费的每月社区通话将提供有价值的信息来运行您自己的程序，并最大程度地获得团队和其他 Microsoft 365 或 Office 365 服务。 可以在自己的内部程序中重用程序资料。
 
 - 使用团队成员冠军团队：你的拥护者应使用你为其设置的团队，以获得所有程序通信、反馈和查找资源。  在执行此操作时，他们将越来越熟悉产品及其好处。
 

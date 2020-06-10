@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 976954014e3d1e78e8ca22de4f20a95985033006
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: c167903414aecabf7eecae01527a71ae61c27a4b
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523315"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44666084"
 ---
 # <a name="operate-your-service"></a>运行服务
 
@@ -37,11 +37,11 @@ ms.locfileid: "44523315"
 
 操作指南概括介绍了 Microsoft 团队服务管理功能所需的所有任务和活动。
 
-服务管理是一个非常广泛的主题，涵盖了部署 Microsoft Teams 服务并为用户启用该服务后该服务的日常操作。 Teams 服务包括 Microsoft Office 365 和在本地部署的基础结构组件（例如网络）。
+服务管理是一个非常广泛的主题，涵盖了部署 Microsoft Teams 服务并为用户启用该服务后该服务的日常操作。 团队服务涵盖 Microsoft 365 或 Office 365 以及本地部署的基础结构组件（例如，网络）。
 
 对于大多数组织而言，服务管理概念很可能不是一个新概念。 你可能已经实现了与现有服务相关联的流程和任务。 也就是说，计划服务管理以便将来支持团队时，您可能会增加当前流程。
 
-服务管理包括管理团队结束的所有活动和过程。 正如前面所述，Office 365 服务本身所包含的基础结构是 Microsoft 的责任，而你的客户对你的用户负责管理你提供的团队、网络和终结点的各个方面。
+服务管理包括管理团队结束的所有活动和过程。 如前面所述，某些服务管理组件（Microsoft 365 或 Office 365 服务本身所包含的基础架构）是 Microsoft 的责任，而你的客户负责管理你提供的团队、网络和终结点的各个方面。
 
 本指南中的任务和活动按下图所示分为八个类别。 这些类别中的每一个都将在以下部分展开。
 
@@ -72,7 +72,7 @@ ms.locfileid: "44523315"
 
 ### <a name="teams-service-dependencies"></a>团队服务相关性
 
-Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提供中心。 示例包括：
+Microsoft 团队将跨 Microsoft 365 和 Office 365 的技术汇集到一起，以便为团队协作提供中心。 示例包括：
 
 - Azure Active Directory （Azure AD）为团队提供身份验证和授权服务。
 
@@ -106,7 +106,7 @@ Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提�
 
 ## <a name="monitor-service-health"></a>监视服务运行状况
 
-了解 Microsoft 团队服务的整体运行状况非常重要，这样你就可以在组织中向其他影响该服务的事件主动发出通知。 正如前面所述，团队依赖于其他 Office 365 服务，如 Azure Active Directory、Exchange Online、SharePoint Online 和 OneDrive for business。 因此，监视相关服务的运行状况同样重要。
+了解 Microsoft 团队服务的整体运行状况非常重要，这样你就可以在组织中向其他影响该服务的事件主动发出通知。 正如前面所述，团队依赖于其他 Microsoft 365 和 Office 365 服务，如 Azure Active Directory、Exchange Online、SharePoint Online 和 OneDrive for business。 因此，监视相关服务的运行状况同样重要。
 
 将此活动纳入你的事件管理流程，以主动通知用户、帮助台和运营团队准备处理用户升级。
 
@@ -115,9 +115,9 @@ Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提�
 | 监视工具 | 优势 | 何时使用 |
 |---|---|---|
 | Microsoft 365 管理中心 | 在具有支持的浏览器的任何设备中可用。 | 在不需要实时通知时使用。 |
-| Office 365 管理应用 | 向移动设备提供推送通知。 | 当您在旅途中需要通知服务事件时，请使用。 |
+| Microsoft 365 管理应用 | 向移动设备提供推送通知。 | 当您在旅途中需要通知服务事件时，请使用。 |
 | Microsoft System Center | 与 Microsoft System Center 集成。 | 在需要高级监视功能和通知支持时使用。 |
-| Office 365 服务通信 API | 以编程方式访问 Office 365 服务运行状况。 | 在需要与第三方监视工具集成或希望构建自己的解决方案时使用。 |
+| Microsoft 365 服务通信 API | 以编程方式访问 Microsoft 365 或 Office 365 服务运行状况。 | 在需要与第三方监视工具集成或希望构建自己的解决方案时使用。 |
 
 > [!NOTE]
 > 只有分配有**全局管理员**或**服务管理员**角色的人员才能查看服务运行状况。
@@ -128,22 +128,22 @@ Microsoft 团队将跨 Office 365 的技术汇集在一起，为团队协作提�
 
 ### <a name="monitoring-with-the-mobile-app"></a>通过移动应用进行监控
 
-Office 365 管理应用在 Apple iOS、Android 和 Windows （PC 和手机）上可用。 该应用提供有关服务运行状况和即将进行的更改的服务管理员信息。 该应用支持推送通知，在发布公告后几乎可以立即向您发出通知。 这可帮助你及时了解服务的状态、运行状况和任何即将到来的更改。 通知支持使其成为管理员推荐的监视工具。 有关详细信息，请参阅：
+Microsoft 365 管理应用可在 Apple iOS、Android 和 Windows （PC 和手机）上使用。 该应用提供有关服务运行状况和即将进行的更改的服务管理员信息。 该应用支持推送通知，在发布公告后几乎可以立即向您发出通知。 这可帮助你及时了解服务的状态、运行状况和任何即将到来的更改。 通知支持使其成为管理员推荐的监视工具。 有关详细信息，请参阅：
 
-[Office 365 管理员移动应用](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Microsoft 365 Admin 移动应用](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[下载 Office 365 管理移动应用](https://products.office.com/business/manage-office-365-admin-app)
+[下载 Microsoft 365 管理移动应用](https://products.office.com/business/manage-office-365-admin-app)
 
 ### <a name="monitoring-with-microsoft-system-center"></a>通过 Microsoft System Center 进行监控
 
-Microsoft System Center 是一个集成的管理平台，可帮助你管理数据中心、客户端设备和混合云 IT 环境。 使用 System Center 的 Office 365 管理员现在可以选择导入 Office 365 管理包，从而使其能够查看 System Center 中 Operations Manager 内的所有服务通信。 使用此工具，你可以访问已订阅服务的状态、活动和已解决的服务事件，以及你的消息中心通信（即将进行的更改）。 有关详细信息，请参阅以下[博客文章](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
+Microsoft System Center 是一个集成的管理平台，可帮助你管理数据中心、客户端设备和混合云 IT 环境。 使用 System Center 的 Microsoft 365 或 Office 365 管理员现在可以选择导入管理包，从而使其能够查看 System Center 中 Operations Manager 内的所有服务通信。 使用此工具，你可以访问已订阅服务的状态、活动和已解决的服务事件，以及你的消息中心通信（即将进行的更改）。 有关详细信息，请参阅以下[博客文章](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)。
 
 如果你利用 System Center 监视团队服务运行状况（以及相关服务），你可以进一步自定义管理包以通知或通知特定组或已标识为对事件做出反应的人员。
 这些组可以包括服务所有者、支持人员、第二级和第三级支持组以及你的组织中的事件经理。
 
 ### <a name="monitoring-for-advanced-scenarios"></a>监视高级方案
 
-通过利用 Office 365 服务通信 API 以编程方式访问 Office 365 服务运行状况和更改，可以监视服务运行状况和即将进行的更改。 使用此 API 创建你自己的监视工具，或将你的现有监视工具连接到 Office 365 服务通信，从而可能简化你的环境监视方式。 有关详细信息，请参阅[适用于企业开发人员的 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)。
+你可以通过使用服务通信 API 以编程方式访问服务运行状况和更改来监视服务运行状况和即将进行的更改。 使用此 API 创建你自己的监视工具，或将你的现有监视工具连接到 Microsoft 365 或 Office 365 服务通信，从而可能简化你的环境监视方式。 有关详细信息，请参阅[Microsoft 365 或企业版开发人员的 Office 365](https://msdn.microsoft.com/library/jj984343(v=office.15).aspx)。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
 
@@ -154,7 +154,7 @@ Microsoft System Center 是一个集成的管理平台，可帮助你管理数�
 
 ### <a name="references"></a>References
 
-[如何检查 Office 365 服务运行状况](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
+[如何检查 Microsoft 365 或 Office 365 服务运行状况](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
 
 [验证 Microsoft Teams 的服务运行状况](service-health.md)
 
@@ -231,7 +231,7 @@ Microsoft 团队是基于云的服务。 这使您能够以快速的步调提供
 
 ## <a name="assess-teams-usage"></a>评估团队使用情况
 
-初始试点开始后，建立定期节奏来测量实际的团队使用情况非常重要。 这使你的组织能够深入了解实际使用情况如何与你在构想阶段中预测的用法保持一致。 虽然本部分重点介绍团队使用，但这应该是衡量和评估 Office 365 总使用的更广泛的工作之一。
+初始试点开始后，建立定期节奏来测量实际的团队使用情况非常重要。 这使你的组织能够深入了解实际使用情况如何与你在构想阶段中预测的用法保持一致。 虽然本部分重点介绍团队使用，但这应该是衡量和评估 Microsoft 365 或 Office 365 使用情况的更大努力的一部分。
 
 在部署早期查看使用情况使你有机会：
 
@@ -245,7 +245,7 @@ Microsoft 团队是基于云的服务。 这使您能够以快速的步调提供
 
 ### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心衡量使用情况
 
-"报告" 仪表板中提供了来自团队的使用数据。 可在三个不同的报表中找到团队使用数据。 第一个报表提供有关用户如何使用 Office 365 中的各种服务进行通信和协作的交叉产品视图。 可在此处找到此报告： [Office 365 活动用户报告](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
+"报告" 仪表板中提供了来自团队的使用数据。 可在三个不同的报表中找到团队使用数据。 第一个报表提供了有关如何使用 Microsoft 365 或 Office 365 中的各种服务与用户进行通信和协作的交叉产品视图。 可在以下位置找到此报告：[管理中心中的 Microsoft 365 报表-活动用户](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
 其他两个报表是特定于团队的报表，它们提供来自用户和设备的团队使用情况的进一步详细信息。 可在此处找到这两个报表：
 
@@ -257,7 +257,7 @@ Microsoft 团队是基于云的服务。 这使您能够以快速的步调提供
 
 管理员中心中的使用情况报告可由分配有**全局管理员**角色的人员或特定于产品的管理员角色（**Exchange 管理员**、 **Skype for business 管理员**、 **SharePoint 管理员**）访问。
 
-此外，**报表读者**角色适用于需要访问报表的用户，但不执行需要管理员级别权限的任何任务。 分配此角色以向任何有利益干系人的人员提供使用情况报告，以监视和推动采纳。 有关可用的不同角色的详细信息，请参阅[关于 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+此外，**报表读者**角色适用于需要访问报表的用户，但不执行需要管理员级别权限的任何任务。 分配此角色以向任何有利益干系人的人员提供使用情况报告，以监视和推动采纳。 有关可用的不同角色的详细信息，请参阅[关于 Microsoft 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="assessing-usage"></a>评估使用情况
 
@@ -355,8 +355,8 @@ NPS 是一个介于-100 到100之间的索引，用于衡量客户推荐公司�
 
 | 活动 | 说明 | 节奏 | 分配的团队 |
 |---|---|---|---|
-| 监视 Office 365 IPs 和 Url | 使用提供的[RSS 源](https://go.microsoft.com/fwlink/p/?linkid=236301)监视对[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)所做的任何更改，并启动对相应网络组的更改请求。 | 每天 | |
-| 基于 Office 365 IPs 和 Url 的更改更新网络 | 对适用的网络组件（防火墙、代理服务器、Vpn、客户端防火墙等）进行更新，以反映[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)的更改。 | 根据需要 | |
+| 监视 Microsoft 365 或 Office 365 IPs 和 Url | 使用提供的[RSS 源](https://go.microsoft.com/fwlink/p/?linkid=236301)监视对[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)所做的任何更改，并启动对相应网络组的更改请求。 | 每天 | |
+| 基于 Microsoft 365 或 Office 365 IPs 和 Url 的更改更新网络 | 对适用的网络组件（防火墙、代理服务器、Vpn、客户端防火墙等）进行更新，以反映[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)的更改。 | 根据需要 | |
 | 提供建筑物数据 | 向质量专家（或相关利益干系人）提供更新的子网信息，以确保[CQD 中的生成定义](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)保持最新状态。 | 根据需要 | |
 | 实施更改 | 实施对网络的更改以支持不断变化的团队业务和技术要求。 网络元素可以包括：<ul><li>防火墙</li><li>Vpn</li><li>有线和 Wlan 网络</li><li>Internet 连接和 ExpressRoute</li><li>DNS</li></ul> | 根据需要 | |
 | 网络监控和报告 | 通过使用您现有的第三方网络管理工具和您的网络提供商提供的报告功能，监控网络端到端的可用性、利用率和容量趋势。 使用趋势数据进行网络容量规划。 | 每天、每周、每月 | |
@@ -429,7 +429,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 
 即使您已遵循以前的指南，组织中的用户仍可能会遇到团队问题。 尽管问题可能不与终结点本身有关，但问题的症状通常通过客户端呈现给用户。 下面的指南旨在提供解决问题时可以采取的常规步骤;这并不是一种全面的故障排除指南。 这些步骤按特定顺序提供，但不需要明确关注，并且可能不适用，具体取决于问题的性质。
 
-1. **验证服务运行状况：** 用户可能遇到的问题可能与对团队服务或 itsdependent 服务产生负面影响的事件相关。 第一步，我们建议您确认没有活动的服务问题。 请参阅[如何检查 Office 365 服务运行状况](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)。 请记住检查从属服务（例如，Exchange、SharePoint、OneDrive for business）的状态。 "监视服务运行状况" 将在上一节 "[监视服务运行状况](#monitor-service-health)" 中更详细地讨论。
+1. **验证服务运行状况：** 用户可能遇到的问题可能与对团队服务或其依赖服务产生负面影响的事件相关。 第一步，我们建议您确认没有活动的服务问题。 请参阅[如何检查 Microsoft 365 服务运行状况](https://docs.microsoft.com/office365/enterprise/view-service-health)。 请记住检查从属服务（例如，Exchange、SharePoint、OneDrive for business）的状态。 "监视服务运行状况" 将在上一节 "[监视服务运行状况](#monitor-service-health)" 中更详细地讨论。
 
 2. **验证客户端连接：** 连接问题导致团队中的功能或登录问题。 我们建议（特别是对于新网站或位置）验证与该服务的连接。 确保为每个网站遵循以下[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)指南。 你可以利用[Microsoft 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)执行连接测试，以验证是否已正确打开团队功能的媒体端口。 有关如何运行连接测试的详细步骤在[网络准备情况](prepare-network.md)指南中提供。
 

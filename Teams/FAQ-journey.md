@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96354e7b1a8283ebf66648c1bb2987119fe5bdc0
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: f61da62118229cfa16db7a476c96e9d0bdf4a65a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522665"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637041"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "44522665"
 
 ### <a name="why-is-microsoft-teams-replacing-skype-for-business-online"></a>Microsoft Teams 为何取代 Skype for Business Online？
 
-通过将文件、聊天和应用组合在一个集成应用中，Microsoft Teams 扩展了 Skype for Business Online 的功能，并且使组织能够更快地进行迁移并更高效地展开协作。 由于 Teams 提供了一系列更为丰富的体验，它取代 Skype for Business 成为 Office 365 的核心通信客户端。
+通过将文件、聊天和应用组合在一个集成应用中，Microsoft Teams 扩展了 Skype for Business Online 的功能，并且使组织能够更快地进行迁移并更高效地展开协作。 由于 Teams 提供了一系列更为丰富的体验，它取代 Skype for Business 成为 Microsoft 365 和 Office 365 的核心通信客户端。
 
 ### <a name="when-is-the-retirement-of-skype-for-business-online"></a>Skype for Business Online 何时停用？
 
@@ -66,7 +66,7 @@ Skype for Business Online 将于 2021 年 7 月 31 日停用。 在停用日期�
 
 ### <a name="what-do-you-recommend-for-customers-who-are-currently-in-the-process-of-deploying--or-planning-to-deploy--skype-for-business-in-office-365"></a>对当前正在 Office 365 中部署或计划部署 Skype for Business 客户，你们有什么建议？
 
-目前正在部署 Skype for Business Online 的客户可继续如此操作。 我们鼓励所有新 Office 365 客户开始独立使用 Teams 或与 Skype for Business 并行使用 Teams，并确定可满足其业务需求的路径（共存或仅 Teams）和时间。 无论 Skype for Business Online 的使用期限如何，客户都需要在 Skype for Business Online 停用日期之前迁移至 Teams。
+目前正在部署 Skype for Business Online 的客户可继续如此操作。 我们鼓励所有新 Microsoft 365 和 Office 365 客户开始独立使用 Teams 或与 Skype for Business 并行使用 Teams，并确定可满足其业务需求的路径（共存或仅 Teams）和时间。 无论 Skype for Business Online 的使用期限如何，客户都需要在 Skype for Business Online 停用日期之前迁移至 Teams。
 
 ### <a name="what-support-do-you-offer-customers-who-want-to-move-to-teams-especially-those-who-have-made-significant-investments-in-skype-for-business-online"></a>你们向希望迁移至 Teams 的客户提供什么支持，尤其是在 Skype for Business Online 上进行了大量投资的客户？
 
@@ -74,7 +74,7 @@ Skype for Business Online 将于 2021 年 7 月 31 日停用。 在停用日期�
 
 ### <a name="what-does-this-mean-from-a-licensing-perspective-how-will-customers-pay-for-intelligent-communications-services-in-teams"></a>从许可方面来看，这意味着什么？ 客户将如何为 Teams 中的智能通信服务付费？
 
-Teams 在 Office 365 套件中提供。 现在 Skype for Business Online 中作为优质工作负荷的功能将继续在 Teams 中作为优质工作负荷。 客户在现有许可上的投入将转到 Teams 中。 例如，如果客户单独购买了音频会议或购买了包含音频会议的 E5（附带 Skype for Business），则将在 Teams 中启用音频会议，因为它现在可用。
+Teams 在 Microsoft 365 和 Office 365 套件中提供。 现在 Skype for Business Online 中作为优质工作负荷的功能将继续在 Teams 中作为优质工作负荷。 客户在现有许可上的投入将转到 Teams 中。 例如，如果客户单独购买了音频会议或购买了包含音频会议的 E5（附带 Skype for Business），则将在 Teams 中启用音频会议，因为它现在可用。
 
 ### <a name="is-microsoft-planning-scheduled-upgrades"></a>Microsoft 是否安排计划的升级？
 
@@ -172,7 +172,7 @@ Teams 专为高度可扩展的微服务架构中的云构建，它可减少带�
 
 ### <a name="what-is-the-plan-for-microsofts-online-voice-capabilities"></a>Microsoft 的联机语音功能的计划是什么？
 
-我们语音解决方案的核心是现已推出的电话系统。 客户还可以添加 Microsoft 通话套餐，它为呼叫提供全面支持，包括直接在 Office 365 中进行号码获取和分配。 希望保留其电信电话干线的客户可以使用直接路由功能 – 它包含在电话系统中。 根据组织的需要将两者混合使用，以便拥有完整的语音解决方案。
+我们语音解决方案的核心是现已推出的电话系统。 客户还可以添加 Microsoft 通话套餐，它为呼叫提供全面支持，包括直接在 Microsoft 365 或 Office 365 中进行号码获取和分配。 希望保留其电信电话干线的客户可以使用直接路由功能 – 它包含在电话系统中。 根据组织的需要将两者混合使用，以便拥有完整的语音解决方案。
 
 ### <a name="what-is-the-guidance-for-customers-already-deployed-on-phone-system-cloud-pbx-in-skype-for-business-online"></a>对于已在 Skype for Business Online 中的电话系统（云 PBX）上部署的客户，有什么指导？
 
@@ -190,7 +190,7 @@ Microsoft Teams 中的呼叫功能可满足你的所有通信需求。 我们鼓
 
 ### <a name="are-third-party-audio-conferencing-providers-acp-supported-in-teams"></a>Teams 是否支持第三方音频会议提供商 (ACP)？
 
-没有计划在 Teams 中支持第三方音频会议提供商 (ACP)。 我们认为，对于使用 Teams 和 Skype for Business 的客户，最佳的音频会议体验就是使用 Office 365 中的音频会议服务。 需要在 Skype for Business 会议中利用 ACP 支持的客户可以继续使用 Skype for Business 客户端加入 Skype for Business 会议。 在 Teams 中安排的会议将需要使用 Office 365 的音频会议服务。
+没有计划在 Teams 中支持第三方音频会议提供商 (ACP)。 我们认为，对于使用 Teams 和 Skype for Business 的客户，最佳的音频会议体验就是使用音频会议服务。 需要在 Skype for Business 会议中利用 ACP 支持的客户可以继续使用 Skype for Business 客户端加入 Skype for Business 会议。 在 Teams 中安排的会议将需要使用 Microsoft 365 或 Office 365 的音频会议服务。
 
 针对将第三方音频会议提供商 (ACP) 集成到 Skype for Business Online 的支持服务已延长到 2021 年 7 月 31 日，并为剩余活动租户提供有限支持，以便延长过渡时间。 这是 2018 年 4 月宣布的 ACP 时间表的更新。
 

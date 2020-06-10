@@ -21,17 +21,17 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74764b2a785835b9dfb65bedf3eb67db0e1109af
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 761f94e34afacb487ac9ce85f5da36d4ca6b866a
+ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410417"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44637911"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>如何部署 Microsoft Teams
 
 ## <a name="start-here"></a>从这里开始
-不管是小型企业还是跨国企业，都可以通过[入门](get-started-with-teams-quick-start.md)来开始部署 Teams。 它将指导你小规模地部署 Teams，如果你是一家小型企业，或者要快速部署 Teams 作为你的第一个 Office 365 工作负载以支持**远程工作者**，那么你可能只需这样做即可。 如果是较大的组织，请使用[入门](get-started-with-teams-quick-start.md)让一小部分早期采用者试用 Teams，以便能够了解 Teams，并开始规划在组织范围内部署。 
+不管是小型企业还是跨国企业，都可以通过[入门](get-started-with-teams-quick-start.md)来开始部署 Teams。 它将指导你小规模地部署 Teams，如果你是一家小型企业，或者要快速部署 Teams 作为你的第一个 Microsoft 365 或 Office 365 工作负载以支持**远程工作者**，那么你可能只需这样做即可。 如果是较大的组织，请使用[入门](get-started-with-teams-quick-start.md)让一小部分早期采用者试用 Teams，以便能够了解 Teams，并开始规划在组织范围内部署。 
 
 ## <a name="recommended-path-to-teams"></a>建议的 Teams 部署途径
 
@@ -57,7 +57,7 @@ ms.locfileid: "44410417"
 |  |贵组织的情况|指引  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|我当前正在使用 Skype for Business Online，并准备转移到 Teams。 |转到[升级到 Teams](upgrade-start-here.md)。        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的组织正在运行 Skype for Business Server，并且我想要部署 Teams。 |为了全面部署 Teams，首先你需要在本地环境和 Microsoft 365 环境之间配置混合连接。 请先阅读[在 Skype for Business Server 和 Office 365之间规划混合连接](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)。 <br><br>你还应查看[升级到 Teams](upgrade-start-here.md)。   |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的组织正在运行 Skype for Business Server，并且我想要部署 Teams。 |为了全面部署 Teams，首先你需要在本地环境和 Microsoft 365 环境之间配置混合连接。 请先阅读[在 Skype for Business Server 和 Microsoft 365 或 Office 365 之间规划混合连接](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)。 <br><br>你还应查看[升级到 Teams](upgrade-start-here.md)。   |
 |<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|我没有 Skype for Business Server，但有本地 PSTN 解决方案。 我想要部署 Teams，但希望保留本地 PSTN 解决方案。 |按照上面的[建议途径](#recommended-path-to-teams)部署 Teams。<br><br>然后阅读[规划直接路由](direct-routing-plan.md)，了解如何使用电话系统直接路由将本地 PSTN 解决方案连接到 Teams。|
 |
 

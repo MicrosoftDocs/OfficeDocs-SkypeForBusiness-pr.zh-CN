@@ -24,12 +24,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: 了解紧急电话，包括有关紧急地址、紧急呼叫路由和动态紧急呼叫的信息。
-ms.openlocfilehash: 889446ca08289ccb15128bee8ca6b6170398c599
-ms.sourcegitcommit: d8e05e66311725f8ff6d28011355129baeb305b3
+ms.openlocfilehash: b41b7e9b4442e10cf3ca352a9d6460f2d537b43e
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44539489"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665154"
 ---
 # <a name="manage-emergency-calling"></a>管理紧急电话
 
@@ -84,7 +84,7 @@ ms.locfileid: "44539489"
 
 - 例如，在美国和加拿大，如果向用户分配了一个号码，则需要紧急位置。
 
-- 对于其他国家或地区（如 &mdash; 欧洲、中东和非洲（EMEA））， &mdash; 当您从 Office 365 获取电话号码或从其他服务提供商或运营商处转移时，需要紧急位置。
+- 对于其他国家/地区（例如在欧洲、中东和非洲（EMEA）），当您获得来自 Microsoft 365 或 Office 365 的电话号码时，或者从另一个服务提供商或运营商处转移电话号码时，需要紧急位置。
 
 ### <a name="dynamic-emergency-calling"></a>动态紧急电话
 

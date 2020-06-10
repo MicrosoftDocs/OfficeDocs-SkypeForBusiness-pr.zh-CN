@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0fb9a90a3528ed8d2d7f4d2f00843a9215e92a2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: a146b2971c32b88a8a8ef6925e38044b25b847e6
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902417"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665704"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft 团队中实施服务质量（QoS）
 
@@ -44,9 +44,9 @@ QoS 是一种允许实时网络流量（如语音或视频流）对网络延迟�
 
 为了使 QoS 生效，你的组织中的一致 QoS 设置将在你的组织中最终应用，因为无法支持 QoS 优先级的路径的任何部分可能会降低呼叫、视频和屏幕共享的质量。 这包括将设置应用到所有用户电脑或设备、网络交换机、互联网路由器以及团队联机服务。
 
-_图1。组织的网络和 Office 365 服务之间的关系_
+_图1。组织的网络与 Microsoft 365 或 Office 365 服务之间的关系_
 
-![网络和服务之间的关系的插图](media/Qos-in-Teams-Image1.png "组织的网络和 Office 365 服务之间的关系：本地网络和设备与互连网络连接，后者又与 Office 365 云语音和音频会议服务连接。")
+![网络和服务之间的关系的插图](media/Qos-in-Teams-Image1.png "组织的网络和 Microsoft 365 或 Office 365 服务之间的关系：本地网络和设备与互连网络连接，后者又与 Microsoft 365 或 Office 365 云语音和音频会议服务连接。")
 
 在大多数情况下，将你的企业连接到云的网络将是无法可靠地设置 QoS 选项的非托管网络。 用于解决端到端 QoS 的一个选择是[Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/)，但我们仍建议你在本地网络上为入站和出站流量实现 QoS。 这将提高整个部署中实时通信工作负荷的质量并减少 chokepoints。
 
@@ -150,7 +150,7 @@ _推荐的初始端口范围_
 
 准备实施 QoS 时，请牢记以下准则：
 
-- 最短的 Office 365 路径是最佳途径。
+- 最短路径为 Microsoft 365 或 Office 365。
 - 关闭端口仅会导致质量下降。
 - 不建议在任何情况下（如代理）中的任何障碍物。
 - 限制跃点的数量：
@@ -158,7 +158,7 @@ _推荐的初始端口范围_
   - ISP 到 Microsoft network edge –3个跃点
   - Microsoft 网络边缘到最终目标-不相关
 
-有关配置防火墙端口的信息，请转到[Office 365 url 和 IP 范围](office-365-urls-ip-address-ranges.md)。
+有关配置防火墙端口的信息，请转到[Microsoft 365 和 Office 365 url 和 IP 范围](office-365-urls-ip-address-ranges.md)。
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>管理团队管理中心中的源端口
 
