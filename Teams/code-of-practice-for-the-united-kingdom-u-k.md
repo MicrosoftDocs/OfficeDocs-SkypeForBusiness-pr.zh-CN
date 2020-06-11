@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 了解 Skype for business UK 的适用于 Skype for Business 的 PSTN 呼叫计划代码，包括、获取帮助的位置以及如何提交投诉和解决争议。
-ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779628"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689758"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365 中的通话计划-英国的练习代码（英国）
 
-此代码适用于英国（英国）的小型企业客户（即10名员工或更少的组织），根据英国通信法规，在英国（英国）的 Office 365 通话计划服务（"服务"）中。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
+此代码适用于英国（英国）的小型企业客户（具有10名或更少员工的组织），与 Microsoft 365 或 Office 365 通话计划服务（"服务"）保持联系，依照英国通信法规。 使用其他 Skype for Business 服务应遵守与 Microsoft 签署的服务协议以及适用于所使用的特定服务的任何其他条款的规定。
 
 ## <a name="1-about-skype-for-business"></a>1 关于 Skype for Business
 
@@ -52,7 +52,7 @@ Skype for Business 在英国由 Microsoft Ireland Operations Limited 提供，�
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3 投诉和争议解决
 
-获得客户满意和提供卓越服务是我们的首要任务。 但是，如果你有投诉，我们将快速响应并帮助你解决问题。 [Office 365 中的通话计划-美国的问答处理代码](complaint-handling-code-for-the-united-kingdom-u-k.md)详细介绍了小型企业向我们提出投诉和我们的独立争议解决方案方案的过程。
+获得客户满意和提供卓越服务是我们的首要任务。 但是，如果你有投诉，我们将快速响应并帮助你解决问题。 [Microsoft 365 或 Office 365 中的通话计划-美国英语（英国）的投诉处理代码](complaint-handling-code-for-the-united-kingdom-u-k.md)详细介绍了小型企业向我们提出投诉和我们的独立争议解决方案的过程。
   
 ## <a name="4-number-porting"></a>4 携号转网
 
@@ -60,13 +60,13 @@ Skype for Business 在英国由 Microsoft Ireland Operations Limited 提供，�
 
 ## <a name="5-service-reliability"></a>5 服务可靠性
 
-Office 365 通话计划依赖于您的宽带连接。 如果宽带连接断电或出现故障，将无法拨打电话。 导致这些故障的原因是我们无法控制的。
+Microsoft 365 或 Office 365 通话计划依赖于您的宽带连接。 如果宽带连接断电或出现故障，将无法拨打电话。 导致这些故障的原因是我们无法控制的。
 
 ## <a name="6-emergency-calls"></a>6 紧急呼叫
 
-Skype for Business 向英格兰、威尔士、苏格兰和北爱尔兰地区的客户提供对 999/112 公共紧急呼叫服务的访问。 但是，拨打999或112的紧急电话与传统电话服务上的 Office 365 通话计划服务的运行方式有所不同。 客户需要通知每个用户这些差异的 Office 365 通话计划服务。
+Skype for Business 向英格兰、威尔士、苏格兰和北爱尔兰地区的客户提供对 999/112 公共紧急呼叫服务的访问。 但是，拨打999或112的紧急电话与与传统电话服务相比，Microsoft 365 或 Office 365 呼叫计划服务的运行方式有所不同。 客户需要通知这些差异的 Microsoft 365 或 Office 365 通话计划服务的每个用户。
 
-不同之处包括：（i） Skype for business 可能不知道呼叫方的实际位置，这可能会导致紧急服务被 despatched 到错误的位置;（ii）当 Skype for Business 用户拨打紧急电话时，用户可能会被运营商要求提供他或她的当前位置，以帮助正确地传送紧急呼叫和 despatching 紧急服务;（iii）如果用户的设备没有电源，或者由于任何原因而无法访问 Internet，则用户无法通过 Office 365 通话计划服务进行紧急呼叫;和（iv）虽然可在 Internet 连接可用的世界任何地方使用 Office 365 通话计划服务，但用户不应呼叫999或112境外、威尔士、苏格兰或北爱尔兰，因为呼叫可能不会被路由到相应的紧急服务。
+不同之处包括：（i） Skype for business 可能不知道呼叫方的实际位置，这可能会导致紧急服务被 despatched 到错误的位置;（ii）当 Skype for Business 用户拨打紧急电话时，用户可能会被运营商要求提供他或她的当前位置，以帮助正确地传送紧急呼叫和 despatching 紧急服务;（iii）如果用户的设备没有电源，或者由于任何原因而无法访问 Internet，则用户无法通过 Microsoft 365 或 Office 365 通话计划服务进行紧急呼叫;和（iv）虽然 Microsoft 365 和 Office 365 通话计划服务可以在 Internet 连接可用的任何地方使用，但用户不应呼叫999或112、苏格兰、苏格兰或北爱尔兰，因为呼叫可能不会路由到相应的紧急服务。
 
 每位客户应注册用户的位置并使此信息保持在最新状态下，以便向紧急服务中心提供此信息，这一点非常重要。你可以通过 Skype for Business 管理员门户在线更改位置信息。
 

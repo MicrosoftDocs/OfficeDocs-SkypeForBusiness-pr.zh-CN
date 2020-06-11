@@ -11,33 +11,33 @@ ms.collection:
 ms.reviewer: lsomi
 localization_priority: Normal
 search.appverid: MET150
-description: 使用本指南可以将 Microsoft 团队作为您的第一个 Office 365 工作负荷。
+description: 使用本指南，可以将 Microsoft 团队作为您的第一次 Microsoft 365 或 Office 365 工作负荷推出。
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 647f6879f7892c1a65599832e48deb67e183fae0
-ms.sourcegitcommit: bdafa1f4146e615d325e27a50352f10c0d51ef1a
+ms.openlocfilehash: 84408fdb6d58e755d0eb4c775d1954f22791264c
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44472343"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690998"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>首先部署 Microsoft 团队
 
-Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是在当前空前的时间，远程工作是世界各地员工的现实。 能够聊天、进行视频会议和协作处理团队中的 Office 文档可帮助公司保持高效。 无论您是小型企业、非盈利性组织还是大型组织，您都可以在部署任何其他 Office 应用或服务之前，开始将团队作为 Office 365 套件中的第一工作负荷。
+Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是在当前空前的时间，远程工作是世界各地员工的现实。 能够聊天、进行视频会议和协作处理团队中的 Office 文档可帮助公司保持高效。 无论您是小型企业、非盈利性或大型组织，您都可以在部署任何其他 Office 应用或服务之前，开始将团队作为 Microsoft 365 或 Office 365 套件中的第一工作负荷。
 
 本文详细介绍了 "团队优先" 方法中必须执行的注意事项。
 
 > [!IMPORTANT]
 > 尽管团队可以是你的组织的第一个云部署工作负载，但部署团队应该是整体云部署策略的一部分。
 
-如果你已推出其他 Office 365 服务，并且团队是你要推出的下一个工作负荷（而不是第一个），请首先向[团队推出](How-to-roll-out-teams.md)。
+如果你已推出其他 Microsoft 365 或 Office 365 服务，并且团队是你要推出的下一个工作负荷（而不是第一个），请首先向[团队推出](How-to-roll-out-teams.md)。
 
 ## <a name="start-here"></a>从这里开始
 
 若要开始使用你的团队首次部署，你需要至少满足某些预备先决条件。 以下列表将显示在启用团队之前你必须为你的组织设置的内容：
 
-1.  使用您的域名配置的 Office 365 组织
+1.  使用您的域名配置的 Microsoft 365 或 Office 365 组织
 
 2.  Azure Active Directory 连接（AAD connect）或类似的云标识同步解决方案-与你的租户同步的所有必需属性  
     若要了解与 AAD 同步同步的属性，请参阅[AZURE AD Connect 同步：属性同步到 Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
@@ -48,7 +48,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
 4.  为团队准备的组织网络  
     若要了解网络准备，请阅读为[团队准备组织的网络](prepare-network.md)。
 
-5.  允许 Office 365 中的 Exchange、Sharepoint 和 OneDrive for business 的网络访问： [office 365 url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
+5.  允许在 Microsoft 365 或 Office 365 中对 Exchange、Sharepoint 和 OneDrive for business 进行网络访问： [office 365 url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!NOTE]
 > 在2019年9月1日之后创建的租户将在 "仅团队" 模式下预配。
@@ -58,7 +58,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
 
 ## <a name="migration-starting-points"></a>迁移起始点
 
-根据您的起点和在本地 Skype for business 或 Lync server 的存在，您可以在团队中使用 Office 365 和功能。 除了上述先决条件之外，以下部分还将详细介绍基本功能和配置选项。 我们已将起始点方案分解为以下主题：
+根据您的起点和在本地 Skype for business 或 Lync server 中的存在，您可以在团队中使用 Microsoft 365 或 Office 365 和功能。 除了上述先决条件之外，以下部分还将详细介绍基本功能和配置选项。 我们已将起始点方案分解为以下主题：
 
 **租户团队配置**：租户和用户模式用于控制收件人的行为。 可以在组织中的租户级别或用户级别分配这些设置。 若要了解详细信息，请阅读[Skype For Business 共存](coexistence-chat-calls-presence.md)。
 
@@ -88,7 +88,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
 
 ## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>**<span class="underline">没有</span>** Skype for Business 或 Lync 服务器的组织
 
-此起始点假定你的组织不利用 Skype for Business 或 Lync server，当前和团队将是 Office 365 中的第一个应用程序。 下表详细介绍了适用于核心服务的团队的高级配置和最终用户功能。
+此起始点假定你的组织不利用 Skype for Business 或 Lync server，当前和团队将成为 Microsoft 365 或 Office 365 中的第一个应用程序。 下表详细介绍了适用于核心服务的团队的高级配置和最终用户功能。
 
 <table>
 <thead>
@@ -104,9 +104,9 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
 </tr>
 <tr class="even">
 <td>团队中的聊天/外部通信</td>
-<td><p>内部（Office 365 内部组织）和团队外部聊天通信</p>
-<p><em>注意：必须为外部访问配置 DNS 条目。 即使您在本地或 Office 365 中没有 Skype for business，也可以使用 skype for business DNS 记录来允许与 Lync 和 Skype for business 环境进行联盟。<br />
-<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">Office 365 的外部域名系统记录</a></em></p></td>
+<td><p>来自团队的内部（Microsoft 365 或 Office 365 组织中）和外部聊天通信</p>
+<p><em>注意：必须为外部访问配置 DNS 条目。 即使你没有在本地使用 skype for business 或在 Microsoft 365 或 Office 365 中使用 skype for business DNS 记录，也可以允许与 Lync 和 Skype for business 环境进行联盟。<br />
+<a href="https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records">外部域名系统记录</a></em></p></td>
 </tr>
 <tr class="odd">
 <td><em>在团队中创建和查看会议</em></td>
@@ -162,11 +162,11 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
     
     [Microsoft Teams 采用快速入门清单](teams-adoption-quick-start-checklist.md)
 
-6.  开始规划将其他工作负荷移动到 Office 365
+6.  开始规划将其他工作负荷移动到 Microsoft 365 或 Office 365
 
 ## <a name="organizations-span-classunderlinewithspan-skype-for-business-or-lync-server"></a>具有 Skype for Business 或 Lync 服务器**<span class="underline">的</span>** 组织
 
-此起始点假定你的组织使用 Skype for Business 2019 或 2015 + 或 Lync 2013 + server 内部部署。 对于从本地服务器迁移到团队的组织，我们已经有了详细指南，应遵循这些方案。 本指南特定于团队是你在 Office 365 中使用的第一个应用程序的方案。 下表详细介绍了适用于核心服务的团队的高级配置和最终用户功能。
+此起始点假定你的组织使用 Skype for Business 2019 或 2015 + 或 Lync 2013 + server 内部部署。 对于从本地服务器迁移到团队的组织，我们已经有了详细指南，应遵循这些方案。 本指南特定于团队是你在 Microsoft 365 或 Office 365 中使用的第一个应用程序的方案。 下表详细介绍了适用于核心服务的团队的高级配置和最终用户功能。
 
 <table>
 <thead>
@@ -244,7 +244,7 @@ Microsoft 团队可以帮助你的员工彼此保持联系并协作，尤其是�
     [采用 Microsoft Teams](adopt-microsoft-teams-landing-page.md)<br/>
     [Microsoft Teams 采用快速入门清单](teams-adoption-quick-start-checklist.md)
 
-6.  开始规划将其他工作负荷移动到 Office 365
+6.  开始规划将其他工作负荷移动到 Microsoft 365 或 Office 365
 
 7.  建立 Skype for business 混合，并按照推荐的升级路径进行 Skype for Business 和 Lync 服务器  
     [从本地 Skype for Business 升级到团队](upgrade-to-teams-execute-skypeforbusinesshybridonprem.md)
@@ -275,7 +275,7 @@ Microsoft 团队可以是你的组织的一个启用码，以将所有员工、�
 
 ## <a name="support-services-reference"></a>支持服务参考
 
-团队依赖于 Exchange Online、SharePoint Online、OneDrive for Business 和 Microsoft 365 组，以便为你的用户提供完全集成的 Office 365 体验。 如上所述，团队将在不完全部署这些服务的情况下正常工作-但功能有限。 你可以在此处阅读有关团队及其先决条件的详细信息：[欢迎使用团队](teams-overview.md)。
+团队依赖于 Exchange Online、SharePoint Online、OneDrive for Business 和 Microsoft 365 组，以便为你的用户提供完全集成的 Microsoft 365 或 Office 365 体验。 如上所述，团队将在不完全部署这些服务的情况下正常工作-但功能有限。 你可以在此处阅读有关团队及其先决条件的详细信息：[欢迎使用团队](teams-overview.md)。
 
 有关以上列出的每项服务的详细信息，请访问以下链接：
 
@@ -297,4 +297,4 @@ Microsoft 团队可以是你的组织的一个启用码，以将所有员工、�
 
 [支持使用团队的远程工作人员](support-remote-work-with-teams.md)
 
-[使用 Office 365 远程工作](https://aka.ms/remote-work)
+[使用 Microsoft 365 远程工作](https://aka.ms/remote-work)

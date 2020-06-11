@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25b7163da92323a0695031a61d93895779a5ded7
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637711"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689808"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -139,7 +139,7 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 - 检查用户是否具有允许 Outlook 加载项使用的团队会议策略。 有关详细信息，请参阅[管理团队中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)。
 - 确保用户安装了团队桌面客户端。 如果仅使用团队 web 客户端，则不会安装会议外接程序。
 - 确保用户安装了 Outlook 2013 或更高版本。
-- 请确保用户具有执行 regsvr32 的权限。
+- 请确保用户具有执行 regsvr32.exe 的权限。
 - 确保已应用 Outlook 桌面客户端的所有可用更新。
 - 请按以下步骤操作：
   - 重启 Teams 桌面客户端。
@@ -161,7 +161,7 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 > [!NOTE]
 > 错误地编辑注册表可能会严重损坏你的系统。 在对注册表进行更改之前，应备份计算机上的任何重要数据。
-- 启动 RegEdit
+- 启动 RegEdit.exe
 - 导航到 HKEY_CURRENT_USER \Software\Microsoft\Office\Outlook\Addins
 - 验证 TeamsAddin 是否存在。
 - 在 TeamsAddin 内，验证 LoadBehavior 是否存在并设置为3。
@@ -169,4 +169,6 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 
 ### <a name="delegate-scheduling-does-not-work"></a>代理人计划不起作用
 
-若管理员已配置 Microsoft Exchange 来[控制对 Exchange Web Server (EWS) 的访问](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，则代理无法代表上级安排 Teams 会议。 此配置的解决方案正在开发中，未来将予以发布。 
+若管理员已配置 Microsoft Exchange 来[控制对 Exchange Web Server (EWS) 的访问](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，则代理无法代表上级安排 Teams 会议。 此配置的解决方案正在开发中，未来将予以发布。 作为解决方法，管理员可以将以下字符串添加到 EWS 允许列表： "*SchedulingService*"。 
+
+

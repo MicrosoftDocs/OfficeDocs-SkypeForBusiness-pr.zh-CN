@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ef9ca9a5f03ecffe1460a24db186a266fd4a84c
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 8bb6f5a682b816e04e03694788fbdcf48ad897b5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326669"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690988"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 会议的基于团队政策的录制简介
 
@@ -217,7 +217,7 @@ IT 管理员可以通过创建和分配合规性录制策略来确定要录制�
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |良好 |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
-|红色框 |[https://hubs.ly/H0qtN7Q0](https://hubs.ly/H0qtN7Q0)  |
+|红色框 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 
 此列表将随着更多合作伙伴加入和满足认证标准而更新。

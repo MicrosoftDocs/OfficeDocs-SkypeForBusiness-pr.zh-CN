@@ -18,12 +18,12 @@ description: 在 Teams 中为实时事件进行设置，包括设置网络、分
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: df54e90f2c895ebf7090fbec2487aae52bd53d66
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2e865fe2285abb9cd515d1efe769f18cb5735ff2
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779951"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689668"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -99,7 +99,7 @@ ms.locfileid: "43779951"
 
 1. 为组织中的用户启用 Microsoft Stream。 流可作为符合条件的 Microsoft 365 或 Office 365 订阅的一部分，或用作独立服务。 Stream 未包含在商业协作版或商业高级版计划中。 有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。
 
-      深入了解如何[将许可证分配给 Office 365 中的用户](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Stream。 请确保不会阻止用户使用 Stream，正如[此文](https://docs.microsoft.com/stream/disable-user-organization)中所述。
+      了解有关如何[为用户分配许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)以便用户可以访问流的详细信息。 请确保不会阻止用户使用 Stream，正如[此文](https://docs.microsoft.com/stream/disable-user-organization)中所述。
 
 2. 确保用户在 Stream 中具有实时事件创建权限。 默认情况下，管理员可以使用外部应用或设备创建事件。 Stream 管理员可以在 Stream 中[允许其他用户创建实时事件](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)。  
 

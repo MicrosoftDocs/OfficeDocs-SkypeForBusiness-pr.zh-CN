@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解如何在 Microsoft Teams 中启用或禁用用户是否可以在加入会议时录制其姓名。
-ms.openlocfilehash: f6d1f8ea0ef015e4d951fbf3bbe124263a3b9a1f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d7cab4fca4ad3e7732704da9837522d51314061d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141215"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691578"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>在 Microsoft Teams 中让用户能够在加入会议时录制其姓名
 
-当你在 Office 365 中设置音频会议时，你将收到电话号码以及所谓的音频会议网桥。 会议网桥可以包含一个或多个电话号码，这些电话号码可以是专用或共享电话号码。
+当您在 Microsoft 365 或 Office 365 中设置音频会议时，您将收到电话号码和 "音频会议桥"。 会议网桥可以包含一个或多个电话号码，这些电话号码可以是专用或共享电话号码。
   
 会议网桥负责应答使用电话拨入会议的用户的呼叫。 会议网桥通过来自自动助理的语音提示应答呼叫者，然后根据其设置，可以播放通知、让呼叫者录制其姓名以及为会议组织者设置 PIN 安全。 将向会议组织者提供 PIN 以允许他们启动会议。 但你可以设置不需要使用 PIN 即可启动会议。
 
@@ -55,7 +55,7 @@ ms.locfileid: "43141215"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
@@ -65,4 +65,4 @@ Windows PowerShell Office 365 的功能是管理用户以及允许或不允许�
   
 ## <a name="related-topics"></a>相关主题
 
-[试用或购买 Office 365 中的音频会议](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[试用或购买音频会议](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcc9aa13f80a090d65bd51c00b797c2a2ad63c61
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fc1619a751bc6e800ac038486b844de748c6b0b6
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523325"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691038"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype for business 共存和互操作性
 
@@ -54,7 +54,7 @@ ms.locfileid: "44523325"
 
 ### <a name="islands-mode"></a>孤岛模式
 
-默认情况下，用户可以将 Skype for Business 中的团队作为两个单独的解决方案一起运行，提供类似的和重叠的功能，如状态、聊天、通话和会议。 团队用户还可以利用新的协作功能，如团队和频道、访问 Office 365 中的文件和应用程序。
+默认情况下，用户可以将 Skype for Business 中的团队作为两个单独的解决方案一起运行，提供类似的和重叠的功能，如状态、聊天、通话和会议。 团队用户还可以利用新的协作功能，如团队和频道、访问 Microsoft 365 或 Office 365 中的文件以及应用程序。
 
 在此共存模式（名为 "**岛**"）中，每个客户端应用程序都作为单独的岛运行。 Skype for business 与 Skype for Business 交谈，团队与团队进行协作。 用户应始终运行这两个客户端，并且可以在发起通信的客户端中以本机方式进行通信。 因此，无需在**孤岛**模式下实现互操作。
 
@@ -91,7 +91,7 @@ ms.locfileid: "44523325"
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>具有团队协作的 Skype for Business
 
-使用此模式可在你的环境中引入团队，同时继续利用 Skype for Business 中的现有投资。 在此模式下，你可以让 Skype for Business 保持不变，以便聊天、通话和会议功能，并添加团队协作功能-团队和频道，在 Office 365 和应用程序中访问文件。 团队通信功能（私人聊天、通话和安排会议）在此模式下默认情况下处于关闭状态。
+使用此模式可在你的环境中引入团队，同时继续利用 Skype for Business 中的现有投资。 在此模式下，你可以让 Skype for Business 保持不变，以便聊天、通话和会议功能，并添加团队协作功能-团队和频道，在 Microsoft 365 或 Office 365 以及应用程序中访问文件。 团队通信功能（私人聊天、通话和安排会议）在此模式下默认情况下处于关闭状态。
 
 在本地或混合使用 Skype for business Server 起点的组织应将此模式视为**孤岛**模式的备用模式（如果他们希望为其用户提供其通信的互操作性和可预见性），以及为团队升级的可预测时间线（而不是在**岛**模式下依赖采纳的饱和度）。
 
@@ -142,7 +142,7 @@ Skype for Business 用户可以与团队用户进行一对一的语音和视频�
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> 使用 Skype for Business 的本地部署的互操作体验要求本地环境处于 Office 365 Skype for Business 的混合模式中。 有关详细信息，请参阅[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)。
+> 使用 Skype for Business 的本地部署的互操作体验要求本地环境与 Microsoft 365 或 Office 365 Skype for business 采用混合模式。 有关详细信息，请参阅[迁移和互操作性指南](https://aka.ms/SkypeToTeams-Interop)。
 
 这些互操作体验在以下情况下适用于已分配以下共存模式之一的用户： **skype for business 与团队协作**、**使用团队协作和会议的 skype**for business、**仅 Skype**for business 或**仅限团队**。 在**孤岛**模式下不存在与用户的互操作性。
 

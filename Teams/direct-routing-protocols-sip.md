@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a66213214457648ec0b699d77bdadc96113fba27
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780681"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691218"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由-SIP 协议
 
@@ -30,7 +30,7 @@ ms.locfileid: "43780681"
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>处理传入请求：查找租户和用户
 
-在传入呼叫中，SIP 代理需要找到呼叫指向的租户，并在此租户内找到特定用户。 租户管理员可以在多个租户中配置非已完成号码（例如 + 1001）。 因此，查找要在其上执行数字查找的特定租户非常重要，因为在多个 Office 365 组织中，非工作号码可能是相同的。  
+在传入呼叫中，SIP 代理需要找到呼叫指向的租户，并在此租户内找到特定用户。 租户管理员可以在多个租户中配置非已完成号码（例如 + 1001）。 因此，查找要在其上执行数字查找的特定租户非常重要，因为在多个 Microsoft 365 或 Office 365 组织中的非数字可能相同。  
 
 本部分介绍 SIP 代理如何查找租户和用户，并对传入连接执行 SBC 身份验证。
 
@@ -56,11 +56,11 @@ ms.locfileid: "43780681"
 
 2. 尝试使用在联系人标题中显示的完整 FQDN 名称查找租户。  
 
-   检查联系人标题（sbc1.adatum.biz）中的 FQDN 名称是否注册为任何 Office 365 组织中的 DNS 名称。 如果找到，将在具有注册为域名的 SBC FQDN 的租户中执行用户查找。 如果未找到，则应用步骤3。   
+   检查联系人标题（sbc1.adatum.biz）中的 FQDN 名称是否注册为任何 Microsoft 365 或 Office 365 组织中的 DNS 名称。 如果找到，将在具有注册为域名的 SBC FQDN 的租户中执行用户查找。 如果未找到，则应用步骤3。   
 
 3. 步骤3仅适用于步骤2失败的情况。 
 
-   从 FQDN 中删除主机部分，显示在联系人标头（FQDN： sbc12.adatum.biz 中，删除主机部分后的内容： adatum.biz），然后检查此名称是否注册为任何 Office 365 组织中的 DNS 名称。 如果找到，将在此租户中执行用户查找。 如果找不到，调用将失败。
+   从 FQDN 中删除主机部分，显示在联系人标头（FQDN： sbc12.adatum.biz 中，删除主机部分后： adatum.biz），然后检查此名称是否注册为任何 Microsoft 365 或 Office 365 组织中的 DNS 名称。 如果找到，将在此租户中执行用户查找。 如果找不到，调用将失败。
 
 4. 使用请求 URI 中显示的电话号码，在步骤2或3中发现的租户内执行反向号码查找。 将所提供的电话号码与上一步中找到的租户内的用户 SIP URI 相匹配。
 
@@ -82,7 +82,7 @@ ms.locfileid: "43780681"
 
 在[RFC 2818 的第3.1 节](https://tools.ietf.org/html/rfc2818#section-3.1)中介绍了对通配符的支持。 具体地说
 
-*"名称可以包含通配符，该\*字符被视为匹配任何单个域名组件或组件片段。例如， \*a.com 匹配 foo.a.com，而不是 bar.foo.a.com。\*foo.com 匹配 "bar.com"，而不是 ""。*
+*"名称可以包含通配符， \* 该字符被视为匹配任何单个域名组件或组件片段。例如， \* a.com 匹配 foo.a.com，而不是 bar.foo.a.com \* 匹配 foo.com，而不是 bar.com。 "*
 
 如果由 SBC 发送 SIP 消息中显示的联系人标头中的多个值，则仅使用联系人标头第一个值的 FQDN 部分。
 

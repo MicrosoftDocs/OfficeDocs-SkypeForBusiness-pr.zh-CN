@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何启用 Microsoft 手机系统直接路由用户。
-ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160056"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691368"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>为用户启用直接路由、语音和语音邮件
 
@@ -37,17 +37,17 @@ ms.locfileid: "43160056"
 
 准备好为用户启用直接路由时，请按照下列步骤操作： 
 
-1. 在 Office 365 中创建用户并分配电话系统许可证。 
+1. 在 Microsoft 365 或 Office 365 中创建用户并分配电话系统许可证。 
 2. 确保用户托管在 Skype for Business Online 中。 
 3. 配置电话号码并启用企业语音和语音邮件。 
 4. 向用户分配 "仅团队" 模式。
 
-## <a name="create-a-user-in-office-365-and-assign-the-license"></a>在 Office 365 中创建用户并分配许可证 
+## <a name="create-a-user-and-assign-the-license"></a>创建用户并分配许可证 
 
-在 Office 365 中创建新用户有两个选项。 但是，Microsoft 建议你的组织选择一个选项来避免路由问题： 
+有两个选项可用于在 Microsoft 365 或 Office 365 中创建新用户。 但是，Microsoft 建议你的组织选择一个选项来避免路由问题： 
 
 - 在本地 Active Directory 中创建用户并将用户同步到云。 请参阅[将本地目录与 Azure Active Directory 集成](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。
-- 直接在 Office 365 管理员门户中创建用户。 请参阅[向 Office 365 单独或批量添加用户-管理员帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
+- 直接在 Microsoft 365 管理中心创建用户。 请参阅[将用户逐个或批量添加到 Microsoft 365 或 Office 365-管理员帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
 
 如果您的 Skype for Business Online 部署 coexists 使用 Skype for business 2015 或 Lync 2010 或本地2013，则唯一支持的选项是在本地 Active Directory 中创建用户并将用户与云同步（选项1）。 
 

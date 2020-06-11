@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc7e3124ec3ec97e3f3643412ccb4f990ab825cc
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 24268206ee4f325d3b80f315f1125cfff5d0fbad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638401"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691588"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>团队的动态成员资格概述
 
@@ -43,13 +43,13 @@ Microsoft 团队可能会从几分钟到最多2小时的时间，以反映动态
 > - 所有者将无法将用户添加或删除为团队成员，因为成员由动态组规则定义。
 > -    成员将无法退出由动态组支持的团队。
 
-
 ## <a name="creating-and-managing-a-microsoft-365-group-with-dynamic-membership"></a>使用动态成员身份创建和管理 Microsoft 365 组
+
 以租户管理员身份登录时，按照[创建动态组和检查状态](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-create-rule)中的说明进行操作。 根据需要，请参阅[Azure Active Directory 中的组的动态成员身份规则](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership)。
 
-## <a name="create-a-new-team-with-your-o365-group"></a>使用 O365 组创建新团队
+## <a name="create-a-new-team-with-your-microsoft-365-group"></a>使用 Microsoft 365 组创建新团队
 
-现在，允许成员身份更改生效，并创建新团队，如[使用 Microsoft 团队增强现有 Microsoft 365 组](enhance-office-365-groups.md)中所述。
+现在，允许成员身份更改生效，并按照[从现有组创建团队](https://support.microsoft.com/en-us/office/create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865)中所述创建新团队。
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>将动态成员身份应用于现有团队
 

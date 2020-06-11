@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31f7c64e9e3d6587cd0f53a8672fb7c0dda88d0b
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 3eae061b901bba6fe7bf4208f6498597d824d363
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522805"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689458"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 团队
 
@@ -48,7 +48,7 @@ ms.locfileid: "44522805"
 若要实现团队的最大好处和业务成果，用户必须实际使用它。 但是，wane 和用户的初始兴奋往往可以轻松地恢复到过去的工作方式。 通过正在进行的采纳计划为团队鼓励用户采纳和保持兴奋，其中包括：
 
 - 登记对等拥护机以帮助布道和鼓励其他用户。
-- 检查[Office 365 采纳指南](https://go.microsoft.com/fwlink/?linkid=859045)，了解有关提升活动和推动采纳的提示。
+- 检查[Microsoft 365 采纳指南](https://go.microsoft.com/fwlink/?linkid=859045)，了解有关提升服务和推动采纳的提示。
 - 利用[团队客户成功工具包](https://aka.ms/TeamsCustomerSuccess)增强意识并分享最佳做法。
 - 实施正式的[采纳和更改管理策略](http://www.successwithteams.com/)以帮助保持采用增长。
 

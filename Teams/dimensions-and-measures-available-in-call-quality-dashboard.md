@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板使用的维度和度量的详细信息。
-ms.openlocfilehash: 93e7857c2e63f7b13986898ac8e9973c2be189de
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 2dfef2dbe1bb94574911ab94d8da0cff50410592
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232583"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691278"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>"呼叫质量" 仪表板中可用的尺寸和测量
 
@@ -121,8 +121,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | First Inside Corp  | 枚举 <br/>**可能的值：** <br/> 内部、外部  | 指示第一个终结点是否位于企业网络内的子网上，具体取决于将子网映射到租户生成数据。 默认情况下，认为终结点位于外部。 <br/> **示例值：** 置于 | |
 | Second Inside Corp  | 枚举 <br/> **可能的值：** <br/> 内部、外部 | 指示第二个终结点是否位于企业网络内的子网上，具体取决于将子网映射到租户生成数据。 默认情况下，认为终结点位于外部。 <br/>**示例值：** 置于  |  |
 |**Deployment**| | | |
-| First Tenant Id  | 字符串  | 第一终结点的 Office 365 租户 ID。 <br/> **示例值：** 00000000 （0000-0000-0000）-000000000000  | <br/>&bull;无法确定第一个终结点的租户 id。 这可能表示终结点已登录到内部部署的 Skype for business 服务器部署。  |
-| Second Tenant Id  | String  | 第二终结点的 Office 365 租户 ID。 <br/> **示例值：** 00000000 （0000-0000-0000）-000000000000  |  <br/>&bull;无法确定第二终结点的租户 id。 这可能表示终结点已登录到内部部署的 Skype for business 服务器部署。  |
+| First Tenant Id  | 字符串  | 第一个终结点的租户 ID。 <br/> **示例值：** 00000000 （0000-0000-0000）-000000000000  | <br/>&bull;无法确定第一个终结点的租户 id。 这可能表示终结点已登录到内部部署的 Skype for business 服务器部署。  |
+| Second Tenant Id  | String  | 第二终结点的租户 ID。 <br/> **示例值：** 00000000 （0000-0000-0000）-000000000000  |  <br/>&bull;无法确定第二终结点的租户 id。 这可能表示终结点已登录到内部部署的 Skype for business 服务器部署。  |
 | First Pool  | String  | 分配给第一终结点的 Skype for Business Online 池 FQDN <br/> **示例值：** pool1 <span></span> <span></span>  | <br/>&bull;指示终结点已登录到 Microsoft 团队或 Skype for Business。 将仅为使用内部部署 Skype for Business 服务器部署的流填充此字段。 |
 | Second Pool  | String  | 分配给第二终结点的 Skype for Business Online 池 FQDN <br/> **示例值：** <span>pool1.lync.com</span>   | &bull;无法确定第二终结点的 Skype for Business Online 池。 这可能表示终结点已登录到内部部署的 Skype for business 服务器部署。  |
 | Is Federated  | Boolean  | 如果流在两个联合租户之间，则为 True，否则为 False。   | <br/>&bull;无法确定它是否是联合流 <br/>&bull;未收集某些信号数据   |
@@ -455,7 +455,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 
 按范围或分组表示的维度值使用以下格式显示：
 
- _\<排序顺序字符串 \> [下限 \< 非独占 \>  -  \< 上限\>_
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
 
 例如，持续时间（分钟）维度表示以分钟为单位的通话持续时间，报告的值以取值范围的形式表示。
 
@@ -467,7 +467,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 |066： [3 –4） |3 分钟 < = 流持续时间 < 4 分钟 |
 |  | |
 
-\<排序顺序字符串> 用于在呈现数据时控制排序顺序，并且可用于筛选。 For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected).
+The \<sort order string> is used to control the sort order when presenting the data and can be used for filtering. For example, a filter on Duration (Minutes) < "065", would show streams with duration less than 2 minutes (The leading '0' is needed for the filter to work as expected).
 
 > [!NOTE]
 > [!注释] 排序字符串的实际值并不重要。
@@ -480,7 +480,7 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 
 按枚举对表示的维度使用以下格式显示：
 
- _\<一个终结点的枚举值 \> ： \< 来自其他终结点的枚举值\>_
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
 
 枚举值的顺序一致，但此顺序不反映第一或第二终结点的顺序。
 
@@ -515,10 +515,10 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Total Answer Seizure Ratio |比率 |持续时间低于 5 秒钟的通话占通话总数的比率。 |
 |Total Short Call Percentage |百分比 |长时间不超过1分钟的通话总次数的百分比。 |
 |Total Media Failure Percentage |百分比 |媒体路径未能建立或未正常终止的所有流的百分比。 |
-|Media Failed Due To Firewall DPI Stream Count |流的数量 |由于深度包检测不允许 Skype for Business 流量导致网络设备阻止访问进而未能建立的流的数量。 这些故障通常意味着未正确将代理、防火墙或其他网络安全设备配置为允许访问 Office 365 中的 Skype for Business 使用的 IP 地址和端口。 |
-|Firewall DPI Media Failure Percentage |百分比 |由于深度包检测不允许 Skype for Business 流量导致网络设备阻止访问进而未能建立的流的百分比。 这些故障通常意味着未正确将代理、防火墙或其他网络安全设备配置为允许访问 Office 365 中的 Skype for Business 使用的 IP 地址和端口。 |
-|Media Failed Due To Firewall IP Blocked Stream Count |流的数量 |由于网络设备阻止访问 Skype for Business 服务器而未能建立的流的数量。这些故障通常意味着未正确将代理、防火墙或其他网络安全设备配置为允许访问 Office 365 中的 Skype for Business 使用的 IP 地址和端口。 |
-|Firewall IP Blocked Media Failure Percentage |百分比 |由于网络设备阻止访问 Skype for business 服务器而无法建立的数据流的百分比。 这些故障通常表示代理服务器、防火墙或其他网络安全设备未正确配置为访问 Office 365 中 Skype for Business 使用的 IP 地址和端口。 |
+|Media Failed Due To Firewall DPI Stream Count |流的数量 |由于深度包检测不允许 Skype for Business 流量导致网络设备阻止访问进而未能建立的流的数量。 这些故障通常表示代理、防火墙或其他网络安全设备未正确配置为访问 Microsoft 365 或 Office 365 中 Skype for Business 使用的 IP 地址和端口。 |
+|Firewall DPI Media Failure Percentage |百分比 |由于深度包检测不允许 Skype for Business 流量导致网络设备阻止访问进而未能建立的流的百分比。 这些故障通常表示代理、防火墙或其他网络安全设备未正确配置为访问 Microsoft 365 或 Office 365 中 Skype for Business 使用的 IP 地址和端口。 |
+|Media Failed Due To Firewall IP Blocked Stream Count |流的数量 |由于网络设备阻止访问 Skype for Business 服务器而未能建立的流的数量。 这些故障通常表示代理、防火墙或其他网络安全设备未正确配置为访问 Microsoft 365 或 Office 365 中 Skype for Business 使用的 IP 地址和端口。 |
+|Firewall IP Blocked Media Failure Percentage |百分比 |由于网络设备阻止访问 Skype for business 服务器而无法建立的数据流的百分比。 这些故障通常表示代理服务器、防火墙或其他网络安全设备未正确配置为访问 Microsoft 365 或 Office 365 中的 Skype for business 使用的 IP 地址和端口。 |
 | 媒体因其他流计数而失败|流的数量| 由于不确定/未分类原因而无法在终结点之间建立媒体路径的流的数量。| |
 | 其他媒体故障百分比|百分比| 由于不确定/未分类原因而无法在终结点之间建立媒体路径的流的百分比。 ||
 | CDR 可用通话计数总数|流的数量|可用可靠性/诊断信息的媒体流总数。 此度量值最多为0.2% 错误。 有关详细信息，请参阅下面的说明。|

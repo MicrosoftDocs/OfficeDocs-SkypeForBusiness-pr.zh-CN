@@ -15,12 +15,12 @@ description: 通过确定市场活动的关键利益干系人、业务成果、�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 396649f40a3e3413de67aea61eca7f2feb7dac4b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 93cc8c9b56381e656cbcfbe2c47aef0e10593e45
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778378"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690478"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>为 Microsoft Teams 制定变更管理策略
 =======================================================
@@ -61,8 +61,8 @@ Teams 变更管理最佳实践：
 |  |  |
 |---------|---------|
 |![执行发起人图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**执行发起人**是组织中的关键领导者，在推动员工采用过程中，他们的参与必不可少。 他们对公司文化的影响最大，可以积极传达新技术和方式的价值和优势。         |
-|![服务所有者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服务所有者**负责确保大家使用服务并从中获得价值。 在贵组织中安排服务所有者对于确保实现针对 Office 365 设定的业务目标而言非常重要。         |
-|![支持者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |得到组织中每个用户的认可是一项挑战。 **支持者**可以帮助化解此挑战，并在采用 Office 365 的过程中起到重要作用。 他们拥有丰富的知识、积极充实其专业知识且愿意提供同伴指导和协助。 他们会帮助在其部门或团队中实施 Office 365。         |
+|![服务所有者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服务所有者**负责确保大家使用服务并从中获得价值。 在组织内设置服务所有者对确保已实现为 Microsoft 365 或 Office 365 设置的业务目标非常重要。         |
+|![支持者图标。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |得到组织中每个用户的认可是一项挑战。 **拥护**程序可帮助缓解此挑战，并在采用 Microsoft 365 或 Office 365 时扮演重要角色。 他们拥有丰富的知识、积极充实其专业知识且愿意提供同伴指导和协助。 它们有助于将 Microsoft 365 或 Office 365 转换为其部门或团队的现实。         |
 
 我们建议与这些利益干系人定期召开会议，使其及时了解你的计划的进度。 启动 "协作委员会" 以允许反馈和讨论可能是一个非常有用的工具，具体取决于您的公司文化。
 
@@ -145,7 +145,7 @@ Teams 变更管理最佳实践：
 <a name="measure-and-share-success"></a>度量和分享成功
 -------------------------------------------------
 
-项目团队应包含你的组织的 IT 管理员。 这些人员将有权访问 Office 365 Microsoft 团队使用情况报表，这些报表内置于 Microsoft 365 管理中心体验中。 此信息可以显示 Microsoft Teams 在贵公司的使用情况。 我们还建议直接从用户获取关于 Teams 体验以及他们对使用的其他想法的反馈。 从自己公司内部共享这些实际示例对于在用户社区实现持续变更非常有价值。  
+项目团队应包含你的组织的 IT 管理员。 这些人将有权访问 microsoft 365 或 Office 365 Microsoft 团队使用情况报表，这些报表内置于 Microsoft 365 管理中心体验中。 此信息可以显示 Microsoft Teams 在贵公司的使用情况。 我们还建议直接从用户获取关于 Teams 体验以及他们对使用的其他想法的反馈。 从自己公司内部共享这些实际示例对于在用户社区实现持续变更非常有价值。  
 
 在[此处](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)了解有关 microsoft 365 管理中心中的 microsoft 团队使用情况报表的详细信息
 
@@ -154,8 +154,8 @@ Teams 变更管理最佳实践：
 
 ## <a name="ongoing-adoption"></a>持续采用
 
-在组织中推动变更是一项持续性的活动，而不是一次性活动。 启动会议只是鼓励用户更高效地协作的开端。 必须规划此旅程中的每一个时刻，例如重点介绍你的成功、引入新功能以及与整体 Office 365 服务策略（将由 IT 部门拟定草案）挂钩。 确保你的用户非常投入而不是不知所措，这将减少他们的变更疲劳，并支持他们放弃旧习惯（例如通过电子邮件发送附件），接受新做法（例如将文档存储在云中）。
+在组织中推动变更是一项持续性的活动，而不是一次性活动。 启动会议只是鼓励用户更高效地协作的开端。 在此旅程中安排时间，以突出显示你的成功、引入新功能以及与你的 IT 部门将创建的整个 Microsoft 365 或 Office 365 服务策略进行连接，这一点非常重要。 确保你的用户非常投入而不是不知所措，这将减少他们的变更疲劳，并支持他们放弃旧习惯（例如通过电子邮件发送附件），接受新做法（例如将文档存储在云中）。
 
-在 Microsoft 技术社区网站上的[推动采用社区](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)中分享有关 Teams 和 Office 365 服务采用的问题。 我们将在你的采用旅程中随时倾听你的意见并为你提供帮助。  
+在 Microsoft 技术社区网站上的 "[推动采纳社区](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)" 中分享有关团队和 microsoft 365 或 Office 365 的服务采纳的问题。 我们将在你的采用旅程中随时倾听你的意见并为你提供帮助。  
 
 

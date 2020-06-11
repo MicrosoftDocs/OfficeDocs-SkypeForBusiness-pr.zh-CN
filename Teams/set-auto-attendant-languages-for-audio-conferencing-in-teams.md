@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解如何在 Microsoft Teams 中针对音频会议号码选择音频会议自动助理语言。
-ms.openlocfilehash: 37d430ba641277c7b72f921b06599f58cff4e4a0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d7f6893bfc9c58131fe596597afc1ac90389d908
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140915"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691128"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在 Microsoft Teams 中设置音频会议自动助理语言
 
@@ -63,7 +63,7 @@ Microsoft Teams 的音频会议自动助理可以在音频呼叫者加入会议�
     
 - 语言可以设置为专用，但不能设置为共享电话号码。
     
-- 若要查看在 Office 365 中使用 Microsoft 作为提供程序的音频会议可用的国家/地区列表，请参阅[音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
+- 若要查看 Microsoft 365 或 Office 365 中使用 Microsoft 作为提供商的音频会议的国家/地区的列表，请参阅[音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
 
@@ -71,5 +71,5 @@ Microsoft Teams 的音频会议自动助理可以在音频呼叫者加入会议�
   
 ## <a name="related-topics"></a>相关主题
 
-[试用或购买 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

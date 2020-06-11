@@ -23,24 +23,24 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解如何使用 Microsoft 团队管理中心查看你的组织中的所有电话号码以及分配给用户或未分配的所有号码的列表。
-ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8ad4e0ce2949e2aa72d387aff167a433ec7c8150
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140955"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691168"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看组织中的电话号码列表
 
-有不同类型的电话号码可分配给用户或其他服务（服务号码），例如用于 Office 365 的音频会议。
+你可以向用户或其他服务（服务号码）分配不同类型的电话号码，例如 Microsoft 365 或 Office 365 中的音频会议。
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>查看贵组织拥有的所有电话号码的列表
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心**显示团队徽标的图标
+![](media/teams-logo-30x30.png)**使用 Microsoft 团队管理中心**显示团队徽标的图标
 
 1. 转到**Microsoft 团队管理中心**。
 
-2. 在左侧导航中，转到 "**语音** > **电话号码**"。
+2. 在左侧导航中，转到 "**语音**  >  **电话号码**"。
 
     > [!IMPORTANT]
     > 要在 Skype for Business 管理中心的左侧导航中看到 "**语音**" 选项，您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。
@@ -63,11 +63,11 @@ ms.locfileid: "43140955"
 
 设置用户时，你可能只想要查看已分配给用户的电话号码的列表以及可分配给他们的电话号码。
   
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心**显示团队徽标的图标
+![](media/teams-logo-30x30.png)**使用 Microsoft 团队管理中心**显示团队徽标的图标
 
 1. 转到**Microsoft 团队管理中心**。
 
-2. 在左侧导航中，转到 "**语音** > **电话号码**"。
+2. 在左侧导航中，转到 "**语音**  >  **电话号码**"。
 
     > [!IMPORTANT]
     > 要在 Microsoft 团队管理中心的左侧导航中看到 "**语音**" 选项，您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。
@@ -84,11 +84,11 @@ ms.locfileid: "43140955"
 
 当你在组织中设置用户以便拨打和接听电话呼叫时，必须首先获得电话号码，然后将其分配给用户。 获得您的电话号码后，您可能只想查看号码分配的激活状态。
 
-![](media/teams-logo-30x30.png) **使用 Microsoft 团队管理中心**显示团队徽标的图标！
+![](media/teams-logo-30x30.png)**使用 Microsoft 团队管理中心**显示团队徽标的图标！
   
 1. 转到**Microsoft 团队管理中心**。
 
-2. 在左侧导航中，转到 "**语音** > **电话号码**"。
+2. 在左侧导航中，转到 "**语音**  >  **电话号码**"。
 
     > [!IMPORTANT]
     > 要在 Microsoft 团队管理中心的左侧导航中看到 "**语音**" 选项，您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 呼叫共享和群组通话分拣允许用户与同事共享传入呼叫，以便可以在用户不可用时捕获呼叫。
-ms.openlocfilehash: 0e21f8ec8b9d913568b87a41b70261ac917260e2
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 97810336b55d6582a93eca04b832f2807073004a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638851"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690808"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams 中的呼叫共享和组内呼叫应答
 

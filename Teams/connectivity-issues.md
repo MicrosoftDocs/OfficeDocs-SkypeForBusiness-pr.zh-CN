@@ -17,17 +17,17 @@ description: 解决 Microsoft Teams 客户端的连接问题（主要由防火�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ee6cb916388dbfc0109185a0280da052980f8ccd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: cef20522784ba2d63d1461104a51f3148f48cf53
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137752"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689638"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>使用 Microsoft Teams 客户端解决连接性问题
 ==============================================================
 
-已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关 Microsoft Teams 所需的 URL 和 IP 的特定信息，请参阅 [Office 365 URL 和 IP 地址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支持文章。 以下方案需要在防火墙中打开特定 URL 和端口。
+已发现的有关 Microsoft Teams 客户端的大多数问题都可追溯到防火墙或代理连接。 验证是否在防火墙或代理中打开了所需的 URL、IP 地址和端口可最大程度地减少不必要的故障排除。 有关 Microsoft 团队所需的 Url 和 IPs 的特定信息，请参阅[microsoft 365 和 Office 365 url 和 IP 地址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支持文章。 以下方案需要在防火墙中打开特定 URL 和端口。
 
 -   身份验证
 

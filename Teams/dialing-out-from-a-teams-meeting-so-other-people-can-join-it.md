@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会议组织者可以了解如何使用 "团队" 应用拨出，让其他人可以使用他们的电话加入同一会议。
-ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901957"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691288"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 
@@ -45,7 +45,7 @@ ms.locfileid: "43901957"
 
 下面介绍了如何使用拨出功能：
 
- **步骤1：** 在会议中，使用 "添加人员" 按钮](media/add-people-button.png)选项的 "**添加人员** ![" 屏幕截图拨出电话号码。
+ **步骤1：** 在会议中，使用 "添加人员" 按钮选项的 "**添加人员**" ![ 屏幕截图 ](media/add-people-button.png) 拨出电话号码。
  **步骤2：** 输入完整的电话号码，包括 "**邀请他人或拨打号码**" 框中的国家/地区代码。
   
 !["邀请某人或拨打号码" 框的屏幕截图](media/invite-someone-box.png)
@@ -60,6 +60,6 @@ ms.locfileid: "43901957"
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要了解有关音频会议的详细信息？
 
-[试用或购买 Office 365 中的音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
 [Microsoft Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

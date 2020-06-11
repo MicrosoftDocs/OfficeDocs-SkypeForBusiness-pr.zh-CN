@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 35598c38ad80e7d1ed75c7aedce021d0d03d2765
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 32a334f4866c1874f60e85e3b74908f161d45a33
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326709"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691548"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>排查 Microsoft Teams 中的来宾访问问题
 ======================================================
@@ -35,7 +35,7 @@ ms.locfileid: "44326709"
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>如果来宾看到许可证错误
 
-Teams 中的来宾访问功能使用 Azure Active Directory (Azure AD) 企业对企业 (B2B) 及其许可模式。 所有 Microsoft 365 商业标准版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Office 365 许可证。
+Teams 中的来宾访问功能使用 Azure Active Directory (Azure AD) 企业对企业 (B2B) 及其许可模式。 所有 Microsoft 365 商业标准版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 或 Office 365 许可证。
 
 > [!NOTE]
 > 必须在来宾的家庭租户上启用团队，来宾才能以其他（资源）租户的来宾身份登录和使用团队。
@@ -44,7 +44,7 @@ Teams 中的来宾访问功能使用 Azure Active Directory (Azure AD) 企业对
 
 
 - 来宾许可证计入邀请组织。 在计算所需的许可证数量时，请注意这一点。
-- 根据您的组织统计许可证，无论受邀的来宾来自其他 Office 365 组织还是使用其个人电子邮件地址。
+- 根据您的组织统计许可证，无论受邀的来宾来自另一个 Microsoft 365 或 Office 365 组织还是使用其个人电子邮件地址。
 
 ## <a name="support-for-b2b-user-types"></a>支持 B2B 用户类型
 目前，Teams 只支持 [Azure B2B 定义的](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)状态 1 和状态 2 类型来宾用户。

@@ -17,12 +17,12 @@ description: 确定哪种 Microsoft Phone 系统通话计划最适合你的组�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 46a985247acaf80c228e19dc8ba38cfb1085308e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905024"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691408"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>哪种通话套餐适合你？ 
 
@@ -35,8 +35,8 @@ ms.locfileid: "43905024"
 
 以下文章提供了有关部署和使用 Microsoft 通话计划的详细信息：
 
-- [Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
-- [Office 365 通话套餐](calling-plans-for-office-365.md)
+- [Microsoft 365 或 Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
+- [Microsoft 365 或 Office 365 的通话计划](calling-plans-for-office-365.md)
 - [设置通话套餐](set-up-calling-plans.md)
 
 
@@ -52,19 +52,19 @@ ms.locfileid: "43905024"
 |询问你自己|操作 |
 |------------|-------|
 |我所在区域是否有通话计划？ 哪些用户位置将具有呼叫计划服务？ | 有关详细信息，请参阅[音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 | 
-我的用户是否需要国际通话？ | 有关详细信息，请参阅[Office 365 的呼叫计划](calling-plans-for-office-365.md)。 |
+我的用户是否需要国际通话？ | 有关详细信息，请参阅[调用 Microsoft 365 或 Office 365 的计划](calling-plans-for-office-365.md)。 |
 我的用户是否有通话计划许可证？ | 要购买和分配许可证，请参阅[步骤2：购买和分配许可证](set-up-calling-plans.md#step-2-buy-and-assign-licenses)。 |
 我的用户是否每个都有直接拨入电话号码？ | 若要获取电话号码，请参阅[步骤3：获取电话号码](set-up-calling-plans.md#step-3-get-phone-numbers)。 |
 |||
 
-### <a name="transfer-phone-numbers-to-office-365"></a>将电话号码转接到 Office 365
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>将电话号码转移到 Microsoft 365 或 Office 365
 
 将您的电话号码从当前服务提供商转移到团队非常简单。 将您的电话号码移植到团队后，Microsoft 将成为您的服务提供商，并向您收取这些电话号码。 有关详细信息，请参阅[将电话号码转移给团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>电话号码和紧急位置
 
-使用 Office 365 中的呼叫计划，您的组织中的每个用户都需要有一个唯一的直接向内拨号（已拨）电话号码和相应的已验证的紧急地址。 您还可以指定紧急地址内的紧急位置（例如，办公室号码或楼层号）。 
+使用 Microsoft 365 或 Office 365 中的呼叫计划，组织中的每个用户都需要具有唯一的直接向内拨号（已拨）电话号码和相应的验证紧急地址。 您还可以指定紧急地址内的紧急位置（例如，办公室号码或楼层号）。 
 
 |询问你自己|操作 |
 |:------------|:-------|

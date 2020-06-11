@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ea5bce539ff178130910297a47add38464e4d4
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 1ab528740947fa7efdd0608cec309757c3bb5eb2
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558522"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689718"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
@@ -79,7 +79,7 @@ ECDN 的目标是从 internet 获取视频内容，并在整个企业中分发�
 - [渐变](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>与会者体验 
-与会者体验是实时事件的最重要的方面，并且很重要的是与会者无需任何问题即可参与实时事件。 与会者体验使用流式播放机（适用于团队中生成的事件）和 Azure 媒体播放器（对于在外部应用或设备中生成的事件），并跨桌面、浏览器和移动设备（iOS、Android）工作。 Office 365 将 Yammer 和团队作为两个协作中心提供，并将 live 与会者体验集成到这些协作工具中。 
+与会者体验是实时事件的最重要的方面，并且很重要的是与会者无需任何问题即可参与实时事件。 与会者体验使用流式播放机（适用于团队中生成的事件）和 Azure 媒体播放器（对于在外部应用或设备中生成的事件），并跨桌面、浏览器和移动设备（iOS、Android）工作。 Microsoft 365 和 Office 365 将 Yammer 和团队作为两个协作中心提供，并将实时与会者体验集成到这些协作工具中。 
 
 ![显示实时事件与会者体验的屏幕截图](../media/teams-live-events-attendee.png "显示实时事件与会者体验的屏幕截图")
 

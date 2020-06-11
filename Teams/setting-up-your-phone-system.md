@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: 详细介绍如何在 Office 365 中为您的组织设置电话系统（云 PBX）的分步指南。
-ms.openlocfilehash: 01e5016761481a49af5a2946dd151acb7c3930ea
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+description: 详细介绍如何在 Microsoft 365 或 Office 365 中为您的组织设置电话系统（云 PBX）的分步指南。
+ms.openlocfilehash: c1ced5aa9a6fdbfeb5cb02948607c7be7df7fbd8
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042429"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691028"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>在组织中设置电话系统
 
-The following is a step-by-step guide for setting up Phone System in Office 365. Links to additional, detailed information are available at the end of each step.
+以下是在 Microsoft 365 或 Office 365 中设置电话系统的分步指南。有关详细信息的链接在每个步骤的末尾可用。
 
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>步骤 1： 请确保您的国家或地区可用使用电话系统
 
@@ -40,7 +40,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步骤 2： 购买和分配电话系统和通话套餐许可证
 
-若要向单个用户分配电话系统和呼叫计划许可证，步骤与分配 Office 365 许可证相同。  您还可以批量将许可证分配给多个用户。 有关详细信息，请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+若要将电话系统和呼叫计划许可证分配给单个用户，请执行与分配 Microsoft 365 或 Office 365 许可证相同的步骤。  您还可以批量将许可证分配给多个用户。 有关详细信息，请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
 如果通话计划不适用于您所在的国家或地区，请考虑使用直接路由将本地电话基础结构连接到电话系统。  有关详细信息，请参阅[手机系统直接路由](direct-routing-landing-page.md)。
 
@@ -51,7 +51,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 有三种方法可为用户获取号码：
 - 使用团队管理中心获取新号码。
 - 获取团队管理中心中不可用的新号码。
-- 将您的现有服务提供商或电话运营商中的现有号码移植或转移到 Office 365。
+- 将您的现有服务提供商或电话运营商中的现有号码移植或转移到 Microsoft 365 或 Office 365。
 
 您必须使用 "**添加号码**" 页面查看、搜索、获取和保留这些号码。 您可以按国家/地区、省/市/县和市/县进行搜索，然后输入您需要的用户电话号码的数量。
 
@@ -61,7 +61,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 2. 转到 "**团队管理中心**"。
     
-3. 在左侧导航中，转到 "**语音** > **电话号码**"，单击 "**添加**"，然后按照提示进行操作。
+3. 在左侧导航中，转到 "**语音**  >  **电话号码**"，单击 "**添加**"，然后按照提示进行操作。
     
 ### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>获取团队管理中心中不可用的新号码
   
@@ -77,7 +77,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>步骤 4： 获取服务电话号码 （音频会议呼叫的队列，自动助理）
 
-除了从 Office 365 中获取用户的电话号码之外，您还可以搜索和获取服务的收费电话号码或免费电话号码，如音频会议（适用于会议桥）、自动助理和呼叫队列。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以同时处理数百个通话，而用户的电话号码只能同时处理多个通话。
+除了从 Microsoft 365 或 Office 365 获取用户的电话号码，您还可以搜索和获取服务的收费电话号码或免费电话号码，如音频会议（适用于会议桥）、自动助理和呼叫队列。 服务电话号码具有比用户或订阅者电话号码更高的并发呼叫容量。 例如，服务号码可以同时处理数百个通话，而用户的电话号码只能同时处理多个通话。
 
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>使用团队管理中心获取新的服务号码
 
@@ -86,7 +86,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 2. 转到 "**团队管理中心**"。
 
-3. 在左侧导航窗格中，转到 "**语音** > **电话号码** > "**添加新号码**，然后单击 "**新的服务号码**"。
+3. 在左侧导航窗格中，转到 "**语音**  >  **电话号码**  >  "**添加新号码**，然后单击 "**新的服务号码**"。
 
     > [!IMPORTANT]
     > 要在团队管理中心的左侧导航窗格中看到 "**语音**" 选项，您必须首先购买至少一个**企业版 E5 许可证**、一个**电话系统**附加许可证或一个**音频会议**附加设备许可证。
@@ -126,11 +126,11 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 一旦您从 **上面的步骤 4** 获得服务号码后，您需要将其分配给所需每种类型服务。 例如，如果您需要专用服务电话号码（收费或免费），您需要将该号码分配给会议桥。
 
-- 对于音频会议，您可以通过转到**团队管理中心** > **会议** > **桥**并按照提示将专用号码分配给会议桥。  有关详细信息，请参阅[在音频会议网桥上更改收费或免费号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
+- 对于音频会议，您可以通过转到**团队管理中心**  >  **会议**  >  **桥**并按照提示将专用号码分配给会议桥。  有关详细信息，请参阅[在音频会议网桥上更改收费或免费号码](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
-- 对于自动助理，你可以通过转到 "**团队管理中心** > "**语音** > **自动助理**，将专用号码分配给自动助理，然后按照提示进行操作。  有关详细信息，请参阅[设置云自动助理](create-a-phone-system-auto-attendant.md)。
+- 对于自动助理，你可以通过转到 "**团队管理中心**"  >  **语音**  >  **自动助理**，将专用号码分配给自动助理，然后按照提示进行操作。  有关详细信息，请参阅[设置云自动助理](create-a-phone-system-auto-attendant.md)。
 
-- 对于呼叫队列，您可以通过转到 "**团队管理员中心** > **语音** > **呼叫" 队列**将专用号码分配给呼叫队列，然后按照提示进行操作。 有关详细信息，请参阅[创建云呼叫队列](create-a-phone-system-call-queue.md)。
+- 对于呼叫队列，您可以通过转到 "**团队管理员中心**语音呼叫" 队列将专用号码分配给呼叫队列，  >  **Voice**  >  **Call queues**然后按照提示进行操作。 有关详细信息，请参阅[创建云呼叫队列](create-a-phone-system-call-queue.md)。
 
 有关获取新服务号码和移植现有服务号码的详细信息，请参阅 [获取服务电话号码](getting-service-phone-numbers.md) 。
 
@@ -142,7 +142,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
   
 
 ## <a name="related-topics"></a>相关主题
-[以下是 Office 365 中的电话系统功能](here-s-what-you-get-with-phone-system.md)
+[下面是 Microsoft 365 或 Office 365 中的电话系统所获得的功能](here-s-what-you-get-with-phone-system.md)
 
 [管理组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

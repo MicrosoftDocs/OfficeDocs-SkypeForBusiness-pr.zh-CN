@@ -20,19 +20,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56029dc8f1cb5a9cb99096107d85a6414dc4ed25
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 77cee207d885299e6f8a1a90f889c9f661c7383e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638621"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691438"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>面向同时使用 Teams 和 Skype for Business 的组织的迁移和互操作性指导
 
 > [!Tip] 
-> 观看以下会话以了解[共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)
+> 观看以下会话以了解[共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)。
 
 作为具有 Skype for Business 的组织开始采纳团队，管理员可以使用共存 "模式" （它是 TeamsUpgradePolicy 的一个属性）的概念来管理其组织中的用户体验。 使用模式，管理员可管理互操作和迁移，因为它们管理从 Skype for Business 到团队的过渡。  用户模式确定在哪种情况下，客户端传入的聊天和呼叫世界，以及安排新会议的服务（团队或 Skype for business）。 它还控制团队客户端中可用的功能。 
+
+> [!IMPORTANT]
+> 对 TeamsUpgradePolicy 所做的更改最多可能需要24小时才能生效。 在此之前，用户状态可能不正确（可能显示为 "**未知**"）。
 
 
 ## <a name="fundamental-concepts"></a>基本概念
@@ -50,7 +53,7 @@ ms.locfileid: "44638621"
 
 5.  只有*团队用户在 Skype for business 中托管*时，才可以在团队和 skype for business 用户之间进行互操作。 收件人 Skype for Business 用户可以在本地托管（并且需要配置 Skype for business 混合）或在线。 托管在本地 Skype for Business 中的用户可以使用孤岛模式（在本文档后面已定义）中的团队，但不能使用团队互操作或与其他使用 Skype for Business 的用户联盟。  
 
-6.    升级和互操作行为是根据用户的共存模式确定的，下文所述。 模式由 TeamsUpgradePolicy 管理。 
+6.    升级和互操作行为是根据用户的共存模式确定的，如下所述。 模式由 TeamsUpgradePolicy 管理。 
 
 7.  将用户升级到 TeamsOnly 模式可确保所有传入聊天和呼叫始终位于用户的团队客户端，无论其来源于哪种客户端。 这些用户还将计划团队中的所有新会议。 若要处于 TeamsOnly 模式，用户必须在 Skype for Business 中联机。 这是确保团队用户的互操作、联盟和完全管理所必需的。 要将用户升级到 TeamsOnly，请执行以下操作：
     - 如果用户托管在 Skype for Business online 中（或从未拥有任何 Skype 帐户），请使用 PowerShell 使用 "UpgradeToTeams" 实例向他们授予 TeamsUpgradePolicy with Mode = TeamsOnly，或使用团队管理中心选择 TeamsOnly 模式。
@@ -107,6 +110,9 @@ ms.locfileid: "44638621"
 
 
 ## <a name="teamsupgradepolicy-managing-migration-and-co-existence"></a>TeamsUpgradePolicy：管理迁移和共存
+
+> [!IMPORTANT]
+> 对 TeamsUpgradePolicy 所做的更改最多可能需要24小时才能生效。 在此之前，用户状态可能不正确（可能显示为 "**未知**"）。
 
 TeamsUpgradePolicy 公开两个键属性： Mode 和 NotifySfbUsers。 
 </br>

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何配置一个会话边界控制器（SBC）来为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
-ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
+ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44021994"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689738"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -52,7 +52,7 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone
 2. 激活子域名。
 3. 将运营商的主干配置为客户租户和预配用户。
 
-*请确保了解 DNS 基础知识以及如何在 Office 365 中管理域名。在继续操作之前，请查看[获取有关 Office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*请确保了解 DNS 基础知识，以及如何在 Microsoft 365 或 Office 365 中管理域名。在继续操作之前[，请查看获取有关 Microsoft 365 或 Office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>部署和配置 SBC
 
@@ -62,6 +62,7 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone
 - **Oracle：** [直接路由配置说明](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，在 "Microsoft" 部分中介绍了 SBC 托管方案的配置。 
 - **功能区通信：** 请参阅[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)有关如何配置功能区核心序列的文档，以及如何在此页面[功能区中配置运营商最佳做法-为 Microsoft 团队直接路由 SBC Edge 配置运营商](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **TE-系统（anynode）：** 请在[TE 系统社区页面](https://community.te-systems.de/)上注册，了解有关如何为多个租户配置 anynode SBC 的文档和示例。
+- **Metaswitch：** 请在[Metaswitch 社区页面](https://sso.metaswitch.com/UI/Login)上注册，了解有关如何为多个租户启用 Perimeta SBC 的文档。
 
 > [!NOTE]
 > 请注意如何配置 "联系人" 标头。 联系人页眉用于查找传入邀请消息上的客户租户。 
@@ -74,19 +75,19 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone
 
 在以下示例中：
 - Adatum 是通过提供 Internet 和电话服务来为多个客户提供服务的运营商。
-- Woodgrove Bank、Contoso 和艾德公司都是具有 Office 365 域但接收来自 Adatum 的电话服务的三个客户。
+- Woodgrove Bank、Contoso 和艾德公司都是三个客户，其中包含 Microsoft 365 或 Office 365 域，但从 Adatum 接收电话服务。
 
-在将邀请发送到 Office 365 时，子域**必须**与将为客户配置的主干的 FQDN 名称匹配，并将 Fqdn 与联系人标头中的 fqdn 相匹配。 
+在将邀请发送到 Microsoft 365 或 Office 365 时，子域**必须**匹配将为客户配置的主干的 FQDN 名称和联系人标头中的 fqdn。 
 
-当呼叫到达 Office 365 直接路由接口时，该接口使用联系人标题查找应在其中查找用户的租户。 直接路由不会在邀请上使用电话号码查找，因为某些客户可能具有在多个租户中可能会重叠的非号码。 因此，联系人标头中的 FQDN 名称是标识确切的租户以通过电话号码查找用户所必需的。
+当呼叫到达 Microsoft 365 或 Office 365 直接路由接口时，接口使用联系人标题查找应在其中查找用户的租户。 直接路由不会在邀请上使用电话号码查找，因为某些客户可能具有在多个租户中可能会重叠的非号码。 因此，联系人标头中的 FQDN 名称是标识确切的租户以通过电话号码查找用户所必需的。
 
-*有关在 Office 365 组织中创建域名的详细信息，请参阅[获取有关 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*有关在 Microsoft 365 或 Office 365 组织中创建域名的详细信息，请参阅[获取有关 Office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 下图总结了基本域、子域和联系人标头的要求。
 
 ![显示域和联系人标题要求的图表](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，运营商需要使用* \*base_domain （例如\*customers.adatum.biz）* 申请证书。 此证书可用于对从单个 SBC 提供服务的多个租户的连接进行身份验证。
+SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，运营商需要使用* \* base_domain （例如 \* customers.adatum.biz）* 申请证书。 此证书可用于对从单个 SBC 提供服务的多个租户的连接进行身份验证。
 
 
 下表是一个配置示例。
@@ -113,13 +114,13 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 
 如果您作为全局管理员登录到 Microsoft 365 管理中心，则只能添加新域。 
 
-https://portal.office.com)若要验证你拥有的角色，请登录到 Microsoft 365 管理中心（请转到 "**用户** > **活动用户**"，然后验证你是否拥有全局管理员角色。 
+若要验证你拥有的角色，请登录到 Microsoft 365 管理中心（ https://portal.office.com) 请转到 "**用户**  >  **活动用户**"，然后验证你是否拥有全局管理员角色。 
 
-有关管理员角色以及如何在 Office 365 中分配角色的详细信息，请参阅[关于 office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+有关管理员角色以及如何在 Microsoft 365 或 Office 365 中分配角色的详细信息，请参阅[关于管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>将基础域添加到租户并验证它
 
-1. 在 Microsoft 365 管理中心中，转到 "**设置** > **域** > **添加域**"。
+1. 在 Microsoft 365 管理中心中，转到 "**设置**  >  **域**  >  **添加域**"。
 2. 在 "**输入您拥有的域**" 框中，键入基础域的 FQDN。 在以下示例中，基本域为*customers.adatum.biz*。
 
     ![显示 "添加域" 页面的屏幕截图](media/direct-routing-2-sbc-add-domain.png)
@@ -138,7 +139,7 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
 注册域名后，您需要通过至少添加一个 E1、E3 或 E5 许可用户来激活它，并使用与创建的基础域匹配的 SIP 地址的 FQDN 部分分配 SIP 地址。 
 
-*有关在 Office 365 组织中添加用户的详细信息，请参阅[获取有关 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*有关在 Microsoft 365 或 Office 365 组织中添加用户的详细信息，请参阅[获取有关 microsoft 365 或 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 例如： test@customers.adatum.biz
 
@@ -154,12 +155,12 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
 如果您作为全局管理员登录到 Microsoft 365 管理中心，则只能添加新域。 
 
-https://portal.office.com)若要验证你拥有的角色，请登录到 Microsoft 365 管理中心（请转到 "**用户** > **活动用户**"，然后验证你是否拥有全局管理员角色。 
+若要验证你拥有的角色，请登录到 Microsoft 365 管理中心（ https://portal.office.com) 请转到 "**用户**  >  **活动用户**"，然后验证你是否拥有全局管理员角色。 
 
-有关管理员角色以及如何在 Office 365 中分配角色的详细信息，请参阅[关于 office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
+有关管理员角色以及如何在 Microsoft 365 或 Office 365 中分配角色的详细信息，请参阅[关于管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>将子域添加到客户租户并验证它
-1. 在 Microsoft 365 管理中心中，转到 "**设置** > **域** > **添加域**"。
+1. 在 Microsoft 365 管理中心中，转到 "**设置**  >  **域**  >  **添加域**"。
 2. 在 "**输入你拥有的域**" 框中，键入此租户的子域的 FQDN。 在下面的示例中，子域是 sbc1.customers.adatum.biz。
 
     !["添加域" 页面的屏幕截图](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -177,7 +178,7 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
     ![显示创建 TXT 记录的屏幕截图](media/direct-routing-8-sbc-txt-record.png)
 
-    有关详细信息，请参阅[在任何 dns 托管提供商处为 Office 365 创建 DNS 记录](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)。
+    有关详细信息，请参阅[在任何 DNS 托管提供商处创建 DNS 记录](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)。
 
 7. 返回客户的 Microsoft 365 管理中心，然后单击 "**验证**"。 
 8. 在下一页上，选择 "**我将自行添加 DNS 记录**"，然后单击 "**下一步**"。
@@ -200,7 +201,7 @@ https://portal.office.com)若要验证你拥有的角色，请登录到 Microsof
 
 注册域名后，您需要通过至少添加一个用户并使用与客户租户中创建的子域相匹配的 SIP 地址的 FQDN 部分来激活该域名。
 
-*有关在 Office 365 组织中添加用户的详细信息，请参阅[获取有关 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
+*有关在 Microsoft 365 或 Office 365 组织中添加用户的详细信息，请参阅[获取有关 microsoft 365 或 office 365 域的帮助](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)。*
 
 例如： test@sbc1.customers.adatum.biz
 

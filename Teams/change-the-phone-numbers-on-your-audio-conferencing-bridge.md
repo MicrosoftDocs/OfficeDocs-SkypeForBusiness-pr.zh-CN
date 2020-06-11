@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解将新服务电话号码分配给你的会议桥所需的步骤，以便为你的用户扩展覆盖范围。
-ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: e0786ad2c35ebe7d9663a71b594f7f5facd73b08
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898147"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691378"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>更改音频会议网桥中的电话号码
 
@@ -37,15 +37,15 @@ ms.locfileid: "43898147"
 除了已分配给您的会议网桥的电话号码，您还可以从其他位置[获取其他服务号码](/microsoftteams/getting-service-phone-numbers)（用于音频会议的收费和免费电话号码），然后将它们分配给会议桥，以便您可以为您的用户展开覆盖范围。
   
 > [!NOTE]
-> 为能够分配/取消分配会议网桥的电话号码，电话号码必须是 "*服务*" 号码。 你可以通过导航到旧版门户中的**语音** > **电话号码**并在 "**数字类型**" 列中查看，来查看号码的类型。 为了让用户拨入免费电话号码上的网桥，应首先设置 Office 365 通信点数。
+> 为能够分配/取消分配会议网桥的电话号码，电话号码必须是 "*服务*" 号码。 你可以通过导航到旧版门户中的**语音**  >  **电话号码**并在 "**数字类型**" 列中查看，来查看号码的类型。 必须首先设置 Microsoft 365 或 Office 365 通信信用点数，以便用户可以在免费电话号码上拨入网桥。
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>将新的服务电话号码分配给会议网桥的操作步骤
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>步骤 1-将新电话号码分配给您的音频会议桥
 
-1. 使用你的工作帐户登录 Office 365。
+1. 使用你的工作帐户登录到 Microsoft 365 或 Office 365。
 
-2. 转到**Microsoft 365 管理中心** > **管理中心** > **团队 & Skype** > **旧门户** > **语音** > **电话号码**。
+2. 转到**Microsoft 365 管理中心**  >  **管理中心**  >  **团队 & Skype**  >  **旧门户**  >  **语音**  >  **电话号码**。
 
 3. 从列表中选择电话号码，然后在 "操作" 窗格中单击 "**分配**"。
 
@@ -57,9 +57,9 @@ ms.locfileid: "43898147"
 
 只有服务收费电话号码才能设置为您的会议桥的默认号码;**服务免费电话号码不能设置为您的会议网桥的默认号码**。 如果您要分配服务的收费电话号码，并且想要将其设置为您的音频会议网桥的新默认号码，请执行以下步骤：
 
-1. 使用你的工作帐户登录 Office 365。
+1. 使用你的工作帐户登录到 Microsoft 365 或 Office 365。
 
-2. 转到**Microsoft 365 管理中心** > **管理中心** > **团队 & Skype** > **会议** > **桥**。
+2. 转到**Microsoft 365 管理中心**  >  **管理中心**  >  **团队 & Skype**  >  **会议**  >  **桥**。
 
 3. 突出显示要配置为默认电话的服务电话号码。
 
@@ -71,7 +71,7 @@ ms.locfileid: "43898147"
   
 1. 使用你的工作或学校帐户登录。
 
-2. 转到**Microsoft 365 管理中心** > **管理中心** > **团队 & Skype** > **旧版门户** > **音频会议** > **用户**，然后在列表中选择用户。
+2. 转到**Microsoft 365 管理中心**  >  **管理中心**  >  **团队 & Skype**  >  **旧版门户**  >  **音频会议**  >  **用户**，然后在列表中选择用户。
 
 3. 在"操作"窗格中单击" **编辑**"。
 
@@ -135,7 +135,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 1. 使用你的工作或学校帐户登录。
 
-2. 转到**Microsoft 365 管理中心** > **管理中心** > **团队 & Skype** > **旧门户** > **语音** > **电话号码**。
+2. 转到**Microsoft 365 管理中心**  >  **管理中心**  >  **团队 & Skype**  >  **旧门户**  >  **语音**  >  **电话号码**。
 
 3. 如果电话号码是免费号码，请从列表中选择电话号码，然后在 "操作" 窗格中单击 "**取消分配**"。 如果电话号码是收费电话号码，请联系[Microsoft 支持](https://go.microsoft.com/fwlink/?linkid=2091806)部门，让电话号码未分配。
 
@@ -161,7 +161,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 4. 你还需要安装适用于 Skype for business Online 的 Windows PowerShell 模块，使你能够创建连接到 Skype for business Online 的远程 Windows PowerShell 会话。 此模块仅在64位计算机上受支持，并且可从[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)上的 Microsoft 下载中心下载。
 出现提示时，请重启计算机。
 
-如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
+如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
 
 ### <a name="to-start-windows-powershell"></a>启动 Windows PowerShell
 
@@ -181,7 +181,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 > [!NOTE]
 > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
-如果需要有关启动 Windows PowerShell 的详细信息，请参阅使用 Windows PowerShell[连接到单个 Windows powershell 窗口中的所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[连接到 Skype for business Online](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)。
+如果需要有关启动 Windows PowerShell 的详细信息，请参阅使用 Windows PowerShell[连接到单个 Windows powershell 窗口中的所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[连接到 Skype for business Online](https://technet.microsoft.com/library/dn362795%28v=ocs.15%29.aspx)。
 
 ### <a name="save-time-and-automate"></a>节省时间并实现自动化
 
@@ -241,7 +241,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>有关 Windows PowerShell
 
-可使用 Windows PowerShell 管理用户并管理他们能否执行的操作内容。 Windows PowerShell 可帮助你使用单一的管理点管理 Office 365 和 Skype for business Online，尤其是当你有多个任务需要执行此操作时。 若要开始使用 Windows PowerShell，请参阅下列主题：
+可使用 Windows PowerShell 管理用户并管理他们能否执行的操作内容。 Windows PowerShell 可帮助你使用单一的管理点管理 Microsoft 365 或 Office 365 和 Skype for Business Online，尤其是当你有多个任务需要执行此操作时。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](https://go.microsoft.com/fwlink/?LinkId=525039)
 
@@ -249,7 +249,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你同时为多个用户设置更改时。 通过以下主题了解这些优势：
 
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
 
   - [使用 Windows PowerShell 管理 Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
 

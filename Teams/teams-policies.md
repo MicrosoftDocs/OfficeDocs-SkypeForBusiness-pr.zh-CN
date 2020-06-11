@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: ce387ec406a9ccfd6ee45a67f2613a45c219f21f
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: f046a21ee0ff0bf4fe49feea2c4a38702516227a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44349696"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690958"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的团队策略
 
@@ -73,11 +73,11 @@ ms.locfileid: "44349696"
 2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
 3. 在 "**团队策略**" 下，选择要分配的策略，然后单击 "**保存**"。
 
-要一次为多个用户分配策略，请执行以下操作：
+若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
-2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
+3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。  
 
 或者，您也可以执行以下操作：
 
@@ -94,7 +94,7 @@ ms.locfileid: "44349696"
 在此示例中，我们将名为 "市场营销团队" 策略的团队策略分配给 "Contoso 市场营销" 组中的所有用户。  
 
 > [!NOTE]
-> 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
+> 通过按照[连接到单个 Windows PowerShell 窗口中的所有 Microsoft 365 或 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
 
 获取特定组的 GroupObjectId。
 ```PowerShell

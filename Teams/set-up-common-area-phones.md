@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接待区和会议室设置公共区域电话 '
-ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 23e60a5fe57ea8e2ff07bb6333a5ea1c341bba88
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140865"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691068"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -40,11 +40,11 @@ ms.locfileid: "43140865"
 
 ## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 
-1. 在 Microsoft 365 管理中心，转到 "**帐单** > **购买服务**"，然后展开 "**其他计划**"。
+1. 在 Microsoft 365 管理中心，转到 "**帐单**  >  **购买服务**"，然后展开 "**其他计划**"。
 
     ![显示公共区域电话磁贴的屏幕截图](media/set-up-common-area-phone-image1.png)
 
-2. 选择 "**通用区域电话** > **立即购买**"。
+2. 选择 "**通用区域电话**  >  **立即购买**"。
 
 3. 在 "签出" 页面上，单击 "**立即购买**"。
 
@@ -80,7 +80,7 @@ ms.locfileid: "43140865"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>第 2 步 - 为手机创建一个新的用户帐户并分配许可证
 
-1. 在 Microsoft 365 管理中心中，转到 "**用户** > **活动用户** > "**添加用户**。
+1. 在 Microsoft 365 管理中心中，转到 "**用户**  >  **活动用户**"  >  **添加用户**。
 
 2. 输入用户名（如 "Main"）作为第一个名称，输入 "接收" 作为第二个名称。
 
@@ -103,7 +103,7 @@ ms.locfileid: "43140865"
 
 使用 "团队管理中心" 为用户分配一个号码。
 
-1. 在 "团队" 管理中心中，选择 "**语音** > **电话号码**"。
+1. 在 "团队" 管理中心中，选择 "**语音**  >  **电话号码**"。
 
 3.    从电话号码列表中选择一个号码，然后点击**分配**。
 
@@ -120,6 +120,4 @@ ms.locfileid: "43140865"
 
 有关详细信息，请参阅[为用户获取电话号码](getting-phone-numbers-for-your-users.md)。
 
-您还可以通过其他运营商和 "端口" 获取您的电话号码，或将其转移到 Office 365。 请参阅[将电话号码转移给团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
-
-
+您还可以通过其他运营商和 "端口" 获取您的电话号码，或者将其转移到 Microsoft 365 或 Office 365。 请参阅[将电话号码转移给团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。

@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: 了解 Microsoft 团队聊天室的生命周期支持，包括动态支持结构及其阶段。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905374"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691188"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 团队聊天室应用版本支持
  
@@ -27,7 +27,7 @@ Microsoft 团队聊天室应用每年更新几次。 每个更新的常规可用
 
 - **服务和关键更新阶段** \-当你运行最新版本的 Microsoft 团队聊天室应用时，你将收到包含*安全和服务*更新的定期更新。
 
-- **仅安全更新阶段** \-当 Microsoft 团队聊天室应用版本的新版本时，较早版本的应用的支持级别将仅适用于12（12）个月的剩余生命周期的*安全更新*。
+- **仅安全更新阶段** \-当新版本的 Microsoft 团队聊天室应用发布时，较早版本的应用的支持级别将仅适用于12（12）个月的剩余生命周期的*安全更新*。
 
 > [!NOTE]
 > 最新版本始终位于 "服务" 和 "关键更新" 阶段。 如果遇到可保证关键更新的代码缺陷，还必须安装最新版本才能接收修补程序。 所有其他支持的版本仅有资格接收安全更新。
@@ -53,7 +53,8 @@ Microsoft 团队聊天室设备上不会立即提供或更新 Windows 10 功能�
 
 |版本  |可用性日期   |Microsoft 团队会议室支持状态   |Microsoft 团队会议室最小应用程序版本 | 推荐的操作系统内部版本  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 1909 |2019-11-12 |当前验证， <br/>不推荐|&#x2014; |&#x2014; |
+| 2004 |2020-05-27 |在 "验证" 下， <br/>不推荐|&#x2014; |19041.264 |
+| 1909 |2019-11-12 |验证完成， <br/>无已知问题。|即将提供 |18363.418  |
 | 1903 |2019-05-21 |能 <br/>推荐  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |路经 <br/>不推荐 &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |支持                             |4.1.22.0 |17134.191|
@@ -61,6 +62,8 @@ Microsoft 团队聊天室设备上不会立即提供或更新 Windows 10 功能�
 | 1703 |2017-07-11 |否                         |&#x2014; |&#x2014; |
 
 由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2780; Windows 10 版本1809。 此特定问题导致在夜间重启后 Microsoft 团队聊天室应用程序无法启动。 此问题已在 Windows 10 版本1903中解决。  
+
+由于在 Microsoft 团队聊天室应用程序中发现兼容性问题，因此建议不要 &#x2781; Windows 10 版本2004。 此特定问题导致在夜间重启后 Microsoft 团队聊天室应用程序无法启动。 
 
 使用受支持的 Windows 10 版本时，你将始终获取适用于 Microsoft 团队聊天室应用的最新应用程序更新。  
 

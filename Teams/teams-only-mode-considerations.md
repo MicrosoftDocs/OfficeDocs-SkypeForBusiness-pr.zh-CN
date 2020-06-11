@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882bb40d1d7f300f51fded6321f29bafd7f8ba92
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522495"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690918"
 ---
 # <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 
-如果你是 Office 365 组织的管理员，则你现在将在 Microsoft 团队管理中心中看到升级到 "仅团队" 模式的选项。 利用此功能，你可以升级单个用户，或者升级整个租户。  
+如果你是 Microsoft 365 或 Office 365 组织中的管理员，你现在将在 Microsoft 团队管理中心中看到升级到 "仅团队" 模式的选项。 利用此功能，你可以升级单个用户，或者升级整个租户。  
 
-升级到 "仅团队" 模式可为用户提供 Microsoft 团队的全部好处，即 Office 365 中团队协作的全部好处，通过单个客户端体验。 此外，"仅工作组" 模式中的用户将收到团队中的所有通话和聊天，无论发件人是使用 Skype for Business 还是团队，都可以通过互操作和联合支持获得好处。
+升级到 "仅团队" 模式可为用户提供 Microsoft 团队的全部好处，即 Microsoft 365 或 Office 365 中的团队协作，通过单个客户体验。 此外，"仅工作组" 模式中的用户将收到团队中的所有通话和聊天，无论发件人是使用 Skype for Business 还是团队，都可以通过互操作和联合支持获得好处。
 
 虽然数以千计的客户成功升级到 Microsoft 团队，但仍有可能会影响组织的升级时间线和用户体验。 特别是，选择升级选项并不一定意味着你的组织已准备好进行此更改。 为了实现最佳用户体验，请先确认 Teams 满足你的协作和通信要求，确保你的网络可以支持 Teams，以及实施你的用户就绪计划，然后再将用户升级到 Teams。 
 
@@ -54,7 +54,7 @@ ms.locfileid: "44522495"
  - Office 365 德国
  - Skype for business 租户托管于韩国 **，** 组织要求团队数据存储在韩国。 目前，存储在韩国的 Skype for business 数据的组织将其团队数据存储在亚洲数据中心区域，而不是在韩国数据中心区域中。
 
-**特定于用户的注意事项**：某些用户方案仍在发展，管理员可能决定在升级组织中的其他用户时临时推迟某些用户的升级。 特别是，我们仍在针对其主要设备基于 VDI 的用户处理方案。 请监控[Office 365 路线图](https://www.microsoft.com/microsoft-365/roadmap)网站，了解公告。
+**特定于用户的注意事项**：某些用户方案仍在发展，管理员可能决定在升级组织中的其他用户时临时推迟某些用户的升级。 特别是，我们仍在针对其主要设备基于 VDI 的用户处理方案。 请监控[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap)网站，了解公告。
 
 > [!NOTE]
 > 在移动到 "仅团队" 模式之前，你需要替换或更新不支持团队的设备。 

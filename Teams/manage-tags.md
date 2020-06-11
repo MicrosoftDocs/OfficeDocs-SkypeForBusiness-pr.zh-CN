@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中管理组织中如何使用标记。
-ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209484"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690849"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 团队中的标记
 
@@ -53,7 +53,7 @@ Microsoft 团队中的标记使用户能够与团队中的一部分人员进行�
 
 默认情况下，团队所有者可以添加标记。 你可以更改此设置以允许团队所有者和团队成员添加标记，也可以关闭你的组织的标记。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**组织范围设置** > "**团队设置**。
+1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**组织范围设置**"  >  **团队设置**。
 2. 在 "**标记**" 下，在 "**标记已启用**" 旁边，选择下列选项之一：
 
     - **团队所有者和成员**：允许团队所有者和成员添加标记。
@@ -64,7 +64,7 @@ Microsoft 团队中的标记使用户能够与团队中的一部分人员进行�
 
 你可以配置以下标记设置以控制如何在组织中使用标记。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**组织范围设置** > "**团队设置**。
+1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**组织范围设置**"  >  **团队设置**。
 2. 在 "**标记**" 下，根据组织的需要设置以下各项。
 
     - **团队所有者可以覆盖可以应用标记的人员**：当启用此功能时，团队所有者可以允许或禁止成员在团队设置中添加标记。
@@ -79,6 +79,8 @@ Microsoft 团队中的标记使用户能够与团队中的一部分人员进行�
 
 ## <a name="add-tags-in-teams"></a>在团队中添加标记
 
-在团队中，团队的 "管理团队" 页面的 "**成员**" 选项卡包括 "**标记**" 列。 团队所有者和成员（如果为其启用了该功能）可以单击成员旁边的 "**管理标记**"，以查看该成员的建议标记列表，并将标记添加到列表中。
+若要管理标记，请选择应用左侧的 "**管理团队**"，然后在列表中找到您的团队。 选择 "**更多选项**"，然后选择 "**管理标记**"。
 
-![如何在团队客户端应用标记的屏幕截图 ](media/manage-tags-teams.png) 
+在此处，你可以创建标记并将其分配给团队中的人员。
+
+![如何在团队客户端应用标记的屏幕截图 ](media/manage-tags-teams.png)

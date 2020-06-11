@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何设置 Microsoft 团队的 "云呼叫" 队列的电话系统，这些团队提供问候语、举行音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: 6bf3353a86cc096d5d9f9891315d9b47de40e9f4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669410"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697433"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -68,10 +68,10 @@ ms.locfileid: "44669410"
   > [!NOTE]
   > 只有 Microsoft 团队用户和代理才支持直接路由呼叫队列服务号码。
 
-  > [!NOTE]
-  > 若要将呼叫重定向到您的组织中联机的人员，他们必须具有**电话系统**许可证并启用企业语音或拥有 Office 365 通话计划。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 To enable them for Enterprise Voice, you can use Windows PowerShell. 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE]
+> 若要将呼叫重定向到您的组织中联机的人员，他们必须具有**电话系统**许可证并启用企业语音或安装 Microsoft 365 或 Office 365 通话计划。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 To enable them for Enterprise Voice, you can use Windows PowerShell. 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 若要了解有关 Office 365 呼叫计划的详细信息，请参阅[手机系统和通话计划](calling-plan-landing-page.md)和[Office 365 的呼叫计划](calling-plans-for-office-365.md)。
+- 若要了解有关通话计划的详细信息，请参阅[手机系统和通话计划](calling-plan-landing-page.md)以及[Microsoft 365 或 Office 365 的呼叫计划](calling-plans-for-office-365.md)。
 
 - 您只能将云呼叫队列分配给您在**Microsoft 团队管理中心**或从另一个服务提供商转移的收费电话号码和免费服务电话号码。 免费服务号码需要通讯信用点数。
 
@@ -97,7 +97,7 @@ ms.locfileid: "44669410"
 
 ## <a name="step-2--get-or-transfer-toll-or-toll-free-service-phone-numbers"></a>步骤 2-获取或转移收费或免费服务电话号码
 
-在创建和设置呼叫队列之前，您需要获取或转移现有收费或免费服务号码。 若要获取你的服务号码，请参阅[获取服务电话号码](getting-service-phone-numbers.md)或要转移现有服务号码，请参阅[将电话号码转移到 Office 365](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。 获得收费或免费服务电话号码后，他们将显示在**Microsoft 团队管理中心**的  >  **语音**  >  **电话号码**中。 免费电话将列出一**种数字类型**的**服务-免费电话**号码。
+在创建和设置呼叫队列之前，您需要获取或转移现有收费或免费服务号码。 若要获取你的服务号码，请参阅[获取服务电话号码](getting-service-phone-numbers.md)或要转移现有服务号码，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。 获得收费或免费服务电话号码后，他们将显示在**Microsoft 团队管理中心**的  >  **语音**  >  **电话号码**中。 免费电话将列出一**种数字类型**的**服务-免费电话**号码。
 
 > [!NOTE]
 > 如果您在美国以外，则不能使用 Microsoft 团队管理中心获取服务号码。 转到 "[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)" 以了解如何从美国以外的国家进行管理。
@@ -163,7 +163,7 @@ ms.locfileid: "44669410"
 
 你可以选择多达200个呼叫代理，该代理属于以下任意邮件列表或组：
 
-- Office 365 组
+- Microsoft 365 群组
 - 安全组
 - 通讯组列表
 
@@ -178,7 +178,7 @@ ms.locfileid: "44669410"
 
    若要启用企业语音代理，你可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 具有**电话系统**许可证或添加到 Office 365 组的呼叫计划的用户;启用邮件的通讯组列表;或安全组。 将通讯组列表或安全组中的代理添加为呼叫队列代理时，首次通话最多可能需要3个小时。 新创建的通讯组列表或安全组可能需要长达48小时才能与通话队列一起使用。 新创建的 Microsoft 365 组几乎立即可用。
+- 具有**电话系统**许可证或呼叫计划的用户添加到 Microsoft 365 组、启用邮件的通讯组列表或安全组。 将通讯组列表或安全组中的代理添加为呼叫队列代理时，首次通话最多可能需要3个小时。 新创建的通讯组列表或安全组可能需要长达48小时才能与通话队列一起使用。 新创建的 Microsoft 365 组几乎立即可用。
 
 - 如果你的代理正在使用 Microsoft 团队应用进行呼叫队列呼叫，则他们必须处于 TeamsOnly 模式。
 
@@ -328,7 +328,7 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 ### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以通过单个管理点管理 Office 365 和 Microsoft 团队。 当有多个任务需要执行时，它可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以通过单个管理点管理 Microsoft 365 或 Office 365 和 Microsoft 团队。 当有多个任务需要执行时，它可以简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -336,13 +336,13 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 
 - 当您同时为多个用户进行更改时，Windows PowerShell 在速度、简洁性和工作效率方面具有许多优势。 通过以下主题了解这些优势：
 
-  - [通过 Windows PowerShell 管理 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [为 Windows PowerShell 设置计算机](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>相关主题
 
-[以下是 Office 365 中的电话系统功能](here-s-what-you-get-with-phone-system.md)
+[电话系统的功能](here-s-what-you-get-with-phone-system.md)
 
 [获取服务电话号码](getting-service-phone-numbers.md)
 

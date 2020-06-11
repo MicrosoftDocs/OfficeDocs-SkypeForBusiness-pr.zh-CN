@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 726e14aef92eed8fe681d183b8e1cfd404e659ca
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ae1b73c2aefecb64dfe18e0fda0aa880f3962aa7
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665134"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690938"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -436,8 +436,8 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 |---------|---------|
 |**NoFilters**     |用户无法自定义其视频背景。|
 |**BlurOnly**     |用户可以选择对视频背景进行模糊处理。 |
-|**BlurandDefaultBackgrounds**     |用户可以选择对其视频背景进行模糊处理，或从一组图像中进行选择以用作背景。 |
-|**AllFilters**     |使用可选择对视频背景进行模糊处理、从一组图像中进行选择，或上载自定义图像以用作其背景。 |
+|**BlurandDefaultBackgrounds**     |用户可以选择对其视频背景进行模糊处理，或选择默认的图像集作为其背景。 |
+|**AllFilters**     |使用可选择对其视频背景进行模糊处理，从默认的图像集进行选择，或上载自定义图像用作其背景。 |
 
 > [!NOTE]
 > 用户上载的图像不会由团队进行筛选。 使用**AllFilters**设置时，你应具有内部组织策略，以防止用户上传攻击性或不合适的图像，或者你的组织无权使用团队会议背景的图像。

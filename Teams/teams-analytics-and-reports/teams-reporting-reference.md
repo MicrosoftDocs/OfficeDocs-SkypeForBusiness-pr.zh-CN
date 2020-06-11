@@ -16,12 +16,12 @@ description: 在本文中，你将了解 Microsoft 团队管理中心提供的�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 24d8a9658c4f7c0d9b0c12472491065106a7533c
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 943e8db82f69548008430df082638f61d09b6782
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904277"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690968"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 
@@ -29,7 +29,7 @@ Microsoft 团队管理中心提供了适用于 Microsoft 团队的新分析和�
 
 ## <a name="how-to-access-the-reports"></a>如何访问报表
 
-若要访问报表，您必须是 Office 365、团队服务管理员、团队通信管理员或 Skype for business 管理员中的全局管理员。若要了解有关团队管理员角色以及每个管理员角色可以访问的报表的详细信息，请参阅[使用团队管理员角色管理团队](../using-admin-roles.md)。
+若要访问报表，您必须是 Microsoft 365 或 Office 365、团队服务管理员、团队通信管理员或 Skype for business 管理员中的全局管理员。若要了解有关团队管理员角色以及每个管理员角色可以访问的报表的详细信息，请参阅[使用团队管理员角色管理团队](../using-admin-roles.md)。
 
 转到 Microsoft 团队管理中心，在左侧导航中，选择 "**分析 & 报表**"，然后在 "**报表**" 下，选择要运行的报表。
 

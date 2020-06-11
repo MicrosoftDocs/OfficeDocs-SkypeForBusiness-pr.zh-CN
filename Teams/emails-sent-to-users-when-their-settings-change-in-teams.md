@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '了解在 Microsoft Teams 中当用户的电话拨入式会议设置更改时自动通过电子邮件向其发送的信息。 '
-ms.openlocfilehash: 4c4668e671b65a7927434a5ad7c9028d673d47b3
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 15c35570d509ae69a41e4c6d9522a5a62d32dd59
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042859"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691478"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>在 Microsoft Teams 中当用户设置更改时向其发送的电子邮件
 
 当使用 Microsoft 作为音频会议提供商时，会自动向[启用了音频会议](set-up-audio-conferencing-in-teams.md)的用户发送电子邮件。
 
-默认情况下，对于启用了音频会议的用户，向其发送的电子邮件共有四种类型。 但是，如果你要限制向用户发送的电子邮件数，你可以将其关闭。 在下列情况下，Office 365 中的音频会议将向用户发送电子邮件：
+默认情况下，对于启用了音频会议的用户，向其发送的电子邮件共有四种类型。 但是，如果你要限制向用户发送的电子邮件数，你可以将其关闭。 在以下情况中，Microsoft 365 或 Office 365 中的音频会议将向用户的电子邮件发送电子邮件：
 
 - **为用户分配了音频会议许可证时，或者你将音频会议提供商更改为 Microsoft 时。**
 
@@ -67,7 +67,7 @@ ms.locfileid: "44042859"
 
     当从用户删除**音频会议**许可证或将音频会议提供商设置为 "**无**" 时，会发生这种情况。
 
-    请参阅[如何分配或取消分配 Office 365 商业版适用的用户许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+    请参阅[分配或删除 Microsoft 365 for business 的许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
     下面是此电子邮件的一个示例：
 
@@ -78,7 +78,7 @@ ms.locfileid: "44042859"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>更改发送给用户的电子邮件
 
-您可以对自动发送给用户的电子邮件进行更改。 默认情况下，电子邮件的发件人将来自 Office 365，但你可以使用 Windows PowerShell 更改显示名称。 有关详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
+您可以对自动发送给用户的电子邮件进行更改。 默认情况下，电子邮件的发件人将来自 Microsoft 365 或 Office 365，但你可以使用 Windows PowerShell 更改显示名称。 有关详细信息，请参阅[Microsoft 团队 PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)。
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果不想向用户发送电子邮件，又该怎样做？
 
@@ -106,9 +106,9 @@ ms.locfileid: "44042859"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-默认情况下，电子邮件的发件人将来自 Office 365，但你可以使用 Windows PowerShell 更改电子邮件地址和显示名称。 
+默认情况下，电子邮件的发件人将来自 Microsoft 365 或 Office 365，但你可以使用 Windows PowerShell 更改电子邮件地址和显示名称。 
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 

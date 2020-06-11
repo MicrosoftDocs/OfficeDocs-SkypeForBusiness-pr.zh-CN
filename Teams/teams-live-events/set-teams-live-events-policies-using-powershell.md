@@ -18,12 +18,12 @@ description: 有关如何使用 PowerShell 设置团队中的策略以控制哪�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d5f1cceb42afd2be92aedcd0a40af4e23650512
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1c1131790e36fe451444a8c8a3fb25259d5741da
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140643"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691568"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
@@ -36,7 +36,7 @@ ms.locfileid: "43140643"
 下面是一些示例。
 
 > [!NOTE]
-> 必须先连接到 Skype for Business Online PowerShell，然后才能运行这些 cmdlet。 有关详细信息，请参阅[管理 Office 365 PowerShell 的 Skype For Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+> 必须先连接到 Skype for Business Online PowerShell，然后才能运行这些 cmdlet。 有关详细信息，请参阅[管理 Microsoft 365 或 Office 365 PowerShell 的 Skype For Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="allow-users-to-schedule-live-events"></a>允许用户安排实时事件 
 

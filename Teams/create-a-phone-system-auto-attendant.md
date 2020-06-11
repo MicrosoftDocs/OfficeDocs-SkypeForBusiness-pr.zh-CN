@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: ba7da55a33aa1fa65b677146e73ce352158a4cdf
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523791"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697444"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -83,7 +83,7 @@ ms.locfileid: "44523791"
 可通过多种方法设置操作员：
 
 - **No 运算符**禁用 "operator" 和 "按 0" 选项。 这是当前默认值。
-- **组织中的人员**为 Office 365 中的企业语音或分配的呼叫计划分配了电话系统许可证的人员。 您也可以对其进行设置，以便呼叫者发送到语音邮件。 若要将呼叫者发送到语音邮件，请选择 "**组织中的人员**"，并将该帐户的设置设置为直接将呼叫发送到语音邮件。
+- **组织中的人员**向 Microsoft 365 或 Office 365 中的企业语音或已分配呼叫计划分配了电话系统许可证的人员。 您也可以对其进行设置，以便呼叫者发送到语音邮件。 若要将呼叫者发送到语音邮件，请选择 "**组织中的人员**"，并将该帐户的设置设置为直接将呼叫发送到语音邮件。
 
      > [!Note]
      > **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。 选择**组织中的人员**时，您可以选择具有共享邮箱或使用用户邮箱的帐户。
@@ -157,13 +157,13 @@ ms.locfileid: "44523791"
 
 ![数字4的图标，上一个屏幕截图中的标注 ](media/teamscallout4.png) **重定向呼叫**会将呼叫者发送到所选目的地，而无需选择 "从选项"。 可能的设置包括：
 
-  - **组织中的人员**您选择的帐户必须具有为企业语音启用的电话系统许可证或在 Office 365 中分配了呼叫计划。 您可以对其进行设置，以便呼叫者可以发送到语音邮件：选择**组织中的人员**，并将该帐户设置为将呼叫直接转发到语音邮件。
+  - **组织中的人员**所选帐户必须具有为企业语音启用的电话系统许可证或在 Microsoft 365 或 Office 365 中分配了呼叫计划。 您可以对其进行设置，以便呼叫者可以发送到语音邮件：选择**组织中的人员**，并将该帐户设置为将呼叫直接转发到语音邮件。
 
     > [!Note]
     > **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。 选择**组织中的人员**时，您可以选择具有共享邮箱或使用用户邮箱的帐户。
 
   - **语音应用**选择已设置的自动助理或呼叫队列。 按与服务关联的资源帐户的名称搜索自动助理或呼叫队列。
-  - **语音邮件**选择包含组织中需要访问此自动助理接收的语音邮件的用户的 Office 365 组。 语音邮件将发送到您指定的 Office 365 组。 若要访问语音邮件，组成员可以通过导航到 Outlook 中的组来打开它们。
+  - **语音邮件**选择包含组织中需要访问此自动助理接收的语音邮件的用户的 Microsoft 365 组。 语音邮件将发送到您指定的 Microsoft 365 组。 若要访问语音邮件，组成员可以通过导航到 Outlook 中的组来打开它们。
 
       切换**到** **"打开"** 以支持语音语音语音消息。
 
@@ -198,11 +198,11 @@ ms.locfileid: "44523791"
 <!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
 
 - **运算符**如果已设置操作员，则该选项将自动映射到 key 0，但也可以删除或重新分配给其他密钥。 选择此选项的呼叫者将被发送到指定的操作员。 如果运算符未设置为任何键，则语音命令 "Operator" 也会被禁用。 
-- **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。 用户必须具有在 Office 365 中启用企业语音或已分配呼叫计划的电话系统许可证。 在 "**按名称搜索**" 字段中搜索人员。
+- **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。 用户必须具有在 Microsoft 365 或 Office 365 中启用企业语音或分配呼叫计划的电话系统许可证。 在 "**按名称搜索**" 字段中搜索人员。
 
 - **语音应用**选择已设置的自动助理或呼叫队列。 按与应用程序关联的资源帐户的名称搜索自动助理或呼叫队列。
 
-- **语音邮件**选择包含组织中需要访问此自动助理接收的语音邮件的用户的 Office 365 组。 语音邮件将发送到您指定的 Office 365 组。 若要访问语音邮件，组成员可以通过导航到 Outlook 中的组来打开它们。
+- **语音邮件**选择包含组织中需要访问此自动助理接收的语音邮件的用户的 Microsoft 365 组。 语音邮件将发送到您指定的 Microsoft 365 组。 若要访问语音邮件，组成员可以通过导航到 Outlook 中的组来打开它们。
 
     切换**到** **"打开"** 以支持语音语音语音消息。
 
@@ -333,7 +333,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 如果选择 "**所有联机用户**"，则所有符合条件的用户都将包含在目录搜索中。
 
-**自定义用户组**此选项允许你搜索并选择已在你的组织中创建的 Office 365 组、通讯组列表或安全组。 如果用户在所选的 Office 365 组、通讯组列表或安全组中，并且它们是使用**电话系统许可证的在线用户**，或者是使用 Skype For business 服务器内部托管的，则会将用户添加到目录中。 你可以将多个 Microsoft 365 组、通讯组列表和安全组添加到目录中。
+**自定义用户组**此选项允许你搜索并选择已在你的组织中创建的 Microsoft 365 组、通讯组列表或安全组。 如果用户在所选的 Microsoft 365 组、通讯组列表或安全组中，并且它们是使用**电话系统许可证的在线用户**，或者是使用 Skype For business 服务器内部托管的，则会将用户添加到目录中。 你可以将多个 Microsoft 365 组、通讯组列表和安全组添加到目录中。
 
 <a name="dialscope"> </a>
 
@@ -343,8 +343,7 @@ If you choose **Write your call instructions**, enter the script  you want the s
 
 如果您选择 "**无**"，则所有符合条件的用户都将包含在目录搜索中。
 
-**自定义用户组**你可以搜索在你的组织中创建的 Office 365 组、通讯组列表或安全组。 将从目录搜索中排除该组中的用户。 你可以添加多个 Microsoft 365 组、通讯组列表和安全组。
-
+**自定义用户组**你可以搜索在你的组织中创建的 Microsoft 365 组、通讯组列表或安全组。 将从目录搜索中排除该组中的用户。 你可以添加多个 Microsoft 365 组、通讯组列表和安全组。
 
 如果启用 "按名称拨号" 时保留默认设置，则所有符合条件的用户都将包含在目录搜索中。
 
@@ -411,7 +410,7 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
 ### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
 
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以从单个管理点管理 Office 365 和 Microsoft 团队，从而简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以从单个管理点管理 Microsoft 365 或 Office 365 和 Microsoft 团队，从而简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
 
   - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -419,13 +418,13 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
 - Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如为多个用户同时进行设置更改。 通过以下主题了解这些优势：
 
-  - [通过 Office 365 PowerShell 管理 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [通过 Office 365 PowerShell 管理 Microsoft 365 或 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [使用 Windows PowerShell 管理 Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>相关主题
 
-[以下是 Office 365 中的电话系统功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[电话系统的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 [获取服务电话号码](/microsoftteams/getting-service-phone-numbers)
 

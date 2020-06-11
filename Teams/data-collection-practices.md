@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 了解 Microsoft 如何收集人口普查、使用情况和错误数据，以了解团队和 Skype for business 使用情况和问题，以便规划产品改进。
-ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: b7f1f7b63645adfb0cfa0c492a680059ef383402
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137352"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691528"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype for Business 和 Microsoft 团队数据收集实践
 
@@ -104,7 +104,7 @@ Skype for business Server 和 skype for business Online，以及 Skype for busin
 
 - DisableAutomaticSendTracing 组策略设置在服务器或租户管理中心（这是默认状态）下设置为 False。 有关详细信息，请参阅[配置客户端引导策略](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies)。
     
-- 最终用户从 "常规" 选项卡中逐个选择 "（单击![齿轮图标表示齿轮](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)的图标），然后在 Skype for business 客户端中**显示"** **常规**"选项卡。
+- 最终用户从 "常规" 选项卡中逐个选择 "（单击齿轮图标 ![ 表示齿轮的图标 ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) ），然后**Options**在 Skype for business 客户端中显示"**常规**"选项卡。
     
  
 !["选项" 对话框中 "数据收集" 复选框的屏幕截图](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
@@ -115,7 +115,7 @@ Skype for business Server 和 skype for business Online，以及 Skype for busin
 
 你可以参阅为[Skype for Business Online 设置网络](https://support.office.com/article/81fa5e16-418d-4698-a5f0-e666211c5c66)以设置你的网络。
 
-如果您使用的是由中国的世纪互联运营的 Office 365，请参阅[为由世纪互联运营的 Skype for Business Online 设置网络](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
+如果您使用的是由中国的世纪互联运营的 Microsoft 365 或 Office 365，请参阅[为由世纪互联运营的 Skype for Business Online 设置网络](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf)。
 
 ## <a name="related-topics"></a>相关主题
 [音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59c3d9d6ee6da2881aff52efa77c3d13678b560a
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 1338b9f497722b50658545918afa825fb652d462
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350226"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689698"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -132,8 +132,10 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
 
 1. 使用以下链接之一下载与你的 VDI VM 操作系统匹配的团队 MSI 程序包：
 
-    - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
-    - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
+
+    - [32位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+
 
     所需的团队桌面应用的最低版本是1.3.00.4461 版本。 （早期版本不支持 PSTN 保留。）
 
@@ -246,11 +248,11 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
     2.  在 "**会议策略**" 下，单击 " **AllOff**"。
 4. 单击“**应用**”。
 
-要一次为多个用户分配策略，请执行以下操作：
+若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
-2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
+3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。  
 
 或者，您也可以执行以下操作：
 
@@ -302,11 +304,11 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
     2.  在 "**会议策略**" 下，单击 " **AllOn**"。
 4. 单击“**应用**”。
 
-要一次为多个用户分配策略，请执行以下操作：
+若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
-2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
+3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。  
 
 或者，您也可以执行以下操作：
 
@@ -373,3 +375,4 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 - [使用 MSI 安装 Microsoft 团队](msi-deployment.md)
 - [Teams PowerShell 概览](teams-powershell-overview.md)
+- [在 Windows 虚拟桌面版上使用 Microsoft 团队](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何配置 SBC 并将其连接到手机系统直接路由。
-ms.openlocfilehash: fbcc1d79a4875ba835fc77ea24f6356ded3da894
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159030"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691258"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>将会话边界控制器（SBC）连接到直接路由
 
@@ -38,9 +38,9 @@ ms.locfileid: "44159030"
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
-1. 在左侧导航中，转到 "**语音** > **直接路由**"，然后单击 " **SBCs** " 选项卡。
+1. 在左侧导航中，转到 "**语音**  >  **直接路由**"，然后单击 " **SBCs** " 选项卡。
 2. 单击“添加”****。
-3. 输入 SBC 的 FQDN。 <br><br>请确保 FQDN 的域名部分与你的租户中注册的域相匹配，请记住，SBC FQDN 域名不`*.onmicrosoft.com`支持该域名。 例如，如果你有两个域名， `contoso.com`并且`contoso.on.microsoft.com`将`sbc.contoso.com`用作 SBC 名称。
+3. 输入 SBC 的 FQDN。 <br><br>请确保 FQDN 的域名部分与你的租户中注册的域相匹配，请记住， `*.onmicrosoft.com` SBC FQDN 域名不支持该域名。 例如，如果你有两个域名， `contoso.com` 并且 `contoso.on.microsoft.com` 将 `sbc.contoso.com` 用作 SBC 名称。
 4. 根据组织的需求配置 SBC 的以下设置。 有关这些设置的详细信息，请参阅[SBC 设置](#sbc-settings)。
 
     ![Microsoft 团队管理中心中 "添加 SBC" 页面的屏幕截图](media/direct-routing-add-sbc.png)
@@ -86,7 +86,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. 我们建议使用 SBC 文档中可以找到的信息，在 SBC 中设置最大通话限制。 如果 SBC 处于容量级别，则该限制将触发通知。
-  > 2. 仅当 FQDN 的域部分与租户中注册的一个域（onmicrosoft.com 除外\*）匹配时，才能连接 SBC。 SBC \*FQDN 名称不支持使用 onmicrosoft.com 域名。 例如，如果你有两个域名、 **contoso****和 onmicrosoft.com**，则可以使用 sbc for sbc 名称。 如果你尝试使用名称（如 sbc）连接 SBC，则系统将不会允许你，因为域不属于此租户。<br/>
+  > 2. 仅当 FQDN 的域部分与租户中注册的一个域（onmicrosoft.com 除外）匹配时，才能连接 SBC \* 。 \*SBC FQDN 名称不支持使用 onmicrosoft.com 域名。 例如，如果你有两个域名、 **contoso****和 onmicrosoft.com**，则可以使用 sbc for sbc 名称。 如果你尝试使用名称（如 sbc）连接 SBC，则系统将不会允许你，因为域不属于此租户。<br/>
   > 除了在租户中注册的域，还必须有一个用户使用该域和分配的 E3 或 E5 许可证。 如果不是，您将收到以下错误：<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
@@ -164,7 +164,7 @@ Enabled               : True
 |否|**已启用**|已启用|用于为出站呼叫启用 SBC。 你可以使用此功能在更新或维护期间将 SBC 从服务中临时删除。 |False|True<br/>False|Boolean|
 |是|**SIP 信号端口**|SipSignalingPort |这是用于通过使用传输层（TLS）协议与直接路由进行通信的侦听端口。|无|任何端口|0到65535 |
 |否|**发送 SIP 选项**|SendSIPOptions |定义 SBC 是否将发送 SIP 选项消息。 强烈建议您启用此设置。 当此设置关闭时，将从监视和警报系统中排除 SBC。|True|True<br/>False|Boolean|
-|否|**转接呼叫历史记录**|ForwardCallHistory |指示是否通过主干转发通话历史记录信息。 启用此操作时，Office 365 代理将发送历史记录信息和引用者标头。 |False|True<br/>False|Boolean|
+|否|**转接呼叫历史记录**|ForwardCallHistory |指示是否通过主干转发通话历史记录信息。 启用此操作时，Microsoft 365 或 Office 365 代理将发送历史记录信息和引用者标头。 |False|True<br/>False|Boolean|
 |否|**前进 P-声明标识（PAI）标题**|ForwardPAI|指示 PAI 标头是否与呼叫一起转发。 PAI 标头提供了一种验证呼叫者身份的方法。 如果此设置为 "打开"，则还会发送 "隐私： ID" 标头。|False|True<br/>False|Boolean|
 |否|**并发通话容量**|MaxConcurrentSessions |当您设置值时，当并发会话的数量为90% 或高于此值时，警报系统将通知您。 如果不设置值，则不会生成警报。 但是，监视系统将每隔24小时报告一次并发会话的数量。 |Null|Null<br/>1到100000 ||
 |否|**故障转移响应代码**|FailoverResponseCodes<br>|如果直接路由接收到任何用于响应传出邀请的4xx 或 6xx SIP 错误代码，则默认情况下该呼叫视为已完成。 "传出" 指通过流量流从团队客户端到 PSTN 的呼叫：团队客户端-> 直接路由-> SBC-> 电话网络）。 当你指定故障转移响应代码时，这会强制直接路由尝试使用另一个 SBC （如果用户的语音路由策略中存在另一个 SBC），当 SBC 由于网络或其他问题而无法进行呼叫时，收到指定的代码。 若要了解详细信息，请参阅[从会话边界控制器（SBC）处收到的特定 SIP 代码的故障转移](direct-routing-trunk-failover-on-outbound-call.md)。|408、503、504||整形|

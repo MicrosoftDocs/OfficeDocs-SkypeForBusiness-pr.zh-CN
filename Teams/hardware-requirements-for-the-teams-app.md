@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33b88e877afe4711894194d6ae05f51c1244b3af
-ms.sourcegitcommit: 26a6802fb7bfc865771fc476916957524c280d83
+ms.openlocfilehash: 6f097563ae71c6d7f59f0469da98cfbf59f2ec82
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44407374"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690558"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -43,7 +43,7 @@ ms.locfileid: "44407374"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更高版本       |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    | 
-|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有单核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。 </li><li>可选的“**模糊我的背景**”视频效果需要一种支持高级矢量扩展 2 (AVX2) 的处理器。 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>为了使用近程检测在 Microsoft Teams 会议室中加入会议，需要低功耗蓝牙，因此要求在客户端设备上启用蓝牙，而对于 Windows 客户端，则需要 64 位 Teams 客户端。 它在 32 位 Teams 客户端上不可用。</li></ul> |
+|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有单核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。 </li><li>可选的**背景视频效果**需要具有高级矢量扩展2（AVX2）支持或运行 Windows 10 的处理器。 </li><li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>为了使用近程检测在 Microsoft Teams 会议室中加入会议，需要低功耗蓝牙，因此要求在客户端设备上启用蓝牙，而对于 Windows 客户端，则需要 64 位 Teams 客户端。 它在 32 位 Teams 客户端上不可用。</li></ul> |
 |Teams 实时事件 | 如果要生成 Teams 实时事件，建议使用搭载 Core i5 Kaby Lake 处理器、4.0 GB RAM（或更高）和硬件编码器的计算机。 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Teams 在 Mac 上的硬件要求
@@ -57,7 +57,7 @@ ms.locfileid: "44407374"
 |操作系统  |    Mac OS X 10.11 El Capitan 或更高版本     |
 |视频  |    兼容的网络摄像机     |
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
-|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有单核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。 </li><li>可选的“**模糊我的背景**”视频效果需要一种支持高级矢量扩展 2 (AVX2) 的处理器（在最新 2013 年 Mac 设备和更高版本上支持）。 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Mac OS 中不可用。</li></ul> |
+|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有单核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。 </li><li>可选的**背景视频效果**需要具有高级矢量扩展2（AVX2）支持的处理器，该处理器具有最迟于 2013 Mac 设备和更高版本的支持。 </li><li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Mac OS 中不可用。</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Teams 在 Linux 上的硬件要求
 
@@ -72,7 +72,7 @@ ms.locfileid: "44407374"
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    | 
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
-|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有单核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。  </li><li>后台视频效果需要具有高级矢量扩展2（AVX2）支持的处理器（最迟 2013 Mac 设备和更高版本支持）。 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Linux 上不可用。</li></ul>
+|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有单核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。  </li><li>可选的“**模糊我的背景**”视频效果需要一种支持高级矢量扩展 2 (AVX2) 的处理器（在最新 2013 年 Mac 设备和更高版本上支持）。 </li><li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Linux 上不可用。</li></ul>
 |支持的 Linux 发行版 | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Teams 在移动设备上的硬件要求

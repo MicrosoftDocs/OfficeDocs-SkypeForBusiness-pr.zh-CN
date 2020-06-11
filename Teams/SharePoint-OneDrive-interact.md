@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f4f536c6395e17e58f255ac3b88ccca0a092815c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: cdcf054cfcf6b9d4f030ff1cf47bb9959a4cbcf8
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778558"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689818"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 
@@ -37,7 +37,7 @@ Microsoft 团队中的每个团队在 SharePoint Online 中都有一个团队网
 
 私人聊天文件存储在发件人的 OneDrive for business 文件夹中，并将权限自动授予所有参与者作为文件共享过程的一部分。
 
-如果没有为用户分配和启用 SharePoint Online 许可证，则他们在 Office 365 中没有 OneDrive for Business 存储空间。 文件共享将继续在标准频道中工作，但是用户无法在 Office 365 中共享没有 OneDrive for business 存储的聊天文件。
+如果未使用 SharePoint Online 许可证分配和启用用户，则他们在 Microsoft 365 或 Office 365 中没有 OneDrive for business 存储。 文件共享将继续在标准频道中工作，但是在 Microsoft 365 或 Office 365 中，用户无法在没有 OneDrive for business 存储的情况下共享文件。
 
 通过在 SharePoint Online 文档库和 OneDrive for Business 中存储文件，在租户级别配置的所有合规性规则将得到遵循。 
 

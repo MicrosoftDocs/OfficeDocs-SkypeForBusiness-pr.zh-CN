@@ -16,12 +16,12 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eb2a9a3cf2e349ab74fc9059408a7be2c41c8408
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523335"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690898"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -48,7 +48,7 @@ ms.locfileid: "44523335"
 需要授予<sup>1</sup>个用户将会议上载/下载到 Microsoft Stream 的许可证，但不需要许可证即可录制会议。 如果你希望阻止用户录制 Microsoft Teams 会议，则必须为其授予将 AllowCloudRecording 设置为 $False 的 TeamsMeetingPolicy。
 
 > [!IMPORTANT] 
-> 如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这意味着录制不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务（AMS）中，在删除之前将有30天的限制。 目前管理员无法控制或管理它，包括无法删除它。
+> 如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这将意味着，录制不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务（AMS）中，在删除之前将有21天的限制。 目前管理员无法控制或管理它，包括无法删除它。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>为组织中的用户设置 Teams 云会议录制
 
@@ -58,7 +58,7 @@ ms.locfileid: "44523335"
 
 Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一部分，或作为独立服务提供。  有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 现已包含在 Microsoft 365 商业版、Microsoft 365 商业标准版和 Microsoft 365 商业版中。
 
-深入了解如何[将许可证分配给 Office 365 中的用户](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)，以便用户可以访问 Microsoft Stream。 确保未阻止用户的 Microsoft Stream，如[Microsoft stream 的 "阻止登录](https://docs.microsoft.com/stream/disable-user-organization)" 中所定义。
+了解有关如何为[microsoft 365 或 Office 365 中的用户分配许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)的详细信息，以便用户可以访问 microsoft Stream。 确保未阻止用户的 Microsoft Stream，如[Microsoft stream 的 "阻止登录](https://docs.microsoft.com/stream/disable-user-organization)" 中所定义。
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>确保用户在 Microsoft Stream 中上载视频权限
 
@@ -83,11 +83,15 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 
 若要让用户回退到全局策略，请使用以下 cmdlet 删除用户的特定策略分配：
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 若要在全局策略中更改 AllowCloudRecording 的值，请使用以下 cmdlet：
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
+```
 </br>
 </br>
 
@@ -105,7 +109,7 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 
 若要查找你的 Microsoft Stream 数据的存储区域，请在 Microsoft Stream 中单击右上角的 **?**， 单击“**关于 Microsoft Stream**”，然后单击“**您的数据存储于**”。  若要深入了解 Microsoft Stream 存储数据的区域，请参阅 [Microsoft Stream 常见问题解答](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 
-若要深入了解 Office 365 中各服务存储数据的位置，请参阅[你的数据存储在何处？](https://products.office.com/where-is-your-data-located?rtc=1)
+若要了解有关在 Microsoft 365 或 Office 365 中跨服务存储数据的位置的详细信息，请参阅[您的数据位于何处？](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制转录
 
@@ -121,11 +125,15 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 
 若要让用户回退到全局策略，请使用以下 cmdlet 删除用户的特定策略分配：
 
-`Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose`
+```powershell
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
+```
 
 若要在全局策略中更改 AllowTranscription 的值，请使用以下 cmdlet：
 
-`Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false`
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
+```
 </br>
 </br>
 
@@ -150,7 +158,7 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会议录像的合规性和电子数据展示
 
-会议录像存储在 Microsoft Stream 中，该服务符合 Office 365 C 级标准。 为了在 Microsoft Stream 中支持对会议或通话录像感兴趣的合规性管理员的电子数据展示请求，我们会在 Microsoft Teams 的合规性内容搜索功能中提供录制已完成的消息。 合规性管理员可在合规性内容搜索预览中的项目主题行中查找关键字“录像”，找到组织中的会议和通话录像。 查看所有录像的前提条件是，他们需要在 Microsoft Stream 中具有管理员访问权限。 深入了解如何[分配 Stream 中的管理员权限](https://docs.microsoft.com/stream/assign-administrator-user-role)。
+会议录制存储在 Microsoft Stream 中，即 Microsoft 365 和 Office 365 第 C 版兼容。 为了在 Microsoft Stream 中支持对会议或通话录像感兴趣的合规性管理员的电子数据展示请求，我们会在 Microsoft Teams 的合规性内容搜索功能中提供录制已完成的消息。 合规性管理员可在合规性内容搜索预览中的项目主题行中查找关键字“录像”，找到组织中的会议和通话录像。 查看所有录像的前提条件是，他们需要在 Microsoft Stream 中具有管理员访问权限。 深入了解如何[分配 Stream 中的管理员权限](https://docs.microsoft.com/stream/assign-administrator-user-role)。
 
 ## <a name="related-topics"></a>相关主题
 

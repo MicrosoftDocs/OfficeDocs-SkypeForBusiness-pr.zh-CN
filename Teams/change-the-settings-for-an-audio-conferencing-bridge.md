@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 更改音频会议桥设置，包括进入和退出通知、播放姓名或电话号码、声音，以及提示呼叫者录制其姓名。
-ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acebe42e8dbc5707238975c34ce97961c1493d91
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780341"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690908"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>更改音频会议网桥的设置
 
-当您在 Office 365 中设置音频会议时，您将收到来自 "音频会议桥" 的用户的电话号码。一个会议桥可以包含一个或多个电话号码。当呼叫者拨入会议时，将使用这些电话号码。电话号码包含在 Skype for Business 或 Microsoft 团队会议邀请的底部。
+当您在 Microsoft 365 或 Office 365 中设置音频会议时，您将收到来自 "音频会议桥" 的用户的电话号码。一个会议桥可以包含一个或多个电话号码。当呼叫者拨入会议时，将使用这些电话号码。电话号码包含在 Skype for Business 或 Microsoft 团队会议邀请的底部。
   
 会议桥应答呼叫，并使用会议自动助理提示呼叫者提供语音提示，然后根据您的设置，它可以播放通知，让呼叫者录制其姓名，并控制固定设置。当会议组织者未使用 Skype for Business 或 Microsoft 团队应用时，将为会议组织者提供允许他们启动会议的 Pin。
 
@@ -45,7 +45,7 @@ ms.locfileid: "43780341"
 
 ## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
-1. 在左侧导航中，转到 "**会议** > **桥**"。 
+1. 在左侧导航中，转到 "**会议**  >  **桥**"。 
 
 2. 在 "**会议桥**" 页面顶部，单击 "**桥接设置**"。 
 
@@ -72,7 +72,7 @@ ms.locfileid: "43780341"
 
  **在呼叫者加入会议时设置会议体验**
     
-1. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议** > **Microsoft 网桥设置**"。
+1. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议**  >  **Microsoft 网桥设置**"。
     
 2. 在 " **Microsoft bridge 设置**" 页面上的 "**会议加入体验**" 下，选择：
     
@@ -92,9 +92,9 @@ ms.locfileid: "43780341"
   
 1. 使用你的工作或学校帐户登录。
     
-2. 转到**Microsoft 365 管理中心** > **Skype for business**。
+2. 转到**Microsoft 365 管理中心**  >  **Skype for business**。
     
-3. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议** > **Microsoft 网桥设置**"。
+3. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议**  >  **Microsoft 网桥设置**"。
     
 4. 在 " **Microsoft 网桥设置**" 页面上的 "**安全**" 下，在 " **pin 长度**" 列表中输入 pin 所需的数字位数，然后单击 "**保存**"。
     
@@ -105,9 +105,9 @@ ms.locfileid: "43780341"
   
 1. 使用你的工作或学校帐户登录。
     
-2. 转到**Microsoft 365 管理中心** > **Skype for business**。
+2. 转到**Microsoft 365 管理中心**  >  **Skype for business**。
     
-3. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议** > **Microsoft 网桥设置**"。
+3. 在**Skype for business 管理中心**的左侧导航中，转到 "**音频会议**  >  **Microsoft 网桥设置**"。
     
 4. 在 " **Microsoft 网桥设置**" 页面上，选中或清除 "**如果其拨入信息更改，则自动向用户发送电子邮件**"，然后单击 "**保存**"。
     
@@ -117,11 +117,11 @@ ms.locfileid: "43780341"
 
 - 若要节省时间或自动执行此过程，你可以使用[CsDialinConferencingBridge](https://go.microsoft.com/fwlink/?LinkId=617686) cmdlet。
     
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如当你为多个用户同时进行设置更改时。 请在以下主题中了解这些优点： 
     

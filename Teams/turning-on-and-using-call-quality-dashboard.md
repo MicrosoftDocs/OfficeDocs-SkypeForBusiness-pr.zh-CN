@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解如何打开和使用呼叫质量仪表板，获取通话质量的摘要报告。
-ms.openlocfilehash: 9a1c7cb451f722d019a4119daf8ab9c3a08c810f
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 965392e02fa0ff24b38c8191b7b2a7aef904a723
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44243578"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44697439"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>打开和使用 Microsoft 团队和 Skype for business Online 的通话质量仪表板
 
@@ -347,7 +347,7 @@ CQD 摘要报告仪表板包括**租户数据上载**页面，该页面从右上
 - 终结点到终结点的映射/模型/类型等。
   
 > [!NOTE]
-> 你上载到 CQD 的报告标签将按你的 Office 365 协议下的*支持数据*进行处理，包括任何其他被视为*客户数据*或*个人资料*的信息。 请不要包含不希望作为*支持数据*提供给 microsoft 的数据，此信息将对 microsoft 工程师可见，以便于支持之用。
+> 你向 CQD 上载的报告标签将按你的 Microsoft 365 或 Office 365 协议下的*支持数据*进行处理，包括任何其他被视为*客户数据*或*个人资料*的信息。 请不要包含不希望作为*支持数据*提供给 microsoft 的数据，此信息将对 microsoft 工程师可见，以便于支持之用。
 
 ![屏幕截图：显示呼叫质量仪表板租户数据](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   

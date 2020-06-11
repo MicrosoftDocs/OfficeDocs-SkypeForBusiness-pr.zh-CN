@@ -17,12 +17,12 @@ description: 了解如何使用用于管理 Microsoft 团队的 PowerShell 控�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 32370c234e46b860ab026efd6b284d3db3a1458e
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c74f27af718b10aa033c51d4b42d1a3d15bcbc1b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951247"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690948"
 ---
 # <a name="teams-powershell-overview"></a>团队 PowerShell 概述
 
@@ -44,9 +44,9 @@ PowerShell 控件的参考文档将告诉你你正在调查的 cmdlet 所在的�
 
 用于创建和管理团队的 cmdlet 位于[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams/)中。 
 
-团队由 O365 组进行支持，因此当你创建团队时，将创建一个组。 提供了一组 cmdlet，用于在核心团队及其``new-team``设置（、 ``get-team``、 ``set-team``）、管理团队用户（``add-teamuser`` ``remove-teamuser``、）以及用于管理团队频道（``new-teamchannel``、 ``remove-teamchannel``）的 cmdlet 之间进行操作。 所有这些 cmdlet 都可以作为最终用户运行，但它们仅适用于您拥有或属于其成员的团队。 如果你是全局管理员或团队服务管理员，你将能够针对组织中的所有团队执行操作。
+团队由 Microsoft 365 组支持，因此当你创建团队时，将创建一个组。 提供了一组 cmdlet，用于在核心团队及其设置（ ``new-team`` 、 ``get-team`` 、 ``set-team`` ）、管理团队用户（、）以及 ``add-teamuser`` ``remove-teamuser`` 用于管理团队频道（ ``new-teamchannel`` 、）的 cmdlet ``remove-teamchannel`` 之间进行操作。 所有这些 cmdlet 都可以作为最终用户运行，但它们仅适用于您拥有或属于其成员的团队。 如果你是全局管理员或团队服务管理员，你将能够针对组织中的所有团队执行操作。
 
-> Microsoft 团队 PowerShell 模块 cmdlet 中使用的**GroupId**与 Exchange PowerShell 模块``Get-UnifiedGroup``中返回的**Identity**属性相同。
+> Microsoft 团队 PowerShell 模块 cmdlet 中使用的**GroupId**与 Exchange PowerShell 模块中返回的**Identity**属性相同 ``Get-UnifiedGroup`` 。
 
 ### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>预览和一般可用的 Microsoft 团队 PowerShell 模块之间的差异
 
@@ -84,30 +84,30 @@ PowerShell 控件的参考文档将告诉你你正在调查的 cmdlet 所在的�
 使用[Skype For business cmdlet 模块](https://www.microsoft.com/download/details.aspx?id=39366)中的 cmdlet 管理单个用户的策略。
 
 > [!NOTE]
-> 一旦连接到 Skype for Business Online，cmdlet 将在你的 PowerShell 会话中可用。 有关详细信息，请参阅[管理 Office 365 PowerShell 的 Skype For Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。 
+> 一旦连接到 Skype for Business Online，cmdlet 将在你的 PowerShell 会话中可用。 有关详细信息，请参阅[管理 Microsoft 365 或 Office 365 PowerShell 的 Skype For Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。 
 
 策略是一组可对单个用户进行精确应用的设置。 每个策略类型都有自己的一组用于创建、查看、删除和更新策略的 cmdlet，然后将这些策略分配给用户。 常规结构是：
 
-- 获取命令（例如``Get-CsTeamsMeetingPolicy``）：返回可供您在组织中分配的策略文档，由 Microsoft 创建以供您使用的策略和您创建的自定义策略。
-   > 如果您只想查找您在组织中创建的自定义策略，则可以使用``-Filter "tag:*"``。
+- 获取命令（例如 ``Get-CsTeamsMeetingPolicy`` ）：返回可供您在组织中分配的策略文档，由 Microsoft 创建以供您使用的策略和您创建的自定义策略。
+   > 如果您只想查找您在组织中创建的自定义策略，则可以使用 ``-Filter "tag:*"`` 。
 
-- 新命令（例如``New-CsTeamsMeetingPolicy``）：让你可以为你的组织创建新策略，这些策略随后可分配给你的组织中的用户。 并非所有策略都支持创建自定义策略。 通常，这是为了确保您在组织中使用的策略具有受支持的设置组合。
+- 新命令（例如 ``New-CsTeamsMeetingPolicy`` ）：让你可以为你的组织创建新策略，这些策略随后可分配给你的组织中的用户。 并非所有策略都支持创建自定义策略。 通常，这是为了确保您在组织中使用的策略具有受支持的设置组合。
 
-- SET 命令（例如``Set-CsTeamsMeetingPolicy``）：允许你在给定策略上设置特定值。 某些策略没有可用的 set 命令，或者包含无法在策略中自定义的参数。 每个 PowerShell 说明将调用无法自定义的参数。 
-   > 若要编辑默认情况下将分配给您的组织中未分配自定义策略的用户的策略，请运行``Set-Cs<PolicyName> -Identity Global``。
+- SET 命令（例如 ``Set-CsTeamsMeetingPolicy`` ）：允许你在给定策略上设置特定值。 某些策略没有可用的 set 命令，或者包含无法在策略中自定义的参数。 每个 PowerShell 说明将调用无法自定义的参数。 
+   > 若要编辑默认情况下将分配给您的组织中未分配自定义策略的用户的策略，请运行 ``Set-Cs<PolicyName> -Identity Global`` 。
 
-- 删除命令（例如``Remove-CsTeamsMeetingPolicy``）：你可以使用此 cmdlet 删除已在租户中创建的自定义策略。 如果您删除的自定义策略已分配给您的组织中的至少一个用户，该用户将回退到全局策略。
-   > 你不能真正删除你的组织中的全局策略，但是如果你想要将组织中的全局策略重置为 Microsoft 提供的默认设置，则``Remove-Cs<PolicyName> -Identity Global``可以运行。
+- 删除命令（例如 ``Remove-CsTeamsMeetingPolicy`` ）：你可以使用此 cmdlet 删除已在租户中创建的自定义策略。 如果您删除的自定义策略已分配给您的组织中的至少一个用户，该用户将回退到全局策略。
+   > 你不能真正删除你的组织中的全局策略，但是如果你想要将组织中的全局策略重置为 Microsoft 提供的默认设置，则可以运行 ``Remove-Cs<PolicyName> -Identity Global`` 。
 
-- "授予" ``Grant-CsTeamsMeetingPolicy``命令（例如）：允许您向特定用户分配策略。
-   > 若要删除自定义策略分配并使用户回退到组织中的默认策略，请运行``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``。
+- "授予" 命令（例如 ``Grant-CsTeamsMeetingPolicy`` ）：允许您向特定用户分配策略。
+   > 若要删除自定义策略分配并使用户回退到组织中的默认策略，请运行 ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` 。
 
 > [!TIP]
-> 并非所有策略都允许创建自定义策略，某些策略具有你无法自定义的设置（因此你可以查看设置，但不能在和``set-`` ``new-``期间设置自定义值）。 如果参数不可供客户使用，特定 cmdlet 的文档将会调用。
+> 并非所有策略都允许创建自定义策略，某些策略具有你无法自定义的设置（因此你可以查看设置，但不能在和期间设置自定义值 ``set-`` ``new-`` ）。 如果参数不可供客户使用，特定 cmdlet 的文档将会调用。
 
 常用参数：
 
-- **标识**：对于``Get-``、 ``Set-``、 ``New-``和``Remove-``， **identity**参数将始终引用特定策略实例。 对于``Grant``， **Identity**参数引用要对其应用策略的特定用户对象。
+- **标识**：对于 ``Get-`` 、 ``Set-`` 、 ``New-`` 和， ``Remove-`` **identity**参数将始终引用特定策略实例。 对于 ``Grant`` ， **Identity**参数引用要对其应用策略的特定用户对象。
 
 <!--more info here?-->
 
@@ -117,10 +117,10 @@ PowerShell 控件的参考文档将告诉你你正在调查的 cmdlet 所在的�
 
 配置是在服务中维护的不能在用户级别指定的设置的存储桶。 设置始终在整个组织中应用。 您的全局配置是您的组织中唯一有效的配置。 每种配置类型均带有两个主要 cmdlet：
 
-- ``Get-Cs<ConfigurationName>``（例如``Get-CsTeamsClientConfiguration``）： 
+- ``Get-Cs<ConfigurationName>``（例如 ``Get-CsTeamsClientConfiguration`` ）： 
 
-- SET 命令（例如``Set-CsTeamsClientConfiguration``）：在该类型的配置中设置属性。 指定要修改的参数。
-   > 你可以通过以下两种方式之一引用你正在修改的配置：通过指定**全局标识**或通过运行``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``进行修改。
+- SET 命令（例如 ``Set-CsTeamsClientConfiguration`` ）：在该类型的配置中设置属性。 指定要修改的参数。
+   > 你可以通过以下两种方式之一引用你正在修改的配置：通过指定**全局标识**或通过运行进行修改 ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>`` 。
 
 ## <a name="other-powershell-tools"></a>其他 PowerShell 工具
 

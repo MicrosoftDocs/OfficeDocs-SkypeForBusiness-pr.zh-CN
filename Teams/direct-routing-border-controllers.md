@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解哪些会话边界控制器（SBCs）已验证了直接路由。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 35ce7be2c99ad0de9da3d397c8b6aed28a3634bc
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 1a76ed1e3a386aef7d6b6216b279a1e712e20f88
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666094"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691268"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -81,7 +81,12 @@ Microsoft 与每位供应商协作：
 | [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     |
 | [带](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000。软件版本：8.1.1 （内部版本527）](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [带](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000。软件版本：8.1.1 （内部版本527）](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-
+| [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 软件版本8.3.0.1。2 |     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP3900 软件版本8.3.0.1。2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 软件版本8.3.0.1。2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 软件版本8.3.0.1。2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 软件版本8.3.0.1。2|     &#10004;     |
+  | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME 软件版本8.3.0.1。2 |     &#10004;     |
 
 若要向我们提供有关团队的产品反馈，例如新功能的想法，请参阅[Uservoice](https://microsoftteams.uservoice.com)。
 请注意授予主要版本的证书。 这意味着支持在主要版本之后的 SBC 固件中包含任何数字的固件。

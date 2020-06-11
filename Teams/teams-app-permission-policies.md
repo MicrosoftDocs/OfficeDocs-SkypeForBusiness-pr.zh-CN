@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: a7e8cf5e6ed4329a617a7922d4c4380fb5593b7c
-ms.sourcegitcommit: 8395f91205bde549a0a92999ef00c5f5fb03fb80
+ms.openlocfilehash: b54a4263adc8e697a19f997ac34018e1e2b2c302
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "44583509"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691008"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -92,11 +92,11 @@ ms.locfileid: "44583509"
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
 3. 在 "**应用权限策略**" 下，选择要分配的应用权限策略，然后单击 "**应用**"。
 
-要一次为多个用户分配策略，请执行以下操作：
+若要一次向多个用户分配策略，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
-2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
+1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
+2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
+3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。  
 
 或者，您也可以执行以下操作：
 
@@ -113,7 +113,7 @@ ms.locfileid: "44583509"
 在此示例中，我们将名为 HR App 权限策略的自定义应用权限策略分配给 Contoso 制药人力资源项目组中的所有用户。  
 
 > [!NOTE]
-> 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
+> 通过按照[连接到单个 Windows PowerShell 窗口中的所有 Microsoft 365 或 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
 
 获取特定组的 GroupObjectId。
 ```PowerShell

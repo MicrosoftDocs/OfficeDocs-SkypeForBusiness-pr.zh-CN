@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: 了解 Microsoft 团队中的 Office 365 呼叫计划和 Office 365 音频会议的免费拨出期。
-ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 了解 microsoft 团队中 Microsoft 365 或 Office 365 通话计划和 Office 365 音频会议的免费拨出期。
+ms.openlocfilehash: 11788e00b1fa643f18beaca2b339a1770c6cd909
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779789"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690888"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音频会议免费拨出期
 
 ## <a name="skype-for-business-pstn-services"></a>Skype for Business PSTN 服务
 
-Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as permitted in the Skype for Business Online PSTN Services Use Terms and Customer's volume licensing agreement. The PSTN Services Use Terms may be found at [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN).
+客户可以使用 Microsoft 365 或 Office 365 通话计划和 Office 365 Skype for Business Online PSTN 服务中允许的音频会议使用条款和客户批量许可协议。可以在[许可条款和文档](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)中找到 PSTN 服务使用条款。
   
 ### <a name="end-of-complimentary-dial-out-period"></a>试用拨出期结束
 
@@ -44,7 +44,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 
 ### <a name="complimentary-dial-out-period-details"></a>免费拨出期的详细信息
 
-对于使用我们的 Office 365 音频会议服务的客户，Microsoft 将提供其他免费的优惠，与通过用户分配的会议（通过11月2019）分配的 Office 365 音频会议订阅许可证相关。 在此免费试用期内，Microsoft 允许会议组织者或已授权的与会者在会议策略设置中定义，以便从会议内部拨出电话到以下列出的 44 "区域 A" 中的非高级电话号码。 此优势适用于每月套餐的音频会议许可证，并且不会延长到音频会议每分钟付费许可证。
+对于采用 Microsoft 365 或 Office 365 音频会议服务的客户，Microsoft 将提供与通过用户分配的 Microsoft 365 或 Office 365 音频会议订阅许可证通过11月2019组织的会议相关的额外优惠优势。 在此免费试用期内，Microsoft 允许会议组织者或已授权的与会者在会议策略设置中定义，以便从会议内部拨出电话到以下列出的 44 "区域 A" 中的非高级电话号码。 此优势适用于每月套餐的音频会议许可证，并且不会延长到音频会议每分钟付费许可证。
 
 此外，在拨出期内有900分钟上限限制，如下所示：
 
@@ -58,7 +58,7 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 - 对不在区域中的目标的所有出站呼叫均按分钟计费，使用通讯信用点数以我们的已发布费率发送到该目的地（前提是租户已设置了通讯信用点数，并为会议组织者分配了通讯信用许可证）。
 
 > [!NOTE]
-> 你可以在 Skype for business 管理中心内监视拨出分钟池的使用情况。 在 "Microsoft 团队 & Skype 管理中心" 中，转到**旧版门户** > **报告** > **PSTN 分钟池**。 此免费的分钟数池将在报告中标记为 "对国家和地区进行出站通话"。
+> 你可以在 Skype for business 管理中心内监视拨出分钟池的使用情况。 在 "Microsoft 团队 & Skype 管理中心" 中，转到**旧版门户**  >  **报告**  >  **PSTN 分钟池**。 此免费的分钟数池将在报告中标记为 "对国家和地区进行出站通话"。
 
 当租户的拨出分钟池利用率达到80% 和100% 时，将向给定客户的所有租户管理员发送电子邮件通知。
 

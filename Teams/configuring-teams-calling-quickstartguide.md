@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10d52aca36d92029f8ee832be84e6dc7d140f749
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f95a38727a886187e6bf01b0a4ec64e5546b627d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902877"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689648"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>快速入门指南：在 Microsoft Teams 中配置通话套餐
 ==============================================================
@@ -36,7 +36,7 @@ ms.locfileid: "43902877"
 > [!NOTE]
 > 我们建议，与本快速入门指南并行，[使用通话计划](calling-plan-landing-page.md)和[FastTrack](https://aka.ms/cloudvoice)阅读电话系统以规划和推动成功的推出。
 
-通过添加呼叫计划-Skype for Business 支持的 Office 365 功能-您现在可以使用团队通过公共交换电话网络（PSTN）拨打和接收来自土地线路和移动电话的电话呼叫。
+通过添加呼叫计划-由 Skype for Business 支持的 Microsoft 365 和 Office 365 功能-您现在可以通过公共交换电话网络（PSTN）使用团队来拨打和接收来自土地线路和移动电话的电话呼叫。
 
 ![显示团队中的联系人页面的屏幕截图](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>启用团队中的 "**调用**" 选项卡的先决条件

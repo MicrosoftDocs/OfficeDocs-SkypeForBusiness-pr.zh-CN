@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5846d3912f9acea3a21174b7468e8376e9779b55
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637501"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690008"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -75,7 +75,7 @@ Microsoft 团队中有两个主要角色：
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-如果你是 Office 365 中的 Microsoft 团队管理员，则可以访问 Microsoft 团队管理中心中的系统范围设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围内的通知、讨论和资源启用默认频道 "常规"，这些通知将显示在所有团队中。
+如果你是 Microsoft 365 或 Office 365 中的 Microsoft 团队管理员，则可以在 Microsoft 团队管理中心中访问系统范围的设置。 这些设置可能会影响团队所有者在团队设置下看到的选项和默认设置。 例如，你可以为团队范围内的通知、讨论和资源启用默认频道 "常规"，这些通知将显示在所有团队中。
 
 默认情况下，所有用户都有权在 Microsoft Teams 中创建团队（要对此进行修改，请参阅[在 Teams 中指定角色和权限](assign-roles-permissions.md)）。 现有 Microsoft 365 组的用户还可以使用团队功能增强其权限。
 

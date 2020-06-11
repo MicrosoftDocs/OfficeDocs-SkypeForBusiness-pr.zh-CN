@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: '了解如何在 Microsoft 团队管理中心添加、更改或删除你的组织的紧急位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae3a224b38fba412b9c0dc4ec0bfde5028440a79
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 5758d79325cd83579e2a650db47c9913a0cda26b
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610321"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690838"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>添加、 更改或删除您的组织紧急地点
 
@@ -46,6 +46,7 @@ ms.locfileid: "44610321"
 
    > [!NOTE]
    > 在比利时、法国、德国、爱尔兰、荷兰和西班牙，请务必了解要在 Microsoft 365 或 Office 365 中成功激活电话号码，在用于获取号码的紧急位置中设置的地址必须与电话号码的区域代码匹配。
+
 5. 如果找不到地址，而您想要手动编辑地址，请打开 "**手动编辑地址"**。
 6. 单击“**保存**”。
 

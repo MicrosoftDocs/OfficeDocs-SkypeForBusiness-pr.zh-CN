@@ -20,12 +20,12 @@ search.appverid: MET150
 description: 了解有关云语音功能的详细信息，并了解你将面临的必要部署决策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 952eb7064844cf0e77e829cd2506c4303504074c
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 96d4f6b5e75e0f0f716b4f1b840b079996344cfb
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281667"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690788"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Cloud voice in Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "44281667"
 
 以下文章提供了有关在团队中部署和使用云语音功能的详细信息：
 
-- [Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
+- [Microsoft 365 或 Office 365 中的电话系统](what-is-phone-system-in-office-365.md)
 - [具有通话套餐的电话系统](calling-plan-landing-page.md)
 - [电话系统直接路由](direct-routing-landing-page.md)
 - [云语音部署](cloud-voice-deployment.md)
@@ -57,12 +57,12 @@ ms.locfileid: "44281667"
 
 ## <a name="phone-system-office-365"></a>电话系统（Office 365）
 
-电话系统是 Microsoft 在 Office 365 云中启用呼叫控制和专用分支交换（PBX）功能的技术。 电话系统允许你将现有的专用分支 Exchange （PBX）系统替换为直接从 Office 365 提供的一组功能，并紧密集成到公司的云生产效率体验中。
+电话系统是 Microsoft 365 或 Office 365 云中支持呼叫控制和专用分支交换（PBX）功能的 Microsoft 技术。 电话系统允许你将现有的专用分支 Exchange （PBX）系统替换为直接从 Microsoft 365 或 Office 365 提供的一组功能，并与公司的云生产效率体验紧密集成。
 
 
 |询问你自己|操作 |
 |:------------|:-------|
-|哪些用户位置或办公室将实施电话系统？ |有关电话系统的详细信息，请参阅[Office 365 中的 "什么是电话系统](what-is-phone-system-in-office-365.md)"。</li></ul>|
+|哪些用户位置或办公室将实施电话系统？ |有关电话系统的详细信息，请参阅[Microsoft 365 或 Office 365 中的什么是电话系统](what-is-phone-system-in-office-365.md)。</li></ul>|
 |||
 
 ## <a name="connection-to-the-public-switched-telephone-network-pstn"></a>连接到公共交换电话网络（PSTN）
@@ -120,7 +120,7 @@ Microsoft 有两种类型的电话*号码：可*分配给您组织中的用户�
 
 ### <a name="dial-plans"></a>拨号计划
 
-Office 365 的电话系统功能中的拨号计划是一组规范化规则，可将拨出的电话号码转换为 "呼叫授权" 和 "呼叫路由" 的备用格式（通常为 E-164 格式）。
+Microsoft 365 或 Office 365 的电话系统功能中的拨号计划是一组规范化规则，可将拨出的电话号码转换为呼叫授权和呼叫路由的备用格式（通常为 E-164 格式）。
 
 有关拨号计划的详细信息，请参阅[什么是拨号计划？](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans)
 

@@ -16,29 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 从 Skype for Business Online 和 Teams 配置角度了解迁移到直接路由所需的内容。
-ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 11240c3a1067885dbf34499a4e131185acccbf52
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888581"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691358"
 ---
 # <a name="migrate-to-direct-routing"></a>迁移到直接路由
 
 本文从 Skype for Business Online 和 Microsoft Teams 配置角度描述迁移到直接路由所需的内容。 本文介绍了如何从以下各项进行迁移： 
  
-- Office 365 电话系统，含通话套餐（适用于 Teams 和 Skype for Business Online） 
-- 使用 Skype for Business Server 中本地 PSTN 连接的 Office 365 电话系统（适用于 Skype for Business Online）
-  
-- 通过使用云连接器版本使用本地 PSTN 连接的 Office 365 电话系统（适用于 Skype for Business Online）
-
+- 带有呼叫计划（适用于团队和 Skype for business Online）的电话系统 
+- Skype for business 服务器中具有本地 PSTN 连接的电话系统（适用于 Skype for business Online）  
+- 具有使用云连接器版本的本地 PSTN 连接的电话系统（适用于 Skype for business Online）
 
 
 除了这些配置步骤外，还需要在会话边界控制器 (SBC) 上进行配置，才能将通话转接到新的路由。 那超出了本文档的范畴。 有关详细信息，请参阅 SBC 供应商文档。  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>用于各种 PSTN 连接选项的用户预配结束状态 
 
-下表显示了为 Office 365 电话系统选定 PSTN 连接选项配置的用户预配结束状态。 仅显示与语音相关的属性。
+下表显示了使用电话系统为选定的 PSTN 连接选项设置的用户的结束状态。 仅显示与语音相关的属性。
 
 |用户对象属性 |具有通话套餐的电话系统|通过 Skype for Business Server 使用本地 PSTN 连接的电话系统
 |通过云连接器使用本地 PSTN 连接的电话系统|通过直接路由使用本地 PSTN 连接的电话系统|

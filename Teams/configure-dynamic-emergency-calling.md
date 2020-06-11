@@ -17,12 +17,12 @@ description: 了解如何配置 Microsoft 通话计划和电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e0523086ab985a488da15305fffbed8c57b0dc
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 50e32c34b211766aa5fc3ad7732b1dd392ed8346
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232573"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690878"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -159,7 +159,7 @@ Azure 映射用于基于位置的服务。  使用 Microsoft 团队管理中心�
 
 使用以下策略配置紧急呼叫。 你可以在 Microsoft 团队管理中心或通过使用 PowerShell 管理这些策略。
 
-- **紧急呼叫路由策略**-仅适用于直接路由。 此政策配置紧急号码、每个号码的掩码（如果需要），以及每个号码的 PSTN 路由。  你可以将此策略分配给用户和/或网络站点。 （通话计划团队客户将根据其 Office 365 的使用位置，自动为紧急呼叫启用来自国家/地区的紧急电话号码。） 若要了解详细信息，请参阅[管理直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。
+- **紧急呼叫路由策略**-仅适用于直接路由。 此政策配置紧急号码、每个号码的掩码（如果需要），以及每个号码的 PSTN 路由。  你可以将此策略分配给用户和/或网络站点。 （通话计划团队客户将根据其 Microsoft 365 或 Office 365 的使用位置，自动为紧急呼叫启用来自国家/地区的紧急电话号码。） 若要了解详细信息，请参阅[管理直接路由的紧急呼叫路由策略](manage-emergency-call-routing-policies.md)。
 
 - **紧急呼叫政策**-适用于通话计划和直接路由。 此策略配置在进行紧急呼叫时的安全桌面通知体验。 可以设置要通知的人员以及通知的方式。 例如，自动通知组织的安全桌面并让他们在紧急电话上侦听。  此策略既可以分配给用户，也可以同时分配给用户或网络站点。 若要了解详细信息，请参阅[管理团队中的紧急呼叫策略](manage-emergency-calling-policies.md)。
 

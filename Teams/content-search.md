@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: 了解如何在 Microsoft 团队中使用 "内容搜索" 查询来自 Exchange、SharePoint Online、OneDrive for business 和 OneNote 的 Microsoft 团队信息。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 45da4a0f4acf66cb8caafcd8d2bc2287c1176c94
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776447"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690438"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>在 Microsoft Teams 中使用内容搜索
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "43776447"
 
 内容搜索提供了一种方法，可查询 Microsoft 团队信息，跨越 Exchange、SharePoint Online 和 OneDrive for business。
 
-若要了解详细信息，请阅读[Office 365 中的内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
+若要了解详细信息，请阅读[Microsoft 365 或 Office 365 中的内容搜索](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a)。
 
 例如，针对制造规范邮箱和制造规范 SharePoint 网站使用**内容搜索**，您可以从 Exchange、文件上传和 sharepoint Online 的修改以及 OneNote 更改中搜索团队标准频道对话。
 

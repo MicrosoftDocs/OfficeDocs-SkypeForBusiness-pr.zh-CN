@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft Phone 系统直接路由如何让你将受支持的客户提供的会话边界控制器（SBC）连接到 Microsoft Phone 系统。
-ms.openlocfilehash: 29b4136c553d8b0f77fbb10259899ebea793ed98
-ms.sourcegitcommit: 1df448516b05bccd0527256b1f4f20792566f8a2
+ms.openlocfilehash: bd221be2174a538956667e0b113d459f2293882f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "44428949"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691228"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -71,22 +71,22 @@ Microsoft 还提供了所有云语音解决方案，例如呼叫计划。 但是
 |:--- |:--- |
 |会话边框控制器（SBC）|受支持的 SBC。 有关详细信息，请参阅[支持的 SBCs](#supported-session-border-controllers-sbcs)。|
 |连接到 SBC 的电话中继|一个或多个电话中继连接到 SBC。 一端，SBC 通过直接路由连接到 Microsoft 手机系统。 SBC 还可以连接到第三方电话实体，如 Pbx、模拟电话适配器等。 任何连接到 SBC 的 PSTN 连接选项都将正常工作。 （有关将 PSTN 中继到 SBC 的配置，请参阅 SBC 供应商或主干提供商。）|
-|Office 365 组织|用于家庭 Microsoft 团队用户的 Office 365 组织以及与 SBC 的配置和连接。|
-|用户注册机构|用户必须托管在 Office 365 中。<br/>如果你的公司有一个本地 Skype for Business 或 Lync 环境以及与 Office 365 的混合连接，则无法为驻留在本地的用户启用团队中的语音。<br/><br/>若要检查用户的注册机构，请使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>该 cmdlet 的输出应显示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|域|添加到您的 Office 365 组织的一个或多个域。<br/><br/>请注意，你无法使用 \* 为你的租户自动创建的默认域 onmicrosoft.com。<br/><br/>若要查看域，您可以使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有关域和 Office 365 组织的详细信息，请参阅[域常见问题解答](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
+|Microsoft 365 或 Office 365 组织|用于家庭 Microsoft 团队用户的 Microsoft 365 或 Office 365 组织，以及与 SBC 的配置和连接。|
+|用户注册机构|用户必须托管在 Microsoft 365 或 Office 365 中。<br/>如果您的公司有一个本地 Skype for Business 或 Lync 环境，并且具有与 Microsoft 365 或 Office 365 的混合连接，则无法为驻留在本地的用户启用团队中的语音。<br/><br/>若要检查用户的注册机构，请使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>该 cmdlet 的输出应显示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|域|添加到 Microsoft 365 或 Office 365 组织的一个或多个域。<br/><br/>请注意，你无法使用 \* 为你的租户自动创建的默认域 onmicrosoft.com。<br/><br/>若要查看域，您可以使用以下 Skype for Business Online PowerShell cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有关域和 Microsoft 365 或 Office 365 组织的详细信息，请参阅[域常见问题解答](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |SBC 的公共 IP 地址|可用于连接到 SBC 的公共 IP 地址。 SBC 可以使用 NAT，具体取决于 SBC 的类型。|
-|适用于 SBC 的完全限定的域名（FQDN）|SBC 的 FQDN，其中 FQDN 的域部分是 Office 365 组织中的注册域之一。 有关详细信息，请参阅[SBC 域名](#sbc-domain-names)。|
+|适用于 SBC 的完全限定的域名（FQDN）|SBC 的 FQDN，其中 FQDN 的域部分是 Microsoft 365 或 Office 365 组织中的注册域之一。 有关详细信息，请参阅[SBC 域名](#sbc-domain-names)。|
 |SBC 的公共 DNS 条目 |将 SBC FQDN 映射到公共 IP 地址的公共 DNS 条目。 |
 |适用于 SBC 的公共受信任证书 |用于 SBC 的证书，用于与直接路由的所有通信。 有关详细信息，请参阅[SBC 的公共受信任证书](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的连接点 |直接路由的连接点是以下三个 Fqdn：<br/><br/>`sip.pstnhub.microsoft.com`-必须首先尝试全局 FQDN。<br/>`sip2.pstnhub.microsoft.com`-辅助 FQDN，地理位置映射到第二个优先级区域。<br/>`sip3.pstnhub.microsoft.com`-第三方 FQDN-地理位置映射到第三个优先级区域。<br/><br/>有关配置要求的信息，请参阅[SIP 信号： fqdn](#sip-signaling-fqdns)。|
-|用于直接路由媒体的防火墙 IP 地址和端口 |SBC 与云中的以下服务进行通信：<br/><br/>负责处理信号的 SIP 代理<br/>处理媒体的媒体处理器-当媒体绕过时除外<br/><br/>这两个服务在 Microsoft 云中具有单独的 IP 地址，如本文档后面部分所述。<br/><br/>有关详细信息，请参阅[Office 365 url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中的 " [Microsoft 团队" 部分](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
+|用于直接路由媒体的防火墙 IP 地址和端口 |SBC 与云中的以下服务进行通信：<br/><br/>负责处理信号的 SIP 代理<br/>处理媒体的媒体处理器-当媒体绕过时除外<br/><br/>这两个服务在 Microsoft 云中具有单独的 IP 地址，如本文档后面部分所述。<br/><br/>有关详细信息，请参阅[url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)中的 " [Microsoft 团队" 部分](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。 |
 |媒体传输配置文件|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-适用于 Microsoft 团队媒体的防火墙 IP 地址和端口 |有关详细信息，请参阅[Office 365 url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
+适用于 Microsoft 团队媒体的防火墙 IP 地址和端口 |有关详细信息，请参阅[url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。 |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>许可和其他要求 
 
-直接路由用户必须在 Office 365 中分配以下许可证： 
+直接路由用户必须在 Microsoft 365 或 Office 365 中分配以下许可证： 
 
 - Microsoft Phone 系统。 
 - Microsoft 团队 + Skype for Business 计划2（如果包含在 "授权" 中）。
@@ -117,7 +117,7 @@ Microsoft 还提供了所有云语音解决方案，例如呼叫计划。 但是
 
 为同一用户混合呼叫计划和直接路由连接是可选的，但可能很有用（例如，当用户分配了 Microsoft 通话计划，但想要使用 SBC 路由某些调用）。 最常见的方案之一是调用第三方的 Pbx。  使用第三方 Pbx，除与连接到该 Pbx 的手机通话外，所有通话均使用 Microsoft 通话计划进行路由，但连接到第三方 Pbx 的电话的电话将转到 SBC，因此在企业网络中，而不是 PSTN。 
 
-有关电话系统许可的详细信息，请参阅[使用 office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[Office 365 计划选项](https://technet.microsoft.com/library/office-365-plan-options.aspx)充分利用 office。 
+有关电话系统许可的详细信息，请参阅[充分利用 Office](https://products.office.com/compare-all-microsoft-office-products?tab=2)和[计划选项](https://technet.microsoft.com/library/office-365-plan-options.aspx)。 
 
 有关电话系统许可的详细信息，请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
 
@@ -190,15 +190,15 @@ Microsoft 正在努力根据客户请求添加其他认证机构。
 
 ## <a name="sip-signaling-fqdns"></a>SIP 信号： Fqdn 
 
-直接路由在以下 Office 365 环境中提供：
-- Office 365
+直接路由在以下环境中提供：
+- Microsoft 365 或 Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
 
 了解有关[Office 365 和美国政府环境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)（如 GCC、gcc 高级版和 DoD）的详细信息。
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 和 Office 365 GCC 环境
 
 直接路由的连接点是以下三个 Fqdn：
 
@@ -251,8 +251,8 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 将解析为下列 IP 地址之一：
 
 ## <a name="sip-signaling-ports"></a>SIP 信号：端口
 
-对于 Office 365 环境，您必须使用以下端口，即提供直接路由：
-- Office 365
+你必须为 Microsoft 365 或 Office 365 环境使用以下端口，其中提供了直接路由：
+- Microsoft 365 或 Office 365
 - Office 365 GCC
 - Office 365 GCC 高
 - Office 365 DoD
@@ -282,7 +282,7 @@ SBC 进行 DNS 查询来解析 sip.pstnhub.microsoft.com。 根据 SBC 位置和
 
 媒体流量从 Microsoft 云中单独的服务流出。 媒体流量的 IP 地址范围如下所示。
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 和 Office 365 GCC 环境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365 和 Office 365 GCC 环境
 
 - 52.112.0.0/14 （从52.112.0.1 到52.115.255.254 的 IP 地址）。
 - 52.120.0.0/14 （从52.120.0.1 到52.123.255.254 的 IP 地址）。
@@ -320,7 +320,7 @@ SIP 代理和媒体处理器组件部署的位置：
 
 仅部署媒体处理器的位置（SIP 通过上面列出的最接近的数据中心流）：
 - 日本（JP 和西部数据中心）
-- 澳大利亚（AU 东和西数据中心）
+- 澳大利亚（AU 东和东南部数据中心）
 
 
 

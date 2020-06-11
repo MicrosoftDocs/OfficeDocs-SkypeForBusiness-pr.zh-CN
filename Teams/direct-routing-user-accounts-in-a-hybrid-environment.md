@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解用户创建的不同组合以及支持或不支持的组合。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 635ab29498ee01c976b33dc62a193bb723ba190e
-ms.sourcegitcommit: ebdad71a8d393466e33a2fdc8606d882a6007588
+ms.openlocfilehash: a7b41eb474d7574aa23b5fa195219794ed715424
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "44280251"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690868"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>采用 PSTN 连接的混合环境中的用户帐户
 
@@ -31,7 +31,7 @@ ms.locfileid: "44280251"
 本文适用于您拥有以下所有内容的环境： 
  
 - Skype for Business 服务器或 Lync Server 2013 
-- Office 365 组织 
+- Microsoft 365 或 Office 365 组织 
 - 在 Skype for Business 服务器与 Skype for business Online 或 Microsoft 团队租户之间配置的混合连接 
 - 在客户端上启用和接收公共交换电话网络（PSTN）呼叫的用户
 
@@ -46,7 +46,7 @@ ms.locfileid: "44280251"
 **码**   
 - **企业语音：** 用于向使用本地 Skype for business 用户帐户的用户提供对 PSTN 的访问的选项。 本地 Skype for Business 中介服务器向 PSTN 提供 interconnectivity。  
 - **混合语音连接：** 用于为使用 Skype for business Online 帐户的用户提供对 PSTN 的访问的选项。 本地 Skype for Business 中介服务器向 PSTN 提供 interconnectivity。 
-- **直接路由：** 选项，为使用 Microsoft 团队客户端的联机 Skype for Business 帐户、Microsoft 团队许可证的用户提供对 PSTN 的访问。 SBC 已连接到 Office 365 中的 SIP 代理，无需任何本地的 Microsoft 软件。
+- **直接路由：** 选项，为使用 Microsoft 团队客户端的联机 Skype for Business 帐户、Microsoft 团队许可证的用户提供对 PSTN 的访问。 SBC 连接到 Microsoft 365 或 Office 365 中的 SIP 代理，而不需要 Microsoft 的任何内部部署软件。
 
   
 **环境支持以下组合：**
@@ -70,4 +70,4 @@ ms.locfileid: "44280251"
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>适用于具有 PSTN 的混合环境的可支持性声明
 
-对于所有用户，**必须**在本地广告中创建用户对象，并使用 Azure ad Connect 工具将该对象同步到 Azure ad。 如果在混合配置中直接在 Azure AD 中创建用户对象，则**不支持**为团队/Skype for business 启用用户。 对于要直接为团队启用的新用户（如新员工），用户必须使用本地 Skype for business 管理工具启用 Skype for business。 在**不支持**企业语音的本地池中的情况下，在联机 Skype for Business 或团队中创建用户。 有关此操作的详细信息，请在[Skype for Business 服务器中通过本地 PSTN 连接在 Office 365 中查找计划电话系统](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。
+对于所有用户，**必须**在本地广告中创建用户对象，并使用 Azure ad Connect 工具将该对象同步到 Azure ad。 如果在混合配置中直接在 Azure AD 中创建用户对象，则**不支持**为团队/Skype for business 启用用户。 对于要直接为团队启用的新用户（如新员工），用户必须使用本地 Skype for business 管理工具启用 Skype for business。 在**不支持**企业语音的本地池中的情况下，在联机 Skype for Business 或团队中创建用户。 有关此操作的详细信息，请[在 Skype for Business 服务器中通过本地 PSTN 连接查看规划电话系统](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)。

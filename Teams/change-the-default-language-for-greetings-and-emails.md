@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 了解如何设置 Skype for Business，以便为您的组织的默认语音邮件问候语使用另一种语言。
-ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 988f09141913c72b9334b28d2c218b15bdbf3376
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904327"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691388"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>更改问候语和电子邮件的默认语言
 
@@ -38,20 +38,20 @@ ms.locfileid: "43904327"
   
 - **对你可用的语言取决于组织所在的位置**。 例如，如果你的组织位于美国，你可以将默认语言设置为英语或西班牙语。 如果你的组织位于加拿大，你可以在英语和法语之间选择。 有关受支持语言的列表，请参阅 [Skype for Business 语音邮件问候语和消息的语言](languages-for-voicemail-greetings-and-messages.md)。
     
-- **更改单个用户的语音邮件问候语和语音邮件的语言。** 你可以更改用户的首选 lanaguage，这将更改发送到其 Outlook 邮箱的语音邮件问候语和语音邮件的语言。 有关说明，请参阅 [如何设置 Office 365 的语言和区域设置] （https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region)。 
+- **更改单个用户的语音邮件问候语和语音邮件的语言。** 你可以更改用户的首选 lanaguage，这将更改发送到其 Outlook 邮箱的语音邮件问候语和语音邮件的语言。 有关说明，请参阅 [如何设置 Microsoft 365 或 Office 365 的语言和区域设置] （ https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region) 。 
     
     > [!NOTE]
     > 用户可以按照[更改 Microsoft 365 For Business 中的显示语言和](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)时区中的说明，在登录后更改自己的问候语语言
   
 - **是否要录制你的外出语音邮件消息？** 请参阅[检查 Skype for Business 语音邮件和选项](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。 对于 Microsoft 团队-用户可以从[团队桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)更改其语音邮件设置
 
-- **是否要更改语音邮件提示语言？** 对于 Skype for Business- [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail)并在 "**提示语言**" 下选择一种新语言。 对于 Microsoft 团队-用户可以从[团队桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)更改其语音邮件问候语
+- **是否要更改语音邮件提示语言？** 对于 Skype for Business- [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 并在 "**提示语言**" 下选择一种新语言。 对于 Microsoft 团队-用户可以从[团队桌面客户端设置](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)更改其语音邮件问候语
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>更改组织内所有用户的系统语言
 
-1. 在上[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)用[全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户登录。 
+1. 在上用[全局管理员](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帐户登录 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。 
     
-2. 在 Microsoft 365 管理中心，选择 "**设置** > **Settings** > " "**组织配置文件**"。 
+2. 在 Microsoft 365 管理中心，选择 "**设置**" "  >  **Settings**  >  **组织配置文件**"。 
     
      ![屏幕截图，显示选择 "设置"，然后选择 "组织配置文件"。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -69,11 +69,11 @@ ms.locfileid: "43904327"
     
 - [设置通话套餐](set-up-calling-plans.md)
     
-- [在 Skype for business Server 中通过本地 PSTN 连接计划 Office 365 中的电话系统](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [在 Skype for Business 服务器的本地 PSTN 连接中规划 Microsoft 365 或 Office 365 中的电话系统](https://go.microsoft.com/fwlink/?LinkId=717947)
     
 ## <a name="related-topics"></a>相关主题
 
-- [在 Office 365 商业版中更改显示语言和时区](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [在 Microsoft 365 或 Office 365 for Business 中更改显示语言和时区](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
 - [在 Office 2010 及更高版本中添加语言或设置语言首选项](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
     

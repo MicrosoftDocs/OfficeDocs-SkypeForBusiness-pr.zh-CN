@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69cd9da8cee3c6cc8345c945e3e40288889d3547
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905534"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691518"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 
@@ -31,7 +31,7 @@ ms.locfileid: "43905534"
  
 ## <a name="what-is-the-skype-for-business-retirement-plan"></a>什么是 Skype for business 退休计划？
 
-Skype for Business Online 将于2021年7月31日停用，在该日期之后，该服务将不再可用。 目前，当前的 Skype for Business Online 客户将不会在服务方面发生更改，并且他们能够根据需要继续添加新用户。 但是，在2019年9月1日开始，我们将所有新的 Office 365 客户直接集成到团队进行聊天、会议和通话。 请注意，此公告不会影响 Skype 消费者服务和 Skype for business 服务器。  
+Skype for Business Online 将于2021年7月31日停用，在该日期之后，该服务将不再可用。 目前，当前的 Skype for Business Online 客户将不会在服务方面发生更改，并且他们能够根据需要继续添加新用户。 但是，在2019年9月1日开始，我们将所有新的 Microsoft 365 或 365 Office 都直接提供给团队进行聊天、会议和通话。 请注意，此公告不会影响 Skype 消费者服务和 Skype for business 服务器。  
 
 ## <a name="why-are-we-making-this-announcement-now"></a>为什么要立即进行本次发布？
 

@@ -21,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 了解如何为 Microsoft 团队中的用户分配会议 ID 以及会议 Id 参数应该是什么。
-ms.openlocfilehash: 66d67693970f03326ae2acb58ba40310f567a370
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4f24fb85479e6a52c8b2658b7a8a41beb0e1c6ad
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905614"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691148"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中查看和重置分配给用户的会议 ID
 
-在 Office 365 中为 Microsoft Teams 用户设置音频会议以及 Microsoft Teams 用户使用 Microsoft 作为音频会议提供商时会自动为其分配会议 ID。 在安排会议时将在会议邀请中发送分配的会议 ID。 用户安排的每次会议将分配到一个唯一的会议 id。 
+当用户在 Microsoft 365 或 Office 365 中设置音频会议并使用 Microsoft 作为音频会议提供商时，会自动将会议 ID 分配给 Microsoft 团队用户。 在安排会议时将在会议邀请中发送分配的会议 ID。 用户安排的每次会议将分配到一个唯一的会议 id。 
   
 虽然会自动创建会议 ID 并将其分配给用户，但有时可能会存在以下情况：用户不希望使用此会议 ID，你希望将其设置为特定号码，或者你的用户记不住或丢失了其会议 ID。 你可以使用 Microsoft Teams 管理中心或 Windows PowerShell 来查看、更改和重置其会议 ID。
   
@@ -89,14 +89,14 @@ ms.locfileid: "43905614"
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？
 
-Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：
+Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
     
   - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [使用 Windows PowerShell 管理 Office 365 的最佳方式](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。
     
 ## <a name="related-topics"></a>相关主题
 
-[试用或购买 Office 365 中的音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

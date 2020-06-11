@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 了解如何使用 Microsoft 团队管理中心或 Windows PowerShell 创建和管理拨号计划（PSTN 呼叫拨号计划）。
-ms.openlocfilehash: 50cdbaf9fd1e5ae10eca20c0f547dce29d606983
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902017"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691338"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -36,7 +36,7 @@ ms.locfileid: "43902017"
 
 ### <a name="create-a-dial-plan"></a>创建拨号计划
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **拨号计划**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **拨号计划**"。
 2. 单击 "**添加**"，然后输入拨号计划的名称和说明。
     ![显示用于创建拨号计划的 "添加" 页面的屏幕截图](media/create-dial-plan.png)
 3. 在 "**拨号计划详细信息**" 下，如果用户需要拨一个或多个附加前导数字（例如9）来获取外部线路，请指定外部拨号前缀。 要执行此操作：
@@ -56,7 +56,7 @@ ms.locfileid: "43902017"
 
 ### <a name="edit-a-dial-plan"></a>编辑拨号计划
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **拨号计划**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **拨号计划**"。
 2. 通过单击拨号计划名称左侧的 "拨号计划"，然后单击 "**编辑**" 来选择它。
 3. 进行所需的更改，然后单击 "**保存**"。
 
@@ -74,7 +74,7 @@ ms.locfileid: "43902017"
 
  **检查你是否正在运行 Windows PowerShell 版本3.0 或更高版本**
   
-1. 若要验证运行的是版本3.0 或更高版本，请执行以下操作： "**开始" 菜单** > **Windows PowerShell**。
+1. 若要验证运行的是版本3.0 或更高版本，请执行以下操作： "**开始" 菜单**  >  **Windows PowerShell**。
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
@@ -82,11 +82,11 @@ ms.locfileid: "43902017"
     
 4. 你还需要安装适用于 Skype for business Online 的 Windows PowerShell 模块，使你能够创建连接到 Skype for business Online 的远程 Windows PowerShell 会话。 你可以在[Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)中下载此模块，该模块仅在64位计算机上受支持。 如果出现提示，请重新启动计算机。
     
-若要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接到所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)。
+若要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)。
   
  **启动 Windows PowerShell 会话**
   
-1. 单击 "**启动** > **Windows PowerShell**"。
+1. 单击 "**启动**  >  **Windows PowerShell**"。
     
 2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
     
