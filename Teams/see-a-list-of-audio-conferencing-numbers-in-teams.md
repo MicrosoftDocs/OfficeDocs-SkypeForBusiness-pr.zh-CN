@@ -22,49 +22,49 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft 团队内部查找可用于音频会议的电话拨入式会议号码。
-ms.openlocfilehash: 962ca1626ab0bcc6fe3ac7e8da1c0183dbe3dcf2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d7eb7f1e1679e49f6a6e1b09009a6772cf1bc47f
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905754"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691178"
 ---
-# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a><span data-ttu-id="ad98d-103">在 Microsoft Teams 中查看音频会议号码列表</span><span class="sxs-lookup"><span data-stu-id="ad98d-103">See a list of Audio Conferencing numbers in Microsoft Teams</span></span>
+# <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a><span data-ttu-id="4f899-103">在 Microsoft Teams 中查看音频会议号码列表</span><span class="sxs-lookup"><span data-stu-id="4f899-103">See a list of Audio Conferencing numbers in Microsoft Teams</span></span>
 
-<span data-ttu-id="ad98d-104">当你为 Microsoft Teams 用户设置音频会议时，你可以看到可提供给他们用于加入音频会议的电话号码。</span><span class="sxs-lookup"><span data-stu-id="ad98d-104">When you set up Audio Conferencing for Microsoft Teams users, you can view the phone numbers that are available to them for audio conferencing.</span></span> <span data-ttu-id="ad98d-105">此列表将包含贵组织可用的所有音频会议电话号码。</span><span class="sxs-lookup"><span data-stu-id="ad98d-105">This list will have all of the audio conferencing phone numbers that are available to your organization.</span></span>
+<span data-ttu-id="4f899-104">当你为 Microsoft Teams 用户设置音频会议时，你可以看到可提供给他们用于加入音频会议的电话号码。</span><span class="sxs-lookup"><span data-stu-id="4f899-104">When you set up Audio Conferencing for Microsoft Teams users, you can view the phone numbers that are available to them for audio conferencing.</span></span> <span data-ttu-id="4f899-105">此列表将包含贵组织可用的所有音频会议电话号码。</span><span class="sxs-lookup"><span data-stu-id="4f899-105">This list will have all of the audio conferencing phone numbers that are available to your organization.</span></span>
   
- <span data-ttu-id="ad98d-106">**要查找价格？**</span><span class="sxs-lookup"><span data-stu-id="ad98d-106">**Looking for prices?**</span></span> <span data-ttu-id="ad98d-107">请参阅[音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。</span><span class="sxs-lookup"><span data-stu-id="ad98d-107">See [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).</span></span>
+ <span data-ttu-id="4f899-106">**要查找价格？**</span><span class="sxs-lookup"><span data-stu-id="4f899-106">**Looking for prices?**</span></span> <span data-ttu-id="4f899-107">请参阅[音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。</span><span class="sxs-lookup"><span data-stu-id="4f899-107">See [Pricing for Audio Conferencing](https://products.office.com/skype-for-business/audio-conferencing#Requirements).</span></span>
   
-<span data-ttu-id="ad98d-108">如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。</span><span class="sxs-lookup"><span data-stu-id="ad98d-108">If there is only one phone number available in your organization, it will be used as the default number for all of your users.</span></span> <span data-ttu-id="ad98d-109">当多个电话号码可用时，你可以为每个用户选择默认电话号码。</span><span class="sxs-lookup"><span data-stu-id="ad98d-109">When multiple phone numbers are available, you can select the default phone number for each user.</span></span> <span data-ttu-id="ad98d-110">此默认号码将包含在 Microsoft Teams 会议邀请中。</span><span class="sxs-lookup"><span data-stu-id="ad98d-110">This default number will be included in Microsoft Teams meeting invitations.</span></span>
+<span data-ttu-id="4f899-108">如果仅有一个电话号码在你的组织中可用，则会将其作为你的所有用户的默认号码。</span><span class="sxs-lookup"><span data-stu-id="4f899-108">If there is only one phone number available in your organization, it will be used as the default number for all of your users.</span></span> <span data-ttu-id="4f899-109">当多个电话号码可用时，你可以为每个用户选择默认电话号码。</span><span class="sxs-lookup"><span data-stu-id="4f899-109">When multiple phone numbers are available, you can select the default phone number for each user.</span></span> <span data-ttu-id="4f899-110">此默认号码将包含在 Microsoft Teams 会议邀请中。</span><span class="sxs-lookup"><span data-stu-id="4f899-110">This default number will be included in Microsoft Teams meeting invitations.</span></span>
   
-<span data-ttu-id="ad98d-111">要为单个用户更改拨入电话号码，你可以参阅[设置包含在邀请中的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="ad98d-111">You can see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md) to change the dial-in phone number for a single user.</span></span>
+<span data-ttu-id="4f899-111">要为单个用户更改拨入电话号码，你可以参阅[设置包含在邀请中的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="4f899-111">You can see [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites-in-teams.md) to change the dial-in phone number for a single user.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="ad98d-p104">[!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。</span><span class="sxs-lookup"><span data-stu-id="ad98d-p104">Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations.</span></span> 
+> <span data-ttu-id="4f899-p104">[!注释] 国内拨入号码供你的组织专用，是唯一可以设为默认电话号码的号码。 但是，国际拨入号码可能会在多个组织之间共享。</span><span class="sxs-lookup"><span data-stu-id="4f899-p104">Domestic dial-in numbers are dedicated to your organization and are the only ones that can be set as a default phone number. However, international dial-in numbers may be shared across multiple organizations.</span></span> 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="to-view-your-audio-conferencing-phone-numbers"></a><span data-ttu-id="ad98d-114">查看音频会议电话号码</span><span class="sxs-lookup"><span data-stu-id="ad98d-114">To view your audio conferencing phone numbers</span></span>
+## <a name="to-view-your-audio-conferencing-phone-numbers"></a><span data-ttu-id="4f899-114">查看音频会议电话号码</span><span class="sxs-lookup"><span data-stu-id="4f899-114">To view your audio conferencing phone numbers</span></span>
 
-<span data-ttu-id="ad98d-115">![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**</span><span class="sxs-lookup"><span data-stu-id="ad98d-115">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="4f899-115">![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**</span><span class="sxs-lookup"><span data-stu-id="4f899-115">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="ad98d-116">在左侧导航中，转到 "**会议** > **桥**"。</span><span class="sxs-lookup"><span data-stu-id="ad98d-116">In the left navigation, go to **Meetings** > **Conference bridges**.</span></span> 
-2. <span data-ttu-id="ad98d-117">查看可用于音频会议的电话号码。</span><span class="sxs-lookup"><span data-stu-id="ad98d-117">View the phone numbers that are available for audio conferencing.</span></span>
+1. <span data-ttu-id="4f899-116">在左侧导航中，转到 "**会议**  >  **桥**"。</span><span class="sxs-lookup"><span data-stu-id="4f899-116">In the left navigation, go to **Meetings** > **Conference bridges**.</span></span> 
+2. <span data-ttu-id="4f899-117">查看可用于音频会议的电话号码。</span><span class="sxs-lookup"><span data-stu-id="4f899-117">View the phone numbers that are available for audio conferencing.</span></span>
 
-- <span data-ttu-id="ad98d-118">你还可以查看音频会议自动助理将使用的位置和主要语言。</span><span class="sxs-lookup"><span data-stu-id="ad98d-118">You can also view the location and primary language that will be used by the audio conferencing auto attendant.</span></span>
+- <span data-ttu-id="4f899-118">你还可以查看音频会议自动助理将使用的位置和主要语言。</span><span class="sxs-lookup"><span data-stu-id="4f899-118">You can also view the location and primary language that will be used by the audio conferencing auto attendant.</span></span>
 
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="ad98d-119">想要了解有关 Windows PowerShell 的详细信息？</span><span class="sxs-lookup"><span data-stu-id="ad98d-119">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="4f899-119">想要了解有关 Windows PowerShell 的详细信息？</span><span class="sxs-lookup"><span data-stu-id="4f899-119">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="ad98d-p105">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。使用 Windows PowerShell，可以通过单点管理来管理 ，这样做可在有多个任务需要执行时简化日常工作。若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="ad98d-p105">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="4f899-120">Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。</span><span class="sxs-lookup"><span data-stu-id="4f899-120">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="4f899-121">使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。</span><span class="sxs-lookup"><span data-stu-id="4f899-121">With Windows PowerShell, you can manage Microsoft 365 or Office 365 by using a single point of administration that can simplify your daily work when you have multiple tasks to do.</span></span> <span data-ttu-id="4f899-122">若要开始使用 Windows PowerShell，请参阅下列主题：</span><span class="sxs-lookup"><span data-stu-id="4f899-122">To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="ad98d-123">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="ad98d-123">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="4f899-123">为什么要使用 Office 365 PowerShell</span><span class="sxs-lookup"><span data-stu-id="4f899-123">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="ad98d-124">使用 Windows PowerShell 管理 Office 365 的最佳方式</span><span class="sxs-lookup"><span data-stu-id="ad98d-124">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="4f899-124">通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法</span><span class="sxs-lookup"><span data-stu-id="4f899-124">Best ways to manage Microsoft 365 or Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="ad98d-125">有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="ad98d-125">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="4f899-125">有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。</span><span class="sxs-lookup"><span data-stu-id="4f899-125">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="ad98d-126">相关主题</span><span class="sxs-lookup"><span data-stu-id="ad98d-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4f899-126">相关主题</span><span class="sxs-lookup"><span data-stu-id="4f899-126">Related topics</span></span>
 
-[<span data-ttu-id="ad98d-127">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="ad98d-127">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="4f899-127">在 Microsoft 365 或 Office 365 中试用或购买音频会议</span><span class="sxs-lookup"><span data-stu-id="4f899-127">Try or purchase Audio Conferencing in Microsoft 365 or Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
   

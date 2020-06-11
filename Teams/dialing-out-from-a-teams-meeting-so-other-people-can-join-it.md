@@ -22,44 +22,44 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会议组织者可以了解如何使用 "团队" 应用拨出，让其他人可以使用他们的电话加入同一会议。
-ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901957"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691288"
 ---
-# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a><span data-ttu-id="cd2d7-103">从 Microsoft Teams 会议拨出，以便其他人可以加入会议</span><span class="sxs-lookup"><span data-stu-id="cd2d7-103">Dialing out from a Microsoft Teams meeting so other people can join it</span></span>
+# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a><span data-ttu-id="faaa6-103">从 Microsoft Teams 会议拨出，以便其他人可以加入会议</span><span class="sxs-lookup"><span data-stu-id="faaa6-103">Dialing out from a Microsoft Teams meeting so other people can join it</span></span>
 
-<span data-ttu-id="cd2d7-104">作为会议组织者，您可以使用 "团队" 应用拨出，让其他人使用他们的电话加入同一会议。</span><span class="sxs-lookup"><span data-stu-id="cd2d7-104">As the meeting organizer, you can dial out using the Teams app to let other people join the same meeting using their phones.</span></span>
+<span data-ttu-id="faaa6-104">作为会议组织者，您可以使用 "团队" 应用拨出，让其他人使用他们的电话加入同一会议。</span><span class="sxs-lookup"><span data-stu-id="faaa6-104">As the meeting organizer, you can dial out using the Teams app to let other people join the same meeting using their phones.</span></span>
 
-<span data-ttu-id="cd2d7-105">当您拨出给某人时，我们建议您使用其完整的电话号码（包括国家/地区代码-164 格式）执行此操作。</span><span class="sxs-lookup"><span data-stu-id="cd2d7-105">When you dial out to someone, we recommend that you do so using their full phone numbers (including the country/region code - E.164 format).</span></span>
+<span data-ttu-id="faaa6-105">当您拨出给某人时，我们建议您使用其完整的电话号码（包括国家/地区代码-164 格式）执行此操作。</span><span class="sxs-lookup"><span data-stu-id="faaa6-105">When you dial out to someone, we recommend that you do so using their full phone numbers (including the country/region code - E.164 format).</span></span>
   
-  <span data-ttu-id="cd2d7-106">请注意：</span><span class="sxs-lookup"><span data-stu-id="cd2d7-106">Please note that:</span></span>
+  <span data-ttu-id="faaa6-106">请注意：</span><span class="sxs-lookup"><span data-stu-id="faaa6-106">Please note that:</span></span>
 
-- <span data-ttu-id="cd2d7-107">只有在使用团队加入会议时，才可以拨出。</span><span class="sxs-lookup"><span data-stu-id="cd2d7-107">You can dial out only if you join a meeting using Teams.</span></span>
-- <span data-ttu-id="cd2d7-108">您（作为会议组织者）已启用音频会议。</span><span class="sxs-lookup"><span data-stu-id="cd2d7-108">You, as the meeting organizer, have been enabled for audio conferencing.</span></span>
+- <span data-ttu-id="faaa6-107">只有在使用团队加入会议时，才可以拨出。</span><span class="sxs-lookup"><span data-stu-id="faaa6-107">You can dial out only if you join a meeting using Teams.</span></span>
+- <span data-ttu-id="faaa6-108">您（作为会议组织者）已启用音频会议。</span><span class="sxs-lookup"><span data-stu-id="faaa6-108">You, as the meeting organizer, have been enabled for audio conferencing.</span></span>
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-<span data-ttu-id="cd2d7-109">下面介绍了如何使用拨出功能：</span><span class="sxs-lookup"><span data-stu-id="cd2d7-109">Here's how to get dial out to work:</span></span>
+<span data-ttu-id="faaa6-109">下面介绍了如何使用拨出功能：</span><span class="sxs-lookup"><span data-stu-id="faaa6-109">Here's how to get dial out to work:</span></span>
 
- <span data-ttu-id="cd2d7-110">**步骤1：** 在会议中，使用 "添加人员" 按钮](media/add-people-button.png)选项的 "**添加人员** ![" 屏幕截图拨出电话号码。</span><span class="sxs-lookup"><span data-stu-id="cd2d7-110">**Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button](media/add-people-button.png) option to dial out to a phone number.</span></span>
- <span data-ttu-id="cd2d7-111">**步骤2：** 输入完整的电话号码，包括 "**邀请他人或拨打号码**" 框中的国家/地区代码。</span><span class="sxs-lookup"><span data-stu-id="cd2d7-111">**Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.</span></span>
+ <span data-ttu-id="faaa6-110">**步骤1：** 在会议中，使用 "添加人员" 按钮选项的 "**添加人员**" ![ 屏幕截图 ](media/add-people-button.png) 拨出电话号码。</span><span class="sxs-lookup"><span data-stu-id="faaa6-110">**Step 1:** In the meeting, use the **Add people** ![Screenshot of the Add people button](media/add-people-button.png) option to dial out to a phone number.</span></span>
+ <span data-ttu-id="faaa6-111">**步骤2：** 输入完整的电话号码，包括 "**邀请他人或拨打号码**" 框中的国家/地区代码。</span><span class="sxs-lookup"><span data-stu-id="faaa6-111">**Step 2:** Enter the full phone number, including the country/region code in the **Invite someone or dial a number** box.</span></span>
   
 !["邀请某人或拨打号码" 框的屏幕截图](media/invite-someone-box.png)
     
-## <a name="supported-countries-and-regions"></a><span data-ttu-id="cd2d7-113">支持的国家和地区</span><span class="sxs-lookup"><span data-stu-id="cd2d7-113">Supported countries and regions</span></span>
+## <a name="supported-countries-and-regions"></a><span data-ttu-id="faaa6-113">支持的国家和地区</span><span class="sxs-lookup"><span data-stu-id="faaa6-113">Supported countries and regions</span></span>
 
-<span data-ttu-id="cd2d7-114">拨出功能仅适用于某些国家/地区。</span><span class="sxs-lookup"><span data-stu-id="cd2d7-114">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="cd2d7-115">有关完整列表，请参阅[音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。</span><span class="sxs-lookup"><span data-stu-id="cd2d7-115">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
+<span data-ttu-id="faaa6-114">拨出功能仅适用于某些国家/地区。</span><span class="sxs-lookup"><span data-stu-id="faaa6-114">Dial-out is only available to some countries/regions.</span></span> <span data-ttu-id="faaa6-115">有关完整列表，请参阅[音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。</span><span class="sxs-lookup"><span data-stu-id="faaa6-115">For complete list, see [Country and region availability for Audio Conferencing and Calling Plans](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).</span></span>
 
-## <a name="allow-users-to-dial-in"></a><span data-ttu-id="cd2d7-116">允许用户拨入</span><span class="sxs-lookup"><span data-stu-id="cd2d7-116">Allow users to dial in</span></span>
+## <a name="allow-users-to-dial-in"></a><span data-ttu-id="faaa6-116">允许用户拨入</span><span class="sxs-lookup"><span data-stu-id="faaa6-116">Allow users to dial in</span></span>
 
-<span data-ttu-id="cd2d7-117">如果你正在查找有关如何让你的用户拨入团队会议的说明，请参阅[Microsoft 团队中的音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="cd2d7-117">If you are looking for instructions on how to let your users dial in to a Teams meeting, please see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
+<span data-ttu-id="faaa6-117">如果你正在查找有关如何让你的用户拨入团队会议的说明，请参阅[Microsoft 团队中的音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="faaa6-117">If you are looking for instructions on how to let your users dial in to a Teams meeting, please see [Phone numbers for Audio Conferencing in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
 
-## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="cd2d7-118">想要了解有关音频会议的详细信息？</span><span class="sxs-lookup"><span data-stu-id="cd2d7-118">Want to know more about audio conferencing?</span></span>
+## <a name="want-to-know-more-about-audio-conferencing"></a><span data-ttu-id="faaa6-118">想要了解有关音频会议的详细信息？</span><span class="sxs-lookup"><span data-stu-id="faaa6-118">Want to know more about audio conferencing?</span></span>
 
-[<span data-ttu-id="cd2d7-119">试用或购买 Office 365 中的音频会议</span><span class="sxs-lookup"><span data-stu-id="cd2d7-119">Try or purchase Audio Conferencing in Office 365</span></span>](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+[<span data-ttu-id="faaa6-119">试用或购买音频会议</span><span class="sxs-lookup"><span data-stu-id="faaa6-119">Try or purchase Audio Conferencing</span></span>](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[<span data-ttu-id="cd2d7-120">Microsoft Teams 附加许可</span><span class="sxs-lookup"><span data-stu-id="cd2d7-120">Microsoft Teams add-on licensing</span></span>](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[<span data-ttu-id="faaa6-120">Microsoft Teams 附加许可</span><span class="sxs-lookup"><span data-stu-id="faaa6-120">Microsoft Teams add-on licensing</span></span>](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

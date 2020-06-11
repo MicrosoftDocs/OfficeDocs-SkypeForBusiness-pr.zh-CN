@@ -16,24 +16,24 @@ f1.keywords:
 description: 了解如何将 Microsoft 团队 SMTP 域添加为 Exchange Online 中允许的发件人域，以向团队成员发送通知。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0efec3be7bbd9cf14ee7d0f1ca826ca76996795
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b66b58cb14c5205b0ba4a6ff7e95102dc1584579
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637741"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689858"
 ---
-<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a><span data-ttu-id="405d8-103">在 Exchange Online 中将 Microsoft Teams SMTP 域添加为允许的发件人域</span><span class="sxs-lookup"><span data-stu-id="405d8-103">Add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online</span></span> 
+<a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a><span data-ttu-id="878dc-103">在 Exchange Online 中将 Microsoft Teams SMTP 域添加为允许的发件人域</span><span class="sxs-lookup"><span data-stu-id="878dc-103">Add the Microsoft Teams SMTP domain as an allowed sender domain in Exchange Online</span></span> 
 =============================================================================
 
-<span data-ttu-id="405d8-104">无论是在管理员控制台还是使用 Outlook 创建 Microsoft 365 组，Exchange Online 都用于发送添加到组的团队成员的通知。</span><span class="sxs-lookup"><span data-stu-id="405d8-104">Whether you create a Microsoft 365 Group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a Group.</span></span> <span data-ttu-id="405d8-105">这些邮件是从你的租户生成的，因为其代表你的默认域 SMTP FQDN。</span><span class="sxs-lookup"><span data-stu-id="405d8-105">These messages are generated from your tenant as they represent your default domain SMTP FQDN.</span></span>
+<span data-ttu-id="878dc-104">无论是在管理员控制台还是使用 Outlook 创建 Microsoft 365 组，Exchange Online 都用于发送添加到组的团队成员的通知。</span><span class="sxs-lookup"><span data-stu-id="878dc-104">Whether you create a Microsoft 365 group in the admin console or by using Outlook, Exchange Online is used to send notifications of a team member being added to a group.</span></span> <span data-ttu-id="878dc-105">这些邮件是从你的租户生成的，因为其代表你的默认域 SMTP FQDN。</span><span class="sxs-lookup"><span data-stu-id="878dc-105">These messages are generated from your tenant as they represent your default domain SMTP FQDN.</span></span>
 
 ![显示添加到组中的用户的邮件头的屏幕截图。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image1.jpg)
 
-<span data-ttu-id="405d8-107">团队使用 Microsoft Exchange Online，并在添加通知后向团队成员发送通知。</span><span class="sxs-lookup"><span data-stu-id="405d8-107">Teams uses Microsoft Exchange Online as well to send notifications to team members when they've been added.</span></span> <span data-ttu-id="405d8-108">不同于 SMTP 邮件的域 FQDN 是 @email "teams.microsoft.com" （对于商业/商业租户），"@GCC-email.teams.com" 适用于政府租户，并且可能被垃圾邮件筛选器捕获。</span><span class="sxs-lookup"><span data-stu-id="405d8-108">The difference being the domain FQDN of the SMTP message is "@email.teams.microsoft.com" for Commercial/Business tenants and "@GCC-email.teams.com" for Government tenants and could be caught by spam filtering.</span></span>
+<span data-ttu-id="878dc-107">团队使用 Microsoft Exchange Online，并在添加通知后向团队成员发送通知。</span><span class="sxs-lookup"><span data-stu-id="878dc-107">Teams uses Microsoft Exchange Online as well to send notifications to team members when they've been added.</span></span> <span data-ttu-id="878dc-108">不同于 SMTP 邮件的域 FQDN 是 @email "teams.microsoft.com" （对于商业/商业租户），"@GCC-email.teams.com" 适用于政府租户，并且可能被垃圾邮件筛选器捕获。</span><span class="sxs-lookup"><span data-stu-id="878dc-108">The difference being the domain FQDN of the SMTP message is "@email.teams.microsoft.com" for Commercial/Business tenants and "@GCC-email.teams.com" for Government tenants and could be caught by spam filtering.</span></span>
 
 ![显示添加到组中的用户的邮件头的屏幕截图。](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image2.jpg)
 
-<span data-ttu-id="405d8-110">为获得最佳效果和无缝操作，请考虑将 Microsoft 团队 SMTP 域添加到 Exchange Online 垃圾邮件配置中的 "允许的发件人域" 列表：</span><span class="sxs-lookup"><span data-stu-id="405d8-110">For best result and seamless operation, consider adding the Microsoft Teams SMTP domain to your "allowed sender domains" list in your Exchange Online spam configuration:</span></span>
+<span data-ttu-id="878dc-110">为获得最佳效果和无缝操作，请考虑将 Microsoft 团队 SMTP 域添加到 Exchange Online 垃圾邮件配置中的 "允许的发件人域" 列表：</span><span class="sxs-lookup"><span data-stu-id="878dc-110">For best result and seamless operation, consider adding the Microsoft Teams SMTP domain to your "allowed sender domains" list in your Exchange Online spam configuration:</span></span>
 
 ![垃圾邮件配置设置的 "允许列表" 部分的屏幕截图](media/Add_the_Microsoft_Teams_SMTP_domain_as_an_accepted_domain_in_Exchange_Online_image3.png)
