@@ -18,12 +18,12 @@ description: 了解在 Microsoft 团队中向用户分配策略的不同方法�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ae007641734b71a34d9021283704d6b210626a28
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 098e55aa5f4096ac80e6f54e191e6c9d48d90826
+ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410457"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44698282"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft Teams 中的用户分配策略
 
@@ -128,16 +128,16 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 1. 在 Microsoft 团队管理中心的左侧导航中，选择 "**用户**"。
 2. 搜索要向其分配策略的用户，或筛选视图以显示所需的用户。
-3. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-4. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。
+3. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
+4. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。
 
 若要查看策略分配的状态，请在单击 "**应用**" 提交策略分配后出现在 "**用户**" 页面顶部的标题中，单击 "**活动日志**"。 或者，在 Microsoft 团队管理中心的左侧导航中，转到**仪表板**，然后在 "**活动日志**" 下单击 "**查看详细信息**"。 活动日志显示过去30天内通过 Microsoft 团队管理中心向超过20名用户批处理的策略分配。 若要了解详细信息，请参阅[在活动日志中查看策略分配](activity-log.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
  
-通过批处理策略分配，您可以一次性为大型用户分配策略，而无需使用脚本。 使用 ```New-CsBatchPolicyAssignmentOperationd``` cmdlet 提交要分配的一批用户和策略。 作业作为后台操作处理，并为每个批处理生成操作 ID。 然后，你可以使用该 ```Get-CsBatchPolicyAssignmentOperation``` cmdlet 跟踪批处理中作业的进度和状态。 
+通过批处理策略分配，您可以一次性为大型用户分配策略，而无需使用脚本。 使用 ```New-CsBatchPolicyAssignmentOperation``` cmdlet 提交要分配的一批用户和策略。 作业作为后台操作处理，并为每个批处理生成操作 ID。 然后，你可以使用该 ```Get-CsBatchPolicyAssignmentOperation``` cmdlet 跟踪批处理中作业的进度和状态。 
 
-你可以按对象 Id、用户主体名称（UPN）、会话初始协议（SIP）地址或电子邮件地址指定用户。 如果批处理包括重复的用户，则在处理之前将从批处理中删除重复项，并且仅为批处理中剩余的唯一用户提供状态。 
+你可以按对象 Id 或会话初始协议（SIP）地址指定用户。 请注意，用户的 SIP 地址通常具有与用户主体名称（UPN）或电子邮件地址相同的值，但这不是必需的。 如果用户使用其 UPN 或电子邮件进行了指定，但它的值与 SIP 地址不同，则该用户的策略分配将失败。 如果批处理包括重复的用户，则在处理之前将从批处理中删除重复项，并且仅为批处理中剩余的唯一用户提供状态。 
 
 批处理最多可包含5000个用户。 为获得最佳结果，请不要一次提交多个批次。 允许批完成处理，然后再提交更多批。
 
@@ -181,12 +181,12 @@ $user_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
 ```
 
-在此示例中，我们连接到 Azure AD 以检索用户集合，然后将名为 "新员工消息传递策略" 的消息策略分配给使用其 Upn 指定的批用户。
+在此示例中，我们连接到 Azure AD 以检索用户集合，然后将名为 "新员工消息策略" 的消息策略分配给使用其 SIP 地址指定的批用户。
 
 ```powershell
 Connect-AzureAD
 $users = Get-AzureADUser
-New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.UserPrincipalName -OperationName "Example 2 batch"
+New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.SipProxyAddress -OperationName "Example 2 batch"
 ```
 
 若要了解详细信息，请参阅[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)。
@@ -365,7 +365,7 @@ Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeeting
 
 输出显示用户直接分配有名为员工事件的团队会议广播策略，该策略优先于分配给用户所属组的名为 "供应商实时事件" 的策略。
 
-```
+```console
 AssignmentType PolicyName         Reference
 -------------- ----------         ---------
 Direct         Employee Events
@@ -390,10 +390,9 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 通过批处理策略程序包分配，您可以一次性为大型用户分配策略包，而无需使用脚本。 使用 ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet 提交要分配的一批用户和策略包。 作业作为后台操作处理，并为每个批处理生成操作 ID。 然后，你可以使用该 ```Get-CsBatchPolicyAssignmentOperation``` cmdlet 跟踪批处理中作业的进度和状态。
 
-批处理最多可包含20000个用户。 你可以按对象 Id、UPN、SIP 地址或电子邮件地址指定用户。
+你可以按对象 Id 或会话初始协议（SIP）地址指定用户。 请注意，用户的 SIP 地址通常具有与用户主体名称（UPN）或电子邮件地址相同的值，但这不是必需的。 如果用户使用其 UPN 或电子邮件进行了指定，但它的值与 SIP 地址不同，则该用户的策略分配将失败。 如果批处理包括重复的用户，则在处理之前将从批处理中删除重复项，并且仅为批处理中剩余的唯一用户提供状态。 
 
-> [!IMPORTANT]
-> 我们当前建议你一次为每批5000用户分配策略包。 在增加需求的这些时间内，你可能会遇到处理时间方面的延迟。 为了将这些增加的处理时间的影响降到最低，我们建议你向5000用户提交较小的批处理大小，并且仅在上一个批处理完成后再提交。 在正常工作时间内提交批还会有所帮助。
+批处理最多可包含5000个用户。 为获得最佳结果，请不要一次提交多个批次。 允许批完成处理，然后再提交更多批。
 
 ### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft 团队 PowerShell 模块
 

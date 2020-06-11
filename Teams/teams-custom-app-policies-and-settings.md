@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: a0002ed8312f2a100ab61aa98923c7f4aeb0dc26
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
+ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326779"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44698272"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
@@ -123,10 +123,10 @@ ms.locfileid: "44326779"
 
 |组织范围的自定义应用设置 |团队自定义应用设置 |用户自定义应用策略 |事实上  |
 |---------|---------|---------|---------|
-| 关    | 关    | 关     |将阻止你的组织与所有自定义应用进行交互。 任何人都无法上载自定义应用。 可以使用 PowerShell 删除自定义应用程序。   |
-| 关     | 关     | 开        |将阻止你的组织与所有自定义应用进行交互。 任何人都无法上载自定义应用。 可以使用 PowerShell 删除自定义应用程序。         |
-| 关    | 开        | 关        |将阻止你的组织与所有自定义应用进行交互。 任何人都无法上载自定义应用。 你可以使用 Windows PowerShell 删除自定义应用。         |
-| 关    | 开      | 开       |将阻止你的组织与所有自定义应用进行交互。 任何人都无法上载自定义应用。 可以使用 PowerShell 删除自定义应用程序。         |
+| 关    | 关    | 关     |将阻止你的组织与所有自定义应用进行交互。 除团队服务管理员或全局管理员之外的任何人都无法上载自定义应用。可以使用 PowerShell 删除自定义应用程序。   |
+| 关     | 关     | 开        |将阻止你的组织与所有自定义应用进行交互。 除团队服务管理员或全局管理员之外的任何人都无法上载自定义应用。可以使用 PowerShell 删除自定义应用程序。         |
+| 关    | 开        | 关        |将阻止你的组织与所有自定义应用进行交互。 除团队服务管理员或全局管理员之外的任何人都无法上载自定义应用。你可以使用 Windows PowerShell 删除自定义应用。         |
+| 关    | 开      | 开       |将阻止你的组织与所有自定义应用进行交互。 除团队服务管理员或全局管理员之外的任何人都无法上载自定义应用。可以使用 PowerShell 删除自定义应用程序。         |
 | 开    | 关       | 关         |  用户无法上载自定义应用程序。      |
 | 开     | 关       | 开         | 如果用户是团队所有者，则他们可以将自定义应用上载到团队。 如果用户不是团队所有者，则他们无法将自定义应用上载到团队。 用户可以在个人上下文中上载自定义应用程序。     |
 | 开     | 开     | 关         | 用户无法上载自定义应用程序。       |
