@@ -905,3 +905,5 @@
 ### [Microsoft 365 中的通话套餐 - 英国操作守则](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Microsoft 365 中的通话套餐 - 英国合规处理守则](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
+
+## [Teams 管理员功能的发行说明](release-notes/release-notes.md)
