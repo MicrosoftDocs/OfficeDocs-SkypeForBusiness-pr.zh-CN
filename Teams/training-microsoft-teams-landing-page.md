@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5c8ad6455fda6231efd089a2592a0860f206939
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 24abb87a7cf6b4c8ceb3f98f1ff35bdda1445e6e
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506823"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691558"
 ---
 # <a name="microsoft-teams-admin-training"></a>Microsoft Teams 管理员培训
 
@@ -161,7 +161,7 @@ ms.locfileid: "43506823"
                 <div class="card">
                     <div class="cardText">
                         <h3>Microsoft 365 认证：团队合作管理员协会</h3>
-                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 团队合作管理员可配置、部署和管理 Office 365 工作负载，如 SharePoint（联机、本地和混合版本）、OneDrive 和 Teams。</a></p>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Microsoft 365 团队合作管理员可配置、部署和管理 Microsoft 365 或 Office 365 工作负载，如 SharePoint（联机、本地和混合版本）、OneDrive 和 Teams。</a></p>
                     </div>
                 </div>
             </div>
