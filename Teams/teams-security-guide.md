@@ -19,19 +19,19 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6571da01408893423ae6672dccd80ba65a55cbaf
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 0e13055fb9c4f3f30b1810a24a20aea25c9eb652
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158969"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689658"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性与 Microsoft Teams
 
 > [!IMPORTANT]
 > Teams服务模型可能会有所更改，以改善客户体验。 例如，默认访问或刷新令牌到期时间可能会经过修改，以提高使用 Teams 用户的性能和身份验证弹性。 进行任何此类更改的目的都是为了通过设计保证 Teams 安全可靠。
 
-Microsoft Teams 属于 Microsoft 365 (M365) 服务，遵循所有安全最佳做法和过程，如通过深度防御保障服务级别安全性、服务内的客户控制、安全强化和操作最佳做法。 有关完整详细信息，请参阅 [Microsoft 信任中心](https://microsoft.com/trustcenter)。
+Microsoft Teams 属于 Microsoft 365 和 Office 365 服务，遵循所有安全最佳做法和过程，如通过深度防御保障服务级别安全性、服务内的客户控制、安全强化和操作最佳做法。 有关完整详细信息，请参阅 [Microsoft 信任中心](https://microsoft.com/trustcenter)。
 
 ## <a name="trustworthy-by-design"></a>设计上可信任
 
@@ -63,7 +63,7 @@ Teams 通过运行 Azure DDOS 网络保护，以及限制来自相同端点、�
 
 在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生窃听。窃听也称为监听或窥探。如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。例如，通过控制数据路径上的路由器进行攻击。
 
-Teams 使用相互 TLS (MTLS) 来处理 O365 内部的服务器通信，并使用 TLS 来处理从客户端到服务的通信，这样这种攻击在给定对话可能受到攻击的时间段内就很难甚至不可能实现。 TLS 可对各方执行身份验证，并对所有流量内容进行加密。 这样不能阻止窃听，但攻击者不能读取流量内容，除非破坏加密。
+Teams 使用相互 TLS (MTLS) 来处理 Microsoft 365 和 Office 365 内部的服务器通信，并使用 TLS 来处理从客户端到服务的通信，这样这种攻击在给定对话可能受到攻击的时间段内就很难甚至不可能实现。 TLS 可对各方执行身份验证，并对所有流量内容进行加密。 这样不能阻止窃听，但攻击者不能读取流量内容，除非破坏加密。
 
 借助从几个项（包括从不以明文格式发送的 TURN 密码）派生的密钥 SfBO 服务可通过检查消息完整性来确保数据有效。 TURN 协议不强制要求对流量进行加密，它发送的信息受消息完整性保护。 尽管它易受到窃听攻击，但它发送的信息（即 IP 地址和端口）可以通过简单地查看数据包的源地址和目标地址来直接提取。 Teams 服务通过检查消息的消息完整性来确保数据有效，使用的密钥派生自几个项，其中包括从不以明文发送的 TURN 密码。 SRTP 用于媒体流量并且也被加密。
 
@@ -106,11 +106,11 @@ SPIM 是商业垃圾即时消息或状态订阅请求，与垃圾邮件类似，
 
 ### <a name="azure-active-directory"></a>Azure Active Directory
 
-Azure Active Directory 充当 Office 365 (O365) 的目录服务。 它存储所有用户目录信息和策略分配。
+Azure Active Directory 充当 Microsoft 365 和 Office 365 的目录服务。 它存储所有用户目录信息和策略分配。
 
 #### <a name="crl-distribution-points"></a>CRL 分发点
 
-O365 流量通过 TLS/HTTPS 加密通道发生；也就是说，证书用于加密所有流量。 Teams 要求所有服务器证书都包含一个或多个证书吊销列表 (CRL) 分发点。 可从 CRL 分发点 (CDP) 下载 CRL，以便确认证书自颁发以来未被吊销且仍处于有效期内。 CRL 分发点在证书属性中标记为 URL，并且是安全的 HTTP。 Teams 服务通过每个证书身份验证来检查 CRL。
+Microsoft 365 和 Office 365 流量通过 TLS/HTTPS 加密通道发生；也就是说，证书用于加密所有流量。 Teams 要求所有服务器证书都包含一个或多个证书吊销列表 (CRL) 分发点。 可从 CRL 分发点 (CDP) 下载 CRL，以便确认证书自颁发以来未被吊销且仍处于有效期内。 CRL 分发点在证书属性中标记为 URL，并且是安全的 HTTP。 Teams 服务通过每个证书身份验证来检查 CRL。
 
 #### <a name="enhanced-key-usage"></a>增强型密钥使用
 
@@ -159,11 +159,11 @@ Teams 使用符合 FIPS（联邦信息处理标准）的算法进行加密密钥
 
 ### <a name="user-and-client-authentication"></a>用户和客户端身份验证
 
-受信任的用户是指其凭据已通过 Office 365/Microsoft 365 中的 Azure AD 进行身份验证的用户。
+受信任的用户是指其凭据已通过 Microsoft 365 或 Office 365 中的 Azure AD 进行身份验证的用户。
 
 身份验证是向受信任的服务器或服务提供用户凭据的过程。 Teams 使用以下身份验证协议，具体取决于用户的状态和位置。
 
-- **新式身份验证 (MA)** 是 Microsoft 为实现客户端到服务器的通信而实施 OAUTH 2.0 的过程。 它支持众多安全功能，如 O365 多重身份验证和 O365 条件访问等。 为了使用 MA，需要为 MA 同时启用联机租户和客户端。 无论是电脑和移动设备上的 Teams 客户端还是 Web 客户端[均支持 MA](https://docs.microsoft.com/microsoftteams/sign-in-teams)。
+- **新式身份验证 (MA)** 是 Microsoft 为实现客户端到服务器的通信而实施 OAUTH 2.0 的过程。 它支持众多安全功能，如多重身份验证和条件访问等。 为了使用 MA，需要为 MA 同时启用联机租户和客户端。 无论是电脑和移动设备上的 Teams 客户端还是 Web 客户端[均支持 MA](https://docs.microsoft.com/microsoftteams/sign-in-teams)。
 
 > [!NOTE]
 > 如果你需要重温 Azure AD 身份验证和授权方法的知识，本文的简介和“Azure AD 中的身份验证基础知识”部分将有所帮助。
@@ -178,7 +178,7 @@ Teams 身份验证是通过 Azure AD 和 OAuth 完成的。 身份验证过程�
 
 ### <a name="windows-powershell-and-team-management-tools"></a>Windows PowerShell 和 Teams 管理工具
 
-在 Teams 中，IT 管理员可以通过 O365 管理门户或使用 Tenant Remote PowerShell（TRPS）管理他们的服务。 租户管理员使用新式验证对 TRPS 进行身份验证。
+在 Teams 中，IT 管理员可以通过 Microsoft 365 管理中心或使用 Tenant Remote PowerShell（TRPS）管理他们的服务。 租户管理员使用新式验证对 TRPS 进行身份验证。
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>在 Internet 边界配置对 Teams 的访问
 
@@ -188,13 +188,9 @@ Teams 身份验证是通过 Azure AD 和 OAuth 完成的。 身份验证过程�
 
 客户端使用 UDP 3478-3481 和 TCP 443 端口请求视听服务。 客户端使用这两个端口分别分配 UDP 和 TCP 端口以启用这些媒体流。 使用在 TLS 保护的信号通道上交换的密钥保护这些端口上的媒体流。
 
-### <a name="udptcp-5000059999-optional"></a>UDP/TCP 50,000-59,999（可选）
-
-高范围内的端口不使用传输中继。 由于它们是可选端口，因此你不会在 Office 365 URL 和 IP 地址范围中找到它们。 这也意味着，若阻止这些端口，由于通信使用端口范围 3478-3481（传输中继），Teams 将正常工作。 它们用于媒体传输，但即使这些范围不受阻碍，延迟的减少也会降到最低状态（几毫秒）。 在大多数情况下，取消阻止和使用这些端口不会影响媒体质量问题。 若对媒体质量问题进行调查，不应将重点放在这些端口，而应关注其他方面。
-
 ### <a name="federation-safeguards-for-teams"></a>Teams 的联合身份验证保护
 
-通过联合身份验证，贵组织能够与其他组织进行通信以共享 IM 和状态。 在 Teams 中，默认启用联合身份验证。 不过，租户管理员可以通过 O365 管理门户控制此设置。
+通过联合身份验证，贵组织能够与其他组织进行通信以共享 IM 和状态。 在 Teams 中，默认启用联合身份验证。 不过，租户管理员可以通过 Microsoft 365 管理中心控制此设置。
 
 ## <a name="addressing-threats-to-teams-meetings"></a>解决 Teams 会议面临的威胁
 
@@ -223,7 +219,7 @@ Teams 身份验证是通过 Azure AD 和 OAuth 完成的。 身份验证过程�
     |开始或停止录制     |     Y    |    N     |
     |在另一位参与者共享 PowerPoint 时进行控制     |  Y         | N        |
 
-Teams 让企业用户能够创建和加入实时会议。 企业用户还可以邀请没有 Azure AD /Office 365 帐户的外部用户参加这些会议。 受外部合作伙伴雇用并具有安全和身份验证身份的用户也可以加入会议，并且可以在升格后担任演示者。 匿名用户无法以演示者身份创建或加入会议，但是在他们加入后，可以升格为演示者。
+Teams 让企业用户能够创建和加入实时会议。 企业用户还可以邀请没有 Azure AD、Microsoft 365 或 Office 365 帐户的外部用户参加这些会议。 受外部合作伙伴雇用并具有安全和身份验证身份的用户也可以加入会议，并且可以在升格后担任演示者。 匿名用户无法以演示者身份创建或加入会议，但是在他们加入后，可以升格为演示者。
 
 为了使匿名用户能够加入 Teams 会议，必须启用“Teams 管理中心”中的“参与者”会议设置。
 
@@ -306,6 +302,6 @@ Teams 让企业用户能够创建和加入实时会议。 企业用户还可以�
 
 [在 Microsoft Teams 中管理会议设置](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
 
-[使用 VPN 分离隧道为远程用户优化 Office 365 连接性](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[使用 VPN 分离隧道为远程用户优化 Microsoft 365 或 Office 365 连接性](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [实现 Office 365 的 VPN 拆分隧道](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [实现 VPN 拆分隧道](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)

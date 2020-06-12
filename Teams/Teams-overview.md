@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: LolaJ
-description: 找到在组织中部署 Microsoft Teams 的正确途径。 了解 Teams 基础结构以及如何与 Office 365 配合使用。
+description: 找到在组织中部署 Microsoft Teams 的正确途径。 了解 Teams 基础结构以及如何与 Microsoft 365 或 Office 365 配合使用。
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 421a849c37d1500ef3542f8a5c203069177eb1df
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: f4c9fc53608d1072558931ee2ba424d6d0334e31
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637671"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689768"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
@@ -38,7 +38,7 @@ ms.locfileid: "44637671"
 
 ## <a name="teams-architecture"></a>Teams 体系结构
 
-Teams 基于 Microsoft 365 组、Microsoft Graph 以及与其余 Office 365 产品相同的企业级安全性、合规性和可管理性构建而成。 Teams 利用 Azure Active Directory (Azure AD) 中存储的身份。 即使在你脱机或遇到网络时好时坏的情况时，Teams 也会继续工作。
+Teams 基于 Microsoft 365 组、Microsoft Graph 以及与其余 Microsoft 365 和 Office 365 产品相同的企业级安全性、合规性和可管理性构建而成。 Teams 利用 Azure Active Directory (Azure AD) 中存储的身份。 即使在你脱机或遇到网络时好时坏的情况时，Teams 也会继续工作。
 
 若要了解 Teams 在 Microsoft 365 上下文中的位置，请查看以下体系结构海报：[作为 Microsoft 365 一部分的 Teams](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -47,11 +47,11 @@ Teams 基于 Microsoft 365 组、Microsoft Graph 以及与其余 Office 365 产�
 - 用于存储团队文件的 [SharePoint Online](sharepoint-onedrive-interact.md) 站点和文档库
 - [Exchange Online](exchange-teams-interact.md) 共享邮箱和日历
 - OneNote 笔记本
-- 与其他 Office 365 应用（例如 Planner 和 Power BI）的关联
+- 与其他 Microsoft 365 和 Office 365 应用（例如 Planner 和 Power BI）的关联
 
 从现有组创建团队时，该组的成员身份、站点、邮箱和笔记本将在 Teams 中出现。 要了解详细信息，请查看此海报：[面向 IT 架构师的 Microsoft 365 中的组](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-若要自定义和扩展 Teams，请通过[应用、机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Office 365 的一部分，Teams 提供了强大的[开发平台](https://docs.microsoft.com/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
+若要自定义和扩展 Teams，请通过[应用、机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)添加第三方应用。 在 Teams 中，你可以将组织外部的人员包含进来，方法是[将其以来宾身份添加](guest-access.md)到团队或频道中。 作为 Microsoft 365 和 Office 365 的一部分，Teams 提供了强大的[开发平台](https://docs.microsoft.com/microsoftteams/platform)，以便你可以构建组织所需的团队合作中心。 
 
 > [!TIP]
 > 如需深入了解 Teams 体系结构，请观看 [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy) 中的视频。
@@ -70,17 +70,17 @@ Teams 基于 Microsoft 365 组、Microsoft Graph 以及与其余 Office 365 产�
 - [在过渡到全新的 Teams 管理中心期间管理 Teams](manage-teams-in-modern-portal.md)
 - [在你的 Microsoft 365 或 Office 365 中管理 Teams 功能](enable-features-office-365.md)
 
-要时刻了解贵组织中的 Teams 及所有其他 Office 365 产品和服务的新动向，请务必检查[消息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)和 [Teams 路线图](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)。 你将获取有关新功能和更新功能、规划更改以及一些问题的公告，以帮助你及时了解情况并做好准备。 
+要时刻了解贵组织中的 Teams 及所有其他 Microsoft 365 或 Office 365 产品和服务的新动向，请务必检查[消息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)和 [Teams 路线图](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams)。 你将获取有关新功能和更新功能、规划更改以及一些问题的公告，以帮助你及时了解情况并做好准备。 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>从 Skype for Business 升级到 Teams
-Teams 是 Office 365 中的主要智能通信客户端，将逐渐取代 Skype for Business Online。 若要了解要添加到 Teams 的新功能，请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。 为了补充持久聊天和消息传递功能，Teams 通过完全集成的内置语音和视频功能提供全面的会议和通话体验。 请查看 Microsoft Teams 博客中的 [Teams 现在是完整的会议和通话解决方案](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)。
+Teams 是 Microsoft 365 和 Office 365 中的主要智能通信客户端，它最终将取代 Skype for Business Online。 若要了解要添加到 Teams 的新功能，请参阅 [Microsoft 365 路线图](https://aka.ms/O365Roadmap)。 为了补充持久聊天和消息传递功能，Teams 通过完全集成的内置语音和视频功能提供全面的会议和通话体验。 请查看 Microsoft Teams 博客中的 [Teams 现在是完整的会议和通话解决方案](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)。
 
 如果你正在运行 Skype for Business 并准备升级到 Teams，或者你正在同时运行 Skype for Business 和 Teams 并准备完全转为运行 Teams，我们提供了工具、提示和指导，以帮助你成功完成过渡。 若要了解详细信息，请参阅[升级到 Teams](upgrade-start-here.md)。
 
-## <a name="teamwork-and-office-365"></a>团队合作和 Office 365
-每个团队各不相同，因此不存在适用于所有团队的通用协作方法。 Office 365 旨在满足每个团队的独特需求，从而使大家能够通过专用的集成应用进行交流、协作以及取得更大的成就。
+## <a name="teamwork"></a>团队合作
+每个团队各不相同，因此不存在适用于所有团队的通用协作方法。 Microsoft 365 和 Office 365 旨在满足每个团队的独特需求，从而使大家能够通过专用的集成应用进行交流、协作以及取得更大的成就。
 
-在决定要使用的 Office 365 应用和服务时，应考虑贵组织的工作内容以及你的团队需要采用的对话类型。 
+在决定要使用的 Microsoft 365 或 Office 365 应用和服务时，应考虑贵组织的工作内容以及你的团队需要采用的对话类型。 
 
 - 作为团队合作的中心，组织内外的人员可在 **Teams** 中主动联系和协作来完成工作。 无论是共同创作文档、举行会议还是在其他应用和服务中合作，都可以在开展工作的地方进行对话。 在 Teams 中，可以进行非正式聊天、快速对项目进行重复操作、处理团队文件以及对共享的可交付结果进行协作。 
 

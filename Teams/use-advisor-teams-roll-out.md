@@ -19,18 +19,18 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams（公共预览版）帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: bd893faa9a166b238a88f3865527bc38ef9bc6d3
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 5c7c0cad16c61b498da0693653979c26da4b219f
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637171"
+ms.locfileid: "44665254"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Advisor for Teams（公共预览版）为你提供 Microsoft Teams 推出的分步指导。 它评估 Office 365 组织环境，并确定成功推出 Teams 前可能需要更新或修改的最常见配置。 然后，Advisor for Teams 会创建一个部署团队（在 Teams 中），你要推出的每个工作负载都有对应的频道。部署团队中的每个工作负载都有一个综合 Planner 计划，其中包括每个工作负载的所有推出任务。  使用此 Planner 计划将任务分配给负责推出的每个阶段的人员 - 包括项目经理、Teams 和 Office 365 管理员、支持人员以及你的采用和用户就绪性团队。 每个推出任务包含成功完成任务所需的所有指南和资源。
+Advisor for Teams（公共预览版）为你提供 Microsoft Teams 推出的分步指导。 它评估 Microsoft 365 或 Office 365 组织环境，并确定成功推出 Teams 前可能需要更新或修改的最常见配置。 然后，Advisor for Teams 会创建一个部署团队（在 Teams 中），你要推出的每个工作负载都有对应的频道。部署团队中的每个工作负载都有一个综合 Planner 计划，其中包括每个工作负载的所有推出任务。  使用此 Planner 计划将任务分配给负责推出的每个阶段的人员 - 包括项目经理、Teams、Microsoft 365 或 Office 365 管理员、支持人员以及你的采用和用户就绪性团队。 每个推出任务包含成功完成任务所需的所有指南和资源。
 
 Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的一部分。 至少必须有 Microsoft 365 商业基础版许可证，才能利用 Teams 顾问与 Forms 和 Planner 的集成。 若要开始使用 Teams 顾问，请在仪表板上的“**部署 Teams 工作负载**”小组件中单击“**启动**”按钮。 或者转到“**计划**” > “**Teams 顾问**”。
 
@@ -89,7 +89,7 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 
 |评估测试  |提供的信息  |
 |---------|---------|
-|已配置虚域     |是否为你的租户配置了非 @onmicrosoft.com 域（例如，@contoso.onmicrosoft.com）。 当然，你可以使用 @onmicrosoft.com 域，或者也可以配置虚域，由你选择。 有关详细信息，请阅读[将域添加到 Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain)。 |
+|已配置虚域     |是否为你的租户配置了非 @onmicrosoft.com 域（例如，@contoso.onmicrosoft.com）。 当然，你可以使用 @onmicrosoft.com 域，或者也可以配置虚域，由你选择。 有关详细信息，请阅读[添加域](https://docs.microsoft.com/office365/admin/setup/add-domain)。 |
 |Teams 许可证     |这是先决条件；你**必须具有** Teams 许可证才能推出 Teams。 此测试查询 Microsoft Graph 以了解你是否拥有 Teams 许可证（至少有一个许可证可供分配）。 有关详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。    |
 |Exchange Online 许可证     |你是否有具有可用 Exchange Online 许可证的活动订阅 虽然 Exchange 不是基本 Teams 功能所必需的，但与 Exchange 的集成提供了一种最佳 Teams 体验。 此测试查询 Microsoft Graph 以分析与租户关联的订阅并验证你是否有具有合格 Exchange Online 许可证的订阅（至少有一个可用的许可证可供分配）。 有关详细信息，请阅读 [Exchange 与 Teams 如何交互](exchange-teams-interact.md)。    |
 |SharePoint Online 许可证     |你是否有具有可用 SharePoint Online 许可证的活动订阅。 建议采用基于每个用户的 SharePoint Online 许可证，以便提供 OneDrive for Business 在聊天中用于文件存储。 此测试查询 Microsoft Graph 以了解你是否拥有 SharePoint Online 许可证（至少有一个许可证可供分配）。 有关详细信息，请阅读 [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)。    |
@@ -102,8 +102,8 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 
 |评估测试  |提供的信息  |
 |---------|---------|
-|已配置 Microsoft 365 组命名策略     |是否已为 Microsoft 365 组配置命名标准。 使用 Microsoft 365 组命名策略，组织可以对用户创建的团队应用一致的命名策略，并也能对其他组工作负载（包括 Outlook、SharePoint、Planner 和 Yammer）应用。 此测试通过 Microsoft Graph 查询 Azure AD，以检查是否有应用于 Microsoft 365 组的命名策略。 有关详细信息，请阅读 [Microsoft 365 组命名策略](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
-|已配置 Microsoft 365 组过期策略     |是否已为 Microsoft 365 组定义组过期策略。 这可让你的组织自动删除非活动状态的团队。 默认情况下处于禁用状态。 此测试通过 Microsoft Graph 查询 Azure AD，并报告是否已在默认值的基础上修改该值。 有关详细信息，请阅读 [Microsoft 365 组过期策略](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
+|已配置 Microsoft 365 组命名策略     |是否已为 Microsoft 365 组配置命名标准。 使用 Microsoft 365 组命名策略，组织可以对用户创建的团队应用一致的命名策略，并也能对其他组工作负载（包括 Outlook、SharePoint、Planner 和 Yammer）应用。 此测试通过 Microsoft Graph 查询 Azure AD，以检查是否有应用于 Microsoft 365 组的命名策略。 有关详细信息，请阅读[组命名策略](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)。    |
+|已配置 Microsoft 365 组过期策略     |是否已为 Microsoft 365 组定义组过期策略。 这可让你的组织自动删除非活动状态的团队。 默认情况下处于禁用状态。 此测试通过 Microsoft Graph 查询 Azure AD，并报告是否已在默认值的基础上修改该值。 有关详细信息，请阅读[组过期策略](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>有关会话和会议的评估
 

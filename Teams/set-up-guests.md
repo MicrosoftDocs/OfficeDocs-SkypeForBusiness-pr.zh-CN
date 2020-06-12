@@ -17,22 +17,22 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e434a85693226252ecef2a5b4c251024524e698f
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 43965ef0b32551a9b4d5030b762d8fe0c53abcc4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326559"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690048"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>打开或关闭对 Microsoft 团队的来宾访问
 ===================================================
 
-默认情况下会关闭来宾访问。 作为 Office 365 管理员，必须先为团队启用来宾访问权限，管理员或团队所有者才能添加来宾。 若要启用来宾访问，请使用[来宾访问清单](guest-access-checklist.md)。 
+默认情况下会关闭来宾访问。 作为 Microsoft 365 或 Office 365 管理员，必须先为团队启用来宾访问权限，管理员或团队所有者才能添加来宾。 若要启用来宾访问，请使用[来宾访问清单](guest-access-checklist.md)。 
 
 启用来宾访问后，可能需要几个小时才能使更改生效。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾访问尚未打开，或者设置尚未生效。
 
 > [!IMPORTANT]
-> 打开来宾访问取决于 Azure Active Directory、Office 365、SharePoint Online 和团队中的设置。 有关详细信息，请参阅[授权团队中的来宾访问](Teams-dependencies.md)。
+> 打开来宾访问取决于 Azure Active Directory、Microsoft 365 或 Office 365、SharePoint Online 和团队中的设置。 有关详细信息，请参阅[授权团队中的来宾访问](Teams-dependencies.md)。
 
 
 

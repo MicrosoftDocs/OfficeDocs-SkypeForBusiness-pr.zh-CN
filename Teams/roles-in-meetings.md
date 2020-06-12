@@ -17,12 +17,12 @@ description: 了解 Teams 会议中的演示者和参与者功能。
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 11c5858532ade4fd4ed00f7c8f6d1d0c94baeb2d
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: c8433d4caa0defbe83114ac4027c10b6bf61a725
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321731"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "44702687"
 ---
 <a name="presenter-and-participant-capabilities-in-a-teams-meeting"></a>Teams 会议中的演示者和参与者功能
 ======================================================
@@ -92,10 +92,10 @@ Microsoft Teams 会议支持多种参与者类型。 参与者可以根据自己
 
 外部参与者是另一个组织中使用 Teams 的人员，该人员受邀加入会议，但无权访问贵组织中的其他共享资源。 外部用户参与者会出现在会议名单中，且其显示名称与他们在自己组织中的标识名称相同。 有关外部参与者的详细信息，请参阅[与其他组织的用户通信](communicate-with-users-from-other-organizations.md#external-access)。
 
-| 会议（仅可作为来宾添加到团队） ||
+| 会议 ||
 |-|-|-|
 | **功能** |||
-| 聊天 | 不适用 |
+| 聊天 | 是 |
 | 会议记录 | 不适用 |  
 | 白板 | 不适用 |
 | 录制 | 不适用 |  
@@ -110,7 +110,7 @@ Microsoft Teams 会议支持多种参与者类型。 参与者可以根据自己
 | 会议  | | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
 | **功能**        | 会议前 | 会议中 | 会议后 |
-| 聊天 | 不适用 | 否 | 不适用 |
+| 聊天 | 不适用 | 是 | 不适用 |
 | 会议记录 | 不适用 | 否 | 不适用 |
 | 白板 | 不适用 | 否 | 不适用 |
 | 录制 | 不适用 | 否 | 不适用 |

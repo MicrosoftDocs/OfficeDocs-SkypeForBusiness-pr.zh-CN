@@ -18,12 +18,12 @@ description: 了解在 Microsoft 团队中向用户分配策略的不同方法�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 098e55aa5f4096ac80e6f54e191e6c9d48d90826
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 1c8c6700ced98cad815c0e30a3afe3e40ae85b33
+ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698282"
+ms.locfileid: "44702727"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft Teams 中的用户分配策略
 
@@ -34,7 +34,7 @@ ms.locfileid: "44698282"
 
 组织具有不同类型的具有独特需求的用户和你创建和分配的自定义策略，让你可以根据这些需求将策略设置自定义给不同的用户集。
 
-为了便于管理组织中的策略，团队提供了多种方法来为用户分配策略。 你可以将策略直接分配给用户，无论是单独的还是通过批处理作业进行缩放，或是用户所属的组。 你还可以使用策略程序包向组织中具有类似角色的用户分配策略的预设集合。 你选择的选项取决于你正在管理的策略的数量以及你要分配到的用户数。
+为了便于管理组织中的策略，团队提供了多种方法来为用户分配策略。 你可以将策略直接分配给用户，无论是单独的还是通过批处理作业进行缩放，或是用户是其成员的组。 你还可以使用策略程序包向组织中具有类似角色的用户分配策略的预设集合。 你选择的选项取决于你正在管理的策略的数量以及你要分配到的用户数。 通过设置全局（组织范围的默认）策略，使其应用于组织中的最大用户数，您只需为需要特殊策略的用户分配策略。
 
 本文介绍为用户分配策略的不同方法以及用于何时使用的建议方案。
 
@@ -62,6 +62,8 @@ ms.locfileid: "44698282"
 
 下面概述了为用户分配策略的方法和建议的每种方案。 单击链接以了解详细信息。
 
+将策略分配给单个用户或组之前，首先[设置全局（组织范围的默认）策略](#set-the-global-policies)，使其应用于组织中的最大用户数。  设置全局策略后，你将仅需要为需要特殊策略的用户分配策略。
+
 |要执行的操作  |If .。。  | 使用 .。。
 |---------|---------|----|
 |[为单个用户分配策略](#assign-a-policy-to-individual-users)    | 您是新的团队新手，只需将一个或几个策略分配给少数几个用户。 |Skype for Business Online PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet
@@ -70,6 +72,50 @@ ms.locfileid: "44698282"
 |为[组分配策略](#assign-a-policy-to-a-group)（在预览中）   |您需要根据用户的组成员身份分配策略。 例如，你想要向安全组或组织单位中的所有用户分配策略。| 团队 PowerShell 模块中的 PowerShell cmdlet|
 | [将策略包分配给一批用户](#assign-a-policy-package-to-a-batch-of-users)|您需要为组织中具有相同或类似角色的一批用户分配多个策略。 例如，使用批处理作业将教育版（教师）策略包分配给你的学校中的所有教师，让他们能够完全访问聊天、通话和会议，并将教育（次要学校学生）策略包分配给一批次要学生，以限制某些功能（如私人通话）。|团队 PowerShell 模块中的 PowerShell cmdlet|
 | 将策略包分配给组（即将推出）   | ||
+
+## <a name="set-the-global-policies"></a>设置全局策略
+
+请按照以下步骤为每个策略类型设置全局（组织范围的默认）策略。
+
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到要更新的策略类型的 "策略" 页面。 例如，*团队 > 团队策略*或*会议 > 会议策略*或*邮件策略*或*语音 > 呼叫策略*。
+2. 选择 "**全局（组织范围默认）** " 策略以查看当前设置。
+3. 根据需要更新策略，然后选择 "**保存**"。
+
+### <a name="using-powershell"></a>使用 PowerShell
+
+若要使用 PowerShell 设置全局策略，请使用全局标识符。  首先查看当前全局策略，确定要更改的设置。
+
+```powershell
+Get-CsTeamsMessagingPolicy -Identity Global
+ 
+Identity                      : Global
+Description                   :
+AllowUrlPreviews              : True
+AllowOwnerDeleteMessage       : False
+AllowUserEditMessage          : True
+AllowUserDeleteMessage        : True
+AllowUserChat                 : True
+AllowRemoveUser               : True
+AllowGiphy                    : True
+GiphyRatingType               : Moderate
+AllowMemes                    : True
+AllowImmersiveReader          : True
+AllowStickers                 : True
+AllowUserTranslation          : False
+ReadReceiptsEnabledType       : UserPreference
+AllowPriorityMessages         : True
+ChannelsInChatListEnabledType : DisabledUserOverride
+AudioMessageEnabledType       : ChatsAndChannels
+Expand (20 lines) Collapse 
+```
+
+接下来，根据需要更新全局策略。  您只需为要更改的设置指定值。 
+ 
+```powershell
+Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
+```
 
 ## <a name="assign-a-policy-to-individual-users"></a>为单个用户分配策略
 

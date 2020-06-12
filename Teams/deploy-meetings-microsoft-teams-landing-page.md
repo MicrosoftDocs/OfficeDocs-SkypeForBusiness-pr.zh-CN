@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665934"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691298"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -63,11 +63,9 @@ Teams 为组织提供了现成的出色体验，并且大多数组织发现默�
 - 将使用 Teams 的客户端上用于传出连接的 TCP 端口 80 和 443。
 - 将使用 Teams 的客户端上用于传出连接的 UDP 端口 3478 到 3481。
 
-可以使用[网络测试配套工具](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.2)，确认网络位置已做好准备应对支持你的会议体验的语音和视频流量。
-
 | 询问你自己 | 操作 |
 |--------------|--------|
-|我的网络是否已准备好进行 Teams 会议部署？ | 若要验证网络是否准备就绪，请参阅：<ul><li>[为 Microsoft Teams 准备组织的网络](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|我的网络是否已准备好进行 Teams 会议部署？ | 若要验证网络是否准备就绪，请参阅：<ul><li>[为 Microsoft Teams 准备组织的网络](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL 和 IP 地址范围](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>核心部署决策
