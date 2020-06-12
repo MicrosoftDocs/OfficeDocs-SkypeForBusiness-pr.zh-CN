@@ -19,14 +19,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a1ffc082e2990b97781100de2cbffd6d094cc5c9
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: 908ed1b8f0baccaa4d4bc69de777ee92b67a4cc7
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281677"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44665934"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
+
+> [!NOTE]
+> - 有关转换到远程学习和资源以帮助入门的概述，请参阅我们的[**远程学习主页**](https://www.microsoft.com/education/remote-learning)。
+> - 关于帮助教师和学生进行远程学习的资源，请访问[**在 Office 365 教育版中进行远程教学和学习**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)。
+
 
 你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 现在你准备添加会议工作负载，其中包括[音频会议](deploy-audio-conferencing-teams-landing-page.md)、视频和分享。 本文将引导你推广会议和音频会议。 首先观看我们的 Teams 会议、音频会议和设备视频（3:28 分钟）：
 

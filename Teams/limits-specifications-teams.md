@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9b4b5e9d862596e91bcb6d30112e5f70a9c8263
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 2ba5201781743567d4c94cad3b065f21e6578e9a
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637641"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44690538"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -101,7 +101,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 |||
 |---------|---------|
-|字符     | ~ # % & * { } + / \ : < > ? &#124; ' " ..        |
+|字符     | ~ # % & * { } + / \ : < > ? &#124; ' " , .        |
 |下述范围内的字符    | 0 到 1F<br>80 到 9F        |
 |字词     | forms、CON、CONIN$, CONOUT$、PRN、AUX、NUL、COM1 到 COM9、LPT1 到 LPT9、desktop.ini、&#95;vti&#95;|
 

@@ -17,24 +17,24 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c02d93fb010b603e973077029b9b6710c5e0ba7
-ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
+ms.openlocfilehash: 4511bf67926c831548084647195e21ed13fc08f5
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "44210638"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691198"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理员快速入门 - Microsoft Teams 中的会议和实时事件
 
 在 Microsoft Teams 中开会有两种方式 - 会议和实时事件。 本文介绍如何为你的组织快速推出和配置会议和实时事件。 
 
- - Teams 中的**会议**包括音频、视频和屏幕共享，最多可容纳 350 人。 它们是在 Teams 中进行协作的关键方式之一。 而且，你无需成为组织成员（甚至无需拥有 Teams 帐户！）即可参加 Teams 会议，只需查看邀请中有关呼叫的说明即可。 
+ - Teams 中的**会议**包括音频、视频和屏幕共享，最多可容纳 250 人。 它们是在 Teams 中进行协作的关键方式之一。 而且，你无需成为组织成员（甚至无需拥有 Teams 帐户！）即可参加 Teams 会议，只需查看邀请中有关呼叫的说明即可。 
 
- - **实时事件**是 Teams 会议的扩展，使你能够安排和制作流向大型在线受众（最多 10,000 人）的事件。 如果你需要召开超过 350 人的会议，请使用实时事件。
+ - **实时事件**是 Teams 会议的扩展，使你能够安排和制作流向大型在线受众（最多 10,000 人）的事件。 如果你需要召开超过 250 人的会议，请使用实时事件。
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>获取会议和实时事件的许可证
 
-任何人都可以免费参加 Teams 会议或实时事件，无需许可证。 与会者可通过单击 Teams 或会议邀请中的“**加入**”按钮来参加 Teams 会议或实时事件。 会议音频是 Teams 会议的一部分，但如果你希望其他人可以通过电话拨入会议，则需要提供拨入号码。 
+任何人都可以免费参加 Teams 会议或公共实时事件，无需许可证。 与会者可通过单击 Teams 或会议邀请中的“**加入**”按钮来参加 Teams 会议或实时事件。 会议音频是 Teams 会议的一部分，但如果你希望其他人可以通过电话拨入会议，则需要提供拨入号码。 
 
 对于将组织、安排和主持会议或实时事件的人员，他们将需要下表中列出的其中一个 Microsoft 365 或 Office 365 许可证。 如果你已在使用 Teams，那么你可能拥有组织和主持会议和实时事件所需的许可证。 
 

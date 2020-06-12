@@ -17,12 +17,12 @@ description: 了解如何使用外部访问（联合身份验证）和来宾访�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b2f91d994ef05b9668d31dabc4d43033350ae85a
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: fcc17aa7bc00904a13aa77761472ea3ea37a17cd
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562037"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689688"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>与 Microsoft Teams 中其他组织的用户通信
 ======================================================
@@ -44,7 +44,7 @@ ms.locfileid: "44562037"
 
 ## <a name="guest-access"></a>来宾访问
 
-使用**来宾访问**将单个用户（无论来自哪个域）添加到团队，以便他们可以聊天、呼叫、召开会议和使用 Office 365 应用（如 Word、Excel 或 PowerPoint）就组织文件（存储在 SharePoint 或 OneDrive for Business）进行协作。 可以为来宾用户提供与本机团队成员几乎所有相同的 Teams 功能。 要了解详细信息，请阅读 [Teams 中的来宾访问](guest-access.md)。
+使用**来宾访问**将单个用户（无论来自哪个域）添加到团队，以便他们可以聊天、呼叫、召开会议和使用Microsoft 365 或 Office 365 应用（如 Word、Excel 或 PowerPoint）就组织文件（存储在 SharePoint 或 OneDrive for Business）进行协作。 可以为来宾用户提供与本机团队成员几乎所有相同的 Teams 功能。 要了解详细信息，请阅读 [Teams 中的来宾访问](guest-access.md)。
 
 - 来宾已添加到组织的 Active Directory 中。
 - 要与来宾通信，来宾必须使用其来宾帐户登录到 Teams。 这意味着，来宾可能必须注销自己的 Teams 帐户才能登录到 Teams 帐户。
@@ -87,7 +87,7 @@ ms.locfileid: "44562037"
 <sup>1</sup> 前提是已将用户添加为来宾，并且已作为来宾登录到来宾租户。<br>
 <sup>2</sup> 仅通过电子邮件或会话初始协议 (SIP) 地址。<br>
 <sup>3</sup> 外部（联合）聊天仅可为一对一。<br>
-<sup>4</sup> 支持来自两个不同组织的仅 Teams 对仅 Teams 用户的一对一聊天。 
+<sup>4</sup> 支持来自两个不同组织的仅 Teams 对仅 Teams 用户的一对一聊天。 <br>
 <sup>5</sup> 默认情况下，外部参与者看不到拨入参与者的电话号码。 如果想要保护这些电话号码的隐私，请选择“**进入/退出公告类型**”的“**提示音**”（这会阻止 Teams 读出电话号码）。如果不希望向外部用户显示外部 PSTN 电话号码，请在打开“**进入/退出公告**”后，为相应公告类型选择“**提示音**”。 若要了解详细信息，请参阅[在 Microsoft Teams 中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
 
 ## <a name="related-topics"></a>相关主题

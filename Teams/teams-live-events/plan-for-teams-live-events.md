@@ -18,12 +18,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e997b667b02ef2c3b68e5c751b619098e9e740e4
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224235"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689728"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -46,7 +46,7 @@ ms.locfileid: "44224235"
 > [!NOTE]
 > 目前，没有任何 Microsoft 365 小型企业版计划可用于创建和保留 Teams 实时事件。
 
-注意，Office 365 许可证是经过身份验证的用户参见实时事件的必要条件，但是此要求取决于所使用的制作方式：
+注意，Microsoft 365 或 Office 365 许可证是经过身份验证的用户参见实时事件的必要条件，但是此要求取决于所使用的制作方式：
 
 - **使用 Teams 制作的事件**  必须为用户分配 Teams 许可证。
 - **使用外部应用程序或设备制作的事件** 必须向该用户分配 Stream 许可证。
@@ -97,7 +97,7 @@ ms.locfileid: "44224235"
 |最大受众规模 |10,000 名与会者 |10,000 名与会者<sup>1</sup> |10,000 名与会者<sup>1</sup> |
 |实时事件最大持续时间 |4 小时 |4 小时 |4 小时 |
 |现场活动中演示者和制作者最大数量 |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|每个 Office 365 组织的最大并发实时事件数量 |15  | 15  | 15  |
+|每个 Microsoft 365 或 Office 365 组织的最大并发实时事件数量 |15  | 15  | 15  |
 |创建实时事件 |   Skype 会议直播门户 |团队、Yammer （通过 Teams） | Teams、Yammer （通过团队），Stream |
 |受众参与 – Yammer |&#x2714; |&#x2714;（集成体验） |&#x2714;（集成体验） |
 |受众参与 – 已审核问答 |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ ms.locfileid: "44224235"
 |实时辅助字幕与字幕 |&#x2714; |&#x2714; |&#x274C; |
 |实时事件录制字幕 |&#x2714; |&#x2714; |&#x2714; |
 |与会者 DVR 控件（暂停、后退） |&#x2714; |&#x2714; |&#x2714; |
-|合作伙伴 eCDN 支持 |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|合作伙伴 eCDN 支持 |&#x2714; (Kollective, Ramp) |&#x2714; (Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
 |制作者直播后受众报告 |&#x2714; |&#x2714; |&#x274C; |
 |受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

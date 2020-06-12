@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: eac771d87003ab00adbe3c99adb1193c4ff12779
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0d142be3a8d5f245cda857601995653d6ca6d240
+ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638841"
+ms.locfileid: "44665284"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>在 Teams 中规划生命周期管理
 
@@ -41,7 +41,7 @@ Teams 提供了一组丰富的工具，用于为组织实施协作生命周期�
 
 **Teams**
 
-_团队_是包含人员、内容和促进协作的工具的集合。 团队规定了其成员以及应用于这些成员的权限和策略。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Microsoft 365 组成员身份的更改会同步到团队。 与其他 Microsoft 365 组一样，Teams 中自动预配了一个 Exchange 邮箱、一个 SharePoint 站点、一个 OneNote 笔记本以及 Office 365 中的其他资源。 [了解有关 Microsoft 365 组的详细信息。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+_团队_是包含人员、内容和促进协作的工具的集合。 团队规定了其成员以及应用于这些成员的权限和策略。 Teams 是基于 Microsoft 365 组进行构建的，并且对 Microsoft 365 组成员身份的更改会同步到团队。 与其他 Microsoft 365 组一样，Teams 中自动预配了一个 Exchange 邮箱、一个 SharePoint 站点、一个 OneNote 笔记本以及 Microsoft 365 或 Office 365 中的其他资源。 [了解有关 Microsoft 365 组的详细信息。](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 **频道**
 
