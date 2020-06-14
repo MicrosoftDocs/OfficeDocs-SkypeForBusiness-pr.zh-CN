@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 了解如何自定义可包括已读回执和优先级通知的安全邮件策略。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905524"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724890"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>适用于医疗保健组织的安全邮件入门
 
@@ -52,8 +52,6 @@ ms.locfileid: "43905524"
 已*读回执的用法示例：* Dewei Roth （一种高风险患者）获准给医院。Sofia Krause 是一位护士，其中包括不同专业团队的专业团队（IDT）（包括不同的专业人员），作为本患者的主要护理协调员分配。  Sofia 与一组医生和其他医护人员进行群组聊天，这些医生和其他医护人员将与患者合作，以协调护理并启动紧急会审。在整个护理协调流程中，护士和医生通过患者的护理计划进行沟通和协作。  重要和紧急邮件通过1:1 和群组聊天对话发送。 Sofia 使用 "已读" 回执功能确定已发送请求支持的邮件是否由目标医生或医护人员提供和阅读。 Dewei 的患者成果接近最佳，他将更快地开始，因为他的护理团队顺利进行沟通。
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>使用优先级通知发送紧急邮件
-
-[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 将聊天消息发送给其他用户时，用户可以将消息标记为*紧急*。 此功能可帮助医院人员在关键事件需要关注时通知另一个人。 与普通的*重要*邮件不同，[优先级通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)将每隔两分钟通知用户最多20分钟或直到邮件被接收并阅读，从而最大程度地提高邮件的处理可能性。
 

@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 团队管理员功能的发行说明。
-ms.openlocfilehash: f8bf1c14e8dca43eccfa2bfdde209eca43fc24fe
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 99f92af75e90ef568bf98ccb6587d0dad0da1591
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702717"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710816"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 团队管理员功能的发行说明
 
 这些发行说明提供有关 Microsoft 团队的新管理员功能的信息。
+
+## <a name="june-11-2020"></a>2020年6月11日
+
+### <a name="call-queues---presence-based-routing"></a>通话队列-基于状态的路由
+
+关闭后，呼叫将路由到已选择接收呼叫的代理，而不考虑其状态。 如果启用，则选择的代理仅在其状态可用时才会收到呼叫。 [了解详细信息](../create-a-phone-system-call-queue.md)。
+
+
+## <a name="june-10-2020"></a>2020年6月10日
+
+### <a name="call-queues---longest-idle-routing"></a>通话队列-闲置最长的路由
+选择此项时，传入呼叫将路由到未在最长时间内接听传入呼叫的呼叫代理。 [了解详细信息](../create-a-phone-system-call-queue.md)。
 
 ## <a name="june-1-2020"></a>2020年6月1日
 
@@ -90,12 +102,6 @@ Microsoft 团队客户端 for RealWear 支持一线工作人员使用 RealWear �
 ### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>团队通话和会议的基于策略的录制
 
 此功能支持通过 Microsoft 认证的软件供应商自动录制团队通话和会议。
-
-## <a name="march-29-2020"></a>2020年3月29日
-
-### <a name="call-queues---presence-based-routing"></a>通话队列-基于状态的路由
-
-关闭后，呼叫将路由到已选择接收呼叫的代理，而不考虑其状态。 如果启用，则选择的代理仅在其状态可用时才会收到呼叫。 [了解详细信息](../create-a-phone-system-call-queue.md)。
 
 ## <a name="march-25-2020"></a>2020年3月25日
 

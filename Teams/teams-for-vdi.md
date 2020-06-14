@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1338b9f497722b50658545918afa825fb652d462
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a12ed5780dd9119f4adc0a7bb77c9c110f533859
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689698"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724923"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -133,8 +133,8 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
 1. 使用以下链接之一下载与你的 VDI VM 操作系统匹配的团队 MSI 程序包：
 
 
-    - [32位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
-    - [64位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+    - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.12058/Teams_windows.msi)
+    - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.12058/Teams_windows_x64.msi)
 
 
     所需的团队桌面应用的最低版本是1.3.00.4461 版本。 （早期版本不支持 PSTN 保留。）

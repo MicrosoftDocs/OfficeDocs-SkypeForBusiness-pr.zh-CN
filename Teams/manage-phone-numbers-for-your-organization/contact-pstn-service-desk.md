@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 当您获得您的组织的电话号码或移植（转移）号码时，您可能需要在 PSTN 服务支持处获得帮助和支持。
-ms.openlocfilehash: 3079d6881d86239d395c036c9630ef5ee2eac151
-ms.sourcegitcommit: 47637ed816b471fe689e7bdac27b73e6efced60c
+ms.openlocfilehash: fd6300c16ec3f09742138e0ea4879b9d0dd6b12a
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44374270"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710826"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN 服务台联系人
 
@@ -42,13 +42,13 @@ PSTN 服务台团队目前有三个电子邮件地址用于支持，如下表所
 
 如果您需要帮助**将您的现有电话号码转移/移植到 Microsoft 团队**，请提供尽可能多的详细信息：
   - 您的[组织 ID （租户 ID）或当前处于活动状态的 Microsoft 域](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)。
-  - 您需要帮助的电话号码类型（**用户/订户**或**服务/收费电话/** 免费电话）。
+  - 您需要帮助的电话号码类型 **（用户、服务收费或免费服务）**。
   - 基于你的请求的其他重要详细信息。
   
 如果您需要协助**获取 Microsoft 团队的新电话号码**，请输入尽可能多的详细信息：
   - 您的[组织 ID （租户 ID）或当前处于活动状态的 Microsoft 域。](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id)
-  - 您想获得的电话号码类型（**用户/订阅者**或**服务/收费电话/** 免费电话）。
-  - 您需要多少以及您希望从中/Country/Region 新电话号码的区号。
+  - 您需要帮助的电话号码类型 **（用户、服务收费或免费服务）**。
+  - 您需要多少以及您希望从中/country/region 新电话号码的区号。
 
 如果您需要**有关与数字设置、配置、许可证/费用/帐单相关的任何内容**的帮助，请转到[支持联系人 for Business 产品-管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)页面，我们的技术团队将非常乐意为您提供帮助。
 

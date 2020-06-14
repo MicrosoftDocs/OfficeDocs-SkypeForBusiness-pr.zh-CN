@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 在本文中，你将了解消息策略以及如何使用它们控制团队中的聊天消息服务。
-ms.openlocfilehash: d435296f26c76017218af6120bcae5a4b90a0b36
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: a1d47efe49781f8c7f62cdb87eaab977fa4304e2
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637921"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724897"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
@@ -93,8 +93,8 @@ ms.locfileid: "44637921"
 - **允许 URL 预览**使用此设置可在邮件中打开或关闭自动 URL 预览。
 - **允许用户翻译邮件**启用此设置，让用户自动将团队邮件转换为 Microsoft 365 或 Office 365 的个人语言设置所指定的语言。
 - **允许沉浸式阅读器查看邮件**启用此设置，让用户在 Microsoft 沉浸式阅读器中查看邮件。 沉浸式阅读器是一种学习工具，可提供全屏阅读体验以增加文本的可读性。
-- **使用优先级通知发送紧急邮件**如果启用此操作，则用户可以使用[优先级通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)发送消息。 优先级通知将每隔2分钟通知用户一段20分钟，或者直到被标记为*紧急*的邮件被接收并阅读时，最大程度地提高邮件的处理可能性。   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **创建音频消息**
+- **使用优先级通知发送紧急邮件**如果启用此操作，则用户可以使用[优先级通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)发送消息。 优先级通知将每隔2分钟通知用户一段20分钟，或者直到被标记为*紧急*的邮件被接收并阅读时，最大程度地提高邮件的处理可能性。
+- **创建音频消息** 
   > [!Important]
   > 在电子数据展示报告中不捕获音频消息。
     - **在聊天和频道中允许**这意味着用户可以在聊天和频道中留下音频消息。
@@ -109,4 +109,4 @@ ms.locfileid: "44637921"
 
 ### <a name="related-topics"></a>相关主题
 
-[团队中的会议策略](meeting-policies-in-teams.md)
+- [团队中的会议策略](meeting-policies-in-teams.md)

@@ -16,12 +16,12 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f2cfcc4be8641fd11a0f22ba090fc5c71a3a240
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690898"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710806"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -113,7 +113,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制转录
 
-在用户录制其 Teams 会议时，他们可以确认是否应该在录制会议后自动生成一份转录。 如果为会议组织者和录制发起人禁用了转录功能，则录制发起人将无法选择转录会议录制。
+此设置控制播放会议录制期间是否提供字幕和脚本功能。 如果关闭此功能，在播放会议录制的过程中，"**搜索**" 和 **"抄送**" 选项将不可用。 启动录制的人员需要启用此设置，以便录制还包括脚本。
+
+请注意，当前只有在团队中将语言设置为英语且在会议中朗读英语的用户才支持使用录制的会议。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 

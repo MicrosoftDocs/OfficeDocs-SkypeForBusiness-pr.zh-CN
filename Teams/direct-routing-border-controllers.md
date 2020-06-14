@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解哪些会话边界控制器（SBCs）已验证了直接路由。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a76ed1e3a386aef7d6b6216b279a1e712e20f88
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691268"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710796"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -71,7 +71,11 @@ Microsoft 与每位供应商协作：
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路由服务（ERS）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关（EGW）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路由服务（ERS）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关（EGW）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支持的3.20 （推荐4.0）        |     |    |    
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |    
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
+|                     [Cisco](http://www.cisco.com/go/cube)                               |     用于1000系列集成服务路由器的 Cisco 统一 Border 元素（多维数据集）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |   |  
+|                                   |     用于4000系列集成服务路由器的 Cisco 统一 Border 元素（多维数据集）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
+|                                   |     用于1000V 系列云服务路由器的 Cisco 统一 Border 元素（多维数据集）       |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
+|                                 |     用于1000系列聚合服务路由器的 Cisco 统一边框元素（多维数据集）      |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
 
 下表列出了直接路由和模拟设备之间的互操作性验证的设备。
 
