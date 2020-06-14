@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c706fdde4f9634cc67b334cf19d0e9d3325f6ec8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776577"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691318"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音频会议
 
@@ -44,7 +44,7 @@ ms.locfileid: "43776577"
 |询问你自己|操作 |
 |------------|-------|
 |我所在的国家/地区是否可以使用音频会议功能？|若要了解你所在的国家/地区是否可使用音频会议功能，请参阅[音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。|
-|我的用户是否有适当的 Teams 音频会议许可？|音频会议许可证作为 Office 365 E5 订阅的一部分提供，或作为 Microsoft 365 商业标准版 E1 或 E3 订阅的一项附加服务提供。 <ul><li>若要获取和分配许可证，请参阅[在 Office 365 中试用或购买音频会议功能](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)以及[分配或移除 Office 365 商业版许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要了解详细信息，请阅读 [Microsoft Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要了解每种 Office 365 计划中包括哪些云功能，请参阅[基于计划的许可证选项](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
+|我的用户是否有适当的 Teams 音频会议许可？|音频会议许可证作为 Microsoft 365 或 Office 365 E5 订阅的一部分提供，或作为 Microsoft 365 商业标准版 E1 或 E3 订阅的一项附加服务提供。 <ul><li>若要获取和分配许可证，请参阅[在 Microsoft 365 或 Office 365 中试用或购买音频会议功能](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)以及[分配或移除 Microsoft 365 商业应用版许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要了解详细信息，请阅读 [Microsoft Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要了解每种计划中包括哪些云功能，请参阅[基于计划的许可证选项](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
 |是否需要为分配有音频会议许可证的用户购买通信点数？|若要了解详情，请阅读[什么是通信点数](what-are-communications-credits.md)，然后查看下面的[通信点数](#communications-credits)部分。|
 |||
 
@@ -67,9 +67,9 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>会议网桥和电话号码
 
-会议网桥使用户能够使用电话拨入会议。 你可以为会议网桥使用默认设置，也可以更改电话号码（收费和免费）和其他设置，例如 PIN 或使用的语言。
+会议网桥使用户能够使用电话拨入会议。 可以使用会议网桥的默认设置，也可以更改电话号码（收费和免费）和其他设置（如 PIN 或使用的语言）。
 
-请参阅 [Office 365 中的音频会议](audio-conferencing-in-office-365.md)了解详情。
+请参阅[音频会议](audio-conferencing-in-office-365.md)了解详情。
 
 |询问你自己|操作 |
 |------------|-------|
@@ -136,7 +136,7 @@ Teams 音频会议允许你为会议网桥设置默认语言和备用语言。
 
 ### <a name="dial-plans"></a>拨号计划
 
-作为 Office 365 电话系统一部分的拨号计划是一组规范化规则，用于将拨打的电话号码转换为替代格式（通常为 E.164 格式）以便进行通话授权和通话路由。
+作为 Microsoft 365 或 Office 365 电话系统一部分的拨号计划是一组规范化规则，用于将拨打的电话号码转换为替代格式（通常为 E.164 格式）以便进行通话授权和通话路由。
 
 有关拨号计划的详细信息，请参阅[什么是拨号计划？](what-are-dial-plans.md)
 
