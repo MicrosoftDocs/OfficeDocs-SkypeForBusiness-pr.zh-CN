@@ -1,9 +1,9 @@
 ---
-title: '团队消息中的优先级通知 '
-ms.author: tonysmit
-author: tonysmit
+title: 团队消息中的优先级通知
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav
+ms.reviewer: salu
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
@@ -19,27 +19,20 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: 在本文中，你将了解 Microsoft 团队消息传递中的优先级通知。
-ms.openlocfilehash: c2c84019635ce2c46b6aad38363c7f8aabada83b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: 了解 Microsoft 团队消息传递中的优先级通知。
+ms.openlocfilehash: d0323ead1a3bcf3f9b3dd4418428b033fe742db9
+ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904684"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44724906"
 ---
-# <a name="messaging-policies-licensing"></a><span data-ttu-id="a1d51-103">消息策略许可</span><span class="sxs-lookup"><span data-stu-id="a1d51-103">Messaging policies licensing</span></span>
+# <a name="messaging-policies-licensing"></a><span data-ttu-id="fd9d3-103">消息策略许可</span><span class="sxs-lookup"><span data-stu-id="fd9d3-103">Messaging policies licensing</span></span>
 
-<span data-ttu-id="a1d51-104">我们将听取全球各地客户的来信，COVID （Coronavirus） pandemic 在其日常运营中处理重大变动的方式带来了新的挑战。</span><span class="sxs-lookup"><span data-stu-id="a1d51-104">We're hearing from customers around the globe how the COVID-19 (Coronavirus) pandemic has created new challenges as they work to handle drastic shifts in their day-to-day operations.</span></span>
+<span data-ttu-id="fd9d3-104">我们将听取全球各地客户的来信，COVID （Coronavirus） pandemic 在其日常运营中处理重大变动的方式带来了新的挑战。</span><span class="sxs-lookup"><span data-stu-id="fd9d3-104">We're hearing from customers around the globe how the COVID-19 (Coronavirus) pandemic has created new challenges as they work to handle drastic shifts in their day-to-day operations.</span></span> <span data-ttu-id="fd9d3-105">在较快的条件中，能够直接快速地与团队成员保持联系对于在危机响应过程中维护业务连续性非常重要，并且许多人返回到工作场所。</span><span class="sxs-lookup"><span data-stu-id="fd9d3-105">Being able to directly and quickly connect with teammates during fast-changing conditions is essential to maintaining business continuity during the crisis response and as many of us return to the workplace.</span></span> <span data-ttu-id="fd9d3-106">目前仅针对商业客户的高级消息加载项 SKU 提供优先级通知。</span><span class="sxs-lookup"><span data-stu-id="fd9d3-106">Priority notifications is available in the Premium Messaging add-on SKU today for Commercial customers only.</span></span>
 
-<span data-ttu-id="a1d51-105">在较快的条件下，能够直接和快速地与团队成员保持联系是维护业务连续性的关键，因此我们正在将促销访问扩展到 Microsoft 团队中的关键消息功能。</span><span class="sxs-lookup"><span data-stu-id="a1d51-105">Being able to directly and quickly connect with teammates during fast-changing conditions is essential to maintaining business continuity, and as such, we're extending promotional access to key messaging features in Microsoft Teams.</span></span>
+<span data-ttu-id="fd9d3-107">在2019年6月发布的情况下，Microsoft 团队的[优先级通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)允许用户在所有标记为紧急的邮件上持续发送最多20分钟的通知，每隔两分钟重复。</span><span class="sxs-lookup"><span data-stu-id="fd9d3-107">Originally announced in June 2019, [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) for Microsoft Teams grants users the ability to continually send notifications that repeat every two minutes for up to 20 minutes on all messages marked as urgent.</span></span> <span data-ttu-id="fd9d3-108">已将优先级通知提供给所有团队客户<sup>1</sup> ，直到2020的第二一半。</span><span class="sxs-lookup"><span data-stu-id="fd9d3-108">Priority notifications had been made available as a promotion to all Teams customers<sup>1</sup> until the second half of 2020.</span></span>
 
-<span data-ttu-id="a1d51-106">最初在2019年6月发布的情况下，团队的[优先级通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)授予用户在所有标记为*紧急*的邮件上最多20分钟持续发送两分钟的通知的能力。</span><span class="sxs-lookup"><span data-stu-id="a1d51-106">Originally announced in June 2019, [priority notifications](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) for Teams grants users the ability to continually send notifications that repeat every two minutes for up to 20 minutes on all messages marked as *urgent*.</span></span> <span data-ttu-id="a1d51-107">在发布时，我们已将优先级通知提供给所有团队用户在2020年4月1日之前的促销活动。</span><span class="sxs-lookup"><span data-stu-id="a1d51-107">On release, we had made priority notifications available as a promotion to all Teams users until April 1, 2020.</span></span> 
+<span data-ttu-id="fd9d3-109">现在，我们已结束本次促销，<sup>并为所有团队客户提供</sup>了优先级通知，这是一种基本功能。</span><span class="sxs-lookup"><span data-stu-id="fd9d3-109">Effective immediately, we have ended this promotion and made priority notifications available to all Teams customers<sup>1</sup> as a basic capability.</span></span> <span data-ttu-id="fd9d3-110">用户现在可以通过优先级通知发送和接收不受限制的紧急邮件。</span><span class="sxs-lookup"><span data-stu-id="fd9d3-110">Users will now be able to send and receive unlimited urgent messages with priority notification.</span></span> <span data-ttu-id="fd9d3-111">[了解有关管理优先级通知的详细信息](../messaging-policies-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="fd9d3-111">[Learn more about managing priority notifications](../messaging-policies-in-teams.md).</span></span>
 
-<span data-ttu-id="a1d51-108">**为帮助我们的客户和社区在其危机响应工作中，我们将在2020的第二部分扩展优先级通知促销。**</span><span class="sxs-lookup"><span data-stu-id="a1d51-108">**To assist our customers and community in their crisis response efforts, we're extending the priority notifications promotion until the second half of 2020.**</span></span> <span data-ttu-id="a1d51-109">对优先级通知的持续访问将在危机响应和恢复工作中提供。</span><span class="sxs-lookup"><span data-stu-id="a1d51-109">Ongoing access to priority notifications will be available to facilitate in crisis response and recovery efforts.</span></span> <span data-ttu-id="a1d51-110">提升期结束后，许可用户将能够根据其订阅条款发送优先级通知。</span><span class="sxs-lookup"><span data-stu-id="a1d51-110">After the promotion period ends, licensed users will be able to send priority notifications according to the terms of their subscription.</span></span>
-
-<span data-ttu-id="a1d51-111">管理员将获得有关优先级通知使用情况的报告，以支持相应的用户许可。</span><span class="sxs-lookup"><span data-stu-id="a1d51-111">Admins will be given reporting on priority notification usage to support appropriate user licensing.</span></span> <span data-ttu-id="a1d51-112">无论许可证如何，用户都可以通过优先级通知收到不受限制的紧急邮件。</span><span class="sxs-lookup"><span data-stu-id="a1d51-112">Users will be able to receive unlimited urgent messages with priority notifications, regardless of license.</span></span> <span data-ttu-id="a1d51-113">[了解有关优先级通知的详细信息](../messaging-policies-in-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="a1d51-113">[Learn more about priority notifications](../messaging-policies-in-teams.md).</span></span>
-
-<!-- |Government| | |
-||GCC|Office 365 F1 / Microsoft 365 F1<br> Microsoft 365 G1|Office 365 G3 / Microsoft 365 G3 <br> Microsoft 365 G5|
-||GCC-High| Office 365 F1 / Microsoft 365 F1<br> Office 365 G1| Office 365 G3 / Microsoft 365 G3 Microsoft 365 G5|
-||DoD| Office 365 F1 / Microsoft 365 F1<br>Office 365 G1|Office 365 G3 / Microsoft 365 G3| -->
+<span data-ttu-id="fd9d3-112"><sup>1</sup>优先级通知当前不可用于 GCC、GCC 高或 DoD 客户。</span><span class="sxs-lookup"><span data-stu-id="fd9d3-112"><sup>1</sup>Priority notifications are not currently available for GCC, GCC High, or DoD customers.</span></span>
