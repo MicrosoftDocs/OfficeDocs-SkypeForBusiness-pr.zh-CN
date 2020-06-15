@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 为 Skype for business Server Enterprise Voice 中的会议规划基于位置的路由，包括咨询呼叫转移。
-ms.openlocfilehash: f2a44c1f3275dd0cc9e1205d60ba26e01429ea51
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: cec7eb1f853752997ca3dcfbe8546b86227fde9b
+ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690578"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "44710736"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Skype for Business Server 中的会议的基于位置的路由
 
@@ -49,9 +49,7 @@ ms.locfileid: "44690578"
 
 下表汇总了这些基于会议位置的路由限制。
 
-| |
-
-|**在任意给定时刻会议中的用户**|**允许加入会议的用户**|**不允许用户加入会议**|
+|在任意给定时刻会议中的用户|允许加入会议的用户|不允许用户加入会议|
 |:-----|:-----|:-----|
 |来自单个网络站点的 Skype for Business VoIP 客户端用户  <br/> |来自相同网络站点的 Skype for Business VoIP 客户端用户  <br/> 来自不同网络站点的 Skype for Business VoIP 客户端用户  <br/> 来自未知网络站点的 Skype for Business VoIP 客户端用户  <br/> 联合 Skype for Business VoIP 客户端用户  <br/> 从 PSTN 终结点加入的用户  <br/> |无  <br/> |
 |来自未知网络站点的 Skype for Business VoIP 客户端用户  <br/> |来自任何网站的 Skype for Business VoIP 客户端用户  <br/> 来自未知网站的 Skype for business VoIP 客户端用户  <br/> 联合 Skype for Business VoIP 客户端用户  <br/> |通过 PSTN 终结点加入的用户  <br/> |
@@ -69,7 +67,7 @@ ms.locfileid: "44690578"
 > [!NOTE]
 > 使用 Skype for Business 累积更新4，应遵循下表中的行为：
 
-|**User**|**其他方**|**Action**|**结果**|
+|User|其他方|Action|结果|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Mobile  <br/> |PSTN  <br/> |Skype for Business Mobile 位于 PSTN 呼叫中。 Skype for Business 移动然后将呼叫升级到会议自动助理（CAA）。  <br/> |呼叫被阻止，并提供相应的错误消息。  <br/> |
 |Skype for Business Mobile  <br/> |Skype for Business 客户端或联合用户  <br/> |客户端或联盟用户位于基于 Skype for Business 移动位置的 VoIP 呼叫，并且每一方都要升级到 CAA。  <br/> |升级呼叫被阻止，并提供相应的错误消息。  <br/> |
@@ -84,24 +82,24 @@ ms.locfileid: "44690578"
 
 当启用了基于位置的路由的用户启动 PSTN 终结点的咨询呼叫转移（如上图所示）时，这将创建两个活动呼叫、PSTN 用户和 Skype for business 用户 A 之间的一个呼叫，以及 Skype for business 用户 A 和 Skype for Business 用户 B 之间的一个呼叫。以下行为强制实施会议应用程序的基于位置的路由:
 
-- 如果对 PSTN 呼叫的 SIP 中继路由有权将 PSTN 呼叫重新路由到网络站点（其中 Skype for Business 用户 B （即传输目标）所在的网络站点），则将允许呼叫转移;否则，将阻止咨询呼叫转移。 此授权根据被转移方在与将活动呼叫路由到 PSTN 终结点的 SIP 中继位于同一网络站点中的位置进行。
+- 如果对 PSTN 呼叫的 SIP 中继路由有权将 PSTN 呼叫重新路由到网络站点（其中 Skype for Business 用户 B （即转移目标）所在的网络站点），则允许呼叫转移;否则，将阻止咨询呼叫转移。 此授权根据被转移方在与将活动呼叫路由到 PSTN 终结点的 SIP 中继位于同一网络站点中的位置进行。
 
 - 如果 SIP 中继路由未授权入站 PSTN 呼叫将呼叫路由到传输方（Skype for Business 用户 B）所在的网络站点，或者转移方位于未知网络站点中，则将阻止向 PSTN 终结点传输咨询呼叫（即呼叫转移目标）。
 
 下表介绍了会议应用程序的基于位置的路由限制是如何应用于咨询呼叫转移的基于位置的路由限制。 虽然 PBX 终结点不与网络站点直接关联，但 PBX 的 SIP 中继可分配给网络站点。 因此，PBX 终结点可以与网络站点间接关联。
 
 
-|**呼叫转移方的网络站点**|**呼叫转接目标的网络站点**|**行为**|
+|呼叫转移方的网络站点|呼叫转接目标的网络站点|行为|
 |:-----|:-----|:-----|
-|PSTN 终结点  <br/> |同一网络站点中的 Skype for Business 用户（例如，站点1）  <br/> |将允许咨询转移  <br/> |
+|PSTN 终结点  <br/> |同一网络站点（即站点1）中的 Skype for Business 用户  <br/> |将允许咨询转移  <br/> |
 |PSTN 终结点  <br/> |不同网络站点（即站点2）中的 Skype for Business 用户  <br/> |将不允许咨询转移  <br/> |
 |PSTN 终结点  <br/> |未知网络站点中的 Skype for Business 用户  <br/> |将不允许咨询转移  <br/> |
 |PSTN 终结点  <br/> |联合 Skype for Business 用户  <br/> |将不允许咨询转移  <br/> |
-|PSTN 终结点  <br/> |同一站点中的 PBX 终结点（例如，site 1）  <br/> |将允许咨询转移  <br/> |
-|PSTN 终结点  <br/> |不同站点中的 PBX 终结点（即 site 2）  <br/> |将不允许咨询转移  <br/> |
-|同一站点中的 PBX 终结点（例如，site 1）  <br/> |PSTN 终结点  <br/> |将允许咨询转移  <br/> |
-|不同站点中的 PBX 终结点（即 site 2）  <br/> |PSTN 终结点  <br/> |将不允许咨询转移  <br/> |
-|任何站点中的 PBX 终结点  <br/> |同一网络站点中的 Skype for Business 用户（例如，站点1）  <br/> |将允许咨询转移  <br/> |
+|PSTN 终结点  <br/> |同一站点（即站点1）中的 PBX 终结点  <br/> |将允许咨询转移  <br/> |
+|PSTN 终结点  <br/> |不同站点（即站点2）中的 PBX 终结点  <br/> |将不允许咨询转移  <br/> |
+|同一站点（即站点1）中的 PBX 终结点  <br/> |PSTN 终结点  <br/> |将允许咨询转移  <br/> |
+|不同站点（即站点2）中的 PBX 终结点  <br/> |PSTN 终结点  <br/> |将不允许咨询转移  <br/> |
+|任何站点中的 PBX 终结点  <br/> |同一网络站点（即站点1）中的 Skype for Business 用户  <br/> |将允许咨询转移  <br/> |
 |任何站点中的 PBX 终结点  <br/> |不同网络站点（即站点2）中的 Skype for Business 用户  <br/> |将允许咨询转移  <br/> |
 |任何站点中的 PBX 终结点  <br/> |未知网络站点中的 Skype for Business 用户  <br/> |将允许咨询转移  <br/> |
 |任何站点中的 PBX 终结点  <br/> |联合 Skype for Business 用户  <br/> |将允许咨询转移  <br/> |
@@ -113,7 +111,7 @@ ms.locfileid: "44690578"
 下表标识了支持基于位置的路由的服务器角色和版本的组合。
 
 
-|**前端池版本**|**中介服务器版本**|**支持**|
+|前端池版本|中介服务器版本|支持|
 |:-----|:-----|:-----|
 |Skype for Business Server 或 Lync Server 2013 累积更新2  <br/> |Skype for Business Server 或 Lync Server 2013 累积更新2  <br/> |是  <br/> |
 |Lync Server 2013 累积更新2  <br/> |Lync Server 2013 累积更新1  <br/> |否  <br/> |
@@ -137,7 +135,11 @@ ms.locfileid: "44690578"
 
 默认情况下，将禁用会议应用程序的基于位置的路由。 在启用此应用程序之前，您需要确定要分配给应用程序的正确优先级。 若要确定此优先级，请在 Skype for Business Server 命令行管理程序中运行以下 cmdlet：
 
-CsServerApplication-Identity Service：注册器： <Pool FQDN> 在此 cmdlet 中， \<Pool FQDN\> 是要在其中启用会议应用程序的基于位置的路由的池。
+```powershell
+Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
+```
+
+在此 cmdlet 中， \<Pool FQDN\> 是要在其中启用会议应用程序的基于位置的路由的池。
 
 此 cmdlet 将返回由 Skype for Business Server 托管的应用程序的列表以及每个应用程序的优先级值。 需要为会议应用程序的基于位置的路由分配比 "UdcAgent" 应用程序更大的优先级值，而不是 "DefaultRouting"、"ExumRouting" 和 "OutboundRouting" 应用程序。 我们建议您为会议应用程序分配基于位置的路由，优先级值大于 "UdcAgent" 应用程序的优先级值的一个点。
 
@@ -145,11 +147,15 @@ CsServerApplication-Identity Service：注册器： <Pool FQDN> 在此 cmdlet �
 
 在为会议应用程序的基于位置的路由找到正确的优先级值之后，为每个前端池或 Standard Edition 服务器键入以下 cmdlet，以便为基于位置的路由启用了家庭用户：
 
-CsServerApplication-Identity Service：注册器： `<Pool FQDN`>/lbrouting- \<Application Priority\> 已启用优先级的 $true 关键 $true Uri<http://www.microsoft.com/LCS/LBRouting>
+```powershell
+New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
+```
 
 例如：
 
-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool/LBRouting-已启用优先级3的 $true-关键 $true-Urihttp://www.microsoft.com/LCS/LBRouting
+```powershell
+New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting
+```
 
 使用此 cmdlet 之后，请重新启动池中的所有前端服务器或启用了会议应用程序的基于位置的路由的 Standard Edition 服务器。
 
