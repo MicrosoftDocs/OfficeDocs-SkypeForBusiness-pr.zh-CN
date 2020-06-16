@@ -1,8 +1,8 @@
 ---
 title: 导入策略和设置
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Import policies and settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dde4cfdc2f027c095cd6ad95582a130d047d3c7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c6a56f1a622aca4d3f50565bc86528cf474c845
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198925"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42198925"
 
 _**上次修改的主题：** 2012-09-28_
 
-将 Office 通信服务器 2007 R2 拓扑信息与 Lync Server 2013 引导池合并后，您需要运行 Lync Server 2013 命令行管理程序 cmdlet 以迁移 Office 通信服务器 2007 R2 策略和配置设置到你的 Lync Server 2013 试点池。
+将 Office 通信服务器 2007 R2 拓扑信息与 Lync Server 2013 试验池合并后，您需要运行 Lync Server 2013 命令行管理程序 cmdlet，将 Office 通信服务器 2007 R2 策略和配置设置迁移到 Lync Server 2013 引导池。
 
 **CsLegacyConfiguration** cmdlet 可将策略、语音路由、拨号计划、Communicator Web 访问 url 和电话拨入访问号码导入到 Lync Server 2013。
 

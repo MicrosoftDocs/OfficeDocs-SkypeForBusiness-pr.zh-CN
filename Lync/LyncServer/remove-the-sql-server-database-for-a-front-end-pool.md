@@ -1,8 +1,8 @@
 ---
 title: 删除前端池的 SQL Server 数据库
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for a Front End pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a69972d355ad2870445af14ccfeb097f1d8a6dcb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 10d46868b63236327825f2fe4134330fd055ead2
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189395"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757274"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,13 +63,13 @@ _**上次修改的主题：** 2012-10-04_
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    其中\<FQDN\>是数据库服务器的完全限定域名（FQDN）， \<实例\>是命名的数据库实例（如果定义了一个实例）。
+    其中， \<FQDN\> 是数据库服务器的完全限定的域名（FQDN）， \<instance\> 是指定的数据库实例（如果定义了一个实例）。
 
 4.  若要删除池应用程序存储的数据库，请键入：
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    其中\<fqdn\>是数据库服务器的 fqdn， \<实例\>是命名的数据库实例（如果定义了一个实例）。
+    其中， \<FQDN\> 是数据库服务器的 FQDN， \<instance\> 是指定的数据库实例（如果定义了一个实例）。
 
 5.  当 **Uninstall-CsDataBase** cmdlet 提示您确认操作时，请阅读信息，然后按 **Y**（或按 Enter 键）继续，或者如果您想要停止该 cmdlet（也就是，在出现错误的情况下），请按 **N**，然后按 Enter 键。
 

@@ -1,8 +1,8 @@
 ---
-title: 验证用户复制已完成
+title: 确认用户复制已完成
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify user replication has completed
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a21ff29474825cdecca8db4c4db42eb5bb2cf0ea
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 31bed57b6e24db0ba6f75e323fe311aa4aaf262c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188785"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188785"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>验证用户复制已完成
+# <a name="verify-user-replication-has-completed"></a>确认用户复制已完成
 
 </div>
 
@@ -53,7 +53,7 @@ _**上次修改的主题：** 2012-09-28_
 
 5.  在“事件来源”**** 列表中，单击“LS 用户复制程序”****。
 
-6.  在** \<所有事件 id\> **中输入**30024** ，然后单击 **"确定"**。
+6.  在 **\<All Event IDs\>** 输入**30024** ，然后单击 **"确定"**。
 
 7.  在筛选的事件列表中的“常规”**** 选项卡上，查找表明用户复制已成功完成的条目。
 

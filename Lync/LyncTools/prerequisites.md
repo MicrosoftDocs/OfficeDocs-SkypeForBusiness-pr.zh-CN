@@ -1,8 +1,8 @@
 ---
 title: 先决条件
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Prerequisites
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a4f10cb1bdf5733dbe54519325475871be10564
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d8f0ee6a50d40f938a9f2c6f731b0a4afa647ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196145"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,9 +93,9 @@ _**上次修改的主题：** 2013-02-19_
 
 1.  您必须以域或本地管理员组成员的身份登录。
 
-2.  Lync Server 2013 压力和性能工具（LyncPerfTool）无法在同时运行 Lync Server 2013 组件的计算机上运行。
+2.  无法在同时运行 Lync Server 2013 组件的计算机上运行 lync Server 2013 压力和性能工具（LyncPerfTool.exe）。
 
-3.  必须在前端服务器上或用户帐户将驻留的 Standard Edition 服务器上运行 Lync Server 2013 用户创建工具（UserProvisioningTool）。 当该工具运行多次时，为 Microsoft 统一通信启用的每个用户都必须具有唯一的电话号码。
+3.  必须在前端服务器上或用户帐户将驻留的 Standard Edition 服务器上运行 Lync Server 2013 用户创建工具（UserProvisioningTool.exe）。 当该工具运行多次时，为 Microsoft 统一通信启用的每个用户都必须具有唯一的电话号码。
 
 4.  页面文件大小应由系统管理，或者应至少为系统上的 RAM 量的1.5 倍。
 

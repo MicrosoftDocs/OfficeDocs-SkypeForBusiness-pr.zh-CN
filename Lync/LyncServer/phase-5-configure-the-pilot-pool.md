@@ -1,8 +1,8 @@
 ---
 title: 第5阶段：配置引导池
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 5: Configure the pilot pool'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 565ae8f69c43c15e25acd707806931afb7c2419e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 56e68d7150fa4af78863049c6e27e26bf5efadba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209765"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756783"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2012-10-19_
 
 ## <a name="in-this-section"></a>本部分内容
 
-  - [将试点池连接到旧版边缘服务器](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [将试点池连接到旧 Edge Server](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
   - [授权与 Office 通信服务器 2007 R2 边缘服务器的连接](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 

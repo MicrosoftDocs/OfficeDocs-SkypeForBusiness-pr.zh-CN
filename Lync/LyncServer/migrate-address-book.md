@@ -1,8 +1,8 @@
 ---
 title: 迁移通讯簿
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate Address Book
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42d28161eab03d494dd5ebb3771c0879dd3dbb99
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ee0dc4d50fb3b60d4f6a9581d497df11da630122
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210112"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757033"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ _**上次修改的主题：** 2012-10-09_
 
 **分组的通讯簿条目**
 
-如果将 **PartitionbyOU** WMI 属性设置为 True 以针对每个 OU 创建通讯簿，并且您希望继续对通讯簿条目分组，则需要设置用户和联系人的 **msRTCSIP-GroupingId** Active Directory 属性。您可能希望对通讯簿条目分组以限制通讯簿的搜索范围。要使用 **msRTCSIP-GroupingId** 属性，请编写用于填充该属性的脚本，向您希望组合在一起的所有用户分配相同的值。例如，向一个 OU 中的所有用户分配一个值。
+If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
 
 **通讯簿规范化规则**
 
@@ -57,7 +57,7 @@ _**上次修改的主题：** 2012-10-09_
 
 
 > [!NOTE]  
-> 如果您的组织使用远程呼叫控制并且您自定义了通讯簿规范化规则，则必须首先执行本主题中的过程，然后才能使用远程呼叫控制。要执行该过程，需要具有 RTCUniversalServerAdmins 组成员的身份或同等权限。
+> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
 
 
 
@@ -71,22 +71,22 @@ _**上次修改的主题：** 2012-10-09_
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>迁移通讯簿自定义规范化规则
 
-1.  在通讯簿\_共享\_文件夹\_的\_根目录中查找公司电话号码规范化规则 .Txt 文件，并将其复制到 Lync Server 2013 试点池中的通讯簿共享文件夹的根目录中。
+1.  \_ \_ \_ \_ 在通讯簿共享文件夹的根目录中查找公司电话号码规范化Rules.txt 文件，并将其复制到 Lync Server 2013 试点池中的通讯簿共享文件夹的根目录中。
     
     <div>
     
 
     > [!NOTE]  
-    > 示例“通讯簿服务”规范化规则已安装在您的 ABS Web 组件文件目录中。 路径为 <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>。 可以将此文件复制并重命名为&nbsp; <STRONG>Company_Phone_Number_Normalization_Rules</STRONG> &nbsp;通讯簿共享文件夹的根目录。 例如， <STRONG>$serverX</STRONG>中共享的通讯簿，&nbsp;该路径将类似于： <STRONG> \\$serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>。
+    > 示例“通讯簿服务”规范化规则已安装在您的 ABS Web 组件文件目录中。 路径为 <STRONG>$installedDriveLetter:\Program Files\Microsoft Lync Server 2013\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt</STRONG>。 可以将此文件作为Company_Phone_Number_Normalization_Rules.txt复制和重命名为 &nbsp; <STRONG>Company_Phone_Number_Normalization_Rules.txt</STRONG> &nbsp; 通讯簿共享文件夹的根目录。 例如， <STRONG>$serverX</STRONG>中共享的通讯簿， &nbsp; 该路径将类似于： <STRONG> \\ $serverX \LyncFileShare\2-WebServices-1\ABFiles</STRONG>。
 
     
     </div>
 
-2.  使用文本编辑器（如记事本）打开\_公司电话\_号码\_规范化\_规则 .txt 文件。
+2.  使用文本编辑器（如记事本）打开公司 \_ 电话 \_ 号码 \_ 规范化 \_Rules.txt 文件。
 
 3.  在 Lync Server 2013 中，某些类型的条目将无法正常工作。 请在文件中查找该步骤中所述的这些条目类型，根据需要编辑它们，并将更改保存到试点池中的通讯簿共享文件夹。
     
-    包含必要空格或标点的字符串会导致规范化规则失败，因为系统会将这些字符从输入到规范化规则的字符串中删除。如果您有包含必要空格或标点的字符串，则需要修改这些字符串。例如，以下字符串将导致规范化规则失败：
+    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     
@@ -114,7 +114,7 @@ _**上次修改的主题：** 2012-10-09_
 
 3.  等待中央管理存储复制在所有池上进行。
 
-4.  修改电话规范化规则文件 "\_Company phone\_Number\_规范化\_rules .txt"，以供您的部署清除内容。 文件位于每个 Lync Server 2013 池的文件共享中。 如果该文件不存在，则创建一个名为 "\_Company Phone\_Number\_规范化\_Rules .txt" 的空文件。
+4.  在您的部署中修改电话规范化规则文件 "公司 \_ 电话 \_ 号码 \_ 规范化 \_Rules.txt" 以清除内容。 文件位于每个 Lync Server 2013 池的文件共享中。 如果该文件不存在，则创建一个名为 "Company \_ Phone \_ Number \_ 正常化 \_Rules.txt" 的空文件。
 
 5.  等待几分钟，让所有前端池都能读取新文件。
 

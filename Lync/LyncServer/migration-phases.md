@@ -1,8 +1,8 @@
 ---
 title: 迁移阶段
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration phases
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d8101e5dee47699421ed83effed3c578c96bfda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 19594eb5f0e7c2847dfbbf41795574c01b67d0be
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189975"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ _**上次修改的主题：** 2012-09-17_
 
 1.  [第1阶段：从 Lync Server 2010 规划迁移](phase-1-plan-your-migration-from-lync-server-2010.md)
 
-2.  [第2阶段：准备迁移](phase-2-prepare-for-migration.md)
+2.  [第 2 阶段：准备迁移](phase-2-prepare-for-migration.md)
 
 3.  [第3阶段：部署 Lync Server 2013 试点池](phase-3-deploy-lync-server-2013-pilot-pool.md)
 
@@ -53,11 +53,11 @@ _**上次修改的主题：** 2012-09-17_
 
 5.  [第5阶段：将 Lync Server 2013 边缘服务器添加到引导池](phase-5-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-6.  [第6阶段：从试点部署移动到生产环境](phase-6-move-from-pilot-deployment-into-production.md)
+6.  [第 6 阶段：从试点部署移动到生产中](phase-6-move-from-pilot-deployment-into-production.md)
 
-7.  [第7阶段：完成迁移后任务](phase-7-complete-post-migration-tasks.md)
+7.  [第 7 阶段：完成迁移后任务](phase-7-complete-post-migration-tasks.md)
 
-8.  [第8阶段：停止旧版池](phase-8-decommission-legacy-pools.md)
+8.  [第 8 阶段：停用旧池](phase-8-decommission-legacy-pools.md)
 
 </div>
 

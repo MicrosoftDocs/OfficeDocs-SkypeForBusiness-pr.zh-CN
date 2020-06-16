@@ -1,8 +1,8 @@
 ---
 title: 将多个用户移动到引导池
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move multiple users to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 657c6e001fa15fa6c1c70076a257a620f0cef790
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 41c663566605529b25d9890bb31cba462364c813
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189815"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +75,7 @@ _**上次修改的主题：** 2012-10-02_
 
 1.  打开 Lync Server 2013 命令行管理程序。
 
-2.  在命令行中，键入以下内容，并**** 将 User1**和用户**2 替换为要移动的特定用户名，并将**池\_FQDN**替换为目标池的名称。 在本例中，我们将移动用户 Hao Chen 和 Katie Jordan。
+2.  在命令行中，键入以下内容，并**User1**将 User1**和用户**2 替换为要移动的特定用户名，并将**池 \_ FQDN**替换为目标池的名称。 在本例中，我们将移动用户 Hao Chen 和 Katie Jordan。
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
@@ -85,7 +85,7 @@ _**上次修改的主题：** 2012-10-02_
     
         Get-CsUser -Identity "User1"
 
-4.  **注册器池**标识现在应指向您在上一步中指定为**池\_FQDN**的池。 存在该标识即可确认已成功移动用户。 重复此步骤以确认 **User2** 已移动。
+4.  **注册器池**标识现在应指向您在上一步中指定为**池 \_ FQDN**的池。 存在该标识即可确认已成功移动用户。 重复此步骤以确认 **User2** 已移动。
     
     ![PowerShell UsUser cmdlet 的输出](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "PowerShell UsUser cmdlet 的输出")  
 
@@ -109,7 +109,7 @@ _**上次修改的主题：** 2012-10-02_
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  每个用户的**注册器池**标识现在指向您在上一步中指定\_为 "池 FQDN" 的池。 存在该标识即可确认已成功移动用户。
+4.  每个用户的**注册器池**标识现在指向您 \_ 在上一步中指定为 "池 FQDN" 的池。 存在该标识即可确认已成功移动用户。
 
 5.  此外，我们还可以查看 Lync Server 2013 控制面板中的用户列表，并验证注册器池值是否现在指向 Lync Server 2013 池。
     

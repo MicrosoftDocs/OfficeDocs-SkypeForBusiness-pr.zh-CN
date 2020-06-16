@@ -1,8 +1,8 @@
 ---
 title: 配置用户配置文件
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure User Profile
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c53f156aee56aa1986302bf2ff2514aef78af592
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6615e283e0e426e738cd3cdaf714dd90f57b393e
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188755"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755496"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Lync Server 2013 应力和性能工具包中包含的工具使您能够创建和
 
 ## <a name="running-the-lync-server-2013-load-configuration-tool"></a>运行 Lync Server 2013 加载配置工具
 
-若要配置用户配置文件，请运行 Lync Server 2013 加载配置工具（UserProfileGenerator）并填写每个选项卡。 对于需要运行模拟的每台客户端计算机，UserProfileGenerator 将生成一个目录。 每个客户端目录还附带一个脚本来启动 Lync Server 2013 压力和性能工具（LyncPerfTool）的所有实例。
+若要配置用户配置文件，请运行 Lync Server 2013 加载配置工具（UserProfileGenerator.exe）并填写每个选项卡。 UserProfileGenerator.exe 为需要运行模拟的每台客户端计算机生成一个目录。 每个客户端目录还附带一个脚本来启动 Lync Server 2013 压力和性能工具（LyncPerfTool.exe）的所有实例。
 
 <div>
 
@@ -65,13 +65,13 @@ Lync Server 2013 应力和性能工具包中包含的工具使您能够创建和
 
 !["常见配置" 选项卡。](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg ""常见配置" 选项卡。")
 
-1.  在 "**可用计算机数**" 中，键入或单击要用于运行 LyncPerfTool 的计算机的数量。 我们建议您对每个要模拟的4500用户拥有一台计算机。 如果您降低负载级别或仅使用可用功能的子集，该数字可能会有所不同。 （在 "**常规方案**" 选项卡上设置加载级别。）
+1.  在 "**可用计算机数**" 中，键入或单击要用于运行 LyncPerfTool.exe 的计算机数。 我们建议您对每个要模拟的4500用户拥有一台计算机。 如果您降低负载级别或仅使用可用功能的子集，该数字可能会有所不同。 （在 "**常规方案**" 选项卡上设置加载级别。）
 
-2.  在 "**用户名的前缀**" 中，键入用户用户名的前缀。 若要登录，统一资源标识符（URI）将为： UserPrefix\[User Start Index .。。（用户数-1）\]@User 域。
+2.  在 "**用户名的前缀**" 中，键入用户用户名的前缀。 若要登录，统一资源标识符（URI）将为： UserPrefix \[ User Start Index .。。（用户数-1） \]@User 域。
 
 3.  在 "**所有用户的密码**" 中，输入用于创建用户的密码。 如果将此字段留空，将使用用户名作为密码。
 
-4.  在 "**用户启动索引**" 中，单击或键入要配置的第一个用户的索引。 您可以为不同的负载类型或级别配置不同的范围，但必须针对要配置的区域运行 UserProfileGenerator 一次。
+4.  在 "**用户启动索引**" 中，单击或键入要配置的第一个用户的索引。 您可以为不同的负载类型或级别配置不同的范围，但必须针对要配置的范围运行一次 UserProfileGenerator.exe。
 
 5.  在 "**用户数**" 中，单击或键入要配置的用户总数。
 
@@ -79,7 +79,7 @@ Lync Server 2013 应力和性能工具包中包含的工具使您能够创建和
 
 7.  在 "**帐户域**" 中，键入 Active Directory 域服务域登录。
 
-8.  输入希望该工具在所有终结点/用户中记录的并发终结点的最大数量 **（每个实例的登录数）（每个实例）** 。 建议的速率为\<= 每秒 2/标准 SKU FE。
+8.  输入希望该工具在所有终结点/用户中记录的并发终结点的最大数量 **（每个实例的登录数）（每个实例）** 。 建议的速率为 \< = 每秒 2/标准 SKU FE。
 
 9.  在 "**访问代理服务器" 或 "池 FQDN**" 中，键入您希望客户端连接到的服务器的完全限定域名（FQDN）。 如果用户在外部登录，请指定访问代理服务器。 如果用户是内部用户，请指定其池或 Standard Edition server 的 FQDN。
 
@@ -116,7 +116,7 @@ Lync Server 2013 应力和性能工具包中包含的工具使您能够创建和
 
 4.  在包含数据会议的**数据协作**中，为负载级别指定适当的值。
 
-5.  在 "**通讯组列表展开**" 中，为 "加载级别" 指定适当的值。 您还必须单击 "**高级**" 按钮，然后使用您在 Lync Server 用户创建工具（UserProvisioningTool）的 "**通讯组列表**" 选项卡上配置的值来填充字段。 有关这些字段的详细信息，请参阅[创建用户和联系人](create-users-and-contacts.md)
+5.  在 "**通讯组列表展开**" 中，为 "加载级别" 指定适当的值。 您还必须单击 "**高级**" 按钮，然后使用您在 Lync Server 用户创建工具（UserProvisioningTool.exe）的 "**通讯组列表**" 选项卡上配置的值来填充字段。 有关这些字段的详细信息，请参阅[创建用户和联系人](create-users-and-contacts.md)
 
 6.  在**通讯簿 Web 查询**（即通讯簿查找服务（而不是通讯簿文件下载）中，为 "加载级别" 指定适当的值。 若要启用通讯簿下载，请单击相应的 "**高级**" 按钮，然后将**EnableABSDownload**设置为 true。
 
@@ -207,7 +207,7 @@ Lync Server 2013 应力和性能工具包中包含的工具使您能够创建和
 
 1.  单击 "**移动性（UCWA）**" 旁边的 "**高级**" 按钮。 将字段**UcwaTargetServerUrl**设置为控制器池虚拟 IP （VIP）或前端池 VIP。
 
-2.  在**状态和 P2P 即时消息\\音频**中，选择适当的**负载级别**值以启用移动方案模拟。
+2.  在**状态和 P2P 即时消息 \\ 音频**中，选择适当的**负载级别**值以启用移动方案模拟。
 
 <div>
 
@@ -223,13 +223,13 @@ Lync Server 2013 应力和性能工具包中包含的工具使您能够创建和
 
 <div>
 
-## <a name="summary"></a>总结
+## <a name="summary"></a>摘要
 
 下图显示了 Lync Server 2013 加载配置工具的 "**摘要**" 选项卡。
 
 ![摘要 "选项卡。](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "摘要 "选项卡。")
 
-"**摘要**" 选项卡指示要对每个方案使用的用户。 通过选中 "**启用自定义用户范围生成**" 复选框，然后双击表中具有您要自定义的**用户区域**的方案，可以手动配置用户号码范围。 检查（RunClient）在启动时添加登录延迟，以便在生成的批处理文件中包含延迟以与登录速率相对应。 这有助于在登录大量用户时防止服务器超载。 单击 "**生成文件**"，然后选择要在其中生成配置的文件夹。 成功创建文件后，将显示与下图类似的对话框。
+"**摘要**" 选项卡指示要对每个方案使用的用户。 通过选中 "**启用自定义用户范围生成**" 复选框，然后双击表中具有您要自定义的**用户区域**的方案，可以手动配置用户号码范围。 检查（RunClient.bat）在启动时添加登录延迟，以便在生成的批处理文件中包含延迟以与登录速率相对应。 这有助于在登录大量用户时防止服务器超载。 单击 "**生成文件**"，然后选择要在其中生成配置的文件夹。 成功创建文件后，将显示与下图类似的对话框。
 
 ![确认已创建文件。](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "确认已创建文件。")
 

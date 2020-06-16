@@ -1,8 +1,8 @@
 ---
 title: 迁移存档和监控服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67896576fce21eea630533a5826bbcbc53392fa0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43b7c7509dcf678967db651900c67cdfb3d26685
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209848"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ _**上次修改的主题：** 2012-10-02_
     
 
     > [!NOTE]  
-    > 在迁移阶段，如果你仍在使用新的 Lync Server 2013 试点池时使用旧版边缘服务器，则存档服务器的 Office 通信服务器 2007 R2 版本将继续为驻留在 Office 通信服务器上的用户收集数据。2007R2 池和 Lync Server 2013 版本的存档服务器为驻留在 Lync Server 2013 池上的用户收集数据。
+    > 在迁移阶段，如果您仍在使用新的 Lync Server 2013 试点池，则存档服务器的 Office 通信服务器 2007 R2 版本将继续为驻留在 Office 通信服务器上的用户收集数据。 2007 R2 池，而 Lync Server 2013 版本的存档服务器可为驻留在 Lync Server 2013 池中的用户收集数据。
 
     
     </div>

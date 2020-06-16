@@ -1,8 +1,8 @@
 ---
 title: 将单个用户移动到引导池
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move a single user to the pilot pool
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20f4e85c2f34a2e4319b14f310d2a9360cb274d1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189886"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189886"
 
 _**上次修改的主题：** 2012-09-28_
 
-您可以使用 Lync Server 2013 控制面板或 Lync Server 2013 命令行管理程序，将用户从 Office 通信服务器 2007 R2 池移动到 Lync Server 2013 引导池。 在下面的示例中，在 "注册器池" 列中， ** \<office 通信服务器\> **是 office 通信服务器 2007 R2 池，这些用户中的所有六个都连接到此池。 使用以下过程将用户移动到使用 Lync Server 2013 控制面板和 Lync Server 命令行管理程序的 Lync Server 2013 池。
+您可以使用 Lync Server 2013 控制面板或 Lync Server 2013 命令行管理程序，将用户从 Office 通信服务器 2007 R2 池移动到 Lync Server 2013 引导池。 在下面的示例中，在 "注册器池" 列中， **\<Office Communications Server\>** 是 Office 通信服务器 2007 R2 池，所有六个用户均连接到此池。 使用以下过程将用户移动到使用 Lync Server 2013 控制面板和 Lync Server 命令行管理程序的 Lync Server 2013 池。
 
 ![在 Lync Server 控制面板中搜索 OCS 用户](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "在 Lync Server 控制面板中搜索 OCS 用户")
 

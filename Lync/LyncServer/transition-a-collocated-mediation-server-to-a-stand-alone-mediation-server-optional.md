@@ -1,8 +1,8 @@
 ---
 title: 将并置中介服务器转换为独立的中介服务器（可选）
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4140732fd5d091f3ed03e2dadd2f827a24531e9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0ce0228edacba502161c4d44a6a94b38cede6655
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189155"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,13 +49,13 @@ _**上次修改的主题：** 2012-10-19_
 
 3.  右键单击“中介池”****，然后选择“新建中介服务器”****。
 
-4.  在“定义新的中介池”**** 页上，提供新中介服务器池的 FQDN。另外，选择该池是单服务器池还是多服务器池，然后单击“下一步”****。
+4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
 
 5.  选择新中介服务器会将入站呼叫路由到的下一跃点前端服务器池，然后单击“下一步”****。
 
 6.  选择中介服务器要使用的边缘池，然后单击“下一步”****。
 
-7.  在“指定 PSTN 网关”**** 页上，将以前的 PSTN 网关与中介服务器相关联。选择该网关，然后单击“添加”****。
+7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
 
 8.  单击“完成”**** 以关闭“定义新的中介池”**** 向导。
 

@@ -1,8 +1,8 @@
 ---
 title: 验证配置设置
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify configuration settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f7655547ff4f3e528b3948a537bbd5e85f351ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2430fe82aa424571405def33139ba315677ffcc7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188975"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +95,7 @@ _**上次修改的主题：** 2012-09-28_
 
 ## <a name="to-verify-policies-and-settings"></a>确认策略和设置
 
-1.  在 Office 通信服务器 2007 R2 环境中，记下拨号计划的名称（以前称为位置配置文件）、电话拨入访问号码（会议助理访问电话号码和地区）、语音路由以及本文中列出的策略前面的表，以及用于 Communicator Web Access 的 Url。
+1.  在 Office 通信服务器 2007 R2 环境中，除了用于 Communicator Web Access 的 Url 之外，请记下拨号计划的名称（以前称为位置配置文件）、电话拨入访问号码（会议助理访问电话号码和区域）、语音路由以及上表中列出的策略。
 
 2.  在 Lync Server 2013 前端服务器上，打开 "Lync Server 控制面板"。
 

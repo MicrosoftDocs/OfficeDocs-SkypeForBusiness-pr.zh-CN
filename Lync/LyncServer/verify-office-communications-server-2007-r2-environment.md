@@ -1,8 +1,8 @@
 ---
 title: 验证 Office 通信服务器 2007 R2 环境
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 885b1b08ef2d02c6a3cb3a77b83ca832e70281a5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 14a7ba7e51e6dd1f6e42aeddfbbbd4ce7581d3fc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188935"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**上次修改的主题：** 2012-10-16_
 
 **确认旧的 XMPP 联盟伙伴配置**
 
-1.  在旧版 XMPP 服务器上，导航到 "管理工具\\服务" 小程序。
+1.  在旧版 XMPP 服务器上，导航到 "管理工具 \\ 服务" 小程序。
 
 2.  确认已启动 Office Communications Server XMPP 网关服务。
     

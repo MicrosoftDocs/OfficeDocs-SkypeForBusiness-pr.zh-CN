@@ -1,8 +1,8 @@
 ---
 title: 移动 Exchange 统一消息联系人对象
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02c9a16251ca49d4d5179ed3ad72e4d0307beb4b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f3b3091a342b46b5c1aad1d456aa9159d951a4ba
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189887"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ _**上次修改的主题：** 2012-10-19_
 
 
 > [!NOTE]  
-> 若要使用 <STRONG>Get-CsExUmContact</STRONG> 和 <STRONG>Move-CsExUmContact</STRONG> cmdlet，您必须是 RTCUniversalUserAdmins 组的成员，并且拥有存储联系对象的组织单位 (OU) 的 OU 权限。可以使用 <STRONG>Grant-OUPermission</STRONG> cmdlet 授予 OU 权限。
+> In order to use the <STRONG>Get-CsExUmContact</STRONG> and <STRONG>Move-CsExUmContact</STRONG> cmdlets, you must be a member of the RTCUniversalUserAdmins group and have organizational unit (OU) permission to the OU where the contacts objects are stored. OU permission can be granted using the <STRONG>Grant-OUPermission</STRONG> cmdlet.
 
 
 
@@ -75,9 +75,9 @@ _**上次修改的主题：** 2012-10-19_
 
 2.  导航到 Exchucutil.ps1 Windows PowerShell 脚本。
     
-    在 Exchange 2007 中，Exchucutil.ps1 位于： **%\\Program Files%\\Microsoft Exchange Server\\Scripts exchucutil.ps1\\**
+    在 Exchange 2007 中，ExchUCUtil.ps1 位于： **% Program Files% \\ Microsoft \\ Exchange Server \\ Scripts \\ExchUCUtil.ps1**
     
-    在 Exchange 2010 中，Exchucutil.ps1 位于： **%\\Program Files% Microsoft\\Exchange Server\\V14\\Scripts exchucutil.ps1\\**
+    在 Exchange 2010 中，ExchUCUtil.ps1 位于： **% Program Files% \\ Microsoft \\ Exchange Server \\ V14 \\ Scripts \\ExchUCUtil.ps1**
 
 3.  如果 Exchange 部署在单个林中，请键入：
     

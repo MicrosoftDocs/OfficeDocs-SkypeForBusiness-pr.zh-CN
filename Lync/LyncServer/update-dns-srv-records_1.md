@@ -1,8 +1,8 @@
 ---
 title: 更新 DNS SRV 记录
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Update DNS SRV records
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9df74033156e03cf7047b4d4bfbb2dbc83595b9b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9bb3c5a3f74d3a85fbc5742514a92015df08d5c9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189085"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755656"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,9 +45,9 @@ _**上次修改的主题：** 2012-09-29_
 
 1.  在 DNS 服务器上，单击“开始”****，再单击“管理工具”****，然后单击“DNS”****。
 
-2.  在您的 SIP 域的控制台树中，展开 "**正向查找区域**"，展开安装了 Lync Server 2013 的 SIP 域，然后导航到 " ** \_tcp** " 设置。
+2.  在您的 SIP 域的控制台树中，展开 "**正向查找区域**"，展开安装了 Lync Server 2013 的 SIP 域，然后导航到 " ** \_ tcp** " 设置。
 
-3.  在右侧窗格中，右键单击 " ** \_sipinternaltls** "，然后选择 "**属性**"。
+3.  在右侧窗格中，右键单击 " ** \_ sipinternaltls** "，然后选择 "**属性**"。
 
 4.  在**提供此服务的主机**中，将主机 FQDN 更新为指向 Lync Server 2013 池。
 
@@ -61,7 +61,7 @@ _**上次修改的主题：** 2012-09-29_
 
 3.  在“打开”**** 框中，键入 **cmd**，然后单击“确定”****。
 
-4.  在命令提示符处，键入**nslookup** \<FQDN 的前端池\>或\<Standard Edition 服务器\>的 FQDN，然后按 enter。
+4.  在命令提示符处，键入**nslookup** \<FQDN of the Front End pool\> 或 \<FQDN of the Standard Edition server\> ，然后按 enter。
 
 5.  验证是否收到一个解析为 FQDN 的相应 IP 地址的答复。
 

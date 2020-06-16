@@ -1,8 +1,8 @@
 ---
 title: 使用类别管理持久聊天服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Using categories to administer Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e02a780772cd0e9592bb078ab526a4085a234bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 73801c006f7ef5487960628d0f981809cdfd2d38
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189005"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755626"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**上次修改的主题：** 2013-10-01_
 
 </div>
 
-除聊天室的类别外，聊天室管理员可以更改所有聊天室的属性。管理员可以执行以下操作：
+Chat room managers can make changes to all chat room properties, except for changing the category of the room. They cannot be restricted from performing the following actions:
 
   - 禁用聊天室
 
@@ -89,7 +89,7 @@ _**上次修改的主题：** 2013-10-01_
 
 通过正确使用类别，创建和管理持久聊天室更容易。 持续聊天管理员可以为每个类别定义**AllowedMembers**和**创建者**，还可以定义将应用于在类别中创建的所有聊天室的默认聊天室设置和行为。 持久聊天管理员使用 Lync Server 控制面板或 Windows PowerShell cmdlet 创建和管理类别。
 
-标识为类别创建者的用户、组织单位 (OU) 和用户组是唯一允许在该类别中创建聊天室的个人和组。类别创建后，他们可以从类别的 **AllowedMembers** 列表中选择用户、OU 和用户组作为聊天室管理员和成员来管理和参与聊天室。
+Users, Organizational Units (OUs), and user groups that are identified as Creators of the category are the only individuals and groups that are allowed to create rooms in the category. After the category is created, they can choose users, OUs, and user groups from the category’s **AllowedMembers** list as chat room managers and members to manage and participate in the room.
 
 在类别中创建的聊天室遵循由类别强制实施的策略和设置（例如谁可以在会议室的成员身份、谁可以管理聊天室、是否允许文件上载、是否已发送邀请等）。
 

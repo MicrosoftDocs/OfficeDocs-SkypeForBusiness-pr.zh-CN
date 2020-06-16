@@ -1,8 +1,8 @@
 ---
 title: 运行最佳做法分析器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run Best Practices Analyzer
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733603
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45fead940eb80ee303955bed8f4dbe501984ebfa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a61b99fc5013f65ce70e5d79bee54ccca229725b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189265"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2012-10-11_
 
 Office 通信服务器 2007 R2 最佳实践分析工具从 Office 通信服务器 2007 R2 部署中收集配置信息，并根据 Microsoft 最佳实践确定是否设置配置。 可以在运行 Microsoft .NET Framework 2.0 的客户端计算机上安装该工具，也可以直接在运行 Office 通信服务器 2007 R2 的服务器上安装该工具。 建议在客户端计算机上安装和运行该工具。 此外，还应在客户端计算机上本地安装 Office 通信服务器 2007 R2 管理工具，以便最佳实践分析工具能够收集完整的数据集。
 
-您可以从 Microsoft 下载中心下载 Office 通信服务器 2007 R2 最佳实践分析工具[https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702)。
+您可以从 Microsoft 下载中心下载 Office 通信服务器 2007 R2 最佳实践分析工具 [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702) 。
 
 </div>
 

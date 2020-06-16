@@ -1,8 +1,8 @@
 ---
 title: 迁移响应组
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrate response groups
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36b37fc6a67a1935c442edb4e2e8ef0d8812315c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de012d0886c51cd70d5003beb24053ff86af05b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190145"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756933"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +73,7 @@ _**上次修改的主题：** 2012-10-19_
 
 </div>
 
-迁移响应组之后，需要更新正式代理用于登录到其响应组的 URL，并使用 Lync Server 控制面板或 Lync Server 命令行管理程序 cmdlet 来验证是否已移动所有代理组、队列和工作流失败.
+迁移响应组之后，需要更新正式代理用于登录到其响应组的 URL，并使用 Lync Server 控制面板或 Lync Server 命令行管理程序 cmdlet 验证是否成功移动了所有代理组、队列和工作流。
 
 <div>
 
@@ -127,13 +127,13 @@ _**上次修改的主题：** 2012-10-19_
     
         Move-CsRgsConfiguration -Source pool01.contoso.net -Destination pool02.contoso.net
 
-5.  如果您在 Office 通信服务器 2007 R2 环境中为 Microsoft Office Communicator 2007 R2 部署了 "响应组" 选项卡，请从 Office Communicator 2007 R2 选项卡 .xml 文件中删除该选项卡。
+5.  如果您在 Office 通信服务器 2007 R2 环境中为 Microsoft Office Communicator 2007 R2 部署了 "响应组" 选项卡，请从 Office Communicator 2007 R2 tabs.xml 文件中删除该选项卡。
     
     <div>
     
 
     > [!NOTE]  
-    > 正式代理会在接收呼叫之前，先使用响应组选项卡登录其响应组。 如果您部署了 "响应组" 选项卡，则您在部署 Office Communicator 2007 R2 选项卡 .xml 文件时选择了该位置。
+    > 正式代理会在接收呼叫之前，先使用响应组选项卡登录其响应组。 如果部署了 "响应组" 选项卡，则在部署 Office Communicator 2007 R2 tabs.xml 文件时选择其位置。
 
     
     </div>
@@ -144,7 +144,7 @@ _**上次修改的主题：** 2012-10-19_
     
 
     > [!NOTE]  
-    > URL 通常https://webpoolFQDN/RgsClients/Tab.aspx为，其中 webpoolFQDN 是与您刚迁移到 Lync Server 2013 的池关联的 web 池的完全限定域名（FQDN）。
+    > URL 通常为 https://webpoolFQDN/RgsClients/Tab.aspx ，其中 webpoolFQDN 是与您刚迁移到 Lync Server 2013 的池关联的 web 池的完全限定域名（FQDN）。
 
     
     </div>

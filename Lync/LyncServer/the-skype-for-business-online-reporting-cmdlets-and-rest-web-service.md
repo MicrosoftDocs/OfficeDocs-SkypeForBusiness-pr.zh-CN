@@ -1,8 +1,8 @@
 ---
 title: Skype for Business Online 报告 cmdlet 和 REST web 服务
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: The Skype for Business Online reporting cmdlets and REST web service
@@ -12,12 +12,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63cbce4dda006bb45606a09eef29d8c47946ad2a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f40d394ba69cf017c11d4eb6cd57246a9d425c0f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189175"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ _**上次修改的主题：** 2014-09-05_
 
   - Get-csp2psessionreport，它提供有关用户参与的对等会话的数量和类型的信息。
 
-大多数管理员将使用 Microsoft 365 管理中心提供的报告：这些报告不仅是自动生成的，而且还提供了数据的图形表示形式，这些数据通常更易于解释报告 cmdlet。 但是，熟悉 Windows PowerShell 的管理员可以使用报告 cmdlet 从 Lync Online 报告中返回不容易提供的数据。 例如，报告 cmdlet 返回有关会话持续时间（每个会话持续的时间（以分钟为单位）的信息。 使用 Lync Online 报告无法获取单个会话持续时间。 同样，在每日视图中，Lync Online 报告仅显示前14天的信息。 如果要查看不同天的每日汇总（例如，四个月前的日期），可以使用报告 cmdlet 执行此操作。
+大多数管理员将使用 Microsoft 365 管理中心提供的报告：这些报告不仅是自动生成的，而且还提供了数据的图形表示形式，这些数据通常比报告 cmdlet 返回的原始号码值更容易理解。 但是，熟悉 Windows PowerShell 的管理员可以使用报告 cmdlet 从 Lync Online 报告中返回不容易提供的数据。 例如，报告 cmdlet 返回有关会话持续时间（每个会话持续的时间（以分钟为单位）的信息。 使用 Lync Online 报告无法获取单个会话持续时间。 同样，在每日视图中，Lync Online 报告仅显示前14天的信息。 如果要查看不同天的每日汇总（例如，四个月前的日期），可以使用报告 cmdlet 执行此操作。
 
 管理员可能还会对[使用 Excel 检索 Office 365 报告数据](https://msdn.microsoft.com/library/dn781442.aspx)的文章感兴趣，这说明了如何使用 Microsoft Excel 中的 OData 数据查询功能创建自定义 Office 365 报告。 自定义报告使您能够规定从 Office 365 报告服务中返回哪些数据（以及数据量）。 自定义报告还允许您执行以下操作：指定数据的排序和分组方式，并提供对不在管理中心中显示的信息的访问权限。
 

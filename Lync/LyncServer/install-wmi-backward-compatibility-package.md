@@ -1,8 +1,8 @@
 ---
 title: 安装 WMI 向后兼容包
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Install WMI Backward Compatibility package
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c59e3ea03b3b6f4085f8acf461b1da3f32e21fa9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 35be17aa08cf26f93a9d4002b23dacdfb35c5143
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199395"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756591"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +47,7 @@ _**上次修改的主题：** 2012-10-02_
 
 安装 WMI 向后兼容包
 
-1.  从安装媒体中，导航到\\"\\安装\\AMD64\\安装程序 OCSWMIBC"。MSI.
+1.  从安装媒体中，导航到 " \\ 安装 \\ AMD64 安装程序" \\ \\OCSWMIBC.MSI。
 
 2.  安装 OCSWMIBC.MSI。
     
@@ -55,7 +55,7 @@ _**上次修改的主题：** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > OCSWMIBC.msi 必须安装在运行拓扑生成器合并向导的计算机上。不过，建议将 OCSWMIBC.msi 安装在拓扑中的所有前端服务器上。
+    > OCSWMIBC.msi must be installed on the computer where the Topology Builder Merge wizard is run. However, we recommend installing OCSWMIBC.msi on all Front End servers in your topology.
 
     
     </div>
@@ -64,7 +64,7 @@ _**上次修改的主题：** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > 可以在安装了 Lync Server 2013 Core 组件和 Lync Server 2013 命令行管理程序的域中的任何计算机上安装 OCSWMIBC，并有权访问 Office 通信服务器 2007 R2 拓扑（WMI 提供程序到 Active Directory 域服务（AD DS）和 SQL Server）。
+    > 可以在安装了 Lync Server 2013 Core 组件和 Lync Server 2013 命令行管理程序的域中的任何计算机上安装 OCSWMIBC.msi，并且可以访问 Office 通信服务器 2007 R2 拓扑（WMI 提供程序到 Active Directory 域服务（AD DS）和 SQL Server）。
 
     
     </div>

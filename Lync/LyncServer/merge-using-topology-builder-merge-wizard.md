@@ -1,8 +1,8 @@
 ---
 title: 使用拓扑生成器合并向导进行合并
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Merge using Topology Builder Merge wizard
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc25e73e2eb62e8d1b43fee4ce4350d8ae05b354
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4760dcd8810d12b112c3bb042e0f28a039683a08
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210168"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,13 +47,13 @@ _**上次修改的主题：** 2012-10-02_
     
     ![合并拓扑向导中，指定 "边缘设置" 页](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "合并拓扑向导中，指定 "边缘设置" 页")  
 
-5.  在“指定边缘类型”**** 中，输入边缘服务器配置的类型，然后单击“下一步”****。此示例使用“单个边缘服务器”**** 选项。
+5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > “扩展边缘部署”<STRONG></STRONG>不是支持的配置。必须先将“扩展边缘服务器”<STRONG></STRONG>转换为“单个边缘服务器”<STRONG></STRONG>或“负载平衡合并边缘”<STRONG></STRONG>服务器。
+    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
 
     
     </div>
@@ -68,7 +68,7 @@ _**上次修改的主题：** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > 在单击“下一步”<STRONG></STRONG>之前，先执行该过程的下一步。请务必不要错过此步骤，这一点非常重要。
+    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
 
     
     </div>

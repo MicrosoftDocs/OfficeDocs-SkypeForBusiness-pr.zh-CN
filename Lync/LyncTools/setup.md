@@ -1,8 +1,8 @@
 ---
 title: 设置
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Setup
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3aa6ee2de6ae44875c526e8f07425f2cc8a8bc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9e6975c37b201edf25bbe470de9bd00abdececcb
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196055"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756853"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ _**上次修改的主题：** 2014-04-22_
 
 ## <a name="installing-the-stress-and-performance-tool"></a>安装压力和性能工具
 
-在将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件**CapacityPlanningTool**。 这些客户端计算机不得运行任何 Lync Server 组件。
+在将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件**CapacityPlanningTool.msi**。 这些客户端计算机不得运行任何 Lync Server 组件。
 
 </div>
 

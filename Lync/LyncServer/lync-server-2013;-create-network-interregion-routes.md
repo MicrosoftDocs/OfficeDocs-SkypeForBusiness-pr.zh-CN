@@ -1,8 +1,8 @@
 ---
 title: Lync Server 2013;创建网络 interregion 路由
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: admin
 manager: serdars
 f1.keywords:
@@ -13,12 +13,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72917dc3ef179e0c27de6d47e599746a97e0540e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 156f2322d5b1b7cc1951f1cbd4df41eb231a8170
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210238"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42210238"
 
 _**上次修改的主题：** 2012-10-20_
 
-“网络区域间路由”** 定义一对网络区域之间的路由。呼叫允许控制部署中的每对网络区域均需要网络区域间路由。这样部署中的每个网络区域便能够访问任何其他区域。
+A *network interregion route* defines the route between a pair of network regions. Each pair of network regions in your call admission control deployment requires a network interregion route. This enables every network region within the deployment to access every other region.
 
 虽然区域链接会对区域之间的连接设置带宽限制，但是区域间路由可确定连接从一个区域到另一个区域将遍历的链接路径。
 
@@ -99,9 +99,9 @@ _**上次修改的主题：** 2012-10-20_
 
 5.  在“新建区域路由”**** 页上，单击“名称”****，然后键入网络区域间路由的名称。
 
-6.  单击 "**网络\#区域 1**"，然后在列表中单击要路由到 "网络区域\#2" 的网络区域。
+6.  单击 "**网络区域 \# 1**"，然后在列表中单击要路由到 "网络区域 2" 的网络区域 \# 。
 
-7.  单击 "**网络\#区域 2**"，然后在列表中单击要路由到 "网络区域\#1" 的网络区域。
+7.  单击 "**网络区域 \# 2**"，然后在列表中单击要路由到 "网络区域 1" 的网络区域 \# 。
 
 8.  单击“网络区域链接”**** 字段旁边的“添加”****，然后添加将用于网络区域间路由的网络区域链接。
     
@@ -109,7 +109,7 @@ _**上次修改的主题：** 2012-10-20_
     
 
     > [!NOTE]  
-    > 如果要为彼此之间没有直接网络区域链接的两个网络区域创建路由，则必须添加所有必要的链接来完成路由。例如，北美/APAC 网络区域间路由需要两个网络区域链接，因为它们之间没有直接网络区域链接。
+    > If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregion route requires two network region links because there is no direct network region link between them.
 
     
     </div>

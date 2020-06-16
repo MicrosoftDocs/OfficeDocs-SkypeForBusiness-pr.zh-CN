@@ -1,8 +1,8 @@
 ---
 title: 设置要运行负载的拓扑
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Provisioning the Topology to Run Load
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08f9cd219e70f1f761ac49932b73ca0d8c618121
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3e08a66397e5c6e7fb5b6111fbdcf6d11d3632a
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196085"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756873"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +67,7 @@ _**上次修改的主题：** 2013-02-04_
         Powershell.exe -file <path to the file>
     ```
     
-4.  通常，在此包中的一个脚本运行之后，脚本生成的跟踪将存储在一个文件中，该文件与从中调用脚本的路径相同，名为\<scriptname\>$h $ m $ s .txt。 例如，在 12:15 P.M. 运行 ArchivingPolicy。. ps1 将生成一个日志文件，如 ArchivingPolicy121500。
+4.  通常，在此包中的一个脚本运行之后，脚本生成的跟踪将存储在一个文件中，该文件与从中调用脚本的同一路径，名为 \<scriptname\> $h $ m $s.txt。 例如，运行 ArchivingPolicy.ps1 下午12:15 点。 将生成日志文件，如 ArchivingPolicy121500.txt。
 
 5.  最后，请注意，虽然我们提供了配置服务器的示例，但您负责在运行完负载后修改或删除配置。
 

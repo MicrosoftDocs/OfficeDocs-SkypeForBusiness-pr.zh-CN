@@ -1,8 +1,8 @@
 ---
 title: 删除监控服务器的 SQL Server 数据库
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the SQL Server database for a Monitoring server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f175f17b41a72c63aba77e6eb59aadce985ced82
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a5f899fd36a985c124d5b0bfca899592eb9b7a17
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189385"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ _**上次修改的主题：** 2012-10-04_
     
         Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    其中\<FQDN\>是数据库服务器的完全限定的域名（FQDN）， \<实例\>是可选的命名数据库实例。
+    其中， \<FQDN\> 是数据库服务器的完全限定的域名（FQDN）， \<instance\> 是可选的命名数据库实例。
 
 4.  当 **Uninstall-CsDataBase** cmdlet 提示您确认操作时，请阅读信息，然后按 **Y**（或按 Enter 键）继续，或者如果您想要停止该 cmdlet（也就是，在出现错误的情况下），请按 **N**，然后按 Enter 键。
 

@@ -1,8 +1,8 @@
 ---
 title: 迁移
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6add96ea262c2d8495997bd2e17f046d6463e42
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e57303aa330245a0d00a7a824c5eb846e19519d7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209798"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756641"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42209798"
 
 _**上次修改的主题：** 2012-09-18_
 
-本部分介绍如何从 microsoft Office 通信服务器 2007 R2 或 Microsoft Lync server 2010 迁移到 Microsoft Lync server 2013、Microsoft lync Server 2010、组聊天到 Microsoft Lync Server 2013、持久聊天服务器以及Microsoft Office 通信服务器 2007 R2 组聊天到持久聊天服务器。
+本部分介绍如何从 microsoft Office 通信服务器 2007 R2 或 Microsoft Lync server 2010 迁移到 Microsoft Lync Server 2013，从 Microsoft Lync Server 2010、组聊天到 Microsoft Lync Server 2013、持久聊天服务器，以及 Microsoft Office 通信服务器 2007 R2 组聊天到持久聊天服务器。
 
 <div>
 

@@ -1,8 +1,8 @@
 ---
 title: 删除 BackCompatSite
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove BackCompatSite
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d41d333e834dba34da2a1a04854571d721e94e38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 792fcf29033a7495a7da340decb561e25084612d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209439"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +49,7 @@ _**上次修改的主题：** 2012-09-28_
 
 3.  单击“下一步”**** 继续。
 
-4.  在“指定旧边缘”**** 页上，确保边缘服务器列表为空。如果该列表不为空，请使用“删除”**** 按钮删除所有旧边缘服务器，然后单击“下一步”****。
+4.  On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty. If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.
     
     ![合并拓扑向导中，指定 "边缘设置" 页](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "合并拓扑向导中，指定 "边缘设置" 页")  
 

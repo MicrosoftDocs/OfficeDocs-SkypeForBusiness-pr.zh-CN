@@ -1,8 +1,8 @@
 ---
 title: 删除 Enterprise Edition 前端服务器或 Standard Edition 前端服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37091a4cc89b64f03697f7ac44a7cc45ff39070e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 461a7868d0c8a6c00df8dba67ed0135a100d4e84
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189445"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ _**上次修改的主题：** 2012-10-10_
 
   - [从池中删除前端服务器](remove-a-front-end-server-from-a-pool.md)
 
-  - [删除前端池或 Standard Edition server](remove-front-end-pool-or-standard-edition-server.md)
+  - [删除前端池或 Standard Edition Server](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

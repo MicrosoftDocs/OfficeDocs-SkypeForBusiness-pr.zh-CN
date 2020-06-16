@@ -1,8 +1,8 @@
 ---
 title: 持久聊天服务器的运行后向兼容性
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d107c13d281001196dcad17604d0bfbbb9e522
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5308d39e4edcfeddf494aa364f6b7ed43b9822dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189335"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42189335"
 
 _**上次修改的主题：** 2013-02-21_
 
-Lync Server 2013、持久聊天服务器终结点提供了一种创建指向持久聊天服务器池的简单 URL 的方法。 这对于旧版客户端（Microsoft Office 通信服务器 2007 R2 组聊天服务器或 Lync Server 2010 组聊天）很有用，因为当尝试将旧版客户端指向运行 Lync 2013 的计算机时，用户可以在手动配置中输入简单 URL。持久聊天。 持续聊天不使用此终结点，仅在旧客户端中是必需的。 这对可以迁移会议室的临时时段很有用，但尚未在整个组织中部署 Lync 2013 客户端。 随后，运行 Lync 2010 组聊天（客户端）的用户仍可以连接到持久聊天服务器后端服务器。
+Lync Server 2013、持久聊天服务器终结点提供了一种创建指向持久聊天服务器池的简单 URL 的方法。 这对于旧版客户端（Microsoft Office 通信服务器 2007 R2 组聊天服务器或 Lync Server 2010 组聊天）很有用，因为在尝试将旧客户端指向运行 Lync 2013 的持久聊天的计算机时，用户可以在手动配置中输入简单 URL。 持续聊天不使用此终结点，仅在旧客户端中是必需的。 这对可以迁移会议室的临时时段很有用，但尚未在整个组织中部署 Lync 2013 客户端。 随后，运行 Lync 2010 组聊天（客户端）的用户仍可以连接到持久聊天服务器后端服务器。
 
 您无需创建多个持久聊天服务器终结点;您只需要每个持久聊天服务器池对应一个。 管理员可以创建多个终结点（每个池一个），但仅能将旧式客户端配置为一次连接到一个池。 在常见或主流方案中，旧式部署只有一个池。 新部署通常会将该池迁移到新的 Lync Server 2013，并且可能会添加一些新的附加持久聊天服务器池。
 
 此主流方案通常采用以下模式：
 
-  - 通过使用某个已知用户（默认 sip： ocschat@\<domainName\>或类似的用户），使用一个 Lync Server 2010、Group chat 池和你的 lync 2010 组聊天客户端来管理用户连接到该池。 用户是启用了 SIP 的 Active Directory 域服务，并且查找服务会向其注册以接收传入的请求。
+  - 使用一个已知用户（默认 sip： ocschat@ \<domainName\> .com 或类似的用户）来管理一个 Lync Server 2010、Group chat 池和 Lync 2010 组聊天客户端连接到该池的用户。 用户是启用了 SIP 的 Active Directory 域服务，并且查找服务会向其注册以接收传入的请求。
 
   - 随后，安装 Lync Server 2013 持久聊天服务器和持久聊天服务器池。
 

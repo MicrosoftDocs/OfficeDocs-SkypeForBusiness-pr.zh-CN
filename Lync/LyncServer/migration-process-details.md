@@ -1,8 +1,8 @@
 ---
 title: 迁移过程-详细信息
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migration process - details
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6df1eb2e0f69f79bd299f2da4f6f12aaba1bb5d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 76624475b86427d8e3b1aa4f9efa75c127afcb85
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189945"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756707"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ _**上次修改的主题：** 2012-10-19_
     
 
     > [!IMPORTANT]  
-    > 注意这些新创建的项可能与您迁移的旧项冲突。应避免任何命名冲突；否则，在迁移旧数据时将覆盖新创建的项。
+    > Be aware that these newly created items may conflict with legacy items that you migrate. Avoid any naming conflicts; otherwise, they will be overwritten when the legacy data is migrated.
 
     
     </div>
@@ -66,7 +66,7 @@ _**上次修改的主题：** 2012-10-19_
 
 执行以下步骤适当准备要迁移的源数据。
 
-1.  备份任何 Lync Server 2010、组聊天或 Office 通信服务器 2007 R2 组聊天的源数据库。 有关备份 SQL Server 的详细信息，请参阅处<https://go.microsoft.com/fwlink/p/?linkid=254851>的 "备份概述（SQL Server）"。
+1.  备份任何 Lync Server 2010、组聊天或 Office 通信服务器 2007 R2 组聊天的源数据库。 有关备份 SQL Server 的详细信息，请参阅处的 "备份概述（SQL Server）" <https://go.microsoft.com/fwlink/p/?linkid=254851> 。
     
     <div>
     
@@ -92,9 +92,9 @@ _**上次修改的主题：** 2012-10-19_
     
     1.  持久聊天服务器支持单个级别的类别，不同类别的深度分层集。 迁移后，子类别将带有完整父类别名称的前缀。 您最好简化并平整现有类别结构，以便生成的结构满足您的要求。
     
-    2.  验证根类别是否存在**管理员**。如果此级别存在管理员，则这些用户在迁移后将被添加为**所有聊天室的管理员**。如果这不是组织的要求，则需要从根类别中删除这些管理员。
+    2.  Verify the **Managers** at the root Category. If any Managers exist at this level, these users will be added as **Managers to all rooms** after migration. If this is not a requirement for your organization, you need to remove these Managers from the root Category.
     
-    3.  验证聊天室名称的长度。迁移后，由于类别结构简化，如果某个子类别下存在聊天室，这些聊天室将带有完整父类别名称的前缀。命名限制为 256 个字符，其中包括父类别名称。您必须验证聊天室名称的长度，并可在名称过长时缩短其长度。
+    3.  Verify the length of room names. After migration, due to simplified category structures, if the rooms exist under a child category, they are prefixed with full parent category names. The naming limit is 256 characters, including parent category names. You must verify the length of the room names and possibly shorten the length, if they are too long.
     
     4.  在 Lync Server 2013 中，如果将 "类别**邀请**设置" 设置为 "true"，则可以选择 "真" 或 "假" 来邀请到该类别下的会议室。 但是如果类别邀请设置为 false，则该类别下的聊天室将关闭邀请。 在迁移之前，如果您希望会议室在特定类别下存在，则必须重置旧版 Lync Server 组聊天服务器版本中的邀请设置。 否则，在迁移过程中，Lync Server 2013 将显示警告，并将聊天室设置为默认值 false。
     
@@ -104,7 +104,7 @@ _**上次修改的主题：** 2012-10-19_
     
     7.  标识不想迁移的聊天室，并将它们标记为禁用。
     
-    8.  标识您不想迁移的聊天室内容的截至日期。例如，您可能不想迁移 2010 年 1 月 1 日以前的消息，因为这些消息可能已作废或与迁移不相关。
+    8.  Identify the date beyond which you want to migrate the chat room content. For example, you may not want to migrate messages earlier than January 1, 2010, because these messages may be obsolete or not relevant for migration.
 
 </div>
 
@@ -141,7 +141,7 @@ _**上次修改的主题：** 2012-10-19_
 
 8.  将 Lync Server 2010、Group Chat 或 Office 通信服务器 2007 R2 组聊天查找服务器 URI 移植到 Lync Server 2013、持久聊天服务器联系人对象。 如果你的 Lync 2010 组聊天或 Office Communicator 2007 R2 组聊天客户端需要在不进行任何客户端配置更改的情况下连接到最新 Lync 2013、持久聊天（客户端），则需要执行以下步骤：
     
-      - 删除 ocschat@\<DomainName\>查找服务器用户帐户。 这用于指向 Lync Server 2010 中的 "组聊天" 中的查找服务。 可以在以后卸载池并删除受信任条目。
+      - 删除 ocschat@ 的 " \<domainName\> Com 查找" 服务器用户帐户。 这用于指向 Lync Server 2010 中的 "组聊天" 中的查找服务。 可以在以后卸载池并删除受信任条目。
     
       - 通过运行具有相同 SIP URI 的 Windows PowerShell cmdlet **CsPersistentChatEndpoint**，创建旧终结点（持久聊天服务器 contact 对象），以便在重新启动服务时，旧客户端将有效工作。
     
@@ -163,7 +163,7 @@ _**上次修改的主题：** 2012-10-19_
     
 
     > [!IMPORTANT]  
-    > Lync Server 2013 支持多个持久聊天服务器池。 但是，我们支持将 Lync 2010 组聊天或 Office 通信服务器 2007 R2&nbsp;组聊天池迁移到单个 Lync server 2013、持久聊天服务器池。 您可以在部署中添加其他新的持久聊天服务器池以满足法规需求（例如，在给定地理位置保留数据）。
+    > Lync Server 2013 支持多个持久聊天服务器池。 但是，我们支持将 Lync 2010 组聊天或 Office 通信服务器 2007 R2 &nbsp; 组聊天池迁移到单个 Lync server 2013、持久聊天服务器池。 您可以在部署中添加其他新的持久聊天服务器池以满足法规需求（例如，在给定地理位置保留数据）。
 
     
     </div>

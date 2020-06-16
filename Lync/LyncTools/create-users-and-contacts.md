@@ -1,8 +1,8 @@
 ---
 title: 创建用户和联系人
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Create Users and Contacts
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76b8016079cd130a814da410df5e5a5b151d8702
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f90e6cbb1afb9c4c2dd2b43e1448ca635899531b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188685"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42188685"
 
 _**上次修改的主题：** 2013-02-22_
 
-必须使用 Lync Server 2013 用户预配工具（UserProvisioningTool）在准备进行压力和性能负载测试时创建用户和联系人。
+必须使用 Lync Server 2013 用户预配工具（UserProvisioningTool.exe）创建用户和联系人，以准备压力和性能负载测试。
 
 下面是您在阅读本主题时可能会用到的术语和定义的列表。
 
   - 组织单位– Active Directory 域服务组织单位（OU）。
 
-  - 联合/跨池–将启用的用户与其他即时消息（IM）服务（如 Internet 服务的 MSN 网络、AOL®和 Yahoo\!®）进行通信。
+  - 联合/跨池–将启用的用户与其他即时消息（IM）服务（如 Internet 服务的 MSN 网络、AOL®和 Yahoo®）进行通信 \! 。
 
   - 通讯组列表–包含 Active Directory 域服务用户列表的 Active Directory 域服务中的对象，用于启动与一组用户的通信。
 
@@ -53,15 +53,15 @@ _**上次修改的主题：** 2013-02-22_
 
 <div>
 
-## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>使用 UserProvisioningTool 创建用户和联系人
+## <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>使用 UserProvisioningTool.exe 创建用户和联系人
 
-必须使用 Lync Server 用户预配工具为负载模拟创建用户和联系人。 Lync Server 用户预配工具随 Lync Server 压力和性能工具包一起安装。 确保程序包安装程序（CapacityPlanningTool）已在前端服务器或 Standard Edition 服务器上运行。 通过在前端服务器或 Standard Edition server 上运行文件 UserProvisioningTool （位于% InstalledDirectory% LyncStressAndPerfTool\\LyncStress）来启动 Lync Server 用户预配工具。
+必须使用 Lync Server 用户预配工具为负载模拟创建用户和联系人。 Lync Server 用户预配工具随 Lync Server 压力和性能工具包一起安装。 请确保已在前端服务器或 Standard Edition server 上运行程序包安装程序（CapacityPlanningTool.msi）。 通过在 \\ 前端服务器或 Standard Edition server 上运行文件 UserProvisioningTool.exe （位于% InstalledDirectory% LyncStressAndPerfTool LyncStress）来启动 Lync Server 用户预配工具。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 您必须作为 Domain Admins 安全组的成员登录才能运行 UserProvisioningTool。 由于 UserProvisioningTool 将创建和配置新的 Active Directory 域服务用户，因此需要从该上下文运行此上下文。
+> 您必须以域管理员安全组成员的身份登录才能运行 UserProvisioningTool.exe。 由于 UserProvisioningTool.exe 将创建和配置新的 Active Directory 域服务用户，因此需要从该上下文运行此上下文。
 
 
 
@@ -71,13 +71,13 @@ _**上次修改的主题：** 2013-02-22_
 
 
 > [!NOTE]  
-> 当您创建了大量用户（10000或更多）时，请从高端计算机运行 UserProvisioningTool。 请注意，在创建用户时，域控制器也会遇到负载较高的情况。
+> 当您创建了大量用户（10000或更多）时，请从高端计算机运行 UserProvisioningTool.exe。 请注意，在创建用户时，域控制器也会遇到负载较高的情况。
 
 
 
 </div>
 
-当 Lync Server 用户预配工具打开时，单击 "**配置**"，然后选择 "**加载配置**"。 若要开始配置用户和联系人，请加载程序包中包含的默认文件 SampleData。 这将预填充包含您的系统需要修改的示例数据的字段。 如果已预配置的 XML 文件已包含自定义设置，则改为加载该文件。 填写 Lync Server 用户预配工具中的字段，如以下各节所述。
+当 Lync Server 用户预配工具打开时，单击 "**配置**"，然后选择 "**加载配置**"。 若要开始配置用户和联系人，请加载程序包中包含的默认文件 SampleData.xml。 这将预填充包含您的系统需要修改的示例数据的字段。 如果已预配置的 XML 文件已包含自定义设置，则改为加载该文件。 填写 Lync Server 用户预配工具中的字段，如以下各节所述。
 
 !["用户创建" 选项卡。](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg ""用户创建" 选项卡。")
 
@@ -133,7 +133,7 @@ _**上次修改的主题：** 2013-02-22_
 > [!NOTE]  
 > <OL>
 > <LI>
-> <P>仅支持美国格式的电话号码。 电话号码始终分配给用户，并且由 UserProvisioningTool 创建的所有用户都启用企业语音。 任何使用电话号码的方案（如会议自动助理或 UC-PSTN 呼叫），都可以使用此电话号码正确路由呼叫。 因此，每个用户必须具有唯一的电话号码。 如果您必须创建两次用户，则该命令将失败，除非您使用不同的区号，或者以前的用户已通过使用<STRONG>get-csuser</STRONG> cmdlet 禁用。</P>
+> <P>仅支持美国格式的电话号码。 始终将电话号码分配给用户，并且由 UserProvisioningTool.exe 创建的所有用户均可为企业语音启用。 任何使用电话号码的方案（如会议自动助理或 UC-PSTN 呼叫），都可以使用此电话号码正确路由呼叫。 因此，每个用户必须具有唯一的电话号码。 如果您必须创建两次用户，则该命令将失败，除非您使用不同的区号，或者以前的用户已通过使用<STRONG>get-csuser</STRONG> cmdlet 禁用。</P>
 > <LI>
 > <P>在创建联系人之前，必须首先完成从 "用户" 选项卡执行的用户复制。如果你刚刚创建了用户，则必须等到 Lync Server 复制完成，并填充数据库中的用户帐户。 如果用户尚未完成复制，您将看到错误。 如果安装了 Lync Server 2013 前端服务，或者在最后一个用户上成功运行<STRONG>get-csuser</STRONG> cmdlet，您将知道用户何时完成复制。</P></LI></OL>
 
@@ -229,7 +229,7 @@ Lync Server 2013 压力和性能工具的功能之一是为 Location 信息服�
 
 ![Location Info Service Config 选项卡。](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Location Info Service Config 选项卡。")
 
-如果选择测试此功能，则可以填写表单中提及的值，然后单击 "生成 IIS 配置文件" 按钮。 它将\_生成称为 ".Lis" 子网的 csv 文件\_、.LIS 交换机 .csv、\_iis 端口 .csv 和 .lis\_的 WAP .csv。 然后，您可以分别使用**CsLisSubnet** Cmdlet、 **CsLisSwitch** cmdlet、 **CsLisPort** CMDLET 和**CsWirelessAccessPoint** CMDLET 将这些 CSV 文件导入到 .lis 数据库中。
+如果选择测试此功能，则可以填写表单中提及的值，然后单击 "生成 IIS 配置文件" 按钮。 它将生成名为 .LIS \_Subnet.csv、iis \_Switches.csv、.Lis \_Ports.csv 和 .LISWAP.csv \_ 的 CSV 文件。 然后，您可以分别使用**CsLisSubnet** Cmdlet、 **CsLisSwitch** cmdlet、 **CsLisPort** CMDLET 和**CsWirelessAccessPoint** CMDLET 将这些 CSV 文件导入到 .lis 数据库中。
 
 </div>
 

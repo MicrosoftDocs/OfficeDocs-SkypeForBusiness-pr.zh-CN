@@ -1,8 +1,8 @@
 ---
 title: 删除后端服务器上的 SQL Server 实例和数据库
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Remove SQL Server instances and databases on the Back End Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfd97f461486a873bcfade12fe7359c43ba5680c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dbd5a681be1395038116be32b3267be07213af1b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189475"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756631"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

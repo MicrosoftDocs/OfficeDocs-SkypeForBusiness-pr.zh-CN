@@ -1,8 +1,8 @@
 ---
 title: MonitoredUserSiteLink 表
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: MonitoredUserSiteLink table
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61a221ab87d43af36f03ec966bf094a1e2839bd4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b83ebadddea5f510b6eee731240119478bdc9da8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189925"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42189925"
 
 _**上次修改的主题：** 2012-10-02_
 
-MonitoredUserSiteLink 表是一个支持表。每条记录代表两个用户站点之间的一个链接。
+The MonitoredUserSiteLink table is a supporting table. Each record represents one link between two user sites.
 
 
 <table>
@@ -52,7 +52,7 @@ MonitoredUserSiteLink 表是一个支持表。每条记录代表两个用户站�
 <th><strong>列</strong></th>
 <th><strong>数据类型</strong></th>
 <th><strong>键/索引</strong></th>
-<th><strong>Details</strong></th>
+<th><strong>详细信息</strong></th>
 </tr>
 </thead>
 <tbody>

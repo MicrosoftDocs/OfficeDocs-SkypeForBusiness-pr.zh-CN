@@ -1,8 +1,8 @@
 ---
 title: 解释结果
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Interpreting the Results
@@ -12,12 +12,12 @@ ms:contentKeyID: 51541433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b3683e2a2ac9fb163fe9db3dabce40b3c61d098
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d02f69f8ea1c8eb7df004e063dba39f03bbe8b7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206158"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,13 +37,13 @@ ms.locfileid: "42206158"
 
 _**上次修改的主题：** 2013-02-24_
 
-Lync Server 2013 压力和性能工具（LyncPerfTool）具有许多计数器，您可以使用这些计数器来了解客户端正在执行的操作以及它是否遇到问题。
+Lync Server 2013 压力和性能工具（LyncPerfTool.exe）具有许多计数器，您可以使用这些计数器来了解客户端正在执行的操作以及它是否遇到问题。
 
 <div>
 
 ## <a name="client-counters"></a>客户端计数器
 
-运行的 LyncPerfTool 的每个实例都有一个单独的计数器实例。 每个实例都按其进程 ID 命名。
+运行的每个 LyncPerfTool.exe 实例都有一个单独的计数器实例。 每个实例都按其进程 ID 命名。
 
 如果客户端过载，则可能会出现问题。 若要避免这些问题，请执行以下操作：
 
