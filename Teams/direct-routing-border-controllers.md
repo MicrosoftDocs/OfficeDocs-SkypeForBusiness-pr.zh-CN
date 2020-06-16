@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解哪些会话边界控制器（SBCs）已验证了直接路由。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5b6e79b38ae92c3a2387b91e0d254f99f8412da5
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 1c1805ec472a36389cd6b45d5d344438b41a5a32
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710796"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735432"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -72,7 +72,7 @@ Microsoft 与每位供应商协作：
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路由服务（ERS）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关（EGW）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支持的3.20 （推荐4.0）        |     |    |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
-|                     [Cisco](http://www.cisco.com/go/cube)                               |     用于1000系列集成服务路由器的 Cisco 统一 Border 元素（多维数据集）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |   |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     用于1000系列集成服务路由器的 Cisco 统一 Border 元素（多维数据集）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |   |  
 |                                   |     用于4000系列集成服务路由器的 Cisco 统一 Border 元素（多维数据集）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
 |                                   |     用于1000V 系列云服务路由器的 Cisco 统一 Border 元素（多维数据集）       |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
 |                                 |     用于1000系列聚合服务路由器的 Cisco 统一边框元素（多维数据集）      |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
@@ -91,6 +91,7 @@ Microsoft 与每位供应商协作：
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 软件版本8.3.0.1。2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 软件版本8.3.0.1。2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME 软件版本8.3.0.1。2 |     &#10004;     |
+  | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode 与 Grandstream GXW42xx （V 1.0.7.10） |     &#10004;     |
 
 若要向我们提供有关团队的产品反馈，例如新功能的想法，请参阅[Uservoice](https://microsoftteams.uservoice.com)。
 请注意授予主要版本的证书。 这意味着支持在主要版本之后的 SBC 固件中包含任何数字的固件。

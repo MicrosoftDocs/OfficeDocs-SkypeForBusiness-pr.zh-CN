@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何为部署 Microsoft 团队聊天室准备基础结构，以便你可以充分利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4309140e249f5ab3674f0b2255ae195821922ad4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
+ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666164"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "44735422"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -53,7 +53,7 @@ ms.locfileid: "44666164"
 为了正常运行，Microsoft 团队聊天室设备必须具有满足这些要求的有线网络的访问权限：
   
 - 可访问 Active Directory 或 Azure Active Directory (Azure AD) 实例以及 Microsoft Exchange 和 Skype for Business 服务器。
-- 可访问能够使用 DHCP 提供 IP 地址的服务器。 不能使用静态 IP 地址配置 Microsoft 团队聊天室。
+- 可访问能够使用 DHCP 提供 IP 地址的服务器。 在第一台设备启动时，无法使用静态 IP 地址配置 Microsoft 团队会议室。
 - 访问 HTTP 端口 80 和 443。
 - TCP 和 UDP 端口配置为针对本地 Skype for Business 服务器实施，或 microsoft 团队或 Skype for business online 实施的[microsoft 365 和 Office 365 url 和 IP 地址范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)的服务器的 "[端口和协议要求](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)" 中所述。
 
@@ -104,7 +104,7 @@ Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 
     
 11. 返回登录屏幕，选择 **Skype** 用户。 如果上述所有步骤均已成功，Microsoft 团队聊天室设备将成功登录。
     
-要使用此应用程序，你必须能够连接至下面所述的终结点。要查看 IP 地址，请展开描述通信流的表下面的 IP 地址部分。
+To use this application, you must be able to connect to the endpoints described below. To see the IP addresses, expand the IP address section below the table describing the traffic flow.
   
 **防火墙代理主机名/端口示例**
 
@@ -118,7 +118,7 @@ Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 
 |音频  <br/> |客户端计算机或已登录用户  <br/> |TCP/UDP 50,000-50019  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
 |视频  <br/> |客户端计算机或已登录用户  <br/> |TCP/UDP 50,020-50039  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
 |桌面共享  <br/> |客户端计算机或已登录用户  <br/> |TCP/UDP 50,040-50059  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443，50,000-59,999  <br/> |
-|用于 iOS 设备中的 Lync Mobile 2010 的 Lync Mobile 推送通知 Android、Nokia Symbian 或 Windows Phone 移动设备不需要此功能。  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
+|Lync Mobile push notifications for Lync Mobile 2010 on iOS devices. You don't need this for Android, Nokia Symbian or Windows Phone mobile devices.  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |\*。 contoso.com  <br/> |否  <br/> |是  <br/> |[Skype for Business IP 范围](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Skype Telemetry  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |否  <br/> |否  <br/> |不适用  <br/> |TCP 443  <br/> |
 |Skype 客户端快速提示  <br/> |客户端计算机或已登录用户  <br/> |临时端口  <br/> |quicktips.skypeforbusiness.com  <br/> |否  <br/> |否  <br/> |不适用  <br/> |TCP 443  <br/> |
 
@@ -144,7 +144,7 @@ Microsoft 团队聊天室旨在继承 Windows 操作系统中的代理设置。 
   
 ### <a name="admin---local-administrator-account"></a>“Admin”- 本地管理员帐户
 
-Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设置，可在本地更改密码 \> 。转到 windows 或 AutoUnattend 文件（使用 ADK 的 Windows 系统映像管理器对 xml 文件进行更改）。
+Microsoft 团队会议室默认密码设置为 "sfb"。 通过转到 Windows 设置，可在本地更改密码 \> 。转到 windows 或 AutoUnattend.xml 文件（使用 ADK 的 Windows 系统映像管理器对 xml 文件进行更改）。
   
 > [!CAUTION]
 > 请务必尽快更改 Microsoft 团队聊天室密码。 
