@@ -1,8 +1,8 @@
 ---
 title: 验证配置设置的复制
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Validate replication of configuration settings
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b238b0431c266204daa9ecdfc6cf72986fd9e40b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf08d920983ef4463f9e8236f6c9e458f120074b
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188985"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755616"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42188985"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="17b25-102">验证配置设置的复制</span><span class="sxs-lookup"><span data-stu-id="17b25-102">Validate replication of configuration settings</span></span>
+# <a name="validate-replication-of-configuration-settings"></a><span data-ttu-id="55316-102">验证配置设置的复制</span><span class="sxs-lookup"><span data-stu-id="55316-102">Validate replication of configuration settings</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42188985"
 
 <span> </span>
 
-<span data-ttu-id="17b25-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="17b25-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="55316-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="55316-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="17b25-104">您可以通过在中央管理存储所在的内部计算机上运行 Lync Server 2013 **get-csmanagementstorereplicationstatus** cmdlet，或在其中安装了 Lync Server 2013 核心组件的任何加入域的计算机上，验证配置信息到边缘服务器的复制。</span><span class="sxs-lookup"><span data-stu-id="17b25-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
+<span data-ttu-id="55316-104">您可以通过在中央管理存储所在的内部计算机上运行 Lync Server 2013 **get-csmanagementstorereplicationstatus** cmdlet，或在其中安装了 Lync Server 2013 核心组件的任何加入域的计算机上，验证配置信息到边缘服务器的复制。</span><span class="sxs-lookup"><span data-stu-id="55316-104">You can validate the replication of configuration information to the Edge Server by running the Lync Server 2013 **Get-CsManagementStoreReplicationStatus** cmdlet on the internal computer on which the Central Management store is located or any domain joined computer on which Lync Server 2013 Core Components is installed.</span></span>
 
-<span data-ttu-id="17b25-105">初始结果可能指示复制的状态为“False”而非“True”。</span><span class="sxs-lookup"><span data-stu-id="17b25-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="17b25-106">如果是这样，则运行 **Invoke-CsManagementStoreReplication** cmdlet，并在再次运行 **Get-CsManagementStoreReplicationStatus** cmdlet 前为完成复制留出时间。</span><span class="sxs-lookup"><span data-stu-id="17b25-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
+<span data-ttu-id="55316-105">初始结果可能指示复制的状态为“False”而非“True”。</span><span class="sxs-lookup"><span data-stu-id="55316-105">Initial results may indicate the status as "False" instead of "True" for replication.</span></span> <span data-ttu-id="55316-106">如果是这样，则运行 **Invoke-CsManagementStoreReplication** cmdlet，并在再次运行 **Get-CsManagementStoreReplicationStatus** cmdlet 前为完成复制留出时间。</span><span class="sxs-lookup"><span data-stu-id="55316-106">If so, run the **Invoke-CsManagementStoreReplication** cmdlet and allow time for the replication to complete before running the **Get-CsManagementStoreReplicationStatus** cmdlet again.</span></span>
 
 </div>
 

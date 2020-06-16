@@ -1,8 +1,8 @@
 ---
 title: 重置呼叫允许控制
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Reset call admission control
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2140327f4c95f1f83f9720b7f14ef9650b8a7746
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ccd809e8c0670535723692fd35e05fd4230ddc67
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189345"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189345"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="reset-call-admission-control"></a><span data-ttu-id="c7046-102">重置呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="c7046-102">Reset call admission control</span></span>
+# <a name="reset-call-admission-control"></a><span data-ttu-id="a5200-102">重置呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="a5200-102">Reset call admission control</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42189345"
 
 <span> </span>
 
-<span data-ttu-id="c7046-103">_**上次修改的主题：** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="c7046-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="a5200-103">_**上次修改的主题：** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="a5200-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="c7046-104">如果 Lync Server 2010 前端池承载呼叫允许控制（CAC），则必须先将 CAC 托管到 Lync Server 2013 池，然后才能删除 Lync Server 2010 前端池。</span><span class="sxs-lookup"><span data-stu-id="c7046-104">If a Lync Server 2010 Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Lync Server 2013 pool before you can remove the Lync Server 2010 Front End pool.</span></span>
+<span data-ttu-id="a5200-104">如果 Lync Server 2010 前端池承载呼叫允许控制（CAC），则必须先将 CAC 托管到 Lync Server 2013 池，然后才能删除 Lync Server 2010 前端池。</span><span class="sxs-lookup"><span data-stu-id="a5200-104">If a Lync Server 2010 Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Lync Server 2013 pool before you can remove the Lync Server 2010 Front End pool.</span></span>
 
 <div>
 
-## <a name="to-reset-cac"></a><span data-ttu-id="c7046-105">重置 CAC</span><span class="sxs-lookup"><span data-stu-id="c7046-105">To reset CAC</span></span>
+## <a name="to-reset-cac"></a><span data-ttu-id="a5200-105">重置 CAC</span><span class="sxs-lookup"><span data-stu-id="a5200-105">To reset CAC</span></span>
 
-1.  <span data-ttu-id="c7046-106">打开拓扑生成器。</span><span class="sxs-lookup"><span data-stu-id="c7046-106">Open Topology Builder.</span></span>
+1.  <span data-ttu-id="a5200-106">打开拓扑生成器。</span><span class="sxs-lookup"><span data-stu-id="a5200-106">Open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="c7046-107">右键单击站点节点，然后单击“编辑属性”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c7046-107">Right-click the site node, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="a5200-107">右键单击站点节点，然后单击“编辑属性”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a5200-107">Right-click the site node, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="c7046-108">在“呼叫允许控制设置”\*\*\*\* 下，确保选择“启用呼叫允许控制”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="c7046-108">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span>
+3.  <span data-ttu-id="a5200-108">在“呼叫允许控制设置”\*\*\*\* 下，确保选择“启用呼叫允许控制”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="a5200-108">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span>
 
-4.  <span data-ttu-id="c7046-109">在 "**前端池" 下运行呼叫允许控制（CAC）**，选择要承载 CAC 的 Lync Server 2013 池，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="c7046-109">Under **Front End pool to run call admission control (CAC)**, select the Lync Server 2013 pool that is to host CAC, and then click **OK**.</span></span>
+4.  <span data-ttu-id="a5200-109">在 "**前端池" 下运行呼叫允许控制（CAC）**，选择要承载 CAC 的 Lync Server 2013 池，然后单击 **"确定"**。</span><span class="sxs-lookup"><span data-stu-id="a5200-109">Under **Front End pool to run call admission control (CAC)**, select the Lync Server 2013 pool that is to host CAC, and then click **OK**.</span></span>
 
-5.  <span data-ttu-id="c7046-110">发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="c7046-110">Publish the topology.</span></span>
+5.  <span data-ttu-id="a5200-110">发布拓扑。</span><span class="sxs-lookup"><span data-stu-id="a5200-110">Publish the topology.</span></span>
 
 </div>
 

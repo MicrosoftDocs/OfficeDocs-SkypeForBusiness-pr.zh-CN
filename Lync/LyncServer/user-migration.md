@@ -1,8 +1,8 @@
 ---
 title: 用户迁移
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: User migration
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39c83a45b0090ead83d00a188afd7d8dad8fe5b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d71330ce67715ba9beb22cce25c13faa63ddbbea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189065"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189065"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a><span data-ttu-id="b635e-102">用户迁移</span><span class="sxs-lookup"><span data-stu-id="b635e-102">User migration</span></span>
+# <a name="user-migration"></a><span data-ttu-id="986ec-102">用户迁移</span><span class="sxs-lookup"><span data-stu-id="986ec-102">User migration</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42189065"
 
 <span> </span>
 
-<span data-ttu-id="b635e-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="b635e-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="986ec-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="986ec-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="b635e-p101">一种普遍认可的迁移最佳做法是，创建几个测试用户，然后使用这些用户执行系统测试。在成功移动并测试这些帐户之后，应确定一组试生产用户，移动这些用户的帐户，然后对其执行验证测试。如果获得的结果令人满意，则可以将其余的用户移动到新部署。</span><span class="sxs-lookup"><span data-stu-id="b635e-p101">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
+<span data-ttu-id="986ec-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span><span class="sxs-lookup"><span data-stu-id="986ec-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span></span> <span data-ttu-id="986ec-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span><span class="sxs-lookup"><span data-stu-id="986ec-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span></span> <span data-ttu-id="986ec-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span><span class="sxs-lookup"><span data-stu-id="986ec-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
 
-<span data-ttu-id="b635e-107">有关为用户启用 Lync Server 2013 的其他信息，请参阅部署 Lync Server 2013 文档中的主题 "[禁用或重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)" 主题。</span><span class="sxs-lookup"><span data-stu-id="b635e-107">For additional information on enabling users for Lync Server 2013, see the topic [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in the Deploying Lync Server 2013 documentation.</span></span>
+<span data-ttu-id="986ec-107">有关为用户启用 Lync Server 2013 的其他信息，请参阅部署 Lync Server 2013 文档中的主题 "[禁用或重新启用 Lync server 2013 的用户帐户](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)" 主题。</span><span class="sxs-lookup"><span data-stu-id="986ec-107">For additional information on enabling users for Lync Server 2013, see the topic [Disable or re-enable user account for Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) in the Deploying Lync Server 2013 documentation.</span></span>
 
 </div>
 
