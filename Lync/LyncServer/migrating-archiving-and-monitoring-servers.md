@@ -1,8 +1,8 @@
 ---
 title: 迁移存档和监控服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4edd989985c4ed65027ed8d19725ec1f93c2bdc4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ba86de15ea86844b677db1abb0f47f7e1995c7e8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190095"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755302"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +51,7 @@ _**上次修改的主题：** 2012-10-02_
     
 
     > [!NOTE]  
-    > 在迁移阶段，如果你仍在使用新的 Lync Server 2013 试点池时使用旧版边缘服务器，则存档服务器的 Lync Server 2010 版本会继续为驻留在 lync server 2010 池和存档中的用户收集数据，并在 Lync Server 2013 中进行存档为驻留在 Lync Server 2013 池上的用户收集数据。
+    > 在迁移阶段，如果你仍在使用新的 Lync Server 2013 试点池时使用旧版边缘服务器，则存档服务器的 Lync Server 2010 版本将继续为驻留2010在 lync server 中的用户收集数据。2013在 lync server 中的池和存档中，为驻留在 Lync Server 2013 池中的用户收集数据。
 
     
     </div>

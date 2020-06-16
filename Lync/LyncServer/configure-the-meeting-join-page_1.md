@@ -1,8 +1,8 @@
 ---
-title: 配置会议加入页面
+title: 配置与会页面
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d73cab2e4344054d1e95b77c1a64eda425d22654
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a63354b9e0b0cf44ed44f53c91061578e01fecb5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180785"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -26,7 +26,7 @@ ms.locfileid: "42180785"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-meeting-join-page"></a>配置会议加入页面
+# <a name="configure-the-meeting-join-page"></a>配置与会页面
 
 </div>
 
@@ -52,7 +52,7 @@ _**上次修改的主题：** 2012-12-14_
 <thead>
 <tr class="header">
 <th>CsWebServiceConfiguration 参数</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -62,7 +62,7 @@ _**上次修改的主题：** 2012-12-14_
 </tr>
 <tr class="even">
 <td><p>ShowAlternateJoinOptionsExpanded</p></td>
-<td><p>设置为 True 时，用于加入联机会议的备用选项（如 Office Communicator 2007 R2）将自动展开并显示给用户。设置为 False（默认值）时，这些选项仍然可用，但用户必须自己操作才能显示选项列表。</p></td>
+<td><p>When set to True then alternate options for joining an online conference (such as Office Communicator 2007 R2) will automatically be expanded and shown to users. When set to False (the default value) these options will be available, but the user will have to display the list of options for themselves.</p></td>
 </tr>
 </tbody>
 </table>

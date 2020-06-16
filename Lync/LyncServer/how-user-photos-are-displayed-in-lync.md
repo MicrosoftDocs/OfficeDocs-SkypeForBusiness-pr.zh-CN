@@ -1,8 +1,8 @@
 ---
 title: 如何在 Lync 中显示用户照片
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: How user photos are displayed in Lync
@@ -12,12 +12,12 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b2c64d0a147457eb50a778d7909b3ccfbf8fecc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 88d6f6f6f5578994831fd15329988d963a295832
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180355"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,13 +93,13 @@ Lync 2010 引入了在 Lync 配置文件中加入照片的功能，该照片显�
 
 用户无法通过 Lync 2010 客户端直接更改 Active Directory 域服务配置文件中使用的图像。 如果可用，他们可以使用下列选项之一来执行此操作：
 
-  - **Sharepoint server**   用户可以将照片上传到 sharepoint Server 上的 "我的网站"，然后[在 sharepoint 中配置配置文件同步](https://go.microsoft.com/fwlink/p/?linkid=507466)，以便将照片同步到 Active Directory 域服务中的**thumbnailPhoto**属性。
+  - **SharePoint Server**    用户可以将照片上传到 SharePoint Server 上的 "我的网站"，然后[在 sharepoint 中配置配置文件同步](https://go.microsoft.com/fwlink/p/?linkid=507466)，以便将照片同步到 Active Directory 域服务中的**thumbnailPhoto**属性。
 
-  - **存储在可公开访问的 url**   的照片上，用户可以配置其用户照片，以指定要使用的图像的公开访问的 url。 在没有密码的情况下，图像必须可公开访问。 存储在指定 web 地址的图像通过状态信息中的联系人卡片类别传输给其他用户。 当 Lync 客户端需要显示用户照片时，它将从指定的 web 地址检索图像。
+  - **存储在可公开访问的 URL**     上的照片用户可以配置其用户照片，以指定要使用的图像的公开访问的 URL。 在没有密码的情况下，图像必须可公开访问。 存储在指定 web 地址的图像通过状态信息中的联系人卡片类别传输给其他用户。 当 Lync 客户端需要显示用户照片时，它将从指定的 web 地址检索图像。
 
-  - **Windows PowerShell**   管理员的 exchange 2010 cmdlet 可在 exchange 2010 Management Shell 中运行[import-recipientdataproperty](https://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet，以管理**thumbnailPhoto**属性。 在使用 Exchange 2010 cmdlet 导入图像时，文件大小限制为 10 KB。
+  - **用于 Windows PowerShell**     的 Exchange 2010 cmdlet管理员可以在 Exchange 2010 命令行管理程序中运行[import-recipientdataproperty](https://go.microsoft.com/fwlink/p/?linkid=507468) cmdlet 来管理**thumbnailPhoto**属性。 在使用 Exchange 2010 cmdlet 导入图像时，文件大小限制为 10 KB。
 
-  - **第三方工具**   用户只能将自己的照片上载到**thumbnailPhoto**属性。
+  - **第三方工具**    用户只能将自己的照片上载到**thumbnailPhoto**属性。
 
 </div>
 
@@ -183,13 +183,13 @@ Lync 2010 引入了在 Lync 配置文件中加入照片的功能，该照片显�
 
 对 ABWQ 服务的查询包括以下属性：
 
-  - **PhotoHash**   二进制照片数据的哈希值，用于确定当前照片是否已更改。
+  - **PhotoHash**    二进制照片数据的哈希值，用于确定当前照片是否已更改。
 
-  - **PhotoRelPath**   存储在服务器上的图像文件的相对路径。
+  - **PhotoRelPath**    存储在服务器上的图像文件的相对路径。
 
-  - **PhotoSize**   图像文件的大小，以字节为单位。
+  - **PhotoSize**    图像文件的大小（以字节为单位）。
 
-  - **时间戳**   上次从服务器下载图像文件并将其复制到客户端缓存的日期和时间。
+  - **时间戳**    上次从服务器下载图像文件并将其复制到客户端缓存的日期和时间。
 
 接下来，在检索图像文件后，Lync 2010 客户端将从查询返回的属性值与客户端从带内设置中接收的属性值进行比较，以查看它们是否不同。 如果值不同，客户端将使用 HTTP GET 请求检索已登录用户的图像文件。
 
@@ -320,13 +320,13 @@ Lync 2013 为用户照片引入了对高分辨率图像的支持。 Lync 2013 �
 
 任何在 Exchange 2013 中启用了邮箱的用户都可以通过 Outlook Web Access 或 Lync 2013 客户端选项上传不同的图像，包括高分辨率照片。 使用的图像的推荐设置包括：
 
-  - **图像分辨率**   648 x 648 像素
+  - **图像分辨率**    648 x 648 像素
 
-  - **颜色深度**   24 位
+  - **颜色深度**    24位
 
-  - **图像文件大小**   最大为 20 MB
+  - **图像文件大小**    最高 20 MB
 
-  - **文件格式**   JPEG
+  - **文件格式**    JPEG
 
 一个典型的24位 JPEG 图像为648像素 x 648 像素的文件大小约为 240 KB，因此每4个用户照片需要 1 MB 的存储空间。
 

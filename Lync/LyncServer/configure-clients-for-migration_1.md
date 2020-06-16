@@ -1,8 +1,8 @@
 ---
 title: 配置客户端以进行迁移
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b63ad4dfd4b69966a6d206ab19330d7088aff434
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a8f8cfcab36c1bfa47eb8ee4a24ebe683398707
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180975"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -54,7 +54,7 @@ _**上次修改的主题：** 2013-11-21_
 
 2.  在 Office 通信服务器 2007 R2 上，使用客户端版本筛选，仅允许安装了最新更新的 Office 通信服务器 2007 R2 客户端登录。
 
-3.  在 Office 通信服务器 2007 R2 上，使用客户端版本筛选来阻止 Lync Server 2013 客户端登录。 按照在中**配置客户端版本筛选** [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488)中描述的步骤添加下表中列出的版本筛选器。 为每个版本筛选器分配“阻止”操作****。
+3.  在 Office 通信服务器 2007 R2 上，使用客户端版本筛选来阻止 Lync Server 2013 客户端登录。 按照在中**配置客户端版本筛选**中描述的步骤 [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) 添加下表中列出的版本筛选器。 为每个版本筛选器分配“阻止”操作****。
     
     
     <table>
@@ -74,17 +74,17 @@ _**上次修改的主题：** 2013-11-21_
     <tr class="odd">
     <td><p>Lync 2013</p></td>
     <td><p>OC</p></td>
-    <td><p>15 ...***</p></td>
+    <td><p>15 ...*.**</p></td>
     </tr>
     <tr class="even">
     <td><p>Lync Web App</p></td>
     <td><p>CWA</p></td>
-    <td><p>5 ...***</p></td>
+    <td><p>5 ...*.**</p></td>
     </tr>
     <tr class="odd">
     <td><p>Lync Phone Edition</p></td>
     <td><p>OCPhone</p></td>
-    <td><p>4 ...***</p></td>
+    <td><p>4 ...*.**</p></td>
     </tr>
     </tbody>
     </table>

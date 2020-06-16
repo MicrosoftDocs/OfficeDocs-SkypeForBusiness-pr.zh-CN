@@ -1,8 +1,8 @@
 ---
 title: 仅使用全局范围的 Skype for business Online 中的 cmdlet
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4a894c4a9c6e2913abb003c49094bc6d6868483
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b97f3c8d9ca7dda0b96db211192350184cbf27b1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42001247"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755094"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>仅使用全局范围的 Skype for business Online 中的 cmdlet
 
@@ -77,7 +77,7 @@ ms.locfileid: "42001247"
 <thead>
 <tr class="header">
 <th>AllowCallForwarding 值</th>
-<th>方案</th>
+<th>应用场景</th>
 </tr>
 </thead>
 <tbody>

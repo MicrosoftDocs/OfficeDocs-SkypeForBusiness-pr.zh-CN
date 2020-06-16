@@ -1,8 +1,8 @@
 ---
 title: 配置联盟路由和媒体流量
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f5b3e0a775af649b7210dd75dcf90d012f2e421
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c5e9b7ad3f08d9ebf129c478bbcf94bed7845ef1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180915"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754968"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +65,7 @@ _**上次修改的主题：** 2012-10-15_
 
 
 > [!IMPORTANT]  
-> 如果您的 XMPP 联盟通过 Lync Server 2013 Edge 服务器路由，旧版 Lync Server 2010 用户将无法与 XMPP 联盟伙伴通信，直到所有用户都已移动到 Lync Server 2013、XMPP 策略和证书已被已配置，XMPP 联盟伙伴已在 Lync Server 2013 上配置，并且最后更新了 DNS 条目。
+> 如果您的 XMPP 联盟通过 Lync Server 2013 Edge 服务器路由，则旧版 Lync Server 2010 用户将无法与 XMPP 联盟伙伴通信，直到所有用户都已移动到 Lync Server 2013、已配置 XMPP 策略和证书、已在 Lync Server 2013 上配置了 XMPP 联盟伙伴，最后更新了 DNS 条目。
 
 
 
@@ -269,7 +269,7 @@ _**上次修改的主题：** 2012-10-15_
     
 
     > [!NOTE]  
-    > 如果您没有硬件负载平衡器，则需要更新联盟的 DNS A 记录，以将其解析为新的 Lync Server 访问边缘服务器。若要在中断最少的情况下完成此操作，请减小外部 Lync Server 访问边缘 FQDN 的 TLL 值，以便在更新 DNS 以指向新的 Lync Server 访问边缘时，将快速更新联盟和远程访问。
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve to the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TLL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge, federation and remote access will be updated quickly.
 
     
     </div>

@@ -1,8 +1,8 @@
 ---
 title: 授权与 Office 通信服务器 2007 R2 边缘服务器的连接
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a6adeaa07efea62697ecfbd38fede7d2f2191b8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f66f53b5c1aa25324dbd316ad2d72e7d04c42e0f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181155"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

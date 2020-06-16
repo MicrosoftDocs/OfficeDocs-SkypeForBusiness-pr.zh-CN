@@ -1,8 +1,8 @@
 ---
 title: 配置受信任应用程序服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb693a68f58ef16ca29048d9e18738ef98d719d8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9cbaba4f59a22de6fcee38ee51845d551033cfea
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180745"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,7 +38,7 @@ ms.locfileid: "42180745"
 
 _**上次修改的主题：** 2012-10-04_
 
-在混合环境中，如果在将旧版 Office 通信服务器拓扑与 Lync Server 2013 合并之后创建新的受信任应用程序服务器，并使用拓扑生成器定义新的受信任应用程序服务器，则必须将下一个跃点池设置为Lync Server 2013 池。 在合并环境中，旧版 Office 通信服务器池和 Lync Server 2013 池都显示在下拉列表中。 此环境*不* 支持选择旧池。
+在混合环境中，如果在将旧版 Office 通信服务器拓扑与 Lync Server 2013 合并之后创建新的受信任应用程序服务器，并使用拓扑生成器定义新的受信任应用程序服务器，则必须将下一个跃点池设置为 Lync Server 2013 池。 在合并环境中，旧版 Office 通信服务器池和 Lync Server 2013 池都显示在下拉列表中。 此环境*不* 支持选择旧池。
 
 <div>
 

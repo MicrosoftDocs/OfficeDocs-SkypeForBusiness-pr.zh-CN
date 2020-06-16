@@ -1,8 +1,8 @@
 ---
 title: 配置客户端以进行迁移
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8660fab3fccdae04ea4e3407aedf259ab3e1f4f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fb167b56d201ff6215c45c10628b3c88be046041
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181015"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755008"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -44,7 +44,7 @@ _**上次修改的主题：** 2012-09-24_
 
 ## <a name="to-configure-clients-before-migration"></a>在迁移之前配置客户端
 
-1.  为 Lync Server 2010 部署最新的服务器、客户端和设备更新（修补程序）。 有关 Lync Server 2010 的最新信息，请参阅在上<https://go.microsoft.com/fwlink/p/?linkid=232630>更新 Lync 的资源中心。
+1.  为 Lync Server 2010 部署最新的服务器、客户端和设备更新（修补程序）。 有关 Lync Server 2010 的最新信息，请参阅在上更新 Lync 的资源中心 <https://go.microsoft.com/fwlink/p/?linkid=232630> 。
 
 2.  在 Lync Server 2010 上，使用客户端版本筛选仅允许客户端安装了最新的更新。
 

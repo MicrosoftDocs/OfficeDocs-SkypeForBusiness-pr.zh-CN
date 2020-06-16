@@ -1,8 +1,8 @@
 ---
-title: 第2阶段：准备迁移
+title: 第 2 阶段：准备迁移
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 2: Prepare for migration'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6f55ef2f7db41022dbf1a3d39e6baece47c377f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0687c32890d149672fd71a59d6a64206b99af384
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189735"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -25,7 +25,7 @@ ms.locfileid: "42189735"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>第2阶段：准备迁移
+# <a name="phase-2-prepare-for-migration"></a>第 2 阶段：准备迁移
 
 </div>
 

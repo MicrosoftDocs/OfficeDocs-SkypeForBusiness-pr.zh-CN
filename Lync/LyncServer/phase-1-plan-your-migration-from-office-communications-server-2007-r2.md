@@ -1,8 +1,8 @@
 ---
 title: 第1阶段：规划从 Office 通信服务器 2007 R2 迁移
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: 'Phase 1: Plan your migration from Office Communications Server 2007 R2'
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d10698ba2529887db108484a21b3e878ef8c7ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 15a56e2fdade4021590ce0dfb039e734ae2a76e7
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42189745"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,11 +47,11 @@ _**上次修改的主题：** 2012-09-29_
 
   - [迁移存档和监控服务器](migrating-archiving-and-monitoring-servers_1.md)
 
-  - [迁移后管理服务器](administering-servers-after-migration_1.md)
+  - [迁移后服务器的管理](administering-servers-after-migration_1.md)
 
   - [迁移多个站点和池](migrating-multiple-sites-and-pools_1.md)
 
-  - [迁移 XMPP 联合](migrating-xmpp-federation_1.md)
+  - [管理 XMPP 联盟](migrating-xmpp-federation_1.md)
 
 </div>
 

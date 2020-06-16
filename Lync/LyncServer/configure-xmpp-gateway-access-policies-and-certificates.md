@@ -1,8 +1,8 @@
 ---
 title: 配置 XMPP 网关访问策略和证书
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0701423009e0f376ee63819ab264be7883a4ac3e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d7353d6bfdd4c045d9d592ababf92f2aaaec2365
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180735"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -38,13 +38,13 @@ ms.locfileid: "42180735"
 
 _**上次修改的主题：** 2012-10-15_
 
-XMPP 联盟可根据可扩展消息传递和状态协议 (XMPP) 定义外部部署。XMPP 配置允许 Lync 用户通过以下方式访问 XMPP 域用户：
+XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP). An XMPP configuration allows Lync users access to XMPP domain users by:
 
   - IM 和状态 – 仅限于面对面
 
   - Lync 客户端中 XMPP 联盟联系人的创建
 
-当您将策略配置为支持可扩展消息传递和状态协议 (XMPP) 联盟伙伴时，这些策略适用于 XMPP 联盟域的用户，但不适用于会话初始协议 (SIP) 即时消息 (IM) 服务提供者（例如，Windows Live）或 SIP 联盟域的用户。您可以针对要允许您的用户添加联系人并与之进行通信的每个 XMPP 联盟域配置 XMPP 联盟伙伴。在制定好这些策略之后，您需要配置 XMPP 网关证书。
+When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains. You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with. Once the policies are in place, you need to configure the XMPP Gateway certificates.
 
 <div>
 

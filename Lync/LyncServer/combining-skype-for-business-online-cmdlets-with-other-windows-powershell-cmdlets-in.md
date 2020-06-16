@@ -1,8 +1,8 @@
 ---
 title: 将 Skype for Business Online cmdlet 与中的其他 Windows PowerShell cmdlet 结合使用
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f95d242ec5a1f24f403e59b49e305d9e0a6c84b6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bd4f08370e5aeab6688fdbf2ce13a3e5ccb11a37
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180985"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755018"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -46,7 +46,7 @@ _**上次修改的主题：** 2013-07-05_
 
 由于不包含任何其他参数，因此**打印机**cmdlet 返回的所有信息将打印到默认打印机。
 
-同样，任何 Skype for Business Online cmdlet 都不包含允许您将数据保存到文件中的参数。 但这也是正常的：此命令使用**Out 文件**cmdlet 将返回的信息保存到文本文件 C：\\Logs\\租户 .txt：
+同样，任何 Skype for Business Online cmdlet 都不包含允许您将数据保存到文件中的参数。 但这也是正常的：此命令使用**Out 文件**cmdlet 将返回的信息保存到文本文件 C： \\ Logs \\Tenants.txt：
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 

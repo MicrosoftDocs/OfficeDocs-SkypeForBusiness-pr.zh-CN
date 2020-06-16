@@ -1,8 +1,8 @@
 ---
 title: 为试点池部署配置 DNS 记录
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,12 +13,12 @@ ms:contentKeyID: 49733666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84fd4b7160cffa402496d57bcc3ddcc844fbfce2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3388fb148b4d4f4825432e6168b657405e337c35
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180925"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

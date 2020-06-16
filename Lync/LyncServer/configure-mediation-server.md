@@ -1,8 +1,8 @@
 ---
 title: 配置中介服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure Mediation Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0705d51d321aba21a8bad7ba0e26351bf26bc5f0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82da1720cab2e6895c53565da17c9411faabdfbd
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180865"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,13 +39,13 @@ _**上次修改的主题：** 2012-09-28_
 
 此过程详细介绍了将 Lync Server 2013 池配置为使用 Lync Server 2013 中介服务器（而不是旧版 Office 通信服务器 2007 R2 中介服务器）的步骤。
 
-若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，应以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。还可以委派用于添加服务器角色的相应管理员权限。有关详细信息，请参阅 Standard Edition Server 或 Enterprise Edition Server 部署文档中的“委派安装权限”。对于其他配置更改，只需要 RTCUniversalServerAdmins 组的成员身份。
+To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
 
 <div>
 
 
 > [!NOTE]  
-> 有关查找适用于 Lync Server 2013 的合格 PSTN 网关、IP Pbx 和 SIP 中继服务的最新信息，请参阅 at <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A>中的 "Microsoft 统一通信开放互操作性计划"。
+> 有关查找适用于 Lync Server 2013 的合格 PSTN 网关、IP Pbx 和 SIP 中继服务的最新信息，请参阅 at 中的 "Microsoft 统一通信开放互操作性计划" <A href="https://go.microsoft.com/fwlink/p/?linkid=206015">https://go.microsoft.com/fwlink/p/?linkId=206015</A> 。
 
 
 
@@ -63,7 +63,7 @@ _**上次修改的主题：** 2012-09-28_
 
 4.  参考以下信息，完成“定义新的 IP/PSTN 网关”**** 页：
     
-      - 输入网关的 FQDN 或 IP 地址。如果网关使用 TLS 协议，则需要网关的 FQDN。
+      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
     
       - 接受“IP/PSTN 网关的侦听端口”**** 的默认值，或者输入新侦听端口（如果已修改）。
     

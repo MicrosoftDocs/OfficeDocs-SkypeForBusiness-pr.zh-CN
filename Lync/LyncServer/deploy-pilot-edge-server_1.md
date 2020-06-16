@@ -1,8 +1,8 @@
 ---
 title: 部署试点边缘服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Deploy pilot Edge Server
@@ -12,12 +12,12 @@ ms:contentKeyID: 48183446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cbf3be6dd47f794768ba0f3c8140e7124a1cabb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c4245efe0faf5dfe947cc52fb22a447e46c0b3e8
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180398"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44751254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ _**上次修改的主题：** 2012-10-19_
 
 本主题重点介绍在部署 Lync Server 2013 边缘服务器之前应注意的配置设置。 本节只着重介绍在部署试点边缘池的过程中应考虑的关键点。 有关详细步骤，请参阅部署文档中的在[Lync Server 2013 中部署外部用户访问](lync-server-2013-deploying-external-user-access.md)，它介绍了部署过程，同时提供了外部用户访问的配置信息。
 
-在“定义新的边缘池”**** 向导中导航时，查看以下步骤中显示的关键配置设置。请注意，仅显示了“定义新的边缘池”**** 向导的部分页面。
+As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown.
 
 **定义边缘池**
 

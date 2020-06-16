@@ -1,8 +1,8 @@
 ---
 title: 配置联盟路由和媒体流量
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 f1.keywords:
 - NOCSH
 TOCTitle: Configure federation routes and media traffic
@@ -12,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fc7359a21d60c0c77028491af9fccdf21991c58
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0d6af77188809b092050629c1b74cdab8b20a2cc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136089"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754958"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>配置联盟路由和媒体流量
 
@@ -36,7 +36,7 @@ ms.locfileid: "42136089"
 
 
 > [!IMPORTANT]  
-> 如果您的旧版 Office 通信服务器 2007 R2 边缘服务器配置为对访问边缘服务、Web 会议边缘服务和 A/V 边缘服务使用相同的 FQDN，则不支持此部分中的过程将联合身份验证设置转换为 Lync Server 2013 边缘服务器。 如果将旧边缘服务配置为使用相同的 FQDN，则必须首先将所有用户从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013，然后在启用联合身份验证之前，先停止 Office 通信服务器 2007 R2 边缘服务器Lync Server 2013 边缘服务器。 有关详细信息，请参阅下列主题： 
+> 如果您的旧版 Office 通信服务器 2007 R2 边缘服务器配置为对访问边缘服务、Web 会议边缘服务和 A/V 边缘服务使用相同的 FQDN，则不支持此部分中的过程将联合身份验证设置转换为 Lync Server 2013 边缘服务器。 如果将旧边缘服务配置为使用相同的 FQDN，则必须首先将所有用户从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013，然后在 Lync Server 2013 边缘服务器上启用联合之前，先停止 Office 通信服务器 2007 R2 边缘服务器。 有关详细信息，请参阅下列主题： 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">将其余用户移动到 Lync Server 2013</A></P>
@@ -47,7 +47,7 @@ ms.locfileid: "42136089"
 
 
 > [!IMPORTANT]  
-> 如果您的 XMPP 联盟通过 Lync Server 2013 Edge 服务器路由，则旧版 Office 通信服务器 2007 R2 用户将无法与 XMPP 联盟伙伴通信，直到所有用户都已移动到 Lync Server 2013、XMPP 策略和证书已配置，已在 Lync Server 2013 上配置了 XMPP 联盟伙伴，最后更新了 DNS 条目。
+> 如果您的 XMPP 联盟通过 Lync Server 2013 边缘服务器路由，则旧版 Office 通信服务器 2007 R2 用户将无法与 XMPP 联盟伙伴通信，直到所有用户都已移动到 Lync Server 2013、已配置 XMPP 策略和证书、已在 Lync Server 2013 上配置了 XMPP 联盟伙伴，最后更新了 DNS 条目。
 
 
 
@@ -87,11 +87,11 @@ ms.locfileid: "42136089"
     
     ![拓扑生成器指定外部边缘页面](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "拓扑生成器指定外部边缘页面")
 
-5.  在“指定外部边缘”**** 中，清除“此边缘池用于联盟和公共 IM 连接”**** 复选框。这将删除与 BackCompatSite 的联盟关联。
+5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
     
 
     > [!IMPORTANT]  
-    > 此步骤非常重要。必须清除该选项才能删除旧联盟关联。
+    > This step is important. You must clear this option to remove the legacy federation association.
 
 
 
@@ -123,7 +123,7 @@ ms.locfileid: "42136089"
 
 1.  在 Office 通信服务器 2007 R2 Standard Edition server 或前端服务器上，打开 Office 通信服务器 2007 R2 管理工具。
 
-2.  在左窗格中，展开顶层节点，然后右键单击“林”**** 节点。选择“属性”****，然后单击“全局属性”****。
+2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
 
 3.  单击“联盟”**** 选项卡。
 
@@ -217,7 +217,7 @@ ms.locfileid: "42136089"
     
 
     > [!NOTE]  
-    > 如果您没有硬件负载平衡器，则需要更新联盟的 DNS A 记录来解决新的 Lync Server 访问边缘服务器。要以最少的中断完成此操作，请减少外部 Lync Server Access Edge FQDN 的 TTL 值，以便更新 DNS 来指向新 Lync Server 访问边缘服务器时，将迅速更新联盟和远程访问。
+    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
 
 
 
