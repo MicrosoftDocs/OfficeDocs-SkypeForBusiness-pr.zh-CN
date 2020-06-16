@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft 团队管理员文档
-summary: 了解如何向团队推出和管理团队和为团队准备用户
+title: Microsoft Teams 管理文档
+summary: 了解如何推广和管理 Teams，并为用户做好使用 Teams 的准备
 brand: teams
 metadata:
-  title: Microsoft 团队管理员文档
-  description: 了解有关 Microsoft 团队管理文档的信息，包括如何向团队推出和管理团队和为团队准备用户。
+  title: Microsoft Teams 管理文档
+  description: 了解 Microsoft Teams 的管理文档，包括如何推广和管理 Teams，以及为用户做好使用 Teams 的准备。
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -15,22 +15,22 @@ metadata:
   ms.custom: seo-marvel-apr2020
   ms.openlocfilehash: 77c0310989bb8b6cb649afd4fa24c6f6bd641a18
   ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: zh-CN
   ms.lasthandoff: 04/27/2020
   ms.locfileid: "43905474"
 highlightedContent:
   items:
-  - title: COVID-19 response-支持使用团队的远程工作者
+  - title: COVID-19 响应 - 使用 Teams 支持远程工作人员
     itemType: overview
     url: /MicrosoftTeams/support-remote-work-with-teams
   - title: 如何推广 Teams
     itemType: deploy
     url: /MicrosoftTeams/how-to-roll-out-teams
-  - title: 团队中的安全和合规性
+  - title: Teams 中的安全性和合规性
     itemType: overview
     url: /MicrosoftTeams/security-compliance-overview
-  - title: 查找你和你的用户的培训
+  - title: 查找适用于你和你的用户的培训
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: 从 Skype for Business 升级到 Teams
@@ -44,35 +44,35 @@ additionalContent:
   - items:
     - title: 热门文章
       links:
-      - text: 为团队准备网络
+      - text: 准备用于 Teams 的网络
         url: /MicrosoftTeams/prepare-network
-      - text: 为团队使用顾问帮助您推广团队
+      - text: 使用 Advisor for Teams 帮助你推出 Teams
         url: /MicrosoftTeams/use-advisor-teams-roll-out
-      - text: 团队如何使用内存
+      - text: Teams 如何使用内存
         url: /MicrosoftTeams/teams-memory-usage-perf
       - text: 与其他组织中的用户通信（来宾/外部访问）
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
       - text: IT 体系结构海报和解决方案
         url: /MicrosoftTeams/teams-architecture-solutions-posters
-    - title: 与团队进行语音通话
+    - title: 使用 Teams 进行语音通话
       links:
-      - text: Cloud voice in Microsoft Teams
+      - text: Microsoft Teams 中的云语音
         url: /MicrosoftTeams/cloud-voice-landing-page
       - text: Microsoft 365 商务语音
         url: /MicrosoftTeams/business-voice/whats-business-voice
       - text: 电话系统直接路由
         url: /MicrosoftTeams/direct-routing-landing-page
-      - text: 设置公共区域电话
+      - text: 设置常见区域电话
         url: /MicrosoftTeams/set-up-common-area-phones
-    - title: 更多团队内容
+    - title: 更多 Teams 内容
       links:
-      - text: 最终用户的帮助内容
+      - text: 面向最终用户的帮助内容
         url: https://support.office.com/Teams
       - text: Teams 技术社区
         url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-      - text: 团队用户反馈论坛
+      - text: Teams 用户反馈论坛
         url: https://microsoftteams.uservoice.com/
-      - text: 团队产品信息
+      - text: Teams 产品信息
         url: https://products.office.com/microsoft-teams/group-chat-software
       - text: Teams 开发人员平台
         url: https://docs.microsoft.com/microsoftteams/platform/overview
