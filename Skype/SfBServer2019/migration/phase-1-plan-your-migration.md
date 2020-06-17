@@ -1,8 +1,8 @@
 ---
 title: 第1阶段规划迁移
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本部分介绍了迁移到 Skype for Business Server 2019 的计划主题。
-ms.openlocfilehash: 5bf8ad0ccd11ffff4a09b39cba05eff7b1559470
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 本节介绍了用于迁移到 Skype for business Server 2019 的规划主题。
+ms.openlocfilehash: 312a8ef1dcf5beb1a0d23fe0df58a3916d66981f
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813230"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752454"
 ---
 # <a name="phase-1-plan-your-migration"></a>第 1 阶段：规划迁移
 
-本部分介绍了迁移到 Skype for Business Server 2019 的计划主题。 
+本节介绍了用于迁移到 Skype for business Server 2019 的规划主题。 
   
 ## <a name="in-this-section"></a>本节内容
 
 - [用户迁移](user-migration.md)
     
-- [迁移存档和监视服务器](migrating-archiving-and-monitoring-servers.md)
+- [迁移存档和监控服务器](migrating-archiving-and-monitoring-servers.md)
     
 - [迁移后服务器的管理](administering-servers-after-migration.md)
     

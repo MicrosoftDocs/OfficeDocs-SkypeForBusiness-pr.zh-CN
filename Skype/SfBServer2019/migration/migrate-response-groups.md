@@ -1,8 +1,8 @@
 ---
 title: 迁移响应组
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 将用户移动到 Skype for business Server 2019 池之后，可以迁移响应组。 迁移响应组包括将代理组、队列、工作流、音频文件和移动响应组联系人对象从旧版部署复制到 Skype for business Server 2019 池。 迁移旧版响应组后，对响应组的呼叫由 Skype for Business Server 2019 池中的响应组应用程序处理。 旧版池不再处理对响应组的调用。
-ms.openlocfilehash: 2d439462fa103cc16fd7ae70b79364be7d79803a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 03b0ffd900b5d7c23dd6ff680d56c0c4db53d8dc
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42016103"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752674"
 ---
 # <a name="migrate-response-groups"></a>迁移响应组
 
@@ -40,7 +40,7 @@ ms.locfileid: "42016103"
 迁移响应组时，不会删除旧响应组。 在迁移后使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序管理响应组时，您可以看到旧版响应组和 Skype for Business Server 2019 响应组。 您应该仅将更新应用到 Skype for Business Server 2019 响应组。 旧响应组仅为回滚而保留。 
   
 > [!CAUTION]
-> 在完成迁移并创建新的响应组之后，Skype for Business Server 控制面板和 Skype for Business Server 命令行管理程序将显示旧版和 Skype for business server 2019 版本的每个响应该组. 请勿使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序删除旧版响应组。 如果确实删除了一个，则在迁移过程中创建的相应响应组将停止工作。 停用旧版池时，将删除旧版响应组。 
+> 在完成迁移并创建新的响应组之后，Skype for Business Server 控制面板和 Skype for Business Server 命令行管理程序将显示每个响应组的旧版和 Skype for business Server 2019 版本。 请勿使用 Skype for Business Server 控制面板或 Skype for Business Server 命令行管理程序删除旧版响应组。 如果确实删除了一个，则在迁移过程中创建的相应响应组将停止工作。 停用旧版池时，将删除旧版响应组。 
   
 > [!IMPORTANT]
 > 建议在停用池之前不要删除之前的部署中的任何数据。 此外，强烈建议在迁移后立即导出响应组。 如果应删除旧响应组，则可以从备份中还原响应组，以获取 Skype for business Server 2019 响应组再次运行。 

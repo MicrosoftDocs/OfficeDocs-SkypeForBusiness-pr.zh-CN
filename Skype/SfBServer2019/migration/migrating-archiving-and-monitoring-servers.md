@@ -1,8 +1,8 @@
 ---
-title: 迁移存档和监视服务器
+title: 迁移存档和监控服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 如果你在旧版环境中部署了存档服务器和监视服务器，则可以在迁移前端池后在 Skype for Business Server 2019 环境中部署这些服务器。 但是，如果存档和监视功能对你的组织至关重要，则应在迁移之前将存档和监视添加到 Skype for business Server 2019 试验池，以便在迁移过程中使用该功能。
-ms.openlocfilehash: 5088f4b4f72ddc083cf2868df893946561eb2469
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 如果您在旧版环境中部署了存档服务器和监视服务器，则可以在迁移前端池后将这些服务器部署在 Skype for Business Server 2019 环境中。 但是，如果存档和监视功能对您的组织至关重要，那么在迁移之前，应在您的 Skype for business Server 2019 试点池中添加存档和监控功能，以便在迁移过程中使用该功能。
+ms.openlocfilehash: 595c92e23b0872571f75c140f86b5c437c7d8129
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813450"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752664"
 ---
-# <a name="migrating-archiving-and-monitoring-servers"></a>迁移存档和监视服务器
+# <a name="migrating-archiving-and-monitoring-servers"></a>迁移存档和监控服务器
 
-如果你在旧版环境中部署了存档服务器和监视服务器，则可以在迁移前端池后在 Skype for Business Server 2019 环境中部署这些服务器。 但是，如果存档和监视功能对你的组织至关重要，则应在迁移之前将存档和监视添加到 Skype for business Server 2019 试验池，以便在迁移过程中使用该功能。 
+如果您在旧版环境中部署了存档服务器和监视服务器，则可以在迁移前端池后将这些服务器部署在 Skype for Business Server 2019 环境中。 但是，如果存档和监视功能对您的组织至关重要，那么在迁移之前，应在您的 Skype for business Server 2019 试点池中添加存档和监控功能，以便在迁移过程中使用该功能。 
   
-如果在迁移过程中需要存档和监视功能，请记住以下注意事项：
+如果迁移过程中需要存档和监控功能，应注意以下问题：
   
-- 存档数据和监视数据不会迁移到 Skype for business Server 2019 部署。 您在取消旧版环境之前备份的数据将成为旧环境中的活动历史记录。
+- 存档数据和监控数据不会移动到 Skype for Business Server 2019 部署。 在取消旧环境之前备份的数据将是旧环境中活动的历史记录。
     
-- 旧版本的存档服务器和监视服务器只能与旧版前端池关联。 在 Skype for Business Server 2019 中，存档和监控不再是服务器角色，而是集成到 Skype for business Server 2019 前端池的服务。
+- 旧版本的存档服务器和监视服务器只能与旧版前端池相关联。 在 Skype for Business Server 2019 中，存档和监控不再是服务器角色，而是集成到 Skype for Business Server 2019 前端池的服务。
     
-- 在旧版本和 Skype for business Server 2019 部署共存期间，旧版本的存档服务器和监视服务器会为驻留在旧版池中的用户收集数据。 Skype for business Server 2019 中的存档和监视为驻留在 Skype for business Server 2019 池中的用户收集数据。
+- 在旧版和 Skype for business Server 2019 部署共存期间，旧版本的存档服务器和监视服务器会为驻留在旧版池中的用户收集数据。 Skype for business Server 2019 中的存档和监控为驻留在 Skype for business Server 2019 池上的用户收集数据。
     
     > [!NOTE]
-    > 在迁移阶段，当你仍将旧式 Edge 服务器与新的 Skype for business Server 2019 试验池配合使用时，旧版本的存档服务器会继续为驻留在旧版池中的用户收集数据，并在 Skype for business 中存档服务器2019为驻留在 Skype for business Server 2019 池的用户收集数据。 
+    > 在迁移阶段，当您仍在使用新的 Skype for business Server 2019 试点池时，旧版本的存档服务器将继续为驻留在旧版池和存档中的用户收集数据，并在 Skype for Business Server 2019 中为驻留在 Skype for business Server 2019 池中的用户收集数据。 
   
-- 如果在 Skype for business Server 2019 中结合使用第三方存档和监视解决方案，请与供应商联系，了解何时以及如何使用 Skype for business Server 2019 集成第三方解决方案。
+- 如果将第三方存档和监控解决方案与 Skype for business Server 2019 中的存档和监控结合使用，请咨询供应商，了解何时以及如何将第三方解决方案与 Skype for business Server 2019 集成。
     
 

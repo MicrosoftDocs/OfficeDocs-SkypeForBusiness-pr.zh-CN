@@ -1,8 +1,8 @@
 ---
-title: 删除企业版前端服务器或标准版前端服务器
+title: 删除 Enterprise Edition 前端服务器或 Standard Edition 前端服务器
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本主题中概述的过程旨在指导你完成删除企业版前端池或标准版前端服务器的过程。 迁移到 Skype for business Server 2019 后，这是解除旧版环境的第一步。
-ms.openlocfilehash: 6c402035823a10e2c6e823c7558bd8a57a97b915
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 本主题中概述的过程旨在指导您完成删除 Enterprise Edition 前端池或 Standard Edition 前端服务器的过程。 迁移到 Skype for business Server 2019 后，这是取消旧环境的首要步骤之一。
+ms.openlocfilehash: 2fbcebec1c873c595b0ad1d40b1d1d3e9b115a32
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812920"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44752124"
 ---
 # <a name="remove-the-front-end-server"></a>删除前端服务器
 
-本部分中概述的过程旨在指导你完成删除企业版前端池或标准版前端服务器的过程。 迁移到 Skype for business Server 2019 后，这是解除您的旧环境的第一步。
+本节中概述的过程旨在指导您完成删除 Enterprise Edition 前端池或 Standard Edition 前端服务器的过程。 迁移到 Skype for business Server 2019 后，这是解除旧环境的首要步骤之一。
   
 ## <a name="in-this-section"></a>本节内容
 

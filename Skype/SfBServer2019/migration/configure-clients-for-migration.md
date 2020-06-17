@@ -1,8 +1,8 @@
 ---
 title: 配置客户端以进行迁移
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本主题包含在迁移到 Skype for business Server 2019 之前应执行的建议的客户端部署步骤。 应在 Lync Server 2013 或 Skype for Business Server 2015 上进行这些配置更改。
-ms.openlocfilehash: ad3ed4f34409b5ba730d79c24db65092802572db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fd630898d064c8ba079f87ce571e73de8cf0aaf9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986087"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44754062"
 ---
 # <a name="configure-clients-for-migration"></a>配置客户端以进行迁移
 
