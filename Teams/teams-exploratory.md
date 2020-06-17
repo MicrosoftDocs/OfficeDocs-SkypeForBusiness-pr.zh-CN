@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 502bdb8c5e441449680fa383b20f3e570d8a8ecc
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489124"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689708"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -33,18 +33,18 @@ ms.locfileid: "44489124"
 
 管理员将在 Teams Exploratory 体验中看到的服务计划有：
  - Exchange Online（计划 1)
- - Flow for Office 365
+ - 适用于 Microsoft 365 或 Office 365 的流
  - MyAnalytics 提供的见解
  - Microsoft Forms（计划 E1）
  - Microsoft Planner
  - Microsoft 搜索
  - Microsoft StaffHub
- - Microsoft Stream for O365 E1 SKU
+ - 适用于 Microsoft 365 和 Office 365 E1 SKU 的 Microsoft Stream
  - Microsoft Teams
- - Office 365 移动设备管理
+ - 适用于 Microsoft 365 或 Office 365 的移动设备管理
  - 适用于 Office 365 的 Office 移动应用 
  - Office Online
- - PowerApps for Office 365
+ - 适用于 Microsoft 365 或 Office 365 的 PowerApps
  - SharePoint Online（计划 1）
  - Sway
  - 待办事项（计划 1）
@@ -152,7 +152,7 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 - 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- 如果要通过管理门户删除此许可证，请参阅：[在 Office 365 商业版中删除用户许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- 如果要通过管理门户删除此许可证，请参阅[从组织删除用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 体验持续多长时间？
 

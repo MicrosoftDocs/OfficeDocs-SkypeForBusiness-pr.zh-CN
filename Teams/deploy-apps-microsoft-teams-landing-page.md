@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83e5c452cd2e9056818059c5f0b1ddcdeca2c235
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 10d17aedd0a653b6fc5bd24946ede5da09dc4647
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901947"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44691328"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的应用、聊天机器人和连接器
 
@@ -63,11 +63,11 @@ Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、
 
 ### <a name="bots-for-private-chats-and-channels"></a>用于私人聊天和频道的聊天机器人
 
-聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户与云服务交互，例如任务管理、计划以及在 Teams 聊天中投票。 Teams 支持在私人聊天和频道中使用聊天机器人。 管理员可以控制是否允许在 Office 365 组织中使用机器人。
+聊天机器人是自动化程序，它们可响应查询或者提供有关用户感兴趣或想要及时了解的详细信息的更新和通知。 聊天机器人允许用户与云服务交互，例如任务管理、计划以及在 Teams 聊天中投票。 Teams 支持在私人聊天和频道中使用聊天机器人。 管理员可以控制是否允许在 Microsoft 365 和 Office 365 组织中使用机器人。
 
 | 询问你自己 | Action |
 |--------------|--------|
-|是否要允许在我的 Office 365 组织中使用自定义聊天机器人？|有关添加聊天机器人的详细信息，请参阅[为 Microsoft Teams 中的私人聊天和频道添加聊天机器人](add-bots.md)。 有关开启或关闭聊天机器人的信息，请参阅[在 Microsoft Teams 中管理应用设置](admin-settings.md)。|
+|是否要允许在我的组织中使用自定义聊天机器人？|有关添加聊天机器人的详细信息，请参阅[为 Microsoft Teams 中的私人聊天和频道添加聊天机器人](add-bots.md)。 有关开启或关闭聊天机器人的信息，请参阅[在 Microsoft Teams 中管理应用设置](admin-settings.md)。|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>内置和自定义选项卡
@@ -76,16 +76,16 @@ Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、
 
 | 询问你自己 | Action |
 |--------------|--------|
-|是否要允许在我的 Office 365 组织中使用自定义选项卡？|有关详细信息，请参阅[在 Teams 中使用内置和自定义选项卡](built-in-custom-tabs.md)。|
+|是否要允许在我的组织中使用自定义选项卡？|有关详细信息，请参阅[在 Teams 中使用内置和自定义选项卡](built-in-custom-tabs.md)。|
 |||
 
-### <a name="office-365-and-custom-connectors"></a>Office 365 和自定义连接器
+### <a name="custom-connectors"></a>自定义连接器
 
 连接器可将内容和更新从你经常使用的服务直接传递到频道中，从而使你的团队能够获得最新内容。 通过使用连接器，你的 Teams 用户可以在其 Teams 聊天中接收来自常用服务（例如 Twitter、Trello、Wunderlist、GitHub 和 Azure DevOps Services）的更新。
 
 | 询问你自己 | 操作 |
 |--------------|--------|
-|是否希望允许用户创建自定义连接器？|有关详细信息，请参阅[在 Teams 中使用 Office 365 和自定义连接器](office-365-custom-connectors.md)。|
+|是否希望允许用户创建自定义连接器？|有关详细信息，请参阅[在 Teams 中使用自定义连接器](office-365-custom-connectors.md)。|
 |||
 
 ## <a name="additional-deployment-decisions"></a>其他部署决策
@@ -94,7 +94,7 @@ Teams 提供了一些由 Microsoft 和第三方发布的应用来吸引客户、
 
 ### <a name="activity-reports"></a>活动报告
 
-你可以使用活动报告来查看组织中的用户使用 Teams 的情况。 例如，如果某些用户尚未使用 Teams，他们可能不知道如何开始使用或了解如何使用 Teams 提高工作效率和改善协作。 组织可以使用活动报告来决定在何处优先安排培训和沟通工作。 若要查看活动报告，你必须是 Office 365 中的全局管理员、Teams 服务管理员或 Skype for Business 管理员。
+你可以使用活动报告来查看组织中的用户使用 Teams 的情况。 例如，如果某些用户尚未使用 Teams，他们可能不知道如何开始使用或了解如何使用 Teams 提高工作效率和改善协作。 组织可以使用活动报告来决定在何处优先安排培训和沟通工作。 若要查看活动报告，你必须是 Microsoft 365 或 Office 365 中的全局管理员、Teams 服务管理员或 Skype for Business 管理员。
 
 | 询问你自己 | 操作 |
 |--------------|--------|

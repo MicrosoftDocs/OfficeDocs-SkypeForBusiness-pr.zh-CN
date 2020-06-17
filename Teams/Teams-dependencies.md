@@ -18,17 +18,17 @@ f1.keywords:
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 848db9ea517876d941e837eaff34e72e0cff9c2a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
+ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778478"
+ms.lasthandoff: 06/10/2020
+ms.locfileid: "44689798"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
 
-为满足贵组织的要求，你可以通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。 所有这些授权级别都将应用于你的 Office 365 组织。 每个授权级别按如下所示控制来宾体验：
+为满足贵组织的要求，你可以通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。 所有这些授权级别都将应用于你的 Microsoft 365 或 Office 365 组织。 每个授权级别按如下所示控制来宾体验：
 
 - **Azure Active Directory**：Microsoft Teams 中的来宾体验依赖于 Azure AD 企业到企业 (B2B) 平台。 此授权级别控制目录、租户和应用程序级别的来宾体验。
 - **Microsoft Teams**：仅控制 Microsoft Teams 中的来宾体验。
@@ -38,9 +38,9 @@ ms.locfileid: "43778478"
 这些不同的授权级别可让你灵活选择为组织设置来宾访问的方式。 例如，如果你不想在 Microsoft Teams 组织中允许来宾用户，但想在组织中全面允许，只需在 Microsoft Teams 中关闭来宾访问即可。 其他示例：你可以在 Azure AD、Teams 和组级别启用来宾访问，然后对匹配一个或多个条件（如数据分类为机密）的选定团队禁用添加来宾用户的功能。 SharePoint Online 和 OneDrive for Business 具有自己的不依赖 Microsoft 365 组的来宾访问设置。
 
 > [!NOTE]
-> 来宾受 [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) 和 [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019) 服务限制约束。 
+> 来宾应遵守 [Microsoft 365 和 Office 365 服务说明](https://go.microsoft.com/fwlink/p/?linkid=282347)和 [Azure AD B2B 协作限制](https://go.microsoft.com/fwlink/p/?linkid=853019)中描述的服务限制。 
 
-下面的示意图显示了如何授予并在 Azure Active Directory、Microsoft Teams 和 Office 365 之间集成来宾访问授权相关性。
+下面的示意图显示了如何授予并在 Azure Active Directory、Microsoft Teams 和 Microsoft 365 或 Office 365 之间集成来宾访问授权相关性。
 
 ![用于来宾访问的授权相关性示意图。](media/teams_dependencies_image1.png)
 
@@ -110,7 +110,7 @@ Azure AD 包含用于配置外部用户的以下设置：
 
 Teams 依赖 SharePoint Online 和 OneDrive for Business 存储频道和聊天对话的文件和文档。  
 
-为了获得完整的 Teams 来宾访问体验，Office 365 管理员需要对以下设置进行配置：
+为了获得完整的 Teams 来宾访问体验，Microsoft 365 和 Office 365 管理员需要对以下设置进行配置：
 
 - 在 SharePoint Online 中：选择“**现有来宾**”、“**新来宾和现有来宾**”或“**任何人**”。
 
