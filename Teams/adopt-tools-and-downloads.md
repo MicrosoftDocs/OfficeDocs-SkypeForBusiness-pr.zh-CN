@@ -1,10 +1,10 @@
 ---
 title: 用于采用的工具和下载
 ms.reviewer: karuanag
-description: 使用这些采纳资源帮助你推动 Microsoft 团队和其他 Office 365 服务的采用。
+description: 使用这些采纳资源帮助你推动 Microsoft 团队和其他 Microsoft 365 或 Office 365 服务的采用。
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 0d736a407ee169e1b3121eede66c945c216237d9
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551000"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756501"
 ---
 # <a name="tools-for-driving-adoption"></a>促进采纳的工具 
 
@@ -148,8 +148,8 @@ ms.locfileid: "42551000"
     </li></ul>
 
 
-### <a name="office-365-champions-program"></a>Office 365 拥护程序程序
-Office 365 拥护者程序是一个免费计划，可帮助希望从 Microsoft 团队和其他 Office 365 服务获取更多信息的用户。 我们在[Microsoft 技术社区](https://aka.ms/DriveAdoption)中将我们的在线社区与每月社区通话结合起来，重点介绍了推动采用从管理到最佳做法到新功能的所有组件。 加入我们的社区https://aka.ms/O365Champions ，获取早期版本的访问权限，从其他客户处收听，并从 Microsoft 专家中学。  
+### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 或 Office 365 冠军计划
+拥护者计划是一个免费计划，可帮助希望从 Microsoft 团队和其他 Microsoft 365 或 Office 365 服务获取更多信息的用户。 我们在[Microsoft 技术社区](https://aka.ms/DriveAdoption)中将我们的在线社区与每月社区通话结合起来，重点介绍了推动采用从管理到最佳做法到新功能的所有组件。 加入我们的社区 https://aka.ms/O365Champions ，获取早期版本的访问权限，从其他客户处收听，并从 Microsoft 专家中学。  
 
 ### <a name="teams-adoption-guide"></a>团队采纳指南
 查看[团队采纳 flipbook](https://aka.ms/teamstoolkit)，这是一个可帮助你在公司中推广团队的在线指南。 它包含许多可下载的工具、模板和其他资源，可帮助您在团队中采纳旅行。

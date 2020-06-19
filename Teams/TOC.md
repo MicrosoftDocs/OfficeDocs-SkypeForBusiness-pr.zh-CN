@@ -136,6 +136,7 @@
 ## [用户设置更改时向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [打开或关闭会议的进入和退出通知](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Teams 会议中的举手选择](raise-hand-meetings.md)
 ## [在不受支持的浏览器上举行 Teams 会议](unsupported-browsers.md)
 ## [在 Teams 中配置桌面共享](configure-desktop-sharing.md)
 ## [Teams 云会议录制](cloud-recording.md)
