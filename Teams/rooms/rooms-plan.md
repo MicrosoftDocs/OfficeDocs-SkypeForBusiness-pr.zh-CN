@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: 本文介绍了部署 Microsoft 团队聊天室的相关规划注意事项，以及下一代 Skype 会议室系统。
-ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
-ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
+ms.openlocfilehash: 7b954b81d13addd4b8eb0c7bb5614f9e08f24251
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43997303"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761460"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>规划 Microsoft 团队聊天室
 
@@ -102,8 +102,8 @@ _会议/会议室库存示例_
 
 | 站点  | 聊天室名称 | 会议室类型 | 人数  | 在范围内？ | 当前房间功能       | 未来的会议室功能     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| 伦敦总部 | Curie         | 中        | 6&ndash;12                  | 是          | 话筒                        | 1屏幕，音频和视频以及演示文稿<br>PSTN 访问 |
-| 悉尼总部 | 山          | 大         | 12&ndash;16                 | 是          | 旧式 AV 设备、1屏幕和照相机 | 2屏、音频和视频以及演示文稿<br>PSTN 访问 |
+| 伦敦总部 | Curie         | 中        | 6 &ndash; 12                  | 是          | 话筒                        | 1屏幕，音频和视频以及演示文稿<br>PSTN 访问 |
+| 悉尼总部 | 山          | 大         | 12 &ndash; 16                 | 是          | 旧式 AV 设备、1屏幕和照相机 | 2屏、音频和视频以及演示文稿<br>PSTN 访问 |
 
 ## <a name="device-selection"></a>设备选择 
 
@@ -124,10 +124,10 @@ _适用于你的组织的 Microsoft 团队聊天室部署模板示例_
 
 | **房间类型/大小** | **人数**  | **Microsoft 团队会议室系统** | **外围设备**  | **显示（s）** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| 焦点 10 "按 9"      | 2&ndash;4                   |                                  |                         |                 |
-| 小写 16 "x 16"     | 4&ndash;6                   |                                  |                         |                 |
-| 中等深浅 18 "x 20"    | 6&ndash;12                  |                                  |                         |                 |
-| 大 15 "x 32"     | 12&ndash;16                 |                                  |                         |                 |
+| 焦点 10 "按 9"      | 2 &ndash; 4                   |                                  |                         |                 |
+| 小写 16 "x 16"     | 4 &ndash; 6                   |                                  |                         |                 |
+| 中等深浅 18 "x 20"    | 6 &ndash; 12                  |                                  |                         |                 |
+| 大 15 "x 32"     | 12 &ndash; 16                 |                                  |                         |                 |
 
 **Pro 提示-** 现在是开始收集有关您所选的 Microsoft 团队聊天室解决方案的信息的好时机。
 
@@ -150,7 +150,7 @@ _适用于你的组织的 Microsoft 团队聊天室部署模板示例_
 
 许多组织拥有一个 AV 团队或管理其会议室和设备的合作伙伴。 此团队应参与同意负责管理 Microsoft 团队聊天室设备以监控性能、部署软件更新和修补程序的人员。 
 
-考虑哪些 "帮助台" 队列你将向 Microsoft 团队 Rooms֪提供相关呼叫，并向帮助台团队提供常见问题，以便他们能够更好地了解如何使用 Microsoft 团队聊天室和他们可以执行的关键疑难解答步骤。 此常见问题的一个良好起点是组织中的[用户帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)和[支持团队](known-issues.md)。
+考虑哪些 "帮助台" 队列你将向 Microsoft 团队 Rooms֪提供相关呼叫，并向帮助台团队提供常见问题，以便他们能够更好地了解如何使用 Microsoft 团队聊天室和他们可以执行的关键疑难解答步骤。 此常见问题的一个良好起点是[用户帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)和[已知问题](known-issues.md)。
 
 |    |     |
 |-----------|------------|

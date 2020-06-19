@@ -1,7 +1,7 @@
 ---
 title: 与 Skype for Business 共存
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: 团队 & Skype for business 之间的共存行为，包括路线参数、聊天 & 呼叫路线、聊天 & 来自预先存在的线程的通话 & 状态。
-ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 361f59297fb28e02203b8659be88302bca89515c
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137302"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757233"
 ---
 # <a name="coexistence-with-skype-for-business"></a>与 Skype for Business 共存
 
@@ -65,12 +65,12 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由 
 
 下表捕获租户内聊天和通话的路由，并且对于不是从预先存在的线程开始的新通话或聊天有效。 它介绍了向右侧的租户收件人用户发出的新呼叫或聊天（如果由左侧的用户发起）。
 
-发送给 TeamsOnly 用户的邮件将始终路由到团队。 发送给 SfB\*用户的邮件将始终路由到 Skype for business，前提是您可以按照上述说明进行对话。 发送给孤岛用户的消息将始终路由到其发送到的同一客户端。
+发送给 TeamsOnly 用户的邮件将始终路由到团队。 发送给 SfB \* 用户的邮件将始终路由到 Skype for business，前提是您可以按照上述说明进行对话。 发送给孤岛用户的消息将始终路由到其发送到的同一客户端。
 
 下表显示给定模式下的客户端将接收来自始发者的呼叫（三个最左侧的列），具体取决于发起方的模式、所选客户端以及其 Skype for Business 客户端的托管位置（本地或 online）。
 
 在下面的表中： 
-- **SfB\* **表示以下任何模式： *SfBOnly*、 *SfBWithTeamsCollab*、 *SfBWithTeamsCollabAndMeetings*。
+- **SfB \* **表示以下任何模式： *SfBOnly*、 *SfBWithTeamsCollab*、 *SfBWithTeamsCollabAndMeetings*。
 
 - *斜体文本*突出显示互操作对话。
 
@@ -78,16 +78,16 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由 
 
 **表1a：租户新聊天或呼叫路由到孤岛模式收件人**
 
-| <br/><br/> 众 | 创 <br/><br/> 客户端 | <br/><br/> SfB&nbsp;托管 | | 收信 <br/><br/> 孤岛  |
+| <br/><br/> 众 | 创 <br/><br/> 客户端 | <br/><br/> SfB &nbsp; 托管 | | 收信 <br/><br/> 孤岛  |
 |--- |--- |--- |--- |--- |
 | 孤岛 | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| Online<br/> Online<br/> 本地<br/>本地| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> 本地<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
-**表1b：在 SfB\*模式下的租户新聊天或呼叫路由到收件人**
+**表1b：在 SfB 模式下的租户新聊天或呼叫路由到收件人 \***
 
-| <br/><br/> 众   | 创 <br/><br/> 客户端 | <br/><br/> SfB&nbsp;托管 | |   收信 <br/><br/> SfB\*   |
+| <br/><br/> 众   | 创 <br/><br/> 客户端 | <br/><br/> SfB &nbsp; 托管 | |   收信 <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
 | 孤岛 |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> 本地<br/> 本地<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **不可能** <br/>Skype for Business<br/> |
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> 本地<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
@@ -96,7 +96,7 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由 
 
 **表1c：租户新聊天或呼叫路由到 TeamsOnly 模式的收件人**
 
-| <br/><br/> 众   | 创 <br/><br/> 客户端 | <br/><br/> SfB&nbsp;托管 | |   收信 <br/><br/> TeamsOnly  |
+| <br/><br/> 众   | 创 <br/><br/> 客户端 | <br/><br/> SfB &nbsp; 托管 | |   收信 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
 | 孤岛   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> 本地<br/> 本地<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> 本地<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
@@ -107,7 +107,7 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由 
   
 下表捕获联合呼叫和聊天的路由，并且适用于新的通话或聊天。 它们描述了向右侧的联合目标用户发起的新呼叫或聊天（如果由左侧的用户发起）。
 
-总而言之，如果可以按上述方式进行对话，则发送给 TeamsOnly 用户的邮件将始终位于团队中;发送给 SfB\*用户的邮件将始终位于 Skype for business 中，发送给孤岛用户的邮件将始终位于 Skype for Business 中，而不考虑发送给他们的客户。 联合聊天和呼叫的路由与该孤岛中的租户内路由不同，该孤岛中的用户将始终在 Skype for Business 中接收联合通信。
+总而言之，如果可以按上述方式进行对话，则发送给 TeamsOnly 用户的邮件将始终位于团队中;发送给 SfB 用户的邮件 \* 将始终位于 skype for business 中，并且发送到孤岛用户的邮件将始终位于 skype For business 中，无论它们的客户端来自何处。 联合聊天和呼叫的路由与该孤岛中的租户内路由不同，该孤岛中的用户将始终在 Skype for Business 中接收联合通信。
 
 这是因为我们无法假定联合的 Skype for business 合作伙伴已使用团队（如果他们处于孤岛模式）。 岛是默认模式，但无法假设所有孤岛用户运行团队。 通过路由到 Skype for Business，我们确保没有与孤岛用户进行通信失败。 如果我们路由到团队，则如果目标未使用团队，则可能会错过通信。 将邮件路由到 Skype for Business 可确保始终收到邮件。  
 
@@ -125,7 +125,7 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由 
 | TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**表2b：联合新聊天或呼叫在 SfB\*模式下路由到收件人**
+**表2b：联合新聊天或呼叫在 SfB 模式下路由到收件人 \***
 
 | <br/><br/>众   | 创<br/><br/> 客户端| <br/><br/>SfB 托管| |  收信<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
@@ -174,7 +174,7 @@ Skype for business 线程不会保留超过10分钟的 SIP 会话超时。 在 S
 为了了解所需的行为，您需要了解基于用户的共存模式共享状态：
 
 * 如果用户处于 TeamsOnly 模式，则任何其他用户（无论是在团队中还是在 Skype for business 中）都将看到 TeamsOnly 用户的团队是否存在
-* 如果用户处于 SfB\*模式（SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings）中，则任何其他用户（无论是在团队中还是在 Skype for business 中）都将看到 SfB\*用户的 Skype for business 存在
+* 如果用户处于 SfB \* 模式（SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings）中，则任何其他用户（无论是在团队中还是在 Skype for business 中）都将看到 SfB \* 用户的 Skype for business 存在
 * 如果用户使用的是 "岛（或旧版）" 模式，则团队中的联机状态和 Skype for business 中的状态是独立的（值不需要匹配），并且其他用户将看到孤岛用户的一个或另一个状态，具体取决于它们是位于同一租户中还是在联合租户中以及使用的客户端
     * 来自团队，同一租户中的任何其他用户将看到孤岛用户的团队状态;这与上面的租户内路由表对齐
     * 从团队中，联合租户中的任何其他用户将看到孤岛用户的 Skype for business 状态;这与上面的联盟路由表对齐
@@ -183,7 +183,7 @@ Skype for business 线程不会保留超过10分钟的 SIP 会话超时。 在 S
 
 ### <a name="in-tenant-presence"></a>租户内状态
 
-发送给 TeamsOnly 用户的邮件将始终位于团队中。 发送给 SfB\*用户的邮件将始终位于 Skype for business 中，如果可以按上述说明进行对话。 发送给孤岛用户的消息将始终位于发起它们的客户端中。
+发送给 TeamsOnly 用户的邮件将始终位于团队中。 发送给 SfB \* 用户的邮件将始终位于 Skype for business 中，如果可以按上述说明进行对话。 发送给孤岛用户的消息将始终位于发起它们的客户端中。
 
 下表介绍了将由观察者查看的发布者的状态，具体取决于发布者的模式和观察者的客户端（对于新线程）。
 

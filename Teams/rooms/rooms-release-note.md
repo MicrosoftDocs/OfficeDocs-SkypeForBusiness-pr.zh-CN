@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft 团队聊天室的发行说明，其中列出了 Microsoft 团队聊天室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a4af973e02c8ae3799ee0abe6df5c9694956635
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: f59242fd3877ff1a075668a405a558f0fe18c374
+ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158949"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44761450"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -353,7 +353,7 @@ Microsoft 团队聊天室版本3.0.12.0 （update 3）不再支持64位版本的
 
 [Microsoft 团队会议室当前分支版本的支持](rooms-lifecycle-support.md)
 
-[组织中的支持团队](known-issues.md)
+[已知问题](known-issues.md)
 
 [Microsoft Teams 会议室规划](rooms-plan.md)
 

@@ -1,7 +1,7 @@
 ---
 title: 了解如何设置内容照相机-Microsoft 团队
-ms.author: kenwith
-author: kenwith
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: 在 Microsoft 团队聊天室中使用内容相机，它与图像处理软件交互以允许演示者在模拟白板上进行绘制。
-ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: e2aa115f1ddac9c7ae0eb8b247b204429f7ed1d4
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157805"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756893"
 ---
 # <a name="content-cameras"></a>内容照相机
 
@@ -87,7 +87,7 @@ ms.locfileid: "43157805"
 
 在会议室中安装摄像头后，在该聊天室的 Microsoft 团队聊天室控制台上进行设置：
 
-1. 选择 "**设置** !["](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)图标，以管理员身份登录，然后选择 "**设备设置**"。
+1. 选择**Settings** ![ ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) "设置" 图标，以管理员身份登录，然后选择 "**设备设置**"。
 2. 在 "**相机默认值**" 部分中，选择 "内容照相机" 并确保选中 "**内容增强**" 选项。
 3. 可选如果照相机是从天花板安装的，而倒置安装的，请选中 "**旋转内容相机180°** " 选项。
 4. 选择 "**保存并退出**"。
@@ -100,6 +100,6 @@ ms.locfileid: "43157805"
 
 [使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置](xml-config-file.md)
 
-[Microsoft 团队会议室需求](requirements.md)
+[Microsoft Teams 会议室要求](requirements.md)
 
 

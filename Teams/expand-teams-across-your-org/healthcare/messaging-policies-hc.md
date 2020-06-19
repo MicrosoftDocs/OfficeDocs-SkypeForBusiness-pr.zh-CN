@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 了解如何自定义可包括已读回执和优先级通知的安全邮件策略。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b4bd8032cce78e388d221108ebdfc08a16b8afd1
-ms.sourcegitcommit: 5dff3217760cf881d1d96e5d5c76101c90afcbc0
+ms.openlocfilehash: 1321c22f2eac04063723b404153909c20125dd57
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44724890"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44755826"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>适用于医疗保健组织的安全邮件入门
 
@@ -53,7 +53,7 @@ ms.locfileid: "44724890"
 
 ## <a name="send-urgent-messages-using-priority-notifications"></a>使用优先级通知发送紧急邮件
 
-将聊天消息发送给其他用户时，用户可以将消息标记为*紧急*。 此功能可帮助医院人员在关键事件需要关注时通知另一个人。 与普通的*重要*邮件不同，[优先级通知](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)将每隔两分钟通知用户最多20分钟或直到邮件被接收并阅读，从而最大程度地提高邮件的处理可能性。
+将聊天消息发送给其他用户时，用户可以将消息标记为*紧急*。 此功能可帮助医院人员在关键事件需要关注时通知另一个人。 与普通的*重要*邮件不同，[优先级通知](https://support.microsoft.com/en-us/office/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)将每隔两分钟通知用户最多20分钟或直到邮件被接收并阅读，从而最大程度地提高邮件的处理可能性。
 
 管理员可以启用或禁用分配了此策略的用户发送优先级通知的能力。 默认情况下，此功能处于打开状态。 优先级消息的收件人可能不具有相同的消息传递策略，并且将不具有用于禁用优先级消息的选项。 对于医疗保健应用程序，我们建议为至少某些用户启用该功能，但你需要确定哪些用户。
 

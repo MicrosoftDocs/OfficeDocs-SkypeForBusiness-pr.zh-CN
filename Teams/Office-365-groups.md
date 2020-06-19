@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61569b2a60bdce188a7ffb75ae6720d4e1e87a3c
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: ec2845723ce7f4a593064795f158ddf718d5b6e5
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637051"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753892"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 组和 Microsoft 团队
 =====================================
@@ -43,7 +43,7 @@ Office 365 管理员可以定义 Microsoft 365 组、添加成员和受益于诸
 创建团队时，在后端，你正在创建 Microsoft 365 组以及关联的 SharePoint 文档库和 OneNote 笔记本，以及与其他 Office 365 云应用程序之间的关联。 如果创建团队的人员是现有 Office 365 公共组或专用组的所有者，则他们可以向组添加团队功能（如果它的人员少于5000人），并且尚未添加到团队。 这将创建一个默认**常规**频道，其中聊天消息、文档、OneNote 和其他对象驻留在该频道中。 查看频道的文档库将显示代表团队中的频道的**常规**文件夹。 更重要的是，如果你在某个文档库中创建自己的文件夹结构，**它不会**以频道形式传播到 Teams；目前，它只从 Teams 转到 SharePoint。
 
 > [!NOTE]
-> 根据客户反馈，由于在 Microsoft 团队中创建团队而生成的新 Microsoft 365 组在默认情况下将不再显示在 Outlook 中。 对于希望继续在 Outlook 中显示这些组的现有行为的客户，将提供 Exchange Online PowerShell cmdlet，该 cmdlet 可为 Outlook 体验启用组。 通过 Outlook 创建的组在 "Outlook 和团队" 中启用后，团队将继续显示。 此更新将在未来几个月内逐步推出到 Outlook 和团队。
+> 根据客户反馈，由于在 Microsoft 团队客户端中创建团队而生成的新 Microsoft 365 组在默认情况下将不再显示在 Outlook 中。 若要在 Outlook 中启用或禁用组的显示，请将[UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet 与**HiddenFromExchangeClientsEnabled**参数一起使用。 通过 Outlook 创建的组在 "Outlook 和团队" 中启用后，团队将继续显示。 
 
 > [!NOTE]
 > 删除 Microsoft 365 组将删除持久 Outlook/OWA 对话和团队会议邀请的邮箱别名，并将 SharePoint 网站标记为 "删除"。 在团队中删除团队及其对 Outlook 的影响之间大约需要20分钟。 从团队客户端删除团队会将其从视图中立即删除为团队成员的所有人。 如果删除了已启用团队功能的 Microsoft 365 组的成员，则在从团队客户端视图中删除团队客户端的视图之前，可能会延迟大约两个小时。

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bb6f5a682b816e04e03694788fbdcf48ad897b5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 00727602aed5eee205a01b01e1ab01218c5b2352
+ms.sourcegitcommit: 8acc2ed4cb807f941a6526ec8aad562536f45aa6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690988"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44804676"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 会议的基于团队政策的录制简介
 
@@ -133,7 +133,7 @@ Azure 和 Windows VM 要求仅适用于 "团队 Bot" 组件，这意味着合作
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>合规性录制策略分配和预配
 
-IT 管理员可以通过创建和分配合规性录制策略来确定要录制的用户以及将用于每个用户的记录器。 在通信交互发生时，会根据这些策略的配置自动邀请刻录机参与对话。 合规性录制策略使用[<span class="underline">Microsoft Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)进行管理，并且可以在每个组织的租户和每用户级别应用。 你可以在 Microsoft 文档中查找有关[<span class="underline">会议策略</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)和[<span class="underline">呼叫策略</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy)的详细信息。
+IT 管理员可以通过创建和分配合规性录制策略来确定要录制的用户以及将用于每个用户的记录器。 在通信交互发生时，会根据这些策略的配置自动邀请刻录机参与对话。 合规性录制策略使用[<span class="underline">Microsoft Powershell</span>](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)进行管理，并且可应用于每个组织的租户、每用户和安全组级别。 你可以在 Microsoft 文档中查找有关[<span class="underline">会议策略</span>](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)、[<span class="underline">呼叫策略</span>](https://docs.microsoft.com/microsoftteams/teams-calling-policy)和[<span class="underline">组策略</span>](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)的详细信息。
 
 1. 在租户中创建应用程序实例。
 

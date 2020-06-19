@@ -3,8 +3,8 @@ title: 采用 Microsoft Teams
 ms.reviewer: karuanag
 description: 了解可用于帮助你在组织中规划和部署 Microsoft 团队的采纳资源。
 ms.topic: landing-page
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
@@ -21,17 +21,17 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac9ab0b53d60ad34f229b2e39e01daab46378611
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665924"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756511"
 ---
 # <a name="adopt-microsoft-teams"></a>采用 Microsoft Teams
 
 > [!NOTE]
-> 有关如何切换到远程学习和资源以帮助您入门的概述，请参阅我们的[**远程学习主页**](https://www.microsoft.com/education/remote-learning)。
+> 有关转换到远程学习和资源以帮助入门的概述，请参阅我们的[**远程学习主页**](https://www.microsoft.com/education/remote-learning)。
 
 如果你是小型企业版，或者想要推出从聊天开始的团队，团队 & 频道和会议，请使用我们的规范性[入门指南](get-started-with-teams-quick-start.md)，它旨在让你快速开始使用并运行。 如果你是具有混合或本地 Skype for business 配置的大型组织，或者你想要推出语音功能（如 Microsoft 365 或 Office 365 通话计划或电话系统），则可以从我们的入门指南开始，但你需要更多的指南，请参阅**更深的采纳指南**。
 

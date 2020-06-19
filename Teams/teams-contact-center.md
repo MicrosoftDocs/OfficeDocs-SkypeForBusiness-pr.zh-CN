@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft 团队作为服务（CCaaS）解决方案的集成联系人中心概述
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dccf00bc362f2404b882eb02cf7f51b532ec9161
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: aceca495760670846a869a8dcca9734a5cf7daa1
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691468"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44756823"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 团队的联系中心集成
 
@@ -51,6 +51,7 @@ Microsoft 团队通过在其通信模式（包括聊天、视频会议和通话�
 | Genesys | https://www.genesys.com/microsoft                                                                                   |
 | Luware | https://luware.com/en/solutions/                                                                                       |
 | 真 inContact | https://www.niceincontact.com/microsoft-teams                                                            |
+| Tendfor | https://www.tendfor.com/en/                                                                                     |
 
 此列表将随着更多合作伙伴加入和满足认证标准而更新。
 

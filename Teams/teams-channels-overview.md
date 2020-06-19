@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a99ec5fdea273c5d9e265e22a77c86ee628da3ab
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 19c4bf59275d0f9be4c522129fd20ae668c2f30d
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690008"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753434"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
@@ -34,7 +34,7 @@ ms.locfileid: "44690008"
 - **团队**是组织内不同项目和结果周围的人员、内容和工具的集合。
 
     - 可以创建只允许受邀用户加入的专用团队。
-    - 也可以将团队创建为公共和开放，并且组织内的任何人都可以加入（最多可达5000个成员）。
+    - 也可以将团队创建为公共和开放，并且组织内的任何人都可以加入（最多可达10000个成员）。
     
     团队用于将一群人集中在一起，以便这些人密切合作来完成事情。 对于基于项目的工作（例如，使某个产品上市或创建数字化作战室），团队可以是动态的，也可以是持续存在的，以反映组织的内部结构（例如，部门和办公室位置）。 跨团队频道的对话、文件和笔记仅对团队成员可见。
 

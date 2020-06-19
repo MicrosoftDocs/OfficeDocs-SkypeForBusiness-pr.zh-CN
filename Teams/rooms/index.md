@@ -4,108 +4,37 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-layout: LandingPage
 audience: ITPro
-ms.topic: landing-page
+ms.topic: article
+feedback_system: None
 ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 部署 Microsoft 团队聊天室以及如何部署和管理系统的相关规划注意事项。
-ms.openlocfilehash: 0a418f6fcca9a122a7e3e6aaca123562f2b6fc56
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 2cba74f72016b51446f7721041039faedd865866
+ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905424"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773377"
 ---
-<h1>Microsoft Teams 会议室</h1>
-<ul class="panelContent cardsW cols cols2">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <p>将会议空间从小型 huddle 区域转换为大型的会议室，使用丰富、协作的团队体验&#39;的简单使用、部署和管理。 </p>
-                        <p>通过一次触摸的联接随时开始会议，然后立即将其投影到聊天室中的显示，并与远程参与者共享。 </p>
-                        <p>从我们的一个合作伙伴中选择合适的系统和音频视频外设： Yealink、Logitech、Crestron、Polycom、联想和 HP。</p>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../media/srs-room.jpg" alt="A conference table with Microsoft Teams Rooms equipment" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="An icon that represents planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>规划</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" alt="An icon that represents deployment" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>部署</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="An icon that represents management" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>管理</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+# <a name="microsoft-teams-rooms"></a>Microsoft Teams 会议室
+
+将会议空间从小型 huddle 区域转换为大型的会议室，使用丰富的协作团队体验更易于使用、部署和管理。
+
+通过一次触摸的联接随时开始会议，然后立即将其投影到聊天室中的显示，并与远程参与者共享。
+
+从我们的一个合作伙伴中选择合适的系统和音频视频外设： Yealink、Logitech、Crestron、Polycom、联想和 HP。
+
+:::image type="content" source="../media/srs-room.jpg" alt-text="包含 Microsoft 团队聊天室设备的会议表":::
+
+|               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![列表符号](https://docs.microsoft.com/office/media/icons/list-123-teams.svg)  | **[规划](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![部署符号](https://docs.microsoft.com/office/media/icons/deploy-teams.svg)  | **[部署](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![工具/扳手](https://docs.microsoft.com/office/media/icons/toolbox.svg)  | **[管理](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+
+<br>
 
 > [!NOTE]
 > Microsoft 球队会议室旨在与 Microsoft 团队、Skype for Business Online、Skype for business Server 2019 或 Skype for business Server 2015 配合使用。  <br><br>早期平台（如 Lync Server 2013）不希望与 Microsoft 团队聊天室一起使用。

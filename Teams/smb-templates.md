@@ -1,7 +1,7 @@
 ---
 title: 适用于中小型企业的团队模板
-author: kenwith
-ms.author: kenwith
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: 使用 Microsoft 团队预定义模板快速轻松地为中小型企业创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 89555c13504b621b5cb9c43ae9edb33c9f2bbe54
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904884"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44757053"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>面向中小型企业的团队模板入门
 
