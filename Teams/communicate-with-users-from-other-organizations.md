@@ -17,12 +17,12 @@ description: 了解如何使用外部访问（联合身份验证）和来宾访�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: fcc17aa7bc00904a13aa77761472ea3ea37a17cd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689688"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785274"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>与 Microsoft Teams 中其他组织的用户通信
 ======================================================
@@ -88,7 +88,7 @@ ms.locfileid: "44689688"
 <sup>2</sup> 仅通过电子邮件或会话初始协议 (SIP) 地址。<br>
 <sup>3</sup> 外部（联合）聊天仅可为一对一。<br>
 <sup>4</sup> 支持来自两个不同组织的仅 Teams 对仅 Teams 用户的一对一聊天。 <br>
-<sup>5</sup> 默认情况下，外部参与者看不到拨入参与者的电话号码。 如果想要保护这些电话号码的隐私，请选择“**进入/退出公告类型**”的“**提示音**”（这会阻止 Teams 读出电话号码）。如果不希望向外部用户显示外部 PSTN 电话号码，请在打开“**进入/退出公告**”后，为相应公告类型选择“**提示音**”。 若要了解详细信息，请参阅[在 Microsoft Teams 中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
+<sup>5</sup> 默认情况下，外部参与者看不到拨入参与者的电话号码。 如果想要保持这些电话号码的隐私，请选择“**进入/退出公告类型**”的“**提示音**”（这会阻止 Teams 读出电话号码）。 若要了解详细信息，请参阅[在 Microsoft Teams 中打开或关闭会议的进入和退出公告](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)。
 
 ## <a name="related-topics"></a>相关主题
 

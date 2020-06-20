@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2ba5201781743567d4c94cad3b065f21e6578e9a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 04df18735e04ee4c0fbc29d5cf8b4c2f6148b926
+ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690538"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "44753862"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -46,11 +46,11 @@ ms.locfileid: "44690538"
 |专用频道中的成员数    |250|
 |频道对话文章大小 | 每篇文章约 28 KB<sup>4</sup> |
 
-&sup1; Azure Active Directory 中的目录对象均计入此限额。 如同使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
+<sup>1</sup> Azure Active Directory 中的目录对象均计入此限额。 如同使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
 
-&sup2; 此限制涵盖已存档的团队。
+<sup>2</sup> 此限制涵盖已存档的团队。
 
-&sup3; 已删除的频道可在删除后 30 天内还原。 在该等 30 天，已删除的频道仍然计入每个团队 200 个频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队 200 个频道这一限额内。
+<sup>3</sup> 已删除的频道可在删除后 30 天内还原。 在该等 30 天，已删除的频道仍然计入每个团队 200 个频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队 200 个频道这一限额内。
 
 <sup>4</sup> 28 KB 是一个近似限制，因为它包含消息本身（文本和图像链接等）、@提及、连接器数量和回应。
 
@@ -155,6 +155,9 @@ Outlook 2013 桌面版及更高版本支持 Outlook 中的 Teams 状态。 若�
 ## <a name="storage"></a>存储空间
 
 Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个频道在默认团队网站文档库中都有一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。
+
+> [!NOTE]
+> 每个[私人频道](https://docs.microsoft.com/microsoftteams/private-channels)都拥有自己的 SharePoint 网站集。
 
 如果你的租户中未启用 SharePoint Online，则 Microsoft Teams 用户有时无法在团队中共享文件。 此外，由于该功能需要 OneDrive for Business（它与 SharePoint 许可证关联），因此私人聊天中的用户无法共享文件。
 
