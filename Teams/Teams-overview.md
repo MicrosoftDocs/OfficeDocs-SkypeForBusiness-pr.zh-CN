@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c9fc53608d1072558931ee2ba424d6d0334e31
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7220a7776acb796a4ca56ef28541fd821c0c0132
+ms.sourcegitcommit: 18838ed1da69ab4668c903bfcafd4ad2fa02639d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689768"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "44773307"
 ---
 # <a name="welcome-to-microsoft-teams"></a>欢迎使用 Microsoft Teams
 如果你是贵组织的 Microsoft Teams 管理员，本文正适合你。 如果你已准备好开始使用 Teams，请首先参阅[如何部署 Teams](How-to-roll-out-teams.md)。
@@ -100,7 +100,7 @@ Teams 是 Microsoft 365 和 Office 365 中的主要智能通信客户端，它�
 
 ## <a name="teams-known-issues"></a>Teams 已知问题
 
-请参阅[在组织中提供 Teams 支持](Known-issues.md)。
+请参阅 [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)。
 
 ## <a name="teams-client-release-notes"></a>Teams 客户端发行说明
 
