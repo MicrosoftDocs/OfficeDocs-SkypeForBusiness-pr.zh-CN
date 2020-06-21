@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7054156ad2cb3526cd2e8fc802014433a68efc81
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a342c27c7379ed11e691098fe309fe4e429cb1e0
+ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689708"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44785298"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -147,6 +147,8 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 ## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>这对旧版 Microsoft Teams 商业云试用版许可证有何影响？
 
 从 2020 年 2 月起，符合条件的用户可开始使用最新的 Microsoft Teams Exploratory 体验。 所有旧版 Teams 商业云试用版许可证将在试用版到期前自动转换为新的服务。
+
+当用户首次登录到其过期的 Teams 商业云试用版时，我们会自动向该用户分配 Teams Exploratory 体验许可证。 用户在登录前不会进行转换。
 
 ### <a name="remove-a-teams-exploratory-license"></a>删除 Teams Exploratory 许可证
 
