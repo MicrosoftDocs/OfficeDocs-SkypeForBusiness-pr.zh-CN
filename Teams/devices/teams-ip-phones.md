@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议已认证，可供 Microsoft 团队获得最佳效果。
-ms.openlocfilehash: f25373f0d7b35163bd1fce2d5662e5eb96e5aeab
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666114"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816813"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -71,6 +71,39 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 |Poly Studio X50 | 3.1.1.216109| 2020年6月|Focus 房间（3m x 3m） </br> 小会议室（4.5 米 x 4.5 米）|
 |Yealink VC210| 118.15.0.14|2020年2月|Focus 房间（3m x 3m） </br> 小会议室（4.5 米 x 4.5 米）|
 
+### <a name="product-release-information-teams-phones"></a>产品发布信息-工作组电话
+以下是已发布的最新团队 IP 电话应用版本和固件版本
+#### <a name="release-date-may-132020"></a>发布日期：2020月13日
+#### <a name="app-versions"></a>应用版本
+|应用| 版本|
+|:---|:---|
+|Teams | . 040801|
+|管理员代理|. 210|
+|公司门户| . 4715|
+
+#### <a name="firmware-versions"></a>固件版本
+|更新 #3| 发布到生产的固件|
+|:---|:---|
+|AudioCodes C450HD|C450HD_TEAMS_1 3.47|
+|Poly CCX400|1.0.1.0054|
+|Poly CCX500/ CCX600|5.9.13.0306|
+|Yealink T55/T56/T58|58.15.0.104|
+|Yealink VP59|91.15.0.40|
+|Yealink CP960|73.15.0.100|
+
+### <a name="product-release-information-collaboration-bar"></a>产品发布信息-协作栏
+以下是已发布的最新团队协作栏应用版本和固件版本
+#### <a name="app-versions"></a>应用版本
+|应用| 版本|
+|:---|:---|
+|Teams | . 040901|
+|管理员代理|. 210|
+|公司门户| . 4715|
+
+#### <a name="firmware-versions"></a>固件版本
+|更新 #3| 发布到生产的固件|
+|:---|:---|
+|Yealink VC210|118.15.0.19|
 
 有关这些设备支持的功能的信息，请参阅[Microsoft 团队手机功能设置](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set)。
 

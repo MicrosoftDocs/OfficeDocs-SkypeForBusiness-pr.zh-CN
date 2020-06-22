@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解如何从审核日志中检索 Microsoft 团队数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 609bf3065d160da46b6e65d20235a4451de83c5f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
+ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665634"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "44816623"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -129,7 +129,7 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 |已添加成员    |MemberAdded         |团队所有者将成员添加到团队、频道或群组聊天。         |
 |已添加选项卡    |TabAdded         |用户将选项卡添加到频道。        |
 |已更改频道设置    |ChannelSettingChanged         |当团队成员执行以下活动时，将记录 ChannelSettingChanged 操作。 对于这些活动中的每个活动，在审核日志搜索结果中的 "**项目**" 列中显示已更改的设置（显示在括号中）的描述。 <ul><li>更改团队频道的名称（**频道名称**）</li><li>团队频道的更改说明（**频道说明**）</li> </ul>      |
-|已更改的组织设置   |TeamsTenantSettingChanged         |当 Microsoft 365 管理中心中的全局管理员执行以下活动时，将记录 TeamsTenantSettingChanged 操作。 这些活动影响组织范围的团队设置。 若要了解详细信息，请参阅[管理你的组织的团队设置](enable-features-office-365.md)。 <br>对于这些活动中的每个活动，在审核日志搜索结果中的 "**项目**" 列中显示已更改（在括号中显示）的设置的说明。<ul><li>为组织（**Microsoft 团队**）启用或禁用团队。</li><li>为组织启用或禁用 Microsoft 团队和 Skype for business 之间的互操作性（**skype For business 互操作性**）。</li><li>启用或禁用 Microsoft 团队客户端（**组织结构图视图**）中的组织结构图视图。</li><li>启用或禁用团队成员安排私人会议（**私人会议安排**）的能力。</li><li>允许或禁止团队成员安排频道会议（"**频道会议安排**"）。</li><li>启用或禁用团队会议中的视频通话（**Skype 会议的视频**）。</li><li>为组织启用或禁用 Microsoft 团队聚会中的屏幕共享（**Skype 会议的屏幕共享**）。</li><li>启用或禁用将动画图像（称为 Giphy）添加到团队对话（**动画图像**）的能力。</li><li>更改组织的内容评级设置（**内容分级**）。 内容分级限制可在对话中显示的动画图像的类型。</li><li>允许或禁止团队成员将自定义图像（称为自定义 meme）从 internet 添加到团队对话（**来自 internet 的可自定义图像**）。</li><li>启用或禁用团队成员向团队对话（**可编辑的图像**）添加可编辑图像（称为贴纸）的功能。</li><li>允许或禁止团队成员在 Microsoft 团队聊天和频道中使用机器人（**组织范围内的智能机器人）** 的功能。</li><li>为 Microsoft 团队启用特定的 bot。 这不包括 T-机器人，它是在为组织（**单个 bot**）启用机器人时提供的团队帮助机器人。</li><li>启用或禁用团队成员添加扩展或选项卡（**扩展或选项卡**）的功能。</li><li>启用或禁用 Microsoft 团队专用 bot （**机器人的侧面加载**）的侧面加载。</li><li>启用或禁用用户向 Microsoft 团队频道（**频道电子邮件**）发送电子邮件的功能。</li></ul>|
+|已更改的组织设置   |TeamsTenantSettingChanged         |当 Microsoft 365 管理中心中的全局管理员执行以下活动时，将记录 TeamsTenantSettingChanged 操作。 这些活动影响组织范围的团队设置。 若要了解详细信息，请参阅[管理你的组织的团队设置](enable-features-office-365.md)。 <br>对于这些活动中的每个活动，在审核日志搜索结果的 "**项目**" 列中显示已更改（在括号中显示）的设置的说明。<ul><li>为组织（**Microsoft 团队**）启用或禁用团队。</li><li>为组织启用或禁用 Microsoft 团队和 Skype for business 之间的互操作性（**skype For business 互操作性**）。</li><li>启用或禁用 Microsoft 团队客户端（**组织结构图视图**）中的组织结构图视图。</li><li>启用或禁用团队成员安排私人会议（**私人会议安排**）的能力。</li><li>允许或禁止团队成员安排频道会议（"**频道会议安排**"）。</li><li>启用或禁用团队会议中的视频通话（**Skype 会议的视频**）。</li><li>为组织启用或禁用 Microsoft 团队聚会中的屏幕共享（**Skype 会议的屏幕共享**）。</li><li>启用或禁用将动画图像（称为 Giphy）添加到团队对话（**动画图像**）的能力。</li><li>更改组织的内容评级设置（**内容分级**）。 内容分级限制可在对话中显示的动画图像的类型。</li><li>允许或禁止团队成员将自定义图像（称为自定义 meme）从 internet 添加到团队对话（**来自 internet 的可自定义图像**）。</li><li>启用或禁用团队成员向团队对话（**可编辑的图像**）添加可编辑图像（称为贴纸）的功能。</li><li>允许或禁止团队成员在 Microsoft 团队聊天和频道中使用机器人（**组织范围内的智能机器人）** 的功能。</li><li>为 Microsoft 团队启用特定的 bot。 这不包括 T-机器人，它是在为组织（**单个 bot**）启用机器人时提供的团队帮助机器人。</li><li>启用或禁用团队成员添加扩展或选项卡（**扩展或选项卡**）的功能。</li><li>启用或禁用 Microsoft 团队专用 bot （**机器人的侧面加载**）的侧面加载。</li><li>启用或禁用用户向 Microsoft 团队频道（**频道电子邮件**）发送电子邮件的功能。</li></ul>|
 |已更改团队成员的角色    |MemberRoleChanged         |团队所有者更改团队成员的角色。 以下值表示分配给用户的角色类型。 <br><br>**1** -指示所有者角色。<br>**2** -指示成员角色。<br>**3** -指示来宾角色。<br><br>Members 属性还包括您的组织的名称和成员的电子邮件地址。        |
 |已更改的团队设置    |TeamSettingChanged        |当团队所有者执行以下活动时，将记录 TeamSettingChanged 操作。 对于这些活动中的每个活动，在审核日志搜索结果的 "**项目**" 列中显示已更改（在括号中显示）的设置的说明。<ul><li>更改团队的访问权限类型。 可将团队设置为私有或公共（**团队访问类型**）。 当团队是专用的（默认设置）时，用户只能通过邀请访问团队。 当团队是公共团队时，它会被任何人发现。</li><li>更改团队的信息分类（**团队分类**）。 例如，可以将团队数据分类为高业务影响、中型企业影响或低业务影响。</li><li>更改团队的名称（**团队名称**）。</li><li>更改团队说明（**团队说明**）。</li><li>对团队设置所做的更改。 若要访问这些设置，团队所有者可以右键单击团队，选择 "**管理团队**"，然后单击 "**设置**" 选项卡。对于这些活动，已更改的设置的名称将显示在审核日志搜索结果的 "**项目**" 列中。</li></ul>         |
 |已创建团队    |TeamCreated         |用户创建团队。         |
@@ -187,8 +187,8 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 
 ## <a name="office-365-management-activity-api"></a>Office 365 管理活动 API
 
-你可以使用 Office 365 管理活动 API 检索有关团队事件的信息。 若要了解有关团队的管理活动 API 架构的详细信息，请参阅[团队架构](https://docs.microsoft.com/office/office-365-management-api/troubleshooting-the-office-365-management-activity-api)。
+你可以使用 Office 365 管理活动 API 检索有关团队事件的信息。 若要了解有关团队的管理活动 API 架构的详细信息，请参阅[团队架构](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)。
 
 ## <a name="related-topics"></a>相关主题
 
-- [在 Microsoft 365 合规性中心中搜索审核日志](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) 
+- [在 Microsoft 365 合规性中心中搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) 
