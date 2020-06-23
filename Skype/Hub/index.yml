@@ -1,0 +1,59 @@
+### YamlMime:Hub
+title: Skype for Business
+summary: Skype for Business 技术文档
+brand: m365
+metadata:
+  title: Skype for Business
+  description: Skype for Business 技术文档
+  ms.service: skype-for-business-online
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
+  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.translationtype: HT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "44805541"
+additionalContent:
+  sections:
+  - title: 面向 IT 专业人员
+    items:
+    - title: Skype for Business Online
+      summary: 在 Office 365 环境中查找用于管理 Skype for Business Online 的资源。
+      url: /SkypeForBusiness/skype-for-business-online
+    - title: 混合解决方案
+      summary: 查找有关规划 Skype for Business 混合部署的信息。
+      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+    - title: Skype for Business Server
+      summary: 为您的组织部署和管理 Skype for Business Server。
+      url: /SkypeForBusiness/skype-for-business-server-2019
+    - title: 适用于 Skype for Business 的 PowerShell 参考
+      summary: 了解管理 Skype for Business 和 Skype for Business Online 所需的 PowerShell cmdlet。
+      url: /powershell/skype/intro
+    - title: Microsoft Teams
+      summary: 获取成功推出 Microsoft Teams 所需的计划、操作说明和实用指南。
+      url: /MicrosoftTeams/
+    - title: 从 Skype for Business 到 Microsoft Teams 的旅程
+      summary: 查找探索 Teams 的最佳路径的指南和工具。
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: Microsoft Teams 会议室
+      summary: 了解如何规划、部署和管理 Microsoft Teams 会议室。
+      url: /SkypeForBusiness/room-systems/
+    - title: Skype for Business 认证计划
+      summary: 了解经认证的解决方案和设备。
+      url: /SkypeForBusiness/certification/overview
+    - title: 疑难解答
+      summary: 查找面向 IT 专业人员和管理员的疑难解答和支持资源。
+      url: /office/troubleshoot
+  - title: 面向其他受众
+    items:
+    - title: 开发者
+      summary: 关于为 Skype for Business 开发解决方案的指南。
+      url: /skype-sdk/
+    - title: 最终用户
+      summary: 在 support.office.com 上查找 Skype for Business 用户的帮助、培训和技术支持。
+      url: https://support.office.com/skype-for-business
