@@ -14,19 +14,19 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 了解 Microsoft 团队中的外部访问（联合）用户的本机团队聊天体验，在两个用户均处于 TeamsOnly 升级模式的外部用户之间可用。
-ms.openlocfilehash: 0d6f7ed00482ee68233b4d93cc101e9c820a6f14
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a8cd038f8ff65ea24abb790e564d2cb30ef0ed1
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832682"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44842003"
 ---
 <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Microsoft 团队外部（联合）用户的本机聊天体验
 ======================================
 
-当 Microsoft 团队用户与外部（联合）用户聊天时，聊天体验仅限于文本。 但是，如果你的团队租户和外部用户的 TeamsOnly 升级模式，你可以拥有 "本机团队聊天体验"，其中包括丰富的格式、@mentions 和其他聊天功能。 换句话说，你可以与符合条件的外部用户进行相同的丰富的1:1 团队聊天体验，就像在你的组织中的用户一样。 与外部用户的本机团队聊天仅限于1:1 聊天（外部用户无法进行群组聊天）。
+当 Microsoft 团队用户与外部（联合）用户聊天时，聊天体验仅限于文本。 但是，如果你的团队用户和外部用户都在 TeamsOnly 升级模式下，你可以拥有 "本机团队聊天体验"，其中包括丰富的格式、@mentions 和其他聊天功能。 换句话说，你可以与符合条件的外部用户进行相同的丰富的1:1 团队聊天体验，就像在你的组织中的用户一样。 与外部用户的本机团队聊天仅限于1:1 聊天（外部用户无法进行群组聊天）。
 
-适用于外部用户的本机聊天体验已针对所有团队租户启用，但并非所有用户都符合资格。 若要提供本机聊天体验，发送方和接收方都必须位于运行 TeamsOnly 升级模式的团队租户上。 若要了解有关升级策略的详细信息，请阅读[设置你的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)。
+适用于外部用户的本机聊天体验已针对所有团队租户启用，但并非所有用户都符合资格。 若要提供本机聊天体验，需要为 TeamsOnly 升级模式配置发送方和接收方。 若要了解有关升级策略的详细信息，请阅读[设置你的共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)。
 
 若要查看团队外部 access 用户的功能列表，请参阅[比较外部和来宾访问](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)。
 

@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由协议
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 264e7e3de8031e8ac150c186078ff3d7ccff2f16
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0756860bc6fad7a470a33e00ac8452e7977ecde0
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691218"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859647"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由-SIP 协议
 
@@ -44,7 +44,7 @@ ms.locfileid: "44691218"
 | 从页眉 | 来自以下内容的页眉： <sip： 7168712781@sbc1 biz; transport = udp; tag = 1c747237679 |
 | 到页眉 | 收件人： sip:+183338006777@sbc1.adatum.biz | 
 | CSeq 标头 | CSeq：1个邀请 | 
-| 联系人页眉 | 联系人： <sip： 68712781@sbc1 biz; 传输 = tls> | 
+| 联系人页眉 | 联系： <sip： 68712781@sbc1 biz： 5058; transport = tls> | 
 
 收到邀请后，SIP 代理执行以下步骤：
 
@@ -100,13 +100,13 @@ INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 
 SIP 代理需要为新的对话客户端事务（如再见或重新邀请）和答复 SIP 选项计算下一个跃点 FQDN。 使用 "联系人" 或 "记录"-路线。 
 
-根据 RFC 3261，任何可能导致新对话的请求都需要联系人标题。 仅当代理希望在对话框中保留未来请求的路径时，才需要记录路由。 
+根据 RFC 3261，任何可能导致新对话的请求都需要联系人标题。 仅当代理希望在对话框中保留未来请求的路径时，才需要记录路由。 如果代理 SBC 与[用于直接路由的本地媒体优化](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)一起使用，则需要配置记录路由，因为代理 sbc 需要保留在路由中。 
 
-Microsoft 建议仅出于以下原因使用联系人标头：
+如果未使用代理 SBC，Microsoft 建议仅使用联系人标头：
 
-- 在每个 RFC 3261 中，如果代理希望在对话中保留未来请求的路径，而在 Microsoft SIP 代理和成对的 SBC 之间传输所有通信，则使用记录路由。 在 SBC 和 Microsoft SIP 代理之间不需要中间代理服务器。
+- 在每个 RFC 3261 中，如果代理希望在对话框中保留未来请求的路径，并且在 Microsoft SIP 代理和成对的 SBC 之间进行所有通信时，这不是必需的，则使用记录路由。 
 
-- Microsoft SIP 代理仅使用联系人头（而不是记录路由）来确定发送出站 ping 选项时的下一跃点。 仅配置一个参数（联系人），而不是两个（联系人和记录-路线）可简化管理。
+- Microsoft SIP 代理仅使用联系人头（而不是记录路由）来确定发送出站 ping 选项时的下一跃点。 如果代理 SBC 未使用，则仅配置一个参数（联系人），而不是两个（联系人和记录路由）可简化管理。 
 
 要计算下一跃点，SIP 代理使用：
 

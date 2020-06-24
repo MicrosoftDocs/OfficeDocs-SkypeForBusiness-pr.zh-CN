@@ -12,16 +12,14 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中的团队用户与 Skype （消费者）用户之间的互操作性功能。
 localization_priority: Normal
-ms.openlocfilehash: 00bd5c079a062875ebf5569600803e1c366429fe
-ms.sourcegitcommit: 86b0956680b867b8bedb2e969220b8006829ee53
+ms.openlocfilehash: 87e860a49f235713ed4e9cea5c818912f2a352f5
+ms.sourcegitcommit: 93c5afed49f47574f1b00305e5dfbb8a89be02a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "44410427"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44859637"
 ---
 # <a name="teams-and-skype-interoperability"></a>团队和 Skype 互操作性
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 本文概括介绍了 Microsoft 团队和 Skype （消费者）之间的互操作性功能。 了解团队用户和 Skype 用户可以如何通过聊天和通话以及适用的管理控制进行通信。
 

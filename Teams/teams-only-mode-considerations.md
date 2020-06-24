@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18f880e9b6762371f2a936ff0901db542d541748
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 96ff2652a326e537f200c47495496dd81ea9fd4b
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690918"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854094"
 ---
 # <a name="teams-only-mode-considerations"></a>仅 Teams 模式注意事项
 
@@ -41,9 +41,6 @@ ms.locfileid: "44690918"
 > 如果你刚刚开始升级计划，请务必查看我们[开始熟悉 Microsoft 团队升级](upgrade-start-here.md)指南。 
 
 **共存注意事项**：已使用 Skype For business Online 和/或 Skype For business 服务器的组织可以按满足其需求的节奏将团队引入到其环境中。 组织可以根据需要以增量方式向所需的一组用户推出团队，并且使用团队的用户可以与使用 Skype for Business 的用户进行通信，反之亦然。 为管理此体验，管理员使用共存模式，这些模式定义了最终用户客户体验、传入聊天和通话的传送行为，以及团队或 Skype for business 中是否安排新会议。 如果用户仅升级到**团队**，则用户可以与其他组织中的用户联盟;但是，当两个用户都使用团队时，将提供最佳体验。 已升级到团队的用户仍可加入 Skype for Business 会议。 
-
-> [!NOTE]
-> 升级到团队的用户仅无法与使用 Skype for 消费者的用户通信。
 
 > [!IMPORTANT]
 > 有关共存的更多详细信息，请参阅[了解 Microsoft 团队和 Skype for business 共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。 

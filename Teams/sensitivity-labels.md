@@ -17,16 +17,14 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中定义和使用敏感度标签。
-ms.openlocfilehash: 7f8eb7e0fa0d34ae21829a12011f094d8e9c9126
-ms.sourcegitcommit: 2c23a8c5afc4a6b74c2c6d7487975a94fe99dc07
+ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44562067"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854114"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 团队的灵敏度标签
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 [敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)允许团队管理员控制在团队内协作期间创建的敏感组织内容的访问权限。 你可以在[安全 & 合规中心](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)中定义灵敏度标签及其关联的策略。 这些标签和策略将自动应用于你的组织中的团队。  
 
@@ -36,19 +34,20 @@ ms.locfileid: "44562067"
 
 另一方面，灵敏度标签和其策略通过组平台、安全 & 合规中心和团队服务的组合自动实施端到端。 灵敏度标签提供强大的基础结构支持以保护组织的敏感数据。  
 
+若要将现有组从使用分类标签到使用灵敏度标签迁移，请使用[Microsoft 365 组的 Azure Active Directory 分类和敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels)中的说明。
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>为团队创建、管理和发布灵敏度标签
 
-有关如何为团队启用、创建和发布敏感度标签的详细说明，请参阅[将敏感度标签与 Microsoft 团队、microsoft 365 组和 SharePoint 网站结合使用](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
+有关如何为团队启用、创建和发布敏感度标签的详细说明，请参阅[Microsoft 365 组的 Azure Active Directory 分类和灵敏度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
 
 >[!IMPORTANT]
 >创建、更新和删除灵敏度标签需要对用户发布标签的仔细排序。 序列中的任何偏差都可能会导致所有用户的持久团队创建错误。 因此，在<a href="#createpublishlabels">创建和发布标签</a>、<a href="#modifydeletelabels">修改和删除已发布标签</a>以及<a href="#manageerrors">管理团队创建错误</a>时，执行以下操作非常重要。
 
 **创建和发布标签** <a name="createpublishlabels"> </a>
 
-在安全 & 合规中心创建和发布标签时，该标签最多可能需要24小时才能在团队创建界面中变为可见。 使用以下步骤为租户中的所有用户发布标签：
+在安全 & 合规中心创建和发布标签时，该标签最多可能需要10分钟才能使标签在团队创建界面中变为可见。 使用以下步骤为租户中的所有用户发布标签：
 1. 创建标签并将其发布到租户中的几个选择用户帐户。
-2. 当标签发布时，请等待24小时。
-3. 24小时后，请尝试使用有权访问标签的用户帐户创建带有标签的团队。
+2. 当标签已发布时，请等待10分钟。
+3. 10分钟后，请尝试使用有权访问标签的用户帐户创建带有标签的团队。
 4. 如果团队在步骤3中成功创建，则继续并为租户中的其余用户发布标签。
 
 **修改和删除已发布的标签** <a name="modifydeletelabels"> </a>
@@ -56,8 +55,8 @@ ms.locfileid: "44562067"
 删除或修改与灵敏度策略相关联的标签可能会导致整个租户中的团队创建失败。 因此，在删除或修改标签之前，必须首先解除标签与其关联的策略的关联。 使用以下步骤  
 要删除或修改标签，请执行以下操作：
 1. 从使用该标签的所有策略中删除标签。 或者，也可以删除策略本身。
-2. 当从策略中删除标签或策略本身被删除时，请等待48小时，然后再继续。
-3. 48小时后，启动团队创建界面并确保该标签对于租户中的任何用户不再可见。
+2. 当从策略中删除标签或策略本身被删除时，请等待10分钟后再继续。
+3. 10分钟后，启动团队创建界面并确保该标签对于租户中的任何用户不再可见。
 4. 现在，您可以安全地删除或修改标签。
 
 **管理团队创建错误** <a name="manageerrors"> </a>

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 2f867ec9d5731aba8f0b99cf9d4b82d35f958844
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161723"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44841983"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -59,20 +59,20 @@ ms.locfileid: "42161723"
 若要在 Skype for Business 中使用免费电话号码，需要通讯信用点数，因为这些通话按分钟计费。 此外，我们建议你为你的呼叫计划和音频会议用户设置通信信用点数，这些用户需要能够拨出到**任何 PSTN 目标**。 包括许多国家/地区，但某些目的地可能不包括在您的通话计划或音频会议套餐中。 如果您不设置通讯信用点数或为您的用户分配许可证，而您的组织的分钟数（取决于您的通话计划、音频会议计划或您所在的国家/地区），这些用户将无法通过联机音频会议会议进行呼叫或拨出。
   
 > [!NOTE]
-> 必须为**Microsoft 365 管理中心** > **用户** > **活动用户**中的每个用户设置通讯信用点数，然后为每位用户分配通讯信用许可证。 
+> 必须为**Microsoft 365 管理中心**  >  **用户**  >  **活动用户**中的每个用户设置通讯信用点数，然后为每位用户分配通讯信用许可证。 
   
 建议您仔细评估组织的 PSTN 服务使用情况，以便了解最适合通信信用点数的设置。 你可以通过阅读[手机系统和通话计划](calling-plan-landing-page.md)和[音频会议常见问题](Audio-Conferencing-common-questions.md)查看有关 PSTN 服务的更多信息。
   
 你可以使用预付费余额的**一次性融资**设置消耗量计费，**或者**设置**自动重新充电**（**推荐**）金额，该金额具有将触发针对该重新支付金额的购买的最低余额。 一开始，建议你设置自动充值金额，以便你监视实际的使用量并找到满足你的需求和使用模式的合适的自动充值阈值。 通讯信用点数应按时间进行监控，然后根据需要调整最小余额和重新充电金额，以便针对每个组织的需求进行定制。
   
 > [!NOTE]
-> 你可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单** > **订阅** > **添加订阅**来查看计划和定价。 
+> 你可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单**  >  **订阅**  >  **添加订阅**来查看计划和定价。 
   
-在**Microsoft 365 管理中心** > **** > **购买服务** > **中，可以**选择 "通信信用点数" 来添加信用点数，您可以随时手动添加点数。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果您选择使用一次性金额来为您的通信点数余额进行资金，然后余额降到零，则上述的其他呼叫方案将不再有效，包括免费电话号码。 因此，建议使用**自动重新充电**设置，以避免您的通讯信用点数达到0（零）时的任何服务中断。 如果您的电子支付交易成功，您将收到一封电子邮件，重新充电的交易将失败（如已过期的信用卡），或者您的通讯点数余额达到0（零）。
+在**Microsoft 365 管理中心**  >  **Billing**  >  **购买服务**中  >  **Add Ons** ，可以选择 "通信信用点数" 来添加信用点数，您可以随时手动添加点数。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果您选择使用一次性金额来为您的通信点数余额进行资金，然后余额降到零，则上述的其他呼叫方案将不再有效，包括免费电话号码。 因此，建议使用**自动重新充电**设置，以避免您的通讯信用点数达到0（零）时的任何服务中断。 如果您的电子支付交易成功，您将收到一封电子邮件，重新充电的交易将失败（如已过期的信用卡），或者您的通讯点数余额达到0（零）。
   
 ## <a name="communications-credits"></a>通信点数
 
-每个组织都将有不同的通话计划的使用量和费率。 You will need to get this type of usage data from your current service provider. 对于使用 Skype for business 的组织已成为其服务提供商，您可以通过在**Microsoft 365 管理中心** > **报告**或**Skype for business 管理中心** > **报告** > **PSTN 使用详细信息**来获取使用情况数据。
+每个组织都将有不同的通话计划的使用量和费率。 You will need to get this type of usage data from your current service provider. 对于使用 Skype for business 的组织已成为其服务提供商，您可以通过在**Microsoft 365 管理中心**  >  **报告**或**Skype for business 管理中心**  >  **报告**  >  **PSTN 使用详细信息**来获取使用情况数据。
   
 设置通讯信用点数时，您需要调查组织的通话使用情况，以确定需要投入的金额。 你可以通过查看" **PSTN 使用详细信息**"报告获取呼叫使用信息。 此报表允许你将调用数据记录导出到 Excel 并创建自定义报表。
 
@@ -95,7 +95,7 @@ ms.locfileid: "42161723"
     
 - [电话系统](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-您还可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单** > **订阅** > **添加订阅**来查看有关定价的信息。
+您还可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单**  >  **购买服务**查看有关定价的信息。
   
 若要查看一个表，其中包含每个功能所需的许可证或许可证，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
