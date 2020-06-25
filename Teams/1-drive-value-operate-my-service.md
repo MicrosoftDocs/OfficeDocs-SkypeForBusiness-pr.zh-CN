@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e20023d1b79f4b5706301ef0cb1e670f35e8b5f
-ms.sourcegitcommit: 8b172e9a0d0626c9a88998600d4b17c6c8cdadd2
+ms.openlocfilehash: fe1d8828ea875d987ecef0057891e9de7c816e96
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44761380"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868389"
 ---
 # <a name="operate-my-service"></a>操作服务
 
@@ -439,7 +439,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 
 4.  **访问 Microsoft 团队社区：**[Microsoft 团队社区](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams)为团队提供专用空间。 团队社区围绕团队提供讨论列表、博客文章和公告。 你可以发布问题或搜索以前的讨论，以查找你的问题的解决方案。
 
-5.  **联系 Microsoft 支持人员：** 您可以与 Microsoft 支持部门联系，以解决团队在线或手机出现的问题。 有关信息，请参阅[联系业务产品支持](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)。
+5.  **联系 Microsoft 支持人员：** 您可以与 Microsoft 支持部门联系，以解决团队在线或手机出现的问题。 有关信息，请参阅[联系业务产品支持](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。
     对于 Premier 客户，可通过关注[Microsoft 团队的联系支持（Premier 客户）](https://support.microsoft.com/premier/contacts)的指导启动支持请求。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
@@ -464,7 +464,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 
 [验证 Microsoft Teams 的服务运行状况](service-health.md)
 
-[联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 [联系 Premier 支持人员](https://support.microsoft.com/premier/contacts)
 

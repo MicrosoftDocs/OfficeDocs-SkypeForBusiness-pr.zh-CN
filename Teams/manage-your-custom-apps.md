@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何让自定义团队应用从开发到部署。
-ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
-ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
+ms.openlocfilehash: 705f5ecf5628dd981a4deb3ded847b3da8e9ea08
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44064527"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868509"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>在 Microsoft 团队中管理自定义应用
 
@@ -41,7 +41,7 @@ ms.locfileid: "44064527"
 
 ### <a name="create-test-users"></a>创建测试用户
 
-请确保你的开发人员（无论是内部还是外部）在你的测试租户中具有帐户。 <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">了解有关添加用户的详细信息</a>。
+请确保你的开发人员（无论是内部还是外部）在你的测试租户中具有帐户。 <a href="https://docs.microsoft.com/microsoft-365/admin/add-users/add-users" target="_blank">了解有关添加用户的详细信息</a>。
 
 ### <a name="allow-custom-apps-in-the-test-tenant"></a>允许在测试租户中自定义应用
 
@@ -50,13 +50,13 @@ ms.locfileid: "44064527"
 若要允许用户上载自定义应用程序，请按照下列步骤操作：
 
 1. 启用 "**允许与自定义应用交互**" 组织范围的应用设置。 要执行此操作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **管理应用**"，然后单击 "**组织范围的应用设置**"。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用**  >  **管理应用**"，然后单击 "**组织范围的应用设置**"。
     2. 在 "**自定义应用**" 下，打开 "**允许与自定义应用交互**"，然后单击 "**保存**"。
 
     !["允许与自定义应用交互" 组织范围内的应用设置的屏幕截图](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. 在全局应用设置策略中启用 "**上载自定义应用**" 设置。 要执行此操作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **设置策略**"，然后单击 "**全局（组织范围默认）** " 策略。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用**  >  **设置策略**"，然后单击 "**全局（组织范围默认）** " 策略。
     2. 打开 "**上载自定义应用**"，然后单击 "**保存**"。
 
     !["上载自定义应用" 应用设置策略设置的屏幕截图](media/manage-your-lob-apps-app-setup-custom-apps.png)
@@ -86,13 +86,13 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 若要允许受信任用户上载自定义应用程序，请按照下列步骤操作：
 
 1. 启用 "**允许与自定义应用交互**" 组织范围的应用设置。 要执行此操作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **管理应用**"，然后单击 "**组织范围的应用设置**"。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用**  >  **管理应用**"，然后单击 "**组织范围的应用设置**"。
     2. 在 "**自定义应用**" 下，打开 "**允许与自定义应用交互**"，然后单击 "**保存**"。
 2. 关闭全局应用设置策略中的 "**上载自定义应用**" 设置。 要执行此操作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **设置策略**"，然后单击 "**全局（组织范围默认）** " 策略。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用**  >  **设置策略**"，然后单击 "**全局（组织范围默认）** " 策略。
     2. 关闭 "**上载自定义应用**"，然后单击 "**保存**"。
 3. 创建一个新的应用设置策略，该策略允许上载自定义应用并将其分配给你的受信任的用户集。 要执行此操作：
-    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用** > **设置策略**"，然后单击 "**添加**"。 为新策略提供名称和说明，打开 "**上载自定义应用**"，然后单击 "**保存**"。
+    1. 在<a href="https://admin.teams.microsoft.com/" target="_blank">Microsoft 团队管理中心</a>的左侧导航中，转到 "**团队应用**  >  **设置策略**"，然后单击 "**添加**"。 为新策略提供名称和说明，打开 "**上载自定义应用**"，然后单击 "**保存**"。
     2. 选择您创建的新策略，然后单击 "**管理用户**"。 搜索用户，单击 "**添加**"，然后单击 "**应用**"。 重复此步骤，将策略分配给所有受信任的用户。
 
         !["添加应用程序设置策略" 页面的屏幕截图](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -125,7 +125,7 @@ Microsoft 使用<a href="https://docs.microsoft.com/microsoftteams/platform/publ
 
 若要更新应用，开发人员应继续执行[步骤 1](#step-1-develop-and-test)和[步骤 2](#step-2-validate-in-production)。
 
-你可以通过租户应用目录更新应用。 若要执行此操作，请在 Microsoft 团队管理中心中，转到 "**团队应用** > **管理应用**"。 在应用列表中，单击应用名称，然后单击 "**更新**"。 执行此操作将替换租户应用目录中的现有应用，并且所有应用权限策略和应用设置策略都将对已更新的应用强制实施。
+你可以通过租户应用目录更新应用。 若要执行此操作，请在 Microsoft 团队管理中心中，转到 "**团队应用**  >  **管理应用**"。 在应用列表中，单击应用名称，然后单击 "**更新**"。 执行此操作将替换租户应用目录中的现有应用，并且所有应用权限策略和应用设置策略都将对已更新的应用强制实施。
 
 ### <a name="end-user-update-experience"></a>最终用户更新体验
 

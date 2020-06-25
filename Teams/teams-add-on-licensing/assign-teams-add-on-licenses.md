@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 了解如何向用户分配 "音频会议"、"电话系统" 和 "通话计划" 等功能的团队加载项许可证。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c7c455628f7595e1517fbd0cef8d2edc454ffbb
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: c7faaf2e65330aafd809872ed19b5f2f16afc668
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042770"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868579"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>向用户分配团队附加许可证
 
@@ -48,7 +48,7 @@ ms.locfileid: "44042770"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心
 
-使用 Microsoft 365 管理中心将许可证分配给单个用户或一次一组小型用户。 你可以在 "**许可证**" 页面（一次最多20个用户）或 "**活动用户**" 页面分配许可证。 你选择的方法取决于你是要为特定用户管理产品许可证还是管理特定产品的用户许可证。 
+使用 Microsoft 365 管理中心将许可证分配给单个用户或一次一组小型用户。 你可以在 "**许可证**" 页面（一次最多20个用户）或 "**活动用户**" 页面分配许可证。 你选择的方法取决于你是要为特定用户管理产品许可证还是管理特定产品的用户许可证。
 
 有关分步说明，请参阅[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
 
@@ -71,7 +71,7 @@ ms.locfileid: "44042770"
         ```
     3. 如果系统提示您安装 NuGet 提供程序，请键入 " **Y**"，然后按 Enter。
     4. 如果系统提示您从 PSGallery 安装模块，请键入**Y**，然后按 Enter。
-3. 在 Windows PowerShell 命令提示符处，运行以下脚本以向你的用户分配许可证，其中\<"公司名称：许可证>" 是你的组织名称和要分配的许可证的标识符。 例如，litwareinc： MCOMEETADV。
+3. 在 Windows PowerShell 命令提示符处，运行以下脚本以向你的用户分配许可证，其中 \<CompanyName:License> 是你的组织名称和要分配的许可证的标识符。 例如，litwareinc： MCOMEETADV。
 
     标识符与许可证的友好名称不同。 例如，音频会议的标识符是 MCOMEETADV。 若要了解详细信息，请参阅[产品名称和 SKU 标识符以获取许可](#product-names-and-sku-identifiers-for-licensing)。
 

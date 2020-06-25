@@ -17,12 +17,12 @@ description: 了解如何使用 PowerShell 允许或阻止对 Microsoft 团队�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d438b9d5cf3af8d200da07fcebe39f4222c2b25a
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 8c77b34103913d850b29c84096251b3b2795f684
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637301"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44867979"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制对团队的来宾访问
 ================================================
@@ -35,7 +35,7 @@ ms.locfileid: "44637301"
 
 - 允许或阻止来自特定团队或 Microsoft 365 组的来宾用户
 
-有关详细信息，请参阅在[Microsoft 365 组中管理来宾访问](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access)中的 "使用 PowerShell 控制来宾访问"。
+有关详细信息，请参阅在[Microsoft 365 组中管理来宾访问](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)中的 "使用 PowerShell 控制来宾访问"。
 
   
 你还可以使用 PowerShell 根据来宾用户的域允许或阻止来宾用户。 例如，假定你的企业 (Contoso) 与另一家企业 (Fabrikam) 有合作关系。 你可以将 Fabrikam 添加到你的允许列表，以便你的用户可以将那些来宾添加到其组。 有关详细信息，请参阅[允许/阻止来宾访问 Microsoft 365 组](https://go.microsoft.com/fwlink/?linkid=854001)。

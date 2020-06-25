@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以了解 Microsoft 团队聊天室的已知问题列表，包括更新、用户界面、硬件、限制和预期行为。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e3cb46ed1ca3fde81f301ec6c2f2f8620452b389
-ms.sourcegitcommit: f63cf7fdde333a7cb36c39e9b6cdc33afd2b4601
+ms.openlocfilehash: 1083ceb040f173aeef0a8a60d56a888a6b8fdb17
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "44338222"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874449"
 ---
 # <a name="known-issues"></a>已知问题 
  
@@ -31,9 +31,10 @@ ms.locfileid: "44338222"
 
 | 问题标题 |  行为\/症状 | 已知解决方法 | 知识库文章 |
 |  ---        |      ---             |   ---            | --- |
+| 应用程序不启动 |  更新到应用程序版本4.4.41.0 后，系统将启动到黑屏，或在几分钟后转到登录屏幕。 | 请按照[Microsoft 团队聊天室应用程序在更新到版本4.4.41.0 后无法启动](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)的步骤来解决此问题。  | 无 |
 |  应用已过期         |    Microsoft Teams 会议室控制台显示“系统配置已过期”错误。                |   [使用 Microsoft Teams 会议室恢复工具](recovery-tool.md)             |  无 |
 |  设备更新为不受支持的 Windows 10 版本   |    Windows 10 设备从版本1803更新到版本1809，不受支持。 支持的版本为1903。 |   如果 DeferFeatureUpdatesPeriodinDays 设置的[组策略或 MDM 设置](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb)（允许您将功能更新推迟到指定的天数内），则可能会发生这种情况，最大为365天。 <br><br> Microsoft 团队聊天室不支持 Windows 10 版本1809，但支持版本1903。 但是，从2020年3月27日起，版本1809超过365天。 如果此设置未更改，Windows 将尝试安装版本1809，这可能会导致 Microsoft 团队聊天室出现问题。<br><br>为避免这种情况，请**删除**延迟更新的任何组策略或 MDM 设置。 这允许 Windows 更新到最新的受支持的操作系统版本。 <br><br>**重要提示**必须**删除**"组策略" 或 "MDM" 设置（未配置），并且**未设置为 "0**"。 如果该策略设置为0，则 Windows 会获得可能不受支持的最新可用版本。 |  无 |
-| 应用程序不启动 |  更新到应用程序版本4.4.41.0 后，系统会在出现问题的情况下启动到黑色屏幕，或在几分钟后转到登录屏幕。 | 请按照[Microsoft 团队聊天室应用程序在更新到版本4.4.41.0 后无法启动](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)的步骤来解决此问题。  | 无 |
+
 
 
 <a name="OS-conflicts"> </a>  

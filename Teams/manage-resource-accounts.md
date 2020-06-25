@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 在本文中，你将了解如何在 Microsoft 团队中创建、编辑和管理资源帐户。
-ms.openlocfilehash: f454658cb051ed9e918ca8a1d90c716a35933f68
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b47e00323129211f657ec1dafc4e62a7cd6e4321
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637971"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868609"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理资源帐户
 
@@ -118,7 +118,7 @@ ms.locfileid: "44637971"
 
 ![新资源帐户选项的屏幕截图](media/res-acct.png)
 
-接下来，按照[单独或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)中的说明，将许可证应用于 Microsoft 365 管理中心中的资源帐户。
+接下来，在 Microsoft 365 管理中心中对资源帐户应用许可证，如向[用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)中所述。
 
 ### <a name="edit-resource-account"></a>编辑资源帐户 
 
@@ -153,10 +153,10 @@ ms.locfileid: "44637971"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>更改现有资源帐户以使用虚拟用户许可证
 
-如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证，你将需要获取免费的虚拟用户许可证，然后按照 Microsoft 365 管理中心中的步骤[将用户移动到其他订阅](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+如果你决定将现有资源帐户上的许可证从电话系统许可证切换到虚拟用户许可证，你将需要获取免费的虚拟用户许可证，然后按照 Microsoft 365 管理中心中的步骤[将用户移动到其他订阅](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
 
 > [!WARNING]
-> 始终删除完整的电话系统许可证，并在同一许可证活动中分配虚拟用户许可证。 如果删除旧许可证，请保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再按预期运行。 如果发生这种情况，我们建议你为虚拟用户许可证创建新的资源帐户，并删除断开的资源帐户。 
+> 始终删除完整的电话系统许可证，并在同一许可证活动中分配虚拟用户许可证。 如果删除旧许可证，请保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再按预期运行。 如果发生这种情况，我们建议你为虚拟用户许可证创建新的资源帐户，并删除断开的资源帐户。
 
 ## <a name="create-a-resource-account-in-powershell"></a>在 Powershell 中创建资源帐户
 
@@ -182,7 +182,7 @@ ms.locfileid: "44637971"
     New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId "ce933385-9390-45d1-9512-c8d228074e07" -DisplayName "Resource account 1"
     ```
 
-2. 你将无法使用资源帐户，直到你向其应用许可证。 若要了解如何将许可证应用于 Microsoft 365 管理中心中的帐户，请参阅[单独或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)以及[分配 Skype for business 许可证](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
+2. 你将无法使用资源帐户，直到你向其应用许可证。 若要了解如何将许可证应用于 Microsoft 365 管理中心中的帐户，请参阅为[用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)和[分配 Skype for business 许可证](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)。
 
 3. 可选将正确的许可证应用到资源帐户后，您可以为资源帐户分配一个电话号码，如下所示。 并非所有资源帐户都需要电话号码。 如果未对资源帐户应用许可证，则电话号码分配将失败。
 

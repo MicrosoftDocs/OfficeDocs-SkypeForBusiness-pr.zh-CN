@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 为 Skype for business Server 2019 设置资源帐户。
-ms.openlocfilehash: b5397a1d179ade5e9d70d6c9cf857bae9319d155
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: f858ea5e18a7d433ca04a9a55c4c0582d5f096ce
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221132"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868429"
 ---
 # <a name="configure-resource-accounts"></a>配置资源帐户
 
@@ -84,7 +84,7 @@ Skype for Business Server 2019 混合实施仅使用电话系统提供的用于�
 
     有关此命令的更多详细信息，请参阅[ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) 。
 
-5. 将电话系统-虚拟用户或电话系统许可证分配给资源帐户。 请参阅[分配 Microsoft 团队附加许可证](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)和[将许可证分配给一个用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user)。
+5. 将电话系统-虚拟用户或电话系统许可证分配给资源帐户。 请参阅[分配 Microsoft 团队附加许可证](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses)和向[用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
 
    如果要将电话号码分配给资源帐户，现在可以使用免费电话系统-虚拟用户许可证。 这样可以在组织级别为电话号码提供电话系统功能，并允许您创建自动助理和呼叫队列功能。
 

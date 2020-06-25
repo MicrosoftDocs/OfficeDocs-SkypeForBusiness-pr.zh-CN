@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33c09a92d8c23d8bc4c13c9a131eb82733378840
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: 43535495153979642e0913c18d39581406fbf84c
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44841893"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868079"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft 团队中的安全和合规性
 
@@ -45,7 +45,7 @@ Microsoft 团队基于 Microsoft 365 和 Office 365 超大规模、企业级云�
 - [适用于安全和合规性的 Microsoft 团队控件](https://www.youtube.com/watch?v=Km4T4hMM__k)（10:54 分钟）
 
 > [!IMPORTANT]
-> 作为 Microsoft 365 或 Office 365 的客户，您拥有并控制您的数据。 除了为你提供你已订阅的服务外，Microsoft 不会将你的数据用于任何其他用途。 作为服务提供商，我们不会扫描你的电子邮件、文档或团队来做广告或用于与服务无关的用途。 Microsoft 无权访问已上载的内容。 对于 OneDrive for Business 和 SharePoint Online，客户数据位于租户中。 您可以在[Microsoft 信任中心](https://microsoft.com/trustcenter)查看有关我们的信任和安全相关信息的更多信息。 团队遵循与 Microsoft 信任中心相同的指南和原则。
+> 作为 Microsoft 365 或 Office 365 的客户，您拥有并控制您的数据。 除了为你提供你已订阅的服务外，Microsoft 不会将你的数据用于任何其他用途。 作为服务提供商，我们不会扫描你的电子邮件、文档或团队来做广告或用于与服务无关的用途。 Microsoft 无权访问已上载的内容。 与 Microsoft 365 中的 OneDrive 和 SharePoint 一样，客户数据仍位于租户内。 您可以在[Microsoft 信任中心](https://microsoft.com/trustcenter)查看有关我们的信任和安全相关信息的更多信息。 团队遵循与 Microsoft 信任中心相同的指南和原则。
 
 ## <a name="security"></a>安全性
 
@@ -60,7 +60,7 @@ Microsoft 团队基于 Microsoft 365 和 Office 365 超大规模、企业级云�
 
 ### <a name="advanced-threat-protection-atp"></a>高级威胁防护（ATP）
 
-高级威胁防护（ATP）可用于 Microsoft 团队，以及 SharePoint 和 OneDrive for Business 以及与内容管理团队集成的应用程序。 ATP 允许你确定这些应用程序中的内容是否具有恶意性质，并阻止用户访问此内容。
+高级威胁防护（ATP）适用于 Microsoft 团队，以及 SharePoint 和 OneDrive，与内容管理团队集成的应用程序。 ATP 允许你确定这些应用程序中的内容是否具有恶意性质，并阻止用户访问此内容。
 
 在检测到 Microsoft 365 或 Office 365 中所选设置后，受影响内容的管理方式。 我们强烈建议你在配置 ATP 时考虑所有应用程序，若要进一步阅读， [SharePoint、OneDrive 和 Microsoft 团队](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)文章的 ATP 将提供有关如何开始使用的详细信息。
 
@@ -70,13 +70,13 @@ Microsoft 团队基于 Microsoft 365 和 Office 365 超大规模、企业级云�
 
 ### <a name="safe-attachments"></a>安全附件
 
-安全附件是一种旨在通过检查和检测恶意附件来增强用户安全的功能。 全局或安全管理员创建用于处理这些可疑的恶意附件的[策略](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)，以防止这些附件被发送到用户、单击和操作。 安全附件保护适用于 SharePoint Online、OneDrive for business 和 Microsoft 团队，Microsoft 365 或 Office 365[高级威胁防护计划1和 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)具有此功能。 请阅读有关安全附件的详细信息，以及这些附件如何帮助保护您[的组织。](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
+安全附件是一种旨在通过检查和检测恶意附件来增强用户安全的功能。 全局或安全管理员创建用于处理这些可疑的恶意附件的[策略](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide)，以防止这些附件被发送到用户、单击和操作。 SharePoint、OneDrive 和 Microsoft 团队提供安全附件保护，Microsoft 365 或 Office 365[高级威胁防护计划1和 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)具有此功能。 请阅读有关安全附件的详细信息，以及这些附件如何帮助保护您[的组织。](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>条件访问策略适用于团队的方式
 
-Microsoft 团队很大程度上依赖于 Exchange Online、SharePoint Online 和 Skype for Business Online，以获得核心生产力方案，如会议、日历、互操作聊天和文件共享。 为这些云应用设置的条件访问策略在用户直接登录到 Microsoft 团队（在任何客户端上）时适用于 Microsoft 团队。
+Microsoft 团队很大程度上依赖于 Exchange Online、SharePoint 和 Skype for business Online，以便获得核心生产力方案，如会议、日历、互操作聊天和文件共享。 为这些云应用设置的条件访问策略在用户直接登录到 Microsoft 团队（在任何客户端上）时适用于 Microsoft 团队。
 
-Microsoft 团队作为 Azure Active Directory 条件访问策略中的云应用单独受支持。 为 Microsoft 团队云应用设置的条件访问策略在用户登录时适用于 Microsoft 团队。 但是，如果在其他应用（如 Exchange Online 和 SharePoint Online）上没有正确的策略，用户可能仍然能够直接访问这些资源。 有关在 azure 门户中设置条件访问策略的详细信息，请转到： [Azure Active Directory 快速入门](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
+Microsoft 团队作为 Azure Active Directory 条件访问策略中的云应用单独受支持。 为 Microsoft 团队云应用设置的条件访问策略在用户登录时适用于 Microsoft 团队。 但是，如果在其他应用（如 Exchange Online 和 SharePoint）上没有正确的策略，用户可能仍然能够直接访问这些资源。 有关在 azure 门户中设置条件访问策略的详细信息，请转到： [Azure Active Directory 快速入门](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
 
 适用于 Windows 和 Mac 的 Microsoft 团队桌面客户端支持新式身份验证。 新式身份验证通过平台将基于 Azure Active Directory 身份验证库（ADAL）的登录引入 Microsoft Office 客户端应用程序。
 
@@ -153,7 +153,7 @@ Microsoft 团队中的数据丢失防护（DLP），以及 Microsoft 365 或 Off
 
 ### <a name="auditing-and-reporting"></a>审核和报告
 
-审核日志搜索直接插入 Microsoft 365 合规性中心，并使你能够通过导出特定于工作负荷的事件集或常规事件集来针对无限制审核日程表进行管理和调查，从而设置警报以及报告审核事件。 你可以为 Microsoft 365 合规中心内的所有审核日志数据设置通知，并筛选和导出此数据以进行进一步分析。 请参阅[搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，了解有关如何为 Microsoft 365 或 Office 365 执行审核日志的详细信息。 若要了解有关在 Microsoft 365 合规中心中搜索 Microsoft 团队事件的详细信息，我们还提供团队文章中的 "[启用审核](audit-log-events.md)"，供你查看。
+审核日志搜索直接插入 Microsoft 365 合规性中心，并使你能够通过导出特定于工作负荷的事件集或常规事件集来针对无限制审核日程表进行管理和调查，从而设置警报以及报告审核事件。 你可以为 Microsoft 365 合规中心内的所有审核日志数据设置通知，并筛选和导出此数据以进行进一步分析。 请参阅[搜索审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)文章，了解有关如何对 Microsoft 365 或 Office 365 执行审核日志搜索的详细信息。 若要了解有关在 Microsoft 365 合规中心中搜索 Microsoft 团队事件的详细信息，我们还提供团队文章中的 "[启用审核](audit-log-events.md)"，供你查看。
 
 ## <a name="privacy"></a>隐私
 
@@ -197,6 +197,8 @@ Microsoft 团队中的数据丢失防护（DLP），以及 Microsoft 365 或 Off
 
 ## <a name="related-topics"></a>相关主题
 
-[Microsoft 365 安全](https://docs.microsoft.com/microsoft-365/security/) 
-[Microsoft 365 合规性](https://docs.microsoft.com/microsoft-365/compliance/) 
+[Microsoft 365 安全](https://docs.microsoft.com/microsoft-365/security/)
+
+[Microsoft 365 合规性](https://docs.microsoft.com/microsoft-365/compliance/)
+
 [Microsoft 合规性服务](https://docs.microsoft.com/microsoft-365/compliance/offering-home)

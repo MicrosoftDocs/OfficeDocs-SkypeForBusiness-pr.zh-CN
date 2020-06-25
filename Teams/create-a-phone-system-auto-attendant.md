@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 94bbc68ca8a9b89d2ae8c9931ca57b17f761ae90
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0cdba07297e22b116bbfe120f4d1e5640ee9a892
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697444"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44874252"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
 
@@ -220,7 +220,7 @@ ms.locfileid: "44697444"
 
 > [!IMPORTANT]
 > 请注意以下事项：
->- 希望可供拨号使用的用户需要将扩展指定为在 Active Directory 或 Azure Active Directory [Microsoft 365 管理中心](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)中定义的以下某个电话属性的一部分。
+>- 希望可供拨号使用的用户需要将扩展指定为在 Active Directory 或 Azure Active Directory 中定义的以下某个电话属性的一部分（有关详细信息，请参阅 [逐个添加用户或批量添加用户]） https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 。
 >    - HomePhone
 >    - 手机/MobilePhone
 >    - TelephoneNumber/电话号码

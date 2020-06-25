@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfa4e89753848ece4b4737f7679333f8c01366a7
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665984"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868519"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft 团队中的团队过期和续订
 
 具有大量团队的组织通常会有团队，这些团队永远不会真正使用。 出现这种情况的原因有多种，其中包括产品实验、短期团队协作或团队所有者离开组织。 随着时间的推移，此类团队可以积累和创造对租户资源的负担。  
 
-若要将未使用的团队的数量与管理员进行路管理，您可以使用[Microsoft 365 组过期策略](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy)自动清理未使用的团队。 由于团队由组支持，组过期策略也会自动应用到团队。
+若要将未使用的团队的数量与管理员进行路管理，您可以使用[Microsoft 365 组过期策略](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)自动清理未使用的团队。 由于团队由组支持，组过期策略也会自动应用到团队。
 
 当你将过期策略应用到团队时，团队所有者将在团队的到期日期之前的30天、15天和1天内收到团队续订通知。 当团队所有者收到通知时，他们可以单击 "团队设置" 中的 "**立即续订**" 以续订团队。
 

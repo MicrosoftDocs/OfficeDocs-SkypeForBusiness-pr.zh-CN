@@ -16,12 +16,12 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 7ec22f179ce56c25955db824a0358a5550cdcfbb
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: b1f031a538872aac7bf0891c6dc56886f7eae048
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610951"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868439"
 ---
 # <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>购买 Microsoft 365 Business Voice 所需的管理员权限
 
@@ -45,4 +45,4 @@ ms.locfileid: "44610951"
 
 ## <a name="what-if-im-still-having-trouble"></a>如果仍然遇到问题，该怎么办？
 
-如果您已检查上述所有原因，但仍无法购买业务语音，请[联系支持人员](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)寻求帮助。
+如果您已检查上述所有原因，但仍无法购买业务语音，请参阅[联系业务产品支持-管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)。

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f2a52c9bce6269ec7ddd69e4923a011cf3b6872
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 12d9db8cfc765efbb516fb4b53010d51d8e4e3a7
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523105"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868449"
 ---
 # <a name="plan-for-your-upgrade"></a>规划升级
 
@@ -33,9 +33,13 @@ ms.locfileid: "44523105"
 
 正常的技术环境、持续的用户使用情况以及所有业务目标的实现均以正确的规划开始。 实体计划为你的升级项目提供了一个框架，确保所有利益干系人都能达到相同的目标。 通过花费时间来正确定义成功，你可以在你的部署过程中测量结果，并验证你是否正在获得所需的结果。 规划旅行包括：
 
-- [登记项目利益干系人](upgrade-enlist-stakeholders.md)。
-- [定义项目的范围](https://aka.ms/SkypetoTeams-Scope)。
-- [了解 Skype For business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)。
+- [登记项目利益干系人](upgrade-enlist-stakeholders.md)
+- [定义项目的范围](https://aka.ms/SkypetoTeams-Scope)
+- [了解 Skype for Business 和团队的共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)
+- [根据业务需求选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [规划用户试点](pilot-essentials.md)
+
+计划旅行后，您将在[实施升级](upgrade-to-teams.md)之前阅读有关[准备环境](upgrade-prepare-environment.md)和[准备组织](upgrade-prepare-organization.md)的主题。  
 
 > [!TIP]
 > 加入我们的现场互动式研讨会，我们将分享指导、最佳做法和资源，旨在开始升级规划和实施。

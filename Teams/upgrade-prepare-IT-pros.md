@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9388b9933a21bb36f28c4175836d56daab07faf6
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666214"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868139"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>为 Microsoft 团队准备 IT 员工
 
@@ -42,7 +42,7 @@ ms.locfileid: "44666214"
 与您的 IT 教职员工成员共享以下资源，并确认他们准备好在您开始升级到团队之前支持用户：
 
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
-- [联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 - [使用 Microsoft Teams 客户端解决连接性问题](connectivity-issues.md)
 - [在对 Microsoft Teams 进行故障排除时使用日志文件](log-files.md)
 

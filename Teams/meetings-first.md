@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e2ca0b4088a7855da8cf2bc5196ecc9f2082475
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 58f8424342fa609124a3b658fbde9d7d297d7b44
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637941"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868469"
 ---
 # <a name="meetings-first"></a>会议优先
 
@@ -82,7 +82,7 @@ ms.locfileid: "44637941"
 
 为获得最佳会议首次体验，应为用户启用[Exchange Online](exchange-teams-interact.md)、 [SharePoint online 和 OneDrive For](sharepoint-onedrive-interact.md)business 以及 Microsoft 365 组创建。 只有邮箱位于本地 Exchange 的用户或没有 SharePoint Online 或 OneDrive for Business 的用户或 Microsoft 365 组创建时，才支持会议优先。 但是，其体验将不会很完整。 特别是，对于使用 Exchange Server 本地版的组织，可能有一些限制：创建和查看来自团队客户的会议以及与合规性功能相关。
 
-至少，用户必须获得[团队许可](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)。 此外，如果需要，可以为[音频会议](set-up-audio-conferencing-in-teams.md)授权。
+至少，用户必须获得[团队许可](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。 此外，如果需要，可以为[音频会议](set-up-audio-conferencing-in-teams.md)授权。
 
 我们建议你在为用户授权时，将[ **SfBOnly**或**SfBWithTeamsCollab**模式授予](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)租户默认值。 这可确保在你准备好开始会议之前，用户将不会在默认的 "**岛**" 模式下使用团队。
 

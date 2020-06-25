@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：了解在安装累积更新1之后，如何使用 PowerShell 获取 Skype for Business Server 2019 中的 SEFAUtil 功能。
-ms.openlocfilehash: 24040a3da5dc2549996463078a55324f3fc03657
-ms.sourcegitcommit: 000515147632c6278bcda4505a1038014dda8e2f
+ms.openlocfilehash: 19c3ba1124bbc1f32f301096036404f8bd101fe9
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44232553"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868549"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>在 Skype for business Server 2019 中通过 PowerShell 使用 SEFAUtil 功能
 
@@ -103,7 +103,7 @@ SEFAUtil （辅助扩展功能激活）使 Skype for Business Server 管理员�
 - CsHelpDesk-获取所有 cmdlet
 
 有关这些管理员角色的详细信息，请参阅[创建 Skype For Business Server 控制面板管理员](../SfbServer/help-topics/help-depwiz/create-skype-for-business-server-control-panel-administrators.md)。 管理员可以通过直接或远程登录到服务器计算机来访问这些 cmdlet。
-对于混合部署，Skype for Business 管理员应能够调用所有 cmdlet 的 Get 和 Set。 有关完整角色列表的详细信息，请参阅[关于管理员角色](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)
+对于混合部署，Skype for Business 管理员应能够调用所有 cmdlet 的 Get 和 Set。 有关完整角色列表的详细信息，请参阅[关于管理员角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)。
 
 > [!NOTE]
 > 必须启用服务器自动发现。 不会引入使用 cmdlet 的其他许可要求。

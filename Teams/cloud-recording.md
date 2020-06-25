@@ -16,12 +16,12 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3fd2a8c7c34b52b8724d72110e281e754d9c02b0
-ms.sourcegitcommit: d664ef6994e242bf18a29dac31286c78c163478a
+ms.openlocfilehash: 97fa736a1f2277dbd9da2305b75bf16b26d34e73
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "44710806"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874409"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -76,7 +76,7 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 
 借助 PowerShell，你可以配置 TeamsMeetingPolicy 中的 AllowCloudRecording 设置。 若要了解详细信息，请参阅[New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) 和 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 
-请注意，会议组织者和录制发起人均需具有录制会议所需的录制权限。 除非你已为用户分配了自定义策略，否则用户将获得全局策略，该策略默认禁用 AllowCloudRecording。
+请注意，会议组织者和录制发起人均需具有录制会议所需的录制权限。 除非已向用户分配了自定义策略，否则用户将获取全局策略，默认情况下，该策略启用 AllowCloudRecording。
 
 > [!NOTE]
 > 有关使用团队角色配置谁有权录制会议的详细信息，请参阅[团队会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。

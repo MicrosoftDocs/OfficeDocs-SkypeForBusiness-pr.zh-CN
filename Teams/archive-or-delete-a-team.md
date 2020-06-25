@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 907138205d4d5e7be1933f00f0a7ace0340d858f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611001"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868699"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 ===========================================
@@ -72,7 +72,7 @@ ms.locfileid: "44611001"
 
 通过还原与团队相关联的 Microsoft 365 组，请按照以下步骤还原已删除的团队。 还原团队的 Microsoft 365 组将恢复团队内容，包括选项卡、标准频道和专用频道及其关联的网站集。
 
-默认情况下，已删除的 Microsoft 365 组将保留30天。 这 30 天时间被称为“软删除”，因为还可以对组进行还原。 若要了解详细信息，请参阅[还原已删除的 Microsoft 365 组](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group)。
+默认情况下，已删除的 Microsoft 365 组将保留30天。 这 30 天时间被称为“软删除”，因为还可以对组进行还原。 若要了解详细信息，请参阅[还原已删除的组](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安装 AzureADPreview 模块
 

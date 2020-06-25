@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '了解如何试用或购买适用于 Microsoft 365 或 Office 365 的音频会议（PSTN 会议）许可证来设置用户可以拨入的电话会议。 '
-ms.openlocfilehash: db49a690ef0936dc22a618756d15064543074137
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691538"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868529"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 Microsoft 团队的 Microsoft 365 中试用或购买音频会议
 
@@ -52,7 +52,7 @@ ms.locfileid: "44691538"
 
    - **购买**：请参阅[Microsoft 团队附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-3. [将用户逐个或批量地添加](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)到组织中打算安排或主持会议的人员。
+3. [将许可证分配](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)给组织中打算安排或主持会议的用户。
 
 4. 如果购买了音频会议外接程序许可证和通信点数许可证，也要分配它们。 有关说明，请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
@@ -69,7 +69,7 @@ ms.locfileid: "44691538"
     > [!IMPORTANT]
     > 如果通信点数尚未设置，音频会议就不能供任何持有按每分钟付费许可证的用户使用。
 
-4. [将用户逐个或批量地添加](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)到组织中打算安排或主持会议的人员。
+4. [将许可证分配](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)给组织中打算安排或主持会议的用户。
 
     > [!NOTE]
     > 如果你有按分钟付费的音频会议许可证，无需专门为使用音频会议而将通信点数许可证单独分配给每个用户（对于其他服务，可能仍然需要对其进行分配）。

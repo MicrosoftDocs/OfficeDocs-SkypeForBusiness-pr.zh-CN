@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 了解如何为组织中的资源帐户分配免费的电话系统-虚拟用户许可证或付费电话系统用户许可证。
-ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 00c3463aa933b4d91308fee85d362c4c4807cf69
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042409"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868649"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 电话系统-虚拟用户许可证
 
@@ -47,25 +47,25 @@ ms.locfileid: "44042409"
 
 ### <a name="license-allocation-example"></a>许可证分配示例
 
-Contoso，Inc. 购买了包括电话系统的600许可证（每个员工一个）。 Contoso 已被分配了一个初始25加 60 Microsoft 365 电话系统-总共是虚拟用户许可证-85。 其组织拥有具有电话号码的90通话队列和自动助理。 他们需要分配所有 Microsoft 365 Phone 系统-虚拟用户许可证，并获得五个常规价格的电话系统许可证。 
+Contoso，Inc. 购买了包括电话系统的600许可证（每个员工一个）。 Contoso 已被分配了一个初始25加 60 Microsoft 365 电话系统-总共是虚拟用户许可证-85。 其组织拥有具有电话号码的90通话队列和自动助理。 他们需要分配所有 Microsoft 365 Phone 系统-虚拟用户许可证，并获得五个常规价格的电话系统许可证。
 
-Contoso 应考虑重新设计自动助理和呼叫队列系统。 如果他们使用较少的电话号码和更多不需要电话号码的嵌套节点，它们将简化实施并降低成本。 
+Contoso 应考虑重新设计自动助理和呼叫队列系统。 如果他们使用较少的电话号码和更多不需要电话号码的嵌套节点，它们将简化实施并降低成本。
 
-## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>如何购买 Microsoft 365 Phone 系统-虚拟用户许可证 
+## <a name="how-to-buy-microsoft-365-phone-system--virtual-user-licenses"></a>如何购买 Microsoft 365 Phone 系统-虚拟用户许可证
 
 1. 登录到 Microsoft 365 管理中心。
-2. 转到**帐单** > **购买服务** > **加载项**
+2. 转到**帐单**  >  **购买服务**  >  **加载项**
 3. 滚动到 "结束" 以查找**Microsoft 365 Phone System-虚拟用户**许可证。 选择 "**立即购买**"。
 
 > [!NOTE]
-> 请记住，您仍然必须**购买**许可证，即使其成本为零。 
+> 请记住，您仍然必须**购买**许可证，即使其成本为零。
 
 ## <a name="change-an-existing-resource-account-to-use-a-microsoft-365-phone-system--virtual-user-license"></a>将现有资源帐户更改为使用 Microsoft 365 Phone 系统–虚拟用户许可证
 
-如果你决定将资源帐户中的许可证从电话系统许可证切换到 Microsoft 365 Phone 系统-虚拟用户许可证： 
+如果你决定将资源帐户中的许可证从电话系统许可证切换到 Microsoft 365 Phone 系统-虚拟用户许可证：
 
-1. 获取新的 Microsoft 365 Phone 系统-虚拟用户许可证。 
-2. 按照 Microsoft 365 管理中心中的链接步骤[将用户移动到其他订阅](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription)。 
+1. 获取新的 Microsoft 365 Phone 系统-虚拟用户许可证。
+2. 按照 Microsoft 365 管理中心中的链接步骤[将用户移动到其他订阅](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
 
 > [!WARNING]
 > 始终删除完整的电话系统许可证，并分配 Microsoft 365 Phone 系统-虚拟用户许可证在同一许可证活动中。 如果删除旧许可证，请保存帐户更改，添加新许可证，然后再次保存帐户设置，资源帐户可能不再按预期运行。 如果发生这种情况，我们建议你为 Microsoft 365 Phone 系统创建新的资源帐户-虚拟用户许可证并删除断开的资源帐户。 

@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b804916609b121ba02a048d1763c4181fb5d0a63
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ef4ff711aa385c062ca6d507363b4d1a1a5d88e4
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691018"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868560"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -200,7 +200,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 在提交应用之前，请确保遵循徽标指南。 若要了解详细信息，请参阅[卖方仪表板提交清单](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)。 
 
- ## <a name="related-topics"></a>相关主题
+## <a name="related-topics"></a>相关主题
 
 - [Teams 中适用于应用的管理设置](admin-settings.md)
 - [向团队中的用户分配策略](assign-policies.md)

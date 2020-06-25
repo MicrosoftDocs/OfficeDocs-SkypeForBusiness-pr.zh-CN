@@ -17,12 +17,12 @@ description: 了解如何在 Microsoft 团队管理中心的 "管理应用" 页�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ea73b460fee758a45f19d6acbd5ff8172e2b8304
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: d4abedbd24f9f0211a66b0890fe9d3db2fc977cd
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006038"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868479"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理你的应用
 ======================================================
@@ -31,7 +31,7 @@ ms.locfileid: "44006038"
 
 "**管理应用**" 页面为你提供租户目录中所有可用应用的视图，为你提供了确定要在组织中允许或阻止哪些应用的信息。 然后，你可以使用[应用权限策略](teams-app-permission-policies.md)、[应用设置策略](teams-app-setup-policies.md)和[自定义应用策略和设置](teams-custom-app-policies-and-settings.md)来为你的组织中的特定用户配置应用体验。
 
-在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用** > **管理应用**"。 您必须是全局管理员或团队服务管理员才能访问该页面。
+在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **管理应用**"。 您必须是全局管理员或团队服务管理员才能访问该页面。
 
 ## <a name="view-apps-in-your-tenant-app-catalog"></a>查看租户应用程序目录中的应用
 
@@ -41,11 +41,12 @@ ms.locfileid: "44006038"
 
 - **名称**：应用名称。 单击应用名称以查看有关应用的详细信息。 其中包括应用的说明，无论它是允许还是阻止、应用于应用的版本、认证状态、支持的功能和应用 ID。 下面是一个示例：<br> 
 ![应用的 "应用详细信息" 页面的屏幕截图](media/manage-apps-app-details.png)
-- **认证**：如果应用已通过认证，你将看到**Microsoft 365 认证**或**发布商证明**。 单击链接以查看应用的认证详细信息。 如果你看到 "**--**"，则表示没有适用于该应用的认证信息。 若要了解有关团队中已认证应用的详细信息，请参阅[Microsoft 365 应用认证计划](https://docs.microsoft.com/teams-app-certification/all-apps)。  
+- **认证**：如果应用已通过认证，你将看到**Microsoft 365 认证**或**发布商证明**。 单击链接以查看应用的认证详细信息。 如果你看到 " **--** "，则表示没有适用于该应用的认证信息。 若要了解有关团队中已认证应用的详细信息，请参阅[Microsoft 365 应用认证计划](https://docs.microsoft.com/teams-app-certification/all-apps)。  
 - **类别**：应用于应用的类别。
 - **应用状态**： "组织" 级别的应用状态，可为下列之一：
     - **允许**：应用可用于你的组织中的所有用户。
-    - 已**阻止**：应用被阻止，不能用于你的组织中的任何用户。<br>
+    - 已**阻止**：应用被阻止，不能用于你的组织中的任何用户。
+    - **被阻止的组织范围**：应用在组织范围内的应用设置中被阻止。 <br>
 请务必了解，此列表示以前位于**组织范围设置**窗格中的应用的 "允许" 和 "已阻止" 状态。 现在，你可以在 "**管理应用**" 页面上的组织范围内查看、阻止和允许应用。 
 - **版本**：应用版本。
 
@@ -82,12 +83,12 @@ ms.locfileid: "44006038"
     
 2. 在 "**第三方应用**" 下，关闭或打开这些设置以控制对第三方应用的访问：
 
-    - **允许团队中的第三方应用**：这将控制用户是否可以使用第三方应用。 如果关闭此设置，你的用户将无法安装或使用任何第三方应用。 对于你允许的应用，状态显示为 "**允许"，但已禁用 "组织范围**"。              
+    - **允许第三方应用**：此操作控制用户是否可以使用第三方应用。 如果关闭此设置，你的用户将无法安装或使用任何第三方应用，并且这些应用的应用状态在表格中显示为**阻止的组织范围**。
 
         > [!NOTE]
         > 在 Microsoft 365 政府版团队部署中，默认情况下 "**允许团队中的第三方应用**" 设置处于关闭状态。
 
-        当**允许团队中的第三方应用**处于关闭状态时，将禁用[传出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，这意味着用户无法创建它们。 当此设置处于打开状态时，将为所有用户启用传出 webhooks，无论用户是否在用户的应用权限策略中打开或关闭该设置。
+        当 "**允许第三方应用**" 关闭时，将禁用[传出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，这意味着用户无法创建它们。 当此设置处于打开状态时，将为所有用户启用传出 webhooks，无论用户是否在用户的应用权限策略中打开或关闭该设置。
     - **默认情况下允许发布到应用商店的任何新第三方应用**：这将控制发布到团队应用商店的新的第三方应用是否会自动在团队中可用。 仅当你允许第三方应用时，你才能设置此选项。
 
 3. 在 "**自定义应用**" 下，关闭或打开 "**允许与自定义应用交互**"。 此设置控制用户是否可以与自定义应用交互。 若要了解详细信息，请参阅[管理团队中的自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。

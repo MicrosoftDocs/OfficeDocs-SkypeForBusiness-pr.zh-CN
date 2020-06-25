@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1577000dfe1adcdbc7c1bb0c03ce6c90aa3b29f
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e883a71d22a8af6c2af6eee8cdbd30e5b618f4dc
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666284"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868639"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>为 Microsoft Teams 采用优化反馈和报告功能
 
@@ -57,7 +57,7 @@ ms.locfileid: "44666284"
 部署和采用 Microsoft 团队时，应查看三种类型的报告：
 
 - [服务运行状况](https://status.office365.com/)-从 Microsoft 365、Office 365 和内部 IT 支持部门。
-- [服务活动](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide)-来自 microsoft 365 或 Office 365 查看[有关 microsoft 团队的报告](https://docs.microsoft.com/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide)。 您还可以使用您的组织内的其他系统中的信息。
+- [管理中心中的 microsoft 365 报表](https://docs.microsoft.com/microsoft-365/admin/activity-reports/activity-reports)-从 microsoft 365 或 Office 365 查看[管理中心中的 microsoft 365 报表-microsoft 团队用户活动](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 您还可以使用您的组织内的其他系统中的信息。
 - 服务满意度-从内部社区论坛和调查收集到特定体验
 
 ![表示下一步骤的图标 ](media/teams-adoption-next-icon.png) ：[驱动器感知和实施培训](teams-adoption-drive-awareness.md)
