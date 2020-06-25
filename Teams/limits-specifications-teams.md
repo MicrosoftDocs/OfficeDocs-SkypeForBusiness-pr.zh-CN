@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 04df18735e04ee4c0fbc29d5cf8b4c2f6148b926
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 935be9902accbd575c9795a667943a6810aec6e3
+ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753862"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "44841903"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -111,7 +111,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 |功能     | 最大限制 |
 |------------|---------------|
-|会议中的人数（可聊天和通话）  | 250    |
+|会议中的人数（可聊天和通话）  | 300 <br><br>**注意：** 对于 Teams 政府版（GCC、GCC 高、DoD），该限制仍然为 250。 政府云限制从 250 增加到 300 时，我们会更新此文章。   |
 |通过视频或音频通话聊天的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |

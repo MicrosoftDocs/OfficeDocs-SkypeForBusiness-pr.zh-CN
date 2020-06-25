@@ -18,12 +18,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae4b4c06d6340c89cf41e271db8bcd359f27d211
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 424798b7f9acf1445510eb6a072631dda9501307
+ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689728"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "44854104"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -67,6 +67,14 @@ ms.locfileid: "44689728"
 
 > [!IMPORTANT]
 > 未经身份验证的匿名用户不能被邀请为 Teams 实时 事件中的“制作者”或“演示者”。
+
+若要让来宾出席直播活动，请执行下列操作：
+
+1. [将该用户作为来宾添加到团队](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
+2. 让该用户接受来宾邀请并加入团队。
+3. [安排直播活动并将来宾添加到活动组](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
+
+作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。 没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。 为便于用户加入活动，制作者可将活动链接发布到相应频道。 演示者随后可以打开 Teams，转到该频道，然后单击链接以加入该活动。 
 
 ## <a name="who-can-watch-live-events"></a>谁可以观看实时事件
 
@@ -117,7 +125,7 @@ ms.locfileid: "44689728"
 |实时辅助字幕与字幕 |&#x2714; |&#x2714; |&#x274C; |
 |实时事件录制字幕 |&#x2714; |&#x2714; |&#x2714; |
 |与会者 DVR 控件（暂停、后退） |&#x2714; |&#x2714; |&#x2714; |
-|合作伙伴 eCDN 支持 |&#x2714; (Kollective, Ramp) |&#x2714; (Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|合作伙伴 eCDN 支持 |&#x2714;（Kollective、Hive） |&#x2714;（Kollective、Hive） |&#x2714; (Hive, Kollective, Ramp) |
 |制作者直播后受众报告 |&#x2714; |&#x2714; |&#x274C; |
 |受众情绪分析 – 实时投票和民意调查 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 

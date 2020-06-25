@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: 6a77e98a75497d8608f0b85ad1a52d3fed8d153b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0de34afb93093a1385dc8c0e4bca078e485e6887
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691308"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868109"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -128,10 +128,9 @@ Teams 支持从 Web 到桌面直至移动客户端的多种客户端，默认配
 |是否要为我的组织自定义 Teams 客户端设置？|了解如何[使用 MSI 安装 Teams](msi-deployment.md)。|
 |||
 
-
 ### <a name="teams-usage-reporting"></a>Teams 使用情况报告
 
-全局管理员、Teams 服务管理员和报表阅读者角色可以查看 Teams 使用情况报告。 若要了解详细信息，请参阅 [Microsoft 365 使用情况分析](https://docs.microsoft.com/office365/admin/usage-analytics/usage-analytics?redirectSourcePath=%252farticle%252fMicrosoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f&view=o365-worldwide)文章。
+全局管理员、Teams 服务管理员和报表阅读者角色可以查看 Teams 使用情况报告。 若要了解详细信息，请参阅 [Microsoft 365 使用情况分析](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics)。
 
 |询问你自己|操作 |
 |------------|-------|

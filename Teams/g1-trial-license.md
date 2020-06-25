@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 97f7e653e345c8e2448f0519087c5f6eb6b600d1
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042809"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868537"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理适用于美国政府的 Office 365 G1 试用版 
 ==============================
@@ -78,7 +78,7 @@ ms.locfileid: "44042809"
 
   - 如果要通过 PowerShell 删除此许可证，请参阅： [使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-  - 如果要通过管理门户删除此许可证，请参阅： [在 Office 365 中删除用户许可证](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+  - 如果要通过管理门户删除此许可证，请参阅： [从组织删除用户](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="related-topics"></a>相关主题
 

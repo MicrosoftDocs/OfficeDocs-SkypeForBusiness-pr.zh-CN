@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02a17077864850ffe06bbb293848868e9147f9f8
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 16827d1b90ea07fcd84be286e03f3d3b22a55bd1
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611021"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868629"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>创建商业语音用户并提供许可证，然后为其分配电话号码
 
@@ -30,7 +30,7 @@ ms.locfileid: "44611021"
 
 ## <a name="create-and-license-users"></a>创建用户并向其授予许可
 
-按照“[将用户单独或批量添加到](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)” 中的步骤。
+请按照[逐一或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)中的步骤，并[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 > [!NOTE]
 > 在“**分配产品许可证**”窗格中，选择 **:::no-loc text="Microsoft 365 Business Voice":::**。
