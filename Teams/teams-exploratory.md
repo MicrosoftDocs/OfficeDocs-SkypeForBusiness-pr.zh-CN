@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a342c27c7379ed11e691098fe309fe4e429cb1e0
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 99017e63ae784c7c4271454829198c7c06ecfe8e
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785298"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868459"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -154,7 +154,7 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 - 如果要通过 PowerShell 删除此许可证，请参阅：[使用 Office 365 PowerShell 删除用户帐户的许可证](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-- 如果要通过管理门户删除此许可证，请参阅[从组织删除用户](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)
+- 如果要通过管理门户删除此许可证，请参阅[从组织删除用户](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 体验持续多长时间？
 
