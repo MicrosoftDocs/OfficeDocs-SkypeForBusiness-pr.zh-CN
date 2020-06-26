@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32e231fbcef2991e13ec5b496e6ed61eb677ee20
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 2d6e4e8989bf26e4a907deec550d18f344728129
+ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665754"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "44868299"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>使用新式验证登录 Microsoft Teams
 ==========================
@@ -59,6 +59,44 @@ Microsoft Teams 使用新式验证保持登录体验简单而安全。 若要了
 
 在 MacOS 上，Teams 将提示用户输入其用户名和凭据，并且可能会根据组织的设置提示进行多重身份验证。 用户输入其凭据后，他们无需再次提供凭据。 此后，只要是在同一台计算机上工作，Teams 都将自动启动。
 
+## <a name="teams-for-ios-and-android-users"></a>iOS 和 Android 版 Teams 用户
+
+登录时，移动用户将看到当前已登录的或其设备上以前登录的所有 Microsoft 365 帐户的列表。 用户可点击任意帐户进行登录。 移动登录有两种方案：
+    
+1. 如果所选帐户当前已登录到其他 Office 365 或 Microsoft 365 应用，则用户将直接进入 Teams。 用户无需输入其凭据。
+    
+2. 如果用户未在其他任何位置登录到其 Microsoft 365 帐户，则系统会要求他们提供单因素或多重身份验证（SFA 或 MFA），具体取决于你的组织已针对”移动登录”策略配置的内容。
+
+### <a name="adding-multiple-accounts-to-teams"></a>添加多个帐户至 Teams
+
+IOS 和 Android 版 Teams 支持将多个帐户从单个设备添加到 Teams。 以下图像显示用户如何在 Teams 中添加多个帐户。
+    
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="添加多个帐户至 Teams 中":::
+
+### <a name="use-enterprise-mobility-management-to-control-which-accounts-can-sign-in-to-teams"></a>使用企业移动性管理来控制可登录 Teams 的帐户
+
+IOS 和 Android 版 Teams 向 IT 管理员提供将帐户配置推送到 Microsoft 365 帐户的功能。 此功能适用于使用 [托管应用配置](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html) 通道（适用于iOS）或 [ Android Enterprise ](https://developer.android.com/work/managed-configurations) 通道（适用于Android）的任何移动设备管理（MDM）提供商。
+
+对于已注册 Microsoft Intune 的用户，可以使用 Azure 门户中的 Intune 部署帐户配置设置。
+
+在 MDM 提供程序中设置帐户设置配置后，用户注册其设备后，iOS 和 Android 版 Teams 将仅显示 Teams 登录页面上的允许帐户。 用户可以在此页面上点击任何允许的帐户来登录。
+
+在 Azure Intune 门户中为托管设备设置以下配置参数。
+
+
+|平台 |密钥  |值  |
+|---------|---------|---------|
+|iOS     |  **IntuneMAMAllowedAccountsOnly**       | **启用**：唯一允许的帐户是 IntuneMAMUPN 密钥定义的托管用户帐户。<br> **禁用**（或者与**启用**不匹配的任何区分大小写的值）：允许任何帐户。        |
+|iOS     |   **IntuneMAMUPN**      |   允许登录到 Teams 的帐户的 UPN。<br> 对于注册 Intune 的设备，{{userprincipalname}}令牌可用于代表已注册的用户帐户。       |
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    仅允许的账户是此密钥定义的托管用户账户。<br> 一个或多个分号 [;] 分隔的 UPN。<br> 对于注册 Intune 的设备，{{userprincipalname}}令牌可用于代表已注册的用户帐户。
+
+设置帐户设置配置后，Teams 将限制登录功能，以使只有已注册设备上的允许账户才能获得访问权限。
+
+若要创建托管 iOS/iPadOS 设备的应用配置策略，请参阅 [添加托管 iOS/iPadOS 设备的应用配置策略](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)。
+
+若要创建托管 Android 设备的应用配置策略，请参阅 [添加托管 Android 设备的应用配置策略](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)。
+
+
 ## <a name="switching-accounts-after-completing-modern-authentication"></a>完成新式验证后切换帐户
 
 如果用户在加入域的计算机上工作（例如，如果他们的租户已启用 Kerberos），则他们在完成新式验证后无法切换用户帐户。 如果用户不在加入域的计算机上工作，则可以切换帐户。
@@ -67,9 +105,16 @@ Microsoft Teams 使用新式验证保持登录体验简单而安全。 若要了
 
 若要注销 Teams，用户可以单击应用顶部的个人资料图片，然后选择“**注销**”。他们还可以右键单击任务栏中的应用图标，然后选择“**注销**”。注销 Teams 后，他们需要再次输入凭据才能启动该应用。
 
+### <a name="signing-out-of-teams-for-ios-and-android"></a>退出 iOS 和 Android 版 Teams
+
+移动用户可以通过以下方法退出小组：进入菜单，然后选择“**更多**”菜单，然后选择“**退出**”。退出后，用户下次启动该应用程序时需要重新输入其凭据。
+
+> [!NOTE]
+> Android 版 Teams 使用单一登录（SSO）来简化登录体验。 除了 Teams 之外，用户应确保退出**所有** Microsoft 应用，以便完全退出 Android 平台。
+
 ## <a name="urls-and-ip-address-ranges"></a>URL 和 IP 地址范围
 
-Teams 需要连接到 Internet。 若要了解在 Microsoft 365 或 Office 365 计划、政府版和其他云中使用 Teams 的客户应该可以访问的终结点，请阅读 [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
+Teams 需要连接到 Internet。 若要了解在 Office 365 计划、政府版和其他云中使用 Teams 的客户应该可以访问的终结点，请阅读 [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!IMPORTANT]
 > 目前，Teams 要求所有用户都能访问（TCP 端口 443）Google ssl.gstatic.com 服务 (<https://ssl.gstatic.com)>；即使你不使用 Gstatic，也是如此。 Teams 将很快取消此要求（2020 年初），届时我们将相应地更新此文章。
