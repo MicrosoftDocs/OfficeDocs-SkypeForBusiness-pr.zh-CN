@@ -17,109 +17,57 @@ description: 了解 Teams 直播活动中的演示者和参与者功能。
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 7714442be770420797df1c51a532f769eb0350a4
-ms.sourcegitcommit: f9db7effbb1e56484686afe4724cc3b73380166d
+ms.openlocfilehash: b17b5493f8bccacbf16674f5698b672f271bb9d8
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44565855"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874439"
 ---
-<a name="presenter-and-participant-capabilities-in-a-teams-live-event"></a>Teams 直播活动中的演示者和参与者功能
+<a name="presenter-producer-and-attendee-capabilities-in-a-teams-live-event"></a>Teams 直播活动中的演示者、制作者和参与者功能
 ======================================================
 
-Microsoft Teams 直播活动支持多种参与者类型。 参与者可以根据自己在组织内部或外部的角色访问各种直播活动功能。
-
-可用的会议功能有：
+Microsoft Teams 支持向大型联机受众流式传输的直播活动。 参与者角色是被动的，直播活动演示者和制作者有权访问若干会议功能，包括：  
 
 - 聊天（包括照片和贴纸）
-- 会议记录
-- 白板
 - 录制
 - 文件
+- 问/答
 
-本文介绍了这些参与者功能以及他们对直播活动功能的访问权限。
+本文介绍了 Teams 直播活动中的可用功能。
 
-## <a name="presenters-and-organizers"></a>演示者和组织者
+## <a name="presenter-and-producer"></a>演示者和制作者
 
-演示者和组织者包括以下内容：
+演示者和制作者包括以下内容：
 
 - 来自我的组织的演示者
-- 来自其他组织的演示者。 演示者由组织者指定，且需要具有来自组织者的个人邀请。
+- 来自其他组织的演示者。 演示者由制作者指定，且需要具有来自制作者的个人邀请。
 
-演示者和组织者可访问直播活动中的所有功能。
+演示者和制作者可访问所有直播活动功能。
 
-## <a name="participants"></a>参与者
-
-有多种类型的直播活动参与者：
-
-- [租户内参与者](#in-tenant-participant)
-- [来宾参与者](#guest-participant)
-- [外部（联合）参与者](#external-federated-participant)
-- [匿名参与者](#anonymous-participant)
-
-### <a name="in-tenant-participant"></a>租户内参与者
-
-租户内参与者为组织内部人员，并且具有租户凭据。 有关此类参与者的详细信息，请参阅[安全性与 Microsoft Teams](teams-security-guide.md#participant-types)。
-
-| 直播活动 |  | |||
+| |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-|  **功能**       | 会议前 | 会议中 | 会议后 |
-| 聊天 | 不适用 | 不适用 | 不适用 |
-| 会议记录 | 是 | 是 |是 |
-| 白板 | 是 | 是 |是 |
-| 录制 | 不适用 |是 | 是 |
-| 文件 | 是 | 是 | 是 |
+|  **功能**       | 活动前 | 活动中 | 活动后 |
+| 聊天 | 是 | 是| 是 |
+| 录制 | 不适用 |不适用 | 是 |
+| 文件 | 是 |是 | 是 |
+| 问/答（如果制作者已启用）| 是 | 是 | 是 |
 |||||||
 
+## <a name="live-event-attendee"></a>直播活动参与者
 
-### <a name="guest-participant"></a>来宾参与者
+直播活动参与者是指具有直播活动或活动记录链接的人。 参加/查看活动不需要特殊权限。 如果演示者和/或制作者允许，则可以实时查看直播活动的参与者可以参加问/答。 
 
-来宾参与者是来自另一个组织的人员，该人员受邀基于 Azure Active Directory B2B 平台访问 Teams 或贵组织租户中的其他资源。 来宾用户可受邀加入常规会议和频道会议。 有关来宾参与者的详细信息，请参阅[来宾体验介绍](guest-experience.md#comparison-of-team-member-and-guest-capabilities)。
-
-| 直播活动  | | |||
+| |  | |||
 |---------|----------------|----------------|---------------------|------------|--------------|
-| **功能**        | 会议前 | 会议中 | 会议后 |
-| 聊天 | 不适用 | 不适用 | 不适用 |
-| 会议记录 | 是 | 是 | 是 |
-| 白板 | 否 | 否 | 否 |
-| 录制 | 不适用 | 否 | 否 |
-| 文件 | 否 | 否 | 否 |
+|  **功能**       | 活动前 | 活动中 | 活动后 |
+| 问/答（如果制作者已启用） | 是 | 是 | 是 |
+| 录制 | 不适用 | 不适用| 是 |
+| 视频播放控件（如果制作者已启用） | 是 | 是 | 是 |
 |||||||
-
-
-### <a name="external-federated-participant"></a>外部（联合）参与者
-
-外部参与者是另一个组织中使用 Teams 的人员，该人员受邀加入会议，但无权访问贵组织中的其他共享资源。 外部用户参与者会出现在会议名单中，且其显示名称与他们在自己组织中的标识名称相同。 有关外部参与者的详细信息，请参阅[与其他组织的用户通信](communicate-with-users-from-other-organizations.md#external-access)。
-
-| 直播活动 |  | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-|  **功能**         | 会议前 | 会议中 | 会议后 |
-| 聊天 | 不适用| 不适用 | 不适用 |
-| 会议记录 | 否 | 否 | 否 |
-| 白板 | 否| 否 | 否 |
-| 录制 | 不适用 | 否 | 否 |
-| 文件 | 是 | 是 | 是 |
-|||||||
-
-### <a name="anonymous-participant"></a>匿名参与者
-
-匿名参与者与外部用户类似，但其身份未被投映到会议中。 在加入时，他们将手动输入一个昵称。 有关匿名参与者的详细信息，请参阅[安全性与 Microsoft Teams](teams-security-guide.md#participant-types)。
-
-| 直播活动|  | |||
-|---------|----------------|----------------|---------------------|------------|--------------|
-| **功能**        | 会议前 | 会议中 | 会议后 |
-| 聊天 | 不适用 | 不适用 | 不适用 |
-| 会议记录 | 不适用 | 否 | 不适用 |
-| 白板 | 不适用 | 不适用 | 不适用 |
-| 录制 | 不适用 | 否 | 不适用 |
-| 文件 | 不适用 | 否 | 不适用 |
-|||||||
-
 
 ## <a name="related-topics"></a>相关主题
 
-[安全性与 Microsoft Teams](teams-security-guide.md)
+- [规划 Teams 中的直播活动](teams-live-events/plan-for-teams-live-events.md)
 
-[Teams 中的来宾访问](guest-access.md)
-
-[规划 Teams 中的直播活动](teams-live-events/plan-for-teams-live-events.md)
+- [Microsoft Teams 直播活动入门](https://support.microsoft.com/zh-CN/office/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a#bkmk_productiontypes)

@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或 EDU 设置中的策略，以及如何在 Microsoft Teams 中使用和管理策略包。
-ms.openlocfilehash: c8eed1c27f73d8805924ee30be0041a710bbdb25
-ms.sourcegitcommit: 624bd511b96cf213483d3ea8f27b20a91d955550
+ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
+ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44330567"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44874420"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>面向教育的 Teams 策略和策略包
 
@@ -158,9 +158,20 @@ Microsoft Teams 当前包含以下策略包：
 
 ![远程学习页面上的教育学生，显示“常规”部分，此处的所有选项均已关闭。](media/edu-policy-list-a.png)
 
-- 在同一页面上，在会议部分中的“参与者和来宾”中：**允许在私人会议中立即开会**：关闭
+- 在同一页面上，在会议部分中的“参与者和来宾”中：
+  - **允许在私人会议中立即开会**：关闭
+  - **允许在会议中聊天**：已禁用
 
 ![“参与者和来宾”部分，“允许在私人会议中立即开会”设置为“关闭”。](media/edu-participants-and-guests.png)
+
+为学生关闭“**允许在频道中立即开会**”、“**允许安排频道会议**”、“**允许安排私人会议**”和“**在私人会议中立即开会**”，不仅可阻止学生以组织者身份安排会议，还可为教育客户提供以下安全措施：
+
+- 如果学生尝试在教师之前加入会议，则他们将无法在最新版本的 Teams 应用中加入会议。
+- 尽管会议创建适用于任何用户和任何许可证，但是上述有关会议加入阻止的安全措施仅基于用户的许可证类型应用于 Teams 中的教育客户。
+
+如果你将“**允许在会议中聊天**”策略更改为禁用，并阻止学生从上方安排会议，但是继续对教育工作者启用此策略时（对于不是从某个频道或频道中的“立即开会”安排的会议），则学生将无法在教师加入会议之前进行聊天，也不能在会议结束后进行聊天。 他们仍然可以在会议之前、期间和之后查看历史聊天记录。 例如，他们将能够查看来自老师的消息或会议录制链接（如果录制了会议）。
+
+如果学生和教师都禁用了“**允许在会议中聊天**”策略，则任何人都无法在会议聊天窗口中聊天。 上述关于会议聊天限制的安全措施仅基于用户的许可类型应用于 Teams 中的教育客户。
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>控制学生是否可以在通话和会议期间分享他们的视频
 
