@@ -1,9 +1,9 @@
 ---
-title: 阿尔及利亚中的可用性
-author: LanaChin
-ms.author: v-lanac
+title: 喀麦隆中的可用性
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是适用于阿尔及利亚的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: 以下是适用于喀麦隆的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 283605d9c7c43dbf472d2738e19a940beffe7d43
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877893"
+ms.locfileid: "44877966"
 ---
-# <a name="availability-in-algeria"></a>阿尔及利亚中的可用性
+# <a name="availability-in-cameroon"></a>喀麦隆中的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-下面是适用于阿尔及利亚的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+以下是适用于喀麦隆的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 

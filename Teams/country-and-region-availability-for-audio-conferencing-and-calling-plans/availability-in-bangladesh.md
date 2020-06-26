@@ -1,9 +1,9 @@
 ---
-title: 阿尔及利亚中的可用性
-author: LanaChin
-ms.author: v-lanac
+title: 孟加拉中的可用性
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是适用于阿尔及利亚的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: 以下是适用于孟加拉的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: 1ec0337d6c63f97197908375c2c8a3712f5b9621
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877893"
+ms.locfileid: "44877971"
 ---
-# <a name="availability-in-algeria"></a>阿尔及利亚中的可用性
+# <a name="availability-in-bangladesh"></a>孟加拉中的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-下面是适用于阿尔及利亚的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+以下是适用于 Bangladash 的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**Details**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |是。 仅按分钟付费。  <br/> |
+|是否可购买音频会议？  <br/> |是。 仅按分钟付费。 <br/> |
 |是否自动分配音频会议的电话号码？  <br/> | 否 |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用点数 <br/> |
    

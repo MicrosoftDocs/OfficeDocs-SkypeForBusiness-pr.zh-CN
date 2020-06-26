@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b54a4263adc8e697a19f997ac34018e1e2b2c302
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 4bde860f0f3e64899f4309706575c71862c754a5
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691008"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889991"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
 作为管理员，你可以使用应用权限策略来控制适用于组织中的 Microsoft Teams 用户的应用。 你可以允许或阻止由 Microsoft、第三方和你的组织发布的所有应用或特定应用。 阻止某个应用后，具有该策略的用户将无法从 Teams 应用商店安装它。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
-你可以在 Microsoft 团队管理中心中管理应用权限策略。 可以使用全局（组织范围默认）策略，也可以创建自定义策略并将其分配给组中的单个用户或用户。  
+你可以在 Microsoft 团队管理中心中管理应用权限策略。 可以使用全局（组织范围默认）策略，也可以创建自定义策略并将其分配给组中的单个用户或用户。 编辑或分配策略后，可能需要几个小时才能使更改生效。
 
 ![应用权限策略的屏幕截图](media/app-permission-policies.png)
 

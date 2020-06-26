@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要：了解在为通话质量仪表板规划时应考虑的事项。
-ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: 407366fc98dc423db59ed9bf98cfe58463b708fc
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339437"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877943"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>为 Skype for Business Server 规划通话质量仪表板 
  
@@ -144,7 +144,7 @@ CQD 提供了多个组件，并有助于了解每个组件的要求以及它们�
     
 - 承载独立于 "生产" 门户的 "开发" 门户。 
     
-  **在不同的计算机上托管 CQD Web 门户和 CQD 多维数据集。** 可能需要将 CQD 门户与 SQL Server 安装分开或可能需要混合和匹配 sql server 实例和 SQL Server Analysis Services 实例的 SQL Server 版本的组织可以选择安装 CQD 门户和不同计算机上的 CQD 多维数据集。 QoE 存档组件也可以是唯一的 CQD 组件，如果组织只想使用可持续方法来存档 QoE 数据，而不会在监视服务器上达到性能限制，则会安装该组件。
+  **在不同的计算机上托管 CQD Web 门户和 CQD 多维数据集。** 可能需要将 CQD 门户与 SQL Server 安装分离的组织，或者可能需要混合并匹配 sql server 实例和 SQL Server Analysis Services 实例的 SQL Server 版本的组织可以选择在不同的计算机上安装 CQD 门户和 CQD 多维数据集。 QoE 存档组件也可以是唯一的 CQD 组件，如果组织只想使用可持续方法来存档 QoE 数据，而不会在监视服务器上达到性能限制，则会安装该组件。
   
 ![单个服务器 CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
@@ -195,24 +195,24 @@ CQD 中的数据处理分为两个主要阶段：
 
 |**计算机**|**CPU 内核**|**RAM**|**在同一磁盘上 QoE 存档和多维数据集**|**在同一磁盘上 QoE 存档和 SQL 临时数据库**|
 |:-----|:-----|:-----|:-----|:-----|
-|虚拟机  <br/> |4  <br/> |7 GB  <br/> |是  <br/> |是  <br/> |
-|4核心  <br/> |4  <br/> |20 GB  <br/> |是  <br/> |否  <br/> |
-|8核  <br/> |utf-8  <br/> |32 GB  <br/> |是  <br/> |否  <br/> |
+|虚拟机  <br/> |4   <br/> |7 GB  <br/> |是  <br/> |是  <br/> |
+|4核心  <br/> |4   <br/> |20 GB  <br/> |是  <br/> |否  <br/> |
+|8核  <br/> |8   <br/> |32 GB  <br/> |是  <br/> |否  <br/> |
 |16核  <br/> |16   <br/> |128 GB  <br/> |否  <br/> |否  <br/> |
    
 **性能结果**
 
 |**计算机**|**QoE 指标数据库大小**|**SQL 分区**|**磁盘类型**|**流的数量**|**初始存档过程**|**初始多维数据集进程**|**后续存档过程**|**后续多维数据集进程**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|虚拟机  <br/> |900 MB  <br/> |单精度  <br/> |VHD （可变大小）  <br/> |.5 M  <br/> |30米  <br/> |2米  <br/> |30秒  <br/> |1米  <br/> |
-|虚拟机  <br/> |9 GB  <br/> |单精度  <br/> |VHD （可变大小）  <br/> |5米  <br/> |4 h  <br/> |15米  <br/> |1米  <br/> |5米  <br/> |
-|虚拟机  <br/> |9 GB  <br/> |单精度  <br/> |VHD （固定大小）  <br/> |5米  <br/> |2 h  <br/> |5米  <br/> |1米  <br/> |5米  <br/> |
-|虚拟机  <br/> |30 + GB  <br/> |单精度  <br/> |VHD （固定大小）  <br/> |10米  <br/> |15 h  <br/> |20米  <br/> |2米  <br/> |45米  <br/> |
-|8核  <br/> |9 GB  <br/> |单精度  <br/> |多个磁盘  <br/> |5米  <br/> |2 h  <br/> |5米  <br/> |25 s  <br/> |5米  <br/> |
+|虚拟机  <br/> |900 MB  <br/> |单一  <br/> |VHD （可变大小）  <br/> |.5 M  <br/> |30米  <br/> |2米  <br/> |30秒  <br/> |1米  <br/> |
+|虚拟机  <br/> |9 GB  <br/> |单一  <br/> |VHD （可变大小）  <br/> |5米  <br/> |4 h  <br/> |15米  <br/> |1米  <br/> |5米  <br/> |
+|虚拟机  <br/> |9 GB  <br/> |单一  <br/> |VHD （固定大小）  <br/> |5米  <br/> |2 h  <br/> |5米  <br/> |1米  <br/> |5米  <br/> |
+|虚拟机  <br/> |30 + GB  <br/> |单一  <br/> |VHD （固定大小）  <br/> |10米  <br/> |15 h  <br/> |20米  <br/> |2米  <br/> |45米  <br/> |
+|8核  <br/> |9 GB  <br/> |单一  <br/> |多个磁盘  <br/> |5米  <br/> |2 h  <br/> |5米  <br/> |25 s  <br/> |5米  <br/> |
 |8核  <br/> |9 GB  <br/> |多个  <br/> |多个磁盘  <br/> |5米  <br/> |2 h  <br/> |15米  <br/> |35 s  <br/> |2米  <br/> |
-|8核  <br/> |30 + GB  <br/> |单精度  <br/> |多个磁盘  <br/> |20米  <br/> |9 h  <br/> |20米  <br/> |1米  <br/> |20米  <br/> |
+|8核  <br/> |30 + GB  <br/> |单一  <br/> |多个磁盘  <br/> |20米  <br/> |9 h  <br/> |20米  <br/> |1米  <br/> |20米  <br/> |
 |8核  <br/> |30 + GB  <br/> |多个  <br/> |多个磁盘  <br/> |20米  <br/> |9 h  <br/> |30米  <br/> |2米  <br/> |2米  <br/> |
-|4核心  <br/> |200 GB  <br/> |单精度  <br/> |多个磁盘  <br/> |125米  <br/> |6 + 天  <br/> |7 h  <br/> |2米  <br/> |6 h  <br/> |
+|4核心  <br/> |200 GB  <br/> |单一  <br/> |多个磁盘  <br/> |125米  <br/> |6 + 天  <br/> |7 h  <br/> |2米  <br/> |6 h  <br/> |
 |16核  <br/> |500 GB  <br/> |多个  <br/> |多个心轴  <br/> |250米  <br/> |8天  <br/> |2 h  <br/> |2米  <br/> |10米  <br/> |
    
 \*由于 QoE 指标数据库必须分别包含9和18个月的数据，因此不应在实际部署中遇到这些数据，但此处提供了这些数据是为了实现完整性。
@@ -267,7 +267,7 @@ CQD 需要以下操作系统：
     
   - ISAPI 筛选器
     
-  - 运行&amp;状况诊断
+  - 运行状况 &amp; 诊断
     
   - HTTP 日志记录
     
@@ -282,7 +282,7 @@ CQD 需要以下操作系统：
   - IIS 管理控制台
     
 > [!NOTE]
->  请注意以下针对上述要求的以下内容： .Net framework > 3.5 和4.5 版本可用。 两者都是必需的（更具体地说，是必需的 3.5 SP1）。在某些系统中 >，如果 ASP.NET 是在安装 IIS 之前设置的，则 ASP.NET 可能不会在 IIS 中注册。 通过缺少对应 .Net 版本的应用程序池，并在应用程序池配置中也缺少 .NET CLR 版本的问题清单。 若要解决 Windows Server 2008 R2 上的此问题， `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`请执行。 在 Windows Server 2012 和 Windows Server 2012 R2 上， `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45`执行后再从 IIS Manager 中的默认网站删除 "未使用" 模块。 > 管理工具是可选的，但建议这样做。
+>  请注意以下针对上述要求的以下内容： .Net framework > 3.5 和4.5 版本可用。 两者都是必需的（更具体地说，是必需的 3.5 SP1）。在某些系统中 >，如果 ASP.NET 是在安装 IIS 之前设置的，则 ASP.NET 可能不会在 IIS 中注册。 通过缺少对应 .Net 版本的应用程序池，并在应用程序池配置中也缺少 .NET CLR 版本的问题清单。 若要解决 Windows Server 2008 R2 上的此问题，请执行 `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` 。 在 Windows Server 2012 和 Windows Server 2012 R2 上，执行 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` 后再从 IIS Manager 中的默认网站删除 "未使用" 模块。 > 管理工具是可选的，但建议这样做。
   
 若要使用 PowerShell 安装这些要求，请运行以下命令：
   
@@ -318,6 +318,9 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 建议在最小特权原则上使用三个域服务帐户： 
   
 - 一个已在 QoE 存档 SQL Server 实例中具有 QoE 指标数据库的登录安全主体（具有 db_datareader 特权）和登录安全主体（在安装过程中创建链接服务器对象）。 此帐户将用于运行 SQL Server 代理作业的 "QoE 存档数据" 步骤。
+    
+    > [!NOTE]
+    > 如果您在一个严重锁定的环境中工作，您需要检查此服务帐户是否确实已授予 "作为批处理作业登录" 和 "允许在本地登录" 用户权限对 QoE 指标监控数据库 SQL server 和 QoE 存档 SQL Server。
     
 - 一个将用于运行 SQL Server 代理作业的 "处理多维数据集" 步骤。 安装程序将创建登录安全主体以 QoE 存档数据库（具有读取和写入权限），同时在多维数据集的 QoE 角色中创建一个成员（具有 "完全控制" 权限）。
     

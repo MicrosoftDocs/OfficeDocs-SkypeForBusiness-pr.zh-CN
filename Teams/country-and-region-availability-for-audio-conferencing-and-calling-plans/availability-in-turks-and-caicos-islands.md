@@ -1,9 +1,9 @@
 ---
-title: 阿尔及利亚中的可用性
-author: LanaChin
-ms.author: v-lanac
+title: 特克斯和凯科斯群岛的可用性
+author: cichur
+ms.author: v-cichur
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 下面是适用于阿尔及利亚的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 541414367e53449628be50ce0885b65000a4aec4
+description: 以下是可用于特克斯和凯科斯群岛的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+ms.openlocfilehash: c3aa3f7f653996cbc5518d89095ff231b88798c8
 ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877893"
+ms.locfileid: "44877969"
 ---
-# <a name="availability-in-algeria"></a>阿尔及利亚中的可用性
+# <a name="availability-in-turks-and-caicos-islands"></a>特克斯和凯科斯群岛的可用性
 
 [查找其他国家/地区](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或详细了解可以在哪些国家/地区使用音频会议和通话套餐。
 
-下面是适用于阿尔及利亚的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
+以下是可用于特克斯和凯科斯群岛的适用于 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
   
 ## <a name="audio-conferencing"></a>音频会议
 
 |**功能**|**Details**|
 |:-----|:-----|
-|是否可购买音频会议？  <br/> |是。 仅按分钟付费。  <br/> |
+|是否可购买音频会议？  <br/> |是。 仅按分钟付费。 <br/> |
 |是否自动分配音频会议的电话号码？  <br/> | 否 |
 |使用“呼叫我”功能的拨出功能  <br/> | 需要通信信用点数 <br/> |
    
@@ -68,9 +68,9 @@ ms.locfileid: "44877893"
 
 |**功能**|**Details**|
 |:-----|:-----|
-|你可以获取哪些首都或大城市的收费电话号码？   | 非地区号码。 电话号码没有关联到特定城市或位置。 <br/> |
-|是否提供收费电话号码？  <br/> |非地理位置（[请求时](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)） <br/> |
-|是否提供免费电话号码？  <br/> |否  <br/> |
+|你可以获取哪些首都或大城市的收费电话号码？   | 不适用<br/> |
+|是否提供收费电话号码？  <br/> |否<br/> |
+|是否提供免费电话号码？  <br/> |是  <br/> |
    
  如果您希望为音频会议、自动助理和呼叫队列获取收费和免费电话号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers)。
   

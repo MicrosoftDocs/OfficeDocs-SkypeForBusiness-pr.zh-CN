@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: f046a21ee0ff0bf4fe49feea2c4a38702516227a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b28b61a6b2d4c441fc69d0e50124df50f95b4a49
+ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690958"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44889971"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的团队策略
 
@@ -48,7 +48,7 @@ ms.locfileid: "44690958"
     ![团队策略设置的屏幕截图](media/teams-policies.png)
 4. 选择所需的设置：
 
-- **发现专用团队**：<a name="discoverteams"> </a>启用此设置可允许用户在搜索结果和团队库中发现个人团队。
+- **发现专用团队**（在私人预览版中）<a name="discoverteams"> </a> ：启用此设置可允许用户在搜索结果和团队库中发现个人团队。
 - **创建专用通道**： <a name="createchannels"> </a>启用此设置可允许用户创建专用频道。
 
 5. 单击“**保存**”。

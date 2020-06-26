@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中管理组织中如何使用标记。
-ms.openlocfilehash: 9c17045a167c46cabc2c7bd0c89b7488996975ad
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: b19613268384831aaaa2608fc183b62fdc1b0445
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690849"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877933"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 团队中的标记
 
@@ -38,6 +38,8 @@ Microsoft 团队中的标记使用户能够与团队中的一部分人员进行�
 - 组产品经理希望向频道中的所有产品经理发送消息。
 - 医院管理员想要向频道中的所有 radiologists 发送一封邮件。
 - 市场营销经理希望开始与所有设计人员进行群组聊天。
+
+当标记在频道对话中 @mentioned 时，与该标记相关联的团队成员将收到通知，就像任何其他 @mention 一样。
 
 若要了解详细信息，请参阅[使用团队中的标记](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
 
@@ -77,10 +79,20 @@ Microsoft 团队中的标记使用户能够与团队中的一部分人员进行�
 
 ![团队级别的标记设置的屏幕截图](media/manage-tags-team-settings.png)
 
-## <a name="add-tags-in-teams"></a>在团队中添加标记
+## <a name="use-tags"></a>使用标记
 
-若要管理标记，请选择应用左侧的 "**管理团队**"，然后在列表中找到您的团队。 选择 "**更多选项**"，然后选择 "**管理标记**"。
+### <a name="add-tags"></a>添加标记
+
+若要创建和分配标记，请选择应用左侧的 "**团队**"，然后在列表中找到您的团队。 选择 "**更多选项**"，然后选择 "**管理标记**"。
 
 在此处，你可以创建标记并将其分配给团队中的人员。
 
 ![如何在团队客户端应用标记的屏幕截图 ](media/manage-tags-teams.png)
+
+### <a name="delete-tags"></a>删除标记
+
+删除与标记相关联的所有团队成员，标记将被删除。
+
+## <a name="related-topics"></a>相关主题
+
+[使用团队中的标记](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)

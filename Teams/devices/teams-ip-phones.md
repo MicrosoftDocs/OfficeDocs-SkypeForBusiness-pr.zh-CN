@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议已认证，可供 Microsoft 团队获得最佳效果。
-ms.openlocfilehash: c18b335684c5a0ff6017760e1e2aa03dabd68f66
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
+ms.openlocfilehash: 6253d1bd46589892d1558ab7e9871bbf38c8cdbb
+ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816813"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "44877903"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -51,6 +51,7 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 |Crestron M100| 本产品已停产。 有关详细信息，请访问 Crestron 网站上的[Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 从5/11/2020 终止|
 |Crestron Flex UC-P100 & UC-t  | 本产品已停产。 有关详细信息，请访问 Crestron 网站上的 " [UC 电话]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)"。 |从5/11/2020 终止|
 |联想 ThinkSmart 视图|18781Y 200410.067|2020年4月|
+|Poly Trio C60|5.9.3.6155|2020年4月|
 |Poly CCX400 | 1.0.0.0200 | 2020年1月|
 |Poly CCX600 | 5.9.12.1111| 2020年1月|
 |Poly CCX500 | 5.9.12.1111| 2019年12月|
