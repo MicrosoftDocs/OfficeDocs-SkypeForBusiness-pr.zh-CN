@@ -18,12 +18,12 @@ description: 在 Teams 中为实时事件进行设置，包括设置网络、分
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2e865fe2285abb9cd515d1efe769f18cb5735ff2
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: a813f72c61e34ab217b14316ec4c2320affedfc6
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689668"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902277"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -116,7 +116,7 @@ ms.locfileid: "44689668"
  
 - **Kollective** 是一种基于云的智能对等分发平台，它利用你现有的网络基础结构，以多种形式（实时流视频、点播视频、软件更新、安全修补程序等）更快、更可靠地交付内容，并且所需带宽更少。 我们的安全平台深受全球最大金融机构的信任，无需额外的硬件，安装和维护都非常简单。 [了解详细信息](https://kollective.com/microsoft-pilot/)。
  
-- **Ramp OmniCache** 提供下一代网络分发，并确保跨全球 WAN 的视频内容无缝交付，从而帮助事件制作者优化网络带宽并支持成功的实时事件广播和点播流。 即将对在 Teams 中制作的实时事件提供 OmniCache 支持。 [了解详细信息](http://www.ramp.com)。 
+- **Ramp OmniCache** 提供下一代网络分发，并确保跨全球 WAN 的视频内容无缝交付，从而帮助事件制作者优化网络带宽并支持成功的实时事件广播和点播流。 即将对在 Teams 中制作的实时事件提供 OmniCache 支持。 [了解详细信息](https://rampecdn.com)。 
  
 > [!NOTE] 
 > 你选择的 SDN 或 eCDN 解决方案受所选**第三方提供商的服务条款和隐私策略**的约束，这将制约你对提供商解决方案的使用。 你对提供商解决方案的使用将不受 Microsoft 批量许可条款或联机服务条款的约束。 如果你不同意**第三方提供商的条款**，则不要在 Teams 中启用该解决方案。 

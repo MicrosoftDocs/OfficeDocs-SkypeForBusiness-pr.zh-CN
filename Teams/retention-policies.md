@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ccbdf48463ab504c1eac51b9558d3edb07533c70
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091cc9c5d6f3ce55ea9e64473759afbd59df2c4
+ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666174"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "44902267"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
@@ -59,7 +59,7 @@ ms.locfileid: "44666174"
 
 ## <a name="how-teams-retention-policies-work"></a>Teams 保留策略的工作方式
 
-Teams 聊天存储在参与聊天的每个用户的邮箱中的隐藏 SubstrateHolds 文件夹内，Teams 频道消息存储在团队组邮箱中的隐藏 SubstratesHolds 文件夹中。 Teams 使用由 Azure 支持的聊天服务，该服务也会存储此数据，并且默认永久存储。 借助 Teams 保留策略，当你删除数据时，将从 Exchange 邮箱和基础聊天服务中永久删除该数据。
+团队聊天内容存储在 Teamschat 中每个用户的隐藏文件夹中，并且团队频道消息存储在团队的组邮箱中的隐藏文件夹中（Teamschat）。 Teams 使用由 Azure 支持的聊天服务，该服务也会存储此数据，并且默认永久存储。 借助 Teams 保留策略，当你删除数据时，将从 Exchange 邮箱和基础聊天服务中永久删除该数据。
 
 将保留策略应用于 Teams 聊天和频道消息后，将发生以下情况：
 
@@ -83,7 +83,7 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
 
 - Teams 不支持高级保留设置，例如，用于为包含关键字或敏感信息的内容应用策略的功能。 目前，Teams 中的保留策略适用于所有聊天和/或频道消息内容。
 
-- 团队最多可能需要3到7天的时间来清理已过期的消息。 Teams 保留策略将在保留期到期时删除聊天和频道消息。 但是，可能需要长达3至7天的时间来清理这些邮件并永久删除它们。 此外，在保留期到期后和永久删除消息之间的时间段内，可以使用电子数据展示工具搜索聊天和频道消息。
+- 团队保留策略将在一天内触发一个流程，以便在保留期到期时删除聊天和频道消息。 但是，可能需要长达3至7天的时间来清理这些邮件并永久删除它们。 此外，在保留期到期后和永久删除消息之间的时间段内，可以使用电子数据展示工具搜索聊天和频道消息。
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>多个保留策略和保留原则
 
