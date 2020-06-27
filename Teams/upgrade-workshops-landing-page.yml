@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: Teams 升级规划研讨会
+summary: 加入我们，参加一系列实时、互动升级规划研讨会，我们将分享指导、最佳实践和资源，帮助你规划和实施升级到 Teams。 为获得最佳体验，请从下面的“规划升级”会话开始。 单击要注册的任何研讨会标题。
+brand: teams
+metadata:
+  title: Teams 升级规划研讨会
+  description: 加入我们，参加一系列实时、互动升级规划研讨会，我们将分享指导、最佳实践和资源，帮助你规划和实施升级到 Teams。 为获得最佳体验，请从下面的“规划升级”会话开始。 单击要注册的任何研讨会标题。
+  ms.service: msteams
+  ms.topic: hub-page
+  author: LolaJacobsen
+  ms.author: lolaj
+  manager: serdars
+  ms.date: 01/27/2020
+  ms.reviewer: landerl
+  audience: admin
+  f1.keywords:
+  - NOCSH
+  localization_priority: Priority
+  ms.collection:
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
+  ms.custom:
+  - seo-marvel-apr2020
+  search.appverid: MET150
+  appliesto:
+  - Microsoft Teams
+  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
+  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 06/26/2020
+  ms.locfileid: "44902323"
+productDirectory:
+  items:
+  - title: 规划升级（从这里开始！）
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: 了解成功升级到 Teams 所需的一切。 受众-全部（企业赞助商、IT 管理员、用户就绪/更改经理、项目主管）
+    url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
+  - title: 最终用户准备就绪：
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: 设计用户准备情况方案，帮助用户喜欢并采纳 Teams。 受众-用户准备情况/更改管理器
+    url: https://microsoftteams.eventbuilder.com/UpgradeReadyUsers
+  - title: 确定升级方法
+    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
+    summary: 根据当前 Skype for Business 的实施和升级目标，确定最合适的方法。 受众-IT 管理员
+    url: https://microsoftteams.eventbuilder.com/UpgradeApproach
+  - title: 实现升级方法
+    imageSrc: https://docs.microsoft.com/office/media/icons/usage-report-teams.svg
+    summary: 作为正式升级规划的一部分，执行定义的升级方法。 受众-IT 管理员
+    url: https://microsoftteams.eventbuilder.com/UpgradeImplement
+additionalContent:
+  sections:
+  - items:
+    - title: 自行查看这些研讨会
+      summary: 访问用于 YouTube 上的 Microsoft 团队的升级。
+      url: https://aka.ms/UpgradeOnDemand
+    - title: 展开团队方案？
+      summary: 查看面向 IT 专业人士的团队粉笔谈话研讨会。
+      url: https://aka.ms/TeamsChalkTalks
+    - title: 不熟悉 Teams？
+      summary: 了解有关团队入门的详细信息。
+      url: https://docs.microsoft.com/microsoftteams/teams-overview
