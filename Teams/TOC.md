@@ -217,6 +217,7 @@
 ## 实时事件
 ### [什么是 Teams 实时事件？](teams-live-events/what-are-teams-live-events.md)
 ### [规划 Teams 实时事件](teams-live-events/plan-for-teams-live-events.md)
+### [直播活动中的演示者、制作者和参与者功能](roles-in-live-events.md)
 ### [设置 Teams 实时事件](teams-live-events/set-up-for-teams-live-events.md)
 ### [使用 PowerShell 设置 Teams 实时事件策略](teams-live-events/set-teams-live-events-policies-using-powershell.md)
 ### [配置 Teams 实时事件设置](teams-live-events/configure-teams-live-events.md)
@@ -508,31 +509,31 @@
 
 ## 规划你的升级之旅
 
-### [升级规划概述](upgrade-plan-journey.md)
-### [登记项目干系人](upgrade-enlist-stakeholders.md)
-### [定义项目范围](upgrade-define-project-scope.md)
-### [了解共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-### [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [会议优先](meetings-first.md)
+### 规划项目和要求 
+#### [概述](upgrade-plan-journey.md)
+#### [登记项目干系人](upgrade-enlist-stakeholders.md)
+#### [定义项目范围](upgrade-define-project-scope.md)
+#### [了解共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+#### [规划用户试点](pilot-essentials.md)
 
-## 针对 Teams 准备环境
-### [技术准备概述](upgrade-prepare-environment.md)
-### [针对 Teams 准备 IT 员工](upgrade-prepare-IT-pros.md)
-### [先决条件](upgrade-plan-journey-prerequisites.md)
-### [评估环境](upgrade-plan-journey-evaluate-environment.md)
-### [准备服务](upgrade-prepare-environment-prepare-service.md)
 
-## 让贵组织做好部署 Teams 的准备
-### [组织准备概述](upgrade-prepare-organization.md)
-### [评估组织更改是否就绪](upgrade-org-change-readiness.md)
-### [准备用户就绪性计划](upgrade-user-readiness.md)
+### 针对 Teams 准备环境
+#### [技术准备概述](upgrade-prepare-environment.md)
+#### [针对 Teams 准备 IT 员工](upgrade-prepare-IT-pros.md)
+#### [先决条件](upgrade-plan-journey-prerequisites.md)
+#### [评估环境](upgrade-plan-journey-evaluate-environment.md)
+#### [准备服务](upgrade-prepare-environment-prepare-service.md)
+
+### 让贵组织做好部署 Teams 的准备
+#### [组织准备概述](upgrade-prepare-organization.md)
+#### [评估组织更改是否就绪](upgrade-org-change-readiness.md)
+#### [准备用户就绪性计划](upgrade-user-readiness.md)
 
 
 ## 实现升级
 ### [概述](upgrade-to-Teams.md)
-### [执行用户试点](pilot-essentials.md)
 ### [将 Skype for Business Online 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-
 ### [将本地 Skype for Business 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
@@ -551,6 +552,9 @@
 ### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
 ### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
+
+
+### [会议优先](meetings-first.md)
 
 
 <!-- ============================================================ -->
@@ -719,7 +723,7 @@
 ## [在对 Teams 进行故障排除时使用日志文件](log-files.md)
 ## [常见问题解答：支持远程工作人员](FAQ-support-remote-workforce.md)
 ## [验证 Teams 的服务运行状况](service-health.md)
-## [Teams 的支持资源](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
 
 <!-- ============================================================ -->
   
@@ -738,7 +742,6 @@
 ### [在创建 Teams 团队时规划 Microsoft 365 组](plan-office-365-groups.md)
 ### [在 Teams 中规划生命周期管理](plan-teams-lifecycle.md)
 ### [在 Teams 中规划管理](plan-teams-governance.md)
-### [使用网络测试助理](use-network-testing-companion.md)
 
 ## 安装 Teams
 ### [获取 Teams 客户端](get-clients.md)
@@ -803,6 +806,7 @@
 
 ## 音频会议和通话套餐的国家/地区可用性
 ### [概述](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+### [阿尔巴尼亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-albania.md)
 ### [阿尔及利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-algeria.md)
 ### [安提瓜和巴布达](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-antigua-and-barbuda.md)
 ### [阿根廷](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-argentina.md)
@@ -810,7 +814,8 @@
 ### [Austria（奥地利）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-austria.md)
 ### [巴哈马](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-bahamas.md)
 ### [巴林](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bahrain.md)
-### [巴巴多斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md)
+### [孟加拉国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bangladesh.md)
+### [Barbados（巴巴多斯）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-barbados.md)
 ### [Belarus（白俄罗斯）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belarus.md)
 ### [Belgium（比利时）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belgium.md)
 ### [伯利兹](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize.md)
@@ -821,6 +826,7 @@
 ### [文莱](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-brunei.md)
 ### [保加利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-bulgaria.md)
 ### [柬埔寨](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia.md)
+### [喀麦隆](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cameroon.md)
 ### [加拿大](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada.md)
 ### [开曼群岛](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-cayman-islands.md)
 ### [智利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-chile.md)
@@ -846,6 +852,7 @@
 ### [希腊](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-greece.md)
 ### [格林纳达](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-grenada.md)
 ### [关岛](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guam.md)
+### [危地马拉](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-guatemala.md)
 ### [洪都拉斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras.md)
 ### [香港特别行政区](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hong-kong.md)
 ### [匈牙利](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-hungary.md)
@@ -872,6 +879,7 @@
 ### [荷兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-netherlands.md)
 ### [新西兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-new-zealand.md)
 ### [尼日利亚](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-nigeria.md)
+### [北马里亚纳群岛](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-northern-mariana-islands.md)
 ### [挪威](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-norway.md)
 ### [Pakistan（巴基斯坦）](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-pakistan.md)
 ### [巴拿马](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-panama.md)
@@ -902,6 +910,8 @@
 ### [特立尼达和多巴哥](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-trinidad-and-tobago.md)
 ### [突尼斯](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-tunisia.md)
 ### [土耳其](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turkey.md)
+### [特克斯和凯科斯群岛](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-turks-and-caicos-islands.md)
+### [乌干达](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uganda.md)
 ### [乌克兰](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-ukraine.md)
 ### [阿拉伯联合酋长国 (UAE)](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-arab-emirates-uae.md)
 ### [英国](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-the-united-kingdom-u-k.md)
