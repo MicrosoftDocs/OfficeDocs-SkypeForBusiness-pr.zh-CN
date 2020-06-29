@@ -117,6 +117,7 @@
 #### [概述](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Teams 使用情况报告](teams-analytics-and-reports/teams-usage-report.md)
 #### [Teams 用户活动报告](teams-analytics-and-reports/user-activity-report.md)
+#### [Teams 应用使用情况报告](teams-analytics-and-reports/app-usage-report.md)
 #### [Teams 设备使用报告](teams-analytics-and-reports/device-usage-report.md)
 #### [PSTN 阻止的用户报告](teams-analytics-and-reports/pstn-blocked-users-report.md)
 #### [PSTN 分钟池报告](teams-analytics-and-reports/pstn-minute-pools-report.md)
