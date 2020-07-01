@@ -12,12 +12,12 @@ ms:contentKeyID: 49733758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6a10e2fb6d8e17352eb8a96be57b24e706fc5d5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 1528ef6124193023a0e5938caac7b40c2c6187a2
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134388"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943925"
 ---
 # <a name="assign-a-per-user-voice-policy-in-lync-server-2013"></a>在 Lync Server 2013 中分配每用户语音策略
 
@@ -40,29 +40,29 @@ ms.locfileid: "42134388"
     
 
     > [!NOTE]  
-    > " <STRONG> &lt;自动&gt; </STRONG> " 设置将应用默认服务器或全局策略设置。
+    > " <STRONG> &lt; 自动 &gt; </STRONG> " 设置将应用默认服务器或全局策略设置。
 
 
 
-## <a name="assigning-a-per-user-voice-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 分配每用户语音策略
+## <a name="assign-per-user-voice-policies"></a>分配每用户语音策略
 
-您可以使用 Windows PowerShell 和**set-csvoicepolicy** cmdlet 分配每用户语音策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Windows PowerShell 和**set-csvoicepolicy** cmdlet 分配每用户语音策略。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 若要了解如何使用远程 Windows PowerShell 连接到 Lync Server，请阅读此 Lync Server Windows PowerShell 博客文章：[快速入门：使用远程 PowerShell 管理 Microsoft Lync server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)。
 
-## <a name="to-assign-a-per-user-voice-policy-to-a-single-user"></a>向单个用户分配每用户语音策略
+### <a name="assign-a-per-user-voice-policy-to-a-single-user"></a>为单个用户分配每用户语音策略
 
   - 以下命令向用户 Ken Myer 分配每用户语音策略 RedmondVoicePolicy。
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName "RedmondVoicePolicy"
 
-## <a name="to-assign-a-per-user-voice-policy-to-multiple-users"></a>为多个用户分配每用户语音策略
+## <a name="assign-a-per-user-voice-policy-to-multiple-users"></a>为多个用户分配每用户语音策略
 
   - 此命令向在 Active Directory 的 Finance OU 中拥有帐户的所有用户分配每用户语音策略 FinanceVoicePolicy。 有关此命令中使用的 OU 参数的详细信息，请参阅[get-csuser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) cmdlet 的相关文档。
     
         Get-CsUser -OU "ou=Finance,ou=North America,dc=litwareinc,dc=com" | Grant-CsVoicePolicy -PolicyName "FinanceVoicePolicy"
 
-## <a name="to-unassign-a-per-user-voice-policy"></a>取消分配每用户语音策略
+## <a name="unassign-a-per-user-voice-policy"></a>取消分配每用户语音策略
 
-  - 以下命令取消分配之前为 Ken Myer 分配的任何每用户语音策略。在取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果有）管理 Ken Myer。站点策略优先于全局策略。
+  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

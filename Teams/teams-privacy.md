@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579568"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938491"
 ---
 # <a name="privacy-and-microsoft-teams"></a>隐私和 Microsoft Teams
 
@@ -58,7 +58,7 @@ Microsoft 处理 Microsoft Teams 中的个人数据，以提供[联机服务条�
 1. 根据联机服务条款中所述的内容（例如，由授权的分包商提供特定服务组件）；
 1. 根据法律要求。
 
-如果执法部门对 Microsoft 提出要求，则 Microsoft 会尝试引导执法部门联系客户，以获取客户的个人数据。 如果不得不向执法部门披露个人数据，则 Microsoft 会立即通知客户，并提供一份要求的副本，除非法律禁止这样做。 有关我们为响应执法部门以及其他政府机构请求而披露的数据的详细信息，请参阅我们的[执法请求报告](https://www.microsoft.com/about/corporate-responsibility/lerr/)。
+如果执法部门对 Microsoft 提出要求，则 Microsoft 会尝试引导执法部门联系客户，以获取客户的个人数据。 如果不得不向执法部门披露个人数据，则 Microsoft 会立即通知客户，并提供一份要求的副本，除非法律禁止这样做。 有关我们为响应执法部门以及其他政府机构请求而披露的数据的详细信息，请参阅我们的[执法请求报告](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report)。
 
 [Teams 安全性指南](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards)提供了有关我们的合规性标准的详细信息。
 
