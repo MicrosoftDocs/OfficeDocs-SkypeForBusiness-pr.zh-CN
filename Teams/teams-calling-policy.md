@@ -19,17 +19,19 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a67952854f608512e88786c2b49d1e2ad8dfcf9
-ms.sourcegitcommit: 184f4f61a3e739a1cfa533c6d95d405d887ea25d
+ms.openlocfilehash: 030be626574e7acd3aa2116595acaba757eaa5af
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "44592840"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44942025"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams 中的呼叫策略
 ===================================
 
-在 Microsoft 团队中，呼叫策略控制用户可以使用哪些呼叫和呼叫转接功能。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转接或同时拨打给其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、将呼叫发送到拨入和出站呼叫等。 默认全局策略是自动创建的，但是管理员还可以创建和分配自定义呼叫策略。
+在 Microsoft 团队中，呼叫策略控制用户可以使用哪些呼叫和呼叫转接功能。 呼叫策略确定用户是否可以进行私人呼叫、使用呼叫转接或同时拨打给其他用户或外部电话号码、将呼叫路由到语音邮件、将呼叫发送到呼叫组、将呼叫发送到拨入和出站呼叫等。
+
+你可以使用自动创建的全局（组织范围默认）策略，也可以创建和分配自定义策略。
 
 ## <a name="create-a-custom-calling-policy"></a>创建自定义呼叫策略
 
@@ -41,9 +43,9 @@ ms.locfileid: "44592840"
 4. 要控制用户是否可以将入站呼叫路由到语音邮件，请选择 "**已启用**" 或 "**用户控制**"。 若要阻止路由到语音邮件，请选择 "**已禁用**"。
 5. 选择 "**保存**"。
 
-## <a name="modify-an-existing-calling-policy"></a>修改现有呼叫策略
+## <a name="edit-a-calling-policy"></a>编辑呼叫策略
 
-请按照以下步骤修改现有的呼叫策略。
+请按照以下步骤编辑现有呼叫策略。
 
 1. 在 Microsoft 团队管理中心的左侧导航中，选择 "**语音**  >  **呼叫策略**"。
 2. 单击要修改的策略旁边的，然后选择 "**编辑**"。
@@ -51,25 +53,7 @@ ms.locfileid: "44592840"
 
 ## <a name="assign-a-custom-calling-policy-to-users"></a>为用户分配自定义呼叫策略
 
-若要向一个用户分配策略，请执行以下操作：
-
-1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
-2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
-3. 在 "**呼叫策略**" 下，选择要分配的呼叫策略，然后单击 "**应用**"。
-
-要一次为多个用户分配策略，请执行以下操作：
-
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
-2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
-
-或者，您也可以执行以下操作：
-
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **呼叫策略**"。
-2. 单击策略名称的左侧以选择该策略。
-3. 选择“管理用户”****。
-4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
-5. 添加完用户后，选择 "**保存**"。
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="calling-policy-settings"></a>呼叫策略设置
 
@@ -91,8 +75,8 @@ ms.locfileid: "44592840"
 
 此设置允许将入站呼叫发送到语音邮件。 有效选项包括：
 
-- **已启用**语音邮件始终可用于拨入呼叫。 
-- **已禁用** 语音邮件不可用于入站呼叫。 
+- **已启用**语音邮件始终可用于拨入呼叫。
+- **已禁用** 语音邮件不可用于入站呼叫。
 - **用户控制**用户可以确定是否希望语音邮件可用。
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>入站呼叫可以路由到呼叫组 
@@ -123,6 +107,8 @@ ms.locfileid: "44592840"
 
 此设置允许你在将 PSTN 呼叫者置于保持状态时启用或禁用保留的音乐。 默认情况下，它处于打开状态。 此设置不适用于呼叫寄存和老板代理人功能，并且目前仅可通过 PowerShell 使用。
 
-## <a name="see-also"></a>另请参阅
+## <a name="related-topics"></a>相关主题
 
 [Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+
+[向团队中的用户分配策略](assign-policies.md)

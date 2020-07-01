@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中创建和管理语音路由策略。
-ms.openlocfilehash: 061e8066e06c4514a27ea302dab96acfad004ac4
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: e3dc656043776d3a2f0e5b37a0c35ab98b7c03f7
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350186"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938122"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的语音路由策略
 
@@ -65,35 +65,16 @@ ms.locfileid: "44350186"
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>为用户分配自定义语音路由策略
 
-### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-若要向一个用户分配策略，请执行以下操作：
-
-1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
-2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
-3. 在 "**语音路由策略**" 下，选择要分配的策略，然后单击 "**保存**"。
-
-要一次为多个用户分配策略，请执行以下操作：
-
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
-2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-3. 单击 "**编辑设置**"，进行所需的更改，然后单击 "**应用**"。  
-
-或者，您也可以执行以下操作：
-
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **语音路由策略**"。
-2. 单击策略名称的左侧以选择该策略。
-3. 选择“管理用户”****。
-4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
-5. 添加完用户后，单击 "**保存**"。
-
-### <a name="using-powershell"></a>使用 PowerShell
-
-请参阅[授权-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。
+另请参阅[授权 CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。
 
 ## <a name="related-topics"></a>相关主题
 
-- [Teams PowerShell 概览](teams-powershell-overview.md)
-- [为直接路由配置语音路由](direct-routing-voice-routing.md)
-- [为直接路由启用基于位置的路由](location-based-routing-enable.md)
-- [向团队中的用户分配策略](assign-policies.md)
+[Teams PowerShell 概览](teams-powershell-overview.md)
+
+[为直接路由配置语音路由](direct-routing-voice-routing.md)
+
+[为直接路由启用基于位置的路由](location-based-routing-enable.md)
+
+[向团队中的用户分配策略](assign-policies.md)

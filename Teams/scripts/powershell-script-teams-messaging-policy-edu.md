@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 748167dc8e03b53fc07611df0ff464d984fb5678
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: c1df183046dc2378081382e2a8b46c9b3b92c80a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951057"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938191"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 脚本示例 - 创建和分配消息传递策略
 
@@ -62,4 +62,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> 你还可以使用批策略分配将消息策略分配给大型用户集。 有关详细信息，请参阅[为你的学校中的大型用户分配策略](../batch-policy-assignment-edu.md)，并[为团队中的用户分配策略](../assign-policies.md)。
+> 你还可以通过批处理策略分配将消息策略直接分配给用户，或者将消息策略分配给用户是其成员的组。 有关详细信息，请参阅[为你的学校中的大型用户分配策略](../batch-policy-assignment-edu.md)，并[为团队中的用户分配策略](../assign-policies.md)。

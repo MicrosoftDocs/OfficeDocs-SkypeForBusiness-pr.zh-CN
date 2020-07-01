@@ -3,7 +3,6 @@ title: 在 Microsoft Teams 中为实时事件进行设置
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -18,12 +17,12 @@ description: 在 Teams 中为实时事件进行设置，包括设置网络、分
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a813f72c61e34ab217b14316ec4c2320affedfc6
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902277"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938501"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -42,20 +41,18 @@ ms.locfileid: "44902277"
 实时事件策略用于控制组织中的哪些人员可以主持实时事件，以及其创建的事件中的可用功能。 可使用默认策略或创建一个或多个自定义实时事件策略。 创建自定义策略后，将其分配给组织中的一个或多个用户组。
 
 > [!NOTE]
-> 除非你创建并分配了自定义策略，你组织中的用户将获取全局策略。 默认情况下，在全局策略中，已为 Teams 用户启用实时事件安排，已关闭实时辅助字幕与字幕（转录），组织中的每个人都可以加入实时事件，并且录制设置已设置为“始终录制”。
+> 除非创建和分配自定义策略，否则组织中的用户将获得全局（组织范围默认）策略。 默认情况下，在全局策略中，已为 Teams 用户启用实时事件安排，已关闭实时辅助字幕与字幕（转录），组织中的每个人都可以加入实时事件，并且录制设置已设置为“始终录制”。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>创建或编辑实时事件策略
 
 <a name="bkcreatepolicy"> </a>
 
-**![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心**
-
-1. 在左侧导航中，转到“**会议**” > “**实时事件策略**”。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**会议**  >  **实时事件策略**"。
 2. 执行下列操作之一：
 
-- 如果要编辑现有默认策略，请选择“**全局(默认为组织范围)**”。
-- 如果要创建新的自定义策略，请选择“**新建策略**”。
-- 如果要编辑自定义策略，请选择该策略，然后选择“**编辑**”。
+    - 如果要编辑现有默认策略，请选择“**全局(默认为组织范围)**”。
+    - 如果要创建新的自定义策略，请选择 "**添加**"。
+    - 如果要编辑自定义策略，请选择该策略，然后选择“**编辑**”。
 
     可更改以下设置以满足组织的需求。
 
@@ -72,26 +69,9 @@ ms.locfileid: "44902277"
 
 你可以使用 Windows PowerShell 来执行此操作。 有关详细信息，请参阅[使用 PowerShell 在 Teams 中设置实时事件策略](set-teams-live-events-policies-using-powershell.md)。 
 
-### <a name="assign-a-live-events-policy-to-users"></a>向用户分配实时事件策略 
+### <a name="assign-a-live-events-policy-to-users"></a>向用户分配实时事件策略
 
-如果你已创建自定义实时事件策略，请将其分配给用户，以使该策略生效。 
-
-![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
-
-1. 在左侧导航中，转到“**用户**”，然后选择用户。
-2. 在“**已分配的策略**”旁，选择“**编辑**”。 
-3. 选择要分配的实时事件策略，然后选择“**保存**”。 
-
-你还可以将实时事件策略分配给一个或多个用户，如下所示：
-
-![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
-
-1. 转到“**会议**” > “**实时事件策略**”。
-2. 单击策略名称的左侧以选择该策略。
-3. 选择“管理用户”****。
-4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
-5. 完成添加用户后，选择“**保存**”。
- 
+如果你已创建自定义实时事件策略，请将其分配给用户，以使该策略生效。 <br><br>[!INCLUDE [assign-policy](../includes/assign-policy.md)]
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>允许用户安排使用外部应用或设备制作的事件
 
@@ -106,6 +86,7 @@ ms.locfileid: "44902277"
 3. 确保实时事件组织者已同意由 Stream 管理员设置的公司策略。如果 Stream 管理员已[设置公司准则策略](https://docs.microsoft.com/stream/company-policy-and-consent)，并要求员工在保存内容之前接受此策略，则用户在 Teams 中创建实时事件（使用外部应用或设备）之前必须这样做。 在组织中推出实时事件功能之前，请确保将要创建这些实时事件的用户已同意该策略。 
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>第 4 步：在 Teams 中为实时事件设置视频分发解决方案
+
 实时事件视频的播放使用自适应比特率流 (ABR)，但它是单播流，这意味着每个观看者都将从 Internet 上获取自己的视频流。 对于发送到组织内的大部分用户的实时事件或视频，观看者可能会消耗大量 Internet 带宽。 对于希望减少实时事件的 Internet 流量的组织，可将实时事件解决方案与 Microsoft 值得信赖的视频交付合作伙伴提供的软件定义的网络 (SDN) 或企业内容交付网络 (eCDN) 相集成。 这些 SDN/eCDN 平台使组织能够在不牺牲最终用户观看体验的情况下优化网络带宽。 我们的合作伙伴可帮助你在整个企业网络中实现更具可扩展性且高效的视频分发。
 
 **在 Teams 之外购买和设置你的解决方案** 通过 Microsoft 值得信赖的视频交付合作伙伴，在扩展视频交付方面获得专家帮助。 在将视频交付提供程序与 Teams 一起使用之前，你必须购买并在 Teams 外部单独设置 SDN/eCDN 解决方案。
@@ -124,9 +105,11 @@ ms.locfileid: "44902277"
 设置 SDN 或 eCDN 解决方案后，即可在 Teams 中配置实时事件的提供商。 
 
 ## <a name="next-steps"></a>后续步骤
+
 转到[配置 Teams 实时事件设置](configure-teams-live-events.md)。
 
 ### <a name="related-topics"></a>相关主题
+
 - [什么是 Teams 实时事件？](what-are-teams-live-events.md)
 - [规划 Teams 实时事件](plan-for-teams-live-events.md)
 - [配置 Teams 实时事件设置](configure-teams-live-events.md)

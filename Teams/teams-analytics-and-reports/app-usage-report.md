@@ -17,12 +17,12 @@ description: 了解如何使用 Microsoft 团队管理中心中的 "团队应用
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a5d5c1bdb5b5bbe58ecdb90721ce24bd0081a65
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902303"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938201"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft 团队应用使用情况报表
 
@@ -30,7 +30,7 @@ Microsoft 团队管理中心中的 "团队应用使用情况" 报表向你提供
 
 ## <a name="view-the-app-usage-report"></a>查看应用使用情况报表
 
-1.  在管理中心的左侧导航中 <https://teams.admin.microsoft.com> ，单击 "**分析 & 报告** \> **使用情况报告**"。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**应用使用情况**"。
+1.  在管理中心的左侧导航中 <https://admin.teams.microsoft.com> ，单击 "**分析 & 报告** \> **使用情况报告**"。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**应用使用情况**"。
 
      :::image type="content" source="media/app-usage-report1.png" alt-text=""使用情况报告" 菜单项的屏幕截图":::
 

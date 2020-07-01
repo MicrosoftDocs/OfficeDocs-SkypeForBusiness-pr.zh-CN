@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用反馈策略控制组织中的团队用户是否可以向 Microsoft 提交有关团队的反馈。
-ms.openlocfilehash: 22e254cb2db6dc63e01c9c8ef5628fb97cfa0e16
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b489e574a1d1c2a2b1ac5faf69626e997dbbfaa9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637951"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938481"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的反馈策略
 
@@ -46,11 +46,11 @@ ms.locfileid: "44637951"
 
 作为管理员，你可以控制你的组织中的用户是否可以通过**提供反馈**以及是否收到调查来向 Microsoft 发送有关团队的反馈。 默认情况下，组织中的所有用户都会自动分配全局（组织范围的默认）策略，并且在策略中启用 "**提供反馈**" 功能和 "调查"。 例外情况是团队教育版，其中为教师启用了功能并对学生禁用了这些功能。
 
-你可以编辑全局策略，也可以创建并分配自定义策略。 如果向用户分配了自定义策略，则该策略将应用于用户。 如果未向用户分配自定义策略，则全局策略将应用于该用户。 编辑全局策略或分配策略后，可能需要几个小时才能使更改生效。
+你可以编辑全局策略，也可以创建并分配自定义策略。 编辑全局策略或分配自定义策略后，可能需要几个小时才能使更改生效。
 
 例如，你希望允许组织中的所有用户通过**提供反馈**并接收除培训新员工之外的调查来发送反馈。 在此方案中，创建自定义策略以关闭这两个功能，并将其分配给新的员工。 组织中的所有其他用户均会在启用功能的情况中获得全局策略。  
 
-使用**CsTeamsFeedbackPolicy** cmdlet （*可在[此处找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*）创建自定义策略和**授予 CsTeamsFeedbackPolicy** cmdlet 以将其分配给一个或多个用户或用户组，如安全组或通讯组。
+使用 PowerShell 管理反馈策略。 使用**CsTeamsFeedbackPolicy** cmdlet （*可在[此处找到](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*）创建自定义策略和**授予 CsTeamsFeedbackPolicy** cmdlet 以将其分配给一个或多个用户或用户组，如安全组或通讯组。
 
 要关闭并打开这些功能，请设置以下参数：
 
@@ -65,35 +65,17 @@ ms.locfileid: "44637951"
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
 ```
 
-## <a name="assign-a-custom-feedback-policy"></a>分配自定义反馈策略
+## <a name="assign-a-custom-feedback-policy-to-users"></a>向用户分配自定义反馈策略
 
-### <a name="assign-a-custom-feedback-policy-to-a-user"></a>向用户分配自定义反馈策略
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 在此示例中，我们将名为 "新建员工反馈" 策略的自定义策略分配给名为 "user1" 的用户。
 
 ```PowerShell
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
-### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>向组中的用户分配自定义反馈策略
-
-你可能希望将自定义反馈策略分配给已标识的多个用户。 例如，你可能想要向安全组中的所有用户分配策略。
-
-在此示例中，我们将名为 "新员工反馈" 策略的自定义反馈策略分配给 Contoso 新员工组中的所有用户。  
-
-获取特定组的 GroupObjectId。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso New Hires"
-```
-获取指定组的成员。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-将组中的所有用户分配给特定的反馈策略。 在此示例中，它是新员工反馈策略。
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.UserPrincipalName}
-``` 
-此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
 
 ## <a name="related-topics"></a>相关主题
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
+- [向团队中的用户分配策略](assign-policies.md)

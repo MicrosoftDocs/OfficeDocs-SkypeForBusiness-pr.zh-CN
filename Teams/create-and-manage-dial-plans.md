@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 了解如何使用 Microsoft 团队管理中心或 Windows PowerShell 创建和管理拨号计划（PSTN 呼叫拨号计划）。
-ms.openlocfilehash: 966ac2e21d3bc57dd32a0b2732e0be285b9fdf0d
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691338"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938231"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -60,13 +60,9 @@ ms.locfileid: "44691338"
 2. 通过单击拨号计划名称左侧的 "拨号计划"，然后单击 "**编辑**" 来选择它。
 3. 进行所需的更改，然后单击 "**保存**"。
 
-### <a name="add-users-to-a-dial-plan"></a>将用户添加到拨号计划
+### <a name="assign-a-dial-plan-to-users"></a>为用户分配拨号计划
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。
-2. 通过单击显示名称来选择用户。
-3. 选择 "**策略**" 选项卡。
-4. 单击分配的策略右侧的 "**编辑**"。
-5. 从 "**拨号计划**" 下拉菜单中，选择要分配给用户的拨号计划，然后单击 "**应用**"。
+您可以采用与分配策略相同的方式分配拨号计划。 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="using-powershell"></a>使用 PowerShell
   

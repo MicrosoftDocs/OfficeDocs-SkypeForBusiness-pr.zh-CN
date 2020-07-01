@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d521a00389286bf60a42201134a1d9b697a9bfdc
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 9ddbcd1a5110cff52ce518cf052279204fc8e2c9
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44890001"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938211"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用设置策略
 
@@ -45,9 +45,9 @@ ms.locfileid: "44890001"
 
 若要查看其预安装应用，请在应用栏中单击 " **..."** 团队桌面和 web 客户端中的更多应用，并在移动客户端中向上轻扫。
 
-在 Microsoft 团队管理中心中管理应用设置策略。 可使用全局（组织范围的默认）策略，或者创建自定义策略并将其分配给用户。 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
+在 Microsoft 团队管理中心中管理应用设置策略。 你可以使用全局（组织范围默认）策略或创建并分配自定义策略。  除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
-你可以编辑全局策略中的设置以包括所需的应用。 如果要为组织中的不同组用户自定义团队，请创建并分配一个或多个自定义策略。 如果向用户分配了自定义策略，则该策略将应用于用户。 如果未向用户分配自定义策略，则全局策略将应用于该用户。
+你可以编辑全局策略中的设置以包括所需的应用。 如果要为组织中的不同组用户自定义团队，请创建并分配一个或多个自定义策略。
 
 ![显示应用设置策略页面的屏幕截图](media/app-setup-policies.png)
 
@@ -93,52 +93,7 @@ ms.locfileid: "44890001"
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>向用户分配自定义应用设置策略
 
-你可以使用 Microsoft 团队管理中心向单个用户或 Skype for business PowerShell 模块分配自定义策略，以便将自定义策略分配给组中的用户，例如安全组或通讯组。
-
-### <a name="assign-a-custom-app-setup-policy-to-users"></a>向用户分配自定义应用设置策略
-
-若要向一个用户分配策略，请执行以下操作：
-
-1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
-2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
-3. 在 "**应用设置策略**" 下，选择要分配的应用设置策略，然后单击 "**应用**"。
-
-若要一次向多个用户分配策略，请执行以下操作：
-
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
-2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
-3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。  
-
-或者，您也可以执行以下操作：
-
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **设置策略**"。
-2. 单击策略名称的左侧以选择该策略。
-3. 选择“管理用户”****。
-4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
-5. 添加完用户后，选择 "**保存**"。
-
-### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>为组中的用户分配自定义应用设置策略
-
-你可能需要将自定义应用设置策略分配给已标识的多个用户。 例如，你可能想要向安全组中的所有用户分配策略。 你可以通过连接到 Azure Active Directory PowerShell for Graph 模块和 Skype for Business PowerShell 模块来执行此操作。 有关使用 PowerShell 管理团队的详细信息，请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。
-
-在此示例中，我们为 Contoso 制药人力资源项目组中的所有用户分配一个名为 "HR App Setup 策略" 的自定义应用设置策略。  
-
-> [!NOTE]
-> 通过按照[连接到单个 Windows PowerShell 窗口中的所有 Microsoft 365 或 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
-
-获取特定组的 GroupObjectId。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
-```
-获取指定组的成员。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-将组中的所有用户分配到特定应用设置策略。 在此示例中，它是 HR 应用设置策略。
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
-``` 
-此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="faq"></a>常见问题
 
@@ -202,5 +157,6 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 
 ## <a name="related-topics"></a>相关主题
 
-- [Teams 中适用于应用的管理设置](admin-settings.md)
-- [向团队中的用户分配策略](assign-policies.md)
+[Teams 中适用于应用的管理设置](admin-settings.md)
+
+[向团队中的用户分配策略](assign-policies.md)

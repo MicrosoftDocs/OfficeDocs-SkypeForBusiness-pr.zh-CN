@@ -2,7 +2,7 @@
 title: 管理你的组织的倒班应用
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,17 +18,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2ca24f2176547f83efb6bdce591ac71d516dca9
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: ecc64c105bb9171942dfac912ccea4f2fa1442aa
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416882"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938351"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
 > [!IMPORTANT]
-> 2020年6月30日生效，Microsoft StaffHub 将停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天，团队包括 "倒班" 应用，用于计划管理，而其他功能将随着时间的推移而推出。 StaffHub 将在2020年6月30日停止为所有用户工作。 任何试图打开 StaffHub 的人都将显示一条消息，指导他们下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 已停用](microsoft-staffhub-to-be-retired.md)。  
+> 2020年6月30日生效，Microsoft StaffHub 已停用。 我们正在将 StaffHub 功能构建到 Microsoft 团队中。 今天，团队包括 "倒班" 应用，用于计划管理，而其他功能将随着时间的推移而推出。 StaffHub 已停止为2020年6月30日的所有用户工作。 任何试图打开 StaffHub 的人都将显示一条消息，指导他们下载团队。 若要了解详细信息，请参阅[Microsoft StaffHub 已停](microsoft-staffhub-to-be-retired.md)用。  
 
 ## <a name="overview-of-shifts"></a>倒班概述
 
@@ -65,7 +65,7 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstlineWorker 应用设置策略固定对团队的倒班
 
-应用设置策略允许你自定义团队，以突出显示你的组织中的用户最重要的应用。 策略中设置的应用将固定到应用程序栏，应用栏 &mdash; 位于团队桌面客户端和团队移动客户端的底部， &mdash; 用户可在其中快速轻松地访问它们。 
+应用设置策略允许你自定义团队，以突出显示你的组织中的用户最重要的应用。 策略中设置的应用将固定到应用程序栏，应用栏 &mdash; 位于团队桌面客户端和团队移动客户端的底部， &mdash; 用户可在其中快速轻松地访问它们。
  
 团队包括一个内置的 FirstlineWorker 应用设置策略，可分配给你的组织中的一线工作人员。 默认情况下，该策略包括活动、班次、聊天和呼叫应用。 
 
@@ -73,50 +73,9 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 ![FirstlineWorker 应用设置策略的屏幕截图](../../media/firstline-worker-app-setup-policy.png "Microsoft 团队管理中心中的 FirstlineWorker 应用设置策略的屏幕截图")
 
-#### <a name="assign-the-firstlineworker-policy-to-users"></a>将 FirstlineWorker 策略分配给用户
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>将 FirstlineWorker 应用设置策略分配给用户
 
-若要向一个用户分配 FirstlineWorker 应用设置策略，请执行以下操作：
-
-1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
-2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
-3. 在 "**应用设置策略**" 下，选择 " **FirstlineWorker**"，然后单击 "**应用**"。
-
-要一次为多个用户分配策略，请执行以下操作：
-
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"，然后搜索用户或筛选视图以显示所需的用户。
-2. 在 " **&#x2713;** " （复选标记）列中，选择用户。 若要选择 "所有用户"，请单击表格顶部的 "&#x2713;" （复选标记）。
-3. 单击 "**应用设置策略**" 下的 "**编辑设置**"，选择 " **FirstlineWorker**"，然后单击 "**应用**"。  
-
-或者，您也可以执行以下操作：
-
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **设置策略**"。
-2. 通过单击策略名称的左侧，选择 FirstlineWorker 策略。
-3. 选择“管理用户”****。
-4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
-5. 添加完用户后，选择 "**应用**"。
-
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>将 FirstlineWorker 应用设置策略分配给组的用户成员
-
-你可以通过连接到 Azure Active Directory PowerShell for Graph 模块和 Skype for Business PowerShell 模块，将 FirstlineWorker 应用设置策略分配给组的用户成员（如安全组）。 有关使用 PowerShell 管理团队的详细信息，请参阅[团队 PowerShell 概述](../../teams-powershell-overview.md)。
-
-在此示例中，我们将 FirstlineWorker 应用设置策略分配给 Contoso 一线团队组的所有用户成员。
-
-> [!NOTE]
-> 请按照[连接到单个 Windows PowerShell 窗口中的所有 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
-
-获取特定组的 GroupObjectId。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
-```
-获取指定组的成员。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-将 FirstlineWorker 应用设置策略分配给该组的所有用户成员。
-```PowerShell
-$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
-``` 
-此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
+[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>在审核日志中搜索倒班事件
 

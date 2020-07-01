@@ -22,23 +22,23 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4bde860f0f3e64899f4309706575c71862c754a5
-ms.sourcegitcommit: 2e8a61abdd586bf8f0f88cac3b7d4ca4b9d9be34
+ms.openlocfilehash: 83a06357402b44c5c15932211e562e488c2a2d5a
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44889991"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938471"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
 作为管理员，你可以使用应用权限策略来控制适用于组织中的 Microsoft Teams 用户的应用。 你可以允许或阻止由 Microsoft、第三方和你的组织发布的所有应用或特定应用。 阻止某个应用后，具有该策略的用户将无法从 Teams 应用商店安装它。 必须是全局管理员或 Teams 服务管理员才能管理这些策略。
 
-你可以在 Microsoft 团队管理中心中管理应用权限策略。 可以使用全局（组织范围默认）策略，也可以创建自定义策略并将其分配给组中的单个用户或用户。 编辑或分配策略后，可能需要几个小时才能使更改生效。
+你可以在 Microsoft 团队管理中心中管理应用权限策略。 你可以使用全局（组织范围默认）策略或创建并分配自定义策略。 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 编辑或分配策略后，可能需要几个小时才能使更改生效。
 
 ![应用权限策略的屏幕截图](media/app-permission-policies.png)
 
 > [!NOTE]
-> 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 组织范围内的应用设置替代全局策略和你创建并分配给用户的任何自定义策略。
+> 组织范围内的应用设置替代全局策略和你创建并分配给用户的任何自定义策略。
 
 如果您的组织已在团队中，则在 Microsoft 365 管理中心的**租户范围设置**中配置的应用设置将反映在 "[管理应用](manage-apps.md)程序" 页面上的组织范围内应用设置中。 如果您不熟悉团队，并且只是开始使用，则默认情况下，所有应用都允许在全局策略中使用。 这包括由 Microsoft、第三方和你的组织发布的应用。
 
@@ -82,52 +82,7 @@ ms.locfileid: "44889991"
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>向用户分配自定义应用权限策略
 
-你可以使用 Microsoft 团队管理中心将自定义策略分配给一个或多个用户或 Skype for business PowerShell 模块，以便为组中的用户分配自定义策略，例如安全组或通讯组中的所有用户。
-
-### <a name="assign-a-custom-app-permission-policy-to-users"></a>向用户分配自定义应用权限策略
-
-若要向一个用户分配策略，请执行以下操作：
-
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。
-2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
-3. 在 "**应用权限策略**" 下，选择要分配的应用权限策略，然后单击 "**应用**"。
-
-若要一次向多个用户分配策略，请执行以下操作：
-
-1. 在 Microsoft Teams 管理中心的左侧导航栏中，转到“**用户**”，然后搜索用户或筛选视图，以显示所需的用户。
-2. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
-3. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。  
-
-或者，您也可以执行以下操作：
-
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **权限策略**"。
-2. 单击策略名称的左侧以选择该策略。
-3. 选择“管理用户”****。
-4. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
-5. 添加完用户后，单击 "**保存**"。
-
-### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>将自定义应用权限策略分配给组中的用户
-
-你可能需要将自定义应用权限策略分配给已标识的多个用户。 例如，你可能想要向安全组中的所有用户分配策略。 你可以通过连接到 Azure Active Directory PowerShell for Graph 模块和 Skype for Business PowerShell 模块来执行此操作。 有关使用 PowerShell 管理团队的详细信息，请参阅[团队 PowerShell 概述](teams-powershell-overview.md)。
-
-在此示例中，我们将名为 HR App 权限策略的自定义应用权限策略分配给 Contoso 制药人力资源项目组中的所有用户。  
-
-> [!NOTE]
-> 通过按照[连接到单个 Windows PowerShell 窗口中的所有 Microsoft 365 或 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)中的步骤，确保首先连接到用于 Graph 模块和 Skype For business powershell 模块的 Azure Active Directory powershell。
-
-获取特定组的 GroupObjectId。
-```PowerShell
-$group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
-```
-获取指定组的成员。
-```PowerShell
-$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
-```
-将组中的所有用户分配到特定应用权限策略。 在此示例中，它是 HR 应用权限策略。
-```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
-``` 
-此命令可能需要几分钟才能执行，具体取决于组中的成员数量。
+[!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 ## <a name="app-permission-policies-for-gcc"></a>适用于 GCC 的应用权限策略
 
@@ -196,5 +151,6 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 
 ## <a name="related-topics"></a>相关主题
 
-- [Teams 中适用于应用的管理设置](admin-settings.md)
-- [向团队中的用户分配策略](assign-policies.md)
+[Teams 中适用于应用的管理设置](admin-settings.md)
+
+[向团队中的用户分配策略](assign-policies.md)

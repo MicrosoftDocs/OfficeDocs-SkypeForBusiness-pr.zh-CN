@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 了解医疗保健的功能，包括护理协调、安全消息、telehealth、EHR 集成和一线 worker 系统集成。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905734"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938361"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -109,10 +109,4 @@ Microsoft 团队支持医生、临床医生、护士和其他员工通过以下�
 
 ## <a name="firstline-worker-integration"></a>一线工作人员集成
 
-Microsoft 团队与一线工作人员集成，可用于协调倒班人员配备功能。
-
- 请参阅以下文章：
-
-- [将 Microsoft StaffHub 团队移动到 Microsoft 团队中的倒班](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
-
-- [在 Microsoft Teams 中为组织管理 Shifts 应用](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+Microsoft 团队与一线工作人员集成，可用于协调倒班人员配备功能。 请参阅[在 Microsoft 团队中管理你的组织的倒班应用](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。

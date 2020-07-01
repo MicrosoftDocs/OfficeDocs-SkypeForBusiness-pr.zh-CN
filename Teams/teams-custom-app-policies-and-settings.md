@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: b368b0f81a4ce6bcdf3416ec597b702534e4a857
-ms.sourcegitcommit: 54ce623c4db792b5e33f5db00e575afc88776b61
+ms.openlocfilehash: 454d3b4a057b15ad0f329434f541cd03d2b41a7f
+ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44698272"
+ms.lasthandoff: 06/30/2020
+ms.locfileid: "44938451"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理自定义应用策略和设置
 
@@ -132,6 +132,8 @@ ms.locfileid: "44698272"
 | 开     | 开     | 关         | 用户无法上载自定义应用程序。       |
 | 开    | 开        | 开        | 用户可以将自定义应用上载到团队，无论用户是否是团队所有者。 用户可以在个人上下文中上载自定义应用程序。       |
 
- ## <a name="related-topics"></a>相关主题
+## <a name="related-topics"></a>相关主题
  
-- [Teams 中适用于应用的管理设置](admin-settings.md)
+[Teams 中适用于应用的管理设置](admin-settings.md)
+
+[向团队中的用户分配策略](assign-policies.md)
