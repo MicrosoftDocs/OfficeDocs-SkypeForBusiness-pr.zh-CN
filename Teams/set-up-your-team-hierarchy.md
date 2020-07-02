@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e60e152128c60279e3bb9ee9e3d37e881effce9a
-ms.sourcegitcommit: 1a6b4efad1e6a958cdbaae4b0e2e231145c9658f
+ms.openlocfilehash: 136b06a6c134fc2ec906c8c2175d462f71a5b9a6
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44321741"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944015"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>设置团队目标层次结构
 
@@ -116,7 +116,7 @@ CSV 文件必须包含以下三列，顺序从第一列开始。 必须将节点
 ## <a name="apply-your-hierarchy"></a>应用层次结构
 
 > [!IMPORTANT]
-> 若要执行此步骤，必须从[PowerShell 测试库](https://www.poshtestgallery.com/packages/MicrosoftTeams/)安装并使用团队 PowerShell 模块的最新版本。 有关如何安装该模块的步骤，请参阅[安装团队 PowerShell 模块的预发布版本](install-prerelease-teams-powershell-module.md)。
+> 若要执行此步骤，必须从[Powershell 库](https://www.powershellgallery.com/packages/MicrosoftTeams/)安装并使用团队 PowerShell 公共预览版模块。 有关如何安装该模块的步骤，请参阅[安装团队 PowerShell](teams-powershell-install.md)。
 
 在架构 CSV 文件中定义层次结构后，即可将其上载到团队。 若要执行此操作，请运行以下命令。 您必须是全局管理员或团队服务管理员才能执行此步骤。
 
@@ -127,7 +127,7 @@ Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ## <a name="remove-your-hierarchy"></a>删除层次结构
 
 > [!IMPORTANT]
-> 若要执行此步骤，必须从[PowerShell 测试库](https://www.poshtestgallery.com/packages/MicrosoftTeams/)安装并使用团队 PowerShell 模块的最新版本。 有关如何安装该模块的步骤，请参阅[安装团队 PowerShell 模块的预发布版本](install-prerelease-teams-powershell-module.md)。
+> 若要执行此步骤，必须从[Powershell 库](https://www.powershellgallery.com/packages/MicrosoftTeams/)安装并使用团队 PowerShell 公共预览版模块。 有关如何安装该模块的步骤，请参阅[安装团队 PowerShell](teams-powershell-install.md)。
 
 如果要为组织中的所有用户立即禁用 "**已发布的列表**" 选项卡，您可以删除您的层次结构。 用户无法访问 "**已发布的列表**" 选项卡或选项卡上的任何功能。 这包括创建新任务列表以发布、访问草稿列表、发布、取消发布和重复列表以及查看报表的功能。 删除层次结构不会取消发布以前发布的任务。 这些任务将仍可供收件人团队完成。 
 

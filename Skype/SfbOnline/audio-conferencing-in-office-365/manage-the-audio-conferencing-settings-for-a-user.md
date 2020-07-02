@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '作为 Microsoft 365 或 Office 365 管理员，您可以编辑您的组织中的单个用户的 Skype for Business Online 音频会议设置，例如提供商、默认收费或免费号码、会议 ID 或 PIN。 '
-ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 47ad2b0d6b5684d2a897055ad43e253e55c67109
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164131"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44943845"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>在 Skype for business Online 中管理用户的音频会议设置
 
 > [!Note]
 > 如果要在 Microsoft 团队中管理用户设置，请参阅[在 Microsoft 团队中管理用户的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)。
 
-作为 Microsoft 365 或 Office 365 管理员，您可以编辑您的组织中的单个用户的音频会议设置，例如提供商、默认收费或免费号码、会议 ID 或 PIN 等。如果您想要编辑您的组织的设置，请参阅[管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization.md)。
+As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. 使用你的工作或学校帐户登录。

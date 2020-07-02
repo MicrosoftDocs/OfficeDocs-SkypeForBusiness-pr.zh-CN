@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中定义和使用敏感度标签。
-ms.openlocfilehash: e2482a5afeb7dff9804a5a0591cd377be9f9b177
-ms.sourcegitcommit: 27fae90d4429e81143ea285edab9dbc19bd3c0bb
+ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "44854114"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012308"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 团队的灵敏度标签
 
@@ -100,6 +100,10 @@ $setting["EnableMIPLabels"] = "False"
 你可以指定使用特定标签创建的团队是否允许来宾访问。 使用不允许来宾访问的标签创建的团队仅对您的组织中的用户可用。 无法将组织外部的人员添加到团队。
 
 ## <a name="known-issues"></a>已知问题
+
+**团队创建过程中未显示子默认标签**
+
+当前，设置为团队的默认标签的子标签不会显示在团队创建模型的 "敏感度标签" 下拉列表的顶部。 团队创建者仍可使用下拉列表将子标签应用为解决方法。
 
 **Microsoft 团队管理中心中对灵敏度标签的支持**
 

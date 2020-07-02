@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何管理组织中专用频道的生命周期。
-ms.openlocfilehash: 45d9591eed2bd3a880d3ca3e2ceb2252bf6f8898
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: 0f4f4d21adcb73731c8d0218a7b776c0aacbc7da
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326689"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012288"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>在 Microsoft 团队中管理专用频道的生命周期
 
 在这里，你将找到管理你的组织中的[专用频道](private-channels.md)的生命周期所需的指南。
 
 > [!IMPORTANT]
-> 如果你使用本文中的 PowerShell 步骤管理专用通道，则必须从[PowerShell 测试库](https://www.poshtestgallery.com/packages/MicrosoftTeams/)安装并使用团队 PowerShell 模块的最新预发布版本。 有关如何安装该模块的步骤，请参阅[安装团队 PowerShell 模块的预发布版本](install-prerelease-teams-powershell-module.md)。 团队 PowerShell 模块的最新公开可用版本不支持管理专用通道。
+> 如果你使用本文中的 PowerShell 步骤管理专用通道，则必须从[Powershell 库](https://www.powershellgallery.com/packages/MicrosoftTeams/)安装并使用团队 PowerShell 公共预览版模块。 有关如何安装该模块的步骤，请参阅[安装 Microsoft 团队 PowerShell](teams-powershell-install.md)。 最新的常规可用性团队 PowerShell 模块不支持管理专用通道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>设置团队成员是否可以创建专用频道
 

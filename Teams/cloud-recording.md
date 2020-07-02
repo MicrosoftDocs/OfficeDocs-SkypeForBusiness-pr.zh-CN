@@ -16,12 +16,12 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97fa736a1f2277dbd9da2305b75bf16b26d34e73
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
+ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874409"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "45012278"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -43,7 +43,7 @@ ms.locfileid: "44874409"
 - 用户在 Microsoft Stream 中有足够的存储空间来保存录像
 - 用户的 TeamsMeetingPolicy-AllowCloudRecording 设置已设置为 true
 - 用户不是会议中的匿名、来宾或联合用户
-- 若要为用户的会议启用脚本，则分配给他们的团队会议策略必须具有-AllowTranscription 设置才能设置为 true。
+- 若要为用户的会议启用脚本，则分配给他们的团队会议策略必须将-AllowTranscription 设置设置为 true。
 
 需要授予<sup>1</sup>个用户将会议上载/下载到 Microsoft Stream 的许可证，但不需要许可证即可录制会议。 如果你希望阻止用户录制 Microsoft Teams 会议，则必须为其授予将 AllowCloudRecording 设置为 $False 的 TeamsMeetingPolicy。
 
@@ -115,7 +115,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 此设置控制播放会议录制期间是否提供字幕和脚本功能。 如果关闭此功能，在播放会议录制的过程中，"**搜索**" 和 **"抄送**" 选项将不可用。 启动录制的人员需要启用此设置，以便录制还包括脚本。
 
-请注意，当前只有在团队中将语言设置为英语且在会议中朗读英语的用户才支持使用录制的会议。
+**请注意**，当前只有在团队中将语言设置为英语且在会议中朗读英语的用户才支持使用录制的会议。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 

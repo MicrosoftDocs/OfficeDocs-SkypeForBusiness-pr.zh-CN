@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: 使用 Microsoft 团队预定义模板快速轻松地为中小型企业创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d88ee5ea6a584a4b064b1ba12dd6d6ef72f2f25
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
+ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757053"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "44944025"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>面向中小型企业的团队模板入门
 
@@ -30,7 +30,7 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 对于小型企业和中型企业，模板非常强大，因为它们有助于管理员在其组织中快速部署团队。 模板还有助于为用户调整方向，并开始有效地使用团队。 本文适用于你负责在你的组织中规划、部署和管理多个团队的情况。
 
-我们目前提供了三个第一方的 SMB 模板，您可以在各种情况下利用这些模板。 所有模板都将创建*专用*团队。 创建团队并准备好向组织推出后，您可以根据需要将隐私设置为*组织范围*或*公共*。 若要深入了解有关团队模板的详细信息，请参阅[团队模板入门](get-started-with-teams-templates.md)。
+我们目前提供三个第一方的 SMB 模板，您可以利用这些模板在各种情况下使用。 所有模板都将创建*专用*团队。 创建团队并准备好向组织推出后，您可以根据需要将隐私设置为*组织范围*或*公共*。 若要深入了解有关团队模板的详细信息，请参阅[团队模板入门](get-started-with-teams-templates.md)。
 
 ## <a name="company-wide-template"></a>公司范围的模板
 公司范围的模板适用于与整个公司相关的通信和协作。 您可以将常规频道用于公司范围内的公告、行业新闻或执行公告。 人力资源频道是整合所有与人力资源相关的活动（如作业发布、新员工加入、培训和开发）的绝佳位置。 有趣内容频道为所有随机和有趣的文章提供了社交平台。
