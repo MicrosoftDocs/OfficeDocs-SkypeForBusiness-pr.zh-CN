@@ -18,19 +18,19 @@ description: 了解在 Microsoft 团队中向用户分配策略的不同方法�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 403131fa3e7bd2b3fb2a128640ac49497394d669
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938541"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021750"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft Teams 中的用户分配策略
 
 > [!NOTE]
 > **请注意以下有关本文所述的功能之一的事项，并将策略分配给组**： 
 > - [分配给使用 Microsoft 团队管理中心的组的策略分配](#using-the-microsoft-teams-admin-center-3)尚未发布。 已宣布，即将推出。 
-> - [对使用 PowerShell 的组的策略分配](#using-powershell-3)目前仅在专用预览中可用。 此功能的 Powershell cmdlet 位于预发布团队 PowerShell 模块中。
+> - [对使用 PowerShell 的组的策略分配](#using-powershell-3)目前仅在专用预览中可用。 此功能的 cmdlet 位于团队 PowerShell 公共预览版模块中。
 >
 > 若要保持在此功能的 "发布" 状态的顶部，请查看[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)。
 
@@ -160,7 +160,7 @@ Import-PSSession -Session $CSSession
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-若要了解详细信息，请参阅[通过 PowerShell 管理策略](teams-powershell-overview.md#managing-policies-via-powershell)。
+若要了解详细信息，请[通过 PowerShell 阅读管理策略](teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
 ## <a name="assign-a-policy-package"></a>分配策略包
 
@@ -315,40 +315,14 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-**此功能目前仅在私人预览版中可用。此功能的 cmdlet 位于预发布团队 PowerShell 模块中。**
+**此功能目前仅在私人预览版中可用。此功能的 cmdlet 位于团队 PowerShell 公共预览版模块中。**
 
 > [!NOTE]
 > 目前，对使用 PowerShell 的组的策略分配不可用于所有团队策略类型。 有关受支持的策略类型列表，请参阅[CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft 团队 PowerShell 模块
 
-这些 cmdlet 位于团队 PowerShell 模块的预发布版本中。 按照以下步骤，首先卸载团队 PowerShell 模块的通用版本（如果已安装），然后从 PowerShell 测试库安装该模块的最新预发布版本。
-
-如果尚未执行此操作，请运行以下操作以将 PowerShell 测试库注册为受信任的来源。
-
-```powershell
-Register-PSRepository -SourceLocation https://www.poshtestgallery.com/api/v2 -Name PsTestGallery -InstallationPolicy Trusted
-```
-
-如果你安装了通用版本的团队 PowerShell 模块，请运行以下程序将其卸载。
-
-```powershell
-Uninstall-Module MicrosoftTeams -AllVersions
-```
-
-运行以下操作，从 PowerShell 测试库中安装最新的 Microsoft 团队 PowerShell 模块。
-
-```powershell
-Install-Module MicrosoftTeams -Repository PSTestGallery
-```
-
-运行以下操作以连接到团队并启动会话。
-
-```powershell
-Connect-MicrosoftTeams
-```
-
-出现提示时，请使用管理员凭据登录。
+这些 cmdlet 是团队 PowerShell 公共预览版模块的一部分。 有关分步指南，请参阅[安装团队 PowerShell](teams-powershell-install.md)。
 
 #### <a name="assign-a-policy-to-a-group"></a>为组分配策略
 

@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 了解有关使用 Microsoft 批量许可的组织启用音频会议功能的每分钟费率选项。
-ms.openlocfilehash: 4facf6f01c08104f920c779b59f38feabb2150fc
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: f153c05638f26244a9f37b69018cc22428ee99f2
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610507"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021740"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音频会议按分钟付费
 
@@ -39,7 +39,7 @@ ms.locfileid: "44610507"
 
   
 > [!NOTE]
-> 由于此优惠仅适用于批量和授权客户，因此你需要与你的帐户代表一起获取许可证。 
+> 由于此优惠仅适用于批量和授权客户，因此你需要与你的帐户代表一起获取这些许可证。 
   
 ## <a name="need-some-details"></a>需要一些详细信息？
 
@@ -54,7 +54,7 @@ ms.locfileid: "44610507"
 > [!NOTE]
 > 通过查看[音频会议](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)中的 "**查看要呼叫的位置的费率" 部分**，可以找到与这些通话类型相关联的拨入和拨出费率。
   
-按分钟付费要求你的组织启用[通信信用点数](what-are-communications-credits.md)，并为每位用户分配许可证，以便音频会议正常工作。 如果需要更多详细信息，请参阅为你的组织和/或[Microsoft 团队附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)[设置通信信用点数](set-up-communications-credits-for-your-organization.md)。
+每分钟支付要求您的组织设置[通讯信用点数](what-are-communications-credits.md)。 它还要求每个用户必须分配每分钟付费许可证和通讯信用许可证，才能使用音频会议。 如果需要更多详细信息，请参阅为你的组织和/或[Microsoft 团队附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)[设置通信信用点数](set-up-communications-credits-for-your-organization.md)。
   
 若要为组织中的用户启用音频会议每分钟支付，请参阅[在 Microsoft Office 365 或 Office 365 中试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
 
@@ -76,7 +76,7 @@ ms.locfileid: "44610507"
 
  **正在搜索价格？** 请参阅以下内容：
   
-- [音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [音频会议的定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
     
 - [电话系统定价](https://products.office.com/skype-for-business/phone-system#Requirements)
     

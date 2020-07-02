@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 按照以下步骤为呼叫者创建用于加入 Microsoft 团队会议的默认电话号码。
-ms.openlocfilehash: 81624090b1e82bf695f8e558cd55324a45d927e5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691108"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021760"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
@@ -55,7 +55,7 @@ Microsoft 365 和 Office 365 中的音频会议使组织中的用户能够创建
 
 只有管理员才能进行这些更改。
 
-1. 登录到管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
+1. 登录到 Microsoft 团队管理中心。
 
 2. 在左侧导航中，单击 "**用户**"。
 

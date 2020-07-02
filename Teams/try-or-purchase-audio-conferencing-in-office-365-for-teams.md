@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '了解如何试用或购买适用于 Microsoft 365 或 Office 365 的音频会议（PSTN 会议）许可证来设置用户可以拨入的电话会议。 '
-ms.openlocfilehash: 1a728c9e7920f1bc8387663a1db918d6e095ab01
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 8c94dac38495069f22f9729e8625bc006fb4662f
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868529"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021860"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>在 Microsoft 团队的 Microsoft 365 中试用或购买音频会议
 
@@ -72,7 +72,7 @@ ms.locfileid: "44868529"
 4. [将许可证分配](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)给组织中打算安排或主持会议的用户。
 
     > [!NOTE]
-    > 如果你有按分钟付费的音频会议许可证，无需专门为使用音频会议而将通信点数许可证单独分配给每个用户（对于其他服务，可能仍然需要对其进行分配）。
+    > 如果您有音频会议每分钟收费许可证，则您还必须为每个用户单独分配一个通讯信用许可证。
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>第 2 步：为领导或安排会议的人员设置音频会议提供商
 

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议已认证，可供 Microsoft 团队获得最佳效果。
-ms.openlocfilehash: 6253d1bd46589892d1558ab7e9871bbf38c8cdbb
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877903"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021730"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -44,67 +44,77 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 
 以下手机认证适用于 Microsoft 团队：
 
-|电话模型|固件版本|发布日期 |
-|:---|:---|:---|
-|Audiocodes C450HD | C450HD_TEAMS_0. 225 | 2019年3月|
-|Audiocodes C448HD （仅限 CAP 模式） | C450HD_TEAMS_0. 225 | 2019年3月|
-|Crestron M100| 本产品已停产。 有关详细信息，请访问 Crestron 网站上的[Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 从5/11/2020 终止|
-|Crestron Flex UC-P100 & UC-t  | 本产品已停产。 有关详细信息，请访问 Crestron 网站上的 " [UC 电话]( https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)"。 |从5/11/2020 终止|
-|联想 ThinkSmart 视图|18781Y 200410.067|2020年4月|
-|Poly Trio C60|5.9.3.6155|2020年4月|
-|Poly CCX400 | 1.0.0.0200 | 2020年1月|
-|Poly CCX600 | 5.9.12.1111| 2020年1月|
-|Poly CCX500 | 5.9.12.1111| 2019年12月|
-|Poly Trio 8500/8800 （仅限共享模式）| 5.9.0.10869|2019年6月|
-|Yealink MP56| 122.15.0.6| 2020年3月|
-|Yealink VP59 | 91.15.0.16 |2019年6月|
-|Yealink T55 | 58.15.0.36 |五月2019|
-|Yealink CP 960 |73.15.0.20|2018年12月|
-|Yealink T58 & T56 系列 |58.15.0.20|2018年12月|
+| 电话模型                            | 固件版本                                                                                                                                                                                                                           | 发布日期                 |
+|:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
+| Audiocodes C450HD                      | C450HD_TEAMS_0. 225                                                                                                                                                                                                                         | 2019年3月                   |
+| Audiocodes C448HD （仅限 CAP 模式）      | C450HD_TEAMS_0. 225                                                                                                                                                                                                                         | 2019年3月                   |
+| Crestron M100                          | 本产品已停产。 有关详细信息，请访问 Crestron 网站上的[Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 从5/11/2020 终止 |
+| Crestron Flex UC-P100 & UC-t    | 本产品已停产。 有关详细信息，请访问 Crestron 网站上的 " [UC 电话](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)"。                  | 从5/11/2020 终止 |
+| 联想 ThinkSmart 视图                 | 18781Y 200410.067                                                                                                                                                                                                                       | 2020年4月                   |
+| Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020年4月                   |
+| Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020年1月                 |
+| Poly CCX600                            | 5.9.12.1111                                                                                                                                                                                                                                | 2020年1月                 |
+| Poly CCX500                            | 5.9.12.1111                                                                                                                                                                                                                                | 2019年12月                |
+| Poly Trio 8500/8800 （仅限共享模式） | 5.9.0.10869                                                                                                                                                                                                                                | 2019年6月                    |
+| Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | 2020年3月                   |
+| Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | 2019年6月                    |
+| Yealink T55                            | 58.15.0.36                                                                                                                                                                                                                                 | 五月2019                     |
+| Yealink CP 960                         | 73.15.0.20                                                                                                                                                                                                                                 | 2018年12月                |
+| Yealink T58 & T56 系列               | 58.15.0.20                                                                                                                                                                                                                                 | 2018年12月                |
 
 ## <a name="certified-collaboration-bars"></a>认证协作栏
 
 以下协作栏针对 Microsoft 团队进行了认证：
 
-|协作栏模型|固件版本|发布日期 |会议室大小（最多）|
-|:---|:---|:---|:---|
-|Poly Studio X30 | 3.1.1.216109| 2020年6月|Focus 房间（3m x 3m） </br> 小会议室（4.5 米 x 4.5 米）|
-|Poly Studio X50 | 3.1.1.216109| 2020年6月|Focus 房间（3m x 3m） </br> 小会议室（4.5 米 x 4.5 米）|
-|Yealink VC210| 118.15.0.14|2020年2月|Focus 房间（3m x 3m） </br> 小会议室（4.5 米 x 4.5 米）|
+| 协作栏模型 | 固件版本 | 发布日期  | 会议室大小（最多）                                         |
+|:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Poly Studio X30         | 3.1.1.216109     | 2020年6月     | Focus 房间（3m x 3m） </br> 小会议室（4.5 米 x 4.5 米） |
+| Poly Studio X50         | 3.1.1.216109     | 2020年6月     | Focus 房间（3m x 3m） </br> 小会议室（4.5 米 x 4.5 米） |
+| Yealink VC210           | 118.15.0.14      | 2020年2月 | Focus 房间（3m x 3m） </br> 小会议室（4.5 米 x 4.5 米） |
 
-### <a name="product-release-information-teams-phones"></a>产品发布信息-工作组电话
-以下是已发布的最新团队 IP 电话应用版本和固件版本
-#### <a name="release-date-may-132020"></a>发布日期：2020月13日
+### <a name="product-release-information-for-teams-phones"></a>团队手机的产品发布信息
+
+以下是最新的团队 IP 电话应用和固件版本。
+
+#### <a name="release-date-june-262020"></a>发布日期：2020年6月26日
+
 #### <a name="app-versions"></a>应用版本
-|应用| 版本|
-|:---|:---|
-|Teams | . 040801|
-|管理员代理|. 210|
-|公司门户| . 4715|
+
+| 产品发布 | 发布日期  | Microsoft 团队应用版本 | 公司门户版本 | 管理员代理版本 |
+|:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 更新 #4       | 2020年6月30日 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
+| 更新 #3       | 5月13日2020  | . 040801                     | . 4715                  | 1.210               |
 
 #### <a name="firmware-versions"></a>固件版本
-|更新 #3| 发布到生产的固件|
-|:---|:---|
-|AudioCodes C450HD|C450HD_TEAMS_1 3.47|
-|Poly CCX400|1.0.1.0054|
-|Poly CCX500/ CCX600|5.9.13.0306|
-|Yealink T55/T56/T58|58.15.0.104|
-|Yealink VP59|91.15.0.40|
-|Yealink CP960|73.15.0.100|
 
-### <a name="product-release-information-collaboration-bar"></a>产品发布信息-协作栏
-以下是已发布的最新团队协作栏应用版本和固件版本
+在你的设备上安装新的固件版本时，你可以通过在**随附的产品版本**列中查找产品版本来确定相应的 Microsoft 团队应用、公司门户和管理代理。 然后在上面的**应用版本**表中查找产品版本。
+
+| 设备模型        | 固件版本     | 包含产品发布 |
+|:--------------------|:---------------------|:-------------------------|
+| AudioCodes C450HD   | C450HD_TEAMS_1 4.208 | 更新 #4                |
+| Poly CCX400         | 1.0.1.0054           | 更新 #3                |
+| Poly CCX500/CCX600  | 5.9.13.0306          | 更新 #3                |
+| Yealink T55/T56/T58 | 58.15.0.107          | 更新 #4                |
+| Yealink VP59        | 91.15.0.42           | 更新 #4                |
+| Yealink CP960       | 73.15.0.103          | 更新 #4                |
+
+### <a name="product-release-information-for-collaboration-bars"></a>协作栏的产品发布信息
+
+以下是最新的团队协作栏应用和固件版本。
+
 #### <a name="app-versions"></a>应用版本
-|应用| 版本|
-|:---|:---|
-|Teams | . 040901|
-|管理员代理|. 210|
-|公司门户| . 4715|
+
+| 产品发布 | 发布日期 | Microsoft 团队应用版本 | 公司门户版本 | 管理员代理版本 |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 更新 #3       | 5月13日2020 | . 040901                     | . 4715                  | . 210                |
 
 #### <a name="firmware-versions"></a>固件版本
-|更新 #3| 发布到生产的固件|
-|:---|:---|
-|Yealink VC210|118.15.0.19|
+
+在你的设备上安装新的固件版本时，你可以通过在**随附的产品版本**列中查找产品版本来确定相应的 Microsoft 团队应用、公司门户和管理代理。 然后在上面的**应用版本**表中查找产品版本。
+
+| 设备模型  | 固件版本 | 包含产品发布 |
+|:--------------|:-----------------|:-------------------------|
+| Yealink VC210 | 118.15.0.19      | 更新 #3                |
 
 有关这些设备支持的功能的信息，请参阅[Microsoft 团队手机功能设置](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set)。
 

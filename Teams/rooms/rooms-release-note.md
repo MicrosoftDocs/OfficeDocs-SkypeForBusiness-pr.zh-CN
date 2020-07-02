@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft 团队聊天室的发行说明，其中列出了 Microsoft 团队聊天室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7d2b03a954661920b2c31d03081f7d6853e06b12
-ms.sourcegitcommit: 0979fae58ecd713f8317ed99caae015b5cc2c8e4
+ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44877913"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021870"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -71,6 +71,8 @@ ms.locfileid: "44877913"
 - 质量和可靠性修复程序
 - 修复 "更新到4.4.41.0 后，应用程序无法启动" 问题
 
+> [!NOTE]
+> 如果你的设备不会自动更新到版本4.4.63.0，请按照[Microsoft 团队聊天室应用程序在更新到版本4.4.41.0 后不会启动](https://support.microsoft.com/help/4565998/teams-rooms-application-does-not-start-after-update)的步骤来解决该问题。
 
 ### <a name="44410-05062020"></a>4.4.41.0 （05/06/2020）
 
