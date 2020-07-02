@@ -131,7 +131,6 @@
 ## [快速入门 - 会议和实时事件](quick-start-meetings-live-events.md)
 ## [规划部署](deploy-meetings-microsoft-teams-landing-page.md)
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
-## [Teams 会议中的演示者和参与者功能](roles-in-meetings.md)
 ## [管理会议策略](meeting-policies-in-teams.md)
 ## [管理会议设置](meeting-settings-in-teams.md)
 ## [用户设置更改时向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
@@ -626,12 +625,7 @@
 ## [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [预订应用和虚拟参观](bookings-app-admin.md)
 ## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Microsoft StaffHub 将停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [安装 Microsoft StaffHub PowerShell 模块](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
-### [运行报告以显示活动 StaffHub 的使用情况](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
-### [计划将 StaffHub 团队迁移到 Teams 中的班次](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [将 Microsoft StaffHub 团队迁移到 Teams 中的排班](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [发至用户的电子邮件通函示例](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Microsoft StaffHub 已停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## 适用于医疗保健业的 Teams
