@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53eed34584cb3a8167367e29f036cb21d741bd83
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 49b260179749b5aba906fdf0ce64cd5b99452b37
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944005"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028158"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -30,12 +30,12 @@ ms.locfileid: "44944005"
 ## <a name="what-is-vdi"></a>什么是 VDI？
 
 虚拟桌面基础结构（VDI）是在数据中心的集中式服务器上托管桌面操作系统和应用程序的虚拟化技术。 这使具有完全安全和合规的集中源的用户能够获得完全个性化的桌面体验。
- 
+
 虚拟环境中的 Microsoft 团队支持聊天和协作。 通过 Citrix 平台，还支持呼叫和会议功能。
 
 虚拟环境中的团队支持多个配置。 这些模式包括 VDI、专用、共享、永久和非持久模式。 功能在连续开发中且定期添加，并且功能将在未来的几个月和几年内扩展。
- 
-在虚拟环境中使用团队可能与在非虚拟化环境中使用团队稍有不同。 例如，某些高级功能在虚拟化环境中可能不可用，并且视频分辨率可能有所不同。 
+
+在虚拟环境中使用团队可能与在非虚拟化环境中使用团队稍有不同。 例如，某些高级功能在虚拟化环境中可能不可用，并且视频分辨率可能有所不同。
 
 若要确保获得最佳的用户体验，请按照本文中的指南操作。
 
@@ -100,12 +100,12 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
 
 在非持久设置中，用户注销后将不保留用户的本地操作系统更改。 此类设置通常共享多用户会话。 VM 配置根据用户数量和可用的物理箱资源而有所不同。
 
-对于非持久设置，必须将团队桌面应用安装到黄金图像的每台计算机上。 （若要了解详细信息，请参阅[在 VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)。）这可确保在用户会话期间有效地启动团队应用。 
+对于非持久设置，必须将团队桌面应用安装到黄金图像的每台计算机上。 （若要了解详细信息，请参阅[在 VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)。）这可确保在用户会话期间有效地启动团队应用。
 
 将团队与非持久性设置配合使用时，还需要配置文件缓存管理器才能高效团队运行时数据同步。这可确保在用户会话期间缓存相应的特定于用户的信息（例如，用户数据、配置文件和设置）。 请确保这两个文件夹中的数据已同步。  
 
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
-- C:\Users\username\AppData\Roaming\Microsoft\Teams(%appdata%\Microsoft\Teams)
+- C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
 有多种可用的缓存管理器解决方案。 例如， [FSLogix](https://docs.microsoft.com/fslogix/overview)。 有关特定配置说明，请咨询您的缓存管理器提供程序。
 
@@ -143,10 +143,8 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
 
 1. 使用以下链接之一下载与你的 VDI VM 操作系统匹配的团队 MSI 程序包：
 
-
     - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
     - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
-
 
     所需的团队桌面应用的最低版本是1.3.00.4461 版本。 （早期版本中不支持 PSTN 保留。）
 
@@ -179,6 +177,7 @@ Citrix 虚拟应用和桌面（以前称为 XenApp 和 XenDesktop）为适用于
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+
       此过程从 "程序文件（x86）" 文件夹或 "程序文件" 文件夹中卸载团队，具体取决于操作系统环境。
 
 ## <a name="teams-on-vdi-performance-considerations"></a>VDI 性能注意事项的团队
@@ -271,9 +270,9 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
     - 转到 "**语音**  >  **呼叫策略**"，然后单击 " **DisallowCalling**"。
     - 转到 "**会议**  >  **会议策略**"，然后单击 " **AllOff**"。
-3. 选择“管理用户”****。
-4. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
-5. 添加完用户后，单击 "**保存**"。
+2. 选择“管理用户”****。
+3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
+4. 添加完用户后，单击 "**保存**"。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
 
@@ -327,9 +326,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要分配的策略。 例如：
     - 转到 "**语音**  >  **呼叫策略**"，然后单击 " **AllowCalling**"。
     - 转到 "**会议**  >  **会议策略**"，然后单击 " **AllOn**"。
-3. 选择“管理用户”****。
-4. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
-5. 添加完用户后，单击 "**保存**"。
+2. 选择“管理用户”****。
+3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
+4. 添加完用户后，单击 "**保存**"。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
 
