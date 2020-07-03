@@ -30,7 +30,7 @@ ms.locfileid: "44868629"
 
 ## <a name="create-and-license-users"></a>创建用户并向其授予许可
 
-请按照[逐一或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)中的步骤，并[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+请按照[单独或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)和[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)中的步骤操作。
 
 > [!NOTE]
 > 在“**分配产品许可证**”窗格中，选择 **:::no-loc text="Microsoft 365 Business Voice":::**。
