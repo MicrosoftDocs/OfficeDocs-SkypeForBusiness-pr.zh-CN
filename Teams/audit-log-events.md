@@ -15,12 +15,11 @@ search.appverid: MET150
 description: 了解如何从审核日志中检索 Microsoft 团队数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a305afdc96f71731431ba187cd4d4021e0cec943
-ms.sourcegitcommit: 8d5ba1346be583af9382906dda556ccf868904f7
-ms.translationtype: MT
+ms.openlocfilehash: 4084074d9dec08b2c254d1678fde51d0a26adfaa
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "44816623"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042874"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -138,6 +137,7 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 |已删除频道     |ChannelDeleted         |用户从团队中删除频道。         |
 |已删除团队  |TeamDeleted            |团队所有者删除团队。      |
 |已安装应用 |AppInstalled         |已安装应用。   |
+|已在卡上执行操作|PerformedCardAction|用户在聊天中的自适应卡上采取行动。 自适应卡通常由 bot 用来在聊天中允许信息和交互的丰富显示。 <br/><br/>**注意：** 在审核日志中，仅在聊天中的自适应卡上才可使用内联输入操作。 例如，当用户在由轮询 bot 生成的自适应卡上的频道对话中提交轮询响应时。 用户操作（如 "查看结果"）将打开一个对话框，或对话中的用户操作将不会在审核日志中提供。|
 |已发布应用 |AppPublishedToCatalog           |已将应用添加到目录中。     |
 |已从团队中删除机器人   |BotRemovedFromTeam         |用户从团队中删除机器人。       |
 |已删除连接线     |ConnectorRemoved         |用户从频道中删除连接线。         |

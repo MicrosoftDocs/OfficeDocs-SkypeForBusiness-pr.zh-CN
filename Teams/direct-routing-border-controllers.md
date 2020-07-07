@@ -18,12 +18,11 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解哪些会话边界控制器（SBCs）已验证了直接路由。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c1805ec472a36389cd6b45d5d344438b41a5a32
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
-ms.translationtype: MT
+ms.openlocfilehash: b27bcc55ad2039d7e51af835c0b64c514d7dc303
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735432"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042944"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -72,10 +71,10 @@ Microsoft 与每位供应商协作：
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路由服务（ERS）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关（EGW）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支持的3.20 （推荐4.0）        |     |    |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     用于1000系列集成服务路由器的 Cisco 统一 Border 元素（多维数据集）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |   |  
-|                                   |     用于4000系列集成服务路由器的 Cisco 统一 Border 元素（多维数据集）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
-|                                   |     用于1000V 系列云服务路由器的 Cisco 统一 Border 元素（多维数据集）       |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
-|                                 |     用于1000系列聚合服务路由器的 Cisco 统一边框元素（多维数据集）      |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |     |    |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     用于1000系列集成服务路由器的 Cisco 统一 Border 元素（多维数据集）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路由服务（ERS）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关（EGW）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
+|                                   |     用于4000系列集成服务路由器的 Cisco 统一 Border 元素（多维数据集）        |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路由服务（ERS）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关（EGW）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
+|                                   |     用于1000V 系列云服务路由器的 Cisco 统一 Border 元素（多维数据集）       |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路由服务（ERS）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关（EGW）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
+|                                 |     用于1000系列聚合服务路由器的 Cisco 统一边框元素（多维数据集）      |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路由服务（ERS）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关（EGW）](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 
 下表列出了直接路由和模拟设备之间的互操作性验证的设备。
 

@@ -16,12 +16,11 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91f41893f572465d2e51b66a56737f10f0f88fc0
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: HT
+ms.openlocfilehash: b582ea0b08b8748a6636440cc8ea3ec2f4296753
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691488"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028118"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
@@ -31,7 +30,7 @@ ms.locfileid: "44691488"
 
 ## <a name="it-admin-guidance"></a>IT 管理员指南
 
-- 通过使用 6 个月免费的 **[Office 365 E1 优惠](e1-trial-license.md)** 或 **[免费增值版 Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，确保人人都可使用 Teams。 如果需要帮助，请与你的 Microsoft 帐户团队或合作伙伴联系。
+- 确保每个人都可以使用 [付费订阅 (包括 Teams)](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) 访问 Teams。 或者，符合条件的组织可使用 **[Teams 的免费版本](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或者员工可以激活 **[Teams 探索](teams-exploratory.md)** 体验。
 
 -  如果已有包含 Teams 的订阅，请**[为所有人启用](user-access.md)**。
     
@@ -81,8 +80,6 @@ ms.locfileid: "44691488"
    - 如果你从事教育工作，并且需要在 Teams 上设置教师、学生和管理员，请使用 Office 365 A1。 Office 365 免费版可供所有教育机构使用。 请转到[为整个学校免费获取 Office 365](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) 注册。
 
    - 不要错过[开始使用 Teams 进行远程学习](remote-learning-edu.md)。
-
-2. 除 [Office 365 E1 试用版](e1-trial-license.md) 和 [Teams 免费版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)以外，如果需要免费团队许可证，[Teams 探索性体验](teams-exploratory.md)也可是一种选项。
 
 1. 确保员工可充分访问 Internet 并具有足够的带宽来使用 Teams。 使用“[为 Teams 准备组织的网络](prepare-network.md)”中的指南，了解如何进行此操作。
 

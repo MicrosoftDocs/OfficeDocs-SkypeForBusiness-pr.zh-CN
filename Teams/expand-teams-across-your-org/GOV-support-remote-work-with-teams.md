@@ -15,12 +15,11 @@ search.appverid: MET150
 description: 使用本指南可帮助政府组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公 (WFH) 来应对 COVID-19（新型冠状病毒肺炎）的爆发时。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
-ms.translationtype: HT
+ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042379"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028138"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程政府工作者
 
@@ -31,7 +30,7 @@ ms.locfileid: "44042379"
 
 了解如何在组织中做好使用 Teams 的准备：
 
-  - 通过使用 6 个月免费的 **[Office 365 G1 产品/服务](../g1-trial-license.md)** 确保人人都可使用 Teams。 如果需要帮助，请与你的 Microsoft 帐户团队或合作伙伴联系。
+  - 确保每个人都可以使用 [付费订阅 (包括 Teams)](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) 访问 Teams。 
 
   - 如果已有订阅，请确保**[为所有人启用 Teams](../user-access.md)**。
 

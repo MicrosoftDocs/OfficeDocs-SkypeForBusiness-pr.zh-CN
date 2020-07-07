@@ -16,12 +16,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: MT
+ms.openlocfilehash: a7e4e24b871ab537e336ddbd2b25c0d44408c299
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136782"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042784"
 ---
 # <a name="steering-committee"></a>指导委员会
 
@@ -88,7 +87,7 @@ ms.locfileid: "43136782"
 
 ### <a name="prepare-for-the-meeting"></a>准备会议
 
-为了最大程度地利用所有人的时间，您需要为会议做准备。 核心团队可以开始为指导委员会会议准备材料。 [筹划委员会模板-链接到示例 PPT 模板] 指导委员会模板可用作准备工作的起点。
+为了最大程度地利用所有人的时间，您需要为会议做准备。 核心团队可以开始为指导委员会会议准备材料。 你可以创建一个 PowerPoint 演示文稿来帮助准备会议。
 
 应完成以下资源，并将其包含在会议的演示文稿幻灯片中：
 

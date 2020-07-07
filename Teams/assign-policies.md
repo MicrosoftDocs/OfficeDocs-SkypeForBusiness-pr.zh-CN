@@ -18,20 +18,16 @@ description: 了解在 Microsoft 团队中向用户分配策略的不同方法�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: c7522bc4bffeafeef4d194f5e4ad24ec9648a91a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
-ms.translationtype: MT
+ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021750"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049439"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft Teams 中的用户分配策略
 
 > [!NOTE]
-> **请注意以下有关本文所述的功能之一的事项，并将策略分配给组**： 
-> - [分配给使用 Microsoft 团队管理中心的组的策略分配](#using-the-microsoft-teams-admin-center-3)尚未发布。 已宣布，即将推出。 
-> - [对使用 PowerShell 的组的策略分配](#using-powershell-3)目前仅在专用预览中可用。 此功能的 cmdlet 位于团队 PowerShell 公共预览版模块中。
->
+> 本文中所述的功能之一，[对使用 Microsoft 团队管理中心的组的策略分配](#using-the-microsoft-teams-admin-center-3)尚未发布。 已宣布，即将推出。
 > 若要保持在此功能的 "发布" 状态的顶部，请查看[Microsoft 365 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=61185)。
 
 作为管理员，你可以使用策略来控制你的组织中的用户可以使用的团队功能。 例如，有一些通话策略、会议策略和邮件策略，只需命名。
@@ -73,7 +69,7 @@ ms.locfileid: "45021750"
 |[为单个用户分配策略](#assign-a-policy-to-individual-users)    | 您是新的团队新手，只需将一个或几个策略分配给少数几个用户。 |Skype for Business Online PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet
 | [分配策略包](#assign-a-policy-package)   | 您需要将多个策略分配给组织中具有相同或类似角色的特定用户组。 例如，将教育版（教师）策略包分配给你的学校教师，让他们能够完全访问聊天、通话和会议以及教育（次要学校学生）策略包，以限制某些功能，如私人通话。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
 |[为一批用户分配策略](#assign-a-policy-to-a-batch-of-users)   | 您需要为大型用户组分配策略。 例如，你希望一次为组织中的成百上千个用户分配策略。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
-|为[组分配策略](#assign-a-policy-to-a-group)（在预览/即将推出的情况中）|您需要根据用户的组成员身份分配策略。 例如，你想要向安全组或组织单位中的所有用户分配策略。| 团队 PowerShell 模块中的 Microsoft 团队管理中心（即将推出）或 PowerShell cmdlet （预览）|
+|[为组分配策略](#assign-a-policy-to-a-group) |您需要根据用户的组成员身份分配策略。 例如，你想要向安全组或组织单位中的所有用户分配策略。| 团队 PowerShell 模块中的 Microsoft 团队管理中心（即将推出）或 PowerShell cmdlet|
 | [将策略包分配给一批用户](#assign-a-policy-package-to-a-batch-of-users)|您需要为组织中具有相同或类似角色的一批用户分配多个策略。 例如，使用批处理作业将教育版（教师）策略包分配给你的学校中的所有教师，让他们能够完全访问聊天、通话和会议，并将教育（次要学校学生）策略包分配给一批次要学生，以限制某些功能（如私人通话）。|团队 PowerShell 模块中的 PowerShell cmdlet|
 | 将策略包分配给组（即将推出）   | ||
 
@@ -315,14 +311,12 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-**此功能目前仅在私人预览版中可用。此功能的 cmdlet 位于团队 PowerShell 公共预览版模块中。**
-
 > [!NOTE]
 > 目前，对使用 PowerShell 的组的策略分配不可用于所有团队策略类型。 有关受支持的策略类型列表，请参阅[CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft 团队 PowerShell 模块
 
-这些 cmdlet 是团队 PowerShell 公共预览版模块的一部分。 有关分步指南，请参阅[安装团队 PowerShell](teams-powershell-install.md)。
+有关分步指南，请参阅[安装团队 PowerShell](teams-powershell-install.md)。
 
 #### <a name="assign-a-policy-to-a-group"></a>为组分配策略
 
@@ -385,6 +379,9 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-
 
 #### <a name="change-a-policy-assignment-for-a-group"></a>更改组的策略分配
 
+> [!NOTE]
+> 该 ```Set-CsGroupPolicyAssignment``` cmdlet 将很快可用。 在此期间，若要更改组策略分配，您可以从组中删除当前策略分配，然后添加新的策略分配。
+
 为组分配策略后，可以使用 ```Set-CsGroupPolicyAssignment``` cmdlet 更改该组的策略分配，如下所示：
 
 - 更改排名
@@ -398,6 +395,8 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 ```
 
 若要了解详细信息，请参阅[设置 CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment)。
+
+
 
 #### <a name="change-the-effective-policy-for-a-user"></a>更改用户的有效策略
 

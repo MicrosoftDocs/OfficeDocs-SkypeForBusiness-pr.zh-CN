@@ -22,12 +22,11 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 83a06357402b44c5c15932211e562e488c2a2d5a
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
-ms.translationtype: MT
+ms.openlocfilehash: 15698c7eeb12187ccc510a42b9a6e2120a7907cc
+ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938471"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45042985"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理应用权限策略
 
@@ -45,7 +44,7 @@ ms.locfileid: "44938471"
 例如，你希望阻止所有第三方应用，并允许 Microsoft 针对你的组织中的人力资源团队应用特定应用。 首先，你将转到 "[管理应用](manage-apps.md)" 页面，并确保你希望为 HR 团队允许的应用在组织级别允许。 然后，创建名为 HR App 权限策略的自定义策略，将其设置为阻止并允许你所需的应用，并将其分配给 HR 团队上的用户。
 
 > [!NOTE]
-> 如果你在 Microsoft 365 政府-GCC 环境中部署团队，请参阅适用于 gcc 的[应用权限策略](#app-permission-policies-for-gcc)，了解有关特定于 GCC 的第三方应用设置的详细信息。
+> 如果你在 Microsoft 365 政府社区云（GCC）环境中部署团队，请参阅[管理 microsoft 365 政府组织范围内的应用设置](#manage-org-wide-app-settings-for-microsoft-365-government)，了解有关特定于 GCC 的第三方应用设置的详细信息。
 
 ## <a name="create-a-custom-app-permission-policy"></a>创建自定义应用权限策略
 
@@ -84,7 +83,7 @@ ms.locfileid: "44938471"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="app-permission-policies-for-gcc"></a>适用于 GCC 的应用权限策略
+## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>管理 Microsoft 365 政府组织范围内的应用设置  
 
 在 Microsoft 365 政府版团队部署中，请务必了解以下有关适用于 GCC 的第三方应用设置的信息。
 
@@ -92,19 +91,21 @@ ms.locfileid: "44938471"
 
 ![GCC 中的应用权限策略的屏幕截图](media/app-permission-policies-gcc.png)
 
-若要为你的组织中的一个用户或一组用户启用第三方应用，请执行下列操作：
+使用组织范围内的应用设置控制用户是否可以安装第三方应用。 组织范围内的应用设置控制所有用户的行为，并替代分配给用户的任何其他应用权限策略。 你可以使用它们控制恶意或有问题的应用。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **管理应用**"，然后在应用列表中，确认要为一组用户允许的第三方应用是否设置为 "在组织级别**阻止**"。
+1. 在 "**权限策略**" 页面上，选择 "**组织范围内的应用设置**"。 然后，你可以在面板中配置所需的设置。
 
-2. 在 Microsoft 团队管理中心的左侧导航中，转到 "**团队应用**  >  **权限策略**"，然后编辑全局策略以阻止第三方应用。 要执行此操作：
-    1. 在 "应用权限策略" 页面上，单击 "**全局（组织范围默认）**"，然后单击 "**编辑**"。
-    2. 在 "**第三方应用**" 下，选择 "**阻止特定应用并允许所有其他**应用"，添加应用，然后单击 "**保存**"。
+    ![组织范围内的应用设置的屏幕截图](media/app-permission-policies-gcc-org-wide.png)
+    
+2. 在 "**第三方应用**" 下，关闭或打开这些设置以控制对第三方应用的访问：
 
-    > [!NOTE]
-    > 请务必先执行此操作，然后再转到下一步，以便在组织级别允许应用。 这是因为如果在全局应用权限策略中未阻止第三方应用，则全局策略适用的所有用户都可以在组织级别允许访问第三方应用。
+    - **允许第三方应用**：此操作控制用户是否可以使用第三方应用。 如果关闭此设置，你的用户将无法安装或使用任何第三方应用。 在 Microsoft 365 政府版团队部署中，此设置默认情况下处于关闭状态。
+    - **默认情况下允许发布到应用商店的任何新第三方应用**：这将控制发布到团队应用商店的新的第三方应用是否会自动在团队中可用。 仅当你允许第三方应用时，你才能设置此选项。
 
-3. 允许在组织级别的第三方应用。 若要执行此操作，请在左侧导航中，转到 "**团队应用**  >  **管理应用**"。 在应用列表中，单击应用名称的左侧以选择应用，然后选择 "**允许**"。
-4. [创建自定义应用权限策略](#create-a-custom-app-permission-policy)以允许应用，然后[将策略分配](#assign-a-custom-app-permission-policy-to-users)给所需的用户。
+3. 在 "已**阻止的应用**" 下，添加要在组织内阻止的应用。 在 Microsoft 365 政府版团队部署中，默认情况下，所有第三方应用都添加到此列表中。 对于你想要在你的组织中允许的任何第三方应用，请从此 "阻止的应用" 列表中删除该应用。 当你阻止应用组织范围时，将对所有用户自动阻止应用，无论是否允许在任何应用权限策略中使用它
+4. 单击 "**保存**" 以使组织范围内的应用设置生效。
+
+如前面所述，若要允许第三方应用，您可以编辑和使用全局（组织范围默认）策略，或者创建和分配自定义策略。
 
 ## <a name="faq"></a>常见问题
 

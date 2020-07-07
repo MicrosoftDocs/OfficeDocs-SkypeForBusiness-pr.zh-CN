@@ -18,12 +18,11 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fdecae806c0e02efc9a440ce192528ab6017d994
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
-ms.translationtype: MT
+ms.openlocfilehash: 877ebf8041b52e6522dc55a053e0465d4aa6a48d
+ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689808"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "45049409"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 会议外接程序
 =======================================
@@ -133,6 +132,10 @@ Teams 会议外接程序仍是正在构建的功能，因此请注意以下事�
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Outlook for Windows 中的团队会议外接程序不会显示
 
 若无法安装 Outlook 的 Teams 会议加载项，请尝试下列故障排除步骤。
+
+[下载](https://aka.ms/SaRA-TeamsAddInScenario)并运行[Microsoft 支持恢复助手](https://aka.ms/SaRA_Home)以执行自动疑难解答步骤和修复。
+
+或者，手动执行以下步骤：
 
 - Windows 7 用户必须安装[windows 中通用 C 运行时的更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，团队会议外接程序才能正常工作。
 - 检查用户是否具有团队升级策略，该策略允许在团队中安排会议。 有关详细信息，请参阅[从 Skype For Business 升级到团队](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)。
