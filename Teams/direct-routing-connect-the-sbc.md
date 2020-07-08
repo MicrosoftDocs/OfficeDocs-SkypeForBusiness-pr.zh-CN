@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何配置 SBC 并将其连接到手机系统直接路由。
-ms.openlocfilehash: 8ceb4d1811b479fbcdc0d4ca83f4dbc4672227bd
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 900c8c50f60842465ae6a636d5953be81c83af84
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691258"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077617"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>将会话边界控制器（SBC）连接到直接路由
 
@@ -40,7 +40,7 @@ ms.locfileid: "44691258"
 
 1. 在左侧导航中，转到 "**语音**  >  **直接路由**"，然后单击 " **SBCs** " 选项卡。
 2. 单击“添加”****。
-3. 输入 SBC 的 FQDN。 <br><br>请确保 FQDN 的域名部分与你的租户中注册的域相匹配，请记住， `*.onmicrosoft.com` SBC FQDN 域名不支持该域名。 例如，如果你有两个域名， `contoso.com` 并且 `contoso.on.microsoft.com` 将 `sbc.contoso.com` 用作 SBC 名称。
+3. 输入 SBC 的 FQDN。 <br><br>请确保 FQDN 的域名部分与你的租户中注册的域相匹配，请记住， `*.onmicrosoft.com` SBC FQDN 域名不支持该域名。 例如，如果你有两个域名， `contoso.com` 并且 `contoso.onmicrosoft.com` 将 `sbc.contoso.com` 用作 SBC 名称。
 4. 根据组织的需求配置 SBC 的以下设置。 有关这些设置的详细信息，请参阅[SBC 设置](#sbc-settings)。
 
     ![Microsoft 团队管理中心中 "添加 SBC" 页面的屏幕截图](media/direct-routing-add-sbc.png)

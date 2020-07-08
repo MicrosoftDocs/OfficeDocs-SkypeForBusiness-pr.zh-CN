@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解如何设置 Microsoft 团队的 "云呼叫" 队列的电话系统，这些团队提供问候语、举行音乐、呼叫重定向和其他功能。
-ms.openlocfilehash: ac0fb41ebb85a6e7e80d3d221da4dabf456d20aa
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: dd11e33e4947ea231310b06af2570711d55b2451
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44697433"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077708"
 ---
 # <a name="create-a-cloud-call-queue"></a>创建云呼叫队列
 
@@ -69,7 +69,7 @@ ms.locfileid: "44697433"
   > 只有 Microsoft 团队用户和代理才支持直接路由呼叫队列服务号码。
 
 > [!NOTE]
-> 若要将呼叫重定向到您的组织中联机的人员，他们必须具有**电话系统**许可证并启用企业语音或安装 Microsoft 365 或 Office 365 通话计划。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 To enable them for Enterprise Voice, you can use Windows PowerShell. 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> 若要将呼叫重定向到您的组织中联机的人员，他们必须具有**电话系统**许可证并启用企业语音或安装 Microsoft 365 或 Office 365 通话计划。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 To enable them for Enterprise Voice, you can use Windows PowerShell. 例如，运行： "Move-csuser-identity" Amos 大理石 "-EnterpriseVoiceEnabled $true。
 
 - 若要了解有关通话计划的详细信息，请参阅[手机系统和通话计划](calling-plan-landing-page.md)以及[Microsoft 365 或 Office 365 的呼叫计划](calling-plans-for-office-365.md)。
 
@@ -174,11 +174,11 @@ ms.locfileid: "44697433"
 - 本地 Skype for Business 服务器用户
 
   > [!NOTE]
-  > 如果您想要将呼叫重定向到您的组织中联机的人员，也可以使用此操作。 这些人必须具有**电话系统**许可证，并且已启用企业语音*或*有呼叫计划。 有关详细信息，请参阅[分配 Skype for business 许可证](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)、[分配 Microsoft 团队许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)或适合[您的通话计划？](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
+  > 如果您想要将呼叫重定向到您的组织中联机的人员，也可以使用此操作。 这些人必须具有电话系统许可证，并且已启用企业语音*或*有呼叫计划。 有关详细信息，请参阅[分配 Skype for business 许可证](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)、[分配 Microsoft 团队许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)或适合[您的通话计划？](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
    若要启用企业语音代理，你可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- 具有**电话系统**许可证或呼叫计划的用户添加到 Microsoft 365 组、启用邮件的通讯组列表或安全组。 将通讯组列表或安全组中的代理添加为呼叫队列代理时，首次通话最多可能需要3个小时。 新创建的通讯组列表或安全组可能需要长达48小时才能与通话队列一起使用。 新创建的 Microsoft 365 组几乎立即可用。
+- 具有电话系统许可证或呼叫计划的用户添加到 Microsoft 365 组、启用邮件的通讯组列表或安全组。 将通讯组列表或安全组中的代理添加为呼叫队列代理时，首次通话最多可能需要3个小时。 新创建的通讯组列表或安全组可能需要长达48小时才能与通话队列一起使用。 新创建的 Microsoft 365 组几乎立即可用。
 
 - 如果你的代理正在使用 Microsoft 团队应用进行呼叫队列呼叫，则他们必须处于 TeamsOnly 模式。
 
@@ -274,11 +274,23 @@ ms.locfileid: "44697433"
 - **断开连接**通话断开。
 - **重定向到**选择此项时，请选择下列操作之一：
 
-  - **组织中的人员**具有**电话系统**许可证并启用企业语音或具有呼叫计划的在线用户。 您可以对其进行设置，以便呼叫者可以发送到语音邮件。 若要执行此操作，请选择您的组织中的人员，并将其呼叫直接转发到语音邮件。
+  - **组织中的人员**具有电话系统许可证并启用企业语音或具有呼叫计划的在线用户。 您可以对其进行设置，以便呼叫者可以发送到语音邮件。 若要执行此操作，请选择您的组织中的人员，并将其呼叫直接转发到语音邮件。
 
   若要了解语音邮件所需的许可证，请参阅[设置云语音邮件](set-up-phone-system-voicemail.md)。
 
   - **语音应用**选择与已创建的呼叫队列或自动助理相关联的资源帐户的名称。
+
+  - **外部电话号码**选择此 "将呼叫转接到您指定的外部电话号码。 请注意以下事项：
+
+    - 与使 PSTN 传出的应用程序关联的资源帐户必须具有电话号码，并且必须分配有一个虚拟电话系统许可证。 不支持电话系统许可证。 此外，资源帐户必须具有下列其中一项：
+        - 对于带有呼叫计划编号的资源帐户，请分配[呼叫计划](calling-plans-for-office-365.md)许可证。
+        - 对于具有直接路由号码的资源帐户，请分配[联机语音路由策略](manage-voice-routing-policies.md)。
+    - 显示的出站电话号码按如下方式确定：
+        - 对于呼叫计划号码，将显示原始呼叫者的电话号码。
+        - 对于直接路由号码，发送的号码基于 SBC 上的 P 声明标识（PAI）设置，如下所示：
+            - 如果设置为 "已禁用"，将显示原始呼叫者的电话号码。 这是默认和推荐的设置。
+            - 如果设置为 "启用"，则显示资源帐户电话号码。
+    - 不支持在通话计划中继和直接路由中继之间转移。
 
 * * *
 
@@ -292,11 +304,23 @@ ms.locfileid: "44697433"
 
 - **断开连接**通话断开。
 - **将此呼叫重定向到**如果选择此选项，则可以使用以下选项：
-  - **组织中的人员**具有**电话系统**许可证并启用企业语音或具有通话计划的在线用户。 若要对其进行设置，以便可以将拨入的人发送到语音邮件，请选择您组织中的人员，并将其设置为将呼叫直接转发到语音邮件。
+  - **组织中的人员**具有电话系统许可证并启用企业语音或具有通话计划的在线用户。 若要对其进行设置，以便可以将拨入的人发送到语音邮件，请选择您组织中的人员，并将其设置为将呼叫直接转发到语音邮件。
 
   若要了解语音邮件所需的许可证，请参阅[设置云语音邮件](set-up-phone-system-voicemail.md)。
 
   - **语音应用**选择与已创建的通话队列或自动助理相关联的资源帐户的名称。
+
+  - **外部电话号码**选择此 "将呼叫转接到您指定的外部电话号码。 请注意以下事项：
+
+    - 与使 PSTN 传出的应用程序关联的资源帐户必须具有电话号码，并且必须分配有一个虚拟电话系统许可证。 不支持电话系统许可证。 此外，资源帐户必须具有下列其中一项：
+        - 对于带有呼叫计划编号的资源帐户，请分配[呼叫计划](calling-plans-for-office-365.md)许可证。
+        - 对于具有直接路由号码的资源帐户，请分配[联机语音路由策略](manage-voice-routing-policies.md)。
+    - 显示的出站电话号码按如下方式确定：
+        - 对于呼叫计划号码，将显示原始呼叫者的电话号码。
+        - 对于直接路由号码，发送的号码基于 SBC 上的 P 声明标识（PAI）设置，如下所示：
+            - 如果设置为 "已禁用"，将显示原始呼叫者的电话号码。 这是默认和推荐的设置。
+            - 如果设置为 "启用"，则显示资源帐户电话号码。
+    - 不支持在通话计划中继和直接路由中继之间转移。
 
 ## <a name="change-caller-id-for-outbound-calls"></a>更改出站呼叫的来电显示
 

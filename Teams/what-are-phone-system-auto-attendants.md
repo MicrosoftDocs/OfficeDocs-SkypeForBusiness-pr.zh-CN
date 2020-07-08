@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解云自动助理以及如何使用它们让呼叫者在菜单系统中移动，以找到并将呼叫放入或转移到用户或部门。
-ms.openlocfilehash: 590d2282faa4642cbd23c195e6a2e9e327803993
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 53353df78c0344b3cf96b1854ea576e8d907bfbc
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665184"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077637"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
@@ -42,7 +42,7 @@ ms.locfileid: "44665184"
 云自动助理具有以下功能：
   
 - 提供企业或信息性问候语。
-- 提供自定义企业菜单。你可以自定义这些菜单以包含更多级别。
+- It can provide custom corporate menus. You can customize these menus to have more than one level.
 - 它提供目录搜索，使调用的人员可以在组织的目录中搜索名称。
 - 它使呼叫者能够联系到您组织中的人员或为其留下消息。
 - 它支持多种语言的提示、文本到语音转换和语音识别。
@@ -71,8 +71,9 @@ ms.locfileid: "44665184"
     > [!IMPORTANT]
     > [!重要信息] 不能将用户（订阅者）的电话号码分配给自动助理 - 只能使用收费或免费服务电话号码。
 
-- 完整的自动助理系统通常涉及多个自动助理，并且可能仅需要单个分配的电话号码才能用于顶级或输入自动助理。 如果你想要向系统提供多个入口点，则完整系统中的其他自动助理或呼叫队列将仅需要一个电话号码。
-- 通过将多个资源帐户与自动助理相关联，可以将多个电话号码应用于自动助理。
+- 完整的自动助理系统通常会涉及多个自动助理。
+- 可以对入门级自动助理应用多个电话号码。
+- 如果整个系统中的非入门级自动助理或呼叫队列将在其上发出出站 PSTN 呼叫，则仅需要一个电话号码。
   
 ## <a name="feature-overview"></a>功能概述
 
