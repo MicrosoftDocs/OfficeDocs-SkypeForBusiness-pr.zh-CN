@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理员可以控制音频会议和最终用户 PSTN 的呼叫可以由用户所做的类型。
-ms.openlocfilehash: ca4b7920ccad27a9434cbd1e5f76d7d10c4f4612
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: fd7c30a7561c06dd237bb72b405c8fc5b7b68dcd
+ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665904"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45077667"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音频会议和用户 PSTN 通话的出站通话限制策略
 
@@ -69,7 +69,7 @@ Outbound call controls can be applied on a per-user basis and provide the follow
 
 3.    在**限制此用户从会议拨出**下，选择所需的拨出限制选项。
 
-    ![拨出选项限制](media/restrictions-to-dial-outs.png)
+    ![拨出选项限制](/Skype/SfbOnline/images/restrictions-to-dial-outs.png)
 
 5. 单击“**保存**”。
 
