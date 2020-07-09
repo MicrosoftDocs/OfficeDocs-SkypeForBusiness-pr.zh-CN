@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 阅读本文以了解如何部署 Microsoft 团队聊天室，包括部署阶段。
-ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ee8ff755674828b4a2635316227f9cc27189a110
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905404"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085958"
 ---
 # <a name="deployment-overview"></a>部署概述
 
@@ -119,7 +119,7 @@ _Microsoft 团队聊天室服务帐户规划表示例_
 
 每个 Microsoft 团队聊天室设备都需要一个专用且唯一的资源帐户，该帐户必须同时为 Microsoft 团队或 Skype for business 和 Exchange 启用。 此帐户必须具有 Exchange 托管的聊天室邮箱，并且在团队或 Skype for business 部署中作为会议室启用。 在 Exchange 面上，必须配置日历处理，以便设备可以自动接受传入的会议请求。 有关创建这些帐户的详细信息，请参阅[为 Microsoft 团队聊天室配置帐户](rooms-configure-accounts.md)。 
 
-**Pro 提示**-使这些帐户的显示名称具有描述性且易于理解。 这些是用户在搜索和将 Microsoft 团队聊天室系统添加到会议时将看到的名称。 某些组织使用约定*网站*-*聊天室名称*（*最大房间容量*）-rs，例如 Curie ———伦敦的12人会议室，可能会有显示名称 LON-Curie （12）-RS。 
+**Pro 提示**-使这些帐户的显示名称具有描述性且易于理解。 这些是用户在搜索和将 Microsoft 团队聊天室系统添加到会议时将看到的名称。 某些组织使用约定*网站* - *聊天室名称*（*最大房间容量*）-rs，例如 Curie ———伦敦的12人会议室，可能会有显示名称 LON-Curie （12）-RS。 
 
 |    |     |
 |-----------|------------|
@@ -138,7 +138,7 @@ _Microsoft 团队聊天室服务帐户规划表示例_
 | 部署50多个 Microsoft 团队聊天室设备，从多个供应商处部署设备，或者要求组织特定的代理作为部署的一部分。 | 使用基于任务排序器的软件内部版本和分发平台，如[Microsoft 终结点配置管理器](rooms-scale.md)。  |
 
 
-**Pro 提示**-每个 Microsoft 团队聊天室必须在您的网络上拥有一个有效且唯一的计算机名称。 许多监视和警报系统将计算机名称显示为密钥标识符，因此开发 Microsoft 团队会议室部署的命名约定非常重要，这使支持人员能够轻松找到已标记为需要操作的 Microsoft 团队聊天室。 示例可能使用了*MTR*-的模式 *（MTR* -CURIE）。 
+**Pro 提示**-每个 Microsoft 团队聊天室必须在您的网络上拥有一个有效且唯一的计算机名称。 许多监视和警报系统将计算机名称显示为密钥标识符，因此开发 Microsoft 团队会议室部署的命名约定非常重要，这使支持人员能够轻松找到已标记为需要操作的 Microsoft 团队聊天室。 示例可能使用了*MTR 的模式* - *Room Name* （MTR-CURIE）。 
 
 作为部署的一部分，你还需要考虑管理和配置由 Microsoft 团队聊天室应用程序安装程序创建的[本地帐户](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)的策略。
 
@@ -188,7 +188,7 @@ _示例部署表_
 
 部署 Microsoft 团队聊天室系统后，应进行测试。 检查[Microsoft 团队聊天室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)中列出的功能是否在部署的设备上工作。 我们强烈建议部署团队验证 Microsoft 团队聊天室是否正在记录到 Microsoft Operations Management Suite （如果使用）。 您必须进行大量测试通话和会议才能查看质量。 有关详细信息，请参阅此[有用的部署清单](console.md#microsoft-teams-rooms-deployment-checklist)。
 
-我们建议作为常规团队或 Skype for business 推出的一部分，配置为通话质量仪表板（CQD）生成文件、监控质量趋势以及参与体验审核流程。 有关详细信息，请参阅[体验质量检查指南](https://aka.ms/qerguide)。 
+我们建议作为常规团队或 Skype for business 推出的一部分，配置为通话质量仪表板（CQD）生成文件、监控质量趋势以及参与体验审核流程。 有关详细信息，请参阅[改善和监控团队的通话质量](../monitor-call-quality-qos.md)。 
 
 ### <a name="asset-management"></a>资产管理
 

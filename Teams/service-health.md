@@ -16,12 +16,12 @@ f1.keywords:
 description: 最佳做法是验证团队服务是否正常工作以及其他 Microsoft 365 或 Office 365 组件（如 Exchange、SharePoint 和 OneDrive for business）。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1451750d5e329ddb27307b21334fb7d281255d73
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c30a4da2a37f75540c2b81a1f0d37e2c1e348339
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690168"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085518"
 ---
 <a name="verify-service-health-for-microsoft-teams"></a>验证 Microsoft Teams 的服务运行状况
 ===========================================
@@ -33,3 +33,8 @@ Microsoft 团队的服务运行状况显示在 Microsoft 365 管理中心。 在
 ![“服务运行状况”页面屏幕截图。](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![此屏幕截图显示 Microsoft Teams 服务运行正常。](media/Verify_service_health_for_Microsoft_Teams_image2.png)
+
+
+## <a name="related-topics"></a>相关主题
+
+[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

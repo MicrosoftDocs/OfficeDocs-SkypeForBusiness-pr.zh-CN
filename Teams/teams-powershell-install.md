@@ -13,12 +13,12 @@ ms.collection:
 description: 了解如何使用 PowerShell 控件管理 Microsoft 团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849b22d09c79e97c5eaaeab4dee96b1d432970cb
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 8f42548439c0915eea8405b3c466f7696767f80c
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944082"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085878"
 ---
 # <a name="install-microsoft-teams-powershell"></a>安装 Microsoft 团队 PowerShell
 
@@ -26,7 +26,7 @@ ms.locfileid: "44944082"
 
 ## <a name="requirements"></a>要求
 
-团队 PowerShell 在所有平台上使用 PowerShell 6.2.4 和更高版本。 Windows 上的 PowerShell 5.1 也支持它。 安装适用于你的操作系统的[最新版本的 PowerShell](/powershell/scripting/install/installing-powershell) 。 在 PowerShell 6.2.4 和更高版本上运行时，团队 PowerShell 没有其他要求。
+团队 PowerShell 需要在所有平台上安装 PowerShell 5.1 或更高版本。 安装适用于你的操作系统的[最新版本的 PowerShell](/powershell/scripting/install/installing-powershell) 。
 
 > [!WARNING]
 > PowerShell 7 和团队 PowerShell 存在已知问题。 为了获得最佳体验，我们建议使用 PowerShell 5.1。
@@ -45,7 +45,7 @@ Install-Module MicrosoftTeams
 
 默认情况下，PowerShell 库（PSGallery）未配置为**PowerShellGet**的受信任存储库。 首次使用 PSGallery 时，您将看到以下消息：
 
-```output
+```console
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-回答 `Yes` 或 `Yes to All` 继续安装。
+回答 **"是"** 或 **"是"** ，以继续安装。
 
 
 ## <a name="install-teams-powershell-public-preview"></a>安装团队 PowerShell 公共预览版
@@ -71,7 +71,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 Install-Module PowerShellGet -Force -AllowClobber
 ```
 
-若要安装团队 Powershell 公共预览版，请运行以下 PowerShell 命令。
+若要安装团队 PowerShell 公共预览版，请运行以下 PowerShell 命令。
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease

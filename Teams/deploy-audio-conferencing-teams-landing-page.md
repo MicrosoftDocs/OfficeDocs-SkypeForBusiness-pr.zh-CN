@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f01c95ac248d470cc0384e42b6948c45bb99c8bf
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c90f5e62dbc3cc4944031eeaa9a19a6fc35bb47f
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691318"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085808"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音频会议
 
@@ -148,7 +148,7 @@ Teams 音频会议允许你为会议网桥设置默认语言和备用语言。
 
 ### <a name="troubleshoot-meeting-and-call-quality"></a>会议和通话质量疑难解答 
 
-Teams 提供两种用于监视和排除通话质量问题的方法：[通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)。 通话分析显示有关与每个用户的特定通话和会议相关的设备、网络和连接的详细信息。 通话分析旨在帮助管理员和技术支持人员解决特定通话的通话质量问题，而通话质量仪表板旨在帮助管理员和网络工程师优化网络。 通话质量仪表板关注的不是特定用户，而是整个 Teams 组织的聚合信息。 
+Teams 提供两种用于监视和排除通话质量问题的方法：[通话分析和通话质量仪表板](monitor-call-quality-qos.md)。 通话分析显示有关与每个用户的特定通话和会议相关的设备、网络和连接的详细信息。 通话分析旨在帮助管理员和技术支持人员解决特定通话的通话质量问题，而通话质量仪表板旨在帮助管理员和网络工程师优化网络。 通话质量仪表板关注的不是特定用户，而是整个 Teams 组织的聚合信息。 
 
 |询问你自己|操作 |
 |------------|-------|

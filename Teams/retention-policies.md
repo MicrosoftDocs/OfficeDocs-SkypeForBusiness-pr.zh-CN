@@ -2,11 +2,11 @@
 title: Microsoft Teams 中的保留策略
 author: LanaChin
 ms.author: anwara
+ms.reviewer: prvijay
 manager: prvijay
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: prvijay
 description: 在本文中，你将了解保留策略以及如何在 Microsoft 团队中创建和管理它们。
 localization_priority: Normal
 search.appverid: MET150
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e091cc9c5d6f3ce55ea9e64473759afbd59df2c4
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: 5800e75e253ad5669b833a3302a04bbe2ac39763
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902267"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086148"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
@@ -59,15 +59,24 @@ ms.locfileid: "44902267"
 
 ## <a name="how-teams-retention-policies-work"></a>Teams 保留策略的工作方式
 
-团队聊天内容存储在 Teamschat 中每个用户的隐藏文件夹中，并且团队频道消息存储在团队的组邮箱中的隐藏文件夹中（Teamschat）。 Teams 使用由 Azure 支持的聊天服务，该服务也会存储此数据，并且默认永久存储。 借助 Teams 保留策略，当你删除数据时，将从 Exchange 邮箱和基础聊天服务中永久删除该数据。
+团队聊天内容存储在聊天中每个用户的邮箱中的隐藏文件夹（Teamschat）中，而团队频道消息存储在团队的组邮箱的隐藏文件夹（Teamschat）中。 Teams 使用由 Azure 支持的聊天服务，该服务也会存储此数据，并且默认永久存储。 借助 Teams 保留策略，当你删除数据时，将从 Exchange 邮箱和基础聊天服务中永久删除该数据。
 
-将保留策略应用于 Teams 聊天和频道消息后，将发生以下情况：
+将**保留保留**策略应用到团队聊天或频道邮件时，将发生以下情况：
 
-- 如果用户在保留期内编辑或删除了聊天或频道消息，则该消息将复制（如果已编辑）或移动（如果已删除）到 SubstrateHolds 文件夹中，并存储在该文件夹中，直到保留期到期为止。 如果将策略配置为在保留期到期时删除数据，则将在保留期到期的当天永久删除消息。
-- 如果用户在保留期内未删除聊天或频道消息，则该消息将在保留期到期后的一天内移至 SubstrateHolds 文件夹。 如果将策略配置为在保留期到期时删除数据，则将在消息移至文件夹的一天后永久删除该消息。
+- 如果在保留期间，用户在保留期间内编辑或删除了聊天或频道消息，则会将邮件复制（如果已编辑）或移动（如果它已被删除）到 SubstrateHolds 文件夹并存储在该文件夹中，直到保留期到期。 如果将策略配置为在保留期到期时删除数据，则将在保留期到期的当天永久删除消息。
+- 如果**保留**期间用户未删除聊天或频道消息，则邮件将在保留期到期后的一天内移动到 SubstrateHolds 文件夹。 如果将策略配置为在保留期到期时删除数据，则将在消息移至文件夹的一天后永久删除该消息。
+
+将**保留期间删除**策略应用到团队聊天和频道消息时，将发生以下情况：
+
+- 当聊天或频道消息过期时，**保留删除**策略（后端服务）超过允许的后端服务可标识已过期的消息并开始将其删除在后端存储（用户或组邮箱）中。 
+- 在后端存储中删除一条消息后，将触发一个过程，以便在 Azure 已通电的聊天服务和用户的团队应用中删除相同的消息。 对于要在 "团队" 应用中删除的邮件，应用需要连接到 internet 并处于空闲状态（无用户活动），以便删除过程不会影响用户体验。 由于用户可能有多个设备（可能处于不同状态），因此保留删除不会完全与这些设备同步。
+- 在后端存储中的消息删除完成后，这些消息将在合规性搜索报告（如电子数据展示）中停止显示。
 
 > [!NOTE]
 > 相同的流程适用于 Skype for Business Online 和 Teams 互操作聊天。 当 Skype for Business Online 聊天进入 Teams 时，它将成为 Teams 聊天线程中的消息，并接收到相应的邮箱中。 Teams 保留策略将从 Teams 线程中删除这些消息。 但是，如果已为 Skype for Business Online 开启对话历史记录，并且从 Skype for Business Online 客户端将会话历史记录保存到邮箱中，则 Teams 保留策略不会处理该聊天数据。
+
+> [!NOTE]
+> 邮件的删除是永久性和不可逆的。
 
 Teams 中的保留策略基于聊天或频道消息的创建日期，并且具有追溯性。 换言之，如果你创建保留策略来删除 90 天之前的数据，则在 90 天之前创建的 Teams 数据将被删除。
 
@@ -83,7 +92,7 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
 
 - Teams 不支持高级保留设置，例如，用于为包含关键字或敏感信息的内容应用策略的功能。 目前，Teams 中的保留策略适用于所有聊天和/或频道消息内容。
 
-- 团队保留策略将在一天内触发一个流程，以便在保留期到期时删除聊天和频道消息。 但是，可能需要长达3至7天的时间来清理这些邮件并永久删除它们。 此外，在保留期到期后和永久删除消息之间的时间段内，可以使用电子数据展示工具搜索聊天和频道消息。
+- 团队保留策略将触发删除聊天和频道消息的过程（基于邮件创建日期）。 但是，根据服务负载，可能需要长达7天才能永久删除后端存储和团队应用中的这些消息。 此外，这些消息将可通过合规性工具（电子数据展示、最终用户搜索）进行搜索，直至它们被从后端存储中永久删除。
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>多个保留策略和保留原则
 

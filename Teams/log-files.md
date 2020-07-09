@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ad44af297cdfe375f28485e1c4c4e223f616666
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 2303082c4f1c16a28a9116047d904a5d491a535a
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012188"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085748"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================
@@ -127,3 +127,9 @@ Mac OsX：
 |Windows     |% appdata% \Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
 |Linux       |~/.config/Microsoft/Microsoft 团队/logs.txt         |
+
+
+## <a name="related-topics"></a>相关主题
+
+[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+

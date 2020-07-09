@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01f57601e7dbf59286c5a92a45b09f835b21c131
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 689a66eea93d71c6b083bfd370ba1c73b6a28245
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691298"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085798"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -197,7 +197,7 @@ Teams 实时事件策略用于管理用户组的事件设置。 可以使用默�
 
 ### <a name="troubleshoot-meeting-and-call-quality"></a>会议和通话质量疑难解答 
 
-Teams 提供两种用于监视和排除通话质量问题的方法：[通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)。 通话分析显示有关与每个用户的特定通话和会议相关的设备、网络和连接的详细信息。 通话分析旨在帮助管理员和技术支持人员解决特定通话的通话质量问题，而通话质量仪表板旨在帮助管理员和网络工程师优化网络。 通话质量仪表板关注的不是特定用户，而是整个 Teams 组织的聚合信息。 
+Teams 提供两种用于监视和排除通话质量问题的方法：[通话分析和通话质量仪表板](monitor-call-quality-qos.md)。 通话分析显示有关与每个用户的特定通话和会议相关的设备、网络和连接的详细信息。 通话分析旨在帮助管理员和技术支持人员解决特定通话的通话质量问题，而通话质量仪表板旨在帮助管理员和网络工程师优化网络。 通话质量仪表板关注的不是特定用户，而是整个 Teams 组织的聚合信息。 
 
 |询问你自己|操作 |
 |------------|-------|

@@ -1,10 +1,10 @@
 ---
-title: 通话质量仪表板中的流分类
-ms.author: tonysmit
-author: tonysmit
+title: 通话质量仪表板（CQD）中的流分类
+ms.author: lolajacobsen
+author: lolaj
 manager: serdars
 ms.reviewer: gageames
-ms.topic: conceptual
+ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -19,21 +19,21 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 了解如何在 Microsoft Teams 和 Skype for Business Online 的呼叫质量仪表板中进行流质量分类。
-ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+description: 了解如何在 Microsoft 团队和 Skype for business Online 的通话质量仪表板（CQD）中分类流质量。
+ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160736"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085888"
 ---
-# <a name="stream-classification-in-call-quality-dashboard"></a>通话质量仪表板中的流分类
+# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>通话质量仪表板（CQD）中的流分类
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to enable it, see [Turning on and using Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
 
 ## <a name="classifier-definitions"></a>分类器定义
 
-CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或未_分类_。用于分类流的指标和条件在随后的表中显示。CQD 的 "由于" 维度的 "差" 可用于了解哪些指标负责_较差_的分类。有关这些维度的详细信息，请参阅[通话质量仪表板中可用的维度和度量](dimensions-and-measures-available-in-call-quality-dashboard.md)。
+Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>音频分类器
 
@@ -41,7 +41,7 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 
 |指标|条件|解释|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1.0|数据流的平均网络平均观点。网络损失和抖动对收到的音频质量有多大影响。|
+|Audio Degradation Avg|> 1.0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
 |Round Trip|> 500|平均往返行程网络传播时间，以毫秒为单位计算。 [根据 rfc3550](https://tools.ietf.org/html/rfc3550)中提供的详细信息。|
 |Packet Loss Rate|> 0.1|流的平均丢包率。|
 |抖动|> 30|流的平均抖动值，以毫秒为单位。|
@@ -52,10 +52,10 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 
 视频流基于生成的分类器分数的值标记为 "_良好_" 或 "_差_"，以估计最终用户遇到了冻结的视频。 此分类器仅适用于 Microsoft 团队产品。
 
-|步骤编号|指标|应用场景|条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
+|步骤编号|指标|使用场景|条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|由于冻结分类器而导致视频较差 |服务器对是客户端：服务器|>0.246|_Poor_|_Good_|_Unclassified_|基于用户体验、冻结持续时间统计和整体通话体验的组合生成的0和1之间的分数 |
-|ppls-2|由于冻结分类器而导致视频较差 |服务器对是客户端：客户端|>0.524|_Poor_|_Good_|_Unclassified_|基于用户体验、冻结持续时间统计和整体通话体验的组合生成的0和1之间的分数 |
+|2|由于冻结分类器而导致视频较差 |服务器对是客户端：客户端|>0.524|_Poor_|_Good_|_Unclassified_|基于用户体验、冻结持续时间统计和整体通话体验的组合生成的0和1之间的分数 |
 |  |  |  |  |  |  |  |
 
 ### <a name="video-classifier"></a>视频分类器
@@ -64,7 +64,7 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 |步骤编号|指标|条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 平均值包括从网络丢失恢复的帧。|
-|ppls-2|Video Frame Rate Avg|< 7|_Poor_|_Good_|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
+|2|Video Frame Rate Avg|< 7|_Poor_|_Good_|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
 |3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|在所有视频流和编解码器上应用 FEC 后的数据包丢失率。|
 |  |  |  |  |  |  |  |
 
@@ -75,7 +75,7 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 |步骤编号 |指标 |条件 |如果条件为真的分类 |如果条件为假的分类 |如果指标不可用的分类 |解释 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|继续前往步驟 2|向用户显示的视频帧丢失平均百分比。 平均值包括从网络丢失恢复的帧。|
-|ppls-2|Video Frame Rate Avg|<2|_Poor_|_Good_|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
+|2|Video Frame Rate Avg|<2|_Poor_|_Good_|继续前往步驟 3|在会话持续期间计算到的视频流每秒接收的平均帧数。|
 |3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|在所有视频流和编解码器上应用 FEC 后的数据包丢失率。|
 | |  | | | |  ||
 
@@ -115,10 +115,18 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 > "Packet Utilization" 维度和 "Avg Packet Utilization" 度量可用于确定流的数据包活动。
 
 ## <a name="related-topics"></a>相关主题
+[改善和监控团队的通话质量](monitor-call-quality-qos.md)
 
-[打开和使用呼叫质量仪表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+[什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[设置通话质量仪表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
 
-[使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
- 
+[上载租户和生成数据](CQD-upload-tenant-building-data.md)
+
+[CQD 数据和报告](CQD-data-and-reports.md)
+
+[使用 CQD 管理通话和会议质量](quality-of-experience-review-guide.md)
+
+[CQD 中可用的维度和度量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
+
+[使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)

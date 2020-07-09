@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5f6c30ea0fd36df35280dc0b179babec9e98107
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 15c7c38b31586d0eec73e34702d873514938020e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868139"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085898"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>为 Microsoft 团队准备 IT 员工
 
@@ -46,7 +46,7 @@ ms.locfileid: "44868139"
 - [使用 Microsoft Teams 客户端解决连接性问题](connectivity-issues.md)
 - [在对 Microsoft Teams 进行故障排除时使用日志文件](log-files.md)
 
-[//]: # (询问 Debbie：)
+
 
 | | |
 |---|---|

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 32a334f4866c1874f60e85e3b74908f161d45a33
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7e4db423d262f939362400cdec489ca065b5d5c1
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691548"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086199"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>排查 Microsoft Teams 中的来宾访问问题
 ======================================================
@@ -54,3 +54,4 @@ Teams 中的来宾访问功能使用 Azure Active Directory (Azure AD) 企业对
 [Teams 中的来宾访问](guest-access.md)
 
 
+[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

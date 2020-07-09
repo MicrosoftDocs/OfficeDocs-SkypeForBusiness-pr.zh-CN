@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 761504400639c8ed53c617f6c816dd7c4703a530
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: 1d7aed894724a09f1b3cc352ef3e280cf3ead310
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489134"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086158"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -83,10 +83,10 @@ ms.locfileid: "44489134"
 
 <a name="bknetwork"> </a>
 
-如果要使用服务质量 [(QoS)](qos-in-teams.md) 确定网络流量的优先级，则可以启用 QoS 标记，并且可以设置每种媒体流量的端口范围。 为不同流量类型设置端口范围只是处理实时媒体的其中一个步骤；有关详细信息，请参阅 [Teams 中的服务质量 (QoS)](qos-in-teams.md)。
+如果你使用 "服务质量（QoS）" 来设置网络流量的优先级，则可以为每种类型的媒体流量启用 QoS 标记和设置端口范围。 为不同流量类型设置端口范围只是处理实时媒体的其中一个步骤；有关详细信息，请参阅 [Teams 中的服务质量 (QoS)](qos-in-teams.md)。
 
 > [!IMPORTANT]
-> 如果要在 Microsoft Teams 管理中心为 Microsoft Teams 服务启用 QoS 或更改设置，还需[向所有用户设备和所有内部网络设备应用匹配设置](QoS-in-Teams-clients.md)，以完全实施对 Teams 中的 QoS 所作的更改。
+> 如果为团队服务启用 QoS 或更改 Microsoft 团队管理中心中的设置，你还需要[将匹配设置应用到所有用户设备](QoS-in-Teams-clients.md)和所有内部网络设备，以完全实现团队中的 QoS 的更改。
 
  ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 1. 转到<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>。

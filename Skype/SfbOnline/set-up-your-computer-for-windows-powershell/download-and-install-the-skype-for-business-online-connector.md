@@ -19,18 +19,21 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: '下载、安装和使用 Skype for Business Online 连接器以创建连接到 Skype for business Online 的远程 Windows PowerShell 会话。 '
-ms.openlocfilehash: 14e45765c4f1102242efe93548096dabf0174ff7
-ms.sourcegitcommit: a7c823f61d9ab88424bad924113d780ce11e509f
+ms.openlocfilehash: 8c5068c221c46f7be0d9d97c1c3d515ae244b316
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44224105"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085698"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>下载并安装 Skype for Business Online 连接器模块
 
-Skype for Business Online 连接器模块包括**CsOnlineSession** cmdlet，可用于创建连接到 Skype For business Online 的远程 Windows PowerShell 会话。 此模块仅受64位计算机支持（请参阅[使用 Windows PowerShell 设置适用于 Skype for Business Online 管理的计算机](set-up-your-computer-for-windows-powershell.md)），可从 Microsoft 下载中心下载 [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) 。 下载 SkypeOnlinePowershell 文件，然后完成以下过程：
+> [!NOTE]
+> 最新的[团队 powershell 公共预览版](https://www.powershellgallery.com/packages/MicrosoftTeams/)已与 Skype For Business Online 连接器集成，为团队 PowerShell 管理提供单个模块。
+
+Skype for Business Online 连接器模块包括**CsOnlineSession** cmdlet，可用于创建连接到 Skype For business Online 的远程 Windows PowerShell 会话。 此模块仅受64位计算机支持（请参阅[使用 Windows PowerShell 设置适用于 Skype for Business Online 管理的计算机](set-up-your-computer-for-windows-powershell.md)），可从 Microsoft 下载中心下载 [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) 。 下载 SkypeOnlinePowershell.exe 文件，然后完成以下过程：
   
-1. 双击 " **SkypeOnlinePowershell** " 文件。
+1. 双击 " **SkypeOnlinePowershell.exe** " 文件。
     
 2. 在 Skype for Business Online 的 Windows PowerShell 设置向导中的 " **Microsoft 软件许可条款**" 页面上，选择 "**我接受许可协议中的条款**"，然后单击 "**安装**"。 如果出现 "**用户帐户控制**" 对话框，请单击 **"是"** 以继续安装。
     
@@ -56,7 +59,7 @@ Import-Module SkypeOnlineConnector
 
 保存文件。 下次启动 Windows PowerShell 时，将自动导入 Skype for business Online 连接器模块。 请注意，你将收到一条错误消息，如果你未在 "管理员凭据" 下运行 Windows PowerShell，将不会加载该模块。
   
-除了安装 Skype for Business Online 连接器模块之外，SkypeOnlinePowershell 还会安装三个其他组件：1）标识服务客户端运行时库（IDCRL），用于处理对 Skype for business Online 的客户端身份验证;2） .NET Framework 4.5;和3） Microsoft Visual c + + 2012 可再发行（x64）程序包（版本11.0.50727）。 .NET Framework 4.5 提供用于构建和运行 .NET 应用程序（包括 Windows PowerShell）的基础结构。 Visual c + + 可再发行程序包为未安装 Microsoft Visual Studio 2012 的计算机安装 Visual c + + 运行时组件。
+除了安装 Skype for Business Online 连接器模块之外，SkypeOnlinePowershell.exe 还会安装三个附加组件：1）标识服务客户端运行时库（IDCRL），用于处理对 Skype for business Online 的客户端身份验证;2） .NET Framework 4.5;和3） Microsoft Visual c + + 2012 可再发行（x64）程序包（版本11.0.50727）。 .NET Framework 4.5 提供用于构建和运行 .NET 应用程序（包括 Windows PowerShell）的基础结构。 Visual c + + 可再发行程序包为未安装 Microsoft Visual Studio 2012 的计算机安装 Visual c + + 运行时组件。
   
 若要验证您的计算机上当前安装的连接器模块的版本号，请打开 "控制面板"，打开 "**程序和功能**"，然后查看**Skype for Business Online、Windows PowerShell 模块**的版本号。
   

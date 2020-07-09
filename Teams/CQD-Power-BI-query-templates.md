@@ -16,18 +16,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 使用 Power BI 分析 Microsoft 团队的 CQD 数据。
-ms.openlocfilehash: 5d081853f9fc5c1106ce6906f31ddc10613ec9f9
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 3b667bfeea80cc4ba2abe40f71c6ce815bcf38e0
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44158959"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086178"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>使用 Power BI 分析 Microsoft 团队的 CQD 数据
 
 2020年1月[的新增功能：下载 CQD 的 POWER BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 可用于分析和报告 CQD 数据的自定义 Power BI 模板。
 
-对于团队中的 CQD 报表，如果你希望使用 Power BI 查询和报告数据，请下载我们的 CQD Power BI 模板。 打开 Power BI 中的模板时，系统将提示你通过 CQD 管理员凭据登录。 你可以自定义这些查询模板，并将其分发给你组织中具有 Power BI 许可证和 CQD 管理员权限的任何人。
+对于团队中的通话质量仪表板（CQD）报表，如果你希望使用 Power BI 查询和报告数据，请下载我们的 CQD Power BI 模板。 打开 Power BI 中的模板时，系统将提示你通过 CQD 管理员凭据登录。 你可以自定义这些查询模板，并将其分发给你组织中具有 Power BI 许可证和 CQD 管理员权限的任何人。
 
 在你可以使用这些 PBIT 文件之前，你需要使用[下载](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的*MicrosoftCallQuality*文件[安装 Microsoft CQD 的 Power BI 连接器](CQD-Power-BI-connector.md)。 
 
@@ -44,7 +44,7 @@ ms.locfileid: "44158959"
 |CQD 用户反馈（评价我的通话）报告。 pbit     | 显示使用一种可轻松地帮助支持组织通话的方式对我的通话数据进行评级。 与 verbatims 的交叉参考以识别最终用户教育机会。        |
 
 > [!TIP]
-> 为 CQD 数据设置 Power BI 报表后，将其作为选项卡添加到频道。 在频道中**+** 选择后，选择 " **Power BI** "，然后查找报表。 若要了解详细信息，请参阅[团队的 POWER BI 选项卡的嵌入报表](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams)。 请记住，只有具有 Power BI 许可证和 CQD 管理员凭据的用户才能访问这些报表。
+> 为 CQD 数据设置 Power BI 报表后，将其作为选项卡添加到频道。 **+** 在频道中选择后，选择 " **Power BI** "，然后查找报表。 若要了解详细信息，请参阅[团队的 POWER BI 选项卡的嵌入报表](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams)。 请记住，只有具有 Power BI 许可证和 CQD 管理员凭据的用户才能访问这些报表。
 
 
 ## <a name="related-topics"></a>相关主题

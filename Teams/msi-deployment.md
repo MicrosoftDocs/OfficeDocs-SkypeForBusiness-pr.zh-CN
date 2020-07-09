@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: rafarhi, jhreddy
 audience: admin
 description: 使用 Microsoft 终结点配置管理器批量部署 Microsoft 团队以选择用户或计算机。
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4d29790994ba155984077ea9046fc6cf097302
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902807"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45088190"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 
@@ -85,8 +85,8 @@ Teams MSI 会将安装程序放置在“Program Files”中。 无论用户何�
 > 接下来的步骤包含有关如何修改注册表的信息。 请确保在修改注册表之前对其进行备份，如果出现问题，您知道如何还原注册表。 有关如何备份、还原和修改注册表的详细信息，请参阅[高级用户的 Windows 注册表信息](https://support.microsoft.com/help/256986)。
 
 1. 卸载为每个用户配置文件安装的团队应用。 有关详细信息，请参阅[卸载 Microsoft 团队](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)。
-2. 在下`%localappdata%\Microsoft\Teams\`递归删除目录。
-3. 删除`HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi`注册表值。
+2. 在下递归删除目录 `%localappdata%\Microsoft\Teams\` 。
+3. 删除 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 注册表值。
 4. 将 MSI 程序包重新部署到该特定计算机。
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>阻止 Teams 在安装后自动启动

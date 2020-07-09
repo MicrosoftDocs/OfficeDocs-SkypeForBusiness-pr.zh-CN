@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7828675f2a1dc7f3ea6f1cbad1227a9c47bd816
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: c23d5d3967e681b0b30d69c5977672063f4e648e
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868499"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085908"
 ---
 # <a name="operate-your-service"></a>运行服务
 
@@ -49,7 +49,9 @@ ms.locfileid: "44868499"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定将如何为团队实施操作。</li></ul></td></tr>
+
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>后续步骤</td><td><ul><li>完整查看操作指南。</li><li>实施与组织的目标相协调的操作策略，以提供团队工作负荷的质量和可靠性。</li><li>查看体验质量评审指南。</li><li> 实施一种操作策略来定期执行体验检查质量，以确保团队部署在其峰值功能中运行。</li></ul></td></tr>
+
 </table>
 
 ### <a name="operational-role-mapping"></a>可操作的角色映射
@@ -377,12 +379,12 @@ NPS 是一个介于-100 到100之间的索引，用于衡量客户推荐公司�
 所有组织都需要一个组或个人负责质量。 这是服务管理中最重要的角色。 质量拥护者角色分配给热心用户体验的人员或组。
 此角色要求具有识别环境中的趋势的技能，以及能够支持与其他团队合作以推动修正。 质量支持者的最佳候选人通常是客户服务所有者。 根据组织的规模和复杂程度，这可以是具有热情的人员或组，可确保高质量的用户体验。
 
-质量专家利用现有的工具和已记录的流程，如通话质量仪表板（CQD）和体验检查指南，用于监控用户体验、识别质量趋势和在需要的地方推动补救。
+质量拥护者利用现有工具和已记录的流程（如呼叫质量仪表板（CQD）），并[改善和监控团队的通话质量](monitor-call-quality-qos.md)、监控用户体验、识别质量趋势和推动所需的补救。
 质量拥护者应与各自的团队一起推动补救措施，并向指导委员会报告进度和任何打开的问题。
 
-[体验质量检查指南](https://aka.ms/qerguide)包括在对改善用户体验有最大影响的关键领域中评估和提供补救指南的活动。 质量体验审核指南中提供的指南重点介绍如何使用 CQD Online 作为主要工具来报告和调查每个区域，并重点介绍音频以最大程度地提高采纳和影响。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
+[改进和监控团队的通话质量](monitor-call-quality-qos.md)包括评估和提供对改善用户体验影响最大的关键领域的补救指南的活动。 质量体验审核指南中提供的指南重点介绍如何使用 CQD Online 作为主要工具来报告和调查每个区域，并重点介绍音频以最大程度地提高采纳和影响。 为了改进音频体验而对网络所做的任何优化也将会直接带来视频和桌面共享的改进。
 
-我们强烈建议您提前提名本《质量专家提名。 在进行命名后，他们应开始熟悉体验质量检查指南和相关培训资料中的内容。
+我们强烈建议您提前提名本《质量专家提名。 在准备好后，他们应首先熟悉内容，以便为团队和相关培训资料[改进和监控通话质量](monitor-call-quality-qos.md)。
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>每日/每周/每月/按需任务
 
@@ -398,7 +400,7 @@ NPS 是一个介于-100 到100之间的索引，用于衡量客户推荐公司�
 
 [上载建筑物信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[体验质量检查指南](https://aka.ms/qerguide)
+[改善和监控团队的通话质量](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
 
@@ -419,7 +421,7 @@ Microsoft 团队终结点可以定义为任何运行团队客户端的 PC、Mac�
 
 ### <a name="wi-fi-drivers"></a>Wi-Fi 驱动程序
 
-Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问点之间出现非常严重的漫游行为，从而导致不必要的访问点切换，从而导致通话质量较差。 性能较差的 Wlan 驱动程序可能会通过 "体验质量检查" （有关详细信息，请参阅[体验查看指南的质量](https://aka.ms/qerguide)）发现。 实施一个质量驱动的流程，以监视新的 Wi-fi 驱动程序并确保在将其部署到一般用户群体之前对其进行了测试，这一点非常重要。
+Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问点之间出现非常严重的漫游行为，从而导致不必要的访问点切换，从而导致通话质量较差。 性能较差的 Wi-fi 驱动程序可能会通过 "体验质量检查" 发现（请参阅[改进和监视团队的通话质量](monitor-call-quality-qos.md)以了解详细信息）。 实施一个质量驱动的流程，以监视新的 Wi-fi 驱动程序并确保在将其部署到一般用户群体之前对其进行了测试，这一点非常重要。
 
 ### <a name="endpoint-management"></a>终结点管理
 
@@ -445,7 +447,7 @@ Wi-fi 驱动程序可能有问题。 例如，驱动程序可能会导致访问�
 |---|---|---|---|
 | 终结点要求 | 确保团队终结点继续满足[Microsoft 团队的获取客户端](get-clients.md)中列出的团队的所有软件要求。 | 每月 | |
 | 终结点防火墙 | 基于[Office 365 url 和 IP 地址范围](https://aka.ms/o365ips)中的信息维护终结点防火墙上的相应排除项。 您的第三方供应商将提供有关如何维护排除项的特定指南。 订阅[rss 源](https://support.office.com/o365ip/rss)以自动收到更改通知。 | 根据需要 | |
-| Wi-Fi 驱动程序 | 在电脑上测试和更新 Wlan 驱动程序。 使用 "CQD" （[体验检查指南](https://aka.ms/qerguide)）验证结果。 | 根据需要 | |
+| Wi-Fi 驱动程序 | 在电脑上测试和更新 Wlan 驱动程序。 使用 CQD 验证结果（[提高和监控团队的通话质量](monitor-call-quality-qos.md)）。 | 根据需要 | |
 | 终结点管理 | 维护支持的终结点和接口设备（如耳机）的目录。 管理供应商合同、保修、分发、更换和维修政策。 | 每月 | |
 | 终结点疑难解答 | 故障排除任务可以包括验证连接、咨询已知问题列表、记录收集、分析和上报给 Microsoft 支持或第三方供应商。 | 根据需要 | |
 

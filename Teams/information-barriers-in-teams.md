@@ -16,12 +16,12 @@ description: 本文介绍 Microsoft 团队中的哪些信息障碍以及他们�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab476fa906c849e2c5af59546c3cca482be461a
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: ce71f0c0f2621253698cd250372624ded638dcec
+ms.sourcegitcommit: a22a7b7e4bf556ee3e5e2e51c6f9f1c865a0724a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021779"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083182"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
@@ -143,10 +143,6 @@ Enrico 无法再向群组聊天发送消息。
     ![显示群组聊天的屏幕截图](media/information-barriers-people-picker.png)
     
 - **"活动" 选项卡**-如果用户访问被阻止用户的 "**活动**" 选项卡，则不会显示任何帖子。 （"**活动**" 选项卡仅显示频道发布，在两个用户之间不存在任何公共频道。）
-
-    下面是 "活动" 选项卡视图的示例。
-
-    ![显示 "活动" 选项卡的屏幕截图](media/ib-before-activity-tab-policy.png)
 
     下面是已阻止的 "活动" 选项卡视图的示例。
 

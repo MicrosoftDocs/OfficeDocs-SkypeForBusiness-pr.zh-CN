@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保你的 Microsoft 团队聊天室系统可供你的用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905364"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085948"
 ---
 # <a name="management-overview"></a>管理概述
 
@@ -42,7 +42,7 @@ ms.locfileid: "43905364"
 |**设置**|**这样**|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = （dword）1  <br/> |支持 Microsoft 团队会议室启动  <br/> |
-|电源管理-\>通过交流，10分钟后关闭屏幕  <br/> 电源管理-\>在交流上，从不将系统置于睡眠状态  <br/> |使 Microsoft 团队会议室能够关闭附加的显示并自动唤醒  <br/> |
+|电源管理-通过 \> 交流，10分钟后关闭屏幕  <br/> 电源管理- \> 在交流上，从不将系统置于睡眠状态  <br/> |使 Microsoft 团队会议室能够关闭附加的显示并自动唤醒  <br/> |
 |net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
 
 在 "[配置文件" 项目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)中讨论了使用组策略传输文件的内容。
@@ -65,7 +65,7 @@ ms.locfileid: "43905364"
 
 将生成信息上载到 CQD 时，你可以在每个建筑物级别上调查通话质量和可靠性趋势，这使你可以轻松地比较建筑物并将注意力集中在特定问题上。
 
-我们建议你查看并按照[体验质量检查指南](https://aka.ms/qerguide)来确定质量和可靠性趋势，并创建行动计划来解决这些问题。 
+我们建议你查看和跟踪[团队的通话质量](../monitor-call-quality-qos.md)，以确定质量和可靠性趋势，并创建行动计划来解决这些问题。 
 
 ## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>更新 Microsoft 团队会议室 OS 和 Microsoft 团队聊天室应用程序
 

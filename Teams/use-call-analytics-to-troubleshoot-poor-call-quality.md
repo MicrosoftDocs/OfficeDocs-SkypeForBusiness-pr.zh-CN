@@ -1,10 +1,9 @@
 ---
-title: 使用通话分析来排查通话质量不良问题
+title: 使用呼叫分析解决较差的通话质量
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
-ms.reviewer: mikedav, wlooney
-ms.date: 03/08/2019
+ms.reviewer: mikedav, vkorlep
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
@@ -14,7 +13,6 @@ ms.collection:
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
@@ -23,75 +21,93 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: 使用有关设备、网络和连接的呼叫分析详细信息来解决与 Microsoft 团队和 Skype for business 通话和会议有关的用户问题。
-ms.openlocfilehash: 71a1e1c339c502da5cbbf998c75e758f2bbe3be2
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+description: 使用有关设备、网络和连接的每用户呼叫分析详细信息，解决与 Microsoft 团队通话和会议有关的用户问题。
+ms.openlocfilehash: fa923a133ac6a56edcbc6f6445d2859692adf351
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665244"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085318"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通话分析来排查通话质量不良问题
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用呼叫分析解决较差的通话质量
 
-呼叫分析可帮助你解决 Microsoft 团队和 Skype for business 的通话或连接问题。 "呼叫分析" 显示有关 Microsoft 365 或 Office 365 帐户中每个用户的呼叫和会议的设备、网络和连接的详细信息。 如果 "生成"、"网站" 和 "租户" 信息已添加到调用分析，则它还将针对每个通话和会话显示。 通过呼叫分析提供的信息可以帮助你了解为什么用户的通话或会议体验不佳的原因。 
+本文介绍如果你是团队管理员或团队沟通支持专家或工程师，如何使用呼叫分析来解决对单个用户的不良 Microsoft 团队通话或会议质量问题。
+
+
   
 ## <a name="call-analytics-permissions"></a>调用分析权限
 
-作为管理员，你可以完全访问呼叫分析的所有功能。 此外，你可以将 Azure Active Directory 角色分配给支持人员。 将团队通信支持专家角色分配给应具有有限视图的调用分析的用户。 将团队通信支持工程师角色分配给需要访问调用分析的完整功能的用户。 这两个权限级别阻止访问 Microsoft 团队管理中心的其余部分。
+本文假定你已设置呼叫分析。 如果您没有，请阅读[为团队设置呼叫分析](set-up-call-analytics.md)。
 
-通信支持专家处理基本的通话质量问题。 他们不会调查会议问题。 而是收集相关信息，然后升级到通信支持工程师。 通信支持工程师查看有关通信支持专家隐藏的详细通话记录中的信息。 下表简要介绍了在使用呼叫分析时，通信支持专家和通信支持工程师可使用的信息。
+## <a name="introduction-to-call-analytics"></a>通话分析简介
 
-分配给你的权限级别确定在呼叫分析中你有权访问的信息类型：
-  
-- **团队服务管理员或团队通信管理员**：您有权访问呼叫分析和 Microsoft 团队管理中心中的所有信息。
-    
-- **团队通信支持专家**：在 "调用分析" 中看到一组有限的数据。 你可以对通话进行故障排除，但你将向团队通信支持工程师分发会议问题。 您无法访问 Microsoft 团队管理中心的其余部分。
-    
-- **团队通信支持工程师**：查看呼叫分析中的所有可用数据，并可帮助解决与通话和会议有关的问题。 您无法访问 Microsoft 团队管理中心的其余部分。
-    
-> [!NOTE]
-> 通信支持专家角色等效于第1层支持，而通信支持工程师角色等效于第2层支持。
+通话分析显示有关团队使用 Office 365 帐户中的每个用户的呼叫和会议的详细信息。 其中包括有关设备、网络、连接和通话质量的信息（这些信息可能是较差通话或会议质量的一个因素）。 如果你上载建筑物、网站和租户信息，还将为每个呼叫和会议显示此信息。 使用呼叫分析可帮助你了解为什么用户通话或会议体验不佳的原因。
 
-有关团队管理员角色的详细信息，请参阅[使用 Microsoft 团队管理员角色管理团队](using-admin-roles.md)。 有关团队通信支持专家和团队通信支持工程师角色的详细比较，请参阅[设置呼叫分析](set-up-call-analytics.md#set-call-analytics-permissions) 
-  
-如果需要有关权限的帮助，请查看你的团队和 Skype for business 管理员。
-  
-## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>使用呼叫分析解决通话质量问题
+"呼叫分析" 显示通话或会议的每个腿，例如，从一个参与者到第二个参与者。 通过分析这些详细信息，团队管理员可以隔离问题区域并确定质量较差的根本原因。
+   
+作为团队管理员，您可以完全访问每个用户的所有呼叫分析数据。 此外，你可以将 Azure Active Directory 角色分配给支持人员。 若要了解有关这些角色的详细信息，请参阅[向支持人员和帮助台人员提供权限](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 不要错过[每个团队支持 "角色" 的功能](#what-does-each-teams-support-role-do)。
 
-1. 通过团队通信支持或团队管理员凭据登录。
+## <a name="where-to-find-per-user-call-analytics"></a>在哪里可以找到每用户呼叫分析
 
-2. 在 web 浏览器中，转到 *https://admin.teams.microsoft.com* 。
-    
-3. 在**仪表板**上的 "**用户搜索**" 中，开始键入要对其进行故障排除的用户的名称或 sip 地址，或选择 "**查看用户**" 以查看用户列表。
-    
-    ![呼叫分析的用户搜索框的屏幕截图](media/use-call-analytics-to-troubleshoot-image-1.png)
-  
-4. 从列表中选择用户。
+若要查看用户的所有呼叫信息和数据，请转到[团队管理中心](https://admin.teams.microsoft.com)。 在 "**用户**" 下，选择用户，然后在用户的配置文件页面上打开 "**通话记录**" 选项卡。 在这里，你将在过去30天内找到该用户的所有通话和会议。
 
-5. 选择 "**呼叫历史记录**"，然后选择要进行故障排除的呼叫或会议。  将返回最多500条记录。
-    
-    ![用户的 "通话历史记录" 页面的屏幕截图。](media/use-call-analytics-to-troubleshoot-image-2.png)
+![所有分析用户数据的屏幕截图](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+
+若要获取有关给定会话的其他信息（包括详细的媒体和网络统计信息），请单击某个会话以查看详细信息。
+
+![呼叫分析用户会话数据的屏幕截图](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
   
-6. 选择 "**高级**" 选项卡，然后查找表示通话质量不佳或连接问题的黄色和红色项目。
-    
-    在每个通话或会议的 "会话详细信息" 中，小问题显示为黄色。 （例如，在以下屏幕截图中，对于平均抖动、最大抖动和平均数据包丢失率，这些值为黄色。）如果某个内容为黄色，则它不在正常范围内，它可能会导致问题，但不太可能是问题的主要原因。 如果出现红色，这是一个重大问题，这很可能是本次会议的通话质量不佳的主要原因。 
-    
-    ![用户通话记录的 "高级" 选项卡的屏幕截图 ](media/use-call-analytics-to-troubleshoot-image-3.png)
+## <a name="what-does-each-teams-support-role-do"></a>每个团队支持什么角色？
+
+**团队通信支持专家**（第1层支持）处理基本的通话质量问题。 他们不会调查会议问题。 而是收集相关信息，然后升级到通信支持工程师。 
+
+**团队通信支持工程师**（第2层支持）查看团队通信支持专家隐藏的详细呼叫日志中的信息。 下表列出了每个团队通信支持角色可用的信息。
+
+下表告诉你每个用户的信息对每个通信支持角色可用。
+
+|**活动**|**信息**|通信支持**专家**可以看到的内容|通信支持**工程师**看到的内容|
+|:-----|:-----|:-----|:-----|
+|**呼叫** <br/> |呼叫者姓名  <br/> |仅限代理搜索的用户的名称。  <br/> |用户名。  <br/> |
+||收件人姓名  <br/> |显示为内部用户或外部用户。  <br/> |收件人姓名。  <br/> |
+||主叫方电话号码  <br/> |除最后三位数字之外的整个电话号码都被用星号符号混淆。 例如，15552823 * * *。  <br/> |除最后三位数字之外的整个电话号码都被用星号符号混淆。 例如，15552823 * * *。  <br/> |
+||收件人电话号码  <br/> |除最后三位数字之外的整个电话号码都被用星号符号混淆。 例如，15552823 * * *。  <br/> |除最后三位数字之外的整个电话号码都被用星号符号混淆。 例如，15552823 * * *。  <br/> |
+||**通话详情**  > "**高级**" 选项卡 <br/> |未显示信息。  <br/> |显示所有详细信息，如设备名称、IP 地址、子网映射等。  <br/> |
+||**通话详情**  > **高级**  > "**调试**" 选项卡 <br/> |未显示信息。  <br/> |显示所有详细信息，如 DNS 后缀和 SSID。  <br/> |
+|**会议** <br/> |参与者姓名  <br/> |仅限代理搜索的用户的名称。 标识为内部用户或外部用户的其他参与者。  <br/> |显示所有名称。  <br/> |
+||参与者计数  <br/> |参与者的数量。  <br/> |参与者的数量。  <br/> |
+||会话详细信息  <br/> |与异常一起显示的会话详细信息。 仅显示对其进行代理搜索的用户的名称。 标识为内部用户或外部用户的其他参与者。 用星号符号进行混淆的电话号码的最后三位数字。  <br/> |显示的会话详细信息。 显示的用户名和会话详细信息。 用星号符号进行混淆的电话号码的最后三位数字。  <br/> |
+||||
   
-在极少数情况下，音频会话的体验数据质量未收到。 这通常是由呼叫丢弃并与客户端的连接引起的。 出现这种情况时，**无法使用**"会话分级"。
+## <a name="troubleshoot-user-call-quality-problems"></a>解决用户呼叫质量问题 
+
+1. 打开团队管理中心（ https://admin.teams.microsoft.com) 并通过团队通信支持或团队管理员凭据登录。
+
+2. 在**仪表板**上的 "**用户搜索**" 中，开始键入要对其进行故障排除的用户的名称或 SIP 地址，或选择 "**查看用户**" 以查看用户列表。
+
+3. 从列表中选择用户。
+
+4. 选择 "**呼叫历史记录**"，然后选择要进行故障排除的呼叫或会议。
+    
+5. 选择 "**高级**" 选项卡，然后查找表示通话质量不佳或连接问题的黄色和红色项目。
+    
+    在每个通话或会议的 "会话详细信息" 中，小问题显示为黄色。 如果某个内容为黄色，则它不在正常范围内，它可能会导致问题，但不太可能是问题的主要原因。 如果出现红色，这是一个重大问题，这很可能是本次会议的通话质量不佳的主要原因。 
+      
+在极少数情况下，音频会话的体验数据质量未收到。 这通常是由于断开的呼叫或与客户端的连接终止所致。 出现这种情况时，**无法使用**"会话分级"。
   
 对于具有体验质量（QoE）数据的音频会话，下表介绍了将会话限定为**差**的主要问题。
   
 |**问题**|**区域**|**说明**|
 |:-----|:-----|:-----|
 |呼叫设置  <br/> |Session  <br/> |错误代码 Ms-诊断20-29 指示呼叫设置失败。 用户无法加入呼叫或会议。  <br/> |
-|音频网络分类差通话  <br/> |Session  <br/> |遇到网络质量问题（如数据包丢失、抖动、NMOS 下降、RTT 或隐藏比率）。 有关用于对不太好的通话进行分类的条件的详细信息，请参阅此[Microsoft 博客文章](https://go.microsoft.com/fwlink/p/?linkid=852133)。  <br/> |
+|音频网络分类差通话  <br/> |Session  <br/> |遇到网络质量问题（如数据包丢失、抖动、NMOS 下降、RTT 或隐藏比率）。  <br/> |
 |设备不起作用  <br/> |Device  <br/> | 设备不能正常工作。 设备的运行比率为： <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
-## <a name="related-topics"></a>相关主题
-[设置通话分析](set-up-call-analytics.md)
 
-[通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+## <a name="related-topics"></a>相关主题
+
+[设置每用户呼叫分析](set-up-call-analytics.md)
+
+
 
   
  

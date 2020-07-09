@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a87ee4f846002537311fc5a9a9dd2e5f22757b0e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 222daeb76d24186078ac6a49581dbfb05f1711bd
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868119"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086219"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
@@ -32,7 +32,7 @@ ms.locfileid: "44868119"
 
 ![用于创建组织范围团队的“组织范围”选项的屏幕截图](media/create-org-wide-team.png "用于创建组织范围团队的“组织范围”选项的屏幕截图")
 
-创建组织范围的团队后，所有全局管理员都将添加为团队所有者，并且所有活动用户都会添加为团队成员。 未经授权的用户也将添加到团队。 未经授权的用户首次登录 Teams 时，系统将向该用户分配 Microsoft Teams 商业云试用版许可证。 若要了解有关试用版许可证的详细信息，请参阅[管理 Teams 商业云试用版优惠](iw-trial-teams.md)。 
+创建组织范围的团队后，所有全局管理员都将添加为团队所有者，并且所有活动用户都会添加为团队成员。 未经授权的用户也将添加到团队。 当未经授权的用户第一次登录团队时，将为该用户分配 Microsoft 团队探索性许可证。 若要了解有关探索性许可证的详细信息，请参阅[管理 Microsoft 团队探索性许可证](teams-exploratory.md)。 
 
 以下类型的帐户无法添加到组织范围的团队：
 

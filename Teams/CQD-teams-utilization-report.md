@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 使用 "团队利用率 Power BI" 报表跟踪组织中的 Microsoft 团队使用情况。
-ms.openlocfilehash: efca39a89eecdf9d603a81a07d8529147f87698a
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+description: 使用 "团队使用 Power BI BI 报表" 访问 Microsoft 团队通话质量仪表板（CQD）数据以跟踪你的组织中的 Microsoft 团队使用情况。
+ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978539"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085578"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>使用 CQD 数据在 Power BI 中查看 Microsoft 团队的利用率
 
 2020年3月新增功能，我们已将团队使用情况报告添加到可下载[的 POWER BI 查询模板 FOR CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
 
-此新团队使用情况报表使你可以查看你的用户使用 Microsoft 团队的方式（以及多少）。 这些报表旨在作为中心位置，供管理员和业务负责人快速访问此数据。
+此新团队使用情况报告让你可以通过访问团队通话质量仪表板（CQD）数据来查看你的用户使用 Microsoft 团队的方式（以及多少）。 这些报表旨在作为中心位置，供管理员和业务负责人快速访问此数据。
 
 "团队利用率 Power BI" 报表包含两个主要报表： "**[通话计数摘要](#call-count-summary-report)**" 和 "**[音频分钟摘要](#audio-minutes-summary-report)**"。 [每日使用情况](#daily-usage)、[区域音频详细信息](#regional-audio-details)、[会议详细信息](#conference-details)和[用户列表](#user-list)报告在用户利用分级式报告（如下所述的说明）中时，将会播放。
 
@@ -51,7 +51,7 @@ ms.locfileid: "42978539"
   ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report4.png)
 
 在页面的左下部分，你将找到一个表，其中提供了过去一年的每种媒体类型的总值。 
-    ![屏幕截图：团队利用率](media/CQD-teams-utilization-report5.png) ![报告屏幕截图：团队利用率报告](media/CQD-teams-utilization-report6.png)   
+    ![屏幕截图：团队利用率报告 ](media/CQD-teams-utilization-report5.png) ![ 屏幕截图：团队利用率报告](media/CQD-teams-utilization-report6.png)   
 
 在表右侧，条形图显示过去30天内最常用的客户端（"调用/流"）。
    ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report7.png)
@@ -167,4 +167,6 @@ ms.locfileid: "42978539"
 [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
+
+[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
  

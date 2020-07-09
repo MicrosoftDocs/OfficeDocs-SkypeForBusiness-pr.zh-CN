@@ -1,14 +1,13 @@
 ---
-title: 在团队客户端中实现服务质量
+title: 在 Microsoft 团队客户端中实施服务质量（QoS）
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
-ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: vkorlep, siunies
 audience: admin
-description: 了解如何在 Microsoft 团队中准备组织的服务质量（QoS）的网络。
+description: 了解如何使用服务质量（QoS）优化 Microsoft 团队桌面客户端的网络流量。
 ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
@@ -18,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81c10ce415c0ed0db670a81b896289b23cb39218
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80b9257abbbb873b30367f9d430e9a8d155cda09
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904557"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085528"
 ---
-# <a name="set-qos-on-windows-clients"></a>在 Windows 客户端上设置 QoS
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>在 Microsoft 团队客户端中实施服务质量（QoS）
 
-可以在组策略中使用基于策略的 QoS 设置团队客户端中预定义 DSCP 值的源端口范围。 下表中指定的端口范围是为每个工作负荷创建策略的起始点。
+你可以在组策略中使用基于策略的服务质量（QoS）来设置团队客户端中预定义 DSCP 值的源端口范围。 下表中指定的端口范围是为每个工作负荷创建策略的起始点。
 
 *表1。推荐的初始端口范围*
 
@@ -54,7 +53,7 @@ ms.locfileid: "43904557"
 
 1. 在 "**基于策略的 QoS** " 对话框中的 "开始" 页面上，在 "**名称**" 框中键入新策略的名称。 选择 "**指定 DSCP 值**" 并将值设置为**46**。 "退出"**指定出站阻止率**未选中，然后单击 "**下一步**"。
 
-1. 在下一页上，选择 "**仅限具有此可执行名称的应用程序**" 并输入名称 "**团队 .exe**"，然后单击 "**下一步**"。 此设置指示策略仅优先考虑团队客户端的匹配流量。
+1. 在下一页上，选择 "**仅限具有此可执行名称的应用程序**" 并输入**Teams.exe**的名称，然后单击 "**下一步**"。 此设置指示策略仅优先考虑团队客户端的匹配流量。
 
 1. 在第三页上，确保选中了 "**任何来源 ip 地址**" 和 "**任何目标 ip 地址**"，然后单击 "**下一步**"。 这两个设置确保数据包将被管理，无论哪台计算机（IP 地址）发送数据包以及哪台计算机（IP 地址）将接收这些数据包。
 
@@ -86,9 +85,9 @@ ms.locfileid: "43904557"
    gpresult /R > gp.txt
    ```
 
-   这将生成已应用 Gpo 的报表，并将其发送到名为*gp*的文本文件。
+   这将生成已应用 Gpo 的报表，并将其发送到名为*gp.txt*的文本文件。
 
-   对于名为*gp*的更易读的 html 报表，请输入以下命令：
+   对于名为*gp.html*的更具可读性的 HTML 报表，请输入以下命令：
 
    ```console
    gpresult /H gp.html
@@ -98,7 +97,7 @@ ms.locfileid: "43904557"
 
 1. 打开注册表编辑器，然后转到
 
-   Microsoft\_\\Windows\\QoS\\HKEY\\本地\\\_计算机软件策略
+   \_ \_ \\ \\ \\ Microsoft \\ Windows \\ QoS HKEY 本地计算机软件策略
 
    验证表2中列出的注册表项的值。
 
@@ -119,3 +118,8 @@ ms.locfileid: "43904557"
    | | | |
 
 1. 验证应用程序名称条目的值对于你正在使用的客户端是否正确，并验证 DSCP 值和本地端口条目是否反映了组策略对象中的设置。
+
+
+## <a name="related-topics"></a>相关主题
+
+[在团队中实施服务质量（QoS）](QoS-in-Teams.md)

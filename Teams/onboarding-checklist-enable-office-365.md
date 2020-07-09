@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2439a2fd23566c93fb60772112da098cff315760
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 28a89502a628c3cc9dcdf2c910371bb37568f194
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665164"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085168"
 ---
 # <a name="enable-microsoft-365-or-office-365"></a>启用 Microsoft 365 或 Office 365
  
@@ -36,4 +36,4 @@ ms.locfileid: "44665164"
 | 示例 7  | 确认租户管理员 | 与安全团队协作开发 Microsoft 365 或 Office 365 管理模型。 <br/><br/>务必确定并记录所有租户和服务管理员。 | | [关于 Microsoft 365 或 Office 365 管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d) |
 | 8 Mb  | 为你的租户实施管理角色 | 验证你的管理模型是否满足你的组织的需求，并将 Microsoft 365 或 Office 365 管理员角色分配给你的管理员。 | | [在 Microsoft 365 或 Office 365 for business 中分配管理员角色](https://support.office.com/article/Assign-admin-roles-in-Office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) |
 | 步骤 9  | 登录通话质量仪表板 (CQD) 以上载你的构建信息。 | 每个 Teams 部署都应利用 CQD 来了解使用 Teams 的所有通话的质量和可靠性。 <br><br>使用**其他信息**列中所列的 CQD 指导以充分利用此工具。 | | [规划服务管理和质量](https://docs.microsoft.com/MicrosoftTeams/prepare-network) <br/><br/>[《体验质量评审指南》](https://aka.ms/qerguide) <br/><br/>[体验质量评审模板](https://aka.ms/qertemplates) <br/><br/>[为 Microsoft Teams 和 Skype for Business Online 中启用和使用通话质量仪表板](https://support.office.com/article/Turning-on-and-using-Call-Quality-Dashboard-for-Microsoft-Teams-and-Skype-for-Business-Online-553fa13c-92d2-4d5c-a3d5-41a073cb047c)<br><br>[上载构建信息](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard?#upload-building-information) |
-| 10%  | 验证已处理构建信息，并且通话质量仪表板 (CQD) 可用于你的租户。 | | | [通话质量仪表板](https://cqd.lync.com) |
+| 10%  | 验证已处理构建信息，并且通话质量仪表板 (CQD) 可用于你的租户。 | | | [通话质量仪表板](https://cqd.teams.microsoft.com) |

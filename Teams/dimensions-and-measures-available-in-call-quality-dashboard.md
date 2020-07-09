@@ -1,10 +1,10 @@
 ---
-title: 尺寸和测量-通话质量仪表板
+title: 尺寸和测量-通话质量仪表板（CQD）
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: siunies, mikedav, gageames
-ms.topic: conceptual
+ms.topic: article
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
-description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板使用的维度和度量的详细信息。
-ms.openlocfilehash: 09beeb289b2861ff239e52a136b604bc8d58fa8f
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板（CQD）所使用的维度和度量的详细信息。
+ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938511"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085778"
 ---
-# <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>"呼叫质量" 仪表板中可用的尺寸和测量
+# <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通话质量仪表板（CQD）中可用的尺寸和测量值
 
-Microsoft 团队和 Skype for business Online 的通话质量仪表板（CQD）使你能够更好地了解通过这些服务进行通话的通话质量。 本主题提供有关通过 CQD 可见的维度和度量的详细信息。 若要了解有关 CQD 的详细信息，请参阅[打开和使用 Microsoft 团队和 Skype for Business Online 的通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
+Microsoft 团队和 Skype for business Online 的通话质量仪表板（CQD）使你能够更好地了解通过这些服务进行通话的通话质量。 本主题提供有关通过 CQD 可见的维度和度量的详细信息。 若要了解有关 CQD 的详细信息，请参阅[在 Microsoft 团队中使用 CQD 管理通话和会议质量](quality-of-experience-review-guide.md)。
 
 ## <a name="first-and-second-endpoint-classification"></a>第一和第二终结点分类
 
@@ -136,8 +136,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | First Is Server  | 枚举 <br/>**可能的值：** <br/>&bull;客户端 <br/>&bull;服务  | 指示第一个终结点是服务器终结点（如会议服务器）（AVMCU、ASMCU）或其他媒体服务器（中介服务器），还是客户端终结点。  **示例值：** 客户端 | |
 | Second Is Server  | 枚举 <br/>**可能的值：** <br/>&bull;客户端 <br/>&bull;服务   | 指示第二个终结点是服务器终结点还是客户端终结点。 <br/>  **示例值：** 客户端 | |
 | First Is Caller  | 布尔值  | 如果第一个终结点是启动会话的调用方，则为 True。   | |
-| First Network Connection Detail  | 枚举 <br>**可能的值：** <br/>&bull;线 <br/>&bull;Wifi <br/>&bull;MobileBB <br/>&bull;通道 <br/>&bull;之外 | 第一终结点使用的网络类型。  <br/> **示例值：** 线  | &bull;终结点未报告数据  |
-| Second Network Connection Detail  | 枚举 <br/>**可能的值：** <br/>&bull;线 <br/>&bull;Wifi <br/>&bull;MobileBB <br/>&bull;通道 <br/>&bull;之外 | 第二终结点使用的网络类型。  <br/> **示例值：** 线  | &bull;终结点未报告数据  |
+| First Network Connection Detail  | 枚举 <br>**可能的值：** <br/>&bull;线 <br/>&bull;WiFi <br/>&bull;MobileBB <br/>&bull;通道 <br/>&bull;之外 | 第一终结点使用的网络类型。  <br/> **示例值：** 线  | &bull;终结点未报告数据  |
+| Second Network Connection Detail  | 枚举 <br/>**可能的值：** <br/>&bull;线 <br/>&bull;WiFi <br/>&bull;MobileBB <br/>&bull;通道 <br/>&bull;之外 | 第二终结点使用的网络类型。  <br/> **示例值：** 线  | &bull;终结点未报告数据  |
 | Stream Direction  | 枚举 <br/>**可能的值：** <br/>&bull;第一秒 <br/>&bull;第二至前 <br/> | 指示流的方向。 <br/>&bull;**示例值：** 第一秒 | &bull;未报告任何数据指示流的方向 |
 | Payload Description  | 字符串  | 流中最后使用的编解码器的名称。 <br/> **示例值：** SILKWide | &bull;无可用数据 |
 | Audio and Video Call  | Boolean  | 如果通话同时具有音频流和视频流，则为 True，否则为 False    | &bull;未报告任何数据表示流的媒体类型。 |
@@ -170,7 +170,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | First User Agent  | String  | 第一终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （Skype for Business） | &bull;第一个终结点未报告任何用户代理   |
 | Second User Agent  | String  | 第二终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （Skype for Business） | &bull;第二终结点未报告用户代理   |
 | Conference Type  | 枚举 <br/>**可能的值：** <br/>&bull;会议： applicationsharing <br/>&bull;会议：音频-视频 <br/>&bull;会议：焦点 | 会议 URI 的类型。  <br/> **示例值：** 会议：音频-视频 | &bull;非会议方案。   |
-| 会议 ID  | String | 与流相关联的会议 ID （或通话 ID）。 在 cqd.teams.microsoft.com 中，所有呼叫都有一个呼叫 ID，无论它们是人到人员（P2P）呼叫还是电话会议。 在 cqd.lync.com 中，此值仅适用于 Skype for business 会议呼叫 avialble。  此维度可能有太多行，无法用作报表中的维度。 它可能会转为用作筛选器。  <br/> **示例值（cqd.lync.com）：** 0001P6GK <br/> **示例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
+| 会议 ID  | String | 与流相关联的会议 ID （或通话 ID）。 在 cqd.teams.microsoft.com 中，所有呼叫都有一个呼叫 ID，无论它们是人到人员（P2P）呼叫还是电话会议。 在 cqd.lync.com 中，此值仅适用于 Skype for business 会议呼叫。  此维度可能有太多行，无法用作报表中的维度。 它可能会转为用作筛选器。  <br/> **示例值（cqd.lync.com）：** 0001P6GK <br/> **示例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | First Client App Version  | String  | Version of the application used for the first endpoint. Data is parsed from the user agent string. <br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。   |
 | Second Client App Version  | 字符串  | Version of the application used for the second endpoint. Data is parsed from the user agent string. <br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。 |
 |会议 Id （在 cqd.teams.microsoft.com 中） <br/> 会议 ID （在 cqd.lync.com 中） |String |会议的标识符，在创建会议时生成。 <br/> **示例值（Skype For business）：** 0001P6GK  <br/> **示例值（团队）：** 19： meeting_MzB .。。zIw@thread v2| |
@@ -701,9 +701,18 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 
 ## <a name="related-topics"></a>相关主题
 
-[设置 Skype for Business 通话分析](set-up-call-analytics.md)
+[改善和监控团队的通话质量](monitor-call-quality-qos.md)
 
-[使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
- 
+[设置通话质量仪表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+
+[上载租户和生成数据](CQD-upload-tenant-building-data.md)
+
+[CQD 数据和报告](CQD-data-and-reports.md)
+
+[使用 CQD 管理通话和会议质量](quality-of-experience-review-guide.md)
+
+[CQD 中的流分类](stream-classification-in-call-quality-dashboard.md)
+
+[使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)

@@ -17,12 +17,12 @@ description: 解决在旧版系统上接收消息和呼叫相关的问题
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 52038470e81b825391e4176c07af7a30f51356df
-ms.sourcegitcommit: ef3cd762e799df43bdcde03363c501d7ca9bb6b3
+ms.openlocfilehash: af7845b5fd6d50d63be6cd21749cbfedc7669fcf
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44489155"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085148"
 ---
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在旧式系统上接收消息和通话时出现问题
 ==============================================================
@@ -45,3 +45,8 @@ ms.locfileid: "44489155"
 ## <a name="skype-token-revocation"></a>Skype 令牌吊销
 
 更改/重置密码时，旧客户端将不会收到最长一小时的消息和呼叫。 若要解决此问题，请重新启动应用或移动到较新的客户端。
+
+
+## <a name="related-topics"></a>相关主题
+
+[Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)

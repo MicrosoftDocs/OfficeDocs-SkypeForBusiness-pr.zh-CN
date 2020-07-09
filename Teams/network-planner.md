@@ -1,5 +1,5 @@
 ---
-title: 使用 Microsoft 团队的网络 Planner
+title: 使用 Microsoft 团队的网络 planner
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -21,20 +21,20 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a4676349dab9c7b587e63dcc9a538c9f0b43a80
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b8c6a59216d1ac04c0e079015aa9de13f8cecb37
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904794"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45088230"
 ---
-# <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 团队的网络 Planner
+# <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 团队的网络 planner
 
-网络规划器是团队管理中心提供的新工具。 可通过**planner** > **网络 planner**找到它。 通过以下几个步骤，网络规划器可以帮助你确定和组织在你的组织中连接 Microsoft 团队用户的网络要求。 当你提供网络详细信息和团队使用情况时，网络 Planner 会计算你的网络要求，以便在组织的物理位置部署团队和云语音。
+网络规划器是团队管理中心提供的新工具。 可通过**planner**  >  **网络 planner**找到它。 通过以下几个步骤，网络规划器可以帮助你确定和组织在你的组织中连接 Microsoft 团队用户的网络要求。 当你提供网络详细信息和团队使用情况时，网络 Planner 会计算你的网络要求，以便在组织的物理位置部署团队和云语音。
 
-![网络 Planner 的屏幕截图](media/network-planner.png)
+![网络 planner 的屏幕截图](media/network-planner.png)
 
-网络 Planner 允许您：
+网络 planner 允许您：
 
 - 使用网站和 Microsoft 推荐的角色（office 工作人员、远程工作人员和团队室系统）创建组织的表示形式。
 
@@ -43,13 +43,13 @@ ms.locfileid: "43904794"
 
 - 生成报表并计算团队使用情况的带宽要求。
 
-若要使用网络 Planner，您必须是全局管理员、团队服务管理员或团队通信管理员。
+若要使用网络 planner，您必须是全局管理员、团队服务管理员或团队通信管理员。
 
 ## <a name="create-a-custom-persona"></a>创建自定义角色
 
 请按照以下步骤创建自定义角色：
 
-1. 转到 Microsoft 团队管理中心中的网络 Planner。
+1. 转到 Microsoft 团队管理中心中的网络 planner。
 
 2. 在 "**角色**" 选项卡上，单击 " **+ 自定义角色**"。 
 
@@ -63,7 +63,7 @@ ms.locfileid: "43904794"
 
 请按照以下步骤开始构建你的网络计划：
 
-1. 转到 Microsoft 团队管理中心中的网络 Planner。
+1. 转到 Microsoft 团队管理中心中的网络 planner。
 
 2. 在 "**网络计划**" 选项卡上，单击 "**添加网络计划**"。
 
@@ -106,4 +106,4 @@ ms.locfileid: "43904794"
 
 ## <a name="example-scenario"></a>示例方案
 
-有关如何使用网络计划程序设置网络计划并使用这些步骤生成报表的示例，请下载[网络 Planner 的操作方法 PowerPoint 幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)（仅限英语版）。
+有关如何使用网络计划程序设置网络计划并使用这些步骤生成报表的示例，请下载[网络 planner 的操作方法 PowerPoint 幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)（仅限英语版）。
