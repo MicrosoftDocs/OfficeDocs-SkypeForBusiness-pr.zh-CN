@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd7c88a08dfdfa76ad560a56e524b7061d240f1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666274"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45085968"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -156,6 +156,7 @@ Microsoft 制作了[采用内容](https://support.office.com/article/video-moder
 
 其他支持资源包括：
 
+- [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 - [解决 Microsoft Teams 安装和更新问题](troubleshoot-installation.md)
 - [提交支持票证（可供教职员工使用）](https://aka.ms/edusupport)
 - [面向使用 Teams 的教师的支持和帮助中心](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
