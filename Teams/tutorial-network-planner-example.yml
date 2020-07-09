@@ -16,12 +16,12 @@ metadata:
   ms.collection:
   - M365-collaboration
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 5148415363ac62c68140982d03235b8bfa8835ac
-  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+  ms.openlocfilehash: 04e3c6ea65a010d995c109819b7e4a58384344f4
+  ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 04/27/2020
-  ms.locfileid: "43904507"
+  ms.lasthandoff: 07/09/2020
+  ms.locfileid: "45086128"
 items:
 - durationInMinutes: 2
   content: "\n\"网络规划器\" 工具在 \"团队管理中心\" 中可用。 它可帮助你确定你的组织的网络要求。 此示例方案显示了如何使用该工具创建名为 Contoso 的公司的网站、角色和运行报表。 \n\n## <a name=\"before-you-begin\"></a>开始之前\n\n我们假定你已了解团队管理中心的相关方法，并且你熟悉为团队准备网络所需的操作。 如果这是您在网络 Planner 中看到的第一篇文章，我们建议您先阅读以下文章。\n\n- [为 Teams 准备贵组织的网络](prepare-network.md)\n- [使用 Microsoft 团队的网络 Planner](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso 网络概述\n\nContoso 有三个位置：\n\n- **西雅图总部：** 这是 Contoso 的主要位置。 它有1000名员工，25名员工仅限通话。 该网站已连接到 internet，并且有本地电话连接（PSTN）。 Contoso 设置了直接路由，以便能够与团队一起使用本地电话连接。 \n- **Kirkland Office：** 此分支机构有400个员工，10只是通话。 网站对 internet 和电话（PSTN）流量使用与总部的连接。 此 office 使用 WAN 连接连接到西雅图总部。\n- **丹佛 Office：** 此 office 拥有250员工和50仅供通话。 该网站具有自己的本地 internet 连接，但没有直接电话连接（PSTN）。\n\n让我们开始吧！\n"
@@ -42,4 +42,4 @@ items:
   content: "\n生成报告后，你将看到一个屏幕显示你的带宽要求，同时显示整体和模态特定值。 默认情况下，允许的带宽设置为30%。 通过更改此值并单击 \"**运行报告**\"，你可以看到对网络带宽的不同影响。 任何需要更多带宽的区域都将突出显示为红色。\n\n![报表分析](media/network-planner-report-output.png)\n\n网络规划器还根据计划对网络上的团队的影响提供建议。 单击 \"建议视图\" 图标，查看每个网站的建议（如果存在）。 下面的图像显示了示例建议视图。\n\n![建议视图](media/network-planner-recommendation-view.png)\n\n在此处，你可以看到当前 Kirkland 网站的带宽需要增加才能获得团队的最佳性能。 \n"
 - title: 附加资源
   durationInMinutes: 1
-  content: "\n这将完成网络 Planner 的示例方案。 你可以[返回到网络 Planner 文章](network-planner.md)，或查看以下资源，了解有关如何为团队准备好组织的详细信息：\n\n - [为 Microsoft Teams 准备组织的网络](prepare-network.md)\n - [体验质量检查指南](quality-of-experience-review-guide.md)\n - [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)"
+  content: "\n这将完成网络 Planner 的示例方案。 你可以[返回到网络 Planner 文章](network-planner.md)，或查看以下资源，了解有关如何为团队准备好组织的详细信息：\n\n - [为 Microsoft Teams 准备组织的网络](prepare-network.md)\n - [改善和监控团队的通话质量](monitor-call-quality-qos.md)\n - [Office 365 URL 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)"

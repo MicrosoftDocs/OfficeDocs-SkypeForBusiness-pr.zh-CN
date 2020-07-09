@@ -19,65 +19,65 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18026fda33377313cbe68b20ba03d5752777d263
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
+ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868699"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45086188"
 ---
-<a name="archive-or-delete-a-team-in-microsoft-teams"></a><span data-ttu-id="29f3e-103">在 Microsoft Teams 中存档或删除团队</span><span class="sxs-lookup"><span data-stu-id="29f3e-103">Archive or delete a team in Microsoft Teams</span></span>
+<a name="archive-or-delete-a-team-in-microsoft-teams"></a><span data-ttu-id="52401-103">在 Microsoft Teams 中存档或删除团队</span><span class="sxs-lookup"><span data-stu-id="52401-103">Archive or delete a team in Microsoft Teams</span></span>
 ===========================================
 
-<span data-ttu-id="29f3e-104">随着时间的推移，在 Microsoft Teams 中创建的团队可能不再使用，或者你可能希望在项目结束时存档或删除团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-104">Over time, a team created in Microsoft Teams might fall out of use or you might want to archive or delete a team at the end of a project.</span></span> <span data-ttu-id="29f3e-105">如果你是 Microsoft Teams 的管理员，请按照本文中的步骤进行操作，以存档或删除不再需要的团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-105">If you're a Microsoft Teams admin, follow the steps in this article to archive or delete a team that's no longer needed.</span></span>
+<span data-ttu-id="52401-104">随着时间的推移，在 Microsoft Teams 中创建的团队可能不再使用，或者你可能希望在项目结束时存档或删除团队。</span><span class="sxs-lookup"><span data-stu-id="52401-104">Over time, a team created in Microsoft Teams might fall out of use or you might want to archive or delete a team at the end of a project.</span></span> <span data-ttu-id="52401-105">如果你是 Microsoft Teams 的管理员，请按照本文中的步骤进行操作，以存档或删除不再需要的团队。</span><span class="sxs-lookup"><span data-stu-id="52401-105">If you're a Microsoft Teams admin, follow the steps in this article to archive or delete a team that's no longer needed.</span></span>
 
-<span data-ttu-id="29f3e-106">将团队存档时，该团队的所有活动都会停止。</span><span class="sxs-lookup"><span data-stu-id="29f3e-106">When you archive a team, all activity for that team ceases.</span></span> <span data-ttu-id="29f3e-107">存档团队还会存档团队中的专用频道及其关联的网站集。</span><span class="sxs-lookup"><span data-stu-id="29f3e-107">Archiving a team also archives private channels in the team and their associated site collections.</span></span>  <span data-ttu-id="29f3e-108">但是，你仍然可以添加或删除成员以及更新角色，而且仍可查看标准和专用通道、文件和聊天中的所有团队活动。</span><span class="sxs-lookup"><span data-stu-id="29f3e-108">However, you can still add or remove members and update roles and you can still view all the team activity in standard and private channels, files, and chats.</span></span>
+<span data-ttu-id="52401-106">将团队存档时，该团队的所有活动都会停止。</span><span class="sxs-lookup"><span data-stu-id="52401-106">When you archive a team, all activity for that team ceases.</span></span> <span data-ttu-id="52401-107">存档团队还会存档团队中的专用频道及其关联的网站集。</span><span class="sxs-lookup"><span data-stu-id="52401-107">Archiving a team also archives private channels in the team and their associated site collections.</span></span>  <span data-ttu-id="52401-108">但是，你仍然可以添加或删除成员以及更新角色，而且仍可查看标准和专用通道、文件和聊天中的所有团队活动。</span><span class="sxs-lookup"><span data-stu-id="52401-108">However, you can still add or remove members and update roles and you can still view all the team activity in standard and private channels, files, and chats.</span></span>
 
-<span data-ttu-id="29f3e-109">删除团队时，也将删除标准和专用频道（及关联的网站集）、文件和聊天中的团队活动。</span><span class="sxs-lookup"><span data-stu-id="29f3e-109">When you delete a team, team activity in standard and private channels (and associated site collections), files, and chats is also deleted.</span></span>
+<span data-ttu-id="52401-109">删除团队时，也将删除标准和专用频道（及关联的网站集）、文件和聊天中的团队活动。</span><span class="sxs-lookup"><span data-stu-id="52401-109">When you delete a team, team activity in standard and private channels (and associated site collections), files, and chats is also deleted.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="29f3e-110">你可以重新激活已存档的团队，但无法直接还原已删除的团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-110">Archived teams can be reactivated, but you can’t directly restore a team that has been deleted.</span></span> <span data-ttu-id="29f3e-111">应先考虑将团队存档并推迟删除，直至确定不再需要团队再进行删除操作。</span><span class="sxs-lookup"><span data-stu-id="29f3e-111">Consider archiving the team first, and postpone the deletion until you're sure that you no longer need the team.</span></span>
+> <span data-ttu-id="52401-110">你可以重新激活已存档的团队，但无法直接还原已删除的团队。</span><span class="sxs-lookup"><span data-stu-id="52401-110">Archived teams can be reactivated, but you can’t directly restore a team that has been deleted.</span></span> <span data-ttu-id="52401-111">应先考虑将团队存档并推迟删除，直至确定不再需要团队再进行删除操作。</span><span class="sxs-lookup"><span data-stu-id="52401-111">Consider archiving the team first, and postpone the deletion until you're sure that you no longer need the team.</span></span>
 
-## <a name="archive-a-team"></a><span data-ttu-id="29f3e-112">存档团队</span><span class="sxs-lookup"><span data-stu-id="29f3e-112">Archive a team</span></span>
+## <a name="archive-a-team"></a><span data-ttu-id="52401-112">存档团队</span><span class="sxs-lookup"><span data-stu-id="52401-112">Archive a team</span></span>
 
-<span data-ttu-id="29f3e-113">请按照以下步骤将团队存档。</span><span class="sxs-lookup"><span data-stu-id="29f3e-113">Follow these steps to archive a team.</span></span>
+<span data-ttu-id="52401-113">请按照以下步骤将团队存档。</span><span class="sxs-lookup"><span data-stu-id="52401-113">Follow these steps to archive a team.</span></span>
 
-1. <span data-ttu-id="29f3e-114">在 "管理中心" 中 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ，选择 "**团队**"。</span><span class="sxs-lookup"><span data-stu-id="29f3e-114">In the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>, select **Teams**.</span></span>
-2. <span data-ttu-id="29f3e-115">通过单击团队名称选择团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-115">Select a team by clicking the team name.</span></span>
-3. <span data-ttu-id="29f3e-116">选择“**存档**”。</span><span class="sxs-lookup"><span data-stu-id="29f3e-116">Select **Archive**.</span></span> <span data-ttu-id="29f3e-117">此时将显示以下消息。</span><span class="sxs-lookup"><span data-stu-id="29f3e-117">The following message will appear.</span></span>
+1. <span data-ttu-id="52401-114">在 "管理中心" 中 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ，选择 "**团队**"。</span><span class="sxs-lookup"><span data-stu-id="52401-114">In the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>, select **Teams**.</span></span>
+2. <span data-ttu-id="52401-115">通过单击团队名称选择团队。</span><span class="sxs-lookup"><span data-stu-id="52401-115">Select a team by clicking the team name.</span></span>
+3. <span data-ttu-id="52401-116">选择“**存档**”。</span><span class="sxs-lookup"><span data-stu-id="52401-116">Select **Archive**.</span></span> <span data-ttu-id="52401-117">此时将显示以下消息。</span><span class="sxs-lookup"><span data-stu-id="52401-117">The following message will appear.</span></span>
 
     ![Teams 存档消息的屏幕截图](media/teams-archive-message.png)
 
-4. <span data-ttu-id="29f3e-119">如果想要将团队的 SharePoint 网站设置为只读，请选中该复选框。</span><span class="sxs-lookup"><span data-stu-id="29f3e-119">If you would like to make the SharePoint site for the team read-only, select the check box.</span></span>
-5. <span data-ttu-id="29f3e-120">选择“**存档**”以存档团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-120">Select **Archive** to archive the team.</span></span> <span data-ttu-id="29f3e-121">团队的状态将更改为“**已存档**”。</span><span class="sxs-lookup"><span data-stu-id="29f3e-121">The team’s status will change to **Archived**.</span></span>
+4. <span data-ttu-id="52401-119">若要防止用户编辑 SharePoint 网站和与团队关联的 "Wiki" 选项卡中的内容，请选择 **"使 sharepoint 网站对团队成员只读**"。</span><span class="sxs-lookup"><span data-stu-id="52401-119">To prevent people from editing the content in the SharePoint site and Wiki tab associated with the team, select **Make the SharePoint site read-only for team members**.</span></span> <span data-ttu-id="52401-120">（团队所有者仍将能够编辑此内容。）</span><span class="sxs-lookup"><span data-stu-id="52401-120">(Teams owners will still be able to edit this content.)</span></span>
+5. <span data-ttu-id="52401-121">选择“**存档**”以存档团队。</span><span class="sxs-lookup"><span data-stu-id="52401-121">Select **Archive** to archive the team.</span></span> <span data-ttu-id="52401-122">团队的状态将更改为“**已存档**”。</span><span class="sxs-lookup"><span data-stu-id="52401-122">The team’s status will change to **Archived**.</span></span>
 
-## <a name="make-an-archived-team-active"></a><span data-ttu-id="29f3e-122">激活已存档的团队</span><span class="sxs-lookup"><span data-stu-id="29f3e-122">Make an archived team active</span></span>
+## <a name="make-an-archived-team-active"></a><span data-ttu-id="52401-123">激活已存档的团队</span><span class="sxs-lookup"><span data-stu-id="52401-123">Make an archived team active</span></span>
 
-<span data-ttu-id="29f3e-123">请按照以下步骤使已存档的团队再次处于活动状态。</span><span class="sxs-lookup"><span data-stu-id="29f3e-123">Follow these steps to make an archived team active again.</span></span>
+<span data-ttu-id="52401-124">请按照以下步骤使已存档的团队再次处于活动状态。</span><span class="sxs-lookup"><span data-stu-id="52401-124">Follow these steps to make an archived team active again.</span></span>
 
-1. <span data-ttu-id="29f3e-124">在<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，选择 "**团队**"。</span><span class="sxs-lookup"><span data-stu-id="29f3e-124">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, select **Teams**.</span></span>
-2. <span data-ttu-id="29f3e-125">通过单击团队名称选择团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-125">Select a team by clicking the team name.</span></span>
-3. <span data-ttu-id="29f3e-126">选择“**取消存档**”。</span><span class="sxs-lookup"><span data-stu-id="29f3e-126">Select **Unarchive**.</span></span> <span data-ttu-id="29f3e-127">团队的状态将更改为“**活动**”。</span><span class="sxs-lookup"><span data-stu-id="29f3e-127">The team’s status will change to **Active**.</span></span>
+1. <span data-ttu-id="52401-125">在<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，选择 "**团队**"。</span><span class="sxs-lookup"><span data-stu-id="52401-125">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, select **Teams**.</span></span>
+2. <span data-ttu-id="52401-126">通过单击团队名称选择团队。</span><span class="sxs-lookup"><span data-stu-id="52401-126">Select a team by clicking the team name.</span></span>
+3. <span data-ttu-id="52401-127">选择“**取消存档**”。</span><span class="sxs-lookup"><span data-stu-id="52401-127">Select **Unarchive**.</span></span> <span data-ttu-id="52401-128">团队的状态将更改为“**活动**”。</span><span class="sxs-lookup"><span data-stu-id="52401-128">The team’s status will change to **Active**.</span></span>
 
-## <a name="delete-a-team"></a><span data-ttu-id="29f3e-128">删除团队</span><span class="sxs-lookup"><span data-stu-id="29f3e-128">Delete a team</span></span>
+## <a name="delete-a-team"></a><span data-ttu-id="52401-129">删除团队</span><span class="sxs-lookup"><span data-stu-id="52401-129">Delete a team</span></span>
 
-<span data-ttu-id="29f3e-129">如果将来不再需要该团队，则可将其删除，而不是将其存档。</span><span class="sxs-lookup"><span data-stu-id="29f3e-129">If the team will not be required in the future, then you can delete it rather than archiving it.</span></span> <span data-ttu-id="29f3e-130">请按照以下步骤删除团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-130">Follow these steps to delete a team.</span></span>
+<span data-ttu-id="52401-130">如果将来不再需要该团队，则可将其删除，而不是将其存档。</span><span class="sxs-lookup"><span data-stu-id="52401-130">If the team will not be required in the future, then you can delete it rather than archiving it.</span></span> <span data-ttu-id="52401-131">请按照以下步骤删除团队。</span><span class="sxs-lookup"><span data-stu-id="52401-131">Follow these steps to delete a team.</span></span>
 
-1.  <span data-ttu-id="29f3e-131">在<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，选择 "**团队**"。</span><span class="sxs-lookup"><span data-stu-id="29f3e-131">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, select **Teams**.</span></span>
-2.  <span data-ttu-id="29f3e-132">通过单击团队名称选择团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-132">Select a team by clicking the team name.</span></span>
-3.  <span data-ttu-id="29f3e-133">选择“**删除**”。</span><span class="sxs-lookup"><span data-stu-id="29f3e-133">Select **Delete**.</span></span> <span data-ttu-id="29f3e-134">此时将显示一条确认消息。</span><span class="sxs-lookup"><span data-stu-id="29f3e-134">A confirmation message will appear.</span></span>
-4.  <span data-ttu-id="29f3e-135">选择“**删除**”以永久删除团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-135">Select **Delete** to permanently delete the team.</span></span>
+1.  <span data-ttu-id="52401-132">在<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，选择 "**团队**"。</span><span class="sxs-lookup"><span data-stu-id="52401-132">In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, select **Teams**.</span></span>
+2.  <span data-ttu-id="52401-133">通过单击团队名称选择团队。</span><span class="sxs-lookup"><span data-stu-id="52401-133">Select a team by clicking the team name.</span></span>
+3.  <span data-ttu-id="52401-134">选择“**删除**”。</span><span class="sxs-lookup"><span data-stu-id="52401-134">Select **Delete**.</span></span> <span data-ttu-id="52401-135">此时将显示一条确认消息。</span><span class="sxs-lookup"><span data-stu-id="52401-135">A confirmation message will appear.</span></span>
+4.  <span data-ttu-id="52401-136">选择“**删除**”以永久删除团队。</span><span class="sxs-lookup"><span data-stu-id="52401-136">Select **Delete** to permanently delete the team.</span></span>
 
-## <a name="restore-a-deleted-team"></a><span data-ttu-id="29f3e-136">还原已删除的团队</span><span class="sxs-lookup"><span data-stu-id="29f3e-136">Restore a deleted team</span></span>
+## <a name="restore-a-deleted-team"></a><span data-ttu-id="52401-137">还原已删除的团队</span><span class="sxs-lookup"><span data-stu-id="52401-137">Restore a deleted team</span></span>
 
-<span data-ttu-id="29f3e-137">通过还原与团队相关联的 Microsoft 365 组，请按照以下步骤还原已删除的团队。</span><span class="sxs-lookup"><span data-stu-id="29f3e-137">Follow these steps to restore a deleted team by restoring the Microsoft 365 group that's associated with the team.</span></span> <span data-ttu-id="29f3e-138">还原团队的 Microsoft 365 组将恢复团队内容，包括选项卡、标准频道和专用频道及其关联的网站集。</span><span class="sxs-lookup"><span data-stu-id="29f3e-138">Restoring the Microsoft 365 group for a team restores team content, including tabs, standard channels, and private channels and their associated site collections.</span></span>
+<span data-ttu-id="52401-138">通过还原与团队相关联的 Microsoft 365 组，请按照以下步骤还原已删除的团队。</span><span class="sxs-lookup"><span data-stu-id="52401-138">Follow these steps to restore a deleted team by restoring the Microsoft 365 group that's associated with the team.</span></span> <span data-ttu-id="52401-139">还原团队的 Microsoft 365 组将恢复团队内容，包括选项卡、标准频道和专用频道及其关联的网站集。</span><span class="sxs-lookup"><span data-stu-id="52401-139">Restoring the Microsoft 365 group for a team restores team content, including tabs, standard channels, and private channels and their associated site collections.</span></span>
 
-<span data-ttu-id="29f3e-139">默认情况下，已删除的 Microsoft 365 组将保留30天。</span><span class="sxs-lookup"><span data-stu-id="29f3e-139">By default, a deleted Microsoft 365 group is retained for 30 days.</span></span> <span data-ttu-id="29f3e-140">这 30 天时间被称为“软删除”，因为还可以对组进行还原。</span><span class="sxs-lookup"><span data-stu-id="29f3e-140">This 30-day period is called "soft-delete" because you can restore the group.</span></span> <span data-ttu-id="29f3e-141">若要了解详细信息，请参阅[还原已删除的组](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)。</span><span class="sxs-lookup"><span data-stu-id="29f3e-141">To learn more, see [Restore a deleted Group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).</span></span>
+<span data-ttu-id="52401-140">默认情况下，已删除的 Microsoft 365 组将保留30天。</span><span class="sxs-lookup"><span data-stu-id="52401-140">By default, a deleted Microsoft 365 group is retained for 30 days.</span></span> <span data-ttu-id="52401-141">这 30 天时间被称为“软删除”，因为还可以对组进行还原。</span><span class="sxs-lookup"><span data-stu-id="52401-141">This 30-day period is called "soft-delete" because you can restore the group.</span></span> <span data-ttu-id="52401-142">若要了解详细信息，请参阅[还原已删除的组](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)。</span><span class="sxs-lookup"><span data-stu-id="52401-142">To learn more, see [Restore a deleted Group](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group).</span></span>
 
-### <a name="install-the-azureadpreview-module"></a><span data-ttu-id="29f3e-142">安装 AzureADPreview 模块</span><span class="sxs-lookup"><span data-stu-id="29f3e-142">Install the AzureADPreview module</span></span>
+### <a name="install-the-azureadpreview-module"></a><span data-ttu-id="52401-143">安装 AzureADPreview 模块</span><span class="sxs-lookup"><span data-stu-id="52401-143">Install the AzureADPreview module</span></span>
 
-1. <span data-ttu-id="29f3e-143">以管理员身份打开 Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="29f3e-143">Open Windows PowerShell as an admin.</span></span>
-2. <span data-ttu-id="29f3e-144">如果安装了早期版本的 AzureADPreview 模块或安装了 AzureAD 模块，请通过运行以下命令之一将其卸载：</span><span class="sxs-lookup"><span data-stu-id="29f3e-144">If you have an earlier version of the AzureADPreview module installed or the AzureAD module installed, uninstall it by running one of the following:</span></span>
+1. <span data-ttu-id="52401-144">以管理员身份打开 Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="52401-144">Open Windows PowerShell as an admin.</span></span>
+2. <span data-ttu-id="52401-145">如果安装了早期版本的 AzureADPreview 模块或安装了 AzureAD 模块，请通过运行以下命令之一将其卸载：</span><span class="sxs-lookup"><span data-stu-id="52401-145">If you have an earlier version of the AzureADPreview module installed or the AzureAD module installed, uninstall it by running one of the following:</span></span>
 
     ```PowerShell 
     Uninstall-Module AzureADPreview
@@ -86,31 +86,31 @@ ms.locfileid: "44868699"
     ```PowerShell
     Uninstall-Module AzureAD
     ```
-3. <span data-ttu-id="29f3e-145">通过运行以下命令安装最新版本的 AzureADPreview 模块：</span><span class="sxs-lookup"><span data-stu-id="29f3e-145">Install the latest version of the AzureADPreview module by running the following:</span></span>
+3. <span data-ttu-id="52401-146">通过运行以下命令安装最新版本的 AzureADPreview 模块：</span><span class="sxs-lookup"><span data-stu-id="52401-146">Install the latest version of the AzureADPreview module by running the following:</span></span>
 
     ```PowerShell
     Install-Module AzureADPreview
     ```    
 
-### <a name="restore-the-deleted-microsoft-365-group"></a><span data-ttu-id="29f3e-146">还原已删除的 Microsoft 365 组</span><span class="sxs-lookup"><span data-stu-id="29f3e-146">Restore the deleted Microsoft 365 group</span></span>
+### <a name="restore-the-deleted-microsoft-365-group"></a><span data-ttu-id="52401-147">还原已删除的 Microsoft 365 组</span><span class="sxs-lookup"><span data-stu-id="52401-147">Restore the deleted Microsoft 365 group</span></span>
 
-1. <span data-ttu-id="29f3e-147">通过运行以下命令连接到 Azure AD：</span><span class="sxs-lookup"><span data-stu-id="29f3e-147">Connect to Azure AD by running the following:</span></span>
+1. <span data-ttu-id="52401-148">通过运行以下命令连接到 Azure AD：</span><span class="sxs-lookup"><span data-stu-id="52401-148">Connect to Azure AD by running the following:</span></span>
     ```PowerShell
     Connect-AzureAD
     ```
-    <span data-ttu-id="29f3e-148">提示登录时，请使用管理员帐户和密码登录。</span><span class="sxs-lookup"><span data-stu-id="29f3e-148">When you're prompted, sign in using your admin account and password.</span></span>  
-2. <span data-ttu-id="29f3e-149">运行以下操作以显示仍在30天保留期内的所有软删除的 Microsoft 365 组的列表。</span><span class="sxs-lookup"><span data-stu-id="29f3e-149">Run the following to display a list of all soft-deleted Microsoft 365 groups that are still within the 30-day retention period.</span></span> <span data-ttu-id="29f3e-150">如果有大量组，请使用 **-All $True** 参数。</span><span class="sxs-lookup"><span data-stu-id="29f3e-150">Use the **-All $True** parameter if you have a lot of groups.</span></span>
+    <span data-ttu-id="52401-149">提示登录时，请使用管理员帐户和密码登录。</span><span class="sxs-lookup"><span data-stu-id="52401-149">When you're prompted, sign in using your admin account and password.</span></span>  
+2. <span data-ttu-id="52401-150">运行以下操作以显示仍在30天保留期内的所有软删除的 Microsoft 365 组的列表。</span><span class="sxs-lookup"><span data-stu-id="52401-150">Run the following to display a list of all soft-deleted Microsoft 365 groups that are still within the 30-day retention period.</span></span> <span data-ttu-id="52401-151">如果有大量组，请使用 **-All $True** 参数。</span><span class="sxs-lookup"><span data-stu-id="52401-151">Use the **-All $True** parameter if you have a lot of groups.</span></span>
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 
-3. <span data-ttu-id="29f3e-151">找到要还原的组，然后记下 ID。</span><span class="sxs-lookup"><span data-stu-id="29f3e-151">Find the group that you want to restore, and then make a note of the Id.</span></span>
-4. <span data-ttu-id="29f3e-152">运行以下命令以还原该组，其中 [Id] 是组 ID。</span><span class="sxs-lookup"><span data-stu-id="29f3e-152">Run the following to restore the group, where [Id] is the group Id.</span></span>
+3. <span data-ttu-id="52401-152">找到要还原的组，然后记下 ID。</span><span class="sxs-lookup"><span data-stu-id="52401-152">Find the group that you want to restore, and then make a note of the Id.</span></span>
+4. <span data-ttu-id="52401-153">运行以下命令以还原该组，其中 [Id] 是组 ID。</span><span class="sxs-lookup"><span data-stu-id="52401-153">Run the following to restore the group, where [Id] is the group Id.</span></span>
     ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
-5.  <span data-ttu-id="29f3e-153">运行以下命令以验证是否已成功还原组，其中 [Id] 是组 ID。</span><span class="sxs-lookup"><span data-stu-id="29f3e-153">Run the following to verify the group was successfully restored, where [Id] is the group Id.</span></span>
+5.  <span data-ttu-id="52401-154">运行以下命令以验证是否已成功还原组，其中 [Id] 是组 ID。</span><span class="sxs-lookup"><span data-stu-id="52401-154">Run the following to verify the group was successfully restored, where [Id] is the group Id.</span></span>
     ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
 
-    <span data-ttu-id="29f3e-154">完成还原过程可能需要长达 24 小时，此后在 Teams 中将显示团队以及与团队关联的内容（包括选项卡和频道）。</span><span class="sxs-lookup"><span data-stu-id="29f3e-154">It can take up to 24 hours for the restore process to complete, after which the team and content associated with the team, including tabs and channels, is displayed in Teams.</span></span>
+    <span data-ttu-id="52401-155">完成还原过程可能需要长达 24 小时，此后在 Teams 中将显示团队以及与团队关联的内容（包括选项卡和频道）。</span><span class="sxs-lookup"><span data-stu-id="52401-155">It can take up to 24 hours for the restore process to complete, after which the team and content associated with the team, including tabs and channels, is displayed in Teams.</span></span>
