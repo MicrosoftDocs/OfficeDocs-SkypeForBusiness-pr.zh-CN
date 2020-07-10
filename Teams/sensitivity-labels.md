@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中定义和使用敏感度标签。
-ms.openlocfilehash: 2940fd5537f02a6d5b3125f4c0037b9705571ffa
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 4f1bdc4715fd1375cff637604c93962e2f30c258
+ms.sourcegitcommit: d7f49f8c28cba32d3715ea1965c736e6ba574bda
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012308"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45091265"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 团队的灵敏度标签
 
@@ -77,7 +77,7 @@ $setting["EnableMIPLabels"] = "False"
 
 ### <a name="privacy-setting-of-teams"></a>团队的隐私设置
 
-你可以创建在团队创建期间应用的敏感度标签，以允许用户使用特定隐私（公共或专用）设置创建团队。
+你可以创建在团队创建期间应用的敏感度标签，以允许用户使用特定隐私 (公共或专用) 设置创建团队。
 
 例如，在安全 & 合规中心创建名为 "保密" 的标签，并配置团队，以便使用此标签创建的任何团队都必须是专用团队。 当用户创建新团队并选择 "**机密**" 标签时，用户可用的唯一隐私选项是 "**专用**"。 用户已禁用其他隐私选项，如公共和组织范围。
 
@@ -99,15 +99,15 @@ $setting["EnableMIPLabels"] = "False"
 
 你可以指定使用特定标签创建的团队是否允许来宾访问。 使用不允许来宾访问的标签创建的团队仅对您的组织中的用户可用。 无法将组织外部的人员添加到团队。
 
+### <a name="sensitivity-labels-in-the-microsoft-teams-admin-center"></a>Microsoft 团队管理中心中的敏感度标签
+
+在 Microsoft 团队管理中心创建或编辑团队时，可以设置敏感度标签。 灵敏度标签还会显示在团队属性和 Microsoft 团队管理中心的 "管理团队" 页面上的 "**分类**" 列中。
+
 ## <a name="known-issues"></a>已知问题
 
 **团队创建过程中未显示子默认标签**
 
 当前，设置为团队的默认标签的子标签不会显示在团队创建模型的 "敏感度标签" 下拉列表的顶部。 团队创建者仍可使用下拉列表将子标签应用为解决方法。
-
-**Microsoft 团队管理中心中对灵敏度标签的支持**
-
-目前，Microsoft 团队管理中心不支持敏感性标签。 如果使用灵敏度标签，则在创建或编辑团队时将无法设置灵敏度标签。 灵敏度标签在团队属性中也不可见，并且在 Microsoft 团队管理中心的 "**分类**" 列中不可见。
 
 **对团队图形 Api、Powershell cmdlet 和模板中的灵敏度标签的支持**
 
