@@ -255,10 +255,12 @@
 #### [创建云呼叫队列](create-a-phone-system-call-queue.md)
 #### [直接从 Teams 回答自动助理和呼叫队列](answer-auto-attendant-and-call-queue-calls.md)
 
+### [阻止拨入通话](block-inbound-calls.md)
 ### [呼叫寄存和检索](call-park-and-retrieve.md)
 ### [呼叫共享和组内呼叫应答](call-sharing-and-group-call-pickup.md)
 ### [呼叫策略](teams-calling-policy.md)
 ### [共享线路外观](shared-line-appearance.md)
+### [拨号盘配置](dial-pad-configuration.md)
 
 
 ## 通话套餐
@@ -380,7 +382,6 @@
 #### [荷兰的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
 #### [英国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [美国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
-
 
 ### 免费拨号限制
 #### [概述](toll-free-dialing-limitations-and-restrictions.md)
@@ -517,7 +518,6 @@
 #### [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [规划用户试点](pilot-essentials.md)
 
-
 ### 针对 Teams 准备环境
 #### [技术准备概述](upgrade-prepare-environment.md)
 #### [针对 Teams 准备 IT 员工](upgrade-prepare-IT-pros.md)
@@ -530,12 +530,10 @@
 #### [评估组织更改是否就绪](upgrade-org-change-readiness.md)
 #### [准备用户就绪性计划](upgrade-user-readiness.md)
 
-
 ## 实现升级
 ### [概述](upgrade-to-Teams.md)
 ### [将 Skype for Business Online 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [将本地 Skype for Business 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
-
 
 ## 运行、采用和优化
 ### [运营计划概述](continue-journey.md)
@@ -552,7 +550,6 @@
 ### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
 ### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
 ### [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
-
 
 ### [会议优先](meetings-first.md)
 
@@ -657,6 +654,7 @@
 ### [适合一线员工的快速入门](firstline-workers-quickstart.yml)
 ### [一线员工脚本化部署](flw-scripted-deployment.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
+### [对讲机](walkie-talkie.md)
 ### [从 SPO 网站或页面创建 Teams Intranet 门户应用](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [适用于零售业的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
@@ -684,6 +682,7 @@
 ## 合规性
 ### [信息屏障](information-barriers-in-teams.md)
 ### [保留策略](retention-policies.md)
+### [通信合规性](communication-compliance.md)
 ### [通话和会议的基于策略的录制](teams-recording-policy.md)
 ### [数据丢失防护](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### 电子数据展示
@@ -696,21 +695,29 @@
 
 <!-- ============================================================ -->
 # 监视、维护和疑难解答
-## [监视和管理通话质量](monitor-call-quality-qos.md)
-### [体验质量检查指南](quality-of-experience-review-guide.md)
-### [在 Teams 中设置 QoS](QoS-in-Teams.md)
+## 监视和管理通话质量
+### [监视和改善通话质量](monitor-call-quality-qos.md)
+### 通话质量仪表板 (CQD)
+#### [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
+#### [设置 CQD](turning-on-and-using-call-quality-dashboard.md)
+#### [上传租户和建筑物数据](CQD-upload-tenant-building-data.md)
+#### [CQD 数据和报告](CQD-data-and-reports.md)
+#### [使用 CQD 管理通话和会议质量](quality-of-experience-review-guide.md)
+#### [常见问题](CQD-frequently-asked-questions.md)
+#### [CQD 中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
+#### [CQD 中的流分类](stream-classification-in-call-quality-dashboard.md)
+#### [创建建筑物地图](CQD-building-mapping.md)
+#### 使用 Power BI 分析 CQD 数据
+##### [使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)
+##### [安装 Power BI 连接器以使用 CQD 查询模板](CQD-Power-BI-connector.md)
+##### [获取有关 Teams 利用率的 CQD 数据](CQD-teams-utilization-report.md)
+##### [使用 CQD PSTN 直接路由报告](CQD-PSTN-report.md)
+### 通话分析
+#### [设置通话分析](set-up-call-analytics.md)
+#### [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+### 服务质量 (QoS)
+#### [在 Teams 中设置 QoS](QoS-in-Teams.md)
 #### [在 Windows 客户端上设置 QoS](QoS-in-Teams-clients.md)
-### [通话分析和通话质量仪表板](difference-between-call-analytics-and-call-quality-dashboard.md)
-### [设置通话分析](set-up-call-analytics.md)
-### [使用通话分析来排查通话质量不良问题](use-call-analytics-to-troubleshoot-poor-call-quality.md)
-### [打开并使用通话质量仪表板](turning-on-and-using-call-quality-dashboard.md)
-### 使用 Power BI 分析 CQD 数据
-#### [使用 Power BI 分析 CQD 数据](CQD-Power-BI-query-templates.md)
-#### [安装 Power BI 连接器以使用 CQD 查询模板](CQD-Power-BI-connector.md)
-#### [获取有关 Teams 利用率的 CQD 数据](CQD-teams-utilization-report.md)
-#### [使用 CQD PSTN 直接路由报告](CQD-PSTN-report.md)
-### [通话质量仪表板中可用的维度和衡量指标](dimensions-and-measures-available-in-call-quality-dashboard.md)
-### [通话质量仪表板中的流分类](stream-classification-in-call-quality-dashboard.md)
 ## [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [解决安装和更新问题](troubleshoot-installation.md)
 ## [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
@@ -719,6 +726,7 @@
 ## [常见问题解答：支持远程工作人员](FAQ-support-remote-workforce.md)
 ## [验证 Teams 的服务运行状况](service-health.md)
 ## [联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
 
 <!-- ============================================================ -->
   
@@ -765,7 +773,6 @@
 ### [消息策略许可](teams-add-on-licensing/pri-message.md)
 ### [Microsoft 365 电话系统 - 虚拟用户许可证](teams-add-on-licensing/virtual-user.md)
 
-
 ## 与 Microsoft 365 和 Office 365 的互操作性
 
 ### [Microsoft 365 组和 Teams](office-365-groups.md)
@@ -777,9 +784,9 @@
 ### [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)
 ### [Microsoft 365 和 Office 365 支持多地理位置的租户中的 Teams 体验](teams-experience-o365odb-spo-multi-geo.md)
 
-
 ## 支持的设备
 ### [在 Teams 中管理设备](devices/device-management.md)
+### [远程更新设备](devices/remote-update.md)
 ### [Teams 电话](devices/phones-for-teams.md)
 ### [USB 音频和视频设备](devices/usb-devices.md)
 ### [为 Microsoft Teams 部署协作栏](devices/collab-bar-deploy.md)
@@ -787,11 +794,12 @@
 ### [Microsoft Teams 认证的 IP 电话](devices/teams-ip-phones.md)
 ### [Skype for Business Online 电话](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-
 ## Teams PowerShell
 ### [概述](teams-powershell-overview.md)
+### [安装 Teams PowerShell](teams-powershell-install.md)
+### [使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
+### [Teams PowerShell 发行说明](teams-powershell-release-notes.md)
 ### [Teams 的 Cmdlet 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-### [安装 Teams PowerShell 模块的预发布版本](install-prerelease-teams-powershell-module.md)
 
 ## [Teams 开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
 ## [在 Teams 中获取帮助](get-help-in-microsoft-teams.md)
