@@ -1,15 +1,15 @@
 ---
 title: 对内容进行电子数据展示调查
-author: LolaJacobsen
-ms.author: hakank
-manager: serdars
+author: markjjo
+ms.author: markjjo
+manager: laurawi
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
 - SPO_Content
-ms.reviewer: anach
+ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ description: 了解需要执行电子数据展示时需要执行的操作，如�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 55afbf3ff1dd3f38990dc60f9cae3cbce7c2f9db
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 0bdd14db1fd0e849effe9ffe1789c06e1e012d90
+ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950887"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45121392"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中对内容进行电子数据展示调查
 
@@ -54,9 +54,9 @@ ms.locfileid: "43950887"
 
 - 若要使用 Microsoft 团队内容执行电子数据展示调查，请查看["安全 & 合规中心" 链接中的 "管理电子数据展示事例"](https://support.office.com/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da)中的步骤1。
 
-- Microsoft 团队数据将在 Excel 电子数据展示导出输出中显示为即时消息或对话。 可以在 Outlook 中`.pst`打开文件以在导出后查看这些邮件。
+- Microsoft 团队数据将在 Excel 电子数据展示导出输出中显示为即时消息或对话。 可以 `.pst` 在 Outlook 中打开文件以在导出后查看这些邮件。
 
-    查看团队的`.pst`文件时，请注意所有对话都保存在 "对话历史记录" 下的 "工作组聊天" 文件夹中。 邮件标题包含团队名称和频道名称。 例如，下面的图像显示来自 Bob 的一条消息，messaged 制造规范团队的项目7标准频道。
+    查看团队的 `.pst` 文件时，请注意所有对话都保存在 "对话历史记录" 下的 "工作组聊天" 文件夹中。 邮件标题包含团队名称和频道名称。 例如，下面的图像显示来自 Bob 的一条消息，messaged 制造规范团队的项目7标准频道。
 
     ![Outlook 中的用户邮箱中的工作组聊天文件夹的屏幕截图](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
@@ -154,7 +154,7 @@ ms.locfileid: "43950887"
 
 向审阅集添加搜索时，可以从 "常规" 审阅集或 "对话审阅" 集进行选择。
 
-常规审阅集类似于导出;它为团队内容`.msg`提供单个文件，并在基本视图中显示内容。 当你计划使用其他软件工具在以后重新处理文件时，通常会使用常规的审阅集。
+常规审阅集类似于导出;它 `.msg` 为团队内容提供单个文件，并在基本视图中显示内容。 当你计划使用其他软件工具在以后重新处理文件时，通常会使用常规的审阅集。
 
 对话审核集提供了更直观的对话视图;它以正确的顺序显示相关邮件。
 
@@ -180,11 +180,11 @@ ms.locfileid: "43950887"
 
 "**管理审阅集**" 按钮提供其他选项，例如 "分析"、"摘要报告"、已添加的加载集等。
 
-若要访问数据的可视化效果和图表，**请单击右上** \>角的 "**搜索个人资料" 视图**。 可以单击这些图表中的楔形，以交互方式选择要查询的内容类型。 例如，您可以选择仅查询团队内容。 您也可以像保存手动编写的查询一样保存这些查询。
+若要访问数据的可视化效果和图表，**请单击** \> 右上角的 "**搜索个人资料" 视图**。 可以单击这些图表中的楔形，以交互方式选择要查询的内容类型。 例如，您可以选择仅查询团队内容。 您也可以像保存手动编写的查询一样保存这些查询。
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>摘要视图、文本视图和批注视图
 
-如果您单击 "审阅" 集中的团队对话，它将显示 "**摘要" 视图**，其中显示整个团队对话，作为可单独与之交互的消息列表。 单击消息右侧的向下箭头以显示上下文菜单，可在其中查看消息详细信息或下载单个`.msg`文件。 单击 "消息详细信息" 将显示元数据的摘要或消息的完整元数据。
+如果您单击 "审阅" 集中的团队对话，它将显示 "**摘要" 视图**，其中显示整个团队对话，作为可单独与之交互的消息列表。 单击消息右侧的向下箭头以显示上下文菜单，可在其中查看消息详细信息或下载单个 `.msg` 文件。 单击 "消息详细信息" 将显示元数据的摘要或消息的完整元数据。
 
 若要下载 PDF，请单击 "摘要" 视图右上角的 "下载" 按钮。
 
@@ -196,7 +196,7 @@ ms.locfileid: "43950887"
 
 #### <a name="action-menu"></a>操作菜单
 
-在 "审阅集" 窗口中，可以通过单击 "**操作** \> **导出**" 来导出内容。 导出时有许多选项可供使用。
+在 "审阅集" 窗口中，可以通过单击 "**操作**导出" 来导出内容 \> **Export**。 导出时有许多选项可供使用。
 
 若要导出包含所有团队邮件的所有元数据的文件，请单击以选中 "**加载文件**" 复选框。 若要将已应用于内容的任何标记包含在您的文件中，请单击以选中 "**标记**" 复选框。
 
