@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 使用团队管理中心远程更新 Microsoft 团队的电话和协作栏
-ms.openlocfilehash: 7e47c9394eddfa73b8b55279b68ae59ff7b6de3d
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: f7607da002be7f038e4cafe5b4b6026ea2d99ddf
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944081"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125945"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>远程更新 Microsoft 团队设备
 
@@ -32,7 +32,7 @@ ms.locfileid: "44944081"
 设备固件更新可以自动应用，也可以计划在将来的日期和时间使用。 其他可用的设备更新不会自动应用，但可以手动或计划在将来的日期和时间应用。
 
 > [!NOTE]
-> 虽然可以计划设备固件更新，但如果计划的日期和时间位于配置的最大30个或90天的延迟之后，则会在达到最大延迟时应用固件更新。 将忽略计划的日期和时间。
+> 虽然可以计划设备固件更新，但如果计划的日期和时间位于配置的最大30个或90天的延迟之后，则会在达到最大延迟时应用固件更新。 将忽略计划的日期和时间。 此外，"远程更新 Microsoft 团队设备" 功能尚未在美国政府云租户（GCC-高）中提供。
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>选择 "自动设备固件更新" 行为
 

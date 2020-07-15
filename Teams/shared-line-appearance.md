@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft 团队中向用户发送包含其音频会议信息的电子邮件。
-ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042579"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125975"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams 中的共享线路外观
 
@@ -59,10 +59,10 @@ ms.locfileid: "44042579"
 
 | 功能 | 团队桌面版 | 团队 Mac 应用 | 团队 Web App （Edge） |团队移动 iOS/Android 应用程序 | 团队 IP 电话 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| 设置委派 | 必需 | 是  | 是 | 否 | 否 |
-| 代表他人接听电话 | 必需 | 是  | 是  | 是  | 是 |
-| 代表另一个电话号码拨打电话 | 必需 | 是  | 是  | 是  | 是 |
-| 代表另一个团队用户调用团队用户 | 必需 | 是  | 是  | 是  | 是 |
+| 设置委派 | 必需 | 是  | 是 | 否 | 是 |
+| 代表他人接听电话 | 必需 | 是  | 是  | 是  | 是  |
+| 代表另一个电话号码拨打电话 | 必需 | 是  | 是  | 是  | 是  |
+| 代表另一个团队用户调用团队用户 | 必需 | 是  | 是  | 是  | 是  |
 | 查看共享行的管理员视图 | 必需 | 是  | 是 | 否 | 否 |
 | 查看经理的通话活动的管理员视图 | 必需 | 是  | 是 | 否 | 否 |
 | 查看代理人的管理者视图 | 必需 | 是  | 是 | 否 | 否 |

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何为部署 Microsoft 团队聊天室准备基础结构，以便你可以充分利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8551bc625b270b8b61de4be71ceb772a1d1ede47
-ms.sourcegitcommit: d0d37351c37c2b4db9b0fc51b286dd548f5b9542
+ms.openlocfilehash: a8252151dcad1c8e483394c6268d445376f25973
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "44735422"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125955"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -36,8 +36,8 @@ ms.locfileid: "44735422"
    - HTTP：80
    - 如果你的网络通过代理运行，则还需要提供代理地址或脚本信息。
     
-     > [!NOTE]
-     > Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采集功能（视频、音频）出现问题。 请确保连接到 Microsoft Teams 会议室的交换机禁用了 HDCP 选项。
+     > [!IMPORTANT]
+     > Microsoft 团队聊天室不支持代理身份验证，因为它可能会干扰聊天室的常规操作。 在投入生产之前，确保 Microsoft 团队聊天室已免除代理身份验证。
   
 3. 为了改进你的体验，Microsoft 将收集数据。 若要允许 Microsoft 收集数据，请将这些网站列入白名单：
 

@@ -18,12 +18,12 @@ f1.keywords:
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1a01c600ce0b5e64df274b12c9956bf922e9b4
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: fe067e88fe6e73b16e4296b611e87eb94d7e060c
+ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689798"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "45098360"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -104,7 +104,7 @@ Azure AD 包含用于配置外部用户的以下设置：
 
 这些设置应用于租户级别，并控制 Microsoft 365 组和 Teams 中的来宾体验。
 
-要详细了解组中的来宾访问功能，例如来宾访问功能如何工作、如何管理来宾访问以及常见问题的解答，请参阅 [Microsoft 365 组的来宾访问](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
+要详细了解组中的来宾访问功能，例如来宾访问功能如何工作、如何管理来宾访问以及常见问题的解答，请参阅[在 Microsoft 365 中管理来宾访问](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#manage-groups-guest-access)和 [Microsoft 365 组的来宾访问](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>控制对 SharePoint Online 和 OneDrive for Business 的来宾访问
 

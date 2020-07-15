@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 了解医疗保健的功能，包括护理协调、安全消息、telehealth、EHR 集成和一线 worker 系统集成。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 457a5701288cf3d6203ad690d82d0bea3a4556cc
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938361"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138102"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -89,9 +89,25 @@ Microsoft 团队支持医生、临床医生、护士和其他员工通过以下�
 
 有关实现的详细信息，请参阅将[电子医疗保健记录集成到 Microsoft 团队](patients-app.md)中。
 
-## <a name="templates"></a>Templates
+## <a name="teams-templates"></a>团队模板
 
 创建团队的新模板已开发为适用于医院的设置，并且预计会更多。 这使您可以更轻松地创建医疗保健工作者在各种部门或 wards 中协调病人的护理。 请参阅[面向医疗保健组织的团队模板入门](healthcare-templates.md)。 团队可以为内部部门（如心脏病科）或用于护理 wards 的团队开始，并且更多模板位于开发中。
+
+## <a name="lists-app"></a>列表应用
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+团队中的 "列表" 应用可帮助团队跟踪信息和组织工作。 为所有团队用户预安装应用，并且该应用在每个团队和频道中均可用作选项卡。 可以从预定义的模板或将数据导入到 Excel 中从头开始创建列表。
+
+护理团队可以使用患者模板开始使用。 他们可以创建列表来跟踪病人的需求和状况。 可将 Excel 电子表格中的现有患者数据引入到团队中以创建列表。 这些列表可用于诸如倒圆角和患者监视等方案来协调护理。
+
+例如，收费护士在包含所有护理团队成员的团队中创建一个患者列表。 在舍入过程中，护理团队在其移动设备上访问团队并更新列表中的患者信息，团队中的每个人都可以查看它们以保持同步。在 glide 的舍入会话中，护理团队收集以讨论和评估关键运行状况性能指标以确保患者在合适的路径上，他们可以使用大型显示屏幕上的团队共享此信息。 不在网站上的护理团队成员可以远程加入。
+
+下面是为患者舍入设置的示例列表。
+
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="患者舍入示例列表的屏幕截图":::
+
+若要了解详细信息，请参阅[管理团队中组织的列表应用](../../manage-lists-app.md)。
 
 ## <a name="secure-messaging"></a>安全消息
 

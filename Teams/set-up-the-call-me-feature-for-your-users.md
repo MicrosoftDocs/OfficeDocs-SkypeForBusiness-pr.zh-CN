@@ -17,16 +17,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c2343ce76e404ce2462cdbfc443130058112dcc4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: d29a517b8df194fe19b9e16554f7c57964177c90
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140855"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138012"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>为用户设置“致电我”功能
 
-在 Microsoft 团队中，"**呼叫我**" 功能为用户提供了一种通过电话加入会议音频部分的方式。 这在可能无法使用计算机音频的情况下很方便。 用户通过其手机或土地线以及会议&mdash;的内容部分（如另一个会议参与者共享他们的屏幕或通过其计算机播放视频&mdash;）获取会议的音频部分。
+在 Microsoft 团队中，"**呼叫我**" 功能为用户提供了一种通过电话加入会议音频部分的方式。 这在可能无法使用计算机音频的情况下很方便。 用户通过其手机或土地线以及会议的内容部分 &mdash; （如另一个会议参与者共享他们的屏幕或通过其计算机播放视频）获取会议的音频部分 &mdash; 。
+
+> [!IMPORTANT]
+> 
+> 在高会议音量（我们已与 COVID 病毒发作）的期间，我们建议用户通过单击 "<strong>加入团队会议</strong>" 按钮而不是通过使用 PSTN 会议号码或使用 "<strong>呼叫我</strong>" 来加入会议。 这有助于在高容量会议造成 PSTN 网络拥堵时确保音频质量。 
 
 > [!IMPORTANT]
 > 在新型冠状肺炎（COVID-19） 爆发期间，建议用户通过单击“**加入团队会议**”按钮来加入会议，而不是使用 PSTN 会议号码或 **给我打电话**</strong>。 这主要是由于新型冠状病毒（COVID-19）所影响国家/地区的电话基础设施拥堵而导致。 通过避免 PSTN 通话，您可能会体验到更好的音频质量。 
