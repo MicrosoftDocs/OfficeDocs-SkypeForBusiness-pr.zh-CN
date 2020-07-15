@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4208f5519ffff94d9726dfb06ed4ff1aef2d8a15
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637901"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028108"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -77,10 +77,7 @@ Microsoft 在最近发布的新型冠状病毒肺炎（COVID-19）疫情公告�
 
 **IT 专业人员**
 
-- 如果您供职于一家公司，而且想在 Teams 中设置员工，可以联系 Microsoft 合作伙伴或销售代表，注册六个月的 [Office 365 E1 试用版](e1-trial-license.md)计划。
-
-> [!NOTE]
-> [美国政府云](g1-trial-license.md)提供相同的免费 Teams 计划，但 GCC High 和美国国防部除外。
+- 如果你为一家企业工作，想让员工使用 Teams，则可以注册 [Teams 探索](teams-exploratory.md)。
 
 - 如果您从事教育行业工作，而且想要在 Teams 上设定教师、学生和系统管理员，请使用 Office 365 A1，即可供教育机构使用的 Office 365 免费版。 访问 [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) 进行注册。
 

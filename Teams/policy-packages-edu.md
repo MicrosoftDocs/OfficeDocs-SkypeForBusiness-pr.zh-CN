@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或 EDU 设置中的策略，以及如何在 Microsoft Teams 中使用和管理策略包。
-ms.openlocfilehash: 8e024003957a295d56e26a46f473d543f2cb0ded
-ms.sourcegitcommit: 02dd624d39a14f48b9d2463881605d2f051722e7
+ms.openlocfilehash: fcc6a5d22d5e499cf698e424148ff37cd3ee054e
+ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "44874420"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45021880"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>面向教育的 Teams 策略和策略包
 
@@ -148,6 +148,9 @@ Microsoft Teams 当前包含以下策略包：
 ### <a name="meeting-policies"></a>会议策略
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>关闭创建和启动会议的功能
+
+> [!NOTE]
+> 你现在可能还没有在租户中发现此功能。 这是因为此功能当前还在推出过程中，将在完成在所有租户上的部署后向所有用户推出。 有关详细信息，请参阅 [Teams 路线图](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=63355)。
 
 若要确保学生无法安排会议来进行无人参与的通信，可通过以下常规设置将会议策略设置为**关闭**会议创建功能：
 

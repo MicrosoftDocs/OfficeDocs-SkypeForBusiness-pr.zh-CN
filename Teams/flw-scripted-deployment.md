@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3411d3a163e9da5e58fa258371d02ca878868adb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 7a57de3528ac9ef0f950c7034b3c6ee3860b53ea
+ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638381"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "45028168"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>如何为一线工作人员大规模预配 Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "44638381"
 
 ## <a name="technical-requirements"></a>技术要求
 
-- 租户必须具有相应数量的可用许可证，包括 Microsoft Teams。 如果你还没有此类许可证，请按照此处的说明激活 [ Office 365 E1 免费试用版](e1-trial-license.md)。
+- 租户必须具有相应数量的可用许可证，包括 Microsoft Teams。 如果尚无这些许可证，请查看 [Teams 探索](teams-exploratory.md)，获取免费的试用订阅。
 - 执行这些步骤的用户必须在 Azure AD 中分配以下角色：全局管理员、用户管理员和 Teams 服务管理员。
 - 用户必须具有在其本地计算机上安装和配置软件的权限。
 
