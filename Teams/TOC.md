@@ -672,13 +672,13 @@
 
 # 安全性、隐私性和合规性
 ## [概述](security-compliance-overview.md)
-## 安全和隐私
+## 安全性
 ### [安全指南](teams-security-guide.md)
+### [Azure Sentinel 和 Teams](teams-sentinel-guide.md)
 ### [标识模式和身份验证](identify-models-authentication.md)
 ### [使用新式验证登录 Teams](sign-in-teams.md)
 ### [Teams 中安全链接](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [隐私和 Microsoft Teams](teams-privacy.md)
-### [Teams 中的数据位置](location-of-data-in-teams.md)
+### [AppLocker 应用程序控制策略](applocker-in-teams.md)
 ## 合规性
 ### [信息屏障](information-barriers-in-teams.md)
 ### [保留策略](retention-policies.md)
@@ -691,7 +691,9 @@
 ### 内容搜索
 #### [使用内容搜索](content-search.md)
 #### [搜索事件的审核日志](audit-log-events.md)
-### [AppLocker 应用程序控制策略](applocker-in-teams.md)
+## 隐私
+### [隐私和 Microsoft Teams](teams-privacy.md)
+### [Teams 中的数据位置](location-of-data-in-teams.md)
 
 <!-- ============================================================ -->
 # 监视、维护和疑难解答
