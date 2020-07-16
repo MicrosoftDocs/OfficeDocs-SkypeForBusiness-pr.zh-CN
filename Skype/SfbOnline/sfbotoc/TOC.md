@@ -269,9 +269,9 @@
 ### [Skype for Business Online 中的 ExpressRoute 和 QoS](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [媒体质量和网络连接性能](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
 ### [Skype for Business Online 的代理服务器](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
+### [使用网络测试助理](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
-
-## [通话分析和通话质量仪表板](/microsoftteams/monitor-call-quality-qos?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+## [通话分析和通话质量仪表板](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [通话质量仪表板中可用的维度和衡量指标](/microsoftteams/dimensions-and-measures-available-in-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [设置 Skype for Business 通话分析](/microsoftteams/set-up-call-analytics?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [打开并使用通话质量仪表板](/microsoftteams/turning-on-and-using-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
