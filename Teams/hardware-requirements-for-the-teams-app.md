@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3096673df464b02ae828423c5aebf8690a7ab853
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 1a61c7338c6a182b6803bf2a302522b7fb97586f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702617"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143773"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -32,7 +32,7 @@ ms.locfileid: "44702617"
 
 ## <a name="hardware-requirements-for-teams-on-a-windows-pc"></a>Teams 在 Windows 电脑上的硬件要求
 
-|**组件**|**要求**  |
+| 组件 | 要求 |
 |---------|---------|
 |计算机和处理器    | 最低 1.6 GHz（或更高）（32 位或 64 位）。        |
 |内存     |    2.0 GB RAM     |
@@ -43,12 +43,12 @@ ms.locfileid: "44702617"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更高版本       |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    | 
-|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有单核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。 </li><li>在没有运行在 Windows 8.1 或更低的 AVX2 指令集的处理器上不支持可选的**后台视频效果**。</li><li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>为了使用近程检测在 Microsoft Teams 会议室中加入会议，需要低功耗蓝牙，因此要求在客户端设备上启用蓝牙，而对于 Windows 客户端，则需要 64 位 Teams 客户端。 它在 32 位 Teams 客户端上不可用。</li></ul> |
+|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有双核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。 </li><li>在没有运行在 Windows 8.1 或更低的 AVX2 指令集的处理器上不支持可选的**后台视频效果**。</li><li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>为了使用近程检测在 Microsoft Teams 会议室中加入会议，需要低功耗蓝牙，因此要求在客户端设备上启用蓝牙，而对于 Windows 客户端，则需要 64 位 Teams 客户端。 它在 32 位 Teams 客户端上不可用。</li></ul> |
 |Teams 实时事件 | 如果你正在制作团队实时活动，我们建议使用具有核心 i5 Kaby Lake processor、4.0 GB RAM （或更高版本）和硬件编码器的计算机。 请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Teams 在 Mac 上的硬件要求
 
-|**组件**|**要求**  |
+| 组件 | 要求 |
 |---------|---------|
 |处理器    | 最低 Intel 处理器 Core 2 Duo 或更高版本 |
 |内存     |   2.0 GB RAM      |
@@ -57,11 +57,11 @@ ms.locfileid: "44702617"
 |操作系统  |    Mac OS X 10.11 El Capitan 或更高版本     |
 |视频  |    兼容的网络摄像机     |
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
-|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有单核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。</li><li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Mac OS 中不可用。</li></ul> |
+|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有双核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。</li><li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Mac OS 中不可用。</li></ul> |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Teams 在 Linux 上的硬件要求
 
-|**组件**|**要求**  |
+| 组件 | 要求 |
 |---------|---------|
 |计算机和处理器    | 最低 1.6 GHz（或更高）（32 位或 64 位）。        |
 |内存     |    2.0 GB RAM     |
@@ -72,7 +72,7 @@ ms.locfileid: "44702617"
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    | 
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
-|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有单核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。</li><li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Linux 上不可用。</li></ul>
+|视频通话和会议 | <ul><li>为了获得1:1 视频通话的更佳体验，我们建议使用具有双核处理器和 4.0 GB RAM （或更高版本）的计算机。 </li><li>为了更好地使用联机会议，我们建议使用具有双核处理器和 8.0 GB RAM （或更高版本）的计算机。</li><li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Linux 上不可用。</li></ul>
 |支持的 Linux 发行版 | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Teams 在移动设备上的硬件要求

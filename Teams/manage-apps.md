@@ -17,12 +17,12 @@ description: 了解如何在 Microsoft 团队管理中心的 "管理应用" 页�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 1aa72a1720139324f53168c36f1d27a12b5cf5bb
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 3a99577b51f08d9ae0e0d4aef73297fade1b1176
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086209"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146118"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理你的应用
 ======================================================
@@ -42,22 +42,31 @@ ms.locfileid: "45086209"
 
 !["托管应用" 页面的屏幕截图](media/manage-apps.png)
 
-- **名称**：应用名称。 单击应用名称以查看有关应用的详细信息。 其中包括应用的说明，无论它是允许还是阻止、应用于应用的版本、认证状态、支持的功能和应用 ID。 下面是一个示例：<br> 
-![应用的 "应用详细信息" 页面的屏幕截图](media/manage-apps-app-details.png)
+- **名称**：应用名称。 单击应用名称以查看有关应用的详细信息。 其中包括应用的说明，无论它是允许还是阻止、应用于应用的版本、认证状态、支持的功能和应用 ID。 下面是一个示例：
+
+  ![应用的 "应用详细信息" 页面的屏幕截图](media/manage-apps-app-details.png)
+  
 - **认证**：如果应用已通过认证，你将看到**Microsoft 365 认证**或**发布商证明**。 单击链接以查看应用的认证详细信息。 如果你看到 " **--** "，则表示没有适用于该应用的认证信息。 若要了解有关团队中已认证应用的详细信息，请参阅[Microsoft 365 应用认证计划](https://docs.microsoft.com/teams-app-certification/all-apps)。  
+
 - **类别**：应用于应用的类别。
+
 - **应用状态**： "组织" 级别的应用状态，可为下列之一：
+
     - **允许**：应用可用于你的组织中的所有用户。
+    
     - 已**阻止**：应用被阻止，不能用于你的组织中的任何用户。
-    - **被阻止的组织范围**：应用在组织范围内的应用设置中被阻止。 <br>
-请务必了解，此列表示以前位于**组织范围设置**窗格中的应用的 "允许" 和 "已阻止" 状态。 现在，你可以在 "**管理应用**" 页面上的组织范围内查看、阻止和允许应用。 
+    
+    - **被阻止的组织范围**：应用在组织范围内的应用设置中被阻止。
+    
+      请务必了解，此列表示以前位于**组织范围设置**窗格中的应用的 "允许" 和 "已阻止" 状态。 现在，你可以在 "**管理应用**" 页面上的组织范围内查看、阻止和允许应用。 
+
 - **版本**：应用版本。
 
 若要查看表中所需的信息，请单击右上角的 "**编辑列**" 以在表中添加或删除列。
 
 ## <a name="upload-a-new-app"></a>上载新应用程序
 
-你可以使用你的应用程序目录来测试和分发专为你的组织构建的自定义应用程序。 团队应用包是使用[团队应用 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建的。 当你有应用包时，你可以将其添加到你的应用程序目录。 虽然组织中的所有用户都可以查看应用程序目录，但只有全局管理员和团队服务管理员可以发布和管理它。
+你可以使用你的应用程序目录来测试和分发专为你的组织构建的自定义应用程序。 团队应用包是使用[团队应用 Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)创建的。 当你有应用包时，你可以将其添加到你的应用目录。 虽然组织中的所有用户都可以查看应用程序目录，但只有全局管理员和团队服务管理员可以发布和管理它。
 
 若要将新的自定义应用上载到租户应用目录，请单击 "**上传新应用**" 以将你的应用包上载为 .zip 格式。 应用在上载后不会突出显示，因此你需要搜索你的应用目录才能找到它。
 
@@ -91,7 +100,8 @@ ms.locfileid: "45086209"
 
     - **允许第三方应用**：此操作控制用户是否可以使用第三方应用。 如果关闭此设置，你的用户将无法安装或使用任何第三方应用，并且这些应用的应用状态在表格中显示为**阻止的组织范围**。
 
-        当 "**允许第三方应用**" 关闭时，将禁用[传出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，这意味着用户无法创建它们。 当此设置处于打开状态时，将为所有用户启用传出 webhooks，无论用户是否在用户的应用权限策略中打开或关闭该设置。
+        > [!NOTE]
+        > 当 "**允许第三方应用**" 关闭时，将禁用[传出 webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) ，这意味着用户无法创建它们。 当此设置为 on 时，将为所有用户启用传出 webhooks，你可以通过[应用权限策略](teams-app-permission-policies.md)允许或阻止传出 Webhook 应用，在用户级别控制它们。 <br><br>请注意，如果你具有适用于使用 "**允许特定应用" 和 "阻止所有其他应用**" 设置的**Microsoft 应用**的现有[应用权限策略](teams-app-permission-policies.md)，并且你希望为用户启用传出的 webhooks，请将传出 Webhook 应用添加到列表。
     - **默认情况下允许发布到应用商店的任何新第三方应用**：这将控制发布到团队应用商店的新的第三方应用是否会自动在团队中可用。 仅当你允许第三方应用时，你才能设置此选项。
 
 3. 在 "**自定义应用**" 下，关闭或打开 "**允许与自定义应用交互**"。 此设置控制用户是否可以与自定义应用交互。 若要了解详细信息，请参阅[管理团队中的自定义应用策略和设置](teams-custom-app-policies-and-settings.md)。

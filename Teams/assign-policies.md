@@ -18,11 +18,12 @@ description: 了解在 Microsoft 团队中向用户分配策略的不同方法�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 161a979578f24b351c93e870a562e6c4104b52d0
-ms.sourcegitcommit: ac36d3923095a4321dad14fdf23c98358affd10c
+ms.openlocfilehash: 0978ed0413c372b8bacbb936af6e125294e9d35f
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45049439"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143843"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft Teams 中的用户分配策略
 
@@ -295,7 +296,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 **此功能尚未发布。已宣布，即将推出。**
 
 > [!NOTE]
-> 目前，使用 Microsoft 团队管理中心的组的策略分配仅适用于团队调用策略、团队会议策略和团队消息策略。 对于其他策略类型，请使用 PowerShell。
+> 目前，对使用 Microsoft 团队管理中心的组的策略分配仅适用于团队调用策略、团队呼叫驻留策略、团队策略、团队实时事件策略、团队会议策略和团队消息策略。 对于其他策略类型，请使用 PowerShell。
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "策略类型" 页面。 例如，转到 "**会议**  >  **会议策略**"。
 2. 选择 "**组策略分配**" 选项卡。
