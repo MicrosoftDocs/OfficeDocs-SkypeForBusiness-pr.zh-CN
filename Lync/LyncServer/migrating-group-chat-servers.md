@@ -25,7 +25,7 @@ ms.locfileid: "44755292"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrating-group-chat-servers"></a><span data-ttu-id="6c492-102">迁移组聊天服务器</span><span class="sxs-lookup"><span data-stu-id="6c492-102">Migrating Group Chat servers</span></span>
+# <a name="migrating-group-chat-servers"></a><span data-ttu-id="b5985-102">迁移组聊天服务器</span><span class="sxs-lookup"><span data-stu-id="b5985-102">Migrating Group Chat servers</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "44755292"
 
 <span> </span>
 
-<span data-ttu-id="6c492-103">_**上次修改的主题：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="6c492-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="b5985-103">_**上次修改的主题：** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="b5985-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="6c492-104">如果您在旧版 Lync Server 2010 环境中部署了组聊天服务器，则必须部署 Lync Server 2013 持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="6c492-104">If you deployed Group Chat Server in your legacy Lync Server 2010 environment, you must deploy Lync Server 2013 Persistent Chat Server.</span></span> <span data-ttu-id="6c492-105">组聊天服务器和持久聊天服务器可以共存，但不会在这些服务器之间共享内容（例如，聊天室等）。</span><span class="sxs-lookup"><span data-stu-id="6c492-105">Group Chat Server and Persistent Chat Server can coexist, but content (for example, chat rooms, etc.) is not shared across these servers.</span></span> <span data-ttu-id="6c492-106">若要从持久聊天服务器访问旧版组聊天服务器内容，您必须将组聊天服务器迁移到持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="6c492-106">To access the legacy Group Chat Server content from Persistent Chat Server, you must migrate the Group Chat Server to Persistent Chat Server.</span></span> <span data-ttu-id="6c492-107">有关迁移到持久聊天服务器的详细信息，请参阅迁移文档中的[从 Lync server 2010、组聊天或 Office 通信服务器 2007 R2 组聊天到 Lync server 2013 的持久聊天服务器](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)。</span><span class="sxs-lookup"><span data-stu-id="6c492-107">For details on migrating to Persistent Chat Server, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in the Migration documentation.</span></span>
+<span data-ttu-id="b5985-104">如果您在旧版 Lync Server 2010 环境中部署了组聊天服务器，则必须部署 Lync Server 2013 持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="b5985-104">If you deployed Group Chat Server in your legacy Lync Server 2010 environment, you must deploy Lync Server 2013 Persistent Chat Server.</span></span> <span data-ttu-id="b5985-105">组聊天服务器和持久聊天服务器可以共存，但不会在这些服务器之间共享内容（例如，聊天室等）。</span><span class="sxs-lookup"><span data-stu-id="b5985-105">Group Chat Server and Persistent Chat Server can coexist, but content (for example, chat rooms, etc.) is not shared across these servers.</span></span> <span data-ttu-id="b5985-106">若要从持久聊天服务器访问旧版组聊天服务器内容，您必须将组聊天服务器迁移到持久聊天服务器。</span><span class="sxs-lookup"><span data-stu-id="b5985-106">To access the legacy Group Chat Server content from Persistent Chat Server, you must migrate the Group Chat Server to Persistent Chat Server.</span></span> <span data-ttu-id="b5985-107">有关迁移到持久聊天服务器的详细信息，请参阅迁移文档中的[从 Lync server 2010、组聊天或 Office 通信服务器 2007 R2 组聊天到 Lync server 2013 的持久聊天服务器](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)。</span><span class="sxs-lookup"><span data-stu-id="b5985-107">For details on migrating to Persistent Chat Server, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in the Migration documentation.</span></span>
 
 </div>
 

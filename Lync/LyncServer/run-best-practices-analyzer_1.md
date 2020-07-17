@@ -25,7 +25,7 @@ ms.locfileid: "44755756"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-best-practices-analyzer"></a><span data-ttu-id="9b27f-102">运行最佳做法分析器</span><span class="sxs-lookup"><span data-stu-id="9b27f-102">Run Best Practices Analyzer</span></span>
+# <a name="run-best-practices-analyzer"></a><span data-ttu-id="f3ec2-102">运行最佳做法分析器</span><span class="sxs-lookup"><span data-stu-id="f3ec2-102">Run Best Practices Analyzer</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "44755756"
 
 <span> </span>
 
-<span data-ttu-id="9b27f-103">_**上次修改的主题：** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="9b27f-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="f3ec2-103">_**上次修改的主题：** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="f3ec2-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="9b27f-104">Office 通信服务器 2007 R2 最佳实践分析工具从 Office 通信服务器 2007 R2 部署中收集配置信息，并根据 Microsoft 最佳实践确定是否设置配置。</span><span class="sxs-lookup"><span data-stu-id="9b27f-104">The Office Communications Server 2007 R2 Best Practices Analyzer tool gathers configuration information from an Office Communications Server 2007 R2 deployment and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="9b27f-105">可以在运行 Microsoft .NET Framework 2.0 的客户端计算机上安装该工具，也可以直接在运行 Office 通信服务器 2007 R2 的服务器上安装该工具。</span><span class="sxs-lookup"><span data-stu-id="9b27f-105">You can install the tool on a client computer that runs Microsoft .NET Framework 2.0, or directly on the server that runs Office Communications Server 2007 R2.</span></span> <span data-ttu-id="9b27f-106">建议在客户端计算机上安装和运行该工具。</span><span class="sxs-lookup"><span data-stu-id="9b27f-106">We recommend that you install and run this tool on a client computer.</span></span> <span data-ttu-id="9b27f-107">此外，还应在客户端计算机上本地安装 Office 通信服务器 2007 R2 管理工具，以便最佳实践分析工具能够收集完整的数据集。</span><span class="sxs-lookup"><span data-stu-id="9b27f-107">The Office Communications Server 2007 R2 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.</span></span>
+<span data-ttu-id="f3ec2-104">Office 通信服务器 2007 R2 最佳实践分析工具从 Office 通信服务器 2007 R2 部署中收集配置信息，并根据 Microsoft 最佳实践确定是否设置配置。</span><span class="sxs-lookup"><span data-stu-id="f3ec2-104">The Office Communications Server 2007 R2 Best Practices Analyzer tool gathers configuration information from an Office Communications Server 2007 R2 deployment and determines whether the configuration is set according to Microsoft best practices.</span></span> <span data-ttu-id="f3ec2-105">可以在运行 Microsoft .NET Framework 2.0 的客户端计算机上安装该工具，也可以直接在运行 Office 通信服务器 2007 R2 的服务器上安装该工具。</span><span class="sxs-lookup"><span data-stu-id="f3ec2-105">You can install the tool on a client computer that runs Microsoft .NET Framework 2.0, or directly on the server that runs Office Communications Server 2007 R2.</span></span> <span data-ttu-id="f3ec2-106">建议在客户端计算机上安装和运行该工具。</span><span class="sxs-lookup"><span data-stu-id="f3ec2-106">We recommend that you install and run this tool on a client computer.</span></span> <span data-ttu-id="f3ec2-107">此外，还应在客户端计算机上本地安装 Office 通信服务器 2007 R2 管理工具，以便最佳实践分析工具能够收集完整的数据集。</span><span class="sxs-lookup"><span data-stu-id="f3ec2-107">The Office Communications Server 2007 R2 Administrative Tools should also be installed locally on the client computer so that the Best Practices Analyzer can collect a full set of data.</span></span>
 
-<span data-ttu-id="9b27f-108">您可以从 Microsoft 下载中心下载 Office 通信服务器 2007 R2 最佳实践分析工具 [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702) 。</span><span class="sxs-lookup"><span data-stu-id="9b27f-108">You can download the Office Communications Server 2007 R2 Best Practices Analyzer from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702).</span></span>
+<span data-ttu-id="f3ec2-108">您可以从 Microsoft 下载中心下载 Office 通信服务器 2007 R2 最佳实践分析工具 [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702) 。</span><span class="sxs-lookup"><span data-stu-id="f3ec2-108">You can download the Office Communications Server 2007 R2 Best Practices Analyzer from the Microsoft Download Center at [https://go.microsoft.com/fwlink/p/?LinkId=268702](https://go.microsoft.com/fwlink/p/?linkid=268702).</span></span>
 
 </div>
 

@@ -25,7 +25,7 @@ ms.locfileid: "44756853"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a><span data-ttu-id="c9f82-102">设置</span><span class="sxs-lookup"><span data-stu-id="c9f82-102">Setup</span></span>
+# <a name="setup"></a><span data-ttu-id="7a627-102">设置</span><span class="sxs-lookup"><span data-stu-id="7a627-102">Setup</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "44756853"
 
 <span> </span>
 
-<span data-ttu-id="c9f82-103">_**上次修改的主题：** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="c9f82-103">_**Topic Last Modified:** 2014-04-22_</span></span>
+<span data-ttu-id="7a627-103">_**上次修改的主题：** 2014-04-22_</span><span class="sxs-lookup"><span data-stu-id="7a627-103">_**Topic Last Modified:** 2014-04-22_</span></span>
 
-<span data-ttu-id="c9f82-104">若要安装作为 Lync Server 2013 压力和性能工具的一部分提供的工具，请按照以下说明操作。</span><span class="sxs-lookup"><span data-stu-id="c9f82-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
+<span data-ttu-id="7a627-104">若要安装作为 Lync Server 2013 压力和性能工具的一部分提供的工具，请按照以下说明操作。</span><span class="sxs-lookup"><span data-stu-id="7a627-104">To install the tools provided as part of Lync Server 2013 Stress and Performance Tool, follow these instructions.</span></span>
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="c9f82-105">安装压力和性能工具</span><span class="sxs-lookup"><span data-stu-id="c9f82-105">Installing the Stress and Performance Tool</span></span>
+## <a name="installing-the-stress-and-performance-tool"></a><span data-ttu-id="7a627-105">安装压力和性能工具</span><span class="sxs-lookup"><span data-stu-id="7a627-105">Installing the Stress and Performance Tool</span></span>
 
-<span data-ttu-id="c9f82-106">在将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件**CapacityPlanningTool.msi**。</span><span class="sxs-lookup"><span data-stu-id="c9f82-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="c9f82-107">这些客户端计算机不得运行任何 Lync Server 组件。</span><span class="sxs-lookup"><span data-stu-id="c9f82-107">These client computers must not be running any Lync Server components.</span></span>
+<span data-ttu-id="7a627-106">在将用于模拟用户流量的每台客户端计算机上运行 Windows Installer 文件**CapacityPlanningTool.msi**。</span><span class="sxs-lookup"><span data-stu-id="7a627-106">Run the Windows Installer file, **CapacityPlanningTool.msi**, on each client computer that you will be using to simulate user traffic.</span></span> <span data-ttu-id="7a627-107">这些客户端计算机不得运行任何 Lync Server 组件。</span><span class="sxs-lookup"><span data-stu-id="7a627-107">These client computers must not be running any Lync Server components.</span></span>
 
 </div>
 

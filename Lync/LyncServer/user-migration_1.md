@@ -25,7 +25,7 @@ ms.locfileid: "44755636"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a><span data-ttu-id="aee59-102">用户迁移</span><span class="sxs-lookup"><span data-stu-id="aee59-102">User migration</span></span>
+# <a name="user-migration"></a><span data-ttu-id="29d77-102">用户迁移</span><span class="sxs-lookup"><span data-stu-id="29d77-102">User migration</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "44755636"
 
 <span> </span>
 
-<span data-ttu-id="aee59-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="aee59-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="29d77-103">_**上次修改的主题：** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="29d77-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="aee59-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span><span class="sxs-lookup"><span data-stu-id="aee59-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span></span> <span data-ttu-id="aee59-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span><span class="sxs-lookup"><span data-stu-id="aee59-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span></span> <span data-ttu-id="aee59-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span><span class="sxs-lookup"><span data-stu-id="aee59-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
+<span data-ttu-id="29d77-p101">一种普遍认可的迁移最佳做法是，创建几个测试用户，然后使用这些用户执行系统测试。在成功移动并测试这些帐户之后，应确定一组试生产用户，移动这些用户的帐户，然后对其执行验证测试。如果获得的结果令人满意，则可以将其余的用户移动到新部署。</span><span class="sxs-lookup"><span data-stu-id="29d77-p101">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
 
 </div>
 

@@ -25,7 +25,7 @@ ms.locfileid: "44755706"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-cmdlets"></a><span data-ttu-id="b5d41-102">Skype for Business Online cmdlet</span><span class="sxs-lookup"><span data-stu-id="b5d41-102">The Skype for Business Online cmdlets</span></span>
+# <a name="the-skype-for-business-online-cmdlets"></a><span data-ttu-id="fe547-102">Skype for Business Online cmdlet</span><span class="sxs-lookup"><span data-stu-id="fe547-102">The Skype for Business Online cmdlets</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "44755706"
 
 <span> </span>
 
-<span data-ttu-id="b5d41-103">_**上次修改的主题：** 2013-07-05_</span><span class="sxs-lookup"><span data-stu-id="b5d41-103">_**Topic Last Modified:** 2013-07-05_</span></span>
+<span data-ttu-id="fe547-103">_**上次修改的主题：** 2013-07-05_</span><span class="sxs-lookup"><span data-stu-id="fe547-103">_**Topic Last Modified:** 2013-07-05_</span></span>
 
-<span data-ttu-id="b5d41-104">当您使用 Windows PowerShell 连接到 Skype for business Online 时，会将 Skype for business Online cmdlet 的集合复制到计算机上的内存中。</span><span class="sxs-lookup"><span data-stu-id="b5d41-104">When you connect to Skype for Business Online by using Windows PowerShell, a collection of Skype for Business Online cmdlets is copied, in memory, to your computer.</span></span> <span data-ttu-id="b5d41-105">此外，除了在本地计算机上已有的任何其他 cmdlet （包括安装 Windows PowerShell 时安装的核心 cmdlet）外，这些 cmdlet 都可用于管理 Skype for business Online 部署和 Skype for business Online 用户帐户。</span><span class="sxs-lookup"><span data-stu-id="b5d41-105">These cmdlets, in addition to any other cmdlets you already have on your local computer (including the core cmdlets that are installed when you install Windows PowerShell), are then available for managing your Skype for Business Online deployment and your Skype for Business Online user accounts.</span></span> <span data-ttu-id="b5d41-106">Skype for Business Online cmdlet 将在以下主题中引入：</span><span class="sxs-lookup"><span data-stu-id="b5d41-106">The Skype for Business Online cmdlets are introduced in the following topics:</span></span>
+<span data-ttu-id="fe547-104">当您使用 Windows PowerShell 连接到 Skype for business Online 时，会将 Skype for business Online cmdlet 的集合复制到计算机上的内存中。</span><span class="sxs-lookup"><span data-stu-id="fe547-104">When you connect to Skype for Business Online by using Windows PowerShell, a collection of Skype for Business Online cmdlets is copied, in memory, to your computer.</span></span> <span data-ttu-id="fe547-105">此外，除了在本地计算机上已有的任何其他 cmdlet （包括安装 Windows PowerShell 时安装的核心 cmdlet）外，这些 cmdlet 都可用于管理 Skype for business Online 部署和 Skype for business Online 用户帐户。</span><span class="sxs-lookup"><span data-stu-id="fe547-105">These cmdlets, in addition to any other cmdlets you already have on your local computer (including the core cmdlets that are installed when you install Windows PowerShell), are then available for managing your Skype for Business Online deployment and your Skype for Business Online user accounts.</span></span> <span data-ttu-id="fe547-106">Skype for Business Online cmdlet 将在以下主题中引入：</span><span class="sxs-lookup"><span data-stu-id="fe547-106">The Skype for Business Online cmdlets are introduced in the following topics:</span></span>
 
-  - [<span data-ttu-id="b5d41-107">管理 Skype for Business Online 租户</span><span class="sxs-lookup"><span data-stu-id="b5d41-107">Managing Skype for Business Online tenants</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
+  - [<span data-ttu-id="fe547-107">管理 Skype for Business Online 租户</span><span class="sxs-lookup"><span data-stu-id="fe547-107">Managing Skype for Business Online tenants</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-skype-for-business-online-organizations)
 
-  - [<span data-ttu-id="b5d41-108">在 Skype for Business Online 中管理用户和用户帐户属性</span><span class="sxs-lookup"><span data-stu-id="b5d41-108">Managing users and user account properties in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
+  - [<span data-ttu-id="fe547-108">在 Skype for Business Online 中管理用户和用户帐户属性</span><span class="sxs-lookup"><span data-stu-id="fe547-108">Managing users and user account properties in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/manage/user-accounts/user-accounts)
 
-  - [<span data-ttu-id="b5d41-109">管理 Skype for Business Online 中的策略</span><span class="sxs-lookup"><span data-stu-id="b5d41-109">Managing policies in Skype for Business Online</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-policies-with-office-365-powershell)
+  - [<span data-ttu-id="fe547-109">管理 Skype for Business Online 中的策略</span><span class="sxs-lookup"><span data-stu-id="fe547-109">Managing policies in Skype for Business Online</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-policies-with-office-365-powershell)
 
-  - [<span data-ttu-id="b5d41-110">从 Skype for business Online 管理 Skype for business 客户端</span><span class="sxs-lookup"><span data-stu-id="b5d41-110">Managing the Skype for Business client from Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
+  - [<span data-ttu-id="fe547-110">从 Skype for business Online 管理 Skype for business 客户端</span><span class="sxs-lookup"><span data-stu-id="fe547-110">Managing the Skype for Business client from Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 
-  - [<span data-ttu-id="b5d41-111">在 Skype for Business Online 中管理 Exchange 统一消息和托管语音邮件</span><span class="sxs-lookup"><span data-stu-id="b5d41-111">Managing Exchange Unified Messaging and hosted voice mail in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail)
+  - [<span data-ttu-id="fe547-111">在 Skype for Business Online 中管理 Exchange 统一消息和托管语音邮件</span><span class="sxs-lookup"><span data-stu-id="fe547-111">Managing Exchange Unified Messaging and hosted voice mail in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/manage-exchange-unified-messaging-and-hosted-voicemail)
 
-  - [<span data-ttu-id="b5d41-112">管理外部用户和组织在 Skype for business Online 中的通信</span><span class="sxs-lookup"><span data-stu-id="b5d41-112">Managing communications in Skype for Business Online with outside users and organizations</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
+  - [<span data-ttu-id="fe547-112">管理外部用户和组织在 Skype for business Online 中的通信</span><span class="sxs-lookup"><span data-stu-id="fe547-112">Managing communications in Skype for Business Online with outside users and organizations</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users)
 
-  - [<span data-ttu-id="b5d41-113">管理 Skype for Business Online 会议和会议</span><span class="sxs-lookup"><span data-stu-id="b5d41-113">Managing Skype for Business Online meetings and conferences</span></span>](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
+  - [<span data-ttu-id="fe547-113">管理 Skype for Business Online 会议和会议</span><span class="sxs-lookup"><span data-stu-id="fe547-113">Managing Skype for Business Online meetings and conferences</span></span>](https://docs.microsoft.com/skypeforbusiness/manage/conferencing/conferencing-policies)
 
-  - [<span data-ttu-id="b5d41-114">在 Skype for Business Online 中管理手机和移动设备</span><span class="sxs-lookup"><span data-stu-id="b5d41-114">Managing cell phones and mobile devices in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
+  - [<span data-ttu-id="fe547-114">在 Skype for Business Online 中管理手机和移动设备</span><span class="sxs-lookup"><span data-stu-id="fe547-114">Managing cell phones and mobile devices in Skype for Business Online</span></span>](https://docs.microsoft.com/skypeforbusiness/set-up-policies-in-your-organization/set-up-mobile-policies-for-your-organization)
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b5d41-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b5d41-115">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fe547-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="fe547-115">See Also</span></span>
 
 
-[<span data-ttu-id="b5d41-116">快速参考：使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务</span><span class="sxs-lookup"><span data-stu-id="b5d41-116">Quick reference: Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
+[<span data-ttu-id="fe547-116">快速参考：使用 Windows PowerShell 执行常见的 Skype for Business Online 管理任务</span><span class="sxs-lookup"><span data-stu-id="fe547-116">Quick reference: Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)  
   
 
 </div>

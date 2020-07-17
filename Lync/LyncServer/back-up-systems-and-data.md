@@ -26,7 +26,7 @@ ms.locfileid: "44755364"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-up-systems-and-data"></a><span data-ttu-id="463e1-102">备份系统和数据</span><span class="sxs-lookup"><span data-stu-id="463e1-102">Back up systems and data</span></span>
+# <a name="back-up-systems-and-data"></a><span data-ttu-id="920b9-102">备份系统和数据</span><span class="sxs-lookup"><span data-stu-id="920b9-102">Back up systems and data</span></span>
 
 </div>
 
@@ -36,11 +36,11 @@ ms.locfileid: "44755364"
 
 <span> </span>
 
-<span data-ttu-id="463e1-103">_**上次修改的主题：** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="463e1-103">_**Topic Last Modified:** 2012-09-18_</span></span>
+<span data-ttu-id="920b9-103">_**上次修改的主题：** 2012-09-18_</span><span class="sxs-lookup"><span data-stu-id="920b9-103">_**Topic Last Modified:** 2012-09-18_</span></span>
 
-<span data-ttu-id="463e1-104">在开始迁移到 Lync Server 2013 之前，强烈建议您执行完整的系统备份并记录现有系统，包括驻留在每个池中的用户帐户的清单，以便您可以在需要时回滚到 Lync Server 2010。</span><span class="sxs-lookup"><span data-stu-id="463e1-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="463e1-105">可以使用多种工具和程序来备份和还原数据、设置和系统。</span><span class="sxs-lookup"><span data-stu-id="463e1-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
+<span data-ttu-id="920b9-104">在开始迁移到 Lync Server 2013 之前，强烈建议您执行完整的系统备份并记录现有系统，包括驻留在每个池中的用户帐户的清单，以便您可以在需要时回滚到 Lync Server 2010。</span><span class="sxs-lookup"><span data-stu-id="920b9-104">Before you begin the migration to Lync Server 2013, we strongly recommend that you perform a full system backup and document your existing system, including an inventory of user accounts that are homed on each pool, so that you can roll back to Lync Server 2010 if it becomes necessary.</span></span> <span data-ttu-id="920b9-105">可以使用多种工具和程序来备份和还原数据、设置和系统。</span><span class="sxs-lookup"><span data-stu-id="920b9-105">Multiple tools and programs are available for backing up and restoring data, settings, and systems.</span></span>
 
-<span data-ttu-id="463e1-106">有关详细信息和过程，请参阅[备份和还原 Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) 。</span><span class="sxs-lookup"><span data-stu-id="463e1-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
+<span data-ttu-id="920b9-106">有关详细信息和过程，请参阅[备份和还原 Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) 。</span><span class="sxs-lookup"><span data-stu-id="920b9-106">For details and procedures, see [Backing Up and Restoring Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkid=265417) .</span></span>
 
 </div>
 

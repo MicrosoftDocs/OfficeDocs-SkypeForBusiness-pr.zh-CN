@@ -25,7 +25,7 @@ ms.locfileid: "44756521"
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-administration-tools"></a><span data-ttu-id="404dd-102">安装 Lync Server 管理工具</span><span class="sxs-lookup"><span data-stu-id="404dd-102">Install Lync Server administration tools</span></span>
+# <a name="install-lync-server-administration-tools"></a><span data-ttu-id="bc436-102">安装 Lync Server 管理工具</span><span class="sxs-lookup"><span data-stu-id="bc436-102">Install Lync Server administration tools</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "44756521"
 
 <span> </span>
 
-<span data-ttu-id="404dd-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="404dd-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="bc436-103">_**上次修改的主题：** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="bc436-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="404dd-104">本主题介绍如何安装您需要用于部署和管理 Lync Server 2013 的管理工具。</span><span class="sxs-lookup"><span data-stu-id="404dd-104">This topic describes how to install the administrative tools you need to use to deploy and manage Lync Server 2013.</span></span> <span data-ttu-id="404dd-105">您也可以将管理工具安装在其他计算机上，例如专用的管理控制台。</span><span class="sxs-lookup"><span data-stu-id="404dd-105">You can also install the administrative tools on other computers, such as dedicated administrative consoles.</span></span>
+<span data-ttu-id="bc436-104">本主题介绍如何安装您需要用于部署和管理 Lync Server 2013 的管理工具。</span><span class="sxs-lookup"><span data-stu-id="bc436-104">This topic describes how to install the administrative tools you need to use to deploy and manage Lync Server 2013.</span></span> <span data-ttu-id="bc436-105">您也可以将管理工具安装在其他计算机上，例如专用的管理控制台。</span><span class="sxs-lookup"><span data-stu-id="bc436-105">You can also install the administrative tools on other computers, such as dedicated administrative consoles.</span></span>
 
 <div>
 
-## <a name="to-install-the-lync-server-2013-administrative-tools"></a><span data-ttu-id="404dd-106">安装 Lync Server 2013 管理工具</span><span class="sxs-lookup"><span data-stu-id="404dd-106">To install the Lync Server 2013 administrative tools</span></span>
+## <a name="to-install-the-lync-server-2013-administrative-tools"></a><span data-ttu-id="bc436-106">安装 Lync Server 2013 管理工具</span><span class="sxs-lookup"><span data-stu-id="bc436-106">To install the Lync Server 2013 administrative tools</span></span>
 
-1.  <span data-ttu-id="404dd-107">在 Lync Server 2013 前端服务器上，运行 Lync Server 2013 安装程序。</span><span class="sxs-lookup"><span data-stu-id="404dd-107">On the Lync Server 2013 Front End Server, run Lync Server 2013 Setup.</span></span>
+1.  <span data-ttu-id="bc436-107">在 Lync Server 2013 前端服务器上，运行 Lync Server 2013 安装程序。</span><span class="sxs-lookup"><span data-stu-id="bc436-107">On the Lync Server 2013 Front End Server, run Lync Server 2013 Setup.</span></span>
 
-2.  <span data-ttu-id="404dd-108">在 "Lync Server 2013 部署向导" 页上，选择 "**安装管理工具**"</span><span class="sxs-lookup"><span data-stu-id="404dd-108">From the Lync Server 2013 Deployment Wizard page, select **Install Administrative Tools**</span></span>
+2.  <span data-ttu-id="bc436-108">在 "Lync Server 2013 部署向导" 页上，选择 "**安装管理工具**"</span><span class="sxs-lookup"><span data-stu-id="bc436-108">From the Lync Server 2013 Deployment Wizard page, select **Install Administrative Tools**</span></span>
     
-    <span data-ttu-id="404dd-109">![Lync Server 2013 部署向导，欢迎页面](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 部署向导，欢迎页面")</span><span class="sxs-lookup"><span data-stu-id="404dd-109">![Lync Server 2013 Deployment Wizard, Welcome page](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 Deployment Wizard, Welcome page")</span></span>
+    <span data-ttu-id="bc436-109">![Lync Server 2013 部署向导，欢迎页面](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 部署向导，欢迎页面")</span><span class="sxs-lookup"><span data-stu-id="bc436-109">![Lync Server 2013 Deployment Wizard, Welcome page](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013 Deployment Wizard, Welcome page")</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="404dd-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="404dd-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bc436-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bc436-110">See Also</span></span>
 
 
-[<span data-ttu-id="404dd-111">Lync Server 2013 管理工具</span><span class="sxs-lookup"><span data-stu-id="404dd-111">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
+[<span data-ttu-id="bc436-111">Lync Server 2013 管理工具</span><span class="sxs-lookup"><span data-stu-id="bc436-111">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
   
 
 </div>
