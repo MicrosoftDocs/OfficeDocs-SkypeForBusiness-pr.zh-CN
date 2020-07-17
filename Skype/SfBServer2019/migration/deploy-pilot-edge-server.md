@@ -23,7 +23,7 @@ ms.locfileid: "44752864"
 本主题重点介绍了在部署 Skype for Business Server 2019 边缘服务器之前应注意的配置设置。 Skype for business Server 2019 的部署和配置过程与 Skype for business Server 2015 非常相似。 本节仅重点介绍了应作为试点池部署的一部分考虑的关键点。 <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
-As you navigate through the **Define New Edge Pool** wizard, review the key configuration settings shown in the following steps. Note that only a few pages of the **Define New Edge Pool** wizard are shown. 
+在“定义新的边缘池”**** 向导中导航时，查看以下步骤中显示的关键配置设置。请注意，仅显示了“定义新的边缘池”**** 向导的部分页面。 
   
 ### <a name="to-define-an-edge-pool"></a>定义边缘池
 

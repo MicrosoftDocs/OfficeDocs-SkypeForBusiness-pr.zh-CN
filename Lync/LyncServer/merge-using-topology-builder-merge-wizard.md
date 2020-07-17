@@ -47,13 +47,13 @@ _**上次修改的主题：** 2012-10-02_
     
     ![合并拓扑向导中，指定 "边缘设置" 页](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "合并拓扑向导中，指定 "边缘设置" 页")  
 
-5.  In **Specify Edge Type**, enter the type of Edge Server configuration, and then click **Next**. This example uses the **Single Edge Server** option.
+5.  在“指定边缘类型”**** 中，输入边缘服务器配置的类型，然后单击“下一步”****。此示例使用“单个边缘服务器”**** 选项。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > <STRONG>Expanded Edge deployment</STRONG> is not a supported configuration. An <STRONG>Expanded Edge Server</STRONG> must first be converted to a <STRONG>Single Edge Server</STRONG> or a <STRONG>Load-balanced consolidated Edge</STRONG> Server.
+    > “扩展边缘部署”<STRONG></STRONG>不是支持的配置。必须先将“扩展边缘服务器”<STRONG></STRONG>转换为“单个边缘服务器”<STRONG></STRONG>或“负载平衡合并边缘”<STRONG></STRONG>服务器。
 
     
     </div>
@@ -68,7 +68,7 @@ _**上次修改的主题：** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > Before you click <STRONG>Next</STRONG>, do the next step in this procedure. It is very important that you do not miss this step.
+    > 在单击“下一步”<STRONG></STRONG>之前，先执行该过程的下一步。请务必不要错过此步骤，这一点非常重要。
 
     
     </div>

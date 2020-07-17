@@ -47,7 +47,7 @@ _**上次修改的主题：** 2012-10-09_
 
 **分组的通讯簿条目**
 
-If you set the **PartitionbyOU** WMI property to True to create address books for each OU, you need to set the **msRTCSIP-GroupingId** Active Directory attribute on users and contacts if you want to continue grouping address book entries. You might want to group address book entries to limit the scope of Address Book searches. To use the **msRTCSIP-GroupingId** attribute, write a script to populate the attribute, assigning the same value for all of the users that you want to group together. For example, assign a single value for all the users in an OU.
+如果将 **PartitionbyOU** WMI 属性设置为 True 以针对每个 OU 创建通讯簿，并且您希望继续对通讯簿条目分组，则需要设置用户和联系人的 **msRTCSIP-GroupingId** Active Directory 属性。您可能希望对通讯簿条目分组以限制通讯簿的搜索范围。要使用 **msRTCSIP-GroupingId** 属性，请编写用于填充该属性的脚本，向您希望组合在一起的所有用户分配相同的值。例如，向一个 OU 中的所有用户分配一个值。
 
 **通讯簿规范化规则**
 
@@ -57,7 +57,7 @@ If you set the **PartitionbyOU** WMI property to True to create address books fo
 
 
 > [!NOTE]  
-> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights.
+> 如果您的组织使用远程呼叫控制并且您自定义了通讯簿规范化规则，则必须首先执行本主题中的过程，然后才能使用远程呼叫控制。要执行该过程，需要具有 RTCUniversalServerAdmins 组成员的身份或同等权限。
 
 
 
@@ -86,7 +86,7 @@ If you set the **PartitionbyOU** WMI property to True to create address books fo
 
 3.  在 Lync Server 2013 中，某些类型的条目将无法正常工作。 请在文件中查找该步骤中所述的这些条目类型，根据需要编辑它们，并将更改保存到试点池中的通讯簿共享文件夹。
     
-    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
+    包含必要空格或标点的字符串会导致规范化规则失败，因为系统会将这些字符从输入到规范化规则的字符串中删除。如果您有包含必要空格或标点的字符串，则需要修改这些字符串。例如，以下字符串将导致规范化规则失败：
     
         \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
     

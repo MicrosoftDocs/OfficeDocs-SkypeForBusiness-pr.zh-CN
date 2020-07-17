@@ -98,7 +98,7 @@ ms.locfileid: "45098430"
   
 如果您需要部署两台前端服务器的池，请遵循以下准则：
   
-- If one of the two Front End Servers goes down, you should try to bring the failed server back up as soon as you can. Similarly, if you need to upgrade one of the two servers, bring it back online as soon as the upgrade is finished.
+- 如果两个前端服务器之一停机，您应尝试将该失败的服务器尽快恢复运行。同样，如果需要升级两台服务器之一，升级完成后将其尽快联机。
     
 - 如果因某些原因需要将两台服务器同时停机，当该池停机后执行下列操作：
     

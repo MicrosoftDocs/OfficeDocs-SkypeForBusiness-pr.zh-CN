@@ -61,7 +61,7 @@ Teams 通过运行 Azure DDOS 网络保护，以及限制来自相同端点、�
 
 ### <a name="eavesdropping"></a>窃听
 
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path.
+在攻击者获取对网络中数据路径的访问权并能够监控和读取流量内容时，会发生窃听。窃听也称为监听或窥探。如果流量内容采用纯文本形式，则攻击者在获取路径的访问权之后即可读取流量内容。例如，通过控制数据路径上的路由器进行攻击。
 
 Teams 使用相互 TLS (MTLS) 来处理 Microsoft 365 和 Office 365 内部的服务器通信，并使用 TLS 来处理从客户端到服务的通信，这样这种攻击在给定对话可能受到攻击的时间段内就很难甚至不可能实现。 TLS 可对各方执行身份验证，并对所有流量内容进行加密。 这样不能阻止窃听，但攻击者不能读取流量内容，除非破坏加密。
 

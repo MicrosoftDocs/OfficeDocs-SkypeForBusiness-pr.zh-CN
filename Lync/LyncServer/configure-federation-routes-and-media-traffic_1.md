@@ -87,11 +87,11 @@ ms.locfileid: "44754958"
     
     ![拓扑生成器指定外部边缘页面](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "拓扑生成器指定外部边缘页面")
 
-5.  In **Specify External Edge**, clear the **This Edge pool is used for federation and public IM connectivity** check box. This will remove the federation association with the BackCompatSite.
+5.  在“指定外部边缘”**** 中，清除“此边缘池用于联盟和公共 IM 连接”**** 复选框。这将删除与 BackCompatSite 的联盟关联。
     
 
     > [!IMPORTANT]  
-    > This step is important. You must clear this option to remove the legacy federation association.
+    > 此步骤非常重要。必须清除该选项才能删除旧联盟关联。
 
 
 
@@ -123,7 +123,7 @@ ms.locfileid: "44754958"
 
 1.  在 Office 通信服务器 2007 R2 Standard Edition server 或前端服务器上，打开 Office 通信服务器 2007 R2 管理工具。
 
-2.  In the left pane, expand the top node, and then right-click the **Forest** node. Select **Properties**, and then click **Global Properties**.
+2.  在左窗格中，展开顶层节点，然后右键单击“林”**** 节点。选择“属性”****，然后单击“全局属性”****。
 
 3.  单击“联盟”**** 选项卡。
 
@@ -217,7 +217,7 @@ ms.locfileid: "44754958"
     
 
     > [!NOTE]  
-    > If you do not have a hardware load balancer, you need to update the DNS A record for federation to resolve the new Lync Server Access Edge server. To accomplish this with minimum disruption, reduce the TTL value for the external Lync Server Access Edge FQDN so that when DNS is updated to point to the new Lync Server Access Edge server, federation and remote access will be updated quickly.
+    > 如果您没有硬件负载平衡器，则需要更新联盟的 DNS A 记录来解决新的 Lync Server 访问边缘服务器。要以最少的中断完成此操作，请减少外部 Lync Server Access Edge FQDN 的 TTL 值，以便更新 DNS 来指向新 Lync Server 访问边缘服务器时，将迅速更新联盟和远程访问。
 
 
 

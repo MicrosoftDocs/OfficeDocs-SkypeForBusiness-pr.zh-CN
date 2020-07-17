@@ -53,7 +53,7 @@ _**上次修改的主题：** 2012-10-19_
     
 
     > [!IMPORTANT]  
-    > Be aware that these newly created items may conflict with legacy items that you migrate. Avoid any naming conflicts; otherwise, they will be overwritten when the legacy data is migrated.
+    > 注意这些新创建的项可能与您迁移的旧项冲突。应避免任何命名冲突；否则，在迁移旧数据时将覆盖新创建的项。
 
     
     </div>
@@ -92,9 +92,9 @@ _**上次修改的主题：** 2012-10-19_
     
     1.  持久聊天服务器支持单个级别的类别，不同类别的深度分层集。 迁移后，子类别将带有完整父类别名称的前缀。 您最好简化并平整现有类别结构，以便生成的结构满足您的要求。
     
-    2.  Verify the **Managers** at the root Category. If any Managers exist at this level, these users will be added as **Managers to all rooms** after migration. If this is not a requirement for your organization, you need to remove these Managers from the root Category.
+    2.  验证根类别是否存在**管理员**。如果此级别存在管理员，则这些用户在迁移后将被添加为**所有聊天室的管理员**。如果这不是组织的要求，则需要从根类别中删除这些管理员。
     
-    3.  Verify the length of room names. After migration, due to simplified category structures, if the rooms exist under a child category, they are prefixed with full parent category names. The naming limit is 256 characters, including parent category names. You must verify the length of the room names and possibly shorten the length, if they are too long.
+    3.  验证聊天室名称的长度。迁移后，由于类别结构简化，如果某个子类别下存在聊天室，这些聊天室将带有完整父类别名称的前缀。命名限制为 256 个字符，其中包括父类别名称。您必须验证聊天室名称的长度，并可在名称过长时缩短其长度。
     
     4.  在 Lync Server 2013 中，如果将 "类别**邀请**设置" 设置为 "true"，则可以选择 "真" 或 "假" 来邀请到该类别下的会议室。 但是如果类别邀请设置为 false，则该类别下的聊天室将关闭邀请。 在迁移之前，如果您希望会议室在特定类别下存在，则必须重置旧版 Lync Server 组聊天服务器版本中的邀请设置。 否则，在迁移过程中，Lync Server 2013 将显示警告，并将聊天室设置为默认值 false。
     
@@ -104,7 +104,7 @@ _**上次修改的主题：** 2012-10-19_
     
     7.  标识不想迁移的聊天室，并将它们标记为禁用。
     
-    8.  Identify the date beyond which you want to migrate the chat room content. For example, you may not want to migrate messages earlier than January 1, 2010, because these messages may be obsolete or not relevant for migration.
+    8.  标识您不想迁移的聊天室内容的截至日期。例如，您可能不想迁移 2010 年 1 月 1 日以前的消息，因为这些消息可能已作废或与迁移不相关。
 
 </div>
 

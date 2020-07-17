@@ -54,7 +54,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 |OC 电话（Skype for Business IP 电话） |OC（Skype for Business 客户端） |OC（Skype for Business 客户端） |OC 电话（Skype for Business IP 电话） |否 |
 
 > [!NOTE]
-> That First and Second classification is separate from which endpoint is the caller or callee. The First Is Caller dimension can be used to help identify which endpoint was the caller or callee.
+> [!注释] 第一和第二分类与终结点是呼叫方还是被叫方无关。"第一是呼叫方"维度可以用来帮助确定哪个终结点是呼叫方或被叫方。
 
 ## <a name="dimensions"></a>维度
 
@@ -130,7 +130,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 |**Stream**| | | |
 | QoE Record Available  | 布尔值  | 如果为通话/会话提供至少一个用户体验质量报告，则为 True。 只有当 QoE 记录可用时，许多维度和测量才可用。 如果呼叫设置失败，QoE 记录将不可用。    |   |
 | CDR Record Available  | Boolean  | 如果为通话/会话提供至少一个呼叫详细记录，则为 True。     | |
-| Media Line Label  | 整型  | Label in SDP for media line. Use Media Type to determine if label is used for video, audio, app sharing, or video based screen sharing. <br/> **示例值：** 0  | &bull;终结点未报告此数据。  |
+| Media Line Label  | 整型  | SDP 中用于媒体行的标签。使用"媒体类型"来确定是否为视频、音频、应用共享或基于视频的屏幕共享使用标签。<br/> **示例值：** 0  | &bull;终结点未报告此数据。  |
 | Media Type  | 字符串  | 媒体的类型（视频、音频、应用共享或基于视频的屏幕共享）。 <br/> **示例值：** 视听 |  |
 |媒体行标签文本 | String |与流相对应的媒体行的会话描述协议（SDP）标签属性。 有关详细信息，请参阅[RFC 4574](https://tools.ietf.org/html/rfc4574) 。 <br/> **示例值**： <br/> 主音频<br/> 主视频<br/> main-video1<br/> main-video2<br/> main-video3<br/> main-video4<br/> main-video5<br/> main-video6<br/> main-video7<br/> main-video8<br/> main-video9<br/> 全景视频<br/> applicationsharing-视频<br/> 数据   | |
 | First Is Server  | 枚举 <br/>**可能的值：** <br/>&bull;客户端 <br/>&bull;服务  | 指示第一个终结点是服务器终结点（如会议服务器）（AVMCU、ASMCU）或其他媒体服务器（中介服务器），还是客户端终结点。  **示例值：** 客户端 | |
@@ -144,8 +144,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | Duration 5 seconds or less  | Boolean  | 如果流的持续时间大于或等于5秒，则为 True，否则为 False。   ||
 | Duration 60 seconds or more  | 布尔值  | 如果流的持续时间为60秒，则为 True，否则为 False。   | |
 | 团队  | Boolean  | True 表示流的第一或第二用户代理是 Microsoft 团队终结点。 <br/> False 表示用户代理是 Skype for Business 终结点。 |  |
-| Duration (Minutes)  | 范围（分钟）  | Duration of stream in minutes. Values grouped by range. <br/> **示例值：** 065： [3 –4） ||
-| Duration (Seconds)  | 范围（秒） | Duration of stream in seconds. Values grouped by range. <br/> **示例值：** 062： [1-2）||
+| Duration (Minutes)  | 范围（分钟）  | 流的持续时间，以分钟为单位。值按范围分组表示。<br/> **示例值：** 065： [3 –4） ||
+| Duration (Seconds)  | 范围（秒） | 流的持续时间，以秒为单位。值按范围分组表示。<br/> **示例值：** 062： [1-2）||
 |**日期**|||
 |结束时间|  String| 通话结束的时间。|&bull;呼叫设置失败 |
 | Year  | 整型  | 流结尾的年份。 在 UTC 时区中报告值。 <br/> **示例值：** 2018 | |
@@ -171,21 +171,21 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | Second User Agent  | String  | 第二终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （Skype for Business） | &bull;第二终结点未报告用户代理   |
 | Conference Type  | 枚举 <br/>**可能的值：** <br/>&bull;会议： applicationsharing <br/>&bull;会议：音频-视频 <br/>&bull;会议：焦点 | 会议 URI 的类型。  <br/> **示例值：** 会议：音频-视频 | &bull;非会议方案。   |
 | 会议 ID  | String | 与流相关联的会议 ID （或通话 ID）。 在 cqd.teams.microsoft.com 中，所有呼叫都有一个呼叫 ID，无论它们是人到人员（P2P）呼叫还是电话会议。 在 cqd.lync.com 中，此值仅适用于 Skype for business 会议呼叫。  此维度可能有太多行，无法用作报表中的维度。 它可能会转为用作筛选器。  <br/> **示例值（cqd.lync.com）：** 0001P6GK <br/> **示例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
-| First Client App Version  | String  | Version of the application used for the first endpoint. Data is parsed from the user agent string. <br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。   |
-| Second Client App Version  | 字符串  | Version of the application used for the second endpoint. Data is parsed from the user agent string. <br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。 |
+| First Client App Version  | String  | 第一终结点使用的应用程序的版本。数据从用户代理字符串解析。<br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。   |
+| Second Client App Version  | 字符串  | 第二终结点使用的应用程序的版本。数据从用户代理字符串解析。<br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。 |
 |会议 Id （在 cqd.teams.microsoft.com 中） <br/> 会议 ID （在 cqd.lync.com 中） |String |会议的标识符，在创建会议时生成。 <br/> **示例值（Skype For business）：** 0001P6GK  <br/> **示例值（团队）：** 19： meeting_MzB .。。zIw@thread v2| |
 |**网络**||| 
 | Transport  | 枚举 <br/>**可能的值：** <br/>&bull;UDP <br/>&bull;TCP-OUT <br/>&bull;辨识  | 流使用的网络传输类型。  "无法识别" 表示系统无法确定传输类型是 TCP 还是 UDP。  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径  |
 | First Connectivity Ice  | 枚举 <br/>**可能的值：** <br/>&bull;直接 = 直接网络路径 <br/>&bull;中继 = 通过中继 <br/>&bull;HTTP = 通过 HTTP 代理 <br/>&bull;失败 = 连接失败 | 第一终结点使用的 ICE 连接类型。  |&bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 | Second Connectivity Ice  | 枚举 <br/>**可能的值：** <br/>&bull;直接 = 直接网络路径 <br/>&bull;中继 = 通过中继 <br/>&bull;HTTP = 通过 HTTP 代理 <br/>&bull;失败 = 连接失败  | 第二终结点使用的 ICE 连接类型。    | &bull;未报告传输类型 <br/>&bull;未建立媒体路径    |
-| First IP Address  | String  | IP address for first endpoint. Note this dimension may have too many rows to be used as dimension in a report. It can be used as a filter instead. <br/> **示例值：** 10.0.0.10  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
+| First IP Address  | String  | 第一终结点的 IP 地址。请注意，此维度可能包含过多的行，导致无法用作报告中的一个维度。它可能会转为用作筛选器。<br/> **示例值：** 10.0.0.10  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 | Second IP Address  | String  | 第二终结点的 IP 地址。 <br/> **注意：** 此维度可能有太多行，无法用作报表中的维度。 It can be used as a filter instead. <br/> **示例值：** 10.0.0.10  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 | First Link Speed   |整型  | 第一终结点使用的网络适配器报告的链路速度，以"位/秒"为单位。 <br/> **示例值：** 10000000  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 | Second Link Speed   |整型  | 第二终结点使用的网络适配器报告的链路速度，以"位/秒"为单位。 <br/> **示例值：** 10000000 | &bull;未报告传输类型 <br/>&bull;未建立媒体路径    |
 | First Port  | 端口号  | 第一终结点用于媒体的网络端口号。 <br/> **示例值：** 50018  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 | Second Port  | 端口号  | 第二终结点用于媒体的网络端口号。 <br/> **示例值：** 50018 | &bull;未报告传输类型 <br/>&bull;未建立媒体路径    |
-| First Reflexive Local IP  | String  | IP address of first endpoint as seen by the media relay server. This is typically the public internet IP address associated to the first endpoint for the stream. <br/> **示例值：** 104.43.195.251  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
-| Second Reflexive Local IP  | String  | IP address of second endpoint as seen by the media relay server. This is typically the public internet IP address associated to the second endpoint for the stream. <br/> **示例值：** 104.43.195.251  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径  |
+| First Reflexive Local IP  | String  | 媒体中继服务器观察到的第一终结点的 IP 地址。通常是与流的第一终结点关联的公共内部 IP 地址。<br/> **示例值：** 104.43.195.251  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
+| Second Reflexive Local IP  | String  | 媒体中继服务器观察到的第二终结点的 IP 地址。通常是与流的第二终结点关联的公共内部 IP 地址。<br/> **示例值：** 104.43.195.251  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径  |
 | First Relay IP  | String  | 第一终结点分配的媒体中继服务器的 IP 地址。 <br/> **示例值：** 104.43.195.251  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 | Second Relay IP  | String  | 第二终结点分配的媒体中继服务器的 IP 地址。 <br/> **示例值：** 104.43.195.251 | &bull;未报告传输类型 <br/>&bull;未建立媒体路径|
 | First Relay Port  | 整型  | 第一终结点在媒体中继服务器上分配的媒体端口。 <br/> **示例值：** 3478  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
@@ -222,17 +222,17 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第一传输协议 | 枚举字符串 | 第一个终结点用于发送媒体的通信协议。 <br/>**可能值** <br/>&bull;UDP-多用途 UDP 用于转换和主机分配 <br/>&bull;TurnTCP-TCP 车削分配。 如果指定了代理设置，则使用代理 <br/>&bull;TCPHostPassive-TCP 侦听主机套接字以获取被动连接类型 <br/>&bull;TCPHostActive-使用活动连接类型的 TCP 连接 <br/>&bull;CompoundTCP-上游和下游 TCP 连接的组合。 通常通过 HTTPS 协议。 <br/> | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
 | 第二传输协议 | 枚举字符串 | 第二终结点用于发送媒体的通信协议。 <br/>**可能值** <br/>&bull;UDP-多用途 UDP 用于转换和主机分配 <br/>&bull;TurnTCP-TCP 车削分配。 如果指定了代理设置，则使用代理 <br/>&bull;TCPHostPassive-TCP 侦听主机套接字以获取被动连接类型 <br/>&bull;TCPHostActive-使用活动连接类型的 TCP 连接 <br/>&bull;CompoundTCP-上游和下游 TCP 连接的组合。 通常通过 HTTPS 协议。 <br/> | &bull;未报告传输诊断类型 <br/>&bull;未建立媒体路径 |
 |**Device**| |||
-| First Capture Dev  | String  | Name of the capture device used by the first endpoint. For: <br/> **音频流**= 用于麦克风的设备 <br/> **视频流**= 相机使用的设备 <br/> **基于视频的屏幕共享流**= 屏幕 scraper <br/> **应用共享流**= 空白 <br/> **示例值：** 耳机式麦克风（Microsoft LifeChat LX-6000）  | &bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
+| First Capture Dev  | String  | 第一终结点使用的捕获设备的名称。对于：<br/> **音频流**= 用于麦克风的设备 <br/> **视频流**= 相机使用的设备 <br/> **基于视频的屏幕共享流**= 屏幕 scraper <br/> **应用共享流**= 空白 <br/> **示例值：** 耳机式麦克风（Microsoft LifeChat LX-6000）  | &bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
 | Second Capture Dev  | 字符串  | 第二终结点使用的捕获设备的名称。  <br/> **音频流**= 用于麦克风的设备 <br/> **视频流**= 相机使用的设备 <br/> **基于视频的屏幕共享流**= 屏幕 scraper <br/> **应用共享流**= 空白 <br/> **示例值：** 耳机式麦克风（Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享   |
-| First Capture Dev Driver  | String  | Name of the capture device driver used by the first endpoint in the form of "manufacturer : version". For: <br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白  <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
-| Second Capture Dev Driver  | 字符串  | Name of the capture device driver used by the second endpoint in the form of "manufacturer : version". For: <br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白 <br/> **示例值：** Microsoft：10.0.14393。0  | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
-| First Render Dev  | String  | Name of the render device used by the first endpoint. For: <br/> 音频流-用于扬声器的设备 <br/> 视频和基于视频的屏幕共享流-用于显示的设备 <br/> 应用共享流 - 空  <br/> **示例值：** 耳机 Earphone （Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径  <br/>&bull;流是应用程序共享    |
-| Second Render Dev  | String  | Name of the render device used by the second endpoint. For: <br/> 音频流-用于扬声器的设备 <br/> 视频和基于视频的屏幕共享流-用于显示的设备 <br/> 应用共享流 - 空 <br/> **示例值：** 耳机 Earphone （Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告此数据。 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享     |
-| First Render Dev Driver  | String  | Name of the render device driver used by the first endpoint. For: <br/> 音频流-用于扬声器的驱动程序 <br/> 视频和基于视频的屏幕共享流-用于显示的驱动程序 <br/> 应用共享流 - 空  <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享    |
-| Second Render Dev Driver  | 字符串  | Name of the render device driver used by the second endpoint. For: <br/> 音频流-用于扬声器的驱动程序 <br/> 视频和基于视频的屏幕共享流-用于显示的驱动程序 <br/> 应用共享流 - 空 <br/> **示例值：** Microsoft：10.0.14393。0  | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享   |
+| First Capture Dev Driver  | String  | 第一终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白  <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
+| Second Capture Dev Driver  | 字符串  | 第二终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白 <br/> **示例值：** Microsoft：10.0.14393。0  | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
+| First Render Dev  | String  | 第一终结点使用的呈现设备的名称。对于：<br/> 音频流-用于扬声器的设备 <br/> 视频和基于视频的屏幕共享流-用于显示的设备 <br/> 应用共享流 - 空  <br/> **示例值：** 耳机 Earphone （Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径  <br/>&bull;流是应用程序共享    |
+| Second Render Dev  | String  | 第二终结点使用的呈现设备的名称。对于：<br/> 音频流-用于扬声器的设备 <br/> 视频和基于视频的屏幕共享流-用于显示的设备 <br/> 应用共享流 - 空 <br/> **示例值：** 耳机 Earphone （Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告此数据。 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享     |
+| First Render Dev Driver  | String  | 第一终结点使用的呈现设备驱动器的名称。对于：<br/> 音频流-用于扬声器的驱动程序 <br/> 视频和基于视频的屏幕共享流-用于显示的驱动程序 <br/> 应用共享流 - 空  <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享    |
+| Second Render Dev Driver  | 字符串  | 第二终结点使用的呈现设备驱动器的名称。对于：<br/> 音频流-用于扬声器的驱动程序 <br/> 视频和基于视频的屏幕共享流-用于显示的驱动程序 <br/> 应用共享流 - 空 <br/> **示例值：** Microsoft：10.0.14393。0  | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享   |
 |**WiFi**|||
-| 第一 wi-fi Microsoft 驱动程序  | String  | Name of Microsoft WiFi driver used reported by the first endpoint. Value may be localized based on the language used by endpoint. <br/> **示例值：** Microsoft 托管网络虚拟适配器  | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息|
-| 第二个 Wi-fi Microsoft 驱动程序  | String  | Name of Microsoft WiFi driver used reported by the second endpoint. Value may be localized based on the language used by endpoint. <br/> **示例值：** Microsoft 托管网络虚拟适配器  | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息|
+| 第一 wi-fi Microsoft 驱动程序  | String  | 第一终结点报告的所使用的 Microsoft WiFi 驱动器的名称。值可能会根据终结点使用的语言进行本地化。<br/> **示例值：** Microsoft 托管网络虚拟适配器  | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息|
+| 第二个 Wi-fi Microsoft 驱动程序  | String  | 第二终结点报告的所使用的 Microsoft WiFi 驱动器的名称。值可能会根据终结点使用的语言进行本地化。<br/> **示例值：** Microsoft 托管网络虚拟适配器  | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息|
 | 第一 wi-fi 供应商驱动程序  | String  | 第一终结点报告的 Wifi 驱动器的供应商和名称。 <br/> **示例值：** Contoso 双频无线-交流驱动程序  | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息 |
 | 第二个 Wi-fi 供应商驱动程序  | String  | 第二终结点报告的 Wifi 驱动器的供应商和名称。  <br/> **示例值：** Contoso 双频无线-交流驱动程序 | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息 |
 | 第一 wi-fi Microsoft 驱动程序版本  | String  | 第一终结点报告的 Microsoft Wifi 驱动器的版本。 <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息  |
@@ -241,59 +241,59 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第二个 Wi-fi 供应商驱动程序版本  | String  | 第二终结点报告的 Wifi 驱动器的供应商和版本。 <br/> **示例值：** Contoso：15.1.1。0 | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息  |
 | 第一 Wi-fi 频道  | String  | 第一终结点使用的 Wifi 频道。  <br/> **示例值：** 10| <br/>&bull;未使用 WiFi <br/>&bull;未报告频道   |
 | 第二个 Wi-fi 频道  | String  | 第二终结点使用的 Wifi 频道。 <br/> **示例值：** 10  | <br/>&bull;未使用 WiFi <br/>&bull;未报告频道  |
-| 第一 Wi-fi 无线电类型  | 字符串  | Type of WiFi radio used by the first endpoint. HRDSSS is equivalent to 802.11b. <br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
-| 第二个 Wi-fi 无线电类型  | String  | Type of WiFi radio used by the second endpoint. HRDSSS is equivalent to 802.11b. <br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
+| 第一 Wi-fi 无线电类型  | 字符串  | 第一终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
+| 第二个 Wi-fi 无线电类型  | String  | 第二终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
 | First DNS Suffix  | 字符串  | 第一终结点报告的与网络适配器关联的 DNS 后缀。 请注意，可能会为任何类型的网络适配器报告此值。 **示例值：** corp <span></span> <span></span> .com  | <br/>&bull;终结点未报告此值 <br/>  |
-| Second DNS Suffix  | 字符串  | DNS suffix associated with the network adapter reported by the second endpoint. Note this value may be reported for any type of network adapter.<br/> **示例值：** corp <span></span> <span></span> .com   | <br/>&bull;终结点未报告此值  |
+| Second DNS Suffix  | 字符串  | 第二终结点报告的与网络适配器关联的 DNS 后缀。请注意，可能会为任何类型的网络适配器报告此值。<br/> **示例值：** corp <span></span> <span></span> .com   | <br/>&bull;终结点未报告此值  |
 | 第一 Wi-fi 频带  | String  | 第一终结点报告的所使用的 Wifi 波段。 <br/> **示例值：** 5.0 Ghz  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
 | 第二个 Wi-fi 频带  | String  | 第二终结点报告的所使用的 Wifi 波段。 <br/> **示例值：** 5.0 Ghz  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
 | 第一 wi-fi 信号强度  | String  | 第一个终结点报告的 WiFi 信号强度百分比 [0-100]。 <br/> **示例值：** 081： [90-100）  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
 | 第二个 Wi-fi 信号强度  | String  | 第二终结点报告的 WiFi 信号强度（百分比 [0-100]）。 <br/> **示例值：** 081： [90-100）  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
-| 第一 wi-fi 电池电量  | 范围（百分比）  | Estimated remaining battery charge in percentage [0-99] reported by the first endpoint. Values grouped by range. 0 indicates that the device was plugged in. <br/> **示例值：** 081： [90-100） | &bull;未使用 WiFi <br/>&bull;未报告费用值   |
-| 第二个 Wi-fi 电池电量  | 范围（百分比）  | Estimated remaining battery charge in percentage [0-99] reported by the second endpoint. Values grouped by range. 0 indicates that the device was plugged in.  <br/> **示例值：** 081： [90-100） | &bull;未使用 WiFi <br/>&bull;未报告费用值  |
+| 第一 wi-fi 电池电量  | 范围（百分比）  | 第一终结点报告的电池剩余电量的百分比估计值 [0-99]。值按范围分组表示。0 表示设备已插电。<br/> **示例值：** 081： [90-100） | &bull;未使用 WiFi <br/>&bull;未报告费用值   |
+| 第二个 Wi-fi 电池电量  | 范围（百分比）  | 第二终结点报告的电池剩余电量的百分比估计值 [0-99]。值按范围分组表示。0 表示设备已插电。<br/> **示例值：** 081： [90-100） | &bull;未使用 WiFi <br/>&bull;未报告费用值  |
 |**指标**|||
 | Audio Degradation Avg  | 范围（平均意见得分 0-5） | 关于流降级的网络平均意见得分的平均值。 表示网络损失和抖动对收到的音频质量有多大影响。 值按范围分组表示。 <br/> **示例值：** 015： [0.01-0.02） | &bull;接收流的终结点未报告任何网络 MOS 性能下降 <br/>&bull;流不是音频流。    |
-| Jitter  | 范围（毫秒）  | Average jitter for stream in milliseconds. Values grouped by range. <br/> **示例值：** 065： [2-3）  | &bull;接收流的终结点未报告抖动数据 |
-| Jitter Max  | 范围（毫秒）  | Maximum jitter for stream in milliseconds. Values grouped by range. <br/> **示例值：** 065： [2-3） | &bull;接收流的终结点未报告抖动数据   |
+| Jitter  | 范围（毫秒）  | 流的平均抖动值，以毫秒为单位。值按范围分组表示。<br/> **示例值：** 065： [2-3）  | &bull;接收流的终结点未报告抖动数据 |
+| Jitter Max  | 范围（毫秒）  | 流的最大抖动值，以毫秒为单位。值按范围分组表示。<br/> **示例值：** 065： [2-3） | &bull;接收流的终结点未报告抖动数据   |
 | Packet Loss Rate  | 范围（比率）  | 流的平均丢包率。 值按范围分组表示。 0.1 表示丢失了10% 的数据包。 <br/> **示例值：** 015： [0.01-0.02）  | &bull;接收流的终结点未报告任何数据包丢失数据 |
 | Packet Loss Rate Max  | 范围（比率）  | 流的最大丢包率。 值按范围分组表示。 0.1 表示丢失了10% 的数据包。 <br/> **示例值：** 023： [0.09-0.1）  | &bull;接收流的终结点未报告任何数据包丢失数据 |
-| Overall Avg Network MOS  | 范围 (MOS)  | Average Network MOS for stream. Values grouped by range. <br/> **示例值：** 076： [4.4-4.5） | &bull;接收流的终结点未报告任何网络 MOS 性能下降 <br/>&bull;流不是音频流  |
-| Ratio Concealed Samples Avg  | 范围（比率）  | Ratio of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames. Values grouped by range. 0.1 indicates 10% of frames contained concealed samples. <br/> **示例值：** 015： [0.01-0.02） | &bull;流的接收方未报告此值 <br/>&bull;流不是音频流  |
+| Overall Avg Network MOS  | 范围 (MOS)  | 流的网络 MOS 平均值。值按范围分组表示。<br/> **示例值：** 076： [4.4-4.5） | &bull;接收流的终结点未报告任何网络 MOS 性能下降 <br/>&bull;流不是音频流  |
+| Ratio Concealed Samples Avg  | 范围（比率）  | 含有丢包隐藏生成样本的音频帧数与总音频帧数的比率。值按范围分组表示。0.1 表示 10% 的帧包含隐藏样本。<br/> **示例值：** 015： [0.01-0.02） | &bull;流的接收方未报告此值 <br/>&bull;流不是音频流  |
 |隐藏比率最大值 |范围（比率） | 带有数据包丢失 concealment 生成的样本的音频帧的最大数量，包括音频帧总数。 值按范围分组表示。 0.1 表示 10% 的帧包含隐藏样本。 <br/> **示例值：** 015： [0.01-0.02）| |
-| Ratio Stretched Samples Avg  | 范围（比率）  | Ratio of the number of audio frames with samples that have been stretched to compensate for jitter or loss to the total number of audio frames. Values grouped by range. 0.1 indicates 10% audio frames contained stretched samples. <br/> **示例值：** 017： [0.03-0.04） | &bull;流的接收方未报告此值  <br/>&bull;流不是音频流   |
+| Ratio Stretched Samples Avg  | 范围（比率）  | 通过拉伸样本补偿抖动或丢失的音频帧数与总音频帧数的比率。值按范围分组表示。0.1 表示 10% 的音频帧包含拉伸样本。<br/> **示例值：** 017： [0.03-0.04） | &bull;流的接收方未报告此值  <br/>&bull;流不是音频流   |
 |Healer 数据包丢弃比率|范围（比率） |通过 healer 接收的音频数据包总数 healer 丢弃的音频数据包的比率。 有关详细信息，请参阅[2.2.1.12.1 子元素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5)。| |
 | Healer FEC 数据包使用比率| 范围（比率）  |超过收到的 FEC 数据包的总数的已用转发错误纠正（FEC）数据包的比率。 有关详细信息，请参阅[2.2.1.12.1 子元素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5)。  | |
-| Round Trip  | 范围（毫秒）  | Average network propagation round-trip time computed as specified in RFC3550 in milliseconds. Values grouped by range. <br/> **示例值：** 070： [15-20）  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
-| Round Trip Max  | 范围（毫秒）  | Maximum network propagation round-trip time computed as specified in RFC3550 in milliseconds. Values grouped by range. <br/>**示例值：** 098： [350-375）   | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值 |
+| Round Trip  | 范围（毫秒）  | 计算的平均网络传播往返时间，根据 RFC3550 以毫秒为单位指定。值按范围分组表示。<br/> **示例值：** 070： [15-20）  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
+| Round Trip Max  | 范围（毫秒）  | 计算的最大网络传播往返时间，根据 RFC3550 以毫秒为单位指定。值按范围分组表示。<br/>**示例值：** 098： [350-375）   | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值 |
 | 数据包利用率 | 号码（数据包） |在会话中发送的实时传输协议（RTP）数据包的数量。|
 | 抖动缓冲区大小平均|数字（范围） |会话期间抖动缓冲区的平均大小。| |
 | 最大抖动缓冲区大小|数字（范围）|会话期间抖动缓冲区的最大大小。 |
 | 抖动缓冲区大小最小值|数字（范围）|会话期间抖动缓冲区的最小大小。|
 |相对的单向间隙持续时间| 对等的相对单向延迟中的间隔持续时间。||
 | 音频帖子 FECPLR|  数字 |在应用音频 FEC 后报告数据包丢失率。 0.00 和1.00 之间的值。| |
-| Network Jitter Avg  | 范围（毫秒）  | Average of network jitter in milliseconds computed over 20 second windows during the session. Values grouped by range. <br/> **示例值：** 066： [3 –4）  | <br/>&bull;流不是音频流 <br/>&bull;接收流的终结点未报告数据  |
+| Network Jitter Avg  | 范围（毫秒）  | 会话期间以 20 秒时间窗口计算的平均网络抖动，以毫秒为单位。值按范围分组表示。<br/> **示例值：** 066： [3 –4）  | <br/>&bull;流不是音频流 <br/>&bull;接收流的终结点未报告数据  |
 |网络抖动最大值|事件数|会话期间，最大网络抖动超过20秒的窗口。|
 | 网络抖动最少|事件数|会话期间，最小网络抖动通过20秒窗口计算出来。| |
-| Video Post FECPLR  | 范围（比率）  | Packet loss rate after FEC has been applied for aggregated across all video streams and codecs. Values grouped by range. <br/> **示例值：** 014： [0-0.01） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
-| Video Local Frame Loss Percentage Avg  | 范围（百分比）  | Average percentage of video frames lost as displayed to the user. Values grouped by range. This includes frames recovered from network losses. <br/> **示例值：** 160： [80-85） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
-| 收到的帧速率平均值  | 范围（每秒帧数）  | Average frames per second received for all video streams computed over the duration of the session. Values grouped by range. <br/> **示例值：** 101： [14.5-15） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
-| Low Frame Rate Call Percent | 范围（百分比）  | Percentage of time of the call where frame rate is less than 7.5 frames per second. Values grouped by range. <br/> **示例值：** 099： [13.5-14） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
-| Video Packet Loss Rate  | 范围（比率）  | Average fraction of packets lost, as specified in RFC3550, computed over the duration of the session. Values grouped by range. <br/> **示例值：** 037： [0.75-0.8） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
-| Video Frame Rate Avg  | 范围（每秒帧数）  | Average frames per second received for a video stream, computed over the duration of the session. Values grouped by range. <br/> **示例值：** 135： [31.5-32）  | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据  |
+| Video Post FECPLR  | 范围（比率）  | 应用 FEC 后，跨所有视频流和编解码器汇总的丢包率。值按范围分组表示。<br/> **示例值：** 014： [0-0.01） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
+| Video Local Frame Loss Percentage Avg  | 范围（百分比）  | 向用户显示的视频帧丢失平均百分比。值按范围分组表示。其中包括从网络丢失恢复的帧。<br/> **示例值：** 160： [80-85） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
+| 收到的帧速率平均值  | 范围（每秒帧数）  | 在会话持续期间计算到的所有视频流每秒接收的平均帧数。值按范围分组表示。<br/> **示例值：** 101： [14.5-15） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
+| Low Frame Rate Call Percent | 范围（百分比）  | 帧速率低于 7.5 帧/秒的通话时间的百分比。值按范围分组表示。<br/> **示例值：** 099： [13.5-14） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
+| Video Packet Loss Rate  | 范围（比率）  | 在会话持续期间计算到的平均丢包比率（小数），根据 RFC3550 指定。值按范围分组表示。<br/> **示例值：** 037： [0.75-0.8） | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据   |
+| Video Frame Rate Avg  | 范围（每秒帧数）  | 在会话持续期间计算到的视频流每秒接收的平均帧数。值按范围分组表示。<br/> **示例值：** 135： [31.5-32）  | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据  |
 | Dynamic Capability Percent  | 范围（百分比）  | 客户端以低于此类型 CPU 预期视频处理容量的 70% 运行的时间的百分比，按范围分组。 <br/> **示例值：** 122： [25-25.5）  | <br/>&bull;流不是视频或基于视频的屏幕共享流  <br/>&bull;接收流的终结点未报告数据  |
-| Spoiled Tile Percent Total  | 范围（百分比）  | Percentage of tiles which are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Values grouped by range. Discarded tiles may be caused by bandwidth restrictions between client and server. <br/> **示例值：** 140： [34-34.5）  | <br/>&bull;流不是应用程序共享流 <br/>&bull;发送流的终结点未报告数据  |
+| Spoiled Tile Percent Total  | 范围（百分比）  | 没有被发送到远程对等点（例如，从 MCU 到查看器）而是被丢弃的图块的百分比。值按范围分组表示。丢弃图块可能是由于客户端与服务器之间的带宽限制所致。<br/> **示例值：** 140： [34-34.5）  | <br/>&bull;流不是应用程序共享流 <br/>&bull;发送流的终结点未报告数据  |
 | AppSharing Relative OneWay Average  | 范围（秒）  | 应用程序共享流终结点之间的平均相对单向延迟（以秒为单位）。 值按范围分组表示。 <br/> **示例值：** 015： [0.01-0.02） | <br/>&bull;流不是应用程序共享流 <br/>&bull;发送流的终结点未报告数据   |
-| AppSharing RDP Tile Processing Latency Average  | 范围（毫秒）  | Average latency in milliseconds processing tiles on the RDP Stack at the conferencing server. Values grouped by range. <br/> **示例值：** 103： [15.5-16） | &bull;流不是会议中的应用程序共享流 <br/>&bull;发送流的终结点未报告数据   | 
-| First Network Delay Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected the network delay was significant enough to impact the ability to have real-time two-way communication. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据|
-| Second Network Delay Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected the network delay was significant enough to impact the ability to have real-time two-way communication. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
-| First Network Bandwidth Low Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected the available bandwidth or bandwidth policy was low enough to cause poor quality of the audio sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据  |
-| Second Network Bandwidth Low Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected the available bandwidth or bandwidth policy was low enough to cause poor quality of the audio sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| AppSharing RDP Tile Processing Latency Average  | 范围（毫秒）  | 在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。值按范围分组表示。<br/> **示例值：** 103： [15.5-16） | &bull;流不是会议中的应用程序共享流 <br/>&bull;发送流的终结点未报告数据   | 
+| First Network Delay Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到网络延迟足以影响实时双向通信能力。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据|
+| Second Network Delay Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到网络延迟足以影响实时双向通信能力。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First Network Bandwidth Low Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到可用带宽或带宽策略低到足以导致已发送音频的质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据  |
+| Second Network Bandwidth Low Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到可用带宽或带宽策略低到足以导致已发送音频的质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 | 第一麦克风故障率| 数字 |第一个终结点的麦克风捕获每5分钟的平均故障。 有关详细信息，请参阅[2.2.1.12.1 子元素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5)。 |
 | 第二麦克风故障率|数字 |第二终结点的麦克风捕获每5分钟的平均故障。 有关详细信息，请参阅[2.2.1.12.1 子元素](https://docs.microsoft.com/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5)。 |
 | 第一扬声器故障率|事件数|第一个扬声器呈现每5分钟的平均故障。| |
 | 第二扬声器故障率|事件数|第二个扬声器呈现的每5分钟平均故障。| |
 |**音频**|||
-| Audio FEC Used  | 布尔值  | True indicates that audio forward error correction (FEC) was used at some point during the call. False otherwise     | &bull;流不是音频流 <br/>&bull;发送流的终结点未报告数据  |
+| Audio FEC Used  | 布尔值  | True 表示通话期间在某些点上使用了音频前向纠错 (FEC)。False 表示未使用。     | &bull;流不是音频流 <br/>&bull;发送流的终结点未报告数据  |
 |**测度**|||
 | ClassifiedPoorCall  | Boolean  | 如果流根据 "[呼叫质量" 仪表板中的 "流分类](stream-classification-in-call-quality-dashboard.md)" 中列出的指标归类为差，则为 True。   | &bull;流未报告足够的指标被分类为 "良好" 或 "差"   |
 | Video Poor Due To VideoPostFecplr  | 布尔值  | 如果流基于以下列表中列出的视频帖子 FEC PLR 后指标，则为 True：在 "[通话质量" 仪表板中流分类](stream-classification-in-call-quality-dashboard.md)。 对于非视频流，将始终为 False。   | &bull;终结点未报告此数据  <br/>&bull;流不是视频流。  |
@@ -317,8 +317,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | Unclassified  | Boolean  | 如果流有足够的数据被分类为好或较差，则为 False。 否则为 True。 <br/>**示例值：** 1 |   |
 | 百分之一丢包  | Boolean  | 如果数据包丢失超过1%，则为 True，否则为 False。  |   |
 |**分级**|||
-| First Feedback Rating  | 用户评级 (1-5)  | Rating of the call associated with the stream by the first endpoint on 1-5 scale (5 = excellent). 0 indicates the user was shown the call rating survey but did not rate their experience.  <br/> **示例值：** 5 | &bull;未向第一个终结点显示任何调查  |
-| Second Feedback Rating  | 用户评级 (1-5)  | Rating of the call associated with the stream by the second endpoint on 1-5 scale (5 = excellent). 0 indicates the user was shown the call rating survey but did not rate their experience. <br/> **示例值：** 5 | &bull;未向第二终结点显示任何调查   |
+| First Feedback Rating  | 用户评级 (1-5)  | 第一终结点对与流关联的通话进行的评级，等级为 1-5（5 = 很好）。0 表示向用户显示了通话评级调查，但用户没有对其体验进行评级。<br/> **示例值：** 5 | &bull;未向第一个终结点显示任何调查  |
+| Second Feedback Rating  | 用户评级 (1-5)  | 第二终结点对与流关联的通话进行的评级，等级为 1-5（5 = 很好）。0 表示向用户显示了通话评级调查，但用户没有对其体验进行评级。<br/> **示例值：** 5 | &bull;未向第二终结点显示任何调查   |
 | First Feedback Tokens  | String  | 包含带有 boolean 标志的反馈令牌列表的字符串，指示令牌是否由用户通过第一个终结点提供反馈。 <br/> **示例值：** {DistortedSpeech： 1;ElectronicFeedback： 1;BackgroundNoise： 1;MuffledSpeech： 1;回音： 1;}  | &bull;第一个终结点的用户未提供任何反馈  |
 | Second Feedback Tokens  | 字符串  | 包含带有 boolean 标志的反馈令牌列表的字符串，指示令牌是否由用户通过第二终结点提供反馈。 <br/> **示例值：** {DistortedSpeech： 1;ElectronicFeedback： 1;BackgroundNoise： 1;MuffledSpeech： 1;回音： 1;}  | &bull;第二终结点的用户未提供任何反馈  |
 | First Feedback Has Audio Issue  | 布尔值  | 如果第一终结点的反馈标记指出流包含音频问题，则为 True，否则为 False。   |  |
@@ -328,16 +328,16 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第一反馈有应用共享问题  | Boolean  | 如果第一终结点的反馈标记指示流存在应用共享问题，则为 True。 否则为 False。 | |  
 | 第二反馈有应用共享问题  | Boolean  | 如果第二终结点的反馈标记指示流存在应用共享问题，则为 True。 否则为 False。 | |  
 |**音频信号**|||
-| First Echo Event Causes  | 标志  | Flags that indicate the reasons the DeviceEchoEvent was raised on the first endpoint. There may be multiple flags for a single stream. Flags include: <br/> BAD_TIMESTAMP - 从所使用的具有较差质量的捕获设备或呈现设备上获得的音频时间戳 <br/> POSTAEC_ECHO - 消除回声后仍具有较高水平的回声 <br/> MIC_CLIPPING - 拥有最大信号强度显著实例的捕获设备上的信号强度 <br/> EVENT_ANLP - 包含高噪音的捕获设备上的音频采样。 <br/> **示例值：** BAD_TIMESTAMP | &bull;这是非音频流 <br/>&bull;第一个终结点未报告任何事件原因  |
-| Second Echo Event Causes  | 标志  | Flags that indicate the reasons the DeviceEchoEvent was raised on the second endpoint. There may be multiple flags for a single stream. Flags include: <br/> BAD_TIMESTAMP - 从所使用的具有较差质量的捕获设备或呈现设备上获得的音频时间戳 <br/> POSTAEC_ECHO - 消除回声后仍具有较高水平的回声 <br/> MIC_CLIPPING - 拥有最大信号强度显著实例的捕获设备上的信号强度 <br/> EVENT_ANLP - 包含高噪音的捕获设备上的音频采样。 <br/> **示例值：** BAD_TIMESTAMP   | &bull;这是非音频流 <br/>&bull;第一个终结点未报告任何事件原因 |
-| First Echo Percent Mic In  | 范围（百分比）  | Percentage of time when echo is detected in the audio from the capture or microphone device prior to echo cancellation by the first endpoint. Values grouped by range.  <br/> **示例值：** 068： [5-10）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second Echo Percent Mic In  | 范围（百分比）  | Percentage of time when echo is detected in the audio from the capture or microphone device prior to echo cancellation by the second endpoint. Values grouped by range. <br/> **示例值：** 068： [5-10） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First Echo Event Causes  | 标志  | 指示第一终结点上发生设备回声事件的原因的标志。一个流可能拥有多个标志。标志包括：<br/> BAD_TIMESTAMP - 从所使用的具有较差质量的捕获设备或呈现设备上获得的音频时间戳 <br/> POSTAEC_ECHO - 消除回声后仍具有较高水平的回声 <br/> MIC_CLIPPING - 拥有最大信号强度显著实例的捕获设备上的信号强度 <br/> EVENT_ANLP - 包含高噪音的捕获设备上的音频采样。 <br/> **示例值：** BAD_TIMESTAMP | &bull;这是非音频流 <br/>&bull;第一个终结点未报告任何事件原因  |
+| Second Echo Event Causes  | 标志  | 指示第二终结点上发生设备回声事件的原因的标志。一个流可能拥有多个标志。标志包括：<br/> BAD_TIMESTAMP - 从所使用的具有较差质量的捕获设备或呈现设备上获得的音频时间戳 <br/> POSTAEC_ECHO - 消除回声后仍具有较高水平的回声 <br/> MIC_CLIPPING - 拥有最大信号强度显著实例的捕获设备上的信号强度 <br/> EVENT_ANLP - 包含高噪音的捕获设备上的音频采样。 <br/> **示例值：** BAD_TIMESTAMP   | &bull;这是非音频流 <br/>&bull;第一个终结点未报告任何事件原因 |
+| First Echo Percent Mic In  | 范围（百分比）  | 在消除回声之前，第一终结点从捕获设备或麦克风设备检测到音频中存在回声的时间百分比。值按范围分组表示。<br/> **示例值：** 068： [5-10）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
+| Second Echo Percent Mic In  | 范围（百分比）  | 在消除回声之前，第二终结点从捕获设备或麦克风设备检测到音频中存在回声的时间百分比。值按范围分组表示。<br/> **示例值：** 068： [5-10） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 | First Echo Percent Send  | 范围（百分比）  | 第一个终结点取消回声后在音频中检测到回显的时间百分比。 值按范围分组表示。 <br/> **示例值：** 068： [5-10）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
 | Second Echo Percent Send  | 范围（百分比）  | 在第二个终结点进行回声取消后，在音频中检测到回显的时间百分比。 值按范围分组表示。 <br/> **示例值：** 068： [5-10） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
-| First Send Signal Level  | 范围（dB、分贝）  | Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech by the first endpoint. Values grouped by range. <br/> **示例值：** 055： [-15--10） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second Send Signal Level  | 范围（dB、分贝）  | Average energy level of sent audio for audio classified as mono speech, or left channel of stereo speech by the second endpoint. Values grouped by range. <br/> **示例值：** 055： [-15--10） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
-| 第一次收到的信号级别  | 范围（dB、分贝）  | Average energy level of received audio for audio classified as mono speech, or left channel of stereo speech by the first endpoint. Values grouped by range. <br/> **示例值：** 056： [-10--5）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| 第二次收到的信号级别  | 范围（dB、分贝）  | Average energy level of received audio for audio classified as mono speech, or left channel of stereo speech by the second endpoint. Values grouped by range. <br/> **示例值：** 056： [-10--5） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
+| First Send Signal Level  | 范围（dB、分贝）  | 对于被分类为单声道语音或左声道立体声语音的音频，第一终结点发送的音频的平均能量水平。值按范围分组表示。<br/> **示例值：** 055： [-15--10） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
+| Second Send Signal Level  | 范围（dB、分贝）  | 对于被分类为单声道语音或左声道立体声语音的音频，第二终结点发送的音频的平均能量水平。值按范围分组表示。<br/> **示例值：** 055： [-15--10） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
+| 第一次收到的信号级别  | 范围（dB、分贝）  | 对于被分类为单声道语音或左声道立体声语音的音频，第一终结点接收的音频的平均能量水平。值按范围分组表示。<br/> **示例值：** 056： [-10--5）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
+| 第二次收到的信号级别  | 范围（dB、分贝）  | 对于被分类为单声道语音或左声道立体声语音的音频，第二终结点接收的音频的平均能量水平。值按范围分组表示。<br/> **示例值：** 056： [-10--5） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
 | First Send Noise Level  | 范围（dB、分贝）  | 将音频分类为单声道噪音或由第一个终结点发送的立体声左声道噪音的平均能源水平。 值按范围分组表示。 <br/> **示例值：** 048： [-50--45）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
 | Second Send Noise Level  | 范围（dB、分贝）  | 将音频分类为单声道噪音或第二终结点的立体声左声道噪音的平均能源水平。 值按范围分组表示。 <br/> **示例值：** 048： [-50--45）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 | 第一次收到的噪声级别  | 范围（dB、分贝）  | 第一个终结点收到的单声道噪音或立体声左声道噪音的平均能量级别。 值按范围分组表示。 <br/> **示例值：** 048： [-50--45）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
@@ -351,49 +351,49 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第一呈现环回信号级别 |范围（dB、分贝）| 第一个入站音频流的环回信号级别。 ||
 | 第二呈现环回信号级别 |范围（dB、分贝）|第二个入站音频流的环回信号级别。||
 |**客户端事件** |||
-| First Network Send Quality Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected the network was causing poor quality of the audio sent. Values grouped by range. <br/> **示例值：** 015： [0.01-0.02）   | &bull;指示非音频流 <br/>&bull;第一个终结点未报告数据|
-| Second Network Send Quality Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected the network was causing poor quality of the audio sent. Values grouped by range. <br/> **示例值：** 015： [0.01-0.02）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
-| First Network Receive Quality Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected the network was causing poor quality of the audio received. Values grouped by range. <br/> **示例值：** 015： [0.01-0.02）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second Network Receive Quality Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected the network was causing poor quality of the audio received. Values grouped by range. <br/> **示例值：** 015： [0.01-0.02）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
-| First CPU Insufficient Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected the CPU resources available were insufficient and caused poor quality of the audio sent and received. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second CPU Insufficient Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected the CPU resources available were insufficient and caused poor quality of the audio sent and received. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First Network Send Quality Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到网络导致已发送音频的质量差。值按范围分组表示。<br/> **示例值：** 015： [0.01-0.02）   | &bull;指示非音频流 <br/>&bull;第一个终结点未报告数据|
+| Second Network Send Quality Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到网络导致已发送音频的质量差。值按范围分组表示。<br/> **示例值：** 015： [0.01-0.02）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First Network Receive Quality Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到网络导致已接收音频的质量差。值按范围分组表示。<br/> **示例值：** 015： [0.01-0.02）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
+| Second Network Receive Quality Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到网络导致已接收音频的质量差。值按范围分组表示。<br/> **示例值：** 015： [0.01-0.02）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First CPU Insufficient Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到可用 CPU 资源不足并导致已发送和已接收音频的质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第一个终结点未报告数据 |
+| Second CPU Insufficient Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到可用 CPU 资源不足并导致已发送和已接收音频的质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 | First Device Half Duplex AEC Event Ratio  | 范围（比率）  | 第一个终结点检测到的问题，并以半双工模式运行声音回声 canceler，这会影响具有实时双向通信的能力。 值按范围分组表示。 <br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
 | Second Device Half Duplex AEC Event Ratio  | 范围（比率）  | 第二终结点检测出的问题和以半双工模式操作的声音回声 canceler 的一小部分，这会影响具有实时双向通信的能力。 值按范围分组表示。 <br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
-| First Device Render Not Functioning Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected the render device was not working properly. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据  |
-| Second Device Render Not Functioning Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected the render device was not working properly. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
-| First Device Capture Not Functioning Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected the capture device was not working properly. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据  |
-| Second Device Capture Not Functioning Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected the capture device was not working properly. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First Device Render Not Functioning Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到呈现设备未正常工作。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据  |
+| Second Device Render Not Functioning Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到呈现设备未正常工作。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First Device Capture Not Functioning Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到捕获设备未正常工作。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据  |
+| Second Device Capture Not Functioning Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到捕获设备未正常工作。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 | First Device Glitches Event Ratio  | 范围（比率）  | 第一个终结点被检测为导致发送或接收音频质量不佳的问题或间隙的一小部分调用。 值按范围分组表示。 <br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据  |
 | Second Device Glitches Event Ratio  | 范围（比率）  | 第二终结点在音频中检测到导致发送或接收音频质量不佳的问题或间隙的一小部分调用。 值按范围分组表示。 <br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
-| First Device Low SNR Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected low speech to noise level that caused poor quality of the audio being sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第一个终结点未报告数据  |
-| Second Device Low SNR Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected low speech to noise level that caused poor quality of the audio being sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
-| First Device Low Speech Level Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected low speech level that caused poor quality of the audio being sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second Device Low Speech Level Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected low speech level that caused poor quality of the audio being sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
-| First Device Clipping Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected clipping in the captured audio that caused poor quality of the audio being sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第一个终结点未报告数据  |
-| Second Device Clipping Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected clipping in the captured audio that caused poor quality of the audio being sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
-| First Device Echo Event Ratio  | 范围（比率）  | Fraction of the call that the first endpoint detected echo that caused poor quality of the audio being sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second Device Echo Event Ratio  | 范围（比率）  | Fraction of the call that the second endpoint detected echo that caused poor quality of the audio being sent. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First Device Low SNR Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到语音降低到噪音级别，导致发送的音频质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第一个终结点未报告数据  |
+| Second Device Low SNR Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到语音降低到噪音级别，导致发送的音频质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
+| First Device Low Speech Level Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到语音级别降低，导致发送的音频质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
+| Second Device Low Speech Level Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到语音级别降低，导致发送的音频质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
+| First Device Clipping Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到捕获的音频中存在削波现象，导致发送的音频质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第一个终结点未报告数据  |
+| Second Device Clipping Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到捕获的音频中存在削波现象，导致发送的音频质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First Device Echo Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到回声，导致发送的音频质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
+| Second Device Echo Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到回声，导致发送的音频质量差。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 | First Device Near End To Echo Ratio Event Ratio | 范围（比率）| 调用的一小部分，第一个终结点检测到对导致质量较差的回声的接近结束信号的比率。 值按范围分组表示。 <br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据|
 | Second Device Near End To Echo Ratio Event Ratio  | 范围（比率）  | 调用的一小部分，即第二个终结点检测到与导致质量较差的回音级别的接近结束信号的比率。 值按范围分组表示。 <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
-| First Device Render Zero Volume Event Ratio  | 范围（比率）  | Fraction of the call that first endpoint detected device render volume is set to 0. Values grouped by range.  <br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second Device Render Zero Volume Event Ratio  | 范围（比率）  | Fraction of the call that second endpoint detected device render volume is set to 0. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
-| First Device Render Mute Event Ratio  | 范围（比率）  | Fraction of the call that first endpoint detected device render is muted. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）   | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second Device Render Mute Event Ratio  | 范围（比率）  | Fraction of the call that second endpoint detected device render is muted. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
-| First Device Multiple Endpoints Event Count  | 范围（比率）  | Number of times during the call that the first endpoint detected multiple endpoints in the same room or acoustic environment. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second Device Multiple Endpoints Event Count  | 范围（比率）  | Number of times during the call that the second endpoint detected multiple endpoints in the same room or acoustic environment. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| First Device Render Zero Volume Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到设备呈现音量设置为 0。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
+| Second Device Render Zero Volume Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到设备呈现音量设置为 0。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
+| First Device Render Mute Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第一终结点检测到设备呈现被静音。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）   | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
+| Second Device Render Mute Event Ratio  | 范围（比率）  | 满足以下条件的通话的比率（小数）：第二终结点检测到设备呈现被静音。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03） | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据  |
+| First Device Multiple Endpoints Event Count  | 范围（比率）  | 通话期间，第一终结点检测到同一房间或声音环境中存到多个终结点的次数。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
+| Second Device Multiple Endpoints Event Count  | 范围（比率）  | 通话期间，第二终结点检测到同一房间或声音环境中存到多个终结点的次数。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 | First Device Howling Event Count  | 范围（比率）  | 调用期间第一个终结点在同一房间内检测到的两个或更多终结点的次数，这些终结点在啸声或 screeching 音频形式导致质量较差的音频。 值按范围分组表示。 <br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
-| Second Device Howling Event Count  | 范围（比率）  | Number of times during the call that the second endpoint detected two or more endpoints in the same room or acoustic environment that caused poor quality audio in the form of howling or screeching audio. Values grouped by range. <br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
+| Second Device Howling Event Count  | 范围（比率）  | 通话期间，第二终结点检测到同一房间或声音环境中存到两个或更多个终结点并因此导致存在啸声或尖叫声的差质量音频的次数。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 |**呼叫诊断**|||
-| Error Report Sender  | String  | Indicates which endpoint sent the call error report for the stream. This report contains additional telemetry and may indicate call setup or call drop issue with the call. <br/> **示例值：** 条 | &bull;指示未发送呼叫错误报告。  |
-| Is Media Error  | String  | Indicates if the call error report for the stream was a media level error or not. This report contains additional telemetry and may indicate call setup or call drop issue with the call.    | &bull;指示未发送呼叫错误报告。 |
+| Error Report Sender  | String  | 指示发送流的通话错误报告的终结点。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。<br/> **示例值：** 条 | &bull;指示未发送呼叫错误报告。  |
+| Is Media Error  | String  | 指示为流报告的通话错误是否为媒体级错误。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。    | &bull;指示未发送呼叫错误报告。 |
 | Media Failure Type  | 枚举 <br/>**可能的值：** <br/>&bull;Midcall <br/>&bull;CallSetup <br/>&bull;NotMediaFailure. | 与流关联的媒体故障的类型。   | &bull;指示未发送呼叫错误报告。   |
 | 通话分类| 枚举 |分配给呼叫的可靠性分类。 **可能的值**：成功、失败、ClassificationUnavailable | |
 | 分类原因|String|分类已分配给流的原因。| |
 | 测试呼叫类型|枚举|指示此调用是常规调用还是测试调用。 如果是测试调用，则指示测试调用的类型。 <br/>**可能的值：** NonTest、Silent、UserInitiated、合成 <br/>**在于** <br/> NonTest-常规通话 <br/> 无提示-无提示测试呼叫 <br/> UserInitiated-用户启动的测试呼叫 <br/>综合– ST 终结点启动的呼叫|
 |**Session**|||
-| RTP RTCP Mux  | Boolean  | True indicates that RTP and RTCP were multiplexed on the same ports. False otherwise.    | <br/>&bull;终结点未报告数据  |
+| RTP RTCP Mux  | Boolean  | True 表示在同一端口多路复用 RTP 和 RTCP。否则为 False。    | <br/>&bull;终结点未报告数据  |
 | Stun Version  | 整型  | 建立通话所使用的 STUN 协议的版本。  | <br/>&bull;终结点未报告数据 <br/> **示例值：** 2  |
-| Media Relay  | 字符串  | IP address for Media relay(s) used for the session. May report a pair of relay separated by a '+' if the stream. <br/> **示例值：**"13.107.8.2 + 13.107.8.2"  | &bull;终结点未报告此数据  |
+| Media Relay  | 字符串  | 用于会话的一个或多个媒体中继的 IP 地址。对于流，可能会报告一对中继，中间用"+"隔开。<br/> **示例值：**"13.107.8.2 + 13.107.8.2"  | &bull;终结点未报告此数据  |
 | Is Anonymous Join Session  | 布尔值  | 如果用户匿名加入会议，则为 True，否则为 False。   | &bull;没有用于确定用户是否已匿名加入的数据   |
 | 具有媒体诊断 Blob  | Boolean  | 如何会话具有媒体诊断数据，则为 True，否则为 False。   | &bull;未收集此流的某些信号数据   |
 | Call Setup Failure Reason  | 枚举  | 通话未能建立媒体连接的原因分类。 <br/>**可能的值：** <br/> **缺少 FW Deep Packet "数据包检查" 规则**-指示路径上的网络设备可能阻止了由于较深数据包检查规则而无法建立媒体路径。 这可能是因为未正确配置代理或防火墙规则。 <br/> **缺少 FW IP 阻止免除规则**-指示路径上的网络设备可能阻止将媒体路径建立到 Office 365 网络。 这可能是因为未正确将代理或防火墙规则配置为允许访问用于 Skype for Business 流量的 IP 地址和端口。 <br/> **其他**-表示无法建立呼叫的媒体路径，但无法对根本原因进行分类。 <br/> 非媒体故障-指示未检测到建立媒体路径的问题。  | &bull;由于未知媒体问题，呼叫设置失败  |
@@ -576,14 +576,14 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |VBSS Unclassified Stream Count |流的数量 |由于此处列出的网络指标，基于视频的屏幕共享流的数量没有足够的数据分类为好或差：在 "[通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |VBSS Poor Percentage |百分比 |根据以下列出的网络指标分类为差的所有基于视频的屏幕共享流的百分比：[在 "通话质量" 仪表板中进行流分类](stream-classification-in-call-quality-dashboard.md)。 |
 |Avg Call Duration |秒 |流的平均持续时间，以秒为单位。 |
-|First Feedback Rating Avg |用户评级 (1-5) |Average rating of streams reported by the user using the first endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
-|Second Feedback Rating Avg |用户评级 (1-5) |Average rating of streams reported by the user using the second endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
-|First Feedback Rating Count |被评级的流的数量 |Number of streams rated by the user using the first endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
-|Second Feedback Rating Count |被评级的流的数量 |Number of streams rated by the user using the second endpoint. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
-|First Feedback Rating Poor Count |被评级的流的数量 |Number of streams rated by the user using the first endpoint as either 1 or 2. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
-|Second Feedback Rating Poor Count |被评级的流的数量 |Number of streams rated by the user using the second endpoint as either 1 or 2. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
-|First Feedback Rating Poor Percentage |被评级的流的数量 |Percentage of all rated streams that were rated by the user using the first endpoint as either 1 or 2. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
-|Second Feedback Rating Poor Percentage |被评级的流的数量 |Percentage of all rated streams that were rated by the user using the second endpoint as either 1 or 2. Calls are rated from 1-5 and the rating is applied to all streams of the call. |
+|First Feedback Rating Avg |用户评级 (1-5) |使用第一终结点的用户报告的流平均评级。通话评级分为 1-5 级，评级适用于通话的所有流。 |
+|Second Feedback Rating Avg |用户评级 (1-5) |使用第二终结点的用户报告的流平均评级。通话评级分为 1-5 级，评级适用于通话的所有流。 |
+|First Feedback Rating Count |被评级的流的数量 |使用第一终结点的用户进行了评级的流的数量。通话评级分为 1-5 级，评级适用于通话的所有流。 |
+|Second Feedback Rating Count |被评级的流的数量 |使用第二终结点的用户进行了评级的流的数量。通话评级分为 1-5 级，评级适用于通话的所有流。 |
+|First Feedback Rating Poor Count |被评级的流的数量 |被使用第一终结点的用户评级为 1 或 2 的流的数量。通话评级分为 1-5 级，评级适用于通话的所有流。 |
+|Second Feedback Rating Poor Count |被评级的流的数量 |被使用第二终结点的用户评级为 1 或 2 的流的数量。通话评级分为 1-5 级，评级适用于通话的所有流。 |
+|First Feedback Rating Poor Percentage |被评级的流的数量 |被使用第一终结点的用户评级为 1 或 2 的所有流的百分比。通话评级分为 1-5 级，评级适用于通话的所有流。 |
+|Second Feedback Rating Poor Percentage |被评级的流的数量 |被使用第二终结点的用户评级为 1 或 2 的所有流的百分比。通话评级分为 1-5 级，评级适用于通话的所有流。 |
 |First Feedback Token Audio Issue Count |被评级流的数量 |被使用第一终结点的用户指出存在音频问题的流的数量。 |
 |Second Feedback Token Audio Issue Count |被评级流的数量 |被使用第二终结点的用户指出存在音频问题的流的数量。 |
 |First Feedback Token Video Issue Count |被评级的流的数量 |使用第一个终结点的用户指示视频有问题的流的数量。 |
@@ -626,10 +626,10 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 |Avg Packet Loss Rate |比率 |以 5 秒钟时间间隔计算到的流的平均丢包百分比的平均值。 0.1 表示丢失了10% 的数据包。 |
 |Avg Packet Loss Rate Max |比率 |以 5 秒钟时间间隔计算到的流的最大丢包百分比的平均值。 0.1 表示丢失了10% 的数据包。 |
 | 平均发送侦听 MOS |数字 |从用户发送的音频流的宽带的预测质量平均观点（MOS-LQ）的平均值。 <br/>请参阅[Lync Monitoring Reports 解码器](https://gallery.technet.microsoft.com/Lync-Reports-Decoder-001ba287)中的 "平均发送 MOS"|
-|Avg Overall Avg Network MOS |平均意见得分 (0-5) |Average or average network Mean Opinion Score for streams. Represents the average predicted quality of received audio factoring in network loss, jitter, and codec. |
-|Avg Ratio Concealed Samples |比率 |Average of average ratio of the number of audio frames with samples generated by packet loss concealment to the total number of audio frames for streams. 0.1 indicates 10% of frames contained concealed samples. |
+|Avg Overall Avg Network MOS |平均意见得分 (0-5) |流的网络平均意见得分的平均值。表示通过考虑网络损耗、抖动和编解码器对所收到的音频质量的平均估计。 |
+|Avg Ratio Concealed Samples |比率 |含有丢包隐藏生成样本的音频帧数与流的总音频帧数的平均比率的平均值。0.1 表示 10% 的帧包含隐藏样本。 |
 | 平均隐藏比率最大值| 比率 |使用数据包丢失 concealment 生成的样本的音频帧数的最大比率的平均值到流的音频帧总数。 0.1 表示 10% 的帧包含隐藏样本。| |
-|Avg Ratio Stretched Samples |比率 |Average of average ratio of the number of audio frames with samples that have been stretched to compensate for jitter or loss to the total number of audio frames for streams. 0.1 indicates 10% audio frames contained stretched samples. |
+|Avg Ratio Stretched Samples |比率 |通过拉伸样本补偿抖动或丢失的音频帧数与流的总音频帧数的平均比率的平均值。0.1 表示 10% 的音频帧包含拉伸样本。 |
 | 平均 Healer 数据包丢弃比率|范围（比率）|由 healer 丢弃的音频数据包的平均比率，超过 healer 收到的音频数据包总数。 | |
 | 平均 Healer FEC 数据包使用比率|范围（比率）|已使用的 FEC 数据包的平均比率，超过了收到的 FEC 数据包的总数。|
 |Avg Round Trip |毫秒 |计算的平均网络传播往返时间的平均值，根据 RFC3550 以毫秒为单位指定。 |
@@ -646,13 +646,13 @@ CQD 使用的字符串通常派生自数据文件，它们几乎可以是允许�
 | 平均相对的单向间隙持续时间|数字（毫秒）|对等的相对单向延迟中的间隔平均持续时间。| |
 |平均音频发布 FECPLR |比率 |在所有音频流和流的编解码器上应用了 FEC 后，数据包丢失率的平均值。 |
 |Avg Video Post FECPLR |比率 |应用 FEC 后，跨所有视频流和编解码器汇总的丢包率的平均值。 |
-|Avg Video Local Frame Loss Percentage |百分比 |Average percentage of video frames lost as displayed to the user for streams. This includes frames recovered from network losses. |
+|Avg Video Local Frame Loss Percentage |百分比 |向用户显示的流视频帧丢失平均百分比。其中包括从网络丢失恢复的帧。 |
  |接收的平均视频帧速率平均值 |帧/秒 |在会话持续期间计算到的流的所有视频流每秒接收的平均帧数的平均值。 |
  |Avg Video Low Frame Rate Call Percent |百分比 |帧速率低于 7.5 帧/秒的流通话时间的平均百分比。 |
 |Avg Video Packet Loss Rate |比率 |在流的会话持续时间内，在[根据 rfc3550](https://tools.ietf.org/html/rfc3550)中指定的数据包平均损失的平均值。 |
-|Avg Video Frame Rate |帧/秒 |Average frames per second received for a video stream, computed over the duration of the session. Values grouped by range. |
+|Avg Video Frame Rate |帧/秒 |在会话持续期间计算到的视频流每秒接收的平均帧数。值按范围分组表示。 |
 |Avg Video Dynamic Capability Percent |毫秒 |客户端以低于此类型 CPU 预期视频处理容量的 70% 运行的流时间的平均百分比。 |
-|Avg AppSharing Spoiled Tile Percent Total |毫秒 |Average of percentage of tiles which are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer) for streams. Discarded tiles may be caused by bandwidth restrictions between client and server. |
+|Avg AppSharing Spoiled Tile Percent Total |毫秒 |没有被发送到远程对等点（例如，从 MCU 到查看器）而是被丢弃的图块的平均百分比。丢弃图块可能是由于客户端与服务器之间的带宽限制所致。 |
 |Avg AppSharing Relative OneWay |秒 |应用程序共享流的终结点之间的平均相对单向延迟（以秒为单位）。 |
 |Avg AppSharing RDP Tile Processing Latency |毫秒 |在会议服务器上处理 RDP 堆栈图块的流平均延迟的平均值，以毫秒为单位。 |
 |平均第一设备捕获不起作用事件比率 |比率 |第一个终结点检测到的捕获设备的调用分数的平均值未正常工作。 |

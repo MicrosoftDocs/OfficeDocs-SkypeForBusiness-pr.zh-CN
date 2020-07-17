@@ -39,7 +39,7 @@ _**上次修改的主题：** 2012-09-28_
 
 此过程详细介绍了将 Lync Server 2013 池配置为使用 Lync Server 2013 中介服务器（而不是旧版 Office 通信服务器 2007 R2 中介服务器）的步骤。
 
-To successfully publish, enable, or disable a topology when adding or removing a server role, you should be logged in as a user who is a member of the RTCUniversalServerAdmins and Domain Admins groups. It is also possible to delegate the proper administrator rights and permissions for adding server roles. For details, see Delegate Setup Permissions in the Standard Edition server or Enterprise Edition server Deployment documentation. For other configuration changes, only membership in the RTCUniversalServerAdmins group is required.
+若要在添加或删除服务器角色时成功发布、启用或禁用拓扑，应以 RTCUniversalServerAdmins 和 Domain Admins 组成员的用户身份登录。还可以委派用于添加服务器角色的相应管理员权限。有关详细信息，请参阅 Standard Edition Server 或 Enterprise Edition Server 部署文档中的“委派安装权限”。对于其他配置更改，只需要 RTCUniversalServerAdmins 组的成员身份。
 
 <div>
 
@@ -63,7 +63,7 @@ To successfully publish, enable, or disable a topology when adding or removing a
 
 4.  参考以下信息，完成“定义新的 IP/PSTN 网关”**** 页：
     
-      - Enter the gateway FQDN or IP address. The FQDN of the gateway is required if the gateway uses the TLS protocol.
+      - 输入网关的 FQDN 或 IP 地址。如果网关使用 TLS 协议，则需要网关的 FQDN。
     
       - 接受“IP/PSTN 网关的侦听端口”**** 的默认值，或者输入新侦听端口（如果已修改）。
     

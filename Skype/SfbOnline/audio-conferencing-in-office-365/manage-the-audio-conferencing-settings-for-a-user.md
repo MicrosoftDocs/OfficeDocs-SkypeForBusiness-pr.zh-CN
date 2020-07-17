@@ -33,7 +33,7 @@ ms.locfileid: "44943845"
 > [!Note]
 > 如果要在 Microsoft 团队中管理用户设置，请参阅[在 Microsoft 团队中管理用户的音频会议设置](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)。
 
-As a Microsoft 365 or Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
+作为 Microsoft 365 或 Office 365 管理员，您可以编辑您的组织中的单个用户的音频会议设置，例如提供商、默认收费或免费号码、会议 ID 或 PIN 等。如果您想要编辑您的组织的设置，请参阅[管理我的组织的音频会议设置](manage-the-audio-conferencing-settings-for-my-organization.md)。
 
  
 1. 使用你的工作或学校帐户登录。

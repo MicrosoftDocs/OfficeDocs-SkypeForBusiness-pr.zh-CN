@@ -69,7 +69,7 @@ _**上次修改的主题：** 2012-10-19_
 
 7.  单击“下一步”****，然后执行以下操作之一：
     
-    1.  If you are using a Lync 2010 Survivable Branch Appliance or Server at this site, be sure to uncheck the **Open the New Survivable Wizard when this wizard closes** option. Click **Finish**.
+    1.  如果在此站点使用的是 Lync 2010 Survivable Branch Appliance 或 Lync 2010 Survivable Branch Server，确保取消选中“此向导关闭后将打开新建 Survivable 向导”**** 选项。单击“完成”****。
 
 8.  若要将旧版 Lync Server 2010 SBA 与 Lync Server 2013 前端池相关联，请执行以下操作：
     

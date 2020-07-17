@@ -42,7 +42,7 @@ ms.locfileid: "45077637"
 云自动助理具有以下功能：
   
 - 提供企业或信息性问候语。
-- It can provide custom corporate menus. You can customize these menus to have more than one level.
+- 提供自定义企业菜单。你可以自定义这些菜单以包含更多级别。
 - 它提供目录搜索，使调用的人员可以在组织的目录中搜索名称。
 - 它使呼叫者能够联系到您组织中的人员或为其留下消息。
 - 它支持多种语言的提示、文本到语音转换和语音识别。

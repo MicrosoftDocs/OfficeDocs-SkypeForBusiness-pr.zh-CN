@@ -32,7 +32,7 @@ ms.locfileid: "44752834"
 如果您在旧版环境中自定义了通讯簿规范化规则，则必须将自定义规则迁移到您的引导池。 如果未自定义通讯簿规范化规则，则通讯簿服务没有要迁移的内容。 Skype for business Server 2019 的默认规范化规则与旧安装的默认规则相同。 按照本节后面的过程操作，迁移自定义的规范化规则。
 
 > [!NOTE]
-> If your organization uses remote call control and you customized Address Book normalization rules, you must perform the procedure in this topic before you can use remote call control. The procedure requires membership in the RTCUniversalServerAdmins group or equivalent rights. 
+> 如果您的组织使用远程呼叫控制并且您自定义了通讯簿规范化规则，则必须首先执行本主题中的过程，然后才能使用远程呼叫控制。要执行该过程，需要具有 RTCUniversalServerAdmins 组成员的身份或同等权限。 
 
  **UseNormalizationRules 设置为 False**
 
@@ -49,7 +49,7 @@ ms.locfileid: "44752834"
 
 3. 在 Skype for business Server 2019 中，某些类型的条目将无法正常工作。 请在文件中查找该步骤中所述的这些条目类型，根据需要编辑它们，并将更改保存到试点池中的通讯簿共享文件夹。
 
-    Strings that include required whitespace or punctuation cause normalization rules to fail because these characters are stripped out of the string that is input to the normalization rules. If you have strings that include required whitespace or punctuation, you need to modify the strings. For example, the following string would cause the normalization rule to fail:
+    包含必要空格或标点的字符串会导致规范化规则失败，因为系统会将这些字符从输入到规范化规则的字符串中删除。如果您有包含必要空格或标点的字符串，则需要修改这些字符串。例如，以下字符串将导致规范化规则失败：
 
    ```console
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d

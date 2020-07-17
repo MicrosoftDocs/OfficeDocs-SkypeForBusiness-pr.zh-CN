@@ -48,7 +48,7 @@ _**上次修改的主题：** 2012-10-06_
 
   - Office 通信服务器 2007 R2 组聊天池，它必须驻留在 Office 通信服务器 2007 R2 池上。
 
-These deployments can exist side by side. However the categories, rooms, and add-ins in one deployment do not interact with those in the accompanying deployment.
+这些部署可并行存在。但是一个部署中的类别、聊天室和外接程序不会与伴随部署中的交互。
 
 使用手动配置，旧版客户端（组聊天客户端）可以一次连接到一个池，以获取 Office 通信服务器 2007 R2、Lync Server 2010、组聊天或 Lync Server 2013。
 

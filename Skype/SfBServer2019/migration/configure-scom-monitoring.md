@@ -51,7 +51,7 @@ ms.locfileid: "44754042"
    ```
 
     > [!NOTE]
-    > Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists. If you experience this, you can safely ignore the error. 
+    > 在您编辑注册表时，如果已存在注册表项，则您可能会遇到一个指示命令失败的错误。如果遇到此错误，可以安全地将其忽略。 
   
 ### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>将您的主 System Center Operations Manager 管理服务器配置为覆盖候选中央发现观察程序节点。
 

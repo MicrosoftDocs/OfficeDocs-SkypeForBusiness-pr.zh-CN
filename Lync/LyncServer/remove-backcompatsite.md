@@ -49,7 +49,7 @@ _**上次修改的主题：** 2012-09-28_
 
 3.  单击“下一步”**** 继续。
 
-4.  On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty. If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.
+4.  在“指定旧边缘”**** 页上，确保边缘服务器列表为空。如果该列表不为空，请使用“删除”**** 按钮删除所有旧边缘服务器，然后单击“下一步”****。
     
     ![合并拓扑向导中，指定 "边缘设置" 页](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "合并拓扑向导中，指定 "边缘设置" 页")  
 

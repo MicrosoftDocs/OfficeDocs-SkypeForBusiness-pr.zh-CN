@@ -29,11 +29,11 @@ ms.locfileid: "45085888"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>通话质量仪表板（CQD）中的流分类
 
-The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made using Microsoft Teams and Skype for Business services. This topic provides detailed information about the quality classification of media streams. To learn more about CQD and how to set it up, see [Set up Call Quality Dashboard](turning-on-and-using-call-quality-dashboard.md).
+Microsoft 团队和 Skype for business Online 的通话质量仪表板（CQD）使你可以深入了解使用 Microsoft 团队和 Skype for business 服务时所进行的通话质量。本主题提供有关媒体流的质量分类的详细信息。若要了解有关 CQD 以及如何对其进行设置的详细信息，请参阅[设置呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
 
 ## <a name="classifier-definitions"></a>分类器定义
 
-Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables that follow. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a _Poor_ classification. For more information on these dimensions, see [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md).
+CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或未_分类_。用于分类流的指标和条件在随后的表中显示。CQD 的 "由于" 维度的 "差" 可用于了解哪些指标负责_较差_的分类。有关这些维度的详细信息，请参阅[通话质量仪表板中可用的维度和度量](dimensions-and-measures-available-in-call-quality-dashboard.md)。
 
 ### <a name="audio-classifier"></a>音频分类器
 
@@ -41,7 +41,7 @@ Streams in CQD are classified as _Good_, _Poor_, or _Unclassified_ based on the 
 
 |指标|条件|解释|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|> 1.0|Average Network Mean Opinion Score degradation for stream. How much network loss and jitter have impacted the quality of received audio.|
+|Audio Degradation Avg|> 1.0|数据流的平均网络平均观点。网络损失和抖动对收到的音频质量有多大影响。|
 |Round Trip|> 500|平均往返行程网络传播时间，以毫秒为单位计算。 [根据 rfc3550](https://tools.ietf.org/html/rfc3550)中提供的详细信息。|
 |Packet Loss Rate|> 0.1|流的平均丢包率。|
 |抖动|> 30|流的平均抖动值，以毫秒为单位。|

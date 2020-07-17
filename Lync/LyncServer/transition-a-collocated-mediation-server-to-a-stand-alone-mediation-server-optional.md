@@ -49,13 +49,13 @@ _**上次修改的主题：** 2012-10-19_
 
 3.  右键单击“中介池”****，然后选择“新建中介服务器”****。
 
-4.  On the **Define New Mediation Pool** page, provide the FQDN of the new Mediation Server pool. Also, select whether this pool will be a single-server or multiple-server pool, and then click **Next**.
+4.  在“定义新的中介池”**** 页上，提供新中介服务器池的 FQDN。另外，选择该池是单服务器池还是多服务器池，然后单击“下一步”****。
 
 5.  选择新中介服务器会将入站呼叫路由到的下一跃点前端服务器池，然后单击“下一步”****。
 
 6.  选择中介服务器要使用的边缘池，然后单击“下一步”****。
 
-7.  On the **Specify PSTN gateways** page, associate the previous PSTN gateway with the Mediation Server. Select the gateway and then click **Add**.
+7.  在“指定 PSTN 网关”**** 页上，将以前的 PSTN 网关与中介服务器相关联。选择该网关，然后单击“添加”****。
 
 8.  单击“完成”**** 以关闭“定义新的中介池”**** 向导。
 

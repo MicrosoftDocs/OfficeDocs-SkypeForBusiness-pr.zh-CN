@@ -62,7 +62,7 @@ ms.locfileid: "44943925"
 
 ## <a name="unassign-a-per-user-voice-policy"></a>取消分配每用户语音策略
 
-  - The following command unassigns any per-user voice policy previously assigned to Ken Myer. After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy. A site policy takes precedence over the global policy.
+  - 以下命令取消分配之前为 Ken Myer 分配的任何每用户语音策略。在取消分配每用户策略后，将自动使用全局策略或本地站点策略（如果有）管理 Ken Myer。站点策略优先于全局策略。
     
         Grant-CsVoicePolicy -Identity "Ken Myer" -PolicyName $Null
 

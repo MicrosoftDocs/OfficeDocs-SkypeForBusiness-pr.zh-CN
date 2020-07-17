@@ -69,9 +69,9 @@ _**上次修改的主题：** 2013-02-22_
 
 为类别定义 **AllowedMembers** 和 **Creators** 有以下好处：
 
-  - All chat rooms in this category are bound by the restrictions set at the category level. You can use this to segregate chat rooms based on business need and access policies.
+  - 该类别中的所有聊天室都绑定了在类别级别设置的限制。您可以使用此限制，根据业务需求和访问策略隔离聊天室。
 
-  - A user who is in the **Creators** list can create new chat rooms in that category. If you want to implement a system where a restricted number of personnel in the organization can create chat rooms, this control can be used to meet that requirement.
+  - **Creators** 列表中的用户可在该类别中创建新聊天室。如果要实现这样一个系统 - 组织中有限数量的人员可创建聊天室，那么可使用此控制来满足要求。
 
 </div>
 
@@ -81,7 +81,7 @@ _**上次修改的主题：** 2013-02-22_
 
 类别的**AllowedMembers**必须包括将在此类别中使用任何持久聊天室的所有用户。 根据您保护业务数据和确保适当的访问级别的要求，您可能希望定义一个或多个类别以指定可在聊天室中进行搜索和加入聊天室的人员。 如果希望只允许一组特定的用户（中央支持人员或仅全职员工）创建聊天室，则可以设置类别的 **Creators** 的作用域来满足该要求。
 
-Categories can also be used to create ethical walls. Ethical walls prevent any conflict of interest in an organization. For example, an administrator can create chat rooms in a category for traders only, whereas chat rooms in another category can be used by analysts only.
+类别还可以用于创建信息隔离墙。信息隔离墙可阻止组织中的任何利益冲突。例如，管理员可创建仅面向贸易商的类别的聊天室，而另一个类别的聊天室仅供分析人员使用。
 
 <div>
 
