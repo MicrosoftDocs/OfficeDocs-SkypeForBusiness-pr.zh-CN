@@ -28,12 +28,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f113f617ece465c3f18a0e9facacabc7bd776eb9
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: fae61030e7ee8b2695fa518b194999a974ed0d8d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44522995"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158630"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>开始 Microsoft Teams 升级
 
@@ -52,6 +52,14 @@ Skype for Business Online 将于 2021 年 7 月 31 日停用，在此日期之�
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>在准备和执行 Teams 升级时，可以继续使用 Skype for Business Online 吗？
 
 是的，Microsoft 提供了多个用于同时运行 Skype for Business Online 和 Teams 的选项。 这些共存模式可让当今用户熟悉 Teams，同时帮助你加快升级到仅 Teams。 有关详细信息，请参阅 [https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)。
+
+## <a name="is-phone-system-available-for-teams-users"></a>电话系统是否可供团队用户使用？
+
+是。 将用户移动到 TeamsOnly 模式后，所有团队用户均可使用电话系统。  此外，Microsoft 还提供用于连接到公共交换电话网络（PSTN）的选项，以便用户可以拨打世界任何地方的电话。 有关详细信息，请参阅[语音电话系统和 PSTN 连接](cloud-voice-landing-page.md)。
+
+## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>是否可以继续使用我们的本地电话基础结构？
+
+是。 通过电话系统直接路由，您可以通过任何电话运营商使用电话系统。 通过直接路由，你可以将自己的会话边界控制器（SBC）直接连接到电话系统。 有关详细信息，请参阅[手机系统直接路由](direct-routing-landing-page.md)。
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Microsoft 如何帮助客户升级到 Teams？ 
 

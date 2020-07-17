@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf7fc339fdf1b204f81d88c4fed08c720978280
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7e9a1d50469490e3e68163cf7b51a0fc6cac9af7
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756843"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158750"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>了解 Microsoft 团队和 Skype for business 共存和互操作性
 
@@ -66,18 +66,7 @@ ms.locfileid: "44756843"
 > [!Tip]
 > Skype for Business Online 客户推荐的路径是从默认的**孤岛**模式开始，推动团队在组织中采用饱和，然后快速转到 "**仅团队**" 模式。 在本地和混合客户（尤其是复杂的客户）中，**使用团队协作模式将 Skype For business**部署为一个起点（而不是 "**岛**模式"），并通过**使用团队协作和会议**模式（即 "会议优先"）和 "**仅限团队**" 模式（在组织准备好使用团队时）将 skype for business 部署到 skype for business。
 
-### <a name="skype-for-business-only"></a>仅 Skype for Business
-
-在此共存模式下，用户将保留在 Skype for Business 中，而不是团队-用于聊天、会议和呼叫功能，并且不使用团队和频道团队。 目前可以使用此模式;但是，在当前实现中，团队和频道不会自动为用户关闭。 可通过使用应用权限策略隐藏团队和频道来实现此目的。
-
-此模式可以在启动团队的托管部署之前使用，以防止用户开始使用团队准备好使用团队，如果用户已获得团队许可，则为对 Skype for business 用户启用团队会议的已验证参与。
-
 ### <a name="teams-only"></a>仅限团队
-
-
-> [!IMPORTANT]
-> 如果你在将用户移动到 "**仅团队**" 模式后卸载 Skype for business 客户端，则可能需要在状态停止工作时重启 Outlook 和团队。 
-
 
 **只有团队**用户（也称为已*升级*用户）可以访问团队中的所有功能。 他们可以保留 Skype for Business 客户端，以便在已由非升级用户或外部团体组织的 Skype for business 上加入会议。 通过使用团队和 Skype for business 之间的互操作性功能（前提是这些 Skype for business 用户未处于**孤岛**模式），升级后的用户可以继续与仍在使用 Skype for business 的组织中的其他用户进行通信。 但是，升级后的用户无法启动 Skype for Business 聊天、通话或会议。
 
@@ -88,6 +77,12 @@ ms.locfileid: "44756843"
 有关移动到 "**仅团队**" 模式的其他注意事项，请参阅[仅团队模式注意事项](teams-only-mode-considerations.md)。
 
 ![团队确认消息的屏幕截图](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "在用户作为仅团队用户升级后，在特殊模式下运行的 Skype for Business 客户端")
+
+### <a name="skype-for-business-only"></a>仅 Skype for Business
+
+在此共存模式下，用户将保留在 Skype for Business 中，而不是团队-用于聊天、会议和呼叫功能，并且不使用团队和频道团队。 目前可以使用此模式;但是，在当前实现中，团队和频道不会自动为用户关闭。 可通过使用应用权限策略隐藏团队和频道来实现此目的。
+
+此模式可以在启动团队的托管部署之前使用，以防止用户开始使用团队准备好使用团队，如果用户已获得团队许可，则为对 Skype for business 用户启用团队会议的已验证参与。
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>具有团队协作的 Skype for Business
 
@@ -102,9 +97,6 @@ ms.locfileid: "44756843"
 在此模式下，与团队和基于频道的对话一起使用团队，用户将使用团队安排和开展会议。 Skype for Business 上的私人聊天和通话保持。 团队和 Skype for business 受益于一系列 "更好地协作" 功能，如状态对、自动保留/unhold 以及在两个应用程序中支持 HID 设备支持。 请注意，如果需要使用应用权限策略，则可以隐藏团队和频道。
 
 此共存模式对于具有企业语音的 Skype for Business 本地部署的组织非常有用，他们很可能需要花费一些时间来升级到团队，并且希望尽快获得高级团队会议。
-
-> [!Note]
-> 在除**孤岛**之外的任何共存模式下部署时，团队和 Skype for business 可以[互操作](#interoperability-of-teams-and-skype-for-business)，使用户能够与他人进行聊天，并确保在升级到团队期间通信在整个组织内保持流畅。 共存模式控制互操作性。 接收方的共存模式确定互操作是否可用。 例如，如果接收器处于一种模式下，聊天仅在一台客户端（如团队）中可用，则在发起方使用其他客户端（在此情况下为 Skype for Business）开始聊天时，聊天互操作性通常将可用。 另一方面，如果接收器处于可在两个客户端（即孤岛模式）中提供聊天的模式，则不能对聊天提供互操作。 接收方将在发起聊天的同一客户端中接收消息。 因此，在 "**孤岛**" 模式下正确通信需要团队采用饱和。也就是说，所有用户主动使用和监视这两个客户端。
 
 > [!TIP]
 > 若要帮助在 Skype for Business 仍在使用时根据希望在团队中启用的功能确定推荐的升级模式，请利用[skype To 团队升级向导](https://aka.ms/SkypeToTeamsWizard)。
@@ -121,6 +113,12 @@ ms.locfileid: "44756843"
 互操作性是团队和 Skype for business 用户在团队和 Skype for business 之间通信的能力。
 
 互操作性由接收方的共存模式（也称为升级模式）控制。 接收器处于**孤岛**模式时，没有互操作性。
+
+> [!Note]
+> 在除**孤岛**之外的任何共存模式下部署时，团队和 Skype for business 可以[互操作](#interoperability-of-teams-and-skype-for-business)，使用户能够与他人进行聊天，并确保在升级到团队期间通信在整个组织内保持流畅。 共存模式控制互操作性。 接收方的共存模式确定互操作是否可用。 例如，如果接收器处于一种模式下，聊天仅在一台客户端（如团队）中可用，则在发起方使用其他客户端（在此情况下为 Skype for Business）开始聊天时，聊天互操作性通常将可用。 另一方面，如果接收器处于可在两个客户端（即孤岛模式）中提供聊天的模式，则不能对聊天提供互操作。 接收方将在发起聊天的同一客户端中接收消息。 因此，在 "**孤岛**" 模式下正确通信需要团队采用饱和。也就是说，所有用户主动使用和监视这两个客户端。
+
+> [!Note]
+> **若要获得最新的共存体验，客户端版本必须是用户的 Office 部署频道中的最新可用客户端。**
 
 ### <a name="native-interop-and-interop-escalation"></a>本机互操作和互操作升级
 

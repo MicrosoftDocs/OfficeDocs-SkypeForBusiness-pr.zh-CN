@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29dc02a88efe533f9a43a110c357203b87a890d6
-ms.sourcegitcommit: 6acede580649588334aeb48130ab2a5d73245723
+ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "44523165"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158660"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>从 Skype for Business Online 升级到 Teams
 
@@ -99,8 +99,16 @@ ms.locfileid: "44523165"
 当你验证升级到 "仅团队" 模式并准备好进行扩展时，请重复前面的步骤以将 TeamsOnly 应用于更多用户。  
 
 
-## <a name="phone-system-and-teams-upgrade"></a>电话系统和团队升级
+## <a name="phone-system-and-pstn-connectivity-options"></a>电话系统和 PSTN 连接选项
 
-如果您的 Skype for Business Online 部署包括带有呼叫计划的电话系统，并且 Microsoft 是您的公共交换电话网络（PSTN）提供商，则将用户升级到团队会自动将入站 PSTN 呼叫转到团队。
+用户处于 TeamsOnly 模式后，支持团队的电话系统。 （如果用户处于 "孤岛" 模式，则只有 Skype for Business 才支持电话系统。）  
 
-如果您的 Skype for Business Online 部署包括带有云连接器版本的电话系统，请参阅[电话系统直接路由的其他注意事项](2-envision-make-my-service-decisions-direct-routing.md)。
+### <a name="pstn-connectivity-options"></a>PSTN 连接选项
+
+在考虑公共交换式电话网络（PSTN）连接选项时，从 Skype for Business Online 移动到 TeamsOnly 模式时有两种可能的情形：
+
+- Skype for Business Online 中使用 Microsoft 通话计划的用户。 升级后，此用户将继续拥有 Microsoft 通话计划。 这是只需要几个步骤的最简单方案。 有关详细信息，请参阅[通过 Microsoft 通话计划从 Skype For Business Online](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans)。
+
+- Skype for business Online 中的用户，通过 Skype for business 本地或云连接器版本使用本地语音功能。 用户对团队的升级需要与用户迁移以直接路由，以确保 TeamsOnly 用户具有 PSTN 功能。  有关详细信息，请参阅通过[Skype For Business Online 与本地语音](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice)。
+
+

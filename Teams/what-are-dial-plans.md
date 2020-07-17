@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: '了解团队中提供了何种类型的拨号呼叫计划（PSTN 呼叫拨号计划），以及如何为你的组织选择一个类型的拨号呼叫计划。  '
-ms.openlocfilehash: 3ca0848094e94ff302cfcdeaa80ddd72a3b86698
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ddd2de412d0ddd00135f9b095eb2d14c8fc4c922
+ms.sourcegitcommit: 91f6db3cdb4f2b7761d2b21f0f4eef405edacd5f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836682"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45153574"
 ---
 # <a name="what-are-dial-plans"></a>什么是拨号计划？
 
@@ -57,6 +57,9 @@ ms.locfileid: "41836682"
  **租户用户服务国家/地区**如果定义了租户用户拨号计划并将其分配给用户，则预配用户将收到一套有效的拨号计划，其中包含合并的租户用户拨号计划和与其使用位置相关联的服务国家/地区拨号计划。
 
 请参阅[创建和管理拨号计划](create-and-manage-dial-plans.md)以创建租户拨号计划。
+
+> [!NOTE]
+> 在没有任何拨号计划规范化规则适用于已拨号码的情况下，已拨出的字符串仍然规范化为 "+ 抄送"，其中 CC 是拨号用户使用位置的国家代码。 这适用于呼叫计划、直接路由和 PSTN 会议拨出方案。
 
 ## <a name="planning-for-tenant-dial-plans"></a>规划租户拨号计划
 
@@ -105,7 +108,7 @@ ms.locfileid: "41836682"
 由于任何租户拨号计划与给定用户的服务国家/地区拨号计划有效地合并，因此可能需要评估服务国家/地区拨号计划的规范化规则，以便确定需要哪些租户拨号计划规范化规则。 **Get-CsEffectiveTenantDialPlan** cmdlet 可用于此用途。 该 cmdlet 以用户标识作为输入参数，并将所有适用的规范化规则都返回给用户。
 
 ### <a name="creating-normalization-rules"></a>创建规范化规则
-<a name="createrule"> </a> <a name="regularexpression"> </a>
+<a name="createrule"> </a>
 
 规范化规则使用 .NET Framework 正则表达式指定数字匹配模式，服务器使用这些模式将拨号字符串转换为 E-164 格式。 可以通过指定在找到匹配项时要执行的匹配和转换的正则表达式来创建规范化规则。 完成之后，你可以输入一个测试号码以验证规范化规则是否可按预期工作。
 
@@ -117,11 +120,11 @@ ms.locfileid: "41836682"
 
 下表显示以 .NET Framework 正则表达式形式编写的示例规范化规则。这些示例仅用作示例，不用作创建规范化规则的规范性参考。
 
- **使用 .NET Framework 正则表达式的规范化规则**<a name="#regularexpression"> </a>
+<a name="regularexpression"> </a> 
+ **使用 .net Framework 正则表达式的规范化规则**
 
-||||||
+| 规则名称<br/> | 描述<br/> | 号码模式<br/> | 转换<br/> | 示例<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|**规则名称** <br/> |**说明** <br/> |**号码模式** <br/> |**转换** <br/> |**示例** <br/> |
 |4digitExtension  <br/> |转换 4 位数分机号。  <br/> |^(\\d{4})$  <br/> |+1425555$1  <br/> |将 0100 转换为 +14255550100  <br/> |
 |5digitExtension  <br/> |转换 5 位数分机号。  <br/> |^5(\\d{4})$  <br/> |+1425555$1  <br/> |将 50100 转换为 +14255550100  <br/> |
 |7digitcallingRedmond  <br/> |将 7 位数号码转换为雷德蒙德本地号码。  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |将 5550100 转换为 +14255550100  <br/>|
@@ -135,13 +138,12 @@ ms.locfileid: "41836682"
 
  下表根据上表显示的规范化规则对用于雷德蒙德、华盛顿、美国的示例拨号计划进行说明。
 
-| |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **雷德蒙德拨号计划** <br/>                                                                                                                              |
-| 5digitExtension <br/>                                                                                                                                    |
-| 7digitcallingRedmond <br/>                                                                                                                               |
-| RedmondSitePrefix <br/>                                                                                                                                  |
-| RedmondOperator <br/>                                                                                                                                    |
+| 雷德蒙德拨号计划<br/> |
+|:-----------------------|                                                                                                                      
+| 5digitExtension <br/> |                                                                                                                                    
+| 7digitcallingRedmond <br/> |
+| RedmondSitePrefix <br/> |
+| RedmondOperator <br/> |
 
 > [!NOTE]
 > 上表中所示的规范化规则名称不包含空格，但这是选择的重要内容。 例如，该表中的第一个名称，本应写成"5 digit extension"或"5-digit Extension"，但它仍然有效。

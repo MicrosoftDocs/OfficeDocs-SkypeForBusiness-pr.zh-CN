@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcb1570a87740d899a5f92957c0335e70d7f91ba
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0ef1b81bda61cba281f944499118966d2b9a528d
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665414"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158600"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>选择从 Skype for Business 到团队的升级旅程
 
@@ -56,6 +56,9 @@ ms.locfileid: "44665414"
 若要正式准备您的组织以供团队旅行，您需要开始规划升级方案，最终让您的组织完全接纳团队作为您的唯一的通信和协作解决方案。
 
 为帮助指导制定决策过程，请熟悉各种模式、概念和与从 Skype for Business 升级到团队相关的术语。 有关详细信息，请参阅[Microsoft 团队和 Skype for business 共存和互操作性](https://aka.ms/SkypeToTeams-Coexist)。
+
+> [!NOTE]
+> 你还需要考虑你的语音迁移方案。 电话系统是 Microsoft 365 或 Office 365 云中支持呼叫控制和专用分支交换（PBX）功能的 Microsoft 技术。 若要将电话系统连接到公共交换电话网络（PSTN），以便用户可以拨打世界各地的电话，您可以选择基于业务需求。 有关电话系统和 PSTN 连接选项的详细信息，请参阅[语音电话系统和 pstn 连接](cloud-voice-landing-page.md)。
 
 已迁移到团队的用户不再使用 Skype for business 客户端，除非加入 Skype for business 中托管的会议。 所有传入聊天和呼叫用户团队客户端中的土地，无论发件人是使用团队还是 Skype for business。 由升级用户组织的任何新会议都将计划为团队会议。 如果用户尝试使用 Skype for Business 客户端，则聊天和通话的启动将被阻止<sup>1</sup>。 但是，用户可以（且必须）使用 Skype for Business 客户端加入他们受邀参加的会议。
 

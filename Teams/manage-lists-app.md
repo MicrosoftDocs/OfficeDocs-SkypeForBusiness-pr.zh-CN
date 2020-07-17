@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b7e237ffd041c2207516b714147d555b3a1b9043
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1423c17d57c0074f9e6db1091791eb3f17370414
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138340"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158690"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft 团队中管理你的组织的列表应用
 
@@ -46,7 +46,7 @@ Microsoft 团队中的 "列表" 应用可帮助你的组织中的用户跟踪信
 
 - 使用 "问题跟踪器" 模板跟踪问题并使其关闭。
 - 通过 "活动路线" 模板整理您的所有活动详细信息。
-- 使用病人模板记录患者的需求和状况，以便您的医疗保健组织中的护理团队可以监控和协调护理。
+- 使用病人模板记录患者的需求和状态，以供您的医疗组织中的护理团队监视和协调护理。
 - 通过贷款模板跟踪贷款申请的状态。
 
 ## <a name="example-scenario"></a>示例方案

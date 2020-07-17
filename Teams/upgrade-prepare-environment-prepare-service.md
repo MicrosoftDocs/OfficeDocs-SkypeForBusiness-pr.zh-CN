@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ab67b8a8181398c49e4763b3217a2f1ed770a6a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 359f5071444942fd2209c39b9e93b1b9424ec0e0
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666054"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158680"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>准备要升级到团队的服务
 
@@ -40,9 +40,9 @@ ms.locfileid: "44666054"
 
 本文概述了准备组织与团队进行协作和云语音服务的要求。 通过正确准备，你可以确保你已准备好将这些功能提供给你的组织。
 
-## <a name="onboarding-checklists-for-microsoft-teams-rollout"></a>Microsoft 团队推出的加入清单
+## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>Microsoft 团队推出的加入清单和登陆页面
 
-以下清单将引导你完成在你的组织中部署 Microsoft 团队的步骤：
+以下清单和登陆页面将引导你完成在你的组织中部署 Microsoft 团队的步骤：
 
 - [为团队准备 Microsoft 365 或 Office 365](onboarding-checklist-enable-office-365.md)
 
@@ -50,9 +50,12 @@ ms.locfileid: "44666054"
 
 - [准备网络](prepare-network.md)
 
-- [在团队中配置云语音工作负荷](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+- [聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
-- [配置团队中的直接路由](onboarding-checklist-configure-direct-routing-in-microsoft-teams.md)
+- [会议和音频会议](deploy-meetings-microsoft-teams-landing-page.md)
+
+- [电话系统和 PSTN 连接选项](cloud-voice-landing-page.md)
+
 
 这些清单中的任务和活动是应用于团队的每个协作和语音功能部署的核心 "待办事项" 项目。 你可以自定义清单，以包括特定于你自己的团队旅行的活动和任务。
 

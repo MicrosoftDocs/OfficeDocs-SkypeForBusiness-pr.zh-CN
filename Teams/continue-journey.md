@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be512ac7726defdd2879114eb47ed3e66a229e30
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0ed9c6b55551e7541f8074b71f67abd57851df9c
+ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751534"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45158500"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>如何有效使用 Microsoft 团队
 
@@ -37,10 +37,10 @@ ms.locfileid: "44751534"
 
 ## <a name="monitor-for-network-health-and-quality"></a>监视网络运行状况和质量
 
-您的网络状态会影响用户体验。 当用户的体验不好（例如，加入会议时的通话中断或延隔时间）时，他们将其与技术本身相关联，让他们与技术不起作用并为不受支持的应用打开门。 实施计划以监控和缓解网络运行状况除了减少对支持台的通话之外，还有助于确保用户获得良好的体验。 有关详细信息，请参阅以下文章：
+您的网络状态会影响用户体验。 当用户的体验不好（例如，加入会议时的通话中断或延隔时间）时，他们将其与技术本身相关联，让他们与技术不起作用并为不受支持的应用打开门。 实施计划以监控和缓解网络运行状况除了减少对支持台的通话之外，还有助于确保用户获得良好的体验。 有关详细信息，请参阅：
 
 - [运行服务](upgrade-operate-my-service.md)
-- [监控质量](upgrade-monitor-quality.md)
+- [监控和提高通话质量](monitor-call-quality-qos.md)
 - [增强服务](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>促进用户发展势头和采纳
