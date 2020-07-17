@@ -17,12 +17,12 @@ description: 了解如何使用外部访问（联合身份验证）和来宾访�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 8676c45a386a9fb36571e3262a8c70769f45f0a6
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 61cbaf6b869ffb0ff377615081953d16a6a63aea
+ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785274"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "45125965"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>与 Microsoft Teams 中其他组织的用户通信
 ======================================================
@@ -47,7 +47,7 @@ ms.locfileid: "44785274"
 使用**来宾访问**将单个用户（无论来自哪个域）添加到团队，以便他们可以聊天、呼叫、召开会议和使用Microsoft 365 或 Office 365 应用（如 Word、Excel 或 PowerPoint）就组织文件（存储在 SharePoint 或 OneDrive for Business）进行协作。 可以为来宾用户提供与本机团队成员几乎所有相同的 Teams 功能。 要了解详细信息，请阅读 [Teams 中的来宾访问](guest-access.md)。
 
 - 来宾已添加到组织的 Active Directory 中。
-- 要与来宾通信，来宾必须使用其来宾帐户登录到 Teams。 这意味着，来宾可能必须注销自己的 Teams 帐户才能登录到 Teams 帐户。
+- 要与来宾通信，来宾必须使用其来宾帐户登录到 Teams。 这意味着，来宾可能必须注销自己的 Teams 帐户才能登录到你的 Teams 帐户，如果它们是同一个帐户请切换组织。
 - 与外部访问（联合）用户相比，来宾用户有权访问 Teams 中的更多资源（例如文件、团队和频道）。
 - Teams 管理员在 Teams 管理中心中控制来宾可以（或不可）执行的所有操作。 要了解详细信息，请阅读[管理来宾访问](manage-guests.md)。
 

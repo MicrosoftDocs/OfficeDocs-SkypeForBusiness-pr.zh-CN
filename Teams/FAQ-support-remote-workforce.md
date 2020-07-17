@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指南支持在家中工作 (WFH) 的远程员工提高生产力，来应对新型冠状病毒（COVID-19）的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 483aaab4fc21028c79fb6fd8cdc0b5044792985c
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 9335f890f3d466ed467025c5ab7b828e2db516b9
+ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028108"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45138002"
 ---
 # <a name="faq-support-your-remote-workforce"></a>常见问题解答：支持远程工作人员
 
@@ -103,6 +103,10 @@ Microsoft 提供[适用于 Office 365 的 FastTrack 中心权益](https://docs.m
 
 如果是首次授权或启用用户，但已拥有 Microsoft 365 一段时间，则你可能需要为你的组织[启用 Teams](Office-365-set-up.md)。 请参阅本文中中的“[我已有 Microsoft 365，但没有使用 Teams。是否提供试用版许可证？](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)”。
 
+### <a name="in-meetings-attendees-are-having-trouble-joining-by-dialing-in---calls-arent-getting-through"></a>会议期间，与会者在通过拨入电话加入会议时遇到麻烦，电话打不通。
+
+在会议容量较高期间（随着新型冠状肺炎 (COVID-19) 爆发，我们一直面临此问题），建议用户通过单击“加入团队会议”按钮来加入会议，而不是使用 PSTN 会议号码或“给我打电话”。<strong></strong><strong></strong> 这有助于在高容量会议造成 PSTN 网络拥堵时确保音频质量。 
+
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>是否可以搭配 Microsoft 提供的 Office 365 E1 试用版使用通话计划？ 是否可以将电话号码分配给给我的用户？ 我要花多少钱？
 
 用户可以在任何版本的 Teams 中，进行应用至应用语音和视频通话。 若要将电话号码分配给员工，需要[电话系统](what-is-phone-system-in-office-365.md)。 建议与 Microsoft 合作伙伴或销售代表合作，以获取并部署此电话系统。 若要深入了解，请参阅[使用 Microsoft Teams 进行语音和视频通话](https://products.office.com/microsoft-teams/voice-calling)。
@@ -119,4 +123,6 @@ IT 管理员/IT 专业人员：[使用 Teams 支持远程工作人员](support-r
 
 ### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>新型冠状病毒（COVID-19）爆发期间，Microsoft 正在采取哪些措施为员工提供支持？
 
-阅读 Microsoft 总裁 2020 年 3 月 5 日的文章：[《我们在致力于保护公共健康的同时，我们也需要保护园区支持小时工的收入》](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+阅读 Microsoft 总裁 Brad Smith 2020 年 3 月 5 日的文章：[《我们在致力于保护公共健康的同时，也需要保护支持我们园区的小时工的收入》](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)。
+
+此外，请务必访问 Microsoft.com 上的[共同应对 COVID-19](https://news.microsoft.com/covid-19-response/?icid=mscom_marcom)。
