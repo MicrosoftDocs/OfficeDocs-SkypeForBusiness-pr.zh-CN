@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议已认证，可供 Microsoft 团队获得最佳效果。
-ms.openlocfilehash: 4dc1438261271b57796b0907def79a4affdc167b
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: a4789f23f79b48001bd2c411eeefe592267c4c24
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021730"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166750"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -53,8 +53,8 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 | 联想 ThinkSmart 视图                 | 18781Y 200410.067                                                                                                                                                                                                                       | 2020年4月                   |
 | Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020年4月                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020年1月                 |
-| Poly CCX600                            | 5.9.12.1111                                                                                                                                                                                                                                | 2020年1月                 |
-| Poly CCX500                            | 5.9.12.1111                                                                                                                                                                                                                                | 2019年12月                |
+| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020年1月                 |
+| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019年12月                |
 | Poly Trio 8500/8800 （仅限共享模式） | 5.9.0.10869                                                                                                                                                                                                                                | 2019年6月                    |
 | Yealink MP56                           | 122.15.0.6                                                                                                                                                                                                                                 | 2020年3月                   |
 | Yealink VP59                           | 91.15.0.16                                                                                                                                                                                                                                 | 2019年6月                    |
@@ -91,6 +91,7 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 
 | 设备模型        | 固件版本     | 包含产品发布 |
 |:--------------------|:---------------------|:-------------------------|
+| AudioCodes C448HD   | C450HD_TEAMS_1 4.208 | 更新 #4                |
 | AudioCodes C450HD   | C450HD_TEAMS_1 4.208 | 更新 #4                |
 | Poly CCX400         | 1.0.1.0054           | 更新 #3                |
 | Poly CCX500/CCX600  | 5.9.13.0306          | 更新 #3                |

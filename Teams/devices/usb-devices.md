@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 Microsoft 团队认证了哪些 USB 外围设备和设备，如耳机、免提、网络摄像头和监视器。
-ms.openlocfilehash: 587b4cd4af1c80709fe1f9c306d34f32ef2d37e5
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
+ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666104"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45166740"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>为 Microsoft 团队认证的 USB 音频和视频设备
 
@@ -74,10 +74,11 @@ ms.locfileid: "44666104"
 
 ## <a name="certified-devices"></a>认证的设备
 
-*更新的表格可能2020*
+*2020年7月更新的表*
 
 | 制造商        | 型                                                     | 获      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Bose                 |NC 700 耳机                                             |6/8/2020        |适用于 Microsoft 团队的认证|
 |Jabra evolve              | 通过 Jabra evolve 链接 370 USB 转换器讲话750免提电话       | 5/21/2020 | 适用于 Microsoft 团队的认证|
 | EPOS                | Sennheiser 调整660耳机                              | 5/15/2020      | 适用于 Microsoft 团队的认证                          |
 | EPOS                | Sennheiser 调整560耳机                              | 5/15/2020      | 适用于 Microsoft 团队的认证                          |
@@ -134,5 +135,5 @@ ms.locfileid: "44666104"
 | Polycom             | Elara                                                     | 11/06/2019     | 适用于 Microsoft 团队的认证                          |
 | Polycom             | Studio Soundbar                                           | 10/18/2019     | 适用于 Microsoft 团队的认证                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | 适用于 Microsoft 团队的认证                          |
-| Jabra evolve               | PanaCast                                                  | 08/14/2019     | 已认证 Microsoft                                |
+| Jabra evolve               | PanaCast                                                  | 08/14/2019     | 适用于 Microsoft 团队的认证                          |
 
