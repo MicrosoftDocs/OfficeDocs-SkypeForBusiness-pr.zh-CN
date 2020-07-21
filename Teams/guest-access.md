@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c025e408842c3d883112b7c99d930fc77db47435
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 1a2012464d3847cf15ae76fd9c5b5b453d810fa7
+ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44867969"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "45143783"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 ======================================
@@ -46,7 +46,7 @@ ms.locfileid: "44867969"
 
 ## <a name="licensing-for-guest-access"></a>来宾访问的许可
 
-所有 Microsoft 365 商业标准版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 或 Office 365 许可证。 Teams 不限制可添加的来宾数量。 但是，可添加到租户的来宾总数取决于 Azure AD 许可所允许的数量（通常为每个许可用户可添加 5 个来宾）。 有关详细信息，请参阅 [Azure AD B2B 协作授权](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
+所有 Microsoft 365 商业标准版、Office 365 企业版和 Office 365 教育版订阅均包含来宾访问功能。 无需额外的 Microsoft 365 或 Office 365 许可证。 Teams 不限制可添加的来宾数量。 但是，可添加到你的租户的来宾总数可能受到 Azure AD 的付费功能的限制。 有关详细信息，请参阅 [Azure AD B2B 协作授权](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
 
 
 > [!NOTE]

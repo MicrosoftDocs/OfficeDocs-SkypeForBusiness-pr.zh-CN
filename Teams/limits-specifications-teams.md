@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a864e810df8cdd69a9c8a2e9bb29524147a3b865
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
+ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45137902"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "45146068"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -125,6 +125,9 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |常规，设有结束时间     |结束时间 + 60 天         |60 天         |
 |定期，无结束时间     |开始时间 + 60 天         |60 天         |
 |定期，设有结束时间     |上次会议的结束时间 + 60 天         |60 天         |
+
+> [!NOTE]
+> Microsoft Teams 会议的时间限制为 24 小时。 
 
 ## <a name="teams-live-events"></a>Teams 实时事件
 
