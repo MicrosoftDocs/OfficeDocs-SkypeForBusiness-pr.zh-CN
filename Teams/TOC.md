@@ -227,7 +227,7 @@
 <!-- ============================================================ -->
 
 
-# 云语音 
+# 语音电话系统和 PSTN 连接 
 
 ## [规划部署](cloud-voice-landing-page.md)
 
@@ -517,6 +517,7 @@
 #### [登记项目干系人](upgrade-enlist-stakeholders.md)
 #### [定义项目范围](upgrade-define-project-scope.md)
 #### [了解共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+#### [了解手机系统和 PSTN 连接选项](cloud-voice-landing-page.md)
 #### [选择升级旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 #### [规划用户试点](pilot-essentials.md)
 
@@ -537,11 +538,7 @@
 ### [将 Skype for Business Online 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
 ### [将本地 Skype for Business 升级到 Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
 
-## 运行、采用和优化
-### [运营计划概述](continue-journey.md)
-### [运行服务](upgrade-operate-my-service.md)
-### [监控质量](upgrade-monitor-quality.md)
-### [增强服务](upgrade-enhance-my-service.md)
+## [运行、采用和优化](continue-journey.md)
 
 ## [Skype for Business Online 停用](skype-for-business-online-retirement.md)
 ## [常见问题解答](FAQ-journey.md)
@@ -700,6 +697,8 @@
 
 <!-- ============================================================ -->
 # 监视、维护和疑难解答
+## [运行服务](upgrade-operate-my-service.md)
+## [增强服务](upgrade-enhance-my-service.md)
 ## 监视和管理通话质量
 ### [监视和改善通话质量](monitor-call-quality-qos.md)
 ### 通话质量仪表板 (CQD)
@@ -723,6 +722,9 @@
 ### 服务质量 (QoS)
 #### [在 Teams 中设置 QoS](QoS-in-Teams.md)
 #### [在 Windows 客户端上设置 QoS](QoS-in-Teams-clients.md)
+
+
+
 ## [Teams 疑难解答](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 ## [解决安装和更新问题](troubleshoot-installation.md)
 ## [对 Teams 客户端的连接问题进行故障排除](connectivity-issues.md)
@@ -934,5 +936,7 @@
 ### [Microsoft 365 中的通话套餐 - 英国操作守则](code-of-practice-for-the-united-kingdom-u-k.md)
 ### [Microsoft 365 中的通话套餐 - 英国合规处理守则](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
+
+## [升级发现调查表](upgrade-plan-journey-discovery-questionnaire.md)
 
 ## [Teams 管理员功能的发行说明](release-notes/release-notes.md)
