@@ -1,5 +1,5 @@
 ---
-title: 语音使用策略
+title: 语音用法策略
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cf6a2441-d8ad-4e45-8049-8d83f1fb5f28
 ROBOTS: NOINDEX, NOFOLLOW
-description: 有关使用 Skype for Business 服务器控制面板可以执行的不同过程的详细信息，请参阅管理 Skype for business 服务器。
-ms.openlocfilehash: 781d00911c0d4d1ea1fb197bbc67fd8b80909b6c
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 有关使用 Skype for Business Server 控制面板可执行的不同过程的详细信息，请参阅管理 Skype for Business Server。
+ms.openlocfilehash: 075068b924c009df1d142c4c16253d38826f974a
+ms.sourcegitcommit: e2ce0a0c26f31bb09413c0999380301d7b693331
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41797423"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45189194"
 ---
-# <a name="voice-usage-policy"></a>语音使用策略
+# <a name="voice-usage-policy"></a>语音用法策略
  
-有关可通过使用 Skype for Business 服务器控制面板执行的不同过程的详细信息，请参阅在[skype for Business server 2019](../../../../SfBServer2019/skype-for-business-server-2019.md)中管理文章。
+有关使用 Skype for Business Server 控制面板可执行的不同过程的详细信息，请参阅在[skype For Business server 2019](../../../../SfBServer2019/skype-for-business-server-2019.yml)中管理文章。
   
 
