@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 448534a9cab210be71f36ac034207d35e2b9f5f7
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: b352493f408f9adbc41fc978c4990f3d07f7a410
+ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281697"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170601"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>通话套餐的国家和地区可用性
 
@@ -36,7 +36,7 @@ Microsoft 365 商务语音在 70 多国家和地区可用。 本文后面的表�
 - 无需再订阅第三方电话提供商即可管理电话号码。
 - 不再需要任何本地电话服务设备（桌面手机等最终用户设备除外）。
 
-如果你的租户所在的国家或地区支持通话套餐和“入门”向导，请查看[需要购买哪些产品才能使用有通话套餐的 Microsoft 365 商务语音](what-to-buy.md)。
+如果你的租户所在的国家或地区支持通话套餐和“入门”向导，请查看[需要购买哪些产品才能使用有通话套餐的 Microsoft 365 商务语音？](what-to-buy.md)。
 
 在**不支持**通话套餐和“入门”向导的国家/地区，需要从 Microsoft 合作伙伴或经销商处购买商务语音。 购买商务语音后，你需要与合作伙伴或经销商和第三方电话提供商一起设置本地电话服务硬件和 Microsoft 365 之间的直接路由。
 
@@ -55,6 +55,7 @@ Microsoft 365 商务语音在 70 多国家和地区可用。 本文后面的表�
 | 英国       | X                                    | X<sup>1</sup>                                               | X                      |
 | 美国        | X                                    | X<sup>1</sup>                                               | X                      |
 | 阿根廷            |                                      | X                                                           |                        |
+| 澳大利亚            |                                      | X                                                           |                        |
 | 奥地利              |                                      | X                                                           |                        |
 | 比利时              |                                      | X                                                           |                        |
 | 伊朗 |                                      | X                                                           |                        |

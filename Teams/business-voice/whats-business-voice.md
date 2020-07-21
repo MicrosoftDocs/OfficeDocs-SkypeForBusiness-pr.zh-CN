@@ -17,18 +17,22 @@ search.appverid: MET150
 description: Microsoft 365 商业语音的概述，并介绍它如何帮助中小型企业更高效地沟通。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e4798a8e449bf3ee9128938305795f617099af1
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: c0c05df37c54fb63b885c4e67fda36a1f000b92f
+ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690818"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "45170611"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什么是 Microsoft 365 商务语音？
 
 使用 Microsoft 365 商务语音，中小型组织可轻松将 Microsoft Teams 转变为功能强大且灵活的电话系统。 使用它，难以管理且管理成本很高的传统电话提供程序和内部电话系统将不再存在。 可以设置收费和免费电话号码、呼叫菜单，帮助呼叫者接入正确的部门、音频会议，便于你与任何人一起主持会议并执行更多操作。 你甚至可以向用户提供他们自己的电话号码，方便他们直接呼叫。
 
 商务语音通过将 Microsoft 365 电话系统功能封装到易于管理的捆绑包中来实现所有这些功能。 你无需担心是否选择了正确的计划或功能，一切都已为你准备就绪。 由于电话系统是 Teams 的一部分，因此可以将任何电脑、Mac 或移动设备转换为可使用你的商务语音电话号码的电话。
+
+这是一个简短的视频，提供了 Business Voice 的概述（2:13分钟）：
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4C56M]
 
 如果你的组织员工不超过 300 人，并且你有以下 Microsoft 365 订阅之一，那么商务语音非常适合你：
 
@@ -38,12 +42,12 @@ ms.locfileid: "44690818"
 - Microsoft 365 F1
 - Microsoft 365 F3
 - Office 365 F3
-- Microsoft 和 Office 365 企业版 E1、E3 或 E5
-- Microsoft 365 和 Office 365 教育版 A1、A3 或 A5
-- Microsoft 365 和 Office 365 政府版 G1、G3 或 G5 （仅适用于 GCC）
+- Microsoft 和 Office 365 企业版 E1 或 E3
+- Microsoft 365 和 Office 365 教育版 A1 或 A3
+- Microsoft 365 和 Office 365 政府版 G1 或 G3
 - Microsoft 365 非营利组织商业基本版
 - Microsoft 365 非营利组织商业标准版
-- Microsoft 365 和 Office 365 非营利组织版 E1、E3 或 E5
+- Microsoft 365 和 Office 365 非营利组织版 E1 或 E3
 
 商务语音在 70 国家和地区可用。 是否可以自行设置商务语音，将电话号码转移到 Microsoft 365 以及在 Microsoft 365 中管理电话号码，取决于 Microsoft 365 租户所在的国家或地区。 有关详细信息，请查看“[通话套餐的国家和地区可用性](country-region-availability.md)。
 
