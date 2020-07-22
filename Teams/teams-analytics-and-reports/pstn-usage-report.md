@@ -17,12 +17,12 @@ description: 了解如何使用 Microsoft 团队管理中心中的 "团队 PSTN 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 18fce1d70308fcdc58441bb1a5cad8a446131e0e
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918570"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201196"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft 团队 PSTN 使用报告
 
@@ -30,16 +30,19 @@ Microsoft 团队管理中心中的 "团队 PSTN 使用情况" 报表概括介绍
 
 "**呼叫计划**" 选项卡显示信息，包括用户在入站和出站 PSTN 呼叫中花费的分钟数以及这些呼叫的开销。 **直接路由**选项卡显示您的信息，包括 SIP 地址和通话开始和结束时间。 使用此报告中的信息可深入了解你的组织中的 PSTN 使用情况，并帮助你调查、规划和制定业务决策。
 
+> [!NOTE]
+> 如果您有 Telstra 或 Softbank 通话计划，则在 PSTN 使用报告中将看不到任何通话详细记录。 请联系 Telstra 或 Softbank，以满足你的报告需求。 
+
 ## <a name="view-the-pstn-usage-report"></a>查看 PSTN 使用情况报告
 
-1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 " **PSTN 使用情况报告**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告**  >  **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 " **PSTN 使用情况报告**"。
 2. 在 "**日期范围**" 下，选择7天或28天的预定义范围，或设置自定义范围，然后选择 "**运行报表**"。
 
 ## <a name="interpret-the-report"></a>解释报告
 
 ### <a name="calling-plans"></a>通话套餐
 
-![管理中心中的呼叫计划 PSTN 使用情况报告报告的屏幕截图](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "使用编号标注的 Microsoft 团队管理中心中的 PSTN 使用情况报告的屏幕截图")
+[![管理中心中的呼叫计划 PSTN 使用情况报告报告的屏幕截图](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "使用编号标注的 Microsoft 团队管理中心中的 PSTN 使用情况报告的屏幕截图")](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |标注 |说明  |
 |--------|-------------|
@@ -54,7 +57,7 @@ Microsoft 团队管理中心中的 "团队 PSTN 使用情况" 报表概括介绍
 
 ### <a name="direct-routing"></a>直接路由
 
-![管理中心中直接路由 PSTN 使用情况报告报告的屏幕截图](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "使用编号标注的 Microsoft 团队管理中心中的直接路由 PSTN 使用报告的屏幕截图")
+[![管理中心中直接路由 PSTN 使用情况报告报告的屏幕截图](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "使用编号标注的 Microsoft 团队管理中心中的直接路由 PSTN 使用报告的屏幕截图")](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |标注 |说明  |
 |--------|-------------|
@@ -90,11 +93,11 @@ Microsoft 团队管理中心中的 "团队 PSTN 使用情况" 报表概括介绍
 
 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。 导出的文件包含在联机报表中不可用的其他字段。 这些可用于疑难解答和自动化工作流。
 
- 您将收到名为 "**调用. 导出 ...`[identifier]`" 的 zip 文件。zip**"，其中标识符是可用于疑难解答的导出的唯一 ID。
+ 您将收到名为 "**调用. 导出 ..." 的 zip `[identifier]` 文件。zip**"，其中标识符是可用于疑难解答的导出的唯一 ID。
 
-如果既有通话计划又有直接路由，则导出的文件可能包含两个产品的数据。 PSTN 使用报告文件将具有文件名 "**PSTN.`[UTC date]`"。csv**"和直接路由"**DirectRouting`[UTC date]`"。csv**"。
+如果既有通话计划又有直接路由，则导出的文件可能包含两个产品的数据。 PSTN 使用报告文件将具有文件名 "**PSTN. `[UTC date]` "。csv**"和直接路由"**DirectRouting `[UTC date]` "。csv**"。
 
- 除了 PSTN 和直接路由文件，存档中还包含带有所选导出时间范围和功能的文件 "**参数. json**"。
+ 除了 PSTN 和直接路由文件，存档中还包含文件 "**parameters.json**" 和所选的导出时间范围和功能。
 
 导出的文件采用逗号分隔值（CSV）格式，符合[RFC 4180](https://tools.ietf.org/html/rfc4180)标准。 可以在 Excel 或任何其他符合标准的编辑器中打开文件，无需任何转换。
 

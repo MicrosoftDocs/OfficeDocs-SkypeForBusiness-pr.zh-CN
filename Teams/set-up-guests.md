@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 297a101389de2e1609697ffa2c30a2a8b7a84080
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 8124a2acddc9488d22c4579412f665d8cc090553
+ms.sourcegitcommit: 712c1ac5dd8c4b2faacad80aca9cbb1e4ccfb985
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042774"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45204347"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>打开或关闭对 Microsoft 团队的来宾访问
 ===================================================
@@ -70,15 +70,7 @@ ms.locfileid: "45042774"
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 打开或关闭来宾访问
 
-已阅读["使用 PowerShell" 打开或关闭来宾访问](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
-
-
-## <a name="video-adding-guests-in-teams"></a>视频：在团队中添加来宾
-
-|  |  |
-|---------|---------|
-| 在 Microsoft Teams 中添加来宾   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
-
+已阅读["使用 PowerShell" 以打开或关闭来宾访问](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)。
 
 ## <a name="external-access-federation-vs-guest-access"></a>外部访问（联合身份验证）与来宾访问
 

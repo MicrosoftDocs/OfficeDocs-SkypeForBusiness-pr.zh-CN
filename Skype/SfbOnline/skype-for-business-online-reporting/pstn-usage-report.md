@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的 Skype for Business 管理中心报告区域显示你的组织中的通话和音频会议活动。 它使您能够深入查看报表，让您更细致地了解每个用户的活动。 例如，你可以使用 Skype for Business PSTN 使用详细信息报告查看拨入/拨出呼叫的通话时长以及这些呼叫的费用。 你可以查看音频会议 PSTN 使用详细信息，包括通话费用，以便你可以了解你的使用情况并拨打帐单详细信息以确定你的组织中的使用情况。
-ms.openlocfilehash: e298bc79b821a8ec8373186a879b94790bc9d151
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 09d372f6526d14a65e878271a1b277fc19d7d3e4
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918510"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201166"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用报告
 
@@ -41,7 +41,7 @@ ms.locfileid: "43918510"
 
 ![显示 Skype for Business 徽标的图标](../images/sfb-logo-30x30.png) **使用 Skype for Business 管理中心**
 
-- 转到管理中心 >**管理中心** > **Skype for business 管理中心** > **报告** > **PSTN 使用详细信息**。
+- 转到管理中心 >**管理中心**  >  **Skype for business 管理中心**  >  **报告**  >  **PSTN 使用详细信息**。
     
     > [!NOTE]
     > 你可能无法看到此处所示的所有产品和报告，具体取决于你拥有的 Microsoft 365 或 Office 365 订阅。
@@ -52,7 +52,7 @@ ms.locfileid: "43918510"
   
 以下是此报告的外观。
   
-![Skype for Business PSTN 使用报告](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)
+[![Skype for BUSINESS PSTN 使用报告 ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
 ![第一](../images/sfbcallout1.png)<br/>该表格显示了按用户细分的全部 PSTN 使用情况。 此示例显示分配有 Skype for Business 的所有用户及其 PSTN 使用情况。 你可以添加/删除表格的列。
@@ -103,7 +103,7 @@ ms.locfileid: "43918510"
 > 在某些字段中，您可能还会看到 "无数据"。 "无数据" 表示该字段不适用于通话类型或功能。 
 
 > [!NOTE]
-> 如果您有 Telstra 呼叫计划，则在 PSTN 使用报告中将看不到任何通话详细记录。 请联系 Telstra 以满足您的报告需求。 
+> 如果您有 Telstra 或 Softbank 通话计划，则在 PSTN 使用报告中将看不到任何通话详细记录。 请联系 Telstra 或 Softbank，以满足你的报告需求。 
 ***
 ![第二](../images/sfbcallout2.png)<br/>如果你希望创建将一列或多列中的所有数据进行分组的视图，请单击某个列并将其拖动到" **若要按特定列进行分组，请将列标题拖至此处**"。
  ***
@@ -114,9 +114,9 @@ ms.locfileid: "43918510"
 
 此操作会导出所有用户数据并允许你执行简单的排序和筛选以进行更详细的分析。
 
-导出过程可能需要几秒钟到几分钟才能完成，具体取决于数据的数量。 当服务器完成导出时，您将收到名为 "调用. 导出" 的 zip 文件 **。 [] `identifier`.zip**"，其中标识符是导出的唯一 ID，可用于疑难解答。
+导出过程可能需要几秒钟到几分钟才能完成，具体取决于数据的数量。 当服务器完成导出时，你将收到名为 "**Calls. []" 的 zip 文件 `identifier` 。zip**"，其中标识符是导出的唯一 ID，可用于故障排除。
 
-如果既有通话计划又有直接路由，则导出的文件可能包含两个产品的数据。 PSTN 使用报告文件将具有文件名 "**PSTN."。 [] `UTC date`**。 除了 PSTN 和直接路由文件，存档中还包含文件 "**参数. json**"，其中包含所选的导出时间范围和功能（如果有）。
+如果既有通话计划又有直接路由，则导出的文件可能包含两个产品的数据。 PSTN 使用报告文件将具有文件名 "**PSTN. []" `UTC date` 。csv**"。 除了 PSTN 和直接路由文件，存档中还包含 "**parameters.js**" 文件，并具有所选的导出时间范围和功能（如果有）。
 
 导出的文件是一个逗号分隔值（CSV）文件，符合[RFC 4180](https://tools.ietf.org/html/rfc4180)标准。 该文件可以在 Excel 或任何其他符合标准的编辑器中打开，无需任何转换。
 

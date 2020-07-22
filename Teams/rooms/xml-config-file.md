@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: 77fc064157d57a2584e4a527148a143680010832
-ms.sourcegitcommit: 44e47c3b2eb44c38cb8d761befdc6c0cef7c61bc
+ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "44842013"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201246"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
 
@@ -49,6 +49,10 @@ ms.locfileid: "44842013"
     <AutoAcceptProximateMeetingInvitations>false</AutoAcceptProximateMeetingInvitations>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
+    <WebExMeetingsEnabled>true</WebExMeetingsEnabled>
+    <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
+    <CustomDisplayNameForThirdPartyMeetings>Rainier Conference Room</CustomDisplayNameForThirdPartyMeetings>
+    <CustomDisplayEmailForThirdPartyMeetings>RanierConf@contoso.com</CustomDisplayEmailForThirdPartyMeetings> 
     <DualScreenMode>true</DualScreenMode>
     <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
@@ -94,6 +98,10 @@ ms.locfileid: "44842013"
 | \<ConfigureDomain\>  |字符串 &#x2778;  ||你可以列出多个域，以逗号分隔。 |
 |\<TeamsMeetingsEnabled\> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 <br/> <br/> 如果两者均被禁用，则认为 XML 文件的格式不正确 \<SkypeMeetingsEnabled\> \<TeamsMeetingsEnabled\> ，但可以同时启用这两个设置。 |
 |\<IsTeamsDefaultClient> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 |
+|\<WebExMeetingsEnabled\> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态。 <br/> <br/> 如果为 true，则为 Cisco Webex 会议启用直接来宾加入体验。|
+|\<UseCustomInfoForThirdPartyMeetings\> |布尔 &#x2777;  |第一 &#x2776;  |默认情况下处于禁用状态，并使用会议室帐户信息加入第三方会议。 <br/> <br/> 如果此值设置为 true，则必须同时指定二者 \<CustomDisplayNameForThirdPartyMeetings\> \<CustomDisplayEmailForThirdPartyMeetings\> 。|
+|\<CustomDisplayNameForThirdPartyMeetings\> |字符串 &#x2778;  |第一 &#x2776;  |指定用于加入第三方会议的来宾名称。 第三方服务将在其体验中显示此数据，并且可能会存储在其服务中。|
+|\<CustomDisplayEmailForThirdPartyMeetings\> |字符串 &#x2778;  |第一 &#x2776;  |指定用于加入第三方会议的来宾电子邮件。 第三方服务将在其体验中显示此数据，并且可能会存储在其服务中。|
 |\<BluetoothAdvertisementEnabled> |布尔 &#x2777;  |第一 &#x2776;  |默认为启用。 |
 |\<AutoAcceptProximateMeetingInvitations> |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则自动接受基于邻近感应的会议。 默认情况下处于禁用状态。 |
 |\<DualScreenMode\>  |布尔 &#x2777;  |第一 &#x2776;  |如果为 true，则启用双屏幕模式。 否则，设备使用单一屏幕模式。 |

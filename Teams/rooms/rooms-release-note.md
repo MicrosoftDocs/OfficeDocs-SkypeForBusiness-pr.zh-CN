@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft 团队聊天室的发行说明，其中列出了 Microsoft 团队聊天室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 68101e5787db85e0b3136e292a332fd9c1a62ecf
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021870"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201176"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -29,6 +29,7 @@ ms.locfileid: "45021870"
 
 |新版 |已发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.5.33.0 |07/20/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -64,6 +65,17 @@ ms.locfileid: "45021870"
 |RTM （1.0.8） |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和问题解决
+
+### <a name="45330-07202020"></a>4.5.33.0 （07/20/2020）
+此更新中引入的内容：
+- 通过直接来宾加入，从团队聊天室加入 Cisco Webex 会议
+- 团队管理中心支持和自动注册
+- Windows 10 1909 版本支持
+- 切换到视频库布局（即使内容存在）
+- 面向演示者的与会者和控件的虚拟举手支持
+- 适用于会议和默认扬声器的可调默认音量设置
+- 从团队聊天室搜索和调用联盟用户（租户）
+    
 
 ### <a name="44630-06252020"></a>4.4.63.0 （06/25/2020）
 

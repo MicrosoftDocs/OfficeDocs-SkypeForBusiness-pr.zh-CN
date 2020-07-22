@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: 了解 Microsoft 团队聊天室的生命周期支持，包括动态支持结构及其阶段。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f27f2d9b36f0b425bf73e500c089e4e5bbacc6ee
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 196f4e7e6384ffa0f0d59478e1a0cb326bf4b984
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691188"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201186"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft 团队聊天室应用版本支持
  
@@ -54,8 +54,8 @@ Microsoft 团队聊天室设备上不会立即提供或更新 Windows 10 功能�
 |版本  |可用性日期   |Microsoft 团队会议室支持状态   |Microsoft 团队会议室最小应用程序版本 | 推荐的操作系统内部版本  |
 |:---  |:---       |:---                                  |:---     |:---     |
 | 2004 |2020-05-27 |在 "验证" 下， <br/>不推荐|&#x2014; |19041.264 |
-| 1909 |2019-11-12 |验证完成， <br/>无已知问题。|即将提供 |18363.418  |
-| 1903 |2019-05-21 |能 <br/>推荐  |4.2.4.0 |18362.356 |
+| 1909 |2019-11-12 |能 <br/>推荐 |4.5.33.0 |18363.418  |
+| 1903 |2019-05-21 |支持  |4.2.4.0 |18362.356 |
 | 1809 |2019-03-28 |路经 <br/>不推荐 &#x2780;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |支持                             |4.1.22.0 |17134.191|
 | 1709 |2018-01-18 |不支持                         |&#x2014; |&#x2014; |

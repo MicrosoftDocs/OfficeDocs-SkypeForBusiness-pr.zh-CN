@@ -16,12 +16,12 @@ description: 本文介绍 Microsoft 团队中的哪些信息障碍以及他们�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc9bbd3f3ff190eee3aa0b44ba68dfd8eb9aab6a
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121702"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202908"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
@@ -31,7 +31,7 @@ ms.locfileid: "45121702"
 > - 不能跨租户创建信息障碍组。
 > - 版本1不支持使用机器人添加用户。
 > - 专用频道符合您配置的信息屏障策略。
-> - 新增：连接到团队的 SharePoint 网站的信息屏障支持现在处于私人预览版中。 单击[此处](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u)参与私人预览版。
+> - 新增：有关连接到团队的 SharePoint 网站的障碍支持的信息，请单击[此处](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
 信息屏障策略还可防止查找和发现。 这意味着，如果你尝试与不应与之通信的人员进行通信，你将在人员选取器中找不到该用户。
 
@@ -171,6 +171,8 @@ Enrico 无法再向群组聊天发送消息。
 
 例如：在 Contoso Bank corporation 中，用户 "Sesha@contosobank.onmicrosoft.com" 属于 "投资银行" 段，而用户 "Nikita@contosobank.onmicrosoft.com" 属于 "部门咨询"。 组织的 IB 策略阻止这两个网段之间的通信和协作。
 当用户 Sesha 为投资银行段创建团队时，团队和支持它的 SharePoint 网站将仅供投资银行段用户访问。 用户 Nikita 无法访问该网站，即使她拥有网站链接也是如此。
+
+单击[此处](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)了解更多详细信息。
 
 ## <a name="required-licenses-and-permissions"></a>所需的许可证和权限
 

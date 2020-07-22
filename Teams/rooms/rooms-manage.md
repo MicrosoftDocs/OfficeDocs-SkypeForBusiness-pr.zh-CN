@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队聊天室的管理概述
+title: 管理 Microsoft Teams 会议室
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -15,82 +15,162 @@ ms.collection:
 - M365-collaboration
 description: 了解如何开发和执行持续维护和操作，以确保你的 Microsoft 团队聊天室系统可供你的用户使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd1b552e9a59ee36856d23478a7e414637976889
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2339967d6d7705266c13dbc65fb689c49c8e8279
+ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085948"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45202918"
 ---
-# <a name="management-overview"></a>管理概述
+# <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 会议室
 
-你必须开发和执行持续维护和操作，以确保你的 Microsoft 团队聊天室系统适用于你的用户并提供出色的用户体验。 
+如果你的组织中有 Microsoft 团队会议室认证的设备，你可以使用 Microsoft 团队管理中心从中央位置管理它们。 您可以：
 
-## <a name="monitoring"></a>监控 
+- 执行设备管理（如重启或阻止设备）和下载设备日志
+- 应用特定于团队的设置
+- 检查 Microsoft 团队房间设备及其外设的运行状况，包括相机、显示器、麦克风等
+- 查看当前和过去的会议活动（如有关通话质量、网络运行状况和连接性以及参与者数量的详细信息）
+- 请参阅连接到 Microsoft 球队房间设备的外围设备（如相机和投影仪）
 
-监视 Microsoft 团队聊天室系统包含两个关键活动：
+若要管理团队聊天室设备，请打开[Microsoft 团队管理中心](https://admin.teams.microsoft.com)，然后转到 "**设备**  >  **团队" 会议室**。
 
-- 设备、应用程序和外围设备监控
-- 质量和可靠性监视（CQD）
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="工作组管理员中心中的工作组会议室摘要页面":::
 
-### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Microsoft 团队聊天室设备、应用程序和外围设备监控
+> [!IMPORTANT]
+> 若要使用团队管理中心管理设备，需要向团队服务管理员或全局管理员角色分配团队。
 
-为确保用户能够使用 Microsoft 团队房间单元，设备必须处于打开状态，连接到 Microsoft 团队聊天室应用程序的网络已正确配置，并连接到正常工作的外围设备。 
+## <a name="make-changes-to-teams-rooms-devices"></a>对团队室设备进行更改
 
-有关 Microsoft 团队聊天室应用程序和连接的外围设备状态的信息由 Microsoft 团队聊天室应用程序写入 Windows 事件日志，并在[了解日志条目](azure-monitor-manage.md#understand-the-log-entries)中记录。 
+如果您有多个团队聊天室设备，则可以在多个设备上同时执行大多数操作。 例如，你可以同时在所有设备上设置团队应用设置。
 
-|**设置**|**这样**|
-|:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = （dword）1  <br/> |支持 Microsoft 团队会议室启动  <br/> |
-|电源管理-通过 \> 交流，10分钟后关闭屏幕  <br/> 电源管理- \> 在交流上，从不将系统置于睡眠状态  <br/> |使 Microsoft 团队会议室能够关闭附加的显示并自动唤醒  <br/> |
-|net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
+### <a name="device-settings"></a>设备设置
 
-在 "[配置文件" 项目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)中讨论了使用组策略传输文件的内容。
-  
-## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
-<a name="RemotePS"> </a>
+你可以更改组织中的一个或多个设备上的设置。 若要更改设置，请选择要管理的一个或一些设备，然后选择 "**编辑设置**"。 将打开一个新窗格，其中包含你可以在设备上更改的所有设置。 下表列出了可以使用团队管理中心更改的设置。 某些设置仅在选择单个设备时才可用。
 
-我们建议你使用 Microsoft Operations Manager Suite 监视 Microsoft 团队聊天室系统。 有关如何设置监视和基本警报的指南，请参阅[通过 Azure 监视器部署 Microsoft 团队聊天室管理](azure-monitor-deploy.md)。 
+如果你选择多个设备，支持批量编辑的设置将显示以下两个选项。
 
-使用本指南，你可以创建一个易于使用的仪表板，以在你的部署中识别 Microsoft 团队会议室的任何问题。 
+- **保留现有值**如果选择此选项，则不会对所选设备上的设置进行任何更改。
+- 将**现有值替换为**如果选择此选项，则可以通过你提供的值更新所选设备上的设置。
+    > [!CAUTION]
+    > 您选择更新的设置中的现有值将替换为您提供的值。 如果要添加到现有值的列表中，您需要将现有值包含在要添加的值中。 例如，如果某个设置有现有的域列表 `contoso.com, fabrikam.com` ，并且你想要添加，则 `northwindtraders.com` 你需要提供的值将是 `contoso.com, fabrikam.com, northwindtraders.com` 。
+    >
+    > 如果你选择多个设备，你选择的所有设备上的设置将更改为你提供的值。 如果设备的设置值不同，则它们将全部更新为同一值。
 
-|    |     |
-|-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>决策点|<ul><li>确认你将使用 Operations Management Suite 监视 Microsoft 团队会议室部署。</li><li>确定要用于电子邮件通知的目标通讯组列表。</li></ul>|
-|![](../media/audio_conferencing_image9.png)<br/>后续步骤|<ul><li>定义你的质量和可靠性监视方法。</li></ul>|
+| 设置                                                      | 接受的值                                        | 支持批量编辑 |
+|--------------------------------------------------------------|--------------------------------------------------------|--------------------|
+| *帐户*                                                    |                                                        |                    |
+| **电子邮件**                                                    | 电子邮件地址                                          | 否                 |
+| **支持的会议模式**                                   | Skype for Business （默认）和 Microsoft 团队<br>Skype for Business 和 Microsoft 团队（默认）<br>仅限 Skype for business|是|
+| **新式验证**                                    | 开<br>关                                              | 是                |
+| **Exchange 地址**                                         | 电子邮件地址                                          | 否                 |
+| **域 \ 用户名（可选）**                               | 帐户域和用户名                           | 否                 |
+| **配置域**                                         | 以逗号分隔的列表                                   | 是                |
+| *会议*                                                   |                                                        |                    |
+| **自动屏幕共享**                                 | 开<br>关                                              | 是                |
+| **显示会议名称**                                       | 开<br>关                                              | 是                |
+| **如果其他人退出会议，则自动退出**                 | 开<br>关                                              | 是                |
+| *Device*                                                     |                                                        |                    |
+| **双显示器模式**                                        | 开<br>关                                              | 是                |
+| **蓝牙引导**                                      | 开<br>关                                              | 是                |
+| **自动接受基于邻近感应的会议邀请** | 选中<br>处于                                 | 是                |
+| **通过反馈发送日志**                                  | 开<br>关                                              | 是                |
+| **日志和反馈的电子邮件地址**                      | 电子邮件地址                                          | 是                |
+| *联网*                                                |                                                        |                    |
+| **会议麦克风**                                  | 可用麦克风列表                          | 否                 |
+| **会议演讲者**                                     | 可用扬声器列表                             | 否                 |
+| **默认音量**                                           | 0-100                                                  | 否                 |
+| **默认扬声器**                                          | 可用扬声器列表                             | 否                 |
+| **默认音量**                                           | 0-100                                                  | 否                 |
+| **内容照相机**                                           | 可用摄像头列表                              | 否                 |
+| **内容相机增强功能**                              | 开<br>关                                              | 否                 |
+| **旋转内容相机180度**                        | 开<br>关                                              | 否                 |
+| *主题*                                                    |                                                        |                    |
+|                                                              | 默认值<br>无主题<br>客户<br>内置主题列表   | 是                |
 
-## <a name="quality-and-reliability-monitoring-cqd"></a>质量和可靠性监视（CQD）
+### <a name="device-restart-options"></a>设备重启选项
 
-我们建议你在部署中实现持续运营质量和可靠性监视过程，以监控通话的趋势分析和会议质量以及可靠性，从而确定任何需要考虑的问题并努力解决问题。 
+对设备设置所做的更改仅会在重新启动设备后生效。 当您进行需要重启的更改时，您可以选择是立即重启设备还是计划重启。 以下是可用的重启选项：
 
-将生成信息上载到 CQD 时，你可以在每个建筑物级别上调查通话质量和可靠性趋势，这使你可以轻松地比较建筑物并将注意力集中在特定问题上。
+- **立即重启**如果选择此选项，则当你选择此选项时，你所做的所有设备将立即重新启动。
+- **计划重启**如果你选择此选项，你可以重新启动你正在更改的设备，这对你的组织造成的中断更小。
+  - **选择日期和时间**-选择特定的日期和时间以重新启动设备。 您选择的日期和时间是要重新启动的设备的本地日期和时间。 
+  - 在**夜间重启时保留更新**每晚重新启动设备以执行维护。 在此重启期间将应用对设备所做的更改。
 
-我们建议你查看和跟踪[团队的通话质量](../monitor-call-quality-qos.md)，以确定质量和可靠性趋势，并创建行动计划来解决这些问题。 
+> [!CAUTION]
+> 重新启动时，正在使用的设备在重启过程期间将不可用。 他们将从正在进行的会议中断开，并且不能加入新的会议。
 
-## <a name="updating-the-microsoft-teams-rooms-os-and-microsoft-teams-rooms-application"></a>更新 Microsoft 团队会议室 OS 和 Microsoft 团队聊天室应用程序
+### <a name="remove-or-block-a-device"></a>删除或阻止设备
 
-我们建议你更新 Microsoft 团队会议室操作系统和 Microsoft 团队聊天室应用程序，以受益于产品更新和改进。 有关详细指导，请参阅[管理 Microsoft 团队聊天室](rooms-operations.md#software-updates)。 
+**删除**设备时，设备将从您的组织中删除，而不会再显示在团队管理中心的团队聊天室设备列表中。 
 
-## <a name="windows-updates"></a>Windows 更新
+**阻止**设备时，团队将不再与设备进行通信。 被阻止的设备将不会发送命令，即使它们包含在正在批量编辑的一组设备中。 它仍在团队聊天室设备列表中列出，状态为 "已**阻止**"。
 
-Microsoft 团队聊天室在 Windows 10 企业版 IoT 或 Windows 10 企业版（VL）上运行，并作为标准桌面接收相同的 Windows 更新和 OS 版本。 有关详细信息，请参阅[管理 Windows 更新](updates.md)。
+无论设备是否被阻止或删除，如果它仍配置了有效的用户名和密码，则它将自动重新添加到 "团队室设备" 列表（如果它连接到 Microsoft 365）。
 
+若要删除一个或多个设备，请执行下列操作：
 
-## <a name="troubleshooting"></a>故障排除
+1. 转到 "**设备**"  >  **团队聊天室**，选择要删除的设备。
+1. 选择“**删除**”。
 
-我们建议你按照上述部分所述设置 Operations Management Suite 警报，以便你的运营团队和帮助人员将收到任何 Microsoft 团队聊天室问题的通知。 在[使用 powershell 的远程管理](rooms-operations.md#remote-management-using-powershell)中介绍了用于 PowerShell 远程管理的选项。 当外围设备断开连接时，你可能需要依赖本地 "smart 手" 或 IT 支持来调查和重新连接设备。 
+若要阻止设备，请执行下列操作：
 
-有关疑难解答和管理员模式的详细信息，请参阅[管理员模式和设备管理](rooms-operations.md#admin-mode-and-device-management)。 
+1. 转到 "**设备**  >  **团队" 聊天室**，然后选择要阻止的设备的名称。
+1. 在 "设备详细信息" 页面上，选择页面右上角的 "**操作**"。
+1. 选择 "**阻止**"。
 
+若要取消阻止设备，请执行下列操作：
 
-## <a name="see-also"></a>另请参阅
+1. 转到 "**设备**  >  **团队" 聊天室**，然后选择要阻止的设备的名称。
+1. 在 "设备详细信息" 页面上，选择页面右上角的 "**操作**"。
+1. 选择 "**取消阻止**"。
 
-[Microsoft Teams 会议室帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+## <a name="download-device-logs"></a>下载设备日志
 
-[Microsoft Teams 会议室规划](rooms-plan.md)
+如果需要 Microsoft 支持，可以下载设备诊断日志文件的副本。 日志文件压缩为可从团队管理中心下载的 zip 文件。
 
-[部署 Microsoft Teams 会议室](rooms-deploy.md)
+若要将日志从团队房间设备下载到计算机，请执行下列操作：
 
-[配置 Microsoft Teams 会议室控制台](console.md)
+1. 转到 "**设备**  >  **团队" 聊天室**，然后选择要从中下载日志的设备的名称。
+1. 选择 "**下载设备日志**"。 可能需要几分钟的时间，设备日志才可用。
+1. 选择 "**历史记录**" 选项卡，然后选择 "**诊断文件**" 下的 "日志文件链接"。 包含设备诊断日志文件的 zip 文件将下载到浏览器的默认 "下载" 文件夹。
 
-[使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置](xml-config-file.md)
+## <a name="view-device-information"></a>查看设备信息
+
+从 "团队" 管理中心，你可以查看组织中所有设备的整体状态，并单独查看每个设备的详细信息。
+
+### <a name="teams-rooms-system-dashboard"></a>团队聊天室系统仪表板
+
+团队聊天室系统仪表板显示所有设备的状态和运行状况。
+
+### <a name="device-details-view"></a>设备详细信息视图
+
+若要查看有关设备的详细信息，请从设备列表中选择其名称。 在 "详细信息" 视图中，你可以看到有关你的设备的以下信息：
+
+- **运行状况状态**显示团队室设备的整体运行状况。 运行状况状态可以是 "**正常**" 或 "不**正常**"。
+- **脱机，自**显示 Microsoft 365 上次能够与设备通信的时间。
+- **设备状态**显示设备的当前状态： "**空闲**"、"**团队会议**"、" **Skype 会议**" 或 "**摄取**"。
+- **外围设备**显示连接到团队房间设备的外围设备及其健康状况。 健康状态可以为 "**已连接**" 或 "已**断开**"。
+- **运行状况**显示有关连接到团队机房设备、网络连接、登录到所需服务的设备以及软件版本信息的外围设备的详细信息。
+- **详细信息**显示制造商信息、网络 IP 地址和团队房间设备串行/MAC 地址。
+- **活动**显示过去的会议详细信息，包括会议的日期和时间、参与者数、持续时间和音频质量。 有关会议详细信息的详细信息，请参阅本文后面的[会议活动详细信息](#meeting-activity-details)部分。
+- **历史记录**显示团队室设备上的管理活动历史记录，包括配置更新、设备重启和设备日志下载链接。
+
+#### <a name="meeting-activity-details"></a>会议活动详细信息
+
+"团队会议室设备详细信息" 中的 "**活动**" 选项卡显示有关设备在一段时间内参与的所有会议的高级信息和详细信息。 在 "**活动**" 选项卡中，你可以查看会议期间举行会议的时间、参与会议的参与者的数量以及音频质量。
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="团队房间设备活动摘要列表":::
+
+若要查看有关特定会议的详细信息，请选择要了解其详细信息的会议的日期和时间。 如果会议只有两个参与者，你将看到 "参与者详细信息" 页面，否则你将看到 "参与者摘要" 页面。
+
+##### <a name="participant-summary"></a>参与者摘要
+
+参与者摘要页面显示参加会议的所有参与者。 你可以查看每个参与者加入会议的时间、其名称、音频质量以及会话期间使用的功能。 若要查看参与者会话的详细信息，请选择该参与者的会话开始时间。
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="团队聊天室设备会议详细信息":::
+
+##### <a name="participant-details"></a>参与者详细信息
+
+"参与者详细信息" 页面显示该参与者会话的端到端诊断信息。 如下图所示，为参与者和团队聊天室设备提供**设备**、**系统**和**连接**信息。 此外，还提供了参与者与团队间设备之间的**网络**诊断信息。 选择要了解其详细信息的上下文的图标。 有关其他诊断信息，请选择 "**高级**" 选项卡。
+
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="团队会议室设备呼叫详细信息":::
