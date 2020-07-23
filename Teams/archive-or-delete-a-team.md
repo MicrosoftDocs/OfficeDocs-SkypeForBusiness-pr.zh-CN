@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d3548ead35c63e2d34c47b340559c3174f1c895
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: e17f27cdbaaca9070d87714b58906df96539e12e
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086188"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372191"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 ===========================================
@@ -40,9 +40,9 @@ ms.locfileid: "45086188"
 
 ## <a name="archive-a-team"></a>存档团队
 
-请按照以下步骤将团队存档。
+请按照以下步骤将团队存档。 您必须是团队服务管理员才能进行这些更改。 请参阅[使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles)，了解如何获取管理员角色和权限。
 
-1. 在 "管理中心" 中 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ，选择 "**团队**"。
+1. 在管理中心中，选择 "**团队**"。
 2. 通过单击团队名称选择团队。
 3. 选择“**存档**”。 此时将显示以下消息。
 
@@ -55,7 +55,7 @@ ms.locfileid: "45086188"
 
 请按照以下步骤使已存档的团队再次处于活动状态。
 
-1. 在<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，选择 "**团队**"。
+1. 在管理中心中，选择 "**团队**"。
 2. 通过单击团队名称选择团队。
 3. 选择“**取消存档**”。 团队的状态将更改为“**活动**”。
 
@@ -63,7 +63,7 @@ ms.locfileid: "45086188"
 
 如果将来不再需要该团队，则可将其删除，而不是将其存档。 请按照以下步骤删除团队。
 
-1.  在<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>中，选择 "**团队**"。
+1.  在管理中心中，选择 "**团队**"。
 2.  通过单击团队名称选择团队。
 3.  选择“**删除**”。 此时将显示一条确认消息。
 4.  选择“**删除**”以永久删除团队。
@@ -79,7 +79,7 @@ ms.locfileid: "45086188"
 1. 以管理员身份打开 Windows PowerShell。
 2. 如果安装了早期版本的 AzureADPreview 模块或安装了 AzureAD 模块，请通过运行以下命令之一将其卸载：
 
-    ```PowerShell 
+    ```PowerShell
     Uninstall-Module AzureADPreview
     ```
 
@@ -90,7 +90,7 @@ ms.locfileid: "45086188"
 
     ```PowerShell
     Install-Module AzureADPreview
-    ```    
+    ```
 
 ### <a name="restore-the-deleted-microsoft-365-group"></a>还原已删除的 Microsoft 365 组
 
@@ -102,7 +102,7 @@ ms.locfileid: "45086188"
 2. 运行以下操作以显示仍在30天保留期内的所有软删除的 Microsoft 365 组的列表。 如果有大量组，请使用 **-All $True** 参数。
     ```PowerShell
     Get-AzureADMSDeletedGroup
-    ``` 
+    ```
 3. 找到要还原的组，然后记下 ID。
 4. 运行以下命令以还原该组，其中 [Id] 是组 ID。
     ```PowerShell

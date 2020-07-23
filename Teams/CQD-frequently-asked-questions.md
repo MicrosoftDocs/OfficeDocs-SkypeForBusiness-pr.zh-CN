@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 阅读常见问题（FAQ）和有关 Microsoft 团队通话质量仪表板（CQD）的解答。
-ms.openlocfilehash: f33d66d9c8abb465c6680bacbbd2ff200cf930c6
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086168"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372121"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通话质量仪表板（CQD）常见问题（FAQ）
 
@@ -35,8 +35,6 @@ ms.locfileid: "45086168"
 [如果一个或多个会议参与者的体验不好，CQD 为什么将呼叫标记为 "正常"？](#why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience)
 
 [为什么在度量值和用户计数值上看到最多0.2% 的差异以及如何获取最准确的卷？](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
-
-[为什么 CQD v2 报表数据看起来与 CQD v3 报表数据不同？](#why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data)
 
 [为什么 Skype for Business 中的 CQD 数据与来自团队的 CQD 数据不同？](#why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams)
 
@@ -73,66 +71,17 @@ ms.locfileid: "45086168"
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>为什么在度量值和用户计数值上看到最多0.2% 的差异以及如何获取最准确的卷？ 
 若要计算 "呼叫计数" 和 "用户计数" 度量值，请对数据集中的调用或用户标识符执行不同的 countif 操作。 在大型数据集上，具有不同的 countif 操作固有的最大0.2% 错误。 对于最准确的卷，你应该依赖流计数度量值，因为它们不依赖于此不同的 countif 操作。 筛选以减少数据量可能会减少错误，但可能无法在不同的调用和用户计数中消除此错误来源。 请参阅["呼叫质量" 仪表板中可用的尺寸和测量](dimensions-and-measures-available-in-call-quality-dashboard.md)值，这些测量受影响。
 
-### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>为什么 CQD v2 报表数据看起来与 CQD v3 报表数据不同？ 
-
-如果你看到 CQD v2 和 v3 之间的数据差异，请确保在 "苹果" 和 "窄" 级别（而不是聚合级别）上执行数据比较或验证。 例如，如果你筛选 MSIT "建筑物 30" WiFi 团队桌面客户端数据的两个报表，则 v2 和 v3 的低质量百分比应该相同。
-
-CallSetup 失败的 CQDv2 分类仅考虑 "音频" 模态，在 CQDv3 中，对每个模态（音频、视频和应用共享）进行分类，并在各自的模态流中表示。 
-
-对于团队，CQDv2 将相同的用户反馈应用到所有形式 CQDv3 应用针对团队的模态的反馈基础。
-
-CQD V3 包括 
-1. Skype for Business Server 2019 通话， 
-2. Skype 机器人呼叫，例如：自动助理、呼叫队列、会议通知服务 
-3. 虚拟桌面界面，
-4. 会议视频互操作，
-3. 实时事件发布者和演示者通话，以及 
-4. PSTN 呼叫。 
-
-若要了解如何使用这些 Power BI 模板分析和报告你的 CQD 数据，请参阅[使用 POWER BI FOR CQD 报表](cqd-power-bi-query-templates.md)。
-
 
 ### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>为什么 Skype for Business 中的 CQD 数据与来自团队的 CQD 数据不同？ 
 
 
 > [!IMPORTANT]
-> 从2020年7月1日起，较早的 CQD 访问最新 CQD 中的数据。 较旧的 CQD 数据不再可用，并且您不能导出您的建筑物或报表数据。
+> 从2020年7月1日起，较早的 CQD （CQD.lync.com）使用最新 CQD （CQD 中的数据。Teams.microsoft.com）。 较旧的 CQD 数据不再可用，并且您不能导出您的建筑物或报表数据。 您仍然可以使用 CQD.lync.com （Skype for Business 管理中心提供），但我们将关闭对 CQD.lync.com 的访问，因此应转到 CQD。Teams.microsoft.com 如果还未执行此操作。
 
 
 如果您尝试比较旧 CQD 之间的数据与 Skype for Business 旧式门户（cqd.lync.com）和团队管理中心（cqd.teams.microsoft.com）中的最新 CQD，您将很快发现数据不匹配。 这是因为最新的 CQD 报告了许多额外的通话方案。 如果您仍在使用来自较旧 CQD 的报表，请使用本文帮助解释这些报表： " [Skype for business" 服务器的 "呼叫质量" 仪表板](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)。
 
 
-
-下面是一个应用特定筛选器以比较 CQD v2 和 CQD v3 数据的示例：
-
-1. QoE 记录可用 = True
-
-2. Add 是服务器对筛选器，其值：客户端：客户端和客户端：服务器。 大多数租户更喜欢排除服务器：服务器调用。
-
-3. 为用户代理类别添加筛选器并筛选出自动助理、呼叫队列、Bot、房间系统、MediationServer、会议公告服务、VDI 等。
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard1.png" alt-text="在 CQD v3 中应用特定筛选器的屏幕截图":::
-
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard2.png" alt-text="在 CQD v2 中应用特定筛选器的屏幕截图":::
-
-#### <a name="other-expected-differences-between-cqd-v2-and-cqd-v3"></a>CQD v2 和 CQD v3 之间的其他预期差异
-
-若要了解有关旧的和最新 CQD 之间的差异的详细信息，请阅读2019年11月5日的 "[高级通话质量" 仪表板博客简介](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Introducing-the-Advanced-Call-Quality-Dashboard/ba-p/972586)。
-
-
-> [!IMPORTANT]
-> 从2020年7月1日起，较早的 CQD 访问最新 CQD 中的数据。 较旧的 CQD 数据不再可用，并且您不能导出您的建筑物或报表数据。
-
-在 "聚合" 或 "摘要" 级别上，您可能会看到您的旧的和较新的 CQD 报表之间有更多数据差异 如果比较粒度级别的数据，将获得 "横向到横向" 比较。 例如，如果你要查看单个建筑物的数据，则较旧的 CQD 报表的质量不佳的百分比应该是相同的。
-
-- 选择具有紧密焦点的方案，如企业有线连接、Windows 桌面或单个区域或建筑物。
-- 检查团队 MR、TR 或 MP IP 范围。 团队范围比 Skype for business Online 更新，这可能会导致与防火墙的连接问题。
-- 不要比较汇总或顶级数字。 这些比较将使你能够将企业有线连接上的 Skype for business Online 通话的大型通话量与 LTE 或专用网络上的一小大量团队通话进行比较。
-- 注意位置偏向和人口差异：有许多比较过于不同的比较非常有用：
-  - NOAM： APAC
-  - 纽约州： Goa
-  - 有线 : wifi
-  - 公司网络：家庭网络
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>为什么我在 CQD 中看不到 EUII？
 

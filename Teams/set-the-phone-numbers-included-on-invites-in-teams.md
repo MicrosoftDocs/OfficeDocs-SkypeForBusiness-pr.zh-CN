@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 按照以下步骤为呼叫者创建用于加入 Microsoft 团队会议的默认电话号码。
-ms.openlocfilehash: bd8ca4729a991582588f09e8c230e57983cd1a87
-ms.sourcegitcommit: 4099da7b1db7663e63ef5bece16e3090c33ea207
+ms.openlocfilehash: 7dd59950403543074d8428d35270ab963ca824e3
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45021760"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372181"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中设置包含在邀请中的电话号码
 
@@ -36,7 +36,7 @@ Microsoft 365 和 Office 365 中的音频会议使组织中的用户能够创建
 会议桥为你的组织提供了一套拨入电话号码。 它们都可用于加入会议组织者已创建的会议，但你可以选择在其会议邀请中包括哪些号码。
   
 > [!NOTE]
-> 会议组织者的会议邀请中最多可以有一个收费和一个免费电话号码，但每个会议邀请的底部还有一个链接，用于打开用来可加入会议的所有拨入电话号码的完整列表。 
+> 会议组织者的会议邀请中最多可以有一个收费和一个免费电话号码，但每个会议邀请的底部还有一个链接，用于打开用来可加入会议的所有拨入电话号码的完整列表。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -53,7 +53,7 @@ Microsoft 365 和 Office 365 中的音频会议使组织中的用户能够创建
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-只有管理员才能进行这些更改。
+您必须是团队服务管理员才能进行这些更改。 请参阅[使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles)，了解如何获取管理员角色和权限。
 
 1. 登录到 Microsoft 团队管理中心。
 
@@ -63,27 +63,25 @@ Microsoft 365 和 Office 365 中的音频会议使组织中的用户能够创建
 
 3. 从可用用户列表中单击该用户名。
 
-4. 在**音频会议**旁边，单击**编辑**。 
-    
+4. 在**音频会议**旁边，单击**编辑**。
+
     ![单击 "音频会议" 旁边的 "编辑"](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. 使用 "**收费电话号码**" 或 "免费**电话号码**" 字段输入用户的号码。
 
-
 > [!IMPORTANT]
-> 更改用户的音频会议设置时，必须更新定期和将来的 Microsoft 团队会议，并将其发送给与会者。 
+> 更改用户的音频会议设置时，必须更新定期和将来的 Microsoft 团队会议，并将其发送给与会者。
 
-## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell？
+## <a name="want-to-use-windows-powershell"></a>希望使用 Windows PowerShell
 
 Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，你可以使用单一的管理点管理 Microsoft 365 或 Office 365，这可以在你有多个任务时简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
-    
-  - [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-  - [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。 
+
+- [为什么要使用 Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
+
+- [通过 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+
+有关 Windows PowerShell 的详细信息，请参阅 [Microsoft Teams PowerShell 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)了解详细信息。
   
-    
 ## <a name="related-topics"></a>相关主题
 
 [在 Microsoft 365 或 Office 365 中试用或购买音频会议](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

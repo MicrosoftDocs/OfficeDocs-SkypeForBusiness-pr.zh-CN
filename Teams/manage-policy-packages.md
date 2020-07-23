@@ -20,20 +20,18 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理策略程序包，以便在管理用户组策略时简化、简化和帮助提供一致性。
-ms.openlocfilehash: 0fc612f4f04e0a57176ac985b40de029d42c5e9e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 0bd14852a9f488bb6740a2df8219041ba0c71ebb
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44669405"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45374360"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
 
 Microsoft 团队中的策略包是预定义策略和策略设置的集合，可分配给在组织中具有类似角色的用户。 我们构建了策略程序包，以便在管理组织内的用户组策略时提供简化、简化和帮助。  
 
 向用户分配策略包时，将创建程序包中的策略，然后你可以自定义程序包中的策略设置以满足组织的需求。
-
-策略程序包不可用于美国政府云社区（GCC）组织。
 
 ## <a name="what-is-a-policy-package"></a>什么是策略包
 
@@ -49,6 +47,8 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 |教育版（教师）    |创建一组适用于教师的策略和策略设置。      |
 |教育版（使用远程学习的主要学校教师）    |创建一组适用于主要教师的策略，在远程学习中最大化学生的安全和协作。      |
 |教育版（使用远程学习的主要学校学生）    |创建一组适用于主要学生的策略，在远程学习中最大化学生的安全和协作。      |
+|一线管理器 |创建一组策略，并将这些设置应用到组织中的一线管理员。 |
+|一线工作人员 |创建一组策略，并将这些设置应用于您的组织中的一线工作人员。 |
 |医疗保健临床工作者  |创建一组策略和策略设置，为临床工作者（如注册的护士、费用护理、医生和社会工作者）提供对聊天、通话、班次管理和会议的完全访问权限。 |
 |医疗保健信息工作者  |创建一组策略和策略设置，提供信息工作者，如 IT 人员、informatics 员工、财务人员和合规性监察官、对聊天、通话和会议的完全访问权限。|
 |医疗保健患者聊天室  |创建一组策略和策略设置，这些策略设置适用于您的医疗保健组织中的患者聊天室。|

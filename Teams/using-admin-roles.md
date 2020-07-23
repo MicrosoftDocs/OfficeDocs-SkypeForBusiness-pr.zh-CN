@@ -22,24 +22,22 @@ ms.reviewer: islubin
 description: 了解如何使用管理角色指定需要不同级别的访问权限的管理员来管理团队。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e56ce07f73eb4fe7ce69c2e1fc3522cbfc254096
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 8e044a806136330e630eb7f5336a9480f9ebd435
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665204"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229038"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft 团队管理员角色管理团队
 
-使用 Azure Active Directory （Azure AD），你可以将需要不同级别的访问权限的管理员指定为管理 Microsoft 团队。 管理员可以管理整个团队工作负荷，也可以具有委派权限，用于解决呼叫质量问题或管理组织的电话需求。 
+使用 Azure Active Directory （Azure AD），你可以将需要不同级别的访问权限的管理员指定为管理 Microsoft 团队。 管理员可以管理整个团队工作负荷，也可以具有委派权限，用于解决呼叫质量问题或管理组织的电话需求。
 
 ## <a name="teams-roles-and-capabilities"></a>团队角色和功能
 
 有四个团队管理员角色可用：团队服务管理员、团队通信管理员、团队通信支持专家和团队通信支持工程师。 查看下表，了解每个角色可以执行的操作以及管理员可在 Microsoft 团队管理中心和 PowerShell 中使用的工具。
 
-若要继续操作，请转到管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
-
-
+您必须是管理员才能继续关注。本文介绍了如何获取权限。
 
 <!-- add Global admin role? -->
 

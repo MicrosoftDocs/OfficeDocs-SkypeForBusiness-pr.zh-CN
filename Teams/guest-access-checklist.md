@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ee7fd8e7fc85e345df3e29de99e16292c6ef7e1f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201046"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372001"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 来宾访问清单
 =========================================
@@ -31,7 +31,7 @@ ms.locfileid: "45201046"
 在 Microsoft Teams 中使用此清单来帮助您启用和配置来宾访问。 你需要成为全局管理员或 Teams 管理员才能进行这些更改。
 
 > [!IMPORTANT]
-> 您可能需要等待几个小时才能使所做的更改生效。 
+> 您可能需要等待几个小时才能使所做的更改生效。
 
 观看此短视频（5 分 31 秒），了解如何通过 Microsoft 365（包括 Teams）启用来宾访问。
 
@@ -39,7 +39,7 @@ ms.locfileid: "45201046"
 
 ## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>步骤 1：在 Teams 组织范围内级别启用来宾访问
 
-若要启用来宾访问，请转到管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。 
+您必须是团队服务管理员才能进行这些更改。 请参阅[使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles)，了解如何获取管理员角色和权限。
 
 1. 在 Teams 管理中心中，选择“**组织范围的设置**” > “**来宾访问**”。
 2. 将“**在 Microsoft Teams 中允许来宾访问**”开关设置为“**打开**”。
@@ -73,7 +73,7 @@ ms.locfileid: "45201046"
      - **协作限制**：有关允许或阻止对特定域的邀请的更多信息，请参阅[允许或阻止对特定组织中的 B2B 用户的邀请](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)。
         > [!NOTE]
         > 对于协作限制，请参阅[启用 B2B 外部协作并管理可邀请来宾的人员](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
-      
+
     要详细了解如何控制可邀请来宾的人员，请参阅[委托 Azure Active Directory B2B 协作邀请](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)。
 
 ## <a name="step-3-configure-microsoft-365-groups"></a>步骤3：配置 Microsoft 365 组
@@ -88,18 +88,18 @@ ms.locfileid: "45201046"
 
 有关配置这些设置的详细说明，请参阅[在 microsoft 365 组中管理来宾访问](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150)和[控制 microsoft 365 组中的来宾访问](Teams-dependencies.md#control-guest-access-in-microsoft-365-groups)。
 
-## <a name="step-4-configure-sharing-in-microsoft-365"></a>步骤4：在 Microsoft 365 中配置共享 
+## <a name="step-4-configure-sharing-in-microsoft-365"></a>步骤4：在 Microsoft 365 中配置共享
 
 确保用户可以添加来宾。 操作步骤如下：
 
 1. 在 Microsoft 365 管理中心，转到 "**设置**  >  **组织设置**"，单击 "**安全 & 隐私**"，然后选择 "**共享**"。
 
      ![屏幕截图显示服务设置示例](media/guest-access-checklist-security-privacy-settings.png)
- 
+
 2. 选中“**允许用户向此组织添加新来宾**”复选框，然后单击“**保存更改**”。
 
      ![屏幕截图显示共享设置开关示例](media/guest-access-checklist-sharing-setting.png)
- 
+
     > [!NOTE]
     > 此设置的作用相当于 Azure AD 中的“**用户设置**” > “**外部用户**”中的“**成员可进行邀请**”设置。  
 

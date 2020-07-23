@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9369cf56a32142d6527fcb86271d8d0fa56718ec
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 4154a3ad30bf18de934f0fe5a23bbabc94fc76eb
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45043005"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229048"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 团队中的 Walkie Talkie 应用
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-团队中的 Walkie Talkie 应用为你的团队提供即时推送通话（PTT）通信，不久将在 Android 上的公共预览版中提供。 Walkie Talkie 允许用户使用与其成员相同的基础频道连接其团队。 仅在频道中连接到 Walkie Talkie 的用户成为参与者，并且可以使用 "按下" 与他人进行通信，每次一个通话。
+团队中的 Walkie Talkie 应用为你的团队提供即时推送通话（PTT）通信，并且在 Android 上的公共预览版中可用。 Walkie Talkie 允许用户使用与其成员相同的基础频道连接其团队。 仅在频道中连接到 Walkie Talkie 的用户成为参与者，并且可以使用 "按下" 与他人进行通信，每次一个通话。
 
 通过 Walkie Talkie，一线的工作人员现在可以安全地与熟悉的 PTT 体验进行通信，而无需携带有容量的无线收发器，并且使用 WiFi 或手机互联网连接，Walkie Talkie 可以工作。
 
@@ -73,9 +73,9 @@ Walkie Talkie 应用现在应显示在 "已附加的应用" 列表中，并且�
 
 即使在手机处于锁定状态时，一线工作人员也经常需要说和接听 Walkie Talkie 通话。 通过具有专用 PTT 按钮的专用设备，可实现此体验。
 
-- 现有手机
-  - 有线耳机（[Klein 电子设备](https://www.kleinelectronics.com/)）
-  - 无线耳机（[Jabra evolve BlueParrott](https://www.blueparrott.com/)）
+- 头
+  - 有线耳机（[Klein 电子设备](https://www.kleinelectronics.com/poc-accessories/mtwt/)）
+  - 无线耳机（[Jabra evolve BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)）
 - 坚固的手机
   - Samsung Galaxy XCover Pro
     - [详细信息](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)。

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efa11a5ca91be13508ab518ab5be504743825b68
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
+ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202949"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45247381"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
@@ -154,6 +154,24 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
 1. 在安全与合规中心的左窗格中，转到“**信息管理**” > “**保留**”。
 2. 在保留策略列表中，选中要删除的保留策略旁边的复选框。
 3. 选择“**删除策略**”。
+
+### <a name="end-user-experience"></a>最终用户体验
+
+对于私人聊天（1:1 聊天）或群组聊天，最终用户将看到早于保留策略配置的聊天已删除，并显示一条控制消息，显示 "我们已删除较早的 messaged，因为您的组织的保留策略" 已在尚未删除的邮件上显示。
+:::image type="content" source="media/retention-policies-image1.png" alt-text="聊天保留屏幕截图":::
+
+
+:::image type="content" source="media/retention-policies-image2.png" alt-text="群组聊天保留屏幕截图":::
+
+对于频道消息，最终用户（频道成员）将看到已删除邮件在邮件过期后从视图中消失。 如果已删除邮件是串接对话的父邮件，则在替换父消息时，将显示一条消息，指出 "此消息已被删除，因为保留策略已删除"。
+
+:::image type="content" source="media/retention-policies-image3.png" alt-text="保留前频道的屏幕截图":::
+
+:::image type="content" source="media/retention-policies-image4.png" alt-text="保留后频道的屏幕截图":::
+
+> [!NOTE]
+> 最终用户消息目前不能由用户或管理员修改。
+
 
 ### <a name="using-powershell"></a>使用 PowerShell
 

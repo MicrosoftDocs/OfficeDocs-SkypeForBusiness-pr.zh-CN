@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f800b92a0663b5c4318022c00cbb9ba022f2e8c3
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7ae1776cf57368ea0f18cb6b0e46e5a11dffe447
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085678"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228898"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Microsoft Teams 中适用于应用的管理设置
 ==========================================
@@ -34,7 +34,7 @@ ms.locfileid: "45085678"
 
 应用为你的组织提供现成的工具，以充分利用团队。 这些应用结合由 Microsoft （由第三方构建）或您的组织中的开发人员提供的选项卡、消息扩展、连接器和 bot 的功能。
 
-在[管理中心](https://admin.teams.microsoft.com/)的**团队应用**中管理组织的应用。 例如，你可以在组织级别允许或阻止应用，设置用于控制团队用户可用的应用的策略，并通过固定对你的用户最重要的应用自定义团队。
+在管理中心的**团队应用**中管理组织的应用。 （请参阅[使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles)以阅读有关获取管理员角色和权限的信息。）例如，你可以在组织级别允许或阻止应用，设置用于控制团队用户可用的应用的策略，并通过固定对你的用户最重要的应用自定义团队。
 
 我们正在不断改进团队中的应用体验，并添加功能和功能。 随着时间的推移，我们将构建其他应用管理功能，请查看有关应用策略的最新信息。
 

@@ -22,20 +22,17 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 了解 Microsoft 通话质量仪表板（CQD）中提供的数据和报表。
-ms.openlocfilehash: 02acff8cd423901c8959e94af664ffe4d43c0e51
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086001"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372161"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通话质量仪表板（CQD）中的数据和报表
 
 Microsoft 通话质量仪表板（CQD）使用近乎实时（NRT）的数据馈送。 通话记录在通话结束后的30分钟内 CQD 可用。 从 NRT 管道中调用记录仅在从数据集内删除几个月后才可用。 
 
-
-> [!NOTE]
-> 高级 CQD （11月2019中的新增功能）将较旧的 CQD 管道（使呼叫记录在大约24小时内可用）与高级 CQD 管道中的 NRT 数据合并。 来自存档周期中的数据的旧门户和高级门户的查询将产生相同的结果。 NRT 数据的任何门户上的查询和 NRT 数据 + EUII 期的查询将有所不同。
 
 ## <a name="many-ways-to-access-cqd-data"></a>访问 CQD 数据的多种方法
 
@@ -46,7 +43,7 @@ Microsoft 通话质量仪表板（CQD）使用近乎实时（NRT）的数据馈�
 |团队管理中心[（ https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 数据包含在团队管理中心的 "**用户**" 页面上，以易于阅读的格式显示所需的最常见数据。 您不能自定义在 "**用户**" 下找到的 CQD 数据。  |
 |CQD portal [（ https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | 具有钻取筛选功能的强大摘要和详细报表，可满足大多数需求。 你还可以在 CQD 门户中自定义报表。 <br><br>获取两个[CQD 报表模板](#import-the-cqd-report-templates)以帮助你分析 CQD 门户中的数据。       |
 |Power BI     | 使用直接查询在 Power BI 中使用[可自定义的 POWER bi 模板](CQD-Power-BI-query-templates.md)查看你的 CQD 数据。 [下载 CQD 的 POWER BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>你还可以[使用 REST API 通过 POWER BI 访问 CQD 数据](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/data-api)。 如果想要下载 CQD 数据以便可以脱机处理它，请使用此方法。 使用此方法的好处是提高了性能，当您在线时，在 Power BI 中 bog 的大型数据集尤其有用。       |
-|图形 API     | 使用[图形 API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)访问呼叫质量数据。 这是最复杂的方法，但它为你提供了分析通话质量数据的最大控制和灵活性。 例如，如果你需要将其与你的组织的其他数据结合使用，则可以使用 Graph API 创建数据模型并合并通话质量数据。        |
+|Graph API     | 使用[图形 API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)访问呼叫质量数据。 这是最复杂的方法，但它为你提供了分析通话质量数据的最大控制和灵活性。 例如，如果你需要将其与你的组织的其他数据结合使用，则可以使用 Graph API 创建数据模型并合并通话质量数据。        |
 
 ## <a name="import-the-cqd-report-templates"></a>导入 CQD 报表模板
 

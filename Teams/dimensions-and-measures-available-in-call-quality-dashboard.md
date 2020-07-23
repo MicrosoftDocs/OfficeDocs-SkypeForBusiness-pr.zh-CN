@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 获取有关 Microsoft 团队和 Skype for business Online 的通话质量仪表板（CQD）所使用的维度和度量的详细信息。
-ms.openlocfilehash: 1b5be1cc988a1999bee05aba04b0f27c9127bd54
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 1625a7fcb0de0c2e5ad8586b0985ddb61de5e75b
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085778"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372131"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通话质量仪表板（CQD）中可用的尺寸和测量值
 
@@ -170,10 +170,10 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | First User Agent  | String  | 第一终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （Skype for Business） | &bull;第一个终结点未报告任何用户代理   |
 | Second User Agent  | String  | 第二终结点的用户代理字符串。 <br/> **示例值：** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 （Skype for Business） | &bull;第二终结点未报告用户代理   |
 | Conference Type  | 枚举 <br/>**可能的值：** <br/>&bull;会议： applicationsharing <br/>&bull;会议：音频-视频 <br/>&bull;会议：焦点 | 会议 URI 的类型。  <br/> **示例值：** 会议：音频-视频 | &bull;非会议方案。   |
-| 会议 ID  | String | 与流相关联的会议 ID （或通话 ID）。 在 cqd.teams.microsoft.com 中，所有呼叫都有一个呼叫 ID，无论它们是人到人员（P2P）呼叫还是电话会议。 在 cqd.lync.com 中，此值仅适用于 Skype for business 会议呼叫。  此维度可能有太多行，无法用作报表中的维度。 它可能会转为用作筛选器。  <br/> **示例值（cqd.lync.com）：** 0001P6GK <br/> **示例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
+| 会议 ID  | String | 与流相关联的会议 ID （或通话 ID）。 在 cqd.teams.microsoft.com 中，所有呼叫都有一个呼叫 ID，无论它们是人到人员（P2P）呼叫还是电话会议。 此维度可能有太多行，无法用作报表中的维度。 它可能会转为用作筛选器。   <br/> **示例值（cqd.teams.microsoft.com）：** 5a962ccf-b9cb-436a-a433-f28bf5404ad8  | |
 | First Client App Version  | String  | 第一终结点使用的应用程序的版本。数据从用户代理字符串解析。<br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。   |
 | Second Client App Version  | 字符串  | 第二终结点使用的应用程序的版本。数据从用户代理字符串解析。<br/> **示例值：** 16.0.7766.2047 | &bull;无法解析版本字符串 <br/>&bull;未报告值。 |
-|会议 Id （在 cqd.teams.microsoft.com 中） <br/> 会议 ID （在 cqd.lync.com 中） |String |会议的标识符，在创建会议时生成。 <br/> **示例值（Skype For business）：** 0001P6GK  <br/> **示例值（团队）：** 19： meeting_MzB .。。zIw@thread v2| |
+|会议 Id |String |会议的标识符，在创建会议时生成。  <br/> **示例值：** 19： meeting_MzB .。。zIw@thread v2| |
 |**网络**||| 
 | Transport  | 枚举 <br/>**可能的值：** <br/>&bull;UDP <br/>&bull;TCP-OUT <br/>&bull;辨识  | 流使用的网络传输类型。  "无法识别" 表示系统无法确定传输类型是 TCP 还是 UDP。  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径  |
 | First Connectivity Ice  | 枚举 <br/>**可能的值：** <br/>&bull;直接 = 直接网络路径 <br/>&bull;中继 = 通过中继 <br/>&bull;HTTP = 通过 HTTP 代理 <br/>&bull;失败 = 连接失败 | 第一终结点使用的 ICE 连接类型。  |&bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
@@ -192,7 +192,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | Second Relay Port  | 整型  | 第二终结点在媒体中继服务器上分配的媒体端口。 <br/> **示例值：** 3478  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径|
 | First Subnet  | String  | 第一终结点用于媒体流的子网，每个八进制数用短划线隔开。 <br/> **示例值：** 104.43.195。0  | &bull;终结点未报告的数据 <br/>&bull;未建立媒体路径 <br/>&bull;已使用 IPv6|
 | Second Subnet  | 字符串  | 第二终结点用于媒体流的子网，每个八进制数用短划线隔开。 <br/> **示例值：** 104.43.195。0 | &bull;终结点未报告的数据 <br/>&bull;未建立媒体路径 <br/>&bull;已使用 IPv6 |
-| First VPN  | Boolean  | 如果第一终结点使用的网络适配器指示它是 VPN 连接，则为 True，否则为 False。 有些 VPN 不会正确报告此数据。   | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
+| First VPN  | 布尔值  | 如果第一终结点使用的网络适配器指示它是 VPN 连接，则为 True，否则为 False。 有些 VPN 不会正确报告此数据。   | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 | Second VPN  | Boolean  | 如果第二终结点使用的网络适配器指示它是 VPN 连接，则为 True，否则为 False。 有些 VPN 不会正确报告此数据。    | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 | Applied Bandwidth Source  | 枚举 <br/>**可能的值：** <br/>&bull;静态最大值 <br/>&bull;API 模态 <br/>&bull;API Modality_All <br/>&bull;API SendSide BWLimit <br/>&bull;首选值 <br/>&bull;关闭 <br/>&bull;ReceiveSide 车 <br/>&bull;API SDP 模态 <br/>&bull;已收到远程 <br/>&bull;侧面 BWLimit <br/>&bull;API ServiceQuality <br/>&bull;API SDP <br/>&bull;接收 SidePDP | 指示应用于流的带宽来源。 | &bull;未报告传输类型 <br/>&bull;未建立媒体路径   |
 | Bandwidth Est | 整数范围  | 第一和第二终结点之间可用的平均带宽估计值，以"位/秒"为单位。  <br/> **示例值：** 026： [260000-270000）  | &bull;未报告传输类型 <br/>&bull;未建立媒体路径  |
@@ -225,8 +225,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | First Capture Dev  | String  | 第一终结点使用的捕获设备的名称。对于：<br/> **音频流**= 用于麦克风的设备 <br/> **视频流**= 相机使用的设备 <br/> **基于视频的屏幕共享流**= 屏幕 scraper <br/> **应用共享流**= 空白 <br/> **示例值：** 耳机式麦克风（Microsoft LifeChat LX-6000）  | &bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
 | Second Capture Dev  | 字符串  | 第二终结点使用的捕获设备的名称。  <br/> **音频流**= 用于麦克风的设备 <br/> **视频流**= 相机使用的设备 <br/> **基于视频的屏幕共享流**= 屏幕 scraper <br/> **应用共享流**= 空白 <br/> **示例值：** 耳机式麦克风（Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享   |
 | First Capture Dev Driver  | String  | 第一终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白  <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
-| Second Capture Dev Driver  | 字符串  | 第二终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白 <br/> **示例值：** Microsoft：10.0.14393。0  | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
-| First Render Dev  | String  | 第一终结点使用的呈现设备的名称。对于：<br/> 音频流-用于扬声器的设备 <br/> 视频和基于视频的屏幕共享流-用于显示的设备 <br/> 应用共享流 - 空  <br/> **示例值：** 耳机 Earphone （Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径  <br/>&bull;流是应用程序共享    |
+| Second Capture Dev Driver  | String  | 第二终结点使用的捕获设备驱动器的名称，格式为"制造商: 版本"。对于：<br/> **音频流**= 用于麦克风的驱动程序 <br/> **视频流**= 相机使用的驱动程序 <br/> **基于视频的屏幕共享和应用共享流**= 空白 <br/> **示例值：** Microsoft：10.0.14393。0  | <br/>&bull;终结点未报告数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是基于视频的屏幕共享或应用程序共享。  |
+| First Render Dev  | 字符串  | 第一终结点使用的呈现设备的名称。对于：<br/> 音频流-用于扬声器的设备 <br/> 视频和基于视频的屏幕共享流-用于显示的设备 <br/> 应用共享流 - 空  <br/> **示例值：** 耳机 Earphone （Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径  <br/>&bull;流是应用程序共享    |
 | Second Render Dev  | String  | 第二终结点使用的呈现设备的名称。对于：<br/> 音频流-用于扬声器的设备 <br/> 视频和基于视频的屏幕共享流-用于显示的设备 <br/> 应用共享流 - 空 <br/> **示例值：** 耳机 Earphone （Microsoft LifeChat LX-6000） | <br/>&bull;终结点未报告此数据。 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享     |
 | First Render Dev Driver  | String  | 第一终结点使用的呈现设备驱动器的名称。对于：<br/> 音频流-用于扬声器的驱动程序 <br/> 视频和基于视频的屏幕共享流-用于显示的驱动程序 <br/> 应用共享流 - 空  <br/> **示例值：** Microsoft：10.0.14393。0 | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享    |
 | Second Render Dev Driver  | 字符串  | 第二终结点使用的呈现设备驱动器的名称。对于：<br/> 音频流-用于扬声器的驱动程序 <br/> 视频和基于视频的屏幕共享流-用于显示的驱动程序 <br/> 应用共享流 - 空 <br/> **示例值：** Microsoft：10.0.14393。0  | <br/>&bull;终结点未报告此数据 <br/>&bull;未建立媒体路径 <br/>&bull;流是应用程序共享   |
@@ -241,8 +241,8 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | 第二个 Wi-fi 供应商驱动程序版本  | String  | 第二终结点报告的 Wifi 驱动器的供应商和版本。 <br/> **示例值：** Contoso：15.1.1。0 | <br/>&bull;终结点未使用 WiFi <br/>&bull;未报告驱动程序信息  |
 | 第一 Wi-fi 频道  | String  | 第一终结点使用的 Wifi 频道。  <br/> **示例值：** 10| <br/>&bull;未使用 WiFi <br/>&bull;未报告频道   |
 | 第二个 Wi-fi 频道  | String  | 第二终结点使用的 Wifi 频道。 <br/> **示例值：** 10  | <br/>&bull;未使用 WiFi <br/>&bull;未报告频道  |
-| 第一 Wi-fi 无线电类型  | 字符串  | 第一终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
-| 第二个 Wi-fi 无线电类型  | String  | 第二终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
+| 第一 Wi-fi 无线电类型  | String  | 第一终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
+| 第二个 Wi-fi 无线电类型  | 字符串  | 第二终结点使用的 WiFi 无线电的类型。HRDSSS 等于 802.11b。<br/> **示例值：** 802.11 ac  | <br/>&bull;未使用 WiFi <br/>&bull;未报告 WiFi 类型  |
 | First DNS Suffix  | 字符串  | 第一终结点报告的与网络适配器关联的 DNS 后缀。 请注意，可能会为任何类型的网络适配器报告此值。 **示例值：** corp <span></span> <span></span> .com  | <br/>&bull;终结点未报告此值 <br/>  |
 | Second DNS Suffix  | 字符串  | 第二终结点报告的与网络适配器关联的 DNS 后缀。请注意，可能会为任何类型的网络适配器报告此值。<br/> **示例值：** corp <span></span> <span></span> .com   | <br/>&bull;终结点未报告此值  |
 | 第一 Wi-fi 频带  | String  | 第一终结点报告的所使用的 Wifi 波段。 <br/> **示例值：** 5.0 Ghz  | <br/>&bull;值不是由终结点计算得出的 <br/>&bull;未报告值  |
@@ -384,7 +384,7 @@ CQD 中的许多维度和度量值标记为第一或第二。 以下逻辑用于
 | First Device Howling Event Count  | 范围（比率）  | 调用期间第一个终结点在同一房间内检测到的两个或更多终结点的次数，这些终结点在啸声或 screeching 音频形式导致质量较差的音频。 值按范围分组表示。 <br/> **示例值：** 016： [0.02-0.03）  | &bull;这是非音频流 <br/>&bull;第一个终结点未报告数据 |
 | Second Device Howling Event Count  | 范围（比率）  | 通话期间，第二终结点检测到同一房间或声音环境中存到两个或更多个终结点并因此导致存在啸声或尖叫声的差质量音频的次数。值按范围分组表示。<br/> **示例值：** 016： [0.02-0.03）  | &bull;指示非音频流 <br/>&bull;第二终结点未报告数据 |
 |**呼叫诊断**|||
-| Error Report Sender  | String  | 指示发送流的通话错误报告的终结点。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。<br/> **示例值：** 条 | &bull;指示未发送呼叫错误报告。  |
+| Error Report Sender  | 字符串  | 指示发送流的通话错误报告的终结点。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。<br/> **示例值：** 条 | &bull;指示未发送呼叫错误报告。  |
 | Is Media Error  | String  | 指示为流报告的通话错误是否为媒体级错误。此报告包含额外的遥测并可能指出通话中的通话设置或断线问题。    | &bull;指示未发送呼叫错误报告。 |
 | Media Failure Type  | 枚举 <br/>**可能的值：** <br/>&bull;Midcall <br/>&bull;CallSetup <br/>&bull;NotMediaFailure. | 与流关联的媒体故障的类型。   | &bull;指示未发送呼叫错误报告。   |
 | 通话分类| 枚举 |分配给呼叫的可靠性分类。 **可能的值**：成功、失败、ClassificationUnavailable | |

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '了解如何为团队获取新的、移植或转移现有号码，以及如何向用户显示所做的更改。 '
-ms.openlocfilehash: 45c0b87d8e208913b9be0d231a8e2ae2e0ebfd5a
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: ccc0baa1f4793967daa9520de1c9aaa9b56175ba
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691428"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372071"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>为用户获取电话号码
 
@@ -34,7 +34,7 @@ ms.locfileid: "44691428"
 有三种方法可以获取用户号码：
 
 - **使用 Microsoft 团队管理中心。** 对于某些国家和地区，你可以使用 Microsoft 团队管理中心为你的用户获取数字。 请参阅[为您的用户获取新电话号码](#get-new-phone-numbers-for-your-users)。
-    
+
 - **转网现有的号码。** 您可以从当前服务提供商或电话运营商处移植或转移现有号码。 如需获取有助于执行此操作的详细信息，请参阅[将电话号码转接到 Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) 或[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。  
   
 - **使用新号码的请求表单。** 有时（取决于您所在的国家或地区）您将无法使用 Microsoft 团队管理中心获取新的电话号码，或者您需要特定的电话号码或区号。 有关详细信息，请参阅[管理你的组织的电话号码](/microsoftteams/manage-phone-numbers-for-your-organization)。
@@ -46,16 +46,18 @@ ms.locfileid: "44691428"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 转到 Microsoft 团队管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。 
+您必须是团队服务管理员才能进行这些更改。 请参阅[使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles)，了解如何获取管理员角色和权限。
+
+1. 转到 Microsoft 团队管理中心。
 2. 在左侧导航中，转到 "**语音**  >  **电话号码**"，然后单击 "**添加**"。
 3. 输入订单的名称并添加说明。
 4. 在 "位置和数量" 页面上，执行下列操作：
     1. 在 "**国家或地区**" 下，选择一个国家或地区。
     2. 在 "**数字类型**" 下，选择 "**用户（订阅者）**"。
     3. 在 "**位置**" 下，选择一个位置。 如果需要创建新位置，请单击 "**添加位置**"。
-    4. 在 "**区域代码**" 下，选择区号。 
+    4. 在 "**区域代码**" 下，选择区号。
     5. 在 "**数量**" 下，输入您的组织所需的号码数，然后单击 "**下一步**" 以选择您的号码。
-5. 选择所需的数字。您有10分钟的时间来选择您的电话号码并放置您的订单。如果您的时间超过10分钟，电话号码将返回到号码池。
+5. 选择所需的数字。 您有10分钟的时间来选择您的电话号码并放置您的订单。 如果您的时间超过10分钟，电话号码将返回到号码池。
 6. 准备好下订单后，单击 "**下订单**"。
 
     > [!IMPORTANT]
@@ -69,9 +71,9 @@ ms.locfileid: "44691428"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看您的组织的电话号码
 
-![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心** 
+![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-在<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">管理中心</a>的左侧导航中，转到 "**语音**  >  **电话号码**" 以查看您的组织的号码，包括位置、号码类型和状态信息。
+在管理中心的左侧导航中，转到 "**语音**  >  **电话号码**" 以查看您的组织的号码，包括位置、号码类型和状态信息。
   
 ## <a name="assign-phone-numbers-to-users"></a>向用户分配电话号码
 

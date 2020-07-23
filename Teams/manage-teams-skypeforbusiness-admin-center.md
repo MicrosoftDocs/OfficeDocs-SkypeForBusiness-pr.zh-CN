@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f30db1425c61e8cb5f916345c0b751bc81c90a0f
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: 0dc4e9a4c223422ab743e657d808f5de0f3239e7
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637421"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45228888"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 ======================================================
@@ -34,9 +34,9 @@ ms.locfileid: "44637421"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>什么是新的 Microsoft 团队管理中心？  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>什么是新的 Microsoft 团队管理中心  
 
-新的管理中心体验将为你提供统一的体验来管理团队和 Skype for business。 我们正在提供其他功能、端到端见解以及管理用户级别的团队设置的功能。 您可以在上访问管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。
+新的管理中心体验将为你提供统一的体验来管理团队和 Skype for business。 我们正在提供其他功能、端到端见解以及管理用户级别的团队设置的功能。
 
 ![Microsoft 团队管理中心的屏幕截图。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -84,15 +84,15 @@ ms.locfileid: "44637421"
 
 - 允许用户在[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)中的用户级别上管理可管理的应用旁加载应用。
 - 允许租户中的用户与可在组织范围内应用设置中的租户级别管理的自定义应用交互。
- 
-<sup>3</sup>在 TeamsAppPermissionPolicy 中的用户级别上，可以启用和禁用默认应用和外部应用。 此外，可以在组织范围内应用设置中的租户级别阻止应用，这些应用会覆盖任何用户和租户级别的设置。 
+
+<sup>3</sup>在 TeamsAppPermissionPolicy 中的用户级别上，可以启用和禁用默认应用和外部应用。 此外，可以在组织范围内应用设置中的租户级别阻止应用，这些应用会覆盖任何用户和租户级别的设置。
 
 > [!NOTE]
-> 对于与团队和频道相关的配置，您将继续使用 Microsoft 365 管理中心中的组仪表板。 应用的设置将保留在 Microsoft 365 管理中心的 "团队" 区域中，稍后将进行迁移。 
+> 对于与团队和频道相关的配置，您将继续使用 Microsoft 365 管理中心中的组仪表板。 应用的设置将保留在 Microsoft 365 管理中心的 "团队" 区域中，稍后将进行迁移。
 
 ## <a name="manage-settings-during-the-migration"></a>在迁移过程中管理设置
 
-你可以继续修改 Microsoft 365 管理中心和 Skype for business 管理中心中的设置，直到针对你的租户完成了分区的迁移。 
+你可以继续修改 Microsoft 365 管理中心和 Skype for business 管理中心中的设置，直到针对你的租户完成了分区的迁移。
 
 下表显示了在迁移期间可以管理功能的位置。
 
@@ -104,7 +104,7 @@ ms.locfileid: "44637421"
 |团队生命周期管理   |    X    |      |       |
 |团队设置   |    X    |      |       |
 |外部访问设置     |    X    |      |       |
-|用户管理    |         |         |    X     |    
+|用户管理    |         |         |    X     |
 |音频会议     |    X     |    X     |         |
 |通话计划     |    X    |    X     |         |
 |电话系统    |    X    |     X    |         |

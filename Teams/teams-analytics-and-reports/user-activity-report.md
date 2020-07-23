@@ -17,12 +17,12 @@ description: 了解如何使用 Microsoft 团队管理中心中的 "团队用户
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9516c7ed39a56e09bb714f58e988dc46b41ec9e2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 19f1ef23e29805e53d819752e3f6313c4989d295
+ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903867"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45372151"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams 用户活动报告
 
@@ -30,7 +30,9 @@ ms.locfileid: "43903867"
 
 ## <a name="view-the-user-activity-report"></a>查看用户活动报表
 
-1. 在 Microsoft 团队管理中心的左侧导航中，单击 "**分析" & 报告** > **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队用户活动**"。
+您必须是团队服务管理员才能进行这些更改。 请参阅[使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles)，了解如何获取管理员角色和权限。
+
+1. 在管理中心的左侧导航中，单击 "**分析" & 报告**  >  **使用情况报告**。 在 "**查看报表**" 选项卡上的 "**报表**" 下，选择 "**团队用户活动**"。
 2. 在“**数据范围**”下，选择一个范围，然后单击“**运行报告**”。
 
     ![团队管理员中心中带有标注的团队用户活动报表的屏幕截图](../media/teams-reports-user-activity-with-callouts.png "团队管理员中心中带有标注的团队用户活动报表的屏幕截图")
