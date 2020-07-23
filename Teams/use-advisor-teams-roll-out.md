@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams（公共预览版）帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: ef9b22d7e4a3a3c3670acc766ee27cdc2c3de67c
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: e447c05fc19766d3e67d510af6fbd424dc4173e7
+ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868149"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "45201206"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -53,7 +53,7 @@ Advisor for Teams 是 [Teams管理中心](https://admin.teams.microsoft.com)的�
 
 ## <a name="available-advisor-for-teams-plans"></a>可用的 Teams 顾问计划
 
-在 Advisor for Teams 处于公共预览阶段时，我们提供以下两种计划：
+在 Advisor for Teams 处于公共预览阶段时，我们提供以下计划：
 
 1. 聊天、团队、频道和应用
     - 租户评估
