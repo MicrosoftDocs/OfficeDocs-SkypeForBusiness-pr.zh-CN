@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 下面是适用于巴林的 Skype for business 和 Microsoft 团队的 Microsoft 365 和 Office 365 服务。
-ms.openlocfilehash: 5d3dbac85646384eb2491c05797235d212450382
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 2b87e6545d8c24215f9d61c6b2f75ade95fa3266
+ms.sourcegitcommit: ca2faa1cd2b078e8d0389b5d2f49bfe6ddbcb9f6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231211"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45391620"
 ---
 # <a name="availability-in-bahrain"></a>在巴林的可用性
 
@@ -71,7 +71,7 @@ ms.locfileid: "44231211"
 |**功能**|**Details**|
 |:-----|:-----|
 |你可以获取哪些首都或大城市的收费电话号码？  <br/> |Manama  <br/> |
-|是否提供收费电话号码？  <br/> |是  <br/> |
+|是否提供收费电话号码？  <br/> |否  <br/> |
 |是否提供免费电话号码？  <br/> |否  <br/> |
    
  如果你想要获取音频会议、自动助理和呼叫队列的收费和免费电话号码，请参阅[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)。

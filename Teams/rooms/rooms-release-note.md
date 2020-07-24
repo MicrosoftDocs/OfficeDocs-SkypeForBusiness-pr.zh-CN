@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft 团队聊天室的发行说明，其中列出了 Microsoft 团队聊天室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cd072f87371dacd45d92d92307ffe79567831201
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 2975d384fd0d09b36e18802dbede4e8ec7dc721b
+ms.sourcegitcommit: f1834bb47452007480269b5a5cdad20037c32ef6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201176"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "45390112"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -29,7 +29,7 @@ ms.locfileid: "45201176"
 
 |新版 |已发布到 <br/> Microsoft Store |
 |--- |--- |
-|4.5.33.0 |07/20/2020 |
+|4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
 |4.4.41.0 |05/06/2020 |
 |4.4.25.0 |03/31/2020 |
@@ -66,20 +66,25 @@ ms.locfileid: "45201176"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和问题解决
 
-### <a name="45330-07202020"></a>4.5.33.0 （07/20/2020）
+### <a name="45350-07232020"></a>4.5.35.0 （07/23/2020）
+
 此更新中引入的内容：
-- 通过直接来宾加入，从团队聊天室加入 Cisco Webex 会议
+
+- 通过直接来宾加入，从团队聊天室加入 Cisco WebEx 会议
 - 团队管理中心支持和自动注册
 - Windows 10 1909 版本支持
 - 切换到视频库布局（即使内容存在）
 - 面向演示者的与会者和控件的虚拟举手支持
 - 适用于会议和默认扬声器的可调默认音量设置
 - 从团队聊天室搜索和调用联盟用户（租户）
-    
+
+> [!IMPORTANT]
+> 版本4.5 是最新版本，支持 Windows 10 版本 1803;将不会向 Windows 10 版本1803上的系统提供未来版本。 有关 Windows 版本支持的详细信息，请参阅[windows 10 发布支持](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)。
 
 ### <a name="44630-06252020"></a>4.4.63.0 （06/25/2020）
 
 此更新中引入的内容：
+
 - 质量和可靠性修复程序
 - 修复 "更新到4.4.41.0 后，应用程序无法启动" 问题
 
@@ -89,6 +94,7 @@ ms.locfileid: "45201176"
 ### <a name="44410-05062020"></a>4.4.41.0 （05/06/2020）
 
 此更新中引入的内容：
+
 - Windows 10 展台中的应用程序启动的可靠性修复程序
 
 ### <a name="44250-03312020"></a>4.4.25.0 （03/31/2020）
