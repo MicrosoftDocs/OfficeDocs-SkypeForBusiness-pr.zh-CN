@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99017e63ae784c7c4271454829198c7c06ecfe8e
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: d0b5c289a2cc87c778a0d9b0bd1ebb8d52978fb4
+ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868459"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "45229138"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -79,9 +79,9 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>阻止用户安装试用版应用和服务
 
-可以禁用用户安装试用版应用和服务的功能，这会阻止用户运行 Teams 探索体验。 必须具有管理员权限。 若要详细了解管理员角色，请参阅[使用 Microsoft Teams 管理员角色来管理 Teams](teams-exploratory.md)。
+可以禁用用户安装试用版应用和服务的功能，这会阻止用户运行 Teams 探索体验。 
 
-1. 从 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **设置**，选择**服务**，然后选择**用户自有应用和服务**。
+1. 从 Microsoft 365 管理中心，依次转到“设置”**** > “设置”****，然后依次选择“服务”**** 和“用户自有应用和服务”****。
 
     ![管理中心中“服务”页面的屏幕截图](media/iw-trial-services.png)
 
@@ -98,7 +98,7 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 关闭对 Teams 的访问：
 
-1. 在 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)中，选择“**用户**” > “**活动用户**”。
+1. 在 Microsoft 365 管理中心中，选择“**用户**” > “**活动用户**”。
 
 2. 选择用户姓名旁的框。
 
