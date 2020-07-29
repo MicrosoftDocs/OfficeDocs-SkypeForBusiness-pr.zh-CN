@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54a0565f5126c899ed5fbf9527aa30f83c3bee3b
-ms.sourcegitcommit: 296aeac481f901eb9d52b4f12a8c037afc49fa77
+ms.openlocfilehash: 1ed13f1f85b0c7eccead3737c4549931f016284c
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "44256572"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429374"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft 团队中特定于资源的同意
 
@@ -95,6 +95,7 @@ Microsoft 团队中特定于资源的同意允许团队所有者同意访问团�
 
 ## <a name="related-topics"></a>相关主题
 
+- [可用的 RSC 权限](https://aka.ms/teams-rsc)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [在 Microsoft 团队管理中心中管理你的应用](manage-apps.md)
 - [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)

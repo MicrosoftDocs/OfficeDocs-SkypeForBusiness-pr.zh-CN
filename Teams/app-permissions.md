@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d2e43c3125421189303d106cfd3bdde66815309
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: e12509f8a8b2bf43b98cb7c0dba387aa1e92383b
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44611011"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429364"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams 应用权限和考虑事项
 
@@ -55,11 +55,11 @@ ms.locfileid: "44611011"
 
 无
 
-### <a name="considerations"></a>考虑事项
+### <a name="considerations"></a>注意事项
 
 - 应用必须公开它所使用的数据以及数据在其使用条款和隐私策略链接中的用途。
 
-- [特定于资源的同意](resource-specific-consent.md)提供了一组应用可以请求的权限，这些权限显示在应用的安装屏幕上。 若要了解有关特定于资源的同意权限的详细信息，请参阅[图表权限参考](https://docs.microsoft.com/graph/permissions-reference)。
+- [特定于资源的同意](resource-specific-consent.md)提供了一组应用可以请求的权限，这些权限显示在应用的安装屏幕上。 若要了解有关特定于资源的同意权限的详细信息，请参阅[图表权限参考](https://docs.microsoft.com/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
 - 应用还可能需要除特定于资源的同意权限之外的权限。 安装应用后，应用可能会通过同意提示请求 Graph 权限。 若要了解详细信息，请参阅[了解 AZURE AD 应用程序同意体验](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)。 你可以在 Azure 门户中配置 API 权限和同意。 若要了解详细信息，请参阅[Azure Active Directory 同意框架](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)。
 
@@ -87,7 +87,7 @@ ms.locfileid: "44611011"
 
 - SEND_FILES，RECEIVE_FILES。<sup>2</sup>控制机器人是否可以在个人聊天中发送和接收文件（对于群组聊天或频道尚不支持）。
 
-### <a name="considerations"></a>考虑事项
+### <a name="considerations"></a>注意事项
 
 - Bot 只能访问已添加的团队或已安装他们的用户。
 
@@ -117,7 +117,7 @@ ms.locfileid: "44611011"
 
 <sup>1</sup>某些机器人仅发送邮件（POST_MESSAGE_USER）。 它们称为 "仅通知" 功能人员，但术语没有指允许或不允许机器人执行的操作，这意味着机器人不希望公开会话体验。 团队使用此字段在 UI 中禁用通常启用的功能;与确实公开会话体验的 bot 相比，机器人不受允许的功能。
 
-<sup>2</sup>由应用程序的 supportsFiles 文件中的 bot 对象上的布尔属性控制。
+<sup>2</sup>由 supportsFiles 的 "应用程序" 文件 manifest.js中的 "bot" 对象上的 "" 布尔属性控制。
 
 > [!NOTE]
 > 如果机器人有自己的登录，则在用户第一次登录时有另一种不同的同意体验。
@@ -136,7 +136,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 无（当前）
 
-### <a name="considerations"></a>考虑事项
+### <a name="considerations"></a>注意事项
 
 - 选项卡的风险配置文件与在浏览器选项卡中运行的同一网站几乎完全相同。 
 
@@ -154,7 +154,7 @@ POST_MESSAGE_CHANNEL
 
 REPLYTO_CONNECTOR_MESSAGE。 某些连接器支持可操作的消息，这些消息允许用户将目标回复发布到连接器消息，例如，将响应添加到 GitHub 问题或将日期添加到 Trello 卡。
 
-### <a name="considerations"></a>考虑事项
+### <a name="considerations"></a>注意事项
 
 - 发布连接器消息的系统不知道它的发件人或接收邮件的人员：不透露有关该收件人的任何信息。 （Microsoft 是实际的收件人，而不是租户;Microsoft 会向该频道发送实际帖子。）
 
@@ -185,7 +185,7 @@ RECEIVE_MESSAGE，REPLYTO_MESSAGE。 可接收来自用户的消息并答复他�
 
 无
 
-### <a name="considerations"></a>考虑事项
+### <a name="considerations"></a>注意事项
 
 - 传出 webhooks 类似于 bot，但权限较少。 它们必须明确提及，就像机器人一样。
 
