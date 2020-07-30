@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解 Microsoft 团队的加载项许可证以及使用每个许可证获得的功能。
-ms.openlocfilehash: 307dad7dbf8ca19bdeb10fa18b2cbd18a2273f74
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028178"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46522459"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft 团队附加设备许可证
 
@@ -41,7 +41,7 @@ ms.locfileid: "45028178"
 |:-----|:-----|:-----|:-----|
 |**功能** <br/> |**说明** <br/> |**小型企业版（<300 用户）**|**大型企业版（>300 用户）**|
 **Microsoft 365 商务语音** <br/> | [商业语音](../business-voice/whats-business-voice.md)是专为最多300用户（捆绑电话系统、音频会议、国内呼叫计划等）的中小型企业设计的电话解决方案。 您将获得的电话系统功能包括语音邮件、来电显示、呼叫寄存、呼叫转接、自动助理和通话队列。 <br> 要了解您所在国家或地区是否可以使用商业语音，请参阅[企业语音的国家和地区可用性](../business-voice/country-region-availability.md)。 有关定价信息，请参阅[商业语音定价](https://go.microsoft.com/fwlink/?linkid=2127221)。 <br/> |&#x2713;||
-|**音频会议** <br/> |有时，您的组织中的人员将需要使用手机呼叫团队会议，而不是计算机。 为安排或领导会议的用户设置[音频会议](../audio-conferencing-in-office-365.md)。 <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
+|**音频会议** <br/> |有时，您的组织中的人员将需要使用手机呼叫团队会议，而不是计算机。 为安排或领导会议的用户设置[音频会议](../audio-conferencing-in-office-365.md)。 <br/> 要了解你所在国家或地区是否提供视频会议，请参阅 [音频会议和通话套餐的国家/地区可用情况](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 有关定价信息，请参阅[音频会议定价](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> |&#x2713;|&#x2713;|
 |**免费电话号码** |如果想要为音频会议、自动助理或呼叫队列设置免费电话号码，必须[设置通讯信用点数](../set-up-communications-credits-for-your-organization.md)。 <br/> |&#x2713;|&#x2713;|
 |**电话系统** <br/> |[电话系统](../what-is-phone-system-in-office-365.md)是一种托管电话服务，提供了呼叫控制和专用分支交换（PBX）功能，以及用于连接到公共交换电话网络（PSTN）的选项。 电话系统功能包括云语音邮件、呼叫方 ID、呼叫寄存、呼叫转接、自动助理、呼叫队列、呼叫转接、来电显示等。 <br>若要了解详细信息，请参阅[使用手机系统获取的功能](../here-s-what-you-get-with-phone-system.md)。 有关定价信息，请参阅[电话系统定价](https://go.microsoft.com/fwlink/?linkid=799763)。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**通话套餐** <br/> |如果您希望用户能够呼叫您组织外部的电话号码，请获取[呼叫计划](../calling-plans-for-office-365.md)。 有国内通话计划和国内和国际通话计划。 有关定价信息，请参阅[通话计划定价](https://go.microsoft.com/fwlink/?linkid=799761 )。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
@@ -190,7 +190,7 @@ ms.locfileid: "45028178"
 
 ## <a name="need-help"></a>需要帮助？
 
-需要与某人联系以了解附加选项？ [联系商业版产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+需要与某人联系以了解附加选项？ [联系商业产品的支持人员 - 管理员帮助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 ## <a name="related-topics"></a>相关主题
 

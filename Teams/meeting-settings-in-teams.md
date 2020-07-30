@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 0e87b5eadd358bb4c7e13f2948b180d2f7bfff81
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 559dcc8a2f5e38c4c35ba7794241e69402a092ef
+ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45371981"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "46526708"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -99,7 +99,7 @@ ms.locfileid: "45371981"
 
     - 要允许对 QoS 使用 DSCP 标记，请打开**插入实时媒体流量的服务质量 (QoS) 标记**。 你只能选择是否使用标记；不能为每种流量类型设置自定义标记。 有关 DSCP 标记的更多信息，请参阅[选择 QoS 实施方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE]
-        > DSCP 标记通常通过源端口完成，并且 UDP 流量默认情况下将路由到 Transfport 中继和目标端口3478。  如果您的公司需要在目标端口上添加标签，请联系支持人员以启用与传输中继的通信，使用 UDP 端口3479（音频）、3480（视频）和3481（共享）。
+        > DSCP 标记通常通过源端口完成，并且 UDP 流量默认情况下路由到目标端口为3478的传输中继。 如果您的公司需要在目标端口上添加标签，请联系支持人员以启用与传输中继的通信，使用 UDP 端口3479（音频）、3480（视频）和3481（共享）。
     - 要指定端口范围，请在“**选择每种媒体实时流量的端口范围**”旁选择“**指定端口范围**”，然后输入音频、视频和屏幕共享的起始和结束端口。 要实施 QoS，必须选择此选项。
         > [!IMPORTANT]
         > 如果你选择了**自动使用任何可用的端口**，则将使用 1024 和 65535 之间的可用端口。 仅在未实施 QoS 的情况下使用此选项。

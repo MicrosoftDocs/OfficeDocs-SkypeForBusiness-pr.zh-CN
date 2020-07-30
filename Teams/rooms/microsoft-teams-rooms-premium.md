@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft 团队聊天室高级版。
 f1keywords: ''
-ms.openlocfilehash: 01486e66f13af34fb14264c3a14dc414e0d5eb4f
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
+ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201267"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "46521977"
 ---
 # <a name="microsoft-teams-rooms-premium"></a>Microsoft 团队聊天室高级版
 
-Microsoft 团队聊天室 Premium 是基于云的 IT 管理和监视服务，可让 Microsoft 团队房间设备及其外围设备保持最新状态，从而支持针对出色的用户体验进行优化的环境。
+Microsoft 团队聊天室 Premium 包含基于云的 IT 管理和监视服务，可让 Microsoft 团队房间设备及其外围设备保持最新状态，从而支持针对出色的用户体验进行优化的环境。
 
 Microsoft 团队会议室 Premium 适用于寻求改善其会议室体验的组织，并通过为 Microsoft 团队聊天室设备提供主动管理来快速调整其需求量。 该服务允许组织节省时间、资金和专业知识，否则将在 "自行管理" 房间内花费这些资金。  
 
@@ -62,8 +62,6 @@ Microsoft 团队聊天室 Premium 服务构建在支持软件的对终结点、�
 |**见解和建议**   |使用情况、事件、运行状况和总体报告（历史视图）         |
 
 ## <a name="service-prerequisites"></a>服务先决条件
-
-Microsoft 团队聊天室 Premium 服务是每个会议室许可证的加载项。 Microsoft 团队聊天室需要单独的用户或 Microsoft 团队聊天室许可证。
 
 对于 Microsoft 团队聊天室 Premium，若要维护服务质量，已注册的会议室必须是[Microsoft 团队会议室支持的设备](requirements.md#hardware-requirements)，并且你必须使用完全允许的所有[必需的 Office 365 url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)准备你的环境，并可通过会议室设备访问它们。 若要了解详细信息，请参阅 Microsoft 团队聊天室文档中的[准备环境](rooms-prep.md)。
 
