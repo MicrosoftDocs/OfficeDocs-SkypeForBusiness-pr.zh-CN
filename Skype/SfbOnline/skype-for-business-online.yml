@@ -1,0 +1,124 @@
+### YamlMime:Landing
+title: Skype for Business Online 管理
+summary: Skype for business Online 将于2021年7月31日停用，此时将终止对该服务的访问。 我们鼓励客户开始升级到 Microsoft 团队，这是 Microsoft 365 中团队协作的中心。
+metadata:
+  title: Skype for Business Online 管理
+  description: 了解如何为你的组织管理 Skype for Business Online。
+  services: skype-for-business-online-admin
+  ms.service: skype-for-business-online-admin
+  ms.topic: landing-page
+  search.appverid: MET150
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  author: tonysmit
+  ms.author: tonysmit
+  f1.keywords:
+  - CSH
+  ms.custom:
+  - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+  ms.date: 06/24/2020
+  ms.openlocfilehash: fe7199d98c010f1ade9dc8b2c7cc9a320aed5719
+  ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 07/29/2020
+  ms.locfileid: "46522958"
+landingContent:
+- title: 关于 Skype for Business Online
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: 要在2021中停用的 Skype for business Online
+      url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
+  - linkListType: get-started
+    links:
+    - text: 开始使用
+      url: https://support.office.com/article/2da94a13-6d16-4d67-adf3-439f2b946994
+  - linkListType: overview
+    links:
+    - text: 我们随时为你提供帮助
+      url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+    - text: 需要有关登录到 Skype for Business 的帮助？
+      url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
+    - text: 解决 Skype for Business Online 中的问题
+      url: /SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+    - text: 从 Skype for Business 到 Teams 的旅程
+      url: https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here
+- title: 新增功能
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 设置组织内的电话系统
+      url: /microsoftteams/setting-up-your-phone-system
+    - text: 与音频会议的第三方集成
+      url: /SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers
+    - text: 设置音频会议
+      url: /microsoftteams/audio-conferencing-in-office-365
+  - linkListType: overview
+    links:
+    - text: 加拿大的通话套餐（通用）
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada
+    - text: 澳大利亚的通话套餐（仅限预览）
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia
+- title: 音频会议
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 音频会议常见问题
+      url: /MicrosoftTeams/audio-conferencing-common-questions
+    - text: 了解音频会议在你的国家/地区是否可用
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: 管理我的组织的音频会议设置
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-my-organization
+    - text: 比较音频会议提供商
+      url: /SkypeForBusiness/audio-conferencing-in-office-365/compare-audio-conferencing-providers
+- title: 设置
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 设置 Skype for Business Online
+      url: /SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: 允许用户联系外部 Skype for Business 用户
+      url: /SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: 允许 Skype for Business 用户添加 Skype 联系人
+      url: /SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+- title: 外接程序许可
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Skype for Business 和 Microsoft Teams 外接程序许可
+      url: /SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing
+    - text: 什么是通信点数？
+      url: /MicrosoftTeams/what-are-communications-credits
+- title: 通话套餐
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什么是通话计划？
+      url: /MicrosoftTeams/calling-plan-landing-page
+    - text: 了解通话套餐在你的国家/地区是否可用
+      url: /MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans
+  - linkListType: how-to-guide
+    links:
+    - text: 设置通话套餐
+      url: /MicrosoftTeams/set-up-calling-plans
+- title: 电话系统
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 什么是电话系统？
+      url: /MicrosoftTeams/what-is-phone-system-in-office-365
+    - text: 电话系统的功能
+      url: /MicrosoftTeams/here-s-what-you-get-with-phone-system
+- title: 改进通话和视频质量
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 解决 Skype for Business 中的连接问题
+      url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
+    - text: Skype for Business 中的音频和视频故障排除
+      url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
+    - text: 调整 Skype for Business Online 性能
+      url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802
