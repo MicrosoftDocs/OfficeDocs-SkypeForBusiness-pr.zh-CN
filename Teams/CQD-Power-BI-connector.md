@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安装 Power BI Connector 以使用呼叫质量仪表板（CQD）查询模板
-ms.openlocfilehash: 1647497cf2551a125e28d5a3920625bee15eca9f
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138024"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506165"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI Connector 以使用 CQD 查询模板
 
@@ -124,7 +124,7 @@ ms.locfileid: "45138024"
 
 6. **政府社区云（GCC）支持-** 对于 GCC 环境中的客户，使用 Power BI Desktop 时，CQD Power BI 连接器将正常工作。 CQD Power BI 连接器当前与适用于 GCC 客户的 Power BI 服务不兼容。
 
-请注意，虽然连接线在预览中，但这些限制不太可能与连接器的最终版本一起更改。 大多数问题都是对 CQD 数据模型设计而言，Power BI 或基础中的 DirectQuery 连接器设计的限制。
+大多数问题都是对 CQD 数据模型设计而言，Power BI 或基础中的 DirectQuery 连接器设计的限制。
 
 ## <a name="troubleshooting"></a>故障排除
 

@@ -1,5 +1,5 @@
 ---
-title: 开始使用 Teams 模板
+title: 使用 Microsoft Graph 开始使用团队模板
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 了解如何使用团队模板创建具有不同主题频道的协作空间和预安装应用以提供内容和服务。
+description: 了解如何使用 Microsoft Graph 中的团队模板创建具有不同主题的频道的协作空间和预安装应用以提供内容和服务。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,22 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4cdf8d489025110b47a98402a344e025b256012
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 18459b8350326d1af50fa8da4046b8987dd336dd
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904617"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506180"
 ---
-# <a name="get-started-with-teams-templates"></a>开始使用 Teams 模板
+# <a name="get-started-with-teams-templates-using-microsoft-graph"></a>使用 Microsoft Graph 开始使用团队模板
 
 > [!NOTE]
-> 团队模板当前不支持创建专用通道。 模板定义中不包含专用通道创建。 
+> 团队模板当前不支持创建专用通道。 模板定义中不包含专用通道创建。
 
-团队模板是围绕业务需求或项目设计的团队结构的预建定义。 你可以使用团队模板快速创建具有不同主题和预安装应用的频道的丰富协作空间，以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。 
+团队模板是围绕业务需求或项目设计的团队结构的预建定义。 您不能创建自己的模板。 而是使用 Microsoft Graph 的预建模板。 你可以使用团队模板快速创建具有不同主题和预安装应用的频道的丰富协作空间，以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。
 
 在本文中，我们将介绍可在模板中定义的属性、哪些基本模板类型以及如何使用一些示例请求来从模板创建团队。
- 
+
 本文适用于您的情况：
 
 - 负责在整个组织中规划、部署和管理多个团队<br>
@@ -58,9 +58,9 @@ ms.locfileid: "43904617"
 > [!NOTE]
 > 我们将在 Microsoft 团队的未来版本中添加更多模板功能，请查看有关支持的属性的最新信息。
 
-## <a name="what-are-base-template-types"></a>什么是基本模板类型？
+## <a name="what-are-base-template-types"></a>什么是基本模板类型
 
-基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含不在团队模板中单独支持的应用商店和团队属性中不可用的专有应用。
+基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含不在团队模板中单独支持的应用商店和团队属性中不可用的专有应用。 了解如何[在管理控制台中使用团队模板](get-started-with-teams-templates.md)。
 
 定义基本模板类型后，你可以使用你想要指定的其他属性扩展或覆盖这些特殊模板。 但某些基本模板类型包含无法重写的属性。
 
@@ -75,7 +75,7 @@ ms.locfileid: "43904617"
 | 面向<br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性<ul><li>将团队可见性设置为公共</li></ul>成员权限<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul> |
 | 面向<br>经理协作 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性：<ul><li>将团队可见性设置为私密</li></ul>成员权限：<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul>|
 | 行业<br>拖动 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |信道 <ul><li>宣告\*</li><li>Huddles\*</li><li>轮</li><li>调配\*</li><li>培训\*</li></ul>\*自动收藏频道 |
-|行业<br>医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |信道<ul><li>宣告\*</li><li>符合\*</li><li>Custodial</li><li>人力资源</li></li><li>药房</li></ul>\*自动收藏频道|
+|行业<br>医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |信道<ul><li>宣告\*</li><li>合规性\*</li><li>Custodial</li><li>人力资源</li></li><li>药房</li></ul>\*自动收藏频道|
 |||
 
 ## <a name="related-topics"></a>相关主题

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e8b8e8605b5e4f916389109cb611996aa90a895
-ms.sourcegitcommit: 34a30c2c9a8e32bfcb382c3e6e7237f277ec361d
+ms.openlocfilehash: e85ef79247bdf35c3c116504af23728a0d268ca5
+ms.sourcegitcommit: 682566e51a9e5f0fc65540535c7dcdcbd38e04c4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45206760"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "45429324"
 ---
 # <a name="recommended-methods-and-best-practices-for-creating-class-teams"></a>创建课堂团队的推荐方法和最佳做法
 
@@ -60,13 +60,13 @@ Microsoft Teams 教育版提供了针对教育用途的  [特定团队类型](
 
 ### <a name="considerations"></a>注意事项
 
-SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD) 中创建一个 Microsoft 365 组，第二步将该组自动转换为一个团队。 创建团队的第二步在SDS中是可选的。 管理员可能不希望根据部署时间和可能产生的未使用团队的数量自动创建团队。 我们建议拥有50万或以上团队的院校关闭 SDS 中的自动团队创建切换，并使用[教师领导的团队创建方法](#teacher-led-team-creation-from-office-365-class-groups)。  
+SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD) 中创建一个 Microsoft 365 组，第二步将该组自动转换为一个团队。 创建团队的第二步在SDS中是可选的。 管理员可能不希望根据部署时间和可能产生的未使用团队的数量自动创建团队。 我们建议拥有 50 万或以上团队的院校关闭 SDS 中的自动团队创建切换，并使用[教师领导的团队创建方法](#educator-led-team-creation-from-office-365-class-groups)。  
 
-### <a name="get-started"></a>开始使用
+### <a name="get-started"></a>入门
 
 首先，请访问[学校数据同步（SDS）](https://docs.microsoft.com/SchoolDataSync)并联系[https://aka.ms/sdssupport](https://aka.ms/sdssupport)部署协助。  
 
-## <a name="teacher-led-team-creation-from-office-365-class-groups"></a>由 Office 365 课堂教师领导的团队创建
+## <a name="educator-led-team-creation-from-office-365-class-groups"></a>由 Office 365 课堂教师领导的团队创建
 
 **此功能将于 2020 年 8 月中旬推出。**
 
@@ -147,6 +147,6 @@ SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD
 ## <a name="recommended-best-practices"></a>建议的最佳做法
 
 - 及早部署！ 尽早部署，以确保所有东西都能有效地工作，并为开学第一天做好准备。 如果你使用的是 SDS，则无需获得完整的学生成员身份即可开始 SDS 部署。 它将在你的 SIS 中提供该信息时同步学生。
-- 如果你有超过50万的团队，我们建议使用[教师指导团队创建方法](#teacher-led-team-creation-from-office-365-class-groups)。 它仅创建相关和所需的课堂团队，减少未使用的团队和垃圾邮件。  
-- 如果存在任何问题（例如找不到课堂），而 SDS 自动创建团队和教师立即需要它们，则可以使用[教师指导团队创建方法](#teacher-led-team-creation-from-office-365-class-groups)重试。 [手动创建团队](#manual-team-creation)是另一种解决方案，但是，它不会更新您的团队成员。  
+- 如果你有超过 50 万的团队，我们建议使用[教师指导团队创建方法](#educator-led-team-creation-from-office-365-class-groups)。 它仅创建相关和所需的课堂团队，减少未使用的团队和垃圾邮件。  
+- 如果存在任何问题（例如找不到课堂），而 SDS 自动创建团队和教师立即需要它们，则可以使用[教师指导团队创建方法](#educator-led-team-creation-from-office-365-class-groups)重试。 [手动创建团队](#manual-team-creation)是另一种解决方案，但是，它不会更新您的团队成员。  
 - 租户团队限制为50万个团队。 因此，管理员应该主动尝试减少未使用团队的数量，以避免达到这些限制以至延长设置时间。 有关限制的详细信息，请参阅[ Microsoft Teams 的限制和规范](limits-specifications-teams.md)。  

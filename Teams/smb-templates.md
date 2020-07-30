@@ -1,5 +1,5 @@
 ---
-title: 适用于中小型企业的团队模板
+title: 由 Microsoft Graph 构建的中小型企业的团队模板
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
@@ -15,16 +15,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
-description: 使用 Microsoft 团队预定义模板快速轻松地为中小型企业创建团队。
+description: 使用 microsoft Graph 中内置的预定义模板快速轻松地为中小型企业创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1de5e0459168c7586f0b8e18a33153ca1519853a
-ms.sourcegitcommit: 9b1c138b39fd87e239a7b1c5051f30c633e7d813
+ms.openlocfilehash: 9807e7f3694731af398abd83189698420ec36b8a
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "44944025"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506145"
 ---
-# <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>面向中小型企业的团队模板入门
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Microsoft Graph 中为中小型企业构建的团队模板
 
 Microsoft 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 

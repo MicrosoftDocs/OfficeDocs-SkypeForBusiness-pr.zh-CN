@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: 了解如何配置 Microsoft 团队聊天室的新式验证
-ms.openlocfilehash: f44fe0e66e5dd219606b2ceaa3860e01164ccfa4
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 83aff70e43fa578330fe48e814b4e7b216c7f90f
+ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666254"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46506176"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft 团队聊天室中的身份验证
 
@@ -31,9 +31,9 @@ Microsoft 团队聊天室版本4.4.25.0 及更高版本支持新式身份验证�
 
 ## <a name="modern-authentication"></a>新式验证
 
-将新式验证用于 Microsoft 团队聊天室应用程序时，将使用 Active Directory 身份验证库（ADAL）连接到 Microsoft 团队、Exchange 和 Skype for business。 Microsoft 团队聊天室设备是一种共享设备，执行夜间重启，以确保正常运行，并获取关键操作系统、驱动程序、固件或应用程序更新。 新式身份验证机制使用 OAuth 2.0 中的[资源所有者密码凭据](https://tools.ietf.org/html/rfc6749#section-1.3.3)授权授权类型，而不需要任何用户干预。 这是现代身份验证对用户帐户和 Microsoft 团队聊天室应用程序使用的资源帐户之间的主要差异之一。 因此，Microsoft 团队室资源帐户不应配置为使用多重身份验证（MFA）、智能卡身份验证或基于客户证书的身份验证（它们均适用于最终用户）。
+将新式验证用于 Microsoft 团队聊天室应用程序时，将使用 Active Directory 身份验证库（ADAL）连接到 Microsoft 团队、Exchange 和 Skype for business。 Microsoft 团队聊天室设备是一种共享设备，执行夜间重启，以确保正常运行，并获取关键操作系统、驱动程序、固件或应用程序更新。 新式身份验证机制使用 OAuth 2.0 中的[资源所有者密码凭据](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc)授权授权类型，而不需要任何用户干预。 这是现代身份验证对用户帐户和 Microsoft 团队聊天室应用程序使用的资源帐户之间的主要差异之一。 因此，Microsoft 团队室资源帐户不应配置为使用多重身份验证（MFA）、智能卡身份验证或基于客户证书的身份验证（它们均适用于最终用户）。
 
-新式身份验证在 Microsoft 团队聊天室设备和最终用户设备上的工作方式之间的其他主要区别是，你无法使用资源帐户应用设备级别的条件访问策略，例如 "需要设备标记为合规" 或 "需要混合的 Azure AD 已加入设备" 等。 这是因为设备级概念在应用程序级别使用时不适用于新式身份验证。 相反，你可以在 Microsoft Intune 中注册设备，并使用使用[Intune 管理团队](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)会议室中提供的指南来应用合规性策略。
+新式身份验证在 Microsoft 团队聊天室设备和最终用户设备上的工作方式之间的其他关键区别在于，在使用此授予类型时，无法使用资源帐户在 Azure Active Directory 和终结点管理器中应用设备级别的条件访问策略。 相反，你可以在 Microsoft 终结点管理器中注册设备，并使用使用[Intune 管理团队](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)会议室中提供的指南来应用合规性策略。
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>在 Microsoft 团队聊天室设备上启用新式验证
 
@@ -51,7 +51,7 @@ Microsoft 团队聊天室版本4.4.25.0 及更高版本支持新式身份验证�
 
 ### <a name="using-the-xml-config-file"></a>使用 XML 配置文件
 
-在 SkypeSettings 文件中，将新式身份验证 XML 元素设置为**True**，如下所示。
+在 SkypeSettings.xml 文件中，将新式身份验证 XML 元素设置为**True**，如下所示。
 
 ```
 <ModernAuthEnabled>True</ModernAuthEnabled>
@@ -67,17 +67,19 @@ Microsoft 团队聊天室版本4.4.25.0 及更高版本支持新式身份验证�
 
 若要打开 Exchange Online 的新式身份验证，请参阅[在 Exchange online 中启用新式身份验证](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)。 如果您使用 Skype for Business Online，还应确保已为 Skype for business Online 启用新式验证。 若要了解详细信息，请参阅[Skype for Business Online：针对新式验证启用租户](https://aka.ms/SkypeModernAuth)。
 
-我们建议您不要删除 Exchange Online 的基本身份验证策略，或禁用租户的基本身份验证策略，然后再验证 Microsoft 团队会议室设备在新式身份验证设置处于打开状态且没有设备仍配置为使用基本身份验证时，可成功登录到 Exchange Online 和团队或 Skype for business Online。
+我们建议你不要删除 Exchange Online 的基本身份验证策略，或者禁用租户的基本身份验证，直到你验证 Microsoft 团队聊天室设备可以使用 Exchange Online、团队和 Skype for business Online 成功登录。
 
 有关在 Exchange Online 中禁用基本身份验证的详细信息，请参阅[在 Exchange online 中禁用基本身份验证](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online)。
 
 ## <a name="hybrid-modern-authentication"></a>混合新式身份验证
 
-若要确保对本地 Exchange server 和/或 Skype for business 服务器的身份验证成功，必须确保将用于 Microsoft 团队聊天室的资源帐户配置为从 Azure AD 获取授权。 若要了解有关适用于你的组织的混合标识和方法的详细信息，请阅读以下主题： 
+若要确保对本地 Exchange server 和/或 Skype for business 服务器的身份验证成功，必须确保将用于 Microsoft 团队聊天室的资源帐户配置为从 Azure AD 获取授权。 
 
-- [什么是密码哈希同步？](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)
-- [什么是直通身份验证？](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta)
-- [什么是联盟？](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-fed)
+团队聊天室身份验证流根据您的身份验证配置的不同而不同。 对于使用托管域的客户，团队聊天室将[OAuth 2.0 资源所有者密码凭据](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc)用于 Azure Active Directory。 但是，对于使用联盟域的客户，将使用[OAuth 2.0 SAML 载荷流](https://docs.microsoft.com/azure/active-directory/develop/v2-saml-bearer-assertion)。
+
+> [!NOTE]
+> 标识提供商可能需要特定的配置或设置，以便与 Azure Active Directory 或 Office 365 集成。 如果在配置团队间的身份验证时需要帮助，请联系您的身份提供商。
+
 
 ### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>特定于 Microsoft 团队聊天室的先决条件
 
@@ -88,7 +90,7 @@ Microsoft 团队聊天室版本4.4.25.0 及更高版本支持新式身份验证�
 - 您必须拥有 Exchange Server 2016 CU8 或更高版本，或者 Exchange Server 2019 CU1 或更高版本。
 - 您必须拥有 Skype for business Server 2015 CU5 或更高版本，或者使用 Skype for business Server 2019 或更高版本。
 - 不支持 MFA，无论你有何种拓扑。
-- 如果你使用的第三方身份验证提供程序由 Azure AD 支持，则它必须支持 OAuth 并使用资源所有者密码凭据授权。
+- 如果你使用的第三方身份验证提供程序由 Azure AD 支持，则它必须支持通过 WS-TRUST 进行活动的身份验证流。
 - 不要对使用应用程序配置的资源帐户使用设备级条件访问策略。 这样做将导致登录失败。 而是在 Microsoft Intune 中注册一个设备，并使用使用[Intune 管理团队](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)会议室中发布的指南来应用合规性策略。
 
 ### <a name="configure-exchange-server"></a>配置 Exchange Server
