@@ -6,7 +6,7 @@
 
 # [支持远程工作人员 (WFH)](support-remote-work-with-teams.md)
 
-# 培训 
+# 培训
 ## [概述](training-microsoft-teams-landing-page.md)
 ## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.md)
 ## [Teams 管理员培训](itadmin-readiness.md)
@@ -50,7 +50,7 @@
 ## [团队到期和续订](team-expiration-renewal.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
 ## [从 Slack 迁移到 Teams](migrate-slack-to-teams.md)
-## [适用于中小型企业的 Teams 模板](smb-templates.md)
+## [适用于中小型企业的 Graph 内置 Teams 模板](smb-templates.md)
 
 
 
@@ -649,7 +649,7 @@
 
 # 行业和政府指南
 ## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [开始使用 Teams 模板](get-started-with-teams-templates.md)
+## [使用 Microsoft Graph 开始使用 Teams 模板](get-started-with-teams-templates.md)
 ## [预订应用和虚拟参观](bookings-app-admin.md)
 ## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub 已停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
