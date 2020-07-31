@@ -53,7 +53,6 @@
 ## [适用于中小型企业的 Graph 内置 Teams 模板](smb-templates.md)
 
 
-
 ## 应用、机器人和连接器
 
 ### [概述](deploy-apps-microsoft-teams-landing-page.md)
