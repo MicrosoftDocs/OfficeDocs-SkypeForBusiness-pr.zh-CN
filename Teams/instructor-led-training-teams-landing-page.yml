@@ -1,0 +1,62 @@
+### YamlMime:Hub
+title: 讲师引导式 Microsoft Teams 培训
+summary: Microsoft 很高兴能够主持免费实时在线培训课程，这些课程专为帮助你使用 Teams 实现起步和发展。 无论你是业务决策制定者、管理员、IT 专业人员还是最终用户，你都会找到恰如你所需的课程。 不确定从哪里开始？ 参加我们的 Teams 知识检查。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 要自行查看我们的培训课程，请访问我们的最终用户按需培训。 单击下面的会话进行注册。
+metadata:
+  title: 讲师引导式 Microsoft Teams 培训
+  description: 了解如何注册免费的现场讲师引导式培训课程，了解 Microsoft Teams 的所有相关信息。
+  ms.topic: hub-page
+  author: lolajacobsen
+  ms.author: lolaj
+  ms.date: 06/16/2020
+  ms.openlocfilehash: 11b6a79428b957680c5a931f062e44f605a6d54c
+  ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+  ms.translationtype: MT
+  ms.contentlocale: zh-CN
+  ms.lasthandoff: 07/31/2020
+  ms.locfileid: "46534083"
+highlightedContent:
+  items:
+  - title: 团队知识检查
+    itemType: learn
+    url: https://aka.ms/TeamsKnowledgeCheck
+  - title: 按需最终用户培训
+    itemType: video
+    url: https://aka.ms/TeamsOnDemand
+productDirectory:
+  items:
+  - title: 开始使用 Microsoft Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/whats-new-megaphone-teams.svg
+    summary: 什么是 Microsoft Teams？ 请参与我们时长 30 分钟的培训，了解什么是 Teams 以及它的工作原理。 （受众：全部）
+    url: https://aka.ms/SayhelloTeams
+  - title: 开始使用 Teams
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
+    summary: 从聊天和会议，到使用团队和频道，用户结束此课程时将掌握能够满怀信心地使用 Teams 的基础知识。 （受众：最终用户）
+    url: https://aka.ms/GetstartedwithMSTeams
+  - title: 使用 Teams 举行高效会议
+    imageSrc: https://docs.microsoft.com/office/media/icons/tasks-teams.svg
+    summary: 了解如何在会前、会中和会后使用 Teams。 （受众：最终用户）
+    url: https://aka.ms/RunmeetingsTeams
+  - title: 浏览 Teams 中的团队和频道
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    summary: 了解如何简化项目和工作组协作。 （受众：最终用户）
+    url: https://aka.ms/TeamsandchannelsinTeams
+  - title: 了解如何使用 Teams 中的应用
+    imageSrc: https://docs.microsoft.com/office/media/icons/blocks-teams.svg
+    summary: " 了解如何使用应用加强团队协作。 （受众：最终用户）"
+    url: https://aka.ms/IntegrateappsinTeams
+  - title: 了解如何将 Teams 提升到下一级别
+    imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
+    summary: 了解在日常工作中优化和组织 Teams 的创意方式。 （受众：最终用户）
+    url: https://aka.ms/GodeeperwithTeams
+  - title: Teams 教育版 - 网络研讨会
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
+    summary: 了解如何在高等教育中使用 Teams。 （受众：教职员工、学生、学者、研究员、IT 专业人员）
+    url: https://aka.ms/TeamsEduWebinars
+  - title: 在家使用 Teams 掌控工作
+    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
+    summary: " 新增内容！ 了解与团队保持联系和保持工作效率的最佳做法。 （受众：最终用户、团队和部门经理）"
+    url: https://aka.ms/WorkathomewithTeams
+  - title: 升级规划研讨会
+    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
+    summary: 规划和实施成功的团队升级。 （受众： IT 专业人员，采纳变更经理）
+    url: /MicrosoftTeams/upgrade-workshops-landing-page

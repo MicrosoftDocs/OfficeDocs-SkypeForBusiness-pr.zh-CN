@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0744c78062b2ecd507cc16658819ba101930597
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e091e63b47dd33e848be9fc77f6f630174564c95
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665964"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533849"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>为 Microsoft Teams 推动认知并开展培训
 
@@ -51,7 +51,7 @@ ms.locfileid: "44665964"
 
 在用户开始使用 Microsoft 团队和其他 Microsoft 365 或 Office 365 服务时，可使用我们的资源提供最终用户培训。 请访问我们的资源页面，了解详细信息：
 
-- [面向团队的讲师指导最终用户培训](instructor-led-training-teams-landing-page.md)
+- [面向团队的讲师指导最终用户培训](instructor-led-training-teams-landing-page.yml)
 - [团队的管理员培训](itadmin-readiness.md)
 - [在线最终用户视频培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [有关拥护 & IT 专业人员的云在线培训的咖啡](https://aka.ms/CoffeeintheCloud) 

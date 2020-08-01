@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解如何为部署 Microsoft 团队聊天室准备基础结构，以便你可以充分利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d565cd500f22f86c19e38b531511eb25a5e1227a
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: 3e520643d40e78065d4b6a0359a8ca567ba2284c
+ms.sourcegitcommit: bf6521f0bc91a55dcf849506bb757ebfae54fcb1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526698"
+ms.locfileid: "46529175"
 ---
 # <a name="prepare-your-environment"></a>准备环境
 
@@ -39,7 +39,7 @@ ms.locfileid: "46526698"
      > [!IMPORTANT]
      > Microsoft 团队聊天室不支持代理身份验证，因为它可能会干扰聊天室的常规操作。 在投入生产之前，确保 Microsoft 团队聊天室已免除代理身份验证。
   
-3. 为了改进你的体验，Microsoft 将收集数据。 若要允许 Microsoft 收集数据，请允许列出以下网站：
+3. 为了改进你的体验，Microsoft 将收集数据。 若要允许 Microsoft 收集数据，请允许以下网站：
 
    - 遥测客户端终结点：https://vortex.data.microsoft.com/
    - 遥测设置终结点：https://settings.data.microsoft.com/

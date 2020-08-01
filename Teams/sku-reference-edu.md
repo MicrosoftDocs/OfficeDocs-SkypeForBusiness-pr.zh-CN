@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 列出教育教职员和学生许可计划和 SKU Id。
 f1keywords: ''
-ms.openlocfilehash: 5f382be6aa19cbfef45bc0dcef350e5354df118a
-ms.sourcegitcommit: 862ba1d2b3bd4622b1b0baa15096c29c591cc6c4
+ms.openlocfilehash: 921ea3313709fc16b415915b444e416527076251
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "44702697"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533889"
 ---
 # <a name="education-sku-reference"></a>教育 SKU 参考
 
@@ -71,4 +71,4 @@ ms.locfileid: "44702697"
 
 ## <a name="related-topics"></a>相关主题
 
-- [向学校的大型用户组分配策略](batch-policy-assignment-edu.md)
+- [向学校的大型用户组分配策略](batch-group-policy-assignment-edu.md)

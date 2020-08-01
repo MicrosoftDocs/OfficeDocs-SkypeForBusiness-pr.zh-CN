@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbfee03ac40203c8b76307521b9ec6726feacd2f
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 7ce21fb620f37479a051b7ed4467dcc3cd9f6f19
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691518"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533839"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 
@@ -48,6 +48,6 @@ Skype for Business Online 将于2021年7月31日停用，在该日期之后，�
 - **团队和 Skype 消费者互操作**。 团队和 Skype 消费者之间的互操作将允许两个服务上的用户使用聊天和通话进行通信。  团队和 Skype 消费者互操作将在第一季度的日历年度2020中提供。
 - **联系中心集成和合规性录制**。 在本月早些时候，我们已宣布团队与 Five9、Genesys 和的合作关系，从而实现联系中心解决方案-以及 ASC、漂亮和 Verint，以提供合规性录制。   我们还与其他 Skype for Business Online 认证合作伙伴协作，为团队市场提供其他联系中心和合规性录制解决方案。
  
-当您准备好开始使用时，我们将提供[一组全面的技术指南和规划资源](https://aka.ms/SkypeToTeams)，包括经验证的成功框架、最佳做法、计划文档、[免费的讲师指导培训](instructor-led-training-teams-landing-page.md)和[FastTrack](https://www.microsoft.com/FastTrack)为符合资格的订阅提供帮助。
+当您准备好开始使用时，我们将提供[一组全面的技术指南和规划资源](https://aka.ms/SkypeToTeams)，包括经验证的成功框架、最佳做法、计划文档、[免费的讲师指导培训](instructor-led-training-teams-landing-page.yml)和[FastTrack](https://www.microsoft.com/FastTrack)为符合资格的订阅提供帮助。
  
 由于2014的推出，Skype for Business 已成为世界各地数百万人的重要工具。  通过将即时消息、通话和视频合并到单个应用中，产品建立了激动人心的新商业通信愿景。 Microsoft 团队是该愿景的下一章，目前我们的消息不仅宣布停用 Skype for Business Online 服务，我们还会在团队中沟通信心。  在市场上超过两年后，团队可为我们最苛刻的客户做好准备———我们确信你将愿意喜欢！  如果您是当前的 Skype for Business Online 客户，请立即开始规划迁移。  我们将致力于帮助你解决每个步骤，我们无法等待你体验新的工作方式。 
