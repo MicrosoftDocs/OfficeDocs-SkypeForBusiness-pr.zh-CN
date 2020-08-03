@@ -8,7 +8,7 @@
 
 # 培训
 ## [概述](training-microsoft-teams-landing-page.md)
-## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.md)
+## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.yml)
 ## [Teams 管理员培训](itadmin-readiness.md)
 ## [Teams 的最终用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
@@ -670,7 +670,8 @@
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
 ### [远程学习入门](remote-learning-edu.md)
 ### [Teams EDU 策略和策略包](policy-packages-edu.md)
-### [向大型用户组分配策略](batch-policy-assignment-edu.md)
+### [向大型用户组分配策略](batch-group-policy-assignment-edu.md)
+### [用于为教师和学生创建安全组的 PowerShell 脚本](scripts/powershell-script-security-groups-edu.md)
 ### [教育版管理员低带宽指南](edu-remote-low-bandwidth.md)
 ### [课堂见解](class-insights.md)
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
