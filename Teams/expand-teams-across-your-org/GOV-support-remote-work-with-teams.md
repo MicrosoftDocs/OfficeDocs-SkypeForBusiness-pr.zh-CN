@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指南可帮助政府组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公 (WFH) 来应对 COVID-19（新型冠状病毒肺炎）的爆发时。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb3fb631c47a97d96c2709bbbe4257950221cb91
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: ae7580b9fd58be66296ab4c9c5e6723aa1a3db91
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028138"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533747"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程政府工作者
 
@@ -65,7 +65,7 @@ ms.locfileid: "45028138"
 
   - 通过一系列现场**[交互式培训](https://aka.ms/TeamsLiveTraining)**，开启你的 Teams 之旅，旨在使贵组织通过 Teams 正常运作。
 
-  - 加入我们的**[在线课程](../instructor-led-training-teams-landing-page.md)**，在操作中了解 Teams，并得到问题的解答。
+  - 加入我们的**[在线课程](../instructor-led-training-teams-landing-page.yml)**，在操作中了解 Teams，并得到问题的解答。
 
   - 与希望了解详细信息的用户共享**[深度培训视频](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)**。
 

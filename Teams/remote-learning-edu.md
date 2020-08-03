@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62cb28b26cb96faa05674a705f33b34bfb00aa90
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085968"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533757"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -98,7 +98,7 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 > [!IMPORTANT]
 > 对于分配给任何用户的会议策略，我们建议将“自动管理人员”设置设为“组织中的每个人”。 此设置将确保未经身份验证的用户必须经过会议厅的允许才可参加 Teams 会议。 有关详细信息，请参阅[管理 Teams 中的会议策略](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people)。
 
-**小学的行政人员和教师**分配得到的策略应能够授予学生可能受到限制的核心功能。 创建允许进行私人聊天和会议安排的新策略（新策略的默认设置）。 [通过批量策略分配功能向员工和教师批量分配这些策略](batch-policy-assignment-edu.md)。
+**小学的行政人员和教师**分配得到的策略应能够授予学生可能受到限制的核心功能。 创建允许进行私人聊天和会议安排的新策略（新策略的默认设置）。 [向员工和教师批量分配这些策略](batch-group-policy-assignment-edu.md)。
 
 ## <a name="start-using-teams"></a>开始使用 Teams
 
