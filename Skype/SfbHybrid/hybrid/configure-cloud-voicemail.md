@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 有关为驻留在 Skype for business Server 上的用户实施基于云的语音邮件的说明。
-ms.openlocfilehash: 8284ee3d06574f3d5772b929fcae8363f399acb8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 29faba6bf092647f0c55899f013c6b4bf146304f
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221456"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552578"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>为本地用户配置云语音邮件服务
 
@@ -38,7 +38,7 @@ ms.locfileid: "44221456"
 
 2.  确保已按照[规划混合连接](plan-hybrid-connectivity.md)和[配置混合连接](configure-hybrid-connectivity.md)中所述设置了混合连接。 
 
-3.  [将云语音邮件配置为边缘服务器上的承载提供程序](#configure-cloud-voicemail-as-the-hosting-provider)，如本文中所述。
+3.  [将云语音邮件配置为前端服务器上的承载提供程序](#configure-cloud-voicemail-as-the-hosting-provider)，如本文中所述。
 
 4.  [配置托管的语音邮件策略](#configure-a-hosted-voicemail-policy)，如本文中所述。
 
