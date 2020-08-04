@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解 Microsoft 团队的加载项许可证以及使用每个许可证获得的功能。
-ms.openlocfilehash: 3e6ab7572c04151c76a99faedd328ac32c457811
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 05df369636687d84235dffbfe5ba494213e5374f
+ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522459"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "46542853"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft 团队附加设备许可证
 
@@ -46,6 +46,7 @@ ms.locfileid: "46522459"
 |**电话系统** <br/> |[电话系统](../what-is-phone-system-in-office-365.md)是一种托管电话服务，提供了呼叫控制和专用分支交换（PBX）功能，以及用于连接到公共交换电话网络（PSTN）的选项。 电话系统功能包括云语音邮件、呼叫方 ID、呼叫寄存、呼叫转接、自动助理、呼叫队列、呼叫转接、来电显示等。 <br>若要了解详细信息，请参阅[使用手机系统获取的功能](../here-s-what-you-get-with-phone-system.md)。 有关定价信息，请参阅[电话系统定价](https://go.microsoft.com/fwlink/?linkid=799763)。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**通话套餐** <br/> |如果您希望用户能够呼叫您组织外部的电话号码，请获取[呼叫计划](../calling-plans-for-office-365.md)。 有国内通话计划和国内和国际通话计划。 有关定价信息，请参阅[通话计划定价](https://go.microsoft.com/fwlink/?linkid=799761 )。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**Microsoft Teams 会议室** <br/> |[Microsoft 团队会议室](../rooms/index.md)不是加载项，而是将视频、音频和内容共享带入会议室的功能。 请参阅[团队会议室许可](../rooms/rooms-licensing.md)。  <br/> |&#x2713;|&#x2713;|
+|**高级通信** <br/> |[高级通信](advanced-communications.md)包括增强的通话和会议功能，例如大型会议、会议自定义、通信集成和用于通信管理的高级工具。 为1000参与者提供最多20000参与者和交互式会议的活动活动的更大受众。 其他功能包括自定义品牌的会议厅，用于定制你的会议、集成会议和调用工作流的功能，以及用于监视、跟踪和分析用户和设备上的数据的工具。   |&#x2713;|&#x2713;|
 
 <sup>1</sup>如果您是具有 Microsoft 365 企业版计划的小型企业或中型企业，您仍然可以购买这些语音功能的附加许可证，但我们建议您考虑[Microsoft 365 商业](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2)版计划和[商业语音](https://www.microsoft.com/microsoft-365/business/business-voice)。
 
