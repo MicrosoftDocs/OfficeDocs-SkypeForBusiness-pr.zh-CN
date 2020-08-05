@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab278fe1bb53d46e8ee3b805ec46a344c19398e4
-ms.sourcegitcommit: 92a1158a4ade08d7168691b7f8b44a33df090afb
+ms.openlocfilehash: c207834a2975afcb5aa6e9576c56d2129ff248ff
+ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "45146068"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533529"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -109,6 +109,9 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 ## <a name="meetings-and-calls"></a>会议和通话
 
+> [!IMPORTANT]
+> 四月时，[我们已宣布](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-april-2020/ba-p/1347929)将为 Microsoft 365 实时事件启用临时默认限制增加，以帮助更好地支持客户，直至 7 月 1 日。 为继续满足客户需求，我们会将此临时默认限制延长至 2020 年 10 月 1 日。 Teams、Stream 和 Yammer 中举办的实时事件将继续临时支持最多有 20000 人参与、最长达 16 个小时和有最多 50 个事件同时发生的事件。 此外，通过 [Microsoft 实时事件协助计划](https://resources.techcommunity.microsoft.com/live-events/assistance/)，客户可以按计划在 Stream 中举办最多 100,000 人参加的实时事件。
+
 |功能     | 最大限制 |
 |------------|---------------|
 |会议中的人数（可聊天和通话）  | 300 |
@@ -127,7 +130,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |定期，设有结束时间     |上次会议的结束时间 + 60 天         |60 天         |
 
 > [!NOTE]
-> Microsoft Teams 会议的时间限制为 24 小时。 
+> Microsoft Teams 会议的时间限制为 24 小时。
 
 ## <a name="teams-live-events"></a>Teams 实时事件
 
@@ -143,13 +146,12 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 
 > [!IMPORTANT]
 > **Microsoft 365 实时事件限制的增加**
-> 
+>
 > 为帮助客户满足快速变化的沟通需求，Microsoft 365 直播活动将暂时对 Teams 中托管的直播活动提高默认限制，直到 2020 年 10 月 1 日。 即将推出以下数量增长：
+>
 > - 参与者限制：事件最多可以支持 20000 名参与者
 > - 并发事件：同一租户可以同时托管 50 件事件
 > - 事件持续时间：每个播报的事件持续时间增加到 16 小时
-
-
 
 ## <a name="presence-in-outlook"></a>Outlook 中的状态
 
