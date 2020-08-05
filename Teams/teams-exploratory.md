@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0b5c289a2cc87c778a0d9b0bd1ebb8d52978fb4
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: 1508305fbc1d45caff9306dd5afb01d587df030b
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45229138"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552280"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 许可证
 =======================================================
@@ -79,9 +79,9 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>阻止用户安装试用版应用和服务
 
-可以禁用用户安装试用版应用和服务的功能，这会阻止用户运行 Teams 探索体验。 
+可禁止用户安装试用版应用和服务，这会阻止用户运行 Teams 探索体验。 
 
-1. 从 Microsoft 365 管理中心，依次转到“设置”**** > “设置”****，然后依次选择“服务”**** 和“用户自有应用和服务”****。
+1. 从 Microsoft 365 管理中心，转到“**设置**” > “**组织设置**”，选择“**服务**”，然后选择“**用户自有应用和服务**”。
 
     ![管理中心中“服务”页面的屏幕截图](media/iw-trial-services.png)
 
@@ -169,4 +169,3 @@ Teams Exploratory 体验附带 Exchange Online 许可证，但它不会在管理
 对于无周年日或年度续订日期的协议，第一位最终用户后面的年份激活 Microsoft 团队探索体验许可证将被视为周年日或续订日期。 根据上述策略，必须在每年的此日期之前将拥有 Microsoft Teams 探索许可证的用户转换为付费许可证。
 
 例如，如果第一位最终用户在 2020 年 6 月 19 日激活了 Microsoft Teams 探索，则他们和客户租户中的所有其他符合条件的用户必须在 2021 年 6月 19 日之前转换为 Teams 付费许可证。 
-

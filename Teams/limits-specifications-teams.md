@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c207834a2975afcb5aa6e9576c56d2129ff248ff
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 871cc753e38979718881b1947eccc0548bcc63e8
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533529"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46551898"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -174,7 +174,7 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 |------------------------|---------|---------|---------|---------|---------|---------|
 |存储空间                 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。   |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。 |每个组织 1 TB 存储空间，外加每个许可证购买的 10 GB 空间。  |每个组织 1 TB 空间           |
 |Teams 文件存储空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |每个网站集或组最多 25 TB 的空间 |
-|文件上传限制（每个文件）    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
+|文件上传限制（每个文件）    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
 
 频道由 SharePoint Online 网站集中专为团队创建的文件夹提供支持，因此频道中的文件选项卡共同享有其所属的团队的存储空间限额。
 

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0e6185b81d7fcdbf76efa7c827249a93dfc00df
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 9f541eb0bd6970a54bad5272a26ec3a3449d2a13
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868679"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552628"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>管理 Microsoft Teams Commercial Cloud Trial 产品
 =======================================================
@@ -81,7 +81,7 @@ Teams 试用版设计为由单独的最终用户启动，你不能代表最终�
 
 你可以关闭用户安装试用版应用和服务的功能。
 
-1. 从 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到**设置** > **设置**，选择**服务**，然后选择**用户自有应用和服务**。
+1. 从 [Microsoft 365 管理中心](https://portal.office.com/adminportal/home)，转到“**设置**” > “**组织设置**”，选择“**服务**”，然后选择“**用户自有应用和服务**”。
 
     ![管理中心中“服务”页面的屏幕截图](media/iw-trial-services.png)
 
