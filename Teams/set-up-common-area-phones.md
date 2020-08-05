@@ -21,22 +21,22 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接待区和会议室设置公共区域电话 '
-ms.openlocfilehash: ef75c23ff72d9b640fb5a53feff7cf46fec43292
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: d9d77765451f98028f808028822ec42e6e51fdc7
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125985"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552300"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
 > 常见的区域电话不支持语音邮件。
 
-常用的区域电话通常放置在一个区域中，该区域类似于供许多用户进行呼叫的前厅浏览区域或其他区域。例如，接收区域、会议厅或会议电话。 常用的区域电话设置为设备，而不是用户，并且可以自动登录到网络。
+常用的区域电话通常放置在一个区域中，该区域类似于供许多用户进行呼叫的前厅浏览区域或其他区域。例如，接收区域、会议厅或会议电话。 常见的区域电话已使用与通用区号许可证相关联的帐户登录。 还必须为手机设置适当的 TeamsIPPhone 策略，使其具有共同的区域用户体验。
 
 在下面的步骤中，我们将帮助你设置电话系统的帐户，以便为你的组织部署公共的区域电话。 要获得更完整的会议室体验（包括音频会议），请考虑使用会议室设备购买专用的会议室许可证。 
 
-首先，您需要购买一个通用的区域电话（CAP）许可证，并确保您有经过认证的电话。 若要搜索并了解有关已认证手机的详细信息，请转到 " [Microsoft 团队设备](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)"。 
+首先，您需要购买一个通用的区域电话 (CAP) 许可证，并确保您有经过认证的电话。 若要搜索并了解有关已认证手机的详细信息，请转到 " [Microsoft 团队设备](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)"。 
 
 ## <a name="step-1---buy-the-licenses"></a>第 1 步 - 购买许可证
 

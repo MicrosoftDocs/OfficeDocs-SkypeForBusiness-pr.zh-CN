@@ -16,27 +16,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2806d913fb63dcd2a7a25b26153435333282e871
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8b064fa34511704c382ca42e6daa7812c17a13b0
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752974"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552008"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
 > [!Tip]
-> 观看以下会话，了解团队如何与 Azure Active Directory （AAD）、Microsoft 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队基础](https://aka.ms/teams-foundations)
+> 观看以下会话，了解团队如何与 Azure Active Directory (AAD) 、Microsoft 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队的基础](https://aka.ms/teams-foundations)
 
 对于完整团队体验，应为每个用户启用 Exchange Online、SharePoint Online 和 Microsoft 365 组创建。
 
 用户的 Exchange 邮箱可以托管在线上或本地。 与本地 Exchange 集成需要 Exchange 混合部署。 有关设置混合部署的详细信息，请参阅[Exchange Server 混合部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
 
-Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队和频道、创建和查看会议、呼叫和聊天、修改用户个人资料图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），以及添加和配置连接器、选项卡和机器人。
+Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Teams 的所有功能。 他们可以创建和加入团队和频道、创建和查看会议、呼叫和聊天、修改用户个人资料图片 (如果 Outlook 网页版邮箱策略允许他们执行此操作) ，然后添加和配置连接器、选项卡和机器人。
 
-托管在 Exchange Online 专用（旧版）上的用户必须同步到 Microsoft 365 或 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道，添加和配置选项卡和机器人，以及利用聊天和通话功能。 但是，他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
+托管在 Exchange Online 专用 (旧版) 上的用户必须同步到 Microsoft 365 或 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道，添加和配置选项卡和机器人，以及利用聊天和通话功能。 但是，他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
 
-拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，此外，还可以更改用户个人资料图片（如果 Outlook 网页版邮箱策略允许他们执行此操作），并且管理会议（提供 Exchange Server 2016 （累积更新3）或更高版本）在本地运行时使用 OAuth 配置（最好通过 Exchange 混合配置向导），如在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述。 若要为这些用户启用日历委派，还必须按照在[Skype For Business Online 和 Exchange Server 之间配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。这些步骤将向团队安排应用程序提供确认委派权限所需的权限。
+拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，此外，还可以更改用户配置文件图片 (如果 Outlook on web 邮箱策略允许他们执行此操作，并通过 exchange 混合配置向导提供 exchange) Server 2016 (累积更新 3) 或更高版本（如在[exchange 和 Exchange Online 组织之间配置 oauth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述），使用 (在 Exchange 混合配置向导的本地运行。 若要为这些用户启用日历委派，还必须按照在[Skype For Business Online 和 Exchange Server 之间配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述完成步骤2-3。这些步骤将向团队安排应用程序提供确认委派权限所需的权限。
 
 下表提供了基于 Exchange 环境的功能可用性的有用快速参考。
 
@@ -45,28 +45,26 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 **支持的操作：**
 
-| 用户的邮箱托管在： | 电子数据展示| 法律 &nbsp; 封存 | 保存| 团队和频道管理 |在团队中创建和查看会议| 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件 |添加和配置连接器|添加和配置选项卡|添加和配置聊天机器人|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是 |
-|**Exchange Online Dedicated vNext**|是<sup>2</sup>|是<sup>2</sup>|必需|是 |是 |是<sup>8</sup>|必需|是 |是<sup>7</sup>|必需|是 |是 |是|
-|**Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）|是<sup>2</sup>|是<sup>2，3</sup>|是 <sup> 4|是|否|否|必需|是|否|是 <sup> 5|是 <sup> 6|必需|是 |
-|**本地 Exchange** （需要同步至 Azure AD & OAuth 配置）|是<sup>2</sup>| 是<sup>2</sup> |是 <sup> 4|是|是（Exchange 2016 CU3 +）|否|必需|是|否|是 <sup> 5|是 <sup> 6|必需|是 |
+| 用户的邮箱托管在：                                        | 电子数据展示       | 法律 &nbsp; 封存    | 保存  | 团队和频道管理 | 在团队中创建和查看会议 | 修改用户个人资料图片 | 通话记录 | 管理联系人 | 访问 Outlook 联系人 | 语音邮件  | 添加和配置连接器 | 添加和配置选项卡 | 添加和配置聊天机器人 |
+|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                 | 是<sup>1</sup> | 是<sup>1</sup>   | 必需        | 是                    | 是                                | 是<sup>7</sup>             | 必需          | 是              | 是<sup>6</sup>        | 必需        | 是                           | 是                     | 是                     |
+| **Exchange Online Dedicated vNext**                                 | 是<sup>1</sup> | 是<sup>1</sup>   | 必需        | 是                    | 是                                | 是<sup>7</sup>             | 必需          | 是              | 是<sup>6</sup>        | 必需        | 是                           | 是                     | 是                    |
+| **Exchange Online Dedicated - Legacy**（同步到所需 Azure AD）  | 是<sup>1</sup> | 是<sup>1，2</sup> | 是 <sup> 3 | 是                   | 否                                | 否                          | 必需          | 是             | 否                      | 是 <sup> 4 | 是 <sup> 5                   | 必需                    | 是                     |
+| **Exchange 本地** (同步到 Azure AD & OAuth 配置需要)  | 是<sup>1</sup> | 是<sup>1</sup>   | 是 <sup> 3 | 是                   | 是 (Exchange 2016 CU3 +)           | 否                          | 必需          | 是             | 否                      | 是 <sup> 4 | 是 <sup> 5                   | 必需                    | 是                     |
 
-<sup>1</sup> EXCHANGE 2016 CU3 及以上版本均受支持。  
+所有托管选项均支持<sup>1</sup>个电子数据展示和针对通道消息的合规性保留。
 
-所有托管选项均支持<sup>2</sup>个电子数据展示和对通道消息的法律封存。
+<sup>2</sup>个团队私人聊天消息尚不支持此托管选项的法律封存。
 
-<sup>3</sup>团队私人聊天消息尚不支持此托管选项的法律封存。
+<sup>3</sup>保留将使用用于联机用户存储消息的卷影邮箱。
 
-<sup>4</sup>保留将使用用于联机用户存储消息的卷影邮箱。 [Microsoft 团队为 Exchange 混合环境中的团队用户支持电子数据展示](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009)。
+<sup>4</sup>个团队拥有本地 Exchange 邮箱的用户可能在 Outlook 中使用语音邮件和工作组接收语音邮件，但语音邮件在团队客户端中不可用，无法查看或播放语音邮件。
 
-<sup>5</sup>个团队使用本地 Exchange 邮箱的用户可能在 Outlook 中使用语音邮件和工作组接收语音邮件，但语音邮件在团队客户端中不可用，无法查看或播放语音邮件。
+<sup>5</sup>如果团队的其中一个所有者可以添加连接器，则该团队中的其他所有人都可以执行此操作，即使他们的邮箱在本地托管。
 
-<sup>6</sup>如果团队的其中一个所有者可以添加连接器，则该团队中的其他所有人都可以执行此操作，即使他们的邮箱在本地托管。
+<sup>6</sup>仅限默认 "联系人" 文件夹中的联系人。 不支持访问其他联系人文件夹或子文件夹。
 
-<sup>7</sup>仅限默认联系人文件夹中的联系人。 不支持访问其他联系人文件夹或子文件夹。
-
-<sup>8 个</sup>团队负责[Outlook on web 邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置，该设置由租户管理员配置，用于控制用户是否可以更改其个人资料图片。 如果策略中的 **-SetPhotoEnabled**设置处于关闭状态，则用户无法添加、更改或删除其个人资料图片。 例如，如果用户上载由您的组织的 IT 或人力资源部门批准的个人资料图片，则无需执行任何操作。 但是，如果用户上载的图片不合适，请根据组织的内部策略更改图片。
+<sup>7</sup>个团队负责[Outlook on web 邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)设置，该设置由租户管理员配置，用于控制用户是否可以更改其个人资料图片。 如果策略中的 **-SetPhotoEnabled**设置处于关闭状态，则用户无法添加、更改或删除其个人资料图片。 例如，如果用户上载由您的组织的 IT 或人力资源部门批准的个人资料图片，则无需执行任何操作。 但是，如果用户上载的图片不合适，请根据组织的内部策略更改图片。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 团队的要求
 
@@ -87,7 +85,7 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 > 对于 Exchange 本地和团队集成，需要为 AAD 同步用户分配所需的许可证。
 
 > [!IMPORTANT]
-> 如果你在将用户移动到 "**仅团队**" 模式后卸载 Skype for business 客户端，则在 Outlook 和其他 Office 应用中，联机状态可能会停止工作。 状态在 Teams 中显示良好。 若要解决此问题，请在 Microsoft 团队的右上角选择您的个人资料图片，然后选择 "**设置**"。 在 "**应用程序**" 下的 "**常规**" 选项卡上，选择 "**注册团队作为 Office 的聊天应用（需要重启 office 应用程序）**"。 选择此选项后，关闭并重新打开所有 Office 应用（包括 Outlook）。 打开 Outlook 后，状态信息将可用。
+> 如果你在将用户移动到 "**仅团队**" 模式后卸载 Skype for business 客户端，则在 Outlook 和其他 Office 应用中，联机状态可能会停止工作。 状态在 Teams 中显示良好。 若要解决此问题，请在 Microsoft 团队的右上角选择您的个人资料图片，然后选择 "**设置**"。 在 "**应用程序**" 下的 "**常规**" 选项卡上，选择 "将**团队注册为 Office 的聊天应用 (需要重新启动 office 应用程序) **。 选择此选项后，关闭并重新打开所有 Office 应用（包括 Outlook）。 打开 Outlook 后，状态信息将可用。
 
 ## <a name="additional-considerations"></a>其他注意事项
 
@@ -110,9 +108,9 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 
 - 代理人和委托人进行通话都必须在 Exchange 服务器上有邮箱。
 
-- 自动发现（AutoD） V2 是允许团队服务执行用户邮箱未经身份验证的发现所必需的。 AutoD V2 在 Exchange 2013 CU19 + 中受支持。
+- 自动发现 (AutoD) V2 是允许团队服务执行用户邮箱未经身份验证的发现所必需的。 AutoD V2 在 Exchange 2013 CU19 + 中受支持。
 
-- 必须为 EVOSTS 配置认证服务器的 Exchange 服务器。 这将自动配置为 Exchange 的混合向导（HWA）的一部分。
+- 必须为 EVOSTS 配置认证服务器的 Exchange 服务器。 这会自动配置为 Exchange (HWA) 的混合向导的一部分。
 
     如果不想运行 HWA，则可以按照以下说明在 exchange Server 上手动创建 EVO STS 的身份验证服务器在[exchange 和 Exchange Online 组织之间配置 OAuth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。 但是，我们建议你使用 HWA。
 

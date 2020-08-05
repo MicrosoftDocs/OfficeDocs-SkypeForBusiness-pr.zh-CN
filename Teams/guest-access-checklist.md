@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d38b0adf1a342c4398d2779e2f0b5ec3aa310144
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 4305f8f03f806be1a453e037620c6e16e71ac4dc
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372001"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552260"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Microsoft Teams 来宾访问清单
 =========================================
@@ -123,6 +123,16 @@ ms.locfileid: "45372001"
 ![屏幕截图显示团队/频道设置开关示例](media/guest-access-checklist-TeamsSettings2.png)
 
 要了解与来宾访问相关的更多信息，请参阅 [Teams 中的来宾访问](guest-access.md)和[启用或禁用 Microsoft Teams 的来宾访问](set-up-guests.md)。
+
+## <a name="step-7-turn-on-anonymous-users-can-join-a-meeting-if-you-want-guests-to-join-meetings"></a>步骤7：如果希望来宾加入会议，请打开 "匿名用户可以加入会议"
+
+如果希望来宾加入会议，请打开 "Microsoft 团队管理中心" 中的 "**匿名用户可以加入会议**" 设置。 
+
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**会议**  >  **会议设置**"。
+
+2. 在“**参与者**”下，打开“**匿名用户可以加入会议**”。
+
+若要了解详细信息，请参阅[管理团队中的会议设置](meeting-settings-in-teams.md)。 
 
 ## <a name="troubleshooting"></a>故障排除
 

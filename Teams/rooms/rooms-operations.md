@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 阅读本主题，了解 Microsoft 球队会议室的管理、下一代 Skype 会议室系统的管理。
-ms.openlocfilehash: 109d07bdf7b4925f7c3d0481e1ff7facef3de8f8
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 6ee238bdc02fbe2ca24c9a370a4d1d871803b8ff
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "43580700"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552290"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft 团队会议室维护和操作 
  
@@ -45,9 +45,9 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 将会议室前端显示屏配置为扩展模式。 这样做可确保当你重启屏幕上的电源时，不会在该屏幕上复制控制台 UI。
   
 > [!NOTE]
-> 如果你希望在从待机模式唤醒源时自动切换到活动视频源（如 MTR 控制台），则必须满足某些条件。 此功能是可选的，但 Microsoft 团队工作室软件支持此功能，但提供的基础硬件支持此功能。 在室内显示时使用的消费者电视需要支持 HDMI 的 "消费者电子设备控制" （CEC）功能。  根据所选的坞站或控制台（可能不支持 CEC，请参阅制造商支持文档），可能需要从 Extron Crestron 或[EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad)中的控制器（如[HD RX-201-C](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) ）来启用所需的行为。 
+> 如果你希望将会议室显示的正面自动切换到活动视频源 (例如 MTR 控制台) 从待机模式唤醒源时，必须满足某些条件。 此功能是可选的，但 Microsoft 团队工作室软件支持此功能，但提供的基础硬件支持此功能。 在室内屏幕正面使用的消费者电视需要支持消费电子设备 (CEC) 的部件。  根据所选 (（可能不支持 CEC），请参阅制造商支持文档) 从 Extron Crestron 或 Extron HD CTL 100 （如[HD 201-](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E)或[hd CTL](https://www.extron.com/article/hdctl100ad) ）启用所需的行为。 
   
-## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 团队会议室重置（出厂还原）
+## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft 团队聊天室重置 (出厂还原) 
 <a name="Reset"> </a>
 
 如果 Microsoft 团队聊天室运行不好，则执行恢复恢复可能会有所帮助。 若要执行此操作，请使用[Microsoft 团队房间恢复工具](recovery-tool.md)，并按照出厂还原说明进行操作。
@@ -63,7 +63,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |工作组 |未加入域|加入域|
 |:-----|:-----|:-----|
-|重新启动  <br/> |远程桌面  <br/> 远程 PowerShell  <br/> |远程桌面（需要进一步配置）  <br/> 远程 Powershell （需要进一步配置）  <br/> 配置管理器  <br/> |
+|重新启动  <br/> |远程桌面  <br/> 远程 PowerShell  <br/> |远程桌面 (需要进一步配置)   <br/> 远程 Powershell (需要进一步配置)   <br/> 配置管理器  <br/> |
 |更新操作系统  <br/> |Windows 更新  <br/> |Windows 更新  <br/> WSUS  <br/> |
 |应用更新  <br/> |Windows 应用商店  <br/> |Windows 应用商店  <br/> 配置管理器  <br/> |
 |Skype 帐户配置  <br/> |当前不支持  <br/> |当前不支持  <br/> |
@@ -77,26 +77,26 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |设置|这样|
 |:-----|:-----|
-|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = （REG_SZ）1  <br/> |支持 Microsoft 团队会议室启动  <br/> |
+|HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |支持 Microsoft 团队会议室启动  <br/> |
 |电源管理-通过 \> 交流，10分钟后关闭屏幕  <br/> 电源管理- \> 在交流上，从不将系统置于睡眠状态  <br/> |使 Microsoft 团队会议室能够关闭附加的显示并自动唤醒  <br/> |
 |net accounts /maxpwage:unlimited  <br/> 或对本地帐户禁用密码过期的等效方法。 如果此操作失败，将最终导致 Skype 帐户无法登录，且被告知密码过期。 请注意，这会影响计算机上的所有本地帐户，因此，此设置失败还会导致已有的管理帐户最终也过期。  <br/> |启用 Skype 帐户以始终登录  <br/> |
    
 在 "[配置文件" 项目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)中讨论了使用组策略传输文件的内容。
 
 > [!NOTE]
-> 当 Microsoft 团队聊天室设备与下一版本的 Windows 10 操作系统兼容时，设备会通过 Windows 更新自动更新到下一个版本。 Microsoft 团队会议室不应将设备升级到 Windows 10 的下一版本手动或通过启用 Windows 更新 for Business （WUFB）组策略 "选择要接收的更新的 Windows 准备情况级别" 和 "通过 GPO 选择何时接收预览版和功能更新"。 已启用这些组策略的设备已知通过 Microsoft 团队聊天室应用运行 Windows 10 操作系统更新时遇到的问题。
+> 当 Microsoft 团队聊天室设备与下一版本的 Windows 10 操作系统兼容时，设备会通过 Windows 更新自动更新到下一个版本。 Microsoft 团队会议室不应将设备升级到 Windows 10 的下一版本手动或通过启用 Windows 更新 for Business (WUFB) 组策略 "选择要接收的更新的 Windows 准备情况级别" 和 "通过 GPO 选择何时接收预览版和功能更新"。 已启用这些组策略的设备已知通过 Microsoft 团队聊天室应用运行 Windows 10 操作系统更新时遇到的问题。
 
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 进行远程管理
 <a name="RemotePS"> </a>
 
-你可以使用 PowerShell 远程执行以下管理操作（请参阅下表中的脚本示例）：
+你可以使用 PowerShell 远程执行以下管理操作 (请参阅下表，了解) 的脚本示例：
   
 - 获取连接的设备
 - 获取应用状态
 - 获取系统信息
 - 重启系统
 - 检索日志
-- 传输文件（需要加入域的 Microsoft 团队聊天室）
+- 传输文件 (需要加入域的 Microsoft 团队聊天室) 
     
 > [!NOTE]
 > 默认情况下，此功能处于关闭状态。 你需要在 Microsoft 团队聊天室系统上为你的环境启用远程 PowerShell 以执行以下操作。 有关如何启用远程 PowerShell 的信息，请参阅有关**[enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** 的文档。
@@ -105,7 +105,8 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
   
 1. 在 Microsoft 团队聊天室设备上以管理员身份登录。
 2. 打开提升的 PowerShell 命令提示符。
-3. 输入以下命令：Enable-PSRemoting -force
+3. 输入以下命令：`Enable-PSRemoting -SkipNetworkProfileCheck -Force`
+4. 打开本地安全策略并将*管理员*安全组添加到**安全设置**  >  **本地策略**  >  **用户权限分配**  >  **从网络访问此计算机**。
 
 执行管理操作：
   
@@ -113,7 +114,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 2. 在电脑上打开常规 PowerShell 命令提示符。
 3. 从下表中复制命令文本，并在出现提示时粘贴它。
 4. `<Device fqdn>`将具有相应环境的 FQDN 值替换为相应的字段。
-5. 将* \< 路径 \> *替换为 master SkypeSettings 配置文件的文件名和本地路径（或主题图像）。
+5. 替换 *\<path\>* 为主控 SkypeSettings.xml 配置文件 (或主题图像) 的文件名和本地路径。
     
 获取连接的设备
   
@@ -153,7 +154,7 @@ $session = new-pssession -ComputerName $targetDevice
 Copy-Item -Path $logFile.FullName -Destination .\ -FromSession $session; invoke-command {remove-item -force C:\Rigel\*.zip} -ComputerName $targetDevice
 ```
 
-推送 XML 配置文件（或主题图形）
+将 XML 配置文件推送 (或主题图形) 
   
 ```XML
 $movefile = "<path>";
@@ -168,12 +169,12 @@ Copy-Item $movefile $targetDevice
   
 默认情况下，Microsoft 团队聊天室将连接到 Windows 更新以检索操作系统和 USB 外围设备固件更新，并将其安装在已配置的工作时间之外。 你可以通过登录管理员帐户并运行“设置”应用来配置办公时间。
   
-如果你希望手动管理更新，并且无法按照[Microsoft Store For Business](https://businessstore.microsoft.com/store) [分发脱机应用](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的常规过程进行操作，你可以从[部署工具包](https://go.microsoft.com/fwlink/?linkid=851168)获取相应的 APPX 文件和依赖项（从[配置 Microsoft 团队聊天室控制台](console.md)的说明），可与 Configuration Manager 配合使用。 部署工具包版本滞后于应用商店版本，因此它可能不会始终与最新的可用内部版本匹配。
+如果你希望手动管理更新，并且无法按照[Microsoft Store For Business](https://businessstore.microsoft.com/store) [分发脱机应用](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)的常规过程进行操作，你可以从[部署工具包](https://go.microsoft.com/fwlink/?linkid=851168)获取相应的 APPX 文件和依赖项， (从说明配置可与 Configuration Manager 一起使用的[microsoft 团队聊天室控制台](console.md)) 。 部署工具包版本滞后于应用商店版本，因此它可能不会始终与最新的可用内部版本匹配。
   
 ### <a name="to-update-using-powershell"></a>使用 Powershell 更新
 
 1. 将程序包从安装[MSI](https://go.microsoft.com/fwlink/?linkid=851168)解压缩到设备可以访问的共享。
-2. 运行以下针对 Microsoft 团队聊天室设备的脚本， \< \> 根据需要将共享更改为设备共享：
+2. 运行以下针对 Microsoft 团队聊天室设备的脚本， \<share\> 根据需要更改为设备共享：
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -187,9 +188,9 @@ Copy-Item $movefile $targetDevice
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>当 Microsoft 团队聊天室应用正在运行时切换到管理员模式并返回回来
 
 1. 挂起任何正在进行的呼叫，并返回主屏幕。
-2. 选择齿轮图标并弹出菜单（选项为 "**设置**"、"**辅助功能**" 和 "**重启设备**"）。
+2. 选择齿轮图标并弹出菜单， (选项是 "**设置**"、"**辅助功能**" 和 "**重启设备**" ) 。
 3. 选择“**设置**”。
-4. 输入管理员密码。 将显示“设置”屏幕。  如果设备未加入域，将默认使用本地管理帐户（用户名 "Admin"）。 此帐户的默认密码为 "sfb"，请尽快更改密码。 如果计算机已加入域，则可以使用适当权限的域帐户登录。 
+4. 输入管理员密码。 将显示“设置”屏幕。  如果设备未加入域，本地管理帐户 (用户名 "Admin" ) 将默认使用。 此帐户的默认密码为 "sfb"，请尽快更改密码。 如果计算机已加入域，则可以使用适当权限的域帐户登录。 
 5. 在左侧列中选择 " **Windows 设置**"。
 6. 选择“**转至管理员登录**”。
 7. 输入管理员密码。 此时将正常注销应用并带你访问 Windows 登录屏幕。 
@@ -216,7 +217,7 @@ Copy-Item $movefile $targetDevice
    ## <a name="troubleshooting-tips"></a>故障排除提示
    <a name="TS"> </a>
 
-- 通过域边界（例如，两家公司之间）发送会议邀请时，可能不会显示会议邀请。 在这种情况下，IT 管理员应决定是否允许外部用户安排会议。
+- 在跨域边界发送时可能不会显示会议邀请 (例如，两个公司) 之间的会议邀请。 在这种情况下，IT 管理员应决定是否允许外部用户安排会议。
 - Microsoft 团队聊天室不支持通过 Exchange 2010 的 Exchange 自动发现重定向。
 - 一般情况下，IT 管理员禁用不打算使用的任何音频终结点是一种很好的做法。
 - 如果会议室预览中显示镜像图像，IT 管理员可以通过关闭并重新打开摄像头电源或使用摄像头远程控件翻转图像方向来进行更正。

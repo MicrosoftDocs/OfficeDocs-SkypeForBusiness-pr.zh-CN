@@ -17,14 +17,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何通过团队库和搜索结果控制 Microsoft 团队用户是否可以通过建议发现专用团队。
-ms.openlocfilehash: 0d068de791afd32d38b2b49ada275c6e3eced41c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e06a9511d8198a069c3dccfdbbbacf3d3f1b2c42
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836512"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46554692"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>在 Microsoft Teams 中管理对私人团队的发现
+
+> [!IMPORTANT]
+> 根据客户反馈，我们将禁用此功能，有效期为2020年8月31日。 这意味着，在2020年8月31日之后，你将无法再将私人团队设置为可检测，并且将不再发现所有现有的和新的专用团队。 若要了解详细信息，请参阅[Microsoft 365 路线图](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=44370)。
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -60,7 +63,7 @@ ms.locfileid: "41836512"
 
 ### <a name="in-team-settings"></a>在团队设置中
 
-在 "团队" 中，转到 "专用团队"，单击 "**更多选项** > **管理团队**"。 在 "**设置**" 选项卡上，展开 "**团队发现**"，然后清除或选中 "**打开发现**" 复选框。
+在 "团队" 中，转到 "专用团队"，单击 "**更多选项**  >  **管理团队**"。 在 "**设置**" 选项卡上，展开 "**团队发现**"，然后清除或选中 "**打开发现**" 复选框。
 
 ![现有专用团队的发现设置的屏幕截图](media/private-team-discovery-existing-team.png)
 

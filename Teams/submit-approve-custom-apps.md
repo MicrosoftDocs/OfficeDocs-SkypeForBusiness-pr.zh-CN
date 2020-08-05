@@ -17,22 +17,19 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用 Microsoft 团队中的团队应用提交 API 批准已提交的自定义应用。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4c3563dc028c8566d29906e4e42a2002a197e71d
-ms.sourcegitcommit: 8812db47b45d171d47e71f87e84ab1828590392d
+ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46523671"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552598"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>发布通过团队应用提交 API 提交的自定义应用
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 ## <a name="overview"></a>概述
 
 > [!NOTE]
-> 发布自定义团队应用时，用户可在组织的应用商店中使用。 发布自定义应用的方法有两种，使用方式取决于你获取该应用的方式。 **本文重点介绍如何批准和发布开发人员通过团队应用提交 API 提交的自定义应用**。 当开发人员以 .zip 格式发送应用包时，将使用另一种方法，即上载自定义应用。 若要了解有关该方法的详细信息，请参阅[通过上载应用包发布自定义应用](manage-your-custom-apps.md)。
+> 发布自定义团队应用时，用户可在组织的应用商店中使用。 发布自定义应用的方法有两种，使用方式取决于你获取该应用的方式。 **本文重点介绍如何批准和发布开发人员通过团队应用提交 API 提交的自定义应用**。 当开发人员以 .zip 格式发送应用包时，将使用另一种方法，即上载自定义应用。 若要了解有关该方法的详细信息，请参阅<a href="https://docs.microsoft.com/microsoftteams/upload-custom-apps" target="_blank">通过上载应用包发布自定义应用</a>。
  
 本文提供了有关如何将你的团队应用从开发转到部署到发现的端到端指南。 你将大致了解团队在应用生命周期中提供的连接体验，以简化如何在组织的应用商店中开发、部署和管理自定义应用。
 
@@ -50,7 +47,7 @@ Microsoft 团队开发人员平台使开发人员可以轻松地集成你自己�
 
 ### <a name="submit-the-app"></a>提交应用
 
-当应用准备好在生产中使用时，开发人员可以使用团队应用提交 API 提交应用，该 API 可以从 Graph API、集成开发环境（IDE）（如 Visual Studio 代码）或平台（如 Power App 和 Power Virtual Agent）进行调用。 执行此操作将使应用在 Microsoft 团队管理中心的 "<a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">管理应用</a>" 页面上可用，你的管理员可以在其中查看和批准该应用。 
+当应用准备好在生产中使用时，开发人员可以使用团队应用提交 API 提交应用，该 API 可以从 Graph API 中调用，集成开发环境 (IDE) （如 Visual Studio 代码）或诸如 Power App 和 Power Virtual Agent 之类的平台。 执行此操作将使应用在 Microsoft 团队管理中心的 "<a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">管理应用</a>" 页面上可用，你的管理员可以在其中查看和批准该应用。 
 
 在 Microsoft Graph 上构建的团队应用提交 API 允许你的组织在你选择的平台上进行开发，并为团队中的自定义应用自动执行提交到审批流程。
 
@@ -62,7 +59,7 @@ Microsoft 团队开发人员平台使开发人员可以轻松地集成你自己�
 
 ## <a name="validate"></a>复核
 
-Microsoft 团队管理中心中的 "<a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">管理应用</a>" 页面（在左侧导航中，转到 "**团队应用**  >  **管理应用**"）可为你的组织提供所有团队应用的视图。 页面顶部的 "**待定审批**" 小组件可让你知道何时提交自定义应用以供审批。
+Microsoft 团队管理中心 (中的 "<a href="https://docs.microsoft.com/microsoftteams/manage-apps" target="_blank">管理应用</a>" 页面在左侧导航中，转到 "**团队应用**  >  **管理应用**") ，为你的组织提供所有团队应用的视图。 页面顶部的 "**待定审批**" 小组件可让你知道何时提交自定义应用以供审批。
 
 在表格中，新提交的应用会自动显示已提交**状态**的 "已**提交**" 和 "已**阻止**"**状态**。 可以按降序对 "**发布状态**" 列进行排序，以便快速找到该应用。
 
@@ -142,6 +139,7 @@ Microsoft 团队管理中心中的 "<a href="https://docs.microsoft.com/microsof
 
 ## <a name="related-topics"></a>相关主题
 
+- [通过上载应用包发布自定义应用](upload-custom-apps.md)
 - [在 Microsoft 团队管理中心中管理你的应用](manage-apps.md)
 - [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
 - [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)

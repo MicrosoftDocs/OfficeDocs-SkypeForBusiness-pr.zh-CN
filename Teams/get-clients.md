@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928812619ff0f3f5c0194f75bdc93ced2f84c79b
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: d19e7b997a5972d3b3eb9b28d89b3e1b06359889
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139125"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552340"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -40,7 +40,7 @@ ms.locfileid: "44139125"
 > [!TIP]
 > 观看以下会话以了解 Windows 桌面客户端的优势，如何规划它，以及如何部署它：[Teams Windows 桌面客户端](https://aka.ms/teams-clients)
 
-Microsoft 团队桌面客户端是独立的应用程序，也[可在适用于企业的 Microsoft 365 应用中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于32位和64位版本的 Windows （8.1 或更高版本）和 Windows Server （2012 R2 或更高版本）以及 macOS 和 Linux （ `.deb` `.rpm`格式）。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更高版本；如果没有，Teams 安装程序将为你安装。 在 Linux 上，程序包管理器（例如 `apt` 和 `yum`）将尝试为你安装任何要求。 但是，如果没有，则在 Linux 上安装 Teams 前，你将需要安装任何报告的要求。
+Microsoft 团队桌面客户端是独立的应用程序，也[可在适用于企业的 Microsoft 365 应用中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于32位和64位版本的 Windows (8.1 或更高版本) 和 Windows Server (2012 R2 或更高版本) ，以及格式 (的 macOS 和 Linux) `.deb` `.rpm` 。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更高版本；如果没有，Teams 安装程序将为你安装。 在 Linux 上，程序包管理器（例如 `apt` 和 `yum`）将尝试为你安装任何要求。 但是，如果没有，则在 Linux 上安装 Teams 前，你将需要安装任何报告的要求。
 
 桌面客户端为团队会议、群组通话和专线一对一呼叫提供实时通信支持（音频、视频和内容共享）。
 
@@ -125,7 +125,7 @@ IT 管理员可以使用 Teams 的托管部署将安装文件分发到其组织�
     - 打开相关的程序包管理工具，完成自助式 Linux 应用安装过程。
     - 或者，如果你喜欢“终端”，请键入：`sudo apt install **teams download file**`
 
-可以通过“活动”启动团队，也可以通过键入 `Teams` 通过“终端”启动 Teams。 
+可以通过“活动”启动团队，也可以通过键入 `teams` 通过“终端”启动 Teams。 
 
 #### <a name="install-teams-using-rpm-package"></a>使用 RPM 程序包安装团队
 
@@ -134,12 +134,13 @@ IT 管理员可以使用 Teams 的托管部署将安装文件分发到其组织�
     - 打开相关的程序包管理工具，完成自助式 Linux 应用安装过程。
     - 或者，如果你喜欢“终端”，请键入：`sudo yum install **teams download file**`
 
-可以通过“活动”启动团队，也可以通过键入 `Teams` 通过“终端”启动 Teams。
+可以通过“活动”启动团队，也可以通过键入 `teams` 通过“终端”启动 Teams。
 
 #### <a name="install-manually-from-the-command-line"></a>从命令行手动安装
 
 在 Debian 和 Ubuntu 分发上手动安装：
-```
+
+```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
@@ -149,7 +150,8 @@ sudo apt install teams
 ```
 
 在基于 RHEL、Fedora 和 CentOS 的分发上手动安装：
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
@@ -159,13 +161,15 @@ sudo dnf install teams
 ```
 
 或者，使用 yum 代替 dnf：
-```
+
+```bash
 yum check-update
 sudo yum install teams
 ```
 
 在基于 openSUSE 的分发上手动安装：
-```
+
+```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'

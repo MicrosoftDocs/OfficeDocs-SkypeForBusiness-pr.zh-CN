@@ -19,20 +19,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b60ea0159207c88a9aab7030a1d058a44c649eb
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 5a318d59d10b90d5335c84fbbbe6e6e8ae68966d
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666004"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552714"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>免费升级 Microsoft 团队订阅版本
-======================================================
 
 如果你的组织使用的是免费版本的 Microsoft 团队，则可以通过购买适用于你的用户的 Microsoft 365 或 Office 365 订阅计划轻松升级到完整版本。 完整版本提供了更多团队功能，如计划、音频会议、增强的管理和安全功能——免费版本不提供。 Microsoft 365 和 Office 365 将熟悉的 Microsoft Office 桌面套件与基于云的 Microsoft 下一代通信和协作服务（包括 Exchange Online、SharePoint Online 和 Office）结合使用，以帮助用户从几乎任何地方通过 internet 进行工作。 升级团队时，现有团队数据将不会丢失;你的所有团队、频道、聊天、文件和权限都将随你提供。 
 
 > [!NOTE]
-> 如果您已有 Microsoft 365 或 Office 365 订阅，则可以使用团队试用版（使用您的公司标识），而不是免费版本。 团队试用版在有限的时间段里提供团队的完整版本。 有关详细信息，请参阅[管理 Microsoft 团队商业版云试用版优惠](iw-trial-teams.md)。
+> 如果您已有 Microsoft 365 或 Office 365 订阅，则有资格获得团队试用版 (与您的企业标识) ，而不是免费版本。 团队试用版在有限的时间段里提供团队的完整版本。 有关详细信息，请参阅[管理 Microsoft 团队商业版云试用版优惠](iw-trial-teams.md)。
 
 ## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>团队与团队的完全版本有何区别？
 
@@ -40,7 +39,7 @@ ms.locfileid: "44666004"
 
 - 500000最大用户数
 - 无限制聊天消息和搜索
-- 来宾访问权限
+- 来宾访问
 - 与应用和服务集成，包括 Word、Excel、PowerPoint 和 OneNote 的联机版本
 - 每个用户 2 GB 的存储空间和 10 GB 的共享存储空间
 - 1:1 和群组在线音频和视频通话
@@ -49,7 +48,7 @@ ms.locfileid: "44666004"
 
 除了团队免费提供的功能之外，Microsoft 365 或 Office 365 订阅附带的团队的完整版本还提供以下功能：
 
-- 无用户限制（使用企业许可证）
+- 不 (使用企业许可证) 的用户限制
 - Exchange 电子邮件托管和自定义电子邮件域
 - OneDrive、SharePoint、Planner、Yammer 以及更多 Microsoft 365 和 Office 365 服务
 - 每个用户 1 TB 的存储空间
@@ -65,7 +64,7 @@ ms.locfileid: "44666004"
 如果满足下列要求，则可以升级到团队的完整版本：
 
 - 您是注册现有团队免费订阅的人员。
-- 如果你正在携带自己的域，则它尚未与 Azure Active Directory 相关联（通过试用版或已购买的 Microsoft 365 或 Office 365 订阅）。
+- 如果你正在携带自己的域，则它尚未通过试用版或购买的 Microsoft 365 或 Office 365 订阅) 与 Azure Active Directory (相关联。
 
 > [!NOTE]
 > 若要升级和传输数据，必须通过团队应用程序中的升级过程购买订阅。 如果你在不执行升级过程的情况下向团队购买 Microsoft 365 或 Office 365，则无法传输你的数据，因为你已经有了单独的租户。
@@ -76,7 +75,7 @@ ms.locfileid: "44666004"
 
 - 升级后，您不能再切换回团队。
 - 无法将多个团队免费租户合并到单个付费租户中。
-- 所有用户都必须位于同一个域中。 （所有用户都将在格式*用户名* @ 中获取登录*domain.com*。）
+- 所有用户都必须位于同一个域中。  (所有用户都将通过格式*用户名* @ *domain.com*获取登录。 ) 
 - 必须升级所有用户：不支持与同一租户中的免费和付费订阅用户混合的团队。
 
 ## <a name="how-do-i-upgrade-my-organization"></a>如何升级我的组织？

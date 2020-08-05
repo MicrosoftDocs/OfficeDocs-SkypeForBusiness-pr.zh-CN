@@ -15,30 +15,30 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 了解如何配置一个会话边界控制器（SBC）来为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
+description: 了解如何配置一个会话边界控制器 (SBC) 为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4df64ec7bb47b440ba334becdfc03f1966631b3b
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689738"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552618"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
-直接路由支持配置一个会话边界控制器（SBC）来为多个租户提供服务。
+直接路由支持配置一个会话边界控制器 (SBC) 来为多个租户提供服务。
 
 > [!NOTE]
 > 此方案专为 Microsoft 合作伙伴和/或 PSTN 运营商设计，本文档后面称为运营商。 运营商将向 Microsoft 团队提供的电话服务销售给客户。 
 
 运营商：
-- 在其数据中心中部署和管理 SBC （客户无需实现 SBC，并且它们从团队客户端的运营商处接收电话服务）。
+- 在其数据中心中部署和管理 SBC (客户无需实现 SBC，并且它们从团队客户端) 中的运营商接收电话服务。
 - 将 SBC 互连到多个租户。
 - 向客户提供 PSTN 服务。
 - 管理端到端的通话质量。
 - 为 PSTN 服务单独收取费用。
 
-Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone System）和一个团队客户端。 Microsoft 还会验证手机，并验证可与 Microsoft Phone 系统配合使用的 SBCs。 选择运营商之前，请确保你的选择具有已认证的 SBC，并且可以管理语音质量端到端。
+Microsoft 不管理运营商。 Microsoft 提供了 (Microsoft Phone System) 和团队客户端的 PBX。 Microsoft 还会验证手机，并验证可与 Microsoft Phone 系统配合使用的 SBCs。 选择运营商之前，请确保你的选择具有已认证的 SBC，并且可以管理语音质量端到端。
 
 下面是配置方案的技术实现步骤。
 
@@ -61,7 +61,7 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone
 - **AudioCodes：** [直接路由配置说明](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)，在 "将 AudioCodes SBC 连接到 Microsoft 团队直接路由托管模型配置说明" 中所述的 SBC 托管方案的配置。 
 - **Oracle：** [直接路由配置说明](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，在 "Microsoft" 部分中介绍了 SBC 托管方案的配置。 
 - **功能区通信：** 请参阅[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)有关如何配置功能区核心序列的文档，以及如何在此页面[功能区中配置运营商最佳做法-为 Microsoft 团队直接路由 SBC Edge 配置运营商](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
-- **TE-系统（anynode）：** 请在[TE 系统社区页面](https://community.te-systems.de/)上注册，了解有关如何为多个租户配置 anynode SBC 的文档和示例。
+- **TE-系统 (anynode) ：** 请在[TE 系统社区页面](https://community.te-systems.de/)上注册，了解有关如何为多个租户配置 anynode SBC 的文档和示例。
 - **Metaswitch：** 请在[Metaswitch 社区页面](https://sso.metaswitch.com/UI/Login)上注册，了解有关如何为多个租户启用 Perimeta SBC 的文档。
 
 > [!NOTE]
@@ -87,7 +87,7 @@ Microsoft 不管理运营商。 Microsoft 提供了一个 PBX （Microsoft Phone
 
 ![显示域和联系人标题要求的图表](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，运营商需要使用* \* base_domain （例如 \* customers.adatum.biz）* 申请证书。 此证书可用于对从单个 SBC 提供服务的多个租户的连接进行身份验证。
+SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，运营商需要使用 SAN 请求证书* \* 。 base_domain (例如 \* customers.adatum.biz) *。 此证书可用于对从单个 SBC 提供服务的多个租户的连接进行身份验证。
 
 
 下表是一个配置示例。
@@ -101,10 +101,10 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 |sbc3.customers.adatum.biz |   子域 | 在客户租户中 |   \*。 customers.adatum.biz  |  adventureworks.com | sbc3.customers.adatum.biz |
 ||         |         |         |         |         |
 
-要配置基本和子域，请按照下面所述的步骤进行操作。 在此示例中，我们将为一个客户（Woodgrove Bank 租户中的 sbc1.customers.adatum.biz）配置一个基本域名（customers.adatum.biz）和一个子域。
+要配置基本和子域，请按照下面所述的步骤进行操作。 在此示例中，我们将为 Woodgrove Bank 租户) 中的一名客户 (sbc1.customers.adatum.biz 配置基本域名 (customers.adatum.biz) 和子域。
 
 > [!NOTE]
-> 使用 sbcX.customers.adatum.biz 启用运营商租户中的语音。
+> 使用 sbcX.customers.adatum.biz 启用运营商租户中的语音。 sbcX 可以是任何唯一且有效的字母数字主机名。
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>在运营商租户中注册基本域名
 
@@ -114,7 +114,7 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 
 如果您作为全局管理员登录到 Microsoft 365 管理中心，则只能添加新域。 
 
-若要验证你拥有的角色，请登录到 Microsoft 365 管理中心（ https://portal.office.com) 请转到 "**用户**  >  **活动用户**"，然后验证你是否拥有全局管理员角色。 
+若要验证你拥有的角色，请登录到 Microsoft 365 管理中心 (https://portal.office.com) ，转到 "**用户**  >  **活动用户**"，然后验证你是否具有全局管理员角色。 
 
 有关管理员角色以及如何在 Microsoft 365 或 Office 365 中分配角色的详细信息，请参阅[关于管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
@@ -131,7 +131,7 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
     ![显示验证的域名确认的屏幕截图](media/direct-routing-3-sbc-verify-domain.png)
 
 5. 单击 "**下一步**"，然后在 "**更新 DNS 设置**" 页面上，选择**我将自己添加 DNS 记录**，然后单击 "**下一步**"。
-6. 在下一页上，清除所有值（除非要使用 Exchange、SharePoint 或团队/Skype for Business 的域名），单击 "**下一步**"，然后单击 "**完成**"。 请确保您的新域处于 "设置完成" 状态。
+6. 在下一页上，清除 "所有值" (，除非您想要使用 Exchange、SharePoint 或团队/Skype for business) 的域名，单击 "**下一步**"，然后单击 "**完成**"。 请确保您的新域处于 "设置完成" 状态。
 
     ![显示 "设置" 状态为 "完成" 的域的屏幕截图](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -155,7 +155,7 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 
 如果您作为全局管理员登录到 Microsoft 365 管理中心，则只能添加新域。 
 
-若要验证你拥有的角色，请登录到 Microsoft 365 管理中心（ https://portal.office.com) 请转到 "**用户**  >  **活动用户**"，然后验证你是否拥有全局管理员角色。 
+若要验证你拥有的角色，请登录到 Microsoft 365 管理中心 (https://portal.office.com) ，转到 "**用户**  >  **活动用户**"，然后验证你是否具有全局管理员角色。 
 
 有关管理员角色以及如何在 Microsoft 365 或 Office 365 中分配角色的详细信息，请参阅[关于管理员角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
@@ -209,11 +209,11 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 
 ### <a name="create-a-trunk-and-provision-users"></a>创建主干和预配用户
 
-通过直接路由的初始发布，Microsoft 需要使用新的 CSOnlinePSTNGateway 将主干添加到每个服务的租户（客户租户）。
+通过直接路由的初始发布，Microsoft 需要使用 CSOnlinePSTNGateway 将主干添加到每个服务的租户 (客户租户) 。
 
 但是，这种情况尚未证明最佳原因：
  
-- **开销管理**。 例如，卸载或排出 SBC 将更改某些参数，例如启用或禁用媒体绕过。 更改端口需要更改多个租户中的参数（通过运行 Set-CSOnlinePSTNGateway），但实际上是同一个 SBC。 
+- **开销管理**。 例如，卸载或排出 SBC 将更改某些参数，例如启用或禁用媒体绕过。 更改端口需要通过运行 CSOnlinePSTNGateway) 来更改多个租户 (中的参数，但实际上是同一个 SBC。 
 
 -  **开销处理**。 收集和监视从多个逻辑中继收集的干线运行状况数据 SIP 选项，实际上，同一 SBC 和相同的物理干线会减缓路由数据的处理。
  
@@ -222,25 +222,25 @@ SBC 需要证书才能对连接进行身份验证。 对于 SBC 托管方案，�
 引入了两个新实体：
 -    使用命令 New-CSOnlinePSTNGateway 在运营商租户中注册的运营商中继，例如，CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true。
 
--    派生的主干，不需要注册。 它只是从运营商主干中添加的所需主机名。 它从载波主干派生其所有配置参数。 派生的主干不需要在 PowerShell 中创建，并且与运营商主干的关联基于 FQDN 名称（请参阅下面的详细信息）。
+-    派生的主干，不需要注册。 它只是从运营商主干中添加的所需主机名。 它从载波主干派生其所有配置参数。 派生的主干不需要在 PowerShell 中创建，并且与运营商主干的关联基于 FQDN 名称 (请参阅下面) 的详细信息。
 
 **预配逻辑和示例**
 
--    运营商仅需要使用 Set-CSOnlinePSTNGateway 命令设置和管理单个中继（运营公司域中的载波干线）。 在上面的示例中，它是 adatum.biz;
+-    运营商只需使用 CSOnlinePSTNGateway 命令在运营商域) 中设置和管理单个中继 (载波主干。 在上面的示例中，它是 adatum.biz;
 -    在客户租户中，运营商只需将派生的干线 FQDN 添加到用户的语音路由策略。 无需为主干运行新的 CSOnlinePSTNGateway。
 -    顾名思义，派生的主干会继承或派生载波主干中的所有配置参数。 说明
 -    Customers.adatum.biz-需要在运营商租户中创建的运营商主干。
 -    Sbc1.customers.adatum.biz-不需要在 PowerShell 中创建的客户租户中的派生主干。  您只需在 "联机语音路由策略" 中添加派生的主干的名称，而无需创建它。
 -   运营商将需要将派生的干线 FQDN 的 DNS 记录设置为载波 SBC ip 地址。
 
--    对载体主干（在运营商租户上）所做的任何更改都将自动应用于派生的中继。 例如，运营商可以更改载波主干上的 SIP 端口，此更改将应用于所有派生的中继。 用于配置中继的新逻辑可简化管理，因为无需转到每个租户并在每个主干上更改参数。
+-    在运营商租户) 上对运营商中继 (所做的任何更改都会自动应用于派生的中继。 例如，运营商可以更改载波主干上的 SIP 端口，此更改将应用于所有派生的中继。 用于配置中继的新逻辑可简化管理，因为无需转到每个租户并在每个主干上更改参数。
 -    选项仅发送给载波中继 FQDN。 载波干线的运行状况将应用于所有派生的中继，并用于路由决策。 了解有关[直接路由选项](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot)的详细信息。
 -    运营商可以排出载波主干，所有衍生的中继也将排出。 
  
 
 **从以前的模型迁移到运营商主干**
  
-对于从运营商托管模型的当前实现迁移到新模型，运营商将需要为客户租户重新配置中继。 使用 Remove-CSOnlinePSTNGateway （离开运营商租户中的主干）从客户租户中删除中继
+对于从运营商托管模型的当前实现迁移到新模型，运营商将需要为客户租户重新配置中继。 使用 Remove-CSOnlinePSTNGateway (离开运营商租户) 中的主干，从客户租户中删除中继
 
 我们强烈建议您尽快迁移到新的解决方案，因为我们将使用运营商和衍生中继模型增强监控和资源调配。
  

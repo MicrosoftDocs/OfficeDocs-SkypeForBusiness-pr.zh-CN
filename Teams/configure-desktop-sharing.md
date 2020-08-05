@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 34d7780e1d10370b78c11c1a8021381aff71f479
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905894"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552588"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中配置桌面共享
 ============================================
@@ -54,7 +54,7 @@ ms.locfileid: "43905894"
 5. 打开或关闭以下设置：
 
     - **允许参与者授予或请求控制**–允许团队成员授予或请求演示者的桌面或应用程序的控制权。
-    - **允许外部参与者授予或请求控制**-允许来宾和外部（联合）用户向演示者的桌面或应用程序提供或请求控制。
+    - **允许外部参与者授予或请求控制**–这是每个用户的策略。 组织是否为用户设置此集不会控制外部参与者可以执行的操作，无论会议组织者已设置了哪些内容。 此参数控制是否可以向外部参与者提供控制或请求控制共享者的屏幕，具体取决于共享者在其组织的会议策略中设置的内容。
     - **允许 PowerPoint 共享** - 允许用户创建可上传和共享 PowerPoint 演示文稿的会议。
     - **允许白板** - 允许用户共享白板。
     - **允许共享笔记** - 允许用户记录共享笔记。

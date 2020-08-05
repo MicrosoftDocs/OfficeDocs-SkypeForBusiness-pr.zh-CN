@@ -23,17 +23,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 1b7c94cd8dc0f46b72cea21ae46d98ed9a974fc5
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
+ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938301"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46552608"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
 ::: zone target="docs"
-会议策略Meeting policies用于控制组织中用户安排的会议的与会者可用的功能。 你可以使用自动创建的全局（组织范围的默认）策略，也可以创建和分配自定义策略。 可在 Microsoft 团队管理中心或通过使用[PowerShell](teams-powershell-overview.md)管理会议策略。
+会议策略Meeting policies用于控制组织中用户安排的会议的与会者可用的功能。 你可以使用自动创建或创建和分配自定义策略的全局 (组织范围默认) 策略。 可在 Microsoft 团队管理中心或通过使用[PowerShell](teams-powershell-overview.md)管理会议策略。
 
 > [!NOTE]
 > 有关使用角色管理会议演示者和与会者的权限的信息，请参阅[团队会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
@@ -122,7 +122,7 @@ ms.locfileid: "44938301"
 
 ### <a name="allow-the-outlook-add-in"></a>允许 Outlook 加载项
 
-这是每用户策略，在会议开始之前应用。 此设置控制是否可以从 Outlook （Windows、Mac、web 和手机）内安排团队会议。
+这是每用户策略，在会议开始之前应用。 此设置控制是否可以在 Outlook (Windows、Mac、web 和移动) 中安排团队会议。
 
 ![显示安排新会议的功能的屏幕截图](media/meeting-policies-outlook-add-in.png)
 
@@ -153,7 +153,7 @@ ms.locfileid: "44938301"
 - [允许脚本](#allow-transcription)
 - [允许云录制](#allow-cloud-recording)
 - [允许 IP 视频](#allow-ip-video)
-- [媒体比特率（Kbs）](#media-bit-rate-kbs)
+- [媒体比特率 (Kbs) ](#media-bit-rate-kbs)
 
 ### <a name="allow-transcription"></a>允许脚本
 
@@ -177,7 +177,7 @@ ms.locfileid: "44938301"
 |---------|---------|---------|
 |Daniela | 全局   | False |
 |Amanda | Location1MeetingPolicy | True|
-|John （外部用户） | 不适用 | 不适用|
+|John (外部用户)  | 不适用 | 不适用|
 
 按 Daniela 组织的会议无法录制，并且 Amanda 已启用策略设置，无法录制 Daniela 组织的会议。 可记录由 Amanda 组织的会议，但 Daniela，他们已禁用策略设置，并且 John 是外部用户，无法录制 Amanda 组织的会议。
 
@@ -185,7 +185,7 @@ ms.locfileid: "44938301"
 
 ### <a name="allow-ip-video"></a>允许 IP 视频
 
-这是每个组织单位和每用户策略的组合。 视频是会议的关键组件。 在某些组织中，管理员可能希望更好地控制哪些用户的会议有视频。 此设置控制是否可以在用户托管的会议中以及用户开始的1:1 呼叫和组通话中打开视频。 已启用此策略的用户组织的会议，如果会议参与者也启用了该策略，则会议参与者允许会议中的视频共享。 未分配任何策略的会议参与者（如匿名和联盟参与者）将继承会议组织者的策略。
+这是每个组织单位和每用户策略的组合。 视频是会议的关键组件。 在某些组织中，管理员可能希望更好地控制哪些用户的会议有视频。 此设置控制是否可以在用户托管的会议中以及用户开始的1:1 呼叫和组通话中打开视频。 已启用此策略的用户组织的会议，如果会议参与者也启用了该策略，则会议参与者允许会议中的视频共享。 未分配任何策略的会议参与者 (例如，匿名参与者和联盟参与者) 继承会议组织者的策略。
 
 ![显示带有音频和视频设置的会议的屏幕截图](media/meeting-policies-audio-video-settings.png)
 
@@ -202,7 +202,7 @@ ms.locfileid: "44938301"
 
 如果 Daniela 通过视频 Amanda 调用，Amanda 只能通过音频应答呼叫。  当呼叫连接时，Amanda 可以看到 Daniela 的视频，但无法打开视频。 如果 Amanda 呼叫 Daniela，Daniela 可以通过视频和音频接听呼叫。 通话接通后，Daniela 可以根据需要打开或关闭她的视频。
 
-### <a name="media-bit-rate-kbs"></a>媒体比特率（Kbs）
+### <a name="media-bit-rate-kbs"></a>媒体比特率 (Kbs) 
 
 这是每个用户的策略。 此设置确定用户的通话和会议中音频、视频和基于视频的应用共享传输的媒体比特率。 它同时应用于呼叫或会议中用户的上行媒体和下行媒体遍历。 此设置使你能够更细致地控制组织中的带宽管理。 根据用户所需的会议方案，我们建议有足够的带宽来实现优质体验。 最小值为 30 Kbps，最大值取决于会议方案。 若要了解更多有关建议的最小带宽以供团队的优质会议、通话和实时活动，请参阅[带宽要求](prepare-network.md#bandwidth-requirements)。
 
@@ -221,7 +221,7 @@ ms.locfileid: "44938301"
 
 ### <a name="screen-sharing-mode"></a>屏幕共享模式
 
-这是每个组织单位和每用户策略的组合。 此设置控制是否允许在用户的会议中共享桌面和/或窗口共享。 未分配任何策略的会议参与者（如匿名、来宾、B2B 和联盟参与者）将继承会议组织者的策略。
+这是每个组织单位和每用户策略的组合。 此设置控制是否允许在用户的会议中共享桌面和/或窗口共享。 未分配任何策略的会议参与者 (例如，匿名、来宾、B2B 和联盟参与者) 继承会议组织者的策略。
 
 |设置值 |行为  |
 |---------|---------|
@@ -268,7 +268,7 @@ Daniela 可以将共享桌面或窗口的控制权交给 Babek 组织的会议�
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>允许外部参与者授予或请求控制
 
-这是每个用户的策略。 此设置控制会议中的外部参与者是否可以将其共享桌面或窗口的控制权交给会议中的其他参与者。 团队会议中的外部参与者可以按如下方式进行分类：  
+这是每个用户的策略。 组织是否为用户设置此集不会控制外部参与者可以执行的操作，无论会议组织者已设置了哪些内容。 此参数控制是否可以向外部参与者提供控制或请求控制共享者的屏幕，具体取决于共享者在其组织的会议策略中设置的内容。 团队会议中的外部参与者可以按如下方式进行分类：  
 
 - 匿名用户
 - 来宾用户  
@@ -350,7 +350,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
   
 |设置值  |联接行为 |
 |---------|---------|
-|**所有人**   |所有会议参与者都直接加入会议，而无需在大厅中等待。 这包括经过身份验证的用户、来自受信任组织（联合）、来宾和匿名用户的外部用户。     |
+|**所有人**   |所有会议参与者都直接加入会议，而无需在大厅中等待。 这包括经过身份验证的用户、来自受信任组织的外部用户 (联盟) 、来宾和匿名用户。     |
 |**组织和联盟组织中的每个人**     |组织内的经过身份验证的用户，包括来宾用户和来自受信任组织的用户，直接加入会议，而无需在大厅中等待。  匿名用户在大厅中等待。   |
 |**您的组织中的每个人**    |来自组织内部的经过身份验证的用户（包括来宾用户）直接加入会议，而无需在大厅中等待。  来自受信任组织和匿名用户在大厅中等待的用户。 这是默认设置。           |
 
@@ -369,7 +369,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 |设置值 |行为  |
 |---------|---------|
-|**已禁用，但用户可以替代**     | 会议期间不会为用户自动打开实时字幕。 用户可以在 "溢出（**...**）" 菜单中看到 "**打开实时标题**" 选项以将其打开。 这是默认设置。 |
+|**已禁用，但用户可以替代**     | 会议期间不会为用户自动打开实时字幕。 用户可以在 "溢出 () **...** " 菜单中看到 "**打开实时标题**" 选项，将其打开。 这是默认设置。 |
 |**已禁用**     | 会议期间，用户已禁用实时字幕。 用户不能选择将其打开。          |
 
 <a name="bkcontentsharing"> </a>
