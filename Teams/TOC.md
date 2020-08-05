@@ -68,7 +68,6 @@
 ### [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [在 Teams 中管理组织的列表应用](manage-lists-app.md)
 ### [为组织管理任务应用](manage-tasks-app.md)
-### [管理表扬应用](manage-praise-app.md)
 ### [设置团队目标层次结构](set-up-your-team-hierarchy.md)
 ### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
