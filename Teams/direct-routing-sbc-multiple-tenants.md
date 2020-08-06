@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 了解如何配置一个会话边界控制器 (SBC) 为 Microsoft 合作伙伴和/或 PSTN 运营商提供多个租户。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0effcbf1c328592781ca955813368e3ee97b61e8
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: d3c2f1fccf0a00e5ce54bad98d4ae94f96534dc6
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552618"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572357"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>为多个租户配置会话边界控制器
 
@@ -60,7 +60,7 @@ Microsoft 不管理运营商。 Microsoft 提供了 (Microsoft Phone System) 和
 
 - **AudioCodes：** [直接路由配置说明](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)，在 "将 AudioCodes SBC 连接到 Microsoft 团队直接路由托管模型配置说明" 中所述的 SBC 托管方案的配置。 
 - **Oracle：** [直接路由配置说明](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，在 "Microsoft" 部分中介绍了 SBC 托管方案的配置。 
-- **功能区通信：** 请参阅[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)有关如何配置功能区核心序列的文档，以及如何在此页面[功能区中配置运营商最佳做法-为 Microsoft 团队直接路由 SBC Edge 配置运营商](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **功能区通信：** 请参阅[功能区通信 SBC 核心 Microsoft 团队配置指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)有关如何配置功能区核心序列的文档，以及如何在此页面[功能区中配置运营商最佳做法-为 Microsoft 团队直接路由 SBC Edge 配置运营商](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-系统 (anynode) ：** 请在[TE 系统社区页面](https://community.te-systems.de/)上注册，了解有关如何为多个租户配置 anynode SBC 的文档和示例。
 - **Metaswitch：** 请在[Metaswitch 社区页面](https://sso.metaswitch.com/UI/Login)上注册，了解有关如何为多个租户启用 Perimeta SBC 的文档。
 

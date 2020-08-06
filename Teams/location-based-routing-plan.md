@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 233e26042c66e96f5611b9f3997684404353453d
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552270"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572237"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
@@ -35,7 +35,7 @@ ms.locfileid: "46552270"
 - [为直接路由启用基于位置的路由](location-based-routing-enable.md)
 
 > [!NOTE]
-> 基于位置的路由在 Microsoft 365 政府社区云 (GCC) 高部署中不可用。
+> 基于位置的路由在 Microsoft 365 政府社区云中不可用 (GCC) 高或 DoD 部署。
 
 基于位置的路由功能允许您在入站或出站 PSTN 呼叫时限制基于策略和用户地理位置的收费跳过。 基于位置的路由旨在提供一种阻止收费绕过的机制。 不应将它用作基于用户位置或意外结果的动态路由 PSTN 呼叫的机制。
 

@@ -15,16 +15,16 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 Microsoft 团队认证了哪些 USB 外围设备和设备，如耳机、免提、网络摄像头和监视器。
-ms.openlocfilehash: 14565d34b8e03095f7484fe89b0d303a8a0790bc
-ms.sourcegitcommit: 98760985712d3cccefd0378964a26324677cf777
+ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45166740"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572257"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>为 Microsoft 团队认证的 USB 音频和视频设备
 
-外围设备认证计划可确保 USB 外围设备、免提、网络摄像头和显示器等 USB 外围设备，提供丰富的音频或视频质量。 经认证的设备在盒（即插 & 即用）中工作，无需额外配置，并提供与 Microsoft 团队和 Skype for business 的呼叫控制。 产品为最终用户和管理员提供了出色的体验。
+外围设备认证计划可确保 USB 外围设备、免提、网络摄像头和显示器等 USB 外围设备，提供丰富的音频或视频质量。 已认证的设备 (插头 & 播放) ，无需额外配置，并提供与 Microsoft 团队和 Skype for business 的呼叫控制。 产品为最终用户和管理员提供了出色的体验。
 
 若要浏览针对 Microsoft 团队测试和认证的设备，请转到[团队存储](https://products.office.com/microsoft-teams/across-devices/devices)。
 
@@ -52,15 +52,15 @@ ms.locfileid: "45166740"
 ### <a name="new-teams-certification-benefits"></a>新的团队认证好处
 
 - 专用团队按钮和 LED 指示器灯。
-- 来自团队客户端的事件和警报的用户通知（例如会议开始、语音邮件或错过的通话）。
-- 通过按下按钮（例如加入会议）激活团队客户端或响应通知的功能。
-- 为可扩展性设计的认证（将通过固件更新传递的新设备/客户功能）。
+- 来自团队客户端的事件和警报的用户通知 (例如会议开始、语音邮件或错过的通话) 。
+- 可以通过按下按钮来激活团队客户端或响应通知 (例如，加入会议) 。
+- 为扩展性设计的认证 (通过固件更新) 传送的新设备/客户功能。
 
 ### <a name="core-certification-benefits"></a>核心认证好处
 
 - 自动选择默认音频设备，并确定是否存在多个音频外围设备。
 - 设备会自动向团队客户端注册，并且已准备好使用。
-- 音频设备（例如，耳机和免提）提供：
+- 音频设备 (例如，耳机和免提) 优惠：
   - 在与 PC 或 Mac 设备配合使用时，使用基本的呼叫控制。 基本控件包括 "应答/挂断"、"静音/取消静音" 和 "音量控制"。
   - 宽带音频，没有回声、失真或过多故障。 跨设备也支持回声取消。
 - 视频设备满足噪音、颜色、图像详细信息、抖动、延迟、帧速率和查看字段的要求。
@@ -78,8 +78,15 @@ ms.locfileid: "45166740"
 
 | 制造商        | 型                                                     | 获      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
-|Bose                 |NC 700 耳机                                             |6/8/2020        |适用于 Microsoft 团队的认证|
-|Jabra evolve              | 通过 Jabra evolve 链接 370 USB 转换器讲话750免提电话       | 5/21/2020 | 适用于 Microsoft 团队的认证|
+|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |已认证 Skype for business                        |
+|ViewSonic            |WCD- IFP6570                                               |7/31/2020       |已认证 Skype for business                        |
+|Jabra evolve                |接洽75耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|Jabra evolve                |接洽65耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|Jabra evolve                |接洽50耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|Avocor               |WCD-AVW-6555                                              |7/30/2020       |适用于 Microsoft 团队的认证                           |
+|Jabra evolve                |Evolve2 85 耳机                                         |7/17/2020       |适用于 Microsoft 团队的认证                           |
+|Bose                 |NC 700 耳机                                             |6/8/2020        |适用于 Microsoft 团队的认证                           |
+|Jabra evolve                | 通过 Jabra evolve 链接 370 USB 转换器讲话750免提电话     | 5/21/2020       | 适用于 Microsoft 团队的认证                         |
 | EPOS                | Sennheiser 调整660耳机                              | 5/15/2020      | 适用于 Microsoft 团队的认证                          |
 | EPOS                | Sennheiser 调整560耳机                              | 5/15/2020      | 适用于 Microsoft 团队的认证                          |
 | EPOS                | Sennheiser 460T 耳机                             | 5/15/2020      | 适用于 Microsoft 团队的认证                          |

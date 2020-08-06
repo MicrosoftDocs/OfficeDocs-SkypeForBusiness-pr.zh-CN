@@ -1,7 +1,7 @@
 ---
 title: Microsoft 团队中的信息障碍
 author: chrfox
-ms.author: chrfox
+ms.author: anwara
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -16,16 +16,16 @@ description: 本文介绍 Microsoft 团队中的哪些信息障碍以及他们�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29a9ac9d80e4c729dc6c040c1a7ec7fdc5eaa7d7
-ms.sourcegitcommit: a5276a713697e089d0eb0d80bba83a7af8d48251
+ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45202908"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572377"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
-信息障碍（IB）是管理员可以配置以防止个人或组相互通信的策略。 例如，如果一个部门处理的信息不应与其他部门共享，或者需要防止或独立地与该组外的任何人进行通信，则这将非常有用。
+ (IB) 的信息障碍是管理员可以配置以防止个人或组相互通信的策略。 例如，如果一个部门处理的信息不应与其他部门共享，或者需要防止或独立地与该组外的任何人进行通信，则这将非常有用。
 
 > [!NOTE]
 > - 不能跨租户创建信息障碍组。
@@ -37,7 +37,7 @@ ms.locfileid: "45202908"
 
 ## <a name="background"></a>背景
 
-信息障碍的主要驱动因素来自金融服务行业。 金融行业监管机构（[FINRA]( http://www.finra.org)）检查成员公司内的信息障碍和利益冲突，并提供有关如何管理此类冲突（FINRA 2241、[债务研究机构声明 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)）的指导。  
+信息障碍的主要驱动因素来自金融服务行业。 金融行业监管机构 ([FINRA]( http://www.finra.org)) 查看成员公司中的信息障碍和利益冲突，并提供有关如何管理此类冲突的指南， (FINRA 2241、[债务研究机构声明 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)。  
 
 但是，由于信息障碍的推出，许多其他方面发现它们非常有用。 其他常见方案包括：
 
@@ -61,7 +61,7 @@ ms.locfileid: "45202908"
 
 ## <a name="managing-information-barrier-policies"></a>管理信息屏障策略
 
-信息屏障策略在 Microsoft 365 合规性中心（SCC）中使用 PowerShell cmdlet 进行管理。 有关详细信息，请参阅[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
+信息屏障策略在 Microsoft 365 合规性中心 (SCC) 使用 PowerShell cmdlet 进行管理。 有关详细信息，请参阅[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 > [!IMPORTANT]
 > 在设置或定义策略之前，**必须在 Microsoft 团队中启用范围的目录搜索**。 在设置或定义信息障碍策略之前，请至少等待几小时后再启用范围目录搜索。 [了解有关信息障碍的先决条件的详细信息](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites)。
@@ -102,16 +102,16 @@ IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详�
 
     ![显示具有阻止的设置的用户 char 的屏幕截图](media/ib-after-screen-share-policy.png)
 
-- **用户在团队中放置电话呼叫（VOIP）** -只要用户向另一个用户或一组用户发起语音呼叫，就会评估呼叫以确保它不违反其他团队成员的信息屏障策略。 如果存在任何冲突，将阻止语音通话。
+- **用户将电话呼叫 (团队中的 VOIP) ** -只要用户向另一个用户或一组用户发起语音呼叫，就会评估呼叫以确保它不违反其他团队成员的信息屏障策略。 如果存在任何冲突，将阻止语音通话。
 - **团队中的来宾用户**-信息障碍策略也适用于团队中的来宾用户。 如果您的组织的全球通讯簿中需要发现来宾用户，请参阅[管理 Microsoft 365 组中的来宾访问](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 一旦来宾用户可发现，你可以[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>策略更改如何影响现有聊天
 
-当信息屏障策略管理员对策略进行更改，或者由于对用户配置文件的更改（如作业更改或类似原因）而导致策略更改生效时，信息屏障策略评估服务将自动搜索成员以确保团队成员不违反任何策略。
+当信息屏障策略管理员对策略进行更改，或者由于对用户配置 (文件的更改（例如作业更改或类似) 原因）而导致策略更改生效时，信息屏障策略评估服务将自动搜索成员，以确保团队成员不违反任何策略。
 
 如果用户之间已有聊天或其他通信，并且已设置新策略或更改了现有策略，则该服务将评估现有通信，以确保仍允许进行通信。 
 
-- **1:1 聊天**-如果不再允许两个用户之间的通信（如果策略阻止通信被应用到一个或两个用户），则将阻止进一步通信，并且聊天对话将变为只读。 
+- **1:1 聊天**-如果将阻止通信的策略同时应用于一个或两个用户，则 (两个用户之间的通信) ，将阻止进一步通信，聊天对话将变为只读。 
 
     下面是显示聊天的示例。
 
@@ -121,7 +121,7 @@ IB 合规性管理角色负责管理信息屏障策略。 有关此角色的详�
 
     ![显示已禁用用户聊天的屏幕截图](media/ib-after-1-1chat-policy.png)
 
-- **群组聊天**-如果不再允许从一个用户到组的通信（例如，如果用户更改了作业），则用户和其他违反该策略的用户可能会从群组聊天中删除，并且不允许与组进行进一步通信。 用户仍然可以查看旧对话（该对话将为只读），但无法查看或参与与组的任何新对话。 如果新的或已更改的策略阻止通信被应用到多个用户，则受该策略影响的用户可能会从群组聊天中被删除。 他们仍然可以看到旧的对话。
+- **群组聊天**-如果不再允许从一个用户到组的通信 (例如，如果用户更改作业) ，则用户和其他违反该策略的用户可能会从群组聊天中删除，并且不允许与组进行进一步通信。 用户仍然可以查看旧对话 (这将是只读) ，但无法查看或参与与组的任何新对话。 如果新的或已更改的策略阻止通信被应用到多个用户，则受该策略影响的用户可能会从群组聊天中被删除。 他们仍然可以看到旧的对话。
 
 在此示例中，Enrico 移动到组织内的其他部门，并从群组聊天中删除。
 
@@ -142,7 +142,7 @@ Enrico 无法再向群组聊天发送消息。
 
     ![显示群组聊天的屏幕截图](media/information-barriers-people-picker.png)
     
-- **"活动" 选项卡**-如果用户访问被阻止用户的 "**活动**" 选项卡，则不会显示任何帖子。 （"**活动**" 选项卡仅显示频道发布，在两个用户之间不存在任何公共频道。）
+- **"活动" 选项卡**-如果用户访问被阻止用户的 "**活动**" 选项卡，则不会显示任何帖子。  ("**活动**" 选项卡将仅显示频道发布，并且两个用户之间不存在任何公共频道。 ) 
 
     下面是已阻止的 "活动" 选项卡视图的示例。
 
@@ -150,8 +150,8 @@ Enrico 无法再向群组聊天发送消息。
 
 
 - **组织结构图**-如果用户访问的组织结构图中出现被阻止的用户，则被阻止的用户将不会显示在组织结构图中，并且将显示一条错误消息。
-- **人员卡片**-如果用户参与对话，随后被阻止，则其他用户将在其悬停在阻止用户的名称上时看到错误消息，而不是人员卡。 卡片上列出的操作（如通话和聊天）将不可用。
-- **建议的联系人**-阻止的用户不会显示在 "建议的联系人" 列表中（为新用户显示的初始联系人列表）。
+- **人员卡片**-如果用户参与对话，随后被阻止，则其他用户将在其悬停在阻止用户的名称上时看到错误消息，而不是人员卡。 卡上列出的操作 (如通话和聊天) 将不可用。
+- **建议的联系人**-阻止的用户不会显示在 "建议的联系人" 列表中 () 为新用户显示的初始联系人列表。
 - **聊天联系人**-用户可以在聊天联系人列表中看到被阻止的用户，但将标识被阻止的用户，并且用户唯一可以执行的操作是将其删除。 用户也可以单击它们以查看其过去的对话。
 - **呼叫联系人**-用户可以在通话联系人列表中看到被阻止的用户，但将标识被阻止的用户，并且用户唯一可以执行的操作是将其删除。
 
@@ -178,10 +178,13 @@ Enrico 无法再向群组聊天发送消息。
 
 有关详细信息（包括计划和定价），请参阅[许可指南](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
 
+## <a name="known-issues"></a>已知问题
+- **用户无法加入会议**：如果启用了 IB 策略，则不允许用户加入会议（如果会议名单的大小超过250个用户）。 根本原因是 IB 检查依赖于用户是否可以添加到会议聊天名单并接受该信号以允许用户加入会议。 加入会议一次会将该用户添加到名单，因此对于定期会议，名单将快速充满。 一旦达到250用户的计数，就不允许向会议聊天名单添加其他用户。 如果启用了 IB，则不允许用户加入会议，但如果未启用 IB，则允许用户加入会议，但不会将其添加到会议聊天名单。 短期解决方案是从会议聊天名单中删除非活动成员，为新用户腾出空间。 但是，我们将在更晚的日期增加会议聊天海报的大小。
+
 ## <a name="more-information"></a>更多信息
 
 - 若要了解有关信息障碍的详细信息，请参阅[信息障碍](https://docs.microsoft.com/office365/securitycompliance/information-barriers)。
 
 - 若要设置信息障碍策略，请参阅[定义信息障碍策略](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)。
 
-- 若要编辑或删除信息障碍策略，请参阅[编辑（或删除）信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies)。
+- 若要编辑或删除信息障碍策略，请参阅[编辑 (或删除) 信息屏障策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies)。

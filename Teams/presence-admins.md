@@ -17,16 +17,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 249fbd646cf6c01f282fe73b28e9d02ec48db90b
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: c31439485f245b522a55c2e5e1134ca6cdddbdf7
+ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665974"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "46572347"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
-状态是 Microsoft 团队（以及整个 Microsoft 365 或 Office 365）中的用户配置文件的一部分，用于指示用户的当前可用性和其他用户的状态。 默认情况下，使用 Teams 的组织中的任何人都可以（几乎实时）查看其他用户是否在线。
+"状态" 是 Microsoft 团队中的用户配置文件的一部分 (和整个 Microsoft 365 或 Office 365) ，用于指示用户的当前可用性和其他用户的状态。 默认情况下，使用 Teams 的组织中的任何人都可以（几乎实时）查看其他用户是否在线。
 
 Outlook 2013 桌面应用及更高版本支持 Outlook 中的 Teams 状态。
 
@@ -53,7 +53,7 @@ Outlook 2013 桌面应用及更高版本支持 Outlook 中的 Teams 状态。
 || ![带箭头的紫色圆圈，表示外出](media/Presence_OOF.png) 外出|
 |||
 
-应用配置的状态取决于用户活动（可用、离开）、Outlook 日历状态（在会议中）或团队应用状态（在通话中）。
+应用配置的状态状态基于用户活动 (可用、离开) 、Outlook 日历状态 (在会议) 或团队应用状态 (在通话中，演示) 。 请注意，当你处于基于你的日历的焦点模式时，焦点将是人们在 Teans 中看到的状态，但在其他产品中将显示为 "请勿打扰"。
 
 当您锁定计算机或进入空闲或睡眠模式时，当前状态将更改为 "离开"。 在手机上，只要团队应用处于后台，你的状态将更改为 "离开"。
 
