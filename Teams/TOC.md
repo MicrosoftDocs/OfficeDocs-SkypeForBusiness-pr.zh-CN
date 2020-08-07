@@ -660,6 +660,7 @@
 ### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [适用于医疗保健组织的安全邮件入门](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [消息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Teams 医疗保健策略包](policy-packages-healthcare.md)
 ### [患者应用概述](expand-teams-across-your-org/healthcare/patients-app-overview.md)
 #### [将电子医疗记录集成到 Microsoft Teams 中](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [DSTU2 接口规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
