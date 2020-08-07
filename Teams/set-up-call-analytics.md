@@ -1,7 +1,7 @@
 ---
 title: 为 Microsoft 团队设置呼叫分析
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 设置每用户呼叫分析以识别和解决 Microsoft 团队通话质量问题。
-ms.openlocfilehash: 233d91a60ea783238e10ed1baa02334494ef6e08
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: f1ea46f275dfbbe5ea7f6cd40d8c06fba2b5e00f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085308"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581103"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>为 Microsoft 团队设置呼叫分析
 
@@ -39,7 +39,7 @@ ms.locfileid: "45085308"
   
 ## <a name="give-permission-to-support-and-helpdesk-staff"></a>向支持部门和帮助台人员提供权限
 
-作为团队管理员，您拥有对所有用户的 "调用分析" 信息的完全访问权限。 我们创建了一些专用的 Azure Active Directory 角色，你可以将其分配给支持人员和帮助台代理，以便他们也可以访问每个用户的呼叫分析（无需访问团队管理中心的其他人员中心）。 将**团队通信支持专家**角色分配给应该具有受限视图的每用户调用分析的用户（第1层支持）。 将**团队通信支持工程师**角色分配给需要对每用户调用分析具有完全访问权限的用户（第2层支持）。 这两个角色都有权访问团队管理中心的其余部分。
+作为团队管理员，您拥有对所有用户的 "调用分析" 信息的完全访问权限。 我们创建了一些专用的 Azure Active Directory 角色，你可以分配给支持人员和帮助台代理，以便他们还可以访问每个用户的呼叫分析 (，而无需访问团队管理中心的其余部分) 。 将**团队通信支持专家**角色分配给应具有有限的每用户调用分析视图的用户， (第1层支持) 。 将**团队通信支持工程师**角色分配给需要完全访问每用户呼叫分析 (第2层支持) 的用户。 这两个角色都有权访问团队管理中心的其余部分。
 
 若要了解每个角色的用途，请阅读[每个团队支持角色执行哪些操作](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)？
 
@@ -51,7 +51,7 @@ ms.locfileid: "45085308"
 
 你可以通过上载 .csv 或 tsv 文件，将生成、网站和租户信息添加到每用户调用分析。 有了所有这些信息，呼叫分析可以将 IP 地址映射到物理位置。 管理员和帮助台工程师可以使用此信息来帮助发现通话问题的趋势。 例如，为什么同一建筑物中的用户有类似的通话质量问题？ 
 
-如果你是团队或 Skype for business 管理员，则可以使用现有租户并通过 "团队" 或 "Skype for business 呼叫质量" 仪表板（CQD）构建数据文件。 首先，从 CQD 下载文件，然后将其上传到 "调用分析"。 
+如果你是团队或 Skype for business 管理员，则可以使用现有租户并使用 "团队" 或 "Skype for Business 呼叫质量" 仪表板中的数据文件构建数据文件 (CQD ") 。 首先，从 CQD 下载文件，然后将其上传到 "调用分析"。 
 
 - 若要下载现有数据文件，请转到**Microsoft 团队管理中心**  >  **呼叫质量仪表板**"  >  **立即上载**"。 在 "**我的上载**" 列表中，单击所需文件旁边的 "**下载**"。 
 

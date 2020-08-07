@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用 Microsoft 团队中的团队应用提交 API 批准已提交的自定义应用。
-ms.openlocfilehash: 6efb6a6c1541b7ea7e252b132c0ea891560bbdb6
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 7168a6cf531890a8e942153cc4d214085d6bc63f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552598"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583501"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>发布通过团队应用提交 API 提交的自定义应用
 
@@ -87,6 +87,12 @@ Microsoft 团队管理中心 (中的 "<a href="https://docs.microsoft.com/micros
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>固定并安装应用以供用户发现
 
 默认情况下，用户可以使用该应用程序找到你的组织的应用商店所需的应用，然后浏览或搜索它。 若要使用户可以轻松访问应用，可以将应用固定到团队中的应用栏。 若要执行此操作，请创建应用设置策略并将其分配给用户。 若要了解详细信息，请参阅<a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies" target="_blank">管理团队中的应用设置策略</a>。
+
+### <a name="search-the-audit-log-for-teams-app-events"></a>在审核日志中搜索团队应用事件
+
+你可以搜索审核日志以查看你的组织中的团队应用活动。 若要了解有关如何搜索审核日志和查看审核日志中记录的团队活动列表的详细信息，请参阅在<a href="https://docs.microsoft.com/microsoftteams/audit-log-events" target="_blank">审核日志中搜索团队中的事件</a>。
+
+在搜索审核日志之前，必须先在<a href="https://protection.office.com" target="_blank">安全 & 合规中心</a>启用审核。 若要了解详细信息，请参阅<a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">打开或关闭审核日志搜索</a>。 请记住，审核数据仅在你打开审核的位置可用。
 
 ## <a name="discover-and-adopt"></a>探索和采纳
 

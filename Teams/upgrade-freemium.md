@@ -1,7 +1,7 @@
 ---
 title: 免费升级 Microsoft 团队订阅
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a318d59d10b90d5335c84fbbbe6e6e8ae68966d
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: c1bc33f681ce23eb98306e4bf8e375847f816e4e
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552714"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583711"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>免费升级 Microsoft 团队订阅版本
 

@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中存档或删除团队
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e17f27cdbaaca9070d87714b58906df96539e12e
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+ms.openlocfilehash: 334ecfdc387f1b3dd6d7f1312b90d81aee320df0
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372191"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582759"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中存档或删除团队
 ===========================================
@@ -48,7 +48,7 @@ ms.locfileid: "45372191"
 
     ![Teams 存档消息的屏幕截图](media/teams-archive-message.png)
 
-4. 若要防止用户编辑 SharePoint 网站和与团队关联的 "Wiki" 选项卡中的内容，请选择 **"使 sharepoint 网站对团队成员只读**"。 （团队所有者仍将能够编辑此内容。）
+4. 若要防止用户编辑 SharePoint 网站和与团队关联的 "Wiki" 选项卡中的内容，请选择 **"使 sharepoint 网站对团队成员只读**"。  (团队所有者仍然可以编辑此内容。 ) 
 5. 选择“**存档**”以存档团队。 团队的状态将更改为“**已存档**”。
 
 ## <a name="make-an-archived-team-active"></a>激活已存档的团队

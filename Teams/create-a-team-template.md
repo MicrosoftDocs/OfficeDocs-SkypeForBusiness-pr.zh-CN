@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 团队中创建团队模板
+title: 在 Microsoft 团队中创建自定义团队模板
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 了解如何在 Microsoft 团队中创建团队模板。
+description: 了解如何在 Microsoft 团队中创建自定义团队模板。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -17,16 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 28f85158662c1c9da2cd6411bc5c1f79523a4693
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: f75775e39298e10112d4a7ad230b27293b6b9d30
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506356"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583691"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft 团队中创建自定义团队模板
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**教育机构客户尚不支持自定义模板。**
 
 自定义团队模板是预定义的团队结构，可使用一组信道、选项卡和应用来帮助你快速创建正确的协作空间。 你的自定义团队模板使用你的首选设置。  
 
@@ -67,5 +69,5 @@ ms.locfileid: "46506356"
 ## <a name="related-topics"></a>相关主题
 
 - [管理中心中的团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)
-- [从现有团队创建团队](create-team-from-existing-team.md)
-- [从现有团队模板创建团队](modify-existing-team-template.md)
+- [从现有团队创建模板](create-template-from-existing-team.md)
+- [从现有团队模板创建团队模板](create-template-from-existing-template.md)

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 的云视频互操作性
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,16 +19,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c7cb1888856ff8dba910e4f4735516876a8ade2
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 08dbe4e3ad6f527545fbf691905ce5d70c5b7dbe
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905874"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581813"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
-云视频互操作（CVI）是 Microsoft 合格的第三方解决方案，支持第三方会议室（telepresence）和个人视频设备（VTCs）加入 Microsoft 团队会议。
+云视频互操作 (CVI) 是 Microsoft 合格的第三方解决方案，支持第三方会议室 (telepresence) 和个人视频设备 (VTCs) 来加入 Microsoft 团队会议。
  
 有了 Microsoft 团队，您就可以在会议中获得丰富的在线内容协作，包括音频、视频和内容共享。 通过桌面和 web 客户端，以及通过与 Microsoft 团队本身集成的许多合作伙伴设备，可以享受此操作。 但是，许多客户已经购买了视频 teleconferencing 和个人视频通信设备，这些设备的升级成本可能会很高。 云视频互操作提供了一个简单的解决方案，使你可以继续使用现有解决方案，直到准备好升级。
 
@@ -40,7 +40,7 @@ ms.locfileid: "43905874"
 
 云视频互操作适用于满足以下条件的客户：
 
-- 部署的会议室设备和个人视频设备部署（50 + 设备）的规模较大，不符合 Microsoft 团队直接集成的条件
+- 大型部署会议室设备和个人视频设备部署 (50 个以上的设备) 没有资格与 Microsoft 团队直接集成
 - 由我们的一个云视频互操作合作伙伴支持
 - 希望在迁移到本机 Microsoft 团队解决方案的过程中保留其在当前会议室设备和个人视频设备中的投资值
 
@@ -48,7 +48,7 @@ ms.locfileid: "43905874"
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365 美国政府和第三方服务
 
-Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站、Skype for Business、团队、Office 应用程序（如 Word、Excel、PowerPoint 和 Outlook）和 Outlook Web App 365 中的 Office 应用程序的功能。 此外，Office 365 支持与第三方服务提供商的集成。 这些第三方应用程序和服务可能涉及在 Office 365 基础结构之外的第三方系统上存储、传输和处理你的组织的客户数据，因此不受 Office 365 合规性和数据保护承诺的覆盖。 **建议你查看由第三方提供的隐私和合规声明，以便在评估你的组织的相应服务时使用。**
+Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站、Skype for Business、团队和 Office 应用程序中的 Microsoft 365 (应用（如 Word、Excel、PowerPoint 和 Outlook) 以及 Outlook Web App）。 此外，Office 365 支持与第三方服务提供商的集成。 这些第三方应用程序和服务可能涉及在 Office 365 基础结构之外的第三方系统上存储、传输和处理你的组织的客户数据，因此不受 Office 365 合规性和数据保护承诺的覆盖。 **建议你查看由第三方提供的隐私和合规声明，以便在评估你的组织的相应服务时使用。**
 
 
 
@@ -101,13 +101,13 @@ Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站�
 
 根据合作伙伴解决方案，有多种方法可以加入启用云视频互操作的会议。 确切的会议加入方案将由你的云视频互操作合作伙伴提供。 我们已在下面列出了一些示例：
 
-- IVR （交互式语音响应） 
+- IVR (交互式语音回复)  
   - 您可以使用 tenantkey@domain 拨入合作伙伴的 IVR。
   - 当您在合作伙伴 IVR 中时，系统将提示您输入 VTC conferenceId，然后该会将您连接到团队会议。
 - 直接拨号 
   - 您可以通过直接拨号功能使用 tenantkey 的完整字符串，直接拨入团队会议，而无需使用直接拨号功能与合作伙伴的 IVR 进行交互。VTC ConferenceId@domain。
 - 单点触控拨号 
-  - 如果您有一个集成的团队聊天室，则可以使用合作伙伴提供的一种触摸式拨号功能（无需键入任何拨号字符串）。
+  - 如果您有一个集成的团队聊天室，则可以使用合作伙伴 (提供的一种触摸式拨号功能，而无需键入任何拨号字符串) 。
 
 ## <a name="manage-cloud-video-interop"></a>管理云视频互操作
 
@@ -123,9 +123,9 @@ Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站�
 
 ## <a name="powershell-for-cloud-video-interop"></a>云视频互操作的 PowerShell
 
-你可以使用以下 PowerShell cmdlet （部分）自动执行云视频互操作部署。
+你可以使用以下 PowerShell cmdlet (部分) 自动执行云视频互操作部署。
 
-- **CsTeamsVideoInteropServicepolicy**： Microsoft 为每个受支持的合作伙伴提供预构建的策略，允许你指定要用于云视频互操作的合作伙伴。<br>此 cmdlet 允许你标识可在你的组织中使用的预构建的策略。 你可以利用 CsTeamsVideoInteropServicePolicy cmdlet 将此策略分配给一个或多个用户。
+- **CsTeamsVideoInteropServicepolicy**： Microsoft 为每个受支持的合作伙伴提供预构建的策略，以便你可以指定哪个合作伙伴 (s) 用于云视频互操作。<br>此 cmdlet 允许你标识可在你的组织中使用的预构建的策略。 你可以利用 CsTeamsVideoInteropServicePolicy cmdlet 将此策略分配给一个或多个用户。
 - **Grant-CsTeamsVideoInteropServicePolicy**：此 cmdlet 允许你分配用于组织的预构建策略或将策略分配给特定用户。
 - **CsVideoInteropServiceProvider**：使用此 cmdlet 指定有关你的组织希望使用的受支持的 CVI 合作伙伴的信息。
 - **Set-CsVideoInteropServiceProvider**：使用此 cmdlet 更新有关你的组织使用的受支持的 CVI 合作伙伴的信息。

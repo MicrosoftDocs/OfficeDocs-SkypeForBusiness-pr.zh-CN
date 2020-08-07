@@ -1,7 +1,7 @@
 ---
 title: 30个团队
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 7/1/19
 ms.service: msteams
@@ -19,17 +19,17 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6d721da9e2b5a722675c5026301435c65eac5a8
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 46e108db74324deef93b2306e1d0fda8a8c69ad3
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46522476"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584101"
 ---
 # <a name="teams-in-30"></a>30个团队
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft 很高兴邀请您加入<strong>团队</strong>，这是一系列实时、交互式的研讨会，旨在帮助中等规模的组织（500-5000 员工）在30天内与 Microsoft 团队一起开始和运行。 请加入我们，了解经过时间检验的指南和最佳做法，并获得您的团队问题的答案。 研讨会参与者还将使用团队专家接收有关开放 mic 办公时间的独占邀请。
+        <p>Microsoft 很高兴邀请您加入<strong>团队</strong>，这是一系列实时、交互式的研讨会，旨在帮助中等规模的组织 (500-5000 员工在30天内与 Microsoft 工作组) 。 请加入我们，了解经过时间检验的指南和最佳做法，并获得您的团队问题的答案。 研讨会参与者还将使用团队专家接收有关开放 mic 办公时间的独占邀请。
            <p><font color="#6264A7">准备好了吗？</font> 我们鼓励你的项目团队的所有成员从30个会议开始开始<i>使用团队</i>。 单击下面的 "会话标题" 进行注册。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "46522476"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>从30开始使用团队（从此处开始！）</h3>
+                        <h3>开始在 30 (开始使用团队！ ) </h3>
                         <P>让您的团队在右页脚的30旅程内开始。 了解应参与的计划，以及可用于确保你成功的资源。</P>
                         <p><i>受众：企业赞助商、IT 管理员、采纳和更改所有者</i></p>
                     </div>

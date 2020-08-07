@@ -1,7 +1,7 @@
 ---
 title: 管理转换到新团队管理中心的团队
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 0dc4e9a4c223422ab743e657d808f5de0f3239e7
-ms.sourcegitcommit: 863347fb6e5916d8d936adc4ddcebb2e32a91d1c
+ms.openlocfilehash: dd1a94ab587b21fce5a455300826632ffd508042
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45228888"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581533"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams
 ======================================================
@@ -44,7 +44,7 @@ ms.locfileid: "45228888"
 
 下表标识了已迁移的团队体验部分，并显示了当前设置与新管理门户中的策略之间的关系。
 
-|Microsoft 365 管理中心中的团队部分  |设置名称（租户级别）  |Microsoft 团队管理员中心策略   |级别：租户或用户   |
+|Microsoft 365 管理中心中的团队部分  | (租户级别) 的设置名称  |Microsoft 团队管理员中心策略   |级别：租户或用户   |
 |---------|---------|---------|---------|
 |常规     |在个人资料中显示组织结构图        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  租户       |
 |常规     |对没有团队的收件人使用 Skype for Business         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
@@ -52,12 +52,12 @@ ms.locfileid: "45228888"
 |电子邮件集成     |允许发件人列表         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |租户         |
 |自定义云存储     |箱         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |自定义云存储     |Dropbox        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
-|自定义云存储     |Egnyte （即将推出）        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
+|自定义云存储     |Egnyte (即将推出)         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |自定义云存储     |Google Drive        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |自定义云存储     |ShareFile        |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |租户         |
 |按用户/许可证类型设置     |为所有用户打开或关闭 Microsoft 团队          |已弃用<sup>1</sup>        |         |
-|团队和频道     |         |重定向到 Azure Active Directory 组管理（与当前体验相同）。              |用户         |
-|团队和频道     |         |重定向到 AAD 组管理（与当前体验相同）。             |用户          |
+|团队和频道     |         |重定向到 Azure Active Directory 组管理 (与当前体验) 相同。              |用户         |
+|团队和频道     |         |重定向到 AAD 组管理 (与当前体验) 相同。             |用户          |
 |应用|默认启用新的外部应用|组织范围内的应用设置|租户|
 |应用|允许外部应用|组织范围内的应用设置|租户|
 |应用|允许旁加载外部应用<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|用户|
@@ -96,7 +96,7 @@ ms.locfileid: "45228888"
 
 下表显示了在迁移期间可以管理功能的位置。
 
-|功能  |Microsoft 团队管理中心                      |Skype for business 管理中心（旧版）  |Microsoft 365 管理中心  |
+|功能  |Microsoft 团队管理中心                      |Skype for Business 管理中心 (传统)   |Microsoft 365 管理中心  |
 |---------|:---------:|:---------:|:---------:|
 |团队消息、会议和实时事件策略     |     X    |         |         |
 |团队升级策略     |    X     |         |         |

@@ -1,7 +1,7 @@
 ---
-title: 在通话质量仪表板（CQD）中上载租户和生成数据
-ms.author: lolaj
-author: LolaJacobsen
+title: '在通话质量仪表板中上载租户和构建数据 (CQD) '
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,24 +20,24 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 了解如何在通话质量仪表板（CQD）中上载租户和生成数据。
-ms.openlocfilehash: d8a27ab45a01d1b0eccc28716bee9fa838fb8de5
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: 了解如何在通话质量仪表板中上载租户和构建数据 (CQD) 。
+ms.openlocfilehash: 86ff0cba51b5c1cb291f7b885cf5baadf9744d4a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086011"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584061"
 ---
-# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>在通话质量仪表板（CQD）中上载租户和生成数据
+# <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>在通话质量仪表板中上载租户和构建数据 (CQD) 
 
 
-若要充分利用通话质量仪表板（CQD），我们建议你上载租户并生成数据。 有2种类型的租户数据文件，[生成](#upload-building-data-file)和[终结点](#endpoint-data-file)。
+若要充分利用通话质量仪表板 (CQD) ，建议你上载租户并生成数据。 有2种类型的租户数据文件，[生成](#upload-building-data-file)和[终结点](#endpoint-data-file)。
 
 你可以[在此处](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)下载示例租户数据模板。 有关生成映射的帮助，请参阅为[CQD 创建构建地图](CQD-building-mapping.md)。
 
-从 "CQD 摘要报告" 仪表板中，从 "CQD**设置**" 菜单（位于 CQD 顶部的齿轮图标）中选择 "**租户数据上传**"。 在此，管理员可以上载其组织的建筑物和终结点信息，例如 IP 地址和地理信息的映射、映射每个无线访问点及其 MAC 地址等。
+在 "CQD 摘要报告" 仪表板中，从 "CQD**设置**" 菜单中选择 "**租户数据上传**"， (位于 CQD ") 顶部的齿轮图标。 在此，管理员可以上载其组织的建筑物和终结点信息，例如 IP 地址和地理信息的映射、映射每个无线访问点及其 MAC 地址等。
 
-1. 打开 CQD （从团队管理中心或 at [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) ），然后选择右上角的齿轮图标，然后从 "**摘要报告**" 页面中选择 "**租户数据上传**"。
+1. 从团队管理中心打开 CQD (，或在) 中 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) ，选择右上角的齿轮图标，然后从 "**摘要报告**" 页面中选择 "**租户数据上传**"。
 
    ![在上载数据时出现的对话框的屏幕截图](media/qerguide-image-tenantdataupload.png)
     
@@ -63,11 +63,11 @@ ms.locfileid: "45086011"
 
 CQD 中的第一种类型的租户数据文件是**生成**数据文件。 通过展开 "网络 + NetworkRange" 列，然后将 "子网" 列联接到呼叫记录的第一个子网或 "第二个子网" 列中，显示建筑物、城市、国家或地区信息，从而派生出子网列。 你上载的数据文件的格式必须满足以下条件才能在上载之前通过验证检查：
   
-- 文件必须是 tsv 文件（由制表符分隔列）或 .csv 文件（列由逗号分隔）。
+- 文件必须是 tsv 文件 (列由选项卡) 或 .csv 文件分隔， (列之间用) 逗号分隔。
 - 数据文件不包含表格标题行。 数据文件的第一行应为真实数据，而不是标题标签（如 "Network"）。
 - 文件中的数据类型只能是 String、Integer 或 Boolean。 对于整数数据类型，值必须是一个数值。 布尔值必须是0或1。
 - 如果列使用字符串数据类型，则数据字段可以为空，但仍须由制表符或逗号分隔。 空数据字段只是分配一个空字符串值。
-- 每一行必须有14列，每一列必须具有相应的数据类型，并且列必须遵循下表中列出的顺序（逗号或制表符分隔）：
+- 每一行必须有14列，每一列必须具有相应的数据类型，并且列必须按下表中列出的顺序 (逗号或制表符分隔) ：
 
 **构建数据文件格式**
 
@@ -100,14 +100,14 @@ CQD 中的第一种类型的租户数据文件是**生成**数据文件。 通�
 `192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
-> 网络范围可用于表示 supernet （具有单个路由前缀的若干子网的组合）。 将检查所有新的生成上载，查找任何重叠区域。 如果你以前上载了一个生成文件，则应下载当前文件，然后重新上载它以标识任何重叠，并在再次上载之前修复该问题。 以前上载的文件中的任何重叠都可能会导致向报表中的建筑物进行错误的子网映射。 某些 VPN 实现不能准确报告子网信息。 建议将 VPN 子网添加到生成文件，而不是子网的一个条目时，将 VPN 子网中每个地址的单独条目添加为单独的32位网络。 每一行可以有相同的建筑物元数据。 例如，对于 172.16.18.0/24，而不是一行，您应该有256行，每个地址对应于 172.16.18.0/32 和 172.16.18.255/32 之间（包括这两个地址）的一行。
+> 网络范围可用于表示具有单个路由前缀) 的多个子网的 supernet (组合。 将检查所有新的生成上载，查找任何重叠区域。 如果你以前上载了一个生成文件，则应下载当前文件，然后重新上载它以标识任何重叠，并在再次上载之前修复该问题。 以前上载的文件中的任何重叠都可能会导致向报表中的建筑物进行错误的子网映射。 某些 VPN 实现不能准确报告子网信息。 建议将 VPN 子网添加到生成文件，而不是子网的一个条目时，将 VPN 子网中每个地址的单独条目添加为单独的32位网络。 每一行可以有相同的建筑物元数据。 例如，对于 172.16.18.0/24，而不是一行，您应该有256行，每个地址对应于 172.16.18.0/32 和 172.16.18.255/32 之间（包括这两个地址）的一行。
 >
 > "VPN" 列是可选的，默认值为0。 如果 VPN 列的值设置为1，则该行表示的子网将完全展开，以匹配子网内的所有 IP 地址。  请谨慎使用，并且仅针对 VPN 子网，因为完全展开这些子网将对涉及生成数据的查询的查询时间产生负面影响。
 
 
 ### <a name="supernetting"></a>Supernetting
 
-你可以使用 supernetting （通常称为无类别的域间路由（CIDR））来代替定义每个子网。 *Supernet*是共享单个路由前缀的若干子网的组合。 你可以使用 supernetted 地址，而不是为每个子网添加条目。 支持 Supernetting，但我们不建议使用它。
+你可以使用 supernetting，通常称为无类别的域间路由 (CIDR，) 代替定义每个子网。 *Supernet*是共享单个路由前缀的若干子网的组合。 你可以使用 supernetted 地址，而不是为每个子网添加条目。 支持 Supernetting，但我们不建议使用它。
 
 例如，Contoso 的市场营销大楼由以下子网组成：
 
@@ -125,7 +125,7 @@ CQD 中的第一种类型的租户数据文件是**生成**数据文件。 通�
 
 -   Supernetting 只能在具有8位到28位掩码的子网映射中使用。
 
--   Supernetting 花费的时间更少，但它以减少数据丰富的成本为代价。 假设存在涉及子网10.1.2.0 的质量问题。 如果你已实现 supernetting，你将不知道子网所在的位置或网络的类型（例如，实验）。 如果您已为建筑物和上传的地板位置信息定义了所有子网，您将能够看到这种区别。
+-   Supernetting 花费的时间更少，但它以减少数据丰富的成本为代价。 假设存在涉及子网10.1.2.0 的质量问题。 如果你已实现 supernetting，则不会知道子网所在位置或 (的网络类型（例如，实验室) ）。 如果您已为建筑物和上传的地板位置信息定义了所有子网，您将能够看到这种区别。
 
 -   请务必确保 supernetted 地址正确，并且不会捕获不需要的子网。
 
@@ -136,7 +136,7 @@ CQD 中的第一种类型的租户数据文件是**生成**数据文件。 通�
 
 ### <a name="vpn"></a>VPN
 
-客户端发送给 Microsoft 365 或 Office 365 （CQD 数据来源）的体验质量（QoE）数据，包括 VPN 标志。 CQD 将看到这是第一个 VPN 和第二个 VPN 维度。 但是，此标志依赖于 VPN 供应商向 Windows 报告，VPN 网络适配器已注册为远程访问适配器。 并非所有 VPN 供应商都正确注册远程访问适配器。 因此，你可能无法使用内置的 VPN 查询筛选器。 可通过两种方法在构建信息文件中容纳 VPN 子网：
+ (QoE) 客户端发送到 Microsoft 365 或 Office 365 （CQD 数据来源）的体验的质量，包括 VPN 标志。 CQD 将看到这是第一个 VPN 和第二个 VPN 维度。 但是，此标志依赖于 VPN 供应商向 Windows 报告，VPN 网络适配器已注册为远程访问适配器。 并非所有 VPN 供应商都正确注册远程访问适配器。 因此，你可能无法使用内置的 VPN 查询筛选器。 可通过两种方法在构建信息文件中容纳 VPN 子网：
 
 - 通过在此字段中输入 VPN 子网的 "VPN" 来定义**网络名称**。
 
@@ -158,7 +158,7 @@ CQD 中的第一种类型的租户数据文件是**生成**数据文件。 通�
 
 另一种类型的 CQD 租户数据文件是**终结点**数据文件。 在调用记录的第一个客户端终结点名称列或第二个客户端终结点名称列中使用列值来显示终结点的 "创建"、"模型" 或 "类型" 信息。 你上载的数据文件的格式必须满足以下条件才能在上载之前通过验证检查：
 
-- 文件必须是 tsv 文件（由制表符分隔列）或 .csv 文件（列由逗号分隔）。
+- 文件必须是 tsv 文件 (列由选项卡) 或 .csv 文件分隔， (列之间用) 逗号分隔。
 - 数据文件的内容不包含表格标题。 数据文件的第一行应为真实数据，而不是标题标签（如 "终结点"）。
 - 所有六列仅使用字符串数据类型。 允许的最大长度为64个字符。
 - 数据字段可以为空，但仍须由制表符或逗号分隔。 空数据字段只是分配一个空字符串值。
@@ -219,7 +219,7 @@ CQD 中的第一种类型的租户数据文件是**生成**数据文件。 通�
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[设置通话质量仪表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+[设置通话质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
 [CQD 数据和报告](CQD-data-and-reports.md)
 

@@ -1,7 +1,7 @@
 ---
 title: 管理 Microsoft 团队管理中心中的团队
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ffc71de13948be077c14699e98fca726bced3eb
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: b3c963e88d33928add9c7f5c611f44919250b847
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44638491"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583149"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>管理 Microsoft 团队管理中心中的团队
 ==========================================
@@ -44,7 +44,7 @@ ms.locfileid: "44638491"
 
 ## <a name="teams-overview-grid"></a>团队概述网格
 
-团队的管理工具位于 Microsoft 团队管理中心的 "**团队**" 节点下。 （在管理中心中，选择 "**团队**  >  "**管理团队**。）每个团队由 Microsoft 365 组支持，并且此节点提供已在你的组织中启用了 Microsoft 团队的组的视图。
+团队的管理工具位于 Microsoft 团队管理中心的 "**团队**" 节点下。  (在管理中心中，选择 "**团队**  >  **管理团队**"。 ) 每个团队由 Microsoft 365 组支持，并且此节点提供了在你的组织中已启用 Microsoft 团队的组的视图。
 
 !["团队概述" 网格的屏幕截图](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -58,7 +58,7 @@ ms.locfileid: "44638491"
 - **隐私**-支持的 Microsoft 365 组的可见性/AccessType。
 - **状态**-此团队的已存档或活动状态。 了解有关存档[或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)中的存档团队的详细信息。
 - **说明**-支持的 Microsoft 365 组的说明。
-- **分类**-分配给支持 Microsoft 365 组的分类（如果在您的组织中使用）。 了解有关分类的详细信息，请参阅[为组织中的 Office 组创建分类](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)。
+- **分类**-分类 (如果您的组织中使用) 分配给支持的 Microsoft 365 组。 了解有关分类的详细信息，请参阅[为组织中的 Office 组创建分类](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)。
 - **GroupID** -支持 Microsoft 365 组的独特的 GroupID。
 
 > [!NOTE]
@@ -86,10 +86,10 @@ ms.locfileid: "44638491"
 
 ## <a name="team-profile"></a>团队档案
 
-通过单击团队名称，可以从 "主团队概述" 网格导航到任何团队的团队配置文件页面。 "团队配置文件" 页面显示属于团队的成员、所有者和来宾（及其支持的 Microsoft 365 组）以及团队的频道和设置。 从 "团队个人资料" 页面，您可以：
+通过单击团队名称，可以从 "主团队概述" 网格导航到任何团队的团队配置文件页面。 "团队配置文件" 页面显示属于团队的成员、所有者和来宾 (及其支持的 Microsoft 365 组) 以及团队的频道和设置。 从 "团队个人资料" 页面，您可以：
 
 - 添加或删除成员和所有者。
-- 添加或删除频道（请注意，您不能删除 "常规频道"）。
+- 添加或删除频道 (请注意，您不能删除 "常规频道) "。
 - 更改团队和组设置。
  
 ![示例团队档案的屏幕截图](media/manage-teams-in-modern-portal-team-profile-page.png)
@@ -107,7 +107,7 @@ ms.locfileid: "44638491"
 - **对话设置**-设置成员是否可以编辑和删除已发送的邮件。
 - **频道设置**-设置成员是否可以创建新频道和编辑现有频道，以及添加、编辑和删除选项卡、连接器和应用。
 
-将记录对团队所做的更改。 如果你要修改组设置（更改名称、说明、照片、隐私、分类或团队成员），则通过审核管道对这些更改进行了设置。 如果你正在针对特定于团队的设置执行操作，你的更改将在团队的常规频道中进行跟踪和设置。
+将记录对团队所做的更改。 如果你正在修改组设置 (更改名称、说明、照片、隐私、分类或团队成员) ，这些更改将通过审核管道与你相关。 如果你正在针对特定于团队的设置执行操作，你的更改将在团队的常规频道中进行跟踪和设置。
 
 ## <a name="troubleshooting"></a>故障排除
 
@@ -115,7 +115,7 @@ ms.locfileid: "44638491"
 
 团队概述网格中的团队列表中缺少某些团队。
 
-**原因**：当团队不正确（或尚未）被系统分析时，将出现此问题，这可能会导致它无法识别某个缺少的属性。
+**原因**：当团队错误地 (或尚未) 系统所描述的问题时，将出现此问题，这可能会导致 it 无法识别缺失的属性。
 
 **解决方案：通过 MS Graph 手动将属性设置为正确的值**
 

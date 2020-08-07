@@ -1,6 +1,6 @@
 ---
 title: Office 365 政府版-GCC 部署
-author: lolajacobsen
+author: SerdarSoysal
 ms.author: heidip
 manager: serdars
 ms.topic: article
@@ -20,19 +20,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b93762c92d9681074124ba8ddb3fd066bdf8a60a
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 2fb916b30a26694debf8d699fc05cc3fcc8c8c77
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665224"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581243"
 ---
 # <a name="plan-for-office-365-government---gcc-deployments"></a>规划 Office 365 政府版-GCC 部署
 
 本指南适用于在美国联邦、州、当地、tribal 或 territorial 政府实体或其他处理受政府管理法规要求的数据（其中，Office 365 政府-GCC 适用于满足这些要求）的 IT 专业365人员。 2020年3月26日，：不要错过我们可下载[的适用于 GCC 的快速入门指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true)。
 
 > [!IMPORTANT]
-> 由于 coronavirus （COVID-19） pandemic，Microsoft 团队在在线通话和音频/视频会议方面遇到了极大的高峰。<br/>
+> 由于 coronavirus (COVID-19) pandemic，Microsoft 团队在网上通话和音频/视频会议方面遇到了巨大的高峰。<br/>
 > 
 >为响应更空前的通话增加，并确保连续性和可用性，Microsoft 允许 Microsoft 团队拥有的音频/视频服务器利用我们的商业数据中心中的处理能力和我们的政府数据中心。<br/>
 > 
@@ -48,7 +48,7 @@ ms.locfileid: "44665224"
 
 ## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-and-meets-eligibility-requirements"></a>第 1 步 确定你的组织是否需要 Office 365 政府-GCC 并满足资格要求。 
 
-Office 365 政府版-GCC 环境为云服务（包括 FedRAMP 中等）和针对犯罪分子和联邦税务信息系统（CJI 和 FTI 数据类型）的要求遵守美国政府的要求。
+Office 365 政府版-GCC 环境为云服务（包括 FedRAMP 中等）和联邦税务信息系统的美国政府要求提供合规性， (CJI 和 FTI 数据类型) 。
 
 除了享受 Office 365 的功能和功能之外，组织还受益于 Office 365 政府-GCC 所特有的以下功能：
 

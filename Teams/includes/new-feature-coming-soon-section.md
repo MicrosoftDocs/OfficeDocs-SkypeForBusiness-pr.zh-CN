@@ -1,1 +1,1 @@
-此功能尚未发布。 已宣布，即将推出。如果您是管理员，则可以在邮件中心（在[Microsoft 365 管理中心](https://portal.office.com/adminportal/home)）中找到此功能的发布时间。
+此功能尚未发布。 已宣布，即将推出。如果您是管理员，则可以在 ([Microsoft 365 管理中心](https://portal.office.com/adminportal/home)") 中的" 邮件中心 "中看到此功能的发布时间。

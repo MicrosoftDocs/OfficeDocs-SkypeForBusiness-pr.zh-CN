@@ -1,13 +1,13 @@
 ---
-title: 在 Microsoft 团队客户端中实施服务质量（QoS）
-author: lolajacobsen
-ms.author: lolaj
+title: '在 Microsoft 团队客户端中实施服务质量 (QoS) '
+author: SerdarSoysal
+ms.author: serdars
 manager: Serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: 了解如何使用服务质量（QoS）优化 Microsoft 团队桌面客户端的网络流量。
+description: 了解如何使用服务质量 (QoS) 优化 Microsoft 团队桌面客户端的网络流量。
 ms.custom: seo-marvel-mar2020
 localization_priority: Normal
 search.appverid: MET150
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80b9257abbbb873b30367f9d430e9a8d155cda09
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 77f1754277cfeacd31de28dcee089a8f97991c87
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085528"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583681"
 ---
-# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>在 Microsoft 团队客户端中实施服务质量（QoS）
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>在 Microsoft 团队客户端中实施服务质量 (QoS) 
 
-你可以在组策略中使用基于策略的服务质量（QoS）来设置团队客户端中预定义 DSCP 值的源端口范围。 下表中指定的端口范围是为每个工作负荷创建策略的起始点。
+你可以使用组策略中的基于策略的服务质量 (QoS) 设置团队客户端中预定义 DSCP 值的源端口范围。 下表中指定的端口范围是为每个工作负荷创建策略的起始点。
 
 *表1。推荐的初始端口范围*
 
@@ -39,7 +39,7 @@ ms.locfileid: "45085528"
 
 只要有可能，就会在组策略对象中配置基于策略的 QoS 设置。 以下步骤与[在 Skype for Business 服务器上配置客户端的端口范围和服务质量策略](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)非常相似，这种情况下可能不需要其他一些详细信息。
 
-若要为加入域的 Windows 10 计算机创建 QoS 音频策略，请首先登录到已安装了组策略管理的计算机。 打开组策略管理（单击 "开始"，指向 "管理工具"，然后单击 "组策略管理"），然后完成以下步骤：
+若要为加入域的 Windows 10 计算机创建 QoS 音频策略，请首先登录到已安装了组策略管理的计算机。 打开组策略管理 (单击 "开始"，指向 "管理工具"，然后单击 "组策略管理) "，然后完成以下步骤：
 
 1. 在 "组策略管理" 中，找到应在其中创建新策略的容器。 例如，如果所有客户端计算机都位于一个名为 "**客户端**" 的 OU 中，则应在客户端 OU 中创建新策略。
 
@@ -55,9 +55,9 @@ ms.locfileid: "45085528"
 
 1. 在下一页上，选择 "**仅限具有此可执行名称的应用程序**" 并输入**Teams.exe**的名称，然后单击 "**下一步**"。 此设置指示策略仅优先考虑团队客户端的匹配流量。
 
-1. 在第三页上，确保选中了 "**任何来源 ip 地址**" 和 "**任何目标 ip 地址**"，然后单击 "**下一步**"。 这两个设置确保数据包将被管理，无论哪台计算机（IP 地址）发送数据包以及哪台计算机（IP 地址）将接收这些数据包。
+1. 在第三页上，确保选中了 "**任何来源 ip 地址**" 和 "**任何目标 ip 地址**"，然后单击 "**下一步**"。 这两个设置确保数据包将被管理，无论哪台计算机 (IP 地址) 发送数据包以及哪台计算机 (IP 地址) 将接收这些数据包。
 
-1. 在第4页上，从 "**选择此 QoS 策略应用**于的协议" 下拉列表中选择 " **TCP 和 UDP** "。 TCP （传输控制协议）和 UDP （用户数据报协议）是最常使用的两种网络协议。
+1. 在第4页上，从 "**选择此 QoS 策略应用**于的协议" 下拉列表中选择 " **TCP 和 UDP** "。 TCP (传输控制协议) 和 UDP (用户数据报协议) 是最常使用的两种网络协议。
 
 1. 在 "标题" 下，**指定源端口号**，选择 "**从此源端口或范围**"。 在 "随附文本" 框中，键入为音频传输保留的端口范围。 例如，如果您通过端口50019为音频流量保留了端口50000，请使用以下格式输入端口范围： **50000:50019**。 单击“**完成**”。
 
@@ -65,7 +65,7 @@ ms.locfileid: "45085528"
 
 在客户端计算机上刷新组策略之前，你创建的新策略不会生效。 虽然组策略定期定期刷新，但你可以通过执行以下步骤强制立即刷新：
 
-1. 在要刷新组策略的每台计算机上，以管理员身份打开命令提示符（以*管理员身份运行*）。
+1. 在要刷新组策略的每台计算机上，以管理员身份打开命令提示符， (以*管理员身份运行*) 。
 
 1. 在命令提示符处，输入
 
@@ -77,7 +77,7 @@ ms.locfileid: "45085528"
 
 若要验证是否已设置组策略对象中的值，请执行以下步骤：
 
-1. 以管理员身份打开命令提示符（以*管理员身份运行*）。
+1. 以管理员身份打开命令提示符， (以*管理员身份运行*) 。
 
 1. 在命令提示符处，输入
 
@@ -122,4 +122,4 @@ ms.locfileid: "45085528"
 
 ## <a name="related-topics"></a>相关主题
 
-[在团队中实施服务质量（QoS）](QoS-in-Teams.md)
+[在团队中实施服务质量 (QoS) ](QoS-in-Teams.md)

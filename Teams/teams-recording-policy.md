@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48cc430ea864614a306725958b56dda934e00eef
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a63aee051467d07a5eef9063538d740b07e6eadf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121642"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584081"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Callings & 会议的基于团队政策的录制简介
 
@@ -36,11 +36,11 @@ ms.locfileid: "45121642"
 
 - 跨设备的无缝、高质量媒体捕获和音频、视频、屏幕共享和聊天的所有受支持的终结点。
 
-- 支持团队用户与支持的呼叫终结点之间的交互捕获（团队、团队 Mobile、Skype for business、PSTN）
+- 支持团队用户和支持的呼叫终结点之间的交互捕获 (团队、团队移动、Skype for business、PSTN) 
 
 - 针对合规性录制的新管理策略，包括与现有团队的集成管理呼叫和会议工具和策略
 
-- 为具有单独许可证的团队用户启用
+- 需要[高级通信许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 合规性录制解决方案集成功能还在[<span class="underline">合规性录制和 Microsoft 团队会话</span>](https://myignite.techcommunity.microsoft.com/sessions/83184?source=sessions)的 Ignite 2019 中查看。
 
@@ -54,12 +54,12 @@ ms.locfileid: "45121642"
 
 |                        | 参考        | 功能         | 组织-常规      | 组织级管控 | 合法截距   |
 | ---------------------- | ------------------ | ------------------ | ------------------ | --------------- | ------------------ |
-| 启动              | 用户               | 应用/解决方案       | 管理员（系统）     | 管理员（系统）  | LEA                |
+| 启动              | 用户               | 应用/解决方案       | 管理员 (系统)      | 管理员 (系统)   | LEA                |
 | 目标                 | 每次通话/会议 | 每次通话/会议 | 每次通话/会议 | 每用户        | 每个终结点/已完成 |
-| 存储所有者          | 用户               | 应用                | Iis              | 符合      | LEA                |
-| 需要通知？ | 必需                | 是                 | 是                 | 是             | 否                 |
-| 访问所有者           | 用户               | 应用                | Iis              | 符合      | LEA                |
-| 保留策略？      | 可选           | 必需                | 是                 | 是              | 是                |
+| 存储所有者          | 用户               | 应用                | Iis              | 合规性      | LEA                |
+| 需要通知？ | 是                | 是                | 是                | 是             | 否                 |
+| 访问所有者           | 用户               | 应用                | Iis              | 合规性      | LEA                |
+| 保留策略？      | 可选           | 是                | 是                | 是             | 是                |
 
 团队提供各种功能，用于会议和实时事件的[<span class="underline">便利</span>](https://docs.microsoft.com/microsoftteams/cloud-recording)和功能录制。 组织录制意味着，当应根据相关的公司或规章策略的要求自动记录和捕获在后续处理和保留期间进行的呼叫和会议时，通过管理策略将使用团队进行呼叫和会议的组织 stipulate。 此策略下的用户将知道他们正在录制与团队的数字交互，但不能禁用录制，并且在交互完成后将无法访问录制。 在电子数据展示、法律封存和其他公司保留使用中，该记录将成为组织存档的一部分，以供合规性和法律人员使用。
 
@@ -114,7 +114,7 @@ ms.locfileid: "45121642"
 ## <a name="recorder"></a>盘
 
 合规性录制解决方案的核心组件是录像机。
-录音机构建为[<span class="underline">利用 microsoft 的通信平台</span>](https://docs.microsoft.com/graph/cloud-communications-concept-overview)的可伸缩基于 Azure 的服务（bot），并使用 microsoft Graph 注册为应用程序。 记录器提供与团队通话和会议[<span class="underline">通信平台 api</span>](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的直接交互，并提供媒体接收的终结点。
+录音机是以可伸缩的基于 Azure 的服务构建的， (机器人) [<span class="underline">利用 microsoft 的通信平台</span>](https://docs.microsoft.com/graph/cloud-communications-concept-overview)，并使用 microsoft Graph 注册为应用程序。 记录器提供与团队通话和会议[<span class="underline">通信平台 api</span>](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的直接交互，并提供媒体接收的终结点。
 
 提供了一个[<span class="underline">示例合规性记录器应用程序，该应用程序</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot)显示如何配置 bot、创建应用实例并分配合规性策略。 该示例还包含用于录制特定交互（如处理[<span class="underline">传入呼叫</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)   路由、[<span class="underline">更改录制状态</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)和[<span class="underline">删除正在录制的用户</span>](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)）的 API 用法的示例。
 有关[<span class="underline">updateRecordingStatus</span>](https://docs.microsoft.com/graph/api/call-updaterecordingstatus?view=graph-rest-1.0&tabs=http)和[<span class="underline">incomingContext</span>](https://docs.microsoft.com/graph/api/resources/incomingcontext?view=graph-rest-1.0)，可在此处找到有关特定 api 的图形文档。
@@ -194,7 +194,7 @@ IT 管理员可以通过创建和分配合规性录制策略来确定要录制�
 
 **团队客户端-视觉通知**
 - 桌面/web
-- 手机（iOS/Android）
+- Mobile (iOS/Android) 
 - 团队手机
 - 团队聊天室
 

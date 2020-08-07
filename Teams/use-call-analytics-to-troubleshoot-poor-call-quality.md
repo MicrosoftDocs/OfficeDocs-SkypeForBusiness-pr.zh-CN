@@ -1,7 +1,7 @@
 ---
 title: 使用呼叫分析解决较差的通话质量
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用有关设备、网络和连接的每用户呼叫分析详细信息，解决与 Microsoft 团队通话和会议有关的用户问题。
-ms.openlocfilehash: fa923a133ac6a56edcbc6f6445d2859692adf351
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 8bee41e79f2610adcb9a1fed3f895c728526f5ea
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085318"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583621"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用呼叫分析解决较差的通话质量
 
@@ -41,7 +41,7 @@ ms.locfileid: "45085318"
 
 ## <a name="introduction-to-call-analytics"></a>通话分析简介
 
-通话分析显示有关团队使用 Office 365 帐户中的每个用户的呼叫和会议的详细信息。 其中包括有关设备、网络、连接和通话质量的信息（这些信息可能是较差通话或会议质量的一个因素）。 如果你上载建筑物、网站和租户信息，还将为每个呼叫和会议显示此信息。 使用呼叫分析可帮助你了解为什么用户通话或会议体验不佳的原因。
+通话分析显示有关团队使用 Office 365 帐户中的每个用户的呼叫和会议的详细信息。 其中包括有关设备、网络、连接和通话质量的信息 (其中任何一项都可能是较差的通话或会议质量) 因素。 如果你上载建筑物、网站和租户信息，还将为每个呼叫和会议显示此信息。 使用呼叫分析可帮助你了解为什么用户通话或会议体验不佳的原因。
 
 "呼叫分析" 显示通话或会议的每个腿，例如，从一个参与者到第二个参与者。 通过分析这些详细信息，团队管理员可以隔离问题区域并确定质量较差的根本原因。
    
@@ -59,9 +59,9 @@ ms.locfileid: "45085318"
   
 ## <a name="what-does-each-teams-support-role-do"></a>每个团队支持什么角色？
 
-**团队通信支持专家**（第1层支持）处理基本的通话质量问题。 他们不会调查会议问题。 而是收集相关信息，然后升级到通信支持工程师。 
+**团队通信支持专家** (第1层支持) 处理基本的通话质量问题。 他们不会调查会议问题。 而是收集相关信息，然后升级到通信支持工程师。 
 
-**团队通信支持工程师**（第2层支持）查看团队通信支持专家隐藏的详细呼叫日志中的信息。 下表列出了每个团队通信支持角色可用的信息。
+**团队通信支持工程师** (第2层支持) 可查看来自团队通信支持专家隐藏的详细呼叫日志中的信息。 下表列出了每个团队通信支持角色可用的信息。
 
 下表告诉你每个用户的信息对每个通信支持角色可用。
 
@@ -80,7 +80,7 @@ ms.locfileid: "45085318"
   
 ## <a name="troubleshoot-user-call-quality-problems"></a>解决用户呼叫质量问题 
 
-1. 打开团队管理中心（ https://admin.teams.microsoft.com) 并通过团队通信支持或团队管理员凭据登录。
+1. 打开 "团队管理中心" (https://admin.teams.microsoft.com) 并通过团队通信支持或团队管理员凭据登录。
 
 2. 在**仪表板**上的 "**用户搜索**" 中，开始键入要对其进行故障排除的用户的名称或 SIP 地址，或选择 "**查看用户**" 以查看用户列表。
 
@@ -94,12 +94,12 @@ ms.locfileid: "45085318"
       
 在极少数情况下，音频会话的体验数据质量未收到。 这通常是由于断开的呼叫或与客户端的连接终止所致。 出现这种情况时，**无法使用**"会话分级"。
   
-对于具有体验质量（QoE）数据的音频会话，下表介绍了将会话限定为**差**的主要问题。
+对于具有经验 (QoE) 数据的音频会话，下表介绍了将会话限定为**差**的主要问题。
   
 |**问题**|**区域**|**说明**|
 |:-----|:-----|:-----|
 |呼叫设置  <br/> |Session  <br/> |错误代码 Ms-诊断20-29 指示呼叫设置失败。 用户无法加入呼叫或会议。  <br/> |
-|音频网络分类差通话  <br/> |Session  <br/> |遇到网络质量问题（如数据包丢失、抖动、NMOS 下降、RTT 或隐藏比率）。  <br/> |
+|音频网络分类差通话  <br/> |Session  <br/> |遇到 (的网络质量问题，例如数据包丢失、抖动、NMOS 下降、RTT 或隐藏比率) 。  <br/> |
 |设备不起作用  <br/> |Device  <br/> | 设备不能正常工作。 设备的运行比率为： <br/>  DeviceRenderNotFunctioningEventRatio >= 0.005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0.005 <br/> |
    
 

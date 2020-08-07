@@ -1,7 +1,7 @@
 ---
-title: 通话质量仪表板（CQD）中的数据和报表
-ms.author: lolaj
-author: LolaJacobsen
+title: '通话质量仪表板中的数据和报表 (CQD) '
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -21,17 +21,17 @@ ms.custom:
 - Reporting
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 了解 Microsoft 通话质量仪表板（CQD）中提供的数据和报表。
-ms.openlocfilehash: 2801b8b2a35ae06c4bb42479bac64985b13ea93f
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+description: 了解 Microsoft 通话质量仪表板 (CQD) 中提供的数据和报告。
+ms.openlocfilehash: ec9714e0eae187bc82edf01809b50d8512d04e01
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372161"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583089"
 ---
-# <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通话质量仪表板（CQD）中的数据和报表
+# <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通话质量仪表板中的数据和报表 (CQD) 
 
-Microsoft 通话质量仪表板（CQD）使用近乎实时（NRT）的数据馈送。 通话记录在通话结束后的30分钟内 CQD 可用。 从 NRT 管道中调用记录仅在从数据集内删除几个月后才可用。 
+Microsoft 通话质量仪表板 (CQD) 使用近实时 (NRT) 数据馈送。 通话记录在通话结束后的30分钟内 CQD 可用。 从 NRT 管道中调用记录仅在从数据集内删除几个月后才可用。 
 
 
 ## <a name="many-ways-to-access-cqd-data"></a>访问 CQD 数据的多种方法
@@ -40,16 +40,16 @@ Microsoft 通话质量仪表板（CQD）使用近乎实时（NRT）的数据馈�
 
 |  |  |
 |---------|---------|
-|团队管理中心[（ https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 数据包含在团队管理中心的 "**用户**" 页面上，以易于阅读的格式显示所需的最常见数据。 您不能自定义在 "**用户**" 下找到的 CQD 数据。  |
-|CQD portal [（ https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | 具有钻取筛选功能的强大摘要和详细报表，可满足大多数需求。 你还可以在 CQD 门户中自定义报表。 <br><br>获取两个[CQD 报表模板](#import-the-cqd-report-templates)以帮助你分析 CQD 门户中的数据。       |
+|团队管理中心[ (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 数据包含在团队管理中心的 "**用户**" 页面上，以易于阅读的格式显示所需的最常见数据。 您不能自定义在 "**用户**" 下找到的 CQD 数据。  |
+|CQD 门户[ (https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | 具有钻取筛选功能的强大摘要和详细报表，可满足大多数需求。 你还可以在 CQD 门户中自定义报表。 <br><br>获取两个[CQD 报表模板](#import-the-cqd-report-templates)以帮助你分析 CQD 门户中的数据。       |
 |Power BI     | 使用直接查询在 Power BI 中使用[可自定义的 POWER bi 模板](CQD-Power-BI-query-templates.md)查看你的 CQD 数据。 [下载 CQD 的 POWER BI 查询模板](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>你还可以[使用 REST API 通过 POWER BI 访问 CQD 数据](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/data-api)。 如果想要下载 CQD 数据以便可以脱机处理它，请使用此方法。 使用此方法的好处是提高了性能，当您在线时，在 Power BI 中 bog 的大型数据集尤其有用。       |
 |Graph API     | 使用[图形 API](https://docs.microsoft.com/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)访问呼叫质量数据。 这是最复杂的方法，但它为你提供了分析通话质量数据的最大控制和灵活性。 例如，如果你需要将其与你的组织的其他数据结合使用，则可以使用 Graph API 创建数据模型并合并通话质量数据。        |
 
 ## <a name="import-the-cqd-report-templates"></a>导入 CQD 报表模板
 
-下载[两个特选 CQD 报表模板](https://aka.ms/qertemplates)（所有网络和托管网络），帮助你快速快速掌握 CQD。 "所有网络" 模板（虽然已优化为使用生成数据文件）可用于在 CQD 中收集和上载构建信息，如下一节中所述。
+下载[两个特选 CQD 报表模板](https://aka.ms/qertemplates) (所有网络和托管) 网络，以帮助你快速快速掌握 CQD。 "所有网络" 模板（虽然已优化为使用生成数据文件）可用于在 CQD 中收集和上载构建信息，如下一节中所述。
 
-**若要导入模板（。CQDX）转换为 CQD**
+**若要导入模板 (。CQDX) CQD**
 
 1. 在 CQD 中，从页面顶部的菜单中选择 "**详细报告**"。
 
@@ -66,16 +66,16 @@ Microsoft 通话质量仪表板（CQD）使用近乎实时（NRT）的数据馈�
 
 ## <a name="euii-data"></a>EUII 数据
 
-出于合规性原因，最终用户身份信息（EUII）数据（也称为个人身份信息或 PII）仅保留30天。 由于 NRT 数据与30天的标记相比较，包含 EUII 的字段将被清除，从而导致 EUII 无 NRT 数据。 包含 EUII 数据的字段是：
+出于合规性原因， (EUII 的最终用户可识别信息) 数据 (也称为个人身份信息或 PII) 仅保留30天。 由于 NRT 数据与30天的标记相比较，包含 EUII 的字段将被清除，从而导致 EUII 无 NRT 数据。 包含 EUII 数据的字段是：
 
 - 完整 IP 地址
-- 媒体访问控制（MAC）地址
-- 基本服务集标识符（BSSID）
-- 会话初始协议（SIP） URI （仅 Skype for business）
+- 媒体访问控制 (MAC) 地址
+- 基本服务设置标识符 (BSSID) 
+- 会话初始协议 (SIP) URI 仅 (Skype for business) 
 - 用户主体名称 (UPN)
 - 计算机终结点名称
 - 用户逐字反馈
-- 对象 ID （终结点用户的 Active Directory 对象 ID）
+-  (终结点用户的 Active Directory 对象 ID 的对象 ID) 
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>具有和不具有 EUII 访问权限的管理员角色
 
@@ -123,18 +123,18 @@ URL 日期参数接受 Day 字段。 "滚动日期" 报告将 "YYYY-MM-DD 格式
 |功能|摘要报告|详细报告|
 |:--- |:--- |:--- |
 |应用程序共享跃点数 | 否 | 是 |
-|客户构建信息支持 | 是 | 是  |
+|客户构建信息支持 | 是 | 是 |
 |客户终结点信息支持 | 仅在 <span> cqd.teams.microsoft.com 中<span/> | 仅在 <span> cqd.teams.microsoft.com 中<span/> |
 |向下钻取分析支持   | 否   | 是   |
 |媒体可靠性指标   | 否   | 是   |
-|现成的报表   | 是   | 是    |
-|概述报表   | 是   | 是    |
+|现成的报表   | 是   | 是   |
+|概述报表   | 是   | 是   |
 |每用户报告集   | 否   | 是   |
-|报表集自定义（添加、删除、修改报表）   | 否   | 是   |
+|报表集自定义 (添加、删除、修改报表)    | 否   | 是   |
 |基于视频的屏幕共享指标   | 否   | 是   |
 |视频指标   | 否   | 是   |
 |可用数据量   | 过去12个月   | 过去12个月   |
-|Microsoft 团队数据   | 是   | 是    |
+|Microsoft 团队数据   | 是   | 是   |
 | | | |
 
 
@@ -164,7 +164,7 @@ URL 日期参数接受 Day 字段。 "滚动日期" 报告将 "YYYY-MM-DD 格式
   
 ![屏幕截图：显示 "通话质量" 选项卡](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-流分为三个组： "完好"、"差" 和 "未分类"。 还计算出的*百分比*值太差，可让你将流的比率划分为*较差*的分类流计数。 由于*较差的% = 不良流/（差流 + 正常流） * 100*，*差%* 不受多个未*分类*流的存在的影响。 若要查看将流分类为差或好的内容，请参阅["呼叫质量" 仪表板中的 "流分类](stream-classification-in-call-quality-dashboard.md)"。
+流分为三个组： "完好"、"差" 和 "未分类"。 还计算出的*百分比*值太差，可让你将流的比率划分为*较差*的分类流计数。 由于*差% = 不良流/ (不良流 + 正常流) * 100*，*较差的%* 不受多个未*分类*流的存在的影响。 若要查看将流分类为差或好的内容，请参阅["呼叫质量" 仪表板中的 "流分类](stream-classification-in-call-quality-dashboard.md)"。
   
 使用左侧的刻度测量流计数值。
   
@@ -229,23 +229,23 @@ CQD 摘要报告仪表板包括**租户数据上载**页面，该页面从右上
 |名称  |  |
 |---------|---------|
 |位置增强的报表     |基于位置信息显示质量趋势。 仅当你[上载了租户数据](CQD-upload-tenant-building-data.md)时，才会显示此报告。        |
-|可靠性报告     |包括音频、视频、基于视频的屏幕共享（VBSS）和应用共享报告         |
+|可靠性报告     |包括音频、视频、基于视频的屏幕共享 (VBSS) 和应用共享报告         |
 |体验报告质量     |所有客户端和设备（包括会议室）的音频质量和可靠性。 这些报表是可下载的[CQD 模板](https://aka.ms/QERtemplates)的 "slimmed" 版本，侧重于分析音频质量和可靠性的关键区域。         |
 |质量向下钻取报表     | 钻取：按区域、位置、子网、小时和用户的日期         |
 |故障深化报告     | 钻取：按区域、位置、子网、小时和用户的日期        |
 |评价我的呼叫报告     |按区域、位置或用户分析用户呼叫分级。 包括逐字反馈。         |
 |技术支持报表     |技术支持报告查看单个用户、用户组或每个人的呼叫和会议数据。 通过结合构建和 EUII 数据，这些报告可帮助识别基于网络位置、会议详细信息、设备或固件的可能的系统问题。         |
 |客户端版本报告     |客户端版本摘要：查看每个客户端应用版本的会话和用户计数<br><br>客户端版本（按用户）：查看每个客户端应用版本的用户名称 <br><br>产品和客户端类型的预生成筛选器帮助将版本集中到特定客户端。         |
-|终结点报表     |按计算机终结点（计算机和型号）显示呼叫质量。 这些报表包括生成数据（如果已上载）。         |
+|终结点报表     |按计算机终结点 (计算机和型号) 显示呼叫质量。 这些报表包括生成数据（如果已上载）。         |
 
 
 ## <a name="create-custom-detailed-reports"></a>创建自定义详细报告
 
-如果默认 CQD 报表不能满足您的需要，请按照以下说明创建自定义报表。 或者（从2020年1月起）[使用 POWER BI FOR CQD 报表](cqd-power-bi-query-templates.md)。
+如果默认 CQD 报表不能满足您的需要，请按照以下说明创建自定义报表。 或 (至2020年1月) [使用 POWER BI FOR CQD 报表](cqd-power-bi-query-templates.md)。
 
 从 "登录摘要报告" 屏幕上显示的屏幕顶部显示的报告下拉列表中， \( **Summary Reports**选择 " \) **详细报告**"，然后选择 "**新建**"。 单击报表中的 "**编辑**" 以查看查询编辑器。 每个报告都可以通过对多维数据集进行查询得到。 报告是其查询返回的数据的可视化形式。 查询编辑器可帮助您编辑报表的这些查询和显示选项。
 > [!IMPORTANT]
-> 网络范围可用于表示 supernet （具有单个路由前缀的若干子网的组合）。 将检查所有新的生成上载，查找任何重叠区域。 如果你以前上载了一个生成文件，则应下载当前文件，然后重新上载它以标识任何重叠，并在再次上载之前修复该问题。 以前上载的文件中的任何重叠都可能会导致向报表中的建筑物进行错误的子网映射。 某些 VPN 实现不能准确报告子网信息。 建议将 VPN 子网添加到生成文件，而不是子网的一个条目时，将 VPN 子网中每个地址的单独条目添加为单独的32位网络。 每一行可以有相同的建筑物元数据。 例如，对于 172.16.18.0/24，而不是一行，您应该有256行，每个地址对应于 172.16.18.0/32 和 172.16.18.255/32 之间（包括这两个地址）的一行。
+> 网络范围可用于表示具有单个路由前缀) 的多个子网的 supernet (组合。 将检查所有新的生成上载，查找任何重叠区域。 如果你以前上载了一个生成文件，则应下载当前文件，然后重新上载它以标识任何重叠，并在再次上载之前修复该问题。 以前上载的文件中的任何重叠都可能会导致向报表中的建筑物进行错误的子网映射。 某些 VPN 实现不能准确报告子网信息。 建议将 VPN 子网添加到生成文件，而不是子网的一个条目时，将 VPN 子网中每个地址的单独条目添加为单独的32位网络。 每一行可以有相同的建筑物元数据。 例如，对于 172.16.18.0/24，而不是一行，您应该有256行，每个地址对应于 172.16.18.0/32 和 172.16.18.255/32 之间（包括这两个地址）的一行。
 >
 > "VPN" 列是可选的，默认值为0。  如果 VPN 列的值设置为1，则该行表示的子网将完全展开，以匹配子网内的所有 IP 地址。  请谨慎使用，并且仅针对 VPN 子网，因为完全展开这些子网将对涉及生成数据的查询的查询时间产生负面影响。
 
@@ -255,14 +255,14 @@ CQD 摘要报告仪表板包括**租户数据上载**页面，该页面从右上
 
 ## <a name="query-filters"></a>查询筛选器
 
-查询筛选器通过在 CQD 中使用查询编辑器实现。 这些筛选器用于减少 CQD 返回的记录数，从而最大程度减少报表的总体大小和查询时间。 这对于筛选出非托管网络尤其有用。 下表中列出的筛选器使用正则表达式（RegEx）。
+查询筛选器通过在 CQD 中使用查询编辑器实现。 这些筛选器用于减少 CQD 返回的记录数，从而最大程度减少报表的总体大小和查询时间。 这对于筛选出非托管网络尤其有用。 下表中列出的筛选器使用正则表达式 (RegEx) 。
 
 
 | 筛选器         | 说明          | CQD 查询筛选器示例      |
 |----------------|----------------------|-------------------------------|
 | 无空值   | 某些筛选器没有用于筛选空值的选项。 若要手动筛选空值，请使用空白表达式，并将筛选器设置为等于或不等于，具体取决于你的需求。      | 第二建筑物名称 \<\> \^ \\ s\*\$                       |
 | 排除公共子网 | 如果没有有效的生成文件以从非托管网络单独托管，则报告中将包含家庭网络。 这些主子网位于其控制范围之外，可以从报表中快速排除。 本指南中定义的常用子网是10.0.0.0、192.168.1.0 和192.168.0.0。 | 第二子网 \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1。0 |
-| 仅限内部查看  | 用于筛选托管（内部）或非托管（外部）的报表。 托管 CQD 模板已预配置了这些筛选器。       | 第二内部公司内部公司 = 内部        |
+| 仅限内部查看  | 用于在) 之外的) 或非托管 (内筛选托管 (的报表。 托管 CQD 模板已预配置了这些筛选器。       | 第二内部公司内部公司 = 内部        |
 
 ## <a name="report-filters"></a>报表筛选器
 
@@ -274,7 +274,7 @@ CQD 摘要报告仪表板包括**租户数据上载**页面，该页面从右上
 | Month      | 首先从年开始，然后是 "月"。 | 2017-10                           |
 | 字母 | 筛选任何字母字符。 | [a-z]                             |
 | 整数    | 筛选任何数字字符。    | [0-9]                             |
-| 百分比 | 按百分比筛选。              | （[3-9] \\ 。） \|（[3-9]） \|（[1-9] [0-9]） |
+| 百分比 | 按百分比筛选。              |  ( [3-9] \\ . ) \| ( [3-9] ) \| ( [1-9] [0-9] )  |
 
 
 ### <a name="drill-down-filters"></a>向下钻取筛选器
@@ -298,13 +298,13 @@ CQD 报表功能有多种分级式筛选器，这些筛选器是用于缩小通�
 
 ### <a name="multi-select-filters"></a>多选筛选器
 
-除了向下钻取功能之外，CQD 还支持指定具有多个值（或筛选器）的筛选器。
+除了向下钻取功能之外，CQD 还支持指定具有多个值的筛选器 (或筛选) 。
 
 若要选择多个筛选值，请首先向报表添加新筛选器。 单击 **+** "**筛选器**" 标签旁边的 "输入要使用的维度名称"，然后单击 "**添加**"。
 
 ![添加多选筛选器的屏幕截图](media/qerguide-image-addmultiselectfilter.png)
 
-然后，单击 "**搜索**" （新筛选器旁边的放大镜图标）。 你将看到一个文本字段和多个选项，包括 "全**选**" 和 "**反转**"。 输入一个值，然后单击要搜索的字段旁边的 "**搜索**"。 或者，将文本字段保留为空，然后单击 "**搜索**" 以查看到最多第一个100选项。
+然后，单击 "**搜索**" (新筛选) 旁边的放大镜图标。 你将看到一个文本字段和多个选项，包括 "全**选**" 和 "**反转**"。 输入一个值，然后单击要搜索的字段旁边的 "**搜索**"。 或者，将文本字段保留为空，然后单击 "**搜索**" 以查看到最多第一个100选项。
 
 ```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -349,7 +349,7 @@ CQD 支持将筛选器添加到 URL。 这使你可以轻松地共享或书签 C
 
 ```https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]```
 
-若要将 URL 筛选器应用于多选值，请使用管道（|）字符分隔每个值。 例如：
+若要将 URL 筛选器应用于多选值，请使用管道 ( | 分隔每个值。) 字符。 例如：
 
 ```filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]```
 
@@ -362,7 +362,7 @@ CQD 支持将筛选器添加到 URL。 这使你可以轻松地共享或书签 C
 |----------------|----------------------|-------------------------------|
 | 无空值   | 某些筛选器没有用于筛选空值的选项。 若要手动筛选空值，请使用空白表达式，并将筛选器设置为等于或不等于，具体取决于你的需求。      | 第二建筑物名称 \<\> \^ \\ s\*\$                       |
 | 排除公共子网 | 如果没有有效的生成文件以从非托管网络单独托管，则报告中将包含家庭网络。 这些主子网位于其控制范围之外，可以从报表中快速排除。 如本文中所述，常见子网是10.0.0.0、192.168.1.0 和192.168.0.0。 | 第二子网 \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1。0 |
-| 仅限内部查看  | 用于筛选托管（内部）或非托管（外部）的报表。 托管 CQD 模板已预配置了这些筛选器。       | 第二内部公司内部公司 = 内部        |
+| 仅限内部查看  | 用于在) 之外的) 或非托管 (内筛选托管 (的报表。 托管 CQD 模板已预配置了这些筛选器。       | 第二内部公司内部公司 = 内部        |
 
 
 #### <a name="how-to-find-your-tenant-id"></a>如何查找你的租户 ID
@@ -384,7 +384,7 @@ CQD 中的租户 ID 对应于 Azure 中的目录 ID。 如果你不知道你的�
 
 ## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>比较团队和 Skype for Business CQD 数据
 
-即使在最新的 CQD （cqd.teams.microsoft.com）内，你也可以看到团队和 Skype for business 之间的数据差异。 原因如下：
+即使在最新的 CQD (cqd.teams.microsoft.com) 中，你也可以看到团队和 Skype for business 之间的数据差异。 原因如下：
 - 确保性能和可靠性的机制的差异
   - 团队已自动重新连接和快速漫游。 Skype for Business 不支持。
   - 团队拥有动态带宽管理。 Skype for Business 不支持。
@@ -405,7 +405,7 @@ CQD 中的租户 ID 对应于 Azure 中的目录 ID。 如果你不知道你的�
 第一次登录后，CQD 将开始收集和处理数据。 
 
 > [!IMPORTANT]
-> 从2019年12月到，您仍然可以访问旧版本的 CQD （cqd.lync.com），尽管旧版门户提供了指向最新 CQD （cqd.teams.microsoft.com）的链接。 最终，旧版本的 CQD 将会停止。 从2020年7月1日起，较早版本的 CQD 将访问新 CQD 中的数据（ https://CQD.teams.microsoft.com) ，不能再导出生成和报告数据。 在后期2020中，我们将关闭旧的 CQD，您将无法再访问它。
+> 从2019年12月到，您仍然可以访问 CQD (cqd.lync.com) 的旧版本，尽管旧版门户提供了指向最新 CQD (cqd.teams.microsoft.com) 的链接。 最终，旧版本的 CQD 将会停止。 从2020年7月1日起，较早版本的 CQD 将从新的 CQD (中访问数据 https://CQD.teams.microsoft.com) ，并且不再可以导出生成和报告数据。 在后期2020中，我们将关闭旧的 CQD，您将无法再访问它。
 
 
 ## <a name="related-topics"></a>相关主题
@@ -414,7 +414,7 @@ CQD 中的租户 ID 对应于 Azure 中的目录 ID。 如果你不知道你的�
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[设置通话质量仪表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+[设置通话质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
 [上载租户和生成数据](CQD-upload-tenant-building-data.md)
 

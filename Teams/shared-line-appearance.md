@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的共享线路外观
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 02/19/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: 了解如何在 Microsoft 团队中向用户发送包含其音频会议信息的电子邮件。
-ms.openlocfilehash: 92eda8a1818d98689e71d81f31c5355df3ef1e26
-ms.sourcegitcommit: 2cc36c954200f50de33b909856b33fe0a9a6b7a5
+ms.openlocfilehash: 7750f85e959f332832c24b60b4efafd784218f61
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45125975"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583831"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Microsoft Teams 中的共享线路外观
 
@@ -38,9 +38,9 @@ ms.locfileid: "45125975"
 
 ## <a name="license-required"></a>需要许可证
 
-用户必须使用具有 PSTN 连接的电话系统（呼叫计划许可证或直接路由 OnlineVoiceRoutingPolicy）作为代理人，或者设置委派并允许其他人代表他们进行或接收呼叫。
+用户必须具有 PSTN 连接的电话系统 (呼叫计划许可证或直接路由 OnlineVoiceRoutingPolicy) 为代理人或设置委派并允许其他人代表他们进行或接收呼叫。
 
-管理者和代理人都需要具有 PSTN 连接的电话系统（呼叫计划许可证或直接路由 OnlineVoiceRoutingPolicy）。 共享线路体验是委派的一部分，并包含在电话系统中。 有关许可模型的其他详细信息，请参阅[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+管理者和代理人都需要具有 PSTN 连接的电话系统 (呼叫计划许可证或直接路由 OnlineVoiceRoutingPolicy) 。 共享线路体验是委派的一部分，并包含在电话系统中。 有关许可模型的其他详细信息，请参阅[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>配置委派和共享行的外观
 
@@ -51,28 +51,28 @@ ms.locfileid: "45125975"
 租户管理员还可以为团队管理中心中的用户配置委派关系。 此外，最终用户还可以直接在团队中配置其委派关系。 租户管理员或用户无法彼此阻止配置，但团队管理中心和团队客户应在这两个位置中准确显示此关系。 
 
 > [!IMPORTANT]
-> 当租户管理员为用户关闭委派时（在已启用）时，他们还需要清理团队管理中心中该用户的委派关系，以避免不正确的呼叫路由。
+> 当租户管理员在 (打开) 后关闭用户的委派时，他们还需要清理团队管理中心中该用户的委派关系，以避免不正确的呼叫路由。
 
 ## <a name="shared-line-appearance-feature-availability"></a>共享行外观功能的可用性
 
 以下应用和设备当前支持共享行的外观。
 
-| 功能 | 团队桌面版 | 团队 Mac 应用 | 团队 Web App （Edge） |团队移动 iOS/Android 应用程序 | 团队 IP 电话 |
+| 功能 | 团队桌面版 | 团队 Mac 应用 | 团队 Web App (边缘)  |团队移动 iOS/Android 应用程序 | 团队 IP 电话 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
-| 设置委派 | 必需 | 是  | 是 | 否 | 是 |
-| 代表他人接听电话 | 必需 | 是  | 是  | 是  | 是  |
-| 代表另一个电话号码拨打电话 | 必需 | 是  | 是  | 是  | 是  |
-| 代表另一个团队用户调用团队用户 | 必需 | 是  | 是  | 是  | 是  |
-| 查看共享行的管理员视图 | 必需 | 是  | 是 | 否 | 否 |
-| 查看经理的通话活动的管理员视图 | 必需 | 是  | 是 | 否 | 否 |
-| 查看代理人的管理者视图 | 必需 | 是  | 是 | 否 | 否 |
-| 管理员或管理者可以保留或继续 | 必需 | 是  | 是 | 否 | 否 |
+| 设置委派 | 是 | 是 | 是 | 否 | 是 |
+| 代表他人接听电话 | 是 | 是 | 是 | 是 | 是 |
+| 代表另一个电话号码拨打电话 | 是 | 是 | 是 | 是 | 是 |
+| 代表另一个团队用户调用团队用户 | 是 | 是 | 是 | 是 | 是 |
+| 查看共享行的管理员视图 | 是 | 是 | 是 | 否 | 否 |
+| 查看经理的通话活动的管理员视图 | 是 | 是 | 是 | 否 | 否 |
+| 查看代理人的管理者视图 | 是 | 是 | 是 | 否 | 否 |
+| 管理员或管理者可以保留或继续 | 是 | 是 | 是 | 否 | 否 |
 
 ## <a name="limitations"></a>优缺点
 
 经理最多可以添加25位代理人，并且代理人最多可以有25名经理。 对于可在租户中创建的委派关系的数量没有限制。 
  
-如果委托人进行通话和代理人不在同一地理位置，则由 PSTN 提供商允许呼叫者 ID 显示来自不同地理位置的委派（代表）呼叫。 
+如果委托人进行通话和代理人不在同一地理位置，则由 PSTN 提供商允许呼叫者 ID 为委派的 (的不同地理位置（代表) 呼叫）显示。 
  
 ## <a name="more-information"></a>更多信息
 

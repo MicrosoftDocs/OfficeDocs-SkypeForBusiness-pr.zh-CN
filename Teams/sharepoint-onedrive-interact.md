@@ -1,7 +1,7 @@
 ---
 title: SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,17 +18,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a66cacf7a60b020b4b56e0824d0a275efdf704f8
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: af9981b1f3cd95d80a72a9e4fa536835d662382d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45140934"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581083"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>SharePoint Online 和 OneDrive for Business 与 Microsoft Teams 如何交互
 
 > [!Tip]
-> 观看以下会话，了解团队如何与 Azure Active Directory （AAD）、Microsoft 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队基础](https://aka.ms/teams-foundations)
+> 观看以下会话，了解团队如何与 Azure Active Directory (AAD) 、Microsoft 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队的基础](https://aka.ms/teams-foundations)
 
 Microsoft 团队中的每个团队在 SharePoint Online 中都有一个团队网站，团队中的每个标准频道都将获取默认工作组网站文档库中的一个文件夹。 对话中共享的文件会自动添加到文档库中，在 SharePoint 中设置的权限和文件安全选项会自动反映在 Teams 中。 若要查看更改 SharePoint 中的网站地址的影响，请阅读[更改网站地址](https://docs.microsoft.com/sharepoint/change-site-address)。
 
@@ -46,7 +46,7 @@ Microsoft 团队中的每个团队在 SharePoint Online 中都有一个团队网
 
 下面是团队、标准频道和文档库之间的关系的示例。
 
-对于每个团队，创建 SharePoint 网站后，会为团队创建默认文件夹**共享文档**。 每个标准频道（包括**常规**频道（每个团队的默认频道）在 "**共享文档**" 中都有一个文件夹。
+对于每个团队，创建 SharePoint 网站后，会为团队创建默认文件夹**共享文档**。 每个标准频道（包括**常规**频道 (每个团队的默认频道) 在 "**共享文档**" 中有一个文件夹。
 
 ![SharePoint Online 中的 "共享文档" 文件夹的图表。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
@@ -81,7 +81,7 @@ Microsoft 团队中的每个团队在 SharePoint Online 中都有一个团队网
 - 确定需要元数据的文件
 - 从更多筛选选项中进行选择。
 - 基于列标题对文件进行分组。
-- 修改栏设置（向左或向右移动、隐藏）和列宽。
+- "修改栏设置" ("向左或向右移动"、"隐藏) 和列宽"。
 
 ## <a name="default-link-type-setting"></a>默认链接类型设置
 

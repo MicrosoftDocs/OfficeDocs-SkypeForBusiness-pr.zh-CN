@@ -1,8 +1,8 @@
 ---
 title: 将 Skype 会议应用配置为与 Teams 配合使用
 ms.reviewer: ''
-author: LolaJacobsen
-ms.author: Lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a1b4f05be530e57d11d618ae0489187b65f9e56
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825520"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581663"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>将 Skype 会议应用配置为与 Teams 配合使用
 ===================================================
@@ -45,5 +45,5 @@ ms.locfileid: "41825520"
 
 ## <a name="more-information"></a>更多信息
 
-- [什么是 Skype 会议应用（Skype for Business Web 应用）](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [什么是 Skype 会议应用 (Skype for business Web 应用) ](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
 - [Skype 会议应用最低网络要求](https://technet.microsoft.com/library/mt845808.aspx)

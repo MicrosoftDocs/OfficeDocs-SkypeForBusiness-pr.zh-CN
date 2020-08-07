@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft 团队的网络 planner
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/24/2019
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8c6a59216d1ac04c0e079015aa9de13f8cecb37
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: bfccd9b620bbe44c8fb8627504b7c25a03227b96
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088230"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581323"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用 Microsoft 团队的网络 planner
 
@@ -36,7 +36,7 @@ ms.locfileid: "45088230"
 
 网络 planner 允许您：
 
-- 使用网站和 Microsoft 推荐的角色（office 工作人员、远程工作人员和团队室系统）创建组织的表示形式。
+- 使用网站和 Microsoft 推荐的角色 (office 工作人员、远程工作人员和团队间系统) 来创建组织的表示形式。
 
     > [!NOTE]
     > 根据团队最佳使用方案和典型使用模式中的数据开发了推荐的角色。 但是，除了三个推荐的角色外，你还可以创建最多三个自定义角色。
@@ -79,9 +79,9 @@ ms.locfileid: "45088230"
 
     1. 为您的网站添加名称和说明。
 
-    2. 在 "**网络设置**" 下，添加该站点上的网络用户数（必需）。
+    2. 在 "**网络设置**" 下，将该网站上的网络用户数量添加 (必需的) 。
 
-    3. 添加网络详细信息：支持 WAN 的、WAN 容量、internet 出口（**本地**或**远程**）以及 PSTN 出口（无、本地或远程）。
+    3. 添加网络详细信息：支持 WAN、WAN 容量、internet 出口 (**本地**或**远程**) 以及 PSTN 出局 (无、本地或远程) 。
 
       > [!NOTE]
       > 你必须添加 WAN 和 internet 容量数字，才能在生成报告时查看特定的带宽建议。
@@ -94,7 +94,7 @@ ms.locfileid: "45088230"
 
 1. 在 "**报表**" 选项卡上，单击 "**开始报表**"。
 
-2. 对于创建的每个网站，在可用的角色间分配用户数。 如果您使用 Microsoft 推荐的角色，该号码将自动分发（80% 的 office 工作人员和20% 的远程工作人员）。
+2. 对于创建的每个网站，在可用的角色间分配用户数。 如果你使用 Microsoft 推荐的角色，该数字将自动分发 (80% office 工作线程和20% 的远程工作) 。
 
 3. 完成分发后，单击 "**生成报表**"。
 
@@ -106,4 +106,4 @@ ms.locfileid: "45088230"
 
 ## <a name="example-scenario"></a>示例方案
 
-有关如何使用网络计划程序设置网络计划并使用这些步骤生成报表的示例，请下载[网络 planner 的操作方法 PowerPoint 幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)（仅限英语版）。
+有关如何使用网络计划程序设置网络计划并使用这些步骤生成报表的示例，请下载[网络 planner 的操作方法 "操作方法" PowerPoint 幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (英语仅) "。

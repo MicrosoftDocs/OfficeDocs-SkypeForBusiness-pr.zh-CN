@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的呼叫寄存和取回
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 了解如何使用呼叫驻留和检索在云中的团队服务中将呼叫置于保持状态。
-ms.openlocfilehash: a9518705cd5edff3834be21732f78dd47352cd63
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938531"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582649"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
@@ -48,13 +48,13 @@ ms.locfileid: "44938531"
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>呼叫寄存和检索功能可用性
 
-电话寄存和检索目前由以下客户和设备支持。 （在 "仅限团队" 模式下受支持，有或没有 PSTN 连接。）
+电话寄存和检索目前由以下客户和设备支持。  (在 "仅限团队模式" 模式下受支持，有或没有 PSTN 连接。 ) 
 
-| 功能 | 团队桌面版 | 团队 Mac 应用 | 团队 Web App （Edge） |团队移动 iOS/Android 应用程序 | 团队 IP 电话 | Skype for Business IP 电话 |
+| 功能 | 团队桌面版 | 团队 Mac 应用 | 团队 Web App (边缘)  |团队移动 iOS/Android 应用程序 | 团队 IP 电话 | Skype for Business IP 电话 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
-| 寄存 a 呼叫 | 必需 | 是  | 是  | 是  | 是 | 否 |
-| 检索寄存的呼叫 | 必需 | 是  | 是  | 是  | 是 | 否 |
-| Unretrieved 电话铃声返回 | 必需 | 是  | 是  | 是  | 是 | 否 |
+| 寄存 a 呼叫 | 是 | 是 | 是 | 是 | 是 | 否 |
+| 检索寄存的呼叫 | 是 | 是 | 是 | 是 | 是 | 否 |
+| Unretrieved 电话铃声返回 | 是 | 是 | 是 | 是 | 是 | 否 |
 
 ## <a name="configure-call-park-and-retrieve"></a>配置通话寄存和检索
 

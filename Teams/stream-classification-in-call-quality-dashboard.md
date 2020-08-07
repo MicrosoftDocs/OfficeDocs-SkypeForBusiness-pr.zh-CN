@@ -1,6 +1,6 @@
 ---
-title: 通话质量仪表板（CQD）中的流分类
-ms.author: lolajacobsen
+title: '通话质量仪表板中的流分类 (CQD) '
+ms.author: serdarsacobsen
 author: lolaj
 manager: serdars
 ms.reviewer: gageames
@@ -19,17 +19,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 了解如何在 Microsoft 团队和 Skype for business Online 的通话质量仪表板（CQD）中分类流质量。
-ms.openlocfilehash: 28c3857f1bf30903e9a59d45e8149f8ecbfc57be
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: 了解如何将流质量分类到 "呼叫质量" 仪表板中， (Microsoft 团队和 Skype for Business Online 的 CQD) 。
+ms.openlocfilehash: 0853b5602525d17f8fd8d440a5275dc2c8ab04a3
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085888"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583821"
 ---
-# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>通话质量仪表板（CQD）中的流分类
+# <a name="stream-classification-in-call-quality-dashboard-cqd"></a>通话质量仪表板中的流分类 (CQD) 
 
-Microsoft 团队和 Skype for business Online 的通话质量仪表板（CQD）使你可以深入了解使用 Microsoft 团队和 Skype for business 服务时所进行的通话质量。本主题提供有关媒体流的质量分类的详细信息。若要了解有关 CQD 以及如何对其进行设置的详细信息，请参阅[设置呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
+"呼叫质量" 仪表板 (Microsoft 团队和 Skype for business Online 的 CQD) ，让你可以深入了解使用 Microsoft 团队和 Skype for business 服务进行的通话质量。本主题提供有关媒体流的质量分类的详细信息。若要了解有关 CQD 以及如何对其进行设置的详细信息，请参阅[设置呼叫质量仪表板](turning-on-and-using-call-quality-dashboard.md)。
 
 ## <a name="classifier-definitions"></a>分类器定义
 
@@ -85,20 +85,20 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 
 | 指标     | 条件 | 解释 |
 |:---        |:---       | :--- |
-| Spoiled Tile Percent Total | > 36 | 被丢弃而不是发送到远程对等（例如，从 MCU 到查看器）的磁贴的百分比。 已放弃（或损坏）磁贴可能由客户端和服务器之间的带宽限制导致。 |
+| Spoiled Tile Percent Total | > 36 | 丢弃的磁贴（而不是发送到远程对等 (）的百分比，例如从 MCU 到查看器) 。 已放弃 (或损坏) 磁贴可能由客户端和服务器之间的带宽限制导致。 |
 | AppSharing RDP Tile Processing Latency Average | > 400 | 在会议服务器上处理 RDP 堆栈图块的平均延迟，以毫秒为单位。 |
 | AppSharing Relative OneWay Average | > 1.75 | 应用程序共享流终结点之间的平均相对单向延迟（以秒为单位）。 |
 | | | |
 
 ## <a name="unclassified-streams"></a>未经分类的流
 
-在 CQD 中，当交互式连接建立（ICE）连接失败或未报告计算流分类所需的所有指标时，流将标记为未_分类_。
+在 CQD 中，当交互式连接建立 (ICE) 连接失败或未报告计算流分类所需的所有指标时，流被标记为未_分类_。
 
 要检查 ICE 连接故障，请检查 "First Connectivity Ice" 和 "Second Connection Ice" 维度是否为 "FAILED" 值。 如果任一值指示失败，则流将标记为未_分类_。
 
 如果未_分类_流的 ICE 连接成功，则该流可能被视为未_分类_，因为未报告密钥流度量值。 这些指标可能不会被报告的原因有几个：
 
-- **未收到 QoE 报表**-用于分类的度量在呼叫结束时发送的 QoE 报告中报告。 如果不生成此报告（例如，由于某些第三方终结点可能无法发送 QoE）或无法发送（例如，由于网络中断），CQD 无法对流进行分类。
+- **未收到 QoE 报表**-用于分类的度量在呼叫结束时发送的 QoE 报告中报告。 如果未生成此报表 (例如，由于某些第三方终结点可能无法发送 QoE) 或无法发送 (例如，由于网络中断) ，CQD 无法对流进行分类。
 
 > [!TIP]
 > "QoE Record Available" 维度可用于确定是否收到某个流的 QoE 报告。 请注意，如果从任一端点接收到 QoE 报告，则此维度的值将为 "True"。 为了最准确地报告指标，需要两个端点的 QoE 报告。
@@ -109,7 +109,7 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 > 可以使用 "Duration (Seconds)"、"Duration (Minutes)"、"Duration 5 seconds or less" 和 "Duration 60 seconds or more" 等维度来确定流的持续时间。 "Avg Call Duration" 度量也可用于计算一组流的平均持续时间。
 
 - **较低的数据包利用率**-如 "短通话" 方案，需要足够的数据包利用率才能计算关键流指标。 如果没有这些指标，CQD 无法对流进行分类。
-  - 当与会者加入会议以收听演示者时，将会出现常见的低数据包使用情况，但永远不会讲话（在大多数通话中麦克风静音）。 在这里，音频流入站到客户端具有高数据包利用率，而从客户端的音频流出站几乎没有数据包利用率。 流的持续时间可能是一小时或更长时间，但从客户端到服务器的数据流的数据包利用率较低，因为麦克风已静音，而未_分类_的流结果。
+  - 当与会者加入会议以收听演示者时，将出现常见的低数据包使用方案，但从不会演讲 (大多数通话) 的麦克风静音。 在这里，音频流入站到客户端具有高数据包利用率，而从客户端的音频流出站几乎没有数据包利用率。 流的持续时间可能是一小时或更长时间，但从客户端到服务器的数据流的数据包利用率较低，因为麦克风已静音，而未_分类_的流结果。
 
 > [!TIP]
 > "Packet Utilization" 维度和 "Avg Packet Utilization" 度量可用于确定流的数据包活动。
@@ -119,7 +119,7 @@ CQD 中的流根据可用的密钥质量指标的值归类为_良好_、_差_或
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[设置通话质量仪表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+[设置通话质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
 [上载租户和生成数据](CQD-upload-tenant-building-data.md)
 

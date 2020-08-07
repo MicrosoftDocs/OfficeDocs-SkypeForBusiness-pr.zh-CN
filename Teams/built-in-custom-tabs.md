@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中使用内置选项卡和自定义选项卡
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解如何使用内置选项卡和自定义选项卡来包括对话、文件、地图等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824690"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581353"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 ==================================================
@@ -41,7 +41,7 @@ ms.locfileid: "41824690"
 
     ![聊天中的选项卡的屏幕截图。](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- 所有者和团队成员可以通过单击 "添加选项卡" 按钮的**选项卡** ![屏幕截图（显示一个 + 符号），将更多选项卡添加到频道或聊天。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 在频道或聊天的顶部。
+- 所有者和团队成员可以通过单击**Add a tab** ![ "添加选项卡" 按钮的选项卡屏幕截图（显示一个 + 符号），将更多选项卡添加到频道或聊天。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 在频道或聊天的顶部。
 
 - Excel、PowerPoint、Word 和 PDF 文件必须先上载到 "**文件**" 选项卡，然后才能转换为选项卡。 任何现有的上载文件都可以通过单击转换为选项卡，如下所示。
 

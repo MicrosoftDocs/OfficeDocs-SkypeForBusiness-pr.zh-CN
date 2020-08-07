@@ -1,7 +1,7 @@
 ---
 title: 管理 Microsoft Teams 的免费版本
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,17 +19,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d8c8246ef635f860b5cc601613faf5ef1663726
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 7bfd1e9ece85ff6bc5bce0791e1e82225894fdd1
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028128"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583851"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>管理 Microsoft Teams 的免费版本
 ==========================================
 
-在 Microsoft 团队的免费版本中，第一个注册组织的人员具有有限的管理员角色。 具有此受限角色的人员可以添加和删除团队成员，并指定任何人是否可以邀请其他成员，但此用户没有高级管理功能，也不能访问 Microsoft 团队管理中心。 若要了解详细信息，请阅读[邀请他人加入团队（免费）](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)。
+在 Microsoft 团队的免费版本中，第一个注册组织的人员具有有限的管理员角色。 具有此受限角色的人员可以添加和删除团队成员，并指定任何人是否可以邀请其他成员，但此用户没有高级管理功能，也不能访问 Microsoft 团队管理中心。 若要了解详细信息，请参阅[邀请他人加入团队 (免费) ](https://support.office.com/article/invite-people-to-teams-free-53a9b20c-2ad7-442e-967c-2e9305e96463)。
 
 若要获取完整的团队功能集（包括增强的管理），您需要通过购买适用于您的用户的 Microsoft 365 或 Office 365 订阅计划来[升级到团队的完整版本](upgrade-freemium.md)。 
 

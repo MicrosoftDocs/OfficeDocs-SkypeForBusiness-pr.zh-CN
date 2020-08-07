@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft 365 和自定义连接器
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -17,12 +17,12 @@ description: 连接器通过将你常用的服务中的内容和更新传输到�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9ea72fbe054e3a6d0e89f87f1a8c23303ef55c5c
-ms.sourcegitcommit: 3323c86f31c5ab304944a34892601fcc7b448025
+ms.openlocfilehash: e704dd6a9a796be4f9e361972cd2e6b38e48ce51
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44637751"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582469"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 团队中使用 Microsoft 365 和自定义连接线
 =======================================================
@@ -38,7 +38,7 @@ Microsoft 365 连接器可与 Microsoft 团队和 Microsoft 365 组一起使用�
 
 当前，你可以使用 Microsoft 团队桌面和 web 客户端添加连接器。 但是，可以在包括手机在内的**所有客户端**中查看由这些连接器发布的信息。
 
-1. 若要向通道添加连接线，请单击通道名称右侧的**省略号（...）** ，然后单击 "**连接线**"。
+1. 若要将连接线添加到通道，请单击频道名称右侧的**省略号 " ( ... ) "** ，然后单击 "**连接线**"。
 
     ![选择了 "连接线" 选项的 "团队" 界面的屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 

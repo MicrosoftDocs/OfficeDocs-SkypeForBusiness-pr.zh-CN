@@ -3,8 +3,8 @@ title: 配置音频会议设置 - Microsoft Teams
 ms.reviewer: ''
 description: 使用这些部署资源来帮助你部署作为 Microsoft Teams 中的会议工作负载一部分的音频会议。
 ms.topic: article
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: admin
 ms.date: 01/28/2019
@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c90f5e62dbc3cc4944031eeaa9a19a6fc35bb47f
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 0c8a23faff819f24330b6ab70716dad2afc4cbbd
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085808"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583991"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音频会议
 

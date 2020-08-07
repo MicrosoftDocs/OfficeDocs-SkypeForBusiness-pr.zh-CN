@@ -1,7 +1,7 @@
 ---
 title: 开始使用 Teams 零售模板
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4477d42cf7036ac93d79684407ee97b7b9e9b900
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 9b170047a3b8d3218b8e31bdc9d4b1035eb8706c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904657"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583199"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>开始使用 Teams 零售模板 
 
@@ -51,7 +51,7 @@ ms.locfileid: "43904657"
 
 - 如果您的组织在每个商店中都有部门，请为每个部门添加一个频道。 这将促进部门内的沟通和协作。
 
-- 如果您的组织具有任何内部网站（例如，SharePoint 网站），请考虑将它们固定为相关团队频道中的选项卡。 有关说明，请参阅[团队模板入门](get-started-with-teams-templates.md)。
+- 如果您的组织有任何内部网站 (例如 SharePoint 网站) ，请考虑将它们固定为相关团队频道中的选项卡。 有关说明，请参阅[团队模板入门](get-started-with-teams-templates.md)。
 
 ## <a name="manager-collaboration-template"></a>经理协作模板
 
@@ -64,7 +64,7 @@ ms.locfileid: "43904657"
 
 为你的组织自定义经理协作模板的推荐方法：
 
-- 如果您的组织具有与经理相关的任何内部网站（例如 SharePoint 网站），请考虑将它们固定为相关团队频道中的选项卡。 有关说明，请参阅[Microsoft 团队模板文档](get-started-with-teams-templates.md)。
+- 如果您的组织具有任何内部网站 (例如，与经理相关的 SharePoint 网站) ，请考虑将它们固定为相关团队频道中的选项卡。 有关说明，请参阅[Microsoft 团队模板文档](get-started-with-teams-templates.md)。
 
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方模板
 

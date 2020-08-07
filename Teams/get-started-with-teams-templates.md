@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Graph 开始使用团队模板
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18459b8350326d1af50fa8da4046b8987dd336dd
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: d471446d4c0c05d0c13fdee81018c6287c7dda47
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506180"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583521"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>使用 Microsoft Graph 开始使用团队模板
 
@@ -49,8 +49,8 @@ ms.locfileid: "46506180"
 | 基本模板类型 | 团队成员身份 |
 | 团队名称 | 工作组图片 |
 | 团队说明 | 频道设置 |
-| 团队可见性（公共或专用） | 连接器 |
-| 团队设置（例如，成员、来宾、@ 提及） | 文件和内容 |
+| 团队可见性 (公共或私有)  | 连接器 |
+| 团队设置 (例如，"成员"、"来宾"、"@ 提及")  | 文件和内容 |
 | 自动收藏的频道 | |
 | 已安装应用 | |
 | 固定的选项卡 | |
@@ -69,9 +69,9 @@ ms.locfileid: "46506180"
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 无其他应用和属性 |
-| 教育版<br>课堂团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 识别<ul><li>OneNote 课堂笔记本（已固定到 "**常规**" 选项卡） </li><li>"分配" 应用（已固定到 "**常规**" 选项卡）</li></ul> 团队属性：<ul><li>团队可见性设置为**HiddenMembership** （不能重写）</li></ul> |
-| 教育版<br>教职员工团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 识别<ul><li>OneNote 教职员工笔记本（已固定到 "**常规**" 选项卡）</li></ul> |
-|教育版<br>PLC 团队 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 识别<ul><li>OneNote PLC 笔记本（已固定到 "**常规**" 选项卡）</ul></li>|
+| 教育版<br>课堂团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 识别<ul><li>OneNote 课堂笔记本 (固定到 "**常规**" 选项卡)  </li><li>"工作分配" 应用 (固定到 "**常规**" 选项卡) </li></ul> 团队属性：<ul><li>无法覆盖设置为**HiddenMembership** (的团队可见性) </li></ul> |
+| 教育版<br>教职员工团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 识别<ul><li>OneNote 教职员工笔记本 (固定到 "**常规**" 选项卡) </li></ul> |
+|教育版<br>PLC 团队 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 识别<ul><li>OneNote PLC 笔记本 (固定到 "**常规**" 选项卡) </ul></li>|
 | 面向<br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性<ul><li>将团队可见性设置为公共</li></ul>成员权限<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul> |
 | 面向<br>经理协作 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性：<ul><li>将团队可见性设置为私密</li></ul>成员权限：<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul>|
 | 行业<br>拖动 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |信道 <ul><li>宣告\*</li><li>Huddles\*</li><li>轮</li><li>调配\*</li><li>培训\*</li></ul>\*自动收藏频道 |
@@ -80,7 +80,7 @@ ms.locfileid: "46506180"
 
 ## <a name="related-topics"></a>相关主题
 
-- [创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)（在预览中）
+- 在预览中[创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) () 
 - [新团队](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
 - [Teams 零售模板入门](get-started-with-retail-teams-templates.md)

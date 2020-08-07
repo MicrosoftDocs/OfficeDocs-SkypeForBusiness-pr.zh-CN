@@ -10,19 +10,22 @@ ms.reviewer: anblak
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: Microsoft 团队作为服务（CCaaS）解决方案的集成联系人中心概述
+description: 作为服务的集成联系人中心概述 (CCaaS) Microsoft 团队的解决方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34f801c19bcbc5479e4e71f520a4d0d437a7b58a
-ms.sourcegitcommit: 95ccfce5016dfda1a59812df446824be21f3f23e
+ms.openlocfilehash: 3f553c29d2a18816053c28c57a6f0f78b818825a
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45143833"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583249"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 团队的联系中心集成
 
 将常用的联系人中心解决方案与 Microsoft 团队集成是客户部署团队呼叫功能的一个常见需求。  本文概述了联系中心解决方案如何与 Microsoft 团队集成，以及有关参与 Microsoft 团队连接的合作伙伴解决方案的其他信息。
+
+> [!NOTE]
+> 联系中心集成功能需要高级通信许可证。 
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>什么是 Microsoft 团队的联系中心集成？
 
@@ -34,11 +37,11 @@ ms.locfileid: "45143833"
 
 Microsoft 团队通过在其通信模式（包括聊天、视频会议和通话）上充当内部和外部客户连接的中心，支持客户交互工作流。 对于某些公司，Microsoft 团队的[云语音功能](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)（包括[自动助理](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)和[呼叫队列](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)）提供功能和配置以满足其需求。
 
-对于希望使用业务工具和工作流来推动客户旅程的集成解决方案，Microsoft 团队还与业界领先的一些联系人中心（CCaaS）解决方案提供商集成。
+对于需要集成解决方案和工作流以推动客户旅行的其他人而言，Microsoft 团队还会与业界领先的一些联系人中心集成，作为服务 (CCaaS) 解决方案提供商。
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft 团队认证计划的已连接联系人中心
 
-除了发布可供合作伙伴开发和集成 CCaaS 解决方案的公共 Api 之外，我们还开发了 Microsoft 团队认证计划的已连接联系人中心，让客户能够确保每个参与伙伴的解决方案都经过测试和验证，以提供他们从 Microsoft 解决方案所期望的质量、兼容性和可靠性。
+允许合作伙伴开发和集成 CCaaS 解决方案的 Api 可通过高级通信许可证获得。 此外，我们已经开发了 Microsoft 团队认证计划的已连接联系人中心，让客户能够确保每个参与伙伴的解决方案都经过测试和验证，以提供他们从 Microsoft 解决方案所期望的质量、兼容性和可靠性。
 
 以下合作伙伴正在验证其适用于 Microsoft 团队的解决方案并已准备好参与客户：
 
@@ -70,11 +73,11 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 
 这些功能共同支持3种集成模型：
 
-  - **连接**（通过直接路由）
+  - 通过直接路由) **连接** (
 
-  - **连接和扩展**（直接路由、图形 Api 和团队应用平台）
+  - **连接和扩展** (直接路由、图形 Api 和团队应用平台) 
 
-  - **延长和增强**（将团队 sdk 嵌入到面向本机团队交互的3p 应用）
+  - **扩展和** (将团队 sdk 嵌入到本机团队交互的3p 应用中) 
 
 ### <a name="connect"></a>联系
 
@@ -92,7 +95,7 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 
   - 来自团队用户的状态指示 
 
-  - 通过直接路由进行呼叫流（如测试计划中所示） 
+  - 按测试计划中的指示，通过直接路由 (进行呼叫流程)  
 
   - 支持与团队用户进行转移和群组通话 
 
@@ -100,7 +103,7 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 
   - 能够支持多租户 SIP 中继以支持合作伙伴的 SBC 的多个客户。  
 
-  - 实施[ <span class="underline">Microsoft 认证会话边界控制器（SBC）</span>的合作伙伴](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - 合作伙伴实现[ <span class="underline">Microsoft 认证会话边界控制器 (SBC) </span>](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>连接和扩展
 
@@ -206,11 +209,11 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 <tr class="even">
 <td>服务连接性</td>
 <td>平台<br />
-（通话计划 + DR）</td>
+ (通话计划 + DR) </td>
 <td>直接路由</td>
 <td>直接路由</td>
 <td>平台<br />
-（通话计划 + DR）</td>
+ (通话计划 + DR) </td>
 </tr>
 </tbody>
 </table>

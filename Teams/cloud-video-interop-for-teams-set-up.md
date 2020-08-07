@@ -1,7 +1,7 @@
 ---
 title: 设置 Microsoft Teams 的云视频互操作性
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e937e7825000d02156c1f5ede2671711006cbdd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a1f45967b3e2737f6e2df74c505932ea69afe37f
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825100"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46582629"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>设置 Microsoft Teams 的云视频互操作性
 
-[选择你的云视频互操作合作伙伴](cloud-video-interop.md)后，你需要规划你的部署、使用预配详细信息和合作伙伴租户密钥进行设置，并同意你的组织中的视频互操作应用。 下图概括介绍了该过程。 
+[选择你的云视频互操作伙伴 (s) ](cloud-video-interop.md)后，你需要规划部署、使用预配详细信息和合作伙伴租户密钥进行设置，并同意你的组织中的视频互操作应用。 下图概括介绍了该过程。 
 
 ![在组织中部署 CVI](media/deploying-cvi.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "41825100"
 
 若要配置云视频互操作，请按照下列步骤操作。 
 
-1. 从您选择的合作伙伴/合作伙伴获取配置信息（租户密钥，appIds ...）。 你可以使用你的组织中的一个或多个视频互操作合作伙伴 
+1. 从你选择的合作伙伴/合作伙伴那里获取配置信息 (租户密钥 appIds ) 。 你可以使用你的组织中的一个或多个视频互操作合作伙伴 
 
 2. 确保您的网络配置正确。 为支持的外围网络遍历配置基于标准的视频防火墙。 例如： 
     - Cisco VCS-e                  
@@ -62,7 +62,7 @@ ms.locfileid: "41825100"
 你将需要执行以下 cmdlet 来设置租户密钥，还可以启用选择用户或整个组织以使用视频互操作坐标创建会议。
 
  
-- ** [CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy)：** Microsoft 为每个受支持的合作伙伴提供预构建的策略，允许你指定要用于云视频互操作的合作伙伴。
+- ** [CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy)：** Microsoft 为每个受支持的合作伙伴提供预构建的策略，允许你指定哪些合作伙伴 (s) 用于云视频互操作。
 
     此 cmdlet 允许你标识可在你的组织中使用的预构建的策略。 你可以利用 CsTeamsVideoInteropServicePolicy cmdlet 将此策略分配给一个或多个用户。
  
@@ -78,17 +78,17 @@ ms.locfileid: "41825100"
  
 ## <a name="consent"></a>即
 
-你将需要为视频 teleconferencing 设备（VTCs）提供权限同意，以便通过合作伙伴服务加入你的组织会议。 您的合作伙伴也将提供此同意链接。  
+你将需要为视频 teleconferencing 设备提供权限同意， (VTCs) 通过合作伙伴服务加入组织会议。 您的合作伙伴也将提供此同意链接。  
  
 完成这些步骤后，通过上述授权 cmdlet 单独启用的用户或组织中的所有用户（如果启用了租户）将在其计划的所有团队会议中具有 VTC 坐标。 任何 VTC 都可以通过这些坐标加入这些会议。
 
 
 |名称|应用程序权限简短说明| 说明|
 |--|--|---|
-|JoinGroupCall|将组呼叫和会议作为应用加入（预览）|允许应用在你的组织中加入群组通话和计划会议，无需登录用户。  应用将使用目录用户的权限加入租户中的会议。|
-|JoinGroupCallasGuest|以来宾用户身份加入群组呼叫和会议（预览）|允许应用在没有登录用户的情况下匿名加入组织中的群组通话和计划会议。  该应用将作为来宾加入到租户中的会议。|
-|AccessMedia|在作为应用（预览版）的呼叫中访问媒体流|允许应用无需登录用户即可直接访问呼叫中的媒体流。|
-|OnlineMeetings 已读。所有|阅读联机会议详细信息（预览）|允许应用在没有登录用户的情况下阅读您的组织中的联机会议详细信息。|
+|JoinGroupCall|将组呼叫和会议作为应用加入 (预览) |允许应用在你的组织中加入群组通话和计划会议，无需登录用户。  应用将使用目录用户的权限加入租户中的会议。|
+|JoinGroupCallasGuest|以来宾用户身份加入群组呼叫和会议 (预览) |允许应用在没有登录用户的情况下匿名加入组织中的群组通话和计划会议。  该应用将作为来宾加入到租户中的会议。|
+|AccessMedia|将呼叫中的媒体流作为应用 (预览) 中访问|允许应用无需登录用户即可直接访问呼叫中的媒体流。|
+|OnlineMeetings 已读。所有| (预览) 阅读联机会议详细信息|允许应用在没有登录用户的情况下阅读您的组织中的联机会议详细信息。|
 
 ## <a name="schedule"></a>安排
 
@@ -101,12 +101,12 @@ ms.locfileid: "41825100"
 
 你可以通过以下方式与你的 VTC 设备加入团队会议：
  
-- IVR （交互式语音响应）
+- IVR (交互式语音回复) 
     - 您可以使用 tenantkey@domain 拨入合作伙伴的 IVR。 
     - 在合作伙伴 IVR 中，系统将提示你输入 VTC conferenceId，然后该将把你连接到团队会议。
 - 直接拨号
     - 通过使用直接拨号功能 tenantkey 的完整字符串，您可以直接拨入团队会议，而无需使用直接拨号功能与合作伙伴的 IVR 进行交互。VTC ConferenceId@domain。
 - 单点触控拨号
-    - 如果您有一个集成的团队聊天室，则可以使用合作伙伴提供的一种触摸式拨号功能（无需键入任何拨号字符串）。
+    - 如果您有一个集成的团队聊天室，则可以使用合作伙伴 (提供的一种触摸式拨号功能，而无需键入任何拨号字符串) 。
 
 最后，在会议中使用音频、视频和内容共享与团队用户接洽。 

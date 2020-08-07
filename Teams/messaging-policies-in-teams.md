@@ -1,7 +1,7 @@
 ---
 title: 在 Teams 中管理消息传递策略
-ms.author: lolaj
-author: lolajacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 在本文中，你将了解消息策略以及如何使用它们控制团队中的聊天消息服务。
-ms.openlocfilehash: c29697c8ec4d235ed232616e34590351bea59e9e
-ms.sourcegitcommit: 2467ece95e100a3a3cc2be3538d8eb7d878b3663
+ms.openlocfilehash: 75ea34b23f80538fad2cbf2b1e456ad6ab98ea2c
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "45042974"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583289"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>在 Teams 中管理消息传递策略
 
 <!--- Add zone marker here--->
 
-消息传递策略用于控制为 Microsoft Teams 中的用户提供哪些聊天和频道消息功能。 你可以使用自动创建的全局（组织范围默认）策略，也可以创建并分配自定义消息策略。
+消息传递策略用于控制为 Microsoft Teams 中的用户提供哪些聊天和频道消息功能。 你可以使用全局 (组织范围的默认) 策略，该策略自动创建，或者创建和分配自定义消息策略。
 
 除非你创建并分配了自定义策略，你组织中的用户将自动获取全局策略。 你可以编辑全局策略中的设置，或者创建并分配一个或多个自定义策略来打开或关闭所需的功能。
 
@@ -80,7 +80,7 @@ ms.locfileid: "45042974"
 - **用户可以编辑已发送的邮件**使用此设置可让用户编辑他们在聊天中发送的邮件。
 - 已**读回执**"已读" 回执允许收件人在1:1 和群组聊天20人或更少的人阅读其邮件时，收到聊天消息的发件人。 邮件已读回执删除有关邮件是否已被阅读的 uncertainly，并改善团队沟通。 请注意，未在电子数据展示报告中捕获 "已读回执"。  
     - **用户控制**这意味着用户可以决定是否要打开或关闭 "已读" 回执。 应用内的默认设置为 "打开"。 然后，用户可以将其关闭。
-    - 对**所有人启用**这意味着租户中的每个人都将启用该功能，而不选择将其关闭。 请注意 **，为整个**租户设置回执的唯一方式是仅为整个租户设置一个消息策略（名为 "Global （组织范围默认）" 的默认策略），或者让租户中的所有消息策略对收据使用相同的设置。 当**为所有人**启用该功能时，"已读回执" 功能最有效。
+    - 对**所有人启用**这意味着租户中的每个人都将启用该功能，而不选择将其关闭。 请注意 **，为整个**租户设置回执的唯一方式是仅为整个租户设置一个邮件策略 (名为 "全局 (组织范围默认) " 的默认策略 ) 或使租户中的所有消息策略对收据使用相同的设置。 当**为所有人**启用该功能时，"已读回执" 功能最有效。
     - **对所有人关闭**这意味着该功能将被禁用，并且租户中的任何人均未读回执，也不能将其打开。
 <a name="bkchat"> </a>
 

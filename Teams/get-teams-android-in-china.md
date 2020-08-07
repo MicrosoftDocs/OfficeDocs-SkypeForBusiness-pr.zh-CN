@@ -1,7 +1,7 @@
 ---
 title: 在中国获取 Microsoft Teams for Android
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 在中国获取下载 Microsoft Teams for Android 的链接。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd9e9988d581beff8a6d09df13f3cedb1a03fc14
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: e4820b5548ead2d8b271689ca4814b0f7b8ce15d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858747"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583511"
 ---
 # <a name="get-microsoft-teams-for-android-in-china"></a>在中国获取 Microsoft Teams for Android
 

@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 范围目录搜索
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 06/21/2019
 audience: Admin
@@ -19,18 +19,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e81e2fb588e718060ffbdf90a51c020ff2d6556c
-ms.sourcegitcommit: b381d8f0b9fc45133d52175fa85901b66e744abd
+ms.openlocfilehash: d4152a2ac9ee50372dbc0fdb423d0d85c3026433
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "44326589"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584071"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 范围目录搜索
 
 Microsoft 团队范围目录搜索允许组织创建虚拟边界，以控制用户如何与组织中的其他用户进行查找和通信。 
 
-Microsoft 团队允许组织向其用户提供目录的自定义视图。 Microsoft 团队使用[信息障碍策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)来支持这些自定义视图。 启用策略后，搜索其他用户（例如启动聊天或向团队添加成员）所返回的结果将按配置的策略确定范围。 当范围搜索生效时，用户将无法搜索或发现团队。 
+Microsoft 团队允许组织向其用户提供目录的自定义视图。 Microsoft 团队使用[信息障碍策略](https://docs.microsoft.com/microsoft-365/compliance/information-barriers)来支持这些自定义视图。 启用策略后，搜索其他用户所返回的结果 (例如，启动聊天或将成员添加到团队) 将根据配置的策略确定范围。 当范围搜索生效时，用户将无法搜索或发现团队。 
 
 > [!NOTE]
 > 在 Exchange 混合环境中，此功能仅适用于 Exchange Online 邮箱，而不适用于本地邮箱。
@@ -53,7 +53,7 @@ Microsoft 团队允许组织向其用户提供目录的自定义视图。 Micros
 
 2. 在 "Microsoft 团队管理中心" 中，选择 "**组织范围设置**"  >  **团队设置**。
 
-3. 在 "**搜索**" 下，在**使用 Exchange 通讯簿策略（ABP）的团队中的 "范围目录搜索**" 旁边，打开 "打开 **"。**
+3. 在 "**搜索**" 下，**使用 Exchange 通讯簿策略 (团队中的 "范围目录搜索" 旁边 ABP) **"，打开 **" 打开 "。**
 
     ![Microsoft 团队管理中心中的范围目录搜索](media/teams-scoped-directory-search-image1.png)
 

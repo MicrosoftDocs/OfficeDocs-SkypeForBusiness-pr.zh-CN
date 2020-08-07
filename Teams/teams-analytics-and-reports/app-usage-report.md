@@ -1,7 +1,7 @@
 ---
 title: Microsoft 团队应用使用情况报表
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: 了解如何使用 Microsoft 团队管理中心中的 "团队应用
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 565a3cb28b73a37162947859effc6ec154b59258
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: 91af37ed9c19a1d3e8d32cdf296cf32e90818564
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938201"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583791"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft 团队应用使用情况报表
 

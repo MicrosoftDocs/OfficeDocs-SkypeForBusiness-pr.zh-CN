@@ -19,16 +19,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 26f26e869758c06762167731068033acb1707135
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506361"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583169"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>团队管理员控制台中的团队模板入门
 
 [!INCLUDE [template](includes/preview-feature.md)]
+
+**教育机构客户尚不支持自定义模板。**
 
 > [!NOTE]
 > 团队模板当前不支持创建专用通道。 模板定义中不包含专用通道创建。
@@ -51,8 +53,8 @@ ms.locfileid: "46506361"
 | 基本模板类型 | 团队成员身份 |
 | 团队名称 | 工作组图片 |
 | 团队说明 | 频道设置 |
-| 团队可见性（公共或专用） | 连接器 |
-| 团队设置（例如，成员、来宾、@ 提及） | 文件和内容 |
+| 团队可见性 (公共或私有)  | 连接器 |
+| 团队设置 (例如，"成员"、"来宾"、"@ 提及")  | 文件和内容 |
 | 自动收藏的频道 | |
 | 已安装应用 | |
 | 固定的选项卡 | |
@@ -89,6 +91,6 @@ ms.locfileid: "46506361"
 
 ## <a name="related-topics"></a>相关主题
 
-- [创建团队模板](create-a-team-template.md)
-- [从现有团队模板创建团队](modify-existing-team-template.md)
-- [从现有团队创建模板](create-team-from-existing-team.md)
+- [创建自定义团队模板](create-a-team-template.md)
+- [从现有团队模板创建团队模板](create-template-from-existing-template.md)
+- [从现有团队创建模板](create-template-from-existing-team.md)

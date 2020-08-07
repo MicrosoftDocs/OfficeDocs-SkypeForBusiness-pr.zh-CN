@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 组和 Microsoft 团队
 ms.reviewer: Kyle Blevins
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 04/16/2019
 ms.topic: conceptual
@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec2845723ce7f4a593064795f158ddf718d5b6e5
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a44adb84cb6669bb96bd617fb52ea9b5fdceb7af
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753892"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581123"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 组和 Microsoft 团队
 =====================================
 
 > [!Tip]
-> 观看以下会话，了解团队如何与 Azure Active Directory （Azure AD）、Microsoft 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队的基础](https://aka.ms/teams-foundations)
+> 观看以下会话，了解团队如何与 Azure Active Directory (Azure AD) 、Microsoft 365 组、Exchange、SharePoint 和 OneDrive for business 进行交互： [Microsoft 团队的基础](https://aka.ms/teams-foundations)
 
 Microsoft 365 组是 Office 365 中的跨应用程序成员身份服务。 在基本级别，Microsoft 365 组是 Azure Active Directory 中的一个对象，其中包含一组成员以及与相关工作负荷之间的松散耦合（包括 SharePoint 团队网站、Yammer 组、共享 Exchange 邮箱资源、Planner、Power BI 和 OneNote）。 您可以像对待 Active Directory 中任何其他基于组的安全对象一样，在组中添加或删除人员。
 
@@ -55,7 +55,7 @@ Office 365 管理员可以定义 Microsoft 365 组、添加成员和受益于诸
 
 您的用户的组功能和功能取决于您从哪里推动组成员身份。 例如，如果删除团队的成员，则也会从 Microsoft 365 组中删除这些成员。 从组中删除立即从团队客户端删除团队和频道。 如果您使用 Microsoft 365 管理中心从组中删除人员，他们将无法再访问其他协作方面，例如 SharePoint Online 文档库、Yammer 组或共享的 OneNote。 但是，他们在大约两个小时内仍可访问团队的聊天功能。
 
-作为管理团队成员的最佳做法，在团队客户端添加和删除成员以确保应用对其他从属云应用程序的正确的级联访问控制。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果你在团队客户端外部添加或删除团队成员（使用 Microsoft 365 管理中心、Azure AD 或 Exchange Online PowerShell），则可能需要长达24小时（在某些情况下）才能在团队中反映更改。
+作为管理团队成员的最佳做法，在团队客户端添加和删除成员以确保应用对其他从属云应用程序的正确的级联访问控制。 此外，你还将避免出现不连贯的体验，让用户认为他们仍可访问曾经访问的资源（直到下一个同步周期，添加或撤消对服务的特定组件的访问权限）。 如果你在团队客户端 (使用 Microsoft 365 管理中心、Azure AD 或 Exchange Online PowerShell) 添加或删除团队成员，则在某些情况下，可能需要长达 24 (小时才能在团队中反映更改) 。
 
 <a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>在安排会议时将组添加为与会者的能力
 ----------------------------------------------------------

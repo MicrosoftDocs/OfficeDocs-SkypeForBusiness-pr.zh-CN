@@ -17,134 +17,68 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。
-ms.openlocfilehash: e34734d88caa011185e56c5540d0fe6cee62dfe0
-ms.sourcegitcommit: 3ed779277540589eabef745685ab6c67d8a8ff90
+ms.openlocfilehash: b017e02b2d3d2bdc6b01886929d034abb6650384
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "44281753"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583951"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 的电话功能
 
-Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 本文介绍针对 microsoft 团队认证的手机的列表，以及 Microsoft 团队的手机认证中支持的功能。 若要获取有关团队认证的设备的最新信息和最新信息，请转到[团队市场](https://office.com/teamsdevices)。
+Microsoft 团队为需要传统电话体验的用户支持一套桌面电话。 本文提供了有关团队手机的完整概述，并可帮助你在 Microsoft Phone 系统解决方案中规划、提供和管理 Microsoft 团队的手机。 
 
-## <a name="teams-certified-ip-phones"></a>团队认证的 IP 电话
+为在手机上提供高质量和可靠的 Microsoft 团队体验，我们将与 Yealink、Crestron、联想、Polycom 和 Audiocodes 合作，以开发和认证一系列桌面手机和会议室音频设备。 若要获取有关团队设备的最新信息和最新信息，请转到[团队市场](https://office.com/teamsdevices)。
 
-为在手机上提供高质量和可靠的 Microsoft 团队体验，我们将与 Yealink、Crestron、Polycom 和 Audiocodes 进行合作并主动处理，以开发和认证一系列桌面手机和会议室音频设备。 请参阅当前[经过认证的 IP 电话](teams-ip-phones.md#currently-certified-ip-phones)以获取当前受支持的设备。
+## <a name="features-supported-by-teams-phones"></a>团队手机支持的功能
+团队认证的手机具有广泛的功能，可帮助你的用户完成工作，并帮助你管理其使用。 下面是团队认证的手机中可用的功能摘要：
 
-## <a name="microsoft-teams-phones-feature-set"></a>Microsoft 团队手机功能集
+- **身份验证**手机使用新式身份验证简化登录和提高安全性。 用户可以通过在手机上输入用户名和密码，或通过其他设备（如 PC/智能手机）登录来登录。
+- **快速拨号和通话记录**用户可以快速访问其联系人、通话历史记录和语音邮件。 他们可以轻松地管理联系人，并通过电话快速拨打拨号条目。
+- **会议和通话**用户可以查看其日程安排，并轻松地使用团队的一次触控联接加入会议。
+- **呼叫组**参与呼叫组的电话代理可以轻松管理其可用性并接受或拒绝来自呼叫队列的传入呼叫。
+- **用户委派**行政助理和管理员可管理其执行官的电话-截取来电;代表总经理进行呼叫;接管管理层暂候的通话;并监控执行官是否在通话、保持通话等。
+- **热 desking**用户可以通过登录到手机来获取他们的联系人、会议和其他首选项。 完成后，他们可以注销，并让下一位用户的电话准备就绪。
+- **视频**带有视频支持的手机让用户加入呼叫和视频会议，就像他们在自己的计算机上一样。 用户可以通过使用手机的相机快门和麦克风静音开关（如果可用）来保持隐私。
+- **更好地协作**当连接到运行64位团队桌面客户端的 Windows 电脑时，手机可以以集成方式锁定和解锁。
+- **辅助功能**手机具有多种辅助功能（如高对比度文本），便于任何人使用。
+- **动态和增强的 E911 支持**呼叫911的登录用户将在手机上看到他们的位置。 
+    > [!IMPORTANT]
+    > 如果某个电话未登录，或者没有 Internet 连接，则无法放置911呼叫。 如果出现这种情况，将在手机上显示通知。
 
-下表提供了团队认证的 IP 电话支持的高级功能集。
-
-|功能 |桌面电话（个人模式） |会议室电话（共享模式）|
-|---------|---------|---------|
-|**身份验证** | |  |
-|使用用户凭据登录 |  必需 | 是|
-|使用 PC/智能手机登录  | 必需 |是|
-|现代化身份验证 | 必需 |是 |
-|电话锁定/解锁 | 是 |否 |
-|**通话** |  |  |
-|传入/传出 P2P 呼叫 | 必需  |是 |
-|通过 UI 进行的通话控制（静音、保持/恢复、转移、结束呼叫）| 必需  |是 |
-|PSTN 呼叫| 必需  |是 |
-|可视语音邮件 | 是 | 否 |
-|911支持  | 必需  |是 |
-|**日历和状态**|   | |
-|日历访问和会议详细信息|必需 |是|
-|状态集成 |是|是|
-|Exchange 日历集成 |必需|是|
-|联系人图片集成  |必需|是|
-|公司目录访问 | 必需|是|
-|**会议**|   ||
-|会议的一次单击加入  | 必需  |是 |
-|加入 Skype for Business 会议 | 必需  | 是|
-|会议呼叫控件（静音/取消静音、保持/恢复、挂断、添加/删除参与者）|必需|是|
-|会议详细信息|是|否|
-
-我们正在努力不断添加功能，以帮助我们的用户在手机上增强其团队体验。 下面的屏幕截图展示了我们目前支持的一些体验。
-
-## <a name="sign-in-experience"></a>登录体验
-
-当用户单击团队中的登录按钮时，通过公司门户启动登录。 用户可以通过在手机上输入用户凭据或通过选择从其他设备登录来选择登录。 如果用户选择从其他设备登录，则用户可以从其 PC 或智能手机完成身份验证。
-
-**用户使用凭据登录**
-
-![通过凭据登录的屏幕截图](../media/sign-in-with-credentials.png)
-
-**通过 PC/智能手机进行用户登录**
-
-![通过其他设备登录的屏幕截图](../media/sign-in-with-device.jpg)
-
-## <a name="personalshared-mode"></a>个人/共享模式
-
-登录成功后，用户可以选择是将设备用于个人使用还是共享会议室。
-
-!["个人" 或 "共享帐户" 选项的屏幕截图](../media/personal-vs-shared-mode.jpg)
-
-"团队手机体验" 根据用户的选择进行了优化。
-
-**个人模式**
-
-![个人模式下的帐户的屏幕截图](../media/personal-mode.png)
-
-**共享模式**
-
-![共享模式下的帐户的屏幕截图](../media/shared-mode.png)
-
-## <a name="calling-experience"></a>通话体验
-
-Microsoft 团队用户可以抬起话筒或按扬声器按钮，在通话屏幕上启动拨号盘。 或者，用户可以使用硬件按钮（如果可用）拨出号码。
-
-**屏幕上的拨号盘**
-
-![屏幕上拨号盘的屏幕截图](../media/on-screen-dial-pad.png)
-
-**通话屏幕**
-
-![通话屏幕的屏幕截图](../media/calling-screen.png)
-
-## <a name="meeting-experience"></a>会议体验
-
-Microsoft 团队用户可以导航到 "会议" 选项卡以查看其会议，并使用 "**加入**" 按钮加入其团队会议。
-
-**日历视图**
-
-![日历视图中会议的屏幕截图](../media/calendar-view.png)
-
-**会议联接视图**
-
-!["加入" 视图中会议的屏幕截图](../media/meeting-join-view.png)
-
-
-## <a name="voicemail"></a>语音邮件
-
-Microsoft 团队用户在导航到 "**语音邮件**" 选项卡时可以访问他们的语音邮件。
-
-!["语音邮件" 选项卡的屏幕截图](../media/voicemail-tab.png)
-
-## <a name="user-sign-out"></a>用户注销
-
-工作组电话用户可以从左上方菜单中选择 "**注销**" 选项来选择注销。
-
-![注销团队的屏幕截图](../media/teams-sign-out.png)
-
-## <a name="finding-the-firmware-version-on-a-mobile-device"></a>在移动设备上查找固件版本
-
-通过选择右上角的 "**设置**" 图标，然后单击 "**关于**"，可以在团队登录页面上检查最低固件版本。
-
-**团队登录页面**
-
-![团队登录页面的屏幕截图](../media/teams-sign-in-page.jpg)
-
-**设置页面**
-
-!["团队设置" 页面的屏幕截图](../media/teams-settings-page.jpg)
+除了上述功能，您还可以根据分配给登录到手机的用户的许可证和电话策略的类型来控制可用的功能。 例如，使用个人帐户登录到手机的用户可以访问各种功能-通话、会议、语音邮件等。 如果帐户分配了登录到手机的通用区域电话许可证，则只能访问有限范围的功能;例如，通话记录和会议计划可能无法保留，例如保护用户的隐私。
 
 ## <a name="required-licenses"></a>需要的许可证
 
 Microsoft 团队许可证可以作为其[microsoft 365 和 Office 365 订阅](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的[电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
 有关获取团队的详细信息，请查看[如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+
+## <a name="deploy-your-phones-via-intune"></a>通过 Intune 部署你的手机
+
+### <a name="conditional-access"></a>条件访问
+
+条件访问是一种 Azure Active Directory 功能，可帮助你确保访问 Office 365 资源的设备正确管理且安全。  如果你将条件访问策略应用到团队服务，则 Android 设备 (包括团队电话) 需要将访问团队注册到 Intune 且其设置需要遵守你的策略。  如果设备未注册到 Intune，或者它已注册，但其设置不符合你的策略，则条件访问将阻止用户登录或使用设备上的 "团队" 应用。
+
+通常，在 Intune 中定义的合规性策略将分配给用户组。  这意味着，如果你将 Android 合规性策略分配给 user@contoso.com，该策略将同等地应用于其 Android 智能手机和 user@contoso.com 登录的任何基于 Android 的团队设备。
+
+如果使用条件访问（需要强制执行 Intune 注册），则需要设置以下几项才能允许成功完成 Intune 注册：
+
+- **Intune 许可证**登录到 Microsoft 团队手机的用户必须获得 Intune 许可。  只要 Microsoft 团队手机登录到具有有效 Intune 许可证的用户帐户，手机将在登录过程中自动注册到 Microsoft Intune 中。
+- **配置 Intune**你必须为 Android 设备管理员注册设置正确配置的 Intune 租户。
+
+### <a name="configure-intune-to-enroll-teams-android-based-devices"></a>将 Intune 配置为基于 Android 的设备注册团队
+
+基于 Android 的团队设备通过 Android 设备管理员 (DA) 管理在 Intune 中管理。 在设备可以注册到 Intune 之前，需要执行一些基本步骤。  如果你现在已使用 Intune 管理设备，你可能已经完成了所有这些操作。  如果不是，请执行以下操作：
+
+1. 将 Intune MDM (移动设备管理) 机构。  如果你以前从未使用过 Intune，则需要先设置 MDM 机构，然后才能注册设备。 有关详细信息，请参阅[设置移动设备管理机构](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set)。  这是在创建新的 Intune 租户时必须执行的一次性步骤。
+2. 启用 Android 设备管理员注册。 基于 Android 的团队设备通过 Intune 作为设备管理员设备进行管理。  默认情况下，对于新创建的租户，设备管理员注册处于关闭状态。  有关详细信息，请参阅[Android 设备管理员注册](https://docs.microsoft.com/intune/enrollment/android-enroll-device-administrator)。
+3. 为用户分配许可证。 必须为要注册到 Intune 的团队设备用户分配一个有效的 Intune 许可证。 有关详细信息，请参阅[为用户分配许可证，以便他们可以在 Intune 中注册设备](https://docs.microsoft.com/intune/fundamentals/licenses-assign)。
+4. 分配设备管理员合规性策略。  创建一个 Android 设备管理员合规性策略，并将其分配给 Azure Active Directory 组，其中包含将登录到团队设备的用户。 有关详细信息，请参阅[使用合规性策略为使用 Intune 管理的设备设置规则](https://docs.microsoft.com/mem/intune/protect/device-compliance-get-started)。
+
+## <a name="manage-your-phones"></a>管理您的手机
+
+租户管理员可以通过团队管理中心管理所有团队设备并使其保持最新状态。 有关详细信息，请参阅[在 Microsoft 团队中管理设备](https://docs.microsoft.com/microsoftteams/devices/device-management)。 
 
 ## <a name="see-also"></a>另请参阅
 

@@ -1,7 +1,7 @@
 ---
-title: 通话质量仪表板（CQD）常见问题（FAQ）
-ms.author: lolaj
-author: LolaJacobsen
+title: '通话质量仪表板 (CQD) 常见问题 (常见问题) '
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,15 +20,15 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 阅读常见问题（FAQ）和有关 Microsoft 团队通话质量仪表板（CQD）的解答。
-ms.openlocfilehash: 43dd0f85c21914320ff48c2e0aab82614670ff90
-ms.sourcegitcommit: 3e5cac88911611c94c0330bf50af9c34db308cdf
+description: 阅读常见问题 (常见问题) 和有关 Microsoft 团队通话质量仪表板 (CQD) 的解答。
+ms.openlocfilehash: 8ad0a1745799194ec11284f8f7aaabd76bd30d05
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45372121"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584021"
 ---
-# <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通话质量仪表板（CQD）常见问题（FAQ）
+# <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通话质量仪表板 (CQD) 常见问题 (常见问题) 
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 
@@ -50,7 +50,7 @@ ms.locfileid: "45372121"
 
 若要确定是否是网络问题，请查看会话平均值与最大值之间的增量。 最大值是会话期间检测和报告的最大值。
  
-下面是如何解决这种情况的示例。 假设你在呼叫过程中获取网络跟踪，并且前20分钟，没有丢失数据包，但你的数据包的间隔为1.5 秒，然后就可以在通话的其余部分中使用。 平均 <10% （0.1）数据包丢失，即使在 Wireshark 跟踪 RTP 分析中也是如此。 最大数据包丢失程度是多少？ 5秒内的1.5 秒将是30% （0.3）。 在五秒的采样周期内发生（也许还是可以在采样周期内拆分）？
+下面是如何解决这种情况的示例。 假设你在呼叫过程中获取网络跟踪，并且前20分钟，没有丢失数据包，但你的数据包的间隔为1.5 秒，然后就可以在通话的其余部分中使用。 平均 <10% (0.1) 数据包丢失，即使在 Wireshark 跟踪 RTP 分析中也是如此。 最大数据包丢失程度是多少？ 5秒内的1.5 秒将 (0.3) 30%。 在五秒的采样期内发生的情况 (可能还是可以在) 抽样期间拆分？
  
 如果网络指标在平均值和最大值中看起来很好，请查看其他遥测数据： 
 - 检查 CPU 的事件比率不足，查看检测到的 CPU 资源是否不足，导致质量较差。 
@@ -76,16 +76,16 @@ ms.locfileid: "45372121"
 
 
 > [!IMPORTANT]
-> 从2020年7月1日起，较早的 CQD （CQD.lync.com）使用最新 CQD （CQD 中的数据。Teams.microsoft.com）。 较旧的 CQD 数据不再可用，并且您不能导出您的建筑物或报表数据。 您仍然可以使用 CQD.lync.com （Skype for Business 管理中心提供），但我们将关闭对 CQD.lync.com 的访问，因此应转到 CQD。Teams.microsoft.com 如果还未执行此操作。
+> 从2020年7月1日起，较早的 CQD (CQD.lync.com) 使用最新 CQD (CQD 中的数据。Teams.microsoft.com) 。 较旧的 CQD 数据不再可用，并且您不能导出您的建筑物或报表数据。 您仍然可以使用 Skype for Business 管理中心) 的 CQD.lync.com (，但我们会立即关闭对 CQD.lync.com 的访问，因此应转到 CQD。Teams.microsoft.com 如果还未执行此操作。
 
 
-如果您尝试比较旧 CQD 之间的数据与 Skype for Business 旧式门户（cqd.lync.com）和团队管理中心（cqd.teams.microsoft.com）中的最新 CQD，您将很快发现数据不匹配。 这是因为最新的 CQD 报告了许多额外的通话方案。 如果您仍在使用来自较旧 CQD 的报表，请使用本文帮助解释这些报表： " [Skype for business" 服务器的 "呼叫质量" 仪表板](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)。
+如果你尝试比较旧 CQD 之间的数据与 Skype for Business 旧门户 (cqd.lync.com) 和团队管理中心 (cqd.teams.microsoft.com) 中的最新 CQD，你将很快发现数据不匹配。 这是因为最新的 CQD 报告了许多额外的通话方案。 如果您仍在使用来自较旧 CQD 的报表，请使用本文帮助解释这些报表： " [Skype for business" 服务器的 "呼叫质量" 仪表板](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)。
 
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>为什么我在 CQD 中看不到 EUII？
 
-这些管理员角色可以访问 CQD，但不能查看 EUII （最终用户身份信息）：
+这些管理员角色可以访问 CQD，但他们不能查看 EUII (最终用户可识别信息) ：
 - Microsoft 365 报表读者
 - 团队沟通支持专家
 
@@ -93,13 +93,13 @@ ms.locfileid: "45372121"
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>为什么我仅当我筛选了团队时，我在 CQD 中看到 Skype for Business 信息？
 
-当仅在 CQD 报表（isTeams = 1）中筛选团队时，将筛选*第一个终结点*为团队的所有调用。 如果*第二个终结点*是 Skype for business，则该信息将显示在您的 CQD 报告中。
+仅在 CQD 报表中筛选团队时 (isTeams = 1) 中，你将筛选*第一个终结点*为团队的所有调用。 如果*第二个终结点*是 Skype for business，则该信息将显示在您的 CQD 报告中。
 
 CQDv2 和 CQDv3 将始终具有不同的总数，因为 CQDv3 将具有 CQDv2 没有的新方案。 这就是比较 "摘要总数" 或 "不带筛选器的聚合的所有数字" 的原因将具有这些预期的差异。  
 
-根据客户的情形，CQDv3 将包括 SFB 2019 本地呼叫（如果 SFB 2019 与数据连接器一起使用）、Skype 机器人呼叫（AA、CVI、VDI）、实时事件和 PSTN 呼叫。 适用于客户的方案/功能，但其数据不在 CQD V2 中。
+根据客户的情形，CQDv3 将包括 SFB 2019 本地呼叫 (如果 SFB 2019 与数据连接器) 一起使用，则 Skype 机器人将 (AA、CVI、VDI) 、实时事件和 PSTN 呼叫中进行呼叫。 适用于客户的方案/功能，但其数据不在 CQD V2 中。
 
-例如，预计你的客户和你将看到200000音频流，并且 CQD V2 摘要报告中出现5000故障。300000音频流与5500故障的对比2019（来自 CQD V3 中的本地呼叫、CVI 呼叫、PSTN 呼叫等）。
+例如，预计你的客户和你将看到200000音频流，并且 CQD V2 摘要报告中出现5000故障。5500故障与300000音频流的对比 (来自2019本地呼叫、CVI 呼叫、PSTN 呼叫等) CQD V3。
 
 为了确定是否存在任何意外的差异，您必须查看整个数据的各种细目。  与意向进行比较。  按用户代理类别对数据进行切片是我们建议的第一项。  *第一种产品*和*第二种产品*也是良好的切片器。  
 
@@ -110,7 +110,7 @@ CQDv2 和 CQDv3 将始终具有不同的总数，因为 CQDv3 将具有 CQDv2 �
 
 [什么是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[设置通话质量仪表板（CQD）](turning-on-and-using-call-quality-dashboard.md)
+[设置通话质量仪表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
 [上载租户和生成数据](CQD-upload-tenant-building-data.md)
 

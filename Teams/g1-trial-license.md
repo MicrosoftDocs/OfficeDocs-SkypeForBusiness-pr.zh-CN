@@ -1,7 +1,7 @@
 ---
 title: 管理适用于美国政府的 Office 365 G1 免费试用版
-author: LolaJacobsen
-ms.author: lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: Admin
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38ffb22e1f1321f7aebffa2ae22bb154bef48ca5
-ms.sourcegitcommit: ad82786076cc965e75b1ec5ffd4bc9bf75437340
+ms.openlocfilehash: 4bdfdfb180005913b650cee27c350cf7c3ad5a27
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "45028098"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46583219"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理适用于美国政府的 Office 365 G1 试用版 
 ==============================

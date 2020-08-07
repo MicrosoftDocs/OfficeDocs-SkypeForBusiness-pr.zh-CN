@@ -1,7 +1,7 @@
 ---
 title: 使用 CQD 数据在 Power BI 中查看 Microsoft 团队的利用率
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 使用 "团队使用 Power BI BI 报表" 访问 Microsoft 团队通话质量仪表板（CQD）数据以跟踪你的组织中的 Microsoft 团队使用情况。
-ms.openlocfilehash: bd1a95a683da881a78acb5d4849bba0ac55f4898
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+description: 使用 "团队使用 Power BI BI 报表" 访问 Microsoft 团队通话质量仪表板 (CQD) 数据以跟踪您的组织中的 Microsoft 团队使用情况。
+ms.openlocfilehash: bda89f3715997016e6c1bea242dcf6b8b182c6bf
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45085578"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581543"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>使用 CQD 数据在 Power BI 中查看 Microsoft 团队的利用率
 
 2020年3月新增功能，我们已将团队使用情况报告添加到可下载[的 POWER BI 查询模板 FOR CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
 
-此新团队使用情况报告让你可以通过访问团队通话质量仪表板（CQD）数据来查看你的用户使用 Microsoft 团队的方式（以及多少）。 这些报表旨在作为中心位置，供管理员和业务负责人快速访问此数据。
+这一新的团队使用情况报告让你可以通过访问团队通话质量仪表板 (CQD) 数据，了解 (和你的用户使用 Microsoft 团队) 的程度。 这些报表旨在作为中心位置，供管理员和业务负责人快速访问此数据。
 
 "团队利用率 Power BI" 报表包含两个主要报表： "**[通话计数摘要](#call-count-summary-report)**" 和 "**[音频分钟摘要](#audio-minutes-summary-report)**"。 [每日使用情况](#daily-usage)、[区域音频详细信息](#regional-audio-details)、[会议详细信息](#conference-details)和[用户列表](#user-list)报告在用户利用分级式报告（如下所述的说明）中时，将会播放。
 
@@ -36,7 +36,7 @@ ms.locfileid: "45085578"
 
 ## <a name="call-count-summary-report"></a>通话计数摘要报告
 
-主页面（"呼叫计数摘要"）立即提供最近30日和90天内的音频、视频和屏幕共享会话数，如部分标题中所述。 最初显示的数据适用于整个组织，并且可以使用页面左侧的切片器下拉选项进行筛选。
+主页面 ("呼叫计数摘要") 立即提供最近30日和90天内的音频、视频和屏幕共享会话数（如节标题中所述）。 最初显示的数据适用于整个组织，并且可以使用页面左侧的切片器下拉选项进行筛选。
 
 ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report1.png)
 
@@ -53,7 +53,7 @@ ms.locfileid: "45085578"
 在页面的左下部分，你将找到一个表，其中提供了过去一年的每种媒体类型的总值。 
     ![屏幕截图：团队利用率报告 ](media/CQD-teams-utilization-report5.png) ![ 屏幕截图：团队利用率报告](media/CQD-teams-utilization-report6.png)   
 
-在表右侧，条形图显示过去30天内最常用的客户端（"调用/流"）。
+在表的右侧，条形图显示过去30天内最常使用 (通话/流) 的客户。
    ![屏幕截图：团队使用率报告](media/CQD-teams-utilization-report7.png)
 
 此页面的最后一组图表分别显示每种媒体类型，并显示 "会议和 P2P 使用情况" 细目。 下面的图表显示，与 P2P 相比，有明显更高的会议使用次数。

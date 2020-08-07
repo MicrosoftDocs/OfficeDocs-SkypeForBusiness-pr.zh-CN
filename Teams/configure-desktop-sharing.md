@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中配置桌面共享
-author: LolaJacobsen
-ms.author: Lolaj
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34d7780e1d10370b78c11c1a8021381aff71f479
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 857c9c4d830cb3264a83a41b555d26ee004751de
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552588"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46581743"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中配置桌面共享
 ============================================

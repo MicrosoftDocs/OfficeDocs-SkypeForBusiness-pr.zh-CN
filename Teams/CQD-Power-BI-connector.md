@@ -1,7 +1,7 @@
 ---
 title: 安装 Power BI Connector 以使用 CQD 查询模板
-ms.author: lolaj
-author: LolaJacobsen
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: siunies
 ms.topic: article
@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 安装 Power BI Connector 以使用呼叫质量仪表板（CQD）查询模板
-ms.openlocfilehash: 1c315dc0214ee0540ddce25fb8f0a1dc1794048f
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+description: 安装 Power BI 连接器以使用呼叫质量仪表板 (CQD) 查询模板
+ms.openlocfilehash: 04bab862c13652e7a509a96c98bac0eaac699b85
+ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506165"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "46584051"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>安装 Power BI Connector 以使用 CQD 查询模板
 
-在你可以使用 Microsoft 团队通话质量仪表板（CQD）的 Power BI 查询模板（.PBIX 文件）之前，你需要使用[下载](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的*MicrosoftCallQuality*文件来安装 MICROSOFT CQD 的 power bi Connector。
+在你可以使用 Power BI 查询模板 (.PBIX 文件) for Microsoft 团队通话质量仪表板 (CQD) 中，你需要使用[下载](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)中包含的*MicrosoftCallQuality*文件安装 MICROSOFT CQD 的 power bi Connector。
 
 已阅读 "[使用 POWER BI" 来分析 CQD 数据，以供团队](CQD-Power-BI-query-templates.md)了解有关这些模板的信息。
 
@@ -36,7 +36,7 @@ ms.locfileid: "46506165"
 
 1. 检查您的计算机是否已有 " * \[ \] \\ Power BI desktop \\ 自定义连接线*"   文件夹。 如果不是，请创建此文件夹。<sup>1</sup>
 
-2. 下载连接器文件（即* \* mez*或* \* pqx*文件），并将其放在 "*自定义连接器*" 目录中。
+2. 下载连接器文件 (* \* mez*或* \* pqx*) 文件，并将其放在 "*自定义连接器*" 目录中。
 
 3. **如果连接器文件是* \* mez*文件，** 则还需要调整您的安全设置，如[自定义连接器设置文档](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)中所述。
 
@@ -50,7 +50,7 @@ ms.locfileid: "46506165"
 
     ![屏幕截图： Power BI Connector](media/CQD-power-bi-connector1-resize.png)
 
-2. 此时应显示 "*获取数据*" 窗口。 导航到 "*联机服务*"，然后选择 " *Microsoft 通话质量（Beta）* " 和 "点击*连接*"。
+2. 此时应显示 "*获取数据*" 窗口。 导航到 "*联机服务*"，然后选择 " *Microsoft 通话质量 (Beta) *和" 点击*连接*"。
 
     ![屏幕截图： Power BI Connector](media/CQD-power-bi-connector2-resize.png)
 
@@ -72,14 +72,14 @@ ms.locfileid: "46506165"
 
     ![屏幕截图： Power BI Connector](media/CQD-power-bi-connector3-resize.png)
 
-2. 确定要用于查询的维度和度量值（由聚合符号表示），然后手动选择它们并将其拖动到黑色可视化效果中。 或者，将其拖动到 "可视化" 选项下方的 "*值*" 字段。
+2. 确定 (由聚合符号表示的维度和度量值，其名称) 希望用于查询，然后手动选择它们并将其拖动到黑色可视化效果中。 或者，将其拖动到 "可视化" 选项下方的 "*值*" 字段。
 
     ![屏幕截图： Power BI Connector](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > 通话质量仪表板要求运行任何查询的度量值。 无法将度量值添加到查询将导致该查询失败。
 
-3. 接下来，选择要筛选的任何维度，并将其拖动到 "*筛选器*" 窗格中*此视觉字段上的筛选器*。 CQD Power BI 连接器当前支持*基本筛选*（从可能的维度值列表中选择值）、*高级筛选*（手动指定值和要筛选的操作数，类似于高级 CQD），以及*相对日期筛选*（仅适用于 "*结束时间*" 和 "*开始时间*" 维度）。 CQD 不支持按*Top N*进行筛选。
+3. 接下来，选择要筛选的任何维度，并将其拖动到 "*筛选器*" 窗格中*此视觉字段上的筛选器*。 CQD Power BI 连接器当前支持*基本筛选* (从可能的维度值列表中选择值) ，*高级筛选* (手动指定要筛选的值和操作数，类似于 "高级 CQD") ，"*相对日期" 筛选* (仅适用于 "*结束时间*" 和 "*开始时间*" 维度) 。 CQD 不支持按*Top N*进行筛选。
 
     ![屏幕截图： Power BI Connector](media/CQD-power-bi-connector5-resize.png)
 
@@ -122,7 +122,7 @@ ms.locfileid: "46506165"
 
 5. **相对数据筛选-** 在 CQD 连接器中受支持，但仅限 "*开始时间*" 和 "*结束时间*" 维度。 虽然*日期*维度可能是相对日期筛选的明显选择，但*日期*不会存储为日期时间对象，因此不支持 Power BI 中的相对日期筛选。
 
-6. **政府社区云（GCC）支持-** 对于 GCC 环境中的客户，使用 Power BI Desktop 时，CQD Power BI 连接器将正常工作。 CQD Power BI 连接器当前与适用于 GCC 客户的 Power BI 服务不兼容。
+6. **政府社区云 (GCC) 支持-** 对于 GCC 环境中的客户，使用 Power BI Desktop 时，CQD Power BI 连接器将正常工作。 CQD Power BI 连接器当前与适用于 GCC 客户的 Power BI 服务不兼容。
 
 大多数问题都是对 CQD 数据模型设计而言，Power BI 或基础中的 DirectQuery 连接器设计的限制。
 
@@ -146,13 +146,13 @@ Power BI 连接器不支持日期切片器。 若要指定日期范围，请将�
 
   - **ErrorType 5-执行超时：** 查询在超时之前已达到最大可能的运行时。尝试向查询添加更多筛选器，以便限制其范围。 缩小数据区域通常是实现此目的的最有效方式。
 
-  - **ErrorType 7-无测量错误：** CQD 查询需要一个度量单位才能正常工作。 仔细检查查询是否包含度量值。 CQD 连接器中的度量值在其名称前由聚合（sum）符号表示。
+  - **ErrorType 7-无测量错误：** CQD 查询需要一个度量单位才能正常工作。 仔细检查查询是否包含度量值。 CQD 连接器中的度量值由聚合 (sum) 符号的名称之前表示。
 
 如果您在此范围外遇到任何其他错误，请通知 CQD 团队，以便我们能够帮助您解决问题，并根据需要更新文档。
 
 ## <a name="footnotes"></a>页脚
 
-**<sup>1</sup>** 某些流程和应用（例如，OneDrive）可能会导致您的文档根文件夹发生更改;请确保*POWER BI 桌面 \\ 自定义连接器*目录位于当前根文件夹 "文档" 文件夹内。
+**<sup>1</sup>** 个特定的流程和应用 (例如，OneDrive) 可能导致您的文档根文件夹发生更改;请确保*POWER BI 桌面 \\ 自定义连接器*目录位于当前根文件夹 "文档" 文件夹内。
 
 **<sup>2</sup>** 用于 CQD 的登录凭据*不*需要与用于登录到 power BI 桌面应用本身的凭据相同。
 
