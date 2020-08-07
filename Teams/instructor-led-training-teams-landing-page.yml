@@ -5,15 +5,15 @@ metadata:
   title: 讲师引导式 Microsoft Teams 培训
   description: 了解如何注册免费的现场讲师引导式培训课程，了解 Microsoft Teams 的所有相关信息。
   ms.topic: hub-page
-  author: lolajacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   ms.date: 06/16/2020
-  ms.openlocfilehash: 11b6a79428b957680c5a931f062e44f605a6d54c
-  ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+  ms.openlocfilehash: 25fdc132256907e2393ac7a162ea1e1726b998c2
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 07/31/2020
-  ms.locfileid: "46534083"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583661"
 highlightedContent:
   items:
   - title: 团队知识检查
@@ -54,9 +54,9 @@ productDirectory:
     url: https://aka.ms/TeamsEduWebinars
   - title: 在家使用 Teams 掌控工作
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: " 新增内容！ 了解与团队保持联系和保持工作效率的最佳做法。 （受众：最终用户、团队和部门经理）"
+    summary: " 新增内容！ 了解与团队保持联系和保持工作效率的最佳做法。  (受众：最终用户、团队和部门经理) "
     url: https://aka.ms/WorkathomewithTeams
   - title: 升级规划研讨会
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 规划和实施成功的团队升级。 （受众： IT 专业人员，采纳变更经理）
+    summary: '规划和实施成功的团队升级。  (受众： IT 专业人员、采纳的更改经理) '
     url: /MicrosoftTeams/upgrade-workshops-landing-page

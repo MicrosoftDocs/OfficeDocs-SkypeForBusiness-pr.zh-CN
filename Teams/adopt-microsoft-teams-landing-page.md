@@ -2,11 +2,10 @@
 title: 采用 Microsoft Teams
 ms.reviewer: karuanag
 description: 了解可用于帮助你在组织中规划和部署 Microsoft 团队的采纳资源。
-ms.topic: landing-page
+ms.topic: overview
 author: serdarsoysal
 ms.author: serdars
 manager: serdars
-layout: LandingPage
 ms.date: 10/31/2018
 audience: admin
 ms.service: msteams
@@ -21,196 +20,28 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c1a05467a049a8ed0d66789cbc405fcceaaec39
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 038721d887eef7eeb0c52cb82508b271e26dbbdc
+ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756511"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46588276"
 ---
-# <a name="adopt-microsoft-teams"></a>采用 Microsoft Teams
+# <a name="adopt-microsoft-teams"></a><span data-ttu-id="8caac-103">采用 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="8caac-103">Adopt Microsoft Teams</span></span>
 
 > [!NOTE]
-> 有关转换到远程学习和资源以帮助入门的概述，请参阅我们的[**远程学习主页**](https://www.microsoft.com/education/remote-learning)。
+> <span data-ttu-id="8caac-104">有关转换到远程学习和资源以帮助入门的概述，请参阅我们的[**远程学习主页**](https://www.microsoft.com/education/remote-learning)。</span><span class="sxs-lookup"><span data-stu-id="8caac-104">For an overview of making the transition to remote learning and resources to help you get started, see our [**remote learning home page**](https://www.microsoft.com/education/remote-learning).</span></span>
 
-如果你是小型企业版，或者想要推出从聊天开始的团队，团队 & 频道和会议，请使用我们的规范性[入门指南](get-started-with-teams-quick-start.md)，它旨在让你快速开始使用并运行。 如果你是具有混合或本地 Skype for business 配置的大型组织，或者你想要推出语音功能（如 Microsoft 365 或 Office 365 通话计划或电话系统），则可以从我们的入门指南开始，但你需要更多的指南，请参阅**更深的采纳指南**。
+<span data-ttu-id="8caac-105">如果你是小型企业版，或者想要推出从聊天开始的团队，团队 & 频道和会议，请使用我们的规范性[入门指南](get-started-with-teams-quick-start.md)，它旨在让你快速开始使用并运行。</span><span class="sxs-lookup"><span data-stu-id="8caac-105">If you're a small business, or if you want to roll out Teams starting with chat, teams & channels, and meetings, use our prescriptive [Get started guidance](get-started-with-teams-quick-start.md), which is designed to get you up and running quickly.</span></span> <span data-ttu-id="8caac-106">如果你是具有混合或本地 Skype for business 配置的大型组织，或者你想要 (例如 Microsoft 365 或 Office 365 通话计划或电话系统) ）推出语音功能，则可以从我们的入门指南开始，但你需要以下其他指南，请参阅**更深的采纳指南**。</span><span class="sxs-lookup"><span data-stu-id="8caac-106">If you're a large organization with a hybrid or on-premises Skype for Business configuration, or if you want to roll out voice features (such as Microsoft 365 or Office 365 calling plans or phone system), you can start with our Get started guidance, but you'll need the additional guidance below, under **Deeper adoption guidance**.</span></span>
 
-<ul class="panelContent cardsFTitle">
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-quick-start-checklist">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="Clock icon representing quick start" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>快速入门</h3>
-                        <p>引导你完成最常见的采纳方案</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat icon representing an introduction" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>团队和频道简介</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="Checklist icon representing planning" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>规划您的第一个团队</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="Award ribbon icon representing best practices" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>为您的拥护人士准备</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="Mortarboard icon representing training" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>培训 & 认证</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/adopt-tools-and-downloads">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="Wrench icon representing tools and downloads" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>工具和下载</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-</ul>
+|               |               |               |               |               |               |
+| :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="8caac-107">快速入门</span><span class="sxs-lookup"><span data-stu-id="8caac-107">Quick start</span></span>](/MicrosoftTeams/teams-adoption-quick-start-checklist) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" width="40 px" height="40 px"> | [<span data-ttu-id="8caac-108">团队和频道简介</span><span class="sxs-lookup"><span data-stu-id="8caac-108">Introduction to teams and channels</span></span>](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="8caac-109">规划您的第一个团队</span><span class="sxs-lookup"><span data-stu-id="8caac-109">Plan your first teams</span></span>](/MicrosoftTeams/teams-adoption-your-first-teams) |
+| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="8caac-110">为您的拥护人士准备</span><span class="sxs-lookup"><span data-stu-id="8caac-110">Empower your champions</span></span>](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px"> | [<span data-ttu-id="8caac-111">培训 & 认证</span><span class="sxs-lookup"><span data-stu-id="8caac-111">Training & certification</span></span>](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> | [<span data-ttu-id="8caac-112">工具和下载</span><span class="sxs-lookup"><span data-stu-id="8caac-112">Tools and Downloads</span></span>](/microsoftteams/adopt-tools-and-downloads) |
 
+### <a name="deeper-adoption-guidance"></a><span data-ttu-id="8caac-113">更深入的采纳指南</span><span class="sxs-lookup"><span data-stu-id="8caac-113">Deeper adoption guidance</span></span>
+<span data-ttu-id="8caac-114">采纳计划很容易复杂，具体取决于你的环境。</span><span class="sxs-lookup"><span data-stu-id="8caac-114">Adoption plans can be simple to complex, depending on your environment.</span></span> <span data-ttu-id="8caac-115">对于大规模部署，请逐步查看以下指南，以确保你的组织能够顺利过渡到团队。</span><span class="sxs-lookup"><span data-stu-id="8caac-115">For large-scale deployments, step through the guidance below to ensure your organization has a smooth transition to Teams.</span></span>
 
-### <a name="deeper-adoption-guidance"></a>更深入的采纳指南
-采纳计划很容易复杂，具体取决于你的环境。 对于大规模部署，请逐步查看以下指南，以确保你的组织能够顺利过渡到团队。
-
-<ul class="panelContent cardsF">
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" alt="Number 1 icon representing the first step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">开始</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">入门</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">了解团队和频道</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">创建第一个团队</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-assess-readiness">评估文化和组织准备情况</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" alt="Number 2 icon representing the second step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">试验</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">创建冠军计划</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">管理快速入门</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">定义使用场景</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-early-adopters">板载先期采纳者和收集反馈</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-onboard-support">登记支持</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" alt="Number 3 icon representing the third step" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">调整</a></h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">定义结果和成功</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">优化反馈和报告</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">提高认识度并实施培训</a></p>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-schedule-service-health-reviews">安排服务运行状况检查</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+|               |               |               |               |               |               |
+| :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
+| <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" width="40 px" height="40 px"> | <span data-ttu-id="8caac-116">**[开始](/MicrosoftTeams/teams-adoption-phase1)**</span><span class="sxs-lookup"><span data-stu-id="8caac-116">**[Start](/MicrosoftTeams/teams-adoption-phase1)**</span></span> </br> [<span data-ttu-id="8caac-117">入门</span><span class="sxs-lookup"><span data-stu-id="8caac-117">Get started</span></span>](/MicrosoftTeams/teams-adoption-get-started) </br> [<span data-ttu-id="8caac-118">了解团队和频道</span><span class="sxs-lookup"><span data-stu-id="8caac-118">Understand teams and channels</span></span>](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) </br> [<span data-ttu-id="8caac-119">创建第一个团队</span><span class="sxs-lookup"><span data-stu-id="8caac-119">Create your first teams</span></span>](/MicrosoftTeams/teams-adoption-your-first-teams) </br> [<span data-ttu-id="8caac-120">评估文化和组织准备情况</span><span class="sxs-lookup"><span data-stu-id="8caac-120">Assess cultural and organizational readiness</span></span>](/MicrosoftTeams/teams-adoption-assess-readiness) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" width="40 px" height="40 px"> | <span data-ttu-id="8caac-121">**[试验](/MicrosoftTeams/teams-adoption-phase2-experiment)**</span><span class="sxs-lookup"><span data-stu-id="8caac-121">**[Experiment](/MicrosoftTeams/teams-adoption-phase2-experiment)**</span></span> </br> [<span data-ttu-id="8caac-122">创建冠军计划</span><span class="sxs-lookup"><span data-stu-id="8caac-122">Create your champions program</span></span>](/MicrosoftTeams/teams-adoption-create-champions-program) </br> [<span data-ttu-id="8caac-123">管理快速入门</span><span class="sxs-lookup"><span data-stu-id="8caac-123">Governance quick start</span></span>](/MicrosoftTeams/teams-adoption-governance-quick-start)</br> [<span data-ttu-id="8caac-124">定义使用场景</span><span class="sxs-lookup"><span data-stu-id="8caac-124">Define usage scenarios</span></span>](/MicrosoftTeams/teams-adoption-define-usage-scenarios) </br> [<span data-ttu-id="8caac-125">登记早期采用者并收集反馈</span><span class="sxs-lookup"><span data-stu-id="8caac-125">Onboard early adopters and gather feedback</span></span>](/MicrosoftTeams/teams-adoption-onboard-early-adopters) </br> [<span data-ttu-id="8caac-126">登记支持</span><span class="sxs-lookup"><span data-stu-id="8caac-126">Onboard support</span></span>](/MicrosoftTeams/teams-adoption-onboard-support) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" width="40 px" height="40 px"> | <span data-ttu-id="8caac-127">**[调整](/MicrosoftTeams/teams-adoption-phase3-enable)**</span><span class="sxs-lookup"><span data-stu-id="8caac-127">**[Scale](/MicrosoftTeams/teams-adoption-phase3-enable)**</span></span> </br> [<span data-ttu-id="8caac-128">定义结果和成功</span><span class="sxs-lookup"><span data-stu-id="8caac-128">Define outcome and success</span></span>](/MicrosoftTeams/teams-adoption-define-outcomes) </br> [<span data-ttu-id="8caac-129">优化反馈和报告</span><span class="sxs-lookup"><span data-stu-id="8caac-129">Optimize feedback and reporting</span></span>](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) </br> [<span data-ttu-id="8caac-130">提高认识度并实施培训</span><span class="sxs-lookup"><span data-stu-id="8caac-130">Drive awareness and implement training</span></span>](/MicrosoftTeams/teams-adoption-drive-awareness) </br> [<span data-ttu-id="8caac-131">安排服务运行状况检查</span><span class="sxs-lookup"><span data-stu-id="8caac-131">Schedule service health reviews</span></span>](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) |

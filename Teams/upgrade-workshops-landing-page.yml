@@ -7,8 +7,8 @@ metadata:
   description: 加入我们，参加一系列实时、互动升级规划研讨会，我们将分享指导、最佳实践和资源，帮助你规划和实施升级到 Teams。 为获得最佳体验，请从下面的“规划升级”会话开始。 单击要注册的任何研讨会标题。
   ms.service: msteams
   ms.topic: hub-page
-  author: LolaJacobsen
-  ms.author: lolaj
+  author: SerdarSoysal
+  ms.author: serdars
   manager: serdars
   ms.date: 01/27/2020
   ms.reviewer: landerl
@@ -24,17 +24,17 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: d001251acc86e516267cdcd38a797afbfc2516f2
-  ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+  ms.openlocfilehash: 855fc39ea6694cf6fc1741fd64cc4ba3d07eb098
+  ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
   ms.translationtype: MT
   ms.contentlocale: zh-CN
-  ms.lasthandoff: 06/26/2020
-  ms.locfileid: "44902323"
+  ms.lasthandoff: 08/06/2020
+  ms.locfileid: "46583279"
 productDirectory:
   items:
   - title: 规划升级（从这里开始！）
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 了解成功升级到 Teams 所需的一切。 受众-全部（企业赞助商、IT 管理员、用户就绪/更改经理、项目主管）
+    summary: '了解成功升级到 Teams 所需的一切。 受众-所有 (业务主办方、IT 管理员、用户准备情况/更改经理、项目负责人) '
     url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
   - title: 最终用户准备就绪：
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
