@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队的通信合规性
+title: 与 Microsoft 团队的通信合规性
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: 了解有关通信合规性的信息，即 "预览体验成员" 解决方案集的一部分，从 Microsoft 团队的角度来看，这是 M365 通信合规性功能的一部分。
+description: 了解有关通信合规性的知识合规性风险解决方案集的一部分，从 Microsoft 团队角度 (这是 M365 通信合规性功能的一部分) 。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,48 +16,57 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01d9906044fe0ea8472cd8bb2ba8ccf247cdbeb9
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
+ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121692"
+ms.lasthandoff: 08/08/2020
+ms.locfileid: "46597131"
 ---
-# <a name="communication-compliance-for-microsoft-teams"></a>Microsoft 团队的通信合规性
+# <a name="communication-compliance-with-microsoft-teams"></a>与 Microsoft 团队的通信合规性
 
-通信合规性是 Microsoft 365 中新的预览体验计划解决方案集的一部分，可帮助你对组织中的不当邮件检测、捕获和采取补救措施，从而减少通信风险。 它有助于识别团队频道或1:1 和群组聊天中的攻击性语言和反骚扰。 您还可以设置策略以查看是否有任何敏感信息被共享为团队频道或1:1 和群组聊天的一部分。 有关不同类型的策略以及如何设置[M365 文章](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)的详细信息，请参阅 ""。
+通信合规性是 Microsoft 365 中的内幕风险解决方案，可帮助你检测、捕获和处理组织中不适当的邮件，从而帮助最大程度地减少通信风险。
 
-## <a name="how-to-use-communication-compliance-in-teams"></a>如何使用团队中的通信合规性
+对于 Microsoft 团队，通信合规性有助于标识团队频道或1:1 和群组聊天中的[以下类型](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference)的不当内容：
 
-### <a name="identify-inappropriate-messages"></a>标识不适当的邮件
+- 冒犯性、亵渎和 harassing 语言
+- 成人、racy 和 gory 图像
+- 敏感信息的共享
 
-如果要标识在 Microsoft 团队中发送的任何消息（1:1、群组聊天或频道对话）包含冒犯性的语言或反骚扰，则可以启用策略来标识此邮件，并且审阅者可以查看邮件并执行必要的步骤，如发送培训资料或升级到适当的机构。
+>[!IMPORTANT]
+>通信合规性不支持专用 Microsoft 团队频道。 由来宾用户发送给不会对不适当内容进行监视的团队用户发送的聊天通信。
 
-### <a name="identify-sensitive-or-regulatory-information"></a>标识敏感或法规信息
+有关通信合规性以及如何为你的组织配置策略的详细信息，请参阅[Microsoft 365 中的通信合规性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
 
-如果要扫描 Microsoft 团队中发送的邮件（1:1、群组聊天或频道对话）以了解敏感信息或法规类型，可以选择支持预定义的敏感或法规类型的策略。
+## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何在 Microsoft 团队中使用通信合规性
 
-> [!NOTE]
-> 通信合规性不支持专用通道。
+通信合规性和 Microsoft 团队紧密集成，有助于最大程度地减少组织中的通信风险。 配置您的第一个通信合规性策略后，您可以主动管理不合适的 Microsoft 团队邮件和自动标记为通知的内容。
 
-### <a name="custom-policy"></a>自定义策略
+### <a name="getting-started"></a>入门
 
-使用此模板配置特定通信通道、单个检测条件以及你的组织中要监视和查看的内容量。
+Microsoft 团队中的通信合规性入门首先[计划](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan)和创建预定义或自定义策略，以在团队频道或1:1 和组中标识不适当的用户活动。 请记住，在配置过程中，你将需要[配置](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure)某些权限和基本先决条件。
 
-### <a name="custom-trainable-classifier"></a>自定义 Trainable 分类器
+团队管理员可以在以下级别配置通信合规性策略：
 
-当一个框中的某个分类器不能满足您的需要时，请使用 trainable 分类器。 Microsoft 365 分类器是一种工具，可通过提供示例来训练以识别各种类型的内容。 培训分类器首先需要为其提供人工挑选的示例，并正确匹配该类别。 然后，在处理这些示例之后，你可以通过给它混合使用正和负样本来测试预测。 有关详细信息，请参阅[M365 文章](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier)了解有关本主题的详细信息。
+- **用户级别**：此级别的策略适用于单个团队用户或应用于你组织中的所有团队用户。 这些策略涵盖了这些用户可以在1:1 或群组聊天中发送的消息。 用户的聊天通信将在用户所属的所有 Microsoft 团队中自动监视。
+- **团队级别**：此级别的策略适用于 Microsoft 团队频道。 这些策略涵盖仅在团队频道中发送的消息。
 
-> [!NOTE]
-> 通信合规性现在支持 Exchange 混合部署。
+### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>对 Microsoft 团队中不恰当的邮件执行操作
 
-通信合规性支持与策略匹配的任何消息的对话历史记录。 这提供了调查管理员的上下文。
+配置策略并收到 Microsoft 团队邮件的通信合规性警报后，您的组织中的合规性审阅者可以对这些消息执行操作。 审阅者可以通过查看通信合规性警报和从 Microsoft 团队中删除已标记的邮件来帮助保护您的组织。
 
-:::image type="content" source="media/communication-compliance-1.png" alt-text="用于在 Microsoft 团队中进行通信合规性的屏幕。":::
+![删除团队中的邮件](./media/communication-compliance-remove-teams-message.png)
 
-## <a name="where-communication-policies-can-be-applied-in-teams"></a>可在团队中应用通信策略的位置
+删除的邮件和内容被替换为查看者通知，说明邮件或内容已删除，以及哪些策略适用于删除。 已删除的消息的发件人也会收到删除状态的通知，并附带原始邮件内容与删除相关的上下文。 发件人还可以查看适用于邮件删除的特定策略条件。
 
-可以为在以下级别的团队中发送的邮件设置通信合规性策略：
+由发件人查看的策略提示的示例：
 
-- 用户级别：管理员可以在单个用户级别设置策略，或将策略应用到租户上的所有用户。 这仅涵盖用户在1:1 或群组聊天中发送的消息。
-- 团队级别：管理员还可以设置团队的策略。 这将涵盖该团队频道中发送的所有消息（不支持专用信道消息）。
+![发件人的策略提示](./media/communication-compliance-warning-1.png)
+
+发件人看到的策略条件通知的示例：
+
+![发件人的策略条件信息](./media/communication-compliance-warning-2.png)
+
+收件人显示的策略提示的示例：
+
+![收件人的策略提示](./media/communication-compliance-warning-3.png)

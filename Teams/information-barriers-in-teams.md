@@ -16,12 +16,12 @@ description: 本文介绍 Microsoft 团队中的哪些信息障碍以及他们�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 585cff9e8eb99a736b25e4ee0463ce4783c01ad1
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 2fa842f341bac8aca0c1972519777de2855cf06c
+ms.sourcegitcommit: 197f96841a58efd70bcd198b6eb1775e5ecd155c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572377"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "46592906"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft 团队中的信息障碍
 
@@ -167,12 +167,12 @@ Enrico 无法再向群组聊天发送消息。
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>团队策略和 SharePoint 网站
 
-创建团队时，将预配 SharePoint 网站并将其与团队相关联以实现文件体验。 对此 SharePoint 网站和文件的访问将接受组织的 IB，即，只有其 IB 段匹配每个 IB 策略的用户才可以访问。 即使在文件共享时，IB 策略也会生效。
+创建团队后，SharePoint 网站将预配并与 Microsoft 团队的文件体验相关联。 默认情况下，信息障碍策略不会在此 SharePoint 网站和文件上生效。 若要启用信息障碍策略，管理员已填写一个表单，请求在 SharePoint 和 OneDrive 上启用 IB 策略 (请参阅[信息障碍](https://docs.microsoft.com/sharepoint/information-barriers#prerequisites)中的*先决条件*部分) 。 如果信息屏障策略在 SharePoint 和 OneDrive 中处于打开状态，则在使用 Microsoft 团队创建团队时，IB 策略将在预配 SharePoint 网站上工作。
 
-例如：在 Contoso Bank corporation 中，用户 "Sesha@contosobank.onmicrosoft.com" 属于 "投资银行" 段，而用户 "Nikita@contosobank.onmicrosoft.com" 属于 "部门咨询"。 组织的 IB 策略阻止这两个网段之间的通信和协作。
+**团队的 SharePoint 网站上的 IB 策略示例**：在 Contoso Bank corporation 中，用户 "Sesha@contosobank.onmicrosoft.com" 属于投资银行段，而用户 "Nikita@contosobank.onmicrosoft.com" 属于 "部门咨询"。 组织的 IB 策略阻止这两个网段之间的通信和协作。
 当用户 Sesha 为投资银行段创建团队时，团队和支持它的 SharePoint 网站将仅供投资银行段用户访问。 用户 Nikita 无法访问该网站，即使她拥有网站链接也是如此。
 
-单击[此处](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)了解更多详细信息。
+有关详细信息，请参阅[信息障碍](https://docs.microsoft.com/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)文章。
 
 ## <a name="required-licenses-and-permissions"></a>所需的许可证和权限
 
