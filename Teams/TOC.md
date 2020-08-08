@@ -675,7 +675,7 @@
 ### [向大型用户组分配策略](batch-group-policy-assignment-edu.md)
 ### [用于为教师和学生创建安全组的 PowerShell 脚本](scripts/powershell-script-security-groups-edu.md)
 ### [教育版管理员低带宽指南](edu-remote-low-bandwidth.md)
-### [课堂见解](class-insights.md)
+### [见解入门](class-insights.md)
 ### [Teams 教育版中的分配](expand-teams-across-your-org/assignments-in-teams.md)
 ### [面向教育版管理员的 Teams 资源](resources-teams-edu.md)
 ### [面向管理员的 Microsoft 教育版管理常见问题解答](plan-teams-governance-edu.md)
