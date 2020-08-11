@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae096b52a6934ed4a59fbd7d8ec20fba3a6baa47
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45088190"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46606918"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 
@@ -33,7 +33,6 @@ ms.locfileid: "45088190"
 
 以下是 MSI 文件的链接：
 
-
 |实体  |32位      |64位      |
 |---------|---------|---------|
 |商用     | [32位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
@@ -41,13 +40,15 @@ ms.locfileid: "45088190"
 |联邦政府 - GCC High    | [32位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 |联邦政府 - DoD     | [32位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
-> [!NOTE]
-> 在64位操作系统上安装64位版本的团队。 如果你尝试在32位操作系统上安装64位版本的团队，则安装将不会成功，并且当前不会收到错误消息。
+**若要确保部署成功，请注意以下事项：**
 
-团队也可以包含在适用于企业的 Microsoft 365 应用的部署中。 有关详细信息，请参阅[通过适用于企业的 microsoft 365 应用部署 Microsoft 团队](https://docs.microsoft.com/deployoffice/teams-install)。
+- 在64位操作系统上安装64位版本的团队。 如果你尝试在32位操作系统上安装64位版本的团队，则安装将不会成功，并且当前不会收到错误消息。
 
-> [!Note]
-> 若要了解有关 Microsoft 终结点配置管理器的详细信息，请参阅[什么是配置管理器？](https://docs.microsoft.com/configmgr/core/understand/introduction)
+- 如果客户租户位于 GCCH 或 DoD 云上，客户应通过将**CloudType**值添加到注册表中的**HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams**键来设置注册表中的初始终结点。 **CloudType**的类型为**DWORD**值，值为 (0 = Unset，1 = 商业，2 = GCC，* = GCCH，4 = DOD) 。 将终结点设置为注册表项会限制团队连接到正确的云终结点，以便与团队进行预登录连接。
+
+- 团队也可以包含在适用于企业的 Microsoft 365 应用的部署中。 有关详细信息，请参阅[通过适用于企业的 microsoft 365 应用部署 Microsoft 团队](https://docs.microsoft.com/deployoffice/teams-install)。
+
+- 若要了解有关 Microsoft 终结点配置管理器的详细信息，请参阅[什么是配置管理器？](https://docs.microsoft.com/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>部署过程（推荐）
 

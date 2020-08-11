@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d5f9fbf9821e88e17ebb8fe5dfa45f2b3c7270
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
+ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597101"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46607089"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "46597101"
 
 虚拟桌面基础结构 (VDI) 是在数据中心的集中式服务器上托管桌面操作系统和应用程序的虚拟技术。 这使具有完全安全和合规的集中源的用户能够获得完全个性化的桌面体验。
 
-虚拟环境中的 Microsoft 团队支持聊天和协作。 通过 Windows 虚拟桌面版或 Citrix 平台，也支持呼叫和会议功能。
+虚拟环境中的 Microsoft 团队支持聊天和协作。 通过 Windows 虚拟桌面版、Citrix 和 VMware 平台，还支持呼叫和会议功能。
 
 虚拟环境中的团队支持多个配置。 这些模式包括 VDI、专用、共享、永久和非持久模式。 功能在连续开发中且定期添加，并且功能将在未来的几个月和几年内扩展。
 
@@ -54,7 +54,7 @@ ms.locfileid: "46597101"
 
 团队桌面应用已通过主流虚拟化解决方案提供商进行验证。 有了多个市场提供商，我们建议你咨询你的虚拟化解决方案提供商，确保你满足最低要求。
   
-目前，通过 Windows 虚拟桌面和 Citrix 对具有音频/视频 (AV) 优化的 VDI 团队进行认证。 查看本部分中的信息，确保满足所有对正确功能的要求。
+目前，通过 Windows 虚拟桌面版、Citrix 和 VMware 对 VDI 进行音频/视频 (AV) 优化的团队进行了认证。 查看本部分中的信息，确保满足所有对正确功能的要求。
 
 ### <a name="platforms-certified-for-teams"></a>为团队认证的平台
 
@@ -64,6 +64,7 @@ ms.locfileid: "46597101"
 |----|---|
 |![表示 Microsoft 的徽标](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows 虚拟桌面</a> |
 |![表示 Citrix 的徽标](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix 虚拟应用和桌面</a> |
+|![表示 VMware 的徽标](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware 范围</a> |
 
 ### <a name="windows-virtual-desktop"></a>Windows 虚拟桌面
 
@@ -76,6 +77,10 @@ Citrix 虚拟应用和桌面 (以前称为 XenApp 和 XenDesktop) 为适用于 V
 你可以在[citrix 下载网站](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下载最新版本的 Citrix 虚拟应用和桌面。  (你需要首先登录。 ) 必要的组件捆绑到[Citrix 工作区应用 (CWA) ](https://www.citrix.com/downloads/workspace-app/)和虚拟交付代理 (VDA) 默认情况下。 无需在 CWA 或 VDA 上安装任何其他组件或插件。
 
 有关最新的服务器和客户端要求，请参阅[此 Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
+
+### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware 范围的工作区和桌面要求
+
+VMware 横向为适用于 VDI 的团队提供优化的 AV 支持，提高了虚拟桌面的工作效率。 您可以从 " [Vmware 下载](https://my.vmware.com/web/vmware/downloads/#all_products)" 页面下载最新版本的 vmware 范围。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安装或更新团队桌面应用
 
@@ -197,24 +202,12 @@ Citrix 虚拟应用和桌面 (以前称为 XenApp 和 XenDesktop) 为适用于 V
 
 ## <a name="teams-on-vdi-with-calling-and-meetings"></a>VDI 上的团队与呼叫和会议
 
-除了聊天和协作，使用基于 Citrix 的平台提供与呼叫和会议支持的 VDI 团队。 支持的功能基于 WebRTC 媒体堆栈和特定于 Citrix 的实现。 下图概括介绍了体系结构。
+除了聊天和协作，使用受支持的虚拟化提供程序平台可以使用 VDI 和通话和会议的团队。 支持的功能基于 WebRTC 媒体堆栈和虚拟化提供程序实现。 下图概括介绍了体系结构。
 
 ![显示 VDI 体系结构上的团队的图表](media/teams-on-vdi-architecture.png)
 
-不支持以下呼叫和会议功能：
-
-- 增强的紧急服务
-- 团队应用和设备之间的 HID 按钮和 LED 控件
-- 背景模糊和效果
-- 广播/实时事件
-- 基于位置的路由 (LBR) 
-- 呼叫寄存
-- 通话队列
-
 > [!IMPORTANT]
-> 如果当前在 VDI 中运行团队没有 AV 优化，并且你使用尚不支持的功能进行优化 (例如，在应用共享) 中授予和控制，则必须设置 Citrix 策略以关闭团队重定向。 这意味着不会优化团队媒体会话。 有关如何设置策略以关闭团队重定向的步骤，请参阅此[Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html)。
-
-我们正在努力添加目前仅在非 VDI 环境中可用的呼叫和会议功能。 这些功能可能包括对质量、其他屏幕共享方案以及最近添加到团队的高级功能的更多管理控制。 联系你的团队代表了解有关即将推出的功能的详细信息。
+> 如果当前在 VDI 中运行团队没有 AV 优化，并且你使用尚不支持的功能进行优化 (例如，在应用共享) 中授予和控制，则必须设置虚拟化提供程序策略以关闭团队重定向。 这意味着不会优化团队媒体会话。 有关如何设置策略以关闭团队重定向的步骤，请联系你的虚拟化提供商。
 
 ### <a name="network-requirements"></a>网络要求
 
@@ -243,7 +236,7 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>具有聊天和协作功能的 VDI 团队
 
-如果你的组织希望仅使用团队中的聊天和协作功能，你可以设置用户级策略以关闭团队中的呼叫和会议功能。 此功能级别不需要 Citrix 虚拟应用和桌面。
+如果你的组织希望仅使用团队中的聊天和协作功能，你可以设置用户级策略以关闭团队中的呼叫和会议功能。 
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>设置用于关闭呼叫和会议功能的策略
 
@@ -297,9 +290,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅[设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 
-## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>通过通话和会议将团队与聊天和协作迁移到 Citrix
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>通过聊天和协作在 VDI 上迁移团队，以通过呼叫和会议优化团队
 
-如果您在 VDI 上有一个现有团队实现，其中你已设置了用户级策略以关闭呼叫和会议功能，并且你要使用 AV 优化功能迁移到 Citrix，则必须为适用于 VDI 用户的团队设置策略来启用呼叫和会议功能。
+如果您在 VDI 上有一个现有团队实现，其中你已设置了用户级策略以关闭呼叫和会议功能，并且你正在迁移到具有 AV 优化的团队，则必须设置策略以为在 VDI 用户上的团队启用呼叫和会议功能。
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>设置启用呼叫和会议功能的策略
 
@@ -359,13 +352,28 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 - 对于每台计算机安装，不会以非 VDI 团队客户端的方式自动更新 VDI 上的团队。 你必须按照在[VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)中所述，通过安装新 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。
 - 应按每个用户或每台计算机来部署团队。 不支持针对每个用户和每台计算机并行部署团队。 若要从每台计算机或每用户迁移到这些模式之一，请按照卸载过程进行，然后重新部署到任一模式。
-- Citrix 目前不支持基于 MacOs 和 Linux 的客户端。
+- Windows 虚拟桌面版和 VMware 目前不支持基于 MacOS 和 Linux 的客户端。
+- Citrix 目前不支持 MacOs 客户端。
 - Citrix 不支持使用终结点上定义的显式 HTTP 代理。
 
 ### <a name="calling-and-meetings"></a>通话和会议
 
+不支持以下呼叫和会议功能：
+
+- 增强的紧急服务
+- 团队应用和设备之间的 HID 按钮和 LED 控件
+- 背景模糊和效果
+- 广播/实时事件
+- 基于位置的路由 (LBR) 
+- 呼叫寄存
+- 通话队列
+
+> [!NOTE]
+> 我们正在努力添加目前仅在非 VDI 环境中可用的呼叫和会议功能。 这些功能可能包括对质量、其他屏幕共享方案以及最近添加到团队的高级功能的更多管理控制。 联系你的团队代表了解有关即将推出的功能的详细信息。
+
+以下是对呼叫和会议的已知问题和限制：
+
 - 与 Skype for business 的互操作性限制为音频通话;没有视频模态。
-- 以匿名用户身份加入团队会议并非 AV 优化。 用户可以加入会议并具有非优化的体验。
 - 会议或群组通话仅支持单个传入视频流。 当多人发送视频时，在任何给定时间仅显示主要演讲者的视频。
 - 传入和传出视频流分辨率仅限于720p 分辨率。 这是一个 WebRTC 限制。
 - 仅支持来自传入相机或屏幕共享流的一个视频流。 当存在传入屏幕共享时，将显示该屏幕共享，而不是主扬声器的视频。
