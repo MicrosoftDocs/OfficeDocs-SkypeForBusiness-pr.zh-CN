@@ -25,7 +25,7 @@
 
 <!-- ============================================================ -->
 
-# 聊天、团队、频道和应用
+# 聊天、团队和频道
 ## [规划部署](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [使用适于 Teams 的顾问来推出 Teams](use-advisor-teams-roll-out.md)
 ## [团队和频道概述](teams-channels-overview.md)
@@ -51,25 +51,6 @@
 ## [存档或删除团队](archive-or-delete-a-team.md)
 ## [从 Slack 迁移到 Teams](migrate-slack-to-teams.md)
 ## [适用于中小型企业的 Graph 内置 Teams 模板](smb-templates.md)
-
-
-## 应用、机器人和连接器
-
-### [概述](deploy-apps-microsoft-teams-landing-page.md)
-### [应用权限和注意事项](app-permissions.md)
-### [管理适用于 Teams 的应用](manage-apps.md)
-### [Teams 中适用于应用的管理设置](admin-settings.md)
-### [使用内置和自定义选项卡](built-in-custom-tabs.md)
-### [使用 Microsoft 365 或 Office 365 连接器和自定义连接器](Office-365-custom-connectors.md)
-### [特定于资源的同意](resource-specific-consent.md)
-### [发布通过 Teams 应用提交 API 所提交的自定义应用](submit-approve-custom-apps.md)
-### [通过上载应用包来发布自定义应用](upload-custom-apps.md)
-### [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [在 Teams 中管理组织的列表应用](manage-lists-app.md)
-### [为组织管理任务应用](manage-tasks-app.md)
-### [设置团队目标层次结构](set-up-your-team-hierarchy.md)
-### [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
 ## 与外部用户通信
 ### [与其他组织的用户通信](communicate-with-users-from-other-organizations.md)
@@ -129,6 +110,26 @@
 
 <!-- ============================================================ -->
 
+# 应用、机器人和连接器
+
+## [概述](deploy-apps-microsoft-teams-landing-page.md)
+## [应用权限和注意事项](app-permissions.md)
+## [管理适用于 Teams 的应用](manage-apps.md)
+## [Teams 中适用于应用的管理设置](admin-settings.md)
+## [使用内置和自定义选项卡](built-in-custom-tabs.md)
+## [使用 Microsoft 365 或 Office 365 连接器和自定义连接器](Office-365-custom-connectors.md)
+## [特定于资源的同意](resource-specific-consent.md)
+## [发布通过 Teams 应用提交 API 所提交的自定义应用](submit-approve-custom-apps.md)
+## [通过上载应用包来发布自定义应用](upload-custom-apps.md)
+## [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [在 Teams 中管理组织的列表应用](manage-lists-app.md)
+## [为组织管理任务应用](manage-tasks-app.md)
+## [设置团队目标层次结构](set-up-your-team-hierarchy.md)
+## [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
+
+
+<!-- ============================================================ -->
 # 会话和电话会议
 ## [快速入门 - 会议和实时事件](quick-start-meetings-live-events.md)
 ## [规划部署](deploy-meetings-microsoft-teams-landing-page.md)
