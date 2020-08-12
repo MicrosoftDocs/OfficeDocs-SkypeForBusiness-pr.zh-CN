@@ -1,5 +1,5 @@
 ---
-title: 在管理控制台中使用团队模板
+title: 使用团队模板创建新团队
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: cc62eeb2cbbc14ce921c3f85860a72d38b59965d
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8cb72ba0fce238a89b1d087baef16a30cb2d55d3
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583169"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634728"
 ---
 # <a name="get-started-with-teams-templates-in-the-teams-admin-console"></a>团队管理员控制台中的团队模板入门
 
@@ -35,7 +35,7 @@ ms.locfileid: "46583169"
 > [!NOTE]
 > 团队模板当前不支持创建专用通道。 模板定义中不包含专用通道创建。
 
-团队模板是围绕业务需求或项目设计的团队结构的预建定义。 使用预先构建的模板或创建自己的模板。 团队模板让你可以通过频道快速创建丰富的协作空间，以用于不同的主题和预安装应用以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。 当前，你可以使用管理员控制台中的模板或使用[Microsoft Graph](get-started-with-teams-templates.md)。
+团队模板是围绕业务需求或项目设计的团队结构的预建定义。 使用预先构建的模板或创建自己的模板。 团队模板让你可以通过频道快速创建丰富的协作空间，以用于不同的主题和预安装应用以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。 当前，你可以使用团队中的模板或使用[Microsoft Graph](get-started-with-teams-templates.md)创建团队。
 
 在本文中，我们将介绍可在模板中定义的属性、哪些基本模板类型以及如何使用一些示例请求来从模板创建团队。
 

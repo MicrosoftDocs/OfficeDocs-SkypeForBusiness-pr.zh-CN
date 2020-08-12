@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: 8eba2d4ebed9112e1ada4e3101bae9fe1cbfbcfe
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: c617669cdb5b0ee9f5a7acd52c2c9064b9cbc88e
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552608"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640957"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -443,3 +443,4 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 - [Teams PowerShell 概览](teams-powershell-overview.md)
 - [向团队中的用户分配策略](assign-policies.md)
+- [从用户中删除 RestrictedAnonymousAccess 团队会议策略](meeting-policies-restricted-anonymous-access.md)

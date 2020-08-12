@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 Microsoft 团队认证了哪些 USB 外围设备和设备，如耳机、免提、网络摄像头和监视器。
-ms.openlocfilehash: 3b92c41745027987ec3f03272fd10077c6302c49
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572257"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640907"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>为 Microsoft 团队认证的 USB 音频和视频设备
 
@@ -80,8 +80,8 @@ ms.locfileid: "46572257"
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |已认证 Skype for business                        |
 |ViewSonic            |WCD- IFP6570                                               |7/31/2020       |已认证 Skype for business                        |
-|Jabra evolve                |接洽75耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
-|Jabra evolve                |接洽65耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|Jabra evolve                |演化75耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|Jabra evolve                |演化65耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |Jabra evolve                |接洽50耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |Avocor               |WCD-AVW-6555                                              |7/30/2020       |适用于 Microsoft 团队的认证                           |
 |Jabra evolve                |Evolve2 85 耳机                                         |7/17/2020       |适用于 Microsoft 团队的认证                           |

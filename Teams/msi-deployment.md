@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a5b35add8e6de0a723ab568c4e0959bb9e5612b
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 55a514aa6aec6991e331b445a2fbb6e9c602ac91
+ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46606918"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46640827"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "46606918"
 
 - 在64位操作系统上安装64位版本的团队。 如果你尝试在32位操作系统上安装64位版本的团队，则安装将不会成功，并且当前不会收到错误消息。
 
-- 如果客户租户位于 GCCH 或 DoD 云上，客户应通过将**CloudType**值添加到注册表中的**HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams**键来设置注册表中的初始终结点。 **CloudType**的类型为**DWORD**值，值为 (0 = Unset，1 = 商业，2 = GCC，* = GCCH，4 = DOD) 。 将终结点设置为注册表项会限制团队连接到正确的云终结点，以便与团队进行预登录连接。
+- 如果客户租户位于 GCCH 或 DoD 云上，客户应通过将**CloudType**值添加到注册表中的**HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams**键来设置注册表中的初始终结点。 **CloudType**的类型为**DWORD**值，值为 (0 = Unset，1 = 商业，2 = GCC，3 = GCCH，4 = DOD) 。 将终结点设置为注册表项会限制团队连接到正确的云终结点，以便与团队进行预登录连接。
 
 - 团队也可以包含在适用于企业的 Microsoft 365 应用的部署中。 有关详细信息，请参阅[通过适用于企业的 microsoft 365 应用部署 Microsoft 团队](https://docs.microsoft.com/deployoffice/teams-install)。
 

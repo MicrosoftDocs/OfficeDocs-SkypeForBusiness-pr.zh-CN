@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解如何从审核日志中检索 Microsoft 团队数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5b458dec4782794fef69b58d44430b35eccc07d
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
+ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121372"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "46634608"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -34,7 +34,7 @@ ms.locfileid: "45121372"
 - 添加频道
 - 更改设置
 
-有关审核的团队活动的完整列表，请参阅[团队](#teams-activities)活动和[团队活动倒班（在预览中）](#shifts-in-teams-activities)。
+有关审核的团队活动的完整列表，请参阅预览) 中的[团队](#teams-activities)活动和[团队活动中的倒班 (](#shifts-in-teams-activities)。
 
 > [!NOTE]
 > 来自专用频道的审核事件也会被记录为团队和标准频道。
@@ -63,7 +63,7 @@ ms.locfileid: "45121372"
 
 ![审核日志搜索页面的屏幕截图](media/audit-log-search-page.png)
 
-- 你可以通过单击活动名称来选择要搜索的特定活动。 或者，您可以通过单击组名称来搜索组中的所有活动（如**文件和文件夹活动**）。 如果已选择活动，则可以单击它以取消选择。 你还可以使用搜索框显示包含你键入的关键字的活动。<br>
+- 你可以通过单击活动名称来选择要搜索的特定活动。 或者，您可以通过单击组名称来搜索组中的所有活动 (例如**文件和文件夹活动**) 。 如果已选择活动，则可以单击它以取消选择。 你还可以使用搜索框显示包含你键入的关键字的活动。<br>
     ![审核日志搜索的屏幕截图](media/audit-log-search.png)
 - 若要显示使用 cmdlet 运行的活动事件，请在 "**活动**" 列表中选择 "**显示所有活动的结果**"。 如果您知道这些活动的操作的名称，请搜索所有活动，然后通过在 "**活动**" 列的框中键入操作的名称来筛选结果。 若要了解详细信息，请参阅[步骤3：筛选搜索结果](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)。
 - 若要清除当前搜索条件，请单击 "**清除**"。 日期范围将返回到过去七天的默认值。 您也可以单击 "全部**清除" 以显示所有活动的结果**，以取消所有选定的活动。
@@ -83,7 +83,7 @@ ms.locfileid: "45121372"
 
 ![通过批量删除触发的事件列表的屏幕截图](media/TeamsExternalUserAddPolicy.png)
 
-此策略的屏幕截图用于监视添加外部用户，允许你命名策略，根据你的业务需求设置严重性，将其设置为（在本例中为 "单个活动"），然后建立仅用于专门监视非内部用户添加的参数，并将此活动限制为 "团队"。
+此策略的屏幕截图用于监视添加外部用户，使你可以命名策略、根据你的业务需求设置严重性、在此情况下将其设置为 () 单个活动，然后建立仅用于专门监视非内部用户添加的参数，并将此活动限制到团队。
 
 可在活动日志中查看来自此策略的结果：
 
@@ -103,7 +103,7 @@ ms.locfileid: "45121372"
 
 ![通过批量删除触发的事件列表的屏幕截图](media/TeamsMassDeleteList.png)
 
-您可以筛选到已设置的策略，以查看该策略的结果。 如果你在活动日志中获得的结果不满意（也许你看到了大量结果，或者根本看不到任何结果），这可能会帮助你微调查询以使其更与你需要的内容相关。
+您可以筛选到已设置的策略，以查看该策略的结果。 如果你在活动日志中获得的结果不满意 (可能会看到大量结果，或者所有) 都没有任何结果，这可能会帮助你微调查询以使其更与你需要的操作相关。
 
 ### <a name="alert-and-governance-scenario"></a>通知和监管方案
 
@@ -113,7 +113,7 @@ ms.locfileid: "45121372"
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>使用 Cloud App Security 设置异常情况检测策略
 
-Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy)提供现成的用户和实体行为分析（UEBA）和机器学习（ML），以便你可以在云环境中立即运行高级威胁检测。 由于它们会自动启用，因此新的异常检测策略通过提供即时检测来提供即时的结果，它针对你的用户和连接到你的网络的计算机和设备提供了多个行为异常。 此外，新策略会从 Cloud App Security 检测引擎中公开更多数据，以帮助你加快调查过程并包含持续威胁。
+Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy)提供全新的用户和实体行为分析 (UEBA) 和计算机学习 (ML) ，以便你可以在云环境中立即运行高级威胁检测。 由于它们会自动启用，因此新的异常检测策略通过提供即时检测来提供即时的结果，它针对你的用户和连接到你的网络的计算机和设备提供了多个行为异常。 此外，新策略会从 Cloud App Security 检测引擎中公开更多数据，以帮助你加快调查过程并包含持续威胁。
 
 我们正在努力将团队事件集成到异常检测策略中。 现在，你可以为其他 Office 产品设置异常情况检测策略，并在与这些策略匹配的用户上执行操作项目。
 
@@ -128,10 +128,10 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 |已添加连接器  |ConnectorAdded          |用户向频道添加连接线。        |
 |已添加成员    |MemberAdded         |团队所有者将成员添加到团队、频道或群组聊天。         |
 |已添加选项卡    |TabAdded         |用户将选项卡添加到频道。        |
-|已更改频道设置    |ChannelSettingChanged         |当团队成员执行以下活动时，将记录 ChannelSettingChanged 操作。 对于这些活动中的每个活动，在审核日志搜索结果中的 "**项目**" 列中显示已更改的设置（显示在括号中）的描述。 <ul><li>更改团队频道的名称（**频道名称**）</li><li>团队频道的更改说明（**频道说明**）</li> </ul>      |
-|已更改的组织设置   |TeamsTenantSettingChanged         |当 Microsoft 365 管理中心中的全局管理员执行以下活动时，将记录 TeamsTenantSettingChanged 操作。 这些活动影响组织范围的团队设置。 若要了解详细信息，请参阅[管理你的组织的团队设置](enable-features-office-365.md)。 <br>对于这些活动中的每个活动，在审核日志搜索结果的 "**项目**" 列中显示已更改（在括号中显示）的设置的说明。<ul><li>为组织（**Microsoft 团队**）启用或禁用团队。</li><li>为组织启用或禁用 Microsoft 团队和 Skype for business 之间的互操作性（**skype For business 互操作性**）。</li><li>启用或禁用 Microsoft 团队客户端（**组织结构图视图**）中的组织结构图视图。</li><li>启用或禁用团队成员安排私人会议（**私人会议安排**）的能力。</li><li>允许或禁止团队成员安排频道会议（"**频道会议安排**"）。</li><li>启用或禁用团队会议中的视频通话（**Skype 会议的视频**）。</li><li>为组织启用或禁用 Microsoft 团队聚会中的屏幕共享（**Skype 会议的屏幕共享**）。</li><li>启用或禁用将动画图像（称为 Giphy）添加到团队对话（**动画图像**）的能力。</li><li>更改组织的内容评级设置（**内容分级**）。 内容分级限制可在对话中显示的动画图像的类型。</li><li>允许或禁止团队成员将自定义图像（称为自定义 meme）从 internet 添加到团队对话（**来自 internet 的可自定义图像**）。</li><li>启用或禁用团队成员向团队对话（**可编辑的图像**）添加可编辑图像（称为贴纸）的功能。</li><li>允许或禁止团队成员在 Microsoft 团队聊天和频道中使用机器人（**组织范围内的智能机器人）** 的功能。</li><li>为 Microsoft 团队启用特定的 bot。 这不包括 T-机器人，它是在为组织（**单个 bot**）启用机器人时提供的团队帮助机器人。</li><li>启用或禁用团队成员添加扩展或选项卡（**扩展或选项卡**）的功能。</li><li>启用或禁用 Microsoft 团队专用 bot （**机器人的侧面加载**）的侧面加载。</li><li>启用或禁用用户向 Microsoft 团队频道（**频道电子邮件**）发送电子邮件的功能。</li></ul>|
+|已更改频道设置    |ChannelSettingChanged         |当团队成员执行以下活动时，将记录 ChannelSettingChanged 操作。 对于这些活动中的每个活动，在审核日志搜索结果的 "**项目**" 列中显示已更改 (括号中所更改设置的说明。 <ul><li>更改团队频道 (**频道名称**的名称) </li><li> (**频道描述**) 的 "更改团队频道" 说明</li> </ul>      |
+|已更改的组织设置   |TeamsTenantSettingChanged         |当 Microsoft 365 管理中心中的全局管理员执行以下活动时，将记录 TeamsTenantSettingChanged 操作。 这些活动影响组织范围的团队设置。 若要了解详细信息，请参阅[管理你的组织的团队设置](enable-features-office-365.md)。 <br>对于这些活动中的每个活动，在审核日志搜索结果的 "**项目**" 列中显示已更改 () 中显示的设置的说明。<ul><li>启用或禁用 (**Microsoft 团队**) 的组织团队。</li><li>为组织 (**skype For business 互操作性**) 启用或禁用 Microsoft 团队和 skype for business 之间的互操作性。</li><li>启用或禁用 "Microsoft 团队客户" 中的组织结构图视图 (**组织结构图视图**") 。</li><li>允许或禁止团队成员安排私人会议 (**私人会议安排**) 的功能。</li><li>启用或禁用团队成员 (**频道会议安排**) 安排频道会议的功能。</li><li>启用或禁用) **Skype 会议 (视频的**团队会议中的视频通话。</li><li>在 Microsoft 团队聚会中启用或禁用) **Skype 会议 (屏幕共享**的 "屏幕共享"。</li><li>允许或禁止 (名为 Giphy) 的动画图像添加到团队对话 (**动画图像**) 。</li><li>更改组织 (**内容分级**) 的内容评级设置。 内容分级限制可在对话中显示的动画图像的类型。</li><li>允许或禁止团队成员将可自定义的图像添加 (称为自定义 meme) 从 internet 到团队对话 (来自 Internet 的自**定义图像**) 。</li><li>允许或禁止团队成员将可编辑的图像添加 (称为贴纸) 到团队对话 (**可编辑的图像**) 。</li><li>启用或禁用团队成员在 Microsoft 团队聊天和频道中使用机器人的功能， (**组织范围内的 bot) **。</li><li>为 Microsoft 团队启用特定的 bot。 这不包括 T-机器人，在为组织 (**单个 bot**) 中启用了机器人的情况下，这些功能是团队帮助机器人。</li><li>启用或禁用团队成员 (**扩展名或选项**卡添加) 的扩展或选项卡的功能。</li><li>启用或禁用用于 Microsoft 团队的专用 bot 的侧面加载) 的 (**面加载**。</li><li>启用或禁用用户将电子邮件发送到 Microsoft 团队频道 (**频道电子邮件**) 的功能。</li></ul>|
 |已更改团队成员的角色    |MemberRoleChanged         |团队所有者更改团队成员的角色。 以下值表示分配给用户的角色类型。 <br><br>**1** -指示所有者角色。<br>**2** -指示成员角色。<br>**3** -指示来宾角色。<br><br>Members 属性还包括您的组织的名称和成员的电子邮件地址。        |
-|已更改的团队设置    |TeamSettingChanged        |当团队所有者执行以下活动时，将记录 TeamSettingChanged 操作。 对于这些活动中的每个活动，在审核日志搜索结果的 "**项目**" 列中显示已更改（在括号中显示）的设置的说明。<ul><li>更改团队的访问权限类型。 可将团队设置为私有或公共（**团队访问类型**）。 当团队是专用的（默认设置）时，用户只能通过邀请访问团队。 当团队是公共团队时，它会被任何人发现。</li><li>更改团队的信息分类（**团队分类**）。 例如，可以将团队数据分类为高业务影响、中型企业影响或低业务影响。</li><li>更改团队的名称（**团队名称**）。</li><li>更改团队说明（**团队说明**）。</li><li>对团队设置所做的更改。 若要访问这些设置，团队所有者可以右键单击团队，选择 "**管理团队**"，然后单击 "**设置**" 选项卡。对于这些活动，已更改的设置的名称将显示在审核日志搜索结果的 "**项目**" 列中。</li></ul>         |
+|已更改的团队设置    |TeamSettingChanged        |当团队所有者执行以下活动时，将记录 TeamSettingChanged 操作。 对于这些活动中的每个活动，在审核日志搜索结果的 "**项目**" 列中显示已更改 () 中显示的设置的说明。<ul><li>更改团队的访问权限类型。 团队可以设置为私人或公共 (**团队访问类型**) 。 当团队 (默认设置) 时，用户只能通过邀请访问团队。 当团队是公共团队时，它会被任何人发现。</li><li>更改团队 (**团队分类**) 的信息分类。 例如，可以将团队数据分类为高业务影响、中型企业影响或低业务影响。</li><li>更改团队 (**团队名称**) 的名称。</li><li> (**团队描述**) 更改团队说明。</li><li>对团队设置所做的更改。 若要访问这些设置，团队所有者可以右键单击团队，选择 "**管理团队**"，然后单击 "**设置**" 选项卡。对于这些活动，已更改的设置的名称将显示在审核日志搜索结果的 "**项目**" 列中。</li></ul>         |
 |已创建团队    |TeamCreated         |用户创建团队。         |
 |已删除所有组织应用|DeletedAllOrganizationApps           |已从目录中删除所有组织应用。     |
 |已删除应用 |AppDeletedFromCatalog           |已从目录中删除应用。     |
@@ -189,6 +189,11 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 ## <a name="office-365-management-activity-api"></a>Office 365 管理活动 API
 
 你可以使用 Office 365 管理活动 API 检索有关团队事件的信息。 若要了解有关团队的管理活动 API 架构的详细信息，请参阅[团队架构](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)。
+
+
+## <a name="attribution-in-teams-audit-logs"></a>团队审核日志中的特性
+
+当前，团队审核日志和控制消息中的属性存在已知问题：所有者可能使用删除或添加的用户不正确地确定了所有者的属性。 在团队外发生更改时，会发生这种情况。 在这些情况下，我们建议使用[Office 365 审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 ## <a name="related-topics"></a>相关主题
 
