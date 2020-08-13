@@ -1,7 +1,7 @@
 ---
 title: 来宾体验介绍
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34c58bc043f67d1a60f3b6c30fef7f5cc693b08
-ms.sourcegitcommit: 5895550d9d19a619d90af3381530ca3017e4b520
+ms.openlocfilehash: 4d02fa805481e99b2627f4ca88b4d4000da31972
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44799793"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46655943"
 ---
 <a name="what-the-guest-experience-is-like"></a>来宾体验介绍
 =================================
@@ -32,7 +32,7 @@ ms.locfileid: "44799793"
     
 ![显示欢迎电子邮件示例的屏幕截图](media/guest-experience-image1.png)
     
-所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标签表示团队中的来宾数，以及每个来宾的名称旁边显示一个 **（来宾）** 标签。
+所有团队成员将在频道线索中看到一条消息，告知团队所有者添加了来宾并提供该来宾的姓名。 团队中的所有人都可以轻松识别谁是来宾。 频道线程右上角的标签表示团队的来宾数，以及每个来宾的名称旁边显示** (来宾) **标签。
 
 ![显示指示团队中的来宾数的标记的屏幕截图](media/guest-experience-image2.png)
 
@@ -69,19 +69,19 @@ ms.locfileid: "44799793"
 
 | 呼叫功能 | 来宾 | E1 和 E3 用户 | E5 和企业语音用户 |
 | --------------- | ----- | -------------- | -------------- |
-| VOIP 呼叫 | 是 | 是  | 是  |
-| 群组通话 | 是 | 是  | 是  |
-| 受支持的核心通话控件（保留、静音、打开/关闭视频、屏幕共享） | 是 | 是  | 是  |
-| 转接目标 | 是 | 是  | 是  |
-| 电话可转接 | 是 | 是  | 是  |
-| 可协商转接 | 是 | 是  | 是  |
-| 可通过 VOIP 将其他用户添加到通话中 | 是 | 是  | 是  |
+| VOIP 呼叫 | 是 | 是 | 是 |
+| 群组通话 | 是 | 是 | 是 |
+| 受支持的核心通话控件（保留、静音、打开/关闭视频、屏幕共享） | 是 | 是 | 是 |
+| 转接目标 | 是 | 是 | 是 |
+| 电话可转接 | 是 | 是 | 是 |
+| 可协商转接 | 是 | 是 | 是 |
+| 可通过 VOIP 将其他用户添加到通话中 | 是 | 是 | 是 |
 | 可通过电话号码将用户添加到通话中 | 否 | 否 | 是 |
 | 转发目标 | 否 | 是 | 是 |
-| 通话群组目标 | 否 | 是 | 是  |
-| 未应答目标 | 否 | 是 | 是  |
-| 可为联合呼叫的目标 | 否 | 是 | 是  |
-| 可进行联合呼叫 | 否 | 是 | 是  |
+| 通话群组目标 | 否 | 是 | 是 |
+| 未应答目标 | 否 | 是 | 是 |
+| 可为联合呼叫的目标 | 否 | 是 | 是 |
+| 可进行联合呼叫 | 否 | 是 | 是 |
 | 可立即转发其呼叫 | 否 | 否 | 是 |
 | 拨打时可同时响铃 | 否 | 否 | 是 |
 | 可路由未应答的通话 | 否 | 否 | 是 |

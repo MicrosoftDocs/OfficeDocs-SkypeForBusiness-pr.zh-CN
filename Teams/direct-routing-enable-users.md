@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何启用 Microsoft 手机系统直接路由用户。
-ms.openlocfilehash: 2ae485398cef1cef2444de07dcabc4bf3f949ad5
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691368"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656143"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>为用户启用直接路由、语音和语音邮件
 
 本文介绍如何为用户启用电话系统直接路由。  这是用于配置直接路由的以下步骤的步骤2：
 
 - 第 1 步 [将 SBC 连接到 Microsoft Phone 系统并验证连接](direct-routing-connect-the-sbc.md) 
-- **步骤2。为用户启用直接路由、语音和语音邮件**（本文）
+- **步骤2。 (本文中启用直接路由、语音和语音邮件的用户**) 
 - 第 3 步 [配置语音路由](direct-routing-voice-routing.md)
 - 第 4 步 [将数字转换为备用格式](direct-routing-translate-numbers.md) 
 
@@ -49,13 +49,13 @@ ms.locfileid: "44691368"
 - 在本地 Active Directory 中创建用户并将用户同步到云。 请参阅[将本地目录与 Azure Active Directory 集成](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。
 - 直接在 Microsoft 365 管理中心创建用户。 请参阅[将用户逐个或批量添加到 Microsoft 365 或 Office 365-管理员帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
 
-如果您的 Skype for Business Online 部署 coexists 使用 Skype for business 2015 或 Lync 2010 或本地2013，则唯一支持的选项是在本地 Active Directory 中创建用户并将用户与云同步（选项1）。 
+如果您的 Skype for Business Online 部署 coexists 使用 Skype for business 2015 或 Lync 2010 或本地2013，则唯一支持的选项是在本地 Active Directory 中创建用户并将用户同步到云 (选项 1) 。 
 
 有关许可证要求的信息，请参阅[计划直接路由](direct-routing-plan.md)中的[许可和其他要求](direct-routing-plan.md#licensing-and-other-requirements)。
 
-## <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>确保用户托管在 Skype for Business Online 中 
+## <a name="ensure-that-the-user-is-homed-online"></a>确保用户处于联机状态 
 
-直接路由要求用户驻留在 Skype for Business Online 中。 你可以查看 RegistrarPool 参数，该参数需要在 infra.lync.com 域中具有值。
+直接路由要求用户在网上托管。 你可以查看 RegistrarPool 参数，该参数需要在 infra.lync.com 域中具有值。
 
 1. 连接到远程 PowerShell。
 2. 发出命令： 

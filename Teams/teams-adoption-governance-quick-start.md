@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 管理快速入门
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,26 +21,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a65a9c43ba6828781c53b14e739ba92593ca934c
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 94f7d592c7c983f930e862ab317c88b16225a61f
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350246"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656293"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Microsoft Teams 管理快速入门
 
 以下活动将同时发生，并且它们可能涉及所有或部分关键团队。 最佳做法是，在您完成对团队的初始实验后，推迟大规模管理和安全对话。 这将简化您在该日期后所需做出的决策。 在此阶段中，需要进行一些决策。 若要成功地进行设置，您首先需要回答以下问题：
 
 - 以前评估的哪些风险承担者很好地参与此有限的企业版加入？
-- 此人是否有此人（或一组个人）推荐的使用案例？这是一个很好的候选使用案例？  
+- 是否有此个人 (或一组个人) 建议的使用案例，这些使用案例将非常适合于此阶段？  
 - 他们是否有足够的兴趣让组织中的员工获得更早的使用者，并为您提供有意义和定期的反馈意见？ 
 
 若要了解详细信息，请阅读[团队中用于管理的计划](plan-teams-governance.md)和[团队中的生命周期管理规划](plan-teams-lifecycle.md)。
 
 ## <a name="an-icon-representing-a-decision-pointdecisions"></a>![代表决策点的图标](media/teams-adoption-decision-icon.png)判断
 
-做出以下决策（此时，这些决策仅适用于第2阶段）：
+请按照以下决策 (，这些决策仅适用于第2阶段) ：
 
 ### <a name="decision-1-who-can-create-teams"></a>决策1：谁可以创建团队 
 
@@ -48,7 +48,7 @@ ms.locfileid: "44350246"
 
 ### <a name="decision-2-teams-naming-conventions"></a>决策2：团队命名约定 
 
-你可能需要为你的团队广泛部署实现一些命名约定，并检查重复的名称。 在第2阶段，我们建议你仅为初始项目实现手动命名约定。 执行此操作的最佳做法是与早期的使用者项目团队进行交互式式加入，并允许他们选择自己的姓名。 这样，你就可以深入了解员工对其工作的看法，并将在以后创建更大的规模命名约定时对其有必要的了解。 （本指南稍后将显示有关交互式加入的元素的其他信息。）
+你可能需要为你的团队广泛部署实现一些命名约定，并检查重复的名称。 在第2阶段，我们建议你仅为初始项目实现手动命名约定。 执行此操作的最佳做法是与早期的使用者项目团队进行交互式式加入，并允许他们选择自己的姓名。 这样，你就可以深入了解员工对其工作的看法，并将在以后创建更大的规模命名约定时对其有必要的了解。 有关交互式加入的元素的 (其他信息将在本指南的后面部分显示。 ) 
 
 ### <a name="decision-3-guest-access"></a>决策3：来宾访问
 

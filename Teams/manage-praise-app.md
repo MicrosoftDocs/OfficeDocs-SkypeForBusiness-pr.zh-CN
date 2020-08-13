@@ -1,20 +1,19 @@
 ---
 title: 管理团队管理中心中的表扬应用
-author: CaitlynZawideh
-ms.author: t-cazaw
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: 了解 Microsoft 团队管理中心中的表扬应用中的管理员设置
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: deff9fca7cf1097399079482dc4667052a7be537
-ms.sourcegitcommit: 5bcc25fb20ed72bac02bc78e40b591e67eb58686
+ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46564073"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656303"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理表扬应用
 
@@ -46,7 +45,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ## <a name="create-your-own-badges"></a>创建自己的徽章
 
-将**自定义徽章**切换切换到 "开"，然后选择 "**创建自定义徽章**"。 在这里，您可以在侧面板中设计自定义徽章。
+将**自定义徽章**切换切换到 "开"，然后选择 "**创建自定义徽章**"。 在这里，您可以在侧面板中设计自定义徽章。 您最多可以创建25个自定义徽章。 
 
 1. 输入徽章名称。 这是用户发送表扬时将在锁屏提醒上显示的名称。
 
@@ -55,7 +54,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
    > [!TIP]
    > 如果您不熟悉十六进制值，本文将[介绍](#hex-colors-intro)如何使用它们。
 
-3. 上载锁屏提醒图像。 接受的文件类型为。PNG. 该文件必须小于25kb。
+3. 上载锁屏提醒图像。 接受的文件类型为。PNG. 图像文件必须小于 40 KB，最大尺寸为 216 X 216 像素。
 ![带有标签的背景、文本和图像字段的锁屏提醒](media/praise-app-badge-fields.png)
 
 4. 本地化徽章名称：在 "**本地化徽章名称**" 下，选择 "**添加**"。 从下拉列表中选择所需的区域设置。 然后在指定语言中输入徽章名称。
@@ -98,7 +97,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 **选择颜色时，请牢记辅助功能。** 某些颜色比其他颜色更好。  创建文本和背景颜色之间的对比度，使徽章名称易于阅读。 例如，如果您选择了深色背景色，请选择一种浅色文本颜色。
 
-**选择图像时，请记住徽章尺寸。** 为了获得最佳质量，建议上载216x216 像素的图像文件。 避免拉伸或扭曲图像以适合这些尺寸。
+**选择图像时，请记住徽章尺寸。** 为了获得最佳质量，建议上载 216 x 216 像素 (的图像文件，这是最大尺寸) 。 避免拉伸或扭曲图像以适合这些尺寸。
 
 **如果您的锁屏提醒图像不是矩形，请使图像透明。** 在将图像文件上载到表扬之前，需要执行此操作。
 

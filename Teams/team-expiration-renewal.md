@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 697e36085169e0666e6a821a66c763be39cf9425
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 16da525051e09f4ed1a7acaf3e9906f59b8b30af
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868519"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648583"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft 团队中的团队过期和续订
 
@@ -33,7 +33,7 @@ ms.locfileid: "44868519"
 
 !["立即续订" 按钮的屏幕截图，用于在团队设置中续订团队](media/team-expiration.png ""立即续订" 按钮的屏幕截图，用于在团队设置中续订团队")
 
-如果团队所有者不续订团队，则会将团队置于 "软删除" 状态，这意味着它可以在未来30天内还原。
+如果团队所有者不续订团队，并且在过期策略结束之前没有进一步的团队活动，则团队将置于 "软删除" 状态，这意味着可在未来30天内恢复。
 
 ## <a name="team-auto-renewal"></a>团队自动续订
 

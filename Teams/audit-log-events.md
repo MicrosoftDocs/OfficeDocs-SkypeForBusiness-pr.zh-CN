@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解如何从审核日志中检索 Microsoft 团队数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64b2e2f28b33a3f0518dbf4f2f07a4be3053d342
-ms.sourcegitcommit: 3814db70796888f15ea47d7810e1621a92992870
+ms.openlocfilehash: ac732b499327e6661472c59f370f45ece42e78cc
+ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "46634608"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "46648533"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -193,7 +193,7 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 
 ## <a name="attribution-in-teams-audit-logs"></a>团队审核日志中的特性
 
-当前，团队审核日志和控制消息中的属性存在已知问题：所有者可能使用删除或添加的用户不正确地确定了所有者的属性。 在团队外发生更改时，会发生这种情况。 在这些情况下，我们建议使用[Office 365 审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+团队中的成员身份更改 (例如，通过 Azure Active Directory (Azure AD) 、Microsoft 365 管理门户或 Microsoft 365 组绘制的) 的成员关系图 API 将显示在团队审核消息中以及与该操作的实际发起者无关的常规频道中。 在这些方案中，请咨询 Azure AD 或[Microsoft 365 组审核日志](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)以查看相关信息。
 
 ## <a name="related-topics"></a>相关主题
 

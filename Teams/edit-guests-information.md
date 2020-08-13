@@ -1,7 +1,7 @@
 ---
 title: 编辑来宾用户信息
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: 7acb172e7a7785773ce4a8f80d76d8c9781f9c7e
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: e36c23c9c462a70a42b92046b5f7d91c9f8c49f9
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44690398"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656073"
 ---
 <a name="edit-guest-user-information"></a>编辑来宾用户信息
 ===========================

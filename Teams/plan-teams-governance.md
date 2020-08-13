@@ -1,7 +1,7 @@
 ---
 title: 在 Teams 中规划管理 - Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: reference
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19b2fc0c14730f4aa4c25ccdfcf5298f6f038d3d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665274"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656353"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -34,7 +34,7 @@ ms.locfileid: "44665274"
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>组和团队创建、命名、分类和来宾访问
 
-你的组织可能要求你实施严格的控制来控制团队的命名方式和分类方式，是否可以将来宾添加为团队成员以及谁可以创建团队。 你可以使用 Azure Active Directory （Azure AD）配置这些区域中的每个区域。 
+你的组织可能要求你实施严格的控制来控制团队的命名方式和分类方式，是否可以将来宾添加为团队成员以及谁可以创建团队。 你可以使用 Azure Active Directory (Azure AD) 配置这些区域中的每个区域。 
 
 <br>
 
@@ -74,7 +74,7 @@ ms.locfileid: "44665274"
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、保留和存档
 
-你的组织可能对为过期、保留和存档团队和团队数据（频道消息和频道文件）设置策略的其他要求。 你可以将组过期策略配置为自动管理组和保留策略的生命周期，以根据需要保留或删除信息，并且你可以将团队（设置为只读模式）保留不再处于活动状态的团队的时间点视图。
+你的组织可能对为过期、保留和存档团队和团队数据 (通道消息和频道) 文件设置策略的其他要求。 你可以将组过期策略配置为自动管理组和保留策略的生命周期，以根据需要保留或删除信息，你可以将团队存档 (将其设置为只读模式) 以保留不再处于活动状态的团队的时间点视图。
 
 |           |            |
 |-----------|------------|
@@ -103,6 +103,34 @@ ms.locfileid: "44665274"
 
 - [存档或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)。
 
+## <a name="group-and-team-membership-management"></a>组和团队成员身份管理
+
+对需要快速加入和脱离或用户和来宾的团队而言，一致地管理基于项目的成员或受限组是必需的。 您的组织可能还需要确保所有当前成员在团队中具有业务理由。 管理成员可能很难，因为团队所有者可以离开，并且用户通常不会在项目结束或更改角色时退出组。 管理组成员身份的最佳方式允许用户在需要时获取访问权限，但确保组不会有不当的访问权限是通过两个地区流程：权利管理和访问评论。
+
+[权利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)允许你委托给某人（如项目经理），以将所有需要的资源（包括团队成员）收集到单个程序包中。 他们还可以定义哪些人可以发出请求：租户中的用户或来自其他连接的组织的用户。 项目经理将在其电子邮件中接收访问请求，并在 MyAccess 门户中批准或拒绝请求。 管理员可以将 access 的条件配置为包括过期日期或时间段，除非续订了 access，否则将从团队中删除用户或来宾。 管理员还可以设置与团队相关联的组，以参与访问评论。 对于[access 审阅](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)，组所有者将收到定期提醒以查看团队成员。 Access 评论包括建议，使组所有者可以更轻松地完成常规证明过程。
+
+||||
+|:-|:-|:-|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 决策点 | 您的组织是否需要一个一致的流程来管理一个或多个团队的成员身份？ <br> 您的组织是否需要所有者或成员自己来定期调整一个或多个团队的持续成员身份？ <br> 你的组织是否需要批准用户和来宾请求对资源（包括团队、组、SharePoint 网站和应用）的访问权限？ |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 后续步骤？ | 为每个团队或特定团队的成员资格到期记录您的组织要求。<br>规划你的组织可以如何将团队、组、SharePoint 网站和应用捆绑到 access 程序包中。<br>规划请求者的经理（如请求者的经理、项目经理、已连接组织的主办方或组织中的安全主管）将需要批准或拒绝访问请求。 |
+
+> [!TIP]
+> 使用下表来捕获组织的要求。
+
+| 功能 | 详细信息 | 需要 Azure AD Premium 许可证 | 作出 |
+|:-|:-|:-|:-|
+| 访问评论 | 设置访问权限审阅 recertify 特定团队的成员身份按固定间隔 | 又 | TBD |
+| 权利管理 | 设置访问程序包以允许用户和来宾请求对团队的访问权限 | 又 | TBD |
+
+> [!NOTE]
+> 为了帮助您提前计划，请[了解有关他们需要哪些许可证的详细信息](https://azure.microsoft.com/pricing/details/active-directory/)。
+
+### <a name="additional-information"></a>其他信息
+
+有关如何实现这些设置的技术指南，请参阅：
+
+- [权利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [访问评论](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>团队功能管理
 
