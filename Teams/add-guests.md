@@ -1,7 +1,7 @@
 ---
 title: 向团队添加来宾
-author: somakbhattacharyya
-ms.author: sbhatta
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -18,12 +18,12 @@ description: 管理员可以在 Microsoft Teams 桌面和 Web 客户端以及 Az
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea1670078a61366e1ab0207368a58f9ad2b900ab
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 099e7a0a1fd7368385d564f46e2df12d5aced4b2
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44609830"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656123"
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================
