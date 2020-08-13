@@ -18,20 +18,20 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8358aaf175536ea567c6972d878466bdb004b660
-ms.sourcegitcommit: 95989f1a93524a2025feeb50b8635da332961ea3
+ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
+ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "46588266"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46656333"
 ---
-# <a name="microsoft-teams-admin-training"></a>Microsoft Teams 管理员培训
+# <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
 |               |               |
 | ------------- | ------------- |
 | <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt-text="walkthrough-map-teams"> | **[管理员培训](/microsoftteams/itadmin-readiness)** </br> 在这些教程、视频和其他培训资源中了解 Teams 并促进其在你的组织内的使用。 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[讲师指导培训](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[最终用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 利用这些培训资源来帮助组织内部用户充分利用 Teams。 |
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams 实时培训](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 
+| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams 联机培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 利用这些自学培训资源来帮助组织内部用户充分利用 Teams。 |
 
 ## <a name="dont-miss-this-key-training"></a>不要错过这一关键培训
 
@@ -78,5 +78,4 @@ ms.locfileid: "46588266"
    :::column-end:::
 
 :::row-end:::
-
 ---
