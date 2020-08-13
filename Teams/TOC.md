@@ -125,6 +125,7 @@
 ## [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [在 Teams 中管理组织的列表应用](manage-lists-app.md)
 ## [为组织管理任务应用](manage-tasks-app.md)
+## [在 Teams 管理中心里管理表扬应用](manage-praise-app.md)
 ## [设置团队目标层次结构](set-up-your-team-hierarchy.md)
 ## [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
@@ -168,6 +169,7 @@
 
 ## [教程：Teams 中的会议](Tutorial-Meetings-in-Teams.yml)
 ## [管理会议策略](meeting-policies-in-teams.md)
+## [从用户中删除RestrictedAnonymousAccess会议策略。](meeting-policies-restricted-anonymous-access.md)
 ## [管理会议设置](meeting-settings-in-teams.md)
 ## [用户设置更改时向其发送的电子邮件](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [使用户能够在加入会议时录制其姓名](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
@@ -829,6 +831,7 @@
 ## 支持的设备
 ### [在 Teams 中管理设备](devices/device-management.md)
 ### [远程更新设备](devices/remote-update.md)
+### [管理 Teams 设备标记](devices/manage-device-tags.md)
 ### [Teams 电话](devices/phones-for-teams.md)
 ### [USB 音频和视频设备](devices/usb-devices.md)
 ### [为 Microsoft Teams 部署协作栏](devices/collab-bar-deploy.md)
