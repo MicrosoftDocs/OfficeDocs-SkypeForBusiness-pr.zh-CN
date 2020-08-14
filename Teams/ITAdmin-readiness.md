@@ -1,6 +1,6 @@
 ---
 title: 管理员培训资源-Microsoft 团队
-ms.reviewer: ''
+ms.reviewer: jhwang
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -19,20 +19,20 @@ ms.custom:
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72b6d93ea24db094827f2b78b751ffb0e6bf907b
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 588142484cbed850f042a1f0b04b862416327eab
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46554612"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672743"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 团队的管理员培训入门
 
 使用培训资源向自己介绍团队、教授他人或运行研讨会。 经常在此处查看新内容。 
 
-|               |               |               |
-| ------------- | ------------- | ------------- |
-| ![描述手形和向上箭头的图标](media/get-started-blue-small.svg)  | [使用几个团队和频道快速入门](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述复选标记的图标](media/success-small.svg)  | [在 YouTube 上的云频道的咖啡中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![描述两个用户的图标](media/users-people-small.svg)  | [获取用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+|               |               |               |               |               |               |               |               |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![描述手形和向上箭头的图标](media/get-started-blue-small.svg)  | [使用几个团队和频道快速入门](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述复选标记的图标](media/success-small.svg)  | [在 YouTube 上的云频道的咖啡中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![描述两个用户的图标](media/users-people-small.svg)  | [获取用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![任务剪贴板符号](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30天内的团队： IT 管理员和更改管理负责人的培训系列，可在30天内实施团队](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>技术培训</h2>
 
@@ -50,7 +50,7 @@ ms.locfileid: "46554612"
 | 动态紧急电话 | [视频](https://aka.ms/teams-dec) |  [幻灯片](https://aka.ms/teams-dec-deck) |
 | 实时事件 | [视频](https://aka.ms/teams-live-events-session) | [幻灯片](https://aka.ms/teams-live-events-deck) |
 | 电话系统简介 | [视频](https://aka.ms/teams-phone-system) | [幻灯片](https://aka.ms/teams-phone-system-deck) |
-| 直接路由 | [视频1：规划在团队中直接路由](https://aka.ms/teams-dr-plan)<br>[视频2：在团队中配置和管理直接路由](https://aka.ms/teams-dr-config)<br>[视频3：迁移到团队中的直接路由](https://aka.ms/teams-dr-migrate)  | [幻灯片](https://aka.ms/teams-direct-routing-deck) |
+| 直接路由 | [视频1：规划在团队中直接路由 ](https://aka.ms/teams-dr-plan)<br>[视频2：在团队中配置和管理直接路由](https://aka.ms/teams-dr-config)<br>[视频3：迁移到团队中的直接路由](https://aka.ms/teams-dr-migrate)  | [幻灯片](https://aka.ms/teams-direct-routing-deck) |
 | 从 Skype for Business 升级到 Teams | [视频1：升级简介](https://aka.ms/teams-upgrade-intro)</br>[视频2：规划升级](https://aka.ms/teams-upgrade-plan)</br>[视频3：共存和互操作性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[视频4：管理员体验](https://aka.ms/teams-upgrade-admin) | [幻灯片](https://aka.ms/teams-upgrade-deck)|
 
 <h2>快速入门指南</h2>

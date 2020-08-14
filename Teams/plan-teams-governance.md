@@ -3,7 +3,6 @@ title: 在 Teams 中规划管理 - Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
-ms.date: 08/10/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
@@ -18,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea48b4df3313784cf129cf483aebac341917cb21
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656353"
+ms.locfileid: "46662112"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -55,10 +54,10 @@ ms.locfileid: "46656353"
 |团队创建 |将团队创建限制为安全组成员。 |P1 |TBD|
 
 > [!NOTE]
-> 为了帮助您提前计划，请[了解有关设置这些策略以及所需的许可证的详细信息](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
+> 为了帮助您提前计划，请 [了解有关设置这些策略以及所需的许可证的详细信息](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 限制组和团队创建会降低用户的工作效率，因为许多 Microsoft 365 和 Office 365 服务都需要创建组才能使服务正常工作。 有关其他信息，请导航到并展开[控制创建 Microsoft 365 组的人员的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
+> 限制组和团队创建会降低用户的工作效率，因为许多 Microsoft 365 和 Office 365 服务都需要创建组才能使服务正常工作。 有关其他信息，请导航到并展开 [控制创建 Microsoft 365 组的人员的原因](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)。
 
 
 #### <a name="additional-information"></a>其他信息
@@ -107,7 +106,7 @@ ms.locfileid: "46656353"
 
 对需要快速加入和脱离或用户和来宾的团队而言，一致地管理基于项目的成员或受限组是必需的。 您的组织可能还需要确保所有当前成员在团队中具有业务理由。 管理成员可能很难，因为团队所有者可以离开，并且用户通常不会在项目结束或更改角色时退出组。 管理组成员身份的最佳方式允许用户在需要时获取访问权限，但确保组不会有不当的访问权限是通过两个地区流程：权利管理和访问评论。
 
-[权利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)允许你委托给某人（如项目经理），以将所有需要的资源（包括团队成员）收集到单个程序包中。 他们还可以定义哪些人可以发出请求：租户中的用户或来自其他连接的组织的用户。 项目经理将在其电子邮件中接收访问请求，并在 MyAccess 门户中批准或拒绝请求。 管理员可以将 access 的条件配置为包括过期日期或时间段，除非续订了 access，否则将从团队中删除用户或来宾。 管理员还可以设置与团队相关联的组，以参与访问评论。 对于[access 审阅](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)，组所有者将收到定期提醒以查看团队成员。 Access 评论包括建议，使组所有者可以更轻松地完成常规证明过程。
+[权利管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) 允许你委托给某人（如项目经理），以将所有需要的资源（包括团队成员）收集到单个程序包中。 他们还可以定义哪些人可以发出请求：租户中的用户或来自其他连接的组织的用户。 项目经理将在其电子邮件中接收访问请求，并在 MyAccess 门户中批准或拒绝请求。 管理员可以将 access 的条件配置为包括过期日期或时间段，除非续订了 access，否则将从团队中删除用户或来宾。 管理员还可以设置与团队相关联的组，以参与访问评论。 对于 [access 审阅](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)，组所有者将收到定期提醒以查看团队成员。 Access 评论包括建议，使组所有者可以更轻松地完成常规证明过程。
 
 ||||
 |:-|:-|:-|
@@ -123,7 +122,7 @@ ms.locfileid: "46656353"
 | 权利管理 | 设置访问程序包以允许用户和来宾请求对团队的访问权限 | 又 | TBD |
 
 > [!NOTE]
-> 为了帮助您提前计划，请[了解有关他们需要哪些许可证的详细信息](https://azure.microsoft.com/pricing/details/active-directory/)。
+> 为了帮助您提前计划，请 [了解有关他们需要哪些许可证的详细信息](https://azure.microsoft.com/pricing/details/active-directory/)。
 
 ### <a name="additional-information"></a>其他信息
 
@@ -153,14 +152,14 @@ ms.locfileid: "46656353"
 - [管理团队中的会议策略](meeting-policies-in-teams.md)
 - [在 Teams 中管理消息传递策略](messaging-policies-in-teams.md)
 
-此外，你可以为频道设置裁决，并向特定用户提供审阅者的功能，以便他们可以控制哪些人可以创建频道发布和答复他们。 有关详细信息，请参阅[在 Microsoft 团队中设置和管理通道裁决](manage-channel-moderation-in-teams.md)。
+此外，你可以为频道设置裁决，并向特定用户提供审阅者的功能，以便他们可以控制哪些人可以创建频道发布和答复他们。 有关详细信息，请参阅 [在 Microsoft 团队中设置和管理通道裁决](manage-channel-moderation-in-teams.md) 。
 
 ## <a name="security-and-compliance"></a>安全性和合规性
 
 团队基于 Microsoft 365 和 Office 365 的高级安全和合规性功能构建，并支持审核和报告、合规性内容搜索、电子发现、法律封存和保留策略。
 
 > [!Important]
-> 如果您的组织具有合规性和安全要求，请查看本文中提供的有关[Microsoft 团队安全性和合规性概述](security-compliance-overview.md)中的本主题的深入内容。
+> 如果您的组织具有合规性和安全要求，请查看本文中提供的有关 [Microsoft 团队安全性和合规性概述](security-compliance-overview.md)中的本主题的深入内容。
 
 ## <a name="related-topics"></a>相关主题
 

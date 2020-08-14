@@ -16,12 +16,12 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 817e9ff29ff1081c1d6f6aee4720f991eb845a21
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012278"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662082"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -30,13 +30,13 @@ ms.locfileid: "45012278"
 相关：[Teams 会议录制最终用户文档](https://aka.ms/recordmeeting)
 
 > [!NOTE]
-> 有关在团队会议中使用角色以及如何更改用户角色的信息，请参阅[团队会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
+> 有关在团队会议中使用角色以及如何更改用户角色的信息，请参阅 [团队会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams 云会议录制的先决条件
 
 对于要录制的团队用户的会议，必须为租户启用 Microsoft Stream。 此外，会议组织者和将发起录制的人员需要满足下列先决条件：
 
-- 用户拥有 Office 365 E1、E3、E5、A1、A3、A5、M365 商业版、商业高级版或商业协作版
+- 用户具有 Office 365 E1、E3、E5、A1、A3、A5、M365 Business Premium、M365 Business Standard 或 M365 Business Basic。
 - 用户需要获得针对 Microsoft Stream 的许可<sup>1</sup> 
 - 用户拥有 Microsoft Stream 上传视频权限
 - 用户已同意公司指南（如果由管理员设置）
@@ -48,7 +48,7 @@ ms.locfileid: "45012278"
 需要授予<sup>1</sup>个用户将会议上载/下载到 Microsoft Stream 的许可证，但不需要许可证即可录制会议。 如果你希望阻止用户录制 Microsoft Teams 会议，则必须为其授予将 AllowCloudRecording 设置为 $False 的 TeamsMeetingPolicy。
 
 > [!IMPORTANT] 
-> 如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这将意味着，录制不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务（AMS）中，在删除之前将有21天的限制。 目前管理员无法控制或管理它，包括无法删除它。
+> 如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这将意味着，录制不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务 (AMS) ，在删除之前将有21天的限制。 目前管理员无法控制或管理它，包括无法删除它。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>为组织中的用户设置 Teams 云会议录制
 
@@ -58,7 +58,7 @@ ms.locfileid: "45012278"
 
 Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一部分，或作为独立服务提供。  有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。  Microsoft Stream 现已包含在 Microsoft 365 商业版、Microsoft 365 商业标准版和 Microsoft 365 商业版中。
 
-了解有关如何为[microsoft 365 或 Office 365 中的用户分配许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)的详细信息，以便用户可以访问 microsoft Stream。 确保未阻止用户的 Microsoft Stream，如[Microsoft stream 的 "阻止登录](https://docs.microsoft.com/stream/disable-user-organization)" 中所定义。
+了解有关如何为 [microsoft 365 或 Office 365 中的用户分配许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 的详细信息，以便用户可以访问 microsoft Stream。 确保未阻止用户的 Microsoft Stream，如 [Microsoft stream 的 "阻止登录](https://docs.microsoft.com/stream/disable-user-organization)" 中所定义。
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>确保用户在 Microsoft Stream 中上载视频权限
 
@@ -79,7 +79,7 @@ Microsoft Stream 作为符合条件的 Microsoft 365 和 Office 365 订阅的一
 请注意，会议组织者和录制发起人均需具有录制会议所需的录制权限。 除非已向用户分配了自定义策略，否则用户将获取全局策略，默认情况下，该策略启用 AllowCloudRecording。
 
 > [!NOTE]
-> 有关使用团队角色配置谁有权录制会议的详细信息，请参阅[团队会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
+> 有关使用团队角色配置谁有权录制会议的详细信息，请参阅 [团队会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
 
 若要让用户回退到全局策略，请使用以下 cmdlet 删除用户的特定策略分配：
 
@@ -105,17 +105,17 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>会议录像的存储位置
 
-会议录制存储在 Microsoft Stream 云存储空间内。 录制会议后，Microsoft Stream 将永久保留（或直到录制所有者将其删除）。 如果录制未上载到流，则会将其存储在团队云存储中，在这里，可以下载20天。 目前，对于 Teams 数据存储在国内的客户而言，如果 Microsoft Stream 在其存放数据的国内数据驻留区域中不可用，则会为其关闭 Teams 会议录制功能。
+会议录制存储在 Microsoft Stream 云存储空间内。 录制会议后，Microsoft Stream 将永久保留 (或直到录制所有者将其删除) 。 如果录制未上载到流，则会将其存储在团队云存储中，在这里，可以下载20天。 目前，对于 Teams 数据存储在国内的客户而言，如果 Microsoft Stream 在其存放数据的国内数据驻留区域中不可用，则会为其关闭 Teams 会议录制功能。
 
 若要查找你的 Microsoft Stream 数据的存储区域，请在 Microsoft Stream 中单击右上角的 **?**， 单击“**关于 Microsoft Stream**”，然后单击“**您的数据存储于**”。  若要深入了解 Microsoft Stream 存储数据的区域，请参阅 [Microsoft Stream 常见问题解答](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 
-若要了解有关在 Microsoft 365 或 Office 365 中跨服务存储数据的位置的详细信息，请参阅[您的数据位于何处？](https://products.office.com/where-is-your-data-located?rtc=1)
+若要了解有关在 Microsoft 365 或 Office 365 中跨服务存储数据的位置的详细信息，请参阅 [您的数据位于何处？](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>打开或关闭录制转录
 
-此设置控制播放会议录制期间是否提供字幕和脚本功能。 如果关闭此功能，在播放会议录制的过程中，"**搜索**" 和 **"抄送**" 选项将不可用。 启动录制的人员需要启用此设置，以便录制还包括脚本。
+此设置控制播放会议录制期间是否提供字幕和脚本功能。 如果关闭此功能，在播放会议录制的过程中，" **搜索** " 和 **"抄送** " 选项将不可用。 启动录制的人员需要启用此设置，以便录制还包括脚本。
 
-**请注意**，当前只有在团队中将语言设置为英语且在会议中朗读英语的用户才支持使用录制的会议。
+**请注意** ，当前只有在团队中将语言设置为英语且在会议中朗读英语的用户才支持使用录制的会议。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
@@ -149,7 +149,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 ### <a name="planning-for-storage"></a>存储规划
 
-1 小时录像的大小为 400 MB。 请务必了解所录文件所需要的容量，并确保在 Microsoft Stream 中有足够的可用存储空间。  阅读[Microsoft Stream 许可概述](https://docs.microsoft.com/stream/license-overview)以了解订阅中包含的基本存储以及如何购买其他存储空间。
+1 小时录像的大小为 400 MB。 请务必了解所录文件所需要的容量，并确保在 Microsoft Stream 中有足够的可用存储空间。  阅读 [Microsoft Stream 许可概述](https://docs.microsoft.com/stream/license-overview) 以了解订阅中包含的基本存储以及如何购买其他存储空间。
 
 ## <a name="manage-meeting-recordings"></a>管理会议录像
 

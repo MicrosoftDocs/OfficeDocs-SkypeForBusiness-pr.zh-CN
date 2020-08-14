@@ -1,8 +1,8 @@
 ---
 title: 应答自动助理和呼叫队列呼叫
 ms.reviewer: waseemh
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1ea09e005dea2a89cb23b55a8ac59eaf491df460
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582819"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672873"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 ===========================================================
@@ -61,7 +61,7 @@ ms.locfileid: "46582819"
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为 Microsoft 团队配置自动助理和呼叫队列支持
 
-若要在 Microsoft 团队中接收自动助理和呼叫队列呼叫，需要配置你的互操作性策略和升级策略。 请查看[与 Skype For business 一起使用团队的组织的迁移和互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有配置自动助理和/或呼叫队列，请参阅[设置云自动助理](create-a-phone-system-auto-attendant.md)和[创建云呼叫队列](create-a-phone-system-call-queue.md)。
+若要在 Microsoft 团队中接收自动助理和呼叫队列呼叫，需要配置你的互操作性策略和升级策略。 请查看 [与 Skype For business 一起使用团队的组织的迁移和互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有配置自动助理和/或呼叫队列，请参阅 [设置云自动助理](create-a-phone-system-auto-attendant.md) 和 [创建云呼叫队列](create-a-phone-system-call-queue.md)。
 
 ## <a name="related-topics"></a>相关主题
 

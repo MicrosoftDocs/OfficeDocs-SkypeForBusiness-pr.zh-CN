@@ -29,7 +29,7 @@ ms.locfileid: "44219672"
   
 出于说明目的，我们将 LyncSample.com 用于本地域，将 LyncSample.ccstp.net 用于联机域。
   
-1. 通过连接到 Exchange online Management shell （如 Exchange Online 设置中所述），在 Exchange 管理中心（LyncSample.ccsctp.net）中创建资源邮箱。
+1. 通过连接到 Exchange online Management shell (LyncSample.ccsctp.net) （如 Exchange Online 设置中所述），在 Exchange 管理中心中创建资源邮箱。
     
    ```powershell
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
@@ -37,13 +37,13 @@ ms.locfileid: "44219672"
 
     您可以使用 lrstest5@LyncSample.ccsctp.net 验证 OWA 连接以进行登录。
     
-2. 在 Microsoft 365 或 Office 365 Exchange 管理中心中，添加一个电子邮件地址 lrstest5@LyncSample.com （在本地域中）并将其设置为答复地址。
+2. 在 Microsoft 365 或 Office 365 Exchange 管理中心中，添加一个电子邮件地址 lrstest5@LyncSample.com (本地 domain) 并将其设置为答复地址。
     
 3. 创建本地 Active Directory user lrstest5@LyncSample.com，将电子邮件地址设置为 lrstest5@LyncSample.com，并将目标地址设置为 lrstest5@LyncSample.com。
     
 4. 触发目录同步，并且在同步完成后，请验证用户是否在 AAD 中进行了合并，以及您无法更改 Microsoft 365 或 Office 365 Exchange 管理中心中收件人的资源的属性。
     
-5. 使用 lrstest5@LyncSample.com 验证 OWA 连接性。 （更早，您使用联机域验证了 OWA 连接。）
+5. 使用 lrstest5@LyncSample.com 验证 OWA 连接性。  (之前，您使用联机域验证了 OWA 连接。 ) 
     
     创建邮箱后，您可以使用 Exchange Online 命令行管理程序上的 Set-calendarprocessing 配置邮箱。 有关更多详细信息，请参阅本地部署下的步骤3至6。
     

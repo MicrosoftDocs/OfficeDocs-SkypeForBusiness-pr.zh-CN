@@ -19,7 +19,7 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
-description: 了解如何配置 Skype for Business 云连接器版本，这是在 Skype for Business Online 中启用本地语音基础结构与电话系统（云 PBX）语音服务集成的最小本地拓扑。
+description: 了解如何配置 Skype for Business 云连接器版本（最小本地拓扑），以便能够将本地语音基础结构与 Skype for Business Online 中的电话系统 (云 PBX) 语音服务集成。
 ms.openlocfilehash: a7c157836497383d89055f8ab986aa15f7e11870
 ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "44219512"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>配置和管理 Skype for Business 云连接器版本
  
-了解如何配置 Skype for Business 云连接器版本，这是在 Skype for Business Online 中启用本地语音基础结构与电话系统（云 PBX）语音服务集成的最小本地拓扑。 
+了解如何配置 Skype for Business 云连接器版本（最小本地拓扑），以便能够将本地语音基础结构与 Skype for Business Online 中的电话系统 (云 PBX) 语音服务集成。 
   
-在开始之前，应查看[Plan For Skype For Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)中的先决条件。
+在开始之前，应查看 [Plan For Skype For Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)中的先决条件。
   
 > [!IMPORTANT]
-> 本主题中的步骤仅适用于云连接器版本1.4.1 和更高版本。 如果尚未升级到云连接器版本2.1，请参阅[升级到新版本的云连接器](upgrade-to-a-new-version-of-cloud-connector.md)。 您可以从下载安装文件 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。 
+> 本主题中的步骤仅适用于云连接器版本1.4.1 和更高版本。 如果尚未升级到云连接器版本2.1，请参阅 [升级到新版本的云连接器](upgrade-to-a-new-version-of-cloud-connector.md)。 您可以从下载安装文件 [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。 
   
 ## <a name="steps-to-configure-skype-for-business-cloud-connector-edition"></a>配置 Skype for Business 云连接器版本的步骤
 

@@ -22,41 +22,42 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会议组织者可以了解如何使用 "团队" 应用拨出，让其他人可以使用他们的电话加入同一会议。
-ms.openlocfilehash: 7d15cbbc1b81d54f6a217713cea3927dcff31e56
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691288"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662102"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 
 作为会议组织者，您可以使用 "团队" 应用拨出，让其他人使用他们的电话加入同一会议。
 
-当您拨出给某人时，我们建议您使用其完整的电话号码（包括国家/地区代码-164 格式）执行此操作。
+当您拨出给某人时，我们建议您使用其完整的电话号码， (包括国家/地区代码-164 格式) 。
   
   请注意：
 
 - 只有在使用团队加入会议时，才可以拨出。
-- 您（作为会议组织者）已启用音频会议。
+- 会议组织者已启用音频会议，或者在未分配音频会议许可证的情况下，允许通过在线呼叫计划或直接路由拨打公共交换电话网络。
+- 为会议组织者 [授予了允许从会议拨出的联机拨出策略](https://docs.microsoft.com/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 下面介绍了如何使用拨出功能：
 
- **步骤1：** 在会议中，使用 "添加人员" 按钮选项的 "**添加人员**" ![ 屏幕截图 ](media/add-people-button.png) 拨出电话号码。
- **步骤2：** 输入完整的电话号码，包括 "**邀请他人或拨打号码**" 框中的国家/地区代码。
+ **步骤1：** 在会议中，使用 "添加人员" 按钮选项的 " **添加人员**" ![ 屏幕截图 ](media/add-people-button.png) 拨出电话号码。
+ **步骤2：** 输入完整的电话号码，包括 " **邀请他人或拨打号码** " 框中的国家/地区代码。
   
 !["邀请某人或拨打号码" 框的屏幕截图](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>支持的国家和地区
 
-拨出功能仅适用于某些国家/地区。 有关完整列表，请参阅[音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+拨出功能仅适用于某些国家/地区。 有关完整列表，请参阅 [音频会议和通话计划的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
 ## <a name="allow-users-to-dial-in"></a>允许用户拨入
 
-如果你正在查找有关如何让你的用户拨入团队会议的说明，请参阅[Microsoft 团队中的音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
+如果你正在查找有关如何让你的用户拨入团队会议的说明，请参阅 [Microsoft 团队中的音频会议的电话号码](phone-numbers-for-audio-conferencing-in-teams.md)。
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要了解有关音频会议的详细信息？
 

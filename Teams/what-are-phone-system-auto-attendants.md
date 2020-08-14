@@ -1,7 +1,7 @@
 ---
 title: 什么是云自动助理？
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: makolomi
 ms.date: 4/2/2019
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 了解云自动助理以及如何使用它们让呼叫者在菜单系统中移动，以找到并将呼叫放入或转移到用户或部门。
-ms.openlocfilehash: 57e718ad6b660baa39814b987c2b6ca18bba05d9
-ms.sourcegitcommit: ab094058e3ffa974527fce8a331dad609ac19609
+ms.openlocfilehash: 88b1a67c1438efb5ef1113999feeffd9735f293f
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "46552568"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672833"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 
@@ -37,7 +37,7 @@ ms.locfileid: "46552568"
   
 自动助理通常是系统中的节点，向呼叫者提供一系列语音提示或音频文件，而不是人工操作员。 当用户呼叫与自动助理关联的号码时，他们的选择可将呼叫重定向到用户或查找组织中的某人，然后连接到该用户。 他们可以通过使用电话键盘 (DTMF) 或语音识别来表示其选择，并与菜单系统进行交互。 他们所做的选择也可以将呼叫重定向到另一个自动助理或呼叫队列。
   
-若要为手机系统设置自动助理，请转到[设置云自动助理](create-a-phone-system-auto-attendant.md)。
+若要为手机系统设置自动助理，请转到 [设置云自动助理](create-a-phone-system-auto-attendant.md)。
   
 云自动助理具有以下功能：
   
@@ -57,16 +57,16 @@ ms.locfileid: "46552568"
 
 要开始使用自动助理，记住以下几点至关重要：
 
-- 必须具有自动助理才能拥有关联的资源帐户。 有关资源帐户的详细信息，请参阅[管理团队中的资源帐户](manage-resource-accounts.md)。 <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
+- 必须具有自动助理才能拥有关联的资源帐户。 有关资源帐户的详细信息，请参阅 [管理团队中的资源帐户](manage-resource-accounts.md) 。 <!-- You can either use an existing resource account or create a new resource account as you set up your auto attendant. -->
 - 将电话号码分配给自动助理时，严格地说，您正在将其分配给与该自动助理关联的资源帐户。 这提供了一种让多个电话号码访问自动助理的方法。 通常，资源帐户将使用免费的电话系统虚拟用户许可证。 此许可证为组织级别的电话号码提供电话系统功能，并允许你创建自动助理和呼叫队列。
 
 > [!NOTE]
 > 只有 Microsoft 团队用户和呼叫代理才支持自动助理和呼叫队列的直接路由服务号码。
 
    > [!TIP]
-   > 若要将呼叫重定向到使用**电话系统**许可证的联机用户的操作员或菜单选项，您需要为企业语音启用其帐户或为其分配呼叫计划。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 你还可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+   > 若要将呼叫重定向到使用 **电话系统** 许可证的联机用户的操作员或菜单选项，您需要为企业语音启用其帐户或为其分配呼叫计划。 请参阅 [分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 你还可以使用 Windows PowerShell。 例如运行： `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- 若要为自动助理获取和使用免费服务号码，您需要设置通讯信用点数。 若要执行此操作，请参阅[什么是通讯信用点数？](what-are-communications-credits.md)并[为您的组织设置通讯信用点数](set-up-communications-credits-for-your-organization.md)。
+- 若要为自动助理获取和使用免费服务号码，您需要设置通讯信用点数。 若要执行此操作，请参阅 [什么是通讯信用点数？](what-are-communications-credits.md) 并 [为您的组织设置通讯信用点数](set-up-communications-credits-for-your-organization.md)。
 
     > [!IMPORTANT]
     > [!重要信息] 不能将用户（订阅者）的电话号码分配给自动助理 - 只能使用收费或免费服务电话号码。
@@ -79,9 +79,9 @@ ms.locfileid: "46552568"
 
 ### <a name="searching-for-users"></a>搜索用户
 
-按名称拨号是自动助理的一项功能，也称为目录搜索。 它使呼叫您的自动助理的人可以使用语音 (语音识别) 或其电话键盘 (DTMF) 响应输入完整或部分名称以搜索公司的目录，找到该联系人，然后将呼叫转移到他们。 您希望使用 "按名称拨入" 和 "已达到" 状态的用户**无需具有电话号码或有分配给他们的通话计划，但他们必须具有电话系统许可证（如果他们是联机用户）或为 Skype for Business 服务器用户启用的企业语音**。 通过名称拨号，您甚至可以找到并将呼叫转移到位于不同国家或地区组织的其他国家或地区的 Microsoft 团队用户。 根据所涉及的先决条件，在自动助理中明确启用 "按名称拨号"。
+按名称拨号是自动助理的一项功能，也称为目录搜索。 它使呼叫您的自动助理的人可以使用语音 (语音识别) 或其电话键盘 (DTMF) 响应输入完整或部分名称以搜索公司的目录，找到该联系人，然后将呼叫转移到他们。 您希望使用 "按名称拨入" 和 "已达到" 状态的用户 **无需具有电话号码或有分配给他们的通话计划，但他们必须具有电话系统许可证（如果他们是联机用户）或为 Skype for Business 服务器用户启用的企业语音**。 通过名称拨号，您甚至可以找到并将呼叫转移到位于不同国家或地区组织的其他国家或地区的 Microsoft 团队用户。 根据所涉及的先决条件，在自动助理中明确启用 "按名称拨号"。
 
-"通过分机号码拨号" 是自动助理的一项功能，它也是目录搜索的一部分。 它使呼叫您的自动助理的人可以使用语音 (语音识别) 或其电话键盘 (DTMF) 响应输入他们尝试访问的用户的电话分机，然后将呼叫转移到他们。 您希望使用 "通过分机拨入" 和 "已达到" 的用户**无需具有电话号码或分配给他们的通话计划，但他们必须具有电话系统许可证（如果他们是联机用户）或为 Skype for Business 服务器用户启用的企业语音**。 您还需要为用户配置适当配置的拨号计划。 通过分机号码进行拨号，甚至可以查找与多国组织的不同国家或地区托管的 Microsoft 团队用户的呼叫和转移呼叫。 根据所涉及的先决条件，你可以显式启用自动助理中的 "通过扩展拨号"。
+"通过分机号码拨号" 是自动助理的一项功能，它也是目录搜索的一部分。 它使呼叫您的自动助理的人可以使用语音 (语音识别) 或其电话键盘 (DTMF) 响应输入他们尝试访问的用户的电话分机，然后将呼叫转移到他们。 您希望使用 "通过分机拨入" 和 "已达到" 的用户  **无需具有电话号码或分配给他们的通话计划，但他们必须具有电话系统许可证（如果他们是联机用户）或为 Skype for Business 服务器用户启用的企业语音**。 您还需要为用户配置适当配置的拨号计划。 通过分机号码进行拨号，甚至可以查找与多国组织的不同国家或地区托管的 Microsoft 团队用户的呼叫和转移呼叫。 根据所涉及的先决条件，你可以显式启用自动助理中的 "通过扩展拨号"。
 
 #### <a name="maximum-directory-size"></a>目录最大大小
 
@@ -192,13 +192,13 @@ ms.locfileid: "46552568"
 
 可选择将自动助理设置为向呼叫者提供一个选择以与人工接线员讲话。
   
-Key 0 和 voice 命令 "Operator" 默认情况下，将呼叫定向到指定的操作员。 语音识别支持的所有语言都属于这种情况。 你还可以使用 "**设置菜单选项**" 设置运算符的自定义值。
+Key 0 和 voice 命令 "Operator" 默认情况下，将呼叫定向到指定的操作员。 语音识别支持的所有语言都属于这种情况。 你还可以使用 " **设置菜单选项** " 设置运算符的自定义值。
   
 操作员可以设置为：
   
 - 企业语音启用的 Microsoft 团队用户或 Skype for business 服务器用户。
 - 为组织设置的其他自动助理。
-- 组织中建立的任何现有呼叫队列。 若要查看有关通话队列的详细信息，请参阅[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+- 组织中建立的任何现有呼叫队列。 若要查看有关通话队列的详细信息，请参阅 [创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
 ### <a name="business-hours-and-call-handling"></a>营业时间和呼叫处理
 
@@ -208,9 +208,9 @@ Key 0 和 voice 命令 "Operator" 默认情况下，将呼叫定向到指定的�
   
 - 播放问候语后，呼叫可能断开连接。
 - 您也可以：
-  - 将呼叫重定向到具有 "企业语音启用" 或 "已分配呼叫计划" 的**电话系统**许可证的 Microsoft 团队用户。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，请选择" **贵公司的人**"，此人会将其呼叫直接转到语音邮件。
+  - 将呼叫重定向到具有 "企业语音启用" 或 "已分配呼叫计划" 的 **电话系统** 许可证的 Microsoft 团队用户。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，请选择" **贵公司的人**"，此人会将其呼叫直接转到语音邮件。
 
-  - 将呼叫重定向到呼叫队列。 若要查看有关通话队列的详细信息，请参阅[创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
+  - 将呼叫重定向到呼叫队列。 若要查看有关通话队列的详细信息，请参阅 [创建云呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)。
 
   - 将呼叫重定向到另一个自动助理。
 
@@ -224,21 +224,21 @@ Key 0 和 voice 命令 "Operator" 默认情况下，将呼叫定向到指定的�
   
 - 接线员，默认情况下映射到键 0。 但是，可以将其重新分配给任何其他键，或将其从菜单中删除。
 - 通话队列。
-- 另一种自动助理。 通过将一个自动助理中的**菜单选项**指向另一个自动助理，并将其设置为 "嵌套" 自动助理，可以设置多级别菜单。
-- 具有**手机系统**许可证的 Microsoft 团队用户，该许可证是企业语音启用的或分配了呼叫计划。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，请选择" **贵公司的人**"，此人会将其呼叫直接转到语音邮件。
+- 另一种自动助理。 通过将一个自动助理中的 **菜单选项** 指向另一个自动助理，并将其设置为 "嵌套" 自动助理，可以设置多级别菜单。
+- 具有 **手机系统** 许可证的 Microsoft 团队用户，该许可证是企业语音启用的或分配了呼叫计划。 你可以通过此设置将呼叫者直接转到语音邮件。 为此，请选择" **贵公司的人**"，此人会将其呼叫直接转到语音邮件。
   
 如果已启用语音识别，则每个菜单选项的名称将变为语音识别关键字。 例如，呼叫者可以说 "One" 以选择映射到键1的菜单选项，或者说 "销售额" 以选择名为 "Sales" 的相同菜单选项。
   
-若要设置自动助理和菜单选项，请转到[设置云自动助理](create-a-phone-system-auto-attendant.md)。
+若要设置自动助理和菜单选项，请转到 [设置云自动助理](create-a-phone-system-auto-attendant.md)。
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>为自动助理分配电话号码
 
-如果需要多个电话号码，您可以为您的自动助理的链接资源帐户 (或多个资源帐户分配 Microsoft 服务号码、直接路由号码或混合号码) 。 有关其他详细信息，请参阅[规划直接路由](direct-routing-plan.md)。
+如果需要多个电话号码，您可以为您的自动助理的链接资源帐户 (或多个资源帐户分配 Microsoft 服务号码、直接路由号码或混合号码) 。 有关其他详细信息，请参阅 [规划直接路由](direct-routing-plan.md) 。
 
-要分配服务号码，您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后，它们将显示在**Skype for business 管理中心的**  >  **语音**  >  **电话号码**中。 **号码类型**列为 "**服务-** 免费"。 若要获取你的服务号码，请参阅[获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers); 如果要转移和现有服务号码，请参阅[将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+要分配服务号码，您需要购买或移植您现有的收费或免费服务号码。 获得收费或免费服务电话号码后，它们将显示在**Skype for business 管理中心的**  >  **语音**  >  **电话号码**中。 **号码类型** 列为 " **服务-** 免费"。 若要获取你的服务号码，请参阅 [获取 Skype for business 和 Microsoft 团队的服务电话号码](/microsoftteams/getting-service-phone-numbers) ; 如果要转移和现有服务号码，请参阅 [将电话号码转移到团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
   
 > [!NOTE]
-> 如果您在美国以外，则不能使用 Microsoft 团队管理中心获取服务号码。 转到 "[管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)" 以了解如何操作。
+> 如果您在美国以外，则不能使用 Microsoft 团队管理中心获取服务号码。 转到 " [管理你的组织的电话号码](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) " 以了解如何操作。
   
 ## <a name="related-topics"></a>相关主题
 

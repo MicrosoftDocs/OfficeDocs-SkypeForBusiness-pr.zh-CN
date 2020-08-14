@@ -21,45 +21,44 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 了解在 Microsoft Teams 中重置用户的会议 ID 以及获取会议更新和迁移工具链接的步骤。
-ms.openlocfilehash: fbda2d65868d9f4082ae7b3ee835d0560c609e11
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: 52b547fee5bf027bcef21914e3ba3aa79b0e4e08
+ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666194"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "46662122"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>在 Microsoft Teams 中重置用户的会议 ID
 
 一个动态会议 ID 与呼叫者可用于拨入会议的拨入电话号码一起包含在会议邀请底部。 在用户拨打电话号码时，会议的自动助理会要求呼叫者输入此会议 ID 才能参加会议。
   
 > [!NOTE]
-> 如果你的会议提供商是 Microsoft，则默认情况下，你的用户的会议 ID 设置为“仅动态”。 很遗憾，无法将其更改为静态，因为现在不支持。 仅会为启用了音频会议的 Microsoft Teams 用户自动设置会议 ID。 
-
+> 会议 Id 是自动生成的，将在7-9 位之间，并且在为用户启用音频会议时设置。 **不支持静态会议 Id。** 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>重置用户的会议 ID
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
+1. 在左侧导航中，单击“**用户**”，然后从可用用户列表中选择用户。
 
-2. 单击 "**编辑**"。
+2. 单击 " **编辑**"。
 
-3. 在 "**音频会议**" 下，单击 "**重置会议 ID**"。
+3. 在“**音频会议**”下，单击“**重置会议 ID**”。
 
-2. 在 "**重置会议 ID** " 窗口中，单击 "**重置**"。 A conference ID will be automatically created and an email sent to the user with the new conference ID. 默认情况下，将向用户发送电子邮件，但这可以被关闭。   
+2. 在“**重置会议 ID**”窗口中，单击“**重置**”。 将自动创建一个会议 ID，并向用户发送包含新会议 ID 的电子邮件。 默认情况下，将向用户发送电子邮件，但可以关闭此功能。   
 
     
 > [!NOTE]
-> [!注释] 重置会议 ID 后，会向用户发送包含新会议 ID 的电子邮件。 此电子邮件将发送到主要电子邮件地址，在很多情况下，他们的 Microsoft 365 或 Office 365 邮箱。 电子邮件包含新的会议 ID、默认拨入电话号码和更新现有会议的说明。 
+> 重置会议 ID 后，将向用户发送包含新会议 ID 的电子邮件。 此电子邮件将发送到主要电子邮件地址，在很多情况下，他们的 Microsoft 365 或 Office 365 邮箱。 该电子邮件包含新会议 ID、默认拨入电话号码以及更新现有会议的说明。 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="what-else-should-i-know"></a>我还需了解哪些信息？
+## <a name="what-else-should-i-know"></a>我还应该了解哪些信息？
 
-- 你可以在包含会议 ID 和拨入电话号码的电子邮件中，通过单击 "**音频会议**" 部分中的用户**电子邮件中的 "发送会议信息**"，向用户发送所有会议信息。 它不会发送 PIN。
+- 你可以在“**音频会议**”部分针对用户单击“**通过电子邮件发送会议信息**”，通过电子邮件向用户发送所有会议信息（包括会议 ID 和拨入电话号码）。 它不会发送 PIN。
     
-- 会议 ID 将包含8个数字，您不能更改其长度。
+- 7-9 位会议 ID 由团队服务创建。 您不能更改其长度。
     
 - 重置之后，你可以看到新会议 ID 列在" **会议 ID**"下方。
     
