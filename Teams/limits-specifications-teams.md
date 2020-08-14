@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 794089ed86b51ba15df2bd72a63a4dbe4f892f13
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
+ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656063"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46672753"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -44,7 +44,7 @@ ms.locfileid: "46656063"
 |每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
 |各团队专用频道数    |30|
 |专用频道中的成员数    |250|
-|组中最多可以有多少名成员以转换为团队    |10,000|
+|Office 365 组中最多可以有多少名成员以转换为团队    |10,000|
 |频道对话文章大小 | 每篇文章约 28 KB<sup>4</sup> |
 
 <sup>1</sup> Azure Active Directory 中的目录对象均计入此限额。 如同使用[应用程序权限](https://docs.microsoft.com/graph/permissions-reference)调用 Microsoft Graph 的应用一样，全局管理员不受此限制约束。
