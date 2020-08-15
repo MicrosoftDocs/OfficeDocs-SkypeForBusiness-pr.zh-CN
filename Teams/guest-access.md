@@ -8,8 +8,7 @@ ms.service: msteams
 ms.reviewer: sbhatta
 audience: admin
 search.appverid: MET150
-description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
-localization_priority: Priority
+localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
@@ -18,28 +17,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67ddc045c04c1c3d8cb9bffa0ee15ebf71c70c2f
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
-ms.translationtype: HT
+description: 利用 Microsoft Teams 中的来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问团队和频道的权限来与其协作。
+ms.openlocfilehash: f04fce7f75df32111b2577119c12b14eadf963b9
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656103"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761238"
 ---
-<a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
-======================================
+# <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的来宾访问
 
-通过来宾访问，可将组织外部的单个用户添加到 Microsoft Teams 中的团队和频道。 
+利用来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问 Teams 中现有团队和频道的权限来与其协作。 任何拥有企业或消费者电子邮件帐户（例如 Microsoft 365、Outlook、Gmail 或其他人）的人都可以在团队中作为来宾参与团队聊天、会议和文件的完全访问。 作为 Teams 管理员，你可以控制来宾可以（及不可）在 Teams 中使用的功能 - 请查看[管理来宾访问](manage-guests.md)。
 
 要将外部访问（联合身份验证）与来宾访问进行比较（并决定应使用哪个），请阅读[与 Teams 中其他组织的用户通信](communicate-with-users-from-other-organizations.md)。
 
-如果你已准备好在组织中启用来宾访问，请从[来宾访问清单](guest-access-checklist.md)开始。
+来宾访问是 Teams 组织范围内的设置且默认关闭。  (您可以使用 [灵敏度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)控制对单个团队的来宾访问。 ) 
 
-## <a name="guest-access-overview"></a>来宾访问概述
+如果你已准备好开始邀请团队加入团队，请阅读下列内容之一：
 
-利用来宾访问功能，贵组织中的团队可以通过为贵组织外的人员授予访问 Teams 中现有团队和频道的权限来与其协作。 具有企业或消费者电子邮件帐户（例如 Outlook、Gmail 或其他帐户）的任何人都能以访客身份参与 Teams，并对团队聊天、会议和文件具有完全访问权限。 作为 Teams 管理员，你可以控制来宾可以（及不可）在 Teams 中使用的功能 - 请查看[管理来宾访问](manage-guests.md)。
+- 若要为团队配置常规使用的来宾访问，请参阅 [与团队中的来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。
+- 若要与使用 Azure Active Directory 的合作伙伴组织进行协作，并允许来宾自行注册团队访问，请参阅 [使用托管来宾创建 B2B extranet](https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet)。
 
-来宾访问是 Teams 组织范围内的设置且默认关闭。 来宾访问受到 Azure AD 和 Microsoft 365 或 Office 365 服务限制的约束。
-
+来宾访问受到 Azure AD 和 Microsoft 365 或 Office 365 服务限制的约束。
 
 > [!IMPORTANT]
 > 来宾用户遵循 Teams 组织范围内的共存升级模式设置。 此选项无法更改。
@@ -58,17 +57,17 @@ ms.locfileid: "46656103"
 
 要了解有关来宾可以操作和无法执行的操作的更多信息，请参阅[授权 Microsoft Teams 中的来宾访问](teams-dependencies.md)。 或查看[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表。 
 
-最后，Teams 中的所有来宾与其他 Microsoft 365 和 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。
+最后，团队中的所有来宾均被与 Microsoft 365 的其余部分相同的合规性和审核保护涵盖，并且可以在 Azure AD 中托管。
 
 ## <a name="why-use-guest-access"></a>为何要使用来宾访问？
 
-借助来宾访问权限，使用 Teams 的组织可向其合作伙伴提供对团队、频道中的文档、资源、聊天和应用的访问权限，同时对其自己的公司数据维护完全控制。 Teams 中的所有来宾与其他 Microsoft 365 和 Office 365 产品享受同样的合规性和审核保护，而且可在 Azure AD 中安全托管。  
+借助来宾访问权限，使用 Teams 的组织可向其合作伙伴提供对团队、频道中的文档、资源、聊天和应用的访问权限，同时对其自己的公司数据维护完全控制。 
 
 ## <a name="understand-the-limitations-for-guests"></a>了解来宾的限制
 
-来宾体验体验在设计上有限制。 确保你了解来宾体验，这样你就不会试图去解决一些不成问题的问题。 例如，下面列出了一些 Microsoft Teams 中来宾无法使用的功能：
+来宾体验体验在设计上有限制。 确保你了解来宾体验，这样你就不会试图去解决一些不成问题的问题。 下面是 Microsoft 团队中的来宾无法使用的部分功能的列表：
 
-- OneDrive for Business
+- OneDrive
 - 在 Teams 外进行人员搜索
 - 日历、计划的会议或会议详细信息
 - PSTN
@@ -76,13 +75,13 @@ ms.locfileid: "46656103"
 - 创建或修订团队
 - 浏览团队
 - 将文件上传到个人对个人聊天
-- 目前，Teams 仅支持 [Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties) 定义的状态 1 和状态 2 类来宾用户。
+- 当前，团队仅支持 [状态1和状态2来宾用户类型](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
 
-有关来宾在 Teams 中可以和不可执行的操作的完整列表，请参阅[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表。 若要了解有关 Microsoft 365 和 Office 365 级别的来宾访问的更多信息，请参阅[将来宾添加到 Microsoft 365 组](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)。
+有关来宾在 Teams 中可以和不可执行的操作的完整列表，请参阅[团队成员和来宾功能比较](guest-experience.md#comparison-of-team-member-and-guest-capabilities)表。 若要了解有关 Microsoft 365 级别的来宾访问的详细信息，请阅读 [与组织外部人员进行协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)。
 
 
-## <a name="more-information"></a>更多信息
+## <a name="related-topics"></a>相关主题
 
-[联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)  
-[Microsoft 365 组中的来宾访问](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
-  
+[联系商业版产品的支持人员 - 管理员帮助](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+
+[配置具有三层保护的团队](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)

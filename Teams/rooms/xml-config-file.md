@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Microsoft 团队聊天室设备使用的默认设置的远程管理，包括应用自定义主题和创建主设置文件。
-ms.openlocfilehash: c4eb70602940ec48cd244de72f862254bf63edee
-ms.sourcegitcommit: bdf6cea0face74809ad3b8b935bc14ad60b3bb35
+ms.openlocfilehash: abf6d93dea4f856f372305fd30b474f72ce47989
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "45201246"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761328"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 配置文件远程管理 Microsoft 团队聊天室控制台设置
 
@@ -30,7 +30,7 @@ ms.locfileid: "45201246"
   
 ## <a name="create-an-xml-configuration-file"></a>创建 XML 配置文件
 
-任何文本编辑器都可用于创建设置文件。 **XML 元素**表说明 SkypeSettings.xml （必需文件名）配置文件示例中所示的元素。
+任何文本编辑器都可用于创建设置文件。 **XML 元素**表说明了本示例中显示的元素 SkypeSettings.xml (所需的文件名) 配置文件。
   
 ```XML
 <SkypeSettings>
@@ -76,10 +76,17 @@ ms.locfileid: "45201246"
             <BlueComponent>100</BlueComponent>
         </CustomThemeColor>
     </Theming>
+    <CoordinatedMeetings enabled="true"> 
+        <TrustedAccounts>room@contoso.com</TrustedAccounts>
+        <Settings> 
+            <Audio default="false" enabled="false" />
+            <Video default="false" enabled="true" /> 
+        </Settings> 
+    </CoordinatedMeetings>
 </SkypeSettings>
 ```
 
-如果变量值的类型不正确，元素的顺序不正确，元素未闭合，或者发现了其他错误，则 XML 文件的*格式*不正确。 在处理格式不正确的 XML 文件时，将应用出现错误的位置所找到的设置，然后忽略文件的其余部分。 XML 中的任何未知元素都将忽略。 如果忽略某个参数，它在设备上将保持不变。 如果参数值无效，则它的前一个值保持不变。
+如果变量值的类型不正确，元素的顺序不正确，元素未闭合，或者发现了其他错误，则 XML 文件的 *格式*不正确。 在处理格式不正确的 XML 文件时，将应用出现错误的位置所找到的设置，然后忽略文件的其余部分。 XML 中的任何未知元素都将忽略。 如果忽略某个参数，它在设备上将保持不变。 如果参数值无效，则它的前一个值保持不变。
   
 **XML 元素**
 
@@ -114,17 +121,21 @@ ms.locfileid: "45201246"
 |\<MicrophoneForCommunication\> |字符串 &#x2778;  ||设置在会议中用作录制设备的麦克风。 |
 |\<SpeakerForCommunication\> |字符串 &#x2778;  ||用作会议扬声器的设备。 此设置用于设置通话中使用的扬声器设备。 |
 |\<DefaultSpeaker\> |字符串 &#x2778;  ||用于播放来自 HDMI 摄入源的音频的设备。 |
-|\<ContentCameraId>  | 字符串 &#x2778;  | | 定义在会议室中配置的相机的实例路径，以便在会议中共享模拟白板内容。 请参阅[查找内容照相机 USB 实例路径](#locate-the-content-camera-usb-instance-path)。|
+|\<ContentCameraId>  | 字符串 &#x2778;  | | 定义在会议室中配置的相机的实例路径，以便在会议中共享模拟白板内容。 请参阅 [查找内容照相机 USB 实例路径](#locate-the-content-camera-usb-instance-path)。|
 |\<ContentCameraInverted>  | 布尔 &#x2777; | | 指定是否将内容摄像头的物理安装倒置。 对于支持自动旋转的内容照相机，请指定 false。 |
-|\<ContentCameraEnhancement>  | 布尔 &#x2777; | |当设置为 true （默认值）时，将对内容相机图像进行数字增强：检测白板边缘并选择相应的缩放，墨迹线条将得到增强，并且在白板上书写的人员将变为透明。  <br><br> 如果你打算向会议参与者发送不使用笔绘制白板的空间，而是使用摄像头来显示粘滞便笺、海报或其他媒体，则设置为 false。  |
+|\<ContentCameraEnhancement>  | 布尔 &#x2777; | |当设置为 true (默认) 时，将对内容相机图像进行数字增强：将检测白板边缘并选择相应的缩放，墨迹会得到增强，并且在白板上书写的人员将变为透明。  <br><br> 如果你打算向会议参与者发送不使用笔绘制白板的空间，而是使用摄像头来显示粘滞便笺、海报或其他媒体，则设置为 false。  |
 | \<Theming\>  |容器 |第一 &#x2776;  |可与 XML 文件一起应用的功能之一是组织的自定义主题。 你可以指定主题名称、背景图像和颜色。 |
-|\<ThemeName\> |字符串 &#x2778;  || 用于识别客户端上的主题。 主题名称选项包括“默认”、提供的预设主题之一或“自定义”。 <br/>  自定义主题名称始终使用 "*自定义*" 名称。 客户端 UI 可在控制台上设置为默认值或其中一个预设，但是使用自定义主题必须由管理员进行远程设置。 <br/>  预设主题包括： <br/>  默认 <br/>  蓝色波浪 <br/>  数字丛林 <br/>  追梦人 <br/>  莱姆汁 <br/>  完美像素 <br/>  路线图 <br/>  夕阳 <br/>  若要禁用当前主题，请对 ThemeName 使用 "无主题"。  |
-|\<CustomThemeImageUrl\> |字符串 &#x2778;  ||对于自定义主题是必需的，否则为可选。 仅输入文件名。   |有关自定义主题图像的详细信息，请参阅[自定义主题图像](xml-config-file.md#Themes)部分。
+|\<ThemeName\> |字符串 &#x2778;  || 用于识别客户端上的主题。 主题名称选项包括“默认”、提供的预设主题之一或“自定义”。 <br/>  自定义主题名称始终使用 " *自定义*" 名称。 客户端 UI 可在控制台上设置为默认值或其中一个预设，但是使用自定义主题必须由管理员进行远程设置。 <br/>  预设主题包括： <br/>  默认 <br/>  蓝色波浪 <br/>  数字丛林 <br/>  追梦人 <br/>  莱姆汁 <br/>  完美像素 <br/>  路线图 <br/>  夕阳 <br/>  若要禁用当前主题，请对 ThemeName 使用 "无主题"。  |
+|\<CustomThemeImageUrl\> |字符串 &#x2778;  ||对于自定义主题是必需的，否则为可选。 仅输入文件名。   |有关自定义主题图像的详细信息，请参阅 [自定义主题图像](xml-config-file.md#Themes) 部分。
 |\<CustomThemeColor\> |容器 ||\<RedComponent\>、 \<GreenComponent\> 和值的容器 \<BlueComponent\> 。 这些值是自定义主题所必需的。 |
 |\<RedComponent\> |字节 (0-255) ||代表红色组件。 |
 |\<GreenComponent\> |字节 (0-255) ||代表绿色组件。 |
-|\<BlueComponent\> |字节 (0-255) ||代表蓝色组件。 | 
-| | | |
+|\<BlueComponent\> |字节 (0-255) ||代表蓝色组件。 |
+|\<CoordinatedMeetings\>|布尔 &#x2777;|第一 &#x2776; |用于协调会议的配置元素的容器。 此元素具有一个属性：<ul><li><b>已启用</b> 确定团队是否配置为参与与其他设备的协调会议。</li></ul>|
+|\<TrustedAccounts\>| String | |这是一个逗号分隔的 Upn 列表，用于表示设备应接受会议加入请求的每个团队房间设备或 Surface Hub，或应发送到哪些会议加入请求。|
+|\<Settings\>|容器 | |用于协调会议的配置音频和视频配置元素的容器。|
+|\<Audio\>| 布尔 &#x2777;| |控制 Surface Hub 上的团队音频配置。 此元素具有两个属性：<br><ul><li><b>默认</b> 确定当会议启动时，麦克风将处于活动状态的设备。 只有一台设备 (通常是团队会议室设备) 可以将此字段设置为 "， `true` 而其余设备必须将此字段设置为" `false` ，以避免音频回声和反馈。</li><li><b>已启用</b> 确定会议中的参与者是否可以打开或关闭麦克风。 将 **音频默认** 设置为 `false` 应将此设置设置为的设备， `false` 以便参与者无法意外打开麦克风并导致音频回声或反馈。<p>如果 " **音频默认值** " 设置为 `true` " **已启用音频** " 设置，则参与者可以将麦克风设为静音或取消静音。</li></ul>|
+|\<Video\>| 布尔 &#x2777;| |控制 Surface Hub 上团队的视频配置。 此元素具有两个属性：<br><ul><li><b>默认</b> 确定会议启动时相机将处于活动状态的设备。 为了获得最佳体验，我们建议仅将团队聊天室设备设置为， `true` 同时将所有其他设备设置为 `false` 。</li><li><b>已启用</b> 确定会议中的参与者是否可以打开或关闭摄像头。 你可以将此项设置为 `true` 在事件参与者中的任何其他设备上，希望共享不同的视频透视 (例如，如果参与者使用 Surface Hub 白板) 。 如果不希望参与者在设备上打开或关闭摄像头，请将此设置为 `false` 。<p> 如果 " **视频默认值** " 设置为 `true` " **启用视频** " 设置，则会忽略 "启用视频" 设置，并且参与者可以打开或关闭摄像头。</li></ul>|
 
 &#x2776; 所有第一级元素都是可选的。 如果省略第一级元素，其所有子参数在设备上保持不变。
   
@@ -139,7 +150,7 @@ ms.locfileid: "45201246"
 根据你的企业拥有的 Microsoft 团队会议室设备的数量以及你选择的管理方式来配置它们，有多种方法可以放置 XML 配置文件。 文件推送到控制台之后，重启以处理配置更改。 成功处理 XML 配置文件后会将其删除。 有关 Microsoft 团队聊天室设备的建议的管理方法，请参见：
   
 - [为 Microsoft 团队聊天室配置组策略](rooms-operations.md#GroupPolicy)
-- [使用 PowerShell 的远程管理](rooms-operations.md#RemotePS)和[配置文件项目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
+- [使用 PowerShell 的远程管理](rooms-operations.md#RemotePS) 和 [配置文件项目](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 
 你可以使用你喜欢的任何方法，只要你能传输文件并在控制台设备上触发重启即可。 该文件必须是可读、可写且可由设备的本地用户帐户删除。 最好是由该用户拥有并授予该用户的完全权限。 如果文件权限设置不正确，则软件可能无法应用设置，也可能无法在成功处理时删除文件，甚至可能会崩溃。
   
@@ -149,7 +160,7 @@ ms.locfileid: "45201246"
 
 自定义主题图像文件必须放置在文件夹中 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 。 在变量中输入文件名和扩展名 \<CustomThemeImageUrl\> 。
   
-图像文件应正好3840X1080 像素，并且必须是以下文件格式之一： jpg、jpeg、png 和 bmp。 如果你的组织需要自定义图像，图形设计器可以使用[自定义主题 Photoshop 模板](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)。 它包含有关各种用户界面元素相对于其他主题图像的位置以及哪些区域显示在控制台和显示中的详细信息。
+图像文件应正好3840X1080 像素，并且必须是以下文件格式之一： jpg、jpeg、png 和 bmp。 如果你的组织需要自定义图像，图形设计器可以使用 [自定义主题 Photoshop 模板](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)。 它包含有关各种用户界面元素相对于其他主题图像的位置以及哪些区域显示在控制台和显示中的详细信息。
   
 XML 配置文件必须在设备启动时更新以识别主题图像。 处理并删除新的 XML 文件后，将从目录中删除主题图形文件。
   
@@ -160,10 +171,10 @@ XML 配置文件必须在设备启动时更新以识别主题图像。 处理并
 1. 转到 Microsoft 团队聊天室控制台上的 Windows 设置。
 2. 输入管理员密码。
 3. 从命令提示符处，键入 `devmgmt.msc` 以调出设备管理器。
-4. 在 "**设备管理器**" 中，查看 "**图像设备**" 节点并找到 "内容照相机"。
-5. 右键单击相机，然后打开 "**属性**"。
-6. 选择 "**详细信息**" 选项卡，然后在下拉列表中找到 "**设备实例路径**" 属性。
-7. 显示的值是要在 XML 配置文件中设置的设备实例路径。 在 XML 中指定路径时，请将与号（&）替换为 `&amp;` 。
+4. 在 " **设备管理器**" 中，查看 " **图像设备** " 节点并找到 "内容照相机"。
+5. 右键单击相机，然后打开 " **属性**"。
+6. 选择 " **详细信息** " 选项卡，然后在下拉列表中找到 " **设备实例路径** " 属性。
+7. 显示的值是要在 XML 配置文件中设置的设备实例路径。 在 XML 中指定路径时，请将与号 ( # A0) 替换为 `&amp;` 。
 
 ## <a name="see-also"></a>另请参阅
 
