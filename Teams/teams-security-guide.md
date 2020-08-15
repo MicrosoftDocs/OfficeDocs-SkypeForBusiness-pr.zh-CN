@@ -19,17 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a16b7f9f133c6df6c0c30ee4ac24c54397d110
-ms.sourcegitcommit: 113e3a7314505cf78da57917ff62642125fb11fd
+ms.openlocfilehash: d90ec791fc46b6fc5f218190f15bc9e2c2b79337
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "45121632"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761288"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性与 Microsoft Teams
 
 > [!IMPORTANT]
-> Teams服务模型可能会有所更改，以改善客户体验。 例如，默认访问或刷新令牌到期时间可能会经过修改，以提高使用 Teams 用户的性能和身份验证弹性。 进行任何此类更改的目的都是为了通过设计保证 Teams 安全可靠。
+> Teams 服务模型可能会有所更改，以改善客户体验。 例如，默认访问或刷新令牌到期时间可能会经过修改，以提高使用 Teams 用户的性能和身份验证弹性。 进行任何此类更改的目的都是为了通过设计保证 Teams 安全可靠。
 
 Microsoft Teams 属于 Microsoft 365 和 Office 365 服务，遵循所有安全最佳做法和过程，如通过深度防御保障服务级别安全性、服务内的客户控制、安全强化和操作最佳做法。 有关完整详细信息，请参阅 [Microsoft 信任中心](https://microsoft.com/trustcenter)。
 
@@ -127,7 +127,7 @@ TLS 和 MTLS 协议在 Internet 上提供加密通信和终结点身份验证。
 TLS 和 MTLS 有助于防止窃听和中间人攻击。 对于中间人攻击，攻击者可在两个网络实体不知情的情况下，通过自己的计算机重新路由这两个网络实体之间的通信。 通过在两个终结点之间协调使用公钥加密系统进行加密，TLS 和 Teams 的受信任服务器的规范可部分降低中间人攻击在应用层的风险。 攻击者必须拥有有效且可信的证书以及相应的私钥，将其颁发给客户端正与之通信的服务名称才能解密通信。
 
 > [!NOTE]
-> Teams 数据将在传输过程中和静止状态下进行加密。 Microsoft 使用 TLS 和 SRTP 等行业标准技术来加密用户设备与 Microsoft 数据中心之间的所有数据，以及 Microsoft 数据中心之间传输的所有数据。 其中包括邮件、文件、会议和其他内容。 企业数据也会在 Microsoft 数据中心进行静态加密，从而使组织能够根据需要解密内容，以满足其安全性和合规性义务，例如电子数据展示。
+> Teams 数据将在传输过程中和在 Microsoft 数据中心的静止状态下进行加密。 Microsoft 使用 TLS 和 SRTP 等行业标准技术来加密用户设备与 Microsoft 数据中心之间的所有数据，以及 Microsoft 数据中心之间传输的所有数据。 其中包括邮件、文件、会议和其他内容。 企业数据也会在 Microsoft 数据中心进行静态加密，从而使组织能够根据需要解密内容，以满足其安全性和合规性义务，例如电子数据展示。
 
 ### <a name="encryption-for-teams"></a>Teams 加密
 

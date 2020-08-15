@@ -18,12 +18,12 @@ description: 管理员可以在 Microsoft Teams 桌面和 Web 客户端以及 Az
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 099e7a0a1fd7368385d564f46e2df12d5aced4b2
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: baac3c7c7e83547672b8baeb0915081523e5bfe8
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656123"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761278"
 ---
 <a name="add-a-guest-to-a-team"></a>向团队添加来宾
 =====================
@@ -33,7 +33,7 @@ ms.locfileid: "46656123"
 拥有企业或消费者电子邮件帐户（如 Outlook、Gmail 或其他）的任何人都可以作为来宾参与 Teams。
 
 作为管理员，你可以通过以下几种方式向组织添加新的来宾用户：
-- 全局管理员或 Teams 管理员和团队所有者在 Teams 客户端或 Teams 管理中心内团队添加来宾。 若要了解详细信息，请参阅[向团队添加来宾](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。 如果尚未设置来宾访问权限，请按照[来宾访问清单](guest-access-checklist.md)中的步骤进行操作。
+- 全局管理员或 Teams 管理员和团队所有者在 Teams 客户端或 Teams 管理中心内团队添加来宾。 若要了解详细信息，请参阅[向团队添加来宾](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。 如果尚未设置来宾访问权限，请按照“[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)”的步骤进行操作。
 
 > [!NOTE] 
 > 这在启用“**管理员和具有“来宾邀请者”角色的用户可以邀请**”的情况下不适用。 这是因为在 Teams 中不支持来宾邀请者角色。

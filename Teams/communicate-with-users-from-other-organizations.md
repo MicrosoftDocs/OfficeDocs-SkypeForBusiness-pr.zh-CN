@@ -17,12 +17,12 @@ description: 了解如何使用外部访问（联合身份验证）和来宾访�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 28897d5d94d56a7113fc555e0547192931caf3eb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 5f493643ede3fda0eab0791d5195d749f20eb7ad
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581793"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761378"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>与 Microsoft Teams 中其他组织的用户通信
 ======================================================
@@ -51,7 +51,7 @@ ms.locfileid: "46581793"
 - 与外部访问（联合）用户相比，来宾用户有权访问 Teams 中的更多资源（例如文件、团队和频道）。
 - Teams 管理员在 Teams 管理中心中控制来宾可以（或不可）执行的所有操作。 要了解详细信息，请阅读[管理来宾访问](manage-guests.md)。
 
-如果你已准备好在组织中启用来宾访问，请从[来宾访问清单](guest-access-checklist.md)开始。
+如果你已准备好在组织中启用来宾访问，请从[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)开始。
 
 
 ## <a name="compare-external-and-guest-access"></a>比较外部访问和来宾访问
