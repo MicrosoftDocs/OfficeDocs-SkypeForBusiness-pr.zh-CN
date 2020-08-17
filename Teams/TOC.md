@@ -63,7 +63,6 @@
 
 ### 来宾访问权限
 #### [关于来宾访问权限](guest-access.md)
-#### [来宾访问清单](guest-access-checklist.md)
 #### [来宾加入团队的方式](guest-joins.md)
 #### [来宾体验介绍](guest-experience.md)
 #### [管理对 Teams 的来宾访问](teams-dependencies.md)
@@ -148,6 +147,9 @@
 ### 部署
 #### [部署概述](rooms/rooms-deploy.md)
 #### [配置帐户](rooms/rooms-configure-accounts.md)
+#### Surface Hub
+##### [设置协调会议](rooms/coordinated-meetings.md)
+##### [管理 Microsoft Teams 设置](rooms/surface-hub-manage-config.md)
 #### [使用 Office 365](rooms/with-office-365.md)
 #### [使用 Skype for Business Server](rooms/with-skype-for-business-server-2015.md)
 #### [使用 Exchange Online（混合）](rooms/with-exchange-online.md)

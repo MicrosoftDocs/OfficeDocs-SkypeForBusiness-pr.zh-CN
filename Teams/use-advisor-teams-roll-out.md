@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams 帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 72870eb94bc5bf19fce439c3607500eb688a291f
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
+ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648593"
+ms.lasthandoff: 08/15/2020
+ms.locfileid: "46761348"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -91,7 +91,7 @@ Advisor for Teams 当前提供以下计划：
 |Teams 许可证     |这是先决条件；你**必须具有** Teams 许可证才能推出 Teams。 此测试查询 Microsoft Graph 以了解你是否拥有 Teams 许可证（至少有一个许可证可供分配）。 有关详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。    |
 |Exchange Online 许可证     |你是否有具有可用 Exchange Online 许可证的活动订阅 虽然 Exchange 不是基本 Teams 功能所必需的，但与 Exchange 的集成提供了一种最佳 Teams 体验。 此测试查询 Microsoft Graph 以分析与租户关联的订阅并验证你是否有具有合格 Exchange Online 许可证的订阅（至少有一个可用的许可证可供分配）。 有关详细信息，请阅读 [Exchange 与 Teams 如何交互](exchange-teams-interact.md)。    |
 |SharePoint Online 许可证     |你是否有具有可用 SharePoint Online 许可证的活动订阅。 建议采用基于每个用户的 SharePoint Online 许可证，以便提供 OneDrive for Business 在聊天中用于文件存储。 此测试查询 Microsoft Graph 以了解你是否拥有 SharePoint Online 许可证（至少有一个许可证可供分配）。 有关详细信息，请阅读 [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)。    |
-|已启用来宾访问     |是否已启用[来宾访问](guest-access.md)。 通过来宾访问可邀请外部用户加入你的团队。 请使用 [Teams 来宾访问清单](guest-access-checklist.md)了解在 Teams 中启用来宾访问的详细步骤；该清单包含所需的 Azure AD 配置。 |
+|已启用来宾访问     |是否已启用[来宾访问](guest-access.md)。 通过来宾访问可邀请外部用户加入你的团队。 请参阅“[在团队中与来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)”，了解在 Teams 中启用来宾访问的详细步骤；该检查表包含所需的 Azure AD 配置。 |
 |已配置外部访问     |是否已启用[外部访问](manage-external-access.md)。 默认情况下会启用此项并采用开放式联合身份验证。 |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>有关聊天、团队、频道和应用的评估
