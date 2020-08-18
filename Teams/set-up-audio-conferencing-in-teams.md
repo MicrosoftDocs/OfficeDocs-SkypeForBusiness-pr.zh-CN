@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '了解如何为业务中需要使用电话加入电话会议的人员设置拨号或音频会议。 '
-ms.openlocfilehash: 0ac5ac9cd3a722920a76d968848cd37388908121
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 9c86d83b1a39c5ae3623c2205a09b4e8d604ce5e
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691088"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788696"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>设置 Microsoft Teams 的音频会议
 
@@ -47,12 +47,12 @@ ms.locfileid: "44691088"
  
 ## <a name="step-2-get-and-assign-licenses"></a>第 2 步：获取和分配许可证
  
-1. 针对音频会议，需要为将设置电话拨入式会议的每个用户购买一个许可证。 若想了解需要为电话音频会议购买哪些许可证以及它们的价格，请参阅 [Microsoft Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+1. 针对音频会议，需要为将设置电话拨入式会议的每个用户购买一个许可证。 若想了解需要为电话音频会议购买哪些许可证以及它们的价格，请参阅 [Microsoft Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
     >[!NOTE] 
     > Office 365 企业版 E5 许可证中包含音频会议，并用作加载项。
         
-2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅向组织中的[365 365 用户分配许可证，将许可证分配](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)给您的组织中要安排或领导会议的人员。
+2. 购买的音频会议许可证后，你需要将其分配给组织中打算安排或主持会议的那些人员。 请参阅向组织中的 [365 365 用户分配许可证，将许可证分配](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) 给您的组织中要安排或领导会议的人员。
     
 3. 我们还建议你将通信点数许可证（它们不值什么钱）分配给你在上一步骤中分配到许可证的相同人员。 若要了解如何设置通信点数，请参阅[为你的组织设置通信点数](set-up-communications-credits-for-your-organization.md)。
     

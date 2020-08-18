@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 在本文中，你将了解 Microsoft 365 和 Office 365 中的电话系统技术。
-ms.openlocfilehash: 8f871c065eacd69a1fc607c3a35d9f98032c9b6d
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: b9d44e52cbdd2384742a7473132ba3447e80e8fe
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666124"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788416"
 ---
 # <a name="what-is-phone-system"></a>什么是电话系统？
 
-专用分支交换（PBX）是企业内部的电话系统。 电话系统提供了 PBX 功能，但没有复杂且昂贵的设备。 
+ (PBX) 的专用分支 Exchange 是企业内的电话系统。 电话系统提供了 PBX 功能，但没有复杂且昂贵的设备。 
 
-通过电话系统，你可以将现有的本地 PBX 系统替换为从 Microsoft 365 或 Office 365 提供的一组功能，这些功能紧密集成到你的云体验中。 有关这些功能的详细信息，请参阅[使用电话系统获取的](here-s-what-you-get-with-phone-system.md)功能。
+通过电话系统，你可以将现有的本地 PBX 系统替换为从 Microsoft 365 或 Office 365 提供的一组功能，这些功能紧密集成到你的云体验中。 有关这些功能的详细信息，请参阅 [使用电话系统获取的](here-s-what-you-get-with-phone-system.md)功能。
 
 ## <a name="phone-system-technology"></a>电话系统技术
 
@@ -40,34 +40,34 @@ ms.locfileid: "44666124"
   
 通过电话系统，用户可以使用团队或 Skype for business Online 来拨打和接听呼叫、转移呼叫以及静音或取消静音呼叫。 电话系统用户可以单击其通讯簿中的姓名，并将团队或 Skype for business Online 呼叫安排给该人。 要拨打和接听电话，电话系统用户可以使用其移动设备、便携式计算机或电脑的耳机，或者与团队和 Skype for business Online 配合使用的多个 IP 电话之一。 电话系统管理员可以管理用于通信、协作等的同一控制台中的呼叫选项和设置。
   
-您组织中的用户之间的通话将在手机系统内部处理，绝不会转到公共交换电话网络（PSTN）。 这适用于位于不同地理区域的组织中的用户之间的通话，可删除这些内部呼叫的长途费用。
+您的组织内的用户之间的通话在电话系统内部处理，绝不会转到公共交换电话网络 (PSTN) 。 这适用于位于不同地理区域的组织中的用户之间的通话，可删除这些内部呼叫的长途费用。
 
-对于您的组织外部的呼叫，Microsoft 会提供多个用于将电话系统连接到公共交换电话网络（PSTN）的选项。
+对于您的组织外部的呼叫，Microsoft 会提供多个选项，用于将电话系统连接到公共交换电话网络 (PSTN) 。
 
-## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>连接到公共交换电话网络（PSTN）
+## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>连接到公共交换电话网络 (PSTN) 
   
 可以通过以下两种方式之一将电话系统连接到 PSTN：
   
-- 购买 Microsoft 通话计划（国内或国内和国际）。 Microsoft 通话计划是 Microsoft 作为 PSTN 运营商提供的所有云解决方案。 有关详细信息，请参阅[电话系统和通话计划](calling-plan-landing-page.md)。
+- 购买 (国内或国内和国际) 的 Microsoft 通话计划。 Microsoft 通话计划是 Microsoft 作为 PSTN 运营商提供的所有云解决方案。 有关详细信息，请参阅 [电话系统和通话计划](calling-plan-landing-page.md)。
 
 - 使用现有的电话基础结构进行本地 PSTN 连接。
 
-  对于团队用户，您可以通过直接路由将本地电话基础结构连接到电话系统。 有关详细信息，请参阅[手机系统直接路由](direct-routing-landing-page.md)。
+  对于团队用户，您可以通过直接路由将本地电话基础结构连接到电话系统。 有关详细信息，请参阅 [手机系统直接路由](direct-routing-landing-page.md)。
 
-  有关所有 Microsoft 电话解决方案的详细信息，请参阅[microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
+  有关所有 Microsoft 电话解决方案的详细信息，请参阅 [microsoft 电话解决方案](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)。
 
 
 ## <a name="phone-system-with-services"></a>带有服务的电话系统
 
  电话系统可用于服务和语音邮件，例如：
 
-- **自动助理**可用于为您的组织创建菜单系统，使外部和内部呼叫者能够在系统中移动到公司用户或组织中的公司用户或部门的电话。 请参阅[什么是云自动助理？](what-are-phone-system-auto-attendants.md)。
+- **自动助理** 可用于为您的组织创建菜单系统，使外部和内部呼叫者能够在系统中移动到公司用户或组织中的公司用户或部门的电话。 请参阅 [什么是云自动助理？](what-are-phone-system-auto-attendants.md)。
 
-- **呼叫队列**-当某人拨入到您的组织的电话号码时，可以使用呼叫队列问候语。 这些问候语包括自动将呼叫置于保持状态的功能，以及搜索下一个可用的呼叫代理以处理呼叫的功能，同时呼叫的人正在收听音乐。 您可以为您的组织创建单个或多个通话队列。 请参阅[创建云呼叫队列](create-a-phone-system-call-queue.md)。
+- **呼叫队列** -当某人拨入到您的组织的电话号码时，可以使用呼叫队列问候语。 这些问候语包括自动将呼叫置于保持状态的功能，以及搜索下一个可用的呼叫代理以处理呼叫的功能，同时呼叫的人正在收听音乐。 您可以为您的组织创建单个或多个通话队列。 请参阅 [创建云呼叫队列](create-a-phone-system-call-queue.md)。
 
-- **语音邮件**-当你为用户获取电话系统许可证时，该用户可以获取由呼叫者留下的语音邮件。 向用户分配电话系统许可证和电话号码后，将自动为用户设置和设置云语音邮件。 请参阅[设置云语音邮件](set-up-phone-system-voicemail.md)。
+- **语音邮件** -当你为用户获取电话系统许可证时，该用户可以获取由呼叫者留下的语音邮件。 向用户分配电话系统许可证和电话号码后，将自动为用户设置和设置云语音邮件。 请参阅 [设置云语音邮件](set-up-phone-system-voicemail.md)。
 
-有关功能的详细信息，请参阅[以下是使用手机系统获取的](here-s-what-you-get-with-phone-system.md)功能。 如果已准备好开始使用，请参阅[在组织中设置电话系统](setting-up-your-phone-system.md)。
+有关功能的详细信息，请参阅 [以下是使用手机系统获取的](here-s-what-you-get-with-phone-system.md)功能。 如果已准备好开始使用，请参阅 [在组织中设置电话系统](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相关主题
 
@@ -76,5 +76,5 @@ ms.locfileid: "44666124"
 - [设置电话系统](setting-up-your-phone-system.md)
 - [哪种通话套餐适合你？](calling-plan-landing-page.md)
 - [电话系统直接路由](direct-routing-landing-page.md)
-- [Microsoft Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Microsoft Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 

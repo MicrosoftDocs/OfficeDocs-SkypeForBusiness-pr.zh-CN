@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '了解为用户分配电话拨入式会议许可证和会议 ID 的 Microsoft Teams 步骤以及许多其他电话拨入式会议设置。 '
-ms.openlocfilehash: 1cf51db4bd2ba4e6fb29d7301cb2ad46d4afb2f4
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 8a01be430e8c3993325c5ef6759e520664a21e55
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691208"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788766"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理贵组织的音频会议设置
 
@@ -39,7 +39,7 @@ ms.locfileid: "44691208"
 ## <a name="assign-an-audio-conferencing-license"></a>分配音频会议许可证
 
 > [!NOTE]
-> 不能使用 Teams 分配许可证。 您必须使用 Microsoft 365 管理中心。 请参阅[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 
+> 不能使用 Teams 分配许可证。 您必须使用 Microsoft 365 管理中心。 请参阅 [分配 Microsoft 团队附加设备许可证](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。 
   
  **为用户分配许可证**
   
@@ -52,7 +52,7 @@ ms.locfileid: "44691208"
   
 3. 在“操作”窗格中的“**产品许可证**”下，单击“**编辑**”。 
     
-4. 在“**产品许可证**”页面上，开启“**音频会议**”，然后单击“**保存**”。 有关许可的详细信息，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+4. 在“**产品许可证**”页面上，开启“**音频会议**”，然后单击“**保存**”。 有关许可的详细信息，请参阅 [Microsoft 团队加载项许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
     
    > [!NOTE]
    > 在分配许可证后，Microsoft 最初可能不会作为音频会议提供商显示在下拉列表中。 如果出现这种情况，请注销管理中心或按 CTRL + F5 刷新浏览器窗口。 
@@ -78,11 +78,11 @@ ms.locfileid: "44691208"
 
 ![](media/teams-logo-30x30.png)**使用 Microsoft 团队管理中心**显示团队徽标的图标
 
-1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
+1. 在左侧导航中，单击 " **用户**"，然后从可用用户列表中选择用户。
 
-2. 在 "**音频会议**" 下，单击 "**重置会议 ID**"。  
+2. 在 " **音频会议**" 下，单击 " **重置会议 ID**"。  
 
-3. 在 "**重置会议 ID"** 窗口中，单击 "**重置**"。 如果启用了将电子邮件发送给用户，将自动创建会议 ID 并使用新的会议 ID 向用户发送邮件。 默认情况下启用它。
+3. 在 " **重置会议 ID"** 窗口中，单击 " **重置**"。 如果启用了将电子邮件发送给用户，将自动创建会议 ID 并使用新的会议 ID 向用户发送邮件。 默认情况下启用它。
 
 请参阅[重置用户的会议 ID](reset-a-conference-id-for-a-user-in-teams.md)。
   
@@ -92,21 +92,21 @@ ms.locfileid: "44691208"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
+1. 在左侧导航中，单击 " **用户**"，然后从可用用户列表中选择用户。
 
-2. 在 "**音频会议**" 下，单击 "**重置 PIN**"，然后单击 "**重置**"。 
+2. 在 " **音频会议**" 下，单击 " **重置 PIN**"，然后单击 " **重置**"。 
   
 当启用音频会议或 PIN 重置时，用户将收到其 PIN 的电子邮件。 但是，如果您已禁用自动发送电子邮件，则不会发送 PIN 重置电子邮件，您必须手动将 PIN 发送给用户。 PIN 将仅在重置后显示一次。 在重置后，该 PIN 将不再显示在用户的属性上，而是将不再显示。此时将显示 * * * * * *。 
   
-请参阅[重置音频会议 PIN 码](reset-the-audio-conferencing-pin-in-teams.md)。
+请参阅 [重置音频会议 PIN 码](reset-the-audio-conferencing-pin-in-teams.md)。
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>向用户发送包含音频会议信息的电子邮件
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
+1. 在左侧导航中，单击 " **用户**"，然后从可用用户列表中选择用户。
 
-2. 在 "**音频会议**" 下，单击 "**通过电子邮件发送会议信息**"。 
+2. 在 " **音频会议**" 下，单击 " **通过电子邮件发送会议信息**"。 
 
     > [!NOTE]
     > 执行此操作时，音频会议 PIN 不会发送给用户。 
@@ -117,15 +117,15 @@ ms.locfileid: "44691208"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-1. 在左侧导航中，单击 "**用户**"，然后从可用用户列表中选择用户。
+1. 在左侧导航中，单击 " **用户**"，然后从可用用户列表中选择用户。
 
 2. 在**音频会议**旁边，单击**编辑**。
  
-3. 在 "**音频会议**" 窗格中，您可以设置**收费号码**，如果允许，还可以设置免费**电话号码**。
+3. 在 " **音频会议** " 窗格中，您可以设置 **收费号码** ，如果允许，还可以设置免费 **电话号码**。
 
 4. 单击“**保存**”。
     
-请参阅[设置邀请附带的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
+请参阅 [设置邀请附带的电话号码](set-the-phone-numbers-included-on-invites-in-teams.md)。
   
   
 ## <a name="choose-audio-conferencing-bridge-settings"></a>选择 "音频会议桥" 设置
@@ -136,17 +136,17 @@ ms.locfileid: "44691208"
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 在 "**会议桥**" 页面顶部，单击 "**桥接设置**"。 
+2. 在 " **会议桥** " 页面顶部，单击 " **桥接设置**"。 
 
 3. 在“**网桥设置**”窗格中，启用或禁用“**会议进入和退出通知**”。
 
     默认情况下，此功能处于启用状态。 如果禁用此选项，当有人进入或离开会议时，已加入会议的用户不会收到通知。
 
-4. 在 "**输入/退出通知类型**" 下，选择 "**声音**" 或 "姓名"**或 "电话号码**"。 
+4. 在 " **输入/退出通知类型**" 下，选择 " **声音** " 或 "姓名" **或 "电话号码**"。 
 
-    如果选择 "**姓名" 或 "电话号码**"，还可以选择在**加入会议之前启用或禁用 Ask 呼叫者录制其姓名**。 
+    如果选择 " **姓名" 或 "电话号码**"，还可以选择在 **加入会议之前启用或禁用 Ask 呼叫者录制其姓名**。 
     > [!NOTE]
-    > 默认情况下，外部参与者看不到拨入的参与者的电话号码。 如果您想要维护这些电话号码的隐私，请选择 "**输入/退出通知类型**" 的 "**声音**" （这可防止 "团队" 朗读数字）。
+    > 默认情况下，外部参与者看不到拨入的参与者的电话号码。 如果想要保持这些电话号码的隐私，请选择“**进入/退出公告类型**”的“**提示音**”（这会阻止 Teams 读出电话号码）。
 
 
 5. 单击“**保存**”。
@@ -189,9 +189,9 @@ ms.locfileid: "44691208"
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 从列表中选择电话号码，然后单击 "**编辑**"。
+2. 从列表中选择电话号码，然后单击 " **编辑**"。
 
-3. 选择 "**默认语言**" 和 "**备用语言（可选）**" 下所需的语言。
+3. 选择 " **默认语言** " 下所需的语言 ** (可选) **中的其他语言。
 
 4. 单击“**保存**”。
 
@@ -204,14 +204,14 @@ ms.locfileid: "44691208"
 
 1. 在左侧导航中，转到“**会议**” > “**会议网桥**”。 
 
-2. 从列表中选择电话号码，然后单击 "**编辑**"。 可在此处执行以下操作：
+2. 从列表中选择电话号码，然后单击 " **编辑**"。 可在此处执行以下操作：
     
    - 查看要用于音频会议的电话号码。 
     
    - 查看音频会议自动助理将使用的位置和主要语言。
 
   
-请参阅[音频会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+请参阅 [音频会议号码列表](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
   
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要了解有关 Windows PowerShell 的详细信息？

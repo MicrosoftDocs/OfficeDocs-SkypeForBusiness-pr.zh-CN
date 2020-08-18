@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会议组织者可以了解如何使用 "团队" 应用拨出，让其他人可以使用他们的电话加入同一会议。
-ms.openlocfilehash: f84f811d89847bfdf17f123abe9c2df88536bc76
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 575ed18bd3dbd404dba947c0c4556d52e0653200
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662102"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788756"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>从 Microsoft Teams 会议拨出，以便其他人可以加入会议
 
@@ -63,4 +63,4 @@ ms.locfileid: "46662102"
 
 [试用或购买音频会议](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Microsoft Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Microsoft Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)

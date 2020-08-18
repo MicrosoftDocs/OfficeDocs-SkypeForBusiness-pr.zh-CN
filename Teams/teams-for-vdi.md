@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62d61a031f1fc69e1288dc160b4459c792c0c1cf
-ms.sourcegitcommit: 1eb92a4a8c877f8b6c77cee62609cf9e8c9ee0a7
+ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "46607089"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778064"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -68,25 +68,25 @@ ms.locfileid: "46607089"
 
 ### <a name="windows-virtual-desktop"></a>Windows 虚拟桌面
 
-Windows 虚拟桌面为适用于 VDI 的团队提供 AV 优化。 若要了解详细信息和要求和安装，请参阅[在 Windows 虚拟桌面版上使用团队](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)。
+Windows 虚拟桌面为适用于 VDI 的团队提供 AV 优化。 若要了解详细信息和要求和安装，请参阅 [在 Windows 虚拟桌面版上使用团队](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix 虚拟应用和桌面要求
 
 Citrix 虚拟应用和桌面 (以前称为 XenApp 和 XenDesktop) 为适用于 VDI 的团队提供 AV 优化。 通过 Citrix 虚拟应用和桌面，VDI 上的团队不仅支持聊天和协作，还支持呼叫和会议功能。
 
-你可以在[citrix 下载网站](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下载最新版本的 Citrix 虚拟应用和桌面。  (你需要首先登录。 ) 必要的组件捆绑到[Citrix 工作区应用 (CWA) ](https://www.citrix.com/downloads/workspace-app/)和虚拟交付代理 (VDA) 默认情况下。 无需在 CWA 或 VDA 上安装任何其他组件或插件。
+你可以在 [citrix 下载网站](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)下载最新版本的 Citrix 虚拟应用和桌面。  (你需要首先登录。 ) 必要的组件捆绑到 [Citrix 工作区应用 (CWA) ](https://www.citrix.com/downloads/workspace-app/) 和虚拟交付代理 (VDA) 默认情况下。 无需在 CWA 或 VDA 上安装任何其他组件或插件。
 
-有关最新的服务器和客户端要求，请参阅[此 Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
+有关最新的服务器和客户端要求，请参阅 [此 Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware 范围的工作区和桌面要求
 
-VMware 横向为适用于 VDI 的团队提供优化的 AV 支持，提高了虚拟桌面的工作效率。 您可以从 " [Vmware 下载](https://my.vmware.com/web/vmware/downloads/#all_products)" 页面下载最新版本的 vmware 范围。
+VMware 横向为适用于 VDI 的团队提供优化的 AV 支持，提高了虚拟桌面的工作效率。 您可以从 " [Vmware 下载](https://my.vmware.com/web/vmware/downloads/#all_products) " 页面下载最新版本的 vmware 范围。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安装或更新团队桌面应用
 
 你可以使用 MSI 程序包使用每台计算机安装或每用户安装来部署适用于 VDI 的团队桌面应用。 决定使用哪种方法取决于您使用的是持久设置还是非持久设置以及您的组织的相关功能需求。
 
-对于专用的永久设置，这两种方法都适用。 但是，对于非持久设置，团队需要按计算机安装才能高效工作。 请参阅[非持久设置](#non-persistent-setup)部分。
+对于专用的永久设置，这两种方法都适用。 但是，对于非持久设置，团队需要按计算机安装才能高效工作。 请参阅 [非持久设置](#non-persistent-setup) 部分。
 
 对于每台计算机安装，自动更新已禁用。 这意味着，若要更新团队应用，必须卸载当前版本才能更新到较新的版本。 对于每用户安装，自动更新已启用。 对于大多数 VDI 部署，建议使用每台计算机安装部署团队。
 
@@ -110,7 +110,7 @@ VMware 横向为适用于 VDI 的团队提供优化的 AV 支持，提高了虚�
 
 在非持久设置中，用户注销后将不保留用户的本地操作系统更改。 此类设置通常共享多用户会话。 VM 配置根据用户数量和可用的物理箱资源而有所不同。
 
-对于非持久设置，必须将团队桌面应用安装到黄金图像的每台计算机上。  (若要了解详细信息，请参阅[在 VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)。 ) 这可确保在用户会话期间有效启动团队应用。
+对于非持久设置，必须将团队桌面应用安装到黄金图像的每台计算机上。  (若要了解详细信息，请参阅 [在 VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi) 。 ) 这可确保在用户会话期间有效启动团队应用。
 
 将团队与非持久性设置配合使用时，还需要配置文件缓存管理器才能高效团队运行时数据同步。这可确保在用户会话期间缓存用户数据、配置文件和设置) 的相应特定于用户的信息 (。 请确保这两个文件夹中的数据已同步。  
 
@@ -135,26 +135,26 @@ VMware 横向为适用于 VDI 的团队提供优化的 AV 支持，提高了虚�
 
 在通过适用于企业的 Microsoft 365 应用部署团队之前，必须首先卸载任何预先存在的团队应用（如果它们是使用每计算机安装部署的）。
 
-面向企业的 Microsoft 365 应用的团队已针对每个用户进行安装。 若要了解详细信息，请参阅[在 VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)。
+面向企业的 Microsoft 365 应用的团队已针对每个用户进行安装。 若要了解详细信息，请参阅 [在 VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi) 。
 
 #### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>通过 Microsoft 365 应用进行企业版更新的团队部署
 
-团队也将添加到适用于企业的 Microsoft 365 应用的现有安装。 由于 Microsoft 365 应用 for enterprise 仅为每用户安装团队，请参阅在[VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)。
+团队也将添加到适用于企业的 Microsoft 365 应用的现有安装。 由于 Microsoft 365 应用 for enterprise 仅为每用户安装团队，请参阅在 [VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi) 。
 
 #### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>将团队与每计算机安装配合使用和 Microsoft 365 应用 for 企业版
 
-适用于企业的 Microsoft 365 应用不支持团队的每计算机安装。 若要使用针对每台计算机的安装，必须从适用于企业的 Microsoft 365 应用中排除团队。 请参阅将[团队桌面应用部署到 VM](#deploy-the-teams-desktop-app-to-the-vm)以及[如何通过适用于企业的 Microsoft 365 应用排除团队部署](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise)。
+适用于企业的 Microsoft 365 应用不支持团队的每计算机安装。 若要使用针对每台计算机的安装，必须从适用于企业的 Microsoft 365 应用中排除团队。 请参阅将 [团队桌面应用部署到 VM](#deploy-the-teams-desktop-app-to-the-vm) 以及 [如何通过适用于企业的 Microsoft 365 应用排除团队部署](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) 。
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>如何通过适用于企业的 Microsoft 365 应用排除团队部署
 
-若要了解有关团队和适用于企业的 Microsoft 365 应用的详细信息，请参阅[如何从适用于企业的 microsoft 365 应用的新安装中排除团队](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)，并[使用组策略控制团队的安装](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)。
+若要了解有关团队和适用于企业的 Microsoft 365 应用的详细信息，请参阅 [如何从适用于企业的 microsoft 365 应用的新安装中排除团队](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) ，并 [使用组策略控制团队的安装](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)。
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>将团队桌面应用部署到 VM
 
 1. 使用以下链接之一下载与你的 VDI VM 操作系统匹配的团队 MSI 程序包：
 
-    - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.13565/Teams_windows.msi)
-    - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.13565/Teams_windows_x64.msi)
+    - [32位版本](https://statics.teams.cdn.office.net/production-windows/1.3.00.21759/Teams_windows.msi)
+    - [64位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.21759/Teams_windows_x64.msi)
 
     所需的团队桌面应用的最低版本是1.3.00.4461 版本。 在早期版本中不支持 (PSTN 保留。 ) 
 
@@ -179,8 +179,8 @@ VMware 横向为适用于 VDI 的团队提供优化的 AV 支持，提高了虚�
         下一个交互式登录会话将启动团队并要求提供凭据。
 
     > [!NOTE]
-    > 这些示例还使用**ALLUSERS = 1**参数。 设置此参数时，团队计算机范围的安装程序将显示在 "控制面板" 的 "程序和功能" 和 "应用程序" 中的 "Windows 设置" 中的 "应用 & 功能" 中。 如果团队拥有管理员凭据，则所有用户都可以卸载团队。
-    了解**ALLUSERS = 1**和**ALLUSER = 1**之间的区别非常重要。 **ALLUSERS = 1**参数可在非 VDI 和 vdi 环境中使用，而**ALLUSER = 1**参数仅在 VDI 环境中用于指定每计算机安装。
+    > 这些示例还使用 **ALLUSERS = 1** 参数。 设置此参数时，团队计算机范围的安装程序将显示在 "控制面板" 的 "程序和功能" 和 "应用程序" 中的 "Windows 设置" 中的 "应用 & 功能" 中。 如果团队拥有管理员凭据，则所有用户都可以卸载团队。
+    了解 **ALLUSERS = 1** 和 **ALLUSER = 1**之间的区别非常重要。 **ALLUSERS = 1**参数可在非 VDI 和 vdi 环境中使用，而**ALLUSER = 1**参数仅在 VDI 环境中用于指定每计算机安装。
 
 3. 从 VDI VM 卸载 MSI。
   
@@ -211,9 +211,9 @@ VMware 横向为适用于 VDI 的团队提供优化的 AV 支持，提高了虚�
 
 ### <a name="network-requirements"></a>网络要求
 
-我们建议你对环境进行评估，以确定任何风险和要求，这些风险和要求会影响你的整体云语音和视频部署。 使用[Skype For Business 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885)测试您的网络是否已准备好使用团队。
+我们建议你对环境进行评估，以确定任何风险和要求，这些风险和要求会影响你的整体云语音和视频部署。 使用 [Skype For Business 网络评估工具](https://www.microsoft.com/download/details.aspx?id=53885) 测试您的网络是否已准备好使用团队。
 
-若要了解有关如何为团队准备网络的详细信息，请参阅[为团队准备组织的网络](prepare-network.md)。
+若要了解有关如何为团队准备网络的详细信息，请参阅 [为团队准备组织的网络](prepare-network.md)。
 
 ### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>在 vdi 上从 Skype for Business 迁移到 VDI 上的团队
 
@@ -250,11 +250,11 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
 
 要将 DisallowCalling 呼叫策略和 AllOff 会议策略分配给用户，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户**"。
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
 3. 执行以下操作：
-    1.  在 "**呼叫策略**" 下，单击 " **DisallowCalling**"。
-    2.  在 "**会议策略**" 下，单击 " **AllOff**"。
+    1.  在 " **呼叫策略**" 下，单击 " **DisallowCalling**"。
+    2.  在 " **会议策略**" 下，单击 " **AllOff**"。
 4. 单击“**应用**”。
 
 若要一次向多个用户分配策略，请执行以下操作：
@@ -270,25 +270,25 @@ Chrome 浏览器上的团队不会通过 AV 优化提供适用于 VDI 的团队�
     - 转到 "**会议**  >  **会议策略**"，然后单击 " **AllOff**"。
 2. 选择“管理用户”****。
 3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
-4. 添加完用户后，单击 "**保存**"。
+4. 添加完用户后，单击 " **保存**"。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
 
-以下示例显示了如何使用[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)向用户分配 DisallowCalling 调用策略。
+以下示例显示了如何使用 [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) 向用户分配 DisallowCalling 调用策略。
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-若要了解有关使用 PowerShell 管理通话策略的详细信息，请参阅[设置 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。
+若要了解有关使用 PowerShell 管理通话策略的详细信息，请参阅 [设置 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。
 
-以下示例显示了如何使用[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)将 AllOff 会议策略分配给用户。
+以下示例显示了如何使用 [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) 将 AllOff 会议策略分配给用户。
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅[设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
+若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅 [设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>通过聊天和协作在 VDI 上迁移团队，以通过呼叫和会议优化团队
 
@@ -306,11 +306,11 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 
 要将 AllowCalling 呼叫策略和 AllOn 会议策略分配给用户，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**用户**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 " **用户**"。
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
 3. 执行以下操作：
-    1.  在 "**呼叫策略**" 下，单击 " **AllowCalling**"。
-    2.  在 "**会议策略**" 下，单击 " **AllOn**"。
+    1.  在 " **呼叫策略**" 下，单击 " **AllowCalling**"。
+    2.  在 " **会议策略**" 下，单击 " **AllOn**"。
 4. 单击“**应用**”。
 
 若要一次向多个用户分配策略，请执行以下操作：
@@ -326,31 +326,31 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
     - 转到 "**会议**  >  **会议策略**"，然后单击 " **AllOn**"。
 2. 选择“管理用户”****。
 3. 在“管理用户”窗格中，按显示名称或用户名搜索用户，选择用户名，然后单击“添加”。******** 对想要添加的每一个用户重复此步骤。
-4. 添加完用户后，单击 "**保存**"。
+4. 添加完用户后，单击 " **保存**"。
 
 #### <a name="assign-policies-using-powershell"></a>使用 PowerShell 分配策略
 
-以下示例显示了如何使用[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy)向用户分配 AllowCalling 调用策略。
+以下示例显示了如何使用 [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) 向用户分配 AllowCalling 调用策略。
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
-若要了解有关使用 PowerShell 管理通话策略的详细信息，请参阅[设置 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。
+若要了解有关使用 PowerShell 管理通话策略的详细信息，请参阅 [设置 CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)。
 
-以下示例显示了如何使用[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy)将 AllOn 会议策略分配给用户。
+以下示例显示了如何使用 [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) 将 AllOn 会议策略分配给用户。
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
-若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅[设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
+若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅 [设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
 ### <a name="client-deployment-installation-and-setup"></a>客户端部署、安装和设置
 
-- 对于每台计算机安装，不会以非 VDI 团队客户端的方式自动更新 VDI 上的团队。 你必须按照在[VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi)中所述，通过安装新 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。
+- 对于每台计算机安装，不会以非 VDI 团队客户端的方式自动更新 VDI 上的团队。 你必须按照在 [VDI 部分安装或更新团队桌面应用](#install-or-update-the-teams-desktop-app-on-vdi) 中所述，通过安装新 MSI 来更新 VM 映像。 必须卸载当前版本才能更新到较新版本。
 - 应按每个用户或每台计算机来部署团队。 不支持针对每个用户和每台计算机并行部署团队。 若要从每台计算机或每用户迁移到这些模式之一，请按照卸载过程进行，然后重新部署到任一模式。
 - Windows 虚拟桌面版和 VMware 目前不支持基于 MacOS 和 Linux 的客户端。
 - Citrix 目前不支持 MacOs 客户端。
@@ -387,13 +387,13 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
     - 在多监视器设置中进行屏幕共享时，仅共享主监视器。
     - 不支持 CWA 上的高 DPI 缩放。
 
-对于不与 VDI 无关的团队已知问题，请参阅[组织中的支持团队](Known-issues.md)。
+对于不与 VDI 无关的团队已知问题，请参阅 [组织中的支持团队](Known-issues.md)。
 
 ## <a name="troubleshooting"></a>故障排除
 
 #### <a name="troubleshoot-citrix-components"></a>Citrix 组件疑难解答
 
-有关如何解决 VDA 和 CWA 问题的信息，请参阅[此 Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
+有关如何解决 VDA 和 CWA 问题的信息，请参阅 [此 Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
 
 ## <a name="related-topics"></a>相关主题
 

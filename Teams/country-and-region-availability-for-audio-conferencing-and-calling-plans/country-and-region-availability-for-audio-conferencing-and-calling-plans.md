@@ -26,20 +26,23 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 了解在国家或地区是否可以使用音频会议、电话系统、通话计划、通讯信用点数以及收费电话号码和免费电话号码。
-ms.openlocfilehash: eae54b4b8957f588afab45758f9be5d2f678b3ea
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+ms.openlocfilehash: 468a583c48e8830684cf170877acde55cbcba711
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44230190"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788526"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音频会议和通话套餐的国家/地区可用性
 
 可以选择国家/地区，以确定组织可以使用哪些云语音功能。
 ***
+
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>请选择国家/地区，以确定组织可以使用哪些功能
 
 > [!div class="op_single_selector"]
+>
+> - [阿尔巴尼亚](availability-in-albania.md)
 > - [阿尔及利亚](availability-in-algeria.md)
 > - [安提瓜和巴布达](availability-in-antigua-and-barbuda.md)
 > - [阿根廷](availability-in-argentina.md)
@@ -47,6 +50,7 @@ ms.locfileid: "44230190"
 > - [Austria（奥地利）](availability-in-austria.md)
 > - [巴哈马](availability-in-the-bahamas.md)
 > - [巴林](availability-in-bahrain.md)
+> - [孟加拉](availability-in-bangladesh.md)
 > - [巴巴多斯](availability-in-barbados.md)
 > - [Belarus（白俄罗斯）](availability-in-belarus.md)
 > - [Belgium（比利时）](availability-in-belgium.md)
@@ -58,6 +62,7 @@ ms.locfileid: "44230190"
 > - [文莱](availability-in-brunei.md)
 > - [保加利亚](availability-in-bulgaria.md)
 > - [柬埔寨](availability-in-cambodia.md)
+> - [喀麦隆](availability-in-cameroon.md)
 > - [加拿大](availability-in-canada.md)
 > - [开曼群岛](availability-in-the-cayman-islands.md)
 > - [智利](availability-in-chile.md)
@@ -82,6 +87,7 @@ ms.locfileid: "44230190"
 > - [希腊](availability-in-greece.md)
 > - [格林纳达](availability-in-grenada.md)
 > - [关岛](availability-in-guam.md)
+> - [危地马拉](availability-in-guatemala.md)
 > - [洪都拉斯](availability-in-honduras.md)
 > - [香港特别行政区](availability-in-hong-kong.md)
 > - [匈牙利](availability-in-hungary.md)
@@ -110,6 +116,7 @@ ms.locfileid: "44230190"
 > - [新西兰](availability-in-new-zealand.md)
 > - [尼加拉瓜](availability-in-nicaragua.md)
 > - [尼日利亚](availability-in-nigeria.md)
+> - [北马里亚纳群岛](availability-in-northern-mariana-islands.md)  
 > - [挪威](availability-in-norway.md)
 > - [Pakistan（巴基斯坦）](availability-in-pakistan.md)
 > - [巴拿马](availability-in-panama.md)
@@ -140,6 +147,8 @@ ms.locfileid: "44230190"
 > - [特立尼达和多巴哥](availability-in-trinidad-and-tobago.md)
 > - [突尼斯](availability-in-tunisia.md)
 > - [土耳其](availability-in-turkey.md)
+> - [特克斯和凯科斯群岛](availability-in-turks-and-caicos-islands.md)
+> - [乌干达](availability-in-uganda.md)
 > - [乌克兰](availability-in-the-ukraine.md)
 > - [阿拉伯联合酋长国 (UAE)](availability-in-the-united-arab-emirates-uae.md)
 > - [英国](availability-in-the-united-kingdom-u-k.md)
@@ -148,18 +157,18 @@ ms.locfileid: "44230190"
 > - [委内瑞拉](availability-in-venezuela.md)
 > - [Vietnam（越南）](availability-in-vietnam.md)
 
-**如果你正在寻找包含所有国家/地区的电子表格，请下载并保存[“云语音功能国家/地区可用性”电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)**。
+**如果你正在寻找包含所有国家/地区的电子表格，请下载并保存[“云语音功能国家/地区可用性”电子表格](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06242020)-(en-us).xlsx?raw=true)**。
 
 ***
 
-在你确定 Skype for Business 或 Microsoft Teams 服务是否可用后，可以参阅 [Skype for Business 和 Microsoft Teams 加载项许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，以帮助你购买许可证，并将许可证分配给用户。
+在你确定 Skype for Business 或 Microsoft Teams 服务是否可用后，可以参阅 [Skype for Business 和 Microsoft Teams 加载项许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)，以帮助你购买许可证，并将许可证分配给用户。
 
 > [!NOTE]
-> 
+>
 > 如果需要为用户获取更多电话号码，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)；或如果需要电话号码请求表单，请参阅[管理组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 
-## <a name="want-to-learn-more-about-these-services"></a>要详细了解这些服务？
+## <a name="want-to-learn-more-about-these-services"></a>想要了解有关这些服务的详细信息
 
 ### <a name="audio-conferencing"></a>音频会议
 
@@ -172,39 +181,42 @@ ms.locfileid: "44230190"
 
 若要详细了解音频会议，请参阅[音频会议常见问题](../audio-conferencing-common-questions.md)
 
-[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements) 
+[音频会议定价](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>使用“呼叫我”功能，或在将其他人添加到会议时让其他人加入会议
+
 音频会议有一项名为“呼叫我”** 的功能，可便于其他人加入拨入会议。 使用上面的下拉列表搜索国家/地区，以确定此功能是否可用。
 
 > [!CAUTION]
-> 可能无法拨出免费电话号码，因为一些免费号码仅适用于某些国家/地区或某个国家/地区的特定区域。 例如，如果从美国拨出到巴西的免费号码，呼叫可能会失败，因为呼叫不是源自巴西或巴西的特定区域。 拨出到免费号码这一功能因拨打的免费号码的限制而差异巨大。 很抱歉，我们无法控制此行为，因此，你的体验可能会有所不同，具体取决于拨打的免费电话号码和免费号码的限制。 
+> 可能无法拨出免费电话号码，因为一些免费号码仅适用于某些国家/地区或某个国家/地区的特定区域。 例如，如果从美国拨出到巴西的免费号码，呼叫可能会失败，因为呼叫不是源自巴西或巴西的特定区域。 拨出到免费号码这一功能因拨打的免费号码的限制而差异巨大。 很抱歉，我们无法控制此行为，因此，你的体验可能会有所不同，具体取决于拨打的免费电话号码和免费号码的限制。
   
-使用[通信信用点数](../what-are-communications-credits.md)，从某个会议拨出到世界上未列出的其他国家/地区。 对于这些用户，你需要[设置组织的通信点数](../set-up-communications-credits-for-your-organization.md)。
+使用 [通信信用点数](../what-are-communications-credits.md)，从某个会议拨出到世界上未列出的其他国家/地区。 对于这些用户，你需要[设置组织的通信点数](../set-up-communications-credits-for-your-organization.md)。
   
 ### <a name="phone-system"></a>电话系统
+
 借助电话系统，可以创建自动助理和呼叫队列（包含收费或免费号码），用于接听组织的传入呼叫。此外，在你为用户添加通话套餐后，用户可以使用 Skype for Business 处理基本的呼叫控制任务，如拨打和接听电话、转接电话以及将电话静音和取消静音。 **电话系统**用户可以单击自己通讯簿中的姓名，Skype for Business 会向此人拨打电话。 若要拨打和接听电话，**电话系统**用户可以使用自己的移动设备，也可以结合使用耳机与笔记本电脑或电脑，亦可以使用 Skype for Business 适用的许多 IP 电话之一。
 
-> 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了获取单个用户的电话号码，还可以搜索和获取服务的收费电话号码或免费电话号码，如音频会议（适用于会议桥）、自动助理和呼叫队列。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。 还可以参阅[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。 
+> 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 除了为单个用户获取电话号码之外，还可以搜索和获取服务的收费电话号码或免费电话号码，如) 、自动助理和通话队列的音频会议 (。 这些称为“服务号码”。 若要获取电话号码，请参阅[获取服务电话号码](/microsoftteams/getting-service-phone-numbers)。 不过，对于用户，在将通话套餐分配给他们后，你可以分配用户电话号码，以便他们能够拨打和接听电话。 若要查找这些电话号码，请参阅[为用户获取电话号码](/microsoftteams/getting-phone-numbers-for-your-users)。 还可以参阅[为用户分配、更改或删除电话号码](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
 
 [电话系统定价](https://products.office.com/skype-for-business/phone-system#Requirements)
 
 > [!NOTE]
-> 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。 
+> 其中一些位置的收费电话号码的可用性可能在任意给定时间因库存级别而异。
 
 使用页面顶部的下拉列表搜索国家/地区，以确定哪些服务可用。
 
 ### <a name="calling-plans"></a>通话套餐
+
 除了电话系统外，用户还可以通过通话套餐拨打和接听电话。 首先需要获取要分配给用户的用户（订阅者）电话号码（而不是服务号码），然后分配通话套餐。 有两种类型的通话套餐可用：**国内**以及**国内和国际**。 有关详细信息，请参阅[电话系统和通话套餐](../calling-plan-landing-page.md)。
 
-有关许可信息，还可以参阅[电话系统和通话套餐许可](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+有关许可信息，还可以参阅[电话系统和通话套餐许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
 > [!NOTE]
-> 国家/地区基于“Microsoft 365 管理中心”**** > “活动用户”**** 中的用户许可证位置，而**不是**基于“Microsoft 365 管理中心”**** 中“组织资料”**** 下列出的帐单邮寄地址。 
+> 国家/地区基于“Microsoft 365 管理中心”**** > “活动用户”**** 中的用户许可证位置，而**不是**基于“Microsoft 365 管理中心”**** 中“组织资料”**** 下列出的帐单邮寄地址。
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>服务的收费和免费电话号码
 
-除了获取单个用户的电话号码，还可以搜索和获取服务的收费电话号码或免费电话号码，例如音频会议（适用于会议桥）、自动助理和呼叫队列。 这些称为“服务号码”。
+除了为单个用户获取电话号码之外，还可以搜索和获取服务的收费电话号码或免费电话号码（例如音频会议 (）) 、自动助理和通话队列。 这些称为“服务号码”。
   
 下面列出了可以获取用于音频会议和通话套餐的收费服务号码的首都和主要城市。 可以使用“Skype for Business 管理中心”**** 从这些位置获取收费服务号码。
   
@@ -220,7 +232,7 @@ ms.locfileid: "44230190"
 
 
 ## <a name="related-topics"></a>相关主题
+
 [获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
 
-  
- 
+

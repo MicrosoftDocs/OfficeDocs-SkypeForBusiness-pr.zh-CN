@@ -1,5 +1,5 @@
 ---
-title: Microsoft 团队聊天室高级版
+title: Microsoft 团队聊天室托管服务
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,26 +14,26 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 了解 Microsoft 团队聊天室高级版。
+description: 了解 Microsoft 团队聊天室托管服务。
 f1keywords: ''
-ms.openlocfilehash: 3caaf978e3d848eb2a06b82bc91acfc8d539ca45
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: c7331b40f9aaf5b039da4bf76ae707734f885a82
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521977"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788326"
 ---
-# <a name="microsoft-teams-rooms-premium"></a>Microsoft 团队聊天室高级版
+# <a name="microsoft-teams-rooms-managed-service"></a>Microsoft 团队聊天室托管服务
 
-Microsoft 团队聊天室 Premium 包含基于云的 IT 管理和监视服务，可让 Microsoft 团队房间设备及其外围设备保持最新状态，从而支持针对出色的用户体验进行优化的环境。
+Microsoft 团队聊天室托管服务是基于云的 IT 管理和监视服务，可让 Microsoft 团队房间设备及其外围设备保持最新状态，从而支持针对出色的用户体验进行优化的环境。
 
-Microsoft 团队会议室 Premium 适用于寻求改善其会议室体验的组织，并通过为 Microsoft 团队聊天室设备提供主动管理来快速调整其需求量。 该服务允许组织节省时间、资金和专业知识，否则将在 "自行管理" 房间内花费这些资金。  
+Microsoft 团队聊天室托管服务适用于寻求改善其会议室体验的组织，并通过为 Microsoft 团队聊天室设备提供主动预防性管理来快速调整其需求量。 该服务允许组织节省时间、资金和专业知识，否则将在 "自行管理" 房间内花费这些资金。  
 
-Microsoft 团队聊天室 Premium 服务构建在支持软件的对终结点、计算机学习和智能自动化的管理方面的强大基础之上。 Microsoft 团队会议室 Premium 可帮助组织跨多个远程站点提供高质量的体验，并可以满足组织可能需要的任何增长节奏。
+Microsoft 团队聊天室托管服务构建在支持软件的对终结点、计算机学习和智能自动化的管理方面的强大基础之上。 Microsoft 团队聊天室托管服务可帮助组织跨多个远程站点提供高质量的体验，并可以满足组织可能需要的任何增长节奏。
 
 ## <a name="service-capabilities"></a>服务功能
 
-下面概述了 Microsoft 团队聊天室 Premium 服务的功能。
+下面概述了 Microsoft 团队聊天室托管服务的功能。
 
 |功能  |说明  |
 |---------|---------|
@@ -42,28 +42,28 @@ Microsoft 团队聊天室 Premium 服务构建在支持软件的对终结点、�
 |**更新管理**    |对房间系统及其外设（由 Microsoft 执行）的应用程序和固件更新的管理和交付。         |
 |**见解和建议**     |深入了解客户运行状况、使用情况、利用率和设备可靠性。         |
 |**合规性和认证**   |满足 Microsoft Online Services 的所有适用标准。         |
-|**客户支持**   |通过专用 Microsoft 团队聊天室 Premium 服务操作中心（SOC）提供24x7x365 支持。 在适用时代表其他主要供应商的上报。 若要了解详细信息，请参阅[客户支持](#customer-support)。|
+|**客户支持**   |通过专用 Microsoft 团队会议室托管服务运营中心 (SOC) ，24x7x365 支持。 在适用时代表其他主要供应商的上报。 若要了解详细信息，请参阅 [客户支持](#customer-support)。|
 |**支持的设备**    |经认证的 Microsoft 团队房间系统及其外围设备。         |
-|**支持的区域**    |请参阅[支持的区域](#supported-regions)。        |
+|**支持的区域**    |请参阅 [支持的区域](#supported-regions)。        |
 |**集中**    |现可与客户托管服务集成。         |
 
 ## <a name="service-features"></a>服务功能
 
-下面是 Microsoft 团队聊天室 Premium 服务提供的用于支持上述功能的重要功能的摘要。
+下面是 Microsoft 团队聊天室托管服务提供的用于支持上述功能的重要功能的摘要。
 
 |功能  |说明  |
 |---------|---------|
 |**库存管理**   |房间库存跟踪，其中包含用于列出会议室设备、外围设备、设备和型号的批量导出选项。         |
-|**房间注册**   |通过将会议室设备自注册到 Microsoft 团队聊天室 Premium 服务，轻松加入。          |
+|**房间注册**   |通过将会议室设备自注册到 Microsoft 团队聊天室托管服务，轻松加入。          |
 |**会议室管理**     |托管服务功能、见解、管理设置和聊天室组管理的客户门户。         |
-|**监视**    |应用程序、操作系统、外围设备和固件运行状况监视。 针对因外围设备运行状况等问题而影响会议体验的问题的自动事件检测。 通过 Microsoft 团队聊天室 Premium 门户的整个会议室房地产和事件的运行状况概述。|
-|**疑难解答和修正**     |自动诊断和自动更正（如果适用）。 Microsoft 团队会议室高级 SOC-协助事件补救，适用于非自动案例。 服务现已为事件协调进行集成。         |
+|**监视**    |应用程序、操作系统、外围设备和固件运行状况监视。 针对因外围设备运行状况等问题而影响会议体验的问题的自动事件检测。 通过 Microsoft 团队聊天室托管服务门户的整个房间房地产和事件的运行状况概述。|
+|**疑难解答和修正**     |自动诊断和自动更正（如果适用）。 Microsoft 团队聊天室托管服务 SOC-协助事件补救，适用于非自动案例。 服务现已为事件协调进行集成。         |
 |**更新管理**   |自动会议应用程序和固件更新流程基于客户可配置的部署环         |
-|**见解和建议**   |使用情况、事件、运行状况和总体报告（历史视图）         |
+|**见解和建议**   |历史视图 (使用、事件、运行状况和总体报告)          |
 
 ## <a name="service-prerequisites"></a>服务先决条件
 
-对于 Microsoft 团队聊天室 Premium，若要维护服务质量，已注册的会议室必须是[Microsoft 团队会议室支持的设备](requirements.md#hardware-requirements)，并且你必须使用完全允许的所有[必需的 Office 365 url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)准备你的环境，并可通过会议室设备访问它们。 若要了解详细信息，请参阅 Microsoft 团队聊天室文档中的[准备环境](rooms-prep.md)。
+对于 Microsoft 团队聊天室托管服务，若要维护服务质量，已注册的会议室必须是 [Microsoft 团队会议室支持的设备](requirements.md#hardware-requirements)，并且你必须使用完全允许的所有 [必需的 Office 365 url 和 IP 地址范围](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) 为你的环境做好准备，并可通过会议室设备访问它们。 若要了解详细信息，请参阅 Microsoft 团队聊天室文档中的 [准备环境](rooms-prep.md) 。
 
 作为托管服务的提供商，Microsoft 需要与责任利益干系人协作处理您的组织中的会议室，以使会议室保持良好状态并从问题中恢复。 你负责在会议室、第三方或你选择要在会议室设备中部署的自定义软件中使用的 uncertified 设备，并遵守 Microsoft 建议的更改管理做法。
 
@@ -71,31 +71,31 @@ Microsoft 团队聊天室 Premium 服务构建在支持软件的对终结点、�
 
 ## <a name="customer-support"></a>客户支持
 
-Microsoft 团队聊天室 Premium 服务通过专用 Microsoft 团队会议室 Premium SOC 支持。 从 Microsoft 团队聊天室 Premium SOC 到客户的主要模式是通过 Microsoft 团队聊天室 Premium 门户进行通信。 Microsoft 团队聊天室 Premium SOC 在系统或你的组织引发的票证上提供首次响应和相应的升级。
+Microsoft 团队聊天室托管服务通过专用 Microsoft 团队聊天室托管服务 SOC 支持。 从 Microsoft 团队聊天室托管服务 SOC 到客户的主要通信模式是通过 Microsoft 团队聊天室托管服务门户。 Microsoft 团队聊天室托管服务 SOC 在系统或你的组织引发的票证上提供首次响应和相应的升级。
 
 |  |  |
 |---------|---------|
-|**范围**   |Microsoft 团队聊天室 Premium 支持中包含与会议室应用、会议室设备和外围设备相关的事件。|
+|**范围**   |Microsoft 团队聊天室托管服务支持中包括与会议室应用、会议室设备和外围设备相关的事件。|
 |**目标**  |仅限 IT 操作         |
 |**支持的语言**    |英语         |
 |**通过门户提供的支持可用性**   | 每      |
-|**Microsoft 团队聊天室 Premium SOC 的初始响应时间**   |  4 小时       |
+|**Microsoft 团队聊天室托管服务 SOC 的初始响应时间**   |  4 小时       |
 |**在客户不活动情况下自动关闭票证**    |客户发起的票证：3个工作日<br>系统启动的票证：15个工作日</li>   </ul>      |
-|**重定向到更广泛的 Microsoft 支持**   |与 Microsoft 团队聊天室高级版之外的其他 Microsoft 产品相关的问题将定向到相应的支持团队。         |
-|**重定向至原始设备制造商（OEM）支持**    |Microsoft 团队聊天室 Premium SOC 将致力于理解该问题，并在适用情况下帮助与 OEM 协调支持。 在某些情况下，您可能负责直接与您的 OEM 直接合作。         |
+|**重定向到更广泛的 Microsoft 支持**   |与 Microsoft 团队聊天室托管服务范围之外的其他 Microsoft 产品相关的问题将定向到相应的支持团队。         |
+|** (OEM) 支持重定向到原始设备制造商**    |Microsoft 团队聊天室托管服务 SOC 适用于了解该问题以及在适用的位置，帮助与 OEM 协调支持。 在某些情况下，您可能负责直接与您的 OEM 直接合作。         |
 
-此外，请记住 Microsoft 团队聊天室 Premium SOC 将帮助你的组织中的 IT 操作，而不是面向你的最终用户的帮助桌面服务的替代项。
+此外，请记住 Microsoft 团队聊天室托管服务 SOC 将帮助你的组织中的 IT 操作，而不是面向你的最终用户的帮助桌面服务的替代项。
 
-有关 Microsoft 团队会议室 Premium 支持范围的详细信息，请参阅[支持包含和排除](#support-inclusions-and-exclusions)。
+有关 Microsoft 团队聊天室托管服务支持范围的详细信息，请参阅 [支持包含和排除](#support-inclusions-and-exclusions)。
 
 ## <a name="supported-regions"></a>支持的区域
 
-Microsoft 团队会议室 Premium 适用于以下国家和地区。
+Microsoft 团队聊天室托管服务可在以下国家和地区使用。
 
 - 澳大利亚
 - 奥地利
 - 比利时
-- 加拿大（不包括魁北克）
+- 加拿大 (不包括魁北克) 
 - 丹麦
 - 芬兰
 - 德国
@@ -132,14 +132,14 @@ Microsoft 团队会议室 Premium 适用于以下国家和地区。
 |**会议体验**   |         |         |
 |在 Microsoft 团队聊天室应用中调查会议设置中的问题，并在请求时提供有关正确配置设备上的服务质量的指南。      |此范围内排除了对通话质量问题或与网络相关的问题的根本原因分析或调查。         |Microsoft 主流支持         |
 |**补救措施、加入和持续**     |         |         |
-|客户收到将其会议室带入 Microsoft 团队聊天室在加入时推荐的标准的指南    |有关内部自定义软件映像的调查或与 Microsoft 团队聊天室高级版中的推荐软件版本指南不兼容的调查不在范围内。          |         |
+|客户将收到将其会议室带入 Microsoft 团队会议室在加入时推荐的标准的指南    |有关内部自定义软件映像的调查或与 Microsoft 团队聊天室托管服务中的推荐软件版本指南不兼容的调查范围。          |         |
 
 ## <a name="data-collection"></a>数据收集
 
-Microsoft 团队聊天室 Premium 服务监控设备、收集设备数据，并允许 Microsoft 远程访问和管理会议室设备。 Microsoft 团队聊天室 Premium 服务不会访问会议的实时内容。
+Microsoft 团队聊天室托管服务监控设备、收集设备数据，并允许 Microsoft 远程访问和管理会议室设备。 Microsoft 团队聊天室托管服务不会访问会议的实时内容。
 
-收集的数据特定于一个房间帐户，而不是单个用户。 在设备使用期间，活动日志中可能会存在对单个用户的偶然引用。 收集的数据由 Microsoft 根据[Microsoft 隐私声明](https://aka.ms/privacy)进行处理。  
+收集的数据特定于一个房间帐户，而不是单个用户。 在设备使用期间，活动日志中可能会存在对单个用户的偶然引用。 收集的数据由 Microsoft 根据 [Microsoft 隐私声明](https://aka.ms/privacy)进行处理。  
 
 ## <a name="related-topics"></a>相关主题
 
-- [Microsoft 团队聊天室高级版](https://rooms.microsoft.com)
+- [Microsoft 团队聊天室托管服务](https://rooms.microsoft.com)

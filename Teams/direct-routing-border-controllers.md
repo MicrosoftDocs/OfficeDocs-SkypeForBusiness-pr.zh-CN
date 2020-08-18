@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解 (SBCs) 已认证直接路由的会话边框控制器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 357bfd141527d104a0843e9e4e5d9c574307b4ac
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3aa35fe23796f3ee248e2797aba86c9982aa8364
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583931"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788716"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -43,7 +43,8 @@ Microsoft 与每位供应商协作：
 下表列出了经认证可用于直接路由的设备。 
 
 [详细了解直接路由](https://aka.ms/dr)。 如果您对用于直接路由的 SBC 认证计划有任何疑问，请联系 drsbccertification@microsoft.com。
-
+<br/>
+<br/>
 
 |                                                       供应商                                                        |       产品       | 非媒体旁路 | 媒体绕过 | 软件版本 | 已通过 E911 提供商验证 | ELIN 支持
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
@@ -54,8 +55,8 @@ Microsoft 与每位供应商协作：
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  支持的7.20 建议的 7.20 (建议的： 256)   |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>  |  &#10004;  |    
 |                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  支持的7.20 建议的 7.20 (建议的： 256)    | <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>    |  &#10004;  |                                                                       
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  支持的7.20 建议的 7.20 (建议的： 256)  |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>   |  &#10004;  |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       支持的 7.2 (建议的 8.2)        | <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul> |    |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       支持的 7.2 (建议的 8.2)        |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul> |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       支持的 7.2 (建议的 8.2)        | <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul> |    |    
+|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       支持的 7.2 (建议的 8.2)        |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul> |    |    
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       支持的 7.2 (建议的 8.2)        |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li><li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul>  ||    
 |                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       支持的 7.2 (建议的 8.2)        |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul> |  |    
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       支持的 7.2 (建议的 8.2)        |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul> |    |    
@@ -78,7 +79,8 @@ Microsoft 与每位供应商协作：
 |                                 |     1000系列聚合服务路由器 (多维数据集) 的 Cisco 统一边框元素      |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于企业 ( ASBCE 的 Avaya 会话边框控制器)     |     &#10004;     |           |       发布8.1。1       |     |    | 
 
-
+<br/>
+<br/>
 下表列出了直接路由和模拟设备之间的互操作性验证的设备。
 
 |                                                       供应商                                                        |       产品       | 确认
@@ -95,5 +97,5 @@ Microsoft 与每位供应商协作：
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME 软件版本8.3.0.1。2 |     &#10004;     |
   | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode Grandstream GXW42xx (V 1.0.7.10)  |     &#10004;     |
 
-若要向我们提供有关团队的产品反馈，例如新功能的想法，请参阅[Uservoice](https://microsoftteams.uservoice.com)。
+若要向我们提供有关团队的产品反馈，例如新功能的想法，请参阅 [Uservoice](https://microsoftteams.uservoice.com)。
 请注意授予主要版本的证书。 这意味着支持在主要版本之后的 SBC 固件中包含任何数字的固件。

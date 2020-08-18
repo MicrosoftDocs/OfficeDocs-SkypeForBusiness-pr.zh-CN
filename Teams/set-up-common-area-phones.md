@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接待区和会议室设置公共区域电话 '
-ms.openlocfilehash: 4e9e96c3384fa365004d4b4b5281c10decdc5dd1
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 05338fe640ca80332eff3659d1a0ef96689d8d41
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581093"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788746"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -46,9 +46,9 @@ ms.locfileid: "46581093"
 
 2. 选择 "**通用区域电话**  >  **立即购买**"。
 
-3. 在 "签出" 页面上，单击 "**立即购买**"。
+3. 在 "签出" 页面上，单击 " **立即购买**"。
 
-4. 展开 **"加载项订阅**"，然后单击 "购买呼叫计划"。 选择 "**国内呼叫计划**" 或 "**国内和国际通话计划**"。
+4. 展开 **"加载项订阅** "，然后单击 "购买呼叫计划"。 选择 " **国内呼叫计划** " 或 " **国内和国际通话计划**"。
 
 > [!NOTE]
 > 如果您使用的是 Microsoft Phone 系统直接路由，则不需要呼叫计划许可证。
@@ -56,7 +56,7 @@ ms.locfileid: "46581093"
 > [!NOTE]
 > 无需添加电话系统许可证。 许可证包含在公共区域电话许可证中。
 
-有关许可证的详细信息，请参阅[Microsoft 团队加载项许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+有关许可证的详细信息，请参阅 [Microsoft 团队加载项许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
 通用区域电话许可证支持： 
 
@@ -88,16 +88,16 @@ ms.locfileid: "46581093"
 
 4. 输入用户名，如 "MainReception" 或 "Mainlobby"。
 
-5. 对于常见的区域电话，您可能需要手动设置密码或对所有公共区域电话设置密码。 此外，您可能会考虑清除 "**当用户首次登录时，使此用户更改其密码**" 复选框。
+5. 对于常见的区域电话，您可能需要手动设置密码或对所有公共区域电话设置密码。 此外，您可能会考虑清除 " **当用户首次登录时，使此用户更改其密码** " 复选框。
 
-6. 将许可证分配给用户。 在同一页面上，点击展开**产品许可证**。 打开公共区域电话，然后选择**国内呼叫计划**或**国内和国际通话计划**。 
+6. 将许可证分配给用户。 在同一页面上，点击展开**产品许可证**。 打开公共区域电话，然后选择 **国内呼叫计划** 或 **国内和国际通话计划**。 
 
     ![显示许可证分配的屏幕截图](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > 如果您使用的是 Microsoft Phone 系统直接路由，则无需分配呼叫计划许可证。
 
-有关详细信息，请参阅[为用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+有关详细信息，请参阅 [为用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>第 3 步 - 将电话号码分配给公共区域电话用户帐户
 
@@ -107,9 +107,9 @@ ms.locfileid: "46581093"
 
 3.    从电话号码列表中选择一个号码，然后点击**分配**。
 
-4. 在 "**分配**" 页面上的 "语音用户" 框中，键入将使用该电话的用户的名称，然后在 "**选择语音用户**" 下拉列表中选择用户。
+4. 在 " **分配** " 页面上的 "语音用户" 框中，键入将使用该电话的用户的名称，然后在 " **选择语音用户** " 下拉列表中选择用户。
 
-5. 接下来，你需要添加紧急地址。 选择 "**按城市搜索**"、"**按说明搜索**" 或从下拉列表中选择 "**按位置搜索**"，然后在文本框中输入 "城市"、"说明" 或 "位置"。 搜索后，请在 "**选择紧急地址**" 下查看，选择合适的 "紧急地址"。
+5. 接下来，你需要添加紧急地址。 选择 " **按城市搜索**"、" **按说明搜索**" 或从下拉列表中选择 " **按位置搜索** "，然后在文本框中输入 "城市"、"说明" 或 "位置"。 搜索后，请在 " **选择紧急地址** " 下查看，选择合适的 "紧急地址"。
 
 6. 点击**保存**，你的用户将显示如下：
 
@@ -118,6 +118,6 @@ ms.locfileid: "46581093"
 > [!NOTE]
 > 仅当用户已应用电话系统许可证时，用户才会显示。 如果你刚执行了该操作，用户可能需要经过一段时间才能在列表中显示。
 
-有关详细信息，请参阅[为用户获取电话号码](getting-phone-numbers-for-your-users.md)。
+有关详细信息，请参阅 [为用户获取电话号码](getting-phone-numbers-for-your-users.md)。
 
-您还可以通过其他运营商和 "端口" 获取您的电话号码，或者将其转移到 Microsoft 365 或 Office 365。 请参阅[将电话号码转移给团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+您还可以通过其他运营商和 "端口" 获取您的电话号码，或者将其转移到 Microsoft 365 或 Office 365。 请参阅 [将电话号码转移给团队](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
