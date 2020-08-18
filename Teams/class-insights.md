@@ -1,5 +1,5 @@
 ---
-title: 面向 IT 管理员的 Microsoft Teams 教育版见解
+title: Teams 教育版见解 IT 管理员指南
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -16,29 +16,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e122071a9a4173250a78468126ed576d1e560607
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
+ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581493"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778094"
 ---
-# <a name="insights-in-teams-for-education-for-it-admins"></a>面向 IT 管理员的 Microsoft Teams 教育版见解
+# <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Teams 教育版见解 IT 管理员指南
 
-借助 Microsoft Teams 教育版见解，教师可以获取与数字化互动、评估工作量、分数以及沟通等方面相关的分析数据。
+借助 Microsoft Teams 教育版见解，教师和主管可以获取与数字化互动、评估工作量、分数以及沟通等方面相关的分析数据。
 
 见解目前可在 Office 365 教育版 SKUs A1、A3 和 A5 中使用。
 
 > [!NOTE]
-> 教师，[点击此处](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)了解如何使用见解。
+> 教师，[点击此处](https://support.microsoft.com/article/27b56255-90c0-47aa-bac3-1c9f50157181)了解如何使用见解。
 
 ## <a name="permissions"></a>权限
 
-教师可以通过导航到 Microsoft Teams 应用栏中的“应用”并搜索“见解”，将“见解”添加到课堂团队的公共频道中。
+用户类型： 
+- 学生由其许可证标识，并且无权访问“见解”选项卡（即使他们是团队的所有者）。 
+- 教师由教职员工许可证标识。 教师必须拥有教职员工许可证，并且是课堂团队所有者，以便添加和查看“见解”选项卡中显示的数据。 
+- 主管也由教职员工许可证标识，但是此外，他们需要从 IT 全局管理员获取显式权限，才能在“见解”应用中查看报告。
 
-- 学生由其许可证标识，并且 **无权访问“见解”选项卡** （即使他们是团队的所有者）。
-- 教师由教职员工许可证定义。
-- 教师必须拥有教职员工许可证，并成为课堂团队所有者，才能添加和查看“见解”选项卡。该选项卡反映来自课堂团队中的所有人（非团队所有者）的活动（包括不是团队所有者的教师）。
+教师和主管具有不同的权限级别和逻辑：
+- 教师可以通过导航到 Microsoft Teams 应用栏中的“应用”并搜索“见解”，将“见解”应用添加到课堂团队的公共频道中。 此选项卡反映了班级团队中所有者以外的所有人（包括不是团队所有者的教师）的活动。 
+- 主管可将“见解”应用添加为个人应用（出现在 Microsoft Teams 菜单上），方法是在 Microsoft Teams 应用栏中导航到“应用”并搜索“见解”。 
 
 ## <a name="compliance"></a>合规性
 
@@ -49,7 +52,7 @@ ms.locfileid: "46581493"
 
 ## <a name="privacy"></a>隐私
 
-通过见解收集和显示的信息确实符合 90 多个法规和行业标准，包括 GDPR 和关于学生和儿童安全的《家庭教育权利和隐私法案》(FERPA)，以及其他类似的面向隐私的法规。 对于 IT 管理员来说，了解每个学生收集的信息仅可用于课堂环境非常重要，以便教师确定课堂行为。 收集这些信息是为了进行有意义的学习活动，例如参加课堂会议、发布消息、回复同学的帖子、处理作业、编辑文件等。 例如，我们不显示有关私人聊天或 Teams 登录的信息。
+通过见解收集和显示的信息确实符合 90 多个法规和行业标准，包括 GDPR 和关于学生和儿童安全的《家庭教育权利和隐私法案》(FERPA)，以及其他类似的面向隐私的法规。 对于 IT 管理员来说，了解对每个学生收集的信息仅可用于课堂环境非常重要，以便教师和主管确定学生的行为。 收集这些信息是为了进行有意义的学习活动，例如参加课堂会议、发布消息、回复同学的帖子、处理作业、编辑文件等。 例如，我们不显示有关私人聊天或 Teams 登录的信息。
 
 我们的目标是帮助教师了解参与度、专注于学生的学习。 虽然这些课堂活动可以集中在学生级别的行动上，但是 Microsoft Teams 没有为这些行动分配正面或负面的价值，也没有基于标准对每个学生进行判断性识别。 见解中的信息通知教师，例如，某个学生在特定时期内未使用该工具，或者上周准时完成了所有作业。 教师有责任与学生以及学生的家人或监护人互动，以确定所发现的任何活动或非活动的根本原因。
 
@@ -102,4 +105,4 @@ ms.locfileid: "46581493"
 
 默认情况下，启用教育版分析和见解。 选择退出 Google Analytics 时，我们会删除为“见解”标签收集的所有数据。重新启用 Google Analytics，我们从重新启用之时开始收集数据。
 
-了解详细信息：[适用于教师的见解](https://support.microsoft.com/office/actionable-analytics-with-class-insights-in-teams-163add4f-997d-4a01-91de-2846fe4e99bc)
+了解详细信息：[见解教师指南](https://support.microsoft.com/zh-CN/office/educator-s-guide-to-insights-in-microsoft-teams-27b56255-90c0-47aa-bac3-1c9f50157181)

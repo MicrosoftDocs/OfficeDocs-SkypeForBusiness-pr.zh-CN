@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c8a23faff819f24330b6ab70716dad2afc4cbbd
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: ccc89e8997f274148411b9606d7ae096536d9f9b
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583991"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788726"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音频会议
 
@@ -44,7 +44,7 @@ ms.locfileid: "46583991"
 |询问你自己|操作 |
 |------------|-------|
 |我所在的国家/地区是否可以使用音频会议功能？|若要了解你所在的国家/地区是否可使用音频会议功能，请参阅[音频会议和通话套餐的国家/地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。|
-|我的用户是否有适当的 Teams 音频会议许可？|音频会议许可证作为 Microsoft 365 或 Office 365 E5 订阅的一部分提供，或作为 Microsoft 365 商业标准版 E1 或 E3 订阅的一项附加服务提供。 <ul><li>若要获取和分配许可证，请参阅[在 Microsoft 365 或 Office 365 中试用或购买音频会议功能](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)以及[分配或移除 Microsoft 365 商业应用版许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要了解详细信息，请阅读 [Microsoft Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 </li><li>若要了解每种计划中包括哪些云功能，请参阅[基于计划的许可证选项](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
+|我的用户是否有适当的 Teams 音频会议许可？|音频会议许可证作为 Microsoft 365 或 Office 365 E5 订阅的一部分提供，或作为 Microsoft 365 商业标准版 E1 或 E3 订阅的一项附加服务提供。 <ul><li>若要获取和分配许可证，请参阅[在 Microsoft 365 或 Office 365 中试用或购买音频会议功能](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)以及[分配或移除 Microsoft 365 商业应用版许可证](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。</li><li> 若要了解详细信息，请阅读 [Microsoft Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。 </li><li>若要了解每种计划中包括哪些云功能，请参阅[基于计划的许可证选项](teams-add-on-licensing/office-365-business-premium.md)文章。</li></ul>|
 |是否需要为分配有音频会议许可证的用户购买通信点数？|若要了解详情，请阅读[什么是通信点数](what-are-communications-credits.md)，然后查看下面的[通信点数](#communications-credits)部分。|
 |||
 

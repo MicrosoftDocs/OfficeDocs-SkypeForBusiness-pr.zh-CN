@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 使用 Advisor for Teams 帮助你计划和完成 Microsoft Teams 部署。
-ms.openlocfilehash: 1514ee182c53c58777d6e44443269ae01f21558a
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 4a967e8e811b2730849341f0f1f99ddbb1811496
+ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761348"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "46788396"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 帮助你推出 Microsoft Teams
 
@@ -109,7 +109,7 @@ Advisor for Teams 当前提供以下计划：
 
 |评估测试  |提供的信息  |
 |---------|---------|
-|音频会议许可证    |你是否有具有音频会议许可证的活动订阅。 如果要部署音频会议网桥，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有音频会议许可证（至少有一个许可证可供分配）。有关详细信息，请阅读 [Teams 附加许可](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。    |
+|音频会议许可证    |你是否有具有音频会议许可证的活动订阅。 如果要部署音频会议网桥，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有音频会议许可证（至少有一个许可证可供分配）。有关详细信息，请阅读 [Teams 附加许可](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。    |
 |Stream 许可证     |你是否有具有 Microsoft Stream 许可证的活动订阅。 如果你想要启用“会议录制”，那么这是先决条件。 此测试查询 Microsoft Graph 以了解你是否拥有 Microsoft Stream 许可证（至少有一个许可证可供分配）。 有关 Stream 及其启用方法的详细信息，请阅读 [Teams 云会议录制](cloud-recording.md)。
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Skype for Business 升级评估
