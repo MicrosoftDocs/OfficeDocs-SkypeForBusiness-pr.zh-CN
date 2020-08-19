@@ -16,18 +16,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 团队管理员功能的发行说明。
-ms.openlocfilehash: 36fc23d711437fbeb1976b94409054c27ffd258b
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
+ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788466"
+ms.locfileid: "46797440"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 团队管理员功能的发行说明
 
 这些发行说明提供有关 Microsoft 团队的新管理员功能的信息。
 
 ## <a name="august-17-2020"></a>2020年8月17日
+
+### <a name="group-chat-size-increase"></a>群组聊天大小增加
+
+我们添加了在群组聊天中有250个参与者的功能。
 
 ### <a name="manage-the-praise-app"></a>管理表扬应用
 
@@ -59,24 +63,29 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 团队用户现在可以使用 "列表应用" 选项卡直接管理、创建和维护其列表。"列表" 应用在所有团队客户端上工作，并支持列表项目之间的协作和通信。
 
+## <a name="august-6-2020"></a>2020年8月6日
+
+### <a name="approve-custom-apps"></a>批准自定义应用程序
+
+批准通过团队应用提交 API 提交的自定义应用。 [了解详细信息](../submit-approve-custom-apps.md)。
+
 ## <a name="august-3-2020"></a>2020年8月3日
 
 ### <a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>适用于 Microsoft 团队管理中心中的团队第三方应用的购买服务
 
 团队应用程序免费安装，一些可能需要购买服务套餐才能体验应用的完整功能和范围。 这些服务套餐称为 "软件" 作为服务 (SaaS) 优惠，可通过 AppSource 通过 "Microsoft 团队管理中心" 进行购买。 [了解详细信息](../purchase-third-party-apps.md)。
 
-## <a name="july-31-2020"></a>2020年7月31日
-
-### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>管理员可以在班次上配置基于班次的状态 (，对他们的一线工作者关闭 shift) 
-
-管理员可以将其一线的工作人员配置为具有基于班次的状态：在 shift 时，在) 移动时，繁忙的 (可以切换，并且关闭 shift。
-[了解详细信息](../firstline-workers-quickstart.yml)。
-
 ## <a name="july-29-2020"></a>2020年7月29日
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用设备标记功能增强的可管理性
 
 作为增强的易管理性的一部分，我们将释放设备标记功能。 它将使 IT 管理员能够使用用户生成的标记对特定的一组设备进行分组，并执行相同的操作。 [了解详细信息](/../../manage-device-tags.md)。
+
+## <a name="july-28-2020"></a>2020年7月28日
+
+### <a name="create-your-own-teams-template"></a>创建自己的团队模板
+
+现在，你可以使用管理控制台中的模板创建你自己的团队模板，或从现有模板创建团队模板。 [了解详细信息](../get-started-with-teams-templates-in-the-admin-console.md)。
 
 ## <a name="july-20-2020"></a>2020年7月20日
 
@@ -90,11 +99,23 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 我们添加了使 NDI 退出团队会议的功能。 NDI-Out 允许视频生产工具使用会议的音频和视频。 [了解详细信息](../use-ndi-in-meetings.md)。
 
+## <a name="july-15-2020"></a>2020年7月15日
+
+### <a name="enable-suggested-replies"></a>启用建议的答复
+
+启用此设置以启用聊天消息的建议答复。 [了解详细信息](../messaging-policies-in-teams.md)
+
 ## <a name="july-9-2020"></a>2020年7月9日
 
 ### <a name="voicemail-support-in-call-queues"></a>呼叫队列中的语音邮件支持
 
 我们添加了对呼叫队列的支持以使用共享的语音邮件框。 [了解详细信息](../create-a-phone-system-call-queue.md)。
+
+## <a name="july-8-2020"></a>2020年7月8日
+
+### <a name="policy-packaging-batch-assignment"></a>策略打包批处理作业
+
+我们允许使用 PowerShell 为用户和组批处理分配策略包。
 
 ## <a name="july-7-2020"></a>2020年7月7日
 
@@ -116,7 +137,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="install-apps-on-behalf-of-others"></a>代表其他人安装应用
 
-在用户启动团队时，选择默认为用户安装的应用。 [了解详细信息](../teams-app-setup-policies.md)
+在用户启动团队时，选择默认为用户安装的应用。 [了解详细信息](../teams-app-setup-policies.md)。
 
 ## <a name="june-29-2020"></a>2020年6月29日
 
@@ -124,11 +145,15 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 使用推入式通话即时语音通信。
 
-## <a name="july-15-2020"></a>2020年7月15日
+## <a name="june-25-2020"></a>2020年6月25日
 
-### <a name="enable-suggested-replies"></a>启用建议的答复
+### <a name="teams-filter-option"></a>团队筛选器选项
 
-启用此设置以启用聊天消息的建议答复。 [了解详细信息](../messaging-policies-in-teams.md)
+我们在命令栏中添加了新的筛选选项，以便你可以在搜索特定团队时设置特定参数。
+
+### <a name="users-widgets"></a>用户小组件
+
+我们添加了一个新的用户摘要小组件，可在你添加团队和频道时使用。
 
 ## <a name="june-21-2020"></a>2020年6月21日
 

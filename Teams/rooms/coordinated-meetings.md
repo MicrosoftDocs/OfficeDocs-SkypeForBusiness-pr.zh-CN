@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 配置团队室设备和 Surface Hub，以便在一个设备或其他设备加入会议时加入会议。
-ms.openlocfilehash: c1200b4e949cb866440907f8577f61f4528630e2
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: cfd8bd423d8f7765a973d55e42d64773a06bba32
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761427"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803934"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>通过 Microsoft 团队聊天室和 Surface Hub 设置协调的会议
 
@@ -52,11 +52,11 @@ ms.locfileid: "46761427"
 
 若要获取团队聊天室设备和 Surface Hub 的 Upn，请执行下列操作：
 
-1. 通过访问登录到 Microsoft 365 管理中心 https://admin.microsoft.com
-2. 转到**用户**  >  **活动用户**
-3. 在 " **显示名称** " 列中查找团队聊天室设备或 Surface Hub 的名称 (如果有多个用户，则可以使用 " **搜索** " 框) 
-4. 在 " **用户名** " 列中查找 UPN (它将看起来像 alias@contoso.com 或 alias@contoso.onmicrosoft.com) 
-5. 对将参与协调会议的每台设备重复此操作
+1. 通过访问登录到 Microsoft 365 管理中心 https://admin.microsoft.com 。
+2. 转到 "**用户**  >  **活动用户**"。
+3. 在 " **显示名称** " 列中查找团队聊天室设备或 Surface Hub 的名称 (如果有多个用户) ，则可以使用 " **搜索** " 框。
+4. 在 " **用户名** " 列中查找 UPN， (它将以 alias@contoso.com 或 alias@contoso.onmicrosoft.com) 的形式显示。
+5. 对将参与协调会议的每个设备重复此操作。
 
 ## <a name="step-3-create-a-deployment-worksheet"></a>步骤3：创建部署工作表
 
@@ -71,6 +71,7 @@ ms.locfileid: "46761427"
 | **视频默认值**      | 确定会议启动时相机将处于活动状态的设备。 为了获得最佳体验，我们建议仅将团队聊天室设备设置为， `true` 同时将所有其他设备设置为 `false` 。          |
 | **视频已启用**      | 确定会议中的参与者是否可以打开或关闭摄像头。 你可以将此项设置为 `true` 在事件参与者中的任何其他设备上，希望共享不同的视频透视 (例如，如果参与者使用 Surface Hub 白板) 。 如果不希望参与者在设备上打开或关闭摄像头，请将此设置为 `false` 。<p> 如果 " **视频默认值** " 设置为 `true` ""，则会忽略此设置，并且参与者可以打开或关闭摄像头。         |
 | **白板默认设置** | 确定团队间设备是否将显示由某个会议参与者共享的白板。 我们建议你将其设置为 `false` 如果你有 Surface Hub，并且你没有 Surface Hub `true` 。 此设置对 Surface Hub 没有影响。 Surface Hub 将始终显示由会议参与者共享的白板。         |
+| **白板已启用** | 确定会议中的参与者是否可以打开或关闭白板。 如果不希望参与者在设备上打开或关闭白板，请将此设置为 `false` 。 <p>如果 " **白板默认值** " 设置为 `true` ""，则忽略此设置，参与者可以打开或关闭白板。
 | **受信任帐户**   | 这是一个逗号分隔的 Upn 列表，用于表示设备应接受会议加入请求的每个团队房间设备或 Surface Hub，或应发送到哪些会议加入请求。 |
 
 在后续列中，添加每个团队聊天室设备和 Surface Hub。 在每列中，填写与你希望的会议室的体验相对应的值。 下面是一个团队聊天室设备和一个 Surface Hub 的示例：
@@ -88,7 +89,7 @@ ms.locfileid: "46761427"
 | **启用音频**      | `true`          | `false`          |
 | **视频默认值**      | `true`          | `false`          |
 | **视频已启用**      | `true`          | `true`           |
-| **白板默认设置** | `false`         | 不适用   |
+| **白板默认设置** | `false`         | `false`          |
 | **受信任帐户**   | hub@contoso.com | room@contoso.com |
 
 ## <a name="step-4-configure-teams-rooms-device"></a>步骤4：配置团队聊天室设备
@@ -101,17 +102,17 @@ ms.locfileid: "46761427"
 
 若要在设备上设置协调的会议，请执行下列操作：
 
-1. 选择 **.。。更多**  >  **设置**
-2. 输入管理员密码，然后选择 **"是"**
-3. 选择 **协调的会议**
-4. 在 " **选项**" 下，将 **协调会议** 设置为 "开"
-5. 如果工作表中的 **音频默认值** 为 `true` ，请将 **此设备的麦克风** 设置为 "打开"，否则将其关闭
+1. 选择 **.。。更多**  >  **设置**。
+2. 输入管理员密码，然后选择 **"是"**。
+3. 选择 " **协调的会议**"。
+4. 在 " **选项**" 下，将 " **协调会议** " 设置为 _"开"_。
+5. 如果工作表中的 **音频默认值** 为 `true` ，请将 **此设备的麦克风** 设置为 "打开"，否则将其 _关闭_。
 6. 如果工作表中**已启用音频** `true` ，请选择 "**打开此设备的麦克风**" 下的 "在**加入会议时允许用户启用**"。 如果 **"打开此设备的麦克风** " 设置为 "打开"，则不能关闭此选项。
-7. 如果工作表中的 **视频默认值** 为 `true` "启用"，则将 **此设备的摄像头** 设置为 "开"，否则将其关闭
-8. 如果工作表中**启用**了视频 `true` ，请选择 "在**此设备的相机上**启用**加入会议时允许用户启用**"。 如果将 **此设备的相机** 设置为 "打开"，则无法关闭此选项。
-9. 如果工作表中的 **白板默认值** 为 `true` ，请将此设备上的 " **打开 whiteboarding** " 设置为 "打开"，否则将其关闭
+7. 如果工作表中的 **视频默认值** 为 `true` "启用"，则将 **此设备的摄像头** 设置为 "开"，否则将其 _关闭_。
+8. 如果工作表中**启用**了视频 `true` ，请选择 "在**此设备的相机上**启用**加入会议时允许用户启用**"。 如果将 **此设备的相机** 设置为 _"_ 打开"，则无法关闭此选项。
+9. 如果工作表中的 **白板默认值** 为 `true` "打开"，请将 **此设备** 上的 whiteboarding 设置为 _"_ 打开"，否则将其 _关闭_。
 10. 在 " **受信任的设备帐户**" 下，在工作表中键入 " **受信任帐户** " 中列出的所有 UPN 用逗号分隔多个 Upn。
-11. 选择 "**保存并退出**"
+11. 选择 " **保存并退出**"。
 
 选择 " **保存并退出**" 后，设备将重新启动，并准备好参与协调的会议。
 
@@ -126,7 +127,7 @@ ms.locfileid: "46761427"
     <Settings>
         <Audio default="true" enabled="true"/>
         <Video default="true" enabled="true"/>
-        <Whiteboard default="false"/>
+        <Whiteboard default="false" enabled="false"/>
     </Settings>
     <TrustedAccounts>hub@contoso.com</TrustedAccounts>
 </CoordinatedMeetings>
@@ -134,15 +135,22 @@ ms.locfileid: "46761427"
 
 若要在设备上设置协调的会议，请执行下列操作：
 
-1. 在文本文件编辑器（如 Visual Studio 代码或记事本）中，将上面的 XML 粘贴到新文件中
+1. 在文本文件编辑器（如 Visual Studio 代码或记事本）中，将上面的 XML 粘贴到新文件中。
+
 2. 将每个 XML 元素设置为 `true` `false` 电子表格中的相应值或值。 例如，如果 **音频默认值** 为 `true` ，则设置 `<Audio default="true">` 。
-3. 请确保更改 `TrustedAccounts` 为你的 upn 列表
-4. 将文件保存为名称 `SkypeSettings.xml`
+
+3. 请确保更改 `TrustedAccounts` 为 upn 列表。
+
+4. 将文件保存为名称 `SkypeSettings.xml` 。
+
 5. 将文件放在团队聊天室设备的 `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 文件夹中。 你可以通过以下几种方式执行此操作：
+
     - **将文件复制到团队聊天室设备** 在将文件复制到你的设备之前，你需要启用文件共享并创建网络共享。 执行此操作后，您可以连接到网络共享并将文件复制到设备。 有关详细信息，请参阅 [Microsoft 团队会议室维护和操作](../rooms/rooms-operations.md)。
     - **使用组策略** 创建组策略以将文件复制到设备。 有关详细信息，请参阅 [组策略概述](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))。
     - **在团队聊天室设备上下载文件** 你可以使用管理员模式登录到设备，然后从网络共享或 USB 驱动器将文件复制到设备。 有关详细信息，请参阅 [切换到 "管理员模式](../rooms/rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)"。
+    
 6. 重启设备。 你可以通过以下几种方式执行此操作：
+
     - **远程 PowerShell** 你可以使用远程 PowerShell 在设备上运行 Shutdown 命令。 有关详细信息，请参阅 [使用 PowerShell 进行远程管理](../rooms/rooms-operations.md)。
     - **运行重启-计算机** 你可以 `Restart-Computer` 在本地计算机上运行 cmdlet，并指定要重新启动的设备的计算机名。 有关详细信息，请参阅 [重新启动计算机](https://docs.microsoft.com/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7)。
 
@@ -172,15 +180,18 @@ Windows 配置设计器和 Microsoft Intune 都用于将协调的会议配置应
 
 执行以下操作以准备适用于 Windows 配置设计器或 Microsoft Intune 的 XML：
 
-1. 在文本文件编辑器（如 Visual Studio 代码或记事本）中，将上面的 XML 粘贴到新文件中
+1. 在文本文件编辑器（如 Visual Studio 代码或记事本）中，将上面的 XML 粘贴到新文件中。
+
 2. 将每个 XML 元素设置为 `true` `false` 电子表格中的相应值或值。 例如，如果 **音频默认值** 为 `true` ，则设置 `<Audio default="true">` 。
-3. 请确保更改 `TrustedAccounts` 为你的 upn 列表
+
+3. 请确保更改 `TrustedAccounts` 为 upn 列表。
+
 4. Windows 配置设计器要求 XML 位于单个行上。 删除每行之间的所有换行符，以使 XML 如下所示：
 
     ```xml
     <SurfaceHubSettings><BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>...
     ```
 
-5. 将文件保存在您的计算机上
+5. 将文件保存在您的计算机上。
 
 创建 XML 配置文件后，请使用 " [管理 Microsoft 团队中的 Microsoft 团队设置](surface-hub-manage-config.md) " 中的步骤将其应用于 surface hub。

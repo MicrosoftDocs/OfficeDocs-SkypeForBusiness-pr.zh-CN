@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4848481cf682ca0ff5b973f1100f3a96596c8d7a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778064"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803986"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -178,9 +178,9 @@ VMware 横向为适用于 VDI 的团队提供优化的 AV 支持，提高了虚�
 
         下一个交互式登录会话将启动团队并要求提供凭据。
 
-    > [!NOTE]
-    > 这些示例还使用 **ALLUSERS = 1** 参数。 设置此参数时，团队计算机范围的安装程序将显示在 "控制面板" 的 "程序和功能" 和 "应用程序" 中的 "Windows 设置" 中的 "应用 & 功能" 中。 如果团队拥有管理员凭据，则所有用户都可以卸载团队。
-    了解 **ALLUSERS = 1** 和 **ALLUSER = 1**之间的区别非常重要。 **ALLUSERS = 1**参数可在非 VDI 和 vdi 环境中使用，而**ALLUSER = 1**参数仅在 VDI 环境中用于指定每计算机安装。
+        > [!NOTE]
+        > 这些示例还使用 **ALLUSERS = 1** 参数。 设置此参数时，团队计算机范围的安装程序将显示在 "控制面板" 的 "程序和功能" 和 "应用程序" 中的 "Windows 设置" 中的 "应用 & 功能" 中。 如果团队拥有管理员凭据，则所有用户都可以卸载团队。
+        了解 **ALLUSERS = 1** 和 **ALLUSER = 1**之间的区别非常重要。 **ALLUSERS = 1**参数可在非 VDI 和 vdi 环境中使用，而**ALLUSER = 1**参数仅在 VDI 环境中用于指定每计算机安装。
 
 3. 从 VDI VM 卸载 MSI。
   
@@ -346,6 +346,17 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 若要了解有关使用 PowerShell 管理会议策略的详细信息，请参阅 [设置 CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)。
 
+## <a name="control-fallback-mode-in-teams"></a>团队中的控制回退模式
+
+当用户从不受支持的终结点进行连接时，用户处于回退模式，而 AV 未进行优化。 你可以通过设置以下注册表 DWORD 值之一来禁用或启用回退模式：
+
+- HKEY_LOCAL_MACHINE \SOFTWARE\Microsoft\Teams\DisableFallback
+- HKEY_CURRENT_USER \SOFTWARE\Microsoft\Office\Teams\DisableFallback
+
+若要禁用回退模式，请将值设置为 **1**。 若要仅启用音频，请将值设置为 **2**。 如果值不存在或设置为 **0** (零) ，则启用回退模式。
+
+此功能在团队版本1.3.00.13565 及更高版本中可用。
+
 ## <a name="known-issues-and-limitations"></a>已知问题和限制
 
 ### <a name="client-deployment-installation-and-setup"></a>客户端部署、安装和设置
@@ -391,7 +402,7 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 ## <a name="troubleshooting"></a>故障排除
 
-#### <a name="troubleshoot-citrix-components"></a>Citrix 组件疑难解答
+### <a name="troubleshoot-citrix-components"></a>Citrix 组件疑难解答
 
 有关如何解决 VDA 和 CWA 问题的信息，请参阅 [此 Citrix 网站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
 

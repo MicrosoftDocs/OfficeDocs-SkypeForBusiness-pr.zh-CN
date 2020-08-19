@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2629ef2fd378744647aa7ed158e7128dfbaeba8a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 00ca1a2d7a00b4aa827cfb5a989e31b54b83fbeb
+ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581203"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "46803904"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -53,7 +53,7 @@ Outlook 2013 桌面应用及更高版本支持 Outlook 中的 Teams 状态。
 || ![带箭头的紫色圆圈，表示外出](media/Presence_OOF.png) 外出|
 |||
 
-应用配置的状态状态基于用户活动 (可用、离开) 、Outlook 日历状态 (在会议) 或团队应用状态 (在通话中，演示) 。 请注意，当你处于基于你的日历的焦点模式时，焦点将是人们在 Teans 中看到的状态，但在其他产品中将显示为 "请勿打扰"。
+应用配置的状态状态基于用户活动 (可用、离开) 、Outlook 日历状态 (在会议) 或团队应用状态 (在通话中，演示) 。 请注意，当你处于基于你的日历的焦点模式时，焦点将是用户在团队中看到的状态，但在其他产品中将显示为 "请勿打扰"。
 
 当您锁定计算机或进入空闲或睡眠模式时，当前状态将更改为 "离开"。 在手机上，只要团队应用处于后台，你的状态将更改为 "离开"。
 

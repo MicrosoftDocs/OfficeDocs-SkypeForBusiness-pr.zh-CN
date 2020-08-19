@@ -1,5 +1,5 @@
 ---
-title: 医疗保健的团队策略程序包
+title: 政府团队政策包
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,15 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用和管理你的医疗保健组织的团队策略包。
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
+description: 了解如何使用和管理政府组织的团队策略包。
+ms.openlocfilehash: 738197a82303c1149ebc89a8e3ad7c6b37df90eb
 ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803965"
+ms.locfileid: "46804008"
 ---
-# <a name="teams-policy-packages-for-healthcare"></a>医疗保健的团队策略程序包
+# <a name="teams-policy-packages-for-government"></a>政府团队政策包
+
+> [!NOTE]
+> 策略程序包目前在 Microsoft 365 政府版或 DoD 部署中不可用。
 
 ## <a name="overview"></a>概述
 
@@ -38,19 +41,19 @@ Microsoft 团队中的 [策略包](manage-policy-packages.md) 是预定义策略
 - 应用设置
 - 实时事件
 
-团队当前包含以下医疗保健策略程序包。
+团队当前包括适用于政府的以下政策包。
 
 |Microsoft 团队管理中心中的程序包名称|最适合用于|说明 |
 |---------|---------|---------|
-|医疗保健临床工作者  |医疗保健组织中的临床工作者  |创建一组策略和策略设置，为临床工作者（如注册的护士、费用护理、医生和社会工作者）提供对聊天、通话、班次管理和会议的完全访问权限。 |
-|医疗保健信息工作者  |您的医疗保健组织中的信息工作者 |创建一组策略和策略设置，提供信息工作者，如 IT 人员、informatics 员工、财务人员和合规性监察官、对聊天、通话和会议的完全访问权限。|
-|医疗保健患者聊天室  |患者聊天室设备|创建一组策略和策略设置，这些策略设置适用于您的医疗保健组织中的患者聊天室。|
+|公共安全专员  |政府组织中的公共安全官员  |创建一组策略和策略设置，这些策略设置适用于您的组织中的公共安全专员。 |
+|一线管理器  |政府组织中的一线经理 |创建一组策略，并将这些设置应用到组织中的一线管理员。|
+|一线工作人员  |您的政府组织中的一线工作者 |创建一组策略，并将这些设置应用于您的组织中的一线工作人员。|
 
-![医疗保健策略程序包的屏幕截图](media/policy-packages-healthcare.png)
+![医疗保健策略程序包的屏幕截图](media/policy-packages-gov.png)
 
-每个单独策略都被授予策略程序包的名称，以便你可以轻松地识别链接到策略包的策略。 例如，当你将医疗保健临床工作人员策略包分配给你的组织中的临床医生时，将为程序包中的每个策略创建一个名为 Healthcare_ClinicalWorker 的策略。
+每个单独策略都被授予策略程序包的名称，以便你可以轻松地识别链接到策略包的策略。 例如，当您将公共安全专员策略包分配给您的组织中的用户时，将为程序包中的每个策略创建一个名为 PublicSafety_Officer 的策略。
 
-![医疗保健临床工作者程序包中的策略的屏幕截图](media/policy-packages-healthcare-clinical-worker.png)
+![医疗保健临床工作者程序包中的策略的屏幕截图](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>管理策略包
 
@@ -72,7 +75,7 @@ Microsoft 团队中的 [策略包](manage-policy-packages.md) 是预定义策略
 
 有关如何使用 Microsoft 团队管理中心或 PowerShell 分配策略包的步骤，请参阅 [分配策略包](manage-policy-packages.md#assign-a-policy-package)。
 
-![如何在管理中心分配策略包的屏幕截图](media/policy-packages-healthcare-assign.png)
+![如何在管理中心分配策略包的屏幕截图](media/policy-packages-gov-assign.png)
 
 如果用户分配了策略，然后你分配了其他策略，则最新作业的优先级将会更高。
 
@@ -80,4 +83,4 @@ Microsoft 团队中的 [策略包](manage-policy-packages.md) 是预定义策略
 
 [在 Teams 中管理策略包](manage-policy-packages.md)
 
-[向团队中的用户分配策略](assign-policies.md)
+[向团队中的用户分配策略](assign-policies.md) 
