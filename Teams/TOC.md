@@ -707,6 +707,7 @@
 ### [Microsoft 365 政府版计划 - GCC（高）](plan-for-government-gcc-high.md)
 ### [Microsoft 365 政府版计划 - DoD](plan-for-government-dod.md)
 ### [适用于 GCC High 和 DoD 且含直接路由的音频会议](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+### [政府用 Teams 策略包](policy-packages-gov.md)
 
 <!-- ============================================================ -->
 
