@@ -143,7 +143,9 @@
 #### [要求](rooms/requirements.md)
 #### [联机许可](rooms/rooms-licensing.md)
 #### [利用 Azure Monitor 进行套餐管理](rooms/azure-monitor-plan.md)
-#### [使用 Microsoft Teams 会议室高级版规划管理](rooms/microsoft-teams-rooms-premium.md)
+#### Microsoft Teams 会议室托管服务
+##### [使用 Microsoft Teams 会议室托管服务进行管理规划](rooms/microsoft-teams-rooms-premium.md)
+##### [通过 Microsoft Teams 会议室托管服务提供基于角色的访问控制](rooms/microsoft-teams-rooms-premium-rbac.md)
 ### 部署
 #### [部署概述](rooms/rooms-deploy.md)
 #### [配置帐户](rooms/rooms-configure-accounts.md)
