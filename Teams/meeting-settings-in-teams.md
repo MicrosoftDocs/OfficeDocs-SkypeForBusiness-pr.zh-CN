@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: 了解如何管理用户在组织中安排的 Teams 会议的设置。
-ms.openlocfilehash: 559dcc8a2f5e38c4c35ba7794241e69402a092ef
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: b1c71c4b22b90c38e4b34eebd745b85f7d27e86c
+ms.sourcegitcommit: bb5229c9f7999358dcf0ba185ecfd7c881627a38
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526708"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46824943"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理会议设置
 
@@ -38,7 +38,7 @@ ms.locfileid: "46526708"
 
 ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 
-您必须是团队服务管理员才能进行这些更改。 请参阅[使用团队管理员角色管理团队](https://docs.microsoft.com/microsoftteams/using-admin-roles)，了解如何获取管理员角色和权限。
+仅拥有 Teams 服务管理员才能进行这些更改。 请参阅 ["使用 Teams 管理员"角色管理 Teams，](https://docs.microsoft.com/microsoftteams/using-admin-roles) 以了解有关获取管理员角色和权限的信息。
 
 1. 转到管理中心。
 
@@ -85,10 +85,10 @@ ms.locfileid: "46526708"
 
 <a name="bknetwork"> </a>
 
-如果你使用 "服务质量（QoS）" 来设置网络流量的优先级，则可以为每种类型的媒体流量启用 QoS 标记和设置端口范围。 为不同流量类型设置端口范围只是处理实时媒体的其中一个步骤；有关详细信息，请参阅 [Teams 中的服务质量 (QoS)](qos-in-teams.md)。
+如果要使用 (QoS) 来优先考虑网络流量，则可以启用 QoS 标记并为每种媒体流量类型设置端口范围。 为不同流量类型设置端口范围只是处理实时媒体的其中一个步骤；有关详细信息，请参阅 [Teams 中的服务质量 (QoS)](qos-in-teams.md)。
 
 > [!IMPORTANT]
-> 如果为团队服务启用 QoS 或更改 Microsoft 团队管理中心中的设置，你还需要[将匹配设置应用到所有用户设备](QoS-in-Teams-clients.md)和所有内部网络设备，以完全实现团队中的 QoS 的更改。
+> 如果在 Teams 服务的 Microsoft Teams 管理中心启用 QoS 或更改设置，则还需将 [匹配设置应用到所有用户设备](QoS-in-Teams-clients.md) 和所有内部网络设备，才能完全将更改完全实施到 Teams 中的 QoS。
 
  ![一个显示 Microsoft Teams 徽标的图标](media/teams-logo-30x30.png) **使用 Microsoft Teams 管理中心**
 1. 转到管理中心。
@@ -99,8 +99,11 @@ ms.locfileid: "46526708"
 
     - 要允许对 QoS 使用 DSCP 标记，请打开**插入实时媒体流量的服务质量 (QoS) 标记**。 你只能选择是否使用标记；不能为每种流量类型设置自定义标记。 有关 DSCP 标记的更多信息，请参阅[选择 QoS 实施方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE]
-        > DSCP 标记通常通过源端口完成，并且 UDP 流量默认情况下路由到目标端口为3478的传输中继。 如果您的公司需要在目标端口上添加标签，请联系支持人员以启用与传输中继的通信，使用 UDP 端口3479（音频）、3480（视频）和3481（共享）。
-    - 要指定端口范围，请在“**选择每种媒体实时流量的端口范围**”旁选择“**指定端口范围**”，然后输入音频、视频和屏幕共享的起始和结束端口。 要实施 QoS，必须选择此选项。
+        > 通常通过源端口完成 DSCP 标记，而 UDP 通信流默认情况下将路由到"传输中迟"（3478 的目标端口）。 如果您的公司需要标记目标端口，请联系支持人员以使传输中文的通信包括 UDP 端口 3479 (Audio) 、3480 (视频) 和 3481 (共享) 。
+    - 要指定端口范围，请在“**选择每种媒体实时流量的端口范围**”旁选择“**指定端口范围**”，然后输入音频、视频和屏幕共享的起始和结束端口。 要实施 QoS，必须选择此选项。 
+        > [!Note]
+        > 如果 **在 QoS () 流** 量的) 上传输器已启用，则必须管理你的移植设置。 它们不会自动管理。
+        
         > [!IMPORTANT]
         > 如果你选择了**自动使用任何可用的端口**，则将使用 1024 和 65535 之间的可用端口。 仅在未实施 QoS 的情况下使用此选项。
         >
