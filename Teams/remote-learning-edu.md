@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: karsmith
+ms.reviewer: karsmith, lakuan
 description: Microsoft Teams 教育版远程学习入门指南。
 localization_priority: Priority
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0fab79f0672c21f348ccfda999bcc32a468c87f
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: 8b72a2000b17f5e910b98f907b00fa9742cf9d72
+ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533757"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "46818171"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -102,16 +102,153 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 
 ## <a name="start-using-teams"></a>开始使用 Teams
 
-### <a name="create-class-teams-for-secure-classroom-use"></a>创建班级团队，以便实现安全的课堂使用
+### <a name="create-class-teams-for-secure-classroom-use"></a>创建课堂团队，以便安全地使用课堂
 
-Microsoft Teams 教育版提供了针对教育用途的[特定团队类型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)。 [班级团队类型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)旨在用于课堂教学且具有特定功能，包括作业、OneNote 课堂笔记、用于为学生保护只读内容的[班级资料文件夹](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)以及将捣乱的学生静音的功能。 可通过多种方法来部署班级团队：
+Microsoft Teams 教育版提供了针对教育用途的  [特定团队类型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) 。 [课堂团队类型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)是为课堂使用而设计的，并带有支持课堂需要的特定功能，包括：  
 
-1. [学校数据同步](https://sds.microsoft.com/) (SDS) 可**由 IT 设置**，允许根据教育机构信息系统中的信息为所有班级创建班级团队。 此过程为每个部分预配组，并在注册变化时使教师和学生名单保持同步。 教师可以[使用此过程](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)将这些组转换为课堂团队。 创建课堂团队后，在录取学生前，[教师可以为团队做好准备](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78) 。 SDS 支持 80 多种学校信息系统（SIS 系统）的数据导入， [SDS 支持团队](https://aka.ms/SDSSupport) 可以帮助你进行规划和配置。 你还可以查看我们的[实现远程学习的快速部署指南](https://docs.microsoft.com/SchoolDataSync/fast-deployment-guidance)，以便快速入门。
-1. **教师设置**自己的班级类型团队并邀请学生。 教师可以通过[将学生添加到团队](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[共享加入代码](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)或[共享指向团队的链接](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)来实现此操作。 如果可能，最好让教师将学生添加到团队，以确保学生获得访问权限并收到其已添加到团队的通知。
+- 分配
+- 分数
+- OneNote 课堂笔记本  
+- [课堂材料文件夹](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) 确保学生只读内容
+- [教师提前访问](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)先设置班级，再添加学生 
+- 可以静音处理捣乱的学生及其他特殊权限  
 
-团队设置完成后，团队所有者可[自定义团队的设置](https://support.office.com/article/find-your-class-team-s-settings-in-microsoft-teams-2592d4de-581d-4952-9028-02317880c158)（包括添加[团队图片](https://support.office.com/article/change-your-team-picture-02ea2af6-b49d-4de8-9551-1a5e472993c0)），[创建班级主题或小组协作区域频道](https://support.office.com/article/create-student-project-groups-channels-in-microsoft-teams-f85b3c07-fb87-4b94-883b-9be55f4b1e45)，[添加应用](https://support.office.com/article/add-an-app-to-teams-b2217706-f7ed-4e64-8e96-c413afd02f77)（如 Quizlet/Flipgrid/Kahoot）来呈现现有教学内容，以及[提及团队来发布首个帖子](https://support.office.com/article/using-the-conversation-tab-in-microsoft-teams-53d1c530-3797-4a6f-9892-6760f8763df2)以通知每个人并开始对话。
+有几种创建课堂团队的方法，而 Teams 教育版有一组独特的部署工具，可以使创建课堂团队尽可变得能简单。
 
-### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>创建行政人员团队，促进其沟通和协作
+ - [使用 SDS 自动创建团队](#automatic-team-creation-using-sds)
+ - [从 Office 365 课堂组创建由教师领导的团队](#educator-led-team-creation-from-office-365-class-groups)
+ - [PowerShell 脚本（使用 Graph API）](#powershell-script-using-graph-apis)
+ - [手动创建团队](#manual-team-creation)
+
+我们将逐步介绍各种选项，以帮助你选择最适合你需求的正确部署路径。  
+
+#### <a name="automatic-team-creation-using-sds"></a>使用 SDS 自动创建团队
+
+自动创建团队可节省 IT 管理员和教师的时间。 它确保教师已经创建了所有课堂团队，并已准备好在登录时设置。 [学校数据同步 (SDS)](https://docs.microsoft.com/SchoolDataSync)是一款免费的 Office 365 教育工具，可以从教育机构的记录系统中读取数据，例如学生信息系统（SIS）或学习管理系统（LMS）。 SDS 使用这些数据以多种方式丰富 Office 365 的设置，包括批量创建课堂团队，以及与信息系统保持同步，以便在注册情况发生变化时随时更新教师和学生成员。 SDS 可以导入任何记录系统中的数据，并将内置连接器用于许多世界现有[ SIS 供应商](https://docs.microsoft.com/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support)。 我们强烈推荐使用SDS，因为它有以下优点。  
+
+###### <a name="benefits"></a>优点
+
+- 自动创建和维护课堂团队 – 教师将能够登录到 Teams，并立即开始教学。
+- 成员身份与 SIS/LMS 同步来维护学生成员身份更改。
+- EDU 客户成功团队可提供免费部署协助。
+- [教师提前访问](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)：教师在录取学生之前有时间准备他们的团队。  
+- 可选地创建用户并应用 Office 365 许可证。
+- 创建跨 Office 365 使用的安全组，包括团队策略。
+- 为限定范围的管理委托和[教师密码重置](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset)创建管理单元。 
+- 为了减少管理员的工作，会有用于大规模处理的内置错误、重试处理、节流回退和会话稳定性。  
+- 内置的清理功能，可在组和团队过时后重命名和存档。
+- [分数同步](https://docs.microsoft.com/schooldatasync/grade-sync)：教师可以以小组为单位进行评分，并让系统自动将各小组的成绩写回 SIS 的成绩单上。 
+- [学生数据保护](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data)：防止学生使用非 Microsoft 的应用程序，并跟踪和管理家长许可。 
+- 为了丰富有关的教育见解，导入的数据将用于用户角色、组织（学校）和其他重要数据。  
+
+##### <a name="considerations"></a>注意事项
+
+SDS 以两个步骤创建团队。 第一步在 Azure Active Directory (Azure AD) 中创建一个 Microsoft 365 组，第二步将该组自动转换为一个团队。 创建团队的第二步在SDS中是可选的。 管理员可能不希望根据部署时间和可能产生的未使用团队的数量自动创建团队。 我们建议拥有 50 万或以上团队的院校关闭 SDS 中的自动团队创建切换，并使用[教师领导的团队创建方法](#educator-led-team-creation-from-office-365-class-groups)。  
+
+##### <a name="get-started"></a>入门
+
+首先，请访问[学校数据同步（SDS）](https://docs.microsoft.com/SchoolDataSync)并联系[https://aka.ms/sdssupport](https://aka.ms/sdssupport)部署协助。  
+
+#### <a name="educator-led-team-creation-from-office-365-class-groups"></a>由 Office 365 课堂教师领导的团队创建
+
+如果你想让教师轻松快速地创建他们需要的课堂，那么创建由教师领导的团队是一种很好的部署方法。 我们还建议拥有50万个团队的机构使用这种方法来最小化外部创建的团队的数量。  
+
+这种混合方法允许你使用 SDS 为每个课程创建组（推荐），或者使用[Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes)自己创建组。 在课堂组准备好之后，教育者可以使用建议的**班级图标**将他们的群组转换成小组。
+
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="显示建议课堂图标的屏幕截图":::
+
+##### <a name="benefits"></a>优点
+
+- [教师提前访问](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)：教师在录取学生之前有时间准备他们的团队。  
+- 减少未使用和不必要的团队数量。 这些课堂已经准备好并已接受建议，但除非教师打算使用它们，否则不会创建它们。 我们建议有超过50万个团的大型机构使用此选项来减少混乱。
+- SDS
+    - 成员身份与 SIS/LMS 同步来维护学生成员身份更改。
+    - EDU 客户成功团队可提供免费部署协助。
+    - 可选地创建用户并应用 Office 365 许可证。
+    - 创建跨 Office 365 使用的安全组，包括团队策略。
+    - 为限定范围的管理委托和[教师密码重置](https://docs.microsoft.com/schooldatasync/how-to-enable-teacher-password-reset)创建管理单元。
+    - 为了减少管理员的工作，会有用于大规模处理的内置错误、重试处理、节流回退和会话稳定性。 
+    - 内置的清理功能，可在组和团队过时后重命名和存档。 
+    - [分数同步](https://docs.microsoft.com/schooldatasync/grade-sync)：教师可以以小组为单位进行评分，并让系统自动将各小组的成绩写回 SIS 的成绩单上。 
+    - [学生数据保护](https://docs.microsoft.com/schooldatasync/protecting-student-personal-data)：防止学生使用非 Microsoft 的应用程序，并跟踪和管理家长许可。 
+    - 为了丰富有关的教育见解，导入的数据将用于用户角色、组织（学校）和其他重要数据。
+- Graph API
+    - 额外的灵活性和控制。
+    - 不需要与 SDS 集成。
+
+##### <a name="considerations"></a>注意事项
+
+- 非完全自动化，需要某些教师操作。
+- 无权创建团队的教师仍可从现有组中创建团队，如[此处](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)所示。
+- Graph API 需要高级别的技术知识和时间来创建和运行脚本，并修复创建班级组时出现的任何问题。
+
+##### <a name="get-started"></a>开始使用
+
+开始使用 SDS 方法，请访问[学校数据同步（SDS）](https://docs.microsoft.com/SchoolDataSync)并联系[https://aka.ms/sdssupport](https://aka.ms/sdssupport)部署协助。 
+
+若要使用 Graph API 方法，请参阅 [Graph API](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-1.0&tabs=http) 并 [创建课堂团队](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http)。  
+
+> [!NOTE]
+> 若要将此方法用于 SDS，需要在 SDS 配置文件中关闭自动团队创建切换。 你还可以通过使用两个 SDS 配置文件，将自动和教师端团队创建的组合用于所需的和可选的课堂团队。
+
+#### <a name="powershell-script-using-graph-apis"></a>PowerShell 脚本（使用 Graph API）
+
+借助 PowerShell，你可编写脚本来自动创建团队、频道和配置设置。 它要求管理员先创建组，再添加教师和学生，然后按[此处](https://docs.microsoft.com/graph/teams-create-group-and-team)所示创建团队。 此外，还可使用 Microsoft Graph API 创建、配置、克隆和存档团队。 有关详细信息，请参阅[将 Microsoft Graph API 与 Microsoft Teams 结合使用](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)协同工作，[Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams)和[创建课堂团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-6-create-a-team-with-a-non-standard-base-template-type)。 使用 Graph API 是获得更多控制和灵活性的好方法，它需要高级别的技术知识，并会在初始时间内花更多时间。
+
+##### <a name="benefits"></a>优点
+
+- 额外的灵活性和控制。
+- 可用于创建教师提前访问团队或学生即时访问团队的选项。  
+- 如果[从组创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group)，则教师将拥有提前访问权限，并且将同步对 Azure AD 组的学生成员身份更改。
+
+##### <a name="considerations"></a>注意事项
+
+- 需要高级别的技术知识和时间来创建和运行脚本，并修复创建班级组时出现的任何问题。
+- 无内置错误处理或重试逻辑。
+- 成员身份更改不会与 SIS 同步。 
+
+> [!NOTE]
+> 课堂团队需要隐藏的组成员身份，以便只有课堂中的教师和学生可以查看班级的成员。 若要创建 Office 365 课堂组，请参阅[创建课堂团队](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http)以达到相同的隐私要求。
+
+#### <a name="manual-team-creation"></a>初始团队创建
+
+当学生和教师能够以最小的障碍使用 Teams 并灵活地根据自己的需求对其进行调整时，他们将能够充分利用 Teams。 支持用户调整其 Teams 体验的方法之一是允许其创建满足自己需求的团队。 按[此处](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)查看教师设置自己的班级类型团队并邀请学生。 教师可以通过[将学生添加到团队](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[共享加入代码](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)或[共享指向团队的链接](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)来邀请学生。 如果可能，最好让教师将学生添加到团队，以确保学生获得访问权限并收到其已添加到团队的通知。
+
+##### <a name="benefits"></a>优点
+
+- 为教师提供额外的灵活性。
+- 即时团队创建和访问。  
+
+##### <a name="considerations"></a>注意事项
+
+- 需要教师的行动和时间。
+- 学生成员关系未与 SIS 同步，需要手动管理。
+- 不授予教师对其团队的提前访问权限。 学生将立即获得访问权限。
+
+#### <a name="recommended-best-practices"></a>建议的最佳做法
+
+- 及早部署！ 尽早部署，以确保所有东西都能有效地工作，并为开学第一天做好准备。
+- 如果你有超过 50 万的团队，我们建议使用[教师指导团队创建方法](#educator-led-team-creation-from-office-365-class-groups)。 它仅创建相关和所需的课堂团队，减少未使用的团队和垃圾邮件。  
+- 如果通过 SDS 自动创建团队时存在任何问题（例如，缺少课程），并且教师立即需要它们，则他们可以使用[由教师领导的团队创建方法](#educator-led-team-creation-from-office-365-class-groups)重试。 [手动创建团队](#manual-team-creation)是另一种解决方案，但是，它不会更新您的团队成员。  
+- 租户团队限制为50万个团队。 因此，管理员应该主动尝试减少未使用团队的数量，以避免达到这些限制以至延长设置时间。 有关限制的详细信息，请参阅[ Microsoft Teams 的限制和规范](limits-specifications-teams.md)。  
+
+#### <a name="early-access-to-class-teams"></a>提早访问课堂团队
+
+提前访问课堂团队使教师可以在其学生查看并开始参与之前访问课堂团队。 这使得教师能够在向其学生授予访问权限之前设置、添加文件并整理文件。 当他们准备好让学生访问团队时，可轻松[激活班级](https://support.office.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)。 作为管理员，你还具有有关创建和设置提前访问课堂团队的其他控制权和能力。
+
+##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>如何创建课堂团队，使教师可以在录取学生之前提前访问以设置团队？
+
+默认情况下，从组（通过 SDS、由教师领导或 Graph API）创建的团队会自动创建抢先体验团队。 若要使用 Graph API 创建自己的提前访问团队，需要[创建一个班级](https://docs.microsoft.com/graph/api/educationroot-post-classes?view=graph-rest-beta&tabs=http)并[从组创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta&tabs=http#example-4-create-a-team-from-group)。
+
+##### <a name="how-do-i-check-if-a-class-is-activated"></a>如何检查是否已激活班级？
+
+在[团队资源类型](https://docs.microsoft.com/graph/api/resources/team?view=graph-rest-beta)中，我们添加了新属性 [isMembershipLimitedToOwners](https://docs.microsoft.com/graph/api/resources/team?view=graph-rest-beta#properties)，以确定是否已激活班级。 使用[“获取团队”API](https://docs.microsoft.com/graph/api/team-get?view=graph-rest-beta&tabs=http) 查询特定类的 ```isMembershipLimitedToOwners``` 属性。 如果团队已激活，将返回值 false。 如果团队尚未由团队所有者激活，将返回值 true。
+
+##### <a name="how-do-i-activate-a-class-for-an-educator"></a>如何为教师激活班级？
+
+使用[“更新团队”API](https://docs.microsoft.com/graph/api/team-update?view=graph-rest-beta&tabs=http) 并将 ```isMembershipLimitedToOwners``` 属性设置为 false，以便代表教师激活团队。 请注意，激活团队后无法撤消。
+
+### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>创建职员团队，促进其沟通和协作
 
 [行政人员类型团队](https://support.office.com/article/create-a-staff-team-in-microsoft-teams-314ac9d5-36a9-408e-8ae4-7ef20e9f1ddf)是专为教育机构管理人员和行政人员设计的，可用于轻松共享信息和协作处理教育机构范围的计划，包括发布公告、设置会议、共享内容和引入外部应用，如[用于任务跟踪的 Planner](https://support.office.com/article/create-a-plan-with-planner-d000976a-7490-4ddf-b9af-09ee764891e2)。 教育机构管理人员可通过团队创建向导将教育机构行政人员添加到团队，也可以[在创建团队后添加成员](https://support.office.com/article/add-members-to-a-team-in-teams-aff2249d-b456-4bc3-81e7-52327b6b38e9)或[共享加入代码或指向团队的链接](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)。 [创建频道](https://support.office.com/article/create-a-channel-in-teams-fda0b75e-5b90-4fb8-8857-7e102b014525)是一个按工作流或主题整理对话和文件的好方法。 [团队所有者的行为指南](https://support.office.com/article/go-to-guide-for-team-owners-75f9669b-bd8f-457d-b60b-ac2ac9c8ead4)是了解团队所有者的职责和权限的好地方。
 
