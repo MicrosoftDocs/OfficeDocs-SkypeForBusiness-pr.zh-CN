@@ -18,12 +18,12 @@ f1.keywords:
 description: 通过四种不同级别的授权来管理 Microsoft Teams 来宾访问功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9ecf6893539204909bb6f583bbba982e8ee8d19
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6bf763caf0b44490ee578f0bf130a1d4db56a3b
+ms.sourcegitcommit: 294b32fb06c56a6eefd1cc44cc5bc93555b6503b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656153"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "46845564"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>在 Microsoft Teams 中授权来宾访问
 ===========================================
@@ -60,7 +60,13 @@ ms.locfileid: "46656153"
 
 Azure AD 包含用于配置外部用户的以下设置：
 
-- **限制来宾用户权限**：“**是**”表示来宾无权处理某些目录任务，例如枚举用户、组或其他目录资源。 此外，未将来宾分配到你目录中的管理角色。 “**否**”表示来宾与目录中的常规用户具有相同的目录数据访问权限。
+- “**来宾用户访问限制**”：这个策略决定在你目录中来宾的权限。 有三种政策选择。
+
+    - "**来宾用户拥有与成员（最包容）相同的访问权限**"设置表示来宾与目录中的普通用户一样具有相同的目录数据访问权限。
+    - "**来宾用户对目录对象的属性和成员身份拥有有限的访问权限** "设置表示来宾对某些目录任务没有权限，如枚举用户、组或其他使用 Microsoft Graph的目录资源。
+    - "**来宾用户访问权限仅限于其自己的目录对象属性和成员身份（最严格）**"设置表示来宾仅可访问自己的目录对象。
+    
+  要了解详细信息，请参阅[Azure Active Directory 中的默认用户权限是什么？?](https://go.microsoft.com/fwlink/?linkid=2135493)
 - **管理员和具有“来宾邀请者”角色的用户可以邀请**：“**是**”表示管理员和具有“来宾邀请者”角色的用户将能够邀请来宾加入租户。 “**否**”表示管理员和用户不可邀请来宾加入租户。
 - **成员可邀请**：要允许目录的非管理员成员邀请来宾，请将此策略设置为**是**（建议设置）。 如果你希望仅管理员能够添加来宾，可以将此策略设置为**否**。 请记住，设置为**否**将会限制非管理员团队所有者的来宾体验；他们只能向管理员已在 AAD 中添加的团队添加来宾。
 - **来宾可邀请**：“**是**”表示目录中的来宾可邀请其他来宾协作处理受到 Azure AD 保护的资源，例如 SharePoint 网站或 Azure 资源。 “**否**”表示来宾不可邀请其他来宾与你的组织协作。
@@ -76,7 +82,6 @@ Azure AD 包含用于配置外部用户的以下设置：
 
 ### <a name="licensing-for-guest-access"></a>来宾访问的许可
 来宾访问许可是 Azure AD 许可的一部分。 所有 Microsoft 365 商业标准版、Office 365 企业版订阅均包含来宾访问功能。 有关许可的详细信息，请参阅 [Azure Active Directory B2B 协作许可指南](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)。
-
 
 > [!NOTE]
 > 你组织中仅拥有独立 Office 365 订阅计划（例如 Exchange Online 计划 2）的用户不可作为来宾被邀请加入你的组织，因为 Teams 将这些用户视为属于该组织。 要让这些用户使用 Teams，必须向他们分配 Microsoft 365 商业标准版、Office 365 企业版或 Office 365 教育版订阅。 

@@ -112,7 +112,6 @@
 # 应用、机器人和连接器
 
 ## [概述](deploy-apps-microsoft-teams-landing-page.md)
-## [应用权限和注意事项](app-permissions.md)
 ## [管理适用于 Teams 的应用](manage-apps.md)
 ## [Teams 中适用于应用的管理设置](admin-settings.md)
 ## [使用内置和自定义选项卡](built-in-custom-tabs.md)
@@ -121,6 +120,8 @@
 ## [发布通过 Teams 应用提交 API 所提交的自定义应用](submit-approve-custom-apps.md)
 ## [通过上载应用包来发布自定义应用](upload-custom-apps.md)
 ## [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+## [应用权限和注意事项](app-permissions.md)
+## [Teams 第三方应用购买服务](purchase-third-party-apps.md)
 ## [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [在 Teams 中管理组织的列表应用](manage-lists-app.md)
 ## [为组织管理任务应用](manage-tasks-app.md)
