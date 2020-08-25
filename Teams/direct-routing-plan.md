@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft Phone 系统直接路由如何让你连接受支持的客户提供的会话边界控制器 (SBC) Microsoft Phone System。
-ms.openlocfilehash: 3239efa7a9cc4677fe28bb25751868b502e5d9a4
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: bb711b72fb200ceec9d2c50c86f6f977436c9c02
+ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788706"
+ms.lasthandoff: 08/23/2020
+ms.locfileid: "46860803"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -163,7 +163,7 @@ Microsoft 建议通过 (CSR) 生成证书签名请求来请求 SBC 的证书。 
 
 - AffirmTrust
 - AddTrust 外部 CA 根
-- Baltimore CyberTrust Root
+- 巴尔的摩 CyberTrust 根 *
 - Buypass
 - Cybertrust
 - 第3类公共主证书颁发机构
@@ -185,6 +185,11 @@ Microsoft 建议通过 (CSR) 生成证书签名请求来请求 SBC 的证书。 
 - TeliaSonera 
 - T 位系统国际 GmbH (德国 Telekom) 
 - QuoVadis
+
+
+
+> [!NOTE]
+> * 如果对 SBC 上的团队连接启用了相互 TLS (MTLS) 支持，则必须在 SBC 受应用程序 TLS 上下文的 CyberTrust 根存储中安装巴尔的摩根证书。  (这是因为 Microsoft 服务证书使用巴尔的摩 root 证书。 ) 要下载巴尔的摩 root 证书，请参阅 [Office 365 加密链](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains)。
 
 Microsoft 正在努力根据客户请求添加其他认证机构。 
 
