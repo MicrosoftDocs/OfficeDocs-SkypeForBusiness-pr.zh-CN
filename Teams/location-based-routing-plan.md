@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ab779c7b60ab702284c871ab6bd0ec08d051267
-ms.sourcegitcommit: b14ad0a6c454b20f34fccbd1d312de24379faef0
+ms.openlocfilehash: ec48927559f5b10cbd8fec98966f1c55d0297fd2
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "46572237"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864576"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>为直接路由计划基于位置的路由
 
@@ -53,7 +53,7 @@ ms.locfileid: "46572237"
 
 基于位置的路由使用 Skype for Business 服务器使用的相同网络区域、站点和子网定义。 如果限制了某个位置的收费旁路，管理员会将该位置的每个 IP 子网和每个 PSTN 网关关联到一个网络站点。 用户的位置由用户的团队终结点在 PSTN 呼叫时连接到的 IP 子网确定。 用户可能有多个团队客户端位于不同的网站，在这种情况下，基于位置的路由会根据其终结点的位置单独强制执行每个客户端的路由。 
 
-若要熟悉本文中使用的一些网络术语，请参阅[团队中的云语音功能的网络设置](cloud-voice-network-settings.md)。
+若要熟悉本文中使用的一些网络术语，请参阅 [团队中的云语音功能的网络设置](cloud-voice-network-settings.md)。
 
 ## <a name="apply-location-based-routing"></a>应用基于位置的路由
 
@@ -132,7 +132,7 @@ ms.locfileid: "46572237"
 
 当涉及 PSTN 终结点时，基于位置的路由会分析是否为基于位置的路由启用一个或两个用户，并确定是否应转移或转发呼叫，具体取决于两个终结点的位置。 
  
-呼叫转接要求启动用户接听呼叫时，呼叫转移不需要应答初始呼叫。 这意味着即使 User1 不在某个位置即可接收入站呼叫，也可以转移呼叫 (请参阅[团队用户从 PSTN 部分接收入站呼叫](#teams-user-receives-an-inbound-call-from-the-pstn)) ，并且如果 User1 无法接收入站呼叫，则无法转移呼叫。 
+呼叫转接要求启动用户接听呼叫时，呼叫转移不需要应答初始呼叫。 这意味着即使 User1 不在某个位置即可接收入站呼叫，也可以转移呼叫 (请参阅 [团队用户从 PSTN 部分接收入站呼叫](#teams-user-receives-an-inbound-call-from-the-pstn)) ，并且如果 User1 无法接收入站呼叫，则无法转移呼叫。 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>用户未启用基于位置的路由
 
@@ -220,8 +220,8 @@ ms.locfileid: "46572237"
 ### <a name="delegation"></a>委派
 
 团队用户可以选择代表自己进行呼叫和接听呼叫的代理人。 团队中的委派功能受基于位置的路由影响，如下所示： 
-- 对于代表委托人进行通话的基于位置的路由启用委派的出站呼叫，应用相同的规则。 呼叫路由基于代理人的呼叫授权策略、语音路由策略和位置。 有关详细信息，请参阅[团队用户将出站呼叫放置到 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)。 
-- 对于入站 PSTN 呼叫委托人进行通话，用于呼叫转接或同时拨打给其他用户的基于位置的路由规则也适用于代理人。 有关详细信息，请参阅[团队用户将呼叫转移或转发给另一个团队用户](#teams-user-transfers-or-forwards-call-to-another-teams-user)，[团队用户将呼叫转移或转移到 PSTN 终结点](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)，[同时拨打](#simultaneous-ringing)。 当代理人将 PSTN 终结点设置为同时拨打的目标时，将使用该代理的语音路由策略将呼叫路由到 PSTN。 
+- 对于代表委托人进行通话的基于位置的路由启用委派的出站呼叫，应用相同的规则。 呼叫路由基于代理人的呼叫授权策略、语音路由策略和位置。 有关详细信息，请参阅 [团队用户将出站呼叫放置到 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)。 
+- 对于入站 PSTN 呼叫委托人进行通话，用于呼叫转接或同时拨打给其他用户的基于位置的路由规则也适用于代理人。 有关详细信息，请参阅 [团队用户将呼叫转移或转发给另一个团队用户](#teams-user-transfers-or-forwards-call-to-another-teams-user)， [团队用户将呼叫转移或转移到 PSTN 终结点](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)， [同时拨打](#simultaneous-ringing)。 当代理人将 PSTN 终结点设置为同时拨打的目标时，将使用该代理的语音路由策略将呼叫路由到 PSTN。 
 - 对于委派，建议委托人进行通话和关联的委派位于同一网络站点。 
 
 ## <a name="other-planning-considerations"></a>其他规划考虑事项
@@ -257,9 +257,13 @@ ms.locfileid: "46572237"
 
 如果要在印度中部署基于位置的路由，则还需要配置 "绕过媒体"。 若要了解详细信息，请参阅使用直接路由和[本地媒体优化进行](direct-routing-media-optimization.md)[媒体绕过的计划](direct-routing-plan-media-bypass.md)，直接路由。
 
+### <a name="direct-voice-over-ip-voip"></a>直接通过 IP (VoIP) 进行语音通话
+
+直接通过 IP (VoIP) 不得与印度的任何电话设备一起部署。
+
 ## <a name="next-steps"></a>后续步骤
 
-转到为[基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)。
+转到为 [基于位置的路由配置网络设置](location-based-routing-configure-network-settings.md)。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 01b042ee5eb604e59044022e3064f522039b4272
-ms.sourcegitcommit: 13b88679f3154c264dd2f01be785d6570276853e
+ms.openlocfilehash: ca9555604cffc99250c17e44aef5edbd1ebdaed7
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "45247381"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864566"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams 中的保留策略
 
@@ -30,12 +30,12 @@ ms.locfileid: "45247381"
 
 默认情况下，团队聊天、频道和文件数据将无限期保留，除非有尝试通过保留策略、用户删除、管理员删除等删除内容。作为管理员，你可以为聊天和频道消息设置团队保留策略，并提前确定是保留数据、删除数据还是在特定时间段内保留数据，然后将其删除。
 
-在[Microsoft 365 合规中心](https://protection.office.com/)中创建和管理团队和其他工作负荷的保留策略，或者使用安全 & 合规性中心 PowerShell cmdlet。 可将 Teams 保留策略应用于整个组织或特定用户和团队。
+在 [Microsoft 365 合规中心](https://protection.office.com/) 中创建和管理团队和其他工作负荷的保留策略，或者使用安全 & 合规性中心 PowerShell cmdlet。 可将 Teams 保留策略应用于整个组织或特定用户和团队。
 
 > [!NOTE]
 > 我们尚不支持保留专用频道消息的配置。 支持保留在私人渠道中共享的文件。
 
-若要了解有关 Microsoft 365 或 Office 365 的保留策略的详细信息，请参阅[保留策略概述](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)。
+若要了解有关 Microsoft 365 或 Office 365 的保留策略的详细信息，请参阅 [保留策略概述](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423)。
 
 ## <a name="what-are-retention-policies-for-teams"></a>什么是团队的保留策略
 
@@ -55,21 +55,21 @@ ms.locfileid: "45247381"
 
 如果数据受保留策略的约束，用户可以继续使用它，因为该数据将保留在其原始位置。 如果用户编辑或删除受策略约束的数据，则副本将保存到该策略生效时保留该副本的安全位置。
 
-保留策略的最低许可要求是 Office 365 E3。 若要了解有关许可的详细信息，请参阅[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+保留策略的最低许可要求是 Office 365 E3。 若要了解有关许可的详细信息，请参阅 [Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="how-teams-retention-policies-work"></a>Teams 保留策略的工作方式
 
-团队聊天内容存储在聊天中每个用户的邮箱中的隐藏文件夹（Teamschat）中，而团队频道消息存储在团队的组邮箱的隐藏文件夹（Teamschat）中。 Teams 使用由 Azure 支持的聊天服务，该服务也会存储此数据，并且默认永久存储。 借助 Teams 保留策略，当你删除数据时，将从 Exchange 邮箱和基础聊天服务中永久删除该数据。
+团队聊天内容存储在 Teamschat 中每个用户的隐藏文件夹中 () 在聊天中的每个用户的邮箱中，而团队频道消息存储在团队的组邮箱中的隐藏文件夹中 () Teamschat。 Teams 使用由 Azure 支持的聊天服务，该服务也会存储此数据，并且默认永久存储。 借助 Teams 保留策略，当你删除数据时，将从 Exchange 邮箱和基础聊天服务中永久删除该数据。
 
-将**保留保留**策略应用到团队聊天或频道邮件时，将发生以下情况：
+将 **保留保留** 策略应用到团队聊天或频道邮件时，将发生以下情况：
 
-- 如果在保留期间，用户在保留期间内编辑或删除了聊天或频道消息，则会将邮件复制（如果已编辑）或移动（如果它已被删除）到 SubstrateHolds 文件夹并存储在该文件夹中，直到保留期到期。 如果将策略配置为在保留期到期时删除数据，则将在保留期到期的当天永久删除消息。
-- 如果**保留**期间用户未删除聊天或频道消息，则邮件将在保留期到期后的一天内移动到 SubstrateHolds 文件夹。 如果将策略配置为在保留期到期时删除数据，则将在消息移至文件夹的一天后永久删除该消息。
+- 如果在保留期间用户在保留期间内编辑或删除了聊天或频道消息，则会将邮件复制 (如果已编辑，则) 或移动 (如果已将其删除) 到 SubstrateHolds 文件夹并存储在保留期。 如果将策略配置为在保留期到期时删除数据，则将在保留期到期的当天永久删除消息。
+- 如果 **保留** 期间用户未删除聊天或频道消息，则邮件将在保留期到期后的一天内移动到 SubstrateHolds 文件夹。 如果将策略配置为在保留期到期时删除数据，则将在消息移至文件夹的一天后永久删除该消息。
 
-将**保留期间删除**策略应用到团队聊天和频道消息时，将发生以下情况：
+将 **保留期间删除** 策略应用到团队聊天和频道消息时，将发生以下情况：
 
-- 当聊天或频道消息过期时，**保留删除**策略（后端服务）超过允许的后端服务可标识已过期的消息并开始将其删除在后端存储（用户或组邮箱）中。
-- 在后端存储中删除一条消息后，将触发一个过程，以便在 Azure 已通电的聊天服务和用户的团队应用中删除相同的消息。 对于要在 "团队" 应用中删除的邮件，应用需要连接到 internet 并处于空闲状态（无用户活动），以便删除过程不会影响用户体验。 由于用户可能有多个设备（可能处于不同状态），因此保留删除不会完全与这些设备同步。
+- 当聊天或频道消息到期时，如果保留消息的年龄超过了 **保留-删除** 策略，后端服务标识已过期消息并开始在后端存储 (用户或组邮箱) 中删除它们。
+- 在后端存储中删除一条消息后，将触发一个过程，以便在 Azure 已通电的聊天服务和用户的团队应用中删除相同的消息。 对于要在 "团队" 应用中删除的邮件，应用需要连接到 internet 并处于空闲状态 (无用户活动) ，因此删除过程不会影响用户体验。 由于用户可能有多个设备（可能处于不同状态），因此保留删除不会完全与这些设备同步。
 - 在后端存储中的消息删除完成后，这些消息将在合规性搜索报告（如电子数据展示）中停止显示。
 
 > [!NOTE]
@@ -92,7 +92,7 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
 
 - Teams 不支持高级保留设置，例如，用于为包含关键字或敏感信息的内容应用策略的功能。 目前，Teams 中的保留策略适用于所有聊天和/或频道消息内容。
 
-- 团队保留策略将触发删除聊天和频道消息的过程（基于邮件创建日期）。 但是，根据服务负载，可能需要长达7天才能永久删除后端存储和团队应用中的这些消息。 此外，这些消息将可通过合规性工具（电子数据展示、最终用户搜索）进行搜索，直至它们被从后端存储中永久删除。
+- 当这些邮件过期时，团队保留策略将触发删除聊天和频道消息的过程， (基于邮件创建日期) 。 但是，根据服务负载，可能需要长达7天才能永久删除后端存储和团队应用中的这些消息。 此外，这些邮件可以使用合规性工具 (电子数据展示、最终用户搜索) ，直至它们被从后端存储中永久删除。
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>多个保留策略和保留原则
 
@@ -133,7 +133,7 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
         ![“选择位置”页面上的“Teams 频道消息”和“Teams 聊天”选项的屏幕截图](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > 团队聊天和频道消息不受应用于**Exchange 电子邮件**或**Microsoft 365 组**位置中的用户或组邮箱的保留策略的影响。 即使 Teams 聊天和频道消息存储在 Exchange 中，它们也仅受到应用于 Teams 位置的保留策略的影响。
+      > 团队聊天和频道消息不受应用于 **Exchange 电子邮件** 或 **Microsoft 365 组** 位置中的用户或组邮箱的保留策略的影响。 即使 Teams 聊天和频道消息存储在 Exchange 中，它们也仅受到应用于 Teams 位置的保留策略的影响。
 
 6. 查看设置，在准备就绪后，选择“**创建此策略**”。
 
@@ -157,13 +157,13 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
 
 ### <a name="end-user-experience"></a>最终用户体验
 
-对于私人聊天（1:1 聊天）或群组聊天，最终用户将看到早于保留策略配置的聊天已删除，并显示一条控制消息，显示 "我们已删除较早的 messaged，因为您的组织的保留策略" 已在尚未删除的邮件上显示。
+对于私人聊天 (1:1 聊天) 或群组聊天，最终用户将看到早于保留策略配置的聊天已删除，并显示一条控制消息，显示 "我们已删除较早的 messaged，因为您的组织的保留策略" 已在尚未删除的邮件上显示。
 :::image type="content" source="media/retention-policies-image1.png" alt-text="聊天保留屏幕截图":::
 
 
 :::image type="content" source="media/retention-policies-image2.png" alt-text="群组聊天保留屏幕截图":::
 
-对于频道消息，最终用户（频道成员）将看到已删除邮件在邮件过期后从视图中消失。 如果已删除邮件是串接对话的父邮件，则在替换父消息时，将显示一条消息，指出 "此消息已被删除，因为保留策略已删除"。
+对于频道消息， (频道成员) 的最终用户将看到邮件过期后，已删除的邮件会从视图中消失。 如果已删除邮件是串接对话的父邮件，则在替换父消息时，将显示一条消息，指出 "此消息已被删除，因为保留策略已删除"。
 
 :::image type="content" source="media/retention-policies-image3.png" alt-text="保留前频道的屏幕截图":::
 
@@ -175,7 +175,7 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-若要使用[安全 & 合规性中心 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)创建和管理团队保留策略，请使用以下 cmdlet：
+若要使用 [安全 & 合规性中心 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)创建和管理团队保留策略，请使用以下 cmdlet：
 
 |策略|规则|
 |---|---|
@@ -192,7 +192,7 @@ Teams 中的保留策略基于聊天或频道消息的创建日期，并且具�
 
 - 在“**Teams 聊天**”位置行中的“**选择用户**”下，你可能会看到来宾和非邮箱用户。 保留策略不是为来宾设置的，我们正致力于从列表中删除来宾。
 
-- Exchange 生命周期助手 (ELC) 每天运行，但其 SLA 为 7 天。 因此，如果你创建了 Teams 保留策略来删除 60 天之前的项目，则这些项目最长可保留 67 天。 这不是新情况 - 它遵循 Exchange 模型。 当然，在大多数情况下，不会出现延迟。
+- Exchange 生命周期助理 (的 ELC) 每天运行，但在某些情况下，时间延迟已运行最长7天。 因此，如果你创建了 Teams 保留策略来删除 60 天之前的项目，则这些项目最长可保留 67 天。 这不是新情况 - 它遵循 Exchange 模型。 当然，在大多数情况下，不会出现延迟。
 
 ## <a name="related-topics"></a>相关主题
 
