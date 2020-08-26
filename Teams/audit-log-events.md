@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 了解如何从 Microsoft 365 合规中心中的审核日志检索 Microsoft 团队数据。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd2dfd883d08b9b42d9d7fef967ff1732e3816a
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: 41fe449a80a9243a9385b6153a8ff18b15332e53
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778004"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897702"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜索事件的审核日志
 
@@ -162,9 +162,9 @@ Cloud App Security 中的[异常检测策略](https://docs.microsoft.com/cloud-a
 
 |友好名称  |操作  |说明  |
 |---------|---------|---------|
-|已添加计划组      |SchedulingGroupAdded          |用户成功将新的计划组添加到计划。          |
-|已编辑的计划组     |SchedulingGroupEdited         |用户成功编辑计划组。          |
-|已删除的日程安排组         |SchedulingGroupDeleted              |用户从计划中成功删除计划组。|
+|已添加计划组 |ScheduleGroupAdded          |用户成功将新的计划组添加到计划。|
+|已编辑的计划组     |ScheduleGroupEdited         |用户成功编辑计划组。          |
+|已删除的日程安排组         |ScheduleGroupDeleted              |用户从计划中成功删除计划组。|
 |已添加班次      |ShiftAdded          |用户成功地添加了班次。           |
 |已编辑班次       |ShiftEdited       |用户成功编辑班次。        |
 |删除的班次          |ShiftDeleted          | 用户成功删除班次。               |

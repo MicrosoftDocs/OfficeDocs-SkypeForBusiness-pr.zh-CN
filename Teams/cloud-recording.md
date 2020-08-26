@@ -16,12 +16,12 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c032745a8476e42ef57a6ce8d746717fcf02708
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
+ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662082"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46897801"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -105,7 +105,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 |                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
 #### <a name="where-your-meeting-recordings-are-stored"></a>会议录像的存储位置
 
-会议录制存储在 Microsoft Stream 云存储空间内。 录制会议后，Microsoft Stream 将永久保留 (或直到录制所有者将其删除) 。 如果录制未上载到流，则会将其存储在团队云存储中，在这里，可以下载20天。 目前，对于 Teams 数据存储在国内的客户而言，如果 Microsoft Stream 在其存放数据的国内数据驻留区域中不可用，则会为其关闭 Teams 会议录制功能。
+会议录制存储在 Microsoft Stream 云存储空间内。 录制保留并可在21天内查看和下载。 目前，对于 Teams 数据存储在国内的客户而言，如果 Microsoft Stream 在其存放数据的国内数据驻留区域中不可用，则会为其关闭 Teams 会议录制功能。 未来，我们将会为数据存储在国内的客户打开会议录制功能，即使 Microsoft Stream 在其国内数据驻留区域中不可用也是如此。
+
+此更改生效后，会议录像将默认存储在最近的 Microsoft Stream 地理区域中。 如果你的 Teams 数据存储在国内，并且你希望在国内存储会议录像，我们建议你关闭该功能，然后在我们将 Microsoft Stream 部署到你所用的国内数据驻留区域后再将其打开。 若要为组织中的所有用户关闭该功能，请在 "全局团队会议策略" （位于 Microsoft 团队管理中心）中关闭 " **允许云录制** " 设置。
+
+下面总结了当你在此更改生效后打开会议录制时会发生的情况：
+
+|如果打开会议录制 .。。|会议录像的存储位置 |
+|---|---|
+|在您的国内数据派驻区域中使用 Microsoft Stream 之前 |在最接近的 Microsoft Stream 区域中|
+|Microsoft Stream 在您的国内数据派驻区域中可用后 |在您所在国家/地区内数据派驻区域|
+
+对于尚未开启会议录制的新增和现有租户，当 Microsoft Stream 在国内数据驻留区域中可用后，新录制的内容将存储在国内。 但是，在 Microsoft Stream 在国内数据派驻区域中可用之前启用会议录制的任何租户将继续使用 Microsoft Stream 存储（对于现有的和新的录制），即使 Microsoft Stream 在国内数据派驻区域中可用。
 
 若要查找你的 Microsoft Stream 数据的存储区域，请在 Microsoft Stream 中单击右上角的 **?**， 单击“**关于 Microsoft Stream**”，然后单击“**您的数据存储于**”。  若要深入了解 Microsoft Stream 存储数据的区域，请参阅 [Microsoft Stream 常见问题解答](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)。
 
