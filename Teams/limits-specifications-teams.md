@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b33122b07723e46e0dfec5b342f40d7581fab8fe
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: daeacf5e5019dd8b63ef19b194b241cbdfe9d84f
+ms.sourcegitcommit: 0e96539e3efef21ae6150f541efaeca3f9149aea
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672753"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "46864506"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -180,6 +180,26 @@ Microsoft Teams 中的每个团队在 SharePoint Online 中都有一个团队网
 频道由 SharePoint Online 网站集中专为团队创建的文件夹提供支持，因此频道中的文件选项卡共同享有其所属的团队的存储空间限额。
 
 有关详细信息，请参阅 [SharePoint Online 限制](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498)。
+
+## <a name="class-teams"></a>课堂团队
+
+Microsoft Teams 教育版提供了专为独特教育场景设计的模板，如课堂教学。 有关团队类型的详细信息（包括课堂团队），可在“[在 Microsoft Teams 中选择团队类型进行协作](https://support.microsoft.com/office/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)”中找到。
+
+课堂团队是一种模板类型，其中包含附加应用，且具有单独限制团队成员数量的功能。
+
+> [!NOTE]
+> 使用课堂团队需要 [Office 365 教育版许可证](https://www.microsoft.com/education/products/office)。
+
+下表列出了课堂团队的限制：
+
+|功能  |最大限制  |
+|---------|---------|
+|团队中的成员数    | 请参阅本文的[“团队和频道”](#teams-and-channels)部分        |
+|课堂团队中使用“作业”的成员数    | 200        |
+|课堂团队中使用“OneNote 课堂笔记本”的成员数     |200         |
+
+课堂团队可以支持超过 200 位成员。 但是，如果你计划在你的团队中使用“作业”应用或“课堂笔记本”应用，则需要保留低于最大限制的成员数。
+
 
 ## <a name="tags"></a>标记
 

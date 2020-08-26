@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或 EDU 设置中的策略，以及如何在 Microsoft Teams 中使用和管理策略包。
-ms.openlocfilehash: b395005dd8e997d296c56b055fff29f2c1636180
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533899"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868701"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>面向教育的 Teams 策略和策略包
 
@@ -74,7 +74,9 @@ Microsoft Teams 的核心是使用户能够执行诸如参加会议或实时事�
 默认情况下，将为每个新用户（学生或教师）分配每个功能区域的全局（组织范围默认）策略定义。 建议按照下列步骤操作：
 
 1. 为每个 Teams 功能区域创建一个自定义策略定义，然后可以将其分配给教师（如果不这样做，则你对全局策略所做的任何更改都会限制教师，直到他们拥有自己的策略为止）。
+
 1. 将教师分配给新的策略定义。
+
 1. 更新全局（组织范围默认）策略定义，然后将其分配给学生。
 
 若要创建或编辑策略定义，请转到要使用的策略功能区域（例如，消息传递策略）。 如果想要创建新的自定义策略定义（将为针对教师创建的自定义策略定义执行此操作），请选择“**添加**”。 或者，若要更改现有策略定义，请选择“**编辑**”（如果选择为学生更新全局策略，则会执行此操作）。
@@ -155,26 +157,52 @@ Microsoft Teams 当前包含以下策略包：
 若要确保学生无法安排会议来进行无人参与的通信，可通过以下常规设置将会议策略设置为**关闭**会议创建功能：
 
 - **允许在频道中立即开会**：关闭
+
 - **允许 Outlook 加载项**：关闭
+
 - **允许安排频道会议**：关闭
+
 - **允许安排私人会议**：关闭
 
-![远程学习页面上的教育学生，显示“常规”部分，此处的所有选项均已关闭。](media/edu-policy-list-a.png)
+  ![远程学习页面上的教育学生，显示“常规”部分，此处的所有选项均已关闭。](media/edu-policy-list-a.png)
 
 - 在同一页面上，在会议部分中的“参与者和来宾”中：
+
   - **允许在私人会议中立即开会**：关闭
   - **允许在会议中聊天**：已禁用
 
-![“参与者和来宾”部分，“允许在私人会议中立即开会”设置为“关闭”。](media/edu-participants-and-guests.png)
+  ![“参与者和来宾”部分，“允许在私人会议中立即开会”设置为“关闭”。](media/edu-participants-and-guests.png)
 
 为学生关闭“**允许在频道中立即开会**”、“**允许安排频道会议**”、“**允许安排私人会议**”和“**在私人会议中立即开会**”，不仅可阻止学生以组织者身份安排会议，还可为教育客户提供以下安全措施：
 
 - 如果学生尝试在教师之前加入会议，则他们将无法在最新版本的 Teams 应用中加入会议。
+
 - 尽管会议创建适用于任何用户和任何许可证，但是上述有关会议加入阻止的安全措施仅基于用户的许可证类型应用于 Teams 中的教育客户。
+
+下面的表格介绍了每个会议创建策略的逻辑：
+
+| 会议创建策略 | 创建会议 | 召开无人参与的会议 | 加入时绕过会议厅 | 结束会议 |
+| --- | --- | --- | --- | --- |
+| **开启（例如，教师）** | 是 | 是 | 由[会议选项](https://go.microsoft.com/fwlink/?linkid=2093366)决定 | 是，作为组织者
+| **关闭（例如，学生）** | 否 | 没有\*\* | 由[会议选项](https://go.microsoft.com/fwlink/?linkid=2093366)决定 | 否
+
+> [!NOTE]
+> \*\* 这仅适用于 EDU 许可用户，并且适用于会议、频道会议、即时会议和即时频道会议。
 
 如果你将“**允许在会议中聊天**”策略更改为禁用，并阻止学生从上方安排会议，但是继续对教育工作者启用此策略时（对于不是从某个频道或频道中的“立即开会”安排的会议），则学生将无法在教师加入会议之前进行聊天，也不能在会议结束后进行聊天。 他们仍然可以在会议之前、期间和之后查看历史聊天记录。 例如，他们将能够查看来自老师的消息或会议录制链接（如果录制了会议）。
 
 如果学生和教师都禁用了“**允许在会议中聊天**”策略，则任何人都无法在会议聊天窗口中聊天。 上述关于会议聊天限制的安全措施仅基于用户的许可类型应用于 Teams 中的教育客户。
+
+下面的表格介绍了允许在会议中聊天的逻辑：
+
+| “允许在会议中聊天”策略 | 随时查看历史聊天记录 | 在会议期间发布消息 | 在会议前后发布消息 |
+| --- | --- | --- | --- | 
+| **全部开启** | 是 | 是 | 是 |
+| **全部关闭** | 不适用 | 不适用 | 不适用 |
+| **对教师开启，而对学生关闭** | 教师：是<br>学生是 | 教师：是<br>学生是 | 教师：是<br>学生否\*\* | 
+
+> [!NOTE]
+> \*\* 这仅适用于 EDU 许可用户，并且适用于会议和即时会议。 它不适用于任何频道会议和即时频道会议。
 
 #### <a name="control-whether-or-not-students-can-share-their-videos-during-calls-and-meetings"></a>控制学生是否可以在通话和会议期间分享他们的视频
 
@@ -209,14 +237,17 @@ Microsoft Teams 当前包含以下策略包：
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>关闭删除或编辑已发送消息的功能
 
 - 对于学生：若要确保学生发送的消息未被删除或更改，学生应将以下设置设为“**关闭**”：
+
   - **删除已发送的消息**
   - **编辑已发送的消息**
+  
 - 对于教师：若要确保教师能够审查或删除学生发送的不适当消息，教师应将以下设置设为“**打开**”：
+
   - **所有者可以删除已发送的消息**（此设置允许教师删除不适当的学生消息）
   - **删除已发送的消息**
   - **编辑已发送的消息**
 
-![远程学习页面中的教育学生，学生和教师的已发送消息设置。](media/edu-delete-edit-sent.png)
+  ![远程学习页面中的教育学生，学生和教师的已发送消息设置。](media/edu-delete-edit-sent.png)
 
 > [!NOTE]
 > 有关此主题的详细信息，请查看[将课堂团队中的学生设为静音](https://support.office.com/article/Mute-student-comments-in-a-class-team-a378de16-ffc0-420c-b08d-e17ec08e7c17)。
@@ -254,7 +285,7 @@ Microsoft Teams 当前包含以下策略包：
 ![Teams 策略页面，“新建团队策略”面板重叠在页面右侧，该面板上的“创建专用频道”设置为“关闭”。](media/edu-private-channels.png)
 
 > [!IMPORTANT]
-> 你可能还希望确保学生无法在 Microsoft Teams 中创建新团队。 这实际上是一个 M365 组设置，可在[此处](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)了解更多信息。
+> 你可能还希望确保学生无法在 Microsoft Teams 中创建新团队。 这实际上是 M365 组设置，你可以在 [管理谁可创建 Microsoft 365 组](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)中阅读到更多相关信息。
 
 ### <a name="app-permission-policies"></a>应用权限策略
 
@@ -312,7 +343,9 @@ Microsoft Teams 当前包含以下策略包：
 ![加入 Microsoft Teams 会议邀请，“会议选项”位于邀请链接下方的最右边。](media/edu-join-meeting-options.png)
 
 - 通过“**谁可以绕过大厅**”部分来控制谁可以直接进入会议。 将其设置为“**我组织中的人员**”以防止外部用户有选项进入，然后将“**始终允许呼叫者绕过大厅**”设置为“**关闭**”，以使参与者等待准许加入会议，而不是立即加入会议。 你还可以选择“**在呼叫方加入或退出会议时通知**”，并且应将其设置为“**打开**”，以便你始终了解哪些人出席会议。
+
 - 控制作为演示者或与会者加入会议的人员。 可以选择“**仅我**”来指定所有其他参与者为与会者。 对于在课堂环境中举行的会议，这是最安全的设置。
+
   - 如果希望会议中有多个演示者，请选择“**特定用户**”，然后选择应作为演示者加入的其他参与者。 如果希望所有参与者都作为演示者加入会议，请选择“**所有人**”。
 
 :::image type="content" source="media/edu-meeting-options.png" alt-text="“谁可以绕过大厅”下拉列表并选中“我组织中的人员”，“谁可进行演示”下拉列表并选中“仅我”。":::
@@ -339,11 +372,11 @@ Microsoft Teams 当前包含以下策略包：
 
 - 要更改参与者的角色，请在通话控件中单击或点击“**显示参与者**”。 右键单击需要更改其角色的参与者，然后选择“**设为与会者**”或“**设为演示者**”。
 
-![“人脉”栏，显示一个菜单选项，“设为与会者”是菜单上的第四个选项。](media/edu-make-attendee-menu.png)
+  ![“人脉”栏，显示一个菜单选项，“设为与会者”是菜单上的第四个选项。](media/edu-make-attendee-menu.png)
 
 - 要快速访问你的会议选项并更改当前参与者和将来加入会议的任何人的会议角色设置，请在通话控件中单击或点击“**更多操作**”，然后单击“**显示会议详细信息**”。 可在会议的加入链接附近找到指向“**会议选项**”的链接。
 
-:::image type="content" source="media/edu-meeting-details.png" alt-text="会议窗口，右侧为会议详细信息窗格。":::
+  :::image type="content" source="media/edu-meeting-details.png" alt-text="会议窗口，右侧为会议详细信息窗格。":::
 
 ### <a name="mute-student-comments"></a>将学生评论静音
 
@@ -367,4 +400,4 @@ Microsoft Teams 当前包含以下策略包：
 
 ## <a name="further-reading"></a>延伸阅读
 
-请查看[使用 Teams 会议进行远程学习时保证学生安全](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)，了解有关保护学生的详细信息。
+若要了解有关保护学生的详细信息，请查看[使用 Teams 会议进行远程学习时保证学生安全](https://support.office.com/article/keeping-students-safe-while-using-meetings-in-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)。
