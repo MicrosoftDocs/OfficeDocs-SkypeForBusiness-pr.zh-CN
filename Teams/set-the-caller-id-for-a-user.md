@@ -1,7 +1,7 @@
 ---
 title: 为用户设置来电显示
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 了解 Microsoft 365 和 Office 365 默认呼叫方 ID （用户分配的电话号码），也称为呼叫线路 ID。 你可以更改或阻止用户的呼叫者 ID。
-ms.openlocfilehash: 059e92f04f3d4a5df73ed9201f1f784f2bd01f30
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 了解 Microsoft 365 和 Office 365 默认呼叫方 ID (用户分配的电话号码) ，也称为呼叫线路 ID。 你可以更改或阻止用户的呼叫者 ID。
+ms.openlocfilehash: 3c39497618927c20d1103b9aaaec82960a06d56c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691118"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255425"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
-Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示，即用户分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 通过转到如何[在组织](how-can-caller-id-be-used-in-your-organization.md)中使用来电显示，您可以了解有关如何在您的组织中使用来电显示的详细信息。
+Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示，即用户分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 通过转到如何 [在组织](how-can-caller-id-be-used-in-your-organization.md)中使用来电显示，您可以了解有关如何在您的组织中使用来电显示的详细信息。
   
 > [!TIP]
 > 不能阻止当前在 Skype for Business Online 中的传入呼叫。 
@@ -45,9 +45,9 @@ Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示
     > [!NOTE]
     > [!注释] 如果要使用  _Service_ 参数，必须指定有效的服务号码。
   
-- **阻止其出站呼叫者 ID**你可以阻止传出呼叫者 ID 在用户的传出 PSTN 呼叫上发送。 执行此操作将阻止其电话号码显示在被呼叫者的电话上。
+- **阻止其出站呼叫者 ID** 你可以阻止传出呼叫者 ID 在用户的传出 PSTN 呼叫上发送。 执行此操作将阻止其电话号码显示在被呼叫者的电话上。
     
-- **阻止其来电呼叫者 ID**你可以阻止用户在任何传入 PSTN 呼叫上接收来电显示。
+- **阻止其来电呼叫者 ID** 你可以阻止用户在任何传入 PSTN 呼叫上接收来电显示。
     
 > [!IMPORTANT]
 > [!重要信息] 紧急呼叫始终发送用户的电话号码（来电显示号码）。 
@@ -59,7 +59,7 @@ Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示
 ## <a name="set-your-caller-id-policy-settings"></a>设置你的来电显示策略设置
 
 > [!NOTE]
-> 对于 Skype for Business Online 中的所有来电显示设置，必须使用 Windows PowerShell，并且**不能使用** **Skype for business 管理中心**。 
+> 对于 Skype for Business Online 中的所有来电显示设置，必须使用 Windows PowerShell，并且 **不能使用** **Skype for business 管理中心**。 
   
 ### <a name="verify-and-start-windows-powershell"></a>验证并启动 Windows PowerShell
 
@@ -69,11 +69,11 @@ Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
+3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
     
 4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
     
-    如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
+    如果需要了解详细信息，请参阅 [在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **启动 Windows PowerShell 会话**
     
@@ -91,7 +91,7 @@ Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示
     Import-PSSession $session
    ```
 
-如果需要有关启动 Windows PowerShell 的详细信息，请参阅[在单个 Windows powershell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[设置适用于 windows powershell 的计算机](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+如果需要有关启动 Windows PowerShell 的详细信息，请参阅 [在单个 Windows powershell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx) 或 [设置适用于 windows powershell 的计算机](/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
     
 ### <a name="see-all-of-the-caller-id-policy-settings-in-your-organization"></a>查看你组织中的所有来电显示策略设置
 
@@ -100,7 +100,7 @@ Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示
   ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  有关 CsCallingLineIdentity 的详细信息，请参阅[获取](https://technet.microsoft.com/library/mt793856.aspx)更多示例和详细信息。
+  有关 CsCallingLineIdentity 的详细信息，请参阅 [获取](https://technet.microsoft.com/library/mt793856.aspx)更多示例和详细信息。
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>为你的组织创建新的来电显示策略
 
@@ -113,7 +113,7 @@ Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示
   > [!NOTE]  
   > 在所有情况下，在"服务号码"字段不应包含初始"+"。
 
-  有关详细信息，请参阅[CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx)的更多示例和详细信息。
+  有关详细信息，请参阅 [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx)的更多示例和详细信息。
     
 - 若要将您创建的新策略应用于 Amos 大理石，请运行：
     
@@ -122,7 +122,7 @@ Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示
   ```
   请参阅有关 [Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet 的更多信息。
     
-如果你已创建策略，你可以使用[CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) cmdlet 对现有策略进行更改，然后使用[CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet 将设置应用到你的用户。
+如果你已创建策略，你可以使用 [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) cmdlet 对现有策略进行更改，然后使用 [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) cmdlet 将设置应用到你的用户。
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>对其进行设置以阻止传入来电显示
 
@@ -131,7 +131,7 @@ Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  请参阅[CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx)的更多示例和详细信息。
+  请参阅 [CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx)的更多示例和详细信息。
     
 - 若要将您创建的策略设置应用于您的组织中的用户，请运行：
     

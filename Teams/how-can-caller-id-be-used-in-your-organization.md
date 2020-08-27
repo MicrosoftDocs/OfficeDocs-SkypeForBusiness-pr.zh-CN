@@ -1,7 +1,7 @@
 ---
 title: 如何在你的组织中使用来电显示
-author: CarolynRowe
-ms.author: crowe
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: mikedav, roykuntz
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 呼叫方 ID 可以通过使用名为 CallingLineIdentity 的策略控制电话系统用户的入站和出站呼叫。
-ms.openlocfilehash: 5c20f439d156997c89ca54c2a3bf39e9c3a42ae4
-ms.sourcegitcommit: ded1e92348b6c18aa31f7f67e68ced3db525977d
+ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46506195"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255445"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>如何在你的组织中使用来电显示
 
@@ -60,7 +60,7 @@ ms.locfileid: "46506195"
     
 但你不能为出站来电显示分配以下类型的电话号码：
   
-- 在您的通话计划中分类为*用户*的任何电话号码，电话号码库存
+- 在您的通话计划中分类为  *用户*  的任何电话号码，电话号码库存
     
 - Skype for Business Server 内部部署电话号码
     
@@ -68,9 +68,9 @@ ms.locfileid: "46506195"
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>终端用户对出站呼叫程序 ID 的控制
 
-EnableUserOverride 属性允许单个或多个用户将其来电显示设置更改为**匿名**。 仅当 CallingLineIdentity 策略配置了 CallingIDSubstitute 参数 LineURI 或 Substitute 时适用。 EnableUserOverride 的默认值是 False。
+EnableUserOverride 属性允许单个或多个用户将其来电显示设置更改为 **匿名**。 仅当 CallingLineIdentity 策略配置了 CallingIDSubstitute 参数 LineURI 或 Substitute 时适用。 EnableUserOverride 的默认值是 False。
   
-最终用户可以使用 Skype for Business 桌面客户端中的 "**设置**" 选项卡将其来电显示设置为**匿名**，选择 "**调用最终用户**（如果由管理员启用）"，然后选择 **"隐藏所有呼叫的电话号码和配置文件信息**"。 在团队中，用户可以在右上角转到其个人资料图片，选择 "**设置**  >  **呼叫**"，然后在 "**来电**显示" 下，选择 "**隐藏所有呼叫的电话号码和配置文件信息**"。
+你的最终用户可以使用 Skype for Business 桌面客户端中的 "**设置**" 选项卡将其来电显示设置为**匿名**，选择 "如果由管理员) 启用了**终端用户** (，请选择" 对**所有呼叫隐藏我的电话号码和配置文件信息**"。 在团队中，用户可以在右上角转到其个人资料图片，选择 "**设置**  >  **呼叫**"，然后在 "**来电**显示" 下，选择 "**隐藏所有呼叫的电话号码和配置文件信息**"。
   
 ||||
 |:-----|:-----|:-----|

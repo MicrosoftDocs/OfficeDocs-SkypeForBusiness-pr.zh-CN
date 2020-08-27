@@ -20,12 +20,12 @@ description: 你的 Teams 管理员或 IT 管理员可以为其他域配置外�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b3d6eafe5f2ab5989e5b21a060901dc317332127
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: a8139c01f5e79eab451abc1eb47a97c94849147a
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897822"
+ms.locfileid: "47255415"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 ======================================================
@@ -43,7 +43,7 @@ ms.locfileid: "46897822"
 - 你希望世界各地使用 Teams 的所有其他人都能够通过使用你的电子邮件地址找到并联系你。 
 
 > [!IMPORTANT]
-> 目前，若要在 Microsoft Teams 应用中联合组织之外的外部用户（即，当前不是你的 Azure Active Directory (Azure AD) 或租户的来宾），你必须已正确设置以便进行混合，并已移至 Skype for Business Online。 从2019年2月25日起，团队不支持不带 SIP 档案用户在 Skype for business Online 中托管的 **本机** 联合身份验证。 有关设置帐户以便进行混合以及随后移至 Teams 的详细信息，请参阅 [将 Skype for Business 混合部署升级到 Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)。
+> 若要使用团队客户端与外部用户通信 (无论该用户使用的是团队还是 Skype for business) ，团队用户必须托管在 Skype for business Online 中。
 
 ## <a name="plan-for-external-access"></a>规划外部访问
 
@@ -67,7 +67,7 @@ ms.locfileid: "46897822"
 
 2. 启用“**用户可以与其他 Skype for Business 和 Teams 用户通信**”设置。
 
-     ![已启用“用户可以与其他 Skype for Business 和 Teams 用户通信”设置的屏幕截图](media/manage-external-access-2.png)。
+     ![已启用“用户可以与其他 Skype for Business 和 Teams 用户通信”设置的屏幕截图](media/manage-external-access-2.png).
 
 3. 如果想要允许所有 Teams 组织与你组织中的用户进行通信，请跳到步骤 5。
 
@@ -112,17 +112,38 @@ ms.locfileid: "46897822"
 
 ## <a name="common-external-access-scenarios"></a>常见外部访问情形
 
-|**如果希望....**  |**要执行的操作**  |
-|---------|-----------------------|
-|让你组织中的 **Teams 用户**与另一个（外部）组织中的 **Teams 用户**进行通信。|在“外部访问”中，将外部域添加到“已允许”列表或使用开放式联合身份验证。 然后让另一个 Teams 组织中的管理员执行相同的操作。      |
-|让你组织中的 **Teams 用户**与同一组织中的 **Skype for Business Online 用户**进行通信。  |启用共存模式或选择并行升级模式来支持你组织中的 Skype for Business 用户。   |
-|让你组织中的 **Teams 用户**与另一个（外部）组织中的 **Skype for Business Online 用户**进行通信。      |在“外部访问”中，将外部域添加到“已允许”列表或使用开放式联合身份验证。 <br><br>在“外部访问”中启用“**用户可以与其他 Skype for Business 和 Teams 用户通信**”设置。 然后让另一个 Teams 组织中的管理员执行相同的操作。 <br><br>**注意**：具有 Skype for Business 用户的外部域必须启用共存模式或选择并行升级模式来支持该组织中的 Skype for Business 用户。|
-|让组织中的 **团队用户** 与其他 (外部) 组织中的 **Skype for business 本地用户** 进行通信。      |在“外部访问”中，将外部域添加到“已允许”列表或使用开放式联合身份验证。 <br><br>在“外部访问”中启用“**用户可以与其他 Skype for Business 和 Teams 用户通信**”设置。 然后，让其他组织中的管理员配置 Skype for Business 本地服务器，以允许与你的域进行联盟。|
-|让你组织中的 **Teams 用户**与 **Skype** 用户进行通信。<br>  |在“外部访问”中启用“**用户可与 Skype 用户通信**”设置。 |
-|让 **Skype For Business Online 用户** 与其他 Microsoft 365 或 Office 365 中的 **团队用户** 进行通信。| 如果你的 Skype for Business Online 用户处于以下升级模式之一：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，而另一个组织的 Teams 用户处于 TeamsOnly 模式，那么你的用户可以与另一个组织中的 Teams 用户进行通信。 <br><br>在“外部访问”中启用“**用户可以与其他 Skype for Business 和 Teams 用户通信**”设置。 然后让另一个 Teams 组织中的管理员执行相同的操作。|
-|让 **skype For Business online 用户** 与其他 Microsoft 365 或 Office 365 中的 **Skype for business online 用户** 进行通信。    | 如果你的 Skype for Business Online 用户处于以下升级模式之一：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，而另一个组织的 Skype for Business Online 用户处于以下升级模式之一：Islands、SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings，那么你的用户可以与另一个组织中的 Skype for Business Online 用户进行通信。<br><br>在“外部访问”中启用“**用户可以与其他 Skype for Business 和 Teams 用户通信**”设置。 然后让另一个 Teams 组织中的管理员执行相同的操作。|
-|让你的 **Skype for Business Online 用户**与本地组织中的 **Skype for Business 用户**进行通信。     |如果你的用户处于以下升级模式之一，则你的 Skype for Business Online 用户可以与本地组织中的 Skype for business 用户进行通信： SfBOnly、SfBWIthTeamsCollab、SfBWithTeamsCollabAndMeetings。 <br><br> 在“外部访问”中启用“**用户可以与其他 Skype for Business 和 Teams 用户通信**”设置。 然后，让其他组织中的管理员配置 Skype for Business 本地服务器，以允许与你的域进行联盟。|
-|让你的 **Skype for Business Online 用户** 与 **Skype 用户**（在你组织的内部或外部）进行通信。   |在“外部访问”中启用“**用户可与 Skype 用户通信**”设置。|
+以下各部分介绍了如何为常见的外部访问方案启用联盟，以及 TeamsUpgradePolicy 如何确定传入聊天和呼叫的传递。
+
+### <a name="enable-federation"></a>启用联盟
+
+若要使组织中的用户能够与其他组织中的用户通信，两个组织都必须启用联盟。 为给定组织启用联盟的步骤取决于组织是纯联机、混合还是纯内部部署。
+
+|**如果您的组织是** |**启用联盟，如下所示**  |
+|:---------|:-----------------------|
+|在线，无本地 Skype for Business。 这包括具有 TeamsOnly 用户和/或 Skype for business Online 用户的组织。| 如果使用团队管理中心，请执行以下操作： <br>-确保 **用户可以与其他 Skype For business 和团队通信用户** 已启用外部访问中的 "用户" 设置。<br>-如果你未使用开放联合 (它允许与任何其他域) 联盟，则将外部域添加到 "允许" 列表。<br><br>如果使用 PowerShell：<br>-确保已启用 "联盟" 的租户： `Get-CsTenantFederationConfiguration` 必须显示 `AllowFederatedUsers=true` 。 <br>-确保用户拥有的有效值 `CsExternalAccessPolicy` `EnableFederationAccess=true` 。<br>-如果你未使用开放联盟，请确保目标域已在的中 `AllowedDomains` 列出 `CsTenantFederationConfiguration` 。 |
+|纯内部部署 | 在本地工具中： <br>-确保在中启用联盟 `CsAccessEdgeConfiguration` 。<br>-确保通过 `ExternalAccessPolicy` "全局策略"、"网站策略" 或 "用户分配的策略") 启用用户的联盟 (。 <br> -如果你未使用开放联盟，请确保中列出了目标域 `AllowedDomains` 。 |
+|在 Skype for Business 或团队) 和某些本地用户的联机 (中混合与某些用户进行混合。 | 针对联机组织和本地组织执行上述步骤。 |
+
+### <a name="delivery-of-incoming-chats-and-calls"></a>传送传入聊天和通话 
+
+来自联合组织的传入聊天和呼叫将位于用户的团队或 Skype for business 客户端中，具体取决于 TeamsUpgradePolicy 中的收件人用户模式。
+
+|**如果要** |**执行此操作：**  |
+|:---------|:-----------------------|
+| 确保传入联盟聊天和通话到达用户的团队客户端： | 将您的用户配置为 TeamsOnly。
+| 确保传入联盟聊天和通话到达用户的 Skype for Business 客户端 | 将你的用户配置为处于除 TeamsOnly 之外的任何模式。 |
+
+
+### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>在你的组织中的用户和 Skype 的消费者用户之间启用联盟
+
+在您的组织中的用户和 Skype 的消费者用户之间启用联盟：
+
+|**如果您的组织是** |**启用消费者联盟，如下所示**  |
+|:---------|:-----------------------|
+| 无本地 Skype for business 的纯在线版。  这包括具有 TeamsOnly 用户和/或 Skype for business Online 用户的组织。 | 如果使用团队管理中心，请执行以下操作： <br>-确保 **用户可以与 Skype 用户进行通信** 在外部访问中启用。<br><br>如果使用 PowerShell： <br>-确保已启用 "联盟" 的租户： `Get-CsTenantFederationConfiguration` 必须显示 `AllowPublicUsers=true` 。 <br> -确保用户拥有的有效值 `CsExternalAccessPolicy` `EnablePublicCloudAccess=true` 。 |
+| 纯内部部署 | 在本地工具中： <br> -确保已将 Skype 用作联盟合作伙伴。 <br> - `EnablePublicCloudAccess=true` 通过 `ExternalAccessPolicy` "全局策略"、"网站策略" 或 "用户分配的策略") ，确保用户通过 (。|
+| 在 Skype for Business 或团队) 和某些本地用户的联机 (中混合与某些用户进行混合。| 针对联机组织和本地组织执行上述步骤。
+
 
 > [!IMPORTANT]
 > 你无需添加任何 **Skype 域**作为允许的域，就可以使 Teams 或 Skype for Business Online 用户与你组织内部或外部的 Skype 用户进行通信。 所有 **Skype 域**均列入允许列表，这意味着所有这些域均被视为“已允许”。

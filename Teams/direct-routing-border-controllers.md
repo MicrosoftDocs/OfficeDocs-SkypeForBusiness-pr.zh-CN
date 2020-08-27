@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解 (SBCs) 已认证直接路由的会话边框控制器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3aa35fe23796f3ee248e2797aba86c9982aa8364
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: cf37165459d1d9f492b74cf9f0000eec45c632f2
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788716"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255365"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -78,6 +78,7 @@ Microsoft 与每位供应商协作：
 |                                   |     1000V 系列云服务路由器 (多维数据集) 的 Cisco 统一边框元素       |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     1000系列聚合服务路由器 (多维数据集) 的 Cisco 统一边框元素      |     &#10004;   |  |      IOS XE 阿姆斯特丹 17.2.1 r      |    <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    适用于企业 ( ASBCE 的 Avaya 会话边框控制器)     |     &#10004;     |           |       发布8.1。1       |     |    | 
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 会话边界控制器    |     &#10004;     |           |       19.5 (1908)        |     |    | 
 
 <br/>
 <br/>

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在淘汰 Exchange 统一消息联机 (ExchUMO) service，2020年2月28日。 本文总结了受影响的客户应了解的内容，并将为其规划业务连续性而执行此操作。
-ms.openlocfilehash: e01bae468a459ef5013aa72eee74ed4cb015cddc
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897812"
+ms.locfileid: "47255435"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
@@ -150,7 +150,6 @@ Microsoft 365 和 Office 365 组织管理员需要在 Microsoft 云自动助理�
 | VMNETWORK | 用户功能 | 禁用用户的用户设置 |  | N | Y    |
 | VMNETWORK | 用户功能 | 听录  |  | Y | Y    |
 | VMNETWORK | 用户功能 | MWI (邮件等待指示器) 使用 SIP 通知邮件 |  | N | Y    |
-| VMNETWORK | 用户功能 | 所有终结点上的视觉语音邮件   | 在所有受支持的终结点上播放、删除、邮件等待通知和状态切换的用户控件  | Y | Y    |
 | VMNETWORK | 用户功能 | Outlook 中的 MP3 音频文件格式    |  | Y | Y    |
 | VMNETWORK | 用户功能 | 变速播放控制 |  | Y | Y    |
 | VMNETWORK | 用户功能 | 转发语音邮件  | 将接收到的语音邮件转发给其他用户 | Y | Y    |

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的呼叫寄存和取回
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 04/12/2019
 ms.reviewer: srividhc
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 了解如何使用呼叫驻留和检索在云中的团队服务中将呼叫置于保持状态。
-ms.openlocfilehash: 8c6f275ea1b1aac9bfa011fba76d17aeb1811e10
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1fddc7acb6d670515fd5903731fab7cacd319f80
+ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582649"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "47255535"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams 中的呼叫寄存和取回
 
@@ -40,11 +40,11 @@ ms.locfileid: "46582649"
 - 支持代表负责客户呼叫，并在团队频道上发送公告以检索呼叫和帮助客户。 专家输入团队客户的代码以检索呼叫
 
 > [!IMPORTANT]
-> 此功能仅适用于 "仅限团队" 部署模式。 有关团队部署模式的详细信息，请参阅[了解 Microsoft 团队和 Skype For business 共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> 此功能仅适用于 "仅限团队" 部署模式。 有关团队部署模式的详细信息，请参阅 [了解 Microsoft 团队和 Skype For business 共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>需要许可证
 
-若要寄存和检索呼叫，用户必须是企业语音用户，并且管理员必须向用户授予呼叫寄存策略。 有关许可模型的详细信息，请参阅[Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
+若要寄存和检索呼叫，用户必须是企业语音用户，并且管理员必须向用户授予呼叫寄存策略。 有关许可模型的详细信息，请参阅 [Microsoft 团队服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="call-park-and-retrieve-feature-availability"></a>呼叫寄存和检索功能可用性
 
@@ -58,31 +58,31 @@ ms.locfileid: "46582649"
 
 ## <a name="configure-call-park-and-retrieve"></a>配置通话寄存和检索
 
-只有管理员才能配置呼叫寄存和检索，并且默认情况下禁用该功能。 你可以为用户启用它，并使用呼叫寄存策略创建用户组。 将同一策略应用到一组用户时，他们可以在其自身间停止和检索呼叫。 若要为用户配置呼叫寄存和创建呼叫寄存用户组，请按照下面的[分配呼叫寄存策略](#assign-a-call-park-policy)流程操作。
+只有管理员才能配置呼叫寄存和检索，并且默认情况下禁用该功能。 你可以为用户启用它，并使用呼叫寄存策略创建用户组。 将同一策略应用到一组用户时，他们可以在其自身间停止和检索呼叫。 若要为用户配置呼叫寄存和创建呼叫寄存用户组，请按照下面的 [分配呼叫寄存策略](#assign-a-call-park-policy) 流程操作。
 
-有关如何使用通话寄存和检索功能的信息，请参阅[在团队中寄存通话](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)。
+有关如何使用通话寄存和检索功能的信息，请参阅 [在团队中寄存通话](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)。
 
 ### <a name="enable-a-call-park-policy"></a>启用呼叫寄存政策
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **呼叫驻留策略**"。
-2. 选择 "**添加**"。
-3. 为策略命名，然后将 "**允许呼叫寄存**" 切换为 **"开"**。
-4. 选择 "**保存**"。
+2. 选择 " **添加**"。
+3. 为策略命名，然后将 " **允许呼叫寄存** " 切换为 **"开"**。
+4. 选择 " **保存**"。
 
 #### <a name="using-powershell"></a>使用 PowerShell
 
-请参阅[新-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)。
+请参阅 [新-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)。
 
 ### <a name="edit-a-call-park-policy"></a>编辑呼叫寄存政策
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **呼叫驻留策略**"。
-2. 通过单击策略名称左侧，然后单击 "**编辑**"，选择策略。
+2. 通过单击策略名称左侧，然后单击 " **编辑**"，选择策略。
 3. 切换**允许呼叫寄存**为**Off** "关 **" 或 "开"**。
 4. 单击“**保存**”。
 
 #### <a name="using-powershell"></a>使用 PowerShell
 
-请参阅[设置-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)。 例如，若要更改默认设置，请运行以下操作：
+请参阅 [设置-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)。 例如，若要更改默认设置，请运行以下操作：
 
   ```PowerShell
   Set-CsTeamsCallParkPolicy -Identity Global -AllowCallPark $true
@@ -92,7 +92,7 @@ ms.locfileid: "46582649"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
  
-另请参阅[授权 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)。
+另请参阅 [授权 CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)。
 
 ## <a name="troubleshooting"></a>故障排除
 
