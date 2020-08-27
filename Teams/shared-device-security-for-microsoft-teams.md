@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a723a7300febde4eaa5045b9b1318a3e0cafe779
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
+ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860824"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "46868691"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>在共享计算机上安全使用 Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "46860824"
 
 1. 利用操作系统平台的安全功能。
     1. 确保操作系统已配置为自动安装来自操作系统提供商的更新（ Microsoft 系统可通过 [**Windows 更新**](https://support.microsoft.com/help/12373/windows-update-faq)进行设置）。 
-    2. 确保已启用设备加密功能，如 [**bitlocker**](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) 等，并确保访问设备的密匙也受到保护。
+    2. 确保已启用设备加密功能，如 [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) 等，并确保访问设备的密匙也受到保护。  请注意，大多数新式[**Windows 10 设备支持 bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
     1. 使用 [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 等提供的防病毒功能。
     1. 强烈建议每个用户用[单独的用户帐户](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)使用同一系统。
     1. *不要*对非管理功能授予或使用管理员特权（例如浏览网页、启动 Teams 等）。
@@ -76,6 +76,6 @@ ms.locfileid: "46860824"
 
 [Microsoft Defender 安全中心文章](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[Teams web 客户端/teams web 应用](../get-clients.md#web-client)
+[Teams web 客户端/teams web 应用](https://docs.microsoft.com/microsoftteams/get-clients#web-client)
 
 [安全性与 Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide)
