@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何解决 Windows 上 Teams 桌面客户端应用的安装和更新问题。
-ms.openlocfilehash: 7b8d4984a8ee40f9a013155ad28b682e000260ba
-ms.sourcegitcommit: 90939ad992e65f840e4c2e7a6d18d821621319b4
+ms.openlocfilehash: a6070dbd6bd0540c7402f8d8077ea468a3296c31
+ms.sourcegitcommit: 206e01b72218f57e68823dc23b7ca28bce7cb3bb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45086138"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "47300276"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>解决 Windows 上的 Microsoft Teams 安装和更新问题
 
@@ -49,7 +49,7 @@ ms.locfileid: "45086138"
 
 ### <a name="troubleshoot-update-issues"></a>解决升级问题
 
-成功安装 Teams 后，日志位置将从 %LocalAppData%\SquirrelTemp 切换到 %AppData%\Microsoft\Teams。 在这里，有两个需要关注的日志文件：SquirrelSetup.log 和 logs.txt。
+成功安装团队后，日志位置将从%LocalAppData%\SquirrelTemp 切换到%LocalAppData%\Microsoft\Teams。 在这里，有两个需要关注的日志文件：SquirrelSetup.log 和 logs.txt。
 
 - 这里的 SquirrelSetup.log 文件是由 Update.exe 写入的，后者是为 Teams 应用服务的可执行文件。
 - Logs.txt 文件用于 Teams 应用（具体来说，是 Teams.exe）记录重要应用程序事件。 它可能包含失败信息。
