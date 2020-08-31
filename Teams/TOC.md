@@ -73,7 +73,7 @@
 #### [编辑来宾用户信息](edit-guests-information.md)
 #### [使用 PowerShell 控制来宾访问](guest-access-PowerShell.md)
 #### [来宾访问疑难解答](troubleshoot-guest-access.md)
-
+## [Teams 中的 Cortana](cortana-in-teams.md)
 
 
 
@@ -294,6 +294,7 @@
 #### [小型企业示例 - 设置呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [管理 Teams 资源帐户](manage-resource-accounts.md)
 #### [创建云呼叫队列](create-a-phone-system-call-queue.md)
+#### [设置假日](set-up-holidays-in-teams.md)
 #### [直接从 Teams 回答自动助理和呼叫队列](answer-auto-attendant-and-call-queue-calls.md)
 
 ### [阻止拨入通话](block-inbound-calls.md)
