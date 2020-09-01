@@ -816,7 +816,6 @@
 ### [分配 Teams 加载许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 ### [管理 Office 365 E1 试用版优惠](e1-trial-license.md)
 ### [管理 Office 365 G1 试用版优惠](g1-trial-license.md)
-### [管理 Teams 商业试用版优惠](iw-trial-teams.md)
 ### [管理 Teams 探索性体验](teams-exploratory.md)
 ### [管理 Teams 的免费版本](manage-freemium.md)
 ### [将 Teams 免费升级到订阅版本](upgrade-freemium.md)
