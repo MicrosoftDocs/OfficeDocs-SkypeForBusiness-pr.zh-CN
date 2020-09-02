@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 description: 了解 Microsoft 团队管理中心中的表扬应用中的管理员设置
-ms.openlocfilehash: 2fa2f7e92646dafe3d8bf1cc39325a682c823686
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: a04287ca6873d4dee9c58302ca563b167a592f3a
+ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656303"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47324026"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理表扬应用
 
 Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示感激。 通过选择要从中选择的锁屏提醒集和创建您自己的徽章的选项，表扬旨在帮助您认识到团队用户在团队用户执行的工作范围内，从教师到第一行员工的工作。
 
-管理员可以从团队管理中心控制哪些徽章对其组织可用。 在左侧导航中，选择 "**团队应用" > "管理应用**"。 在[租户应用目录](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)中打开表扬，然后转到 "**设置**"。
+管理员可以从团队管理中心控制哪些徽章对其组织可用。 在左侧导航中，选择 " **团队应用" > "管理应用**"。 在 [租户应用目录](https://docs.microsoft.com/microsoftteams/manage-apps#view-apps-in-your-tenant-app-catalog)中打开表扬，然后转到 " **设置**"。
 
 ## <a name="use-built-in-badge-sets"></a>使用内置的锁屏提醒集
 
@@ -45,28 +45,28 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ## <a name="create-your-own-badges"></a>创建自己的徽章
 
-将**自定义徽章**切换切换到 "开"，然后选择 "**创建自定义徽章**"。 在这里，您可以在侧面板中设计自定义徽章。 您最多可以创建25个自定义徽章。 
+将 **自定义徽章** 切换切换到 "开"，然后选择 " **创建自定义徽章**"。 在这里，您可以在侧面板中设计自定义徽章。 您最多可以创建25个自定义徽章。 
 
 1. 输入徽章名称。 这是用户发送表扬时将在锁屏提醒上显示的名称。
 
 2. 设置锁屏提醒颜色。 若要设置锁屏提醒的文本和背景色，需要输入十六进制) 值的十六进制 (的颜色。
 
    > [!TIP]
-   > 如果您不熟悉十六进制值，本文将[介绍](#hex-colors-intro)如何使用它们。
+   > 如果您不熟悉十六进制值，本文将 [介绍](#hex-colors-intro) 如何使用它们。
 
 3. 上载锁屏提醒图像。 接受的文件类型为。PNG. 图像文件必须小于 40 KB，最大尺寸为 216 X 216 像素。
 ![带有标签的背景、文本和图像字段的锁屏提醒](media/praise-app-badge-fields.png)
 
-4. 本地化徽章名称：在 "**本地化徽章名称**" 下，选择 "**添加**"。 从下拉列表中选择所需的区域设置。 然后在指定语言中输入徽章名称。
+4. 本地化徽章名称：在 " **本地化徽章名称**" 下，选择 " **添加**"。 从下拉列表中选择所需的区域设置。 然后在指定语言中输入徽章名称。
 
-5. 从特定区域设置中排除徽章：在 "**从这些区域设置中排除徽章**" 下，选择 "**添加**"。 从下拉列表中选择要排除的区域设置。
+5. 从特定区域设置中排除徽章：在 " **从这些区域设置中排除徽章**" 下，选择 " **添加**"。 从下拉列表中选择要排除的区域设置。
 
-6. 选择 "**应用**"。 您的新锁屏提醒现在将显示在 "自定义锁屏提醒" 表中。
+6. 选择 " **应用**"。 您的新锁屏提醒现在将显示在 "自定义锁屏提醒" 表中。
 
 > [!NOTE]
 > 如果跳过第4步和第5步，则标记将为所有区域设置的默认语言。
 >
-> 更改完锁屏提醒选择后，请确保选择 "**提交**"。 在你的组织可使用这些更改之前，可能需要长达几个小时。
+> 更改完锁屏提醒选择后，请确保选择 " **提交**"。 在你的组织可使用这些更改之前，可能需要长达几个小时。
 
 <a name="hex-colors-intro"></br></a>
 
@@ -76,7 +76,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 例如，红色的十六进制值是 #FF0000 的，因为在最大可能值（即，"FF" 和 "绿色" 和 "蓝色"）下设置 "红色"，每个值最小可能值00。
 
-若要浏览不同颜色及其十六进制值，请查看[必应颜色选取器](https://www.bing.com/search?q=color+picker)。
+若要浏览不同颜色及其十六进制值，请查看 [必应颜色选取器](https://www.bing.com/search?q=color+picker)。
 
 下面是开始使用的示例颜色的列表：
 
@@ -105,7 +105,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ## <a name="badge-set-assets"></a>徽章集资源
 
-无法修改内置的锁屏提醒集，因此当启用内置集时，该集中的所有徽章都将添加到表扬应用。 如果想要从内置集添加特定徽章并退出其他人，请重新创建要用作自定义徽章的徽章。 你可以下载锁屏提醒图像，并从下表中的内置集查找锁屏提醒的文本和背景颜色。
+无法修改内置的锁屏提醒集，因此当启用内置集时，该集中的所有徽章都将添加到表扬应用。 如果想要从内置的组中添加特定徽章并退出其他人，请重新创建要用作自定义徽章的徽章。 你可以下载锁屏提醒图像，并从下表中的内置集查找锁屏提醒的文本和背景颜色。
 
 ### <a name="default-badges-assets"></a>默认锁屏提醒资源
 
@@ -114,13 +114,13 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 |徽章名称     |图像文件  |文本颜色 | 背景色 |
 |---------------|------------|---------- |--------|
 |Achiever       |[Achiever PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/achiever-badge.png)|#D36E70    |#E3F4FC|
-|主要        |[非常棒的 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png>Awesome.PNG)</a>|#8283B2    |#D1EFF2|
+|主要        |[非常棒的 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/awesome-badge.png)</a>|#8283B2    |#D1EFF2|
 |教练          |[教练 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/coach-badge.png)</a>|#6AA55A    |#DBF1D6|
 |勇气        |[勇气 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/courage-badge.png)</a>|#DC5041    |#FCF6C8|
 |极       |[创作 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/creative-badge.png) |#CF9D50    |#FCF6C8|
 |非      |[非独占 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/inclusive-badge.png)</a>|#3C77BB    |#E2F4FC|
 |种类心     |[类型心形 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/kind-heart-badge.png)</a>|#D36D6E    |#F4DEDE|
-|能力     |[领先的 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership.pn)|#419098    |#D2EAEC|
+|能力     |[领先的 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/leadership-badge.png)|#419098    |#D2EAEC|
 |Optimism       |[Optimism PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/optimism-badge.png)</a>|#D8338C    |#F4DDDE|
 |问题规划求解 |[问题求解 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/problem-solver-badge.png)|#B8916E    |#CBDADF|
 |工作组玩家    |[工作组播放器 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/default-set/team-player-badge.png)|#8B8DC0    |#F4EEC0|

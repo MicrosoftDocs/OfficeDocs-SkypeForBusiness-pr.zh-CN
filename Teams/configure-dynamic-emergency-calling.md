@@ -17,12 +17,12 @@ description: 了解如何配置 Microsoft 通话计划和电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4110acb76f63adaa0470b93a66be620d5998fad
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
+ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255375"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "47321735"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -42,7 +42,11 @@ Microsoft 通话计划和电话系统直接路由的动态紧急呼叫提供了�
 
    - 如果存在网络设置网站匹配项，则会将紧急呼叫策略从该网站返回到团队客户端。  (有关策略的详细信息，请参阅 [配置紧急策略](#configure-emergency-policies)) 。
 
-   - 如果存在一个 .LIS 匹配项-来自团队客户端连接到的网络元素的紧急位置将返回到团队客户端。
+   - 如果存在一个 .LIS 匹配项-来自团队客户端连接到的网络元素的紧急位置将返回到团队客户端。 按以下顺序执行匹配，并返回第一个匹配的结果：
+       - WAP
+       - 以太网交换机/端口
+       - 以太网交换机
+       - 子网
 
 3. 当团队客户端进行紧急呼叫时，会将紧急位置传达给 PSTN 网络。
 
