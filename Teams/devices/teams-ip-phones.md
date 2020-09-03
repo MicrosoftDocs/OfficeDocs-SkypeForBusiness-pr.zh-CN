@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 了解哪些桌面和会议已认证，可供 Microsoft 团队获得最佳效果。
-ms.openlocfilehash: 6aab0bcb24729dc1e021709563ca1c2dcda5d039
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: d19f3382fd64d48c4fa1067c0a8e6c8749a84596
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576914"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331637"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>适用于 Microsoft 团队的 IP 手机认证
 
@@ -49,8 +49,8 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 | Audiocodes C450HD                      | C450HD_TEAMS_0. 225                                                                                                                                                                                                                         | 2019年3月                   |
 | Audiocodes C448HD (CAP 模式仅)       | C450HD_TEAMS_0. 225                                                                                                                                                                                                                         | 2019年3月                   |
 |Crestron UC-2                           |1.0.1.46                                                  | 2020年7月                    |
-| Crestron M100                          | 本产品已停产。 有关详细信息，请访问 Crestron 网站上的[Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 从5/11/2020 终止 |
-| Crestron Flex UC-P100 & UC-t    | 本产品已停产。 有关详细信息，请访问 Crestron 网站上的 " [UC 电话](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)"。                  | 从5/11/2020 终止 |
+| Crestron M100                          | 本产品已停产。 有关详细信息，请访问 Crestron 网站上的 [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) 。 | 从5/11/2020 终止 |
+| Crestron Flex UC-P100 & UC-t    | 本产品已停产。 有关详细信息，请访问 Crestron 网站上的 " [UC 电话](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) "。                  | 从5/11/2020 终止 |
 | 联想 ThinkSmart 视图                 | 18781Y 200410.067                                                                                                                                                                                                                       | 2020年4月                   |
 | Poly Trio C60                          | 5.9.3.6155                                                                                                                                                                                                                                 | 2020年4月                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020年1月                 |
@@ -77,28 +77,32 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 
 以下是最新的团队 IP 电话应用和固件版本。
 
-#### <a name="release-date-june-262020"></a>发布日期：2020年6月26日
+#### <a name="release-date-august-312020"></a>发布日期：2020年8月31日
 
 #### <a name="app-versions"></a>应用版本
 
 | 产品发布 | 发布日期  | Microsoft 团队应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 更新 #5       | 2020年8月31日 | 1449/1.0.94.2020071702    | 5.0.4867.0            | 1.0.0.202006290446 产品 Versioncode：216|
 | 更新 #4       | 2020年6月30日 | 1449/1.0.94.2020051601      | 5.0.4771.0             | 1.0.0.202005060552  |
 | 更新 #3       | 5月13日2020  | . 040801                     | . 4715                  | 1.210               |
 
 #### <a name="firmware-versions"></a>固件版本
 
-在你的设备上安装新的固件版本时，你可以通过在**随附的产品版本**列中查找产品版本来确定相应的 Microsoft 团队应用、公司门户和管理代理。 然后在上面的**应用版本**表中查找产品版本。
+在你的设备上安装新的固件版本时，你可以通过在 **随附的产品版本** 列中查找产品版本来确定相应的 Microsoft 团队应用、公司门户和管理代理。 然后在上面的 **应用版本** 表中查找产品版本。
 
 | 设备模型        | 固件版本     | 包含产品发布 |
 |:--------------------|:---------------------|:-------------------------|
-| AudioCodes C448HD   | C450HD_TEAMS_1 4.208 | 更新 #4                |
-| AudioCodes C450HD   | C450HD_TEAMS_1 4.208 | 更新 #4                |
-| Poly CCX400         | 1.0.1.0054           | 更新 #3                |
-| Poly CCX500/CCX600  | 5.9.13.0306          | 更新 #3                |
-| Yealink T55/T56/T58 | 58.15.0.107          | 更新 #4                |
-| Yealink VP59        | 91.15.0.42           | 更新 #4                |
-| Yealink CP960       | 73.15.0.103          | 更新 #4                |
+| AudioCodes C448HD   | C450HD_TEAMS_1 5.203 | 更新 #5                |
+| AudioCodes C450HD   | C450HD_TEAMS_1 5.203 | 更新 #5                |
+|联想 ThinkSmart 视图|18781Y 200809.091 |更新 #5                 |
+| Poly CCX400         | 6.2.21.1198          | 更新 #5                |
+| Poly CCX500/CCX600  | 6.2.21.1198          | 更新 #5                |
+| Poly Trio C60       | 5.9.5.2686           | 更新 #5                |
+| Yealink T55/T56/T58 | 58.15.0.110          | 更新 #5                |
+| Yealink MP56        | 122.15.0.13          | 更新 #5                |
+| Yealink VP59        | 91.15.0.44           | 更新 #5                |
+| Yealink CP960       | 73.15.0.105          | 更新 #5                |
 
 ### <a name="product-release-information-for-collaboration-bars"></a>协作栏的产品发布信息
 
@@ -108,31 +112,34 @@ IP 电话认证计划可确保使用经过认证的桌面电话和电话会议�
 
 | 产品发布 | 发布日期 | Microsoft 团队应用版本 | 公司门户版本 | 管理员代理版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 更新 #3       | 5月13日2020 | . 040901                     | . 4715                  | . 210                |
+| 更新 #2       | 2020年8月24日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552 产品 versioncode：212|
+| 更新 #1       | 5月13日2020 | . 040901                     | . 4715                  | . 210                |
 
 #### <a name="firmware-versions"></a>固件版本
 
-在你的设备上安装新的固件版本时，你可以通过在**随附的产品版本**列中查找产品版本来确定相应的 Microsoft 团队应用、公司门户和管理代理。 然后在上面的**应用版本**表中查找产品版本。
+在你的设备上安装新的固件版本时，你可以通过在 **随附的产品版本** 列中查找产品版本来确定相应的 Microsoft 团队应用、公司门户和管理代理。 然后在上面的 **应用版本** 表中查找产品版本。
 
 | 设备模型  | 固件版本 | 包含产品发布 |
 |:--------------|:-----------------|:-------------------------|
-| Yealink VC210 | 118.15.0.19      | 更新 #3                |
+| Yealink VC210 + CP900 | 118.15.0.32      | 更新 #2         |
+| Poly Studio X30 | 3.2.0.222012          | 更新 #2         |
+| Poly Studio X50 | 3.2.0.222012          | 更新 #2         |
 
-有关这些设备支持的功能的信息，请参阅[Microsoft 团队手机功能设置](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set)。
+有关这些设备支持的功能的信息，请参阅 [Microsoft 团队手机功能设置](/MicrosoftTeams/devices/phones-for-teams#microsoft-teams-phones-feature-set) 。
 
-请参阅[在移动设备上查找固件版本](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device)以确定你的移动设备上的设备固件版本。
+请参阅 [在移动设备上查找固件版本](/MicrosoftTeams/devices/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) 以确定你的移动设备上的设备固件版本。
 
-Microsoft 团队许可证可以作为其[microsoft 365 或 Office 365 订阅](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的[电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft 团队许可证可以作为其 [microsoft 365 或 Office 365 订阅](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)的一部分进行购买。 若要了解有关在手机上使用 Microsoft 团队所需的许可证的详细信息，请参阅可用的 [电话系统许可证](https://products.office.com/microsoft-teams/voice-calling)。
 
-有关获取团队的详细信息，请查看[如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+有关获取团队的详细信息，请查看 [如何获取 Microsoft 团队的访问权限？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 * * *
 
-如果您是希望加入认证计划的供应商，请参阅[如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)要求和可用程序。
+如果您是希望加入认证计划的供应商，请参阅 [如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 要求和可用程序。
 
 ## <a name="additional-resources"></a>附加资源
 
-了解[Skype For business 和 Microsoft 团队认证计划](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
+了解 [Skype For business 和 Microsoft 团队认证计划](https://docs.microsoft.com/SkypeForBusiness/certification/overview)。
 
 [了解 Microsoft 团队的手机和认证设备。](https://products.office.com/microsoft-teams/across-devices/devices)
 

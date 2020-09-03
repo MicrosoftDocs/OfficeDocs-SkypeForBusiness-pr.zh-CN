@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 了解支持 Microsoft 团队聊天室的要求，包括选择相应的设备、麦克风、扬声器、相机和显示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cc5db49a105d113240d29b9f139993e8dd2bd99f
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 4d54414e58e34dc5e88a5fc68547a43041adf89c
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803914"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331647"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 会议室要求
 
@@ -65,15 +65,17 @@ ms.locfileid: "46803914"
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[通过英特尔 NUC 的 Logitech 点击](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |[Logitech 攻丝和联想 "思考中心 M920" 小](https://www.logitech.com/en-us/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
+  |[Poly G10，带联想思考中心 M920 微小](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[英特尔 NUC Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[英特尔 NUC Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[英特尔 NUC Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
   |[英特尔 NUC Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
   |[Yealink MVC 300 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc300II) |Core i5|8 GB | 128 GB|
-  [Yealink MVC 500 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 GB | 128 GB|
-  [Yealink MVC 800 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 GB | 128 GB|
-  [Yealink MVC 900 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
-  ||||||
+  |[Yealink MVC400](https://www.yealink.com/product/microsoft-teams-room-system-mvc400)        |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 500 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc500II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 800 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc800II) |Core i5|8 GB | 128 GB|
+  |[Yealink MVC 900 II ](https://www.yealink.com/product/microsoft-teams-room-system-mvc900II) |Core i5|8 GB | 128 GB|
+  
 
 > [!NOTE]
 > - Core M3 处理器不受支持。
@@ -128,15 +130,18 @@ ms.locfileid: "46803914"
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
+|Yealink UVC30| 105.420.0.11 |  &#x2714; |
 |[Shure Intellimix P300 音频会议处理器](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 桌面矩阵麦克风](https://www.shure.com/en-US/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 音频会议处理器](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [带 Intellimix 天花板矩阵麦克风的 Shure MXA 910](https://www.shure.com/en-US/products/microphones/mxa910) | 4.1|
+|[Shure Intellimix P300 音频会议处理器](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 表数组 Mic ](https://www.shure.com/en-US/products/microphones/mxa310) +</br></br> [MXN5W-C 天花板扬声器](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP：4.1.11 </br> MXA310 表格数组 mic：4.1.41 </br> MXN5W-C 扬声器：1.0。4 |
+|[Shure Intellimix P300 音频会议处理器](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 with Intellimix 顶棚 Array Mic](https://www.shure.com/en-US/products/microphones/mxa910) +</br></br> [MXN5W-C 天花板扬声器](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP：4.1.11 </br> MXA910 天花板数组 mic：4.1.41 </br> MXN5W-C 扬声器：1.0。4 |
 |[Biamp Tesira Fore AVB VT4 固定音频 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 麦克风](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2：1.3.3 </br></br> EX-UBT：3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 音频 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA 顶棚麦克风](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono IC6 顶棚扬声器](https://www.biamp.com/products/tesira-speakers)| 音频固件版本：3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (Table Mic) ](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |音频固件版本：3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink 扬声器 +</br> Sennheiser TCC2 天花板麦克风 + </br> Bose EdgeMax EM180 天花板扬声器](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br> BOSE P2600A AmpLink + SENNHEISER TCC2 + Bose DesignMax + DM2C </br> P 顶棚扬声器](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
-||||||
-
+|[Bose ControlSpace EX 1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br> [Sennheiser TCC2 顶棚麦克风](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C-LP 天花板扬声器](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  | 
+|[Bose ControlSpace EX 1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br> [Sennheiser TCC2 顶棚麦克风](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 顶棚扬声器](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |
 
 
 &Dagger; 客户可以选择 Biamp/Sennheiser 为此捆绑包推荐的 Dante 界面或网络交换机。

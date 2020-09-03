@@ -15,37 +15,37 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 Microsoft 团队认证了哪些 USB 外围设备和设备，如耳机、免提、网络摄像头和监视器。
-ms.openlocfilehash: 1bf3e122293665d5e883f191c31b76ba4dbba061
-ms.sourcegitcommit: b72bf3827e7145b9b6a95c84e88a7879c6e8c337
+ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
+ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46640907"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "47331627"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>为 Microsoft 团队认证的 USB 音频和视频设备
 
 外围设备认证计划可确保 USB 外围设备、免提、网络摄像头和显示器等 USB 外围设备，提供丰富的音频或视频质量。 已认证的设备 (插头 & 播放) ，无需额外配置，并提供与 Microsoft 团队和 Skype for business 的呼叫控制。 产品为最终用户和管理员提供了出色的体验。
 
-若要浏览针对 Microsoft 团队测试和认证的设备，请转到[团队存储](https://products.office.com/microsoft-teams/across-devices/devices)。
+若要浏览针对 Microsoft 团队测试和认证的设备，请转到 [团队存储](https://products.office.com/microsoft-teams/across-devices/devices)。
 
-有关团队的呼叫控制支持的更多详细信息，请[使用团队中的耳机阅读控制呼叫](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)。
+有关团队的呼叫控制支持的更多详细信息，请 [使用团队中的耳机阅读控制呼叫](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)。
 
 > [!TIP]
-> 寻找针对 Skype for Business 认证的设备？ 通过 Skype for business[认证的 USB 音频和视频设备](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices)。
+> 寻找针对 Skype for Business 认证的设备？ 通过 Skype for business [认证的 USB 音频和视频设备](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices)。
 
 ## <a name="understanding-certification-categories"></a>了解认证类别
 
 从 Skype for Business 升级到团队时，用户无需更换以前认证的设备。  对于 Microsoft 团队用户和 Skype for business 用户，所有认证设备均受支持，但功能不同。  此外，认证还提供了针对某些设备类别的进一步指定。
 
-- **通过团队升级进行的 Skype For business 认证**在此级别认证的设备最初是针对 Skype for business 认证的。 为了尽可能地向用户提供尽可能多的生存期值，Microsoft 与设备制造商协作，以尽可能多的团队与这些现有设备集成，而无需对原始硬件进行任何更改。 当不在通话中时， *hookswitch*按钮充当团队按钮，并且可能会在一段时间内包含其他功能。  此类别中的设备可能携带市场营销材料上的团队认证徽章。
-- **适用于 Microsoft 团队的认证**在此级别认证的设备指示最新的设备经过认证，以实现不折不扣的团队体验。 这些设备提供以前认证的所有优点，还包括一个具有 LED 指示器的专用团队按钮。 对于大多数外形因素，"团队" 按钮将是具有 "团队" 徽标的易于查找的触觉按钮。 Microsoft 继续与设备制造商协作，通过固件更新在一段时间内提供新价值。
+- **通过团队升级进行的 Skype For business 认证** 在此级别认证的设备最初是针对 Skype for business 认证的。 为了尽可能地向用户提供尽可能多的生存期值，Microsoft 与设备制造商协作，以尽可能多的团队与这些现有设备集成，而无需对原始硬件进行任何更改。 当不在通话中时， *hookswitch* 按钮充当团队按钮，并且可能会在一段时间内包含其他功能。  此类别中的设备可能携带市场营销材料上的团队认证徽章。
+- **适用于 Microsoft 团队的认证** 在此级别认证的设备指示最新的设备经过认证，以实现不折不扣的团队体验。 这些设备提供以前认证的所有优点，还包括一个具有 LED 指示器的专用团队按钮。 对于大多数外形因素，"团队" 按钮将是具有 "团队" 徽标的易于查找的触觉按钮。 Microsoft 继续与设备制造商协作，通过固件更新在一段时间内提供新价值。
 
 ### <a name="special-usage-designations"></a>特殊用法标识
 
-- **用于打开的 Office 的高级麦克风**所有耳机均经过测试，可提供清晰的音频，但打开的 office 和其他噪音环境会带来更大的挑战：让耳机用户清楚地表达出耳机用户的声音，但不会传输其邻近的声音。
+- **用于打开的 Office 的高级麦克风** 所有耳机均经过测试，可提供清晰的音频，但打开的 office 和其他噪音环境会带来更大的挑战：让耳机用户清楚地表达出耳机用户的声音，但不会传输其邻近的声音。
 - 会议室**大小**共享设备（如免提和相机）具有受支持的使用距离和建议的距离可能会以不同的制造商的不同方式报告。 为客户提供明确的指南，所有共享设备都会在认证时针对定义良好的会议室大小和噪音环境进行测试。
 
-浏览[针对 Microsoft 团队认证的设备](https://products.office.com/microsoft-teams/across-devices/devices)。
+浏览 [针对 Microsoft 团队认证的设备](https://products.office.com/microsoft-teams/across-devices/devices)。
 
 ## <a name="end-user-experience"></a>最终用户体验
 
@@ -70,14 +70,21 @@ ms.locfileid: "46640907"
 - 无需预配
 - 所有设备都支持固件更新，以允许新功能和性能改进。
 
-如果你是制造商，并且想要加入认证计划，请参阅[如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join)要求和可用程序。
+如果你是制造商，并且想要加入认证计划，请参阅 [如何加入](https://docs.microsoft.com/skypeforbusiness/certification/how-to-join) 要求和可用程序。
 
 ## <a name="certified-devices"></a>认证的设备
 
-*2020年7月更新的表*
+*2020年8月更新的表格*
 
 | 制造商        | 型                                                     | 获      | 认证计划                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra evolve                |演化80耳机                                          |8/23/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|Jabra evolve                |演化40耳机                                          |8/23/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|Jabra evolve                |发展30个 II 耳机                                       |8/23/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|Jabra evolve                |发展20个耳机                                          |8/23/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|EPOS/Sennheiser      |对 SC 660 和 USB ED CC 01 MS connecto 的影响                |8/20/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|EPOS/Sennheiser      |对 SC 630 和 USB ED CC 01 MS connecto 的影响                |8/20/2020       |升级到 Microsoft 团队的 Skype for Business      |
+|EPOS/Sennheiser      |对 SC 260 和 USB ED CC 01 MS connecto 的影响                |8/20/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |ViewSonic            |WCD-IFP8670                                                |7/31/2020       |已认证 Skype for business                        |
 |ViewSonic            |WCD- IFP6570                                               |7/31/2020       |已认证 Skype for business                        |
 |Jabra evolve                |演化75耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
