@@ -18,16 +18,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 10fa7e13289a4696dd723b2b6634dc7147321342
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 5810eb2ef38251ad88bd2accf12d857adda9dcbe
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597087"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359388"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online 停用
 
-2019年7月31日，我们宣布推出的**Skype for Business Online 将于年7月 2021 31 日停**用，为我们的客户提供两年时间来规划他们对 microsoft 团队的过渡，即 microsoft 365 中的团队协作。 我们还希望确保客户有必要的信息和资源来规划和执行团队的成功升级，而不是一年。
+2019年7月31日，我们宣布推出的 **Skype for Business Online 将于年7月 2021 31 日停** 用，为我们的客户提供两年时间来规划他们对 microsoft 团队的过渡，即 microsoft 365 中的团队协作。 我们还希望确保客户有必要的信息和资源来规划和执行团队的成功升级，而不是一年。
  
 ## <a name="why-is-skype-for-business-online-retiring"></a>为什么 Skype for business Online 注销？
 
@@ -35,7 +35,7 @@ ms.locfileid: "46597087"
 
 Microsoft 团队的功能超出 Skype for business Online 的功能。 通过将聊天、视频、通话、文档协作和应用程序集成结合到单个体验中，团队可以完全使用新闻。 以及持续的平台创新和开发意味着团队用户受益于更丰富的性能、功能、灵活性和安全性。
 
-团队不仅仅是 Skype for business Online 的升级，它是一个功能强大的工具，使公司、学校和组织能够更灵活地提高关键工作流的效率。 了解有关团队在 Forrester 白皮书中可能带来的好处的详细信息，请查看[Microsoft 团队的总体经济影响™](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)。
+团队不仅仅是 Skype for business Online 的升级，它是一个功能强大的工具，使公司、学校和组织能够更灵活地提高关键工作流的效率。 了解有关团队在 Forrester 白皮书中可能带来的好处的详细信息，请查看 [Microsoft 团队的总体经济影响™](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)。
 
 
 ## <a name="what-does-this-mean-for-skype-for-business-customers"></a>这对 Skype for Business 客户意味着什么？
@@ -48,25 +48,25 @@ Microsoft 团队的功能超出 Skype for business Online 的功能。 通过将
 
 Skype 消费者服务和 Skype for business 服务器不受 Skype for business Online 的停用的影响。
 
-[阅读](faq-journey.md)有关升级到团队和团队功能路线图的流程的常见问题解答。
+[阅读](faq-journey.md) 有关升级到团队和团队功能路线图的流程的常见问题解答。
 
 ## <a name="what-is-microsoft-doing-to-help-customers-transition-to-teams"></a>Microsoft 在帮助客户切换到团队时要做什么？
 
 利用各种可用的资源来帮助规划团队从 Skype for Business 部署和升级：
 
-- [团队部署和升级文档](upgrade-start-here.md)-适用于 IT 管理员的免费技术指南。
+- [团队部署和升级文档](upgrade-start-here.md) -适用于 IT 管理员的免费技术指南。
 
 - 适用于[Microsoft 365 的 FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) –团队部署帮助，可用于符合资格的计划。
 
-- [团队现场培训](https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page)–免费的在线培训课程，可让你和最终用户与团队一起运行。
+- [团队现场培训](https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page) –免费的在线培训课程，可让你和最终用户与团队一起运行。
 
-- [团队粉笔讨论](https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page)-面向 IT 专业人员和决策者的免费在线研讨会，用于为团队中的一些最常见且最引人注目的方案共享最佳做法。
+- [团队粉笔讨论](https://docs.microsoft.com/MicrosoftTeams/chalk-talks-landing-page) -面向 IT 专业人员和决策者的免费在线研讨会，用于为团队中的一些最常见且最引人注目的方案共享最佳做法。
 
-- [团队升级规划研讨会](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page)-免费交互式升级计划研讨会，您将在其中获得指导、最佳做法和资源，旨在帮助您规划和实施与团队的升级。
+- [团队升级规划研讨会](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page) -免费交互式升级计划研讨会，您将在其中获得指导、最佳做法和资源，旨在帮助您规划和实施与团队的升级。
 
-- [Microsoft 合作伙伴](https://www.microsoft.com/solution-providers/home)-microsoft 解决方案提供商可以帮助您充分利用团队。
+- [Microsoft 合作伙伴](https://www.microsoft.com/solution-providers/home) -microsoft 解决方案提供商可以帮助您充分利用团队。
 
-- [Microsoft 团队博客](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)-获取最新的团队新闻，涵盖新功能、采纳和使用资源、团队设备以及与其他商业生产力应用程序的集成。
+- [Microsoft 团队博客](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) -获取最新的团队新闻，涵盖新功能、采纳和使用资源、团队设备以及与其他商业生产力应用程序的集成。
 
 如果您是当前的 Skype for Business Online 客户，请立即开始将迁移规划到团队。 我们很高兴你体验其强大的通信和协作功能，我们致力于帮助你的工作方式。
 
@@ -90,7 +90,7 @@ Skype for business Online 停用不会影响 Skype 消费者服务。
 **对于当前正在部署（或计划部署） Microsoft 365 中的 Skype for business 的客户，您推荐哪些内容？**<br>
 目前正在部署 Skype for Business Online 的客户可继续如此操作。 我们鼓励所有新的 Microsoft 365 客户与 Skype for business 独立或并行使用团队开始使用团队，并确定 (共存或团队的路径是否仅限于满足其业务需求的) 和时间。 无论 Skype for Business Online 的使用期限如何，客户都需要在 Skype for Business Online 停用日期之前迁移至 Teams。
 
-**这从许可角度讲意味着什么？客户将如何为团队中的智能通信服务付款？**<br>
+**从许可方面来看，这意味着什么？客户将如何为 Teams 中的智能通信服务付费？**<br>
 团队可在许多 Microsoft 365 套件中使用。 现在 Skype for Business Online 中作为优质工作负荷的功能将继续在 Teams 中作为优质工作负荷。 客户在现有许可上的投入将转到 Teams 中。 例如，如果客户单独购买了音频会议或购买了包含音频会议的 E5（附带 Skype for Business），则将在 Teams 中启用音频会议，因为它现在可用。
 
 **Microsoft 是否安排计划的升级？**<br>
@@ -100,6 +100,9 @@ Skype for business Online 停用不会影响 Skype 消费者服务。
 
 **Skype for Business Online 停用公告对使用混合配置（Skype for Business Online 和 Skype for Business Server）的组织有何影响？**<br>
 混用在线和本地配置的客户需要在 2021 年 7 月 31 日停用日期之前将用户从 Skype for Business 网页版迁移至 Microsoft Teams。 在 Skype for Business 网页版停用之后，围绕共存和互操作性原则构建的混合配置的升级路径保留不变。 有关详细信息，请访问 “[与 Skype for Business 共存](coexistence-chat-calls-presence.md)”和 “[了解 Microsoft Teams 和 Skype for Business 的共存和互操作性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)”。
+
+**Skype for business Online 的弃用将如何影响具有混合 Skype for business 配置的组织以实现本地公共交换电话网络的混合 Skype for business 配置 (PSTN) 连接和在线电话系统功能？**<br>
+某些组织已将用户拆分为 PSTN 连接托管内部部署和联机系统功能。 在访问 Skype for Business Online 结束后，组织需要将联机用户切换到 Microsoft 团队，并通过 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)将其本地电话网络连接到团队。
 
 我们鼓励具有合格订阅的客户使用 [FastTrack](https://www.microsoft.com/fasttrack?rtc=1) 协助加入 Teams。
 

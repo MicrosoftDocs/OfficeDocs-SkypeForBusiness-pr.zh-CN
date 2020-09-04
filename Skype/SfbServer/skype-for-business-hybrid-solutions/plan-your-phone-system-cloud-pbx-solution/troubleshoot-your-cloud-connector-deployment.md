@@ -16,18 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: 对你的云连接器版本部署进行故障排除。
-ms.openlocfilehash: 97ece0ee1bcc11c22fd55709d025169ed95b16ff
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 7a1caea67c5b5899c2dc0909ef771a57c7c50389
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220222"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359328"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>对云连接器部署进行故障排除
+
+> [!Important]
+> 云连接器版本将在2021年7月31日和 Skype for Business Online 之间终止。 组织升级到团队后，了解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)将本地电话网络连接到团队。
  
 对你的云连接器版本部署进行故障排除。
   
-本主题介绍云连接器版本部署的常见问题的解决方案。 如果在拨打公用电话交换网（PSTN）时遇到问题，可以按照本主题中所述的解决方案进行调查。
+本主题介绍云连接器版本部署的常见问题的解决方案。 如果从公开交换的电话网络 (PSTN) 遇到问题，可以按照本主题中所述的解决方案进行调查。
   
 云连接器提供了用于自动解决某些问题的内置机制。 自动检测过程会查找云连接器设备的潜在问题，如果可能，则会采取纠正措施来解决这些问题，而无需管理员干预。 检测过程按如下方式工作：
   
@@ -107,7 +110,7 @@ ms.locfileid: "44220222"
     > [!NOTE]
     > 此问题仅适用于1.4.2 之前的云连接器版本。 
   
-    启动失败也可能是因为此前端服务器以前故障转移（使用计算机故障转移）。 如果是这种情况，请调用故障回复（使用计算机故障回复）。
+    启动失败也可能是因为此前端服务器以前通过使用计算机故障转移) 进行了故障转移 (。 如果是这种情况，请使用计算机故障回复调用故障回复 () 。
     
     **解决方法：** 如果边缘服务器不信任根 CA 证书或中间 CA 证书，则会在边缘服务器上发生此问题。 即使可以导入外部证书，但证书链已断开。 在此情况下，RTCMRAUTH 和/或 RTCSRV 服务无法启动。
     
@@ -121,7 +124,7 @@ ms.locfileid: "44220222"
     
     **问题：应用 Windows 更新时主机服务器重新启动，并且由服务器提供服务的呼叫失败。**
     
-    **解决方法：** 如果您部署了高可用性环境，Microsoft 将提供一个 cmdlet，以便在您手动检查和安装 Windows 更新时帮助将一台主机（部署实例）移入或移出当前拓扑。 使用以下步骤来实现此目的：
+    **解决方法：** 如果您部署了高可用性环境，Microsoft 将提供一个 cmdlet，可帮助您在手动检查和安装 Windows 更新时将一台主机计算机 (部署) 移入或移出当前拓扑。 使用以下步骤来实现此目的：
     
 1. 在主机服务器上，以管理员身份启动 PowerShell 控制台，然后运行：
     
@@ -141,17 +144,17 @@ ms.locfileid: "44220222"
     
     **问题：使用 PSTN 号码从 Skype for Business 客户端进行呼叫时，无法通过邀请其他 PSTN 号码将该呼叫提升为会议。**
     
-    **解决方法：** 若要解决此问题，请参阅[配置联机混合中介服务器设置](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)。
+    **解决方法：** 若要解决此问题，请参阅 [配置联机混合中介服务器设置](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)。
     
 - **问题：安装 Active Directory 服务器时显示有关 Windows 更新的警告消息-"未启用 Windows 自动更新。若要确保新安装的角色或功能自动更新，请打开 Windows Update。**
     
-    **解决方法：** 使用 Skype for Business 租户管理员凭据启动租户远程 PowerShell 会话，然后运行以下 cmdlet 以检查网站的_EnableAutoUpdate_配置：
+    **解决方法：** 使用 Skype for Business 租户管理员凭据启动租户远程 PowerShell 会话，然后运行以下 cmdlet 以检查网站的 _EnableAutoUpdate_ 配置：
     
   ```powershell
   Get-CsHybridPSTNSite
   ```
 
-    如果将_EnableAutoUpdate_设置为**True**，则可以安全地忽略此警告消息，因为 CCEManagement 服务将处理为虚拟机和主机服务器下载和安装 Windows 更新。 如果_EnableAutoUpdate_设置为**False**，则运行以下 cmdlet 以将其设置为**True**。
+    如果将  _EnableAutoUpdate_ 设置为 **True**，则可以安全地忽略此警告消息，因为 CCEManagement 服务将处理为虚拟机和主机服务器下载和安装 Windows 更新。 如果  _EnableAutoUpdate_ 设置为 **False**，则运行以下 cmdlet 以将其设置为 **True**。
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -159,21 +162,21 @@ ms.locfileid: "44220222"
 
     或者，您也可以手动检查并安装更新。 请参阅下一部分。
     
-- **问题：收到一条错误消息：无法注册设备，因为当前的输入/配置 \< SiteName \> 或 \< ApplianceName \> 或 \< 中介服务器 FQDN 或中介服务器 \> \< IP 地址 \> 与现有设备冲突。删除冲突设备或更新输入/配置信息，然后重新注册。' 在运行 Register-ccappliance 注册当前设备以供联机时。**
+- **问题：你收到一条错误消息：无法注册设备，因为当前的输入/配置 \<SiteName\> 或 \<ApplianceName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> 与现有设备 (s) 相同。删除冲突设备或更新输入/配置信息，然后重新注册。' 在运行 Register-ccappliance 注册当前设备以供联机时。**
     
-    **解决方法：**\<ApplianceName \> 、 \< 中介服务器 FQDN \> 和 \< 中介服务器 IP 地址的值 \> 必须是唯一的，并且仅用于一个设备注册。 默认情况下， \< ApplianceName 来自 \> 主机名称。 \<\> \< \> 在配置 ini 文件中定义的中介服务器 FQDN 和中介服务器 IP 地址。
+    **解决方法：** 的值 \<ApplianceName\> ， \<Mediation Server FQDN\> 并且 \<Mediation Server IP Address\> 必须是唯一的，并且仅用于一个设备注册。 默认情况下，来自 \<ApplianceName\> 主机名。 \<Mediation Server FQDN\> 并 \<Mediation Server IP Address\> 在配置 ini 文件中定义。
     
-    例如，使用（ApplianceName = MyserverNew，中介服务器 FQDN = 10.10.10.10，中介服务器 IP 地址 =）注册到 SiteName = 我的 SiteName，但如果有已注册的装置（ApplianceName = Myserver，中介服务器 FQDN =，中介服务器 IP 地址 = 10.10.10.10），则会发生冲突。
+    例如，使用 (ApplianceName = MyserverNew，中介服务器 FQDN =，中介服务器 IP 地址 = 10.10.10.10) 注册到 SiteName = 我的用户，但是如果有已注册的设备 (ApplianceName = Myserver，中介服务器 FQDN =，中介服务器 IP 地址 = 10.10.10.10) ，则会发生冲突。
     
-    首先，请检查 "ApplianceRoot 目录" 部分中的 "Cloudconnector.ini" 文件。 您将获得 \< \> 文件中的 SiteName、 \< 中介服务器 FQDN \> 和 \< 中介服务器 IP 地址 \> 值。 \<ApplianceName \> 是您的主机服务器名称。
+    首先，请在 ApplianceRoot 目录部分中检查 CloudConnector.ini 文件。 您将获得 \<SiteName\> \<Mediation Server FQDN\> 并 \<Mediation Server IP Address\> 在文件中显示值。 \<ApplianceName\> 是您的主机服务器名称。
     
-    其次，使用你的 Skype for Business 租户管理员凭据启动租户远程 PowerShell，然后运行以下 cmdlet 以检查注册的设备。
+    其次，使用你的 Skype for Business 租户管理员凭据启动租户远程 PowerShell，然后运行以下 cmdlet 以检查注册的设备 (s) 。
     
   ```powershell
   Get-CsHybridPSTNAppliance
   ```
 
-    在确定任何冲突之后，可以使用与注册设备匹配的信息更新 Cloudconnector.ini 文件，或注销现有设备以解决冲突。
+    在确定任何冲突之后，可以使用与注册设备匹配的信息更新 CloudConnector.ini 文件，或注销现有设备以解决冲突。
     
   ```powershell
   Unregister-CsHybridPSTNAppliance -Force
@@ -182,13 +185,13 @@ ms.locfileid: "44220222"
     
 - **问题：如果在主机上运行已部署的设备，Get-ccrunningversion cmdlet 将返回空值。**
     
-  **解决方法：** 从1.3.4 或1.3.8 升级到1.4.1 时，可能会发生这种情况。 在使用 .msi 安装版本1.4.1 之后，您必须 `Register-CcAppliance` 先运行任何其他 cmdlet，然后才能运行。 `Register-CcAppliance`会将%UserProfile%\CloudConnector 文件从迁移到%ProgramData%\CloudConnector。 如果你错过了它，将在%ProgramData%\CloudConnector 文件夹中创建一个新的 module，并替换1.3.4 或1.3.8 的运行/备份版本信息。
+  **解决方法：** 从1.3.4 或1.3.8 升级到1.4.1 时，可能会发生这种情况。 在使用 .msi 安装版本1.4.1 之后，您必须 `Register-CcAppliance` 先运行任何其他 cmdlet，然后才能运行。 `Register-CcAppliance` 会将 module.ini 文件从%UserProfile%\CloudConnector 迁移到%ProgramData%\CloudConnector。 如果你错过了它，将在%ProgramData%\CloudConnector 文件夹中创建一个新的 module.ini，并替换1.3.4 或1.3.8 的运行/备份版本信息。
     
-  比较%UserProfile%\CloudConnector 和%ProgramData%\CloudConnector 文件夹中的模块 .ini 文件。 如果存在差异，请删除%ProgramData%\CloudConnector 中的模块 .ini 文件，然后重新运行 `Register-CcAppliance` 。 您还可以手动将文件修改为正确的运行和备份版本。
+  比较%UserProfile%\CloudConnector 和%ProgramData%\CloudConnector 文件夹中的 module.ini 文件。 如果存在差异，请在%ProgramData%\CloudConnector 中删除 module.ini 文件，然后重新运行  `Register-CcAppliance` 。 您还可以手动将文件修改为正确的运行和备份版本。
     
 - **问题：在运行 Switch-ccversion cmdlet 以切换到不同于当前脚本版本的旧版本之后，此旧版本不提供高可用性支持。**
     
-    **解决方法：** 例如，您已从1.4.1 升级到1.4.2。 您的当前脚本版本（可通过运行 `Get-CcVersion` ）和运行版本（这两个版本都可以确定） `Get-CcRunningVersion` 。 此时，如果您运行以将 `Switch-CcVersion` 正在运行的版本切换回1.4.1，则此旧版本将不提供高可用性支持。
+    **解决方法：** 例如，您已从1.4.1 升级到1.4.2。 您的当前脚本版本（可通过运行 `Get-CcVersion` ）和运行版本（这两个版本都可以确定）  `Get-CcRunningVersion` 。 此时，如果您运行以将 `Switch-CcVersion` 正在运行的版本切换回1.4.1，则此旧版本将不提供高可用性支持。
     
     若要获取完整的高可用性支持，请切换回1.4.2，以便运行版本和脚本版本相同。 如果您在1.4.2 部署中遇到问题，请尽快卸载并重新安装它。
     
@@ -203,7 +206,7 @@ ms.locfileid: "44220222"
     
     如果证书颁发机构证书即将过期，请运行 Renew-cccacertificate 或 Renew-cccacertificate cmdlet 来续订证书。
     
-    **如果证书颁发机构证书已损坏，并且站点中只有一台设备，请**执行以下步骤：
+    **如果证书颁发机构证书已损坏，并且站点中只有一台设备，请** 执行以下步骤：
     
 1. 运行 Enter-ccupdate cmdlet 以排出服务并将设备置于维护模式。
    
@@ -242,11 +245,11 @@ ms.locfileid: "44220222"
    ```
 
 
-    **如果证书颁发机构证书已损坏，并且站点中有多个设备，请**在站点中的每台设备上执行以下连续步骤。
+    **如果证书颁发机构证书已损坏，并且站点中有多个设备，请** 在站点中的每台设备上执行以下连续步骤。
     
     Microsoft 建议您在非高峰使用时间执行这些步骤。
     
-1. 在第一个设备上，运行 Remove-cccertificationauthorityfile cmdlet 以清除 SiteRoot 目录中的 CA 备份文件 \< \> 。
+1. 在第一个设备上，运行 Remove-cccertificationauthorityfile cmdlet 以清理目录中的 CA 备份文件 \<SiteRoot\> 。
 
      ```powershell
      Remove-CcCertificationAuthorityFile
@@ -276,7 +279,7 @@ ms.locfileid: "44220222"
      Remove-CcLegacyServerCertificate 
      ```
 
-4. 在第一个设备上，运行以下 cmdlet 以将 CA 文件备份到 \< SiteRoot \> 文件夹。
+4. 在第一个设备上，运行以下 cmdlet 以将 CA 文件备份到该 \<SiteRoot\> 文件夹。
     
      ```powershell
      Backup-CcCertificationAuthority
@@ -303,7 +306,7 @@ ms.locfileid: "44220222"
      ```
     
     
-- **问题：在云连接器管理服务日志中收到以下错误消息： "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log"： CceService 错误：0：将状态报告给 online 时出现意外异常：：用户 \< 全局租户管理员登录失败 \> 。请创建一个新的 credential 对象，确保您使用了正确的用户名和密码。---\>**
+- **问题：在云连接器管理服务日志中收到以下错误消息： "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log"： CceService 错误：0：将状态报告为联机时出现意外异常：：用户的登录失败 \<Global Tenant Admin\> 。请创建一个新的 credential 对象，确保您使用了正确的用户名和密码。---\>**
     
     **解决方法：** Microsoft 365 或 Office 365 全局租户管理员凭据在云连接器设备注册后进行了更改。 若要在云连接器设备上更新本地存储的凭据，请从主机设备上的管理员 PowerShell 中运行以下命令：
     
@@ -313,21 +316,21 @@ ms.locfileid: "44220222"
 
 - **问题：在您更改用于部署的主机服务器帐户的密码之后，您会收到以下错误消息： "ConvertTo-SecureString：密钥在指定状态下使用时无效。" 在%ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log 或运行 Set-cccredential cmdlet 时使用。**
     
-    **解决方法：** 所有云连接器凭据都存储在以下文件中： "%Systemdrive%\programdata\cloudconnector\credentials. .xml \<CurrentUser \> "。 当主机服务器上的密码更改时，您将需要更新本地存储的凭据。
+    **解决方法：** 所有云连接器凭据都存储在以下文件中： "%Systemdrive%\programdata\cloudconnector\credentials. .xml" \<CurrentUser\> 。xml "。 当主机服务器上的密码更改时，您将需要更新本地存储的凭据。
     
-    **如果您运行的是云连接器1.4.2 版，请**通过执行以下步骤来重新生成所有云连接器密码：
+    **如果您运行的是云连接器1.4.2 版，请** 通过执行以下步骤来重新生成所有云连接器密码：
     
   1. 重新启动主机服务器。
     
-  2. 删除以下文件： "%Systemdrive%\programdata\cloudconnector\credentials. .xml \<CurrentUser \> "。
+  2. 删除以下文件： "%Systemdrive%\programdata\cloudconnector\credentials. .xml" \<CurrentUser\> 。xml "。
     
   3. 以管理员身份启动 PowerShell 控制台，然后运行 "Register-ccappliance-Local" 以在说明后面重新输入密码。 输入您在云连接器部署之前输入的相同密码。
     
-     **如果您运行的是云连接器版本2.0 或更高版本，请**通过执行以下步骤来重新生成所有云连接器密码：
+     **如果您运行的是云连接器版本2.0 或更高版本，请** 通过执行以下步骤来重新生成所有云连接器密码：
     
   4. 重新启动主机服务器。
     
-  5. 删除以下文件： "%Systemdrive%\programdata\cloudconnector\credentials. .xml \<CurrentUser \> "。
+  5. 删除以下文件： "%Systemdrive%\programdata\cloudconnector\credentials. .xml" \<CurrentUser\> 。xml "。
     
   6. 以管理员身份启动 PowerShell 控制台，然后运行 "Register-ccappliance-Local" 以在说明后面重新输入密码。 
     
@@ -357,11 +360,11 @@ ms.locfileid: "44220222"
     
 - **问题：在云连接器版本2.1 及更高版本中，在设备上运行 Register-ccappliance 或其他 cmdlet 时，会收到一条错误消息，例如： "对于每个对象：在此对象上找不到属性 ' Common '。验证该属性是否存在。在 C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1： 681 char： 14 "**
     
-    **解决方法：** 云连接器2.1 及更高版本需要 .NET Framework 4.6.1 或更高版本。 请将设备上的 .NET Framework 更新为版本4.6.1 或更高版本，然后再次运行 cmdlet。
+    **解决方法：** 云连接器2.1 及更高版本需要 .NET Framework 4.6.1 或更高版本。 请将设备上的 .NET Framework 更新为版本4.6.1 或更高版本，并再次运行 cmdlet (s) 。
 
 - **问题：使用云连接器版本2.1 时，在运行 Register-ccappliance 时，您会收到一条错误消息，例如： "未能安装新实例，出现错误：无法设置" State "，因为只有字符串可用作值来设置 XmlNode 属性"**
 
-   **解决方法：** 在 Cloudconnector.ini 中的 [Common] 部分下，请添加 "State" config，如下所示： CountryCode = US State = WA City = Redmond
+   **解决方法：** 在 Cloudconnector.ini 中的 "[Common]" 部分，请将 "State" 配置添加如下： CountryCode = US State = WA City = Redmond
 
    "State" 行不是必需的，但不能从 Cloudconnector.ini 文件中删除 "State" 行。
 
@@ -375,9 +378,9 @@ ms.locfileid: "44220222"
     
   - 如果第一个云连接器设备出现故障，并且您无法确定故障原因，则必须重新安装该设备，直到部署成功，然后再安装其他设备。
     
-  - 如果第一个云连接器设备出现问题，如外部证书问题，则可能能够在不重新安装设备的情况下解决问题。 然后，可以使用租户远程 PowerShell 将部署标记为成功，如下所示。 （如果首次部署成功，则也可以使用以下步骤，但出于某种原因，云连接器无法报告部署成功。）
+  - 如果第一个云连接器设备出现问题，如外部证书问题，则可能能够在不重新安装设备的情况下解决问题。 然后，可以使用租户远程 PowerShell 将部署标记为成功，如下所示。  (如果首次部署成功，则还可以使用以下步骤，但出于某种原因，云连接器无法将部署报告为成功。 ) 
     
-  - 若要获取第一个云连接器设备的标识（GUID），请运行 CsHybridPSTNAppliance cmdlet。
+  - 若要获取第一个云连接器设备的标识 (GUID) ，请运行 CsHybridPSTNAppliance cmdlet。
     
   - 若要将设备标记为已成功部署，请运行 CsCceApplianceDeploymentStatus，如下所示：
     
@@ -391,7 +394,7 @@ ms.locfileid: "44220222"
     
    如果你需要手动检查并安装 Windows 更新，请按照本节中适用于你的部署类型的步骤进行操作。 您应规划同时更新主机服务器和同时在其上运行的虚拟机，以最大限度地减少更新所需的停机时间量。
     
-   如果你愿意，可以使用 Windows Server Update Services （WSUS）服务器来提供云连接器服务器的更新。 只需确保将 Windows 更新配置为**不**自动安装。
+   如果你愿意，可以使用 Windows Server Update Services (WSUS) 服务器来提供云连接器服务器的更新。 只需确保将 Windows 更新配置为 **不** 自动安装。
     
    有关如何手动更新云连接器部署的信息，请参阅下一节。
     
@@ -417,16 +420,16 @@ PowerShell 将此文件创建为它所发现的模块中的 cmdlet 的缓存，�
     
      a. 临时更改：以管理员身份启动 Powershell 并运行以下命令： $env:P SModulePath = $env:P SModulePath + ";C:\Program Files\WindowsPowerShell\Modules\"
         
-     b. 对于 "永久更改"，以管理员身份启动 PowerShell 并运行以下命令之一： $CurrentValue = [环境]：： GetEnvironmentVariable （"PSModulePath"，"Machine"） SetEnvironmentVariable （"PSModulePath"，$CurrentValue + ";C:\Program Files\WindowsPowerShell\Modules "，" Machine "）
+     b. 对于 "永久更改"，以管理员身份启动 PowerShell，并逐个运行以下命令： $CurrentValue = [环境]：： GetEnvironmentVariable ( "PSModulePath"、"Machine" ) SetEnvironmentVariable ( "PSModulePath"、$CurrentValue + ";C:\Program Files\WindowsPowerShell\Modules "，" Machine ") 
 
     
 ## <a name="install-windows-updates-manually"></a>手动安装 Windows 更新
 
 如果您不想在您的环境中使用自动更新，请按照以下步骤手动检查并应用 Windows 更新。 检查并安装 Windows 更新可能需要重新启动服务器。 当主机服务器重新启动时，用户将无法使用云连接器发出或接收呼叫。 您可以手动检查并安装更新，以控制更新发生的时间，然后根据需要在选择的时间内重新启动计算机，以避免服务中断。
   
-若要手动检查更新，请连接到每台主机服务器并打开 "**控制面板"**。 选择 "**系统和安全" " \> Windows 更新**"，然后根据您的环境相应地管理更新和服务器重新启动。
+若要手动检查更新，请连接到每台主机服务器并打开 " **控制面板"**。 选择 " **系统和安全" " \> Windows 更新**"，然后根据您的环境相应地管理更新和服务器重新启动。
   
-- 如果站点中只有一个设备，请连接到每个虚拟机，然后打开 "**控制面板"**。 选择 "**系统和安全" " \> Windows 更新**"，然后根据需要配置更新和服务器重新启动。
+- 如果站点中只有一个设备，请连接到每个虚拟机，然后打开 " **控制面板"**。 选择 " **系统和安全" " \> Windows 更新**"，然后根据需要配置更新和服务器重新启动。
     
 - 如果站点中有多个设备，则在更新过程中用户无法访问正在更新和重新启动的实例。 在更新完成后，用户将连接到部署中的其他实例，直到所有虚拟机和所有 Skype for Business 服务在虚拟机上启动。 为避免任何潜在的服务中断，可以在应用更新时从 HA 中删除该实例，然后在完成后将其还原。 为此，请执行以下操作：
     
@@ -466,4 +469,4 @@ PowerShell 将此文件创建为它所发现的模块中的 cmdlet 的缓存，�
     
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
-- "处理管理" 中。
+- 过程 Microsoft.Rtc.CCE.ManagementService.exe。

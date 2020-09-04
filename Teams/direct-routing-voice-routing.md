@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何通过 Microsoft Phone 系统直接路由配置语音路由。
-ms.openlocfilehash: 0611684c79d92572ade41f2545096fe1d9bb4dd2
-ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
+ms.openlocfilehash: 37343ad177e3408f94103296509e4b9bfc8ea759
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "44159009"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359408"
 ---
 # <a name="configure-voice-routing-for-direct-routing"></a>为直接路由配置语音路由
 
@@ -29,14 +29,14 @@ ms.locfileid: "44159009"
 
 - 第 1 步 [将 SBC 连接到 Microsoft Phone 系统并验证连接](direct-routing-connect-the-sbc.md) 
 - 第 2 步 [为用户启用直接路由、语音和语音邮件](direct-routing-enable-users.md)
-- **步骤3。配置语音路由**（本文）
+- **步骤3。 (本文配置语音路由**) 
 - 第 4 步 [将数字转换为备用格式](direct-routing-translate-numbers.md) 
 
-有关设置直接路由所需的所有步骤的信息，请参阅[配置直接路由](direct-routing-configure.md)。
+有关设置直接路由所需的所有步骤的信息，请参阅 [配置直接路由](direct-routing-configure.md)。
 
 ## <a name="voice-routing-overview"></a>语音路由概述
 
-Microsoft Phone 系统具有一种路由机制，允许将呼叫发送到特定的会话边界控制器（SBC），具体取决于： 
+Microsoft Phone 系统具有一种路由机制，可用于将呼叫发送到特定的会话边界控制器 (SBC) ，具体取决于： 
 
 - 被叫号码模式 
 - 被叫号码模式和进行呼叫的特定用户
@@ -45,21 +45,28 @@ SBCs 可以指定为 "活动" 和 "备份"。 当配置为活动的 SBC 不能�
  
 语音路由由以下元素组成： 
 
-- **语音路由策略**-PSTN 使用的容器，可分配给用户或多个用户。 
+- **语音路由策略** -PSTN 使用的容器，可分配给用户或多个用户。 
 
-- **PSTN 用法**-用于语音路由和 PSTN 用途的容器，可在不同的语音路由策略中共享。 
+- **PSTN 用法** -用于语音路由和 PSTN 用途的容器，可在不同的语音路由策略中共享。 
 
-- **语音路由**-一种数字模式和一组联机 PSTN 网关，用于呼叫号码匹配模式的呼叫。
+- **语音路由** -一种数字模式和一组联机 PSTN 网关，用于呼叫号码匹配模式的呼叫。
 
-- **联机 PSTN 网关**-指向 sbc 的指针，该指针还存储通过 SBC 放置调用时应用的配置，例如，前 P 声明的身份（PAI）或首选编解码器;可添加到语音路由。
+- **联机 PSTN 网关** -指向 sbc 的指针，该指针还存储在通过 SBC 放置调用时应用的配置，例如，将 P 声明身份 (PAI) 或首选编解码器。可添加到语音路由。
+
+## <a name="voice-routing-policy-considerations"></a>语音路由策略注意事项
+
+如果用户具有呼叫计划许可证，则该用户的传出呼叫将通过 Microsoft 呼叫计划 PSTN 基础结构自动路由。 如果将联机语音路由策略配置并分配给呼叫计划用户，则会检查该用户的传出呼叫以确定所拨号码是否与联机语音路由策略中定义的数字模式匹配。 如果存在匹配项，则通过直接路由主干路由呼叫。 如果没有匹配项，则通过呼叫计划 PSTN 基础结构路由呼叫。
+
+> [!CAUTION]
+> 如果你配置并应用全球 (组织范围的默认) 联机语音路由策略，则你组织中的所有支持语音的用户将继承该策略，这可能会导致来自呼叫计划用户的 PSTN 呼叫不小心路由到直接路由主干。 如果不希望所有用户都使用全局联机语音路由策略，请配置自定义联机语音路由策略，并将其分配给单个支持语音的用户。
 
 ## <a name="example-1-voice-routing-with-one-pstn-usage"></a>示例1：使用一个 PSTN 使用的语音路由
 
 下图显示了一个呼叫流中的语音路由策略的两个示例。
 
-**呼叫流1（在左侧）：** 如果用户拨打 + 1 425 XXX xx 或 + 1 206 XXX xx xx，则该呼叫将路由到 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果 sbc1.contoso.biz 和 sbc2.contoso.biz 都不可用，则呼叫将被丢弃。 
+**通话流 1 (左侧) ：** 如果用户拨打 + 1 425 XXX xx 或 + 1 206 XXX xx xx，则该呼叫将路由到 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果 sbc1.contoso.biz 和 sbc2.contoso.biz 都不可用，则呼叫将被丢弃。 
 
-**呼叫流程2（右侧）：** 如果用户拨打 + 1 425 XXX xx 或 + 1 206 XXX xx xx，则该调用首先路由到 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果两个 SBC 均不可用，将尝试具有较低优先级的路由（sbc3.contoso.biz 和 sbc4.contoso.biz）。 如果没有 SBCs 可用，将丢弃呼叫。 
+** (右侧) 的 "呼叫流程 2"：** 如果用户拨打 + 1 425 XXX xx 或 + 1 206 XXX xx xx，则该调用首先路由到 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果两个 SBC 均不可用，将尝试使用较低优先级的路由 (sbc3.contoso.biz 和 sbc4.contoso.biz) 。 如果没有 SBCs 可用，将丢弃呼叫。 
 
 ![显示语音路由策略示例](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -68,15 +75,11 @@ SBCs 可以指定为 "活动" 和 "备份"。 当配置为活动的 SBC 不能�
   > [!NOTE]
   > 除非用户也有 Microsoft 通话计划许可证，否则将删除示例配置中除与模式 + 1 425 XXX xx xx 或 + 1 206 XXX xx 之间的任何号码。 如果用户有呼叫计划许可证，则会根据 Microsoft 通话计划的政策自动路由呼叫。 Microsoft 通话计划将自动应用为具有 Microsoft 呼叫计划许可证的所有用户的最后一个路由，并且不需要其他呼叫路由配置。
 
-在下图所示的示例中，添加了一个语音路由，用于向所有美国和加拿大的号码（拨叫号码模式 + 1 XXX XXX xx）发送呼叫。
+在下图所示的示例中，添加了一个语音路由，用于将呼叫发送给您的所有其他美国和加拿大的号码 (呼叫号码模式 + 1 XXX XXX xx xx) 。
 
 ![显示具有第三个路线的语音路由策略](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-对于所有其他呼叫：
-
-- 如果用户同时具有两个许可证（Microsoft Phone System 和 Microsoft 通话计划），则使用自动路由。 
-- 如果没有与管理员创建的在线语音路线中的数字模式匹配的内容，则呼叫将通过 Microsoft 通话计划进行路由。
-- 如果用户仅有 Microsoft Phone 系统，则呼叫将被丢弃，因为没有可用的匹配规则。
+对于所有其他呼叫，如果用户在 Microsoft Phone 系统和 Microsoft 通话计划) 中同时具有两个许可证 (，则使用自动路由。 如果没有与管理员创建的在线语音路线中的数字模式匹配的内容，则呼叫将通过 Microsoft 通话计划进行路由。 如果用户仅有 Microsoft Phone 系统，则呼叫将被丢弃，因为没有可用的匹配规则。
 
   > [!NOTE]
   > 在此情况下，路由 "其他 + 1" 的优先级值不重要，因为只有一条路线与模式 + 1 XXX XXX xx 相匹配。 如果用户拨打 + 1 324 567 89 89 且 sbc5.contoso.biz 和 sbc6.contoso.biz 都不可用，则呼叫将被丢弃。
@@ -85,9 +88,9 @@ SBCs 可以指定为 "活动" 和 "备份"。 当配置为活动的 SBC 不能�
 
 |**PSTN 用法**|**语音路由**|**号码模式**|**优先级**|**SBC**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|美国和加拿大|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|拨打的号码的活动路线 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
-|美国和加拿大|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|已呼叫号码的备份路由 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
-|美国和加拿大|"其他 + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|呼叫号码 + 1 XXX XXX xx （除 + 1 425 XXX xx 或 + 1 206 XXX xx 之间）的路由|
+|美国和加拿大|"雷德蒙 1"|^\\+ 1 (425 \| 206) # A2\d {7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|拨打的号码的活动路线 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
+|美国和加拿大|"雷德蒙 2"|^\\+ 1 (425 \| 206) # A2\d {7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|已呼叫号码的备份路由 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
+|美国和加拿大|"其他 + 1"|^\\+ 1 ( \d {10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|呼叫号码的路由 + 1 XXX XXX xx (，但 + 1 425 XXX xx 或 + 1 206 XXX xx) |
 |||||||
 
 ## <a name="example-1-configuration-steps"></a>示例1：配置步骤
@@ -99,43 +102,43 @@ SBCs 可以指定为 "活动" 和 "备份"。 当配置为活动的 SBC 不能�
 3. 创建语音路由策略。
 4. 将策略分配给名为 Spencer Low 的用户。
 
-你可以使用[Microsoft 团队管理中心](#admincenterexample1)或[PowerShell](#powershellexample1)执行这些步骤。
+你可以使用 [Microsoft 团队管理中心](#admincenterexample1) 或 [PowerShell](#powershellexample1) 执行这些步骤。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 <a name="admincenterexample1"></a>
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>步骤1：创建 "美国和加拿大" PSTN 使用
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **直接路由**"，然后在右上角选择 "**管理 PSTN 使用情况记录**"。
-2. 单击 "**添加**"，键入 "**美国和加拿大**"，然后单击 "**应用**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **直接路由**"，然后在右上角选择 "**管理 PSTN 使用情况记录**"。
+2. 单击 " **添加**"，键入 " **美国和加拿大**"，然后单击 " **应用**"。
 
-#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>步骤2：创建三个语音路线（Redmond 1、Redmond 2 和其他 + 1）
+#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>步骤2：创建三个语音路线 (雷德蒙1、雷德蒙2和其他 + 1) 
 
 以下步骤介绍如何创建语音路由。 使用这些步骤，通过使用前面表中所述的设置，为本示例创建三个名为 Redmond 1、Redmond 2 和其他 + 1 的语音路线。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **直接路由**"，然后选择 "**语音路由**" 选项卡。
-2. 单击 "**添加**"，然后输入语音路线的名称和说明。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **直接路由**"，然后选择 "**语音路由**" 选项卡。
+2. 单击 " **添加**"，然后输入语音路线的名称和说明。
 3. 设置优先级并指定拨出的号码模式。
-4. 若要使用语音路由注册 SBC，请在 " **SBCs 已注册（可选）**" 下，单击 "**添加 sbcs**"，选择要注册的 SBCs，然后单击 "**应用**"。
-5. 要添加 PSTN 使用记录，请在 " **PSTN 使用记录（可选）**" 下，单击 "**添加 PSTN 使用情况**"，选择要添加的 PSTN 记录，然后单击 "**应用**"。
+4. 若要将 SBC 注册到语音路由，请在 " **SBCs 注册 (可选) **中，单击" **添加 sbcs**"，选择要注册的 SBCs，然后单击" **应用**"。
+5. 要添加 PSTN 使用记录，请在 " **PSTN 使用记录 (可选) **下，单击" **添加 PSTN 使用情况**"，选择要添加的 PSTN 记录，然后单击" **应用**"。
 6. 单击“**保存**”。
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>步骤3：创建名为 "仅美国" 的语音路由策略，并向策略添加 "美国和加拿大" PSTN 使用情况
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **语音路由策略**"，然后单击 "**添加**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **语音路由策略**"，然后单击 "**添加**"。
 2. **仅键入 US**作为名称，然后添加说明。
-3. 在 " **PSTN 使用记录**" 下，单击 "**添加 PSTN 使用情况**"，选择 "美国和加拿大" PSTN 使用记录，然后单击 "**应用**"。
+3. 在 " **PSTN 使用记录**" 下，单击 " **添加 PSTN 使用情况**"，选择 "美国和加拿大" PSTN 使用记录，然后单击 " **应用**"。
 4. 单击“**保存**”。
 
-若要了解详细信息，请参阅[管理语音路由策略](manage-voice-routing-policies.md)。
+若要了解详细信息，请参阅 [管理语音路由策略](manage-voice-routing-policies.md)。
 
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-spencer-low"></a>步骤4：将语音路由策略分配给名为 Spencer Low 的用户
 
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
-2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
-3. 在 "**语音路由策略**" 下，选择 "仅美国" 策略，然后单击 "**保存**"。
+2. 单击 " **策略**"，然后单击 " **分配的策略**" 旁边的 " **编辑**"。
+3. 在 " **语音路由策略**" 下，选择 "仅美国" 策略，然后单击 " **保存**"。
 
-若要了解详细信息，请参阅[管理语音路由策略](manage-voice-routing-policies.md)。
+若要了解详细信息，请参阅 [管理语音路由策略](manage-voice-routing-policies.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 <a name="powershellexample1"></a>
@@ -162,7 +165,7 @@ Identity    : Global
 Usage        : {testusage, US and Canada, International, karlUsage. . .}
 ```
 
-以下示例显示运行`(Get-CSOnlinePSTNUsage).usage` Powershell 命令以显示完整名称（未截断）的结果：
+以下示例显示运行 `(Get-CSOnlinePSTNUsage).usage` Powershell 命令以显示全名 (未截断) 的结果：
 
 <pre>
  testusage
@@ -176,7 +179,7 @@ Usage        : {testusage, US and Canada, International, karlUsage. . .}
  Two trunks
 </pre>
 
-#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>步骤2：创建三个语音路线（Redmond 1、Redmond 2 和其他 + 1）
+#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>步骤2：创建三个语音路线 (雷德蒙1、雷德蒙2和其他 + 1) 
 
 若要在 Skype for business Online 的 PowerShell 会话中创建 "Redmond 1" 路线，请输入：
 
@@ -211,7 +214,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 ```
 
   > [!CAUTION]
-  > 请确保 NumberPattern 属性中的正则表达式是有效的表达式。 你可以使用此网站对其进行测试：[https://www.regexpal.com](https://www.regexpal.com)
+  > 请确保 NumberPattern 属性中的正则表达式是有效的表达式。 你可以使用此网站对其进行测试： [https://www.regexpal.com](https://www.regexpal.com)
 
 在某些情况下，需要将所有调用路由到同一 SBC;使用-NumberPattern ". *"
 
@@ -221,7 +224,7 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
 ```
 
-通过使用如下所示的选项运行`Get-CSOnlineVoiceRoute` PowerShell 命令验证是否已正确配置路由：
+通过 `Get-CSOnlineVoiceRoute` 使用如下所示的选项运行 PowerShell 命令验证是否已正确配置路由：
 
 ```PowerShell
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -306,7 +309,7 @@ US Only
 
 ![显示分配给用户 Spencer 低的语音路由策略](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-对于所有其他呼叫，如果用户同时具有两个许可证（Microsoft Phone System 和 Microsoft 通话计划），则使用自动路由。 如果没有与管理员创建的在线语音路线中的数字模式匹配的内容，则使用 Microsoft 通话计划路由呼叫。  如果用户仅有 Microsoft Phone 系统，则呼叫将被丢弃，因为没有可用的匹配规则。
+对于所有其他呼叫，如果用户在 Microsoft Phone 系统和 Microsoft 通话计划) 中同时具有两个许可证 (，则使用自动路由。 如果没有与管理员创建的在线语音路线中的数字模式匹配的内容，则使用 Microsoft 通话计划路由呼叫。  如果用户仅有 Microsoft Phone 系统，则呼叫将被丢弃，因为没有可用的匹配规则。
 
 ![显示分配给用户 John 的的语音路由策略](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
@@ -314,13 +317,13 @@ US Only
 
 |**PSTN 用法**|**语音路由**|**号码模式**|**优先级**|**SBC**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|美国和加拿大|"雷德蒙 1"|^\\+ 1 （425\|206）（\d{7}） $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|被呼叫方号码的活动路由 + 1 425 XXX XX XX 或 + 1 206 XXX xx xx|
-|美国和加拿大|"雷德蒙 2"|^\\+ 1 （425\|206）（\d{7}） $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫方号码的备份路由 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
-|美国和加拿大|"其他 + 1"|^\\+ 1 （\d{10}） $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|被呼叫方号码的路由 + 1 XXX XXX xx （除 + 1 425 XXX xx 或 + 1 206 XXX xx）|
+|美国和加拿大|"雷德蒙 1"|^\\+ 1 (425 \| 206) # A2\d {7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|被呼叫方号码的活动路由 + 1 425 XXX XX XX 或 + 1 206 XXX xx xx|
+|美国和加拿大|"雷德蒙 2"|^\\+ 1 (425 \| 206) # A2\d {7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|被呼叫方号码的备份路由 + 1 425 XXX xx XX 或 + 1 206 XXX xx xx|
+|美国和加拿大|"其他 + 1"|^\\+ 1 ( \d {10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|被呼叫方号码的路由 + 1 XXX XXX xx (，但 + 1 425 XXX xx 或 + 1 206 XXX xx) |
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|任何数字模式的路由 |
 
   > [!NOTE]
-  > - 语音路由策略中的 PSTN 用法的顺序非常重要。 使用实例按顺序应用，如果在第一次使用中发现匹配项，则从不计算其他用法。 "国际" PSTN 使用必须位于 "美国和加拿大" PSTN 使用后。 若要更改 PSTN 用法的顺序，请运行`Set-CSOnlineVoiceRoutingPolicy`命令。 <br/>例如，若要将订单从 "美国和加拿大" 的第一个和 "国际" 的订单更改为反向顺序，请执行以下操作：<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - 语音路由策略中的 PSTN 用法的顺序非常重要。 使用实例按顺序应用，如果在第一次使用中发现匹配项，则从不计算其他用法。 "国际" PSTN 使用必须位于 "美国和加拿大" PSTN 使用后。 若要更改 PSTN 用法的顺序，请运行 `Set-CSOnlineVoiceRoutingPolicy` 命令。 <br/>例如，若要将订单从 "美国和加拿大" 的第一个和 "国际" 的订单更改为反向顺序，请执行以下操作：<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - 将自动分配 "其他 + 1" 和 "国际" 语音路由的优先级。 它们的优先级与 "Redmond 1" 和 "雷德蒙 2" 相比，不是很重要。
 
 ## <a name="example-2-configuration-steps"></a>示例2：配置步骤
@@ -332,32 +335,32 @@ US Only
 3. 创建名为 "无限制" 的语音路由策略。
 4. 将策略分配给用户 John 的一对用户。
 
-你可以使用[Microsoft 团队管理中心](#admincenterexample2)或[PowerShell](#powershellexample2)执行这些步骤。
+你可以使用 [Microsoft 团队管理中心](#admincenterexample2) 或 [PowerShell](#powershellexample2) 执行这些步骤。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 <a name="admincenterexample2"></a>
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>步骤1：创建 "国际" PSTN 使用
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **直接路由**"，然后在右上角选择 "**管理 PSTN 使用情况记录**"。
-2. 单击 "**添加**"，键入 "**国际**"，然后单击 "**应用**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **直接路由**"，然后在右上角选择 "**管理 PSTN 使用情况记录**"。
+2. 单击 " **添加**"，键入 " **国际**"，然后单击 " **应用**"。
 
 #### <a name="step-2-create-the-international-voice-route"></a>步骤2：创建 "国际" 语音路由
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **直接路由**"，然后选择 "**语音路由**" 选项卡。
-2. 单击 "**添加**"，输入 "国际" 作为名称，然后添加说明。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **直接路由**"，然后选择 "**语音路由**" 选项卡。
+2. 单击 " **添加**"，输入 "国际" 作为名称，然后添加说明。
 3. 将 "优先级" 设置为 "4"，然后将 "拨打的号码" 模式设置为 "\d +"。
-4. 在 " **SBCs 注册（可选）**" 下，单击 "**添加 SBCs**"，选择 "sbc2.contoso.biz" 和 "sbc5.contoso.biz"，然后单击 "**应用**"。
-5. 在 " **PSTN 使用记录（可选）**" 下，单击 "**添加 PSTN 使用情况**"，选择 "国际" PSTN 使用记录，然后单击 "**应用**"。
+4. 在 " **SBCs 注册 (可选) **中，单击" **添加 SBCs**"，选择" sbc2.contoso.biz "和" sbc5.contoso.biz "，然后单击" **应用**"。
+5. 在 " **PSTN 使用记录 (可选) **" 下，单击 " **添加 PSTN 使用情况**"，选择 "国际" PSTN 使用记录，然后单击 " **应用**"。
 6. 单击“**保存**”。
 
 #### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions-and-add-the-us-and-canada-and-international-pstn-usages-to-the-policy"></a>步骤3：创建名为 "无限制" 的语音路由策略，并将 "美国和加拿大" 和 "国际" PSTN 使用情况添加到策略
 
 PSTN 使用 "美国和加拿大" 将在此语音路由策略中重复使用，以保留对号码 "+ 1 425 XXX xx" 和 "+ 1 206 XXX xx xx" 的特殊处理，作为本地或本地呼叫。
 
-1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音** > **语音路由策略**"，然后单击 "**添加**"。
-2. 键入 "**无限制**" 作为名称并添加说明。
-3. 在 " **PSTN 使用记录**" 下，单击 "**添加 PSTN 使用情况**"，选择 "美国和加拿大" pstn 使用记录，然后选择 "国际" pstn 使用记录。 单击“**应用**”。
+1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **语音路由策略**"，然后单击 "**添加**"。
+2. 键入 " **无限制** " 作为名称并添加说明。
+3. 在 " **PSTN 使用记录**" 下，单击 " **添加 PSTN 使用情况**"，选择 "美国和加拿大" pstn 使用记录，然后选择 "国际" pstn 使用记录。 单击“**应用**”。
 
     记下 PSTN 用法的顺序：
 
@@ -367,13 +370,13 @@ PSTN 使用 "美国和加拿大" 将在此语音路由策略中重复使用，�
 
 4. 单击“**保存**”。
 
-若要了解详细信息，请参阅[管理语音路由策略](manage-voice-routing-policies.md)。
+若要了解详细信息，请参阅 [管理语音路由策略](manage-voice-routing-policies.md)。
 
 #### <a name="step-4-assign-the-voice-routing-policy-to-a-user-named-john-woods"></a>步骤4：将语音路由策略分配给名为 John 的的用户
 
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
-2. 单击 "**策略**"，然后单击 "**分配的策略**" 旁边的 "**编辑**"。
-3. 在 "**语音路由策略**" 下，选择 "无限制" 策略，然后单击 "**保存**"。
+2. 单击 " **策略**"，然后单击 " **分配的策略**" 旁边的 " **编辑**"。
+3. 在 " **语音路由策略**" 下，选择 "无限制" 策略，然后单击 " **保存**"。
 
 结果是，应用到 John 54777 的语音政策不受限制，并且将遵循呼叫路由的逻辑，可用于美国、加拿大和国际通话。
 

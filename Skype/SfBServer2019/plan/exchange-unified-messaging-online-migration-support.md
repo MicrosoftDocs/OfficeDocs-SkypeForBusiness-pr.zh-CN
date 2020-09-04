@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在淘汰 Exchange 统一消息联机 (ExchUMO) service，2020年2月28日。 本文总结了受影响的客户应了解的内容，并将为其规划业务连续性而执行此操作。
-ms.openlocfilehash: 57f7575626d00cbd7c592349ca7a5a92c75eb34c
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255435"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359298"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
@@ -77,7 +77,7 @@ Microsoft 继续提供其他自动助理功能，客户可能会考虑他们的�
 语音邮件迁移是 Microsoft 驱动的。 如果已建立先决条件混合拓扑，则管理员不需要执行任何操作。 Microsoft 执行所需的验证和测试以确保用户的语音邮件迁移不会中断。 鼓励管理员在自己的一侧执行测试和验证。 请参阅 [针对管理员的建议测试计划和迁移后验证](#suggested-test-plan-and-post-migration-validation-for-admins) ，以获取建议的测试计划。
 
 > [!Note]
-> 不支持 Lync Server 2010。 如果使用的是2010服务器部署，则应规划服务器升级或考虑将用户迁移到 Microsoft 团队或 Skype for Business Online。  
+> 不支持 Lync Server 2010。 如果处于2010服务器部署中，则应规划服务器升级或考虑将用户迁移到 Microsoft 团队。  
 
 ### <a name="monitor-the-admin-notification-center"></a>监视管理员通知中心
 
@@ -131,55 +131,55 @@ Microsoft 365 和 Office 365 组织管理员需要在 Microsoft 云自动助理�
 
 | 服务 | 功能级别 | 功能 | 注释  | 云 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VMNETWORK  | 服务功能| 支持第三方 PBX    | 在 Exchange UM Online 中使用 SIP 通知邮件，包括提供给第三方 PBX （如 MWI (邮件等待指示器) 的所有功能 | N   | Y    |
+| VMNETWORK  | 服务功能| 支持第三方 PBX    | 在 Exchange UM Online 中使用 SIP 通知邮件，包括提供给第三方 PBX （如 MWI (邮件等待指示器) 的所有功能 | 网络   | Y    |
 | VMNETWORK | 服务功能  | 支持 Skype for Business Server   |  | Y | Y    |
-| VMNETWORK | 服务功能 | 支持 Microsoft 团队|  | Y | N    |
+| VMNETWORK | 服务功能 | 支持 Microsoft 团队|  | Y | 网络    |
 | VMNETWORK | 服务功能 | 电子数据展示和保留  | 出于安全和合规性  | Y | Y    |
 | VMNETWORK | 服务功能 | Exchange 规则支持 | 出于安全和合规性  | Y | Y    |
-| VMNETWORK | 用户功能 | PSTN 电话拨入访问  | 订阅者访问  | N | Y    |
-| VMNETWORK | 用户功能 | 委派用户  | 未接来电电子邮件  | N | Y    |
-| VMNETWORK | 用户功能 | PSTN Outlook Voice Access   | 订阅者访问  | N | Y    |
+| VMNETWORK | 用户功能 | PSTN 电话拨入访问  | 订阅者访问  | 网络 | Y    |
+| VMNETWORK | 用户功能 | 委派用户  | 未接来电电子邮件  | 网络 | Y    |
+| VMNETWORK | 用户功能 | PSTN Outlook Voice Access   | 订阅者访问  | 网络 | Y    |
 | VMNETWORK | 用户功能 | 使用经过身份验证的终结点拨入 | 调用语音邮件服务收听语音邮件和更改语音邮件设置| Y | Y    |
 | VMNETWORK | 用户功能 | 禁用语音邮件的用户设置   |  | Y | Y    |
 | VMNETWORK | 用户功能 | 用于更改个人问候语的用户设置  |  | Y | Y    |
 | VMNETWORK | 用户功能 | 用于创建 OOF 问候语的用户设置  |  | Y | Y    |
 | VMNETWORK | 用户功能 | 更改默认语言的用户设置  |  | Y | Y    |
-| VMNETWORK | 用户功能 | 使用 TTS 覆盖默认问候语的用户设置  |  | Y | N    |
+| VMNETWORK | 用户功能 | 使用 TTS 覆盖默认问候语的用户设置  |  | Y | 网络    |
 | VMNETWORK | 用户功能 | 在经过身份验证的设备 (记录个人问候语)  |  | Y | Y    |
-| VMNETWORK | 用户功能 |  (PSTN) 录制个人问候语—在电话上播放 |  | N | Y    |
-| VMNETWORK | 用户功能 | 禁用用户的用户设置 |  | N | Y    |
+| VMNETWORK | 用户功能 |  (PSTN) 录制个人问候语—在电话上播放 |  | 网络 | Y    |
+| VMNETWORK | 用户功能 | 禁用用户的用户设置 |  | 网络 | Y    |
 | VMNETWORK | 用户功能 | 听录  |  | Y | Y    |
-| VMNETWORK | 用户功能 | MWI (邮件等待指示器) 使用 SIP 通知邮件 |  | N | Y    |
+| VMNETWORK | 用户功能 | MWI (邮件等待指示器) 使用 SIP 通知邮件 |  | 网络 | Y    |
 | VMNETWORK | 用户功能 | Outlook 中的 MP3 音频文件格式    |  | Y | Y    |
 | VMNETWORK | 用户功能 | 变速播放控制 |  | Y | Y    |
 | VMNETWORK | 用户功能 | 转发语音邮件  | 将接收到的语音邮件转发给其他用户 | Y | Y    |
-| VMNETWORK | 用户功能 | 向一组用户发送语音邮件  |语音邮件广播   | N | Y   |
-| VMNETWORK | 用户功能 | 使用短信的语音邮件通知    | 用户在收到新的语音邮件时可以收到短信    | N | Y    |
+| VMNETWORK | 用户功能 | 向一组用户发送语音邮件  |语音邮件广播   | 网络 | Y   |
+| VMNETWORK | 用户功能 | 使用短信的语音邮件通知    | 用户在收到新的语音邮件时可以收到短信    | 网络 | Y    |
 | VMNETWORK | 用户功能 | 支持的问候语语言 | 详细信息如下： https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | VMNETWORK | 用户功能 | 电话应答规则 |  | Y | Y    |
-| VMNETWORK | 用户功能 | 在电话上播放 (PSTN) -播放邮件 | 在我的单元格上呼叫我以收听语音邮件  | N | Y    |
+| VMNETWORK | 用户功能 | 在电话上播放 (PSTN) -播放邮件 | 在我的单元格上呼叫我以收听语音邮件  | 网络 | Y    |
 | VMNETWORK | 用户功能 | 在电话上播放 (身份验证) -播放邮件 | 呼叫我已通过身份验证的设备  | Y | Y    |
 | VMNETWORK | 用户功能 | 多个用户之间的共享邮箱 |  | Y | Y    |
-| VMNETWORK | 呼叫者功能  | 呼叫者体验-受保护的语音邮件 | 呼叫者可以选择将记录的邮件标记为受保护的选项| N | Y    |
-| VMNETWORK | 呼叫者功能  | 呼叫者体验—专用语音邮件 | 呼叫者可以选择将录制的邮件标记为私人邮件的选项  | N | Y    |
-| VMNETWORK | 呼叫者功能  | 静音检测   |  | N | Y    |
+| VMNETWORK | 呼叫者功能  | 呼叫者体验-受保护的语音邮件 | 呼叫者可以选择将记录的邮件标记为受保护的选项| 网络 | Y    |
+| VMNETWORK | 呼叫者功能  | 呼叫者体验—专用语音邮件 | 呼叫者可以选择将录制的邮件标记为私人邮件的选项  | 网络 | Y    |
+| VMNETWORK | 呼叫者功能  | 静音检测   |  | 网络 | Y    |
 | VMNETWORK | 租户-管理员功能 | 服务器级别的受保护语音邮件    | 租户-管理员可以配置服务级别规则以将传入语音邮件标记为受保护 | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改录制持续时间限制  |     | Y | Y    |
-| VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 无    | Y    |
-| VMNETWORK | 租户-管理员功能 | 更改输入失败的次数 | CVM：硬编码为3 | N | Y    |
+| VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 不适用    | Y    |
+| VMNETWORK | 租户-管理员功能 | 更改输入失败的次数 | CVM：硬编码为3 | 网络 | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改默认语言 |  | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | Disable/enable |  | Y | Y    |
-| VMNETWORK | 租户-管理员功能 | 禁用/启用未接来电通知 |  | N | Y    |
+| VMNETWORK | 租户-管理员功能 | 禁用/启用未接来电通知 |  | 网络 | Y    |
 | VMNETWORK | 租户-管理员功能 | 帮助 Microsoft 改进语音邮件预览    |  | Y | Y    |
-| VMNETWORK | 租户-管理员功能 | 为已启用的用户自定义短信|  | 无    | Y    |
-| VMNETWORK | 租户-管理员功能 | 应对猥亵屏蔽|  | Y | N    |
+| VMNETWORK | 租户-管理员功能 | 为已启用的用户自定义短信|  | 不适用    | Y    |
+| VMNETWORK | 租户-管理员功能 | 应对猥亵屏蔽|  | Y | 网络    |
 | VMNETWORK | 租户-管理员功能 | 语音邮件策略    |   | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | Web 门户管理   |  | CY19   | Y    |
 | VMNETWORK | 租户-管理员功能 | PowerShell   |  | Y | Y    |
 | UM | 用户功能 | Skype for Business 认证电话上的邮件等待指示器 (MWI)    |可能由电话合作伙伴提供  | 否 | 是    |
-| AA | 服务功能 | AA 支持第三方 PBX    |  | N | Y    |
+| AA | 服务功能 | AA 支持第三方 PBX    |  | 网络 | Y    |
 | AA | 服务功能 | 支持 Skype for Business Server   |  | Y | Y    |
-| AA | 服务功能 | 支持 Microsoft 团队|  | Y | N    |
+| AA | 服务功能 | 支持 Microsoft 团队|  | Y | 网络    |
 | AA | 服务功能 | 按名称拨号，DTMF 输入    |  | Y | Y    |
 | AA | 服务功能 | 按名称拨号，语音输入  |  | Y | Y    |
 | AA | 服务功能 | 多语言支持 | 此处为语言详细信息： https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
@@ -188,7 +188,7 @@ Microsoft 365 和 Office 365 组织管理员需要在 Microsoft 云自动助理�
 | AA | 服务功能 | 外部转接到 PSTN 号码  |  | 查看下面的 "已知问题" 部分 | Y    |
 | AA | 服务功能 | 营业时间 |  | Y | Y    |
 | AA | 服务功能 | 菜单选项 | IVR 菜单选项  | Y | Y    |
-| AA | 服务功能 | 向 AA 分配云 PSTN 号码 |  | Y | N    |
+| AA | 服务功能 | 向 AA 分配云 PSTN 号码 |  | Y | 网络    |
 | AA | 服务功能 | 为 AA 分配本地 PSTN 号码  |  | Y | Y    |
 | AA | 服务功能 | 自定义用户选择  | 使呼叫者能够访问组织用户的自定义列表| Y | Y    |
 | AA | 服务功能 | 工作时间和假日处理  |  | Y | Y    |
@@ -196,9 +196,9 @@ Microsoft 365 和 Office 365 组织管理员需要在 Microsoft 云自动助理�
 | AA | 服务功能 | 分机拨号   | 通过拨打用户的分机来联系用户  | Y   | Y    |
 | AA | 服务功能 | 供 AA 呼叫者用来留下邮件的邮箱    |  | Y   | Y    |
 | AA | 服务功能 | 向 AA 分配多个 PSTN 号码|  | Y | Y    |
-| AA | 租户-管理员功能 | Web 门户管理   |  | Y | N    |
+| AA | 租户-管理员功能 | Web 门户管理   |  | Y | 网络    |
 | AA | 租户-管理员功能 | PowerShell cmdlet  |  | Y | Y    |
-| Fax| 服务功能 | 传真集成|  | N | Y    |
+| Fax| 服务功能 | 传真集成|  | 网络 | Y    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>针对管理员的建议测试计划和迁移后验证
 

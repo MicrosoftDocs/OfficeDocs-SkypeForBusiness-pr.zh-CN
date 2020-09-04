@@ -15,25 +15,28 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
-description: 了解有关在云连接器版本中部署多个 PSTN 站点的信息。
-ms.openlocfilehash: 1276d436a05e5151bdc90c19bbf41b8e90d913bf
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+description: 了解如何在云连接器版本中部署多个 PSTN 站点。
+ms.openlocfilehash: 3c777c54690b1eb31671f71cff915f1bb4854a0d
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887631"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358918"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>在云连接器中部署多个站点
- 
-了解有关在云连接器版本中部署多个 PSTN 站点的信息。
-  
-本节介绍如何部署多个公用电话交换网 (PSTN) 站点。这些站点通过使用与部署单个站点相同的步骤，以每次一个的方式进行部署。本主题介绍多站点部署中的注意事项以及各站点之间的差异。 
-  
-## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>多个公用电话交换网 (PSTN) 站点
 
-以下示例显示了用于部署不同 PSTN 站点的 Skype for Business 云连接器版本的配置示例。 开始部署之前，请确保你的配置设置正确无误。
+> [!Important] 
+> 云连接器版本将在2021年7月31日和 Skype for Business Online 之间终止。 组织升级到团队后，了解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)将本地电话网络连接到团队。
+
+了解如何在云连接器版本中部署多个 PSTN 站点。
   
-PSTN 站点 1
+本节介绍如何将多个公用电话交换电话网络 (PSTN) 站点部署。 使用与部署单个网站相同的步骤一次部署一个网站。 本主题介绍多站点部署中的网站之间的注意事项和差异。 
+  
+## <a name="multiple-public-switched-telephone-network-pstn-sites"></a> (PSTN) 站点的多个公用电话交换电话网络
+
+下面显示了为不同 PSTN 站点部署 Skype for Business 云连接器版本的示例配置。 在开始部署之前，请确保您的配置设置正确。
+  
+PSTN 站点1
   
 ```console
 [Common]
@@ -51,7 +54,7 @@ ExternalMRIPs=192.168.1.4
 ExternalMRPublicIPs=23.99.115.35
 ```
 
-PSTN 站点 2
+PSTN 站点2
   
 ```console
 [Common]
@@ -69,32 +72,32 @@ ExternalMRIPs=192.168.1.5
 ExternalMRPublicIPs=104.42.226.134
 ```
 
-对于要添加的每个 PSTN 网站，请按照在[云连接器中部署单个网站](deploy-a-single-site-in-cloud-connector.md)中的步骤进行操作。
+对于要添加的每个 PSTN 站点，按照 "在 [云连接器中部署单个站点](deploy-a-single-site-in-cloud-connector.md)" 中的步骤操作。
   
 > [!IMPORTANT]
-> 每个 PSTN 站点应具有单独的用于准备高可用性 (HA) 的共享文件夹。 不同 PSTN 站点**必须**使用不同的共享文件夹。 不要对多个网站使用同一个共享文件夹。 > 
+> 为每个 PSTN 站点准备高可用性 (HA) 的共享文件夹。 PSTN 站点之间的共享文件夹 **必须** 不同。 请勿对多个网站使用相同的共享文件夹。 > 
   
-## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>支持高可用性 (HA) 的单站点部署与多站点部署比较
+## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>与多站点部署相比具有高可用性 (HA) 的单个站点
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>
 
-下表列出了支持 HA 的单站点部署与多站点部署之间的差异。
+下表列出了具有 HA 支持的单站点和多站点部署之间的差异。
   
-|**类别**|**项目**|**支持 HA 的单站点**|**多站点**|
+|**类别**|**项**|**具有 HA 的单站点**|**多站点**|
 |:-----|:-----|:-----|:-----|
-|配置  <br/> |装置主机名 <br/> |设备之间**不同** <br/> |PSTN 站点之间**不同** <br/> |
-|设置  <br/> |共享文件夹  <br/> |跨设备需要**相同**的共享文件夹 <br/> |不同设备需要**不同**的共享文件夹 <br/> |
-|配置  <br/> |VirtualMachineDomain  <br/> |不同设备需要**相同**的域 <br/> |不同 PSTN 站点需要**相同**的域 <br/> |
-|配置  <br/> |SIP 域  <br/> |域名和顺序应在多个设备上是**相同**的 <br/> |域名和顺序在 PSTN 网站中应**相同** <br/> |
-|配置  <br/> |站点名称  <br/> |不同设备具有**相同**的站点名称 <br/> |不同 PSTN 站点具有**不同**的站点名称 <br/> |
-|配置  <br/> |服务器名称  <br/> |设备之间**不同** <br/> |PSTN 站点之间**不同** <br/> |
-|配置  <br/> |内部池 FQDN  <br/> |设备之间**相同** <br/> |PSTN 站点之间**相同** <br/> |
-|配置  <br/> |内部 IP  <br/> |设备之间**不同** <br/> |PSTN 站点之间**不同** <br/> |
-|配置  <br/> |外部 FQDN  <br/> |设备之间**相同** <br/> |PSTN 站点之间**不同** <br/> |
-|配置  <br/> |外部 IP  <br/> |设备之间**不同** <br/> |PSTN 站点之间**不同** <br/> |
-|配置  <br/> |PSTN 网关设置  <br/> |设备之间**相同** <br/> |PSTN 站点之间**不同** <br/> |
-|配置  <br/> |DNS 记录  <br/> |添加具有**相同**外部访问 fqdn 和**不同**IP 地址的记录 <br/> |添加包含**不同**外部访问 FQDN 和**不同** IP 地址的记录 <br/> |
-|设置  <br/> |混合租户  <br/> |设置 HybridPSTNSite  <br/> 设置用于回退的 PeerDestination  <br/> |设置 HybridPSTNSite  <br/> 设置用于回退的 PeerDestination  <br/> |
-|设置  <br/> |网关  <br/> |此站点中采用 MS GW **M:N** 映射 <br/> |每个 PSTN 站点中的 PSTN 网关应只连接到同一站点中的中介服务器  <br/> |
-|设置  <br/> |用户  <br/> |设置 UserPSTNSettings  <br/> |设置 UserPSTNSettings  <br/> |
+|配置  <br/> |设备主机名 <br/> |跨设备**不同** <br/> |PSTN 站点之间**不同** <br/> |
+|设置  <br/> |共享文件夹  <br/> |跨设备需要 **相同** 的共享文件夹 <br/> |跨设备需要 **不同** 的共享文件夹 <br/> |
+|配置  <br/> |VirtualMachineDomain  <br/> |跨设备需要 **相同** 的域 <br/> |在 PSTN 站点上需要 **相同** 的域 <br/> |
+|配置  <br/> |SIPDomains  <br/> |跨设备的域名和顺序应**相同** <br/> |PSTN 站点之间的域名和顺序应**相同** <br/> |
+|配置  <br/> |网站名称  <br/> |**相同** 跨设备的站点名称 <br/> |**不同** PSTN 站点之间的站点名称 <br/> |
+|配置  <br/> |服务器名称  <br/> |跨设备**不同** <br/> |PSTN 站点之间**不同** <br/> |
+|配置  <br/> |内部池 Fqdn  <br/> |跨设备**相同** <br/> |PSTN 站点之间**相同** <br/> |
+|配置  <br/> |内部 Ip  <br/> |跨设备**不同** <br/> |PSTN 站点之间**不同** <br/> |
+|配置  <br/> |外部 FQDN  <br/> |跨设备**相同** <br/> |PSTN 站点之间**不同** <br/> |
+|配置  <br/> |外部 Ip  <br/> |跨设备**不同** <br/> |PSTN 站点之间**不同** <br/> |
+|配置  <br/> |PSTN GW 设置  <br/> |跨设备**相同** <br/> |PSTN 站点之间**不同** <br/> |
+|配置  <br/> |DNS 记录  <br/> |添加具有 **相同** 外部访问 fqdn 和 **不同** IP 地址的记录 <br/> |添加具有 **不同** 外部访问 fqdn 和 **不同** IP 地址的记录 <br/> |
+|设置  <br/> |混合租户  <br/> |设置 HybridPSTNSite  <br/> 设置 PeerDestination 以进行回退  <br/> |设置 HybridPSTNSite  <br/> 设置 PeerDestination 以进行回退  <br/> |
+|设置  <br/> |网关  <br/> |此站点中的 MS GW **M:N** 映射 <br/> |PSTN 网关 (s) 在每个 PSTN 站点中只应连接到同一站点中的中介服务器 (s)   <br/> |
+|设置  <br/> |User  <br/> |设置 UserPSTNSettings  <br/> |设置 UserPSTNSettings  <br/> |
    
 

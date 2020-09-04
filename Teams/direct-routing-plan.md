@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 了解 Microsoft Phone 系统直接路由如何让你连接受支持的客户提供的会话边界控制器 (SBC) Microsoft Phone System。
-ms.openlocfilehash: bb711b72fb200ceec9d2c50c86f6f977436c9c02
-ms.sourcegitcommit: cd16ff6007e0a798493e2fa469c6681993380420
+ms.openlocfilehash: f6ff76e2bb5725e7e574a7ea6c87ab5e99a6adc1
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2020
-ms.locfileid: "46860803"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359398"
 ---
 # <a name="plan-direct-routing"></a>规划直接路由
 
@@ -34,7 +34,10 @@ Microsoft Phone 系统直接路由使你可以将支持客户提供的会话边�
 ![显示本地 PSTN 连接配置的图表](media/PlanDirectRouting1-PSTNwithTeams.png "与 Microsoft 团队客户端的本地 PSTN 连接配置")
 
   > [!NOTE]
-  > Skype for Business Online 还允许你与客户提供的 SBC 配对，但这需要一个本地 Skype for business 服务器部署或特殊版本的 Skype for business （称为云连接器），它位于 SBC 和 Microsoft 云之间。 此方案称为混合语音。 相比之下，直接路由允许受支持的 SBC 和 Microsoft 云之间的直接连接。 
+  > Skype for Business Online 还允许你与客户提供的 SBC 配对，但这需要一个本地 Skype for business 服务器部署或特殊版本的 Skype for business （称为云连接器），它位于 SBC 和 Microsoft 云之间。 此方案称为混合语音。 相比之下，直接路由允许受支持的 SBC 和 Microsoft 云之间的直接连接。
+
+> [!Important]
+> 云连接器版将于2021年7月31日与 Skype for Business Online 一起终止。 组织升级到团队后，了解如何使用 [直接路由](direct-routing-landing-page.md)将本地电话网络连接到团队。 
 
 通过直接路由，你可以将 SBC 连接到几乎任何电话中继或与第三方 PSTN 设备互连。 直接路由使您能够： 
 

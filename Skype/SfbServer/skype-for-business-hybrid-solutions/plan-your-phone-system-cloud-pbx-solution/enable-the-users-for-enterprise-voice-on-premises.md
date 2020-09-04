@@ -18,17 +18,20 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
-description: 若要让用户使用电话系统（云 PBX），必须首先为企业语音启用它们并为其分配一个电话号码。 您可以使用本地部署执行此操作，同时用户仍驻留在本地部署中。
-ms.openlocfilehash: f02638f618b32190fafcded66550b5c3dcc52f2d
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: 若要使用户 (云 PBX) 使用电话系统，必须先为其启用企业语音并为其分配一个电话号码。 您可以使用本地部署执行此操作，同时用户仍驻留在本地部署中。
+ms.openlocfilehash: 7fc629114900cb9f4d825bd8fdc8e946e6c63880
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221696"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359188"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>为用户启用企业语音（本地）
  
-若要让用户使用电话系统（云 PBX），必须首先为企业语音启用它们并为其分配一个电话号码。 您可以使用本地部署执行此操作，同时用户仍驻留在本地部署中。
+若要使用户 (云 PBX) 使用电话系统，必须先为其启用企业语音并为其分配一个电话号码。 您可以使用本地部署执行此操作，同时用户仍驻留在本地部署中。
+
+> [!Important]
+> Skype for Business Online 将于2021年7月31日终止，之后服务将无法再访问。  此外，在本地环境中是否通过 Skype for Business Server 或云连接器版本以及 Skype for Business Online 的 PSTN 连接将不再受支持。  了解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)将本地电话网络连接到团队。
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>为用户启用企业内部语音和分配电话号码
 
@@ -44,11 +47,11 @@ ms.locfileid: "44221696"
     
 5. 在表中，单击要为企业语音启用的 Skype for Business Online 用户帐户。
     
-6. 在 "**编辑**" 菜单上，单击 "**显示详细信息**"。
+6. 在 " **编辑** " 菜单上，单击 " **显示详细信息**"。
     
-7. 在 "**电话**" 下，单击 "**企业语音**"。
+7. 在 " **电话**" 下，单击 " **企业语音**"。
     
-8. 单击 "**线路 URI**"，然后键入唯一的规范化电话号码（例如，电话： + 14255550200）。 然后单击 "**提交**"。
+8. 单击 " **线路 URI**"，然后键入唯一的规范化电话号码 (例如，电话： + 14255550200) 。 然后单击 " **提交**"。
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>为用户启用企业内部语音时的特殊注意事项
 

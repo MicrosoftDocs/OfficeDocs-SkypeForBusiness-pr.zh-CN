@@ -20,15 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: 了解如何配置 Skype for Business 云连接器版本（最小本地拓扑），以便能够将本地语音基础结构与 Skype for Business Online 中的电话系统 (云 PBX) 语音服务集成。
-ms.openlocfilehash: a7c157836497383d89055f8ab986aa15f7e11870
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: e30fcb4cad44bffed495f1191e5e5cae73bb18cc
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219512"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358788"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>配置和管理 Skype for Business 云连接器版本
  
+> [!Important]
+> 云连接器版本将在2021年7月31日和 Skype for Business Online 之间终止。 组织升级到团队后，了解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)将本地电话网络连接到团队。
+
 了解如何配置 Skype for Business 云连接器版本（最小本地拓扑），以便能够将本地语音基础结构与 Skype for Business Online 中的电话系统 (云 PBX) 语音服务集成。 
   
 在开始之前，应查看 [Plan For Skype For Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)中的先决条件。

@@ -19,15 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 摘要：阅读本主题，了解如何为使用具有本地 PSTN 连接的电话系统的用户分配语音策略。
-ms.openlocfilehash: 141d3cca560201df921fb4195db55ac60103a3d6
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 5d56d4f88e30b605276296b35cd9f316348342ca
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221856"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359318"
 ---
 # <a name="assign-a-voice-routing-policy"></a>分配语音路由策略
  
+> [!Important]
+> Skype for Business Online 将于2021年7月31日终止，之后服务将无法再访问。  此外，在本地环境中是否通过 Skype for Business Server 或云连接器版本以及 Skype for Business Online 的 PSTN 连接将不再受支持。  了解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)将本地电话网络连接到团队。
+
 **摘要：** 阅读本主题，了解如何为使用具有本地 PSTN 连接的电话系统的用户分配语音策略。 
   
 一旦用户在 Skype for Business Online 中使用具有本地 PSTN 连接的电话系统，将对其应用两个语音策略。 一个是您将在本地分配的本地语音路由策略。 此策略可以是全局策略，也可以是特定于用户的策略，并定义哪些 PSTN 用法记录与用户相关联。 本主题说明如何分配此策略。
@@ -49,7 +52,7 @@ ms.locfileid: "44221856"
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **skype for business 2015**"，然后单击 " **skype for business Server Management Shell**"。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击 " **开始**"、" **所有程序**"、" **skype for business 2015**"，然后单击 " **skype for business Server Management Shell**"。
     
 3. 将 PSTN 用法记录添加到策略：
     
@@ -69,7 +72,7 @@ ms.locfileid: "44221856"
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **skype for business 2015**"，然后单击 " **skype for business Server Management Shell**"。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击 " **开始**"、" **所有程序**"、" **skype for business 2015**"，然后单击 " **skype for business Server Management Shell**"。
     
 3. 创建新的语音路由策略：
     
@@ -93,7 +96,7 @@ ms.locfileid: "44221856"
 
 1. 使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
     
-2. 启动 Skype for Business Server 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **skype for business 2015**"，然后单击 " **skype for business Server Management Shell**"。
+2. 启动 Skype for Business Server 命令行管理程序：依次单击 " **开始**"、" **所有程序**"、" **skype for business 2015**"，然后单击 " **skype for business Server Management Shell**"。
     
 3. 向用户分配现有语音策略：
     
@@ -109,6 +112,6 @@ ms.locfileid: "44221856"
 
 在此示例中，显示名称为小明凯利的用户分配给以前创建的名为为 hybridvoice 的语音策略。
   
-有关语音路由策略的更多详细信息，请参阅[Create or modify a voice policy and CONFIGURE PSTN usage records In Skype For business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)、 [Grant-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)和[Grant set-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)。
+有关语音路由策略的更多详细信息，请参阅 [Create or modify a voice policy and CONFIGURE PSTN usage records In Skype For business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)、 [Grant-csvoiceroutingpolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)和 [Grant set-csvoicepolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)。
   
 

@@ -16,18 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 了解如何在云连接器版本中部署单个 PSTN 站点。
-ms.openlocfilehash: 334454645be3361794fdd0d16076095a518e58b0
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 327fc4e687377f5f1338bea2f623b526511a2992
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220532"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47358928"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>在云连接器中部署单个站点
  
+> [!Important]
+> 云连接器版本将在2021年7月31日和 Skype for Business Online 之间终止。 组织升级到团队后，了解如何使用 [直接路由](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)将本地电话网络连接到团队。
+
 了解如何在云连接器版本中部署单个 PSTN 站点。
   
-您可以部署具有或不具有高可用性（HA）支持的 Skype for Business 云连接器版本。 如果要启用 HA，则需要在站点中部署两个或更多个设备。 您还可以在部署现有设备后将其转换为支持 HA。
+您可以部署具有或不具有高可用性 (HA) 支持的 Skype for Business 云连接器版本。 如果要启用 HA，则需要在站点中部署两个或更多个设备。 您还可以在部署现有设备后将其转换为支持 HA。
   
 ## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>部署第一个 Skype for Business 云连接器版本设备
 
@@ -53,7 +56,7 @@ Install-CcAppliance
 
 您可以通过向站点添加其他设备来扩展现有云连接器网站，以支持 HA。 
   
-1. 按照[准备云连接器设备](prepare-your-cloud-connector-appliance.md)中所述的步骤准备云连接器设备。 请注意，仅在部署中的第一台设备上需要一些步骤。 确认网站目录存在，并且已正确配置 HA 支持。
+1. 按照 [准备云连接器设备](prepare-your-cloud-connector-appliance.md)中所述的步骤准备云连接器设备。 请注意，仅在部署中的第一台设备上需要一些步骤。 确认网站目录存在，并且已正确配置 HA 支持。
     
 2. 仅在新添加的主机服务器上运行以下 cmdlet，以更新 Microsoft 365 或 Office 365 组织配置中的拓扑信息。 如果要同时添加多个设备，请逐个在每个新添加的主机服务器上运行 cmdlet：
     
