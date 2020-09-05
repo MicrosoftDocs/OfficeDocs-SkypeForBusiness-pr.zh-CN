@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3486df0ca12303a9351c756df4184f160e95ab34
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: a2d10048cf668c15060147b8426c5226e98fdaa4
+ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868691"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47359378"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>在共享计算机上安全使用 Microsoft Teams
 
@@ -46,18 +46,20 @@ ms.locfileid: "46868691"
 
 1. 利用操作系统平台的安全功能。
     1. 确保操作系统已配置为自动安装来自操作系统提供商的更新（ Microsoft 系统可通过 [**Windows 更新**](https://support.microsoft.com/help/12373/windows-update-faq)进行设置）。 
-    2. 确保已启用设备加密功能，如 [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) 等，并确保访问设备的密匙也受到保护。  请注意，大多数新式[**Windows 10 设备支持 bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
+    1. 确保已启用设备加密功能，如 [**bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview) 等，并确保访问设备的密匙也受到保护。  请注意，大多数新式[**Windows 10 设备支持 bitlocker**](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
     1. 使用 [**Windows Defender**](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 等提供的防病毒功能。
     1. 强烈建议每个用户用[单独的用户帐户](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)使用同一系统。
     1. *不要*对非管理功能授予或使用管理员特权（例如浏览网页、启动 Teams 等）。
 
-2. 利用浏览器的安全功能。
+如果无法满足上述指南，我们建议使用其他浏览器安全最佳方案：
+
+1. 利用浏览器的安全功能。
     1. 启用隐私浏览模式，尽量减少保留在磁盘上的数据与历史记录。 例如，[在 Microsoft Edge 中以 inPrivate 模式进行浏览](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)， [在Google Chrome 中以无痕模式进行浏览](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)，或使用其他浏览器的隐私浏览功能。 
     1. 建议将系统行为设置为*默认使用*隐私浏览模式。 
 
-3. 浏览到并使用 [Teams web 应用](https://teams.microsoft.com) （或称为 *web* 客户端），而不用可下载的 Teams 客户端。
+2. 浏览到并使用 [Teams web 应用](https://teams.microsoft.com) （或称为 *web* 客户端），而不用可下载的 Teams 客户端。
 
-4. 使用完共享系统后，您必须： 
+3. 使用完共享系统后，您必须： 
     1. [注销 Teams](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487)。
     1. 关闭所有浏览器选项卡和窗口。
     1. 注销此设备。
