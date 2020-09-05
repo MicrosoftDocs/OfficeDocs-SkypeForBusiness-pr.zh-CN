@@ -18,26 +18,26 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 大致了解哪些端口订单，以及如何将电话号码从服务提供商转移到团队。
-ms.openlocfilehash: bc15d7be98f83b39a7dde006e3043b407b76a63e
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: ecc14566573cf90d24323e65491851be86252b1a
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665894"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399517"
 ---
 # <a name="whats-a-port-order"></a>什么是转网订单？
 
-如果您当前有电话服务提供商或运营商，并且您的用户或服务已有电话号码，则需要创建 "*端口顺序*" 以将这些电话号码转移到 Microsoft 团队。 当号码被移植时，您可以将这些电话号码分配给您的用户和服务，例如音频会议（适用于会议桥）、自动助理和通话队列。
+如果您当前有电话服务提供商或运营商，并且您的用户或服务已有电话号码，则需要创建 "*端口顺序*" 以将这些电话号码转移到 Microsoft 团队。 当号码被移植时，您可以将这些电话号码分配给您的用户和服务，例如) 、自动助理和通话队列的音频会议 (。
   
 将您的电话号码移植到团队后，Microsoft 将成为您的服务提供商，您可以将您的服务与您的旧服务提供商或运营商断开连接。
 
-查看本文中的信息，了解数字移植。 之后，你应该准备好创建一个端口订单并转移你的电话号码。 有关分步说明，请参阅[将电话号码转移到团队](transfer-phone-numbers-to-teams.md)。
+查看本文中的信息，了解数字移植。 之后，你应该准备好创建一个端口订单并转移你的电话号码。 有关分步说明，请参阅 [将电话号码转移到团队](transfer-phone-numbers-to-teams.md) 。
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>哪些国家或地区支持号码移植？
 
-您可以将电话号码移植或转移到所有受支持的国家或地区，但如何提交端口订单请求取决于电话号码来自的国家或地区。 有关支持号码移植的国家和地区的列表，请参阅[管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
+您可以将电话号码移植或转移到所有受支持的国家或地区，但如何提交端口订单请求取决于电话号码来自的国家或地区。 有关支持号码移植的国家和地区的列表，请参阅 [管理您的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
 
-当前，Microsoft 团队管理中心中[的移植向导](transfer-phone-numbers-to-teams.md)支持为英国、美国和加拿大获取电话号码。 若要获取其他国家和地区的电话号码，您可以[手动提交一个端口订单](manually-submit-port-order.md)。
+当前，Microsoft 团队管理中心中 [的移植向导](transfer-phone-numbers-to-teams.md) 支持为英国、美国和加拿大获取电话号码。 若要获取其他国家和地区的电话号码，您可以 [手动提交一个端口订单](manually-submit-port-order.md)。
   
 ## <a name="what-numbers-can-be-transferred"></a>哪些号码可以转移？
 
@@ -57,7 +57,7 @@ ms.locfileid: "44665894"
 - 免费电话号码。
 
     > [!NOTE]
-    > 通用国际 Freephone 号码（UIFN）无法转让给我们。 
+    > 通用国际 Freephone 号码 (UIFN) 无法转接给我们。 
   
 - 服务电话号码，例如，用于会议网桥、自动助理等的电话号码。
 
@@ -70,13 +70,13 @@ ms.locfileid: "44665894"
   **您无法转移：**
   
     > [!NOTE]
-    > 此时，您无法从受支持的国家或地区（包括来自 VoIP 电话提供商的电话号码）传输任何电话号码或号码。 有关受支持的国家/地区的列表，请参阅[音频会议和通话计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+    > 此时，您无法从受支持的国家或地区（包括来自 VoIP 电话提供商的电话号码）传输任何电话号码或号码。 有关受支持的国家/地区的列表，请参阅 [音频会议和通话计划的国家和地区可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - 用于 DSL 线路或宽带 Internet 连接等数据连接的电话号码。
 
 - 专用于收发传真的电话号码。
 
-    如果您有用于传真的现有专用电话号码，您*可以*将这些号码转移到团队，但您的传真服务不会继续按预期工作。 传真服务对团队客户不可用，即使你拥有电话系统、国内呼叫计划或国际呼叫计划的许可证也是如此。
+    如果您有用于传真的现有专用电话号码，您  *可以*  将这些号码转移到团队，但您的传真服务不会继续按预期工作。 传真服务对团队客户不可用，即使你拥有电话系统、国内呼叫计划或国际呼叫计划的许可证也是如此。
 
     如果你将电话号码移植到团队，则可以将此电话号码分配给组织中的用户，而不是使用它进行传真。
 
@@ -91,13 +91,13 @@ ms.locfileid: "44665894"
 
 当您将电话号码移植到团队时，您可以选择转移所有号码或其中的一些号码。
   
-- **完整端口**这是将当前服务提供商的所有号码转移到团队的时候。 当系统要求您提供要转移的电话号码时，您必须在您的帐户上*包含*帐单电话号码（BTN）以及其他所有电话号码。
+- **完整端口** 这是将当前服务提供商的所有号码转移到团队的时候。 当系统要求您提供要转接的电话号码时，您必须在 BTN) 中 *包含* 帐单电话 (号码，以及您的帐户上的其他电话号码。
 
-    例如，假设您的 BTN 是 *+ 1 425-555-1234* ，并且您想要将您的所有25个电话号码（*+ 1 425-555-1235 至 1259*）移植到一起。 按照下面的说明转网号码时，你应该输入： **+14255551234 - +14255551259** 。
+    例如，假设您的 BTN 是  *+ 1 425-555-1234*  ，并且您想要将25个电话号码) 中的所有25个电话号码移植 (*+ 1 425-555-1235 至 1259* 。 按照下面的说明转网号码时，你应该输入： **+14255551234 - +14255551259** 。
 
-- **部分端口**这是仅将当前服务提供商的一些电话号码转移到团队的时候。 如果您想要将某些电话号码移植到同一 BTN，您的 * **不得包含** * BTN 以及您的帐户上的其他所有电话号码。
+- **部分端口** 这是仅将当前服务提供商的一些电话号码转移到团队的时候。 如果您想要将某些电话号码移植到同一 BTN，您的 * * *不得包含* * * BTN 以及您的帐户上的其他所有电话号码。
 
-    例如，假设您的 BTN 是 *+ 1 425-555-1234* ，并且您只想移植25个电话号码的5个（*+ 1 425-555-1235 至 1259*）。 按照以下说明转移您的号码时，您可以输入： **+ 1 425 555 1235-+ 1 425 555 1239**。
+    例如，假设您的 BTN 是  *+ 1 425-555-1234*  ，您只希望将25个电话号码中的5个拨出25个电话号码 (*+ 1 425-555-1235 至 1259*) 。 按照以下说明转移您的号码时，您可以输入： **+ 1 425 555 1235-+ 1 425 555 1239**。
     
 ## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>我是否可以一次性针对我的所有号码提交一个携号转网请求？
 <a name="bkmk_type_1"> </a>
@@ -118,9 +118,9 @@ ms.locfileid: "44665894"
   
 - 不同运营商提供的**电话号码**需要对每个运营商的号码进行唯一的移植请求。
 
-- 带有区号的免费**电话号码**，如：800、844、855、866、877和888不能包含在具有其他类型的号码的数字移植请求中。 若要移植这些免费号码，您必须[手动提交一个端口订单](manually-submit-port-order.md)。 您无法将这些号码移植到 Microsoft 团队管理中心。 有关详细信息，请参阅[为你的组织管理电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- 带有区号的免费**电话号码**，如：800、844、855、866、877和888不能包含在具有其他类型的号码的数字移植请求中。 若要移植这些免费号码，您必须 [手动提交一个端口订单](manually-submit-port-order.md)。 您无法将这些号码移植到 Microsoft 团队管理中心。 有关详细信息，请参阅[为你的组织管理电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-    对于要移植的国家和电话号码的类型，请务必使用正确的授权书（LOA）。 你可以在[此处下载所需的 LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+    请务必使用正确的授权书 (LOA) 用于您想要为其进行端口的国家和地区的电话号码。 你可以在 [此处下载所需的 LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 - **移动电话号码** 需使用 PIN 码来授权转移操作。 因此，它们需要单独的携号转网请求。
 
@@ -131,12 +131,20 @@ ms.locfileid: "44665894"
 
 完成了端口订单请求后，将在7-14 天内处理。 但是，根据你的服务提供商，可能需要花费长达 30 天时间。 拨打电话号码后，您将收到一封电子邮件，让您可以使用。
   
-若要检查您的端口顺序的状态，请在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **电话号码**"，然后单击 "**订单历史记录**"。 每个端口订单状态都在 "**状态**" 列中列出。
+若要检查您的端口顺序的状态，请在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **电话号码**"，然后单击 "**订单历史记录**"。 每个端口订单状态都在 " **状态** " 列中列出。
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>用户（订阅者）电话号码是否可以转换为服务号码？
 <a name="bkmk_type_1"> </a>
 
-可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 若要执行此操作，请参阅[管理你的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+可以。 你只需要提交一个服务请求，在请求中提供你组织的租户 GUID 和你要转换的电话号码。 若要执行此操作，请参阅 [管理你的组织的电话号码](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+
+## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我是否可以将我的号码从团队移植到其他电话服务提供商或运营商？
+
+要将来自团队的数字移植到不同的运营商，您必须提交新运营商的请求。 你还需要在 Microsoft 团队管理中心中设置一个移植 PIN。
+
+若要定义你的移植 PIN，请在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **电话号码**"，在页面右上角选择 "**管理移植 PIN**"，然后输入一个10位数字的 pin 码。
+
+当新运营商通过移植请求与我们联系时，我们将要求他们提供你定义的 PIN。
 
 ## <a name="common-mistakes-to-watch-out-for"></a>需要注意的常见错误
 <a name="bkmk_type_1"> </a>

@@ -16,16 +16,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 团队管理员功能的发行说明。
-ms.openlocfilehash: 57efbbd442fb256e4cebab60b6219e1f683512c9
-ms.sourcegitcommit: aae3eeb4dedd825ab176abe7e1aff9463c88799b
+ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
+ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46797440"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47399507"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 团队管理员功能的发行说明
 
 这些发行说明提供有关 Microsoft 团队的新管理员功能的信息。
+
+## <a name="september-3-2020"></a>2020年9月3日
+
+### <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 团队中的自定义应用商店
+
+现在，你可以通过添加你的徽标、自定义背景和自定义文本颜色，将团队应用商店与你的组织品牌进行自定义，以使其更吸引最终用户。 [了解更多信息](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+
+## <a name="september-1-2020"></a>2020年9月1日
+
+### <a name="on-demand-translation-in-android"></a>Android 中的按需翻译
+
+内联邮件转换是 Microsoft 团队的一项功能，使用户能够将团队邮件转换为由其个人语言设置指定的语言。 默认情况下，翻译设置处于 **打开** 状态。 [了解详细信息](https://docs.microsoft.com/microsoftteams/inline-message-translation-teams)。
 
 ## <a name="august-17-2020"></a>2020年8月17日
 
@@ -75,6 +87,16 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 团队应用程序免费安装，一些可能需要购买服务套餐才能体验应用的完整功能和范围。 这些服务套餐称为 "软件" 作为服务 (SaaS) 优惠，可通过 AppSource 通过 "Microsoft 团队管理中心" 进行购买。 [了解详细信息](../purchase-third-party-apps.md)。
 
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>发布通过团队应用提交 API 提交的自定义应用
+
+开发人员可以使用团队应用提交 API 将自定义应用直接提交到 Microsoft 团队管理中心供管理员查看和批准。 [了解详细信息](https://docs.microsoft.com/microsoftteams/submit-approve-custom-apps)。
+
+## <a name="july-31-2020"></a>2020年7月31日
+
+### <a name="admins-can-configure-shift-based-presence-on-shift-off-shift-for-their-firstline-workers"></a>管理员可以在班次上配置基于班次的状态 (，对他们的一线工作者关闭 shift) 
+
+管理员可以将其一线的工作人员配置为具有基于班次的状态：在 shift 时，在) 移动时，繁忙的 (可以切换，并且关闭 shift。
+
 ## <a name="july-29-2020"></a>2020年7月29日
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用设备标记功能增强的可管理性
@@ -103,7 +125,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="enable-suggested-replies"></a>启用建议的答复
 
-启用此设置以启用聊天消息的建议答复。 [了解详细信息](../messaging-policies-in-teams.md)
+启用此设置以启用聊天消息的建议答复。 [了解更多信息](../messaging-policies-in-teams.md)
 
 ## <a name="july-9-2020"></a>2020年7月9日
 
@@ -139,6 +161,10 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 在用户启动团队时，选择默认为用户安装的应用。 [了解详细信息](../teams-app-setup-policies.md)。
 
+### <a name="screen-sharing-on-behalf-of-others"></a>代表其他人共享屏幕
+
+许多 IT 管理员有 complained 在禁用 AllowPrivateCalling 策略时，他们不能让他们的员工屏幕共享聊天。 此功能工作已将从 AllowPrivateCalling 策略启动 screenshare 的功能分离出来，但如果禁用了 AllowPrivateCalling 策略，它仍会阻止用户向 screenshare 会话添加音频/视频。
+
 ## <a name="june-29-2020"></a>2020年6月29日
 
 ### <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft 团队中的 Walkie Talkie 应用
@@ -160,6 +186,12 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 ### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Android 和 iOS 用户的登录限制
 
 如果用户未在其他任何位置登录到其 Microsoft 365 帐户，则系统会要求他们提供单因素或多重身份验证（SFA 或 MFA），具体取决于你的组织已针对“移动登录”策略配置的内容。 [了解详细信息](../sign-in-teams.md)。
+
+## <a name="june-15-2020"></a>2020年6月15日
+
+### <a name="monitor-shifts-with-audit-logs"></a>通过审核日志监控班次
+
+您可以在您的组织中搜索 "审核日志" 以查看倒班活动。 [了解详细信息](https://docs.microsoft.com/microsoftteams/audit-log-events)。
 
 ## <a name="june-11-2020"></a>2020年6月11日
 

@@ -20,12 +20,12 @@ description: 你的 Teams 管理员或 IT 管理员可以为其他域配置外�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: a8139c01f5e79eab451abc1eb47a97c94849147a
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 1acc8bea66791c7e8cfc38cae2d394b6360ceec9
+ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255415"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "47395400"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部访问
 ======================================================
@@ -57,6 +57,9 @@ ms.locfileid: "47255415"
 
 - **阻止特定域** - 通过将域添加到“**阻止**”列表中，可与*除阻止的域之外*的所有外部域进行通信。 若要阻止特定域，请单击“**添加域**”，添加域名，单击“**要在此域上执行的操作**”，然后选择“**已阻止**”。 设置阻止的域列表后，将允许所有其他域。
 
+> [!NOTE]
+> 如果您关闭您的组织中的外部访问，外部用户仍可通过匿名加入加入会议。 若要了解详细信息，请参阅 [管理团队中的会议设置](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)。
+
 ## <a name="allow-or-block-domains"></a>允许或阻止域
 
 ### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>步骤 1-使你的组织能够与另一个团队或 Skype for Business 组织通信
@@ -67,7 +70,7 @@ ms.locfileid: "47255415"
 
 2. 启用“**用户可以与其他 Skype for Business 和 Teams 用户通信**”设置。
 
-     ![已启用“用户可以与其他 Skype for Business 和 Teams 用户通信”设置的屏幕截图](media/manage-external-access-2.png).
+     ![已启用“用户可以与其他 Skype for Business 和 Teams 用户通信”设置的屏幕截图](media/manage-external-access-2.png)。
 
 3. 如果想要允许所有 Teams 组织与你组织中的用户进行通信，请跳到步骤 5。
 
