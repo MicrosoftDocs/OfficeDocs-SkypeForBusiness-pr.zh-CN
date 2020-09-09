@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 部署 Microsoft 团队聊天室以及如何部署和管理系统的相关规划注意事项。
-ms.openlocfilehash: 98fbd10cdbc575412253b4a9c8fdfc16869da2ed
-ms.sourcegitcommit: 824c79bd050b0abb576004f6209bb081d5090a8f
+ms.openlocfilehash: 4474d5f7c5e273fccc52e077907017c073e3a7b5
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "46521987"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405799"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 会议室
 
@@ -33,16 +33,16 @@ ms.locfileid: "46521987"
     :::column-end:::
 :::row-end:::
 
-|               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![列表符号](https://docs.microsoft.com/office/media/icons/list-123-teams_small.svg)  | **[规划](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)**  | ![部署符号](https://docs.microsoft.com/office/media/icons/deploy-teams_small.svg)  | **[部署](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)**  | ![工具/扳手](https://docs.microsoft.com/office/media/icons/toolbox_small.svg)  | **[管理](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
+|               |               |               |
+| ------------- | ------------- | ------------- |
+|<img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px"> <br> **[规划](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-plan)** |<img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px"> <br> **[部署](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-deploy)** |<img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px"> <br> **[管理](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-manage)** |
 
 <br>
 
 > [!NOTE]
 > Microsoft 球队会议室旨在与 Microsoft 团队、Skype for Business Online、Skype for business Server 2019 或 Skype for business Server 2015 配合使用。  <br><br>早期平台（如 Lync Server 2013）不希望与 Microsoft 团队聊天室一起使用。
 
-这些文章面向负责规划、部署和管理这些设备的人员，而不是针对系统用户的人员。 用户将对 Microsoft 团队聊天室[联机帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)感兴趣。
+这些文章面向负责规划、部署和管理这些设备的人员，而不是针对系统用户的人员。 用户将对 Microsoft 团队聊天室 [联机帮助](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)感兴趣。
 
 > [!NOTE]
-> [Skype 会议室系统](../rooms/lrs-migration.md)（以前称为 Lync 房间系统）和 Microsoft 团队聊天室是具有不同的依赖项和部署过程的不同产品。
+> [Skype 会议室系统](../rooms/lrs-migration.md) (以前的 Lync 会议室系统) 并且 Microsoft 团队会议室是不同的产品，具有不同的依赖关系和部署过程。

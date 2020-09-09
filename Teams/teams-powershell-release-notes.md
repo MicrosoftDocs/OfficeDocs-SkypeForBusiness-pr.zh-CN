@@ -13,12 +13,12 @@ ms.collection:
 description: 了解团队 PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09014d3e7deba2797b46031efee81f537d2d6538
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
+ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170621"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47405809"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 团队 PowerShell 发行说明
 
@@ -31,7 +31,8 @@ ms.locfileid: "45170621"
 
 | 日期 | 版本 | 端更新 |
 |------- | -------------------- | ------------------------------ |
-| 2020年7月 | [类库](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已添加[组策略分配 cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
+| 2020年9月 | [1.1.5-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype for Business Online 连接器集成</li> |
+| 2020年7月 | [类库](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已添加 [组策略分配 cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
 | 2020年6月 | [1.1.3-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype for Business Online 连接器集成<li>获取团队优化<li>增强的可靠性</li> |
 | 2020年6月 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>已添加 Cmdlet 预加载<li>.Net Framework 优化</li>   |
 | 2020年4月 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>验证码和程序集签名<li>已添加 CsPolicyPackage<li>已添加 CsUserPolicyPackage<li>已添加 CsUserPolicyPackageRecommendation<li>已添加授予 CsUserPolicyPackage<li>新增-CsBatchPolicyPackageAssignmentOperation<li>已添加 TeamArchivedState<li>已添加 TeamPicture<li>已删除 TeamHelp</li>  |
@@ -41,7 +42,7 @@ ms.locfileid: "45170621"
 ### <a name="cmdlet-availability"></a>Cmdlet 可用性
 
 > [!NOTE]
-> 下表中的列表仅包含团队 PowerShell 模块本身中的 cmdlet。 不显示 "[kype For Business Online" 连接器模块](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)中的团队 cmdlet。 但是，在将这些 cmdlet 迁移到团队 PowerShell 中时，我们会将它们添加到此表中。
+> 下表中的列表仅包含团队 PowerShell 模块本身中的 cmdlet。 不显示 "[kype For Business Online" 连接器模块](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) 中的团队 cmdlet。 但是，在将这些 cmdlet 迁移到团队 PowerShell 中时，我们会将它们添加到此表中。
 
 | Cmdlet | 公共预览版中提供 | 上市后提供 |
 | -| -- | --|
