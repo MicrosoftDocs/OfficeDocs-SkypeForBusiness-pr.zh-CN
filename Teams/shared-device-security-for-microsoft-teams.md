@@ -51,7 +51,7 @@ ms.locfileid: "47359378"
     1. 强烈建议每个用户用[单独的用户帐户](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)使用同一系统。
     1. *不要*对非管理功能授予或使用管理员特权（例如浏览网页、启动 Teams 等）。
 
-如果无法满足上述指南，我们建议使用其他浏览器安全最佳方案：
+如果无法满足上述指南要求，我们建议使用其他浏览器安全最佳方案：
 
 1. 利用浏览器的安全功能。
     1. 启用隐私浏览模式，尽量减少保留在磁盘上的数据与历史记录。 例如，[在 Microsoft Edge 中以 inPrivate 模式进行浏览](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)， [在Google Chrome 中以无痕模式进行浏览](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)，或使用其他浏览器的隐私浏览功能。 
