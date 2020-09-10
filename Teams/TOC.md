@@ -499,21 +499,8 @@
 
 ### [Microsoft Teams 通话流程](microsoft-teams-online-call-flows.md)
 
-## 大型组织实用指南
 ### [教程：在 Teams 中通话](Tutorial-calling-in-teams.yml)
-### [云语音指南](cloud-voice-landing-page.md)
-#### [定义成功](1-envision-define-my-success-cloud-voice.md)
-#### [做出服务决策 - 电话系统与通话套餐](calling-plan-landing-page.md)
-#### [做出服务决策 - 电话系统直接路由](direct-routing-landing-page.md)
-#### [评估环境](3-envision-evaluate-my-environment.md)
-#### [规划服务管理](4-envision-plan-my-service-management.md)
 #### [规划用户体验](5-envision-plan-my-users-experience.md)
-#### [记录成功计划](6-envision-document-my-success-plan.md)
-#### [准备服务](1-onboard-prepare-my-service.md)
-#### [准备用户](2-onboard-prepare-my-users.md)
-#### [部署服务](3-onboard-deploy-my-service.md)
-#### [操作服务](1-drive-value-operate-my-service.md)
-#### [增强服务](2-drive-value-enhance-my-service.md)
 <!-- ============================================================ -->
 
 
