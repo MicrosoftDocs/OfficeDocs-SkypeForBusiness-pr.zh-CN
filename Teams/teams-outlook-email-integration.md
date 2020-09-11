@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34498b73b70937eefcff267bc7a3b01068ab9557
-ms.sourcegitcommit: 430aac8c5848fbcaf680ea447bfa2f9d5fa994e2
+ms.openlocfilehash: 675834cd36c4e86d34d179e91fe66905e3860b32
+ms.sourcegitcommit: 0ad2fb145496210b728034d291a456b4caabdbf9
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "47420606"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "47429438"
 ---
 # <a name="teams-and-outlook-email-integration"></a>团队和 Outlook 电子邮件集成
 
@@ -35,7 +35,10 @@ Microsoft 团队包含的功能使您的组织中的用户可以轻松地在 Out
 
 ## <a name="actionable-activity-emails"></a>可操作的活动电子邮件
 
-用户会自动获得可操作的错过活动电子邮件，帮助他们在团队中的错过的对话中追赶。 错过的活动电子邮件显示来自对话的最新答复，包括错过邮件后发送的邮件，并且用户可以单击 " **答复** " 以直接在 Outlook 中答复。 若要了解详细信息，请参阅 [从 outlook 中答复错过的活动电子邮件](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) 和 [outlook 和 Office 365 组中的可操作消息](https://docs.microsoft.com/outlook/actionable-messages/)。
+用户会自动获得可操作的错过活动电子邮件，帮助他们在团队中的错过的对话中追赶。 错过的活动电子邮件显示来自对话的最新答复，包括错过邮件后发送的邮件，并且用户可以单击 " **答复** " 以直接在 Outlook 中答复。 若要了解详细信息，请参阅 [从 Outlook 答复错过的活动电子邮件](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381)。 
+
+> [!NOTE]
+> Outlook for Mac 或某些较早版本的 Outlook for Windows 中不支持此功能。 有关详细信息，请参阅 [Outlook 和 Office 365 组中的可操作消息](https://docs.microsoft.com/outlook/actionable-messages/)。
 
 ![显示错过的活动电子邮件的屏幕截图](media/missed-activity-email.png)
 
