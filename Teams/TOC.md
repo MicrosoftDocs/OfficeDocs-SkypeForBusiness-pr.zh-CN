@@ -773,7 +773,6 @@
 
 ## [Teams 限制和规范](limits-specifications-teams.md)
 ## [Teams 中的数据位置](location-of-data-in-teams.md)
-## [数据收集做法](data-collection-practices.md)
 
 ## 准备好推广 Teams
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
