@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7869d5030f5a2f778fb4988c49d7f48274f4f792
-ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+ms.openlocfilehash: e00bfc5606e23460255e3ee4748010843415eb1b
+ms.sourcegitcommit: 92fdfad4564eb27190cd88f109bded2b95d473ee
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778094"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "47408228"
 ---
 # <a name="it-admin-guide-to-insights-in-teams-for-education"></a>Teams 教育版见解 IT 管理员指南
 
@@ -34,14 +34,16 @@ ms.locfileid: "46778094"
 
 ## <a name="permissions"></a>权限
 
-用户类型： 
-- 学生由其许可证标识，并且无权访问“见解”选项卡（即使他们是团队的所有者）。 
-- 教师由教职员工许可证标识。 教师必须拥有教职员工许可证，并且是课堂团队所有者，以便添加和查看“见解”选项卡中显示的数据。 
-- 主管也由教职员工许可证标识，但是此外，他们需要从 IT 全局管理员获取显式权限，才能在“见解”应用中查看报告。
+### <a name="user-types"></a>用户类型
+- **学生**由其许可证标识，并且 _无权_访问“见解”选项卡（即使他们是团队的所有者）。 
+- **教师**由教职员工许可证标识。 教师必须拥有教职员工许可证，并且是课堂团队所有者，以便添加和查看“见解”选项卡中显示的数据。 
+- **主管**也由教职员工许可证标识，但是此外，他们需要从 IT 全局管理员获取显式权限，才能在“见解”应用中查看报告。
+- 来宾账户_无权_访问见解。
 
+### <a name="permission-levels"></a>权限级别
 教师和主管具有不同的权限级别和逻辑：
-- 教师可以通过导航到 Microsoft Teams 应用栏中的“应用”并搜索“见解”，将“见解”应用添加到课堂团队的公共频道中。 此选项卡反映了班级团队中所有者以外的所有人（包括不是团队所有者的教师）的活动。 
-- 主管可将“见解”应用添加为个人应用（出现在 Microsoft Teams 菜单上），方法是在 Microsoft Teams 应用栏中导航到“应用”并搜索“见解”。 
+- **教师**可以通过导航到 Microsoft Teams 应用栏中的“应用”并搜索“见解”，将“见解”应用添加到课堂团队的公共频道中。 此选项卡反映了班级团队中所有者以外的所有人（包括不是团队所有者的教师）的活动。 
+- **主管**可将“见解”应用添加为个人应用（出现在 Microsoft Teams 菜单上），方法是在 Microsoft Teams 应用栏中导航到“应用”并搜索“见解”。 
 
 ## <a name="compliance"></a>合规性
 
@@ -58,9 +60,9 @@ ms.locfileid: "46778094"
 
 ## <a name="data-collection"></a>数据收集
 
-当为租户启用教育版分析时，我们会收集见解的数据。 数据收集自 Teams 活动，目的为教学和学习提供可操作的见解。
-
-默认情况下，**开启**教育版分析。
+- 当为租户启用教育版分析时，我们会收集见解的数据。 数据收集自 Teams 活动，目的为教学和学习提供可操作的见解。
+- 来宾数据_不是_为了见解而收集的。
+- 默认情况下，**开启**教育版分析。
 
 目前，此数据从课堂团队的学生和教师活动的以下区域提取：
 
