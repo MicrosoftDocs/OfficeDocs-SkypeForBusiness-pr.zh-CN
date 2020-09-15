@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中的团队用户与 Skype (消费者) 用户之间的互操作性功能。
 localization_priority: Normal
-ms.openlocfilehash: 05db7408505c4b3e3c47006cfa93c3a4e3c65061
-ms.sourcegitcommit: 2e6b0930645cd97dbd597e9346a6fe1788c6facf
+ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
+ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47395361"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "47651201"
 ---
 # <a name="teams-and-skype-interoperability"></a>团队和 Skype 互操作性
 
@@ -28,7 +28,10 @@ ms.locfileid: "47395361"
 - 团队用户可以搜索和启动与 Skype 用户之间的一次性文本对话或音频/视频通话。
 - Skype 用户可以使用团队用户搜索和启动一对一的纯文本对话或音频/视频呼叫。
 
-这可在桌面版、web 版和移动版 (Android 和 iOS 上) 客户端与团队和 Skype 一起使用。 为获得最佳体验，我们建议使用 Skype 版本8.58 和更高版本。
+这些功能在桌面版、web 版和移动版 (Android 和 iOS) 客户端和 Skype 均可使用。 为获得最佳体验，我们建议使用 Skype 版本8.58 和更高版本。
+
+> [!NOTE]
+> 本文中讨论的团队和 Skype 互操作功能在 GCC、GCC 高或 DOD 部署或私有云环境中不可用。
 
 ## <a name="chat-and-calling-experience"></a>聊天和通话体验
 
@@ -42,7 +45,7 @@ Skype 用户可能选择不在搜索结果中显示。 在这种情况下，不�
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype 用户与团队用户开始聊天或通话
 
-Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊天。 将通知团队用户收到来自 Skype 用户的新邮件，并且必须首先接受邮件，然后他们才能回复。
+Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊天。 将通知团队用户收到来自 Skype 用户的新消息。 团队用户首先必须接受消息，然后才能回复。
 
 - 如果团队用户选择 " **接受**"，则接受对话，并且这两个用户都可以互相聊天和通话。
 - 如果团队用户选择 " **阻止**"，则对话会被阻止，并且将阻止来自该 Skype 用户的后续消息和呼叫。
@@ -53,7 +56,7 @@ Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊�
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>团队用户阻止或取消阻止 Skype 用户
 
-在团队用户接受或阻止来自 Skype 用户的初始对话请求后，他们可以随时在对话或团队的隐私设置中随时选择阻止或取消阻止该用户。 Skype 用户不知道他们已被阻止。
+在团队用户接受或阻止来自 Skype 用户的初始对话请求后，他们可以随时选择阻止或取消阻止该用户。 他们可以在对话中或在团队的隐私设置中执行此操作。 Skype 用户不知道他们已被阻止。
 
 被阻止的 Skype 用户以及其他人和公共交换电话网络)  (由团队用户阻止的用户阻止的联系人列表中列出的团队用户已阻止的电话号码。
 
@@ -80,7 +83,7 @@ Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊�
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-将 [CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与参数结合使用 ```EnablePublicCloudAccess``` ，以控制用户是否可以与 Skype 用户进行通信。 设置参数以 ```true``` 允许团队用户与 Skype 用户进行通信。 请注意，该 ```EnablePublicCloudAudioVideoAccess``` 参数可用于启用/禁用音频/视频呼叫。
+将 [CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) cmdlet 与参数结合使用 ```EnablePublicCloudAccess``` ，以控制用户是否可以与 Skype 用户进行通信。 设置参数以 ```true``` 允许团队用户与 Skype 用户进行通信。 可以使用该 ```EnablePublicCloudAudioVideoAccess``` 参数启用/禁用音频/视频呼叫。
 
 ## <a name="related-topics"></a>相关主题
 
