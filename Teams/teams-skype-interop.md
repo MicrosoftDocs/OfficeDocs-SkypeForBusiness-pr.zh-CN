@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 了解组织中的团队用户与 Skype (消费者) 用户之间的互操作性功能。
 localization_priority: Normal
-ms.openlocfilehash: 551e39cdb496cc9e64ad962a8a50c06cb72f0aa2
-ms.sourcegitcommit: f5ad0fc5be7201b71da4f13586972831c9961e51
+ms.openlocfilehash: b05724f7ddb860d4b135fad5834ea851403c1490
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47651201"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766896"
 ---
 # <a name="teams-and-skype-interoperability"></a>团队和 Skype 互操作性
 
@@ -45,7 +45,7 @@ Skype 用户可能选择不在搜索结果中显示。 在这种情况下，不�
 
 ### <a name="skype-user-starts-a-chat-or-call-with-a-teams-user"></a>Skype 用户与团队用户开始聊天或通话
 
-Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊天。 将通知团队用户收到来自 Skype 用户的新消息。 团队用户首先必须接受消息，然后才能回复。
+Skype 用户可以使用其电子邮件地址搜索和开始与团队用户聊天。 将通知团队用户收到来自 Skype 用户的新邮件，并且必须首先接受邮件，然后他们才能回复。
 
 - 如果团队用户选择 " **接受**"，则接受对话，并且这两个用户都可以互相聊天和通话。
 - 如果团队用户选择 " **阻止**"，则对话会被阻止，并且将阻止来自该 Skype 用户的后续消息和呼叫。

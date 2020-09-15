@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e286611823ddfd12b43abd3a8ff385885fd02a38
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803986"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766916"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -80,7 +80,11 @@ Citrix 虚拟应用和桌面 (以前称为 XenApp 和 XenDesktop) 为适用于 V
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware 范围的工作区和桌面要求
 
-VMware 横向为适用于 VDI 的团队提供优化的 AV 支持，提高了虚拟桌面的工作效率。 您可以从 " [Vmware 下载](https://my.vmware.com/web/vmware/downloads/#all_products) " 页面下载最新版本的 vmware 范围。
+VMware 范围是一种现代平台，用于在混合云上安全地传递虚拟桌面和应用。 为提供出色的最终用户体验，VMware 范围为团队提供媒体优化。 此优化改善了虚拟桌面和应用之间的整体工作效率，并增强了使用团队进行呼叫和会议时的用户体验。
+
+您可以从 " [Vmware 下载](https://my.vmware.com/web/vmware/downloads/#all_products) " 页面下载最新版本的 vmware 范围。 默认情况下，所需的媒体优化组件是地平线的代理和地平线客户端的一部分，无需安装任何其他插件即可使用团队的优化功能。
+
+若要获取有关如何为团队配置媒体优化的最新要求和说明，请参阅 [此 VMware 网站](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上安装或更新团队桌面应用
 
@@ -374,10 +378,12 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 - 增强的紧急服务
 - 团队应用和设备之间的 HID 按钮和 LED 控件
 - 背景模糊和效果
-- 广播/实时事件
+- 广播和实时事件制造者和演示者角色
 - 基于位置的路由 (LBR) 
 - 呼叫寄存
 - 通话队列
+- 共享系统音频/计算机声音
+- 直接路由的媒体旁路
 
 > [!NOTE]
 > 我们正在努力添加目前仅在非 VDI 环境中可用的呼叫和会议功能。 这些功能可能包括对质量、其他屏幕共享方案以及最近添加到团队的高级功能的更多管理控制。 联系你的团队代表了解有关即将推出的功能的详细信息。

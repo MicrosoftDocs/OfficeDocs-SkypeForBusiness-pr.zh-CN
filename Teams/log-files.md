@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解 Microsoft Teams 生成的调试、媒体和桌面日志，可以在哪里找到它们，以及它们如何帮助进行故障排除。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f13acc1a401a6753b335c17fe0cd8a7984849216
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 468f0f67743f7cd0e11ff28e4484f70a71af3b64
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582105"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766756"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>在对 Microsoft Teams 进行故障排除时使用日志文件
 =================================================
@@ -81,7 +81,7 @@ ms.locfileid: "46582105"
 
 -   Windows：%userprofile%\\Downloads
 
--   Mac OSX：Downloads
+-   Mac OSX： ~/Downloads
 
 -   Linux： ~/Downloads
 
@@ -90,8 +90,11 @@ ms.locfileid: "46582105"
 <a name="media-logs"></a>媒体日志
 ---------------------------
 
-媒体日志包含有关音频、视频和屏幕共享的诊断数据。 仅当要求时支持案例才需要它们，且只能由 Microsoft 检查。 下表概括列出了日志位置。
+媒体日志包含有关团队会议中的音频、视频和屏幕共享的诊断数据。 仅当要求时支持案例才需要它们，且只能由 Microsoft 检查。 
 
+默认情况下，媒体日志记录处于关闭状态。 若要记录团队会议的诊断数据，用户必须打开团队客户端中的选项。 转到 "**设置**  >  **常规**"，选中 "**启用会议诊断的日志记录 (需要重新启动团队**) 复选框，然后重新启动团队。
+
+下表列出了日志位置。
 
 |客户端 |位置 |
 |---------|---------|
@@ -103,7 +106,15 @@ ms.locfileid: "46582105"
 |Linux       |~/.config/Microsoft/Microsoft 团队/media-stack/*. 博客         |
 |            |~/.config/Microsoft/Microsoft 团队/skylib/*. 博客         |
 
+下面列出了生成的日志文件及其包含的信息。
 
+|日志文件名  |说明  |
+|---------|---------|
+|Msrtc-s1039525249 的团队     | 包含与媒体堆栈相关的信息。 这包括通道状态（如分辨率、使用的解码器和编码器）和发送和接收的帧数，以及基于相机和视频的屏幕共享 (VBSS) 会话状态。         |
+|rtmcontrol msrtc-2415069487. 博客      |记录与远程控制操作相关的信息，例如控制所提供的时间戳，以及鼠标指针信息。          |
+|Teams_MediaStackETW-2-U-xr-U      |记录媒体堆栈跟踪事件。         |
+|Debug-0-s2790420889    | 包含与媒体代理相关的信息，包括呈现质量。          |
+|tscalling-0-2061129496   |在 ts 调用 API 中记录事件。       |
 
 <a name="desktop-logs"></a>桌面日志
 ---------------------

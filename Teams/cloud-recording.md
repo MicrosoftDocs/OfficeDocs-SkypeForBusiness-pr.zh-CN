@@ -16,12 +16,12 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc96a9e972f595d9394fa6d7a3cbff7ea56a1019
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897801"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766906"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -36,8 +36,8 @@ ms.locfileid: "46897801"
 
 对于要录制的团队用户的会议，必须为租户启用 Microsoft Stream。 此外，会议组织者和将发起录制的人员需要满足下列先决条件：
 
-- 用户具有 Office 365 E1、E3、E5、A1、A3、A5、M365 Business Premium、M365 Business Standard 或 M365 Business Basic。
-- 用户需要获得针对 Microsoft Stream 的许可<sup>1</sup> 
+- 用户具有 Office 365 E1、E3、E5、A1、A3、A5、Microsoft 365 商业高级版、商业标准版或商业基本版<sup>1</sup>
+- 用户需要获得 Microsoft Stream<sup>2</sup>的许可 
 - 用户拥有 Microsoft Stream 上传视频权限
 - 用户已同意公司指南（如果由管理员设置）
 - 用户在 Microsoft Stream 中有足够的存储空间来保存录像
@@ -45,7 +45,9 @@ ms.locfileid: "46897801"
 - 用户不是会议中的匿名、来宾或联合用户
 - 若要为用户的会议启用脚本，则分配给他们的团队会议策略必须将-AllowTranscription 设置设置为 true。
 
-需要授予<sup>1</sup>个用户将会议上载/下载到 Microsoft Stream 的许可证，但不需要许可证即可录制会议。 如果你希望阻止用户录制 Microsoft Teams 会议，则必须为其授予将 AllowCloudRecording 设置为 $False 的 TeamsMeetingPolicy。
+<sup>1</sup> 截止2020年8月20日，对于使用 A1 的用户，对会议录制文件的访问将在21天后过期。 有关详细信息，请参阅 [将 Microsoft 团队会议录制上载到流](https://docs.microsoft.com/stream/portal-upload-teams-meeting-recording)。
+
+<sup>2</sup> 用户需要获得许可证，才能将会议上载/下载到 Microsoft Stream，但不需要许可证即可录制会议。 如果你希望阻止用户录制 Microsoft Teams 会议，则必须为其授予将 AllowCloudRecording 设置为 $False 的 TeamsMeetingPolicy。
 
 > [!IMPORTANT] 
 > 如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这将意味着，录制不会存储在 Microsoft Stream 中，而是存储在 Azure 媒体服务 (AMS) ，在删除之前将有21天的限制。 目前管理员无法控制或管理它，包括无法删除它。
@@ -126,7 +128,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 此设置控制播放会议录制期间是否提供字幕和脚本功能。 如果关闭此功能，在播放会议录制的过程中，" **搜索** " 和 **"抄送** " 选项将不可用。 启动录制的人员需要启用此设置，以便录制还包括脚本。
 
-**请注意** ，当前只有在团队中将语言设置为英语且在会议中朗读英语的用户才支持使用录制的会议。
+> [!NOTE]
+> 目前仅支持使用团队中的语言设置为英语且在会议中朗读英语的用户支持录制的会议。 它们与 Microsoft Stream 云存储中的会议录制一起存储在一起。
 
 你可以使用 Microsoft Teams 管理中心或 PowerShell 来设置 Teams 会议策略，以控制录制发起人是否可以选择转录会议录制。
 
