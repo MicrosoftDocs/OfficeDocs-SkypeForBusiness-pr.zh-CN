@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 45412714c507212f4d627a8f362385b5f08360cb
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: 95719bc95cc752888964a5f404e6f8050ebf3fa4
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672873"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47766856"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接从 Teams 回答自动助理和呼叫队列
 ===========================================================
@@ -62,6 +62,11 @@ ms.locfileid: "46672873"
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>为 Microsoft 团队配置自动助理和呼叫队列支持
 
 若要在 Microsoft 团队中接收自动助理和呼叫队列呼叫，需要配置你的互操作性策略和升级策略。 请查看 [与 Skype For business 一起使用团队的组织的迁移和互操作性](migration-interop-guidance-for-teams-with-skype.md)。 如果您没有配置自动助理和/或呼叫队列，请参阅 [设置云自动助理](create-a-phone-system-auto-attendant.md) 和 [创建云呼叫队列](create-a-phone-system-call-queue.md)。
+
+## <a name="known-issues"></a>已知问题
+
+当呼叫队列代理在其移动设备上收到呼叫时，如果设备处于锁定状态，则呼叫可能会继续保持通话。 用户必须先解锁设备，然后再接听呼叫。
+
 
 ## <a name="related-topics"></a>相关主题
 

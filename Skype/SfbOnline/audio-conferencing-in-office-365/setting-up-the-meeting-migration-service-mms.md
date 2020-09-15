@@ -1,5 +1,5 @@
 ---
-title: 使用会议迁移服务（MMS）
+title: '使用会议迁移服务 (MMS) '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,19 +21,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 会议迁移服务（MMS）是一种在后台运行的服务，可自动更新用户的 Skype for business 和 Microsoft 团队会议。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: da04e98269f20eca327b30c2bd40f3e5181523d0
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+description: 会议迁移服务 (MMS) 是一种在后台运行的服务，可自动更新用户的 Skype for business 和 Microsoft 团队会议。 MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
+ms.openlocfilehash: 9223102ef9c264fdafdb9f52ec74d6edb383f987
+ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012178"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47765344"
 ---
-# <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务（MMS）
+# <a name="using-the-meeting-migration-service-mms"></a>使用会议迁移服务 (MMS) 
 
-会议迁移服务（MMS）是在以下情况下更新用户现有会议的服务：
+ (MMS) 的会议迁移服务是在以下情况下更新用户现有会议的服务：
 
-- 当用户从本地迁移到云（无论是 Skype for business Online 还是 TeamsOnly）时。
+- 当用户从本地迁移到云时 (是 Skype for Business Online 还是 TeamsOnly) 。
 - 管理员对用户的音频会议设置进行更改时 
 - 当联机用户仅升级到团队时，或者当 TeamsUpgradePolicy 中的用户模式设置为 SfBwithTeamsCollabAndMeetings 时
 - 使用 PowerShell 时 
@@ -47,7 +47,7 @@ ms.locfileid: "45012178"
 - 用户的邮箱托管在本地 Exchange 中。
 - 用户正在从云迁移到本地 Skype for Business 服务器。
 
-在这些情况下，最终用户可以使用[会议迁移工具](https://www.microsoft.com/download/details.aspx?id=51659)来迁移其自己的会议。
+在这些情况下，最终用户可以使用 [会议迁移工具](https://www.microsoft.com/download/details.aspx?id=51659) 来迁移其自己的会议。
 
 ## <a name="how-mms-works"></a>MMS 的工作原理
 
@@ -65,8 +65,8 @@ ms.locfileid: "45012178"
 **备注**：
 
 - MMS 在迁移会议时会替换联机会议信息块中的所有内容。 因此，如果用户编辑了信息块，它们的更改会被覆盖。 用户拥有的所有联机会议信息块以外的内容不会受到影响。 这意味着将仍包括附加到会议邀请的任何文件。 
-- 只有通过在 Outlook 网页版中单击 "**添加 skype 会议**" 按钮或使用 Outlook 的 skype 会议外接程序进行安排的 Skype for Business 或 Microsoft 团队会议才会被迁移。 如果用户将一个会议中的 Skype online 会议信息复制并粘贴到新会议中，则不会更新新会议，因为原始服务中没有会议。
-- 在 MMS 运行后，已创建或附加到会议（白板、投票等）的会议内容将不会保留。 如果你的会议组织者提前对会议附加了内容，在 MMS 运行之后需要重新创建该内容。
+- 只有通过在 Outlook 网页版中单击 " **添加 skype 会议** " 按钮或使用 Outlook 的 skype 会议外接程序进行安排的 Skype for Business 或 Microsoft 团队会议才会被迁移。 如果用户将一个会议中的 Skype online 会议信息复制并粘贴到新会议中，则不会更新新会议，因为原始服务中没有会议。
+- 创建或附加到会议的会议内容 (白板、投票等) 在 MMS 运行后不会保留。 如果你的会议组织者提前对会议附加了内容，在 MMS 运行之后需要重新创建该内容。
 - 日历项以及 Skype 会议中共享会议笔记的链接也会被覆盖。 请注意，OneNote 中存储的实际会议笔记仍将保留在其中。只有指向共享笔记的链接被覆盖。
 - 与会者超过 250（包括组织者）的会议不会迁移。
 - 邀请正文中的一些 UNICODE 字符可能会错误地更新为下列特殊字符之一：ï、¿、1/2、。
@@ -77,12 +77,12 @@ ms.locfileid: "45012178"
 
 - 用户从本地迁移到云时
 - 管理员对用户的音频会议设置进行更改时 
-- 当 TeamsUpgradePolicy 中的用户模式设置为 TeamsOnly 或 SfBWithTeamsCollabAndMeetings 时（使用 Powershell 或团队管理门户）
+- 当 TeamsUpgradePolicy 中的用户模式使用 Powershell 或团队管理门户设置为 TeamsOnly 或 SfBWithTeamsCollabAndMeetings (时) 
 - 使用 PowerShell cmdlet 时，Start-CsExMeetingMigration
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>将本地用户移动到云时更新会议
 
-这是一种最常见的情况，MMS 可帮助用户创建更流畅的切换效果。 如果没有会议迁移，在用户联机移动后，在本地 Skype for business 服务器中由用户组织的现有会议将不再有效。 因此，当你使用本地管理员工具（ `Move-CsUser` 或 "管理员" 控制面板）将用户移动到云时，现有会议将按如下方式自动移到云：
+这是一种最常见的情况，MMS 可帮助用户创建更流畅的切换效果。 如果没有会议迁移，在用户联机移动后，在本地 Skype for business 服务器中由用户组织的现有会议将不再有效。 因此，当你使用本地管理员工具 (`Move-CsUser` 或 "管理员控制面板") 将用户移动到云时，现有会议将自动移到云，如下所示：
 
 - 如果 `MoveToTeams` 指定了开关 `Move-CsUser` ，会议将直接迁移到团队，并且用户将处于 TeamsOnly 模式。 使用此开关需要使用 CU8 或更高版本的 Skype for business Server 2015。 通过使用 Skype for business 客户端或 Skype 会议应用，这些用户仍然可以加入任何受邀参加的 Skype for Business 会议。
 - 否则，会议将迁移到 Skype for business Online。
@@ -95,11 +95,11 @@ ms.locfileid: "45012178"
 在以下情况下，MMS 将更新现有 Skype for Business 和 Microsoft 团队会议以添加、删除或修改拨入坐标：
 
 - 向用户分配或删除 Microsoft 音频会议服务许可证时，该用户未启用第三方音频会议提供商。
-- 如果将用户的音频会议提供商从任何其他提供商更改为 Microsoft，前提是该用户分配有 Microsoft 音频会议许可证。 有关详细信息，请参阅[将 Microsoft 分配为音频会议提供商](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。 另请注意，第三方音频会议提供商 [ACP] 的支持计划于2019年4月1日（如[以前宣布](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)）的生命周期结束。
+- 如果将用户的音频会议提供商从任何其他提供商更改为 Microsoft，前提是该用户分配有 Microsoft 音频会议许可证。 有关详细信息，请参阅 [将 Microsoft 分配为音频会议提供商](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。 另请注意，第三方音频会议提供商 [ACP] 的支持计划于2019年4月1日（如 [以前宣布](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers)）的生命周期结束。
 - 启用或禁用用户的音频会议时。
 - 当您更改或重置配置为使用公共会议的用户的会议 ID 时。
 - 将用户移动到新的音频会议桥时。
-- 当音频会议桥的电话号码未分配时。 这是一个需要额外步骤的复杂方案。 有关详细信息，请参阅[更改音频会议桥中的电话号码](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
+- 当音频会议桥的电话号码未分配时。 这是一个需要额外步骤的复杂方案。 有关详细信息，请参阅 [更改音频会议桥中的电话号码](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
 
 对用户的音频会议设置的所有更改都不会触发 MMS。 具体地说，下列两种更改不会使 MMS 更新会议：
 
@@ -109,11 +109,11 @@ ms.locfileid: "45012178"
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>分配 TeamsUpgradePolicy 时更新会议
 
-默认情况下，当向用户授予 with 或的实例时，将自动触发会议迁移 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode= SfBWithTeamsCollabAndMeetings` 。 如果你不希望在授予其中任一种模式时迁移会议，请 `MigrateMeetingsToTeams $false` 在 `Grant-CsTeamsUpgradePolicy` 设置用户的共存模式（如果使用团队管理门户）时，指定 in （如果使用 PowerShell）或取消选中 "迁移会议" 框。
+默认情况下，当向用户授予 with 或的实例时，将自动触发会议迁移 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode= SfBWithTeamsCollabAndMeetings` 。 如果你不希望在授予其中任一种模式时迁移会议，请 `MigrateMeetingsToTeams $false` 在 (中指定 `Grant-CsTeamsUpgradePolicy` 如果使用 PowerShell) 或取消选中在设置用户的共存模式时迁移会议的框 (如果使用团队管理门户) 。
 
 另请注意以下事项：
 
-- 仅当你授予特定用户时，才会调用会议迁移 `TeamsUpgradePolicy` 。 如果你在 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode=SfBWithTeamsCollabAndMeetings` *租户范围内*授予或，则不会调用会议迁移。
+- 仅当你授予特定用户时，才会调用会议迁移 `TeamsUpgradePolicy` 。 如果你在 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode=SfBWithTeamsCollabAndMeetings` *租户范围内* 授予或，则不会调用会议迁移。
 - 如果用户处于联机状态，则仅可向用户授予 TeamsOnly 模式。 必须按照前面所述，使用托管内部部署的用户进行移动 `Move-CsUser` 。
 - 授予除 TeamsOnly 或 SfBWithTeamsCollabAndMeetings 以外的其他模式时，不会将现有团队会议转换为 Skype for Business 会议。
 
@@ -127,7 +127,7 @@ ms.locfileid: "45012178"
 - 使用 `TargetMeetingType Teams` 指定无论是否需要进行任何音频会议更新，任何现有会议都必须迁移到团队，无论该会议是托管在 Skype For business online 还是内部部署中。 
 
 **SourceMeetingType:**
-- 使用 `SourceMeetingType SfB` 表示只有 Skype For business 会议（本地还是联机）应更新。
+- `SourceMeetingType SfB`"使用" 表示只有 Skype For business 会议 (是否应更新内部部署或联机) 。
 - 使用 `SourceMeetingType Teams` 指示仅应更新团队会议。
 - "使用" `SourceMeetingType All` 表示应更新 Skype for business 会议和团队会议。 这是 SourceMeetingType 的默认值。
     
