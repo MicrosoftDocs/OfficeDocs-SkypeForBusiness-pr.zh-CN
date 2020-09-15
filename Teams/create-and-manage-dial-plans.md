@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: 了解如何使用 Microsoft 团队管理中心或 Windows PowerShell 创建和管理拨号计划（PSTN 呼叫拨号计划）。
-ms.openlocfilehash: 0e5f45ecdb92843a77bd7a957b1b7c31b3403b92
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+description: 了解如何使用 Microsoft 团队管理中心或 Windows PowerShell 创建和管理 (PSTN 呼叫拨号计划) 的拨号计划。
+ms.openlocfilehash: 0655f81df9c8ce25368a281a7f5b3392f7fe6ec3
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938231"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814781"
 ---
 # <a name="create-and-manage-dial-plans"></a>创建并管理拨号计划
 
@@ -37,28 +37,28 @@ ms.locfileid: "44938231"
 ### <a name="create-a-dial-plan"></a>创建拨号计划
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **拨号计划**"。
-2. 单击 "**添加**"，然后输入拨号计划的名称和说明。
+2. 单击 " **添加**"，然后输入拨号计划的名称和说明。
     ![显示用于创建拨号计划的 "添加" 页面的屏幕截图](media/create-dial-plan.png)
-3. 在 "**拨号计划详细信息**" 下，如果用户需要拨一个或多个附加前导数字（例如9）来获取外部线路，请指定外部拨号前缀。 要执行此操作：
-    1. 在 "**外部拨号前缀**" 框中，输入外部拨号前缀。 前缀最多可包含四个字符（#、* 和0-9）。
-    2. 启用已**优化的设备拨号**。 如果你指定外部拨号前缀，还必须启用此设置以应用前缀，以便可以在你的组织外部进行呼叫。
-4. 在 "**规范化规则**" 下，为拨号计划配置和关联一个或多个[规范化规则](what-are-dial-plans.md#normalization-rules)。 每个拨号计划必须至少有一个与之关联的规范化规则。  若要执行此操作，请执行下列一项或多项操作：
-    - 若要创建新的规范化规则并将其与拨号计划相关联，请单击 "**添加**"，然后定义规则。
-    - 若要编辑已与拨号计划关联的规范化规则，请通过单击规则名称左侧的规则选择规则，然后单击 "**编辑**"。 进行所需的更改，然后单击 "**保存**"。
-    - 若要从拨号计划中删除规范化规则，请通过单击规则名称左侧的规则选择规则，然后单击 "**删除**"。
-5. 按所需顺序排列规范化规则。 单击 "**上移**" 或 "**下移**" 更改列表中规则的位置。
+3. 在 " **拨号计划详细信息**" 下，如果用户需要拨打一个或多个其他前导数字，请指定外部拨号前缀 (例如，9) 获取外部线路。 要执行此操作：
+    1. 在 " **外部拨号前缀** " 框中，输入外部拨号前缀。 前缀最多可以为4个字符 ( #、* 和 0-9) 。
+    2. 启用已 **优化的设备拨号**。 如果你指定外部拨号前缀，还必须启用此设置以应用前缀，以便可以在你的组织外部进行呼叫。
+4. 在 " **规范化规则**" 下，为拨号计划配置和关联一个或多个 [规范化规则](what-are-dial-plans.md#normalization-rules) 。 每个拨号计划必须至少有一个与之关联的规范化规则。  若要执行此操作，请执行下列一项或多项操作：
+    - 若要创建新的规范化规则并将其与拨号计划相关联，请单击 " **添加**"，然后定义规则。
+    - 若要编辑已与拨号计划关联的规范化规则，请通过单击规则名称左侧的规则选择规则，然后单击 " **编辑**"。 进行所需的更改，然后单击 " **保存**"。
+    - 若要从拨号计划中删除规范化规则，请通过单击规则名称左侧的规则选择规则，然后单击 " **删除**"。
+5. 按所需顺序排列规范化规则。 单击 " **上移** " 或 " **下移** " 更改列表中规则的位置。
 
     > [!NOTE]
     > 团队从上到下遍历规范化规则列表，并使用与所拨号码匹配的第一个规则。 如果您设置了一个拨号计划，以便已拨号码可以匹配多个规范化规则，请确保更严格的规则在限制性较少的规则之上排序。
 
 6. 单击“**保存**”。
-7. 如果要测试拨号计划，请在 "**测试拨号计划**" 下输入电话号码，然后单击 "**测试**"。
+7. 如果要测试拨号计划，请在 " **测试拨号计划**" 下输入电话号码，然后单击 " **测试**"。
 
 ### <a name="edit-a-dial-plan"></a>编辑拨号计划
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "**语音**  >  **拨号计划**"。
-2. 通过单击拨号计划名称左侧的 "拨号计划"，然后单击 "**编辑**" 来选择它。
-3. 进行所需的更改，然后单击 "**保存**"。
+2. 通过单击拨号计划名称左侧的 "拨号计划"，然后单击 " **编辑**" 来选择它。
+3. 进行所需的更改，然后单击 " **保存**"。
 
 ### <a name="assign-a-dial-plan-to-users"></a>为用户分配拨号计划
 
@@ -74,11 +74,11 @@ ms.locfileid: "44938231"
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
-3. 如果你没有版本3.0 或更高版本，请下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重新启动计算机。
+3. 如果你没有版本3.0 或更高版本，请下载并安装 Windows PowerShell 更新。 请参阅 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重新启动计算机。
     
-4. 你还需要安装适用于 Skype for business Online 的 Windows PowerShell 模块，使你能够创建连接到 Skype for business Online 的远程 Windows PowerShell 会话。 你可以在[Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)中下载此模块，该模块仅在64位计算机上受支持。 如果出现提示，请重新启动计算机。
+4. 你还需要安装适用于 Skype for business Online 的 Windows PowerShell 模块，使你能够创建连接到 Skype for business Online 的远程 Windows PowerShell 会话。 你可以在 [Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)中下载此模块，该模块仅在64位计算机上受支持。 如果出现提示，请重新启动计算机。
     
-若要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)。
+若要了解详细信息，请参阅 [在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)。
   
  **启动 Windows PowerShell 会话**
   
@@ -86,12 +86,14 @@ ms.locfileid: "44938231"
     
 2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
     
+ 
     > [!NOTE]
-    > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
-  
+    > Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
+    >
+    > 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
 
     ```PowerShell
-    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+   Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session

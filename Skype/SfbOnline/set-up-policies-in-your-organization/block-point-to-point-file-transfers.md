@@ -18,35 +18,35 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 在 Skype for Business Online 中，你可以控制作为现有会议策略设置的一部分的点对点（P2P）文件传输。 但是，这将允许或阻止用户将文件传输到同一组织中的用户或其他组织中的联盟用户。 按照以下步骤，你可以阻止联盟组织或合作伙伴的 P2P 文件传输。
-ms.openlocfilehash: 773feaa97a888bd2063710de9e72f8c7b465a813
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 在 Skype for Business Online 中，你可以将点到点 (P2P) 文件传输控制为现有会议策略设置的一部分。 但是，这将允许或阻止用户将文件传输到同一组织中的用户或其他组织中的联盟用户。 按照以下步骤，你可以阻止联盟组织或合作伙伴的 P2P 文件传输。
+ms.openlocfilehash: 150fb02daa1dcd7486a5bb495c7fd74f8d4736a1
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164721"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814631"
 ---
 # <a name="block-point-to-point-file-transfers"></a>阻止点到点文件传输
 
-在 Skype for Business Online 中，你可以控制作为现有会议策略设置的一部分的点对点（P2P）文件传输。 但是，这将允许或阻止用户将文件传输到同一组织中的用户或其他组织中的联盟用户。 按照以下步骤，你可以阻止联盟组织或合作伙伴的 P2P 文件传输。
+在 Skype for Business Online 中，你可以将点到点 (P2P) 文件传输控制为现有会议策略设置的一部分。 但是，这将允许或阻止用户将文件传输到同一组织中的用户或其他组织中的联盟用户。 按照以下步骤，你可以阻止联盟组织或合作伙伴的 P2P 文件传输。
   
  最常见的情况是，您希望允许内部用户使用 P2P 文件传输，但阻止与联盟伙伴进行的文件传输。 对于此方案，你需要执行以下操作：
   
-- 将已启用 P2P 文件传输的会议策略（_EnableP2PFileTransfer_设置为_True_）分配给组织中的用户。
+- 为组织中的用户将 (_EnableP2PFileTransfer_ 设置为 _True_) 的会议策略分配了 P2P 文件传输。
     
-- 创建全局外部用户通信策略集以阻止外部 P2P 文件传输（_EnableP2PFileTransfer_设置为_False_），并将其分配给组织中的用户。 
+- 创建全局外部用户通信策略集以阻止外部 P2P 文件传输 (_EnableP2PFileTransfer_ 设置为 _False_) 并将其分配给组织中的用户。 
     
-你可以在[此处](https://technet.microsoft.com/library/mt228132.aspx)了解有关这些设置的详细信息。
+你可以在 [此处](https://technet.microsoft.com/library/mt228132.aspx)了解有关这些设置的详细信息。
   
-如果组织外部的联盟用户尝试将文件发送到已应用策略的用户，则它们将收到 "**传输失败**" 错误。 如果用户尝试发送文件，他们将收到 "**已关闭文件传输**" 错误。
+如果组织外部的联盟用户尝试将文件发送到已应用策略的用户，则它们将收到 " **传输失败** " 错误。 如果用户尝试发送文件，他们将收到 " **已关闭文件传输** " 错误。
   
 若要执行此操作，用户必须使用支持版本的2016即点即用 Skype for business 应用（支持它）。 需要以下最低版本的 Skype for Business 2016 即点即用客户端：
   
 |**类型**|**发布日期**|**版本**|**版本号**|
 |:-----|:-----|:-----|:-----|
-|当前频道的首次发布  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |版本1611（内部版本7571.2006）  <br/> |
-|当前频道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本1611（内部版本7571.2072）  <br/> |
-|延期频道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本1609（内部版本7369.2118）  <br/> |
+|当前频道的首次发布  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |版本 1611 (内部版本 7571.2006)   <br/> |
+|当前频道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本 1611 (内部版本 7571.2072)   <br/> |
+|延期频道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本 1609 (内部版本 7369.2118)   <br/> |
    
 > [!CAUTION]
 > 使用旧版本的 Skype for Business Windows 应用或 Mac 客户端的用户仍能传输文件。 
@@ -59,11 +59,11 @@ ms.locfileid: "44164721"
         
     2. 通过在**Windows PowerShell**窗口中键入_Get Host_检查版本。
         
-    3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
+    3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
         
-    4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
+    4. 你还需要为团队安装 Windows PowerShell 模块，使你能够创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。 
     
-    如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
+    如果需要了解详细信息，请参阅 [在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **启动 Windows PowerShell 会话**
     
@@ -72,20 +72,22 @@ ms.locfileid: "44164721"
     2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
     
         > [!NOTE]
-        > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
+        > Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
+        >
+        > 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
 
        ```PowerShell      
-        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        Import-Module -Name MicrosoftTeams
         $credential = Get-Credential
         $session = New-CsOnlineSession -Credential $credential
         Import-PSSession $session
        ```
 
-   如果需要有关启动 Windows PowerShell 的详细信息，请参阅[在单个 Windows powershell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[设置适用于 windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果需要有关启动 Windows PowerShell 的详细信息，请参阅 [在单个 Windows powershell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx) 或 [设置适用于 windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>为你的组织禁用 P2P 文件传输
 
-默认情况下，在组织的全局策略上启用_EnableP2PFileTransfer_ 。 创建后，您的用户被分配了_BposSAllModality_策略。
+默认情况下，在组织的全局策略上启用 _EnableP2PFileTransfer_ 。 创建后，您的用户被分配了 _BposSAllModality_ 策略。
   
 若要允许组织内部的 P2P 传输，但阻止外部文件传输到另一个组织，只需在全局级别进行更改即可。 若要执行此操作，请运行：
     

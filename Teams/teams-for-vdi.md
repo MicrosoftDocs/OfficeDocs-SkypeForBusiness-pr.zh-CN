@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dce77f6fd2ff7d26f9452341884406fa69099a79
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: fc59616cb882897447dac35f33cf197e6e8fe143
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766916"
+ms.locfileid: "47814371"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>适用于虚拟化桌面基础结构的 Teams
 
@@ -38,6 +38,9 @@ ms.locfileid: "47766916"
 在虚拟环境中使用团队可能与在非虚拟化环境中使用团队稍有不同。 例如，某些高级功能在虚拟化环境中可能不可用，并且视频分辨率可能有所不同。
 
 若要确保获得最佳的用户体验，请按照本文中的指南操作。
+
+ > [!Note]
+ > 有关详细信息，请参阅 [按平台的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 。
 
 ## <a name="teams-on-vdi-components"></a>VDI 组件上的团队
 

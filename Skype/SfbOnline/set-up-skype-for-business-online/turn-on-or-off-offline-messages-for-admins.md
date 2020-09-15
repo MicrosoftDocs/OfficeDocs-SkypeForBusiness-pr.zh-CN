@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 4af24f66aa82bbd0f0099e062981157b08c639db
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 12d5a6c736616cb9448dc1f75a6f67424d940d7f
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164091"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814601"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>打开或关闭脱机消息（面向管理员）
 
@@ -36,9 +36,9 @@ ms.locfileid: "44164091"
 
 - 脱机消息将发送到用户的邮箱，当用户登录到 Skype for Business 时，将收到通知。
 
-- 如果邮件收件人的状态设置为 "请勿**打扰**" 或 "正在**演示**"，他们将收到从收件人的 Skype for business 客户端发送的错过的消息。
+- 如果邮件收件人的状态设置为 "请勿 **打扰** " 或 "正在 **演示**"，他们将收到从收件人的 Skype for business 客户端发送的错过的消息。
 
-有关详细信息，请参阅[在 Skype For business 中使用脱机消息](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)。
+有关详细信息，请参阅 [在 Skype For business 中使用脱机消息](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d)。
 
 ## <a name="to-get-you-started"></a>开始使用
 
@@ -50,9 +50,9 @@ ms.locfileid: "44164091"
 
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
 
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
+3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅 [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) 以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
 
-4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
+4. 你还需要为团队安装 Windows PowerShell 模块，使你能够创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。
 
 如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
 
@@ -64,25 +64,26 @@ ms.locfileid: "44164091"
 
 2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
 
-    > [!NOTE]
-    > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
+   > [!NOTE]
+   > Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
+   >
+   > 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
 
->
   ```PowerShell
-  Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+  Import-Module -Name MicrosoftTeams
   $credential = Get-Credential
   $session = New-CsOnlineSession -Credential $credential
   Import-PSSession $session
   ```
 
-如果需要有关启动 Windows PowerShell 的详细信息，请参阅[在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+如果需要有关启动 Windows PowerShell 的详细信息，请参阅 [在单个 Windows powershell 窗口中连接到所有 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx) 或 [设置适用于 Windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
 
 ## <a name="turning-on-or-off-offline-im"></a>打开或关闭脱机即时消息
 
 > [!NOTE]
-> 脱机消息**仅**在最新版本的 "即点即用 skype for business 客户端" 中可用，在使用较旧的即点即用 skype for business 时不可用，或者使用 * .msi 文件安装 Skype for business 客户端时不可用。
+> 脱机消息 **仅** 在最新版本的 "即点即用 skype for business 客户端" 中可用，在使用较旧的即点即用 skype for business 时不可用，或者使用 * .msi 文件安装 Skype for business 客户端时不可用。
 
-若要启用或禁用脱机消息，请为组织中的用户发送脱机消息， `True`将`False` _EnableIMAutoArchiving_设置为或。 默认情况下，"" 设置`True`为 ""。
+若要启用或禁用脱机消息，请为组织中的用户发送脱机消息，将  _EnableIMAutoArchiving_ 设置为 `True` 或 `False` 。 默认情况下，"" 设置为 "" `True` 。
 
 要将其禁用，请使用 **Set-CsClientPolicy** cmdlet 并运行：
 
@@ -90,7 +91,7 @@ ms.locfileid: "44164091"
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-若要启用或禁用脱机消息，请为用户发送脱机消息_EnableIMAutoArchiving_ ，将`True` EnableIMAutoArchiving `False`设置为或。 默认情况下设置为  `True`。 可以使用现有策略，也可以创建类似于下面的示例的策略。
+若要启用或禁用脱机消息，请为用户发送脱机消息，将  _EnableIMAutoArchiving_ 设置为 `True` 或 `False` 。 默认情况下设置为  `True`。 可以使用现有策略，也可以创建类似于下面的示例的策略。
 
 
   ```PowerShell

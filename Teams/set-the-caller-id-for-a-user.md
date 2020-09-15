@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 了解 Microsoft 365 和 Office 365 默认呼叫方 ID (用户分配的电话号码) ，也称为呼叫线路 ID。 你可以更改或阻止用户的呼叫者 ID。
-ms.openlocfilehash: 3c39497618927c20d1103b9aaaec82960a06d56c
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: ff8355b9435d0a21c032ee90b442884c0319221c
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255425"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814321"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>为用户设置来电显示
 Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示，即用户分配的电话号码。 你可以为用户更改或阻止来电显示（也称为主叫号码）。 通过转到如何 [在组织](how-can-caller-id-be-used-in-your-organization.md)中使用来电显示，您可以了解有关如何在您的组织中使用来电显示的详细信息。
@@ -82,10 +82,11 @@ Microsoft 365 和 Office 365 中的电话系统提供了一个默认来电显示
 2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
     
    > [!NOTE]
-   > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
-   > 
+   >
+   > Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
+   > 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
    ```PowerShell
-    Import-Module -Name SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session

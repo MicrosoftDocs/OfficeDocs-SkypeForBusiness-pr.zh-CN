@@ -18,12 +18,12 @@ description: 了解在 Microsoft 团队中向用户分配策略的不同方法�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d6253645e674d680f86d0b6f89a62968e6c21ba
-ms.sourcegitcommit: dc3e8ae454c42981f037f4de2e48005428b6078e
+ms.openlocfilehash: eaca3bdebc25e511ecc8f461c47b2d39a6332afa
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533939"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814892"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>向 Microsoft Teams 中的用户分配策略
 
@@ -31,7 +31,7 @@ ms.locfileid: "46533939"
 
 组织具有不同类型的具有独特需求的用户和你创建和分配的自定义策略，让你可以根据这些需求将策略设置自定义给不同的用户集。
 
-为了便于管理组织中的策略，团队提供了多种方法来为用户分配策略。 你可以将策略直接分配给用户，无论是单独的还是通过批处理作业进行缩放，或是用户是其成员的组。 你还可以使用策略程序包向组织中具有类似角色的用户分配策略的预设集合。 你选择的选项取决于你正在管理的策略的数量以及你要分配到的用户数。 通过设置全局（组织范围的默认）策略，使其应用于组织中的最大用户数，您只需为需要特殊策略的用户分配策略。
+为了便于管理组织中的策略，团队提供了多种方法来为用户分配策略。 你可以将策略直接分配给用户，无论是单独的还是通过批处理作业进行缩放，或是用户是其成员的组。 你还可以使用策略程序包向组织中具有类似角色的用户分配策略的预设集合。 你选择的选项取决于你正在管理的策略的数量以及你要分配到的用户数。 通过设置全局 (组织范围的默认) 策略，以便它们应用于组织中的最大用户数，只需为需要特殊策略的用户分配策略。
 
 本文介绍为用户分配策略的不同方法以及用于何时使用的建议方案。
 
@@ -39,46 +39,46 @@ ms.locfileid: "46533939"
 
 用户对每个策略类型都有一个有效策略。 用户可以直接分配策略，也可以是分配了相同类型策略的一个或多个组的成员。 在这种情况下，哪些策略优先？  根据优先级规则确定用户的有效策略，如下所示。
 
-如果用户直接分配策略（单独或通过批处理作业），则该策略优先。 在以下示例中，用户的有效策略是 Lincoln 方形会议策略，该策略直接分配给用户。
+如果用户直接分配策略 (或通过批处理作业) 分配策略，则该策略优先。 在以下示例中，用户的有效策略是 Lincoln 方形会议策略，该策略直接分配给用户。
 
 ![图表显示如何直接分配的策略优先](media/assign-policies-example-directly-assigned.png)
 
-如果用户未直接分配给定类型的策略，则分配给用户所属组的策略优先。 如果用户是多个组的成员，则具有给定策略类型的最高[组分配级别](#group-assignment-ranking)的策略优先。
+如果用户未直接分配给定类型的策略，则分配给用户所属组的策略优先。 如果用户是多个组的成员，则具有给定策略类型的最高 [组分配级别](#group-assignment-ranking) 的策略优先。
 
 在此示例中，用户的有效策略是 Exec 团队和 HD 策略，该策略具有相对于用户所属的其他组的最高工作分配级别，并且还分配有相同策略类型的策略。  
 
 ![图表显示了从组继承的策略优先的方式](media/assign-policies-example-group.png)
 
-如果用户未直接分配策略或不是分配了策略的任何组的成员，则用户将获取该策略类型的全局（组织范围默认）策略。 下面是一个示例。
+如果用户未直接分配策略或不是分配了策略的任何组的成员，则用户将获取该策略类型的全局 (组织范围默认) 策略。 下面是一个示例。
 
 ![显示全局策略优先级别的图表](media/assign-policies-example-global.png)
 
-若要了解详细信息，请参阅[优先规则](#precedence-rules)。
+若要了解详细信息，请参阅 [优先规则](#precedence-rules)。
 
 ## <a name="ways-to-assign-policies"></a>分配策略的方法
 
 下面概述了为用户分配策略的方法和建议的每种方案。 单击链接以了解详细信息。
 
-将策略分配给单个用户或组之前，首先[设置全局（组织范围的默认）策略](#set-the-global-policies)，使其应用于组织中的最大用户数。  设置全局策略后，你将仅需要为需要特殊策略的用户分配策略。
+将策略分配给单个用户或组之前，首先 [设置全局 (组织范围的默认) 策略](#set-the-global-policies) ，以便它们应用于组织中的最大用户数。  设置全局策略后，你将仅需要为需要特殊策略的用户分配策略。
 
 |要执行的操作  |If .。。  | 使用 .。。
 |---------|---------|----|
 |[为单个用户分配策略](#assign-a-policy-to-individual-users)    | 您是新的团队新手，只需将一个或几个策略分配给少数几个用户。 |Skype for Business Online PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet
-| [分配策略包](#assign-a-policy-package)   | 您需要将多个策略分配给组织中具有相同或类似角色的特定用户组。 例如，将教育版（教师）策略包分配给你的学校教师，让他们能够完全访问聊天、通话和会议以及教育（次要学校学生）策略包，以限制某些功能，如私人通话。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
+| [分配策略包](#assign-a-policy-package)   | 您需要将多个策略分配给组织中具有相同或类似角色的特定用户组。 例如，向学校中的教师分配教育版 (教师) 策略包，让他们能够完全访问聊天、通话和会议以及教育 (次要学生) 策略程序包，以限制某些功能，如私人通话。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
 |[为一批用户分配策略](#assign-a-policy-to-a-batch-of-users)   | 您需要为大型用户组分配策略。 例如，你希望一次为组织中的成百上千个用户分配策略。  |团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
 |[为组分配策略](#assign-a-policy-to-a-group) |您需要根据用户的组成员身份分配策略。 例如，你想要为安全组或通讯组列表中的所有用户分配策略。| 团队 PowerShell 模块中的 Microsoft 团队管理中心或 PowerShell cmdlet|
-| [将策略包分配给一批用户](#assign-a-policy-package-to-a-batch-of-users)|您需要为组织中具有相同或类似角色的一批用户分配多个策略。 例如，使用批处理作业将教育版（教师）策略包分配给你的学校中的所有教师，让他们能够完全访问聊天、通话和会议，并将教育（次要学校学生）策略包分配给一批次要学生，以限制某些功能（如私人通话）。|团队 PowerShell 模块中的 PowerShell cmdlet|
-| 将策略包分配给组（即将推出）   | ||
+| [将策略包分配给一批用户](#assign-a-policy-package-to-a-batch-of-users)|您需要为组织中具有相同或类似角色的一批用户分配多个策略。 例如，使用批处理作业向学校中的所有教师分配教育 (教师) 策略包，从而为他们提供对聊天、通话和会议的完全访问权限，并将教育 (辅助学校学生) 策略包分配给一批辅助学生，以限制某些功能（如私人通话）。|团队 PowerShell 模块中的 PowerShell cmdlet|
+| 将策略包分配给即将推出的组 ()    | ||
 
 ## <a name="set-the-global-policies"></a>设置全局策略
 
-请按照以下步骤为每个策略类型设置全局（组织范围的默认）策略。
+请按照以下步骤设置每个策略类型的全局 (组织范围默认) 策略。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 管理中心
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到要更新的策略类型的 "策略" 页面。 例如，**团队**  >  **团队策略**、**会议**  >  **会议策略**、**邮件策略**或**语音**  >  **呼叫策略**。
-2. 选择 "**全局（组织范围默认）** " 策略以查看当前设置。
-3. 根据需要更新策略，然后选择 "**应用**"。
+2. 选择 " **全局 (组织范围默认) ** 策略" 以查看当前设置。
+3. 根据需要更新策略，然后选择 " **应用**"。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
@@ -124,7 +124,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 1. 在 Microsoft Teams 管理员中心的左侧导航中，转到“用户”，然后单击相应的用户。****
 2. 单击用户名的左侧以选择用户，然后单击“编辑设置”。****
-3. 选择要分配的策略，然后单击 "**应用**"。
+3. 选择要分配的策略，然后单击 " **应用**"。
 
 或者，您也可以执行以下操作：
 
@@ -132,16 +132,21 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 2. 通过单击策略名称的左侧，选择要分配的策略。
 3. 选择“管理用户”****。
 4. 在“**管理用户**”窗格中，按显示名称或用户名搜索用户，选择用户名，然后选择“**添加**”。 对想要添加的每一个用户重复此步骤。
-5. 完成添加用户后，选择 "**应用**"。
+5. 完成添加用户后，选择 " **应用**"。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-每个策略类型都有自己的一组用于管理它的 cmdlet。 使用 ```Grant-``` 给定策略类型的 cmdlet 分配策略。 例如，使用 ```Grant-CsTeamsMeetingPolicy``` cmdlet 向用户分配团队会议策略。 这些 cmdlet 包含在 Skype for Business Online PowerShell 模块中，并记录在[skype for business cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)中。
+每个策略类型都有自己的一组用于管理它的 cmdlet。 使用 ```Grant-``` 给定策略类型的 cmdlet 分配策略。 例如，使用 ```Grant-CsTeamsMeetingPolicy``` cmdlet 向用户分配团队会议策略。 这些 cmdlet 包含在 Skype for Business Online PowerShell 模块中，并记录在 [skype for business cmdlet 参考](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)中。
 
- 下载并安装[Skype For Business Online PowerShell 模块](https://www.microsoft.com/en-us/download/details.aspx?id=39366)（如果尚未安装），然后运行以下操作以连接到 Skype For business online 并启动会话。
+ 如果尚未) ，请下载并安装 [skype For Business Online PowerShell 模块](https://www.microsoft.com/download/details.aspx?id=39366) (，然后运行以下操作以连接到 Skype For business online 并启动会话。
+
+> [!NOTE]
+> Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
+>
+> 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
 
 ```powershell
-Import-Module SkypeOnlineConnector
+Import-Module -Name MicrosoftTeams
 $Cred = Get-Credential
 $CSSession = New-CsOnlineSession -Credential $Cred
 Import-PSSession -Session $CSSession
@@ -153,15 +158,15 @@ Import-PSSession -Session $CSSession
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
 ```
 
-若要了解详细信息，请[通过 PowerShell 阅读管理策略](teams-powershell-managing-teams.md#manage-policies-via-powershell)。
+若要了解详细信息，请 [通过 PowerShell 阅读管理策略](teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
 ## <a name="assign-a-policy-package"></a>分配策略包
 
-团队中的策略包是预定义策略和策略设置的集合，你可以分配给在你的组织中具有相同或类似角色的用户。 每个策略程序包均围绕用户角色进行设计，其中包含支持该角色的典型活动的预定义策略和策略设置。 策略包的一些示例是教育版（教师）包和医疗保健（临床工作者）程序包。
+团队中的策略包是预定义策略和策略设置的集合，你可以分配给在你的组织中具有相同或类似角色的用户。 每个策略程序包均围绕用户角色进行设计，其中包含支持该角色的典型活动的预定义策略和策略设置。  (教师) 程序包和医疗保健 (临床工作者) 程序包中，策略包的一些示例是教育版。
 
 向用户分配策略包时，将创建程序包中的策略，然后你可以自定义程序包中每个策略的设置以满足用户需求。
 
-若要了解有关策略程序包的详细信息，包括如何分配和管理它们的分步指导，请参阅[管理团队中的策略程序包](manage-policy-packages.md)。
+若要了解有关策略程序包的详细信息，包括如何分配和管理它们的分步指导，请参阅 [管理团队中的策略程序包](manage-policy-packages.md)。
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>为一批用户分配策略
 
@@ -169,27 +174,27 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 要批量向用户分配策略，请执行以下操作：
 
-1. 在 Microsoft 团队管理中心的左侧导航中，选择 "**用户**"。
+1. 在 Microsoft 团队管理中心的左侧导航中，选择 " **用户**"。
 2. 搜索要向其分配策略的用户，或筛选视图以显示所需的用户。
 3. 在 **&#x2713;**（复选标记）列，选择用户。 若要选择所有用户，请单击表格顶部的 &#x2713;（复选标记）。
 4. 单击“**编辑设置**”，执行所需的更改，然后单击“**应用**”。
 
-若要查看策略分配的状态，请在单击 "**应用**" 提交策略分配后出现在 "**用户**" 页面顶部的标题中，单击 "**活动日志**"。 或者，在 Microsoft 团队管理中心的左侧导航中，转到**仪表板**，然后在 "**活动日志**" 下单击 "**查看详细信息**"。 活动日志显示过去30天内通过 Microsoft 团队管理中心向超过20名用户批处理的策略分配。 若要了解详细信息，请参阅[在活动日志中查看策略分配](activity-log.md)。
+若要查看策略分配的状态，请在单击 "**应用**" 提交策略分配后出现在 "**用户**" 页面顶部的标题中，单击 "**活动日志**"。 或者，在 Microsoft 团队管理中心的左侧导航中，转到 **仪表板**，然后在 " **活动日志**" 下单击 " **查看详细信息**"。 活动日志显示过去30天内通过 Microsoft 团队管理中心向超过20名用户批处理的策略分配。 若要了解详细信息，请参阅 [在活动日志中查看策略分配](activity-log.md)。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
 > [!NOTE]
-> 当前，使用 PowerShell 的批策略分配不适用于所有团队策略类型。 有关受支持的策略类型列表，请参阅[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) 。
+> 当前，使用 PowerShell 的批策略分配不适用于所有团队策略类型。 有关受支持的策略类型列表，请参阅 [CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) 。
  
 通过批处理策略分配，您可以一次性为大型用户分配策略，而无需使用脚本。 使用 ```New-CsBatchPolicyAssignmentOperation``` cmdlet 提交要分配的一批用户和策略。 作业作为后台操作处理，并为每个批处理生成操作 ID。 然后，你可以使用该 ```Get-CsBatchPolicyAssignmentOperation``` cmdlet 跟踪批处理中作业的进度和状态。
 
-你可以按对象 Id 或会话初始协议（SIP）地址指定用户。 请注意，用户的 SIP 地址通常具有与用户主体名称（UPN）或电子邮件地址相同的值，但这不是必需的。 如果用户使用其 UPN 或电子邮件进行了指定，但它的值与 SIP 地址不同，则该用户的策略分配将失败。 如果批处理包括重复的用户，则在处理之前将从批处理中删除重复项，并且仅为批处理中剩余的唯一用户提供状态。 
+你可以按用户的对象 Id 或会话初始协议指定用户 (SIP) 地址。 请注意，用户的 SIP 地址通常具有与用户主体名称相同的值 (UPN) 或电子邮件地址，但这不是必需的。 如果用户使用其 UPN 或电子邮件进行了指定，但它的值与 SIP 地址不同，则该用户的策略分配将失败。 如果批处理包括重复的用户，则在处理之前将从批处理中删除重复项，并且仅为批处理中剩余的唯一用户提供状态。 
 
 批处理最多可包含5000个用户。 为获得最佳结果，请不要一次提交多个批次。 允许批完成处理，然后再提交更多批。
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft 团队 PowerShell 模块
 
-运行以下操作以安装[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)。 请确保安装1.0.5 或更高版本。
+运行以下操作以安装 [Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)。 请确保安装1.0.5 或更高版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -203,9 +208,9 @@ Connect-MicrosoftTeams
 
 出现提示时，请使用管理员凭据登录。
 
-#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>安装并连接到 Azure AD PowerShell for Graph 模块（可选）
+#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>安装并连接到 Azure AD PowerShell for Graph 模块 (可选) 
 
-你可能还希望[下载并安装适用于 Graph 模块的 AZURE Ad PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) （如果尚未这样做），并连接到 Azure ad，以便你可以检索组织中的用户列表。
+如果尚未) 并连接到 Azure AD，你可能还想要 [下载和安装 AZURE Ad PowerShell For Graph 模块](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) (，以便你可以检索组织中的用户列表。
 
 运行以下操作以连接到 Azure AD。
 
@@ -232,7 +237,7 @@ $users = Get-AzureADUser
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyName "New Hire Messaging Policy" -Identity $users.SipProxyAddress -OperationName "Example 2 batch"
 ```
 
-若要了解详细信息，请参阅[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)。
+若要了解详细信息，请参阅 [CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)。
 
 #### <a name="get-the-status-of-a-batch-assignment"></a>获取批处理作业的状态
 
@@ -248,7 +253,7 @@ $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f36
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
 ```
 
-若要了解详细信息，请参阅[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)。
+若要了解详细信息，请参阅 [CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)。
 
 ## <a name="assign-a-policy-to-a-group"></a>为组分配策略
 
@@ -268,7 +273,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 - 直接分配给用户的策略优先于分配给组的任何其他相同类型的策略。 换言之，如果用户直接分配给某一给定类型的策略，则该用户不会从组中继承同一类型的策略。 这还意味着，如果用户具有直接分配给他们的给定类型的策略，则必须从用户处删除该策略，然后才能从组继承同一类型的策略。
 - 如果用户没有直接分配给他们的策略，并且是两个或更多组的成员，并且每个组都分配有相同类型的策略，则用户将继承具有最高级别的组分配的策略。
-- 如果用户不是分配了策略的任何组的成员，则该策略类型的全局（组织范围默认）策略将应用于该用户。
+- 如果用户不是分配了策略的任何组的成员，则全局 (该策略类型的组织范围默认) 策略将应用于该用户。
 
 当用户在分配了策略的组中添加或删除时，用户的有效策略将根据这些规则进行更新，从组中取消分配策略，或者删除直接分配给用户的策略。
 
@@ -293,25 +298,25 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 > 目前，对使用 Microsoft 团队管理中心的组的策略分配仅适用于团队调用策略、团队呼叫驻留策略、团队策略、团队实时事件策略、团队会议策略和团队消息策略。 对于其他策略类型，请使用 PowerShell。
 
 1. 在 Microsoft 团队管理中心的左侧导航中，转到 "策略类型" 页面。 例如，转到 "**会议**  >  **会议策略**"。
-2. 选择 "**组策略分配**" 选项卡。
-3. 选择 "**添加组**"，然后在 "向**组分配策略**" 窗格中，执行下列操作：
+2. 选择 " **组策略分配** " 选项卡。
+3. 选择 " **添加组**"，然后在 "向 **组分配策略** " 窗格中，执行下列操作：
     1. 搜索并添加要向其分配策略的组。
     2. 为组分配设置排名。
     3. 选择要分配的策略。 
-    4. 选择 "**应用**"。
+    4. 选择 " **应用**"。
 
-若要删除组策略分配，请在 "策略" 页面的 "**组策略分配**" 选项卡上，选择 "组分配"，然后选择 "**删除**"。
+若要删除组策略分配，请在 "策略" 页面的 " **组策略分配** " 选项卡上，选择 "组分配"，然后选择 " **删除**"。
 
 若要更改组分配的排名，必须首先删除组策略分配。 然后，按照上述步骤将策略分配给组。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
 > [!NOTE]
-> 目前，对使用 PowerShell 的组的策略分配不可用于所有团队策略类型。 有关受支持的策略类型列表，请参阅[CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
+> 目前，对使用 PowerShell 的组的策略分配不可用于所有团队策略类型。 有关受支持的策略类型列表，请参阅 [CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment) 。
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft 团队 PowerShell 模块
 
-有关分步指南，请参阅[安装团队 PowerShell](teams-powershell-install.md)。
+有关分步指南，请参阅 [安装团队 PowerShell](teams-powershell-install.md)。
 
 #### <a name="assign-a-policy-to-a-group"></a>为组分配策略
 
@@ -323,7 +328,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
 ```
 
-若要了解详细信息，请参阅[CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)。
+若要了解详细信息，请参阅 [CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment)。
 
 #### <a name="get-policy-assignments-for-a-group"></a>获取组的策略分配
 
@@ -341,7 +346,7 @@ Get-CsGroupPolicyAssignment -GroupId e050ce51-54bc-45b7-b3e6-c00343d31274
 Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 ```
 
-若要了解详细信息，请参阅[CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)。
+若要了解详细信息，请参阅 [CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignment)。
 
 #### <a name="remove-a-policy-from-a-group"></a>从组中删除策略
 
@@ -370,7 +375,7 @@ Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
 Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-0826-40bb-8c94-e5f367076044
 ```
 
-若要了解详细信息，请参阅[删除-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment)。
+若要了解详细信息，请参阅 [删除-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/remove-csgrouppolicyassignment)。
 
 #### <a name="change-a-policy-assignment-for-a-group"></a>更改组的策略分配
 
@@ -389,7 +394,7 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-
 Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Rank 3
 ```
 
-若要了解详细信息，请参阅[设置 CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment)。
+若要了解详细信息，请参阅 [设置 CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/set-csgrouppolicyassignment)。
 
 
 
@@ -397,7 +402,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 下面是如何更改直接分配了策略的用户的有效策略的示例。
 
-首先，我们将 ```Get-CsUserPolicyAssignment``` cmdlet 与参数结合使用， ```PolicySource``` 以获取与用户相关联的团队会议广播策略的详细信息。 若要了解详细信息，请参阅[CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)。
+首先，我们将 ```Get-CsUserPolicyAssignment``` cmdlet 与参数结合使用， ```PolicySource``` 以获取与用户相关联的团队会议广播策略的详细信息。 若要了解详细信息，请参阅 [CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment)。
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -430,13 +435,13 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 
 通过批处理策略程序包分配，您可以一次性为大型用户分配策略包，而无需使用脚本。 使用 ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet 提交要分配的一批用户和策略包。 作业作为后台操作处理，并为每个批处理生成操作 ID。 然后，你可以使用该 ```Get-CsBatchPolicyAssignmentOperation``` cmdlet 跟踪批处理中作业的进度和状态。
 
-你可以按对象 Id 或会话初始协议（SIP）地址指定用户。 请注意，用户的 SIP 地址通常具有与用户主体名称（UPN）或电子邮件地址相同的值，但这不是必需的。 如果用户使用其 UPN 或电子邮件进行了指定，但它的值与 SIP 地址不同，则该用户的策略分配将失败。 如果批处理包括重复的用户，则在处理之前将从批处理中删除重复项，并且仅为批处理中剩余的唯一用户提供状态。 
+你可以按用户的对象 Id 或会话初始协议指定用户 (SIP) 地址。 请注意，用户的 SIP 地址通常具有与用户主体名称相同的值 (UPN) 或电子邮件地址，但这不是必需的。 如果用户使用其 UPN 或电子邮件进行了指定，但它的值与 SIP 地址不同，则该用户的策略分配将失败。 如果批处理包括重复的用户，则在处理之前将从批处理中删除重复项，并且仅为批处理中剩余的唯一用户提供状态。 
 
 批处理最多可包含5000个用户。 为获得最佳结果，请不要一次提交多个批次。 允许批完成处理，然后再提交更多批。
 
 ### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安装并连接到 Microsoft 团队 PowerShell 模块
 
-运行以下操作以安装[Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams)（如果尚未安装）。 请确保安装1.0.5 或更高版本。
+如果尚未) ，请运行以下操作以安装 [Microsoft 团队 PowerShell 模块](https://www.powershellgallery.com/packages/MicrosoftTeams) (。 请确保安装1.0.5 或更高版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -458,7 +463,7 @@ Connect-MicrosoftTeams
 New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
 ```
 
-若要了解详细信息，请参阅[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)。
+若要了解详细信息，请参阅 [CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)。
 
 ### <a name="get-the-status-of-a-batch-assignment"></a>获取批处理作业的状态
 
@@ -474,7 +479,7 @@ $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f36
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
 ```
 
-若要了解详细信息，请参阅[CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)。 
+若要了解详细信息，请参阅 [CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)。 
 
 ## <a name="related-topics"></a>相关主题
 

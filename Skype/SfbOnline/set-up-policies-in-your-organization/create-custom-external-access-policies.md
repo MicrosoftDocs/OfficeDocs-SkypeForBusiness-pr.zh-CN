@@ -19,32 +19,32 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Skype for business Online 允许您创建其他外部访问策略。 与客户端或会议策略（你可以有多个组合）不同，有三个预定义的外部访问策略可涵盖大多数方案。
-ms.openlocfilehash: 02fba48a6b8acf2a2b66078624ab36eb7453df0c
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 9ec8fbe2e2d1a0d0882a0115bb201021fbbc1a35
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164641"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814191"
 ---
 # <a name="create-custom-external-access-policies"></a>创建自定义外部访问策略
 
 Skype for business Online 允许您创建其他外部访问策略。 与客户端或会议策略（你可以有多个组合）不同，有三个预定义的外部访问策略可涵盖大多数方案。 包括：
   
-- 无联盟或 Skype 消费者访问权限（_标记： NoFederationAndPIC_ ）
+- 无联盟或 Skype 消费者访问 (_标记： NoFederationAndPIC_ ) 
     
-- 仅限联盟访问（_标记： FederationOnly_ ）
+- 仅限联盟访问 (_标记： FederationOnly_ ) 
     
-- 联盟和使用者访问（_FederationAndPICDefault_）
+- 联盟和使用者访问 (_FederationAndPICDefault_) 
     
-自定义外部策略允许你创建上述设置未涵盖的其他策略。 创建策略时，需要设置所有必需的参数，并且以后无法更改它们。 创建新的自定义策略使你能够控制 Skype 消费者访问等功能或禁用公共云音频/视频的策略，这些功能不属于预定义设置。 自定义外部访问策略遵循与客户端、移动性和会议策略相同的语法。 你可以在[此处](https://technet.microsoft.com/library/mt228132.aspx)了解有关这些设置的详细信息。
+自定义外部策略允许你创建上述设置未涵盖的其他策略。 创建策略时，需要设置所有必需的参数，并且以后无法更改它们。 创建新的自定义策略使你能够控制 Skype 消费者访问等功能或禁用公共云音频/视频的策略，这些功能不属于预定义设置。 自定义外部访问策略遵循与客户端、移动性和会议策略相同的语法。 你可以在 [此处](https://technet.microsoft.com/library/mt228132.aspx)了解有关这些设置的详细信息。
   
 若要执行此操作，用户必须使用支持版本的2016即点即用 Skype for business 应用（支持它）。 需要以下最低版本的 Skype for Business 2016 即点即用客户端：
   
 |**类型**|**发布日期**|**版本**|**版本号**|
 |:-----|:-----|:-----|:-----|
-|当前频道的首次发布  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |版本1611（内部版本7571.2006）  <br/> |
-|当前频道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本1611（内部版本7571.2072）  <br/> |
-|延期频道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本1609（内部版本7369.2118）  <br/> |
+|当前频道的首次发布  <br/> |11/17/2016  <br/> |16.0.7571.2006  <br/> |版本 1611 (内部版本 7571.2006)   <br/> |
+|当前频道  <br/> |12/6/2016  <br/> |16.0.7571.2072  <br/> |版本 1611 (内部版本 7571.2072)   <br/> |
+|延期频道  <br/> |2/22/2017  <br/> |16.0.7369.2118  <br/> |版本 1609 (内部版本 7369.2118)   <br/> |
    
 > [!CAUTION]
 > 使用旧版本的 Skype for Business Windows 应用或 Mac 客户端的用户仍能传输文件。 
@@ -57,11 +57,11 @@ Skype for business Online 允许您创建其他外部访问策略。 与客户�
     
 2. 通过在" _Windows PowerShell_"窗口中键入  **Get-Host** 来检查版本。
     
-3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅[Windows Management Framework 4.0](https://www.microsoft.com/download/details.aspx?id=40855)以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
+3. 如果你没有 3.0 版本或更高版本，则需要下载并安装 Windows PowerShell 更新。 请参阅 [Windows Management Framework 4.0](https://www.microsoft.com/download/details.aspx?id=40855) 以下载 windows PowerShell 并将其更新到版本4.0。 出现提示时，请重启计算机。
     
-4. 还需要安装 Skype for Business Online 的 Windows PowerShell 模块，才可创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。可访问[适用于 Skype for Business Online 的 Windows PowerShell 模块](https://go.microsoft.com/fwlink/?LinkId=294688)，从 Microsoft 下载中心下载此模块，此模块仅在 64 位计算机上受支持。出现提示时，请重启计算机。
+4. 你还需要为团队安装 Windows PowerShell 模块，使你能够创建连接到 Skype for Business Online 的远程 Windows PowerShell 会话。
     
-    如果需要了解详细信息，请参阅[在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
+    如果需要了解详细信息，请参阅 [在单个 Windows PowerShell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)。
     
 - **启动 Windows PowerShell 会话**
     
@@ -69,17 +69,19 @@ Skype for business Online 允许您创建其他外部访问策略。 与客户�
     
 2. 在 " **Windows PowerShell** " 窗口中，通过运行以下内容连接到 Microsoft 365 或 Office 365：
     
-    > [!NOTE]
-    > [!注释] 只需在首次使用 Skype for Business Online Windows PowerShell 模块时运行 **Import-Module** 命令即可。
+  > [!NOTE]
+  > Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
+  >
+  > 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
 
    ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+    Import-Module -Name MicrosoftTeams
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   如果需要有关启动 Windows PowerShell 的详细信息，请参阅[在单个 Windows powershell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx)或[设置适用于 windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+   如果需要有关启动 Windows PowerShell 的详细信息，请参阅 [在单个 Windows powershell 窗口中连接到所有 Microsoft 365 或 Office 365 服务](https://technet.microsoft.com/library/dn568015.aspx) 或 [设置适用于 windows powershell 的计算机](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>为用户创建自定义外部访问策略
 

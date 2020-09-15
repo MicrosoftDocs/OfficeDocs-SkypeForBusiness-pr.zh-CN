@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 阅读本主题，了解如何在本地通过 Exchange Online 和 Skype for business 服务器部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 03999e5717f784166387c823c95af1e333d4f942
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: e39a7f2cde6aef7bdee59f2052c789783d62f905
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44666144"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814511"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Exchange Online 部署 Microsoft Teams Rooms
 
@@ -28,18 +28,18 @@ ms.locfileid: "44666144"
   
 如果你的组织具有混合服务，并且某些托管在本地托管和某些托管网络，则你的配置将取决于托管每个服务的位置。 本主题介绍 Microsoft 团队聊天室的混合部署和 Exchange 托管网络。 由于这种类型的部署中存在如此多的不同变体，因此不可能提供所有这些类型的详细说明。 以下过程将适用于许多配置。 如果该进程不适合你的设置，我们建议你使用 Windows PowerShell 获得相同的最终结果，如此处所述以及其他部署选项。
 
-设置用户帐户最简单的方法是使用远程 Windows PowerShell 进行配置。 Microsoft 提供了[SkypeRoomProvisioningScript](https://go.microsoft.com/fwlink/?linkid=870105)，该脚本可帮助创建新的用户帐户，或验证你拥有的现有资源帐户，以帮助你将其转换为兼容的 Microsoft 团队聊天室用户帐户。 如果你愿意，可以按照以下步骤配置 Microsoft 团队聊天室设备将使用的帐户。
+设置用户帐户最简单的方法是使用远程 Windows PowerShell 进行配置。 Microsoft [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)提供了可帮助创建新用户帐户的脚本，或验证你拥有的现有资源帐户，以便帮助你将其转换为兼容的 Microsoft 团队聊天室用户帐户。 如果你愿意，可以按照以下步骤配置 Microsoft 团队聊天室设备将使用的帐户。
 
 ## <a name="requirements"></a>要求
 
-在使用 Exchange Online 部署 Microsoft 团队聊天室之前，请确保满足这些要求。 有关详细信息，请参阅[Microsoft 团队会议室要求](requirements.md)。
+在使用 Exchange Online 部署 Microsoft 团队聊天室之前，请确保满足这些要求。 有关详细信息，请参阅 [Microsoft 团队会议室要求](requirements.md)。
   
 若要通过 Exchange Online 部署 Microsoft 团队聊天室，请按照下面的步骤操作。 确保你有合适的权限来运行相关 cmdlet。 
 
    > [!NOTE]
-   >  此部分中的[适用于 Windows PowerShell cmdlet 的 Azure Active Directory 模块](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)（例如，Set-MsolUser）已在为 Microsoft 团队聊天室设备设置帐户中进行了测试。 其他 cmdlet 可能有效，但尚未在此特定方案中对其进行测试。
+   >  此部分中的 [适用于 Windows PowerShell cmdlet 的 Azure Active Directory 模块](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) (例如，已在为 Microsoft 团队聊天室设备设置帐户中对 MsolUser) 进行了测试。 其他 cmdlet 可能有效，但尚未在此特定方案中对其进行测试。
 
-如果你部署了 Active Directory 联合身份验证服务（AD FS），则可能需要先将用户帐户转换为托管用户，然后才能执行这些步骤，然后在完成这些步骤后将用户转换回联盟用户。
+如果你已将 Active Directory 联合身份验证服务部署 (AD FS) ，你可能需要先将用户帐户转换为托管用户，然后再执行这些步骤，然后在完成这些步骤后将用户重新转换为联盟用户。
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>创建帐户并设置 Exchange 属性
 
@@ -76,22 +76,22 @@ ms.locfileid: "44666144"
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>为你的本地域帐户添加电子邮件地址
 
-1. 在 " **Active Directory 用户和计算机广告**" 工具中，右键单击将在其中创建 Microsoft 团队聊天室帐户的容器或组织单元，单击 "**新建**"，然后单击 "**用户**"。
-2. 在 "**完整名称**" 框中键入 "显示名称" （-Identity）和 "**用户登录名**" 框中的别名（"设置邮箱" 或 "新邮箱"）。 单击“**下一步**”。
+1. 在 " **Active Directory 用户和计算机广告** " 工具中，右键单击将在其中创建 Microsoft 团队聊天室帐户的容器或组织单元，单击 " **新建**"，然后单击 " **用户**"。
+2. 在 " **完整名称** " 框中键入 ( 标识 ) 的 "显示名称" (设置 "邮箱" 或 "新邮箱") ，然后键入 " **用户登录名** " 框中的别名。 单击“**下一步**”。
 3. 键入此帐户的密码。你需要重新键入密码进行确认。确保“**密码永不过期**”复选框是选中的唯一选项。
 
     > [!NOTE]
-    > 选择 "**密码永不过期**" 是 Microsoft 团队聊天室上的 Skype For business 服务器的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，你将需要为每个 Microsoft 团队聊天室用户帐户创建一个例外。
+    > 选择 " **密码永不过期** " 是 Microsoft 团队聊天室上的 Skype For business 服务器的要求。 你的域规则可能禁止使用不过期的密码。 如果是这样，你将需要为每个 Microsoft 团队聊天室用户帐户创建一个例外。
   
 4. 单击“**完成**”创建帐户。
-5. 创建帐户后，运行目录同步。 这可以通过在 PowerShell 中使用[MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0)来实现。 完成后，转到 "用户" 页面并验证之前步骤中创建的两个帐户是否已合并。
+5. 创建帐户后，运行目录同步。 这可以通过在 PowerShell 中使用 [MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) 来实现。 完成后，转到 "用户" 页面并验证之前步骤中创建的两个帐户是否已合并。
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>分配 Microsoft 365 或 Office 365 许可证
 
-1. 首先，连接到 Azure AD 以应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。 有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。
+1. 首先，连接到 Azure AD 以应用某些帐户设置。 你可以通过运行此 cmdlet 来进行连接。 有关 Active Directory 的详细信息，请参阅 [Azure ActiveDirectory (import-module msonline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 不受支持。
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -101,8 +101,8 @@ ms.locfileid: "44666144"
      ``` -->
 
 2. 用户帐户需要拥有有效的 Microsoft 365 或 Office 365 许可证，才能确保 Exchange 和 Skype for business 服务器能够正常工作。 如果你有许可证，则需要为用户帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 您将按以下步骤进行分配。
-3. 接下来，使用`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 检索 Microsoft 365 或 Office 365 组织的可用 Sku 列表。
-4. 列出 Sku 后，您可以使用`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。 
+3. 接下来，使用 `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 检索 Microsoft 365 或 Office 365 组织的可用 Sku 列表。
+4. 列出 Sku 后，您可以使用 `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> cmdlet. 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。 
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -119,8 +119,13 @@ ms.locfileid: "44666144"
 
 1. 从电脑创建远程 Windows PowerShell 会话，如下所示：
 
+> [!NOTE]
+> Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
+>
+> 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
+
     ``` Powershell
-    Import-Module SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $cred = Get-Credential
     $cssess = New-CsOnlineSession -Credential $cred  
     Import-PSSession $cssess -AllowClobber
@@ -150,7 +155,7 @@ ms.locfileid: "44666144"
 对于验证，你应该能够使用任何 Skype for Business 客户端登录到此帐户。
 
 > [!NOTE]
-> 如果您当前使用的是 E1、E3、E4 或 E5 Sku，并且使用带音频会议或电话系统和通话计划的 Skype for business 计划2，这些功能将继续有效。 但是，在当前许可证过期后，应考虑移动到 "[团队会议会议室许可更新](rooms-licensing.md)" 中描述的更简单的许可模型。
+> 如果您当前使用的是 E1、E3、E4 或 E5 Sku，并且使用带音频会议或电话系统和通话计划的 Skype for business 计划2，这些功能将继续有效。 但是，在当前许可证过期后，应考虑移动到 " [团队会议会议室许可更新](rooms-licensing.md)" 中描述的更简单的许可模型。
 
 > [!IMPORTANT]
 > 如果你使用的是 Skype for Business 计划2，则只能在 Skype for business 模式下使用 Microsoft 团队聊天室，这意味着你的所有会议都将是 Skype for business 会议。 为了为 Microsoft 团队会议启用会议室，我们建议你购买会议室许可证。

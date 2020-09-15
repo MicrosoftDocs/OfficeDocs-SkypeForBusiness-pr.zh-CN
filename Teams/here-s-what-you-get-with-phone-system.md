@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '了解功能、可用性以及如何为你的企业规划和设置 Microsoft Phone 系统。 '
-ms.openlocfilehash: 07116674a7c405875f02a72c6429814a760bee48
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 5ed14740f5521bdd70d2fda7f50ffb940ccac485
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788426"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814882"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>电话系统的功能
 
@@ -35,6 +35,8 @@ ms.locfileid: "46788426"
 
 客户端适用于电脑、Mac 和手机，可通过平板电脑和移动电话将设备上的功能提供给电脑和桌面 IP 电话。 有关详细信息，请参阅 [获取 Microsoft 团队客户端](get-clients.md)。
 
+ > [!Note]
+ > 有关详细信息，请参阅 [按平台的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 。
   
 ## <a name="phone-system-features"></a>电话系统功能
 

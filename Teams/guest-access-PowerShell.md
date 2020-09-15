@@ -17,12 +17,12 @@ description: 了解如何使用 PowerShell 允许或阻止对 Microsoft 团队�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7e2833d1afedb975edf2532fb69c4fdbbdb31d4
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: 0c8a2e23f5c03420c4b0ce644a80e0733f9f69a5
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46655903"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814331"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>使用 PowerShell 控制对团队的来宾访问
 ================================================
@@ -35,27 +35,32 @@ ms.locfileid: "46655903"
 
 - 允许或阻止来自特定团队或 Microsoft 365 组的来宾用户
 
-有关详细信息，请参阅在[Microsoft 365 组中管理来宾访问](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)中的 "使用 PowerShell 控制来宾访问"。
+有关详细信息，请参阅在 [Microsoft 365 组中管理来宾访问](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)中的 "使用 PowerShell 控制来宾访问"。
 
   
-你还可以使用 PowerShell 根据来宾用户的域允许或阻止来宾用户。 例如，假定你的企业 (Contoso) 与另一家企业 (Fabrikam) 有合作关系。 你可以将 Fabrikam 添加到你的允许列表，以便你的用户可以将那些来宾添加到其组。 有关详细信息，请参阅[允许/阻止来宾访问 Microsoft 365 组](https://go.microsoft.com/fwlink/?linkid=854001)。
+你还可以使用 PowerShell 根据来宾用户的域允许或阻止来宾用户。 例如，假定你的企业 (Contoso) 与另一家企业 (Fabrikam) 有合作关系。 你可以将 Fabrikam 添加到你的允许列表，以便你的用户可以将那些来宾添加到其组。 有关详细信息，请参阅 [允许/阻止来宾访问 Microsoft 365 组](https://go.microsoft.com/fwlink/?linkid=854001)。
   
 如果要阻止团队中的来宾，但仍希望允许他们访问 SharePoint 网站，则可以使用 Azure AD PowerShell cmdlet 禁用公司对象上的 AllowGuestsToAccessGroups 参数，前提是已为 SharePoint 网站启用外部共享。
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 打开或关闭来宾访问
 
-1.  从下载 Skype for Business Online PowerShell 模块https://www.microsoft.com/download/details.aspx?id=39366
+1.  从下载 Skype for Business Online PowerShell 模块 https://www.microsoft.com/download/details.aspx?id=39366
  
 2.  将 PowerShell 会话连接到 Skype for Business Online 终结点。
 
+> [!NOTE]
+> Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
+>
+> 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
+
     ```powershell
-    Import-Module SkypeOnlineConnector
+    Import-Module -Name MicrosoftTeams
     $Cred = Get-Credential
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
     
-3.  检查您的配置，如果 `AllowGuestUser` 是 `$False` ，请使用[CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet 将其设置为 `$True` 。
+3.  检查您的配置，如果 `AllowGuestUser` 是 `$False` ，请使用 [CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet 将其设置为 `$True` 。
 
     ```powershell
     Get-CsTeamsClientConfiguration

@@ -17,18 +17,21 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ca1a2d7a00b4aa827cfb5a989e31b54b83fbeb
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: 5a944616fef0c3fd9821486a41025adf5f0fdbcc
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803904"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814571"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
 "状态" 是 Microsoft 团队中的用户配置文件的一部分 (和整个 Microsoft 365 或 Office 365) ，用于指示用户的当前可用性和其他用户的状态。 默认情况下，使用 Teams 的组织中的任何人都可以（几乎实时）查看其他用户是否在线。
 
-Outlook 2013 桌面应用及更高版本支持 Outlook 中的 Teams 状态。
+Outlook 2013 桌面版及更高版本支持 Outlook 中的 Teams 状态。
+
+ > [!Note]
+ > 有关详细信息，请参阅 [按平台的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 。
 
 ## <a name="presence-states-in-teams"></a>Teams 中的状态
 

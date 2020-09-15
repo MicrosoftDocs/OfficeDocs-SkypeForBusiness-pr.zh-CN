@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 阅读本主题，了解如何在 Microsoft 365 或 Office 365 （团队或 Skype for Business 和 Exchange 均在线）上部署 Microsoft 团队聊天室的相关信息。
-ms.openlocfilehash: 440bf2f624bfd150f7e00f145770b0fda336deb4
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: ee1f4da5cbcb65ab58c032ac651e0b563167a35b
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756793"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814791"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>通过 Microsoft 365 或 Office 365 部署 Microsoft 团队聊天室
 
@@ -30,23 +30,23 @@ ms.locfileid: "44756793"
 
 ## <a name="requirements"></a>要求
 
-在使用 Microsoft 365 或 Office 365 部署 Microsoft 团队聊天室之前，请确保满足这些要求。 有关详细信息，请参阅[Microsoft 团队会议室要求](requirements.md)。
+在使用 Microsoft 365 或 Office 365 部署 Microsoft 团队聊天室之前，请确保满足这些要求。 有关详细信息，请参阅 [Microsoft 团队会议室要求](requirements.md)。
 
 若要启用 Skype for Business，您必须具有以下各项：
 
-- 您的 Microsoft 365 或 Office 365 计划中的 Skype for business Online （计划2或基于企业的计划）或更高版本。 该计划需要允许电话拨入式会议功能。
+- Skype for Business Online (计划2或您的 Microsoft 365 或 Office 365 计划中的基于企业的计划) 或更高版本。 该计划需要允许电话拨入式会议功能。
 
 - 如果需要来自会议的电话拨入式功能，您需要音频会议和电话系统许可证。  如果需要来自会议的拨出功能，您将需要音频会议许可证。
 
 - 租户用户必须具有 Exchange 邮箱。
 
-- 您的 Microsoft 团队会议室帐户至少需要 Skype for business Online （计划2）许可证，但不需要 Exchange Online 许可证。 有关详细信息，请参阅[Microsoft 团队聊天室许可证](rooms-licensing.md)。
+- 您的 Microsoft 团队会议室帐户至少需要 Skype for Business Online (计划 2) 许可证，但不需要 Exchange Online 许可证。 有关详细信息，请参阅 [Microsoft 团队聊天室许可证](rooms-licensing.md) 。
 
-有关 Skype for Business Online 计划的详细信息，请参阅[skype for Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。
+有关 Skype for Business Online 计划的详细信息，请参阅 [skype for Business Online 服务说明](https://technet.microsoft.com/library/jj822172.aspx)。
 
 ### <a name="add-a-device-account"></a>添加设备帐户
 
-1. 连接到 Exchange Online PowerShell。 有关说明，请参阅[连接到 Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)。
+1. 连接到 Exchange Online PowerShell。 有关说明，请参阅 [连接到 Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)。
 
 2. 在 Exchange Online PowerShell 中，创建新的会议室邮箱或修改现有的会议室邮箱。 默认情况下，会议室邮箱没有关联帐户，因此当您创建或修改允许它通过 Skype 会议室系统 v2 进行身份验证的会议室邮箱时，您将需要添加帐户。
 
@@ -82,24 +82,24 @@ ms.locfileid: "44756793"
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   有关详细的语法和参数信息，请参阅[新邮箱](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox)和[设置邮箱](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)。
+   有关详细的语法和参数信息，请参阅 [新邮箱](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox) 和 [设置邮箱](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)。
 
 
 3. 在 Exchange Online PowerShell 中，在聊天室邮箱上配置以下设置以改进会议体验：
 
-   - AutomateProcessing： AutoAccept （会议组织者直接收到会议室保留决定，无需人工干预：闲 = 接受; 忙 = 拒绝。）
+   - AutomateProcessing： AutoAccept (会议组织者直接收到会议室保留决策，无需人工干预：闲 = 接受;占线 = 拒绝。 ) 
 
-   - AddOrganizerToSubject： $false （会议组织者未添加到会议请求的主题。）
+   - AddOrganizerToSubject： $false (会议组织者未添加到会议请求的主题。 ) 
 
-   - DeleteComments： $false （保留收到的会议请求的邮件正文中的任何文本。）
+   - DeleteComments： $false (保留收到的会议请求的邮件正文中的任何文本。 ) 
 
-   - DeleteSubject： $false （请保留收到的会议请求的主题。）
+   - DeleteSubject： $false (保留收到的会议请求的主题。 ) 
 
-   - RemovePrivateProperty： $false （确保由会议组织者在原始会议请求中发送的私人标志保持指定。）
+   - RemovePrivateProperty： $false (确保由会议组织者在原始会议请求中发送的私人标志保持指定。 ) 
 
-   - AddAdditionalResponse： $true （由 AdditionalResponse 参数指定的文本将添加到会议请求。）
+   - AddAdditionalResponse： $true (将 AdditionalResponse 参数指定的文本添加到会议请求。 ) 
 
-   - AdditionalResponse： "这是 Skype 会议室！" （要添加到会议请求的其他文本。）
+   - AdditionalResponse： "这是 Skype 会议室！"  (要添加到会议请求的其他文本。 ) 
 
    此示例在名为 Rigel-01 的聊天室邮箱上配置这些设置。
 
@@ -107,12 +107,12 @@ ms.locfileid: "44756793"
    Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   有关详细的语法和参数信息，请参阅[Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
+   有关详细的语法和参数信息，请参阅 [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-4. 通过运行 PowerShell cmdlet 连接到 MS Online PowerShell 以进行 Active Directory 设置 `Connect-MsolService -Credential $cred` 。   有关 Active Directory 的详细信息，请参阅[Azure ActiveDirectory （import-module msonline） 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+4. 通过运行 PowerShell cmdlet 连接到 MS Online PowerShell 以进行 Active Directory 设置 `Connect-MsolService -Credential $cred` 。   有关 Active Directory 的详细信息，请参阅 [Azure ActiveDirectory (import-module msonline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)不受支持。 
+   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) 不受支持。 
 
 5. 如果不希望密码过期，请使用以下语法：
 
@@ -145,7 +145,7 @@ ms.locfileid: "44756793"
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
-6. 设备帐户需要有有效的 Microsoft 365 或 Office 365 许可证，或者 Exchange 和 Microsoft 团队或 Skype for Business 将无法正常工作。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 你可以使用`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 若要检索 Microsoft 365 或 Office 365 组织的可用 Sku 列表，请执行以下操作：
+6. 设备帐户需要有有效的 Microsoft 365 或 Office 365 许可证，或者 Exchange 和 Microsoft 团队或 Skype for Business 将无法正常工作。 如果你有许可证，则需为设备帐户分配使用位置—此位置确定可供帐户使用的许可证 SKU。 你可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 若要检索 Microsoft 365 或 Office 365 组织的可用 Sku 列表，请执行以下操作：
 
    ```Powershell
    Get-MsolAccountSku
@@ -155,7 +155,7 @@ ms.locfileid: "44756793"
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   接下来，你可以使用`Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。
+   接下来，你可以使用 `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. 在此示例中，$strLicense 是你看到的 SKU 代码（例如，contoso:STANDARDPACK）。
 
    ```PowerShell
    $acctUpn="Rigel1@contoso.onmicrosoft.com"
@@ -170,14 +170,19 @@ ms.locfileid: "44756793"
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```   -->
 
-   有关详细说明，请参阅[使用 Office 365 PowerShell 向用户帐户分配许可证](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
+   有关详细说明，请参阅 [使用 Office 365 PowerShell 向用户帐户分配许可证](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 
-7. 接下来，你需要启用 Skype for Business 设备帐户。 请确保你的环境满足[Microsoft 团队会议室要求](requirements.md)中定义的要求。
+7. 接下来，你需要启用 Skype for Business 设备帐户。 请确保你的环境满足 [Microsoft 团队会议室要求](requirements.md)中定义的要求。
 
-   启动远程[Windows PowerShell 会话](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)，如下所示（请务必[安装 Skype For business Online PowerShell 组件](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)）：
+   按如下方式启动远程 [Windows PowerShell 会话](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) (确保 [安装 Skype For business Online PowerShell 组件](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)) ：
+   
+> [!NOTE]
+> Skype for Business Online 连接器目前是最新团队 PowerShell 模块的一部分。
+>
+> 如果您使用的是最新的 [团队 PowerShell 公共版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，则无需安装 Skype For Business Online 连接器。
 
    ``` Powershell
-   Import-Module SkypeOnlineConnector  
+   Import-Module -Name MicrosoftTeams  
    $cssess=New-CsOnlineSession -Credential $cred  
    Import-PSSession $cssess -AllowClobber
    ```
@@ -197,7 +202,7 @@ ms.locfileid: "44756793"
     ```
 
     > [!NOTE]
-    > 新用户帐户可能不会在与租户中的现有用户帐户相同的注册机构池中创建。 上面的命令将防止由于此情况而导致帐户设置出错。
+    > New user accounts might not be created on the same registrar pool as existing user accounts in the tenant. The command above will prevent errors in account setup due to this situation.
 
 ### <a name="assign-a-license-to-your-account"></a>向你的帐户分配许可证
 
@@ -209,7 +214,7 @@ ms.locfileid: "44756793"
 
 4. 单击“**许可证**”选项。
 
-5. 在 "**分配许可证**" 部分中，你需要选择 "Skype For business Online （计划2）" 或 "skype For business Online （计划3）"，具体取决于你的许可以及你根据需要企业语音确定的内容。 如果要在 Microsoft 团队聊天室使用云 PBX，则必须使用计划3许可证。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。 有关详细信息，请参阅[Microsoft 团队聊天室许可证](rooms-licensing.md)。
+5. 在 " **分配许可证** " 部分中，你需要选择 "Skype For business online" (计划 2) 或 skype For business Online (计划 3) ，具体取决于你的许可以及你在需要企业语音方面确定的内容。 如果要在 Microsoft 团队聊天室使用云 PBX，则必须使用计划3许可证。 至少需要 CloudPBX 才能进行语音连接。 然后根据 PSTN 连接方法配置混合语音或 PSTN 呼叫。 有关详细信息，请参阅 [Microsoft 团队聊天室许可证](rooms-licensing.md) 。
 
 6. 单击“**保存**”完成任务。
 

@@ -13,12 +13,12 @@ ms.collection:
 description: 了解团队 PowerShell 中的最新更改。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1a887ea1db964c8d9b9fe55f144208967f37d
-ms.sourcegitcommit: 207c58563b7b2aba274b067cf64242abd7a33c2c
+ms.openlocfilehash: 175b5120ad981ba695f02f7c6403c9254e266501
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "47405809"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814411"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft 团队 PowerShell 发行说明
 
@@ -31,6 +31,7 @@ ms.locfileid: "47405809"
 
 | 日期 | 版本 | 端更新 |
 |------- | -------------------- | ------------------------------ |
+| 2020年9月 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype for Business Online 连接器集成</li> |
 | 2020年9月 | [1.1.5-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype for Business Online 连接器集成</li> |
 | 2020年7月 | [类库](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>已添加 [组策略分配 cmdlet](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-group)</li> |
 | 2020年6月 | [1.1.3-预览](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype for Business Online 连接器集成<li>获取团队优化<li>增强的可靠性</li> |
@@ -53,7 +54,7 @@ ms.locfileid: "47405809"
 | [断开连接-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/disconnect-microsoftteams?view=teams-ps) | 是 | 是 |
 | [CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation?view=teams-ps) | 是 | 是 |
 | [CsGroupPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csgrouppolicyassignmentoperation?view=teams-ps) | 是 | **否** |
-| [CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | 是 | **否** |
+| [CsOnlinePowerShellEndpoint](https://docs.microsoft.com/powershell/module/teams/get-csonlinepowershellendpoint?view=teams-ps) | 是 | 是 |
 | [CsPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-cspolicypackage?view=teams-ps) | 是 | 是 |
 | [CsUserPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicyassignment?view=teams-ps) | 是 | 是 |
 | [CsUserPolicyPackage](https://docs.microsoft.com/powershell/module/teams/get-csuserpolicypackage?view=teams-ps) | 是 | 是 |
@@ -68,7 +69,7 @@ ms.locfileid: "47405809"
 | [新-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) | 是 | 是 |
 | [新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps) | 是 | 是 |
 | [新-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation?view=teams-ps) | 是 | 是 |
-| [新-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | 是 | **否** |
+| [新-CsOnlineSession](https://docs.microsoft.com/powershell/module/teams/new-csonlinesession?view=teams-ps) | 是 | 是 |
 | [新团队](https://docs.microsoft.com/powershell/module/teams/new-team?view=teams-ps) | 是 | 是 |
 | [新-TeamChannel](https://docs.microsoft.com/powershell/module/teams/new-channel?view=teams-ps) | 是 | 是 |
 | [新-TeamsApp](https://docs.microsoft.com/powershell/module/teams/new-teamsapp?view=teams-ps) | 是 | 是 |

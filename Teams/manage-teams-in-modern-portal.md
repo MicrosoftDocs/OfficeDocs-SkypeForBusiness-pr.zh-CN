@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3c963e88d33928add9c7f5c611f44919250b847
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583149"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814551"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>管理 Microsoft 团队管理中心中的团队
 ==========================================
@@ -38,39 +38,42 @@ ms.locfileid: "46583149"
 - 全局管理员
 - Teams 服务管理员
 
-可以在[使用 Microsoft 团队管理员角色管理团队](using-admin-roles.md)的团队中了解有关管理员角色的详细信息，还可以阅读有关如何使用 PowerShell cmdlet 来管理[Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)中的团队的详细信息。
+可以在 [使用 Microsoft 团队管理员角色管理团队](using-admin-roles.md)的团队中了解有关管理员角色的详细信息，还可以阅读有关如何使用 PowerShell cmdlet 来管理 [Microsoft 团队 cmdlet 参考](https://docs.microsoft.com/powershell/teams/?view=teams-ps)中的团队的详细信息。
 
 
 
 ## <a name="teams-overview-grid"></a>团队概述网格
 
-团队的管理工具位于 Microsoft 团队管理中心的 "**团队**" 节点下。  (在管理中心中，选择 "**团队**  >  **管理团队**"。 ) 每个团队由 Microsoft 365 组支持，并且此节点提供了在你的组织中已启用 Microsoft 团队的组的视图。
+团队的管理工具位于 Microsoft 团队管理中心的 " **团队** " 节点下。  (在管理中心中，选择 "**团队**  >  **管理团队**"。 ) 每个团队由 Microsoft 365 组支持，并且此节点提供了在你的组织中已启用 Microsoft 团队的组的视图。
 
 !["团队概述" 网格的屏幕截图](media/manage-teams-in-modern-portal-grid.png)  
 
 网格显示以下属性：
 
 - **团队名称**
-- **频道**-组中所有频道的计数，包括默认的 "常规" 通道。
-- **团队成员**-总用户数，包括来自租户的所有者、来宾和成员。
-- **所有者**-此团队的所有者计数。
-- **来宾**-属于此团队成员的 Azure ACTIVE Directory B2B 来宾用户的计数。
-- **隐私**-支持的 Microsoft 365 组的可见性/AccessType。
-- **状态**-此团队的已存档或活动状态。 了解有关存档[或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)中的存档团队的详细信息。
-- **说明**-支持的 Microsoft 365 组的说明。
-- **分类**-分类 (如果您的组织中使用) 分配给支持的 Microsoft 365 组。 了解有关分类的详细信息，请参阅[为组织中的 Office 组创建分类](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)。
+- **频道** -组中所有频道的计数，包括默认的 "常规" 通道。
+- **团队成员** -总用户数，包括来自租户的所有者、来宾和成员。
+- **所有者** -此团队的所有者计数。
+- **来宾** -属于此团队成员的 Azure ACTIVE Directory B2B 来宾用户的计数。
+- **隐私** -支持的 Microsoft 365 组的可见性/AccessType。
+- **状态** -此团队的已存档或活动状态。 了解有关存档 [或还原团队](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)中的存档团队的详细信息。
+- **说明** -支持的 Microsoft 365 组的说明。
+- **分类** -分类 (如果您的组织中使用) 分配给支持的 Microsoft 365 组。 了解有关分类的详细信息，请参阅 [为组织中的 Office 组创建分类](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)。
 - **GroupID** -支持 Microsoft 365 组的独特的 GroupID。
 
 > [!NOTE]
-> 如果在网格中看不到所有这些属性，请单击 "**编辑列**" 图标。 在 "**编辑列**" 窗格中，可以使用切换功能打开或关闭网格中的列。 完成后，单击 "**应用**"。
+> 如果在网格中看不到所有这些属性，请单击 " **编辑列** " 图标。 在 " **编辑列** " 窗格中，可以使用切换功能打开或关闭网格中的列。 完成后，单击 " **应用**"。
 
 ### <a name="add"></a>插件
 
-若要添加新团队，请单击 "**添加**"。 在 "**添加新团队**" 窗格中，为团队提供名称和说明，设置是要使其成为私有团队还是公共团队，并设置分类。
+若要添加新团队，请单击 " **添加**"。 在 " **添加新团队** " 窗格中，为团队提供名称和说明，设置是要使其成为私有团队还是公共团队，并设置分类。
+
+> [!NOTE]
+> 新创建的团队可立即在团队管理中心中管理，与其他客户（如 Outlook）中的体验不同。
 
 ### <a name="edit"></a>编辑
 
-若要编辑组和团队特定的设置，请通过单击团队名称左侧的团队进行选择，然后选择 "**编辑**"。
+若要编辑组和团队特定的设置，请通过单击团队名称左侧的团队进行选择，然后选择 " **编辑**"。
 
 ### <a name="archive"></a>存档
 
@@ -78,11 +81,11 @@ ms.locfileid: "46583149"
 
 ### <a name="delete"></a>删除
 
-删除团队是团队和相应 Microsoft 365 组的软删除。 若要还原错误删除的团队，请按照[还原已删除的组](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)中的说明进行操作。
+删除团队是团队和相应 Microsoft 365 组的软删除。 若要还原错误删除的团队，请按照 [还原已删除的组](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)中的说明进行操作。
 
 ### <a name="search"></a>搜索
 
-搜索当前支持字符串 "始于" 并搜索 "**团队名称**" 字段。
+搜索当前支持字符串 "始于" 并搜索 " **团队名称** " 字段。
 
 ## <a name="team-profile"></a>团队档案
 
@@ -98,14 +101,14 @@ ms.locfileid: "46583149"
 
 在团队的配置文件页面上，您可以更改团队的以下元素：
 
-- **成员**-添加或删除成员以及提升或降级所有者。
-- **频道**-添加新频道、编辑或删除现有频道。 请记住，您不能删除默认的常规频道。
+- **成员** -添加或删除成员以及提升或降级所有者。
+- **频道** -添加新频道、编辑或删除现有频道。 请记住，您不能删除默认的常规频道。
 - **团队名称**
 - **说明**
-- **隐私**-设置团队是公共的还是私有的。
-- **分类**-这由 Microsoft 365 组分类支持。 选择 "**机密**"、"**高度机密**" 或 "**常规**"。
-- **对话设置**-设置成员是否可以编辑和删除已发送的邮件。
-- **频道设置**-设置成员是否可以创建新频道和编辑现有频道，以及添加、编辑和删除选项卡、连接器和应用。
+- **隐私** -设置团队是公共的还是私有的。
+- **分类** -这由 Microsoft 365 组分类支持。 选择 " **机密**"、" **高度机密**" 或 " **常规**"。
+- **对话设置** -设置成员是否可以编辑和删除已发送的邮件。
+- **频道设置** -设置成员是否可以创建新频道和编辑现有频道，以及添加、编辑和删除选项卡、连接器和应用。
 
 将记录对团队所做的更改。 如果你正在修改组设置 (更改名称、说明、照片、隐私、分类或团队成员) ，这些更改将通过审核管道与你相关。 如果你正在针对特定于团队的设置执行操作，你的更改将在团队的常规频道中进行跟踪和设置。
 
