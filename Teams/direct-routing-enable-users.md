@@ -16,89 +16,106 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 了解如何启用 Microsoft 手机系统直接路由用户。
-ms.openlocfilehash: 5fc3955430e5aa441d3c1099a86011d2b0c760f0
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: f89133b5205dc77f8045c484b97d3049773c28e2
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656143"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814541"
 ---
-# <a name="enable-users-for-direct-routing-voice-and-voicemail"></a><span data-ttu-id="a2a5c-103">为用户启用直接路由、语音和语音邮件</span><span class="sxs-lookup"><span data-stu-id="a2a5c-103">Enable users for Direct Routing, voice, and voicemail</span></span>
+# <a name="enable-users-for-direct-routing-voice-and-voicemail"></a><span data-ttu-id="0e691-103">为用户启用直接路由、语音和语音邮件</span><span class="sxs-lookup"><span data-stu-id="0e691-103">Enable users for Direct Routing, voice, and voicemail</span></span>
 
-<span data-ttu-id="a2a5c-104">本文介绍如何为用户启用电话系统直接路由。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-104">This article describes how to enable users for Phone System Direct Routing.</span></span>  <span data-ttu-id="a2a5c-105">这是用于配置直接路由的以下步骤的步骤2：</span><span class="sxs-lookup"><span data-stu-id="a2a5c-105">This is step 2 of the following steps for configuring Direct Routing:</span></span>
+<span data-ttu-id="0e691-104">本文介绍如何为用户启用电话系统直接路由。</span><span class="sxs-lookup"><span data-stu-id="0e691-104">This article describes how to enable users for Phone System Direct Routing.</span></span>  <span data-ttu-id="0e691-105">这是用于配置直接路由的以下步骤的步骤2：</span><span class="sxs-lookup"><span data-stu-id="0e691-105">This is step 2 of the following steps for configuring Direct Routing:</span></span>
 
-- <span data-ttu-id="a2a5c-106">第 1 步</span><span class="sxs-lookup"><span data-stu-id="a2a5c-106">Step 1.</span></span> [<span data-ttu-id="a2a5c-107">将 SBC 连接到 Microsoft Phone 系统并验证连接</span><span class="sxs-lookup"><span data-stu-id="a2a5c-107">Connect the SBC with Microsoft Phone System and validate the connection</span></span>](direct-routing-connect-the-sbc.md) 
-- <span data-ttu-id="a2a5c-108">**步骤2。 (本文中启用直接路由、语音和语音邮件的用户**) </span><span class="sxs-lookup"><span data-stu-id="a2a5c-108">**Step 2. Enable users for Direct Routing, voice, and voicemail**    (This article)</span></span>
-- <span data-ttu-id="a2a5c-109">第 3 步</span><span class="sxs-lookup"><span data-stu-id="a2a5c-109">Step 3.</span></span> [<span data-ttu-id="a2a5c-110">配置语音路由</span><span class="sxs-lookup"><span data-stu-id="a2a5c-110">Configure voice routing</span></span>](direct-routing-voice-routing.md)
-- <span data-ttu-id="a2a5c-111">第 4 步</span><span class="sxs-lookup"><span data-stu-id="a2a5c-111">Step 4.</span></span> [<span data-ttu-id="a2a5c-112">将数字转换为备用格式</span><span class="sxs-lookup"><span data-stu-id="a2a5c-112">Translate numbers to an alternate format</span></span>](direct-routing-translate-numbers.md) 
+- <span data-ttu-id="0e691-106">第 1 步</span><span class="sxs-lookup"><span data-stu-id="0e691-106">Step 1.</span></span> [<span data-ttu-id="0e691-107">将 SBC 连接到 Microsoft Phone 系统并验证连接</span><span class="sxs-lookup"><span data-stu-id="0e691-107">Connect the SBC with Microsoft Phone System and validate the connection</span></span>](direct-routing-connect-the-sbc.md) 
+- <span data-ttu-id="0e691-108">**步骤2。 (本文中启用直接路由、语音和语音邮件的用户**  ) </span><span class="sxs-lookup"><span data-stu-id="0e691-108">**Step 2. Enable users for Direct Routing, voice, and voicemail**   (this article)</span></span>
+- <span data-ttu-id="0e691-109">第 3 步</span><span class="sxs-lookup"><span data-stu-id="0e691-109">Step 3.</span></span> [<span data-ttu-id="0e691-110">配置语音路由</span><span class="sxs-lookup"><span data-stu-id="0e691-110">Configure voice routing</span></span>](direct-routing-voice-routing.md)
+- <span data-ttu-id="0e691-111">第 4 步</span><span class="sxs-lookup"><span data-stu-id="0e691-111">Step 4.</span></span> [<span data-ttu-id="0e691-112">将数字转换为备用格式</span><span class="sxs-lookup"><span data-stu-id="0e691-112">Translate numbers to an alternate format</span></span>](direct-routing-translate-numbers.md) 
 
 
-<span data-ttu-id="a2a5c-113">有关设置直接路由所需的所有步骤的信息，请参阅[配置直接路由](direct-routing-configure.md)。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-113">For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).</span></span>
+<span data-ttu-id="0e691-113">有关设置直接路由所需的所有步骤的信息，请参阅 [配置直接路由](direct-routing-configure.md)。</span><span class="sxs-lookup"><span data-stu-id="0e691-113">For information on all the steps required for setting up Direct Routing, see [Configure Direct Routing](direct-routing-configure.md).</span></span>
 
-<span data-ttu-id="a2a5c-114">准备好为用户启用直接路由时，请按照下列步骤操作：</span><span class="sxs-lookup"><span data-stu-id="a2a5c-114">When you are ready to enable users for Direct Routing, follow these steps:</span></span> 
+<span data-ttu-id="0e691-114">准备好为用户启用直接路由时，请按照下列步骤操作：</span><span class="sxs-lookup"><span data-stu-id="0e691-114">When you are ready to enable users for Direct Routing, follow these steps:</span></span> 
 
-1. <span data-ttu-id="a2a5c-115">在 Microsoft 365 或 Office 365 中创建用户并分配电话系统许可证。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-115">Create a user in Microsoft 365 or Office 365 and assign a Phone System license.</span></span> 
-2. <span data-ttu-id="a2a5c-116">确保用户托管在 Skype for Business Online 中。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-116">Ensure that the user is homed in Skype for Business Online.</span></span> 
-3. <span data-ttu-id="a2a5c-117">配置电话号码并启用企业语音和语音邮件。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-117">Configure the phone number and enable enterprise voice and voicemail.</span></span> 
-4. <span data-ttu-id="a2a5c-118">向用户分配 "仅团队" 模式。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-118">Assign Teams Only mode to users.</span></span>
+1. <span data-ttu-id="0e691-115">在 Microsoft 365 或 Office 365 中创建用户并分配电话系统许可证。</span><span class="sxs-lookup"><span data-stu-id="0e691-115">Create a user in Microsoft 365 or Office 365 and assign a Phone System license.</span></span> 
+2. <span data-ttu-id="0e691-116">确保用户托管在 Skype for Business Online 中。</span><span class="sxs-lookup"><span data-stu-id="0e691-116">Ensure that the user is homed in Skype for Business Online.</span></span> 
+3. <span data-ttu-id="0e691-117">配置电话号码并启用企业语音和语音邮件。</span><span class="sxs-lookup"><span data-stu-id="0e691-117">Configure the phone number and enable enterprise voice and voicemail.</span></span> 
+4. <span data-ttu-id="0e691-118">向用户分配 "仅团队" 模式。</span><span class="sxs-lookup"><span data-stu-id="0e691-118">Assign Teams Only mode to users.</span></span>
 
-## <a name="create-a-user-and-assign-the-license"></a><span data-ttu-id="a2a5c-119">创建用户并分配许可证</span><span class="sxs-lookup"><span data-stu-id="a2a5c-119">Create a user and assign the license</span></span> 
+## <a name="create-a-user-and-assign-the-license"></a><span data-ttu-id="0e691-119">创建用户并分配许可证</span><span class="sxs-lookup"><span data-stu-id="0e691-119">Create a user and assign the license</span></span> 
 
-<span data-ttu-id="a2a5c-120">有两个选项可用于在 Microsoft 365 或 Office 365 中创建新用户。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-120">There are two options for creating a new user in Microsoft 365 or Office 365.</span></span> <span data-ttu-id="a2a5c-121">但是，Microsoft 建议你的组织选择一个选项来避免路由问题：</span><span class="sxs-lookup"><span data-stu-id="a2a5c-121">However, Microsoft recommends that your organization choose one option to avoid routing issues:</span></span> 
+<span data-ttu-id="0e691-120">有两个选项可用于在 Microsoft 365 或 Office 365 中创建新用户。</span><span class="sxs-lookup"><span data-stu-id="0e691-120">There are two options for creating a new user in Microsoft 365 or Office 365.</span></span> <span data-ttu-id="0e691-121">但是，Microsoft 建议你的组织选择一个选项来避免路由问题：</span><span class="sxs-lookup"><span data-stu-id="0e691-121">However, Microsoft recommends that your organization choose one option to avoid routing issues:</span></span> 
 
-- <span data-ttu-id="a2a5c-122">在本地 Active Directory 中创建用户并将用户同步到云。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-122">Create the user in on-premises Active Directory and sync the user to the cloud.</span></span> <span data-ttu-id="a2a5c-123">请参阅[将本地目录与 Azure Active Directory 集成](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-123">See [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).</span></span>
-- <span data-ttu-id="a2a5c-124">直接在 Microsoft 365 管理中心创建用户。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-124">Create the user directly in the Microsoft 365 admin center.</span></span> <span data-ttu-id="a2a5c-125">请参阅[将用户逐个或批量添加到 Microsoft 365 或 Office 365-管理员帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-125">See [Add users individually or in bulk to Microsoft 365 or Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).</span></span> 
+- <span data-ttu-id="0e691-122">在本地 Active Directory 中创建用户并将用户同步到云。</span><span class="sxs-lookup"><span data-stu-id="0e691-122">Create the user in on-premises Active Directory and sync the user to the cloud.</span></span> <span data-ttu-id="0e691-123">请参阅 [将本地目录与 Azure Active Directory 集成](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。</span><span class="sxs-lookup"><span data-stu-id="0e691-123">See [Integrate your on-premises directories with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect).</span></span>
+- <span data-ttu-id="0e691-124">直接在 Microsoft 365 管理中心创建用户。</span><span class="sxs-lookup"><span data-stu-id="0e691-124">Create the user directly in the Microsoft 365 admin center.</span></span> <span data-ttu-id="0e691-125">请参阅 [将用户逐个或批量添加到 Microsoft 365 或 Office 365-管理员帮助](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。</span><span class="sxs-lookup"><span data-stu-id="0e691-125">See [Add users individually or in bulk to Microsoft 365 or Office 365 - Admin Help](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).</span></span> 
 
-<span data-ttu-id="a2a5c-126">如果您的 Skype for Business Online 部署 coexists 使用 Skype for business 2015 或 Lync 2010 或本地2013，则唯一支持的选项是在本地 Active Directory 中创建用户并将用户同步到云 (选项 1) 。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-126">If your Skype for Business Online deployment coexists with Skype for Business 2015 or Lync 2010 or 2013 on-premises, the only supported option is to create the user in the on-premises Active Directory and sync the user to the cloud (Option 1).</span></span> 
+<span data-ttu-id="0e691-126">如果您的 Skype for Business Online 部署 coexists 使用 Skype for business 2015 或 Lync 2010 或本地2013，则唯一支持的选项是在本地 Active Directory 中创建用户并将用户同步到云 (选项 1) 。</span><span class="sxs-lookup"><span data-stu-id="0e691-126">If your Skype for Business Online deployment coexists with Skype for Business 2015 or Lync 2010 or 2013 on-premises, the only supported option is to create the user in the on-premises Active Directory and sync the user to the cloud (Option 1).</span></span> 
 
-<span data-ttu-id="a2a5c-127">有关许可证要求的信息，请参阅[计划直接路由](direct-routing-plan.md)中的[许可和其他要求](direct-routing-plan.md#licensing-and-other-requirements)。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-127">For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).</span></span>
+<span data-ttu-id="0e691-127">有关许可证要求的信息，请参阅[计划直接路由](direct-routing-plan.md)中的[许可和其他要求](direct-routing-plan.md#licensing-and-other-requirements)。</span><span class="sxs-lookup"><span data-stu-id="0e691-127">For information about license requirements, see [licensing and other requirements](direct-routing-plan.md#licensing-and-other-requirements) in [Plan Direct Routing](direct-routing-plan.md).</span></span>
 
-## <a name="ensure-that-the-user-is-homed-online"></a><span data-ttu-id="a2a5c-128">确保用户处于联机状态</span><span class="sxs-lookup"><span data-stu-id="a2a5c-128">Ensure that the user is homed online</span></span> 
+## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a><span data-ttu-id="0e691-128">确保用户处于联机状态，并且电话号码未从本地 (适用于 Skype for Business 服务器企业语音已启用用户迁移到团队直接路由) </span><span class="sxs-lookup"><span data-stu-id="0e691-128">Ensure that the user is homed online and phone number is not being synced from on-premises (applicable for Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing)</span></span>
 
-<span data-ttu-id="a2a5c-129">直接路由要求用户在网上托管。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-129">Direct Routing requires the user to be homed online.</span></span> <span data-ttu-id="a2a5c-130">你可以查看 RegistrarPool 参数，该参数需要在 infra.lync.com 域中具有值。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-130">You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain.</span></span>
+<span data-ttu-id="0e691-129">直接路由要求用户在网上托管。</span><span class="sxs-lookup"><span data-stu-id="0e691-129">Direct Routing requires the user to be homed online.</span></span> <span data-ttu-id="0e691-130">你可以查看 RegistrarPool 参数，该参数需要在 infra.lync.com 域中具有值。</span><span class="sxs-lookup"><span data-stu-id="0e691-130">You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain.</span></span> <span data-ttu-id="0e691-131">OnPremLineUriManuallySet 参数还应设置为 True。</span><span class="sxs-lookup"><span data-stu-id="0e691-131">OnPremLineUriManuallySet parameter should also to be set to True.</span></span> <span data-ttu-id="0e691-132">这可以通过配置电话号码并使用 Skype for Business Online PowerShell 启用企业语音和语音邮件来实现。</span><span class="sxs-lookup"><span data-stu-id="0e691-132">This is achieved by configuring the phone number and enable enterprise voice and voicemail using Skype for Business Online PowerShell.</span></span>
 
-1. <span data-ttu-id="a2a5c-131">连接到远程 PowerShell。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-131">Connect to remote PowerShell.</span></span>
-2. <span data-ttu-id="a2a5c-132">发出命令：</span><span class="sxs-lookup"><span data-stu-id="a2a5c-132">Issue the command:</span></span> 
+1. <span data-ttu-id="0e691-133">连接 Skype for Business Online PowerShell 会话。</span><span class="sxs-lookup"><span data-stu-id="0e691-133">Connect a Skype for Business Online PowerShell session.</span></span>
+
+2. <span data-ttu-id="0e691-134">发出命令：</span><span class="sxs-lookup"><span data-stu-id="0e691-134">Issue the command:</span></span> 
 
     ```PowerShell
-    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
+    <span data-ttu-id="0e691-135">如果将 OnPremLineUriManuallySet 设置为 False，并且 LineUri 是使用 <E. 164 个电话号码>，请在使用 Skype for business Online PowerShell 配置电话号码之前，使用本地 Skype for business Management Shell 清理参数。</span><span class="sxs-lookup"><span data-stu-id="0e691-135">In case OnPremLineUriManuallySet is set to False and LineUri is populated with a <E.164 phone number>, please clean the parameters using on-premises Skype for Business Management Shell, before configuring the phone number using Skype for Business Online PowerShell.</span></span> 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a><span data-ttu-id="a2a5c-133">配置电话号码并启用企业语音和语音邮件</span><span class="sxs-lookup"><span data-stu-id="a2a5c-133">Configure the phone number and enable enterprise voice and voicemail</span></span> 
+1. <span data-ttu-id="0e691-136">从 Skype for Business Management Shell 发出命令：</span><span class="sxs-lookup"><span data-stu-id="0e691-136">From Skype for Business Management Shell issue the command:</span></span> 
 
-<span data-ttu-id="a2a5c-134">创建用户并分配许可证后，下一步是配置用户的电话号码和语音邮件。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-134">After you have created the user and assigned a license, the next step is to configure the user's phone number and voicemail.</span></span> 
+   ```PowerShell
+   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+    ``` 
+   <span data-ttu-id="0e691-137">更改同步到 Office 365 后，预期的输出为 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` ：</span><span class="sxs-lookup"><span data-stu-id="0e691-137">After the changes have synced to Office 365 the expected output of `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` would be:</span></span>
 
-<span data-ttu-id="a2a5c-135">要为语音邮件添加电话号码和启用，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="a2a5c-135">To add the phone number and enable for voicemail:</span></span>
+   ```console
+   RegistrarPool                        : pool.infra.lync.com
+   OnPremLineURIManuallySet             : True
+   OnPremLineURI                        : 
+   LineURI                              : 
+   ```
+
+## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a><span data-ttu-id="0e691-138">配置电话号码并启用企业语音和语音邮件</span><span class="sxs-lookup"><span data-stu-id="0e691-138">Configure the phone number and enable enterprise voice and voicemail</span></span> 
+
+<span data-ttu-id="0e691-139">创建用户并分配许可证后，下一步是配置用户的电话号码和语音邮件。</span><span class="sxs-lookup"><span data-stu-id="0e691-139">After you have created the user and assigned a license, the next step is to configure the user's phone number and voicemail.</span></span> 
+
+<span data-ttu-id="0e691-140">要为语音邮件添加电话号码和启用，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="0e691-140">To add the phone number and enable for voicemail:</span></span>
  
-1. <span data-ttu-id="a2a5c-136">连接到远程 PowerShell 会话。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-136">Connect to a remote PowerShell session.</span></span> 
-2. <span data-ttu-id="a2a5c-137">输入命令：</span><span class="sxs-lookup"><span data-stu-id="a2a5c-137">Enter the command:</span></span> 
+1. <span data-ttu-id="0e691-141">连接 Skype for Business Online PowerShell 会话。</span><span class="sxs-lookup"><span data-stu-id="0e691-141">Connect a Skype for Business Online PowerShell session.</span></span> 
+
+2. <span data-ttu-id="0e691-142">发出命令：</span><span class="sxs-lookup"><span data-stu-id="0e691-142">Issue the command:</span></span> 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
-
-    <span data-ttu-id="a2a5c-138">例如，若要为用户 "Spencer Low" 添加电话号码，请输入以下内容：</span><span class="sxs-lookup"><span data-stu-id="a2a5c-138">For example, to add a phone number for user "Spencer Low," enter the following:</span></span> 
+    
+    <span data-ttu-id="0e691-143">例如，若要为用户 "Spencer Low" 添加电话号码，请输入以下内容：</span><span class="sxs-lookup"><span data-stu-id="0e691-143">For example, to add a phone number for user "Spencer Low," enter the following:</span></span> 
 
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
-    <span data-ttu-id="a2a5c-139">使用的电话号码必须配置为完整的 E-164 个国家/地区代码的电话号码。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-139">The phone number used has to be configured as a full E.164 phone number with country code.</span></span> 
+    <span data-ttu-id="0e691-144">使用的电话号码必须配置为完整的 E-164 个国家/地区代码的电话号码。</span><span class="sxs-lookup"><span data-stu-id="0e691-144">The phone number used has to be configured as a full E.164 phone number with country code.</span></span> 
 
-      > [!NOTE]
-      > <span data-ttu-id="a2a5c-140">如果用户的电话号码是在本地管理的，请使用本地 Skype for Business Management Shell 或控制面板配置用户的电话号码。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-140">If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number.</span></span> 
+    > [!NOTE]
+    > <span data-ttu-id="0e691-145">如果用户的电话号码是在本地管理的，请使用本地 Skype for Business Management Shell 或控制面板配置用户的电话号码。</span><span class="sxs-lookup"><span data-stu-id="0e691-145">If the user’s phone number is managed on premises, use on-premises Skype for Business Management Shell or Control Panel to configure the user's phone number.</span></span> 
 
 
-## <a name="configuring-sending-calls-directly-to-voicemail"></a><span data-ttu-id="a2a5c-141">配置将呼叫直接发送到语音邮件</span><span class="sxs-lookup"><span data-stu-id="a2a5c-141">Configuring sending calls directly to voicemail</span></span>
+## <a name="configuring-sending-calls-directly-to-voicemail"></a><span data-ttu-id="0e691-146">配置将呼叫直接发送到语音邮件</span><span class="sxs-lookup"><span data-stu-id="0e691-146">Configuring sending calls directly to voicemail</span></span>
 
-<span data-ttu-id="a2a5c-142">直接路由允许您结束呼叫用户并将其直接发送到用户的语音邮件。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-142">Direct Routing allows you to end the call to a user and send it directly to the user's voicemail.</span></span> <span data-ttu-id="a2a5c-143">如果您想要将呼叫直接发送到语音邮件，请将不透明 = app：语音邮件附加到请求 URI 标题。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-143">If you want to send the call directly to voicemail, attach opaque=app:voicemail to the Request URI header.</span></span> <span data-ttu-id="a2a5c-144">例如，"sip： user@yourdomain .com; 不透明 = 应用：语音邮件"。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-144">For example, "sip:user@yourdomain.com;opaque=app:voicemail".</span></span> <span data-ttu-id="a2a5c-145">在这种情况下，团队用户将不会收到呼叫通知，直接将呼叫连接到用户的语音邮件。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-145">In this case, the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.</span></span>
+<span data-ttu-id="0e691-147">直接路由允许您结束呼叫用户并将其直接发送到用户的语音邮件。</span><span class="sxs-lookup"><span data-stu-id="0e691-147">Direct Routing allows you to end the call to a user and send it directly to the user's voicemail.</span></span> <span data-ttu-id="0e691-148">如果您想要将呼叫直接发送到语音邮件，请将不透明 = app：语音邮件附加到请求 URI 标题。</span><span class="sxs-lookup"><span data-stu-id="0e691-148">If you want to send the call directly to voicemail, attach opaque=app:voicemail to the Request URI header.</span></span> <span data-ttu-id="0e691-149">例如，"sip： user@yourdomain .com; 不透明 = 应用：语音邮件"。</span><span class="sxs-lookup"><span data-stu-id="0e691-149">For example, "sip:user@yourdomain.com;opaque=app:voicemail".</span></span> <span data-ttu-id="0e691-150">在这种情况下，团队用户将不会收到呼叫通知，直接将呼叫连接到用户的语音邮件。</span><span class="sxs-lookup"><span data-stu-id="0e691-150">In this case, the Teams user will not receive the calling notification, the call will be connected to the voicemail of the user directly.</span></span>
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a><span data-ttu-id="a2a5c-146">向用户分配 "仅团队" 模式以确保在 Microsoft 团队中拨打土地</span><span class="sxs-lookup"><span data-stu-id="a2a5c-146">Assign Teams Only mode to users to ensure calls land in Microsoft Teams</span></span>
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a><span data-ttu-id="0e691-151">向用户分配 "仅团队" 模式以确保在 Microsoft 团队中拨打土地</span><span class="sxs-lookup"><span data-stu-id="0e691-151">Assign Teams Only mode to users to ensure calls land in Microsoft Teams</span></span>
 
-<span data-ttu-id="a2a5c-147">直接路由要求用户仅在 "仅工作组" 模式下，以确保传入呼叫位于团队客户的土地。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-147">Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client.</span></span> <span data-ttu-id="a2a5c-148">若要将用户置于 "仅团队" 模式，请为他们分配 TeamsUpgradePolicy 的 "UpgradeToTeams" 实例。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-148">To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy.</span></span> <span data-ttu-id="a2a5c-149">有关详细信息，请参阅[IT 管理员的升级指南](upgrade-to-teams-on-prem-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-149">For more information, see [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md).</span></span> <span data-ttu-id="a2a5c-150">如果你的组织使用 Skype for business 服务器或 Skype for business Online，请参阅以下文章了解有关 Skype 和团队之间的互操作性的信息：[迁移和与 skype](migration-interop-guidance-for-teams-with-skype.md)for business 之间的互操作性。</span><span class="sxs-lookup"><span data-stu-id="a2a5c-150">If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information about interoperability between Skype and Teams: [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).</span></span>
+<span data-ttu-id="0e691-152">直接路由要求用户仅在 "仅工作组" 模式下，以确保传入呼叫位于团队客户的土地。</span><span class="sxs-lookup"><span data-stu-id="0e691-152">Direct Routing requires that users be in Teams Only mode to ensure incoming calls land in the Teams client.</span></span> <span data-ttu-id="0e691-153">若要将用户置于 "仅团队" 模式，请为他们分配 TeamsUpgradePolicy 的 "UpgradeToTeams" 实例。</span><span class="sxs-lookup"><span data-stu-id="0e691-153">To put users in Teams Only mode, assign them the "UpgradeToTeams" instance of TeamsUpgradePolicy.</span></span> <span data-ttu-id="0e691-154">有关详细信息，请参阅 [IT 管理员的升级指南](upgrade-to-teams-on-prem-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="0e691-154">For more information, see [Upgrade guidance for IT administrators](upgrade-to-teams-on-prem-overview.md).</span></span> <span data-ttu-id="0e691-155">如果你的组织使用 Skype for business 服务器或 Skype for business Online，请参阅以下文章了解有关 Skype 和团队之间的互操作性的信息： [迁移和与 skype](migration-interop-guidance-for-teams-with-skype.md)for business 之间的互操作性。</span><span class="sxs-lookup"><span data-stu-id="0e691-155">If your organization uses Skype for Business Server or Skype for Business Online, see the following article for information about interoperability between Skype and Teams: [Migration and interoperability with Skype for Business](migration-interop-guidance-for-teams-with-skype.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="a2a5c-151">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a2a5c-151">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0e691-156">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0e691-156">See also</span></span>
 
-[<span data-ttu-id="a2a5c-152">规划直接路由</span><span class="sxs-lookup"><span data-stu-id="a2a5c-152">Plan Direct Routing</span></span>](direct-routing-plan.md)
+[<span data-ttu-id="0e691-157">规划直接路由</span><span class="sxs-lookup"><span data-stu-id="0e691-157">Plan Direct Routing</span></span>](direct-routing-plan.md)
 
-[<span data-ttu-id="a2a5c-153">配置直接路由</span><span class="sxs-lookup"><span data-stu-id="a2a5c-153">Configure Direct Routing</span></span>](direct-routing-configure.md)
+[<span data-ttu-id="0e691-158">配置直接路由</span><span class="sxs-lookup"><span data-stu-id="0e691-158">Configure Direct Routing</span></span>](direct-routing-configure.md)
