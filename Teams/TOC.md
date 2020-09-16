@@ -63,6 +63,7 @@
 
 ### 来宾访问权限
 #### [关于来宾访问权限](guest-access.md)
+#### [来宾访问清单](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
 #### [来宾加入团队的方式](guest-joins.md)
 #### [来宾体验介绍](guest-experience.md)
 #### [管理对 Teams 的来宾访问](teams-dependencies.md)
@@ -773,6 +774,7 @@
 
 ## [Teams 限制和规范](limits-specifications-teams.md)
 ## [Teams 中的数据位置](location-of-data-in-teams.md)
+## [数据收集做法](data-collection-practices.md)
 
 ## 准备好推广 Teams
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
