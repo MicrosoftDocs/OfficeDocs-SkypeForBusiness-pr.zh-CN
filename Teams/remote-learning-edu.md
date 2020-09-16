@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b72a2000b17f5e910b98f907b00fa9742cf9d72
-ms.sourcegitcommit: e0e089f0ab217d920e128377af653f7dbfdedacf
+ms.openlocfilehash: 781828d8a94595a6b686fdaa729c3480d2712581
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "46818171"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814341"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -32,6 +32,9 @@ ms.locfileid: "46818171"
 关于帮助教师和学生进行远程学习的资源，请访问[在 Office 365 教育版中进行远程教学和学习](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)。
 
 本文介绍了为实现远程学习而设置的教育机构需要执行的实际步骤。
+
+ > [!Note]
+ > 有关详细信息，请参阅[平台提供的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 > [!NOTE]
 > 如果你是教师、教育机构领导或 IT 专业人员，那么这些资源可能会有所帮助：

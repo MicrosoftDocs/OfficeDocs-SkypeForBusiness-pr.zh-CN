@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf5dea8846815f052099193f03f4f90aaf951de6
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583961"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814761"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -43,6 +43,9 @@ ms.locfileid: "46583961"
 *2020 年 4 月中的新增功能*：会议组织者可以通过单击会议中会议控件“**结束会议**”，结束 Teams 中所有会议参与者的会议。  
 
 *2019 年 11 月的新增功能*：你现在可以[使用 Advisor for Teams（预览版）帮助推广 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（预览版）将引导你推广 Teams（包括会议和音频会议）。 它将评估 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功在 Teams 中推广会议和音频会议。
+
+ > [!Note]
+ > 有关详细信息，请参阅[平台提供的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>会议部署决策
 

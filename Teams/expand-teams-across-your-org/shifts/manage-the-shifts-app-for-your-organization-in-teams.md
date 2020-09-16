@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c41c4435877860a2193e6b50f45f714c8c85cb2
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 405c918dfe71fce02ab19f3ccf49cc124877da41
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814731"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820466"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中为组织管理 Shifts 应用
 
@@ -39,8 +39,8 @@ Microsoft 团队中的 "移动" 应用让一线工作人员保持连接和同步
 
 请务必知道当前班次不支持来宾用户。 这意味着在团队中启用来宾访问时，无法将团队中的来宾添加到或使用倒班计划。 
 
- > [!Note]
- > 有关详细信息，请参阅 [按平台的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) 。
+> [!Note]
+> 有关不同平台上的移位功能的详细信息，请参阅 [团队功能（按平台](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)）。
 
 ## <a name="availability-of-shifts"></a>倒班的可用性
 

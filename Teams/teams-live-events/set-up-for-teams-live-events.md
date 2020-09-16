@@ -17,12 +17,12 @@ description: 在 Teams 中为实时事件进行设置，包括设置网络、分
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dcb05d710df669a53e2876699cd8fc74ca3f6a9b
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938501"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820526"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -41,7 +41,7 @@ ms.locfileid: "44938501"
 实时事件策略用于控制组织中的哪些人员可以主持实时事件，以及其创建的事件中的可用功能。 可使用默认策略或创建一个或多个自定义实时事件策略。 创建自定义策略后，将其分配给组织中的一个或多个用户组。
 
 > [!NOTE]
-> 除非创建和分配自定义策略，否则组织中的用户将获得全局（组织范围默认）策略。 默认情况下，在全局策略中，已为 Teams 用户启用实时事件安排，已关闭实时辅助字幕与字幕（转录），组织中的每个人都可以加入实时事件，并且录制设置已设置为“始终录制”。
+> 你的组织中的用户将获得全局 (组织范围的默认) 策略，除非你创建并分配自定义策略。 默认情况下，在全局策略中，已为 Teams 用户启用实时事件安排，已关闭实时辅助字幕与字幕（转录），组织中的每个人都可以加入实时事件，并且录制设置已设置为“始终录制”。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>创建或编辑实时事件策略
 
@@ -51,7 +51,7 @@ ms.locfileid: "44938501"
 2. 执行下列操作之一：
 
     - 如果要编辑现有默认策略，请选择“**全局(默认为组织范围)**”。
-    - 如果要创建新的自定义策略，请选择 "**添加**"。
+    - 如果要创建新的自定义策略，请选择 " **添加**"。
     - 如果要编辑自定义策略，请选择该策略，然后选择“**编辑**”。
 
     可更改以下设置以满足组织的需求。
@@ -79,7 +79,7 @@ ms.locfileid: "44938501"
 
 1. 为组织中的用户启用 Microsoft Stream。 流可作为符合条件的 Microsoft 365 或 Office 365 订阅的一部分，或用作独立服务。 Stream 未包含在商业协作版或商业高级版计划中。 有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。
 
-      了解有关如何[为用户分配许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)以便用户可以访问流的详细信息。 请确保不会阻止用户使用 Stream，正如[此文](https://docs.microsoft.com/stream/disable-user-organization)中所述。
+      了解有关如何 [为用户分配许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 以便用户可以访问流的详细信息。 请确保不会阻止用户使用 Stream，正如[此文](https://docs.microsoft.com/stream/disable-user-organization)中所述。
 
 2. 确保用户在 Stream 中具有实时事件创建权限。 默认情况下，管理员可以使用外部应用或设备创建事件。 Stream 管理员可以在 Stream 中[允许其他用户创建实时事件](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)。  
 
@@ -98,6 +98,8 @@ ms.locfileid: "44938501"
 - **Kollective** 是一种基于云的智能对等分发平台，它利用你现有的网络基础结构，以多种形式（实时流视频、点播视频、软件更新、安全修补程序等）更快、更可靠地交付内容，并且所需带宽更少。 我们的安全平台深受全球最大金融机构的信任，无需额外的硬件，安装和维护都非常简单。 [了解详细信息](https://kollective.com/microsoft-pilot/)。
  
 - **Ramp OmniCache** 提供下一代网络分发，并确保跨全球 WAN 的视频内容无缝交付，从而帮助事件制作者优化网络带宽并支持成功的实时事件广播和点播流。 即将对在 Teams 中制作的实时事件提供 OmniCache 支持。 [了解详细信息](https://rampecdn.com)。 
+
+- **Riverbed**（网络优化中的行业标准）扩展了其加速解决方案到 Microsoft 团队和流。  现在，Microsoft 365 客户可以满怀信心地加速365流量，包括团队和流以及大量其他主流企业 SaaS 服务，以提高员工的工作效率。 团队和流加速可通过 Riverbed 的世界一流支持和持续投资带来的轻松设置启用。
  
 > [!NOTE] 
 > 你选择的 SDN 或 eCDN 解决方案受所选**第三方提供商的服务条款和隐私策略**的约束，这将制约你对提供商解决方案的使用。 你对提供商解决方案的使用将不受 Microsoft 批量许可条款或联机服务条款的约束。 如果你不同意**第三方提供商的条款**，则不要在 Teams 中启用该解决方案。 

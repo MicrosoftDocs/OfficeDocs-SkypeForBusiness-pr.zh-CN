@@ -18,17 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1db2aa6eae0dadbd2043198a167daa5cc6fe098
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581673"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820326"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
+支持 Microsoft Teams 的客户端包括桌面（Windows、Mac 和 Linux）、Web 和移动设备（Android 和 iOS）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。 
 
-支持 Microsoft Teams 的客户端包括桌面（Windows、Mac 和 Linux）、Web 和移动设备（Android 和 iOS）。 这些客户端都要求有活动的 Internet 连接，不支持脱机模式。
+> [!Note]
+> 有关不同平台上的每个客户端功能的详细信息，请参阅 [团队功能（按平台](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)）。
 
 > [!NOTE]
 > 自 2018 年 11 月 29 日起，用户将不再能够使用 Microsoft Store 提供的 Microsoft Teams for Windows 10 S（预览版）应用。 现在，可以在运行 Windows 10 S 模式的设备上下载并安装 Teams 桌面客户端。 若要下载桌面客户端，请转到 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)。 Teams 桌面客户端的 MSI 内部版本尚不适用于运行 Windows 10 S 模式的设备。
@@ -40,14 +42,14 @@ ms.locfileid: "46581673"
 > [!TIP]
 > 观看以下会话以了解 Windows 桌面客户端的优势，如何规划它，以及如何部署它：[Teams Windows 桌面客户端](https://aka.ms/teams-clients)
 
-Microsoft 团队桌面客户端是独立的应用程序，也[可在适用于企业的 Microsoft 365 应用中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于32位和64位版本的 Windows (8.1 或更高版本) 和 Windows Server (2012 R2 或更高版本) ，以及格式 (的 macOS 和 Linux) `.deb` `.rpm` 。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更高版本；如果没有，Teams 安装程序将为你安装。 在 Linux 上，程序包管理器（例如 `apt` 和 `yum`）将尝试为你安装任何要求。 但是，如果没有，则在 Linux 上安装 Teams 前，你将需要安装任何报告的要求。
+Microsoft 团队桌面客户端是独立的应用程序，也 [可在适用于企业的 Microsoft 365 应用中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于32位和64位版本的 Windows (8.1 或更高版本) 和 Windows Server (2012 R2 或更高版本) ，以及格式 (的 macOS 和 Linux) `.deb` `.rpm` 。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更高版本；如果没有，Teams 安装程序将为你安装。 在 Linux 上，程序包管理器（例如 `apt` 和 `yum`）将尝试为你安装任何要求。 但是，如果没有，则在 Linux 上安装 Teams 前，你将需要安装任何报告的要求。
 
 桌面客户端为团队会议、群组通话和专线一对一呼叫提供实时通信支持（音频、视频和内容共享）。
 
 如果最终用户有合适的本地权限（在 PC 上安装 Teams 客户端不需要管理权限，但在 Mac 上需要），可以直接从 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下载并安装桌面客户端。
 
 > [!NOTE]
-> 有关在 Chromebook 上安装团队的更多详细信息，请参阅[如何在 Chromebook 上安装和运行 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)。
+> 有关在 Chromebook 上安装团队的更多详细信息，请参阅 [如何在 Chromebook 上安装和运行 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)。
 
 IT 管理员可以选择其首选方法将安装文件分发到其组织中的计算机上。 一些示例包括 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 要获取用于 Windows 分发的 MSI 包，请参阅[使用 MSI 安装 Microsoft Teams](msi-deployment.md)。  
 
@@ -78,7 +80,7 @@ Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。
 > [!NOTE]
 > 即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。 将会创建两条针对 teams.exe 的入站规则，操作是阻止 TCP 和 UDP 协议。
 
-如果你想要防止团队在用户第一次从团队发出呼叫时提示用户创建防火墙规则，请使用以下[示例 PowerShell 脚本-入站防火墙规则](#sample-powershell-script---inbound-firewall-rule)。 
+如果你想要防止团队在用户第一次从团队发出呼叫时提示用户创建防火墙规则，请使用以下 [示例 PowerShell 脚本-入站防火墙规则](#sample-powershell-script---inbound-firewall-rule) 。 
 
 ### <a name="mac"></a>Mac
 
@@ -115,7 +117,7 @@ IT 管理员可以使用 Teams 的托管部署将安装文件分发到其组织�
 使用系统的程序包管理器启用自动更新的签名密钥将自动安装。 但是，也可以在以下位置找到它：(https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams 每月发布一次，并且如果正确安装了存储库，则系统程序包管理器应按照与系统中其他程序包相同的方式处理自动更新。
 
 > [!NOTE] 
-> 如果发现 Bug，请使用客户端中的 `Report a Problem` 进行提交。 对于已知问题，请参阅[组织中的支持团队](Known-issues.md)。
+> 如果发现 Bug，请使用客户端中的 `Report a Problem` 进行提交。 对于已知问题，请参阅 [组织中的支持团队](Known-issues.md)。
 > 对于适用于 Linux 的 Teams 支持，可以使用 [Microsoft 问答上的 Linux 论坛支持频道](https://docs.microsoft.com/answers/topics/teams.html)。 发布问题时，请务必使用 `teams-linux` 标记。 
 
 #### <a name="install-teams-using-deb-package"></a>使用 DEB 程序包安装团队

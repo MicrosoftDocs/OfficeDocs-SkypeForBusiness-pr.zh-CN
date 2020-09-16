@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02588d7aa53561993237bd51c0bb5764c2e6ac2b
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
+ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581143"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "47814392"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理员快速入门 - Microsoft Teams 中的会议和实时事件
 
@@ -44,6 +44,8 @@ ms.locfileid: "46581143"
 >
 > <sup>2</sup>  会议拨出至[**拨打**号码](set-up-the-call-me-feature-for-your-users.md)呼叫我要求组织者拥有 E5 或 [音频会议加载项许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 可能还需要[拨号计划](what-are-dial-plans.md)。 
 
+ > [!Note]
+ > 有关详细信息，请参阅[平台提供的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 若要了解有关许可的详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 
 
