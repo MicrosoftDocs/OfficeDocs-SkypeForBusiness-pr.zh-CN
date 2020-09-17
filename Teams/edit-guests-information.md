@@ -18,16 +18,33 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: e36c23c9c462a70a42b92046b5f7d91c9f8c49f9
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: c6add221744234d8169b7b602d3fb46dff91a093
+ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656073"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47950828"
 ---
-<a name="edit-guest-user-information"></a><span data-ttu-id="1ab3c-103">编辑来宾用户信息</span><span class="sxs-lookup"><span data-stu-id="1ab3c-103">Edit guest user information</span></span>
-===========================
+# <a name="edit-guest-user-information"></a><span data-ttu-id="20e1f-103">编辑来宾用户信息</span><span class="sxs-lookup"><span data-stu-id="20e1f-103">Edit guest user information</span></span>
 
-<span data-ttu-id="1ab3c-104">要编辑来宾帐户（例如，显示名称或个人资料照片），请访问 Azure Active Directory 门户。</span><span class="sxs-lookup"><span data-stu-id="1ab3c-104">To edit guest accounts (such as display name or profile photo), go to your Azure Active Directory portal.</span></span> <span data-ttu-id="1ab3c-105">有关详细信息，请参阅[了解身份和 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)。</span><span class="sxs-lookup"><span data-stu-id="1ab3c-105">For more information, see [Understanding identity and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span></span>
+<span data-ttu-id="20e1f-104">您可以从 Microsoft 365 管理中心或 Azure Directory 门户中编辑来宾信息。</span><span class="sxs-lookup"><span data-stu-id="20e1f-104">You can edit guest information from the Microsoft 365 admin center or the Azure Directory portal.</span></span>
 
-<span data-ttu-id="1ab3c-106">目前，您无法从 Microsoft 团队管理中心、Microsoft 365 管理中心或 Exchange 管理中心编辑来宾信息。</span><span class="sxs-lookup"><span data-stu-id="1ab3c-106">Currently, you can't edit guest information from the Microsoft Teams admin center, the Microsoft 365 admin center, or the Exchange admin center.</span></span>
+## <a name="guest-users-in-the-microsoft-365-admin"></a><span data-ttu-id="20e1f-105">Microsoft 365 管理员中的来宾用户</span><span class="sxs-lookup"><span data-stu-id="20e1f-105">Guest users in the Microsoft 365 admin</span></span>
+
+1. <span data-ttu-id="20e1f-106">若要从 Microsoft 365 管理中心编辑来宾信息，请选择 "**用户**  >  **来宾用户**"。</span><span class="sxs-lookup"><span data-stu-id="20e1f-106">To edit the guest information from Microsoft 365 admin center, select **Users** > **Guest Users**.</span></span>
+
+   ![正在编辑的来宾用户信息](media/access-guest-user.png)
+
+2. <span data-ttu-id="20e1f-108">选择 " **来宾用户**" 中的用户。</span><span class="sxs-lookup"><span data-stu-id="20e1f-108">Select a user from **Guest users**.</span></span>
+
+3. <span data-ttu-id="20e1f-109">在 "来宾用户信息" 中，选择 " **管理联系人信息**"。</span><span class="sxs-lookup"><span data-stu-id="20e1f-109">In guest user information, select **Manage contact information**.</span></span>
+
+   ![<span data-ttu-id="20e1f-110">管理联系人信息</span><span class="sxs-lookup"><span data-stu-id="20e1f-110">Manage contact information</span></span> ](media/guest-user-data1.png)
+
+4. <span data-ttu-id="20e1f-111">在 "**管理联系人信息**" 中编辑除 "**显示名称**" 之外选择的任何字段，然后选择 "**保存更改**"。</span><span class="sxs-lookup"><span data-stu-id="20e1f-111">Edit any fields that you choose except for **Display name** in **Manage contact information**, and then select **Save changes**.</span></span>
+
+   ![编辑来宾用户联系人信息](media/manage-guest-contact.png)
+
+## <a name="guest-users-in-the-azure-active-directory"></a><span data-ttu-id="20e1f-113">Azure Active Directory 中的来宾用户</span><span class="sxs-lookup"><span data-stu-id="20e1f-113">Guest users in the Azure Active Directory</span></span>
+
+<span data-ttu-id="20e1f-114">作为一个选项，你可以从 Azure Active Directory 门户编辑来宾用户。</span><span class="sxs-lookup"><span data-stu-id="20e1f-114">As an option, you can edit the guest user from the Azure Active Directory portal.</span></span> <span data-ttu-id="20e1f-115">有关详细信息，请参阅 [了解身份和 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)。</span><span class="sxs-lookup"><span data-stu-id="20e1f-115">For more information, see [Understanding identity and Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).</span></span>
