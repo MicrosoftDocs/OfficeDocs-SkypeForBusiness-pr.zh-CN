@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d078deaabdb29fbbc75e4f5020d9bf5071c8fdf1
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: d90e33d2e8d40f93a070d050eb8c8437f4e8629d
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814761"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820446"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -45,7 +45,7 @@ ms.locfileid: "47814761"
 *2019 年 11 月的新增功能*：你现在可以[使用 Advisor for Teams（预览版）帮助推广 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams（预览版）将引导你推广 Teams（包括会议和音频会议）。 它将评估 Office 365 环境并确定更新或修改所需的最常用配置，帮助你成功在 Teams 中推广会议和音频会议。
 
  > [!Note]
- > 有关详细信息，请参阅[平台提供的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> 有关不同平台上 Teams 会议的详细信息，请参阅 [Teams功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>会议部署决策
 

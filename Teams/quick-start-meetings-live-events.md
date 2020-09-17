@@ -17,16 +17,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a990b62e6479e44308f65920c4f49264b4a131a
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 29ca6a77f51c999ba7ef857296e5ad386f319062
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814392"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820616"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理员快速入门 - Microsoft Teams 中的会议和实时事件
 
 在 Microsoft Teams 中开会有两种方式 - 会议和实时事件。 本文介绍如何为你的组织快速推出和配置会议和实时事件。 
+
+> [!Note]
+> 有关在不同平台上快速配置 Teams 会议和事件的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
  - Teams 中的**会议**包括音频、视频和屏幕共享，最多可容纳 300* 人。 它们是在 Teams 中进行协作的关键方式之一。 而且，你无需成为组织成员（甚至无需拥有 Teams 帐户！）即可参加 Teams 会议，只需查看邀请中有关呼叫的说明即可。 
 
@@ -43,9 +46,6 @@ ms.locfileid: "47814392"
 > <sup>1</sup>  会议组织者需要具有[音频会议附加许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)才能发送包含拨入式会议的邀请。
 >
 > <sup>2</sup>  会议拨出至[**拨打**号码](set-up-the-call-me-feature-for-your-users.md)呼叫我要求组织者拥有 E5 或 [音频会议加载项许可证](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 可能还需要[拨号计划](what-are-dial-plans.md)。 
-
- > [!Note]
- > 有关详细信息，请参阅[平台提供的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 若要了解有关许可的详细信息，请参阅 [Microsoft Teams 服务说明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)。 
 

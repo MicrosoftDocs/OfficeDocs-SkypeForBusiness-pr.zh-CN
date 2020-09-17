@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
-ms.openlocfilehash: f1fe37d41b0a1ede8e5957ad63016c5447a921ae
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 0b1d9c7d4e2cfda8f2e175128613df9ecc112c33
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814862"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820506"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、团队、频道和应用
 
@@ -42,7 +42,7 @@ Teams 为组织提供了现成的出色协作体验，并且大多数组织发�
 > 我们建议你在 Teams 的初步部署中加入特别推荐的应用 - 例如 Planner。 在推动 Teams 采用的过程中添加其他[应用、聊天机器人和连接器](deploy-apps-microsoft-teams-landing-page.md)。
 
  > [!Note]
- > 有关详细信息，请参阅[平台提供的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+ > 有关不同平台上 Teams 功能的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="chat-deployment-prerequisites"></a>聊天部署先决条件
 

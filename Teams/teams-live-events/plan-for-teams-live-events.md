@@ -18,19 +18,19 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efde7de344d03ae41ac577f4c44e3b72ee76a9f5
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 2258103e73b13a22965e0fbf7749d012e09ed485
+ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814301"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47820486"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
 计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置所有操作之前，需要考虑几个因素。
 
  > [!Note]
- > 有关详细信息，请参阅[平台提供的团队功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> 有关不同平台上的 Teams 活动事件的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>谁可以参加、创建和计划实时事件
 
