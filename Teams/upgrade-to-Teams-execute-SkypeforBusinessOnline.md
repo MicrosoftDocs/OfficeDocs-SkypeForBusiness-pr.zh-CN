@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76e9aeab00d2ce86d79fb50fa6bbc1ee3d2c3347
-ms.sourcegitcommit: f7f86744c6dbf0db87e1408fd1f4b770fda07ff9
+ms.openlocfilehash: 70700e0a05fb3d647fb8c0b26e0d15ecb8371671
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45158660"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940502"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>从 Skype for Business Online 升级到 Teams
 
@@ -50,20 +50,20 @@ ms.locfileid: "45158660"
 
 你可以通过分配 TeamsUpgradePolicy 的 UpgradeToTeams 实例将你的用户升级到 TeamsOnly 模式，这可以通过使用 Microsoft 团队管理中心或 Skype for business 远程 Windows Powershell 会话来执行。 你可以基于每个用户执行此操作，也可以在租户范围内执行此操作，前提是要在一个步骤中升级整个租户。 
 
-有关详细信息，请参阅[设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence)和[TeamsUpgradePolicy：管理迁移和共存](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)。
+有关详细信息，请参阅 [设置共存和升级设置](https://aka.ms/SkypeToTeams-SetCoexistence) 和 [TeamsUpgradePolicy：管理迁移和共存](upgrade-to-teams-on-prem-tools.md)。
 
 ## <a name="upgrade-all-users-to-teams-at-one-time"></a>一次将所有用户升级到团队
 
 请按照以下步骤一次将所有用户升级到团队。
 
-### <a name="step-1-notify-the-users-of-the-change-optional"></a>步骤1：将更改通知给用户（可选）
+### <a name="step-1-notify-the-users-of-the-change-optional"></a>步骤1：向用户通知更改 (可选) 
 
 1. 在 "Microsoft 团队管理中心" 中，选择 "**组织范围设置**  >  **团队升级**"。
-2. 在 "**共存模式**" 下，更改 "**通知 Skype for business" 用户是否有升级到团队的功能**切换到 **"开**"。
+2. 在 " **共存模式**" 下，更改 " **通知 Skype for business" 用户是否有升级到团队的功能** 切换到 **"开**"。
 
 ### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>步骤2：将组织的共存模式设置为 TeamsOnly
 
-1. 在 "Microsoft 团队管理中心" 中，选择 "**组织范围的设置**"。
+1. 在 "Microsoft 团队管理中心" 中，选择 " **组织范围的设置**"。
 2. 从 "**共存模式**" 下拉列表中选择 "**仅团队**模式"。
 
 ## <a name="upgrade-users-in-stages"></a>分阶段升级用户
@@ -74,12 +74,12 @@ ms.locfileid: "45158660"
 
 组织通常可以选择在用户成功的用户的成功波上升级其组织。  你将首先确定这些用户，以便可以在 Microsoft 团队管理中心轻松搜索它们。 或者，你可能希望使用 PowerShell 更高效地执行此操作。 一旦确定了给定升级 wave 的用户集，请继续执行剩余步骤。
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>步骤2：为当前升级浪潮中的用户设置通知（可选）
+### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>步骤2：为当前升级浪潮中的用户设置通知 (可选) 
 
 如果使用的是 Microsoft 团队管理中心，则可以同时为多达20个用户配置 TeamsUpgradePolicy：
-1. 在 Microsoft 团队管理中心，选择 "**用户**"，然后找到多达20个应升级的用户的复选框，然后多选。 
-2. 选择 listview 左上角的 "**编辑设置**"。 
-3. 在右侧的 "**编辑设置**" 窗格中，在 "**团队升级**" 下，"更改**通知 Skype for Business 用户**" 切换到 **"打开"**。 注意：如果 "共存" 模式的值为 "使用组织范围的设置"，你将看不到此开关，因此你需要首先将这些用户的共存模式显式设置为组织的默认值。
+1. 在 Microsoft 团队管理中心，选择 " **用户**"，然后找到多达20个应升级的用户的复选框，然后多选。 
+2. 选择 listview 左上角的 " **编辑设置** "。 
+3. 在右侧的 " **编辑设置** " 窗格中，在 " **团队升级**" 下，"更改 **通知 Skype for Business 用户** " 切换到 **"打开"**。 注意：如果 "共存" 模式的值为 "使用组织范围的设置"，你将看不到此开关，因此你需要首先将这些用户的共存模式显式设置为组织的默认值。
 
 或者，你可能会发现使用 PowerShell 一次性为用户组启用通知更容易。 
 
@@ -88,9 +88,9 @@ ms.locfileid: "45158660"
 准备好升级当前浪潮中的用户以使用团队作为其唯一的应用程序时，将用户的共存模式设置为 "仅限团队"。
 
 如果使用的是 Microsoft 团队管理中心，则可以同时为多达20个用户配置 TeamsUpgradePolicy：
-1. 在 Microsoft 团队管理中心，选择 "**用户**"，然后选择最多20个用户的复选框。
-2. 选择 listview 左上角的 "**编辑设置**"。
-3. 在右侧的 "**编辑设置**" 窗格中，在 "**团队升级**" 部分中，在下拉列表中将 "共存模式" 设置为 "**仅限团队团队**"。
+1. 在 Microsoft 团队管理中心，选择 " **用户**"，然后选择最多20个用户的复选框。
+2. 选择 listview 左上角的 " **编辑设置** "。
+3. 在右侧的 " **编辑设置** " 窗格中，在 " **团队升级** " 部分中，在下拉列表中将 "共存模式" 设置为 " **仅限团队团队** "。
 
 或者，你可能会发现使用 PowerShell 一次性升级用户组更容易。 
 
@@ -101,14 +101,14 @@ ms.locfileid: "45158660"
 
 ## <a name="phone-system-and-pstn-connectivity-options"></a>电话系统和 PSTN 连接选项
 
-用户处于 TeamsOnly 模式后，支持团队的电话系统。 （如果用户处于 "孤岛" 模式，则只有 Skype for Business 才支持电话系统。）  
+用户处于 TeamsOnly 模式后，支持团队的电话系统。  (如果用户处于 "孤岛" 模式，则只有 Skype for Business 才支持电话系统。 )   
 
 ### <a name="pstn-connectivity-options"></a>PSTN 连接选项
 
-在考虑公共交换式电话网络（PSTN）连接选项时，从 Skype for Business Online 移动到 TeamsOnly 模式时有两种可能的情形：
+当考虑公共交换电话网络 (PSTN) 连接选项时，从 Skype for Business Online 移动到 TeamsOnly 模式时有两种可能的情形：
 
-- Skype for Business Online 中使用 Microsoft 通话计划的用户。 升级后，此用户将继续拥有 Microsoft 通话计划。 这是只需要几个步骤的最简单方案。 有关详细信息，请参阅[通过 Microsoft 通话计划从 Skype For Business Online](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-microsoft-calling-plans)。
+- Skype for Business Online 中使用 Microsoft 通话计划的用户。 升级后，此用户将继续拥有 Microsoft 通话计划。 这是只需要几个步骤的最简单方案。 有关详细信息，请参阅 [通过 Microsoft 通话计划从 Skype For Business Online](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)。
 
-- Skype for business Online 中的用户，通过 Skype for business 本地或云连接器版本使用本地语音功能。 用户对团队的升级需要与用户迁移以直接路由，以确保 TeamsOnly 用户具有 PSTN 功能。  有关详细信息，请参阅通过[Skype For Business Online 与本地语音](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-online-with-on-premises-voice)。
+- Skype for business Online 中的用户，通过 Skype for business 本地或云连接器版本使用本地语音功能。 用户对团队的升级需要与用户迁移以直接路由，以确保 TeamsOnly 用户具有 PSTN 功能。  有关详细信息，请参阅通过 [Skype For Business Online 与本地语音](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)。
 
 

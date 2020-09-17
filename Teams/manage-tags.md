@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中管理组织中如何使用标记。
-ms.openlocfilehash: 9295d03aecb6c0bc6a4f667214869fe698d4eaab
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 965de27b2671106bed4e5c877f26a7132bf61040
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324008"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940522"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft 团队中的标记
 
@@ -94,11 +94,11 @@ Microsoft 团队中的标记使用户可以快速轻松地与团队中的一部�
 
 ### <a name="create-and-assign-custom-tags"></a>创建和分配自定义标记
 
-若要创建和分配自定义标记，请选择应用左侧的 " **团队** "，然后在列表中找到您的团队。 选择 " **更多选项**"，然后选择 " **管理标记**"。 在此处，你可以创建标记并将其分配给团队中的人员。
+若要创建和分配自定义标记，请选择应用左侧的 " **团队** "，然后在列表中找到您的团队。 选择 **̇̇̇更多选项**，然后选择 " **管理标记**"。 在此处，你可以创建标记并将其分配给团队中的人员。
 
 ![如何在团队客户端应用标记的屏幕截图 ](media/manage-tags-teams.png)
 
-若要删除标记，请删除与该标记相关联的所有团队成员。
+若要删除标记，请选择标记旁边的 **̇̇̇更多选项** ，然后选择 " **删除标记**"。
 
 ### <a name="set-up-tagging-by-shift-coming-soon"></a>通过 (即将推出的班次) 设置标记
 

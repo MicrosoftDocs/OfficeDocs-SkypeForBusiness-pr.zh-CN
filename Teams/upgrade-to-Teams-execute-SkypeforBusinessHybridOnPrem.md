@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1981640ab06d00e7895e11c0e15adf7555577908
-ms.sourcegitcommit: b23d3d583910aa21a62ea69b554ab614c1ae8079
+ms.openlocfilehash: 0b63473dcb07c5fcac49902ced6d11777217a0c5
+ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "46648603"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "47940592"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>从本地 Skype for Business 升级到团队
 
@@ -51,7 +51,7 @@ ms.locfileid: "46648603"
 
 将本地用户升级到团队的主要先决条件是为您的 Skype for Business Server 内部部署配置混合连接。 
 
-首先阅读 [计划混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)，然后按照[配置混合连接](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)中概述的任务操作。
+首先阅读 [计划混合连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) ，然后按照 [配置混合连接](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)中概述的任务操作。
 
 
 ## <a name="step-2-set-transitional-coexistence-mode-optional"></a>步骤2：设置过渡的共存模式 (可选) 
@@ -71,11 +71,11 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由�
 
 最后，你需要将用户移动到 TeamsOnly 模式。 这可能会涉及一个或两个步骤，具体取决于你的本地环境。  
 
-有关详细信息，请参阅 [在本地和云之间移动用户](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)以及[将用户从本地移动到团队](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)。 
+有关详细信息，请参阅 [在本地和云之间移动用户](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) 以及 [将用户从本地移动到团队](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)。 
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>步骤4：禁用混合以完成到云的迁移
 
-将所有用户从本地迁移到云后，您可以取消本地 Skype for business 部署。 有关详细信息，请参阅[禁用混合以完成到云的迁移](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)。
+将所有用户从本地迁移到云后，您可以取消本地 Skype for business 部署。 有关详细信息，请参阅 [禁用混合以完成到云的迁移](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)。
 
 
 ## <a name="phone-system-and-pstn-connectivity-options"></a>电话系统和 PSTN 连接选项
@@ -86,6 +86,6 @@ Skype for Business 和团队客户端和用户之间的共存和互操作性由�
 
 当考虑公共交换电话网络 (PSTN) 连接选项时，在从 Skype for Business 从本地迁移到 TeamsOnly 模式时，有两种可能的方案：
 
-- 使用企业语音的 Skype for Business online 中的用户，这些用户将移动到联机并使用 Microsoft 通话计划。 将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并使用) 该用户电话号码的端口与 Microsoft 通话计划或 B 进行协调，) 从可用区域分配新的订户号码。  有关详细信息，请参阅[从本地 Skype For Business 服务器（具有企业语音）到 Microsoft 通话计划](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)。
+- 使用企业语音的 Skype for Business online 中的用户，这些用户将移动到联机并使用 Microsoft 通话计划。 将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并使用) 该用户电话号码的端口与 Microsoft 通话计划或 B 进行协调，) 从可用区域分配新的订户号码。  有关详细信息，请参阅 [从本地 Skype For Business 服务器（具有企业语音）到 Microsoft 通话计划](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)。
 
-- 使用企业语音的 Skype for Business online 中的用户，这些用户将移动到联机状态并保持本地 PSTN 连接。 将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并通过将用户迁移到直接路由来协调该用户。 有关详细信息，请参阅[从本地 Skype For Business 服务器（具有企业语音）到直接路由](upgrade-to-teams-on-prem-overview.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)。
+- 使用企业语音的 Skype for Business online 中的用户，这些用户将移动到联机状态并保持本地 PSTN 连接。 将此用户迁移到团队需要将用户的本地 Skype for business 帐户移动到云，并通过将用户迁移到直接路由来协调该用户。 有关详细信息，请参阅 [从本地 Skype For Business 服务器（具有企业语音）到直接路由](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)。
