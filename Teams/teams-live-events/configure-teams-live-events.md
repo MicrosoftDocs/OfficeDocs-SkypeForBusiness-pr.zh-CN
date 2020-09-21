@@ -19,20 +19,20 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f118585b28edaea63b3416aa4671337ee436345
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: b87c891d29bcfafa0275f3a500eb8c5db85311a0
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820586"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962853"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中配置实时事件设置
 
-使用团队实时事件设置来配置你的组织中保留的实时事件的设置。 您可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在你的组织中创建的所有实时事件。 
+使用团队实时事件设置来配置你的组织中保留的实时事件的设置。 您可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在你的组织中创建的所有实时事件。
 
-你可以在 Microsoft 团队管理中心中轻松管理这些设置。 在左侧导航中，转到 "**会议**  >  **实时事件" 设置**。 
+你可以在 Microsoft 团队管理中心中轻松管理这些设置。 在左侧导航中，转到 "**会议**  >  **实时事件" 设置**。
 
-![团队实时事件设置的屏幕截图](../media/teams-live-events-settings.png "团队实时事件设置的屏幕截图，可在 Microsoft 团队管理中心进行配置") 
+![团队实时事件设置的屏幕截图](../media/teams-live-events-settings.png "团队实时事件设置的屏幕截图，可在 Microsoft 团队管理中心进行配置")
 
 ## <a name="set-up-event-support-url"></a>设置事件支持 URL
 
@@ -41,14 +41,16 @@ ms.locfileid: "47820586"
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![显示 Microsoft Teams 徽标的图标](../media/teams-logo-30x30.png) 使用 Microsoft Teams 管理中心
 
 1. 在左侧导航中，转到 "**会议**  >  **实时事件设置**"。
-2. 在 " **支持 url**" 下，输入您的组织的支持 url。 
+2. 在 " **支持 url**" 下，输入您的组织的支持 url。
 
     ![管理中心中实时事件的支持 URL 设置](../media/teams-live-events-settings-supporturl.png "团队实时事件的支持 URL 设置的屏幕截图")
 
 ### <a name="using-windows-powershell"></a>使用 Windows PowerShell
+
 请运行以下命令：
+
 ```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
+Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
 有关详细信息，请参阅 [设置 CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。
 ## <a name="configure-a-third-party-video-distribution-provider"></a>配置第三方视频分发提供商 

@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 Microsoft 团队认证了哪些 USB 外围设备和设备，如耳机、免提、网络摄像头和监视器。
-ms.openlocfilehash: 9e247288034b1b3d6fac121bf9d9215723cbe379
-ms.sourcegitcommit: 4afb9617c1734d2f18e833fd9a22f4eda79f8c3b
+ms.openlocfilehash: 90c97ffb98fafa8908c2e746487d5ffca7412282
+ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "47331627"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "47962913"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>为 Microsoft 团队认证的 USB 音频和视频设备
 
@@ -85,8 +85,6 @@ ms.locfileid: "47331627"
 |EPOS/Sennheiser      |对 SC 660 和 USB ED CC 01 MS connecto 的影响                |8/20/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |EPOS/Sennheiser      |对 SC 630 和 USB ED CC 01 MS connecto 的影响                |8/20/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |EPOS/Sennheiser      |对 SC 260 和 USB ED CC 01 MS connecto 的影响                |8/20/2020       |升级到 Microsoft 团队的 Skype for Business      |
-|ViewSonic            |WCD-IFP8670                                                |7/31/2020       |已认证 Skype for business                        |
-|ViewSonic            |WCD- IFP6570                                               |7/31/2020       |已认证 Skype for business                        |
 |Jabra evolve                |演化75耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |Jabra evolve                |演化65耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |
 |Jabra evolve                |接洽50耳机                                          |7/31/2020       |升级到 Microsoft 团队的 Skype for Business      |

@@ -3,7 +3,7 @@ title: 从 Skype for Business 内部部署升级到团队-Microsoft 团队
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 10/22/2019
+ms.date: 09/16/20
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -12,18 +12,18 @@ description: 从 Skype for Business 升级到 Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- CSH
+- NOCSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a7071cf6adbfa423e4c0fa12ac21a5bc777268
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: 2a6c4fb2e2f6433b21972a3c5e5c324d0c3d78f3
+ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940631"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "47955937"
 ---
 # <a name="upgrade-methods-mdash-for-it-administrators"></a>&mdash;IT 管理员的升级方法
 
@@ -45,7 +45,7 @@ ms.locfileid: "47940631"
 
 ## <a name="upgrade-methods"></a>升级方法
 
-有两种方法可以使用 Skype for Business 升级现有组织 (无论是联机还是本地) 到团队：重叠的功能方法，以及 "选择功能" 方法。  本文通过描述两种方法并展示每个方法的优缺点，帮助你为你的组织选择正确的方法。 
+有两种方法可以使用 Skype for Business 升级现有组织 (无论是联机还是本地) 到团队：重叠的功能方法，以及 "选择功能" 方法。 本文通过描述两种方法并展示每个方法的优缺点，帮助你为你的组织选择正确的方法。 
 
 - [使用孤岛模式 (重叠的功能方法) ](#overlapping-capabilities-method-using-islands-mode)
 
@@ -82,7 +82,7 @@ ms.locfileid: "47940631"
 
 准备好将用户升级到 TeamsOnly 模式后，你可以单独升级用户，也可以使用租户范围的策略一次性升级整个租户。 用户升级到 TeamsOnly 模式后，他们将收到团队中的所有传入聊天和通话。  (请注意，仅当向单个用户应用 TeamsUpgradePolicy 时，才会触发将 Skype for Business 会议迁移到团队会议，而不是在每租户基础上进行。 有关详细信息，请参阅 [会议迁移](upgrade-to-teams-on-prem-tools.md#meeting-migration) 。 ) 
 
-但是，在孤岛模式下未升级的收件人可能会继续接收来自其 Skype for Business 或团队客户的 TeamsOnly 用户的聊天和呼叫。  这是因为团队客户为团队到团队和团队到 Skype for business 通信（即使是对于同一用户）维护单独的对话线程。   (请参阅 [团队对话-互操作与本机线程](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)。 ) 例如，假设孤岛用户 A 使用团队 TeamsOnly 用户 B 的消息。当用户 B 回复该聊天时，通信将位于用户 A 的团队客户端。 现在，假设用户 A 将他的 Skype for Business 客户端用作 TeamsOnly 用户 B 的消息。用户 B 将在团队中接收聊天，但这将是用户 B 的团队客户端中与其他对话进行比较的单独对话。 如果用户 B 使用用户 A 答复此对话，则它将在用户 A 的 Skype for Business 客户端中居住。 
+但是，在孤岛模式下未升级的收件人可能会继续接收来自其 Skype for Business 或团队客户的 TeamsOnly 用户的聊天和呼叫。  这是因为团队客户为团队到团队和团队到 Skype for business 通信（即使是对于同一用户）维护单独的对话线程。   (请参阅 [团队对话-互操作与本机线程](upgrade-to-teams-on-prem-coexistence.md#teams-conversations---interop-versus-native-threads)。 ) 例如，假设孤岛用户 A 使用团队 TeamsOnly 用户 B 的消息。当用户 B 回复该聊天时，通信将位于用户 A 的团队客户端。 现在，假设用户 A 使用 Skype for Business 客户端进行邮件 TeamsOnly 用户 B。用户 B 将在团队中接收聊天，但这将是用户 B 的团队客户端与其他对话的单独对话。 如果用户 B 使用用户 A 答复此对话，则它将在用户 A 的 Skype for Business 客户端中居住。 
 
 下表总结了孤岛模式和 TeamsOnly 模式的团队体验：  
 
@@ -97,8 +97,8 @@ ms.locfileid: "47940631"
 
 | 专业人士     |       各有利弊 |
 | :------------------ | :---------------- |
-| 允许在组织内进行快速采纳。| 由于存在两个具有类似功能但不同用户界面的客户端，导致最终用户混淆的可能性。 而且，他们无法控制传入聊天/呼叫在哪个客户端。 |
-| 允许用户在仍然拥有 Skype for business 的完全访问权限的情况下了解和熟悉团队。 | 由于未在用户运行两个客户端时丢失的消息，导致最终用户不满的可能性。 用户可能会抱怨他们没有收到消息。|
+| 允许在组织内进行快速采纳。| 由于两个客户端具有类似的功能，但用户界面不同，因此可能导致最终用户混淆。 而且，他们无法控制传入聊天/呼叫在哪个客户端。 |
+| 允许用户在仍然拥有 Skype for business 的完全访问权限的情况下了解和熟悉团队。 | 如果用户未在两个客户端运行时错过的消息，则可能导致最终用户不满。 用户可能会抱怨他们没有收到消息。|
 | 在团队中开始的最少管理工作。 | 如果不是组织中的每个人都使用团队，尤其是当组织中的所有用户都未处于活动状态时，"使用孤岛" 模式非常有挑战性并移至 TeamsOnly 模式。 例如，一旦用户的子集升级到 TeamsOnly 模式，这些用户将仅在团队中发送。 对于在孤岛模式下填充的其余部分，这些消息将始终位于团队中。 但是，如果其中一些人口不运行团队，他们会将这些消息视为错过。 |
 |  | 使用团队时，Skype for Business 服务器中具有本地帐户的用户没有互操作或联合身份验证支持。  如果您有一种混合的孤岛用户，这可能会造成混乱，因为这种用户在 Skype for business Online 中托管，而有些在本地 Skype for business 中。   |
 
@@ -130,7 +130,7 @@ ms.locfileid: "47940631"
 | 专业人士     |       各有利弊 |
 | :------------------ | :---------------- |
 | 最终用户的可预测路由。  所有通话和聊天均可在 Skype for Business 或团队 (，但不能同时根据管理员选择) 。  | 互操作对话缺少对格式文本、文件共享和屏幕共享的支持。  这可以与按需式会议配合使用，但这并不无缝。  |
-| 消除最终用户的混乱，因为给定的功能仅在一个客户端中可用。  | 用户不能同时尝试这两个客户端来查看同一组功能。 如果用户认为从 Skype for Business 切换到团队的主要模式班次，这可能会是一个因素。 |
+| 消除对最终用户造成的混淆，因为给定的功能仅在一个客户端中可用。  | 用户不能同时尝试这两个客户端来查看同一组功能。 如果用户认为从 Skype for Business 切换到团队的主要模式班次，这可能会是一个因素。 |
 | 允许增量引入团队。  |  | |
 | 管理员完全控制从 Skype for Business 切换到团队。 |  | | 
 | 允许组织在会议中使用团队，即使尚未准备好移动到 TeamsOnly 模式。 |  | |

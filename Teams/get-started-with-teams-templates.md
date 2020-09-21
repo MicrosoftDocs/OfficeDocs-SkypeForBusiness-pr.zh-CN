@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d471446d4c0c05d0c13fdee81018c6287c7dda47
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 7878c6dc4e4b632668a0db298a9dc086cf554429
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583521"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135836"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>使用 Microsoft Graph 开始使用团队模板
 
@@ -60,19 +60,19 @@ ms.locfileid: "46583521"
 
 ## <a name="what-are-base-template-types"></a>什么是基本模板类型
 
-基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含不在团队模板中单独支持的应用商店和团队属性中不可用的专有应用。 了解如何[在管理控制台中使用团队模板](get-started-with-teams-templates.md)。
+基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含不在团队模板中单独支持的应用商店和团队属性中不可用的专有应用。 了解如何 [在管理控制台中使用团队模板](get-started-with-teams-templates.md)。
 
 定义基本模板类型后，你可以使用你想要指定的其他属性扩展或覆盖这些特殊模板。 但某些基本模板类型包含无法重写的属性。
 
-默认情况下，基本模板设置为 "**标准**"，其中不包含任何其他专用应用或特殊属性。 下面是可用的基本模板类型的当前列表。
+默认情况下，基本模板设置为 " **标准** "，其中不包含任何其他专用应用或特殊属性。 下面是可用的基本模板类型的当前列表。
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | 无其他应用和属性 |
-| 教育版<br>课堂团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 识别<ul><li>OneNote 课堂笔记本 (固定到 "**常规**" 选项卡)  </li><li>"工作分配" 应用 (固定到 "**常规**" 选项卡) </li></ul> 团队属性：<ul><li>无法覆盖设置为**HiddenMembership** (的团队可见性) </li></ul> |
-| 教育版<br>教职员工团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 识别<ul><li>OneNote 教职员工笔记本 (固定到 "**常规**" 选项卡) </li></ul> |
-|教育版<br>PLC 团队 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 识别<ul><li>OneNote PLC 笔记本 (固定到 "**常规**" 选项卡) </ul></li>|
-| 面向<br>商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性<ul><li>将团队可见性设置为公共</li></ul>成员权限<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul> |
+| 教育版<br>课堂团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | 识别<ul><li>OneNote 课堂笔记本 (固定到 " **常规** " 选项卡)  </li><li>"工作分配" 应用 (固定到 " **常规** " 选项卡) </li></ul> 团队属性：<ul><li>无法覆盖设置为 **HiddenMembership** (的团队可见性) </li></ul> |
+| 教育版<br>教职员工团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 识别<ul><li>OneNote 教职员工笔记本 (固定到 " **常规** " 选项卡) </li></ul> |
+|教育版<br>PLC 团队 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 识别<ul><li>OneNote PLC 笔记本 (固定到 " **常规** " 选项卡) </ul></li>|
+| 面向<br>应用商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性<ul><li>将团队可见性设置为公共</li></ul>成员权限<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul> |
 | 面向<br>经理协作 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性：<ul><li>将团队可见性设置为私密</li></ul>成员权限：<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul>|
 | 行业<br>拖动 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |信道 <ul><li>宣告\*</li><li>Huddles\*</li><li>轮</li><li>调配\*</li><li>培训\*</li></ul>\*自动收藏频道 |
 |行业<br>医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |信道<ul><li>宣告\*</li><li>合规性\*</li><li>Custodial</li><li>人力资源</li></li><li>药房</li></ul>\*自动收藏频道|
@@ -85,3 +85,4 @@ ms.locfileid: "46583521"
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
 - [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 - [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+- [管理控制台中的团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)
