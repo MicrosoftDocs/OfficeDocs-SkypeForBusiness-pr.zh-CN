@@ -76,8 +76,6 @@
 #### [来宾访问疑难解答](troubleshoot-guest-access.md)
 ## [Teams 中的 Cortana](cortana-in-teams.md)
 
-
-
 ## 管理 Teams
 ### [管理员角色](using-admin-roles.md)
 ### [为你的组织管理 Teams 设置](enable-features-office-365.md)
@@ -87,6 +85,7 @@
 ### [向用户分配策略](assign-policies.md)
 ### [在活动日志中查看工作分配](activity-log.md)
 ### [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
+### [阻止特定用户对 Sharepoint 的访问](block-access-sharepoint.md)
 ### [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
 ### [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
 ### [在 Teams 中管理反馈策略](manage-feedback-policies-in-teams.md)
@@ -719,6 +718,7 @@
 ### [使用新式验证登录 Teams](sign-in-teams.md)
 ### [Teams 中安全链接](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [AppLocker 应用程序控制策略](applocker-in-teams.md)
+### [阻止对 Sharepoint 的访问](block-access-sharepoint.md)
 ## 合规性
 ### [信息屏障](information-barriers-in-teams.md)
 ### [保留策略](retention-policies.md)
