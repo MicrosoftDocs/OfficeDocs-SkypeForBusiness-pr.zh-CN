@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何阻止特定用户对 SharePoint 的访问
-ms.openlocfilehash: 959de8c06e26d2d12c3a3698375b11d373392447
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955976"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135926"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>阻止特定用户对 SharePoint 的访问
 
-在 SharePoint Online 上 (CA) 策略应用任何条件访问 (SPO) 也会应用到团队。 但是，某些组织希望阻止对 SharePoint 文件的访问 (上载、下载、查看、编辑、创建) 但允许其员工在非托管设备上使用团队桌面、移动和 web 客户端。 在 CA 策略规则下，阻止 SPO 也会导致阻止团队。 本文介绍如何解决此限制，并允许你的员工继续使用团队，同时完全阻止访问存储在 SPO 中的文件。
+在 Microsoft 365 中的 SharePoint 上 (CA) 策略应用任何条件访问也将应用于团队。 但是，某些组织希望阻止对 SharePoint 文件的访问 (上载、下载、查看、编辑、创建) 但允许其员工在非托管设备上使用团队桌面、移动和 web 客户端。 在 CA 策略规则下，阻止 Sharepoint 也会导致阻止团队。 本文介绍如何解决此限制，并允许员工在完全阻止访问存储在 SharePoint 中的文件的同时继续使用团队。
 
 > [!Note]
-> 阻止或限制非托管设备上的访问依赖于 Azure AD 条件访问策略。 了解 [AZURE AD 授权](https://azure.microsoft.com/pricing/details/active-directory/)。 有关 Azure AD 中的条件访问的概述，请参阅 [Azure Active Directory 中的条件访问](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)。 有关推荐的 SharePoint 访问策略的信息，请参阅 [保护 sharepoint 网站和文件的策略建议](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)。 如果你限制非托管设备上的访问权限，则托管设备上的用户必须使用 [受支持的操作系统和浏览器组合](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)之一，否则它们也将具有有限的访问权限。
+> 阻止或限制非托管设备上的访问依赖于 Azure AD 条件访问策略。 了解 [AZURE AD 授权](https://azure.microsoft.com/pricing/details/active-directory/)。 有关 Azure AD 中的条件访问的概述，请参阅 [Azure Active Directory 中的条件访问](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)。 有关推荐的 SharePoint Online 访问策略的信息，请参阅 [保护 sharepoint 网站和文件的策略建议](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)。 如果你限制非托管设备上的访问权限，则托管设备上的用户必须使用 [受支持的操作系统和浏览器组合](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition)之一，否则它们也将具有有限的访问权限。
 
 您可以阻止或限制访问：
 
@@ -61,9 +61,9 @@ ms.locfileid: "47955976"
   > [!Note]
 > 设置此策略将减少你对 SharePoint 管理门户的访问权限。 我们建议你配置排除策略，并选择全局管理员和 SharePoint 管理员。
 
-6. 验证是否仅选择 SharePoint Online 作为定向云应用
+6. 验证仅将 SharePoint 选为目标云应用
 
-    !["Sharepoint online" 被选为 "目标应用"。](media/no-sharepoint-access3.png)
+    !["Sharepoint" 被选作目标应用。](media/no-sharepoint-access3.png)
 
 7. 也可更新 **条件** 以包括桌面客户端。
 
@@ -79,11 +79,11 @@ ms.locfileid: "47955976"
 
     ![应用强制实施限制已启用。](media/no-sharepoint-access6.png)
 
-若要测试你的策略，你需要从任何客户端（如团队桌面应用或 OneDrive 同步客户端）注销，然后再次登录以查看策略是否正常工作。 如果您的访问已被阻止，则会在团队中看到一条消息，指出该项目可能不存在。
+若要测试你的策略，你需要从任何客户端（如团队桌面应用或 OneDrive for business 同步客户端）注销，然后再次登录以查看策略是否正常工作。 如果您的访问已被阻止，则会在团队中看到一条消息，指出该项目可能不存在。
 
  !["找不到项目" 消息。](media/access-denied-sharepoint.png)
 
-在 Sharepoint 中，你将收到 "拒绝访问" 消息。 
+在 Sharepoint 中，你将收到 "拒绝访问" 消息。
 
 !["拒绝访问" 消息。](media/blocked-access-warning.png)
 
