@@ -311,6 +311,7 @@
 ## 通话套餐
 ### [哪种通话套餐适合你？](calling-plan-landing-page.md)
 ### [如何购买通话套餐](calling-plans-for-office-365.md)
+### [适用于美国和加拿大的延长拨出分钟数](dial-out-minutes-canada-us.md)
 ### [为组织设置通话套餐](set-up-calling-plans.md)
 ### [快速入门指南：配置通话套餐](configuring-teams-calling-quickstartguide.md)
 ### [通话套餐的国家和地区可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -573,13 +574,19 @@
 ## [Skype for Business Online 停用](skype-for-business-online-retirement.md)
 ## [常见问题解答](FAQ-journey.md)
 
-## 技术库
-### [适用于 IT 管理员的升级指南](upgrade-to-teams-on-prem-overview.md)
-### [迁移和与 Skype for Business 的互操作性](migration-interop-guidance-for-teams-with-skype.md)
-### [与 Skype for Business 共存](coexistence-chat-calls-presence.md)
-### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
-### [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
+## 技术库 
+### 适用于 IT 管理员的升级指南
+#### [概述](upgrade-to-teams-on-prem-overview.md)
+#### [升级方法](upgrade-to-teams-on-prem-upgrade-methods.md)
+#### [用于管理组织的工具](upgrade-to-teams-on-prem-tools.md)
+#### [有关 Skype for Business 本地版组织的注意事项](upgrade-to-teams-on-prem-considerations.md)
+#### [实现升级](upgrade-to-teams-on-prem-implement.md)
+#### [Teams 和 Skype for Business 共存](upgrade-to-teams-on-prem-coexistence.md)
+#### [PSTN 注意事项](upgrade-to-teams-on-prem-pstn-considerations.md)
 
+#### [共存模式 - 参考](migration-interop-guidance-for-teams-with-skype.md)
+#### [Teams 客户端体验和共存模式的一致性](teams-client-experience-and-conformance-to-coexistence-modes.md)
+### [设置共存和升级设置](setting-your-coexistence-and-upgrade-settings.md)
 ### [会议优先](meetings-first.md)
 
 
