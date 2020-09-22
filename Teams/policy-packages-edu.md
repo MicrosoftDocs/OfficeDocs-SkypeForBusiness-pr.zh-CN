@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 了解教育或 EDU 设置中的策略，以及如何在 Microsoft Teams 中使用和管理策略包。
-ms.openlocfilehash: cb5b2620ae014a65abd912b401af1587aceff0e6
-ms.sourcegitcommit: 32023931b607542cffadef74383e3ecd47db4ab6
+ms.openlocfilehash: 9abf734894e716b6d7840d448cb513d083fe02b3
+ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "46868701"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "48135876"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>面向教育的 Teams 策略和策略包
 
@@ -147,7 +147,7 @@ Microsoft Teams 当前包含以下策略包：
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>应为学生安全分配的策略
 
-### <a name="meeting-policies"></a>会议策略
+### <a name="meeting-policies-for-students"></a>面向学生的会议策略
 
 #### <a name="turn-off-the-ability-to-create-and-start-meetings"></a>关闭创建和启动会议的功能
 
@@ -216,7 +216,7 @@ Microsoft Teams 当前包含以下策略包：
 
 :::image type="content" source="media/edu-policy-list-b.png" alt-text="远程学习页面中的教育学生，其中显示视频选项。":::
 
-### <a name="live-events-policies"></a>实时事件策略
+### <a name="live-events-policies-for-students"></a>适用于学生的实时事件策略
 
 #### <a name="turn-off-the-ability-to-create-and-start-live-events"></a>关闭创建和启动实时事件的功能
 
@@ -224,7 +224,7 @@ Microsoft Teams 当前包含以下策略包：
 
 :::image type="content" source="media/edu-allow-scheduling-off.png" alt-text="远程学习页面中的教育学生，其中“允许安排”选项已关闭。":::
 
-### <a name="calling-policies"></a>通话策略
+### <a name="calling-policies-for-students"></a>适用于学生的通话策略
 
 #### <a name="turn-off-the-ability-to-make-private-calls"></a>关闭进行私人通话的功能
 
@@ -232,7 +232,7 @@ Microsoft Teams 当前包含以下策略包：
 
 :::image type="content" source="media/edu-private-calls-off.png" alt-text="远程学习页面中的教育学生，其中“拨打私人电话”设置为“关闭”。":::
 
-### <a name="messaging-policies"></a>消息传递策略
+### <a name="messaging-policies-for-students"></a>适用于学生的邮件策略
 
 #### <a name="turn-off-the-ability-to-delete-or-edit-sent-messages"></a>关闭删除或编辑已发送消息的功能
 
@@ -276,7 +276,7 @@ Microsoft Teams 当前包含以下策略包：
 
 ![远程学习页面中的教育学生，其中“从组聊天中删除用户”设置为“关闭”。](media/edu-remove-users-from-chat-for-students.png)
 
-### <a name="teams-policies"></a>Teams 策略
+### <a name="teams-policies-for-students"></a>适用于学生的 Teams 策略
 
 #### <a name="turn-off-the-ability-to-discover-and-create-private-channels"></a>关闭发现和创建专用频道的功能
 
@@ -287,7 +287,7 @@ Microsoft Teams 当前包含以下策略包：
 > [!IMPORTANT]
 > 你可能还希望确保学生无法在 Microsoft Teams 中创建新团队。 这实际上是 M365 组设置，你可以在 [管理谁可创建 Microsoft 365 组](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)中阅读到更多相关信息。
 
-### <a name="app-permission-policies"></a>应用权限策略
+### <a name="app-permission-policies-for-students"></a>适用于学生的应用权限策略
 
 #### <a name="control-whether-students-can-add-apps-within-teams"></a>控制学生是否可以在 Teams 中添加应用
 
@@ -309,7 +309,7 @@ Microsoft Teams 当前包含以下策略包：
 > [!NOTE]
 > 与将在下面看到的教师部分相比，针对学生的策略建议包含更多信息。 尽管你可以根据自己的教育机构的政策和程序来设置策略设置，但此处提供的建议与学生的安全密切相关。
 
-### <a name="meeting-policies"></a>会议策略
+### <a name="meeting-policies-for-educators"></a>面向教师的会议策略
 
 这些设置将允许教师控制对其会议的访问。
 
