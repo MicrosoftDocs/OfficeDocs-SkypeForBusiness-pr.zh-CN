@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ad6118d498a8c835dbc4ccde664874bd24373b52
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135866"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171096"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理控制台中的团队模板入门
 
@@ -74,7 +74,7 @@ ms.locfileid: "48135866"
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ |----|----------------------------------------------------- |
 | 采纳 Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  信道 <ul><li>常规</li> <li>宣告</li> <li>拥护方角落</li> <li>工作组表单</li></ul> 识别 <ul><li>源自</li>  <li>日历</li> |
-| 管理项目 |`com.microsoft.teams.template.ManageAnEvent`| 信道 <ul><li>常规</li> <li>宣告</li> <li>.Resources</li> <li>规划</li></ul> 识别<ul><li>源自</li><li>OneNote</li></ul> |
+| 管理项目 |`com.microsoft.teams.template.ManageAProject`| 信道 <ul><li>常规</li> <li>宣告</li> <li>.Resources</li> <li>规划</li></ul> 识别<ul><li>源自</li><li>OneNote</li></ul> |
 | 管理事件|`com.microsoft.teams.template.ManageAnEvent` | 信道 <ul><li>常规</li> <li>宣告</li> <li>预算</li> <li>内容</li><li>后勤工作</li> <li>规划</li> <li> 市场营销和 PR</li></ul> 识别<ul><li>源自</li><li>网站</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
 |板载员工|`com.microsoft.teams.template.OnboardEmployees` | 信道 <ul><li>常规</li> <li>宣告</li> <li>员工聊天</li> <li>培训</li></ul>识别<ul><li>源自</li><li>社区</li></ul>|
 |组织技术支持| `com.microsoft.teams.template.OrganizeHelpDesk`|信道<ul><li>常规</li><li>宣告</li><li>常见问题</li></ul>识别<ul><li>源自</li><li>OneNote</li></ul> |

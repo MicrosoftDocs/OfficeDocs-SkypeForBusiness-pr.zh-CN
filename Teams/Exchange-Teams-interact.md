@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 689b2fcad408f0fe18651ada1a5ed03467bea345
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: 35c020d981fba9827f10753a04b9b5629a9939df
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255235"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177202"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 与 Microsoft Teams 如何交互
 
@@ -37,9 +37,9 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 托管在 Exchange Online 专用 (旧版) 上的用户必须同步到 Microsoft 365 或 Office 365 上的 Azure Active Directory。 他们可以创建和加入团队和频道，添加和配置选项卡和机器人，以及利用聊天和通话功能。 但是，他们不能修改个人资料图片、管理会议、访问 outlook 联系人或管理连接线。
 
 > [!IMPORTANT]
-> 为了与本地集成，强烈建议你拥有 exchange Server 2016 或更高版本的 Exchange 完全传统混合部署，以满足以下要求。 有关设置混合部署的详细信息，请参阅 [Exchange Server 混合部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
+> 为了与本地集成，强烈建议你拥有 Exchange Server 2016 或更高版本的 Exchange 完全传统混合部署。 新式混合支持仅限于忙/闲，因此不会提供从团队到本地邮箱的日历集成。 有关设置混合部署的详细信息，请参阅 [Exchange Server 混合部署](https://docs.microsoft.com/exchange/exchange-hybrid)。
 
-拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，但如果满足针对 [内部部署的邮箱的要求](#requirements-for-mailboxes-hosted-on-premises) ，他们可以管理会议。
+拥有内部托管邮箱的用户必须同步到 Azure Active Directory。 它们可以使用上述方案中的所有功能，但如果满足针对 [内部部署的邮箱的要求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) ，他们可以管理会议。
 
 下表提供了基于 Exchange 环境的功能可用性的有用快速参考。
 
@@ -66,7 +66,7 @@ Exchange Online 或 Exchange Dedicated vNext 上托管的用户可以使用 Team
 
 <sup>7</sup> 个团队负责 [Outlook on web 邮箱策略](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) 设置，该设置由租户管理员配置，用于控制用户是否可以更改其个人资料图片。 如果策略中的 **-SetPhotoEnabled** 设置处于关闭状态，则用户无法添加、更改或删除其个人资料图片。 例如，如果用户上载由您的组织的 IT 或人力资源部门批准的个人资料图片，则无需执行任何操作。 但是，如果用户上载了不合适的图片，请根据组织的内部策略对其进行更改。
 
-<sup>8</sup> 你需要满足在 [本地托管的邮箱的要求](#requirements-for-mailboxes-hosted-on-premises) 上列出的要求。
+<sup>8</sup> 您需要满足在 "要求" 中列出的要求 [，才能创建和查看托管在本地的邮箱的会议](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) 。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft 团队的要求
 
@@ -83,9 +83,9 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 > [!IMPORTANT]
 > 如果你在将用户移动到 " **仅团队** " 模式后卸载 Skype for business 客户端，则在 Outlook 和其他 Office 应用中，联机状态可能会停止工作。 状态在 Teams 中显示良好。 若要解决此问题，请在 Microsoft 团队的右上角选择您的个人资料图片，然后选择 " **设置**"。 在 "**应用程序**" 下的 "**常规**" 选项卡上，选择 "将**团队注册为 Office 的聊天应用 (需要重新启动 office 应用程序) **。 选择此选项后，关闭并重新打开所有 Office 应用（包括 Outlook）。 打开 Outlook 后，状态信息将可用。
 
-## <a name="requirements-for-mailboxes-hosted-on-premises"></a>托管本地邮箱的要求
+## <a name="requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises"></a>针对本地托管邮箱创建和查看会议的要求
 
-如果用户希望能够使用 Exchange Server on-premises 安排团队会议，必须满足以下要求：
+如果邮箱在本地托管，若要创建和查看会议，必须满足以下要求：
 
 - 需要为 Azure Active Directory 同步用户分配所需的团队许可证。
 
@@ -94,14 +94,11 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 - 邮箱托管在 Exchange Server 2016 累积更新3或更高版本中。
 
 - 自动发现和 Exchange Web 服务在外部发布。
- 
-> [!NOTE]
-> 必须使用自动发现 (AutoD) V2，才能允许团队服务执行用户邮箱的未经身份验证的发现。 AutoD V2 在 Exchange 2016 CU3 及更高版本中受支持。
 
 - OAuth 身份验证是通过 Exchange 混合配置向导（运行经典或新式)  (完整混合配置）配置的。 如果无法使用混合配置向导，请按照在 [Exchange 和 Exchange Online 组织之间配置 oauth 身份验证](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)中所述配置 OAuth。
 
-> [!NOTE]
-> Exchange 信任来自团队服务的 OAuth 令牌，称为 EvoSTS。 步骤1应该足够，但只是 EvoSTS;ACS 用于 "日历" 中的 "闲/忙" 查找。
+ > [!NOTE]
+ > Exchange 信任来自团队服务的 OAuth 令牌，称为 EvoSTS。 步骤1应该足够，但只是 EvoSTS;ACS 用于 "日历" 中的 "闲/忙" 查找。
 
 - 设置了 Azure AD Connect 中 Exchange 混合部署功能的复选框。
 
@@ -109,13 +106,12 @@ Microsoft 团队与多个 Microsoft 365 和 Office 365 服务协同工作，为�
 
 若要为这些用户启用日历委派，请执行以下操作：
 
-
-- 代理人和委托人进行通话都必须在 Exchange 服务器上有邮箱。
-
 - 您还必须按照在 [Skype For Business Online 和 Exchange 服务器之间配置集成和 OAuth](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中的说明，完成步骤2-3。这些步骤将向团队安排应用程序提供确认委派权限所需的权限。
  
-> [!NOTE]
-> 步骤2包括 ArchiveApplication 的角色分配，这不是委派所必需的。
+ > [!NOTE]
+ > 步骤2包括 ArchiveApplication 的角色分配，这不是委派所必需的。
+
+- 工作组计划外接程序当代表某人安排会议时需要 Exchange 2013 CU19 或更高版本时，为 Outlook 安排外接程序。 这是为了通过我们的服务对委托人进行通话邮箱检查委派权限来支持邮箱未经身份验证的发现。 代理人和委托人进行通话位置可以是 Exchange 2013 或更高版本，或者是 Exchange online，但自动发现必须解析为 Exchange 2013 CU19 或更高版本。
 
 ## <a name="additional-considerations"></a>其他注意事项
 

@@ -13,12 +13,12 @@ f1.keywords:
 description: 作为服务的集成联系人中心概述 (CCaaS) Microsoft 团队的解决方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f553c29d2a18816053c28c57a6f0f78b818825a
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 533c407646fd3ce690a50296e2e7447330121e88
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583249"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177372"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 团队的联系中心集成
 
@@ -35,7 +35,7 @@ ms.locfileid: "46583249"
 
 2. 此扩展的客户交互作用范围需要可帮助推动一致性、持续改进和规模的工具。
 
-Microsoft 团队通过在其通信模式（包括聊天、视频会议和通话）上充当内部和外部客户连接的中心，支持客户交互工作流。 对于某些公司，Microsoft 团队的[云语音功能](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)（包括[自动助理](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants)和[呼叫队列](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)）提供功能和配置以满足其需求。
+Microsoft 团队通过在其通信模式（包括聊天、视频会议和通话）上充当内部和外部客户连接的中心，支持客户交互工作流。 对于某些公司，Microsoft 团队的 [云语音功能](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page)（包括 [自动助理](https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants) 和 [呼叫队列](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)）提供功能和配置以满足其需求。
 
 对于需要集成解决方案和工作流以推动客户旅行的其他人而言，Microsoft 团队还会与业界领先的一些联系人中心集成，作为服务 (CCaaS) 解决方案提供商。
 
@@ -48,6 +48,7 @@ Microsoft 团队通过在其通信模式（包括聊天、视频会议和通话�
 | **配偶**                                                                                                                              | **解决方案网站**                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
+| Competella | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | Enghouse 交互式 | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
@@ -107,7 +108,7 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 
 ### <a name="connect-and-extend"></a>连接和扩展
 
-此模型通过将团队客户端与团队客户端[平台](https://docs.microsoft.com/microsoftteams/platform/overview)、[团队图 Api](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)和[云通信 API 与 Microsoft Graph 中](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的团队客户端集成，并使用团队电话系统进行所有联系人中心通话和通话控制体验，从而延长了联系中心人员和代理体验。 在此模型中，联系人中心合作伙伴作为电话运营商，与 Microsoft 365 一起使用。
+此模型通过将团队客户端与团队客户端 [平台](https://docs.microsoft.com/microsoftteams/platform/overview)、 [团队图 Api](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0) 和 [云通信 API 与 Microsoft Graph 中](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0) 的团队客户端集成，并使用团队电话系统进行所有联系人中心通话和通话控制体验，从而延长了联系中心人员和代理体验。 在此模型中，联系人中心合作伙伴作为电话运营商，与 Microsoft 365 一起使用。
 
 利用连接和扩展的解决方案，代理可以从多个系统中的数据与多个系统中的数据相关联，然后在内部协作和外部通信的团队内部工作，从而避免昂贵的上下文切换。
 
@@ -139,7 +140,7 @@ Microsoft 团队提供了一系列支持第三方语音解决方案开发的功�
 
 通过直接在 Azure 上构建，合作伙伴可以在所有团队区域和地域之间快速部署和配置其解决方案，benefitting 来自共享的全球通信网络，同时充分利用 Azure 存储、计算、分析 & 认知服务。
 
-使用 "扩展" 和 "电源集成" 模型，合作伙伴可以提供具有全方位通道通信体验的联系中心代理，同时还可以通过结合人工智能来自定义参与者或其他服务在[Microsoft Graph 中使用云通信 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的通话方式和时间。
+使用 "扩展" 和 "电源集成" 模型，合作伙伴可以提供具有全方位通道通信体验的联系中心代理，同时还可以通过结合人工智能来自定义参与者或其他服务在 [Microsoft Graph 中使用云通信 API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)的通话方式和时间。
 
 **功能要点：**
 

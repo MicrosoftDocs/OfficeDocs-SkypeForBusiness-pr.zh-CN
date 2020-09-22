@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以了解 Microsoft 团队聊天室的已知问题列表，包括更新、用户界面、硬件、限制和预期行为。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 584b71d39552990b3e4009efb177ef4fee61f1a4
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 73eab767d7b30182efb204fb8cfb8ceb06137c0b
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761338"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177361"
 ---
 # <a name="known-issues"></a>已知问题 
  
@@ -60,7 +60,7 @@ Microsoft Teams 会议室不支持 HDCP 输入，已发现它会导致 HDMI 采�
 
 ***
 
-如果你希望将会议室显示的正面自动切换到活动视频源 (例如 MTR 控制台) 从待机模式唤醒源时，必须满足某些条件。 此功能是可选的，但 Microsoft 团队工作室软件支持此功能，但提供的基础硬件支持此功能。 在室内屏幕正面使用的消费者电视需要支持消费电子设备 (CEC) 的部件。  根据所选 (可能不支持 CEC 的坞站或控制台，请参阅制造商支持文档) ，可能需要 [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) 之类的工作区控制器来启用所需的行为。 
+如果你希望将会议室显示的正面自动切换到活动视频源 (例如 MTR 控制台) 从待机模式唤醒源时，必须满足某些条件。 此功能是可选的，但 Microsoft 团队工作室软件支持此功能，但提供的基础硬件支持此功能。 在室内屏幕正面使用的消费者电视需要支持消费电子设备 (CEC) 的部件。  根据所选 (（可能不支持 CEC），请参阅制造商支持文档) 从 Extron Crestron 或 Extron HD CTL 100 （如 [HD 201-](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 [hd CTL](https://www.extron.com/article/hdctl100ad) ）启用所需的行为。 
 
 ***
 

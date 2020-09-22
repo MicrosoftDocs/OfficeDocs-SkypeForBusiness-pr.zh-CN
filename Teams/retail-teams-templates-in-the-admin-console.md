@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a7cdac4b64f8a6fb10f3b36544e3361b6c413ad7
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8b72fe7b1f101278d206d49f06203fe9841ba25f
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136030"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171076"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-console"></a>在管理控制台中使用团队零售模板
 
@@ -45,7 +45,7 @@ ms.locfileid: "48136030"
 
 将零售员工集中在一个中心体验中，以管理任务、共享文档和解决客户问题。 集成其他应用程序以简化班次开始 & 结束过程。
 
-| 基本模板类型| | 此基本模板附带的属性 |
+| 基本模板类型 |baseTemplateId | 此基本模板附带的属性 |
 | ------------------|-- |----------------------------------------------------- |
 |组织商店| `retailStore`|信道 <ul><li>常规<li>切换切换</li><li>培训</li></ul> 识别 <ul><li>源自</li></ul>|
 ||||
@@ -54,8 +54,7 @@ ms.locfileid: "48136030"
 
 经理协作模板非常适合为一组经理创建团队，以便在商店/地区等协作。例如，如果您的组织拥有区域，则可以为加利福尼亚地区创建经理协作团队，并包括该地区的所有商店经理以及该地区的地区经理。
 
-| 基本模板类型|  | 此基本模板附带的属性 |
+| 基本模板类型| baseTemplateId | 此基本模板附带的属性 |
 | ------------------|- |----------------------------------------------------- |
 |零售经理协作|`retailManagerCollaboration` |信道 <ul><li>常规<li>运营</li><li>培训</li></ul> 识别 <ul><li>源自</li></ul>|
 ||||
-

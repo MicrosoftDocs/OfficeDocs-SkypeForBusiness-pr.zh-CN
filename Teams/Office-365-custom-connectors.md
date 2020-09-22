@@ -17,17 +17,17 @@ description: 连接器通过将你常用的服务中的内容和更新传输到�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e704dd6a9a796be4f9e361972cd2e6b38e48ce51
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 3b7847ce2aba9a155622e83a6c0449cc1b6b1a39
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582469"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177212"
 ---
 <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 团队中使用 Microsoft 365 和自定义连接线
 =======================================================
 
-连接器将经常使用的内容和服务更新直接提供给频道，从而使你的团队保持最新。 通过连接器，你的 Microsoft 团队用户可以从其团队中的聊天流内的受欢迎的服务（如 Twitter、Trello、奇妙清单、GitHub 和 Azure DevOps 服务）中接收更新。
+连接器将经常使用的内容和服务更新直接提供给频道，从而使你的团队保持最新。 通过连接器，你的 Microsoft 团队用户可以从其团队中的聊天流内的 Trello、奇妙清单、GitHub 和 Azure DevOps 服务等常见服务中接收更新。
 
 如果团队权限允许，团队的任何成员都可以将其团队与常用云服务连接起来，并且所有团队成员都将收到来自该服务的活动的通知。 即使最初设置连接器的成员已离开，连接器仍可继续运行。 具有 add\remove 权限的任何团队成员都可以修改其他成员的连接器设置。
 
@@ -36,23 +36,27 @@ Microsoft 365 连接器可与 Microsoft 团队和 Microsoft 365 组一起使用�
 <a name="add-a-connector-to-a-channel"></a>向通道添加连接线
 ----------------------------
 
-当前，你可以使用 Microsoft 团队桌面和 web 客户端添加连接器。 但是，可以在包括手机在内的**所有客户端**中查看由这些连接器发布的信息。
+当前，你可以使用 Microsoft 团队桌面和 web 客户端添加连接器。 但是，可以在包括手机在内的 **所有客户端** 中查看由这些连接器发布的信息。
 
-1. 若要将连接线添加到通道，请单击频道名称右侧的**省略号 " ( ... ) "** ，然后单击 "**连接线**"。
+1. 若要将连接线添加到通道，请单击频道名称右侧的 **省略号 " ( ... ) "** ，然后单击 " **连接线**"。
 
-    ![选择了 "连接线" 选项的 "团队" 界面的屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    > [!div class="mx-imgBorder"]
+    > ![选择了 "连接线" 选项的 "团队" 界面的屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
-2. 您可以从各种可用的连接线中进行选择，然后单击 "**添加**"。
+2. 您可以从各种可用的连接线中进行选择，然后单击 " **添加**"。
 
-    !["连接线" 对话框的屏幕截图，显示可用连接线。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+    > [!div class="mx-imgBorder"]
+    > !["连接线" 对话框的屏幕截图，显示可用连接线。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
 
 3. 填充选定连接器的所需信息，然后单击 **“保存”**。 每个连接器都需要一组不同的信息才能正常运行，有些连接器可能会要求你使用连接器配置页面上提供的链接登录服务。
 
-    ![RSS 连接器的配置页面屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+    > [!div class="mx-imgBorder"]
+    > ![RSS 连接器的配置页面屏幕截图。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
 
 4. 连接器提供的数据会自动发布到频道。
 
-    ![Teams 界面屏幕截图，显示一个频道中的一个对话。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+    > [!div class="mx-imgBorder"]
+    > ![Teams 界面屏幕截图，显示一个频道中的一个对话。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
 <a name="develop-custom-connectors"></a>开发自定义连接器
 ----------------------------

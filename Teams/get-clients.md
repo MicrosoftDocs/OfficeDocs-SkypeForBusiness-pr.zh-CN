@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c69c9f0865b2432040a3a1a3310d01d6521537d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820326"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177222"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -78,7 +78,7 @@ Windows 客户端部署到位于用户配置文件中的 AppData 文件夹中。
 ![Windows 安全警报对话框屏幕截图。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> 即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。 将会创建两条针对 teams.exe 的入站规则，操作是阻止 TCP 和 UDP 协议。
+> 即使选择“取消”忽略该提示，也将会更改 Windows 防火墙配置。 将为 teams.exe 创建两个入站规则，同时为 TCP 和 UDP 协议创建 "允许" 操作。
 
 如果你想要防止团队在用户第一次从团队发出呼叫时提示用户创建防火墙规则，请使用以下 [示例 PowerShell 脚本-入站防火墙规则](#sample-powershell-script---inbound-firewall-rule) 。 
 

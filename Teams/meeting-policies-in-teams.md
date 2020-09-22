@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: b73a93557ad6bde53acf690737275d8b03902218
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8846dea07d0e25a628341e853dee64d42d3e043a
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135966"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177402"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -116,7 +116,7 @@ ms.locfileid: "48135966"
 
 ### <a name="allow-meet-now-in-channels"></a>允许在频道中立即开会
 
-这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队频道中启动临时会议。 如果启用此操作，当用户在团队频道中发布消息时，用户可以单击 "撰写" 框下的 " **立即开会** " 以在频道中启动临时会议。 默认值为 True。
+这是每用户策略，在会议开始之前应用。 此设置控制用户是否可以在团队频道中启动临时会议。 如果启用此操作，则用户可以单击 " **开会** " 按钮启动临时会议或在频道中安排会议。 默认值为 True。
 
 [![显示邮件 ](media/meeting-policies-meet-now.png) 下方的 "立即开会" 图标的屏幕截图](media/meeting-policies-meet-now.png#lightbox)
 
@@ -407,7 +407,7 @@ Daniela 可以在 Amanda 的会议中做笔记，Amanda 不能在任何会议中
 
 ### <a name="allow-chat-in-meetings"></a>允许在会议中聊天
 
-这是每个组织者的策略。 此设置控制是否允许在用户的会议中使用会议聊天。
+这是一个每个参与者的设置。 此设置控制是否允许在用户的会议中使用会议聊天。
 
 <a name="bkparticipantsandguests"> </a>
 

@@ -19,12 +19,12 @@ ms.reviewer: ''
 description: 使用管理员控制台中的 Microsoft 团队模板，通过提供设置、频道和应用的预定义模板，快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 25d9fb2d59eb272220813de8ae7749f9911b8da6
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136031"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171086"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>在管理控制台中使用团队医疗保健模板
 
@@ -40,7 +40,6 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
  在拖动、pod 或部门内优化医疗保健沟通和协作。 该模板可用于促进患者管理，以及拖动的运行需要。
 
-
 | 基本模板类型 |baseTemplateId| 此基本模板附带的属性 |
 | ------------------ |---|----------------------------------------------------- |
 | 协作处理患者护理 |`healthcareWard` | 信道<ul><li>常规</li><li>宣告</li><li>Huddles</li><li>轮</li><li>调配</li><li>培训</li></ul> 识别 <ul><li>源自</li>|
@@ -52,7 +51,7 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 | 基本模板类型 |baseTemplateId | 此基本模板附带的属性 |
 | ------------------|-- |----------------------------------------------------- |
-|医院|` healthcareHospital`|信道 <ul><li>常规<li>宣告</li><li>合规性</li><li>Custodial</li><li>人力资源</li><li>药房</li></ul> 识别 <ul><li>源自</li></ul>|
+|医院|`healthcareHospital`|信道 <ul><li>常规<li>宣告</li><li>合规性</li><li>Custodial</li><li>人力资源</li><li>药房</li></ul> 识别 <ul><li>源自</li></ul>|
 ||||
 
 ## <a name="related-topics"></a>相关主题

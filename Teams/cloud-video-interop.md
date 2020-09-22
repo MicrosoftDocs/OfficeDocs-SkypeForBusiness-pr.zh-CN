@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dbe4e3ad6f527545fbf691905ce5d70c5b7dbe
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581813"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177384"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
@@ -61,6 +61,7 @@ Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站�
 |![代表 Polycom RealConnect 的徽标](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Polycom RealConnect 服务</a> |
 |![表示 Pexip 无穷大的徽标](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Microsoft 团队的 Pexip 无穷大</a> | 
 |![表示 BlueJeans 网关的徽标](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Microsoft 团队的 BlueJeans 网关</a> |
+|![表示 Cisco CVI 的徽标](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">适用于 Microsoft 团队的 Cisco Webex 视频集成</a>|
 
 ### <a name="cloud-video-interop-overview"></a>云视频互操作概述
 
@@ -91,7 +92,7 @@ Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站�
 
 ### <a name="provision"></a>提供  
 
-在设置阶段，你将根据合作伙伴配置指南将许可证分配给相应的用户。 您还需要通过 Azure 同意流程来向您的团队环境提供合作伙伴访问权限。 有关 Azure 同意流程的详细信息，请参阅[Microsoft 标识平台终结点中的权限和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。
+在设置阶段，你将根据合作伙伴配置指南将许可证分配给相应的用户。 您还需要通过 Azure 同意流程来向您的团队环境提供合作伙伴访问权限。 有关 Azure 同意流程的详细信息，请参阅 [Microsoft 标识平台终结点中的权限和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) 。
 
 ### <a name="schedule"></a>安排
 

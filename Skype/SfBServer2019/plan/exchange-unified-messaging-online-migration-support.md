@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在淘汰 Exchange 统一消息联机 (ExchUMO) service，2020年2月28日。 本文总结了受影响的客户应了解的内容，并将为其规划业务连续性而执行此操作。
-ms.openlocfilehash: 5d7d9b2e488c61c881395ad00d2675d749e5e30f
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: 5ee0cb6329f03c5306d14603ab9beedfd8ed55da
+ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359298"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48177422"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 统一消息在线迁移支持
 
@@ -158,20 +158,20 @@ Microsoft 365 和 Office 365 组织管理员需要在 Microsoft 云自动助理�
 | VMNETWORK | 用户功能 | 支持的问候语语言 | 详细信息如下： https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | VMNETWORK | 用户功能 | 电话应答规则 |  | Y | Y    |
 | VMNETWORK | 用户功能 | 在电话上播放 (PSTN) -播放邮件 | 在我的单元格上呼叫我以收听语音邮件  | 网络 | Y    |
-| VMNETWORK | 用户功能 | 在电话上播放 (身份验证) -播放邮件 | 呼叫我已通过身份验证的设备  | Y | Y    |
+| VMNETWORK | 用户功能 | 在电话上播放 (身份验证) -播放邮件 | 呼叫我已通过身份验证的设备  | 网络 | Y    |
 | VMNETWORK | 用户功能 | 多个用户之间的共享邮箱 |  | Y | Y    |
 | VMNETWORK | 呼叫者功能  | 呼叫者体验-受保护的语音邮件 | 呼叫者可以选择将记录的邮件标记为受保护的选项| 网络 | Y    |
 | VMNETWORK | 呼叫者功能  | 呼叫者体验—专用语音邮件 | 呼叫者可以选择将录制的邮件标记为私人邮件的选项  | 网络 | Y    |
 | VMNETWORK | 呼叫者功能  | 静音检测   |  | 网络 | Y    |
 | VMNETWORK | 租户-管理员功能 | 服务器级别的受保护语音邮件    | 租户-管理员可以配置服务级别规则以将传入语音邮件标记为受保护 | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改录制持续时间限制  |     | Y | Y    |
-| VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 不适用    | Y    |
+| VMNETWORK | 租户-管理员功能 | 更改静音检测超时    |  | 无    | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改输入失败的次数 | CVM：硬编码为3 | 网络 | Y    |
 | VMNETWORK | 租户-管理员功能 | 更改默认语言 |  | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | Disable/enable |  | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | 禁用/启用未接来电通知 |  | 网络 | Y    |
 | VMNETWORK | 租户-管理员功能 | 帮助 Microsoft 改进语音邮件预览    |  | Y | Y    |
-| VMNETWORK | 租户-管理员功能 | 为已启用的用户自定义短信|  | 不适用    | Y    |
+| VMNETWORK | 租户-管理员功能 | 为已启用的用户自定义短信|  | 无    | Y    |
 | VMNETWORK | 租户-管理员功能 | 应对猥亵屏蔽|  | Y | 网络    |
 | VMNETWORK | 租户-管理员功能 | 语音邮件策略    |   | Y | Y    |
 | VMNETWORK | 租户-管理员功能 | Web 门户管理   |  | CY19   | Y    |
