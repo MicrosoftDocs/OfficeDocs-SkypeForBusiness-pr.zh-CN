@@ -8,9 +8,11 @@
 
 # 培训
 ## [概述](training-microsoft-teams-landing-page.md)
-## [讲师引导的 Teams 培训](instructor-led-training-teams-landing-page.yml)
 ## [Teams 管理员培训](itadmin-readiness.md)
 ## [Teams 的最终用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+## [Ignite 2020 处的团队会话](ignite-2020-landing-page.md)
+## [Teams 实时培训](instructor-led-training-teams-landing-page.yml)
+## [Teams 联机培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [如何部署 Teams](How-to-roll-out-teams.md)
@@ -85,7 +87,6 @@
 ### [向用户分配策略](assign-policies.md)
 ### [在活动日志中查看工作分配](activity-log.md)
 ### [在 Teams 中管理应用权限策略](teams-app-permission-policies.md)
-### [阻止特定用户对 Sharepoint 的访问](block-access-sharepoint.md)
 ### [在 Teams 中管理应用设置策略](teams-app-setup-policies.md)
 ### [在 Teams 中管理自定义应用策略和设置](teams-custom-app-policies-and-settings.md)
 ### [在 Teams 中管理反馈策略](manage-feedback-policies-in-teams.md)
@@ -117,16 +118,18 @@
 ## [使用内置和自定义选项卡](built-in-custom-tabs.md)
 ## [使用 Microsoft 365 或 Office 365 连接器和自定义连接器](Office-365-custom-connectors.md)
 ## [特定于资源的同意](resource-specific-consent.md)
-## [发布通过 Teams 应用提交 API 所提交的自定义应用](submit-approve-custom-apps.md)
-## [通过上载应用包来发布自定义应用](upload-custom-apps.md)
+## 自定义应用
+### [发布通过 Teams 应用提交 API 所提交的自定义应用](submit-approve-custom-apps.md)
+### [在 Microsoft Teams 管理中心中管理 Power 平台应用](manage-power-platform-apps.md)
+### [通过上载应用包来发布自定义应用](upload-custom-apps.md)
 ## [应用认证](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [应用权限和注意事项](app-permissions.md)
 ## [Teams 第三方应用购买服务](purchase-third-party-apps.md)
 ## [适用于 Teams 的应用模板](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [在 Teams 中管理组织的列表应用](manage-lists-app.md)
 ## [为组织管理任务应用](manage-tasks-app.md)
-## [在 Teams 管理中心里管理表扬应用](manage-praise-app.md)
 ## [设置团队目标层次结构](set-up-your-team-hierarchy.md)
+## [在 Teams 管理中心里管理表扬应用](manage-praise-app.md)
 ## [将 Skype 会议应用配置为与 Teams 配合使用](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -733,7 +736,12 @@
 #### [搜索事件的审核日志](audit-log-events.md)
 ## 隐私
 ### [隐私和 Microsoft Teams](teams-privacy.md)
+### [数据收集做法](data-collection-practices.md)
 ### [Teams 中的数据位置](location-of-data-in-teams.md)
+### [阻止特定用户对 Sharepoint Online 的访问](block-access-sharepoint.md)
+### [策略控制概述](policy-control-overview.md)
+### [移动设备诊断数据](policy-control-diagnostic-data-mobile.md)
+### [桌面客户端诊断数据](policy-control-diagnostic-data-desktop.md)
 
 <!-- ============================================================ -->
 # 监视、维护和疑难解答
@@ -780,8 +788,6 @@
 # 参考
 
 ## [Teams 限制和规范](limits-specifications-teams.md)
-## [Teams 中的数据位置](location-of-data-in-teams.md)
-## [数据收集做法](data-collection-practices.md)
 
 ## 准备好推广 Teams
 ### [为 Teams 准备贵组织的网络](prepare-network.md)
@@ -979,5 +985,5 @@
 ### [紧急呼叫条款和条件](emergency-calling-terms-and-conditions.md)
 
 ## [升级发现调查表](upgrade-plan-journey-discovery-questionnaire.md)
-
+## [通过 Microsoft Teams Export API 导出内容](export-teams-content.md)
 ## [Teams 管理员功能的发行说明](release-notes/release-notes.md)
