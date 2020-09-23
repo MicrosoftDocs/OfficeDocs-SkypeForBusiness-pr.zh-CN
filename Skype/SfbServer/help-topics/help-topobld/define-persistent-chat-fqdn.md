@@ -8,28 +8,28 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
-description: 使用 "定义新的持久聊天池" 向导创建新的持久聊天服务器或持久聊天服务器池。 选择“多计算机池”或“单计算机池”。 如果选择单计算机池，但后来需要多计算机池，则需要先删除单计算机池，然后再定义多计算机池。
-ms.openlocfilehash: 12b5a648de211086d33624afad56ce069493b135
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 使用 "定义新的持久聊天池" 向导创建新的持久聊天服务器或持久聊天服务器池。 选择 "多计算机池" 或 "单个计算机池"。 如果选择单个计算机池，并且后来需要多个计算机池，则需要删除该单个计算机池，然后再定义多台计算机池。
+ms.openlocfilehash: 61851656b70b85db47fdad01dff0101217262dda
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820194"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217544"
 ---
-# <a name="define-persistent-chat-fqdn"></a><span data-ttu-id="82237-105">定义持久聊天 FQDN</span><span class="sxs-lookup"><span data-stu-id="82237-105">Define Persistent Chat FQDN</span></span>
+# <a name="define-persistent-chat-fqdn"></a><span data-ttu-id="b7c01-105">定义持久聊天 FQDN</span><span class="sxs-lookup"><span data-stu-id="b7c01-105">Define Persistent Chat FQDN</span></span>
  
-<span data-ttu-id="82237-106">使用 "**定义新的持久聊天池**" 向导创建新的持久聊天服务器或持久聊天服务器池。</span><span class="sxs-lookup"><span data-stu-id="82237-106">You create a new Persistent Chat Server or Persistent Chat Server pool using the **Define New Persistent Chat Pool** wizard.</span></span> <span data-ttu-id="82237-107">选择“**多计算机池**”或“**单计算机池**”。</span><span class="sxs-lookup"><span data-stu-id="82237-107">Select either a **Multiple computer pool** or a **Single computer pool**.</span></span> <span data-ttu-id="82237-108">如果选择单计算机池，但后来需要多计算机池，则需要先删除单计算机池，然后再定义多计算机池。</span><span class="sxs-lookup"><span data-stu-id="82237-108">If you select a single computer pool and later need a multiple computer pool, you will need to remove the single computer pool and then define a multiple computer pool.</span></span>
+<span data-ttu-id="b7c01-106">使用 " **定义新的持久聊天池** " 向导创建新的持久聊天服务器或持久聊天服务器池。</span><span class="sxs-lookup"><span data-stu-id="b7c01-106">You create a new Persistent Chat Server or Persistent Chat Server pool using the **Define New Persistent Chat Pool** wizard.</span></span> <span data-ttu-id="b7c01-107">选择 " **多计算机池** " 或 " **单个计算机池**"。</span><span class="sxs-lookup"><span data-stu-id="b7c01-107">Select either a **Multiple computer pool** or a **Single computer pool**.</span></span> <span data-ttu-id="b7c01-108">如果选择单个计算机池，并且后来需要多个计算机池，则需要删除该单个计算机池，然后再定义多台计算机池。</span><span class="sxs-lookup"><span data-stu-id="b7c01-108">If you select a single computer pool and later need a multiple computer pool, you will need to remove the single computer pool and then define a multiple computer pool.</span></span>
   
-<span data-ttu-id="82237-109">你还必须为持久聊天服务器或持久聊天服务器池定义**池 FQDN** 。</span><span class="sxs-lookup"><span data-stu-id="82237-109">You must also define a **Pool FQDN** for the Persistent Chat Server or Persistent Chat Server pool.</span></span> <span data-ttu-id="82237-110">单计算机池的池完全限定域名 (FQDN) 必须与组成单服务器池的计算机的 FQDN 相同。</span><span class="sxs-lookup"><span data-stu-id="82237-110">The pool fully qualified domain name (FQDN) for a single computer pool must be the same as the FQDN of the computer that makes up the single server pool.</span></span> <span data-ttu-id="82237-111">对于多计算机池，FQDN 必须为您选择表示此多计算机池的名称，并且在 DNS 中由主机 A（如果使用 IPv6，则为 AAAA）记录定义。</span><span class="sxs-lookup"><span data-stu-id="82237-111">For a multiple computer pool, the FQDN must be the name you choose to represent this multiple computer pool and is defined in DNS by a host A (and AAAA if IPv6 is being used) record.</span></span>
+<span data-ttu-id="b7c01-109">此外，还必须为持久聊天服务器或持久聊天服务器池定义 **池 FQDN** 。</span><span class="sxs-lookup"><span data-stu-id="b7c01-109">You must also define a **Pool FQDN** for the Persistent Chat Server or Persistent Chat Server pool.</span></span> <span data-ttu-id="b7c01-110">单个计算机池 (FQDN) 的池完全限定域名必须与组成单个服务器池的计算机的 FQDN 相同。</span><span class="sxs-lookup"><span data-stu-id="b7c01-110">The pool fully qualified domain name (FQDN) for a single computer pool must be the same as the FQDN of the computer that makes up the single server pool.</span></span> <span data-ttu-id="b7c01-111">对于多计算机池，FQDN 必须是您选择用来表示此多计算机池的名称，并且由主机 A (和 AAAA 在 DNS 中定义，前提是) 记录使用 IPv6。</span><span class="sxs-lookup"><span data-stu-id="b7c01-111">For a multiple computer pool, the FQDN must be the name you choose to represent this multiple computer pool and is defined in DNS by a host A (and AAAA if IPv6 is being used) record.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="82237-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="82237-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b7c01-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b7c01-112">See also</span></span>
 
-[<span data-ttu-id="82237-113">规划 Skype for Business Server 2015 中的持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="82237-113">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="b7c01-113">在 Skype for Business Server 2015 中规划持久聊天服务器</span><span class="sxs-lookup"><span data-stu-id="b7c01-113">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="82237-114">将持久聊天服务器添加到 Skype for business Server 2015 拓扑</span><span class="sxs-lookup"><span data-stu-id="82237-114">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="b7c01-114">将持久聊天服务器添加到 Skype for business Server 2015 拓扑</span><span class="sxs-lookup"><span data-stu-id="b7c01-114">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
