@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ee1c121f4d42e2d093a3b9eabef9adedd0605128
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 8ba02a1d1777f03f58d5d064090ebefb1a5546e6
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135946"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219123"
 ---
 # <a name="create-a-template-from-an-existing-team-in-microsoft-teams"></a>从 Microsoft 团队中的现有团队创建模板
 
@@ -32,35 +32,35 @@ ms.locfileid: "48135946"
 
 Microsoft 团队使你可以从现有团队创建模板，该模板可以保存和修改以满足你的特定组织需求。
 
-1. 登录到团队管理中心。
+1. 登录团队管理中心。
 
 2. 在左侧导航中，展开 "**团队**  >  **团队模板**"。
 
-3. 单击“添加”****。
+3. 选择 " **添加**"。
 
-4. 选择 " **将现有团队用作模板**"，然后单击 " **下一步**"。
+4. 选择 " **将现有团队用作模板**"，然后选择 " **下一步**"。
 
  ![使用现有团队作为突出显示的模板的团队模板起始点屏幕的图像。](media/team-existing-team-as-template.png)
 
-5. 单击团队名称旁边的，然后单击 " **下一**步"，选择要用作起始点的团队。
+5. 通过选择团队名称旁边的，选择要用作起点的团队，然后选择 " **下一步**"。
 
 ![已突出显示一个团队的团队列表的图像。](media/team-existing-team-selection.png)
 
-6. 在 " **模板设置** " 部分中，填写以下字段，然后单击 " **下一步**"：
+6. 在 " **模板设置** " 部分中，填写下列字段，然后选择 " **下一步**"：
     - 模板名称
     - 模板简要和详细说明
     - 区域设置可见性  
   
 7. 在 " **频道"、"选项卡" 和 "应用** " 部分中，添加你的团队需要的任何频道和应用。
 
-    1. 在 " **频道** " 部分中，单击 " **添加**"。
+    1. 在 " **频道** " 部分中，选择 " **添加**"。
     2. 在 " **添加** " 对话框中，命名频道。
     3. 添加说明。
     4. 确定默认情况下是否显示频道。
-    5. 搜索要 addd 到频道的应用名称。
-    6. 完成后单击 " **应用** "。
+    5. 搜索要添加到频道的应用名称。
+    6. 完成后选择 " **应用** "。
 
-8. 单击 " **提交** " 保存所做的更改。
+8. 选择 " **提交** " 以保存所做的更改。
 
 您的新模板将显示在 " **团队模板** " 列表中。 模板可用于在团队中创建团队。
 

@@ -20,22 +20,39 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理策略程序包，以便在管理用户组策略时简化、简化和帮助提供一致性。
-ms.openlocfilehash: 01f32f1141ce46aa45073571ccfaabc8646fc215
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: bdbfed095cf522702f55963ba7e46d79b765d59c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47327234"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48220110"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
 
+> [!NOTE]
+> 本文中所述的功能之一（ [自定义策略程序包](#custom-policy-packages)）尚未发布。 即将推出私人预览版。
+
 Microsoft 团队中的策略包是预定义策略和策略设置的集合，可分配给在组织中具有类似角色的用户。 我们构建了策略程序包，以便在管理组织内的用户组策略时提供简化、简化和帮助。  
 
-向用户分配策略包时，将创建程序包中的策略，然后你可以自定义程序包中的策略设置以满足组织的需求。
+你可以使用 [团队中包含的策略程序包](#policy-packages-included-in-teams) 或 [创建你自己的自定义策略程序包](#custom-policy-packages) ， (即将推出私人预览版) 。
 
-## <a name="what-is-a-policy-package"></a>什么是策略包
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理中心中 "策略程序包" 页面的屏幕截图":::
+
+你可以自定义策略包中的策略设置以满足你的用户需求。 更改程序包中的策略设置时，分配到该程序包的所有用户都将获得更新的设置。 你可以使用 Microsoft 团队管理中心或 PowerShell 管理策略包。
+
+## <a name="what-is-a-policy-package"></a>什么是策略包？
 
 通过策略程序包，你可以控制你希望允许或限制你的组织中的特定人员组的团队功能。 团队中的每个策略包都围绕用户角色进行设计，其中包括预定义的策略和策略设置，这些策略和策略设置支持为该角色典型的协作和通信活动。
+
+策略程序包支持以下团队策略类型：
+
+- 消息传递策略
+- 会议策略
+- 应用设置策略
+- 呼叫策略
+- 实时事件策略
+
+## <a name="policy-packages-included-in-teams"></a>团队中包含的策略包
 
 团队当前包含以下策略程序包。
 
@@ -64,26 +81,54 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 
 ![教育版 (教师) 策略包的屏幕截图](media/policy-packages-education_teacher.png)
 
+## <a name="custom-policy-packages"></a>自定义策略程序包
+
+**此功能即将发布到私人预览版**
+
+通过自定义策略程序包，你可以为你的组织中具有类似角色的用户捆绑你自己的策略集。 通过添加所需的策略类型和策略来创建自己的策略程序包。
+
+要创建新的自定义策略程序包，请执行以下操作：
+
+1. 在 Microsoft 团队管理中心的左侧导航中，选择 " **策略包**"，然后单击 " **添加**"。
+    :::image type="content" source="media/policy-packages-add.png" alt-text="管理中心中 "策略程序包" 页面上的 "添加" 按钮的屏幕截图":::
+2. 输入程序包的名称和说明。
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="添加新的自定义策略程序包的屏幕截图":::
+3. 选择要包括在程序包中的策略类型和策略名称。
+4. 单击“**保存**”。
+
 ## <a name="how-to-use-policy-packages"></a>如何使用策略程序包
 
 以下概述了如何使用组织中的策略包。
 
 ![如何使用策略程序包概述](media/manage-policy-packages-overview.png)
 
-- **[查看](#view-the-settings-of-a-policy-in-a-policy-package)**：在分配程序包之前查看策略包中每个策略的设置。 请确保你了解每个设置，然后确定预定义的值是否适合你的组织，或者你是否需要根据组织的需要将其更改为更具限制性或 lenient。
+- **[查看](#view-the-settings-of-a-policy-in-a-policy-package)**：查看策略包中的策略。 然后，在分配程序包之前查看程序包中每个策略的设置。 请确保你了解每个设置。 确定预定义的值是否适合你的组织，或者你是否需要根据组织的需要将其更改为更具限制性或 lenient 的值。
 
     如果删除策略，您仍然可以查看设置，但不能更改任何设置。 分配策略包时，将使用预定义的设置重新创建已删除的策略。
 
-- **[分配](#assign-a-policy-package)**：将策略包分配给用户。 请记住，在分配程序包之前，不会创建策略包中的策略，之后，你可以在程序包中更改单个策略的设置。  
+- **[自定义](#customize-policies-in-a-policy-package)**：自定义策略包中的策略设置以满足组织的需求。
 
-- **[自定义](#customize-policies-in-a-policy-package)**：自定义策略包中的策略设置以满足组织的需求。 对策略设置所做的任何更改都将自动应用到分配了该程序包的用户。
+- **[分配](#assign-a-policy-package)**：将策略包分配给用户。  
+
+> [!NOTE]
+> 你还可以在分配程序包后更改策略包中的策略设置。 对策略设置所做的任何更改都将自动应用到分配了该程序包的用户。
 
 下面是有关如何在 Microsoft 团队管理中心中查看、分配和自定义策略包的步骤。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>查看策略包中的策略设置
 
-1. 在 Microsoft 团队管理中心的左侧导航中，单击 " **策略包**"，然后通过单击程序包名称左侧的 "策略包" 进行选择。
+1. 在 "Microsoft 团队管理中心" 的左侧导航中，选择 " **策略程序包**"，然后单击程序包名称左侧的 "策略包" 进行选择。
 2. 单击要查看的策略。
+
+### <a name="customize-policies-in-a-policy-package"></a>自定义策略包中的策略
+
+你可以通过 " **策略包** " 页面编辑策略的设置，或直接转到 Microsoft 团队管理中心中的 "策略" 页面。
+
+1. 在 Microsoft 团队管理中心的左侧导航中，执行下列操作之一：
+    - 单击 " **策略程序包**"，然后单击 "程序包名称" 左侧的 "策略程序包" 进行选择。
+    - 单击 "策略类型"。  例如，单击 " **邮件策略**"。
+2. 选择要编辑的策略。 链接到策略包的策略与策略包的名称相同。
+3. 进行所需的更改，然后单击 " **保存**"。
 
 ### <a name="assign-a-policy-package"></a>分配策略包
 
@@ -106,24 +151,6 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 
 批处理最多可包含5000个用户。 你可以按对象 Id、UPN、SIP 地址或电子邮件地址指定用户。 若要了解详细信息，请参阅向 [一批用户分配策略包](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
 
-### <a name="customize-policies-in-a-policy-package"></a>自定义策略包中的策略
-
-你可以通过 " **策略包** " 页面编辑策略的设置，或直接转到 Microsoft 团队管理中心中的 "策略" 页面。
-
-1. 在 Microsoft 团队管理中心的左侧导航中，执行下列操作之一：
-    - 单击 " **策略程序包**"，然后单击 "程序包名称" 左侧的 "策略程序包" 进行选择。
-    - 单击 "策略类型"。  例如，单击 " **邮件策略**"。
-2. 单击要编辑的策略。 链接到策略包的策略与策略包的名称相同。
-3. 进行所需的更改，然后单击 " **保存**"。
-
-## <a name="supported-policy-types"></a>支持的策略类型
-
-- 消息传递
-- 会议
-- 通话
-- 应用设置
-- 实时事件
-
 ## <a name="troubleshooting"></a>故障排除
 
 **分配策略包时收到错误**
@@ -132,4 +159,10 @@ Microsoft 团队中的策略包是预定义策略和策略设置的集合，可�
 
 ## <a name="related-topics"></a>相关主题
 
-[用于 EDU 管理员的 Microsoft Teams 政策包](policy-packages-edu.md)
+[向团队中的用户分配策略](assign-policies.md)
+
+[教育机构管理员的团队策略包](policy-packages-edu.md)
+
+[医疗保健的团队策略程序包](policy-packages-healthcare.md)
+
+[政府团队政策包](policy-packages-gov.md)

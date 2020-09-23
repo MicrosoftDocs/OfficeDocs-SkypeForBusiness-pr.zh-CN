@@ -8,48 +8,48 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
-description: 若要指定 "新建"、"删除现有" 或更改活动的简单 Url，请执行下列操作：
-ms.openlocfilehash: a90b6e4bd5ffca4887f57906c901a429725133c9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 要指定新的简单 URL、删除现有简单 URL 或更改活动的简单 URL，请执行以下操作：
+ms.openlocfilehash: 79a5bba3cf16ae8e3a57b80947f5157978c9d3ef
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819264"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48219747"
 ---
 # <a name="simple-url-settings-expander"></a>简单 URL 设置扩展器
 
-若要指定 "新建"、"删除现有" 或更改活动的简单 Url，请执行下列操作：
+要指定新的简单 URL、删除现有简单 URL 或更改活动的简单 URL，请执行以下操作：
 
 ## <a name="simple-urls"></a>简单 URL
 
-若要修改或定义简单的 Url，请首先确定要编辑或更改的三个简单 Url 中的哪一个。 可以从电话访问 URL、会议 URL 和管理访问 URL 中进行选择。
+要修改或定义简单 URL，请首先确定要编辑或更改三种简单 URL 中的哪一种。可以从电话访问 URL、会议 URL 和管理访问 URL 中进行选择。
 
-要修改电话访问 URL 或会议 URL，请选择需要更改的 URL。 单击“**编辑 URL**”。 编辑 URL，然后单击 **"确定"** 保存该 url。 单击“**取消**”将放弃所有更改。
+要修改电话访问 URL 或会议 URL，请选择需要更改的 URL。单击“编辑 URL”****。编辑该 URL，并单击“确定”**** 保存该 URL。单击“取消”**** 将放弃所有更改并关闭对话框。
 
-要添加新 URL，请单击“**添加**”。 在 "**添加简单 URL** " 对话框中，指定 url，然后单击 **"确定"** 以保存 url。 如果需要将新的 URL 设置为活动 URL，请选择“**将此设为选定域的活动 URL**”。 单击“**取消**”将放弃所有更改。
+要添加新 URL，请单击“添加”****。在“添加简单 URL”**** 对话框中，指定 URL，并单击“确定”**** 保存该 URL。如果需要将新的 URL 设置为活动 URL，请选择“使其成为所选域的活动 URL”****。单击“取消”**** 将放弃所有更改。
 
-若要使其他 URL 成为活动 URL （如 URL 旁边的绿色复选标记所示），请选择该 URL，然后单击 "**激活**"。
+要将其他 URL 设为活动 URL（URL 旁边有绿色复选标记），请选择相应的 URL，然后单击“变为活动状态”****。
 
 > [!NOTE]
-> 每个会话初始协议（SIP）域只能有一个活动的 URL。
+> 每个会话初始协议 (SIP) 域只能有一个活动 URL。
 
-若要删除 URL，请选择该 URL，然后单击 "**删除**"。
+要删除 URL，请选择相应的 URL，并单击“删除”****。
 
 > [!CAUTION]
-> 请务必阅读 "简单 Url 设置" 对话框页面上的信息。 删除会议 URL 可呈现已由用户计划的现有会议。 在使新会议 URL 处于活动状态后，请考虑保留现有 URL。 如果您确信用户不再使用旧的会议 URL，则可以安全地将其删除。
+> 务必仔细阅读简单 URL 设置对话框页面上的信息。删除会议 URL 会导致无法再访问用户安排的现有会议。请考虑在将新的会议 URL 设为活动状态后保留现有 URL。在确保用户不再使用旧的会议 URL 后，可以安全地删除该 URL。
 
 要编辑或更改管理访问 URL，请编辑该条目。
 
-在 "编辑属性" 页面上完成所有更改后，单击 **"确定"** 保存所做的更改。 单击“**取消**”将放弃更改。
+在“编辑属性”页上完成所有更改后，单击 **“确定”** 保存更改。单击 **“取消”** 将放弃更改。
 
 ## <a name="see-also"></a>另请参阅
 
-有关详细信息，请参阅[规划简单 url](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
+有关详细信息，请参阅[规划简单 URL](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)。
 
 

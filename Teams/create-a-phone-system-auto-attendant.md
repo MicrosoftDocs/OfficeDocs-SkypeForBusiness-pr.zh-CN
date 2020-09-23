@@ -1,9 +1,9 @@
 ---
-title: 设置云自动助理
-ms.author: dstrome
-author: dstrome
+title: 为 Microsoft 团队设置自动助理
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
-ms.reviewer: waseemh
+ms.reviewer: colongma
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -20,409 +20,199 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 了解如何为 Microsoft 团队设置和测试云自动助理。
-ms.openlocfilehash: 247cb553c2fb3c4dafd1a36b826fc13f2f21b0ce
-ms.sourcegitcommit: c8b5d4dd70d183f7ca480fb735a19290a3457b30
+description: 了解如何为 Microsoft 团队设置和测试自动助理。
+ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45077709"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48220311"
 ---
-# <a name="set-up-a-cloud-auto-attendant"></a>设置云自动助理
+# <a name="set-up-an-auto-attendant"></a>设置自动助理
 
-自动助理允许用户呼叫你的组织，并导航菜单系统以与右部门通话、呼叫队列、人员或操作员。 你可以通过 Microsoft 团队管理中心或通过 Powershell 为你的组织创建自动助理。 若要创建自动助理，请在左侧导航中转到 "**语音**"，然后选择 "**自动助理**  >  **新增**"。
+自动助理允许用户呼叫你的组织，并导航菜单系统以与右部门通话、呼叫队列、人员或操作员。 你可以通过 Microsoft 团队管理中心或通过 PowerShell 为你的组织创建自动助理。 
 
-如果想要了解有关自动助理的详细信息，请参阅[什么是云自动助理？](/microsoftteams/what-are-phone-system-auto-attendants)
+请确保你拥有 [团队自动助理和呼叫队列](plan-auto-attendant-call-queue.md) 的阅读计划，然后按照本文中的步骤操作，然后按照 [入门步骤](plan-auto-attendant-call-queue.md#getting-started) 操作。
 
-> [!NOTE]
-> 本文适用于 Microsoft 团队和 Skype for business Online。
+自动助理可根据呼叫者的输入将呼叫定向到以下目的地之一：
 
-电话号码不会直接分配给自动助理，而是分配给与自动助理相关联的[资源帐户](manage-resource-accounts.md)。
+- **组织中的人员** -您的组织中能够接收语音呼叫的人员。 这可以是联机用户，也可以是使用 Skype for Business 服务器内部托管的用户。
+- **语音应用** -另一个自动助理或呼叫队列。  (选择 "选择此目标时与自动助理或呼叫队列相关联的资源帐户"。 ) 
+- **外部电话号码** -任何电话号码。  (参阅 [外部转接技术详细信息](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)) 。
+- **语音邮件** -与你指定的 Microsoft 365 组相关联的语音邮箱。
+- **Operator** -为自动助理定义的操作员。 定义运算符是可选的。 操作员可以定义为此列表中的任何其他目标。
 
-自动助理实现通常涉及多个自动助理。 *第一级*自动助理通常有一个分配有电话号码的资源帐户。 嵌套的自动助理用作第*一级*自动助理作为呼叫连接的二级菜单。 将电话号码分配给其资源帐户时，不需要*嵌套*的自动助理。
+设置自动助理时，系统会提示你在各个阶段选择其中一个选项。
 
-## <a name="step-1--get-started"></a>步骤 1-入门
+若要设置自动助理，请在 "团队管理中心" 中，展开 " **语音**"，单击 " **自动助理**"，然后单击 " **添加**"。
 
-必须具有自动助理才能拥有关联的资源帐户。 有关资源帐户和所需的所有许可证的详细信息，请参阅[管理团队中的资源帐户](manage-resource-accounts.md)。 
- 
-<!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
- 
-> [!TIP]
-> 要将呼叫重定向到使用电话系统许可证的联机用户的操作员或菜单选项，您需要为企业语音启用它们。 请参阅[分配 Skype For business 许可证](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses)或[分配 Microsoft 团队附加设备许可证](teams-add-on-licensing/assign-teams-add-on-licenses.md)。 你还可以使用 Windows PowerShell。 例如，运行：`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+## <a name="general-info"></a>常规信息
 
-## <a name="step-2--create-auto-attendants"></a>步骤 2-创建自动助理
+![](media/auto-attendant-general-info-page-new.png)
 
-> [!IMPORTANT]
-> 每个自动助理都必须具有关联的[资源帐户](manage-resource-accounts.md)。 必须先创建资源帐户，然后才能将其关联到自动助理。
+1. 在顶部的框中键入自动助理的名称。
 
-### <a name="with-the-microsoft-teams-admin-center"></a>Microsoft 团队管理中心
+2. 如果要指定一个运算符，请指定调用该操作员的目标。 这是可选的 (但建议) 。 你可以将 " **操作员** " 选项设置为允许呼叫者跳出菜单，并向指定的人讲话。
 
-在 " **Microsoft 团队管理中心**" 中，单击 "**语音**  >  **自动助理**"，然后单击 " **+ 添加**"：
+3. 指定此自动助理的时区。 如果您在 [下班后创建单独的通话流](#call-flow-for-after-hours)，则会使用时区计算营业时间。
 
-#### <a name="general-info-page"></a>常规信息页面
+4. 指定此自动助理的语言。 此语言将用于系统生成的语音提示。
 
-!["我的自动助理" 页面的屏幕截图](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
+5. 选择是否要启用语音输入。 启用后，每个菜单选项的名称将变为语音识别关键字。 例如，呼叫者可以说 "One" 以选择映射到键1的菜单选项，或者说 "销售额" 以选择名为 "Sales" 的菜单选项。
 
-* * *
+6. 单击" **下一步**"。
 
-![数字1的图标，上一个屏幕截图名称中的标注 ](media/teamscallout1.png)
- **Name**输入自动助理的显示名称。 此名称为必填字段，最多可以包含 64 个字符，其中包括空格。 此处指定的**名称**列在 "**自动助理**" 选项卡上的列中。
+## <a name="call-flow"></a>通话流
 
-<a name="phonenumber"> </a>
+![](media/auto-attendant-call-flow-greeting-message.png)
 
-* * *
+选择在自动助理接听呼叫时是否要播放问候语。
 
-![数字2的图标，上一个屏幕截图 ](media/teamscallout2.png)
- <a name="operator"> </a> 
- **运算符**中的标注这是可选的（但建议使用）。 你可以将 "**操作员**" 选项设置为允许呼叫者跳出菜单，并向指定的人讲话。
+如果选择 " **播放音频文件** "，你可以使用 " **上传文件** " 按钮上载另存为音频的录制问候语消息。WAV，。MP3 或。WMA 格式。 录制内容不能大于 5 MB。
 
-默认情况下，0键分配给操作员。
+如果选择 " **键入问候语** "，系统将在自动助理接听呼叫时，读取您键入的文本 (最多为1000个字符的文本) 。
 
-如果您设置了一个操作员，请在 "**调用流**" 页面上的 "**编辑菜单选项**" 中告诉他们有关该选项的信息。 如果你在自动助理上设置了操作员，则在**呼叫者将听到**box 或将音频文件更改为包含此选项的情况下，输入相应的提示文本。 例如，"如需接线员，请按零"。
+![](media/auto-attendant-call-flow-route-call-message.png)
 
-可通过多种方法设置操作员：
+选择您希望路由呼叫的方式。
 
-- **No 运算符**禁用 "operator" 和 "按 0" 选项。 这是当前默认值。
-- **组织中的人员**向 Microsoft 365 或 Office 365 中的企业语音或已分配呼叫计划分配了电话系统许可证的人员。 您也可以对其进行设置，以便呼叫者发送到语音邮件。 若要将呼叫者发送到语音邮件，请选择 "**组织中的人员**"，并将该帐户的设置设置为直接将呼叫发送到语音邮件。
+如果您选择 " **断开连接**"，自动助理将挂起呼叫。
 
-     > [!Note]
-     > **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。 选择**组织中的人员**时，您可以选择具有共享邮箱或使用用户邮箱的帐户。
+如果选择 " **重定向呼叫**"，则可以选择其中一个呼叫传送目的地。
 
-- **语音应用** 选择链接到已创建的自动助理或通话队列的资源帐户的名称。 请求操作员的调用方将被重定向。
-- **外部电话号码**将呼叫者转接到您指定的外部电话号码。 请注意以下事项：
+如果选择 " **播放菜单" 选项**，则可以选择 **播放音频文件** 或 **键入问候语** ，然后在菜单选项和目录搜索之间进行选择。
 
-    - 与使 PSTN 传出的应用程序关联的资源帐户必须具有电话号码，并且必须分配有一个虚拟电话系统许可证。 不支持电话系统许可证。 此外，资源帐户必须具有下列其中一项：
-        - 对于带有呼叫计划编号的资源帐户，请分配[呼叫计划](calling-plans-for-office-365.md)许可证。
-        - 对于具有直接路由号码的资源帐户，请分配[联机语音路由策略](manage-voice-routing-policies.md)。
-    - 显示的出站电话号码按如下方式确定：
-        - 对于呼叫计划号码，将显示原始呼叫者的电话号码。
-        - 对于直接路由号码，发送的号码基于 SBC 上的 P 声明标识（PAI）设置，如下所示：
-            - 如果设置为 "已禁用"，将显示原始呼叫者的电话号码。 这是默认和推荐的设置。
-            - 如果设置为 "启用"，则显示资源帐户电话号码。
-    - 不支持在通话计划中继和直接路由中继之间转移。
+### <a name="menu-options"></a>菜单选项
 
-<!--   
+![](media/auto-attendant-call-flow-menu-options-complete.png)
 
-- **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
-- **Call queue** Select the name of the resource account linked to a call queue that has already been created. Callers that request an operator are redirected there.
+对于拨号选项，您可以将电话键盘上的0-9 键分配给其中一个呼叫传送目的地。  (键 \* (重复) ， \# (后) 由系统保留，并且不能重新分配。 ) 
 
-**Phone number (optional)** Enter the service phone number you want to assign to the new resource account this wizard creates and links to the new auto attendant. If you intend this auto attendant to be a nested auto attendant, it doesn't need a phone number. You can add one if for some reason you require several ways to connect to the auto attendant system.
+键映射不必是连续的。 例如，可以创建一个映射到选项的键为0、1和3的菜单，而不使用2键。
 
-> [!NOTE]
-> Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
--->
+如果已配置，我们建议将0键映射到操作员。 如果运算符未设置为任何键，则语音命令 "Operator" 也会被禁用。 
 
-* * *
+对于每个菜单选项，请指定以下内容：
 
-<a name="timezone"> </a>
+- "**拨号键**"-电话键盘上的键以访问此选项。 如果语音输入可用，呼叫方还可以使用此号码访问该选项。
 
-![数字3的图标（上一个屏幕截图时区中的标注） ](media/teamscallout3.png) **Time zone**您需要为自动助理设置时区。 该设置可以与为你的组织列出的主地址或不同时区的主地址的时区相同。 每个自动助理都可以具有不同的时区。 为自动助理设置的 "营业时间" 还使用 "时区"。 请确保设置正确的时区以避免工作时间差异，因为并非所有地区都有夏时制。 
+- **语音命令** -定义当语音输入已启用时，呼叫者可以提供的语音命令来访问此选项。 它可以包含多个词语，如 "客户服务" 或 "操作和用户"。 例如，呼叫者可以按2、说出 "二" 或说 "销售额" 以选择映射到2键的选项。 此文本还会由用于服务确认提示的文本（如 "将您的呼叫转移到销售人员"）呈现为语音。
 
-* * *
+- **重定向至** -呼叫路由目标，当呼叫方选择此选项时使用。 如果要重定向到自动助理或呼叫队列，请选择与其关联的资源帐户。
 
-![数字4的图标，上一个屏幕截图 ](media/teamscallout4.png)
- <a name="language"> </a> 
- **语言**中的标注选择要用于自动助理的语言。 自动助理将该语言与呼叫者配合使用，并以这种语言播放所有系统提示。
+### <a name="directory-search"></a>目录搜索
 
- * * *
+如果为目的地分配了拨号键，我们建议您选择 " **无** " 进行 **目录搜索**。 如果呼叫者尝试使用分配给特定目的地的密钥来拨打名称或分机，则它们可能会在完成输入名称或扩展名之前意外地路由到目标。 我们建议你为目录搜索创建单独的自动助理，并让你的主自动助理通过拨号键链接到它。
 
-![数字5的图标，如果选择此选项，则上一个屏幕截图中的标注将 ](media/teamscallout5.png)
- **启用语音输入**语音识别。 呼叫者可以使用[您设置的语言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)中的语音输入。 如果您希望仅让用户使用其电话键盘进行选择，您可以将语音识别设置为 "**关闭**"。
+如果您没有分配拨号键，请选择 **目录搜索**选项。
 
-* * *  
+**按名称拨号** -如果启用此选项，呼叫者可以说出用户的姓名或在电话键盘上键入它。 任何带电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，可通过 "按名称拨号" 找到。  (你可以设置 " [拨号作用域](#dial-scope) " 页面上的目录中和未包含的人员。 ) 
 
-完成选择后，单击 "**下一步**"。
+**按分机号码拨号** -如果启用此选项，则呼叫者可以通过拨打电话分机与您的组织中的用户联系。 任何具有电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，并且可以 **通过 "通过分机拨入**" 找到。  (你可以设置 " [拨号作用域](#dial-scope) " 页面上的目录中和未包含的人员。 ) 
 
-#### <a name="call-flow"></a>通话流
+希望可供拨号使用的用户需要将扩展指定为在 Active Directory 或 Azure Active Directory 中定义的以下某个电话属性的一部分 (请参阅 [单独或批量添加用户](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 以了解详细信息。 ) 
 
-<a name="greetingsandrouting"> </a>
+- OfficePhone
+- HomePhone
+- 手机/MobilePhone
+- TelephoneNumber/电话号码
+- OtherTelephone
 
-> [!TIP]
-> 您可以选择设置自定义的工作时间计划，并在工作时间内和之后使用不同的通话流行为。 若要设置自定义日程安排，请设置[在下班后的可选通话流程](#call-flow-for-after-hours)。 默认情况下，自动助理使用营业时间通话流。
+在 "用户电话号码" 字段中输入扩展名所需的格式为* + <phone number> ext = <extension> *或* + <phone number> x <extension> *。
 
-您可以设置自定义的问候语、提示和菜单，以便用户在到达您的自动助理时听到。
-
-![屏幕截图：呼叫处理页面问候语部分](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-
-* * *
-
-**第一条播放问候语**问候语是可选的，可以设置为 "**无问候语**"、"**播放音频文件**" 或 "**键入问候语**"。
+你可以在 [Microsoft 365 管理中心](https://admin.microsoft.com/) 或 [Azure Active Directory 管理中心](https://aad.portal.azure.com)中设置扩展。 在自动助理和呼叫队列中进行更改前，最多可能需要12小时。
 
 > [!NOTE]
-> 对于第一级别的自动助理，问候语非常有用。 嵌套的自动助理通常不需要问候语。
+> 如果想要同时使用 " **按姓名** 拨号" 和 " **按分机号码拨号** " 功能，您可以在您的主自动助理上分配一个拨号键，以到达启用 " **按名称拨号**" 的自动助理。 在该自动助理中，你可以分配一个没有与之关联的字母 (的键) **通过分机** 自动助理到达拨号。
 
-![数字1的图标，上一屏幕截图中的标注 ](media/teamscallout1.png) 如果选择 "**无问候语**"，则呼叫者在您稍后选择的其中一个操作处理之前，不会听到消息或问候语。 
+选择 **目录搜索** 选项后，单击 " **下一步**"。
 
-<!-- You can also upload an audio file (in .wav, mp3 or .wma formats), or create a custom greeting using Text-to-Speech.-->
+## <a name="call-flow-for-after-hours"></a>下班后的通话流程
 
-![数字2的图标，上一个屏幕截图中的标注 ](media/teamscallout2.png) 如果选择 "**播放音频文件**"，则可以使用 "**上传文件**" 按钮上载另存为音频的录制问候语消息。WAV，。MP3 或。WMA 格式。 录制内容不能大于 5 MB。
+![](media/auto-attendant-business-hours.png)
 
-![数字3的图标，上一个屏幕截图中的标注 ](media/teamscallout3.png) **键入问候消息**如果选择此选项，请在提供的字段中输入希望系统读取的文本（最多1000个字符）。 例如，输入 "欢迎使用 Contoso。 您的呼叫对我们非常重要。" 输出由文本到语音软件创建。
+可以为每个自动助理设置工作时间。 如果没有设置营业时间，所有日期以及每天的所有时间均视为营业时间，因为默认情况下设置为全天候时间表。 可以在一天内通过休息时间设置工作时间，并且未设置为工作时间的所有小时都将被认为是在小时后。 你可以设置不同的传入呼叫处理选项和问候语。
 
-* * *
+根据您配置的自动助理和呼叫队列的方式，您可能只需为带有直接电话号码的自动助理指定 "时间后的呼叫路由"。
 
-您可以从 "**发送呼叫**" 部分中选择 "呼叫" 下的 "呼叫" 旁边的内容。 设置为 "**断开连接**"、"**重定向呼叫**" 或 "**播放菜单" 选项**。
+如果需要在下班后呼叫者单独呼叫路由，请指定每天的工作时间。 单击 " **添加新时间** " 以指定给定日期的多个小时集，例如，指定午餐休息时间。
 
-如果您选择 "**断开连接**"，则呼叫者在问候语播放后将断开连接。 
+一旦您指定了您的工作时间，请选择下班后的呼叫路线选项。 相同的选项可用于您在上面指定的工作时间呼叫路由。
 
-<a name="redirectcalls"> </a>
+完成后，单击 " **下一步** "。
 
-![数字4的图标，上一个屏幕截图中的标注 ](media/teamscallout4.png) **重定向呼叫**会将呼叫者发送到所选目的地，而无需选择 "从选项"。 可能的设置包括：
+## <a name="call-flows-during-holidays"></a>假期期间的通话流
 
-  - **组织中的人员**所选帐户必须具有为企业语音启用的电话系统许可证或在 Microsoft 365 或 Office 365 中分配了呼叫计划。 您可以对其进行设置，以便呼叫者可以发送到语音邮件。 选择**组织中的人员**，并将该帐户设置为将呼叫直接转发到语音邮件。
+![](media/auto-attendant-holiday-greeting.png)
 
-    > [!Note]
-    > **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。 选择**组织中的人员**时，您可以选择具有共享邮箱或使用用户邮箱的帐户。
+您的自动助理可以为 [您设置](set-up-holidays-in-teams.md)的每个假日提供一个呼叫流。 可以为每个自动助理添加最多 20 个计划假日。
 
-  - **语音应用**选择已设置的自动助理或呼叫队列。 按与服务关联的资源帐户的名称搜索自动助理或呼叫队列。
-  - **外部电话号码**将呼叫者转接到您指定的外部电话号码。 请注意以下事项：
+1. 在 "假日呼叫设置" 页面上，单击 " **添加**"。
 
-    - 与使 PSTN 传出的应用程序关联的资源帐户必须具有电话号码，并且必须分配有一个虚拟电话系统许可证。 不支持电话系统许可证。 此外，资源帐户必须具有下列其中一项：
-        - 对于带有呼叫计划编号的资源帐户，请分配[呼叫计划](calling-plans-for-office-365.md)许可证。
-        - 对于具有直接路由号码的资源帐户，请分配[联机语音路由策略](manage-voice-routing-policies.md)。
-    - 显示的出站电话号码按如下方式确定：
-        - 对于呼叫计划号码，将显示原始呼叫者的电话号码。
-        - 对于直接路由号码，发送的号码基于 SBC 上的 P 声明标识（PAI）设置，如下所示：
-            - 如果设置为 "已禁用"，将显示原始呼叫者的电话号码。 这是默认和推荐的设置。
-            - 如果设置为 "启用"，则显示资源帐户电话号码。
-    - 不支持在通话计划中继和直接路由中继之间转移。
-  - **语音邮件**选择包含组织中需要访问此自动助理接收的语音邮件的用户的 Microsoft 365 组。 语音邮件将发送到您指定的 Microsoft 365 组。 若要访问语音邮件，组成员可以通过导航到 Outlook 中的组来打开它们。
+2. 键入此假日设置的名称。
 
-      切换**到** **"打开"** 以支持语音语音语音消息。
+3. 从 " **假日** " 下拉列表中，选择要使用的假日。
 
+4. 选择要使用的问候语类型。
 
- * * *
+    ![](media/auto-attendant-holiday-actions.png)
 
-![屏幕截图： "调用处理页面操作" 部分](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
+5. 选择是否要 **断开连接** 或 **重定向** 呼叫。
 
-![数字1的图标，当你选择 "播放菜单" 选项时，上一个屏幕截图中的标注，你 ](media/teamscallout1.png) 可以选择是使用音频文件，还是输入将呈现为文本到语音的文本，以向调用方提供拨号键盘菜单选项。 **Play menu options** 选择此项，而不是 "**重定向**" 或 "**断开连接**" 选项。
+6. 如果您选择重定向，请选择呼叫的呼叫传送目的地。
 
+7. 单击“**保存**”。
 
-![数字2的图标，上一屏幕截图中的标注 ](media/teamscallout2.png) **播放音频文件**，你可以为呼叫者设置提示和选项以供呼叫者选择。 
-- 如果选择 "**播放音频文件**"，你可以使用 "**上传文件**" 按钮上载另存为音频的录制问候语消息。WAV，。MP3 或。WMA 格式。 录制内容不能大于 5 MB。
+![](media/auto-attendant-holiday-call-settings.png)
 
-- **键入问候消息**如果选择此选项，请在提供的字段中输入希望系统读取的文本（最多1000个字符）。 例如，输入 "欢迎使用 Contoso。 您的呼叫对我们非常重要。" 输出由文本到语音软件创建。
+根据需要为每个额外的假日重复该过程。
 
-**设置菜单选项**可以在此对话框中添加或删除电话键盘或语音命令。 若要删除菜单选项，请删除语音命令条目，然后将 "**重定向**" 设置为 "返回" 以**选择**。
+添加完所有假日后，单击 " **下一步**"。
 
-> [!TIP]
-> 当删除选项时，更新菜单提示文本或重新录制音频提示。 为呼叫者播放的菜单提示不会自动更新。  
->
-> 可以按任意顺序添加和删除任何菜单选项，并且键映射不必是连续的。 例如，可以创建一个映射到选项的键为0、1和3的菜单，而不使用键2。
+## <a name="dial-scope"></a>拨号作用域
+
+![](media/auto-attendant-dial-scope.png)
+
+当呼叫者使用按名称拨号或按扩展方式拨号时， *拨号作用域* 定义哪些用户在目录中可用。 **所有联机用户**的默认值包括您的组织中的所有用户，这些用户是使用电话系统许可证的联机用户或使用 Skype For business 服务器内部托管的用户。
+
+通过选择 "**包含**" 或 "**排除**" 下的 "**自定义用户组**"，然后选择一个或多个 Microsoft 365 组、通讯组列表或安全组，可以包含或排除特定用户。 例如，您可能希望从 "拨号目录" 中将组织中的主管排除在您的组织中。
 
 > [!NOTE]
-> 键 \* （重复）和 \# （后退）由系统保留，无法重新分配。 如果启用语音识别，按 * 将与 "重复" 对应，并且 # 将与 "后退" 语音命令对应。
+> 新用户可能需要长达36小时才能在目录中列出其名称。
 
-![数字3的图标，上一个屏幕截图中的标注 ](media/teamscallout3.png) 若要设置菜单选项，请单击 "按 **+ 分配拨号键**"，然后输入以下选项的信息：
+设置完拨号作用域后，单击 " **下一步**"。
 
-![数字4的图标，上一个屏幕截图的 " ](media/teamscallout4.png) **语音命令**" 列中的标注长度最多可为64个字符，并且可以包含多个词语，如 "客户服务" 或 "操作和共线"。   如果启用语音识别，将自动识别名称，并且呼叫者可以按3、说 "三" 或说出 "客户服务" 以选择映射到键3的选项。 此文本还会由用于服务确认提示的文本（如 "将你的呼叫转移到操作员"）呈现为语音。
+## <a name="resource-accounts"></a>资源帐户
 
-![数字5的图标，上一个屏幕截图中的标注 ](media/teamscallout5.png) 。如果按下相应的键，或者使用语音识别选择选项，则调用将转到该选项集的 "**重定向到**" 选项集。 可以将呼叫发送至：
+所有自动助理都必须具有关联的资源帐户。  第一级自动助理至少需要一个具有关联服务号码的资源帐户。 如果需要，您可以将多个资源帐户分配给自动助理，每个帐户都有一个单独的服务编号。
 
-<!-- Is the Operator behavior changing here? Looks like operator is only an available option for dial key 0 -->
+![](media/auto-attendant-add-resource-account.png)
 
-- **运算符**如果已设置操作员，则该选项将自动映射到 key 0，但也可以删除或重新分配给其他密钥。 选择此选项的呼叫者将被发送到指定的操作员。 如果运算符未设置为任何键，则语音命令 "Operator" 也会被禁用。 
-- **组织中的人员**可以是联机用户，也可以是使用 Skype For business 服务器内部托管的用户。 用户必须具有在 Microsoft 365 或 Office 365 中启用企业语音或分配呼叫计划的电话系统许可证。 在 "**按名称搜索**" 字段中搜索人员。
+若要添加资源帐户，请单击 " **添加帐户** "，然后搜索要添加的帐户。 单击 " **添加**"，然后单击 " **添加**"。
 
-- **语音应用**选择已设置的自动助理或呼叫队列。 按与应用程序关联的资源帐户的名称搜索自动助理或呼叫队列。
+![](media/auto-attendant-resource-account-assigned.png)
 
-- **外部电话号码**将呼叫者转接到您指定的外部电话号码。 请注意以下事项：
+添加完服务帐户后，单击 " **提交**"。 这将完成自动助理配置。
 
-    - 与使 PSTN 传出的应用程序关联的资源帐户必须具有电话号码，并且必须分配有一个虚拟电话系统许可证。 不支持电话系统许可证。 此外，资源帐户必须具有下列其中一项：
-        - 对于带有呼叫计划编号的资源帐户，请分配[呼叫计划](calling-plans-for-office-365.md)许可证。
-        - 对于具有直接路由号码的资源帐户，请分配[联机语音路由策略](manage-voice-routing-policies.md)。
-    - 显示的出站电话号码按如下方式确定：
-        - 对于呼叫计划号码，将显示原始呼叫者的电话号码。
-        - 对于直接路由号码，发送的号码基于 SBC 上的 P 声明标识（PAI）设置，如下所示：
-            - 如果设置为 "已禁用"，将显示原始呼叫者的电话号码。 这是默认和推荐的设置。
-            - 如果设置为 "启用"，则显示资源帐户电话号码。
-    - 不支持在通话计划中继和直接路由中继之间转移。
+## <a name="external-phone-number-transfers---technical-details"></a>外部电话号码传输-技术详细信息
 
-- **语音邮件**选择包含组织中需要访问此自动助理接收的语音邮件的用户的 Microsoft 365 组。 语音邮件将发送到您指定的 Microsoft 365 组。 若要访问语音邮件，组成员可以通过导航到 Outlook 中的组来打开它们。
+将呼叫转移到外部电话号码时，与自动助理或呼叫队列关联的资源帐户必须具有电话号码和 Microsoft 365 Phone System-虚拟用户许可证。 进一步
 
-    切换**到** **"打开"** 以支持语音语音语音消息。
+- 对于带有呼叫计划编号的资源帐户，请分配 [呼叫计划](calling-plans-for-office-365.md) 许可证。
+- 对于具有直接路由号码的资源帐户，请分配 [联机语音路由策略](manage-voice-routing-policies.md)。
 
-<!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
-- **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.
-- **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
-- **Group Voicemail** routes the call to a voicemail box that you select.  -->
+显示的出站电话号码按如下方式确定：
 
-![数字6的图标（上一个屏幕截图目录中的标注）在 ](media/teamscallout6.png) 此部分中**搜索**，您可以启用 "**按姓名拨号**" 和 "自动助理的**分机**"。   可以在 "可选拨号作用域" 页面设置这些服务中和不包含的人员。 默认情况下，目录搜索设置为 "**无**"。
+  - 对于呼叫计划号码，将显示原始呼叫者的电话号码。
+  - 对于直接路由号码，发送的号码基于 P 宣称的身份 (PAI 在 SBC 上) 设置，如下所示：
+    - 如果设置为 "已禁用"，将显示原始呼叫者的电话号码。 这是默认和推荐的设置。
+    - 如果设置为 "启用"，则显示资源帐户电话号码。
 
-**按名称拨号**如果启用此选项，则呼叫者可以使用 "**按名称拨号**" 搜索组织中的人员。 他们说出用户的姓名和语音识别将其与用户相匹配。 可以在 "可选拨号作用域" 页面设置这些服务中和不包含的人员。 任何带电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，可通过 "按名称拨号" 找到。
+不支持在通话计划中继和直接路由中继之间转移。
 
+在混合环境中，若要通过 Skype for Business PSTN 集成将自动助理呼叫转移到 PSTN，请使用设置为 PSTN 号码的呼叫转接来创建新的本地用户。 必须为用户启用企业语音并分配语音策略。 若要了解详细信息，请参阅 [自动助理呼叫转接到 PSTN](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
 
-**通过分机号码拨号**如果启用此选项，则呼叫者可以通过输入其电话分机连接到您的组织中的用户。 你可以在 "可选拨号作用域" 页面中选择列为 "可供**拨号**" 或 "不可用" 的用户。 任何具有电话系统许可证的在线用户或使用 Skype for Business Server 本地托管的任何用户都是符合条件的用户，并且可以通过 "通过分机拨入" 找到。
-
-> [!IMPORTANT]
-> 请注意以下事项：
->- 希望可供拨号使用的用户需要将扩展指定为在 Active Directory 或 Azure Active Directory 中定义的以下某个电话属性的一部分（有关详细信息，请参阅 [逐个添加用户或批量添加用户]） https://docs.microsoft.com/microsoft-365/admin/add-users/add-users) 。
->    - HomePhone
->    - 手机/MobilePhone
->    - TelephoneNumber/电话号码
->    - OtherTelephone
->- 在 "用户电话号码" 字段中输入扩展名所需的格式是 " `+<phonenumber>;ext=<extension>` 或" `x<extension>` 。
->- 当前不支持在团队管理中心中分配扩展。 你必须使用[MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell 命令或 Microsoft 365 管理中心。
->- 在对 AAD 电话号码和 MobilePhone 属性的更改可用之前，最多可能需要12小时。
->- 请不要为用户的 LineUri 定义扩展名。 目前不支持这种情况。
->- 自动助理可配置为通过名称拨号或通过分机号码拨号，但不能同时进行这两种操作。
-
-> [!NOTE]
-> 如果想要同时使用 "**按姓名**拨号" 和 "**按分机号码拨号**" 功能，您可以创建主自动助理（**按名称进行拨号**），如果用户知道用户的扩展名，则会提示呼叫者选择菜单选项，并将该选项设置为将呼叫转移到启用了 "通过分机拨号" 的自动助理。
-
-* * *
-
-<!--
-**Instructions for callers** lets you choose **Use recorded call instructions** or **Write your call instructions**.  
-
-If you choose **Use recorded call instructions**, you have the option to record and upload new or prerecorded sound files to play as menu instructions. The same app used in recording the auto attendant greeting is used here.
-
-If you choose **Write your call instructions**, enter the script  you want the system to read (up to 1000 characters). For example, you might enter text that begins "Please choose from one of the following menu options ... " and provide a script written to reflect your configuration.
-* * *  -->
-
-完成选择后，如果要更改高级设置，可以单击 "**下一步**"，如果要使用以下内容的默认设置，请单击 "**提交**"：
-- 下班后的通话流程
-- 假期的通话流程
-- 拨号作用域
-- 资源帐户
-
-由于自动助理需要拥有资源帐户，因此你可以选择继续到 "**资源帐户**" 页面并关联已配置的资源帐户，或者创建资源帐户并将其与自动助理相关联，如 "[管理 Microsoft 团队中的资源帐户](manage-resource-accounts.md)" 中所述。 您将无法使用此自动助理，直到它已与资源帐户相关联。 若要执行此操作，请单击屏幕底部的 "**下一步**" 按钮，然后单击左侧导航中的 "**资源帐户**" 以直接转到 "资源帐户" 页面，并将自动助理与资源帐户相关联。
-
-#### <a name="advanced-settings-optional"></a>高级设置（可选）
-
-你可以配置其他四个屏幕，也可以在你选择的情况中保留默认值。
-
-##### <a name="call-flow-for-after-hours"></a>下班后的通话流程
-
-默认情况下，自动助理的工作时间设置为上午9点，星期一到星期五  <!--24/7-->，并且将禁用*小时通话后*的呼叫流选项，因为所有小时都被视为 "*营业时间*"。 选择 "**设置自定义工作时间**" 选项时，"**时间段后的呼叫流程**" 页面将配置自动助理在下班后使用的呼叫处理规则。 可用的选项是相同的，区别在于为不同的菜单和行为设置计划的能力。
-
-自动助理的系统可能仅需要设置为第一级自动助理的小时调用处理行为。 嵌套的自动助理甚至可能无法由第一级自动助理调用，但系统可以为其使用的每个自动助理定义小时的行为。
-
-最初，营业时间定义为从 12:00 am 开始，到星期日到星期六的 12:00 pm 结束。 工作时间后的所有小时数均被视为*时间*。
-
-
-![下班后通话流设置的屏幕截图](media/aa-afterhour.png)
- * * *
-
-![数字1（前一个屏幕截图中的标注）的图标， ](media/teamscallout1.png) 您可以单击 "**选择 24/7** " 以使该自动助理的所有工时为工作时间。
-
-![数字2的图标，上一个屏幕截图中的标注 ](media/teamscallout2.png) 选择 "**重置为默认值**" 选项以还原计划中的所有更改，并返回到星期五上午 9:00 am 到 5:00 pm 的默认工作时间定义为 am。
-
-![数字3的图标，上一个屏幕截图中的标注 ](media/teamscallout3.png) 选择 "**清除所有小时**" 以完全清除该计划。 不建议选择此项并保留未设置的小时，因此，仅当你想要完全恢复你的工作时间时，请使用此选项。
-
-![数字4的图标，第4个屏幕截图图标中的标注，第一个 ](media/teamscallout4.png) ![ 屏幕截图中的标注 ](media/teamscallout5.png) 自定义一周中某一天的开始或结束时间，单击要重置的 "**开始**" 或 **"结束"** 时间，然后从显示的列表中选择新时间。   该列表允许你按15分钟的间隔选择营业时间，你在此处选择的工作时间基于你在 "**常规信息**" 页面上设置的时区。
-
- <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
-
-![数字6的图标，上一屏幕截图中的标注 ](media/teamscallout6.png) 设置工间休息（例如，午餐休息时间），选择 "为一周的某一天**添加新时间**" 以创建新的表行，然后选择 "新开始时间" 和 "结束时间"。 您可以在营业时间内设置多个工间休息。
-
-小时后可用的[通话流](#call-flow)选项与工作时间内可用的选项相同。 在 "信息输入" 页面上向下滚动以设置时间呼叫流选项。
-
-* * *
-
-完成选择后，单击 "**下一步**"。 您也可以单击左侧导航中的 "**资源帐户**" 直接转到 "资源帐户" 页面，并将自动助理与资源帐户相关联。
-
-##### <a name="call-flow-during-holidays"></a>假期期间的通话流
-
-<a name="holidaygreetings"> </a>
-
-可以为每个自动助理添加最多 20 个计划假日。 您的组织可能已经定义了假日，如在[Microsoft 团队中设置假日](set-up-holidays-in-teams.md)中所述。 如果不是，您将看到以下屏幕： 
-
-![屏幕截图：未配置任何假日](media/aa-no-holidays.png)
-
-![数字1的图标，以前的屏幕截图中的标注 ](media/teamscallout1.png) 若要为自动助理上的假日设置自定义调用流，请单击 " **+ 添加**" "查看**新假日呼叫流程**" 屏幕。
-> [!TIP]
-> 若要创建假日，您可以在**组织范围设置**的假日内转到屏幕  >  **Holidays**。  
-
-
-
-![屏幕截图：添加呼叫处理程序](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
-
-* * *
-
-![数字1的图标，上一个屏幕截图中的标注 ](media/teamscallout1.png) 为新的调用流输入**名称**。
-
-![数字2的图标，上一个屏幕截图中的标注 ](media/teamscallout2.png) 如果你已创建了假日，则会在 "**假日**" 下拉菜单中看到它们，并且可以选择它们。 你可能会看到一个未使用的选项，你可以根据需要进行编辑。 如果不是，请单击下拉列表底部的 "**添加**" 以创建新的假日。  有关用于创建假日的步骤，请参阅[在 Microsoft 团队中设置假日](set-up-holidays-in-teams.md)。 
-
-假日通话流名称最长可以为64个字符，并且对于组织必须是唯一的。 例如，在同一个组织中，您不能有两个假期通话流，名为 "感恩节"。 您的自动助理可以为您设置的每个假日都有一个呼叫流，但您可能希望具有计划的一组通用的行为，而不是自定义的问候语。
-
-![数字3的图标，上一个屏幕截图中的标注 ](media/teamscallout3.png) 。可用于假日呼叫流的[问候语](#call-flow)选项与工作时间内可用的选项相同。 在播放问候语后执行的**操作**也类似，不同之处在于仅有的可用操作是 "**断开连接** **" 或 "重**定向到" 选项，并且当选择 "**重定向到**" 选项时，操作员不是可用选项之一。 您不能设置特定于节日流的菜单。
-
-> [!NOTE]
-> 默认情况下，节假日期间收到的所有通话均设置为在问候语后**断开**（如果有），因此，如果需要自定义行为，则必须指定重定向。
-
-!["假日" 页面期间的通话流的屏幕截图](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
-
-单击 "保存" 以完成假日呼叫流程的创建。 创建假期呼叫流程后，它将显示在 "假日" 屏幕的 "**呼叫流程" 中**。
-
-单击 "设置拨号作用域"，**返回**到 **"在小时**后进行更改"，然后**提交**（如果已完成）。 您也可以单击左侧导航中的 "**资源帐户**" 直接转到 "资源帐户" 页面，并将自动助理与资源帐户相关联。
-
-#### <a name="dial-scope"></a>拨号作用域
-
-<a name="dialscope"> </a>
-
-![显示 "拨号作用域" 页面的屏幕截图](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
-
-在此页面上，您可以设置在您的目录中列出的人员，并可在某人呼叫您的组织时使用 "按名称拨号"。 在以前的屏幕中，按名称拨号将默认设置为 "**关闭**"。 如果之前选择了 "**按分机拨号**"，则所有具有分机的用户都将可用。
-
-![数字1的图标，上一个屏幕截图中的标注 ](media/teamscallout1.png) **包括**本部分中的选项是**所有联机用户**或**自定义用户组**
-
-如果选择 "**所有联机用户**"，则所有符合条件的用户都将包含在目录搜索中。
-
-**自定义用户组**此选项允许你搜索并选择已在你的组织中创建的 Microsoft 365 组、通讯组列表或安全组。 如果用户在所选的 Microsoft 365 组、通讯组列表或安全组中，并且它们是使用**电话系统许可证的在线用户**，或者是使用 Skype For business 服务器内部托管的，则会将用户添加到目录中。 你可以将多个 Microsoft 365 组、通讯组列表和安全组添加到目录中。
-
-<a name="dialscope"> </a>
-
-在此页面上，你可以设置你的组织中的哪些用户将在你的目录中列出，并且当呼叫加入你的组织的人员可以使用名称进行拨号。
-
-![数字2的图标，上一个屏幕截图中的标注将 ](media/teamscallout2.png) **排除**本部分中的选项，使您可以从组织的目录中排除特定用户或用户组。
-
-如果您选择 "**无**"，则所有符合条件的用户都将包含在目录搜索中。
-
-**自定义用户组**你可以搜索在你的组织中创建的 Microsoft 365 组、通讯组列表或安全组。 将从目录搜索中排除该组中的用户。 你可以添加多个 Microsoft 365 组、通讯组列表和安全组。
-
-如果启用 "按名称拨号" 时保留默认设置，则所有符合条件的用户都将包含在目录搜索中。
-
-> [!NOTE]
-> 新用户可能需要长达36小时才能在目录中列出其名称。 当有人通过语音识别按名称使用 "拨号" 时，新帐户可能不能用于此功能。
-
-输入所有必填字段并设置呼叫处理菜单和选项后，单击 "**下一步**" 以继续关联资源帐户。
-
-#### <a name="resource-accounts"></a>资源帐户
-
-所有自动助理都必须具有关联的资源帐户。  第一级自动助理绝对需要至少一个具有关联服务号码的资源帐户。 如果需要，您可以将多个资源帐户分配给自动助理，每个帐户都有一个单独的服务编号。
-
-如果尚未将资源帐户配置为自动助理，您将看到以下屏幕： 
-
-![屏幕截图：可选的资源帐户管理](media/aa-ra-optional.png) 
-
-![数字1的图标，上一个屏幕截图中的标注 ](media/teamscallout1.png) 要将一个或多个现有和未分配的资源帐户添加到自动助理，请单击 "**添加帐户**" 和 "搜索"，然后从提供的对话框中选择它们。
-
-![新的 "助理摘要" 视图的屏幕截图](media/aa-assigned.png)
-
-![数字1的图标，上一个屏幕截图中的标注 ](media/teamscallout1.png) 若要添加其他资源帐户，请单击 " **+ 添加帐户**"。
-
-![数字2的图标，上一个屏幕截图中的标注](media/teamscallout2.png) 分配给此自动助理的资源帐户或帐户显示在列表中。
-
-## <a name="edit-auto-attendants"></a>编辑自动助理
-
-保存新的自动助理后，它将列在 "**自动助理**" 页面上。 该页面允许你快速查看已设置的某些选项，包括名称、关联的资源帐户、语言和已分配的操作员。
-
-![助理列表的屏幕截图](media/aa-list.png)
-
-如果要更改自动助理设置，请选择 "自动助理"，然后在 "操作" 窗格中单击 "**编辑**"。
-
-<!-- To quickly place a test call to your auto attendant, click the **Test** button in the Action pane. -->
-
-<!-- ## Summary view
-
-You can use the Summary page to review the settings you've created.
-
-![screenshot of the new attendant summary view](media/aa-new-summary.png)
-
-Press the **Create** button to finish setup of your new auto attendant. -->
-
-### <a name="create-an-auto-attendant-with-powershell"></a>使用 Powershell 创建自动助理
+### <a name="create-an-auto-attendant-with-powershell"></a>使用 PowerShell 创建自动助理
 
 您也可以使用 PowerShell 创建和设置自动助理。 下面是管理自动助理所需的 cmdlet：
 
@@ -444,19 +234,6 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 - [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
 - [新-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
-### <a name="more-about-windows-powershell"></a>有关 Windows PowerShell 的详细信息
-
-- Windows PowerShell Office 365 的功能是管理用户以及允许或不允许用户执行某些操作。 使用 Windows PowerShell，您可以从单个管理点管理 Microsoft 365 或 Office 365 和 Microsoft 团队，从而简化日常工作。 若要开始使用 Windows PowerShell，请参阅下列主题：
-
-  - [Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-
-  - [为什么要使用 Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
-
-- Windows PowerShell 在速度、简洁性和效率方面具有许多优势，仅限于使用 Microsoft 365 管理中心，例如为多个用户同时进行设置更改。 通过以下主题了解这些优势：
-
-  - [通过 Office 365 PowerShell 管理 Microsoft 365 或 Office 365](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
-
-  - [使用 Windows PowerShell 管理 Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>相关主题
 
@@ -466,8 +243,6 @@ Press the **Create** button to finish setup of your new auto attendant. -->
 
 [音频会议和通话套餐的国家/地区可用性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[小型企业版示例-设置自动助理](/microsoftteams/tutorial-org-aa) 
 
-[什么是云自动助理？](what-are-phone-system-auto-attendants.md)
-
-[小型企业版示例-设置自动助理](/microsoftteams/tutorial-org-aa)  
+[Windows PowerShell 和 Skype for Business Online 简介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
