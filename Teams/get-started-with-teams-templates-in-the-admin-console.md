@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1d206edc7011c8926d32e4a37650d97f80740d1d
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171096"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218573"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理控制台中的团队模板入门
 
@@ -37,7 +37,7 @@ ms.locfileid: "48171096"
 
 团队模板是围绕业务需求或项目设计的团队结构的预建定义。 使用预先构建的模板或创建自己的模板。 团队模板让你可以通过频道快速创建丰富的协作空间，以用于不同的主题和预安装应用以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。 当前，你可以使用团队中的模板或使用 [Microsoft Graph](get-started-with-teams-templates.md)创建团队。
 
-在本文中，我们将介绍可在模板中定义的属性、哪些基本模板类型以及如何使用一些示例请求来从模板创建团队。
+在本文中，我们将介绍可在模板中定义的属性、哪些基本模板类型以及你可以如何使用一些示例请求从模板创建团队。
 
 本文适用于您的情况：
 
@@ -88,7 +88,7 @@ ms.locfileid: "48171096"
 |零售经理协作| `retailManagerCollaboration` |信道 <ul><li>常规<li>运营</li><li>培训</li></ul> 识别 <ul><li>源自</li></ul>|
 ||||
 
-有关模板类别的更多详细信息，请参阅以下内容：
+有关模板类别的更多详细信息，请参阅以下类别：
 
 - [财务模板](financial-teams-templates-in-the-admin-console.md)
 - [常规模板](general-teams-templates-in-the-admin-console.md)

@@ -1,5 +1,5 @@
 ---
-title: 发布拓扑重置池页
+title: 发布拓扑重设池页面
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,25 +8,25 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.PublishTopologyResetPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
-description: 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: 3ebf1094151d4a2ee48bd23e51e09a61ad650119
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 这是初步文档，可能会发生变更。 空白主题作为占位符包含在内。
+ms.openlocfilehash: 5420fae0974a39730663fd7f80267ae497200647
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819374"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217273"
 ---
-# <a name="publish-topology-reset-pool-page"></a>发布拓扑重置池页
+# <a name="publish-topology-reset-pool-page"></a>发布拓扑重设池页面
  
-本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
+这是初步文档，可能会发生变更。 空白主题作为占位符包含在内。
   
-要将新的计算机添加到现有池，必须重置该池以允许 Windows Fabric 重新定义该池的所有成员之间的连接。为此，请选择已向其添加了服务器的池，然后单击“**下一步**”。
+若要将新计算机添加到现有池，您必须重置该池以允许 Windows Fabric 重新定义该池的所有成员之间的连接。 为此，请选择已向其添加了服务器的池，然后单击 " **下一步**"。
   
 ## <a name="see-also"></a>另请参阅
 

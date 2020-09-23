@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
-description: 选择要为前端池启用的每个功能。 必须至少部署即时消息（IM），该消息始终处于启用状态，无法取消选择。 您还可以选择部署其他功能，如 "会议"、"企业语音" 和 "呼叫许可控制（CAC）"。 某些功能依赖于你的拓扑。
-ms.openlocfilehash: 3f97bb6adc854c0366692c44b4ce38cad0fecf99
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 选择要为前端池启用的每个功能。 至少必须部署即时消息 (IM)，IM 始终启用且不能取消选择。 还可以选择部署其他功能，如会议、企业语音以及呼叫允许控制 (CAC)。 某些功能依赖于拓扑。
+ms.openlocfilehash: dc89ee19c9dbed0193a57133e545c82139dd06f0
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820894"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218363"
 ---
 # <a name="add-front-end-features-2010"></a>添加前端功能 2010
 
-选择要为前端池启用的每个功能。 必须至少部署即时消息（IM），该消息始终处于启用状态，无法取消选择。 您还可以选择部署其他功能，如 "会议"、"企业语音" 和 "呼叫许可控制（CAC）"。 某些功能依赖于你的拓扑。
+选择要为前端池启用的每个功能。 至少必须部署即时消息 (IM)，IM 始终启用且不能取消选择。 还可以选择部署其他功能，如会议、企业语音以及呼叫允许控制 (CAC)。 某些功能依赖于拓扑。
 
-有关为标准版服务器或企业版池指定功能的详细信息，请参阅在部署文档中[定义和配置前端池或标准版服务器](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)。
+有关为 Standard Edition server 或 Enterprise Edition 池指定功能的详细信息，请参阅部署文档中的 [定义和配置前端池或 Standard Edition server](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) 。
 
 

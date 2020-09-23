@@ -8,24 +8,24 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithAvMcuPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
-description: A/V 会议支持用户之间的实时音频和视频通信（即，如果他们有合适的客户端设备，例如用于音频会议的耳机和视频会议的网络摄像头）。 如果你的部署支持会议，并且同时启用了 web 会议和 A/V 会议，则可以使用前端服务器 collocate 的 A/V 会议服务器），或者你可以部署一个或多个独立的 A/V 会议服务器（A/V 会议池）。 如果您选择部署独立的 A/V 会议服务器选项，则必须在拓扑生成器中定义它。
-ms.openlocfilehash: 81adb2e51cf026d189315abb45aebaf53bd38670
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: A/V 会议在用户间启用实时音频和视频通信（前提是用户有相应的客户端设备，如用于音频会议的耳麦和用于视频会议的网络摄像机）。 如果您的部署支持会议并且您启用了 Web 会议和 A/V 会议，则可以将 A/V 会议服务器与前端服务器并置，或部署一个或多个独立的 A/V 会议服务器（A/V 会议池）。 如果选择部署独立 A/V 会议服务器的选项，则必须在拓扑生成器中定义它。
+ms.openlocfilehash: a36a2963456c840a842a02285ed39d4de29b3177
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820404"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217763"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>将前端与 AV MCU 关联
  
-A/V 会议支持用户之间的实时音频和视频通信（即，如果他们有合适的客户端设备，例如用于音频会议的耳机和视频会议的网络摄像头）。 如果你的部署支持会议，并且同时启用了 web 会议和 A/V 会议，则可以使用前端服务器 collocate 的 A/V 会议服务器），或者你可以部署一个或多个独立的 A/V 会议服务器（A/V 会议池）。 如果您选择部署独立的 A/V 会议服务器选项，则必须在拓扑生成器中定义它。
+A/V 会议在用户间启用实时音频和视频通信（前提是用户有相应的客户端设备，如用于音频会议的耳麦和用于视频会议的网络摄像机）。 如果您的部署支持会议并且您启用了 Web 会议和 A/V 会议，则可以将 A/V 会议服务器与前端服务器并置，或部署一个或多个独立的 A/V 会议服务器（A/V 会议池）。 如果选择部署独立 A/V 会议服务器的选项，则必须在拓扑生成器中定义它。
   
-如果使用情况不超过 A/V 会议服务器的容量，则站点上的所有池和多个中心网站的池都可以使用相同的 A/V 会议服务器。 
+如果使用率不超过 A/V 会议服务器的容量，则站点上的所有池和多个中央站点的池都可以使用相同的 A/V 会议服务器。 
   
 

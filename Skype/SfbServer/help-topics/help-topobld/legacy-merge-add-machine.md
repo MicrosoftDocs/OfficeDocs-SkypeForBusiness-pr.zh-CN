@@ -8,22 +8,22 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.LegacyMergeAddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
-description: 要定义组成边缘服务器池的计算机，请输入至少一台作为旧版负载平衡合并边缘池一部分的计算机的完全限定域名 (FQDN)。
-ms.openlocfilehash: 80e078b9555c56121c6f21c13152f6e437369b5b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 若要定义组成边缘服务器池的计算机，请输入至少一台计算机的完全限定的域名 (FQDN) ，该计算机属于旧版负载平衡的统一边缘池。
+ms.openlocfilehash: b303a9b5e083e3646f3e39e74782d4810d3d473c
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819774"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48218483"
 ---
 # <a name="legacy-merge-add-machine"></a>旧版合并添加计算机
  
-要定义组成边缘服务器池的计算机，请输入至少一台作为旧版负载平衡合并边缘池一部分的计算机的完全限定域名 (FQDN)。 
+若要定义组成边缘服务器池的计算机，请输入至少一台计算机的完全限定的域名 (FQDN) ，该计算机属于旧版负载平衡的统一边缘池。 
   
 

@@ -1,5 +1,5 @@
 ---
-title: 适合于 Lync Server for 2010 的注册器设置扩展器
+title: Lync Server for 2010 的注册器设置扩展器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,32 +8,32 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
-description: 编辑复原设置并配置以下属性：
-ms.openlocfilehash: adc3d3f0be42d542583cf269a7acf83d98df8dd7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 编辑“复原”的设置并配置以下属性：
+ms.openlocfilehash: 4271203bf9f737034796cc3b74c95836480df521
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819334"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217173"
 ---
-# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>适合于 Lync Server for 2010 的注册器设置扩展器
+# <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Lync Server for 2010 的注册器设置扩展器
  
-编辑**复原**设置并配置以下属性：
+编辑“复原”**** 的设置并配置以下属性：
   
-- 从列表中选择**关联的备份注册机构池**。
+- 从列表中选择“关联的备份注册器池”****。
     
-    （可选）选中 "**自动故障转移和语音故障回复**功能" 复选框。
+    或者，选中“语音的自动故障转移和故障回复”**** 复选框。
     
-    配置**语音故障检测间隔（秒）** 和**语音回切间隔（秒）**。 默认情况下，语音故障回复的时间间隔为120秒，语音故障回复的240秒。
+    配置“语音故障检测间隔(秒)”**** 和“语音故障回复间隔(秒)”****。默认情况下，语音故障检测间隔为 120 秒，语音故障回复间隔为 240 秒。
     
     > [!CAUTION]
-    > 你为故障转移和故障回复间隔定义的秒数应该经过仔细测试，以确保复原功能按预期工作。 将间隔设置为 low （即小于120秒）或故障转移和故障回复的设置可能会导致实际故障转移和故障回复未按预期工作。 
+    > 为故障转移和故障回复间隔定义的秒数应谨慎测试，以确保恢复按预期运行。将间隔设置为低（即低于 120 秒）或故障转移和故障回复太密可能会导致实际故障转移和故障回复不能按预期运行。 
   
   **确定** 接受更改并通过对话框提交更改。
   

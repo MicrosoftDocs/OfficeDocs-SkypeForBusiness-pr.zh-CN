@@ -1,5 +1,5 @@
 ---
-title: 添加存档服务器 SQL Server 存储
+title: 添加存档 SQL Server 存储
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,28 +8,28 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
-description: 存档服务器需要支持的 SQL Server 数据库软件的64位版本才能存储存档数据。 你可以选择要用于存档的以前定义的 SQL Server 数据库，也可以通过指定 SQL Server 数据库将驻留的服务器的完全限定的域名（FQDN）和 SQL Server 实例（该 sql Server 的 SQL Server 实例）来定义新的 sql server 数据库。你想要用于新的 SQL Server 数据库（它可以是你指定的默认实例或命名实例）。
-ms.openlocfilehash: d4fcb526abf0eb1ef961f5790b574a9f30a80b87
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 存档服务器需要一个受支持的 SQL Server 数据库软件的64位版本来存储存档数据。 通过指定 SQL Server 数据库将驻留的服务器的完全限定域名 (FQDN) ，以及要用于新 SQL Server 数据库的 SQL Server 实例，可以选择以前定义的 SQL Server 数据库，以便将其用于存档或定义新的 SQL server 数据库 (该数据库可以是您指定的默认实例或命名实例的) 。
+ms.openlocfilehash: eb25152916c61ff40274705a408fe0a7a618cbcc
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41821284"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217433"
 ---
-# <a name="add-archiving-server-sql-server-store"></a>添加存档服务器 SQL Server 存储
+# <a name="add-archiving-server-sql-server-store"></a>添加存档 SQL Server 存储
 
-存档服务器需要支持的 SQL Server 数据库软件的64位版本才能存储存档数据。 你可以选择要用于存档的以前定义的 SQL Server 数据库，也可以通过指定 SQL Server 数据库将驻留的服务器的完全限定的域名（FQDN）和 SQL Server 实例（该 sql Server 的 SQL Server 实例）来定义新的 sql server 数据库。你想要用于新的 SQL Server 数据库（它可以是你指定的默认实例或命名实例）。
-
-> [!NOTE]
-> 如果用于发布拓扑的帐户具有相应的用户权利和权限，则可以在发布拓扑时创建存档数据库（LcsLog）。 你还可以稍后创建数据库，作为安装过程的一部分或其他方式。
+存档服务器需要一个受支持的 SQL Server 数据库软件的64位版本来存储存档数据。 通过指定 SQL Server 数据库将驻留的服务器的完全限定域名 (FQDN) ，以及要用于新 SQL Server 数据库的 SQL Server 实例，可以选择以前定义的 SQL Server 数据库，以便将其用于存档或定义新的 SQL server 数据库 (该数据库可以是您指定的默认实例或命名实例的) 。
 
 > [!NOTE]
-> 若要在基于 SQL Server 的服务器上安装和部署数据库以用于存档，您必须是要在其中安装数据库文件的基于 SQL Server 的服务器的 SQL Server sysadmin 组的成员。 如果您不是 SQL Server sysadmin 组的成员，则必须请求将其添加到组中，直到部署数据库文件。 如果你不能成为 sysadmin 组的成员，你应该向 SQL Server 数据库管理员提供用于配置和部署数据库的脚本。 有关完成这些步骤所需的用户权限和权限的详细信息，请参阅部署文档中的[SQL Server 部署权限](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx)。
+> 如果用于发布拓扑的帐户具有相应的用户权限，则您可以在发布拓扑时创建存档数据库 (LcsLog)。也可以稍后在安装过程中或其他操作过程中创建数据库。
+
+> [!NOTE]
+> 若要在基于 SQL Server 的服务器上安装和部署数据库以进行存档，您必须是要在其中安装数据库文件的基于 SQL server 的服务器的 SQL Server sysadmin 组的成员。 如果您不是 SQL Server sysadmin 组的成员，则必须请求将添加到组中，直到部署数据库文件。 如果不能成为 sysadmin 组的成员，则应为 SQL Server 数据库管理员提供用于配置和部署数据库的脚本。 有关完成这些过程所需的用户权限的详细信息，请参阅部署文档中的[Deployment Permissions for SQL Server](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx)。
 
 

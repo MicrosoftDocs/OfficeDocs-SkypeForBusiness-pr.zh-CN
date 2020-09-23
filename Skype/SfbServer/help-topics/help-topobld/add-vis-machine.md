@@ -1,5 +1,5 @@
 ---
-title: 添加 VIS 计算机
+title: 添加 VIS 机器
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -8,31 +8,31 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.AddVisMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
-description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 Skype for Business Server 2015 中的 "创建 VIS" 池进行联机描述。
-ms.openlocfilehash: 48403f5c277fbe1bed5e2f9abd18d5c4af16fca8
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 Skype for Business Server 2015 中的 Create a VIS pool online 中进行了说明。
+ms.openlocfilehash: 351f26a1f7a52af0347034176ad6728773688a1b
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41820514"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216913"
 ---
-# <a name="add-vis-machine"></a>添加 VIS 计算机
+# <a name="add-vis-machine"></a>添加 VIS 机器
  
-在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在[Skype For Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)中的 "创建 VIS" 池进行联机描述。
+在拓扑生成器中定义新的 VIS 或视频网关所需的步骤在 [Skype For Business Server 2015 中的 Create a VIS pool](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)online 中进行了说明。
   
-在使用 Windows PowerShell 的服务器上分配视频互操作服务器角色所需的步骤在[Skype For Business server 2015 中的部署 VIS 服务器角色中](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)进行了联机介绍。
+在使用 Windows PowerShell 的服务器上分配视频互操作服务器角色所需的步骤将在[Deploy THE VIS server role In Skype For Business server 2015 中](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)联机说明。
   
-有关使用 Windows PowerShell 的新视频互操作服务器的配置步骤，请参阅在[Skype For Business server 2015 中配置视频互操作服务器](../../deploy/deploy-video-interop-server/configure-the-vis.md)。
+有关使用 Windows PowerShell 的新视频互操作服务器的配置步骤，请参阅在 [Skype For Business server 2015 中配置视频互操作服务器](../../deploy/deploy-video-interop-server/configure-the-vis.md)。
   
- 要在 Cisco GUI 中为与 VIS 互操作而设置的视频网关设置，请在配置 CUCM 上联机描述[与 Skype for Business Server 2015 的互操作](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。
+ 需要在 Cisco GUI 中设置的用于与 VIS 互操作的视频网关的设置将在 Configure CUCM 中联机说明为 [与 Skype for Business Server 2015 进行互操作](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。
   
- 为与视频网关和 VIS 进行互操作时需要在 Cisco GUI 中设置的 VTC 的设置在[配置 VTC 与 Skype for Business Server 2015 进行互操作](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)时进行介绍。
+ 需要在 Cisco GUI 中设置的用于与视频网关和 VIS 进行互操作的 VTC 的设置在 [配置 VTC 与 Skype for Business Server 2015 进行互操作](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)性说明中进行联机说明。
   
 ## <a name="see-also"></a>另请参阅
 

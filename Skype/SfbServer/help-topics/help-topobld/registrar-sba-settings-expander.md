@@ -8,32 +8,32 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.RegistrarSBASettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
-description: 编辑复原设置并配置以下属性：
-ms.openlocfilehash: b5c5982dc0a49d1d2002465f4f7a2c6381dd5370
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 编辑“复原”的设置并配置以下属性：
+ms.openlocfilehash: 6424b43ea7c56760bb8d58ee35d9804c49c435dd
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819344"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48217213"
 ---
 # <a name="registrar-sba-settings-expander"></a>注册器 SBA 设置扩展器
 
-编辑**复原**设置并配置以下属性：
+编辑“复原”**** 的设置并配置以下属性：
 
-- 从列表中选择**关联的用户服务和备份注册机构池**。
+- 从列表选择“关联的用户服务和备份注册器池”****。
 
-    （可选）选中 "**自动故障转移和语音故障回复**功能" 复选框。
+    或者，选中“语音的自动故障转移和故障回复”**** 复选框。
 
-    配置**语音故障检测间隔（秒）** 和**语音回切间隔（秒）**。 默认情况下，语音故障回复的时间间隔为120秒，语音故障回复的240秒。
+    配置“语音故障检测间隔(秒)”**** 和“语音故障回复间隔(秒)”****。默认情况下，语音故障检测间隔为 120 秒，语音故障回复间隔为 240 秒。
 
     > [!CAUTION]
-    > 你为故障转移和故障回复间隔定义的秒数应该经过仔细测试，以确保复原功能按预期工作。 将间隔设置为 low （即小于120秒）或故障转移和故障回复的设置可能会导致实际故障转移和故障回复未按预期工作。
+    > 为故障转移和故障回复间隔定义的秒数应谨慎测试，以确保恢复按预期运行。将间隔设置为低（即低于 120 秒）或故障转移和故障回复太密可能会导致实际故障转移和故障回复不能按预期运行。
 
   **确定** 接受更改并通过对话框提交更改。
 
@@ -43,4 +43,4 @@ ms.locfileid: "41819344"
 
 ## <a name="see-also"></a>另请参阅
 
-[规划企业语音弹性](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[规划企业语音恢复能力](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
