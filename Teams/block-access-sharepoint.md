@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何阻止特定用户对 SharePoint 的访问
-ms.openlocfilehash: a2cfdb938dc11d38303df59061db1c46e5b08fcc
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: edcdb8286ff69557215a0e481b12e67b81f440fe
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135926"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203835"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>阻止特定用户对 SharePoint 的访问
 
@@ -40,7 +40,7 @@ ms.locfileid: "48135926"
 
 当访问被阻止时，用户将看到一条错误消息。 阻止访问有助于提供安全性和保护安全数据。 当访问被阻止时，用户将看到一条错误消息。
 
-1. 打开 "SharePoint [管理中心](https://admin.microsoft.com/sharepoint?page=accessControl&modern=true)"。
+1. 打开 "SharePoint 管理中心"。
 
 2. 展开 "**策略**  >  **访问策略**"。
 

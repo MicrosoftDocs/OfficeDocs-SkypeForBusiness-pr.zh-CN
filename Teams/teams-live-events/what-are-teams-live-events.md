@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088643de889ee27d717d167b6166b9a43ec69256
-ms.sourcegitcommit: a73df97a06ea860bfaf5387e0acbf3c724697e14
+ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "44902287"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203955"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
@@ -42,13 +42,13 @@ Microsoft 365 实时事件将实时视频流转到新的级别，在整个服务
 ![显示实时事件的关键组件的图表](../media/teams-live-events.png  "图表显示实时事件、计划、生产、流平台、经过认证的第三方 eCDN 提供商的关键组件")
 
 ### <a name="event-group-roles"></a>事件组角色
-团队中的实时事件使多个角色（组织者、制造者、演示者和与会者）能够成功广播和参与事件。 若要了解详细信息，请参阅[事件组角色](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)。
+团队中的实时事件使多个角色 (组织者、制造者、演示者和与会者) 成功广播并参与事件。 若要了解详细信息，请参阅 [事件组角色](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles)。
 
 ## <a name="key-components"></a>关键组件
 您可以从上面的图片中看到，有四个关键组件与团队中的实时事件一起使用。
 
 > [!NOTE]
-> 有关如何设置实时事件和与会者体验的概述，请查看这些简短[视频](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)。
+> 有关如何设置实时事件和与会者体验的概述，请查看这些简短 [视频](https://support.office.com/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)。
 
 ### <a name="scheduling"></a>级
 团队使组织者能够使用相应的与会者权限创建事件、指定事件团队成员、选择生产方法和邀请与会者。 如果实时事件是从 Yammer 组内创建的，则实时事件参与者将能够使用 Yammer 对话与事件中的人员交互。 
@@ -62,24 +62,27 @@ Microsoft 365 实时事件将实时视频流转到新的级别，在整个服务
 
     ![显示使用 "快速入门" 方法生成的实时事件的屏幕截图](../media/teams-live-events-quick-start.png "屏幕截图显示使用快速入门生产方法生成的实时事件")
 
-- **外部应用或设备**：外部编码器允许用户直接从具有[流](https://stream.microsoft.com)的外部硬件或基于软件的编码器生成实时事件。 如果你已经有了 studio 质量的设备（例如 media mixers），并且支持实时消息传递协议（RTMP）服务流，则此选项最适用。 这种类型的生产通常在大规模事件中使用，如 executive 城镇 halls-将媒体混合器中的单个流广播给观众。 
+- **外部应用或设备**：外部编码器允许用户直接从具有 [流](https://stream.microsoft.com)的外部硬件或基于软件的编码器生成实时事件。 如果你已经有了录音室 quality 设备，则最好使用此选项 (例如，media mixers) 支持 (RTMP) 服务流的实时消息传递协议。 这种类型的生产通常在大规模事件中使用，如 executive 城镇 halls-将媒体混合器中的单个流广播给观众。 
 
     ![显示使用外部应用或设备生成的实时事件的屏幕截图](../media/teams-live-events-external-encoder.png "显示使用外部应用或设备生产方法生成的实时事件的屏幕截图")
+
+>[!Note]
+> 从使用 Microsoft Stream 到 [OneDrive for business 和 SharePoint for 会议录制](../tmr-meeting-recording-change.md) 的更改将是一种分阶段方法。 在启动时，你可以选择加入此体验，在11月内，你将必须选择退出，如果你想要继续使用流，并且在2021的早期，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 ### <a name="streaming-platform"></a>流式处理平台
 实时事件流平台由以下部分组成：
 
-- **Azure 媒体服务**： [azure 媒体服务](https://docs.microsoft.com/azure/media-services/previous/)为你提供了一种广播质量的视频流服务，可在当今最常用的移动设备上与更大的受众联系。 媒体服务增强了辅助功能、分发和可伸缩性，并让您能够轻松、经济高效地将内容流式传输给您的本地或全球受众，同时保护内容。
-- **Azure 内容交付网络（CDN）**：一旦你的流投入使用，它将通过[Azure 内容交付网络（cdn）](https://docs.microsoft.com/azure/cdn/)进行传递。 Azure 媒体服务为流式处理终结点提供集成的 CDN。 这允许在全球查看流，无缓冲。
+- **Azure 媒体服务**：  [azure 媒体服务](https://docs.microsoft.com/azure/media-services/previous/) 为你提供了一种广播质量的视频流服务，可在当今最常用的移动设备上与更大的受众联系。 媒体服务增强了辅助功能、分发和可伸缩性，并让您能够轻松、经济高效地将内容流式传输给您的本地或全球受众，同时保护内容。
+- **Azure 内容交付网络 (CDN) **：一旦你的流投入使用，它将通过 [Azure 内容交付网络 (CDN) ](https://docs.microsoft.com/azure/cdn/)提供。 Azure 媒体服务为流式处理终结点提供集成的 CDN。 这允许在全球查看流，无缓冲。
 
-### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络（eCDN）
+### <a name="enterprise-content-delivery-network-ecdn"></a>企业内容交付网络 (eCDN) 
 ECDN 的目标是从 internet 获取视频内容，并在整个企业中分发内容，而不会影响网络性能。 您可以使用以下认证的 eCDN 合作伙伴之一来优化您的网络，以便在您的组织内保持实时事件：
 - [配置单元](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [渐变](https://rampecdn.com)
 
 ### <a name="attendee-experience"></a>与会者体验 
-与会者体验是实时事件的最重要的方面，并且很重要的是与会者无需任何问题即可参与实时事件。 与会者体验使用流式播放机（适用于团队中生成的事件）和 Azure 媒体播放器（对于在外部应用或设备中生成的事件），并跨桌面、浏览器和移动设备（iOS、Android）工作。 Microsoft 365 和 Office 365 将 Yammer 和团队作为两个协作中心提供，并将实时与会者体验集成到这些协作工具中。 
+与会者体验是实时事件的最重要的方面，并且很重要的是与会者无需任何问题即可参与实时事件。 对于在外部应用或设备中生成的事件，与会者体验使用流播放器 (为团队) 和 Azure Media Player () 并在桌面版、浏览器和移动 (iOS) 上工作。 Microsoft 365 和 Office 365 将 Yammer 和团队作为两个协作中心提供，并将实时与会者体验集成到这些协作工具中。 
 
 ![显示实时事件与会者体验的屏幕截图](../media/teams-live-events-attendee.png "显示实时事件与会者体验的屏幕截图")
 
@@ -87,7 +90,7 @@ ECDN 的目标是从 internet 获取视频内容，并在整个企业中分发�
 租户管理员可在 Microsoft 团队管理中心中查看实时事件的实时使用情况分析。  [实时事件使用情况报表](../teams-analytics-and-reports/teams-live-event-usage-report.md)显示组织中保留的实时事件的活动概述。  管理员可以查看事件使用信息，包括事件状态、开始时间、视图和生产类型。  
 
 ## <a name="next-steps"></a>后续步骤
-转到 "[规划团队实时事件](plan-for-teams-live-events.md)"。
+转到 " [规划团队实时事件](plan-for-teams-live-events.md)"。
 
 ### <a name="related-topics"></a>相关主题
 - [Yammer、Microsoft 团队和 Microsoft Stream 中跨 Microsoft 365 的实时事件](https://docs.microsoft.com/stream/live-event-m365)

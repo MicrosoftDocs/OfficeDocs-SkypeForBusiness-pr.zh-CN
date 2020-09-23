@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 1740e36c496b4df4df796d00d2be6a644ae0933b
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177433"
+ms.locfileid: "48209481"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 上的团队会话
 
@@ -23,7 +23,7 @@ ms.locfileid: "48177433"
 |[使用 Microsoft 团队创建弹性工作区、包含和混合工作区](https://aka.ms/DB156) |组织将迁移到混合工作区，以支持远程和现场员工的需求。 在2部分系列的第1部分中，我们将展示团队如何通过团队会议、虚拟事件和通话以及新的设备体验保持连接。 我们还将介绍团队平台如何帮助精简工作流、改进决策制定和直接在团队中集成你的应用程序生态系统。 <br> 此外，请查看本系列的第2部分，即会话代码 DB158。|Nicole Herskowitz                 |
 |[通过 Microsoft 团队会议实现更智能、保持关注和实现更多功能](https://aka.ms/DB151)  |会议是完成工作的基础。 了解团队会议可如何帮助你和你的组织提高工作效率，同时适应新的工作方式。  |Shiraz Cupala|
 |[Microsoft 团队通话变得更简单](https://aka.ms/DB149)  |团队中的企业通话易于部署和使用。 了解团队通话的基础知识，同时查找最新的通话体验，如新的通话体验和协作通话。 |Paul 无法、刘娜 Kramer、圣巴巴拉 Kim|
-|[管理员可通过一个位置管理 Microsoft 团队：团队可管理性的新增功能](https://aka.ms/DB144) |团队管理员具有灵活且精细的管理功能，可为组织的自定义体验创建最能满足企业需求的自定义体验。 在此会话中，我们将介绍团队管理中心门户的最新功能和最新功能，讨论策略、应用管理、设备管理、报告、分析和疑难解答以及 Powershell 中的新增功能。 |Ronit Ben-Sheffer，晓明 Stark|
+|[管理员可通过一个位置管理 Microsoft 团队：团队可管理性的新增功能](https://aka.ms/DB144) |团队管理员具有灵活且精细的管理功能，可为组织的自定义体验创建最能满足企业需求的自定义体验。 在此会话中，我们将介绍团队管理中心门户的最新功能和最新功能，讨论策略、应用管理、设备管理、报告、分析和疑难解答以及 PowerShell 中的新增功能。 |Ronit Ben-Sheffer，晓明 Stark|
 |[通过 Microsoft 团队缩放和自定义虚拟会议和事件](https://aka.ms/DB138) |会议的所有形状和大小-了解如何最充分利用团队来构建和管理您的下一次大型事件。 团队可以与组织的需求无缝伸缩，从而为各种规模的事件提供自定义和提供最佳与会者体验的方法。  |Christina Torok, Ashwin Appiah|
 |[使用 Microsoft 团队设备跨混合工作区进行强大的新式会议体验](https://aka.ms/DB147) |Microsoft 团队设备简介。 团队设备旨在帮助用户最大限度地提高团队的能力，并弥补远程和共享工作区之间的差距。 了解旨在提供以人为中心的会议室体验和重新想象个人工作区的设备，从而实现 Microsoft 团队设备的更多包容和协作体验。  |Kendra 面包师，Greg Baribault|
 |[通过 Microsoft 团队平台转换新式工作场所](https://aka.ms/DB157) |了解团队平台中的所有新的和现有的扩展性点，以及如何创建强大的应用和解决方案来解决你的业务需求。|Archana Saseetharan, Michal Lesiczka|
@@ -55,7 +55,7 @@ ms.locfileid: "48177433"
 | 标题 | 抽象化            | 等级| 说话 |
 |---|----------|---|---|---|
 |[利用虚拟事件推动采纳：组织者和制造商的最佳做法](https://aka.ms/PR101)|此真实的经验教训讲座将回顾活动组织者和 IT 专业人员的虚拟事件行动手册。  了解在 pandemic 的初始阶段，从 Karuana Gatimu 中了解需要了解的有关 Microsoft 团队工程的重要旗舰活动的技术发生器。   收听从 Microsoft 过渡到虚拟事件的指南，以及如何使用团队会议和实时事件来提供可使组织保持连接的有说服力的事件。  |300|Karuana Gatimu, Ashwin Appiah|
-|[Office 365 组和 Microsoft 团队的管理深入了解](https://aka.ms/PR102)|查看管理 capabilties 和工具的演示，这些工具可管理 Microsoft 团队的最终用户体验，并使你能够自信地了解你的信息的安全和合规性。 包括 Azure 活动控制器附加功能的配置。 |300|Karuana Gatimu|
+|[Office 365 组和 Microsoft 团队的管理深入了解](https://aka.ms/PR102)|了解管理功能和工具的演示，这些功能和工具将管理 Microsoft 团队的最终用户体验，并让你确信你的信息的安全和合规性。 包括 Azure 活动控制器附加功能的配置。 |300|Karuana Gatimu|
 |[推动行业采纳-一线、非盈利性、医疗保健和其他方面的特殊方案和功能。](https://aka.ms/PR121)|在此方案驱动的会话中，我们将查看必须在其上交付的 IT 专业人员上下文中的现有功能和新功能。  包括最终用户和 ITPro 模板、移动功能|200|Karuana Gatimu, Kathy Minnis|
 |[您是否已准备好部署 Microsoft 团队？](https://aka.ms/PR127) |在此会话中，我们将向你介绍可帮助你确保团队推出成功的所有关键产品和资源。 从工具和资源到最佳做法，如果团队的规划和部署是在待办事项列表中，则必须出席此讲座！|300|Stephen 玫瑰|
 |[团队部署和 Microsoft 终结点管理器](https://aka.ms/PR122)|查看有关最佳做法的演示，以帮助你通过终结点管理器部署和管理 Microsoft 团队|300|Mayunk Jain, Mayank Verma|

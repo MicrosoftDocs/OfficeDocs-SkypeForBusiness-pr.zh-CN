@@ -17,12 +17,12 @@ description: 在 Teams 中为实时事件进行设置，包括设置网络、分
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b41d48ec05eb6d5bfbbb8ea12475418d0f72bc21
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 0e2d35152ae8a840a6e0c0943144380e7169fe8b
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820526"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203935"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中为实时事件进行设置
 
@@ -79,7 +79,10 @@ ms.locfileid: "47820526"
 
 1. 为组织中的用户启用 Microsoft Stream。 流可作为符合条件的 Microsoft 365 或 Office 365 订阅的一部分，或用作独立服务。 Stream 未包含在商业协作版或商业高级版计划中。 有关详细信息，请参阅 [Stream 许可概述](https://docs.microsoft.com/stream/license-overview)。
 
-      了解有关如何 [为用户分配许可证](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) 以便用户可以访问流的详细信息。 请确保不会阻止用户使用 Stream，正如[此文](https://docs.microsoft.com/stream/disable-user-organization)中所述。
+>[!Note]
+> 从使用 Microsoft Stream 到 [OneDrive for business 和 SharePoint for 会议录制](../tmr-meeting-recording-change.md) 的更改将是一种分阶段方法。 在启动时，你可以选择加入此体验，在11月内，你将必须选择退出，如果你想要继续使用流，并且在2021的早期，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+
+      Learn more about how you can [assign licenses to users](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) so that users can access Stream. Ensure Stream isn't blocked for the users as defined in [this article](https://docs.microsoft.com/stream/disable-user-organization).
 
 2. 确保用户在 Stream 中具有实时事件创建权限。 默认情况下，管理员可以使用外部应用或设备创建事件。 Stream 管理员可以在 Stream 中[允许其他用户创建实时事件](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)。  
 

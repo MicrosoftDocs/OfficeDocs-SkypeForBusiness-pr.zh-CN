@@ -23,13 +23,14 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
+ROBOTS: NOINDEX, NOFOLLOW
 description: 了解云自动助理以及如何使用它们让呼叫者在菜单系统中移动，以找到并将呼叫放入或转移到用户或部门。
-ms.openlocfilehash: 88b1a67c1438efb5ef1113999feeffd9735f293f
-ms.sourcegitcommit: eb8b573a426b6a68c763968c4cd2d45bc0d6a4b4
+ms.openlocfilehash: c4bfbd8e56a64105fe1ee00409cf016976c8bb81
+ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "46672833"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48209491"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>什么是云自动助理？
 

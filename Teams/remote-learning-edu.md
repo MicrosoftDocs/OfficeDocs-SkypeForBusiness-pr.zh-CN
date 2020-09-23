@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b264d55c023829cec3d91f3d975f2328a6089c72
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 38b600a259da1d067cc0a2553f1f99800ef9edf3
+ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820596"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "48171106"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>开始使用 Microsoft Teams 进行远程学习
 
@@ -87,7 +87,7 @@ Microsoft Teams 包含在 Office 365 A1 中，该功能对教育机构是免费�
 ### <a name="2-configure-user-experiences-using-policies"></a>2. 使用策略配置用户体验
 
 > [!IMPORTANT]
-> 如果需要深入了解如何在会议期间保护学生，请参阅[使用 Teams 会议进行远程学习时保证学生安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。 若要深入了解我们的管理员 EDU 策略建议，请转到 [Teams 教育专用策略和策略包](policy-packages-edu.md)。
+> 要深入了解需要采取哪些行动来保护学生，请参阅[Teams 远程学习时保证学生安全](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8)。 若要深入了解我们的管理员 EDU 策略建议，请转到 [Teams 教育专用策略和策略包](policy-packages-edu.md)。
 
 [Teams 策略](teams-policies.md)可用于控制可向特定用户或用户组提供的选项。 通过应用策略，可以定义允许哪些用户使用私人聊天、私人呼叫、会议安排以及可共享的内容类型等。
 

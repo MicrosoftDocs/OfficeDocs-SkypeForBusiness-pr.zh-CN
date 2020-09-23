@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 了解如何使用内置选项卡和自定义选项卡来包括对话、文件、地图等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ed9b1048eae307eaba0dcb5463cee15dac981db
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581353"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203715"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft Teams 中使用内置选项卡和自定义选项卡
 ==================================================
@@ -31,6 +31,9 @@ ms.locfileid: "46581353"
 所有者和团队成员可以向频道、私人聊天和群组聊天中添加选项卡，以帮助集成其云服务。 可添加选项卡以帮助用户轻松访问和管理他们需要的数据或与大多数用户进行交互。 这可以是 Power BI 报表、仪表板，甚至可以是 [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) 视频频道，你可以在此发布培训视频。
 
 ![三个显示选项卡中各种内容的屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+
+>[!Note]
+> 从使用 Microsoft Stream 到 [OneDrive for business 和 SharePoint for 会议录制](tmr-meeting-recording-change.md) 的更改将是一种分阶段方法。 在启动时，你可以选择加入此体验，在11月内，你将必须选择退出，如果你想要继续使用流，并且在2021的早期，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 ## <a name="work-with-tabs"></a>使用选项卡
 
@@ -43,13 +46,13 @@ ms.locfileid: "46581353"
 
 - 所有者和团队成员可以通过单击**Add a tab** ![ "添加选项卡" 按钮的选项卡屏幕截图（显示一个 + 符号），将更多选项卡添加到频道或聊天。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 在频道或聊天的顶部。
 
-- Excel、PowerPoint、Word 和 PDF 文件必须先上载到 "**文件**" 选项卡，然后才能转换为选项卡。 任何现有的上载文件都可以通过单击转换为选项卡，如下所示。
+- Excel、PowerPoint、Word 和 PDF 文件必须先上载到 " **文件** " 选项卡，然后才能转换为选项卡。 任何现有的上载文件都可以通过单击转换为选项卡，如下所示。
 
     ![选择了一个 PowerPoint 文件的“文件”选项卡屏幕截图。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-- 若要添加网站，URL 必须以**https**前缀开头，以便交换的信息保持安全。
+- 若要添加网站，URL 必须以 **https** 前缀开头，以便交换的信息保持安全。
 
-- 当团队成员尝试向其频道或聊天添加自定义选项卡时，将提供详细说明。 将自定义选项卡添加到频道时，将创建一个**选项卡对话**，允许团队成员对内容进行重点讨论。
+- 当团队成员尝试向其频道或聊天添加自定义选项卡时，将提供详细说明。 将自定义选项卡添加到频道时，将创建一个 **选项卡对话** ，允许团队成员对内容进行重点讨论。
 
     ![右侧有选项卡对话的自定义选项卡的屏幕截图](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 

@@ -20,12 +20,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 44be05a7ae1b449e0b267bb0e4ed107c40877f27
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171116"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48216693"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>在管理控制台中使用常规团队模板
 
@@ -81,7 +81,7 @@ ms.locfileid: "48171116"
 
 ## <a name="onboard-employees"></a>板载员工
 
-通过此中心团队改进您的文化，为您的资源、问题和乐趣，简化您的员工加入。
+利用此中心团队改进您的文化，为您的资源、问题和乐趣，简化您的工作。
 
 | 基本模板类型 |baseTemplateId | 此基本模板附带的属性 |
 | ------------------|- |----------------------------------------------------- |

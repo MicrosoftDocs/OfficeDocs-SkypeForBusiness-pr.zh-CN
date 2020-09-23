@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f330b183a02654f6c56cad27332fcc9ed81d93f4
-ms.sourcegitcommit: 343756f70480f5e2f8f6486f8651affac8d2004f
+ms.openlocfilehash: 351a15172b121f0bb937630747d7d0e61b80b96c
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "46542864"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203815"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>适用于 Microsoft 团队的高级通信加载项
 
@@ -41,15 +41,15 @@ ms.locfileid: "46542864"
 高级通信可在所有 Microsoft 365 市场中作为任何付费的 Microsoft 365 或 Office 365 订阅的加载项。 高级通信中包含的功能不会添加到其他 Microsoft 365 或 Office 365 计划，也不能单独购买。 若要获取这些功能，必须购买加载项。
 
 > [!NOTE]
-> 对于 Microsoft 365 政府社区云（GCC）、GCC 高版或国防部（DoD）环境，尚未提供高级通信。 我们正在计划如何使其稍后可用。
+> 高级通信尚不可用于 Microsoft 365 政府社区云 (GCC) 、GCC 高或国防 (DoD) 环境。 我们正在计划如何使其稍后可用。
 
 ## <a name="feature-availability"></a>功能可用性
 
 在2020年8月1日发布时，可以使用以下功能：
 
 - 实时事件支持最多20000个参与者、50个并发事件、每个广播16小时的事件持续时间
-- 合规性录制集成（ISV）
-- 联系中心解决方案集成（ISV）
+- 合规性录制集成 (ISV) 
+- 联系中心解决方案集成 (ISV) 
 
 以下功能将在今年晚些时候提供：
 
@@ -59,7 +59,7 @@ ms.locfileid: "46542864"
 
 我们将在未来的几个月内添加更多自定义、工具和通信增强功能。 
 
-请注意，高级通信不包括通信合规性和通信数据丢失防护（DLP）。
+请注意，高级通信不包括通信合规性和通信数据丢失防护 (DLP) 。
 
 ## <a name="pricing"></a>价格
 
@@ -71,7 +71,10 @@ ms.locfileid: "46542864"
 
 ## <a name="difference-between-overflow-meetings-and-live-events"></a>溢出会议与实时事件之间的区别
 
-通过高级通信，任何有超过300个与会者的会议都将提供一种方法，让多达1000参与者拥有交互式体验，最多可让20000参与者加入会议，只需查看仅查看的体验。 实时事件启用其他功能。 在实时事件中，20000与会者可以观看广播，并与问答&A 内团队、Yammer 中的对话或 Microsoft Stream 中的 "仅限查看" 进行交互。 此外，我们还将实时事件的长度从4小时增加到16小时，并为每个租户启用最多50并发实时事件。  
+通过高级通信，任何有超过300个与会者的会议都将提供一种方法，让多达1000参与者拥有交互式体验，最多可让20000参与者加入会议，只需查看仅查看的体验。 实时事件启用其他功能。 在实时事件中，20000与会者可以观看广播，并与问答&A 内团队、Yammer 中的对话或 Microsoft Stream 中的 "仅限查看" 进行交互。 此外，我们还将实时事件的长度从4小时增加到16小时，并为每个租户启用最多50并发实时事件。 
+
+>[!Note]
+> 从使用 Microsoft Stream 到 [OneDrive for business 和 SharePoint for 会议录制](../tmr-meeting-recording-change.md) 的更改将是一种分阶段方法。 在启动时，你可以选择加入此体验，在11月内，你将必须选择退出，如果你想要继续使用流，并且在2021的早期，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 > [!NOTE]
 > 企业和教育 Sku 可以暂时保留多达20000个与会者的活动事件，每个广播的事件持续时间为16小时，而租户中的50个并发事件在年10月 1 2020 日之前。

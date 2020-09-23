@@ -8,28 +8,28 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
-description: 本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
-ms.openlocfilehash: d47234fdea6cc8323462aef26e99449c53895620
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 这是初步文档，可能会发生变更。 空白主题作为占位符包含在内。
+ms.openlocfilehash: feed152cb42bece0abffd62d781a10836109475e
+ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41819504"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48215573"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server 范围节点
 
-本文档是预备文档，可能随时更改。 空白主题均以占位符的形式包含在内。
+这是初步文档，可能会发生变更。 空白主题作为占位符包含在内。
 
-单击 " **Office 通信服务器 2007 R2** " 以展开节点下的分区，或者右键单击以访问**拓扑**选项，或访问此 "**帮助**" 页面。
+单击 " **Office 通信服务器 2007 R2** " 展开该节点下的部分，或者右键单击以访问 " **拓扑** 选项"，或者访问此 " **帮助** " 页。
 
 ## <a name="see-also"></a>另请参阅
 
-[使用拓扑生成器合并向导合并](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
+[使用拓扑生成器合并向导进行合并](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 
 [验证拓扑信息](https://technet.microsoft.com/library/aa4c424e-f87c-4be6-8df6-a0cd193b11fc.aspx)

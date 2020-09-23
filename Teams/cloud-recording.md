@@ -16,18 +16,21 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7eb3bd69beebed0afb062aabe1178ad9e517cea9
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766906"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203965"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
 在 Microsoft Teams 中，用户可录制其 Teams 会议和组内通话，以便捕获音频、视频和屏幕共享活动。 还有一个用于为录像添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制在云中进行，并保存在 [Microsoft Stream](https://docs.microsoft.com/stream/) 中，因此用户可以安全地在组织中共享录像。
 
 相关：[Teams 会议录制最终用户文档](https://aka.ms/recordmeeting)
+
+>[!Note]
+> 从使用 Microsoft Stream 到 [OneDrive for business 和 SharePoint for 会议录制](tmr-meeting-recording-change.md) 的更改将是一种分阶段方法。 在启动时，你可以选择加入此体验，在11月内，你将必须选择退出，如果你想要继续使用流，并且在2021的早期时间，我们将要求所有客户使用 OneDrive for business 和 SharePoint 进行会议录制。
 
 > [!NOTE]
 > 有关在团队会议中使用角色以及如何更改用户角色的信息，请参阅 [团队会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
