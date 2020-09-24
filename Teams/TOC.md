@@ -113,6 +113,7 @@
 # 应用、机器人和连接器
 
 ## [概述](deploy-apps-microsoft-teams-landing-page.md)
+## [与 Power Platform 集成](teams-power-platfom-integration.md)
 ## [管理适用于 Teams 的应用](manage-apps.md)
 ## [Teams 中适用于应用的管理设置](admin-settings.md)
 ## [使用内置和自定义选项卡](built-in-custom-tabs.md)
@@ -186,6 +187,7 @@
 ## [在不受支持的浏览器上举行 Teams 会议](unsupported-browsers.md)
 ## [在 Teams 中配置桌面共享](configure-desktop-sharing.md)
 ## [Teams 云会议录制](cloud-recording.md)
+## [使用 OneDrive for Business 和 SharePoint 或 Stream 进行会议录制](tmr-meeting-recording-change.md)
 ## [联系人中心集成](teams-contact-center.md)
 ## [在 Outlook 中使用 Teams 会议外接程序](teams-add-in-for-outlook.md)
 ## [为用户设置“致电我”功能](set-up-the-call-me-feature-for-your-users.md)
@@ -258,7 +260,6 @@
 <!-- ============================================================ -->
 
 
-
 ## [云视频互操作](cloud-video-interop.md)
 
 ## 实时事件
@@ -293,14 +294,15 @@
 #### [更多关于呼叫线路 ID 和主叫方名称的信息](more-about-calling-line-id-and-calling-party-name.md)
 
 ### 自动助理和呼叫队列 
-#### [什么是云自动助理](what-are-phone-system-auto-attendants.md)
-#### [设置云自动助理](create-a-phone-system-auto-attendant.md)
+#### [规划](plan-auto-attendant-call-queue.md)
+#### [自动助理设置](create-a-phone-system-auto-attendant.md)
+#### [呼叫队列设置](create-a-phone-system-call-queue.md)
 #### [小型企业示例 - 设置自动助理](tutorial-org-aa.yml)
 #### [小型企业示例 - 设置呼叫队列](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [管理 Teams 资源帐户](manage-resource-accounts.md)
-#### [创建云呼叫队列](create-a-phone-system-call-queue.md)
 #### [设置假日](set-up-holidays-in-teams.md)
 #### [直接从 Teams 回答自动助理和呼叫队列](answer-auto-attendant-and-call-queue-calls.md)
+#### [拨号和语音参考](dial-voice-reference.md)
 
 ### [阻止拨入通话](block-inbound-calls.md)
 ### [呼叫寄存和检索](call-park-and-retrieve.md)
