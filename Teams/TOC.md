@@ -9,7 +9,6 @@
 # 培训
 ## [概述](training-microsoft-teams-landing-page.md)
 ## [Teams 管理员培训](itadmin-readiness.md)
-## [Teams 的最终用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 ## [Ignite 2020 处的团队会话](ignite-2020-landing-page.md)
 ## [Teams 实时培训](instructor-led-training-teams-landing-page.yml)
 ## [Teams 联机培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
@@ -367,7 +366,6 @@
 ##### [定义和 RFC 标准](direct-routing-protocols.md)
 ##### [SIP 协议](direct-routing-protocols-SIP.md)
 ##### [媒体协议](direct-routing-protocols-media.md)
-#### [设置回拨机器人](direct-routing-ringback-bot.md)
 #### [管理语音路由策略](manage-voice-routing-policies.md)
 
 
