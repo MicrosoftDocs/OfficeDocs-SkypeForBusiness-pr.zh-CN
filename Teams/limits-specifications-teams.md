@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3cc7cdf9dc685e595a7efa3c0eddbf63f9ee79f1
-ms.sourcegitcommit: c1aaf1f81c07c0956095b5bd4cb241b1de67b189
+ms.openlocfilehash: 82140caa97d8e754d6264429b7fbbd07d1877f0a
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "46897692"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203725"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -119,6 +119,9 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 |通过视频或音频通话聊天的人员数 | 20 |
 |PowerPoint 文件的最大大小 | 2GB|
 |Teams 保留了不会上传到 Microsoft Stream 且可供本地下载的[会议记录](cloud-recording.md) | 20 天 |
+
+>[!Note]
+> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 ### <a name="meeting-expiration"></a>会议过期时间
 
