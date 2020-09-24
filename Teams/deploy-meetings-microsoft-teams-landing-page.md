@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d90e33d2e8d40f93a070d050eb8c8437f4e8629d
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: a08a646ed2f89a857d2126ef9551bc84e6389a11
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820446"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203825"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的会议
 
@@ -148,6 +148,9 @@ Teams 提供了一组可用于为组织管理 Teams 的自定义管理员角色�
 ### <a name="meeting-recording-and-archiving"></a>会议录制和存档
 
 用户可以录制其会议和组内呼叫，以便捕获音频、视频和屏幕共享活动。 还有一个用于为录像添加自动转录功能的选项，这样用户就能够回放包含隐藏式字幕的会议录像，并在转录文本中搜索重要的讨论事项。 录制在云中进行，并保存在 Microsoft Stream 中，因此用户可以安全地在组织中共享录像。 若要查找会议录像，请转到会议对话。
+
+>[!Note]
+> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 若要了解详细信息，请参阅 [Teams 云会议录制](cloud-recording.md)。
 

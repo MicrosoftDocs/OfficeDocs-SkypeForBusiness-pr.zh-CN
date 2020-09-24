@@ -18,12 +18,12 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61f929452f26bd83b5d4deea93113f9edac29e26
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: bb3bd06ff936f0c26e34cf72fb9519b53896cf2f
+ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962813"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48203915"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
@@ -45,6 +45,9 @@ ms.locfileid: "47962813"
 - 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](https://docs.microsoft.com/stream/license-overview)。 
 
   如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这意味着不会将录制存储在 Microsoft Stream 中，而是将其存储在 Azure 媒体服务 (AMS) 中，且仅有 30 天存储期限，之后将被删除。 目前管理员无法控制或管理它，包括无法删除它。
+
+>[!Note]
+> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行会议录制。
 
 > [!NOTE]
 > 目前，没有任何 Microsoft 365 小型企业版计划可用于创建和保留 Teams 实时事件。
