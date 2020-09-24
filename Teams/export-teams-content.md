@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7849892870f54f43f0fda16564ad472426d46cd2
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 2932488128ccf6f0bff12f3aad39181ed56c1cd0
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171431"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235810"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>将内容与 Microsoft 团队导出 Api 一起导出
 
@@ -31,8 +31,8 @@ ms.locfileid: "48171431"
 
 下面是有关如何使用这些导出 Api 的一些示例：
 
-- **示例 1**：如果你已在组织中启用 microsoft 团队，并且希望通过为给定用户传递数据区域以编程方式导出所有 microsoft 团队邮件到日期。
-- **示例 2**：如果希望通过提供数据区域以编程方式每天导出所有用户消息。 导出 Api 可以检索在给定日期范围内创建或更新的所有消息。
+- **示例 1**：如果你已在组织中启用 microsoft 团队，并且希望通过传递给定用户的日期范围以编程方式导出所有 microsoft 团队邮件到日期。
+- **示例 2**：如果希望通过提供日期范围以编程方式每天导出所有用户消息。 导出 Api 可以检索在给定日期范围内创建或更新的所有消息。
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>团队导出 Api 支持哪些内容？
 
@@ -50,13 +50,13 @@ ms.locfileid: "48171431"
 - **示例 1** 是一种简单查询，用于检索不带任何筛选器的用户的所有消息：
 
     ```HTTP
-    GET [https://graph.microsoft.com/beta/users/{id}/chats/allMessages](https://graph.microsoft.com/beta/users/%7bid%7d/chats/allMessages)
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages
     ```
 
 - **示例 2** 是一个示例查询，它通过指定日期时间筛选器和 top 50 消息来检索用户的所有消息：
 
     ```HTTP
-    https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/allMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 
 >[!NOTE]
@@ -64,7 +64,7 @@ ms.locfileid: "48171431"
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>访问团队导出 Api 的先决条件 
 
-- 团队导出 Api 当前处于预览版中，受 Microsoft Api 使用条款的制约。  只有具有所需许可证的用户和租户才能使用它。 尝试访问没有适当许可证的 Api 将导致403错误。
+- 团队导出 Api 当前处于预览版中。 它仅适用于具有 Api [所需的许可证](https://aka.ms/teams-changenotification-licenses) 的用户和租户。 将来，Microsoft 可能会要求您或您的客户根据通过该 API 访问的数据量支付额外费用。
 - Microsoft Graph 中的 microsoft 团队 Api 访问敏感数据被视为受保护的 Api。 导出 Api 要求你拥有其他验证（除权限和同意），然后才能使用它们。 若要请求对这些受保护的 Api 的访问权限，请填写 " [请求" 表单](https://aka.ms/teamsgraph/requestaccess)。
 - 应用程序权限由在没有登录用户的情况下运行的应用使用;只有管理员才能同意应用程序权限。 需要以下权限：
 
