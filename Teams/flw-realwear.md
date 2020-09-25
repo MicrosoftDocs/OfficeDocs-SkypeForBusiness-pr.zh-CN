@@ -18,28 +18,21 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ec30e455a79ee37a107509e7c179dd859732b1e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d72007a4bde0db2890a889580ee92c8dab72ad1e
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780571"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262509"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams for RealWear
-
-> [!NOTE]
-> 这是预览版或早期版本功能。
 
 本文介绍适用于 RealWear 头戴型可穿戴设备的 Microsoft Teams 客户端。 使用 RealWear HMT-1 和 HMT-1Z1 的一线员工现在可通过在 Teams 上进行视频通话与远程专家进行协作。 通过语音控制用户界面，RealWear 团队允许现场工作人员 100% 释放双手，同时在嘈杂和危险环境中了解态势。 通过实时显示所看到的情况，现场工作人员可以加快解决问题的时间，并降低高昂的停机风险。
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>如何部署 Microsoft Teams for RealWear
 
-Microsoft Teams for RealWear 客户端目前处于公共预览版。 若要参与此预览，需要执行以下条件：
-
-RealWear 设备已更新到发布10.5.0 或更高版本。 有关更多信息，请参阅[此处](https://realwear.com/knowledge-center/configure-on-release-10/wireless-update/)。
-
-> [!IMPORTANT]
-> [点击这里](https://www.realwear.com/solutions/microsoft-teams/#C1)注册，以在 [RealWear Foresight](https://cloud.realwear.com/) 中访问 Teams for RealWear 客户端。
+- RealWear 设备已更新到 11.2 版本或更高版本。 有关更多信息，请参阅[此处](https://realwear.com/knowledge-center/configure-on-release-10/wireless-update/)。
+- 访问 [RealWear Foresight](https://cloud.realwear.com/)，以分发适用于 Realwear 的 Microsoft Teams 客户端。
 
 ## <a name="required-licenses"></a>需要的许可证
 
