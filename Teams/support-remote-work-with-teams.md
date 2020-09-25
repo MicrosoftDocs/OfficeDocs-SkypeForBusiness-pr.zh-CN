@@ -16,22 +16,22 @@ search.appverid: MET150
 description: 使用本指南可帮助组织中的远程工作者使用 Microsoft Teams 高效工作，尤其是当他们在家办公（WFH）来应对新型冠状病毒肺炎的爆发。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cb886083b2f381c16c6b3b0acc13746f641a67
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
+ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583811"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "48235820"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>使用 Microsoft Teams 支持远程工作者
 
-组织想要开始使用 Microsoft Teams 来支持远程工作或在家工作的用户吗？ 使用本文中的指南快速启动和运行。
+您的组织是否希望使用 Microsoft Teams 来支持远程或在家工作的用户？ 使用本文中的指南快速启动和运行。
 
 如果你是中小型企业，请不要错过 [通过远程工作为小型企业提供支持](https://aka.ms/remote-business)。
 
 ## <a name="it-admin-guidance"></a>IT 管理员指南
 
-- 确保每个人都可以使用 [付费订阅 (包括 Teams)](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) 访问 Teams。 或者，符合条件的组织可使用 **[Teams 的免费版本](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或者员工可以激活 **[Teams 探索](teams-exploratory.md)** 体验。
+- 确保每个人都可以使用 [付费订阅 (包括 Teams)](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) 访问 Teams。 或者，符合条件的组织可使用 **[Teams 的免费版本](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或者员工可以激活 **[Teams 探索](teams-exploratory.md)** 的体验。
 
 -  如果已有包含 Teams 的订阅，请**[为所有人启用](user-access.md)**。
     
@@ -40,7 +40,7 @@ ms.locfileid: "46583811"
 有关更多信息，请阅读下面的“[支持远程工作者的附加资源](#additional-resources-for-supporting-remote-workers)”。
 
 
-## <a name="end-user-communications"></a>最终用户沟通
+## <a name="end-user-communications"></a>最终用户通信
 
 准备好向你的用户推出 Teams？ 获取**[客户成功套件](https://aka.ms/TeamsCustomerSuccess)**，其中包含以下精彩电子邮件模板：
 
@@ -74,7 +74,7 @@ ms.locfileid: "46583811"
    - [Microsoft 如何便于员工使用 Microsoft Teams 远程工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
    - [协助中小型企业使用 Teams 远程工作](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT 便于员工远程工作的 9 大方式](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT 为员工实现远程办公的 9 大方式](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Teams 教育版 
@@ -82,7 +82,7 @@ ms.locfileid: "46583811"
 
    - 不要错过[开始使用 Teams 进行远程学习](remote-learning-edu.md)。
 
-1. 确保员工可充分访问 Internet 并具有足够的带宽来使用 Teams。 使用“[为 Teams 准备组织的网络](prepare-network.md)”中的指南，了解如何进行此操作。
+1. 确保员工可充分访问 Internet 并具有足够的带宽来使用 Teams。 使用[为 Teams 准备贵组织的网络](prepare-network.md)中的指南来了解如何确保足够的带宽。
 
    - 带宽受限将会影响 Teams 会议的音质。 为确保在低带宽条件下获得最佳会议体验，鼓励用户限制视频，并使用 PSTN 进行通话和会议音频。 
 
@@ -92,7 +92,7 @@ ms.locfileid: "46583811"
    
    - 如果你在中国，请查阅 [Microsoft 365 或 Office 365 针对中国用户的全局租户性能优化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)。
 
-   - 如果需要有关解决或修复通话或会议质量方面问题的帮助，请遵循本文底部“[已知问题 - 中国：拨入 Skype for Business 或 Teams 会议 ID](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)”中的指南。
+   - 如果需要进行故障排除或解决通话或会议质量问题的帮助，请遵循本文底部的[已知问题 - 中国：拨入 Skype for Business 或 Teams 会议 ID](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)中的指南。
 
 1. 当所有人都在家办公时的安全性
 
@@ -128,13 +128,13 @@ ms.locfileid: "46583811"
       
       - [使用 Teams 远程工作](https://products.office.com/microsoft-teams/work-remotely)
 
-      - Teams 博客（2020 年 2 月 28 日）： [使用 Microsoft Teams 在家工作的 4 个提示](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
+      - Teams 博客（2020 年 2 月 28 日）： [使用 Microsoft Teams 在家工作的四个提示](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/4-tips-for-working-from-home-with-microsoft-teams-by-lola/ba-p/1202083)
 
       - [使用 Microsoft 365 或 Office 365 展开协作](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
       - [使用 Microsoft 365 或 Office 365 远程工作](https://support.office.com/article/work-remotely-with-office-365-164946c8-a47a-470e-a0b4-feb12a2eea04)
       
-      - [远程工作的 9 个提示](https://www.microsoft.com/tips/home/working-remotely)
+      - [远程工作的九个提示](https://www.microsoft.com/tips/home/working-remotely)
 
       - Satya Nadella 和 Teams 产品市场营销经理 Aya Tange 有关“[使用 Teams 远程工作](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6646786497422987264?compact=1)”的视频（2020 年 3 月 20 日）
 
@@ -150,7 +150,7 @@ ms.locfileid: "46583811"
     
    - 发送组织的在家办公和健康安全策略的相关信息。
     
-   - 通过[实时事件](teams-live-events/what-are-teams-live-events.md)进行全公司会议和跟进服务。 对于任何超过 250 个参与者的会议，请将其设置为实时事件。 启用[会议](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)和[直播活动](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)的实时字幕。 另外，在直播活动中启用字幕。 这些功能可提升包容性、生产力和理解。 
+   - 通过[实时事件](teams-live-events/what-are-teams-live-events.md)进行全公司会议和跟进服务。 如果会议达到团队定期会议的 [限制和规范](limits-specifications-teams.md) ，则将其设置为实时事件。 启用[会议](https://support.office.com/article/Use-live-captions-in-a-Teams-meeting-4be2d304-f675-4b57-8347-cbd000a21260)和[直播活动](https://support.office.com/article/Use-live-captions-in-a-live-event-1d6778d4-6c65-4189-ab13-e2d77beb9e2a)的实时字幕。 在实时事件中启用字幕。 这些功能可提升包容性、生产力和理解。 
 
 4.  增设[支持人员](troubleshoot-installation.md)来处理用户查询。
 
@@ -164,7 +164,7 @@ ms.locfileid: "46583811"
 
 下面是 2020 年 2 月 7 日消息中心帖子的摘要(MC203397)：
 
-Microsoft 意识到，中国地区的部分用户在拨入到 Skype for Business 或 Teams 会议 ID 时会遇到问题。 多数情况下，这些问题是我们控制系统之外的问题。 通常，问题与本地移动设备和电话运营商有关。 
+据 Microsoft 了解，中国地区的部分用户在拨入到 Skype for Business 或 Teams 会议 ID 时会遇到问题。 多数情况下，这些问题是我们控制系统之外的问题。 通常，问题与本地移动设备和电话运营商有关。 
 
 如果遇到音频会议问题，建议执行以下操作：
 
