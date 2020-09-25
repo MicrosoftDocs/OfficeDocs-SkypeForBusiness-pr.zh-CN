@@ -17,12 +17,12 @@ description: 了解如何配置 Microsoft 通话计划和电话系统直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f2d2f440296316cd448013022494021e3557c32
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 772b439c7d0590cdc917c3e94780761de2da8915
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321735"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269646"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>规划和配置动态紧急呼叫 
 
@@ -141,7 +141,7 @@ Azure 映射用于基于位置的服务。  使用 Microsoft 团队管理中心�
 
 ## <a name="configure-location-information-service"></a>配置位置信息服务
 
-团队客户端从与不同网络标识符关联的位置获取紧急地址。 子网和无线访问点 (WAPs) 均受支持。 对以太网交换机/端口的 (支持处于挂起状态。 ) 
+团队客户端从与不同网络标识符关联的位置获取紧急地址。 子网和无线访问点 (WAPs) 均受支持。 目前在 Windows 8.1 和更高版本上支持以太网交换机/端口。
 
 若要获取某个位置的客户端，你必须使用网络标识符（ (子网、WAPs、交换机、端口) 和紧急位置）填充 IIS。 可以在 Microsoft 团队管理中心或使用 PowerShell 执行此操作。
 

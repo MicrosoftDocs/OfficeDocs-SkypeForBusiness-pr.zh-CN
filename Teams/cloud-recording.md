@@ -16,12 +16,12 @@ description: 在团队中部署云语音功能以录制团队会议和群组通�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b19cb5fe0ac89f800904bea4346cc185d9b822a8
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 04ddae49ae16db6c85f67a078f5f5cc1b59c60e8
+ms.sourcegitcommit: 8924cd77923ca321de72edc3fed04425a4b13044
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203965"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "48262459"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 云会议录制
 
@@ -30,7 +30,7 @@ ms.locfileid: "48203965"
 相关：[Teams 会议录制最终用户文档](https://aka.ms/recordmeeting)
 
 >[!Note]
-> 从使用 Microsoft Stream 到 [OneDrive for business 和 SharePoint for 会议录制](tmr-meeting-recording-change.md) 的更改将是一种分阶段方法。 在启动时，你可以选择加入此体验，在11月内，你将必须选择退出，如果你想要继续使用流，并且在2021的早期时间，我们将要求所有客户使用 OneDrive for business 和 SharePoint 进行会议录制。
+> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行会议录制。
 
 > [!NOTE]
 > 有关在团队会议中使用角色以及如何更改用户角色的信息，请参阅 [团队会议中的角色](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)。
@@ -112,7 +112,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 会议录制存储在 Microsoft Stream 云存储空间内。 录制保留并可在21天内查看和下载。 目前，对于 Teams 数据存储在国内的客户而言，如果 Microsoft Stream 在其存放数据的国内数据驻留区域中不可用，则会为其关闭 Teams 会议录制功能。 未来，我们将会为数据存储在国内的客户打开会议录制功能，即使 Microsoft Stream 在其国内数据驻留区域中不可用也是如此。
 
-此更改生效后，会议录像将默认存储在最近的 Microsoft Stream 地理区域中。 如果你的 Teams 数据存储在国内，并且你希望在国内存储会议录像，我们建议你关闭该功能，然后在我们将 Microsoft Stream 部署到你所用的国内数据驻留区域后再将其打开。 若要为组织中的所有用户关闭该功能，请在 "全局团队会议策略" （位于 Microsoft 团队管理中心）中关闭 " **允许云录制** " 设置。
+此更改生效后，会议录像将默认存储在最近的 Microsoft Stream 地理区域中。 如果你的 Teams 数据存储在国内，并且你希望在国内存储会议录像，我们建议你关闭该功能，然后在我们将 Microsoft Stream 部署到你所用的国内数据驻留区域后再将其打开。 若要为组织中的所有用户关闭该功能，请在 "全局团队会议策略" （位于 Microsoft 团队管理中心）中关闭 " **允许云录制** " 设置。 但是，如果你仍希望将录制存储在 Microsoft Stream 最近的地理区域中，你必须启用 " **允许云录制** " 和 " **允许在区域外录制存储** "，然后再进行此更改。
+
+若要在 "全局策略" 区域中启用录制，请使用以下 cmdlet：
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global – AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+```
+
 
 下面总结了当你在此更改生效后打开会议录制时会发生的情况：
 

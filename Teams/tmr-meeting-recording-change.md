@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65c0d50686346b715ca7e10b455845927ff22341
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
+ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218403"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48269636"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
 > [!Note]
-> 从使用 Microsoft Stream 到 OneDrive for business 和 SharePoint for 会议录制的更改将是一种分阶段方法。 在启动时，你可以选择加入此体验，在11月内，你将必须选择退出，如果你想要继续使用流，并且在2021的早期，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+> 将会议录制从 Microsoft Stream 改为 OneDrive for Business 和 SharePoint 将是一种分阶段的方法。 在启动时，租户管理员可以立即选择此新工作流选项，并开始在10月2020中查看录制自动上载到 OneDrive for Business 和 SharePoint。 11月，您必须选择退出如果您希望继续使用流，并且在2021的早期，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
-Microsoft 团队具有保存会议录制的新方法。 从流出发，此方法在 Microsoft 365 中使用 Microsoft OneDrive 和 SharePoint，并提供许多好处：
+Microsoft 团队具有保存会议录制的新方法。 从流出发，此方法在 Microsoft 365 中使用 Microsoft OneDrive 和 SharePoint，并提供许多好处。
 
 使用 OneDrive for Business 和 SharePoint 存储录制的好处包括：
 
@@ -53,9 +53,9 @@ Microsoft 团队具有保存会议录制的新方法。 从流出发，此方法
 - 你可以控制你共享录制的人员，但不能阻止具有共享访问权限的用户下载录制。
 - 录制完成后，你将不会收到电子邮件，但录制将在会议聊天完成后显示在会议聊天中。 这将比以前在流中更快的速度
 
-有关详细信息，请观看 "会议录制"。 
+有关详细信息，请观看 "会议录制"。
 
-> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8] 
+> [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
 ## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>为 OneDrive for business 和 SharePoint 设置会议录制选项
 
