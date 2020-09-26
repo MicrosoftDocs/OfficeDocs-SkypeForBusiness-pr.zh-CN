@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 了解医疗保健的功能，包括护理协调、安全消息、telehealth、EHR 集成和一线 worker 系统集成。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d2a77e5e7e696e20efb13a5c805968fc3af3204
-ms.sourcegitcommit: 70b80892a152f86a6d596f0f5b58cf391bc29098
+ms.openlocfilehash: 2257c82d602146210b217e396d65ebb1fdcb90f6
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138102"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277273"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -32,25 +32,32 @@ Microsoft 团队提供了许多适用于医院和其他医疗保健组织的功�
 - 护理协调和协作
 - 安全消息
 - Telehealth
-- 电子医疗保健记录（EHR）集成 
+- 电子医疗保健记录 (EHR) 集成 
 - 一线 Worker 系统集成 
 
-本部分内容基于团队的基础功能（如会议、呼叫和消息传递），并假设你已经在组织中部署了团队。 如果尚未推出团队，请先阅读[如何展示 Microsoft 团队](../../How-to-roll-out-teams.md)。
+本部分内容基于团队的基础功能（如会议、呼叫和消息传递），并假设你已经在组织中部署了团队。 如果尚未推出团队，请先阅读 [如何展示 Microsoft 团队](../../How-to-roll-out-teams.md)。
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>护理协调-Microsoft 团队患者应用
 
+> [!IMPORTANT]
+> **2020年9月30日生效，患者应用将被否决，用户将无法再从团队应用商店安装。我们鼓励你立即开始使用团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
+>
+>患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 当患者应用停用时，与之关联的所有数据将保留在此组中，但不能再通过用户界面进行访问。 当前用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
+>
+>" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用 "列表"，"护理团队" 可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
+
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft 团队现在具有特定于医疗保健组织的护理协调解决方案，可帮助他们提供最佳的患者护理。 护理协调解决方案的 crux （Microsoft 团队患者应用）是第一方选项卡应用，它与使用快速医疗保健互操作性资源（[FHIR](https://www.hl7.org/fhir/)）接口的电子医疗记录（EHR）系统集成，以将宝贵的医疗信息引入 Microsoft 团队，以实现临床协作和通信。  
+Microsoft 团队现在具有特定于医疗保健组织的护理协调解决方案，可帮助他们提供最佳的患者护理。 Crux "护理协调解决方案" （Microsoft 团队患者应用）是一种第一方选项卡应用，它与电子运行状况记录集成 (EHR) 系统使用快速医疗保健互操作性资源 ([FHIR](https://www.hl7.org/fhir/)) 界面将宝贵的医学信息引入 Microsoft 团队以实现临床协作和通信。  
 
-"护理协调" 解决方案可以与主要独立软件供应商（Isv）进行交互，这些供应商（Isv）可以使用现有的运行状况数据标准（如 HL7v2 和 FHIR）将患者应用连接到 EHR 系统。 与以下行业领导人的 Microsoft 合作伙伴建立与团队的电子健康记录集成：
+"护理协调" 解决方案可以与主要独立软件供应商进行交互， (Isv) ，可使用 HL7v2 和 FHIR 等现有健康数据标准将患者应用连接到 EHR 系统。 与以下行业领导人的 Microsoft 合作伙伴建立与团队的电子健康记录集成：
 
-- Datica （通过其[CMI](https://datica.com/compliant-managed-integration/)产品）
-- Infor Cloverleaf （通过[INFOR FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)）
-- Redox （通过[R ^ FHIR 服务器](https://www.redoxengine.com/fhir/)）
-- Dapasoft （通过[Corolar 上的 FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)）
+- Datica (通过其 [CMI](https://datica.com/compliant-managed-integration/) 服务) 
+- Infor Cloverleaf ([INFOR FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)) 
+- Redox (通过 [R ^ FHIR 服务器](https://www.redoxengine.com/fhir/)) 
+- Dapasoft (通过 [Corolar 上的 FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)) 
 
-尝试为医疗保健提供商组织实施 Microsoft 团队的 EHR 集成和互操作合作伙伴需要向患者应用提供与医疗保健提供商组织的 EHR 系统的安全且经过身份验证的连接。 这将向患者应用启用相关患者记录的单向（只读）流。 患者应用理解 FHIR 格式，因此合作伙伴还负责将聚合数据从各种其他格式（如 HL7v2 等）转换为 FHIR DSTU2 或 STU3。
+尝试为医疗保健提供商组织实施 Microsoft 团队的 EHR 集成和互操作合作伙伴需要向患者应用提供与医疗保健提供商组织的 EHR 系统的安全且经过身份验证的连接。 这将启用单向 (只读) 将相关患者记录的流读入患者应用。 患者应用理解 FHIR 格式，因此合作伙伴还负责将聚合数据从各种其他格式（如 HL7v2 等）转换为 FHIR DSTU2 或 STU3。
 
 <br>
 
@@ -58,7 +65,7 @@ Microsoft 团队现在具有特定于医疗保健组织的护理协调解决方�
 
 <br>
 
-患者应用集成了电子运行状况记录（EHR）系统，使护理提供商可以实时地与团队的安全平台中的患者护理进行沟通。 患者应用是护理协调领域的第一大投资，旨在解决以下难题：
+患者应用集成了电子运行状况记录 (EHR) 系统，并支持护理提供商在团队的安全平台中实时交流患者护理。 患者应用是护理协调领域的第一大投资，旨在解决以下难题：
 
 - 通过患者体验实现高效率和关键通信的低效率
 - 带来管理负担的各自为政的信息
@@ -80,18 +87,18 @@ Microsoft 团队支持医生、临床医生、护士和其他员工通过以下�
     - 通过分析一致性语句支持 FHIR DSTU2 和 STU3 版本。
     - 针对其用户界面上的所有视图和搜索操作的审核日志，以保护每个 HIPAA 准则的 PHI。
 
-患者应用在团队扩展性平台上构建，并利用选项卡框架在频道内显示丰富的患者内容。 若要了解有关其他团队应用和平台本身的详细信息，请参阅[Microsoft 团队应用](/microsoftteams/platform/concepts/apps/apps-overview)。  
+患者应用在团队扩展性平台上构建，并利用选项卡框架在频道内显示丰富的患者内容。 若要了解有关其他团队应用和平台本身的详细信息，请参阅 [Microsoft 团队应用](/microsoftteams/platform/concepts/apps/apps-overview)。  
 
 > [!NOTE]
 > 患者应用在私人预览版中，FHIR 界面位于 beta 中。 发布的版本不应向后兼容。
 
 ![桌面和移动设备上患者应用的屏幕截图](../../media/ehr-2.png)
 
-有关实现的详细信息，请参阅将[电子医疗保健记录集成到 Microsoft 团队](patients-app.md)中。
+有关实现的详细信息，请参阅将 [电子医疗保健记录集成到 Microsoft 团队](patients-app.md) 中。
 
 ## <a name="teams-templates"></a>团队模板
 
-创建团队的新模板已开发为适用于医院的设置，并且预计会更多。 这使您可以更轻松地创建医疗保健工作者在各种部门或 wards 中协调病人的护理。 请参阅[面向医疗保健组织的团队模板入门](healthcare-templates.md)。 团队可以为内部部门（如心脏病科）或用于护理 wards 的团队开始，并且更多模板位于开发中。
+创建团队的新模板已开发为适用于医院的设置，并且预计会更多。 这使您可以更轻松地创建医疗保健工作者在各种部门或 wards 中协调病人的护理。 请参阅 [面向医疗保健组织的团队模板入门](healthcare-templates.md)。 团队可以为内部部门（如心脏病科）或用于护理 wards 的团队开始，并且更多模板位于开发中。
 
 ## <a name="lists-app"></a>列表应用
 
@@ -107,7 +114,7 @@ Microsoft 团队支持医生、临床医生、护士和其他员工通过以下�
 
 :::image type="content" source="../../media/lists-patients-example.png" alt-text="患者舍入示例列表的屏幕截图":::
 
-若要了解详细信息，请参阅[管理团队中组织的列表应用](../../manage-lists-app.md)。
+若要了解详细信息，请参阅 [管理团队中组织的列表应用](../../manage-lists-app.md)。
 
 ## <a name="secure-messaging"></a>安全消息
 
@@ -119,10 +126,10 @@ Microsoft 团队支持医生、临床医生、护士和其他员工通过以下�
 
 结合这些功能，可以更快地注意紧急邮件，并确保邮件已接收和阅读。 使用这些功能的新的护理团队可以在每个患者的基础上创建。 这些功能是基于策略的，可分配给个人或整个团队。
 
-有关[医疗保健组织的安全邮件策略](messaging-policies-hc.md)的详细信息，请参阅入门。
+有关 [医疗保健组织的安全邮件策略](messaging-policies-hc.md) 的详细信息，请参阅入门。
 
-同时与安全消息相关的功能是拥有受医疗保健组织联盟的其他租户，从而实现了更丰富的租户间通信。 （请参阅[管理 Microsoft 团队中的外部访问（联合）](../../manage-external-access.md)。
+同时与安全消息相关的功能是拥有受医疗保健组织联盟的其他租户，从而实现了更丰富的租户间通信。  (请参阅 [管理 Microsoft 团队) 中的 "管理外部访问 (联合身份验证") ](../../manage-external-access.md) 。
 
 ## <a name="firstline-worker-integration"></a>一线工作人员集成
 
-Microsoft 团队与一线工作人员集成，可用于协调倒班人员配备功能。 请参阅[在 Microsoft 团队中管理你的组织的倒班应用](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
+Microsoft 团队与一线工作人员集成，可用于协调倒班人员配备功能。 请参阅 [在 Microsoft 团队中管理你的组织的倒班应用](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。

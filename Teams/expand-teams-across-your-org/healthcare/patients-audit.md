@@ -15,20 +15,27 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: a4c3980feceac51a6a674848e4c0005d9cc0c9d1
-ms.sourcegitcommit: ee2b4c207b3c9f993309f66cf8016e137c001c7f
+ms.openlocfilehash: 2b61f7a923d863086b09d240230a0eb8e5ca897b
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/23/2020
-ms.locfileid: "44350176"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277232"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者应用的审核日志
 
-患者应用活动的审核日志允许事件响应团队查看患者的电子医疗记录（EMR）或患者医疗保健信息（PHI）的更改，并确定是否需要在工作效率工具中进行更改或改进 PHI 访问的策略或流程。 审核日志事件涵盖通过患者应用用户界面执行的操作。
+> [!IMPORTANT]
+> **2020年9月30日生效，患者应用将被否决，用户将无法再从团队应用商店安装。我们鼓励你立即开始使用团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
+>
+>患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 当患者应用停用时，与之关联的所有数据将保留在此组中，但不能再通过用户界面进行访问。 当前用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
+>
+>" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用 "列表"，"护理团队" 可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
+
+患者应用活动的审核日志允许事件响应团队查看患者的电子医疗记录更改 (EMR) 或患者医疗保健信息 (PHI) ，并确定是否需要在生产力工具中进行更改或改进以支持 PHI 访问。 审核日志事件涵盖通过患者应用用户界面执行的操作。
 
 ## <a name="meet-hipaa-requirements"></a>满足 HIPAA 要求
 
-根据 HIPAA 指南，医疗保健提供商需要保留对 PHI 的所有访问的记录，以便审核所做的更改。 Microsoft 致力于使用 Microsoft 团队的企业客户，并帮助他们满足 HIPAA 要求和控制措施。 通过 "患者" 应用对 PHI 的访问已完全被跟踪，在 Microsoft 365 合规性中心中提供了日志，如 "[审核日志搜索功能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)" 文章中所述。
+根据 HIPAA 指南，医疗保健提供商需要保留对 PHI 的所有访问的记录，以便审核所做的更改。 Microsoft 致力于使用 Microsoft 团队的企业客户，并帮助他们满足 HIPAA 要求和控制措施。 通过 "患者" 应用对 PHI 的访问已完全被跟踪，在 Microsoft 365 合规性中心中提供了日志，如 " [审核日志搜索功能](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) " 文章中所述。
 
 > [!IMPORTANT]
 > 法律规定，保持患者隐私的负担由医疗保健提供商承担。 法律证明病人对隐私的要求，并要求 IT 管理员或 HIPAA 控制器能够轻松地确定哪些护士、clinician 或社会工作者访问或更改了患者记录。 最常见的 PHI 访问冲突示例之一是访问 VIP 患者。 审核日志功能是执行任何 PHI 访问冲突调查和满足 HIPAA 要求所必需的。
@@ -39,16 +46,16 @@ ms.locfileid: "44350176"
 
 审核依赖于几个以前的配置：
 
-1. 管理员必须使用其 FHIR 服务提供商，才能以患者应用使用的格式使用 EMR。 请参阅将[电子医疗保健记录集成到 Microsoft 团队](patients-app.md)。
-2. 医疗保健提供商管理员必须在 "团队管理中心" 中启用 "患者" 应用。 有关详细信息，请参阅 Microsoft 团队和相关文章[中的管理应用设置策略](../../teams-app-setup-policies.md)。
-3. 管理员必须启用活动审核，这与启用任何活动日志审核的方式相同，详见 "[开始](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) [" 和 "打开或关闭审核日志搜索](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)"。 如果审核日志记录已打开，则患者应用不需要任何特殊内容。 每当医疗保健提供商在团队内部安装和运行应用时，审核日志都会记录其 PHI 活动。
+1. 管理员必须使用其 FHIR 服务提供商，才能以患者应用使用的格式使用 EMR。 请参阅将 [电子医疗保健记录集成到 Microsoft 团队](patients-app.md)。
+2. 医疗保健提供商管理员必须在 "团队管理中心" 中启用 "患者" 应用。 有关详细信息，请参阅 Microsoft 团队和相关文章 [中的管理应用设置策略](../../teams-app-setup-policies.md) 。
+3. 管理员必须启用活动审核，这与启用任何活动日志审核的方式相同，详见 " [开始](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin) [" 和 "打开或关闭审核日志搜索](https://docs.microsoft.com/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)"。 如果审核日志记录已打开，则患者应用不需要任何特殊内容。 每当医疗保健提供商在团队内部安装和运行应用时，审核日志都会记录其 PHI 活动。
 4. 管理员随后需要宣布患者应用的可用性，并且医疗保健工作人员必须开始生成活动才能纳入审核。
 
 <!-- add link out to client doc when available -->
 
 ## <a name="run-an-audit"></a>运行审核
 
-有关运行活动日志搜索的说明，请参阅[搜索审核日志](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)。
+有关运行活动日志搜索的说明，请参阅 [搜索审核日志](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)。
 
 ## <a name="logged-activities-for-patients-app"></a>患者应用的已记录活动
 
@@ -68,7 +75,7 @@ ms.locfileid: "44350176"
 | 已搜索患者 | PatientSearch | 已搜索 EHR 服务中的患者记录。 |
 | 更新的患者架构 | PatientSchemaUpdate  | 已更新患者记录中使用的一组现有列。 |<!-- | 已将患者移动到其他列表| PatientMoved | 患者记录从一个列表移动到另一个列表。 |-->
 | 已重命名的患者列表 | PatientListRename | 已重命名患者列表。 |
-| 已编辑的患者列表中的列 | PatientListEditColumns | 已编辑（添加或删除）患者列表中的列。 |
+| 已编辑的患者列表中的列 | PatientListEditColumns | 已编辑患者列表中的列， (添加或删除) 。 |
 | 查看患者详细信息 | PatientView | 用户查看了一条患者记录。|
 | 已编辑的患者详细信息 | PatientDetailsEdit | 已编辑患者记录的详细信息。 |
 | 设置 EHR 连接 | EHRConnectionSet | 设置用于连接 EHR FHIR 服务连接的 URL。 示例： https://<span>api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
@@ -76,7 +83,7 @@ ms.locfileid: "44350176"
 
 您可以根据需要自定义审核以搜索或筛选任何这些已记录的活动。
 
-Microsoft 团队[活动](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)中介绍了常规 microsoft 团队的已记录活动。
+Microsoft 团队 [活动](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)中介绍了常规 microsoft 团队的已记录活动。
 
 ## <a name="related-topics"></a>相关主题
 

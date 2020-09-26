@@ -18,24 +18,31 @@ appliesto:
 ms.reviewer: anach
 description: 了解如何使用 FHIR Api 将电子医疗保健记录集成到 Microsoft 团队患者应用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f981b2fc68aa52f8ea5a48fab18977197ac813c8
-ms.sourcegitcommit: 397c4840fb053238de24b8b24ae75588b33b693d
+ms.openlocfilehash: 1046037ff2cac7f98b9a34ede05a4b30ce793d6c
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45098420"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "48277298"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>将电子医疗记录集成到 Microsoft Teams 中
+
+> [!IMPORTANT]
+> **2020年9月30日生效，患者应用将被否决，用户将无法再从团队应用商店安装。我们鼓励你立即开始使用团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
+>
+>患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 当患者应用停用时，与之关联的所有数据将保留在此组中，但不能再通过用户界面进行访问。 当前用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
+>
+>" [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 为所有团队用户预安装，可在每个团队和频道中用作选项卡。 使用 "列表"，"护理团队" 可以使用内置患者模板、从头开始或通过将数据导入 Excel 来创建患者列表。 若要了解有关如何管理组织中的列表应用的详细信息，请参阅 [管理列表应用](../../manage-lists-app.md)。
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 本文适用于使用 FHIR Api 在医疗信息系统上连接到 Microsoft 团队的一般医疗保健 IT 开发人员。 这将启用符合医疗保健组织的需求的护理协调方案。
 
 链接的文章介绍 Microsoft 团队患者应用的 FHIR 界面规范，并且以下各节介绍了设置 FHIR 服务器以及连接到你的开发环境或租户中的患者应用所需的内容。 您还需要熟悉所选 FHIR 服务器的文档，该文档必须是受支持的选项之一：
-- Datica (通过其[CMI](https://datica.com/compliant-managed-integration/)服务) 
+- Datica (通过其 [CMI](https://datica.com/compliant-managed-integration/) 服务) 
 - Infor Cloverleaf ([INFOR FHIR Bridge](https://pages.infor.com/hcl-infor-fhir-bridge-brochure.html)) 
-- Redox (通过[R ^ FHIR 服务器](https://www.redoxengine.com/fhir/)) 
-- Dapasoft (通过[Corolar 上的 FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)) 
+- Redox (通过 [R ^ FHIR 服务器](https://www.redoxengine.com/fhir/)) 
+- Dapasoft (通过 [Corolar 上的 FHIR](https://www.dapasoft.com/corolar-fhir-server-for-microsoft-teams/)) 
 
 > [!NOTE]
 > 此过程不包括使用 Microsoft 团队管理中心或 PowerShell cmdlet 启用功能的步骤。 配置完全在 FHIR 服务器/服务端和患者应用客户端中完成。
@@ -65,7 +72,7 @@ ms.locfileid: "45098420"
 
 应用程序身份验证模型如下所述：
 
-应通过 OAuth 2.0[客户端凭据流](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)执行服务身份验证。 合作伙伴服务需要提供以下内容：
+应通过 OAuth 2.0 [客户端凭据流](https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/)执行服务身份验证。 合作伙伴服务需要提供以下内容：
 
 1. 合作伙伴服务使患者应用可以创建合作伙伴的帐户，从而使患者应用能够生成并拥有 client_id 和 client_secret，通过合作伙伴身份验证服务器上的身份验证注册门户进行管理。
 2. 合作伙伴服务拥有身份验证/授权系统，该系统接受和验证 (身份验证) 提供的客户端凭据，并在范围内向后提供租户提示的访问令牌，如下所述。
@@ -140,6 +147,6 @@ ms.locfileid: "45098420"
 
 ## <a name="get-started-with-fhir"></a>FHIR 入门  
 
-如果你是 FHIR 新手，并且需要轻松访问你可以向 Microsoft 团队 EHR 集成界面公开的 FHIR 服务器，Microsoft 有一个开放源代码 FHIR 服务器供所有开发人员使用。 请参阅[AZURE FHIR Server For Azure](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server)文章，了解有关 Microsoft 的 OPEN Source FHIR Server 的详细信息，并将其部署给你的组织。
+如果你是 FHIR 新手，并且需要轻松访问你可以向 Microsoft 团队 EHR 集成界面公开的 FHIR 服务器，Microsoft 有一个开放源代码 FHIR 服务器供所有开发人员使用。 请参阅 [AZURE FHIR Server For Azure](https://docs.microsoft.com/azure/healthcare-apis/overview-open-source-server) 文章，了解有关 Microsoft 的 OPEN Source FHIR Server 的详细信息，并将其部署给你的组织。
 
-你还可以使用 HSPC 开放式沙盒 EHR 环境创建一个 EHR，该 EHR 还支持打开的 FHIR 服务器，并使用它来在患者应用中玩。 我们建议你阅读[HSPC 沙盒文档](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)。 沙盒不仅提供了一种简单的 UI 和用户友好的创建、添加和编辑患者的方式，还提供了几个示例来开始使用。 
+你还可以使用 HSPC 开放式沙盒 EHR 环境创建一个 EHR，该 EHR 还支持打开的 FHIR 服务器，并使用它来在患者应用中玩。 我们建议你阅读 [HSPC 沙盒文档](https://healthservices.atlassian.net/wiki/spaces/HSPC/pages/64585866/HSPC+Sandbox)。 沙盒不仅提供了一种简单的 UI 和用户友好的创建、添加和编辑患者的方式，还提供了几个示例来开始使用。 

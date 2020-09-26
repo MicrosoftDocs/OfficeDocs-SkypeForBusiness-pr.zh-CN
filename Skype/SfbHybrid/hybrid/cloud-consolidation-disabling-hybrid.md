@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 此附录包括将混合禁用作为团队和 Skype for Business 的云整合的一部分的详细步骤。
-ms.openlocfilehash: f852a3fb44408c6601be8c6bd4f07946419cea71
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 93aad1ea230d9edbb81673a3ddabc7088b06d422
+ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269656"
+ms.locfileid: "48277259"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>禁用混合以完成云迁移
 
@@ -46,9 +46,6 @@ ms.locfileid: "48269656"
 >应继续让 Active Directory 同步中的 msRTCSIP 属性通过 Azure AD 连接到 Azure AD。  请勿清除这些属性中的任何一个，除非由支持定向。  请勿在本地环境中运行 Disable-Get-csuser。 如果需要修改用户的 SIP 地址，请在本地 Active Directory 中执行此操作，并通过 Azure AD Connect 将此更改同步到 Azure AD，如下所述。 同样，如果需要更改电话号码，并且用户已在本地定义了用户的 LineURI，则应在本地 Active Directory 中进行修改。
 >从本地迁移后清除本地 msRTCSIP 属性可能会导致用户的服务丢失！
 
-> [!Note] 
-> 在极少数情况下，将 DNS 从指向 Microsoft 365 或 Office 365 的本地位置更改为您的组织可能导致其他组织的联盟停止工作，直到其他组织更新其联合身份验证配置：<ul><li>
-任何使用旧直接联盟模型的联合组织 (也称为 "允许的伙伴服务器) " 将需要更新其组织的允许的域条目，以删除代理 FQDN。 此旧版联合模型不基于 DNS SRV 记录，因此一旦您的组织移动到云，这样的配置就会过期。 </li><li>没有已启用 sipfed.online.lync.com> <span> 的托管提供程序的任何联合组织。com 将需要更新其配置才能启用。 只有在联合组织纯粹在本地并且从未与任何混合或联机租户联合的情况下，这种情况才可行。 在这种情况下，与这些组织的联盟在启用其承载提供程序之前将不起作用。</li></ul>如果您怀疑任何联盟伙伴可能正在使用直接联盟或与任何在线或混合组织联合，我们建议您在准备完成到云的迁移时向其发送有关此的通信。
 
 1.  *更新 DNS 以指向 Microsoft 365 或 Office 365。*
 组织的内部部署组织的外部 DNS 需要更新，以便 Skype for Business 记录指向 Microsoft 365 或 Office 365 而不是本地部署。 具体来说：
