@@ -18,17 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e75d7c73393fe57f7ae3eaf8611ef3a3311386d8
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: e3269a49072f9e050a139d9bd6463ab4c85a358d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48218573"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294608"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理控制台中的团队模板入门
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **教育机构客户尚不支持自定义模板。**
 
@@ -37,12 +34,9 @@ ms.locfileid: "48218573"
 
 团队模板是围绕业务需求或项目设计的团队结构的预建定义。 使用预先构建的模板或创建自己的模板。 团队模板让你可以通过频道快速创建丰富的协作空间，以用于不同的主题和预安装应用以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。 当前，你可以使用团队中的模板或使用 [Microsoft Graph](get-started-with-teams-templates.md)创建团队。
 
-在本文中，我们将介绍可在模板中定义的属性、哪些基本模板类型以及你可以如何使用一些示例请求从模板创建团队。
+本文介绍可在模板中定义的属性、哪些基本模板类型以及如何使用一些示例请求从模板创建团队。
 
-本文适用于您的情况：
-
-- 负责在整个组织中规划、部署和管理多个团队<br>
-- 希望使用预定义频道和应用以编程方式创建团队的开发人员
+本文适用于你负责在你的组织中规划、部署和管理多个团队的情况
 
 ## <a name="teams-template-capabilities"></a>团队模板功能
 
@@ -55,7 +49,7 @@ ms.locfileid: "48218573"
 | 团队说明 | 频道设置 |
 | 团队可见性 (公共或私有)  | 连接器 |
 | 团队设置 (例如，"成员"、"来宾"、"@ 提及")  | 文件和内容 |
-| 自动收藏的频道 | |
+| Autofavorite 频道 | |
 | 已安装应用 | |
 | 固定的选项卡 | |
 
@@ -64,9 +58,9 @@ ms.locfileid: "48218573"
 
 ## <a name="what-are-base-template-types"></a>什么是基本模板类型
 
-基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含应用商店中提供的专有应用。
+基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含应用商店中不可用的专有应用。
 
-定义基本模板类型后，你可以使用你想要指定的其他属性扩展或覆盖这些特殊模板。 但某些基本模板类型包含无法重写的属性。
+定义基本模板类型后，你可以使用你想要指定的其他属性扩展或覆盖这些特殊模板。 某些基本模板类型包含无法覆盖的属性。
 
 > [!NOTE]
 > Microsoft 团队中提供的预定义的基本模板可以重复，但不能编辑。
@@ -88,7 +82,7 @@ ms.locfileid: "48218573"
 |零售经理协作| `retailManagerCollaboration` |信道 <ul><li>常规<li>运营</li><li>培训</li></ul> 识别 <ul><li>源自</li></ul>|
 ||||
 
-有关模板类别的更多详细信息，请参阅以下类别：
+有关模板类别的详细信息，请参阅以下类别：
 
 - [财务模板](financial-teams-templates-in-the-admin-console.md)
 - [常规模板](general-teams-templates-in-the-admin-console.md)

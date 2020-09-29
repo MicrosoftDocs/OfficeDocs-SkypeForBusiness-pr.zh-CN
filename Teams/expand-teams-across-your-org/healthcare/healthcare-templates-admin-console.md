@@ -18,17 +18,14 @@ appliesto:
 ms.reviewer: ''
 description: 使用管理员控制台中的 Microsoft 团队模板，通过提供设置、频道和应用的预定义模板，快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 93de98eb61f503467f7b9de218a10982402eeb41
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171086"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294578"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>在管理控制台中使用团队医疗保健模板
-
-[!INCLUDE [template](../../includes/preview-feature.md)]
 
 Microsoft 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 
@@ -38,7 +35,7 @@ Microsoft 团队模板使你可以通过提供设置、频道和预安装应用�
 
 ## <a name="collaborate-on-patient-care"></a>协作处理患者护理
 
- 在拖动、pod 或部门内优化医疗保健沟通和协作。 该模板可用于促进患者管理，以及拖动的运行需要。
+ 在拖动、pod 或部门内优化医疗保健沟通和协作。 该模板可用于促进患者管理和拖动的运行需要。
 
 | 基本模板类型 |baseTemplateId| 此基本模板附带的属性 |
 | ------------------ |---|----------------------------------------------------- |

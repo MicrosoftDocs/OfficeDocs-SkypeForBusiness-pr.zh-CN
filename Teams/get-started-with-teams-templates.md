@@ -19,21 +19,21 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7878c6dc4e4b632668a0db298a9dc086cf554429
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135836"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294598"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>使用 Microsoft Graph 开始使用团队模板
 
 > [!NOTE]
 > 团队模板当前不支持创建专用通道。 模板定义中不包含专用通道创建。
 
-团队模板是围绕业务需求或项目设计的团队结构的预建定义。 您不能创建自己的模板。 而是使用 Microsoft Graph 的预建模板。 你可以使用团队模板快速创建具有不同主题和预安装应用的频道的丰富协作空间，以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。
+团队模板是围绕业务需求或项目设计的团队结构的预建定义。 你可以 [在管理控制台中创建自己的模板](get-started-with-teams-templates-in-the-admin-console.md)。 使用 Microsoft Graph，你可以使用预生成的模板。 你可以使用团队模板快速创建具有不同主题和预安装应用的频道的丰富协作空间，以纳入关键任务内容和服务。 团队模板提供了预定义的团队结构，可帮助你在组织中轻松创建一致的团队。
 
-在本文中，我们将介绍可在模板中定义的属性、哪些基本模板类型以及如何使用一些示例请求来从模板创建团队。
+在本文中，我们将介绍可在模板中定义的属性、哪些基本模板类型以及你可以如何使用一些示例请求从模板创建团队。
 
 本文适用于您的情况：
 
@@ -60,11 +60,11 @@ ms.locfileid: "48135836"
 
 ## <a name="what-are-base-template-types"></a>什么是基本模板类型
 
-基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含不在团队模板中单独支持的应用商店和团队属性中不可用的专有应用。 了解如何 [在管理控制台中使用团队模板](get-started-with-teams-templates.md)。
+基本模板类型是 Microsoft 为特定行业创建的特殊模板。 这些基本模板通常包含应用商店中不可用的专有应用。 此外，基本模板通常包含团队模板中尚不支持的团队属性。 了解如何 [在 Microsoft Graph 中使用团队模板](get-started-with-teams-templates.md)。
 
-定义基本模板类型后，你可以使用你想要指定的其他属性扩展或覆盖这些特殊模板。 但某些基本模板类型包含无法重写的属性。
+定义基本模板类型后，你可以使用你想要指定的其他属性扩展或覆盖这些特殊模板。 某些基本模板类型包含无法覆盖的属性。
 
-默认情况下，基本模板设置为 " **标准** "，其中不包含任何其他专用应用或特殊属性。 下面是可用的基本模板类型的当前列表。
+默认情况下，基本模板设置为 " **标准**"，它不包含任何其他专用应用或特殊属性。 下面是可用的基本模板类型的当前列表。
 
 | 基本模板类型 | baseTemplateId | 此基本模板附带的属性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -80,9 +80,7 @@ ms.locfileid: "48135836"
 
 ## <a name="related-topics"></a>相关主题
 
+- [管理控制台中的团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)
 - 在预览中[创建团队](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) () 
 - [新团队](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams 管理培训](itadmin-readiness.md)
-- [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
-- [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
-- [管理控制台中的团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)

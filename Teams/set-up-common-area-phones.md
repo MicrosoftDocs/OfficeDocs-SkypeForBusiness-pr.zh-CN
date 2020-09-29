@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '了解如何为大厅、接待区和会议室设置公共区域电话 '
-ms.openlocfilehash: 05338fe640ca80332eff3659d1a0ef96689d8d41
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: dfde8c601c0a52dc56a3d76903b788400a5b299a
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788746"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294458"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>为 Microsoft Teams 设置公共区域电话许可证
 > [!NOTE]
@@ -67,8 +67,8 @@ ms.locfileid: "46788746"
 |Microsoft Teams |   &#x2714; |
 |电话系统 |    &#x2714; |
 |音频会议 |       &#x2718; &sup1;  |
-|Microsoft Intune |        &#x2718; &sup2; |
-|全球可用性 |    &#x2714; |
+|Microsoft Intune |    &#x2714; |
+|全球可用性 |       &#x2718; &sup2;  |
 |频道可用性 |    EA、EAS、CSP、GCC、EES、Web Direct  |
 |      |         |
 

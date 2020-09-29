@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 39debd0b184109a55686977f27ba1262d5d65641
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48216693"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294448"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>在管理控制台中使用常规团队模板
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 
 团队模板具有围绕财务需求设计的团队结构的预建定义。 您还可以扩展团队模板以创建根据您的特定组织需求量身定制的团队。
 
-在本文中，我们将介绍每个团队模板以及我们建议如何使用它们。
+在本文中，我们将介绍每个团队模板并建议如何使用它们。
 
-本文适用于你负责在整个财务组织中规划、部署和管理多个团队的情况。 我们假定你的组织中已部署团队服务。 如果尚未推出团队，请先阅读 [如何展示 Microsoft 团队](How-to-roll-out-teams.md)。
+本文适用于你负责在整个财务组织中规划、部署和管理多个团队的情况。 你已在你的组织中部署团队服务。 如果尚未推出团队，请先阅读 [如何展示 Microsoft 团队](How-to-roll-out-teams.md)。
 
 若要深入了解有关团队模板的详细信息，请参阅 [团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)。
 
@@ -70,7 +67,7 @@ ms.locfileid: "48216693"
 
 ## <a name="manage-an-event"></a>管理事件
 
-管理任务、文档和协作处理提供引人注目事件所需的所有内容。 邀请来宾用户在您的公司内部和外部进行安全协作。
+管理任务、文档，并协作处理提供引人注目事件所需的所有内容。 邀请来宾用户在您的公司内部和外部进行安全协作。
 
 你可能无法访问基于你的应用权限策略的某些应用。
 

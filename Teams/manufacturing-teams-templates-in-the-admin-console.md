@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用团队模板，通过使用管理控制台提供预定义的设置、信道和预安装应用来创建为制造需求设计的团队结构。
+description: 了解如何使用。 团队模板，可通过使用管理员控制台提供预定义的设置、信道和预安装应用来创建为制造需求设计的团队结构。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,25 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 919bfc1bc3e13985ac90484cd203bf93201babd2
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 3ebbf765373699d07f96d11fff66e9677213bdb8
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48171026"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294430"
 ---
 # <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>在管理控制台中使用团队制造模板
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 
 团队模板具有围绕制造需求设计的团队结构的预建定义。 您还可以扩展团队模板以创建根据您的特定组织需求量身定制的团队。
 
-在本文中，我们将介绍每个团队模板以及我们建议如何使用它们。
+在本文中，我们将介绍每个团队模板并建议如何使用它们。
 
-本文适用于你负责在你的制造组织中规划、部署和管理多个团队的情况。 我们假定你的组织中已部署团队服务。 如果尚未推出团队，请先阅读 [如何展示 Microsoft 团队](How-to-roll-out-teams.md)。
+本文适用于你负责在你的制造组织中规划、部署和管理多个团队的情况。 你已在你的组织中部署团队服务。 如果尚未推出团队，请先阅读 [如何展示 Microsoft 团队](How-to-roll-out-teams.md)。
 
 若要深入了解有关团队模板的详细信息，请参阅 [团队模板入门](get-started-with-teams-templates-in-the-admin-console.md)。
 

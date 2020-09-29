@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 48c120397c2d2112386e858378ba5391bae5389f
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: 7dd598d92ab935ed8221258c386e87788d38f92c
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48135856"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294588"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft 团队中创建自定义团队模板
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **教育机构客户尚不支持自定义模板。**
 
@@ -65,6 +62,9 @@ ms.locfileid: "48135856"
 8. 完成后单击 " **提交** "。
 
 您的新模板将显示在 " **团队模板** " 列表中。 模板可用于在团队中创建团队。
+
+> [!Note]
+> 团队用户最多需要24小时才能查看库中的自定义模板。
 
 ## <a name="related-topics"></a>相关主题
 

@@ -16,17 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0edb682f4d39e6371c68029f6014945d3de441c9
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 89489ff40cf42fb297ab5ea6b5d61cbc874d272b
+ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48219083"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48294558"
 ---
 # <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>从 Microsoft 团队中的现有团队模板创建新模板
-
-[!INCLUDE [template](includes/preview-feature.md)]
 
 **教育机构客户尚不支持自定义模板。**
 
@@ -72,6 +69,9 @@ Microsoft 团队提供预构建的模板，可以保存和修改这些模板以�
 7. 完成添加频道和应用程序后，选择 " **提交** "。
 
     新模板将保存到模板库中。
+
+> [!Note]
+> 团队用户最多需要24小时才能查看库中的自定义模板。
 
 ## <a name="related-articles"></a>相关文章
 
