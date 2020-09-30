@@ -17,22 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24e4312af520bf783c0382b7543190644bfc1ff0
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323986"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308165"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>在 Microsoft 团队中使用 NDI®技术
 
-[!INCLUDE [template](includes/preview-feature.md)]
+ NewTek NDI® (网络设备接口) 技术是用于连接媒体设备 (（如 studio 相机和混音器) ）的新式解决方案。 除了使用物理连接之外，NDI®技术可以通过本地 intranet （包括在本地计算机上）实现连接。
 
- NDI® (网络设备接口) 技术是用于连接媒体设备 (（如 studio 相机和混音器) ）的新式解决方案。 除了使用物理连接之外，NDI®技术可以通过本地 intranet （包括在本地计算机上）实现连接。
+NDI®技术已经成为一种标准的行业解决方案，可用于为流制作实时内容，并在专业直播领域获得重要意识和采纳。
 
-NewTek NDI®技术已成为为流制作实时内容的标准行业解决方案，并且在专业的广播世界中获得重要的意识和采纳。
-
-Skype 以前在2018中向 Skype 添加了 NDI®功能。 Microsoft 团队利用此功能改善会议体验。
+Skype 以前在2018中向 Skype 添加了 NDI®功能。 Microsoft 团队使用此功能改善会议体验。
 
 NDI®技术限制为本地网络，只能被视为生产工作流的一部分，而不是广播解决方案。
 

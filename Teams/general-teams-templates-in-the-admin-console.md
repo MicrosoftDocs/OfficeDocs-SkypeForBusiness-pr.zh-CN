@@ -19,14 +19,16 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 077b66a8d5282254540a5b26a2af79c353f58f9b
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: a16634246bf301cde3b9cbdbd5df551b10706471
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294448"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308155"
 ---
 # <a name="use-general-teams-templates-in-the-admin-console"></a>在管理控制台中使用常规团队模板
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 

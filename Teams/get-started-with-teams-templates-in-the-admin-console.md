@@ -18,14 +18,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3269a49072f9e050a139d9bd6463ab4c85a358d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: e65fd33ed47b54d220925353bdb350557fc81bcb
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294608"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308185"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-console"></a>管理控制台中的团队模板入门
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 **教育机构客户尚不支持自定义模板。**
 

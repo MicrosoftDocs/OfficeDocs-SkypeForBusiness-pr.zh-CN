@@ -18,14 +18,16 @@ appliesto:
 ms.reviewer: ''
 description: 使用管理员控制台中的 Microsoft 团队模板，通过提供设置、频道和应用的预定义模板，快速轻松地创建团队。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff093ecb0ffec0fdc58d724c4a75fdea1810fd6d
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 95837c4bbeb1f0624476f5066a168b09d09fd605
+ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294578"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48308275"
 ---
 # <a name="use-teams-healthcare-templates-in-the-admin-console"></a>在管理控制台中使用团队医疗保健模板
+
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Microsoft 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 
