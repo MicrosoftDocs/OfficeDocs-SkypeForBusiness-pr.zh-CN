@@ -51,7 +51,15 @@
 ## [团队到期和续订](team-expiration-renewal.md)
 ## [存档或删除团队](archive-or-delete-a-team.md)
 ## [从 Slack 迁移到 Teams](migrate-slack-to-teams.md)
-## [适用于中小型企业的 Graph 内置 Teams 模板](smb-templates.md)
+## 使用 Teams 模板
+### [在管理控制台中使用 Teams 模板](get-started-with-teams-templates-in-the-admin-console.md)
+### [适用于中小型企业的 Graph 内置 Teams 模板](smb-templates.md)
+### [创建自定义 Teams 模板](create-a-team-template.md)
+### [从现有团队中创建模板](create-template-from-existing-team.md)
+### [从现有模板生成模板](create-template-from-existing-template.md)
+### [金融类别 Teams 模板](financial-teams-templates-in-the-admin-console.md)
+### [常规类别 Teams 模板](general-teams-templates-in-the-admin-console.md)
+### [制造类别 Teams 模板](manufacturing-teams-templates-in-the-admin-console.md)
 
 ## 与外部用户通信
 ### [与其他组织的用户通信](communicate-with-users-from-other-organizations.md)
@@ -665,6 +673,7 @@
 
 ## 适用于医疗保健业的 Teams
 ### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
+### [管理控制台中适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 ### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [适用于医疗保健组织的安全邮件入门](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [消息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
@@ -699,10 +708,12 @@
 ### [从 SPO 网站或页面创建 Teams Intranet 门户应用](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [适用于零售业的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
+### [管理控制台中的 Teams 零售模板入门](retail-teams-templates-in-the-admin-console.md)
 ### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 
 ## [Teams 政府版](expand-teams-across-your-org/teams-for-government-landing-page.md)
 ### [支持远程工作人员 (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
+### [政府版 Teams 模板入门](government-teams-templates-in-the-admin-console.md)
 ### [管理 Office 365 G1 试用版优惠](g1-trial-license.md)
 ### [Microsoft 365 政府版计划 - GCC](plan-for-government-gcc.md)
 ### [Microsoft 365 政府版计划 - GCC（高）](plan-for-government-gcc-high.md)
