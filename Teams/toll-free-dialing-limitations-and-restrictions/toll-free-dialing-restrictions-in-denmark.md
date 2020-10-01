@@ -1,11 +1,10 @@
 ---
 title: 丹麦的免费拨号限制
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, oscarr
+ms.reviewer: davlick, krkilaru
 ms.topic: reference
-ms.assetid: 7812d5d5-0d57-4f3e-85b6-628882a911b3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -22,14 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: 了解如何在中国南部拨打免费电话号码，包括可用性、有线/固定线路和移动网络可用性以及限制。
-ms.openlocfilehash: b8dc3b6382b5b74a80bba1a8702d1a40bee5eaf0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 这将帮助您了解如何拨打每个国家/地区的免费电话号码。 选择国家/地区后，将向您转到特定于国家/地区的页面，其中包含特定于免费服务可用的详细信息、限制和限制。 拨号格式或格式将向你显示每个国家/地区内所需的访问代码，以拨打免费电话号码。
+ms.openlocfilehash: c3db94798c56ca35886992d8d4c3496b45b258a7
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140441"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320767"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>丹麦的免费拨号限制
 
@@ -39,7 +37,7 @@ ms.locfileid: "43140441"
 |**Details**|**说明**|
 |:-----|:-----|
 |是否可以免费通话？  <br/> |是  <br/> |
-|拨号格式  <br/> | 808 8XXXX <br/>  808 2XXXX <br/>  802 5XXXX <br/> |
+| (s 的拨号格式)   <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
 |国家/地区 ISO 代码  <br/> |DK  <br/> |
 |已覆盖的岛/地区  <br/> |不适用  <br/> |
 |未覆盖的岛/区域  <br/> | 在法罗群岛或格陵兰岛无法访问。 <br/> |
@@ -50,7 +48,7 @@ ms.locfileid: "43140441"
 ## <a name="related-topics"></a>相关主题
 [免费拨号限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[获取 Skype for Business 和 Microsoft Teams 的服务电话号码](/microsoftteams/getting-service-phone-numbers)
+[获取服务电话 numberss](/microsoftteams/getting-service-phone-numbers)
 
   
  

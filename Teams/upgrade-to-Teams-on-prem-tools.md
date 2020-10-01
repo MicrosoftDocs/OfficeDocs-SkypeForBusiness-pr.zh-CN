@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b910a93435cedfc1dcc83c34b766d9121f93eea
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955949"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328191"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>面向 IT 管理员的团队升级工具 &mdash;
 
@@ -45,11 +45,11 @@ ms.locfileid: "47955949"
 
 ## <a name="tools-for-managing-the-upgrade"></a>用于管理升级的工具
 
-无论选择哪种升级方法，都可以使用 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)（用于控制用户的共存模式）管理到 TeamsOnly 的切换。 有关每种模式的详细信息，请参阅 [共存模式](migration-interop-guidance-for-teams-with-skype.md)。
+无论选择哪种升级方法，对于已有 Skype for Business Online 的用户，都可以使用 [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)（用于控制用户的共存模式）管理到 TeamsOnly 的切换。 对于在 Skype for Business Server 中使用本地帐户的用户，你也可以使用 `Move-CsUser` 将 [其移动到云](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  有关每种模式的详细信息，请参阅 [共存模式](migration-interop-guidance-for-teams-with-skype.md)。  
 
-无论是使用 Skype for Business 模式执行选择功能过渡，还是只从默认孤岛配置升级到 TeamsOnly 模式，TeamsUpgradePolicy 是主要工具。 与团队中的任何其他策略一样，你可以将 TeamsUpgradePolicy 直接分配给用户。 您也可以将策略设置为租户范围内的默认设置。 对用户的任何分配都优先于租户默认设置。  你可以在团队管理控制台和 PowerShell 中管理该策略。
+无论是使用 Skype for Business 模式执行选择功能过渡，还是从默认的孤岛配置升级到 TeamsOnly 模式，TeamsUpgradePolicy 是已具有 Skype for business Online 的用户的主要工具。 与团队中的任何其他策略一样，你可以将 TeamsUpgradePolicy 直接分配给用户。 您也可以将策略设置为租户范围内的默认设置。 对用户的任何分配都优先于租户默认设置。  你可以在团队管理控制台和 PowerShell 中管理该策略。
 
-你可以将用户的任何模式分配给用户，无论用户是托管在 Skype for Business Online 还是在本地， **除了只能将 TeamsOnly 模式分配给已驻留在 skype for Business online 中的用户**。 这是因为使用 Skype for Business 用户和联盟以及 Microsoft 365 Phone 系统功能的互操作仅在用户托管在 Skype for business Online 中时才可以使用。
+你还可以将除 TeamsOnly 模式之外的任何 TeamsUpgradePolicy 模式分配给驻留在本地 Skype for business 的用户。 **TeamsOnly 模式仅可分配给已驻留在 Skype for Business Online 中的用户**。 这是因为使用 Skype for Business 用户和联盟以及 Microsoft 365 Phone 系统功能的互操作仅在用户托管在 Skype for business Online 中时才可以使用。 此外， **如果你有 Skype For business 内部部署 (，但你不能将 TeamsOnly 模式分配为租户范围内的默认值** ，这种情况由指向非 Office 365 的位置的 lyncdiscover DNS 记录检测出来。
 
 具有 Skype for business 帐户的 Skype for business 帐户的用户 [必须在线 (移动](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 到 skype For business online 或直接与团队) 使用 Skype for business 内部部署工具单中的 "移动 move-csuser"。 这些用户可以通过1个或2个步骤移到 TeamsOnly：
 
@@ -83,7 +83,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->如果你拥有本地 Skype for Business 帐户的任何用户，则不能在租户级别分配 TeamsOnly 模式，除非你将其他模式显式分配给具有本地 Skype for Business 帐户的所有用户。
+>如果你拥有本地 Skype for Business 帐户的任何用户，则无法在租户级别分配 TeamsOnly 模式。 必须使用移动 Move-csuser 将这些用户逐个移动到云。
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>在 Skype for Business 客户端中使用通知

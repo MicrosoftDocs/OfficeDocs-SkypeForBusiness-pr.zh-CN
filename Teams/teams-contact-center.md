@@ -13,19 +13,16 @@ f1.keywords:
 description: 作为服务的集成联系人中心概述 (CCaaS) Microsoft 团队的解决方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa1ac16a488144e431e613126f63ddbf10861ab4
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308385"
+ms.locfileid: "48322281"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 团队的联系中心集成
 
 将常用的联系人中心解决方案与 Microsoft 团队集成是客户部署团队呼叫功能的一个常见需求。  本文概述了联系中心解决方案如何与 Microsoft 团队集成，以及有关参与 Microsoft 团队连接的合作伙伴解决方案的其他信息。
-
-> [!NOTE]
-> 联系中心集成功能需要高级通信许可证。 
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>什么是 Microsoft 团队的联系中心集成？
 
@@ -50,6 +47,7 @@ Microsoft 团队通过在其通信模式（包括聊天、视频会议和通话�
 | Anywhere365 | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | Competella | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | ComputerTalk | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| ContactCenter4All | https://docs.microsoft.com/microsoftteams/teams-contact-center#connected-contact-center-for-microsoft-teams-certification-program |
 | Enghouse 交互式 | http://www.enghouseteams.com/                                                       |
 | Five9 | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | Genesys | https://www.genesys.com/microsoft                                                                                   |

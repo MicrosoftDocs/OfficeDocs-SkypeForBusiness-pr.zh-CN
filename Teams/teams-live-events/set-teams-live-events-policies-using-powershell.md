@@ -18,12 +18,12 @@ description: 有关如何使用 PowerShell 设置团队中的策略以控制哪�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1c1131790e36fe451444a8c8a3fb25259d5741da
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: d83dd66914c835f62028fc4941da34646c75411d
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691568"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320797"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中设置实时事件策略
 
@@ -32,20 +32,21 @@ ms.locfileid: "44691568"
 - [Set-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [新-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [授权-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
+- [新-CsGroupPolicyAssignment](https://docs.microsoft.com/powershell/module/teams/new-csgrouppolicyassignment?view=teams-ps)
 
 下面是一些示例。
 
 > [!NOTE]
-> 必须先连接到 Skype for Business Online PowerShell，然后才能运行这些 cmdlet。 有关详细信息，请参阅[管理 Microsoft 365 或 Office 365 PowerShell 的 Skype For Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+> 必须先连接到 Skype for Business Online PowerShell，然后才能运行这些 cmdlet。 有关详细信息，请参阅 [管理 Microsoft 365 或 Office 365 PowerShell 的 Skype For Business Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="allow-users-to-schedule-live-events"></a>允许用户安排实时事件 
 
 > [!NOTE]
-> 这些示例适用于团队中生成的事件。 对于使用外部应用或设备生成的事件，必须执行其他步骤。 有关详细信息，请参阅[使用户能够计划使用外部应用或设备生成的事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。
+> 这些示例适用于团队中生成的事件。 对于使用外部应用或设备生成的事件，必须执行其他步骤。 有关详细信息，请参阅 [使用户能够计划使用外部应用或设备生成的事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。
 
 **允许用户安排实时事件**
 
-如果向用户分配了全局策略，请运行并验证*AllowBroadcastScheduling*参数是否设置为*True*：
+如果向用户分配了全局策略，请运行并验证 *AllowBroadcastScheduling* 参数是否设置为 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -57,11 +58,11 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>用户方案
 **希望组织中的所有用户都能够安排实时事件**
 
-如果向用户分配了全局策略，请运行并验证*AllowBroadcastScheduling* * 是否设置为*True*：
+如果向用户分配了全局策略，请运行并验证 *AllowBroadcastScheduling* * 是否设置为 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-如果向用户分配了全局策略之外的策略，请运行并验证 *-AllowBroadcastScheduling*是否设置为*True*：
+如果向用户分配了全局策略之外的策略，请运行并验证 *-AllowBroadcastScheduling* 是否设置为 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -78,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **您希望大量用户能够安排实时事件，并防止一组用户安排实时事件**
 
-运行并验证*AllowBroadcastScheduling*是否设置为*True*：
+运行并验证 *AllowBroadcastScheduling* 是否设置为 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
@@ -139,7 +140,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 > [!NOTE]
 > 此设置仅适用于团队中产生的事件。 
 
-设置全局策略，为活动与会者打开实时字幕和副标题（脚本）：
+设置全局策略，为活动与会者打开实时字幕和副标题 (脚本) ：
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```

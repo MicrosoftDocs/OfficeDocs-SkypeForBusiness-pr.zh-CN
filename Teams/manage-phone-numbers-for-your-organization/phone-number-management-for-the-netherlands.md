@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在荷兰 for Microsoft 团队中获取和管理电话号码的信息。
-ms.openlocfilehash: 7e814786f8e381e59d4c56af815cefff1490dac1
-ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
+ms.openlocfilehash: ab5cd7fa88b0748f2628751f95087c9eff677dfd
+ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44170663"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48324108"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>荷兰的电话号码管理
 
@@ -36,10 +36,11 @@ ms.locfileid: "44170663"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在 Microsoft 团队管理中心中列出的新用户和服务电话号码。   <br/> | 下载此表单。</br> [荷兰（v）的新电话号码请求（nl-nl）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(nl-nl).pdf?raw=true) <br/> [荷兰的新电话号码请求（v.）（en-us）](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-netherlands-(v.4.0)-(en-us).pdf?raw=true)  <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|获取转接给我们的电话号码。  <br/> |下载下列表单之一： <br/> [荷兰授权书 (LOA)（地理号码）(v.2.0)(nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> [荷兰授权书 (LOA)（非地理号码）(v.2.0)(nl-nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-Netherlands-(non-geographic-numbers)-(v.2.0)-(nl-nl).pdf?raw=true) <br/> <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
-|发布/取消发布国家电话目录中的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
+|获取未在 Microsoft 团队管理中心中列出的新用户或服务电话号码。   <br/> | 下载此表单。</br> [新电话号码请求荷兰 ()  (nl-nl) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf?raw=true) <br/><br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|获取转接给我们的电话号码。  <br/> |下载下列表单之一： <br/> [ (的 LOA) 的授权信函 (所有号码)  (v)  () nl-nl ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.5.0)-(nl-nl).pdf?raw=true) <br/> <br/>  填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|发布/取消发布国家电话目录中)  (s 的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
+|将目录服务更新设置为呼叫队列或自动助理号码|若要添加或更改呼叫队列或自动助理号码，请联系 [PSTN 服务支持人员](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相关主题
 

@@ -16,27 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8fa1bcc7190050fd06c15717aebf8648f94b090
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: bb9400778b8e000a438343e74bc6b030087ff297
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46597131"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328251"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>与 Microsoft 团队的通信合规性
 
 通信合规性是 Microsoft 365 中的内幕风险解决方案，可帮助你检测、捕获和处理组织中不适当的邮件，从而帮助最大程度地减少通信风险。
 
-对于 Microsoft 团队，通信合规性有助于标识团队频道或1:1 和群组聊天中的[以下类型](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference)的不当内容：
+对于 Microsoft 团队，通信合规性有助于标识团队频道或1:1 和群组聊天中的 [以下类型](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference) 的不当内容：
 
 - 冒犯性、亵渎和 harassing 语言
 - 成人、racy 和 gory 图像
 - 敏感信息的共享
 
->[!IMPORTANT]
->通信合规性不支持专用 Microsoft 团队频道。 由来宾用户发送给不会对不适当内容进行监视的团队用户发送的聊天通信。
-
-有关通信合规性以及如何为你的组织配置策略的详细信息，请参阅[Microsoft 365 中的通信合规性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
+有关通信合规性以及如何为你的组织配置策略的详细信息，请参阅 [Microsoft 365 中的通信合规性](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)。
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何在 Microsoft 团队中使用通信合规性
 
@@ -44,7 +41,7 @@ ms.locfileid: "46597131"
 
 ### <a name="getting-started"></a>入门
 
-Microsoft 团队中的通信合规性入门首先[计划](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan)和创建预定义或自定义策略，以在团队频道或1:1 和组中标识不适当的用户活动。 请记住，在配置过程中，你将需要[配置](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure)某些权限和基本先决条件。
+Microsoft 团队中的通信合规性入门首先 [计划](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-plan) 和创建预定义或自定义策略，以在团队频道或1:1 和组中标识不适当的用户活动。 请记住，在配置过程中，你将需要 [配置](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure) 某些权限和基本先决条件。
 
 团队管理员可以在以下级别配置通信合规性策略：
 

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft 团队聊天室的发行说明，其中列出了 Microsoft 团队聊天室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5913a31878b59fb4e061888b4318e8e7d8f3719c
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761318"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328221"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -29,6 +29,7 @@ ms.locfileid: "46761318"
 
 |新版 |已发布到 <br/> Microsoft Store |
 |--- |--- |
+|4.6.20.0 |09/30/2020 |
 |4.5.37.0 |08/14/2020 |
 |4.5.35.0 |07/23/2020 |
 |4.4.63.0 |06/25/2020 |
@@ -66,6 +67,13 @@ ms.locfileid: "46761318"
 |RTM (1.0.8)  |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft 团队聊天室功能简介和问题解决
+
+### <a name="46200-09302020"></a>4.6.20.0 (09/30/2020) 
+
+此更新中引入的内容：
+- 查看更多视频，在会议室前面显示3x3 视频库  
+- 从 MTR 开始本地实时隐藏字幕 
+- 通过直接来宾加入来加入团队聊天室中的缩放会议 (预览) 
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020) 
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e16e651004148645789f5e8e55df6fbbfa1dea9c
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8c359b39707b57a653f35e75497672d306209ccd
+ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955909"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48328211"
 ---
 # <a name="upgrade-considerations-for-organizations-with-skype-for-business-server-on-premises-mdash-for-it-administrators"></a>针对 IT 管理员在本地 Skype for business 服务器的组织的升级注意事项 &mdash;
 
@@ -52,7 +52,7 @@ ms.locfileid: "47955909"
 
 - 具有本地 Skype for Business 帐户的团队用户 (也就是说，他们尚未使用移动 Move-csuser) 移动到云，无法与任何 Skype for Business 用户进行互操作，也不能与外部用户联盟。 此功能仅在用户被移动到云 (在 "孤岛" 模式下或 TeamsOnly 用户) 时才可用。 
 
-- 如果你拥有本地 Skype for Business 帐户的任何用户，则不能在租户级别分配 TeamsOnly 模式，除非你将其他模式显式分配给具有本地 Skype for Business 帐户的所有用户。 
+- 如果你拥有本地 Skype for Business 帐户的任何用户，则无法在租户级别分配 TeamsOnly 模式。 必须先使用本地 Skype for Business 帐户将所有用户移到云 `Move-CsUser` ，然后 [禁用混合才能完成到云的迁移](https://docs.microsoft.com/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)。  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams` 如果检测到的 lyncdiscover DNS 记录指向非 Office 365 的位置，则不会在租户级别工作。
 
 - 你必须确保你的用户与正确的 Skype for Business 属性正确同步到 Azure AD。 这些属性都是带有 "msRTCSIP-" 的所有前缀。 如果用户未正确地与 Azure AD 同步，团队中的管理工具将无法管理这些用户。  (例如，你将无法向本地用户分配团队策略，除非你正确同步这些属性。 ) 有关详细信息，请参阅 [配置团队和 Skype for business 的 AZURE AD 连接](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)。
 
@@ -64,12 +64,6 @@ ms.locfileid: "47955909"
 
 >[!NOTE]
 > 2019在年9月3日之后创建的任何新租户均创建为 TeamsOnly 租户，除非该组织已有 Skype for Business Server 的内部部署。 Microsoft 使用 DNS 记录来标识本地 Skype for Business 服务器组织。 如果您的组织具有本地 Skype for Business 服务器，但没有公共 DNS 条目，则您需要致电 Microsoft 支持部门以使新租户降级。 
-
-
-
-
-
-
 
 
 
