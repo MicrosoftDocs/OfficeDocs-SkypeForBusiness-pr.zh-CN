@@ -281,7 +281,7 @@
 
 # 语音电话系统和 PSTN 连接 
 
-## [规划部署](cloud-voice-landing-page.md)
+## [规划 Teams 语音解决方案](cloud-voice-landing-page.md)
 
 ## 电话系统
 ### [什么是电话系统？](what-is-phone-system-in-office-365.md)
