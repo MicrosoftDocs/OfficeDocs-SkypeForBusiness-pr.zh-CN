@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 了解如何为 Microsoft 团队设置和测试自动助理。
-ms.openlocfilehash: 2cb796db37f40025dc7a78123da729fd5812bbbb
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 4de85d8a18c1221c73b4dbdb42ab27504ebbcb09
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48220311"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48337588"
 ---
 # <a name="set-up-an-auto-attendant"></a>设置自动助理
 
@@ -175,7 +175,7 @@ ms.locfileid: "48220311"
 
 当呼叫者使用按名称拨号或按扩展方式拨号时， *拨号作用域* 定义哪些用户在目录中可用。 **所有联机用户**的默认值包括您的组织中的所有用户，这些用户是使用电话系统许可证的联机用户或使用 Skype For business 服务器内部托管的用户。
 
-通过选择 "**包含**" 或 "**排除**" 下的 "**自定义用户组**"，然后选择一个或多个 Microsoft 365 组、通讯组列表或安全组，可以包含或排除特定用户。 例如，您可能希望从 "拨号目录" 中将组织中的主管排除在您的组织中。
+通过选择 "**包含**" 或 "**排除**" 下的 "**自定义用户组**"，然后选择一个或多个 Microsoft 365 组、通讯组列表或安全组，可以包含或排除特定用户。 例如，您可能希望从 "拨号目录" 中将组织中的主管排除在您的组织中。  (如果用户在两个列表中，则会将其从目录中排除。 ) 
 
 > [!NOTE]
 > 新用户可能需要长达36小时才能在目录中列出其名称。

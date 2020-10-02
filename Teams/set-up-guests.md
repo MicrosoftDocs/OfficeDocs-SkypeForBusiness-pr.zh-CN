@@ -17,24 +17,21 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e91f51bb809b9917036dce1d074ec694cb113f
-ms.sourcegitcommit: 20258b691ffc559b1656fd1e57f67f5c3a9e29e1
+ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "46761148"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333242"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>打开或关闭对 Microsoft 团队的来宾访问
-===================================================
+# <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>打开或关闭对 Microsoft 团队的来宾访问
 
-默认情况下会关闭来宾访问。 作为 Microsoft 365 或 Office 365 管理员，必须先为团队启用来宾访问权限，管理员或团队所有者才能添加来宾。 若要启用来宾访问，请 [与团队中的来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。 
+默认情况下会关闭来宾访问。 作为 Microsoft 365 或 Office 365 管理员，必须先为团队启用来宾访问权限，管理员或团队所有者才能添加来宾。
 
 启用来宾访问后，可能需要几个小时才能使更改生效。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾访问尚未打开，或者设置尚未生效。
 
 > [!IMPORTANT]
-> 打开来宾访问取决于 Azure Active Directory、Microsoft 365 或 Office 365、SharePoint Online 和团队中的设置。 有关详细信息，请参阅 [授权团队中的来宾访问](Teams-dependencies.md)。
-
-
+> 启用来宾访问取决于 Azure Active Directory、Microsoft 365、SharePoint 和团队中的设置。 有关详细信息，请参阅 [与团队中的来宾协作](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)。
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>配置团队管理中心中的来宾访问
 
@@ -68,10 +65,12 @@ ms.locfileid: "46761148"
 
 5. 单击“**保存**”。
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>使用 PowerShell 打开或关闭来宾访问
-
-已阅读 ["使用 PowerShell" 以打开或关闭来宾访问](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)。
-
 ## <a name="external-access-federation-vs-guest-access"></a>外部访问（联合身份验证）与来宾访问
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="see-also"></a>另请参阅
+
+[阻止来自特定团队的来宾用户](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+
+[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)

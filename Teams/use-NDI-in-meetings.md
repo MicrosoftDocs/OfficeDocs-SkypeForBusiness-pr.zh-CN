@@ -16,13 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a1b756cfdb56de533d4dd170f301dc38e4b3b529
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: d1ad11000de2ae0dac7563d785dfaea8c34978ed
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308165"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48337011"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>在 Microsoft 团队中使用 NDI®技术
 
@@ -50,7 +49,7 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 下图显示了用户在团队会议中看到的标题消息。
 
-![在团队会议中显示的 NDI®技术横幅的图像。](media/NDI-disclosure.png)
+![他 NDI 在团队会议中显示®技术横幅。](media/NDI-disclosure.png)
 
 横幅有一个指向 [Microsoft 隐私声明策略](https://aka.ms/teamsprivacy)的链接。
 
@@ -60,7 +59,7 @@ NDI®技术在所有区域设置中均受支持。 以下用户包括在 NDI®�
 
 - 租户内-完全支持，根据 "震铃/tenantId/userId" (提供，由会议策略控制) 
 - 联合-即使他们在) <sup>1</sup>上有 NDI®技术，也不能 (流访问
-- Freemium-无流访问
+- Premium-无流访问
 - 匿名–无流访问
 - 来宾-无流访问  
 

@@ -16,22 +16,75 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft 团队管理员功能的发行说明。
-ms.openlocfilehash: fb14f80d19401271b4206dde8762d44e80c5a6e9
-ms.sourcegitcommit: 6f89b1ed41e437030167d104c08335445f013b32
+ms.openlocfilehash: 5e3abb22f3ac5e8cd830ea367ab259422d88e8a6
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "47399507"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336991"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>Microsoft 团队管理员功能的发行说明
 
 这些发行说明提供有关 Microsoft 团队的新管理员功能的信息。
 
+## <a name="october-1-2020"></a>2020年10月1日
+
+### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>查看应用权限并授予 Microsoft 团队管理中心的管理员同意
+
+现在，在团队中，全局管理员可以查看和授予同意在 Azure Active Directory 中注册的图形 API 权限，代表应用正在请求的权限（如读取存储在团队中的信息或代表用户发送电子邮件）的整个租户。 现在，IT 管理员将能够查看团队管理中心内应用的特定于资源的同意 (RSC) 权限。 使用该管理员将能够取消阻止其用户在其组织中已查看和同意使用的第三方应用。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/app-permissions-admin-center)。
+## <a name="september-29-2020"></a>2020年9月29日
+
+### <a name="meeting-policy-settings"></a>会议策略设置
+
+为团队会议策略中的 IP 音频和 IP 视频添加两个策略设置： ip 音频和 IP 视频模式的模式。 现在，你可以在团队会议策略中设置传入和传出 IP 音频和 IP 视频。 [了解详细信息](../meeting-policies-in-teams.md#meeting-policy-settings---audio--video)。
+
+## <a name="september-27-2020"></a>2020年9月27日
+
+### <a name="simplified-notification-setting"></a>简化的通知设置
+
+用户现在可以通过增强的功能以更简单的方式管理其通知设置。
+
+## <a name="september-24-2020"></a>2020年9月24日
+
+### <a name="teams-integration-with-android-contacts"></a>团队与 Android 联系人的集成
+
+直接通过 Android 电话簿呼叫使用团队。
+
+## <a name="september-21-2020"></a>2020年9月21日
+
+### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft 团队管理中心中管理 Microsoft Power Platform 应用
+
+作为管理员，你可以控制用户是否可以在团队中的 "应用" 页面上查看和安装由同事构建的 Microsoft Power Platform 应用。 你可以在 "管理应用" 页面上的 "管理应用" 页面上的 "管理应用" 页面上的 "管理应用" 页面上的 "管理应用[app permission policies](../teams-app-permission-policies.md)" 页面或特定用户的 "[管理应用](../manage-apps.md)" 页面上创建的所有应用中， [了解详细信息](../manage-power-platform-apps.md)。
+
+## <a name="september-19-2020"></a>2020年9月19日
+
+### <a name="sharing-files-in-microsoft-teams"></a>在 Microsoft Teams 中共享文件
+
+在 Microsoft 团队中，用户可以与组织内部和外部的其他团队用户共享内容。 团队中的共享基于 SharePoint 和 OneDrive 中配置的设置，因此你为 SharePoint 和 OneDrive 设置的任何内容也将控制团队中的共享。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/sharing-files-in-teams)。
+
+## <a name="september-16-2020"></a>2020年9月16日
+
+### <a name="new-third-party-video-provider-riverbed"></a>新的第三方视频提供商 Riverbed
+
+使用团队实时事件设置来配置你的组织中保留的实时事件的设置。 您可以设置支持 URL 并配置第三方视频分发提供商。 这些设置适用于在你的组织中创建的所有实时事件。 Riverbed 是新的第三方提供商。 [了解详细信息](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events#configure-a-third-party-video-distribution-provider)。
+
+## <a name="september-15-2020"></a>2020年9月15日
+
+### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>集成到团队 PowerShell 模块的 Skype for business Online 连接器
+
+最新的团队 PowerShell 公共版本已与 Skype for Business Online 连接器集成，为团队 PowerShell 管理提供单个模块。 [了解详细信息](../teams-powershell-overview.md#manage-teams-with-powershell)。
+
+## <a name="september-8-2020"></a>2020年9月8日
+
+### <a name="porting-pin"></a>移植引脚
+
+我们添加了设置和管理用于移植或转移电话号码的 PIN 的功能。 当您希望将数字从 Microsoft 的服务提供商转网到服务提供商时，您将向 PSTN 服务台提供此 PIN。 [了解详细信息](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/port-order-overview#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。
+
 ## <a name="september-3-2020"></a>2020年9月3日
 
 ### <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 团队中的自定义应用商店
 
-现在，你可以通过添加你的徽标、自定义背景和自定义文本颜色，将团队应用商店与你的组织品牌进行自定义，以使其更吸引最终用户。 [了解更多信息](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)
+现在，你可以通过添加你的徽标、自定义背景和自定义文本颜色，将团队应用商店与你的组织品牌进行自定义，以使其更吸引最终用户。 [了解详细信息](https://docs.microsoft.com/MicrosoftTeams/customize-your-app-store)。
 
 ## <a name="september-1-2020"></a>2020年9月1日
 
@@ -43,17 +96,17 @@ ms.locfileid: "47399507"
 
 ### <a name="group-chat-size-increase"></a>群组聊天大小增加
 
-我们添加了在群组聊天中有250个参与者的功能。
+我们添加了在群组聊天中有250个参与者的功能。 [了解详细信息](../limits-specifications-teams.md)。
 
 ### <a name="manage-the-praise-app"></a>管理表扬应用
 
-Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示感激。 通过选择要从中选择的锁屏提醒集和创建您自己的徽章的选项，表扬旨在帮助您认识到团队用户在团队用户执行的工作范围内，从教师到第一行员工的工作。 [了解详细信息](../manage-praise-app.md)。
+Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示感激。 表扬应用具有可供选择的锁屏提醒集选择，并提供用于创建自己的徽章的选项。 表扬旨在帮助您认识到团队用户在团队用户执行的工作范围内，从教师到一线工作人员的工作量。 [了解详细信息](../manage-praise-app.md)。
 
 ### <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>通过 Microsoft 团队聊天室和 Surface Hub 设置协调的会议
 
 如果您在会议室中有一个或多个 Microsoft 团队聊天室设备或 Surface Hub，则可以设置协调的会议。 使用协调的会议，你可以设置团队房间设备和 Surface Hub，以便在一个设备上加入会议时，会议室中的其他设备也会加入同一会议。 [了解详细信息](../rooms/coordinated-meetings.md)。
 
-### <a name="tagging-by-shift"></a>通过 Shift 进行标记
+### <a name="tagging-by-shift"></a>通过 shift 进行标记
 
 利用此功能，将自动向人员分配与团队中的倒班应用中的计划和班次组名称相匹配的标记。 [了解详细信息](../manage-tags.md)。
 
@@ -61,7 +114,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="cortana-voice-skills-in-teams"></a>团队中的 Cortana 语音技能
 
-工作组移动应用中的 Cortana 语音技能帮助用户执行会议、通信和协作任务，只需使用语音自然语言。 用户可以通过单击 "团队" 应用中的麦克风按钮来向 Cortana 讲话，并将 "呼叫 Megan" 或 "发送一条消息发送到我的下一次会议" 之类的请求连接到其他人，因为他们需要与其他人进行联系，而不是在使用生活或旅行中。 用户只需说 "加入我的下一个会议" 即可加入会议，或通过询问 "我对早上有什么" 来查看他们的日历。 在会议或呼叫中，他们可以从会议容器中的 "溢出" 菜单调用 Cortana，并执行典型的会议任务，例如按姓名或号码添加人员 ( "向 ( ) 呼叫添加 Megan" ) 或导航幻灯片 ( "转到附录幻灯片" ) 。 此功能支持的其他功能是查找和共享文件、搜索以及通常在 "团队" 应用内导航 ( "与 John 打开我的聊天"，请转到我的 "未读活动"，然后转到我的提及 ) 等。
+工作组移动应用中的 Cortana 语音技能可帮助用户执行会议、通信和协作任务，只需使用语音自然语言即可。 用户可以通过单击 "团队" 应用中的麦克风按钮来向 Cortana 讲话，并将 "呼叫 Megan" 或 "发送一条消息发送到我的下一次会议" 之类的请求连接到其他人，因为他们需要与其他人进行联系，而不是在使用生活或旅行中。 用户只需说 "加入我的下一个会议" 即可加入会议，或通过询问 "我对早上有什么" 来查看他们的日历。 在会议或呼叫中，他们可以从会议容器中的 "溢出" 菜单调用 Cortana，并执行典型的会议任务，例如按姓名或号码添加人员 ( "向 ( ) 呼叫添加 Megan" ) 或导航幻灯片 ( "转到附录幻灯片" ) 。 此功能支持的其他功能是查找和共享文件、搜索和在 "团队" 应用内导航 ( "与 John 一起打开我的聊天"，请转到我的 "未读活动"，然后转到 "我的提及" 等 ) 。
 
 团队中的 cortana 为 Cortana 企业服务提供了相同的企业级隐私、安全性和合规性承诺，如 [联机服务条款 (OST) ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)中所示。
 
@@ -73,7 +126,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="lists-app-in-teams"></a>在团队中列出应用
 
-团队用户现在可以使用 "列表应用" 选项卡直接管理、创建和维护其列表。"列表" 应用在所有团队客户端上工作，并支持列表项目之间的协作和通信。
+团队用户现在可以使用 "列表应用" 选项卡直接管理、创建和维护其列表。"列表" 应用在所有团队客户端上工作，并支持列表项目之间的协作和通信。 有关如何管理列表应用的详细信息，请参阅 [管理你的组织的列表应用](https://docs.microsoft.com/MicrosoftTeams/manage-lists-app)。
 
 ## <a name="august-6-2020"></a>2020年8月6日
 
@@ -101,7 +154,11 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="enhanced-manageability-using-device-tagging-functionality"></a>使用设备标记功能增强的可管理性
 
-作为增强的易管理性的一部分，我们将释放设备标记功能。 它将使 IT 管理员能够使用用户生成的标记对特定的一组设备进行分组，并执行相同的操作。 [了解详细信息](/../../manage-device-tags.md)。
+作为增强的易管理性的一部分，我们将释放设备标记功能。 它将使 IT 管理员能够使用用户生成的标记对特定的一组设备进行管理，并执行相同操作。 [了解详细信息](/../../manage-device-tags.md)。
+
+### <a name="view-only-in-meetings"></a>在会议中仅查看
+
+查看-仅允许最多20000个侦听参与者加入会议，其中组织者具有高级通信加载项 SKU 的许可证。1这是预览或早期版本功能。 [了解更多信息](https://docs.microsoft.com/MicrosoftTeams/limits-specifications-teams-preview#meetings-and-calls)
 
 ## <a name="july-28-2020"></a>2020年7月28日
 
@@ -163,7 +220,7 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>代表其他人共享屏幕
 
-许多 IT 管理员有 complained 在禁用 AllowPrivateCalling 策略时，他们不能让他们的员工屏幕共享聊天。 此功能工作已将从 AllowPrivateCalling 策略启动 screenshare 的功能分离出来，但如果禁用了 AllowPrivateCalling 策略，它仍会阻止用户向 screenshare 会话添加音频/视频。
+许多 IT 管理员有 complained 在禁用 AllowPrivateCalling 策略时，他们不能让他们的员工屏幕共享聊天。 此功能工作已使从 AllowPrivateCalling 策略启动屏幕 hare 的能力更分离，但如果禁用了 AllowPrivateCalling 策略，它仍会阻止用户向屏幕共享会话添加音频/视频。
 
 ## <a name="june-29-2020"></a>2020年6月29日
 
@@ -179,19 +236,19 @@ Microsoft 团队中的表扬应用可帮助用户向组织或课堂成员显示�
 
 ### <a name="users-widgets"></a>用户小组件
 
-我们添加了一个新的用户摘要小组件，可在你添加团队和频道时使用。
+我们添加了添加团队和频道时可用的新用户摘要小组件。
 
 ## <a name="june-21-2020"></a>2020年6月21日
 
-### <a name="sign-in-restrictions-for-android-and-ios-users"></a>Android 和 iOS 用户的登录限制
+### <a name="sign-in-restrictions-for-android-and-ios-users"></a>适用于 Android 和 iOS 用户的登录限制
 
-如果用户未在其他任何位置登录到其 Microsoft 365 帐户，则系统会要求他们提供单因素或多重身份验证（SFA 或 MFA），具体取决于你的组织已针对“移动登录”策略配置的内容。 [了解详细信息](../sign-in-teams.md)。
+如果用户未登录到任何其他位置的 Microsoft 365 帐户，系统将要求他们根据你的组织为移动登录策略配置的内容提供单因素或多重身份验证 (SFA 或 MFA) 。 [了解详细信息](../sign-in-teams.md)。
 
 ## <a name="june-15-2020"></a>2020年6月15日
 
 ### <a name="monitor-shifts-with-audit-logs"></a>通过审核日志监控班次
 
-您可以在您的组织中搜索 "审核日志" 以查看倒班活动。 [了解详细信息](https://docs.microsoft.com/microsoftteams/audit-log-events)。
+您可以在您的组织中搜索 "审核日志" 以查看倒班活动。 [了解详细信息] (<https://docs.microsoft.com/microsoftteams/audit-log-events> 。
 
 ## <a name="june-11-2020"></a>2020年6月11日
 
