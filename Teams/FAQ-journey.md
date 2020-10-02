@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc99ac35344ff0628ec16c474d849320cf931afe
-ms.sourcegitcommit: 8816b58e175031cb0a71e0d0e89e447a7b83a760
+ms.openlocfilehash: 0192f6d822d19b2efd22beba81c1865197aff53c
+ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/08/2020
-ms.locfileid: "46596997"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "48320897"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>常见问题解答 - 从 Skype for Business 升级到 Microsoft Teams
 
@@ -167,14 +167,8 @@ Microsoft Teams 中的呼叫功能可满足你的所有通信需求。 我们鼓
 **是否可以在 Surface Hub 上使用 Teams？**<br>
 现在可以在 Surface Hub 上举行 Teams 会议，用户将拥有通话和会议体验。 有关详细信息，请参阅[部署 Microsoft Teams for Surface Hub](https://docs.microsoft.com/microsoftteams/teams-surface-hub)。
 
-**目前的第三方 IP (3PIP) 手机能否继续使用 Microsoft Teams？如果是这样，可以使用多长时间？**<br>
-Skype for Business Online 将于 2021 年 7 月 31 日停用。在此之后，只有迁移到 Teams 的 3PIP 设备用户能够继续使用 3PIP 设备，但此时功能受限且有效期截止 2023 年 7 月 31 日。
+**目前的第三方 IP (3PIP) 手机能否继续使用 Microsoft Teams？第三方 SIP 电话呢？**<br>
+迁移到新的电话系统时，能够使用现有的硬件可以大大节省成本。 Microsoft 已延长了 2023 以上 Skype for Business (3PIP) 手机的支持，以便你迁移到 Teams 时可以继续使用现有的 Skype for Business 手机。 此外，从 2021 年上半年开始，Teams 将为 Cisco、Yealink、Polycom 等公司的 SIP 电话支持核心呼叫功能。
 
 **认证的 Skype for Business Online 电话是否可与 Teams 协作？**<br>
 有关与电话兼容性相关的问题，请阅读[认证的 Skype for Business Online 电话及其对 Teams 的意义](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/bc-p/125309)。
-
-
-
-
-
-
