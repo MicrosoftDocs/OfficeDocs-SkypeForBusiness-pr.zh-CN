@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a95606786b59718e99adedb9a33ad31c1903f75
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: fadc9fbeb82b4cb808b9beb698c0726c22f78c44
+ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308195"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "48333262"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -119,7 +119,7 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 >- 每个 Teams 租户最多可同时举行 50 场活动
 >- 每次直播最多持续 16 个小时
 >
-> 此外，可通过 Microsoft 直播活动辅助计划来安排最多有 10 万名参与者的直播活动。 [了解详细信息](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日之后，需要提高上述人数上限的客户将需要购买[高级通信附加产品](teams-add-on-licensing/advanced-communications.md)。**
+> 此外，可通过 Microsoft 365 辅助计划来安排最多有 10 万名参与者的直播活动。 团队将评估每个请求，并与共同确定可能的选项。 [了解详细信息](https://aka.ms/Stream/Blog/LiveEventOptions)。 **2021 年 1 月 1 日之后，需要提高上述人数上限的客户将需要购买[高级通信附加产品](teams-add-on-licensing/advanced-communications.md)。**
 
 
 |功能     | 最大限制 |

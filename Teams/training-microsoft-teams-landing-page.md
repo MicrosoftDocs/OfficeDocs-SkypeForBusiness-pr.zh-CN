@@ -3,8 +3,8 @@ title: Microsoft Teams 管理员培训
 ms.reviewer: ''
 description: 这些最终用户、管理员和讲师指导培训资源可帮助你充分利用组织中的 Microsoft Teams。
 ms.topic: overview
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0148ea6ad68ede22807553f2bb708299c74bf884
-ms.sourcegitcommit: 875c854547b5d3ad838ad10c1eada3f0cddc8e66
+ms.openlocfilehash: aac5d9d0ee52547312cab655973b66503a0886de
+ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46656333"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48336971"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 培训
 
@@ -33,7 +33,7 @@ ms.locfileid: "46656333"
 | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt-text="education-tutorial-teams"> | **[Teams 实时培训](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Microsoft 主持的免费实时在线培训课程专为帮助你使用 Teams 实现起步和发展。 加入我们，以查看 Teams 的实际应用，获取问题的答案并与我们的导师实时互动。 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt-text="user"> | **[Teams 联机培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 利用这些自学培训资源来帮助组织内部用户充分利用 Teams。 |
 
-## <a name="dont-miss-this-key-training"></a>不要错过这一关键培训
+## <a name="dont-miss-these-key-training-offerings"></a>不要错过这些关键培训服务
 
 经常返回查看 - 我们将持续更新此列表，让你始终了解最新、最酷、最重要的 Teams 培训。
 
@@ -51,7 +51,7 @@ ms.locfileid: "46656333"
    :::column-end:::
 
    :::column:::
-   **[团队合作](https://aka.ms/edx-cld267x-about)** </br>
+   **[团队合作](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
    课程：使用 Teams 开启团队合作
 
    :::column-end:::
