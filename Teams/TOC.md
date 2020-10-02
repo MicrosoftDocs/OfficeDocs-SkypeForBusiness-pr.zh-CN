@@ -215,8 +215,8 @@
 ### [音频会议订阅“拨出”/“给我打电话”的好处](audio-conferencing-subscription-dial-out.md)
 
 
-### [设置 Microsoft Teams 的音频会议](set-up-audio-conferencing-in-teams.md)
-
+### [设置音频会议](set-up-audio-conferencing-in-teams.md)
+### [设置音频会议 - 中小型企业的快速入门](audio-conferencing-smb.md)
 ### [将 Microsoft 指定为音频会议提供商](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### 管理音频会议网桥
@@ -426,16 +426,23 @@
 
 
 ## 参考
-### 国家/地区电话号码管理 
+### 国家/地区电话号码管理
 #### [澳大利亚的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-australia.md)
+#### [奥地利的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-austria.md)
 #### [比利时的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-belgium.md)
 #### [加拿大的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-canada.md)
+#### [丹麦的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-denmark.md)
 #### [法国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-france.md)
 #### [德国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-germany.md)
 #### [爱尔兰的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-ireland.md)
+#### [意大利的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-italy.md)
 #### [日本的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-japan.md)
+#### [葡萄牙的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-portugal.md)
 #### [西班牙的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md)
 #### [荷兰的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands.md)
+
+#### [瑞典的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-sweden.md)
+#### [瑞士的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland.md)
 #### [英国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k.md)
 #### [美国的电话号码管理](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
@@ -443,7 +450,8 @@
 #### [概述](toll-free-dialing-limitations-and-restrictions.md)
 #### [阿根廷](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [澳大利亚](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
-#### [白俄罗斯](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+#### [Austria（奥地利）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-austria.md)
+#### [Belarus（白俄罗斯）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 #### [Belgium（比利时）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [伯利兹](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 #### [波斯尼亚和黑塞哥维那](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
@@ -470,6 +478,7 @@
 #### [Indonesia（印度尼西亚）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
 #### [爱尔兰](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-ireland.md)
 #### [以色列](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-israel.md)
+#### [意大利](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-italy.md)
 #### [日本](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-japan.md)
 #### [肯尼亚](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-kenya.md)
 #### [卢森堡](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
@@ -493,8 +502,9 @@
 #### [斯洛文尼亚](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-slovenia.md)
 #### [南非](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-africa.md)
 #### [韩国](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-south-korea.md)
-#### [西班牙]](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
+#### [西班牙](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-spain.md)
 #### [瑞典](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-sweden.md)
+#### [Switzerland（瑞士）](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-switzerland.md)
 #### [台湾](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-taiwan.md)
 #### [泰国](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-thailand.md)
 #### [土耳其](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
