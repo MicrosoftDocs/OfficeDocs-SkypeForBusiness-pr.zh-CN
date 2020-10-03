@@ -19,20 +19,21 @@ ms.custom:
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 714e15b16f72085f4261dd9dc961f8a26060b82f
-ms.sourcegitcommit: af9f96010460f9323db84912fe143aa0750ac798
+ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "48170956"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346193"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 团队的管理员培训入门
 
 使用培训资源向自己介绍团队、教授他人或运行研讨会。 经常在此处查看新内容。
 
-|               |               |               |               |               |               |               |               |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![描述手形和向上箭头的图标](media/get-started-blue-small.svg)  | [使用几个团队和频道快速入门](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述复选标记的图标](media/success-small.svg)  | [在 YouTube 上的云频道的咖啡中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![描述两个用户的图标](media/users-people-small.svg)  | [获取用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) | ![任务剪贴板符号](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30天内的团队： IT 管理员和更改管理负责人的培训系列，可在30天内实施团队](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
+|               |               |               |               |
+| :------------ | :------------ | :------------ | :------------ |
+| ![描述手形和向上箭头的图标](https://docs.microsoft.com/office/media/icons/get-started-teams.png) | [使用几个团队和频道快速入门](/MicrosoftTeams/get-started-with-teams-quick-start) | ![描述两个用户的图标](https://docs.microsoft.com/office/media/icons/users-people.png) | [获取用户培训](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
+| ![描述复选标记的图标](https://docs.microsoft.com/office/media/icons/success-teams.png) | [在 YouTube 上的云频道的咖啡中查看最佳做法和操作方法视频](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![任务剪贴板符号](https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.png) | [30天内的团队： IT 管理员和更改管理负责人的培训系列，可在30天内实施团队](https://docs.microsoft.com/microsoftteams/teams-in-30-workshops) |
 
 <h2>技术培训</h2>
 
@@ -73,7 +74,7 @@ ms.locfileid: "48170956"
 
 | 标题                                                                       | 抽象化                                                                                                                                                                                                               |  链接到指南                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 团队的身份、访问管理 & 威胁防护                   | 了解如何使用 Microsoft 管理中心和 PowersShell 配置访问和标识策略，并为团队启用 Office 365 高级威胁防护                                                            | [团队安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
+| 团队的身份、访问管理 & 威胁防护                   | 了解如何使用 Microsoft 管理中心和 PowerShell 配置访问和标识策略，并为团队启用 Office 365 高级威胁保护                                                            | [团队安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
 | 管理团队合规性                                                | 使用 Microsoft 365 安全、Microsoft 365 合规性和 Microsoft 团队管理中心，以及 Windows PowerShell 来管理和配置 Office 365 组织的 Microsoft 团队策略和设置。 | [在团队指南中管理合规性](https://aka.ms/complianceinteamsinteractiveguide)      |
 | 团队顾问：在 Microsoft 团队中部署聊天、团队、频道和应用 | 了解如何利用团队顾问评估你的环境并构建用于部署聊天、团队、频道和应用的计划。                                                                                         |  [团队顾问指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | 通过 PowerShell 和动态组优化团队管理        | 将 Office 365 组从静态成员身份转换为动态成员身份，并使用 Windows PowerShell 将新的应用权限策略分配给所有成员。                                                                         |  [优化团队管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -83,7 +84,7 @@ ms.locfileid: "48170956"
 | 在 Microsoft 团队中配置管理                                     | 了解如何为你的组织创建团队消息保留策略以及如何存档、删除和还原单个团队                                                                                   |  [在 Microsoft 团队指南中配置管理](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | 配置和部署 Microsoft 团队会议                          | 逐步完成为 Microsoft 团队部署会议工作负荷的过程。                                                                                                                                       |  [配置和部署 Microsoft 团队会议指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | 为 Microsoft 团队配置音频会议                            | 了解团队中的音频会议的功能，并了解如何分配会议网桥和电话拨入电话号码。                                                                                          |  [为 Microsoft 团队指南配置音频会议](https://aka.ms/AudioConferencingInteractiveGuide)      |
-| 为 Fisrtline 工作者配置 Microsoft 团队                           | 了解如何为你的一线劳动力配置和部署正确的 Microsoft 团队环境。                                                                                                                  | [为一线工作人员配置 Microsoft 团队指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 为一线工作者配置 Microsoft 团队                           | 了解如何为你的一线劳动力配置和部署正确的 Microsoft 团队环境。                                                                                                                  | [为一线工作人员配置 Microsoft 团队指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 
 <h2>快速入门指南</h2>
 
@@ -98,5 +99,5 @@ ms.locfileid: "48170956"
 
 <h2>开设</h2>
 
-- [利用 Microsoft 团队实现团队协作](https://aka.ms/edx-cld267x-about)
+- [利用 Microsoft 团队实现团队协作](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)
 - [Microsoft 服务采纳专家](https://aka.ms/AdoptionCert)

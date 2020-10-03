@@ -9,21 +9,22 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: 在本文中，你将了解管理员如何在 Azure Active Directory 门户中编辑有关来宾用户的信息。
+localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: c6add221744234d8169b7b602d3fb46dff91a093
-ms.sourcegitcommit: e773823a3f71efb6eee3bcbc928f1fee24c9381c
+ms.openlocfilehash: a53bf13747a34ccf8c8af29794a21c8f603cab9c
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47950828"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346153"
 ---
 # <a name="edit-guest-user-information"></a>编辑来宾用户信息
 
@@ -31,7 +32,7 @@ ms.locfileid: "47950828"
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Microsoft 365 管理员中的来宾用户
 
-1. 若要从 Microsoft 365 管理中心编辑来宾信息，请选择 "**用户**  >  **来宾用户**"。
+1. 若要在[Microsoft 365 管理中心](https://admin.microsoft.com)中编辑来宾信息，请选择 "**用户**  >  **来宾用户**"。
 
    ![正在编辑的来宾用户信息](media/access-guest-user.png)
 
@@ -45,6 +46,4 @@ ms.locfileid: "47950828"
 
    ![编辑来宾用户联系人信息](media/manage-guest-contact.png)
 
-## <a name="guest-users-in-the-azure-active-directory"></a>Azure Active Directory 中的来宾用户
-
-作为一个选项，你可以从 Azure Active Directory 门户编辑来宾用户。 有关详细信息，请参阅 [了解身份和 Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9)。
+您也可以从 [Azure Active Directory 门户](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)编辑来宾用户。
