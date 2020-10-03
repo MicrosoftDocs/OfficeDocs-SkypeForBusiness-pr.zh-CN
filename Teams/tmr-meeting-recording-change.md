@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1072f86d019415dbc97d0507ff9d76b2cbdc6e6
-ms.sourcegitcommit: 5c232ab2dfe4374ac69701241e55b05b8de8eb3e
+ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48269636"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346333"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -126,3 +126,7 @@ Microsoft 团队具有保存会议录制的新方法。 从流出发，此方法
 **如何播放团队会议录制？**
 
 你的视频将在 OneDrive for business 或 SharePoint 的视频播放器上播放，具体取决于你访问该文件的位置。
+
+**如果你计划将会弃用添加到 Stream，现有视频是否保持原样和持续多长时间？**
+
+作为平台的流在不久的将来不会被弃用。 在开始迁移之前，当前实时流中的视频将一直保留。 迁移后，这些视频也将迁移到 ODSP。 有关详细信息，请查看 [此处](https://docs.microsoft.com/stream/streamnew/classic-migration) 。

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 2be427ad418bda694f979ca92bb1ff3acfbc1997
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: 11777ccfd8ed3aa6cbfca14c2c8a507373230425
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788356"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341086"
 ---
 # <a name="what-are-communications-credits"></a>什么是通信点数？
 
@@ -59,7 +59,7 @@ ms.locfileid: "46788356"
 若要在 Skype for Business 中使用免费电话号码，需要通讯信用点数，因为这些通话按分钟计费。 此外，我们建议你为你的呼叫计划和音频会议用户设置通信信用点数，这些用户需要能够拨出到 **任何 PSTN 目标**。 包括许多国家/地区，但某些目的地可能不包括在您的通话计划或音频会议套餐中。 如果不设置通讯信用点数或为你的用户分配许可证，而你的组织的分钟数 (，具体取决于你的通话计划、音频会议计划或你所在的国家/地区) ，这些用户将无法通过联机音频会议会议进行呼叫或拨出。
   
 > [!NOTE]
-> 必须为**Microsoft 365 管理中心**  >  **用户**  >  **活动用户**中的每个用户设置通讯信用点数，然后为每位用户分配通讯信用许可证。 
+> 必须为**Microsoft 365 管理中心**  >  **用户**  >  **活动用户**中的每个用户设置通讯信用点数，然后为每位用户分配通讯信用许可证。 通讯信用点数许可证将显示为无限数量，因为它们用于向任何用户分配通信信用点数许可证的用户授予通信点数余额的访问权限。
   
 建议您仔细评估组织的 PSTN 服务使用情况，以便了解最适合通信信用点数的设置。 你可以通过阅读 [手机系统和通话计划](calling-plan-landing-page.md) 和 [音频会议常见问题](Audio-Conferencing-common-questions.md)查看有关 PSTN 服务的更多信息。
   
@@ -68,7 +68,7 @@ ms.locfileid: "46788356"
 > [!NOTE]
 > 你可以通过[登录到 Microsoft 365 管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)并转到**帐单**  >  **订阅**  >  **添加订阅**来查看计划和定价。 
   
-在**Microsoft 365 管理中心**  >  **Billing**  >  **购买服务**中  >  **Add Ons** ，可以选择 "通信信用点数" 来添加信用点数，您可以随时手动添加点数。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果您选择使用一次性金额来为您的通信点数余额进行资金，然后余额降到零，则上述的其他呼叫方案将不再有效，包括免费电话号码。 因此，建议使用 **自动重新充电** 设置以避免任何服务中断，因为您的通讯信用点数达到 0 (零) 。 重新充电的交易成功后，您将收到一封电子邮件，充电后的交易将失败 (例如已过期的信用卡) ，或者您的通讯点数余额达到 0 (零) 。
+在**Microsoft 365 管理中心**  >  **Billing**  >  **购买服务**中  >  **Add Ons** ，可以选择 "通信信用点数" 来添加信用点数，您可以随时手动添加点数。 You can also enable the **Auto-recharge** option, which will allow automatic account refills when the balance falls below the threshold that you set. 如果您选择使用一次性金额来为您的通信点数余额进行资金，然后余额降到零，则上述的其他呼叫方案将不再有效，包括免费电话号码。 因此，建议使用 **自动重新充电** 设置以避免任何服务中断，因为您的通讯信用点数达到 0 (零) 。 您将向所有拥有全球、帐单和团队管理员角色的用户发送电子邮件。当重新充电的交易成功时，充电交易将失败 (例如已过期的信用卡) ，或者您的通讯点数余额达到 0 (零) 。 您还可以通过向**Billing**  >  **产品**  >  **通信信用点数**计费，查看当前的通信点数余额。
   
 ## <a name="communications-credits"></a>通信点数
 

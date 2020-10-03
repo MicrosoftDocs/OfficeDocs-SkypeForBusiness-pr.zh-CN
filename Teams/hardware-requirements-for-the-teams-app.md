@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55d683c25ec0a5d83bbcf87a2e6df5031ec822f9
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: ff7a65127d94882c73b6bf85ff2a01e168f2da4a
+ms.sourcegitcommit: fae47764336b47c65e9e24b9abd6fe23ad9fc1a4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333252"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "48341006"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -43,7 +43,7 @@ ms.locfileid: "48333252"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更高版本       |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    |
-|视频通话和会议|<ul><li>需要2个核心处理器。 若要获得更高的视频/屏幕共享分辨率和帧速率，建议使用4核处理器或更高版本</li> <li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用 Microsoft 团队聊天室中的邻近感应检测加入会议需要蓝牙 LE，这需要在客户端设备上启用蓝牙，并且对于 Windows 客户端，它还需要64位团队客户端。 此功能在32位团队客户端上不可用。</li></ul> |
+|视频通话和会议|<ul><li>需要2核处理器。 为了获得更高的视频/屏幕共享分辨率和帧速率，建议使用4核处理器或更好的处理器。</li> <li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用 Microsoft 团队聊天室中的邻近感应检测加入会议需要蓝牙 LE，这需要在客户端设备上启用蓝牙，并且对于 Windows 客户端，它还需要64位团队客户端。 此功能在32位团队客户端上不可用。</li></ul> |
 |Teams 实时事件 | 如果你正在制作团队实时活动，我们建议使用具有核心 i5 Kaby Lake processor、4.0 GB RAM (或更高) 和硬件编码器的计算机。 有关**不支持**的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Teams 在 Mac 上的硬件要求
@@ -57,7 +57,7 @@ ms.locfileid: "48333252"
 |操作系统  |    MacOS 的三个最新版本之一。 可在 [此处](https://support.apple.com/en-us/HT201260)找到最新版本的 macOS。 例如，当释放新版本的 macOS 时，新版本和它前面的两个版本将成为受支持的版本。      |
 |视频  |    兼容的网络摄像机     |
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
-|视频通话和会议 | <ul><li>需要2个核心处理器。 若要获得更高的视频/屏幕共享分辨率和帧速率，建议使用4核处理器或更高版本。 </li><li>在 Microsoft 团队聊天室中使用邻近感应检测加入会议在 macOS 中不可用。</li></ul>
+|视频通话和会议 | <ul><li>需要2核处理器。 为了获得更高的视频/屏幕共享分辨率和帧速率，建议使用4核处理器或更好的处理器。 </li><li>在 Microsoft 团队聊天室中使用邻近感应检测加入会议在 macOS 中不可用。</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Teams 在 Linux 上的硬件要求
@@ -73,7 +73,7 @@ ms.locfileid: "48333252"
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    |
 |语音    |  兼容的麦克风和扬声器、带麦克风的耳机或等效设备       |
-|视频通话和会议 | <ul><li>需要2个核心处理器。 若要获得更高的视频/屏幕共享分辨率和帧速率，建议使用4核处理器或更高版本</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Linux 上不可用。</li></ul>
+|视频通话和会议 | <ul><li>需要2核处理器。 为了获得更高的视频/屏幕共享分辨率和帧速率，建议使用4核处理器或更好的处理器。</li><li>使用近程检测在 Microsoft Teams 会议室中加入会议的功能在 Linux 上不可用。</li></ul>
 |支持的 Linux 发行版 | Ubuntu 16.04 LTS、18.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Teams 在移动设备上的硬件要求

@@ -9,24 +9,25 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-ms.reviewer: sbhatta
+ms.reviewer: rafarhi
 search.appverid: MET150
-description: 了解如何在 Microsoft 团队中打开或关闭来宾访问功能，作为 Office 365 管理员。
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+localization_priority: Normal
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c225cad121d88d14bb6f179f48b452a61d89d7
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+description: 了解如何在 Microsoft 团队中打开或关闭来宾访问功能，作为 Office 365 管理员。
+ms.openlocfilehash: aa4530979054efc5a1aeb2c8fe0afa622b893f9d
+ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333242"
+ms.lasthandoff: 10/03/2020
+ms.locfileid: "48346323"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>打开或关闭对 Microsoft 团队的来宾访问
 
-默认情况下会关闭来宾访问。 作为 Microsoft 365 或 Office 365 管理员，必须先为团队启用来宾访问权限，管理员或团队所有者才能添加来宾。
+默认情况下会关闭来宾访问。 必须先为团队启用来宾访问权限，管理员或团队所有者才能添加来宾。
 
 启用来宾访问后，可能需要几个小时才能使更改生效。 如果用户尝试向其团队中添加来宾时看到消息 "请联系你的管理员"，则很可能是来宾访问尚未打开，或者设置尚未生效。
 
@@ -35,7 +36,7 @@ ms.locfileid: "48333242"
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>配置团队管理中心中的来宾访问
 
-1. 登录到 Microsoft 团队管理中心。
+1. 登录到 [Microsoft 团队管理中心](https://admin.teams.microsoft.com/)。
 
 2. 选择 "**组织范围设置**"  >  **来宾访问**。
 
@@ -63,6 +64,8 @@ ms.locfileid: "48333242"
       - **在对话中使用 meme** -打开此 **设置可允许来宾在对话** 中使用 meme。
       - **在对话中使用贴纸** -启用 **此设置可允许来宾在对话** 中使用贴纸。 
 
+    ![团队中的来宾权限设置](media/manage-guest-access-image1.png)
+
 5. 单击“**保存**”。
 
 ## <a name="external-access-federation-vs-guest-access"></a>外部访问（联合身份验证）与来宾访问
@@ -70,6 +73,8 @@ ms.locfileid: "48333242"
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="see-also"></a>另请参阅
+
+[与 Microsoft 365 建立安全协作](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
 [阻止来自特定团队的来宾用户](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
 
