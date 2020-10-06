@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2731b5c8f9001746a180a8f63d0ffd72276c5dc1
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346333"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361332"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -85,7 +85,7 @@ Microsoft 团队具有保存会议录制的新方法。 从流出发，此方法
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>选择退出 OneDrive for Business 和 SharePoint 以继续使用流
 
-即使策略指示它已设置为 **流**，它也可能不会设置。 如果它设置为 nothing，则默认为流。 如果要选择退出，则 **必须** 将策略重置为 " **流** "，以确保流是默认的。
+即使策略指示它已设置为 **流**，它也可能不会设置。 通常情况下，如果未设置策略，则默认设置为 " **流**"。 但是，如果你想要取消使用 SharePoint 或 OneDrive，请使用此新更改，然后必须将策略重置为 **流** ，以确保它是默认设置。
 
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"

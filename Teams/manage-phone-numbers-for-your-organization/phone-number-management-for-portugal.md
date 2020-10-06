@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在葡萄牙语 for Microsoft 团队中获取和管理电话号码的信息。
-ms.openlocfilehash: d94f37535a73530caa2b28d0fd9988b293eb6429
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: b4eb40383d4714d544c7148fa7e8f963ca8c4d92
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324168"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361712"
 ---
 # <a name="phone-number-management-for-portugal"></a>葡萄牙语的电话号码管理
 
@@ -34,7 +34,7 @@ ms.locfileid: "48324168"
   
 |**你要做什么？**|**下载正确的表单并发送给我们**|
 |:-----|:-----|
-|获取未在 Microsoft 团队管理中心中列出的新用户或服务电话号码。   <br/> |下载此表单。 <br/>  [新电话号码请求 (v.)  (pt) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。<br/><br/> 您还必须填写三方协议，对其进行签名，并 [将其发送给我们](mailto:ptneu@microsoft.com)。 在订购新电话号码后，我们的 PSTN 服务台团队将向您发送此表单。 <br/><br/>|
+|获取未在 Microsoft 团队管理中心中列出的新用户或服务电话号码。   <br/> |下载其中一个表单。 <br/>  [新电话号码请求 (v.)  (pt) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [ (v.)  (en-us) 的新电话号码请求 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。<br/><br/> 您还必须填写三方协议，对其进行签名，并 [将其发送给我们](mailto:ptneu@microsoft.com)。 在订购新电话号码后，我们的 PSTN 服务台团队将向您发送此表单。 <br/><br/>|
 |获取转接给我们的电话号码。  <br/> | 下载此表单。 <br/>[ (LOA) for 葡萄牙语的授权号 (所有号码)  (v)  (pt) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf?raw=true) <br/> <br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。 <br/><br/> 您还必须填写三方协议，对其进行签名，并 [将其发送给我们](mailto:ptneu@microsoft.com)。 在您下订单后，我们的 PSTN 服务台团队将向您发送此表单。<br/><br/>|
 |发布/取消发布国家电话目录中)  (s 的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。      <br/> |
 |将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |

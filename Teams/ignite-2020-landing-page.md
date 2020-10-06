@@ -5,12 +5,12 @@ author: cichur
 ms.date: 09/21/2020
 ms.topic: article
 ms.author: v-cichur
-ms.openlocfilehash: 78d79ba45661fdfeebd1816906fc76ea2495f0cd
-ms.sourcegitcommit: 22e2f51abf879b34701064839d0e410758b6a3dd
+ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
+ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48209481"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "48357600"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 上的团队会话
 
@@ -40,9 +40,9 @@ ms.locfileid: "48209481"
 |---|----------|---|---|---|
 |[团队会议和具有智能的设备的创新](https://aka.ms/PR104) |我们将不断创新和重新处理会议。 请加入我们，了解我们如何不断在会议中不断引入更多智能，以及如何在设备上进行最新的创新，从而使智能更加生动。  |200|Shalendra Chhabra|
 |[高级呼叫功能](https://aka.ms/OD265)|了解新的通话体验、有关协作通话、e911、基于位置的路由和其他功能的详细信息，请与通话更深入。 了解您的高级方案的通话方式，与贵公司的规模无关。 |200|Alan Xie, Roy Kuntz|
-|[共享空间的 Microsoft 团队设备](https://aka.ms/OD261) |Microsoft 团队设备旨在帮助用户最大限度地提高团队的能力，并弥补远程和共享工作区之间的差距。 通过团队会议功能、以客户为中心的房间体验以及业界领先硬件的组合，用户可以从低摩擦、包含和交互式会议中受益，无论他们是远程加入还是在会议室。 了解 Microsoft 团队聊天室、协作栏和 Surface Hub 等共享空间设备如何帮助你的团队在混合工作区中保持连接和协作。|200|Greg Baribault、Kendra 面包师、Sandhya Shahdeo|
+|[共享空间的 Microsoft 团队设备](https://aka.ms/OD261) |Microsoft 团队设备旨在帮助用户最大限度地提高团队的能力，并弥补远程和共享工作区之间的差距。 通过团队会议功能、以客户为中心的房间体验以及业界领先硬件的组合，用户可以从低摩擦、包含和交互式会议中受益，无论他们是远程加入还是在会议室。 了解 Microsoft 团队聊天室、协作栏和 Surface Hub 等共享空间设备如何帮助你的团队在混合工作区中保持连接和协作。|200|Greg Baribault、Kendra 面包师、Sandhya Rao|
 |[在 Skype for Business 上？设计 Microsoft 团队的路径](https://aka.ms/OD251)|加入此讲座，了解并根据您当前的 Skype for Business 实施和业务目标，确定最合适的方法。 无论您是 Skype for Business Online 还是服务器客户，我们都将分享最佳做法、资源和指南，以便立即访问 Microsoft 团队。 |200|Lisa McKee、Laszlo Somi
-|[团队个人设备中的新式创新](https://aka.ms/PR108)  |客户正在寻找适合团队的个人设备，尤其是他们的许多员工在远程工作。 请加入我们，了解团队个人设备中的新创新、我们的功能和认证设备的发展，以及我们远程工作的最佳做法。 |200|Sandhya Rao, Arash Ghanaje-Sichanie|
+|[团队个人设备中的新式创新](https://aka.ms/PR108)  |客户正在寻找适合团队的个人设备，尤其是他们的许多员工在远程工作。 请加入我们，了解团队个人设备中的新创新、我们的功能和认证设备的发展，以及我们远程工作的最佳做法。 |200|Sandhya Rao, Arash Ghanaie-Sichanie, Kruthika Ponnusamy|
 |[Microsoft 团队会议中的主虚拟专题会议室](https://aka.ms/PR109) |请加入我们，了解有关团队中的虚拟专题聊天室的最新创新。 在此会话中，我们将重点介绍使用案例和最佳做法，让小型群组构思、集体讨论、学习和使用虚拟的专题聊天室进行讨论。 |200|James Skay、Nakul Madaan|
 |[通过会议和视频会议控制让你的团队会议安全且包括在内](https://aka.ms/PR110) |加入此讲座以了解有关会议安全、安全和裁决的详细信息，包括对所有与会者进行硬静音、请求讲述功能和配置专题讨论聊天室的功能。 我们还将介绍可帮助更多地使会议更具包容性的 "反应" 和 "举手" 等功能。|200|Nakul Madaan, Rajiv Ramaiah|
 |[Microsoft 团队作为一个平台呼叫和会议](https://aka.ms/PR111) |了解团队通话和会议平台功能，包括 Microsoft Graph 云通信 Api、联系人中心和合规性录制以及其他平台体验中的消息。 |200|Srividhya Chandrasekaran, Mansoor Malik|

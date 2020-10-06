@@ -13,12 +13,12 @@ f1.keywords:
 description: 作为服务的集成联系人中心概述 (CCaaS) Microsoft 团队的解决方案
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccd4456b006d8b27fd0aa2ec88d6467fe86fea8b
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+ms.openlocfilehash: 906af5df0e4ec7c4f4b658210e127b5ad0ef0044
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48322281"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361462"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft 团队的联系中心集成
 
@@ -38,7 +38,7 @@ Microsoft 团队通过在其通信模式（包括聊天、视频会议和通话�
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft 团队认证计划的已连接联系人中心
 
-允许合作伙伴开发和集成 CCaaS 解决方案的 Api 可通过高级通信许可证获得。 此外，我们已经开发了 Microsoft 团队认证计划的已连接联系人中心，让客户能够确保每个参与伙伴的解决方案都经过测试和验证，以提供他们从 Microsoft 解决方案所期望的质量、兼容性和可靠性。
+Api 允许合作伙伴开发和集成团队的 CCaaS 解决方案。 此外，我们已经开发了 Microsoft 团队认证计划的已连接联系人中心，让客户能够确保每个参与伙伴的解决方案都经过测试和验证，以提供他们从 Microsoft 解决方案所期望的质量、兼容性和可靠性。
 
 以下合作伙伴正在验证其适用于 Microsoft 团队的解决方案并已准备好参与客户：
 

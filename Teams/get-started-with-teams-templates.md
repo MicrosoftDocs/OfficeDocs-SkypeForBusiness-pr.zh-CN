@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee4ab53318766b8daaeea225f8c039e32c8c4241
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: a524b551911add01979f9563ab7233a46b93053c
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294598"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361652"
 ---
 # <a name="get-started-with-teams-templates-using-microsoft-graph"></a>使用 Microsoft Graph 开始使用团队模板
 
@@ -73,7 +73,7 @@ ms.locfileid: "48294598"
 | 教育版<br>教职员工团队 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | 识别<ul><li>OneNote 教职员工笔记本 (固定到 " **常规** " 选项卡) </li></ul> |
 |教育版<br>PLC 团队 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | 识别<ul><li>OneNote PLC 笔记本 (固定到 " **常规** " 选项卡) </ul></li>|
 | 面向<br>应用商店 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性<ul><li>将团队可见性设置为公共</li></ul>成员权限<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul> |
-| 面向<br>经理协作 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 信道<ul><li>切换切换</li><li>培训</li></ul>团队属性：<ul><li>将团队可见性设置为私密</li></ul>成员权限：<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul>|
+| 面向<br>经理协作 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | 信道<ul><li>培训</li><li>运营</li></ul>团队属性：<ul><li>将团队可见性设置为私密</li></ul>成员权限：<ul><li>阻止成员创建、更新或删除频道</li><li>阻止成员添加或删除应用</li><li>阻止成员创建、更新或删除连接器</li></ul>|
 | 行业<br>拖动 |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |信道 <ul><li>宣告\*</li><li>Huddles\*</li><li>轮</li><li>调配\*</li><li>培训\*</li></ul>\*自动收藏频道 |
 |行业<br>医院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |信道<ul><li>宣告\*</li><li>合规性\*</li><li>Custodial</li><li>人力资源</li></li><li>药房</li></ul>\*自动收藏频道|
 |||

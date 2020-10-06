@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f34ee9af678613580beefeb52b08e9ce924be3
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: 3d0534d4c0a62573bd3ac649c39b3d0f17a235f6
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766866"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361432"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>在 Microsoft Teams 中创建组织范围的团队
 
@@ -38,7 +38,7 @@ ms.locfileid: "47766866"
 
 - 阻止登录的帐户
 - 来宾用户
-- 服务帐户
+- 资源或服务帐户 (例如，与自动助理和通话队列关联的帐户) 
 - 会议室或设备帐户
 - 共享邮箱支持的帐户
 

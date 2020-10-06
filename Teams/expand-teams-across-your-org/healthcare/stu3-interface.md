@@ -18,17 +18,17 @@ appliesto:
 ms.reviewer: anach
 description: 了解如何将电子医疗记录集成到 Microsoft 团队患者应用和 STU3 界面规范中。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bcae5b6fae3da469aaaa35b3a0494273fa8d29ba
-ms.sourcegitcommit: a28232f16bfefe6414d1f5a54d5f8c8665eb0e23
+ms.openlocfilehash: 1c5e19ff28c67641ac5b643e1944bf2435fbf164
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "48277214"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361342"
 ---
 # <a name="stu3-interface-specification"></a>STU3 接口规范
 
 > [!IMPORTANT]
-> **2020年9月30日生效，患者应用将被否决，用户将无法再从团队应用商店安装。我们鼓励你立即开始使用团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
+> **2020年10月15日，将弃用 "患者" 应用，并且用户将无法再从 "团队" 应用商店安装。我们鼓励你立即开始使用团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
 >
 >患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 当患者应用停用时，与之关联的所有数据将保留在此组中，但不能再通过用户界面进行访问。 当前用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
 >

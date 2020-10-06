@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理员可以阅读 Microsoft 团队聊天室的发行说明，其中列出了 Microsoft 团队聊天室中的累积改进。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b6fd8b95b2c5fca646677445a84104908fed87e
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: ba230d25251535a6c32b65d57fe84ed6d791e7fd
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328221"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361492"
 ---
 # <a name="release-notes"></a>发行说明
 
@@ -74,6 +74,10 @@ ms.locfileid: "48328221"
 - 查看更多视频，在会议室前面显示3x3 视频库  
 - 从 MTR 开始本地实时隐藏字幕 
 - 通过直接来宾加入来加入团队聊天室中的缩放会议 (预览) 
+
+> [!NOTE]
+> 3x3 视频库和本地实时隐藏字幕通过 Microsoft 团队服务提供。 使用应用程序版本4.5.37.0 和更高版本的所有团队聊天室均可使用这些功能。 
+
 
 ### <a name="45370-08142020"></a>4.5.37.0 (08/14/2020) 
 

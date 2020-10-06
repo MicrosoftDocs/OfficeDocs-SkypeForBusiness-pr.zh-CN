@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表查找有关在德国 for Microsoft 团队中获取和管理电话号码的信息。
-ms.openlocfilehash: c703152b52ec5dff8e6618b20fd03deb8798a31f
-ms.sourcegitcommit: d16adc1ce13fcaf52f786c8422b3175b61935e68
+ms.openlocfilehash: 048d26e1ea9b86874a4839d58df357df0a6cb695
+ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48324068"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48361722"
 ---
 # <a name="phone-number-management-for-germany"></a>德国的电话号码管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "48324068"
   
 |**你要做什么？**|**下载正确的表单**|
 |:-----|:-----|
-|获取未在 Microsoft 团队管理中心中列出的新用户或服务电话号码。  <br/> | 在德国，您无法使用 Microsoft 团队管理中心获取您的组织的电话号码。 你必须提交新的电话号码申请。 下载此表单。 <br/>[对德国的新电话号码请求 (v.)  (解除) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/><br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
+|获取未在 Microsoft 团队管理中心中列出的新用户或服务电话号码。  <br/> | 在德国，您无法使用 Microsoft 团队管理中心获取您的组织的电话号码。 你必须提交新的电话号码申请。 <br/><br/>下载其中一个表单。 <br/>[对德国的新电话号码请求 (v.)  (解除) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [德国的新电话号码请求 (v.)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |获取转接给我们的电话号码。  <br/> | 下载其中一个表单。 <br/><br/> 对于用户电话号码：<br/>[ (LOA) 德国的授权号 (个地理号码)  (v.)  () 解除 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf?raw=true)<br/><br/>  对于免费电话号码：<br/>[ (LOA) 的授权信函 (免费电话号码)  ()  (解除) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de).pdf?raw=true) <br/><br/> 填写此申请并[将其发送给我们](mailto:ptneu@microsoft.com)。  <br/> |
 |发布/取消发布国家电话目录中)  (s 的电话号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要发布/取消发布的电话号码列表。 <br/> |
 |将用户号码更改为服务号码。  <br/> |[向我们发送](mailto:ptneu@microsoft.com)你想要转换为服务号码的用户号码列表。 <br/> |
