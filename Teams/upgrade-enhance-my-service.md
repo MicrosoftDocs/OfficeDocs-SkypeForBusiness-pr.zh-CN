@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
+ms.reviewer: landerl
 description: 定期评估升级后增强团队服务的机会，监视团队路线图是否有任何有趣的功能增强。
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a000cb8b09f4b1eebf5ca1c2805d52222ce7ec5c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780461"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369197"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>升级后充分利用团队
 
@@ -37,11 +37,9 @@ ms.locfileid: "43780461"
 
 成功将团队部署到你的组织并使用质量和可靠性运行服务后，下一步是定期评估你是否有机会增强你的服务。 这是一项持续服务改进计划的一部分，它是云服务管理的现代标准。
 
-确保您始终充分利用服务的一种非常好的方法是监视[团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)，了解可能对组织感兴趣的新功能增强。 如果您有权访问 Microsoft 365 管理中心，您将通过我们的消息中心接收来自我们的新功能和更改功能的定期更新。
+确保您始终充分利用服务的一种非常好的方法是监视 [团队公共路线图](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) ，了解可能对组织感兴趣的新功能增强。 如果您有权访问 Microsoft 365 管理中心，您将通过我们的消息中心接收来自我们的新功能和更改功能的定期更新。
 
-当您看到增强您的服务的机会时，请花一些时间来正确操作。 重新访问[在 Microsoft 团队中部署聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，并对端应用相同的指南。 在进行小的增量更改时，不太可能需要完全完成所有活动和任务，但你应该确保评估每个活动和任务，以便为你提供成功结果的最佳机会。
-
-当您看到增强您的服务的机会时，请花一些时间来正确操作。 重新访问我们的[实施阶段](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，并对结束应用相同的指南。 在进行小的增量更改时，不太可能需要完全完成所有活动和任务，但你应该确保评估每个活动和任务，以便为你提供成功结果的最佳机会。
+当您看到增强您的服务的机会时，请花一些时间来正确操作。 重新访问在 Microsoft 团队和我们的[实施阶段](deploy-chat-teams-channels-microsoft-teams-landing-page.md)[部署聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)，并对端应用相同的指南。 在进行小的增量更改时，不太可能需要完全完成所有活动和任务，但你应该确保评估每个活动和任务，以便为你提供成功结果的最佳机会。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>决策点</td><td><ul><li>确定哪些人可以监视公共路线图和其他服务公告，以了解你的组织可能从中受益的新功能或服务。</li><li>通过您的指导委员会确定将这些新功能或服务报告回关键利益干系人的节奏。</li></ul></td></tr>

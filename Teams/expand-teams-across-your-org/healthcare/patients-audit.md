@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 适用于团队管理员的患者应用
-ms.openlocfilehash: c35f9a42cd950676a449608f192ca4100d981c72
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 9e4ec8179fda091fcd2ecd047d633b5bda6026b6
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361572"
+ms.locfileid: "48367692"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者应用的审核日志
 
 > [!IMPORTANT]
-> **2020年10月15日，将弃用 "患者" 应用，并且用户将无法再从 "团队" 应用商店安装。我们鼓励你立即开始使用团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
+> **2020年10月30日生效，患者应用将被否决，用户将无法再从团队应用商店安装。我们鼓励你立即开始使用团队中的 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 。**
 >
 >患者应用数据存储在支持团队的 Office 365 组的组邮箱中。 当患者应用停用时，与之关联的所有数据将保留在此组中，但不能再通过用户界面进行访问。 当前用户可以使用 " [列表" 应用](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新创建其列表。
 >

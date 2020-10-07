@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104dab27af75d346af990369ee78fc2fb1f0a77d
-ms.sourcegitcommit: fd7d5ba09ef30cf4594e352c36f62b950e0e41a6
+ms.openlocfilehash: a1c9f63c54711c5721ced661dc28d704c0b605c7
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48336839"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367592"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>查看应用权限并授予 Microsoft 团队管理中心的管理员同意
 
@@ -32,7 +32,7 @@ Microsoft 团队管理中心中的 " [管理应用](manage-apps.md) " 页面是�
 
 应用程序请求的权限的示例包括读取存储在团队中的信息、读取用户的配置文件以及代表用户发送电子邮件的功能。 若要了解详细信息，请参阅 [Microsoft 标识平台终结点中的权限和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。 
 
-" **权限** " 列指示应用是否具有需要同意的权限。 你将看到在 Azure AD 中注册的每个应用的 " **查看详细信息** " 链接，该链接具有需要同意的权限。 请记住，这仅适用于自定义应用程序和第三方应用和。 您将看不到此链接，也不需要授予由 Microsoft 发布的应用的管理员同意。
+" **权限** " 列指示应用是否具有需要同意的权限。 你将看到在 Azure AD 中注册的每个应用的 " **查看详细信息** " 链接，该链接具有需要同意的权限。 请记住，这仅适用于自定义应用程序和第三方应用程序。 您将看不到此链接，也不需要授予由 Microsoft 发布的应用的管理员同意。
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text=""管理应用" 页面上的 "权限" 列的屏幕截图":::
 

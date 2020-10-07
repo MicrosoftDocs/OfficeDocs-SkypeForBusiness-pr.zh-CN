@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下介绍音频会议的开放预览功能。
-ms.openlocfilehash: 3b33c67cc79f79d36cf2a11213dc934103b026fb
-ms.sourcegitcommit: 19662d4bc4070f6031084d93e8794e0e02decd2b
+ms.openlocfilehash: 38b8be382ccd1b80002688cdb7fce9aa166efc2c
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47321785"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369177"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>为音频会议打开网络会议预览
 
@@ -38,7 +38,7 @@ ms.locfileid: "47321785"
 
 在配置网络会议之前，请确保你的组织满足以下先决条件： 
 
-- 确保您的组织中启用或启用音频会议的所有用户都处于 "仅工作组" 模式。 只有团队会议才支持通过网络会议进行入站和 outboud 音频会议通话的路由。
+- 确保您的组织中启用或启用音频会议的所有用户都处于 "仅工作组" 模式。 只有团队会议才支持通过网络会议进行入站和出站音频会议呼叫的路由。
 
 - 将音频会议许可证分配给将使用网络会议的所有用户。
 
@@ -56,6 +56,8 @@ ms.locfileid: "47321785"
 
 你可以在 "会议" 下的 "团队管理中心" 下找到服务号码 **> 会议桥** 或使用 Skype For Business Online PowerShell cmdlet get-csonlinedialinconferencingbridge。 有关其他信息，请参阅 [Microsoft 团队中的音频会议号码](see-a-list-of-audio-conferencing-numbers-in-teams.md)列表。
 
+> [!NOTE]
+> 对于具有按分钟付费的音频会议许可证的用户，此功能不可用。
 
 ## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>通过直接路由启用团队的路由会议拨出呼叫
 

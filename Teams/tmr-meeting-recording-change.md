@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b31972ed662b6752286fa2ff33b80150496cfb0f
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361332"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369167"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
@@ -95,7 +95,7 @@ Microsoft 团队具有保存会议录制的新方法。 从流出发，此方法
 
 **会议录制将存储在何处？**
 
-- 对于非频道会议，录制将存储在名为的文件夹中。 录制 * *，属于 OneDrive 的最高级别，属于启动会议录制的人员。 上例
+- 对于非频道会议，录制将存储在属于已启动会议录制 **的人员** 的 OneDrive 的最高级别的文件夹中。 上例
 
   <i>录像机的 OneDrive For business</i> /**录制**
 

@@ -1,7 +1,7 @@
 ---
 title: Teams 中的用户状态
-author: SerdarSoysal
-ms.author: serdars
+author: msdmaguire
+ms.author: dmaguire
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a5adfcfd6002f9069934bb25dde5aa8b51e452f
-ms.sourcegitcommit: 491c44b6a9b30faaf4d73394969f4a0587362830
+ms.openlocfilehash: 9f14aeaf83862cbdd695eb6ec4646d8da81a0c5b
+ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47820516"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "48369207"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中的用户状态
 
@@ -49,22 +49,32 @@ Outlook 2013 桌面版及更高版本支持 Outlook 中的 Teams 状态。
 | ![黄色时钟图标，表示离开](media/Presence_Away.png) 离开| ![黄色时钟图标，表示离开](media/Presence_Away.png) 离开|
 || ![黄色时钟图标，表示离开](media/Presence_Away.png)上次上线*时间*离开|
 |![黄色时钟图标，表示离开但马上回来](media/Presence_Away.png) 马上回来| |
-|| ![黄色时钟图标，表示下班离开](media/Presence_Away.png)  下班|
-|| ![带 x 的灰色圆圈，表示离线](media/Presence_Offline.png) 离线 |
+|![带 x 的灰色圆圈，表示离线](media/Presence_Offline.png) 显示为脱机 | ![带 x 的灰色圆圈，表示离线](media/Presence_Offline.png) 离线| |
 || ![空心灰色圆圈，表示未知状态](media/Presence_Unknown.png) 未知状态|
-||![带对角线的空心红色圆圈，表示已屏蔽](media/Presence_Blocked.png) 已屏蔽 |
 || ![带箭头的紫色圆圈，表示外出](media/Presence_OOF.png) 外出|
 |||
 
-应用配置的状态状态基于用户活动 (可用、离开) 、Outlook 日历状态 (在会议) 或团队应用状态 (在通话中，演示) 。 请注意，当你处于基于你的日历的焦点模式时，焦点将是用户在团队中看到的状态，但在其他产品中将显示为 "请勿打扰"。
+应用配置的状态状态基于用户活动 (可用、离开) 、Outlook 日历状态 (在会议) 或团队应用状态 (在通话中，演示) 。 请注意，当你处于基于你的日历的焦点模式时，焦点将是用户在团队中看到的状态，但它将在其他产品中显示为 "请勿打扰"。
 
-当您锁定计算机或进入空闲或睡眠模式时，当前状态将更改为 "离开"。 在手机上，只要团队应用处于后台，你的状态将更改为 "离开"。
+当您锁定计算机或计算机进入空闲或睡眠模式时，当前状态将更改为 "离开"。 在移动设备上，只要团队应用处于后台，你的状态将更改为 "离开"。
 
-用户会在 Teams 中收到发送给他们的所有聊天消息，而不管其状态如何。 如果用户在某人向其发送消息时处于离线状态，便会在下次在线时在 Teams 中看到聊天消息。 如果用户处于 "请勿打扰"，则用户仍将收到聊天消息，但不显示标题通知。
+用户会在 Teams 中收到发送给他们的所有聊天消息，而不管其状态如何。 如果用户在某人向其发送消息时处于离线状态，便会在下次在线时在 Teams 中看到聊天消息。 如果用户状态设置为 "请勿打扰"，则用户仍将收到聊天消息，但不显示标题通知。
 
 用户接收除 "请勿打扰" 之外的所有状态的呼叫，传入呼叫转到语音邮件。 如果呼叫接收人屏蔽了呼叫方，来电不会转接，且呼叫方会看到呼叫接收人的状态为“离线”。
 
-用户可以在 Teams 中依次转到“设置”**** > “隐私”****，向自己的优先访问列表添加人员。 具有优先级访问权限的用户即使在用户处于 "请勿打扰" 时也可以与用户联系。
+用户可以在 Teams 中依次转到“设置”**** > “隐私”****，向自己的优先访问列表添加人员。 如果用户的状态设置为 "请勿打扰"，则具有优先级访问权限的人员可以联系用户。
+
+## <a name="user-configured-states-expiration"></a>用户配置状态过期
+当用户选择特定的状态时，它优先于任何应用活动更新。 例如，如果用户将她设置为 "请勿打扰"，她的状态将保持为 "请勿打扰"，即使她出席会议或接听呼叫。
+
+用户配置的状态在团队中具有默认过期设置，以防止用户显示一段时间后可能不相关的状态。
+
+|用户配置状态|默认过期|
+|:--- |:---|
+| 忙碌|1天|
+| 请勿打扰|1天|
+| 则|7天|
+|||
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>比较 Teams 与 Skype for Business 中的管理员设置
 
