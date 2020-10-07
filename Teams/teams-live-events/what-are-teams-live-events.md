@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6748996007343cc0d67d5306e075f0465bfee27
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: 877dcef8848c7e1bf05ed19c05ede5b5304bd4c8
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203955"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367672"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams 实时事件是什么？
 
@@ -67,7 +67,7 @@ Microsoft 365 实时事件将实时视频流转到新的级别，在整个服务
     ![显示使用外部应用或设备生成的实时事件的屏幕截图](../media/teams-live-events-external-encoder.png "显示使用外部应用或设备生产方法生成的实时事件的屏幕截图")
 
 >[!Note]
-> 从使用 Microsoft Stream 到 [OneDrive for business 和 SharePoint for 会议录制](../tmr-meeting-recording-change.md) 的更改将是一种分阶段方法。 在启动时，你可以选择加入此体验，在11月内，你将必须选择退出，如果你想要继续使用流，并且在2021的早期，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
+> 将会议录制从 Microsoft Stream 改为 [OneDrive for Business 和 SharePoint](../tmr-meeting-recording-change.md) 将是一种分阶段的方法。 在发布时，你将能够选择加入此体验，如果想继续使用 Stream，则在 11 月你必须选择退出，在 2021 年初的某个时候，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
 ### <a name="streaming-platform"></a>流式处理平台
 实时事件流平台由以下部分组成：
@@ -80,6 +80,7 @@ ECDN 的目标是从 internet 获取视频内容，并在整个企业中分发�
 - [配置单元](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [渐变](https://rampecdn.com)
+- [Riverbed](https://www.riverbed.com/solutions/office-365.html)
 
 ### <a name="attendee-experience"></a>与会者体验 
 与会者体验是实时事件的最重要的方面，并且很重要的是与会者无需任何问题即可参与实时事件。 对于在外部应用或设备中生成的事件，与会者体验使用流播放器 (为团队) 和 Azure Media Player () 并在桌面版、浏览器和移动 (iOS) 上工作。 Microsoft 365 和 Office 365 将 Yammer 和团队作为两个协作中心提供，并将实时与会者体验集成到这些协作工具中。 
