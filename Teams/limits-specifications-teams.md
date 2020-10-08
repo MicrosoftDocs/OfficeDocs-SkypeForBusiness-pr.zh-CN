@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bddd4ffb268e641a7c89fe1ffd33efb91aba0b11
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+ms.openlocfilehash: 9bda3f02ebad041d0f4b7d454fc5546906606993
+ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361642"
+ms.locfileid: "48367562"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和规范
 
@@ -42,7 +42,7 @@ ms.locfileid: "48361642"
 |全局管理员可创建的团队数        |  500,000   |
 |Microsoft 365 或 Office 365 组织可拥有的团队数    | 500,000&sup2;     |
 |每个团队的频道数    | 200（包括已删除的频道）&sup3;         |
-|各团队专用频道数    |30|
+|各团队专用频道数    |30| （包括已删除的频道）&sup3;
 |专用频道中的成员数    |250|
 |Office 365 组中最多可以有多少名成员以转换为团队    |10,000|
 |频道对话文章大小 | 每篇文章约 28 KB<sup>4</sup> |
@@ -51,7 +51,7 @@ ms.locfileid: "48361642"
 
 <sup>2</sup> 此限制涵盖已存档的团队。 若要超出最大限制，你必须联系 Microsoft 支持部门。
 
-<sup>3</sup> 已删除的频道可在删除后 30 天内还原。 在该等 30 天，已删除的频道仍然计入每个团队 200 个频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队 200 个频道这一限额内。
+<sup>3</sup> 已删除的频道可在删除后 30 天内还原。 在这 30 天内，已删除的频道仍然计入每个团队 200 个频道或 30 个专用频道这一限额内。 30 天后，已删除的频道及其内容将被永久删除，且此团队不再计入每个团队的限额内。
 
 <sup>4</sup> 28 KB 是一个近似限制，因为它包含消息本身（文本和图像链接等）、@提及、连接器数量和回应。
 
@@ -94,7 +94,9 @@ Teams 聊天适用于 Microsoft Exchange 后端，因此 Exchange 消息传递�
 有关详细信息，请参阅 [Exchange Online 限制](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)。
 
 > [!NOTE]
-> 所有 Microsoft 365 和 Office 365 许可证中的邮件大小、文件附件数和内嵌图像限制均相同。
+> 所有 Microsoft 365 和 Office 365 许可证中的邮件大小、文件附件数和内嵌图像限制均相同。 Office GCC/GCCH/DOD 组织无法在 Teams 中通过电子邮件发送频道。
+
+
 
 ## <a name="channel-names"></a>频道名称
 
