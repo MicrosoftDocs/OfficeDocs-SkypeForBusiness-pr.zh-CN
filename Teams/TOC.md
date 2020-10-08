@@ -674,25 +674,25 @@
 
 # 行业和政府指南
 ## [概述](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
-## [使用 Microsoft Graph 开始使用 Teams 模板](get-started-with-teams-templates.md)
-## [预订应用和虚拟参观](bookings-app-admin.md)
-## [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-### [Microsoft StaffHub 已停用](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
-### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+## 所有行业
+### [开始使用 Teams 模板](get-started-with-teams-templates.md)
+### [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+#### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## 适用于医疗保健业的 Teams
 ### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
-### [管理控制台中适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
-### [适用于医疗保健组织的安全邮件入门](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [消息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [预订应用和虚拟参观](bookings-app-admin.md)
 ### [Teams 医疗保健策略包](policy-packages-healthcare.md)
-### [患者应用概述](expand-teams-across-your-org/healthcare/patients-app-overview.md)
-#### [将电子医疗记录集成到 Microsoft Teams 中](expand-teams-across-your-org/healthcare/patients-app.md)
-##### [DSTU2 接口规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-##### [STU3 接口规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
-##### [将患者应用连接到 Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
-#### [患者应用的审核日志](expand-teams-across-your-org/healthcare/patients-audit.md)
+### 安全消息传递策略
+#### [适用于医疗保健组织的安全消息传递](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+#### [消息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### 适用于医疗保健组织的 Teams 模板
+#### [在管理控制台中使用 Teams 医疗保健模板](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
+### [管理 Lists 应用](manage-lists-app.md)
+### Teams 中的班次
+#### [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
+#### [管理 Shifts 应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
