@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理员可以了解 (SBCs) 已认证直接路由的会话边框控制器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cf37165459d1d9f492b74cf9f0000eec45c632f2
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: ca384ca472c551ff3d2b1cac8fb02e19d716331c
+ms.sourcegitcommit: 03c217c322fb9e43dbe529d14a25ac70732f6148
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255365"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48397503"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>经认证可用于直接路由的会话边界控制器列表
 
@@ -40,9 +40,9 @@ Microsoft 与每位供应商协作：
   > [!NOTE]
   > 只有经过认证的设备或设备通过直接路由连接时，Microsoft 才支持电话系统。 Microsoft 保留拒绝未验证设备通过直接路由连接到手机系统的支持案例的权利。 
 
-下表列出了经认证可用于直接路由的设备。 
+下表列出了经认证可用于直接路由的设备。  (有关 SBC 供应商支持本地媒体优化的信息，请参阅为 [直接路由配置本地媒体优化](direct-routing-media-optimization-configure.md)。 ) 
 
-[详细了解直接路由](https://aka.ms/dr)。 如果您对用于直接路由的 SBC 认证计划有任何疑问，请联系 drsbccertification@microsoft.com。
+[详细了解直接路由](https://aka.ms/dr)。 如果对用于直接路由的 SBC 认证计划有任何疑问，请联系 drsbccertification@microsoft.com。
 <br/>
 <br/>
 
@@ -60,9 +60,9 @@ Microsoft 与每位供应商协作：
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       支持的 7.2 (建议的 8.2)        |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li><li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul>  ||    
 |                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       支持的 7.2 (建议的 8.2)        |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul> |  |    
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       支持的 7.2 (建议的 8.2)        |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul> |    |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |       (推荐的 8.1.5)      |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> </ul>   |  &#10004;   |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |      (推荐的 8.1.5)      |  <ul> <li>[带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> </ul>   |     &#10004;     |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |       (推荐的 8.1.5)     |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> </ul>    |     &#10004;     |   
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8. x 或 9. x     |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> </ul>   |  &#10004;   |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8. x 或 9. x     |  <ul> <li>[带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> </ul>   |     &#10004;     |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8. x 或 9. x    |  <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> </ul>    |     &#10004;     |   
 | | EdgeMarc 系列 |  &#10004; | | 15.6.1 | 
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> [带宽动态位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[Intrado 紧急路线服务 (ERS) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado 急诊网关 (EGW) ](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>   |  &#10004;  |    

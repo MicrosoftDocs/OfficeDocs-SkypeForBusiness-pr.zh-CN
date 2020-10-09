@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81f32b4a3b461aca17c3268307807c4d42d1eb77
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 429dd2c7e5b5fe8048bdac52e07dfb0577121540
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177222"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389870"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>获取 Microsoft Teams 的客户端 
 
@@ -42,7 +42,7 @@ ms.locfileid: "48177222"
 > [!TIP]
 > 观看以下会话以了解 Windows 桌面客户端的优势，如何规划它，以及如何部署它：[Teams Windows 桌面客户端](https://aka.ms/teams-clients)
 
-Microsoft 团队桌面客户端是独立的应用程序，也 [可在适用于企业的 Microsoft 365 应用中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于32位和64位版本的 Windows (8.1 或更高版本) 和 Windows Server (2012 R2 或更高版本) ，以及格式 (的 macOS 和 Linux) `.deb` `.rpm` 。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更高版本；如果没有，Teams 安装程序将为你安装。 在 Linux 上，程序包管理器（例如 `apt` 和 `yum`）将尝试为你安装任何要求。 但是，如果没有，则在 Linux 上安装 Teams 前，你将需要安装任何报告的要求。
+Microsoft 团队桌面客户端是独立的应用程序，也 [可在适用于企业的 Microsoft 365 应用中使用](https://docs.microsoft.com/deployoffice/teams-install)。 团队可用于32位和64位版本的 Windows (8.1 或更高版本) 、适用于 ARM 上的 Windows 10 的 ARM64，以及 Windows Server (2012 R2 或更高版本) 以及格式 (的 macOS 和 Linux) `.deb` `.rpm` 。 在 Windows 上，Teams 需要 .NET Framework 4.5 或更高版本；如果没有，Teams 安装程序将为你安装。 在 Linux 上，程序包管理器（例如 `apt` 和 `yum`）将尝试为你安装任何要求。 但是，如果没有，则在 Linux 上安装 Teams 前，你将需要安装任何报告的要求。
 
 桌面客户端为团队会议、群组通话和专线一对一呼叫提供实时通信支持（音频、视频和内容共享）。
 

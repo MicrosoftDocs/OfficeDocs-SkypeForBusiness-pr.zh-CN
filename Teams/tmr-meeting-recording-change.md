@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8616bae083f8ec043c1092e4d391866a8b957d6
-ms.sourcegitcommit: f9daef3213a305676127cf5140af907e3b96d046
+ms.openlocfilehash: 7a42c46cf9592c64676d153e1885357a4ee8ec7b
+ms.sourcegitcommit: 48cb3cdd69558ec80f8f25f870b302a65280ce5a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48369167"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "48389930"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
 > [!Note]
 > 将会议录制从 Microsoft Stream 改为 OneDrive for Business 和 SharePoint 将是一种分阶段的方法。 在启动时，租户管理员可以立即选择此新工作流选项，并开始在10月2020中查看录制自动上载到 OneDrive for Business 和 SharePoint。 11月，您必须选择退出如果您希望继续使用流，并且在2021的早期，我们将要求所有客户使用 OneDrive for Business 和 SharePoint 进行新的会议录制。
 
-Microsoft 团队具有保存会议录制的新方法。 从流出发，此方法在 Microsoft 365 中使用 Microsoft OneDrive 和 SharePoint，并提供许多好处。
+Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到 [新流](https://docs.microsoft.com/stream/streamnew/new-stream)的第一阶段，此方法将录制存储在 microsoft 365 中的 microsoft OneDrive 和 SharePoint 上并提供许多好处。
 
 使用 OneDrive for Business 和 SharePoint 存储录制的好处包括：
 
@@ -61,7 +61,7 @@ Microsoft 团队具有保存会议录制的新方法。 从流出发，此方法
 
 1. 安装 Skype For Business Online PowerShell 管理控制台。
 
-    a. 下载 [Skype For Business Online Powershell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide)。
+    a. 下载 [Skype For Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide)。
 
     b. 按照提示进行安装。
 
@@ -102,6 +102,10 @@ Microsoft 团队具有保存会议录制的新方法。 从流出发，此方法
 - 对于频道会议，录制内容存储在名为 " **录制**" 的文件夹中的 "团队网站" 文档库中。 上例
 
   <i>团队名称-频道名称</i> /**文档** /**录制**
+
+**如何处理以前员工的录制？**
+
+由于视频与 OneDrive 和 SharePoint 中的任何其他文件一样，在员工离职后处理所有权和保留将遵循正常的 [OneDrive 和 sharepoint 进程]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
 
 **哪些人具有查看会议录制的权限？**
 
