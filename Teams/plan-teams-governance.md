@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7037594158dd64cb69f07a3d7efb38ca963c6a63
-ms.sourcegitcommit: 7a9c63ee790108eaa61950ce28ae8027311039d9
+ms.openlocfilehash: 2180c819491b3067225ada993aec60ec052bc69f
+ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "46662112"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "48416914"
 ---
 # <a name="plan-for-governance-in-teams"></a>在 Teams 中规划管理
 
@@ -33,7 +33,7 @@ ms.locfileid: "46662112"
 
 ## <a name="group-and-team-creation-naming-classification-and-guest-access"></a>组和团队创建、命名、分类和来宾访问
 
-你的组织可能要求你实施严格的控制来控制团队的命名方式和分类方式，是否可以将来宾添加为团队成员以及谁可以创建团队。 你可以使用 Azure Active Directory (Azure AD) 配置这些区域中的每个区域。 
+你的组织可能要求你实施严格的控制来控制团队的命名方式和分类方式，是否可以将来宾添加为团队成员以及谁可以创建团队。 你可以通过使用 azure Active Directory (Azure AD) 和灵敏度标签来配置这些区域。 
 
 <br>
 
@@ -52,6 +52,7 @@ ms.locfileid: "46662112"
 |团队来宾访问 |允许或阻止将来宾添加到团队。 |否 |TBD |
 |团队创建 |将团队创建限制为管理员。 |否 |TBD|
 |团队创建 |将团队创建限制为安全组成员。 |P1 |TBD|
+|灵敏度标签|配置隐私和来宾共享|否|TBD|
 
 > [!NOTE]
 > 为了帮助您提前计划，请 [了解有关设置这些策略以及所需的许可证的详细信息](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
@@ -64,16 +65,19 @@ ms.locfileid: "46662112"
 
 确定你的要求后，你可以使用 Azure AD 控件实现它们。 有关如何实现这些设置的技术指南，请参阅：
 
-- [用于配置组设置的 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)。
+- [用于配置组设置的 Azure Active Directory cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [在 Azure Active Directory 中强制使用 Microsoft 365 组的命名策略](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)。
+- [在 Azure Active Directory 中强制使用 Microsoft 365 组的命名策略](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Microsoft 365 组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)。
+- [Microsoft 365 组命名策略](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
+- [使用敏感度标签保护 Microsoft 团队、Microsoft 365 组和 SharePoint 网站中的内容](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+
+- [组、团队和 Yammer 的生命周期选项结束](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>组和团队过期、保留和存档
 
-你的组织可能对为过期、保留和存档团队和团队数据 (通道消息和频道) 文件设置策略的其他要求。 你可以将组过期策略配置为自动管理组和保留策略的生命周期，以根据需要保留或删除信息，你可以将团队存档 (将其设置为只读模式) 以保留不再处于活动状态的团队的时间点视图。
+你的组织可能对为过期、保留和存档团队和团队数据 (通道消息和频道) 文件设置策略的其他要求。 你可以将组过期策略配置为自动管理组和保留策略的生命周期，以根据需要保留或删除信息，你可以将团队存档 (将其设置为只读模式) 以保留不再处于活动状态的团队的时间点视图。 请注意，已存档的团队将继续应用过期策略，并且可能会删除，除非已排除或已续订。
 
 |           |            |
 |-----------|------------|
@@ -149,8 +153,10 @@ ms.locfileid: "46662112"
 
 - [为你的组织管理 Microsoft Teams 设置](enable-features-office-365.md)
 - [在过渡到全新的 Microsoft Teams 管理中心期间管理 Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [Microsoft Teams 中的私人频道](private-channels.md)
 - [管理团队中的会议策略](meeting-policies-in-teams.md)
 - [在 Teams 中管理消息传递策略](messaging-policies-in-teams.md)
+- [在 Microsoft 团队管理中心中管理你的应用](manage-apps.md)
 
 此外，你可以为频道设置裁决，并向特定用户提供审阅者的功能，以便他们可以控制哪些人可以创建频道发布和答复他们。 有关详细信息，请参阅 [在 Microsoft 团队中设置和管理通道裁决](manage-channel-moderation-in-teams.md) 。
 

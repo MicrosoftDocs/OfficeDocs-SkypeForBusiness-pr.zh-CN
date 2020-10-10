@@ -257,6 +257,7 @@
 ### [视频：Skype for Business Online 外部通信](../set-up-skype-for-business-online/video-skype-for-business-online-external-communications.md)
 
 ## 为组织设置策略 
+### [在组织中设置策略：概述](../set-up-policies-in-your-organization/set-up-policies-in-your-organization.md)
 ### [阻止点到点文件传输](../set-up-policies-in-your-organization/block-point-to-point-file-transfers.md)
 ### [创建自定义外部访问策略](../set-up-policies-in-your-organization/create-custom-external-access-policies.md)
 ### [保留附加到会议的大文件](../set-up-policies-in-your-organization/retaining-large-files-attached-to-a-meeting.md)
@@ -305,7 +306,7 @@
 ### [免费拨出时段](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [英国 (U.K.) 行为准则](/microsoftteams/code-of-practice-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [英国 (U.K.) 投诉处理准则](/microsoftteams/complaint-handling-code-for-the-united-kingdom-u-k?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
-### [数据收集做法](/microsoftteams/teams-privacy?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [数据收集做法](/microsoftteams/data-collection-practices?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [紧急呼叫标签](/microsoftteams/emergency-calling-labels?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [紧急呼叫条款和条件](/microsoftteams/emergency-calling-terms-and-conditions?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [将 Skype for Business 与第三方音频会议集成的生命周期结束计划](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
