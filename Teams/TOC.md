@@ -693,6 +693,14 @@
 ### Teams 中的班次
 #### [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [管理 Shifts 应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### 患者应用
+#### [患者应用概述](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### 将电子医疗记录集成到患者应用中
+##### [使用 FHIR API 将电子医疗记录集成到患者应用中](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [患者应用的 DSTU2 界面规范](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [患者应用的 STU3 界面规范](expand-teams-across-your-org/healthcare/stu3-interface.md)
+##### [将患者应用连接到 Azure API for FHIR](expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir.md)
+#### [患者应用的审核日志](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams 教育版](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [快速入门 - Teams 教育版管理员](teams-quick-start-edu.yml)
