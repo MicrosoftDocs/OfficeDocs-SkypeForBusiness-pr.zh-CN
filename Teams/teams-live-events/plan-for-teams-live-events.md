@@ -18,19 +18,19 @@ description: 在本文中，你将了解在 Microsoft Teams 中设置实时事�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7912fa089f453b0b9e27f59fa73369f6ea22948
-ms.sourcegitcommit: 762e303509940f830c304e00a98b05796bf5537f
+ms.openlocfilehash: 4cae6ee3f4a335cc1be1636917a5b200d279d374
+ms.sourcegitcommit: 5571e27276d89df97edbce72a42638921c235311
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48333510"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "48408145"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中规划实时事件
 
-计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置所有操作之前，需要考虑几个因素。
+计划 Teams 实时事件时，若要在组织中召开大型会议，则在开始设置之前，需要考虑几个因素。
 
  > [!Note]
-> 有关不同平台上的 Teams 活动事件的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。 请参阅[让你的组织做好准备](../prepare-network.md)，了解 Teams 直播活动的带宽要求。 
+> 有关不同平台上的 Teams 实时事件的详细信息，请参阅 [Teams 功能（按平台）](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。 请参阅[让你的组织做好准备](../prepare-network.md)，了解 Teams 直播活动的带宽要求。
 
 ## <a name="who-can-attend-create-and-schedule-live-events"></a>谁可以参加、创建和计划实时事件
 
@@ -40,9 +40,9 @@ ms.locfileid: "48333510"
 
 以下是制作或呈现 Teams 现场活动必须分配的许可证：  
 
-- Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，或 Office 365 教育版 A3 或 A5 许可证。
-- Microsoft Teams 许可证。 - 这包含在上述许可证中。 
-- 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](https://docs.microsoft.com/stream/license-overview)。 
+- Microsoft 或 Office 365 企业版 E1、E3 或 E5 许可证，或 Office 365 教育版 A3 或 A5 许可证。 此要求的例外情况是：如果满足 [来宾用户](plan-for-teams-live-events.md#guest-to-present) 的其他条件，来宾用户无需许可证即可出席。
+- Microsoft Teams 许可证 - 包含在第一个项目符号列出的许可证中。
+- 如果你计划将内容共享到外部应用或设备，则需要 Microsoft Stream 许可证；请参阅 [Microsoft Stream 许可证](https://docs.microsoft.com/stream/license-overview)。
 
   如果希望用户只录制和下载录制文件，则无需为用户分配 Microsoft Stream 许可证。 这意味着不会将录制存储在 Microsoft Stream 中，而是将其存储在 Azure 媒体服务 (AMS) 中，且仅有 30 天存储期限，之后将被删除。 目前管理员无法控制或管理它，包括无法删除它。
 
@@ -72,7 +72,9 @@ ms.locfileid: "48333510"
 - 配置了共存模式，以能够安排 Teams 会议（*并行、会议优先或仅 Teams*）。
 
 > [!IMPORTANT]
-> 未经身份验证的匿名用户不能被邀请为 Teams 实时 事件中的“制作者”或“演示者”。
+> 未经身份验证的匿名用户不能被邀请为 Teams 实时事件中的“制作者”或“演示者”。
+
+### <a name="guest-to-present"></a>[出席来宾](#guest-to-present)
 
 若要让来宾出席直播活动，请执行下列操作：
 
@@ -80,7 +82,7 @@ ms.locfileid: "48333510"
 2. 让该用户接受来宾邀请并加入团队。
 3. [安排直播活动并将来宾添加到活动组](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。 没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。 为便于用户加入活动，制作者可将活动链接发布到相应频道。 演示者随后可以打开 Teams，转到该频道，然后单击链接以加入该活动。 
+作为最佳做法，我们建议你为直播活动的制作者和演示者创建一个频道，以便他们可以在活动前聊天和共享信息。 没有 Microsoft 365 凭据的来宾将无法在 Teams 中看到日历。 为便于用户加入活动，制作者可将活动链接发布到相应频道。 演示者随后可以打开 Teams，转到该频道，然后单击链接以加入该活动。
 
 ## <a name="who-can-watch-live-events"></a>谁可以观看实时事件
 
@@ -158,6 +160,7 @@ ms.locfileid: "48333510"
 - 欧洲/非洲
 
 **以下国家/地区（支持）的数据位置**
+
 - 澳大利亚
 - 加拿大
 - 印度
@@ -165,6 +168,7 @@ ms.locfileid: "48333510"
 - 英国
 
 **不支持这些国家/地区和云**
+
 - 德国
 - 法国
 - 挪威
