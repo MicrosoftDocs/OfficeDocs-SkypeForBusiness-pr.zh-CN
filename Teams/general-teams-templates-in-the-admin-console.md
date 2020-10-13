@@ -1,5 +1,5 @@
 ---
-title: 在管理控制台中使用常规团队模板
+title: 在管理中心中使用常规团队模板
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用常规团队模板，通过使用管理控制台提供预定义的设置、信道和预安装应用来创建团队结构。
+description: 了解如何使用常规团队模板，通过使用管理中心提供预定义的设置、信道和预安装应用来创建团队结构。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a16634246bf301cde3b9cbdbd5df551b10706471
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 2905fe25d3051f322630d75473597e69425e2dc0
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308155"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424702"
 ---
-# <a name="use-general-teams-templates-in-the-admin-console"></a>在管理控制台中使用常规团队模板
+# <a name="use-general-teams-templates-in-the-admin-center"></a>在管理中心中使用常规团队模板
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

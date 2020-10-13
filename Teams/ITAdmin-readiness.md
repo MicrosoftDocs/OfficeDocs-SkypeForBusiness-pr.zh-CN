@@ -19,12 +19,12 @@ ms.custom:
 description: 有关管理员如何规划、部署和运行 Microsoft 团队的培训视频、PowerPoint 幻灯片、教程和其他资源。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006866c578935dd036e0879aa8157369461346e9
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: ce910aaddfdd92196d3ef912160f75105255c042
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346193"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48426927"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft 团队的管理员培训入门
 
@@ -56,9 +56,9 @@ ms.locfileid: "48346193"
 
 <h2>团队会议室 & AV 专业人士的基础</h2>
 
-<p>下表包含 Microsoft 团队聊天室中附带的 PowerPoint 幻灯片的链接。  
+<p>下表包含了一些指向完整视频培训的链接，其中 PowerPoint 幻灯片 ("PDF 格式") ，在 Microsoft 团队聊天室中。  
 
-| 模块 | 视频 | PowerPoint 幻灯片  |
+| 模块 | 视频 |  (PDF) 的 PowerPoint 幻灯片  |
 | ------------ | -------------------- | -------------------- |
 | 模块1： Microsoft 团队会议室简介 (18:29 分钟)  | [视频](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | 模块2： Microsoft 团队网络 (34:10 分钟)  | [视频](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [幻灯片](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |

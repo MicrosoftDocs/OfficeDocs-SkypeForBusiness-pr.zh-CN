@@ -1,5 +1,5 @@
 ---
-title: 使用管理员控制台开始使用团队财务模板
+title: 使用管理中心开始使用团队财务模板
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用。 团队模板，通过使用管理员控制台提供预定义的设置、信道和预安装应用来创建为财务需求设计的团队结构。
+description: 了解如何使用。 团队模板：通过使用管理中心提供预定义的设置、信道和预安装应用来创建为财务需求设计的团队结构。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8273e63213b6a0c3d99d6ef66cb778a2541c0327
-ms.sourcegitcommit: 340c2f432b78af4e78b21056af56c6421627045d
+ms.openlocfilehash: 9f09da72f12b13b7f3dd1ab4846b320f77c9f32a
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48294408"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424602"
 ---
-# <a name="use-teams-financial-templates-in-the-admin-console"></a>在管理控制台中使用团队财务模板
+# <a name="use-teams-financial-templates-in-the-admin-center"></a>在管理中心中使用团队财务模板
 
 团队模板使你可以通过提供设置、频道和预安装应用的预定义模板来快速轻松地创建团队。
 

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-ms.reviewer: srividhc
+ms.reviewer: naforer
 f1.keywords:
 - NOCSH
 description: 将云视频互操作用作中间解决方案，以允许第三方会议室设备加入 Microsoft 团队会议。
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa95f1fbef860c76b9434b21151a400105bf4101
-ms.sourcegitcommit: fb4edc26c566228d74c10cb51a063b5fdc7e11a1
+ms.openlocfilehash: 7f812d27b07dadb2f60bf77302e18eb0879f977e
+ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48177384"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48433067"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 的云视频互操作性
 
@@ -126,7 +126,7 @@ Office 365 提供了将第三方应用程序集成到 SharePoint Online 网站�
 
 你可以使用以下 PowerShell cmdlet (部分) 自动执行云视频互操作部署。
 
-- **CsTeamsVideoInteropServicepolicy**： Microsoft 为每个受支持的合作伙伴提供预构建的策略，以便你可以指定哪个合作伙伴 (s) 用于云视频互操作。<br>此 cmdlet 允许你标识可在你的组织中使用的预构建的策略。 你可以利用 CsTeamsVideoInteropServicePolicy cmdlet 将此策略分配给一个或多个用户。
+- **CsTeamsVideoInteropServicepolicy**： Microsoft 为每个受支持的合作伙伴提供预构建的策略，以便你可以指定哪个合作伙伴 (s) 用于云视频互操作。<br>此 cmdlet 允许你标识可在你的组织中使用的预构建的策略。 你可以利用 Grant-CsTeamsVideoInteropServicePolicy cmdlet 将此策略分配给一个或多个用户。
 - **Grant-CsTeamsVideoInteropServicePolicy**：此 cmdlet 允许你分配用于组织的预构建策略或将策略分配给特定用户。
 - **CsVideoInteropServiceProvider**：使用此 cmdlet 指定有关你的组织希望使用的受支持的 CVI 合作伙伴的信息。
 - **Set-CsVideoInteropServiceProvider**：使用此 cmdlet 更新有关你的组织使用的受支持的 CVI 合作伙伴的信息。

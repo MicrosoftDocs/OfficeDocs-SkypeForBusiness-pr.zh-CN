@@ -1,5 +1,5 @@
 ---
-title: 管理控制台中的团队制造模板入门
+title: 管理中心中的团队制造模板入门
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 了解如何使用。 团队模板，可通过使用管理员控制台提供预定义的设置、信道和预安装应用来创建为制造需求设计的团队结构。
+description: 了解如何使用。 团队模板：通过使用管理中心提供预定义的设置、信道和预安装应用来创建为制造需求设计的团队结构。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb7769a193e95f31db8ffb02b6120babfa05c661
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: ea0e8e517a63fb23cecca71230174bd55ff328ee
+ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308395"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48424612"
 ---
-# <a name="use-teams-manufacturing-templates-in-the-admin-console"></a>在管理控制台中使用团队制造模板
+# <a name="use-teams-manufacturing-templates-in-the-admin-center"></a>在管理中心中使用团队制造模板
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 

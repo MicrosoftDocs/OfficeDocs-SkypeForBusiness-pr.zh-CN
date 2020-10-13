@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何使用和管理你的医疗保健组织的团队策略包。
-ms.openlocfilehash: dbbc0956f339760bedf1ce9cc2c5012cc317e152
-ms.sourcegitcommit: bd13aecbb25c14e17d1b64343df6d80c90b2aa45
+ms.openlocfilehash: e55102e07f7ffc77dc67c5d6697cb754c398cc40
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "46803965"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427167"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>医疗保健的团队策略程序包
 
@@ -51,6 +51,16 @@ Microsoft 团队中的 [策略包](manage-policy-packages.md) 是预定义策略
 每个单独策略都被授予策略程序包的名称，以便你可以轻松地识别链接到策略包的策略。 例如，当你将医疗保健临床工作人员策略包分配给你的组织中的临床医生时，将为程序包中的每个策略创建一个名为 Healthcare_ClinicalWorker 的策略。
 
 ![医疗保健临床工作者程序包中的策略的屏幕截图](media/policy-packages-healthcare-clinical-worker.png)
+
+## <a name="get-started-with-policy-packages"></a>策略程序包入门
+
+若要开始使用医疗保健策略程序包，请在 Microsoft 管理中心的 "加入中心" 中选择 " **医疗保健基础知识**"，然后选择 " **按角色分配策略设置**"。 准备好开始使用后，请确定你想要为组织中的个人分配哪些策略包。
+
+选择 " **查看策略详细信息** " 以了解有关程序包中的特定策略及其各自的设置的详细信息。 这些可在团队管理中心中分配后 [进行自定义](manage-policy-packages.md#customize-policies-in-a-policy-package) 。
+
+选择一个或多个要分配的程序包，然后单击 " **下一步**"。 你可以搜索联系人并将其添加到最适合其角色的策略包。 一次无法将一个人分配给多个策略程序包。
+
+将人员添加到正确的策略包后，请 **完成** 最终的选择。 你可以继续自定义和管理 Microsoft 团队管理中心中的策略包。
 
 ## <a name="manage-policy-packages"></a>管理策略包
 

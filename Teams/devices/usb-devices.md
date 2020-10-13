@@ -1,7 +1,7 @@
 ---
 title: Microsoft 团队的电话和设备
-ms.author: v-mapenn
-author: mattpennathe3rd
+ms.author: dmaguire
+author: msdmaguire
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 查看 Microsoft 团队认证了哪些 USB 外围设备和设备，如耳机、免提、网络摄像头和监视器。
-ms.openlocfilehash: 90c97ffb98fafa8908c2e746487d5ffca7412282
-ms.sourcegitcommit: b255db7ef816d1884c9c71af86a901bd83a1d9ab
+ms.openlocfilehash: 446518d9221cd9f484b47f3f098d95db3997dd3d
+ms.sourcegitcommit: a043bde507a9f6747fdd2063dd085edb3c1d6c3c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "47962913"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "48427687"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>为 Microsoft 团队认证的 USB 音频和视频设备
 

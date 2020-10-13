@@ -386,3 +386,65 @@
 | 10/2/2020 | [将 OneDrive 和 SharePoint 用于会议录制](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
 | 10/2/2020 | [对 Microsoft Teams 中的来宾访问问题进行故障排除](/MicrosoftTeams/troubleshoot-guest-access) | 修改内容 |
 | 10/2/2020 | [在团队中查看来宾用户](/MicrosoftTeams/view-guests) | 修改内容 |
+
+
+## <a name="week-of-october-05-2020"></a>2020年10月5日的周
+
+
+| 发布日期 |主题标题 | 更改 |
+|------|------------|--------|
+| 10/5/2020 | [Ignite 2020 上的团队会话](/MicrosoftTeams/ignite-2020-landing-page) | 修改内容 |
+| 10/5/2020 | [使用 Microsoft 团队管理员角色管理团队](/MicrosoftTeams/using-admin-roles) | 修改内容 |
+| 10/5/2020 | [在 Microsoft Teams 中创建组织范围的团队](/MicrosoftTeams/create-an-org-wide-team) | 修改内容 |
+| 10/5/2020 | [患者应用和 EHR 集成 DSTU2 界面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 修改内容 |
+| 10/5/2020 | [将患者应用连接到 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 修改内容 |
+| 10/5/2020 | [适用于团队管理员的患者应用 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 修改内容 |
+| 10/5/2020 | [患者应用概述](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 修改内容 |
+| 10/5/2020 | [审核患者应用，面向团队 IT 和合规性管理员 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 修改内容 |
+| 10/5/2020 | [患者应用和 EHR 集成 STU3 界面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 修改内容 |
+| 10/5/2020 | [适用于医疗保健组织的 Teams 入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 修改内容 |
+| 10/5/2020 | [使用 Microsoft Graph 开始使用团队模板](/MicrosoftTeams/get-started-with-teams-templates) | 修改内容 |
+| 10/5/2020 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 10/5/2020 | [奥地利的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | 修改内容 |
+| 10/5/2020 | [比利时的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 修改内容 |
+| 10/5/2020 | [丹麦的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | 修改内容 |
+| 10/5/2020 | [法国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 修改内容 |
+| 10/5/2020 | [德国的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 修改内容 |
+| 10/5/2020 | [爱尔兰的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 修改内容 |
+| 10/5/2020 | [意大利电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 修改内容 |
+| 10/5/2020 | [葡萄牙语的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | 修改内容 |
+| 10/5/2020 | [西班牙的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 修改内容 |
+| 10/5/2020 | [瑞典的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | 修改内容 |
+| 10/5/2020 | [瑞士的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 修改内容 |
+| 10/5/2020 | [荷兰的电话号码管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 修改内容 |
+| 10/5/2020 | [发行说明](/MicrosoftTeams/rooms/rooms-release-note) | 修改内容 |
+| 10/5/2020 | [团队联系人中心](/MicrosoftTeams/teams-contact-center) | 修改内容 |
+| 10/5/2020 | [将 OneDrive 和 SharePoint 用于会议录制](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
+| 10/6/2020 | [查看应用权限并授予 Microsoft 团队管理中心的管理员同意](/MicrosoftTeams/app-permissions-admin-center) | 修改内容 |
+| 10/6/2020 | [患者应用和 EHR 集成 DSTU2 界面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | 修改内容 |
+| 10/6/2020 | [将患者应用连接到 Azure API for FHIR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-connect-azure-api-fhir) | 修改内容 |
+| 10/6/2020 | [适用于团队管理员的患者应用 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview) | 修改内容 |
+| 10/6/2020 | [患者应用概述](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app) | 修改内容 |
+| 10/6/2020 | [审核患者应用，面向团队 IT 和合规性管理员 ](/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) | 修改内容 |
+| 10/6/2020 | [患者应用和 EHR 集成 STU3 界面](/MicrosoftTeams/expand-teams-across-your-org/healthcare/stu3-interface) | 修改内容 |
+| 10/6/2020 | [适用于医疗保健组织的 Teams 入门](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 修改内容 |
+| 10/6/2020 | [Microsoft Teams 的限制和规范](/MicrosoftTeams/limits-specifications-teams) | 修改内容 |
+| 10/6/2020 | [管理 Microsoft 团队中的策略程序包](/MicrosoftTeams/manage-policy-packages) | 修改内容 |
+| 10/6/2020 | [Microsoft Teams 实时事件是什么？](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 修改内容 |
+| 10/6/2020 | [音频会议的网络会议](/MicrosoftTeams/audio-conferencing-on-network) | 修改内容 |
+| 10/6/2020 | [直接路由连接模拟设备](/MicrosoftTeams/direct-routing-analog-devices) | 修改内容 |
+| 10/6/2020 | [转换直接路由的电话号码](/MicrosoftTeams/direct-routing-translate-numbers) | 修改内容 |
+| 10/6/2020 | [Teams 中的用户状态](/MicrosoftTeams/presence-admins) | 修改内容 |
+| 10/6/2020 | [使用 PowerShell 设置实时事件策略](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | 修改内容 |
+| 10/6/2020 | [将 OneDrive 和 SharePoint 用于会议录制](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
+| 10/6/2020 | [Microsoft Teams 要求\|增强服务](/MicrosoftTeams/upgrade-enhance-my-service) | 修改内容 |
+| 10/8/2020 | [为中小型企业设置音频会议](/MicrosoftTeams/audio-conferencing-smb) | 修改内容 |
+| 10/8/2020 | [获取 Microsoft Teams 客户端](/MicrosoftTeams/get-clients) | 修改内容 |
+| 10/8/2020 | [Microsoft Teams 的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
+| 10/8/2020 | [将 OneDrive 和 SharePoint 用于会议录制](/MicrosoftTeams/tmr-meeting-recording-change) | 修改内容 |
+| 10/8/2020 | [为直接路由认证的会话边框控制器](/MicrosoftTeams/direct-routing-border-controllers) | 修改内容 |
+| 10/9/2020 | [在 Microsoft Teams 中规划实时事件](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 修改内容 |
+| 10/9/2020 | [Microsoft Teams 中的来宾访问](/MicrosoftTeams/guest-access) | 修改内容 |
+| 10/9/2020 | [Microsoft Teams 的硬件要求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 修改内容 |
+| 10/9/2020 | [在 Teams 中规划管理 - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 修改内容 |
+| 10/9/2020 | [规划生命周期管理](/MicrosoftTeams/plan-teams-lifecycle) | 修改内容 |
