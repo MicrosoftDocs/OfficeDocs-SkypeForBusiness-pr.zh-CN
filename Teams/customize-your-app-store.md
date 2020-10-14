@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 了解 Microsoft 团队中的自定义应用商店。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fcfaee55f73ef86f1a03e99364fde1aaa306ed8a
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: f02346321002f90e9a92bc0db033a3b4437bea18
+ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359881"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "48456146"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Microsoft 团队中的自定义应用商店
 
@@ -43,13 +43,13 @@ ms.locfileid: "47359881"
 
 你可以在此处上载你的组织徽标。 所选徽标将显示在 " **Apps**  >  **为租户生成的**应用的团队客户端" 页面中。
 
-选择 " **选择图片** " 选项后，您可以上传所选的文件。 徽标应为240x60，否则将缩放到该大小。 它不应大于5MB。 支持的格式为：
+选择 " **选择图片** " 选项后，您可以上传所选的文件。 徽标应为240x60，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式为：
 
 - svg
 - .png
 - .jpg
 
-徽标显示在 "团队" 应用商店中租户应用目录的右上角。
+徽标显示在 "团队" 应用商店的租户应用目录的右上角。
 
 ## <a name="customize-your-small-logo"></a>自定义小徽标
 
@@ -57,9 +57,9 @@ ms.locfileid: "47359881"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您的组织 logomark 或小徽标是代表您的组织品牌的图像或符号，不包括您的公司名称。 Logomark 帮助团队成员识别应用商店。 所选徽标将显示在 "应用程序" 页面的 "团队客户端" 中。
+您的组织 lovemark 或小徽标是代表您的组织品牌的图像或符号，不包括您的公司名称。 Logomark 帮助团队成员识别应用商店。 所选徽标将显示在 "应用程序" 页面的 "团队客户端" 中。
 
-选择 " **选择图片** " 选项后，您可以上传所选的文件。 Logomark 应为32x32 像素，否则将缩放到该大小。 它不应大于5MB。 支持的格式为：
+选择 " **选择图片** " 选项后，您可以上传所选的文件。 Logomark 应为32x32 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式为：
 
 - svg
 - .png
@@ -78,7 +78,7 @@ ms.locfileid: "47359881"
 选项如下：
 
 - 使用团队客户端默认背景主题
-- 选择一张图片。 选择背景图片时，您可以上载所选文件。 背景应为1212x100 像素，否则将缩放到该大小。 它不应大于5MB。 支持的格式为：
+- 选择一张图片。 选择背景图片时，您可以上载所选文件。 背景应为1212x100 像素，否则将缩放到该大小。 它不应大于 5 MB。 支持的格式为：
   - svg
   - .png
   - .jpg
@@ -100,8 +100,8 @@ ms.locfileid: "47359881"
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>完成团队应用商店的自定义
 
-完成自定义应用商店后，请确保单击 " **保存** " 以保存所做的更改。
-若要预览所做的更改，请单击 " **预览应用商店** " 以查看自定义应用商店的表示形式。
+完成自定义应用商店后，请确保选择 " **保存** " 以保存所做的更改。
+若要预览所做的更改，请选择 " **预览应用商店** " 以查看自定义应用商店的表示形式。
 
 > [!Note]
 > 该表示形式可能不同于自定义的应用商店的最终版本，因为某些默认颜色基于用户的团队客户端版本。
