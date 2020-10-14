@@ -52,7 +52,7 @@
 ## [存档或删除团队](archive-or-delete-a-team.md)
 ## [从 Slack 迁移到 Teams](migrate-slack-to-teams.md)
 ## 使用 Teams 模板
-### [在管理控制台中使用 Teams 模板](get-started-with-teams-templates-in-the-admin-console.md)
+### [在管理中心中使用 Teams 模板](get-started-with-teams-templates-in-the-admin-console.md)
 ### [适用于中小型企业的 Graph 内置 Teams 模板](smb-templates.md)
 ### [创建自定义 Teams 模板](create-a-team-template.md)
 ### [从现有团队中创建模板](create-template-from-existing-team.md)
@@ -687,7 +687,7 @@
 #### [适用于医疗保健组织的安全消息传递](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 #### [消息委派](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### 适用于医疗保健组织的 Teams 模板
-#### [在管理控制台中使用 Teams 医疗保健模板](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+#### [在管理中心中使用 Teams 医疗保健模板](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 #### [适用于医疗保健组织的 Teams 模板入门](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [管理 Lists 应用](manage-lists-app.md)
 ### Teams 中的班次
@@ -725,7 +725,7 @@
 ### [从 SPO 网站或页面创建 Teams Intranet 门户应用](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [适用于零售业的 Teams](expand-teams-across-your-org/teams-for-retail-landing-page.md)
-### [管理控制台中的 Teams 零售模板入门](retail-teams-templates-in-the-admin-console.md)
+### [管理中心中的 Teams 零售模板入门](retail-teams-templates-in-the-admin-console.md)
 ### [Teams 零售模板入门](get-started-with-retail-teams-templates.md)
 
 ## [Teams 政府版](expand-teams-across-your-org/teams-for-government-landing-page.md)
