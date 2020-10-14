@@ -19,75 +19,64 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
-description: 了解如何在 Microsoft 团队中设置假日并使用 "假日" 功能将其连接到您的自动助理。
-ms.openlocfilehash: bd8b70fcd3f7fd50826498e91fdbbace602fc0f6
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+description: 了解如何在 Microsoft 团队中设置用于自动助理的假日。
+ms.openlocfilehash: cac41995f8faa072eaac2596d246808ac77fe431
+ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255405"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "48444240"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a><span data-ttu-id="6c5e1-103">在 Microsoft Teams 中设置假日</span><span class="sxs-lookup"><span data-stu-id="6c5e1-103">Set up holidays in Microsoft Teams</span></span>
+# <a name="set-up-holidays-in-microsoft-teams"></a><span data-ttu-id="7296a-103">在 Microsoft Teams 中设置假日</span><span class="sxs-lookup"><span data-stu-id="7296a-103">Set up holidays in Microsoft Teams</span></span>
 
-<span data-ttu-id="6c5e1-104">你可以使用 Microsoft 团队假日功能来安排组织中的人员将在工作中花费的时间，而不会在正常工作时间内提供特定日期和时间。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-104">You can use the Microsoft Teams Holidays feature to schedule specific dates and times when people in your organization will be taking time off from work and won't be available during regular business hours.</span></span> 
+<span data-ttu-id="7296a-104">你可以使用 "团队假日" 功能来安排组织中的人员将在工作中花费的时间，而不会提供特定日期和时间。</span><span class="sxs-lookup"><span data-stu-id="7296a-104">You can use the Teams Holidays feature to schedule specific dates and times when people in your organization will be taking time off from work and won't be available.</span></span> <span data-ttu-id="7296a-105">例如，当许多员工不在工作时，您可能会为新的年假期创建假日。</span><span class="sxs-lookup"><span data-stu-id="7296a-105">For example, you might create a holiday for the New Years holiday when many of your employees aren't at work.</span></span>
 
-<span data-ttu-id="6c5e1-105">您可以将假日链接到您在组织内创建的自动助理。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-105">You can link the holidays to auto attendants that you create within your organization.</span></span> <span data-ttu-id="6c5e1-106">自动助理允许呼叫者导航菜单系统以访问正确的部门或访问所需的信息。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-106">Auto attendants let callers navigate a menu system to get to the right department or get to information that they need.</span></span> <span data-ttu-id="6c5e1-107">配置自动助理的 "假日呼叫" 设置时，你可以从列表中选择该假日，添加问候语，并指定在节假日期间由自动助理接听呼叫时要执行的操作。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-107">When you configure holiday call settings for an auto attendant, you can select the holiday from a list, add a greeting, and specify what to do with the call when it's answered by the auto attendant during the holiday.</span></span>
+<span data-ttu-id="7296a-106">您在此处创建的假日在 [设置自动助理](create-a-phone-system-auto-attendant.md)时可用，每个人都有自己的问候语和呼叫路由设置。</span><span class="sxs-lookup"><span data-stu-id="7296a-106">The holidays you create here are available when you [set up an auto attendant](create-a-phone-system-auto-attendant.md), each with its own greeting and call routing settings.</span></span>
 
-<span data-ttu-id="6c5e1-108">一个很好的示例是创建圣诞节的假期，当许多员工不在工作时。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-108">A good example is creating a holiday for Christmas for when many of your employees aren't at work.</span></span> <span data-ttu-id="6c5e1-109">创建假日并设置时间后，您可以将该假日添加到您的主自动助理中，以便当用户拨入时，他们将听到您创建的音频消息。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-109">After you create the holiday and set times, then you would add the holiday to your main auto attendant so when people call in, they will hear an audio message you created.</span></span> <span data-ttu-id="6c5e1-110">例如，"我们已于12月22nd 至12月27日的圣诞节结束了。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-110">Something like, "We are closed for Christmas from December 22nd through December 27th.</span></span> <span data-ttu-id="6c5e1-111">请留下一条语音消息，这样我们就可以在我们回到办公室时返回您的电话。 "</span><span class="sxs-lookup"><span data-stu-id="6c5e1-111">Please leave us a voice message so we can return your call when we are back in the office."</span></span>
+## <a name="create-a-holiday"></a><span data-ttu-id="7296a-107">创建节日</span><span class="sxs-lookup"><span data-stu-id="7296a-107">Create a holiday</span></span>
 
-<span data-ttu-id="6c5e1-112">有关自动助理的详细信息，请参阅 [什么是云自动助理](what-are-phone-system-auto-attendants.md)？</span><span class="sxs-lookup"><span data-stu-id="6c5e1-112">For more information about auto attendants, see [What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?</span></span>  
+<span data-ttu-id="7296a-108">要创建假日，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="7296a-108">To create a holiday:</span></span>
 
-## <a name="create-a-holiday"></a><span data-ttu-id="6c5e1-113">创建节日</span><span class="sxs-lookup"><span data-stu-id="6c5e1-113">Create a holiday</span></span>
+1. <span data-ttu-id="7296a-109">在 "Microsoft 团队管理中心" 中，转到 "**组织范围的设置**  >  **假日**"。</span><span class="sxs-lookup"><span data-stu-id="7296a-109">In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.</span></span>
 
-1. <span data-ttu-id="6c5e1-114">在 "Microsoft 团队管理中心" 中，转到 "**组织范围的设置**  >  **假日**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-114">In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.</span></span>
+2. <span data-ttu-id="7296a-110">选择 " **新建假日**"。</span><span class="sxs-lookup"><span data-stu-id="7296a-110">Select **New holiday**.</span></span>
 
-2. <span data-ttu-id="6c5e1-115">选择 " **新建假日**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-115">Select **New holiday**.</span></span>
+3. <span data-ttu-id="7296a-111">输入假日的名称。</span><span class="sxs-lookup"><span data-stu-id="7296a-111">Enter a name for the holiday.</span></span>
 
-3. <span data-ttu-id="6c5e1-116">输入假日的名称。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-116">Enter a name for the holiday.</span></span>
+4. <span data-ttu-id="7296a-112">选择 " **添加新日期**"。</span><span class="sxs-lookup"><span data-stu-id="7296a-112">Select **Add new date**.</span></span>
 
-4. <span data-ttu-id="6c5e1-117">选择 " **添加新日期**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-117">Select **Add new date**.</span></span>
+5. <span data-ttu-id="7296a-113">在 " **开始时间**" 下，选择日历图标，然后选择希望假日开始的日期。</span><span class="sxs-lookup"><span data-stu-id="7296a-113">Under **Start time**, select the calendar icon and choose the date when you'd like the holiday to begin.</span></span>
 
-5. <span data-ttu-id="6c5e1-118">在 " **开始时间**" 下，选择日历图标，然后选择希望假日开始的日期。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-118">Under **Start time**, select the calendar icon and choose the date when you'd like the holiday to begin.</span></span>
+6. <span data-ttu-id="7296a-114">使用下拉列表选择假日的开始时间。</span><span class="sxs-lookup"><span data-stu-id="7296a-114">Use the drop-down list to select a start time for the holiday.</span></span>
 
-6. <span data-ttu-id="6c5e1-119">使用下拉列表选择假日的开始时间。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-119">Use the drop-down list to select a start time for the holiday.</span></span>
+7. <span data-ttu-id="7296a-115">在 " **结束时间**" 下，选择日历图标，然后选择希望假日结束的日期。</span><span class="sxs-lookup"><span data-stu-id="7296a-115">Under **End time**, select the calendar icon and choose the date when you'd like the holiday to end.</span></span> <span data-ttu-id="7296a-116">如果该假日仅为一天，则该假日应与您在 " **开始时间**" 下选择的日期相同。</span><span class="sxs-lookup"><span data-stu-id="7296a-116">If the holiday is one day only, this should be the same date as the one you chose under **Start time**.</span></span>
 
-7. <span data-ttu-id="6c5e1-120">在 " **结束时间**" 下，选择日历图标，然后选择希望假日结束的日期。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-120">Under **End time**, select the calendar icon and choose the date when you'd like the holiday to end.</span></span> <span data-ttu-id="6c5e1-121">如果该假日仅为一天，则该假日应与您在 " **开始时间**" 下选择的日期相同。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-121">If the holiday is one day only, this should be the same date as the one you chose under **Start time**.</span></span>
+8. <span data-ttu-id="7296a-117">使用下拉列表选择节假日的结束时间。</span><span class="sxs-lookup"><span data-stu-id="7296a-117">Use the drop-down list to select an end time for the holiday.</span></span>
 
-8. <span data-ttu-id="6c5e1-122">使用下拉列表选择节假日的结束时间。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-122">Use the drop-down list to select an end time for the holiday.</span></span>
+9. <span data-ttu-id="7296a-118">（可选）为定期假日添加更多日期。</span><span class="sxs-lookup"><span data-stu-id="7296a-118">Optionally, add more dates for recurring holidays.</span></span>
 
-9. <span data-ttu-id="6c5e1-123">选择 " **保存**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-123">Select **Save**.</span></span>
+10. <span data-ttu-id="7296a-119">选择 " **保存**"。</span><span class="sxs-lookup"><span data-stu-id="7296a-119">Select **Save**.</span></span>
 
-## <a name="change-a-holiday"></a><span data-ttu-id="6c5e1-124">更改假日</span><span class="sxs-lookup"><span data-stu-id="6c5e1-124">Change a holiday</span></span>
+    ![](media/holidays-set-up.png)
 
-1. <span data-ttu-id="6c5e1-125">在 "Microsoft 团队管理中心" 中，转到 "**组织范围的设置**  >  **假日**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-125">In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.</span></span>
+## <a name="change-a-holiday"></a><span data-ttu-id="7296a-120">更改假日</span><span class="sxs-lookup"><span data-stu-id="7296a-120">Change a holiday</span></span>
 
-2. <span data-ttu-id="6c5e1-126">从列表中选择该假日。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-126">Select the holiday from the list.</span></span>
+<span data-ttu-id="7296a-121">要更改假日，请执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="7296a-121">To change a holiday:</span></span>
 
-3. <span data-ttu-id="6c5e1-127">在 " **开始时间**" 下，选择日历图标，然后选择希望假日开始的日期。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-127">Under **Start time**, select the calendar icon and choose the date when you'd like the holiday to begin.</span></span>
+1. <span data-ttu-id="7296a-122">在 "Microsoft 团队管理中心" 中，转到 "**组织范围的设置**  >  **假日**"。</span><span class="sxs-lookup"><span data-stu-id="7296a-122">In the Microsoft Teams admin center, go to **Org-wide settings** > **Holidays**.</span></span>
 
-4. <span data-ttu-id="6c5e1-128">使用下拉列表选择假日的开始时间。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-128">Use the drop-down list to select a start time for the holiday.</span></span>
+2. <span data-ttu-id="7296a-123">从列表中选择该假日。</span><span class="sxs-lookup"><span data-stu-id="7296a-123">Select the holiday from the list.</span></span>
 
-5. <span data-ttu-id="6c5e1-129">在 " **结束时间**" 下，选择日历图标，然后选择希望假日结束的日期。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-129">Under **End time**, select the calendar icon and choose the date when you'd like the holiday to end.</span></span> 
+3. <span data-ttu-id="7296a-124">在 " **开始时间**" 下，选择日历图标，然后选择希望假日开始的日期。</span><span class="sxs-lookup"><span data-stu-id="7296a-124">Under **Start time**, select the calendar icon and choose the date when you'd like the holiday to begin.</span></span>
 
-6. <span data-ttu-id="6c5e1-130">使用下拉列表选择节假日的结束时间。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-130">Use the drop-down list to select an end time for the holiday.</span></span>
+4. <span data-ttu-id="7296a-125">使用下拉列表选择假日的开始时间。</span><span class="sxs-lookup"><span data-stu-id="7296a-125">Use the drop-down list to select a start time for the holiday.</span></span>
 
-7. <span data-ttu-id="6c5e1-131">选择 " **保存**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-131">Select **Save**.</span></span>
+5. <span data-ttu-id="7296a-126">在 " **结束时间**" 下，选择日历图标，然后选择希望假日结束的日期。</span><span class="sxs-lookup"><span data-stu-id="7296a-126">Under **End time**, select the calendar icon and choose the date when you'd like the holiday to end.</span></span> 
 
-## <a name="connect-a-holiday-to-an-auto-attendant"></a><span data-ttu-id="6c5e1-132">将假日连接到自动助理</span><span class="sxs-lookup"><span data-stu-id="6c5e1-132">Connect a holiday to an auto attendant</span></span>
+6. <span data-ttu-id="7296a-127">使用下拉列表选择节假日的结束时间。</span><span class="sxs-lookup"><span data-stu-id="7296a-127">Use the drop-down list to select an end time for the holiday.</span></span>
 
-1. <span data-ttu-id="6c5e1-133">在 "Microsoft 团队管理中心" 中，转到 "**语音**  >  **自动助理**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-133">In the Microsoft Teams admin center, go to **Voice** > **Auto attendants**.</span></span>
-2. <span data-ttu-id="6c5e1-134">从列表中选择一个资源帐户。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-134">Select a resource account from the list.</span></span>
-3. <span data-ttu-id="6c5e1-135">在左窗格中，选择 " **假日呼叫设置**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-135">In the left pane, select **Holiday call settings**.</span></span>
-4. <span data-ttu-id="6c5e1-136">选择 " **新建假日**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-136">Select **New holiday**.</span></span>
-5. <span data-ttu-id="6c5e1-137">从下拉列表中选择 "假日"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-137">Select the holiday from the drop-down list.</span></span>
-6. <span data-ttu-id="6c5e1-138">您可以添加可选问候语：</span><span class="sxs-lookup"><span data-stu-id="6c5e1-138">You can add an optional greeting:</span></span>
-    - <span data-ttu-id="6c5e1-139">若要播放录制的问候语，请选择 " **播放音频文件**"，然后选择 " **上载文件**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-139">To play a recorded greeting, select **Play an audio file**, and then select **Upload file**.</span></span> <span data-ttu-id="6c5e1-140">通过浏览找到音频文件的位置，选择文件，然后选择 " **打开**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-140">Browse to the location of the audio file, select the file, and then select **Open**.</span></span>
-    - <span data-ttu-id="6c5e1-141">若要创建问候语，请选择 " **键入问候消息**"，然后键入消息。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-141">To create a greeting, select **Type a greeting message**, and then type your message.</span></span> <span data-ttu-id="6c5e1-142">如果你没有提供音频文件，呼叫方将听到此消息。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-142">Callers will hear this message if you haven't provided an audio file.</span></span>
-7. <span data-ttu-id="6c5e1-143">若要在问候语后结束呼叫，请在 " **操作**" 下，选择 " **断开连接**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-143">To end the call after the greeting, under **Actions**, select **Disconnect**.</span></span> 
+7. <span data-ttu-id="7296a-128">选择 " **保存**"。</span><span class="sxs-lookup"><span data-stu-id="7296a-128">Select **Save**.</span></span>
 
-    <span data-ttu-id="6c5e1-144">要重定向呼叫，请选择 " **重定向呼叫**"，然后从下拉列表中选择接收重定向呼叫的人员，或按显示名称搜索人员。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-144">To redirect the call, select **Redirect call**, and then select the person who will receive the redirected call from the drop-down list or search for the person by display name.</span></span>
-8. <span data-ttu-id="6c5e1-145">选择 " **保存**"。</span><span class="sxs-lookup"><span data-stu-id="6c5e1-145">Select **Save**.</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7296a-129">相关主题</span><span class="sxs-lookup"><span data-stu-id="7296a-129">Related topics</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="6c5e1-146">相关主题</span><span class="sxs-lookup"><span data-stu-id="6c5e1-146">Related topics</span></span>
-
-<span data-ttu-id="6c5e1-147">[什么是云自动助理](what-are-phone-system-auto-attendants.md)？</span><span class="sxs-lookup"><span data-stu-id="6c5e1-147">[What are Cloud auto attendants](what-are-phone-system-auto-attendants.md)?</span></span>
+[<span data-ttu-id="7296a-130">规划团队自动助理和通话队列</span><span class="sxs-lookup"><span data-stu-id="7296a-130">Plan for Teams auto attendants and call queues</span></span>](plan-auto-attendant-call-queue.md)
