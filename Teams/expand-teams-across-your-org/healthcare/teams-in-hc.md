@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: ''
 description: 了解医疗保健的功能，包括护理协调、安全消息、虚拟访问、EHR 集成和一线 worker 系统集成。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03de58e9fef94dcf63649920cde5a3663a25889e
-ms.sourcegitcommit: c79b83e03a89649e2b6e494a741a392819baf2d2
+ms.openlocfilehash: 07f5e87a454091319775bf5e1124e2c4651ea736
+ms.sourcegitcommit: 51d94d621e3411f35622e852b699275f526600dd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48433055"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48469548"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>适用于医疗保健组织的 Teams 入门
 
@@ -92,8 +92,6 @@ Microsoft 团队支持医生、临床医生、护士和其他员工通过以下�
 创建团队的新模板已开发为适用于医院的设置，并且预计会更多。 这使您可以更轻松地创建医疗保健工作者在各种部门或 wards 中协调病人的护理。 请参阅 [面向医疗保健组织的团队模板入门](healthcare-templates.md)。 团队可以为内部部门（如心脏病科）或用于护理 wards 的团队开始，并且更多模板位于开发中。
 
 ## <a name="lists-app"></a>列表应用
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 团队中的 "列表" 应用可帮助团队跟踪信息和组织工作。 为所有团队用户预安装应用，并且该应用在每个团队和频道中均可用作选项卡。 可以从预定义的模板或将数据导入到 Excel 中从头开始创建列表。
 
