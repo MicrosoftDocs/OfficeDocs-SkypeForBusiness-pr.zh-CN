@@ -770,6 +770,7 @@
 ### [策略控制概述](policy-control-overview.md)
 ### [移动设备诊断数据](policy-control-diagnostic-data-mobile.md)
 ### [桌面客户端诊断数据](policy-control-diagnostic-data-desktop.md)
+### [Microsoft Teams 中的可选连接体验概述](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # 监视、维护和疑难解答
@@ -861,7 +862,7 @@
 ### [使用 Teams 增强现有 Microsoft 365 组](enhance-office-365-groups.md)
 ### [Exchange 与 Teams 如何交互](exchange-teams-interact.md)
 #### [配置 Exchange 混合组织以配合使用 Teams](exchange-hybrid-organization.md)
-#### [在 Exchange Online 中将 Teams SMTP 域添加为接受的域](smtp-accepted-domain.md)
+#### [通过 Exchange 使用邮件流规则](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)
 ### [SharePoint Online 和 OneDrive for Business 与 Teams 如何交互](sharepoint-onedrive-interact.md)
 ### [Microsoft 365 和 Office 365 支持多地理位置的租户中的 Teams 体验](teams-experience-o365odb-spo-multi-geo.md)
 
