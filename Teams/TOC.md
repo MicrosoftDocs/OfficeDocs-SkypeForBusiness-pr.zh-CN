@@ -770,7 +770,7 @@
 ### [策略控制概述](policy-control-overview.md)
 ### [移动设备诊断数据](policy-control-diagnostic-data-mobile.md)
 ### [桌面客户端诊断数据](policy-control-diagnostic-data-desktop.md)
-### [Microsoft Teams 中的可选连接体验概述](teams-privacy-oce-overview.md)
+### [可选连接体验](teams-privacy-oce-overview.md)
 
 <!-- ============================================================ -->
 # 监视、维护和疑难解答
@@ -882,8 +882,8 @@
 ### [安装 Teams PowerShell](teams-powershell-install.md)
 ### [使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
 ### [Teams PowerShell 发行说明](teams-powershell-release-notes.md)
+### [从 Skype for Business Online 连接器移动到 Teams PowerShell 模块](teams-powershell-move-from-sfbo.md)
 ### [Teams 的 Cmdlet 参考](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
-
 ## [Teams 开发人员文档](https://docs.microsoft.com/microsoftteams/platform)
 ## [在 Teams 中获取帮助](get-help-in-microsoft-teams.md)
 ## [Teams 内容更新](teams-updates.md)
