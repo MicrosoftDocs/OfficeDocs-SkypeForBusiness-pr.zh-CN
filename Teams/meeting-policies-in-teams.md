@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何管理团队中的会议策略设置，并使用它们控制由用户安排的会议参与者可使用的功能。
-ms.openlocfilehash: c6942a86a8bf63254fb30e59c4a5400f9fa58304
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 5201f5ef1833333f7e6d233c6f27cdc6a7d475fe
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308418"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486817"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>管理团队中的会议策略
 
@@ -161,9 +161,9 @@ ms.locfileid: "48308418"
 
 在管理中心：
 
-"频道日历" 应用将显示在权限策略的 "管理员" 面板中的 " **Microsoft 应用** " 部分下方。
+频道日历应用将显示在 "应用权限策略" 页面上的 " **Microsoft 应用** " 部分中。
 
-![显示团队管理员控制台中的 Microsoft 应用策略的屏幕截图。](media/manage-microsoft-apps-policy.png)
+![显示团队管理中心中的应用权限策略的屏幕截图。](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>允许安排私人会议
 
@@ -227,6 +227,8 @@ ms.locfileid: "48308418"
 
 此设置不应用于1:1 通话。 若要限制1:1 呼叫，请配置团队 [呼叫策略](teams-calling-policy.md) 并关闭 "设置 **专用呼叫** " 设置。 此设置也不适用于会议室设备，如 Surface Hub 和 Microsoft 团队聊天室设备。
 
+此设置尚不可用于 Microsoft 365 政府社区云 (GCC) 、GCC 高或国防 (DoD) 环境。
+
 若要了解详细信息，请参阅 [管理会议参与者的音频/视频](#manage-audiovideo-for-meeting-participants)。
 
 ### <a name="mode-for-ip-video"></a>IP 视频模式
@@ -240,10 +242,14 @@ ms.locfileid: "48308418"
 
 如果为用户设置为 " **已禁用** "，则该用户无法打开视频或查看由其他会议参与者共享的视频。 未分配任何策略的会议参与者 (例如，匿名参与者) 将此设置为默认情况下 **启用的传出和传入视频** 。
 
-此设置不会应用到会议室设备（如 Surface Hub 和 Microsoft 团队聊天室设备）。
+此设置不会应用到会议室设备（如 Surface Hub 和 Microsoft 团队聊天室设备）。 
+
+此设置尚不可用于 Microsoft 365 政府社区云 (GCC) 、GCC 高或国防 (DoD) 环境。
 
 > [!NOTE]
 > 请记住，此设置既控制传出视频，也控制传入视频，而 " **允许 IP 视频** " 设置控制传出视频。 若要了解详细信息，请参阅 [哪些 IP 视频策略设置优先？](#which-ip-video-policy-setting-takes-precedence) 和 [管理会议参与者的音频/视频](#manage-audiovideo-for-meeting-participants)。
+
+若要了解详细信息，请参阅 [管理会议参与者的音频/视频](#manage-audiovideo-for-meeting-participants)。
 
 ### <a name="allow-ip-video"></a>允许 IP 视频
 
@@ -258,7 +264,6 @@ ms.locfileid: "48308418"
 |:-------:|:-------:|
 |![显示桌面的音频/视频设置的会议加入的屏幕截图](media/meeting-policies-audio-video-settings.png)    |![在手机上显示 "音频/视频设置" 的会议加入 sreen 的屏幕截图](media/meeting-policies-mobile-join.png)          |
 
-
 我们来看看下面的示例。
 
 |用户 |会议策略  |允许 IP 视频 |
@@ -271,6 +276,8 @@ ms.locfileid: "48308418"
 在 Amanda 托管的会议中，无论分配给他们的视频策略如何，任何人都无法打开视频。 这意味着 Daniela 无法在 Amanda 的会议中打开视频。  
 
 如果 Daniela 通过视频 Amanda 调用，Amanda 只能通过音频应答呼叫。  当呼叫连接时，Amanda 可以看到 Daniela 的视频，但无法打开视频。 如果 Amanda 呼叫 Daniela，Daniela 可以通过视频和音频接听呼叫。 通话接通后，Daniela 可以根据需要打开或关闭她的视频。
+
+若要了解详细信息，请参阅 [管理会议参与者的音频/视频](#manage-audiovideo-for-meeting-participants)。
 
 #### <a name="which-ip-video-policy-setting-takes-precedence"></a>哪些 IP 视频策略设置优先？
 

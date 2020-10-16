@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83a7a0628d76a96318081ec51a039d458ea1570f
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: 624dcb4f99bc8ae2b83a1b8f62917ac0a5701888
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444228"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486767"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用 OneDrive for Business 和 SharePoint 或流进行会议录制
 
 > [!Note]
 > 使用 Microsoft Stream to OneDrive for Business 和 Microsoft SharePoint for 会议录制的更改将是一种分阶段方法。
 
-|||
-|---|-----------------|
+
 |日期|活动|
+|---|-----------------|
 |第4季度早些 CY20|**OneDrive for business 和 SharePoint 上的团队会议录制可供选择加入或选择退出。**<br> 租户管理员可以选择加入或退出 OneDrive for Business 和 SharePoint 设置 PowerShell 中的团队策略|
 |第4季度中旬 CY20|**OneDrive for business 和 SharePoint 上的团队会议录制设置为未选择的租户的默认设置**<br> 这是适用于大多数客户的推荐途径|
-第1季度 CY21|**不再允许将团队会议录制保存到经典流**<br>所有租户均可将团队会议录制内容保存到 OneDrive for business 和 SharePoint|
-|||
+|第1季度 CY21|**不再允许将团队会议录制保存到经典流**<br>所有租户均可将团队会议录制内容保存到 OneDrive for business 和 SharePoint|
+
 
 Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsoft Stream 过渡到 [新流](https://docs.microsoft.com/stream/streamnew/new-stream)的第一阶段，此方法将录制存储在 microsoft 365 中的 microsoft OneDrive 和 SharePoint 上并提供许多好处。
 
@@ -98,6 +98,23 @@ Microsoft 团队具有保存会议录制的新方法。 作为从经典 Microsof
 ```PowerShell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 ```
+
+## <a name="permissions-or-role-based-access"></a>权限或基于角色的访问
+
+
+|会议类型                               | 单击 "记录"| 录制的土地在哪里？                               |谁有权访问？ R/W、R 或共享                                                                                                                                                                                                                                                     |
+|-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|与内部团体的1:1 通话             |呼叫者                 |呼叫者的 OneDrive for business 帐户                        |-呼叫方是所有者、具有被调用方的完全权限 (如果在同一租户) 中具有只读访问权限，则在不同租户) 没有访问权限的情况下，不 (共享访问被调用方。 调用方必须将其共享给被呼叫方|
+|与内部团体的1:1 通话             |被叫方                 |被呼叫者的 OneDrive for business 帐户                        |-被调用方是所有者、具有完全权限-调用方 (如果在同一租户中具有只读访问权限，则没有共享访问权限，调用方 (如果在不同租户) 没有访问权限。 被呼叫方必须将其共享给被呼叫方|
+|使用外部通话的1:1 通话             |呼叫者                 |呼叫者的 OneDrive for business 帐户                        |-呼叫方为所有者，具有完全权限的被调用方没有访问权限。 调用方必须将其共享给被呼叫方|
+|使用外部通话的1:1 通话             |被叫方                 |呼叫者的 OneDrive for business 帐户                        |-被调用方是所有者，具有完全权限-呼叫方没有访问权限。 被呼叫方必须将其共享给呼叫方|
+|群组通话                                 |任何呼叫成员 |单击记录的 OneDrive for Business 帐户的成员  |-单击 "记录" 的成员具有完全权限-来自同一租户的其他成员具有 "读取" 权限，其他成员对于其他成员没有权限。|
+|即席/计划会议                    |组织者              |组织者的 OneDrive for Business 帐户                     |-组织者对录制具有完全权限-会议的所有其他成员都具有 "读取" 访问权限|
+|即席/计划会议                    |其他会议成员   |单击记录的成员                                  |-单击记录的成员对录制具有完全权限-组织者具有编辑权限，并且可以共享-所有其他成员都具有读取访问权限|
+|与外部用户进行即席/计划会议|组织者              |组织者的 OneDrive for Business 帐户                     |-组织者对录制具有完全权限，与组织者相同的租户的所有其他成员都具有 "读取" 权限-所有其他外部成员都不具有访问权限，并且组织者必须将其共享|
+|与外部用户进行即席/计划会议|其他会议成员   |单击记录的成员                                  |-单击记录的成员对录制具有完全权限-组织者具有编辑权限，并且可以从与组织者相同的租户中共享会议的所有其他成员，并且所有其他外部成员都不具有访问权限，并且组织者必须将其共享|
+|频道会议                            |频道成员         |该频道的团队 SharePoint 位置                   |-单击记录的成员对录制具有编辑权限-其他成员的每个权限都基于通道 SharePoint 权限|
+
 
 ## <a name="frequently-asked-questions"></a>常见问题解答
 

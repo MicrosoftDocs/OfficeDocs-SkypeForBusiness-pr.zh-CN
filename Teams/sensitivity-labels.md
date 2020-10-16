@@ -17,16 +17,16 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中定义和使用敏感度标签。
-ms.openlocfilehash: 4f1bdc4715fd1375cff637604c93962e2f30c258
-ms.sourcegitcommit: d7f49f8c28cba32d3715ea1965c736e6ba574bda
+ms.openlocfilehash: 21d70bf48448ccef5555078e4aba65bb10d5d6a2
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45091265"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476717"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft 团队的灵敏度标签
 
-[敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)允许团队管理员控制在团队内协作期间创建的敏感组织内容的访问权限。 你可以在[安全 & 合规中心](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)中定义灵敏度标签及其关联的策略。 这些标签和策略将自动应用于你的组织中的团队。  
+[敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) 允许团队管理员控制在团队内协作期间创建的敏感组织内容的访问权限。 你可以在 [安全 & 合规中心](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)中定义灵敏度标签及其关联的策略。 这些标签和策略将自动应用于你的组织中的团队。  
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>灵敏度标签和团队分类标签之间有何区别？
 
@@ -34,13 +34,13 @@ ms.locfileid: "45091265"
 
 另一方面，灵敏度标签和其策略通过组平台、安全 & 合规中心和团队服务的组合自动实施端到端。 灵敏度标签提供强大的基础结构支持以保护组织的敏感数据。  
 
-若要将现有组从使用分类标签到使用灵敏度标签迁移，请使用[Microsoft 365 组的 Azure Active Directory 分类和敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels)中的说明。
+若要将现有组从使用分类标签到使用灵敏度标签迁移，请使用 [Microsoft 365 组的 Azure Active Directory 分类和敏感度标签](https://docs.microsoft.com/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels)中的说明。
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>为团队创建、管理和发布灵敏度标签
 
-有关如何为团队启用、创建和发布敏感度标签的详细说明，请参阅[Microsoft 365 组的 Azure Active Directory 分类和灵敏度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
+有关如何为团队启用、创建和发布敏感度标签的详细说明，请参阅 [Microsoft 365 组的 Azure Active Directory 分类和灵敏度标签](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。
 
 >[!IMPORTANT]
->创建、更新和删除灵敏度标签需要对用户发布标签的仔细排序。 序列中的任何偏差都可能会导致所有用户的持久团队创建错误。 因此，在<a href="#createpublishlabels">创建和发布标签</a>、<a href="#modifydeletelabels">修改和删除已发布标签</a>以及<a href="#manageerrors">管理团队创建错误</a>时，执行以下操作非常重要。
+>创建、更新和删除灵敏度标签需要对用户发布标签的仔细排序。 序列中的任何偏差都可能会导致所有用户的持久团队创建错误。 因此，在 <a href="#createpublishlabels">创建和发布标签</a>、 <a href="#modifydeletelabels">修改和删除已发布标签</a>以及 <a href="#manageerrors">管理团队创建错误</a>时，执行以下操作非常重要。
 
 **创建和发布标签** <a name="createpublishlabels"> </a>
 
@@ -63,7 +63,7 @@ ms.locfileid: "45091265"
 
 如果团队创建在公共预览版中的任何时候开始失败，您有两种选择：
  - 确保在创建团队期间对任何用户不强制使用灵敏度标签。
- - 使用 "[启用此预览](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)" 中的脚本关闭灵敏度标签。
+ - 使用 " [启用此预览](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#enable-this-preview)" 中的脚本关闭灵敏度标签。
 
 请注意，EnableMIPLabels 设置必须设置为 false，如下所示：
 
@@ -79,11 +79,11 @@ $setting["EnableMIPLabels"] = "False"
 
 你可以创建在团队创建期间应用的敏感度标签，以允许用户使用特定隐私 (公共或专用) 设置创建团队。
 
-例如，在安全 & 合规中心创建名为 "保密" 的标签，并配置团队，以便使用此标签创建的任何团队都必须是专用团队。 当用户创建新团队并选择 "**机密**" 标签时，用户可用的唯一隐私选项是 "**专用**"。 用户已禁用其他隐私选项，如公共和组织范围。
+例如，在安全 & 合规中心创建名为 "保密" 的标签，并配置团队，以便使用此标签创建的任何团队都必须是专用团队。 当用户创建新团队并选择 " **机密** " 标签时，用户可用的唯一隐私选项是 " **专用**"。 用户已禁用其他隐私选项，如公共和组织范围。
 
 ![机密敏感度标签的屏幕截图](media/sensitivity-labels-confidential-example.png)
 
-同样，如果用户在创建新团队时选择 "**常规**"，则他们只能创建公共团队或组织级团队。
+同样，如果用户在创建新团队时选择 " **常规** "，则他们只能创建公共团队或组织级团队。
 
 ![常规灵敏度标签的屏幕截图](media/sensitivity-labels-general-example.png)
 
@@ -91,7 +91,7 @@ $setting["EnableMIPLabels"] = "False"
 
 ![团队频道中灵敏度标签的屏幕截图](media/sensitivity-labels-channel.png)
 
-团队所有者可以随时更改团队的敏感度标签和隐私设置，方法是转到团队，然后单击 "**编辑团队**"。
+团队所有者可以随时更改团队的敏感度标签和隐私设置，方法是转到团队，然后单击 " **编辑团队**"。
 
 ![团队频道中灵敏度标签的屏幕截图](media/sensitivity-labels-edit-team.png)
 
@@ -101,13 +101,9 @@ $setting["EnableMIPLabels"] = "False"
 
 ### <a name="sensitivity-labels-in-the-microsoft-teams-admin-center"></a>Microsoft 团队管理中心中的敏感度标签
 
-在 Microsoft 团队管理中心创建或编辑团队时，可以设置敏感度标签。 灵敏度标签还会显示在团队属性和 Microsoft 团队管理中心的 "管理团队" 页面上的 "**分类**" 列中。
+在 Microsoft 团队管理中心创建或编辑团队时，可以设置敏感度标签。 灵敏度标签还会显示在团队属性和 Microsoft 团队管理中心的 "管理团队" 页面上的 " **分类** " 列中。
 
 ## <a name="known-issues"></a>已知问题
-
-**团队创建过程中未显示子默认标签**
-
-当前，设置为团队的默认标签的子标签不会显示在团队创建模型的 "敏感度标签" 下拉列表的顶部。 团队创建者仍可使用下拉列表将子标签应用为解决方法。
 
 **对团队图形 Api、Powershell cmdlet 和模板中的灵敏度标签的支持**
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f417c2b2ef9494c5951098a2cec3e2c01b15f16b
-ms.sourcegitcommit: 43823358e7e1c1cece72a69a2ceb4eff86d3f927
+ms.openlocfilehash: 472436eb4dd9f27d6e170ed723c243c002115d9b
+ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "48416857"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "48476647"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬件要求
 
@@ -43,7 +43,7 @@ ms.locfileid: "48416857"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更高版本       |
 |视频    |  USB 2.0 视频摄像头       |
 |设备    |   标准笔记本电脑摄像头、麦克风和扬声器    |
-|视频通话和会议|<ul><li>需要2核处理器。 为了获得更高的视频/屏幕共享分辨率和帧速率，建议使用4核处理器或更好的处理器。</li> <li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用 Microsoft 团队聊天室中的邻近感应检测加入会议需要蓝牙 LE，这需要在客户端设备上启用蓝牙，并且对于 Windows 客户端，它还需要64位团队客户端。 此功能在32位团队客户端上不可用。</li></ul> |
+|视频通话和会议|<ul><li>需要2核处理器。 为了获得更高的视频/屏幕共享分辨率和帧速率，建议使用4核处理器或更好的处理器。</li> <li>背景视频效果需要 Windows 10 或具有 AVX2 指令集的处理器。</li> <li>请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)，查看不受支持的解码器和编码器的列表。</li><li>使用 Microsoft 团队聊天室中的邻近感应检测加入会议需要蓝牙 LE，这需要在客户端设备上启用蓝牙，并且对于 Windows 客户端，它还需要64位团队客户端。 此功能在32位团队客户端上不可用。</li></ul> |
 |Teams 实时事件 | 如果你正在制作团队实时活动，我们建议使用具有核心 i5 Kaby Lake processor、4.0 GB RAM (或更高) 和硬件编码器的计算机。 有关**不支持**的解码器和编码器的列表，请参阅[硬件解码器和编码器驱动程序建议](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Teams 在 Mac 上的硬件要求

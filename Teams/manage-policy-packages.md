@@ -20,17 +20,17 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 了解如何在 Microsoft 团队中使用和管理策略程序包，以便在管理用户组策略时简化、简化和帮助提供一致性。
-ms.openlocfilehash: 866183442d21ad91a83f3e9460ccd257902a0972
-ms.sourcegitcommit: f4f5ad1391b472d64390180c81c2680f011a8a10
+ms.openlocfilehash: 140b67ae8df01d29b8e6d37c6fe1a36afebbd949
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48370604"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48488386"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>管理 Microsoft 团队中的策略程序包
 
 > [!NOTE]
-> 本文中所述的功能之一（ [自定义策略程序包](#custom-policy-packages)）尚未发布。 即将推出私人预览版。
+> 本文中所述的功能之一是 " [自定义策略" 程序包](#custom-policy-packages)，当前位于 "私人预览" 中。
 
 Microsoft 团队中的策略包是预定义策略和策略设置的集合，可分配给在组织中具有类似角色的用户。 我们构建了策略程序包，以便在管理组织内的用户组策略时提供简化、简化和帮助。  
 

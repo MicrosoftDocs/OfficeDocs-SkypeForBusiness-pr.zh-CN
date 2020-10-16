@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a709f747d448b8a820cdd3d6fc3d1b732cc4a2a
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 8a6df112d0ea8359e3fe7db07bd644b0b90404f0
+ms.sourcegitcommit: 8a345ca9a8ddc6a84f9e270ab55f1b28f6ba49c8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955880"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48486757"
 ---
 # <a name="pstn-considerations-when-upgrading-to-teams-mdash-for-it-administrators"></a>为 IT 管理员升级到团队时的 PSTN 注意事项 &mdash;
 
@@ -44,7 +44,8 @@ ms.locfileid: "47955880"
 
 
  > [!NOTE]
- > 仅当用户处于 TeamsOnly 模式时，才支持将电话系统与团队配合使用。  如果用户处于 "孤岛" 模式，则只有 Skype for Business 才支持电话系统。 
+ > - 仅当用户处于 TeamsOnly 模式时，才支持将电话系统与团队配合使用。  如果用户处于 "孤岛" 模式，则只有 Skype for Business 才支持电话系统。 
+ > - Skype for Business 中的任何呼叫转接和委派设置均不会迁移，并且需要为团队重新创建。
 
 
 ## <a name="pstn-calling-scenarios"></a>PSTN 呼叫方案
@@ -109,7 +110,7 @@ ms.locfileid: "47955880"
 
 6. 升级用户：这些步骤应协调。 
 
-   - 使用本地 Skype for Business 工具，通过-MoveToTeams 开关运行 Move-csuser。 如果你使用的 Skype for Business Server 版本不支持-MoveToTeams 开关，请先运行 Move Move-csuser，然后在租户远程 PowerShell 或团队管理控制台中分配 TeamsOnly 模式。
+   - 使用本地 Skype for Business 工具，使用-MoveToTeams 开关运行 Move-CsUser。 如果你使用的 Skype for Business Server 版本不支持-MoveToTeams 开关，请首先运行 Move-CsUser，然后在租户远程 PowerShell 或团队管理控制台中分配 TeamsOnly 模式。
 
    - 在 SBC 上，将语音路由配置为通过将呼叫发送到直接路由（而不是本地中介服务器）来启用传入呼叫。 
 
@@ -135,7 +136,7 @@ ms.locfileid: "47955880"
    - 如果您将重新使用这些号码，请向您的运营商提交一个移植请求。  
    - 或者，您可以直接从 Microsoft 获取新号码。 
 
-6. 升级用户，如果需要，请分配 LineUri。 使用本地 Skype for Business 工具，通过-MoveToTeams 开关运行 Move-csuser。  
+6. 升级用户，如果需要，请分配 LineUri。 使用本地 Skype for Business 工具，使用-MoveToTeams 开关运行 Move-CsUser。  
 
     - 如果你要将数字移植到 Microsoft，你应该将此操作的计时协调为在端口出现时发生。 
 
