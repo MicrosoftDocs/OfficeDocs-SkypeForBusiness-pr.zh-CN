@@ -678,7 +678,6 @@
 ### [开始使用 Teams 模板](get-started-with-teams-templates.md)
 ### [Teams 中的排班](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 #### [在 Teams 中为组织管理排班应用](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
-
 ## 适用于医疗保健业的 Teams
 ### [适用于医疗保健组织的 Teams 入门](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [预订应用和虚拟参观](bookings-app-admin.md)
@@ -720,6 +719,7 @@
 ## 适合于一线工作者的 Teams
 ### [适合一线员工的快速入门](firstline-workers-quickstart.yml)
 ### [一线员工脚本化部署](flw-scripted-deployment.md)
+### [为一线工作者管理基于班次的访问](expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)
 ### [RealWear for Microsoft Teams](flw-realwear.md)
 ### [对讲机](walkie-talkie.md)
 ### [从 SPO 网站或页面创建 Teams Intranet 门户应用](teams-standalone-static-tabs-using-spo-sites.md)
