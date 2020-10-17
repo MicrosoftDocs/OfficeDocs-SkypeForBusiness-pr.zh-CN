@@ -12,20 +12,22 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1511ea24acb058f8de7bdbcf7f831e6493b2ffd6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 33c3db01f772f43ea8507cee5c309b6705c8a69d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197175"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528139"
 ---
+# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013 中的前端池和 Standard Edition 服务器的 IIS 要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Lync Server 2013 中的前端池和 Standard Edition 服务器的 IIS 要求
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197175"
 
 _**上次修改的主题：** 2012-06-19_
 
-对于 Standard Edition 服务器和前端服务器以及控制器，Lync Server 2013 安装程序会在 Internet Information Services （IIS）中创建虚拟目录，以实现以下目的：
+对于 Standard Edition 服务器和前端服务器以及控制器，Lync Server 2013 安装程序会在 Internet Information Services (IIS) 中创建虚拟目录，以实现以下目的：
 
   - 允许用户从通讯簿服务下载文件
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-06-19_
 
 此外，Lync Server 2010 的累积更新：11月2011安装程序将在 IIS 中创建虚拟目录，以实现以下目的：
 
-  - 在前端服务器或 Standard Edition 服务器上，以支持移动设备上的移动功能，如即时消息（IM）和状态
+  - 在前端服务器或 Standard Edition 服务器上，支持移动功能（如即时消息 (IM) 和状态）在移动设备上
 
   - 在前端服务器或 Standard Edition 服务器和控制器上，使移动设备能够自动发现移动资源
 
@@ -70,7 +72,7 @@ Lync Server 要求安装以下 IIS 模块：
 
 
 > [!IMPORTANT]
-> 如果您的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务，则可以在 "安装程序" 对话框中更改 Lync Server 文件的安装位置路径。 如果将安装文件安装到此路径（包括 OCSCore），则其余的 Lync Server 文件也将同时部署到此驱动器。 有关如何在安装 IIS 时重新定位由 Windows Server Manager 部署的 INETPUB 的详细信息<A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>，请参阅。
+> 如果您的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务，则可以在 "安装程序" 对话框中更改 Lync Server 文件的安装位置路径。 如果将安装文件安装到此路径（包括 OCSCore.msi），则其余的 Lync Server 文件也将部署到此驱动器。 有关如何在安装 IIS 时重新定位由 Windows Server Manager 部署的 INETPUB 的详细信息，请参阅 <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> 。
 
 
   - 静态内容
@@ -129,58 +131,58 @@ Lync Server 要求安装以下 IIS 模块：
 <tbody>
 <tr class="odd">
 <td><p>通讯簿服务器</p></td>
-<td><p>https://&lt;内部 FQDN&gt;/ABS/int/Handler</p></td>
+<td><p>https:// &lt; 内部 FQDN &gt; /ABS/int/Handler</p></td>
 <td><p>用于内部用户的通讯簿服务器下载文件的位置。</p></td>
 </tr>
 <tr class="even">
 <td><p>自动发现服务</p></td>
-<td><p>https://&lt;内部 FQDN&gt;/Autodiscover</p></td>
+<td><p>https:// &lt; 内部 FQDN &gt; /Autodiscover</p></td>
 <td><p>为内部移动设备用户查找移动性资源的 Lync Server 自动发现服务的位置。</p></td>
 </tr>
 <tr class="odd">
 <td><p>客户端更新</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/AutoUpdate/Int</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /AutoUpdate/Int</p></td>
 <td><p>用于内部基于计算机的客户端的更新文件的位置。</p></td>
 </tr>
 <tr class="even">
 <td><p>会议</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/Conf/Int</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /Conf/Int</p></td>
 <td><p>用于内部用户的会议资源的位置。</p></td>
 </tr>
 <tr class="odd">
 <td><p>设备更新</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/DeviceUpdateFiles_Int</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /DeviceUpdateFiles_Int</p></td>
 <td><p>用于内部 UC 设备的统一通信 (UC) 设备更新文件的位置。</p></td>
 </tr>
 <tr class="even">
 <td><p>要求</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/etc/place/null</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /etc/place/null</p></td>
 <td><p>用于内部用户的会议内容的位置。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Mobility Service</p></td>
-<td><p>https://&lt;内部 FQDN&gt;/Mcx</p></td>
+<td><p>https:// &lt; 内部 FQDN &gt; /Mcx</p></td>
 <td><p>用于内部移动设备用户的 Mobility Service 资源的位置。</p></td>
 </tr>
 <tr class="even">
 <td><p>组扩展和通讯簿 Web 查询服务</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/GroupExpansion/int/service.asmx</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /GroupExpansion/int/service.asmx</p></td>
 <td><p>为内部用户启用组扩展的 Web 服务的位置。 此外，将全局地址列表信息提供给内部 Lync Mobile Microsoft Lync 2010 移动客户端的通讯簿 Web 查询服务的位置。</p></td>
 </tr>
 <tr class="odd">
 <td><p>电话会议</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/PhoneConferencing/Int</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /PhoneConferencing/Int</p></td>
 <td><p>用于内部用户的电话会议数据的位置。</p></td>
 </tr>
 <tr class="even">
 <td><p>设备更新</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/RequestHandler</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /RequestHandler</p></td>
 <td><p>用于启用内部 UC 设备以便上载日志以及检查更新的设备更新 Web 服务请求处理程序的位置。</p></td>
 </tr>
 <tr class="odd">
 <td><p>响应组应用程序</p></td>
-<td><p>http://&lt;内部 FQDN&gt;/RgsConfig</p>
-<p>http://&lt;内部 FQDN&gt;/RgsClients</p></td>
+<td><p>http:// &lt; 内部 FQDN &gt; /RgsConfig</p>
+<p>http:// &lt; 内部 FQDN &gt; /RgsClients</p></td>
 <td><p>响应组配置工具的位置。</p></td>
 </tr>
 </tbody>

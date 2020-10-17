@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：用于通讯簿管理的 CsAddressBook 更新程序
+title: Lync Server 2013：用于通讯簿管理的 Update-CsAddressBook
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48183428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 745e636cc4bac682beaf2ea308cd465c3d194df7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8fdbef7a3826a734262a77aa39fb2ce32e547463
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193135"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527699"
 ---
+# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的通讯簿管理 Update-CsAddressBook
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a>Lync Server 2013 中的 CsAddressBook for Address Book management
+
 
 </div>
 

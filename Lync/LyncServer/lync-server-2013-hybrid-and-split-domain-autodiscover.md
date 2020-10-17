@@ -12,20 +12,22 @@ ms:contentKeyID: 51541520
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fca0097f6ad0264755dd9d0a80a296e9ebf60b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0340e1226d3fb7abc475769892f0cd675c838c89
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528159"
 ---
+# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的混合和拆分域自动发现
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的混合和拆分域自动发现
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214738"
 
 _**上次修改的主题：** 2013-02-14_
 
-共享 SIP 地址空间（也称为*拆分域*部署或*混合*部署）是在本地部署和联机环境中部署用户的配置。 无论其主服务器位于何处（本地或联机），所需的结果都是让用户登录到部署并重定向到其主服务器位置。 为实现此目的，Lync Server 2013 的自动发现功能用于将联机用户重定向到联机拓扑。 为此，可以通过使用 Lync Server 命令行管理程序、 **CsHostingProvider** Cmdlet 和**CsHostingProvider** Cmdlet 来配置自动发现统一资源定位器（URL）。
+共享 SIP 地址空间（也称为 *拆分域* 部署或 *混合* 部署）是在本地部署和联机环境中部署用户的配置。 所需的结果是，无论用户的主服务器位于何处 (本地或联机) ，都会登录到部署并重定向到其主服务器位置。 为实现此目的，Lync Server 2013 的自动发现功能用于将联机用户重定向到联机拓扑。 为此，可以通过使用 Lync Server 命令行管理程序、 **CsHostingProvider** Cmdlet 和 **CsHostingProvider** Cmdlet 来配置自动发现统一资源定位器 (URL) 。
 
 <div>
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2013-02-14_
 
   - 如果要定义阻止和允许的域，请确定您将明确允许或显式阻止的域。
 
-  - 对于联机联盟，必须规划防火墙例外、证书和 DNS 主机（A 或 AAAA，如果使用 IPv6）记录。 此外，您还必须配置联盟策略。 有关详细信息，请参阅[规划 Lync Server 2013 和 Office 通信服务器联合](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)。
+  - 对于联机联盟，如果使用 IPv6) 记录，则必须规划防火墙例外、证书和 DNS 主机 (A 或 AAAA。 此外，您还必须配置联盟策略。 有关详细信息，请参阅 [规划 Lync Server 2013 和 Office 通信服务器联合](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)。
 
 </div>
 

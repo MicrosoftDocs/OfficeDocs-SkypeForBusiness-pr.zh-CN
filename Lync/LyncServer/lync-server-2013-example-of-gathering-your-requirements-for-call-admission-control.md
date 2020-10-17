@@ -12,20 +12,22 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46e0b0a294500514ce1b200fd646ed4e70136828
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89983ae54e879bdb55691b33a0512a00e5883735
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204808"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528439"
 ---
+# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>示例：收集 Lync Server 2013 中的呼叫允许控制要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>示例：收集 Lync Server 2013 中的呼叫允许控制要求
+
 
 </div>
 
@@ -295,7 +297,7 @@ _**上次修改的主题：** 2012-09-21_
     
 
     > [!IMPORTANT]
-    > 即使网络站点不受带宽限制，网络中的每个子网也必须与一个网络站点相关联。这是因为呼叫允许控制使用子网信息来确定终结点所在的网络站点。确定会话双方的位置后，呼叫允许控制可以确定是否有足够的带宽来建立呼叫。当通过没有带宽限制的链路建立会话时，会生成警报。<BR>如果部署音频/视频边缘服务器，则每台边缘服务器的公共 IP 地址都必须与部署边缘服务器的网络站点关联。 必须将 A/V 边缘服务器的每个公共 IP 地址作为子网掩码为 32 的子网添加到网络配置设置中。 例如，如果在芝加哥部署 A/V 边缘服务器，则为这些服务器的每个外部 IP 地址创建一个子网掩码为 32 的子网，并将网络站点芝加哥与这些子网相关联。 有关公用 IP 地址的详细信息，请参阅规划文档中的<A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">确定 Lync Server 2013 的外部 A/V 防火墙和端口要求</A>。
+    > 即使网络站点不受带宽限制，网络中的每个子网也必须与一个网络站点相关联。这是因为呼叫允许控制使用子网信息来确定终结点所在的网络站点。确定会话双方的位置后，呼叫允许控制可以确定是否有足够的带宽来建立呼叫。当通过没有带宽限制的链路建立会话时，会生成警报。<BR>如果部署音频/视频边缘服务器，则每台边缘服务器的公共 IP 地址都必须与部署边缘服务器的网络站点关联。 必须将 A/V 边缘服务器的每个公共 IP 地址作为子网掩码为 32 的子网添加到网络配置设置中。 例如，如果在芝加哥部署 A/V 边缘服务器，则为这些服务器的每个外部 IP 地址创建一个子网掩码为 32 的子网，并将网络站点芝加哥与这些子网相关联。 有关公用 IP 地址的详细信息，请参阅规划文档中的 <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">确定 Lync Server 2013 的外部 A/V 防火墙和端口要求</A> 。
 
     
     </div>
@@ -304,7 +306,7 @@ _**上次修改的主题：** 2012-09-21_
     
 
     > [!NOTE]
-    > 生成关键运行状况指示器 (KHI) 警报，指定存在于网络中但不与子网关联的 IP 地址列表，或指定包含 IP 地址的子网不与网络站点关联。该警报在 8 小时内只产生一次。相关的警报信息和示例如下所示：<BR><STRONG>源：</STRONG>CS 带宽策略服务（核心）<BR><STRONG>事件编号：</STRONG> 36034<BR><STRONG>级别：</STRONG> 2<BR><STRONG>说明：</STRONG>以下 IP 地址的子网： &lt;未配置 IP 地址&gt;列表，或者子网未与网络站点关联。<BR><STRONG>原因：</STRONG>网络配置设置中缺少对应 IP 地址的子网，或者子网未与网络站点关联。<BR><STRONG>解决方法：</STRONG>将与前面的 IP 地址列表对应的子网添加到网络配置设置中，并将每个子网与一个网络站点相关联。<BR>例如，如果警报中的 IP 地址列表指定 10.121.248.226 和 10.121.249.20，则可能是这些 IP 地址没有与子网关联，或者与其关联的子网不属于网络站点。如果 10.121.248.0/24 和 10.121.249.0/24 是与这些地址对应的子网，则可按如下所示解决此问题： 
+    > 生成关键运行状况指示器 (KHI) 警报，指定存在于网络中但不与子网关联的 IP 地址列表，或指定包含 IP 地址的子网不与网络站点关联。该警报在 8 小时内只产生一次。相关的警报信息和示例如下所示：<BR><STRONG>源：</STRONG> CS 带宽策略服务 (核心) <BR><STRONG>事件编号：</STRONG> 36034<BR><STRONG>级别：</STRONG> 2<BR><STRONG>说明：</STRONG> 以下 IP 地址的子网： &lt; 未配置 IP 地址列表， &gt; 或者子网未与网络站点关联。<BR><STRONG>原因：</STRONG> 网络配置设置中缺少对应 IP 地址的子网，或者子网未与网络站点关联。<BR><STRONG>解决方法：</STRONG> 将与前面的 IP 地址列表对应的子网添加到网络配置设置中，并将每个子网与一个网络站点相关联。<BR>例如，如果警报中的 IP 地址列表指定 10.121.248.226 和 10.121.249.20，则可能是这些 IP 地址没有与子网关联，或者与其关联的子网不属于网络站点。如果 10.121.248.0/24 和 10.121.249.0/24 是与这些地址对应的子网，则可按如下所示解决此问题： 
     > <OL>
     > <LI>
     > <P>确保 IP 地址 10.121.248.226 与子网 10.121.248.0/24 关联，IP 地址 10.121.249.20 与子网 10.121.249.0/24 关联。</P>
@@ -404,7 +406,7 @@ _**上次修改的主题：** 2012-09-21_
     </table>
 
 
-7.  在 Lync Server 呼叫许可控制中，网络区域之间的连接称为*区域链接*。 对于每个区域链路，按照对网络站点执行的操作，确定以下事项：
+7.  在 Lync Server 呼叫许可控制中，网络区域之间的连接称为 *区域链接*。 对于每个区域链路，按照对网络站点执行的操作，确定以下事项：
     
       - 要为所有并发音频会话设置的总体带宽限制。 如果新的音频会话将导致超出此限制，则 Lync Server 不允许会话启动。
     
@@ -583,7 +585,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]
-> 虽然您可以使用 Lync Server 控制面板执行大多数网络配置任务，但若要创建子网和站点间链接，则必须使用 Lync Server 命令行管理程序。 有关详细信息，请参阅 Lync Server 命令行管理程序文档，了解<STRONG>CsNetworkSubnet</STRONG> Cmdlet 和<STRONG>new-csnetworkintersitepolicy</STRONG> cmdlet。
+> 虽然您可以使用 Lync Server 控制面板执行大多数网络配置任务，但若要创建子网和站点间链接，则必须使用 Lync Server 命令行管理程序。 有关详细信息，请参阅 Lync Server 命令行管理程序文档，了解 <STRONG>CsNetworkSubnet</STRONG> Cmdlet 和 <STRONG>new-csnetworkintersitepolicy</STRONG> cmdlet。
 
 
 

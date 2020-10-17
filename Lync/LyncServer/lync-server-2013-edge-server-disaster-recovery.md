@@ -12,20 +12,22 @@ ms:contentKeyID: 49733545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff0c4b685c607850921be6b15b2611e427e5e226
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aad1ac0197c4f7755b334624e46f7cec096897f5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196835"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528819"
 ---
+# <a name="edge-server-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 中的边缘服务器灾难恢复
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-disaster-recovery-in-lync-server-2013"></a>Lync Server 2013 中的边缘服务器灾难恢复
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2014-03-12_
 
 ## <a name="remote-access"></a>远程访问
 
-如果您有多个网站，每个站点都有一池的边缘服务器，而一个整个边缘池发生故障，则远程访问服务将继续运行，而无需管理员操作。 在不同站点中创建边缘池时，不能使用相同的 FQDN。 每个边缘池都必须具有唯一的 Fqdn （内部和外部）。 边缘池不使用反向代理发布规则与前端服务器交谈。 当客户端重新查询远程访问 DNS 服务记录，并且远程用户路由到另一个站点中的边缘服务器时，将发生自动故障转移。 客户端根据 DNS SRV 记录的优先级尝试每个外部边缘 FQDN。
+如果您有多个网站，每个站点都有一池的边缘服务器，而一个整个边缘池发生故障，则远程访问服务将继续运行，而无需管理员操作。 在不同站点中创建边缘池时，不能使用相同的 FQDN。 每个边缘池都必须具有唯一的 Fqdn (内部和外部) 。 边缘池不使用反向代理发布规则与前端服务器交谈。 当客户端重新查询远程访问 DNS 服务记录，并且远程用户路由到另一个站点中的边缘服务器时，将发生自动故障转移。 客户端根据 DNS SRV 记录的优先级尝试每个外部边缘 FQDN。
 
 <div>
 
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2014-03-12_
 
 对于与运行 Lync Server 的其他组织的联盟关系，只要您拥有类似 Geo DNS 的解决方案，入站联合请求将继续正常工作。 请务必了解，联合身份验证故障转移不会在 SRV 记录中提供优先级故障转移。 之前提供的解决方案可帮助您为入站联合提供灾难恢复功能。
 
-出站联盟始终通过组织中的一个已发布边缘池或边缘服务器来设置。 如果此边缘池已经停机，必须使用拓扑生成器将出站联盟路由改为使用仍在运行的边缘池。 有关详细信息，请参阅[在 Lync server 2013 中对 Lync server 联合身份验证使用的边缘池故障](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
+出站联盟始终通过组织中的一个已发布边缘池或边缘服务器来设置。 如果此边缘池已经停机，必须使用拓扑生成器将出站联盟路由改为使用仍在运行的边缘池。 有关详细信息，请参阅 [在 Lync server 2013 中对 Lync server 联合身份验证使用的边缘池故障](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
 
 </div>
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2014-03-12_
 
 ## <a name="xmpp-federation"></a>XMPP 联盟
 
-对于 XMPP 联盟，如果被指定为 XMPP 联盟网关的边缘池出现故障，则出站和入站通信都将失败。 若要使 XMPP 联盟重新工作，必须将 XMPP 联盟改为使用一个不同的边缘池。 有关详细信息，请参阅[在 Lync Server 2013 中对用于 XMPP 联盟的边缘池进行故障转移](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)。
+对于 XMPP 联盟，如果被指定为 XMPP 联盟网关的边缘池出现故障，则出站和入站通信都将失败。 若要使 XMPP 联盟重新工作，必须将 XMPP 联盟改为使用一个不同的边缘池。 有关详细信息，请参阅 [在 Lync Server 2013 中对用于 XMPP 联盟的边缘池进行故障转移](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)。
 
 </div>
 
@@ -81,7 +83,7 @@ _**上次修改的主题：** 2014-03-12_
 
 ## <a name="edge-pool-fails-but-front-end-pool-is-still-running"></a>边缘池出故障但前端池仍在运行
 
-如果一个站点中的一个边缘池出现故障，但该站点中的前端池仍在运行，您需要在这第一个边缘池停机的情况下，将前端池改为使用其他站点上的其他边缘池。 有关详细信息，请参阅[在 Lync Server 2013 中更改与前端池关联的边缘池](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)。
+如果一个站点中的一个边缘池出现故障，但该站点中的前端池仍在运行，您需要在这第一个边缘池停机的情况下，将前端池改为使用其他站点上的其他边缘池。 有关详细信息，请参阅 [在 Lync Server 2013 中更改与前端池关联的边缘池](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)。
 
 </div>
 

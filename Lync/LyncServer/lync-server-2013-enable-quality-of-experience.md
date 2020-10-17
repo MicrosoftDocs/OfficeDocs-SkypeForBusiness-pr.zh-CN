@@ -12,20 +12,22 @@ ms:contentKeyID: 48185385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 539408bfaa32565ef76312e1b0d96767edecc169
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 92f386978deba984350029d58dccdf86d3f0f3aa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187865"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528559"
 ---
+# <a name="enable-quality-of-experience-in-lync-server-2013"></a>启用 Lync Server 2013 中的体验质量
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-quality-of-experience-in-lync-server-2013"></a>启用 Lync Server 2013 中的体验质量
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187865"
 
 _**上次修改的主题：** 2013-02-23_
 
-用户体验质量 (QoE) 记录指示媒体质量以及有关呼叫和会话中所涉及参与者、设备名称、驱动程序、IP 地址和终结点类型的信息的数值型数据。 有关详细信息，请参阅规划文档中的在[Lync Server 2013 中规划监视](lync-server-2013-planning-for-monitoring.md)。
+用户体验质量 (QoE) 记录指示媒体质量以及有关呼叫和会话中所涉及参与者、设备名称、驱动程序、IP 地址和终结点类型的信息的数值型数据。 有关详细信息，请参阅规划文档中的在 [Lync Server 2013 中规划监视](lync-server-2013-planning-for-monitoring.md) 。
 
 使用以下过程为整个组织或组织中的每个站点启用 QoE。
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-23_
 
 
 > [!NOTE]  
-> 为了启用 QoE，必须首先配置监控和监控后端数据库。 有关详细信息，请参阅<A href="lync-server-2013-deploying-monitoring.md">在 Lync Server 2013 中部署监控</A>。
+> 为了启用 QoE，必须首先配置监控和监控后端数据库。 有关详细信息，请参阅 <A href="lync-server-2013-deploying-monitoring.md">在 Lync Server 2013 中部署监控</A>。
 
 
 
@@ -55,9 +57,9 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="to-enable-qoe-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板启用 QoE 的具体方法
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户，登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色，请登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“监控和存档”****，然后单击“用户体验质量数据”****。
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 启用 QoE
 
-您可以使用 Windows PowerShell 和**new-csqoeconfiguration** Cmdlet 启用 QoE。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Windows PowerShell 和 **new-csqoeconfiguration** Cmdlet 启用 QoE。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -101,7 +103,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[new-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration)。
+有关详细信息，请参阅 [new-csqoeconfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration)。
 
 </div>
 

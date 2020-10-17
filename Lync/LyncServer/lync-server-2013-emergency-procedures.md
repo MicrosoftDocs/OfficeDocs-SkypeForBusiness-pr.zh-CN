@@ -12,20 +12,22 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfb985d8c1432e238a813646d9f3cc5b55902a85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5768378532722556fd824b0a2fdd257666e41a99
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197315"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528769"
 ---
+# <a name="emergency-procedures-in-lync-server-2013"></a>Lync Server 2013 中的紧急步骤
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="emergency-procedures-in-lync-server-2013"></a>Lync Server 2013 中的紧急步骤
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197315"
 
 _**上次修改的主题：** 2014-08-18_
 
-紧急步骤是按需过程，这些过程位于之前讨论的标准过程之外，应由更改管理功能处理（有关 "更改管理" 函数的说明，请参阅[MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) ）。 这些过程通常与以下项之一相关：
+紧急步骤是在前面讨论的标准过程之外的按需过程，并应由更改管理函数处理 (参考 [MOF](https://go.microsoft.com/fwlink/p/?linkid=40939) 以了解有关 "更改管理" 函数的说明) 。 这些过程通常与以下项之一相关：
 
   - 作为故障排除工作的一部分实施更改，以解决已确定的系统问题。
 

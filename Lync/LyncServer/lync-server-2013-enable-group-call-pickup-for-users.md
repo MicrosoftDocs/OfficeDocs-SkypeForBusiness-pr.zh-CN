@@ -12,20 +12,22 @@ ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5842a22d1899398b282e7305e4dd921fea86ea39
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 89d512eea147039a5766193f9ec2a20cf45caaa0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190695"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528719"
 ---
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>在 Lync Server 2013 中为用户启用组呼叫装货
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>在 Lync Server 2013 中为用户启用组呼叫装货
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190695"
 
 _**上次修改的主题：** 2013-01-30_
 
-使用 SEFAUtil 资源工具包工具为用户启用组呼叫挑选。 必须在呼叫寄存通道表中为用户分配一个类型为 "GroupPickup" 的组编号，以便启用组呼叫装货。 在运行 SEFAUtil 时，可以通过使用/enablegrouppickup 参数，分配呼叫应答组号码并同时启用组呼叫应答。
+使用 SEFAUtil 资源工具包工具为用户启用组呼叫挑选。 必须在呼叫寄存通道表中为用户分配一个类型为 "GroupPickup" 的组编号，以便启用组呼叫装货。 在运行 SEFAUtil.exe 时，可以通过使用/enablegrouppickup 参数来分配呼叫应答组号码并同时启用组呼叫应答。
 
 <div>
 

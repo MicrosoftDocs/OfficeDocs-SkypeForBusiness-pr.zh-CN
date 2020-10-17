@@ -12,20 +12,22 @@ ms:contentKeyID: 51541517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b4c0bc47862eaaf2cf74d29190325d9d09ee939
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: edba55fcfdedc04eb2d8a8356c3d295c381d7c70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42190705"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528739"
 ---
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>为 Lync Server 2013 中的用户启用组内呼叫应答并分配组号码
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013-and-assign-a-group-number"></a>为 Lync Server 2013 中的用户启用组内呼叫应答并分配组号码
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42190705"
 
 _**上次修改的主题：** 2013-01-30_
 
-将呼叫应答组号码添加到呼叫寄存通道表之后，将组号码分配给用户并为其启用组呼叫应答。 使用辅助扩展功能激活（SEFAUtil）资源工具包工具分配组号码并启用组呼叫应答。
+将呼叫应答组号码添加到呼叫寄存通道表之后，将组号码分配给用户并为其启用组呼叫应答。 使用辅助扩展功能激活 (SEFAUtil) 资源工具包工具分配组号码并启用组呼叫应答。
 
 <div>
 

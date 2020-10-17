@@ -12,20 +12,22 @@ ms:contentKeyID: 49733846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23927c5ee6682622d9a23befd384b1bdf1e2b9b0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 50fa44f943e362f83f57eb8ee00c35dd7b3acea4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214648"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528839"
 ---
+# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Lync Server 2013 中的边缘服务器和功能的 DNS 要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-edge-servers-and-features-in-lync-server-2013"></a>Lync Server 2013 中的边缘服务器和功能的 DNS 要求
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42214648"
 
 _**上次修改的主题：** 2014-04-08_
 
-Lync Server 2013 边缘服务器、边缘池和反向代理对域名系统（DNS）记录有特定的要求。 在 Lync Server 2013 中，如果使用 IPv4 和 IPv6，则必须规划主机 A 和 AAAA 记录。
+Lync Server 2013 边缘服务器、边缘池和反向代理对域名系统 (DNS) 记录有特定要求。 在 Lync Server 2013 中，如果使用 IPv4 和 IPv6，则必须规划主机 A 和 AAAA 记录。
 
 下面列出的主题定义将 DNS 记录用于部署规划：
 

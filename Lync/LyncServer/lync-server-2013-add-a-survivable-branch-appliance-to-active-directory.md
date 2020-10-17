@@ -12,20 +12,22 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d8efb03b4d67b6409f93b6a99d2314cb703952
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f52d9c5e88e88665f530d6d7ace06a07c4814b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529559"
 ---
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>在 Lync Server 2013 中将 Survivable 分支设备添加到 Active Directory
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>在 Lync Server 2013 中将 Survivable 分支设备添加到 Active Directory
+
 
 </div>
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-09-23_
 
 3.  在“操作”**** 菜单上，单击“新建”****，然后单击“计算机”****。
 
-4.  在 "**新建对象-计算机**" 对话框中，键入 Survivable 分支装置计算机对象的名称（例如，BranchOffice1），然后单击 "**更改**"。
+4.  在 " **新建对象-计算机** " 对话框中，键入 Survivable Branch 装置 Computer 对象的名称 (例如，BranchOffice1) ，然后单击 " **更改**"。
 
 5.  在“选择用户或组”**** 对话框中，添加 RTCUniversalSBATechnicians 组，然后单击“确定”****。
     
@@ -80,7 +82,7 @@ _**上次修改的主题：** 2012-09-23_
 
 9.  在属性列表中，单击“servicePrincipalName”****，然后单击“编辑”****。
 
-10. 在 "**要添加的值**" 字段中，\<键入 HOST\> / \<SBA Fqdn\> ，其中 SBA fqdn 是您的 Survivable 分支设备的完全限定域名（FQDN）。 例如，键入 **HOST/BranchOffice1.contoso.com**。
+10. 在 " **要添加的值** " 字段中，键入 HOST/ \<SBA FQDN\> Where \<SBA FQDN\> 是 Survivable 分支设备的完全限定的域名 (FQDN) 。 例如，键入 **HOST/BranchOffice1.contoso.com**。
 
 11. 单击“确定”**** 保存“servicePrincipalName”**** 属性设置，然后单击“确定”**** 保存计算机对象属性。
 
@@ -94,7 +96,7 @@ _**上次修改的主题：** 2012-09-23_
 
 16. 为每个分支站点技术人员重复步骤 12 至 15。
 
-**下一步**：[在 Lync Server 2013 中向拓扑添加分支站点](lync-server-2013-add-branch-sites-to-your-topology.md)
+**下一步**： [在 Lync Server 2013 中向拓扑添加分支站点](lync-server-2013-add-branch-sites-to-your-topology.md)
 
 </div>
 

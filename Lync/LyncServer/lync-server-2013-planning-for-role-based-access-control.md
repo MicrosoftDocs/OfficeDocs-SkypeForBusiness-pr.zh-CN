@@ -12,20 +12,22 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d88353019a266fbb094df8808faa4543e31bf562
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65f6411023c80a527cff31c389a8283d090dfc0d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201888"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528029"
 ---
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>在 Lync Server 2013 中规划基于角色的访问控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>在 Lync Server 2013 中规划基于角色的访问控制
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42201888"
 
 _**上次修改的主题：** 2015-01-27_
 
-为了使您能够在保持高安全性标准的同时委派管理任务，Lync Server 2013 提供了基于角色的访问控制（RBAC）。 使用 RBAC，可通过将用户分配给管理角色来授予管理权限。 Lync Server 2013 包括一组丰富的内置管理角色，还使您能够创建新角色并为每个新角色指定自定义 cmdlet 列表。 您还可以将 cmdlet 的脚本添加到所允许的预定义和自定义 RBAC 角色任务中。
+为了使您能够在保持高安全性标准的同时委派管理任务，Lync Server 2013 提供基于角色的访问控制 (RBAC) 。 使用 RBAC，可通过将用户分配给管理角色来授予管理权限。 Lync Server 2013 包括一组丰富的内置管理角色，还使您能够创建新角色并为每个新角色指定自定义 cmdlet 列表。 您还可以将 cmdlet 的脚本添加到所允许的预定义和自定义 RBAC 角色任务中。
 
 <div>
 
@@ -159,13 +161,13 @@ Lync Server 中发售的所有预定义角色都具有全局作用域。 为符�
 
 ## <a name="creating-a-scoped-role"></a>创建作用域角色
 
-创建作用域有限的角色（作用域角色）时，需指定作用域、该角色所基于的现有角色以及要将该角色分配到的 Active Directory 组。 指定的 Active Directory 组必须是已创建的组。 以下 cmdlet 示例创建的角色具有其中一种预定义管理角色的权限，但具有有限作用域。 它将创建一个名`Site01 Server Administrators`为的新角色。 该角色具有预定义的 CsServerAdministrator 角色的功能，但仅适用于位于 Site01 站点上的服务器。 为使此 cmdlet 正常工作，必须已定义 Site01 网站，并且名为`Site01 Server Administrators`的通用安全组必须已存在。
+创建作用域有限的角色（作用域角色）时，需指定作用域、该角色所基于的现有角色以及要将该角色分配到的 Active Directory 组。 指定的 Active Directory 组必须是已创建的组。 以下 cmdlet 示例创建的角色具有其中一种预定义管理角色的权限，但具有有限作用域。 它将创建一个名为的新角色 `Site01 Server Administrators` 。 该角色具有预定义的 CsServerAdministrator 角色的功能，但仅适用于位于 Site01 站点上的服务器。 为使此 cmdlet 正常工作，必须已定义 Site01 网站，并且名为的通用安全组 `Site01 Server Administrators` 必须已存在。
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-运行此 cmdlet 之后，作为`Site01 Server Administrators`组成员的所有用户将具有对 Site01 中的服务器的服务器管理员权限。 此外，随后添加到此通用安全组的任何用户也会获得此角色的权限。 请注意，角色本身和分配给它的通用安全组都被称为`Site01 Server Administrators`。
+运行此 cmdlet 之后，作为组成员的所有用户 `Site01 Server Administrators` 将具有对 Site01 中的服务器的服务器管理员权限。 此外，随后添加到此通用安全组的任何用户也会获得此角色的权限。 请注意，角色本身和分配给它的通用安全组都被称为 `Site01 Server Administrators` 。
 
-以下示例限定用户作用域，而不是服务器作用域。 它创建一个`Sales Users Administrator`角色来管理销售组织单位中的用户帐户。 必须已创建 SalesUsersAdministrator 通用安全组，此 cmdlet 才能正常工作。
+以下示例限定用户作用域，而不是服务器作用域。 它创建一个 `Sales Users Administrator` 角色来管理销售组织单位中的用户帐户。 必须已创建 SalesUsersAdministrator 通用安全组，此 cmdlet 才能正常工作。
 
     New-CsAdminRole -Identity "Sales Users Administrator " -Template CsUserAdministrator -UserScopes "OU:OU=Sales, OU=Lync Tenants, DC=Domain, DC=com"
 
@@ -177,13 +179,13 @@ Lync Server 中发售的所有预定义角色都具有全局作用域。 为符�
 
 要创建的角色必须能够访问 cmdlet 组而不是其中一个预定义角色，或者必须能够访问一组脚本或模块，您再次需要从使用其中一个预定义角色作为模板开始。请注意，角色能够运行的脚本和模块必须存储在以下位置：
 
-  - Lync\\模块路径，默认情况下 C： Program Files\\常见文件\\Microsoft Lync Server 2013\\模块 Lync\\
+  - Lync 模块路径，默认情况下 C： \\ Program files \\ 常见文件 \\ Microsoft Lync Server 2013 \\ 模块 \\ Lync
 
-  - 用户脚本\\路径，默认情况下 C： Program Files\\常见文件\\Microsoft Lync Server 2013 AdminScripts\\
+  - 用户脚本路径，默认情况下 C： \\ Program files \\ 常见文件 \\ Microsoft Lync Server 2013 \\ AdminScripts
 
-要创建新角色，请使用 **New-CsAdminRole** cmdlet。 在运行**CsAdminRole**之前，必须先创建将与此角色关联的基础通用安全组。
+要创建新角色，请使用 **New-CsAdminRole** cmdlet。 在运行 **CsAdminRole**之前，必须先创建将与此角色关联的基础通用安全组。
 
-以下 cmdlet 为创建新角色的示例。 它们创建一个名`MyHelpDeskScriptRole`为的新角色类型。 该新角色具有预定义 CsHelpDesk 角色的功能，另外还可以运行名为“testscript”的脚本中的函数。
+以下 cmdlet 为创建新角色的示例。 它们创建一个名为的新角色类型 `MyHelpDeskScriptRole` 。 该新角色具有预定义 CsHelpDesk 角色的功能，另外还可以运行名为“testscript”的脚本中的函数。
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 
@@ -201,7 +203,7 @@ Lync Server 中发售的所有预定义角色都具有全局作用域。 为符�
 
 上述各节中的示例都创建了一个新角色，并向新角色分配了现有的通用安全组。 要将现有角色分配给一个或多个用户，请将这些用户添加到与该角色关联的组中。 您可以向这些组中添加个人用户和通用安全组。
 
-例如，将**CsAdministrator**角色自动授予 Active Directory 中的**CS Administrators**通用安全组。 当您部署 Lync Server 时，将在 Active Directory 中创建此通用安全组。 要向用户或组授予此权限，只需将其添加到 **CS Administrators** 组中。
+例如，将 **CsAdministrator** 角色自动授予 Active Directory 中的 **CS Administrators** 通用安全组。 当您部署 Lync Server 时，将在 Active Directory 中创建此通用安全组。 要向用户或组授予此权限，只需将其添加到 **CS Administrators** 组中。
 
 可向用户分配多个 RBAC 角色，方法是将该用户添加到与每个角色相对应的基础 Active Directory 组中。
 

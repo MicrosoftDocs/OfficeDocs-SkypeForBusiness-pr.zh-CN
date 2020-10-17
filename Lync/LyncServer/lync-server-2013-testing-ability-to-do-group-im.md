@@ -12,20 +12,22 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eef76c8728a7b5a569efee9305505f4e19f6bceb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f33d34644f76c9773edbfd9ad5d3945c0c1974c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194315"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527819"
 ---
+# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>在 Lync Server 2013 中测试组 IM 的能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>在 Lync Server 2013 中测试组 IM 的能力
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-05_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsGroupIM cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsGroupIM cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,11 +66,11 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>Description
+## <a name="description"></a>说明
 
-CsGroupIM cmdlet 验证组织中的用户是否可以执行组即时消息会话。 运行 CsGroupIM 时，cmdlet 会尝试将一对测试用户登录到 Lync Server。 如果登录成功，Test-CsGroupIM 将使用第一个测试用户创建新会议，然后邀请第二个用户加入会议。 交换消息之后，这两个用户断开与系统的连接。 请注意，这一切在没有任何用户交互的情况下发生，而不会影响任何实际用户。 例如，假设测试帐户 sip:kenmyer@litwareinc.com 与具有实际 Lync Server 帐户的真实用户相对应。 在这种情况下，执行测试的过程中不会对真实的 Ken Myer 造成任何中断。 例如，即使从系统注销 Ken Myer 的测试帐户，Ken Myer 本人仍将保持已登录状态。 同样，实际 Ken Myer 不会收到加入会议的邀请。 该邀请将发送到测试帐户并由其接受。
+Test-CsGroupIM cmdlet 验证组织中的用户是否可以执行组即时消息会话。 运行 CsGroupIM 时，cmdlet 会尝试将一对测试用户登录到 Lync Server。 如果登录成功，Test-CsGroupIM 将使用第一个测试用户创建新会议，然后邀请第二个用户加入会议。 交换消息之后，这两个用户断开与系统的连接。 请注意，这一切在没有任何用户交互的情况下发生，而不会影响任何实际用户。 例如，假设测试帐户 sip:kenmyer@litwareinc.com 与具有实际 Lync Server 帐户的真实用户相对应。 在这种情况下，执行测试的过程中不会对真实的 Ken Myer 造成任何中断。 例如，即使从系统注销 Ken Myer 的测试帐户，Ken Myer 本人仍将保持已登录状态。 同样，实际 Ken Myer 不会收到加入会议的邀请。 该邀请将发送到测试帐户并由其接受。
 
-有关详细信息，请参阅[CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) Cmdlet 的帮助文档。
 
 </div>
 
@@ -76,17 +78,17 @@ CsGroupIM cmdlet 验证组织中的用户是否可以执行组即时消息会话
 
 ## <a name="running-the-test"></a>运行测试
 
-CsGroupIM cmdlet 可使用一对预配置的测试帐户（请参阅设置运行 Lync Server 测试的测试帐户）或任何两个已启用 Lync Server 的用户的帐户运行。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
+可以使用一对预配置的测试帐户运行 Test-CsGroupIM cmdlet (参阅设置用于运行 Lync Server 测试的测试帐户) 或已为其启用 Lync Server 的任意两个用户的帐户。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的 FQDN 即可。 例如：
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
-若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Lync Server 命令行管理程序凭据对象（包含帐户名和密码的对象）。 在调用 CsGroupIM 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
+若要使用实际用户帐户运行此检查，必须为每个帐户 (包含帐户名称和密码) 的对象创建两个 Lync Server 命令行管理程序凭据对象。 在调用 CsGroupIM 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsGroupIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-有关详细信息，请参阅[CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) Cmdlet 的帮助文档。
 
 </div>
 
@@ -94,7 +96,7 @@ CsGroupIM cmdlet 可使用一对预配置的测试帐户（请参阅设置运行
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果两个用户可以完成组即时消息会话，您将收到与以下内容类似的输出，其中结果属性标记为**成功：**
+如果两个用户可以完成组即时消息会话，您将收到与以下内容类似的输出，其中结果属性标记为 **成功：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -128,11 +130,11 @@ Microsoft DiagnosticHeader
 
     "Ken Myer", "David Longmire" | Get-CsUser | Select-Object SipAddress, Enabled
 
-如果 CsGroupIM 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 Test-CsGroupIM 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-包含 Verbose 参数时，CsGroupIM 将返回其在检查指定用户是否参与组即时消息会话的能力时所尝试的每个操作的分步帐户。 例如，如果您的测试失败，并且您被告知一个或多个用户帐户无效，则可以使用 Verbose 参数重新运行测试并确定哪个用户帐户无效：
+包含 Verbose 参数时，Test-CsGroupIM 将返回其在检查指定用户是否参与组即时消息会话的能力时所尝试的每个操作的分步帐户。 例如，如果您的测试失败，并且您被告知一个或多个用户帐户无效，则可以使用 Verbose 参数重新运行测试并确定哪个用户帐户无效：
 
 发送注册请求：
 
@@ -154,7 +156,7 @@ Microsoft DiagnosticHeader
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是测试 CsGroupIM 可能失败的一些常见原因：
+下面是 Test-CsGroupIM 可能失败的一些常见原因：
 
   - 您指定了不正确的用户帐户。 您可以通过运行与以下内容类似的命令来验证用户帐户是否存在：
     
@@ -162,7 +164,7 @@ Microsoft DiagnosticHeader
 
   - 用户帐户有效，但当前未对 Lync Server 启用该帐户。 若要验证是否已为 Lync Server 启用了用户帐户，请运行与以下内容类似的命令：
     
-    Get-csuser "sip:kenmyer@litwareinc.com" |选择-对象已启用
+    Get-CsUser "sip:kenmyer@litwareinc.com" |Select-Object 启用
     
     如果 Enabled 属性设置为 False，则表示当前未对 Lync Server 启用用户。
 

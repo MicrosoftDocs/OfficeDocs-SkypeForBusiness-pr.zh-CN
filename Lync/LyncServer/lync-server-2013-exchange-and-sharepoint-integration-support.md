@@ -12,20 +12,22 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 262e31ac6049920ca4e327f50dccaae18d69a2f5
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: d0da9f9913804bb10b9bf5fd1e4c4e8ad467e7d2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221716"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528389"
 ---
+# <a name="exchange-and-sharepoint-integration-support-in-lync-server-2013"></a>Lync Server 2013 中的 Exchange 和 SharePoint 集成支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="exchange-and-sharepoint-integration-support-in-lync-server-2013"></a>Lync Server 2013 中的 Exchange 和 SharePoint 集成支持
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44221716"
 
 _**上次修改的主题：** 2017-01-18_
 
-如果集成这些产品，lync Server 2013 和 Lync 2013 可以与其他应用程序和服务器产品（包括 Office 2013、Exchange Server 2013、Exchange Server 2016 和 SharePoint）进行安全和无缝通信。 集成 Lync Server 2013 和 Office 可为用户提供对即时消息（IM）的上下文中访问权限，并增强了 Lync 的状态、电话服务和会议功能。 Office 用户可以从 Outlook 2013 消息和协作客户端以及其他 Office 程序或 SharePoint 页面中访问 Lync 功能。 用户还可以在 "Outlook 对话历史记录" 文件夹中查看 Lync 对话的记录。 当与 Exchange 2013、Exchange 2016 或 Exchange Online 集成时，Lync Server 2013 还支持以下内容：
+如果集成这些产品，lync Server 2013 和 Lync 2013 可以与其他应用程序和服务器产品（包括 Office 2013、Exchange Server 2013、Exchange Server 2016 和 SharePoint）进行安全和无缝通信。 集成 Lync Server 2013 和 Office 为用户提供了对即时消息 (IM) 、增强状态、电话和 Lync 功能的用户上下文中的访问。 Office 用户可以从 Outlook 2013 消息和协作客户端以及其他 Office 程序或 SharePoint 页面中访问 Lync 功能。 用户还可以在 "Outlook 对话历史记录" 文件夹中查看 Lync 对话的记录。 当与 Exchange 2013、Exchange 2016 或 Exchange Online 集成时，Lync Server 2013 还支持以下内容：
 
   - 统一的联系人存储库，使用户能够在 Exchange 或 Exchange Online 中存储所有联系人信息，以便信息在 Lync 2013、Exchange、Outlook 和 Outlook Web App 中全局可用。
 
@@ -55,13 +57,13 @@ _**上次修改的主题：** 2017-01-18_
 
 </div>
 
-将 Lync Server 2013 与 Exchange Server 和 SharePoint Server 集成需要在运行 Lync Server 2013、Exchange Server 和 SharePoint Server 的服务器之间进行服务器到服务器的身份验证。 Lync Server 2013 支持用于服务器到服务器身份验证和授权的 OAuth （开放式授权）协议。 对于在两台 Microsoft 服务器之间进行的本地服务器到服务器身份验证，无需使用第三方令牌服务器。 Lync Server 2013、Exchange Server 和 SharePoint Server 具有可用于相互进行身份验证的内置令牌服务器。 例如，Lync Server 2013 本身可以颁发和签名安全令牌，并在与 Exchange 通信时使用该令牌。 在此情况下，无需使用第三方令牌服务器。
+将 Lync Server 2013 与 Exchange Server 和 SharePoint Server 集成需要在运行 Lync Server 2013、Exchange Server 和 SharePoint Server 的服务器之间进行服务器到服务器的身份验证。 Lync Server 2013 支持对服务器到服务器身份验证和授权的 OAuth (开放授权) 协议。 对于在两台 Microsoft 服务器之间进行的本地服务器到服务器身份验证，无需使用第三方令牌服务器。 Lync Server 2013、Exchange Server 和 SharePoint Server 具有可用于相互进行身份验证的内置令牌服务器。 例如，Lync Server 2013 本身可以颁发和签名安全令牌，并在与 Exchange 通信时使用该令牌。 在此情况下，无需使用第三方令牌服务器。
 
 Lync Server 2013 支持两种服务器到服务器身份验证方案。 其中包括在以下各项之间配置服务器到服务器身份验证：
 
   - 安装了 Lync Server 2013 的本地安装以及 Exchange Server 2013、Exchange Server 2016 和/或 SharePoint Server 的本地安装。
 
-  - 一对 Office 组件（例如，在 Microsoft Exchange 365 和 Microsoft Lync Server 365 之间，或 Microsoft Lync Server 365 与 Microsoft SharePoint 365 之间）。
+  - 一对 Office 组件 (例如，在 Microsoft Exchange 365 和 Microsoft Lync Server 365 之间，或 Microsoft Lync Server 365 与 Microsoft SharePoint 365) 之间。
 
 <div>
 
@@ -73,7 +75,7 @@ Lync Server 2013 支持两种服务器到服务器身份验证方案。 其中�
 
 </div>
 
-有关服务器到服务器身份验证的详细信息，请参阅部署文档或操作文档中的在[Lync server 2013 中管理服务器到服务器身份验证（OAuth）和合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)。
+有关服务器到服务器身份验证的详细信息，请参阅部署文档或操作文档中的在 [Lync server 2013 中管理服务器到服务器身份验证 (OAuth) 和合作伙伴应用程序](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) 。
 
 </div>
 

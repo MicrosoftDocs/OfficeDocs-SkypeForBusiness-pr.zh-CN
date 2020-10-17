@@ -12,20 +12,22 @@ ms:contentKeyID: 48185318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0747957a42c07c987f3123608d35fb86b5d4c036
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46435a3683465c1e31406e46181df8ffa069615e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199775"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529609"
 ---
+# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 的 Active Directory 基础结构要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-infrastructure-requirements-for-lync-server-2013"></a>Lync Server 2013 的 Active Directory 基础结构要求
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-11-07_
 
 在开始为 Lync Server 2013 准备 Active Directory 域服务的过程之前，请确保您的 Active Directory 基础结构满足以下先决条件：
 
-  - 您在其中部署 Lync Server 的林中的所有域控制器（包括所有全局编录服务器）都运行以下操作系统之一：
+  - 所有域控制器 (包括在其中部署 Lync Server 的林中) 所有全局编录服务器运行以下操作系统之一：
     
       - Windows Server 2012 R2 操作系统
     
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2013-11-07_
     
 
     > [!NOTE]  
-    > 若要更改您的域或林功能级别，请参阅 TechNet Library 中的 "提升域和林功能<A href="https://go.microsoft.com/fwlink/p/?linkid=263775">https://go.microsoft.com/fwlink/p/?LinkId=263775</A>级别"。
+    > 若要更改您的域或林功能级别，请参阅 TechNet Library 中的 "提升域和林功能级别" <A href="https://go.microsoft.com/fwlink/p/?linkid=263775">https://go.microsoft.com/fwlink/p/?LinkId=263775</A> 。
 
     
     </div>

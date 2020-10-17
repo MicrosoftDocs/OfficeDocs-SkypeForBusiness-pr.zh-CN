@@ -12,20 +12,22 @@ ms:contentKeyID: 49733635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fdcc6f69280357730e34f987f3c197db6950c285
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aaa5058d820fc399d7f6b915407a62fc1031fa99
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197595"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529039"
 ---
+# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中禁用用户的企业语音
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disable-a-user-for-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中禁用用户的企业语音
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-09-21_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“用户”****。
 
@@ -61,7 +63,7 @@ _**上次修改的主题：** 2012-09-21_
     
 
     > [!NOTE]  
-    > 若要使用 Lync 限制用户进行音频或视频呼叫，请在 "<STRONG>电话服务</STRONG>" 下单击 "<STRONG>音频/视频已禁用</STRONG>"。
+    > 若要使用 Lync 限制用户进行音频或视频呼叫，请在 " <STRONG>电话服务</STRONG>" 下单击 " <STRONG>音频/视频已禁用</STRONG>"。
 
     
     </div>

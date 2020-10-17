@@ -12,20 +12,22 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0b274d933fbb1c9f47b219a492403bd1c5f58d5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2d36ec6ad1afb8c41c7c5f614e90e03ce4d9282
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197495"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528949"
 ---
+# <a name="disaster-recovery-test-in-lync-server-2013"></a>Lync Server 2013 中的灾难恢复测试
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disaster-recovery-test-in-lync-server-2013"></a>Lync Server 2013 中的灾难恢复测试
+
 
 </div>
 
@@ -58,11 +60,11 @@ _**上次修改的主题：** 2015-01-26_
 
   - 使用第三方备份应用程序将数据备份到文件或磁带。
 
-  - 使用 Export-csuserdata cmdlet 可以创建整个 RTC 数据库的 XML 导出。
+  - 使用 Export-CsUserData cmdlet 可以创建整个 RTC 数据库的 XML 导出。
 
   - 使用文件系统备份或第三方备份会议内容和合规性日志。
 
-  - 使用 CsConfiguration 命令行工具备份 Lync Server 2013 设置。
+  - 使用 Export-CsConfiguration 命令行工具备份 Lync Server 2013 设置。
 
 故障转移过程中的第一步包括将用户从生产池强制移动到灾难恢复池。
 
@@ -74,7 +76,7 @@ _**上次修改的主题：** 2015-01-26_
 
   - 使用标准 SQL Server 还原过程或使用第三方备份/还原实用程序，可以从生产 SQL Server 从原始备份转储设备还原 RTC 数据库。
 
-  - 可以使用 DBIMPEXP 实用工具，使用从生产 SQL Server 导出创建的 XML 文件来还原用户联系人数据。
+  - 可以使用使用从生产 SQL Server 导出创建的 XML 文件的 DBIMPEXP.exe 实用程序还原用户联系人数据。
 
 还原此数据后，用户可以有效地连接到灾难恢复 Lync Server 2013 池，并照常运行。
 
@@ -82,27 +84,27 @@ _**上次修改的主题：** 2015-01-26_
 
 使用以下各项的自动配置和 DNS SRV 记录，客户端将引用生产 Lync Server 2013 池：
 
-  - SRV： \_sip。\_tls。\<域\> /CNAME： SIP。\<域\>
+  - SRV： \_ sip。 \_eap-tls.\<domain\> /CNAME： SIP。\<domain\>
 
-  - CNAME： SIP。\<域\> /cvc-pool-1。\<域\>
+  - CNAME： SIP。\<domain\> /cvc-pool-1.\<domain\>
 
 为了便于进行故障转移，必须更新此 CNAME 记录以引用 DROCSPool FQDN：
 
-  - CNAME： SIP。\<域\> /DROCSPool。\<域\>
+  - CNAME： SIP。\<domain\> /DROCSPool.\<domain\>
 
-  - Sip.\<域\>
+  - Sip.\<domain\>
 
-  - AV.\<域\>
+  - AV.\<domain\>
 
-  - webconf.\<域\>
+  - webconf.\<domain\>
 
-  - OCSServices.\<域\>
+  - OCSServices.\<domain\>
 
 <div>
 
 
 > [!IMPORTANT]  
-> 有关详细的管理和管理过程，请参阅<A href="lync-server-2013-backing-up-and-restoring-lync-server.md">备份和还原 Lync Server 2013</A>。
+> 有关详细的管理和管理过程，请参阅 <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">备份和还原 Lync Server 2013</A>。
 
 
 

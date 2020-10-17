@@ -12,20 +12,22 @@ ms:contentKeyID: 48183878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b36437de04b3e7924085fe95b9f10b13e47cb867
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ed40fb498b93f0c6f3b1a8d32c7642f7714998ea
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197415"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528939"
 ---
+# <a name="dns-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 基础结构支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-infrastructure-support-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 基础结构支持
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42197415"
 
 _**上次修改的主题：** 2013-03-08_
 
-Lync Server 2013 需要域名系统（DNS），并通过以下方式使用它：
+Lync Server 2013 要求域名系统 (DNS) 并通过以下方式使用它：
 
   - 发现内部服务器或池以进行服务器至服务器的通信。
 
@@ -57,7 +59,7 @@ Lync Server 2013 需要域名系统（DNS），并通过以下方式使用它：
 
 
 > [!NOTE]  
-> Lync Server 2013 不支持国际化域名（Idn）。
+> Lync Server 2013 不支持 (Idn) 的国际化域名称。
 
 
 

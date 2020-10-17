@@ -12,20 +12,22 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4478a68392e751ee9e641542e7764237580e781
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b1e04507e0dc109b4477973a3a36b851afe81014
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528039"
 ---
+# <a name="new-conferencing-features-in-lync-server-2013"></a>Lync Server 2013 中的新会议功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-conferencing-features-in-lync-server-2013"></a>Lync Server 2013 中的新会议功能
+
 
 </div>
 
@@ -55,7 +57,7 @@ Lync Server 2013 引入了一些新功能，可增强会议，如以下列表所
 
   - **已更新的 PowerPoint 共享**
     
-    Lync Server 2013 现在使用 Office Web Apps 和 Office Web Apps Server （以前称为 WAC Server）来处理 PowerPoint 演示文稿。 Office Web Apps Server 的使用允许更高分辨率显示和更好地支持 PowerPoint 功能，访问更多类型的移动设备（Lync Server 2013 使用标准 DHTML 和 JavaScript 广播 PowerPoint 演示文稿），具有适当权限的用户能够独立于演示文稿本身滚动 PowerPoint 演示文稿。
+    Lync Server 2013 现在使用 Office Web Apps 和 Office Web Apps Server (以前称为 WAC Server) 来处理 PowerPoint 演示文稿。 Office Web Apps Server 的使用允许更高分辨率显示和更好地支持 PowerPoint 功能，访问更多类型的移动设备 (Lync Server 2013 使用标准 DHTML 和 JavaScript 广播 PowerPoint 演示文稿) ，以及具有适当权限的用户能够在独立于演示文稿的 PowerPoint 演示文稿之间滚动的功能。
 
   - **图库视图和 HD 视频会议**
     

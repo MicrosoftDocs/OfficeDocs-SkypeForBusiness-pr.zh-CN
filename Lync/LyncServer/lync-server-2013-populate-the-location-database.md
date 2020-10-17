@@ -12,20 +12,22 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0216cada44f2512e33a0b33b627ed9a6d6582cda
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: de9a5c9015dcaf83252260c89837a473a6a2291f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208808"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527969"
 ---
+# <a name="populate-the-location-database-in-lync-server-2013"></a>在 Lync Server 2013 中填充位置数据库
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="populate-the-location-database-in-lync-server-2013"></a>在 Lync Server 2013 中填充位置数据库
+
 
 </div>
 
@@ -58,23 +60,23 @@ _**上次修改的主题：** 2012-09-17_
 <tbody>
 <tr class="odd">
 <td><p><strong>无线访问点</strong></p></td>
-<td><p>&lt;BSSID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、&gt;PreDirectional,.。。</p>
-<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;市&gt;/&lt;县&gt;、&lt;州&gt;、&lt;邮政编码、国家/地区&gt;</p></td>
+<td><p>&lt;BSSID &gt; 、 &lt; Description &gt; 、 &lt; Location &gt; 、 &lt; 公司名称 &gt; 、 &lt; HouseNumber &gt; 、 &lt; HouseNumberSuffix &gt; 、 &lt; PreDirectional &gt; ,.。。</p>
+<p>&lt;.。。StreetName &gt; 、 &lt; StreetSuffix &gt; 、 &lt; PostDirectional &gt; 、 &lt; 市/县 &gt; 、 &lt; 州 &gt; 、 &lt; 邮政编码 &gt; 、 &lt; 国家/地区&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>子网</strong></p></td>
-<td><p>&lt;子&gt;网&lt;、&gt;说明&lt;、&gt;位置&lt;、&gt;公司&lt;名称&gt;、&lt;HouseNumber&gt;、&lt;HouseNumberSuffix&gt;、PreDirectional,.。。</p>
-<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;市&gt;/&lt;县&gt;、&lt;州&gt;、&lt;邮政编码、国家/地区&gt;</p></td>
+<td><p><strong>Subnet</strong></p></td>
+<td><p>&lt;子网 &gt; 、 &lt; 说明 &gt; 、 &lt; 位置 &gt; 、 &lt; 公司名称 &gt; 、 &lt; HouseNumber &gt; 、 &lt; HouseNumberSuffix &gt; 、 &lt; PreDirectional &gt; ,.。。</p>
+<p>&lt;.。。StreetName &gt; 、 &lt; StreetSuffix &gt; 、 &lt; PostDirectional &gt; 、 &lt; 市/县 &gt; 、 &lt; 州 &gt; 、 &lt; 邮政编码 &gt; 、 &lt; 国家/地区&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Port</strong></p></td>
-<td><p>&lt;ChassisID&gt;、&lt;PortIDSubType&gt;、&lt;PortID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix,.。。</p>
-<p>...&lt;PreDirectional&gt;、&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;City&gt;、&lt;State&gt;、&lt;邮政编码&gt;、&lt;国家/地区&gt;</p></td>
+<td><p>&lt;ChassisID &gt; 、 &lt; PortIDSubType &gt; 、 &lt; PortID &gt; 、 &lt; Description &gt; 、 &lt; Location &gt; 、 &lt; 公司名称 &gt; 、 &lt; HouseNumber &gt; 、 &lt; HouseNumberSuffix &gt; ,.。。</p>
+<p>&lt;.。。PreDirectional &gt; 、 &lt; StreetName &gt; 、 &lt; StreetSuffix &gt; 、 &lt; PostDirectional &gt; 、 &lt; City &gt; 、 &lt; State &gt; 、 &lt; 邮政编码 &gt; 、 &lt; 国家/地区&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>开关</strong></p></td>
-<td><p>&lt;ChassisID&gt;、&lt;Description&gt;、&lt;Location&gt;、&lt;公司&gt;名称&lt;、&gt;HouseNumber&lt;、&gt;HouseNumberSuffix&lt;、&gt;PreDirectional,.。。</p>
-<p>...&lt;StreetName&gt;、&lt;StreetSuffix&gt;、&lt;PostDirectional&gt;、&lt;市&gt;/&lt;县&gt;、&lt;州&gt;、&lt;邮政编码、国家/地区&gt;</p></td>
+<td><p>&lt;ChassisID &gt; 、 &lt; Description &gt; 、 &lt; Location &gt; 、 &lt; 公司名称 &gt; 、 &lt; HouseNumber &gt; 、 &lt; HouseNumberSuffix &gt; 、 &lt; PreDirectional &gt; ,.。。</p>
+<p>&lt;.。。StreetName &gt; 、 &lt; StreetSuffix &gt; 、 &lt; PostDirectional &gt; 、 &lt; 市/县 &gt; 、 &lt; 州 &gt; 、 &lt; 邮政编码 &gt; 、 &lt; 国家/地区&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -88,7 +90,7 @@ _**上次修改的主题：** 2012-09-17_
 
   - **CsLisSubnet**
 
-  - CsLisSubnet
+  - Remove-CsLisSubnet
 
   - **CsLisWirelessAccessPoint**
 

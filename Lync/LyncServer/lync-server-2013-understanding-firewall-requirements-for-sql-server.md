@@ -12,20 +12,22 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57f32d84e4cd08c40f95a47af7c988599678c972
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f836c71023defd6c826ab763d36e395a1240d3da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193165"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527739"
 ---
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>了解使用 Lync Server 2013 的 SQL Server 的防火墙要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>了解使用 Lync Server 2013 的 SQL Server 的防火墙要求
+
 
 </div>
 
@@ -145,7 +147,7 @@ SQL Server Browser 服务将查找数据库实例，并与配置为供该实例�
 
 ## <a name="sql-server-documentation"></a>SQL Server 文档
 
-Microsoft SQL Server 2012 文档提供了有关如何配置数据库的防火墙访问的详细指南。 有关 Microsoft SQL Server 2012 的详细信息，请参阅位于[https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031)的 "配置 Windows 防火墙以允许 SQL Server 访问"。
+Microsoft SQL Server 2012 文档提供了有关如何配置数据库的防火墙访问的详细指南。 有关 Microsoft SQL Server 2012 的详细信息，请参阅位于的 "配置 Windows 防火墙以允许 SQL Server 访问" [https://go.microsoft.com/fwlink/p/?linkId=218031](https://go.microsoft.com/fwlink/p/?linkid=218031) 。
 
 </div>
 

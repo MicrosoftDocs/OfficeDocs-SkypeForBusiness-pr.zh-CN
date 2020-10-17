@@ -12,20 +12,22 @@ ms:contentKeyID: 48706011
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74c8c5d1bc78f41d4c1a2694e50fb99b869b9247
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 088ea4f3441716efdec748222e9aefeca9643a77
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197515"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528959"
 ---
+# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a>在 Lync Server 2013 中禁用或启用聊天室
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disabling-or-enabling-a-chat-room-in-lync-server-2013"></a>在 Lync Server 2013 中禁用或启用聊天室
+
 
 </div>
 
@@ -41,9 +43,9 @@ _**上次修改的主题：** 2014-02-05_
 
 已禁用的聊天室可在稍后由持久聊天管理员启用。 禁用某聊天室时，将保留其成员身份列表和其他设置。 如果再次启用会议室，则无需手动重新创建这些设置。
 
-如果聊天室的历史记录持续存在（聊天室历史记录持续性是适用于类别中所有聊天室的类别的可选设置; 默认值为 "已保留"，但可以通过将类别的 "**启用聊天历史记录**" 设置为 "false" 来将其关闭，在禁用聊天室时保留内容。 但是，在聊天室仍处于禁用状态时，搜索中不会显示该内容。 如果后来启用了聊天室，用户可以搜索在禁用聊天室之前已发布的邮件。
+如果聊天室的历史记录仍然存在 (聊天室历史记录持续性是应用于该类别中所有聊天室的类别的可选设置;默认值是，它将保持不变，但可以通过将类别的 " **启用聊天历史记录** " 设置为 false) 来将其关闭，当聊天室被禁用时，将保留该内容。 但是，在聊天室仍处于禁用状态时，搜索中不会显示该内容。 如果后来启用了聊天室，用户可以搜索在禁用聊天室之前已发布的邮件。
 
-有关通过使用 Windows PowerShell 命令行界面禁用和启用聊天室的详细信息，请参阅[使用 Windows powershell Cmdlet 配置持久聊天服务器](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 "会议室管理"。 若要禁用聊天室，请使用与以下类似的命令：
+有关通过使用 Windows PowerShell 命令行界面禁用和启用聊天室的详细信息，请参阅 [使用 Windows powershell Cmdlet 配置持久聊天服务器](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)中的 "会议室管理"。 若要禁用聊天室，请使用与以下类似的命令：
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $True
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2014-02-05_
 
 请注意，聊天室无法使用 Lync Server 控制面板启用或禁用。
 
-有关配置聊天室的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置会议室](lync-server-2013-configure-rooms.md)。
+有关配置聊天室的详细信息，请参阅部署文档中的在 [Lync Server 2013 中配置会议室](lync-server-2013-configure-rooms.md) 。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52903a2e7ae1b9a3a994a1199e32d8d7c4bd1e03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5dd461e6a8ce184e5e418feddede258af68d2c25
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528369"
 ---
+# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>导出 Lync Server 2013 拓扑并将其复制到外部媒体以进行边缘安装
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>导出 Lync Server 2013 拓扑并将其复制到外部媒体以进行边缘安装
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42202348"
 
 _**上次修改的主题：** 2012-09-08_
 
-发布拓扑后，Lync Server 部署向导需要访问中央管理存储数据，以便在服务器上启动部署过程。 在内部网络中，数据可直接来自服务器，但不在内部域中的边缘服务器将无法访问数据。 若要使拓扑配置数据可用于边缘服务器部署，必须在运行 Lync Server Dep 之前，将拓扑数据导出到文件并将其复制到外部媒体（例如，在边缘服务器上可用的 USB 驱动器或网络共享）边缘服务器上的 loyment 向导。 使用以下过程可使拓扑配置数据在要部署的边缘服务器上可用。
+发布拓扑后，Lync Server 部署向导需要访问中央管理存储数据，以便在服务器上启动部署过程。 在内部网络中，数据可直接来自服务器，但不在内部域中的边缘服务器将无法访问数据。 若要使拓扑配置数据可用于边缘服务器部署，必须将拓扑数据导出到一个文件，并将其复制到外部媒体 (例如，在边缘服务器上运行 Lync Server 部署向导之前，在边缘服务器上提供的 USB 驱动器或网络共享) 。 使用以下过程可使拓扑配置数据在要部署的边缘服务器上可用。
 
 <div>
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-09-08_
     
         Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
 
-3.  将导出的文件复制到外部媒体（例如，在部署过程中从边缘服务器使用的 USB 驱动器或网络共享）。
+3.  将导出的文件复制到外部媒体 (例如，在部署) 期间，从边缘服务器获取的 USB 驱动器或网络共享。
 
 </div>
 

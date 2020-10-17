@@ -12,20 +12,22 @@ ms:contentKeyID: 48185160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4310c90bdf3381bf9a5b357d6b45c9252ab7136b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e9142be1b2d46a7d7634394970d07dfa450a22e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199165"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529169"
 ---
+# <a name="conferenceuris-table-in-lync-server-2013"></a>Lync Server 2013 中的 ConferenceUris 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferenceuris-table-in-lync-server-2013"></a>Lync Server 2013 中的 ConferenceUris 表
+
 
 </div>
 
@@ -70,7 +72,7 @@ ConfereneUris 表是一个支持表，用于存储已参与数据库中记录的
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td></td>
 <td><p>会议 URI。</p></td>
 </tr>
@@ -84,7 +86,7 @@ ConfereneUris 表是一个支持表，用于存储已参与数据库中记录的
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>对外</p></td>
-<td><p>URI 类型，如 conf:chat 代表 IM 会议，conf:audio-video 代表音频/视频会议。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 表中的 UriTypes 表</a>。</p></td>
+<td><p>URI 类型，如 conf:chat 代表 IM 会议，conf:audio-video 代表音频/视频会议。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 表中的 UriTypes 表</a> 。</p></td>
 </tr>
 </tbody>
 </table>

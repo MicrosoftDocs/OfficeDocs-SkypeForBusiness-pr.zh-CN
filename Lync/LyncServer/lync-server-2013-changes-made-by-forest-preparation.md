@@ -12,20 +12,22 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6954e8a4cd76e103516fd1f2323ef04d820dc056
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 46b0429eabd9a02a08918e5590043bbad9faca83
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191555"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529469"
 ---
+# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Lync Server 2013 中的林准备所做的更改
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-forest-preparation-in-lync-server-2013"></a>Lync Server 2013 中的林准备所做的更改
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-30_
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory 全局设置和对象
 
-如果将全局设置存储在配置容器中（所有新的 Lync Server 2013 部署的情况），林准备将使用现有服务容器，并在配置\\服务对象下添加**RTC 服务**对象。 在 RTC 服务对象下，林准备添加一个 msRTCSIP-GlobalContainer 类型的**Global Settings**对象。 全局设置对象包含适用于 Lync Server 部署的所有设置。 如果将全局设置存储在系统容器中，林准备将使用根域系统容器下的 Microsoft 容器和系统\\Microsoft 对象下的 RTC 服务对象。
+如果将全局设置存储在 "配置" 容器中 (与所有新的 Lync Server 2013 部署) 的情况相同，则林准备将使用现有服务容器，并在配置服务对象下添加 **RTC 服务** 对象 \\ 。 在 RTC 服务对象下，林准备添加一个 msRTCSIP-GlobalContainer 类型的**Global Settings**对象。 全局设置对象包含适用于 Lync Server 部署的所有设置。 如果将全局设置存储在系统容器中，林准备将使用根域系统容器下的 Microsoft 容器和系统 Microsoft 对象下的 RTC 服务对象 \\ 。
 
 林准备还为从中运行此过程的根域添加一个新的 **msRTCSIP-Domain** 对象。
 
@@ -57,11 +59,11 @@ _**上次修改的主题：** 2012-10-30_
 
 通用组允许管理员访问并管理全局设置和服务。林准备将添加以下类型的通用组：
 
-  - **管理组**   ：这些组定义 Lync Server 网络的管理员角色。
+  - **管理组**    这些组定义 Lync Server 网络的管理员角色。
 
-  - **基础结构组**   ：这些组提供访问 Lync Server 基础结构的特定区域的权限。 它们用作管理组的组件。 您不应修改这些组或直接向其中添加用户。
+  - **基础结构组**    这些组提供访问 Lync Server 基础结构的特定区域的权限。 它们用作管理组的组件。 您不应修改这些组或直接向其中添加用户。
 
-  - **服务组**   这些组是访问各种 Lync Server 服务所需的服务帐户。
+  - **服务组**    这些组是访问各种 Lync Server 服务所需的服务帐户。
 
 下表介绍的是管理组。
 
@@ -75,7 +77,7 @@ _**上次修改的主题：** 2012-10-30_
 <thead>
 <tr class="header">
 <th>管理组</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -107,7 +109,7 @@ _**上次修改的主题：** 2012-10-30_
 <thead>
 <tr class="header">
 <th>基础结构组</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -147,7 +149,7 @@ _**上次修改的主题：** 2012-10-30_
 <thead>
 <tr class="header">
 <th>服务组</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -207,7 +209,7 @@ _**上次修改的主题：** 2012-10-30_
 
   - CsResponseGroupManager
 
-有关 RBAC 角色和每个角色允许执行的任务的详细信息，请参阅规划文档中的在[Lync Server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
+有关 RBAC 角色和每个角色允许执行的任务的详细信息，请参阅规划文档中的在 [Lync Server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md) 。
 
 林准备同时创建专用和公共 ACE。 它在 Lync Server 使用的全局设置容器上创建专用 Ace。 此容器仅由 Lync Server 使用，并位于配置容器或根域中的系统容器中，具体取决于存储全局设置的位置。 下表中列出了林准备所创建的公共 ACE。
 

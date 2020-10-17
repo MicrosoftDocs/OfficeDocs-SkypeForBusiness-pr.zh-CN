@@ -12,20 +12,22 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96715d7f11cfa064681982be270f1030dc28a628
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 13d9591ad8dfed90373fedc8adfb3a3c3c44eb57
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188135"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529139"
 ---
+# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中呼叫允许控制的部署清单
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Lync Server 2013 中呼叫允许控制的部署清单
+
 
 </div>
 
@@ -108,7 +110,7 @@ _**上次修改的主题：** 2012-10-08_
 <td><p>网络接口要求</p></td>
 <td><ul>
 <li><p>内部和外部接口信息</p></li>
-<li><p>路由信息（包括有关来自 Microsoft Lync Server 团队<a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a>客户响应通道的 NextHop 博客的信息）</p></li>
+<li><p> (的路由信息，其中包括 <a href="https://go.microsoft.com/fwlink/p/?linkid=203149">https://go.microsoft.com/fwlink/p/?LinkId=203149</a> Microsoft Lync Server 团队的客户响应频道中有关 NextHop 博客的信息) </p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-deploying-external-user-access.md">在 Lync Server 2013 中部署外部用户访问</a></p></td>
 </tr>

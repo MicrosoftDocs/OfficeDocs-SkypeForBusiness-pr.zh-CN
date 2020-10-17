@@ -12,20 +12,22 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93750418bce8ea98d0cee385232bc09bb0bd63bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 57397d3c2629c0f3f69ebb616c3d933c8312f7b0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208818"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527949"
 ---
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-自动发现
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-自动发现
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42208818"
 
 _**上次修改的主题：** 2013-03-05_
 
-Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，并且在使用`lyncdiscover.<domain>`和`lyncdiscoverinternal.<domain>`主机记录在 DNS 中发布时，客户端可以使用它们查找 Lync Server 功能。 为了使 Lync Mobile 运行的移动设备使用自动发现，您可能需要首先在运行自动发现服务的任何控制器和前端服务器上修改证书主题备用名称列表。 此外，可能还必须修改证书上的供反向代理上的外部 Web 服务发布规则使用的使用者替代名称列表。
+Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，并且在使用和主机记录在 DNS 中发布时， `lyncdiscover.<domain>` `lyncdiscoverinternal.<domain>` 客户端可以使用它们查找 Lync Server 功能。 为了使 Lync Mobile 运行的移动设备使用自动发现，您可能需要首先在运行自动发现服务的任何控制器和前端服务器上修改证书主题备用名称列表。 此外，可能还必须修改证书上的供反向代理上的外部 Web 服务发布规则使用的使用者替代名称列表。
 
 有关是否在反向代理上使用主题备用名称列表的决策取决于您是在端口80上还是在端口443上发布自动发现服务：
 
-  - **在端口 80**   上发布在移动设备上，如果对自动发现服务的初始查询在端口80上发生，则不需要进行证书更改。 这是因为运行 Lync 的移动设备将在外部端口80上访问反向代理，然后在内部将其重定向到端口8080上的控制器或前端服务器。
+  - **已在端口 80**     上发布对于移动设备，如果对自动发现服务的初始查询在端口80上发生，则不需要进行证书更改。 这是因为运行 Lync 的移动设备将在外部端口80上访问反向代理，然后在内部将其重定向到端口8080上的控制器或前端服务器。
 
-  - **在端口 443**   上发布在外部 web 服务发布规则所使用的证书上的 "使用者备用名称`lyncdiscover.<sipdomain>` " 列表中，必须为组织内的每个 SIP 域包含一个条目。
+  - **已在端口 443**     上发布外部 web 服务发布规则所使用的证书上的 "主题备用名称" 列表必须包含 `lyncdiscover.<sipdomain>` 组织内每个 SIP 域的条目。
     
     <div>
     
@@ -68,19 +70,19 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 <th>协议/TCP 或 UDP/端口</th>
 <th>源 IP 地址</th>
 <th>目标 IP 地址</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>反向代理侦听器</p></td>
-<td><p>Optional如果用户进入 http://&lt;publishedSiteFQDN&gt;，则重定向到 HTTPS。 如果在组织不想修改外部 Web 服务发布规则证书的情况下，使用 Office Web Apps for 会议和运行 Lync 的移动设备的自动发现服务，也需要使用此属性。</p></td>
+<td><p> (可选) 重定向到 HTTPS （如果用户进入 http:// &lt; publishedSiteFQDN &gt; 。 如果在组织不想修改外部 Web 服务发布规则证书的情况下，使用 Office Web Apps for 会议和运行 Lync 的移动设备的自动发现服务，也需要使用此属性。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>反向代理侦听器</p></td>
 <td><p>通讯簿下载、通讯簿 Web 查询服务、自动发现、客户端更新、会议内容、设备更新、组扩展、Office Web Apps for 会议、电话拨入式会议和会议。</p></td>
 </tr>
@@ -102,7 +104,7 @@ Lync Server 2013 自动发现服务在控制器和前端池服务器上运行，
 <th>协议/TCP 或 UDP/端口</th>
 <th>源 IP 地址</th>
 <th>目标 IP 地址</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>

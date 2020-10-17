@@ -12,20 +12,22 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e521e1665361e15fffdf1e058731d04bc2eb9aa4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7aaecb9bd7b5fc4f144236f83f85f9e1e192784f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197605"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529109"
 ---
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013 中的直接 SIP 部署选项
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Lync Server 2013 中的直接 SIP 部署选项
+
 
 </div>
 
@@ -45,11 +47,11 @@ _**上次修改的主题：** 2012-09-21_
 
 <div>
 
-## <a name="lync-server-stand-alone"></a>Lync Server 独立
+## <a name="lync-server-stand-alone"></a>Lync Server Stand-Alone
 
 如果您的组织使用本节中介绍的某个部署，则可以使用 Lync Server 2013 作为组织的部分或全部的唯一电话解决方案。 本部分详细介绍了以下部署：
 
-  - **增量部署：** 此选项假定您有一个现有的专用交换机（PBX）基础结构，并且您打算将企业语音增量引入到组织内较小的组或团队中。
+  - **增量部署：** 此选项假设您有一个现有的专用分支 exchange (PBX) 基础结构，您打算将企业语音增量引入组织内较小的组或团队。
 
   - **Lync Server 仅限 VoIP 部署：** 此选项假定您正在考虑在没有传统电话基础结构的站点上部署企业语音。
 
@@ -71,7 +73,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]  
-> 如果要将 Lync Server 部署连接到认证的直接 SIP 合作伙伴，则不需要在中介服务器和 PBX 之间建立公用交换电话网络（PSTN）网关。 有关认证的直接 SIP 合作伙伴的列表，请参阅 Microsoft 统一通信开放式互操作性计划<A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A>网站，网址为。
+> 如果要将 Lync Server 部署连接到认证的直接 SIP 合作伙伴，则不需要在中介服务器和 PBX 之间建立公用电话交换电话网络 (PSTN) 网关。 有关认证的直接 SIP 合作伙伴的列表，请参阅 Microsoft 统一通信开放式互操作性计划网站，网址为 <A href="https://go.microsoft.com/fwlink/p/?linkid=203309">https://go.microsoft.com/fwlink/p/?linkId=203309</A> 。
 
 
 
@@ -81,13 +83,13 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]  
-> 此图中所示的媒体路径启用了媒体旁路（推荐配置）。 如果您选择禁用媒体旁路，媒体路径将通过中介服务器进行路由。
+> 此图中所示的媒体路径启用了媒体旁路 (建议的配置) 。 如果您选择禁用媒体旁路，媒体路径将通过中介服务器进行路由。
 
 
 
 </div>
 
-在此拓扑中，已为企业语音启用所选部门或工作组。 PSTN 网关将支持语音的 Internet 协议（VoIP）的工作组链接到 PBX。 启用企业语音的用户（包括远程工作人员）在 IP 网络中进行通信。 由企业语音用户对 PSTN 和未启用企业语音的合作者的呼叫将路由到相应的 PSTN 网关。 来自位于 PBX 系统或来自 PSTN 上的呼叫者的同事的呼叫将路由到 PSTN 网关，PSTN 网关会将呼叫转发到 Lync Server 进行路由。
+在此拓扑中，已为企业语音启用所选部门或工作组。 PSTN 网关将 (VoIP) 的工作组中的语音 over Internet 协议链接到 PBX。 启用企业语音的用户（包括远程工作人员）在 IP 网络中进行通信。 由企业语音用户对 PSTN 和未启用企业语音的合作者的呼叫将路由到相应的 PSTN 网关。 来自位于 PBX 系统或来自 PSTN 上的呼叫者的同事的呼叫将路由到 PSTN 网关，PSTN 网关会将呼叫转发到 Lync Server 进行路由。
 
 有两种建议的配置，用于将企业语音连接到现有的 PBX 基础结构以实现互操作性： pbx 和 Enterprise voice in PBX 前端的企业语音。
 
@@ -141,11 +143,11 @@ _**上次修改的主题：** 2012-09-21_
 
 <div>
 
-## <a name="lync-server-voip-only-deployment"></a>Lync Server 仅 VoIP 部署
+## <a name="lync-server-voip-only-deployment"></a>Lync Server VoIP-Only 部署
 
-企业语音为现有企业提供了新的企业以及新的 office 网站，并有机会实施功能齐全的 VoIP 解决方案，而无需担心 PBX 集成或导致真正的部署和维护ip-pbx 基础结构的成本。 此解决方案支持现场和远程工作人员。
+企业语音为现有企业提供新的企业以及新的 office 网站，并有机会实施功能齐全的 VoIP 解决方案，而无需担心 PBX 集成或导致 IP PBX 基础结构的实际部署和维护成本。 此解决方案支持现场和远程工作人员。
 
-在此部署中，所有呼叫都通过 IP 网络进行路由。 将对 PSTN 的呼叫路由到相应的 PSTN 网关。 Lync 2013 或 Lync Phone Edition 充当 softphone。 远程呼叫控制不可用且不必要，因为没有可供用户控制的 PBX 电话。 通过 Exchange 统一消息（UM）的可选部署，可以使用语音邮件和自动助理服务。
+在此部署中，所有呼叫都通过 IP 网络进行路由。 将对 PSTN 的呼叫路由到相应的 PSTN 网关。 Lync 2013 或 Lync Phone Edition 充当 softphone。 远程呼叫控制不可用且不必要，因为没有可供用户控制的 PBX 电话。 通过 Exchange 统一消息 (UM) 的可选部署，可以使用语音邮件和自动助理服务。
 
 <div>
 
@@ -167,7 +169,7 @@ _**上次修改的主题：** 2012-09-21_
 
 
 > [!NOTE]  
-> 此图中所示的媒体路径启用了媒体旁路（推荐配置）。 如果您选择禁用媒体旁路，媒体路径将通过中介服务器进行路由。
+> 此图中所示的媒体路径启用了媒体旁路 (建议的配置) 。 如果您选择禁用媒体旁路，媒体路径将通过中介服务器进行路由。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de9592b631562752fd2759d54b623d2ec3177d25
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 95ca625746fc38d8cab9c25701a8bf22718e71e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529569"
 ---
+# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>在 Lync Server 2013 中向网络站点添加位置策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>在 Lync Server 2013 中向网络站点添加位置策略
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2013-02-24_
 
 2.  运行以下 cmdlet 以修改现有网络站点。
     
-    将**Redmond**标记的位置策略分配给名为**Redmond**的现有网络站点。
+    将 **Redmond** 标记的位置策略分配给名为 **Redmond**的现有网络站点。
     
         Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
 

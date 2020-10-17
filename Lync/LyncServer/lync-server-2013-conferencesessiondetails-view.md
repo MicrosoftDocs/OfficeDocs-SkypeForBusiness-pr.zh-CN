@@ -12,20 +12,22 @@ ms:contentKeyID: 49733660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7bc6d1888753edbeb076d60d6725b6d9cffc509e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cf8023408990b7f0243aaf0e937e2d1095dff0c2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209358"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529179"
 ---
+# <a name="conferencesessiondetails-view-in-lync-server-2013"></a>Lync Server 2013 中的 ConferenceSessionDetails 视图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conferencesessiondetails-view-in-lync-server-2013"></a>Lync Server 2013 中的 ConferenceSessionDetails 视图
+
 
 </div>
 
@@ -57,12 +59,12 @@ ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>用于标识会话的 ID 号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>InviteTime</strong></p></td>
@@ -71,13 +73,13 @@ ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>会议的 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>会议 URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>会议 URI 的类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfInstance</strong></p></td>
@@ -86,28 +88,28 @@ ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记
 </tr>
 <tr class="odd">
 <td><p><strong>McuConferenceUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>会议服务器的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuConferenceUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>会议服务器 URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>会议服务器 URI 的类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>会话所涉及的用户的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>已作为会话的一部分的用户的 URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>已作为会话的一部分的用户的 URI 的类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>已作为会话的一部分的用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>已作为会话的一部分的用户的租户。 有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserEndpointId</strong></p></td>
@@ -121,83 +123,83 @@ ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceClientVersion</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>会议服务器的版本。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>会议服务器的类型。 有关详细信息，请参阅<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p></td>
+<td><p>会议服务器的类型。 有关详细信息，请参阅 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceCategory</strong></p></td>
-<td><p>nvarchar （64）</p></td>
+<td><p>nvarchar (64) </p></td>
 <td><p>会议服务器类别。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientVersion</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>参与会话的用户所使用的客户端的版本。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>参与会话的用户所使用的客户端。 有关更多详细信息，请参阅<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p></td>
+<td><p>参与会话的用户所使用的客户端。 有关更多详细信息，请参阅 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientCategory</strong></p></td>
-<td><p>nvarchar （64）</p></td>
+<td><p>nvarchar (64) </p></td>
 <td><p>已作为会话的一部分的用户所使用的客户端的类别名称。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OnBehalfOfUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>作为启动会话的主体的用户的 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OnBehalfOfUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>代表启动会话的用户的 URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>代表启动会话的用户的 URI 的类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OnBehalfOfTenant</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>代表启动会话的用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>代表启动会话的用户的租户。 有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReferredByUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>提交会话的用户的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ReferredByUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>提交会话的用户的 URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>提交会话的用户的 URI 的类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReferredByUriTenant</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>提交会话的用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>提交会话的用户的租户。 有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogId</strong></p></td>
-<td><p>varstring （775）</p></td>
+<td><p>varstring (775) </p></td>
 <td><p>SIP 对话 ID。格式如下：</p>
 <p>:d ialog; from-tag; to-tag</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReplaceDialogIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>用于标识由当前会话取代的对话的 ID 号。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>用于标识由当前会话取代的对话的 ID 号。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ReplaceDialogIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>用于标识会话的 ID 号。 与 ReplaceDialogIdTime 结合使用来唯一地标识此会话替换的会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>用于标识会话的 ID 号。 与 ReplaceDialogIdTime 结合使用来唯一地标识此会话替换的会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ReplacesDialogId</strong></p></td>
-<td><p>varchar （775）</p></td>
+<td><p>varchar (775) </p></td>
 <td><p>会话取代的 SIP 对话 ID。格式如下：</p>
 <p>对话框; 从-标签; 到-标记</p></td>
 </tr>
@@ -233,32 +235,32 @@ ConferenceSessionDetails 视图可存储有关多方会话的信息。 每个记
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>会话的内容类型。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>前端</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p><strong>FrontEnd</strong></p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>捕获会话数据的前端服务器的 FQDN。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Pool</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>已捕获会话的数据的池的 FQDN。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediationServer</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>参与会话的用户所使用的中介服务器。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>网关</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>参与会话的用户所使用的网关。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EdgeServer</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>参与会话的用户所使用的边缘服务器的 FQDN。</p></td>
 </tr>
 <tr class="even">

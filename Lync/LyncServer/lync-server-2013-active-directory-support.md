@@ -12,20 +12,22 @@ ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a7da4487c376ceea4c5c3e41e20a55874b27f06
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7769bd97b29d7a206edf8b1ea5878fa30b489300
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199995"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529579"
 ---
+# <a name="active-directory-support-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-support-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 支持
+
 
 </div>
 
@@ -53,7 +55,7 @@ Lync Server 2013 支持的 Active Directory 域服务本地拓扑如下所示：
 
 
 > [!NOTE]  
-> Lync Server 2013 不支持单标签域。 例如，支持具有名为<STRONG>contoso. local</STRONG>的根域的林，但不支持名为<STRONG>local</STRONG>的单标签根域。 有关详细信息，请参阅 Microsoft 知识库文章 300684 "有关为带有单标签 DNS 名称的域配置 Windows 的信息" <A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A>。
+> Lync Server 2013 不支持单标签域。 例如，支持具有名为 <STRONG>contoso. local</STRONG> 的根域的林，但不支持名为 <STRONG>local</STRONG> 的单标签根域。 有关详细信息，请参阅 Microsoft 知识库文章 300684 "有关为带有单标签 DNS 名称的域配置 Windows 的信息" <A href="https://go.microsoft.com/fwlink/p/?linkid=143752">https://go.microsoft.com/fwlink/p/?linkId=143752</A> 。
 
 
 
@@ -69,7 +71,7 @@ Lync Server 2013 支持的 Active Directory 域服务本地拓扑如下所示：
 
 </div>
 
-有关支持的拓扑和本地部署要求的详细信息，请参阅规划文档中的[Lync Server 2013 中的 Active Directory 域服务要求、支持和拓扑](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md)。
+有关支持的拓扑和本地部署要求的详细信息，请参阅规划文档中的 [Lync Server 2013 中的 Active Directory 域服务要求、支持和拓扑](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) 。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c2dd96b45105eabe644b86ba5ab3af099ea8e8f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1fc8895a144b4911560af8fd6a2f12d576f3ec14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528149"
 ---
+# <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 配置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="iis-configuration-in-lync-server-2013"></a>Lync Server 2013 中的 IIS 配置
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**上次修改的主题：** 2014-02-17_
 
 若要成功完成此过程，您应至少以本地管理员和域用户的身份登录到服务器。
 
-在为 Lync Server 2013、Standard Edition 或第一台前端服务器配置和安装前端服务器之前，请为 Internet Information Services （IIS）安装和配置服务器角色和 Web 服务。
+在为 Lync Server 2013、Standard Edition 或第一台前端服务器配置和安装 Lync server 的前端服务器之前，请为 Internet 信息服务 (IIS) 安装和配置服务器角色和 Web 服务。
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> 如果您的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务，则在最初安装 Lync Server 2013 时，可以在 "安装程序" 对话框中更改 Lync Server 2013 文件的安装位置路径。管理工具。 安装 IIS 之前安装管理工具。 如果将安装文件安装到此路径（包括 OCSCore），则其余的 Lync Server 2013 文件也将部署到此驱动器。 有关 dtails，请参阅<A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 管理工具</A>。 有关如何在安装 IIS 时重新定位由 Windows Server Manager 部署的 INETPUB 的详细信息<A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>，请参阅。
+> 如果您的组织要求在除系统驱动器之外的驱动器上查找 IIS 和所有 Web 服务，则在最初安装 Lync Server 2013 管理工具时，可以在 "安装程序" 对话框中更改 Lync Server 2013 文件的安装位置路径。 安装 IIS 之前安装管理工具。 如果将安装文件安装到此路径（包括 OCSCore.msi），则其余的 Lync Server 2013 文件也将部署到此驱动器。 有关 dtails，请参阅 <A href="lync-server-2013-install-lync-server-administrative-tools.md">Install Lync Server 2013 管理工具</A>。 有关如何在安装 IIS 时重新定位由 Windows Server Manager 部署的 INETPUB 的详细信息，请参阅 <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A> 。
 
 
 
@@ -90,7 +92,7 @@ _**上次修改的主题：** 2014-02-17_
 </tr>
 <tr class="even">
 <td><p>应用程序开发</p></td>
-<td><p>Internet Server API （ISAPI）扩展</p></td>
+<td><p>Internet Server API (ISAPI) 扩展</p></td>
 </tr>
 <tr class="odd">
 <td><p>应用程序开发</p></td>
@@ -110,7 +112,7 @@ _**上次修改的主题：** 2014-02-17_
 </tr>
 <tr class="odd">
 <td><p>安全性</p></td>
-<td><p>匿名身份验证（默认情况下已安装并启用）</p></td>
+<td><p>默认情况下，安装并启用匿名身份验证 () </p></td>
 </tr>
 <tr class="even">
 <td><p>安全性</p></td>
@@ -155,7 +157,7 @@ _**上次修改的主题：** 2014-02-17_
 
 
 > [!NOTE]  
-> 默认情况下，将使用 IIS 服务器角色安装匿名身份验证。 您可以在安装 IIS 之后管理匿名身份验证。 有关详细信息，请参阅处<A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A>的 "启用匿名身份验证（IIS 7）"。
+> 默认情况下，将使用 IIS 服务器角色安装匿名身份验证。 您可以在安装 IIS 之后管理匿名身份验证。 有关详细信息，请参阅中的 "启用匿名身份验证 (IIS 7) " <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A> 。
 
 
 
@@ -167,7 +169,7 @@ _**上次修改的主题：** 2014-02-17_
 
 
 > [!NOTE]  
-> 对于 Windows Server 2012 和 Windows Server 2012 R2，已将 add-windowsfeature cmdlet 替换为 Install cmdlet。 有关详细信息，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install-add-windowsfeature</A>。
+> 对于 Windows Server 2012 和 Windows Server 2012 R2，Add-WindowsFeature cmdlet 已被 Install-WindowsFeature cmdlet 替代。 有关详细信息，请参阅 <A href="https://go.microsoft.com/fwlink/p/?linkid=392274">Install-add-windowsfeature</A>。
 
 
 
@@ -357,7 +359,7 @@ _**上次修改的主题：** 2014-02-17_
 
 
 > [!IMPORTANT]  
-> Windows Server 2012 的新版本是用于定义可在何处找到 Windows Server 2012 源媒体的– Source 参数。 可以将媒体定义为 DVD 驱动器（例如，D:\Sources\Sxs），也可以定义为网络共享媒体文件已复制（例如， \\fileserver\windows2012\sources\Sxs）。
+> Windows Server 2012 的新版本是用于定义可在何处找到 Windows Server 2012 源媒体的– Source 参数。 可以将媒体定义为 DVD 驱动器 (例如，D:\Sources\Sxs) 或网络共享（媒体文件已复制） (例如， \\ fileserver\windows2012\sources\Sxs) 。
 
 
 

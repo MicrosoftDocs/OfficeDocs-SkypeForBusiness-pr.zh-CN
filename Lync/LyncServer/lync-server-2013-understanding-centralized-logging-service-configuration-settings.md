@@ -12,20 +12,22 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4bd4403bedbf6fe3b6983e6071a162ce02c16936
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221192"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527749"
 ---
+# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>了解 Lync Server 2013 中的集中日志记录服务配置设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="understanding-centralized-logging-service-configuration-settings-in-lync-server-2013"></a>了解 Lync Server 2013 中的集中日志记录服务配置设置
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44221192"
 
 _**上次修改的主题：** 2013-02-21_
 
-集中日志记录服务配置为定义要收集的日志记录服务、它的收集方式、收集位置以及日志设置。 您可以全局定义这些设置（即整个部署），也可以为网站（即部署中的已命名网站）定义这些设置。 您定义的任何日志记录都将使用适用于某个标识（对启动、停止、刷新和搜索日志的命令使用）的设置。
+集中日志记录服务配置为定义要收集的日志记录服务、它的收集方式、收集位置以及日志设置。 您可以全局定义这些设置 (即整个部署) 或网站 (即部署) 中的命名网站。 您定义的任何日志记录都将使用适用于某个标识（对启动、停止、刷新和搜索日志的命令使用）的设置。
 
 <div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2013-02-21_
     
 
     > [!TIP]
-    > 您可以缩小或扩展由定义 <CODE>-Identity</CODE> 和作用域（例如 "site： Redmond"）返回的配置设置的范围，以仅返回网站 Redmond 的 new-csclsconfiguration。 如果您需要有关配置的给定部分的详细信息，您可以通过管道将输出传送到另一个 Windows PowerShell cmdlet。 例如，若要获取有关站点 "Redmond" 的配置中定义的方案的详细信息，请键入：<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > 您可以缩小或扩展由定义 <CODE>-Identity</CODE> 和作用域（例如 "site： Redmond"）返回的配置设置的范围，以仅返回网站 Redmond 的 new-csclsconfiguration。 如果您需要有关配置的给定部分的详细信息，您可以通过管道将输出传送到另一个 Windows PowerShell cmdlet。 例如，若要获取有关站点 "Redmond" 的配置中定义的方案的详细信息，请键入： <CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>
@@ -92,7 +94,7 @@ _**上次修改的主题：** 2013-02-21_
     <td><p>定义的安全组，用于控制能查看计算机的人员（即，安全组的成员），具体取决于这些人员所在的站点。 在此上下文中，网站是在拓扑生成器中定义的网站。</p></td>
     </tr>
     <tr class="odd">
-    <td><p><strong>区域</strong></p></td>
+    <td><p><strong>地区</strong></p></td>
     <td><p>定义了用于将 SecurityGroups 收集到某个区域（例如，EMEA）中的区域。</p></td>
     </tr>
     <tr class="even">

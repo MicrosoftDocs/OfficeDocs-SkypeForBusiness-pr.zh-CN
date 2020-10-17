@@ -12,20 +12,22 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea97a57deba77e0bc5b7f2a77a973bb1fb8c21b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aa0164a9e3003c130bc7b14a4312397a4559843c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198735"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48528239"
 ---
+# <a name="health-configuration-in-lync-server-2013"></a>Lync Server 2013 中的运行状况配置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="health-configuration-in-lync-server-2013"></a>Lync Server 2013 中的运行状况配置
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**上次修改的主题：** 2012-10-22_
 
 显然，无法保证 Lync Server 2013 不会遇到问题，因为 Lync Server 可能会受到许多功能（如网络故障和硬件故障）的影响，产品本身无法控制这些内容。 通过实施运行状况监控，管理员可以先确认潜在的问题，然后再进入实际问题。 例如，管理员可以使用 Lync Server monitoring 识别趋势和 tendencies。 例如，在音频/视频会议数目方面的稳定增长可能暗示着在系统超载之前需要添加容量。
 
-与此类似，管理员可以使用 System Center Operations Manager 执行在指定事件发生时发出实时警报等操作，并运行主动测试系统的综合事务。 在 Lync Server 中使用综合事务，以验证用户是否能够成功完成常见任务，如登录系统、交换即时消息或呼叫位于公用电话交换网（PSTN）的电话。 例如，定期运行这些测试可能会提醒您登录到 Lync Server 时遇到的潜在问题，并使您有机会在您的支持团队耗尽来自用户无法建立连接的呼叫之前解决此问题。 通过使用 System Center Operations Manager 运行这些综合事务，管理员可以定期监视其每日每天24小时的 Lync Server 部署，而无需执行任何其他操作，除了响应可能发出。
+与此类似，管理员可以使用 System Center Operations Manager 执行在指定事件发生时发出实时警报等操作，并运行主动测试系统的综合事务。 在 Lync Server 中使用综合事务，以验证用户是否能够成功完成常见任务，如登录系统、交换即时消息或呼叫位于公用电话交换网 (PSTN) 的电话。 例如，定期运行这些测试可能会提醒您登录到 Lync Server 时遇到的潜在问题，并使您有机会在您的支持团队耗尽来自用户无法建立连接的呼叫之前解决此问题。 通过使用 System Center Operations Manager 运行这些综合事务，管理员可以定期监视每日连续24小时的 Lync Server 部署，而无需执行任何可能发出的任何警报。
 
 <div>
 
 
 > [!NOTE]  
-> 对于 Lync Server 2013，System Center Operations Manager 管理包还能够检测可能对 Lync Server 产生负面影响的 "外部" 问题。 例如，当 Internet 信息服务（IIS）脱机、Lync Server 计算机上的系统资源低于指定的数量或 Lync Server 计算机遇到硬件故障时，可以通知管理员。
+> 对于 Lync Server 2013，System Center Operations Manager 管理包还能够检测可能对 Lync Server 产生负面影响的 "外部" 问题。 例如，如果 Internet 信息服务 (IIS) 脱机、Lync Server 计算机上的系统资源低于指定的数量或 Lync Server 计算机遇到硬件故障，则可以通知管理员。
 
 
 
@@ -55,11 +57,11 @@ _**上次修改的主题：** 2012-10-22_
 
 Lync Server 2013 中的运行状况配置是围绕 System Center Operations Manager 和 Lync Server 管理包的使用而构建的。 这些管理包包括许多新的功能和增强功能，其中包括：
 
-  - **任何位置的方案可用性。** Lync Server 2010 管理包引入了使用综合事务监视最终用户方案可用性的概念。 在 Lync Server 2013 中，这些代理具有更多的综合事务，可以从企业内部的不同位置运行，从企业外部的远程地理位置，针对分支机构设备和 Lync Server 2010。用于将覆盖范围添加到旧版边缘部署的部署。
+  - **任何位置的方案可用性。** Lync Server 2010 管理包引入了使用综合事务监视最终用户方案可用性的概念。 在 Lync Server 2013 中，这些代理具有更多的综合事务，并且可以从企业内的各种位置运行，从企业外部的远程地理位置，针对分支机构设备和 Lync Server 2010 部署，以将覆盖范围添加到旧版边缘部署中。
 
   - **综合事务日志。** 当综合事务失败时，管理员可以访问 HTML 日志以帮助确定什么失败了。 这包括了解哪个操作失败、每个操作的延迟、用来运行测试的命令行，以及所遇到的错误。
 
-  - **增加呼叫可靠性范围。** Lync Server 2010 管理包引入了呼叫可靠性警报，以检测影响最终用户的音频呼叫的严重连接问题。 Lync Server 2013 管理包为对等即时消息（IM）和其他基本会议功能添加了覆盖范围，以最大限度地减少噪音。
+  - **增加呼叫可靠性范围。** Lync Server 2010 管理包引入了呼叫可靠性警报，以检测影响最终用户的音频呼叫的严重连接问题。 Lync Server 2013 管理包为对等即时消息 (IM) 和其他基本会议功能添加了覆盖范围，以在降低噪音的同时最大限度地提高覆盖范围。
 
   - **依赖关系监控。** 由于各种外部因素（如 IIS 处于脱机状态、有限的 CPU 和内存资源以及磁盘问题），Lync Server 方案可能会失败。 新的管理包会检查多个重要的依赖关系，以确保管理员注意到它们的影响。
 

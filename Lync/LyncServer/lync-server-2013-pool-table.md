@@ -12,20 +12,22 @@ ms:contentKeyID: 48184803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 487b73bd7564f6fc3f1064a3154a6fb5e06e6e90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ea5843908cf97a66e40ed2e9f945941c84615212
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208968"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48527999"
 ---
+# <a name="pool-table-in-lync-server-2013"></a>Lync Server 2013 中的 Pool 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pool-table-in-lync-server-2013"></a>Lync Server 2013 中的 Pool 表
+
 
 </div>
 
@@ -64,7 +66,7 @@ Pool 表是存储有关各种前端池的信息的支持表。表中的每条记
 </tr>
 <tr class="even">
 <td><p><strong>PoolName</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>唯一 </p></td>
 <td><p>池 FQDN。</p></td>
 </tr>

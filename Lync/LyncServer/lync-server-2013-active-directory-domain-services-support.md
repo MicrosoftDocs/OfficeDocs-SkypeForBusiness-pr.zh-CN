@@ -12,20 +12,22 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bee58b0a35d2a3a322d799f2aadc9ba3b9c1bd9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44f427486756895f1bff5330075f4c323f944afd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529629"
 ---
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 域服务支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Lync Server 2013 中的 Active Directory 域服务支持
+
 
 </div>
 
@@ -45,19 +47,19 @@ Lync Server 2013 使用中央管理存储来存储服务器和服务的配置数
     
       - Lync Server 2010 和 Office 通信服务器 2007 R2 类的扩展，以保持与以前支持的版本的向后兼容性
 
-  - **数据**（存储在 Lync Server 2013 扩展架构和现有类中）
+  - 存储在 Lync Server 2013 扩展架构和现有类中的**数据** () 
     
       - 用户 SIP URI 和其他用户设置
     
-      - 应用程序的 Contact 对象（例如，响应组应用程序和会议助理应用程序）
+      - 应用程序的 Contact 对象 (例如，响应组应用程序和会议助理应用程序) 
     
       - 为实现向后兼容而发布的数据
     
-      - 中央管理存储的服务控制点（SCP）
+      - 对中央管理存储 (SCP) 的服务控制点
     
       - Kerberos 身份验证帐户（可选计算机对象）
 
-本节介绍 Lync Server 2013 的 AD DS 支持要求。 有关拓扑支持的详细信息，请参阅可支持性文档中的[Lync Server 2013 中的受支持的 Active Directory 拓扑](lync-server-2013-supported-active-directory-topologies.md)。
+本节介绍 Lync Server 2013 的 AD DS 支持要求。 有关拓扑支持的详细信息，请参阅可支持性文档中的 [Lync Server 2013 中的受支持的 Active Directory 拓扑](lync-server-2013-supported-active-directory-topologies.md) 。
 
 <div>
 
@@ -103,7 +105,7 @@ Lync Server 2013 支持包含只读域控制器或只读全局编录服务器的
 
 ## <a name="domain-names"></a>域名
 
-Lync Server 不支持单标签域。 例如，支持具有名为 **contoso.local** 的根域的林，但不支持名为 **local** 的根域。 有关详细信息，请参阅 Microsoft 知识库文章 300684 "有关为带有单标签 DNS 名称的域配置 Windows 的信息" [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752)。
+Lync Server 不支持单标签域。 例如，支持具有名为 **contoso.local** 的根域的林，但不支持名为 **local** 的根域。 有关详细信息，请参阅 Microsoft 知识库文章 300684 "有关为带有单标签 DNS 名称的域配置 Windows 的信息" [https://go.microsoft.com/fwlink/p/?linkId=143752](https://go.microsoft.com/fwlink/p/?linkid=143752) 。
 
 <div>
 
@@ -121,7 +123,7 @@ Lync Server 不支持单标签域。 例如，支持具有名为 **contoso.local
 
 ## <a name="locked-down-adds-environments"></a>锁定的 AD DS 环境
 
-在锁定的 AD DS 环境中，通常将用户对象和计算机对象放置在禁用了权限继承的特定组织单位 (OU) 中，以帮助确保管理委派的安全以及允许使用组策略对象 (GPO) 实施安全策略。 可以在锁定的 Active Directory 环境中部署 Lync Server 2013。 有关在锁定环境中部署 Lync Server 所需的内容的详细信息，请参阅部署文档中的在[Lync server 2013 中准备锁定的 Active Directory 域服务](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)。
+在锁定的 AD DS 环境中，通常将用户对象和计算机对象放置在禁用了权限继承的特定组织单位 (OU) 中，以帮助确保管理委派的安全以及允许使用组策略对象 (GPO) 实施安全策略。 可以在锁定的 Active Directory 环境中部署 Lync Server 2013。 有关在锁定环境中部署 Lync Server 所需的内容的详细信息，请参阅部署文档中的在 [Lync server 2013 中准备锁定的 Active Directory 域服务](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) 。
 
 </div>
 
