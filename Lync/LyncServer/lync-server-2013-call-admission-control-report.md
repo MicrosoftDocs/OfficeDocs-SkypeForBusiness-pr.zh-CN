@@ -12,20 +12,22 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d61e01574945fe090d3fd9425133f9569bd111
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1c1ff2b667c0529dfb7a90291dba7ad5ab154a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199535"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517959"
 ---
+# <a name="call-admission-control-report-in-lync-server-2013"></a><span data-ttu-id="242b7-102">Lync Server 2013 中的呼叫允许控制报告</span><span class="sxs-lookup"><span data-stu-id="242b7-102">Call Admission Control Report in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a><span data-ttu-id="35967-102">Lync Server 2013 中的呼叫允许控制报告</span><span class="sxs-lookup"><span data-stu-id="35967-102">Call Admission Control Report in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,43 +37,43 @@ ms.locfileid: "42199535"
 
 <span> </span>
 
-<span data-ttu-id="35967-103">_**上次修改的主题：** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="35967-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="242b7-103">_**上次修改的主题：** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="242b7-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="35967-104">呼叫允许控制报告提供有关点对点和由呼叫允许控制设置限制下举行的会议会话的信息。</span><span class="sxs-lookup"><span data-stu-id="35967-104">The Call Admission Control Report provides information about peer-to-peer and conferencing sessions that were conducted under restrictions set in place by Call Admission Control.</span></span> <span data-ttu-id="35967-105">Microsoft Lync Server 2010 中引入的呼叫允许控制为管理员提供了一种基于带宽限制允许（或不允许）通信会话的方法。</span><span class="sxs-lookup"><span data-stu-id="35967-105">Call Admission Control, introduced in Microsoft Lync Server 2010, provides a way for administrators to allow (or not allow) communication sessions based on bandwidth constraints.</span></span> <span data-ttu-id="35967-106">例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。</span><span class="sxs-lookup"><span data-stu-id="35967-106">For example, administrators can create policies that impose a limit on the amount of bandwidth available for voice and video calls.</span></span> <span data-ttu-id="35967-107">如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。</span><span class="sxs-lookup"><span data-stu-id="35967-107">If that bandwidth limit has been reached, then no new voice or video calls can be placed until one of the current calls has ended and freed up the required network resources.</span></span>
+<span data-ttu-id="242b7-104">呼叫允许控制报告提供有关点对点和由呼叫允许控制设置限制下举行的会议会话的信息。</span><span class="sxs-lookup"><span data-stu-id="242b7-104">The Call Admission Control Report provides information about peer-to-peer and conferencing sessions that were conducted under restrictions set in place by Call Admission Control.</span></span> <span data-ttu-id="242b7-105">Microsoft Lync Server 2010 中引入的呼叫允许控制为管理员提供了一种允许 (或不允许基于带宽限制的) 通信会话的方法。</span><span class="sxs-lookup"><span data-stu-id="242b7-105">Call Admission Control, introduced in Microsoft Lync Server 2010, provides a way for administrators to allow (or not allow) communication sessions based on bandwidth constraints.</span></span> <span data-ttu-id="242b7-106">例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。</span><span class="sxs-lookup"><span data-stu-id="242b7-106">For example, administrators can create policies that impose a limit on the amount of bandwidth available for voice and video calls.</span></span> <span data-ttu-id="242b7-107">如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。</span><span class="sxs-lookup"><span data-stu-id="242b7-107">If that bandwidth limit has been reached, then no new voice or video calls can be placed until one of the current calls has ended and freed up the required network resources.</span></span>
 
 <div>
 
-## <a name="accessing-the-call-admission-control-report"></a><span data-ttu-id="35967-108">访问呼叫允许控制报告</span><span class="sxs-lookup"><span data-stu-id="35967-108">Accessing the Call Admission Control Report</span></span>
+## <a name="accessing-the-call-admission-control-report"></a><span data-ttu-id="242b7-108">访问呼叫允许控制报告</span><span class="sxs-lookup"><span data-stu-id="242b7-108">Accessing the Call Admission Control Report</span></span>
 
-<span data-ttu-id="35967-p102">从监控报告主页可访问呼叫允许控制报告。从呼叫允许控制报告可深入到下列任何报告：</span><span class="sxs-lookup"><span data-stu-id="35967-p102">The Call Admission Control Report is accessed from the Monitoring Reports home page. From the Call Admission Control Report you can drill down to either of the following reports:</span></span>
+<span data-ttu-id="242b7-p102">从监控报告主页可访问呼叫允许控制报告。从呼叫允许控制报告可深入到下列任何报告：</span><span class="sxs-lookup"><span data-stu-id="242b7-p102">The Call Admission Control Report is accessed from the Monitoring Reports home page. From the Call Admission Control Report you can drill down to either of the following reports:</span></span>
 
-  - <span data-ttu-id="35967-111">会议详细信息报告 - 要访问此报告，请从会议会话单击详细信息指标。</span><span class="sxs-lookup"><span data-stu-id="35967-111">Conference Detail Report – To access this report, click the Details metric from a conference session.</span></span>
+  - <span data-ttu-id="242b7-111">会议详细信息报告 - 要访问此报告，请从会议会话单击详细信息指标。</span><span class="sxs-lookup"><span data-stu-id="242b7-111">Conference Detail Report – To access this report, click the Details metric from a conference session.</span></span>
 
-  - <span data-ttu-id="35967-112">点对点会话详细信息报告 – 要访问此报告，请单击点对点会话的详细信息指标。</span><span class="sxs-lookup"><span data-stu-id="35967-112">Peer-to-Peer Session Detail Report – To access this report, click the Details metric for a peer-to-peer session.</span></span>
+  - <span data-ttu-id="242b7-112">点对点会话详细信息报告 – 要访问此报告，请单击点对点会话的详细信息指标。</span><span class="sxs-lookup"><span data-stu-id="242b7-112">Peer-to-Peer Session Detail Report – To access this report, click the Details metric for a peer-to-peer session.</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-call-admission-control-report"></a><span data-ttu-id="35967-113">充分利用呼叫允许控制报告</span><span class="sxs-lookup"><span data-stu-id="35967-113">Making the Best Use of the Call Admission Control Report</span></span>
+## <a name="making-the-best-use-of-the-call-admission-control-report"></a><span data-ttu-id="242b7-113">充分利用呼叫允许控制报告</span><span class="sxs-lookup"><span data-stu-id="242b7-113">Making the Best Use of the Call Admission Control Report</span></span>
 
-<span data-ttu-id="35967-p103">要获得因带宽不足而失败的呼叫的列表，请从呼叫类别下拉列表选择因呼叫允许控制拒绝的呼叫。大多数返回的呼叫将可能具有 5 个诊断 ID 之一：</span><span class="sxs-lookup"><span data-stu-id="35967-p103">To get a list of calls that failed because of insufficient bandwidth, select Calls rejected because of call admission control from the Call category dropdown list. Most of the returned calls will likely have a diagnostic ID of 5:</span></span>
+<span data-ttu-id="242b7-p103">要获得因带宽不足而失败的呼叫的列表，请从呼叫类别下拉列表选择因呼叫允许控制拒绝的呼叫。大多数返回的呼叫将可能具有 5 个诊断 ID 之一：</span><span class="sxs-lookup"><span data-stu-id="242b7-p103">To get a list of calls that failed because of insufficient bandwidth, select Calls rejected because of call admission control from the Call category dropdown list. Most of the returned calls will likely have a diagnostic ID of 5:</span></span>
 
-<span data-ttu-id="35967-p104">建立会话带宽不足。尝试 PSTN 重新路由。</span><span class="sxs-lookup"><span data-stu-id="35967-p104">Insufficient bandwidth to establish session. Attempt PSTN re-route.</span></span>
+<span data-ttu-id="242b7-p104">建立会话带宽不足。尝试 PSTN 重新路由。</span><span class="sxs-lookup"><span data-stu-id="242b7-p104">Insufficient bandwidth to establish session. Attempt PSTN re-route.</span></span>
 
-<span data-ttu-id="35967-118">这指示呼叫允许控制限制阻止在 VoIP 网络上进行的呼叫。</span><span class="sxs-lookup"><span data-stu-id="35967-118">That indicates that Call Admission Control limitations were preventing the call from being made on the VoIP network.</span></span>
+<span data-ttu-id="242b7-118">这指示呼叫允许控制限制阻止在 VoIP 网络上进行的呼叫。</span><span class="sxs-lookup"><span data-stu-id="242b7-118">That indicates that Call Admission Control limitations were preventing the call from being made on the VoIP network.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="35967-119">筛选器</span><span class="sxs-lookup"><span data-stu-id="35967-119">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="242b7-119">筛选器</span><span class="sxs-lookup"><span data-stu-id="242b7-119">Filters</span></span>
 
-<span data-ttu-id="35967-p105">利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，呼叫允许控制报告允许您按发起呼叫的用户或按被呼叫的用户筛选呼叫。您还可以选择数据的分组方式。在此示例中，将按小时、天、周或月对呼叫进行分组。</span><span class="sxs-lookup"><span data-stu-id="35967-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Call Admission Control Report enables you to filter calls by the user who initiated the call or by the user who was being called. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="242b7-p105">利用筛选器，您可以返回一组针对性更强的数据或通过不同的方式查看返回的数据。例如，呼叫允许控制报告允许您按发起呼叫的用户或按被呼叫的用户筛选呼叫。您还可以选择数据的分组方式。在此示例中，将按小时、天、周或月对呼叫进行分组。</span><span class="sxs-lookup"><span data-stu-id="242b7-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Call Admission Control Report enables you to filter calls by the user who initiated the call or by the user who was being called. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="35967-124">下表列出了可用于呼叫允许控制报告的筛选器。</span><span class="sxs-lookup"><span data-stu-id="35967-124">The following table lists the filters that you can use with the Call Admission Control Report.</span></span>
+<span data-ttu-id="242b7-124">下表列出了可用于呼叫允许控制报告的筛选器。</span><span class="sxs-lookup"><span data-stu-id="242b7-124">The following table lists the filters that you can use with the Call Admission Control Report.</span></span>
 
-### <a name="call-admission-control-report-filters"></a><span data-ttu-id="35967-125">呼叫允许控制报告的筛选器</span><span class="sxs-lookup"><span data-stu-id="35967-125">Call Admission Control Report Filters</span></span>
+### <a name="call-admission-control-report-filters"></a><span data-ttu-id="242b7-125">呼叫允许控制报告的筛选器</span><span class="sxs-lookup"><span data-stu-id="242b7-125">Call Admission Control Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -80,51 +82,51 @@ ms.locfileid: "42199535"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="35967-126">名称</span><span class="sxs-lookup"><span data-stu-id="35967-126">Name</span></span></th>
-<th><span data-ttu-id="35967-127">说明</span><span class="sxs-lookup"><span data-stu-id="35967-127">Description</span></span></th>
+<th><span data-ttu-id="242b7-126">名称</span><span class="sxs-lookup"><span data-stu-id="242b7-126">Name</span></span></th>
+<th><span data-ttu-id="242b7-127">说明</span><span class="sxs-lookup"><span data-stu-id="242b7-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-128"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="35967-128"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-p106">时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="35967-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="35967-131">7/17/12012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="35967-131">7/17/12012 1:00 PM</span></span></p>
-<p><span data-ttu-id="35967-p107">如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="35967-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="35967-134">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="35967-134">7/17/12012</span></span></p>
-<p><span data-ttu-id="35967-135">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="35967-135">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="35967-136">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="35967-136">7/13/2012</span></span></p>
-<p><span data-ttu-id="35967-137">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="35967-137">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-128"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-128"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-p106">时间范围的开始日期/时间。若要按小时查看数据，请输入开始日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="242b7-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="242b7-131">7/17/12012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="242b7-131">7/17/12012 1:00 PM</span></span></p>
+<p><span data-ttu-id="242b7-p107">如果您未输入开始时间，该报告会自动将某个特定日的上午 12:00 作为开始时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="242b7-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="242b7-134">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="242b7-134">7/17/12012</span></span></p>
+<p><span data-ttu-id="242b7-135">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="242b7-135">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="242b7-136">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="242b7-136">7/13/2012</span></span></p>
+<p><span data-ttu-id="242b7-137">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="242b7-137">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-138"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="35967-138"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-p108">时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="35967-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="35967-141">7/17/12012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="35967-141">7/17/12012 1:00 PM</span></span></p>
-<p><span data-ttu-id="35967-p109">如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="35967-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="35967-144">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="35967-144">7/17/12012</span></span></p>
-<p><span data-ttu-id="35967-145">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="35967-145">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="35967-146">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="35967-146">7/13/2012</span></span></p>
-<p><span data-ttu-id="35967-147">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="35967-147">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-138"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-138"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-p108">时间范围的结束日期/时间。若要按小时查看数据，请输入结束日期和时间，如下所示：</span><span class="sxs-lookup"><span data-stu-id="242b7-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="242b7-141">7/17/12012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="242b7-141">7/17/12012 1:00 PM</span></span></p>
+<p><span data-ttu-id="242b7-p109">如果您未输入结束时间，该报告会自动将某个特定日的上午 12:00 作为结束时间。若要按日查看数据，请只输入日期：</span><span class="sxs-lookup"><span data-stu-id="242b7-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="242b7-144">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="242b7-144">7/17/12012</span></span></p>
+<p><span data-ttu-id="242b7-145">若要按周或按月查看，请输入您要查看的周或月中的任一日期（您不必输入周或月的第一天）：</span><span class="sxs-lookup"><span data-stu-id="242b7-145">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="242b7-146">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="242b7-146">7/13/2012</span></span></p>
+<p><span data-ttu-id="242b7-147">一周始终是从星期日开始至星期六结束。</span><span class="sxs-lookup"><span data-stu-id="242b7-147">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-148"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="35967-148"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-p110">注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”<strong></strong>查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</span><span class="sxs-lookup"><span data-stu-id="35967-p110">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-148"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-148"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-p110">注册器池或边缘服务器的完全限定域名 (FQDN)。可以选择单个池，也可以单击“[所有]”<strong></strong>查看所有池的数据。系统根据数据库中的记录自动为您填充该下拉列表。</span><span class="sxs-lookup"><span data-stu-id="242b7-p110">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-152"><strong>活动类型</strong></span><span class="sxs-lookup"><span data-stu-id="35967-152"><strong>Activity type</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-p111">活动的类型。选择下列活动之一：</span><span class="sxs-lookup"><span data-stu-id="35967-p111">Type of activity. Select one of the following activities:</span></span></p>
+<td><p><span data-ttu-id="242b7-152"><strong>活动类型</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-152"><strong>Activity type</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-p111">活动的类型。选择下列活动之一：</span><span class="sxs-lookup"><span data-stu-id="242b7-p111">Type of activity. Select one of the following activities:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="35967-155">各种</span><span class="sxs-lookup"><span data-stu-id="35967-155">[All]</span></span></p></li>
-<li><p><span data-ttu-id="35967-156">对等</span><span class="sxs-lookup"><span data-stu-id="35967-156">Peer-to-Peer</span></span></p></li>
-<li><p><span data-ttu-id="35967-157">发布会</span><span class="sxs-lookup"><span data-stu-id="35967-157">Conference</span></span></p></li>
+<li><p><span data-ttu-id="242b7-155">各种</span><span class="sxs-lookup"><span data-stu-id="242b7-155">[All]</span></span></p></li>
+<li><p><span data-ttu-id="242b7-156">对等</span><span class="sxs-lookup"><span data-stu-id="242b7-156">Peer-to-Peer</span></span></p></li>
+<li><p><span data-ttu-id="242b7-157">Conference</span><span class="sxs-lookup"><span data-stu-id="242b7-157">Conference</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-158"><strong>呼叫类别</strong></span><span class="sxs-lookup"><span data-stu-id="35967-158"><strong>Call category</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-p112">指示对呼叫使用 CAC 的原因。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="35967-p112">Indicates the reason that CAC was used for the call. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="242b7-158"><strong>呼叫类别</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-158"><strong>Call category</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-p112">指示对呼叫使用 CAC 的原因。选择下列选项之一：</span><span class="sxs-lookup"><span data-stu-id="242b7-p112">Indicates the reason that CAC was used for the call. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="35967-161">各种</span><span class="sxs-lookup"><span data-stu-id="35967-161">[All]</span></span></p></li>
-<li><p><span data-ttu-id="35967-162">由于呼叫允许控制，呼叫被拒绝</span><span class="sxs-lookup"><span data-stu-id="35967-162">Call rejected because of call admission control</span></span></p></li>
-<li><p><span data-ttu-id="35967-163">由于呼叫允许控制，呼叫通过 PSTN 重新路由</span><span class="sxs-lookup"><span data-stu-id="35967-163">Calls rerouted through PSTN because of call admission control</span></span></p></li>
+<li><p><span data-ttu-id="242b7-161">各种</span><span class="sxs-lookup"><span data-stu-id="242b7-161">[All]</span></span></p></li>
+<li><p><span data-ttu-id="242b7-162">由于呼叫允许控制，呼叫被拒绝</span><span class="sxs-lookup"><span data-stu-id="242b7-162">Call rejected because of call admission control</span></span></p></li>
+<li><p><span data-ttu-id="242b7-163">由于呼叫允许控制，呼叫通过 PSTN 重新路由</span><span class="sxs-lookup"><span data-stu-id="242b7-163">Calls rerouted through PSTN because of call admission control</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -135,11 +137,11 @@ ms.locfileid: "42199535"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="35967-164">点对点会话的指标</span><span class="sxs-lookup"><span data-stu-id="35967-164">Metrics for Peer-to-Peer Sessions</span></span>
+## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="242b7-164">点对点会话的指标</span><span class="sxs-lookup"><span data-stu-id="242b7-164">Metrics for Peer-to-Peer Sessions</span></span>
 
-<span data-ttu-id="35967-165">下表列出了点对点会话（即，只涉及两个参与者的会话）的呼叫允许控制报告中提供的信息。</span><span class="sxs-lookup"><span data-stu-id="35967-165">The following table lists the information provided in the Call Admission Control Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
+<span data-ttu-id="242b7-165">下表列出了点对点会话（即，只涉及两个参与者的会话）的呼叫允许控制报告中提供的信息。</span><span class="sxs-lookup"><span data-stu-id="242b7-165">The following table lists the information provided in the Call Admission Control Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
 
-### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="35967-166">点对点会话的指标</span><span class="sxs-lookup"><span data-stu-id="35967-166">Metrics for Peer-to-Peer Sessions</span></span>
+### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="242b7-166">点对点会话的指标</span><span class="sxs-lookup"><span data-stu-id="242b7-166">Metrics for Peer-to-Peer Sessions</span></span>
 
 <table>
 <colgroup>
@@ -149,51 +151,51 @@ ms.locfileid: "42199535"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="35967-167">名称</span><span class="sxs-lookup"><span data-stu-id="35967-167">Name</span></span></th>
-<th><span data-ttu-id="35967-168">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="35967-168">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="35967-169">说明</span><span class="sxs-lookup"><span data-stu-id="35967-169">Description</span></span></th>
+<th><span data-ttu-id="242b7-167">名称</span><span class="sxs-lookup"><span data-stu-id="242b7-167">Name</span></span></th>
+<th><span data-ttu-id="242b7-168">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="242b7-168">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="242b7-169">说明</span><span class="sxs-lookup"><span data-stu-id="242b7-169">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-170"><strong>详细信息</strong></span><span class="sxs-lookup"><span data-stu-id="35967-170"><strong>Detail</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-171">否</span><span class="sxs-lookup"><span data-stu-id="35967-171">No</span></span></p></td>
-<td><p><span data-ttu-id="35967-172">单击此项时，报告将显示指定会话的点对点会话详细信息报告。</span><span class="sxs-lookup"><span data-stu-id="35967-172">When you click this item, the report shows you a Peer-to-Peer Session Detail Report for the specified session.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-170"><strong>详细信息</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-170"><strong>Detail</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-171">否</span><span class="sxs-lookup"><span data-stu-id="242b7-171">No</span></span></p></td>
+<td><p><span data-ttu-id="242b7-172">单击此项时，报告将显示指定会话的点对点会话详细信息报告。</span><span class="sxs-lookup"><span data-stu-id="242b7-172">When you click this item, the report shows you a Peer-to-Peer Session Detail Report for the specified session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-173"><strong>来源用户</strong></span><span class="sxs-lookup"><span data-stu-id="35967-173"><strong>From user</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-174">是</span><span class="sxs-lookup"><span data-stu-id="35967-174">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-175">发起会话的用户的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="35967-175">SIP address of the user who initiated the session.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-173"><strong>来源用户</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-173"><strong>From user</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-174">是</span><span class="sxs-lookup"><span data-stu-id="242b7-174">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-175">发起会话的用户的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="242b7-175">SIP address of the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-176"><strong>目标用户</strong></span><span class="sxs-lookup"><span data-stu-id="35967-176"><strong>To user</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-177">是</span><span class="sxs-lookup"><span data-stu-id="35967-177">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-178">受邀加入会话的用户的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="35967-178">SIP address of the user who was invited to join the session.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-176"><strong>目标用户</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-176"><strong>To user</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-177">是</span><span class="sxs-lookup"><span data-stu-id="242b7-177">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-178">受邀加入会话的用户的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="242b7-178">SIP address of the user who was invited to join the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-179"><strong>形式</strong></span><span class="sxs-lookup"><span data-stu-id="35967-179"><strong>Modalities</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-180">是</span><span class="sxs-lookup"><span data-stu-id="35967-180">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-181">会话期间使用的通信形式（如音频和视频）。</span><span class="sxs-lookup"><span data-stu-id="35967-181">Communication modalities (such as audio and video) that were used during the session.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-179"><strong>形式</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-179"><strong>Modalities</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-180">是</span><span class="sxs-lookup"><span data-stu-id="242b7-180">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-181">会话期间使用的通信形式（如音频和视频）。</span><span class="sxs-lookup"><span data-stu-id="242b7-181">Communication modalities (such as audio and video) that were used during the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-182"><strong>邀请时间</strong></span><span class="sxs-lookup"><span data-stu-id="35967-182"><strong>Invite time</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-183">是</span><span class="sxs-lookup"><span data-stu-id="35967-183">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-184">向源用户发送初始会话邀请的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="35967-184">Date and time the initial session invitation was sent to the From user.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-182"><strong>邀请时间</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-182"><strong>Invite time</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-183">是</span><span class="sxs-lookup"><span data-stu-id="242b7-183">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-184">向源用户发送初始会话邀请的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="242b7-184">Date and time the initial session invitation was sent to the From user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-185"><strong>响应时间</strong></span><span class="sxs-lookup"><span data-stu-id="35967-185"><strong>Response time</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-186">是</span><span class="sxs-lookup"><span data-stu-id="35967-186">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-187">收到邀请接受函的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="35967-187">Date and time that the invitation acceptance was received.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-185"><strong>响应时间</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-185"><strong>Response time</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-186">是</span><span class="sxs-lookup"><span data-stu-id="242b7-186">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-187">收到邀请接受函的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="242b7-187">Date and time that the invitation acceptance was received.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-188"><strong>结束时间</strong></span><span class="sxs-lookup"><span data-stu-id="35967-188"><strong>End time</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-189">是</span><span class="sxs-lookup"><span data-stu-id="35967-189">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-190">会话结束的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="35967-190">Date and time that the session ended.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-188"><strong>结束时间</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-188"><strong>End time</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-189">是</span><span class="sxs-lookup"><span data-stu-id="242b7-189">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-190">会话结束的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="242b7-190">Date and time that the session ended.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-191"><strong>诊断 ID</strong></span><span class="sxs-lookup"><span data-stu-id="35967-191"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-192">是</span><span class="sxs-lookup"><span data-stu-id="35967-192">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-p113">附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。诊断标头是可选的（SIP 会话可以不包含这些标头），并且只对遇到此类问题的会话报告诊断 ID。</span><span class="sxs-lookup"><span data-stu-id="35967-p113">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-191"><strong>诊断 ID</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-191"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-192">是</span><span class="sxs-lookup"><span data-stu-id="242b7-192">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-p113">附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。诊断标头是可选的（SIP 会话可以不包含这些标头），并且只对遇到此类问题的会话报告诊断 ID。</span><span class="sxs-lookup"><span data-stu-id="242b7-p113">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -203,11 +205,11 @@ ms.locfileid: "42199535"
 
 <div>
 
-## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="35967-195">会议会话的指标</span><span class="sxs-lookup"><span data-stu-id="35967-195">Metrics for Conferencing Sessions</span></span>
+## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="242b7-195">会议会话的指标</span><span class="sxs-lookup"><span data-stu-id="242b7-195">Metrics for Conferencing Sessions</span></span>
 
-<span data-ttu-id="35967-196">下表列出了会议会话（即，涉及三个或更多参与者的会话）的呼叫允许控制报告中提供的信息。</span><span class="sxs-lookup"><span data-stu-id="35967-196">The following table lists the information provided in the Call Admission Control Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
+<span data-ttu-id="242b7-196">下表列出了会议会话（即，涉及三个或更多参与者的会话）的呼叫允许控制报告中提供的信息。</span><span class="sxs-lookup"><span data-stu-id="242b7-196">The following table lists the information provided in the Call Admission Control Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
 
-### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="35967-197">会议会话的指标</span><span class="sxs-lookup"><span data-stu-id="35967-197">Metrics for Conferencing Sessions</span></span>
+### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="242b7-197">会议会话的指标</span><span class="sxs-lookup"><span data-stu-id="242b7-197">Metrics for Conferencing Sessions</span></span>
 
 <table>
 <colgroup>
@@ -217,36 +219,36 @@ ms.locfileid: "42199535"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="35967-198">名称</span><span class="sxs-lookup"><span data-stu-id="35967-198">Name</span></span></th>
-<th><span data-ttu-id="35967-199">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="35967-199">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="35967-200">说明</span><span class="sxs-lookup"><span data-stu-id="35967-200">Description</span></span></th>
+<th><span data-ttu-id="242b7-198">名称</span><span class="sxs-lookup"><span data-stu-id="242b7-198">Name</span></span></th>
+<th><span data-ttu-id="242b7-199">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="242b7-199">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="242b7-200">说明</span><span class="sxs-lookup"><span data-stu-id="242b7-200">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-201"><strong>会议 URI</strong></span><span class="sxs-lookup"><span data-stu-id="35967-201"><strong>Conference URI</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-202">是</span><span class="sxs-lookup"><span data-stu-id="35967-202">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-p114">会议的唯一标识符。单击此项时，报告将显示单个会议参与者。</span><span class="sxs-lookup"><span data-stu-id="35967-p114">Unique identifier for the conference. When you click this item, the report shows the individual conference participants.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-201"><strong>会议 URI</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-201"><strong>Conference URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-202">是</span><span class="sxs-lookup"><span data-stu-id="242b7-202">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-p114">会议的唯一标识符。单击此项时，报告将显示单个会议参与者。</span><span class="sxs-lookup"><span data-stu-id="242b7-p114">Unique identifier for the conference. When you click this item, the report shows the individual conference participants.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-205"><strong>Organizer</strong></span><span class="sxs-lookup"><span data-stu-id="35967-205"><strong>Organizer</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-206">是</span><span class="sxs-lookup"><span data-stu-id="35967-206">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-207">组织会议的用户的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="35967-207">SIP address of the user who organized the conference.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-205"><strong>Organizer</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-205"><strong>Organizer</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-206">是</span><span class="sxs-lookup"><span data-stu-id="242b7-206">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-207">组织会议的用户的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="242b7-207">SIP address of the user who organized the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-208"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="35967-208"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-209">是</span><span class="sxs-lookup"><span data-stu-id="35967-209">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-210">会议中使用的边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="35967-210">Edge Server used in the conference.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-208"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-208"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-209">是</span><span class="sxs-lookup"><span data-stu-id="242b7-209">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-210">会议中使用的边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="242b7-210">Edge Server used in the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-211"><strong>开始时间</strong></span><span class="sxs-lookup"><span data-stu-id="35967-211"><strong>Start time</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-212">是</span><span class="sxs-lookup"><span data-stu-id="35967-212">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-213">会议开始的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="35967-213">Date and time that the conference started.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-211"><strong>开始时间</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-211"><strong>Start time</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-212">是</span><span class="sxs-lookup"><span data-stu-id="242b7-212">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-213">会议开始的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="242b7-213">Date and time that the conference started.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-214"><strong>结束时间</strong></span><span class="sxs-lookup"><span data-stu-id="35967-214"><strong>End time</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-215">是</span><span class="sxs-lookup"><span data-stu-id="35967-215">Yes</span></span></p></td>
-<td><p><span data-ttu-id="35967-216">会议结束的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="35967-216">Date and time that the conference ended.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-214"><strong>结束时间</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-214"><strong>End time</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-215">是</span><span class="sxs-lookup"><span data-stu-id="242b7-215">Yes</span></span></p></td>
+<td><p><span data-ttu-id="242b7-216">会议结束的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="242b7-216">Date and time that the conference ended.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -256,11 +258,11 @@ ms.locfileid: "42199535"
 
 <div>
 
-## <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="35967-217">单个会议参与者的指标</span><span class="sxs-lookup"><span data-stu-id="35967-217">Metrics for Individual Conference Participants</span></span>
+## <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="242b7-217">单个会议参与者的指标</span><span class="sxs-lookup"><span data-stu-id="242b7-217">Metrics for Individual Conference Participants</span></span>
 
-<span data-ttu-id="35967-218">下表列出了单个会议参与者的呼叫允许控制报告中提供的信息。</span><span class="sxs-lookup"><span data-stu-id="35967-218">The following table lists the information provided in the Call Admission Control Report for individual conference participants.</span></span>
+<span data-ttu-id="242b7-218">下表列出了单个会议参与者的呼叫允许控制报告中提供的信息。</span><span class="sxs-lookup"><span data-stu-id="242b7-218">The following table lists the information provided in the Call Admission Control Report for individual conference participants.</span></span>
 
-### <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="35967-219">单个会议参与者的指标</span><span class="sxs-lookup"><span data-stu-id="35967-219">Metrics for Individual Conference Participants</span></span>
+### <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="242b7-219">单个会议参与者的指标</span><span class="sxs-lookup"><span data-stu-id="242b7-219">Metrics for Individual Conference Participants</span></span>
 
 <table>
 <colgroup>
@@ -270,46 +272,46 @@ ms.locfileid: "42199535"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="35967-220">名称</span><span class="sxs-lookup"><span data-stu-id="35967-220">Name</span></span></th>
-<th><span data-ttu-id="35967-221">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="35967-221">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="35967-222">说明</span><span class="sxs-lookup"><span data-stu-id="35967-222">Description</span></span></th>
+<th><span data-ttu-id="242b7-220">名称</span><span class="sxs-lookup"><span data-stu-id="242b7-220">Name</span></span></th>
+<th><span data-ttu-id="242b7-221">是否可按此项排序？</span><span class="sxs-lookup"><span data-stu-id="242b7-221">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="242b7-222">说明</span><span class="sxs-lookup"><span data-stu-id="242b7-222">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-223"><strong>角色</strong></span><span class="sxs-lookup"><span data-stu-id="35967-223"><strong>Role</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-224">否</span><span class="sxs-lookup"><span data-stu-id="35967-224">No</span></span></p></td>
-<td><p><span data-ttu-id="35967-225">会议参与者扮演的角色（例如“演示者”）。</span><span class="sxs-lookup"><span data-stu-id="35967-225">Role (for example, Presenter) played by the conference participant.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-223"><strong>角色</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-223"><strong>Role</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-224">否</span><span class="sxs-lookup"><span data-stu-id="242b7-224">No</span></span></p></td>
+<td><p><span data-ttu-id="242b7-225">会议参与者扮演的角色（例如“演示者”）。</span><span class="sxs-lookup"><span data-stu-id="242b7-225">Role (for example, Presenter) played by the conference participant.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-226"><strong>参与者</strong></span><span class="sxs-lookup"><span data-stu-id="35967-226"><strong>Participant</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-227">否</span><span class="sxs-lookup"><span data-stu-id="35967-227">No</span></span></p></td>
-<td><p><span data-ttu-id="35967-228">会议参与者的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="35967-228">SIP address of the conference participant.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-226"><strong>参与者</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-226"><strong>Participant</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-227">否</span><span class="sxs-lookup"><span data-stu-id="242b7-227">No</span></span></p></td>
+<td><p><span data-ttu-id="242b7-228">会议参与者的 SIP 地址。</span><span class="sxs-lookup"><span data-stu-id="242b7-228">SIP address of the conference participant.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-229"><strong>连接</strong></span><span class="sxs-lookup"><span data-stu-id="35967-229"><strong>Connectivity</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-230">否</span><span class="sxs-lookup"><span data-stu-id="35967-230">No</span></span></p></td>
-<td><p><span data-ttu-id="35967-231">参与者的网络连接（通常为“来自内部”或“来自外部”）。</span><span class="sxs-lookup"><span data-stu-id="35967-231">Network connectivity (typically From Internal or From External) for the participant.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-229"><strong>连接</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-229"><strong>Connectivity</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-230">否</span><span class="sxs-lookup"><span data-stu-id="242b7-230">No</span></span></p></td>
+<td><p><span data-ttu-id="242b7-231">参与者的网络连接（通常为“来自内部”或“来自外部”）。</span><span class="sxs-lookup"><span data-stu-id="242b7-231">Network connectivity (typically From Internal or From External) for the participant.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-232"><strong>模态</strong></span><span class="sxs-lookup"><span data-stu-id="35967-232"><strong>Modality</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-233">否</span><span class="sxs-lookup"><span data-stu-id="35967-233">No</span></span></p></td>
-<td><p><span data-ttu-id="35967-234">会议类型（例如 A/V 会议）。</span><span class="sxs-lookup"><span data-stu-id="35967-234">Conference type (for example, A/V conferencing).</span></span></p></td>
+<td><p><span data-ttu-id="242b7-232"><strong>模态</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-232"><strong>Modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-233">否</span><span class="sxs-lookup"><span data-stu-id="242b7-233">No</span></span></p></td>
+<td><p><span data-ttu-id="242b7-234">会议类型（例如 A/V 会议）。</span><span class="sxs-lookup"><span data-stu-id="242b7-234">Conference type (for example, A/V conferencing).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-235"><strong>加入时间</strong></span><span class="sxs-lookup"><span data-stu-id="35967-235"><strong>Join time</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-236">否</span><span class="sxs-lookup"><span data-stu-id="35967-236">No</span></span></p></td>
-<td><p><span data-ttu-id="35967-237">参与者加入会议的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="35967-237">Date and time that the participant joined the conference.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-235"><strong>加入时间</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-235"><strong>Join time</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-236">否</span><span class="sxs-lookup"><span data-stu-id="242b7-236">No</span></span></p></td>
+<td><p><span data-ttu-id="242b7-237">参与者加入会议的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="242b7-237">Date and time that the participant joined the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="35967-238"><strong>离开时间</strong></span><span class="sxs-lookup"><span data-stu-id="35967-238"><strong>Leave time</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-239">否</span><span class="sxs-lookup"><span data-stu-id="35967-239">No</span></span></p></td>
-<td><p><span data-ttu-id="35967-240">参与者离开会议的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="35967-240">Date and time that the participant left the conference.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-238"><strong>离开时间</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-238"><strong>Leave time</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-239">否</span><span class="sxs-lookup"><span data-stu-id="242b7-239">No</span></span></p></td>
+<td><p><span data-ttu-id="242b7-240">参与者离开会议的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="242b7-240">Date and time that the participant left the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="35967-241"><strong>诊断 ID</strong></span><span class="sxs-lookup"><span data-stu-id="35967-241"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="35967-242">否</span><span class="sxs-lookup"><span data-stu-id="35967-242">No</span></span></p></td>
-<td><p><span data-ttu-id="35967-p115">附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。诊断标头是可选的（SIP 会话可以不包含这些标头），并且只对遇到此类问题的会话报告诊断 ID。</span><span class="sxs-lookup"><span data-stu-id="35967-p115">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
+<td><p><span data-ttu-id="242b7-241"><strong>诊断 ID</strong></span><span class="sxs-lookup"><span data-stu-id="242b7-241"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="242b7-242">否</span><span class="sxs-lookup"><span data-stu-id="242b7-242">No</span></span></p></td>
+<td><p><span data-ttu-id="242b7-p115">附加到 SIP 消息的唯一标识符（采用 ms-diagnostics 标头的形式），提供的信息在排查错误时通常很有帮助。诊断标头是可选的（SIP 会话可以不包含这些标头），并且只对遇到此类问题的会话报告诊断 ID。</span><span class="sxs-lookup"><span data-stu-id="242b7-p115">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
 </tr>
 </tbody>
 </table>

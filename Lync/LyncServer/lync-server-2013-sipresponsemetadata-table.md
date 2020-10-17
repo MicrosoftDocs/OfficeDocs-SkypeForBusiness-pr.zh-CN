@@ -12,20 +12,22 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0143bdd74b955f2cba5f68540be7c969f748aa47
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a2418851ed66500937dab92f2820c36a8d1afac3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181795"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519629"
 ---
+# <a name="sipresponsemetadata-table-in-lync-server-2013"></a><span data-ttu-id="3a7f2-102">Lync Server 2013 中的 SIPResponseMetaData 表</span><span class="sxs-lookup"><span data-stu-id="3a7f2-102">SIPResponseMetaData table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="sipresponsemetadata-table-in-lync-server-2013"></a><span data-ttu-id="414a1-102">Lync Server 2013 中的 SIPResponseMetaData 表</span><span class="sxs-lookup"><span data-stu-id="414a1-102">SIPResponseMetaData table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,11 +37,11 @@ ms.locfileid: "42181795"
 
 <span> </span>
 
-<span data-ttu-id="414a1-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="414a1-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="3a7f2-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="3a7f2-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="414a1-p101">SIPResponseMetaDataTable 包含 SIP 响应代码的列表以及每种代码的分类和定义。在响应影响 SIP 设备和 SIP 通信会话的事件时生成这些代码；例如，当某个 SIP 设备发出请求，但服务器拒绝服从该请求时，将生成响应代码 403。</span><span class="sxs-lookup"><span data-stu-id="414a1-p101">The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes. These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.</span></span>
+<span data-ttu-id="3a7f2-p101">SIPResponseMetaDataTable 包含 SIP 响应代码的列表以及每种代码的分类和定义。在响应影响 SIP 设备和 SIP 通信会话的事件时生成这些代码；例如，当某个 SIP 设备发出请求，但服务器拒绝服从该请求时，将生成响应代码 403。</span><span class="sxs-lookup"><span data-stu-id="3a7f2-p101">The SIPResponseMetaDataTable contains a list of SIP response codes and the classification and definition of each of those codes. These codes are generated in response to events affecting SIP devices and SIP communication sessions; for example, the response code 403 is generated when a SIP device makes a request, but the server declines to honor that request.</span></span>
 
-<span data-ttu-id="414a1-106">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="414a1-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="3a7f2-106">此表是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="3a7f2-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -51,39 +53,39 @@ ms.locfileid: "42181795"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="414a1-107">列</span><span class="sxs-lookup"><span data-stu-id="414a1-107">Column</span></span></th>
-<th><span data-ttu-id="414a1-108">数据类型</span><span class="sxs-lookup"><span data-stu-id="414a1-108">Data Type</span></span></th>
-<th><span data-ttu-id="414a1-109">键/索引</span><span class="sxs-lookup"><span data-stu-id="414a1-109">Key/Index</span></span></th>
-<th><span data-ttu-id="414a1-110">详细信息</span><span class="sxs-lookup"><span data-stu-id="414a1-110">Details</span></span></th>
+<th><span data-ttu-id="3a7f2-107">列</span><span class="sxs-lookup"><span data-stu-id="3a7f2-107">Column</span></span></th>
+<th><span data-ttu-id="3a7f2-108">数据类型</span><span class="sxs-lookup"><span data-stu-id="3a7f2-108">Data Type</span></span></th>
+<th><span data-ttu-id="3a7f2-109">键/索引</span><span class="sxs-lookup"><span data-stu-id="3a7f2-109">Key/Index</span></span></th>
+<th><span data-ttu-id="3a7f2-110">详细信息</span><span class="sxs-lookup"><span data-stu-id="3a7f2-110">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="414a1-111"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="414a1-111"><strong>ResponseCode</strong></span></span></p></td>
-<td><p><span data-ttu-id="414a1-112">int</span><span class="sxs-lookup"><span data-stu-id="414a1-112">int</span></span></p></td>
-<td><p><span data-ttu-id="414a1-113">主</span><span class="sxs-lookup"><span data-stu-id="414a1-113">Primary</span></span></p></td>
-<td><p><span data-ttu-id="414a1-114">表示 SIP 响应代码的数字值。</span><span class="sxs-lookup"><span data-stu-id="414a1-114">Numeric value that represents the SIP response code.</span></span></p></td>
+<td><p><span data-ttu-id="3a7f2-111"><strong>ResponseCode</strong></span><span class="sxs-lookup"><span data-stu-id="3a7f2-111"><strong>ResponseCode</strong></span></span></p></td>
+<td><p><span data-ttu-id="3a7f2-112">int</span><span class="sxs-lookup"><span data-stu-id="3a7f2-112">int</span></span></p></td>
+<td><p><span data-ttu-id="3a7f2-113">主</span><span class="sxs-lookup"><span data-stu-id="3a7f2-113">Primary</span></span></p></td>
+<td><p><span data-ttu-id="3a7f2-114">表示 SIP 响应代码的数字值。</span><span class="sxs-lookup"><span data-stu-id="3a7f2-114">Numeric value that represents the SIP response code.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="414a1-115"><strong>类</strong></span><span class="sxs-lookup"><span data-stu-id="414a1-115"><strong>Class</strong></span></span></p></td>
-<td><p><span data-ttu-id="414a1-116">int</span><span class="sxs-lookup"><span data-stu-id="414a1-116">int</span></span></p></td>
+<td><p><span data-ttu-id="3a7f2-115"><strong>Class</strong></span><span class="sxs-lookup"><span data-stu-id="3a7f2-115"><strong>Class</strong></span></span></p></td>
+<td><p><span data-ttu-id="3a7f2-116">int</span><span class="sxs-lookup"><span data-stu-id="3a7f2-116">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="414a1-p102">响应代码的常规分类。分类包括：</span><span class="sxs-lookup"><span data-stu-id="414a1-p102">General classification for the response code. Classifications include:</span></span></p>
+<td><p><span data-ttu-id="3a7f2-p102">响应代码的常规分类。分类包括：</span><span class="sxs-lookup"><span data-stu-id="3a7f2-p102">General classification for the response code. Classifications include:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="414a1-119">1 – 信息响应</span><span class="sxs-lookup"><span data-stu-id="414a1-119">1 – Informational Responses</span></span></p></li>
-<li><p><span data-ttu-id="414a1-120">2 – 成功响应</span><span class="sxs-lookup"><span data-stu-id="414a1-120">2 – Successful Responses</span></span></p></li>
-<li><p><span data-ttu-id="414a1-121">3 – 重定向响应</span><span class="sxs-lookup"><span data-stu-id="414a1-121">3 – Redirection Responses</span></span></p></li>
-<li><p><span data-ttu-id="414a1-122">4 – 客户端失败响应</span><span class="sxs-lookup"><span data-stu-id="414a1-122">4 – Client Failure Responses</span></span></p></li>
-<li><p><span data-ttu-id="414a1-123">5--服务器故障响应</span><span class="sxs-lookup"><span data-stu-id="414a1-123">5 -- Server Failure Responses</span></span></p></li>
-<li><p><span data-ttu-id="414a1-124">6 – 全局失败响应</span><span class="sxs-lookup"><span data-stu-id="414a1-124">6 – Global Failure Response</span></span></p></li>
+<li><p><span data-ttu-id="3a7f2-119">1 – 信息响应</span><span class="sxs-lookup"><span data-stu-id="3a7f2-119">1 – Informational Responses</span></span></p></li>
+<li><p><span data-ttu-id="3a7f2-120">2 – 成功响应</span><span class="sxs-lookup"><span data-stu-id="3a7f2-120">2 – Successful Responses</span></span></p></li>
+<li><p><span data-ttu-id="3a7f2-121">3 – 重定向响应</span><span class="sxs-lookup"><span data-stu-id="3a7f2-121">3 – Redirection Responses</span></span></p></li>
+<li><p><span data-ttu-id="3a7f2-122">4 – 客户端失败响应</span><span class="sxs-lookup"><span data-stu-id="3a7f2-122">4 – Client Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="3a7f2-123">5--服务器故障响应</span><span class="sxs-lookup"><span data-stu-id="3a7f2-123">5 -- Server Failure Responses</span></span></p></li>
+<li><p><span data-ttu-id="3a7f2-124">6 – 全局失败响应</span><span class="sxs-lookup"><span data-stu-id="3a7f2-124">6 – Global Failure Response</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="414a1-125"><strong>说明</strong></span><span class="sxs-lookup"><span data-stu-id="414a1-125"><strong>Description</strong></span></span></p></td>
-<td><p><span data-ttu-id="414a1-126">nvarchar （256）</span><span class="sxs-lookup"><span data-stu-id="414a1-126">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="3a7f2-125"><strong>说明</strong></span><span class="sxs-lookup"><span data-stu-id="3a7f2-125"><strong>Description</strong></span></span></p></td>
+<td><p><span data-ttu-id="3a7f2-126">nvarchar (256) </span><span class="sxs-lookup"><span data-stu-id="3a7f2-126">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="414a1-p103">SIP 响应代码的说明。例如，响应代码 181 的说明如下：</span><span class="sxs-lookup"><span data-stu-id="414a1-p103">Description of the SIP response code. For example, response code 181 has the following description:</span></span></p>
-<p><span data-ttu-id="414a1-129">Call Is Being Forwarded</span><span class="sxs-lookup"><span data-stu-id="414a1-129">Call Is Being Forwarded</span></span></p></td>
+<td><p><span data-ttu-id="3a7f2-p103">SIP 响应代码的说明。例如，响应代码 181 的说明如下：</span><span class="sxs-lookup"><span data-stu-id="3a7f2-p103">Description of the SIP response code. For example, response code 181 has the following description:</span></span></p>
+<p><span data-ttu-id="3a7f2-129">Call Is Being Forwarded</span><span class="sxs-lookup"><span data-stu-id="3a7f2-129">Call Is Being Forwarded</span></span></p></td>
 </tr>
 </tbody>
 </table>
