@@ -12,20 +12,22 @@ ms:contentKeyID: 48184646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87e3147f107504a110612b9185dbdc0297b8d78e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 08822702ddef63fbfc709776c1d75207cb4a04b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205178"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523029"
 ---
+# <a name="configure-advanced-e9-1-1-features-in-lync-server-2013"></a><span data-ttu-id="21505-102">在 Lync Server 2013 中配置高级 E9-1-1 功能</span><span class="sxs-lookup"><span data-stu-id="21505-102">Configure advanced E9-1-1 features in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-advanced-e9-1-1-features-in-lync-server-2013"></a><span data-ttu-id="3682d-102">在 Lync Server 2013 中配置高级 E9-1-1 功能</span><span class="sxs-lookup"><span data-stu-id="3682d-102">Configure advanced E9-1-1 features in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42205178"
 
 <span> </span>
 
-<span data-ttu-id="3682d-103">_**上次修改的主题：** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="3682d-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="21505-103">_**上次修改的主题：** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="21505-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="3682d-104">Lync Server 2013 包括可用于自定义 E9-1-1 部署的以下功能：</span><span class="sxs-lookup"><span data-stu-id="3682d-104">Lync Server 2013 includes the following features that you can use to customize your E9-1-1 deployment:</span></span>
+<span data-ttu-id="21505-104">Lync Server 2013 包括可用于自定义 E9-1-1 部署的以下功能：</span><span class="sxs-lookup"><span data-stu-id="21505-104">Lync Server 2013 includes the following features that you can use to customize your E9-1-1 deployment:</span></span>
 
-  - <span data-ttu-id="3682d-105">用于将位置信息服务器连接到 SNMP 应用程序的 Web 服务接口。</span><span class="sxs-lookup"><span data-stu-id="3682d-105">A web service interface to connect the Location Information Server to an SNMP application.</span></span>
+  - <span data-ttu-id="21505-105">用于将位置信息服务器连接到 SNMP 应用程序的 Web 服务接口。</span><span class="sxs-lookup"><span data-stu-id="21505-105">A web service interface to connect the Location Information Server to an SNMP application.</span></span>
 
-  - <span data-ttu-id="3682d-106">用于连接到辅助位置源数据库的 Web 服务接口。</span><span class="sxs-lookup"><span data-stu-id="3682d-106">A web service interface to connect to a Secondary Location Source database.</span></span>
+  - <span data-ttu-id="21505-106">用于连接到辅助位置源数据库的 Web 服务接口。</span><span class="sxs-lookup"><span data-stu-id="21505-106">A web service interface to connect to a Secondary Location Source database.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3682d-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="3682d-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="21505-107">本部分内容</span><span class="sxs-lookup"><span data-stu-id="21505-107">In This Section</span></span>
 
-  - [<span data-ttu-id="3682d-108">在 Lync Server 2013 中配置 SNMP 应用程序</span><span class="sxs-lookup"><span data-stu-id="3682d-108">Configure an SNMP application in Lync Server 2013</span></span>](lync-server-2013-configure-an-snmp-application.md)
+  - [<span data-ttu-id="21505-108">在 Lync Server 2013 中配置 SNMP 应用程序</span><span class="sxs-lookup"><span data-stu-id="21505-108">Configure an SNMP application in Lync Server 2013</span></span>](lync-server-2013-configure-an-snmp-application.md)
 
-  - [<span data-ttu-id="3682d-109">在 Lync Server 2013 中配置辅助位置信息服务</span><span class="sxs-lookup"><span data-stu-id="3682d-109">Configure a secondary Location Information service in Lync Server 2013</span></span>](lync-server-2013-configure-a-secondary-location-information-service.md)
+  - [<span data-ttu-id="21505-109">在 Lync Server 2013 中配置辅助位置信息服务</span><span class="sxs-lookup"><span data-stu-id="21505-109">Configure a secondary Location Information service in Lync Server 2013</span></span>](lync-server-2013-configure-a-secondary-location-information-service.md)
 
 </div>
 

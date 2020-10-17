@@ -12,20 +12,22 @@ ms:contentKeyID: 49733715
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82c1994f49d6284d26e7677ab7f940f88fab9ac
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aaeb0aff851064e1e257194cc4d5a67b8eaabfbe
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216646"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522259"
 ---
+# <a name="new-voice-mail-feature-in-lync-server-2013"></a><span data-ttu-id="b6825-102">Lync Server 2013 中新的语音邮件功能</span><span class="sxs-lookup"><span data-stu-id="b6825-102">New voice mail feature in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-voice-mail-feature-in-lync-server-2013"></a><span data-ttu-id="52d53-102">Lync Server 2013 中新的语音邮件功能</span><span class="sxs-lookup"><span data-stu-id="52d53-102">New voice mail feature in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42216646"
 
 <span> </span>
 
-<span data-ttu-id="52d53-103">_**上次修改的主题：** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="52d53-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="b6825-103">_**上次修改的主题：** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="b6825-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="52d53-104">Lync Server 2013 引入了语音邮件转义，这是用于管理语音邮件的增强功能。</span><span class="sxs-lookup"><span data-stu-id="52d53-104">Lync Server 2013 introduces Voice mail Escape, an enhancement for managing voice mail.</span></span> <span data-ttu-id="52d53-105">此新功能可检测到呼叫路由到语音邮件的情况，防止在用户无机会应答呼叫的情况下直接将呼叫路由到用户的移动电话语音邮件。</span><span class="sxs-lookup"><span data-stu-id="52d53-105">This new feature can detect when a call has been routed to voice mail, and prevent the call from being immediately routed to the user’s mobile phone voice mail without giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="52d53-106">此情况在用户对其移动电话启用了同时响铃以及用户的移动电话关机、没电或不在服务区时发生。</span><span class="sxs-lookup"><span data-stu-id="52d53-106">This scenario occurs when the user enables simultaneous ringing to their mobile phone, and their mobile phone is turned off, out of battery, or out of range.</span></span> <span data-ttu-id="52d53-107">Voicemail Escape 检测到用户的移动电话语音邮件立即应答了呼叫，并且断开了发往移动电话语音邮件的呼叫。</span><span class="sxs-lookup"><span data-stu-id="52d53-107">Voicemail Escape detects that the call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail.</span></span> <span data-ttu-id="52d53-108">呼叫继续在用户的其他终结点上响铃，以便为用户提供应答呼叫的机会。</span><span class="sxs-lookup"><span data-stu-id="52d53-108">The call continues to ring on the user’s other endpoints giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="52d53-109">如果用户未应答呼叫，则呼叫将路由到企业语音邮件中。</span><span class="sxs-lookup"><span data-stu-id="52d53-109">If the user does not answer the call, then the call is routed to the corporate voice mail.</span></span>
+<span data-ttu-id="b6825-104">Lync Server 2013 引入了语音邮件转义，这是用于管理语音邮件的增强功能。</span><span class="sxs-lookup"><span data-stu-id="b6825-104">Lync Server 2013 introduces Voice mail Escape, an enhancement for managing voice mail.</span></span> <span data-ttu-id="b6825-105">此新功能可检测到呼叫路由到语音邮件的情况，防止在用户无机会应答呼叫的情况下直接将呼叫路由到用户的移动电话语音邮件。</span><span class="sxs-lookup"><span data-stu-id="b6825-105">This new feature can detect when a call has been routed to voice mail, and prevent the call from being immediately routed to the user’s mobile phone voice mail without giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="b6825-106">此情况在用户对其移动电话启用了同时响铃以及用户的移动电话关机、没电或不在服务区时发生。</span><span class="sxs-lookup"><span data-stu-id="b6825-106">This scenario occurs when the user enables simultaneous ringing to their mobile phone, and their mobile phone is turned off, out of battery, or out of range.</span></span> <span data-ttu-id="b6825-107">Voicemail Escape 检测到用户的移动电话语音邮件立即应答了呼叫，并且断开了发往移动电话语音邮件的呼叫。</span><span class="sxs-lookup"><span data-stu-id="b6825-107">Voicemail Escape detects that the call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail.</span></span> <span data-ttu-id="b6825-108">呼叫继续在用户的其他终结点上响铃，以便为用户提供应答呼叫的机会。</span><span class="sxs-lookup"><span data-stu-id="b6825-108">The call continues to ring on the user’s other endpoints giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="b6825-109">如果用户未应答呼叫，则呼叫将路由到企业语音邮件中。</span><span class="sxs-lookup"><span data-stu-id="b6825-109">If the user does not answer the call, then the call is routed to the corporate voice mail.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="52d53-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="52d53-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b6825-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b6825-110">See Also</span></span>
 
 
-[<span data-ttu-id="52d53-111">在 Lync Server 2013 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="52d53-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)  
+[<span data-ttu-id="b6825-111">在 Lync Server 2013 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="b6825-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
-[<span data-ttu-id="52d53-112">Lync Server 2013 中新的企业语音功能</span><span class="sxs-lookup"><span data-stu-id="52d53-112">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="b6825-112">Lync Server 2013 中新的企业语音功能</span><span class="sxs-lookup"><span data-stu-id="b6825-112">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

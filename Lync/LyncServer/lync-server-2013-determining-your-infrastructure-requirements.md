@@ -12,20 +12,22 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0782fd4a533df54d3ead70346144c270a63f49f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 56bdb5545c9bb77bc1240c3b9f451ffa138943a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198085"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522559"
 ---
+# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a><span data-ttu-id="d62d0-102">确定 Lync Server 2013 的基础结构要求</span><span class="sxs-lookup"><span data-stu-id="d62d0-102">Determining your infrastructure requirements for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a><span data-ttu-id="2c592-102">确定 Lync Server 2013 的基础结构要求</span><span class="sxs-lookup"><span data-stu-id="2c592-102">Determining your infrastructure requirements for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,21 +37,21 @@ ms.locfileid: "42198085"
 
 <span> </span>
 
-<span data-ttu-id="2c592-103">_**上次修改的主题：** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="2c592-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="d62d0-103">_**上次修改的主题：** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="d62d0-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="2c592-104">您需要确定和理解您的部署的基础结构要求，以便您可以在部署 Lync Server 之前规划如何满足这些要求。</span><span class="sxs-lookup"><span data-stu-id="2c592-104">You need to identify and understand the infrastructure requirements for your deployment, so you can plan how to meet those requirements before you deploy Lync Server.</span></span>
+<span data-ttu-id="d62d0-104">您需要确定和理解您的部署的基础结构要求，以便您可以在部署 Lync Server 之前规划如何满足这些要求。</span><span class="sxs-lookup"><span data-stu-id="d62d0-104">You need to identify and understand the infrastructure requirements for your deployment, so you can plan how to meet those requirements before you deploy Lync Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2c592-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="2c592-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d62d0-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="d62d0-105">In This Section</span></span>
 
-  - [<span data-ttu-id="2c592-106">确定 Lync Server 2013 的系统要求</span><span class="sxs-lookup"><span data-stu-id="2c592-106">Determining your system requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-system-requirements.md)
+  - [<span data-ttu-id="d62d0-106">确定 Lync Server 2013 的系统要求</span><span class="sxs-lookup"><span data-stu-id="d62d0-106">Determining your system requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-system-requirements.md)
 
-  - [<span data-ttu-id="2c592-107">Lync Server 2013 的 Active Directory 基础结构要求</span><span class="sxs-lookup"><span data-stu-id="2c592-107">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [<span data-ttu-id="d62d0-107">Lync Server 2013 的 Active Directory 基础结构要求</span><span class="sxs-lookup"><span data-stu-id="d62d0-107">Active Directory infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-active-directory-infrastructure-requirements.md)
 
-  - [<span data-ttu-id="2c592-108">Lync Server 2013 的证书基础结构要求</span><span class="sxs-lookup"><span data-stu-id="2c592-108">Certificate infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-requirements.md)
+  - [<span data-ttu-id="d62d0-108">Lync Server 2013 的证书基础结构要求</span><span class="sxs-lookup"><span data-stu-id="d62d0-108">Certificate infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-certificate-infrastructure-requirements.md)
 
-  - [<span data-ttu-id="2c592-109">Lync Server 2013 中的 Internet 信息服务（IIS）要求</span><span class="sxs-lookup"><span data-stu-id="2c592-109">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>](lync-server-2013-internet-information-services-iis-requirements.md)
+  - [<span data-ttu-id="d62d0-109">Lync Server 2013 中的 Internet 信息服务 (IIS) 要求</span><span class="sxs-lookup"><span data-stu-id="d62d0-109">Internet Information Services (IIS) requirements in Lync Server 2013</span></span>](lync-server-2013-internet-information-services-iis-requirements.md)
 
 </div>
 
