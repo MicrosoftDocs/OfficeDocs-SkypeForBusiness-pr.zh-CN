@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置语音策略和 PSTN 用法记录以授权呼叫功能和权限
+description: Lync Server 2013：配置语音策略和 PSTN 用法记录以授权呼叫功能和权限。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f13057306d278d871ca7e4cba530ae8eba974ea5
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: a12c9c64c3f02effba7c7709321eda91350ebb75
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516959"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542278"
 ---
-# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a><span data-ttu-id="e959d-102">在 Lync Server 2013 中配置语音策略和 PSTN 用法记录以授权呼叫功能和权限</span><span class="sxs-lookup"><span data-stu-id="e959d-102">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>
+# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a><span data-ttu-id="4ba53-103">在 Lync Server 2013 中配置语音策略和 PSTN 用法记录以授权呼叫功能和权限</span><span class="sxs-lookup"><span data-stu-id="4ba53-103">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,17 +38,17 @@ ms.locfileid: "48516959"
 
 <span> </span>
 
-<span data-ttu-id="e959d-103">_**上次修改的主题：** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="e959d-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="4ba53-104">_**上次修改的主题：** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="4ba53-104">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="e959d-104">\*\*“语音策略”可启用一组呼叫功能并关联一个或多个 PSTN 用法记录以定义分配有该策略的用户的呼叫功能和权限。</span><span class="sxs-lookup"><span data-stu-id="e959d-104">A *voice policy* enables a set of calling features and associates one or more PSTN usage records to define the calling features and permissions of users who are assigned the policy.</span></span>
+<span data-ttu-id="4ba53-105">\*\*“语音策略”可启用一组呼叫功能并关联一个或多个 PSTN 用法记录以定义分配有该策略的用户的呼叫功能和权限。</span><span class="sxs-lookup"><span data-stu-id="4ba53-105">A *voice policy* enables a set of calling features and associates one or more PSTN usage records to define the calling features and permissions of users who are assigned the policy.</span></span>
 
-<span data-ttu-id="e959d-p101">语音策略的作用域可以是 *Site*（定义网络站点的默认功能和权限），也可以是“用户”\*\*（定义基于每用户或组分配的功能和权限）。未分配给语音策略的用户将自动分配给全局策略，全局策略是随产品一起安装的默认语音策略。</span><span class="sxs-lookup"><span data-stu-id="e959d-p101">Voice policy scope can be either *Site* (which defines the default features and permissions for a network site) or *User* (which defines the features and permissions to be assigned on a per-user or group basis). Users not assigned to a voice policy will automatically be assigned to the global policy, which is the default voice policy that is installed with the product.</span></span>
+<span data-ttu-id="4ba53-p101">语音策略的作用域可以是 *Site*（定义网络站点的默认功能和权限），也可以是“用户”\*\*（定义基于每用户或组分配的功能和权限）。未分配给语音策略的用户将自动分配给全局策略，全局策略是随产品一起安装的默认语音策略。</span><span class="sxs-lookup"><span data-stu-id="4ba53-p101">Voice policy scope can be either *Site* (which defines the default features and permissions for a network site) or *User* (which defines the features and permissions to be assigned on a per-user or group basis). Users not assigned to a voice policy will automatically be assigned to the global policy, which is the default voice policy that is installed with the product.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e959d-107">有关详细信息，请参阅规划文档中的 <A href="lync-server-2013-voice-policies.md">Lync Server 2013 中的语音策略</A> 。</span><span class="sxs-lookup"><span data-stu-id="e959d-107">For details, see <A href="lync-server-2013-voice-policies.md">Voice policies in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="4ba53-108">有关详细信息，请参阅规划文档中的 <A href="lync-server-2013-voice-policies.md">Lync Server 2013 中的语音策略</A> 。</span><span class="sxs-lookup"><span data-stu-id="4ba53-108">For details, see <A href="lync-server-2013-voice-policies.md">Voice policies in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -55,13 +56,13 @@ ms.locfileid: "48516959"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e959d-108">本部分内容</span><span class="sxs-lookup"><span data-stu-id="e959d-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4ba53-109">本部分内容</span><span class="sxs-lookup"><span data-stu-id="4ba53-109">In This Section</span></span>
 
-  - [<span data-ttu-id="e959d-109">在 Lync Server 2013 中创建语音策略和配置 PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="e959d-109">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)
+  - [<span data-ttu-id="4ba53-110">在 Lync Server 2013 中创建语音策略和配置 PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="4ba53-110">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [<span data-ttu-id="e959d-110">在 Lync Server 2013 中修改语音策略和配置 PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="e959d-110">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
+  - [<span data-ttu-id="4ba53-111">在 Lync Server 2013 中修改语音策略和配置 PSTN 用法记录</span><span class="sxs-lookup"><span data-stu-id="4ba53-111">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [<span data-ttu-id="e959d-111">在 Lync Server 2013 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="e959d-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)
+  - [<span data-ttu-id="4ba53-112">在 Lync Server 2013 中配置语音邮件转义</span><span class="sxs-lookup"><span data-stu-id="4ba53-112">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)
 
 </div>
 

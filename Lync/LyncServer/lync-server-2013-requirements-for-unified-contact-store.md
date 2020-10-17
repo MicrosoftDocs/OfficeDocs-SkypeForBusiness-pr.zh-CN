@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：统一联系人存储的要求
+description: Lync Server 2013：统一联系人存储的要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fecfde24f84c0e15b434a08c623588a1d0dc3d17
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bd264fcbb9b1d4f3da1678bb3aacb9d3962ffd08
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511829"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542428"
 ---
-# <a name="requirements-for-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="2da86-102">Lync Server 2013 中统一联系人存储的要求</span><span class="sxs-lookup"><span data-stu-id="2da86-102">Requirements for unified contact store in Lync Server 2013</span></span>
+# <a name="requirements-for-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="73767-103">Lync Server 2013 中统一联系人存储的要求</span><span class="sxs-lookup"><span data-stu-id="73767-103">Requirements for unified contact store in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,23 +38,23 @@ ms.locfileid: "48511829"
 
 <span> </span>
 
-<span data-ttu-id="2da86-103">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="2da86-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="73767-104">_**上次修改的主题：** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="73767-104">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="2da86-104">以下列表介绍了在 Lync Server 2013 中实施统一联系人存储的要求：</span><span class="sxs-lookup"><span data-stu-id="2da86-104">The following list describes the requirements for implementing unified contact store in Lync Server 2013:</span></span>
+<span data-ttu-id="73767-105">以下列表介绍了在 Lync Server 2013 中实施统一联系人存储的要求：</span><span class="sxs-lookup"><span data-stu-id="73767-105">The following list describes the requirements for implementing unified contact store in Lync Server 2013:</span></span>
 
-  - <span data-ttu-id="2da86-105">您必须运行 Microsoft Lync Server 2013 和 Exchange 2013。</span><span class="sxs-lookup"><span data-stu-id="2da86-105">You must be running Microsoft Lync Server 2013 and Exchange 2013.</span></span>
+  - <span data-ttu-id="73767-106">您必须运行 Microsoft Lync Server 2013 和 Exchange 2013。</span><span class="sxs-lookup"><span data-stu-id="73767-106">You must be running Microsoft Lync Server 2013 and Exchange 2013.</span></span>
 
-  - <span data-ttu-id="2da86-106">用户必须使用 Lync 2013 启动从 Lync Server 2013 到 Exchange 2013 的联系人迁移。</span><span class="sxs-lookup"><span data-stu-id="2da86-106">Users must use Lync 2013 to initiate the migration of contacts from Lync Server 2013 to Exchange 2013.</span></span>
+  - <span data-ttu-id="73767-107">用户必须使用 Lync 2013 启动从 Lync Server 2013 到 Exchange 2013 的联系人迁移。</span><span class="sxs-lookup"><span data-stu-id="73767-107">Users must use Lync 2013 to initiate the migration of contacts from Lync Server 2013 to Exchange 2013.</span></span>
 
-  - <span data-ttu-id="2da86-107">用户邮箱必须迁移到 Exchange 2013。</span><span class="sxs-lookup"><span data-stu-id="2da86-107">User mailboxes must be migrated to Exchange 2013.</span></span>
+  - <span data-ttu-id="73767-108">用户邮箱必须迁移到 Exchange 2013。</span><span class="sxs-lookup"><span data-stu-id="73767-108">User mailboxes must be migrated to Exchange 2013.</span></span>
 
-  - <span data-ttu-id="2da86-108">您必须在 Lync Server 2013 和 Exchange 2013 之间配置服务器到服务器身份验证。</span><span class="sxs-lookup"><span data-stu-id="2da86-108">You must have server-to-server authentication configured between Lync Server 2013 and Exchange 2013.</span></span>
+  - <span data-ttu-id="73767-109">您必须在 Lync Server 2013 和 Exchange 2013 之间配置服务器到服务器身份验证。</span><span class="sxs-lookup"><span data-stu-id="73767-109">You must have server-to-server authentication configured between Lync Server 2013 and Exchange 2013.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="2da86-109">有关在 Lync Server 2013 和 Exchange 2013 之间设置身份验证的详细要求，请参阅操作文档中的 <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">管理服务器到服务器身份验证 (OAuth) 和在 Lync server 2013 中的合作伙伴应用程序</A> 。</span><span class="sxs-lookup"><span data-stu-id="2da86-109">For detailed requirements about setting up authentication between Lync Server 2013 and Exchange 2013, see <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</A> in the Operations documentation.</span></span>
+    > <span data-ttu-id="73767-110">有关在 Lync Server 2013 和 Exchange 2013 之间设置身份验证的详细要求，请参阅操作文档中的 <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">管理服务器到服务器身份验证 (OAuth) 和在 Lync server 2013 中的合作伙伴应用程序</A> 。</span><span class="sxs-lookup"><span data-stu-id="73767-110">For detailed requirements about setting up authentication between Lync Server 2013 and Exchange 2013, see <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</A> in the Operations documentation.</span></span>
 
     
     </div>

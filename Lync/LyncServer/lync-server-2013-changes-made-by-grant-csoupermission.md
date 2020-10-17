@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： Grant-CsOUPermission 所做的更改
+description: Lync Server 2013： CsOUPermission 所做的更改。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 48185564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ff916c0b4e284f9c6ce4d5dbaf9c2e196ed4bc6
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 10d3db0e9dde380628690bc016e2b4bd2ec85b54
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529429"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48543608"
 ---
-# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a><span data-ttu-id="08d97-102">Lync Server 2013 中 Grant-CsOUPermission 所做的更改</span><span class="sxs-lookup"><span data-stu-id="08d97-102">Changes made by Grant-CsOUPermission in Lync Server 2013</span></span>
+# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a><span data-ttu-id="daa77-103">Lync Server 2013 中 Grant-CsOUPermission 所做的更改</span><span class="sxs-lookup"><span data-stu-id="daa77-103">Changes made by Grant-CsOUPermission in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,19 +38,19 @@ ms.locfileid: "48529429"
 
 <span> </span>
 
-<span data-ttu-id="08d97-103">_**上次修改的主题：** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="08d97-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="daa77-104">_**上次修改的主题：** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="daa77-104">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="08d97-104">若要委派 Lync Server 2013 管理，可以将权限添加到指定的组织单位 (Ou 中) 以便由林准备创建的 RTC 通用组的成员可以访问 Ou，而无需成为 Domain Admins 组的成员。</span><span class="sxs-lookup"><span data-stu-id="08d97-104">To delegate Lync Server 2013 administration, you can add permissions to specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access the OUs without being members of the Domain Admins group.</span></span>
+<span data-ttu-id="daa77-105">若要委派 Lync Server 2013 管理，可以将权限添加到指定的组织单位 (Ou 中) 以便由林准备创建的 RTC 通用组的成员可以访问 Ou，而无需成为 Domain Admins 组的成员。</span><span class="sxs-lookup"><span data-stu-id="daa77-105">To delegate Lync Server 2013 administration, you can add permissions to specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access the OUs without being members of the Domain Admins group.</span></span>
 
-<span data-ttu-id="08d97-105">**Grant-CsOuPermission** cmdlet 向指定 OU 中的对象授予权限，如下表所示。</span><span class="sxs-lookup"><span data-stu-id="08d97-105">The **Grant-CsOuPermission** cmdlet grants permissions to objects in the specified OU as specified in the following tables.</span></span>
+<span data-ttu-id="daa77-106">**Grant-CsOuPermission** cmdlet 向指定 OU 中的对象授予权限，如下表所示。</span><span class="sxs-lookup"><span data-stu-id="daa77-106">The **Grant-CsOuPermission** cmdlet grants permissions to objects in the specified OU as specified in the following tables.</span></span>
 
 <div>
 
-## <a name="granting-permission-for-user-objects"></a><span data-ttu-id="08d97-106">为用户对象授予权限</span><span class="sxs-lookup"><span data-stu-id="08d97-106">Granting Permission for User Objects</span></span>
+## <a name="granting-permission-for-user-objects"></a><span data-ttu-id="daa77-107">为用户对象授予权限</span><span class="sxs-lookup"><span data-stu-id="daa77-107">Granting Permission for User Objects</span></span>
 
-<span data-ttu-id="08d97-107">在对 OU 上的用户对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="08d97-107">When you run the **Grant-CsOuPermission** cmdlet for User objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="daa77-108">在对 OU 上的用户对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="daa77-108">When you run the **Grant-CsOuPermission** cmdlet for User objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-user-objects"></a><span data-ttu-id="08d97-108">为用户对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="08d97-108">Permissions Granted for User Objects</span></span>
+### <a name="permissions-granted-for-user-objects"></a><span data-ttu-id="daa77-109">为用户对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="daa77-109">Permissions Granted for User Objects</span></span>
 
 <table>
 <colgroup>
@@ -59,49 +60,49 @@ ms.locfileid: "48529429"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="08d97-109">Group</span><span class="sxs-lookup"><span data-stu-id="08d97-109">Group</span></span></th>
-<th><span data-ttu-id="08d97-110">权限</span><span class="sxs-lookup"><span data-stu-id="08d97-110">Permission</span></span></th>
-<th><span data-ttu-id="08d97-111">适用于</span><span class="sxs-lookup"><span data-stu-id="08d97-111">Applies to</span></span></th>
+<th><span data-ttu-id="daa77-110">Group</span><span class="sxs-lookup"><span data-stu-id="daa77-110">Group</span></span></th>
+<th><span data-ttu-id="daa77-111">权限</span><span class="sxs-lookup"><span data-stu-id="daa77-111">Permission</span></span></th>
+<th><span data-ttu-id="daa77-112">适用于</span><span class="sxs-lookup"><span data-stu-id="daa77-112">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-112">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="08d97-112">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="08d97-113">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="08d97-113">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="08d97-114">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-114">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-113">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="daa77-113">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="daa77-114">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="daa77-114">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="daa77-115">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-115">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-115">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-115">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-116">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-116">List contents</span></span></p>
-<p><span data-ttu-id="08d97-117">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-117">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-118">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-118">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-119">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-119">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-116">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-116">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-117">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-117">List contents</span></span></p>
+<p><span data-ttu-id="daa77-118">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-118">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-119">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-119">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-120">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-120">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-120">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-120">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-121">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-121">List contents</span></span></p>
-<p><span data-ttu-id="08d97-122">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-122">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-123">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-123">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-124">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-124">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-121">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-121">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-122">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-122">List contents</span></span></p>
+<p><span data-ttu-id="daa77-123">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-123">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-124">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-124">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-125">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-125">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-125">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-125">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-126">读取 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-126">Read RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-127">读取 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-127">Read RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-128">读取 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-128">Read RTCPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-129">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-129">Read Public-Information</span></span></p>
-<p><span data-ttu-id="08d97-130">读取 General-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-130">Read General-Information</span></span></p>
-<p><span data-ttu-id="08d97-131">读取 User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="08d97-131">Read User-Account-Restrictions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-132">后代用户对象</span><span class="sxs-lookup"><span data-stu-id="08d97-132">Descendant User objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-126">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-126">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-127">读取 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-127">Read RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-128">读取 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-128">Read RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-129">读取 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-129">Read RTCPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-130">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-130">Read Public-Information</span></span></p>
+<p><span data-ttu-id="daa77-131">读取 General-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-131">Read General-Information</span></span></p>
+<p><span data-ttu-id="daa77-132">读取 User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="daa77-132">Read User-Account-Restrictions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-133">后代用户对象</span><span class="sxs-lookup"><span data-stu-id="daa77-133">Descendant User objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-133">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="08d97-133">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="08d97-134">写入 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-134">Write RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-135">写入 msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="08d97-135">Write msExchUCVoiceMailSettings</span></span></p>
-<p><span data-ttu-id="08d97-136">写入 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-136">Write RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-137">写入 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-137">Write RTCPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-138">写入 proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="08d97-138">Write proxyAddresses</span></span></p></td>
-<td><p><span data-ttu-id="08d97-139">后代用户对象</span><span class="sxs-lookup"><span data-stu-id="08d97-139">Descendant User objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-134">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="daa77-134">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="daa77-135">写入 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-135">Write RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-136">写入 msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="daa77-136">Write msExchUCVoiceMailSettings</span></span></p>
+<p><span data-ttu-id="daa77-137">写入 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-137">Write RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-138">写入 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-138">Write RTCPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-139">写入 proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="daa77-139">Write proxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="daa77-140">后代用户对象</span><span class="sxs-lookup"><span data-stu-id="daa77-140">Descendant User objects</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -111,11 +112,11 @@ ms.locfileid: "48529429"
 
 <div>
 
-## <a name="granting-permission-for-computer-objects"></a><span data-ttu-id="08d97-140">为计算机对象授予权限</span><span class="sxs-lookup"><span data-stu-id="08d97-140">Granting Permission for Computer Objects</span></span>
+## <a name="granting-permission-for-computer-objects"></a><span data-ttu-id="daa77-141">为计算机对象授予权限</span><span class="sxs-lookup"><span data-stu-id="daa77-141">Granting Permission for Computer Objects</span></span>
 
-<span data-ttu-id="08d97-141">在对 OU 上的计算机对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="08d97-141">When you run the **Grant-CsOuPermission** cmdlet for Computer objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="daa77-142">在对 OU 上的计算机对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="daa77-142">When you run the **Grant-CsOuPermission** cmdlet for Computer objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-computer-objects"></a><span data-ttu-id="08d97-142">为计算机对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="08d97-142">Permissions Granted for Computer Objects</span></span>
+### <a name="permissions-granted-for-computer-objects"></a><span data-ttu-id="daa77-143">为计算机对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="daa77-143">Permissions Granted for Computer Objects</span></span>
 
 <table>
 <colgroup>
@@ -125,42 +126,42 @@ ms.locfileid: "48529429"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="08d97-143">Group</span><span class="sxs-lookup"><span data-stu-id="08d97-143">Group</span></span></th>
-<th><span data-ttu-id="08d97-144">权限</span><span class="sxs-lookup"><span data-stu-id="08d97-144">Permission</span></span></th>
-<th><span data-ttu-id="08d97-145">适用于</span><span class="sxs-lookup"><span data-stu-id="08d97-145">Applies to</span></span></th>
+<th><span data-ttu-id="daa77-144">Group</span><span class="sxs-lookup"><span data-stu-id="daa77-144">Group</span></span></th>
+<th><span data-ttu-id="daa77-145">权限</span><span class="sxs-lookup"><span data-stu-id="daa77-145">Permission</span></span></th>
+<th><span data-ttu-id="daa77-146">适用于</span><span class="sxs-lookup"><span data-stu-id="daa77-146">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-146">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="08d97-146">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="08d97-147">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="08d97-147">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="08d97-148">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-148">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-147">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="daa77-147">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="daa77-148">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="daa77-148">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="daa77-149">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-149">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-149">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-149">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-150">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-150">List contents</span></span></p>
-<p><span data-ttu-id="08d97-151">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-151">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-152">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-152">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-153">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-153">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-150">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-150">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-151">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-151">List contents</span></span></p>
+<p><span data-ttu-id="daa77-152">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-152">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-153">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-153">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-154">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-154">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-154">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-154">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-155">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-155">List contents</span></span></p>
-<p><span data-ttu-id="08d97-156">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-156">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-157">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-157">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-158">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-158">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-155">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-155">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-156">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-156">List contents</span></span></p>
+<p><span data-ttu-id="daa77-157">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-157">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-158">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-158">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-159">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-159">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-159">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-159">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-160">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-160">Read Public-Information</span></span></p>
-<p><span data-ttu-id="08d97-161">读取 Validated-DNS-Host-Name</span><span class="sxs-lookup"><span data-stu-id="08d97-161">Read Validated-DNS-Host-Name</span></span></p></td>
-<td><p><span data-ttu-id="08d97-162">后代计算机对象</span><span class="sxs-lookup"><span data-stu-id="08d97-162">Descendant Computer objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-160">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-160">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-161">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-161">Read Public-Information</span></span></p>
+<p><span data-ttu-id="daa77-162">读取 Validated-DNS-Host-Name</span><span class="sxs-lookup"><span data-stu-id="daa77-162">Read Validated-DNS-Host-Name</span></span></p></td>
+<td><p><span data-ttu-id="daa77-163">后代计算机对象</span><span class="sxs-lookup"><span data-stu-id="daa77-163">Descendant Computer objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-163">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="08d97-163">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="08d97-164">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-164">Read Public-Information</span></span></p>
-<p><span data-ttu-id="08d97-165">读取 Validated-DNS-Host-Name</span><span class="sxs-lookup"><span data-stu-id="08d97-165">Read Validated-DNS-Host-Name</span></span></p></td>
-<td><p><span data-ttu-id="08d97-166">后代计算机对象</span><span class="sxs-lookup"><span data-stu-id="08d97-166">Descendant Computer objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-164">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="daa77-164">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="daa77-165">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-165">Read Public-Information</span></span></p>
+<p><span data-ttu-id="daa77-166">读取 Validated-DNS-Host-Name</span><span class="sxs-lookup"><span data-stu-id="daa77-166">Read Validated-DNS-Host-Name</span></span></p></td>
+<td><p><span data-ttu-id="daa77-167">后代计算机对象</span><span class="sxs-lookup"><span data-stu-id="daa77-167">Descendant Computer objects</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -170,11 +171,11 @@ ms.locfileid: "48529429"
 
 <div>
 
-## <a name="granting-permission-for-contact-or-appcontact-objects"></a><span data-ttu-id="08d97-167">为联系人或 AppContact 对象授予权限</span><span class="sxs-lookup"><span data-stu-id="08d97-167">Granting Permission for Contact or AppContact Objects</span></span>
+## <a name="granting-permission-for-contact-or-appcontact-objects"></a><span data-ttu-id="daa77-168">为联系人或 AppContact 对象授予权限</span><span class="sxs-lookup"><span data-stu-id="daa77-168">Granting Permission for Contact or AppContact Objects</span></span>
 
-<span data-ttu-id="08d97-168">在对 OU 上的联系人或 AppContact 对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="08d97-168">When you run the **Grant-CsOuPermission** cmdlet for Contact objects or AppContact objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="daa77-169">在对 OU 上的联系人或 AppContact 对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="daa77-169">When you run the **Grant-CsOuPermission** cmdlet for Contact objects or AppContact objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-contact-or-appcontact-objects"></a><span data-ttu-id="08d97-169">为联系人对象或 AppContact 对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="08d97-169">Permissions Granted for Contact or AppContact Objects</span></span>
+### <a name="permissions-granted-for-contact-or-appcontact-objects"></a><span data-ttu-id="daa77-170">为联系人对象或 AppContact 对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="daa77-170">Permissions Granted for Contact or AppContact Objects</span></span>
 
 <table>
 <colgroup>
@@ -184,54 +185,54 @@ ms.locfileid: "48529429"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="08d97-170">Group</span><span class="sxs-lookup"><span data-stu-id="08d97-170">Group</span></span></th>
-<th><span data-ttu-id="08d97-171">权限</span><span class="sxs-lookup"><span data-stu-id="08d97-171">Permission</span></span></th>
-<th><span data-ttu-id="08d97-172">适用于</span><span class="sxs-lookup"><span data-stu-id="08d97-172">Applies to</span></span></th>
+<th><span data-ttu-id="daa77-171">Group</span><span class="sxs-lookup"><span data-stu-id="daa77-171">Group</span></span></th>
+<th><span data-ttu-id="daa77-172">权限</span><span class="sxs-lookup"><span data-stu-id="daa77-172">Permission</span></span></th>
+<th><span data-ttu-id="daa77-173">适用于</span><span class="sxs-lookup"><span data-stu-id="daa77-173">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-173">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="08d97-173">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="08d97-174">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="08d97-174">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="08d97-175">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-175">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-174">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="daa77-174">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="daa77-175">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="daa77-175">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="daa77-176">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-176">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-176">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-176">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-177">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-177">List contents</span></span></p>
-<p><span data-ttu-id="08d97-178">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-178">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-179">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-179">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-180">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-180">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-177">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-177">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-178">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-178">List contents</span></span></p>
+<p><span data-ttu-id="daa77-179">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-179">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-180">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-180">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-181">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-181">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-181">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-181">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-182">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-182">List contents</span></span></p>
-<p><span data-ttu-id="08d97-183">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-183">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-184">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-184">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-185">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-185">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-182">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-182">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-183">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-183">List contents</span></span></p>
+<p><span data-ttu-id="daa77-184">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-184">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-185">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-185">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-186">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-186">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-186">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-186">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-187">读取 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-187">Read RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-188">读取 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-188">Read RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-189">读取 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-189">Read RTCPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-190">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-190">Read Public-Information</span></span></p>
-<p><span data-ttu-id="08d97-191">读取 General-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-191">Read General-Information</span></span></p>
-<p><span data-ttu-id="08d97-192">读取 Personal-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-192">Read Personal-Information</span></span></p>
-<p><span data-ttu-id="08d97-193">读取 User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="08d97-193">Read User-Account-Restrictions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-194">后代联系人对象</span><span class="sxs-lookup"><span data-stu-id="08d97-194">Descendant Contact objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-187">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-187">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-188">读取 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-188">Read RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-189">读取 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-189">Read RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-190">读取 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-190">Read RTCPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-191">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-191">Read Public-Information</span></span></p>
+<p><span data-ttu-id="daa77-192">读取 General-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-192">Read General-Information</span></span></p>
+<p><span data-ttu-id="daa77-193">读取 Personal-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-193">Read Personal-Information</span></span></p>
+<p><span data-ttu-id="daa77-194">读取 User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="daa77-194">Read User-Account-Restrictions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-195">后代联系人对象</span><span class="sxs-lookup"><span data-stu-id="daa77-195">Descendant Contact objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-195">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="08d97-195">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="08d97-196">写入 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-196">Write RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-197">写入 otherIpPhone</span><span class="sxs-lookup"><span data-stu-id="08d97-197">Write otherIpPhone</span></span></p>
-<p><span data-ttu-id="08d97-198">写入 displayName</span><span class="sxs-lookup"><span data-stu-id="08d97-198">Write displayName</span></span></p>
-<p><span data-ttu-id="08d97-199">写入 description</span><span class="sxs-lookup"><span data-stu-id="08d97-199">Write description</span></span></p>
-<p><span data-ttu-id="08d97-200">写入 telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="08d97-200">Write telephoneNumber</span></span></p>
-<p><span data-ttu-id="08d97-201">写入 msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="08d97-201">Write msExchUCVoiceMailSettings</span></span></p>
-<p><span data-ttu-id="08d97-202">写入 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-202">Write RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-203">写入 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-203">Write RTCPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-204">写入 proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="08d97-204">Write proxyAddresses</span></span></p></td>
-<td><p><span data-ttu-id="08d97-205">后代联系人对象</span><span class="sxs-lookup"><span data-stu-id="08d97-205">Descendant Contact objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-196">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="daa77-196">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="daa77-197">写入 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-197">Write RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-198">写入 otherIpPhone</span><span class="sxs-lookup"><span data-stu-id="daa77-198">Write otherIpPhone</span></span></p>
+<p><span data-ttu-id="daa77-199">写入 displayName</span><span class="sxs-lookup"><span data-stu-id="daa77-199">Write displayName</span></span></p>
+<p><span data-ttu-id="daa77-200">写入 description</span><span class="sxs-lookup"><span data-stu-id="daa77-200">Write description</span></span></p>
+<p><span data-ttu-id="daa77-201">写入 telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="daa77-201">Write telephoneNumber</span></span></p>
+<p><span data-ttu-id="daa77-202">写入 msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="daa77-202">Write msExchUCVoiceMailSettings</span></span></p>
+<p><span data-ttu-id="daa77-203">写入 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-203">Write RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-204">写入 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-204">Write RTCPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-205">写入 proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="daa77-205">Write proxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="daa77-206">后代联系人对象</span><span class="sxs-lookup"><span data-stu-id="daa77-206">Descendant Contact objects</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -241,11 +242,11 @@ ms.locfileid: "48529429"
 
 <div>
 
-## <a name="granting-permission-for-device-objects"></a><span data-ttu-id="08d97-206">为设备对象授予权限</span><span class="sxs-lookup"><span data-stu-id="08d97-206">Granting Permission for Device Objects</span></span>
+## <a name="granting-permission-for-device-objects"></a><span data-ttu-id="daa77-207">为设备对象授予权限</span><span class="sxs-lookup"><span data-stu-id="daa77-207">Granting Permission for Device Objects</span></span>
 
-<span data-ttu-id="08d97-207">在对 OU 上的设备对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="08d97-207">When you run the **Grant-CsOuPermission** cmdlet for Device objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="daa77-208">在对 OU 上的设备对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="daa77-208">When you run the **Grant-CsOuPermission** cmdlet for Device objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-device-objects"></a><span data-ttu-id="08d97-208">为设备对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="08d97-208">Permissions Granted for Device Objects</span></span>
+### <a name="permissions-granted-for-device-objects"></a><span data-ttu-id="daa77-209">为设备对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="daa77-209">Permissions Granted for Device Objects</span></span>
 
 <table>
 <colgroup>
@@ -255,68 +256,68 @@ ms.locfileid: "48529429"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="08d97-209">Group</span><span class="sxs-lookup"><span data-stu-id="08d97-209">Group</span></span></th>
-<th><span data-ttu-id="08d97-210">权限</span><span class="sxs-lookup"><span data-stu-id="08d97-210">Permission</span></span></th>
-<th><span data-ttu-id="08d97-211">适用于</span><span class="sxs-lookup"><span data-stu-id="08d97-211">Applies to</span></span></th>
+<th><span data-ttu-id="daa77-210">Group</span><span class="sxs-lookup"><span data-stu-id="daa77-210">Group</span></span></th>
+<th><span data-ttu-id="daa77-211">权限</span><span class="sxs-lookup"><span data-stu-id="daa77-211">Permission</span></span></th>
+<th><span data-ttu-id="daa77-212">适用于</span><span class="sxs-lookup"><span data-stu-id="daa77-212">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-212">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="08d97-212">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="08d97-213">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="08d97-213">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="08d97-214">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-214">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-213">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="daa77-213">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="daa77-214">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="daa77-214">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="daa77-215">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-215">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-215">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-215">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-216">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-216">List contents</span></span></p>
-<p><span data-ttu-id="08d97-217">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-217">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-218">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-218">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-219">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-219">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-216">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-216">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-217">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-217">List contents</span></span></p>
+<p><span data-ttu-id="daa77-218">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-218">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-219">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-219">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-220">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-220">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-220">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-220">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-221">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-221">List contents</span></span></p>
-<p><span data-ttu-id="08d97-222">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-222">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-223">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-223">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-224">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-224">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-221">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-221">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-222">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-222">List contents</span></span></p>
+<p><span data-ttu-id="daa77-223">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-223">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-224">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-224">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-225">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-225">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-225">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-225">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-226">读取 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-226">Read RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-227">读取 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-227">Read RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-228">读取 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-228">Read RTCPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-229">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-229">Read Public-Information</span></span></p>
-<p><span data-ttu-id="08d97-230">读取 Personal-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-230">Read Personal-Information</span></span></p>
-<p><span data-ttu-id="08d97-231">读取 General-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-231">Read General-Information</span></span></p>
-<p><span data-ttu-id="08d97-232">读取 User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="08d97-232">Read User-Account-Restrictions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-233">后代联系人对象</span><span class="sxs-lookup"><span data-stu-id="08d97-233">Descendant Contact objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-226">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-226">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-227">读取 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-227">Read RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-228">读取 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-228">Read RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-229">读取 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-229">Read RTCPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-230">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-230">Read Public-Information</span></span></p>
+<p><span data-ttu-id="daa77-231">读取 Personal-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-231">Read Personal-Information</span></span></p>
+<p><span data-ttu-id="daa77-232">读取 General-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-232">Read General-Information</span></span></p>
+<p><span data-ttu-id="daa77-233">读取 User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="daa77-233">Read User-Account-Restrictions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-234">后代联系人对象</span><span class="sxs-lookup"><span data-stu-id="daa77-234">Descendant Contact objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-234">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="08d97-234">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="08d97-235">创建子级</span><span class="sxs-lookup"><span data-stu-id="08d97-235">Create child</span></span></p>
-<p><span data-ttu-id="08d97-236">删除子级</span><span class="sxs-lookup"><span data-stu-id="08d97-236">Delete child</span></span></p>
-<p><span data-ttu-id="08d97-237">删除树</span><span class="sxs-lookup"><span data-stu-id="08d97-237">Delete tree</span></span></p></td>
-<td><p><span data-ttu-id="08d97-238">Contact</span><span class="sxs-lookup"><span data-stu-id="08d97-238">Contact</span></span></p></td>
+<td><p><span data-ttu-id="daa77-235">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="daa77-235">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="daa77-236">创建子级</span><span class="sxs-lookup"><span data-stu-id="daa77-236">Create child</span></span></p>
+<p><span data-ttu-id="daa77-237">删除子级</span><span class="sxs-lookup"><span data-stu-id="daa77-237">Delete child</span></span></p>
+<p><span data-ttu-id="daa77-238">删除树</span><span class="sxs-lookup"><span data-stu-id="daa77-238">Delete tree</span></span></p></td>
+<td><p><span data-ttu-id="daa77-239">Contact</span><span class="sxs-lookup"><span data-stu-id="daa77-239">Contact</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-239">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="08d97-239">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="08d97-240">写入 displayName</span><span class="sxs-lookup"><span data-stu-id="08d97-240">Write displayName</span></span></p>
-<p><span data-ttu-id="08d97-241">写入 description</span><span class="sxs-lookup"><span data-stu-id="08d97-241">Write description</span></span></p>
-<p><span data-ttu-id="08d97-242">写入 telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="08d97-242">Write telephoneNumber</span></span></p></td>
-<td><p><span data-ttu-id="08d97-243">后代用户对象</span><span class="sxs-lookup"><span data-stu-id="08d97-243">Descendant User objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-240">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="daa77-240">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="daa77-241">写入 displayName</span><span class="sxs-lookup"><span data-stu-id="daa77-241">Write displayName</span></span></p>
+<p><span data-ttu-id="daa77-242">写入 description</span><span class="sxs-lookup"><span data-stu-id="daa77-242">Write description</span></span></p>
+<p><span data-ttu-id="daa77-243">写入 telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="daa77-243">Write telephoneNumber</span></span></p></td>
+<td><p><span data-ttu-id="daa77-244">后代用户对象</span><span class="sxs-lookup"><span data-stu-id="daa77-244">Descendant User objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-244">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="08d97-244">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="08d97-245">写入 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-245">Write RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-246">写入 otherIpPhone</span><span class="sxs-lookup"><span data-stu-id="08d97-246">Write otherIpPhone</span></span></p>
-<p><span data-ttu-id="08d97-247">写入 displayName</span><span class="sxs-lookup"><span data-stu-id="08d97-247">Write displayName</span></span></p>
-<p><span data-ttu-id="08d97-248">写入 description</span><span class="sxs-lookup"><span data-stu-id="08d97-248">Write description</span></span></p>
-<p><span data-ttu-id="08d97-249">写入 telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="08d97-249">Write telephoneNumber</span></span></p>
-<p><span data-ttu-id="08d97-250">写入 msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="08d97-250">Write msExchUCVoiceMailSettings</span></span></p>
-<p><span data-ttu-id="08d97-251">写入 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-251">Write RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-252">写入 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-252">Write RTCPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-253">写入 proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="08d97-253">Write proxyAddresses</span></span></p></td>
-<td><p><span data-ttu-id="08d97-254">后代联系人对象</span><span class="sxs-lookup"><span data-stu-id="08d97-254">Descendant Contact objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-245">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="daa77-245">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="daa77-246">写入 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-246">Write RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-247">写入 otherIpPhone</span><span class="sxs-lookup"><span data-stu-id="daa77-247">Write otherIpPhone</span></span></p>
+<p><span data-ttu-id="daa77-248">写入 displayName</span><span class="sxs-lookup"><span data-stu-id="daa77-248">Write displayName</span></span></p>
+<p><span data-ttu-id="daa77-249">写入 description</span><span class="sxs-lookup"><span data-stu-id="daa77-249">Write description</span></span></p>
+<p><span data-ttu-id="daa77-250">写入 telephoneNumber</span><span class="sxs-lookup"><span data-stu-id="daa77-250">Write telephoneNumber</span></span></p>
+<p><span data-ttu-id="daa77-251">写入 msExchUCVoiceMailSettings</span><span class="sxs-lookup"><span data-stu-id="daa77-251">Write msExchUCVoiceMailSettings</span></span></p>
+<p><span data-ttu-id="daa77-252">写入 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-252">Write RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-253">写入 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-253">Write RTCPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-254">写入 proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="daa77-254">Write proxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="daa77-255">后代联系人对象</span><span class="sxs-lookup"><span data-stu-id="daa77-255">Descendant Contact objects</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -326,11 +327,11 @@ ms.locfileid: "48529429"
 
 <div>
 
-## <a name="granting-permission-for-inetorgperson-objects"></a><span data-ttu-id="08d97-255">为 InetOrgPerson 对象授予权限</span><span class="sxs-lookup"><span data-stu-id="08d97-255">Granting Permission for InetOrgPerson Objects</span></span>
+## <a name="granting-permission-for-inetorgperson-objects"></a><span data-ttu-id="daa77-256">为 InetOrgPerson 对象授予权限</span><span class="sxs-lookup"><span data-stu-id="daa77-256">Granting Permission for InetOrgPerson Objects</span></span>
 
-<span data-ttu-id="08d97-256">在对 OU 上的 InetOrgPerson 对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="08d97-256">When you run the **Grant-CsOuPermission** cmdlet for InetOrgPerson objects on an OU, groups are granted permissions as shown in the following table.</span></span>
+<span data-ttu-id="daa77-257">在对 OU 上的 InetOrgPerson 对象运行 **Grant-CsOuPermission** cmdlet 时，会为组授予如下表所示的权限。</span><span class="sxs-lookup"><span data-stu-id="daa77-257">When you run the **Grant-CsOuPermission** cmdlet for InetOrgPerson objects on an OU, groups are granted permissions as shown in the following table.</span></span>
 
-### <a name="permissions-granted-for-inetorgperson-objects"></a><span data-ttu-id="08d97-257">为 InetOrgPerson 对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="08d97-257">Permissions Granted for InetOrgPerson Objects</span></span>
+### <a name="permissions-granted-for-inetorgperson-objects"></a><span data-ttu-id="daa77-258">为 InetOrgPerson 对象授予的权限</span><span class="sxs-lookup"><span data-stu-id="daa77-258">Permissions Granted for InetOrgPerson Objects</span></span>
 
 <table>
 <colgroup>
@@ -340,49 +341,49 @@ ms.locfileid: "48529429"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="08d97-258">Group</span><span class="sxs-lookup"><span data-stu-id="08d97-258">Group</span></span></th>
-<th><span data-ttu-id="08d97-259">权限</span><span class="sxs-lookup"><span data-stu-id="08d97-259">Permission</span></span></th>
-<th><span data-ttu-id="08d97-260">适用于</span><span class="sxs-lookup"><span data-stu-id="08d97-260">Applies to</span></span></th>
+<th><span data-ttu-id="daa77-259">Group</span><span class="sxs-lookup"><span data-stu-id="daa77-259">Group</span></span></th>
+<th><span data-ttu-id="daa77-260">权限</span><span class="sxs-lookup"><span data-stu-id="daa77-260">Permission</span></span></th>
+<th><span data-ttu-id="daa77-261">适用于</span><span class="sxs-lookup"><span data-stu-id="daa77-261">Applies to</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-261">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="08d97-261">RTCHSUniversalServices</span></span></p></td>
-<td><p><span data-ttu-id="08d97-262">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="08d97-262">Replicating directory changes</span></span></p></td>
-<td><p><span data-ttu-id="08d97-263">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-263">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-262">RTCHSUniversalServices</span><span class="sxs-lookup"><span data-stu-id="daa77-262">RTCHSUniversalServices</span></span></p></td>
+<td><p><span data-ttu-id="daa77-263">复制目录更改</span><span class="sxs-lookup"><span data-stu-id="daa77-263">Replicating directory changes</span></span></p></td>
+<td><p><span data-ttu-id="daa77-264">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-264">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-264">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-264">RTCUniversalServerReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-265">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-265">List contents</span></span></p>
-<p><span data-ttu-id="08d97-266">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-266">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-267">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-267">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-268">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-268">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-265">RTCUniversalServerReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-265">RTCUniversalServerReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-266">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-266">List contents</span></span></p>
+<p><span data-ttu-id="daa77-267">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-267">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-268">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-268">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-269">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-269">This object only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-269">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-269">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-270">列出内容</span><span class="sxs-lookup"><span data-stu-id="08d97-270">List contents</span></span></p>
-<p><span data-ttu-id="08d97-271">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="08d97-271">Read all properties</span></span></p>
-<p><span data-ttu-id="08d97-272">读取权限</span><span class="sxs-lookup"><span data-stu-id="08d97-272">Read permissions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-273">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="08d97-273">This object only</span></span></p></td>
+<td><p><span data-ttu-id="daa77-270">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-270">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-271">列出内容</span><span class="sxs-lookup"><span data-stu-id="daa77-271">List contents</span></span></p>
+<p><span data-ttu-id="daa77-272">读取所有属性</span><span class="sxs-lookup"><span data-stu-id="daa77-272">Read all properties</span></span></p>
+<p><span data-ttu-id="daa77-273">读取权限</span><span class="sxs-lookup"><span data-stu-id="daa77-273">Read permissions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-274">仅限此对象</span><span class="sxs-lookup"><span data-stu-id="daa77-274">This object only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="08d97-274">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="08d97-274">RTCUniversalUserReadOnlyGroup</span></span></p></td>
-<td><p><span data-ttu-id="08d97-275">读取 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-275">Read RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-276">读取 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-276">Read RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-277">读取 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-277">Read RTCPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-278">读取 Personal-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-278">Read Personal-Information</span></span></p>
-<p><span data-ttu-id="08d97-279">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-279">Read Public-Information</span></span></p>
-<p><span data-ttu-id="08d97-280">读取 General-Information</span><span class="sxs-lookup"><span data-stu-id="08d97-280">Read General-Information</span></span></p>
-<p><span data-ttu-id="08d97-281">读取 User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="08d97-281">Read User-Account-Restrictions</span></span></p></td>
-<td><p><span data-ttu-id="08d97-282">后代 InetOrgPerson 对象</span><span class="sxs-lookup"><span data-stu-id="08d97-282">Descendant inetOrgPerson objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-275">RTCUniversalUserReadOnlyGroup</span><span class="sxs-lookup"><span data-stu-id="daa77-275">RTCUniversalUserReadOnlyGroup</span></span></p></td>
+<td><p><span data-ttu-id="daa77-276">读取 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-276">Read RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-277">读取 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-277">Read RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-278">读取 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-278">Read RTCPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-279">读取 Personal-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-279">Read Personal-Information</span></span></p>
+<p><span data-ttu-id="daa77-280">读取 Public-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-280">Read Public-Information</span></span></p>
+<p><span data-ttu-id="daa77-281">读取 General-Information</span><span class="sxs-lookup"><span data-stu-id="daa77-281">Read General-Information</span></span></p>
+<p><span data-ttu-id="daa77-282">读取 User-Account-Restrictions</span><span class="sxs-lookup"><span data-stu-id="daa77-282">Read User-Account-Restrictions</span></span></p></td>
+<td><p><span data-ttu-id="daa77-283">后代 InetOrgPerson 对象</span><span class="sxs-lookup"><span data-stu-id="daa77-283">Descendant inetOrgPerson objects</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="08d97-283">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="08d97-283">RTCUniversalUserAdmins</span></span></p></td>
-<td><p><span data-ttu-id="08d97-284">写入 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-284">Write RTCUserSearchPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-285">写入 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-285">Write RTCUserProvisioningPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-286">写入 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="08d97-286">Write RTCPropertySet</span></span></p>
-<p><span data-ttu-id="08d97-287">写入 proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="08d97-287">Write proxyAddresses</span></span></p></td>
-<td><p><span data-ttu-id="08d97-288">后代 InetOrgPerson 对象</span><span class="sxs-lookup"><span data-stu-id="08d97-288">Descendant inetOrgPerson objects</span></span></p></td>
+<td><p><span data-ttu-id="daa77-284">RTCUniversalUserAdmins</span><span class="sxs-lookup"><span data-stu-id="daa77-284">RTCUniversalUserAdmins</span></span></p></td>
+<td><p><span data-ttu-id="daa77-285">写入 RTCUserSearchPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-285">Write RTCUserSearchPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-286">写入 RTCUserProvisioningPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-286">Write RTCUserProvisioningPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-287">写入 RTCPropertySet</span><span class="sxs-lookup"><span data-stu-id="daa77-287">Write RTCPropertySet</span></span></p>
+<p><span data-ttu-id="daa77-288">写入 proxyAddresses</span><span class="sxs-lookup"><span data-stu-id="daa77-288">Write proxyAddresses</span></span></p></td>
+<td><p><span data-ttu-id="daa77-289">后代 InetOrgPerson 对象</span><span class="sxs-lookup"><span data-stu-id="daa77-289">Descendant inetOrgPerson objects</span></span></p></td>
 </tr>
 </tbody>
 </table>

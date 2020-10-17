@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：使用规划工具设计拓扑
+description: Lync Server 2013：使用规划工具设计拓扑。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48d56ec357892fd84e04ccbc9c4996cc6547370e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: fcc10d09d7b8b815e2b4924d06c10de23c14236b
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520009"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48542588"
 ---
-# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a><span data-ttu-id="faec6-102">使用规划工具为 Lync Server 2013 设计拓扑</span><span class="sxs-lookup"><span data-stu-id="faec6-102">Designing the topology for Lync Server 2013 by using the Planning Tool</span></span>
+# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a><span data-ttu-id="8a85a-103">使用规划工具为 Lync Server 2013 设计拓扑</span><span class="sxs-lookup"><span data-stu-id="8a85a-103">Designing the topology for Lync Server 2013 by using the Planning Tool</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,45 +38,45 @@ ms.locfileid: "48520009"
 
 <span> </span>
 
-<span data-ttu-id="faec6-103">_**上次修改的主题：** 2013-03-04_</span><span class="sxs-lookup"><span data-stu-id="faec6-103">_**Topic Last Modified:** 2013-03-04_</span></span>
+<span data-ttu-id="8a85a-104">_**上次修改的主题：** 2013-03-04_</span><span class="sxs-lookup"><span data-stu-id="8a85a-104">_**Topic Last Modified:** 2013-03-04_</span></span>
 
-<span data-ttu-id="faec6-104">Microsoft Lync Server 2013，规划工具是一个向导驱动的、类似于访谈的工具，它会询问有关您正在设计的 Lync Server 2013 拓扑的问题。</span><span class="sxs-lookup"><span data-stu-id="faec6-104">The Microsoft Lync Server 2013, Planning Tool is a wizard driven, interview-like tool that asks questions about the Lync Server 2013 topology that you are designing.</span></span> <span data-ttu-id="faec6-105">规划工具使用提供的信息和拓扑设计和容量的首选做法，根据提供的答案提供建议的拓扑。</span><span class="sxs-lookup"><span data-stu-id="faec6-105">The Planning Tool uses the information supplied, coupled with preferred practices for topology design and capacity, to present a recommended topology based on the answers supplied.</span></span> <span data-ttu-id="faec6-106">您可以从 Microsoft 下载中心 () 下载规划工具 [https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725) 。</span><span class="sxs-lookup"><span data-stu-id="faec6-106">You can download the Planning Tool from the Microsoft Downloads Center ([https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)).</span></span>
+<span data-ttu-id="8a85a-105">Microsoft Lync Server 2013，规划工具是一个向导驱动的、类似于访谈的工具，它会询问有关您正在设计的 Lync Server 2013 拓扑的问题。</span><span class="sxs-lookup"><span data-stu-id="8a85a-105">The Microsoft Lync Server 2013, Planning Tool is a wizard driven, interview-like tool that asks questions about the Lync Server 2013 topology that you are designing.</span></span> <span data-ttu-id="8a85a-106">规划工具使用提供的信息和拓扑设计和容量的首选做法，根据提供的答案提供建议的拓扑。</span><span class="sxs-lookup"><span data-stu-id="8a85a-106">The Planning Tool uses the information supplied, coupled with preferred practices for topology design and capacity, to present a recommended topology based on the answers supplied.</span></span> <span data-ttu-id="8a85a-107">您可以从 Microsoft 下载中心 () 下载规划工具 [https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725) 。</span><span class="sxs-lookup"><span data-stu-id="8a85a-107">You can download the Planning Tool from the Microsoft Downloads Center ([https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)).</span></span>
 
-<span data-ttu-id="faec6-107">最终，规划工具的目标是减轻设计完整的 Lync Server 2013 拓扑的潜在复杂性。</span><span class="sxs-lookup"><span data-stu-id="faec6-107">Ultimately, the goal of the Planning Tool is to ease the potential complexity of designing a complete Lync Server 2013 topology.</span></span> <span data-ttu-id="faec6-108">如果可以通过 Internet 连接连接到 Microsoft TechNet 网站，该工具还会提供对工具内规划文档和部署文档的上下文引用。</span><span class="sxs-lookup"><span data-stu-id="faec6-108">The tool also provides contextual references to planning and deployment documentation inside the tool, provided that an Internet connection is available to connect to the Microsoft TechNet website.</span></span>
+<span data-ttu-id="8a85a-108">最终，规划工具的目标是减轻设计完整的 Lync Server 2013 拓扑的潜在复杂性。</span><span class="sxs-lookup"><span data-stu-id="8a85a-108">Ultimately, the goal of the Planning Tool is to ease the potential complexity of designing a complete Lync Server 2013 topology.</span></span> <span data-ttu-id="8a85a-109">如果可以通过 Internet 连接连接到 Microsoft TechNet 网站，该工具还会提供对工具内规划文档和部署文档的上下文引用。</span><span class="sxs-lookup"><span data-stu-id="8a85a-109">The tool also provides contextual references to planning and deployment documentation inside the tool, provided that an Internet connection is available to connect to the Microsoft TechNet website.</span></span>
 
-<span data-ttu-id="faec6-109">使用基础结构的 TCP/IP 地址和完全限定的域名)  (Fqdn 自定义拓扑之后，规划工具会提供一系列涵盖域名系统 (DNS) 命名、防火墙规则、证书等的报告。</span><span class="sxs-lookup"><span data-stu-id="faec6-109">After customizing the topology with the infrastructure’s TCP/IP addresses and fully qualified domain names (FQDNs), the Planning Tool makes available a series of reports that cover Domain Name System (DNS) naming, firewall rules, certificates, and more.</span></span>
+<span data-ttu-id="8a85a-110">使用基础结构的 TCP/IP 地址和完全限定的域名)  (Fqdn 自定义拓扑之后，规划工具会提供一系列涵盖域名系统 (DNS) 命名、防火墙规则、证书等的报告。</span><span class="sxs-lookup"><span data-stu-id="8a85a-110">After customizing the topology with the infrastructure’s TCP/IP addresses and fully qualified domain names (FQDNs), the Planning Tool makes available a series of reports that cover Domain Name System (DNS) naming, firewall rules, certificates, and more.</span></span>
 
-<span data-ttu-id="faec6-110">规划工具还提供了以两种格式导出信息的功能：</span><span class="sxs-lookup"><span data-stu-id="faec6-110">The Planning Tool also provides the ability to export information in two formats:</span></span>
+<span data-ttu-id="8a85a-111">规划工具还提供了以两种格式导出信息的功能：</span><span class="sxs-lookup"><span data-stu-id="8a85a-111">The Planning Tool also provides the ability to export information in two formats:</span></span>
 
-  - <span data-ttu-id="faec6-111">Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="faec6-111">Microsoft Excel</span></span>
+  - <span data-ttu-id="8a85a-112">Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="8a85a-112">Microsoft Excel</span></span>
 
-  - <span data-ttu-id="faec6-112">Microsoft Visio</span><span class="sxs-lookup"><span data-stu-id="faec6-112">Microsoft Visio</span></span>
+  - <span data-ttu-id="8a85a-113">Microsoft Visio</span><span class="sxs-lookup"><span data-stu-id="8a85a-113">Microsoft Visio</span></span>
 
-<span data-ttu-id="faec6-113">以下主题介绍并详细说明规划工具。</span><span class="sxs-lookup"><span data-stu-id="faec6-113">The following topics introduce and detail the Planning Tool.</span></span>
+<span data-ttu-id="8a85a-114">以下主题介绍并详细说明规划工具。</span><span class="sxs-lookup"><span data-stu-id="8a85a-114">The following topics introduce and detail the Planning Tool.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="faec6-114">本部分内容</span><span class="sxs-lookup"><span data-stu-id="faec6-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8a85a-115">本部分内容</span><span class="sxs-lookup"><span data-stu-id="8a85a-115">In This Section</span></span>
 
-  - [<span data-ttu-id="faec6-115">在 Lync Server 2013 中安装规划工具</span><span class="sxs-lookup"><span data-stu-id="faec6-115">Installing the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-installing-the-planning-tool.md)
+  - [<span data-ttu-id="8a85a-116">在 Lync Server 2013 中安装规划工具</span><span class="sxs-lookup"><span data-stu-id="8a85a-116">Installing the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-installing-the-planning-tool.md)
 
-  - [<span data-ttu-id="faec6-116">在 Lync Server 2013 中安装可选软件</span><span class="sxs-lookup"><span data-stu-id="faec6-116">Installing optional software in Lync Server 2013</span></span>](lync-server-2013-installing-optional-software.md)
+  - [<span data-ttu-id="8a85a-117">在 Lync Server 2013 中安装可选软件</span><span class="sxs-lookup"><span data-stu-id="8a85a-117">Installing optional software in Lync Server 2013</span></span>](lync-server-2013-installing-optional-software.md)
 
-  - [<span data-ttu-id="faec6-117">在 Lync Server 2013 中导航规划工具</span><span class="sxs-lookup"><span data-stu-id="faec6-117">Navigating the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-navigating-the-planning-tool.md)
+  - [<span data-ttu-id="8a85a-118">在 Lync Server 2013 中导航规划工具</span><span class="sxs-lookup"><span data-stu-id="8a85a-118">Navigating the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-navigating-the-planning-tool.md)
 
-  - [<span data-ttu-id="faec6-118">为 Lync Server 2013 创建初始拓扑设计</span><span class="sxs-lookup"><span data-stu-id="faec6-118">Create the initial topology design for Lync Server 2013</span></span>](lync-server-2013-create-the-initial-topology-design.md)
+  - [<span data-ttu-id="8a85a-119">为 Lync Server 2013 创建初始拓扑设计</span><span class="sxs-lookup"><span data-stu-id="8a85a-119">Create the initial topology design for Lync Server 2013</span></span>](lync-server-2013-create-the-initial-topology-design.md)
 
-  - [<span data-ttu-id="faec6-119">在 Lync Server 2013 中查看管理员报告</span><span class="sxs-lookup"><span data-stu-id="faec6-119">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)
+  - [<span data-ttu-id="8a85a-120">在 Lync Server 2013 中查看管理员报告</span><span class="sxs-lookup"><span data-stu-id="8a85a-120">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="faec6-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="faec6-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8a85a-121">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8a85a-121">See Also</span></span>
 
 
-[<span data-ttu-id="faec6-121">部署 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="faec6-121">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)  
-[<span data-ttu-id="faec6-122">在 Lync Server 2013 中规划前端服务器、即时消息和状态</span><span class="sxs-lookup"><span data-stu-id="faec6-122">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
+[<span data-ttu-id="8a85a-122">部署 Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a85a-122">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)  
+[<span data-ttu-id="8a85a-123">在 Lync Server 2013 中规划前端服务器、即时消息和状态</span><span class="sxs-lookup"><span data-stu-id="8a85a-123">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
   
 
 </div>
