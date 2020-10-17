@@ -12,20 +12,22 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 693b228eb0065375bd01cb9eedabed46ec1833a3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0feda45fd6c035209783d173da3a85dec3876e50
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48505279"
 ---
+# <a name="new-trunk-feature-in-lync-server-2013"></a><span data-ttu-id="8536a-102">Lync Server 2013 中的新中继功能</span><span class="sxs-lookup"><span data-stu-id="8536a-102">New trunk feature in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-trunk-feature-in-lync-server-2013"></a><span data-ttu-id="f67a1-102">Lync Server 2013 中的新中继功能</span><span class="sxs-lookup"><span data-stu-id="f67a1-102">New trunk feature in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,16 +37,16 @@ ms.locfileid: "42216748"
 
 <span> </span>
 
-<span data-ttu-id="f67a1-103">_**上次修改的主题：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="f67a1-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="8536a-103">_**上次修改的主题：** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="8536a-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="f67a1-104">在 Microsoft Lync Server 2013 中，可以定义中介服务器和网关之间的多个中继。</span><span class="sxs-lookup"><span data-stu-id="f67a1-104">In Microsoft Lync Server 2013, multiple trunks between a Mediation Server and a gateway can be defined.</span></span> <span data-ttu-id="f67a1-105">Microsoft Lync Server 2010 仅允许在中介服务器和 PSTN 网关之间实现单一中继。</span><span class="sxs-lookup"><span data-stu-id="f67a1-105">Microsoft Lync Server 2010 only allowed for a single trunk between a Mediation Server and a PSTN gateway.</span></span> <span data-ttu-id="f67a1-106">此功能使您能够灵活地定义额外的中继。</span><span class="sxs-lookup"><span data-stu-id="f67a1-106">This feature provides the flexibility to define additional trunks.</span></span> <span data-ttu-id="f67a1-107">中继是中介服务器 FQDN 和侦听端口与 PSTN 网关 FQDN 和侦听端口之间的逻辑关联。</span><span class="sxs-lookup"><span data-stu-id="f67a1-107">A trunk is a logical association between a Mediation Server FQDN and listening port and a PSTN gateway FQDN and listening port.</span></span> <span data-ttu-id="f67a1-108">这一新功能允许轻松进行恢复的中继定义（其中多个中介服务器可用于将呼叫路由到同一个 PSTN 网关），以实现 PBX 互操作性，在和之间可以使用具有不同关联策略的多个中继。IP-PBX 和中介服务器，以及针对不同站点中的中介服务器具有 SIP 中继的 SIP 中继配置，后者由同一个运营商 FQDN 引用的运营商。</span><span class="sxs-lookup"><span data-stu-id="f67a1-108">This new capability allows for easy trunk definition for resiliency (where multiple Mediation Servers can be used to route calls to the same PSTN Gateway), for PBX interoperability, where multiple trunks with different associated policies can be used between and IP-PBX and a Mediation Server, and for SIP trunk configurations where Mediation Servers at different sites have SIP trunks to the carrier referenced by the same carrier FQDN.</span></span>
+<span data-ttu-id="8536a-104">在 Microsoft Lync Server 2013 中，可以定义中介服务器和网关之间的多个中继。</span><span class="sxs-lookup"><span data-stu-id="8536a-104">In Microsoft Lync Server 2013, multiple trunks between a Mediation Server and a gateway can be defined.</span></span> <span data-ttu-id="8536a-105">Microsoft Lync Server 2010 仅允许在中介服务器和 PSTN 网关之间实现单一中继。</span><span class="sxs-lookup"><span data-stu-id="8536a-105">Microsoft Lync Server 2010 only allowed for a single trunk between a Mediation Server and a PSTN gateway.</span></span> <span data-ttu-id="8536a-106">此功能使您能够灵活地定义额外的中继。</span><span class="sxs-lookup"><span data-stu-id="8536a-106">This feature provides the flexibility to define additional trunks.</span></span> <span data-ttu-id="8536a-107">中继是中介服务器 FQDN 和侦听端口与 PSTN 网关 FQDN 和侦听端口之间的逻辑关联。</span><span class="sxs-lookup"><span data-stu-id="8536a-107">A trunk is a logical association between a Mediation Server FQDN and listening port and a PSTN gateway FQDN and listening port.</span></span> <span data-ttu-id="8536a-108">这一新功能允许轻松进行弹性 (的中继定义，在这种情况下，可以使用多个中介服务器将呼叫路由到同一个 PSTN 网关) ，以实现 PBX 互操作性，其中可以在和 ip-pbx 和中介服务器之间使用具有不同关联策略的多个中继，以及在同一运营商 FQDN 所引用的运营商的 SIP 中继配置。</span><span class="sxs-lookup"><span data-stu-id="8536a-108">This new capability allows for easy trunk definition for resiliency (where multiple Mediation Servers can be used to route calls to the same PSTN Gateway), for PBX interoperability, where multiple trunks with different associated policies can be used between and IP-PBX and a Mediation Server, and for SIP trunk configurations where Mediation Servers at different sites have SIP trunks to the carrier referenced by the same carrier FQDN.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f67a1-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f67a1-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8536a-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8536a-109">See Also</span></span>
 
 
-[<span data-ttu-id="f67a1-110">Lync Server 2013 中新的企业语音功能</span><span class="sxs-lookup"><span data-stu-id="f67a1-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="8536a-110">Lync Server 2013 中新的企业语音功能</span><span class="sxs-lookup"><span data-stu-id="8536a-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>
