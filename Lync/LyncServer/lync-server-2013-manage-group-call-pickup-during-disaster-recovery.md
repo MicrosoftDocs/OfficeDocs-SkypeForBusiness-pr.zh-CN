@@ -12,20 +12,22 @@ ms:contentKeyID: 51541455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f58894a00c853f04d5d4c6f995edc17683b12e9f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d181570b55ce175a63ac1ac1f218ee99aec7a5a0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42218248"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534529"
 ---
+# <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中管理灾难恢复期间的组呼叫装货
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中管理灾难恢复期间的组呼叫装货
+
 
 </div>
 
@@ -49,9 +51,9 @@ _**上次修改的主题：** 2013-01-30_
 
 在灾难恢复过程中，作为故障转移过程的一部分被重定向到备份池的用户将使用在备份池中为呼叫应答组编号运行的呼叫寄存应用程序。 因此，在灾难恢复过程中对组呼叫选取的支持要求在主池和备份池中部署和启用呼叫寄存应用程序。
 
-在完成对备份池的故障转移过程后，必须将呼叫寄存通道表中的组内呼叫应答号范围重定向到备份池。 在将故障回复进程完成后，必须将号码范围重定向回主池。 若要重定向组的呼叫装货范围，请使用**CsCallParkOrbit** cmdlet。
+在完成对备份池的故障转移过程后，必须将呼叫寄存通道表中的组内呼叫应答号范围重定向到备份池。 在将故障回复进程完成后，必须将号码范围重定向回主池。 若要重定向组的呼叫装货范围，请使用 **CsCallParkOrbit** cmdlet。
 
-如果使用其他完全限定的域名（FQDN）部署新池以替换主池，则需要将与主池关联的所有组呼叫应答号码范围重新分配给新池的 FQDN。 若要将号码范围重新分配给新池，您可以使用**CsCallParkOrbit** cmdlet。 有关**CsCallParkOrbit** cmdlet 的详细信息，请参阅[CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)。
+如果使用其他完全限定的域名部署新池 (FQDN) 替换主池，则需要将与主池关联的所有组呼叫应答号码范围重新分配给新池的 FQDN。 若要将号码范围重新分配给新池，您可以使用 **CsCallParkOrbit** cmdlet。 有关 **CsCallParkOrbit** cmdlet 的详细信息，请参阅 [CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit)。
 
 </div>
 

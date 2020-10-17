@@ -12,20 +12,22 @@ ms:contentKeyID: 48185223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 986350a766716cc8a1fc35a734933f30b25a70ec
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8ca6719ce8d1822f8d1d49ac08dfc6b6f54df7e0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211088"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535529"
 ---
+# <a name="voice-policies-in-lync-server-2013"></a>Lync Server 2013 中的语音策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-policies-in-lync-server-2013"></a>Lync Server 2013 中的语音策略
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211088"
 
 _**上次修改的主题：** 2012-09-21_
 
-Lync Server*语音策略*为分配了策略的每个用户、站点或组织定义以下各项：
+Lync Server *语音策略* 为分配了策略的每个用户、站点或组织定义以下各项：
 
   - 一组可以启用或禁用的呼叫功能，以确定用户可使用的企业语音功能。
 
@@ -63,7 +65,7 @@ Lync Server*语音策略*为分配了策略的每个用户、站点或组织定�
 
 ## <a name="voice-policy-scope"></a>语音策略作用域
 
-*语音策略作用域* 确定可以应用策略的层次级别。 在 Lync Server 中，可以配置具有以下范围级别的语音策略（按从最具体到最常规的顺序列出）。
+*语音策略作用域* 确定可以应用策略的层次级别。 在 Lync Server 中，可以使用从最具体到最常规的) 列出的以下范围级别 (配置语音策略。
 
   - **用户语音策略**：可分配给各个用户、组或联系人对象。这是最低级别的策略。可以部署用户语音策略，以便为某个站点上的特定用户或组启用某些功能，但不会为同一站点中的其他人启用这些功能。例如，您可能希望对某些员工禁用长途拨号。为了分配语音策略，会将联系人对象视为单个用户。
     
@@ -116,7 +118,7 @@ Lync Server*语音策略*为分配了策略的每个用户、站点或组织定�
 
 ## <a name="pstn-usage-records"></a>PSTN 用法记录
 
-每个语音策略应具有一条或多条关联的 PSTN 用法记录。 PSTN 用法可以与语音策略相关联，以仅用于同时响铃和呼叫转接。 有关规划 PSTN 用法记录的详细信息，请参阅[Lync Server 2013 中的 pstn 用法记录](lync-server-2013-pstn-usage-records.md)。
+每个语音策略应具有一条或多条关联的 PSTN 用法记录。 PSTN 用法可以与语音策略相关联，以仅用于同时响铃和呼叫转接。 有关规划 PSTN 用法记录的详细信息，请参阅 [Lync Server 2013 中的 pstn 用法记录](lync-server-2013-pstn-usage-records.md)。
 
 <div>
 

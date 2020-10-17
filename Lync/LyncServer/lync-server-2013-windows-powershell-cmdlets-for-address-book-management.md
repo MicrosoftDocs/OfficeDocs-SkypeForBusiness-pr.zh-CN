@@ -12,20 +12,22 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69af5cc5bc9279b1be748cb9a38477ea6d0f3aa6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 170936c8ca4445a7dc4e816c2300176d9b730f80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210218"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535319"
 ---
+# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Lync Server 2013 中的通讯簿服务的 Windows PowerShell cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-powershell-cmdlets-for-address-book-services-in-lync-server-2013"></a>Lync Server 2013 中的通讯簿服务的 Windows PowerShell cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42210218"
 
 _**上次修改的主题：** 2012-11-01_
 
-Lync Server 提供了许多 Windows PowerShell 命令行接口 cmdlet 来管理和配置通讯簿服务。 其中一些 cmdlet 是在 Office 通信服务器的早期版本中使用的 ABServer 命令的替代项。 以下主题中的 cmdlet 用于设置、创建和检索有关通讯簿服务及其配置的信息，以及有关当客户端检索通讯簿服务文件和设置时通讯簿服务使用的 Web 服务的信息。
+Lync Server 提供了许多 Windows PowerShell 命令行接口 cmdlet 来管理和配置通讯簿服务。 这些 cmdlet 中的一些将替换早期版本的 Office 通信服务器中使用的 ABServer.exe 命令。 以下主题中的 cmdlet 用于设置、创建和检索有关通讯簿服务及其配置的信息，以及有关当客户端检索通讯簿服务文件和设置时通讯簿服务使用的 Web 服务的信息。
 
 所有这些 cmdlet 都是通过在安装了管理工具的服务器或工作站上的 Lync server 工具中找到的 Lync Server 命令行管理程序来颁发的。
 
@@ -83,7 +85,7 @@ Lync Server 提供了许多 Windows PowerShell 命令行接口 cmdlet 来管理�
 
 <div>
 
-## <a name="see-also"></a>请参阅
+## <a name="see-also"></a>另请参阅
 
 
 [https://go.microsoft.com/fwlink/p/?linkId=205826](https://go.microsoft.com/fwlink/p/?linkid=205826)  

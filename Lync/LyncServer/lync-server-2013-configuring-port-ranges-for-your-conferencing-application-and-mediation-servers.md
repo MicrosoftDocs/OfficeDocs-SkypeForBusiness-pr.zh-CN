@@ -12,20 +12,22 @@ ms:contentKeyID: 48184074
 ms.date: 05/01/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3c1666e0f1c6f4c208cf5664741ca7cedbe6a1f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b3df859017ca54d32ad56580c842f748114166d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535059"
 ---
+# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>在 Lync Server 2013 中为您的会议、应用程序和中介服务器配置端口范围
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>在 Lync Server 2013 中为您的会议、应用程序和中介服务器配置端口范围
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2015-04-30_
 
 同样，假定您为视频保留了端口 10000 至 10999，但之后为音频保留了端口 10500 至 11999。这会产生服务质量问题，因为端口范围重叠。对于 QoS，每种形式必须具有一组唯一的端口：如果您将端口 10000 至 10999 用于视频，则必须使用不同的范围（例如，对音频使用 11000 至 11999）。
 
-默认情况下，Microsoft Lync Server 2013 中的音频和视频端口范围不重叠;但是，分配给应用程序共享的端口范围与音频和视频端口范围重叠。 （反过来，这意味着这些范围都不是唯一的。）您可以通过在 Lync Server 2013 命令行管理程序中运行以下三个命令来验证您的会议、应用程序和中介服务器的现有端口范围：
+默认情况下，Microsoft Lync Server 2013 中的音频和视频端口范围不重叠;但是，分配给应用程序共享的端口范围与音频和视频端口范围重叠。  (这意味着，这些范围都不是唯一的。 ) 您可以通过在 Lync Server 2013 命令行管理程序中运行以下三个命令来验证您的会议、应用程序和中介服务器的现有端口范围：
 
     Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
@@ -118,7 +120,7 @@ _**上次修改的主题：** 2015-04-30_
 </table>
 
 
-如前所述，在为 QoS 配置 Lync Server 端口时，应确保：1）音频端口设置在您的所有会议、应用程序和中介服务器上都相同;和2）端口范围不重叠。 如果仔细查看前面的表，您将看到端口范围在三种服务器类型中相同。 例如，在每个服务器类型上，启动音频端口设置为端口49152，在每个服务器上为音频保留的端口总数也相同：8348。 但是，端口范围重叠：音频端口从端口49152开始，但这些端口设置为应用程序共享。 为了获得最佳使用服务质量，应将应用程序共享重新配置为使用唯一的端口范围。 例如，可以将应用程序共享配置为在端口40803处启动，并使用8348端口。 （为什么要8348端口？ 如果将这些值一起添加--40803 + 8348--这意味着应用程序共享将使用端口40803通过端口49150。 由于音频端口不会开始到端口49152，因此您将不再具有任何重叠的端口范围。
+如前所述，为 QoS 配置 Lync Server 端口时，应确保在您的所有会议、应用程序和中介服务器上的： 1) 音频端口设置相同;2) 端口范围不重叠。 如果仔细查看前面的表，您将看到端口范围在三种服务器类型中相同。 例如，在每个服务器类型上，启动音频端口设置为端口49152，在每个服务器上为音频保留的端口总数也相同：8348。 但是，端口范围重叠：音频端口从端口49152开始，但这些端口设置为应用程序共享。 为了获得最佳使用服务质量，应将应用程序共享重新配置为使用唯一的端口范围。 例如，可以将应用程序共享配置为在端口40803处启动，并使用8348端口。  (为什么要8348端口？ 如果将这些值一起添加--40803 + 8348--这意味着应用程序共享将使用端口40803通过端口49150。 由于音频端口不会开始到端口49152，因此您将不再具有任何重叠的端口范围。 ) 
 
 为应用程序共享选择新的端口范围之后，您可使用 Set-CsConferencingServer cmdlet 进行更改。此更改无需在应用程序服务器或中介服务器上进行，因为这些服务器不会处理应用程序共享流量。如果您决定重新分配用于音频通信的端口，则只需更改这些服务器上的端口值。
 

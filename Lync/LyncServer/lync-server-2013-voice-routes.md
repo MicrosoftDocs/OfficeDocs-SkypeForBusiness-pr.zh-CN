@@ -12,20 +12,22 @@ ms:contentKeyID: 48185038
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434f7cc92fd6a6bc284074cce476f4bc3b2eca01
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d0f457fc96981927ea2b6cb4d4177488dc3f5231
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211068"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535489"
 ---
+# <a name="voice-routes-in-lync-server-2013"></a>Lync Server 2013 中的语音路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-routes-in-lync-server-2013"></a>Lync Server 2013 中的语音路由
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**上次修改的主题：** 2012-10-22_
 
 ## <a name="mn-trunk-support"></a>M:N 中继支持
 
-Lync Server 提供了如何将呼叫路由到 PSTN 的灵活性。 语音路由可指定一组指向可用于特定语音呼叫的 PSTN 的中继。 中继将中介服务器和端口号与 PSTN 网关和侦听端口号相关联。 通过此逻辑关联，中介服务器可以与多个网关关联，并且可以连接到同一网关的多个连接。 在定义呼叫路由时，请指定与该路由关联的中继，但不指定与该路由关联的中介服务器。 若要通过定义中介服务器和 PSTN 网关、IP-PBX 和会话边界控制器（SBCs）之间的关系来创建中继，请使用拓扑生成器。
+Lync Server 提供了如何将呼叫路由到 PSTN 的灵活性。 语音路由可指定一组指向可用于特定语音呼叫的 PSTN 的中继。 中继将中介服务器和端口号与 PSTN 网关和侦听端口号相关联。 通过此逻辑关联，中介服务器可以与多个网关关联，并且可以连接到同一网关的多个连接。 在定义呼叫路由时，请指定与该路由关联的中继，但不指定与该路由关联的中介服务器。 若要通过在中介服务器与 PSTN 网关、IP Pbx 和会话边界控制器之间定义关系来创建中继， (SBCs) ，请使用拓扑生成器。
 
 </div>
 
@@ -85,7 +87,7 @@ Lync Server 提供了如何将呼叫路由到 PSTN 的灵活性。 语音路由�
 
 ## <a name="translating-outbound-dial-strings"></a>转换出站拨号串
 
-Lync Server 2013 （如它的直属前置任务）要求将所有拨号字符串规范化为 e.164 格式，以执行反向号码查找（RNL）。 对于需要使用本地拨号格式转换号码的网关或专用交换机（Pbx）的中继，Lync Server 2013 使您能够创建一个或多个规则，以协助在将其路由到之前处理已调用的号码（例如请求 URI）。干线. 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的规则。
+Lync Server 2013 （如它的直属前置任务）要求将所有拨号字符串正常化为 e.164 格式，以执行反向号码查找 (RNL) 。 对于网关或专用交换机 (需要使用本地拨号格式转换号码的 Pbx) ，Lync Server 2013 使您能够创建一个或多个规则，以协助在将其路由到中继之前处理被叫号码 (例如，请求 URI) 。 例如，可以编写用于删除拨号串开头的 +44 并将其替换为 0144 的规则。
 
 在 Lync Server 2013 中，可以创建一个或多个规则，在将呼叫号码路由到中继之前对其进行操作，以协助对其进行操作。
 
@@ -97,7 +99,7 @@ Lync Server 2013 （如它的直属前置任务）要求将所有拨号字符串
 
 ## <a name="configuring-caller-id"></a>配置呼叫者 ID
 
-Lync Server 提供了一种为出站呼叫操作呼叫者 ID 的方法。 例如，如果组织想要屏蔽员工的直接拨号分机并将其替换为通用公司或部门号码，则管理员可以通过使用 Lync Server 控制面板抑制呼叫者 ID 并将其替换为指定的备用呼叫者 ID。 在规划路由逻辑时，请考虑您希望此选项面向哪些个人、组或站点—甚至也许面向所有员工。
+Lync Server 提供了一种为出站呼叫操作呼叫者 ID 的方法。 例如，如果组织想要屏蔽员工的直接拨号分机并将其替换为通用公司或部门号码，则管理员可以通过使用 Lync Server 控制面板抑制呼叫者 ID 并将其替换为指定的备用呼叫者 ID 来执行此操作。 在规划路由逻辑时，请考虑您希望此选项面向哪些个人、组或站点—甚至也许面向所有员工。
 
 <div>
 

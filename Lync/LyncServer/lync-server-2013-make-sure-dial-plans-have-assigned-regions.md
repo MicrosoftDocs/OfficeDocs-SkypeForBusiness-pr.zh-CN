@@ -12,20 +12,22 @@ ms:contentKeyID: 48183937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a1982a3625fce40eee9b46036fa4e294ed75edd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f9f9a67a65b870edd75259bca7c74a1fae2749f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534559"
 ---
+# <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>确保拨号计划 Lync Server 2013 已分配区域
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>确保拨号计划 Lync Server 2013 已分配区域
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2010-11-02_
 
 因为为所有拨号计划指定区域非常重要，我们建议您使用此过程验证是否所有拨号计划均有区域。此步骤是可选的。
 
-使用 **Get-CsDialPlan** cmdlet 验证是否为所有电话拨入式会议拨号计划设置了区域。 如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。 您还可以使用 Lync Server 控制面板更新现有拨号计划中的区域。 有关使用 Lync Server 控制面板的详细信息，请参阅[在 Lync server 2013 中修改拨号计划](lync-server-2013-modify-a-dial-plan.md)。
+使用 **Get-CsDialPlan** cmdlet 验证是否为所有电话拨入式会议拨号计划设置了区域。 如果拨号计划中缺少区域，可使用 **Set-CsDialPlan** cmdlet 设置区域。 您还可以使用 Lync Server 控制面板更新现有拨号计划中的区域。 有关使用 Lync Server 控制面板的详细信息，请参阅 [在 Lync server 2013 中修改拨号计划](lync-server-2013-modify-a-dial-plan.md)。
 
 <div>
 

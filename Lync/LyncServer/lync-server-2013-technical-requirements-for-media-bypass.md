@@ -12,20 +12,22 @@ ms:contentKeyID: 48184321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e81a90ff0fa7b33bb83e8abbb4ccb6819d6ac11
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2789ecc6f72babf2b0267f70705fd41ecd1a7aaf
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194855"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533789"
 ---
+# <a name="technical-requirements-for-media-bypass-in-lync-server-2013"></a>Lync Server 2013 中媒体旁路的技术要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-media-bypass-in-lync-server-2013"></a>Lync Server 2013 中媒体旁路的技术要求
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2012-09-21_
 
 当满足以下要求时，可采用媒体旁路功能：
 
-  - 中介服务器对等方必须支持媒体旁路的必要功能，最重要的是处理多个分叉响应的能力（称为 "早期对话框"）。 与网关、PBX 制造商或 ITSP 联系，以获取网关、PBX 或 SBC 可接受的最大早期对话数的值。
+  - 中介服务器对等方必须支持媒体旁路的必要功能，最重要的是处理多个分叉响应的能力 (称为 "早期对话框" ) 。 与网关、PBX 制造商或 ITSP 联系，以获取网关、PBX 或 SBC 可接受的最大早期对话数的值。
 
   - 中介服务器对等方必须直接从 Lync 终结点接受媒体流量。 许多 ITSPs 只允许其 SBC 接收来自中介服务器的通信。 请联系你的 ITSP 以确定其 SBC 是否接受来自 Lync 终结点的媒体流量。
 

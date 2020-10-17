@@ -12,20 +12,22 @@ ms:contentKeyID: 48183949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7a37578840191e8905827727e91665fc7a7512d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6287b5edd711df845b862b49bc15adb8405e8587
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210946"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535359"
 ---
+# <a name="overview-of-web-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的 web 会议概述
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-web-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的 web 会议概述
+
 
 </div>
 
@@ -79,11 +81,11 @@ _**上次修改的主题：** 2012-09-30_
 
 在 Lync 2010 中，以两种方式之一查看 PowerPoint 演示文稿。 对于运行 Lync 2010 的用户，PowerPoint 演示文稿使用 PowerPoint 97-2003 格式显示，并使用 PowerPoint viewer 的嵌入副本进行查看。 对于运行 Lync Web App 的用户，PowerPoint 演示文稿转换为动态 HTML 文件，然后使用这些自定义 DHTML 文件和 Silverlight 的组合进行查看。 虽然此方法通常很有效，但它存在一些限制：
 
-  - 嵌入的 PowerPoint 查看器（提供了最佳的观看体验）仅在 Windows 平台上可用。
+  - 仅在 Windows 平台上提供了 (提供最佳观看体验) 的嵌入式 PowerPoint Viewer。
 
-  - 许多移动设备（包括一些较常见的移动电话）不支持 Silverlight。
+  - 许多移动设备 (包括一些较常见的移动电话) 不支持 Silverlight。
 
-  - PowerPoint Viewer 和 DHTML/Silverlight 方法不支持在 PowerPoint 的较新版本中找到的所有功能（如幻灯片切换和嵌入视频）。
+  - PowerPoint Viewer 和 DHTML/Silverlight 方法不支持在 PowerPoint 的较新版本中找到的所有功能 (此类幻灯片切换和嵌入视频) 。
 
 为了帮助解决这些问题，并提高演示或查看 PowerPoint 演示文稿的用户的整体体验，Lync Server 2013 使用 Office Web Apps 和 Office Web Apps 服务器来处理 PowerPoint 演示文稿。 除其他好处之外，此新方法还：
 

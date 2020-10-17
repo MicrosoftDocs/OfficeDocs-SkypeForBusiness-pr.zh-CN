@@ -12,38 +12,43 @@ description: 了解可用于各种需求（例如财务、活动计划、销售�
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: okr_smb
+ms.custom:
+- ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
+- ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
+- ms.teamsadmincenter.teamschannel.overview
+- ms.teamsadmincenter.teamssettings.overview
+- okr_smb
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36c29eaba8a16bde44e9f3537eee9950c53d2715
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a6c4e8f37a00ddfb464630eeb644db3d550781d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581823"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534949"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的团队和频道概述
 
 > [!NOTE]
-> 查看以下信息以了解团队中的聊天、团队、频道 & 应用。 然后，转到 "[聊天"、"团队"、"频道"、"& 团队中的应用"，](deploy-chat-teams-channels-microsoft-teams-landing-page.md)浏览针对团队推出的重要决策列表。
+> 查看以下信息以了解团队中的聊天、团队、频道 & 应用。 然后，转到 " [聊天"、"团队"、"频道"、"& 团队中的应用"，](deploy-chat-teams-channels-microsoft-teams-landing-page.md) 浏览针对团队推出的重要决策列表。
 
 我们首先来了解 Microsoft Teams 如何允许单个团队进行自我组织并跨业务场景进行协作：
 
-- **团队**是组织内不同项目和结果周围的人员、内容和工具的集合。
+- **团队** 是组织内不同项目和结果周围的人员、内容和工具的集合。
 
     - 可以创建只允许受邀用户加入的专用团队。
     - 团队还可以创建为公共和开放团队，并且组织内的任何人都可以加入 (多达10000的成员) 。
     
     团队用于将一群人集中在一起，以便这些人密切合作来完成事情。 对于基于项目的工作（例如，使某个产品上市或创建数字化作战室），团队可以是动态的，也可以是持续存在的，以反映组织的内部结构（例如，部门和办公室位置）。 跨团队频道的对话、文件和笔记仅对团队成员可见。
 
-- **频道**是团队中的专用区域，用于保留按特定主题、项目、专业（适用于你的团队的任何内容！）组织的对话。 在频道中共享的文件 ("文件" 选项卡上的) 存储在 SharePoint 中。 若要了解详细信息，请参阅[SharePoint Online 和 OneDrive For Business 如何与团队进行交互](SharePoint-OneDrive-interact.md)。
+- **频道**是团队中的专用区域，用于保留按特定主题、项目、专业（适用于你的团队的任何内容！）组织的对话。 在频道中共享的文件 ("文件" 选项卡上的) 存储在 SharePoint 中。 若要了解详细信息，请参阅 [SharePoint Online 和 OneDrive For Business 如何与团队进行交互](SharePoint-OneDrive-interact.md)。
 
-    - 频道是指出现对话的地方以及工作实际完成的位置。 可以向所有团队成员开放频道，或者，如果你需要更多的选择受众，则可以使用专用。 标准频道用于与团队中的每个人都可以参与和[专用频道](private-channels.md)限制与团队中人员的子集进行通信的对话。
-    - 通过包含选项卡、连接器和机器人的应用进行扩展时，通道最有价值，这些应用会将其值增加到团队成员。 若要了解详细信息，请参阅[团队中的应用、bot、& 连接器](deploy-apps-microsoft-teams-landing-page.md)。
+    - 频道是指出现对话的地方以及工作实际完成的位置。 可以向所有团队成员开放频道，或者，如果你需要更多的选择受众，则可以使用专用。 标准频道用于与团队中的每个人都可以参与和 [专用频道](private-channels.md) 限制与团队中人员的子集进行通信的对话。
+    - 通过包含选项卡、连接器和机器人的应用进行扩展时，通道最有价值，这些应用会将其值增加到团队成员。 若要了解详细信息，请参阅 [团队中的应用、bot、& 连接器](deploy-apps-microsoft-teams-landing-page.md)。
     
-有关使用团队和频道的帮助，请查看[团队和频道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
+有关使用团队和频道的帮助，请查看 [团队和频道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
 观看此简短视频，了解有关创建团队和频道的最佳做法的详细信息。
 
@@ -62,14 +67,14 @@ ms.locfileid: "46581823"
 
 Microsoft 团队中有两个主要角色： 
 
-- **团队所有者**-创建团队的人员。 团队所有者可以在邀请联系人加入团队时或者在他们加入团队后将团队的任意成员设为共同所有者。 有了多个团队所有者，您可以分享管理设置和成员身份的责任，包括邀请。
-- **工作组成员**-所有者邀请加入其团队的人员。
+- **团队所有者** -创建团队的人员。 团队所有者可以在邀请联系人加入团队时或者在他们加入团队后将团队的任意成员设为共同所有者。 有了多个团队所有者，您可以分享管理设置和成员身份的责任，包括邀请。
+- **工作组成员** -所有者邀请加入其团队的人员。
 
 此外，如果设置了 "裁决"，团队所有者和成员可以拥有频道的版主功能。 审阅人可以在频道中启动新的文章，并控制团队成员是否可以答复现有频道消息。 团队所有者可在频道内分配监督人。 默认情况下， (团队所有者具有审阅者功能。 ) 在频道中的审阅人可以在该频道中添加或删除其他监督人。 有关详细信息，请参阅[在 Microsoft Teams 中设置和管理频道审核](manage-channel-moderation-in-teams.md)。
 
 **团队设置** 
 
-团队所有者可以直接在 Microsoft 团队中管理团队范围的设置。 设置包括添加团队图片的功能、在团队成员之间设置创建标准和[专用通道](private-channels.md)的权限、添加选项卡和连接器、@mentioning 整个团队或频道以及 gif、贴纸和 meme 的用法。
+团队所有者可以直接在 Microsoft 团队中管理团队范围的设置。 设置包括添加团队图片的功能、在团队成员之间设置创建标准和 [专用通道](private-channels.md)的权限、添加选项卡和连接器、@mentioning 整个团队或频道以及 gif、贴纸和 meme 的用法。
 
 请花三分钟时间查看有关团队所有者的此转到指南的视频：
 
@@ -107,4 +112,4 @@ Microsoft 团队非常适用于细分组织小仓库和提升跨职能团队，�
 
 ## <a name="org-wide-teams"></a>组织范围的团队
 
-如果您的组织不超过5000个用户，则可以创建组织范围的团队。 组织范围的团队为组织中的每个人提供了一种自动方法，作为单个团队协作的一部分。 有关详细信息（包括创建和管理组织范围的团队的最佳做法），请参阅[在 Microsoft 团队中创建组织范围的团队](create-an-org-wide-team.md)。
+如果您的组织不超过5000个用户，则可以创建组织范围的团队。 组织范围的团队为组织中的每个人提供了一种自动方法，作为单个团队协作的一部分。 有关详细信息（包括创建和管理组织范围的团队的最佳做法），请参阅 [在 Microsoft 团队中创建组织范围的团队](create-an-org-wide-team.md)。

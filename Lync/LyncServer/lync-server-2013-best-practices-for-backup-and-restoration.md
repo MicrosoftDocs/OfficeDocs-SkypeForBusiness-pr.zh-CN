@@ -12,20 +12,22 @@ ms:contentKeyID: 51541500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30dd3345545ae8c77c4ebfcece7154e91059f9aa
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca14913d063a8691d0477af912e70e72b91143fa
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535199"
 ---
+# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a>Lync Server 2013 备份和还原的最佳实践
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a>Lync Server 2013 备份和还原的最佳实践
+
 
 </div>
 
@@ -51,13 +53,13 @@ _**上次修改的主题：** 2013-02-21_
 
   - 按适当的时间间隔执行定期备份。 最简单、最常用的备份类型和轮换计划是整个 SQL Server 数据库的夜间完整备份。 然后，如果需要还原，则还原过程只需要一个备份，且不会丢失超过一天的数据。
 
-  - 如果使用 cmdlet 或 Lync Server 控制面板进行配置更改，请使用**CsConfiguration** cmdlet 在进行更改后拍摄拓扑配置文件（Xds）的快照备份，这样，如果需要还原数据库，则不会丢失所做的更改。 请注意，将以 XML 格式备份此配置并将其压缩为 ZIP 文件。
+  - 如果您使用 cmdlet 或 Lync Server 控制面板进行配置更改，请使用 **CsConfiguration** cmdlet 对拓扑配置文件进行快照备份，以在进行更改后 (Xds) ，这样，如果需要还原数据库，则不会丢失所做的更改。 请注意，将以 XML 格式备份此配置并将其压缩为 ZIP 文件。
 
   - 请确保计划用于备份 Lync Server 的共享文件夹有足够的磁盘空间来容纳所有备份的数据。
 
   - 在 Lync Server 使用率通常较低时安排备份，以改善服务器性能和用户体验。
 
-  - 请确保备份数据的位置是安全的（我们建议远程位置）。
+  - 请确保备份数据的位置是安全的 (我们建议远程位置) 。
 
   - 将备份文件保留在其中，以便在需要还原数据时使用。
 
@@ -71,9 +73,9 @@ _**上次修改的主题：** 2013-02-21_
 
 ## <a name="best-practices-for-minimizing-the-impact-of-a-disaster"></a>最大程度降低灾难影响的最佳做法
 
-处理灾难性服务中断的最佳策略（因断电或突然出现硬件故障等事件而引起）是假设它们将会发生，并进行相应的规划。
+处理灾难性服务中断的最佳策略 (由无法管理的事件（如断电或突然硬件故障）造成的) 是假设它们会发生，并相应地进行规划。
 
-如果至少中断和停机的 Lync 服务对您的组织至关重要，应考虑实施前端服务器的配对池，如在[Lync Server 2013 中规划高可用性和灾难恢复中](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)所述。 然后，如果其中一个池发生灾难，管理员可以将该池的用户切换为由另一个池提供服务，最少停机时间。
+如果至少中断和停机的 Lync 服务对您的组织至关重要，应考虑实施前端服务器的配对池，如在 [Lync Server 2013 中规划高可用性和灾难恢复中](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)所述。 然后，如果其中一个池发生灾难，管理员可以将该池的用户切换为由另一个池提供服务，最少停机时间。
 
 作为备份和还原策略的一部分开发的灾难管理计划应包括以下各项：
 
@@ -85,9 +87,9 @@ _**上次修改的主题：** 2013-02-21_
 
   - 在灾难恢复中培训你的员工，记录过程，并实施灾难恢复模拟训练。
 
-  - 保留备用硬件，或者如果你有服务级别协议（SLA），请与硬件供应商和供应商签订以进行提示替换。
+  - 如果有服务级别协议 (SLA) ，请与硬件供应商和供应商签订以进行提示替换，以保持备用硬件的可用性。
 
-  - 分隔事务日志文件（.ldf 文件）和数据库文件（.mdf 文件）的位置。
+  -  ( .ldf 文件中的事务日志文件的位置分开) 和数据库文件)  ( .mdf 文件。
 
 </div>
 

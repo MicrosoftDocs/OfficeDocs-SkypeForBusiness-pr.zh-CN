@@ -12,20 +12,22 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab574067b05b494601e0dd769003cb01904c52bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7922fe79d97a1fa83fdaa5afbc1eeddee8523e37
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211098"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535579"
 ---
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>在 Lync Server 2013 中查看林的全局设置状态
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>在 Lync Server 2013 中查看林的全局设置状态
+
 
 </div>
 
@@ -45,11 +47,11 @@ _**上次修改的主题：** 2014-05-20_
 
 ## <a name="check-general-settings"></a>检查常规设置
 
-检查常规设置，包括 Lync Server 2013 支持的会话初始协议（SIP）域。
+检查 "常规设置"，包括 Lync Server 2013 (SIP) 域的受支持的会话初始协议。
 
-SIP 域信息可以通过使用 Windows PowerShell 和**CsSipDomain** cmdlet 返回。 若要返回此信息，请`Get-CsSipDomain`运行 Windows PowerShell 命令。
+SIP 域信息可以通过使用 Windows PowerShell 和 **CsSipDomain** cmdlet 返回。 若要返回此信息，请运行 `Get-CsSipDomain` Windows PowerShell 命令。
 
-对于所有授权的 SIP 域，CsSipDomain 将返回与以下内容类似的信息：
+对于所有授权的 SIP 域，Get-CsSipDomain 将返回与以下内容类似的信息：
 
 标识名称 IsDefault
 
@@ -59,7 +61,7 @@ fabrikam.com fabrikam.com True
 
 na.fabrikam.com na.fabrikam.com False
 
-如果 IsDefault 属性设置为 True，则相应的域是默认的 SIP 域。 您可以使用 CsSipDomain cmdlet 更改组织的默认 SIP 域。 但是，不能只删除默认的 SIP 域，因为这样做会导致没有默认域。 如果要删除 fabrikam.com 域（如前面的示例中所示），则必须首先将 na.fabrikam.com 配置为默认域。
+如果 IsDefault 属性设置为 True，则相应的域是默认的 SIP 域。 您可以使用 Set-CsSipDomain cmdlet 更改组织的默认 SIP 域。 但是，不能只删除默认的 SIP 域，因为这样做会导致没有默认域。 如果要删除 fabrikam.com 域 (如前面的示例) 中所示，则必须首先将 na.fabrikam.com 配置为默认域。
 
 </div>
 
@@ -69,9 +71,9 @@ na.fabrikam.com na.fabrikam.com False
 
 会议设置包括会议策略定义以及在会议中参与匿名用户的支持。
 
-可以使用 Windows PowerShell 和**get-csmeetingconfiguration** cmdlet 检索会议配置设置。 例如，以下命令将返回有关全局会议配置设置的信息：
+可以使用 Windows PowerShell 和 **get-csmeetingconfiguration** cmdlet 检索会议配置设置。 例如，以下命令将返回有关全局会议配置设置的信息：
 
-Get-csmeetingconfiguration –标识 "全局" 会议配置设置也可以在站点范围中进行配置。 因此，您可能需要使用以下命令，该命令将返回有关所有会议配置设置的信息：
+Get-CsMeetingConfiguration –也可以在站点范围配置标识 "全局" 会议配置设置。 因此，您可能需要使用以下命令，该命令将返回有关所有会议配置设置的信息：
 
 `Get-CsMeetingConfiguration`
 
@@ -89,7 +91,7 @@ AssignedConferenceTypeByDefault： True
 
 AdmitAnonymousUsersByDefault： True
 
-同样，列表中的最后一项**AdmitAnonymousUsersByDefault**，启用或禁用匿名用户参与会议的功能。
+同样，列表中的最后一项 **AdmitAnonymousUsersByDefault**，启用或禁用匿名用户参与会议的功能。
 
 检查会议配置设置时，您可能会发现将当前设置与默认等效项进行比较非常有用。 您可以通过运行以下命令来查看默认会议配置设置：
 
@@ -199,9 +201,9 @@ OutgoingTlsCountForFederatedPartners：4
 
 RoutingMethod : UseDnsSrvRouting
 
-如果将**AllowFederatedUsers**属性设置为 True，则表示已为您的组织启用联盟。 （将**AllowFederatedUsers**设置为 True 也意味着，在拆分域方案中，您的本地用户将能够与您的云中用户无缝通信。）
+如果将 **AllowFederatedUsers** 属性设置为 True，则表示已为您的组织启用联盟。  (将 **AllowFederatedUsers** 设置为 True 也意味着，在拆分域方案中，您的本地用户将能够与云用户进行无缝通信。 ) 
 
-若要检索边缘服务器的 FQDN 和端口设置，请参阅上一任务（边缘服务器及其设置）。
+若要检索边缘服务器的 FQDN 和端口设置，请参阅上一项任务 (边缘服务器及其设置) 。
 
 在全局范围内启用联合仅意味着用户可以与联合用户进行通信。 若要确定任何单个用户是否可以实际与联合用户通信，需要检查分配给该用户的外部用户访问策略。
 
@@ -227,7 +229,7 @@ EnablePublicCloudAccessAudioVideoAccess： False
 
 EnableOutsideAccess： False
 
-如果将**EnableFederationAccess**设置为 True，则由给定策略管理的用户可以与联盟用户通信。
+如果将 **EnableFederationAccess** 设置为 True，则由给定策略管理的用户可以与联盟用户通信。
 
 </div>
 
@@ -239,7 +241,7 @@ EnableOutsideAccess： False
 
 检查内部和联合通信的存档设置。在验证内部存档和外部存档的设置之前，应验证是否已启用存档。
 
-可以使用 Windows PowerShell 和 Set-csarchivingconfiguration cmdlet 来验证存档配置设置：
+可以使用 Windows PowerShell 和 Get-CsArchivingConfiguration cmdlet 来验证存档配置设置：
 
 `Get-CsArchivingConfiguration -Identity "Global"`
 
@@ -247,7 +249,7 @@ EnableOutsideAccess： False
 
 `Get-CsArchivingConfiguration`
 
-Set-csarchivingconfiguration cmdlet 返回与以下内容类似的数据：
+Get-CsArchivingConfiguration cmdlet 返回与以下内容类似的数据：
 
 标识：全局
 
@@ -287,7 +289,7 @@ CachePurgingInterval：24
 
 验证是否已启用存档后，可以查看存档策略，以确定是否正在存档内部和外部通信会话。
 
-可以使用 New-csarchivingpolicy cmdlet 检索存档策略信息。 例如，以下命令将返回有关全局存档策略的信息：
+可以使用 Get-CsArchivingPolicy cmdlet 检索存档策略信息。 例如，以下命令将返回有关全局存档策略的信息：
 
 `Get-CsArchivingPolicy -Identity "Global"`
 
@@ -295,7 +297,7 @@ CachePurgingInterval：24
 
 `Get-CsArchivingPolicy`
 
-从 New-csarchivingpolicy 接收到的信息将与以下内容类似：
+您从 Get-CsArchivingPolicy 收到的信息将与以下内容类似：
 
 标识：全局
 
@@ -313,7 +315,7 @@ ArchiveExternal： False
 
 ## <a name="check-cdr-settings"></a>检查 CDR 设置
 
-检查对等、会议和语音呼叫详细记录的呼叫详细信息记录（CDR）设置。 可以使用**set-cscdrconfiguration** cmdlet 返回有关 CDR 设置的详细信息。 例如，以下命令将返回有关 CDR 配置设置的全局集合的信息：
+检查呼叫详细记录 (CDR) 设置对等、会议和语音呼叫详细记录。 可以使用 **set-cscdrconfiguration** cmdlet 返回有关 CDR 设置的详细信息。 例如，以下命令将返回有关 CDR 配置设置的全局集合的信息：
 
 `Get-CsCdrConfiguration -Identity "Global"`
 
@@ -321,7 +323,7 @@ ArchiveExternal： False
 
 `Get-CsCdrConfiguration`
 
-Set-cscdrconfiguration cmdlet 为每个 CDR 配置设置集合返回类似于以下内容的信息：
+Get-CsCdrConfiguration cmdlet 为每个 CDR 配置设置集合返回类似以下内容的信息：
 
 标识：全局
 
@@ -335,7 +337,7 @@ KeepErrorReportForDays：60
 
 PurgeHourOfDay：2
 
-可以通过使用 New-csqoeconfiguration cmdlet 为 QoE 监视返回类似的信息。 例如，以下命令将返回有关 QoE 配置设置的全局集合的信息：
+可以通过使用 Get-CsQoEConfiguration cmdlet，为 QoE 监视返回类似的信息。 例如，以下命令将返回有关 QoE 配置设置的全局集合的信息：
 
 `Get-QoEConfiguration -Identity "Global"`
 
@@ -377,7 +379,7 @@ EnableQoE： True
 
 ## <a name="check-voice-settings"></a>检查语音设置
 
-语音设置对于管理员来说通常很重要的信息包含在语音策略和语音路由中：语音策略包含用于确定向单个用户公开的功能的设置（例如，转发或转移呼叫的能力），同时语音路由决定了在 PSTN 中路由呼叫的方式（和 if）。
+语音设置对于管理员而言通常包含在语音策略和语音路由中：语音策略包含用于确定向单个用户公开的功能的设置 (例如，转发或转移呼叫的能力) ，而语音路由决定了在 PSTN 中路由) 呼叫的方式 (和。
 
 可以使用 Windows PowerShell 检索语音策略信息。 例如，以下命令将返回有关全局语音策略的信息：
 
@@ -387,11 +389,11 @@ EnableQoE： True
 
 `Get-CsVoicePolicy`
 
-Set-csvoicepolicy cmdlet 返回的信息类似于以下内容：
+Get-CsVoicePolicy cmdlet 返回的信息类似于以下内容：
 
 标识：全局
 
-PstnUsages{}
+PstnUsages {}
 
 产品介绍
 
@@ -425,7 +427,7 @@ PreventPSTNTollBypass： False
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $False}`
 
-在 Windows PowerShell 中，使用 CsVoiceRouting cmdlet 可返回有关语音路由的信息：
+在 Windows PowerShell 中，使用 Get-CsVoiceRouting cmdlet 可返回有关语音路由的信息：
 
 `Get-CsVoiceRoute`
 
@@ -437,11 +439,11 @@ PreventPSTNTollBypass： False
 
 产品介绍
 
-NumberPattern： ^ （\\+ 1\[0-9\]{10}） $
+NumberPattern： ^ (\\ + 1 \[ 0-9 \] {10}) $
 
-PstnUsages{}
+PstnUsages {}
 
-PstnGatewayList :{}
+PstnGatewayList : {}
 
 名称： LocalRoute
 
@@ -463,7 +465,7 @@ Lync Server 允许您创建没有 PSTN 用法且未指定 PSTN 网关的语音�
 
 ## <a name="check-conferencing-attendant-settings"></a>检查会议助理设置
 
-检查 PSTN 电话拨入式会议的会议助理设置。 只能使用**set-csdialinconferencingconfiguration** cmdlet 来检索会议助理设置。 这些设置在 "Lync Server 控制面板" 中不可用。 若要查看会议助理设置，请使用与以下内容类似的 Windows PowerShell 命令，该命令将返回全局会议助理设置集合：
+检查 PSTN 电话拨入式会议的会议助理设置。 只能使用 **set-csdialinconferencingconfiguration** cmdlet 来检索会议助理设置。 这些设置在 "Lync Server 控制面板" 中不可用。 若要查看会议助理设置，请使用与以下内容类似的 Windows PowerShell 命令，该命令将返回全局会议助理设置集合：
 
 `Get-CsDialInConferencingConfiguration -Identity "Global"`
 
@@ -471,7 +473,7 @@ Lync Server 允许您创建没有 PSTN 用法且未指定 PSTN 网关的语音�
 
 `Get-CsDialInConferencingConfiguration`
 
-Set-csdialinconferencingconfiguration cmdlet 返回与以下内容类似的数据：
+Get-CsDialInConferencingConfiguration cmdlet 返回与以下内容类似的数据：
 
 标识：全局
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5ba88a00ed00a36005f9c1a60806e18253d2ce1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 970a638a84849120a27748980fa4017570672a35
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207268"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534789"
 ---
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>在 Lync Server 2013 中安装规划工具
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-planning-tool-in-lync-server-2013"></a>在 Lync Server 2013 中安装规划工具
+
 
 </div>
 
@@ -77,13 +79,13 @@ _**上次修改的主题：** 2013-11-07_
 
 2.  使用 Windows 资源管理器或命令窗口，找到您在其中下载规划工具安装文件的目录。
 
-3.  找到 LyncPlanningTool。 在 Windows 资源管理器中，双击该文件。 在命令窗口中，键入文件的名称，然后按**enter**运行文件。
+3.  找到 LyncPlanningTool.msi。 在 Windows 资源管理器中，双击该文件。 在命令窗口中，键入文件的名称，然后按 **enter** 运行文件。
 
-4.  在 Microsoft Lync Server 2013 的 "欢迎" 页上 **，规划工具安装向导**，单击 "**下一步**"。
+4.  在 Microsoft Lync Server 2013 的 "欢迎" 页上 **，规划工具安装向导**，单击 " **下一步**"。
 
 5.  查看 **“最终用户许可协议”**，如果选择接受许可协议中的使用条款，则选择 **“我接受许可协议中的条款”**，然后单击 **“下一步”**。
 
-6.  选择安装规划工具文件的位置。 默认位置为 C：\\Program Files （x86）\\Microsoft Lync Server 2013\\规划工具。 如果要更改安装位置，请单击 **“更改”**。 在 **“更改目标文件夹”** 上，浏览或键入要安装这些文件的位置，单击 **“确定”**，然后单击 **“下一步”**。
+6.  选择安装规划工具文件的位置。 默认位置为 C： \\ 程序文件 (x86) \\ Microsoft Lync Server 2013 \\ 规划工具。 如果要更改安装位置，请单击 **“更改”**。 在 **“更改目标文件夹”** 上，浏览或键入要安装这些文件的位置，单击 **“确定”**，然后单击 **“下一步”**。
 
 7.  安装程序现在已准备好安装规划工具。 单击 **“安装”** 开始安装过程。
 

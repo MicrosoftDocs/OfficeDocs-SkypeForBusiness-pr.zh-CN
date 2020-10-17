@@ -12,20 +12,22 @@ ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1699166e40173ab5abf1a54ddc5b699f3b92c8da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 09bf8825674e73b7c3e152557e955f01b64a0297
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194932"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533909"
 ---
+# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 中的前端服务器、即时消息和状态的技术要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Lync Server 2013 中的前端服务器、即时消息和状态的技术要求
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42194932"
 
 _**上次修改的主题：** 2012-09-18_
 
-即时消息（IM）和状态始终在 Enterprise Edition 前端池和 Standard Edition 服务器上运行。 有关受支持的硬件、操作系统和数据库软件的信息，请参阅以下内容：
+即时消息 (IM) 和状态始终在 Enterprise Edition 前端池和 Standard Edition 服务器上运行。 有关受支持的硬件、操作系统和数据库软件的信息，请参阅以下内容：
 
   - [Lync Server 2013 支持的硬件](lync-server-2013-supported-hardware.md)
 

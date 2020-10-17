@@ -12,20 +12,22 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1765e9108619c5947eda02dd758aa764b0b407e6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 980dc8c92488e3806cd6c1bf15970a79af6fa2b4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197055"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534939"
 ---
+# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>在 Lync Server 2013 中安装和配置观察程序节点
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-and-configuring-watcher-nodes-in-lync-server-2013"></a>在 Lync Server 2013 中安装和配置观察程序节点
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42197055"
 
 _**上次修改的主题：** 2013-11-07_
 
-*观察程序节点*是定期运行 Lync Server 合成事务的计算机。 *综合事务*是一种 Windows PowerShell cmdlet，用于验证关键最终用户方案（如登录系统的能力或 exchange 即时消息的功能）是否按预期方式工作。 对于 Lync Server 2013，System Center Operations Manager 可以运行下表中所示的综合事务。 下表中显示了三种不同的综合事务类型：
+*观察程序节点* 是定期运行 Lync Server 合成事务的计算机。 *综合事务* 是一种 Windows PowerShell cmdlet，用于验证关键最终用户方案（如登录系统的能力或 exchange 即时消息的功能）是否按预期方式工作。 对于 Lync Server 2013，System Center Operations Manager 可以运行下表中所示的综合事务。 下表中显示了三种不同的综合事务类型：
 
-  - **默认值**。 这些是默认情况下观察程序节点将运行的综合事务。 创建新的观察程序节点时，您将具有指定此节点将运行的综合事务的选项。 （这是**new-cswatchernodeconfiguration** cmdlet 使用的测试参数的用途。）如果在创建观察程序节点时不使用测试参数，则它将自动运行所有默认的综合事务，并且不会运行任何非默认的综合事务。 这意味着，例如，观察程序节点将配置为运行 Test-CsAddressBookService 测试，但不会配置为运行 Test-CsExumConnectivity 测试。
+  - **默认值**。 这些是默认情况下观察程序节点将运行的综合事务。 创建新的观察程序节点时，您将具有指定此节点将运行的综合事务的选项。  (**new-cswatchernodeconfiguration** cmdlet 使用的测试参数的用途。 ) 如果在创建观察程序节点时不使用测试参数，它将自动运行所有默认的综合事务，并且不会运行任何非默认的综合事务。 这意味着，例如，观察程序节点将配置为运行 Test-CsAddressBookService 测试，但不会配置为运行 Test-CsExumConnectivity 测试。
 
-  - **非默认值**。 顾名思义，非默认综合事务是默认情况下观察程序节点不会运行的测试。 但是，可启用观察程序节点运行任何非默认综合事务。 您可在创建观察程序节点时或在创建后的任何时间执行此操作（使用 **New-CsWatcherNodeConfiguration** cmdlet）。 许多非默认综合事务需要额外的设置步骤。 有关详细信息，请参阅[Lync Server 2013 中的综合事务的特殊设置说明](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)。
+  - **非默认值**。 顾名思义，非默认综合事务是默认情况下观察程序节点不会运行的测试。 但是，可启用观察程序节点运行任何非默认综合事务。 您可在创建观察程序节点时或在创建后的任何时间执行此操作（使用 **New-CsWatcherNodeConfiguration** cmdlet）。 许多非默认综合事务需要额外的设置步骤。 有关详细信息，请参阅 [Lync Server 2013 中的综合事务的特殊设置说明](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)。
 
   - **扩展**。 扩展测试是特殊类型的非默认综合事务。 与其他综合事务不同，扩展测试可在每次通过的情况下运行多次。 这在验证一个池的多个公用电话交换网 (PSTN) 语音路由等行为时十分有用。 此类测试可通过向观察程序节点添加多个扩展测试的实例来配置。
 
-有关将其他综合事务添加到观察程序节点的过程的详细信息，请参阅[在 Lync Server 2013 中管理观察程序节点](lync-server-2013-managing-watcher-nodes.md)。 您可以使用 Lync Server 命令行管理程序从观察程序节点中删除综合事务。
+有关将其他综合事务添加到观察程序节点的过程的详细信息，请参阅 [在 Lync Server 2013 中管理观察程序节点](lync-server-2013-managing-watcher-nodes.md)。 您可以使用 Lync Server 命令行管理程序从观察程序节点中删除综合事务。
 
 可用于观察程序节点的综合事务包括：
 
@@ -80,7 +82,7 @@ _**上次修改的主题：** 2013-11-07_
 <td><p>默认值</p></td>
 </tr>
 <tr class="even">
-<td><p>CsP2PAV （P2PAV）</p></td>
+<td><p>Test-CsP2PAV (P2PAV) </p></td>
 <td><p>确保用户能够发出对等音频呼叫（仅信号）。</p></td>
 <td><p>默认值</p></td>
 </tr>
@@ -105,52 +107,52 @@ _**上次修改的主题：** 2013-11-07_
 <td><p>Non-default，Extended</p></td>
 </tr>
 <tr class="odd">
-<td><p>CsAVConference （AvConference）</p></td>
+<td><p>Test-CsAVConference (AvConference) </p></td>
 <td><p>确保用户能够创建和参与音频/视频会议。</p></td>
 <td><p>默认值</p></td>
 </tr>
 <tr class="even">
-<td><p>CsAVEdgeConnectivity （AVEdgeConnectivity）</p></td>
+<td><p>Test-CsAVEdgeConnectivity (AVEdgeConnectivity) </p></td>
 <td><p>确保 A/V 边缘服务器能够接受对等呼叫和会议呼叫的连接。</p></td>
 <td><p>非默认</p></td>
 </tr>
 <tr class="odd">
-<td><p>CsDataConference （DataConference）</p></td>
+<td><p>Test-CsDataConference (DataConference) </p></td>
 <td><p>确保用户可参与数据协作会议（包含白板和投票等活动的联机会议）。</p></td>
 <td><p>非默认</p></td>
 </tr>
 <tr class="even">
-<td><p>Test-csexumconnectivity （ExumConnectivity）</p></td>
-<td><p>确认用户可以连接到 Exchange 统一消息（UM）。</p></td>
+<td><p>Test-CsExumConnectivity (ExumConnectivity) </p></td>
+<td><p>确认用户可以连接到 Exchange 统一消息 (UM) 。</p></td>
 <td><p>非默认</p></td>
 </tr>
 <tr class="odd">
-<td><p>CsGroupIM （GroupIM）</p></td>
+<td><p>Test-CsGroupIM (GroupIM) </p></td>
 <td><p>确保用户能够在会议中发送即时消息并且可参与三个或三个以上的人员组成的即时消息对话。</p></td>
 <td><p>默认值</p></td>
 </tr>
 <tr class="even">
-<td><p>CsGroupIM – TestJoinLauncher （JoinLauncher）</p></td>
+<td><p>Test-CsGroupIM – TestJoinLauncher (JoinLauncher) </p></td>
 <td><p>确保用户能够创建会议并能通过 Web 地址链接加入计划的会议。</p></td>
 <td><p>非默认</p></td>
 </tr>
 <tr class="odd">
-<td><p>Test-csmcxp2pim （MCXP2PIM）</p></td>
+<td><p>Test-CsMCXP2PIM (MCXP2PIM) </p></td>
 <td><p>确保移动设备用户能够注册和发送即时消息。</p></td>
 <td><p>非默认</p></td>
 </tr>
 <tr class="even">
-<td><p>CsPersistentChatMessage （PersistentChatMessage）</p></td>
+<td><p>Test-CsPersistentChatMessage (PersistentChatMessage) </p></td>
 <td><p>确认用户可以使用持久聊天服务交换邮件。</p></td>
 <td><p>非默认</p></td>
 </tr>
 <tr class="odd">
-<td><p>Test-csunifiedcontactstore （UnifiedContactStore）</p></td>
+<td><p>Test-CsUnifiedContactStore (UnifiedContactStore) </p></td>
 <td><p>确保可通过统一的联系人存储库访问用户的联系人。 统一联系人存储为用户提供了一种方法来维护一组可通过 Lync 2013、Outlook 和/或 Outlook Web Access 访问的联系人。</p></td>
 <td><p>非默认</p></td>
 </tr>
 <tr class="even">
-<td><p>CsXmppIM （XmppIM）</p></td>
+<td><p>Test-CsXmppIM (XmppIM) </p></td>
 <td><p>确保可通过 XMPP（可扩展消息传递和状态协议）网关发送即时消息。</p></td>
 <td><p>非默认</p></td>
 </tr>
@@ -158,13 +160,13 @@ _**上次修改的主题：** 2013-11-07_
 </table>
 
 
-您无需安装观察程序节点即可使用 System Center Operations Manager。 如果不安装这些节点，您仍可以在出现问题时从 Lync Server 2013 组件获取实时警报。 （组件和用户管理包不使用观察程序节点。）但是，如果您想要通过使用主动监控管理包来监视端到端方案，则需要观察程序节点。
+您无需安装观察程序节点即可使用 System Center Operations Manager。 如果不安装这些节点，您仍可以在出现问题时从 Lync Server 2013 组件获取实时警报。  (组件和用户管理包不使用观察程序节点。 ) 但是，如果要使用活动监视管理包监视端到端方案，则需要观察程序节点。
 
 <div>
 
 
 > [!NOTE]  
-> 管理员还可手动运行综合事务，无需使用或安装 Operations Manager。 有关各种测试-Cs cmdlet 的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlet 索引</A>。
+> 管理员还可手动运行综合事务，无需使用或安装 Operations Manager。 有关各种 Test-Cs cmdlet 的详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013 cmdlet 索引</A>。
 
 
 
@@ -196,7 +198,7 @@ Lync Server 2013 观察程序节点可以部署在企业内部或外部，以帮
   - <span></span>  
     在企业内部和通过外围网络连接到 Lync Server 2010。
 
-企业内部和企业外部有不同的身份验证选项可用以帮助管理。 有关详细信息，请参阅[将观察程序节点配置为在 Lync Server 2013 中运行综合事务](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md)。
+企业内部和企业外部有不同的身份验证选项可用以帮助管理。 有关详细信息，请参阅 [将观察程序节点配置为在 Lync Server 2013 中运行综合事务](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md)。
 
 若要将计算机配置为充当观察程序节点，必须在安装 System Center Operations Manager 并导入 Lync Server 2013 管理包后完成以下步骤。
 
@@ -217,7 +219,7 @@ Lync Server 2013 观察程序节点可以部署在企业内部或外部，以帮
 <tbody>
 <tr class="odd">
 <td><p>CPU</p></td>
-<td><p>下列一种含义：</p>
+<td><p>以下各项之一：</p>
 <ul>
 <li><p>64位处理器、四核、2.33 GHz 或更高版本</p></li>
 <li><p>64位双处理器、双核、2.33 GHz 或更高版本</p></li>

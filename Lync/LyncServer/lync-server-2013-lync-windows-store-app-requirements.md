@@ -12,20 +12,22 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5e85bf0d6e4281094be562bd94c8e5b76e02453
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 3707c0074425411353a22b51d62251d33a4e31fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534599"
 ---
+# <a name="lync-windows-store-app-requirements-for-lync-server-2013"></a>Lync Server 2013 的 lync Windows 应用商店应用程序要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-windows-store-app-requirements-for-lync-server-2013"></a>Lync Server 2013 的 lync Windows 应用商店应用程序要求
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-12-03_
 
 
 > [!NOTE]  
-> 对于 Lync Server 2010，请运行 Lync Server 2010 的累积更新：2月2012（可在<A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; http://go.microsoft.com/fwlink/?linkid=3052&kbid=823018 = 2670352</A>）或更高版本在所有服务器上运行。 若要使用户能够加入会议，请在服务器上运行 Lync Server 2010：10月2012（可在<A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; http://go.microsoft.com/fwlink/?linkid=3052&kbid=823018 = 2737915</A>）的累积更新。
+> 对于 Lync Server 2010，请运行 Lync Server 2010 的累积更新：2月 2012 (在所有服务器上都可用<A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2670352"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; http://go.microsoft.com/fwlink/?linkid=3052&kbid=823018 = 2670352</A>) 或更高版本。 若要使用户能够加入会议，请运行 Lync Server 2010 的累积更新：10月 2012 (<A class=uri href="https://go.microsoft.com/fwlink/?linkid=3052%26kbid=2737915"> https://go.microsoft.com/fwlink/?linkid=3052&amp ; http://go.microsoft.com/fwlink/?linkid=3052&kbid=823018 = 2737915</A>) 在服务器上可用。
 
 
 
@@ -51,15 +53,15 @@ _**上次修改的主题：** 2013-12-03_
 
   - 在服务器上启用自动发现、Lync Web 应用和 Web 票证服务。
 
-  - 在前端服务器或前端池上启用证书身份验证。 （通常将前端服务器或前端池上的用户注册过程称为 "注册器"。）有关详细信息，请参阅[在 Lync Server 2013 中创建注册器配置设置](lync-server-2013-create-registrar-configuration-settings.md)。
+  - 在前端服务器或前端池上启用证书身份验证。  (前端服务器或前端池上的用户注册过程通常称为 "注册器"。 ) 有关详细信息，请参阅 [在 Lync Server 2013 中创建注册器配置设置](lync-server-2013-create-registrar-configuration-settings.md)。
 
-  - 为自动发现服务发布 DNS 别名（CNAME）资源记录。
+  - 为自动发现服务 (CNAME) 资源记录发布 DNS 别名。
 
-  - 不再要求确保颁发给 Lync server 的证书的证书吊销列表（CRL）分发点（CDP）指向 HTTP 资源，而不是 LDAP 资源。 但是，请确保客户端计算机安装了最新的 Windows 更新。
+  - 不再要求确保颁发给 Lync server 的证书的证书吊销列表 (CRL) 分发点 (CDP) 指向 HTTP 资源，而不是 LDAP 资源。 但是，请确保客户端计算机安装了最新的 Windows 更新。
 
   - 配置企业中的 HTTP 代理以允许与 Lync server 相关的 HTTP 流量。如有必要，请添加自动发现、Lync Web App 和 Web 票证服务的例外。
 
-  - 在客户端上，安装 Windows 8.1 和最新版本的 Lync Windows 应用商店应用程序，修复通常在使用多个域时出现的登录问题（例如，当 SIP URI 为**userA@domainZ.com** ，但边缘服务器为**sip.domainX.com**）。
+  - 在客户端上，安装 Windows 8.1 和最新版本的 Lync Windows 应用商店应用程序，修复通常会在使用多个域时出现的登录问题 (例如，当 SIP URI 为 **userA@domainZ.com** ，而边缘服务器 **sip.domainX.com**) 。
 
 如果你的组织订阅 Lync Online 或 Microsoft 365，并且你使用的是你自己的域名，则必须执行一些额外的步骤来设置你的网络以自动发现 Lync 服务器。 在移动设备上，Lync Windows 应用商店应用和 Lync 的网络配置要求相同。
 

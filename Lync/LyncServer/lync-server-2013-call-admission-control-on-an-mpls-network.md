@@ -12,20 +12,22 @@ ms:contentKeyID: 48183387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00d283a0d549be5e60d0343a3271edace039ea22
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: efed0826aa35a557628dd64bfdcea9bc22ced28a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188645"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535175"
 ---
+# <a name="call-admission-control-on-an-mpls-network-with-lync-server-2013"></a>具有 Lync Server 2013 的 MPLS 网络上的呼叫允许控制
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-on-an-mpls-network-with-lync-server-2013"></a>具有 Lync Server 2013 的 MPLS 网络上的呼叫允许控制
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-09-22_
 
 **MPLS 网络的网络区域和网络站点**
 
-![带 MPLS 关系图的呼叫允许控制（CAC）](images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "带 MPLS 关系图的呼叫允许控制（CAC）")
+![使用 MPLS 图 (CAC) 的呼叫允许控制](images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "使用 MPLS 图 (CAC) 的呼叫允许控制")
 
 </div>
 

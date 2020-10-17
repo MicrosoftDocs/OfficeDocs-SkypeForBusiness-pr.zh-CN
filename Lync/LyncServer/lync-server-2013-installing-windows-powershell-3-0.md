@@ -12,20 +12,22 @@ ms:contentKeyID: 48185621
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a799ba54fe7677ed2ccfa8051f295b2b775cdc0e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 18de45679983221d80171dde8dd37397a8b3a965
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534779"
 ---
+# <a name="installing-windows-powershell-30-for-lync-server-2013"></a>为 Lync Server 2013 安装 Windows PowerShell 3。0
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-windows-powershell-30-for-lync-server-2013"></a>为 Lync Server 2013 安装 Windows PowerShell 3。0
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2014-06-27_
 
 
 > [!IMPORTANT]  
-> 但对于运行 Windows Server 2008 R2 SP1 的系统，您需要在安装 Lync Server 2013 之前安装 PowerShell 3.0 作为先决条件，否则无法正常运行。 若要安装 PowerShell 3.0，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3.0</A>。 这是指向 PowerShell 3.0 下载页面的直接链接，以及与成功安装相关的信息。
+> 但对于运行 Windows Server 2008 R2 SP1 的系统，您需要在安装 Lync Server 2013 之前安装 PowerShell 3.0 作为先决条件，否则无法正常运行。 若要安装 PowerShell 3.0，请参阅 <A href="https://go.microsoft.com/fwlink/p/?linkid=329800">Windows Management Framework 3.0</A>。 这是指向 PowerShell 3.0 下载页面的直接链接，以及与成功安装相关的信息。
 
 
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2014-06-27_
 
 完成安装后，或者只想在继续 Lync Server 部署之前进行检查并确保，确认 PowerShell 3.0 在服务器上是非常简单的，如果执行此操作：
 
-1.  在要检查的服务器上，依次选择 "**开始**"、"**所有程序**"、"**附件**" 和 **"Windows PowerShell"，** 然后单击 " **windows powershell**"。
+1.  在要检查的服务器上，依次选择 " **开始**"、" **所有程序**"、" **附件**" 和 **"Windows PowerShell"，** 然后单击 " **windows powershell**"。
 
 2.  在 Windows PowerShell 控制台中，在命令提示符处键入以下命令，然后按 ENTER：
     

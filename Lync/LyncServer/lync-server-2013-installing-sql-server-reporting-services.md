@@ -12,20 +12,22 @@ ms:contentKeyID: 48184345
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0448802e7de2c00b5c57730c5e95fb99b21b237e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9044f90146b604f0277b0a5b815c6540849d58b7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187595"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534929"
 ---
+# <a name="installing-sql-server-reporting-services-in-lync-server-2013"></a>在 Lync Server 2013 中安装 SQL Server Reporting Services
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-sql-server-reporting-services-in-lync-server-2013"></a>在 Lync Server 2013 中安装 SQL Server Reporting Services
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42187595"
 
 _**上次修改的主题：** 2012-06-20_
 
-如果打算使用 Microsoft Lync Server 2013 监控报告（有关详细信息，请参阅本文档的下一节），必须先安装 SQL Server Reporting Services;可以在安装 Microsoft SQL Server 的同时安装 Reporting Services，也可以在安装 SQL Server 之后安装任何时间。 如果您未安装 SQL Server，则请按照本文档之前提供的说明操作。 安装 SQL Server 时，确保在“功能选择”页上选择 Reporting Services。 这将安装 SQL Server Reporting Services。
+如果您打算使用 Microsoft Lync Server 2013 监控报告 (请参阅本文档的下一节，以了解详细信息) 必须先安装 SQL Server Reporting Services;可以在安装 Microsoft SQL Server 的同时安装 Reporting Services，也可以在安装 SQL Server 之后安装任何时间。 如果您未安装 SQL Server，则请按照本文档之前提供的说明操作。 安装 SQL Server 时，确保在“功能选择”页上选择 Reporting Services。 这将安装 SQL Server Reporting Services。
 
 如果您已安装 SQL Server 但未安装 SQL Server Reporting Services，则可根据需要按照 SQL Server 2008 R2 或 SQL Server 2012 中的相应说明集添加此功能。
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-06-20_
 
 2.  在“Reporting Services 配置连接”**** 对话框中，验证服务器的名称是否显示在“服务器名称”**** 框中以及存储监控数据的 SQL Server 实例的名称是否显示在“报表服务器实例”**** 框中。单击“连接”****。
 
-在 Reporting Service 配置管理器中，报表服务器状态窗格应显示已安装 SQL Server Reporting Services 且当前正在运行 Reporting Services：报表服务器状态应显示为 "**已启动**"，并且 "**启动**" 按钮应显示为 "灰色" 且不可用。 如果 Reporting Service 未在运行，则单击“开始”**** 以启动此服务。
+在 Reporting Service 配置管理器中，报表服务器状态窗格应显示已安装 SQL Server Reporting Services 且当前正在运行 Reporting Services：报表服务器状态应显示为 " **已启动** "，并且 " **启动** " 按钮应显示为 "灰色" 且不可用。 如果 Reporting Service 未在运行，则单击“开始”**** 以启动此服务。
 
 如果报表服务器数据库名称标签旁未列出任何数据库，则执行下列操作：
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc4ab6a9c32a8b060308526fcdb1f1da403a9e3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b77fae816140784e35c81dd9c30f4cf8790f5bef
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534729"
 ---
+# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 命令行管理程序
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 命令行管理程序
+
 
 </div>
 
@@ -41,7 +43,7 @@ _**上次修改的主题：** 2017-09-20_
 
 
 > [!NOTE]  
-> Skype for Business cmdlet reference 已移动到 docs.microsoft.com。 单击下面的链接将转到新的 docs.microsoft.com 页面。 现在，内容是开放的，可用于通过 GitHub 进行社区贡献。 对所做的贡献有兴趣？ 查看存储库中的自述文件：<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Skype for Business cmdlet reference 已移动到 docs.microsoft.com。 单击下面的链接将转到新的 docs.microsoft.com 页面。 现在，内容是开放的，可用于通过 GitHub 进行社区贡献。 对所做的贡献有兴趣？ 查看存储库中的自述文件： <A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
@@ -74,7 +76,7 @@ Windows PowerShell 允许您从命令行管理 Microsoft 应用程序。 它包�
 
   - Lync Server 命令行管理程序将自动安装在每个 Lync Server Enterprise Edition 前端服务器或 Standard Edition server 上。
 
-  - Lync Server Windows PowerShell 博客[https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)中提供了新的和更新的信息、示例脚本和帮助，以了解有关 Windows Powershell 和 Microsoft Lync server 2013 cmdlet 的入门和帮助。
+  - Lync Server Windows PowerShell 博客中提供了新的和更新的信息、示例脚本和帮助，以了解有关 Windows PowerShell 和 Microsoft Lync Server 2013 cmdlet 的入门和帮助 [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150) 。
 
 </div>
 

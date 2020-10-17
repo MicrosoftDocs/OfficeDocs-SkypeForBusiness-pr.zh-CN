@@ -12,20 +12,22 @@ ms:contentKeyID: 48184821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f502acafb4413b2fc809a170fe8d6cd85e4b9e9f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: deb3a54494d70b54325e6bc64f3b3facc0ec2a8f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211048"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535459"
 ---
+# <a name="voice-routing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的语音路由 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-routing-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的语音路由 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211048"
 
 _**上次修改的主题：** 2012-06-26_
 
-语音路由包含通知 Microsoft Lync Server 2013 如何将来自企业语音用户的呼叫路由到公用电话交换网（PSTN）或专用交换机（PBX）上的电话号码的说明。
+语音路由包含有关说明 Microsoft Lync Server 2013 如何将来自企业语音用户的呼叫路由到公共交换电话网络 (PSTN) 或专用分支 exchange (PBX) 上的电话号码的说明。
 
 <div>
 

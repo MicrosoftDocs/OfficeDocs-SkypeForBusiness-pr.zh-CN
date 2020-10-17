@@ -12,20 +12,22 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfc057f4d41104dcebc89003ff77eb75622ee3c1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8bce3413e7e41e3784cb0ba300c621a7c042b618
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183925"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534159"
 ---
+# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>端口摘要-Lync Server 2013 中的公共即时消息连接
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>端口摘要-Lync Server 2013 中的公共即时消息连接
+
 
 </div>
 
@@ -45,7 +47,7 @@ Windows Live Messenger 可以参与与 Lync 客户端的音频/视频通信。 �
 
 
 > [!IMPORTANT]  
-> Lync 是前所未有的强大工具，用于跨组织和世界各地的个人进行连接。 与 Windows Live Messenger 的联盟不需要其他用户/设备许可证，而不能超过 Lync Standard Client Access 许可证（CAL）。 Skype 联合身份验证将添加到此列表中，使 Lync 用户可以使用即时消息和语音访问成百上千人。<BR>与 Messenger 客户联系人的联盟将于2013年3月15日正式结束（中国大陆除外）。 Skype 将成为以前使用 Messenger 的联盟用户的联合身份验证客户端。
+> Lync 是前所未有的强大工具，用于跨组织和世界各地的个人进行连接。 与 Windows Live Messenger 的联盟要求在 Lync Standard Client Access 许可证 (CAL) 之外，不需要其他用户/设备许可证。 Skype 联合身份验证将添加到此列表中，使 Lync 用户可以使用即时消息和语音访问成百上千人。<BR>与 Messenger 客户联系人的联盟将于2013年3月15日正式结束（中国大陆除外）。 Skype 将成为以前使用 Messenger 的联盟用户的联合身份验证客户端。
 
 
 
@@ -68,24 +70,24 @@ Windows Live Messenger 可以参与与 Lync 客户端的音频/视频通信。 �
 <th>角色/协议/TCP 或 UDP/端口</th>
 <th>源 IP 地址</th>
 <th>目标 IP 地址</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
+<td><p>Access/SIP (MTLS) /TCP/5061</p></td>
 <td><p>公共 IM 连接合作伙伴</p></td>
 <td><p>边缘服务器访问接口</p></td>
 <td><p>用于使用 SIP 的联盟和公共 IM 连接。</p></td>
 </tr>
 <tr class="even">
-<td><p>Access/SIP （MTLS）/TCP/5061</p></td>
+<td><p>Access/SIP (MTLS) /TCP/5061</p></td>
 <td><p>边缘服务器访问接口</p></td>
 <td><p>公共 IM 连接合作伙伴</p></td>
 <td><p>用于使用 SIP 的联盟和公共 IM 连接。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Access/SIP （TLS）/TCP/443</p></td>
+<td><p>Access/SIP (TLS) /TCP/443</p></td>
 <td><p>客户端</p></td>
 <td><p>边缘服务器访问接口</p></td>
 <td><p>用于外部用户访问的客户端到服务器 SIP 流量。</p></td>

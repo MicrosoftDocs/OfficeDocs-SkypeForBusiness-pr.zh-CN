@@ -12,20 +12,22 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88a3b904976939d5e33f460dc20fb24cd26ed45f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5fd011e39a04b048e528289daa7dc0babb5e7042
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533799"
 ---
+# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a>第1阶段：从 Lync Server 2010 规划迁移
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a>第1阶段：从 Lync Server 2010 规划迁移
+
 
 </div>
 
@@ -49,11 +51,11 @@ _**上次修改的主题：** 2012-09-29_
 
   - [迁移组聊天服务器](migrating-group-chat-servers.md)
 
-  - [迁移后管理服务器](administering-servers-after-migration.md)
+  - [迁移后服务器的管理](administering-servers-after-migration.md)
 
   - [迁移多个站点和池](migrating-multiple-sites-and-pools.md)
 
-  - [迁移 XMPP 联合](migrating-xmpp-federation.md)
+  - [管理 XMPP 联盟](migrating-xmpp-federation.md)
 
 </div>
 

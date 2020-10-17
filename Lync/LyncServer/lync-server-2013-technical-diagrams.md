@@ -12,20 +12,22 @@ ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: d5af9d3702d3d93b0926efe37d9ede6f1c928091
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44219682"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533969"
 ---
+# <a name="technical-diagrams-for-lync-server-2013"></a>Lync Server 2013 的技术图表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-diagrams-for-lync-server-2013"></a>Lync Server 2013 的技术图表
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2014-03-14_
 
 **摘要：**  这些图表提供了适用于 Lync 2013 的推荐解决方案的直观表示形式。
 
-这些资源可用于 Visio （.vsd）格式（Visio 2010 或 Visio 2013）和 PDF 格式。 有关如何打印文档的信息，请参阅打印海报的提示。
+这些资源在 Visio ( .vsd) 格式 (Visio 2010 或 Visio 2013) 和 PDF 格式中可用。 有关如何打印文档的信息，请参阅打印海报的提示。
 
 您可能需要使用其他软件才能查看这些文件。有关详细信息，请参阅下表。
 
@@ -58,7 +60,7 @@ _**上次修改的主题：** 2014-03-14_
 <tbody>
 <tr class="odd">
 <td><p>.vsd</p></td>
-<td><p>Visio 2010、Visio 2013 或免费的<a href="https://go.microsoft.com/fwlink/?linkid=393676">visio viewer</a></p>
+<td><p>Visio 2010、Visio 2013 或免费的 <a href="https://go.microsoft.com/fwlink/?linkid=393676">visio viewer</a></p>
 <p>如果使用的是 Visio Viewer，请右键单击 VSD 链接，单击" <strong>目标另存为</strong>"，将文件保存到计算机上，然后在计算机上打开文件。</p></td>
 </tr>
 <tr class="even">
@@ -95,9 +97,9 @@ _**上次修改的主题：** 2014-03-14_
 <tr class="odd">
 <td><p><strong>Lync Server 2013 本地体系结构</strong></p>
 <img src="images/Dn594589.36530bb8-732f-4be0-9502-082c01df9fba(OCS.15).jpg" title="Lync 体系结构海报的缩略图" alt="thumbnail of Lync architectures poster" />
-<p>使用来自 Microsoft 的 Zoom.it （最适用于台式机或膝上型电脑）<a href="https://go.microsoft.com/fwlink/?linkid=392974">全面了解海报的详细信息</a></p>
-<p><a href="https://go.microsoft.com/fwlink/?linkid=392578">PDF 版本</a>（最适用于移动设备或平板电脑）</p>
-<p><a href="https://go.microsoft.com/fwlink/?linkid=392579">Visio 版本</a>（最适用于 visio 用户）</p></td>
+<p>使用 Microsoft (中的 Zoom.it 在台式计算机或便携式计算机上的最佳<a href="https://go.microsoft.com/fwlink/?linkid=392974">详细信息放大海报</a>) </p>
+<p>适用于移动设备或平板电脑的<a href="https://go.microsoft.com/fwlink/?linkid=392578">PDF 版本</a> (最佳) </p>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392579">Visio 版本</a> (最适合使用 visio) 的用户</p></td>
 <td><p>海报提供规划和部署的体系结构指南。 海报包含有关 Lync Server 的通用组件、规划部署时使用的术语、新功能、服务器角色和安装概述的信息。 此外，海报还包含提高高可用性和灾难恢复的示例体系结构，以及小型、中型和大型示例拓扑。</p>
 <p>大小： 34-x 44 英寸</p>
 <p>此海报是使用 Visio 2013 创建的。 特定环境不需要进行任何修改。</p></td>
@@ -105,13 +107,13 @@ _**上次修改的主题：** 2014-03-14_
 <tr class="even">
 <td><p><strong>Lync 呼叫质量方法</strong></p>
 <img src="images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg" title="描述 CQM 过程的海报" alt="Poster describing the CQM process" />
-<p>使用来自 Microsoft 的 Zoom.it （最适用于台式机或膝上型电脑）<a href="https://go.microsoft.com/fwlink/?linkid=392972">全面了解海报的详细信息</a></p>
+<p>使用 Microsoft (中的 Zoom.it 在台式计算机或便携式计算机上的最佳<a href="https://go.microsoft.com/fwlink/?linkid=392972">详细信息放大海报</a>) </p>
 <p><a href="https://go.microsoft.com/fwlink/?linkid=391841">在 .zip 文件中同时使用 Visio 和 PDF 版本</a></p></td>
 <td><p>描述 Lync 系统故障排除的海报，尤其是影响企业语音质量的问题。 使用此海报的方式为：</p>
 <ul>
 <li><p><a href="https://go.microsoft.com/fwlink/p/?linkid=390677">Lync Server 网络指南</a></p></li>
-<li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Lync Server 2013 中的 Lync 呼叫质量方法</a>（辅助功能文章）</p></li>
-<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Lync Server 2013 中的关键运行状况指示器</a>（辅助功能文章）</p></li>
+<li><p>Lync <a href="lync-server-2013-poster-lync-call-quality-methodology.md">Server 2013 中的 Lync 呼叫质量方法</a> (辅助功能文章) </p></li>
+<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Lync Server 2013 中的关键运行状况指标</a> (辅助功能文章) </p></li>
 </ul>
 <p>大小： 34-x 44 英寸</p>
 <p>此海报是使用 Visio 2010 创建的。 特定环境不需要进行任何修改。</p></td>
@@ -119,13 +121,13 @@ _**上次修改的主题：** 2014-03-14_
 <tr class="odd">
 <td><p><strong>关键运行状况指示器</strong></p>
 <img src="images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg" title="描述使用 KHI 数据进行故障排除的海报" alt="Poster describing troubleshooting using KHI data" />
-<p>使用来自 Microsoft 的 Zoom.it （最适用于台式机或膝上型电脑）<a href="https://go.microsoft.com/fwlink/?linkid=392971">全面了解海报的详细信息</a></p>
+<p>使用 Microsoft (中的 Zoom.it 在台式计算机或便携式计算机上的最佳<a href="https://go.microsoft.com/fwlink/?linkid=392971">详细信息放大海报</a>) </p>
 <p><a href="https://go.microsoft.com/fwlink/?linkid=391838">在 .zip 文件中同时使用 Visio 和 PDF 版本</a></p></td>
 <td><p>在 Lync 实施中描述服务器故障排除指标和给定服务器角色的海报。 使用此海报的方式为：</p>
 <ul>
 <li><p><a href="https://go.microsoft.com/fwlink/p/?linkid=390677">Lync Server 网络指南</a></p></li>
-<li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Lync Server 2013 中的 Lync 呼叫质量方法</a>（辅助功能文章）</p></li>
-<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Lync Server 2013 中的关键运行状况指示器</a>（辅助功能文章）</p></li>
+<li><p>Lync <a href="lync-server-2013-poster-lync-call-quality-methodology.md">Server 2013 中的 Lync 呼叫质量方法</a> (辅助功能文章) </p></li>
+<li><p><a href="lync-server-2013-poster-key-health-indicators.md">Lync Server 2013 中的关键运行状况指标</a> (辅助功能文章) </p></li>
 </ul>
 <p>大小：17×22英寸</p>
 <p>此海报是使用 Visio 2010 创建的。 特定环境不需要进行任何修改。</p></td>
@@ -134,9 +136,9 @@ _**上次修改的主题：** 2014-03-14_
 <td><p><strong>Lync 2013 平台选项</strong></p>
 <img src="images/Dn594589.c5b66828-c3cf-4654-bb75-b93f97d085b3(OCS.15).jpg" title="平台选项海报的缩略图视图" alt="thumbnail view of platform options poster" />
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">使用 Microsoft 的 Zoom.it 充分了解海报的详细信息</a></p>
-<p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">PDF 版本</a>（最适用于移动设备或平板电脑）</p>
-<p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Visio 版本</a>（最适用于 visio 用户）</p></td>
-<td><p>此海报介绍了适用于 Lync 2013 的平台选项，以及客户可以使用 Microsoft 365、混合 Lync、Lync Server 本地和托管 Lync 从 Lync Online 中进行选择。 此海报包括每个体系结构选项的详细信息，包括每个选项最理想的方案、许可要求和 IT 专业人员的职责。</p>
+<p>适用于移动设备或平板电脑的<a href="https://go.microsoft.com/fwlink/p/?linkid=391837">PDF 版本</a> (最佳) </p>
+<p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Visio 版本</a> (最适合使用 visio) 的用户</p></td>
+<td><p>此海报介绍了适用于 Lync 2013 的平台选项，以及客户可以使用 Microsoft 365、混合 Lync、Lync Server 本地和托管 Lync 从 Lync Online 中进行选择。 此海报包括每个体系结构选项的详细信息，包括每个选项最理想的方案、许可证要求和 IT 专业人员职责。</p>
 <p>大小： 34-x 44 英寸</p>
 <p>此海报是使用 Visio 2013 创建的。 特定环境不需要进行任何修改。</p></td>
 </tr>
@@ -144,8 +146,8 @@ _**上次修改的主题：** 2014-03-14_
 <td><p><strong>Microsoft Lync Server 2013 协议工作负载</strong></p>
 <img src="images/Dn594589.e00f8445-4e00-48f6-a3e2-f97334dde719(OCS.15).jpg" title="协议工作负荷海报的缩略图视图" alt="thumbnail view of protocol Workloads poster" />
 <p><a href="https://go.microsoft.com/fwlink/?linkid=392970">使用 Microsoft 的 Zoom.it 充分了解海报的详细信息</a></p>
-<p><a href="https://go.microsoft.com/fwlink/?linkid=392512">PDF 版本</a>（最适用于移动设备或平板电脑）</p>
-<p><a href="https://go.microsoft.com/fwlink/?linkid=392513">Visio 版本</a>（最适用于 visio 用户）</p></td>
+<p>适用于移动设备或平板电脑的<a href="https://go.microsoft.com/fwlink/?linkid=392512">PDF 版本</a> (最佳) </p>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392513">Visio 版本</a> (最适合使用 visio) 的用户</p></td>
 <td><p>下载此海报以了解 Lync 2013、Lync Phone、Lync Web App、Lync for Mac 和 Lync Mobile w 的功能和要求。 了解 Lync Server 工作负载如何促进组织之间的通信。</p>
 <p>大小： 24 x 36 英寸</p>
 <p>此海报是使用 Visio 2013 创建的。 特定环境不需要进行任何修改。</p></td>

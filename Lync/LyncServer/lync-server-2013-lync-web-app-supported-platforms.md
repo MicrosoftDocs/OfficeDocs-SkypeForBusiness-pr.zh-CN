@@ -12,20 +12,22 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcc5de45da918547a2c26b0e3fcc1e7768c1cbe8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 528be9cdc6ba5a256aa3d18e784a26837716802f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186095"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534609"
 ---
+# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013 支持的 lync Web App 平台
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Server 2013 支持的 lync Web App 平台
+
 
 </div>
 
@@ -109,7 +111,7 @@ _**上次修改的主题：** 2017-02-07_
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows 8 （基于 Intel）<sup>1</sup></p></td>
+<td><p>基于 Intel) <sup>1</sup> (的 Windows 8</p></td>
 <td><p>不适用</p></td>
 <td><p>不适用</p></td>
 <td><p>是</p></td>
@@ -153,7 +155,7 @@ _**上次修改的主题：** 2017-02-07_
 <td><p>是</p></td>
 <td><p>是</p></td>
 <td><p>否</p></td>
-<td><p>必需</p></td>
+<td><p>是</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
@@ -161,7 +163,7 @@ _**上次修改的主题：** 2017-02-07_
 <td><p>否</p></td>
 </tr>
 <tr class="even">
-<td><p>Mac OS X 10.7 及更高版本（基于 Intel）<sup>2</sup></p></td>
+<td><p>Mac OS X 10.7 及更高版本 (基于英特尔的) <sup>2</sup></p></td>
 <td><p>不适用</p></td>
 <td><p>不适用</p></td>
 <td><p>不适用</p></td>
@@ -170,20 +172,20 @@ _**上次修改的主题：** 2017-02-07_
 <td><p>不适用</p></td>
 <td><p>否</p></td>
 <td><p>否</p></td>
-<td><p>必需</p></td>
+<td><p>是</p></td>
 <td><p>否</p></td>
 </tr>
 </tbody>
 </table>
 
 
-<sup>1</sup>在 windows 8 和 windows 8.1 中，只有在对桌面运行 internet explorer 10 或 internet explorer 11 时，才可以安装使用基于计算机的音频、视频、应用程序查看、应用程序共享、桌面查看和桌面共享这一插件。 这些功能在 Internet Explorer 10 或 Internet Explorer 11 的非桌面版本中不可用。
+<sup>1</sup> 在 windows 8 和 windows 8.1 中，只有在对桌面运行 internet explorer 10 或 internet explorer 11 时，才可以安装使用基于计算机的音频、视频、应用程序查看、应用程序共享、桌面查看和桌面共享这一插件。 这些功能在 Internet Explorer 10 或 Internet Explorer 11 的非桌面版本中不可用。
 
-<sup>2</sup>在受支持的 windows 7、windows Server 2008 R2 和 Macintosh 操作系统中，所有功能均可用，包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能，必须在出现提示时安装插件。 请注意，Mac OS X 版本10.6 已不再受支持。
+<sup>2</sup> 在受支持的 windows 7、windows Server 2008 R2 和 Macintosh 操作系统中，所有功能均可用，包括基于计算机的语音、视频、应用程序查看、应用程序共享、桌面查看和桌面共享。 若要使用这些功能，必须在出现提示时安装插件。 请注意，Mac OS X 版本10.6 已不再受支持。
 
-<sup>3</sup>在受支持的 Windows Server 2008 操作系统中，基于计算机的语音和视频不可用。 可使用应用程序查看、应用程序共享、桌面查看和桌面共享。
+<sup>3</sup> 在受支持的 Windows Server 2008 操作系统中，基于计算机的语音和视频不可用。 可使用应用程序查看、应用程序共享、桌面查看和桌面共享。
 
-<sup>4</sup>插件要求在浏览器中支持 NPAPI。 Firefox 删除了对版本52.0 中的 NPAPI 的支持，并删除了版本45中的部件版式支持，因此这些浏览器在其当前版本中不再受支持。
+<sup>4</sup>  插件要求在浏览器中支持 NPAPI。 Firefox 删除了对版本52.0 中的 NPAPI 的支持，并删除了版本45中的部件版式支持，因此这些浏览器在其当前版本中不再受支持。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8cb9d4d75eca59ee3749197de8b373a33b4515d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91c1970b85b5b0c76174dfbc9d6dcec9ac24cc4d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183836"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534059"
 ---
+# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-扩展的控制器池、硬件负载平衡器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-扩展的控制器池、硬件负载平衡器
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42183836"
 
 _**上次修改的主题：** 2012-10-21_
 
-控制器池的防火墙端口要求由用于从边缘服务器的内部接口或反向代理的面向内部接口的内部接口与控制器建立通信的端口组成。 Microsoft Lync Server 2013 默认情况下需要从反向代理向控制器以及前端池和前端服务器打开端口 HTTP/TCP 8080 和 HTTPS/TCP 4443。 此外，还必须存在从边缘服务器内部接口到控制器以及前端池和前端服务器的会话初始协议（SIP）通信。 SIP 协议使用从边缘服务器到前端池和前端服务器的 SIP/MTLS/TCP 5061。 还必须创建一个允许从 Director、前端池和前端服务器到边缘服务器内部接口的 SIP/MTLS/TCP 5061 通信的规则。
+控制器池的防火墙端口要求由用于从边缘服务器的内部接口或反向代理的面向内部接口的内部接口与控制器建立通信的端口组成。 Microsoft Lync Server 2013 默认情况下需要从反向代理向控制器以及前端池和前端服务器打开端口 HTTP/TCP 8080 和 HTTPS/TCP 4443。 此外，还必须有会话初始协议 (SIP) 从边缘服务器内部接口到控制器以及前端池和前端服务器的通信。 SIP 协议使用从边缘服务器到前端池和前端服务器的 SIP/MTLS/TCP 5061。 还必须创建一个允许从 Director、前端池和前端服务器到边缘服务器内部接口的 SIP/MTLS/TCP 5061 通信的规则。
 
 ### <a name="director-ports-and-protocols-for-firewall-definitions"></a>用于防火墙定义的控制器端口和协议
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-10-21_
 <th>角色/协议/TCP 或 UDP/端口</th>
 <th>源 IP 地址</th>
 <th>目标 IP 地址</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
@@ -95,21 +97,21 @@ _**上次修改的主题：** 2012-10-21_
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>控制器</p></td>
-<td><p>集中日志记录服务控制器（ClsController）或代理（ClsAgent）命令和日志集合</p></td>
+<td><p>集中日志记录服务控制器 ( # A0) 或代理 ( # A1) 命令和日志集合</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>控制器</p></td>
-<td><p>集中日志记录服务控制器（ClsController）或代理（ClsAgent）命令和日志集合</p></td>
+<td><p>集中日志记录服务控制器 ( # A0) 或代理 ( # A1) 命令和日志集合</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>控制器</p></td>
-<td><p>集中日志记录服务控制器（ClsController）或代理（ClsAgent）命令和日志集合</p></td>
+<td><p>集中日志记录服务控制器 ( # A0) 或代理 ( # A1) 命令和日志集合</p></td>
 </tr>
 </tbody>
 </table>

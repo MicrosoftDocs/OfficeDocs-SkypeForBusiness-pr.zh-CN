@@ -12,20 +12,22 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6210591be9aaf281b76ea02f6f919ea3d1620db7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7bbe3f6439b357253ae49a5c1609319b6a91bfb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195825"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534750"
 ---
+# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>将第三方协作应用程序与 Lync Server 2013 集成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>将第三方协作应用程序与 Lync Server 2013 集成
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-02-20_
 
 <div>
 
-## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>将基于 Internet 的协作应用程序与 Lync 2013 集成
+## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>将 Internet-Based 协作应用程序与 Lync 2013 集成
 
 一般而言，集成第三方协作应用程序的步骤如下：
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2013-02-20_
 
 下表介绍了将基于 Internet 的协作应用程序与 Lync 2013 集成所需的注册表项。 这些项放置在注册表中的以下位置：
 
-  - HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters
+  - HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps \\ Parameters
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>基于 Internet 的协作应用程序的注册表项
 
@@ -119,7 +121,7 @@ _**上次修改的主题：** 2013-02-20_
 </table>
 
 
-下表介绍参数的注册表项。 这些条目放置\_在 HKEY 当前\_用户\\软件\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\参数中。
+下表介绍参数的注册表项。 这些条目放置在 HKEY \_ 当前 \_ 用户 \\ 软件 \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps 参数中 \\ 。
 
 ### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>基于 Internet 的协作应用程序的注册表项
 
@@ -140,7 +142,7 @@ _**上次修改的主题：** 2013-02-20_
 <tr class="odd">
 <td><p>Param1</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>在标记化格式中<code>%Parm1%</code>使用（）将特定于用户的值添加到 OriginatorPath 注册表项。</p></td>
+<td><p>在标记化格式中使用 (<code>%Parm1%</code>) 将特定于用户的值添加到 OriginatorPath 注册表项。</p></td>
 </tr>
 <tr class="even">
 <td><p>Param2</p></td>
@@ -182,11 +184,11 @@ _**上次修改的主题：** 2013-02-20_
 
 <div>
 
-## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>将基于服务器的协作应用程序与 Lync 2013 集成
+## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>将 Server-Based 协作应用程序与 Lync 2013 集成
 
-用于从 Lync 2013 中添加用于启动基于服务器的协作应用程序的命令的设置与上一节中所述，将基于 Internet 的协作应用程序与 Lync 2013 集成在一起。 但是，不需要 OriginatorPath，且更改了某些值。 注册表项放置在以下位置：
+用于从 Lync 2013 中添加用于启动基于服务器的协作应用程序的命令的设置与上一节中所述，将 Internet-Based 协作应用程序与 Lync 2013 集成在一起。 但是，不需要 OriginatorPath，且更改了某些值。 注册表项放置在以下位置：
 
-  - HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Office\\15.0\\Lync\\SessionManager\\Apps\\Parameters
+  - HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Office \\ 15.0 \\ Lync \\ SessionManager \\ Apps \\ Parameters
 
 ### <a name="registry-entries-for-a-server-based-collaboration-application"></a>基于服务器的协作应用程序的注册表项
 
@@ -212,12 +214,12 @@ _**上次修改的主题：** 2013-02-20_
 <tr class="even">
 <td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
-<td><p>值 = 1。 将应用程序类型设置为协议。 其他可能值在此情况下不适用。 如果不存在，则 ApplicationType 设置为0（可执行文件）。</p></td>
+<td><p>值 = 1。 将应用程序类型设置为协议。 其他可能值在此情况下不适用。 如果不存在，则 ApplicationType 设置为 0 (可执行) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>用于启动该协作应用程序的协议。 对于 Live Meeting 2007，Path 的值设置为<code>meet:%conf-uri%</code>。</p></td>
+<td><p>用于启动该协作应用程序的协议。 对于 Live Meeting 2007，Path 的值设置为 <code>meet:%conf-uri%</code> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionType</p></td>

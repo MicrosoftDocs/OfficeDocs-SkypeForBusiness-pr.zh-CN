@@ -12,20 +12,22 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 936de680a13a3f9ec851181876ce7a80c1784e52
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 001a94927d6160d138d344bf1a8fffcf519b58b2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534389"
 ---
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>在 Lync Server 2013 中修改拓扑生成器中的中继
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>在 Lync Server 2013 中修改拓扑生成器中的中继
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-09-21_
 
 1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-2.  运行 CsPstnGateway cmdlet 并修改 Lync Server 命令行管理程序中的 AlternateBypassId 字段。
+2.  运行 Set-CsPstnGateway cmdlet 并修改 Lync Server 命令行管理程序中的 AlternateBypassId 字段。
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2012-09-21_
 
 1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-2.  运行 CsPstnGateway cmdlet 并修改 Lync Server 命令行管理程序中的 AlternateBypassId 字段。
+2.  运行 Set-CsPstnGateway cmdlet 并修改 Lync Server 命令行管理程序中的 AlternateBypassId 字段。
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
 

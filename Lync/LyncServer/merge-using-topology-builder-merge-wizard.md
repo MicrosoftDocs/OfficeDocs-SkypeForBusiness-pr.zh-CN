@@ -12,20 +12,22 @@ ms:contentKeyID: 48185343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4760dcd8810d12b112c3bb042e0f28a039683a08
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 84d4cf270e54243b6120869827e8f2999e5839f9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44757043"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535259"
 ---
+# <a name="merge-using-topology-builder-merge-wizard"></a>使用拓扑生成器合并向导进行合并
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="merge-using-topology-builder-merge-wizard"></a>使用拓扑生成器合并向导进行合并
+
 
 </div>
 
@@ -58,7 +60,7 @@ _**上次修改的主题：** 2012-10-02_
     
     </div>
 
-6.  在 "**指定内部边缘设置**" 中，根据需要为边缘池的内部 FQDN 和端口输入相关信息，然后单击 "**下一步**"。
+6.  在 " **指定内部边缘设置** " 中，根据需要为边缘池的内部 FQDN 和端口输入相关信息，然后单击 " **下一步**"。
     
     !["指定内部边缘设置" 对话框](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg ""指定内部边缘设置" 对话框")  
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2012-10-02_
     
     </div>
 
-8.  如果计划将旧版 Office 通信服务器 2007 R2 边缘服务器用于联盟，请选中 "**此边缘池用于联盟和公用 IM 连接**" 复选框。 如果已部署多台边缘服务器，则将只为其中一台边缘服务器启用联盟。 如果未选中此复选框，但之后决定要启用联盟，则必须运行拓扑生成器合并向导，并再次发布拓扑。
+8.  如果计划将旧版 Office 通信服务器 2007 R2 边缘服务器用于联盟，请选中 " **此边缘池用于联盟和公用 IM 连接** " 复选框。 如果已部署多台边缘服务器，则将只为其中一台边缘服务器启用联盟。 如果未选中此复选框，但之后决定要启用联盟，则必须运行拓扑生成器合并向导，并再次发布拓扑。
     
     !["边缘服务器" 对话框中，指定外部边缘页面](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg ""边缘服务器" 对话框中，指定外部边缘页面")  
 
@@ -81,9 +83,9 @@ _**上次修改的主题：** 2012-10-02_
     
     !["边缘服务器" 对话框，"指定下一跃点" 页](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg ""边缘服务器" 对话框，"指定下一跃点" 页")  
 
-10. 在 "**指定边缘设置**" 中，如果已添加所有 Office 通信服务器 2007 R2 边缘服务器，请单击 "**下一步**"。 如果要添加更多的 Office 通信服务器 2007 R2 边缘服务器，请从步骤4开始，重复此过程。
+10. 在 " **指定边缘设置**" 中，如果已添加所有 Office 通信服务器 2007 R2 边缘服务器，请单击 " **下一步**"。 如果要添加更多的 Office 通信服务器 2007 R2 边缘服务器，请从步骤4开始，重复此过程。
 
-11. 在 "**指定内部 SIP 端口**" 中，选择默认设置（即，如果您未修改默认 SIP 端口）。 如果不使用默认端口 5061，则根据需要进行更改，然后单击“下一步”****。
+11. 在 " **指定内部 SIP 端口** " 中，选择默认设置 (即，如果未修改默认 SIP 端口) 。 如果不使用默认端口 5061，则根据需要进行更改，然后单击“下一步”****。
 
 12. 在“摘要”**** 中，单击“下一步”**** 开始合并拓扑。
 
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2012-10-02_
 
 14. 在“状态”**** 列中，确认值为“成功”****，然后单击“完成”****。
 
-15. 在拓扑生成器的左窗格中，您现在应该会看到**BackCompatSite**，这表示您的 Office 通信服务器 2007 R2 环境已与 Lync Server 2013 合并。
+15. 在拓扑生成器的左窗格中，您现在应该会看到 **BackCompatSite**，这表示您的 Office 通信服务器 2007 R2 环境已与 Lync Server 2013 合并。
     
     ![显示合并拓扑的拓扑生成器](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "显示合并拓扑的拓扑生成器")  
 
@@ -103,7 +105,7 @@ _**上次修改的主题：** 2012-10-02_
     
 
     > [!NOTE]  
-    > 请务必填写下一个主题 "<A href="import-policies-and-settings.md">导入策略和设置</A>"，以确保将旧策略设置导入到 Lync Server 2013。
+    > 请务必填写下一个主题 " <A href="import-policies-and-settings.md">导入策略和设置</A>"，以确保将旧策略设置导入到 Lync Server 2013。
 
     
     </div>

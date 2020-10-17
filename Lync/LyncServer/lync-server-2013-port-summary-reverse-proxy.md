@@ -12,20 +12,22 @@ ms:contentKeyID: 48184251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6259614da322e79f69db40441125b28c95e379c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: dfe8a797fa926899774386101ff57fa5733b9918
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42183905"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534149"
 ---
+# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-反向代理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的端口摘要-反向代理
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**上次修改的主题：** 2013-02-15_
 
   - 客户端希望与 HTTPS 上的 Office Web Apps Server 联系。 Office Web Apps Server 需要来自 HTTPS/TCP/443 上的内部客户端的通信。 建议的配置是允许从反向代理到 Office Web Apps Server 的 HTTPS/TCP/443。
 
-  - 端口8080用于将流量从反向代理内部接口路由到前端服务器、前端池虚拟 IP （VIP）或可选控制器或控制器池 VIP。 在需要修改外部 web 服务发布规则证书（例如，如果有大量 SIP 域）的情况下，运行 Lync 的移动设备需要使用端口 TCP 8080 来查找自动发现服务。 如果选择使用必需的 SAN 项获取新证书，则端口 TCP 8080 是不需要的并且是可选的。
+  - 端口8080用于将流量从反向代理内部接口路由到前端服务器、前端池虚拟 IP (VIP) 或可选控制器或控制器池 VIP。 如果在修改外部 web 服务发布规则证书的情况下，运行 Lync 的移动设备需要使用端口 TCP 8080，以查找自动发现服务 (例如，如果您有大量 SIP 域) 。 如果选择使用必需的 SAN 项获取新证书，则端口 TCP 8080 是不需要的并且是可选的。
 
-  - 端口4443用于从反向代理内部接口到前端服务器、前端池虚拟 IP （VIP）或可选控制器或控制器池 VIP 的流量
+  - 端口4443用于从反向代理内部接口到前端服务器、前端池虚拟 IP (VIP) 或可选控制器或控制器池 VIP 的流量
     
     ![13142405-d5c9-45b7-a8b7-a8c89f09c97c](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-d5c9-45b7-a8b7-a8c89f09c97c")  
     
@@ -76,20 +78,20 @@ _**上次修改的主题：** 2013-02-15_
 <th>协议/TCP 或 UDP/端口</th>
 <th>源 IP 地址</th>
 <th>目标 IP 地址</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>反向代理侦听器</p></td>
-<td><p>Optional如果用户进入 http://&lt;publishedSiteFQDN&gt;，则重定向到 HTTPS。</p>
+<td><p> (可选) 重定向到 HTTPS （如果用户进入 http:// &lt; publishedSiteFQDN &gt; 。</p>
 <p>如果在组织不想修改外部 Web 服务发布规则证书的情况下，使用 Office Web Apps for 会议和运行 Lync 的移动设备的自动发现服务，也需要使用此属性。</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>反向代理侦听器</p></td>
 <td><p>通讯簿下载、通讯簿 Web 查询服务、自动发现、客户端更新、会议内容、设备更新、组扩展、Office Web Apps for 会议、电话拨入式会议和会议。</p></td>
 </tr>
@@ -111,7 +113,7 @@ _**上次修改的主题：** 2013-02-15_
 <th>协议/TCP 或 UDP/端口</th>
 <th>源 IP 地址</th>
 <th>目标 IP 地址</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>

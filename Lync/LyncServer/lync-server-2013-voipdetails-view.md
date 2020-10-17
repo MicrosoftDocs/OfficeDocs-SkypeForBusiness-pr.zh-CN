@@ -12,20 +12,22 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7911a203a46d9bfa5698d01dc43c27c5f789c89a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0dc01632579c6455c47113f34e181f6598b7c781
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210910"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535379"
 ---
+# <a name="voipdetails-view-in-lync-server-2013"></a>Lync Server 2013 中的 VoIPDetails 视图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voipdetails-view-in-lync-server-2013"></a>Lync Server 2013 中的 VoIPDetails 视图
+
 
 </div>
 
@@ -43,7 +45,7 @@ VoIPDetails 视图存储有关对等会话（其中至少有一个用户是 VoIP
 
 
 > [!NOTE]  
-> VoIPDetails 视图包含在<A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 的 SessionDetails 视图</A>中的所有列，此外还列出了下面列出的列。
+> VoIPDetails 视图包含在 <A href="lync-server-2013-sessiondetails-view.md">Lync Server 2013 的 SessionDetails 视图</A> 中的所有列，此外还列出了下面列出的列。
 
 
 
@@ -66,52 +68,52 @@ VoIPDetails 视图存储有关对等会话（其中至少有一个用户是 VoIP
 <tbody>
 <tr class="odd">
 <td><p><strong>FromPhone</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>启动会话的用户的电话 ID。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToPhone</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>加入会话的用户的电话 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>断开会话的用户的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>断开会话的用户的 URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>断开会话的用户的 URI 的类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByTenant</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>断开会话的用户的租户。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByPhone</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>断开会话的用户的电话 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServer</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>启动会话的用户使用的中介服务器。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMediationServer</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>加入会话的用户使用的中介服务器。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromGateway</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>启动会话的用户使用的网关。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToGateway</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>加入会话的用户使用的网关。</p></td>
 </tr>
 </tbody>

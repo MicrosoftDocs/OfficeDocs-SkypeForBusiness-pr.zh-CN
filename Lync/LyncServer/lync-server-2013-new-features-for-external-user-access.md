@@ -12,20 +12,22 @@ ms:contentKeyID: 48184884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 526daf4359cec022b71476dc4abaa67c52e8409a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 43df9901b7bac37bb812eeb00c54537151496eb7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192355"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534309"
 ---
+# <a name="new-features-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中用于外部用户访问的新功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-features-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中用于外部用户访问的新功能
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-17_
 
 Lync Server 2013 引入了新功能，用于扩展用户的功能和通信方法。 另外，Lync Server 2013 引入了对现有服务所做的更改，以便更好地集成和扩展可供您的组织使用的服务。 以下是可能影响您规划和部署 Lync Server 2013 Edge Server 服务的更改的摘要。
 
-  - **对 ipv6 寻址**   Lync Server 2013 的支持支持所有边缘服务器服务的 ipv6 寻址。 如果已通过 Windows Server 中的配置为接口提供了 IPv6 地址，则可以通过拓扑生成器中的 IP 地址配置来使用边缘服务器配置中的 IPv6 地址。
+  - **对 IPv6 寻址**     的支持Lync Server 2013 支持所有边缘服务器服务的 IPv6 寻址。 如果已通过 Windows Server 中的配置为接口提供了 IPv6 地址，则可以通过拓扑生成器中的 IP 地址配置来使用边缘服务器配置中的 IPv6 地址。
     
     <div>
     
@@ -50,7 +52,7 @@ Lync Server 2013 引入了新功能，用于扩展用户的功能和通信方法
     
     </div>
 
-  - **可扩展消息传递和状态协议（XMPP）**   Lync Server 2013 引入了一个完全集成的 XMPP 代理（部署在边缘服务器上）和部署在前端服务器上的 XMPP 网关。 可将 XMPP 联盟作为可选组件来部署。 添加和配置 XMPP 代理和 XMPP 网关将允许您的 Microsoft Lync 2013 用户添加来自基于 XMPP 的合作伙伴的联系人，以实现即时消息（IM）和状态。
+  - **可扩展消息传递和状态协议 (XMPP) **    Lync Server 2013 引入了一个完全集成的 XMPP 代理 (部署在边缘服务器上) 和部署在前端服务器上的 XMPP 网关。 可将 XMPP 联盟作为可选组件来部署。 添加和配置 XMPP 代理和 XMPP 网关将允许您的 Microsoft Lync 2013 用户添加来自基于 XMPP 的合作伙伴的联系人，以实现即时消息 (IM) 和状态。
     
     <div>
     
@@ -61,7 +63,7 @@ Lync Server 2013 引入了新功能，用于扩展用户的功能和通信方法
     
     </div>
 
-  - **适用**   于 lync server 2010 的客户更新中引入的移动客户端移动服务在 lync server 的客户更新中，lync server 2013 中的移动服务允许使用支持的 Apple iOS、Android、Windows Phone 或 Nokia 移动设备的移动电话和平板电脑设备上的 Microsoft Lync 移动客户端执行类似发送和接收即时消息、查看联系人和查看状态等活动。 此外，移动设备支持某些企业语音功能，例如，通过单击加入会议、通过工作、单号码到达、语音邮件和未接来电通知进行呼叫。
+  - **移动客户端**     的移动服务在 Lync Server 2010 的客户更新中引入，Lync Server 2013 中的移动服务允许使用受支持的 Apple iOS、Android、Windows Phone 或 Nokia 移动设备的移动电话和平板电脑上的 Microsoft Lync 移动客户端执行诸如发送和接收即时消息、查看联系人和查看状态等活动。 此外，移动设备支持某些企业语音功能，例如，通过单击加入会议、通过工作、单号码到达、语音邮件和未接来电通知进行呼叫。
     
     <div>
     
@@ -72,7 +74,7 @@ Lync Server 2013 引入了新功能，用于扩展用户的功能和通信方法
     
     </div>
 
-  - **Director 是可选角色**   Lync server 2013 拓扑中的控制器服务器的角色未发生更改。 它仍承载 web 服务，对传入的用户请求进行预身份验证，并将外部用户定向到其主池。 将 Director 从推荐角色更改为可选角色不会降低 Director 的价值，但强调的是减少服务器数量和其他硬件要求（例如，控制器的硬件负载平衡器）要求，而不危害特性和功能。 由于前端服务器可以执行与提供的服务不受影响的控制器相同的作业，因此，如果选择，则可以选择部署控制器。 你可以放心地排除 Director，前端服务器将在其位置提供相同的服务。
+  - **控制器是一个可选角色**    Lync Server 2013 拓扑中的控制器服务器角色未发生更改。 它仍承载 web 服务，对传入的用户请求进行预身份验证，并将外部用户定向到其主池。 将 Director 从推荐角色更改为可选角色不会降低 Director 的价值，但强调服务器数量和其他硬件要求 (例如，控制器) 要求的硬件负载平衡器，而不会影响特性和功能。 由于前端服务器可以执行与提供的服务不受影响的控制器相同的作业，因此，如果选择，则可以选择部署控制器。 你可以放心地排除 Director，前端服务器将在其位置提供相同的服务。
 
 <div>
 
@@ -83,7 +85,7 @@ Lync Server 2013 引入了新功能，用于扩展用户的功能和通信方法
 
 
 [在 Lync Server 2013 中规划外部用户访问](lync-server-2013-planning-for-external-user-access.md)  
-[在 Lync Server 2013 中规划可扩展消息和状态协议（XMPP）联盟](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
+[在 Lync Server 2013 中规划可扩展消息和状态协议 (XMPP) 联盟](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
   
 
 </div>

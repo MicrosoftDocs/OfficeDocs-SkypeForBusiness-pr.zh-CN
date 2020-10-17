@@ -12,20 +12,22 @@ ms:contentKeyID: 48679557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31889fa60f86d269e5efab696c2c27e48cc55d59
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b7cc0eec0dc1371e27834dda69b25a32b9346ab5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195745"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535219"
 ---
+# <a name="configure-policies-to-control-xmpp-federated-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中配置策略以控制 XMPP 联盟用户访问
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-xmpp-federated-user-access-in-lync-server-2013"></a>在 Lync Server 2013 中配置策略以控制 XMPP 联盟用户访问
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**上次修改的主题：** 2012-11-01_
 
 这是初步文档，可能会发生变更。 空白主题作为占位符包含在内。
 
-当您配置用以支持可扩展消息传递和状态协议 (XMPP) 联盟合作伙伴的策略时，这些策略适用于 XMPP 联盟域用户，但不适用于会话初始协议 (SIP) 即时消息 (IM) 服务提供商（例如，Windows Live）用户或 SIP 联盟域用户。 您为每个您希望允许您的用户在其中添加联系人并与其通信的 XMPP 联盟域配置一个 **XMPP 联盟伙伴**。 XMPP 联盟伙伴策略只在单一范围内可用，尽管它未定义为全局策略，却充当全局策略。 要为 XMPP 联盟伙伴定义全局、站点或用户策略，需要通过首先为您所需的范围创建和配置外部访问策略来配置策略范围。 有关可为外部访问和联盟配置的策略类型的详细信息，请参阅操作文档中的[管理对 Lync Server 2013 的联合身份验证和外部访问](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)。
+当您配置用以支持可扩展消息传递和状态协议 (XMPP) 联盟合作伙伴的策略时，这些策略适用于 XMPP 联盟域用户，但不适用于会话初始协议 (SIP) 即时消息 (IM) 服务提供商（例如，Windows Live）用户或 SIP 联盟域用户。 您为每个您希望允许您的用户在其中添加联系人并与其通信的 XMPP 联盟域配置一个 **XMPP 联盟伙伴**。 XMPP 联盟伙伴策略只在单一范围内可用，尽管它未定义为全局策略，却充当全局策略。 要为 XMPP 联盟伙伴定义全局、站点或用户策略，需要通过首先为您所需的范围创建和配置外部访问策略来配置策略范围。 有关可为外部访问和联盟配置的策略类型的详细信息，请参阅操作文档中的 [管理对 Lync Server 2013 的联合身份验证和外部访问](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) 。
 
 <div>
 
 
 > [!NOTE]  
-> 所有<STRONG>联盟和外部访问</STRONG>策略都是通过带内设置应用的。 登录期间，应用于用户、属于某个站点或在全局范围内的策略传达给客户端。 您可以配置策略来控制 XMPP 联盟伙伴访问，即使您还没有为您的组织启用 XMPP 联盟也是如此。 但是，您配置的策略只在您为您的组织部署、启用和配置了 XMPP 合作伙伴联盟后才生效。 有关部署和配置 XMPP 合作伙伴联盟的详细信息，请参阅部署文档中的在<A href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Lync Server 2013 中配置 SIP 联合、XMPP 联盟和公共即时消息</A>。 此外，如果您在外部访问策略中指定用户策略以控制 XMPP 联盟伙伴，则该策略仅适用于启用了 Lync Server 2013 的用户并配置为使用该策略。
+> 所有<STRONG>联盟和外部访问</STRONG>策略都是通过带内设置应用的。 登录期间，应用于用户、属于某个站点或在全局范围内的策略传达给客户端。 您可以配置策略来控制 XMPP 联盟伙伴访问，即使您还没有为您的组织启用 XMPP 联盟也是如此。 但是，您配置的策略只在您为您的组织部署、启用和配置了 XMPP 合作伙伴联盟后才生效。 有关部署和配置 XMPP 合作伙伴联盟的详细信息，请参阅部署文档中的在 <A href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Lync Server 2013 中配置 SIP 联合、XMPP 联盟和公共即时消息</A> 。 此外，如果您在外部访问策略中指定用户策略以控制 XMPP 联盟伙伴，则该策略仅适用于启用了 Lync Server 2013 的用户并配置为使用该策略。
 
 
 
@@ -55,9 +57,9 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-edit-a-global-policy-for-xmpp-federated-partners"></a>编辑 XMPP 联盟伙伴的全局策略
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“外部用户访问”****，然后单击“外部访问策略”****。
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2012-11-01_
 
 7.  选择“启用与联盟用户的通信”****。
 
-8.  选中“启用与 XMPP 联盟用户的通信”****。
+8.  选择“启用与 XMPP 联盟用户的通信”****。
 
 9.  单击“提交”**** 保存对全局策略所做的更改。
 
@@ -111,7 +113,7 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-edit-an-existing-policy-for-xmpp-federated-partners-by-using-windows-powershell"></a>使用 Windows PowerShell 编辑 XMPP 联盟伙伴的现有策略
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
@@ -119,7 +121,7 @@ _**上次修改的主题：** 2012-11-01_
     
         Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false>
     
-    将联盟用户访问的全局策略设置为 True （enabled）和 XMPP domain access 为 True （启用）的命令示例：
+    将联盟用户访问的全局策略设置为 True (启用) 并将域访问权限设置为 True (启用) 的命令示例：
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true
 
@@ -129,7 +131,7 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-create-a-site-or-user-policy-for-xmpp-federated-partners-using-windows-powershell"></a>使用 Windows PowerShell 为 XMPP 联盟伙伴创建网站或用户策略
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
@@ -147,7 +149,7 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-delete-an-existing-policy-for-xmpp-federated-partners-by-using-windows-powershell"></a>使用 Windows PowerShell 删除 XMPP 联盟伙伴的现有策略
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 

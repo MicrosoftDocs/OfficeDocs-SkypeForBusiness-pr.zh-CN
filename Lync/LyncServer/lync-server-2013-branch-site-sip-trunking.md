@@ -12,20 +12,22 @@ ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38a9aba34b3b3f5a082af2273af42c1a2c5ea4b5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1c9e4c5c8ca64e1b7f2014821cc61fa2655c9f7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535189"
 ---
+# <a name="branch-site-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中的分支站点 SIP 中继
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-sip-trunking-in-lync-server-2013"></a>Lync Server 2013 中的分支站点 SIP 中继
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42196565"
 
 _**上次修改的主题：** 2012-09-21_
 
-在某些情况下，您可能需要在选定的分支站点中实施分布式 SIP 中继。 若要确定分支站点是否需要 SIP 中继，请参阅[如何在 Lync Server 2013 中实现 sip 中继？](lync-server-2013-how-do-i-implement-sip-trunking.md)中的信息。
+在某些情况下，您可能需要在选定的分支站点中实施分布式 SIP 中继。 若要确定分支站点是否需要 SIP 中继，请参阅 [如何在 Lync Server 2013 中实现 sip 中继？](lync-server-2013-how-do-i-implement-sip-trunking.md)中的信息。
 
-有关在分支站点中部署 SIP 中继的受支持拓扑选项的详细信息，请参阅[Lync Server 2013 中的分支站点恢复解决方案](lync-server-2013-branch-site-resiliency-solutions.md)。
+有关在分支站点中部署 SIP 中继的受支持拓扑选项的详细信息，请参阅 [Lync Server 2013 中的分支站点恢复解决方案](lync-server-2013-branch-site-resiliency-solutions.md)。
 
 <div>
 

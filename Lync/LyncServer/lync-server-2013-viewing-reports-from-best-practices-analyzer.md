@@ -12,20 +12,22 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93ce3e013f5c0578c78db3ceee8ab1d65481efbb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1ffa6108760955de643b7ffa4afe841464ae140f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211105"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535589"
 ---
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中查看最佳实践分析工具报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中查看最佳实践分析工具报告
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-09-21_
 
   - 其他报告
 
-这些报告包括错误、警告和其他信息。 有关这些报告和问题类型的详细信息，请参阅[了解 Lync Server 2013 中的最佳实践分析工具创建的报告](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)。
+这些报告包括错误、警告和其他信息。 有关这些报告和问题类型的详细信息，请参阅 [了解 Lync Server 2013 中的最佳实践分析工具创建的报告](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)。
 
 使用以下过程可查看之前由最佳做法分析器生成的扫描结果。
 
@@ -58,9 +60,9 @@ _**上次修改的主题：** 2012-09-21_
 1.  使用作为本地用户帐户成员的帐户登录到安装了最佳做法分析器的计算机。
     
     > [!NOTE]  
-    > 虽然可使用作为本地 Administrators 组成员的帐户查看扫描结果，但除非您具有适当的用户权限，否则无法运行扫描。 有关详细信息，请参阅<A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013 中的最佳实践分析工具组成员身份和用户权限要求</A>。
+    > 虽然可使用作为本地 Administrators 组成员的帐户查看扫描结果，但除非您具有适当的用户权限，否则无法运行扫描。 有关详细信息，请参阅 <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Lync Server 2013 中的最佳实践分析工具组成员身份和用户权限要求</A>。
 
-2.  单击 "**开始**"，依次指向 "**所有程序**"、" **Microsoft Lync Server 2013**"，然后单击 "**最佳实践分析工具**"。
+2.  单击 " **开始**"，依次指向 " **所有程序**"、" **Microsoft Lync Server 2013**"，然后单击 " **最佳实践分析工具**"。
 
 3.  在“欢迎”**** 屏幕上，单击“选择要查看的扫描结果”****。
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2012-09-21_
       - 若要从本地存储的扫描结果列表中查看报告，请单击扫描的名称，然后单击“查看该扫描的报告”****。
         
         > [!NOTE]  
-        > 最佳实践分析&lt;工具将从文件夹系统驱动器&gt;\\文档和设置\\&lt;用户&gt;\Application 中创建本地文件列表 Data\Microsoft\RtcBPA。
+        > 最佳实践分析工具将从文件夹 &lt; 系统驱动器 &gt; \\ 文档和设置 \\ &lt; 用户 &gt; \Application 中创建本地文件列表 Data\Microsoft\RtcBPA。
     
       - 若要查看存储在另一个位置的扫描结果报告，请单击“导入扫描”****，找到包含扫描结果的文件，然后单击“打开”****。
         
@@ -85,7 +87,7 @@ _**上次修改的主题：** 2012-09-21_
       - 若要查看其他报告，请单击“其他报告”****。
     
     > [!NOTE]  
-    > 若要详细了解最佳实践分析工具和他们确定的问题，请参阅<A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">在 lync server 2013 中查看并使用最佳实践分析工具创建的报告</A>，并<A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">分析和解决 lync server 2013 中的最佳实践分析工具识别的问题</A>。
+    > 若要详细了解最佳实践分析工具和他们确定的问题，请参阅 <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">在 lync server 2013 中查看并使用最佳实践分析工具创建的报告</A> ，并 <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">分析和解决 lync server 2013 中的最佳实践分析工具识别的问题</A>。
 
 </div>
 

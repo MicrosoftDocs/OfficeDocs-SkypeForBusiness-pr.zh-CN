@@ -12,20 +12,22 @@ ms:contentKeyID: 48184139
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a49cdc3b1eee2a7a5fe176512f729902288f84e8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 315bd908b8369a107c4c9ddedcf5ce9911fc48f0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185895"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534499"
 ---
+# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a>在 Lync Server 2013 中管理托管的语音邮件策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a>在 Lync Server 2013 中管理托管的语音邮件策略
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-09-20_
 
 </div>
 
-有关规划托管语音邮件策略的详细信息，请参阅规划文档中的在[Lync Server 2013 中托管的语音邮件策略](lync-server-2013-hosted-voice-mail-policies.md)。
+有关规划托管语音邮件策略的详细信息，请参阅规划文档中的在 [Lync Server 2013 中托管的语音邮件策略](lync-server-2013-hosted-voice-mail-policies.md) 。
 
 <div>
 

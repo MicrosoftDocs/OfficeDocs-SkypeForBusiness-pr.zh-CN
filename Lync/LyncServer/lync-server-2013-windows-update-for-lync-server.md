@@ -12,20 +12,22 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ad3a87c865b987e73c78192b3b2bfc719777cf7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f537e8cea8f3bf4cc08afe89de21e06f1c671d52
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210202"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48535289"
 ---
+# <a name="windows-update-for-lync-server-2013"></a>适用于 Lync Server 2013 的 Windows 更新
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="windows-update-for-lync-server-2013"></a>适用于 Lync Server 2013 的 Windows 更新
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-12-05_
 
 使用 Windows Update Services 经常检查和应用更新以及安全更新。 这样做有助于防止其他系统组件中的漏洞，这可能会导致攻击者能够使用管理员权限访问运行 Microsoft Lync Server 2013 的服务器，从而危害 Lync Server 2013。
 
-Microsoft SQL Server 2008 Express （64位版本）的更新在每个 Lync Server 2013 Standard Edition server （针对后端数据库）和所有其他 Lync Server 2013 服务器角色（对于本地配置存储）上运行，除非已升级这些数据库到 SQL Server 2008 R2 Express。 您应将这些数据库视为日常安全更新维护的一部分，就像前端池的后端数据库上的 SQL Server、监控数据库和存档数据库一样。
+Microsoft SQL Server 2008 Express (64-bit) edition 的更新在每个 Lync Server 2013 Standard Edition server (上为后端数据库) 和所有其他 Lync Server 2013 服务器角色 (，除非已将这些数据库升级到 SQL Server 2008 R2 Express。 您应将这些数据库视为日常安全更新维护的一部分，就像前端池的后端数据库上的 SQL Server、监控数据库和存档数据库一样。
 
 <div>
 

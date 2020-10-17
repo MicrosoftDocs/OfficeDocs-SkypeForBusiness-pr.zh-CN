@@ -12,20 +12,22 @@ ms:contentKeyID: 49733678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bc8ad2f5372ee9b434a1236e9d0cbba0f34a5de
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ec5d280d05089c4f1efc4fd8c54ab4841d24621d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204868"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534999"
 ---
+# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中配置集中日志记录服务的提供程序
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-providers-for-centralized-logging-service-in-lync-server-2013"></a>在 Lync Server 2013 中配置集中日志记录服务的提供程序
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42204868"
 
 _**上次修改的主题：** 2014-03-19_
 
-集中日志记录服务中*提供程序*的概念和配置是最重要的一项。 *提供程序*直接映射到 lync server 跟踪模型中的 lync server 服务器角色组件。 提供程序定义要跟踪的 Lync Server 2013 的组件、要收集的邮件的类型（例如，致命、错误或警告）以及标志（例如，TF\_CONNECTION 或 tf\_的诊断）。 提供程序是每个 Lync Server 服务器角色中的可跟踪组件。 通过使用提供程序，可以定义对组件进行的跟踪的级别和类型（例如，S4、SIPStack、IM 和 Presence）。 可在方案中使用所定义的提供程序将针对给定逻辑集合的、满足某个特定问题条件的所有提供程序组合在一起。
+集中日志记录服务中 *提供程序* 的概念和配置是最重要的一项。 *提供程序*直接映射到 lync server 跟踪模型中的 lync server 服务器角色组件。 提供程序定义要跟踪的 Lync Server 2013 的组件、要收集的邮件的类型、要收集的) 的 (、严重、错误或警告，以及 flags (例如，TF \_ Connection 或 TF settings \_) 。 提供程序是每个 Lync Server 服务器角色中的可跟踪组件。 通过使用提供程序，可以定义对组件进行的跟踪的级别和类型（例如，S4、SIPStack、IM 和 Presence）。 可在方案中使用所定义的提供程序将针对给定逻辑集合的、满足某个特定问题条件的所有提供程序组合在一起。
 
-若要使用 Lync Server 命令行管理程序运行集中式日志记录服务功能，您必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制（RBAC）安全组的成员，或者是包含以下任一项的自定义 RBAC 角色：这两个组。 若要返回已将此 cmdlet 分配到的所有基于角色的访问控制（RBAC）角色的列表（包括您自己创建的任何自定义 RBAC 角色），请从 Lync Server 命令行管理程序或 Windows PowerShell 提示符处运行以下命令：
+若要使用 Lync Server 命令行管理程序运行集中式日志记录服务功能，您必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组中任一组的自定义 RBAC 角色。 若要返回所有基于角色的访问控制的列表 (RBAC) 角色已将此 cmdlet 分配给 (包括您自己创建的任何自定义 RBAC 角色) ，请从 Lync Server 命令行管理程序或 Windows PowerShell 提示符处运行以下命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2014-03-19_
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-本主题的其余部分将重点说明如何定义提供程序、修改提供程序以及提供程序定义为优化您的疑难解答所包含的内容。 有两种方法可以发出集中式日志记录服务命令。 默认情况\\下，您可以使用目录 C： Program Files\\Common Files\\the Microsoft Lync Server 2013\\CLSAgent 中的 CLSController。 或者，您可以使用 Lync Server 命令行管理程序发出 Windows PowerShell 命令。 重要区别在于，在命令行中使用 CLSController.exe 时，可供选择的可用方案是有限的，在这些方案中，提供程序已被定义且不可更改，但您可以定义日志级别。 通过使用 Windows PowerShell，可以定义在日志记录会话中使用的新提供程序，并能够完全控制自己的创建、收集的内容以及它们收集数据的级别。
+本主题的其余部分将重点说明如何定义提供程序、修改提供程序以及提供程序定义为优化您的疑难解答所包含的内容。 有两种方法可以发出集中式日志记录服务命令。 默认情况下，您可以使用目录 C： \\ Program files \\ Common files The \\ Microsoft Lync Server 2013 CLSAgent 中的 CLSController.exe \\ 。 或者，您可以使用 Lync Server 命令行管理程序发出 Windows PowerShell 命令。 重要区别在于，在命令行中使用 CLSController.exe 时，可供选择的可用方案是有限的，在这些方案中，提供程序已被定义且不可更改，但您可以定义日志级别。 通过使用 Windows PowerShell，可以定义在日志记录会话中使用的新提供程序，并能够完全控制自己的创建、收集的内容以及它们收集数据的级别。
 
 <div class="">
 
@@ -59,37 +61,37 @@ _**上次修改的主题：** 2014-03-19_
 
 </div>
 
-在[Lync Server 2013 中的集中日志记录服务概述](lync-server-2013-overview-of-the-centralized-logging-service.md)中，定义在方案中使用的提供程序的关键元素包括：
+在 [Lync Server 2013 中的集中日志记录服务概述](lync-server-2013-overview-of-the-centralized-logging-service.md)中，定义在方案中使用的提供程序的关键元素包括：
 
-  - **提供程序**   如果您熟悉 OCSLogger，则提供程序是您选择的组件，用于告诉 OCSLogger 跟踪引擎应从什么方面收集日志。 提供程序是一些相同的组件，在许多情况下，它们的名称与 OCSLogger 中组件的名称相同。 如果您不熟悉 OCSLogger，则提供程序是集中式日志记录服务可从中收集日志的特定于服务器角色的组件。 在集中日志记录服务的情况下，CLSAgent 是集中日志记录服务的体系结构部分，该组件将跟踪您在提供程序配置中定义的组件。
+  - **提供程序**    如果您熟悉 OCSLogger，则提供程序是您选择的组件，用于告诉 OCSLogger 跟踪引擎应从什么方面收集日志。 提供程序是一些相同的组件，在许多情况下，它们的名称与 OCSLogger 中组件的名称相同。 如果您不熟悉 OCSLogger，则提供程序是集中式日志记录服务可从中收集日志的特定于服务器角色的组件。 在集中日志记录服务的情况下，CLSAgent 是集中日志记录服务的体系结构部分，该组件将跟踪您在提供程序配置中定义的组件。
 
-  - **日志记录级别**   OCSLogger 提供了选择所收集数据的多个详细信息级别的选项。 此功能是集中日志记录服务和方案不可或缺的一部分，由**Type**参数定义。 您可以选择以下选项：
+  - **日志记录级别**    OCSLogger 提供了选择收集的数据的多个级别的详细信息的选项。 此功能是集中日志记录服务和方案不可或缺的一部分，由 **Type** 参数定义。 您可以选择以下选项：
     
-      - **All**   为定义的提供程序收集类型为 "致命"、"错误"、"警告" 和 "信息" 的跟踪消息。
+      - **所有**    将类型为致命、错误、警告和信息的跟踪消息收集到定义的提供程序的日志中。
     
-      - **致命**   仅收集指示定义的提供程序发生故障的跟踪消息。
+      - **致命**    仅收集指示定义的提供程序发生故障的跟踪消息。
     
-      - **错误**   仅收集指示定义的提供程序的错误以及致命消息的跟踪消息。
+      - **错误**    仅收集指示定义的提供程序的错误以及致命消息的跟踪消息。
     
-      - **警告**   仅收集指示定义的提供程序的警告的跟踪消息，以及致命错误和错误消息。
+      - **警告**    仅收集指示定义的提供程序的警告的跟踪消息，以及致命错误和错误消息。
     
-      - **Info**   仅收集指示定义的提供程序的信息性消息的跟踪消息，以及致命错误和警告消息。
+      - **信息**    仅收集指示定义的提供程序的信息性消息的跟踪消息，以及致命错误和警告消息。
     
-      - **详细**   收集定义的提供程序的所有类型为致命、错误、警告和信息的跟踪消息。
+      - **详细**    收集定义的提供程序的所有类型为致命错误、错误、警告和信息的跟踪消息。
 
-  - **Flags**   OCSLogger 提供了选择每个提供程序的标记的选项，这些提供程序定义了可从跟踪文件中检索的信息类型。 可以根据提供程序选择以下标志：
+  - **标志**    OCSLogger 提供了选择每个提供程序的标记的选项，这些提供程序定义了可从跟踪文件中检索的信息类型。 可以根据提供程序选择以下标志：
     
-      - **TF\_connection**   提供与连接相关的日志条目。 这些日志包括与特定组件建立的连接的相关信息。 这可能还包括大量网络级信息（即针对组件，但不包括连接的概念）。
+      - **TF \_连接**     提供与连接相关的日志条目。 这些日志包括与特定组件建立的连接的相关信息。 这可能还包括大量网络级信息（即针对组件，但不包括连接的概念）。
     
-      - **TF\_security**   提供了与安全性相关的所有事件/日志条目。 例如，对于 SipStack，它们是一些安全事件（例如，域验证失败和客户端身份验证/授权失败）。
+      - **TF \_安全性**     提供与安全性相关的所有事件/日志条目。 例如，对于 SipStack，它们是一些安全事件（例如，域验证失败和客户端身份验证/授权失败）。
     
-      - **TF\_** diagnostics   提供了可用于诊断或排除组件故障的诊断事件。 例如，对于 SipStack，它们是证书失败或 DNS 警告/错误。
+      - **TF \_诊断**     提供可用于诊断或排除组件故障的诊断事件。 例如，对于 SipStack，它们是证书失败或 DNS 警告/错误。
     
-      - **TF\_协议**   提供了协议消息，如 SIP 和组合的社区编解码器包消息。
+      - **TF \_协议**     提供协议消息，如 SIP 和组合的社区编解码器包消息。
     
-      - **TF\_组件**   可在指定为提供程序的一部分的组件上启用日志记录。
+      - **TF \_组件**     可在指定为提供程序的一部分的组件上启用日志记录。
     
-      - **All**   设置可用于提供程序的所有可用标志。
+      - **所有**    设置可用于提供程序的所有可用标志。
 
 <div>
 
@@ -127,7 +129,7 @@ _**上次修改的主题：** 2014-03-19_
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
 
-–Level 收集重要消息、错误消息、警告消息和信息性消息。 使用的标志都是为 Lyss 提供程序定义的所有标志，并包括\_tf CONNECTION、\_tf 诊断和\_tf 协议。
+–Level 收集重要消息、错误消息、警告消息和信息性消息。 使用的标志都是为 Lyss 提供程序定义的所有标志，并包括 TF \_ Connection、tf \_ 诊断和 tf \_ 协议。
 
 在定义变量 $LyssProvider 之后，可将其与 **New-CsClsScenario** cmdlet 结合使用以从 Lyss 提供程序中收集跟踪信息。 若要创建提供程序并将其分配给新的方案，请键入：
 
@@ -177,7 +179,7 @@ _**上次修改的主题：** 2014-03-19_
 
 1.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
-2.  可利用提供的 cmdlet 更新现有提供程序并创建新的提供程序。 若要删除提供程序，您必须对 **Set-CsClsScenario** 的 Provider 参数使用 Replace 指令。 完全删除提供程序的唯一方式是，将提供程序替换为具有相同名称的重定义的提供程序并使用 Update 指令。 例如，我们的提供商 LyssProvider 使用 WPP 作为日志类型进行定义，将 level 设置为 Debug，而 flags set 为\_tf CONNECTION 和\_tf settings。 您需要将标志更改为“All”。 若要更改提供程序，请键入：
+2.  可利用提供的 cmdlet 更新现有提供程序并创建新的提供程序。 若要删除提供程序，您必须对 **Set-CsClsScenario** 的 Provider 参数使用 Replace 指令。 完全删除提供程序的唯一方式是，将提供程序替换为具有相同名称的重定义的提供程序并使用 Update 指令。 例如，我们的提供商 LyssProvider 使用 WPP 作为日志类型进行定义，将 level 设置为 Debug，而 flags set 为 TF \_ CONNECTION 和 TF settings \_ 。 您需要将标志更改为“All”。 若要更改提供程序，请键入：
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
 

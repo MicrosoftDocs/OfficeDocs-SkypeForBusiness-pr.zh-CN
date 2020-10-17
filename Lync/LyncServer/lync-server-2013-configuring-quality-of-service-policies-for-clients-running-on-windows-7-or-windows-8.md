@@ -12,20 +12,22 @@ ms:contentKeyID: 48185785
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c372cae4bd55f4dec59be91c47dbee6497cbf7e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cd058e2903160f1c9f4ea06e30959b63953ab01
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205998"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534969"
 ---
+# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>为在 Windows 7 或 Windows 8 上运行的客户端配置 Lync Server 2013 中的服务质量策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-quality-of-service-policies-in-lync-server-2013-for-clients-running-on-windows-7-or-windows-8"></a>为在 Windows 7 或 Windows 8 上运行的客户端配置 Lync Server 2013 中的服务质量策略
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205998"
 
 _**上次修改的主题：** 2016-03-29_
 
-除了指定用于 Lync 客户端的端口范围之外，还必须创建将应用于客户端计算机的单独服务策略质量。 （不应将为会议、应用程序和中介服务器创建的服务质量策略应用于客户端计算机。）此信息仅适用于运行 Lync 2013 客户端的计算机以及 Windows 7 或 Windows 8。
+除了指定用于 Lync 客户端的端口范围之外，还必须创建将应用于客户端计算机的单独服务策略质量。  (为会议、应用程序和中介服务器创建的服务质量策略不应应用于客户端计算机。 ) 此信息仅适用于运行 Lync 2013 客户端的计算机以及 Windows 7 或 Windows 8。
 
 以下示例使用此端口范围的设置创建音频策略和视频策略：
 
@@ -94,11 +96,11 @@ _**上次修改的主题：** 2016-03-29_
 
 6.  在“基于策略的 QoS”**** 对话框中的打开的页面上，在“名称”**** 框中键入新策略（即：“Lync 音频”****）的名称。选择“指定 DSCP 值”****，并将该值设置为“46”****。将“指定出站调节率”**** 保留为未选中状态，然后单击“下一步”****。
 
-7. 在下一页上，选择 "**仅限具有此可执行文件名称的应用程序**" 并输入名称**Lync .exe**，然后单击 "**下一步**"。 此设置指示策略仅将 Lync 客户端的匹配流量排定优先级。
+7. 在下一页上，选择 " **仅使用此可执行文件名称的应用程序** "，并输入 **Lync.exe**的名称，然后单击 " **下一步**"。 此设置指示策略仅将 Lync 客户端的匹配流量排定优先级。
 
 8.  在第三页上，确保选中“任意源 IP 地址”**** 和“任意目标 IP 地址”****，然后单击“下一步”****。这两个设置确保将管理这些数据包，与哪台计算机（IP 地址）发送这些数据包及哪台计算机（IP 地址）将接收这些数据包无关。
 
-9.  在第四页上，从“选择此 QoS 策略所适用的协议”**** 下拉列表中选择“TCP 和 UDP”****。 TCP （传输控制协议）和 UDP （用户数据报协议）是 Lync Server 及其客户端应用程序最常使用的两种网络协议。
+9.  在第四页上，从“选择此 QoS 策略所适用的协议”**** 下拉列表中选择“TCP 和 UDP”****。 TCP (传输控制协议) 和 UDP (用户数据报协议) 是 Lync Server 及其客户端应用程序最常使用的两种网络协议。
 
 10. 在标题“指定源端口号”**** 下，选择“从此源端口或范围”****。在附带的文本框中，键入为音频传输保留的端口范围。例如，如果您为音频流量保留端口 50020 到端口 50039，则使用以下格式输入端口范围：“50020:50039”****。单击“完成”****。
 
@@ -136,11 +138,11 @@ _**上次修改的主题：** 2016-03-29_
 
 要确保将网络数据包标记为相应的 DSCP 值，还应该通过完成以下过程在每台计算机上创建新的注册表项：
 
-1.  单击“开始”****，然后单击“运行”****。
+1.  单击“开始”****，再单击“运行”****。
 
 2.  在“运行”**** 对话框中，键入“regedit”****，然后按 Enter 键。
 
-3.  在注册表编辑器中，展开 **"\_HKEY\_本地计算机**"，展开 "**系统**"，展开 " **CurrentControlSet**"，展开 "**服务**"，然后展开 " **Tcpip**"。
+3.  在注册表编辑器中，展开 " **HKEY \_ 本地 \_ 计算机**"，展开 " **系统**"，展开 " **CurrentControlSet**"，展开 " **服务**"，然后展开 " **Tcpip**"。
 
 4.  右键单击“Tcpip”****，指向“新建”****，然后单击“项”****。创建新注册表项后，键入“QoS”****，然后按 Enter 键以重命名该项。
 
@@ -162,7 +164,7 @@ _**上次修改的主题：** 2016-03-29_
 
 2.  在“运行”**** 对话框中，键入“regedit”****，然后按 Enter 键。
 
-3.  在注册表编辑器中，展开 **"\_HKEY\_本地计算机**"，展开 "**系统**"，展开 " **CurrentControlSet**"，展开 "**服务**"，然后展开 " **Tcpip**"。
+3.  在注册表编辑器中，展开 " **HKEY \_ 本地 \_ 计算机**"，展开 " **系统**"，展开 " **CurrentControlSet**"，展开 " **服务**"，然后展开 " **Tcpip**"。
 
 4.  如果没有看到标记为“QoS”**** 的注册表项，则右键单击“Tcpip”****，指向“新建”****，然后单击“项”****。创建新项后，键入“QoS”****，然后按 Enter 键来重命名该项。
 

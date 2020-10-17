@@ -12,20 +12,22 @@ ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41eefd8316e0e33ab8c4418a6ce72ea9eb05fc84
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fc12092e08980fcb1863b18805260ac307cc6d3d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214768"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48534859"
 ---
+# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>安装 Lync Server 2013 core 文件和 RTCLocal 数据库
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>安装 Lync Server 2013 core 文件和 RTCLocal 数据库
+
 
 </div>
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-10-20_
     
         D:\Setup.exe /BootstrapLocalMgmt
 
-若要验证是否已成功安装核心 Lync Server 组件，请依次单击 "**开始**"、"**所有程序**"、" **lync server 2013**"，然后单击 " **lync server Management Shell**"。 在 "Lync Server 2013 命令行管理程序" 中，键入以下 Windows PowerShell 命令，然后按 ENTER：
+若要验证是否已成功安装核心 Lync Server 组件，请依次单击 " **开始**"、" **所有程序**"、" **lync server 2013**"，然后单击 " **lync server Management Shell**"。 在 "Lync Server 2013 命令行管理程序" 中，键入以下 Windows PowerShell 命令，然后按 ENTER：
 
     Get-CsWatcherNodeConfiguration
 
