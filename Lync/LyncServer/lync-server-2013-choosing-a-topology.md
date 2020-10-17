@@ -12,20 +12,22 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: 4f128c827845ac06a736b849e6fa3242e319decb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44221736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48529379"
 ---
+# <a name="choosing-a-topology-in-lync-server-2013"></a><span data-ttu-id="6f048-102">在 Lync Server 2013 中选择拓扑</span><span class="sxs-lookup"><span data-stu-id="6f048-102">Choosing a topology in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="choosing-a-topology-in-lync-server-2013"></a><span data-ttu-id="a8c85-102">在 Lync Server 2013 中选择拓扑</span><span class="sxs-lookup"><span data-stu-id="a8c85-102">Choosing a topology in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -33,45 +35,45 @@ ms.locfileid: "44221736"
 
 <div id="mainBody">
 
-<span data-ttu-id="a8c85-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="a8c85-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="6f048-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="6f048-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="a8c85-104">选择拓扑后，可以使用以下支持的拓扑选项之一：</span><span class="sxs-lookup"><span data-stu-id="a8c85-104">When you choose a topology, you can use one the following supported topology options:</span></span>
+<span data-ttu-id="6f048-104">选择拓扑后，可以使用以下支持的拓扑选项之一：</span><span class="sxs-lookup"><span data-stu-id="6f048-104">When you choose a topology, you can use one the following supported topology options:</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="a8c85-105">除非另有说明，否则，如果你有 Microsoft Lync Server 2010 的经验，你将在此处发现指南主要保持不变。</span><span class="sxs-lookup"><span data-stu-id="a8c85-105">Unless otherwise noted, if you have experience with Microsoft Lync Server 2010, you will find the guidance here is largely unchanged.</span></span>
+> <span data-ttu-id="6f048-105">除非另有说明，否则，如果你有 Microsoft Lync Server 2010 的经验，你将在此处发现指南主要保持不变。</span><span class="sxs-lookup"><span data-stu-id="6f048-105">Unless otherwise noted, if you have experience with Microsoft Lync Server 2010, you will find the guidance here is largely unchanged.</span></span>
 
 
 
 </div>
 
-  - [<span data-ttu-id="a8c85-106">Lync Server 2013 中具有专用 IP 地址和 NAT 的单一合并边缘</span><span class="sxs-lookup"><span data-stu-id="a8c85-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
+  - [<span data-ttu-id="6f048-106">Lync Server 2013 中具有专用 IP 地址和 NAT 的单一合并边缘</span><span class="sxs-lookup"><span data-stu-id="6f048-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
-  - [<span data-ttu-id="a8c85-107">Lync Server 2013 中具有公用 IP 地址的单一合并边缘</span><span class="sxs-lookup"><span data-stu-id="a8c85-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
+  - [<span data-ttu-id="6f048-107">Lync Server 2013 中具有公用 IP 地址的单一合并边缘</span><span class="sxs-lookup"><span data-stu-id="6f048-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="a8c85-108">在 Lync Server 2013 中，扩展的合并边缘（使用 NAT 通过专用 IP 地址进行 DNS 负载平衡）</span><span class="sxs-lookup"><span data-stu-id="a8c85-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [<span data-ttu-id="6f048-108">在 Lync Server 2013 中，扩展的合并边缘（使用 NAT 通过专用 IP 地址进行 DNS 负载平衡）</span><span class="sxs-lookup"><span data-stu-id="6f048-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [<span data-ttu-id="a8c85-109">在 Lync Server 2013 中，扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）</span><span class="sxs-lookup"><span data-stu-id="a8c85-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [<span data-ttu-id="6f048-109">在 Lync Server 2013 中，扩展的合并边缘（使用公用 IP 地址进行 DNS 负载平衡）</span><span class="sxs-lookup"><span data-stu-id="6f048-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="a8c85-110">Lync Server 2013 中具有硬件负载平衡器的扩展的合并边缘</span><span class="sxs-lookup"><span data-stu-id="a8c85-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [<span data-ttu-id="6f048-110">Lync Server 2013 中具有硬件负载平衡器的扩展的合并边缘</span><span class="sxs-lookup"><span data-stu-id="6f048-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="a8c85-p101">内部边缘接口和外部边缘接口必须使用同一类型的负载平衡。您不能对一个边缘接口使用 DNS 负载平衡，而对另一个边缘接口使用硬件负载平衡。</span><span class="sxs-lookup"><span data-stu-id="a8c85-p101">The internal Edge interface and external Edge interface must use the same type of load balancing. You cannot use DNS load balancing on one Edge interface and hardware load balancing on the other Edge interface.</span></span>
+> <span data-ttu-id="6f048-p101">内部边缘接口和外部边缘接口必须使用同一类型的负载平衡。您不能对一个边缘接口使用 DNS 负载平衡，而对另一个边缘接口使用硬件负载平衡。</span><span class="sxs-lookup"><span data-stu-id="6f048-p101">The internal Edge interface and external Edge interface must use the same type of load balancing. You cannot use DNS load balancing on one Edge interface and hardware load balancing on the other Edge interface.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="a8c85-113">下表汇总了支持的 Microsoft Lync Server 2013 拓扑结构中提供的功能。</span><span class="sxs-lookup"><span data-stu-id="a8c85-113">The following table summarizes the functionality available with the supported Microsoft Lync Server 2013 topologies.</span></span> <span data-ttu-id="a8c85-114">列标题指明了给定的边缘配置选项可用的功能。</span><span class="sxs-lookup"><span data-stu-id="a8c85-114">The column headings indicate the functionality available for a given Edge configuration option.</span></span> <span data-ttu-id="a8c85-115">以“扩展边缘”（DNS 负载已平衡）选项为例，您可以了解到它支持高可用性、可以使用分配给边缘外部接口的不可路由专用 IP 地址（具有 NAT）或可路由的公用 IP 地址，并可降低成本（因为不需要硬件负载平衡器）。</span><span class="sxs-lookup"><span data-stu-id="a8c85-115">Using the Scaled Edge (DNS load balanced) option as an example, you can see that it supports high availability, can use non-routable private IP addresses (with NAT) or routable public IP addresses assigned to the Edge external interfaces, and reduces cost because a hardware load balancer is not required.</span></span>
+<span data-ttu-id="6f048-113">下表汇总了支持的 Microsoft Lync Server 2013 拓扑结构中提供的功能。</span><span class="sxs-lookup"><span data-stu-id="6f048-113">The following table summarizes the functionality available with the supported Microsoft Lync Server 2013 topologies.</span></span> <span data-ttu-id="6f048-114">列标题指明了给定的边缘配置选项可用的功能。</span><span class="sxs-lookup"><span data-stu-id="6f048-114">The column headings indicate the functionality available for a given Edge configuration option.</span></span> <span data-ttu-id="6f048-115">以“扩展边缘”（DNS 负载已平衡）选项为例，您可以了解到它支持高可用性、可以使用分配给边缘外部接口的不可路由专用 IP 地址（具有 NAT）或可路由的公用 IP 地址，并可降低成本（因为不需要硬件负载平衡器）。</span><span class="sxs-lookup"><span data-stu-id="6f048-115">Using the Scaled Edge (DNS load balanced) option as an example, you can see that it supports high availability, can use non-routable private IP addresses (with NAT) or routable public IP addresses assigned to the Edge external interfaces, and reduces cost because a hardware load balancer is not required.</span></span>
 
-<span data-ttu-id="a8c85-116">DNS 负载平衡支持的边缘故障转移方案为 Lync 到 Lync 的点对点会话、Lync 会议会话、Lync 到 PSTN 会话、Office 365 和 Microsoft 365。</span><span class="sxs-lookup"><span data-stu-id="a8c85-116">Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point-to-point sessions, Lync conferencing sessions, Lync-to-PSTN sessions, Office 365, and Microsoft 365.</span></span> <span data-ttu-id="a8c85-117">无法从 DNS 负载平衡获益的边缘故障转移方案针对远程用户 Exchange 统一消息（UM）（Exchange 2010 SP1 之前）、公共即时消息（IM）连接以及与运行 Office 通信服务器的服务器的联盟进行故障转移。</span><span class="sxs-lookup"><span data-stu-id="a8c85-117">Edge failover scenarios that do not benefit from DNS Load Balancing are failover for remote user Exchange Unified Messaging (UM) (prior to Exchange 2010 SP1), public instant messaging (IM) connectivity, and federation with servers running Office Communications Server.</span></span>
+<span data-ttu-id="6f048-116">DNS 负载平衡支持的边缘故障转移方案为 Lync 到 Lync 的点对点会话、Lync 会议会话、Lync 到 PSTN 会话、Office 365 和 Microsoft 365。</span><span class="sxs-lookup"><span data-stu-id="6f048-116">Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point-to-point sessions, Lync conferencing sessions, Lync-to-PSTN sessions, Office 365, and Microsoft 365.</span></span> <span data-ttu-id="6f048-117">无法从 DNS 负载平衡中受益的边缘故障转移方案在 Exchange 2010 SP1) 、公共即时消息 (IM) 连接以及与运行 Office 通信服务器的服务器之间的联盟的情况下，对远程用户 Exchange 统一消息 (UM)  (进行故障转移。</span><span class="sxs-lookup"><span data-stu-id="6f048-117">Edge failover scenarios that do not benefit from DNS Load Balancing are failover for remote user Exchange Unified Messaging (UM) (prior to Exchange 2010 SP1), public instant messaging (IM) connectivity, and federation with servers running Office Communications Server.</span></span>
 
-### <a name="summary-of-edge-server-topology-options"></a><span data-ttu-id="a8c85-118">边缘服务器拓扑选项摘要</span><span class="sxs-lookup"><span data-stu-id="a8c85-118">Summary of Edge Server Topology Options</span></span>
+### <a name="summary-of-edge-server-topology-options"></a><span data-ttu-id="6f048-118">边缘服务器拓扑选项摘要</span><span class="sxs-lookup"><span data-stu-id="6f048-118">Summary of Edge Server Topology Options</span></span>
 
 <table>
 <colgroup>
@@ -83,119 +85,79 @@ ms.locfileid: "44221736"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a8c85-119">拓扑</span><span class="sxs-lookup"><span data-stu-id="a8c85-119">Topology</span></span></th>
-<th><span data-ttu-id="a8c85-120">高可用性</span><span class="sxs-lookup"><span data-stu-id="a8c85-120">High availability</span></span></th>
-<th><span data-ttu-id="a8c85-121">边缘池中的外部边缘服务器是否需要其他 DNS A 记录</span><span class="sxs-lookup"><span data-stu-id="a8c85-121">Additional DNS A records required for external Edge Server in the Edge pool</span></span></th>
-<th><span data-ttu-id="a8c85-122">Lync 到 Lync 会话的边缘故障转移</span><span class="sxs-lookup"><span data-stu-id="a8c85-122">Edge Failover for Lync-to-Lync sessions</span></span></th>
-<th><span data-ttu-id="a8c85-123">Lync to Lync EUM/PIC/OCS 联合会话的边缘故障转移</span><span class="sxs-lookup"><span data-stu-id="a8c85-123">Edge Failover for Lync-to-Lync EUM/PIC/OCS Federation sessions</span></span></th>
+<th><span data-ttu-id="6f048-119">拓扑</span><span class="sxs-lookup"><span data-stu-id="6f048-119">Topology</span></span></th>
+<th><span data-ttu-id="6f048-120">高可用性</span><span class="sxs-lookup"><span data-stu-id="6f048-120">High availability</span></span></th>
+<th><span data-ttu-id="6f048-121">边缘池中的外部边缘服务器是否需要其他 DNS A 记录</span><span class="sxs-lookup"><span data-stu-id="6f048-121">Additional DNS A records required for external Edge Server in the Edge pool</span></span></th>
+<th><span data-ttu-id="6f048-122">Lync 到 Lync 会话的边缘故障转移</span><span class="sxs-lookup"><span data-stu-id="6f048-122">Edge Failover for Lync-to-Lync sessions</span></span></th>
+<th><span data-ttu-id="6f048-123">Lync to Lync EUM/PIC/OCS 联合会话的边缘故障转移</span><span class="sxs-lookup"><span data-stu-id="6f048-123">Edge Failover for Lync-to-Lync EUM/PIC/OCS Federation sessions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a8c85-124">使用 NAT 的单个边缘</span><span class="sxs-lookup"><span data-stu-id="a8c85-124">Single Edge using NAT</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-125">否</span><span class="sxs-lookup"><span data-stu-id="a8c85-125">No</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-126">否</span><span class="sxs-lookup"><span data-stu-id="a8c85-126">No</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-127">否</span><span class="sxs-lookup"><span data-stu-id="a8c85-127">No</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-128">否</span><span class="sxs-lookup"><span data-stu-id="a8c85-128">No</span></span></p></td>
+<td><p><span data-ttu-id="6f048-124">使用 NAT 的单个边缘</span><span class="sxs-lookup"><span data-stu-id="6f048-124">Single Edge using NAT</span></span></p></td>
+<td><p><span data-ttu-id="6f048-125">否</span><span class="sxs-lookup"><span data-stu-id="6f048-125">No</span></span></p></td>
+<td><p><span data-ttu-id="6f048-126">否</span><span class="sxs-lookup"><span data-stu-id="6f048-126">No</span></span></p></td>
+<td><p><span data-ttu-id="6f048-127">否</span><span class="sxs-lookup"><span data-stu-id="6f048-127">No</span></span></p></td>
+<td><p><span data-ttu-id="6f048-128">否</span><span class="sxs-lookup"><span data-stu-id="6f048-128">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8c85-129">使用公用 IP 的单个边缘</span><span class="sxs-lookup"><span data-stu-id="a8c85-129">Single Edge using Public IP</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-130">否</span><span class="sxs-lookup"><span data-stu-id="a8c85-130">No</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-131">否</span><span class="sxs-lookup"><span data-stu-id="a8c85-131">No</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-132">否</span><span class="sxs-lookup"><span data-stu-id="a8c85-132">No</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-133">否</span><span class="sxs-lookup"><span data-stu-id="a8c85-133">No</span></span></p></td>
+<td><p><span data-ttu-id="6f048-129">使用公用 IP 的单个边缘</span><span class="sxs-lookup"><span data-stu-id="6f048-129">Single Edge using Public IP</span></span></p></td>
+<td><p><span data-ttu-id="6f048-130">否</span><span class="sxs-lookup"><span data-stu-id="6f048-130">No</span></span></p></td>
+<td><p><span data-ttu-id="6f048-131">否</span><span class="sxs-lookup"><span data-stu-id="6f048-131">No</span></span></p></td>
+<td><p><span data-ttu-id="6f048-132">否</span><span class="sxs-lookup"><span data-stu-id="6f048-132">No</span></span></p></td>
+<td><p><span data-ttu-id="6f048-133">否</span><span class="sxs-lookup"><span data-stu-id="6f048-133">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8c85-134">使用 NAT 的扩展边缘（DNS 负载已平衡）</span><span class="sxs-lookup"><span data-stu-id="a8c85-134">Scaled Edge (DNS Load Balanced) using NAT</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-135">是</span><span class="sxs-lookup"><span data-stu-id="a8c85-135">Yes</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-136">是</span><span class="sxs-lookup"><span data-stu-id="a8c85-136">Yes</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-137">是</span><span class="sxs-lookup"><span data-stu-id="a8c85-137">Yes</span></span></p></td>
+<td><p><span data-ttu-id="6f048-134">使用 NAT 的扩展边缘（DNS 负载已平衡）</span><span class="sxs-lookup"><span data-stu-id="6f048-134">Scaled Edge (DNS Load Balanced) using NAT</span></span></p></td>
+<td><p><span data-ttu-id="6f048-135">是</span><span class="sxs-lookup"><span data-stu-id="6f048-135">Yes</span></span></p></td>
+<td><p><span data-ttu-id="6f048-136">是</span><span class="sxs-lookup"><span data-stu-id="6f048-136">Yes</span></span></p></td>
+<td><p><span data-ttu-id="6f048-137">是</span><span class="sxs-lookup"><span data-stu-id="6f048-137">Yes</span></span></p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8c85-138">使用公用 IP 的扩展边缘（DNS 负载已平衡）</span><span class="sxs-lookup"><span data-stu-id="a8c85-138">Scaled Edge (DNS Load Balanced) using Public IP</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-139">是</span><span class="sxs-lookup"><span data-stu-id="a8c85-139">Yes</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-140">是</span><span class="sxs-lookup"><span data-stu-id="a8c85-140">Yes</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-141">是</span><span class="sxs-lookup"><span data-stu-id="a8c85-141">Yes</span></span></p></td>
+<td><p><span data-ttu-id="6f048-138">使用公用 IP 的扩展边缘（DNS 负载已平衡）</span><span class="sxs-lookup"><span data-stu-id="6f048-138">Scaled Edge (DNS Load Balanced) using Public IP</span></span></p></td>
+<td><p><span data-ttu-id="6f048-139">是</span><span class="sxs-lookup"><span data-stu-id="6f048-139">Yes</span></span></p></td>
+<td><p><span data-ttu-id="6f048-140">是</span><span class="sxs-lookup"><span data-stu-id="6f048-140">Yes</span></span></p></td>
+<td><p><span data-ttu-id="6f048-141">是</span><span class="sxs-lookup"><span data-stu-id="6f048-141">Yes</span></span></p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8c85-142">扩展边缘（硬件负载已平衡）</span><span class="sxs-lookup"><span data-stu-id="a8c85-142">Scaled Edge Hardware load balanced)</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-143">是</span><span class="sxs-lookup"><span data-stu-id="a8c85-143">Yes</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-144">不支持（每个 VIP 一个 DNS A 记录）</span><span class="sxs-lookup"><span data-stu-id="a8c85-144">No (one DNS A record per VIP)</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-145">是</span><span class="sxs-lookup"><span data-stu-id="a8c85-145">Yes</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-146">是</span><span class="sxs-lookup"><span data-stu-id="a8c85-146">Yes</span></span></p></td>
+<td><p><span data-ttu-id="6f048-142">扩展边缘（硬件负载已平衡）</span><span class="sxs-lookup"><span data-stu-id="6f048-142">Scaled Edge Hardware load balanced)</span></span></p></td>
+<td><p><span data-ttu-id="6f048-143">是</span><span class="sxs-lookup"><span data-stu-id="6f048-143">Yes</span></span></p></td>
+<td><p><span data-ttu-id="6f048-144">不支持（每个 VIP 一个 DNS A 记录）</span><span class="sxs-lookup"><span data-stu-id="6f048-144">No (one DNS A record per VIP)</span></span></p></td>
+<td><p><span data-ttu-id="6f048-145">是</span><span class="sxs-lookup"><span data-stu-id="6f048-145">Yes</span></span></p></td>
+<td><p><span data-ttu-id="6f048-146">是</span><span class="sxs-lookup"><span data-stu-id="6f048-146">Yes</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="a8c85-147">**\*** 用于公共即时消息（IM）连接的故障转移以及与运行 Office 通信服务器的服务器的联盟在 DNS 负载平衡中不可用。</span><span class="sxs-lookup"><span data-stu-id="a8c85-147">**\*** Failover for public instant messaging (IM) connectivity, and federation with servers running Office Communications Server is not available with DNS load balancing.</span></span> <span data-ttu-id="a8c85-148">使用 DNS 负载平衡的 exchange UM （远程用户）故障转移需要 Exchange Server 2010 SP1 或更高版本。</span><span class="sxs-lookup"><span data-stu-id="a8c85-148">Exchange UM (remote user) failover using DNS load balancing requires Exchange Server 2010 SP1 or newer.</span></span>
+<span data-ttu-id="6f048-147">**\*** 通过 DNS 负载平衡，公共即时消息 (IM) 连接和与运行 Office 通信服务器的服务器的联盟的故障转移不可用。</span><span class="sxs-lookup"><span data-stu-id="6f048-147">**\*** Failover for public instant messaging (IM) connectivity, and federation with servers running Office Communications Server is not available with DNS load balancing.</span></span> <span data-ttu-id="6f048-148">Exchange UM (远程用户) 使用 DNS 负载平衡进行故障转移需要 Exchange Server 2010 SP1 或更高版本。</span><span class="sxs-lookup"><span data-stu-id="6f048-148">Exchange UM (remote user) failover using DNS load balancing requires Exchange Server 2010 SP1 or newer.</span></span>
 
 
 
 > [!NOTE]
-> <span data-ttu-id="a8c85-149">单个边缘和扩展边缘（DNS 负载已平衡）拓扑可以使用：</span><span class="sxs-lookup"><span data-stu-id="a8c85-149">Single Edge and Scaled Edge (DNS load balanced) topologies can use:</span></span>
-> <ul><li><p><span data-ttu-id="a8c85-150">可路由的公用 IP 地址</span><span class="sxs-lookup"><span data-stu-id="a8c85-150">Routable public IP addresses</span></span></p></li>
-> <li><p><span data-ttu-id="a8c85-151">如果使用对称网络地址转换（NAT），则不可路由的专用 IP 地址</span><span class="sxs-lookup"><span data-stu-id="a8c85-151">Non-routable private IP address if symmetric network address translation (NAT) is used</span></span></p></li>
+> <span data-ttu-id="6f048-149">单个边缘和扩展边缘（DNS 负载已平衡）拓扑可以使用：</span><span class="sxs-lookup"><span data-stu-id="6f048-149">Single Edge and Scaled Edge (DNS load balanced) topologies can use:</span></span>
+> <ul><li><p><span data-ttu-id="6f048-150">可路由的公用 IP 地址</span><span class="sxs-lookup"><span data-stu-id="6f048-150">Routable public IP addresses</span></span></p></li>
+> <li><p><span data-ttu-id="6f048-151">如果使用了对称网络地址转换 (NAT) ，则不可路由的专用 IP 地址</span><span class="sxs-lookup"><span data-stu-id="6f048-151">Non-routable private IP address if symmetric network address translation (NAT) is used</span></span></p></li>
 >
-> <ul><li> <span data-ttu-id="a8c85-152">如果使用公用 IP 地址或使用 NAT 的专用 IP 地址，则仍将根据拓扑生成器中的配置选择使用相同数量的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a8c85-152">If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder.</span></span> <span data-ttu-id="a8c85-153">您可以将边缘服务器配置为对每个服务使用具有不同端口的单个 IP 地址，或对每个服务使用不同的 IP 地址，但使用相同的端口（默认情况下为 TCP 443）。</span><span class="sxs-lookup"><span data-stu-id="a8c85-153">You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).</span></span></li></ul>>
-> <span data-ttu-id="a8c85-154">如果您决定使用与 NAT 的不可路由的专用 IP 地址：</span><span class="sxs-lookup"><span data-stu-id="a8c85-154">If you decide to use non-routable private IP addresses with NAT:</span></span>
-> <ul><li><p><span data-ttu-id="a8c85-155">您必须在所有三个外部接口上使用可路由的专用 IP 地址</span><span class="sxs-lookup"><span data-stu-id="a8c85-155">You must use routable private IP addresses on all three external interfaces</span></span></p></li>
-> <li><p><span data-ttu-id="a8c85-156">必须为传入和传出流量配置对称 NAT</span><span class="sxs-lookup"><span data-stu-id="a8c85-156">You must configure symmetric NAT for incoming and outgoing traffic</span></span></p></li></ul>>
-> <span data-ttu-id="a8c85-157">扩展边缘（硬件负载已平衡）拓扑必须使用公用 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a8c85-157">Scaled Edge (hardware load balanced) topology must use public IP addresses.</span></span>
+> <ul><li> <span data-ttu-id="6f048-152">如果使用公用 IP 地址或使用 NAT 的专用 IP 地址，则仍将根据拓扑生成器中的配置选择使用相同数量的 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="6f048-152">If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder.</span></span> <span data-ttu-id="6f048-153">您可以将边缘服务器配置为对每个服务使用具有不同端口的单个 IP 地址，也可以对每个服务使用不同的 IP 地址，但默认情况下，使用相同的端口 (（TCP 443) ）。</span><span class="sxs-lookup"><span data-stu-id="6f048-153">You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).</span></span></li></ul>>
+> <span data-ttu-id="6f048-154">如果您决定使用与 NAT 的不可路由的专用 IP 地址：</span><span class="sxs-lookup"><span data-stu-id="6f048-154">If you decide to use non-routable private IP addresses with NAT:</span></span>
+> <ul><li><p><span data-ttu-id="6f048-155">您必须在所有三个外部接口上使用可路由的专用 IP 地址</span><span class="sxs-lookup"><span data-stu-id="6f048-155">You must use routable private IP addresses on all three external interfaces</span></span></p></li>
+> <li><p><span data-ttu-id="6f048-156">必须为传入和传出流量配置对称 NAT</span><span class="sxs-lookup"><span data-stu-id="6f048-156">You must configure symmetric NAT for incoming and outgoing traffic</span></span></p></li></ul>>
+> <span data-ttu-id="6f048-157">扩展边缘（硬件负载已平衡）拓扑必须使用公用 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="6f048-157">Scaled Edge (hardware load balanced) topology must use public IP addresses.</span></span>
 
 
 
-<span data-ttu-id="a8c85-158">Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在为单一和扩展的合并边缘服务器拓扑执行网络地址转换（NAT）的路由器或防火墙后面。</span><span class="sxs-lookup"><span data-stu-id="a8c85-158">Lync Server 2013 supports placing Access, Web Conferencing, and A/V Edge external interfaces behind a router or firewall that performs network address translation (NAT) for both single and scaled consolidated Edge Server topologies.</span></span>
+<span data-ttu-id="6f048-158">Lync Server 2013 支持将访问、Web 会议和 A/V 边缘外部接口放置在为单个合并和扩展的合并边缘服务器拓扑执行网络地址转换 (NAT) 的路由器或防火墙后面。</span><span class="sxs-lookup"><span data-stu-id="6f048-158">Lync Server 2013 supports placing Access, Web Conferencing, and A/V Edge external interfaces behind a router or firewall that performs network address translation (NAT) for both single and scaled consolidated Edge Server topologies.</span></span>
 
-<span data-ttu-id="a8c85-p106">对所有边缘的外部接口使用 NAT 需要使用 DNS 负载平衡。与使用硬件负载平衡器相比，使用 DNS 负载平衡（不含 NAT）使您可以减少边缘池中每台边缘服务器的公用 IP 地址的数量，如以下列表所示：</span><span class="sxs-lookup"><span data-stu-id="a8c85-p106">Using NAT for all Edge external interfaces requires the use of DNS load balancing. When compared to using hardware load balancers, using DNS load balancing without NAT allows you to reduce the number of public IP address per Edge Server in an Edge pool as described in the following list:</span></span>
+<span data-ttu-id="6f048-p106">对所有边缘的外部接口使用 NAT 需要使用 DNS 负载平衡。与使用硬件负载平衡器相比，使用 DNS 负载平衡（不含 NAT）使您可以减少边缘池中每台边缘服务器的公用 IP 地址的数量，如以下列表所示：</span><span class="sxs-lookup"><span data-stu-id="6f048-p106">Using NAT for all Edge external interfaces requires the use of DNS load balancing. When compared to using hardware load balancers, using DNS load balancing without NAT allows you to reduce the number of public IP address per Edge Server in an Edge pool as described in the following list:</span></span>
 
-  - <span data-ttu-id="a8c85-161">Lync Server 2013 扩展的合并边缘（DNS 负载平衡）对边缘池中的每台边缘服务器都需要三个公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a8c85-161">Lync Server 2013 Scaled Consolidated Edge (DNS load balanced) Requires three public IP addresses for each Edge Server in an Edge pool.</span></span>
+  - <span data-ttu-id="6f048-161">Lync Server 2013 扩展的合并边缘 (DNS 负载平衡) 需要一个边缘池中每台边缘服务器的三个公共 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="6f048-161">Lync Server 2013 Scaled Consolidated Edge (DNS load balanced) Requires three public IP addresses for each Edge Server in an Edge pool.</span></span>
 
-  - <span data-ttu-id="a8c85-162">Lync Server 2013 扩展的合并边缘（硬件负载平衡）需要三个公用 IP 地址用于负载平衡器虚拟 IP 地址（一种时间要求，在将更多边缘服务器添加到池中时不增加）加池中的每台边缘服务器的三个公用 IP 地址。</span><span class="sxs-lookup"><span data-stu-id="a8c85-162">Lync Server 2013 Scaled Consolidated Edge (hardware load balanced) Requires three public IP address for load balancer virtual IP addresses (one time requirement that does not increment as more Edge Servers are added to the pool) plus three public IP addresses per Edge Server in a pool.</span></span>
+  - <span data-ttu-id="6f048-162">Lync Server 2013 扩展的合并边缘 (硬件负载平衡) 需要三个用于负载平衡器虚拟 IP 地址的公用 IP 地址 (一种时间要求，在将更多边缘服务器添加到池) 外加池中的每台边缘服务器的三个公用 IP 地址时不会增加。</span><span class="sxs-lookup"><span data-stu-id="6f048-162">Lync Server 2013 Scaled Consolidated Edge (hardware load balanced) Requires three public IP address for load balancer virtual IP addresses (one time requirement that does not increment as more Edge Servers are added to the pool) plus three public IP addresses per Edge Server in a pool.</span></span>
 
-### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a><span data-ttu-id="a8c85-163">扩展的合并边缘的 IP 地址要求（每个角色一个 IP 地址）</span><span class="sxs-lookup"><span data-stu-id="a8c85-163">IP Address Requirements for Scaled Consolidated Edge (IP Address per role)</span></span>
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="a8c85-164">每个池的边缘服务器数量</span><span class="sxs-lookup"><span data-stu-id="a8c85-164">Number of Edge Servers per pool</span></span></th>
-<th><span data-ttu-id="a8c85-165">所需 IP 地址的数目 Lync Server 2013 （DNS 负载平衡）</span><span class="sxs-lookup"><span data-stu-id="a8c85-165">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
-<th><span data-ttu-id="a8c85-166">所需 IP 地址的数目 Lync Server 2013 （硬件负载平衡）</span><span class="sxs-lookup"><span data-stu-id="a8c85-166">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="a8c85-167">2 </span><span class="sxs-lookup"><span data-stu-id="a8c85-167">2</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-168">6 </span><span class="sxs-lookup"><span data-stu-id="a8c85-168">6</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-169">3（每个 VIP 1 个）+ 6</span><span class="sxs-lookup"><span data-stu-id="a8c85-169">3 (1 per VIP) + 6</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="a8c85-170">3 </span><span class="sxs-lookup"><span data-stu-id="a8c85-170">3</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-171">9 </span><span class="sxs-lookup"><span data-stu-id="a8c85-171">9</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-172">3（每个 VIP 1 个）+9</span><span class="sxs-lookup"><span data-stu-id="a8c85-172">3 (1 per VIP) + 9</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="a8c85-173">4 </span><span class="sxs-lookup"><span data-stu-id="a8c85-173">4</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-174">12 </span><span class="sxs-lookup"><span data-stu-id="a8c85-174">12</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-175">3（每个 VIP 1 个）+12</span><span class="sxs-lookup"><span data-stu-id="a8c85-175">3 (1 per VIP) + 12</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="a8c85-176">5 </span><span class="sxs-lookup"><span data-stu-id="a8c85-176">5</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-177">15 </span><span class="sxs-lookup"><span data-stu-id="a8c85-177">15</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-178">3（每个 VIP 1 个）+15</span><span class="sxs-lookup"><span data-stu-id="a8c85-178">3 (1 per VIP) + 15</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-### <a name="ip-address-requirements-for-scaled-consolidated-edge-single-ip-address-for-all-roles"></a><span data-ttu-id="a8c85-179">扩展的合并边缘的 IP 地址要求（单个 IP 地址用于所有角色）</span><span class="sxs-lookup"><span data-stu-id="a8c85-179">IP Address Requirements for Scaled Consolidated Edge (Single IP address for all roles)</span></span>
+### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a><span data-ttu-id="6f048-163">扩展的合并边缘的 IP 地址要求（每个角色一个 IP 地址）</span><span class="sxs-lookup"><span data-stu-id="6f048-163">IP Address Requirements for Scaled Consolidated Edge (IP Address per role)</span></span>
 
 <table>
 <colgroup>
@@ -205,77 +167,117 @@ ms.locfileid: "44221736"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="a8c85-180">每个池的边缘服务器数量</span><span class="sxs-lookup"><span data-stu-id="a8c85-180">Number of Edge Servers per pool</span></span></th>
-<th><span data-ttu-id="a8c85-181">所需 IP 地址的数目 Lync Server 2013 （DNS 负载平衡）</span><span class="sxs-lookup"><span data-stu-id="a8c85-181">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
-<th><span data-ttu-id="a8c85-182">所需 IP 地址的数目 Lync Server 2013 （硬件负载平衡）</span><span class="sxs-lookup"><span data-stu-id="a8c85-182">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
+<th><span data-ttu-id="6f048-164">每个池的边缘服务器数量</span><span class="sxs-lookup"><span data-stu-id="6f048-164">Number of Edge Servers per pool</span></span></th>
+<th><span data-ttu-id="6f048-165">所需 IP 地址的数目 Lync Server 2013 (DNS 负载平衡) </span><span class="sxs-lookup"><span data-stu-id="6f048-165">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
+<th><span data-ttu-id="6f048-166">所需 IP 地址的数目 Lync Server 2013 (硬件负载平衡) </span><span class="sxs-lookup"><span data-stu-id="6f048-166">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a8c85-183">2 </span><span class="sxs-lookup"><span data-stu-id="a8c85-183">2</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-184">2 </span><span class="sxs-lookup"><span data-stu-id="a8c85-184">2</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-185">1（每个 VIP 1 个）2</span><span class="sxs-lookup"><span data-stu-id="a8c85-185">1 (1 per VIP) + 2</span></span></p></td>
+<td><p><span data-ttu-id="6f048-167">双面</span><span class="sxs-lookup"><span data-stu-id="6f048-167">2</span></span></p></td>
+<td><p><span data-ttu-id="6f048-168">6 </span><span class="sxs-lookup"><span data-stu-id="6f048-168">6</span></span></p></td>
+<td><p><span data-ttu-id="6f048-169">3（每个 VIP 1 个）+ 6</span><span class="sxs-lookup"><span data-stu-id="6f048-169">3 (1 per VIP) + 6</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8c85-186">3 </span><span class="sxs-lookup"><span data-stu-id="a8c85-186">3</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-187">3 </span><span class="sxs-lookup"><span data-stu-id="a8c85-187">3</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-188">1（每个 VIP 1 个）+ 3</span><span class="sxs-lookup"><span data-stu-id="a8c85-188">1 (1 per VIP) + 3</span></span></p></td>
+<td><p><span data-ttu-id="6f048-170">第三章</span><span class="sxs-lookup"><span data-stu-id="6f048-170">3</span></span></p></td>
+<td><p><span data-ttu-id="6f048-171">9 </span><span class="sxs-lookup"><span data-stu-id="6f048-171">9</span></span></p></td>
+<td><p><span data-ttu-id="6f048-172">3（每个 VIP 1 个）+9</span><span class="sxs-lookup"><span data-stu-id="6f048-172">3 (1 per VIP) + 9</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a8c85-189">4 </span><span class="sxs-lookup"><span data-stu-id="a8c85-189">4</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-190">4 </span><span class="sxs-lookup"><span data-stu-id="a8c85-190">4</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-191">1（每个 VIP 1 个）4</span><span class="sxs-lookup"><span data-stu-id="a8c85-191">1 (1 per VIP) + 4</span></span></p></td>
+<td><p><span data-ttu-id="6f048-173">4 </span><span class="sxs-lookup"><span data-stu-id="6f048-173">4</span></span></p></td>
+<td><p><span data-ttu-id="6f048-174">12 </span><span class="sxs-lookup"><span data-stu-id="6f048-174">12</span></span></p></td>
+<td><p><span data-ttu-id="6f048-175">3（每个 VIP 1 个）+12</span><span class="sxs-lookup"><span data-stu-id="6f048-175">3 (1 per VIP) + 12</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a8c85-192">5 </span><span class="sxs-lookup"><span data-stu-id="a8c85-192">5</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-193">5</span><span class="sxs-lookup"><span data-stu-id="a8c85-193">5</span></span></p></td>
-<td><p><span data-ttu-id="a8c85-194">1（每个 VIP 1 个）5</span><span class="sxs-lookup"><span data-stu-id="a8c85-194">1 (1 per VIP) + 5</span></span></p></td>
+<td><p><span data-ttu-id="6f048-176">5 </span><span class="sxs-lookup"><span data-stu-id="6f048-176">5</span></span></p></td>
+<td><p><span data-ttu-id="6f048-177">15 </span><span class="sxs-lookup"><span data-stu-id="6f048-177">15</span></span></p></td>
+<td><p><span data-ttu-id="6f048-178">3（每个 VIP 1 个）+15</span><span class="sxs-lookup"><span data-stu-id="6f048-178">3 (1 per VIP) + 15</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="a8c85-p107">拓扑选择的主要决策点是高可用性和负载平衡。高可用性的要求会影响负载平衡决策。</span><span class="sxs-lookup"><span data-stu-id="a8c85-p107">The primary decision points for topology selection are high availability and load balancing. The requirement for high availability can influence the load balancing decision.</span></span>
+### <a name="ip-address-requirements-for-scaled-consolidated-edge-single-ip-address-for-all-roles"></a><span data-ttu-id="6f048-179">扩展的合并边缘的 IP 地址要求（单个 IP 地址用于所有角色）</span><span class="sxs-lookup"><span data-stu-id="6f048-179">IP Address Requirements for Scaled Consolidated Edge (Single IP address for all roles)</span></span>
 
-  - <span data-ttu-id="a8c85-197">**高可用性**  如果需要高可用性，请在池中部署至少两台边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="a8c85-197">**High availability**   If you need high availability, deploy at least two Edge Servers in a pool.</span></span> <span data-ttu-id="a8c85-198">单个边缘池最长可支持12台边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="a8c85-198">A single Edge pool will support up to twelve Edge Servers.</span></span> <span data-ttu-id="a8c85-199">如果需要更多的容量，可以部署多个边缘池。</span><span class="sxs-lookup"><span data-stu-id="a8c85-199">If more capacity is required, you can deploy multiple Edge pools.</span></span> <span data-ttu-id="a8c85-200">一般规则是，如果给定用户群的10%，则需要外部访问。</span><span class="sxs-lookup"><span data-stu-id="a8c85-200">As a general rule, 10% of a given user base will need external access.</span></span>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="6f048-180">每个池的边缘服务器数量</span><span class="sxs-lookup"><span data-stu-id="6f048-180">Number of Edge Servers per pool</span></span></th>
+<th><span data-ttu-id="6f048-181">所需 IP 地址的数目 Lync Server 2013 (DNS 负载平衡) </span><span class="sxs-lookup"><span data-stu-id="6f048-181">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
+<th><span data-ttu-id="6f048-182">所需 IP 地址的数目 Lync Server 2013 (硬件负载平衡) </span><span class="sxs-lookup"><span data-stu-id="6f048-182">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="6f048-183">双面</span><span class="sxs-lookup"><span data-stu-id="6f048-183">2</span></span></p></td>
+<td><p><span data-ttu-id="6f048-184">双面</span><span class="sxs-lookup"><span data-stu-id="6f048-184">2</span></span></p></td>
+<td><p><span data-ttu-id="6f048-185">1（每个 VIP 1 个）2</span><span class="sxs-lookup"><span data-stu-id="6f048-185">1 (1 per VIP) + 2</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6f048-186">第三章</span><span class="sxs-lookup"><span data-stu-id="6f048-186">3</span></span></p></td>
+<td><p><span data-ttu-id="6f048-187">第三章</span><span class="sxs-lookup"><span data-stu-id="6f048-187">3</span></span></p></td>
+<td><p><span data-ttu-id="6f048-188">1（每个 VIP 1 个）+ 3</span><span class="sxs-lookup"><span data-stu-id="6f048-188">1 (1 per VIP) + 3</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6f048-189">4 </span><span class="sxs-lookup"><span data-stu-id="6f048-189">4</span></span></p></td>
+<td><p><span data-ttu-id="6f048-190">4 </span><span class="sxs-lookup"><span data-stu-id="6f048-190">4</span></span></p></td>
+<td><p><span data-ttu-id="6f048-191">1（每个 VIP 1 个）4</span><span class="sxs-lookup"><span data-stu-id="6f048-191">1 (1 per VIP) + 4</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6f048-192">5 </span><span class="sxs-lookup"><span data-stu-id="6f048-192">5</span></span></p></td>
+<td><p><span data-ttu-id="6f048-193">5</span><span class="sxs-lookup"><span data-stu-id="6f048-193">5</span></span></p></td>
+<td><p><span data-ttu-id="6f048-194">1（每个 VIP 1 个）5</span><span class="sxs-lookup"><span data-stu-id="6f048-194">1 (1 per VIP) + 5</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="6f048-p107">拓扑选择的主要决策点是高可用性和负载平衡。高可用性的要求会影响负载平衡决策。</span><span class="sxs-lookup"><span data-stu-id="6f048-p107">The primary decision points for topology selection are high availability and load balancing. The requirement for high availability can influence the load balancing decision.</span></span>
+
+  - <span data-ttu-id="6f048-197">**高可用性**   如果需要高可用性，请在池中部署至少两台边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="6f048-197">**High availability**   If you need high availability, deploy at least two Edge Servers in a pool.</span></span> <span data-ttu-id="6f048-198">单个边缘池最长可支持12台边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="6f048-198">A single Edge pool will support up to twelve Edge Servers.</span></span> <span data-ttu-id="6f048-199">如果需要更多的容量，可以部署多个边缘池。</span><span class="sxs-lookup"><span data-stu-id="6f048-199">If more capacity is required, you can deploy multiple Edge pools.</span></span> <span data-ttu-id="6f048-200">一般规则是，如果给定用户群的10%，则需要外部访问。</span><span class="sxs-lookup"><span data-stu-id="6f048-200">As a general rule, 10% of a given user base will need external access.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]
-    > <span data-ttu-id="a8c85-201">拓扑生成器将允许您在单个边缘池中配置最长20台边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="a8c85-201">Topology Builder will allow you to configure up to twenty Edge Servers in a single Edge pool.</span></span> <span data-ttu-id="a8c85-202">池中经过测试且受支持的边缘服务器的最大数量为12，拓扑生成器允许大于12的值不应解释为单个边缘池中的12台边缘服务器的暗示支持。</span><span class="sxs-lookup"><span data-stu-id="a8c85-202">The tested and supported maximum number of Edge Servers in a pool is twelve and Topology Builder allowing for a number larger than twelve should not be construed as implied support for more than twelve Edge Servers in a single Edge pool.</span></span>
+    > <span data-ttu-id="6f048-201">拓扑生成器将允许您在单个边缘池中配置最长20台边缘服务器。</span><span class="sxs-lookup"><span data-stu-id="6f048-201">Topology Builder will allow you to configure up to twenty Edge Servers in a single Edge pool.</span></span> <span data-ttu-id="6f048-202">池中经过测试且受支持的边缘服务器的最大数量为12，拓扑生成器允许大于12的值不应解释为单个边缘池中的12台边缘服务器的暗示支持。</span><span class="sxs-lookup"><span data-stu-id="6f048-202">The tested and supported maximum number of Edge Servers in a pool is twelve and Topology Builder allowing for a number larger than twelve should not be construed as implied support for more than twelve Edge Servers in a single Edge pool.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="a8c85-203">**硬件负载平衡**  在对边缘外部接口使用可公开路由的 IP 地址时，对 Lync Server 2013 边缘服务器的负载平衡支持硬件负载平衡。</span><span class="sxs-lookup"><span data-stu-id="a8c85-203">**Hardware load balancing**   Hardware load balancing is supported for load balancing Lync Server 2013 Edge Servers when using publicly routable IP addresses for the Edge external interfaces.</span></span> <span data-ttu-id="a8c85-204">例如，在以下任一应用程序需要故障转移的情况下，将使用此方法：</span><span class="sxs-lookup"><span data-stu-id="a8c85-204">For example, you would use this approach in situations where failover is required for any of the following applications:</span></span>
+  - <span data-ttu-id="6f048-203">**硬件负载平衡**   在对边缘外部接口使用可公开路由的 IP 地址时，对 Lync Server 2013 边缘服务器的负载平衡支持硬件负载平衡。</span><span class="sxs-lookup"><span data-stu-id="6f048-203">**Hardware load balancing**   Hardware load balancing is supported for load balancing Lync Server 2013 Edge Servers when using publicly routable IP addresses for the Edge external interfaces.</span></span> <span data-ttu-id="6f048-204">例如，在以下任一应用程序需要故障转移的情况下，将使用此方法：</span><span class="sxs-lookup"><span data-stu-id="6f048-204">For example, you would use this approach in situations where failover is required for any of the following applications:</span></span>
     
-      - <span data-ttu-id="a8c85-205">公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="a8c85-205">Public IM connectivity</span></span>
+      - <span data-ttu-id="6f048-205">公共 IM 连接</span><span class="sxs-lookup"><span data-stu-id="6f048-205">Public IM connectivity</span></span>
     
-      - <span data-ttu-id="a8c85-206">与运行 Microsoft Office 通信服务器2007或 Microsoft Office 通信服务器 2007 R2 的公司的联盟</span><span class="sxs-lookup"><span data-stu-id="a8c85-206">Federation with companies running Microsoft Office Communications Server 2007 or Microsoft Office Communications Server 2007 R2</span></span>
+      - <span data-ttu-id="6f048-206">与运行 Microsoft Office 通信服务器2007或 Microsoft Office 通信服务器 2007 R2 的公司的联盟</span><span class="sxs-lookup"><span data-stu-id="6f048-206">Federation with companies running Microsoft Office Communications Server 2007 or Microsoft Office Communications Server 2007 R2</span></span>
     
-      - <span data-ttu-id="a8c85-207">外部访问 Exchange 2007 统一消息 (UM) 或 Exchange 2010 UM</span><span class="sxs-lookup"><span data-stu-id="a8c85-207">External access to Exchange 2007 Unified Messaging (UM) or Exchange 2010 UM</span></span>
+      - <span data-ttu-id="6f048-207">外部访问 Exchange 2007 统一消息 (UM) 或 Exchange 2010 UM</span><span class="sxs-lookup"><span data-stu-id="6f048-207">External access to Exchange 2007 Unified Messaging (UM) or Exchange 2010 UM</span></span>
         
         <div>
         
 
         > [!IMPORTANT]
-        > <span data-ttu-id="a8c85-208">Exchange UM 支持 Exchange 2010 SP1 和更高版本的 DNS 负载平衡。</span><span class="sxs-lookup"><span data-stu-id="a8c85-208">DNS load balancing for Exchange 2010 SP1 and newer is supported for Exchange UM.</span></span>
+        > <span data-ttu-id="6f048-208">Exchange UM 支持 Exchange 2010 SP1 和更高版本的 DNS 负载平衡。</span><span class="sxs-lookup"><span data-stu-id="6f048-208">DNS load balancing for Exchange 2010 SP1 and newer is supported for Exchange UM.</span></span>
 
         
         </div>
     
-    <span data-ttu-id="a8c85-p111">这三个应用程序将继续运行，但不会进行 DNS 负载平衡，而且只会连接到池中的第一台边缘服务器。如果该服务器不可用，则连接将失败。例如，如果在池中部署多台边缘服务器以处理联盟流量负载，则实际上只有一个访问代理会收到流量，而其他设备处于空闲状态。</span><span class="sxs-lookup"><span data-stu-id="a8c85-p111">These three applications will continue to operate, but they are not DNS load balancing aware and will only connect to the first Edge Server in the pool. If that server is unavailable, the connection will fail. For example, if multiple Edge Servers are deployed in a pool to handle the federated traffic load, only one access proxy actually receives traffic while the others are idle.</span></span>
+    <span data-ttu-id="6f048-p111">这三个应用程序将继续运行，但不会进行 DNS 负载平衡，而且只会连接到池中的第一台边缘服务器。如果该服务器不可用，则连接将失败。例如，如果在池中部署多台边缘服务器以处理联盟流量负载，则实际上只有一个访问代理会收到流量，而其他设备处于空闲状态。</span><span class="sxs-lookup"><span data-stu-id="6f048-p111">These three applications will continue to operate, but they are not DNS load balancing aware and will only connect to the first Edge Server in the pool. If that server is unavailable, the connection will fail. For example, if multiple Edge Servers are deployed in a pool to handle the federated traffic load, only one access proxy actually receives traffic while the others are idle.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="a8c85-212">如果要与使用 Lync Server 2010 和 Office 365 或 Microsoft 365 的公司进行联盟，则建议使用 DNS 负载平衡。</span><span class="sxs-lookup"><span data-stu-id="a8c85-212">Using DNS load balancing is recommended if you are federating with companies using Lync Server 2010 and Office 365 or Microsoft 365.</span></span> <span data-ttu-id="a8c85-213">请注意，如果大多数联盟伙伴使用的是 Office 通信服务器2007或 Office 通信服务器 2007 R2，则会对性能产生重大影响。</span><span class="sxs-lookup"><span data-stu-id="a8c85-213">Be aware that there are significant performance impacts if most of your federated partners are using Office Communications Server 2007 or Office Communications Server 2007 R2.</span></span>
+> <span data-ttu-id="6f048-212">如果要与使用 Lync Server 2010 和 Office 365 或 Microsoft 365 的公司进行联盟，则建议使用 DNS 负载平衡。</span><span class="sxs-lookup"><span data-stu-id="6f048-212">Using DNS load balancing is recommended if you are federating with companies using Lync Server 2010 and Office 365 or Microsoft 365.</span></span> <span data-ttu-id="6f048-213">请注意，如果大多数联盟伙伴使用的是 Office 通信服务器2007或 Office 通信服务器 2007 R2，则会对性能产生重大影响。</span><span class="sxs-lookup"><span data-stu-id="6f048-213">Be aware that there are significant performance impacts if most of your federated partners are using Office Communications Server 2007 or Office Communications Server 2007 R2.</span></span>
 
 
 
-<span data-ttu-id="a8c85-214"></div>
+<span data-ttu-id="6f048-214"></div>
 
 </div>
 
@@ -285,7 +287,7 @@ ms.locfileid: "44221736"
 
 </div>
 
-</span><span class="sxs-lookup"><span data-stu-id="a8c85-214"></div>
+</span><span class="sxs-lookup"><span data-stu-id="6f048-214"></div>
 
 </div>
 

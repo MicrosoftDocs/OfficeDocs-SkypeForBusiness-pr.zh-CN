@@ -12,20 +12,22 @@ ms:contentKeyID: 48183675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f825a39650dc535dbb9d432214226169f4451a0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e7172a80342e88e6f58d233ee3a69abfd813196c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197335"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531329"
 ---
+# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a><span data-ttu-id="7b8cc-102">在 Lync Server 2013 中部署高级企业语音功能</span><span class="sxs-lookup"><span data-stu-id="7b8cc-102">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a><span data-ttu-id="50c9c-102">在 Lync Server 2013 中部署高级企业语音功能</span><span class="sxs-lookup"><span data-stu-id="50c9c-102">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,35 +37,35 @@ ms.locfileid: "42197335"
 
 <span> </span>
 
-<span data-ttu-id="50c9c-103">_**上次修改的主题：** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="50c9c-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="7b8cc-103">_**上次修改的主题：** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="7b8cc-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="50c9c-104">为组织配置基本企业语音功能之后，可以选择按照本节中的过程部署一个或多个高级企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="50c9c-104">After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section.</span></span>
+<span data-ttu-id="7b8cc-104">为组织配置基本企业语音功能之后，可以选择按照本节中的过程部署一个或多个高级企业语音功能。</span><span class="sxs-lookup"><span data-stu-id="7b8cc-104">After you have configured basic Enterprise Voice functionality for your organization, you can optionally deploy one or more advanced Enterprise Voice features by following the procedures in this section.</span></span>
 
-<span data-ttu-id="50c9c-105">有关高级企业语音功能的详细信息，请参阅[规划 Lync Server 2013](lync-server-2013-planning.md)文档中的以下部分：</span><span class="sxs-lookup"><span data-stu-id="50c9c-105">For details about the advanced Enterprise Voice features, see the following sections of the [Planning for Lync Server 2013](lync-server-2013-planning.md) documentation:</span></span>
+<span data-ttu-id="7b8cc-105">有关高级企业语音功能的详细信息，请参阅 [规划 Lync Server 2013](lync-server-2013-planning.md) 文档中的以下部分：</span><span class="sxs-lookup"><span data-stu-id="7b8cc-105">For details about the advanced Enterprise Voice features, see the following sections of the [Planning for Lync Server 2013](lync-server-2013-planning.md) documentation:</span></span>
 
-  - [<span data-ttu-id="50c9c-106">在 Lync Server 2013 中规划呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="50c9c-106">Planning for call admission control in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-admission-control.md)
+  - [<span data-ttu-id="7b8cc-106">在 Lync Server 2013 中规划呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="7b8cc-106">Planning for call admission control in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [<span data-ttu-id="50c9c-107">在 Lync Server 2013 中规划紧急服务（E9-1-1）</span><span class="sxs-lookup"><span data-stu-id="50c9c-107">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [<span data-ttu-id="7b8cc-107">在 Lync Server 2013 中规划紧急服务 (E9-1-1) </span><span class="sxs-lookup"><span data-stu-id="7b8cc-107">Planning for emergency services (E9-1-1) in Lync Server 2013</span></span>](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [<span data-ttu-id="50c9c-108">在 Lync Server 2013 中规划媒体旁路</span><span class="sxs-lookup"><span data-stu-id="50c9c-108">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)
+  - [<span data-ttu-id="7b8cc-108">在 Lync Server 2013 中规划媒体旁路</span><span class="sxs-lookup"><span data-stu-id="7b8cc-108">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="50c9c-109">本部分内容</span><span class="sxs-lookup"><span data-stu-id="50c9c-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7b8cc-109">本部分内容</span><span class="sxs-lookup"><span data-stu-id="7b8cc-109">In This Section</span></span>
 
-  - [<span data-ttu-id="50c9c-110">关于 Lync Server 2013 中的网络区域、站点和子网</span><span class="sxs-lookup"><span data-stu-id="50c9c-110">About network regions, sites, and subnets in Lync Server 2013</span></span>](lync-server-2013-about-network-regions-sites-and-subnets.md)
+  - [<span data-ttu-id="7b8cc-110">关于 Lync Server 2013 中的网络区域、站点和子网</span><span class="sxs-lookup"><span data-stu-id="7b8cc-110">About network regions, sites, and subnets in Lync Server 2013</span></span>](lync-server-2013-about-network-regions-sites-and-subnets.md)
 
-  - [<span data-ttu-id="50c9c-111">在 Lync Server 2013 中创建或修改网络区域</span><span class="sxs-lookup"><span data-stu-id="50c9c-111">Create or modify a network region in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-region.md)
+  - [<span data-ttu-id="7b8cc-111">在 Lync Server 2013 中创建或修改网络区域</span><span class="sxs-lookup"><span data-stu-id="7b8cc-111">Create or modify a network region in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-region.md)
 
-  - [<span data-ttu-id="50c9c-112">在 Lync Server 2013 中创建或修改网络站点</span><span class="sxs-lookup"><span data-stu-id="50c9c-112">Create or modify a network site in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-site.md)
+  - [<span data-ttu-id="7b8cc-112">在 Lync Server 2013 中创建或修改网络站点</span><span class="sxs-lookup"><span data-stu-id="7b8cc-112">Create or modify a network site in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-network-site.md)
 
-  - [<span data-ttu-id="50c9c-113">在 Lync Server 2013 中将子网与网络站点关联</span><span class="sxs-lookup"><span data-stu-id="50c9c-113">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [<span data-ttu-id="7b8cc-113">在 Lync Server 2013 中将子网与网络站点关联</span><span class="sxs-lookup"><span data-stu-id="7b8cc-113">Associate a subnet with a network site in Lync Server 2013</span></span>](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
-  - [<span data-ttu-id="50c9c-114">在 Lync Server 2013 中配置呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="50c9c-114">Configure call admission control in Lync Server 2013</span></span>](lync-server-2013-configure-call-admission-control.md)
+  - [<span data-ttu-id="7b8cc-114">在 Lync Server 2013 中配置呼叫允许控制</span><span class="sxs-lookup"><span data-stu-id="7b8cc-114">Configure call admission control in Lync Server 2013</span></span>](lync-server-2013-configure-call-admission-control.md)
 
-  - [<span data-ttu-id="50c9c-115">在 Lync Server 2013 中配置增强型9-1-1</span><span class="sxs-lookup"><span data-stu-id="50c9c-115">Configure Enhanced 9-1-1 in Lync Server 2013</span></span>](lync-server-2013-configure-enhanced-9-1-1.md)
+  - [<span data-ttu-id="7b8cc-115">在 Lync Server 2013 中配置增强型9-1-1</span><span class="sxs-lookup"><span data-stu-id="7b8cc-115">Configure Enhanced 9-1-1 in Lync Server 2013</span></span>](lync-server-2013-configure-enhanced-9-1-1.md)
 
-  - [<span data-ttu-id="50c9c-116">在 Lync Server 2013 中配置媒体旁路</span><span class="sxs-lookup"><span data-stu-id="50c9c-116">Configure media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-media-bypass.md)
+  - [<span data-ttu-id="7b8cc-116">在 Lync Server 2013 中配置媒体旁路</span><span class="sxs-lookup"><span data-stu-id="7b8cc-116">Configure media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-media-bypass.md)
 
 </div>
 

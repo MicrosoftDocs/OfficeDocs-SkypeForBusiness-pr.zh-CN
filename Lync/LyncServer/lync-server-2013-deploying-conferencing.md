@@ -12,20 +12,22 @@ ms:contentKeyID: 49733728
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 912273d58acfb5df4967c3481cea340095f2170e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2ab8519919e0a1007e697bb15079debb1cdb3719
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205889"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531209"
 ---
+# <a name="deploying-conferencing-in-lync-server-2013"></a><span data-ttu-id="0b55a-102">在 Lync Server 2013 中部署会议</span><span class="sxs-lookup"><span data-stu-id="0b55a-102">Deploying conferencing in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-conferencing-in-lync-server-2013"></a><span data-ttu-id="a764e-102">在 Lync Server 2013 中部署会议</span><span class="sxs-lookup"><span data-stu-id="a764e-102">Deploying conferencing in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,19 +37,19 @@ ms.locfileid: "42205889"
 
 <span> </span>
 
-<span data-ttu-id="a764e-103">_**上次修改的主题：** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="a764e-103">_**Topic Last Modified:** 2012-09-27_</span></span>
+<span data-ttu-id="0b55a-103">_**上次修改的主题：** 2012-09-27_</span><span class="sxs-lookup"><span data-stu-id="0b55a-103">_**Topic Last Modified:** 2012-09-27_</span></span>
 
-<span data-ttu-id="a764e-104">本节介绍如何设置电话拨入式会议和 Office Web Apps Server。</span><span class="sxs-lookup"><span data-stu-id="a764e-104">This section describes how to set up dial in conferencing and Office Web Apps Server.</span></span>
+<span data-ttu-id="0b55a-104">本节介绍如何设置电话拨入式会议和 Office Web Apps Server。</span><span class="sxs-lookup"><span data-stu-id="0b55a-104">This section describes how to set up dial in conferencing and Office Web Apps Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a764e-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="a764e-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0b55a-105">本部分内容</span><span class="sxs-lookup"><span data-stu-id="0b55a-105">In This Section</span></span>
 
-  - [<span data-ttu-id="a764e-106">在 Lync Server 2013 中配置电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="a764e-106">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [<span data-ttu-id="0b55a-106">在 Lync Server 2013 中配置电话拨入式会议</span><span class="sxs-lookup"><span data-stu-id="0b55a-106">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
 
-  - [<span data-ttu-id="a764e-107">配置与 Office Web Apps Server 和 Lync Server 2013 的集成</span><span class="sxs-lookup"><span data-stu-id="a764e-107">Configuring integration with Office Web Apps Server and Lync Server 2013</span></span>](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
+  - [<span data-ttu-id="0b55a-107">配置与 Office Web Apps Server 和 Lync Server 2013 的集成</span><span class="sxs-lookup"><span data-stu-id="0b55a-107">Configuring integration with Office Web Apps Server and Lync Server 2013</span></span>](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
 
-  - [<span data-ttu-id="a764e-108">在 Lync Server 2013 中配置会议加入页</span><span class="sxs-lookup"><span data-stu-id="a764e-108">Configuring the meeting join page in Lync Server 2013</span></span>](lync-server-2013-configuring-the-meeting-join-page.md)
+  - [<span data-ttu-id="0b55a-108">在 Lync Server 2013 中配置会议加入页</span><span class="sxs-lookup"><span data-stu-id="0b55a-108">Configuring the meeting join page in Lync Server 2013</span></span>](lync-server-2013-configuring-the-meeting-join-page.md)
 
 </div>
 
