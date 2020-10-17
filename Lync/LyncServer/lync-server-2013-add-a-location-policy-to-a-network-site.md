@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：向网络站点添加位置策略
+description: Lync Server 2013：将位置策略添加到网络站点。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95ca625746fc38d8cab9c25701a8bf22718e71e0
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 20f71d3144e2ef730de5dae46be16138b5d36c42
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48529569"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567918"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-lync-server-2013"></a>在 Lync Server 2013 中向网络站点添加位置策略
 

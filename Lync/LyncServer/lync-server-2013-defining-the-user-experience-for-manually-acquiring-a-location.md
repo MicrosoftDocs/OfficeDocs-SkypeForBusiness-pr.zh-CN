@@ -1,5 +1,6 @@
 ---
 title: 定义手动获取位置的用户体验
+description: 定义手动获取位置的用户体验。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fa9c7242351417c4ea82ed7ce6183963bc9730e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 74e4a399e8010cfc22430216ef6e3c11fc9a7bdc
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48504469"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567548"
 ---
 # <a name="defining-the-user-experience-for-manually-acquiring-a-location-in-lync-server-2013"></a>定义在 Lync Server 2013 中手动获取位置的用户体验
 

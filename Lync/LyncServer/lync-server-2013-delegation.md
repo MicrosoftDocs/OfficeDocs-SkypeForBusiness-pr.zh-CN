@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：委派
+description: Lync Server 2013：委派。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b31224228a4f2fbdad879e43bab61292852e009c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6dc25d0ea3dfd64ee1b71677e6bac55c1cb1ca32
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48516300"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567448"
 ---
 # <a name="delegation-in-lync-server-2013"></a>Lync Server 2013 中的委派
 

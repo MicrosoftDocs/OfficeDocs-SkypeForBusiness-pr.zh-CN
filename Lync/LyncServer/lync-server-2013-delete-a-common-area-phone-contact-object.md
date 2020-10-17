@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：删除公用区域电话联系人对象
+description: Lync Server 2013：删除公用区域电话联系人对象。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38126f54e02738b1f48b42022a9061055e271d18
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: e918f7a46269f70577f28b2c3e55297959430721
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48525719"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566598"
 ---
 # <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>在 Lync Server 2013 中删除公用区域电话联系人对象
 

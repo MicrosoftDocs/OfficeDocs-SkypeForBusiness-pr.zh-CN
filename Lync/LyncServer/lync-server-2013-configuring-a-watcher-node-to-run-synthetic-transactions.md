@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：配置观察程序节点以运行综合事务
+description: Lync Server 2013：配置观察程序节点以运行综合事务。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9514099b3981dafdbb34911d0cedd249221c5621
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: bd5fdb3d1a1499a6ef79e962a41d9eb3ee174c33
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499099"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567878"
 ---
 # <a name="configuring-a-watcher-node-to-run-synthetic-transactions-in-lync-server-2013"></a>将观察程序节点配置为在 Lync Server 2013 中运行综合事务
 

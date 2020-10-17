@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：查看运行 Lync Server 2013 的计算机的列表
+description: Lync Server 2013：查看运行 Lync Server 2013 的计算机的列表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9dee1569611512ac81f5987aeb02da4dcf44995c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: baeb2d8e926b1597c463259378332e0c9f50268f
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518509"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567178"
 ---
 # <a name="view-a-list-of-computers-running-lync-server-2013"></a>查看运行 Lync Server 2013 的计算机的列表
 

@@ -1,5 +1,6 @@
 ---
 title: 修改不显式支持或限制的客户端的默认操作
+description: 修改不显式支持或不受限制的客户端的默认操作。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 213e42a7477202cf40a0b06c79edde49976f0bbc
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 2c28ad4d357953c22f889309323ccbb95c6840e2
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48515269"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48566948"
 ---
 # <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>修改在 Lync Server 2013 中未明确支持或不受限制的客户端的默认操作
 

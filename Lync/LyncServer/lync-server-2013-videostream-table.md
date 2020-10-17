@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： VideoStream 表
+description: Lync Server 2013： VideoStream 表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef5c417ff391bb3ec5954cf12d00f6de3d2e6d9b
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 0d741478e1f6290685181bff471f143e41ce9ca1
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48518559"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48567988"
 ---
 # <a name="videostream-table-in-lync-server-2013"></a>Lync Server 2013 中的 VideoStream 表
 

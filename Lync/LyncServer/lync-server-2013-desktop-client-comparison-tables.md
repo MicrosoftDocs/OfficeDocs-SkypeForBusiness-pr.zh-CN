@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：桌面客户端比较表
+description: Lync Server 2013：桌面客户端比较表。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e8b1a6713a8a8a4b3ac980679e7f98266338268
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 481bbfd625ad8ed84587924e29925aab9d75d1d8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48501499"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48568278"
 ---
 # <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Lync Server 2013 的桌面客户端比较表
 
