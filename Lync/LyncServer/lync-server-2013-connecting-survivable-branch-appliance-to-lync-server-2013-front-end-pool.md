@@ -1,5 +1,6 @@
 ---
 title: 将 Survivable Branch Appliance 连接到 Lync Server 2013 前端池
+description: 将 Survivable 分支设备连接到 Lync Server 2013 前端池。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7a637716f1e5b1a2082f694554951d42f36978f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6ef917d3db6a1d653ac716d6c078e1df240fb31d
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48502019"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571658"
 ---
 # <a name="connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool"></a>将 Survivable Branch Appliance 连接到 Lync Server 2013 前端池
 

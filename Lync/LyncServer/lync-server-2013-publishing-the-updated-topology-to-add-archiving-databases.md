@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：发布更新的拓扑以添加存档数据库
+description: Lync Server 2013：发布更新的拓扑以添加存档数据库。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5834c6c7d0386f7943c523a184ea63f8ba129a89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 90d1c53fb2a2dde5dde079f09b13ff4f06a659b3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48512239"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571448"
 ---
 # <a name="publishing-the-updated-topology-to-add-archiving-databases-in-lync-server-2013"></a>发布更新后的拓扑以在 Lync Server 2013 中添加存档数据库
 

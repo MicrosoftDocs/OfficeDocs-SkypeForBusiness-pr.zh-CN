@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：检查事件日志
+description: Lync Server 2013：检查事件日志。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edbd977eb8023d5001a5b8e4a6a1c706eea84fc4
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6617bde846fd38ab3282fd023b16e0a921f48920
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526189"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570978"
 ---
 # <a name="checking-event-logs-in-lync-server-2013"></a>在 Lync Server 2013 中检查事件日志
 

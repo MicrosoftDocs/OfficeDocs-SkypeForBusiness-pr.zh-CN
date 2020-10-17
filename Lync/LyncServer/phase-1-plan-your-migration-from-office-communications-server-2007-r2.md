@@ -1,5 +1,6 @@
 ---
 title: 第1阶段：规划从 Office 通信服务器 2007 R2 迁移
+description: 第1阶段：规划从 Office 通信服务器 2007 R2 迁移。
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -12,12 +13,12 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64414268ef1ca38302eed360810b92706bf3ce89
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 67a05fb6782b22d7a4efb70702c8c2378cd6bde3
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48533779"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571208"
 ---
 # <a name="phase-1-plan-your-migration-from-office-communications-server-2007-r2"></a>第1阶段：规划从 Office 通信服务器 2007 R2 迁移
 
@@ -45,15 +46,15 @@ _**上次修改的主题：** 2012-09-29_
 
 ## <a name="in-this-section"></a>本部分内容
 
-  - [用户迁移](user-migration_1.md)
+  - [用户迁移](user-migration.md)
 
-  - [迁移存档和监控服务器](migrating-archiving-and-monitoring-servers_1.md)
+  - [迁移存档和监控服务器](migrating-archiving-and-monitoring-servers.md)
 
-  - [迁移后服务器的管理](administering-servers-after-migration_1.md)
+  - [迁移后服务器的管理](administering-servers-after-migration.md)
 
-  - [迁移多个站点和池](migrating-multiple-sites-and-pools_1.md)
+  - [迁移多个站点和池](migrating-multiple-sites-and-pools.md)
 
-  - [管理 XMPP 联盟](migrating-xmpp-federation_1.md)
+  - [管理 XMPP 联盟](migrating-xmpp-federation.md)
 
 </div>
 

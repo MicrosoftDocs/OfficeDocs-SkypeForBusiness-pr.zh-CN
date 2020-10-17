@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：使用 SIP 中继路由 E9-1-1 呼叫
+description: Lync Server 2013：使用 SIP 中继路由 E9-1-1 呼叫。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc64047c932244499da820569a96c6f115c24ab7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9e45b2b3d33556a5ff97235345c7b538023a7449
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48511249"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571818"
 ---
 # <a name="routing-e9-1-1-calls-by-using-a-sip-trunk-in-lync-server-2013"></a>在 Lync Server 2013 中使用 SIP 中继路由 E9-1-1 呼叫
 

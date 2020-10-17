@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：检查最佳实践分析程序的更新
+description: Lync Server 2013：检查最佳实践分析程序的更新。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f97dff101a581927ba0d508da45b1f648d1b9908
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 4c2662f143be9fc672461715d1c3da867886e686
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520609"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570968"
 ---
 # <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>在 Lync Server 2013 中检查最佳实践分析程序的更新
 

@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：规划 Exchange Server 集成
+description: Lync Server 2013：规划 Exchange Server 集成。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49733693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f8b3af0b93e9f7b7c8c660b91131819b27cb0e9
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: def4fc293d310b6832ffa397c5d2fd65b147b793
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48513559"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571858"
 ---
 # <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a>规划 Exchange Server 与 Lync Server 2013 的集成
 

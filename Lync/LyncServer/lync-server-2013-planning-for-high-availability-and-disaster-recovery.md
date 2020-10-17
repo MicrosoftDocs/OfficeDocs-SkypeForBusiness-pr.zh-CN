@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：规划高可用性和灾难恢复
+description: Lync Server 2013：规划高可用性和灾难恢复。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a44a3b5f83814bf4d4b975dc8f9d548661294e7
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6bb5f430201c48738421c4fbe72151ca58173898
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48522109"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571838"
 ---
 # <a name="planning-for-high-availability-and-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中规划高可用性和灾难恢复
 

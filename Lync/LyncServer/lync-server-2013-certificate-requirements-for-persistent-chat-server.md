@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：持久聊天服务器的证书要求
+description: Lync Server 2013：持久聊天服务器的证书要求。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 48185781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d5402faefa7bfd7bb5c885d1d4fa76e7345952f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 9de3a8652089883527fd29ec7b2c8d84aa08f3ef
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48499319"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48571018"
 ---
 # <a name="certificate-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的证书要求
 

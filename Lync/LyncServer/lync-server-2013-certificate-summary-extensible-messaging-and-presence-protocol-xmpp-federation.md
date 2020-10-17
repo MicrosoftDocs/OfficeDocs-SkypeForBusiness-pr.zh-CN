@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：证书摘要-可扩展消息传递和状态协议 (XMPP) 联盟
+description: Lync Server 2013：证书摘要-可扩展消息传递和状态协议 (XMPP) 联盟。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 49105661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2dd5f09f9abbfb1e01935552238d966b5060d9a
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 6e2bb593d909c2eec6032dc89c07cc5f5b1a72db
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48520636"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48572338"
 ---
 # <a name="certificate-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Lync Server 2013 中的证书摘要-可扩展消息和状态协议 (XMPP) 联盟
 

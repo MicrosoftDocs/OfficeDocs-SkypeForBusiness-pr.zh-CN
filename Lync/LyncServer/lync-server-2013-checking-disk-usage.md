@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：检查磁盘使用情况
+description: Lync Server 2013：检查磁盘使用率。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,12 +13,12 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6379d110fc25ba31062d211d3893567ad92fda1f
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 7eddde772d156f0a416dab381efe1ab33ee202f9
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48526199"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48570998"
 ---
 # <a name="checking-disk-usage-in-lync-server-2013"></a>在 Lync Server 2013 中检查磁盘使用率
 
