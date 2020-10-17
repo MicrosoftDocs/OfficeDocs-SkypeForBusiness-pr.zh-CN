@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013： NetworkConfigurationSettings 视图
+description: Lync Server 2013： NetworkConfigurationSettings 视图。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2a08fdc55158bf2266d6be75859477075fe91f2
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 60779a89d7d98c68832e5f9c9bd87dcbcc67d3a8
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505449"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561408"
 ---
-# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a><span data-ttu-id="e196b-102">Lync Server 2013 中的 NetworkConfigurationSettings 视图</span><span class="sxs-lookup"><span data-stu-id="e196b-102">NetworkConfigurationSettings view in Lync Server 2013</span></span>
+# <a name="networkconfigurationsettings-view-in-lync-server-2013"></a><span data-ttu-id="e385a-103">Lync Server 2013 中的 NetworkConfigurationSettings 视图</span><span class="sxs-lookup"><span data-stu-id="e385a-103">NetworkConfigurationSettings view in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,9 +38,9 @@ ms.locfileid: "48505449"
 
 <span> </span>
 
-<span data-ttu-id="e196b-103">_**上次修改的主题：** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="e196b-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="e385a-104">_**上次修改的主题：** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="e385a-104">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="e196b-104">NetworkConfigurationSettings 视图存储有关网络配置的信息。</span><span class="sxs-lookup"><span data-stu-id="e196b-104">The NetworkConfigurationSettings View stores information about the network configuration.</span></span> <span data-ttu-id="e196b-105">此视图是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="e196b-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="e385a-105">NetworkConfigurationSettings 视图存储有关网络配置的信息。</span><span class="sxs-lookup"><span data-stu-id="e385a-105">The NetworkConfigurationSettings View stores information about the network configuration.</span></span> <span data-ttu-id="e385a-106">此视图是在 Microsoft Lync Server 2013 中引入的。</span><span class="sxs-lookup"><span data-stu-id="e385a-106">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -50,26 +51,26 @@ ms.locfileid: "48505449"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e196b-106">列</span><span class="sxs-lookup"><span data-stu-id="e196b-106">Column</span></span></th>
-<th><span data-ttu-id="e196b-107">数据类型</span><span class="sxs-lookup"><span data-stu-id="e196b-107">Data Type</span></span></th>
-<th><span data-ttu-id="e196b-108">详细信息</span><span class="sxs-lookup"><span data-stu-id="e196b-108">Details</span></span></th>
+<th><span data-ttu-id="e385a-107">列</span><span class="sxs-lookup"><span data-stu-id="e385a-107">Column</span></span></th>
+<th><span data-ttu-id="e385a-108">数据类型</span><span class="sxs-lookup"><span data-stu-id="e385a-108">Data Type</span></span></th>
+<th><span data-ttu-id="e385a-109">详细信息</span><span class="sxs-lookup"><span data-stu-id="e385a-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e196b-109">SubnetIP</span><span class="sxs-lookup"><span data-stu-id="e196b-109">SubnetIP</span></span></p></td>
-<td><p><span data-ttu-id="e196b-110">int</span><span class="sxs-lookup"><span data-stu-id="e196b-110">int</span></span></p></td>
-<td><p><span data-ttu-id="e196b-111">子网 IP 地址（仅支持 IPv4 地址）。</span><span class="sxs-lookup"><span data-stu-id="e196b-111">Subnet IP address (only IPv4 addresses are supported).</span></span></p></td>
+<td><p><span data-ttu-id="e385a-110">SubnetIP</span><span class="sxs-lookup"><span data-stu-id="e385a-110">SubnetIP</span></span></p></td>
+<td><p><span data-ttu-id="e385a-111">int</span><span class="sxs-lookup"><span data-stu-id="e385a-111">int</span></span></p></td>
+<td><p><span data-ttu-id="e385a-112">子网 IP 地址（仅支持 IPv4 地址）。</span><span class="sxs-lookup"><span data-stu-id="e385a-112">Subnet IP address (only IPv4 addresses are supported).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e196b-112">UserSiteName</span><span class="sxs-lookup"><span data-stu-id="e196b-112">UserSiteName</span></span></p></td>
-<td><p><span data-ttu-id="e196b-113">nvarchar (128) </span><span class="sxs-lookup"><span data-stu-id="e196b-113">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="e196b-114">用户的站点名称。</span><span class="sxs-lookup"><span data-stu-id="e196b-114">User’s site name.</span></span></p></td>
+<td><p><span data-ttu-id="e385a-113">UserSiteName</span><span class="sxs-lookup"><span data-stu-id="e385a-113">UserSiteName</span></span></p></td>
+<td><p><span data-ttu-id="e385a-114">nvarchar (128) </span><span class="sxs-lookup"><span data-stu-id="e385a-114">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="e385a-115">用户的站点名称。</span><span class="sxs-lookup"><span data-stu-id="e385a-115">User’s site name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e196b-115">RegionName</span><span class="sxs-lookup"><span data-stu-id="e196b-115">RegionName</span></span></p></td>
-<td><p><span data-ttu-id="e196b-116">nvarchar (128) </span><span class="sxs-lookup"><span data-stu-id="e196b-116">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="e196b-117">用户所在国家/地区的名称。</span><span class="sxs-lookup"><span data-stu-id="e196b-117">Name of the user’s country/region.</span></span></p></td>
+<td><p><span data-ttu-id="e385a-116">RegionName</span><span class="sxs-lookup"><span data-stu-id="e385a-116">RegionName</span></span></p></td>
+<td><p><span data-ttu-id="e385a-117">nvarchar (128) </span><span class="sxs-lookup"><span data-stu-id="e385a-117">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="e385a-118">用户所在国家/地区的名称。</span><span class="sxs-lookup"><span data-stu-id="e385a-118">Name of the user’s country/region.</span></span></p></td>
 </tr>
 </tbody>
 </table>

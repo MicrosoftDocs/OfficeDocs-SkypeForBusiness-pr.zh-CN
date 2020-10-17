@@ -1,5 +1,6 @@
 ---
 title: Lync Server 2013：网络区域
+description: Lync Server 2013：网络区域。
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,14 +13,14 @@ ms:contentKeyID: 49733567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541beafe32dcfbe830573ae5954f81ee7febe8de
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3506f3c543c0728f27bd091b9cd63991c4633da7
+ms.sourcegitcommit: d42a21b194f4a45e828188e04b25c1ce28a5d1ae
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48505489"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "48561478"
 ---
-# <a name="network-regions-in-lync-server-2013"></a><span data-ttu-id="d795c-102">Lync Server 2013 中的网络区域</span><span class="sxs-lookup"><span data-stu-id="d795c-102">Network regions in Lync Server 2013</span></span>
+# <a name="network-regions-in-lync-server-2013"></a><span data-ttu-id="9d41a-103">Lync Server 2013 中的网络区域</span><span class="sxs-lookup"><span data-stu-id="9d41a-103">Network regions in Lync Server 2013</span></span>
 
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,15 +38,15 @@ ms.locfileid: "48505489"
 
 <span> </span>
 
-<span data-ttu-id="d795c-103">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="d795c-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="9d41a-104">_**上次修改的主题：** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="9d41a-104">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="d795c-104">*网络区域* 是在呼叫允许控制、E9-1-1 和媒体旁路的配置中使用的网络中心或网络中枢。</span><span class="sxs-lookup"><span data-stu-id="d795c-104">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="d795c-105">使用以下过程可查看、创建或修改网络区域。</span><span class="sxs-lookup"><span data-stu-id="d795c-105">Use the following procedures to view, create, or modify network regions.</span></span> <span data-ttu-id="d795c-106">例如，如果已为一个语音功能创建网络区域，则不需要创建新的网络区域；其他高级企业语音功能也将使用相同的网络区域。</span><span class="sxs-lookup"><span data-stu-id="d795c-106">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="d795c-107">但是，可能需要修改现有的网络区域定义，以应用特定于功能的设置。</span><span class="sxs-lookup"><span data-stu-id="d795c-107">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="d795c-108">例如，如果已为 E9-1-1（它不要求有关联的中央站点）创建网络区域，然后部署呼叫允许控制，则需要修改网络区域定义，以指定中央站点。</span><span class="sxs-lookup"><span data-stu-id="d795c-108">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="d795c-109">有关详细信息，请参阅 [在 Lync Server 2013 中配置 CAC 的网络区域](lync-server-2013-configure-network-regions-for-cac.md)。</span><span class="sxs-lookup"><span data-stu-id="d795c-109">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
+<span data-ttu-id="9d41a-105">*网络区域* 是在呼叫允许控制、E9-1-1 和媒体旁路的配置中使用的网络中心或网络中枢。</span><span class="sxs-lookup"><span data-stu-id="9d41a-105">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="9d41a-106">使用以下过程可查看、创建或修改网络区域。</span><span class="sxs-lookup"><span data-stu-id="9d41a-106">Use the following procedures to view, create, or modify network regions.</span></span> <span data-ttu-id="9d41a-107">例如，如果已为一个语音功能创建网络区域，则不需要创建新的网络区域；其他高级企业语音功能也将使用相同的网络区域。</span><span class="sxs-lookup"><span data-stu-id="9d41a-107">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="9d41a-108">但是，可能需要修改现有的网络区域定义，以应用特定于功能的设置。</span><span class="sxs-lookup"><span data-stu-id="9d41a-108">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="9d41a-109">例如，如果已为 E9-1-1（它不要求有关联的中央站点）创建网络区域，然后部署呼叫允许控制，则需要修改网络区域定义，以指定中央站点。</span><span class="sxs-lookup"><span data-stu-id="9d41a-109">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="9d41a-110">有关详细信息，请参阅 [在 Lync Server 2013 中配置 CAC 的网络区域](lync-server-2013-configure-network-regions-for-cac.md)。</span><span class="sxs-lookup"><span data-stu-id="9d41a-110">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d795c-110">有关网络区域定义的任何特定于功能的要求均编档在相应功能的部署主题中。</span><span class="sxs-lookup"><span data-stu-id="d795c-110">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
+> <span data-ttu-id="9d41a-111">有关网络区域定义的任何特定于功能的要求均编档在相应功能的部署主题中。</span><span class="sxs-lookup"><span data-stu-id="9d41a-111">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
 
 
 
@@ -53,21 +54,21 @@ ms.locfileid: "48505489"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d795c-111">本部分内容</span><span class="sxs-lookup"><span data-stu-id="d795c-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="9d41a-112">本部分内容</span><span class="sxs-lookup"><span data-stu-id="9d41a-112">In This Section</span></span>
 
-  - [<span data-ttu-id="d795c-112">在 Lync Server 2013 中查看网络区域信息</span><span class="sxs-lookup"><span data-stu-id="d795c-112">Viewing network region information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-information.md)
+  - [<span data-ttu-id="9d41a-113">在 Lync Server 2013 中查看网络区域信息</span><span class="sxs-lookup"><span data-stu-id="9d41a-113">Viewing network region information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-information.md)
 
-  - [<span data-ttu-id="d795c-113">在 Lync Server 2013 中创建或修改网络区域</span><span class="sxs-lookup"><span data-stu-id="d795c-113">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
+  - [<span data-ttu-id="9d41a-114">在 Lync Server 2013 中创建或修改网络区域</span><span class="sxs-lookup"><span data-stu-id="9d41a-114">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [<span data-ttu-id="d795c-114">在 Lync Server 2013 中删除现有网络区域</span><span class="sxs-lookup"><span data-stu-id="d795c-114">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)
+  - [<span data-ttu-id="9d41a-115">在 Lync Server 2013 中删除现有网络区域</span><span class="sxs-lookup"><span data-stu-id="9d41a-115">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)
 
 </div>
 
 <div>
 
-## <a name="reference"></a><span data-ttu-id="d795c-115">参考</span><span class="sxs-lookup"><span data-stu-id="d795c-115">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="9d41a-116">参考</span><span class="sxs-lookup"><span data-stu-id="9d41a-116">Reference</span></span>
 
-[<span data-ttu-id="d795c-116">在 Lync Server 2013 中部署高级企业语音功能</span><span class="sxs-lookup"><span data-stu-id="d795c-116">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[<span data-ttu-id="9d41a-117">在 Lync Server 2013 中部署高级企业语音功能</span><span class="sxs-lookup"><span data-stu-id="9d41a-117">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 
