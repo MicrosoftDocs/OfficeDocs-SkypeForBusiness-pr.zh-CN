@@ -8,29 +8,31 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-f1.keywords:
-- CSH
 ms.reviewer: ritikag
 search.appverid: MET150
 description: 了解如何通过向组织中的用户分配或删除团队许可证来管理用户对团队的访问权限。
+f1.keywords:
+- CSH
+- ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32ab8f68ef1c37fbb5cb724b322b4db0ee757b84
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 6d877a4c6534c76b894583401dc5dba0936c3c75
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042269"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48521379"
 ---
 # <a name="manage-user-access-to-teams"></a>管理用户对 Teams 的访问管理
 
 通过分配或删除 Microsoft 团队产品许可证，可在用户级别管理对团队的访问。 组织中的每个用户都必须拥有一个团队许可证，然后他们才能使用团队。 当创建新用户帐户或使用现有帐户向用户分配新用户帐户时，您可以为新用户分配团队许可证。
 
-默认情况下，当向用户分配了授权计划（例如 Microsoft 365 企业版 E3 或 Microsoft 365 Business Premium）时，将自动分配团队许可证，并为团队启用用户。 你可以随时删除或分配许可证，为用户禁用或启用团队。
+默认情况下，当 (授权计划时，将为用户分配 Microsoft 365 企业版 E3 或 Microsoft 365 Business Premium) ，将自动分配团队许可证，并为团队启用用户。 你可以随时删除或分配许可证，为用户禁用或启用团队。
 
+使用邮件策略从 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">团队管理中心</a>进行管理，以控制团队中的用户可以使用哪些聊天和频道消息功能。 你可以使用默认策略或为组织中的人员创建一个或多个自定义消息策略。 若要了解详细信息，请阅读 [团队中的 "管理消息策略](messaging-policies-in-teams.md)"。
 可在 Microsoft 365 管理中心或通过使用 PowerShell 管理团队许可证。 您必须是全局管理员或用户管理管理员才能管理许可证。
 
 > [!NOTE]
@@ -38,13 +40,17 @@ ms.locfileid: "44042269"
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 管理中心
 
-使用 Microsoft 365 管理中心管理单个用户或一次小型用户组的团队许可证。 可以在 "**许可证**" 页面上管理团队许可证（同时适用于最多20个用户）或 "**活动用户**" 页面。 你选择的方法取决于你是要为特定用户管理产品许可证还是管理特定产品的用户许可证。
+团队用户级许可证通过 Microsoft 365 管理中心用户管理界面直接管理。 管理员可以在创建新用户帐户时为新用户分配许可证，也可以为已有帐户的用户分配许可证。 
 
-如果需要管理大量用户（如成百上千用户）的团队许可证，请[在 Azure Active Directory （AZURE AD）中](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)[使用 Powershell](#using-powershell)或基于组的许可。 
+> [!IMPORTANT]
+> 管理员必须具有全局管理员权限或用户管理管理员权限才能管理 Microsoft 团队许可证。
+使用 Microsoft 365 管理中心管理单个用户或一次小型用户组的团队许可证。 您可以在 "许可证" 页面上管理多达20个用户的 " **许可证** " 页面 (，) 或 " **活动用户** " 页面。 你选择的方法取决于你是要为特定用户管理产品许可证还是管理特定产品的用户许可证。
+
+如果需要管理大量用户（如成百上千用户）的团队许可证，请 [使用](#using-powershell) [azure Active Directory 中的 Powershell 或基于组的许可 (azure AD) ](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)。 
 
 ### <a name="assign-a-teams-license"></a>分配团队许可证
 
-根据您使用的是 "**许可证**" 页面还是 "**活动用户**" 页面，这些步骤会有所不同。  有关分步说明，请参阅[向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+根据您使用的是 " **许可证** " 页面还是 " **活动用户** " 页面，这些步骤会有所不同。  有关分步说明，请参阅 [向用户分配许可证](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 |||
 |---------|---------|
@@ -52,7 +58,7 @@ ms.locfileid: "44042269"
 
 ### <a name="remove-a-teams-license"></a>删除团队许可证
 
-从用户删除团队许可证时，将对该用户禁用团队，并且他们将不再在应用启动器或主页中看到团队。 有关详细步骤，请参阅[取消分配给用户的许可证](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。
+从用户删除团队许可证时，将对该用户禁用团队，并且他们将不再在应用启动器或主页中看到团队。 有关详细步骤，请参阅 [取消分配给用户的许可证](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。
 
 |||
 |---------|---------|
@@ -68,24 +74,24 @@ ms.locfileid: "44042269"
 
 ### <a name="assign-teams-licenses-in-bulk"></a>批量分配团队许可证
 
-有关详细步骤，请参阅[使用 PowerShell 向用户帐户分配许可证](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)。
+有关详细步骤，请参阅 [使用 PowerShell 向用户帐户分配许可证](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)。
 
 ### <a name="remove-teams-licenses-in-bulk"></a>批量删除团队许可证
 
-有关详细步骤，请参阅[使用 PowerShell 禁用对服务的访问](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell)，并[在分配用户许可证时禁用对服务的访问](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)。
+有关详细步骤，请参阅 [使用 PowerShell 禁用对服务的访问](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) ，并 [在分配用户许可证时禁用对服务的访问](https://docs.microsoft.com/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)。
 
 #### <a name="example"></a>示例 
 
-下面是如何使用[MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions)和[MsolUserLicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) cmdlet 为具有特定授权计划的用户禁用团队的示例。 例如，请按照以下步骤操作，首先针对具有特定授权计划的所有用户禁用团队。 然后为应该有权访问团队的每个单独用户启用团队。
+下面是如何使用 [MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) 和 [MsolUserLicense](https://docs.microsoft.com/powershell/module/msonline/set-msoluserlicense) cmdlet 为具有特定授权计划的用户禁用团队的示例。 例如，请按照以下步骤操作，首先针对具有特定授权计划的所有用户禁用团队。 然后为应该有权访问团队的每个单独用户启用团队。
 
 > [!IMPORTANT]
-> 除非在自定义脚本中明确标识，否则[MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) cmdlet 将启用之前已禁用的所有服务。 例如，如果你希望同时禁用 Exchange 和 Sway 同时禁用团队，你需要在脚本中包含此内容，或者将为你标识的用户启用 Exchange 和 Sway。
+> 除非在自定义脚本中明确标识，否则 [MsolLicenseOptions](https://docs.microsoft.com/powershell/module/msonline/new-msollicenseoptions) cmdlet 将启用之前已禁用的所有服务。 例如，如果你希望同时禁用 Exchange 和 Sway 同时禁用团队，你需要在脚本中包含此内容，或者将为你标识的用户启用 Exchange 和 Sway。
 
-运行以下命令以显示你的组织中的所有可用授权计划。 若要了解详细信息，请参阅[通过 PowerShell 查看许可证和服务](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)。
+运行以下命令以显示你的组织中的所有可用授权计划。 若要了解详细信息，请参阅 [通过 PowerShell 查看许可证和服务](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)。
 
       Get-MsolAccountSku
 
-运行以下命令，其中\<"公司名称：许可证>" 是你的组织名称，以及你在之前步骤中检索的授权计划的标识符。 例如，ContosoSchool： ENTERPRISEPACK_STUDENT。
+运行以下命令，其中 \<CompanyName:License> 是你的组织名称和你在之前步骤中检索的授权计划的标识符。 例如，ContosoSchool： ENTERPRISEPACK_STUDENT。
 
       $acctSKU="<CompanyName:License>
       $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"

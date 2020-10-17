@@ -12,20 +12,22 @@ ms:contentKeyID: 48184384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 767f49aa0074e269de386b2db017dc183e4eb92d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7d5eb996b149bda87ea799768aea9821ec06f49f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205158"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523009"
 ---
+# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a>在 Lync Server 2013 中配置 E9-1-1 语音路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a>在 Lync Server 2013 中配置 E9-1-1 语音路由
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42205158"
 
 _**上次修改的主题：** 2012-09-17_
 
-若要部署 E9-1-1，首先需配置紧急呼叫语音路由。 有关创建语音路由的详细信息，请参阅[在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。 例如，如果部署包括主要 SIP 中继和辅助 SIP 中继，则可定义多个路由。
+若要部署 E9-1-1，首先需配置紧急呼叫语音路由。 有关创建语音路由的详细信息，请参阅 [在 Lync Server 2013 中创建语音路由](lync-server-2013-create-a-voice-route.md)。 例如，如果部署包括主要 SIP 中继和辅助 SIP 中继，则可定义多个路由。
 
 <div>
 
 
 > [!NOTE]  
-> 若要在 E9-1-1 INVITE 中包含位置信息，您需要配置连接到 E9-1-1 服务提供商的 SIP 中继以便通过网关路由紧急呼叫。 为此，请在 <STRONG>Set-CsTrunkConfiguration</STRONG> cmdlet 上将 EnablePIDFLOSupport 标志设置为 True。 EnablePIDFLOSupport 的默认值为 False。 例如：<CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>无需为回退公用电话交换网 (PSTN) 网关和紧急位置标识号 (ELIN) 网关启用接收位置。
+> 若要在 E9-1-1 INVITE 中包含位置信息，您需要配置连接到 E9-1-1 服务提供商的 SIP 中继以便通过网关路由紧急呼叫。 为此，请在 <STRONG>Set-CsTrunkConfiguration</STRONG> cmdlet 上将 EnablePIDFLOSupport 标志设置为 True。 EnablePIDFLOSupport 的默认值为 False。 例如： <CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>无需为回退公用电话交换网 (PSTN) 网关和紧急位置标识号 (ELIN) 网关启用接收位置。
 
 
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2012-09-17_
 
 3.  运行以下 cmdlet 以创建新的 PSTN 用法记录。
     
-    该名称必须与将用于位置策略中的 **PSTN** 设置的名称相同。 尽管部署中将具有多个电话用法记录，但以下示例将“紧急用法”添加到可用 PSTN 用法的当前列表。 有关详细信息，请参阅[在 Lync Server 2013 中配置语音策略和 PSTN 用法记录以授权呼叫功能和权限](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
+    该名称必须与将用于位置策略中的 **PSTN** 设置的名称相同。 尽管部署中将具有多个电话用法记录，但以下示例将“紧急用法”添加到可用 PSTN 用法的当前列表。 有关详细信息，请参阅 [在 Lync Server 2013 中配置语音策略和 PSTN 用法记录以授权呼叫功能和权限](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
     
         Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
 

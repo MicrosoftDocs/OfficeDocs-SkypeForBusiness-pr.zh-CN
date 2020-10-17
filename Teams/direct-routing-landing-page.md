@@ -13,22 +13,23 @@ ms.reviewer: crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
+- ms.teamsadmincenter.directrouting.overview
 description: 了解有关直接路由的详细信息，并了解你将面临的必要部署决策。
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba1732864a765af5bb5a0dfc5504f1d37b5460b5
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 2c988670a17a9ba2f803c11740d97404de52d4d5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48497299"
 ---
 # <a name="phone-system-direct-routing"></a>电话系统直接路由
 
-你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许你已将[会议部署 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在，你已准备好添加云语音工作负载，并且你已决定通过使用电话系统直接路由将自己的电话运营商用于公共交换电话网络（PSTN）连接。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
+你已完成了[入门](get-started-with-teams-quick-start.md)。 你已在整个组织中部署了具有[聊天、团队、频道和应用](deploy-chat-teams-channels-microsoft-teams-landing-page.md)的 Teams。 也许你已将 [会议部署 & 会议](deploy-meetings-microsoft-teams-landing-page.md)。 现在，你已准备好添加云语音工作负载，并且你已决定通过使用电话系统直接路由，将你自己的电话运营商用于公共交换电话网络 (PSTN) 连接。 使用直接路由，可以结合使用电话系统与几乎任何电话运营商。
 
-本文介绍直接路由的核心部署决策，以及你可能希望考虑的基于组织需求的其他注意事项。 您还应阅读[Microsoft 团队中的云语音](cloud-voice-landing-page.md)，了解有关 Microsoft 云语音服务的详细信息。
+本文介绍直接路由的核心部署决策，以及你可能希望考虑的基于组织需求的其他注意事项。 您还应阅读 [Microsoft 团队中的云语音](cloud-voice-landing-page.md) ，了解有关 Microsoft 云语音服务的详细信息。
 
 ## <a name="learn-more-about-direct-routing"></a>了解有关直接路由的详细信息
 
@@ -44,7 +45,7 @@ ms.locfileid: "43904577"
 -  [为多个租户配置会话边界控制器](direct-routing-sbc-multiple-tenants.md)
 -  [迁移到直接路由](direct-routing-migrating.md)
 -  [采用 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- 观看以下会话以了解有关直接路由的详细信息：[在 Microsoft 团队中直接路由](https://aka.ms/teams-direct-routing)
+- 观看以下会话以了解有关直接路由的详细信息： [在 Microsoft 团队中直接路由](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>核心部署决策
 
@@ -52,18 +53,18 @@ ms.locfileid: "43904577"
 
 |询问你自己|操作 |
 | :------------|:-------|
-|哪些用户将启用直接路由？ | 有关详细信息，请参阅[为直接路由服务启用用户](direct-routing-configure.md)。 |
-是否有直接路由所需的许可证？ | 有关详细信息，请参阅[许可和其他要求](direct-routing-plan.md#licensing-and-other-requirements)。
+|哪些用户将启用直接路由？ | 有关详细信息，请参阅 [为直接路由服务启用用户](direct-routing-configure.md)。 |
+是否有直接路由所需的许可证？ | 有关详细信息，请参阅 [许可和其他要求](direct-routing-plan.md#licensing-and-other-requirements)。
 |||
 
-### <a name="session-border-controller-sbc-considerations"></a>会话边框控制器（SBC）注意事项
+### <a name="session-border-controller-sbc-considerations"></a> (SBC) 注意事项的会话边界控制器
 
-通过直接路由，你可以将自己的会话边界控制器（SBC）直接连接到电话系统。  有关已验证的 SBCs 的列表，请参阅[支持的会话边界控制器](direct-routing-border-controllers.md)。
+通过直接路由，你可以将自己的会话边界控制器 (SBC) 直接连接到电话系统。  有关已验证的 SBCs 的列表，请参阅 [支持的会话边界控制器](direct-routing-border-controllers.md)。
 
 |询问你自己|操作 |
 |:------------|:-------|
-| 我将在哪里以及如何部署 SBCs？ | 有关详细信息，请参阅[配置直接路由](direct-routing-configure.md) | 
-我有多个租户吗？ | 有关详细信息，请参阅[为多个租户配置会话边框控制器](direct-routing-sbc-multiple-tenants.md)。|
+| 我将在哪里以及如何部署 SBCs？ | 有关详细信息，请参阅 [配置直接路由](direct-routing-configure.md) | 
+我有多个租户吗？ | 有关详细信息，请参阅 [为多个租户配置会话边框控制器](direct-routing-sbc-multiple-tenants.md)。|
 |||
 
 ### <a name="voice-routing-considerations"></a>语音路由注意事项
@@ -72,8 +73,8 @@ ms.locfileid: "43904577"
 
 |询问你自己|操作 |
 |:------------|:-------|
-| 我需要创建哪些语音路由策略、PSTN 使用和语音路由？ | 有关语音路由信息，请参阅[配置语音路由](direct-routing-configure.md)。
-| 哪些用户将分配给我定义的语音路由策略？ | 请参阅[配置语音路由](direct-routing-configure.md)中的示例。 |
+| 我需要创建哪些语音路由策略、PSTN 使用和语音路由？ | 有关语音路由信息，请参阅 [配置语音路由](direct-routing-configure.md)。
+| 哪些用户将分配给我定义的语音路由策略？ | 请参阅 [配置语音路由](direct-routing-configure.md)中的示例。 |
 |||
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>使用 TeamsUpgradePolicy 在团队客户端中确保传入呼叫土地
@@ -82,7 +83,7 @@ ms.locfileid: "43904577"
 
 |询问你自己|操作 |
 |:------------|:-------|
-|团队的唯一模式意味着什么？ | 有关详细信息，请参阅[与 Skype For business 一起使用团队的组织的迁移和互操作指南](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)。|
+|团队的唯一模式意味着什么？ | 有关详细信息，请参阅 [与 Skype For business 一起使用团队的组织的迁移和互操作指南](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)。|
 |||
 
 ## <a name="additional-deployment-considerations"></a>其他部署注意事项
@@ -91,6 +92,6 @@ ms.locfileid: "43904577"
 
 | 询问你自己| 操作 |
 | :------------|:-------|
-| 是否有配置了混合连接的现有 Skype for Business 服务器部署？ |  若要了解如何设置和管理混合环境中的用户帐户，请参阅[具有 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)。| 
-| 您是否正在迁移以直接从呼叫计划或 Skype for business 内部部署环境中路由？ | 若要了解有关从现有环境迁移到直接路由的详细信息，请参阅[迁移到直接路由](direct-routing-migrating.md)。 |
+| 是否有配置了混合连接的现有 Skype for Business 服务器部署？ |  若要了解如何设置和管理混合环境中的用户帐户，请参阅 [具有 PSTN 连接的混合环境中的用户帐户](direct-routing-user-accounts-in-a-hybrid-environment.md)。| 
+| 您是否正在迁移以直接从呼叫计划或 Skype for business 内部部署环境中路由？ | 若要了解有关从现有环境迁移到直接路由的详细信息，请参阅 [迁移到直接路由](direct-routing-migrating.md)。 |
 |||

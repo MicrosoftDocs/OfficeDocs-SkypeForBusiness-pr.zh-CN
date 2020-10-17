@@ -12,20 +12,22 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6786d22d81f6b78d1e551d05f3d908876ca3068
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8c802141adfecf53b70709ad90cc098004eacda1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197995"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522459"
 ---
+# <a name="device-hardware-support-in-lync-server-2013"></a>Lync Server 2013 中的设备硬件支持
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="device-hardware-support-in-lync-server-2013"></a>Lync Server 2013 中的设备硬件支持
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-12-14_
 
 特定的硬件配置到位后，才能部署 IP 电话和模拟设备。
 
-运行 Lync Phone Edition 的 IP 电话支持链接层发现协议-媒体终结点发现（LLDP-MED-V）和以太网供电（PoE）。要使用 LLDP-MED，交换机必须支持 IEEE802.1AB 和 ANSI/TIA-1057。 要使用 PoE，交换机必须支持 PoE802.3AF 或 802.3at。
+运行 Lync Phone Edition 的 IP 电话支持链接层发现 Protocol-Media 终结点发现 (LLDP-MED-V) 和以太网 (PoE) 中的电源。要使用 LLDP-MED，交换机必须支持 IEEE802.1AB 和 ANSI/TIA-1057。 要使用 PoE，交换机必须支持 PoE802.3AF 或 802.3at。
 
 要启用 LLDP-MED，管理员必须使用交换机控制台窗口启用 LLDP，并使用正确的语音 VLAN ID 设置 LLDP-MED 网络策略。
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-12-14_
 
   - 包括与 ATA 通信的 PSTN 网关的 Survivable Branch Appliance
 
-若要了解如何配置模拟网关，请参阅 Lync Server 2010 TechNet 库[https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537)中的 "规划以部署模拟设备"。 （模拟设备在 Lync server 2013 中的工作方式与在 Lync Server 2010 中的工作方式相同。）
+若要了解如何配置模拟网关，请参阅 [https://go.microsoft.com/fwlink/p/?LinkId=268537](https://go.microsoft.com/fwlink/p/?linkid=268537) Lync Server 2010 TechNet 库中的 "规划以部署模拟设备"。 在 Lync server 2013 中， (模拟设备的工作方式与在 Lync Server 2010 中的工作方式相同。 ) 
 
 <div>
 

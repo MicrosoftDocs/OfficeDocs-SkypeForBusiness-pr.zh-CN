@@ -12,20 +12,22 @@ ms:contentKeyID: 63369406
 ms.date: 11/12/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b4efe639cc1bb9e33032e4eaae9148f3b90951b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7c44e3902b252931929b3d0db08896e7b5833f83
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198915"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523349"
 ---
+# <a name="updates-for-lync-2013-client-and-lync-server-2013"></a>Lync 2013 客户端和 Lync Server 2013 更新
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="updates-for-lync-2013-client-and-lync-server-2013"></a>Lync 2013 客户端和 Lync Server 2013 更新
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2014-11-12_
 
 ## <a name="determining-your-lync-desktop-client-version"></a>确定你的 Lync 桌面客户端版本
 
-若要了解您使用的是哪个版本的 Lync 桌面客户端，请通过单击 "选项" 图标打开 "**关于 lync** " 对话框。 在 "**选项**" 菜单上，选择 "**帮助**"，然后选择 "**关于 Microsoft Lync**"。 客户端版本号通常显示在 "**关于 Lync** " 对话框的第一行中。
+若要了解您使用的是哪个版本的 Lync 桌面客户端，请通过单击 "选项" 图标打开 " **关于 lync** " 对话框。 在 " **选项** " 菜单上，选择 " **帮助** "，然后选择 " **关于 Microsoft Lync**"。 客户端版本号通常显示在 " **关于 Lync** " 对话框的第一行中。
 
 </div>
 
@@ -61,7 +63,7 @@ Lync 客户端的每个更新都有自己的版本号。 您可以通过查看�
 
 ## <a name="lync-server-updates"></a>Lync Server 更新
 
-有关 Lync Server 2013 更新的信息，请参阅 Microsoft 支持网站上[的 Lync Server 2013 更新](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013)。
+有关 Lync Server 2013 更新的信息，请参阅 Microsoft 支持网站上 [的 Lync Server 2013 更新](https://support.microsoft.com/help/2809243/updates-for-lync-server-2013) 。
 
 </div>
 

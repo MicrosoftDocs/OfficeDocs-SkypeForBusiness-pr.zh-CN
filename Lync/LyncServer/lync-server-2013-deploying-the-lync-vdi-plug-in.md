@@ -12,20 +12,22 @@ ms:contentKeyID: 48183449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 578825b8dcf7262475fa14cd2e116859f2828878
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 160ca4459a73697e1a4dc82c9fd4b680e16f7beb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188195"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522859"
 ---
+# <a name="deploying-the-lync-vdi-plug-in-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Lync VDI 插件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-the-lync-vdi-plug-in-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Lync VDI 插件
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188195"
 
 _**上次修改的主题：** 2012-10-03_
 
-Lync 2013 客户端支持虚拟桌面基础结构（VDI）环境中的音频和视频。 用户可以将音频或视频设备（例如，耳机或网络摄像头）连接到本地计算机（例如，瘦客户端或已调整用途的计算机）。 用户可以连接到虚拟机，登录到在虚拟机上运行的 Lync 2013 客户端，并参与实时音频和视频通信，如同客户端在本地运行一样。
+Lync 2013 客户端支持虚拟桌面基础结构中的音频和视频 (VDI) 环境。 用户可以将音频或视频设备（例如，耳机或网络摄像头）连接到本地计算机（例如，瘦客户端或已调整用途的计算机）。 用户可以连接到虚拟机，登录到在虚拟机上运行的 Lync 2013 客户端，并参与实时音频和视频通信，如同客户端在本地运行一样。
 
 Lync VDI 插件是安装在本地计算机上的独立应用程序，允许将本地音频和视频设备与在虚拟机上运行的 Lync 2013 客户端结合使用。 该插件不要求在本地计算机上安装 Lync。 用户登录到在虚拟机上运行的 Lync 2013 客户端后，Lync 会提示用户重新输入其凭据，以与本地计算机上运行的 Lync VDI 插件建立连接。 建立此连接后，用户可以发出和接收音频和视频呼叫。
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57b7cdcf2229f6fa0aa6b9710866545238bec98c
-ms.sourcegitcommit: 7c701fc38c8a81ac0938f666c336252c3983ca4c
+ms.openlocfilehash: 86c5b324e2e240f0d30123e8a3cd2c1767205c81
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47323926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48504959"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Endpoint Configuration Manager 安装 Microsoft Teams
 
@@ -33,18 +33,18 @@ ms.locfileid: "47323926"
 
 以下是 MSI 文件的链接：
 
-|实体  |32位      |64位      |
-|---------|---------|---------|
-|商用     | [32位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       |
-|联邦政府 - GCC     | [32位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |
-|联邦政府 - GCC High    | [32位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
-|联邦政府 - DoD     | [32位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
+|实体  |32位      |64位      | ARM64 |
+|---------|---------|---------|-----------|
+|商用     | [32位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)       | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
+|联邦政府 - GCC     | [32位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&ring=general_gcc&download=true)       | [64位](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&ring=general_gcc&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|联邦政府 - GCC High    | [32位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)         | [64位](https://gov.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |[ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) |
+|联邦政府 - DoD     | [32位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64位](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        | [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)|
 
 **若要确保部署成功，请注意以下事项：**
 
 - 在64位操作系统上安装64位版本的团队。 如果你尝试在32位操作系统上安装64位版本的团队，则安装将不会成功，并且当前不会收到错误消息。
 
-- 如果客户租户位于 GCCH 或 DoD 云上，客户应通过将 **CloudType** 值添加到注册表中的 **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** 键来设置注册表中的初始终结点。 **CloudType**的类型为**DWORD**值，值为 (0 = Unset，1 = 商业，2 = GCC，3 = GCCH，4 = DOD) 。 将终结点设置为注册表项会限制团队连接到正确的云终结点，以便与团队进行预登录连接。
+- 如果客户租户位于 GCCH 或 DoD 云上，客户应通过将 **CloudType** 值添加到注册表中的 **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** 键来设置注册表中的初始终结点。 **CloudType**的类型为**DWORD**值，值为 (0 = Unset，1 = 商业，2 = GCC，3 = GCCH，4 = DOD) 。 将终结点设置为注册表项会限制团队连接到正确的云终结点，以便与团队进行预登录连接。
 
 - 团队也可以包含在适用于企业的 Microsoft 365 应用的部署中。 有关详细信息，请参阅 [通过适用于企业的 microsoft 365 应用部署 Microsoft 团队](https://docs.microsoft.com/deployoffice/teams-install)。
 
@@ -124,7 +124,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 当用户登录 Windows 时，Teams 已通过 MSI 安装并且启动 Teams 的快捷方式已添加至用户桌面。 在用户手动启动 Teams 之前，它不会启动。 用户手动启动 Teams 之后，无论用户何时登录，Teams 均会自动启动。
 
-请注意，这些示例还使用 **ALLUSERS = 1** 参数。 设置此参数时，团队计算机范围的安装程序将显示在 "控制面板" 的 "程序和功能" 和 "应用程序" 中的 "Windows 设置" 中的 "应用 & 功能" 中。 如果团队拥有计算机上的管理员凭据，则所有用户都可以卸载团队。
+请注意，这些示例还使用 **ALLUSERS = 1** 参数。 设置此参数时，团队 Machine-Wide 安装程序的 "程序和功能" 将显示在 "控制面板" 的 "程序和功能" 和 "适用于计算机的所有用户的 Windows 设置" & 功能中。 如果团队拥有计算机上的管理员凭据，则所有用户都可以卸载团队。
 
 > [!Note]
 > 如果手动运行 MSI，请确保使用已提升的权限运行它。 即便以管理员身份而不是使用已提升的权限运行 MSI，安装程序也无法将选项配置为禁用自动启动。

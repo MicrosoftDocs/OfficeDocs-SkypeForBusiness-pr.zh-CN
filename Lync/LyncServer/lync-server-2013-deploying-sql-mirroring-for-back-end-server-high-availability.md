@@ -12,20 +12,22 @@ ms:contentKeyID: 48184451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 577d6bb312ae2b31f96fed5f3e5b02e84844adf6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 085b7c10416fddefa8b869bbb617160f03b1e89a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188185"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522939"
 ---
+# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SQL 镜像以实现后端服务器高可用性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-sql-mirroring-for-back-end-server-high-availability-in-lync-server-2013"></a>在 Lync Server 2013 中部署 SQL 镜像以实现后端服务器高可用性
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42188185"
 
 _**上次修改的主题：** 2014-01-08_
 
-为了能够部署 SQL 镜像，您的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主、镜像和见证。 有关详细信息， [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921)请参阅。
+为了能够部署 SQL 镜像，您的服务器必须至少运行 SQL Server 2008 R2。 此版本必须在所有涉及的服务器上运行：主、镜像和见证。 有关详细信息，请参阅 [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2083921](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2083921) 。
 
 通常，在两台具有见证的后端服务器之间设置 SQL 镜像需要满足以下条件：
 
@@ -47,33 +49,33 @@ _**上次修改的主题：** 2014-01-08_
 
   - 主和镜像必须具有同一版本的 SQL Server。见证可以具有不同版本。
 
-有关见证角色支持的 SQL 版本的 SQL 最佳实践，请参阅 MSDN Library 中的 "数据库镜像见证" [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345)。
+有关见证角色支持的 SQL 版本的 SQL 最佳实践，请参阅 MSDN Library 中的 "数据库镜像见证" [https://go.microsoft.com/fwlink/p/?LinkId=247345](https://go.microsoft.com/fwlink/p/?linkid=247345) 。
 
-您可以使用拓扑生成器来部署 SQL 镜像。 您可以在拓扑生成器中选择一个选项来镜像数据库，拓扑生成器会在发布拓扑时设置镜像（包括设置见证）（如果需要）。 请注意，您在设置或删除镜像的同时将设置或删除见证。 没有用于仅部署或删除见证的单独命令。
+您可以使用拓扑生成器来部署 SQL 镜像。 您可以在拓扑生成器中选择一个选项来镜像数据库，拓扑生成器将设置镜像 (包括设置见证服务器，如果您希望在发布拓扑时) 。 请注意，您在设置或删除镜像的同时将设置或删除见证。 没有用于仅部署或删除见证的单独命令。
 
-若要配置服务器镜像，您必须先正确设置 SQL 数据库权限。 有关详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454)的 "设置数据库镜像或 AlwaysOn 可用性组的登录帐户（SQL Server）"。
+若要配置服务器镜像，您必须先正确设置 SQL 数据库权限。 有关详细信息，请参阅在上的 "为数据库镜像或 AlwaysOn 可用性组设置登录帐户" (SQL Server) " [https://go.microsoft.com/fwlink/p/?LinkId=268454](https://go.microsoft.com/fwlink/p/?linkid=268454) 。
 
 对于 SQL 镜像，数据库恢复模式始终设置为“完全”****，这意味着您必须密切监控事务日志大小并定期备份事务日志以避免后端服务器上的磁盘空间不足。事务日志备份频率取决于日志增长速率，反过来，日志增长速率又取决于前端池上的用户活动所触发的数据库事务数。建议您确定您的 Lync 部署工作负载所需的事务日志增长程度，以便进行适当的规划。下列文章提供了有关 SQL 备份和日志管理的其他信息：
 
-  - 数据库恢复模型：处的 "恢复模式（SQL Server）"[https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
+  - 数据库恢复模型： "恢复模型 (SQL Server) " [https://go.microsoft.com/fwlink/p/?LinkId=268446](https://go.microsoft.com/fwlink/p/?linkid=268446)
 
-  - 备份概述： "备份概述（SQL Server）" 位置[https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
+  - 备份概述： "备份概述 (SQL Server) " [https://go.microsoft.com/fwlink/p/?LinkId=268449](https://go.microsoft.com/fwlink/p/?linkid=268449)
 
-  - 备份事务日志： "备份事务日志（SQL Server）" 位置[https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
+  - 备份事务日志： "备份事务日志 (SQL Server) " [https://go.microsoft.com/fwlink/p/?LinkId=268452](https://go.microsoft.com/fwlink/p/?linkid=268452)
 
 对于 SQL 镜像，可在创建池时或之后为镜像配置拓扑。
 
 
 
 > [!IMPORTANT]
-> 仅当主、镜像和见证（如果需要）服务器都属于同一个域时，才支持使用拓扑生成器或 cmdlet 来设置和删除 SQL 镜像。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。
+> 仅当主、镜像和见证 (（如果) 需要）中的主服务器、镜像服务器和见证服务器都属于同一个域时，才支持使用拓扑生成器或 cmdlet 来设置和删除 SQL 镜像。 如果您需要在不同域中的服务器之间设置 SQL 镜像，请参阅 SQL Server 文档。
 
 
 
 
 
 > [!IMPORTANT]
-> 只要更改后端数据库镜像关系，就必须重新启动池中的所有前端服务器。<BR>对于镜像更改（如更改镜像的位置），必须使用拓扑生成器执行以下三个步骤： 
+> 只要更改后端数据库镜像关系，就必须重新启动池中的所有前端服务器。<BR>对于镜像的更改， (例如更改镜像) 的位置，必须使用拓扑生成器执行以下三个步骤： 
 > <OL>
 > <LI>
 > <P>从旧镜像服务器中删除镜像。</P>
@@ -86,7 +88,7 @@ _**上次修改的主题：** 2014-01-08_
 
 
 > [!NOTE]
-> 必须为要写入的镜像文件创建文件共享，并且运行 SQL Server 和 SQL 代理的服务需要读/写访问权限。 如果 SQL Server 服务在网络服务的上下文中运行，则可以将 "主体&lt;"&gt;和&lt;"&gt;镜像" sql server 的域&#92;SQLSERVERNAME $ 同时添加到共享权限中。 $ 对于确定这是计算机帐户，这一点非常重要。
+> 必须为要写入的镜像文件创建文件共享，并且运行 SQL Server 和 SQL 代理的服务需要读/写访问权限。 如果 SQL Server 服务在网络服务的上下文中运行，则可以将 &lt; &gt; &lt; &gt; "主体" 和 "镜像" sql server 的域&#92;SQLSERVERNAME $ 同时添加到共享权限中。 $ 对于确定这是计算机帐户，这一点非常重要。
 
 
 <div>
@@ -123,7 +125,7 @@ _**上次修改的主题：** 2014-01-08_
 
 ## <a name="to-add-sql-mirroring-to-an-existing-front-end-pool-in-topology-builder"></a>在拓扑生成器中向现有前端池添加 SQL 镜像
 
-1.  在拓扑生成器中，右键单击该池，然后单击 "**编辑属性**"。
+1.  在拓扑生成器中，右键单击该池，然后单击 " **编辑属性**"。
 
 2.  选择“启用 SQL 存储镜像”****，然后单击“镜像 SQL 存储”**** 旁边的“新建”****。
 
@@ -151,9 +153,9 @@ _**上次修改的主题：** 2014-01-08_
 
   - 已为同一服务器上的其他应用程序分配的任何端口（包括用于其他 SQL 实例的端口）均不应用于当前安装的 SQL 实例。这意味着，如果在同一服务器上安装了多个 SQL 实例，它们不能将同一端口用于镜像。有关详细信息，请参阅以下文章：
     
-      - "MSDN Library 中的" 指定服务器网络地址（数据库镜像） "[https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
+      - "在 MSDN Library 中指定服务器网络地址 (数据库镜像) " [https://go.microsoft.com/fwlink/p/?LinkId=247346](https://go.microsoft.com/fwlink/p/?linkid=247346)
     
-      - "数据库镜像终结点（SQL Server）" 位置[https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
+      - "数据库镜像终结点 (SQL Server) " [https://go.microsoft.com/fwlink/p/?LinkId=247347](https://go.microsoft.com/fwlink/p/?linkid=247347)
 
 </div>
 
@@ -249,13 +251,13 @@ _**上次修改的主题：** 2014-01-08_
 
 2.  确认以下内容：
     
-      - 如果在主 SQL Server e04-ocs\_\\Rtc 中启用了 Windows 防火墙，则可以通过防火墙访问端口5022。
+      - 如果在主 SQL Server e04-ocs rtc 中启用了 Windows 防火墙，则可以通过防火墙访问端口5022。 \_ \\
     
-      - 如果在镜像 SQL Server K16-ocs\_\\Rtc 中启用了 Windows 防火墙，则可以通过防火墙访问端口5022。
+      - 如果在镜像 SQL Server K16-ocs rtc 中启用了 Windows 防火墙，则可以通过防火墙访问端口5022。 \_ \\
     
-      - 如果在见证 SQL Server AB14-lct 中启用了 Windows 防火墙，则可以通过防火墙访问端口7022。\_\\
+      - 如果在见证 SQL Server AB14-lct 中启用了 Windows 防火墙，则可以通过防火墙访问端口7022。 \_ \\
     
-      - 在所有主和镜像 sql server 上运行 sql server 的帐户具有对文件共享\\ \\E04 的读/写权限-\\OCS csdatabackup
+      - 在所有主和镜像 SQL server 上运行 SQL Server 的帐户具有对文件共享 E04 的读/写权限 \\ \\ -OCS \\ csdatabackup
     
       - 确认 Windows Management Instrumentation (WMI) 提供程序正在所有这些服务器上运行。该 cmdlet 使用此提供程序查找在所有主、镜像和见证服务器上运行的 SQL Server 服务的帐户信息。
     
@@ -291,7 +293,7 @@ _**上次修改的主题：** 2014-01-08_
 
     Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 
-该`-DropExistingDatabasesOnMirror`选项将导致从镜像中删除受影响的数据库。
+该 `-DropExistingDatabasesOnMirror` 选项将导致从镜像中删除受影响的数据库。
 
 然后，若要从拓扑中删除镜像，请执行以下操作：
 
@@ -319,9 +321,9 @@ _**上次修改的主题：** 2014-01-08_
     
         Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
     
-    但是，不要执行此步骤，也不要像那样键入`Uninstall-CsMirrorDatabase`卸载整个镜像配置。
+    但是，不要执行此步骤，也不要像那样键入 `Uninstall-CsMirrorDatabase` 卸载整个镜像配置。
 
-4.  若要仅从 SQL Server 配置中删除见证，请按照 "从数据库镜像会话中删除见证（SQL Server）" 中的说明进行[https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456)操作。
+4.  若要仅从 SQL Server 配置中删除见证，请按照 "从数据库镜像会话中删除见证服务器 (SQL Server) " 中的说明进行操作 [https://go.microsoft.com/fwlink/p/?LinkId=268456](https://go.microsoft.com/fwlink/p/?linkid=268456) 。
 
 </div>
 

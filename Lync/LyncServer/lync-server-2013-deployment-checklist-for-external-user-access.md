@@ -12,20 +12,22 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f2897434eb275b82ef9ab4ef78e32e99e8d0a5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 010d4437f2eb90d596ace15cc392690dba5544d6
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213908"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522769"
 ---
+# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部用户访问的部署清单
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-external-user-access-in-lync-server-2013"></a>Lync Server 2013 中的外部用户访问的部署清单
+
 
 </div>
 
@@ -37,25 +39,25 @@ ms.locfileid: "42213908"
 
 _**上次修改的主题：** 2014-02-04_
 
-在部署外围网络并实现对外部用户的支持之前，必须已部署 Microsoft Lync Server 2013 内部服务器，包括前端池或 Standard Edition 服务器。 如果计划在内部网络中部署可选控制器，还应在部署边缘服务器之前部署它们。 有关控制器部署过程的详细信息，请参阅规划文档中的[Lync Server 2013 中的 Director 应用场景](lync-server-2013-scenarios-for-the-director.md)。
+在部署外围网络并实现对外部用户的支持之前，必须已部署 Microsoft Lync Server 2013 内部服务器，包括前端池或 Standard Edition 服务器。 如果计划在内部网络中部署可选控制器，还应在部署边缘服务器之前部署它们。 有关控制器部署过程的详细信息，请参阅规划文档中的 [Lync Server 2013 中的 Director 应用场景](lync-server-2013-scenarios-for-the-director.md) 。
 
 Microsoft Lync Server 2013 包括便于规划和部署内部服务器和边缘服务器的工具。 在完成拓扑后，可将生成的拓扑定义发布到您的生产环境。 为此，您必须具有 **Domain Admins** 组和 **RTCUniversalServerAdmins** 组的成员身份。
 
-  - **规划工具**   Office 通信服务器 2007 R2 包含一个规划工具和一个边缘规划工具，可用于帮助引导拓扑设计。 在 Lync Server 2010 中，这两个工具组合在一起，后者具有其他特性和功能，例如，收集计划的用户计数、语音要求、外部用户访问类型和联合身份验证选项。 另外，您还可以规划基础结构的网络参数，例如 IP 地址、负载平衡器类型和其他外围网络注意事项。
+  - **规划工具**    Office 通信服务器 2007 R2 包含一个规划工具和一个边缘规划工具，可用于帮助引导拓扑设计。 在 Lync Server 2010 中，这两个工具组合在一起，后者具有其他特性和功能，例如，收集计划的用户计数、语音要求、外部用户访问类型和联合身份验证选项。 另外，您还可以规划基础结构的网络参数，例如 IP 地址、负载平衡器类型和其他外围网络注意事项。
 
-  - **拓扑生成器**   Lync Server 2013 拓扑生成器可帮助你定义拓扑和组件。 拓扑生成器是部署运行 Lync Server 2013 的服务器所必需的。 拓扑生成器将结果发布到一个中央管理存储区，该存储用于配置组织中运行 Lync Server 2013 的所有服务器。 在不使用拓扑生成器的情况下无法在服务器上安装 Lync Server 2013。
+  - **拓扑生成器**    Lync Server 2013 拓扑生成器可帮助您定义拓扑和组件。 拓扑生成器是部署运行 Lync Server 2013 的服务器所必需的。 拓扑生成器将结果发布到一个中央管理存储区，该存储用于配置组织中运行 Lync Server 2013 的所有服务器。 在不使用拓扑生成器的情况下无法在服务器上安装 Lync Server 2013。
 
-如果您在规划过程中设计了边缘拓扑，包括运行拓扑生成器以定义边缘拓扑，则可以使用这些结果来启动边缘服务器部署。 如果您之前未完成建立边缘拓扑或要更改以前指定的信息，则必须先完成运行拓扑生成器，然后再继续执行其他部署步骤。 有关如何构建拓扑的详细信息，请参阅[Lync Server 2013 中的外部用户访问应用场景](lync-server-2013-scenarios-for-external-user-access.md)。
+如果您在规划过程中设计了边缘拓扑，包括运行拓扑生成器以定义边缘拓扑，则可以使用这些结果来启动边缘服务器部署。 如果您之前未完成建立边缘拓扑或要更改以前指定的信息，则必须先完成运行拓扑生成器，然后再继续执行其他部署步骤。 有关如何构建拓扑的详细信息，请参阅 [Lync Server 2013 中的外部用户访问应用场景](lync-server-2013-scenarios-for-external-user-access.md)。
 
-有关规划工具和拓扑生成器的详细信息，请参阅规划文档中的[开始规划 Lync Server 2013 的规划过程](lync-server-2013-beginning-the-planning-process.md)。
+有关规划工具和拓扑生成器的详细信息，请参阅规划文档中的 [开始规划 Lync Server 2013 的规划过程](lync-server-2013-beginning-the-planning-process.md) 。
 
-下表概述了边缘服务器部署过程。 若要查看在部署外部用户访问之前必须做出的规划决策，请参阅[Lync Server 2013 中的外部用户访问应用场景](lync-server-2013-scenarios-for-external-user-access.md)。
+下表概述了边缘服务器部署过程。 若要查看在部署外部用户访问之前必须做出的规划决策，请参阅 [Lync Server 2013 中的外部用户访问应用场景](lync-server-2013-scenarios-for-external-user-access.md)。
 
 <div>
 
 
 > [!WARNING]  
-> 下表中的信息主要涉及新的部署。 如果已在 Lync Server 2010、Office 通信服务器 2007 R2 或 Office 通信服务器2007环境中部署了边缘服务器，请参阅<A href="migration.md">迁移</A>以了解有关迁移到 Lync Server 2013 的详细信息。 Office 通信服务器 2007 R2 之前的任何版本都不支持迁移，包括 Office 通信服务器2007、Live 通信服务器2005和 Live 通信服务器2003。
+> 下表中的信息主要涉及新的部署。 如果已在 Lync Server 2010、Office 通信服务器 2007 R2 或 Office 通信服务器2007环境中部署了边缘服务器，请参阅 <A href="migration.md">迁移</A> 以了解有关迁移到 Lync Server 2013 的详细信息。 Office 通信服务器 2007 R2 之前的任何版本都不支持迁移，包括 Office 通信服务器2007、Live 通信服务器2005和 Live 通信服务器2003。
 
 
 
@@ -85,7 +87,7 @@ Microsoft Lync Server 2013 包括便于规划和部署内部服务器和边缘�
 <tr class="header">
 <th>阶段</th>
 <th>步骤</th>
-<th>Permissions</th>
+<th>权限</th>
 <th>文档</th>
 </tr>
 </thead>
@@ -95,7 +97,7 @@ Microsoft Lync Server 2013 包括便于规划和部署内部服务器和边缘�
 <td><ul>
 <li><p>运行拓扑生成器以配置边缘服务器设置，并创建和发布拓扑，然后使用 Lync Server 命令行管理程序导出拓扑配置文件。</p></li>
 </ul></td>
-<td><p><strong>Domain Admins</strong>组和<strong>RTCUniversalServerAdmins</strong>或<strong>CsAdmins</strong>组</p>
+<td><p><strong>Domain Admins</strong> 组和 <strong>RTCUniversalServerAdmins</strong> 或 <strong>CsAdmins</strong> 组</p>
 <div>
 
 > [!NOTE]  
@@ -118,7 +120,7 @@ Microsoft Lync Server 2013 包括便于规划和部署内部服务器和边缘�
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证（"PIC USL"）不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅<A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
+> <P>从2012年9月1日起，Microsoft Lync 公共 IM 连接用户订阅许可证 ( "PIC USL" ) 不再可用于购买新的或更新的协议。 拥有主动许可证的客户将能够继续与 Yahoo！联合联合 信使，直到服务关闭日期。 AOL 和 Yahoo！的生命周期结束日期为2014年6月 已宣布。 有关详细信息，请参阅 <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Lync Server 2013 中的支持公用即时信使连接</A>。</P>
 > <LI>
 > <P>PIC USL 是 Lync Server 或 Office 通信服务器与 Yahoo！联合所需的每个用户每月订阅许可证。 Messenger. Microsoft 提供此服务的能力因 Yahoo！中的支持而受到了支持，其下凸的底层协议。</P>
 > <LI>
@@ -135,7 +137,7 @@ Microsoft Lync Server 2013 包括便于规划和部署内部服务器和边缘�
 <tr class="odd">
 <td><p>安装反向代理。</p></td>
 <td><ul>
-<li><p>在外围网络中设置反向代理（例如，对于 Microsoft Forefront 威胁管理网关2010或 Microsoft Internet Security and 加速（ISA） Server，使用 Service Pack 1），获取必要的公共证书，并配置反向代理服务器上的 web 发布规则。</p>
+<li><p>设置反向代理 (例如，对于 Microsoft Forefront 威胁管理网关2010或 Microsoft Internet 安全性和加速 (ISA) Server Service Pack 1) 在外围网络中，获取必要的公共证书，并在反向代理服务器上配置 web 发布规则。</p>
 <p>如果您制定了移动计划并且要在前端池或 Standard Edition Server 上部署移动服务，请准备反向代理以提供移动服务。</p></li>
 </ul></td>
 <td><p><strong>Administrators</strong> 组或反向代理管理员</p></td>
@@ -165,7 +167,7 @@ Microsoft Lync Server 2013 包括便于规划和部署内部服务器和边缘�
 <tr class="even">
 <td><p>配置外部用户访问部署。</p></td>
 <td><ol>
-<li><p>使用 Lync Server 控制面板配置对以下各项（如果适用）的支持：</p>
+<li><p>根据适用的) ，使用 Lync Server 控制面板配置对以下每个 (的支持：</p>
 <ul>
 <li><p>媒体中继</p></li>
 <li><p>联盟路由</p></li>
@@ -185,7 +187,7 @@ Microsoft Lync Server 2013 包括便于规划和部署内部服务器和边缘�
 <td><ol>
 <li><p>验证服务器连接和从内部服务器复制的配置数据。</p></li>
 <li><p>根据您的部署，验证外部用户（包括远程用户、联盟域中的用户、公共 IM 用户和匿名用户）能否进行连接。</p></li>
-<li><p>使用 Lync Server 远程连接分析器验证配置和通信<a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
+<li><p>使用 Lync Server 远程连接分析器验证配置和通信 <a href="https://www.testocsconnectivity.com" class="uri">https://www.testocsconnectivity.com</a></p></li>
 <li><p>解决配置和通信难题</p></li>
 </ol></td>
 <td><p>对于复制验证，<strong>RTCUniversalServerAdmins</strong> 组或分配给 <strong>CSAdministrator</strong> 角色的用户帐户</p>

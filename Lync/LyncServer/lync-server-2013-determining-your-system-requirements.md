@@ -12,20 +12,22 @@ ms:contentKeyID: 48184286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47121b3eb6565e85a542d032e54a1d5c744d93c9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1d98235a00388b0a699f657714dbbc7fde2c182
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198035"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522529"
 ---
+# <a name="determining-your-system-requirements-for-lync-server-2013"></a>确定 Lync Server 2013 的系统要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-system-requirements-for-lync-server-2013"></a>确定 Lync Server 2013 的系统要求
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2014-01-02_
 
 
 > [!NOTE]  
-> 有关 Active Directory 支持、支持的拓扑、服务器并置和其他可支持性问题的详细信息，请参阅<A href="lync-server-2013-supportability.md">Lync server 2013 的可支持</A>性。
+> 有关 Active Directory 支持、支持的拓扑、服务器并置和其他可支持性问题的详细信息，请参阅 <A href="lync-server-2013-supportability.md">Lync server 2013 的可支持</A>性。
 
 
 

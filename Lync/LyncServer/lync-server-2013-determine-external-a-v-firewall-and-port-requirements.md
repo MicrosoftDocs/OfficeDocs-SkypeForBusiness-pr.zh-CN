@@ -12,20 +12,22 @@ ms:contentKeyID: 48183872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f28e1f18a0d2f2d51e835332d6abc8c67905d647
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c7b117f68719230151fd19050dbb080f6acde14
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198095"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522579"
 ---
+# <a name="determine-external-av-firewall-and-port-requirements-for-lync-server-2013"></a>确定 Lync Server 2013 的外部 A/V 防火墙和端口要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="determine-external-av-firewall-and-port-requirements-for-lync-server-2013"></a>确定 Lync Server 2013 的外部 A/V 防火墙和端口要求
+
 
 </div>
 
@@ -37,9 +39,9 @@ ms.locfileid: "42198095"
 
 _**上次修改的主题：** 2012-10-29_
 
-音频/视频（A/V）通信可能是一种复杂的。 由于在 A/V 中使用的协议的性质以及客户端和服务器使用这些协议的方式，因此有一个特殊的部分来说明客户端和服务器版本之间的差异。
+音频/视频 (A/V) 通信可能是一种复杂的。 由于在 A/V 中使用的协议的性质以及客户端和服务器使用这些协议的方式，因此有一个特殊的部分来说明客户端和服务器版本之间的差异。
 
-使用下面的 A/V 防火墙和端口表来确定防火墙要求以及要打开的端口。 然后，检查网络地址转换 (NAT) 术语，因为可以通过多种不同方式实现 NAT。 有关防火墙端口设置的详细示例，请参阅[Lync Server 2013 中的外部用户访问方案](lync-server-2013-scenarios-for-external-user-access.md)中的参考体系结构。
+使用下面的 A/V 防火墙和端口表来确定防火墙要求以及要打开的端口。 然后，检查网络地址转换 (NAT) 术语，因为可以通过多种不同方式实现 NAT。 有关防火墙端口设置的详细示例，请参阅 [Lync Server 2013 中的外部用户访问方案](lync-server-2013-scenarios-for-external-user-access.md)中的参考体系结构。
 
 ### <a name="general-protocol-usage-for-udp-and-tcp-in-audiovideo-and-media-traffic"></a>音频/视频和媒体流量中的 UDP 和 TCP 的常规协议用法
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2012-10-29_
 
 ## <a name="external-av-firewall-port-requirements-for-external-user-access"></a>外部用户访问的外部 A/V 防火墙端口要求
 
-外部（和内部） SIP 和会议接口的防火墙端口要求是一致的，而不考虑客户端的版本或联合合作伙伴的版本。
+外部 (和内部) SIP 和会议接口的防火墙端口要求是一致的，无论客户端的版本或联合合作伙伴的版本如何。
 
 而音频/视频边缘外部接口却并非如此。 对于使用 Office 通信服务器2007的联盟，A/V 边缘服务要求外部防火墙规则允许在50000至59999端口范围内的 RTP/TCP 和 RTP/UDP 通信在两个方向流动。 上表假定 Lync Server 2013 是主联合身份验证伙伴，并且将其配置为与列出的其他联合合作伙伴类型之一进行通信。
 
@@ -98,21 +100,21 @@ _**上次修改的主题：** 2012-10-29_
 <tbody>
 <tr class="odd">
 <td><p>A/V 边缘服务接口</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V 边缘服务接口</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
 <tr class="odd">
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>A/V 边缘服务接口</p></td>
 <td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>A/V 边缘服务接口</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
@@ -141,26 +143,26 @@ _**上次修改的主题：** 2012-10-29_
 <tbody>
 <tr class="odd">
 <td><p>A/V 边缘服务接口</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>TCP 50000-59999</p></td>
 <td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V 边缘服务接口</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>UDP 3478</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
 <tr class="odd">
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>A/V 边缘服务接口</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>A/V 边缘服务接口</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
 </tbody>
@@ -185,7 +187,7 @@ _**上次修改的主题：** 2012-10-29_
 
 如果您选择为边缘服务配置不可路由的专用 IP 地址，则以下 NAT 要求适用：
 
-  - NAT 仅可用于 DNS 负载平衡。 NAT 在硬件负载平衡（HLB）边缘拓扑中不受支持。
+  - NAT 仅可用于 DNS 负载平衡。 NAT 在硬件负载平衡 (HLB) 边缘拓扑中不受支持。
 
   - NAT 只能在外部边缘接口上使用。 内部边缘接口上不支持 NAT。
 
@@ -193,11 +195,11 @@ _**上次修改的主题：** 2012-10-29_
     
   - 对于来自 Internet 的流量，NAT 必须将目标 IP 地址从 A/V 边缘服务的已启用 NAT 的公共 IP 地址更改为其外部 IP 地址。 源 IP 地址必须保持不变，以便 A/V 边缘服务可以找到最佳媒体路径。
   
-  例如，在下图中的入站方向上，公用 IP 地址131.107.155.30 已更改为外部（专用） IP 地址10.45.16.10。 源 IP 地址保持不变。
+  例如，在下图中的入站方向上，公用 IP 地址131.107.155.30 已更改为外部 (private) IP address 10.45.16.10。 源 IP 地址保持不变。
   
   - 对于从 A/V 边缘服务到 Internet 的流量，NAT 必须将源 IP 地址从 A/V 边缘服务的外部 IP 地址更改为启用了 NAT 的公共 IP 地址。
 
-例如，在下图中的出站方向上，外部（专用） IP 地址10.45.16.10 已更改为公用 IP 地址131.107.155.30。
+例如，在下图中的出站方向上，外部 (私有) IP 地址10.45.16.10 已更改为公用 IP 地址131.107.155.30。
 
 **下图显示了 NAT 如何更改入站流量的目标 IP 地址和出站流量的源 IP 地址。**
 
@@ -207,7 +209,7 @@ _**上次修改的主题：** 2012-10-29_
 
   - 入站到运行 A/V 边缘服务的服务器的通信，源 IP 地址不会发生更改，但目标 IP 地址将从131.107.155.30 更改为10.45.16.10 的转换 IP 地址。
 
-  - 从运行 A/V 边缘服务的服务器出站的流量返回到工作站，源 IP 地址将从服务器的公共 IP 地址更改为运行 A/V 边缘服务的服务器的公共 IP 地址。 目标 IP 仍为工作站的公共 IP 地址。 在数据包离开第一个 NAT 设备出站后，NAT 设备上的规则会将运行 A/V 边缘服务的服务器的源 IP 地址更改为其公共 IP 地址（131.107.155.30）的服务器的 IP 地址（10.45.16.10）。
+  - 从运行 A/V 边缘服务的服务器出站的流量返回到工作站，源 IP 地址将从服务器的公共 IP 地址更改为运行 A/V 边缘服务的服务器的公共 IP 地址。 目标 IP 仍为工作站的公共 IP 地址。 在数据包离开第一个 NAT 设备出站后，NAT 设备上的规则会将运行 A/V 边缘服务的服务器的源 IP 地址更改为运行 A/V 边缘服务的外部接口 IP 地址 (10.45.16.10) 到其公共 IP 地址 (131.107.155.30) 。
 
 </div>
 

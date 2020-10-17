@@ -12,20 +12,22 @@ ms:contentKeyID: 48183893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35be17aa08cf26f93a9d4002b23dacdfb35c5143
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 655d72b2362c6b31d6fc15fd3af0ec14716b13c4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523359"
 ---
+# <a name="install-wmi-backward-compatibility-package"></a>安装 WMI 向后兼容包
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="install-wmi-backward-compatibility-package"></a>安装 WMI 向后兼容包
+
 
 </div>
 
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2012-10-02_
     
 
     > [!IMPORTANT]  
-    > 可以在安装了 Lync Server 2013 Core 组件和 Lync Server 2013 命令行管理程序的域中的任何计算机上安装 OCSWMIBC.msi，并且可以访问 Office 通信服务器 2007 R2 拓扑（WMI 提供程序到 Active Directory 域服务（AD DS）和 SQL Server）。
+    > 可以在安装了 Lync Server 2013 Core 组件和 Lync Server 2013 命令行管理程序的域中的任何计算机上安装 OCSWMIBC.msi，并能够访问 Active Directory 域服务 (AD DS) 和 SQL Server) 中的 Office 通信服务器 2007 R2 拓扑 (WMI 提供程序。
 
     
     </div>

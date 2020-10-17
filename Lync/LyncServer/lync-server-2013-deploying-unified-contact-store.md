@@ -12,20 +12,22 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5637d4e0648de2273bad2a808c8557d562b15665
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a94d19026d2df00caf8079914d8b93bd70a87f6d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188175"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522849"
 ---
+# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>在 Lync Server 2013 中部署统一联系人存储
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>在 Lync Server 2013 中部署统一联系人存储
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2016-06-06_
 
 
 > [!IMPORTANT]  
-> 如果用户在迁移后从 Lync 2010 登录，则 "联系人" 和 "组" 可用且处于最新状态，但用户无法管理（即，添加、删除、移动、标记、untag 或修改）这些联系人。
+> 如果用户在迁移后从 Lync 2010 登录，则 "联系人" 和 "组" 可用且处于最新状态，但用户无法管理 (，即添加、删除、移动、标记、untag 或修改) 这些联系人。
 
 
 

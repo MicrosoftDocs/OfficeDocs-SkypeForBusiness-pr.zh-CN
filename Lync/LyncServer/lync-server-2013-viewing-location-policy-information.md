@@ -12,20 +12,22 @@ ms:contentKeyID: 48183489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ebd92944d02cf899ad6da60a586cd5ec24e9aa8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0b5c4b512acc3541b933f583ad69e3f730dc14f9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211218"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523509"
 ---
+# <a name="viewing-location-policy-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看位置策略信息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-location-policy-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看位置策略信息
+
 
 </div>
 
@@ -37,17 +39,17 @@ ms.locfileid: "42211218"
 
 _**上次修改的主题：** 2012-11-01_
 
-在 Lync Server 2013 中，可以使用位置策略将与增强的9-1-1 （E9-1）功能相关的设置应用于用户或联系人的位置设置。 位置策略可确定用户是否启用了 E9-1-1，以及在启用了该服务时紧急呼叫的行为。 例如，您可以使用位置策略定义哪些数字构成紧急呼叫（例如，美国的 911）、是否应自动通知企业安全人员以及应如何路由该呼叫。
+在 Lync Server 2013 中，可以使用位置策略应用与增强的 9-1-1 (E9-1-1) 功能以及用户或联系人的位置设置相关的设置。 位置策略可确定用户是否启用了 E9-1-1，以及在启用了该服务时紧急呼叫的行为。 例如，您可以使用位置策略定义哪些数字构成紧急呼叫（例如，美国的 911）、是否应自动通知企业安全人员以及应如何路由该呼叫。
 
-您可以在 Lync Server 2013 控制面板中的 "**网络配置**" 组中配置位置策略。 从 Lync Server 控制面板中，您可以查看、创建、修改或删除位置策略。 可使用以下过程查看位置策略的信息。 有关创建或修改位置策略的详细信息，请参阅[在 Lync Server 2013 中创建或修改位置策略](lync-server-2013-creating-or-modifying-a-location-policy.md)。
+您可以在 Lync Server 2013 控制面板中的 " **网络配置** " 组中配置位置策略。 从 Lync Server 控制面板中，您可以查看、创建、修改或删除位置策略。 可使用以下过程查看位置策略的信息。 有关创建或修改位置策略的详细信息，请参阅 [在 Lync Server 2013 中创建或修改位置策略](lync-server-2013-creating-or-modifying-a-location-policy.md)。
 
 <div>
 
 ## <a name="to-view-information-about-a-location-policy"></a>查看位置策略的信息
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“网络配置”****，然后单击“位置策略”****。
 

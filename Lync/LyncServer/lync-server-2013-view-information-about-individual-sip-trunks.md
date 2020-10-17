@@ -12,20 +12,22 @@ ms:contentKeyID: 49733780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9663c6e762143eca572c0343ce21e91ad86b0b6d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d01a56ca0365c041ae9469dee2d328f81acd3e65
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211408"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523579"
 ---
+# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>在 Lync Server 2013 中查看有关各个 SIP 中继的信息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-information-about-individual-sip-trunks-in-lync-server-2013"></a>在 Lync Server 2013 中查看有关各个 SIP 中继的信息
+
 
 </div>
 
@@ -39,9 +41,9 @@ _**上次修改的主题：** 2013-02-21_
 
 SIP 中继用于通过公共交换电话网络连接 Lync Server 2013 Voice over IP phone 网络。 在产品的以前版本中，中继用于将出站呼叫从中介服务器路由到 PSTN 网关，并且每个网关限制为单个中继。 因此，PSTN 网关和 SIP 中继本质上是相同的。 对于管理员而言，这意味着他们只需查看有关相关 PSTN 网关的信息即可查看有关单个 SIP 中继的信息。
 
-但是，在 Lync Server 2013 中，现在可以将多个中继分配给单个 PSTN 网关;这意味着网关和中继不再是同一个。 反过来，这意味着管理员必须使用新的[CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) cmdlet 才能查看有关单个 SIP 中继的信息。
+但是，在 Lync Server 2013 中，现在可以将多个中继分配给单个 PSTN 网关;这意味着网关和中继不再是同一个。 反过来，这意味着管理员必须使用新的 [CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk) cmdlet 才能查看有关单个 SIP 中继的信息。
 
-CsTrunk cmdlet 可以从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+Get-CsTrunk cmdlet 可从 Lync Server 2013 命令行管理程序或 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a8bc7072cb1faa197f733d01eb545a964ed6612
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 52920c81e2055b5151280bbd65e9b2b6a90c0b73
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205798"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522799"
 ---
+# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 中的 E9-1-1 的部署清单
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-e9-1-1-in-lync-server-2013"></a>Lync Server 2013 中的 E9-1-1 的部署清单
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-10-03_
 
 ## <a name="deployment-process"></a>部署过程
 
-下表概述了 E9-1-1 部署过程。 有关部署步骤的详细信息，请参阅部署文档中的在[Lync Server 2013 中配置增强型 9-1-1](lync-server-2013-configure-enhanced-9-1-1.md) 。
+下表概述了 E9-1-1 部署过程。 有关部署步骤的详细信息，请参阅部署文档中的在 [Lync Server 2013 中配置增强型 9-1-1](lync-server-2013-configure-enhanced-9-1-1.md) 。
 
 
 <table>
@@ -104,7 +106,7 @@ _**上次修改的主题：** 2012-10-03_
 <td><p>配置位置数据库</p></td>
 <td><ol>
 <li><p>使用网络元素到位置的映射填充数据库。</p></li>
-<li><p>对于 ELIN 网关，将 Elin 添加到&lt;"&gt;公司名称" 列。</p></li>
+<li><p>对于 ELIN 网关，将 Elin 添加到 " &lt; 公司名称" &gt; 列。</p></li>
 <li><p>配置与 E9-1-1 服务提供商的连接以验证地址。</p></li>
 <li><p>验证 E9-1-1 服务提供商的地址。</p></li>
 <li><p>发布更新的数据库。</p></li>

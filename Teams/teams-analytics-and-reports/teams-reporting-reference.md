@@ -7,7 +7,9 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: svemu
-f1.keywords: ms.teamsadmincenter.analyticsandreports.overview
+f1.keywords:
+- NOCSH
+- ms.teamsadmincenter.analyticsandreports.overview
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +18,12 @@ description: 在本文中，你将了解 Microsoft 团队管理中心提供的�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 027be1837f7a3761a7e1bf97489c49d900173663
-ms.sourcegitcommit: d7e0406276def8bc731aa6dcbd49802441ec5138
+ms.openlocfilehash: 460037da3be0c2aaf1e546b97e0e5e911f6102a2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "48476697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515909"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析和报告
 

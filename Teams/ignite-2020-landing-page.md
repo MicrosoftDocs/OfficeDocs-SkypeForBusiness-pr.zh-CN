@@ -4,13 +4,16 @@ description: 查找企业中心的所有可用学习。
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
+ms.service: msteams
 ms.author: v-cichur
-ms.openlocfilehash: 61a6c6e1745e4ce49884d23acdf84f5073170297
-ms.sourcegitcommit: 032a22c8b61456dcbd798ec390f0ae1ca7d8eda0
+audience: admin
+manager: serdars
+ms.openlocfilehash: 2c816e71675f2b7082164271322c47c1708d20e3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "48357600"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514939"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 上的团队会话
 
@@ -85,7 +88,7 @@ ms.locfileid: "48357600"
 |[为具有低代码功能的 Microsoft 团队构建自定义应用、机器人和自动化](https://aka.ms/PR134)|了解如何开始为团队构建自定义解决方案。  我们将深入了解团队 + Power Platform 集成，以演示用户如何创建自定义数字工具，即使他们没有开发人员体验|300|Pete Daderko, Geneve Estrada|
 |[使用团队和自适应卡提升用户体验](https://aka.ms/PR135)|使用自适应卡的团队平台支持在团队中构建完美集成且可操作的用户体验。 在此会话中，我们将介绍开发人员如何利用新功能来构建上下文和合规性体验，从而提升团队协作。|300|Suryamanohar Mallela, Shubham Chauhan|
 |[提示和技巧：构建 Microsoft 团队应用时的最佳做法和常见挑战](https://aka.ms/PR136) |加入我们讨论一个会话，其中讨论开发人员在构建团队应用时遇到的一些常见挑战。 开发人员将在此会话期间留下相关提示和见解，他们可以在继续团队应用开发旅行时使用它们。|400|Adrian Solis, Erin Bailie|
-|[构建摩擦-免费应用 & 使用授权和身份验证功能和 Microsoft Graph 实现无缝采纳](https://aka.ms/PR137)|使用功能强大的功能开发应用，如单一登录 (SSO) 、特定于资源的同意 (RSC) 、粒度权限，以及 IT 管理员可以在何处了解如何利用图形 Api 来自动化应用生命周期/管理。|400|Nick Kramer|
+|[构建摩擦-免费应用 & 使用授权和身份验证功能和 Microsoft Graph 实现无缝采纳](https://aka.ms/PR137)|使用功能强大的功能（如单个 Sign-On (SSO) ）开发应用，Resource-Specific (RSC) 、粒度权限，以及 IT 管理员可以在何处了解如何利用图形 Api 来自动化应用生命周期/管理。|400|Nick Kramer|
 ||||||
 
 ### <a name="industry"></a>产业

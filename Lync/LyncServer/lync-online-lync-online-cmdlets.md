@@ -12,20 +12,22 @@ ms:contentKeyID: 51803930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5352f2c211f16fa446052884ad161c5506b523b8
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: bbed95a4364fd6a5218237c64107dcfd804da3da
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756753"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523339"
 ---
+# <a name="lync-online-cmdlets"></a>Lync Online cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-online-cmdlets"></a>Lync Online cmdlet
+
 
 </div>
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2014-02-07_
 
   - [更新-CsTenantMeetingUrl](https://technet.microsoft.com/library/Dn424754(v=OCS.15))
 
-有关如何将您的计算机配置为使用 Windows PowerShell 管理 Lync Online 的信息，请参阅[使用 Windows Powershell 管理 Lync online](https://technet.microsoft.com/library/Dn362831(v=OCS.15))中的帮助主题。
+有关如何将您的计算机配置为使用 Windows PowerShell 管理 Lync Online 的信息，请参阅 [使用 Windows Powershell 管理 Lync online](https://technet.microsoft.com/library/Dn362831(v=OCS.15))中的帮助主题。
 
 </div>
 

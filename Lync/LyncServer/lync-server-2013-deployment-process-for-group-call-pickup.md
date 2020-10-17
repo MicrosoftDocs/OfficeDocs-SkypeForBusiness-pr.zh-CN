@@ -12,20 +12,22 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ed92300ae3445019b7b6fc0bba4d73b91c980e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 52f7646010e4048d135e11c98d06a651f923d633
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522609"
 ---
+# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中组呼叫应答的部署过程
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Lync Server 2013 中组呼叫应答的部署过程
+
 
 </div>
 
@@ -60,9 +62,9 @@ _**上次修改的主题：** 2013-02-25_
 <tr class="odd">
 <td><p>在拓扑中启用 SEFAUtil 资源工具包工具</p></td>
 <td><ol>
-<li><p>使用<strong>CsTrustedApplicationPool</strong> cmdlet 可以创建新的受信任应用程序池。</p></li>
-<li><p>使用<strong>CsTrustedApplication</strong> cmdlet 可将 SEFAUtil 工具指定为受信任的应用程序。</p></li>
-<li><p>运行<strong>enable-cstopology</strong> cmdlet 以启用拓扑。</p></li>
+<li><p>使用 <strong>CsTrustedApplicationPool</strong> cmdlet 可以创建新的受信任应用程序池。</p></li>
+<li><p>使用 <strong>CsTrustedApplication</strong> cmdlet 可将 SEFAUtil 工具指定为受信任的应用程序。</p></li>
+<li><p>运行 <strong>enable-cstopology</strong> cmdlet 以启用拓扑。</p></li>
 <li><p>在第1步中创建的受信任应用程序池中的前端服务器上安装资源工具包工具。</p></li>
 <li><p>运行此程序以验证 SEFAUtil 是否正常运行，以在部署中显示用户的呼叫转接设置。</p></li>
 </ol></td>
@@ -71,7 +73,7 @@ _**上次修改的主题：** 2013-02-25_
 </tr>
 <tr class="even">
 <td><p>在呼叫寄存通道表中配置呼叫装货号码范围</p></td>
-<td><p>使用<strong>CSCallParkOrbit</strong> cmdlet 可以在呼叫寄存通道表中创建呼叫应答号码范围，并将呼叫装货范围分配给 GroupPickup 类型。</p>
+<td><p>使用 <strong>CSCallParkOrbit</strong> cmdlet 可以在呼叫寄存通道表中创建呼叫应答号码范围，并将呼叫装货范围分配给 GroupPickup 类型。</p>
 <div>
 
 > [!NOTE]  
@@ -82,7 +84,7 @@ _**上次修改的主题：** 2013-02-25_
 <div>
 
 > [!NOTE]  
-> 对于与现有拨号计划的无缝集成，号码范围通常配置为虚拟扩展块。 不支持将直接向内拨号（已为）号码分配给呼叫寄存通道表中的区域号码。
+> 对于与现有拨号计划的无缝集成，号码范围通常配置为虚拟扩展块。 将直接向内拨号 (分配为呼叫寄存通道表中的区域号码不支持) 号码。
 
 
 </div></td>
@@ -108,7 +110,7 @@ _**上次修改的主题：** 2013-02-25_
 <td><p>验证你的组呼叫装货部署</p></td>
 <td><p>测试发出和检索呼叫以确保配置按预期方式工作。</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">Optional在 Lync Server 2013 中验证组内的 "呼叫装货" 部署</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md"> (可选) 在 Lync Server 2013 中验证组内呼叫应答部署</a></p></td>
 </tr>
 </tbody>
 </table>

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下介绍音频会议的开放预览功能。
-ms.openlocfilehash: 18bd33281379efe7dd2e64019e20a66a2dbec920
-ms.sourcegitcommit: c48a5aca37220ac6a797ac88b09cf80090b1b7df
+ms.openlocfilehash: b73461d8aeb42bb7b8edc8d5186b482d6fc2ef31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "48444208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48503469"
 ---
 # <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>为音频会议打开网络会议预览
 
@@ -63,7 +63,7 @@ ms.locfileid: "48444208"
 
 从组织中的会议开始拨出呼叫的团队将从您的组织内的某个会议开始，包括呼叫我的呼叫和呼叫，并将新参与者加入会议。 
 
-若要通过直接路由启用团队会议拨出路由，你需要创建并分配一个名为 "OnlineAudioConferencingRoutingPolicy" 的音频会议路由策略。 
+若要通过直接路由到网络用户来启用团队会议拨出路由，您需要创建并分配一个名为 "OnlineAudioConferencingRoutingPolicy" 的音频会议路由策略。 
 
 OnlineAudioConferencingRoutingPolicy 策略等效于 CsOnlineVoiceRoutingPolicy 通过直接路由进行的 1:1 PSTN 呼叫。 可以使用以下 cmdlet 管理 OnlineAudioConferencingRoutingPolicy 策略：
 

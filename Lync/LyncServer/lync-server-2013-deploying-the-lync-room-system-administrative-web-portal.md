@@ -12,20 +12,22 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b95e9b1ba6543add17ec27fec9e5f787ec7acd29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a7a7f3589f809fa9dfcbfa872653fb4cb8161ea8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205378"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522909"
 ---
+# <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Lync 会议室系统管理 Web 门户
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>在 Lync Server 2013 中部署 Lync 会议室系统管理 Web 门户
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205378"
 
 _**上次修改的主题：** 2015-05-04_
 
-Microsoft Lync Server 2013 Lync 会议室系统（LRS）管理 Web 门户是一个 Web 门户，组织可以使用它来维护其 Lync 会议室系统会议室。 管理员可以使用 LRS 管理 Web 门户来监视 LRS 运行状况，例如，通过监视连接的音频/视频设备。 通过此门户，管理员可以远程收集诊断信息，以监视会议室运行状况。
+Microsoft Lync Server 2013 Lync 会议室系统 (LRS) 管理 Web 门户是一个 Web 门户，组织可以使用它来维护其 Lync 会议室系统会议室。 管理员可以使用 LRS 管理 Web 门户来监视 LRS 运行状况，例如，通过监视连接的音频/视频设备。 通过此门户，管理员可以远程收集诊断信息，以监视会议室运行状况。
 
 在每个 Lync 前端服务器上部署 LRS 管理 Web 门户。 本指南为管理员提供了有关如何安装和配置 LRS 管理 Web 门户的说明。 它适用于熟悉 Lync Server 管理的管理员，以及拥有修改 Lync Server 拓扑的管理员用户权限的人员。
 
@@ -47,7 +49,7 @@ Microsoft Lync Server 2013 Lync 会议室系统（LRS）管理 Web 门户是一�
 
 
 > [!IMPORTANT]  
-> 在 Microsoft Lync Server 2013 部署中安装 LRS 管理 Web 门户时，应使用<A href="https://go.microsoft.com/fwlink/p/?linkid=544806">适用于 Lync server 2013 的 Microsoft Lync 会议室系统管理 Web 门户</A>。<BR>新版本的 LRS 管理 Web 门户适用于 Skype for business Server 2015，但您不应安装该版本，除非您已部署 Skype for Business Server 2015。 下载<A href="https://go.microsoft.com/fwlink/?linkid=544807">适用于 Skype for Business Server 2015 的 Microsoft Lync 会议室系统管理 Web 门户</A>。
+> 在 Microsoft Lync Server 2013 部署中安装 LRS 管理 Web 门户时，应使用 <A href="https://go.microsoft.com/fwlink/p/?linkid=544806">适用于 Lync server 2013 的 Microsoft Lync 会议室系统管理 Web 门户</A>。<BR>新版本的 LRS 管理 Web 门户适用于 Skype for business Server 2015，但您不应安装该版本，除非您已部署 Skype for Business Server 2015。 下载 <A href="https://go.microsoft.com/fwlink/?linkid=544807">适用于 Skype for Business Server 2015 的 Microsoft Lync 会议室系统管理 Web 门户</A>。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc219e06e0d9bb6f7d76d4d08aef991c525b3aaf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d20aa4cfc8ab86dfe12458fbd9ce04e11fc4442e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207864"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522389"
 ---
+# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>启用或禁用与 Exchange 存储的 Lync Server 2013 集成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-integration-of-lync-server-2013-with-exchange-storage"></a>启用或禁用与 Exchange 存储的 Lync Server 2013 集成
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-09_
 
   - 您可以创建并用来指定如何针对特定站点或池实施存档的可选站点级别和池级别配置。
 
-有关如何实施存档配置的详细信息，包括可以指定哪些选项以及存档配置的层次结构，请参阅规划文档、部署文档或操作文档中的[存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md)。
+有关如何实施存档配置的详细信息，包括可以指定哪些选项以及存档配置的层次结构，请参阅规划文档、部署文档或操作文档中的 [存档在 Lync Server 2013 中的工作原理](lync-server-2013-how-archiving-works.md) 。
 
 <div>
 
@@ -51,15 +53,15 @@ _**上次修改的主题：** 2012-10-09_
 
 1.  使用分配给 CsArchivingAdministrator 或 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击 **“监控和存档”**，然后单击 **“存档配置”**。
 
 4.  单击存档配置列表中相应的全局、站点或池配置的名称，单击“编辑”****，再单击“显示详细信息”****，然后执行以下操作：
     
-      - 若要启用与 Exchange 2013 存储的集成，请选中 " **Microsoft Exchange 集成**" 复选框。
+      - 若要启用与 Exchange 2013 存储的集成，请选中 " **Microsoft Exchange 集成** " 复选框。
     
-      - 若要禁用与 Exchange 2013 存储的集成，请清除 " **Microsoft Exchange 集成**" 复选框。
+      - 若要禁用与 Exchange 2013 存储的集成，请清除 " **Microsoft Exchange 集成** " 复选框。
 
 5.  单击“提交”****。
 

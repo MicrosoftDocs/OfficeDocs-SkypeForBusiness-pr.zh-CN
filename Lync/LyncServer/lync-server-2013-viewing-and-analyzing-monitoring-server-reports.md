@@ -12,20 +12,22 @@ ms:contentKeyID: 63969599
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fc5f963ab9b0181463e3bf065baa61730c9fd0d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7416b54e7b1ddb5bfc41c07502802c7c120a93ba
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211298"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523569"
 ---
+# <a name="viewing-and-analyzing-monitoring-server-reports-in-lync-server-2013"></a>在 Lync Server 2013 中查看和分析监视服务器报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-and-analyzing-monitoring-server-reports-in-lync-server-2013"></a>在 Lync Server 2013 中查看和分析监视服务器报告
+
 
 </div>
 
@@ -53,15 +55,15 @@ _**上次修改的主题：** 2014-05-19_
 
 2.  从浏览器屏幕查看所需的报告。
 
-3.  Optional通过选择 "导出" 选项和所需的输出格式导出报告。
+3.   (可选) 通过选择 "导出" 选项和所需的输出格式导出报告。
 
 </div>
 
 <div>
 
-## <a name="configure-call-detail-recording-cdr"></a>配置呼叫详细信息记录（CDR）
+## <a name="configure-call-detail-recording-cdr"></a>配置 CDR)  (的呼叫详细记录
 
-1.  从属于 RTCUniversalServerAdmins 组成员（或具有同等权限）的用户帐户，或分配给 CsServerAdministrator 或 CsAdministrator 角色的用户登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
+1.  从属于 RTCUniversalServerAdmins 组成员的用户帐户 (或具有同等权限) 或分配给 CsServerAdministrator 或 CsAdministrator 角色，请登录到您在其中部署了 Lync Server 2013 的网络中的任何计算机。
 
 2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。
 
@@ -69,9 +71,9 @@ _**上次修改的主题：** 2014-05-19_
 
 4.  在“呼叫详细信息记录”**** 页上，单击表中的相应站点，再单击“编辑”****，然后单击“显示详细信息”****。
 
-5.  若要打开清除，请选择 "**启用对监视服务器的清除**"。
+5.  若要打开清除，请选择 " **启用对监视服务器的清除**"。
 
-6.  在 "**保留呼叫详细信息记录的最长持续时间（天）：** " 中选择呼叫详细信息录制应保留的最大天数。
+6.  在 " **保留呼叫详细信息记录" 的最长持续时间 (天) ：** 选择应保留的详细记录的最大天数。
 
 7.  在“错误报告数据最长保留期限(天):”**** 中选择错误报告的最长保留天数。
 
@@ -91,9 +93,9 @@ _**上次修改的主题：** 2014-05-19_
 
 4.  在“用户体验质量数据”**** 页上，单击表中的相应站点，再单击“编辑”****，然后单击“显示详细信息”****。
 
-5.  若要打开清除，请选择 "**启用对监视服务器的清除**"。
+5.  若要打开清除，请选择 " **启用对监视服务器的清除**"。
 
-6.  在 "**保留呼叫详细信息记录的最长持续时间（天）：** " 中，选择 QoE 数据应保留的最大天数。
+6.  在 " **保留呼叫详细信息记录的最长持续时间 (天) ：** 选择应保留 QoE 数据的最大天数。
 
 7.  单击“提交”。
 
@@ -113,9 +115,9 @@ _**上次修改的主题：** 2014-05-19_
 
 5.  在 **“编辑存档策略 - 全局”** 中，执行下列操作：
 
-6.  若要启用或禁用部署的内部存档，请选中或清除 "**存档内部通信**" 复选框。
+6.  若要启用或禁用部署的内部存档，请选中或清除 " **存档内部通信** " 复选框。
 
-7.  若要启用或禁用部署的外部存档，请选中或清除 "**存档外部通信**" 复选框。
+7.  若要启用或禁用部署的外部存档，请选中或清除 " **存档外部通信** " 复选框。
 
 8.  单击“提交”****。
 
@@ -133,7 +135,7 @@ _**上次修改的主题：** 2014-05-19_
 
 4.  在列出搜索结果的表中，单击相应的用户帐户，再单击“编辑”****，然后单击“显示详细信息”****。
 
-5.  在 "**编辑 Lync Server 用户**" 中的 "**存档策略**" 下，选择要应用的存档用户策略。
+5.  在 " **编辑 Lync Server 用户** " 中的 " **存档策略**" 下，选择要应用的存档用户策略。
 
 6.  单击“提交”****。
 

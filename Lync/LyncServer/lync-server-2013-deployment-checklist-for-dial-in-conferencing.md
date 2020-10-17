@@ -12,20 +12,22 @@ ms:contentKeyID: 48184987
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 084686c33482e4828378db76c2a5ca1c834bacf3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0a81a4baee7062936144d0a6d066d59cf0a8ef1e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205845"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522789"
 ---
+# <a name="deployment-checklist-for-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的电话拨入式会议的部署清单
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-dial-in-conferencing-in-lync-server-2013"></a>Lync Server 2013 中的电话拨入式会议的部署清单
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42205845"
 
 _**上次修改的主题：** 2014-10-03_
 
-部署会议工作负荷时，将部署电话拨入式会议所需的组件。 在配置电话拨入式会议之前，需要部署企业语音或中介服务器和公用电话交换网（PSTN）网关。
+部署会议工作负荷时，将部署电话拨入式会议所需的组件。 在配置电话拨入式会议之前，你需要将企业语音或中介服务器和公用电话交换网 (PSTN) 网关部署。
 
 用户必须先执行下表中的所有步骤，然后才能通过从 PSTN 拨号加入音频/视频会议。
 
@@ -88,7 +90,7 @@ _**上次修改的主题：** 2014-10-03_
 <p>管理员</p></td>
 <td><ul>
 <li><p><a href="lync-server-2013-deploying-lync-server.md">部署 Lync Server 2013</a></p></li>
-<li><p>创建独立的中介服务器池：<a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">在 Lync server 2013 中部署中介服务器和定义对等方</a></p></li>
+<li><p>创建独立的中介服务器池： <a href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">在 Lync server 2013 中部署中介服务器和定义对等方</a></p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -107,7 +109,7 @@ _**上次修改的主题：** 2014-10-03_
 </tr>
 <tr class="odd">
 <td><p><strong>请确保已为拨号计划分配区域</strong></p></td>
-<td><p>运行<strong>grant-csdialplan</strong>和<strong>grant-csdialplan</strong> cmdlet，以确保所有拨号计划都分配了一个区域。</p></td>
+<td><p>运行 <strong>grant-csdialplan</strong> 和 <strong>grant-csdialplan</strong> cmdlet，以确保所有拨号计划都分配了一个区域。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
@@ -116,15 +118,15 @@ _**上次修改的主题：** 2014-10-03_
 </tr>
 <tr class="even">
 <td><p><strong>（可选）验证或修改用户个人标识号 (PIN) 要求</strong></p></td>
-<td><p>使用 Lync Server 2013 控制面板或 Lync Server 命令行管理程序查看或修改会议<strong>PIN 策略</strong>。 可以指定最小 PIN 长度、最大登录尝试次数、PIN 到期时间以及是否允许使用通用模式。</p></td>
+<td><p>使用 Lync Server 2013 控制面板或 Lync Server 命令行管理程序查看或修改会议 <strong>PIN 策略</strong>。 可以指定最小 PIN 长度、最大登录尝试次数、PIN 到期时间以及是否允许使用通用模式。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-optional-verify-pin-policy-settings.md">Optional验证 Lync Server 2013 中的 PIN 策略设置</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-pin-policy-settings.md"> (可选) 在 Lync Server 2013 中验证 PIN 策略设置</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>配置会议策略以支持电话拨入式会议</strong></p></td>
-<td><p>使用 Lync Server 2013 控制面板或 Lync Server 命令行管理程序配置<strong>会议策略</strong>设置。 指定：</p>
+<td><p>使用 Lync Server 2013 控制面板或 Lync Server 命令行管理程序配置 <strong>会议策略</strong> 设置。 指定：</p>
 <ul>
 <li><p>是否启用 PSTN 会议拨入。</p></li>
 <li><p>用户能否邀请匿名参与者。</p></li>
@@ -141,7 +143,7 @@ _**上次修改的主题：** 2014-10-03_
 <div>
 
 > [!NOTE]  
-> 在创建电话拨入访问号码之后，可以使用<STRONG>set-csdialinconferencingaccessnumber</STRONG> Cmdlet 修改 Active Directory contact 对象的显示名称，以便用户可以更轻松地识别正确的访问号码。
+> 在创建电话拨入访问号码之后，可以使用 <STRONG>set-csdialinconferencingaccessnumber</STRONG> Cmdlet 修改 Active Directory contact 对象的显示名称，以便用户可以更轻松地识别正确的访问号码。
 
 
 </div></td>
@@ -158,7 +160,7 @@ _**上次修改的主题：** 2014-10-03_
 <p>CsAdministrator</p>
 <p>CsViewOnlyAdministrator</p>
 <p>CsHelpDesk</p></td>
-<td><p><a href="lync-server-2013-optional-verify-dial-in-conferencing-settings.md">Optional在 Lync Server 2013 中验证电话拨入式会议设置</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-dial-in-conferencing-settings.md"> (可选) 在 Lync Server 2013 中验证电话拨入式会议设置</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>（可选）修改 DTMF 命令的键映射</strong></p></td>
@@ -166,7 +168,7 @@ _**上次修改的主题：** 2014-10-03_
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md">Optional在 Lync Server 2013 中修改 DTMF 命令的键映射</a></p></td>
+<td><p><a href="lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md"> (可选) 在 Lync Server 2013 中修改 DTMF 命令的键映射</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>（可选）修改会议加入和离开通知行为</strong></p></td>
@@ -174,7 +176,7 @@ _**上次修改的主题：** 2014-10-03_
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md">Optional在 Lync Server 2013 中启用和禁用会议加入和离开通知</a></p></td>
+<td><p><a href="lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md"> (可选) 在 Lync Server 2013 中启用和禁用会议加入和离开通知</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>（可选）验证电话拨入式会议</strong></p></td>
@@ -182,7 +184,7 @@ _**上次修改的主题：** 2014-10-03_
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-optional-verify-dial-in-conferencing.md">Optional在 Lync Server 2013 中验证电话拨入式会议</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-dial-in-conferencing.md"> (可选) 在 Lync Server 2013 中验证电话拨入式会议</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>部署 Lync 2013 的联机会议加载项</strong></p></td>
@@ -192,23 +194,23 @@ _**上次修改的主题：** 2014-10-03_
 </tr>
 <tr class="even">
 <td><p><strong>配置用户帐户设置</strong></p></td>
-<td><p>使用 Lync Server 2013 控制面板或 Lync Server 命令行管理程序将电话<strong>线路 URI</strong>配置为唯一的规范化电话号码（例如，电话： + 14255550200）。</p></td>
+<td><p>使用 Lync Server 2013 控制面板或 Lync Server 命令行管理程序将电话 <strong>线路 URI</strong> 配置为唯一的标准化电话号码 (例如，电话： + 14255550200) 。</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsAdministrator</p>
 <p>CsUserAdministrator</p></td>
 <td><p><a href="lync-server-2013-configure-user-account-settings.md">在 Lync Server 2013 中配置用户帐户设置</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>适合配置会议目录</p></td>
-<td><p>使用<strong>new-csconferencedirectory</strong> cmdlet 可以为池中的每个999用户创建一个会议目录。</p></td>
+<td><p> (建议) 配置会议目录</p></td>
+<td><p>使用 <strong>new-csconferencedirectory</strong> cmdlet 可以为池中的每个999用户创建一个会议目录。</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-dial-in-conferencing-requirements.md">Lync Server 2013 中的电话拨入式会议要求</a> <a href="recommended-create-conference-directories.md">（推荐）创建会议目录</a></p></td>
+<td><p><a href="lync-server-2013-dial-in-conferencing-requirements.md">Lync Server 2013 中的电话拨入式会议要求</a> <a href="recommended-create-conference-directories.md"> (推荐) 创建会议目录</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>（可选）欢迎用户参加电话拨入式会议并设置初始 PIN</strong></p></td>
-<td><p>使用<strong>set-cspinsendcawelcomemail</strong>脚本设置用户的初始 pin，并发送包含初始 PIN 和指向 "电话拨入式会议设置" 页的链接的欢迎电子邮件。</p></td>
+<td><p>使用 <strong>set-cspinsendcawelcomemail</strong> 脚本设置用户的初始 pin，并发送包含初始 PIN 和指向 "电话拨入式会议设置" 页的链接的欢迎电子邮件。</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md">OptionalLync Server 2013 中的欢迎用户参加电话拨入式会议</a></p></td>
+<td><p><a href="lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md"> 在 Lync Server 2013 中 (欢迎用户加入电话拨入式会议的可选) </a></p></td>
 </tr>
 </tbody>
 </table>

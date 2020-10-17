@@ -12,20 +12,22 @@ ms:contentKeyID: 51541507
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 218c011d2acc970028bfd0be529d89542d684758
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5eec65c22465ee5a2198e7f7147db2d0d014cc2b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206088"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523139"
 ---
+# <a name="backing-up-persistent-chat-databases-in-lync-server-2013"></a>在 Lync Server 2013 中备份持久聊天数据库
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-persistent-chat-databases-in-lync-server-2013"></a>在 Lync Server 2013 中备份持久聊天数据库
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42206088"
 
 _**上次修改的主题：** 2013-02-17_
 
-持久聊天聊天室内容存储在持久聊天数据库（Mgc）中。 这是应定期备份的关键业务数据。 除了聊天室内容之外，持久聊天数据库还存储有关主体（如用户和用户组）的信息，以及他们必须与聊天室和聊天室聊天的角色和访问权限。
+持久聊天聊天室内容存储在持久聊天数据库 (Mgc) 中。 这是应定期备份的关键业务数据。 除了聊天室内容之外，持久聊天数据库还会存储主体 (的相关信息，如用户和用户组) ，以及他们必须与聊天室和聊天室聊天的角色和访问权限。
 
 有两种备份持久聊天数据的方法。
 
   - SQL Server 备份
 
-  - 将`Export-CsPersistentChatData`持久聊天数据导出为文件的 cmdlet
+  - 将 `Export-CsPersistentChatData` 持久聊天数据导出为文件的 cmdlet
 
-使用 SQL Server 备份创建的数据需要显著更多的磁盘空间-可能比创建的数据更多20倍`Export-CsPersistentChatData`，但 SQL Server 备份更可能是管理员熟悉的过程。
+使用 SQL Server 备份创建的数据需要显著更多的磁盘空间-可能比创建的数据更多20倍 `Export-CsPersistentChatData` ，但 SQL Server 备份更可能是管理员熟悉的过程。
 
 </div>
 

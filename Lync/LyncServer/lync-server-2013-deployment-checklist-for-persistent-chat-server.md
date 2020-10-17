@@ -12,20 +12,22 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a01d38cec8d03a75d5f295c61f6e591da43f4a61
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2399d6ce6fc17a802c8f6bc39730370948ef0253
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213810"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522739"
 ---
+# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的部署清单
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器的部署清单
+
 
 </div>
 
@@ -93,11 +95,11 @@ _**上次修改的主题：** 2012-10-16_
 <p><a href="lync-server-2013-technical-requirements-for-persistent-chat-server.md">Lync Server 2013 中持久聊天服务器的技术要求</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>创建适当的内部拓扑以支持持久聊天服务器（也可以选择持久聊天合规性）</strong></p></td>
+<td><p><strong>创建适当的内部拓扑以支持持久聊天服务器 (和持续聊天兼容性) </strong></p></td>
 <td><p>运行拓扑生成器以将持久聊天服务器池添加到拓扑中：</p>
 <ul>
 <li><p>将持久聊天服务器组件添加到拓扑</p></li>
-<li><p>为持久聊天服务器存储创建 SQL Server 数据库（以及用于灾难恢复的备份 SQL Server）</p></li>
+<li><p>为持久聊天服务器存储 (创建 SQL Server 数据库，并将备份 SQL Server 用于灾难恢复) </p></li>
 <li><p>为持久聊天服务器文件定义新的 Lync 文件存储或使用现有的 Lync 文件存储</p></li>
 <li><p>关联可将请求路由到此持久聊天服务器池的 Lync Server 2013 池</p></li>
 </ul>
@@ -107,9 +109,9 @@ _**上次修改的主题：** 2012-10-16_
 <li><p>单击 "持久聊天服务器池定义" 复选框以启用合规性</p></li>
 <li><p>发布拓扑</p></li>
 </ul>
-<p>如果在 Standard Edition 上安装持久聊天服务器，则持久聊天服务器池的完全限定域名（FQDN）必须与 Standard Edition server 相匹配，并且 SQL Server 数据库在标准版的 SQL Server Express 实例上并置。Edition 服务器</p></td>
+<p>如果在 Standard Edition 上安装持久聊天服务器，则持久聊天服务器池的完全限定域名 (FQDN) 必须与 Standard Edition server 相匹配，并且 SQL Server 数据库并置在 Standard Edition server 上的 SQL Server Express 实例上。</p></td>
 <td><p>要定义拓扑，需要具有本地 Users 组成员身份的帐户。</p>
-<p>若要发布拓扑，该帐户是 Domain Admins 组和 RTCUniversalServerAdmins 组的成员，并且用户还应具有对持久聊天服务器文件的 Lync 文件存储的完全控制权限（读/写/修改）（以便拓扑生成器可以配置所需的 Dacl）。</p></td>
+<p>若要发布拓扑，该帐户是 Domain Admins 组和 RTCUniversalServerAdmins 组的成员，并且用户还应具有 "完全控制" 权限 (对持久聊天服务器 (文件的 Lync 文件存储上的) 读/写/修改，以便拓扑生成器可以配置所需的 Dacl) 。</p></td>
 <td><p>在部署文档中<a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">将持久聊天服务器添加到 Lync Server 2013</a>中的部署</p></td>
 </tr>
 <tr class="odd">

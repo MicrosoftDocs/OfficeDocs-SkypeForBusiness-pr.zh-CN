@@ -12,20 +12,22 @@ ms:contentKeyID: 51541447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89208d494d310fb1ba67a17ea234f9c3a51baae9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9d60ab06ec2367b9cd88f85ce0e0e85decad71c8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198015"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48522519"
 ---
+# <a name="developing-a-backup-and-restoration-strategy-and-plan-for-lync-server-2013"></a>开发 Lync Server 2013 的备份和还原策略和规划
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="developing-a-backup-and-restoration-strategy-and-plan-for-lync-server-2013"></a>开发 Lync Server 2013 的备份和还原策略和规划
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2013-02-17_
 
 你的 Lync Server 备份和还原操作的有效性取决于你的备份和还原策略和计划。 您应该建立一个策略，用于备份和还原与组织的总体策略相适应的 Lync Server，以及用于备份数据和设置的全面、简明的计划，以及在发生中断时用于还原服务的计划。
 
-若要获取前端池的最强健的灾难恢复，请使用 Lync Server 2013 中引入的配对池灾难恢复拓扑。 有关详细信息，请参阅[Lync Server 2013 中的规划高可用性和灾难恢复](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
+若要获取前端池的最强健的灾难恢复，请使用 Lync Server 2013 中引入的配对池灾难恢复拓扑。 有关详细信息，请参阅 [Lync Server 2013 中的规划高可用性和灾难恢复](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)。
 
 <div>
 

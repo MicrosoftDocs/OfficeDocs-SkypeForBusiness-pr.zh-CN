@@ -12,20 +12,22 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca916731f34bf08e59ae2ba281a1c6d723b46ae8
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8779e770ca96cbfc34bbbc1f1897df1f5eb9ea03
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48523049"
 ---
+# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a>在 Lync Server 2013 中配置聊天室的外接程序
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a>在 Lync Server 2013 中配置聊天室的外接程序
+
 
 </div>
 
@@ -47,13 +49,13 @@ _**上次修改的主题：** 2013-02-21_
 
 1.  使用分配给 CsPersistentChatAdministrator 或 CsAdministrator 角色的用户帐户登录到您的本地部署中的任一计算机。
 
-2.  从 "**开始**" 菜单中，选择 "Lync Server 控制面板" 或打开一个浏览器窗口，然后输入管理 URL。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  从 " **开始** " 菜单中，选择 "Lync Server 控制面板" 或打开一个浏览器窗口，然后输入管理 URL。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 您还可以使用 Windows PowerShell cmdlet。 有关详细信息，请参阅部署文档中的<A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">使用 Windows PowerShell Cmdlet 配置持久聊天服务器</A>。
+    > 您还可以使用 Windows PowerShell cmdlet。 有关详细信息，请参阅部署文档中的 <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">使用 Windows PowerShell Cmdlet 配置持久聊天服务器</A> 。
 
     
     </div>
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2013-02-21_
 
 4.  在“外接程序”**** 页上，单击“新建”****。
 
-5.  在 "**选择服务**" 中，选择与需要在其中创建外接程序的持久聊天服务器池对应的服务。 外接程序无法从一个池移到另一个池，或者在不同池之间共享。
+5.  在 " **选择服务**" 中，选择与需要在其中创建外接程序的持久聊天服务器池对应的服务。 外接程序无法从一个池移到另一个池，或者在不同池之间共享。
 
 6.  在“新建外接程序”**** 中，执行下列操作：
     
