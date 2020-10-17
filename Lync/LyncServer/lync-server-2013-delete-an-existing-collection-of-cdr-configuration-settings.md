@@ -12,20 +12,22 @@ ms:contentKeyID: 49733726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1fdfe0829f33061b9af25a6478435964545570d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ebf7ce01e435a0a47d3468509485e96fa669192a
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202748"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514639"
 ---
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中删除现有 CDR 配置设置集合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中删除现有 CDR 配置设置集合
+
 
 </div>
 
@@ -43,13 +45,13 @@ _**上次修改的主题：** 2013-02-23_
 
 请注意，您也可以“删除”全局设置。但是，这不会实际删除全局设置，而是将该集合中的所有属性重置为其默认值。例如，默认情况下，将在 CDR 配置设置集合中启用清除。假定您修改全局集合以便禁用清除。如果您稍后删除全局设置，则所有属性都将被重置为其默认值。在此情况下，这意味着将再次启用清除。
 
-您可以使用 Lync Server 控制面板或[set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) CMDLET 删除 CDR 配置设置。
+您可以使用 Lync Server 控制面板或 [set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) CMDLET 删除 CDR 配置设置。
 
 <div>
 
 ## <a name="to-remove-cdr-configuration-settings-with-lync-server-control-panel"></a>使用 Lync Server 控制面板删除 CDR 配置设置
 
-1.  在 "Lync Server 控制面板" 中，单击 "**监控和存档**"。
+1.  在 "Lync Server 控制面板" 中，单击 " **监控和存档**"。
 
 2.  在“呼叫详细信息记录”**** 选项卡上，选择要删除的 CDR 设置的集合。若要删除多个集合，请单击第一个集合，然后在按住 Ctrl 键的同时单击其他集合。
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 删除 CDR 配置设置
 
-您可以使用 Windows PowerShell 和**set-cscdrconfiguration** cmdlet 删除呼叫详细信息记录配置设置。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Windows PowerShell 和 **set-cscdrconfiguration** cmdlet 删除呼叫详细信息记录配置设置。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -95,7 +97,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) cmdlet 的帮助主题。
+有关详细信息，请参阅 [set-cscdrconfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) cmdlet 的帮助主题。
 
 </div>
 

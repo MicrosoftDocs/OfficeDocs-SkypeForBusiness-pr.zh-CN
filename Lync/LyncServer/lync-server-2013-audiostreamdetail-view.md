@@ -12,20 +12,22 @@ ms:contentKeyID: 49733792
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe995d08bf334308603512b4812b02c672d400f4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4a9abfbc214e72cf059250910ecec4ad3bcdba33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515779"
 ---
+# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Lync Server 2013 中的 AudioStreamDetail 视图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiostreamdetail-view-in-lync-server-2013"></a>Lync Server 2013 中的 AudioStreamDetail 视图
+
 
 </div>
 
@@ -102,82 +104,82 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="even">
 <td><p>CallerPool</p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>呼叫者池 FQDN。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleePool</p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>被叫方池 FQDN。</p></td>
 </tr>
 <tr class="even">
 <td><p>Caller</p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>呼叫者的 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p>约定</p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>被叫方的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgent</p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>呼叫者的用户代理字符串。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>呼叫者的用户代理的类型。 有关详细信息，请参阅<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
+<td><p>呼叫者的用户代理的类型。 有关详细信息，请参阅 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerUserAgentCategory</p></td>
-<td><p>nvarchar （64）</p></td>
-<td><p>呼叫者的用户代理的类别。 有关详细信息，请参阅<a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表（QoE）</a> 。</p></td>
+<td><p>nvarchar (64) </p></td>
+<td><p>呼叫者的用户代理的类别。 有关详细信息，请参阅 <a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表 (QoE) </a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgent</p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>被叫方的用户代理字符串。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeUserAgentType</p></td>
 <td><p>smallint</p></td>
-<td><p>被叫方的用户代理类型。 有关信息，请参阅<a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a>。</p></td>
+<td><p>被叫方的用户代理类型。 有关信息，请参阅 <a href="lync-server-2013-useragent-table.md">Lync Server 2013 中的 UserAgent 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserAgentCategory</p></td>
-<td><p>nvarchar （64）</p></td>
-<td><p>被叫方的用户代理类别。 有关信息，请参阅<a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表（QoE）</a> 。</p></td>
+<td><p>nvarchar (64) </p></td>
+<td><p>被叫方的用户代理类别。 有关信息，请参阅 <a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef 表 (QoE) In Lync Server 2013</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerEndpoint</p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>呼叫者的终结点名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeEndpoint</p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>被叫方的终结点名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerOS</p></td>
-<td><p>nvarchar</p></td>
+<td><p>nvarchar (128) </p></td>
 <td><p>呼叫者终结点的操作系统 (OS)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeOS</p></td>
-<td><p>nvarchar</p></td>
+<td><p>nvarchar (128) </p></td>
 <td><p>被叫方终结点的操作系统 (OS)。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerCPUName</p></td>
-<td><p>nvarchar</p></td>
+<td><p>nvarchar (128) </p></td>
 <td><p>呼叫者终结点的 CPU 名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCPUName</p></td>
-<td><p>nvarchar</p></td>
+<td><p>nvarchar (128) </p></td>
 <td><p>被叫方终结点的 CPU 名称。</p></td>
 </tr>
 <tr class="even">
@@ -203,12 +205,12 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 <tr class="even">
 <td><p>CallerVirtualizationFlag</p></td>
 <td><p>tinyint</p></td>
-<td><p>指示呼叫者的系统是否正在虚拟化环境中运行。 有关详细信息，请参阅<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表</a>。</p></td>
+<td><p>指示呼叫者的系统是否正在虚拟化环境中运行。 有关详细信息，请参阅 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeVirtualizationFlag</p></td>
 <td><p>tinyint</p></td>
-<td><p>指示被叫方的系统是否正在虚拟化环境中运行。 有关详细信息，请参阅<a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表</a>。</p></td>
+<td><p>指示被叫方的系统是否正在虚拟化环境中运行。 有关详细信息，请参阅 <a href="lync-server-2013-endpoint-table.md">Lync Server 2013 中的终结点表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CorrelationKey</p></td>
@@ -218,7 +220,7 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 <tr class="odd">
 <td><p>ConnectivityIce</p></td>
 <td><p>tinyint</p></td>
-<td><p>有关媒体路径的信息，例如 direct 或中继。 有关详细信息，请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p>有关媒体路径的信息，例如 direct 或中继。 有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerIceWarningFlags</p></td>
@@ -237,8 +239,8 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="odd">
 <td><p>CallerIPAddr</p></td>
-<td><p>var （50）</p></td>
-<td><p>呼叫者的 IP 地址。 这可能是 IPv4 地址或 IPv6 地址。</p></td>
+<td><p>var (50) </p></td>
+<td><p>呼叫者的 IP 地址。 这可能是 IPv4 或 IPv6 地址。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerPort</p></td>
@@ -252,7 +254,7 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="even">
 <td><p>CalleeIPAddr</p></td>
-<td><p>var （50）</p></td>
+<td><p>var (50) </p></td>
 <td><p>被叫方的 IP 地址。 这可能是 IPv4 或 IPv6 地址。</p></td>
 </tr>
 <tr class="odd">
@@ -267,28 +269,28 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="odd">
 <td><p>CallerUserSite</p></td>
-<td><p>nvarchar</p></td>
+<td><p>nvarchar (128) </p></td>
 <td><p>呼叫者的站点名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRegion</p></td>
-<td><p>nvarchar</p></td>
+<td><p>nvarchar (128) </p></td>
 <td><p>呼叫者站点的国家/地区名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeUserSite</p></td>
-<td><p>nvarchar</p></td>
+<td><p>nvarchar (128) </p></td>
 <td><p>被叫方的站点名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRegion</p></td>
-<td><p>nvarchar</p></td>
+<td><p>nvarchar (128) </p></td>
 <td><p>被叫方站点的国家/地区名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerRelayIPAddr</p></td>
-<td><p>var （50）</p></td>
-<td><p>呼叫者所使用的 A/V 边缘服务的 IP 地址。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>var (50) </p></td>
+<td><p>呼叫者所使用的 A/V 边缘服务的 IP 地址。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRelayPort</p></td>
@@ -297,8 +299,8 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="odd">
 <td><p>CalleeRelayIPAddr</p></td>
-<td><p>var （50）</p></td>
-<td><p>被叫方所使用的 A/V 边缘服务的 IP 地址密钥。 有关详细信息，请参阅<a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a>。</p></td>
+<td><p>var (50) </p></td>
+<td><p>被叫方所使用的 A/V 边缘服务的 IP 地址密钥。 有关详细信息，请参阅 <a href="lync-server-2013-ipaddress-table.md">Lync Server 2013 中的 "Ip 地址" 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRelayPort</p></td>
@@ -307,42 +309,42 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="odd">
 <td><p>CallerCaptureDev</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者的捕获设备名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRenderDev</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者的呈现设备名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerCaptureDevDriver</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者的捕获设备驱动程序名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerRenderDriver</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>呼叫者的呈现设备驱动程序名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCaptureDev</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方的捕获设备名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRenderDev</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方的呈现设备名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeCaptureDevDriver</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方的捕获设备驱动程序名称。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeRenderDevDriver</p></td>
-<td><p>varchar （256）</p></td>
+<td><p>varchar (256) </p></td>
 <td><p>被叫方的呈现设备驱动程序名称。</p></td>
 </tr>
 <tr class="odd">
@@ -353,11 +355,11 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 <tr class="even">
 <td><p>CallerVPN</p></td>
 <td><p>位</p></td>
-<td><p>指示呼叫者是否通过虚拟专用网络连接：1是虚拟专用网络（VPN），0是非 VPN。</p></td>
+<td><p>指示呼叫者是否通过虚拟专用网络连接：1是虚拟专用网络 (VPN) ，0是非 VPN。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerLinkSpeed</p></td>
-<td><p>小数（18，0）</p></td>
+<td><p>十进制 (18，0) </p></td>
 <td><p>呼叫者终结点的网络链接速度（以 bps 为单位）。</p></td>
 </tr>
 <tr class="even">
@@ -368,16 +370,16 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 <tr class="odd">
 <td><p>CalleeVPN</p></td>
 <td><p>位</p></td>
-<td><p>指示呼叫者是否通过虚拟专用网络连接：1是虚拟专用网络（VPN），0是非 VPN。</p></td>
+<td><p>指示呼叫者是否通过虚拟专用网络连接：1是虚拟专用网络 (VPN) ，0是非 VPN。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeLinkSpeed</p></td>
-<td><p>小数（18，0）</p></td>
+<td><p>十进制 (18，0) </p></td>
 <td><p>被呼叫方的终结点的网络链接速度（以 bps 为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p>ConversationalMOS</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>音频会话的窄带交谈 MOS（基于两个音频流）。</p></td>
 </tr>
 <tr class="even">
@@ -397,17 +399,17 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="odd">
 <td><p>PacketLossRate</p></td>
-<td><p>decimal （5，4）</p></td>
+<td><p>十进制 (5、4) </p></td>
 <td><p>呼叫期间的平均数据包丢失率。</p></td>
 </tr>
 <tr class="even">
 <td><p>PacketLossRateMax</p></td>
-<td><p>decimal （5，4）</p></td>
+<td><p>十进制 (5、4) </p></td>
 <td><p>呼叫期间观测到的数据包丢失最大值。</p></td>
 </tr>
 <tr class="odd">
 <td><p>BurstDensity</p></td>
-<td><p>小数（9，4）</p></td>
+<td><p>十进制 (9、4) </p></td>
 <td><p>呼叫期间出现猝发损失期间的数据包丢失的平均密度。</p></td>
 </tr>
 <tr class="even">
@@ -417,7 +419,7 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="odd">
 <td><p>BurstGapDensity</p></td>
-<td><p>小数（9，4）</p></td>
+<td><p>十进制 (9、4) </p></td>
 <td><p>在出现猝发数据包丢失之间间隔期间的数据包丢失的平均密度。</p></td>
 </tr>
 <tr class="even">
@@ -437,28 +439,28 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="odd">
 <td><p>DegradationAvg</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>整个呼叫的网络 MOS 降级。 范围是0.0 到5.0。 此指标显示由于抖动和数据包丢失而导致网络 MOS 减少的量。 对于可接受的质量，它应小于0.5。</p></td>
 </tr>
 <tr class="even">
 <td><p>DegradationMax</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>呼叫期间的最大网络 MOS 降级。</p></td>
 </tr>
 <tr class="odd">
 <td><p>DegradationJitterAvg</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>由抖动引起的网络 MOS 性能下降。</p></td>
 </tr>
 <tr class="even">
 <td><p>DegradationPacketLossAvg</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>因数据包丢失而导致的网络 MOS 降级。</p></td>
 </tr>
 <tr class="odd">
 <td><p>PayloadDescription</p></td>
 <td><p>int</p></td>
-<td><p>用于呼叫的音频编解码器，从<a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 中的 PayloadDescription 表中</a>引用。</p></td>
+<td><p>用于呼叫的音频编解码器，从 <a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 中的 PayloadDescription 表中</a>引用。</p></td>
 </tr>
 <tr class="even">
 <td><p>AudioSampleRate</p></td>
@@ -502,42 +504,42 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="even">
 <td><p>CallerTimestampDriftRateMic</p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p>呼叫者的麦克风设备时钟相对于 CPU 时钟的速度偏移速率。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerTimestampDriftRateSpk</p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p>呼叫者的扬声器设备时钟相对于 CPU 时钟的速度偏移速率。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerTimestampErrorMicMs</p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p>呼叫的最后20秒内的麦克风捕获流的平均时间戳错误（以毫秒为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerTimestampErrorSpkMs</p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p>呼叫者的扬声器在最近20秒内呈现流时间戳错误的平均次数（以毫秒为单位）。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerVsEntryCauses</p></td>
 <td><p>smallint</p></td>
-<td><p>Voice switch 是一个半双工模式，具有更低的中断能力。 有关详细信息，请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p>Voice switch 是一个半双工模式，具有更低的中断能力。 有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerEchoEventCauses</p></td>
 <td><p>tinyint</p></td>
-<td><p>调用方的 echo 事件的原因。 有关详细信息，请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p>调用方的 echo 事件的原因。 有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CallerEchoPercentMicIn</p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td><p>在呼叫者的麦克风捕获流中检测到回显的时间的百分比。 如果使用的是耳机，则该值应较低。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerEchoPercentSend</p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td><p>在呼叫者的发送流中检测到回显的时间的百分比。 发送流中的高回显百分比指示回声泄漏。</p></td>
 </tr>
 <tr class="even">
@@ -553,12 +555,12 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 <tr class="even">
 <td><p>CallerRxAGCGain</p></td>
 <td><p>int</p></td>
-<td><p>将中介服务器端上的自动增益控制（AGC）应用于呼叫者的音频。</p></td>
+<td><p> (AGC) 在应用于呼叫者音频的中介服务器端上的自动增益控制。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CallerInitialSignalLevelRMS</p></td>
-<td><p>点数</p></td>
-<td><p>到呼叫者的传入信号的根均值（RMS），最长为呼叫的前30秒。</p></td>
+<td><p>float</p></td>
+<td><p>到呼叫者的传入信号的根平均平方 (RMS) ，最长为呼叫的前30秒。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeSendSignalLevel</p></td>
@@ -597,42 +599,42 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="odd">
 <td><p>CalleeTimestampDriftRateMic</p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p>被叫方的麦克风设备时钟相对于 CPU 时钟的时钟偏移速度。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeTimestampDriftRateSpk</p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p>被叫方的扬声器设备时钟相对于 CPU 时钟的时钟偏移速度。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeTimestampErrorMicMs</p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p>呼叫的最后20秒内的麦克风捕获流的平均时间戳错误（以毫秒为单位）。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeTimestampErrorSpkMs</p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p>被呼叫者的发言人的平均呈现流时间戳错误（以毫秒为单位）在呼叫的最后20秒中。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeVsEntryCauses</p></td>
 <td><p>smallint</p></td>
-<td><p>Voice switch 是一个半双工模式，具有更低的中断能力。 有关详细信息，请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p>Voice switch 是一个半双工模式，具有更低的中断能力。 有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeEchoEventCauses</p></td>
 <td><p>tinyint</p></td>
-<td><p>被调用方的 echo 事件的原因。 有关详细信息，请参阅<a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a>。</p></td>
+<td><p>被调用方的 echo 事件的原因。 有关详细信息，请参阅 <a href="lync-server-2013-medialine-table.md">Lync Server 2013 中的 MediaLine 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>CalleeEchoPercentMicIn</p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td><p>在被呼叫者的麦克风捕获流中检测到回显的时间的百分比。 如果使用的是耳机，则该值应较低。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeEchoPercentSend</p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td><p>在被呼叫方的已发送流中检测到回显的时间的百分比。 发送流中的高回显百分比指示回声泄漏。</p></td>
 </tr>
 <tr class="odd">
@@ -648,26 +650,26 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 <tr class="odd">
 <td><p>CalleeRxAGCGain</p></td>
 <td><p>int</p></td>
-<td><p>在应用于被呼叫者的音频的中介服务器端上的自动增益控制（AGC）。</p></td>
+<td><p> (AGC) 在应用于被呼叫者的音频的中介服务器端上的自动增益控制。</p></td>
 </tr>
 <tr class="even">
 <td><p>CalleeInitialSignalLevelRMS</p></td>
-<td><p>点数</p></td>
-<td><p>最长为呼叫的前30秒内被呼叫者的传入信号的根均值（RMS）。</p></td>
+<td><p>float</p></td>
+<td><p>最长为呼叫者的传入信号的根均值 (RMS) ，最长为呼叫的前30秒。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RatioConcealedSamplesAvg</p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td><p>通过音频康复对典型示例生成的隐藏样本的平均比率。</p></td>
 </tr>
 <tr class="even">
 <td><p>RatioStretchedSamplesAvg</p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td><p>由音频康复生成的一般示例中的延伸样本的平均比率。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RatioCompressedSamplesAvg</p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td><p>由音频康复生成的压缩样本的平均比率到典型示例。</p></td>
 </tr>
 <tr class="even">
@@ -682,32 +684,32 @@ AudioStreamDetail 视图存储有关数据库中每个音频流的信息。 此�
 </tr>
 <tr class="even">
 <td><p>OverallAvgNetworkMOS</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>呼叫的平均宽带网络 MOS。 此指标取决于所使用的数据包丢失、抖动和编解码器。 范围是1.0 到5.0。</p></td>
 </tr>
 <tr class="odd">
 <td><p>OverallMinNetworkMOS</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>用于呼叫的最小宽带网络 MOS。</p></td>
 </tr>
 <tr class="even">
 <td><p>SendListenMOS</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>平均预测宽带侦听发送音频的 MOS 分数，包括语音级别、噪声级别和捕获设备特征。</p></td>
 </tr>
 <tr class="odd">
 <td><p>SendListenMOSMin</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>呼叫的最小 SendListenMOS。</p></td>
 </tr>
 <tr class="even">
 <td><p>RecvListenMOS</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>平均预测宽带侦听从网络接收的音频的 MOS 分数，包括语音级别、噪音级别、编解码器、网络状况和捕获设备特征。</p></td>
 </tr>
 <tr class="odd">
 <td><p>RecvListenMOSMin</p></td>
-<td><p>decimal （3，2）</p></td>
+<td><p>十进制 (3、2) </p></td>
 <td><p>呼叫的最小 RecvListenMOS。</p></td>
 </tr>
 <tr class="even">

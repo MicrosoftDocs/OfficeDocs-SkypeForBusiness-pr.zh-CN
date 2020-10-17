@@ -12,20 +12,22 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e95d746d323e803bf7dbc37e8cdaebcdd1d655c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6eb6de7f2ba23d52a7b508869dbb25c9c5e3802
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213488"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514489"
 ---
+# <a name="diagnostic-report-in-lync-server-2013"></a>Lync Server 2013 中的诊断报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="diagnostic-report-in-lync-server-2013"></a>Lync Server 2013 中的诊断报告
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2014-02-07_
 
 ## <a name="accessing-the-diagnostic-report"></a>访问诊断报告
 
-可以通过单击 Lync Server 2013 或会议详细信息报告[中的对等会话详细信息报告](lync-server-2013-peer-to-peer-session-detail-report.md)上的 "诊断报告（详细信息）" 指标来访问诊断报告。
+可以通过在 Lync Server 2013 或会议详细信息报告的 [对等会话详细信息报告中](lync-server-2013-peer-to-peer-session-detail-report.md) 单击 "诊断报告" (详细信息) 指标来访问诊断报告。
 
 </div>
 
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2014-02-07_
 <tr class="header">
 <th>名称</th>
 <th>是否可按此项排序？</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

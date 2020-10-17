@@ -12,20 +12,22 @@ ms:contentKeyID: 48183837
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bcb5e8ecf3843a8997daa818ed75b33162cfb70
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 28d25c317aa672b56f244fafefc8d96b0c31bc33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186695"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513999"
 ---
+# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Lync Server 2013 的大型会议支持常见问题解答
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="large-meeting-support-faq-for-lync-server-2013"></a>Lync Server 2013 的大型会议支持常见问题解答
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-22_
 
 ## <a name="q-how-many-users-can-participate-in-a-large-meeting"></a>问：可以参与大型会议的用户数是多少？
 
-Lync Server 用户模型指定在专用于大型会议的池中的共享池或1000用户中的250个用户的限制，但这些号码只代表我们测试的用户数，并且仅代表我们在测试中使用的特定硬件集。 根据我们的测试，建议将这些限制作为最大大小。 但是，通过配置一个或多个会议策略（使用 Lync Server 命令行管理程序中的 Windows PowerShell cmdlet 或使用 Lync Server 配置），可以控制组织中的会议允许的实际人数。控制面版）。 您在会议策略中指定的数字可以是 1 到 4,294,967,295 之间的任意 32 位整数，但建议大小为 2 到 250（包括 2 和 250）位参与者；默认值为 250。
+Lync Server 用户模型指定在专用于大型会议的池中的共享池或1000用户中的250个用户的限制，但这些号码只代表我们测试的用户数，并且仅代表我们在测试中使用的特定硬件集。 根据我们的测试，建议将这些限制作为最大大小。 但是，可以通过配置一个或多个会议策略 (使用 Lync Server 命令行管理程序中的 Windows PowerShell cmdlet 或使用 Lync Server 控制面板) 来控制组织中允许的参与者的实际数量。 您在会议策略中指定的数字可以是 1 到 4,294,967,295 之间的任意 32 位整数，但建议大小为 2 到 250（包括 2 和 250）位参与者；默认值为 250。
 
 </div>
 
@@ -75,7 +77,7 @@ Lync Server 用户模型指定在专用于大型会议的池中的共享池或10
 
 ## <a name="q-can-i-use-group-instant-messaging-im-in-large-meetings"></a>问：是否可以在大型会议中使用组即时消息 (IM)？
 
-是。 但是，大量即时消息可能会因 IM 窗口中的快速文本滚动问题而影响用户体验，特别是在许多会议参与者发送即时消息时。 向多达 1000 位用户发送大量即时消息也可能会产生大量服务器负载，这可能会影响性能。 通常情况下，只有问题和解答（Q\&As）才需要 IM。
+是。 但是，大量即时消息可能会因 IM 窗口中的快速文本滚动问题而影响用户体验，特别是在许多会议参与者发送即时消息时。 向多达 1000 位用户发送大量即时消息也可能会产生大量服务器负载，这可能会影响性能。 通常情况下，只有) 的问题和答案 (Q 才需要 IM \& 。
 
 </div>
 

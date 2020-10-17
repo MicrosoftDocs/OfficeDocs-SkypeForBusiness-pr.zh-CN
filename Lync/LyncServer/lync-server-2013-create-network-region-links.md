@@ -12,20 +12,22 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1af9c2d6b651fd127986d89d521e99745e1af384
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 72e8c3d0fd254ba780b91d554402ca38d30f7073
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205588"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515559"
 ---
+# <a name="create-network-region-links-in-lync-server-2013"></a>在 Lync Server 2013 中创建网络区域链接
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-network-region-links-in-lync-server-2013"></a>在 Lync Server 2013 中创建网络区域链接
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-10-19_
 
   - [CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)
 
-示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 每个区域链接都受 WAN 带宽的限制，如示例中的 "区域链接带宽信息" 表中所述：在规划文档的 " [Lync Server 2013 中收集对呼叫允许控制的要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)" 一节。
+示例拓扑具有一条 North America 和 APAC 区域之间的链接，以及一条 EMEA 和 APAC 区域之间的链接。 每个区域链接都受 WAN 带宽的限制，如示例中的 "区域链接带宽信息" 表中所述：在规划文档的 " [Lync Server 2013 中收集对呼叫允许控制的要求](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) " 一节。
 
 <div>
 
@@ -73,7 +75,7 @@ _**上次修改的主题：** 2012-10-19_
 
 ## <a name="to-create-network-region-links-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板创建网络区域链接
 
-1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+1.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 2.  在左侧导航栏中，单击“网络配置”****。
 
@@ -83,9 +85,9 @@ _**上次修改的主题：** 2012-10-19_
 
 5.  在“新建区域链接”**** 页上，单击“名称”****，然后键入网络区域链接的名称。
 
-6.  单击 "**网络\#区域 1**"，然后在列表中单击要链接到 "网络区域\#2" 的网络区域。
+6.  单击 " **网络区域 \# 1**"，然后在列表中单击要链接到 "网络区域 2" 的网络区域 \# 。
 
-7.  单击 "**网络\#区域 2**"，然后在列表中单击要链接到 "网络区域\#1" 的网络区域。
+7.  单击 " **网络区域 \# 2**"，然后在列表中单击要链接到 "网络区域 1" 的网络区域 \# 。
 
 8.  也可以选择单击“带宽策略”****，然后选择要应用于网络区域链接的带宽策略配置文件。
     

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd649cea823ce13460de924ffc49741b3ca5c6d6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4ee06e4b7f3cabc606a612cd0f332aed47b46823
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186785"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514149"
 ---
+# <a name="ipsec-exceptions-in-lync-server-2013"></a>Lync Server 2013 中的 IPsec 例外
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ipsec-exceptions-in-lync-server-2013"></a>Lync Server 2013 中的 IPsec 例外
+
 
 </div>
 
@@ -67,139 +69,139 @@ _**上次修改的主题：** 2012-06-27_
 <tbody>
 <tr class="odd">
 <td><p>A/V 边缘服务器内部入站</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>A/V 边缘服务器内部</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V 边缘服务器外部入站</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>A/V 边缘服务器外部</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V 边缘服务器内部出站</p></td>
 <td><p>A/V 边缘服务器内部</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>UDP &amp; TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V 边缘服务器外部出站</p></td>
 <td><p>A/V 边缘服务器外部</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
 <td><p>中介服务器入站</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>中介</p>
-<p>服务器（s）</p></td>
+<p>服务器 (s) </p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
 <td><p>中介服务器出站</p></td>
 <td><p>中介</p>
-<p>服务器（s）</p></td>
-<td><p>任意</p></td>
+<p>服务器 (s) </p></td>
+<td><p>任何</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
 <td><p>会议助理入站</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>运行会议助理的前端服务器</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
 <td><p>会议助理出站</p></td>
 <td><p>运行会议助理的前端服务器</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V 会议入站</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>前端服务器</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V 会议出站</p></td>
 <td><p>前端服务器</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
 <td><p>Exchange 入站</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>Exchange 统一消息</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
 <td><p>应用程序共享服务器入站</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>应用程序共享服务器</p></td>
 <td><p>TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
 <td><p>应用程序共享服务器出站</p></td>
 <td><p>应用程序共享服务器</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange 出站</p></td>
 <td><p>Exchange 统一消息</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>UDP 和 TCP</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 <tr class="odd">
 <td><p>客户端</p></td>
-<td><p>任意</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
+<td><p>任何</p></td>
 <td><p>UDP</p></td>
 <td><p>指定的媒体端口范围</p></td>
-<td><p>任意</p></td>
+<td><p>任何</p></td>
 <td><p>不进行身份验证</p></td>
 </tr>
 </tbody>

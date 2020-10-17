@@ -12,20 +12,22 @@ ms:contentKeyID: 49733821
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e635cd289f0224a7f8d4106cecc3d8b047e9bb92
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e8792154c88c74049a785ddfb9ebbca55a52bc26
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207528"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514449"
 ---
+# <a name="errorreport-view-in-lync-server-2013"></a>Lync Server 2013 中的 ErrorReport 视图
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorreport-view-in-lync-server-2013"></a>Lync Server 2013 中的 ErrorReport 视图
+
 
 </div>
 
@@ -71,57 +73,57 @@ ErrorReport 视图存储有关已报告的错误的信息。 每条记录代表�
 </tr>
 <tr class="even">
 <td><p><strong>FromUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>导致出错的用户的 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>导致出错的用户的 URI 的类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>导致出错的用户的 URI 的类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromTenant</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>导致出错的用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>导致出错的用户的租户。 有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>成为错误报告目标的用户的 URI。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>成为错误报告目标的用户的 URI 类型。有关详细信息，请参阅 UriTypes 表。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ToTenant</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>成为错误报告目标的用户的租户。 有关详细信息，请参阅<a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>成为错误报告目标的用户的租户。 有关详细信息，请参阅 <a href="lync-server-2013-tenants-table.md">Lync Server 2013 中的租户表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUri</strong></p></td>
-<td><p>nvarchar （450）</p></td>
+<td><p>nvarchar (450) </p></td>
 <td><p>成为错误报告目标的会议的 URI。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUriType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>成为错误报告目标的会议的 URI 类型。 有关详细信息，请参阅<a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>成为错误报告目标的会议的 URI 类型。 有关详细信息，请参阅 <a href="lync-server-2013-uritypes-table.md">Lync Server 2013 中的 UriTypes 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>导致发出错误报告的会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>导致发出错误报告的会话请求的时间。 与 SessionIdSeq 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>用于标识导致发出错误报告的会话请求的 ID 编号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</p></td>
+<td><p>用于标识导致发出错误报告的会话请求的 ID 编号。 与 SessionIdTime 结合使用来唯一地标识会话。 有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogId</strong></p></td>
-<td><p>varstring （775）</p></td>
+<td><p>varstring (775) </p></td>
 <td><p>导致出错的会话的 SIP 对话 ID。格式为：</p>
 <p>对话框; 从-标签; 到-标记</p>
 <p>可以使用以下语法将此数据转换为文本格式：</p>
@@ -129,27 +131,27 @@ ErrorReport 视图存储有关已报告的错误的信息。 每条记录代表�
 </tr>
 <tr class="odd">
 <td><p><strong>ClientVersion</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>导致出错的用户所使用的客户端版本。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>导致出错的用户所使用的客户端。 有关更多详细信息，请参阅<a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a>。</p></td>
+<td><p>导致出错的用户所使用的客户端。 有关更多详细信息，请参阅 <a href="lync-server-2013-useragentdef-table.md">Lync Server 2013 中的 UserAgentDef 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientCategory</strong></p></td>
-<td><p>nvarchar （64）</p></td>
+<td><p>nvarchar (64) </p></td>
 <td><p>导致出错的用户所使用的客户端的类别名称。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Source</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>导致出错的服务器的名称（如果报告发送自服务器组件）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>应用程序</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td><p>导致出错的应用程序的名称（如果报告发送自服务器组件）。</p></td>
 </tr>
 <tr class="even">
@@ -159,18 +161,18 @@ ErrorReport 视图存储有关已报告的错误的信息。 每条记录代表�
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>
-<td><p>varchar （max）</p></td>
+<td><p>varchar (max) </p></td>
 <td><p>失败的请求的类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>varchar （max）</p></td>
+<td><p>varchar (max) </p></td>
 <td><p>失败的请求的内容类型。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallType</strong></p></td>
-<td><p>nvarchar （256）</p></td>
-<td><p>会话类型。 有关详细信息，请参阅<a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a>。</p></td>
+<td><p>nvarchar (256) </p></td>
+<td><p>会话类型。 有关详细信息，请参阅 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TelemetryId</strong></p></td>
@@ -194,11 +196,11 @@ ErrorReport 视图存储有关已报告的错误的信息。 每条记录代表�
 </tr>
 <tr class="even">
 <td><p><strong>MsDiagHeader</strong></p></td>
-<td><p>varchar （max）</p></td>
+<td><p>varchar (max) </p></td>
 <td><p>有关错误的其他信息。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>前端</strong></p></td>
+<td><p><strong>FrontEnd</strong></p></td>
 <td><p>nvarchar</p></td>
 <td><p>提交报告的前端服务器的完全限定域名。</p></td>
 </tr>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f2b88b43c41a5a8bf990a72f0fdfef1c5537e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 213e42a7477202cf40a0b06c79edde49976f0bbc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184815"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515269"
 ---
+# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>修改在 Lync Server 2013 中未明确支持或不受限制的客户端的默认操作
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>修改在 Lync Server 2013 中未明确支持或不受限制的客户端的默认操作
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-23_
 
 1.  使用分配给 CsUserAdministrator 角色或 CsAdministrator 角色的用户帐户登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“客户端”****，然后单击“客户端版本配置”****。
 
@@ -53,13 +55,13 @@ _**上次修改的主题：** 2013-02-23_
 
 5.  在“编辑客户端版本配置”**** 对话框中，验证是否已选中“启用版本控制”**** 复选框，然后在“默认操作”**** 下选择下列操作之一：
     
-      - ****   如果客户端版本与**客户端版本策略**列表中的任何筛选器都不匹配，则允许客户端登录。
+      - **允许**    如果客户端版本与**客户端版本策略**列表中的任何筛选器都不匹配，则允许客户端登录。
     
-      - ****   如果客户端版本与**客户端版本策略**列表中的任何筛选器都不匹配，则 Block 将阻止客户端登录。
+      - **阻止**    如果客户端版本与**客户端版本策略**列表中的任何筛选器都不匹配，则阻止客户端登录。
     
-      - ****   当客户端版本与**客户端版本策略**列表中的任何筛选器都不匹配时，with url 阻止客户端登录，并包含一条错误消息，其中包含可下载较新客户端的 URL。
+      - **带 URL**     的块如果客户端版本与 "**客户端版本策略**" 列表中的任何筛选器都不匹配，则阻止客户端登录，并包含一条错误消息，其中包含可下载较新客户端的 URL。
     
-      - **允许使用 URL**   如果客户端版本与**客户端版本策略**列表中的任何筛选器都不匹配，则允许客户端登录，并包括包含可在其中下载较新客户端的 URL 的错误消息。
+      - **允许 URL**    如果客户端版本与 "**客户端版本策略**" 列表中的任何筛选器都不匹配，则允许客户端登录，并包含一条错误消息，其中包含可下载较新客户端的 URL。
 
 6.  如果选择“使用 URL 阻止”****，则在“URL”**** 框中键入将包含在错误消息中的客户端下载 URL。
 
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 修改默认操作
 
-使用 Windows PowerShell 命令行接口和**CsClientVersionPolicy** cmdlet 来管理用户尝试使用不是明确支持或受客户端版本策略限制的客户端登录时所采取的默认操作。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+使用 Windows PowerShell 命令行接口和 **CsClientVersionPolicy** cmdlet 来管理用户尝试使用不是明确支持或受客户端版本策略限制的客户端登录时所采取的默认操作。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -101,7 +103,7 @@ _**上次修改的主题：** 2013-02-23_
 
 </div>
 
-有关详细信息，请参阅[CsClientVersionPolicy](https://technet.microsoft.com/library/Gg398876(v=OCS.15)) Cmdlet 的帮助主题。
+有关详细信息，请参阅 [CsClientVersionPolicy](https://technet.microsoft.com/library/Gg398876(v=OCS.15)) Cmdlet 的帮助主题。
 
 </div>
 

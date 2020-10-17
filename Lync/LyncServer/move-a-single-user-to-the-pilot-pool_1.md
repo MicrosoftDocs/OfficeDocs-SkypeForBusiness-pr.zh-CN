@@ -12,20 +12,22 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 200e929cb7dff4006ffe776504220618e5e7b570
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 41d89241cdddd129ea5e7fad38e7a3d761fb220b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756471"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514969"
 ---
+# <a name="move-a-single-user-to-the-pilot-pool"></a>将单个用户移动到引导池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-single-user-to-the-pilot-pool"></a>将单个用户移动到引导池
+
 
 </div>
 
@@ -57,7 +59,7 @@ _**上次修改的主题：** 2012-09-28_
 
 6.  创建一个筛选器，其中的 **Office Communications Server 用户**等于 **True**。
 
-7.  单击 "**查找**" 以搜索旧版 Office 通信服务器 2007 R2 用户。
+7.  单击 " **查找** " 以搜索旧版 Office 通信服务器 2007 R2 用户。
     
     ![在 Lync Server 控制面板中搜索 OCS 用户](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "在 Lync Server 控制面板中搜索 OCS 用户")  
 
@@ -71,7 +73,7 @@ _**上次修改的主题：** 2012-09-28_
     
     ![在 "移动用户" 对话框中设置目标池](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "在 "移动用户" 对话框中设置目标池")  
 
-12. 确认用户的 "**注册器池**" 列现在包含 Lync Server 2013 池，这表明已成功移动该用户
+12. 确认用户的 " **注册器池** " 列现在包含 Lync Server 2013 池，这表明已成功移动该用户
 
 </div>
 
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2012-09-28_
 
 4.  **RegistrarPool**标识现在指向 Lync Server 2013 池。 存在该标识即可确认已成功移动用户。
     
-    ![使用标识筛选器的 Get-csuser cmdlet 的输出](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "使用标识筛选器的 Get-csuser cmdlet 的输出")  
+    ![具有标识筛选器的 Get-CsUser cmdlet 的输出](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "具有标识筛选器的 Get-CsUser cmdlet 的输出")  
     
     <div>
     

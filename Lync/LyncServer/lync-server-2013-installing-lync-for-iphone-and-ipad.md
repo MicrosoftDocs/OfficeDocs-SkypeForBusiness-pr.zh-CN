@@ -12,20 +12,22 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91d8f26e0ae1b0777823380ca4888cad4c13ee90
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 42d83536b3fac3f4050ce76015ce69a6a28522a9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197015"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514189"
 ---
+# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>在 Lync Server 2013 中安装适用于 iPhone 和 iPad 的 Lync
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>在 Lync Server 2013 中安装适用于 iPhone 和 iPad 的 Lync
+
 
 </div>
 
@@ -45,9 +47,9 @@ _**上次修改的主题：** 2014-03-10_
 
 您可以通过将 Lync 2013 for iPhone 和 Lync 2013 for iPad 从其设备中的应用商店引导，来指示用户为其安装 Lync for iPhone。 也可以在线访问面向各种设备的 App Store。
 
-  - IPhone 的 Lync for iPhone 在\< <span></span>Ttp://www.apple.com/iphone/from-the-app-store/中的应用商店中可用 >
+  - IPhone 的 Lync for iPhone 在 \< h<span> ttp://www.apple.com/iphone/from-the-app-store/> 的应用商店中可用 </span>
 
-  - Lync for iPad 在\<超线程<span></span>tp://www.apple.com/ipad/from-the-app-store/的应用商店中可用 >
+  - 适用于 tp://www.apple.com/ipad/from-the-app-store/的应用商店中提供了 Lync for iPad \< ht<span> </span> >
 
 <div>
 
@@ -56,7 +58,7 @@ _**上次修改的主题：** 2014-03-10_
 > 尚未安装 Lync 2013 应用程序的 iPhone 用户以及尝试从会议邀请加入 Lync 会议的用户将被重定向到 "加入启动器" 页面。 此页面包含用于安装 Lync 2013 应用程序的链接。 但是，此链接将打开一个空白的 Safari 浏览器页面，而不是将用户定向到应用商店。 用户可以执行以下两个操作之一来解决此问题： 
 > <UL>
 > <LI>
-> <P>使用 "<STRONG>主页</STRONG>" 按钮将 safari 页面发送到背景，然后重新打开 safari。 出现通知 "在应用商店中打开此页面" 后，点击 "<STRONG>打开</STRONG>" 以转到应用商店中的 Lync 2013 下载。</P>
+> <P>使用 " <STRONG>主页</STRONG> " 按钮将 safari 页面发送到背景，然后重新打开 safari。 出现通知 "在应用商店中打开此页面" 后，点击 " <STRONG>打开</STRONG> " 以转到应用商店中的 Lync 2013 下载。</P>
 > <LI>
 > <P>手动打开应用商店，搜索 "Lync 2013"，然后下载应用程序。</P></LI></UL>
 
@@ -84,7 +86,7 @@ _**上次修改的主题：** 2014-03-10_
 
 2.  在联系人卡片中，点击“IM”**** 图标。
 
-3.  验证即时消息（IM）窗口是否出现，以及您是否可以键入并发送即时消息。
+3.  验证即时消息 (IM) 窗口是否显示，以及是否可以键入和发送即时消息。
 
 **测试电话拨出式会议**
 

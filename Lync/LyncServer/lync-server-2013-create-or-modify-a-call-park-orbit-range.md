@@ -12,20 +12,22 @@ ms:contentKeyID: 48184142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fe04aea0cc0d6ab38b0bfa9597b420d608c7597
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e1ecf0a1313519a74bb054c7fa3b441580758018
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180139"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514779"
 ---
+# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改呼叫寄存通道范围
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-call-park-orbit-range-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改呼叫寄存通道范围
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>使用 Lync Server 控制面板创建或修改停车呼叫的号码范围
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 [Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“语音功能”****，然后单击“呼叫寄存”****。
 
@@ -80,7 +82,7 @@ _**上次修改的主题：** 2012-11-01_
     > <LI>
     > <P>如果通道范围以字符 * 或 # 开头，则该范围必须大于 100。</P>
     > <LI>
-    > <P>有效值：必须与正则表达式字符串匹配（[\*| #]？ [1-9] \d{0,7}） |（[1-9] \d{0,8}）。 这意味着该值必须是一个以字符 * 或 # 或者 1 到 9 之间的一个数字开头的字符串（第一个字符不能为零）。 如果第一个字符是 * 或 #，则下一个字符必须是 1 到 9 之间的一个数字（不能为零）。 后续字符可以是0到9之间的任何数字，最多七个其他字符（例如，"#6000"、"*92000"、"* 95551212" 和 "915551212"）。 如果第一个字符不是 * 或 #，则必须是 1 到 9 之间的数字（不能为零），后跟最多八个字符，其中每个字符都是介于 0 到 9 之间的数字（例如，“915551212”、“41212”、“300”）。</P>
+    > <P>有效值：必须与正则表达式字符串 ( [ \* | #]？ [1-9] \d {0,7}) | ( [1-9] \d {0,8}) 。 这意味着该值必须是一个以字符 * 或 # 或者 1 到 9 之间的一个数字开头的字符串（第一个字符不能为零）。 如果第一个字符是 * 或 #，则下一个字符必须是 1 到 9 之间的一个数字（不能为零）。 后续字符可以是0到9之间的任何数字，最多可以有七个其他字符 (例如，"#6000"、"*92000"、"* 95551212" 和 "915551212" ) 。 如果第一个字符不是 * 或 #，则必须是 1 到 9 之间的数字（不能为零），后跟最多八个字符，其中每个字符都是介于 0 到 9 之间的数字（例如，“915551212”、“41212”、“300”）。</P>
     > <LI>
     > <P>每个池不应包含 50,000 个以上的通道。每个通道范围包含的通道数通常不超过 100，但是该数目可以更大，只要不超过 10,000。例如，不要将起始号码指定为“7000000”并将结束号码指定为“8000000”，而考虑将起始号码指定为“7000000”并将结束号码指定为“7000100”。</P></LI></UL>
 
@@ -97,7 +99,7 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-use-windows-powershell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>使用 Windows PowerShell 创建或修改停车呼叫的号码范围
 
-1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在 [Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 

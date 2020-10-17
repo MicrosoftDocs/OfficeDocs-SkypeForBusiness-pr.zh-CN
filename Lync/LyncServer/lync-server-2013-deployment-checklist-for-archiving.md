@@ -12,20 +12,22 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2df74bda74f1b9af01e1c4e73fa2f21b7119363f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ccec3917e892d1ba6c3e1841773c77e8c2d015d0
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188155"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514522"
 ---
+# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lync Server 2013 中存档的部署清单
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-archiving-in-lync-server-2013"></a>Lync Server 2013 中存档的部署清单
+
 
 </div>
 
@@ -45,9 +47,9 @@ _**上次修改的主题：** 2012-10-18_
 
 设置存档的方式取决于您所选的存储选项：
 
-  - 如果对部署中的所有用户使用 Microsoft Exchange 集成，则无需为用户配置 Lync Server 2013 存档策略。 相反，请将 Exchange 就地保留策略配置为支持驻留在 Exchange 2013 上的用户的存档，并将其邮箱置于就地保留状态。 有关配置这些策略的详细信息，请参阅 Exchange 2013 产品文档。
+  - 如果对部署中的所有用户使用 Microsoft Exchange 集成，则无需为用户配置 Lync Server 2013 存档策略。 相反，请将 Exchange In-Place 保留策略配置为支持驻留在 Exchange 2013 上的用户的存档，并将其邮箱置于 In-Place 保留状态。 有关配置这些策略的详细信息，请参阅 Exchange 2013 产品文档。
 
-  - 如果您不在部署中对所有用户使用 Microsoft Exchange 集成，则需要将 Lync Server 存档数据库（SQL Server 数据库）添加到拓扑中，然后发布它，并为用户配置策略和设置，然后才能这些用户的存档数据。 可以在部署初始拓扑的同时部署存档数据库，或在部署了至少一个前端池或 Standard Edition 服务器之后部署存档数据库。 本文档介绍如何通过将存档数据库添加到现有部署中来部署这些数据库。
+  - 如果您不在部署中对所有用户使用 Microsoft Exchange 集成，则需要将 Lync Server 存档数据库添加 (SQL Server 数据库) 到拓扑，然后发布该数据库，并为用户配置策略和设置，然后才能存档这些用户的数据。 可以在部署初始拓扑的同时部署存档数据库，或在部署了至少一个前端池或 Standard Edition 服务器之后部署存档数据库。 本文档介绍如何通过将存档数据库添加到现有部署中来部署这些数据库。
 
 如果在一个前端池或 Standard Edition 服务器中启用存档，则应为部署中的所有其他前端池和 Standard Edition 服务器启用存档。这是因为需要存档通信内容的用户可能会受邀参加其他池中承载的组 IM 对话或会议。如果承载对话或会议的池上没有启用存档，则无法存档完整会话。在这些情况下，仍可以为启用了存档的 IM 的用户进行存档，但不能为会议内容文件以及会议加入或离开事件存档。
 
@@ -89,7 +91,7 @@ _**上次修改的主题：** 2012-10-18_
 <tr class="odd">
 <td><p><strong>安装必备软硬件</strong></p></td>
 <td><ul>
-<li><p>若要使用 Microsoft Exchange 集成（使用 Exchange 2013 为部分或全部用户存档存储），您需要一个现有的 Exchange 2013 部署。</p></li>
+<li><p>若要使用 Microsoft Exchange 集成 (使用 Exchange 2013 存档) 的部分或所有用户的存储，需要一个现有的 Exchange 2013 部署。</p></li>
 <li><p>若要使用单独的存档数据库（使用 SQL Server 数据库）为部分或所有用户进行存档存储，需要将存储存档数据的服务器上的 SQL Server。</p></li>
 </ul>
 <div>
@@ -107,25 +109,25 @@ _**上次修改的主题：** 2012-10-18_
 <p>可支持性文档中的<a href="lync-server-2013-exchange-and-sharepoint-integration-support.md">Lync server 2013 中的 Exchange Server 和 SharePoint 集成支持</a>。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>创建适当的内部拓扑以支持存档（仅当不为部署中的所有用户使用 Microsoft Exchange 集成时）</strong></p></td>
-<td><p>运行拓扑生成器以将 Lync Server 2013 存档数据库（SQL Server 数据库）添加到拓扑，然后发布拓扑。</p></td>
+<td><p><strong>创建适当的内部拓扑，以支持仅当不为部署中的所有用户使用 Microsoft Exchange 集成时 (存档) </strong></p></td>
+<td><p>运行拓扑生成器以将 Lync Server 2013 存档数据库 (SQL Server 数据库) 到拓扑，然后发布拓扑。</p></td>
 <td><p>要定义拓扑以包含存档数据库，需具有作为本地用户组的成员的帐户。</p>
-<p>若要发布拓扑，请参阅 domain admins 组和 RTCUniversalServerAdmins 组的成员，以及对用于 Lync Server 2013 文件存储的文件共享具有完全控制权限（读/写/修改）的帐户（以便拓扑生成器可以配置所需的 Dacl）。</p></td>
+<p>若要发布拓扑，该帐户是 domain admins 组和 RTCUniversalServerAdmins 组的成员，并且具有对用于 Lync Server 2013 文件 (存储的文件共享上的完全控制权限 (读/写/修改) ，以便拓扑生成器可以配置所需的 Dacl) 。</p></td>
 <td><p>在部署文档中<a href="lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md">将存档数据库添加到现有 Lync Server 2013 部署</a>中。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>配置服务器到服务器身份验证（仅在使用 Microsoft Exchange 集成时）</strong></p></td>
-<td><p>将服务器配置为在 Lync Server 2013 与 Exchange 2013 之间启用身份验证。 我们建议在启用存档之前，运行<strong>CsExchangeStorageConnectivity testuser_sipUri – Folder 转储程序</strong>以验证 Exchange 存档存储连接。</p></td>
+<td><p><strong>仅在使用 Microsoft Exchange 集成时配置服务器到服务器身份验证 () </strong></p></td>
+<td><p>将服务器配置为在 Lync Server 2013 与 Exchange 2013 之间启用身份验证。 我们建议在启用存档之前，运行 <strong>CsExchangeStorageConnectivity testuser_sipUri – Folder 转储程序</strong> 以验证 Exchange 存档存储连接。</p></td>
 <td><p>具有用于管理服务器上的证书的相应权限的帐户。</p></td>
-<td><p>在部署文档或操作文档中<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">管理 Lync server 2013 中的服务器到服务器身份验证（OAuth）和合作伙伴应用程序</a>。</p></td>
+<td><p>在部署文档或操作文档中<a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">管理 Lync server 2013 中的服务器到服务器身份验证 (OAuth) 和合作伙伴应用程序</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>配置存档策略和配置</strong></p></td>
-<td><p>配置存档，包括是否使用 Microsoft Exchange 集成、全局策略和任何站点和用户策略（未使用 Microsoft Exchange 集成进行所有数据存储），以及特定的存档选项（如关键模式和数据）导出和清除。</p>
-<p>如果使用 Microsoft Exchange 集成，请根据需要配置 Exchange 就地保留策略。</p></td>
+<td><p>配置存档，包括是否使用 Microsoft Exchange 集成、全局策略和任何站点和用户策略 (不将 Microsoft Exchange 集成用于所有数据存储) ，以及特定的存档选项（如关键模式和数据导出和清除）。</p>
+<p>如果使用 Microsoft Exchange 集成，请根据需要配置 Exchange In-Place 保留策略。</p></td>
 <td><p>RTCUniversalServerAdmins 组（仅限于 Windows PowerShell）或向 CSArchivingAdministrator 或 CSAdministrator 角色分配用户。</p></td>
 <td><p>在部署文档中<a href="lync-server-2013-configuring-support-for-archiving.md">配置对 Lync Server 2013 存档的支持</a>。</p>
-<p>Exchange 产品文档（如果使用 Microsoft Exchange 集成）。</p></td>
+<p>如果使用 Microsoft Exchange 集成) ，则为 Exchange 产品文档 (。</p></td>
 </tr>
 </tbody>
 </table>

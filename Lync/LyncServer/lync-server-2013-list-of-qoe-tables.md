@@ -12,20 +12,22 @@ ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29ccbf0340a68a1f03908ebe25b86abfc04d0114
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2c5078ac2e8e97364455d88d32c79a03c58f0c2f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186565"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513829"
 ---
+# <a name="list-of-qoe-tables-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 表的列表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-qoe-tables-in-lync-server-2013"></a>Lync Server 2013 中的 QoE 表的列表
+
 
 </div>
 
@@ -71,7 +73,7 @@ _**上次修改的主题：** 2012-10-02_
 <td><p>将网络连接类型映射到在用户体验质量数据库中的其他位置使用的网络连接标识符。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Lync Server 2013 中的 PurgeSettings 表（QoE）</a></p></td>
+<td><p><a href="lync-server-2013-purgesettings-table-qoe.md">Lync Server 2013 中的 PurgeSettings 表 (QoE) </a></p></td>
 <td><p>存储指定是否（以及何时）将从 QoE 数据库中自动删除过期的用户体验质量记录的信息。</p></td>
 </tr>
 <tr class="even">
@@ -79,7 +81,7 @@ _**上次修改的主题：** 2012-10-02_
 <td><p>存储用于呼叫的路由信息。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表（QoE）</a></p></td>
+<td><p><a href="lync-server-2013-useragentdef-table-qoe.md">Lync Server 2013 中的 UserAgentDef 表 (QoE) </a></p></td>
 <td><p>将用户代理标识符映射到代理的描述性名称。</p></td>
 </tr>
 <tr class="even">

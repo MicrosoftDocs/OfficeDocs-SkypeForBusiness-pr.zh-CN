@@ -12,20 +12,22 @@ ms:contentKeyID: 48184771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 663494ad52fd8351df7a036fd2954dff0497c608
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6d23e9aba844cb03779b220ed8d898a2e7664891
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186795"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514169"
 ---
+# <a name="ipaddress-table-in-lync-server-2013"></a>Lync Server 2013 中的 IPAddress 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="ipaddress-table-in-lync-server-2013"></a>Lync Server 2013 中的 IPAddress 表
+
 
 </div>
 
@@ -63,8 +65,8 @@ IPAddress 表将 IP 地址映射到可在用户体验质量数据库中的任何
 <td><p>指定的 IP 地址的唯一标识符。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>址</strong></p></td>
-<td><p>varchar （50）</p></td>
+<td><p><strong>IPAddress</strong></p></td>
+<td><p>varchar (50) </p></td>
 <td><p>独特</p></td>
 <td><p>映射到 IpAddressKey 的唯一 IP 地址（例如，189.168.1.1）。这可能是 IPv4 地址或 IPv6 地址。</p></td>
 </tr>

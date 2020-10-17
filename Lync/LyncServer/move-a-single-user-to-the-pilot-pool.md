@@ -12,20 +12,22 @@ ms:contentKeyID: 48185905
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f3bd233f610d340c1854cf18337183e5f988426
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: af6c9892b717b43d3f19804b640245bc8d183b76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755836"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514979"
 ---
+# <a name="move-a-single-user-to-the-pilot-pool"></a>将单个用户移动到引导池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="move-a-single-user-to-the-pilot-pool"></a>将单个用户移动到引导池
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755836"
 
 _**上次修改的主题：** 2012-09-26_
 
-您可以使用 Lync Server 2013 控制面板或 Lync Server 2013 命令行管理程序，将用户从 Lync Server 2010 池移动到 Lync Server 2013 引导池。 在下面的示例中，在 "注册器池" 列中， **pool01.contoso.net**是 Lync Server 2010 池，所有这六个用户都连接到此池。 使用以下过程将用户移动到使用 Lync Server 2013 控制面板和 Lync Server 命令行管理程序的 Lync Server 2013 池。
+您可以使用 Lync Server 2013 控制面板或 Lync Server 2013 命令行管理程序，将用户从 Lync Server 2010 池移动到 Lync Server 2013 引导池。 在下面的示例中，在 "注册器池" 列中， **pool01.contoso.net** 是 Lync Server 2010 池，所有这六个用户都连接到此池。 使用以下过程将用户移动到使用 Lync Server 2013 控制面板和 Lync Server 命令行管理程序的 Lync Server 2013 池。
 
 <div>
 
@@ -63,7 +65,7 @@ _**上次修改的主题：** 2012-09-26_
     
     !["移动用户，目标注册器池" 对话框](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png ""移动用户，目标注册器池" 对话框")  
 
-8.  确认用户的 "**注册器池**" 列现在包含 Lync Server 2013 池，这表明已成功移动该用户。
+8.  确认用户的 " **注册器池** " 列现在包含 Lync Server 2013 池，这表明已成功移动该用户。
 
 </div>
 
@@ -83,7 +85,7 @@ _**上次修改的主题：** 2012-09-26_
 
 4.  **RegistrarPool**标识现在指向 Lync Server 2013 池。 存在该标识即可确认已成功移动用户。
     
-    ![使用标识筛选器的 Get-csuser cmdlet 的输出](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "使用标识筛选器的 Get-csuser cmdlet 的输出")  
+    ![具有标识筛选器的 Get-CsUser cmdlet 的输出](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "具有标识筛选器的 Get-CsUser cmdlet 的输出")  
     
     <div>
     

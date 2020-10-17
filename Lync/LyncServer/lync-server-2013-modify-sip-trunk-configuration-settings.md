@@ -12,20 +12,22 @@ ms:contentKeyID: 49733703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5eb0d3d535a4ba5b3e8ffd9a9c712edd601fbbbc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 356c418c620cbbf38a97da2df652b5767f9fced9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184895"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515319"
 ---
+# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中修改 SIP 中继配置设置
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a>在 Lync Server 2013 中修改 SIP 中继配置设置
+
 
 </div>
 
@@ -82,7 +84,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 <tr class="even">
 <td><p>加密支持级别</p></td>
 <td><p>SRTPMode</p></td>
-<td><p>指示用于保护中介服务器与服务提供商的 PSTN 网关、IP-PBX 或 SBC 之间的媒体流量的支持级别。 对于媒体旁路情况，该值必须与媒体配置中的 EncryptionLevel 设置兼容。 媒体配置通过使用<a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">set-csmediaconfiguration</a>和<a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">set-csmediaconfiguration</a> cmdlet 进行设置。</p>
+<td><p>指示用于保护中介服务器与服务提供商的 PSTN 网关、IP-PBX 或 SBC 之间的媒体流量的支持级别。 对于媒体旁路情况，该值必须与媒体配置中的 EncryptionLevel 设置兼容。 媒体配置通过使用 <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">set-csmediaconfiguration</a> 和 <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">set-csmediaconfiguration</a> cmdlet 进行设置。</p>
 <p>允许的值包括：</p>
 <ul>
 <li><p>Required：必须使用 SRTP 加密。</p></li>
@@ -96,7 +98,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 <td><p>Enable3pccRefer</p>
 <p>EnableReferSupport</p></td>
 <td><p>如果设置为“允许将引用发送到网关”<strong></strong>，则指示中继支持接收来自中介服务器的引用请求。</p>
-<p>如果设置为“允许使用第三方呼叫控制的引用”<strong></strong>，则指示 3pcc 协议可用于允许转接的呼叫绕过宿主网站。 3pcc 也称为&quot;第三方控件，&quot;在使用第三方连接一对呼叫者时（例如，操作员将来自某人 a 的呼叫放入个人 B 时）发生此事件。</p></td>
+<p>如果设置为“允许使用第三方呼叫控制的引用”<strong></strong>，则指示 3pcc 协议可用于允许转接的呼叫绕过宿主网站。 3pcc 也称为 &quot; "第三方控制"， &quot; 当第三方用于连接一对 (呼叫者时，将发生此事件。例如，操作员将来自人员 a 的呼叫放入个人 B) 中。</p></td>
 </tr>
 <tr class="even">
 <td><p>启用媒体旁路</p></td>
@@ -171,7 +173,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
 
 > [!NOTE]  
-> Lync Server Remove-cstrunkconfiguration cmdlet 支持未在 Lync Server 控制面板中显示的其他属性。 有关详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">remove-cstrunkconfiguration</A> cmdlet 的帮助主题。
+> Lync Server Remove-cstrunkconfiguration cmdlet 支持未在 Lync Server 控制面板中显示的其他属性。 有关详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">remove-cstrunkconfiguration</A> cmdlet 的帮助主题。
 
 
 
@@ -181,11 +183,11 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
 ## <a name="to-modify-sip-trunk-configuration-settings-by-using-lync-server-control-panel"></a>使用 Lync Server 控制面板修改 SIP 中继配置设置
 
-1.  在 "Lync Server 控制面板" 中，单击 "**语音路由**"，然后单击 "**中继配置**"。
+1.  在 "Lync Server 控制面板" 中，单击 " **语音路由**"，然后单击 " **中继配置**"。
 
 2.  在“Trunk 配置”**** 选项卡上，双击要修改的中继配置设置。请注意，您一次只能编辑一个设置集合。如果要对多个集合进行同一更改，请改用 Windows PowerShell。
 
-3.  在 "**编辑中继配置**" 对话框中，进行适当的选择，然后单击 **"确定"**。
+3.  在 " **编辑中继配置** " 对话框中，进行适当的选择，然后单击 **"确定"**。
 
 4.  集合的“状态”**** 属性将更新为“未提交”****。若要提交更改和删除集合，请单击“提交”****，然后单击“全部提交”****。
 

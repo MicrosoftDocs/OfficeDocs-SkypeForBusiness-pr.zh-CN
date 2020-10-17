@@ -12,20 +12,22 @@ ms:contentKeyID: 48184304
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52815327d185355c6c5762252e4ad9b34e77ea85
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8cf9f63fbe5340b3a241fc60b8623f54906dd8cc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196995"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515759"
 ---
+# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>在 Lync Server 2013 中删除经过身份验证的用户权限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="authenticated-user-permissions-are-removed-in-lync-server-2013"></a>在 Lync Server 2013 中删除经过身份验证的用户权限
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42196995"
 
 _**上次修改的主题：** 2013-02-21_
 
-在锁定的 Active Directory 环境中，从默认的 Active Directory 容器中删除经过身份验证的用户访问控制项（Ace），包括用户、配置或系统以及用户和计算机的组织单位（Ou）。存储对象。 删除经过身份验证的用户 Ace 可防止对 Active Directory 信息进行读取访问。 但是，删除 Ace 会为 Lync Server 2013 创建问题，因为它依赖于这些容器的读取权限以允许用户运行域准备。
+在锁定的 Active Directory 环境中， (Ace) 的经过身份验证的用户访问控制项将从默认的 Active Directory 容器中删除，包括用户、配置或系统以及存储用户和计算机对象的组织单位 (Ou) 。 删除经过身份验证的用户 Ace 可防止对 Active Directory 信息进行读取访问。 但是，删除 Ace 会为 Lync Server 2013 创建问题，因为它依赖于这些容器的读取权限以允许用户运行域准备。
 
 在这种情况下，域管理员组中的成员身份（若要运行域准备、服务器激活和池创建）不再授予对存储在默认容器中的 Active Directory 信息的读取权限。 您必须手动授予对林根域中各个容器的读取访问权限，以检查先决条件林准备过程是否已完成。
 
@@ -63,19 +65,19 @@ _**上次修改的主题：** 2013-02-21_
     
     如果从域、配置或系统容器中删除了经过身份验证的用户 Ace，则必须向容器授予只读权限，如以下步骤所述。
 
-3.  右键单击容器，然后单击 "**属性**"。
+3.  右键单击容器，然后单击 " **属性**"。
 
-4.  单击“安全性”**** 选项卡。
+4.  单击“安全”选项卡。****
 
 5.  单击“**高级**”。
 
 6.  在“**权限**”选项卡上，单击“**添加**”。
 
-7.  使用以下格式键入接收权限的用户或组的名称： `domain\account name`，然后单击 **"确定"**。
+7.  使用以下格式键入接收权限的用户或组的名称： `domain\account name` ，然后单击 **"确定"**。
 
-8.  在 "**对象**" 选项卡上的 "**应用**于" 中，单击 "**仅此对象**"。
+8.  在 " **对象** " 选项卡上的 " **应用**于" 中，单击 " **仅此对象**"。
 
-9.  在 "**权限**" 中，通过单击 "**允许**列：**列表内容**"、"**读取所有属性**" 和 "**读取权限**"，选择以下允许 ace。
+9.  在 " **权限**" 中，通过单击 " **允许** 列： **列表内容**"、" **读取所有属性**" 和 " **读取权限**"，选择以下允许 ace。
 
 10. 单击“**确定**”两次。
 

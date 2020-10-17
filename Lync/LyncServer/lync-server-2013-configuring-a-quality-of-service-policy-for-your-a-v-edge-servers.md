@@ -12,20 +12,22 @@ ms:contentKeyID: 48183444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30fece45c4b13bd9cd2c9243dd21cdac1d779733
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 69b9beb119ebd7189c31f9e239ac45409758ba00
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204388"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515689"
 ---
+# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>为 Lync Server 2013 中的 A/V 边缘服务器配置服务质量策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-quality-of-service-policy-for-your-av-edge-servers-in-lync-server-2013"></a>为 Lync Server 2013 中的 A/V 边缘服务器配置服务质量策略
+
 
 </div>
 
@@ -65,7 +67,7 @@ _**上次修改的主题：** 2012-10-19_
 
 4.  在第三页上，确保选中“任意源 IP 地址”**** 和“任意目标 IP 地址”****，然后单击“下一步”****。这两个设置确保将管理这些数据包，与哪台计算机（IP 地址）发送这些数据包及哪台计算机（IP 地址）将接收这些数据包无关。
 
-5.  在第四页上，从“选择此 QoS 策略所适用的协议”**** 下拉列表中选择“TCP 和 UDP”****。 TCP （传输控制协议）和 UDP （用户数据报协议）是 Lync Server 及其客户端应用程序最常使用的两种网络协议。
+5.  在第四页上，从“选择此 QoS 策略所适用的协议”**** 下拉列表中选择“TCP 和 UDP”****。 TCP (传输控制协议) 和 UDP (用户数据报协议) 是 Lync Server 及其客户端应用程序最常使用的两种网络协议。
 
 6.  在标题“指定目标端口号”**** 下，选择“从此目标端口或范围”****。在对应的文本框中，键入为音频传输保留的端口范围。例如，如果为音频通信保留了端口 49152 至端口 57500，则使用以下格式输入此端口范围：“49152:57500”****。单击“完成”****。
 
@@ -97,7 +99,7 @@ _**上次修改的主题：** 2012-10-19_
 
 2.  在“运行”**** 对话框中，键入“regedit”****，然后按 Enter 键。
 
-3.  在注册表编辑器中，展开 **"\_HKEY\_本地计算机**"，展开 "**系统**"，展开 " **CurrentControlSet**"，展开 "**服务**"，然后展开 " **Tcpip**"。
+3.  在注册表编辑器中，展开 " **HKEY \_ 本地 \_ 计算机**"，展开 " **系统**"，展开 " **CurrentControlSet**"，展开 " **服务**"，然后展开 " **Tcpip**"。
 
 4.  右键单击“Tcpip”****，指向“新建”****，然后单击“项”****。创建新注册表项后，键入“QoS”****，然后按 Enter 键以重命名该项。
 

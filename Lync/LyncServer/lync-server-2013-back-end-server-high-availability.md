@@ -12,20 +12,22 @@ ms:contentKeyID: 48185358
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335f7680a98eb53414a8b438975d79327b515946
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6f5b2fe64b4f32a43ff1462ab27daef04694c99b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196965"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515749"
 ---
+# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013 中的后端服务器高可用性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="back-end-server-high-availability-in-lync-server-2013"></a>Lync Server 2013 中的后端服务器高可用性
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-08-12_
 
 如果在与用于灾难恢复的另一个前端池配对的池中使用 SQL 镜像或 SQL 群集，则应在两个池中使用相同的后端高可用性解决方案。 不应使用 sql 群集将 SQL 镜像与池进行配对。
 
-在部署 SQL 镜像时，池中的所有 Lync Server 数据库都将进行镜像，其中包括中央管理存储（如果位于此池中）以及响应组应用程序数据库和呼叫寄存应用程序数据库（如果这些应用程序在池中运行。
+在部署 SQL 镜像时，池中的所有 Lync Server 数据库都将进行镜像，其中包括中央管理存储（如果位于此池中）以及响应组应用程序数据库和呼叫寄存应用程序数据库（如果这些应用程序在池中运行）。
 
 通过使用 SQL 镜像，您无需对服务器使用共享存储。每台服务器将其数据库副本保留在本地存储上。
 
@@ -51,13 +53,13 @@ _**上次修改的主题：** 2013-08-12_
 
 如果您使用见证服务器，则可对多对后端服务器使用一个见证服务器。见证服务器和后端服务器对之间没有严格的 1:1 对应关系。对多对后端服务器使用一个见证服务器的部署不如为每对后端服务器使用单独的见证服务器的拓扑有弹性。
 
-有关 SQL 群集支持的详细信息，请参阅[Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)。 有关部署 SQL 群集的详细信息，请参阅[CONFIGURE SQL Server 集群 For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)。
+有关 SQL 群集支持的详细信息，请参阅 [Lync Server 2013 中的数据库软件支持](lync-server-2013-database-software-support.md)。 有关部署 SQL 群集的详细信息，请参阅 [CONFIGURE SQL Server 集群 For Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)。
 
 <div>
 
 ## <a name="recovery-time-for-automatic-back-end-server-failover-with-sql-mirroring"></a>使用 SQL 镜像自动后端服务器故障转移的恢复时间
 
-对于 SQL 镜像的自动后端故障转移，用于恢复时间目标（RTO）的工程目标为5分钟。 由于使用了同步的 SQL 镜像，我们在后端服务器失败期间无需考虑数据丢失（除了在服务器间移动数据期间前端服务器和后端服务器同时宕机的罕见情况）。 恢复点目标 (RPO) 的设计目标为 5 分钟。
+对于 SQL 镜像的自动后端故障转移，在恢复时间目标 (RTO) 的工程目标为5分钟。 由于使用了同步的 SQL 镜像，我们在后端服务器失败期间无需考虑数据丢失（除了在服务器间移动数据期间前端服务器和后端服务器同时宕机的罕见情况）。 恢复点目标 (RPO) 的设计目标为 5 分钟。
 
 </div>
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2013-08-12_
 
 如果使用 SQL 镜像并配置了见证服务器，并且主体发生故障，后端服务器故障转移会自动快速地进行。 活动用户应该不太会注意到正在进行的会话出现中断。
 
-如果未配置见证服务器，则管理员手动调用故障转移需要一些时间。 在这段时间内，活动用户可能会受到影响。 他们将继续大约 30 分钟的正常会话。 如果仍未还原主主服务器，或者管理员尚未故障转移到备份，则用户将切换到弹性模式，这意味着他们无法在 Lync Server 上执行需要永久更改的任务（如添加联系人）。
+如果未配置见证服务器，则管理员手动调用故障转移需要一些时间。 在这段时间内，活动用户可能会受到影响。 他们将继续大约 30 分钟的正常会话。 如果仍未还原主主服务器，或者管理员尚未故障转移到备份，则用户将切换到 "恢复模式"，这意味着他们无法在 Lync Server (（如添加联系人) ）上执行需要永久更改的任务。
 
 如果主体和镜像后端服务器均失败，或者其中一台服务器和见证服务器失败，则后端服务器将变得不可用（即使它是仍在工作的主体）。在此情况下，活动用户将在一段时间之后切换至恢复能力模式。
 

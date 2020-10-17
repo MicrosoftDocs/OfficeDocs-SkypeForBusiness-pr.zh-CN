@@ -12,20 +12,22 @@ ms:contentKeyID: 48706007
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 322b700b807f8654e96572a3c040ddd7fe0d1e5f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 70d8b61b67b8c6156b3875d2a9c0d5c9b6870459
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186615"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513949"
 ---
+# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器合规性表的列表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器合规性表的列表
+
 
 </div>
 
@@ -52,14 +54,14 @@ _**上次修改的主题：** 2012-10-06_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblcompliancedata.md">Lync Server 2013 中的 tblComplianceData</a></p></td>
 <td><p>包含已配置的适配器尚未处理的合规性事件。</p>
-<p>此表包括与持久聊天相关的事件，如聊天消息和文件下载。 （参与者事件由 tblComplianceParticipant 表跟踪。）</p>
+<p>此表包括与持久聊天相关的事件，如聊天消息和文件下载。  (参与者事件由 tblComplianceParticipant 表跟踪。 ) </p>
 <p>（处理该表中的事件的服务器列在 tblComplianceFanout 表中。）</p></td>
 </tr>
 <tr class="even">

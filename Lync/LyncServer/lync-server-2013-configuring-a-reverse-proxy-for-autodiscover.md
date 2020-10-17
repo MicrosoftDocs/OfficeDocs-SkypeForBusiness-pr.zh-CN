@@ -12,20 +12,22 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 568e96b999a74ec621f8c7386f24e83d3848721c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b0fb05667ea6ebcb8176353d42fda5cf2eaadfd7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208018"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515579"
 ---
+# <a name="configuring-a-reverse-proxy-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中为自动发现配置反向代理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-reverse-proxy-for-autodiscover-in-lync-server-2013"></a>在 Lync Server 2013 中为自动发现配置反向代理
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**上次修改的主题：** 2012-12-12_
 
 使用自动发现的客户端的自动发现和支持需要修改现有的 web 发布规则或为反向代理创建新的 web 发布规则。 修改或创建新的发布规则并不依赖于更新或不更新反向代理证书上的主题备用名称列表的决定。
 
-如果您决定对初始 Lync Server 2013 自动发现服务请求使用 HTTPS，并在反向代理证书上更新 "主题备用名称" 列表，则需要将更新的公共证书分配给位于 "安全套接字层（SSL）" 的安全套接字层（SSL）侦听器。您的反向代理。 对外部（公用）证书所需的更新将包含 lyncdiscover. 的主题备用名称（SAN）条目。\<域名称\>。 然后，您需要修改外部 web 服务的现有侦听器或为外部自动发现服务 URL 创建新的 web 发布规则，例如**lyncdiscover.contoso.com**。 如果您没有用于前端池和控制器池的外部 Lync Server 2013 Web 服务 URL 的 web 发布规则（如果部署了控制器），您还需要为此发布一个规则。
+如果您决定对初始 Lync Server 2013 自动发现服务请求使用 HTTPS，并在反向代理证书上更新 "主题备用名称" 列表，则需要将更新的公共证书分配给反向代理上的安全套接字层 (SSL) 侦听器。 对外部 (公用) 证书所需的更新将包含 lyncdiscover. 的主题备用名称 (SAN) 条目。 \<domain name\> 。 然后，您需要修改外部 web 服务的现有侦听器或为外部自动发现服务 URL 创建新的 web 发布规则，例如 **lyncdiscover.contoso.com**。 如果你的前端池和控制器池的外部 Lync Server 2013 Web 服务 URL 尚无 web 发布规则 (如果已部署了控制器) ，还需要为此发布一个规则。
 
 <div>
 
 
 > [!NOTE]  
-> 只要分配给侦听器的证书同时包含针对外部 Web 服务和自动发现服务的必要的使用者名称和使用者替代名称，反向代理发布规则和侦听器就可以为这两种服务提供服务。 有关 web 侦听器和发布规则的默认配置的详细信息，请参阅为<A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 设置反向代理服务器</A>，了解更多详细信息。
+> 只要分配给侦听器的证书同时包含针对外部 Web 服务和自动发现服务的必要的使用者名称和使用者替代名称，反向代理发布规则和侦听器就可以为这两种服务提供服务。 有关 web 侦听器和发布规则的默认配置的详细信息，请参阅为 <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Lync Server 2013 设置反向代理服务器</A> ，了解更多详细信息。
 
 
 
@@ -81,17 +83,17 @@ _**上次修改的主题：** 2012-12-12_
 
 6.  在“服务器连接安全性”**** 页上，选择“使用 SSL 连接到发布的 Web 服务器或服务器场”****。
 
-7.  在 "**内部发布详细信息**" 页上的 "**内部站点名称**" 中，键入控制器池的完全限定域名（FQDN）（例如，lyncdir01）。 如果要为前端池上的外部 Web 服务 URL 创建规则，请键入前端池的 FQDN （例如，lyncpool01）。
+7.  在 " **内部发布详细信息** " 页上的 " **内部站点名称**" 中，键入控制器池的完全限定的域名 (FQDN)  (例如，lyncdir01) 。 如果要为前端池上的外部 Web 服务 URL 创建规则，请键入前端池的 FQDN (例如，lyncpool01) 。
 
-8.  在 "**内部发布详细信息**" 页上的 "**路径（可选）**" 中，键入** / **作为要发布的文件夹的路径，然后选择 **"转发原始主机标头"**。
+8.  在 " **内部发布详细信息** " 页上的 " **路径 (可选) **中，键入 **/\*** 作为要发布的文件夹的路径，然后选择 **" 转发原始主机标头 "**。
 
 9.  在“公共名称细节”**** 页上，执行以下操作：
     
       - 在“接受请求”**** 下，选择“此域名”****。
     
-      - 在 "**公用名称**" 中，键入**lyncdiscover.。**\<sipdomain\> （外部自动发现服务 URL）。 如果要为前端池上的外部 Web 服务 URL 创建规则，请在前端池上键入外部 Web 服务的 FQDN （例如，lyncwebextpool01.contoso.com）。
+      - 在 " **公用名称**" 中，键入 **lyncdiscover.。**\<sipdomain\>  (外部自动发现服务 URL) 。 如果要为前端池上的外部 Web 服务 URL 创建规则，请在前端池上键入外部 Web 服务的 FQDN (例如，lyncwebextpool01.contoso.com) 。
     
-      - 在 "**路径**" ** /** 中，键入。
+      - 在 " **路径**" 中，键入 **/\*** 。
 
 10. 在“选择 Web 侦听器”**** 页上的“Web 侦听器”**** 中，选择具有已更新的公共证书的现有 SSL 侦听器。
 
@@ -170,17 +172,17 @@ _**上次修改的主题：** 2012-12-12_
 
 6.  在“服务器连接安全性”**** 页上，选择“使用不安全的连接连接发布的 Web 服务器或服务器场”****。
 
-7.  在 "**内部发布详细信息**" 页上的 "**内部站点名称**" 中，键入您的前端池的内部 Web 服务 FQDN （例如，lyncpool01）。
+7.  在 " **内部发布详细信息** " 页上的 " **内部站点名称**" 中，键入前端池的内部 Web 服务 FQDN (例如，lyncpool01) 。
 
-8.  在 "**内部发布详细信息**" 页上的 "**路径（可选）**" 中，键入** / **作为要发布的文件夹的路径，然后选择 "**转发原始主机标头"，而不是 "内部站点名称" 字段中指定的主机头**。
+8.  在 " **内部发布详细信息** " 页上的 " **路径 (可选) **中，键入 **/\*** 作为要发布的文件夹的路径，然后选择" **转发原始主机标头，而不是在内部站点名称 "字段中指定的主机头**。
 
 9.  在“公共名称细节”**** 页上，执行以下操作：
     
       - 在“接受请求”**** 下，选择“此域名”****。
     
-      - 在 "**公用名称**" 中，键入**lyncdiscover.。**\<sipdomain\> （外部自动发现服务 URL）。
+      - 在 " **公用名称**" 中，键入 **lyncdiscover.。**\<sipdomain\>  (外部自动发现服务 URL) 。
     
-      - 在 "**路径**" ** /** 中，键入。
+      - 在 " **路径**" 中，键入 **/\*** 。
 
 10. 在“选择 Web 侦听器”**** 页上的“Web 侦听器”**** 中，选择 Web 侦听器或使用新建 Web 侦听器定义向导新建一个 Web 侦听器。
 

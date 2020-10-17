@@ -12,20 +12,22 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7f33e72c6f7d02787f53d16de3a42a0b3227d67
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 309c8f7ac7da4e40f2b16e5d13015330b2d9b611
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214234"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514520"
 ---
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中为灾难恢复部署配对的前端池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>在 Lync Server 2013 中为灾难恢复部署配对的前端池
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2013-02-21_
 
 1.  如果池是新的且尚未定义，请使用拓扑生成器创建池。
 
-2.  在拓扑生成器中，右键单击两个池中的一个池，然后单击 "**编辑属性**"。
+2.  在拓扑生成器中，右键单击两个池中的一个池，然后单击 " **编辑属性**"。
 
 3.  在左侧窗格中单击“复原”****，然后在右侧窗格中选择“关联的备份池”****。
 
@@ -97,7 +99,7 @@ _**上次修改的主题：** 2013-02-21_
 
 
 > [!NOTE]  
-> "<STRONG>语音的自动故障转移和故障回复</STRONG>" 选项和拓扑生成器中的关联时间间隔仅适用于在 Lync Server 2010 中引入的语音恢复功能。 选择此选项并不意味着本文档中讨论的池故障转移将自动执行。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
+> " <STRONG>语音的自动故障转移和故障回复</STRONG> " 选项和拓扑生成器中的关联时间间隔仅适用于在 Lync Server 2010 中引入的语音恢复功能。 选择此选项并不意味着本文档中讨论的池故障转移将自动执行。 池故障转移和故障回复始终需要管理员手动且分别调用故障转移和故障回复 cmdlet。
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ca9fd0b05eba812730c926685fedb244d60a29e
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fbcd509d0abd05c12bd3443fe35fdd8c3f8a8885
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186625"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513969"
 ---
+# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Lync Server 2013 中的 CDR 表的列表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-cdr-tables-in-lync-server-2013"></a>Lync Server 2013 中的 CDR 表的列表
+
 
 </div>
 
@@ -52,7 +54,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -66,7 +68,7 @@ _**上次修改的主题：** 2012-10-18_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-deregistertype-table.md">Lync Server 2013 中的 DeRegisterType 表</a></p></td>
-<td><p>存储可能的用户取消注册原因&quot;的列表，如客户端启动、&quot; &quot;注册过期、&quot; &quot;客户端崩溃&quot;等。</p></td>
+<td><p>存储可能的用户取消注册原因的列表，如 &quot; 客户端启动、 &quot; &quot; 注册过期、 &quot; &quot; 客户端崩溃等 &quot; 。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-medialist-table.md">Lync Server 2013 中的 MediaList 表</a></p></td>
@@ -103,7 +105,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -198,7 +200,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -237,7 +239,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -268,7 +270,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -303,17 +305,17 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-voipdetails-table.md">Lync Server 2013 中的 VoipDetails 表</a></p></td>
-<td><p>对于每个双方 VoIP/PSTN 呼叫，存储有关呼叫的信息，例如 VoIP 电话的电话 ID、使用的网关以及断开连接方。 将<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>称为 "呼叫开始/结束时间" 和 "响应代码"。</p>
+<td><p>对于每个双方 VoIP/PSTN 呼叫，存储有关呼叫的信息，例如 VoIP 电话的电话 ID、使用的网关以及断开连接方。 将 <a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a> 称为 "呼叫开始/结束时间" 和 "响应代码"。</p>
 <div>
 
 > [!NOTE]  
-> 如果呼叫的一方是 VoIP 用户，或者呼叫涉及中介服务器，则会在此表中创建一个记录。 在<A href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 的 SessionDetails 表</A>中捕获有关不涉及公用电话交换网（PSTN）电话的 VoIP/voip 呼叫的信息。
+> 如果呼叫的一方是 VoIP 用户，或者呼叫涉及中介服务器，则会在此表中创建一个记录。 在 <A href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 的 SessionDetails 表</A>中捕获了有关 VoIP/voip 呼叫的信息，而不涉及公开交换的电话网络 (PSTN) 电话。
 
 
 </div></td>
@@ -337,13 +339,13 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-locations-table.md">Lync Server 2013 中的位置表</a></p></td>
-<td><p>对于每个紧急呼叫（例如增强型 9-1-1 (E9-1-1) 呼叫），存储有关该呼叫的位置信息。 将<a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a>称为 "呼叫开始/结束时间" 和 "响应代码"。</p>
+<td><p>对于每个紧急呼叫（例如增强型 9-1-1 (E9-1-1) 呼叫），存储有关该呼叫的位置信息。 将 <a href="lync-server-2013-sessiondetails-table.md">Lync Server 2013 中的 SessionDetails 表</a> 称为 "呼叫开始/结束时间" 和 "响应代码"。</p>
 <div>
 
 > [!NOTE]  
@@ -371,7 +373,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -420,7 +422,7 @@ _**上次修改的主题：** 2012-10-18_
 <thead>
 <tr class="header">
 <th>Table</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>

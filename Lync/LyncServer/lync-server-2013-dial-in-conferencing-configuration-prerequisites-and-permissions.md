@@ -12,20 +12,22 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 791fa7e697622a4274655a77a2f02a6cdee140cb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a6c394d3535acb9b1842ac49f13eda1459d68c95
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213448"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514505"
 ---
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Lync Server 2013 中的电话拨入式会议配置先决条件和权限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a>Lync Server 2013 中的电话拨入式会议配置先决条件和权限
+
 
 </div>
 
@@ -57,13 +59,13 @@ _**上次修改的主题：** 2012-06-20_
 
   - 至少一个 Lync Server 2013 中介服务器和至少一个 PSTN 网关
 
-当您使用拓扑生成器定义和发布拓扑，然后部署前端池或 Standard Edition server 时，可以部署这些组件。 如果要部署企业语音，应先部署它，然后再配置电话拨入式会议。 如果不部署企业语音，则可以在部署前端池或 Standard Edition 服务器时部署中介服务器和公用电话交换网（PSTN）网关。
+当您使用拓扑生成器定义和发布拓扑，然后部署前端池或 Standard Edition server 时，可以部署这些组件。 如果要部署企业语音，应先部署它，然后再配置电话拨入式会议。 如果不部署企业语音，则可以在部署前端池或 Standard Edition Server 时，将中介服务器和公共交换电话网络 (PSTN) 网关部署。
 
 <div>
 
 
 > [!NOTE]
-> 如果要从 Office 通信服务器 2007 R2 升级到 Lync Server 2013，请在您计划用于承载 Lync Server 2013 会议的每个池中部署电话拨入式会议。 有关迁移电话拨入式会议的详细信息，请参阅<A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013</A>。
+> 如果要从 Office 通信服务器 2007 R2 升级到 Lync Server 2013，请在您计划用于承载 Lync Server 2013 会议的每个池中部署电话拨入式会议。 有关迁移电话拨入式会议的详细信息，请参阅 <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">从 Office 通信服务器 2007 R2 迁移到 Lync Server 2013</A>。
 
 
 
@@ -73,9 +75,9 @@ _**上次修改的主题：** 2012-06-20_
 
   - 如果要迁移到 Lync Server 2013，请将最新的更新应用到 Office 通信服务器 2007 R2 环境。
 
-  - 使用拓扑生成器来设计和配置拓扑。 指定会议工作负荷时，已选择电话拨入式会议选项。 有关定义拓扑的详细信息，请参阅部署文档中的在[Lync Server 2013 中定义和配置拓扑](lync-server-2013-defining-and-configuring-the-topology.md)。
+  - 使用拓扑生成器来设计和配置拓扑。 指定会议工作负荷时，已选择电话拨入式会议选项。 有关定义拓扑的详细信息，请参阅部署文档中的在 [Lync Server 2013 中定义和配置拓扑](lync-server-2013-defining-and-configuring-the-topology.md) 。
 
-  - 已发布拓扑，并已设置前端池或 Standard Edition Server。 有关发布拓扑和安装 Lync Server 2013 的详细信息，请参阅部署文档中的[部署 Lync server 2013](lync-server-2013-deploying-lync-server.md) 。
+  - 已发布拓扑，并已设置前端池或 Standard Edition Server。 有关发布拓扑和安装 Lync Server 2013 的详细信息，请参阅部署文档中的 [部署 Lync server 2013](lync-server-2013-deploying-lync-server.md) 。
     
     <div>
     
@@ -95,7 +97,7 @@ _**上次修改的主题：** 2012-06-20_
     
     </div>
 
-  - 部署了企业语音。 如果不部署企业语音，请在 Enterprise Edition 前端服务器或 Standard Edition 服务器上并置中介服务器，或者部署了独立的中介服务器，并且部署了 PSTN 网关。 有关部署企业语音的详细信息，请参阅部署文档中的在[Lync Server 2013 中部署企业语音](lync-server-2013-deploying-enterprise-voice.md)。 有关安装独立中介服务器和 PSTN 网关的详细信息，请参阅部署文档中的在[Lync Server 2013 中部署中介服务器和定义对等方](lync-server-2013-deploying-mediation-servers-and-defining-peers.md)。
+  - 部署了企业语音。 如果不部署企业语音，请在 Enterprise Edition 前端服务器或 Standard Edition 服务器上并置中介服务器，或者部署了独立的中介服务器，并且部署了 PSTN 网关。 有关部署企业语音的详细信息，请参阅部署文档中的在 [Lync Server 2013 中部署企业语音](lync-server-2013-deploying-enterprise-voice.md) 。 有关安装独立中介服务器和 PSTN 网关的详细信息，请参阅部署文档中的在 [Lync Server 2013 中部署中介服务器和定义对等方](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) 。
 
 下面的流程图显示配置电话拨入式会议之前必须执行的步骤，以及配置电话拨入式会议时需要执行的步骤。
 
@@ -119,11 +121,11 @@ _**上次修改的主题：** 2012-06-20_
 
 配置电话拨入式会议需要以下任一管理角色，具体取决于任务：
 
-  - **CsVoiceAdministrator**   此管理员角色可以创建、配置和管理与语音相关的设置和策略。
+  - **CsVoiceAdministrator**    此管理员角色可以创建、配置和管理与语音相关的设置和策略。
 
-  - **CsUserAdministrator**   此管理员角色可以对 Lync Server 启用和禁用用户，并将现有策略（如会议策略和 PIN 策略）分配给用户。
+  - **CsUserAdministrator**    此管理员角色可以为用户启用和禁用 Lync Server，并将现有策略（如会议策略和 PIN 策略）分配给用户。
 
-  - **CsAdministrator**   此管理员角色可以执行 CsVoiceAdministrator 和 CsUserAdministrator 的所有任务。
+  - **CsAdministrator**    此管理员角色可以执行 CsVoiceAdministrator 和 CsUserAdministrator 的所有任务。
 
 </div>
 

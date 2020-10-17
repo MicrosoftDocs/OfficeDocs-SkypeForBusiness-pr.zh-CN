@@ -12,20 +12,22 @@ ms:contentKeyID: 48185013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7252b2cda2f957dc72e006b7ce298bc5dd87fd5a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4409a0c5688d131b34c792230c992142dd4f9c51
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206298"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514679"
 ---
+# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改未分配号码范围
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-unassigned-number-range-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改未分配号码范围
+
 
 </div>
 
@@ -53,9 +55,9 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-use-lync-server-control-panel-to-configure-unassigned-phone-numbers"></a>使用 Lync Server 控制面板配置未分配的电话号码
 
-1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅[Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
+1.  以 RTCUniversalServerAdmins 组成员的身份或者以 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色成员的身份登录计算机。 有关详细信息，请参阅 [Lync Server 2013 中的委派安装权限](lync-server-2013-delegate-setup-permissions.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“语音功能”****，然后单击“未分配号码”****。
 
@@ -86,7 +88,7 @@ _**上次修改的主题：** 2012-11-01_
     > <LI>
     > <P>如果号码范围的起始号码或结束号码包含分机号，那么号码范围的起始号码和结束号码都必须包含分机号，并且起始号码和结束号码的分机号必须相同。</P>
     > <LI>
-    > <P>该号码必须与正则表达式（电话：）匹配（\+)?[1-9] \d{0,17}（; ext = [1-9] \d{0,9}）？。 这意味着此号码可能以字符串 tel:（如果没有指定此字符串，将自动为您添加）、加号 (+) 以及一个 1 到 9 之间的数字开头。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。</P></LI></UL>
+    > <P>该号码必须与正则表达式 (电话： ) ？ (\+) ？ [1-9] \d {0,17} (; ext = [1-9] \d {0,9}) ？。 这意味着此号码可能以字符串 tel:（如果没有指定此字符串，将自动为您添加）、加号 (+) 以及一个 1 到 9 之间的数字开头。 电话号码最长为 17 位数，并可以后跟分机号，格式为 ;ext= 后跟分机号。</P></LI></UL>
 
     
     </div>
@@ -126,7 +128,7 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-use-windows-powershell-to-configure-unassigned-phone-numbers"></a>使用 Windows PowerShell 配置未分配的电话号码
 
-1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
+1.  登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在 [Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 

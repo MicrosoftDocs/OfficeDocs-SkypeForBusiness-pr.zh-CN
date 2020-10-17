@@ -12,20 +12,22 @@ ms:contentKeyID: 49733614
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f80192db366f5a691724078ba8f8c6948b3472f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9bd2dd62116f0d48a2a3169c91d8d04486c86418
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202678"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514669"
 ---
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-lync-server-2013"></a>删除 Lync Server 2013 中现有的 SIP 中继配置设置集合
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-lync-server-2013"></a>删除 Lync Server 2013 中现有的 SIP 中继配置设置集合
+
 
 </div>
 
@@ -45,7 +47,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
   - 每个中继上是否需要安全实时协议 (SRTP) 加密。
 
-安装 Microsoft Lync Server 2013 时，将为您创建一个全局 SIP 中继配置设置集合。 此全局集合设置无法删除。 但是，可以使用 Lync Server 控制面板或[remove-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) cmdlet 将全局集合中的属性 "重置" 为其默认值。 例如，如果已将 Enable3pccRefer 属性设置为 True，则当您重置全局集合时，Enable3pccRefer 属性将还原为其默认值 False。
+安装 Microsoft Lync Server 2013 时，将为您创建一个全局 SIP 中继配置设置集合。 此全局集合设置无法删除。 但是，可以使用 Lync Server 控制面板或 [remove-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) cmdlet 将全局集合中的属性 "重置" 为其默认值。 例如，如果已将 Enable3pccRefer 属性设置为 True，则当您重置全局集合时，Enable3pccRefer 属性将还原为其默认值 False。
 
 管理员还可以在站点作用域或服务作用域（针对单个 PSTN 网关）创建自定义中继配置设置；这些自定义设置可以删除。在删除这些自定义设置时，请注意以下事项：
 
@@ -57,7 +59,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
 ## <a name="to-remove-trunk-configuration-settings-with-lync-server-control-panel"></a>使用 Lync Server 控制面板删除中继配置设置
 
-1.  在 "Lync Server 控制面板" 中，单击 "**语音路由**"，然后单击 "**中继配置**"。
+1.  在 "Lync Server 控制面板" 中，单击 " **语音路由** "，然后单击 " **中继配置**"。
 
 2.  在“Trunk 配置”**** 选项卡上，选择要删除的 SIP 中继配置设置的集合，单击“编辑”****，然后单击“删除”****。若要在同一操作中删除多个集合，请单击第一个要删除的集合，然后按住 Ctrl 键并单击任何其他要删除的集合。
 
@@ -75,7 +77,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 删除中继配置设置
 
-您可以使用 Windows PowerShell 和**remove-cstrunkconfiguration** cmdlet 删除中继配置设置。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+您可以使用 Windows PowerShell 和 **remove-cstrunkconfiguration** cmdlet 删除中继配置设置。 您可以从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行此 cmdlet。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 
@@ -107,7 +109,7 @@ SIP 中继配置设置定义了中介服务器和服务提供商的公用电话�
 
 </div>
 
-有关详细信息，请参阅[remove-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) cmdlet 的帮助主题。
+有关详细信息，请参阅 [remove-cstrunkconfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15)) cmdlet 的帮助主题。
 
 </div>
 

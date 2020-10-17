@@ -12,20 +12,22 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1531b7b103e3df6f2d165a4fd6fcd3abf100132
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 65735c6b5eba4ff8d15aced6fcc94e38591bdb3e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179619"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515389"
 ---
+# <a name="failure-distribution-report-in-lync-server-2013"></a>Lync Server 2013 中的故障分布报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="failure-distribution-report-in-lync-server-2013"></a>Lync Server 2013 中的故障分布报告
+
 
 </div>
 
@@ -69,7 +71,7 @@ _**上次修改的主题：** 2012-10-21_
 
   - [Lync Server 2013 中的对等活动诊断报告](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
 
-从故障分布报告中，您可以单击以下任一指标，以[在 Lync Server 2013 中查看故障列表报告](lync-server-2013-failure-list-report.md)：
+从故障分布报告中，您可以单击以下任一指标，以 [在 Lync Server 2013 中查看故障列表报告](lync-server-2013-failure-list-report.md)：
 
   - 主要诊断原因（会话）
 
@@ -155,7 +157,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 <ul>
 <li><p>各种</p></li>
 <li><p>对等</p></li>
-<li><p>发布会</p></li>
+<li><p>Conference</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -163,11 +165,11 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 <td><p>指示相应活动已成功还是失败。选择下列选项之一：</p>
 <ul>
 <li><p>各种</p></li>
-<li><p>Success</p></li>
+<li><p>成功</p></li>
 <li><p>预期失败</p></li>
 <li><p>意外失败</p></li>
 </ul>
-<p>&quot;预期故障&quot;是预期发生的故障。 例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。 &quot;意外故障&quot;是指看起来好像是以其他正常运行的系统出现的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
+<p>&quot;预期故障 &quot; 是预期发生的故障。 例如，如果用户将其状态设置为“请勿打扰”，那么向该用户发出的任何呼叫应该都会失败。 &quot;意外故障 &quot; 是指看起来好像是以其他正常运行的系统出现的故障。 例如，如果呼叫者处于呼叫等待状态，则不应该终止呼叫。 如果终止，则会被标记为意外失败。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>诊断 ID</strong></p></td>
@@ -376,7 +378,7 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 <tr class="odd">
 <td><p><strong>Rank</strong></p></td>
 <td><p>否</p></td>
-<td><p>基于 Lync Server 2010 组件的失败会话的相对等级（例如，ExumRouting、GroupChat 或 MediationServer）。</p></td>
+<td><p>基于 Lync Server 2010 组件的失败会话的相对等级 (例如，ExumRouting、GroupChat 或 MediationServer) 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>主要组件</strong></p></td>

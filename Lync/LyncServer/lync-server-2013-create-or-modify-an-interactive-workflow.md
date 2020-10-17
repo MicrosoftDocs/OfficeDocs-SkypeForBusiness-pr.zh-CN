@@ -12,20 +12,22 @@ ms:contentKeyID: 48185260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21ce360c523573af90daecca55fba1eb8a52876d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 79af52b46c25796127fcb345360ed9f424ca3bf3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202858"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514759"
 ---
+# <a name="create-or-modify-an-interactive-workflow-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改交互式工作流
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-an-interactive-workflow-in-lync-server-2013"></a>在 Lync Server 2013 中创建或修改交互式工作流
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2013-09-11_
 
 
 > [!NOTE]  
-> 您可以使用 Lync Server 命令行管理程序或响应组配置工具来创建和修改交互式工作流。 您可以从 Lync Server 控制面板访问响应组配置工具，也可以通过键入以下 URL 直接从 web 浏览器打开网页： <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>。
+> 您可以使用 Lync Server 命令行管理程序或响应组配置工具来创建和修改交互式工作流。 您可以从 Lync Server 控制面板访问响应组配置工具，也可以通过键入以下 URL 直接从 web 浏览器打开网页： <STRONG>Https://</STRONG> &lt; webPoolFqdn &gt; <STRONG>/RgsConfig</STRONG>。
 
 
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2013-09-11_
 
 1.  以 RTCUniversalServerAdmins 组成员的身份登录，或以支持响应组的预定义管理角色之一的成员身份登录。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“响应组”****，然后单击“工作流”****。
 
@@ -67,7 +69,7 @@ _**上次修改的主题：** 2013-09-11_
     
 
     > [!NOTE]  
-    > 将打开 "响应组配置" 工具。 您还可以通过键入以下 URL，直接从 web 浏览器打开响应组配置工具： <STRONG>https://</STRONG>&lt;webPoolFqdn&gt;<STRONG>/RgsConfig</STRONG>。
+    > 将打开 "响应组配置" 工具。 您还可以通过键入以下 URL，直接从 web 浏览器打开响应组配置工具： <STRONG>Https://</STRONG> &lt; webPoolFqdn &gt; <STRONG>/RgsConfig</STRONG>。
 
     
     </div>
@@ -95,7 +97,7 @@ _**上次修改的主题：** 2013-09-11_
     
 
     > [!NOTE]  
-    > 全局外部访问策略适用于响应组应用程序。 您可以使用 Lync Server 控制面板或使用<STRONG>set-csexternalaccesspolicy</STRONG> Cmdlet 将 EnableOutsideAccess 参数设置为 True，从而为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关如何将策略应用于用户的详细信息，请参阅<A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">在 Lync Server 2013 中管理外部访问策略</A>。 有关联合身份验证设置的详细信息，请参阅 Lync Server Management Shell 文档中的<STRONG>set-csexternalaccesspolicy</STRONG> 。
+    > 全局外部访问策略适用于响应组应用程序。 您可以使用 Lync Server 控制面板或使用 <STRONG>set-csexternalaccesspolicy</STRONG> Cmdlet 将 EnableOutsideAccess 参数设置为 True，从而为响应组联盟配置全局策略。 请记住，除非为全局策略设置分配站点或用户策略，否则这些设置适用于所有用户。 因此，在针对响应组更改此设置之前，请确保联盟设置满足您的组织的要求。 有关如何将策略应用于用户的详细信息，请参阅 <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">在 Lync Server 2013 中管理外部访问策略</A>。 有关联合身份验证设置的详细信息，请参阅 Lync Server Management Shell 文档中的 <STRONG>set-csexternalaccesspolicy</STRONG> 。
 
     
     </div>
@@ -128,7 +130,7 @@ _**上次修改的主题：** 2013-09-11_
     
 
     > [!NOTE]  
-    > 不要在显示名称中&lt;包含 ""&gt;或 "" 字符。 不要使用以下保留的显示名称：RGS Presence Watcher 或 Announcement Service。
+    > 不要 &lt; 在显示名称中包含 "" 或 " &gt; " 字符。 不要使用以下保留的显示名称：RGS Presence Watcher 或 Announcement Service。
 
     
     </div>
@@ -137,7 +139,7 @@ _**上次修改的主题：** 2013-09-11_
 
 13. 在“显示号码”**** 中，键入希望显示的响应组号码（例如，+1 (425) 555-0165）。
 
-14. Optional在 "**说明**" 中，键入要在 Lync 客户端中的联系人卡片上显示的工作流的说明。
+14.  (可选) 在 " **说明**" 中，键入要在 Lync 客户端中的联系人卡片上显示的工作流的说明。
 
 15. 如果工作流将由响应组管理员进行管理，则在“工作流类型”**** 中，选择“受管理”****。 执行以下操作可向工作流分配响应组管理员：
     
@@ -164,7 +166,7 @@ _**上次修改的主题：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 不要在输入的文本中包含 HTML 标记。 如果包含 HTML 标记，您将收到一条错误消息。
+        > 不要在输入的文本中包含 HTML 标记，否则将收到错误消息。
 
         
         </div>
@@ -175,7 +177,7 @@ _**上次修改的主题：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息，请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
+        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息，请参阅 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
 
         
         </div>
@@ -199,7 +201,7 @@ _**上次修改的主题：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用 <STRONG>New-CSRgsHoursOfBusiness</STRONG> cmdlet 来定义预设日程表。 有关详细信息，请参阅<A href="lync-server-2013-optional-define-response-group-business-hours.md">（可选）在 Lync Server 2013 中定义响应组工作时间</A>。 选择预设日程表时，“天”<STRONG></STRONG>、“开放”<STRONG></STRONG>和“关闭”<STRONG></STRONG>中会自动填写响应组可以应答的日期和时间。
+        > 之前您必须至少已定义一个预设日程表才能选择该选项。 可使用 <STRONG>New-CSRgsHoursOfBusiness</STRONG> cmdlet 来定义预设日程表。 有关详细信息，请参阅 <A href="lync-server-2013-optional-define-response-group-business-hours.md"> (Optional) 在 Lync Server 2013 中定义响应组工作时间</A>。 选择预设日程表时，“天”<STRONG></STRONG>、“开放”<STRONG></STRONG>和“关闭”<STRONG></STRONG>中会自动填写响应组可以应答的日期和时间。
 
         
         </div>
@@ -238,7 +240,7 @@ _**上次修改的主题：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息，请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
+        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息，请参阅 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
 
         
         </div>
@@ -247,11 +249,11 @@ _**上次修改的主题：** 2013-09-11_
     
       - 要断开呼叫，请单击“断开呼叫”****。
     
-      - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”****，然后键入语音邮件地址。 语音\<邮件地址的格式为用户名\>@\<域名\> （例如，bob@contoso.com）。
+      - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”****，然后键入语音邮件地址。 语音邮件地址的格式为 \<username\> @ \<domainname\> (例如，bob@contoso.com) 。
     
-      - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”****，然后键入该用户的地址。 用户\<地址的格式为 username\>@\<域名。\>
+      - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”****，然后键入该用户的地址。 用户地址的格式为 \<username\> @ \<domainname\> 。
     
-      - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”****，然后键入该电话号码。 电话\<号码的格式为号码\>@\<域名\> （例如，+ 14255550121@contoso.com）。 域名可用来将呼叫者路由至正确的目标。
+      - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”****，然后键入该电话号码。 电话号码的格式为 \<number\> @ \<domainname\> (例如，+ 14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 24. 在“步骤 5 指定您的假日”**** 下，单击定义响应组停止营业日期的一个或多个假日集对应的复选框。
     
@@ -259,7 +261,7 @@ _**上次修改的主题：** 2013-09-11_
     
 
     > [!NOTE]  
-    > 配置工作流之前，您需要先定义假日和假日集。 使用 <STRONG>New-CsRgsHoliday</STRONG> 和 <STRONG>New-CsRgsHolidaySet</STRONG> cmdlet 可定义假日和假日集。 有关详细信息，请参阅<A href="lync-server-2013-optional-define-response-group-holiday-sets.md">（可选）在 Lync Server 2013 中定义响应组假日集</A>。
+    > 配置工作流之前，您需要先定义假日和假日集。 使用 <STRONG>New-CsRgsHoliday</STRONG> 和 <STRONG>New-CsRgsHolidaySet</STRONG> cmdlet 可定义假日和假日集。 有关详细信息，请参阅 <A href="lync-server-2013-optional-define-response-group-holiday-sets.md"> (Optional) 在 Lync Server 2013 中定义响应组假日集</A>。
 
     
     </div>
@@ -283,7 +285,7 @@ _**上次修改的主题：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
+        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的音频文件格式的详细信息，请参阅 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
 
         
         </div>
@@ -292,11 +294,11 @@ _**上次修改的主题：** 2013-09-11_
     
       - 要断开呼叫，请单击“断开呼叫”****。
     
-      - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”****，然后键入语音邮件地址。 语音\<邮件地址的格式为用户名\>@\<域名\> （例如，bob@contoso.com）。
+      - 要将呼叫转接到语音邮件，请单击“转接到语音邮件”****，然后键入语音邮件地址。 语音邮件地址的格式为 \<username\> @ \<domainname\> (例如，bob@contoso.com) 。
     
-      - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”****，然后键入该用户的地址。 用户\<地址的格式为 username\>@\<域名。\>
+      - 要将呼叫转接到另一个用户，请单击“转接到 SIP URI”****，然后键入该用户的地址。 用户地址的格式为 \<username\> @ \<domainname\> 。
     
-      - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”****，然后键入该电话号码。 电话\<号码的格式为号码\>@\<域名\> （例如，+ 14255550121@contoso.com）。 域名可用来将呼叫者路由至正确的目标。
+      - 要将呼叫转接到另一个电话号码，请单击“转接到电话号码”****，然后键入该电话号码。 电话号码的格式为 \<number\> @ \<domainname\> (例如，+ 14255550121@contoso.com) 。 域名可用来将呼叫者路由至正确的目标。
 
 27. 在“步骤 6 配置保持音乐”**** 下，执行以下操作之一，选择希望呼叫者在等待代理时听到的音乐：
     
@@ -308,7 +310,7 @@ _**上次修改的主题：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息，请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
+        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息，请参阅 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
 
         
         </div>
@@ -341,7 +343,7 @@ _**上次修改的主题：** 2013-09-11_
         
 
         > [!NOTE]  
-        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息，请参阅<A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
+        > 用户提供的所有音频文件都必须满足特定要求。 有关受支持的文件格式的详细信息，请参阅 <A href="lync-server-2013-technical-requirements-for-response-group.md">Lync Server 2013 中响应组的技术要求</A>。
 
         
         </div>

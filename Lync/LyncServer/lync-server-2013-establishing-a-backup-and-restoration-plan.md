@@ -12,20 +12,22 @@ ms:contentKeyID: 51541499
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b08b2588ea7510bf2a6ac2de544d0dce7b0fe134
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 64d9842ccb9d83fb7ce81c326008e36722e45764
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204798"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514219"
 ---
+# <a name="establishing-a-backup-and-restoration-plan-for-lync-server-2013"></a>为 Lync Server 2013 建立备份和还原计划
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="establishing-a-backup-and-restoration-plan-for-lync-server-2013"></a>为 Lync Server 2013 建立备份和还原计划
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2013-02-17_
 
 ## <a name="developing-a-backup-and-restoration-plan"></a>制定备份和还原计划
 
-在开发 Lync Server 的备份和还原策略之后，请使用它记录详细的备份和还原计划。 您的计划应清楚地传达有关备份数据和设置的优先级及要求。 您可以使用为 lync server [2013 建立备份和还原策略](lync-server-2013-establishing-a-backup-and-restoration-strategy.md)以及[Lync server 2013 备份和还原工作](lync-server-2013-backup-and-restoration-worksheets.md)表中的工作表，以促进策略的文档。 您的计划还应包含用于决定何时以及如何还原服务的条件。
+在开发 Lync Server 的备份和还原策略之后，请使用它记录详细的备份和还原计划。 您的计划应清楚地传达有关备份数据和设置的优先级及要求。 您可以使用为 lync server [2013 建立备份和还原策略](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) 以及 [Lync server 2013 备份和还原工作](lync-server-2013-backup-and-restoration-worksheets.md) 表中的工作表，以促进策略的文档。 您的计划还应包含用于决定何时以及如何还原服务的条件。
 
 在制定计划时，您需要考虑以下各项，并考虑以下事项：
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2013-02-17_
 
   - 您如何快速获得备用服务器。
 
-  - 使用您的策略进行恢复所需的时间。 考虑组织对恢复时间目标（RTO）的要求。
+  - 使用您的策略进行恢复所需的时间。 考虑组织对恢复时间目标 (RTO) 的要求。
 
 修改本主题中的备份和还原过程，并根据需要添加和删除过程，以反映部署中的服务器和组件。 您还可以将适当的详细信息（如备份计划）添加到相应的过程，以确保信息不被忽略。
 
@@ -113,15 +115,15 @@ _**上次修改的主题：** 2013-02-17_
 
 备份和还原计划应包括持续完成备份过程所需的所有信息。要传达给负责的团队成员的主要信息包括：
 
-  - 负责备份每个服务器的团队或个人（指定为个人或角色）。
+  - 团队或个人 (指定为负责备份每个服务器的个人或角色) 。
 
   - 用于备份每个服务器的特定计划。
 
-  - 每种数据类型（设置、数据库和文件共享）的备份位置。
+  -  (设置、数据库和文件共享) 的每种数据类型的备份位置。
 
   - 要使用的备份过程，包括完成每个步骤所需的工具。
 
-  - 完成备份所需的信息，如[Lync Server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中所述。
+  - 完成备份所需的信息，如 [Lync Server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中所述。
 
   - 验证方法用于帮助确保正确备份数据和设置并可用于还原，这可能包括定期审核和测试还原。
 
@@ -133,11 +135,11 @@ _**上次修改的主题：** 2013-02-17_
 
   - 用于确定哪些还原过程最适合特定情况的条件。
 
-  - 每个还原方案中还原服务和恢复时间目标（RTO）的时间估计。
+  - 在每个还原方案中还原服务和恢复时间目标 (RTO) 的时间估计。
 
   - 要使用的还原过程，包括完成每个过程所需的工具。
 
-  - 还原数据和设置所需的信息。 工作表在[Lync Server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中提供。
+  - 还原数据和设置所需的信息。 工作表在 [Lync Server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中提供。
 
 </div>
 
@@ -151,9 +153,9 @@ _**上次修改的主题：** 2013-02-17_
 
   - 备份的数据和设置是可访问的。
 
-  - 可以在备份和还原计划中指定的恢复时间目标（RTO）时间内执行还原过程，并在结果中满足所有业务要求。
+  - 可以在恢复时间目标中执行还原过程， (RTO) 在备份和还原计划中指定的时间，并使结果满足所有业务要求。
 
-  - 备份工作表已完成并经过验证，并且它们存储在安全的位置。 这些工作表在[Lync Server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中提供。
+  - 备份工作表已完成并经过验证，并且它们存储在安全的位置。 这些工作表在 [Lync Server 2013 的备份和还原工作表](lync-server-2013-backup-and-restoration-worksheets.md)中提供。
 
   - 还原过程已经过测试和验证，可按预期工作，就像备份和还原计划中指定的那样。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48184653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b7c22281a468f6658ea2a404d17864392d25ecf
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4f9d730bcdf17c9f78aee25ba3cec56f99a67086
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192735"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515179"
 ---
+# <a name="modify-the-default-url-filter-in-lync-server-2013"></a>在 Lync Server 2013 中修改默认 URL 筛选器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-default-url-filter-in-lync-server-2013"></a>在 Lync Server 2013 中修改默认 URL 筛选器
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42192735"
 
 _**上次修改的主题：** 2012-06-26_
 
-通过使用即时消息（IM）筛选器，Lync Server 2013 提供了全局 URL 筛选器，用于阻止在整个 Lync Server 2013 部署中的用户之间的 IM 会话中包含的特定 Url。 通过使用 Lync Server 控制面板，您可以执行以下操作：
+通过使用即时消息 (IM) 筛选器，Lync Server 2013 提供了全局 URL 筛选器，该筛选器将阻止在所有 Lync Server 2013 部署中的用户之间的 IM 会话中包含的特定 Url。 通过使用 Lync Server 控制面板，您可以执行以下操作：
 
   - 阻止即时消息对话中的所有或部分 URL。
 
@@ -45,14 +47,14 @@ _**上次修改的主题：** 2012-06-26_
 
   - 允许特定 URL，并对每个包含 URL 的即时消息发出警告。
 
-此外，可选择阻止包含特定文件类型的 URL，也可以允许服务器本地 Intranet 区域内部的 URL (Intranet URL) 通过服务器，从而仅阻止 Internet URL。 有关 URL 筛选的详细信息，请参阅[Lync Server 2013 中的为即时消息（IM）配置文件传输和 URL 筛选](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)。
+此外，可选择阻止包含特定文件类型的 URL，也可以允许服务器本地 Intranet 区域内部的 URL (Intranet URL) 通过服务器，从而仅阻止 Internet URL。 有关 URL 筛选的详细信息，请参阅 [在 Lync Server 2013 中配置即时消息 (IM) 的文件传输和 URL 筛选](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)。
 
 <div>
 
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中为即时消息（IM）配置文件传输和 URL 筛选](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[在 Lync Server 2013 中配置即时消息 (IM) 的文件传输和 URL 筛选](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
 [在 Lync Server 2013 for a 特定网站中创建新的文件传输筛选器](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
 [在 Lync Server 2013 中创建一个新的 URL 筛选器，以处理 IM 对话中的超链接](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
 [在 Lync Server 2013 中修改默认文件传输筛选器](lync-server-2013-modify-the-default-file-transfer-filter.md)  

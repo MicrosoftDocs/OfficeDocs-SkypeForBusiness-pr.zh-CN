@@ -12,20 +12,22 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 692cfd5f04a80a674fffb5e3a0f2f1890309c371
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1eaaebf1fb695bc1ee6ea1b86f980a666cf0a70
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192835"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515529"
 ---
+# <a name="dns-summary---single-director-in-lync-server-2013"></a>DNS 摘要-Lync Server 2013 中的单个控制器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---single-director-in-lync-server-2013"></a>DNS 摘要-Lync Server 2013 中的单个控制器
+
 
 </div>
 
@@ -67,7 +69,7 @@ _**上次修改的主题：** 2012-10-20_
 <td><p>内部 DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>控制器</p></td>
-<td><p>来自边缘服务器的内部边缘接口的入站会话初始协议（SIP）</p></td>
+<td><p>来自边缘服务器的内部边缘接口 (SIP) 的入站会话初始协议</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS/A</p></td>

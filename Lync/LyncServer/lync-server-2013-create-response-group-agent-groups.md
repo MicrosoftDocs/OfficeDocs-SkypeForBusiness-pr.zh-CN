@@ -12,20 +12,22 @@ ms:contentKeyID: 48183688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c413da0d5ca1af063bb1be937a118f1056f39da
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b3df5b191abea7aea75c2ad55afa586479d6e89
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200193"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514699"
 ---
+# <a name="create-response-group-agent-groups-lync-server-2013"></a>创建响应组代理组 Lync Server 2013
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-response-group-agent-groups-lync-server-2013"></a>创建响应组代理组 Lync Server 2013
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-12_
 
 创建代理组时要选择分配给该组的代理并指定其他组设置，如路由方法以及代理能否登录到组和从组注销。
 
-必须登录和注销组（不同于登录或注销 Lync Server）的代理称为*正式代理*。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Lync 2013 中的菜单项来打开 Windows Internet Explorer Internet 浏览器并显示网页控制台，以登录和注销其组。
+必须登录和注销组（不同于登录或注销 Lync Server）的代理称为 *正式代理*。 正式代理必须登录到组，然后才能接收路由至该组的呼叫。 这对于以兼职形式应答组中的呼叫的代理很有用。 正式代理通过单击 Lync 2013 中的菜单项来打开 Windows Internet Explorer Internet 浏览器并显示网页控制台，以登录和注销其组。
 
 不登录到组或从组注销的代理称为*非正式代理*。 非正式代理在登录 Lync Server 时自动登录到组，并且无法注销组。
 

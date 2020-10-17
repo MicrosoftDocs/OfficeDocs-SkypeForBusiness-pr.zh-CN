@@ -12,20 +12,22 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f64676494916bf2c2bd71399bbdd04642da50cee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b10ea662d055812b9fccaa730a936033aaea077c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217298"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515159"
 ---
+# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>在 Lync Server 2013 中修改证书的移动性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>在 Lync Server 2013 中修改证书的移动性
+
 
 </div>
 
@@ -37,19 +39,19 @@ ms.locfileid: "42217298"
 
 _**上次修改的主题：** 2014-06-20_
 
-若要支持 Lync 环境与移动客户端之间的安全连接，必须使用其他一些使用者备用名称更新控制器池、前端池和反向代理的安全套接字层（SSL）证书（SAN）项。 如果您需要查看有关移动性的证书要求的更多详细信息，请参阅在[Lync Server 2013 中的移动技术要求](lync-server-2013-technical-requirements-for-mobility.md)中的证书要求部分，但基本上您需要从证书颁发机构获取新证书和包含的其他 SAN 条目，然后使用本文的步骤添加这些证书。
+为了支持 Lync 环境与移动客户端之间的安全连接，必须使用其他一些使用者备用名称 (SAN) 条目来更新安全套接字层 (SSL) 的控制器池、前端池和反向代理的证书。 如果您需要查看有关移动性的证书要求的更多详细信息，请参阅在 [Lync Server 2013 中的移动技术要求](lync-server-2013-technical-requirements-for-mobility.md)中的证书要求部分，但基本上您需要从证书颁发机构获取新证书和包含的其他 SAN 条目，然后使用本文的步骤添加这些证书。
 
-当然，在开始之前，通常最好知道证书已拥有的备选主题名称。 如果您不确定已配置的内容，可以通过多种方式来确定。[！注意] 此选项是运行**set-cscertificate**和其他 PowerShell 命令以查看此信息（我们将在下面进行介绍），默认情况下将截断数据，因此您可能无法看到所需的所有属性。 为了更好地了解证书及其所有属性，可以转到 Microsoft 管理控制台（MMC）并加载证书管理单元（我们还将在下面进行），也可以只签入 Lync Server 部署向导。
+当然，在开始之前，通常最好知道证书已拥有的备选主题名称。 如果您不确定已配置的内容，可以通过多种方式来确定。虽然该选项的运行 **set-cscertificate** 和其他 PowerShell 命令可查看此信息 (，但在默认情况下我们会通过) 的数据将被截断，因此您可能无法看到所需的所有属性。 为了充分了解证书及其所有属性，可以转到 Microsoft 管理控制台 (MMC) 并加载 "证书" 管理单元， (我们还将在) 中执行此操作，也可以仅签入 "Lync Server 部署向导"。
 
-如前所述，以下步骤将指导您使用 Lync Server 命令行管理程序和 MMC 更新证书。 如果你想要改用 Lync Server 部署向导中的证书向导，则可以检查为控制器或控制器池[配置 Lync server 2013 中的 director 的证书](lync-server-2013-configure-certificates-for-the-director.md)（如果配置了一个）（你可能没有）。 对于前端服务器或前端池，您需要[在 Lync Server 2013 中查看 "配置服务器的证书](lync-server-2013-configure-certificates-for-servers.md)"。
+如前所述，以下步骤将指导您使用 Lync Server 命令行管理程序和 MMC 更新证书。 如果您想要改用 Lync Server 部署向导中的证书向导，则可以检查为 Director 或控制器池 [配置 Lync server 2013 中的 director 的证书](lync-server-2013-configure-certificates-for-the-director.md) ，如果您配置了一个 (可能没有) 。 对于前端服务器或前端池，您需要 [在 Lync Server 2013 中查看 "配置服务器的证书](lync-server-2013-configure-certificates-for-servers.md)"。
 
-要记住的最后一件事是，您可能在 Lync Server 2013 环境中有一个默认证书，或者，默认情况下（这是除 web 服务之外的所有内容）、WebServicesExternal 和 WebServicesInternal 的证书。 无论您是什么配置，这些步骤都应帮助您解决。
+要记住的最后一件事是，您可能在 Lync Server 2013 环境中有一个默认证书，也可能有默认 (的单独证书，这是除 web 服务) 、WebServicesExternal 和 WebServicesInternal 的所有内容。 无论您是什么配置，这些步骤都应帮助您解决。
 
 <div>
 
 ## <a name="to-update-certificates-with-new-subject-alternative-names-using-the-lync-server-management-shell"></a>使用 Lync Server 命令行管理程序将证书更新为新的使用者可选名称
 
-1.  您需要使用具有本地管理员权限和权限的帐户登录到 Lync Server 2013 服务器。 此外，如果在步骤12和更高版本中运行 PowerShell**请求-set-cscertificate** ，则帐户需要具有指定的证书颁发机构（CA）的权限。
+1.  您需要使用具有本地管理员权限和权限的帐户登录到 Lync Server 2013 服务器。 此外，如果在步骤12和更高版本中运行 PowerShell **请求-set-cscertificate** ，该帐户需要拥有对指定证书颁发机构 (CA) 的权限。
 
 2.  启动 Lync Server 命令行管理程序：依次单击“开始”****、“所有程序”****、“Microsoft Lync Server 2013”**** 和“Lync Server 命令行管理程序”****。
 
@@ -63,29 +65,29 @@ _**上次修改的主题：** 2014-06-20_
     
         Set-CsCertificate -Type <type of certificate as displayed in the Use parameter> -Thumbprint <unique identifier>
     
-    例如，如果**set-cscertificate** Cmdlet 显示使用 "默认" 的证书，另一个使用了 WebServicesInternal，另一个使用了 WebServicesExternal，而另一个使用的是相同的指纹值，则应在命令行中键入：
+    例如，如果 **set-cscertificate** Cmdlet 显示使用 "默认" 的证书，另一个使用了 WebServicesInternal，另一个使用了 WebServicesExternal，而另一个使用的是相同的指纹值，则应在命令行中键入：
     
         Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint <Certificate Thumbprint>
     
     **重要说明：**
     
-    如果为每个使用分配了单独的证书（因此您在上面检查的指纹值与每个证书不同），请务必运行具有多种类型的**set-cscertificate** cmdlet，如上面的示例**中所示**。 在此情况下，请对每种使用情况单独运行 **Set-CsCertificate** cmdlet。 例如：
+    如果为每个使用分配了单独的证书 (因此您在上面检查的每个证书) 的指纹值是不同的， **set-cscertificate** cmdlet**不能**运行多个类型，这一点非常重要，如上面的示例中所示。 在此情况下，请对每种使用情况单独运行 **Set-CsCertificate** cmdlet。 例如：
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesExternal -Thumbprint <Certificate Thumbprint>
 
-6.  若要查看证书（或证书），请单击 "**开始**"，然后单击 "**运行 ...**"。 键入 MMC 以打开 Microsoft 管理控制台。
+6.  若要查看证书 (或证书) ，请单击 " **开始**"，然后单击 " **运行 ...**"。 键入 MMC 以打开 Microsoft 管理控制台。
 
 7.  从 MMC 菜单中，依次选择“文件”****、“添加/删除管理单元...”**** 和“证书”。 单击“添加”****。 出现提示时，请选择“计算机帐户”****，然后单击“下一步”****。
 
-8.  如果这是证书所在的服务器，请选择 "**本地计算机**"。 如果证书位于另一台计算机上，则应选择**另一台计算机**，然后可以键入计算机的完全限定域名，或者单击 "**浏览** **" 以选择 "要选择的对象名称**"，然后键入计算机的名称。 单击“检查名称”****。 当计算机的名称解析时，它将带下划线。 单击“确定”****，然后单击“完成”****。 单击“确定”**** 以提交选项并关闭“添加或删除管理单元”**** 对话框。
+8.  如果这是证书所在的服务器，请选择 " **本地计算机**"。 如果证书位于另一台计算机上，则应选择 **另一台计算机**，然后可以键入计算机的完全限定域名，或者单击 " **浏览** **" 以选择 "要选择的对象名称**"，然后键入计算机的名称。 单击“检查名称”****。 当计算机的名称解析时，它将带下划线。 单击“确定”****，然后单击“完成”****。 单击“确定”**** 以提交选项并关闭“添加或删除管理单元”**** 对话框。
 
 9.  若要查看证书的属性，请展开“证书”****、“个人”****，然后选择“证书”****。选择要查看的证书，右键单击证书并选择“打开”****。
 
 10. 在“证书”**** 视图中，选择“详细信息”****。从此处，您可通过选择“使用者”**** 来选择证书的使用者名称，这将显示分配的使用者名称和关联的属性。
 
-11. 若要查看分配的使用者替代名称，请选择“使用者替代名称”****。 此处显示所有分配的主题备用名称。 此处找到的主题备用名称默认为 " **DNS 名称**" 类型。 您应看到下列成员（所有成员应是 DNS 主机中显示的完全限定域名）（A；如果是 IPv6，则为 AAAA）记录：
+11. 若要查看分配的使用者替代名称，请选择“使用者替代名称”****。 此处显示所有分配的主题备用名称。 此处找到的主题备用名称默认为 " **DNS 名称** " 类型。 您应看到下列成员（所有成员应是 DNS 主机中显示的完全限定域名）（A；如果是 IPv6，则为 AAAA）记录：
     
       - 此池的池名称，如果不是池，则为单个服务器名称
     
@@ -93,9 +95,9 @@ _**上次修改的主题：** 2014-06-20_
     
       - 简单 URL 记录，一般为 meet 和 dialin
     
-      - Web 服务内部和 Web 服务外部名称（例如，webpool01.contoso.net、webpool01.contoso.com），这取决于在拓扑生成器和替代 Web 服务选择中所做的选择。
+      - Web 服务内部和 Web 服务外部名称 (例如，webpool01.contoso.net、webpool01.contoso.com) ，具体取决于在拓扑生成器和替代 Web 服务选择中所做的选择。
     
-      - 如果已分配，则为 lyncdiscover.。\<sipdomain\>和 lyncdiscoverinternal.。\<sipdomain\>记录。
+      - 如果已分配，则为 lyncdiscover.。\<sipdomain\> 和 lyncdiscoverinternal.。\<sipdomain\> 记录.
     
     最后一项是你最感兴趣的内容–如果有 lyncdiscover. 和 lyncdiscoverinternal. SAN 条目。
     
@@ -147,7 +149,7 @@ _**上次修改的主题：** 2014-06-20_
     
 
     > [!NOTE]  
-    > 应注意的是，仅当运行这些步骤的帐户具有适当权限的证书颁发机构的访问权限时，才应运行步骤12和13。 如果您无法使用获得这些权限的帐户登录，或者如果您使用的是证书的公用或远程证书颁发机构，则需要通过 Lync Server 部署向导请求它们，该向导的主要内容在<.
+    > 应注意的是，仅当运行这些步骤的帐户具有适当权限的证书颁发机构的访问权限时，才应运行步骤12和13。 如果您无法使用获得这些权限的帐户登录，或者如果您使用的是证书的公用或远程证书颁发机构，则需要通过 Lync Server 部署向导请求它们，这在本文的顶部进行了介绍。
 
     
     </div>

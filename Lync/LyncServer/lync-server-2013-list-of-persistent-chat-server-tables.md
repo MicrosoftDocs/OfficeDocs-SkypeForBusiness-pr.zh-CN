@@ -12,20 +12,22 @@ ms:contentKeyID: 48183659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e65560cd792fe4132cf20f3b32824b2c828ae757
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: da3069fdd039cb394308f3901ae9805b9023e15d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186575"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48513879"
 ---
+# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器表的列表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="list-of-persistent-chat-server-tables-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器表的列表
+
 
 </div>
 
@@ -58,16 +60,16 @@ _**上次修改的主题：** 2012-10-06_
 <tbody>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbladcookie.md">Lync Server 2013 中的 tblADCookie</a></p></td>
-<td><p>包含当前的轻型目录访问协议（LDAP）同步 cookie。 每行对应于持久聊天服务器主动监视更改的 Active Directory 域服务域。 （只有与持久聊天服务器相关的 Active Directory 域才会在此表中表示。）</p></td>
+<td><p>包含当前的轻型目录访问协议 (LDAP) 同步 cookie。 每行对应于持久聊天服务器主动监视更改的 Active Directory 域服务域。 仅 (与持久聊天服务器相关的 Active Directory 域在此表中表示。 ) </p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblprincipalmemberdifference.md">Lync Server 2013 中的 tblPrincipalMemberDifference</a></p></td>
-<td><p>包含后续 Active Directory 同步步骤尚未处理的组成员身份更改（添加和删除的成员），并且是 Active Directory 同步第一步中使用的临时表（连同 tblADUpdates 表）之一。</p>
+<td><p>包含 "已添加" 和 "已删除" 成员的组成员身份更改 (后续 Active Directory 同步步骤尚未处理的成员) ，并且是 Active Directory 同步第一步中使用的 tblADUpdates table) 中的临时表之一 (。</p>
 <p>仅对 tblPrincipal 表中列出的组或该表中已列出其成员的组，存储和/或处理成员身份更改信息。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tbladupdates.md">Lync Server 2013 中的 tblADUpdates</a></p></td>
-<td><p>包含对 Active Directory 域服务所做的更改，这些更改尚未经过后续 Active Directory 同步步骤的处理，是 Active directory 第一步中使用的临时表（连同 tblPrincipalMemberDifference 表）之一同步.</p>
+<td><p>包含对 Active Directory 域服务所做的更改，这些更改尚未经过后续的 Active Directory 同步步骤处理，并且是临时表 (与 Active Directory 同步的第一步中使用的 tblPrincipalMemberDifference 表) 一起使用。</p>
 <p>仅对已在 tblPrincipal 表中列出的主体存储、处理或处理对 Active Directory 所做的更改。</p></td>
 </tr>
 <tr class="even">
@@ -114,7 +116,7 @@ _**上次修改的主题：** 2012-10-06_
 <tr class="even">
 <td><p><a href="lync-server-2013-tblprincipal.md">Lync Server 2013 中的 tblPrincipal</a></p></td>
 <td><p>包含所有主体（用户、文件夹、组等）。 持久聊天服务器将其作为单层异类列表处理。 各列均基于每个主体的类型。</p>
-<p>大多数主体都是存储在 Active Directory 中的对象的缓存副本。 在这些 Active Directory 对象的主体表中创建缓存副本称为 "<em>设置</em>"。</p>
+<p>大多数主体都是存储在 Active Directory 中的对象的缓存副本。 在这些 Active Directory 对象的主体表中创建缓存副本称为 " <em>设置</em>"。</p>
 <p>有些主体的创建比其他主体更主动，并且某些 Active Directory 对象完全忽略。</p></td>
 </tr>
 <tr class="odd">
@@ -143,11 +145,11 @@ _**上次修改的主题：** 2012-10-06_
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-tblenumattribute.md">Lync Server 2013 中的 tblEnumAttribute</a></p></td>
-<td><p>仅包含 tblNode 表&quot;中&quot;使用&quot;的&quot;硬编码的可见性和行为属性。</p></td>
+<td><p>仅包含 &quot; tblNode 表中使用的硬编码的可见性 &quot; 和 &quot; 行为 &quot; 属性。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-tblenumvalue.md">Lync Server 2013 中的 tblEnumValue</a></p></td>
-<td><p>包含在 tblNode 表中使用&quot;的硬编码的可见&quot;性 "和" 行为属性的值。</p></td>
+<td><p>包含 &quot; &quot; 在 tblNode 表中使用的硬编码的可见性 "和" 行为属性的值。</p></td>
 </tr>
 </tbody>
 </table>

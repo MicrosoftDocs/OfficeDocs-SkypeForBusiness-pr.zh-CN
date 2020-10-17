@@ -12,20 +12,22 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c36f8d3ee6e26c00e7686a72e1b68139c1b5ec29
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f7d0e78cd4a8705178b3704a716846755d5c46f3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42198295"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48514479"
 ---
+# <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Lync Server 2013 中的移动性部署过程
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Lync Server 2013 中的移动性部署过程
+
 
 </div>
 
@@ -54,7 +56,7 @@ _**上次修改的主题：** 2013-02-19_
 <tr class="header">
 <th>阶段</th>
 <th>步骤</th>
-<th>Permissions</th>
+<th>权限</th>
 <th>部署文档</th>
 </tr>
 </thead>
@@ -62,8 +64,8 @@ _**上次修改的主题：** 2013-02-19_
 <tr class="odd">
 <td><p>创建域名系统 (DNS) 记录</p></td>
 <td><ul>
-<li><p>创建内部 DNS CNAME 或 A （host，如果 IPv6，AAAA）记录以解析内部自动发现服务 URL。</p></li>
-<li><p>创建外部 DNS CNAME 或 A （host，如果 IPv6，AAAA）记录以解析外部自动发现服务 URL。</p></li>
+<li><p>创建内部 DNS CNAME 或 (主机（如果 IPv6） AAAA) 记录以解析内部自动发现服务 URL。</p></li>
+<li><p>创建外部 DNS CNAME 或 (主机（如果 IPv6） AAAA) 记录以解析外部自动发现服务 URL。</p></li>
 </ul></td>
 <td><p>Domain Admins</p>
 <p>DnsAdmins</p></td>
@@ -97,14 +99,14 @@ _**上次修改的主题：** 2013-02-19_
 <tr class="even">
 <td><p>使用 Mcx 移动服务测试 Lync 2010 Mobile 的移动部署</p></td>
 <td><p>运行 <strong>Test-CsMcxP2PIM</strong> 以测试将即时消息从一个用户发送给另一个用户的情况。</p>
-<p>有关选项的完整列表，请参阅 Lync Server 命令行管理程序 cmdlet 文档中的<a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">test-csmcxp2pim</a> 。</p></td>
+<p>有关选项的完整列表，请参阅 Lync Server 命令行管理程序 cmdlet 文档中的 <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM">test-csmcxp2pim</a> 。</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">在 Lync Server 2013 中验证移动性部署</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>使用 UCWA Web 组件测试 Lync 2013 移动客户端的移动性部署</p></td>
-<td><p>使用<strong>test-csucwaconference</strong> cmdlet 测试并验证预定义的测试用户或一对实际用户是否可以使用 UCWA 创建和参与会议。</p>
-<p>有关选项的完整列表，请参阅 Lync Server 命令行管理程序 cmdlet 文档中的<a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">test-csucwaconference</a> 。</p></td>
+<td><p>使用 <strong>test-csucwaconference</strong> cmdlet 测试并验证预定义的测试用户或一对实际用户是否可以使用 UCWA 创建和参与会议。</p>
+<p>有关选项的完整列表，请参阅 Lync Server 命令行管理程序 cmdlet 文档中的 <a href="https://docs.microsoft.com/powershell/module/skype/Test-CsUcwaConference">test-csucwaconference</a> 。</p></td>
 <td><p>CsAdministrator</p></td>
 <td><p><a href="lync-server-2013-verifying-your-mobility-deployment.md">在 Lync Server 2013 中验证移动性部署</a></p></td>
 </tr>
@@ -130,7 +132,7 @@ _**上次修改的主题：** 2013-02-19_
 </tr>
 <tr class="odd">
 <td><p>配置移动策略</p></td>
-<td><p>使用<strong>set-csmobilitypolicy</strong> cmdlet 可以允许或禁止：</p>
+<td><p>使用 <strong>set-csmobilitypolicy</strong> cmdlet 可以允许或禁止：</p>
 <ul>
 <li><p>通过工作进行呼叫</p></li>
 <li><p>启用 IP 音频和 IP 视频</p></li>

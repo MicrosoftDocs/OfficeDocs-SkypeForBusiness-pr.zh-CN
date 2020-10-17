@@ -12,20 +12,22 @@ ms:contentKeyID: 48184979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33f84ec3cb900b4283f30d67e318ab10d3625326
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3c42084f2e5ed8acceb73b4f417d8205b78b4b56
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204928"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48515709"
 ---
+# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a>在 Lync Server 2013 中配置电话拨入式会议策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-conferencing-policy-for-dial-in-in-lync-server-2013"></a>在 Lync Server 2013 中配置电话拨入式会议策略
+
 
 </div>
 
@@ -41,13 +43,13 @@ _**上次修改的主题：** 2014-03-21_
 
 请验证会议策略中的下列字段：
 
-  - **允许参与者邀请匿名用户**   此设置允许会议组织者将匿名（即未经身份验证）参与者邀请参加会议。 对于电话拨入式会议，此设置是可选的。 默认情况下，此设置在默认全局会议策略中处于选中状态。
+  - **允许参与者邀请匿名用户**    此设置允许会议组织者将匿名 (（即未经身份验证的) 参与者邀请到会议）。 对于电话拨入式会议，此设置是可选的。 默认情况下，此设置在默认全局会议策略中处于选中状态。
 
-  - **启用 PSTN 电话拨入式会议**   此设置允许用户通过从 PSTN 拨入来加入会议的音频部分。 电话拨入式会议需要此设置。 默认情况下，此设置在默认全局会议策略中处于选中状态。
+  - **启用 PSTN 电话拨入式会议**    通过此设置，用户可以通过从 PSTN 拨入来加入会议的音频部分。 电话拨入式会议需要此设置。 默认情况下，此设置在默认全局会议策略中处于选中状态。
 
-  - **允许匿名参与者拨出**   此设置允许已加入会议的匿名用户拨出到电话号码，以加入会议的音频部分。 对于电话拨入式会议，此设置是可选的。 默认情况下，不会在默认全局会议策略中选中此设置。
+  - **允许匿名参与者拨出**    此设置允许已加入会议的匿名用户拨出到电话号码以加入会议的音频部分。 对于电话拨入式会议，此设置是可选的。 默认情况下，不会在默认全局会议策略中选中此设置。
 
-  - **允许参与者未启用企业语音若要拨出**   此设置，则允许未启用企业语音的会议参与者和组织者拨打电话号码以加入会议的音频部分。 拨出呼叫是根据组织者分配的语音策略进行授权的。 默认情况下，不会在默认全局会议策略中选中此设置。 设置默认值为禁用。
+  - **允许未启用企业语音的参与者拨出**    此设置允许未启用企业语音的会议参与者和组织者拨打电话号码以加入会议的音频部分。 拨出呼叫是根据组织者分配的语音策略进行授权的。 默认情况下，不会在默认全局会议策略中选中此设置。 设置默认值为禁用。
     
     <div>
     
@@ -58,7 +60,7 @@ _**上次修改的主题：** 2014-03-21_
     
     </div>
 
-本节中的过程解释如何修改会议策略。 有关如何配置在默认会议策略中定义参与者体验的所有设置的详细信息，请参阅[在 Lync Server 2013 中创建或修改会议配置设置的集合](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)。 有关如何为特定用户或用户组创建会议策略的详细信息，请参阅[在 Lync Server 2013 中创建或修改会议策略](lync-server-2013-create-or-modify-a-conferencing-policy.md)。 有关所有可用会议策略设置的列表，请参阅[Lync Server 2013 的会议策略设置参考](lync-server-2013-conferencing-policy-settings-reference.md)。
+本节中的过程解释如何修改会议策略。 有关如何配置在默认会议策略中定义参与者体验的所有设置的详细信息，请参阅 [在 Lync Server 2013 中创建或修改会议配置设置的集合](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)。 有关如何为特定用户或用户组创建会议策略的详细信息，请参阅 [在 Lync Server 2013 中创建或修改会议策略](lync-server-2013-create-or-modify-a-conferencing-policy.md)。 有关所有可用会议策略设置的列表，请参阅 [Lync Server 2013 的会议策略设置参考](lync-server-2013-conferencing-policy-settings-reference.md)。
 
 <div>
 
@@ -66,7 +68,7 @@ _**上次修改的主题：** 2014-03-21_
 
 1.  以 RTCUniversalServerAdmins 组成员或者 **Cs-ServerAdministrator** 或 **CsAdministrator** 角色成员的身份登录计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“会议”****。
 
