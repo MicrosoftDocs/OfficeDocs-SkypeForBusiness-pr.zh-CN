@@ -12,20 +12,22 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddc58629ea7c641427347600be48538cd555022c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fe652a2a378759584b8d855cdcdc7790b622ad02
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193346"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518959"
 ---
+# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>在 Lync Server 2013 中对 Lync VDI 插件进行故障排除
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>在 Lync Server 2013 中对 Lync VDI 插件进行故障排除
+
 
 </div>
 
@@ -77,11 +79,11 @@ _**上次修改的主题：** 2012-10-10_
 
   - **必要的文件未正确安装。**
     
-    将插件安装在本地计算机上后，下列文件应显示在 C：\\Program Files\\Microsoft Office\\Office15 （或相应的驱动器号）下：
+    将插件安装在本地计算机上后，下列文件应显示在 C： \\ Program files \\ Microsoft Office \\ Office15 (或相应的驱动器号) ：
     
-      - LyncVdiPlugin
+      - LyncVdiPlugin.dll
     
-      - UcVdi
+      - UcVdi.dll
     
     如果 VDI 配对出现任何问题，请检查以确保本地计算机上显示这些文件。
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47ac330914a0d748c366d2a6e40ac0ad9f03543d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a3fc6ab9bfb6d145b324c079e4bf746354e7329f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215478"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519849"
 ---
+# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>在 Lync Server 2013 中规划边缘服务器证书
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="plan-for-edge-server-certificates-in-lync-server-2013"></a>在 Lync Server 2013 中规划边缘服务器证书
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2012-11-05_
 
 
 > [!IMPORTANT]  
-> Lync Server 不支持通配符证书，除非使用反向代理汇总简单 Url。 您必须为您的部署提供的每个 SIP 域名、Web 会议边缘服务、A/V 边缘服务和 XMPP 域定义不同的主题备用名称（San）。
+> Lync Server 不支持通配符证书，除非使用反向代理汇总简单 Url。 您必须为您的部署提供的每个 SIP 域名、Web 会议边缘服务、A/V 边缘服务和 XMPP 域 (SANs) 定义不同的主题替代名称。
 
 
 
@@ -77,9 +79,9 @@ _**上次修改的主题：** 2012-11-05_
 
   - 确保有一个分配到该证书的可导出私钥
 
-  - 访问边缘服务（在证书向导中称为 "**外部 SIP 访问边缘**"）
+  - 访问边缘服务在证书向导中称为 " **外部 SIP 访问边缘** " () 
 
-  - Web 会议边缘服务（称为证书向导中的 " **Web 会议边缘外部**"）
+  - Web 会议边缘服务在证书向导中称为 " **Web 会议边缘（外部** ）" 的服务 () 
 
   - A/V 身份验证服务（在证书向导中称为“A/V 边缘外部”****）
 
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2012-11-05_
 
 
 > [!IMPORTANT]  
-> 可以对每个边缘服务器服务使用单独和不同的证书。 选择单独的证书的最佳原因是要对 A/V 边缘服务证书使用新的滚动证书功能。 在此功能的情况下，建议将 A/V 边缘服务证书与访问边缘服务和 Web 会议边缘服务相分离。 如果您选择请求、获取并为每个服务分配单独的证书，则必须请求为 A/V 边缘服务导出私钥（同样，这实际上是 A/V 身份验证服务），并将同一证书分配给每台边缘服务器上的 A/V 边缘外部接口。
+> 可以对每个边缘服务器服务使用单独和不同的证书。 选择单独的证书的最佳原因是要对 A/V 边缘服务证书使用新的滚动证书功能。 在此功能的情况下，建议将 A/V 边缘服务证书与访问边缘服务和 Web 会议边缘服务相分离。 如果您选择请求、获取并为每个服务分配单独的证书，则必须请求再次为 A/V 边缘服务导出私钥 (，这实际上是 A/V 身份验证服务) 并将同一证书分配给每台边缘服务器上的 A/V 边缘外部接口。
 
 
 

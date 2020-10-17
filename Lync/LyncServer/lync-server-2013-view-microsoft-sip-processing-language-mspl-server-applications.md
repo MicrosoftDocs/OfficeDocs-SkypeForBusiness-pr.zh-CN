@@ -1,5 +1,5 @@
 ---
-title: 查看 Microsoft SIP 处理语言（MSPL）服务器应用程序
+title: 查看 Microsoft SIP 处理语言 (MSPL) 服务器应用程序
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 48185202
 ms.date: 09/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582c48cfbd276778b1d22c3bec17a5c0106d8a30
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 22a4098ed36be274f31aaeebb381654595884377
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211378"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518459"
 ---
+# <a name="view-microsoft-sip-processing-language-mspl-server-applications-in-lync-server-2013"></a>在 Lync Server 2013 中查看 Microsoft SIP 处理语言 (MSPL) 服务器应用程序
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-microsoft-sip-processing-language-mspl-server-applications-in-lync-server-2013"></a>在 Lync Server 2013 中查看 Microsoft SIP 处理语言（MSPL）服务器应用程序
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211378"
 
 _**上次修改的主题：** 2014-09-26_
 
-Microsoft SIP 处理语言（MSPL）服务器应用程序是一个仅脚本的应用程序，它使用脚本语言而不是 Microsoft Lync 2010 API。 除提供将特定消息分派到基于事务的 SIP 应用程序的工具之外，MSPL 还提供了对筛选和代理行为的更精细控制。 MSPL 专门用于筛选和路由 SIP 消息。 MSPL 应用程序在与 UserServices 模块相同的进程中运行，而基于 Lync 2010 API 的程序在单独的进程中运行。
+Microsoft SIP 处理语言 (MSPL) server 应用程序是一个仅脚本的应用程序，该应用程序使用脚本语言而不是 Microsoft Lync 2010 API。 除提供将特定消息分派到基于事务的 SIP 应用程序的工具之外，MSPL 还提供了对筛选和代理行为的更精细控制。 MSPL 专门用于筛选和路由 SIP 消息。 MSPL 应用程序在与 UserServices 模块相同的进程中运行，而基于 Lync 2010 API 的程序在单独的进程中运行。
 
 您可以使用 Lync Server 控制面板的**拓扑**组中的 "**服务器应用程序**" 页来查看在 Lync server 2013 环境中运行在前端服务器上的 MSPL 服务器应用程序的列表。 列表显示了可供每个池使用的脚本，以及它们是否处于已启用或关键状态。 脚本按照所列的顺序运行。
 
@@ -45,13 +47,13 @@ Microsoft SIP 处理语言（MSPL）服务器应用程序是一个仅脚本的�
 
   - ClientVersionFilter，可供管理员用来指定某个池所支持的客户端版本。客户端版本筛选器检查客户端版本，并可以阻止客户端登录或向用户显示一个消息，指出他（或她）所使用的客户端不受支持。还可以对客户端版本筛选器进行配置，向用户显示包含客户端的最新可下载版本的 URL 的消息。
 
-  - TranslationService，根据管理员定义的规范化规则将用户拨打的号码转换为一个 E.164 号码。 有关详细信息，请参阅[Lync Server 2013 中的转换规则](lync-server-2013-translation-rules.md)。
+  - TranslationService，根据管理员定义的规范化规则将用户拨打的号码转换为一个 E.164 号码。 有关详细信息，请参阅 [Lync Server 2013 中的转换规则](lync-server-2013-translation-rules.md)。
 
   - IncomingFederation 用于对从外部部署传入的租户间的消息强制执行租户级别的联盟验证。
 
   - UserServices 是前端服务器的 SIP 注册器、状态指示和会议组件。它提供构建于 SIP 代理之上、紧密集成的 IM、状态指示和会议功能。
 
-  - InterClusterRouting 负责将呼叫路由至被叫方的主注册器池。 有关详细信息，请参阅[前端服务器 VoIP 组件 For Lync Server 2013](lync-server-2013-front-end-server-voip-components.md)。
+  - InterClusterRouting 负责将呼叫路由至被叫方的主注册器池。 有关详细信息，请参阅 [前端服务器 VoIP 组件 For Lync Server 2013](lync-server-2013-front-end-server-voip-components.md)。
 
   - IIMFilter（智能 IM 筛选器）阻止包含可单击的 URL 的消息，或阻止尝试启动文件传输的消息。 IIMFilter 还代表服务器检查客户端版本。 IIMFilter 影响使用 Lync Server 或 Communicator 启动的文件传输。 默认情况下，在可单击链接的第一个字符之前添加一个下划线可以禁用该链接。 管理员可以更改此行为以阻止该链接，此时，包含可单击的 URL 的消息或尝试启动文件传输的消息将被服务器阻止，无法到达预定的目的地。 IIMFilter 安装在代理服务器和存档服务器之外的所有运行 Lync Server 的服务器上。
 
@@ -63,7 +65,7 @@ Microsoft SIP 处理语言（MSPL）服务器应用程序是一个仅脚本的�
 
   - OutboundRouting 根据拨打的电话号码和用户的拨号权限来确定路由对该号码的呼叫的网关。如果网关无法处理呼叫，OutboundRouting 还会处理呼叫的重新路由。
 
-  - QoEAgent 通过 SIP SERVICE 请求接收来自终结点的用户体验质量 (QoE) 数据报告，并通过 HTTP POST 将数据发送至监控服务器上的目标队列或第三方使用者。 有关详细信息，请参阅[在 Lync Server 2013 中部署监控](lync-server-2013-deploying-monitoring.md)。
+  - QoEAgent 通过 SIP SERVICE 请求接收来自终结点的用户体验质量 (QoE) 数据报告，并通过 HTTP POST 将数据发送至监控服务器上的目标队列或第三方使用者。 有关详细信息，请参阅 [在 Lync Server 2013 中部署监控](lync-server-2013-deploying-monitoring.md)。
 
   - OutgoingFederation 可对发送外部目标部署的消息强制执行租户级别的联盟验证。
 
@@ -80,8 +82,8 @@ Microsoft SIP 处理语言（MSPL）服务器应用程序是一个仅脚本的�
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中启用或禁用 Microsoft SIP 处理语言（MSPL）服务器应用程序](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
-[在 Lync Server 2013 中将 Microsoft SIP 处理语言（MSPL）应用程序标记为关键或非关键](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
+[在 Lync Server 2013 中启用或禁用 Microsoft SIP 处理语言 (MSPL) 服务器应用程序](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
+[在 Lync Server 2013 中将 Microsoft SIP 处理语言 (MSPL) 应用程序标记为关键或非关键](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
   
 
 </div>

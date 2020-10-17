@@ -12,20 +12,22 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d306c17f2c399d38e406d466664a49e3e2df6ee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b054f3ea8a1054be1e920fbbacbfe2e88b157ba7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212708"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518759"
 ---
+# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>使用 Lync Server 2013 中的集中日志记录服务创建的捕获日志的搜索
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>使用 Lync Server 2013 中的集中日志记录服务创建的捕获日志的搜索
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2013-02-21_
 
 若要充分利用集中日志记录服务，您需要更好地了解如何将搜索配置为仅从计算机和池日志中返回与您正在研究的问题相关的跟踪消息。 问题
 
-若要使用 Lync Server 命令行管理程序运行集中日志记录服务搜索功能，您必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制（RBAC）安全组的成员，或者是包含以下项的自定义 RBAC 角色：这两个组中的任何一个。 若要返回已将此 cmdlet 分配到的所有 RBAC 角色的列表（包括您自己创建的任何自定义 RBAC 角色），请从 Lync Server 命令行管理程序或 Windows PowerShell 提示符处运行以下命令：
+若要使用 Lync Server 命令行管理程序运行集中式日志记录服务搜索功能，您必须是 CsAdministrator 或 CsServerAdministrator 基于角色的访问控制 (RBAC) 安全组的成员，或者是包含这两个组中任一组的自定义 RBAC 角色。 若要返回已将此 cmdlet 分配给 (的所有 RBAC 角色的列表，包括您自己) 创建的任何自定义 RBAC 角色，请从 Lync Server 命令行管理程序或 Windows PowerShell 提示符处运行以下命令：
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -75,7 +77,7 @@ _**上次修改的主题：** 2013-02-21_
     
 
     > [!NOTE]
-    > 默认情况下，Search-CsClsLogging 将搜索结果发送至控制台。 如果要将搜索结果保存到文件中，请使用– OutputFilePath &lt;字符串的完全限定的文件&gt;路径。 若要定义 –OutputFilePath 参数，请在参数中以用引号括起的字符串格式提供路径和文件名（例如；C:\LogFiles\SearchOutput.txt）。 在此示例中，必须确保目录 C:\LogFiles 存在，并且您有权在该文件夹中读取和写入（NTFS 权限修改）文件。 输出将进行追加而不会被覆盖。 如果需要不同文件，请为每个搜索定义不同文件名。
+    > 默认情况下，Search-CsClsLogging 将搜索结果发送至控制台。 如果要将搜索结果保存到文件中，请使用– OutputFilePath &lt; 字符串的完全限定的文件路径 &gt; 。 若要定义 –OutputFilePath 参数，请在参数中以用引号括起的字符串格式提供路径和文件名（例如；C:\LogFiles\SearchOutput.txt）。 在此示例中，必须确保目录 C:\LogFiles 存在，并且您有权在该文件夹中读取和写入（NTFS 权限修改）文件。 输出将进行追加而不会被覆盖。 如果需要不同文件，请为每个搜索定义不同文件名。
 
     
     </div>
@@ -124,7 +126,7 @@ _**上次修改的主题：** 2013-02-21_
 
 2.  默认情况下，搜索的时间特定参数的开始时间是在启动搜索之前 30 分钟。换言之，如果在 4:00:00 PM 启动搜索，搜索将在 3:30:00 PM 到 4:00:00 PM 之间搜索您定义的计算机和池的日志。如果需要在当前时间之前搜索 60 分钟或 3 小时，请使用 –StartTime 参数，并设置日期和时间字符串，以指示希望搜索开始的时间。
     
-    例如，通过使用 –StartTime 和 –EndTime 定义时间和日期范围，可以定义在 11/20/2012 的 8 AM 到 9 AM 之间对池执行的搜索。 您可以将输出路径设置为将结果写入到名为 c：\\logfile 的文件中，如下所示：
+    例如，通过使用 –StartTime 和 –EndTime 定义时间和日期范围，可以定义在 11/20/2012 的 8 AM 到 9 AM 之间对池执行的搜索。 您可以设置输出路径，将结果写入名为 c：logfile.txt 的文件中，如下所示 \\ ：
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 08:00:00 AM" -EndTime "11/20/2012 09:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
     

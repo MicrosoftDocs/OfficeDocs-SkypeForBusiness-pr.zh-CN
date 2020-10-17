@@ -12,20 +12,22 @@ ms:contentKeyID: 49733866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ecfb3e43a817a190e3bee1199164b1eaf0c51e5
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 08b8b984b1fd0c468f5ca340880ec294bf870e0e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211208"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518309"
 ---
+# <a name="viewing-network-bandwidth-policy-profile-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看网络带宽策略配置文件信息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-bandwidth-policy-profile-information-in-lync-server-2013"></a>在 Lync Server 2013 中查看网络带宽策略配置文件信息
+
 
 </div>
 
@@ -37,19 +39,19 @@ ms.locfileid: "42211208"
 
 _**上次修改的主题：** 2013-02-23_
 
-作为呼叫允许控制 (CAC) 的一部分，使用带宽策略可定义某些形式的带宽限制。 在 Microsoft Lync Server 2013 中，仅可为音频和视频形式分配带宽限制。 您可以设置总体带宽限制和会话限制。 您可以使用 Lync Server 控制面板为这些策略创建、修改或删除容器配置文件。 每个带宽策略配置文件都可以与一个或多个网络站点相关联。 使用下列过程可查看带宽策略配置文件。 若要创建或修改带宽策略配置文件，请参阅[在 Lync Server 2013 中创建或修改带宽策略配置文件](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。
+作为呼叫允许控制 (CAC) 的一部分，使用带宽策略可定义某些形式的带宽限制。 在 Microsoft Lync Server 2013 中，仅可为音频和视频形式分配带宽限制。 您可以设置总体带宽限制和会话限制。 您可以使用 Lync Server 控制面板为这些策略创建、修改或删除容器配置文件。 每个带宽策略配置文件都可以与一个或多个网络站点相关联。 使用下列过程可查看带宽策略配置文件。 若要创建或修改带宽策略配置文件，请参阅 [在 Lync Server 2013 中创建或修改带宽策略配置文件](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)。
 
 <div>
 
 ## <a name="to-view-a-bandwidth-policy-profile"></a>查看带宽策略配置文件
 
-1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户（或具有等效的用户权限）或分配给 CsAdministrator 角色的用户帐户，登录到内部部署中的任何计算机。
+1.  从作为 RTCUniversalServerAdmins 组成员的用户帐户 (或具有等效的用户权限) 或分配给 CsAdministrator 角色，请登录到内部部署中的任何计算机。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“网络配置”****，然后单击“带宽策略”****。
 
-4.  在 "**带宽策略**" 页上，单击要查看的带宽策略配置文件。
+4.  在 " **带宽策略** " 页上，单击要查看的带宽策略配置文件。
 
 5.  在“编辑”**** 菜单上，单击“显示详细信息”****。
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2013-02-23_
 
 ## <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 查看网络带宽策略配置文件信息
 
-可以使用 Windows PowerShell 和 CsNetworkBandwidthPolicyProfile cmdlet 查看网络带宽配置文件。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上[https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)的 Lync Server Windows powershell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010"。
+可以使用 Windows PowerShell 和 Get-CsNetworkBandwidthPolicyProfile cmdlet 查看网络带宽配置文件。 此 cmdlet 可从 Lync Server 2013 命令行管理程序或从 Windows PowerShell 的远程会话中运行。 有关使用远程 Windows PowerShell 连接到 Lync Server 的详细信息，请参阅在上的 Lync Server Windows PowerShell 博客文章 "快速入门：使用远程 PowerShell 管理 Microsoft Lync Server 2010" [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876) 。
 
 <div>
 

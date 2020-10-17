@@ -12,20 +12,22 @@ ms:contentKeyID: 48183753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f7d061daedcdfabf4636c78a3a6a8bbe601903a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8b8c8e4c92f0cdb9eb1b7070735882b43a308080
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211798"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518709"
 ---
+# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>通过你在 Lync Server 2013 中的反向代理验证访问权限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-access-through-your-reverse-proxy-in-lync-server-2013"></a>通过你在 Lync Server 2013 中的反向代理验证访问权限
+
 
 </div>
 
@@ -45,15 +47,15 @@ _**上次修改的主题：** 2013-03-29_
 
   - 打开 Web 浏览器，在“地址”**** 栏中键入客户端用于访问通讯簿文件和会议网站的 URL，具体如下：
     
-      - 对于 "通讯簿服务器"，键入类似于以下的 URL **https://externalwebfarmFQDN/abs** ：其中 externalwebfarmFQDN 是承载通讯簿服务的外部 web 服务的外部 FQDN。 用户应收到 HTTP 质询，因为默认情况下将通讯簿服务器文件夹的目录安全性配置为 Windows 身份验证。
+      - 对于 "通讯簿服务器"，键入类似于以下的 URL： **https://externalwebfarmFQDN/abs** 其中 externalwebfarmFQDN 是承载通讯簿服务的外部 web 服务的外部 FQDN。 用户应收到 HTTP 质询，因为默认情况下将通讯簿服务器文件夹的目录安全性配置为 Windows 身份验证。
     
-      - 对于 "会议"，键入类似于以下的 URL **https://externalwebfarmFQDN/meet** ：其中 externalwebfarmFQDN 是承载会议内容的 web 场的外部 FQDN。 此 URL 应会显示会议的疑难解答页。 或者，确认您的会议的简单 URL 能正常工作。 会议加入的一个简单 URL 示例可能是https://meet.contoso.com
+      - 对于 "会议"，键入类似于以下的 URL： **https://externalwebfarmFQDN/meet** 其中 externalwebfarmFQDN 是承载会议内容的 web 场的外部 FQDN。 此 URL 应会显示会议的疑难解答页。 或者，确认您的会议的简单 URL 能正常工作。 会议加入的一个简单 URL 示例可能是 https://meet.contoso.com
     
-      - 对于通讯组展开，请键入类似于以下的 URL： **https://externalwebfarmFQDN/GroupExpansion/service.svc**。 用户应收到 HTTP 质询，因为默认情况下将通讯组扩展服务的目录安全性配置为 Windows 身份验证。
+      - 对于通讯组展开，请键入类似于以下的 URL： **https://externalwebfarmFQDN/GroupExpansion/service.svc** 。 用户应收到 HTTP 质询，因为默认情况下将通讯组扩展服务的目录安全性配置为 Windows 身份验证。
     
-      - 对于 "拨入"，键入与以下**https://externalwebfarmFQDN/dialin**内容类似的简单 URL，其中 externalwebfarmFQDN 是承载电话拨入式会议的拨入寻呼的 web 服务器场的外部 FQDN。 应将用户定向到拨入页。 或者，确认您的电话拨入式会议的简单 URL 能正常工作。 用于拨入的简单 URL 示例可能是https://dialin.contoso.com
+      - 对于 "拨入"，键入与以下内容类似的简单 URL， **https://externalwebfarmFQDN/dialin** 其中 externalwebfarmFQDN 是承载电话拨入式会议的拨入寻呼的 web 服务器场的外部 FQDN。 应将用户定向到拨入页。 或者，确认您的电话拨入式会议的简单 URL 能正常工作。 用于拨入的简单 URL 示例可能是 https://dialin.contoso.com
     
-      - 若要确认自动发现 URL 是否正常运行， https://lyncdiscover请键入。 externaldomainFQDN. 浏览器应提示您打开文件。 选择 "记事本" 将其打开。 典型的响应类似于：
+      - 若要确认自动发现 URL 是否正常运行，请键入 https://lyncdiscover 。 externaldomainFQDN. 浏览器应提示您打开文件。 选择 "记事本" 将其打开。 典型的响应类似于：
         
             {"AccessLocation":"External","Root":{"Links":[{"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/domain","token":"Domain"},
             {"href":"https:\/\/extweb.contoso.com\/Autodiscover\/AutodiscoverService.svc\/root\/user","token":"User"},

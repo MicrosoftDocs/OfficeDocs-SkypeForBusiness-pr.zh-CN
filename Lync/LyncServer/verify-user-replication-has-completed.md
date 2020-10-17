@@ -12,20 +12,22 @@ ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d883b5446c843ac8b79e2b29d15f8a1c99f0089
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 5b1ffd7b82b4addb24170644e227b11d50020043
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755526"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517989"
 ---
+# <a name="verify-user-replication-has-completed"></a>确认用户复制已完成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>确认用户复制已完成
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755526"
 
 _**上次修改的主题：** 2012-09-17_
 
-在运行**get-csuser** cmdlet 时，您可能会遇到故障，因为 Active Directory 域服务（AD DS）和 Lync Server 2013 数据库之间的用户信息因初始复制不完整而不同步。 成功完成 Lync Server 2013 用户复制程序服务的初始同步所需的时间取决于托管在承载 Lync Server 2013 池的 Active Directory 林中的域控制器数。 在首次启动 Lync Server 2013 前端服务器时，会发生 Lync Server 2013 用户复制程序服务初始同步过程。 此后，同步将基于用户复制程序间隔执行。 在运行 **Move-CsUser** cmdlet 之前，请先完成下列步骤以确认用户复制已完成。
+在运行 **get-csuser** cmdlet 时，您可能会遇到故障，因为 Active Directory 域服务 (AD DS) 和 Lync Server 2013 数据库之间的用户信息因初始复制不完整而无法同步。 成功完成 Lync Server 2013 用户复制程序服务的初始同步所需的时间取决于托管在承载 Lync Server 2013 池的 Active Directory 林中的域控制器数。 在首次启动 Lync Server 2013 前端服务器时，会发生 Lync Server 2013 用户复制程序服务初始同步过程。 此后，同步将基于用户复制程序间隔执行。 在运行 **Move-CsUser** cmdlet 之前，请先完成下列步骤以确认用户复制已完成。
 
 <div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2012-09-17_
 
 6.  在“事件来源”**** 列表中，单击“LS 用户复制程序”****。
 
-7.  在 **\<All Event IDs\>** 输入**30024** ，然后单击 **"确定"**。
+7.  在 **\<All Event IDs\>** 输入 **30024** ，然后单击 **"确定"**。
 
 8.  在筛选的事件列表中的“常规”**** 选项卡上，查找表明用户复制已成功完成的条目。
 

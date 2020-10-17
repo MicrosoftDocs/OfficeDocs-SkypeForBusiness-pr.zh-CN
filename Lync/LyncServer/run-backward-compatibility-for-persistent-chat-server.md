@@ -12,20 +12,22 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5308d39e4edcfeddf494aa364f6b7ed43b9822dc
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: c96b2ad99ce403df32cc224d854c34160bd6c613
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755766"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518089"
 ---
+# <a name="run-backward-compatibility-for-persistent-chat-server"></a>持久聊天服务器的运行后向兼容性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="run-backward-compatibility-for-persistent-chat-server"></a>持久聊天服务器的运行后向兼容性
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "44755766"
 
 _**上次修改的主题：** 2013-02-21_
 
-Lync Server 2013、持久聊天服务器终结点提供了一种创建指向持久聊天服务器池的简单 URL 的方法。 这对于旧版客户端（Microsoft Office 通信服务器 2007 R2 组聊天服务器或 Lync Server 2010 组聊天）很有用，因为在尝试将旧客户端指向运行 Lync 2013 的持久聊天的计算机时，用户可以在手动配置中输入简单 URL。 持续聊天不使用此终结点，仅在旧客户端中是必需的。 这对可以迁移会议室的临时时段很有用，但尚未在整个组织中部署 Lync 2013 客户端。 随后，运行 Lync 2010 组聊天（客户端）的用户仍可以连接到持久聊天服务器后端服务器。
+Lync Server 2013、持久聊天服务器终结点提供了一种创建指向持久聊天服务器池的简单 URL 的方法。 这对于旧版客户端 (Microsoft Office 通信服务器 2007 R2 组聊天服务器或 Lync Server 2010，组聊天) ，因为当尝试将旧客户端指向运行 Lync 2013 的持久聊天的计算机时，用户可以在手动配置中输入简单 URL。 持续聊天不使用此终结点，仅在旧客户端中是必需的。 这对可以迁移会议室的临时时段很有用，但尚未在整个组织中部署 Lync 2013 客户端。 运行 Lync 2010 组聊天 (客户端) 随后仍可连接到持久聊天服务器后端服务器。
 
 您无需创建多个持久聊天服务器终结点;您只需要每个持久聊天服务器池对应一个。 管理员可以创建多个终结点（每个池一个），但仅能将旧式客户端配置为一次连接到一个池。 在常见或主流方案中，旧式部署只有一个池。 新部署通常会将该池迁移到新的 Lync Server 2013，并且可能会添加一些新的附加持久聊天服务器池。
 
 此主流方案通常采用以下模式：
 
-  - 使用一个已知用户（默认 sip： ocschat@ \<domainName\> .com 或类似的用户）来管理一个 Lync Server 2010、Group chat 池和 Lync 2010 组聊天客户端连接到该池的用户。 用户是启用了 SIP 的 Active Directory 域服务，并且查找服务会向其注册以接收传入的请求。
+  - 您可以使用一个 "Lync Server 2010"、"组" 聊天池和 Lync 2010 组聊天客户端连接到该池，具体方法是使用某个已知用户 (默认 sip： ocschat@ \<domainName\> .com 或类似的一个) 。 用户是启用了 SIP 的 Active Directory 域服务，并且查找服务会向其注册以接收传入的请求。
 
   - 随后，安装 Lync Server 2013 持久聊天服务器和持久聊天服务器池。
 
@@ -59,17 +61,17 @@ Lync Server 2013、持久聊天服务器终结点提供了一种创建指向持�
     
       - 启动 Lync Server 2013 持久聊天服务器。
 
-  - 用户使用其 Lync 2010 组聊天（客户端）重新登录，并连接到其数据，而无需更改任何配置。
+  - 用户使用其 Lync 2010 组聊天 (客户端) 进行重新登录，并连接到其数据，而无需更改任何配置。
 
   - 您可以在以后停止 Lync Server 2010、组聊天。 随后，您可以部署 Lync Server 2013、持久聊天服务器，并安装新的 Lync Server 2013 持久聊天服务器池。
 
-有关从 Lync Server 2010 进行迁移的详细信息，请将聊天组聊天到 Lync Server 2013、持久聊天服务器，请参阅[从 Lync server 2010、组聊天或 Office 通信服务器 2007 R2 组聊天到 Lync server 2013、持久聊天服务器](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)。
+有关从 Lync Server 2010 进行迁移的详细信息，请将聊天组聊天到 Lync Server 2013、持久聊天服务器，请参阅 [从 Lync server 2010、组聊天或 Office 通信服务器 2007 R2 组聊天到 Lync server 2013、持久聊天服务器](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md)。
 
-若要运行向后兼容性（以创建指向持久聊天服务器池的持久聊天服务器终结点，可供旧版组聊天池客户端使用）：
+若要运行向后兼容性 (以创建指向持久聊天服务器池的持久聊天服务器终结点，这些终结点可由旧版组聊天池客户端使用) ：
 
     New-CsPersistentChatEndpoint -SipAddress <CO name, ex. persistentchat@contoso.com> -PersistentChatPoolFqdn <pool FQDN, like pcpool.contoso.com>
 
-接下来，配置持久聊天客户端以将该 SIP 地址用作 contact 对象。 SIP 地址是使用**CsPersistentChatEndpoint** cmdlet 为特定的持久聊天服务器池创建的。
+接下来，配置持久聊天客户端以将该 SIP 地址用作 contact 对象。 SIP 地址是使用 **CsPersistentChatEndpoint** cmdlet 为特定的持久聊天服务器池创建的。
 
 若要使用 Windows PowerShell 命令行界面添加持久聊天服务器终结点，请考虑以下示例。 在此示例中，您在池的完全限定域名 (FQDN) 为“pcpool.contoso.com”的“contoso.com”拓扑中配置名为“persistentchat”的联系人对象：
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56a030329f9d69a3748b2b76179c7a783b13cb0f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 404ce93e841bbbefd62498a1dbb3da664eb927ff
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210975"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518249"
 ---
+# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 Web 会议要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Lync Server 2013 中的 Web 会议要求
+
 
 </div>
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2013-01-30_
 
 Lync Server 2013 web 会议服务在文件存储中存储会议期间共享的内容。 作为部署的一部分，您必须指定要用作 Standard Edition server 或 Enterprise Edition 前端池的文件存储的文件共享。 可以将现有的文件共享用作文件存储，也可以通过指定文件共享所在的文件服务器的完全限定域名 (FQDN) 和新文件共享的文件夹名称来指定新的文件共享。有关详细信息，请参阅拓扑生成器–为前端定义文件存储。 Web 会议服务在将内容存储在文件存储中之前对内容进行加密。
 
-Lync Server 2013 支持在直接连接存储（DAS）或存储区域网络（SAN）上使用文件共享，包括分布式文件系统（DFS）和文件存储的独立磁盘冗余阵列（RAID）。 在 Lync Server 部署向导定义文件共享的位置之后，Lync Server 会在文件共享中创建一个类似于以下内容的文件夹结构：
+Lync Server 2013 支持使用直接连接存储 (DAS) 或存储区域网络 (SAN) 上的文件共享，包括分布式文件系统 (DFS) 以及独立磁盘冗余阵列 (RAID) 用于文件存储。 在 Lync Server 部署向导定义文件共享的位置之后，Lync Server 会在文件共享中创建一个类似于以下内容的文件夹结构：
 
   - 1-ApplicationServer-1
 
@@ -81,11 +83,11 @@ Lync Server 2013 支持在直接连接存储（DAS）或存储区域网络（SAN
 
 可以使用以下设置管理如何存储会议内容：
 
-  - **ContentGracePeriod**（位于[CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)中）设置了会议结束后 web 会议内容将在服务器上保留多长时间。
+  - **ContentGracePeriod**（位于 [CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)中）设置了会议结束后 web 会议内容将在服务器上保留多长时间。
 
-  - **MaxContentStorageMb**（位于[CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)中）设置了单个会议期间允许用于存储内容的最大文件空间量。
+  - **MaxContentStorageMb**（位于 [CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration)中）设置了单个会议期间允许用于存储内容的最大文件空间量。
 
-**MaxUploadFileSizeMb**不限制 Lync Web App 的文件上载设置。 将 Lync Web App 的文件大小上载限制设置为约30MB，由 IIS web.config 文件控制：/DataCollabWeb/Int\[Ext/Handler/web.config.\]若要配置 Lync Web App 的文件大小上载限制，请`maxRequestLength` `maxAllowedContentLength`在 web.config 文件中进行更新，如下所示。
+**MaxUploadFileSizeMb** 不限制 Lync Web App 的文件上载设置。 将 Lync Web App 的文件大小上传限制设置为大约30MB，并由 IIS web.config 文件：/DataCollabWeb/Int \[ Ext \] /Handler/web.config 进行控制。若要配置 Lync Web App 的文件大小上载限制，请更新 `maxRequestLength` 并 `maxAllowedContentLength` 在 web.config 文件中，如下所示。
 
     <system.web>
         <!-- 
@@ -105,7 +107,7 @@ Lync Server 2013 支持在直接连接存储（DAS）或存储区域网络（SAN
                     </requestFiltering>
                     </security>
 
-您必须为每台前端服务器更新 web.config 文件。
+您必须更新每台前端服务器的 web.config 文件。
 
 </div>
 
@@ -113,7 +115,7 @@ Lync Server 2013 支持在直接连接存储（DAS）或存储区域网络（SAN
 
 ## <a name="office-web-apps-server"></a>Office Web Apps Server
 
-为了使用这些新功能，管理员必须安装 Office Web Apps Server，并且必须配置 Lync Server 2013 以与 Office Web Apps Server 进行通信。 本文档提供了有关如何配置 Lync Server 2013 以与 Office Web Apps Server 配合使用的信息。 本文档不提供的内容是有关如何安装 Office Web Apps Server 的信息。 有关安装的详细信息，请参阅 Microsoft Office Web Apps 部署<https://go.microsoft.com/fwlink/p/?linkid=257525>网站。 该指南包括 Office Web Apps Server 的完整必备信息。 请注意，Office Web Apps Server 应安装在未运行 Lync Server、SQL Server 或任何其他服务器应用程序的独立计算机上。 （您不得在该计算机上安装任何版本的 Office。）用于运行 Office Web Apps Server 的任何计算机还必须安装一组特定的软件（包括 .NET Framework 4.5 和 Windows PowerShell 3.0）。 中的 Microsoft Office Web Apps 部署网站详细讨论了这些要求以及有关配置证书和 Internet 信息服务（IIS）的信息<https://go.microsoft.com/fwlink/p/?linkid=257525>。
+为了使用这些新功能，管理员必须安装 Office Web Apps Server，并且必须配置 Lync Server 2013 以与 Office Web Apps Server 进行通信。 本文档提供了有关如何配置 Lync Server 2013 以与 Office Web Apps Server 配合使用的信息。 本文档不提供的内容是有关如何安装 Office Web Apps Server 的信息。 有关安装的详细信息，请参阅 Microsoft Office Web Apps 部署网站 <https://go.microsoft.com/fwlink/p/?linkid=257525> 。 该指南包括 Office Web Apps Server 的完整必备信息。 请注意，Office Web Apps Server 应安装在未运行 Lync Server、SQL Server 或任何其他服务器应用程序的独立计算机上。  (您不得在该计算机上安装任何版本的 Office。 ) 用于运行 Office Web Apps Server 的任何计算机还必须安装一组特定的软件 (包括 .NET Framework 4.5 和 Windows PowerShell 3.0) 。 下面的 Microsoft Office Web Apps 部署网站中详细讨论了有关配置证书和 Internet 信息服务 (IIS) 的相关信息 <https://go.microsoft.com/fwlink/p/?linkid=257525> 。
 
 </div>
 

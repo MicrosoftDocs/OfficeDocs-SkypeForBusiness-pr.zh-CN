@@ -12,20 +12,22 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1fd1cfd26e1b5d56a6043e13d348e73e3c2b108
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 1d73bfe085d34e536c5d3b44f1cacca8819de442
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212718"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518789"
 ---
+# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>在 Lync Server 2013 中对综合事务使用丰富日志记录
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-rich-logging-for-synthetic-transactions-in-lync-server-2013"></a>在 Lync Server 2013 中对综合事务使用丰富日志记录
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42212718"
 
 _**上次修改的主题：** 2012-10-22_
 
-综合事务（在 Microsoft Lync Server 2010 中引入）为管理员提供了一种验证用户能否成功完成常见任务（如登录系统、交换即时消息或呼叫电话）的方法。在公共交换电话网络（PSTN）上。 这些测试（打包为一组 Lync Server Windows PowerShell cmdlet）可由管理员手动执行，也可以由 System Center Operations Manager 等应用程序自动运行。
+ (在 Microsoft Lync Server 2010 中引入的综合事务) 为管理员提供了一种方法，用于验证用户是否能够成功完成常见任务，如登录系统、交换即时消息或呼叫位于公用电话交换网 (PSTN) 的电话。 这些测试 (打包为一组 Lync Server Windows PowerShell cmdlet) 可由管理员手动执行，也可以由 System Center Operations Manager 等应用程序自动运行。
 
 在 Lync Server 2010 中，在帮助管理员识别系统问题时，综合事务证明非常有用。 例如， **CsRegistration** cmdlet 可以提醒管理员一些用户在注册 Lync Server 时遇到困难。 但是，在帮助管理员确定这些用户在使用 Lync Server 注册时遇到困难的原因方面，综合事务有些不太有用。 这是因为综合事务不提供详细的日志记录信息，从而帮助管理员解决 Lync Server 的问题。 综合事务的详细输出最多提供了分步信息，它们可能使管理员能够有根据的推测可能哪里出现了问题。
 
@@ -47,7 +49,7 @@ _**上次修改的主题：** 2012-10-22_
 
   - 活动的完成时间
 
-  - 执行的操作（例如，创建、加入或离开会议; 登录到 Lync Server; 发送即时消息; 等等）
+  - 执行的操作 (例如，创建、加入会议或离开会议;登录到 Lync Server;发送即时消息;依此类推) 
 
   - 在活动运行时生成的参考消息、详细消息、警告消息或错误消息
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-10-22_
 
 每次运行综合事务时都会自动生成此类信息。 不过，这些信息不会自动显示或保存到日志文件中。 相反，手动运行综合事务的管理员可以使用 OutLoggerVariable 参数指定将在其中存储信息的 Windows PowerShell 变量。 之后，管理员可以使用允许他们以 XML 或 HTML 格式保存和/或查看丰富日志的成对方法。
 
-例如，Lync Server 2010 管理员可以使用类似如下的命令运行**CsRegistration** cmdlet：
+例如，Lync Server 2010 管理员可以使用类似如下的命令运行 **CsRegistration** cmdlet：
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com
 
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2012-10-22_
 从 System Center Operations Manager 内部运行的综合事务将自动为故障生成这些日志文件。 但是，如果在 Windows PowerShell 能够加载和运行综合事务之前执行失败，则不会生成这些日志。
 
 > [!IMPORTANT]  
-> 默认情况下，Lync Server 2013 将日志文件保存到不共享的文件夹中。 若要方便地访问这些日志，应共享此文件夹（例如\\ \\atl-观察程序-litwareinc。 com\WatcherNode。
+> 默认情况下，Lync Server 2013 将日志文件保存到不共享的文件夹中。 若要方便地访问这些日志，应共享此文件夹 (例如 \\ \\ atl-观察程序 litwareinc. com\WatcherNode。
 
 
 </div>

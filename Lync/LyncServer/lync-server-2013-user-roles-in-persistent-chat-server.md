@@ -12,20 +12,22 @@ ms:contentKeyID: 49361095
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7d01b15c035b3f14a0f2d6dba92719d7f885437
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9c91fcb656d936d0fb469cdec4b01824d3fa97d1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213008"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518849"
 ---
+# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器中的用户角色
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="user-roles-in-persistent-chat-server-in-lync-server-2013"></a>Lync Server 2013 中持久聊天服务器中的用户角色
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2015-03-19_
 
 
 > [!IMPORTANT]  
-> 类别中允许/拒绝的成员与<STRONG>成员</STRONG>角色不同，后者适用于持久聊天室。<BR>搜索显示进行搜索的用户位于其允许/拒绝的成员列表中的所有打开和关闭的聊天室。不会显示加密聊天室，除非进行搜索的用户是加密聊天室的成员。用户只能搜索自己已经是其成员的聊天室，或者他们可以请求成员身份的聊天室。
+> 类别中允许/拒绝的成员与 <STRONG>成员</STRONG> 角色不同，后者适用于持久聊天室。<BR>搜索显示进行搜索的用户位于其允许/拒绝的成员列表中的所有打开和关闭的聊天室。不会显示加密聊天室，除非进行搜索的用户是加密聊天室的成员。用户只能搜索自己已经是其成员的聊天室，或者他们可以请求成员身份的聊天室。
 
 
 
@@ -77,7 +79,7 @@ _**上次修改的主题：** 2015-03-19_
     
     </div>
 
-  - **Member：** 是聊天室成员的用户。 这些用户可以在目录中看到聊天室（即使聊天室是秘密的）以及订阅聊天室（包括诸如未读邮件、ego 筛选器和关键字筛选器等元数据选项）和参与聊天室（可以发布，除非会议室是只有演示者可以发布、获取内容和搜索的大会堂会议室。 如果用户不是聊天室的成员，则可以搜索聊天室中的聊天室（如果它们位于类别允许的成员列表中），但需要请求访问权限以加入这些聊天室以访问内容。 （没有在系统中内置的请求访问权限或审批; 它们是通过电子邮件、电话或其他形式的联系人在外部完成的。）
+  - **Member：** 是聊天室成员的用户。 这些用户可以在目录 (中看到聊天室，即使聊天室是机密) 以及订阅聊天室 (（包括诸如未读邮件、ego 筛选器和关键字筛选器) 等元数据选项）和参与聊天室 (可以发布，除非会议室是仅演示者可以发布、获取内容和搜索) 的大会堂会议室。 如果用户不是聊天室的成员，则可以搜索聊天室中的聊天室（如果它们位于类别允许的成员列表中），但需要请求访问权限以加入这些聊天室以访问内容。  (系统中没有内置请求访问权限或审批，则为  ; 否则为  。这些信息通过电子邮件、电话或其他形式的联系人在外部完成。 ) 
 
   - **演示者：** 可以发布到大会堂聊天室的用户。
 
@@ -93,9 +95,9 @@ _**上次修改的主题：** 2015-03-19_
 
 以下角色是持久聊天服务器的管理员角色：
 
-  - **持久聊天管理员（CsPersistentChatAdministrator）：** 这是一个新的基于角色的访问控制（RBAC）角色，用于管理和管理持久聊天服务器。 被指定为 CsPersistentChatAdministrator 的用户或安全组可以使用 Windows PowerShell cmdlet 远程（即，从持久聊天服务器之外的计算机）管理持久聊天服务器。 持久聊天服务器将检查持久聊天管理员是否为持久聊天服务器前端服务器上 RTC 本地管理员本地组的成员。
+  - **持久聊天管理员 (CsPersistentChatAdministrator) ：** 这是一个新的 Role-Based 访问控制 (RBAC) 角色来管理和管理持久聊天服务器。 被指定为 CsPersistentChatAdministrator 的用户或安全组可以使用 Windows PowerShell cmdlet 远程管理持久聊天服务器，即从持久聊天服务器) 之外的计算机 (。 持久聊天服务器将检查持久聊天管理员是否为持久聊天服务器前端服务器上 RTC 本地管理员本地组的成员。
     
-    CsPersistentChatAdministrator 角色可以管理聊天室（修改包括成员身份、管理员、类别在内的所有属性，将聊天室标记为禁用），以及创建和管理用于定义可创建和访问聊天室的用户的聊天室类别。 管理员还可以将聊天室标记为禁用并清理不再处于活动状态的聊天室。 管理员不会受到“创建者”或“允许的成员”限制的影响。 管理员可以创建任何类型的聊天室以及将自己添加为任何聊天室的成员。 管理员还可以修改和管理持久聊天配置（池属性、全局设置和合规性配置），还可以规划和实施从较旧的组聊天服务器部署到 Lync Server 2013 持久聊天的迁移服务器主板.
+    CsPersistentChatAdministrator 角色可以管理聊天室（修改包括成员身份、管理员、类别在内的所有属性，将聊天室标记为禁用），以及创建和管理用于定义可创建和访问聊天室的用户的聊天室类别。 管理员还可以将聊天室标记为禁用并清理不再处于活动状态的聊天室。 管理员不会受到“创建者”或“允许的成员”限制的影响。 管理员可以创建任何类型的聊天室以及将自己添加为任何聊天室的成员。 管理员还可以修改和管理持久聊天配置 (池属性、全局设置和合规性配置) ，还可以规划和实施从较旧的组聊天服务器部署到 Lync Server 2013 持久聊天服务器的迁移。
 
   - **Lync 管理员：** Lync Server 2013 的整体企业管理员负责部署。
 

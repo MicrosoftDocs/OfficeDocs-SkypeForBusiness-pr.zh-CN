@@ -12,20 +12,22 @@ ms:contentKeyID: 48183524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31bed57b6e24db0ba6f75e323fe311aa4aaf262c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: e51ff7889b97a58298256cc1a1de3a5d4f901608
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755516"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517999"
 ---
+# <a name="verify-user-replication-has-completed"></a>确认用户复制已完成
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>确认用户复制已完成
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "44755516"
 
 _**上次修改的主题：** 2012-09-28_
 
-在运行**CsLegacyUser** cmdlet 时，您可能会由于初始复制不完整而导致 Active Directory 域服务（AD DS）和 Lync Server 2013 数据库之间的用户信息出现故障。 成功完成 Lync Server 2013 用户复制程序服务的初始同步所需的时间取决于托管在承载 Lync Server 2013 池的 Active Directory 林中的域控制器数。 在首次启动 Lync Server 2013 前端服务器时，会发生 Lync Server 2013 用户复制程序服务初始同步过程。 此后，同步将基于用户复制程序间隔执行。 在运行 **Move-CsLegacyUser** cmdlet 之前，请先完成下列步骤以确认用户复制已完成。
+在运行 **CsLegacyUser** cmdlet 时，可能会由于 Active Directory 域服务 (AD DS) 和 Lync Server 2013 数据库之间的用户信息而发生故障，因为初始复制是不完整的。 成功完成 Lync Server 2013 用户复制程序服务的初始同步所需的时间取决于托管在承载 Lync Server 2013 池的 Active Directory 林中的域控制器数。 在首次启动 Lync Server 2013 前端服务器时，会发生 Lync Server 2013 用户复制程序服务初始同步过程。 此后，同步将基于用户复制程序间隔执行。 在运行 **Move-CsLegacyUser** cmdlet 之前，请先完成下列步骤以确认用户复制已完成。
 
 <div>
 
 ## <a name="to-verify-that-user-replication-has-completed"></a>确认用户复制已完成
 
-1.  在 Lync Server 2013 前端服务器中，单击 "**开始**" 菜单，然后单击 "**运行**"。
+1.  在 Lync Server 2013 前端服务器中，单击 " **开始** " 菜单，然后单击 " **运行**"。
 
 2.  输入 **eventvwr.exe**，然后单击“确定”****。
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-09-28_
 
 5.  在“事件来源”**** 列表中，单击“LS 用户复制程序”****。
 
-6.  在 **\<All Event IDs\>** 输入**30024** ，然后单击 **"确定"**。
+6.  在 **\<All Event IDs\>** 输入 **30024** ，然后单击 **"确定"**。
 
 7.  在筛选的事件列表中的“常规”**** 选项卡上，查找表明用户复制已成功完成的条目。
 

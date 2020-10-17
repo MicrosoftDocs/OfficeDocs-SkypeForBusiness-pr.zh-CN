@@ -12,20 +12,22 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46d61e01574945fe090d3fd9425133f9569bd111
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d1c1ff2b667c0529dfb7a90291dba7ad5ab154a3
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42199535"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517959"
 ---
+# <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫允许控制报告
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a>Lync Server 2013 中的呼叫允许控制报告
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42199535"
 
 _**上次修改的主题：** 2012-06-29_
 
-呼叫允许控制报告提供有关点对点和由呼叫允许控制设置限制下举行的会议会话的信息。 Microsoft Lync Server 2010 中引入的呼叫允许控制为管理员提供了一种基于带宽限制允许（或不允许）通信会话的方法。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
+呼叫允许控制报告提供有关点对点和由呼叫允许控制设置限制下举行的会议会话的信息。 Microsoft Lync Server 2010 中引入的呼叫允许控制为管理员提供了一种允许 (或不允许基于带宽限制的) 通信会话的方法。 例如，管理员可创建对可用于语音和视频呼叫的带宽量施加限制的策略。 如果已达到该带宽限制，则可进行新的语音和视频呼叫，直到其中的一个当前呼叫结束并释放所需的网络资源为止。
 
 <div>
 
@@ -115,7 +117,7 @@ _**上次修改的主题：** 2012-06-29_
 <ul>
 <li><p>各种</p></li>
 <li><p>对等</p></li>
-<li><p>发布会</p></li>
+<li><p>Conference</p></li>
 </ul></td>
 </tr>
 <tr class="odd">

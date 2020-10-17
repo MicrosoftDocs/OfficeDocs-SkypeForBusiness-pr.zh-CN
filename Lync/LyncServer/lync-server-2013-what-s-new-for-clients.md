@@ -12,20 +12,22 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc8ea4abd3608863dea1bf914f5d89cc0ad43fae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6103c6cd8ae762402a94412a56eda107f43a58fd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210959"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518199"
 ---
+# <a name="whats-new-for-clients-in-lync-server-2013"></a>Lync Server 2013 中客户端的新增功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-clients-in-lync-server-2013"></a>Lync Server 2013 中客户端的新增功能
+
 
 </div>
 
@@ -43,7 +45,7 @@ Microsoft Lync 2013 具有重新设计的用户界面和重要的新功能。 �
 
 
 > [!NOTE]  
-> 有关 Lync 2013 用户界面更新的图解视图，请参阅中的 "Lync 2013 的新增功能" <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A>。
+> 有关 Lync 2013 用户界面更新的图解视图，请参阅中的 "Lync 2013 的新增功能" <A href="https://go.microsoft.com/fwlink/?linkid=273885">https://go.microsoft.com/fwlink/?LinkId=273885</A> 。
 
 
 
@@ -73,7 +75,7 @@ Lync 2013 客户端和用于 Lync 2013 的联机会议外接程序（它支持�
 
 </div>
 
-有关详细信息，请参阅[在 Lync Server 2013 中部署 Lync 客户端](lync-server-2013-deploying-lync-clients.md)。
+有关详细信息，请参阅 [在 Lync Server 2013 中部署 Lync 客户端](lync-server-2013-deploying-lync-clients.md)。
 
 </div>
 
@@ -81,9 +83,9 @@ Lync 2013 客户端和用于 Lync 2013 的联机会议外接程序（它支持�
 
 ## <a name="group-policy-deployment"></a>组策略部署
 
-由于 Lync 2013 现在包含在 Office 安装程序中，因此用于部署 Lync 组策略设置的方法已更改。 在早期版本的 Lync 和 Office Communicator 中，可以使用 Communicator 定义组策略设置，而在 Lync 2013 中，现在可以使用 Lync ADMX 和 ADML 管理模板以及 Office 组策略提供的管理模板管理模板。
+由于 Lync 2013 现在包含在 Office 安装程序中，因此用于部署 Lync 组策略设置的方法已更改。 在早期版本的 Lync 和 Office Communicator 中，可以使用 Communicator 定义组策略设置，而在 Lync 2013 中，现在可以使用 Lync ADMX 和 ADML 管理模板，这些模板与 Office 组策略管理模板一起提供。
 
-有关详细信息，请参阅[Lync 2013 的组策略设置](lync-server-2013-group-policy-settings-for-lync-2013.md)。
+有关详细信息，请参阅 [Lync 2013 的组策略设置](lync-server-2013-group-policy-settings-for-lync-2013.md)。
 
 </div>
 
@@ -93,7 +95,7 @@ Lync 2013 客户端和用于 Lync 2013 的联机会议外接程序（它支持�
 
 Lync 2013 的联机会议外接程序包括会议邀请自定义和新会议选项。
 
-  - 管理员可通过添加自定义徽标、支持 URL、法律免责声明 URL 或自定义页脚文本自定义组织的会议邀请。 有关详细信息，请参阅[在 Lync Server 2013 中自定义联机会议外接程序](lync-server-2013-customizing-the-online-meeting-add-in.md)。
+  - 管理员可通过添加自定义徽标、支持 URL、法律免责声明 URL 或自定义页脚文本自定义组织的会议邀请。 有关详细信息，请参阅 [在 Lync Server 2013 中自定义联机会议外接程序](lync-server-2013-customizing-the-online-meeting-add-in.md)。
 
   - 新与会者静音控件允许会议组织者安排默认将与会者音频和视频设置为静音的会议。
 
@@ -103,7 +105,7 @@ Lync 2013 的联机会议外接程序包括会议邀请自定义和新会议选�
 
 ## <a name="virtual-desktop-infrastructure-plug-in"></a>虚拟桌面基础结构插件
 
-Lync 2013 客户端现在支持虚拟桌面基础结构（VDI）环境中的音频和视频。 用户可以将音频或视频设备（例如，耳机或网络摄像头）连接到本地计算机（例如，瘦客户端或已调整用途的计算机）。 用户可以连接到虚拟机，登录到在虚拟机上运行的 Lync 2013 客户端，并参与实时音频和视频通信，如同客户端在本地运行一样。 虚拟桌面环境中支持以下功能：
+Lync 2013 客户端现在支持虚拟桌面基础结构中的音频和视频 (VDI) 环境。 用户可以将音频或视频设备（例如，耳机或网络摄像头）连接到本地计算机（例如，瘦客户端或已调整用途的计算机）。 用户可以连接到虚拟机，登录到在虚拟机上运行的 Lync 2013 客户端，并参与实时音频和视频通信，如同客户端在本地运行一样。 虚拟桌面环境中支持以下功能：
 
   - 用于音频和视频的设备集成，包括以下内容：
     
@@ -119,7 +121,7 @@ Lync 2013 客户端现在支持虚拟桌面基础结构（VDI）环境中的音�
 
   - 定人电话和电话会议中的音频和视频支持。
 
-有关部署 VDI 插件的信息，请参阅[在 Lync Server 2013 中部署 LYNC VDI 插件](lync-server-2013-deploying-the-lync-vdi-plug-in.md)。
+有关部署 VDI 插件的信息，请参阅 [在 Lync Server 2013 中部署 LYNC VDI 插件](lync-server-2013-deploying-the-lync-vdi-plug-in.md)。
 
 </div>
 
@@ -163,7 +165,7 @@ Lync 2013 现在集成了 Lync 2010 组聊天以前提供的功能。 将不再�
 
 Lync Web App 是基于 Web 的会议客户端（Lync Server 2013 会议）。 在此版本中，将计算机音频和视频添加到 Lync Web App 为没有本地安装 Lync 客户端的用户提供了完整的会议体验。 会议参与者有权访问所有协作和共享功能以及演示者会议控件。
 
-当用户尝试加入会议，但未安装本地客户端时，将打开 Lync Web App。 如果您想要允许其他选项加入会议，则可以配置会议加入页面;请参阅部署文档中的在[Lync Server 2013 中配置会议加入页面](lync-server-2013-configuring-the-meeting-join-page.md)。
+当用户尝试加入会议，但未安装本地客户端时，将打开 Lync Web App。 如果您想要允许其他选项加入会议，则可以配置会议加入页面;请参阅部署文档中的在 [Lync Server 2013 中配置会议加入页面](lync-server-2013-configuring-the-meeting-join-page.md) 。
 
 由于 Lync Web App 的增强功能，更新版本的与会者对 Lync Server 2013 不可用。 Lync Web App 是您组织外部的参与者的首选客户端。 不需要安装本地客户端，但在首次使用音频、视频和共享功能时需要安装插件。
 
@@ -173,7 +175,7 @@ Lync Web App 是基于 Web 的会议客户端（Lync Server 2013 会议）。 �
 
 ## <a name="lync-2013-for-mobile-clients-updates"></a>适用于移动客户端更新的 Lync 2013
 
-除了增强状态、联系人和即时消息功能之外，Lync 2013 移动客户端现在还通过 Internet 和手机网络数据连接提供语音和视频呼叫。 通过单击日历项目中的会议链接，移动用户可以加入 Lync 语音和视频会议。 有关 Lync 2013 移动客户端的详细信息，请参阅[在 Lync Server 2013 中规划移动客户端](lync-server-2013-planning-for-mobile-clients.md)。
+除了增强状态、联系人和即时消息功能之外，Lync 2013 移动客户端现在还通过 Internet 和手机网络数据连接提供语音和视频呼叫。 通过单击日历项目中的会议链接，移动用户可以加入 Lync 语音和视频会议。 有关 Lync 2013 移动客户端的详细信息，请参阅 [在 Lync Server 2013 中规划移动客户端](lync-server-2013-planning-for-mobile-clients.md)。
 
 </div>
 
@@ -229,7 +231,7 @@ Lync 2013 包含几个新的辅助功能。
 
 简化的新外观保留了熟悉的功能，如“今天发生了什么事?”**** 说明字段、状态选择器和“设置您的位置”**** 选择器。
 
-  - 启用聊天室时，用户会在主 Lync 页面上看到一个新的**聊天室**图标。 通过“聊天室”**** 图标，用户可以快速访问其聊天室和筛选器。
+  - 启用聊天室时，用户会在主 Lync 页面上看到一个新的 **聊天室** 图标。 通过“聊天室”**** 图标，用户可以快速访问其聊天室和筛选器。
 
   - 用户可通过单击视图图标切换到“联系人”**** 视图、“聊天室”**** 视图、“对话”**** 视图或“电话”**** 视图。
 
@@ -241,7 +243,7 @@ Lync 2013 包含几个新的辅助功能。
 
 ## <a name="contacts-view-and-contact-card-updates"></a>联系人视图和联系人卡片更新
 
-Lync 2013 为用户提供了在其**联系人**视图中查看联系人和组的不同方法。
+Lync 2013 为用户提供了在其 **联系人** 视图中查看联系人和组的不同方法。
 
   - 在新的统一联系人存储中，在将用户的 Lync 联系人迁移到 Exchange 2013 之后，用户可以从 Lync 2013、Outlook 或 Outlook Web App 访问和管理其联系人，并且他们的收藏夹保持同步。 例如，如果用户将联系人添加到 Outlook 中的 "收藏夹"，则该联系人将显示在 Lync 2013 的 "收藏夹" 组中。
 

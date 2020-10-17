@@ -12,20 +12,22 @@ ms:contentKeyID: 48183705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9795754f12af467ea23944028bf17047087afc17
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 92870654872dd207130fa76a02f6ad8f206e3ec2
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181845"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519729"
 ---
+# <a name="single-director-in-lync-server-2013"></a>Lync Server 2013 中的单个控制器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="single-director-in-lync-server-2013"></a>Lync Server 2013 中的单个控制器
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42181845"
 
 _**上次修改的主题：** 2012-10-22_
 
-控制器可以部署在单个控制器配置中，也可以部署为控制器池。 本部分为单个控制器定义拓扑和配置。 如果打算出于处理更高容量和高可用性的目的来部署控制器池，请参阅[Lync Server 2013 中的主题扩展的控制器池](lync-server-2013-scaled-director-pool.md)，以了解该拓扑的规划注意事项。
+控制器可以部署在单个控制器配置中，也可以部署为控制器池。 本部分为单个控制器定义拓扑和配置。 如果打算出于处理更高容量和高可用性的目的来部署控制器池，请参阅 [Lync Server 2013 中的主题扩展的控制器池](lync-server-2013-scaled-director-pool.md) ，以了解该拓扑的规划注意事项。
 
 ![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")
 

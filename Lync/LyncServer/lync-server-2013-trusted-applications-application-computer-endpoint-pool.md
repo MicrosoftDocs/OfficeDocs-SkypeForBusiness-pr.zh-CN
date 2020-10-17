@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：受信任的应用程序（应用程序/计算机/终结点/池）
+title: 'Lync Server 2013：受信任的应用程序 (应用程序/计算机/终结点/池) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 708a98a6c1e9d0ff2d0d499b439127afea64b3ff
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: cccfa4125327ee2077878fdbaf74d23f5388414e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193325"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518909"
 ---
+# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Lync Server 2013 中 (应用程序/计算机/终结点/池) 的受信任应用程序
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="trusted-applications-applicationcomputerendpointpool-in-lync-server-2013"></a>Lync Server 2013 中的受信任应用程序（应用程序/计算机/终结点/池）
+
 
 </div>
 

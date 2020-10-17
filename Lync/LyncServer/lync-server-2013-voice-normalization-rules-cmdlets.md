@@ -12,20 +12,22 @@ ms:contentKeyID: 48184758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03345c9cbb9520c07a70626262ed3b9152c58623
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0c26113d638cb843278ae9437b89b0fe7806b06e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211128"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518269"
 ---
+# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的语音规范化规则 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的语音规范化规则 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211128"
 
 _**上次修改的主题：** 2012-06-20_
 
-语音规范化规则用于将电话拨号要求（例如，拨打9访问外线）转换为 Microsoft Lync Server 2013 使用的 e.164 电话号码格式。
+语音规范化规则用于转换电话拨号要求 (例如，拨打9访问外线) 到 Microsoft Lync Server 2013 使用的 e.164 电话号码格式。
 
 <div>
 

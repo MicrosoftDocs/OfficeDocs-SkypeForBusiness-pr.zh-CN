@@ -12,20 +12,22 @@ ms:contentKeyID: 48183281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d0ea105e52783bb61f24323fc7eccedcd5e85dd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 11cd7a2f9cb9eceb68535cec1160dc48ce12b2a9
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204662"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517969"
 ---
+# <a name="archiving-and-monitoring-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的存档和监控 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="archiving-and-monitoring-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的存档和监控 cmdlet
+
 
 </div>
 
@@ -37,11 +39,11 @@ ms.locfileid: "42204662"
 
 _**上次修改的主题：** 2012-10-04_
 
-存档和监控 cmdlet 使管理员能够管理即时消息和会议会话存档;记录呼叫详细信息;以及使用体验质量（QoE）监视 Microsoft Lync Server 2013。
+存档和监控 cmdlet 使管理员能够管理即时消息和会议会话存档;记录呼叫详细信息;使用 (QoE) 的质量经验监视 Microsoft Lync Server 2013。
 
 
 > [!NOTE]
-> 有关 cmdlet 的其他信息，请参阅 Lync Server&nbsp;Windows PowerShell 博客 at <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A>。 每个博客的内容及其 URL 如有更改，恕不另行通知。
+> 有关 cmdlet 的其他信息，请参阅 Lync Server &nbsp; Windows PowerShell 博客 at <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A> 。 每个博客的内容及其 URL 如有更改，恕不另行通知。
 
 
 

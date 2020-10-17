@@ -12,20 +12,22 @@ ms:contentKeyID: 49733686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c84c15aea6be5ddcc30c357fec5971bf9786c25
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: fab9cefc3fff51267426fd26263f9e2ec20a85ee
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755786"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518099"
 ---
+# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>删除存档服务器的 SQL Server 数据库
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-an-archiving-server"></a>删除存档服务器的 SQL Server 数据库
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2012-10-04_
 
 1.  在 Lync Server 2013 前端服务器上，打开拓扑生成器。
 
-2.  在拓扑生成器中，依次导航到 "**共享组件**" 和 " **SQL server 存储**"，右键单击与已删除或重新配置的存档服务器关联的 SQL Server 实例，然后单击 "**删除**"。
+2.  在拓扑生成器中，依次导航到 " **共享组件** " 和 " **SQL server 存储**"，右键单击与已删除或重新配置的存档服务器关联的 SQL Server 实例，然后单击 " **删除**"。
 
 3.  发布拓扑，然后检查复制状态。
 
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2012-10-04_
     
         Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    其中， \<FQDN\> 是数据库服务器的完全限定的域名（FQDN）， \<instance\> 是指定的数据库实例（如果定义了一个实例）。
+    其中， \<FQDN\> 是数据库服务器的 FQDN) 的完全限定的域名，并且 \<instance\> 是指定的数据库实例 (即) 定义了一个 (。
 
 4.  当 **Uninstall-CsDataBase** cmdlet 提示您确认操作时，请阅读信息，然后按 **Y**（或按 Enter 键）继续，或者如果您想要停止该 cmdlet（也就是，在出现错误的情况下），请按 **N**，然后按 Enter 键。
 

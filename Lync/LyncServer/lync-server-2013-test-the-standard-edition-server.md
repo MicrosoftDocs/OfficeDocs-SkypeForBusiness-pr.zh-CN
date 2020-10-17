@@ -12,20 +12,22 @@ ms:contentKeyID: 48185220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61d22a904005637ffcc6675f1e70328c3dad6f53
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f822297ed5a66189e42110167f70cf63e2d3d1db
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194395"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519039"
 ---
+# <a name="test-the-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Standard Edition 服务器
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-the-standard-edition-server-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Standard Edition 服务器
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-10-01_
 
 ## <a name="to-test-the-deployment-of-a-standard-edition-server"></a>测试 Standard Edition Server 的部署
 
-1.  使用 Active Directory 计算机和用户将 Lync Server 2013 部署（安装了 Lync Server 控制面板）的管理员角色的 Active Directory 用户对象添加到**CSAdministrator**组中。
+1.  使用 Active Directory 计算机和用户将 lync Server 控制面板安装 (上的 "Lync server 2013 部署" 的 "管理员" 角色的 Active Directory 用户对象添加) 到 **CSAdministrator** 组。
 
 2.  如果用户对象当前已登录，则注销后重新登录，以注册新的组分配。
     
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-10-01_
     
 
     > [!NOTE]  
-    > 用户帐户不能是运行 Lync Server 2013 Standard Edition 的服务器的本地管理员。 如果不将相应的用户和组添加到 CsAdministors 组中，则在打开 Lync Server 2013 控制面板时将收到错误，指出 "未经授权：由于基于角色的访问控制（RBAC）授权失败，访问被拒绝"。
+    > 用户帐户不能是运行 Lync Server 2013 Standard Edition 的服务器的本地管理员。 如果不将相应的用户和组添加到 CsAdministors 组，则在打开 Lync Server 2013 控制面板时，将收到错误消息，指出 "未经授权：由于基于角色的访问控制 (RBAC) 授权失败而拒绝访问。"
 
     
     </div>
@@ -60,9 +62,9 @@ _**上次修改的主题：** 2012-10-01_
 
 4.  如果出现提示，请启动 Lync Server 控制面板并提供凭据。 Lync Server 2013 控制面板显示部署信息。
 
-5.  在左侧导航栏中，单击 "**拓扑**"，然后确认服务状态是否为带有绿色箭头的计算机图标，并且每个已部署并联机的 Lync server 服务器角色旁边都有一个绿色的复选标记。
+5.  在左侧导航栏中，单击 " **拓扑**"，然后确认服务状态是否为带有绿色箭头的计算机图标，并且每个已部署并联机的 Lync server 服务器角色旁边都有一个绿色的复选标记。
 
-6.  在左侧导航栏中，单击 "**用户**"，然后为两个用户启用 Lync Server 2013。
+6.  在左侧导航栏中，单击 " **用户**"，然后为两个用户启用 Lync Server 2013。
 
 7.  使其中一个用户登录已加入域的计算机，另一个用户登录域中的其他计算机。
 

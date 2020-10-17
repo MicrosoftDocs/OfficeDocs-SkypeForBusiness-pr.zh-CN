@@ -12,20 +12,22 @@ ms:contentKeyID: 63969633
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2f9cd0beea65cfb1718fea3bc1c0235eb7554ad
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4d8d68dfaaca20d991aa37d1a73ae31bf88f5c31
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211808"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518719"
 ---
+# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>在 Lync Server 2013 中验证语音号码规范化和路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a>在 Lync Server 2013 中验证语音号码规范化和路由
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42211808"
 
 _**上次修改的主题：** 2014-05-19_
 
-正确的数字规范化和路由对于功能企业语音环境来说非常重要。 尤其是在从专用交换机（PBX）迁移到独立的 Lync Server 环境时，成功迁移的关键之一就是显示并记录所有现有的拨号规则，并创建适当的规范化规则、语音策略电话使用情况和路由。
+正确的数字规范化和路由对于功能企业语音环境来说非常重要。 尤其是在从专用分支 exchange (PBX) 迁移到独立的 Lync Server 环境时，成功迁移的关键之一是显示并记录所有现有的拨号规则，并创建适当的规范化规则、语音策略、电话使用情况和路由。
 
 验证号码规范化和路由不仅是在迁移过程中很重要，而且在正常的系统稳定操作过程中也很重要。
 
@@ -55,7 +57,7 @@ Lync Server 控制面板还可帮助您可视化、测试、更改、存档和�
 
   - 分析位置配置文件以实现与 Lync Server Phone Edition 的兼容性。
 
-  - 有关语音路由测试的详细信息，可参阅[Lync Server 2013 中的测试语音路由](lync-server-2013-test-voice-routing.md)
+  - 有关语音路由测试的详细信息，可参阅 [Lync Server 2013 中的测试语音路由](lync-server-2013-test-voice-routing.md)
 
 <div>
 

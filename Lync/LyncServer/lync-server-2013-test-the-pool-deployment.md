@@ -12,20 +12,22 @@ ms:contentKeyID: 48185976
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 552677dde2706265093879bc9b48ac803e1365fb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a808eb575dcccbce45e24f089b41721b41623b13
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194465"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519059"
 ---
+# <a name="test-the-pool-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中测试池部署
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-the-pool-deployment-in-lync-server-2013"></a>在 Lync Server 2013 中测试池部署
+
 
 </div>
 
@@ -43,13 +45,13 @@ _**上次修改的主题：** 2013-09-25_
 
 ## <a name="to-test-the-pool-deployment"></a>测试池部署
 
-1.  使用 Active Directory 计算机和用户将 Lync Server 2013 部署（安装了 Lync Server 2013 控制面板）的 "管理员" 角色的 Active Directory 用户对象添加到**CSAdministrator**组中。
+1.  使用 Active Directory 计算机和用户将 lync Server 2013 控制面板上安装的 lync server 2013 部署 (的 "管理员" 角色的 Active Directory 用户对象添加) 到 **CSAdministrator** 组中。
     
     <div>
     
 
     > [!IMPORTANT]  
-    > 如果不将相应的用户和组添加到 CsAdministors 组，则在打开 Lync Server 控制面板时将收到错误，这表明 "未经授权：由于基于角色的访问控制（RBAC）授权失败，访问被拒绝"。
+    > 如果不将相应的用户和组添加到 CsAdministors 组，则在打开 Lync Server 控制面板时将收到错误，这表明 "未授权：由于基于角色的访问控制 (RBAC) 授权失败而拒绝访问。"
 
     
     </div>
@@ -69,17 +71,17 @@ _**上次修改的主题：** 2013-09-25_
 
 4.  启动 Lync Server 控制面板，然后提供凭据（如果出现提示）。 Lync Server "控制面板" 显示部署信息。
 
-5.  在左侧导航栏中，单击 "**拓扑**"，然后确认服务状态显示计算机带有绿色箭头，并且复制状态的绿色复选标记位于已部署并联机的每个 Lync server 服务器角色的旁边。
+5.  在左侧导航栏中，单击 " **拓扑**"，然后确认服务状态显示计算机带有绿色箭头，并且复制状态的绿色复选标记位于已部署并联机的每个 Lync server 服务器角色的旁边。
 
-6.  在左侧导航栏中，单击 "**用户**"，然后单击 "**启用用户**"。
+6.  在左侧导航栏中，单击 " **用户**"，然后单击 " **启用用户**"。
 
-7.  在 "**新建 Lync Server 用户**" 页上，单击 "**添加**"。
+7.  在 " **新建 Lync Server 用户** " 页上，单击 " **添加**"。
 
-8.  若要定义要查找的对象的搜索参数，请在 "**从 Active Directory 中选择**" 页面上，选择 "**搜索**"，然后选择 "**添加筛选器**"。 您还可以选择 " **ldap 搜索**" 并输入 ldap 表达式以筛选或限制将返回的对象。 在确定了搜索选项之后，clink **Find**。
+8.  若要定义要查找的对象的搜索参数，请在 " **从 Active Directory 中选择** " 页面上，选择 " **搜索**"，然后选择 " **添加筛选器**"。 您还可以选择 " **ldap 搜索** " 并输入 ldap 表达式以筛选或限制将返回的对象。 在确定了搜索选项之后，clink **Find**。
 
 9.  在 "搜索结果" 窗格中，选择此搜索会话的所有对象，然后单击 **"确定"**。
 
-10. 在 "**新建 Lync Server 用户**" 页上，所选的一个或一些对象将显示在**用户**的显示中。 在 "**将用户分配给池**" 列表中，选择对象应驻留在其中的服务器。
+10. 在 " **新建 Lync Server 用户** " 页上，所选的一个或一些对象将显示在 **用户** 的显示中。 在 " **将用户分配给池** " 列表中，选择对象应驻留在其中的服务器。
     
     以下是用于配置对象的多种选项。
     
@@ -103,9 +105,9 @@ _**上次修改的主题：** 2013-09-25_
     
       - **客户端策略**
     
-    为了测试基本功能，请选择 "**生成用户的 SIP URI** " 设置所需的选项（配置中的其他选项将使用默认设置），然后单击 "**启用**"。
+    出于测试基本功能的目的，请选择 " **生成用户的 SIP URI** " 设置所需的选项 (配置中的其他选项将使用默认设置) ，然后单击 " **启用**"。
 
-11. 将显示一个摘要页，其中显示 "**已启用**" 列中的复选标记，指示这些对象现在可以使用。 " **SIP 地址**" 列显示用户登录配置所需的地址。
+11. 将显示一个摘要页，其中显示 " **已启用** " 列中的复选标记，指示这些对象现在可以使用。 " **SIP 地址** " 列显示用户登录配置所需的地址。
 
 12. 将一个用户登录到加入域的计算机，另一个用户登录到域中的另一台计算机上。
 

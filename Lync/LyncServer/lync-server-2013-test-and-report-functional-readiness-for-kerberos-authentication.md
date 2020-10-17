@@ -12,20 +12,22 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e160af5920f58b3813bd168c7f4fbe2e0f0cf95c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac03f06a5d2c4b4989319f32a867d91614bd3a30
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194715"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519319"
 ---
+# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中测试和报告 Kerberos 身份验证的功能准备情况
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>在 Lync Server 2013 中测试和报告 Kerberos 身份验证的功能准备情况
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-01-16_
 
 要成功完成此过程，应以 RTCUniversalServerAdmins 组成员的身份登录。
 
-您可以使用**CsKerberosAccountAssignment** Windows PowerShell cmdlet 测试和报告 Kerberos 身份验证的网站分配的功能准备情况。 此命令查询必需参数 Identity 中指定的站点。 可选报告参数使 cmdlet 将 HTML 报告写入 C：\\运行该命令的计算机上的日志。 可选参数 Verbose 会将活动信息显示在屏幕上。
+您可以使用**CsKerberosAccountAssignment**   Windows PowerShell cmdlet 测试和报告 Kerberos 身份验证的网站分配的功能准备情况。 此命令查询必需参数 Identity 中指定的站点。 可选报告参数使 cmdlet 将 HTML 报告写入 C： \\ 运行该命令的计算机上的日志。 可选参数 Verbose 会将活动信息显示在屏幕上。
 
 <div>
 

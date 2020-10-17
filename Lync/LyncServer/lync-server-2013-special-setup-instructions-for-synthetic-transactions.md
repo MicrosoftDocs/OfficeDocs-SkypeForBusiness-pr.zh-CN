@@ -12,20 +12,22 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: defed8a0356d489a628f883b42ae658aadd6442d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 3841cb8a582e44e14b9ae7c73f3b3aed6b6ded33
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181785"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519569"
 ---
+# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 中的综合事务的特殊设置说明
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Lync Server 2013 中的综合事务的特殊设置说明
+
 
 </div>
 
@@ -43,11 +45,11 @@ _**上次修改的主题：** 2015-11-16_
 
 ## <a name="dealing-with-server-timeout-errors"></a>处理服务器超时错误
 
-在某些情况下，您可能会发现综合事务失败，并出现服务器超时错误（错误代码504）。 这些错误通常是由防火墙问题引起的。 执行综合事务时，该事务在 MonitoringHost 进程下运行;反过来，MonitoringHost 将启动 PowerShell .exe 进程的一个实例。 如果你的防火墙阻止了 MonitoringHost 或 PowerShell，则综合事务将失败，并将生成504错误。
+在某些情况下，您可能会发现您的综合事务失败，并出现服务器超时错误 (错误代码 504) 。 这些错误通常是由防火墙问题引起的。 执行综合事务时，该事务在 MonitoringHost.exe 进程下运行;反过来，MonitoringHost.exe 启动 PowerShell.exe 进程的一个实例。 如果防火墙阻止 MonitoringHost.exe 或 PowerShell.exe，则综合事务将失败，并将生成504错误。
 
-若要解决此问题，您应手动为本地计算机上的 MonitoringHost 和 cluster.exe 创建入站防火墙规则。 可以通过 Windows 防火墙或第三方本地防火墙软件执行此操作，具体取决于您的服务器的预先存在的配置。
+若要解决此问题，您应手动为本地计算机上的 MonitoringHost.exe 和 PowerShell.exe 创建入站防火墙规则。 可以通过 Windows 防火墙或第三方本地防火墙软件执行此操作，具体取决于您的服务器的预先存在的配置。
 
-如果要在综合事务主机和要监视的 Lync 服务器之间使用网络防火墙设备，则应将主机视为客户端计算机，并[在 Lync Server 2013 中观察内部服务器的端口和协议中的](lync-server-2013-ports-and-protocols-for-internal-servers.md)所有防火墙端口要求。
+如果要在综合事务主机和要监视的 Lync 服务器之间使用网络防火墙设备，则应将主机视为客户端计算机，并 [在 Lync Server 2013 中观察内部服务器的端口和协议中的](lync-server-2013-ports-and-protocols-for-internal-servers.md)所有防火墙端口要求。
 
 </div>
 
@@ -78,7 +80,7 @@ _**上次修改的主题：** 2015-11-16_
 
 ## <a name="exchange-unified-messaging-synthetic-transactions"></a>Exchange 统一消息综合事务
 
-Exchange 统一消息（UM）综合事务验证测试用户是否可以连接到 Exchange 中托管的语音邮件帐户。 需要先为这些测试用户预配置语音邮件帐户，然后他们才能使用 Exchange UM 测试。
+Exchange 统一消息 (UM) 综合事务验证测试用户是否可以连接到位于 Exchange 中的语音邮件帐户。 需要先为这些测试用户预配置语音邮件帐户，然后他们才能使用 Exchange UM 测试。
 
 </div>
 
@@ -99,7 +101,7 @@ Exchange 统一消息（UM）综合事务验证测试用户是否可以连接到
 
   - 如果从服务器本身运行，则运行此 cmdlet 的用户应是 RTCUniversalServerAdmins 组的成员。
 
-在上面的命令中，已包含 Setup 参数并设置为 True ($True)。 如果包含 Setup 参数，CsPersistentChatMessage 将创建一个特殊的持久聊天室，并使用测试用户填充该聊天室。 这有助于确保实际存在一个可用于测试目的的聊天室。 请注意，安装程序参数应仅在前端服务器上运行。
+在上面的命令中，已包含 Setup 参数并设置为 True ($True)。 如果包含 Setup 参数，Test-CsPersistentChatMessage 将创建一个特殊的持久聊天室，并向测试用户填充该聊天室。 这有助于确保实际存在一个可用于测试目的的聊天室。 请注意，安装程序参数应仅在前端服务器上运行。
 
 仅管理员能够删除由 Test-CsPersistentChatMessage 创建的聊天室。
 
@@ -109,11 +111,11 @@ Exchange 统一消息（UM）综合事务验证测试用户是否可以连接到
 
 ## <a name="pstn-peer-to-peer-call-synthetic-transactions"></a>PSTN 对等呼叫综合事务
 
-[CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall)综合事务验证通过公用电话交换网（PSTN）拨打和接听呼叫的能力。
+[CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall)综合事务通过公开交换电话网络 (PSTN) 验证是否可以拨打和接听呼叫。
 
 若要运行此综合事务，管理员必须：
 
-  - 为企业语音启用的两个测试用户（呼叫者和接收器）。
+  -  (呼叫者和接收方) 启用企业语音的两个测试用户。
 
   - 为每个用户帐户配置外线直拨分机 (DID) 号码。
 
@@ -131,7 +133,7 @@ Exchange 统一消息（UM）综合事务验证测试用户是否可以连接到
 
 若要使用此综合事务，必须满足以下条件：
 
-  - 必须在 Lync Server 2013 和 Exchange 2013 之间配置[lync server 2013 中的服务器到服务器身份验证（OAuth）和合作伙伴应用程序的管理](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)。
+  - 必须在 Lync Server 2013 和 Exchange 2013 之间配置[ (OAuth) 和在 Lync server 2013 中的合作伙伴应用程序管理服务器到服务器的身份验证](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)。
 
   - 测试用户必须具有有效的 Exchange 2013 邮箱。
 
@@ -139,7 +141,7 @@ Exchange 统一消息（UM）综合事务验证测试用户是否可以连接到
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer -Setup
 
-请注意上面的命令中使用的 Setup 参数的用法。 如果运行 Test-CsUnifiedContactStore 时包含 Setup 参数，则指定用户的联系人（在此示例中，为 sip:kenmyer@litwareinc.com）将被移至统一的联系人存储库中。 （当然，如果用户的联系人已在统一联系人存储中，则无需移动它们。）Setup 参数通常仅使用一次（执行第一次 Test-csunifiedcontactstore 时），且只应与测试用户一起使用;即，用户帐户永远不会实际登录到 Lync Server。 在将测试用户迁移到统一的联系人存储库后，可通过调用 Test-CsUnifiedContactStore（不带 Setup 参数）来验证是否能检索用户的联系人：
+请注意上面的命令中使用的 Setup 参数的用法。 如果运行 Test-CsUnifiedContactStore 时包含 Setup 参数，则指定用户的联系人（在此示例中，为 sip:kenmyer@litwareinc.com）将被移至统一的联系人存储库中。  (当然，如果用户的联系人已在统一联系人存储中，则无需移动它们。 ) 安装程序参数通常仅在第 Test-CsUnifiedContactStore 一次执行) 时 (使用一次，且只应与测试用户一起使用;即，用户帐户永远不会实际登录到 Lync Server。 在将测试用户迁移到统一的联系人存储库后，可通过调用 Test-CsUnifiedContactStore（不带 Setup 参数）来验证是否能检索用户的联系人：
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer
 

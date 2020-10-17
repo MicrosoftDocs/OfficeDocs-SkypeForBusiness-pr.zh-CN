@@ -12,20 +12,22 @@ ms:contentKeyID: 48184014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a313419ca4072fe4d1841ba66a9cb603671e6c56
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ef5c417ff391bb3ec5954cf12d00f6de3d2e6d9b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211639"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518559"
 ---
+# <a name="videostream-table-in-lync-server-2013"></a>Lync Server 2013 中的 VideoStream 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="videostream-table-in-lync-server-2013"></a>Lync Server 2013 中的 VideoStream 表
+
 
 </div>
 
@@ -84,7 +86,7 @@ _**上次修改的主题：** 2013-12-13_
 <td><p><strong>VideoPayloadDescription</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>外部、主</p></td>
-<td><p>有效负载说明。 有关详细信息，请参阅<a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 中的 PayloadDescription 表</a>。</p></td>
+<td><p>有效负载说明。 有关详细信息，请参阅 <a href="lync-server-2013-payloaddescription-table.md">Lync Server 2013 中的 PayloadDescription 表</a> 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrival</strong></p></td>
@@ -112,13 +114,13 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="even">
 <td><p><strong>PacketLossRate</strong></p></td>
-<td><p>decimal （5，4）</p></td>
+<td><p>十进制 (5、4) </p></td>
 <td><p> </p></td>
 <td><p>呼叫期间的平均数据包丢失率。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>decimal （5，4）</p></td>
+<td><p>十进制 (5、4) </p></td>
 <td><p> </p></td>
 <td><p>呼叫期间观测到的数据包丢失最大值。</p></td>
 </tr>
@@ -136,7 +138,7 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="even">
 <td><p><strong>VideoResolution</strong></p></td>
-<td><p>char （9）</p></td>
+<td><p>char (9) </p></td>
 <td><p> </p></td>
 <td><p>视频的分辨率（像素宽乘以像素高）。报告为字符串。</p></td>
 </tr>
@@ -148,13 +150,13 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="even">
 <td><p><strong>InboundVideoFrameRateAvg</strong></p></td>
-<td><p>小数（9，4）</p></td>
+<td><p>十进制 (9、4) </p></td>
 <td><p> </p></td>
 <td><p>收到的视频帧速率。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OutboundVideoFrameRateAvg</strong></p></td>
-<td><p>小数（9，4）</p></td>
+<td><p>十进制 (9、4) </p></td>
 <td><p> </p></td>
 <td><p>发送的视频帧速率。</p></td>
 </tr>
@@ -166,7 +168,7 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="odd">
 <td><p><strong>VideoFrameLossRate</strong></p></td>
-<td><p>小数（9，4）</p></td>
+<td><p>十进制 (9、4) </p></td>
 <td><p> </p></td>
 <td><p>丢失的视频帧总数的百分比。</p></td>
 </tr>
@@ -178,7 +180,7 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="odd">
 <td><p><strong>VideoLocalFrameLossPercentageAvg</strong></p></td>
-<td><p>小数（9，4）</p></td>
+<td><p>十进制 (9、4) </p></td>
 <td></td>
 <td><p>丢失的视频帧总数的百分比。</p></td>
 </tr>
@@ -186,7 +188,7 @@ _**上次修改的主题：** 2013-12-13_
 <td><p><strong>CIFQualityRatio</strong></p></td>
 <td><p>tinyint</p></td>
 <td></td>
-<td><p>以通用交换格式（CIF）分辨率表示的呼叫百分比。</p></td>
+<td><p> (CIF) 分辨率的常见交换格式的呼叫百分比。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VGAQualityRatio</strong></p></td>
@@ -251,21 +253,21 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="odd">
 <td><p><strong>LossCongestionPercent</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>指示呼叫处于丢失拥塞状态的时间百分比。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DelayCongestionPercent</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>指示因网络数据包的延迟到达而导致拥塞的呼叫的百分比。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ContentionDetectedPercent</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>指示呼叫竞争网络资源的时间百分比。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
@@ -300,28 +302,28 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="even">
 <td><p><strong>LowBandwidthForMultiview</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>终结点确定网络连接无法支持多种显示视频的呼叫的百分比。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向延迟的总量。相对单向延迟用于度量客户端和服务器之间的延迟。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向延迟的平均量。相对单向延迟用于度量客户端和服务器之间的延迟。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向延迟的最大量。相对单向延迟用于度量客户端和服务器之间的延迟。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
@@ -342,7 +344,7 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向突发总持续时间。“突发”传输是指数据流以不可预知的突发方式进行的传输（与稳定流相反）。此指标用于度量客户端和服务器之间的数据流。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
@@ -356,21 +358,21 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向间隙总密度。“突发”传输是指数据流以不可预知的突发方式进行的传输（与稳定流相反）；间隙是指各个突发之间的延迟。此指标用于度量客户端和服务器之间的数据流。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>单向间隙总持续时间。“突发”传输是指数据流以不可预知的突发方式进行的传输（与稳定流相反）；间隙是指各个突发之间的延迟。此指标用于度量客户端和服务器之间的数据流。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoPacketLossRate</strong></p></td>
-<td><p>小数（9，4）</p></td>
+<td><p>十进制 (9、4) </p></td>
 <td></td>
 <td><p>视频数据包丢失的比特率。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
@@ -386,7 +388,7 @@ _**上次修改的主题：** 2013-12-13_
 <td><p><strong>SendCodecTypes</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>对外</p></td>
-<td><p>发件人使用的视频编解码器类型。 有关详细信息，请参阅<a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 中的 CodecDescription 表</a>。</p>
+<td><p>发件人使用的视频编解码器类型。 有关详细信息，请参阅 <a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 中的 CodecDescription 表</a> 。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
@@ -405,7 +407,7 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="odd">
 <td><p><strong>SendFrameRateAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>发件人使用的平均视频帧速率传输。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
@@ -434,7 +436,7 @@ _**上次修改的主题：** 2013-12-13_
 <td><p><strong>RecvCodecTypes</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>对外</p></td>
-<td><p>接收器使用的视频代码。 有关详细信息，请参阅<a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 中的 CodecDescription 表</a>。</p>
+<td><p>接收器使用的视频代码。 有关详细信息，请参阅 <a href="lync-server-2013-codecdescription-table.md">Lync Server 2013 中的 CodecDescription 表</a> 。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
@@ -453,7 +455,7 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="even">
 <td><p><strong>RecvFrameRateAverage</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>接收器使用的平均视频帧速率。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
@@ -490,47 +492,47 @@ _**上次修改的主题：** 2013-12-13_
 <td><p><strong>RecvVideoStreamsMode</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>接收器的视频模式（例如，库或单个流）。</p>
+<td><p>视频模式 (例如，收件人的库或单数据流) 。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>VideoPostFECPLR</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>应用转发错误纠正率后的数据包丢失率。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DynamicCapabilityPercent</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>动态功能标志处于活动状态的时间百分比。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResolutionMin</strong></p></td>
-<td><p>char （9）</p></td>
+<td><p>char (9) </p></td>
 <td></td>
 <td><p>呼叫期间衡量的最低分辨率。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowBitRateCallPercent</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
-<td><p>低于低比特率阈值（每秒 70 kb）的呼叫百分比。</p>
+<td><p>低于低比特率阈值的呼叫百分比 (每秒 70 kbps) 。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LowFrameRateCallPercent</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
-<td><p>呼叫百分比低于低帧速率阈值（每秒7.5 帧，入站）。</p>
+<td><p>呼叫低于低帧速率阈值的百分比 (每秒7.5 帧，入站) 。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LowResolutionCallPercent</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>最低分辨率发生的呼叫的百分比。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p>
@@ -538,7 +540,7 @@ _**上次修改的主题：** 2013-12-13_
 </tr>
 <tr class="even">
 <td><p><strong>DurationSeconds</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td></td>
 <td><p>以秒为单位的呼叫长度。</p>
 <p>本专栏是在 Microsoft Lync Server 2013 中引入的。</p></td>

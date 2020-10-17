@@ -12,20 +12,22 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da250e04b3547e7ce6f00a73028ac3fcd083c30d
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 358a0dd6dab96b67b26c211c9f28dbc6c0842804
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42200345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519789"
 ---
+# <a name="simultaneous-ringing-in-lync-server-2013"></a>Lync Server 2013 中的同时响铃
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="simultaneous-ringing-in-lync-server-2013"></a>Lync Server 2013 中的同时响铃
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42200345"
 
 _**上次修改的主题：** 2013-03-09_
 
-当呼叫方启用同时响铃时，基于位置的路由将分析呼叫方的位置和被叫方的终结点，以确定是否应路由呼叫。
+当呼叫方启用同时响铃时，Location-Based 路由将分析呼叫方的位置和被叫方的终结点，以确定是否应路由呼叫。
 
 下表说明了配置了同时响铃的用户，同时响铃目标是同一网络站点、不同网络站点或未知网络站点中的用户。
 
@@ -54,7 +56,7 @@ _**上次修改的主题：** 2013-03-09_
 <th>的传入 PSTN 呼叫</th>
 <th>位于与被呼叫方相同的网络站点中</th>
 <th>位于与被呼叫者不同的网络站点中</th>
-<th>位于未知网络站点中，或未启用基于位置的路由</th>
+<th>位于未知网络站点中，或者未启用 Location-Based 路由</th>
 </tr>
 </thead>
 <tbody>
@@ -68,7 +70,7 @@ _**上次修改的主题：** 2013-03-09_
 </table>
 
   
-下表说明了来自同一网络站点、不同网络站点或未知网络站点中 Lync 用户（即 Lync 呼叫者）的呼叫。 被叫方具有配置为同时振铃目标的 PSTN 终结点（即手机）。 在这种情况下，基于位置的路由将确定是否应将呼叫路由到被呼叫方的同时环目标（即手机）。
+下表说明了 Lync 用户 (的呼叫，例如，Lync 呼叫者) 在同一网络站点、不同网络站点或未知网络站点中。 被叫方有一个 PSTN 终结点 (即手机) 配置为同时振铃目标。 在这种情况下，Location-Based 路由将确定是否应将呼叫路由到 "同时环" 目标 (（即被叫方的手机) ）。
 
 
 <table>
@@ -83,7 +85,7 @@ _**上次修改的主题：** 2013-03-09_
 <th>同时振铃目标</th>
 <th>位于与被呼叫方相同的网络站点中</th>
 <th>位于与被呼叫者不同的网络站点中</th>
-<th>位于未知网络站点中，或未启用基于位置的路由</th>
+<th>位于未知网络站点中，或者未启用 Location-Based 路由</th>
 </tr>
 </thead>
 <tbody>
@@ -91,7 +93,7 @@ _**上次修改的主题：** 2013-03-09_
 <td><p>PSTN 终结点</p></td>
 <td><p>通过呼叫者的站点语音路由策略允许同时响铃</p></td>
 <td><p>通过呼叫者的站点语音路由策略允许同时响铃</p></td>
-<td><p>允许通过呼叫者的语音策略同时振铃到未启用基于位置的路由的中继</p></td>
+<td><p>允许通过呼叫者的语音策略同时振铃到中继不启用 Location-Based 路由的情况</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +104,7 @@ _**上次修改的主题：** 2013-03-09_
 ## <a name="see-also"></a>另请参阅
 
 
-[Lync Server 2013 中基于位置的路由的方案](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Lync Server 2013 中 Location-Based 路由的方案](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4330d31b0cdaf10a3586324711aed98ab541b6eb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7ef4c2884d9810793b6431c9d518c92bdcd1a3a4
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44755536"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518039"
 ---
+# <a name="verify-topology-information"></a>验证拓扑信息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-topology-information"></a>验证拓扑信息
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "44755536"
 
 _**上次修改的主题：** 2012-09-26_
 
-成功完成合并验证的第一步是查看与 Lync Server 2013 合并的 Office 通信服务器 2007 R2 拓扑信息。 在拓扑生成器中， **BackCompatSite**节点显示您合并的每个 Office 通信服务器 2007 R2 池和服务器的完全限定域名（FQDN）。
+成功完成合并验证的第一步是查看与 Lync Server 2013 合并的 Office 通信服务器 2007 R2 拓扑信息。 在拓扑生成器中， **BackCompatSite** 节点显示您合并的每个 Office 通信服务器 2007 R2 池和服务器的完全限定域名 (FQDN) 。
 
 <div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-09-26_
     
 
     > [!NOTE]  
-    > 您不会在<STRONG>BackCompatSite</STRONG>中看到在前端服务器或 Standard Edition server 上并置的服务器角色的任何信息。 仅显示 Office 通信服务器 2007 R2 和 Lync Server 2013 之间的互操作性所需的服务器角色。
+    > 您不会在 <STRONG>BackCompatSite</STRONG> 中看到在前端服务器或 Standard Edition server 上并置的服务器角色的任何信息。 仅显示 Office 通信服务器 2007 R2 和 Lync Server 2013 之间的互操作性所需的服务器角色。
 
     
     </div>
@@ -82,7 +84,7 @@ _**上次修改的主题：** 2012-09-26_
 
 
 > [!NOTE]  
-> 在拓扑生成器中运行合并向导之后发布拓扑时，会议目录将合并到 Lync Server 2013。 可以通过运行<STRONG>new-csconferencedirectory</STRONG> cmdlet 来验证会议目录。
+> 在拓扑生成器中运行合并向导之后发布拓扑时，会议目录将合并到 Lync Server 2013。 可以通过运行 <STRONG>new-csconferencedirectory</STRONG> cmdlet 来验证会议目录。
 
 
 

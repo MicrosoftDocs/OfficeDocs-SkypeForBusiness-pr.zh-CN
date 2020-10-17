@@ -12,20 +12,22 @@ ms:contentKeyID: 48184399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 49696b9e680093ed25e7a52f1a5dc07a0f809e38
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 853ab8a5727991eace45b452f6991ed2efaacde7
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211368"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518419"
 ---
+# <a name="view-simple-url-details-in-lync-server-2013"></a>在 Lync Server 2013 中查看简单 URL 详细信息
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-simple-url-details-in-lync-server-2013"></a>在 Lync Server 2013 中查看简单 URL 详细信息
+
 
 </div>
 
@@ -37,15 +39,15 @@ ms.locfileid: "42211368"
 
 _**上次修改的主题：** 2012-10-11_
 
-您可以使用 Lync Server 2013 控制面板查看 Lync Server 2013 环境的简单 URL 详细信息。 简单 URL 既便于用户加入会议，又便于管理员登录获取管理工具。 有关详细信息，请参阅[在 Lync Server 2013 中规划简单 url](lync-server-2013-planning-for-simple-urls.md)。
+您可以使用 Lync Server 2013 控制面板查看 Lync Server 2013 环境的简单 URL 详细信息。 简单 URL 既便于用户加入会议，又便于管理员登录获取管理工具。 有关详细信息，请参阅 [在 Lync Server 2013 中规划简单 url](lync-server-2013-planning-for-simple-urls.md)。
 
 <div>
 
 ## <a name="to-view-simple-url-details"></a>查看简单 URL 详细信息
 
-1.  从分配给 CsServerAdministrator、CsAdministrator、CsHelpDesk 或 CsViewOnlyAdministrator 角色的用户帐户中，登录到内部部署中的任何计算机。 有关 Lync Server 2013 中提供的预定义管理角色的详细信息，请参阅[在 Lync server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
+1.  从分配给 CsServerAdministrator、CsAdministrator、CsHelpDesk 或 CsViewOnlyAdministrator 角色的用户帐户中，登录到内部部署中的任何计算机。 有关 Lync Server 2013 中提供的预定义管理角色的详细信息，请参阅 [在 Lync server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“拓扑”****，然后单击“简单 URL”****。
 

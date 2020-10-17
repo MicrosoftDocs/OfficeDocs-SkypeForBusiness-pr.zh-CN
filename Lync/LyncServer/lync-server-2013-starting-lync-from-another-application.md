@@ -12,20 +12,22 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40e049b2a8a88514b9236ee0172474a5252bfdb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0d10e70615083796baa0934c6291b377dcd18005
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208308"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519509"
 ---
+# <a name="starting-lync-from-another-application"></a>从另一个应用程序启动 Lync
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="starting-lync-from-another-application"></a>从另一个应用程序启动 Lync
+
 
 </div>
 
@@ -45,7 +47,7 @@ Lync 2013 还可以识别以分号分隔的多方会议联系人姓名列表。
 
 下表显示了可用的参数。
 
-### <a name="lync-2013-command-line-parameters"></a>Lync 2013 命令行参数
+### <a name="lync-2013-command-line-parameters"></a>Lync 2013 Command-Line 参数
 
 <table>
 <colgroup>
@@ -57,7 +59,7 @@ Lync 2013 还可以识别以分号分隔的多方会议联系人姓名列表。
 <tr class="header">
 <th>扩展名</th>
 <th>数据格式</th>
-<th>Action</th>
+<th>操作</th>
 </tr>
 </thead>
 <tbody>
@@ -79,7 +81,7 @@ Lync 2013 还可以识别以分号分隔的多方会议联系人姓名列表。
 <tr class="even">
 <td><p>那些</p></td>
 <td><p>SIP URI</p></td>
-<td><p>如果将 Lync 2013 配置为使用传输层安全性（TLS）协议，则功能与 sip 完全一样：。 如果没有使用 TLS，将显示一个对话框，通知用户需要更高级别的安全性。</p></td>
+<td><p>如果将 Lync 2013 配置为使用传输层安全性 (TLS) 协议，则功能与 sip 完全一样：。 如果没有使用 TLS，将显示一个对话框，通知用户需要更高级别的安全性。</p></td>
 </tr>
 <tr class="odd">
 <td><p>会议</p></td>
@@ -89,7 +91,7 @@ Lync 2013 还可以识别以分号分隔的多方会议联系人姓名列表。
 <tr class="even">
 <td><p>im</p></td>
 <td><p>SIP URI</p></td>
-<td><p>使用 SIP URI 打开仅显示即时消息 (IM) 的“对话”窗口。 接受不带任何分隔符的尖括号（&lt;&gt;）内指定的多个 SIP uri。</p>
+<td><p>使用 SIP URI 打开仅显示即时消息 (IM) 的“对话”窗口。 接受在 &lt; &gt; 不带任何分隔符的尖括号 () 中指定的多个 SIP uri。</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>

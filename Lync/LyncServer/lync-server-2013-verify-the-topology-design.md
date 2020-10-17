@@ -12,20 +12,22 @@ ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 452bd18d19fa61a0479ee8040361290b0b99d702
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 8e8dae20a945194fb4fda2bcc84eab232d9b34e1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211738"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518589"
 ---
+# <a name="verify-the-topology-design-in-lync-server-2013"></a>验证 Lync Server 2013 中的拓扑设计
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verify-the-topology-design-in-lync-server-2013"></a>验证 Lync Server 2013 中的拓扑设计
+
 
 </div>
 
@@ -53,7 +55,7 @@ _**上次修改的主题：** 2012-01-02_
 
 5.  验证服务器是否存在于 Active Directory 域服务中。 如果已将服务器加入域，将自动验证。
 
-如果已验证拓扑并且未出现验证错误，则发布拓扑的准备工作应该已经就绪。 如果出现验证错误，则必须先更正错误，然后才能发布拓扑。 有关发布拓扑的详细信息，请参阅[在 Lync Server 2013 中发布拓扑](lync-server-2013-publish-the-topology.md)。
+如果已验证拓扑并且未出现验证错误，则发布拓扑的准备工作应该已经就绪。 如果出现验证错误，则必须先更正错误，然后才能发布拓扑。 有关发布拓扑的详细信息，请参阅 [在 Lync Server 2013 中发布拓扑](lync-server-2013-publish-the-topology.md)。
 
 </div>
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185558
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6cc926ecdf990c9d82c4a088a77611ad0fd5806
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bf5eca9118c9f4706aa209dc1e2db1b3dbbed358
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215448"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519809"
 ---
+# <a name="planning-and-deploying-video-in-lync-server-2013"></a>在 Lync Server 2013 中规划和部署视频
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-video-in-lync-server-2013"></a>在 Lync Server 2013 中规划和部署视频
+
 
 </div>
 
@@ -39,17 +41,17 @@ _**上次修改的主题：** 2012-10-02_
 
 Lync Server 2013 引入了以下新的视频功能：
 
-  - **HD 视频**   用户可在两方呼叫和多方会议中体验到完全高清晰度（HD）（即，1920 x 1080）的分辨率。
+  - **HD 视频**    在两方呼叫和多方会议中，用户可以体验到完整高清晰度 (HD)  (即 1920 x 1080) 的分辨率。
 
-  - **库视图**   在包含两人以上的视频会议中，用户可以在会议中看到参与者的视频。 如果会议具有五个以上的参与者，则最活跃参与者的视频将显示在顶部行中，并显示其他参与者的照片。
+  - **库视图**    在包含两人以上的视频会议中，用户可以在会议中看到参与者的视频。 如果会议具有五个以上的参与者，则最活跃参与者的视频将显示在顶部行中，并显示其他参与者的照片。
 
-  - **H-p 视频**   现在，在 Lync 2013 客户端上对视频进行编码的默认编码编解码器。 H.264 视频支持范围更广的分辨率和帧速率，并改进了视频可伸缩性。
+  - **H-p 视频**    目前，在 Lync 2013 客户端上对视频进行编码的默认视频编解码器是默认编码解码器。 H.264 视频支持范围更广的分辨率和帧速率，并改进了视频可伸缩性。
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 仍支持 VC1 编解码器，以实现与 Lync 早期版本的互操作性。 有关新视频编解码器的详细信息和背景信息，请参阅李明 Schertz 博客文章 "Lync 2013 中的视频互操作性<A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>"，网址为。
+    > Lync Server 2013 仍支持 VC1 编解码器，以实现与 Lync 早期版本的互操作性。 有关新视频编解码器的详细信息和背景信息，请参阅李明 Schertz 博客文章 "Lync 2013 中的视频互操作性"，网址为 <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A> 。
 
     
     </div>

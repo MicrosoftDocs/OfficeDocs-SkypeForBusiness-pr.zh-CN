@@ -12,20 +12,22 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3536e7bc95aced3a8bd68cab15b8994aa9e697c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c7c599e2199a605b4d24a79c450d7abe2bd4473c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194546"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48519219"
 ---
+# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>测试移动用户在 Lync Server 2013 中 exchange 即时消息的功能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-mobile-users-ability-to-exchange-instant-messages-in-lync-server-2013"></a>测试移动用户在 Lync Server 2013 中 exchange 即时消息的功能
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-07_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-csmcxp2pim cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsMcxP2PIM cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxP2PIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2014-06-07_
 
 <div>
 
-## <a name="description"></a>Description
+## <a name="description"></a>说明
 
 移动服务使移动设备用户可以执行以下操作：
 
@@ -74,7 +76,7 @@ _**上次修改的主题：** 2014-06-07_
 
 3.  利用 Lync Server 功能，例如通过工作和拨出式会议进行呼叫。
 
-CsMxcP2PIM cmdlet 提供了一种快速而简单的方法来验证用户是否可以使用移动服务来交换即时消息。
+Test-CsMxcP2PIM cmdlet 提供了一种快速而简单的方法来验证用户是否可以使用移动服务来交换即时消息。
 
 </div>
 
@@ -82,14 +84,14 @@ CsMxcP2PIM cmdlet 提供了一种快速而简单的方法来验证用户是否�
 
 ## <a name="running-the-test"></a>运行测试
 
-若要运行此测试，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。 在调用 Test-csmcxp2pim 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
+若要运行此测试，必须为每个帐户 (包含帐户名称和密码) 的对象创建两个 Windows PowerShell 凭据对象。 在调用 Test-csmcxp2pim 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\pilar"
     
     Test-CsMcxP2PIM -TargetFqdn "atl-cs-001.litwareinc.com" -Authentication Negotiate -SenderSipAddres "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:packerman@litwareinc.com" -ReceiverCredential $credential2
 
-有关详细信息，请参阅[test-csmcxp2pim](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) cmdlet 的帮助主题。
+有关详细信息，请参阅 [test-csmcxp2pim](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxP2PIM) cmdlet 的帮助主题。
 
 </div>
 
@@ -97,11 +99,11 @@ CsMxcP2PIM cmdlet 提供了一种快速而简单的方法来验证用户是否�
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果两个测试用户可以通过使用移动服务来交换即时消息，则 Test-csmcxp2pim 将返回测试结果 "成功"：
+如果两个测试用户可以通过使用移动服务来交换即时消息，Test-CsMcxP2PIM 将返回测试结果是否成功：
 
 目标 Fqdn： atl-cs-001.litwareinc.com
 
-目标 Uri：http://atl-cs-001.litwareinc.com:443/mcx
+目标 Uri： http://atl-cs-001.litwareinc.com:443/mcx
 
 结果：成功
 
@@ -115,13 +117,13 @@ CsMxcP2PIM cmdlet 提供了一种快速而简单的方法来验证用户是否�
 
 目标 Fqdn： atl-cs-001.litwareinc.com
 
-目标 Uri：https://atl-cs-001.litwareinc.com:443/mcx
+目标 Uri： https://atl-cs-001.litwareinc.com:443/mcx
 
 结果：失败
 
 延迟：00:00:00
 
-错误消息：没有为 Web 票证服务收到任何响应。
+错误消息：未收到 Web-Ticket 服务的响应。
 
 内部异常：未授权的 HHTP 请求
 
@@ -131,7 +133,7 @@ CsMxcP2PIM cmdlet 提供了一种快速而简单的方法来验证用户是否�
 
 内部异常：远程服务器返回错误：
 
-（401）未经授权。
+ (401) 未经授权。
 
 诊断
 
@@ -139,13 +141,13 @@ CsMxcP2PIM cmdlet 提供了一种快速而简单的方法来验证用户是否�
 
 001.litwareinc.com
 
-缓存控制： private
+Cache-Control： private
 
 Content-Type： text/html;字符集 = utf-8。
 
 服务器： Microsoft-IIS/8。5
 
-WWW-身份验证：协商、NTLM
+WWW-Authenticate： Negotiate、NTLM
 
 X-电源： ASP.NET
 
@@ -161,7 +163,7 @@ Content-长度：6305
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-如果测试 Test-csmcxp2pim 失败，您的第一步应是验证移动服务是否已启动并在运行。 可通过使用 web 浏览器来验证是否可以访问 Lync Server 池的移动服务 URL 来执行此操作。 例如，以下命令将验证池 atl-cs-001.litwareinc.com 的 URL：
+如果 Test-CsMcxP2PIM 失败第一步应是验证移动服务是否已启动并在运行。 可通过使用 web 浏览器来验证是否可以访问 Lync Server 池的移动服务 URL 来执行此操作。 例如，以下命令将验证池 atl-cs-001.litwareinc.com 的 URL：
 
     https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc
 
@@ -175,11 +177,11 @@ Content-长度：6305
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-了解策略名称后，使用 Set-csmobilitypolicy cmdlet 验证相关策略（例如，RedmondMobilityPolicy）的 EnableMobility 属性是否设置为 True：
+了解策略名称后，请使用 Get-CsMobilityPolicy cmdlet 确认相关策略 (例如，RedmondMobilityPolicy) 的 EnableMobility 属性设置为 True：
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-如果收到包含身份验证标头的错误消息，则通常意味着您未指定有效的用户帐户。 请验证用户名和密码，然后再次尝试测试。 如果你确信用户帐户有效，则使用 CsWebServiceConfiguration cmdlet 并检查 UseWindowsAuth 属性的值。 这将告诉你在组织中启用了哪些身份验证方法。有关如何对移动服务进行故障排除的更多提示，请参阅博客文章[故障排除外部 Lync 移动连接问题](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)分步。
+如果收到包含身份验证标头的错误消息，则通常意味着您未指定有效的用户帐户。 请验证用户名和密码，然后再次尝试测试。 如果确信用户帐户有效，则使用 Get-CsWebServiceConfiguration cmdlet 并检查 UseWindowsAuth 属性的值。 这将告诉你在组织中启用了哪些身份验证方法。有关如何对移动服务进行故障排除的更多提示，请参阅博客文章 [故障排除外部 Lync 移动连接问题](https://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx)分步。
 
 </div>
 

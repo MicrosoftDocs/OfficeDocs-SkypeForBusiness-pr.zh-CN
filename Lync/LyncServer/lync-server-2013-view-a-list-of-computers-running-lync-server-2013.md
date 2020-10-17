@@ -12,20 +12,22 @@ ms:contentKeyID: 48184030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eca6cc07cd8936f228eb8443eb79c44e5d6b4dc7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 9dee1569611512ac81f5987aeb02da4dcf44995c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42211608"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518509"
 ---
+# <a name="view-a-list-of-computers-running-lync-server-2013"></a>查看运行 Lync Server 2013 的计算机的列表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="view-a-list-of-computers-running-lync-server-2013"></a>查看运行 Lync Server 2013 的计算机的列表
+
 
 </div>
 
@@ -43,9 +45,9 @@ _**上次修改的主题：** 2012-11-01_
 
 ## <a name="to-view-a-list-of-computers-running-lync-server"></a>查看运行 Lync Server 的计算机列表
 
-1.  从分配给任何适用于 Lync Server 2013 的任何预定义管理角色的用户帐户，登录到内部部署中的任何计算机。 有关 Lync Server 2013 中提供的预定义管理角色的详细信息，请参阅[在 Lync server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
+1.  从分配给任何适用于 Lync Server 2013 的任何预定义管理角色的用户帐户，登录到内部部署中的任何计算机。 有关 Lync Server 2013 中提供的预定义管理角色的详细信息，请参阅 [在 Lync server 2013 中规划基于角色的访问控制](lync-server-2013-planning-for-role-based-access-control.md)。
 
-2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅[Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
+2.  打开浏览器窗口，然后输入管理员 URL 以打开 "Lync Server 控制面板"。 有关可用于启动 Lync Server 控制面板的不同方法的详细信息，请参阅 [Open Lync server 2013 "管理工具](lync-server-2013-open-lync-server-administrative-tools.md)"。
 
 3.  在左侧导航栏中，单击“拓扑”****，然后单击“状态”****。
 

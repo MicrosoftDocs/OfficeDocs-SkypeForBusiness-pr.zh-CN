@@ -12,20 +12,22 @@ ms:contentKeyID: 48185581
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca12d6a2d41a8787baa8f665014bcf8b77ec3e03
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f4bee21cc0d9065868c03467b53d991baba1190d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42212788"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518779"
 ---
+# <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>使用扫描结果分析和解决 Lync Server 2013 中的最佳实践分析工具报告的问题
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer-in-lync-server-2013"></a>使用扫描结果分析和解决 Lync Server 2013 中的最佳实践分析工具报告的问题
+
 
 </div>
 
@@ -43,7 +45,7 @@ _**上次修改的主题：** 2012-06-14_
 
 
 > [!NOTE]  
-> Lync Server 2013，最佳实践分析工具仅在 Lync Server 2013 组件中扫描和报告问题。 如果您的部署包括 Microsoft Lync Server 2010 或 Office 通信服务器 2007 R2 组件，请使用早期版本的最佳实践分析程序来分析这些组件。 有关详细信息，请参阅<A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中运行最佳实践分析工具的要求</A>。
+> Lync Server 2013，最佳实践分析工具仅在 Lync Server 2013 组件中扫描和报告问题。 如果您的部署包括 Microsoft Lync Server 2010 或 Office 通信服务器 2007 R2 组件，请使用早期版本的最佳实践分析程序来分析这些组件。 有关详细信息，请参阅 <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">在 Lync Server 2013 中运行最佳实践分析工具的要求</A>。
 
 
 

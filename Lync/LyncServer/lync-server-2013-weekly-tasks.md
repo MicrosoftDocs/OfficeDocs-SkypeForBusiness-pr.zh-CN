@@ -12,20 +12,22 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a723c17e5c909ba0313b962cf97a508b17487309
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d8177cf0a647ec5155a32a91c6e764e9c13e1dcb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42210985"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48518219"
 ---
+# <a name="weekly-tasks-in-lync-server-2013"></a>Lync Server 2013 中的每周任务
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="weekly-tasks-in-lync-server-2013"></a>Lync Server 2013 中的每周任务
+
 
 </div>
 
@@ -81,11 +83,11 @@ _**上次修改的主题：** 2015-08-17_
 
 ## <a name="check-iis-logs-and-performance"></a>检查 IIS 日志和性能
 
-每周对 Internet 信息服务（IIS）日志和性能进行审阅。 有关如何监视 IIS 日志和性能的详细信息，请参阅[Windows Server 2003 Internet Information Services （IIS）事件日志记录概述](https://go.microsoft.com/fwlink/?linkid=36077)。 评审应包括以下内容：
+对 Internet 信息服务 (IIS) 日志和性能进行每周的审阅。 有关如何监视 IIS 日志和性能的详细信息，请参阅 [Windows Server 2003 Internet Information Services (IIS) 事件日志概述](https://go.microsoft.com/fwlink/?linkid=36077)。 评审应包括以下内容：
 
   - 用于监视 WWW 服务缓存的 Web 服务缓存计数器。
 
-  - 用于监视以 Asp 形式运行的应用程序的 Active Server Pages （Asp）计数器。
+  -  (Asp) 计数器中的 Active Server Pages 可监视以 Asp 的形式运行的应用程序。
 
 </div>
 
@@ -97,19 +99,19 @@ _**上次修改的主题：** 2015-08-17_
 
 1.  打开 Lync Server 2013。
 
-2.  在控制台树中，展开 "林" 节点，展开 "**企业版池**"，然后单击要为其生成数据库报告的池。
+2.  在控制台树中，展开 "林" 节点，展开 " **企业版池**"，然后单击要为其生成数据库报告的池。
 
-3.  在详细信息窗格中，单击 "**数据库**" 选项卡。
+3.  在详细信息窗格中，单击 " **数据库** " 选项卡。
 
-4.  在 "**数据库**" 选项卡上，执行以下操作：
+4.  在 " **数据库** " 选项卡上，执行以下操作：
     
-    1.  若要查看数据库的名称，请展开 "**常规设置**"，然后查看数据库名称。
+    1.  若要查看数据库的名称，请展开 " **常规设置**"，然后查看数据库名称。
     
-    2.  若要检索池的当前用户汇总统计信息，请展开 "**用户摘要报告**"，单击 "**开始**"，然后查看结果。
+    2.  若要检索池的当前用户汇总统计信息，请展开 " **用户摘要报告**"，单击 " **开始**"，然后查看结果。
     
-    3.  若要检索池的单个用户的当前每用户数据，请展开 "**每用户报告**"，键入用户的 SIP URI，单击 "**开始**"，然后查看结果。
+    3.  若要检索池的单个用户的当前每用户数据，请展开 " **每用户报告**"，键入用户的 SIP URI，单击 " **开始**"，然后查看结果。
 
-若要检索池的当前会议摘要统计信息，请展开 "**会议摘要报告**"，单击 "**开始**"，然后查看结果。
+若要检索池的当前会议摘要统计信息，请展开 " **会议摘要报告**"，单击 " **开始**"，然后查看结果。
 
 </div>
 
@@ -125,7 +127,7 @@ _**上次修改的主题：** 2015-08-17_
 
 ## <a name="run-the-lync-server-2013-best-practice-analyzer"></a>运行 Lync Server 2013 最佳实践分析工具
 
-Lync Server 2013 最佳实践分析工具是一种诊断工具，它收集配置信息，并根据 Microsoft 最佳实践确定是否设置配置。 此工具的文档位于[Lync Server 2013 最佳实践分析](lync-server-2013-lync-server-best-practices-analyzer.md)工具中。
+Lync Server 2013 最佳实践分析工具是一种诊断工具，它收集配置信息，并根据 Microsoft 最佳实践确定是否设置配置。 此工具的文档位于 [Lync Server 2013 最佳实践分析](lync-server-2013-lync-server-best-practices-analyzer.md)工具中。
 
 该工具会将部署的配置数据与 Lync Server 的一组预定义的规则进行比较，并报告潜在问题。 对于报告的每个问题，该工具都提供了 Lync Server 环境中的当前配置以及建议的配置。
 
@@ -145,7 +147,7 @@ Lync Server 2013 最佳实践分析工具是一种诊断工具，它收集配置
 
   - 生成可被捕获以供以后查看的配置信息
 
-确保在所有 Lync Server 2013 服务器上安装 RTCBPA，并生成每周运行状况检查报告。 如果需要，请记下结果并更正。
+确保在所有 Lync Server 2013 服务器上安装 RTCBPA.msi，并生成每周运行状况检查报告。 如果需要，请记下结果并更正。
 
 </div>
 
@@ -173,21 +175,21 @@ Lync Server 2013 最佳实践分析工具是一种诊断工具，它收集配置
 
 1.  打开 Lync Server 2013。
 
-2.  在控制台树中，展开 "林" 节点，展开 "**企业版池**"，然后单击要为其生成数据库报告的池。
+2.  在控制台树中，展开 "林" 节点，展开 " **企业版池**"，然后单击要为其生成数据库报告的池。
 
-3.  在详细信息窗格中，单击 "**数据库**" 选项卡。
+3.  在详细信息窗格中，单击 " **数据库** " 选项卡。
 
-4.  在 "**数据库**" 选项卡上，执行以下操作：
+4.  在 " **数据库** " 选项卡上，执行以下操作：
     
-    1.  若要查看数据库的名称，请展开 "**常规设置**"，然后查看数据库名称。
+    1.  若要查看数据库的名称，请展开 " **常规设置**"，然后查看数据库名称。
     
-    2.  若要检索池的当前用户汇总统计信息，请展开 "**用户摘要报告**"，单击 "**开始**"，然后查看结果。
+    2.  若要检索池的当前用户汇总统计信息，请展开 " **用户摘要报告**"，单击 " **开始**"，然后查看结果。
     
-    3.  若要检索池的单个用户的当前每用户数据，请展开 "**每用户报告**"，键入用户的 SIP URI，单击 "**开始**"，然后查看结果。
+    3.  若要检索池的单个用户的当前每用户数据，请展开 " **每用户报告**"，键入用户的 SIP URI，单击 " **开始**"，然后查看结果。
 
-若要检索池的当前会议摘要统计信息，请展开 "**会议摘要报告**"，单击 "**开始**"，然后查看结果。
+若要检索池的当前会议摘要统计信息，请展开 " **会议摘要报告**"，单击 " **开始**"，然后查看结果。
 
-对于每个企业版池，管理员可以使用 "**数据库**" 选项卡查看数据库名称，并从数据库中检索和查看报告。
+对于每个企业版池，管理员可以使用 " **数据库** " 选项卡查看数据库名称，并从数据库中检索和查看报告。
 
 ### <a name="database-reports-and-descriptions"></a>数据库报告和说明
 
@@ -199,7 +201,7 @@ Lync Server 2013 最佳实践分析工具是一种诊断工具，它收集配置
 <thead>
 <tr class="header">
 <th>分区</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -211,11 +213,11 @@ Lync Server 2013 最佳实践分析工具是一种诊断工具，它收集配置
 <ul>
 <li><p>已启用的用户是通过使用 Active Directory 用户和计算机管理单元启用了 Lync Server 2013 的用户。</p></li>
 <li><p>"活动用户" 是已登录或已注册的用户。</p></li>
-<li><p>摘要报告还提供了有关联系人的一组统计信息。 这些统计信息仅对至少已登录一次且至少有一个联系人的用户群体有效。 因此，您通常不会看到最小数量为0的联系人。 由于此行为，如果用户没有联系人（但在用户已注册的情况下处于活动状态），您可能会看到： &lt;对于某些&gt;统计信息字段为空。</p></li>
+<li><p>摘要报告还提供了有关联系人的一组统计信息。 这些统计信息仅对至少已登录一次且至少有一个联系人的用户群体有效。 因此，您通常不会看到最小数量为0的联系人。 由于此行为，如果用户没有联系人 (但处于活动状态，则表明用户已注册) ，您可能会看到： &lt; &gt; 对于某些统计信息字段为空。</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>每用户报告</p></td>
+<td><p>Per-User 报告</p></td>
 <td><p>Dbanalyze/v/report： disk [/sqlserver： value]</p>
 <p>与通过用户群体计算的摘要报告不同，这些报告是有关特定用户的报告。</p></td>
 </tr>
@@ -252,13 +254,13 @@ Lync Server 2013 最佳实践分析工具是一种诊断工具，它收集配置
 
   - 使用预配带宽下的 WAN 链路进行筛选
 
-  - 按 WAN 链路进行筛选，这些链路达到关键级别（超过 WAN 链路的带宽使用率大于90% 的带宽使用率）
+  - 按 WAN 链路进行筛选，达到关键级别 (WAN 链路的带宽使用率大于 90%) 
 
   - 按 WAN 链接类型（网络站点链接、区域间链接和站点内的链接）进行筛选
 
   - 按网络区域筛选
 
-此工具的文档在[Lync Server 2013 资源工具包工具文档](https://go.microsoft.com/fwlink/?linkid=623245)中提供。
+此工具的文档在 [Lync Server 2013 资源工具包工具文档](https://go.microsoft.com/fwlink/?linkid=623245)中提供。
 
 </div>
 
