@@ -12,20 +12,22 @@ ms:contentKeyID: 48183568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c833ab255741b6a2f28ce9d72f46226c42baea3
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 369e1ace7e0f3f9326896373a640597360ded81d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217608"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516169"
 ---
+# <a name="media-table-in-lync-server-2013"></a><span data-ttu-id="cee6f-102">Lync Server 2013 中的媒体表</span><span class="sxs-lookup"><span data-stu-id="cee6f-102">Media table in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-table-in-lync-server-2013"></a><span data-ttu-id="6c214-102">Lync Server 2013 中的媒体表</span><span class="sxs-lookup"><span data-stu-id="6c214-102">Media table in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42217608"
 
 <span> </span>
 
-<span data-ttu-id="6c214-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="6c214-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="cee6f-103">_**上次修改的主题：** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="cee6f-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="6c214-p101">每条记录表示一个用于点对点会话的媒体类型。如果使用多个媒体类型，则一个会话由表中的多条记录表示。</span><span class="sxs-lookup"><span data-stu-id="6c214-p101">Each record represents one media type used in a peer-to-peer session. One session would be represented by multiple records in the table, if more than one media type is used.</span></span>
+<span data-ttu-id="cee6f-p101">每条记录表示一个用于点对点会话的媒体类型。如果使用多个媒体类型，则一个会话由表中的多条记录表示。</span><span class="sxs-lookup"><span data-stu-id="cee6f-p101">Each record represents one media type used in a peer-to-peer session. One session would be represented by multiple records in the table, if more than one media type is used.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="6c214-p102">不应使用媒体表计算会话的媒体持续时间。该表包含会话中的媒体交换信号详情。媒体交换通过 INVITE 请求实现，StartTime 指示发出 INVITE 的时间。邀请时间不一定表示媒体的启动时间，因为仅在会话接收方接受会话后，媒体才启动。EndTime 通常表示该会话的结束时间。</span><span class="sxs-lookup"><span data-stu-id="6c214-p102">The Media table should not be used to calculate the media duration for a session. This table contains the signaling details of media exchange in a session. Media exchange is done by the INVITE request, and StartTime indicates the time that the INVITE was sent out. The invite time does not necessarily mean the media start time, because media starts only after the sessionee accepts the session. The EndTime usually means the end time of this session.</span></span>
+> <span data-ttu-id="cee6f-p102">不应使用媒体表计算会话的媒体持续时间。该表包含会话中的媒体交换信号详情。媒体交换通过 INVITE 请求实现，StartTime 指示发出 INVITE 的时间。邀请时间不一定表示媒体的启动时间，因为仅在会话接收方接受会话后，媒体才启动。EndTime 通常表示该会话的结束时间。</span><span class="sxs-lookup"><span data-stu-id="cee6f-p102">The Media table should not be used to calculate the media duration for a session. This table contains the signaling details of media exchange in a session. Media exchange is done by the INVITE request, and StartTime indicates the time that the INVITE was sent out. The invite time does not necessarily mean the media start time, because media starts only after the sessionee accepts the session. The EndTime usually means the end time of this session.</span></span>
 
 
 
@@ -59,42 +61,42 @@ ms.locfileid: "42217608"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="6c214-110">列</span><span class="sxs-lookup"><span data-stu-id="6c214-110">Column</span></span></th>
-<th><span data-ttu-id="6c214-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="6c214-111">Data Type</span></span></th>
-<th><span data-ttu-id="6c214-112">键/索引</span><span class="sxs-lookup"><span data-stu-id="6c214-112">Key/Index</span></span></th>
-<th><span data-ttu-id="6c214-113">详细信息</span><span class="sxs-lookup"><span data-stu-id="6c214-113">Details</span></span></th>
+<th><span data-ttu-id="cee6f-110">列</span><span class="sxs-lookup"><span data-stu-id="cee6f-110">Column</span></span></th>
+<th><span data-ttu-id="cee6f-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="cee6f-111">Data Type</span></span></th>
+<th><span data-ttu-id="cee6f-112">键/索引</span><span class="sxs-lookup"><span data-stu-id="cee6f-112">Key/Index</span></span></th>
+<th><span data-ttu-id="cee6f-113">详细信息</span><span class="sxs-lookup"><span data-stu-id="cee6f-113">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="6c214-114"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="6c214-114"><strong>SessionIdTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="6c214-115">datetime</span><span class="sxs-lookup"><span data-stu-id="6c214-115">datetime</span></span></p></td>
-<td><p><span data-ttu-id="6c214-116">主、外</span><span class="sxs-lookup"><span data-stu-id="6c214-116">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="6c214-117">会话请求的时间。</span><span class="sxs-lookup"><span data-stu-id="6c214-117">Time of session request.</span></span> <span data-ttu-id="6c214-118">与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会话。</span><span class="sxs-lookup"><span data-stu-id="6c214-118">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="6c214-119">有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</span><span class="sxs-lookup"><span data-stu-id="6c214-119">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-114"><strong>SessionIdTime</strong></span><span class="sxs-lookup"><span data-stu-id="cee6f-114"><strong>SessionIdTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="cee6f-115">datetime</span><span class="sxs-lookup"><span data-stu-id="cee6f-115">datetime</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-116">主、外</span><span class="sxs-lookup"><span data-stu-id="cee6f-116">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-117">会话请求的时间。</span><span class="sxs-lookup"><span data-stu-id="cee6f-117">Time of session request.</span></span> <span data-ttu-id="cee6f-118">与 <strong>SessionIdSeq</strong> 结合使用来唯一地标识会话。</span><span class="sxs-lookup"><span data-stu-id="cee6f-118">Used in conjunction with <strong>SessionIdSeq</strong> to uniquely identify a session.</span></span> <span data-ttu-id="cee6f-119">有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</span><span class="sxs-lookup"><span data-stu-id="cee6f-119">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6c214-120"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="6c214-120"><strong>SessionIdSeq</strong></span></span></p></td>
-<td><p><span data-ttu-id="6c214-121">int</span><span class="sxs-lookup"><span data-stu-id="6c214-121">int</span></span></p></td>
-<td><p><span data-ttu-id="6c214-122">主、外</span><span class="sxs-lookup"><span data-stu-id="6c214-122">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="6c214-123">用于标识会话的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="6c214-123">ID number to identify the session.</span></span> <span data-ttu-id="6c214-124">与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会话。</span><span class="sxs-lookup"><span data-stu-id="6c214-124">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="6c214-125">有关详细信息，请参阅<a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a>。</span><span class="sxs-lookup"><span data-stu-id="6c214-125">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-120"><strong>SessionIdSeq</strong></span><span class="sxs-lookup"><span data-stu-id="cee6f-120"><strong>SessionIdSeq</strong></span></span></p></td>
+<td><p><span data-ttu-id="cee6f-121">int</span><span class="sxs-lookup"><span data-stu-id="cee6f-121">int</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-122">主、外</span><span class="sxs-lookup"><span data-stu-id="cee6f-122">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-123">用于标识会话的 ID 号。</span><span class="sxs-lookup"><span data-stu-id="cee6f-123">ID number to identify the session.</span></span> <span data-ttu-id="cee6f-124">与 <strong>SessionIdTime</strong> 结合使用来唯一地标识会话。</span><span class="sxs-lookup"><span data-stu-id="cee6f-124">Used in conjunction with <strong>SessionIdTime</strong> to uniquely identify a session.</span></span> <span data-ttu-id="cee6f-125">有关详细信息，请参阅 <a href="lync-server-2013-dialogs-table.md">Lync Server 2013 中的对话框表</a> 。</span><span class="sxs-lookup"><span data-stu-id="cee6f-125">See the <a href="lync-server-2013-dialogs-table.md">Dialogs table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6c214-126"><strong>MediaId</strong></span><span class="sxs-lookup"><span data-stu-id="6c214-126"><strong>MediaId</strong></span></span></p></td>
-<td><p><span data-ttu-id="6c214-127">tinyint</span><span class="sxs-lookup"><span data-stu-id="6c214-127">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="6c214-128">主、外</span><span class="sxs-lookup"><span data-stu-id="6c214-128">Primary, Foreign</span></span></p></td>
-<td><p><span data-ttu-id="6c214-129">标识媒体类型的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="6c214-129">Unique number identifying this media type.</span></span> <span data-ttu-id="6c214-130">有关详细信息，请参阅<a href="lync-server-2013-medialist-table.md">Lync Server 2013 中的 MediaList 表</a>。</span><span class="sxs-lookup"><span data-stu-id="6c214-130">See the <a href="lync-server-2013-medialist-table.md">MediaList table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-126"><strong>MediaId</strong></span><span class="sxs-lookup"><span data-stu-id="cee6f-126"><strong>MediaId</strong></span></span></p></td>
+<td><p><span data-ttu-id="cee6f-127">tinyint</span><span class="sxs-lookup"><span data-stu-id="cee6f-127">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-128">主、外</span><span class="sxs-lookup"><span data-stu-id="cee6f-128">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-129">标识媒体类型的唯一编号。</span><span class="sxs-lookup"><span data-stu-id="cee6f-129">Unique number identifying this media type.</span></span> <span data-ttu-id="cee6f-130">有关详细信息，请参阅 <a href="lync-server-2013-medialist-table.md">Lync Server 2013 中的 MediaList 表</a> 。</span><span class="sxs-lookup"><span data-stu-id="cee6f-130">See the <a href="lync-server-2013-medialist-table.md">MediaList table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6c214-131"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="6c214-131"><strong>StartTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="6c214-132">datetime</span><span class="sxs-lookup"><span data-stu-id="6c214-132">datetime</span></span></p></td>
-<td><p><span data-ttu-id="6c214-133">主</span><span class="sxs-lookup"><span data-stu-id="6c214-133">Primary</span></span></p></td>
-<td><p><span data-ttu-id="6c214-p106">这是发出媒体请求的时间，而不是实际的媒体启动时间。<strong>StartTime</strong> 包括会话建立时间。</span><span class="sxs-lookup"><span data-stu-id="6c214-p106">This is the time that a media request was sent out, not the real media start time. <strong>StartTime</strong> includes the session setup time.</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-131"><strong>StartTime</strong></span><span class="sxs-lookup"><span data-stu-id="cee6f-131"><strong>StartTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="cee6f-132">datetime</span><span class="sxs-lookup"><span data-stu-id="cee6f-132">datetime</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-133">主</span><span class="sxs-lookup"><span data-stu-id="cee6f-133">Primary</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-p106">这是发出媒体请求的时间，而不是实际的媒体启动时间。<strong>StartTime</strong> 包括会话建立时间。</span><span class="sxs-lookup"><span data-stu-id="cee6f-p106">This is the time that a media request was sent out, not the real media start time. <strong>StartTime</strong> includes the session setup time.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6c214-136"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="6c214-136"><strong>EndTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="6c214-137">datetime</span><span class="sxs-lookup"><span data-stu-id="6c214-137">datetime</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-136"><strong>EndTime</strong></span><span class="sxs-lookup"><span data-stu-id="cee6f-136"><strong>EndTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="cee6f-137">datetime</span><span class="sxs-lookup"><span data-stu-id="cee6f-137">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="6c214-138">这是会话的结束时间。</span><span class="sxs-lookup"><span data-stu-id="6c214-138">This is the end time of the session.</span></span></p></td>
+<td><p><span data-ttu-id="cee6f-138">这是会话的结束时间。</span><span class="sxs-lookup"><span data-stu-id="cee6f-138">This is the end time of the session.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：配置 Active Directory 联合身份验证服务（AD FS 2.0）
+title: 'Lync Server 2013：配置 Active Directory 联合身份验证服务 (AD FS 2.0) '
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,22 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9daaec9cbe32f031c7ee99731b1d7c7c9ec10ac1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ac26f7ec2be8390ee913c810928cc99c4e20d53c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195715"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48517649"
 ---
+# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a><span data-ttu-id="e9e58-102">为 Lync Server 2013 配置 Active Directory 联合身份验证服务 (AD FS 2.0) </span><span class="sxs-lookup"><span data-stu-id="e9e58-102">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a><span data-ttu-id="b4848-102">为 Lync Server 2013 配置 Active Directory 联合身份验证服务（AD FS 2.0）</span><span class="sxs-lookup"><span data-stu-id="b4848-102">Configuring Active Directory Federation Services (AD FS 2.0) for Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,15 +37,15 @@ ms.locfileid: "42195715"
 
 <span> </span>
 
-<span data-ttu-id="b4848-103">_**上次修改的主题：** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="b4848-103">_**Topic Last Modified:** 2013-07-03_</span></span>
+<span data-ttu-id="e9e58-103">_**上次修改的主题：** 2013-07-03_</span><span class="sxs-lookup"><span data-stu-id="e9e58-103">_**Topic Last Modified:** 2013-07-03_</span></span>
 
-<span data-ttu-id="b4848-104">下一节介绍如何配置 Active Directory 联合身份验证服务（AD FS 2.0）以支持多重身份验证。</span><span class="sxs-lookup"><span data-stu-id="b4848-104">The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication.</span></span> <span data-ttu-id="b4848-105">有关如何安装 AD FS 2.0 的信息，请参阅 AD FS 2.0 分步和操作方法指南[https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374)。</span><span class="sxs-lookup"><span data-stu-id="b4848-105">For information on how to install AD FS 2.0, see AD FS 2.0 Step-by-Step and How To Guides at [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374).</span></span>
+<span data-ttu-id="e9e58-104">下一节介绍如何配置 Active Directory 联合身份验证服务 (AD FS 2.0) 以支持多重身份验证。</span><span class="sxs-lookup"><span data-stu-id="e9e58-104">The following section describes how to configure Active Directory Federation Services (AD FS 2.0) to support multi-factor authentication.</span></span> <span data-ttu-id="e9e58-105">有关如何安装 AD FS 2.0 的信息，请参阅 AD FS 2.0 分步和操作方法指南 [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374) 。</span><span class="sxs-lookup"><span data-stu-id="e9e58-105">For information on how to install AD FS 2.0, see AD FS 2.0 Step-by-Step and How To Guides at [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374).</span></span>
 
 <div class="">
 
 
 > [!NOTE]  
-> <span data-ttu-id="b4848-106">安装 AD FS 2.0 时，请勿使用 Windows Server 管理器添加 Active Directory 联合身份验证服务角色。</span><span class="sxs-lookup"><span data-stu-id="b4848-106">When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role.</span></span> <span data-ttu-id="b4848-107">请改为在上<A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>下载并安装 Active Directory 联合身份验证服务 2.0 RTW 包。</span><span class="sxs-lookup"><span data-stu-id="b4848-107">Instead, download and install the Active Directory Federation Services 2.0 RTW package at <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>.</span></span>
+> <span data-ttu-id="e9e58-106">安装 AD FS 2.0 时，请勿使用 Windows Server 管理器添加 Active Directory 联合身份验证服务角色。</span><span class="sxs-lookup"><span data-stu-id="e9e58-106">When installing AD FS 2.0, do not use the Windows Server Manager to add the Active Directory Federation Services role.</span></span> <span data-ttu-id="e9e58-107">请改为在上下载并安装 Active Directory 联合身份验证服务 2.0 RTW 包 <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A> 。</span><span class="sxs-lookup"><span data-stu-id="e9e58-107">Instead, download and install the Active Directory Federation Services 2.0 RTW package at <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>.</span></span>
 
 
 
@@ -52,27 +54,27 @@ ms.locfileid: "42195715"
 <div>
 
 
-<span data-ttu-id="b4848-108">**将 AD FS 配置为进行双重身份验证**</span><span class="sxs-lookup"><span data-stu-id="b4848-108">**To configure AD FS for two-factor Authentication**</span></span>
+<span data-ttu-id="e9e58-108">**将 AD FS 配置为进行双重身份验证**</span><span class="sxs-lookup"><span data-stu-id="e9e58-108">**To configure AD FS for two-factor Authentication**</span></span>
 
-1.  <span data-ttu-id="b4848-109">使用域管理员帐户登录到 AD FS 2.0 计算机。</span><span class="sxs-lookup"><span data-stu-id="b4848-109">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
+1.  <span data-ttu-id="e9e58-109">使用域管理员帐户登录到 AD FS 2.0 计算机。</span><span class="sxs-lookup"><span data-stu-id="e9e58-109">Log in to the AD FS 2.0 computer using a Domain Admin account.</span></span>
 
-2.  <span data-ttu-id="b4848-110">启动 Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="b4848-110">Start Windows PowerShell.</span></span>
+2.  <span data-ttu-id="e9e58-110">启动 Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="e9e58-110">Start Windows PowerShell.</span></span>
 
-3.  <span data-ttu-id="b4848-111">从 Windows PowerShell 命令行中，运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="b4848-111">From the Windows PowerShell command-line, run the following command:</span></span>
+3.  <span data-ttu-id="e9e58-111">从 Windows PowerShell 命令行中，运行以下命令：</span><span class="sxs-lookup"><span data-stu-id="e9e58-111">From the Windows PowerShell command-line, run the following command:</span></span>
     ```powershell
     add-pssnapin Microsoft.Adfs.PowerShell
     ```
-4.  <span data-ttu-id="b4848-112">使用 Lync Server 2013 的累积更新建立与每个 Lync Server 2013 的合作关系：7月 2013 Director、Enterprise Pool 和 Standard Edition Server，通过运行以下命令将启用被动身份验证，并替换特定于您的部署的服务器名称：</span><span class="sxs-lookup"><span data-stu-id="b4848-112">Establish a partnership with each Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command, replacing the server name specific to your deployment:</span></span>
+4.  <span data-ttu-id="e9e58-112">使用 Lync Server 2013 的累积更新建立与每个 Lync Server 2013 的合作关系：7月 2013 Director、Enterprise Pool 和 Standard Edition Server，可通过运行以下命令替换特定于您的部署的服务器名称来启用被动身份验证：</span><span class="sxs-lookup"><span data-stu-id="e9e58-112">Establish a partnership with each Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Director, Enterprise Pool, and Standard Edition server that will be enabled for passive authentication by running the following command, replacing the server name specific to your deployment:</span></span>
     ```powershell
     Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
      ```
-5.  <span data-ttu-id="b4848-113">从 "管理工具" 菜单中，启动 AD FS 2.0 管理控制台。</span><span class="sxs-lookup"><span data-stu-id="b4848-113">From the Administrative Tools menu, launch the AD FS 2.0 Management console.</span></span>
+5.  <span data-ttu-id="e9e58-113">从 "管理工具" 菜单中，启动 AD FS 2.0 管理控制台。</span><span class="sxs-lookup"><span data-stu-id="e9e58-113">From the Administrative Tools menu, launch the AD FS 2.0 Management console.</span></span>
 
-6.  <span data-ttu-id="b4848-114">展开 "**信任关系** \> "**信赖方信任**。</span><span class="sxs-lookup"><span data-stu-id="b4848-114">Expand **Trust Relationships** \> **Relying Party Trusts**.</span></span>
+6.  <span data-ttu-id="e9e58-114">展开 " **信任关系**" \> **信赖方信任**。</span><span class="sxs-lookup"><span data-stu-id="e9e58-114">Expand **Trust Relationships** \> **Relying Party Trusts**.</span></span>
 
-7.  <span data-ttu-id="b4848-115">验证是否已为你的 Lync Server 2013 创建了新的信任，并具有 Lync Server 2013 的累积更新：7月 2013 Enterprise Pool 或 Standard Edition Server。</span><span class="sxs-lookup"><span data-stu-id="b4848-115">Verify that a new trust has been created for your Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Enterprise Pool or Standard Edition server.</span></span>
+7.  <span data-ttu-id="e9e58-115">验证是否已为你的 Lync Server 2013 创建了新的信任，并具有 Lync Server 2013 的累积更新：7月 2013 Enterprise Pool 或 Standard Edition Server。</span><span class="sxs-lookup"><span data-stu-id="e9e58-115">Verify that a new trust has been created for your Lync Server 2013 with Cumulative Updates for Lync Server 2013: July 2013 Enterprise Pool or Standard Edition server.</span></span>
 
-8.  <span data-ttu-id="b4848-116">通过运行以下命令为您使用 Windows PowerShell 的信赖方信任创建并分配发布授权规则：</span><span class="sxs-lookup"><span data-stu-id="b4848-116">Create and assign an Issuance Authorization Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
+8.  <span data-ttu-id="e9e58-116">通过运行以下命令为您使用 Windows PowerShell 的信赖方信任创建并分配发布授权规则：</span><span class="sxs-lookup"><span data-stu-id="e9e58-116">Create and assign an Issuance Authorization Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
     
        ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
@@ -83,7 +85,7 @@ ms.locfileid: "42195715"
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
        ```
 
-9.  <span data-ttu-id="b4848-117">通过运行以下命令为您使用 Windows PowerShell 的信赖方信任创建并分配一个颁发转换规则：</span><span class="sxs-lookup"><span data-stu-id="b4848-117">Create and assign an Issuance Transform Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
+9.  <span data-ttu-id="e9e58-117">通过运行以下命令为您使用 Windows PowerShell 的信赖方信任创建并分配一个颁发转换规则：</span><span class="sxs-lookup"><span data-stu-id="e9e58-117">Create and assign an Issuance Transform Rule for your relying party trust using Windows PowerShell by running the following commands:</span></span>
     
        ```powershell
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
@@ -93,11 +95,11 @@ ms.locfileid: "42195715"
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 
-10. <span data-ttu-id="b4848-118">从 AD FS 2.0 管理控制台中，右键单击您的信赖方信任，然后选择 "**编辑声明规则**"。</span><span class="sxs-lookup"><span data-stu-id="b4848-118">From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.</span></span>
+10. <span data-ttu-id="e9e58-118">从 AD FS 2.0 管理控制台中，右键单击您的信赖方信任，然后选择 " **编辑声明规则**"。</span><span class="sxs-lookup"><span data-stu-id="e9e58-118">From the AD FS 2.0 Management console, right click on your relying party trust and select **Edit Claim Rules**.</span></span>
 
-11. <span data-ttu-id="b4848-119">选择 "**颁发授权规则**" 选项卡，并验证是否已成功创建新的授权规则。</span><span class="sxs-lookup"><span data-stu-id="b4848-119">Select the **Issuance Authorization Rules** tab and verify that the new authorization rule was created successfully.</span></span>
+11. <span data-ttu-id="e9e58-119">选择 " **颁发授权规则** " 选项卡，并验证是否已成功创建新的授权规则。</span><span class="sxs-lookup"><span data-stu-id="e9e58-119">Select the **Issuance Authorization Rules** tab and verify that the new authorization rule was created successfully.</span></span>
 
-12. <span data-ttu-id="b4848-120">选择 "**颁发转换规则**" 选项卡，并验证是否已成功创建新的转换规则。</span><span class="sxs-lookup"><span data-stu-id="b4848-120">Select the **Issuance Transform Rules** tab and verify that the new transform rule was created successfully.</span></span>
+12. <span data-ttu-id="e9e58-120">选择 " **颁发转换规则** " 选项卡，并验证是否已成功创建新的转换规则。</span><span class="sxs-lookup"><span data-stu-id="e9e58-120">Select the **Issuance Transform Rules** tab and verify that the new transform rule was created successfully.</span></span>
 
 </div>
 

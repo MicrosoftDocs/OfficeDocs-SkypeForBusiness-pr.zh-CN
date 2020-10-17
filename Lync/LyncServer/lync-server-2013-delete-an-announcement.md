@@ -12,20 +12,22 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e907a8f0c31555763f6563622c4f3916e4a54ae
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 95f425a461d628ccf7da6021c20b578f639fe605
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202768"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48516189"
 ---
+# <a name="delete-an-announcement-in-lync-server-2013"></a><span data-ttu-id="cc1e9-102">在 Lync Server 2013 中删除通知</span><span class="sxs-lookup"><span data-stu-id="cc1e9-102">Delete an announcement in Lync Server 2013</span></span>
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-announcement-in-lync-server-2013"></a><span data-ttu-id="69c52-102">在 Lync Server 2013 中删除通知</span><span class="sxs-lookup"><span data-stu-id="69c52-102">Delete an announcement in Lync Server 2013</span></span>
+
 
 </div>
 
@@ -35,27 +37,27 @@ ms.locfileid: "42202768"
 
 <span> </span>
 
-<span data-ttu-id="69c52-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="69c52-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="cc1e9-103">_**上次修改的主题：** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="cc1e9-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="69c52-104">使用以下过程可删除用于呼叫未分配号码的通知。</span><span class="sxs-lookup"><span data-stu-id="69c52-104">Use the following procedure to delete an announcement that is used for calls to unassigned numbers.</span></span>
+<span data-ttu-id="cc1e9-104">使用以下过程可删除用于呼叫未分配号码的通知。</span><span class="sxs-lookup"><span data-stu-id="cc1e9-104">Use the following procedure to delete an announcement that is used for calls to unassigned numbers.</span></span>
 
 <div>
 
-## <a name="to-delete-an-announcement"></a><span data-ttu-id="69c52-105">删除通知</span><span class="sxs-lookup"><span data-stu-id="69c52-105">To delete an announcement</span></span>
+## <a name="to-delete-an-announcement"></a><span data-ttu-id="cc1e9-105">删除通知</span><span class="sxs-lookup"><span data-stu-id="cc1e9-105">To delete an announcement</span></span>
 
-1.  <span data-ttu-id="69c52-106">登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在[Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。</span><span class="sxs-lookup"><span data-stu-id="69c52-106">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="cc1e9-106">登录到安装了 Lync Server 命令行管理程序的计算机，作为 RTCUniversalServerAdmins 组的成员或具有必要的用户权限（如在 [Lync Server 2013 中委派安装权限](lync-server-2013-delegate-setup-permissions.md)中所述）。</span><span class="sxs-lookup"><span data-stu-id="cc1e9-106">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="69c52-107">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="69c52-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="cc1e9-107">启动 Lync Server 命令行管理程序：依次单击“开始”\*\*\*\*、“所有程序”\*\*\*\*、“Microsoft Lync Server 2013”\*\*\*\* 和“Lync Server 命令行管理程序”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="cc1e9-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="69c52-p101">列出组织中的所有通知。在命令行运行：</span><span class="sxs-lookup"><span data-stu-id="69c52-p101">List all the announcements in your organization. At the command line, run:</span></span>
+3.  <span data-ttu-id="cc1e9-p101">列出组织中的所有通知。在命令行运行：</span><span class="sxs-lookup"><span data-stu-id="cc1e9-p101">List all the announcements in your organization. At the command line, run:</span></span>
     
         Get-CsAnnouncement
 
-4.  <span data-ttu-id="69c52-p102">在结果列表中，找到要删除的通知，并复制 GUID。然后，在命令行运行：</span><span class="sxs-lookup"><span data-stu-id="69c52-p102">In the resulting list, locate the announcement you want to delete, and copy the GUID. Then, at the command line, run:</span></span>
+4.  <span data-ttu-id="cc1e9-p102">在结果列表中，找到要删除的通知，并复制 GUID。然后，在命令行运行：</span><span class="sxs-lookup"><span data-stu-id="cc1e9-p102">In the resulting list, locate the announcement you want to delete, and copy the GUID. Then, at the command line, run:</span></span>
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
     
-    <span data-ttu-id="69c52-112">例如：</span><span class="sxs-lookup"><span data-stu-id="69c52-112">For example:</span></span>
+    <span data-ttu-id="cc1e9-112">例如：</span><span class="sxs-lookup"><span data-stu-id="cc1e9-112">For example:</span></span>
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
@@ -63,7 +65,7 @@ ms.locfileid: "42202768"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="69c52-113">有关更多选项的详细信息，请参阅<A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">CsAnnouncement</A>和<A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>。</span><span class="sxs-lookup"><span data-stu-id="69c52-113">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.</span></span>
+    > <span data-ttu-id="cc1e9-113">有关更多选项的详细信息，请参阅 <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">CsAnnouncement</A> 和 <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>。</span><span class="sxs-lookup"><span data-stu-id="cc1e9-113">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.</span></span>
 
     
     </div>
@@ -72,14 +74,14 @@ ms.locfileid: "42202768"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="69c52-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="69c52-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cc1e9-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cc1e9-114">See Also</span></span>
 
 
-[<span data-ttu-id="69c52-115">在 Lync Server 2013 中创建通知</span><span class="sxs-lookup"><span data-stu-id="69c52-115">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)  
+[<span data-ttu-id="cc1e9-115">在 Lync Server 2013 中创建通知</span><span class="sxs-lookup"><span data-stu-id="cc1e9-115">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)  
 
 
-[<span data-ttu-id="69c52-116">CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="69c52-116">Remove-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
-[<span data-ttu-id="69c52-117">CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="69c52-117">Get-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
+[<span data-ttu-id="cc1e9-116">CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="cc1e9-116">Remove-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
+[<span data-ttu-id="cc1e9-117">CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="cc1e9-117">Get-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
   
 
 </div>
