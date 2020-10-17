@@ -12,20 +12,22 @@ ms:contentKeyID: 48184613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea7503caa674a61de4f3e75f161e94865e1f748b
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 91f20a5a1df722e92454e0200a0c8174ff37d4dc
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213358"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533199"
 ---
+# <a name="enterprise-voice-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的企业语音 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的企业语音 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213358"
 
 _**上次修改的主题：** 2014-03-19_
 
-企业语音是 Microsoft 的 IP 语音 (VoIP) 实现。 在 Microsoft Lync Server 2013 中可用于管理企业语音的 cmdlet 将允许您创建和修改拨号计划（以前称为位置配置文件）、语音策略、路由和规范化规则。
+企业语音是 Microsoft 的 IP 语音 (VoIP) 实现。 在 Microsoft Lync Server 2013 中可用于管理企业语音的 cmdlet 将允许您创建和修改拨号计划 (以前称为位置配置文件) 、语音策略、路由和规范化规则。
 
 <div>
 

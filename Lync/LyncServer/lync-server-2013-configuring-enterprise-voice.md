@@ -12,20 +12,22 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6c09bd44f9fc4b98488c7825f8cab1d3eea7f6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: ca998a723e4ef84fc1c203d6eddc5f9016f28739
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202938"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532549"
 ---
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中配置企业语音
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>在 Lync Server 2013 中配置企业语音
+
 
 </div>
 
@@ -51,9 +53,9 @@ _**上次修改的主题：** 2013-03-12_
 
 ## <a name="create-a-trunk"></a>创建中继
 
-您必须在企业语音部署中定义中继。 对于基于位置的路由，必须为每个中继创建中继配置。 使用 Lync Server 拓扑生成器定义中继，并使用 Lync Server Windows PowerShell 命令、Remove-cstrunkconfiguration 或 Lync Server 控制面板定义相应的中继配置。 有关如何在中继配置上启用基于位置的路由的详细信息，请参阅在中继中启用基于位置的路由的 "在[Lync Server 2013](lync-server-2013-enabling-location-based-routing.md)中启用基于位置的路由" 一节。 对于此示例，下表说明了此方案中使用的中继。
+您必须在企业语音部署中定义中继。 对于 Location-Based 路由，必须为每个中继创建中继配置。 使用 Lync Server 拓扑生成器定义中继，并使用 Lync Server Windows PowerShell 命令、Remove-cstrunkconfiguration 或 Lync Server 控制面板定义相应的中继配置。 有关如何在中继配置中启用 Location-Based 路由的详细信息，请参阅在 [Lync Server 2013 中启用 Location-Based 路由](lync-server-2013-enabling-location-based-routing.md)一节中的 "启用到中继的 Location-Based 路由" 一节。 对于此示例，下表说明了此方案中使用的中继。
 
-有关详细信息，请参阅[在 Lync Server 2013 中的拓扑生成器中定义其他中继](lync-server-2013-define-additional-trunks-in-topology-builder.md)。
+有关详细信息，请参阅 [在 Lync Server 2013 中的拓扑生成器中定义其他中继](lync-server-2013-define-additional-trunks-in-topology-builder.md)。
 
 
 <table>
@@ -117,9 +119,9 @@ _**上次修改的主题：** 2013-03-12_
 
 ## <a name="defines-voice-policies"></a>定义语音策略
 
-您必须为您的企业语音部署定义语音策略。 定义语音策略，以便向用户的子集强制实施基于位置的路由限制，前提是只有它们的一部分需要使用基于位置的路由。 对于此示例，下表说明了此方案中使用的语音策略。 为了便于说明，仅在表中包含特定于基于位置的路由的设置。
+您必须为您的企业语音部署定义语音策略。 定义语音策略，以强制对部分用户 Location-Based 路由限制，前提是只有它们的一部分需要使用 Location-Based 路由。 对于此示例，下表说明了此方案中使用的语音策略。 为了便于说明，表中仅包括特定于 Location-Based 路由的设置。
 
-有关详细信息，请参阅[在 Lync Server 2013 中配置语音策略和 PSTN 用法记录以授权呼叫功能和权限](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
+有关详细信息，请参阅 [在 Lync Server 2013 中配置语音策略和 PSTN 用法记录以授权呼叫功能和权限](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)。
 
 
 <table>
@@ -166,9 +168,9 @@ _**上次修改的主题：** 2013-03-12_
 
 ## <a name="define-voice-routes"></a>定义语音路由
 
-您必须为您的企业语音部署定义语音路由。 对于此示例，下表说明了此方案中使用的语音路由。 为了便于说明，仅在表中包含特定于基于位置的路由的设置。
+您必须为您的企业语音部署定义语音路由。 对于此示例，下表说明了此方案中使用的语音路由。 为了便于说明，表中仅包括特定于 Location-Based 路由的设置。
 
-有关详细信息，请参阅[在 Lync Server 2013 中配置出站呼叫的语音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
+有关详细信息，请参阅 [在 Lync Server 2013 中配置出站呼叫的语音路由](lync-server-2013-configuring-voice-routes-for-outbound-calls.md)。
 
 
 <table>
@@ -225,9 +227,9 @@ _**上次修改的主题：** 2013-03-12_
 
 ## <a name="enable-users-for-enterprise-voice"></a>为用户启用企业语音
 
-为用户启用企业语音，并为他们分配之前定义的语音策略。 对于此示例，下表说明了此方案中使用的工作分配。 为了便于说明，仅在表中包含特定于基于位置的路由的设置。
+为用户启用企业语音，并为他们分配之前定义的语音策略。 对于此示例，下表说明了此方案中使用的工作分配。 为了便于说明，表中仅包括特定于 Location-Based 路由的设置。
 
-有关详细信息，请参阅[在 Lync Server 2013 中为用户启用企业语音](lync-server-2013-enable-users-for-enterprise-voice.md)。
+有关详细信息，请参阅 [在 Lync Server 2013 中为用户启用企业语音](lync-server-2013-enable-users-for-enterprise-voice.md)。
 
 
 <table>
@@ -270,7 +272,7 @@ _**上次修改的主题：** 2013-03-12_
 ## <a name="see-also"></a>另请参阅
 
 
-[在 Lync Server 2013 中配置基于位置的路由](lync-server-2013-configuring-location-based-routing.md)  
+[在 Lync Server 2013 中配置 Location-Based 路由](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

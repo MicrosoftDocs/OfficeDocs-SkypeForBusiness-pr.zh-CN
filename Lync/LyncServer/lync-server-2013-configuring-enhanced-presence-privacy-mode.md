@@ -12,20 +12,22 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32c8622e2c32af698d599b4ed541945b4d1de0a7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d9a06a7bf01664c260ace3a86537665e185b64f8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42202958"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532599"
 ---
+# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>在 Lync Server 2013 中配置增强状态隐私模式
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>在 Lync Server 2013 中配置增强状态隐私模式
+
 
 </div>
 
@@ -37,13 +39,13 @@ ms.locfileid: "42202958"
 
 _**上次修改的主题：** 2014-12-08_
 
-使用增强状态隐私模式，用户可以限制其状态信息，使其仅对 Lync 2013 联系人列表中列出的联系人可见。 **CsPrivacyConfiguration** 和**CsPrivacyConfiguration** cmdlet 具有一个 EnablePrivacyMode 参数，用于控制此选项。 当 EnablePrivacyMode 设置为 True 时，在 Lync 2013 状态选项中，将状态信息限制为联系人的选项将变为可用状态。 当 EnablePrivacyMode 设置为 False 时，用户可以选择始终允许所有人查看其状态信息，或者遵循管理员对隐私模式所做的任何后续更改。
+使用增强状态隐私模式，用户可以限制其状态信息，使其仅对 Lync 2013 联系人列表中列出的联系人可见。 **CsPrivacyConfiguration**   和**CsPrivacyConfiguration** cmdlet 具有一个 EnablePrivacyMode 参数，用于控制此选项。 当 EnablePrivacyMode 设置为 True 时，在 Lync 2013 状态选项中，将状态信息限制为联系人的选项将变为可用状态。 当 EnablePrivacyMode 设置为 False 时，用户可以选择始终允许所有人查看其状态信息，或者遵循管理员对隐私模式所做的任何后续更改。
 
 <div>
 
 
 > [!IMPORTANT]  
-> 早期版本（Microsoft Office Communicator 2007 R2 或 Microsoft Office Communicator 2007）不会遵守 lync 2013 和 Lync 2010 隐私设置。 如果允许早期版本的 Office Communicator 登录，则未被授权查看的 Lync 2013 用户的状态、联系人信息或图片可能会被他人查看。 此外，如果用户稍后使用 Communicator 的早期版本登录，则会重置 Lync 2013 用户的隐私设置。<BR>出于这些原因，在迁移方案中，在启用增强状态隐私模式之前： 
+> Lync 2013 和 Lync 2010 隐私设置不是由 Microsoft Office Communicator 2007 R2 或 Microsoft Office Communicator 2007)  (的早期版本所接受的。 如果允许早期版本的 Office Communicator 登录，则未被授权查看的 Lync 2013 用户的状态、联系人信息或图片可能会被他人查看。 此外，如果用户稍后使用 Communicator 的早期版本登录，则会重置 Lync 2013 用户的隐私设置。<BR>出于这些原因，在迁移方案中，在启用增强状态隐私模式之前： 
 > <UL>
 > <LI>
 > <P>确保每个用户安装了 Lync 2013。</P>
@@ -64,7 +66,7 @@ _**上次修改的主题：** 2014-12-08_
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    此命令将为组织中当前使用的所有隐私配置设置启用隐私模式。 有关 Lync Server 增强状态隐私模式策略配置如何管理 Lync 2013 客户端的联系人状态的详细信息，请参阅 Microsoft 知识库文章[启用 Lync Server 增强状态隐私模式将某些 Lync 联系人的状态状态更新为 "不可用"](https://support.microsoft.com/kb/3020057)。
+    此命令将为组织中当前使用的所有隐私配置设置启用隐私模式。 有关 Lync Server 增强状态隐私模式策略配置如何管理 Lync 2013 客户端的联系人状态的详细信息，请参阅 Microsoft 知识库文章 [启用 Lync Server 增强状态隐私模式将某些 Lync 联系人的状态状态更新为 "不可用"](https://support.microsoft.com/kb/3020057)。
 
 </div>
 

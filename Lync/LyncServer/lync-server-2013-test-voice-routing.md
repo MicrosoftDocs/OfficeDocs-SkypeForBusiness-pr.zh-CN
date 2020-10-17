@@ -12,20 +12,22 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9a9130a0020ce6b64119bd1704a9e585491fadd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0643c0d7da4dbed734bfd098cc2a585e018bf0cd
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194365"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532939"
 ---
+# <a name="test-voice-routing-in-lync-server-2013"></a>在 Lync Server 2013 中测试语音路由
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-routing-in-lync-server-2013"></a>在 Lync Server 2013 中测试语音路由
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42194365"
 
 _**上次修改的主题：** 2013-02-24_
 
-您可以使用 Lync Server 控制面板 "**测试语音路由**" 选项卡配置测试用例方案。 要定义测试用例，请指定拨号计划、语音策略、PSTN 用法和语音路由，据此测试指定的电话号码。
+您可以使用 Lync Server 控制面板 " **测试语音路由** " 选项卡配置测试用例方案。 要定义测试用例，请指定拨号计划、语音策略、PSTN 用法和语音路由，据此测试指定的电话号码。
 
 在实际部署语音路由配置之前，我们建议您在各种电话号码上进行测试，以确保结果正是您所期望的。
 

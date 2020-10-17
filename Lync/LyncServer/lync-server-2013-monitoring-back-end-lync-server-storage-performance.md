@@ -12,20 +12,22 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ac4ab62bdbb9b33a7c64014433dfd4f950a6298
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: aad04524df22c9d299b4a871b580330052d2aa5b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192725"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531949"
 ---
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>监视后端 Lync Server 2013 存储性能
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>监视后端 Lync Server 2013 存储性能
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2014-05-02_
 
 Lync Server 2013 后端数据库是 Lync Server 2013 部署的一个非常重要的部分。 我们建议持续监视数据库和相应的事务日志，以帮助确保 Lync Server 2013 后端能够以最佳方式执行。
 
-下表列出了应监视的性能计数器，以了解有关存储性能的信息。 必须首先确定这些计数器的比较基准值（当系统处于其正常的预期负载时），以了解系统负载压力时的性能变化。
+下表列出了应监视的性能计数器，以了解有关存储性能的信息。 当系统处于其正常) 负载时，必须首先确定这些计数器的比较基准值 (，以了解系统压力时的性能变化。
 
 ### <a name="performance-counters-to-be-monitored"></a>要监视的性能计数器
 
@@ -56,31 +58,31 @@ Lync Server 2013 后端数据库是 Lync Server 2013 部署的一个非常重要
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>事务数/秒（RTC）</p></td>
+<td><p>每秒事务数 (RTC) </p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>事务数/秒（rtcdyn）</p></td>
+<td><p>每秒事务数 (rtcdyn) </p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>事务数/秒（tempdb）</p></td>
+<td><p>每秒事务数 (tempdb) </p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>日志刷新次数/秒（RTC）</p></td>
+<td><p> (RTC) 的日志刷新数/秒</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>日志刷新数/秒（rtcdyn）</p></td>
+<td><p>日志刷新次数/秒 (rtcdyn) </p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>日志刷新次数/秒（tempdb）</p></td>
+<td><p>日志刷新次数/秒 (tempdb) </p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Disk 传输/sec （读写）-RTC db</p></td>
+<td><p>磁盘传输/秒 (读写) RTC db</p></td>
 <td></td>
 </tr>
 <tr class="even">

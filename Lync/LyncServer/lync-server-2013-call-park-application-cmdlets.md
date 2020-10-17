@@ -12,20 +12,22 @@ ms:contentKeyID: 48183764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e125d3a5bbbbb3a90e6e8c340c8d9e7086fd4243
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 0f5fd4a1b679c0ca43acb5ad8a96cbaa18085137
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191265"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533409"
 ---
+# <a name="call-park-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的呼叫寄存应用程序 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-park-application-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中的呼叫寄存应用程序 cmdlet
+
 
 </div>
 

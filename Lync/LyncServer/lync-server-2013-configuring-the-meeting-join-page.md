@@ -12,20 +12,22 @@ ms:contentKeyID: 48184037
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 872e95c1d5254830a80b8a0d0dd84b233f2d1813
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c191bbc8927790345e7f969c38e4bf1a74ec3bdb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42191855"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532319"
 ---
+# <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a>在 Lync Server 2013 中配置会议加入页
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-meeting-join-page-in-lync-server-2013"></a>在 Lync Server 2013 中配置会议加入页
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-12-14_
 
 当用户单击会议请求中的会议链接时，"会议加入" 页将检测用户计算机上是否已安装 Lync 2013 客户端。 如果已安装客户端，则将打开该客户端并加入会议。 如果未安装客户端，则默认情况下会打开2013版本的 Lync Web App。
 
-如果您希望允许用户加入使用 Office Communicator 2007 R2 或 Lync 2010 助理的会议，则可以修改会议加入页面的行为。 这些配置选项已从 Lync Server 2013 控制面板中删除，但你可以使用 CsWebServiceConfiguration cmdlet 对其进行配置。
+如果您希望允许用户加入使用 Office Communicator 2007 R2 或 Lync 2010 助理的会议，则可以修改会议加入页面的行为。 这些配置选项已从 Lync Server 2013 控制面板中删除，但你可以使用 Set-CsWebServiceConfiguration cmdlet 对其进行配置。
 
 ### <a name="meeting-join-page-set-cswebserviceconfiguration-parameters"></a>与会页面 Set-CsWebServiceConfiguration 参数
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-12-14_
 <thead>
 <tr class="header">
 <th>Set-CsWebServiceConfiguration 参数</th>
-<th>Description</th>
+<th>说明</th>
 </tr>
 </thead>
 <tbody>
@@ -71,13 +73,13 @@ _**上次修改的主题：** 2012-12-14_
 
 ## <a name="to-configure-the-meeting-join-page-by-using-lync-server-2013-management-shell"></a>使用 Lync Server 2013 命令行管理程序配置会议加入页
 
-1.  启动 Lync Server 2013 命令行管理程序：依次单击 "**开始**"、"**所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。
+1.  启动 Lync Server 2013 命令行管理程序：依次单击 " **开始**"、" **所有程序**"、" **Microsoft Lync server 2013**"，然后单击 " **Lync server Management Shell**"。
 
 2.  若要查看 Web 服务配置设置，请运行以下 cmdlet：
     
         Get-CsWebServiceConfiguration
 
-3.  运行以下命令，将参数设置为 True 或 False，具体取决于你的首选项（有关此 cmdlet 的参数的详细信息，请参阅 Lync Server 2013 命令行管理程序文档中的[CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration) ）：
+3.  运行以下命令，将参数设置为 True 或 False，具体取决于您的首选项 (有关此 cmdlet 的参数的详细信息，请参阅 Lync Server 2013 命令行管理程序文档) 中的 [CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWebServiceConfiguration) ：
     
         Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0ace2b05b506b5bbf73177282747a66d212b38f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: eff0ab4c6ee2f6582c8274345c15af681d242561
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209577"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532169"
 ---
+# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 中的前端池的 DNS 要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-front-end-pool-in-lync-server-2013"></a>Lync Server 2013 中的前端池的 DNS 要求
+
 
 </div>
 
@@ -39,13 +41,13 @@ _**上次修改的主题：** 2012-11-07_
 
 若要成功完成此过程，至少应以 Domain Admins 组或 DnsAdmins 组成员的身份登录到服务器或域。
 
-在拓扑生成器中发布拓扑之前，需要配置所需的域名系统（DNS）记录。 此外，Lync Server 2013 部署的配置中使用的某些完全限定域名（Fqdn）是逻辑的，而不是物理服务器 Fqdn，因此在发布之前需要其他 DNS 配置。
+在拓扑生成器中发布拓扑之前，需要配置所需的域名系统 (DNS) 记录。 此外，在 Lync Server 2013 部署的配置中使用的某些完全限定域名 (Fqdn) 是逻辑的，而不是物理服务器 Fqdn，因此在发布之前需要额外的 DNS 配置。
 
 <div>
 
 
 > [!WARNING]  
-> Lync Server 2013 不支持单标签域。 例如，支持具有名为 <STRONG>contoso.local</STRONG> 的根域的林，但不支持名为 <STRONG>local</STRONG> 的根域。 有关详细信息，请参阅 Microsoft 知识库文章300684，"有关为带有单标签 DNS 名称的域配置 Windows 的信息" <A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp，请参阅 http://go.microsoft.com/fwlink/?linkid=3052&kbid=823018 = 300684</A>。
+> Lync Server 2013 不支持单标签域。 例如，支持具有名为 <STRONG>contoso.local</STRONG> 的根域的林，但不支持名为 <STRONG>local</STRONG> 的根域。 有关详细信息，请参阅 Microsoft 知识库文章300684，"有关为带有单标签 DNS 名称的域配置 Windows 的信息"，请参阅<A class=uri href="https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=300684"> https://go.microsoft.com/fwlink/p/?linkid=3052&amp http://go.microsoft.com/fwlink/?linkid=3052&kbid=823018 = 300684</A>。
 
 
 
@@ -55,25 +57,25 @@ _**上次修改的主题：** 2012-11-07_
 
 
 > [!IMPORTANT]  
-> 指定的名称必须与在服务器上配置的计算机名称相同。 默认情况下，未加入域的计算机的计算机名称是短名称，不是 FQDN。 拓扑生成器使用 FQDN，而不是短名称。 在分配运行 Lync Server、边缘服务器和池的服务器的 Fqdn 时，<STRONG>仅使用标准字符</STRONG>（包括 a – z、a – z、0–9和连字符）。 不要使用 Unicode 字符或下划线。 FQDN 中的非标准字符通常不受外部 DNS 和公共证书颁发机构 (CA) 的支持（如必须向证书中的 SN 分配 FQDN 时）。
+> 指定的名称必须与在服务器上配置的计算机名称相同。 默认情况下，未加入域的计算机的计算机名称是短名称，不是 FQDN。 拓扑生成器使用 FQDN，而不是短名称。 在分配运行 Lync Server、边缘服务器和池的服务器的 Fqdn 时，<STRONG>仅使用标准字符</STRONG> (包括 A – z、A – z、0–9和连字符) 。 不要使用 Unicode 字符或下划线。 FQDN 中的非标准字符通常不受外部 DNS 和公共证书颁发机构 (CA) 的支持（如必须向证书中的 SN 分配 FQDN 时）。
 
 
 
 </div>
 
-在部署拓扑后再对其进行操作之前，请确保已创建以下 Active Directory 和 DNS 记录（如您对特定功能的需求）：
+在部署拓扑之后，请确保已创建以下 Active Directory 和 DNS 记录， (根据您对特定功能的需求进行操作时，应注意) ：
 
-  - 将在拓扑中存在的每个服务器角色发布为 Active Directory 对象（将计算机加入域将实现此目的）。
+  - 将在拓扑中存在的每个服务器角色发布为 Active Directory 对象 (将计算机加入域将完成此) 。
 
   - 每台服务器都存在 DNS A 记录。
 
-  - 如果计划对\_sipinternaltls\_tcp 形式的客户端使用自动登录，则每个 SIP 域都有一个 DNS SRV 记录。\<SIP 域\>。 如果使用客户端的手动配置，则不需要此记录。
+  - 如果计划对 sipinternaltls tcp 形式的客户端使用自动登录，则每个 SIP 域都存在一个 DNS SRV 记录。 \_ \_ \<SIP domain\> 。 如果使用客户端的手动配置，则不需要此记录。
 
   - 每个配置的简单 URL（通常有四种：会议、拨入、LWA 和计划程序）的 DNS A 记录。 此外，还提供了管理员简单的 URL，它是访问 Lync Server 2013 控制面板的特殊 URL。
 
   - 运行 SQL Server 的服务器必须加入域，并且拓扑生成器正在发布的计算机可以访问该服务器。
 
-此表遵照规划部分中提供的参考体系结构。 有关详细信息，请参阅规划文档中的[Lync Server 2013 中的外部用户访问方案](lync-server-2013-scenarios-for-external-user-access.md)。
+此表遵照规划部分中提供的参考体系结构。 有关详细信息，请参阅规划文档中的 [Lync Server 2013 中的外部用户访问方案](lync-server-2013-scenarios-for-external-user-access.md) 。
 
 <div id="sectionSection0" class="section">
 
@@ -114,16 +116,16 @@ _**上次修改的主题：** 2012-11-07_
 <p>fe02.contoso.net</p>
 <p>fe03.contoso.net</p>
 <p>…</p></td>
-<td><p>Pool01 前端服务器（节点1）。</p>
-<p>Pool01 前端服务器（节点2）。</p>
-<p>Pool01 前端服务器（节点3）。</p>
+<td><p>Pool01 前端服务器 (节点 1) 。</p>
+<p>Pool01 前端服务器 (节点 2) 。</p>
+<p>Pool01 前端服务器 (节点 3) 。</p>
 <p>…</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS</p></td>
 <td><p>A</p></td>
 <td><p>fe02.contoso.net</p></td>
-<td><p>Pool01 前端服务器（节点2）。</p></td>
+<td><p>Pool01 前端服务器 (节点 2) 。</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS</p></td>
@@ -153,20 +155,20 @@ _**上次修改的主题：** 2012-11-07_
 <td><p>内部 DNS</p></td>
 <td><p>A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>内部发布的电话拨入式会议的简单 URL –前端服务器（如果已安装，则为 Director）响应简单 URL 查询。</p></td>
+<td><p>内部发布的电话拨入式会议的简单 URL –前端服务器 (或控制器，如果安装) 对简单 URL 查询做出响应。</p></td>
 </tr>
 <tr class="even">
 <td><p>内部 DNS</p></td>
 <td><p>A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>在内部发布的会议的简单 URL –前端服务器（如果已安装，则为 Director）响应简单 URL 查询。</p></td>
+<td><p>用于内部发布的会议的简单 URL –前端服务器 (或控制器，如果安装) 响应简单 URL 查询。</p></td>
 </tr>
 <tr class="odd">
 <td><p>内部 DNS</p></td>
 <td><p>A</p></td>
 <td><p>admin.contoso.com</p>
 <p>admin</p></td>
-<td><p>可选记录，Lync Server 2013 控制面板的简单 URL 发布在内部-前端服务器（如果已安装，则为 Director）响应简单 URL 查询。 建议只使用主机名（无域名）。</p></td>
+<td><p>可选记录、Lync Server 2013 控制面板的简单 URL 发布内部-前端服务器 (或控制器，如果安装) 响应简单 URL 查询。 建议只使用主机名（无域名）。</p></td>
 </tr>
 </tbody>
 </table>
@@ -212,7 +214,7 @@ _**上次修改的主题：** 2012-11-07_
 <tr class="odd">
 <td><p>内部 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls _tcp .com</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp .com</p></td>
 <td><p>pool01.contoso.com</p></td>
 <td><p>5061</p></td>
 <td><p>自动配置 Lync 2013 客户端以在内部工作的必需。</p></td>
@@ -220,7 +222,7 @@ _**上次修改的主题：** 2012-11-07_
 <tr class="even">
 <td><p>内部 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls _tcp .com</p></td>
+<td><p>_sipinternaltls _sipinternaltls._tcp .com</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
 <td><p>自动配置 Lync 2013 客户端以在内部工作的必需。</p></td>
@@ -228,10 +230,10 @@ _**上次修改的主题：** 2012-11-07_
 <tr class="odd">
 <td><p>内部 DNS</p></td>
 <td><p>SRV</p></td>
-<td><p>_ntp _udp .com</p></td>
+<td><p>_ntp _ntp._udp .com</p></td>
 <td><p>dc01.contoso.com</p></td>
 <td><p>123</p></td>
-<td><p>运行 Lync Phone Edition 的设备所需的网络时间协议（NTP）源。 在内部，它应指向域控制器。 如果未定义域控制器，则会尝试使用 NTP 服务器 time.windows.com。</p></td>
+<td><p>运行 Lync Phone Edition 的设备所需的网络时间协议 (NTP) 源。 在内部，它应指向域控制器。 如果未定义域控制器，则会尝试使用 NTP 服务器 time.windows.com。</p></td>
 </tr>
 </tbody>
 </table>

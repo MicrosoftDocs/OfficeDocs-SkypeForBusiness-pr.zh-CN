@@ -12,20 +12,22 @@ ms:contentKeyID: 63969584
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fc6c9f3ef4a89fd1e4698cd8dc456ecb34e4304
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2cdf0c4d974732b75a7ff83022c6bfbf1c4d8e80
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194345"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532929"
 ---
+# <a name="test-web-app-access-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Web 应用程序访问
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="test-web-app-access-in-lync-server-2013"></a>在 Lync Server 2013 中测试 Web 应用程序访问
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-07_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsWebApp cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsWebApp cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebApp&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,11 +66,11 @@ _**上次修改的主题：** 2014-06-07_
 
 <div>
 
-## <a name="description"></a>Description
+## <a name="description"></a>说明
 
-CsWebApp cmdlet 验证已通过身份验证的用户是否可以使用 Lync Web App 加入 Lync Server 会议。 运行 cmdlet 时，CsWebApp 会与 Web 票证服务联系，以获取指定用户的 web 票证。 这些票证可有效地充当 Lync Server 会议的 "许可票证"。 如果可以检索票证，并且可以对用户进行身份验证，则 CsWebApp 将与 Lync Server 联系，并尝试为即时消息、应用程序共享和数据协作建立单独的会议。
+Test-CsWebApp cmdlet 验证已通过身份验证的用户是否可以使用 Lync Web App 加入 Lync Server 会议。 运行 cmdlet 时，Test-CsWebApp 与 Web 票证服务联系，以获取指定用户的 Web 入场券。 这些票证可有效地充当 Lync Server 会议的 "许可票证"。 如果可以检索票证，并且可以对用户进行身份验证，则 Test-CsWebApp 将与 Lync Server 联系，并尝试为即时消息、应用程序共享和数据协作建立单独的会议。
 
-请注意，CsWebApp 只验证用于创建这些会议的 Api 和连接。 此 cmdlet 旨在验证 Lync Web App 是否可用于创建和加入会议。 但是，它实际上并不创建和开展会议。
+请注意，Test-CsWebApp 只验证用于创建这些会议的 Api 和连接。 此 cmdlet 旨在验证 Lync Web App 是否可用于创建和加入会议。 但是，它实际上并不创建和开展会议。
 
 </div>
 
@@ -76,18 +78,18 @@ CsWebApp cmdlet 验证已通过身份验证的用户是否可以使用 Lync Web 
 
 ## <a name="running-the-test"></a>运行测试
 
-CsWebApp cmdlet 可使用一对预配置的测试帐户或任何两个已启用 Lync Server 的用户的帐户运行。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的完全限定的域名即可。 例如：
+可以使用一对预配置的测试帐户或任何两个已启用 Lync Server 的用户的帐户运行 Test-CsWebApp cmdlet。 若要使用测试帐户运行此检查，只需指定要测试的 Lync Server 池的完全限定的域名即可。 例如：
 
     Test-CsWebApp -TargetFqdn "atl-cs-001.litwareinc.com"
 
-若要使用实际用户帐户运行此检查，必须为每个帐户创建两个 Windows PowerShell 凭据对象（包含帐户名和密码的对象）。 在调用 CsWebApp 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
+若要使用实际用户帐户运行此检查，必须为每个帐户 (包含帐户名称和密码) 的对象创建两个 Windows PowerShell 凭据对象。 在调用 CsWebApp 时，必须包括这些凭据对象和两个帐户的 SIP 地址：
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
     
     Test-CsWebApp -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $cred1 -User2SipAddress "sip:pilar@litwareinc.com" -User2Credential $cred2
 
-有关详细信息，请参阅[CsWebApp](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp) cmdlet 的帮助主题。 请注意，CsWebApp 已弃用，无法在 Lync Server 2013 上使用。
+有关详细信息，请参阅 [CsWebApp](https://docs.microsoft.com/powershell/module/skype/Test-CsWebApp) cmdlet 的帮助主题。 请注意，Test-CsWebApp 已弃用，无法在 Lync Server 2013 上使用。
 
 </div>
 
@@ -95,7 +97,7 @@ CsWebApp cmdlet 可使用一对预配置的测试帐户或任何两个已启用 
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果 CsWebApp 可以将用户加入其会议，该 cmdlet 将返回测试结果成功：
+如果 Test-CsWebApp 可以将用户加入其会议，则 cmdlet 将返回测试结果 "成功"：
 
 目标 Fqdn：
 
@@ -107,7 +109,7 @@ CsWebApp cmdlet 可使用一对预配置的测试帐户或任何两个已启用 
 
 诊断
 
-如果用户无法加入必需的会议，则测试结果将被标记为 "失败"。 通常情况下，CsWebApp 还将报告回详细的错误消息和诊断：
+如果用户无法加入必需的会议，则测试结果将被标记为 "失败"。 通常 Test-CsWebApp 还将报告回详细的错误消息和诊断：
 
 目标 Fqdn： atl-cs-001.litwareinc.com
 
@@ -115,7 +117,7 @@ CsWebApp cmdlet 可使用一对预配置的测试帐户或任何两个已启用 
 
 延迟：00:00:00
 
-错误消息：没有为 Web 票证服务收到任何响应
+错误消息：未收到 Web-Ticket 服务的响应
 
 诊断： HTTP 请求未通过客户端授权
 
@@ -129,7 +131,7 @@ CsWebApp cmdlet 可使用一对预配置的测试帐户或任何两个已启用 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-测试 CsWebApp 故障通常涉及用户身份验证错误。 如果 CsWebApp 失败，应首先验证指定的用户是否具有有效的用户帐户，并且是否已为 Lync Server 启用。 您可以使用与以下内容类似的命令检索帐户信息：
+Test-CsWebApp 故障通常涉及到用户身份验证错误。 如果 Test-CsWebApp 失败，应首先验证指定的用户是否具有有效的用户帐户，并且是否为 Lync Server 启用了。 您可以使用与以下内容类似的命令检索帐户信息：
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 

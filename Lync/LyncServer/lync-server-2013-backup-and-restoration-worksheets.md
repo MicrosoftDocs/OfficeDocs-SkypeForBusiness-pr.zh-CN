@@ -12,20 +12,22 @@ ms:contentKeyID: 51541460
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fcf163893a84e4b9244e43b12c702cf0076b1ed
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 161a8577558705c773974b1cc733337b29b6dbd5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42196025"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532619"
 ---
+# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Lync Server 2013 的备份和还原工作表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-worksheets-for-lync-server-2013"></a>Lync Server 2013 的备份和还原工作表
+
 
 </div>
 
@@ -72,12 +74,12 @@ _**上次修改的主题：** 2013-02-18_
 <thead>
 <tr class="header">
 <th>数据库</th>
-<th>服务器名称（FQDN）</th>
+<th> (FQDN) 的服务器名称</th>
 <th>备份计划</th>
 <th>数据库备份工具</th>
 <th>备份集</th>
 <th>备份目标</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
@@ -93,7 +95,7 @@ _**上次修改的主题：** 2013-02-18_
 <td><p>                    </p></td>
 </tr>
 <tr class="even">
-<td><p>存档数据库服务器上的 LcsLog （默认名称）数据库</p></td>
+<td><p>存档数据库服务器上的 LcsLog (默认名称) 数据库</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>SQL Server 管理工具</p></td>
@@ -103,7 +105,7 @@ _**上次修改的主题：** 2013-02-18_
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p>用于监视数据库服务器上的呼叫详细信息记录（Cdr）的 LcsCdr 数据库</p></td>
+<td><p>监视数据库服务器上的 LcsCdr 数据库中的呼叫详细信息记录 (Cdr) </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>SQL Server 管理工具</p></td>
@@ -113,7 +115,7 @@ _**上次修改的主题：** 2013-02-18_
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p>监控数据库服务器上的 QoEMetrics 数据库的体验质量（QoE）数据</p></td>
+<td><p>监控数据库服务器上的 QoEMetrics 数据库的体验质量 (QoE) 数据</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p>SQL Server 管理工具</p></td>
@@ -126,7 +128,7 @@ _**上次修改的主题：** 2013-02-18_
 <td><p>持久聊天数据库</p></td>
 <td></td>
 <td></td>
-<td><p>SQL Server 管理工具或<strong>export-cspersistentchatdata</strong> cmdlet</p></td>
+<td><p>SQL Server 管理工具或 <strong>export-cspersistentchatdata</strong> cmdlet</p></td>
 <td><p>别名</p>
 <p>时间</p></td>
 <td></td>
@@ -140,7 +142,7 @@ _**上次修改的主题：** 2013-02-18_
 
   - Rtcdyn. 此数据库中的临时用户数据不是还原服务所必需的。
 
-  - Rtcab. 通讯簿数据库将自动在 Active Directory 域服务中的全局地址列表（GAL）中重新创建。
+  - Rtcab. 通讯簿数据库将自动从 Active Directory 域服务中 (GAL) 的全局地址列表中重新创建。
 
   - Rgsdyn. 此数据库中的临时响应组服务数据不是还原服务所必需的。
 
@@ -171,12 +173,12 @@ _**上次修改的主题：** 2013-02-18_
 <thead>
 <tr class="header">
 <th>内容</th>
-<th>服务器名称（FQDN）</th>
+<th> (FQDN) 的服务器名称</th>
 <th>备份计划</th>
 <th>文件系统备份工具</th>
 <th>要备份的文件共享 *</th>
 <th>备份目标</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
@@ -216,17 +218,17 @@ _**上次修改的主题：** 2013-02-18_
 <thead>
 <tr class="header">
 <th>数据库</th>
-<th>服务器名称（FQDN）</th>
+<th> (FQDN) 的服务器名称</th>
 <th>备份计划</th>
 <th>备份工具</th>
-<th>配置文件（.xml）名称</th>
+<th>配置文件 ( .xml) 名称</th>
 <th>备份位置</th>
-<th>备注</th>
+<th>注释</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>用于拓扑配置的中央管理存储中的 Xds 数据库（全局）</p></td>
+<td><p>用于拓扑配置 (全局) 的中央管理存储中的 Xds 数据库</p></td>
 <td><p>                    </p></td>
 <td><p>                    </p></td>
 <td><p><strong>CsConfiguration</strong> cmdlet</p></td>
@@ -235,7 +237,7 @@ _**上次修改的主题：** 2013-02-18_
 <td><p>                   </p></td>
 </tr>
 <tr class="even">
-<td><p>E9-1-1 位置信息（全局）的中央管理存储中的 .lis 数据库</p></td>
+<td><p>E9 的中央管理存储中的 .lis 数据库-1-1 位置信息 (全局) </p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p><strong>CsLisConfiguration</strong> cmdlet</p></td>
@@ -244,7 +246,7 @@ _**上次修改的主题：** 2013-02-18_
 <td><p>                    </p></td>
 </tr>
 <tr class="odd">
-<td><p>用于响应组配置的后端服务器上的 RgsConfig 数据库（池）</p></td>
+<td><p> (池) 的后端服务器上的 RgsConfig 数据库的响应组配置</p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 <td><p><strong>CsRgsConfiguration</strong> cmdlet</p></td>

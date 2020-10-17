@@ -12,20 +12,22 @@ ms:contentKeyID: 48184403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6db93ea1b09e50d48ee5e0276d90e3db3975e9fe
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: f94f926193fe6a0ac389f5aed6e5cc2f9eb536a8
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213318"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533129"
 ---
+# <a name="errordef-table-in-lync-server-2013"></a>Lync Server 2013 中的 ErrorDef 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errordef-table-in-lync-server-2013"></a>Lync Server 2013 中的 ErrorDef 表
+
 
 </div>
 
@@ -78,11 +80,11 @@ ErrorDef 表存储可能出现的每种错误类型的相关信息。 每条记�
 <td><p><strong>CallTypeId</strong></p></td>
 <td><p>Int</p></td>
 <td><p>对外</p></td>
-<td><p>呼叫的类型。 有关详细信息，请参阅<a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a>。</p></td>
+<td><p>呼叫的类型。 有关详细信息，请参阅 <a href="lync-server-2013-calltype-table.md">Lync Server 2013 中的 CallType 表</a> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RequestType</strong></p></td>
-<td><p>varbinary （33）</p></td>
+<td><p>varbinary (33) </p></td>
 <td><p> </p></td>
 <td><p>失败的请求的类型。</p>
 <p>可以使用以下语法将此数据转换为文本格式：</p>
@@ -90,7 +92,7 @@ ErrorDef 表存储可能出现的每种错误类型的相关信息。 每条记�
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>varbinary （257）</p></td>
+<td><p>varbinary (257) </p></td>
 <td><p> </p></td>
 <td><p>失败的请求的内容类型。</p>
 <p>可以使用此 syntaxt 将此数据转换为文本格式：</p>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3052aa95aa6cd846717aa98c5778531aeee6f7e2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 7f21535c1806223e7687ceb24ee94a93fe15238d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213328"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533149"
 ---
+# <a name="errorcategory-table-in-lync-server-2013"></a>Lync Server 2013 中的 ErrorCategory 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="errorcategory-table-in-lync-server-2013"></a>Lync Server 2013 中的 ErrorCategory 表
+
 
 </div>
 
@@ -72,7 +74,7 @@ ErrorCategory 表包含每个 Microsoft Lync Server 2013 诊断分类的友好�
 </tr>
 <tr class="even">
 <td><p><strong>名称</strong></p></td>
-<td><p>nvarchar （256）</p></td>
+<td><p>nvarchar (256) </p></td>
 <td></td>
 <td><p>分配给分类的值和友好名称。允许的值有：</p>
 <ul>

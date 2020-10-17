@@ -12,20 +12,22 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e2df5d01ff4aa6227091d7851b086fc55ff95e2
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1c82bb7775c43c1bdbbf9ac9c3d788227f16cb76
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44756763"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532909"
 ---
+# <a name="phase-8-decommission-legacy-pools"></a>第 8 阶段：停用旧池
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-8-decommission-legacy-pools"></a>第 8 阶段：停用旧池
+
 
 </div>
 
@@ -45,7 +47,7 @@ _**上次修改的主题：** 2016-12-08_
 
 
 > [!IMPORTANT]  
-> 若要了解如何迁移和升级 Microsoft 统一通信托管 API （UCMA）应用程序，在取消旧环境之前，请参阅<A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> 若要了解如何在取消旧环境的迁移和升级 Microsoft 统一通信托管 API (UCMA) 应用程序之前，请参阅 <A href="https://go.microsoft.com/fwlink/p/?linkid=269555">https://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 

@@ -12,20 +12,22 @@ ms:contentKeyID: 48183755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5f79437c5253365e4333e7cd064883bba968a54
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a468e74206fdc6bad8f078267688450636b8a725
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213098"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532139"
 ---
+# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-反向代理
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---reverse-proxy-in-lync-server-2013"></a>Lync Server 2013 中的 DNS 摘要-反向代理
+
 
 </div>
 
@@ -49,7 +51,7 @@ _**上次修改的主题：** 2013-03-22_
     
     未定义默认网关。
     
-    确保从包含反向代理内部接口的网络到包含 Lync Server 前端池服务器的任何网络的路由（例如，从172.25.33.0 到192.168.10.0）。
+    确保有一个从包含反向代理内部接口的网络到包含 Lync Server 前端池服务器的任何网络的路由 (例如，从172.25.33.0 到 192.168.10.0) 。
 
   - **网络适配器 2（外部接口）** 示例
     
@@ -89,7 +91,7 @@ _**上次修改的主题：** 2013-03-22_
 <div>
 
 > [!IMPORTANT]  
-> 定义和发布控制器的 DNS 记录不是前端池或控制器决策。 如果您使用的是控制器，则必须定义并发布 Director 和前端池外部 web 服务。 如果在拓扑中定义了特定的流量类型（用于身份验证和其他使用），则会先将其发送给控制器。
+> 定义和发布控制器的 DNS 记录不是前端池或控制器决策。 如果您使用的是控制器，则必须定义并发布 Director 和前端池外部 web 服务。 若要将特定的流量类型 (用于身份验证和其他使用) 将首先发送到控制器，前提是它是在拓扑中定义的。
 
 
 </div></td>

@@ -12,20 +12,22 @@ ms:contentKeyID: 48185794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eca6b5c2b4bb88ed1b611eedd831c5c30d14bbb2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d99618d5221bb15d3e670a010c1894c69c17ed4d
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205618"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532199"
 ---
+# <a name="create-location-policies-in-lync-server-2013"></a>在 Lync Server 2013 中创建位置策略
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-location-policies-in-lync-server-2013"></a>在 Lync Server 2013 中创建位置策略
+
 
 </div>
 
@@ -43,7 +45,7 @@ Lync Server 使用位置策略在客户端注册过程中为 E9-1-1 启用 Lync 
 
 要创建位置策略，必须使用 RTCUniversalServerAdmins 组成员或 CsVoiceAdministrator 管理角色成员的帐户，或者具有等效管理员权限的帐户。
 
-有关位置策略的完整说明，请参阅[定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。 此过程中的 Cmdlet 使用下列值定义的位置策略：
+有关位置策略的完整说明，请参阅 [定义 Lync Server 2013 的位置策略](lync-server-2013-defining-the-location-policy.md)。 此过程中的 Cmdlet 使用下列值定义的位置策略：
 
 
 <table>
@@ -100,7 +102,7 @@ Lync Server 使用位置策略在客户端注册过程中为 E9-1-1 启用 Lync 
 </tr>
 <tr class="odd">
 <td><p>LocationRefreshInterval</p></td>
-<td><p><strong>双面</strong></p></td>
+<td><p><strong>2</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -108,15 +110,15 @@ Lync Server 使用位置策略在客户端注册过程中为 E9-1-1 启用 Lync 
 
 有关使用位置策略的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
-  - 新 New-cslocationpolicy
+  - New-CsLocationPolicy
 
-  - New-cslocationpolicy
+  - Get-CsLocationPolicy
 
-  - New-cslocationpolicy
+  - Set-CsLocationPolicy
 
-  - New-cslocationpolicy
+  - Remove-CsLocationPolicy
 
-  - Grant-New-cslocationpolicy
+  - Grant-CsLocationPolicy
 
 <div>
 

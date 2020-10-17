@@ -12,20 +12,22 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c783a79c6d3ed3cd0af47d53d136a47585cb94d0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 051b7f483ec3e3a59d5025c670b63b97765016b5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205628"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532299"
 ---
+# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>在 Lync Server 2013 中为托管 Exchange UM 创建联系人对象
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>在 Lync Server 2013 中为托管 Exchange UM 创建联系人对象
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-09-24_
 
 以下过程介绍如何为托管 Exchange 统一消息 (UM) 创建自动助理 (AA) 或订阅者访问 (SA) 联系人对象。
 
-有关详细信息，请参阅规划文档中的在[Lync Server 2013 中托管 Exchange 联系人对象管理](lync-server-2013-hosted-exchange-contact-object-management.md)。
+有关详细信息，请参阅规划文档中的在 [Lync Server 2013 中托管 Exchange 联系人对象管理](lync-server-2013-hosted-exchange-contact-object-management.md) 。
 
 有关配置 contact 对象的详细信息，请参阅 Lync Server 命令行管理程序文档中的以下 cmdlet：
 
@@ -51,7 +53,7 @@ _**上次修改的主题：** 2012-09-24_
 
 
 > [!IMPORTANT]  
-> 在 Lync Server 2013 中可以为托管 Exchange UM 启用联系人对象之前，必须部署适用于这些对象的托管语音邮件策略。 有关详细信息，请参阅<A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。
+> 在 Lync Server 2013 中可以为托管 Exchange UM 启用联系人对象之前，必须部署适用于这些对象的托管语音邮件策略。 有关详细信息，请参阅 <A href="lync-server-2013-hosted-voice-mail-policies.md">Lync Server 2013 中的托管语音邮件策略</A>。
 
 
 
@@ -75,7 +77,7 @@ _**上次修改的主题：** 2012-09-24_
     
     这些示例设置了以下参数：
     
-      - **SipAddress** 指定联系人对象的 SIP 地址。 该地址必须是尚未在 Active Directory 域服务中用于配置用户或联系人对象的地址。 此值必须采用 "sip：\<*sip 地址*\>" 的格式，如前面的示例中所示。
+      - **SipAddress** 指定联系人对象的 SIP 地址。 该地址必须是尚未在 Active Directory 域服务中用于配置用户或联系人对象的地址。 此值必须采用 "sip：" 格式， \<*SIP address*\> 如前面的示例中所示。
     
       - **RegistrarPool** 指定运行 Registrar 服务的池的完全限定域名 (FQDN)。
         

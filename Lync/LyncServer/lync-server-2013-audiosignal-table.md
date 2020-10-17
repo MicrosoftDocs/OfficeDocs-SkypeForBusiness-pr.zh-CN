@@ -12,20 +12,22 @@ ms:contentKeyID: 48183217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de07393ef9f43346d0c1b4c96dcfdcf33f00513a
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2605bfbd3e1d4023c013557aea2bcf75404fb23c
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195835"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533509"
 ---
+# <a name="audiosignal-table-in-lync-server-2013"></a>Lync Server 2013 中的 AudioSignal 表
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="audiosignal-table-in-lync-server-2013"></a>Lync Server 2013 中的 AudioSignal 表
+
 
 </div>
 
@@ -125,26 +127,26 @@ _**上次修改的主题：** 2013-11-12_
 </tr>
 <tr class="even">
 <td><p><strong>AudioTimestampDriftRateMic</strong></p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p> </p></td>
 <td><p>麦克风设备时钟相对于 CPU 时钟的速度偏移速率。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AudioTimestampDriftRateSpk</strong></p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p> </p></td>
 <td><p>扬声器设备时钟相对于 CPU 时钟的速度偏移速率。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AudioTimestampErrorMicMs</strong></p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p> </p></td>
 <td><p>扬声器设备时钟相对于 CPU 时钟的速度偏移速率。</p>
 <p>呼叫的最后20秒内的麦克风捕获流的平均时间戳错误（以毫秒为单位）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AudioTimestampErrorSpkMs</strong></p></td>
-<td><p>小数（9，2）</p></td>
+<td><p>十进制 (9，2) </p></td>
 <td><p> </p></td>
 <td><p>平均扬声器在呼叫的最后20秒内呈现流时间戳错误（以毫秒为单位）。</p></td>
 </tr>
@@ -175,13 +177,13 @@ _**上次修改的主题：** 2013-11-12_
 </tr>
 <tr class="even">
 <td><p><strong>EchoPercentMicIn</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td><p> </p></td>
 <td><p>在麦克风捕获流中检测到回显的时间的百分比。 通常情况下，耳机或话机的值较低，对于扬声器电话或独立扬声器，值较高。 对于支持板载音频回声取消的设备，高值表示回显泄漏。 对于其他设备，不应使用此指标来评估设备质量。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EchoPercentSend</strong></p></td>
-<td><p>decimal （5，2）</p></td>
+<td><p>十进制 (5、2) </p></td>
 <td></td>
 <td><p>在发送的流中检测到回显的时间的百分比。 发送流中的高回显百分比指示回声泄漏。</p></td>
 </tr>
@@ -201,13 +203,13 @@ _**上次修改的主题：** 2013-11-12_
 <td><p><strong>RxAvgAGCGain</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>中介服务器端的自动增益控制（AGC）。</p></td>
+<td><p>中介服务器端 (AGC) 的自动增益控制。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>InitialSignalLevelRMS</strong></p></td>
-<td><p>点数</p></td>
+<td><p>float</p></td>
 <td><p> </p></td>
-<td><p>呼叫的前30秒内传入信号的根平均平方（RMS）。</p></td>
+<td><p>最高为呼叫的前30秒的传入信号的根平均平方 (RMS) 。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvSignalLevelCh1</strong></p></td>

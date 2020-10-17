@@ -12,20 +12,22 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900421ed081d5fb8e37fb6b23ddbb80dc85963eb
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 96eee88d6055d7a66d858dc5c6324a2592616ceb
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188085"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532639"
 ---
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Lync Server 2013 中的备份和还原要求：工具和权限
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-tools-and-permissions"></a>Lync Server 2013 中的备份和还原要求：工具和权限
+
 
 </div>
 
@@ -72,9 +74,9 @@ _**上次修改的主题：** 2013-02-17_
 <td><p>Export-CsRgsConfiguration</p></td>
 </tr>
 <tr class="even">
-<td><p>持久性用户数据（Rtcxds 数据库）</p>
+<td><p>永久性用户数据 (Rtcxds 数据库) </p>
 <p>会议 ID</p></td>
-<td><p>Export-Export-csuserdata</p></td>
+<td><p>Export-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><ul>
@@ -85,8 +87,8 @@ _**上次修改的主题：** 2013-02-17_
 <td><p>SQL Server 数据库工具，例如 SQL Server Management Studio</p></td>
 </tr>
 <tr class="even">
-<td><p>持久聊天数据库（Mgc）</p></td>
-<td><p>SQL Server 备份过程或 Export-cspersistentchatdata。 Export-Export-cspersistentchatdata 将持久聊天数据导出为文件。</p></td>
+<td><p>持久聊天数据库 (Mgc) </p></td>
+<td><p>SQL Server 备份过程或 Export-cspersistentchatdata。 Export-CsPersistentChatData 将持久聊天数据作为文件导出。</p></td>
 </tr>
 <tr class="odd">
 <td><p>所有文件存储： Lync Server 文件存储、存档文件存储</p>
@@ -156,21 +158,21 @@ _**上次修改的主题：** 2013-02-17_
 
 
 </div></td>
-<td><p>CsConfigurationStoreLocation</p></td>
+<td><p>Set-CsConfigurationStoreLocation</p></td>
 </tr>
 <tr class="odd">
-<td><p>将拓扑、策略和配置设置导入到中央管理存储（Xds）</p></td>
+<td><p>将拓扑、策略和配置设置导入到中央管理存储中 (Xds) </p></td>
 <td><p>Import-CsConfiguration</p></td>
 </tr>
 <tr class="even">
 <td><p>发布和启用拓扑</p></td>
 <td><p>拓扑生成器</p>
-<p>- 或 -</p>
-<p>发布-Enable-cstopology 和 Enable-Enable-cstopology</p></td>
+<p>-或者-</p>
+<p>Publish-CsTopology 和 Enable-CsTopology</p></td>
 </tr>
 <tr class="odd">
 <td><p>启用上一次发布的拓扑</p></td>
-<td><p>Enable-Enable-cstopology</p></td>
+<td><p>Enable-CsTopology</p></td>
 </tr>
 <tr class="even">
 <td><p>重新安装 Lync Server 组件</p></td>
@@ -178,7 +180,7 @@ _**上次修改的主题：** 2013-02-17_
 <div>
 
 > [!NOTE]  
-> 位于 \setup\amd64\Setup.exe. 的 Lync Server 安装文件夹或媒体中
+> 位于 \setup\amd64\Setup.exe 的 Lync Server 安装文件夹或媒体中。
 
 
 </div></td>
@@ -188,8 +190,8 @@ _**上次修改的主题：** 2013-02-17_
 <td><p>Import-CsLisConfiguration</p></td>
 </tr>
 <tr class="even">
-<td><p>还原永久性用户数据（Rtcxds）</p></td>
-<td><p>Import-Export-csuserdata</p></td>
+<td><p>将永久性用户数据还原 (Rtcxds) </p></td>
+<td><p>Import-CsUserData</p></td>
 </tr>
 <tr class="odd">
 <td><p>还原响应组配置数据 (RgsConfig.mdf)</p></td>
@@ -197,7 +199,7 @@ _**上次修改的主题：** 2013-02-17_
 <div>
 
 > [!NOTE]  
-> 如果要在数据库中没有响应组数据的新部署的池中还原配置，则应使用– OverwriteOwner 选项。 即使要还原的数据位于具有相同完全限定域名（FQDN）的池中，也可使用此选项。 否则，导入将不会成功，原因是 Active Directory 中已存在响应组的联系人对象。
+> 如果要在数据库中没有响应组数据的新部署的池中还原配置，则应使用– OverwriteOwner 选项。 即使要还原的数据位于具有相同完全限定域名的池中 (FQDN) ，也可使用此选项。 否则，导入将不会成功，原因是 Active Directory 中已存在响应组的联系人对象。
 
 
 </div></td>
@@ -211,8 +213,8 @@ _**上次修改的主题：** 2013-02-17_
 <td><p>SQL Server 数据库管理工具</p></td>
 </tr>
 <tr class="odd">
-<td><p>持久聊天数据库（Mgs）</p></td>
-<td><p>SQL Server 还原过程或 Export-cspersistentchatdata。 可以将 Export-cspersistentchatdata 与由 Export Export-cspersistentchatdata 创建的文件结合使用，并将数据导入到持久聊天数据库中。</p></td>
+<td><p>持久聊天数据库 (Mgs) </p></td>
+<td><p>SQL Server 还原过程或 Export-cspersistentchatdata。 您可以将 Import-CsPersistentChatData 与 Export-cspersistentchatdata 创建的文件结合使用，并将数据导入到持久聊天数据库中。</p></td>
 </tr>
 </tbody>
 </table>
@@ -224,7 +226,7 @@ _**上次修改的主题：** 2013-02-17_
 
 ## <a name="required-permissions"></a>所需权限
 
-用户必须是**RTCUniversalServerAdmins**组的成员，才能执行本主题中所述的所有命令。 大多数备份和还原命令不支持基于角色的访问控制（RBAC）。 两个例外是持久的聊天 cmdlet Export-cspersistentchatdata 和 Export-cspersistentchatdata，它必须由作为 CsPersistentChatAdministrator 组成员的用户运行。 若要运行 Lync Server 部署向导，用户还必须是本地管理员组的成员。
+用户必须是 **RTCUniversalServerAdmins** 组的成员，才能执行本主题中所述的所有命令。 大多数备份和还原命令不支持基于角色的访问控制 (RBAC) 。 两个例外是持久聊天 cmdlet Export-CsPersistentChatData 和 Export-cspersistentchatdata，必须由属于 CsPersistentChatAdministrator 组成员的用户运行。 若要运行 Lync Server 部署向导，用户还必须是本地管理员组的成员。
 
 </div>
 

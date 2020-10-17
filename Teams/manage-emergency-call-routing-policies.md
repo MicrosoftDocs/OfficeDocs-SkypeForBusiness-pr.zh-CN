@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 f1.keywords:
 - NOCSH
+- ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
 ms.collection:
 - M365-voice
 appliesto:
@@ -20,12 +21,12 @@ description: 了解如何使用和管理 Microsoft 团队中的紧急呼叫路�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 67ef3bb5700c223f3057ef0ba44c9df07a2e7be6
-ms.sourcegitcommit: c69ab11b701a4833179b8479bc3204dfd4412096
+ms.openlocfilehash: 2ec28dfa2e3e3c685ea70d882c4dd6d4d342ec7f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48217693"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532749"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>管理 Microsoft 团队中的紧急呼叫路由策略
 

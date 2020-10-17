@@ -12,20 +12,22 @@ ms:contentKeyID: 48185238
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40ec1c925ef2889b381c005918efbbb5e67c2f65
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 2f58cd52da92e767357e7a0bee7f3584552c9868
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42213958"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531979"
 ---
+# <a name="file-sharing-high-availability-in-lync-server-2013"></a>Lync Server 2013 中的文件共享高可用性
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="file-sharing-high-availability-in-lync-server-2013"></a>Lync Server 2013 中的文件共享高可用性
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42213958"
 
 _**上次修改的主题：** 2012-03-30_
 
-为确保单个数据中心内的 Lync Server 文件共享具有高可用性，您可以使用分布式文件系统（DFS）。 DFS 支持同一个数据中心内从一个文件服务器到另一个文件服务器的故障转移。 对于大型部署，建议您使用通过 DFS 配对的专用文件服务器。
+为确保单个数据中心内的 Lync Server 文件共享的高可用性，可以使用分布式文件系统 (DFS) 。 DFS 支持同一个数据中心内从一个文件服务器到另一个文件服务器的故障转移。 对于大型部署，建议您使用通过 DFS 配对的专用文件服务器。
 
 根据您的网络规模和所需的恢复工作量，可以使用一对服务器来承载一个站点中的所有文件共享，也可以为每个前端池使用一对服务器。
 

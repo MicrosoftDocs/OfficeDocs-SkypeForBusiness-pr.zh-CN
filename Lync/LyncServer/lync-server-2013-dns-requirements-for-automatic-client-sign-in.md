@@ -12,20 +12,22 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e49d50173439e36bd5bb7f35f668837fe04b46b7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b421656d5fefbefa308178962f5c25b9ae72013f
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204838"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532179"
 ---
+# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Lync Server 2013 中自动客户端登录的 DNS 要求
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Lync Server 2013 中自动客户端登录的 DNS 要求
+
 
 </div>
 
@@ -54,9 +56,9 @@ _**上次修改的主题：** 2012-06-19_
     
     </div>
 
-若要为你的客户端启用自动配置，必须创建内部 DNS SRV 记录，将以下记录之一映射到前端池或 Standard Edition 服务器的完全限定域名（FQDN），以便从 Lync 分发登录请求客户端
+若要为你的客户端启用自动配置，必须创建内部 DNS SRV 记录，将以下记录之一映射到前端池或 Standard Edition 服务器的完全限定的域名 (FQDN) ，以便从 Lync 客户端分发登录请求：
 
-  - \_sipinternaltls.\_tcp。\<域\> -内部 TLS 连接数
+  - \_sipinternaltls。 \_rdp-tcp.\<domain\> -用于内部 TLS 连接
 
 您只需要为将分发登录请求的前端池或 Standard Edition Server 创建单个 SRV 记录。
 
@@ -96,7 +98,7 @@ _**上次修改的主题：** 2012-06-19_
 
 
 > [!NOTE]  
-> 默认情况下，DNS 记录的查询遵守用户名与 SRV 记录中的域之间的严格域名匹配。 如果更希望客户端 DNS 查询改用后缀匹配，可以配置 DisableStrictDNSNaming 组策略。 有关详细信息，请参阅规划文档中的在<A href="lync-server-2013-planning-for-clients-and-devices.md">Lync Server 2013 中规划客户端和设备</A>。
+> 默认情况下，DNS 记录的查询遵守用户名与 SRV 记录中的域之间的严格域名匹配。 如果更希望客户端 DNS 查询改用后缀匹配，可以配置 DisableStrictDNSNaming 组策略。 有关详细信息，请参阅规划文档中的在 <A href="lync-server-2013-planning-for-clients-and-devices.md">Lync Server 2013 中规划客户端和设备</A> 。
 
 
 
@@ -108,9 +110,9 @@ _**上次修改的主题：** 2012-06-19_
 
 本示例使用上表中相同的示例名称。Contoso 组织支持 contoso.com 和 retail.contoso.com 这两个 SIP 域，该组织的所有用户都具有下列某种形式的 SIP URI：
 
-  - \<用户\>@retail contoso.com
+  - \<user\>@retail contoso.com
 
-  - \<用户\>@contoso .com
+  - \<user\>@contoso .com
 
 </div>
 

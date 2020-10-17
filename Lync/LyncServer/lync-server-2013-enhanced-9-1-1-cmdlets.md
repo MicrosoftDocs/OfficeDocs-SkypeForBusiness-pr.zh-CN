@@ -12,20 +12,22 @@ ms:contentKeyID: 48185650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6afb04e0eabcc1c45ae8b0be3904a333852e843
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6bdea8e9aeed89a52b6e288be00afb9ed5fbeb27
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42207703"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533209"
 ---
+# <a name="enhanced-9-1-1-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中增强的 9-1-1 cmdlet
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enhanced-9-1-1-cmdlets-in-lync-server-2013"></a>Lync Server 2013 中增强的 9-1-1 cmdlet
+
 
 </div>
 
@@ -37,7 +39,7 @@ ms.locfileid: "42207703"
 
 _**上次修改的主题：** 2012-06-20_
 
-Microsoft Lync Server 2013 随附的 cmdlet 允许您实施和管理企业语音解决方案的增强型9-1-1 （E9-1-1）实现。 使用这些 cmdlet 将连接点映射到物理地址，并配置企业语音用户所需的设置，以成功完成紧急呼叫并将位置自动发送给紧急服务提供商。 无法配置 Lync Server 控制面板中的 E9-1-1，必须使用 cmdlet。
+Microsoft Lync Server 2013 随附的 cmdlet 允许您实施和管理增强的 9-1-1 (E9-1-1) 企业语音解决方案的实施。 使用这些 cmdlet 将连接点映射到物理地址，并配置企业语音用户所需的设置，以成功完成紧急呼叫并将位置自动发送给紧急服务提供商。 无法配置 Lync Server 控制面板中的 E9-1-1，必须使用 cmdlet。
 
 <div>
 

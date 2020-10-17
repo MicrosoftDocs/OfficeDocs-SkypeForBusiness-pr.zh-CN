@@ -3,7 +3,7 @@ title: 从 Skype for Business 内部部署升级到团队-Microsoft 团队
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 076e96ac8cf44e05e2852ca5bdf33b42e14eb731
-ms.sourcegitcommit: 739ffd5893abf6d181877d1110f9dc8230b3bfd2
+ms.openlocfilehash: 952214d615b62d0175841e2c7b24b45f1ae2d2b1
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "48328191"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533569"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>面向 IT 管理员的团队升级工具 &mdash;
 
@@ -51,7 +51,7 @@ ms.locfileid: "48328191"
 
 你还可以将除 TeamsOnly 模式之外的任何 TeamsUpgradePolicy 模式分配给驻留在本地 Skype for business 的用户。 **TeamsOnly 模式仅可分配给已驻留在 Skype for Business Online 中的用户**。 这是因为使用 Skype for Business 用户和联盟以及 Microsoft 365 Phone 系统功能的互操作仅在用户托管在 Skype for business Online 中时才可以使用。 此外， **如果你有 Skype For business 内部部署 (，但你不能将 TeamsOnly 模式分配为租户范围内的默认值** ，这种情况由指向非 Office 365 的位置的 lyncdiscover DNS 记录检测出来。
 
-具有 Skype for business 帐户的 Skype for business 帐户的用户 [必须在线 (移动](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 到 skype For business online 或直接与团队) 使用 Skype for business 内部部署工具单中的 "移动 move-csuser"。 这些用户可以通过1个或2个步骤移到 TeamsOnly：
+具有 Skype for business 帐户的 Skype for business 帐户的用户 [必须在线 (移动](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 到 skype For business online 或直接使用 skype for business 内部部署工具中 Move-CsUser) 团队。 这些用户可以通过1个或2个步骤移到 TeamsOnly：
 
 -   1步：在 Move-csuser 中指定-MoveToTeams 开关。 这需要具有 CU8 或更高版本的 Skype for business Server 2019 或 Skype for business Server 2015。
 
@@ -69,7 +69,7 @@ Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user 
 ```
 
-若要将内部部署的 Skype for business 用户升级到 TeamsOnly 模式，请在本地工具集中使用移动 Move-csuser：
+若要将内部部署的 Skype for business 用户升级到 TeamsOnly 模式，请使用本地工具集中的 Move-CsUser：
 
 ```PowerShell
 Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
@@ -112,7 +112,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 当用户迁移到 TeamsOnly 模式时，默认情况下，他们组织的现有 Skype for Business 会议将被转换为团队。 你可以选择禁用向用户分配 TeamsOnly 模式时的默认行为。 从本地移动用户时，必须将会议迁移到云才能使用联机用户帐户运行，但如果未指定-MoveToTeams，则会议将作为 Skype for Business 会议进行迁移，而不是转换为团队。 
 
-在租户级别分配 TeamsOnly 模式时，不会为任何用户触发会议迁移。 如果你想要在租户级别分配 TeamsOnly 模式和迁移会议，则可以使用 PowerShell 获取租户中的用户列表 (例如，将 CsOnlineUser 与) 需要的任何筛选器一起使用，然后遍历这些用户中的每个用户以使用启动-CsExMeetingMigration 触发会议迁移。 有关详细信息，请参阅 [使用会议迁移服务 (MMS) ](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
+在租户级别分配 TeamsOnly 模式时，不会为任何用户触发会议迁移。 如果你想要在租户级别分配 TeamsOnly 模式和迁移会议，则可以使用 PowerShell 获取租户中的用户列表 (例如，使用 Get-CsOnlineUser 和需要的任何筛选器) 然后依次遍历这些用户以使用启动 CsExMeetingMigration 触发会议迁移。 有关详细信息，请参阅 [使用会议迁移服务 (MMS) ](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
 
 
 

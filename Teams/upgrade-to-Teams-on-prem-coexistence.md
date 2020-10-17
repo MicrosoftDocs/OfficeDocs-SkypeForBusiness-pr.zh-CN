@@ -3,7 +3,7 @@ title: 与 Microsoft 团队和 Skype for business 共存
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.date: 09/16/20
+ms.date: 09/16/2020
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5993611a383ee9b7040dfa4b74dae1b392253f
-ms.sourcegitcommit: b37632ffa22e3a6045b476c95d46889e9193a15b
+ms.openlocfilehash: 0690af8226f3f992dcc12f68c6135c953eb043f5
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47955959"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533609"
 ---
 # <a name="coexistence-with-teams-and-skype-for-business"></a>与团队和 Skype for business 共存
 
@@ -132,7 +132,7 @@ ms.locfileid: "47955959"
 
 - 对于任何 Skype for Business Online 用户，当他们第一次登录到团队时，Skype for Business 中的联系人将被复制到团队。  对于在 Skype for Business 服务器中使用本地帐户的用户，此行为不可用。  
 
-- 将用户升级到 TeamsOnly 后 (通过分配 TeamsUpgradePolicy 或通过移动 Move-csuser MoveToTeams) ，当用户下次登录到团队时，Skype for Business 中的现有联系人将与已在团队中的现有联系人合并。 无论用户的 Skype for Business 帐户是托管内部还是联机，都会发生此行为。 
+- 将用户升级到 TeamsOnly 后 (通过分配 TeamsUpgradePolicy 或通过 Move-CsUser-MoveToTeams) ，下次用户登录到团队时，Skype for Business 中的现有联系人将与已在团队中的现有联系人合并。 无论用户的 Skype for Business 帐户是托管内部还是联机，都会发生此行为。 
 
 在这两种情况下，从 Skype for Business 到团队的联系人之间的转移是异步的，因此可能需要几分钟才能使联系人显示在团队中。 上述两个事件是触发副本的起因。  
 

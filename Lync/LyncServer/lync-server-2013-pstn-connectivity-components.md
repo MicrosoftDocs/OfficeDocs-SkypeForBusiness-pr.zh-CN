@@ -12,20 +12,22 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 973962c7f52474f65766e6772647359c8089daee
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fa82336ed96c61315da4c25a0152ba75d15d7b6e
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215238"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48531739"
 ---
+# <a name="pstn-connectivity-components-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 连接组件
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="pstn-connectivity-components-in-lync-server-2013"></a>Lync Server 2013 中的 PSTN 连接组件
+
 
 </div>
 
@@ -39,7 +41,7 @@ _**上次修改的主题：** 2012-10-04_
 
 企业级 VoIP 解决方案必须以始终如一的服务质量 (QoS) 提供来往于公用电话交换网 (PSTN) 的呼叫。此外，用户在发起和接收呼叫时应不必了解底层技术。从用户的角度来看，企业语音基础结构与 PSTN 之间的呼叫应该就像是另一个 SIP 会话。
 
-对于 PSTN 连接，可以部署 SIP 中继或 PSTN 网关（带有 PBX，也称为直接 SIP 链路，或没有 PBX）。
+对于 PSTN 连接，可以使用 PBX （也称为直接 SIP 链接）或不使用 PBX) 部署 SIP 中继或 PSTN 网关 (。
 
 <div>
 
@@ -59,7 +61,7 @@ _**上次修改的主题：** 2012-10-04_
 
 ## <a name="pstn-gateways"></a>PSTN 网关
 
-PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。 PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。 中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。 有关与 Microsoft 合作以提供与 Lync Server 配合使用的设备的合作伙伴列表，请参阅 Microsoft 统一通信合作伙伴网站（网址[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)为）。
+PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和媒体的第三方设备。 PSTN 网关与中介服务器配合工作，以向企业语音客户端提交 PSTN 或 PBX 呼叫。 中介服务器还将来自企业语音客户端的呼叫提交到 PSTN 网关，以便路由到 PSTN 或 PBX。 有关与 Microsoft 合作以提供与 Lync Server 配合使用的设备的合作伙伴列表，请参阅 Microsoft 统一通信合作伙伴网站（网址为） [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836) 。
 
 </div>
 
@@ -67,7 +69,7 @@ PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和�
 
 ## <a name="private-branch-exchanges"></a>专用交换机
 
-如果您有一个使用专用交换机（PBX）的语音基础结构，则可以将您的 PBX 与 Lync Server 企业版语音结合使用。
+如果您有一个使用专用分支 exchange (PBX) 的语音基础结构，则可以将您的 PBX 与 Lync Server 企业版语音结合使用。
 
 支持的企业语音-PBX 集成方案包括：
 
@@ -81,15 +83,15 @@ PSTN 网关是在企业语音基础结构与 PSTN 或 PBX 之间转换信号和�
 
 
 > [!NOTE]  
-> 媒体绕过将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 已使用认证的合作伙伴测试了一组 PSTN 网关和 SBCs，并且已通过 Cisco IP Pbx 进行了一些测试。 仅在统一通信开放互操作性计划– Lync Server 上列出的产品和版本支持媒体<A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A>旁路。
+> 媒体绕过将不会与每个 PSTN 网关、IP-PBX 和 SBC 进行交互操作。 Microsoft 已使用认证的合作伙伴测试了一组 PSTN 网关和 SBCs，并且已通过 Cisco IP Pbx 进行了一些测试。 仅在统一通信开放互操作性计划– Lync Server 上列出的产品和版本支持媒体旁路 <A href="https://go.microsoft.com/fwlink/p/?linkid=214406">https://go.microsoft.com/fwlink/p/?linkId=214406</A> 。
 
 
 
 </div>
 
-有关提供企业语音解决方案的合作伙伴的详细信息，请参阅 Microsoft 统一通信合作伙伴网站[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)，网址为。
+有关提供企业语音解决方案的合作伙伴的详细信息，请参阅 Microsoft 统一通信合作伙伴网站，网址为 [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836) 。
 
-有关提供企业语音硬件解决方案（包括 PSTN 网关）的合作伙伴的详细信息，请参阅 Microsoft 统一[https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836)通信合作伙伴网站。
+有关提供企业语音硬件解决方案（包括 PSTN 网关）的合作伙伴的详细信息，请参阅 Microsoft 统一通信合作伙伴网站 [https://go.microsoft.com/fwlink/p/?linkId=202836](https://go.microsoft.com/fwlink/p/?linkid=202836) 。
 
 </div>
 

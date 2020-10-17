@@ -12,20 +12,22 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ce7f6855e792b5edd339ee87f2955336a943615
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: a565c09e09e10eeb160b1d0514c89499427d1283
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194325"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48532919"
 ---
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>从 Lync Server 2013 中连接到联盟域的测试能力
+
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>从 Lync Server 2013 中连接到联盟域的测试能力
+
 
 </div>
 
@@ -55,7 +57,7 @@ _**上次修改的主题：** 2014-06-05_
 <tr class="odd">
 <td><p>所需的权限</p></td>
 <td><p>在使用 Lync Server 命令行管理程序本地运行时，用户必须是 RTCUniversalServerAdmins 安全组的成员。</p>
-<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 CsFederatedPartner cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
+<p>使用 Windows PowerShell 的远程实例运行时，必须为用户分配具有运行 Test-CsFederatedPartner cmdlet 的权限的 RBAC 角色。 若要查看可使用此 cmdlet 的所有 RBAC 角色的列表，请从 Windows PowerShell 提示符处运行以下命令：</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,13 +66,13 @@ _**上次修改的主题：** 2014-06-05_
 
 <div>
 
-## <a name="description"></a>Description
+## <a name="description"></a>说明
 
-Test-CsFederatedPartner 验证您能否连接到联盟伙伴的域。 若要验证与某个域的连接，该域必须列在允许（联合）域的集合中。 您可以使用以下命令检索 "允许的域" 列表中的域列表：
+Test-CsFederatedPartner 验证您能否连接到联盟伙伴的域。 若要验证与域的连接，该域必须在允许的 (联盟) 域的集合中列出。 您可以使用以下命令检索 "允许的域" 列表中的域列表：
 
     Get-CsAllowedDomain
 
-有关详细信息，请参阅[CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。
 
 </div>
 
@@ -78,7 +80,7 @@ Test-CsFederatedPartner 验证您能否连接到联盟伙伴的域。 若要验�
 
 ## <a name="running-the-test"></a>运行测试
 
-FederatedPartner cmdlet 需要以下两条信息：边缘服务器的 FQDN 和联盟伙伴的 FQDN。 例如，以下命令将测试连接到域 contoso.com 的能力：
+Test-FederatedPartner cmdlet 需要两条信息：边缘服务器的 FQDN 和联盟伙伴的 FQDN。 例如，以下命令将测试连接到域 contoso.com 的能力：
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
@@ -86,7 +88,7 @@ FederatedPartner cmdlet 需要以下两条信息：边缘服务器的 FQDN 和�
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
-有关详细信息，请参阅[CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。
+有关详细信息，请参阅 [CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) Cmdlet 的帮助文档。
 
 </div>
 
@@ -94,7 +96,7 @@ FederatedPartner cmdlet 需要以下两条信息：边缘服务器的 FQDN 和�
 
 ## <a name="determining-success-or-failure"></a>确定成功或失败
 
-如果可以联系指定的域，则会收到类似于以下内容的输出，并将 Result 属性标记为**成功：**
+如果可以联系指定的域，则会收到类似于以下内容的输出，并将 Result 属性标记为 **成功：**
 
 TargetFqdn： atl-cs-001.litwareinc.com
 
@@ -124,7 +126,7 @@ Microsoft DiagnosticHeader
 
 例如，以前的输出表明测试因服务器超时错误而失败。 这通常指示网络连接问题或联系边缘服务器时出现问题。
 
-如果 CsFederatedPartner 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
+如果 Test-CsFederatedPartner 失败，则可能需要重新运行测试，这一次包括 Verbose 参数：
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
@@ -134,7 +136,7 @@ Microsoft DiagnosticHeader
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>测试可能失败的原因
 
-以下是测试 CsFederatedPartner 可能失败的一些常见原因：
+下面是 Test-CsFederatedPartner 可能失败的一些常见原因：
 
   - 边缘服务器可能不可用。 您可以使用以下命令来使用您的边缘服务器的 Fqdn：
     

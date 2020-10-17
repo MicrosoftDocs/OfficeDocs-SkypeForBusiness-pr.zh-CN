@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 在本文中，你将了解 Microsoft 365 和 Office 365 中的电话系统技术。
-ms.openlocfilehash: b9d44e52cbdd2384742a7473132ba3447e80e8fe
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+ms.openlocfilehash: fe04dc409f088d93d9636974bc0bd6b13a1a9f7b
+ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788416"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48533539"
 ---
 # <a name="what-is-phone-system"></a>什么是电话系统？
 
